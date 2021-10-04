@@ -16,15 +16,15 @@
         href: vscloud-billing-faq.yml
       - name: Buying for CSPs
         href: vscloud-csp.md
-    - name: Microsoft Partner Network
-      items:
-      - name: Subscriptions for partners
-        href: program-mpn.md
-      - name: Manage subscriptions for MPN
-        href: manage-mpn-subscriptions.md
-    - name: Microsoft for Startups
-      href: program-startups.md
-  - name: Sign in
+      - name: Microsoft Partner Network
+        items:
+        - name: Subscriptions for partners
+          href: program-mpn.md
+        - name: Manage subscriptions for MPN
+          href: manage-mpn-subscriptions.md
+      - name: Microsoft for Startups
+        href: program-startups.md
+  - name: Sign in to subscriber portal
     items:
     - name: Sign in with Microsoft Accounts
       href: sign-in-msa.md
@@ -45,167 +45,157 @@
   - name: Manage your subscriptions
     href: manage-vs-subscriptions.md
   - name: When subscriptions expire
-    href: subscription-expiration.md   
+    href: subscription-expiration.md 
   - name: Subscription level changes
     href: subscription-level-changes.md
-  - name: Subscriptions removed by admins
+  - name: Removed subscriptions
     href: subscription-removed.md    
-  - name: Contact your subscriptions admin
-    href: contact-my-admin.md
-  - name: Benefits
-    items:
-    - name: About benefits
-      href: about-benefits.md
-    - name: "Azure Dev/Test offers"
-      items:
-      - name: For individuals (credits)
-        items:
-        - name: Azure DevTest individual credit
-          href: vs-azure.md
-      - name: For organizations
-        items:
-        - name: Azure DevTest Pay-As-You-Go
-          href: vs-azure-payg.md
-        - name: Azure EA DevTest
-          href: azure-ea-devtest.md
-    - name: Tools
-      items:
-      - name: Azure DevOps
-        href: vs-azure-devops.md
-      - name: CAST Highlight
-        href: vs-cast.md
-      - name: CloudPilot
-        href: vs-cloudpilot.md
-      - name: GitHub Enterprise
-        href: access-github.md
-      - name: Microsoft 365 apps for enterprise
-        href: microsoft-365-apps-for-enterprise.md
-      - name: Microsoft 365 developer
-        href: vs-m365.md
-      - name: Parasoft
-        href: vs-parasoft.md
-      - name: Power BI Pro
-        href: vs-pbi.md
-      - name: Visual Studio App Center
-        href: vs-visual-studio-app-center.md
-      - name: Visual Studio IDE
-        href: vs-ide-benefit.md
-      - name: WhiteSource Bolt
-        href: vs-whitesource.md
-      - name: Windows Developer Account
-        href: vs-windows-dev.md
-      - name: Windows Virtual Desktop
-        href: vs-windows-virtual-desktop.md
-    - name: Professional development
-      items:
-      - name: CODE Magazine
-        href: vs-code-magazine.md
-      - name: DataCamp
-        href: vs-datacamp.md
-      - name: LinkedIn Learning
-        href: vs-linkedin-learning.md
-      - name: Pluralsight
-        href: vs-pluralsight.md
-    - name: Support
-      items:
-      - name: Azure Community
-        href: vs-azure-community.md
-      - name: Concierge Support
-        href: vs-concierge-chat.md
-      - name: Technical Support
-        href: vs-tech-support.md
-      - name: Developer Community
-        href: vs-developer-community.md
-      - name: Microsoft Q&A
-        href: vs-microsoft-qa.md
-      - name: Microsoft Tech Community
-        href: vs-microsoft-tech-community.md
-- name: Software and keys
+- name: Contact your subscriptions admin
+  href: contact-my-admin.md
+- name: Azure benefits
   items:
-  - name: Software downloads
+  - name: Azure DevTest individual credit
+    href: vs-azure.md
+  - name: Azure DevTest Pay-As-You-Go
+    href: vs-azure-payg.md
+  - name: Azure EA DevTest
+    href: azure-ea-devtest.md
+  - name: Azure DevOps
+    href: vs-azure-devops.md
+- name: GitHub Enterprise
+  href: access-github.md
+- name: Visual Studio IDE
+  href: vs-ide-benefit.md
+- name: Other benefits
+  items:
+  - name: About benefits
+    href: about-benefits.md
+  - name: Tools
     items:
-    - name: Product availability
-      href: product-availability.md
-    - name: Download software
-      href: download-software.md
+    - name: CAST Highlight
+      href: vs-cast.md
+    - name: CloudPilot
+      href: vs-cloudpilot.md
+    - name: Microsoft 365 apps for enterprise
+      href: microsoft-365-apps-for-enterprise.md
+    - name: Microsoft 365 developer
+      href: vs-m365.md
+    - name: Parasoft
+      href: vs-parasoft.md
+    - name: Power BI Pro
+      href: vs-pbi.md
+    - name: Visual Studio App Center
+      href: vs-visual-studio-app-center.md
+    - name: WhiteSource Bolt
+      href: vs-whitesource.md
+    - name: Windows Developer Account
+      href: vs-windows-dev.md
+    - name: Windows Virtual Desktop
+      href: vs-windows-virtual-desktop.md  
+  - name: Professional development
+    items:
+    - name: CODE Magazine
+      href: vs-code-magazine.md
+    - name: DataCamp
+      href: vs-datacamp.md
+    - name: LinkedIn Learning
+      href: vs-linkedin-learning.md
+    - name: Pluralsight
+      href: vs-pluralsight.md
+  - name: Support
+    items:
+    - name: Azure Community
+      href: vs-azure-community.md
+    - name: Concierge Support
+      href: vs-concierge-chat.md
+    - name: Technical Support
+      href: vs-tech-support.md
+    - name: Developer Community
+      href: vs-developer-community.md
+    - name: Microsoft Q&A
+      href: vs-microsoft-qa.md
+    - name: Microsoft Tech Community
+      href: vs-microsoft-tech-community.md
+- name: Software downloads
+  items:
+  - name: Product availability
+    href: product-availability.md
+  - name: Download software
+    href: download-software.md
   - name: List of available software downloads
     href: software-download-list.md
-  - name: Product keys
-    items:
-    - name: Product keys overview
-      href: product-keys.md
-    - name: Find and claim keys
-      href: find-keys.md
-    - name: Internet demonstrations
-      href: internet-demos.md
-- name: Administrators
+- name: Product keys
+  items:
+  - name: Product keys overview
+    href: product-keys.md
+  - name: Find and claim keys
+    href: find-keys.md
+  - name: Offering Internet demos and RDS
+    href: internet-demos.md
+- name: Administrator responsibilities
   items:
   - name: Administrator responsibilities
+    href: admin-responsibilities.md
+  - name: Pre-production inventory
+    href: admin-inventory.md
+  - name: Manage large teams and external contractors
+    href: manage-teams.md
+  - name: Track user assignments and process orders
+    href: assignments-orders.md
+- name: Accessing the admin portal
+  items:
+  - name: Volume License
+    href: volume-license.md
+  - name: MPSA
+    href: mpsa.md
+  - name: Cloud subscriptions
+    href: cloud-admin.md
+  - name: Partners managing for customers
+    href: open-migration.md
+  - name: 'Video tutorial: Access the admin portal'
+    href:  https://www.microsoft.com/videoplayer/embed/RE4th6L
+- name: Using the admin portal
+  items:
+  - name: Super admins and administrators
+    href: admin-roles.md
+  - name: Set agreement preferences
+    href: admin-preferences.md
+  - name: Overview
+    href: using-admin-portal.md
+  - name: Add monthly subscriptions
+    href: add-monthly-subs.md
+  - name: Assign subscriptions
     items:
-    - name: Administrator responsibilities
-      href: admin-responsibilities.md
-    - name: Pre-production inventory
-      href: admin-inventory.md
-    - name: Manage large teams and external contractors
-      href: manage-teams.md
-    - name: Track user assignments and process orders
-      href: assignments-orders.md
-  - name: Accessing the admin portal
-    items:
-    - name: Volume License
-      href: volume-license.md
-    - name: MPSA
-      href: mpsa.md
-    - name: Cloud subscriptions
-      href: cloud-admin.md
-    - name: Partners managing for customers
-      href: open-migration.md
-    - name: 'Video tutorial: Access the admin portal'
-      href:  https://www.microsoft.com/videoplayer/embed/RE4th6L
-  - name: Using the admin portal
-    items:
-    - name: Super admins and administrators
-      href: admin-roles.md
-    - name: Set agreement preferences
-      href: admin-preferences.md
-    - name: Overview
-      href: using-admin-portal.md
-    - name: Add monthly subscriptions
-      href: add-monthly-subs.md
-    - name: Assign subscriptions
-      items:
-      - name: Add single users
-        href: assign-license.md
-      - name: Add multiple users
-        href: assign-license-bulk.md
-      - name: Assign specific subscriptions
-        href: assign-guid.md
-    - name: Move subscriptions to new agreements
-      href: migrate-subscriptions.md        
-    - name: Edit subscriptions
-      href: edit-license.md
-    - name: Delete subscriptions
-      href: delete-license.md
-    - name: Search for a subscription
-      href: search-license.md
-    - name: Export subscriptions
-      href: exporting-subscriptions.md
-    - name: Overallocations
-      href: handle-overclaimed-license.md
-    - name: Maximum usage
-      href: maximum-usage.md
-    - name: What happens when agreements expire
-      href: admin-expiration.md     
-    - name: Expired subscriptions
-      href: handle-expired-license.md
-    - name: Subscriptions removed by Microsoft
-      href: account-removed.md
-    - name: 'Subscriber sign-in scenarios '
-      href: aliasing.md
-    - name: Subscribers with personal email sign-ins
-      href: personal-email-sign-ins.md
-    - name: Managing Visual Studio subscriptions with GitHub Enterprise
-      href: assign-github.md
+    - name: Add single users
+      href: assign-license.md
+    - name: Add multiple users
+      href: assign-license-bulk.md
+    - name: Assign specific subscriptions
+      href: assign-guid.md
+  - name: Move subscriptions to new agreements
+    href: migrate-subscriptions.md        
+  - name: Edit subscriptions
+    href: edit-license.md
+  - name: Delete subscriptions
+    href: delete-license.md
+  - name: Search for a subscription
+    href: search-license.md
+  - name: Export subscriptions
+    href: exporting-subscriptions.md
+  - name: Overallocations
+    href: handle-overclaimed-license.md
+  - name: Maximum usage
+    href: maximum-usage.md
+  - name: What happens when agreements expire
+    href: admin-expiration.md     
+  - name: Expired subscriptions
+    href: handle-expired-license.md
+  - name: Subscriber sign-in scenarios 
+    href: aliasing.md
+  - name: Subscribers with personal email sign-ins
+    href: personal-email-sign-ins.md
+  - name: Managing Visual Studio subscriptions with GitHub Enterprise
+    href: assign-github.md
 - name: Resources
   items:
   - name: Visual Studio licensing white paper
