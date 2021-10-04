@@ -31,7 +31,7 @@ During this phase, both admins and subscribers will continue to have access to t
 
 ### Disabled
 When your agreement reaches the end of the post-expiration period:
-- Admins and super admins will lose access to the expired agreement(s) in the [admin portal](https://manage.visualstudio.com).  They will not be able to make any changes to subscriptions within the agreement.  (Access to any other current agreements in the admin portal will remain unaffected.  Access to the [Get help](https://manage.visualstudio.com.gethelp) page will also continue to be available.)
+- Admins and super admins will lose access to the expired agreement(s) in the [admin portal](https://manage.visualstudio.com).  They will not be able to make any changes to subscriptions within the agreement.  (Access to any other current agreements in the admin portal will remain unaffected.  Access to the [Get help](https://manage.visualstudio.com/gethelp) page will also continue to be available.)
 - Subscribers will lose access to the expired subscription in the [subscriber portal](https://my.visualstudio.com).  If they have any other subscriptions assigned to them as part of another agreement, those subscriptions will not be affected. Thirty days after a Visual Studio subscription is disabled, any Azure subscriptions that rely on the Visual Studio subscription will also be removed, so it's vital that subscribers move their Azure assets to another valid subscription if they wish to retain them.  Azure has its own notification process that will help guide subscribers in this case.  
 
 ## Preserving your information
