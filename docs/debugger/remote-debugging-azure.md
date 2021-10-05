@@ -87,7 +87,7 @@ From Visual Studio, you can quickly publish and debug your app to a fully provis
 > In Visual Studio 2022, Cloud Explorer is deprecated. Cloud Explorer provided the previous method of remote debugging Azure App Service.
 
 ::: moniker-end
-::: moniker range="<>= vs-2019"
+::: moniker range="<= vs-2019"
 #### To deploy the app and remote debug using Cloud Explorer
 
 1. In Visual Studio, right-click the project node and choose **Publish**.
@@ -96,7 +96,7 @@ From Visual Studio, you can quickly publish and debug your app to a fully provis
 
 1. Create a new publish profile.
 
-    ::: moniker range=">=vs-2019"
+    ::: moniker range="vs-2019"
     Choose **Azure** from the **Publish** dialog box and select **Next**. Then choose **Azure App Service (Windows)**, select **Next**, and follow the prompts to create a profile.
 
     :::image type="content" source="../debugger/media/vs-2019/remotedbg-azure-app-service-profile.png" alt-text="Deploy an ASP.NET Core web app to Azure using Visual Studio":::
