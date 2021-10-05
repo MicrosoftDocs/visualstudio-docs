@@ -23,6 +23,4 @@ As the new primary contact, there are a few steps you need to complete to update
 ## How can I update the primary contact on the admin portal?
 After you update your primary contact information, sign into the admin portal and confirm the previous primary contact is no longer listed. Ensure you have at least two current super admins who can remove the primary contact who has left.
 
-> [!IMPORTANT] 
->
-> By design, there must always be **two** super admins on the agreement.
+Note: By design, there must always be **two** super admins on the agreement.

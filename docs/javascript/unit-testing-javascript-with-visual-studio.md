@@ -31,6 +31,16 @@ For ASP.NET Core and JavaScript or TypeScript, see [Write unit tests for ASP.NET
 
 If your favorite framework is not supported, see [Add support for a unit test framework](#addingFramework) for information on adding support.
 
+::: moniker range=">=vs-2022"
+## Write unit tests for a CLI-based project (.esproj)
+
+The CLI-based projects supported in Visual Studio 2022 work with Test Explorer. Jest is the built-in test framework for React and Vue projects, and Karma and Jasmine is used for Angular projects. By default, you will be able to run the default tests provided by each framework, as well as any additional tests you write.  Just hit the **Run** button in Test Explorer. If you don’t already have Test Explorer open, you can find it by selecting **Test** > **Test Explorer** in the menu bar.
+
+The Node.js development workload is required to support unit testing for CLI-based projects.
+
+Mocha and Tape test libraries are also supported. To use one of these, simply change the default test library in package.json to the appropriate test library’s package.
+::: moniker-end
+
 ## Write unit tests in a Node.js project
 
 Before adding unit tests to your project, make sure the framework you plan to use is installed locally in your project. This is easy to do using the [npm package installation window](npm-package-management.md#npmInstallWindow).
