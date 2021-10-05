@@ -15,8 +15,6 @@ sap.id: b84fffb5-3363-eb7d-224e-1c63faf4067b
 
 When your organization renewed the agreement, your reseller should have checked the option to have the subscriptions be automatically transferred. Follow up with your reseller to confirm that it was initiated. It can take 48-72 hours to complete after the request has been submitted. 
 
-> [!NOTE]
->
-> If the automatic transfer option wasn’t selected during the renewal process, it can’t be added after the agreement has been signed.
+Note: If the automatic transfer option wasn’t selected during the renewal process, it can’t be added after the agreement has been signed.
 
 If the request was not submitted, you can [bulk upload](https://docs.microsoft.com/visualstudio/subscriptions/assign-license-bulk) the users to the new agreement. From the admin portal, you can select **bulk upload** from the Add dropdown and an excel form will be provided for you to enter the required information so the users can be assigned. Or, if your organization is using Azure Active Directory you can add [Azure AD groups](https://docs.microsoft.com/visualstudio/subscriptions/assign-license-bulk#use-azure-active-directory-groups-to-assign-subscriptions) to streamline the process of adding users. 
