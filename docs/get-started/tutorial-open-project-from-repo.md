@@ -16,7 +16,7 @@ ms.workload:
   - "dotnetcore"
 ---
 # Tutorial: Open a project from a repo
-
+F
 In this tutorial, you'll use Visual Studio to connect to a repository for the first time and then open a project from it.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
@@ -90,7 +90,7 @@ Here's how.
 
     :::image type="content" source="../ide/media/vs-2022/git-menu-clone-repository.png" alt-text="Screenshot of the 'Screenshot of the Git menu in Visual Studio 2022 with Clone Repository selected.":::
 
-1. Follow the prompts to connect to Git repository that includes the files you're looking for.
+1. Follow the prompts to connect to the Git repository that includes the files you're looking for.
 
 #### To open local folders and files
 
@@ -102,7 +102,7 @@ Here's how.
 
     :::image type="content" source="../ide/media/vs-2022/select-repository-filter-ellipsis.png" alt-text="Screenshot of the Select Repository control with the ellipsis icon selected and the Open Local Repository option showing.":::
 
-1. Follow the prompts to connect to Git repository that has the files you're looking for.
+1. Follow the prompts to connect to the Git repository that has the files you're looking for.
 
 ## Browse to an Azure DevOps Server
 

@@ -82,7 +82,7 @@ landingContent:
           - text: Import publish settings and deploy to IIS
             url: tutorial-import-publish-settings-iis.md
           - text: Publish with Git
-            url: /aspnet/core/host-and-deploy/azure-apps/azure-continuous-deployment
+            url: /azure/app-service/deploy-continuous-deployment
 
   # Card
   - title: Additional deployment types
