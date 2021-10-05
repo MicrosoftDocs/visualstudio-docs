@@ -2,7 +2,7 @@
 title: Advanced features
 description: Learn about the advanced features that might be more appropriate for experienced developers, or those developers who are already familiar with Visual Studio.
 ms.custom: vs-acquisition
-ms.date: 09/14/2021
+ms.date: 10/01/2021
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Features of Visual Studio
 
-This article describes features for experienced developers, or developers who are already familiar with Visual Studio. For a basic introduction to Visual Studio, see the [Visual Studio IDE overview](../get-started/visual-studio-ide.md). 
+This article describes features for experienced developers, or developers who are already familiar with Visual Studio. For a basic introduction to Visual Studio, see the [Visual Studio IDE overview](../get-started/visual-studio-ide.md).
 
 ## Modular installation
 
@@ -106,7 +106,7 @@ Visual Studio can build apps and games for macOS, Linux, and Windows, and for An
 
 - Mobile apps for iOS, Android, and Windows in C# and F# by using [Xamarin](https://developer.xamarin.com/guides/cross-platform/windows/visual-studio/).
 
-- 2D and 3D games in C# by using [Visual Studio Tools for Unity](/gamedev/unity/get-started/visual-studio-tools-for-unity.md).
+- 2D and 3D games in C# by using [Visual Studio Tools for Unity](/visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity).
 
 - Native C++ apps for iOS, Android, and Windows devices. Share common code in iOS, Android, and Windows libraries by using [C++ for cross-platform development](/cpp/cross-platform/visual-cpp-for-cross-platform-mobile-development).
 
@@ -121,6 +121,7 @@ Visual Studio can build apps and games for macOS, Linux, and Windows, and for An
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
+
 To open **SQL Server Object Explorer**, select its icon at the top of the **Server Explorer** window, or select **View** > **SQL Server Object Explorer** from the Visual Studio top menu.
 
 :::image type="content" source="media/vs-2022/sql-server-object-explorer.png" alt-text="Screenshot that shows the SQL Server Object Explorer window." border="false":::
@@ -145,15 +146,31 @@ Visual Studio has tools to deploy your app to users or customers through the Mic
 
 ## Manage your source code and collaborate with others
 
-In Visual Studio, you can manage your source code in Git repos hosted by any provider, including GitHub. To learn more about managing Git repos in Visual Studio by using **Team Explorer**, see [Get started with Git and Azure Repos](/azure/devops/repos/git/gitquickstart?tabs=visual-studio).
+In Visual Studio, you can manage your source code in Git repos hosted by any provider, including GitHub. You can also browse for an Azure DevOps Server to connect to, too.
+
+::: moniker range=">=vs-2022"
+
+For full details, see the [Git experience in Visual Studio](../version-control/git-with-visual-studio.md) page and the [Visual Studio version control documentation](../version-control/index.yml) navigation page. And, for a step-by-step tutorial on how to connect to a Git or Azure DevOps repository by using Visual Studio, see the [Open a project from a repo](../get-started/tutorial-open-project-from-repo.md?view=vs-2022&preserve-view=true) page.
+
+> [!TIP]
+> We continue to build out the Git feature set and iterate on it based on your feedback. For more info about a recent feature update along with a link to survey where you can share your feedback on it, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+How you open a project from a GitHub repo by using Visual Studio 2019 depends on which version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes/) or later, there's a new, more fully integrated [Git experience in Visual Studio](../ide/git-with-visual-studio.md) available to you. For more information, see the [Visual Studio version control documentation](../version-control/index.yml) page.
+
+And, for a step-by-step tutorial on how to connect to a Git or Azure DevOps repository by using Visual Studio, see the [Open a project from a repo](../get-started/tutorial-open-project-from-repo.md?view=vs-2019&preserve-view=true) page.
+
+::: moniker-end
 
 ::: moniker range="vs-2017"
-To learn more about other Visual Studio built-in source control features, see the blog post [New Git features in Visual Studio](https://devblogs.microsoft.com/devops/new-git-features-in-visual-studio-2017/).
-::: moniker-end
+
+To learn more about managing Git repos in Visual Studio by using **Team Explorer**, see [Get started with Git and Azure Repos](/azure/devops/repos/git/gitquickstart?tabs=visual-studio). To learn more the Visual Studio built-in source control features, see the [Git features in Visual Studio](https://devblogs.microsoft.com/devops/new-git-features-in-visual-studio-2017/) blog post.
 
 [Azure DevOps Services](/azure/devops/index) is a suite of cloud-based services that plan, host, automate, and deploy software and promote team collaboration. DevOps Services supports both GitHub distributed version control and Team Foundation Version Control (TFVC) centralized version control. DevOps Services provides continuous build and release (CI/CD) pipelines for code stored in version control systems. DevOps Services also supports Scrum, CMMI, and Agile development methodologies. You can use DevOps Services to manage code along with bugs and work items for your project.
 
-::: moniker range="<=vs-2019"
 Team Foundation Server (TFS) is the application lifecycle management hub for Visual Studio. It enables everyone involved with the development process to participate using a single solution. TFS is useful for managing heterogeneous teams and projects, too.
 
 You can connect to an Azure DevOps organization or a Team Foundation Server on your network through the Visual Studio **Team Explorer** window. From the **Team Explorer** window, you can check code into or out of source control, manage work items, start builds, and access team rooms and workspaces. To open **Team Explorer**, use the search box, or select **View** > **Team Explorer**.
@@ -161,20 +178,14 @@ You can connect to an Azure DevOps organization or a Team Foundation Server on y
 The following image shows the **Team Explorer** window for a solution that's hosted in Azure DevOps Services.
 
 ![Screenshot of the Visual Studio Team Explorer window connected to a project.](../ide/media/vs2017_teamexplorer_devops.png)
-::: moniker-end
 
-::: moniker range=">=vs-2022"
-Azure DevOps is the application lifecycle management hub for Visual Studio. Azure DevOps enables everyone involved with the development process to participate using a single solution. Azure DevOps is also useful for managing heterogeneous teams and projects.
+Azure DevOps is an application lifecycle management hub for Visual Studio. Azure DevOps enables everyone involved with the development process to participate using a single solution. Azure DevOps is also useful for managing heterogeneous teams and projects.
 
-You can connect to an Azure DevOps organization or Azure DevOps Server on your network through the Visual Studio **Team Explorer** window. From the **Team Explorer** window, you can check code into or out of source control, manage work items, start builds, and access team rooms and workspaces. To open **Team Explorer**, use the search box, or select **View** > **Team Explorer**.
-
-The following image shows the **Team Explorer** window for a solution that's hosted in Azure DevOps Services.
-
-:::image type="content" source="media/vs-2022/team-explorer.png" alt-text="Screenshot of the Visual Studio Team Explorer window connected to a project." border="false":::
-
-::: moniker-end
+You can connect to an Azure DevOps organization or Azure DevOps Server on your network through the **Team Explorer** window in Visual Studio. From the **Team Explorer** window, you can check code into or out of source control, manage work items, start builds, and access team rooms and workspaces. To open **Team Explorer**, use the search box, or select **View** > **Team Explorer**.
 
 You can also automate your build process to build code that developers check into version control. For example, you can build one or more projects nightly, or every time certain code is checked in. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts&preserve-view=true).
+
+::: moniker-end
 
 ## Next steps
 

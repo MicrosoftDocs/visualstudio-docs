@@ -5,8 +5,8 @@ ms.topic: include
 ms.assetid: 80459599-378e-42da-a589-c1a7c7407caa
 author: caitybuschlen
 ms.author: cabuschl
-ms.date: 09/17/2020
-user.type: subscriber, admin
+ms.date: 09/17/2021
+user.type: subscriber
 tags: renewing
 subscription.type: cloud
 sap.id: b324c31f-5d44-4cc2-537a-9c354bc5fbfc
