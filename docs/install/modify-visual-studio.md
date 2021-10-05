@@ -49,7 +49,7 @@ To modify your Visual Studio installation, you first need to launch the Visual S
 
 1. Find the Visual Studio Installer on your computer.
 
-     For example, on a computer running Windows 10, select **Start**, and then scroll to the letter **V**, where it's listed as **Visual Studio Installer**.
+     For example, on a computer running Windows 10 or later, select **Start**, and then scroll to the letter **V**, where it's listed as **Visual Studio Installer**.
 
      ![Screenshot showing the Visual Studio Installer entry in the Windows 10 Start menu.](media/locate-the-visual-studio-installer.png "Locate the Microsoft Visual Studio Installer")
 

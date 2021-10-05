@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Tutorial: Create your first Universal Windows Platform application in Visual Studio with XAML and C&#35;
 
-In this introduction to the Visual Studio integrated development environment (IDE), you'll create a "Hello World" app that runs on any Windows 10 device. To do so, you'll use a Universal Windows Platform (UWP) project template, Extensible Application Markup Language (XAML), and the C# programming language.
+In this introduction to the Visual Studio integrated development environment (IDE), you'll create a "Hello World" app that runs on any Windows 10 or later device. To do so, you'll use a Universal Windows Platform (UWP) project template, Extensible Application Markup Language (XAML), and the C# programming language.
 
 ::: moniker range="vs-2017"
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
@@ -298,7 +298,7 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 
 1. Click the **Hello World** button.
 
-   Your Windows 10 device will literally say, "Hello, World!"
+   Your Windows 10 or later device will literally say, "Hello, World!"
 
 1. To close the app, click the **Stop Debugging** button in the toolbar. (Alternatively, choose **Debug** > **Stop debugging** from the menu bar, or press **Shift+F5**.)
 
@@ -318,7 +318,7 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 
 1. Click the **Hello World** button.
 
-   Your Windows 10 device will literally say, "Hello, World!"
+   Your Windows 10 or later device will literally say, "Hello, World!"
 
 1. To close the app, click the **Stop Debugging** button in the toolbar. (Alternatively, choose **Debug** > **Stop debugging** from the menu bar, or press **Shift+F5**.)
 
@@ -340,7 +340,7 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 
 1. Select the **Hello World** button.
 
-   Your Windows 10 device will literally say, "Hello, World!".
+   Your Windows 10 or later device will literally say, "Hello, World!".
 
 1. To close the app, select the **Stop Debugging** button in the toolbar. (Alternatively, choose **Debug** > **Stop debugging** from the menu bar, or press **Shift+F5**.)
 
