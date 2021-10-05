@@ -30,7 +30,7 @@ In a specified list, finds an item that has the matching itemspec.
 
 |Parameter|Description|
 |---------------|-----------------|
-|`CaseSensitive`|Optional `Boolean` parameter.<br /><br /> If `true`, the search is case-sensitive; otherwise, it is not. Default value is `true`.|
+|`CaseSensitive`|Optional `Boolean` parameter.<br /><br /> If `true`, the search is case-sensitive; otherwise, it is not. Default value is `false`.|
 |`FindLastMatch`|Optional `Boolean` parameter.<br /><br /> If `true`, return the last match; otherwise, return the first match. Default value is `false`.|
 |`ItemFound`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` read-only output parameter.<br /><br /> The first matching item found in the list, if any.|
 |`ItemSpecToFind`|Required `String` parameter.<br /><br /> The itemspec to search for.|
