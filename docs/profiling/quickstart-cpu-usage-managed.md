@@ -47,7 +47,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
    In the **Configure your new project** window, type or enter *MyProfilerApp* in the **Project name** box. Then, choose **Next**.
 
-   Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+   Choose either the recommended target framework or .NET 6, and then choose **Create**.
 
    ::: moniker-end
 

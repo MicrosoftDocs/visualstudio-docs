@@ -121,7 +121,7 @@ Here's a list of forum resources:
 
 ## Product support
 
-If you still have questions after you try the other resources, you can contact Microsoft support services by visiting the [Microsoft Support](https://support.microsoft.com/en-us) website. For information about product support available in your area, see the [Visual Studio feedback options](../../ide/feedback-options.md) page.
+If you still have questions after you try the other resources, you can contact Microsoft support services by visiting the [Microsoft Support](https://support.microsoft.com/en-us) website. For information about product support available in your area, see the [Developer Community](https://developercommunity.visualstudio.com/home) page.
 
 ## See also
 

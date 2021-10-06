@@ -1462,8 +1462,6 @@
     href: ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md
 - name: Send feedback
   items:
-  - name: Overview
-    href: ide/feedback-options.md
   - name: Report a problem
     items:
     - name: Report a problem
