@@ -1,15 +1,15 @@
 ---
-title: Visual Studio IDE benefit in Visual Studio subscription | Microsoft Docs
+title: Visual Studio IDE in Visual Studio subscription | Microsoft Docs
 author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
 ms.assetid: c4b13464-76be-40f1-ad60-ed79ee264b12
-ms.date: 09/20/2021
+ms.date: 10/06/2021
 ms.topic: how-to
 description:  Learn how to download and install the Visual Studio IDE included in your Visual Studio subscription
 ---
 
-# The Visual Studio 2019 benefit
+# The Visual Studio IDE
 
 As a Visual Studio subscriber, you have access to the Visual Studio IDE.  The specific version will depend on the level of your subscription.  The benefit will appear as a tile in the Tools category on the [Benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) page of the subscriber portal.
 
