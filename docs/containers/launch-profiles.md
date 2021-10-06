@@ -1,5 +1,5 @@
 ---
-title: "Manage launch profiles for Docker Compose projects"
+title: "Launch a subset of Docker Compose services"
 description: Learn how to use Docker Compose launch profiles and control which services are launched when you use Docker Compose in Visual Studio.
 author: ghogen
 manager: jmartens

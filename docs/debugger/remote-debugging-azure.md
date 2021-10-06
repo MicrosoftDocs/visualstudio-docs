@@ -2,7 +2,7 @@
 title: "Remote Debug ASP.NET Core on IIS and Azure | Microsoft Docs"
 description: Learn how to set up and configure a Visual Studio ASP.NET Core app, deploy it to IIS using Azure, and attach the remote debugger from Visual Studio. 
 ms.custom: "remotedebugging"
-ms.date: 08/27/2021
+ms.date: 10/05/2021
 ms.topic: "conceptual"
 ms.assetid: a6c04b53-d1b9-4552-a8fd-3ed6f4902ce6
 author: "mikejo5000"
@@ -18,6 +18,8 @@ ms.workload:
 # Remote Debug ASP.NET Core on IIS in Azure in Visual Studio
 
 This guide explains how to set up and configure a Visual Studio ASP.NET Core app, deploy it to IIS using Azure, and attach the remote debugger from Visual Studio.
+
+For IIS scenarios, Linux is not supported.
 
 The recommended way to remote debug on Azure depends on your scenario:
 
@@ -42,7 +44,7 @@ The recommended way to remote debug on Azure depends on your scenario:
 ## Prerequisites
 
 ::: moniker range=">=vs-2019"
-Visual Studio 2019 is required to follow the steps shown in this article.
+Visual Studio 2019 or later versions is required to follow the steps shown in this article.
 ::: moniker-end
 ::: moniker range="vs-2017"
 Visual Studio 2017 is required to follow the steps shown in this article.
@@ -59,7 +61,7 @@ Debugging between two computers connected through a proxy is not supported. Debu
     ::: moniker range=">=vs-2019"
     In Visual Studio 2019, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project **MyASPApp**, and then choose **Next**.
 
-    Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+    Choose either the recommended target framework or .NET 6, and then choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     In Visual Studio 2017, choose **File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application**. In the ASP.NET Core templates section, select **Web Application (Model-View-Controller)**. Make sure that ASP.NET Core 2.1 is selected, that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.
@@ -71,6 +73,21 @@ Debugging between two computers connected through a proxy is not supported. Debu
 
 From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. For more detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). (If you need the ability to customize IIS, try debugging on an [Azure VM](#remote_debug_azure_vm).)
 
+::: moniker range=">= vs-2022"
+
+1. Create a publish profile for Azure App Service using the Publish window.
+
+1. In the profile, select the **...** menu under **Hosting**. Choose the **Attach Debugger** option.
+
+   Visual Studio attempts to attach the remote debugger to the instance of Azure App Service (Windows) that the profile is publishing to.
+
+   :::image type="content" source="../debugger/media/attach-debugger-publish-profile.png" alt-text="Screenshot of the Attach Debugger option from within the Publish summary page.":::
+
+> [!NOTE]
+> In Visual Studio 2022, Cloud Explorer is deprecated. Cloud Explorer provided the previous method of remote debugging Azure App Service.
+
+::: moniker-end
+::: moniker range="<= vs-2019"
 #### To deploy the app and remote debug using Cloud Explorer
 
 1. In Visual Studio, right-click the project node and choose **Publish**.
@@ -79,17 +96,11 @@ From Visual Studio, you can quickly publish and debug your app to a fully provis
 
 1. Create a new publish profile.
 
-    ::: moniker range=">=vs-2019"
     Choose **Azure** from the **Publish** dialog box and select **Next**. Then choose **Azure App Service (Windows)**, select **Next**, and follow the prompts to create a profile.
 
-    :::image type="content" source="../debugger/media/vs-2019/remotedbg-azure-app-service-profile.png" alt-text="Deploy an ASP.NET Core web app to Azure using Visual Studio":::
-    ::: moniker-end
-    ::: moniker range="vs-2017"
+    ![Deploy an ASP.NET Core web app to Azure using Visual Studio](../debugger/media/vs-2019/remotedbg-azure-app-service-profile.png)
 
-    Choose **Azure App Service** from the **Publish** dialog box, select **Create New**, and follow the prompts to create a profile.
-
-    ![Publish to Azure App Service](../debugger/media/remotedbg_azure_app_service_profile.png)
-    ::: moniker-end
+    In Visual Studio 2017, choose **Azure App Service** from the **Publish** dialog box, select **Create New**, and follow the prompts to create a profile.
 
     For more detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
 
@@ -106,6 +117,8 @@ From Visual Studio, you can quickly publish and debug your app to a fully provis
     The breakpoint should be hit in Visual Studio.
 
     That's it! The rest of the steps in this topic apply to remote debugging on an Azure VM.
+
+::: moniker-end
 
 ## <a name="remote_debug_azure_vm"></a> Remote Debug ASP.NET Core on an Azure VM
 
