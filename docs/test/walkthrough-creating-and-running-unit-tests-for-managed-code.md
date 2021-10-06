@@ -55,7 +55,7 @@ This article steps you through creating, running, and customizing a series of un
 
 4. Name the project **Bank**, and then click **Next**.
 
-   Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+   Choose either the recommended target framework or .NET 6, and then choose **Create**.
 
    The Bank project is created and displayed in **Solution Explorer** with the *Program.cs* file open in the code editor.
 
@@ -168,7 +168,7 @@ You now have a project with methods you can test. In this article, the tests foc
 
 3. Name the project **BankTests** and click **Next**.
 
-4. Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+4. Choose either the recommended target framework or .NET 6, and then choose **Create**.
 
    The **BankTests** project is added to the **Bank** solution.
 

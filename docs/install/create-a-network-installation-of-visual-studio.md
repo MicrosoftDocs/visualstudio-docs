@@ -289,7 +289,7 @@ If you experience a problem with your offline installation, we want to know abou
 
 We also offer an [**installation chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 
-We have other support options available, too. For a list, see our [Feedback](../ide/feedback-options.md) page.
+We have other support options available, too. See our [Developer Community](https://developercommunity.visualstudio.com/home).
 
 ## See also
 

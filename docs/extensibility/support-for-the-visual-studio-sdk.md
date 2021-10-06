@@ -61,4 +61,4 @@ Information about individual support requests can be found at [Individual Suppor
 
 ## See also
 
-- [Talk to Us](../ide/feedback-options.md)
+- [Visual Studio Developer Community](https://developercommunity.visualstudio.com/home)
