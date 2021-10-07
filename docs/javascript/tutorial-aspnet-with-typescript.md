@@ -70,7 +70,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
     ::: moniker range="vs-2019"
     In Visual Studio 2019, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project, and then choose **Next**.
 
-    Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+    Choose either the recommended target framework or .NET 6, and then choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **Visual C#**, then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application - C#**, then choose **OK**.

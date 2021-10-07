@@ -11,7 +11,7 @@ author: ghogen
 manager: jmartens
 ---
 
-# Tutorial: Use Bridge to Kubernetes to connect your clusters and your development computers
+# Use Bridge to Kubernetes (Visual Studio)
 
 In this tutorial, you'll learn how to use Bridge to Kubernetes to redirect traffic between your Kubernetes cluster and code running on your development computer. 
 
@@ -22,7 +22,7 @@ Learn more about Bridge to Kubernetes with the article, [How Bridge to Kubernete
 ## Prerequisites
 
 - A Kubernetes cluster
-- [Visual Studio 2019][visual-studio] version 16.7 Preview 4 or greater running on Windows 10.
+- [Visual Studio 2019][visual-studio] version 16.7 Preview 4 or greater running on Windows 10 or later.
 - [Bridge to Kubernetes extension installed][btk-extension]
 
 ## About the data

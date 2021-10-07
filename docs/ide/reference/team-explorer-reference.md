@@ -71,6 +71,7 @@ The **Work Items** page lets you see [work item](/azure/devops/boards/work-items
 - [Use the query editor to list and manage queries](/azure/devops/boards/queries/using-queries)
 - [Organize query folders and set query permissions](/azure/devops/boards/queries/set-query-permissions)
 - [Open query in Excel](/azure/devops/boards/backlogs/office/bulk-add-modify-work-items-excel)
+
 - [Open query in Project](/previous-versions/azure/devops/boards/backlogs/office/create-your-backlog-tasks-using-project)
 - [Email query results list using Outlook](/azure/devops/boards/queries/share-plans)
 - [Create reports from query in Excel](/azure/devops/report/excel/create-status-and-trend-excel-reports) (TFS only)

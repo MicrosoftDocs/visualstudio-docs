@@ -103,7 +103,7 @@ Example:
 ```json
 {
     "site_name": "web-app",
-    "python_version": ["3.5.2", "2.7.12"],
+    "python_version": ["3.5.2"],
     "use_azure": "y",
 
     "_visual_studio": {

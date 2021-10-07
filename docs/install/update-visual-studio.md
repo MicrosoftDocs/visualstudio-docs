@@ -88,7 +88,7 @@ As in earlier versions of Visual Studio, you can use the Visual Studio Installer
 1. Open the installer. The Visual Studio Installer might require updating before you continue.
 
    > [!NOTE]
-   > On a computer running Windows 10, you can find the installer under the letter **V** as the **Visual Studio Installer**, or under the letter **M** as the **Microsoft Visual Studio Installer**.
+   > On a computer running Windows 10 or later, you can find the installer under the letter **V** as the **Visual Studio Installer**, or under the letter **M** as the **Microsoft Visual Studio Installer**.
 
 1. On the **Product** page in the installer, look for the edition of Visual Studio that you installed previously.
 
@@ -144,7 +144,7 @@ If you choose to ignore a notification, Visual Studio stops showing it. If you w
 1. Open the installer. You might need to update the installer before continuing. If this is the case, you're prompted to do so.
 
    > [!NOTE]
-   > On a computer running Windows 10, you can find the installer under the letter **V** as the **Visual Studio Installer**, or under the letter **M** as the **Microsoft Visual Studio Installer**.
+   > On a computer running Windows 10 or later, you can find the installer under the letter **V** as the **Visual Studio Installer**, or under the letter **M** as the **Microsoft Visual Studio Installer**.
 
 1. On the **Product** page in the installer, look for the edition of Visual Studio that installed previously.
 

@@ -131,7 +131,7 @@ DXCap.exe -file regression_test_12.vsglog -c BasicHLSL11.exe
 DXCap.exe -c "C:\Program Files\Internet Explorer\iexplorer.exe" "www.fishgl.com"
 ```
 
- The command in the example above captures graphics information from the desktop version of Internet Explorer while viewing the webpage located at www.fishgl.com which uses the WebGL API to render 3-D content.
+ The command in the example above captures graphics information from the desktop version of Internet Explorer while viewing the webpage located at `www.fishgl.com` which uses the WebGL API to render 3-D content.
 
 > [!NOTE]
 > Because command line arguments that appear after the app are passed to it, you must specify the arguments intended for DXCap.exe before using the `-c` option.
