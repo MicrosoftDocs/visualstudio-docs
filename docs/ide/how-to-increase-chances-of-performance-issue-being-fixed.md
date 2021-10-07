@@ -260,8 +260,7 @@ What makes these types of issues most actionable is to provide additional logs t
 
 ## See also
 
-* [Visual Studio feedback options](../ide/feedback-options.md)
 * [Report a problem with Visual Studio for Mac](/visualstudio/mac/report-a-problem)
 * [Report a problem with C++](/cpp/how-to-report-a-problem-with-the-visual-cpp-toolset)
-* [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8)
+* [Visual Studio Developer Community](https://developercommunity.visualstudio.com/home)
 * [Developer Community data privacy](developer-community-privacy.md)
