@@ -2,7 +2,7 @@
 title: Options, Text Editor, C/C++, Advanced
 description: Learn how to use the Advanced page in the C/C++ section to change the behavior related to IntelliSense and the browsing database.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 10/08/2021
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C\\C++.Advanced"
@@ -26,6 +26,36 @@ To access this page, in the **Options** dialog box, in the left pane, expand **T
 
 > [!NOTE]
 > Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. See [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
+
+## Brace Completion
+
+**Add Semicolon for Types**
+
+Semicolons will be inserted after closing braces for types.
+
+**Complete Parentheses in Raw String Literals**
+
+If an open parenthesis is typed in a raw string literal, it will be completed with a closing parenthesis.
+
+**Complete Multiline Comments**
+
+Multiline comments (comments that start with `/*`) will be completed.
+
+## Browsing Database Fallback
+
+The fallback location is where the SDF and IntelliSense support files (for example, iPCH) are put when the primary location (same directory as solution) isn't used. This situation could occur the user doesn't have the permissions to write to the solution directory or the solution directory is on a slow device. The default fallback location is in the user's temp directory.
+
+**Always Use Fallback Location**
+
+Indicates that the code browsing database and IntelliSense files should always be stored in a folder that you specify as your "Fallback Location", not next to the .sln file. The IDE will never try to put the SDF or iPCH files next to the solution directory and will always use the fallback location.
+
+**Do Not Warn If Fallback Location Used**
+
+You aren't informed or prompted if a 'Fallback Location' is used. Normally, the IDE will tell you if it had to use the fallback location. This option turns off that warning.
+
+**Fallback Location**
+
+This value is used as a secondary location to store the code browsing database or IntelliSense files. By default, your temporary directory is your fallback location. The IDE will create a subdirectory under the specified path (or the temp directory) that includes the name of the solution along with a hash of the full path to the solution, which avoids issues with solution names being identical.
 
 ## Browsing/Navigation
 
@@ -63,6 +93,32 @@ Recreate the code browsing database from nothing the next time that the solution
 
 A 'Rescan Solution Now' job is scheduled for the interval that you specify. You must specify between 0 and 5000 minutes. The default value is 60 minutes. While the solution is rescanned, file timestamps are checked to determine whether a file was changed outside of the IDE. (Changes that are made in the IDE are automatically tracked, and files are updated.) Implicitly included files are checked to determine whether they're all still referenced.
 
+**Disable Browsing Up-To-Date Check**
+
+Disables waiting for the code browsing database to be up-to-date when executing browsing operations.
+
+**Disable Current Item Selection**
+
+Disables visualization of the selected code element in the Properties tool window and elsewhere.
+
+**Display Skipped Regions for External Files**
+
+Include skipped regions from external files when displaying browsing database errors.
+
+## Code Analysis
+
+**Disable C++ Code Analysis Experience**
+
+Disable the C++ Code Analysis experience, which provides support for code analysis squiggles, background code analysis, and other features for C++ files.
+
+**Disable Background Code Analysis**
+
+Disable running C++ Code Analysis in the background when files are opened or saved.
+
+**Disable Code Analysis Squiggles**
+
+Disable squiggles for C++ Code Analysis warnings. Errors will continue to be shown in the error list. Only affects newly opened windows.
+
 ## Diagnostic Logging
 
 These options are provided in case Microsoft asks you to collect advanced information to diagnose an issue. The logging information isn't useful for users, and we recommend that you leave it disabled.
@@ -95,22 +151,6 @@ Set by using a sum of any of the following options:
 
 - 32 - ClassView
 
-## Fallback Location
-
-The fallback location is where the SDF and IntelliSense support files (for example, iPCH) are put when the primary location (same directory as solution) isn't used. This situation could occur the user doesn't have the permissions to write to the solution directory or the solution directory is on a slow device. The default fallback location is in the user's temp directory.
-
-**Always Use Fallback Location**
-
-Indicates that the code browsing database and IntelliSense files should always be stored in a folder that you specify as your "Fallback Location", not next to the .sln file. The IDE will never try to put the SDF or iPCH files next to the solution directory and will always use the fallback location.
-
-**Do Not Warn If Fallback Location Used**
-
-You aren't informed or prompted if a 'Fallback Location' is used. Normally, the IDE will tell you if it had to use the fallback location. This option turns off that warning.
-
-**Fallback Location**
-
-This value is used as a secondary location to store the code browsing database or IntelliSense files. By default, your temporary directory is your fallback location. The IDE will create a subdirectory under the specified path (or the temp directory) that includes the name of the solution along with a hash of the full path to the solution, which avoids issues with solution names being identical.
-
 ## IntelliSense
 
 **Auto Quick Info**
@@ -135,7 +175,7 @@ Disables IntelliSense error squiggles. The red "squiggles" don't show in the edi
 
 **Auto Tune Max Cached Translation Units**
 
-The maximum number of translation units that will be kept active at any one time for IntelliSense requests. You must specify a value between 2 and 15. This number directly relates to the maximum number of VCPkgSrv.exe processes that will run (for a given instance of Visual Studio). The default value is 2, but if you have available memory, you can increase this value and possibly achieve slightly better performance on IntelliSense.
+Enables the maximum number of translation units that will be kept active at any one time for IntelliSense requests, based on available system RAM.
 
 For more information about translation units, see [Phases of Translation](/cpp/preprocessor/phases-of-translation).
 
@@ -175,9 +215,97 @@ Specifies the characters that cause the currently highlighted Member List sugges
 
 Adds a line when you choose the Enter key at the end of a fully typed word.
 
+**Member List Commit Aggressive**
+
+'Member List Commit Characters' are active during 'aggressively invoked' Member List.
+
+**Use Aggressive Member List for Auto Member List**
+
+When enabled and Auto Member List is shown, do not complete using Member List Commit characters.
+
+**Use Tab to commit in Aggressive Member List**
+
+When enabled and Aggressive Member List is shown, treat Tab key as Member List Commit character.
+
+**Use Tab to Insert Snippet**
+
+When enabled, snippet keyword is expanded when tab is pressed (unless shortcut key is assigned to `Edit.InvokeSnippetFromShortcut`) regardless of whether member list is shown.
+
+**Disable Modules**
+
+Disable various C++20 Modules IDE features such as automatic building of needed modules for IntelliSense.
+
+**Member List Filter Inaccessible**
+
+Don't display inaccessible items in Member Lists.
+
+**Disable IntelliSense for Inactive Platforms**
+
+Disable all IntelliSense features for inactive platforms in folders and Shared Assets Projects.
+
 **Enable Member List Dot-To-Arrow**
 
 Replaces '.' with '->' when applicable for Member List.
+
+**Disable HLSL IntelliSense**
+
+Disable all HLSL IntelliSense features.
+
+**Disable Automatic Precompiled Header**
+
+Automatic Precompiled Header may speed up some IntelliSense operations at expense of a per-solution hard drive cache.
+
+**Automatic Precompiled Header Cache Quota**
+
+The maximum size of the per-solution cache in megabytes; the actual usage may fluctuate around this value.
+
+**Inactive Platform IntelliSense Limit**
+
+Maximum number of inactive platforms that will be processed for IntelliSense.  The value must be between 1 and 16.
+
+**Enable Template IntelliSense**
+
+When the cursor is active within a template body, display a bar in the editor to configure the template's IntelliSense.
+
+**Enable Help Link on Quick Info**
+
+Enables link to online searches on the Quick Info tooltip.
+
+**Use Web Search on Quick Info Help Link**
+
+Launches a web search with the specified search provider as the action for online searches in the Quick Info tooltip. When disabled it uses F1 Help.
+
+**Enable Help Link on IntelliSense Error Tooltips**
+
+Enables link to online searches on IntelliSense error tooltips.
+
+**Search Provider**
+
+URL used to find online help on errors, {0} is replaced with error
+
+## IntelliSense and Browsing for Non-Project Files
+
+**Enable Enhanced Single File**
+
+Enables IntelliSense, Browsing and other features for standalone files that are not part of an existing project.
+
+**Enable IntelliSense Squiggles**
+
+Enables squiggles for standalone files in Enhanced Single File mode.
+
+**Show IntelliSense Errors In Error List**
+
+Controls whether IntelliSense errors from standalone files are displayed in the Error List.
+
+**Suspend New Files During Debugging**
+
+Suspend enabling IntelliSense for newly opened files while debugging.
+
+## Refactoring
+
+**Disable Create Declaration/Definition Light Bulbs**
+
+Do not offer suggestions to create a missing function declaration or definition.
 
 ## References
 
