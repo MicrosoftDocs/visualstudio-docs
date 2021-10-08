@@ -93,7 +93,7 @@ When upgrading from one minor version of Visual Studio to the next, the Visual S
 
 ::: moniker range=">=vs-2022"
 
-1. Download the Visual Studio 2022 bootstrapper file from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2022 Releases](/visualstudio/releases/2022/history) page for the minor version that you would like to install side-by-side with your existing version of Visual Studio.
+1. Download the Visual Studio 2022 bootstrapper file from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2022 Releases](/visualstudio/releases/2022/release-notes-history) page for the minor version that you would like to install side-by-side with your existing version of Visual Studio.
 
 1. Open the command prompt in administrator mode. To do this, open the Windows Start menu, type "cmd", right-click on the Command Prompt search result, and select **Run as administrator**. In the command prompt, change the directory to the folder where your Visual Studio bootstrapper file is located.
 
