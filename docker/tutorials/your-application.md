@@ -81,7 +81,7 @@ Now that you have an image, run the application! To do so, use the `docker run` 
 
     Remember the `-d` and `-p` flags? You're running the new container in "detached" mode (in the background) and creating a mapping between the host's port 3000 to the container's port 3000. Without the port mapping, you wouldn't be able to access the application.
 
-1. After a few seconds, open your web browser to [http://localhost:3000](http://localhost:3000).
+1. After a few seconds, open your web browser to `http://localhost:3000`.
     You should see the app!
 
     ![Empty Todo List](media/todo-list-empty.png)
