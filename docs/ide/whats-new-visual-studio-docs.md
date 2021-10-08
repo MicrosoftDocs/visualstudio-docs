@@ -231,7 +231,7 @@ The following sections provide the previous three months of what's new in the Vi
 **New articles**
 
 - [What's new in Visual Studio 2022 (Preview)](./whats-new-visual-studio-2022.md)
-- [Report a problem: States and FAQ](./report-a-problem.yml)
+- [Report a problem: States and FAQ](./how-to-report-a-problem-with-visual-studio.md)
 
 **Updated articles**
 - [Find in Files](./find-in-files.md) - Added Multiple Searches section, plus general updates
