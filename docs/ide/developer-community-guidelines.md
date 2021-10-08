@@ -52,7 +52,7 @@ Even with issues that include rich details, we may be unable to reproduce the is
 
 Triaging an issue is a multi-step process that is collaboratively done within the feature team. Triaging usually takes one week but may take longer. The goal of triaging is providing you with a clear understanding of what will happen to your issue. For example, after triage you know if we plan to fix your issue or wait for more community feedback.
 
-After you report a problem, states indicate where your submissions are in their lifecycle. As Visual Studio product teams review your feedback, they set it with an appropriate state. Track the progress of your problem reports by referencing the [Problem states and FAQ](./report-a-problem.yml).
+After you report a problem, states indicate where your submissions are in their lifecycle. As Visual Studio product teams review your feedback, they set it with an appropriate state. Track the progress of your problem reports by referencing the [Problem states and FAQ](./how-to-report-a-problem-with-visual-studio.md).
 
 ### Prioritizing which issues to fix
 
