@@ -11,7 +11,7 @@ ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
 ---
-## Visual Studio core editor (included with Visual Studio Team Explorer 2019)
+## Visual Studio core editor (included with Visual Studio Team Explorer 2022)
 
 **ID:** Microsoft.VisualStudio.Workload.CoreEditor
 
@@ -21,6 +21,7 @@ ms.topic: include
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
+Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 17.0.31804.368 | Required
 
 ## Unaffiliated components
 
@@ -28,4 +29,4 @@ These are components that are not included with any workload, but may be selecte
 
 Component ID | Name | Version
 --- | --- | ---
-n/a | n/a | n/a
+Component.Microsoft.Windows.CppWinRT | C++/WinRT | 2.0.210806.1
