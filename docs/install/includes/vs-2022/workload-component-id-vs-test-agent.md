@@ -21,6 +21,7 @@ ms.topic: include
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
+Microsoft.VisualStudio.ComponentGroup.TestTools.TestAgent | Test Agent core features | 17.0.31804.368 | Required
 
 ## Unaffiliated components
 
@@ -28,4 +29,4 @@ These are components that are not included with any workload, but may be selecte
 
 Component ID | Name | Version
 --- | --- | ---
-n/a | n/a | n/a
+Component.Microsoft.Windows.CppWinRT | C++/WinRT | 2.0.210806.1
