@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022 (Preview)"
 titleSuffix: ""
 description: "Learn about the new features in the preview release of Visual Studio 2022."
-ms.date: 09/17/2021
+ms.date: 10/12/2021
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -17,7 +17,7 @@ ms.workload:
 ---
 # What's new in Visual Studio 2022 (Preview)
 
-**Updated for the 17.0 Preview 4 release.** See [full release notes](/visualstudio/releases/2022/release-notes-preview/) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
+**Updated for the 17.0 Preview 5/Release Candidate (RC).** See [full release notes](/visualstudio/releases/2022/release-notes-preview/) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
 
 >[!div class="button"]
 >[Download Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/vs2022/)
