@@ -1,12 +1,10 @@
 ---
 title: "First look at the debugger"
 description: "Get started debugging applications using the Visual Studio debugger"
-ms.custom: ""
-ms.date: 09/23/2021
 ms.topic: conceptual
+ms.date: 09/23/2021
 helpviewer_keywords:
   - "debugger"
-ms.assetid: c763d706-3213-494f-b4d2-990b6e1ec456
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
@@ -14,6 +12,7 @@ ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
+
 # First look at the Visual Studio Debugger
 
 This topic introduces the debugger tools provided by Visual Studio. In the Visual Studio context, when you *debug your app*, it usually means that you are running the application with the debugger attached (that is, in debugger mode). When you do this, the debugger provides many ways to see what your code is doing while it runs. You can step through your code and look at the values stored in variables, you can set watches on variables to see when values change, you can examine the execution path of your code, et al. If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before going through this topic.

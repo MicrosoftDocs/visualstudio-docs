@@ -91,6 +91,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/report-a-problem-minidumps.md",
+      "redirect_url": "/visualstudio/ide/report-a-problem-perfview-minidumps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/report-a-problem-perfview.md",
+      "redirect_url": "/visualstudio/ide/report-a-problem-perfview-minidumps",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "docs/data-tools/additional-resources-for-troubleshooting-data-access-errors.md",
       "redirect_url": "/answers/products/?WT.mc_id=msdnredirect-web-msdn",
       "redirect_document_id": false
