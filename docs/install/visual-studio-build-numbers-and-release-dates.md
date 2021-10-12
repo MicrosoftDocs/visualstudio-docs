@@ -5,7 +5,7 @@ description: A list of released versions and build numbers for Visual Studio, so
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
-ms.date: 10/05/2021
+ms.date: 10/12/2021
 ms.topic: reference
 ms.workload:
 - multiple
@@ -23,6 +23,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 17.0.0 | Preview 5 / Release Candidate (RC) | October 12, 2021 | 17.0.31808.319 |
 | 17.0.0 | Preview 4.1 | September 20, 2021 | 17.0.31717.71 |
 | 17.0.0 | Preview 4 | September 14, 2021 | 17.0.31710.08 |
 | 17.0.0 | Preview 3.1 | August 16, 2021 | 17.0.31612.314 |
@@ -45,6 +46,9 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.9.12 | Release | October 12, 2021 | 16.9.31728.308 |
+| 16.7.20 | Release | October 12, 2021 | 16.7.31727.298 |
+| 16.4.27 | Release | October 12, 2021 | 16.4.31728.76 |
 | 16.11.4 | Release | October 5, 2021 | 16.11.31727.386 |
 | 16.11.3 | Release | September 14, 2021 | 16.11.31702.278 |
 | 16.9.11 | Release | September 14, 2021 | 16.9.31702.126 |
@@ -274,6 +278,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**      | **Channel** | **Release date**   | **Build version** |
 |------------------|-------------|--------------------|-------------------|
+| 15.9.40          | Release     | October 12, 2021   | 15.9.28307.1705   |
 | 15.9.39          | Release     | September 14, 2021 | 15.9.28307.1684   |
 | 15.9.38          | Release     | August 10, 2021    | 15.9.28307.1622   |
 | 15.9.37          | Release     | July 13, 2021      | 15.9.28307.1585   |
