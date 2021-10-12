@@ -2,7 +2,7 @@
 description: "This error message means that Visual Studio could not find the correct instance of the Visual Studio Remote Debugging Monitor on the remote computer."
 title: "The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer."
 titleSuffix: ""
-ms.custom: "seodec18"
+
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:

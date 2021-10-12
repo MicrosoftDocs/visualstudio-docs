@@ -1,7 +1,6 @@
 ---
 title: "First look at deployment"
 description: "Learn about your options for deploying apps from Visual Studio."
-ms.custom: "mvc"
 ms.date: 09/23/2021
 ms.topic: conceptual
 dev_langs:
@@ -17,7 +16,6 @@ helpviewer_keywords:
   - "deploying applications [Visual Studio]"
   - "deploying applications [Visual Studio], about deploying applications"
   - "components [.NET Framework], deploying"
-ms.assetid: 63fcdd5b-2e54-4210-9038-65bc23167725
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens

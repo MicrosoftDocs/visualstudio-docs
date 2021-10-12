@@ -10,8 +10,8 @@ metadata:
   ms.technology: vs-python
   ms.topic: landing-page # Required
   ms.collection: collection
-  author: JoshuaPartlow #Required; your GitHub user alias, with correct capitalization.
-  ms.author: joshuapa #Required; microsoft alias of author; optional team alias.
+  author: rjmolyneaux #Required; your GitHub user alias, with correct capitalization.
+  ms.author: rmolyneaux #Required; microsoft alias of author; optional team alias.
   ms.date: 09/23/2019 #Required; mm/dd/yyyy format.
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
