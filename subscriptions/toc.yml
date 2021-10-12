@@ -188,6 +188,8 @@
     href: maximum-usage.md
   - name: What happens when agreements expire
     href: admin-expiration.md     
+  - name: Accounts removed by Microsoft
+    href: account-removed.md  
   - name: Expired subscriptions
     href: handle-expired-license.md
   - name: Subscriber sign-in scenarios 

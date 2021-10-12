@@ -4,7 +4,7 @@ description: Troubleshoot problems you encounter when using Visual Studio to cre
 ms.technology: vs-container-tools
 author: ghogen
 manager: jmartens
-ms.custom: seodec18
+
 ms.assetid: 346f70b9-7b52-4688-a8e8-8f53869618d3
 ms.devlang: dotnet
 ms.topic: troubleshooting

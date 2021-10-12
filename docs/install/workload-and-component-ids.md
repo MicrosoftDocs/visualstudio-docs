@@ -12,7 +12,7 @@ helpviewer_keywords:
 - workload ID, Visual Studio
 - component ID, Visual Studio
 - install Visual Studio, administrator guide
-ms.custom: seodec18
+
 ms.assetid: 34e19ef1-abfb-44fd-aad2-33c5d7874482
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
