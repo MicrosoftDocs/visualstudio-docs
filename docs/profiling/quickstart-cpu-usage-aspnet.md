@@ -41,7 +41,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
    Type **web app** in the search box, choose **C#** as the language, choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project *MyProfilingApp_MVC*, and then choose **Next**.
 
-   Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+   Choose either the recommended target framework or .NET 6, and then choose **Create**.
 
    > [!NOTE]
    > If you do not see the **ASP.NET Web Application (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **ASP.NET and web development** workload.

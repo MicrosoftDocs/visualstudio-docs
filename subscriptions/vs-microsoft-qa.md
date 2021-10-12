@@ -1,7 +1,7 @@
 ---
 title: Microsoft Q&A support in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 16af82df-380a-4864-9f4e-6c3442cc7da2
 ms.date: 03/17/2021

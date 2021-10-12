@@ -50,7 +50,7 @@ The first step in creating a matching game is to create the project and add a ta
    >
    > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png)
    >
-   > Next, in the Visual Studio Installer, choose the Choose the **.NET desktop development** workload.
+   > Next, in the Visual Studio Installer, choose the **.NET desktop development** workload.
    >
    > ![.NET Core workload in the Visual Studio Installer](../ide/media/install-dot-net-desktop-env.png)
    >

@@ -23,7 +23,9 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: JavaScript and TypeScript in Visual Studio
+          - text: JavaScript and TypeScript in Visual Studio 2022
+            url: javascript-in-vs-2022.md
+          - text: JavaScript and TypeScript in Visual Studio 2019
             url: javascript-in-vs-2019.md
       - linkListType: how-to-guide
         links:
@@ -40,7 +42,7 @@ landingContent:
       - linkListType: quickstart
         links:
           - text: Create an Angular App
-            url: tutorial-create-angular-app.md?view=vs-2022
+            url: tutorial-create-angular-app.md
           - text: Create a React App
             url: tutorial-create-react-app.md
           - text: Create a Vue App
@@ -50,9 +52,9 @@ landingContent:
       - linkListType: tutorial
         links:
           - text: Create a web app with Angular and ASP.NET Core
-            url: tutorial-asp-net-core-with-angular.md?view=vs-2022
+            url: tutorial-asp-net-core-with-angular.md
           - text: Create a web app with React and ASP.NET Core
-            url: tutorial-asp-net-core-with-react.md?view=vs-2022
+            url: tutorial-asp-net-core-with-react.md
           - text: Create a web app with Node.js and Express
             url: tutorial-nodejs.md
           - text: Create a web app with Node.js and React

@@ -1,7 +1,7 @@
 ---
 title: Internet demos via Terminal Services in Visual Studio subscriptions| Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 1c5ede60-cb5a-4d5f-a6a2-a1f536f6c4ad
 ms.date: 03/21/2021

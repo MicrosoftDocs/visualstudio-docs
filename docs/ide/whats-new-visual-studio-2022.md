@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022 (Preview)"
 titleSuffix: ""
 description: "Learn about the new features in the preview release of Visual Studio 2022."
-ms.date: 08/11/2021
+ms.date: 09/17/2021
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -17,36 +17,66 @@ ms.workload:
 ---
 # What's new in Visual Studio 2022 (Preview)
 
-**Updated for the 17.0 Preview 3 release.** See [full release notes](/visualstudio/releases/2022/release-notes-preview/) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
+**Updated for the 17.0 Preview 4 release.** See [full release notes](/visualstudio/releases/2022/release-notes-preview/) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
 
 >[!div class="button"]
 >[Download Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/vs2022/)
 
 With Visual Studio, you'll always get the best-in-class tools and services available for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our newest version, currently in Preview.
 
-## Visual Studio 2022 is 64-bit
+## Performance improvements
 
-Visual Studio 2022 on Windows is now a 64-bit application. This means you can open, edit, run, and debug even the biggest and most complex solutions without running out of memory. To learn more, see the [**Visual Studio 2022 vision**](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/) blog post.
+Visual Studio 2022 is faster, more approachable, more lightweight, and is designed for both learners and those building industrial scale solutions.
 
-## IntelliCode includes whole line completion
+### Visual Studio 2022 is 64-bit
 
-In Visual Studio 2022, the [IntelliCode](/visualstudio/intellicode/) feature can now automatically complete code up to a whole line at a time. For details, see the [**Type less, code more with IntelliCode completions**](https://devblogs.microsoft.com/visualstudio/type-less-code-more-with-intellicode-completions/) blog post.
+Visual Studio 2022 on Windows is now a 64-bit application. This means you can open, edit, run, and debug even the biggest and most complex solutions without running out of memory. To learn more, see both the [Visual Studio 2022 vision](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/) and [Visual Studio 2022 Preview 1](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-1-now-available/) blog posts.
 
-## Build modern apps with improved tools
+### Find in Files is faster
 
-[Visual Studio 2022 Preview 2](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-2-is-out/) includes better cross-platform app development tools and the latest version of C++ build tools. As well, we're updating Hot Reload so that you can edit either C++ or .NET projects while your application is running. For more information, see the [**Speed up your .NET and C++ development with Hot Reload in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/speed-up-your-dotnet-and-cplusplus-development-with-hot-reload-in-visual-studio-2022/) blog post.
+And, in [Visual Studio 2022 Preview 4](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-4-is-now-available/), we focused on improving the performance of several key features. For example, [Find in Files](find-in-files.md) is now as much as 3x faster when searching large solutions such as [Orchard Core](https://github.com/OrchardCMS/OrchardCore).
 
-## Multi-repo support with Git in the IDE
+:::image type="content" source="media/vs-2022/find-files-faster.gif" alt-text="Animation of the Find in Files feature as it searches a large C# solution three times faster that the previous version of Visual Studio.":::
+
+## Build modern apps
+
+Visual Studio 2022 makes it quick and easy to build modern, cloud-based applications with Azure. As well, our new version also has full support for .NET 6 and its unified framework for web, client, and mobile apps for both Windows and Mac developers. And, Visual Studio 2022 includes robust support for the C++ workload with new productivity features, C++20 tooling, and IntelliSense.
+
+### Better dev tools for C++ and .NET, and Hot Reload
+
+[Visual Studio 2022 Preview 2](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-2-is-out/) includes better cross-platform app development tools and the latest version of C++ build tools. As well, we're updating **Hot Reload** so that you can edit either C++ or .NET projects while your application is running. For more information, see the [**Speed up your .NET and C++ development with Hot Reload in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/speed-up-your-dotnet-and-cplusplus-development-with-hot-reload-in-visual-studio-2022/) blog post.
+
+### Updates for Blazor & Razor editors + Hot Reload for ASP.NET
+
+And, new in [Visual Studio 2022 Preview 4](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-4-is-now-available/), there’s a big update for the Blazor and Razor editors, and new capabilities for **Hot Reload** in ASP.NET Core&mdash;including **Hot Reload** when you save a file or when you apply changes to CSS files live!
+
+:::image type="content" source="media/vs-2022/hot-reload-blazor-css-live.gif" alt-text="Animation of Hot Reload in Razor and Blazor apps, and in CSS files live.":::
+
+## Innovation at your fingertips
+
+From real-time & asynchronous collaboration tools to improved insights and productivity tools that seamlessly integrate with your daily workflow, Visual Studio 2022 has this  and more.
+
+### Multi-repo support with Git in the IDE
 
 If you've worked with projects hosted on different Git repositories, you might have used external tools or multiple instances of Visual Studio to connect to them. Starting with [Visual Studio 2022 Preview 3](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/), you can work with a single solution that has projects in multiple repositories and contribute to them all from a single instance of Visual Studio. To learn more, see the [**Multi-repo support in Visual Studio**](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
 
-## Personalization improvements
+### IntelliCode improvements
+
+* **Whole line completion**: In Visual Studio 2022, the [IntelliCode](/visualstudio/intellicode/) feature can now automatically complete code up to a whole line at a time. For details, see the [**Type less, code more with IntelliCode completions**](https://devblogs.microsoft.com/visualstudio/type-less-code-more-with-intellicode-completions/) blog post.
+
+* **Quick Actions recommendations**: New in [Visual Studio 2022 Preview 4](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-4-is-now-available/), IntelliCode can now spot when you’re performing a common task and recommend the right [Quick Action](quick-actions.md), completing it right as you’re typing. To learn more, see the [**Discover quick actions for common tasks as you type, with IntelliCode**](https://devblogs.microsoft.com/visualstudio/discover-quick-action-intellicode/) blog post.
+
+## Designing for everyone
+
+We’re refreshing the user interface to better keep you in your flow. Some of the changes are subtle cosmetic touches that modernize the UI or reduce crowding.
+
+### Personalization improvements
 
 One of our key focus areas is to make Visual Studio more personalized and flexible so that you can make the IDE your own. For example, [Visual Studio 2022 Preview 3](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/) offers you the ability to sync with your Windows theme. So, if you've enabled the "night light" feature there, Visual Studio uses it, too. For more info, see the [**Personalize your Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/personalize-your-visual-studio-2022/) blog post.
 
 ## What's next
 
-Want to know more about what we're planning for Visual Studio 2022? See the [**Roadmap**](/visualstudio/productinfo/vs-roadmap/) page for details.
+Want to know more about what we're planning for Visual Studio 2022? See the [**Roadmap**](/visualstudio/productinfo/vs-roadmap/) page and the [**Visual Studio 2022 vision**](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/) blog post for details.
 
 ## Give us feedback
 
@@ -58,7 +88,8 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 ## See also
 
-* [What's new in the Visual Studio docs](whats-new-visual-studio-docs.md)
-* [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes/)
-* [Microsoft Build conference](https://www.microsoft.com/build)
-* [Microsoft Ignite conference](https://www.microsoft.com/ignite)
+* [Visual Studio 2022 Preview 4](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-4-is-now-available/)
+* [Visual Studio 2022 Preview 3](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/)
+* [Visual Studio 2022 Preview 2](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-2-is-out/)
+* [Visual Studio 2022 Preview 1](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-1-now-available/)
+* [Visual Studio 2022 vision](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/)

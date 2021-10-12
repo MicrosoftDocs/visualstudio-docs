@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 apps for enterprise in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: d1257931-392a-4a65-bf26-177737505122
 ms.date: 03/21/2021

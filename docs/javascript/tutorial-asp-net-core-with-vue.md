@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: In this tutorial, you create an app using ASP.NET Core and Vue
-ms.date: 08/09/2021
+ms.date: 09/28/2021
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -70,6 +70,21 @@ Once the project is created, you see some new and modified files:
    Once the project is created, Solution Explorer should look like this:
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-vue-solution-explorer.png" alt-text="Take a look at Solution Explorer":::
+
+1. Open `launchSettings.json` from the **Properties** folder, and under the profiles section for the backend app, change the default ports to 5001 and 5003.
+
+   ```json
+   "profiles": {
+     "yourbackendapp": {
+       "commandName": "Project",
+       "launchUrl": "swagger",
+       "environmentVariables": {
+         "ASPNETCORE_ENVIRONMENT": "Development"
+       },
+       "applicationUrl": "https://localhost:5001;http://localhost:5003",
+       "dotnetRunMessages": true
+     },
+   ```
 
 ## Set the project properties
 

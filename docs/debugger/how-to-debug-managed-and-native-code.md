@@ -125,7 +125,7 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
     Then, type a name like **Mixed_Mode_Calling_App** and click **Next** or **Create**, whichever option is available.
 
-    For .NET Core, choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+    For .NET Core, choose either the recommended target framework or .NET 6, and then choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)** or  **Console App (.NET Core)**.

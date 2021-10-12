@@ -5,7 +5,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jmartens
 ms.technology: vs-ide-general
-ms.date: 08/18/2021
+ms.date: 09/15/2021
 ms.topic: reference
 f1_keywords:
  - VS.ToolsOptionsPages.Environment.PathTrustOptions
@@ -36,7 +36,7 @@ Visual Studio prompts for user approval before opening projects that have the [M
 > You should still ensure that the file, folder, or solution comes from a trusted person or a trusted location before approving it.
 
 > [!NOTE]
-> In Visual Studio 2022 (Preview), we've revamped the Trust Settings functionality to show a warning whenever untrusted code in files, folders, projects, and solutions are about to be opened in the IDE. To learn more, see the "Trusted Locations" section of the [Visual Studio 2022 Preview release notes](/visualstudio/releases/2022/release-notes-preview#trustedlocations-170P2), and the recent [Improving developer security with Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/improving-developer-security-with-visual-studio-2022/) blog post.
+> In Visual Studio 2022 (Preview), we've revamped the Trust Settings functionality to show a warning whenever untrusted code in files, folders, projects, and solutions are about to be opened in the IDE. To learn more, see the recent [Improving developer security with Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/improving-developer-security-with-visual-studio-2022/) blog post.
 
 ## Configure trust settings
 

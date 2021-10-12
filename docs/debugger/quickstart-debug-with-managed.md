@@ -29,7 +29,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
     After you apply the language and platform filters, choose the **Console App** template for .NET Core, and then choose **Next**.
 
-    Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+    Choose either the recommended target framework or .NET 6, and then choose **Create**.
 
     If you don't see the **Console App** project template for .NET Core, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET Core cross-platform development** workload, then choose **Modify**.
     ::: moniker-end

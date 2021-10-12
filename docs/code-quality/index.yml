@@ -54,9 +54,9 @@ landingContent:
       - linkListType: reference
         links:
           - text: .NET code quality rules
-            url: /dotnet/fundamentals/productivity/code-analysis/quality-rules/index
+            url: /dotnet/fundamentals/code-analysis/quality-rules/
           - text: .NET code style rules
-            url: /dotnet/fundamentals/productivity/code-analysis/style-rules/index
+            url: /dotnet/fundamentals/code-analysis/style-rules/
 
   # Card
   - title: C++ code analysis

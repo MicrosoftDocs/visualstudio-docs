@@ -54,7 +54,7 @@ This article includes steps on setting up a basic configuration of IIS on Window
     ::: moniker range=">=vs-2019"
     In Visual Studio 2019, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project **MyASPApp**, and then choose **Next**.
 
-    Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+    Choose either the recommended target framework or .NET 6, and then choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     In Visual Studio 2017, choose **File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application**. In the ASP.NET Core templates section, select **Web Application (Model-View-Controller)**. Make sure that ASP.NET Core 2.1 is selected, that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.
@@ -195,7 +195,10 @@ For information on running the remote debugger as a service, see [Run the remote
 
     Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
 
-    ::: moniker range=">=vs-2019"
+    ::: moniker range=">=vs-2022"
+    On Visual Studio 2022, you should see **\<remote computer name>:4026**
+    ::: moniker-end
+    ::: moniker range="vs-2019"
     On Visual Studio 2019, you should see **\<remote computer name>:4024**
     ::: moniker-end
     ::: moniker range="vs-2017"
@@ -257,7 +260,10 @@ In most setups, required ports are opened by the installation of ASP.NET and the
 Required ports:
 
 * 80 - Required for IIS (HTTP)
-::: moniker range=">=vs-2019"
+::: moniker range=">=vs-2022"
+* 4026 - Required for remote debugging from Visual Studio 2022 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
+::: moniker-end
+::: moniker range="vs-2019"
 * 4024 - Required for remote debugging from Visual Studio 2019 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
 ::: moniker-end
 ::: moniker range="vs-2017"

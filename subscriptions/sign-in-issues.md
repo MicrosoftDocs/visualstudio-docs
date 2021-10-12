@@ -1,7 +1,7 @@
 ---
 title: Issues signing in to Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 176c7f11-b19d-49e9-a6dd-b2e5da5e8480
 ms.date: 02/19/2021

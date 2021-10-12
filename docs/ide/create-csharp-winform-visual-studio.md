@@ -1,6 +1,7 @@
 ---
 title: "Create a Windows Forms app with C#"
 description: "Learn how to create a Windows Forms app in Visual Studio with C#, step-by-step."
+ms.custom: "vs-acquisition, get-started"
 ms.date: 09/26/2019
 ms.topic: tutorial
 ms.devlang: CSharp
@@ -78,7 +79,7 @@ First, you'll create a C# application project. The project type comes with all t
    >
    > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png)
    >
-   > Next, in the Visual Studio Installer, choose the Choose the **.NET desktop development** workload.
+   > Next, in the Visual Studio Installer, choose the **.NET desktop development** workload.
    >
    > ![.NET Core workload in the Visual Studio Installer](../ide/media/install-dot-net-desktop-env.png)
    >

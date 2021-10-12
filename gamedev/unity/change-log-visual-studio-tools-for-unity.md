@@ -1,8 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows) | Microsoft Docs"
 description: View the change log for Visual Studio Tools for Unity, Windows. See changes from version 1.0.0.0 through 4.7.0.0 and beyond.
-
-ms.date: "6/2/2021"
+ms.date: "9/28/2021"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
 ms.topic: "conceptual"
@@ -16,6 +15,78 @@ ms.workload:
 # Change log (Visual Studio Tools for Unity, Windows)
 
 Visual Studio Tools for Unity change log.
+
+## 4.11.4.0
+Released October 4, 2021
+
+### New Features
+
+- **Integration:**
+
+  - Automatically disable asset-indexing for large Unity projects.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed supported expression detection with [`UNT0024`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0024.md) diagnostic.
+
+## 4.11.3.0
+Released August 10, 2021
+
+### Bug fixes
+
+- **Integration:**
+
+  - Reduced memory consumption when processing assets.
+
+  - Optimized allocations with [`USP0008`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0008.md), [`USP0009`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0009.md), [`USP0010`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0010.md) and [`USP0011`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0011.md) suppressors.
+
+  - Optimized symbol usage with [`UNT0002`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0002.md), [`UNT0003`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0003.md), [`UNT0012`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0012.md), [`UNT0014`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0014.md) diagnostics.
+
+## 4.11.2.0
+Released July 13, 2021
+
+### Bug fixes
+
+- **Integration:**
+
+  - Improved light-build time, by only running suppressors able to handle CS compiler warnings. All other analyzers will run through solution analysis.
+
+## 4.11.1.0
+Released June 15, 2021
+
+### Bug fixes
+
+- **Integration:**
+
+  - Reduced memory consumption when parsing yaml assets.
+
+## 4.11.0.0
+Released May 25, 2021
+
+### New Features
+
+- **Integration:**
+
+  - Added [`UNT0025`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0025.md) diagnostic. Prefer Input.GetKey overloads with KeyCode argument.
+
+  - Added more invalid usages (static and readonly fields) to [`UNT0013`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0013.md) diagnostic.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed issues with explicit method implementations and [`UNT0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0006.md) diagnostic.
+
+## 4.10.3.0
+Released June 8, 2021
+
+### Bug fixes
+
+- **Integration:**
+
+  - [Backported] Reduced memory consumption when parsing yaml assets.
 
 ## 4.10.2.0
 Released May 25, 2021

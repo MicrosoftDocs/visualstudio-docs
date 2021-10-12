@@ -1,5 +1,5 @@
 ---
-title: "Manage launch profiles for Docker Compose projects"
+title: "Launch a subset of Docker Compose services"
 description: Learn how to use Docker Compose launch profiles and control which services are launched when you use Docker Compose in Visual Studio.
 author: ghogen
 manager: jmartens
@@ -73,7 +73,8 @@ In the example below, the `web1` Compose profile is selected, which filters the 
 
 !["Screenshot of launch settings dialog box"](media/launch-settings/launch-settings-create-profile.png)
 
-The Docker Compose profiles section only appears if there are profiles defined in your *docker-compose.yml* files.
+>[!NOTE]
+> The Docker Compose profiles section only appears if there are profiles defined in your *docker-compose.yml* files.
 
 The next example demonstrates selecting between individual services instead of filtering to the services in a Compose profile. Here, we show how the dialog would look if you created a new launch profile named `test2` that only starts two out of the five services, `webapplication1` with debugging and `webapplication2` without debugging.  This launch profile also launches a browser when the application starts and opens it to the home page of `webapplication1`. 
 
@@ -164,9 +165,9 @@ Here is a description of each property in the *launchSettings.json*:
 |composeProfile - includes | List of the Compose profile names that make up a launch profile.|
 |composeProfile - serviceActions | Lists the selected Compose profiles, services, and the launch action of each service|
 |serviceActions | Lists the selected services and the launch action.|
-|composeLaunchServiceName| If DockerLaunchAction or DockerLaunchBrowser are specified, DockerServiceName is the name of the service that should be launched. Use this property to determine which service within the Docker Compose file will be launched.|
 |composeLaunchAction| Specifies the launch action to perform on **F5** or **Ctrl**+**F5**. Allowed values are None, LaunchBrowser, and LaunchWCFTestClient.|
 |composeLaunchUrl| The URL to use when launching the browser. Valid replacement tokens are "{ServiceIPAddress}", "{ServicePort}", and "{Scheme}". For example: {Scheme}://{ServiceIPAddress}:{ServicePort}|
+|composeLaunchServiceName| Specifies the service used for replacing the tokens in composeLaunchUrl.|
 
 ## Next steps
 

@@ -72,7 +72,7 @@ The `IVsTextScanner` and `IVsFullTextScanner` are being removed in Visual Studio
 
 ### Recommended updates
 
-Users of `IVsTextScanner` or `IVsFullTextScanner` should use `IVsTextLines` instead ([documentation](/dotnet/apimicrosoft.visualstudio.textmanager.interop.ivstextlines.getlinetext)).
+Users of `IVsTextScanner` or `IVsFullTextScanner` should use `IVsTextLines` instead ([documentation](/dotnet/api/microsoft.visualstudio.textmanager.interop.ivstextlines.getlinetext).
 
 ## Asynchronous solution load and lightweight solution load
 

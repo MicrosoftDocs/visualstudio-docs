@@ -1,6 +1,7 @@
 ---
 title: "Create a Windows Forms app with Visual Basic"
 description: "Learn how to create a Windows Forms app in Visual Studio with Visual Basic, step-by-step."
+ms.custom: "vs-acquisition, get-started"
 ms.date: 09/27/2019
 ms.topic: tutorial
 ms.devlang: vb
@@ -78,7 +79,7 @@ First, you'll create a Visual Basic application project. The project type comes 
    >
    > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png)
    >
-   > Next, in the Visual Studio Installer, choose the Choose the **.NET desktop development** workload.
+   > Next, in the Visual Studio Installer, choose the **.NET desktop development** workload.
    >
    > ![.NET Core workload in the Visual Studio Installer](../ide/media/install-dot-net-desktop-env.png)
    >
