@@ -4,7 +4,7 @@ description: Use the Visual Studio profiler to check the performance of Python c
 ms.date: 11/12/2018
 ms.topic: how-to
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

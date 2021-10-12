@@ -4,7 +4,7 @@ description: Visual Studio provides templates for Python web applications using 
 ms.date: 01/28/2019
 ms.topic: conceptual
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

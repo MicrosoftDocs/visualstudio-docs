@@ -4,7 +4,7 @@ description: Use the interactive window (REPL) for rapid Python code development
 ms.date: 02/11/2019
 ms.topic: how-to
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

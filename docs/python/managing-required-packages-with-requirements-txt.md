@@ -4,7 +4,7 @@ description: A requirements.txt file describes a project's dependencies. If you 
 ms.date: 03/18/2019
 ms.topic: how-to
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

@@ -4,7 +4,7 @@ description: A complete list of Python interpreters that are supported in Visual
 ms.date: 07/28/2021
 ms.topic: how-to
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

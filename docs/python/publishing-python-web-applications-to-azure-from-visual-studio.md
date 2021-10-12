@@ -4,7 +4,7 @@ description: Options for publishing a Python app to Azure App Service, including
 ms.date: 03/13/2019
 ms.topic: conceptual
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

@@ -4,7 +4,7 @@ description: Visual Studio makes it easy to refactor Python code by renaming ide
 ms.date: 03/13/2019
 ms.topic: how-to
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

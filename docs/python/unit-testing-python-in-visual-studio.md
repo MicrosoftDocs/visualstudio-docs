@@ -4,7 +4,7 @@ description: Setting up unit testing for Python code in Visual Studio takes full
 ms.date: 09/18/2019
 ms.topic: how-to
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

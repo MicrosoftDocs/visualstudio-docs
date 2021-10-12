@@ -4,7 +4,7 @@ description: Visual Studio can automatically reformat Python code including spac
 ms.date: 03/13/2019
 ms.topic: conceptual
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

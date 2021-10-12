@@ -4,7 +4,7 @@ description: Visual Studio provide rich debugging for Python code, including set
 ms.date: 05/12/2020
 ms.topic: how-to
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

@@ -4,7 +4,7 @@ description: This article walks you through how to create a C++ extension for Py
 ms.date: 05/11/2021
 ms.topic: how-to
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

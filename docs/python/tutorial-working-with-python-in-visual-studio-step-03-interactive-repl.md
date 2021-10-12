@@ -5,7 +5,7 @@ description: Step 3 of a core walkthrough of Python capabilities in Visual Studi
 ms.date: 01/28/2019
 ms.topic: tutorial
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

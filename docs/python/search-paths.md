@@ -4,7 +4,7 @@ description: Visual Studio provides a more specific means to specify search path
 ms.date: 03/13/2019
 ms.topic: how-to
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

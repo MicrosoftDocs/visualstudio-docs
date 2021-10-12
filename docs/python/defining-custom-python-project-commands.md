@@ -4,7 +4,7 @@ description: By editing project and targets files,  you can add custom commands 
 ms.date: 11/12/2018
 ms.topic: how-to
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

@@ -4,7 +4,7 @@ description: You can specifically select a Python environment, including Anacond
 ms.date: 03/18/2019
 ms.topic: how-to
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

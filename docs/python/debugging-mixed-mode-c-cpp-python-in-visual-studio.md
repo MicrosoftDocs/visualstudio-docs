@@ -4,7 +4,7 @@ description: Simultaneously debug C++ and Python in Visual Studio including step
 ms.date: 11/12/2018
 ms.topic: how-to
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

@@ -4,7 +4,7 @@ description: Use the Python Environments window to manage global, virtual, and c
 ms.date: 08/06/2019
 ms.topic: how-to
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 ms.workload:

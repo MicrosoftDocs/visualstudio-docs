@@ -5,7 +5,7 @@ description: Step 5 of a core walkthrough of Python capabilities in Visual Studi
 ms.date: 03/09/2020
 ms.topic: tutorial
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

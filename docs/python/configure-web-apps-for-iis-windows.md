@@ -4,7 +4,7 @@ description: How to configure Python web apps to run with Internet Information S
 ms.date: 12/06/2018
 ms.topic: how-to
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

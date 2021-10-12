@@ -5,7 +5,7 @@ description: Summary of Python features in Visual Studio, making it the best Pyt
 ms.date: 06/05/2019
 ms.topic: overview
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

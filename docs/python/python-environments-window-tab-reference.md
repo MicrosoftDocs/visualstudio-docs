@@ -4,7 +4,7 @@ description: Details on each of the tabs that appear in the Python Environments 
 ms.date: 03/18/2019
 ms.topic: reference
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

@@ -6,7 +6,7 @@ ms.date: 09/14/2021
 ms.technology: vs-python
 ms.topic: quickstart
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.custom: [vs-acquisition]
 ms.workload:

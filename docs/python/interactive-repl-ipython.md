@@ -4,7 +4,7 @@ description: Use the Visual Studio interactive window in IPython mode for a user
 ms.date: 07/28/2021
 ms.topic: how-to
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 

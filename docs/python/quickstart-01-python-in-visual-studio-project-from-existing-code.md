@@ -4,7 +4,7 @@ description: In this quickstart, you create a Visual Studio project for Python f
 ms.date: 12/06/2018
 ms.topic: quickstart
 author: rjmolyneaux
-author: rmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
 
