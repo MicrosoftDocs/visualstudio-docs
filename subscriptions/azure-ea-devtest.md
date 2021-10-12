@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
 ms.assetid: a335ed23-34ee-40cb-83c6-6c93dee57424
-ms.date: 03/21/2021
+ms.date: 10/11/2021
 ms.topic: how-to
 description:  Learn how to take advantage of special Azure DevTest pricing available to customers with Enterprise Agreements
 ---
