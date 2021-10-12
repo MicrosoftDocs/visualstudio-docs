@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting and known issues (VS Tools for Unity)"
 description: Read about troubleshooting in Visual Studio Tools for Unity. See descriptions of known issues, and learn about solutions to those issues.
-ms.custom: ""
+
 ms.date: "04/15/2021"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
@@ -97,7 +97,7 @@ When using the new Unity runtime, .NET targeting packs version 4.6 or 4.7.1 are 
 
 If your project is complex reference-wise or if you want to better control this generation step, you can use our [API](../extensibility/customize-project-files-created-by-vstu.md) for manipulating the generated project or solution content. You can also use [response files](https://docs.unity3d.com/Manual/PlatformDependentCompilation.html) in your Unity project and we'll process them.
 
-With recent Visual Studio and Unity versions, the best approach seems to use a custom `Directory.Build.props` file along with your generated projects. You will then be able to contribute to the project structure without interfering with the generation process. More information [here](https://docs.microsoft.com/visualstudio/msbuild/customize-your-build#directorybuildprops-and-directorybuildtargets).
+With recent Visual Studio and Unity versions, the best approach seems to use a custom `Directory.Build.props` file along with your generated projects. You will then be able to contribute to the project structure without interfering with the generation process.
 
 ## Breakpoints with a warning
 

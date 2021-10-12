@@ -1,7 +1,7 @@
 ---
 title: Set a watch on variables | Microsoft Docs
 description: While you debug, see variables and expressions in Watch and QuickWatch. Watch can display several variables, QuickWatch only one, and only while in break.
-ms.custom: "SEO-VS-2020"
+ms.custom: SEO-VS-2020
 ms.date: 09/10/2021
 ms.topic: how-to
 f1_keywords:
@@ -20,6 +20,7 @@ ms.technology: vs-ide-debug
 ms.workload: 
   - multiple
 ---
+
 # Watch variables with Watch windows and QuickWatch
 
 While you're debugging, you can use **Watch** windows and **QuickWatch** to watch variables and expressions. The windows are only available during a debugging session.
