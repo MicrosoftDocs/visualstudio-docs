@@ -1,7 +1,7 @@
 ---
 title: "First look at the debugger"
 description: "Get started debugging applications using the Visual Studio debugger"
-ms.custom: ""
+
 ms.date: 07/26/2021
 ms.topic: tutorial
 helpviewer_keywords:

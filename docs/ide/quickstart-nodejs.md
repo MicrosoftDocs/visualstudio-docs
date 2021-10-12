@@ -1,6 +1,6 @@
 ---
 title: "Create your first Node.js app"
-ms.custom: [vs-acquisition,  SEO-VS-2020]
+ms.custom: [vs-acquisition]
 description: In this quickstart, you create a Node.js app in Visual Studio
 ms.date: 03/25/2021
 ms.technology: vs-javascript

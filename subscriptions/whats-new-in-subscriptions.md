@@ -1,7 +1,6 @@
 ---
 title: "What's new in Visual Studio subscriptions"
 description: "Learn about the new and updated features that you can use to manage Visual Studio subscriptions."
-ms.custom: ""
 ms.date: 04/01/2020
 ms.topic: conceptual
 author: evanwindom

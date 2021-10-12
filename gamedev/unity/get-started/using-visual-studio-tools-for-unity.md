@@ -1,7 +1,7 @@
 ---
 title: "Using Visual Studio Tools for Unity | Microsoft Docs"
 description: Learn to use Visual Studio Tools for Unity's integration and productivity features. Also use the Visual Studio debugger for Unity development.
-ms.custom: ""
+
 ms.date: "07/03/2018"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16

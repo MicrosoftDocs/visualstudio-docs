@@ -1,7 +1,7 @@
 ---
 title: "First look at deployment"
 description: "Learn about your options for deploying apps from Visual Studio."
-ms.custom: "mvc"
+
 ms.date: 01/29/2019
 ms.topic: quickstart
 dev_langs:

@@ -4,11 +4,11 @@ titleSuffix: ""
 description: Step 6 of a core walkthrough of Python in Visual Studio, covering Visual Studio's Git-related features.
 ms.date: 08/16/2021
 ms.topic: tutorial
-author: JoshuaPartlow
-ms.author: joshuapa
+author: rjmolyneaux
+author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
-ms.custom: seodec18
+
 ms.workload:
   - python
   - data-science
