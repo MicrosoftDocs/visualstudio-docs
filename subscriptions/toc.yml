@@ -166,7 +166,6 @@
     href: add-monthly-subs.md
   - name: Assign subscriptions
     items:
-<<<<<<< HEAD
     - name: Add single users
       href: assign-license.md
     - name: Add multiple users
@@ -189,6 +188,8 @@
     href: maximum-usage.md
   - name: What happens when agreements expire
     href: admin-expiration.md     
+  - name: Accounts removed by Microsoft
+    href: account-removed.md  
   - name: Expired subscriptions
     href: handle-expired-license.md
   - name: Subscriber sign-in scenarios 
@@ -197,72 +198,6 @@
     href: personal-email-sign-ins.md
   - name: Managing Visual Studio subscriptions with GitHub Enterprise
     href: assign-github.md
-=======
-    - name: Administrator responsibilities
-      href: admin-responsibilities.md
-    - name: Pre-production inventory
-      href: admin-inventory.md
-    - name: Manage large teams and external contractors
-      href: manage-teams.md
-    - name: Track user assignments and process orders
-      href: assignments-orders.md
-  - name: Accessing the admin portal
-    items:
-    - name: Volume License
-      href: volume-license.md
-    - name: MPSA
-      href: mpsa.md
-    - name: Cloud subscriptions
-      href: cloud-admin.md
-    - name: Partners managing for customers
-      href: open-migration.md
-    - name: 'Video tutorial: Access the admin portal'
-      href:  https://www.microsoft.com/videoplayer/embed/RE4th6L
-  - name: Using the admin portal
-    items:
-    - name: Super admins and administrators
-      href: admin-roles.md
-    - name: Set agreement preferences
-      href: admin-preferences.md
-    - name: Overview
-      href: using-admin-portal.md
-    - name: Add monthly subscriptions
-      href: add-monthly-subs.md
-    - name: Assign subscriptions
-      items:
-      - name: Add single users
-        href: assign-license.md
-      - name: Add multiple users
-        href: assign-license-bulk.md
-      - name: Assign specific subscriptions
-        href: assign-guid.md
-    - name: Move subscriptions to new agreements
-      href: migrate-subscriptions.md        
-    - name: Edit subscriptions
-      href: edit-license.md
-    - name: Delete subscriptions
-      href: delete-license.md
-    - name: Search for a subscription
-      href: search-license.md
-    - name: Export subscriptions
-      href: exporting-subscriptions.md
-    - name: Overallocations
-      href: handle-overclaimed-license.md
-    - name: Maximum usage
-      href: maximum-usage.md
-    - name: What happens when agreements expire
-      href: admin-expiration.md     
-    - name: Expired subscriptions
-      href: handle-expired-license.md
-    - name: Subscriptions removed by Microsoft
-      href: account-removed.md
-    - name: 'Subscriber sign-in scenarios '
-      href: aliasing.md
-    - name: Subscribers with personal email sign-ins
-      href: personal-email-sign-ins.md
-    - name: Managing Visual Studio subscriptions with GitHub Enterprise
-      href: assign-github.md
->>>>>>> 6bbd942f918f5b239eec4cb2a63abc66774e9047
 - name: Resources
   items:
   - name: Visual Studio licensing white paper
