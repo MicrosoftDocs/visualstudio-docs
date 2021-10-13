@@ -18,7 +18,7 @@ Creating a new personal Microsoft Account (MSA) using a work/school email addres
 ### Why was this change made?
 Having a personal Microsoft Account with a work address as a username is fraught with issues for end-users and IT departments alike. For example:
 - Users might think that their personal Microsoft account is business-compliant and that they're in compliance when they save business document to their OneDrive
-- Users who leave an organization generally lose access to their work email address. When they do, they may not be able to get back into their personal Microsoft account if they forget their password. The flip side is that their IT department could reset their password and get into the personal account of former employees.
+- Users who leave an organization generally lose access to their work email address. When they do, they may not be able to get back into their personal Microsoft account if they forget their password. Conversely, their IT department could reset their password and get into the personal account of former employees.
 - IT departments have a false sense of account ownership and security. But users only need to roundtrip a code to their work email address once, and can rename their account at any time in the future.
 
 The situation is particularly confusing for users who have two accounts with the same email address (one in Azure AD & one Microsoft account).
