@@ -24,7 +24,7 @@ highlightedContent:
    - title: Welcome to the Visual Studio IDE
      itemType: overview
      url: ../get-started/visual-studio-ide.md
-   - title: Visual Studio 2022 Preview
+   - title: Visual Studio 2022 RC
      itemType: whats-new
      url: /visualstudio/releases/2022/release-notes-preview
    - title: Improve your Visual Studio skills
