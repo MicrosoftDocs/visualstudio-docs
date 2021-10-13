@@ -45,4 +45,5 @@ For annual cloud subscriptions, l take effect the first day of the month followi
 - [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-[Learn more about Microsoft for Startups](https://startups.microsoft.com)
+- [Learn more about Microsoft for Startups](https://startups.microsoft.com)
+- [Microsoft for Startups blog](https://startups.microsoft.com/Blog?search=Microsoft%20for%20Startups)

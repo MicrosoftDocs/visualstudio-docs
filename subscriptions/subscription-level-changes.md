@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
 ms.assetid: bb2fa359-8170-4db0-a0c5-d49fc692b0aa
-ms.date: 03/18/2021
+ms.date: 10/13/2021
 ms.topic: conceptual
 description:  Learn about the effects of upgrading or downloading your Visual Studio subscription level.
 ---

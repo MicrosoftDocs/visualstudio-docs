@@ -34,7 +34,7 @@ In this tutorial, you will:
 
 ::: moniker range=">=vs-2022"
 
-You must have Visual Studio 2022 Preview installed and the **.NET desktop development** workload.
+You must have Visual Studio 2022 RC installed and the **.NET desktop development** workload.
 
 ::: moniker-end
 

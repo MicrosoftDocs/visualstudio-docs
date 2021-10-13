@@ -332,9 +332,9 @@ You can check for an update and then install it by using the menu bar or the sea
 
 ### Open Visual Studio
 
-1. From the Windows **Start** menu, choose **Visual Studio 2022 Preview**.
+1. From the Windows **Start** menu, choose **Visual Studio 2022 RC**.
 
-    ![Screenshot showing the Visual Studio 2022 Preview entry in the Windows 10 Start menu.](media/vs-2022/ide-start-menu.png "Open Visual Studio 2022 Preview from Windows")
+    ![Screenshot showing the Visual Studio 2022 RC entry in the Windows 10 Start menu.](media/vs-2022/ide-start-menu.png "Open Visual Studio 2022 RC from Windows")
 
 1. Under **Get started** in the start window, choose any option to open the Visual Studio IDE.
 

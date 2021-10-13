@@ -16,7 +16,7 @@ ms.workload:
 In this how-to article, we'll customize the Visual Studio color theme from the default blue theme to the dark theme. Then, we'll customize the colors for two different types of text in the code editor.
 
 > [!NOTE]
-> In [Visual Studio 2022 Preview](/visualstudio/releases/2022/release-notes-preview), we've revamped the color themes functionality to mesh with your Windows settings. To learn more, see the [**Flexible theming capabilities for Visual Studio**](https://devblogs.microsoft.com/visualstudio/flexible-theming-visual-studio/) blog post.
+> In [Visual Studio 2022 RC](/visualstudio/releases/2022/release-notes-preview), we've revamped the color themes functionality to mesh with your Windows settings. To learn more, see the [**Flexible theming capabilities for Visual Studio**](https://devblogs.microsoft.com/visualstudio/flexible-theming-visual-studio/) blog post.
 
 ::: moniker range="vs-2017"
 

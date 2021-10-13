@@ -17,9 +17,9 @@ open_to_public_contributors: false
 
 ::: moniker range="vs-2022"
 
-## Visual Studio 2022 Preview
+## Visual Studio 2022 RC
 
-The following table lists the build numbers and release dates for Visual Studio 2022 Preview, to date.
+The following table lists the build numbers and release dates for Visual Studio 2022 RC, to date.
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
