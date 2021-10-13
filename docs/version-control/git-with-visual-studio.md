@@ -23,7 +23,7 @@ Git is the default version control experience in Visual Studio. We continue to b
 Git is now the default version control experience in Visual Studio 2019. Since [version 16.6](/visualstudio/releases/2019/release-notes-v16.6), we've worked on building out the feature set and iterating on it based on your feedback. In [version 16.8](/visualstudio/releases/2019/release-notes-v16.8), it became the default version control experience for everyone.
 
 > [!NOTE]
-> We continue to build out and iterate on the Git feature set in [Visual Studio 2022 Preview](/visualstudio/releases/2022/release-notes-preview), too. To learn more about a recent feature update, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
+> We continue to build out and iterate on the Git feature set in [Visual Studio 2022 RC](/visualstudio/releases/2022/release-notes-preview), too. To learn more about a recent feature update, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
 
 ::: moniker-end
 
@@ -224,4 +224,4 @@ While the new Git experience is now on by default starting with Visual Studio 20
 - [Announcing the Release of the Git Experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/announcing-the-release-of-the-git-experience-in-visual-studio/) blog post
 - [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md)
 - [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes)
-- [Visual Studio 2022 Preview release notes](/visualstudio/releases/2022/release-notes-preview)
+- [Visual Studio 2022 RC and Preview release notes](/visualstudio/releases/2022/release-notes-preview)
