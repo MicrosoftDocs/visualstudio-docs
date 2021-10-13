@@ -27,7 +27,7 @@ Dotfuscator Community is a *post-build* system for .NET applications.
 With it, Visual Studio users are able to [obfuscate assemblies][obfuscation] and inject [active defense measures][checks] into the application - all without Dotfuscator needing to access the original source code.
 Dotfuscator protects your application in multiple ways, creating a layered protection strategy.
 
-Dotfuscator Community supports a wide range of .NET assembly and application types, including [Universal Windows Platform (UWP)][uwp] and [Xamarin][xamarin].
+Dotfuscator Community supports a wide range of .NET assembly and application types, including Universal Windows Platform (UWP) and [Xamarin][xamarin].
 
 ## Intellectual Property Protection
 
