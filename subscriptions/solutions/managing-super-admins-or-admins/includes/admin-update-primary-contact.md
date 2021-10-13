@@ -1,5 +1,5 @@
 ---
-title: Our primary contact left and I'm the new one. How can I update the contact info?
+title: How can I update the contact info if I'm the new primary contact?
 description: The new primary contact wants to update the primary contact or super admin role.
 ms.topic: include
 ms.assetid: 1c123f81-325d-4f0b-a2b5-23f4cf263db1 
