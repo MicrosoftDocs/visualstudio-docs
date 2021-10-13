@@ -1,5 +1,5 @@
 ---
-title: "What's new in Visual Studio 2022 (Preview)"
+title: "What's new in Visual Studio 2022"
 titleSuffix: ""
 description: "Learn about the new features in the preview release of Visual Studio 2022."
 ms.date: 10/13/2021
@@ -15,7 +15,7 @@ ms.topic: conceptual
 ms.workload:
   - "multiple"
 ---
-# What's new in Visual Studio 2022 (Preview)
+# What's new in Visual Studio 2022
 
 **Updated for the 17.0 Preview 5/Release Candidate (RC).** See [full release notes](/visualstudio/releases/2022/release-notes-preview/) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
 
