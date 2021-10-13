@@ -20,7 +20,7 @@ ms.workload:
 **Updated for the 17.0 Preview 5/Release Candidate (RC).** See [full release notes](/visualstudio/releases/2022/release-notes-preview/) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
 
 >[!div class="button"]
->[Download Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/vs2022/)
+>[Download Visual Studio 2022 RC](https://visualstudio.microsoft.com/downloads/)
 
 With [Visual Studio 2022 RC](https://visualstudio.microsoft.com/vs/preview/), you'll always get the best-in-class tools and services available for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our newest version!
 

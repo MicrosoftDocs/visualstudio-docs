@@ -27,7 +27,7 @@ Visual Studio enables you to set up your application builds to target different 
 
 ::: moniker range="vs-2022"
 > [!NOTE]
-> Visual Studio 2022 Preview runs as a 64-bit application. This is totally separate from the platforms you can target for your projects in Visual Studio. You can use any version of Visual Studio to target both 32-bit and 64-bit platforms.
+> Visual Studio 2022 RC runs as a 64-bit application. This is totally separate from the platforms you can target for your projects in Visual Studio. You can use any version of Visual Studio to target both 32-bit and 64-bit platforms.
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 > [!NOTE]
