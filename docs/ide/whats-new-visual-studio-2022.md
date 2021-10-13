@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022 (Preview)"
 titleSuffix: ""
 description: "Learn about the new features in the preview release of Visual Studio 2022."
-ms.date: 10/12/2021
+ms.date: 10/13/2021
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -22,7 +22,7 @@ ms.workload:
 >[!div class="button"]
 >[Download Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/vs2022/)
 
-With Visual Studio, you'll always get the best-in-class tools and services available for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our newest version, currently in Preview.
+With [Visual Studio 2022 RC](https://visualstudio.microsoft.com/vs/preview/), you'll always get the best-in-class tools and services available for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our newest version!
 
 ## Performance improvements
 
@@ -44,7 +44,7 @@ Visual Studio 2022 makes it quick and easy to build modern, cloud-based applicat
 
 ### Better dev tools for C++ and .NET, and Hot Reload
 
-[Visual Studio 2022 Preview 2](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-2-is-out/) includes better cross-platform app development tools and the latest version of C++ build tools. As well, we're updating **Hot Reload** so that you can edit either C++ or .NET projects while your application is running. For more information, see the [**Speed up your .NET and C++ development with Hot Reload in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/speed-up-your-dotnet-and-cplusplus-development-with-hot-reload-in-visual-studio-2022/) blog post.
+[Visual Studio 2022 Preview 2](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-2-is-out/) includes better cross-platform app development tools and the latest version of C++ build tools, to include C++20 support. As well, we're updating **Hot Reload** so that you can edit either C++ or .NET projects while your application is running. For more information, see the [**Speed up your .NET and C++ development with Hot Reload in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/speed-up-your-dotnet-and-cplusplus-development-with-hot-reload-in-visual-studio-2022/) blog post.
 
 ### Updates for Blazor & Razor editors + Hot Reload for ASP.NET
 
@@ -88,6 +88,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 ## See also
 
+* [Visual Studio 2022 RC (Release Candidate)](https://devblogs.microsoft.com/visualstudio/join-us-november-8th-for-the-launch-of-visual-studio-2022/)
 * [Visual Studio 2022 Preview 4](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-4-is-now-available/)
 * [Visual Studio 2022 Preview 3](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/)
 * [Visual Studio 2022 Preview 2](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-2-is-out/)
