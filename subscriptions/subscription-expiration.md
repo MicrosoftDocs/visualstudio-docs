@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
 ms.assetid: b6fbfa3e-654a-462f-8e22-e313b6ea617f
-ms.date: 09/20/2021
+ms.date: 10/13/2021
 ms.topic: conceptual
 description: Learn what happens when your Visual Studio subscription expires
 ---
