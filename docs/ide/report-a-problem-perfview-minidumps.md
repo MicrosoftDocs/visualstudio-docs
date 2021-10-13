@@ -1,7 +1,7 @@
 ---
 description: "PerfView is a tool that creates ETL (event trace log) files based on Event Tracing for Windows) that can be useful in troubleshooting some kinds of issues with Visual Studio."
 title: Collect an ETL trace with PerfView and create minidumps with all call stacks
-ms.date: 10/11/2021
+ms.date: 10/12/2021
 ms.topic: how-to
 helpviewer_keywords:
   - "perfview"
@@ -55,7 +55,7 @@ In some cases, Microsoft might ask for a minidump of a running Visual Studio pro
 1. From the main menu, choose **Debug** > **Attach To Process**.
 1. Check the relevant **Managed** and **Native** check boxes and press **Attach**.
 
-   ![Attach to process](../ide/media/attach-to-process.png)
+   ![Screenshot showing the codes types selected in the Attach To Process dialog.](../ide/media/attach-to-process.png)
 
 1. Select the other Visual Studio instance to attach to from the list of running processes.
 1. From the main menu, choose **Debug** > **Break All**.
