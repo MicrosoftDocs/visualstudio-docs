@@ -7,6 +7,7 @@ ms.topic: reference
 ms.author: kaelli
 author: KathrynEE
 ms.manager: jmartens
+monikerRange: "<=vs-2019"
 ---
 # Team Explorer reference
 
