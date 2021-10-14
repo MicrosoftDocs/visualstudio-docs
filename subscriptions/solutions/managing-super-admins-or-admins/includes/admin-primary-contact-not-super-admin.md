@@ -1,5 +1,5 @@
 ---
-title: How do I become a super admin if I'm a primary contact?
+title: I'm the primary contact, but I'm not a super admin.
 description: The primary contact is trying to figure out if they should have super admin permissions
 ms.topic: include 
 ms.assetid: d204a061-9a4e-408c-a967-bf2b815d0bf8
