@@ -69,9 +69,9 @@ Debugging between two computers connected through a proxy is not supported. Debu
 
 1. Open the About.cshtml.cs file and set a breakpoint in the `OnGet` method (in older templates, open HomeController.cs instead and set the breakpoint in the `About()` method).
 
-## <a name="remote_debug_azure_app_service"></a> Remote Debug ASP.NET Core on an Azure App Service
+## <a name="remote_debug_azure_app_service"></a> Remote Debug ASP.NET Core on an Azure App Service (Windows)
 
-From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. For more detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). (If you need the ability to customize IIS, try debugging on an [Azure VM](#remote_debug_azure_vm).)
+From Visual Studio, you can quickly publish and debug your app to Azure App Service on Windows, which is based on a fully provisioned instance of IIS. If you are hosting IIS on a VM, try debugging on an [Azure VM](#remote_debug_azure_vm).)
 
 ::: moniker range=">= vs-2022"
 
