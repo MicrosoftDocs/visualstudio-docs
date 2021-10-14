@@ -47,7 +47,7 @@ A: Azure DevOps should automatically recognize your subscription when you sign i
 
 * Check that you have an active Visual Studio subscription that includes [Azure DevOps](vs-azure-devops.md#eligibility) as a benefit.
 
-* Confirm that you're using a login/identity that is either the primary or alternate identity for your Visual Studio subscription.  Many people, for example, will also have a Visual Studio Dev Essentials membership associated with a different sign-in ID.  Attempting to sign in to other subscriptions with that ID will fail unless they are associated with that email address.
+* Confirm that you're using a login/identity that is either the primary or alternate identity for your Visual Studio subscription.  Many people, for example, will also have a Visual Studio Dev Essentials membership associated with a different sign-in ID.  Attempting to sign in to other subscriptions with that ID will fail unless those subscriptions are associated with that email address.
 
 * Visit the [Visual Studio subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) at least once before you sign in to Azure DevOps.
 
