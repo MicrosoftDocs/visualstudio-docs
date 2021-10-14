@@ -1,5 +1,5 @@
 ---
-title: How do I move my subscribers to a new agreement?
+title: My agreement was renewed, but the subscribers didn’t transfer
 description: The super admin or admin expected the subscribers on the new agreement but they’re not reflecting there
 ms.assetid: a95181b0-b64c-4c29-a90e-928962c06d81
 author: CaityBuschlen 
