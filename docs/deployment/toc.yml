@@ -4,8 +4,8 @@
   items:
   - name: First look at deployment
     href: deploying-applications-services-and-components.md
-  - name: Deploy to a folder, IIS, or Azure
-    href: deploying-applications-services-and-components-resources.md
+  - name: Overview of Publish
+    href: publish-overview.md
 - name: Quickstarts
   items:
   - name: Deploy to Azure App Service
@@ -266,6 +266,8 @@
         href: schedules-element-bootstrapper.md
 - name: Reference
   items:
+  - name: Deploy to a folder, IIS, or Azure
+    href: deploying-applications-services-and-components-resources.md
   - name: ClickOnce Reference
     items:
     - name: Overview of ClickOnce Reference

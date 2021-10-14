@@ -25,6 +25,8 @@ landingContent:
         links:
           - text: First look at deployment
             url: deploying-applications-services-and-components.md
+          - text: Overview of Publish
+            url: publish-overview.md
 
   # Card (optional)
   - title: Get started (.NET Core, Python)
