@@ -1,5 +1,5 @@
 ---
-title: I’m unable to manage my agreement
+title: Why can't I manage my agreement?
 description: The super admin or admin had permissions to the agreement to manage it, but they no longer can access it because the agreement has expired.
 ms.topic: include
 ms.assetid: 1e42ee75-fbf6-4dce-b844-44f94efb80d6
