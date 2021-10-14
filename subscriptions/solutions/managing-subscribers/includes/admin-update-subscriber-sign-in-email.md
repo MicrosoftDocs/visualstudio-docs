@@ -1,5 +1,5 @@
 ---
-title: How do I update my subscriber's sign-in email address?
+title: Update subscriber sign-in email address
 description: Super admin or admin wants to update the subscribers domain in bulk.
 ms.topic: include
 ms.assetid: c1220a33-26b0-4bf9-be97-ab2b3055e351
