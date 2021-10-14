@@ -4,12 +4,12 @@ author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 872c5746-5357-4764-949b-aa525a0adf1a
-ms.date: 08/20/2021
+ms.date: 10/14/2021
 ms.topic: how-to
 description:  Learn how to activate the Azure DevTest individual credit benefit included in your Visual Studio subscription.
 ---
 # Use Microsoft Azure in Visual Studio subscriptions
-As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  With your [monthly Azure DevTest individual credit](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/), Azure is your personal sandbox for dev/test.  You can provision virtual machines, cloud services, and other Azure resources.  Credit amounts vary by subscription level.
+As a Visual Studio subscriber, you may be able to use Microsoft Azure at no extra charge.  With your [monthly Azure DevTest individual credit](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/), Azure is your personal sandbox for dev/test.  You can provision virtual machines, cloud services, and other Azure resources.  Credit amounts vary by subscription level.
 
 ## Activation steps
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
@@ -55,7 +55,6 @@ Use the Eligibility table below to determine how many credits are included with 
 
 
 ## Convert your Azure subscription to Pay-As-You-Go
-
 If you no longer need a Visual Studio subscription or credit but you want to continue using your Azure resources, [transfer your resources](/azure/azure-resource-manager/management/move-resource-group-and-subscription) to another Azure subscription, or convert your Azure subscription to pay-as-you-go pricing by [removing your spending limit](/azure/cost-management-billing/manage/spending-limit#remove-the-spending-limit-in-azure-portal). 
 
 If you don’t take one of these actions, your Azure subscription will be disabled at the time specified in your email notification.  If the subscription is disabled you can reenable it as a pay-as-you-go subscription by following [these steps](https://docs.microsoft.com/azure/cost-management-billing/manage/switch-azure-offer).
