@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
 ms.assetid: c15f7e18-b280-4902-a60d-2c2598653207
-ms.date: 03/18/2021
+ms.date: 10/14/2021
 ms.topic: conceptual
 description:  Learn about the Azure Community Support benefit included in selected Visual Studio subscriptions.
 ---
