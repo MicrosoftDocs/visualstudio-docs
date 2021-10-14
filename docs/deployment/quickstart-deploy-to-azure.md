@@ -52,7 +52,7 @@ This article describes how to use the **Publish** tool for one-time deployment.
 
 1. In the **Publish** dialog, the newly created instance has been automatically selected. When ready, select **Finish**.
 
-    ![Screenshot of the Publish window accessed from Visual Studio Solution Explorer. Azure is selected as the publishing target.](../deployment/media/quickstart-publish-windows-select-instance.png)
+    ![Screenshot of the Publish tool accessed from Visual Studio Solution Explorer. Azure is selected as the publishing target.](../deployment/media/quickstart-publish-windows-select-instance.png)
 
 1. Select **Publish**. Visual Studio deploys the app to your Azure App Service, and the web app loads in your browser. The project properties **Publish** pane shows the site URL and other details.
 
