@@ -185,7 +185,7 @@ Workloads contain the components you need for the programming language or platfo
 
 1. Choose **Modify**.
 
-1. After the modified workloads or components are installed, choose **Launch** from the Visual Studio Installer to open Visual Studio 2022 Preview.
+1. After the modified workloads or components are installed, choose **Launch** from the Visual Studio Installer to open Visual Studio 2022 RC.
 
 ::: moniker-end
 

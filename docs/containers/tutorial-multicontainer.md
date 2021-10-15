@@ -30,7 +30,7 @@ In this tutorial, you'll learn how to manage more than one container and communi
 ::: moniker range=">=vs-2022"
 
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-* [Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/) with the **Web Development**, **Azure Tools** workload, and/or **.NET cross-platform development** workload installed. This includes .NET Core 3.1 and .NET 6 development tools.
+* [Visual Studio 2022 RC](https://visualstudio.microsoft.com/vs/preview/) with the **Web Development**, **Azure Tools** workload, and/or **.NET cross-platform development** workload installed. This includes .NET Core 3.1 and .NET 6 development tools.
 * [.NET 5 Development Toos](https://dotnet.microsoft.com/download/dotnet-core/5.0) for development with .NET 5.
 ::: moniker-end
 

@@ -1,9 +1,9 @@
 ---
 title: "Remote debugging | Microsoft Docs"
 description: Debug a Visual Studio application that has been deployed on a different computer by using the Visual Studio remote debugger.
-ms.custom: ['remotedebugging', 'seodec18', 'SEO-VS-2020']
-ms.date: "09/10/2021"
-ms.topic: "conceptual"
+ms.custom: ['remotedebugging', 'SEO-VS-2020']
+ms.date: 09/10/2021
+ms.topic: conceptual
 f1_keywords:
   - "vs.debug.remote.overview"
 dev_langs:
@@ -22,6 +22,7 @@ ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
+
 # Remote Debugging
 You can debug a Visual Studio application that has been deployed on a different computer. To do so, you use the Visual Studio remote debugger.
 

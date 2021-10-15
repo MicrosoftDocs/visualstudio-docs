@@ -1462,20 +1462,16 @@
     href: ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md
 - name: Send feedback
   items:
-  - name: Report a problem
-    items:
-    - name: Report a problem
-      href: ide/how-to-report-a-problem-with-visual-studio.md
-    - name: Get performance issues fixed quicker
-      href: ide/how-to-increase-chances-of-performance-issue-being-fixed.md
-    - name: Create minidumps with callstacks
-      href: ide/report-a-problem-minidumps.md
-    - name: Create logs for MSBuild problems
-      href: ide/msbuild-logs.md
-    - name: Collect an ETL trace with PerfView
-      href: ide/report-a-problem-perfview.md
   - name: Suggest a feature
     href: ide/suggest-a-feature.md
+  - name: Report a problem
+    href: ide/how-to-report-a-problem-with-visual-studio.md
+  - name: Get performance issues fixed quicker
+    href: ide/how-to-increase-chances-of-performance-issue-being-fixed.md
+  - name: Create logs for MSBuild problems
+    href: ide/msbuild-logs.md
+  - name: Collect an ETL trace and create minidumps
+    href: ide/report-a-problem-perfview-minidumps.md
   - name: Developer Community guidelines
     href: ide/developer-community-guidelines.md
   - name: Developer Community data privacy
