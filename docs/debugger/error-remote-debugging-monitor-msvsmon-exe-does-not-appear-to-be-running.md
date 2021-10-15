@@ -29,7 +29,7 @@ This error message means that Visual Studio could not find the correct instance 
  If the version of Visual Studio that you are using is Visual Studio 2010 or earlier, you might also receive this error if file and printer sharing is not enabled. To find out more about this issue, please refer to the Visual Studio 2010 version of this documentation: [Error: The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer. - Visual Studio 2010](/previous-versions/visualstudio/visual-studio-2010/ms164726(v=vs.100))
 
 ## I got this message while I was debugging locally
- If you are getting this message while you are debugging locally, your anti-virus software or a third-party firewall may be to blame. Visual Studio is a 32-bit application, so it uses the 64-bit version of the remote debugger to debug 64-bit applications. The two processes communicate using the local network within the local computer. No traffic leaves the computer, but it is possible that third party security software may block the communication.
+ If you are getting this message while you are debugging locally with Visual Studio 2017 or earlier, your anti-virus software or a third-party firewall may be to blame. Visual Studio 2019 and earlier are 32-bit applications. 32-bit versions of Visual Studio use the 64-bit version of the remote debugger to debug 64-bit applications. With Visual Studio 2017 and earlier, the two processes communicate using the local network within the local computer. No traffic leaves the computer, but it is possible that third party security software may block the communication.
 
  The following sections list some other reasons why you might have gotten this message, and what you can do to fix the issue.
 
