@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 44a790d1-f37e-4be0-9023-af1b3fdfcd35
-ms.date: 03/17/2021
+ms.date: 10/18/2021
 ms.topic: conceptual
 description:  Learn about the Developer Community Support benefit included in selected Visual Studio subscriptions.
 ---
@@ -16,6 +16,7 @@ Post questions, find answers and share your knowledge in the Developer Community
 Connecting to the Developer Community is simple.
 1. Sign in to the Visual Studio subscriptions portal at <https://my.visualstudio.com/benefits>
 0. Find the **Developer Community** in the Support section, and click **Get help**.
+(You can also point your browser directly to <https://developercommunity.visualstudio.com/>.)
 
    > [!div class="mx-imgBorder"]
    > ![Developer Community Tile](_img/vs-developer-community/vs-developer-community-tile.png "Click 'Get help' to connect to the Developer Community")
