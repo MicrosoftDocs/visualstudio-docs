@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio subscriptions"
 description: "Learn about the new and updated features that you can use to manage Visual Studio subscriptions."
-ms.date: 10/05/2021
+ms.date: 10/18/2021
 ms.topic: conceptual
 author: evanwindom
 ms.author: cabuschl
@@ -10,7 +10,6 @@ ms.assetid: 2dc938b5-37e9-4dfc-8676-5d0a91d366ab
 ---
 
 # What&#39;s new in Visual Studio subscriptions
-
 We update the Subscription benefits package often to make it more useful to you. We'll also make enhancements to our subscriber and subscription management portals to provide you the best possible experience.  We'll also generate new content in response to user questions and when changes are made.  Read on to learn about the latest features and updates, sorted quarterly.
 
 ## 2021 Q3 (July - September)
