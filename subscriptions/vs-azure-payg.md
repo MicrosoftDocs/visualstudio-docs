@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 5dc7f57e-883a-4cc1-a914-06245a8cb1ff
-ms.date: 02/19/2021
+ms.date: 10/14/2021
 ms.topic: how-to
 description:  Learn how to set up your Azure Pay-As-You-Go account.
 ---
@@ -23,7 +23,7 @@ Collaborate with your team in the cloud.  Create multiple Dev and Test Pay-As-Yo
 
 4. To verify your identity, enter a phone number, and choose “Send text message” or “Call me”.  Enter the code you receive.  Click **Verify code**.
 
-5. Next, please provide the billing information for your account and click **Next**.  (This will be the credit card that is charged for all your Azure purchases.)
+5. Next, provide the billing information for your account and click **Next**.  (This will be the credit card that is charged for all your Azure purchases.)
 
 6. In the Agreement section, click on the check box to accept the subscription agreement, offer details and privacy statement, then click **Purchase**.
 
