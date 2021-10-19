@@ -4,17 +4,15 @@ author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
 ms.assetid: c4b13464-76be-40f1-ad60-ed79ee264b12
-ms.date: 10/06/2021
+ms.date: 10/18/2021
 ms.topic: how-to
 description:  Learn how to download and install the Visual Studio IDE included in your Visual Studio subscription
 ---
 
 # The Visual Studio IDE
-
 As a Visual Studio subscriber, you have access to the Visual Studio IDE.  The specific version will depend on the level of your subscription.  The benefit will appear as a tile in the Tools category on the [Benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) page of the subscriber portal.
 
 ## Activation steps
-
 *(Visual Studio Enterprise is used for this example.)*
 
 To download the IDE:
@@ -54,7 +52,6 @@ To download the IDE:
 
 
 ## Eligibility
-
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard, monthly cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  Yes          |
@@ -82,7 +79,7 @@ If you have a question about Visual Studio, several resources are available to a
 - Search the Stack Overflow [public Q&A tagged with visual-studio](https://stackoverflow.com/questions/tagged/visual-studio?tab=Newest) to get answers to already asked questions or sign up for an account and ask a new question.
 
 ### Technical support incidents
-If you’ve exhausted the options above and still don’t have an answer, activate a Visual Studio technical support ticket by visiting the [subscriptions portal benefits page](https://my.visualstudio.com/Benefits) and clicking on the Technical Support benefit tile in the Support tab. Read more about the [Technical Support benefit](https://docs.microsoft.com/visualstudio/subscriptions/vs-tech-support). (Technical support is not available with all subscriptions. [Compare Visual Studio subscription benefits](https://visualstudio.microsoft.com/vs/benefits/#azure?cat=visual-studio-enterprise-subscription) to find out what is included with your subscription.)
+If you’ve exhausted the options above and still don’t have an answer, activate a Visual Studio technical support ticket by visiting the [subscriptions portal benefits page](https://my.visualstudio.com/Benefits) and clicking on the Technical Support benefit tile in the Support tab. Read more about the [Technical Support benefit](vs-tech-support.md). (Technical support is not available with all subscriptions. [Compare Visual Studio subscription benefits](https://visualstudio.microsoft.com/vs/benefits/#azure?cat=visual-studio-enterprise-subscription) to find out what is included with your subscription.)
 
 ### Visual Studio subscription support
 Visual Studio Subscriptions support provides assistance with sales, subscriptions, accounts, and billing. Contact [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp).
