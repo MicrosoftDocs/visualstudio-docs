@@ -126,12 +126,11 @@ To run to the cursor location, in source code or the **Call Stack** window, sele
 
 ### Force run to a cursor location
 
-To run to the cursor location, in source code or the **Call Stack** window, select the line you want to break at, right-click and select **Force Run To Cursor**. Selecting **Force Run To Cursor** will skip  any breakpoints and first-chance exceptions  until the debugger reaches the line of code with the cursor.
+To run to the cursor location, in source code or the **Call Stack** window, select the line you want to break at, right-click and select **Force Run To Cursor**. Selecting **Force Run To Cursor** will skip any breakpoints and first-chance exceptions  until the debugger reaches the line of code with the cursor.
 
 ### Run to Click
 
 While paused in the debugger, you can hover over a statement in source code or the **Disassembly** window, and select the **Run execution to here** green arrow icon. Using **Run to Click** eliminates the need to set a temporary breakpoint.
-
 
 ![Run to Click](../debugger/media/dbg-run-to-click.png "Run to Click")
 

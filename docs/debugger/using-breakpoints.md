@@ -261,7 +261,7 @@ Data breakpoints don't work under the following conditions:
 
 ## <a name="BKMK_set_a_dependent_breakpoint"></a>Set a dependent breakpoint
 
-Dependent breakpoint  break execution only if the another breakpoint is first hit. So in the complex scenario such as  debugging a multi-thread application you can configure the additional breakpoints after another breakpoint is first hit. This can make debugging code in common paths such as  game loop or a utility API much easier as a breakpoint in those functions can be configured to enable only if the function is invoked from a specific part of your application.
+Dependent breakpoint  break execution only if the another breakpoint is first hit. So in the complex scenario such as  debugging a multi-thread application you can configure the additional breakpoints after another breakpoint is first hit. This can make debugging code in common paths such as game loop or a utility API much easier as a breakpoint in those functions can be configured to enable only if the function is invoked from a specific part of your application.
 
 **To set a dependent breakpoint:**
 
