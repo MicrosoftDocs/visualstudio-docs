@@ -131,7 +131,7 @@ Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual
 ::: moniker range=">=vs-2022"
 
 >[!TIP]
->If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2022 Releases](/visualstudio/releases/2022/release-notes-history) page.
+>If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2022 Releases](/visualstudio/releases/2022/release-notes-preview) page.
 
 ::: moniker-end
 
