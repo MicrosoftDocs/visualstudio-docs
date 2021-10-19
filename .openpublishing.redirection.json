@@ -46866,6 +46866,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/msbuild/configuring-targets-and-tasks.md",
+      "redirect_url": "/visualstudio/msbuild/configure-tasks",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/msbuild/index.md",
       "redirect_url": "/visualstudio/msbuild/msbuild",
       "redirect_document_id": false
