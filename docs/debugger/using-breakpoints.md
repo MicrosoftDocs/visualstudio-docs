@@ -82,7 +82,9 @@ You can control when and where a breakpoint executes by setting conditions. The 
 
 1. Right-click the breakpoint symbol and select **Conditions** (or press **Alt** + **F9**, **C**). Or hover over the breakpoint symbol, select the **Settings** icon, and then select **Conditions** in the **Breakpoint Settings** window.
 
-   You can also set conditions in the **Breakpoints** window by right-clicking a breakpoint and selecting **Settings**, and then selecting **Conditions**.
+You can also right click in the far left margin next to a line of code and select  "Insert Conditional Breakpoint" option from the context menu to set new condition breakpoint. 
+
+   You can also set conditions in the **Breakpoints** window by right-clicking a breakpoint and selecting **Settings**, and then selecting **Conditions**
 
    ![Breakpoint settings](../debugger/media/breakpointsettings.png "BreakpointSettings")
 
@@ -256,6 +258,40 @@ Data breakpoints don't work under the following conditions:
 > - Data breakpoints depend on specific memory addresses. The address of a variable changes from one debugging session to the next, so data breakpoints are automatically disabled at the end of each debugging session.
 >
 > - If you set a data breakpoint on a local variable, the breakpoint remains enabled when the function ends, but the memory address is no longer applicable, so the behavior of the breakpoint is unpredictable. If you set a data breakpoint on a local variable, you should delete or disable the breakpoint before the function ends.
+
+## <a name="BKMK_set_a_dependent_breakpoint"></a>Set a dependent breakpoint
+
+Dependent breakpoint  break execution only if the another breakpoint is first hit. So in the complex scenario such as  debugging a multi-thread application you can configure the additional breakpoints after another breakpoint is first hit. This can make debugging code in common paths such as  game loop or a utility API much easier as a breakpoint in those functions can be configured to enable only if the function is invoked from a specific part of your application.
+
+**To set a dependent breakpoint:**
+
+1. Hover over the breakpoint symbol, select the Settings icon, and then select "Only enable when the following breakpoint is hit" in the Breakpoint Settings window.
+
+2. In the dropdown, select prerequisite breakpoint you want your current breakpoint to be dependent on.
+
+Select Close or press Ctrl+Enter to close the Breakpoint Settings window. Or, from the Breakpoints window, select OK to close the dialog.
+![Dependent Breakpoint](../debugger/media/dbg-dependent-breakpoint.png "DependentBreakpoint")
+
+- Dependent breakpoints don't work if there only a single breakpoint in your application. 
+- Dependent breakpoints will be converted to normal line breakpoint if the prerequisite breakpoint is deleted. 
+
+## <a name="BKMK_set_a_temporary_breakpoint"></a>Set a Temporary breakpoint
+
+This breakpoint lets you break the code only once. When debugging, Visual Studio debugger will only pause application runtime once for this breakpoint and removes it immediately after it has been hit.
+
+**To set a temporary breakpoint:**
+
+1. Hover over the breakpoint symbol, select the Settings icon, and then select "Remove breakpoint once hi" in the Breakpoint Settings window.
+2. Select Close or press Ctrl+Enter to close the Breakpoint Settings window. Or, from the Breakpoints window, select OK to close the dialog.
+
+![Temporary breakpoint](../debugger/media/dbg_temporary-breakpoint.png "TemporaryBreakpoint")
+
+You can also use the  right click context menu to set the temporary breakpoint.
+1. Right click in the far left margin next to a line of code and select  "Insert Temporary Breakpoint" option from the context.
+
+![Temporary breakpoint context](../debugger/media/dbg_temporary-breakpoint-context.png "TemporaryBreakpointContext")
+
+or simply use the shortcut **F9 + Shift + Alt, T** and  set the temporary breakpoint on line desired.
 
 ## <a name="BKMK_Specify_advanced_properties_of_a_breakpoint_"></a> Manage breakpoints in the Breakpoints window
 

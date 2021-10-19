@@ -124,14 +124,28 @@ To visually trace the call stack, see [Map methods on the call stack while debug
 
 To run to the cursor location, in source code or the **Call Stack** window, select the line you want to break at, right-click and select **Run To Cursor**, or press **Ctrl**+**F10**. Selecting **Run To Cursor** is like setting a temporary breakpoint.
 
+### Force run to a cursor location
+
+To run to the cursor location, in source code or the **Call Stack** window, select the line you want to break at, right-click and select **Force Run To Cursor**. Selecting **Force Run To Cursor** will skip  any breakpoints and first-chance exceptions  until the debugger reaches the line of code with the cursor.
+
 ### Run to Click
 
 While paused in the debugger, you can hover over a statement in source code or the **Disassembly** window, and select the **Run execution to here** green arrow icon. Using **Run to Click** eliminates the need to set a temporary breakpoint.
+
 
 ![Run to Click](../debugger/media/dbg-run-to-click.png "Run to Click")
 
 > [!NOTE]
 > **Run to Click** is available starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
+
+### Force Run to Click 
+
+While paused in the debugger, you can hover over a statement in source code, while holding Shift key and  select the **Force run execution to here**  with the double  green arrow icon. Using **Force Run to Click** the application will attach the Visual Studio debugger and pause at the cursor location, any breakpoints and first-chance exceptions encountered during execution are temporarily disabled.
+
+![Force Run to Click](../debugger/media/dbg_force-run-to-cursor.png "Force Run to Click")
+
+> [!NOTE]
+> **Force Run to Click** is available starting in [!include[vs_dev17](../misc/includes/vs_dev17_md.md)].
 
 ### Manually break into code
 
