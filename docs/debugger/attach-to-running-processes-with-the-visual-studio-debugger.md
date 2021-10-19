@@ -59,7 +59,7 @@ To quickly reattach to a process you attached to previously, see [Reattach to a 
 1. In the **Available processes** list, find and select the process or processes you want to attach to.
 
    - To quickly select a process, type its name or first letter in the **Filter processes** box.
-
+ 
    - If you don't know the process name, browse through the list, or see [Common debugging scenarios](#BKMK_Scenarios) for some common process names.
 
    >[!TIP]
@@ -77,6 +77,9 @@ To quickly reattach to a process you attached to previously, see [Reattach to a 
    1. Select **OK**.
 
 1. Select **Attach**.
+
+> [!TIP]
+> In the scenario when you have multiple identical processes, use Command Line column or use the w3wp process details from title column  so you can conveniently identify the right process. 
 
 >[!NOTE]
 >You can be attached to multiple apps for debugging, but only one app is active in the debugger at a time. You can set the active app in the Visual Studio **Debug Location** toolbar or **Processes** window.
