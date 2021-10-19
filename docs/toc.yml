@@ -1450,12 +1450,7 @@
   - name: Support lifecycle and servicing
     href: /visualstudio/productinfo/vs-servicing-vs/
   - name: Customer Experience Improvement
-    items:
-    - name: About the program
-      displayName: Customer Experience Improvement Program
-      href: ide/visual-studio-experience-improvement-program.md
-    - name: System-generated logs
-      href: ide/diagnostic-data-collection.md
+    href: ide/visual-studio-experience-improvement-program.md
   - name: Connected experiences in Visual Studio
     href: ide/reference/connected-experiences.md
   - name: Troubleshooting IDE errors

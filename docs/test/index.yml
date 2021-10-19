@@ -57,6 +57,8 @@ landingContent:
             url: live-unit-testing-start.md
           - text: Generate unit tests (IntelliTest)
             url: generate-unit-tests-for-your-code-with-intellitest.md
+          - text: Test execution with Hot Reload
+            url: test-execution-with-hot-reload.md
       - linkListType: how-to-guide
         links:
           - text: Microsoft Fakes - Isolate code under test
