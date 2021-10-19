@@ -54,6 +54,8 @@
     href: run-a-unit-test-as-a-64-bit-process.md
   - name: Configure unit tests by using a .runsettings file
     href: configure-unit-tests-by-using-a-dot-runsettings-file.md
+  - name: Test Execution with Hot Reload
+    href: test-execution-with-hot-reload.md
   - name: Write unit tests for managed code
     items:
     - name: "Walkthrough: Create and run unit tests for managed code"
