@@ -184,7 +184,13 @@ You can combine property functions to form more complex functions, as the follow
 $([MSBuild]::BitwiseAnd(32, $([System.IO.File]::GetAttributes(tempFile))))
 ```
 
-This example returns the value of the <xref:System.IO.FileAttributes>`Archive` bit (32 or 0) of the file given by the path `tempFile`. Notice that enumerated data values cannot appear by name within property functions. The numeric value (32) must be used instead.
+This example returns the value of the <xref:System.IO.FileAttributes>`Archive` bit (32 or 0) of the file given by the path `tempFile`. Notice that enumerated data values cannot appear by name in some contexts. The numeric value (32) must be used instead. In some cases, the enum data value must be used, as in the following example, where the enum `System.Text.RegularExpressions.RegexOptions.ECMAScript` must be used as an enum value.
+
+```xml
+<PropertyGroup>
+    <GitVersionHeightWithOffset>$([System.Text.RegularExpressions.Regex]::Replace("$(PrereleaseVersion)", "^.*?(\d+)$", "$1", "System.Text.RegularExpressions.RegexOptions.ECMAScript"))</GitVersionHeightWithOffset>
+</PropertyGroup>
+```
 
 Metadata may also appear in nested property functions. For more information, see [Batching](../msbuild/msbuild-batching.md).
 
@@ -374,10 +380,12 @@ MSBuild 16.7 and higher define several functions for handling [TargetFramework a
 |Function signature|Description|
 |------------------------|-----------------|
 |GetTargetFrameworkIdentifier(string targetFramework)|Parse the TargetFrameworkIdentifier from the TargetFramework.|
-|GetTargetFrameworkVersion(string targetFramework)|Parse the TargetFrameworkVersion from the TargetFramework.|
+|GetTargetFrameworkVersion(string targetFramework, int versionPartCount)|Parse the TargetFrameworkVersion from the TargetFramework.|
 |GetTargetPlatformIdentifier(string targetFramework)|Parse the TargetPlatformIdentifier from the TargetFramework.|
-|GetTargetPlatformVersion(string targetFramework)|Parse the TargetPlatformVersion from the TargetFramework.|
+|GetTargetPlatformVersion(string targetFramework, int versionPartCount)|Parse the TargetPlatformVersion from the TargetFramework.|
 |IsTargetFrameworkCompatible(string targetFrameworkTarget, string targetFrameworkCandidate)|Return 'True' if the candidate target framework is compatible with this target framework and false otherwise.|
+
+The `versionPartCount` parameter of `GetTargetFrameworkVersion` and `GetTargetPlatformVersion` has a default value of 2.
 
 The following example shows how these functions are used. 
 
