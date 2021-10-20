@@ -83,6 +83,9 @@ $(registry:Hive\MyKey\MySubKey)
 <PropertyGroup>
 ```
 
+> [!WARNING]
+> In the .NET SDK version of MSBuild (`dotnet build`), registry properties are not supported.
+
 ## Global properties
 
  MSBuild lets you set properties on the command line by using the **-property** (or **-p**) switch. These global property values override property values that are set in the project file. This includes environment properties, but does not include reserved properties, which cannot be changed.
