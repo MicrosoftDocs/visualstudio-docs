@@ -184,7 +184,7 @@ You can combine property functions to form more complex functions, as the follow
 $([MSBuild]::BitwiseAnd(32, $([System.IO.File]::GetAttributes(tempFile))))
 ```
 
-This example returns the value of the <xref:System.IO.FileAttributes>`Archive` bit (32 or 0) of the file given by the path `tempFile`. Notice that enumerated data values cannot appear by name in some contexts. The numeric value (32) must be used instead. In some cases, the enum data value must be used, as in the following example, where the enum `System.Text.RegularExpressions.RegexOptions.ECMAScript` must be used as an enum value.
+This example returns the value of the <xref:System.IO.FileAttributes>`Archive` bit (32 or 0) of the file given by the path `tempFile`. Notice that enumerated data values cannot appear by name in some contexts. In the previous example, the numeric value (32) must be used instead. In some cases, the enum data value must be used, as in the following example, where the enum `System.Text.RegularExpressions.RegexOptions.ECMAScript` must be used as an enum value.
 
 ```xml
 <PropertyGroup>
