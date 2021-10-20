@@ -36,7 +36,7 @@ The following `UsingTask` attributes affect all operations of a task in a partic
     AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v3.5.dll" />
 ```
 
-You can also use the `MSBuildRuntime` and `MSBuildArchitecture` parameters to set the target context of an individual task.
+You can also use the `MSBuildRuntime` and `MSBuildArchitecture` parameters to set the target context of an individual task invocation.
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -110,5 +110,5 @@ The `MSBuildRuntime` and `MSBuildArchitecture` parameters provide the most flexi
 
 ## See also
 
-- [Configure targets and tasks](../msbuild/configuring-targets-and-tasks.md)
+- [Configure targets and tasks](../msbuild/configure-tasks.md)
 - [UsingTask element](../msbuild/usingtask-element-msbuild.md)

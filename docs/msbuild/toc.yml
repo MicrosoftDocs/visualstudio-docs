@@ -136,10 +136,10 @@
         href: msbuild-target-framework-and-target-platform.md
       - name: Resolving assemblies at design time
         href: resolving-assemblies-at-design-time.md
-      - name: Targets and task configuration
+      - name: Task configuration
         items:
         - name: Overview
-          href: configuring-targets-and-tasks.md
+          href: configure-tasks.md
         - name: Configure targets and tasks
           href: how-to-configure-targets-and-tasks.md
       - name: Troubleshoot .NET Framework targeting errors
@@ -542,6 +542,10 @@
         href: errors/msb3884.md
       - name: MSB3971
         href: errors/msb3971.md
+      - name: MSB4018
+        href: errors/msb4018.md
+      - name: MSB4062
+        href: errors/msb4062.md
       - name: MSB4086
         href: errors/msb4086.md
       - name: MSB4094
