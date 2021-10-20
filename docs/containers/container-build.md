@@ -26,7 +26,7 @@ EXPOSE 80
 EXPOSE 443
 ```
 
-The lines in the Dockerfile begin with the ASP.Net Core 3.1 image from Microsoft Container Registry (mcr.microsoft.com) and create an intermediate image `base` that exposes ports 80 and 443, and sets the working directory to `/app`.
+The lines in the Dockerfile begin with the ASP.NET image from Microsoft Container Registry (mcr.microsoft.com) and create an intermediate image `base` that exposes ports 80 and 443, and sets the working directory to `/app`.
 
 The next stage is `build`, which appears as follows:
 
