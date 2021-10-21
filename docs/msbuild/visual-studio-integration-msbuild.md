@@ -3,7 +3,7 @@ title: Visual Studio Integration (MSBuild)
 titleSuffix: ''
 description: Learn how Visual Studio can host projects in MSBuild format, even if they were authored by different tools and had customized build processes.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 10/20/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, reference resolution
@@ -196,8 +196,6 @@ Adding item type names to the `AvailableItemName` item type will cause items of 
 ## Performance shortcuts
 
  If you use the Visual Studio IDE to start debugging (either by choosing the F5 key or by choosing **Debug** > **Start Debugging** on the menu bar) or to build your project (for example, **Build** > **Build Solution**), the build process uses a fast update check to improve performance. In some cases where customized builds create files that get built in turn, the fast update check does not correctly identify the changed files. Projects that need more thorough update checks can turn off the fast checking by setting the environment variable `DISABLEFASTUPTODATECHECK=1`. Alternatively, projects can set this as an MSBuild property in the project or in a file the project imports.
-
- For regular builds in Visual Studio, the fast update check doesn't apply, and the project will build as if you invoked the build at a command prompt.
 
 ## See also
 
