@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Property functions
 
-Property functions are calls to .NET Framework methods that appear in MSBuild property definitions. Unlike tasks, property functions can be used outside of targets, and are evaluated before any target runs.
+Property functions are calls to .NET Framework methods that appear in MSBuild property definitions. Unlike tasks, property functions can be used outside of targets. Property functions are evaluated whenever the properties or items get expanded, which is before any target runs for properties and items outside of any targets, or when the target is evaluated, for property groups and item groups inside targets.
 
 Without using MSBuild tasks, you can read the system time, compare strings, match regular expressions, and perform other actions in your build script. MSBuild will try to convert string to number and number to string, and make other conversions as required.
 
