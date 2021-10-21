@@ -78,8 +78,11 @@ To quickly reattach to a process you attached to previously, see [Reattach to a 
    1. Select **OK**.
 
 1. Select **Attach**.
+
+::: moniker range=">= vs-2022"
 > [!TIP]
-> In the scenario when you have multiple identical processes, use Command Line column or use the w3wp process details from title column so you can conveniently identify the right process.
+> In the scenario where you have multiple identical processes, use the Command Line column or the w3wp process details from the Title column to identify the right process.
+::: moniker-end
 
 >[!NOTE]
 >You can be attached to multiple apps for debugging, but only one app is active in the debugger at a time. You can set the active app in the Visual Studio **Debug Location** toolbar or **Processes** window.
