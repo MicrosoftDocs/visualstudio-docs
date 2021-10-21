@@ -45,7 +45,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/bridge/breadcrumb/toc.yml",
+      "breadcrumb_path": "/visualstudio/bridge/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "GitHub",
       "ms.prod": "visual-studio-family"
