@@ -62,6 +62,14 @@ You can also do a "camel case" search. In the following screenshot, a search for
 
 :::image type="content" source="media/visual-studio-search-camel.png" alt-text="Camel hump search with Visual Studio search":::
 
+## Keyboard shortcuts
+
+The search results includes tabs for **All**, **Code**, **Visual Studio**. You can save time by using the following keyboard shortcuts for different types of searches:
+
+- **Ctrl**+**Q**, **Ctrl**+**T** for files, types, and members
+- **Ctrl**+**Q**, **Ctrl**+**M** for Visual Studio menus, options, components, and templates
+- **Ctrl**+**Q**, **Ctrl**+**E** to go to the **All** tab, for both
+
 ## See also
 
 - [Visual Studio commands](reference/visual-studio-commands.md)
