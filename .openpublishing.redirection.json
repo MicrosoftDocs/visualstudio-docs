@@ -45236,7 +45236,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/deployment/quickstart-deploy-to-a-local-folder.md",
+      "source_path": "docs/deployment/quickstart-deploy-to-local-folder.md",
       "redirect_url": "/visualstudio/deployment/quickstart-deploy-aspnet-web-app",
       "redirect_document_id": false
     },
