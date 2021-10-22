@@ -212,10 +212,10 @@ Each new version of Visual Studio supports most types of projects, files, and ot
 We try to preserve backwards compatibility with previous versions, such as Visual Studio 2019, Visual Studio 2017, Visual Studio 2015, Visual Studio 2013, and Visual Studio 2012. However, support for some project types changes over time. A newer version of Visual Studio might not support certain projects at all, or it might require that you update a project so that it's no longer backwards-compatible.
 
 > [!NOTE]
-> For current status on migration issues, refer to the [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8). And to learn more about which features are specific to which Visual Studio version, see the [Release Notes](/visualstudio/releases/2019/release-notes/).
+> For current status on migration issues, refer to the [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8). And to learn more about which features are specific to which Visual Studio version, see the [Release Notes](/visualstudio/releases/2022/release-notes-preview).
 
 > [!IMPORTANT]
-> Some project types require specific workloads. If you don't have the workload installed, Visual Studio reports an unknown or incompatible project type. In that case, check your [installation options in the Visual Studio Installer](../install/modify-visual-studio.md) and try again. For more information about project support in Visual Studio 2019, see the [Platform Targeting and Compatibility](/visualstudio/releases/2019/compatibility) page.
+> Some project types require specific workloads. If you don't have the workload installed, Visual Studio reports an unknown or incompatible project type. In that case, check your [installation options in the Visual Studio Installer](../install/modify-visual-studio.md) and try again. For more information about project support in Visual Studio 2022, see the [Platform Targeting and Compatibility](/visualstudio/releases/2022/compatibility) page.
 
 ## Project types
 
