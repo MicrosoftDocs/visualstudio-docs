@@ -41,10 +41,12 @@ If this is your first time publishing this web app, next you see the Publish wiz
 > [!NOTE]
 > Visual Studio filters the list of destinations depending on the type of web app.
 
+## [Azure](#tab/azure)
 ## Publish your web app to Azure
 
 See [Quickstart: Deploy an ASP.NET web app](https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs#publish-your-web-app)
 
+## [Docker](#tab/docker)
 ## Publish your web app to Docker Container Registry
 
 You can publish your web app as a Docker container to any compatible Docker Container Registry.
@@ -81,7 +83,8 @@ Next you will see the summary page for the new [publish profile](./overview-publ
 
 *Note: The above screenshot is showing a publish profile targeting Azure Docker Registry but the same Publish button is available for all three Docker Container Registry options.*
 
-## Publish your web app to Folder
+## [Folder](#tab/folder)
+## Publish your web app to a folder
 
 You can publish your web app to both local and network folders.
 
@@ -97,7 +100,8 @@ Next you will see the summary page for the new [publish profile](./overview-publ
 
 You can come back to this summary page after you close it. Next time you right-click and Publish, Visual Studio will open this summary page (to get back to the Publish wizard just click **New** in the summary page).
 
-## Publish your web app to FTP/FTPS Server
+## [FTP/FTPS](#tab/ftp-ftps)
+## Publish your web app to an FTP/FTPS server
 
 You can publish your web app using FTP or FTPS.
 
@@ -113,6 +117,7 @@ Next you will see the summary page for the new [publish profile](./overview-publ
 
 You can come back to this summary page after you close it. Next time you right-click and Publish, Visual Studio will open this summary page (to get back to the Publish wizard just click **New** in the summary page).
 
+## [Web Server](#tab/web-server)
 ## Publish your web app to Web Server (IIS)
 
 You can publish your web app to IIS.
@@ -141,6 +146,9 @@ Next you will see the summary page for the new [publish profile](./overview-publ
 
 ![publish to IIS - summary page](./media/publish-iis-web-deploy-package-summary-page.png)
 
+## [Import profile](#tab/import-profile)
 ## Import Profile
 
 You can import publish profiles [from IIS](./how-to-get-publish-profile-from-iis.md) and [Azure App Service](./how-to-get-publish-profile-from-azure-app-service.md)
+
+---
