@@ -152,4 +152,3 @@ You can access File Explorer in Windows by using Solution Explorer in Visual Stu
 - [Filtered solutions in Visual Studio](filtered-solutions.md)
 - [Microsoft's open source repositories on GitHub](https://github.com/Microsoft)
 - [Developer code samples](https://code.msdn.microsoft.com/)
-- [Resources for troubleshooting Visual Studio IDE errors](./reference/resources-for-troubleshooting-integrated-development-environment-errors.md)

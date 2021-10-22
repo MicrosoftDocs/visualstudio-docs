@@ -2,7 +2,7 @@
 title: Property Functions | Microsoft Docs
 description: Learn how to use property functions, which are calls to .NET Framework methods that appear in MSBuild property definitions.
 ms.custom: SEO-VS-2020
-ms.date: 02/21/2017
+ms.date: 10/20/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, property functions
@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Property functions
 
-Property functions are calls to .NET Framework methods that appear in MSBuild property definitions. Unlike tasks, property functions can be used outside of targets, and are evaluated before any target runs.
+Property functions are calls to .NET Framework methods that appear in MSBuild property definitions. Unlike tasks, property functions can be used outside of targets. Property functions are evaluated whenever the properties or items get expanded, which is before any target runs for properties and items outside of any targets, or when the target is evaluated, for property groups and item groups inside targets.
 
 Without using MSBuild tasks, you can read the system time, compare strings, match regular expressions, and perform other actions in your build script. MSBuild will try to convert string to number and number to string, and make other conversions as required.
 
@@ -278,6 +278,9 @@ $([MSBuild]::GetRegistryValue(`HKEY_CURRENT_USER\Software\Microsoft\VisualStudio
 $([MSBuild]::GetRegistryValue(`HKEY_LOCAL_MACHINE\SOFTWARE\(SampleName)`, `(SampleValue)`))             // parens in name and value
 ```
 
+> [!WARNING]
+> In the .NET SDK version of MSBuild (`dotnet build`), this function is not supported.
+
 ## MSBuild GetRegistryValueFromView
 
 The MSBuild `GetRegistryValueFromView` property function gets system registry data given the registry key, value, and one or more ordered registry views. The key and value are searched in each registry view in order until they are found.
@@ -307,6 +310,9 @@ $([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Mic
 ```
 
 gets the **SLRuntimeInstallPath** data of the **ReferenceAssemblies** key, looking first in the 64-bit registry view and then in the 32-bit registry view.
+
+> [!WARNING]
+> In the .NET SDK version of MSBuild (`dotnet build`), this function is not supported.
 
 ## MSBuild MakeRelative
 

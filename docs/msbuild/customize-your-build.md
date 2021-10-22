@@ -75,7 +75,7 @@ Properties that are set in *Directory.Build.props* can be overridden elsewhere i
 When you need to set a property or define a target for an individual project that overrides any prior settings, put that logic in the project file after the final import. In order to do this in an SDK-style project, you first have to replace the SDK-style attribute with the equivalent imports. See [How to use MSBuild project SDKs](how-to-use-project-sdk.md).
 
 > [!NOTE]
-> The MSBuild engine reads in all imported files during evaluation, before starting build execution for any project (including any `PreBuildEvent`), so these files are not expected to be modified by the `PreBuildEvent` or any other part of the build process. Any modifications do not take effect until the next invocation of *MSBuild.exe* or the next Visual Studio build.
+> The MSBuild engine reads in all imported files during evaluation, before starting build execution for a project (including any `PreBuildEvent`), so these files are not expected to be modified by the `PreBuildEvent` or any other part of the build process. Any modifications do not take effect until the next invocation of *MSBuild.exe* or the next Visual Studio build. Also, if your build process contains many project builds (as with multitargeting or building dependent projects), then imported files, including *Directory.build.props* are read when evaluation occurs for each individual project build.
 
 ### Use case: multi-level merging
 
