@@ -1,0 +1,146 @@
+---
+title: Publish an ASP.NET web app
+description: Learn how to use the Publish tool to publish ASP.NET and ASP.NET Core to a website from Visual Studio. 
+ms.date: 10/22/2021
+ms.topic: quickstart
+helpviewer_keywords:
+  - "deployment, web app"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-deployment
+ms.workload:
+  - "multiple"
+---
+
+# Quickstart: Publish an ASP.NET web app
+
+In this quickstart, you'll learn how to publish your first ASP.NET web app to a variety of locations including a local web server such as IIS and a remote cloud environment such as Azure App Service.
+
+The steps in this article are supported for ASP.NET and ASP.NET Core
+
+## Prerequisites
+
+You need [Visual Studio](https://www.visualstudio.com/downloads) installed with the ASP.NET and web development workload.
+
+If you've already installed Visual Studio:
+
+* Install the latest updates in Visual Studio by selecting **Help** > **Check for Updates**.
+* Add the workload by selecting **Tools** > **Get Tools and Features**.
+
+## Get started
+
+In Solution Explorer, right-click your project and select **Publish**
+
+![right-click and publish](./media/right-click-publish.png)
+
+If this is your first time publishing this web app, next you see the Publish wizard.
+
+![publish wizard - publish targets](./media/publish-targets-general.png)
+
+> [!NOTE]
+> Visual Studio filters the list of destinations depending on the type of web app.
+
+## Publish your web app to Azure
+
+See [Quickstart: Deploy an ASP.NET web app](https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs#publish-your-web-app)
+
+## Publish your web app to Docker Container Registry
+
+You can publish your web app as a Docker container to any compatible Docker Container Registry.
+
+![publish to Docker Container Registry highlighted](./media/publish-docker-container-registry-highlighted.png)
+
+Click **Next** and pick from three options
+
+![publish to Docker Container Registry options](./media/publish-docker-container-registry-options.png)
+
+### Azure Container Registry
+
+The next step in the Publish wizard is to select existing instance of Azure Container Registry or create a new one.
+
+![publish to Azure Container Registry](./media/publish-acr-select-instance.png)
+
+### Docker Hub
+
+The next step in the Publish wizard is to provide the publish credentials for Docker Hub.
+
+![publish to Docker Hub](./media/publish-dockerhub-details.png)
+
+### Other Docker Container Registry
+
+The next step in the Publish wizard is to provider the URI and publish credentials.
+
+![publish to other Docker Container Registry](./media/publish-custom-docker-registry-details.png)
+
+### Finish the Publish wizard
+
+Next you will see the summary page for the new [publish profile](./overview-publish.md) you just created using the Publish wizard. Click **Publish** and Visual Studio will deploy your web app to the specified Docker Contaier Registry
+
+![publish to Docker Container Registry - summary page](./media/publish-docker-container-registry-summary-page.png)
+
+*Note: The above screenshot is showing a publish profile targeting Azure Docker Registry but the same Publish button is available for all three Docker Container Registry options.*
+
+## Publish your web app to Folder
+
+You can publish your web app to both local and network folders.
+
+![publish to folder highlighted](./media/publish-folder-highlighted.png)
+
+First, **provide the path** and click **Finish** to complete the Publish wizard
+
+![publish to folder](./media/publish-folder.png)
+
+Next you will see the summary page for the new [publish profile](./overview-publish.md) you just created using the Publish wizard. Click **Publish** and Visual Studio will deploy your web app to the provided path.
+
+![publish to folder - summary page](./media/publish-folder-summary-page.png)
+
+You can come back to this summary page after you close it. Next time you right-click and Publish, Visual Studio will open this summary page (to get back to the Publish wizard just click **New** in the summary page).
+
+## Publish your web app to FTP/FTPS Server
+
+You can publish your web app using FTP or FTPS.
+
+![publish to FTP or FTPS Server](./media/publish-ftp.png)
+
+Provide the necessary connection details and click Finish.
+
+![publish to FTP or FTPS Server - details](./media/publish-ftp-details.png)
+
+Next you will see the summary page for the new [publish profile](./overview-publish.md) you just created using the Publish wizard. Click **Publish** and Visual Studio will deploy your web app to the provided FTP or FTPS Server.
+
+![publish to FTP or ftps server - summary page](./media/publish-ftp-summary-page.png)
+
+You can come back to this summary page after you close it. Next time you right-click and Publish, Visual Studio will open this summary page (to get back to the Publish wizard just click **New** in the summary page).
+
+## Publish your web app to Web Server (IIS)
+
+You can publish your web app to IIS.
+
+![publish to IIS](./media/publish-iis.png)
+
+Pick the desired deployment mode (if you are unsure, stick with the default)
+
+![publish to IIS - deployment mode](./media/publish-iis-deployment-mode.png)
+
+### Web Deploy
+
+Provide the necessary connection details and click Finish.
+
+![publish to IIS - Web Deploy](./media/publish-iis-web-deploy.png)
+
+### Web Deploy Package
+
+Click **Browse...** to open a Select Package Location dialog box and enter the path to where you want the package to be created, including the .zip file name.
+
+![publish to IIS - Web Deploy Package](./media/publish-iis-web-deploy-package.png)
+
+### Finish the Publish wizard
+
+Next you will see the summary page for the new [publish profile](./overview-publish.md) you just created using the Publish wizard. Click **Publish** and Visual Studio will deploy your web app to the specified IIS server.
+
+![publish to IIS - summary page](./media/publish-iis-web-deploy-package-summary-page.png)
+
+## Import Profile
+
+You can import publish profiles [from IIS](./how-to-get-publish-profile-from-iis.md) and [Azure App Service](./how-to-get-publish-profile-from-azure-app-service.md)
