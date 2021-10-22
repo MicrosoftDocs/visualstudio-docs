@@ -1,7 +1,7 @@
 ---
 title: "Publish to IIS by importing publish settings"
 description: "Create and import a publishing profile to deploy an application from Visual Studio to IIS"
-ms.date: 08/27/2021
+ms.date: 10/22/2021
 ms.topic: tutorial
 helpviewer_keywords:
   - "deployment, publish settings"
@@ -12,11 +12,14 @@ ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---
-# Get a publish profile from IIS and import the profile in Visual Studio
+# Get publish settings from IIS and import into Visual Studio
 
 You can use the **Publish** tool to import publish settings and then deploy your app. In this article, we use publish settings for IIS.
 
-These steps apply to ASP.NET, ASP.NET Core, and .NET Core apps in Visual Studio.
+These steps apply to ASP.NET and ASP.NET Core web applications.
+
+> [!NOTE]
+> A publish settings file (*\*.publishsettings*) is different than a publishing profile (*\*.pubxml*) created in Visual Studio. A publish settings file is created in IIS, and then it can be imported into Visual Studio.
 
 ## Prerequisites
 
