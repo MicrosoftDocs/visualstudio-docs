@@ -150,6 +150,6 @@ Next, you see the summary page for the new [publish profile](./publish-overview.
 ## [Import profile](#tab/import-profile)
 ## Import Profile
 
-You can import publish profiles [from IIS](./tutorial-import-publish-settings-iis.md) and [Azure App Service](./how-to-get-publish-profile-from-azure-app-service.md)
+You can import publish profiles [from IIS](./tutorial-import-publish-settings-iis.md) and [Azure App Service](./tutorial-import-publish-settings-azure.md#create-the-publish-settings-file-in-azure-app-service)
 
 ---

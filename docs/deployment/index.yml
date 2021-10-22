@@ -39,6 +39,18 @@ landingContent:
             url: quickstart-deploy-using-clickonce-folder.md
 
   # Card
+  - title: Deploy ASP.NET web apps
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Publish ASP.NET Core to Azure
+            url: /azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs#publish-your-web-app
+          - text: Import publish settings and deploy to IIS
+            url: tutorial-import-publish-settings-iis.md
+          - text: Publish with Git
+            url: /azure/app-service/deploy-continuous-deployment
+            
+  # Card
   - title: Deploy .NET desktop apps
     linkLists:
       - linkListType: tutorial
@@ -61,18 +73,6 @@ landingContent:
         links:
           - text: Deploy using an installer package
             url: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
-
-  # Card
-  - title: Deploy ASP.NET web apps
-    linkLists:
-      - linkListType: tutorial
-        links:
-          - text: Publish ASP.NET Core to Azure
-            url: /azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs#publish-your-web-app
-          - text: Import publish settings and deploy to IIS
-            url: tutorial-import-publish-settings-iis.md
-          - text: Publish with Git
-            url: /azure/app-service/deploy-continuous-deployment
 
   # Card
   - title: Additional deployment types
