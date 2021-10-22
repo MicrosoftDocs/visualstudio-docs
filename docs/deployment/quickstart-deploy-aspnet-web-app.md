@@ -44,7 +44,7 @@ If this is your first time publishing this web app, next you see the Publish wiz
 ## [Azure](#tab/azure)
 ## Publish your web app to Azure
 
-For detailed steps, see [Quickstart: Deploy an ASP.NET web app](https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs#publish-your-web-app).
+For detailed steps, see [Quickstart: Deploy an ASP.NET web app](/azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs#publish-your-web-app).
 
 ## [Docker](#tab/docker)
 ## Publish your web app to Docker Container Registry
@@ -77,7 +77,7 @@ Next, for other Docker container registries, provide the URI and publish credent
 
 ### Finish the Publish wizard
 
-Next, you see the summary page for the new [publish profile](./overview-publish.md) that you just created using the Publish wizard. Click **Publish** and Visual Studio deploys your web app to the specified Docker Container Registry.
+Next, you see the summary page for the new [publish profile](./publish-overview.md) that you just created using the Publish wizard. Click **Publish** and Visual Studio deploys your web app to the specified Docker Container Registry.
 
 ![publish to Docker Container Registry - summary page](./media/publish-docker-container-registry-summary-page.png)
 
@@ -95,7 +95,7 @@ First, provide the path and click **Finish** to complete the Publish wizard.
 
 ![publish to folder](./media/publish-folder.png)
 
-Next, you see the summary page for the new [publish profile](./overview-publish.md) that you just created using the Publish wizard. Click **Publish** and Visual Studio deploys your web app to the provided path.
+Next, you see the summary page for the new [publish profile](./publish-overview.md) that you just created using the Publish wizard. Click **Publish** and Visual Studio deploys your web app to the provided path.
 
 ![publish to folder - summary page](./media/publish-folder-summary-page.png)
 
@@ -112,7 +112,7 @@ Provide the necessary connection details and choose **Finish**.
 
 ![publish to FTP or FTPS Server - details](./media/publish-ftp-details.png)
 
-Next, you see the summary page for the new [publish profile](./overview-publish.md) that you just created using the Publish wizard. Click **Publish** and Visual Studio deploys your web app to the provided FTP or FTPS Server.
+Next, you see the summary page for the new [publish profile](./publish-overview.md) that you just created using the Publish wizard. Click **Publish** and Visual Studio deploys your web app to the provided FTP or FTPS Server.
 
 ![publish to FTP or ftps server - summary page](./media/publish-ftp-summary-page.png)
 
@@ -143,7 +143,7 @@ Click **Browse...** to open a Select Package Location dialog box and enter the p
 
 ### Finish the Publish wizard
 
-Next, you see the summary page for the new [publish profile](./overview-publish.md) that you just created using the Publish wizard. Click **Publish** and Visual Studio deploys your web app to the specified IIS server.
+Next, you see the summary page for the new [publish profile](./publish-overview.md) that you just created using the Publish wizard. Click **Publish** and Visual Studio deploys your web app to the specified IIS server.
 
 ![publish to IIS - summary page](./media/publish-iis-web-deploy-package-summary-page.png)
 

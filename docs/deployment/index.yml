@@ -37,14 +37,8 @@ landingContent:
             url: deploying-applications-services-and-components-resources.md
       - linkListType: quickstart
         links:
-          - text: Publish to Azure App Service
-            url: quickstart-deploy-to-azure.md
-          - text: Publish to App Service for Linux
-            url: quickstart-deploy-to-linux.md
-          - text: Publish to a web site
-            url: quickstart-deploy-to-a-web-site.md
-          - text: Publish to a folder
-            url: quickstart-deploy-to-local-folder.md
+          - text: Deploy an ASP.NET web app
+            url: quickstart-deploy-aspnet-web-app.md
           - text: Deploy a .NET Core app using ClickOnce
             url: quickstart-deploy-using-clickonce-folder.md
 
