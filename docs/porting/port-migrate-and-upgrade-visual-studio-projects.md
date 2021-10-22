@@ -1,7 +1,7 @@
 ---
 title: Port, migrate, and upgrade projects
 description: A reference for the support of projects created in current and earlier versions of Visual Studio.
-ms.date: 06/17/2021
+ms.date: 10/22/2021
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -29,6 +29,9 @@ Each version of Visual Studio generally supports most previous types of projects
 Support for some project types also changes over time. A newer version of Visual Studio may no longer support certain projects at all, or requires updating a project such that it's no longer backwards compatible. For current status on migration issues, refer to the [Visual Studio Developer Community site](https://aka.ms/feedback/suggest?space=8).
 
 This present article provides details only for project types that Visual Studio 2017 can migrate. The article excludes project types that are no longer supported in Visual Studio 2017 and cannot therefore be migrated. The article also excludes supported project types that have no migration issues; that list is found on [Platform Targeting and Compatibility](/visualstudio/productinfo/vs2017-compatibility-vs).
+
+> [!TIP]
+> If you're looking for information specific to our newest release, see our [Visual Studio 2022](port-migrate-and-upgrade-visual-studio-projects.md?view=vs-2022&preserve-view=true) version of this page.
 
 > [!IMPORTANT]
 > Certain project types require installing the appropriate workloads through the Visual Studio installer. If you don't have the workload installed, Visual Studio reports an unknown or incompatible project type. In that case, check your installation options and try again. Again, see the [Platform Targeting and Compatibility](/visualstudio/productinfo/vs2017-compatibility-vs) article for details on project support in Visual Studio 2017.
@@ -108,6 +111,9 @@ Refer to the following articles for further discussion:
 ::: moniker range="vs-2019"
 
 Each new version of Visual Studio supports most types of projects, files, and other assets. You can work with them [as you always have](../ide/solutions-and-projects-in-visual-studio.md), provided that you don't depend on newer features.
+
+> [!TIP]
+> If you're looking for information specific to our next release, see our [Visual Studio 2022](port-migrate-and-upgrade-visual-studio-projects.md?view=vs-2022&preserve-view=true) version of this page.
 
 We try to preserve backwards compatibility with previous versions, such as Visual Studio 2017, Visual Studio 2015, Visual Studio 2013, and Visual Studio 2012. However, support for some project types changes over time. A newer version of Visual Studio might not support certain projects at all, or it might require that you update a project so that it's no longer backwards-compatible.
 
