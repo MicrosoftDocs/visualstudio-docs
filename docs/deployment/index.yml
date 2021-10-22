@@ -29,12 +29,8 @@ landingContent:
             url: publish-overview.md
 
   # Card (optional)
-  - title: Get started (.NET Core, Python)
+  - title: Get started (.NET)
     linkLists:
-      - linkListType: overview
-        links:
-          - text: Deploy to a folder, IIS, or Azure
-            url: deploying-applications-services-and-components-resources.md
       - linkListType: quickstart
         links:
           - text: Deploy an ASP.NET web app
@@ -43,7 +39,7 @@ landingContent:
             url: quickstart-deploy-using-clickonce-folder.md
 
   # Card
-  - title: Deploy .NET apps
+  - title: Deploy .NET desktop apps
     linkLists:
       - linkListType: tutorial
         links:
@@ -65,16 +61,14 @@ landingContent:
         links:
           - text: Deploy using an installer package
             url: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
-          - text: Package a desktop app for Windows Store
-            url: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
 
   # Card
-  - title: Deploy ASP.NET Core apps
+  - title: Deploy ASP.NET web apps
     linkLists:
       - linkListType: tutorial
         links:
           - text: Publish ASP.NET Core to Azure
-            url: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs
+            url: /azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs#publish-your-web-app
           - text: Import publish settings and deploy to IIS
             url: tutorial-import-publish-settings-iis.md
           - text: Publish with Git

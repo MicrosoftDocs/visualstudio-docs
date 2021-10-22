@@ -48,7 +48,7 @@ You can always import publish profiles [from IIS](../deployment/tutorial-import-
 
 ## Visual Studio can help you manage dependencies to Azure services
 
-When you use Publish to deploy your application to Azure, you get the opportunity to configure dependencies to Azure services.
+When you use the Publish tool to deploy your application to Azure, you get the opportunity to configure dependencies to Azure services.
 
 ![dependencies during publish](./media/publish-dependencies.png)
 

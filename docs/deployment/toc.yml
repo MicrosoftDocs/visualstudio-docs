@@ -17,7 +17,7 @@
     - name: ASP.NET
       items:
       - name: Publish an ASP.NET Core app to Azure >>
-        href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs
+        href: /azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs#publish-your-web-app
       - name: Import publish settings and deploy to IIS
         href: tutorial-import-publish-settings-iis.md
       - name: Import publish settings and deploy to Azure
