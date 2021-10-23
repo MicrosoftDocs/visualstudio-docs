@@ -202,7 +202,7 @@ For more information about wildcard characters, see [How to: Select the files to
 
 #### MatchOnMetadata attribute
 
-The `MatchOnMetadata` attribute is applicable only to `Remove` attributes that reference other items (e.g. `Remove="@(Compile);@(Content)"`) and instructs the Remove operation to match items based on the values of specified metadata names, instead of matching based on the item values.
+The `MatchOnMetadata` attribute is applicable only to `Remove` attributes that reference other items (for example, `Remove="@(Compile);@(Content)"`) and instructs the Remove operation to match items based on the values of specified metadata names, instead of matching based on the item values.
 
 Matching rule for `B Remove="@(A)" MatchOnMetadata="M"`: remove all items from `B` that have metadata `M`, whose metadata value `V` for `M` matches any item from `A` with metadata `M` of value `V`.
 
