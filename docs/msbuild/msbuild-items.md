@@ -251,7 +251,7 @@ The above line removes items from `_TransitiveItemsToCopyToOutputDirectory` that
 
 #### MatchOnMetadataOptions attribute
 
-Specifies the string matching strategy used by `MatchOnMetadata`. Possible values are `CaseSensitive`, `CaseInsensitive`, or `PathLike`. The default value is `CaseInsensitive`.
+Specifies the string matching strategy used by `MatchOnMetadata`. Possible values are `CaseSensitive`, `CaseInsensitive`, or `PathLike`. The default value is `CaseSensitive`.
 
 `PathLike` applies path aware normalization to the values like normalizing slash orientations, ignoring trailing slashes, eliminating `.` and `..`, and making all relative paths absolute against the current directory.
 
