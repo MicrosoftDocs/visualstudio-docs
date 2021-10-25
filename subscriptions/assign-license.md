@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 4e529a43-7aed-4eee-895d-862a631952df
-ms.date: 03/21/2021
+ms.date: 10/21/2021
 ms.topic: conceptual
 description:  Learn how admins can assign licenses to subscribers
 ---
@@ -30,19 +30,21 @@ Watch the video or read on to learn how to assign a Visual Studio subscription t
 2. To assign a license to a single Visual Studio subscriber, at the top of the table, select **Add**, then choose **Individual subscriber**.
    > [!div class="mx-imgBorder"]
    > ![Add a single subscriber](_img/assign-license-add/add-subscriber-individual.png "Select Add, then choose Individual subscriber to assign a single subscription.")
-3. Enter the information into the form fields for the new subscriber. If your organization is using Azure Active Directory, the **Name** field acts as a search function to find people in your current directory so you can select the correct user from the search results. After you select that person, sign-in email and notification email will automatically populate.  If the subscriber is not found in your organization, the notification email will not populate automatically, but will be available for you to manually add a different email address to which subscription-related emails will be sent.  If your email service blocks incoming emails to the sign-in email addresses, it's important to specify a different notification email address so subscribers and admins receive important subscription-related emails from Microsoft.
+3. A fly-out panel will appear to the right.  Enter the information into the form fields for the new subscriber. 
+- If your organization is using Azure Active Directory, typing the name of the subscriber in the **Search Azure Active Directory** box will return the names of any Azure AD group members matching your criteria.  After you select that person, sign-in email and notification email will automatically populate.  
+- If the subscriber is not found in your organization, you can enter the subscriber's name in the **Name** field.  
+- Enter the email address you want your subscriber to use to sign in.  You can also click on the **Add a different notification email for receiving communication** link and specify a different notification email address so subscribers and admins receive important subscription-related emails from Microsoft.
    > [!div class="mx-imgBorder"]
    > ![Subscriber details](_img/assign-license-add/subscriber-details.png "Enter subscriber name and other details, or choose from the of tenant members.")
 
     > [!NOTE]
     > In order for members of an Azure Active Directory tenant to be visible when you enter a subscriber name, the admin must be a member of the tenant. 
-
-
-    If you want this subscriber to have access to software downloads when they sign into the [Visual Studio Subscriptions Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), make sure to leave the downloads toggle enabled in the **Download Settings** section. If you choose to disable downloads, the user will not have access to software downloads.  Access to product keys will also be disabled.  The subscriber will still have access to all other benefits included in the subscription.
+- Choose the subscription level you want to assign to this user.  (The list only contains the subscription levels that were purchased as part of your agreement.)  
+- If you want this subscriber to have access to software downloads when they sign into the [Visual Studio Subscriptions Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), make sure to leave the downloads toggle enabled in the **Download Settings** section. If you choose to disable downloads, the user will not have access to software downloads or product keys.  The subscriber will still have access to all other benefits included in the subscription.
    > [!div class="mx-imgBorder"]
    > ![Access to downloads](media/access-to-downloads.png "Choose 'Allow' to provide the subscriber with access to software downloads.")
 
-    If you'd like to add your own reference notes to the subscription, you can do so in the **Add reference** section.
+- If you'd like to add your own reference notes to the subscription, you can do so in the **Add reference** section.
    > [!div class="mx-imgBorder"]
    > ![Add your own reference notes to each subscription](media/add-subscriber-reference-notes.png "Use the Reference field to record any notes about this subscription.")
 
