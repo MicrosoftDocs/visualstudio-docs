@@ -13,7 +13,7 @@ ms.workload:
 - multiple
 author: mikejo5000
 ---
-# How to: Generate unit tests by using IntelliTest
+# Generate unit tests for fuzz testing by using IntelliTest
 
 IntelliTest explores your .NET code to generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. A case analysis is performed for every conditional branch in the code. For example, `if` statements, assertions, and all operations that can throw exceptions are analyzed. This analysis is used to generate test data for a parameterized unit test for each of your methods, creating unit tests with high code coverage. Think of it as smart fuzz testing that trims down the inputs and test cases to what executes all your logic branches and checks for exceptions.
 
