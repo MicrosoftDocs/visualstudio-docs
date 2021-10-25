@@ -34,23 +34,23 @@ Watch the video or read on to learn how to assign a Visual Studio subscription t
    - If your organization is using Azure Active Directory, typing the name of the subscriber in the **Search Azure Active Directory** box will return the names of any Azure AD group members matching your criteria.  After you select that person, sign-in email and notification email will automatically populate.  
    - If the subscriber is not found in your organization, you can enter the subscriber's name in the **Name** field.  
    - Enter the email address you want your subscriber to use to sign in.  You can also click on the **Add a different notification email for receiving communication** link and specify a different notification email address so subscribers and admins receive important subscription-related emails from Microsoft.
-    > [!div class="mx-imgBorder"]
-    > ![Subscriber details](_img/assign-license-add/subscriber-details.png "Enter subscriber name and other details, or choose from the of tenant members.")
+      > [!div class="mx-imgBorder"]
+      > ![Subscriber details](_img/assign-license-add/subscriber-details.png "Enter subscriber name and other details, or choose from the of tenant members.")
 
-    > [!NOTE]
-    > In order for members of an Azure Active Directory tenant to be visible when you enter a subscriber name, the admin must be a member of the tenant. 
+      > [!NOTE]
+      > In order for members of an Azure Active Directory tenant to be visible when you enter a subscriber name, the admin must be a member of the tenant. 
    - Choose the subscription level you want to assign to this user.  (The list only contains the subscription levels that were purchased as part of your agreement.)  
    - If you want this subscriber to have access to software downloads when they sign into the [Visual Studio Subscriptions Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), make sure to leave the downloads toggle enabled in the **Download Settings** section. If you choose to disable downloads, the user will not have access to software downloads or product keys.  The subscriber will still have access to all other benefits included in the subscription.
-   > [!div class="mx-imgBorder"]
-   > ![Access to downloads](media/access-to-downloads.png "Choose 'Allow' to provide the subscriber with access to software downloads.")
+     > [!div class="mx-imgBorder"]
+     > ![Access to downloads](media/access-to-downloads.png "Choose 'Allow' to provide the subscriber with access to software downloads.")
 
    - If you'd like to add your own reference notes to the subscription, you can do so in the **Add reference** section.
-    > [!div class="mx-imgBorder"]
-    > ![Add your own reference notes to each subscription](media/add-subscriber-reference-notes.png "Use the Reference field to record any notes about this subscription.")
+      > [!div class="mx-imgBorder"]
+      > ![Add your own reference notes to each subscription](media/add-subscriber-reference-notes.png "Use the Reference field to record any notes about this subscription.")
 
     When you're done selecting options and entering data for the subscriber, choose **Add** at the bottom of the **Add Subscriber** fly-out.
-    > [!div class="mx-imgBorder"]
-    > ![Choose the Add button](media/add-button.png "Select Add to save the information and assign the subscription to the subscriber.")
+      > [!div class="mx-imgBorder"]
+      > ![Choose the Add button](media/add-button.png "Select Add to save the information and assign the subscription to the subscriber.")
 
 ## Why use a different notification email address?
 Some organizations set up their email services to block incoming emails from other domains.  Blocking incoming emails means that subscribers and admins will miss important communications:
