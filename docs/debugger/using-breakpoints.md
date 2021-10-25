@@ -260,6 +260,8 @@ Data breakpoints don't work under the following conditions:
 > - Data breakpoints depend on specific memory addresses. The address of a variable changes from one debugging session to the next, so data breakpoints are automatically disabled at the end of each debugging session.
 >
 > - If you set a data breakpoint on a local variable, the breakpoint remains enabled when the function ends, but the memory address is no longer applicable, so the behavior of the breakpoint is unpredictable. If you set a data breakpoint on a local variable, you should delete or disable the breakpoint before the function ends.
+
+::: moniker range=">= vs-2022"
 ## <a name="BKMK_set_a_dependent_breakpoint"></a>Set a dependent breakpoint
 
 Dependent breakpoints break execution only if another breakpoint is first hit. So, in a complex scenario such as  debugging a multi-threaded application, you can configure the additional breakpoints after another breakpoint is first hit. This can make debugging code in common paths such as game loop or a utility API much easier because a breakpoint in those functions can be configured to enable only if the function is invoked from a specific part of your application.
