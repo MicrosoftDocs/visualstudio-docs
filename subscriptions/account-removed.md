@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
 ms.assetid: f853ed9d-3543-4f5f-a754-92381ee03523
-ms.date: 10/08/2021
+ms.date: 09/30/2021
 ms.topic: how-to
 description:  Learn what it means when you see a notification that Microsoft has deleted a subscription.
 ---

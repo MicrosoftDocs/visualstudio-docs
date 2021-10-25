@@ -4,13 +4,12 @@ author: evanwindom
 ms.author: cabuschl
 manager: cabushcl
 ms.assetid: badd1d4a-90a6-46de-a037-945a91e6019b
-ms.date: 03/17/2021
+ms.date: 10/18/2021
 ms.topic: how-to
 description:  Learn about the Visual Studio App Center benefit included in Visual Studio subscriptions.
 ---
 
 # Visual Studio App Center in Visual Studio subscriptions
-
 App Center is mission control for apps.
 
 - Automatically build your app, test it on real devices, and distribute it to beta testers

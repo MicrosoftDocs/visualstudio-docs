@@ -75,7 +75,7 @@ Welcome to what's new in the Visual Studio docs for September 2021. This article
 - [How to: Change the build output directory](./how-to-change-the-build-output-directory.md)
   - Review and update as needed for Visual Studio 2022 Preview
   - Update build configurations article for Dev17
-- [How to: Configure projects to target platforms](./how-to-configure-projects-to-target-platforms.md) - Review and update as needed for Visual Studio 2022 Preview
+- [How to: Configure projects to target platforms](./how-to-configure-projects-to-target-platforms.md) - Review and update as needed for Visual Studio 2022 RC
 - [Learn about Solution Explorer](./use-solution-explorer.md) - Add Solution Explorer context menu info
 
 ## Install

@@ -351,7 +351,7 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 Congratulations on completing this tutorial! We hope you learned some basics about UWP and the Visual Studio IDE. To learn more, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
-> [Create a user interface](/windows/uwp/design/basics/xaml-basics-ui)
+> [Create a user interface](/visualstudio/xaml-tools/creating-a-ui-by-using-xaml-designer-in-visual-studio)
 
 ## See also
 
