@@ -123,6 +123,11 @@ To visually trace the call stack, see [Map methods on the call stack while debug
 
 To run to the cursor location, in source code or the **Call Stack** window, select the line you want to break at, right-click and select **Run To Cursor**, or press **Ctrl**+**F10**. Selecting **Run To Cursor** is like setting a temporary breakpoint.
 
+::: moniker range=">= vs-2022"
+### Force run to a cursor location
+
+To run to the cursor location, in source code or the **Call Stack** window, select the line you want to break at, right-click and select **Force Run To Cursor**. Selecting **Force Run To Cursor** will skip any breakpoints and first-chance exceptions  until the debugger reaches the line of code with the cursor.
+::: moniker-end
 ### Run to Click
 
 While paused in the debugger, you can hover over a statement in source code or the **Disassembly** window, and select the **Run execution to here** green arrow icon. Using **Run to Click** eliminates the need to set a temporary breakpoint.
@@ -132,6 +137,16 @@ While paused in the debugger, you can hover over a statement in source code or t
 > [!NOTE]
 > **Run to Click** is available starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
 
+::: moniker range=">= vs-2022"
+### Force Run to Click 
+
+While paused in the debugger, you can hover over a statement in source code, while holding Shift key and select **Force run execution to here**  (the double green arrow icon). When you choose this option, the application attaches the Visual Studio debugger and pauses at the cursor location, and any breakpoints and first-chance exceptions encountered during execution are temporarily disabled.
+
+![Force Run to Click](../debugger/media/dbg_force-run-to-cursor.png "Force Run to Click")
+
+> [!NOTE]
+> **Force Run to Click** is available starting in [!include[vs_dev17](../misc/includes/vs_dev17_md.md)].
+::: moniker-end
 ### Manually break into code
 
 To break in the next available line of code in a running app, select **Debug** > **Break All**, or press **Ctrl**+**Alt**+**Break**.
