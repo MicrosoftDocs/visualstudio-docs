@@ -100,9 +100,9 @@ Make sure to have the following installed:
 
 ## Start the project
 
-Lastly, you will need to be sure the port numbers match. Go to the **launchSettings.json** file in your .NET Core project (in the *Properties* folder). Get the port number from the *applicationUrl* property. (It should look something like *https://localhost:7049*)
+Before you start the project, make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `applicationUrl` property. (It should look similar to `https://localhost:7049`.)
 
-Now, go to your *proxy.conf.js* file your Angular project (look in the src folder). Update the target property to match the *applicationUrl* property seen in the **launchSettings.json**.
+Then, go to the *proxy.conf.js* file for your Angular project (look in the *src* folder). Update the target property to match the `applicationUrl` property in  *launchSettings.json*.
 
 Press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
 
