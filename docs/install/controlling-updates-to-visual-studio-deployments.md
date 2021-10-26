@@ -2,7 +2,6 @@
 title: Control updates to deployments
 description: Learn how to change where Visual Studio looks for an update when you install from a network.
 ms.date: 10/22/2021
-
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -16,6 +15,7 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
+
 # Control updates to network-based Visual Studio deployments
 
 Enterprise administrators often create a layout and host it on a network file share to deploy to their end users. This page describes how to configure your network layout options properly.
