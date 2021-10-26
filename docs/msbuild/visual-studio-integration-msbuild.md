@@ -23,19 +23,20 @@ ms.technology: msbuild
 ms.workload:
 - multiple
 ---
+
 # Visual Studio integration (MSBuild)
 
 Visual Studio hosts MSBuild to load and build managed projects. Because MSBuild is responsible for the project, almost any project in the MSBuild format can be successfully used in Visual Studio, even if the project was authored by a different tool and has a customized build process.
 
- This article describes specific aspects of Visual Studio's MSBuild hosting that should be considered when customizing projects and *.targets* files that you wish to load and build in Visual Studio. These will help you make sure Visual Studio features like IntelliSense and debugging work for your custom project.
+This article describes specific aspects of Visual Studio's MSBuild hosting that should be considered when customizing projects and *.targets* files that you wish to load and build in Visual Studio. These will help you make sure Visual Studio features like IntelliSense and debugging work for your custom project.
 
- For information about C++ projects, see [Project files](/cpp/build/reference/project-files).
+For information about C++ projects, see [Project files](/cpp/build/reference/project-files).
 
 ## Project file name extensions
 
- *MSBuild.exe* recognizes any project file name extension matching the pattern *.\*proj*. However, Visual Studio only recognizes a subset of these project file name extensions, which determine the language-specific project system that will load the project. Visual Studio does not have a language-neutral MSBuild based project system.
+*MSBuild.exe* recognizes any project file name extension matching the pattern *.\*proj*. However, Visual Studio only recognizes a subset of these project file name extensions, which determine the language-specific project system that will load the project. Visual Studio does not have a language-neutral MSBuild based project system.
 
- For example, the C# project system loads *.csproj* files, but Visual Studio is not able to load a *.xxproj* file. A project file for source files in an arbitrary language must use the same extension as Visual Basic or C# project files to be loaded in Visual Studio.
+For example, the C# project system loads *.csproj* files, but Visual Studio is not able to load a *.xxproj* file. A project file for source files in an arbitrary language must use the same extension as Visual Basic or C# project files to be loaded in Visual Studio.
 
 ## Well-known target names
 
