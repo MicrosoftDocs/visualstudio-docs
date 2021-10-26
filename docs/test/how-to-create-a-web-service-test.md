@@ -27,7 +27,7 @@ Visual Studio Enterprise
 Internet Explorer
 
 >[!NOTE]
-> Web performance and load test functionality only supports Internet Explorer which is not available on Windows 11 and some versions of Windows 10. Read more on [Internet Explorer Lifecycle policy](https://docs.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-).
+> Web performance and load test functionality only supports Internet Explorer which is not available on Windows 11 and some versions of Windows 10. Read more on [Internet Explorer Lifecycle policy](/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-).
 
 ## To create a simple web service
 
