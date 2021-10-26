@@ -41,7 +41,7 @@ You need the following components to complete this walkthrough:
 
 - Visual Studio
 
-- Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorks Light (AdventureWorksLT) sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex archive](https://archive.codeplex.com/?p=awlt2008dbscript).
+- Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorks Light (AdventureWorksLT) sample database attached to it.
 
 Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:
 
