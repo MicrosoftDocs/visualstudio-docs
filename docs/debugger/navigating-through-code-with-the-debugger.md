@@ -1,6 +1,6 @@
 ---
 title: "Navigate code with the debugger"
-description: "Learn how to use Visual Studio debugger to troubleshoot your code. Topics include: getting into break mode, stepping through code, and running to a target."
+description: "Learn how to use the Visual Studio debugger to troubleshoot your code. Topics include entering break mode, stepping through code, and running to a target."
 ms.custom: "SEO-VS-2020"
 ms.date: 09/23/2021
 ms.topic: how-to
@@ -17,18 +17,18 @@ ms.technology: vs-ide-debug
 ms.workload: 
   - multiple
 ---
-# Navigate through code with the Visual Studio debugger
+# Navigate through code by using the Visual Studio debugger
 
-The Visual Studio debugger can help you navigate through code to inspect the state of an app and show its execution flow. You can use keyboard shortcuts, debug commands, breakpoints, and other features to quickly get to the code you want to examine. Familiarity with debugger navigation commands and shortcuts makes it faster and easier to find and resolve app issues.
+The Visual Studio debugger can help you navigate through code to inspect the state of an app and show its execution flow. You can use keyboard shortcuts, debug commands, breakpoints, and other features to quickly get to the code you want to examine. If you're familiar with debugger navigation commands and shortcuts, you can find and resolve app problems faster and more easily.
 
 > [!NOTE]
-> If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before going through this article.
+> If you're new to debugging code, you might want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before you read this article.
 
-## Get into "break mode"
+## Enter break mode
 
-In *break mode*, app execution is suspended while functions, variables, and objects remain in memory. Once the debugger is in break mode, you can navigate through your code. The most common ways to get into break mode quickly is to either:
+In *break mode*, app execution is suspended while functions, variables, and objects remain in memory. When the debugger is in break mode, you can navigate through your code. There are two common ways to quickly enter break mode:
 
-- Begin code stepping by pressing **F10** or **F11**. This allows you to quickly find the entry point of your app, then you can continue pressing step commands to navigate code.
+- Begin code stepping by selecting **F10** or **F11**. Doing so allows you to quickly find the entry point of your app. You can then continue to press step commands to navigate through the code.
 
 - [Run to a specific location or function](#run-to-a-specific-location-or-function), for example, by [setting a breakpoint](using-breakpoints.md) and starting your app.
 
