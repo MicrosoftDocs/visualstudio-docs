@@ -1,7 +1,7 @@
 ---
 title: "Write and debug XAML code by using XAML Hot Reload"
 description: "XAML Hot Reload, or XAML edit and continue, allows you to make changes to your XAML code while running apps"
-ms.date: 09/22/2021
+ms.date: 10/26/2021
 ms.topic: conceptual
 helpviewer_keywords:
   - "xaml edit and continue"
@@ -30,7 +30,7 @@ Available in both Visual Studio and Blend for Visual Studio, XAML Hot Reload is 
 |Supported Application Types|Operating System and Tools|
 |-|-|-|
 |Windows Presentation Foundation (WPF) |.NET Framework 4.6+ and .NET Core</br>Windows 7 and later |
-|Universal Windows apps (UWP)|Windows 10 and later, with the [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk) 14393+ |
+|Universal Windows apps (UWP)|Windows 10 and later, with the [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk) 14393+ and later|
 
 > [!NOTE]
 > If you are using Xamarin.Forms, see [XAML Hot Reload for Xamarin.Forms](/xamarin/xamarin-forms/xaml/hot-reload).
@@ -52,7 +52,7 @@ The following are known limitations of XAML Hot Reload. To work around any limit
 |Creating resource objects in a resource dictionary such as those in your app's Page/Window or *App.xaml*|Supported starting in Visual Studio 2019 [version 16.2](/visualstudio/releases/2019/release-notes-v16.2) and later|Supported|Examples: <br>- Adding a `SolidColorBrush` into a resource dictionary for use as a `StaticResource`.</br>Note: Static resources, style converters, and other elements written into a resource dictionary can be applied/used while using XAML Hot Reload. Only the creation of the resource is not supported.</br> - Changing the resource dictionary `Source` property.|
 |Adding new controls, classes, windows, or other files to your project while the app is running|Not Supported|Not Supported|None|
 |Managing NuGet packages (adding/removing/updating packages)|Not Supported|Not Supported|None|
-|Changing data binding that uses the {x:Bind} markup extension|N/A|Supported starting in Visual Studio 2019|This requires Windows 10 version 1809 (build 10.0.17763). Not supported in Visual Studio 2017 or previous versions.|
+|Changing data binding that uses the {x:Bind} markup extension|N/A|Supported starting in Visual Studio 2019|This requires Windows 10 version 1809 (build 10.0.17763) and later. Not supported in Visual Studio 2017 or previous versions.|
 |Changing x:Uid directives is not supported|N/A|Not Supported|None|
 |Using multiple processes | Supported | Supported | Supported in Visual Studio 2019 [version 16.6](/visualstudio/releases/2019/release-notes-v16.6) and later. |
 
