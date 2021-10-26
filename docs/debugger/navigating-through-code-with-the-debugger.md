@@ -32,7 +32,7 @@ In *break mode*, app execution is suspended while functions, variables, and obje
 
 - [Run to a specific location or function](#run-to-a-specific-location-or-function), for example, by [setting a breakpoint](using-breakpoints.md) and starting your app.
 
-   For example, in the code editor in Visual Studio, you can use the **Run To Cursor** command to start the app, debugger attached, and enter break mode, and then select **F11** to navigate through the code.
+   For example, in the code editor in Visual Studio, you can use the **Run To Cursor** command to start the app, debugger attached, and enter break mode, and then select **F11** to navigate through the code:
 
    ![Animation that shows selecting Run To Cursor and then F11.](../debugger/media/navigate-code-code-stepping.gif)
 
@@ -41,7 +41,7 @@ When you're in break mode, you can use various commands to navigate through your
 Most debugger windows, like the **Modules** and **Watch** windows, are available only when the debugger is attached to your app. Some debugger features, like viewing variable values in the **Locals** window or evaluating expressions in the **Watch** window, are available only when the debugger is paused (that is, in break mode).
 
 > [!NOTE]
-> If you break into code that doesn't have source or symbol (*.pdb*) files loaded, the debugger displays a **Source Files Not Found** or **Symbols Not Found** page that can help you find and load the files. See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md). If you can't load the symbol or source files, you can still debug the assembly instructions in the **Disassembly** window.
+> If you break into code that doesn't have source or symbol (.pdb) files loaded, the debugger displays a **Source Files Not Found** or **Symbols Not Found** page that can help you find and load the files. See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md). If you can't load the symbol or source files, you can still debug the assembly instructions in the **Disassembly** window.
 
 ## Step through code
 
@@ -70,11 +70,11 @@ But when you step into this line, the debugger treats the condition as one step 
 On a nested function call, **Step Into** steps into the most deeply nested function. For example, if you use **Step Into** on a call like `Func1(Func2())`, the debugger steps into the function `Func2`.
 
 >[!TIP]
->As you run each line of code, you can hover over variables to see their values, or use the [Locals](autos-and-locals-windows.md) and [Watch](watch-and-quickwatch-windows.md) windows to watch the values change. You can also visually trace the [call stack](how-to-use-the-call-stack-window.md) while you step into functions. (For Visual Studio Enterprise only, see [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)).
+>As you run each line of code, you can hover over variables to see their values, or use the [Locals](autos-and-locals-windows.md) and [Watch](watch-and-quickwatch-windows.md) windows to watch the values change. You can also visually trace the [call stack](how-to-use-the-call-stack-window.md) while you step into functions. (For Visual Studio Enterprise only, see [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md).)
 
 ### <a name="BKMK_Step_over_Step_out"></a> Step through code and skip some functions
 
-You might not care about a function when you're debugging. Or might you know it works, like for well-tested library code. You can use the following commands to skip code when you're code stepping. The functions still run, but the debugger skips over them.
+You might not care about a function when you're debugging. Or might you know some code works, like well-tested library code. You can use the following commands to skip code when you're code stepping. The functions still run, but the debugger skips over them.
 
 |Keyboard command|Debug menu command|Description|
 |----------------------|------------------|-----------------|
@@ -87,7 +87,7 @@ You might prefer to run directly to a specific location or function when you kno
 
 ### Run to a breakpoint in code
 
-To set a simple breakpoint in your code, select the far-left margin next to the line of code where you want to suspend execution. You can also select the line and select **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert Breakpoint**. The breakpoint appears as a red dot in the left margin next to the code line. The debugger suspends execution just before the line runs.
+To set a simple breakpoint in your code, select the far-left margin next to the line of code where you want to suspend execution. You can also select the line and then select **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert Breakpoint**. The breakpoint appears as a red dot in the left margin next to the line of code. The debugger suspends execution just before the line runs.
 
 ![Screenshot that shows how to set a breakpoint.](../debugger/media/dbg_basics_setbreakpoint.png)
 
@@ -140,9 +140,9 @@ While the debugger is paused, you can hover over a statement in source code or t
 ::: moniker range=">= vs-2022"
 ### Force Run to Click 
 
-While the debugger is paused, you can hover over a statement in source code, while holding Shift key and select **Force run execution to here**  (the double green arrow icon). When you choose this option, the application attaches the Visual Studio debugger and pauses at the cursor location. Any breakpoints and first-chance exceptions found during execution are temporarily disabled.
+While the debugger is paused, you can hover over a statement in source code while pressing the **Shift** key and then select **Force run execution to here** (the double green arrow). When you choose this option, the application attaches the Visual Studio debugger and pauses at the cursor location. Any breakpoints and first-chance exceptions found during execution are temporarily disabled.
 
-![Force Run to Click](../debugger/media/dbg_force-run-to-cursor.png "Force Run to Click")
+![Screenshot that shows Force Run to Click.](../debugger/media/dbg_force-run-to-cursor.png)
 
 > [!NOTE]
 > **Force Run to Click** is available starting in [!include[vs_dev17](../misc/includes/vs_dev17_md.md)].
@@ -164,7 +164,7 @@ The program counter jumps directly to the new location. Instructions between the
 >[!CAUTION]
 >- Moving the next statement to another function or scope usually causes call-stack corruption, which causes a runtime error or exception. If you try to move the next statement to another scope, the debugger gives you a warning and a chance to cancel the operation.
 >- In Visual Basic, you can't move the next statement to another scope or function.
->- In native C++, if you have runtime checks enabled, setting the next statement can cause an exception to be thrown when execution reaches the end of the method.
+>- In native C++, if you have runtime checks enabled, setting the next statement can cause an exception when execution reaches the end of the method.
 >- When **Edit and Continue** is enabled, **Set Next Statement** fails if you've made edits that **Edit and Continue** can't remap immediately. This situation can occur, for example, if you've edited code in a catch block. When this happens, an error message tells you that the operation isn't supported.
 >- In managed code, you can't move the next statement if:
 >   - The next statement is in a different method than the current statement.
@@ -194,7 +194,7 @@ To learn about loading Microsoft symbols, see [Configure symbol locations and lo
 1. In the **Modules** window, you can tell which modules have symbols loaded in the **Symbol Status** column. Right-click the module that you want to load symbols for and then select **Load Symbols**.
 
 ## <a name="BKMK_Step_into_properties_and_operators_in_managed_code"></a> Step into properties and operators in managed code
- The debugger steps over properties and operators in managed code by default. In most cases, this behavior provides a better debugging experience. To enable stepping into properties or operators, select **Debug** > **Options**. On the **Debugging** > **General** page, clear the **Step over properties and operators (Managed only)** checkbox.
+ The debugger steps over properties and operators in managed code by default. In most cases, this behavior provides a better debugging experience. To disable stepping into properties or operators, select **Debug** > **Options**. On the **Debugging** > **General** page, clear the **Step over properties and operators (Managed only)** checkbox.
 
 ## See also
 - [What is debugging?](../debugger/what-is-debugging.md)
