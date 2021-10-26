@@ -104,7 +104,7 @@ Before you start the project, make sure that the port numbers match. Go to the *
 
 Then, go to the *proxy.conf.js* file for your Angular project (look in the *src* folder). Update the target property to match the `applicationUrl` property in  *launchSettings.json*.
 
-Press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
+To start the project, press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
 
 - The ASP.NET Core API project running
 - The Angular CLI running the ng start command
