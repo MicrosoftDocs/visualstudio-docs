@@ -78,4 +78,4 @@ You should now be able to access the App Center portal and create your account.
 Be sure to activate these great benefits to make the most of your Visual Studio subscription:
 - [Visual Studio](vs-ide-benefit.md)
 - [Azure DevOps](vs-azure-devops.md)
-- [Azure DevTest individual credit](vs-azure.md)
+- [Azure DevTest offer / credits](vs-azure.md)

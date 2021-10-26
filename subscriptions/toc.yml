@@ -59,7 +59,7 @@
 - name: Azure benefits
   items:
   - name: Azure DevTest offer
-    href: ./azure/machine-learning/index.yml
+    href: ./azure/machine-learning/
   - name: Azure DevOps
     href: vs-azure-devops.md
 - name: Other benefits
