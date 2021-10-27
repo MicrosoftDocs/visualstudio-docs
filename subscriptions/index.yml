@@ -30,13 +30,13 @@ conceptualContent:
     - title: Using benefits
       links:
         - text: Azure credit
-          url: ~/vs-azure.md
+          url: /azure/devtest/offer/quickstart-individual-credit
           itemType: get-started
         - text: Software downloads
           url: ~/software-download-list.md
           itemType: get-started
       footerLink:
-        url: ~/vs-azure.md
+        url: /azure/devtest/offer/quickstart-individual-credit
         text: See more
     - title: Popular resources
       links:

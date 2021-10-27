@@ -25,7 +25,7 @@ The license for the Visual Studio IDE is dependent on a subscription being assig
 When your subscription is removed, you'll no longer accrue individual Azure credits.  The credits you already have accrued will remain available for 30 days.  At that point, your assets will no longer be available. 
 
 To avoid losing your assets, please make sure to do one of the following if your subscription is removed:
-- Convert the subscription to pay-as-you-go.  For details, visit our [Azure DevTest Pay-As-You-Go subscriptions page](https://azure.microsoft.com/en-us/offers/ms-azr-0023p/).  You will need to attach a payment instrument such as a credit card to this subscription. 
+- Convert the subscription to pay-as-you-go.  For details, visit our [Azure DevTest Pay-As-You-Go subscriptions page](https://azure.microsoft.com/offers/ms-azr-0023p/).  You will need to attach a payment instrument such as a credit card to this subscription. 
 - Move your assets to another Azure subscription if one is available to you.  For example, if you have an Azure subscription as part of a different Visual Studio subscription.  Instructions for [moving resources to a new subscription](/azure/devtest/offer/how-to-change-directory-tenants-visual-studio-azure) are included in Azure's documentation.  
 
   > [!IMPORTANT]
