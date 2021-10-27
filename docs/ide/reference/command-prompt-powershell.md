@@ -4,7 +4,7 @@ description:  Start from Tools > Command Line menu. Visual Studio Developer Comm
 author: TerryGLee
 ms.author: tglee
 ms.date: 10/26/2021
-ms.topic: reference
+ms.topic: conceptual
 ms.custom: contperf-fy21q4
 helpviewer_keywords:
   - "Visual Studio command prompt"
