@@ -112,7 +112,7 @@ Next, modify your app's *web.config* file to include the full paths to *python.e
 
         ```xml
         <!-- Flask apps only: change the project name to match your app -->
-        <add key="WSGI_HANDLER" value="flask_iis_example.app"/>
+        <add key="WSGI_HANDLER" value="FlaskAzurePublishExample.app"/>
         ```
 
     - **Django**: Two changes are needed to *web.config* for Django projects. First, change the `WSGI_HANDLER` value to `django.core.wsgi.get_wsgi_application()` (the object is in the *wsgi.py* file):
