@@ -2,7 +2,7 @@
 title: Use regular expressions
 description: Learn about some regular expression characters, operators, constructs, and pattern examples that you can use in Visual Studio.
 ms.custom: SEO-VS-2020
-ms.date: 12/01/2020
+ms.date: 10/21/2021
 ms.topic: conceptual
 f1_keywords:
 - vsregularexpressionhelp
