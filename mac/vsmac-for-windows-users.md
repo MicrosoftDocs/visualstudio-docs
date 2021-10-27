@@ -3,7 +3,7 @@ title: "Visual Studio for Mac for Windows users"
 description: "An introduction to Visual Studio for Mac for developers familiar with using Visual Studio on the Windows operating system."
 author: heiligerdankgesang
 ms.author: dominicn
-ms.date: 11/09/2020
+ms.date: 11/09/2021
 ms.assetid: 61CB6883-08CE-470F-8599-6F7570DB756E
 ---
 

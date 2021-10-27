@@ -7,7 +7,7 @@ manager: jmartens
 ms.assetid: 480e3062-aae7-48ef-9701-e4f9ea041382
 ms.topic: how-to
 ms.workload: multiple
-ms.date: 03/08/2021
+ms.date: 10/08/2021
 ms.technology: vs-container-tools
 ---
 # Debug apps in a local Docker container
@@ -41,7 +41,7 @@ To debug apps in a local Docker container, the following tools must be installed
 
 ::: moniker-end
 
-To run Docker containers locally, you must have a local Docker client. You can use [Docker for Windows](https://www.docker.com/get-docker), which uses Hyper-V and requires Windows 10.
+To run Docker containers locally, you must have a local Docker client. You can use [Docker Desktop](https://www.docker.com/get-docker), which requires Windows 10 or later.
 
 Docker containers are available for .NET Framework and .NET Core projects. Let's look at two examples. First, we look at a .NET Core web app. Then, we look at a .NET Framework console app.
 
@@ -52,8 +52,11 @@ If you have a project and you've added Docker support as described in the [overv
 ::: moniker range="vs-2017"
 [!INCLUDE [create-aspnet5-app](../azure/includes/create-aspnet5-app.md)]
 ::: moniker-end
-::: moniker range=">= vs-2019"
+::: moniker range="vs-2019"
 [!INCLUDE [create-aspnet5-app-2019](../azure/includes/vs-2019/create-aspnet5-app-2019.md)]
+::: moniker-end
+::: moniker range=">=vs-2022"
+[!INCLUDE [create-aspnet5-app-2022](../azure/includes/vs-2022/create-aspnet5-app-2022.md)]
 ::: moniker-end
 
 ### Edit your code and refresh
