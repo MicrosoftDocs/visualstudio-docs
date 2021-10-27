@@ -93,7 +93,7 @@ additionalContent:
       - title: Cloud services
         links:
           - text: Azure Dev/Test
-            url: ~/vs-azure-payg.md
+            url: /azure/devtest/offer/
           - text: Visual Studio App Center
             url: ~/vs-visual-studio-app-center.md
           - text: Azure DevOps Server and CAL

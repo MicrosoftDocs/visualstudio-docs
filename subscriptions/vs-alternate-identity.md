@@ -64,6 +64,6 @@ If Azure DevOps still doesn't recognize your subscription, contact [Azure DevOps
 
 ## Next steps 
 For more information about using Azure, Azure DevOps or Visual Studio IDE, check out these resources:
-- [Azure DevTest offer / credits](vs-azure.md)
+- [Azure DevTest offer / credits](/azure/devtest/offer/)
 - [Azure DevOps](vs-azure-devops.md)
 - [Visual Studio](vs-ide-benefit.md)

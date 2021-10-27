@@ -62,6 +62,6 @@ To learn more about locating, claiming, and exporting product keys, check out ou
 - [Locate and claim keys](find-keys.md)
 
 Learn how to take advantage of other great benefits such as:
-- [Azure DevTest offer / credits](vs-azure.md)
+- [Azure DevTest offer / credits](/azure/devtest/offer/)
 - [Azure DevOps](vs-azure-devops.md)
 - [Visual Studio IDE](vs-ide-benefit.md)

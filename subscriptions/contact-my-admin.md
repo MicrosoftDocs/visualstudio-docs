@@ -39,7 +39,7 @@ Given the size and complexity of many organizations, you may not be aware of who
 ## Next steps
 If you haven't already done so, we recommend activating these benefits to get the most out of your Visual Studio subscription:
 - [Visual Studio IDE](vs-ide-benefit.md)
-- [Azure DevTest offer / credits](vs-azure.md)
+- [Azure DevTest offer / credits](/azure/devtest/offer/)
 - [Azure DevOps](vs-azure-devops.md)
 
 These benefits and more can be found at https://my.visualstudio.com/benefits.
