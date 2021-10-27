@@ -120,7 +120,7 @@ If this is not the case, the code will be more difficult to change throughout it
 
 When you start development of a new project, or a new area in a new project, you can draw layers and dependencies to help identify the major components before you start to develop the code.
 
-- **Show identifiable architectural patterns** in your dependency diagrams, if possible. For example, a dependency diagram that describes a desktop application might include layers such as Presentation, Domain Logic, and Data Store. A dependency diagram that covers a single feature within an application might have layers such as Model, View, and Controller. For more information about such patterns, see [Patterns & Practices: Application Architecture](https://docs.microsoft.com/en-us/archive/msdn-magazine/2009/may/patterns-and-practices-simplifying-patterns-and-practices).
+- **Show identifiable architectural patterns** in your dependency diagrams, if possible. For example, a dependency diagram that describes a desktop application might include layers such as Presentation, Domain Logic, and Data Store. A dependency diagram that covers a single feature within an application might have layers such as Model, View, and Controller.
 
 - **Create a code artifact for each layer** such as a namespace, class, or component. This makes it easier to follow the code and to link the code artifacts to layers. As soon as you create each artifact, link it to the appropriate layer.
 
