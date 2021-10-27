@@ -67,7 +67,7 @@ See [Create dependency diagrams from your code](../modeling/create-layer-diagram
 
 Layers represent logical groups of *artifacts*, such as projects, code files, namespaces, classes, and methods. You can create layers from artifacts from Visual C# and Visual Basic projects, or you can attach specifications or plans to a layer by linking documents, such as Word files or PowerPoint presentations. Each layer appears as a rectangle on the diagram and shows the number of artifacts that are linked to it. A layer can contain nested layers that describe more specific tasks.
 
-As a general guideline, name layers according to their function, for example, "Presentation" or "Services". If the artifacts are closely interdependent, place them in the same layer. If the artifacts can be updated separately or used in separate applications, place them in different layers. To learn about layering patterns, visit the Patterns & Practices site at [http://go.microsoft.com/fwlink/?LinkId=145794](https://docs.microsoft.com/en-us/archive/msdn-magazine/2009/may/patterns-and-practices-simplifying-patterns-and-practices).
+As a general guideline, name layers according to their function, for example, "Presentation" or "Services". If the artifacts are closely interdependent, place them in the same layer. If the artifacts can be updated separately or used in separate applications, place them in different layers.
 
 > [!TIP]
 > There are certain types of artifacts that you can link to layers but that do not support validation against the dependency diagram. To see whether the artifact supports validation, open **Layer Explorer** to examine the **Supports Validation** property of the artifact link. See [Discover existing dependencies between layers](#Generate).
