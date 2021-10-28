@@ -58,12 +58,8 @@
   href: vs-ide-benefit.md
 - name: Azure benefits
   items:
-  - name: Azure DevTest individual credit
-    href: vs-azure.md
-  - name: Azure DevTest Pay-As-You-Go
-    href: vs-azure-payg.md
-  - name: Azure EA DevTest
-    href: azure-ea-devtest.md
+  - name: Azure DevTest offer
+    href: /azure/devtest/offer/
   - name: Azure DevOps
     href: vs-azure-devops.md
 - name: Other benefits
