@@ -1,7 +1,7 @@
 ---
 title: Customer Experience Improvement Program
 description: "Find out how to manage privacy settings in Visual Studio, and learn about Visual Studio system-generated logs, the types of data that's collected, and how it's used to fix problems and improve product quality."
-ms.date: 10/18/2021
+ms.date: 10/28/2021
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -25,13 +25,29 @@ Given the purpose of the data we collect and the constraints on its access and r
 
 The VSCEIP is turned on by default. You can turn it off, or back on again, by following these instructions:
 
-1. In Visual Studio, choose **Help** > **Send Feedback**, and then select **Settings**.
+::: moniker range="vs-2017"
+
+1. In Visual Studio, choose **Help > Send Feedback**, and then select **Settings**.
 
    The **Visual Studio Experience Improvement Program** dialog box opens.
 
 1. To opt out, select **No, I would not like to participate**, and then select **OK**. To opt in, select **Yes, I am willing to participate**, and then select **OK**.
 
    ![Visual Studio Experience Improvement Program dialog](media/experience-improvement-program.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. In Visual Studio, choose **Help** > **Privacy** > **Privacy Settings**.
+
+   The **Visual Studio Experience Improvement Program** dialog box opens.
+
+1. To opt out, select **No, I would not like to participate**, and then select **OK**. To opt in, select **Yes, I am willing to participate (Recommended)**, and then select **OK**.
+
+   ![Visual Studio Experience Improvement Program dialog](media/vs-2022/experience-improvement-program.png)
+
+::: moniker-end
 
 #### Registry settings
 
@@ -47,10 +63,18 @@ The relevant registry key and settings are as follows:
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 - On a 64-bit OS, Key = **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VSCommon\16.0\SQM**
 - On a 32-bit OS, Key = **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VSCommon\16.0\SQM**
+- When Group Policy is enabled, Key = **HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\VisualStudio\SQM**
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+- On a 64-bit OS, Key = **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VSCommon\17.0\SQM**
+- On a 32-bit OS, Key = **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VSCommon\17.0\SQM**
 - When Group Policy is enabled, Key = **HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\VisualStudio\SQM**
 
 ::: moniker-end
