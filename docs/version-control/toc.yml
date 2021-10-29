@@ -8,17 +8,23 @@
     href: git-settings.md
   - name: How Visual Studio makes source control easy
     href: git-visual-studio-source-control.md
-- name: Get started
-  items:
-  - name: Get started with Git and GitHub in Visual Studio
-    href: /learn/modules/visual-studio-github-push/
   - name: Compare Git and Team Explorer side-by-side
     href: git-team-explorer-feature-comparison.md
+- name: Get started
+  items:
+  - name: Create a GitHub account
+    href: git-create-github-account.md
+  - name: Clone a repo
+    href: git-clone-repository.md
+  - name: Create a repo
+    href: git-create-repository.md
+  - name: Get started with Git & GitHub
+    href: /learn/modules/visual-studio-github-push/
 - name: What's new
   items:
-  - name: Multi-repo support in Visual Studio 2022 (Preview)
+  - name: Multi-repo support in Visual Studio 2022
     href: https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/
-  - name: Visual Studio 2022 (Preview) release notes
+  - name: Visual Studio 2022 release notes
     href: /visualstudio/releases/2022/release-notes-preview
   - name: Enhanced productivity with Git in Visual Studio 2019
     href: https://devblogs.microsoft.com/visualstudio/enhanced-productivity-with-git-in-visual-studio/

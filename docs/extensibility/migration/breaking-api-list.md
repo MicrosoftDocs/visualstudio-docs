@@ -31,9 +31,9 @@ In Visual Studio 2022 a number of APIs have been removed as part of moving Visua
 Many of our APIs have changed in Visual Studio 2022, usually with simple changes that are straightforward for your code to accommodate.
 
 To manage the breaking changes, we are planning to provide a new mechanism for the distribution of interop assemblies. Specifically, for
-Visual Studio 2022 and beyond we provide a single interop assembly with definitions for many common public Visual Studio interface. That
+Visual Studio 2022 and beyond we provide a single interop assembly with definitions for many common public Visual Studio interfaces. That
 assembly contains managed definitions for many Visual Studio interfaces moving away from multiple interop assemblies. The new interop
-assembly is be distributed via the `Microsoft.VisualStudio.Interop` NuGet package.
+assembly is distributed via the `Microsoft.VisualStudio.Interop` NuGet package.
 
 However, Visual Studio components that are primarily used in native contexts and have a low number of breaking changes will continue to have
 their own interop assemblies (for example, the debugger assembly will still be VisualStudio.Debugger.Interop.dll as it does today). In any case the assemblies can be then referenced from your application, just as they are today.
@@ -136,3 +136,19 @@ Sample fix:
 -process4.Attach2();
 +process4.Attach2("");
 ```
+
+### Legacy Find API deprecation
+
+As a part of our efforts to modernize find in files, we have deprecated support to the following APIs of the EnvDTE interface in VS 2022.
+
+-	[EditPoint.FindPattern(String, Int32, EditPoint, TextRanges)](https://docs.microsoft.com/dotnet/api/envdte.editpoint.findpattern?view=visualstudiosdk-2019)
+-	[EditPoint.ReplacePattern(TextPoint, String, String, Int32, TextRanges)](https://docs.microsoft.com/dotnet/api/envdte.editpoint.replacepattern?view=visualstudiosdk-2019)
+-	[EditPoint.ReplaceText(Object, String, Int32)](https://docs.microsoft.com/dotnet/api/envdte.editpoint.replacetext?view=visualstudiosdk-2019)
+-	[TextSelection.FindText(String, Int32)](https://docs.microsoft.com/dotnet/api/envdte.textselection.findtext?view=visualstudiosdk-2019#EnvDTE_TextSelection_FindText_System_String_System_Int32_)
+-	[TextSelection.FindPattern(String, Int32, TextRanges)](https://docs.microsoft.com/dotnet/api/envdte.textselection.findpattern?view=visualstudiosdk-2019)
+-	[TextSelection.ReplaceText(String, String, Int32)](https://docs.microsoft.com/dotnet/api/envdte.textselection.replacetext?view=visualstudiosdk-2019)
+-	[TextSelection.ReplacePattern(String, String, Int32, TextRanges)](https://docs.microsoft.com/dotnet/api/envdte.textselection.replacepattern?view=visualstudiosdk-2019)
+-	[TextDocument.ReplacePattern(String, String, Int32, TextRanges)](https://docs.microsoft.com/dotnet/api/envdte.textdocument.replacepattern?view=visualstudiosdk-2019)
+-	[TextDocument.ReplaceText(String, String, Int32)](https://docs.microsoft.com/dotnet/api/envdte.textdocument.replacetext?view=visualstudiosdk-2019)
+
+These APIs will no longer work in VS 2022 and beyond. The guidance is to use [IFinder Interface (Microsoft.VisualStudio.Text.Operations)](https://docs.microsoft.com/dotnet/api/microsoft.visualstudio.text.operations.ifinder?view=visualstudiosdk-2019) instead which has find and replace methods on it. Access to an object implementing the IFinder interface can be gained via the [IFindService.CreateFinderFactory Method](https://docs.microsoft.com/dotnet/api/microsoft.visualstudio.text.operations.ifindservice.createfinderfactory?view=visualstudiosdk-2019). An example of migrating a third-party extension to Visual Studio from the older APIs to the modern IFinder APIs can be found here: [Migrate Code Maid extension from EnvDTE Find and Replace pattern APIs to modern IFinder APIs](https://github.com/codecadwallader/codemaid/pull/847/commits/12e226a2ad6e9a4ccec4c3fda1a19db63eef6efd)
