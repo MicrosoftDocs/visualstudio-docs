@@ -33,7 +33,7 @@ Get help for your deployment task:
 
    ![Create a new publish profile](../deployment/media/create-a-new-publish-profile.png)
 
-   Then, choose a deployment option in the Publish window. For information on your publishing options, see the following sections.
+   Then, choose a deployment option in the Publish tool. For information on your publishing options, see the following sections.
 
 ## What publishing options are right for me?
 
