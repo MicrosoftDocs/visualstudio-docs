@@ -72,7 +72,7 @@ We’re refreshing the user interface to better keep you in your flow. Some of t
 
 ### Look & Feel
 
-From new iconography to subtle color contrast ratio adjustments and a new Cascadia Code font, we're working to make Visual Studio 2022 more accessible for everyone. For all the details, see the [We’ve upgraded the UI in Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/) blog post.
+From new iconography to subtle color contrast ratio adjustments and a new Cascadia Code font, we're working to make Visual Studio 2022 more accessible for everyone. For all the details, see the [**We’ve upgraded the UI in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/) blog post.
 
 ### Personalization
 
