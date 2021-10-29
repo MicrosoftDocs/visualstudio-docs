@@ -23,12 +23,19 @@ These steps apply to ASP.NET and ASP.NET Core web applications.
 
 ## Prerequisites
 
-You need [Visual Studio](https://www.visualstudio.com/downloads) installed with the ASP.NET and web development workload.
+* [Visual Studio](https://www.visualstudio.com/downloads) installed with the ASP.NET and web development workload. If you've already installed Visual Studio:
 
-If you've already installed Visual Studio:
+  * Install the latest updates in Visual Studio by selecting **Help** > **Check for Updates**.
+  * Add the workload by selecting **Tools** > **Get Tools and Features**.
 
-* Install the latest updates in Visual Studio by selecting **Help** > **Check for Updates**.
-* Add the workload by selecting **Tools** > **Get Tools and Features**.
+* On your server, you must be running Windows Server 2012, Windows Server 2016, or Windows Server 2019, and you must have the [IIS Web Server role](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45#solution) correctly installed (required to generate the publish settings file (*\*.publishsettings*)). Either ASP.NET 4.5 or ASP.NET Core must also be installed on the server.
+
+  * To set up ASP.NET Core, see [Host ASP.NET Core on Windows with IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration). For ASP.NET Core, make sure you configure the Application Pool to use **No Managed Code**, as described in the article.
+
+  * To set up ASP.NET 4.5, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
+
+  > [!NOTE]
+  > IIS on Windows does not support generating the publish settings. You can, however, still publish to IIS using the Publish tool in Visual Studio.
 
 ## Install and configure Web Deploy on Windows Server
 
