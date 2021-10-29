@@ -19,7 +19,7 @@ You can use the **Publish** tool to import publish settings and then deploy your
 These steps apply to ASP.NET and ASP.NET Core web applications.
 
 > [!NOTE]
-> A publish settings file (*\*.publishsettings*) is different than a publishing profile (*\*.pubxml*) created in Visual Studio. A publish settings file is created in IIS, and then it can be imported into Visual Studio.
+> A publish settings file (*\*.publishsettings*) is different than a publishing profile (*\*.pubxml*). A publish settings file is created in IIS, and then it can be imported into Visual Studio. Visual Studio creates the publishing profile.
 
 ## Prerequisites
 

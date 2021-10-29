@@ -9,6 +9,7 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
+monikerRange: '>= vs-2019'
 ms.workload:
   - "multiple"
 ---
@@ -150,6 +151,6 @@ Next, you see the summary page for the new [publish profile](./publish-overview.
 ## [Import profile](#tab/import-profile)
 ## Import Profile
 
-You can import publish profiles [from IIS](./tutorial-import-publish-settings-iis.md) and [Azure App Service](./tutorial-import-publish-settings-azure.md#create-the-publish-settings-file-in-azure-app-service)
+You can import publish settings [from IIS](./tutorial-import-publish-settings-iis.md) and [Azure App Service](./tutorial-import-publish-settings-azure.md#create-the-publish-settings-file-in-azure-app-service)
 
 ---
