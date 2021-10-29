@@ -69,7 +69,7 @@ Deployment to a local folder is typically used for testing or to begin a staged 
 
 ## Publish to the web or deploy to a network share
 
-- **ASP.NET**, **ASP.NET Core**, **Node.js**, and **Python**: You can use the **Publish** tool to deploy to a website by using FTP or Web Deploy. For more information, see [Publish an ASP.NET app](quickstart-deploy-aspnet-web-app?tabs=folder.md?tabs=web-server).
+- **ASP.NET**, **ASP.NET Core**, **Node.js**, and **Python**: You can use the **Publish** tool to deploy to a website by using FTP or Web Deploy. For more information, see [Publish an ASP.NET app](quickstart-deploy-aspnet-web-app.md?tabs=folder.md?tabs=web-server).
 
     In Solution Explorer, right-click the project and select **Publish**. (If you've previously configured any publishing profiles, you must then select **Create new profile**.) In the **Publish** tool, select the option you want and follow the configuration steps.
 
