@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022"
 titleSuffix: ""
 description: "Learn about the new features in the preview release of Visual Studio 2022."
-ms.date: 10/13/2021
+ms.date: 10/29/2021
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -70,7 +70,11 @@ If you've worked with projects hosted on different Git repositories, you might h
 
 We’re refreshing the user interface to better keep you in your flow. Some of the changes are subtle cosmetic touches that modernize the UI or reduce crowding.
 
-### Personalization improvements
+### Look & Feel
+
+From new iconography to subtle color contrast ratio adjustments and a new Cascadia Code font, we're working to make Visual Studio 2022 more accessible for everyone. For all the details, see the [We’ve upgraded the UI in Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/) blog post.
+
+### Personalization
 
 One of our key focus areas is to make Visual Studio more personalized and flexible so that you can make the IDE your own. For example, [Visual Studio 2022 Preview 3](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/) offers you the ability to sync with your Windows theme. So, if you've enabled the "night light" feature there, Visual Studio uses it, too. For more info, see the [**Personalize your Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/personalize-your-visual-studio-2022/) blog post.
 
