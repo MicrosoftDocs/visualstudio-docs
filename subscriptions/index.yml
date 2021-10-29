@@ -82,9 +82,7 @@ tools:
 
 additionalContent:
   sections:
-  - title: 
-  
-  details
+  - title: Benefit details
     summary: "Your subscription may include these benefits"
     items:
       - title: Developer tools
