@@ -45241,6 +45241,26 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/deployment/quickstart-deploy-to-azure.md",
+      "redirect_url": "/visualstudio/deployment/quickstart-deploy-aspnet-web-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/quickstart-deploy-to-local-folder.md",
+      "redirect_url": "/visualstudio/deployment/quickstart-deploy-aspnet-web-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/quickstart-deploy-to-a-web-site.md",
+      "redirect_url": "/visualstudio/deployment/quickstart-deploy-aspnet-web-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/quickstart-deploy-to-linux.md",
+      "redirect_url": "/visualstudio/deployment/quickstart-deploy-aspnet-web-app",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md",
       "redirect_url": "/visualstudio/deployment/securing-clickonce-applications",
       "redirect_document_id": false

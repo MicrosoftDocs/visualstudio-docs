@@ -64,4 +64,4 @@ Learn more about Azure DevOps features:
 - [Azure Test Plans](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web)
 - [Azure Artifacts](https://marketplace.visualstudio.com/items?itemName=ms.feed)
 
-Learn how to activate your [Azure DevTest individual credit](vs-azure.md).
+Learn how to activate your [Azure DevTest individual credit](/azure/devtest/offer/quickstart-individual-credit).

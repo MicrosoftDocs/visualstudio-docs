@@ -116,4 +116,4 @@ A:  No.  The Power BI Pro benefit cannot be added to government tenants.
 
 ## Next steps
 - To activate your Power BI Pro benefit, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
-- Take advantage of your own development sandbox by activating your [Azure DevTest individual credit](vs-azure.md).
+- Take advantage of your own development sandbox by activating your [Azure DevTest individual credit](/azure/devtest/offer/quickstart-individual-credit).

@@ -93,5 +93,5 @@ Visual Studio Subscriptions support provides assistance with sales, subscription
 ## Next steps
 Once you have Visual Studio installed, don't forget to activate these other important benefits:
 - [Azure DevOps](vs-azure-devops.md)
-- [Azure DevTest individual credit](vs-azure.md)
+- [Azure DevTest offer / credits](/azure/devtest/offer/)
 - [Windows Developer account](vs-windows-dev.md)
