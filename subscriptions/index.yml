@@ -36,7 +36,7 @@ conceptualContent:
           url: ~/software-download-list.md
           itemType: get-started
       footerLink:
-        url: /azure/devtest/offer/quickstart-individual-credit
+        url: ~/about-benefits.md
         text: See more
     - title: Popular resources
       links:
