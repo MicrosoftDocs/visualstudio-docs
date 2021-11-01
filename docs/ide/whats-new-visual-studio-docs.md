@@ -1,7 +1,6 @@
 ---
-title: "Visual Studio docs: What's new for October 2021"
-titleSuffix: ""
-description: "What's new in the Visual Studio docs for October 2021."
+title: "What's new in Visual Studio docs"
+description: "What's new in the Visual Studio docs"
 ms.date: 11/01/2021
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
@@ -17,11 +16,13 @@ ms.workload:
   - "multiple"
 ---
 
-# Visual Studio docs: What's new for October 2021
+# What's new in Visual Studio docs
 
-Welcome to what's new in the Visual Studio docs for October 2021. This article lists some of the major changes to docs during this period. For information about what was new in previous months, see the [what's new history](#whats-new-history) section.
+Welcome to what's new in the Visual Studio docs. The following sections provide the previous four months of what's new in the Visual Studio docs.
 
-## Containers
+## October 2021
+
+### Containers
 
 **Updated articles**
 
@@ -31,7 +32,7 @@ Welcome to what's new in the Visual Studio docs for October 2021. This article l
   - Add launch profile step and update for VS 2022
   - Update for .NET 6 and VS 2022 Preview
 
-## Data tools
+### Data tools
 
 **Updated articles**
 
@@ -40,7 +41,7 @@ Welcome to what's new in the Visual Studio docs for October 2021. This article l
 - [Connect to data in an Access database](../data-tools/connect-to-data-in-an-access-database-windows-forms.md) - Add notes about 32-bit providers
 - [Create a database and add tables in Visual Studio](../data-tools/create-a-sql-database-by-using-a-designer.md) - Update for VS 2022
 
-## Debugger
+### Debugger
 
 **Updated articles**
 
@@ -49,25 +50,25 @@ Welcome to what's new in the Visual Studio docs for October 2021. This article l
 - [Use breakpoints in the Visual Studio debugger](../debugger/using-breakpoints.md) - VS2022 Debugger breakpoint, force run to cursor updates
 - [Remote Debug ASP.NET Core on IIS in Azure in Visual Studio](../debugger/remote-debugging-azure.md) - Updates to remote debugging for Azure App Service, .NET 6 updates
 
-## Deployment
+### Deployment
 
 **New articles** 
 
-- [Overview of Publish](../deployment/publish-overview.md) - New article created
-- [Quickstart: Publish an ASP.NET web app](../deployment/quickstart-deploy-aspnet-web-app.md) - New article created
+- [Overview of Publish](../deployment/publish-overview.md)
+- [Quickstart: Publish an ASP.NET web app](../deployment/quickstart-deploy-aspnet-web-app.md)
 
 **Updated articles**
 
 - [Deployment in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.](../deployment/index.yml) - Add Publish overview
 - [Get publish settings from IIS and import into Visual Studio](../deployment/tutorial-import-publish-settings-iis.md) - Add Publish overview
 
-## Extensibility
+### Extensibility
 
 **Updated articles**
 
 - [Breaking API changes in Visual Studio 2022](../extensibility/migration/breaking-api-list.md) - Update VS 2022 breaking changes list to include breakages in legacy Find APIs
 
-## IDE
+### IDE
 
 **New articles**
 
@@ -87,7 +88,7 @@ Welcome to what's new in the Visual Studio docs for October 2021. This article l
 - [Options, Text Editor, C/C++, View](./reference/options-text-editor-c-cpp-view.md) - Update C++ Text Editor options, fix 7125
 - [How to report a problem with Visual Studio or Visual Studio Installer](./how-to-report-a-problem-with-visual-studio.md) - Merge Report a problem states & FAQ into the how to report a problem page
 
-## Install
+### Install
 
 **Updated articles**
 
@@ -101,20 +102,20 @@ Welcome to what's new in the Visual Studio docs for October 2021. This article l
 - [Visual Studio Test Agent component directory](../install/workload-component-id-vs-test-agent.md) - Release VS 2022 Preview 5 (RC)
 - [Visual Studio Test Controller component directory](../install/workload-component-id-vs-test-controller.md) - Release VS 2022 Preview 5 (RC)
 
-## JavaScript
+### JavaScript
 
 **Updated articles**
 - [Manage npm packages in Visual Studio](../javascript/npm-package-management.md) - Unit testing and npm updates for new JS/TS project types
 - [Unit testing JavaScript and TypeScript in Visual Studio](../javascript/unit-testing-javascript-with-visual-studio.md) - Unit testing and npm updates for new JS/TS project types
 
-## MSBuild
+### MSBuild
 
 **New articles**
 
-- [Default F1 page for MSBuild errors](../msbuild/msbuild-errors.md) - New article created
-- [Configure tasks](../msbuild/configure-tasks.md) - New article created
-- [MSB4018: The task failed unexpectedly](../msbuild/errors/msb4018.md) - New article created
-- [MSB4062: The task could not be loaded from the assembly](../msbuild/errors/msb4062.md) - New article created
+- [Default F1 page for MSBuild errors](../msbuild/msbuild-errors.md)
+- [Configure tasks](../msbuild/configure-tasks.md)
+- [MSB4018: The task failed unexpectedly](../msbuild/errors/msb4018.md)
+- [MSB4062: The task could not be loaded from the assembly](../msbuild/errors/msb4062.md)
 
 **Updated articles**
 
@@ -122,13 +123,13 @@ Welcome to what's new in the Visual Studio docs for October 2021. This article l
 - [Property functions](../msbuild/property-functions.md) - Add undocumented parameter versionPartCount and clarify text about enum values in nested property functions
 - [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md) - Update installation links for MSBuild and clarify project build info
 
-## Test
+### Test
 
 **New articles**
 
-- [Test Execution with Hot Reload](../test/test-execution-with-hot-reload.md) - New article created
+- [Test Execution with Hot Reload](../test/test-execution-with-hot-reload.md)
 
-## Community contributors in October
+### Community contributors in October
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
@@ -139,23 +140,15 @@ The following people contributed to the Visual Studio docs during this period. T
 - [ralbury-mwb](https://github.com/ralbury-mwb) - Richard Albury (1)
 - [Thieum](https://github.com/Thieum) - Matthieu Penant (1)
 
-## What's new history
+## September 2021
 
-The following sections provide the previous three months of what's new in the Visual Studio docs.
-
-* [September 2021](#september-2021)
-* [August 2021](#august-2021)
-* [July 2021](#july-2021)
-
-### September 2021
-
-#### Code quality
+### Code quality
 
 **Updated articles**
 
 - [Migrate from legacy analysis (FxCop) to source analysis (.NET analyzers)](../code-quality/migrate-from-legacy-analysis-to-net-analyzers.md) - Additional instructions to disable legacy code analysis
 
-#### Debugger
+### Debugger
 
 **Updated articles**
 
@@ -163,7 +156,7 @@ The following sections provide the previous three months of what's new in the Vi
 - [Configure Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md) - Remote debugger updates for VS 2022
 - [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) - Remote debugger updates for VS 2022
 
-#### Deployment
+### Deployment
 
 **New articles** 
 
@@ -177,7 +170,7 @@ The following sections provide the previous three months of what's new in the Vi
   - Edit pass on GitHub Actions CI/CD Publish
   - Initial commit of the new How-To guide for VS and GitHub Actions
 
-#### Extensibility
+### Extensibility
 
 **New articles**
 
@@ -188,13 +181,13 @@ The following sections provide the previous three months of what's new in the Vi
 - [Create a software development kit](../extensibility/creating-a-software-development-kit.md)
   - UWP Extension SDKs must list Toolbox items in SdkManifest.xml starting in VS 2022
 
-#### Get started
+### Get started
 
 **New articles**
 
 - [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md) - New article created
 
-#### IDE
+### IDE
 
 **Updated articles**
 - [Features of Visual Studio](./advanced-feature-overview.md) - Update Source Control section
@@ -206,7 +199,7 @@ The following sections provide the previous three months of what's new in the Vi
 - [How to: Configure projects to target platforms](./how-to-configure-projects-to-target-platforms.md) - Review and update as needed for Visual Studio 2022 RC
 - [Learn about Solution Explorer](./use-solution-explorer.md) - Add Solution Explorer context menu info
 
-#### Install
+### Install
 
 **Updated articles**
 
@@ -214,7 +207,7 @@ The following sections provide the previous three months of what's new in the Vi
   - Add start /wait command to fix github issue #6765
   - Update how VS Build Tools is installed
 
-#### JavaScript
+### JavaScript
 
 **New articles**
 
@@ -223,20 +216,20 @@ The following sections provide the previous three months of what's new in the Vi
 **Updated articles**
 - [Tutorial: Create an ASP.NET Core app with Vue in Visual Studio](../javascript/tutorial-asp-net-core-with-vue.md) - Drafted What's New in JavaScript and TypeScript in Visual Studio 2022
 
-#### MSBuild
+### MSBuild
 
 **Updated articles**
 
 - [Property functions](../msbuild/property-functions.md)
   - Improved Get...OfFileAbove descriptions
 
-#### Vsto
+### Vsto
 
 **New articles**
 
 - [Visual Studio Tools for Office Runtime](../vsto/visual-studio-tools-for-office-runtime.md) - New article created
 
-#### XAML tools
+### XAML tools
 
 **Updated articles**
 
@@ -244,9 +237,9 @@ The following sections provide the previous three months of what's new in the Vi
   - Update metadata and make minor edits to text
   - Update XAML Hot Reload intro section
 
-### August 2021
+## August 2021
 
-#### Containers
+### Containers
 
 **Updated articles**
 
@@ -254,7 +247,7 @@ The following sections provide the previous three months of what's new in the Vi
 - [Visual Studio Container Tools for Docker](../containers/overview.md) - Container Tools August
 - [Use the Containers window](../containers/view-and-diagnose-containers.md) - Container Tools August
 
-#### Debugger
+### Debugger
 
 **Updated articles**
 
@@ -264,19 +257,19 @@ The following sections provide the previous three months of what's new in the Vi
 - [Attach to a process running on a Docker container](../debugger/attach-to-process-running-in-docker-container.md) - Updates for Linux Attach to Process scenarios
 - [Debug .NET Apps in WSL with Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md) - WSL debugging updates
 
-#### Deployment
+### Deployment
 
 **Updated articles**
 
 - [Publish an application to IIS by importing publish settings in Visual Studio](../deployment/tutorial-import-publish-settings-iis.md) - Refresh for WS 2019 and .NET 5
 
-#### Extensibility
+### Extensibility
 
 **Updated articles**
 
 - [Add a Language Server Protocol extension](../extensibility/adding-an-lsp-extension.md) - Update info on MiddleLayer in LSP Extension docs
 
-#### IDE
+### IDE
 
 **New articles**
 
@@ -291,13 +284,13 @@ The following sections provide the previous three months of what's new in the Vi
 - [Tutorial: Get started with Visual Basic in Visual Studio](../get-started/visual-basic/tutorial-console.md) - add Git source control info to the VB console tutorial
 - [Create a console calculator in C++](/cpp/get-started/tutorial-console-cpp) - add Git info to the C++ Console Calculator tutorial
 
-#### Install
+### Install
 
 **Updated articles**
 
 - [Install Build Tools into a container](../install/build-tools-container.md) - Updates for Visual Studio 2022
 
-#### JavaScript
+### JavaScript
 
 **New articles**
 
@@ -309,7 +302,7 @@ The following sections provide the previous three months of what's new in the Vi
 **Updated articles**
 - [JavaScript and TypeScript in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.](../javascript/index.yml) - Updating the index page with different links
 
-#### Test
+### Test
 
 **New articles**
 
@@ -319,22 +312,22 @@ The following sections provide the previous three months of what's new in the Vi
 
 - [Get started with unit testing](../test/getting-started-with-unit-testing.md) - Add C++ support & unit testing improvements to tutorial
 
-### July 2021
+## July 2021
 
-#### Debugger
+### Debugger
 
 **Updated articles**
 
 - [Create custom data visualizers](../debugger/create-custom-visualizers-of-data.md) - Update Visualizers Documentation with additional steps in case they are intended for .NET 5.0 scenarios
 - [Walkthrough: Writing a Visualizer in C\#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md) - Visualizer content for .NET 5 and new content for custom data objects
 
-#### Extensibility
+### Extensibility
 
 **New articles**
 
 - [FAQ for Visual Studio 2017 extensibility](../extensibility/faq-2017.yml)
 
-#### IDE
+### IDE
 
 **New articles**
 
@@ -346,14 +339,14 @@ The following sections provide the previous three months of what's new in the Vi
 - [Configure trust settings for files and folders](./reference/trust-settings.md) - Added info about new Trust Settings in VS2022
 - [Default keyboard shortcuts in Visual Studio](./default-keyboard-shortcuts-in-visual-studio.md) - Added descriptions to keyboard shortcuts
 
-#### JavaScript
+### JavaScript
 
 **New articles**
 
 - [Tutorial: Create an ASP.NET Core app with Angular in Visual Studio](../javascript/tutorial-asp-net-core-with-angular.md)
 - [Tutorial: Create an ASP.NET Core app with React in Visual Studio](../javascript/tutorial-asp-net-core-with-react.md)
 
-#### MSBuild
+### MSBuild
 
 **New articles**
 
