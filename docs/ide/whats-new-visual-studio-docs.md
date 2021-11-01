@@ -118,8 +118,7 @@ Welcome to what's new in the Visual Studio docs for October 2021. This article l
 
 **Updated articles**
 
-- [MSBuild items](../msbuild/msbuild-items.md)
-  - Document MatchOnMetadata
+- [MSBuild items](../msbuild/msbuild-items.md) - Document MatchOnMetadata
 - [Property functions](../msbuild/property-functions.md) - Add undocumented parameter versionPartCount and clarify text about enum values in nested property functions
 - [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md) - Update installation links for MSBuild and clarify project build info
 
