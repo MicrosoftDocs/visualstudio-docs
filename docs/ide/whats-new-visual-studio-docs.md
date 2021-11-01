@@ -75,7 +75,7 @@ Welcome to what's new in the Visual Studio docs for October 2021. This article l
 
 **Updated articles**
 - [Visual Studio Customer Experience Improvement Program](./visual-studio-experience-improvement-program.md)
-  - Update for dev17 and fix github issue 7139
+  - Update for VS 2022 and fix github issue 7139
   - Combine system-generated logs article with VSCEIP
 - [Application property page (UWP projects)](./reference/application-page-project-designer-uwp.md) - Add 'Windows 10 and later' updates & updated links
 - [Configure trust settings for files and folders](./reference/trust-settings.md) - Add Trust Settings for VS 2022
@@ -97,7 +97,7 @@ Welcome to what's new in the Visual Studio docs for October 2021. This article l
 - [Visual Studio Community component directory](../install/workload-component-id-vs-community.md) - Release VS 2022 Preview 5 (RC)
 - [Visual Studio Enterprise component directory](../install/workload-component-id-vs-enterprise.md) - Release VS 2022 Preview 5 (RC)
 - [Visual Studio Professional component directory](../install/workload-component-id-vs-professional.md) - Release VS 2022 Preview 5 (RC)
-- [Visual Studio Team Explorer component directory](../install/workload-component-id-vs-team-explorer.md) - Release DeVS 2022v17 Preview 5 (RC)
+- [Visual Studio Team Explorer component directory](../install/workload-component-id-vs-team-explorer.md) - Release VS 2022 Preview 5 (RC)
 - [Visual Studio Test Agent component directory](../install/workload-component-id-vs-test-agent.md) - Release VS 2022 Preview 5 (RC)
 - [Visual Studio Test Controller component directory](../install/workload-component-id-vs-test-controller.md) - Release VS 2022 Preview 5 (RC)
 
@@ -202,7 +202,7 @@ The following sections provide the previous three months of what's new in the Vi
 - [What's new in Visual Studio 2022 (Preview)](./whats-new-visual-studio-2022.md) - Revise heading hierarchy, rearrange info, and add animated GIFs
 - [How to: Change the build output directory](./how-to-change-the-build-output-directory.md)
   - Review and update as needed for Visual Studio 2022 Preview
-  - Update build configurations article for Dev17
+  - Update build configurations article for VS 2022
 - [How to: Configure projects to target platforms](./how-to-configure-projects-to-target-platforms.md) - Review and update as needed for Visual Studio 2022 RC
 - [Learn about Solution Explorer](./use-solution-explorer.md) - Add Solution Explorer context menu info
 
