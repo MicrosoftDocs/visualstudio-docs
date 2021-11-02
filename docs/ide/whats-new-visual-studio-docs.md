@@ -26,8 +26,8 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 **Updated articles**
 
-- [Quickstart: Use Docker with a React Single-page App in Visual Studio](../containers/container-tools-react.md) - Add launch profile step and update for VS 2022
-- [Launch a subset of Compose services](../containers/launch-profiles.md) - Add launch profile step and update for VS 2022
+- [Quickstart: Use Docker with a React Single-page App in Visual Studio](../containers/container-tools-react.md) - Update for VS 2022
+- [Launch a subset of Compose services](../containers/launch-profiles.md) - Update for VS 2022
 - [Tutorial: Create a multi-container app with Docker Compose](../containers/tutorial-multicontainer.md)
   - Add launch profile step and update for VS 2022
   - Update for .NET 6 and VS 2022 Preview
