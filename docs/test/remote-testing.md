@@ -19,6 +19,7 @@ Requirements for using this experimental version of remote testing:
 * Visual Studio 2022 Update 17.0 Preview 3 or later
 * Only available for .NET tests.
   * If you're interested in remote testing support for other languages, please [file a suggestion](/visualstudio/ide/suggest-a-feature) or upvote an existing suggestion. [Supporting C++ remote testing](https://developercommunity.visualstudio.com/t/run-c-unit-tests-on-linux-with-visual-studio/1403357).
+* Currently we only support Windows, Ubuntu and Debian images on the remote environment. 
 * Currently, the bulk of the provisioning of the environment is left to the user’s specification. The user must install the necessary dependencies in your target environment. For example, if your tests target .NET 5.0, you need to make sure the container has .NET 5.0 installed via your Dockerfile. There may be a prompt to install .NET Core on the remote environment, which is needed to run and discover tests remotely. 
 * Plan to monitor your connection status to the remote environment using the Output > Tests pane. For example, if the container was stopped a message will appear in Output > Tests pane. We may not detect all scenarios, so plan to check your output if it looks like the connection was lost. In particular, if the Output pane isn't set to "Test", you may not immediately see the message. If the connection is lost, you can use the environment drop-down in the Test Explorer to set the connection back to your local environment and then select the remote environment again to reinitiate the connection.
 
@@ -106,6 +107,29 @@ The environment can be specified in `testEnvironments.json` in the root of your 
 ]
 }
 ```
+
+#### Prerequisites for a remote Windows environment
+1. Ensure [Windows Projected File System](https://docs.microsoft.com/en-us/windows/win32/projfs/enabling-windows-projected-file-system) is enabled. You can run the following from an admin PowerShell window to enable it:
+
+   ```powershell
+    Enable-WindowsOptionalFeature -Online -FeatureName Client-ProjFS -NoRestart
+   ```
+
+   Please restart the environment if required.
+2. Ensure SSH is setup. You can review the steps at [Install OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse#install-openssh-using-powershell). Start up the SSH server running the following from an admin PowerShell window:
+   ```powershell
+   Start-Service sshd
+   ```
+
+3. Ensure that the appropriate .NET runtime required by your tests is installed. Downloads can be found [here](https://dotnet.microsoft.com/download).
+4. For debugging of tests
+   1. Please install the [Remote tools SKU](https://docs.microsoft.com/en-us/visualstudio/debugger/remote-debugging?view=vs-2022) on the remote environment. 
+   2. Start up the remote debugger as an admin and ensure that the VS user has permissions to connect.
+
+#### Prerequisites for a remote linux environment
+1. Ensure ssh is configured and running.
+2. Install both the `libfuse3-3` and `fuse3` packages.
+3. Ensure that the appropriate dotnet runtime is installed on the remote environment.
 
 ## Use the Test Explorer to run and debug remote tests
 * The active environment is selected via a drop-down in the Test Explorer tool bar. Currently, only one test environment can be active at a time.
