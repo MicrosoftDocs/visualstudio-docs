@@ -41,7 +41,7 @@
     - name: Create an installer package
       href: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
     - name: Package a desktop app for Microsoft Store >>
-      href: /windows/msix/desktop/packaging-uwp-apps
+      href: /windows/msix/package/packaging-uwp-apps
     - name: Deploy a C++/CLR app using ClickOnce >>
       href: /cpp/windows/clickonce-deployment-for-visual-cpp-applications
   - name: Node.js
