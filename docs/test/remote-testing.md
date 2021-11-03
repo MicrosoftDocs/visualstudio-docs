@@ -109,21 +109,21 @@ The environment can be specified in `testEnvironments.json` in the root of your 
 ```
 
 #### Prerequisites for a remote Windows environment
-1. Ensure [Windows Projected File System](https://docs.microsoft.com/en-us/windows/win32/projfs/enabling-windows-projected-file-system) is enabled. You can run the following from an admin PowerShell window to enable it:
+1. Ensure [Windows Projected File System](/windows/win32/projfs/enabling-windows-projected-file-system) is enabled. You can run the following from an admin PowerShell window to enable it:
 
    ```powershell
     Enable-WindowsOptionalFeature -Online -FeatureName Client-ProjFS -NoRestart
    ```
 
    Please restart the environment if required.
-2. Ensure SSH is setup. You can review the steps at [Install OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse#install-openssh-using-powershell). Start up the SSH server by running the following command from an admin PowerShell window:
+2. Ensure SSH is setup. You can review the steps at [Install OpenSSH](/windows-server/administration/openssh/openssh_install_firstuse#install-openssh-using-powershell). Start up the SSH server by running the following command from an admin PowerShell window:
    ```powershell
    Start-Service sshd
    ```
 
 3. Ensure that the appropriate .NET runtime required by your tests is installed. Downloads can be found [here](https://dotnet.microsoft.com/download).
 4. For debugging of tests:
-   1. Please install the [Remote tools SKU](https://docs.microsoft.com/en-us/visualstudio/debugger/remote-debugging?view=vs-2022) on the remote environment. 
+   1. Please install the [Remote tools SKU](/visualstudio/debugger/remote-debugging?view=vs-2022&preserve-view=true) on the remote environment. 
    2. Start up the remote debugger as an admin and ensure that the VS user has permissions to connect.
 
 #### Prerequisites for a remote linux environment
