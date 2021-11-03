@@ -122,7 +122,7 @@ The environment can be specified in `testEnvironments.json` in the root of your 
    ```
 
 3. Ensure that the appropriate .NET runtime required by your tests is installed. Downloads can be found [here](https://dotnet.microsoft.com/download).
-4. For debugging of tests
+4. For debugging of tests:
    1. Please install the [Remote tools SKU](https://docs.microsoft.com/en-us/visualstudio/debugger/remote-debugging?view=vs-2022) on the remote environment. 
    2. Start up the remote debugger as an admin and ensure that the VS user has permissions to connect.
 
