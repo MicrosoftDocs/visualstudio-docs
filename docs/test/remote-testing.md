@@ -116,7 +116,7 @@ The environment can be specified in `testEnvironments.json` in the root of your 
    ```
 
    Please restart the environment if required.
-2. Ensure SSH is setup. You can review the steps at [Install OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse#install-openssh-using-powershell). Start up the SSH server running the following from an admin PowerShell window:
+2. Ensure SSH is setup. You can review the steps at [Install OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse#install-openssh-using-powershell). Start up the SSH server by running the following command from an admin PowerShell window:
    ```powershell
    Start-Service sshd
    ```
