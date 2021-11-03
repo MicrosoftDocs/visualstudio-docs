@@ -1,7 +1,7 @@
 ---
 title: "Accessibility tips and tricks for Visual Studio"
 description: "Learn more about tips and tricks that can help make the Visual Studio integrated development environment (IDE) more accessible for everyone to use, including people with disabilities."
-ms.date: 08/06/2019
+ms.date: 11/03/2021
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
@@ -31,6 +31,13 @@ You can customize your IDE experience by saving your window layout, keyboard map
 For some folks, some colors are more difficult to see. If you want more contrast as you code but don't want to use the typical "High Contrast" themes, we now offer a “Blue (Extra Contrast)” theme.
 
   ![Compare the Blue theme and Blue Extra Contrast theme](media/blue-extra-contrast-theme.png "Screenshot that shows a comparison of the Blue theme and the Blue Extra Contrast theme")
+
+::: moniker range="vs-2022"
+
+> [!TIP]
+> See the [**We’ve upgraded the UI in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/) blog post to learn more about the subtle color contrast ratio adjustments and a new Cascadia Code font we've added to make Visual Studio more accessible for everyone.
+
+::: moniker-end
 
 ## Use annotations to reveal useful information about your code
 
