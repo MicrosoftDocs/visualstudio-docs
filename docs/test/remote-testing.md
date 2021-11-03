@@ -128,8 +128,8 @@ The environment can be specified in `testEnvironments.json` in the root of your 
 
 #### Prerequisites for a remote linux environment
 1. Ensure ssh is configured and running.
-2. Install both the `libfuse3-3` and `fuse3` packages.
-3. Ensure that the appropriate dotnet runtime is installed on the remote environment.
+2. Install `fuse3` using a package manager.
+3. Ensure that the appropriate .NET runtime required by your tests is installed on the remote environment.
 
 ## Use the Test Explorer to run and debug remote tests
 * The active environment is selected via a drop-down in the Test Explorer tool bar. Currently, only one test environment can be active at a time.
