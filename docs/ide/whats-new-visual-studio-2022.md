@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022"
 titleSuffix: ""
 description: "Learn about the new features in the preview release of Visual Studio 2022."
-ms.date: 10/29/2021
+ms.date: 11/04/2021
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -72,7 +72,9 @@ We’re refreshing the user interface to better keep you in your flow. Some of t
 
 ### Look & feel
 
-From new iconography to subtle color contrast ratio adjustments and a new Cascadia Code font, we're working to make Visual Studio 2022 more accessible for everyone. For all the details, see the [**We’ve upgraded the UI in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/) blog post.
+From new iconography to subtle color contrast ratio adjustments and a new [Cascadia Code](https://github.com/microsoft/cascadia-code#welcome) font, we're working to make Visual Studio 2022 more accessible for everyone. For all the details, see the [**We’ve upgraded the UI in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/) blog post.
+
+:::image type="content" source="media/vs-2022/icon-refresh.png" alt-text="Screenshot of the contrast between previous and refreshed icons in Visual Studio.":::
 
 ### Personalization
 
@@ -92,6 +94,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 ## See also
 
+* [Visual Studio 2022 GA (General Availability)](https://devblogs.microsoft.com/visualstudio/join-us-november-8th-for-the-launch-of-visual-studio-2022/)
 * [Visual Studio 2022 RC (Release Candidate)](https://devblogs.microsoft.com/visualstudio/join-us-november-8th-for-the-launch-of-visual-studio-2022/)
 * [Visual Studio 2022 Preview 4](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-4-is-now-available/)
 * [Visual Studio 2022 Preview 3](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/)
