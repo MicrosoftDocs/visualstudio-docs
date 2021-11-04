@@ -5,7 +5,7 @@ description: A list of released versions and build numbers for Visual Studio, so
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
-ms.date: 10/26/2021
+ms.date: 11/18/2021
 ms.topic: reference
 ms.workload:
 - multiple
@@ -17,12 +17,14 @@ open_to_public_contributors: false
 
 ::: moniker range="vs-2022"
 
-## Visual Studio 2022 RC
+## Visual Studio 2022
 
 The following table lists the build numbers and release dates for Visual Studio 2022 RC, to date.
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 17.0.1 | Preview 1 | November 8, 2021 | 17.1.31903.286 |
+| 17.0.0 | Release | November 8, 2021 | 17.0.31903.59 |
 | 17.0.0 | Preview 7 / Release Candidate (RC.3) | October 26, 2021 | 17.0.31825.309 |
 | 17.0.0 | Preview 6 / Release Candidate (RC.2) | October 19, 2021 | 17.0.31815.197 |
 | 17.0.0 | Preview 5 / Release Candidate (RC.1) | October 12, 2021 | 17.0.31808.319 |
