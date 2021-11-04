@@ -1,5 +1,5 @@
 ---
-ms.date: 09/14/2021
+ms.date: 11/04/2021
 ms.technology: vs-ide-general
 ms.custom: vs-get-started
 author: anandmeg
@@ -61,7 +61,6 @@ Some popular features in Visual Studio that improve your productivity when devel
    ::: moniker range=">=vs-2022"
    ![Screenshot showing squiggles in Visual Studio.](../media/vs-2022/squiggles-error.png)
    ::: moniker-end
-  
 
 ::: moniker range="vs-2019"
 - Code Cleanup
@@ -203,7 +202,7 @@ To get started, [download Visual Studio](https://visualstudio.microsoft.com/down
 
 To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads) and install it on your system. In the modular installer, you choose and install *workloads*, which are groups of features you need for the programming languages or platforms you want. To use the following steps to [create a program](#create-a-program), be sure to select the **.NET desktop development** workload during installation.
 
-![Screenshot of the .NET desktop development workload selected in the Visual Studio Installer.](../media/vs-2022/dot-net-development-workload.png)
+:::image type="content" source="../../ide/media/vs-2022/dot-net-development-workload.png" alt-text="Screenshot of the .NET desktop development workload selected in the Visual Studio Installer.":::
 
 ::: moniker-end
 

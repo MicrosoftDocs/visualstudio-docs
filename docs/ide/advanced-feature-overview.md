@@ -2,7 +2,7 @@
 title: Advanced features
 description: Learn about the advanced features that might be more appropriate for experienced developers, or those developers who are already familiar with Visual Studio.
 ms.custom: vs-acquisition
-ms.date: 10/01/2021
+ms.date: 11/04/2021
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -38,10 +38,15 @@ To learn more about setting up Visual Studio on your system, see [Install Visual
 Visual Studio has a suite of tools to easily create Microsoft Azure cloud-enabled applications. You can configure, build, debug, package, and deploy Azure apps and services directly from the Visual Studio integrated development environment (IDE). To get the Azure tools and project templates, select the **Azure development** workload when you install Visual Studio.
 
 ::: moniker range="<=vs-2019"
+
 ![Screenshot of the Azure development workload in the Visual Studio Installer.](../data-tools/media/azure-development-workload.png)
+
 ::: moniker-end
+
 ::: moniker range=">=vs-2022"
+
 :::image type="content" source="media/vs-2022/azure-development-workload.png" alt-text="Screenshot of the Azure development workload selected in the Visual Studio Installer." border="false":::
+
 ::: moniker-end
 
 ::: moniker range="vs-2017"
