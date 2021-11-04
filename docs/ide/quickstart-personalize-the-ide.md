@@ -1,7 +1,7 @@
 ---
 title: Set the Visual Studio dark theme and change text colors
 description: Learn how to change the default Visual Studio color theme to dark mode and change font colors in the code editor.
-ms.date: 08/19/2021
+ms.date: 11/04/2021
 ms.topic: how-to
 ms.custom: contperf-fy21q1
 author: TerryGLee
@@ -13,10 +13,10 @@ ms.workload:
 ---
 # How to: Personalize the Visual Studio IDE and the editor
 
-In this how-to article, we'll customize the Visual Studio color theme from the default blue theme to the dark theme. Then, we'll customize the colors for two different types of text in the code editor.
+In this how-to article, we'll customize the Visual Studio color theme from the blue theme to the dark theme. Then, we'll customize the colors for two different types of text in the code editor.
 
 > [!NOTE]
-> In [Visual Studio 2022 RC](/visualstudio/releases/2022/release-notes-preview), we've revamped the color themes functionality to mesh with your Windows settings. To learn more, see the [**Flexible theming capabilities for Visual Studio**](https://devblogs.microsoft.com/visualstudio/flexible-theming-visual-studio/) blog post.
+> In [Visual Studio 2022](/visualstudio/releases/2022/release-notes-preview), we've revamped the color themes functionality to mesh with your Windows settings. To learn more, see the [**Flexible theming capabilities for Visual Studio**](https://devblogs.microsoft.com/visualstudio/flexible-theming-visual-studio/) blog post.
 
 ::: moniker range="vs-2017"
 
@@ -46,7 +46,7 @@ The default color theme for Visual Studio's user interface is called **Blue**. L
 
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
+   ::: moniker range=">=vs-2019"
 
    ![Visual Studio 2019 in dark theme](media/vs-2019/dark-theme.png)
 
@@ -63,6 +63,13 @@ The default color theme for Visual Studio's user interface is called **Blue**. L
 
 > [!TIP]
 > You can create your own themes by installing the **Visual Studio Color Theme Designer** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-madsk.ColorThemeDesigner).
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+> [!TIP]
+> Want even more themes to choose from? Check out the wide range of custom themes on the [**Visual Studio Marketplace**](https://marketplace.visualstudio.com/search?target=VS&category=Tools&vsVersion=&subCategory=Themes&sortBy=Installs). And to see examples of new Visual Studio 2022 custom themes based on VS Code, see the [**Introducing a collection of new Visual Studio themes**](https://devblogs.microsoft.com/visualstudio/custom-themes/) blog post.
 
 ::: moniker-end
 
