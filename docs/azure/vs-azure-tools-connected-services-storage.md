@@ -82,7 +82,7 @@ The connected service functionality adds all the needed references and connectio
 
     ![Add Azure Storage](./media/vs-azure-tools-connected-services-storage/vs-2019/add-azure-storage.png)
 
-    If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/account/free).
+    If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
 1. In the **Configure Azure Storage** screen, select an existing storage account, and select **Next**.
 

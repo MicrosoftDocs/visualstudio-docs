@@ -19,11 +19,11 @@ feedback_system: GitHub
 > Many extensions will be able to work in both Visual Studio 2019 and 2022 with minor changes that won't require following the advice on modernizing your extension in this guide.
 > Try your extension in Visual Studio 2022 and evaluate what option is best for your extension.
 
-You can update your extension to work with Visual Studio 2022 Preview by following this guide. Visual Studio 2022 Preview is a 64-bit application, and introduces some breaking changes in the VS SDK. This guide walks you through the steps required to get your extension working with the current preview of Visual Studio 2022, so your extension can be ready for users to install before Visual Studio 2022 reaches GA.
+You can update your extension to work with Visual Studio 2022 RC by following this guide. Visual Studio 2022 RC is a 64-bit application, and introduces some breaking changes in the VS SDK. This guide walks you through the steps required to get your extension working with the current preview of Visual Studio 2022, so your extension can be ready for users to install before Visual Studio 2022 reaches GA.
 
 ## Installing
 
-Install Visual Studio 2022 Preview from [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022).
+Install Visual Studio 2022 RC from [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/downloads).
 
 ### Extensions written in a .NET language
 
@@ -75,7 +75,7 @@ Instead, the one VSIX should be modified so that its `source.extension.vsixmanif
 You can skip the steps in this article about using shared projects and multiple VSIXs. You can proceed with [testing](#test-your-extension)!
 
 > [!NOTE]
-> If you are authoring a *new* Visual Studio extension, using Visual Studio 2022 Preview, and want to (also) target Visual Studio 2019 or an earlier version, check out [this guide](target-previous-versions.md).
+> If you are authoring a *new* Visual Studio extension, using Visual Studio 2022 RC, and want to (also) target Visual Studio 2019 or an earlier version, check out [this guide](target-previous-versions.md).
 
 ### MSBuild tasks
 
@@ -278,10 +278,10 @@ However in some cases, a reference to a type that exists in distinct assemblies 
 
 ## Test your extension
 
-To test an extension that targets Visual Studio 2022 you will need to have Visual Studio 2022 Preview installed.
-You will not be able to run 64-bit extensions on versions of Visual Studio prior to Visual Studio 2022 Preview.
+To test an extension that targets Visual Studio 2022 you will need to have Visual Studio 2022 RC installed.
+You will not be able to run 64-bit extensions on versions of Visual Studio prior to Visual Studio 2022 RC.
 
-You can use Visual Studio 2022 Preview to build and test your extensions whether they target Visual Studio 2022 or an earlier version. When launching a VSIX project from Visual Studio 2022 an experimental instance of Visual Studio will be launched.
+You can use Visual Studio 2022 RC to build and test your extensions whether they target Visual Studio 2022 or an earlier version. When launching a VSIX project from Visual Studio 2022 an experimental instance of Visual Studio will be launched.
 
 We strongly recommend you test with each version of Visual Studio that you intend the extension to support.
 

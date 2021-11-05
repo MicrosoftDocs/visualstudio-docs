@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 588480a3-8806-4ea5-9915-c25974770069
-ms.date: 03/17/2021
+ms.date: 10/18/2021
 ms.topic: how-to
 description:  Learn about the Windows Developer Account included with your Visual Studio subscription.
 ---
@@ -73,4 +73,4 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 Be sure to activate these great benefits to make the most of your Visual Studio subscription:
 - [Visual Studio](vs-ide-benefit.md)
 - [Azure DevOps](vs-azure-devops.md)
-- [Azure DevTest individual credit](vs-azure.md)
+- [Azure DevTest offer / credits](/azure/devtest/offer/)

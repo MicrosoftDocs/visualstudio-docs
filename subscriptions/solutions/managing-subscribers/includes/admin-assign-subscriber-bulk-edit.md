@@ -1,14 +1,14 @@
---- 
+---
 title: How do I assign subscribers in bulk?
 description: Super admin or admin would like more details on how to use the bulk feature.
 ms.topic: include
 ms.assetid: 3b450a79-47d2-4434-899d-bea29a0271e1
-author: CaityBuschlen 
-ms.author: cabuschl 
+author: CaityBuschlen
+ms.author: cabuschl
 ms.date: 06/01/2021
-user.type: admin 
-tags:  
-subscription.type: vl, cloud, retail, partner 
+user.type: admin
+tags: bulk
+subscription.type: vl, cloud, retail, partner
 sap.id: b84fffb5-3363-eb7d-224e-1c63faf4067b
 ---
 

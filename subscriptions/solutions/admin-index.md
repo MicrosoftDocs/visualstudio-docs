@@ -13,13 +13,17 @@ ms.date: 08/13/2021
 
 ## Managing agreements
 
+[!INCLUDE [admin-expired-subs-should-be-active](managing-agreements/includes/admin-expired-subs-should-be-active.md)]
+
 [!INCLUDE [admin-new-agreement-missing](managing-agreements/includes/admin-new-agreement-missing.md)]
 
 [!INCLUDE [admin-not-able-to-manage-agreement](managing-agreements/includes/admin-not-able-to-manage-agreement.md)]
 
-## Managing super admins or admins
+[!INCLUDE [admin-old-end-date-after-renewal](managing-agreements/includes/admin-old-end-date-after-renewal.md)]
 
-[!INCLUDE [admin-expired-subs-should-be-active](managing-super-admins-or-admins/includes/admin-expired-subs-should-be-active.md)]
+[!INCLUDE [admin-status-of-agreement](managing-agreements/includes/admin-status-of-agreement.md)]
+
+## Managing super admins or admins
 
 [!INCLUDE [admin-primary-contact-not-super-admin](managing-super-admins-or-admins/includes/admin-primary-contact-not-super-admin.md)]
 
@@ -41,6 +45,7 @@ ms.date: 08/13/2021
 
 [!INCLUDE [admin-update-subscriber-sign-in-email](managing-subscribers/includes/admin-update-subscriber-sign-in-email.md)]
 
+[!INCLUDE [admin-help-transferring-subscribers-after-renewal](managing-subscribers/includes/admin-help-transferring-subscribers-after-renewal.md)]
 
 ## Signing in
 
@@ -50,3 +55,20 @@ ms.date: 08/13/2021
 
 [!INCLUDE [admin-when-i-sign-in-there-is-no-agreement](signing-in/includes/admin-when-i-sign-in-there-is-no-agreement.md)]
 
+## Purchase, renew, or cancel subscriptions
+
+### Help with purchases
+
+[!INCLUDE [admin-how-can-i-purchase-more-subscriptions](renewing-purchasing-or-canceling/help-purchasing/includes/admin-how-can-i-purchase-more-subscriptions.md)]
+
+### Help with renewals
+
+[!INCLUDE [admin-help-me-renew-subscriptions](renewing-purchasing-or-canceling/help-renewing/includes/admin-help-me-renew-subscriptions.md)]
+
+### Help with canceling
+
+[!INCLUDE [admin-help-me-cancel-monthly-annual](renewing-purchasing-or-canceling/help-canceling/includes/admin-help-me-cancel-monthly-annual.md)]
+
+### Order or purchase status
+
+[!INCLUDE [admin-view-invoice](renewing-purchasing-or-canceling/order-or-purchase-status/includes/admin-view-invoice.md)]

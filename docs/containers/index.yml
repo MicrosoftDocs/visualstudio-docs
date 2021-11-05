@@ -85,7 +85,7 @@ landingContent:
       - linkListType: quickstart
         links:
           - text: Use Bridge to Kubernetes with Visual Studio
-            url: /visualstudio/bridge/bridge-to-kubernetes
+            url: /visualstudio/bridge/overview-bridge-to-kubernetes
       - linkListType: overview
         links:
           - text: How Bridge to Kubernetes works

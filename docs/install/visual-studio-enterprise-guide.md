@@ -2,7 +2,7 @@
 title: Visual Studio enterprise guide
 description: Set up and troubleshoot Visual Studio in an enterprise environment.
 ms.date: 04/06/2021
-ms.custom: seodec18
+
 ms.topic: overview
 helpviewer_keywords:
 - network installation, Visual Studio

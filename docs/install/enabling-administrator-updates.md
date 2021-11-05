@@ -91,4 +91,4 @@ You can use the following methods to provide feedback about Visual Studio admini
 * [Microsoft Update Catalog FAQ](https://www.catalog.update.microsoft.com/faq.aspx)
 * [Microsoft Endpoint Configuration Manager (SCCM) documentation](/mem/configmgr)
 * [Import updates from Microsoft Catalog into Configuration Manager](/mem/configmgr/sum/get-started/synchronize-software-updates#import-updates-from-the-microsoft-update-catalog)
-* [Windows Server Update Services (WSUS) documentation](/windows-server/administration/windows-server-update-services/get-started-windows-server-update-services-wsus)
+* [Windows Server Update Services (WSUS) documentation](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)

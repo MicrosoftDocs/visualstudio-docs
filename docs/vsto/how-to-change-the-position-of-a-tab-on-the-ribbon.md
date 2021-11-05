@@ -51,7 +51,7 @@ ms.workload:
 
 5. Set the **OfficeId** property to the control ID of a built-in tab.
 
-     For a list of control IDs, see [Office 2010 help files: Office fluent user interface control identifiers](https://www.microsoft.com/download/details.aspx?id=6627).
+     For a list of control IDs, see [Office 2010 help files: Office fluent user interface control identifiers](https://www.microsoft.com/download/details.aspx?id=50745).
 
 ## See also
 - [Ribbon overview](../vsto/ribbon-overview.md)

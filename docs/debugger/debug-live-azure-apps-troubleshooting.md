@@ -56,7 +56,7 @@ If you have enabled Authentication/Authorization (EasyAuth) on your App Service,
 }
 ```
 
-The first route effectively secures your app domain similar to **Log in with [IdentityProvider]**. The second route exposes the SnapshotDebugger AgentLaunch endpoint outside of authentication, which performs the pre-defined action of starting the SnapshotDebugger diagnostic agent *only if* the SnapshotDebugger preinstalled site extension is enabled for your app service. For more details on the authorization.json configuration, please see [URL authorization rules](https://azure.github.io/AppService/2016/11/17/URL-Authorization-Rules.html).
+The first route effectively secures your app domain similar to **Log in with [IdentityProvider]**. The second route exposes the SnapshotDebugger AgentLaunch endpoint outside of authentication, which performs the pre-defined action of starting the SnapshotDebugger diagnostic agent *only if* the SnapshotDebugger preinstalled site extension is enabled for your app service. For more details on the authorization.json configuration, please see [URL authorization rules](https://azure.microsoft.com/updates/url-authorization-rules-in-app-service/).
 
 ### (403) Forbidden
 

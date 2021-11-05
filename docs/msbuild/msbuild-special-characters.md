@@ -32,6 +32,8 @@ MSBuild reserves some characters for special use in specific contexts. You only 
 |$|%24|Referencing properties|
 |@|%40|Referencing item lists|
 |'|%27|Conditions and other expressions|
+|(|%28|Multiple uses|
+|)|%29|Multiple uses|
 |;|%3B|List separator|
 |?|%3F|Wildcard character for file names in `Include` and `Exclude` attributes|
 |*|%2A|Wildcard character for use in file names in `Include` and `Exclude` attributes|

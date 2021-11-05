@@ -47,7 +47,7 @@ The connected service functionality adds all the needed references and connectio
 
     ![Add Azure Cosmos DB](./media/azure-cosmosdb-add-connected-service/azure-cosmosdb.png)
 
-    If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/account/free).
+    If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
 1. In the **Azure Cosmos DB** screen, select an existing Azure Cosmos DB, and select **Next**.
 

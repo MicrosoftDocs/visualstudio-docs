@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: In this tutorial, you create an app using ASP.NET Core and Vue
-ms.date: 08/09/2021
+ms.date: 09/28/2021
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -71,6 +71,21 @@ Once the project is created, you see some new and modified files:
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-vue-solution-explorer.png" alt-text="Take a look at Solution Explorer":::
 
+1. Open `launchSettings.json` from the **Properties** folder, and under the profiles section for the backend app, change the default ports to 5001 and 5003.
+
+   ```json
+   "profiles": {
+     "yourbackendapp": {
+       "commandName": "Project",
+       "launchUrl": "swagger",
+       "environmentVariables": {
+         "ASPNETCORE_ENVIRONMENT": "Development"
+       },
+       "applicationUrl": "https://localhost:5001;http://localhost:5003",
+       "dotnetRunMessages": true
+     },
+   ```
+
 ## Set the project properties
 
 1. In Solution Explorer, right-click the ASP.NET Core project and choose **Properties**.
@@ -95,7 +110,11 @@ Once the project is created, you see some new and modified files:
 
 ## Start the project
 
-Press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
+Before you start the project, make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `applicationUrl` property. (It should look similar to `https://localhost:7049`.)
+
+Then, go to the *vue.config.js* file for your Vue project. Update the target property to match the `applicationUrl` property in  *launchSettings.json*.
+
+To start the project, press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
 
 - The ASP.NET Core API project running
 - The Vue CLI running the vue-cli-service serve command

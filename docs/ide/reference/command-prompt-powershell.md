@@ -3,8 +3,8 @@ title: 'Command-line shells & prompt for developers'
 description:  Start from Tools > Command Line menu. Visual Studio Developer Command Prompt, Developer PowerShell, and terminal let you use .NET and C++ tools more easily.
 author: TerryGLee
 ms.author: tglee
-ms.date: 06/11/2021
-ms.topic: reference
+ms.date: 10/26/2021
+ms.topic: conceptual
 ms.custom: contperf-fy21q4
 helpviewer_keywords:
   - "Visual Studio command prompt"
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Visual Studio terminal"
 ms.assetid: 94fcf524-9045-4993-bfb2-e2d8bad44219
 no-loc: cmdlet
+monikerRange: vs-2019
 ---
 # Visual Studio Developer Command Prompt and Developer PowerShell
 
@@ -31,7 +32,7 @@ Starting in Visual Studio 2019 version 16.5, Visual Studio includes an integrate
 
 When you open one of the developer shells from Visual Studio, either as a separate app or in the Terminal window, it opens to the directory of your current solution (if you have a solution loaded). This behavior makes it convenient to run commands against the solution or its projects.
 
-Both shells have specific environment variables set that enable you to use command-line developer tools more easily. After opening one of these shells, you can enter the commands for different utilities without having to know where they're located. 
+Both shells have specific environment variables set that enable you to use command-line developer tools more easily. After opening one of these shells, you can enter the commands for different utilities without having to know where they're located.
 
 |Popular commands|Description|
 |--|--|
@@ -45,7 +46,6 @@ Both shells have specific environment variables set that enable you to use comma
 |[`LIB`](/cpp/build/reference/lib-reference)| C/C++ build tool|
 |[`DUMPBIN`](/cpp/build/reference/dumpbin-reference)| C/C++ build tool|
 
-
 ## Start in Visual Studio
 
 Follow these steps to open Developer Command Prompt or Developer PowerShell from within Visual Studio:
@@ -58,7 +58,7 @@ Follow these steps to open Developer Command Prompt or Developer PowerShell from
 
 ## Start from Windows menu
 
-Another way to start the shells is from the Start menu. You may have multiple command prompts, depending on the version of Visual Studio and any additional SDKs and workloads you've installed. 
+Another way to start the shells is from the Start menu. You may have multiple command prompts, depending on the version of Visual Studio and any additional SDKs and workloads you've installed.
 
 ### Windows 10
 
@@ -90,7 +90,7 @@ Another way to start the shells is from the Start menu. You may have multiple co
 
 If you have other SDKs installed, such as the [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk) or [previous versions](https://developer.microsoft.com/windows/downloads/sdk-archive), you may see additional command prompts. Check the documentation for the individual tools to determine which version of the command prompt you should use.
 
-## Start from file browser 
+## Start from file browser
 
 Usually, the shortcuts for the shells you have installed are placed in the **Start Menu** folder for Visual Studio, such as in *%ProgramData%\Microsoft\Windows\Start Menu\Programs\Visual Studio 2019\Visual Studio Tools*. But if searching for the command prompt doesn't produce the expected results, you can try to manually locate the files on your machine.
 

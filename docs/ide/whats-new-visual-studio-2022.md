@@ -1,8 +1,8 @@
 ---
-title: "What's new in Visual Studio 2022 (Preview)"
+title: "What's new in Visual Studio 2022"
 titleSuffix: ""
 description: "Learn about the new features in the preview release of Visual Studio 2022."
-ms.date: 09/17/2021
+ms.date: 10/29/2021
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -15,14 +15,14 @@ ms.topic: conceptual
 ms.workload:
   - "multiple"
 ---
-# What's new in Visual Studio 2022 (Preview)
+# What's new in Visual Studio 2022
 
-**Updated for the 17.0 Preview 4 release.** See [full release notes](/visualstudio/releases/2022/release-notes-preview/) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
+**Updated for the 17.0 Preview 5/Release Candidate (RC).** See [full release notes](/visualstudio/releases/2022/release-notes-preview/) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
 
 >[!div class="button"]
->[Download Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/vs2022/)
+>[Download Visual Studio 2022 RC](https://visualstudio.microsoft.com/downloads/)
 
-With Visual Studio, you'll always get the best-in-class tools and services available for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our newest version, currently in Preview.
+With [Visual Studio 2022 RC](https://visualstudio.microsoft.com/vs/preview/), you'll always get the best-in-class tools and services available for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our newest version!
 
 ## Performance improvements
 
@@ -44,7 +44,7 @@ Visual Studio 2022 makes it quick and easy to build modern, cloud-based applicat
 
 ### Better dev tools for C++ and .NET, and Hot Reload
 
-[Visual Studio 2022 Preview 2](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-2-is-out/) includes better cross-platform app development tools and the latest version of C++ build tools. As well, we're updating **Hot Reload** so that you can edit either C++ or .NET projects while your application is running. For more information, see the [**Speed up your .NET and C++ development with Hot Reload in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/speed-up-your-dotnet-and-cplusplus-development-with-hot-reload-in-visual-studio-2022/) blog post.
+[Visual Studio 2022 Preview 2](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-2-is-out/) includes better cross-platform app development tools and the latest version of C++ build tools, to include C++20 support. As well, we're updating **Hot Reload** so that you can edit either C++ or .NET projects while your application is running. For more information, see the [**Speed up your .NET and C++ development with Hot Reload in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/speed-up-your-dotnet-and-cplusplus-development-with-hot-reload-in-visual-studio-2022/) blog post.
 
 ### Updates for Blazor & Razor editors + Hot Reload for ASP.NET
 
@@ -70,7 +70,11 @@ If you've worked with projects hosted on different Git repositories, you might h
 
 We’re refreshing the user interface to better keep you in your flow. Some of the changes are subtle cosmetic touches that modernize the UI or reduce crowding.
 
-### Personalization improvements
+### Look & feel
+
+From new iconography to subtle color contrast ratio adjustments and a new Cascadia Code font, we're working to make Visual Studio 2022 more accessible for everyone. For all the details, see the [**We’ve upgraded the UI in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/) blog post.
+
+### Personalization
 
 One of our key focus areas is to make Visual Studio more personalized and flexible so that you can make the IDE your own. For example, [Visual Studio 2022 Preview 3](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/) offers you the ability to sync with your Windows theme. So, if you've enabled the "night light" feature there, Visual Studio uses it, too. For more info, see the [**Personalize your Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/personalize-your-visual-studio-2022/) blog post.
 
@@ -88,6 +92,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 ## See also
 
+* [Visual Studio 2022 RC (Release Candidate)](https://devblogs.microsoft.com/visualstudio/join-us-november-8th-for-the-launch-of-visual-studio-2022/)
 * [Visual Studio 2022 Preview 4](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-4-is-now-available/)
 * [Visual Studio 2022 Preview 3](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/)
 * [Visual Studio 2022 Preview 2](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-2-is-out/)

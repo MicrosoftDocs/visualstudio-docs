@@ -1,6 +1,6 @@
 ---
-title: APIs removed in Visual Studio 2022 Preview
-description: Learn about VS SDK APIs removed in Visual Studio 2022 Preview, for extension authors updating their extensions to work with Visual Studio 2022 Preview.
+title: APIs removed in Visual Studio 2022 RC
+description: Learn about VS SDK APIs removed in Visual Studio 2022 RC, for extension authors updating their extensions to work with Visual Studio 2022 RC.
 ms.date: 06/08/2021
 ms.topic: reference
 author: leslierichardson95
@@ -72,7 +72,7 @@ The `IVsTextScanner` and `IVsFullTextScanner` are being removed in Visual Studio
 
 ### Recommended updates
 
-Users of `IVsTextScanner` or `IVsFullTextScanner` should use `IVsTextLines` instead ([documentation](/dotnet/apimicrosoft.visualstudio.textmanager.interop.ivstextlines.getlinetext)).
+Users of `IVsTextScanner` or `IVsFullTextScanner` should use `IVsTextLines` instead ([documentation](/dotnet/api/microsoft.visualstudio.textmanager.interop.ivstextlines.getlinetext).
 
 ## Asynchronous solution load and lightweight solution load
 

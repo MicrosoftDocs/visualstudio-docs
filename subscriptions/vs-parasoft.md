@@ -97,4 +97,4 @@ Excludes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, MCT
 - [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-Take advantage of your own development sandbox by activating your [Azure DevTest individual credit](vs-azure.md).
+Take advantage of your own development sandbox by activating your [Azure DevTest individual credit](/azure/devtest/offer/quickstart-individual-credit).

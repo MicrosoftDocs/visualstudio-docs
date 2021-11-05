@@ -21,11 +21,9 @@ landingContent:
           - text: Deploy an ASP.NET Web App to Azure
             url: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs
           - text: Continuous deployment to Azure with Visual Studio and Git
-            url: /aspnet/core/host-and-deploy/azure-apps/azure-continuous-deployment
+            url: /azure/app-service/deploy-continuous-deployment
           - text: Continuous deployment to Azure with Azure Pipelines
             url: /azure/devops/pipelines/get-started-yaml
-          - text: Deploy an ASP.NET Web App to an Azure VM
-            url: /azure/virtual-machines/windows/publish-web-app-from-visual-studio
 
   - title: Azure App Services, Logic Apps, and Azure Functions
     linkLists:
@@ -51,7 +49,7 @@ landingContent:
         - text: Container tools in Visual Studio
           url: ../containers/overview.md
         - text: Kubernetes tools
-          url: /visualstudio/bridge/bridge-to-kubernetes
+          url: /visualstudio/bridge/overview-bridge-to-kubernetes
 
   - title: Debug Azure services and analyze performance
     linkLists:

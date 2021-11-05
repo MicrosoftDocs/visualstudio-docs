@@ -46,7 +46,7 @@ Create the following multithreaded app project to use in this tutorial:
 
    In the **Configure your new project** window, type or enter *MyThreadWalkthroughApp* in the **Project name** box. Then, choose **Next** or **Create**, whichever option is available.
 
-   For .NET Core, choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+   For .NET Core, choose either the recommended target framework or .NET 6, and then choose **Create**.
 
    ::: moniker-end
    ::: moniker range="vs-2017"

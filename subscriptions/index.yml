@@ -4,12 +4,12 @@ summary: "Visual Studio subscriptions benefits include access to developer tools
 brand: visual-studio
 metadata:
   title: Visual Studio Subscriptions
-  description: "Visual Studio subscriptions is a comprehensive set of resources for you to create, deploy, and manage great applications on your preferred platforms and devices, including Windows, iOS, Android, and Linux. Benefits of subscriptions include access to developer tools, cloud services and software, training, and support for your development and testing needs."
+  description: "Visual Studio subscriptions offer a comprehensive set of resources for you to create, deploy, and manage applications on your preferred platforms and devices, including Windows, iOS, Android, and Linux. Benefits include access to developer tools, cloud services and software, training, and support for your development and testing needs."
   ms.topic: hub-page
   author: evanwindom
   ms.author: lank
   manager: lank
-  ms.date: 10/09/2020
+  ms.date: 10/09/2021
 
 highlightedContent:
   items:
@@ -30,13 +30,13 @@ conceptualContent:
     - title: Using benefits
       links:
         - text: Azure credit
-          url: ~/vs-azure.md
+          url: /azure/devtest/offer/quickstart-individual-credit
           itemType: get-started
         - text: Software downloads
           url: ~/software-download-list.md
           itemType: get-started
       footerLink:
-        url: ~/vs-azure.md
+        url: ~/about-benefits.md
         text: See more
     - title: Popular resources
       links:
@@ -57,7 +57,7 @@ conceptualContent:
 
 tools: 
   title: Products available
-  summary: "These are just some of the products available via Visual Studio Subscriptions"
+  summary: "Products & services available via Visual Studio Subscriptions"
   items: 
     - title: Azure
       imageSrc: https://docs.microsoft.com/media/logos/logo_azure.svg
@@ -93,7 +93,7 @@ additionalContent:
       - title: Cloud services
         links:
           - text: Azure Dev/Test
-            url: ~/vs-azure-payg.md
+            url: /azure/devtest/offer/
           - text: Visual Studio App Center
             url: ~/vs-visual-studio-app-center.md
           - text: Azure DevOps Server and CAL

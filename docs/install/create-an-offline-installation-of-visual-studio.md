@@ -2,7 +2,7 @@
 title: Create an offline installation
 description: Learn how to install Visual Studio offline when you have an unreliable internet connection or low bandwidth.
 ms.date: 4/16/2021
-ms.custom: seodec18
+
 ms.topic: conceptual
 f1_keywords:
 - offline installation [Visual Studio]
@@ -117,7 +117,7 @@ Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual
 ::: moniker range="vs-2017"
 
 >[!TIP]
->If you previously downloaded a bootstrapper file and want to verify what version it is, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio build numbers and release dates](/visual-studio-build-numbers-and-release-dates.md) page.
+>If you previously downloaded a bootstrapper file and want to verify what version it is, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio build numbers and release dates](/visualstudio/releasenotes/vs2017-relnotes-history) page.
 
 ::: moniker-end
 
@@ -131,7 +131,7 @@ Start by downloading the Visual Studio 2019 bootstrapper from either the [Visual
 ::: moniker range=">=vs-2022"
 
 >[!TIP]
->If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2022 Releases](/visualstudio/releases/2022/history) page.
+>If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2022 Releases](/visualstudio/releases/2022/release-notes) page.
 
 ::: moniker-end
 

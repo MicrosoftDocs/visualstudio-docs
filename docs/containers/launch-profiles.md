@@ -1,12 +1,12 @@
 ---
-title: "Manage launch profiles for Docker Compose projects"
+title: "Launch a subset of Docker Compose services"
 description: Learn how to use Docker Compose launch profiles and control which services are launched when you use Docker Compose in Visual Studio.
 author: ghogen
 manager: jmartens
 ms.technology: vs-container-tools
 ms.devlang: dotnet
 ms.topic: how-to
-ms.date: 05/10/2021
+ms.date: 10/08/2021
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
@@ -61,13 +61,23 @@ services:
 There are a few options to open the Docker Compose launch settings dialog:
 - In Visual Studio, choose **Debug** > **Manage Docker Compose Launch Settings**:
 
+    :::moniker range="<=vs-2019"
     ![Screenshot of Debug Manage Compose Settings menu item](media/launch-settings/debug-dropdown-manage-compose.png)
+    :::moniker-end
+    :::moniker range=">=vs-2022"
+    ![Screenshot of Debug Manage Compose Settings menu item](media/tutorial-multicontainer/vs-2022/debug-dropdown-manage-compose.png)
+    :::moniker-end
 
 - Right-click on the Visual Studio `docker-compose` project and select **Manage Docker Compose Launch Settings**
 
+    :::moniker range="<=vs-2019"
     ![Screenshot of the context menu item](media/launch-settings/launch-settings-context-menu.png)
+    :::moniker-end
+    :::moniker range=">=vs-2022"
+    ![Screenshot of the context menu item](media/launch-settings/vs-2022/launch-settings-context-menu.png)
+    :::moniker-end
 
-- Use the Quick Launch (**Ctrl**+**Q**) and search for **Docker Compose** to find the aforementioned command.
+- Use the Quick Launch (**Ctrl**+**Q**) and search for **Docker Compose** to find the same command.
 
 In the example below, the `web1` Compose profile is selected, which filters the **Services** list to only the three out of five included in that profile:
 

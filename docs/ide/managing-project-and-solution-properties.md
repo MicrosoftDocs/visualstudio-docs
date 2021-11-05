@@ -16,7 +16,7 @@ ms.workload:
 Projects have properties that govern many aspects of compilation, debugging, testing and deploying. Some properties are common among all project types, and some are unique to specific languages or platforms.
 
 > [!TIP]
-> In [Visual Studio 2022 Preview](/visualstudio/releases/2022/release-notes-preview), we've added new functionality to project properties and refreshed its user interface. To learn more, see the [**Revamped Project Properties UI**](https://devblogs.microsoft.com/visualstudio/revamped-project-properties-ui/) blog post.
+> In [Visual Studio 2022 RC](/visualstudio/releases/2022/release-notes-preview), we've added new functionality to project properties and refreshed its user interface. To learn more, see the [**Revamped Project Properties UI**](https://devblogs.microsoft.com/visualstudio/revamped-project-properties-ui/) blog post.
 
 You access project properties by right-clicking the project node in **Solution Explorer** and choosing **Properties**, or by typing **properties** into the search box on the menu bar and choosing **Properties Window** from the results.
 

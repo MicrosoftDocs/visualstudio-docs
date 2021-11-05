@@ -1,7 +1,7 @@
 ---
 title: Use Design Time Data with the XAML Designer in Visual Studio
 description: Learn how to use design-time data in XAML.
-ms.date: 04/22/2021
+ms.date: 09/30/2021
 ms.topic: overview
 author: alihamie
 ms.author: tglee
@@ -208,7 +208,7 @@ Try closing and reopening the XAML file, and cleaning and rebuilding your projec
 
 ## See also
 
-- [Design Time Data with the Xamarin.Forms Previewer](/xamarin/xamarin-forms/xaml/xaml-Designer/design-time-data/)
+- [Design Time Data with the Xamarin.Forms Previewer](/xamarin/xamarin-forms/xaml/xaml-previewer/design-time-data)
 - [XAML in WPF apps](/dotnet/framework/wpf/advanced/xaml-in-wpf)
 - [XAML in UWP apps](/windows/uwp/xaml-platform/xaml-overview)
 - [XAML in Xamarin.Forms apps](/xamarin/xamarin-forms/xaml/)
