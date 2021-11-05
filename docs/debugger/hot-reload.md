@@ -46,11 +46,11 @@ The following table shows which application types support .NET Hot Reload with t
 |Application type|.NET 6 required (F5)|F5|Ctrl+F5|
 |-|-|-|-|
 |ASP.NET code behind|No|16.11|17.0|
-|ASP.NET Razor (Blazor Server and ASP.NET Core|Yes|17.0|17.0|
+|ASP.NET Razor (Blazor Server and ASP.NET Core)|Yes|17.0|17.0|
 |ASP.NET Razor (Blazor WASM)|Yes|No|17.0|
-|XAML WPF|No|16.11|17.0|
-|XAML WinUI3|No|16.11|No|
-|WinForms|No|16,11|17.0|
+|WPF|No|16.11|17.0|
+|WinUI3|No|16.11|No|
+|WinForms|No|16.11|17.0|
 |Console|No|16.11|17.0|
 |XAML .NET MAUI WinUI|Yes|17.1 Preview 1|No|
 |XAML .NET MAUI Android|Yes|17.1 Preview 1|No|
@@ -169,6 +169,9 @@ If you see the following dialog box, Hot Reload is unable to apply the current e
 ![Screenshot of the apply changes dialog box](../debugger/media/vs-2022/dotnet-hot-reload-apply-changes.png)
 
 If you select the **Always rebuild** option in the dialog box, you won't see the dialog box again in the current Visual Studio session, and Visual Studio will automatically rebuild and reload instead of showing the dialog box.
+
+> [!NOTE]
+> Currently, the standard Edit and Continue dialog is shown when using Hot Reload with the debugger.
 
 ## See also
 
