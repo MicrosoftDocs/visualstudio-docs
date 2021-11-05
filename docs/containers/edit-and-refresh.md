@@ -7,7 +7,7 @@ manager: jmartens
 ms.assetid: 480e3062-aae7-48ef-9701-e4f9ea041382
 ms.topic: how-to
 ms.workload: multiple
-ms.date: 10/08/2021
+ms.date: 10/27/2021
 ms.technology: vs-container-tools
 ---
 # Debug apps in a local Docker container
@@ -133,7 +133,12 @@ Often, changes require further inspection. You can use the debugging features of
 4. To start debugging and hit the breakpoint, press F5.
 5. Switch to Visual Studio to view the breakpoint. Inspect values.
 
+   :::moniker range="vs-2019"
    ![Screenshot showing part of the code for Index.cshtml.cs in Visual Studio with a breakpoint set to the left of a code line that is highlighted in yellow.](media/edit-and-refresh/breakpoint.png)
+   :::moniker-end
+   :::moniker range=">=vs-2022"
+   ![Screenshot showing part of the code for Index.cshtml.cs in Visual Studio with a breakpoint set to the left of a code line that is highlighted in yellow.](media/edit-and-refresh/vs-2022/breakpoint.png)
+   :::moniker-end
 
 ## Create a .NET Framework console app
 
@@ -152,10 +157,12 @@ When you use .NET Framework console app projects, the option to add Docker suppo
    ```
 
 3. Set a breakpoint to the left of the code line.
-4. Press F5 to start debugging and hit the breakpoint.
+4. Press **F5** to start debugging and hit the breakpoint.
 5. Switch to Visual Studio to view the breakpoint and inspect values.
 
+   :::moniker range="<=vs-2019"
    ![Screenshot of the code window for Program.cs in Visual Studio with a breakpoint set to the left of a code line that is highlighted in yellow.](media/edit-and-refresh/breakpoint-console.png)
+   ::: moniker-end
 
 ## Container reuse
 
