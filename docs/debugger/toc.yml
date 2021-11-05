@@ -104,8 +104,8 @@
       href: mixed-code-and-missing-information-in-the-call-stack-window.md
   - name: Pause code and continue
     items:
-    - name: .NET Hot Reload
-      href: dotnet-hot-reload.md
+    - name: Hot Reload
+      href: hot-reload.md
     - name: XAML Hot Reload
       items:
       - name: Write and debug running XAML code
