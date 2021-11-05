@@ -8,12 +8,16 @@ metadata:
   ms.prod: visual-studio-windows
   ms.technology: vs-azure
   ms.topic: landing-page
-  ms.date: 12/05/2019
+  ms.date: 10/27/2021
   ms.author: ghogen
 
 landingContent:
-  - title: Deploy to Azure App Service
+  - title: Deploy to Azure
     linkLists:
+      - linkListType: overview
+        links:
+          - text: Overview of Azure integration
+            url: overview-azure-integration.md
       - linkListType: tutorial
         links:
           - text: Deploy an ASP.NET Core app to Azure
@@ -66,6 +70,10 @@ landingContent:
 
   - title: Connected Services
     linkLists:
+    - linkListType: overview
+      links:
+        - text: Overview 
+          url: overview-connected-services.md
     - linkListType: tutorial
       links:
         - text: Azure Active Directory
