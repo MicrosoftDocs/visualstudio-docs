@@ -57,7 +57,7 @@ There are three ways to start using Git with Visual Studio to be more productive
 ::: moniker range="vs-2022"
 
 > [!NOTE]
-> Visual Studio includes a fully integrated GitHub account experience. Not only can y ou add both GitHub and GitHub Enterprise accounts to your keychain, but you can also leverage them just as you do with Microsoft accounts. For more information, see the [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md) page.
+> Visual Studio includes a fully integrated GitHub account experience. Not only can you add both GitHub and GitHub Enterprise accounts to your keychain, but you can also leverage them just as you do with Microsoft accounts. For more information, see the [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md) page.
 
 ::: moniker-end
 
