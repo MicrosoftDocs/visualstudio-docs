@@ -82,29 +82,29 @@ When using Visual Studio 2022 and starting the app with the debugger, Hot Reload
 
 Hot Reload is available without the debugger when targeting most types of .NET 6 apps, including project types such as Console, WPF, Windows Forms (WinForms), ASP.NET Core MVC, Web API, and Blazor.
 
-This feature is exclusive to .NET 6+ and those apps not targeting .NET 6 (.NET 5 or below) will not support the “no debugger” scenario and must use the debugger to get access to Hot Reload functionality.
+This feature is exclusive to .NET 6+. Those apps not targeting .NET 6 (.NET 5 or below) will not support the "no debugger" scenario and must use the debugger to get access to Hot Reload functionality.
 
-Also be aware that not all project types will be supported for the “no debugger” scenario in our first release. Specifically:
+Also, be aware that not all project types currently support the "no debugger" scenario. Specifically:
 
-- UWP apps are not supported for Hot Reload without the debugger, this is by design and there are no current plans to improve this.
-- Xamarin.Forms apps targeting iOS & Android don’t support .NET Hot Reload (regardless of if you are starting your app with or without the debugger), but will continue to support XAML Hot Reload
-- .NET MAUI apps are not supported.
+* UWP apps are not supported for Hot Reload without the debugger. This is by design, and there are no current plans to improve this.
+* Xamarin.Forms apps targeting iOS and Android don’t support .NET Hot Reload (regardless of whether you are starting your app with or without the debugger), but will continue to support XAML Hot Reload.
+* .NET MAUI apps are not supported.
 
 ## Visual Studio 2022 with a .NET 6 app
 
-Developers who are able to use both Visual Studio 2022 and work on apps that target .NET 6 will get the benefits of the most polished and capable Hot Reload experience.
+If you use both Visual Studio 2022 and work on apps that target .NET 6, you get the benefits of the most polished and capable Hot Reload experience.
 
-Highlights of what is supported:
+Supported in this scenario:
 
 * Blazor apps (Server and WebAssembly (see note))
-* Razor file editing in both Blazor and regular ASP.NET Core websites
+* Editing Razor files in both Blazor and regular ASP.NET Core websites
 * CSS Hot Reload
-* Ability to get Hot Reload support when running apps without the debugger (as described above in more detail)
+* Hot Reload support when running apps without the debugger (as described previously in more detail)
 
-Developers targeting .NET 6 will continue to get more improvements in future Visual Studio 2022 updates and .NET feature band and major releases. We’re just getting started!
+If you target .NET 6, you continue to get improvements in upcoming Visual Studio 2022 updates and .NET feature band and major releases.
 
 > [!NOTE]
-> In Visual Studio 2022 GA, Hot Reload support for Blazor WebAssembly when using the Visual Studio debugger isn’t enabled yet. You can still get Hot Reload If you start your app through Visual Studio without the debugger, and we are working to resolve this in a future Visual Studio update.
+> In Visual Studio 2022, Hot Reload support for Blazor WebAssembly when using the Visual Studio debugger isn’t enabled yet. You can still get Hot Reload If you start your app through Visual Studio without the debugger, and we are working to resolve this in a future Visual Studio update.
 
 ## Supported ASP.NET Core Scenarios
 
@@ -114,15 +114,15 @@ For ASP.NET Core developers who are targeting .NET 6, there are additional capab
 
 * **CSHTML:** Editing a Razor CSHTML file supports many types of edits.
 * **Browser Refresh:** Editing a razor file automatically refreshes the changes in your web browser when debugging. This feature was previously only available when starting the app without the debugger.
-* **CSS Hot Reload:** You can change CSS files while the app is running, and changes will be applied immediately to the running app as you type.
+* **CSS Hot Reload:** You can change CSS files while the app is running, and changes are applied immediately to the running app as you type.
 * **No Debugger:** You get Hot Reload support when using Visual Studio to start your web app without the debugger (CTRL-F5).
 
 > [!NOTE]
-> When working on a Blazor Wasm app and using Visual Studio 2022 (17.0), Hot Reload for razor pages only works when launching apps without the debugger. We will be adding debugger support in a future update.
+> When working on a Blazor Wasm app and using Visual Studio 2022 version 17.0, Hot Reload for razor pages currently only works when launching apps without the debugger.
 
 ## Supported .NET Edits
 
-The .NET Hot Reload experience is powered by the [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md) mechanism and we’ve made improvements to support additional types of edits that go beyond what was originally possible in previous versions. Improvements include:
+The .NET Hot Reload experience is powered by the [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md) mechanism. Improvements include support for additional types of edits that go beyond what was originally possible in older versions of Visual Studio. Improvements include:
 
 * Adding, updating, or deleting Custom Attributes
 * Adding or updating Record structs
@@ -134,13 +134,13 @@ The .NET Hot Reload experience is powered by the [Edit and Continue](../debugger
 * Renaming Lambda parameters
 * Renaming parameters of existing methods
 
-The above improvements are available to both Hot Reload and the Edit and Continue experiences.
+The preceding improvements are available to both Hot Reload and the Edit and Continue experiences.
 
 ## Unsupported .NET Scenarios
 
 Unsupported scenarios:
 
-* Xamarin.Forms apps won’t support .NET Hot Reload in iOS and Android scenarios. You will get some Hot Reload when targeting a UWP app. This is by design, and we don’t expect to make any further improvements. (Note: XAML Hot Reload will continues to be available and supported for Xamarin.Forms customers on the latest SDK)
+* Xamarin.Forms apps won’t support .NET Hot Reload in iOS and Android scenarios. You get partial support for Hot Reload when targeting a UWP app. This is by design, and we don’t expect to make any further improvements. (Note: XAML Hot Reload will continues to be available and supported for Xamarin.Forms customers on the latest SDK)
 * .NET MAUI apps are not supported prior to Visual Studio 2022 version 17.1 Preview 1. Starting in 17.1 Preview 1, .NET MAUI is supported, but only with the debugger attached.
 * Apps built using F# or those targeting .NET Native will not support Hot Reload.
 
@@ -152,19 +152,19 @@ You can configure .NET Hot Reload by selecting **Settings** from the **Hot Reloa
 
 Or, open **Tools** > **Options** > **Debugging** > **.NET/C++ Hot Reload**.
 
-The settings for hot reload include:
+The settings for Hot Reload include:
 
-- **Enable Hot Reload and Edit and Continue when debugging**. Enables hot reload when starting with the debugger attached (F5).
+* **Enable Hot Reload and Edit and Continue when debugging**. Enables hot reload when starting with the debugger attached (F5).
 
-- **Enable Hot Reload when starting without debugging**. Enables hot reload when starting without the debugger attached (Ctrl+F5).
+* **Enable Hot Reload when starting without debugging**. Enables hot reload when starting without the debugger attached (Ctrl+F5).
 
-- **Apply Hot Reload on File Save**. Applies code changes when you save the file.
+* **Apply Hot Reload on File Save**. Applies code changes when you save the file.
 
 ![Screenshot of settings for .NET Hot Reload](../debugger/media/vs-2022/dotnet-hot-reload-settings.png)
 
 ## Warning message
 
-If you see the following dialog box, hot reload is unable to apply the current edits without restarting. You can choose either to rebuild the app and apply changes (restart) or to continue editing. If you rebuild, all application state is lost. If you continue editing, it is possible that additional changes or corrections may cause hot reload to work again.
+If you see the following dialog box, Hot Reload is unable to apply the current edits without restarting. You can choose either to rebuild the app and apply changes (restart) or to continue editing. If you rebuild, all application state is lost. If you continue editing, it is possible that additional changes or corrections may cause hot reload to work again.
 
 ![Screenshot of the apply changes dialog box](../debugger/media/vs-2022/dotnet-hot-reload-apply-changes.png)
 
