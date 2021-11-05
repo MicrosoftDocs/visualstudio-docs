@@ -4,15 +4,16 @@ titleSuffix: ""
 description: Browse any Git repository in Visual Studio using the Git Repository window.
 ms.date: 11/1/2021
 ms.topic: how-to
-author: Taysser Gherfal
+author: Taysser-Gherfal
 ms.author: tagherfa
-ms.manager: anthc
+ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ---
 # Browse Git repositories in Visual Studio
 
 The Git Changes window provides a seamless way to interact with Git while coding without having to switch away from your code; however, there are times when it makes more sense to focus on your Git repository. For example, you might need to get a good picture of what your team has been working on or maybe compare two commits to investigate a bug.
+
 ## Browse local and remote branches
 
 To get started, open the Git Repository window by clicking **Git Repository** on the View menu. You can also access the Git Repository window by clicking on the **outgoing/incoming** links in the Git changes window and the status bar.
@@ -32,9 +33,10 @@ You can browse any local or remote branches without having to switch your branch
 
 > [!TIP]
 > To display your commit in full screen, detach your commit tab and maximize the commit window using the **maximize button**. You can also select your favorite diff configuration by clicking the **Diff Configuration Gear**. 
-:::image type="content" source="media/vs-2022/Git-Repository-CommitDetails-FullScreen.png" alt-text="Full Screen Commit Details with diff configurations":::
+>:::image type="content" source="media/vs-2022/Git-Repository-CommitDetails-FullScreen.png" alt-text="Full Screen Commit Details with diff configurations":::
 
 ## Compare Commits
+
 To compare between any two commits in your branch, use the **Ctrl key** on your keyboard to select the two commits you would like to compare. Then right click on one of them and chose the **Compare Commits** option.
 
 :::image type="content" source="media/vs-2022/Git-Repository-CompareCommitsOption.png" alt-text="Compare between two commits":::

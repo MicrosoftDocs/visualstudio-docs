@@ -4,17 +4,20 @@ titleSuffix: ""
 description: Understanding, preventing and resolving merge conflicts in VS.
 ms.date: 11/2/2021
 ms.topic: how-to
-author: Taysser Gherfal
+author: Taysser-Gherfal
 ms.author: tagherfa
-ms.manager: anthc
+ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ---
 # Resolve merge conflicts in Visual Studio
+
 When you merge one branch into another, file changes from commits in one branch can conflict with the changes in the other. Git attempts to resolve these changes by using the history in your repo to determine what the merged files should look like. When it isn't clear how to merge changes, Git halts the merge and tells you which files conflict.
 
 ## Understand merge conflicts
+
 The following image shows a very basic example of how changes conflict in Git. Both the main and bugfix branch make updates to the same lines of source code.
+
 :::image type="content" source="media/vs-2022/Git-Conflicts-Understand1.png" alt-text="Merge conflict":::
 
 If you try to merge the bugfix branch into main, Git can't determine which changes to use in the merged version. You may want to keep the changes in the main branch, the bugfix branch, or some combination of the two. Resolve this conflict with a merge commit on the main branch that reconciles the conflicting changes between the two branches.
@@ -24,20 +27,28 @@ If you try to merge the bugfix branch into main, Git can't determine which chang
 The most common merge conflict situation is when you pull updates from a remote branch to your local branch, for example from origin/bugfix into your local bugfix branch. Resolve these conflicts in the same way - create a merge commit on your local branch reconciling the changes and complete the merge.
 
 ## Preventing merge conflicts
+
 Git is very good at automatically merging file changes in most circumstances, provided that the file contents don't change dramatically between commits. Consider rebasing branches before you open up a pull request if your branch is far behind your main branch. Rebased branches will merge into your main branch without conflicts.
 
 ## Resolve merge conflicts
+
 - If you are collaborating with others on the same branch, you might also get merge conflicts when pushing your changes. 
+
 :::image type="content" source="media/vs-2022/Git-Conflicts-Push.png" alt-text="Merge conflict after a push":::
+
 - When pushing your changes, Visual Studio detects if the local branch you have been working on is behind its remote tracking branch and gives you a number of options to choose from.
+
 :::image type="content" source="media/vs-2022/Git-Conflicts-Pull-Push.png" alt-text="Local branch behind remote branch":::
+
 > [!NOTE]
 > You can enable Force Push if your remote repository supports it by enabling it through **Git > Settings**.
 
-- Let’s choose to **Pull then Push** to include changes introduced to the remote repository. If there are any merge conflict(s) when pulling changes or attempting to merge two branches, Visual Studio let’s us know on the Git changes window, the Git repository window and on any documents with conflicts. 
+- Let’s choose to **Pull then Push** to include changes introduced to the remote repository. If there are any merge conflict(s) when pulling changes or attempting to merge two branches, Visual Studio let’s us know on the Git changes window, the Git repository window and on any documents with conflicts.
+
 :::image type="content" source="media/vs-2022/Git-Conflicts-Notification.png" alt-text="Merge conflict notification":::
 
 - The Git Changes window shows a list of documents with conflicts under Unmerged Changes. To start resolving conflicts, you can double click on the document you would like to resolve or if you have a document with conflicts opened in the editor, you can click Open Merge Editor.
+
 :::image type="content" source="media/vs-2022/Git-Conflicts-Status.png" alt-text="Merge conflict status":::
 
 - Once you get the Merge Editor open, you can start resolving your conflict by using any of the following methods: 
@@ -49,18 +60,20 @@ Git is very good at automatically merging file changes in most circumstances, pr
 
 > [!TIP]
 > If you don’t like the Merge Editor default layout, feel free to change it using the gear drop down menu. For example, this is what the Vertical View look like:
-:::image type="content" source="media/vs-2022/Git-Conflicts-Layout.png" alt-text="Merge Editor Layout Options":::
-:::image type="content" source="media/vs-2022/Git-Conflicts-VerticalView.png" alt-text="Vertical merge editor UI":::
+> :::image type="content" source="media/vs-2022/Git-Conflicts-Layout.png" alt-text="Merge Editor Layout Options":::
+> :::image type="content" source="media/vs-2022/Git-Conflicts-VerticalView.png" alt-text="Vertical merge editor UI":::
 
 - When done resolving your conflicts, click **Accept Merge**. Repeat this for all conflicting files.
+
 :::image type="content" source="media/vs-2022/Git-Conflicts-AcceptMerge.png" alt-text="Accept Merge Conflict":::
 
 - Use the Git Changes window to create a merge commit and resolve the conflict.
+
 :::image type="content" source="media/vs-2022/Git-Conflicts-Commit.png" alt-text="Create a merge commit":::
 
 > [!NOTE]
 > If you need to keep all of your changes to a document, you can right click it under the Unmerged Changes section and click on **Keep Current (Local)** without having to open the Merge Editor. 
-:::image type="content" source="media/vs-2022/Git-Conflicts-KeepChanges.png" alt-text="Keep current and take incoming":::
+>:::image type="content" source="media/vs-2022/Git-Conflicts-KeepChanges.png" alt-text="Keep current and take incoming":::
 
 ## Next steps
 

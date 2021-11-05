@@ -18,6 +18,12 @@
     href: git-clone-repository.md
   - name: Create a repo
     href: git-create-repository.md
+  - name: Browse a repo
+    href: git-browse-repository.md
+  - name: Manage a repo
+    href: git-manage-repository.md
+  - name: Resolve merge conflicts
+    href: git-resolve-conflicts.md
   - name: Get started with Git & GitHub
     href: /learn/modules/visual-studio-github-push/
 - name: What's new
