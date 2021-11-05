@@ -33,7 +33,7 @@ Git is the most widely used modern version control system, so whether you're a p
 
 ## How to use Git in Visual Studio
 
-::: moniker range="vs-2019"
+::: moniker range="<=vs-2019"
 
 We'll walk you through how to use the new Git experience in Visual Studio, but if you'd like to take a quick tour first, check out the following video: <br><br>*Video length: 5.27 minutes*
 
@@ -47,7 +47,7 @@ There are three ways to start using Git with Visual Studio to be more productive
 - [Create a new Git repository](#create-a-new-git-repository). If your code is not associated with Git, you can create a new Git repository.
 - [Clone an existing Git repository](#clone-an-existing-git-repository). If the code that you would like to work on is not on your machine, you can clone any existing remote repositories.
 
-::: moniker range="vs-2019"
+::: moniker range="<=vs-2019"
 
 > [!NOTE]
 > Starting with Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes-v16.8), we include a fully integrated GitHub account experience. You can now add both GitHub and GitHub Enterprise accounts to your keychain. You can add and leverage them just as you do with Microsoft accounts, which means that you'll have an easier time accessing your GitHub resources across Visual Studio. For more information, see the [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md) page.
@@ -62,7 +62,7 @@ If your code is not associated with Git, you can start by creating a new Git rep
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range="<=vs-2019"
 
 If your code is not associated with Git, you can start by creating a new Git repository. To do so, select **Git** > **Create Git Repository** from the menu bar. Then, in the **Create a Git repository** dialog box, enter your information.
 
@@ -85,7 +85,7 @@ Visual Studio includes a straightforward clone experience. For a step-by-step gu
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range="<=vs-2019"
 
 Visual Studio includes a straightforward clone experience. If you know the URL of the repository that you would like to clone, you can paste the URL in the **Repository location** section and then choose the disk location you would like Visual Studio to clone to.
 
@@ -224,7 +224,7 @@ To personalize and customize your Git settings at a repository level as well as 
 
 :::image type="content" source="media/git-options-settings.png" alt-text="The Options dialog box where you can choose personalization and customization settings in Visual Studio IDE ":::
 
-::: moniker range="vs-2019"
+::: moniker range="<=vs-2019"
 
 ## How to use the full Team Explorer experience in Visual Studio
 
@@ -236,7 +236,7 @@ The new Git experience is the default version control system in Visual Studio 20
 
 ## What's next
 
-::: moniker range="vs-2019"
+::: moniker range="<=vs-2019"
 
 While the new Git experience is now on by default starting with Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), we continue to add new features to enhance the experience. If you'd like to check out new updates to the Git experience in a Preview release, you can download and install it from the [Visual Studio 2022 Preview](https://aka.ms/vspreview/) page.
 
@@ -253,7 +253,7 @@ We continue to add new features to enhance the Git experience in Visual Studio. 
 
 ## See also
 
-::: moniker range="vs-2019"
+::: moniker range="<=vs-2019"
 
 - [Get Started with Git and GitHub in Visual Studio 2019](/learn/modules/visual-studio-github-push/) tutorial on Microsoft Learn
 - [Getting started with Git in Visual Studio](https://www.youtube.com/watch?v=GCZ9x3yqkyc) video on YouTube
