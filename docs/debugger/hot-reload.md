@@ -59,7 +59,7 @@ The following table shows which application types support .NET Hot Reload with t
 |XAML + Blazor .NET MAUI Android|Yes|17.1 Preview 1|No|
 |XAML + Blazor .NET MAUI iOS|Yes|17.1 Preview 1|No|
 
-The types of edits you can make with hot reload are determined by the runtime, not by the method you used to start the application (F5 or Ctrl+F5).
+The types of edits you can make with Hot Reload are determined by the runtime, not by the method you used to start the application (F5 or Ctrl+F5).
 
 In the following sections, we’ll expand on the above summary and dive into more details.
 
@@ -71,18 +71,16 @@ This experience is powered by native Edit and Continue. For supported edits, see
 
 ## Visual Studio 2022 with a .NET app, when using the debugger
 
-When using Visual Studio 2022 and starting the app with the debugger, Hot Reload works with most app frameworks, including typical app types such as Console, Windows Forms (WinForms), WPF, UWP, WinUI 3 (see note), and most types of ASP.NET web projects (for code-behind edits) including ASP.NET MVC, Web API and even older Web Forms projects. This list is also just an example. The real answer is anywhere you have .NET and you’re using the Visual Studio managed debugger, you should get basic Hot Reload support.
-
-This means that even projects such as Azure Functions will work great in this scenario. We encourage you to try your combination and let us know if you find any problems.
+When using Visual Studio 2022 and starting the app with the debugger, Hot Reload works with most app frameworks, including typical app types such as Console, Windows Forms (WinForms), WPF, UWP, WinUI 3 (see note), and most types of ASP.NET web projects (for code-behind edits) including ASP.NET MVC, Web API, and even older Web Forms projects. These are examples. Anywhere you have .NET and you’re using the Visual Studio managed debugger, you should get basic Hot Reload support. This fact means that even projects such as Azure Functions work great in this scenario.
 
 > [!NOTE]
-> WinUI 3 by default uses mixed mode debugging which does not support Hot Reload. You can modify this in project settings by enabling the Managed Debugger which will enable Hot Reload to work properly.
+> WinUI 3 by default uses mixed mode debugging, which does not support Hot Reload. You can modify this in project settings by enabling the Managed Debugger, which enables Hot Reload to work properly.
 
 .NET MAUI apps are supported starting in Visual Studio 2022 version 17.1 Preview 1.
 
 ## Visual Studio 2022 with a .NET app, but not using the debugger
 
-Hot Reload is now available without the debugger when targeting most types of .NET 6 apps, including project types such as Console, WPF, Windows Forms (WinForms), ASP.NET Core MVC, Web API and Blazor. We know some developers have good reason or preference to start their apps without the debugger and we hope this extra feature will give them value for little to no impact on startup time.
+Hot Reload is available without the debugger when targeting most types of .NET 6 apps, including project types such as Console, WPF, Windows Forms (WinForms), ASP.NET Core MVC, Web API, and Blazor.
 
 This feature is exclusive to .NET 6+ and those apps not targeting .NET 6 (.NET 5 or below) will not support the “no debugger” scenario and must use the debugger to get access to Hot Reload functionality.
 
