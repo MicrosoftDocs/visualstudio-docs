@@ -27,21 +27,21 @@ The Git repository window contains 3 main sections as indicated in the preceding
 
 You can browse any local or remote branches without having to switch your branch and when you find a commit that you would like to focus on, just click the **Open in New Tab** button to open the commit in a different tab or maximize it in a different screen as shown here.
 
-:::image type="content" source="media/vs-2022/git-repository-open_new_tab.png" alt-text="Screenshot of how to open in new tab":::
+:::image type="content" source="media/vs-2022/git-repository-open-new-tab.png" alt-text="Screenshot of how to open in new tab":::
 
-:::image type="content" source="media/vs-2022/git-repository-details_tab.png" alt-text="Screenshot of commit details tab":::
+:::image type="content" source="media/vs-2022/git-repository-details-tab.png" alt-text="Screenshot of commit details tab":::
 
 > [!TIP]
 > To display your commit in full screen, detach your commit tab and maximize the commit window using the **maximize button**. You can also select your favorite diff configuration by clicking the **Diff Configuration Gear**. 
->:::image type="content" source="media/vs-2022/git-repository-commit_details-fullscreen.png" alt-text="Screenshot of full Screen Commit Details with diff configurations":::
+>:::image type="content" source="media/vs-2022/git-repository-commit-details-full-screen.png" alt-text="Screenshot of full Screen Commit Details with diff configurations":::
 
 ## Compare commits
 
 To compare between any two commits in your branch, use the **Ctrl key** on your keyboard to select the two commits you would like to compare. Then right click on one of them and chose the **Compare Commits** option.
 
-:::image type="content" source="media/vs-2022/git-repository-compare_commits_option.png" alt-text="Screenshot of how to compare between two commits":::
+:::image type="content" source="media/vs-2022/git-repository-compare-commits-option.png" alt-text="Screenshot of how to compare between two commits":::
 
-:::image type="content" source="media/vs-2022/git-repository-compare_commits_ui.png" alt-text="Screenshot of compare commits UI":::
+:::image type="content" source="media/vs-2022/git-repository-compare-commits-ui.png" alt-text="Screenshot of compare commits UI":::
 
 > [!TIP]
 >Similar to Commit Details, you can use the **Open in New Tab** button to open the Compare Commit UI in a different tab or maximize it in a different screen.
