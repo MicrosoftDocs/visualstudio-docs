@@ -22,7 +22,7 @@ The following image shows a very basic example of how changes conflict in Git. B
 
 If you try to merge the bugfix branch into main, Git can't determine which changes to use in the merged version. You may want to keep the changes in the main branch, the bugfix branch, or some combination of the two. Resolve this conflict with a merge commit on the main branch that reconciles the conflicting changes between the two branches.
 
-:::image type="content" source="media/vs-2022/git-conflicts-understand2.png" alt-text="Diagram showing merge conflict":::
+:::image type="content" source="media/vs-2022/git-conflicts-understand2.png" alt-text="Diagram showing resolving a conflict with a merge commit":::
 
 The most common merge conflict situation is when you pull updates from a remote branch to your local branch, for example from origin/bugfix into your local bugfix branch. Resolve these conflicts in the same way - create a merge commit on your local branch reconciling the changes and complete the merge.
 
