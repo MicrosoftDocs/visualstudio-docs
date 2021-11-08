@@ -52,7 +52,7 @@ landingContent:
             url: git-fetch-pull-sync.md
 
   # Card
-  - title: Manage your repo
+  - title: Repo management
     linkLists:
       - linkListType: how-to-guide
         links:
@@ -83,7 +83,7 @@ landingContent:
           - text: Multi-repo support in Visual Studio 2022
             url: https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/
           - text: Visual Studio 2022 release notes
-            url: /visualstudio/releases/2022/release-notes-preview/
+            url: /visualstudio/releases/2022/release-notes/
           - text: Enhanced productivity with Git in Visual Studio 2019
             url: https://devblogs.microsoft.com/visualstudio/enhanced-productivity-with-git-in-visual-studio/
           - text: Visual Studio 2019 release notes
