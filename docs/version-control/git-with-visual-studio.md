@@ -100,13 +100,9 @@ Visual Studio includes a straightforward clone experience. If you know the URL o
 
 If you don’t know the repository URL, Visual Studio makes it easy to browse to and then clone your existing GitHub or Azure DevOps repository.
 
-::: moniker-end
-
 ### Open an existing local repository
 
 After you’ve cloned a repository or created one, Visual Studio detects the Git repository and adds it to your list of **Local Repositories** in the Git menu. From here, you can quickly access and switch between your Git repositories.
-
-::: moniker range="<=vs-2019"
 
 :::image type="content" source="media/git-local-repositories.png" alt-text="The Local Repositories option from the Git menu in Visual Studio ":::
 

@@ -38,6 +38,10 @@ Visual Studio makes it easy to clone a repo right from the IDE. Here's how.
 
     :::image type="content" source="media/vs-2022/git-menu-create-git-repo-push-code.png" alt-text="Screenshot of a user's GitHub info entered by using the Create Git Repository window.":::
 
+### Open an existing local repository
+
+After you’ve created a repo or [cloned one](git-clone-repository.md), Visual Studio detects the Git repository and adds it to your list of **Local Repositories** in the Git menu. From there, you can quickly access and switch between your Git repositories.
+
 ## Create an Azure DevOps repo
 
 1. Open Visual Studio, and then select **Create a new project**.
