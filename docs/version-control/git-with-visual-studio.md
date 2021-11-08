@@ -206,7 +206,11 @@ You can also create a new branch. The equivalent command for this action is `git
 
 Creating a new branch is as simple as entering the branch name and basing it off an existing branch.
 
+::: moniker range="<=vs-2019"
+
 :::image type="content" source="media/git-changes-create-new-branch.png" alt-text="The Create a New Branch dialog box in Visual Studio ":::
+
+::: moniker-end
 
 You can choose an existing local or remote branch as the base. The **Checkout branch** checkbox automatically switches you to the newly created branch. The equivalent command for this action is `git checkout -b <new-branch><existing-branch>`.
 
@@ -222,11 +226,19 @@ When you select **Manage Branches** from the **Git** menu, you’ll see the bran
 
 When you fetch a branch, the **Git Changes** window has an indicator under the branch drop-down, which displays the number of unpulled commits from the remote branch. This indicator also shows you the number of unpushed local commits.
 
+::: moniker range="<=vs-2019"
+
 :::image type="content" source="media/git-repo-drop-down-indicator.png" alt-text="The Git Changes window that shows the indicator drop-down UI element in Visual Studio ":::
+
+::: moniker-end
 
 The indicator also functions as a link to take you to the commit history of that branch in the **Git Repository** window. The top of the history now displays the details of these incoming and outgoing commits. From here, you can also decide to Pull or Push the commits.
 
+::: moniker range="<=vs-2019"
+
 :::image type="content" source="media/git-branch-commit-history.png" alt-text="The Git Repository window that shows the commit history of a branch in Visual Studio ":::
+
+::: moniker-end
 
 #### Commit Details
 
