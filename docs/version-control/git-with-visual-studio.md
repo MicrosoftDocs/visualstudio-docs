@@ -2,7 +2,7 @@
 title: The Git experience in Visual Studio
 titleSuffix: ""
 description: Learn how the new integrated Git experience in Visual Studio can help you be more productive.
-ms.date: 11/05/2021
+ms.date: 11/08/2021
 ms.topic: overview
 ms.author: tglee
 author: TerryGLee
@@ -106,7 +106,11 @@ If you don’t know the repository URL, Visual Studio makes it easy to browse to
 
 After you’ve cloned a repository or created one, Visual Studio detects the Git repository and adds it to your list of **Local Repositories** in the Git menu. From here, you can quickly access and switch between your Git repositories.
 
+::: moniker range="<=vs-2019"
+
 :::image type="content" source="media/git-local-repositories.png" alt-text="The Local Repositories option from the Git menu in Visual Studio ":::
+
+::: moniker-end
 
 ## View files in Solution Explorer
 
@@ -142,7 +146,11 @@ Git tracks file changes in your repo as you work, and separates the files in you
 
 As you do your work, Visual Studio keeps track of the file changes to your project in the **Changes** section of the **Git Changes** window.
 
+::: moniker range="<=vs-2019"
+
 :::image type="content" source="media/git-changes-window.png" alt-text="The Git Changes window in Visual Studio.":::
+
+::: moniker-end
 
 When you are ready to stage changes, click the **+** (plus) button on each file you want to stage, or right-click a file and then select **Stage**. You can also stage all your modified files with one click by using the stage all **+** (plus) button at the top of the **Changes** section.
 
@@ -152,7 +160,11 @@ You can also choose not to stage your modified files by skipping the staging are
 
 Visual Studio also makes it easy to commit and sync with one click by using the **Commit All and Push** and **Commit All and Sync** shortcuts. When you double-click any file in the **Changes** and the **Staged changes** sections, you can see a line-by-line comparison with the unmodified version of the file.
 
+::: moniker range="<=vs-2019"
+
 :::image type="content" source="media/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio ":::
+
+::: moniker-end
 
 ::: moniker range="vs-2022"
 
@@ -172,11 +184,19 @@ Visual Studio also makes it easy to commit and sync with one click by using the 
 
 Visual Studio displays the current branch in the selector at the top of the **Git Changes** window.
 
+::: moniker range="<=vs-2019"
+
 :::image type="content" source="media/git-changes-current-branch-selector.png" alt-text="The current branches that you can view by using the selector at the top of the Git Changes selector in Visual Studio ":::
+
+::: moniker-end
 
 The current branch is also available in the status bar on the bottom-right corner of the Visual Studio IDE.
 
+::: moniker range="<=vs-2019"
+
 :::image type="content" source="media/git-changes-current-branch-status-bar.png" alt-text="The current branches that you can view by using the status bar at the bottom-right corner in the Visual Studio IDE ":::
+
+::: moniker-end
 
 From both locations, you can switch between existing branches.
 
@@ -186,7 +206,11 @@ You can also create a new branch. The equivalent command for this action is `git
 
 Creating a new branch is as simple as entering the branch name and basing it off an existing branch.
 
+::: moniker range="<=vs-2019"
+
 :::image type="content" source="media/git-changes-create-new-branch.png" alt-text="The Create a New Branch dialog box in Visual Studio ":::
+
+::: moniker-end
 
 You can choose an existing local or remote branch as the base. The **Checkout branch** checkbox automatically switches you to the newly created branch. The equivalent command for this action is `git checkout -b <new-branch><existing-branch>`.
 
@@ -202,17 +226,29 @@ When you select **Manage Branches** from the **Git** menu, you’ll see the bran
 
 When you fetch a branch, the **Git Changes** window has an indicator under the branch drop-down, which displays the number of unpulled commits from the remote branch. This indicator also shows you the number of unpushed local commits.
 
+::: moniker range="<=vs-2019"
+
 :::image type="content" source="media/git-repo-drop-down-indicator.png" alt-text="The Git Changes window that shows the indicator drop-down UI element in Visual Studio ":::
+
+::: moniker-end
 
 The indicator also functions as a link to take you to the commit history of that branch in the **Git Repository** window. The top of the history now displays the details of these incoming and outgoing commits. From here, you can also decide to Pull or Push the commits.
 
+::: moniker range="<=vs-2019"
+
 :::image type="content" source="media/git-branch-commit-history.png" alt-text="The Git Repository window that shows the commit history of a branch in Visual Studio ":::
+
+::: moniker-end
 
 #### Commit Details
 
 When you double-click a **Commit**, Visual Studio opens its details in a separate tool window. From here you can revert the commit, reset the commit, amend the commit message, or create a tag on the commit. When you click a changed file in the commit, Visual Studio opens the side-by-side **Diff** view of the commit and its parent.
 
+::: moniker range="<=vs-2019"
+
 :::image type="content" source="media/git-branch-commit-details.png" alt-text="The Commit Details dialog box in Visual Studio ":::
+
+::: moniker-end
 
 ## Handle merge conflicts
 
