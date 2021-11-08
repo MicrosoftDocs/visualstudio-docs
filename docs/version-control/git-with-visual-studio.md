@@ -244,7 +244,11 @@ The indicator also functions as a link to take you to the commit history of that
 
 When you double-click a **Commit**, Visual Studio opens its details in a separate tool window. From here you can revert the commit, reset the commit, amend the commit message, or create a tag on the commit. When you click a changed file in the commit, Visual Studio opens the side-by-side **Diff** view of the commit and its parent.
 
+::: moniker range="<=vs-2019"
+
 :::image type="content" source="media/git-branch-commit-details.png" alt-text="The Commit Details dialog box in Visual Studio ":::
+
+::: moniker-end
 
 ## Handle merge conflicts
 
