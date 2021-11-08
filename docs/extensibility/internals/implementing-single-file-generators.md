@@ -3,7 +3,7 @@ title: Implementing Single-File Generators | Microsoft Docs
 description: Learn how to use a custom tool that implements the IVsSingleFileGenerator interface to extend Visual Basic and Visual C# project systems in Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - custom tools, implementing
 - projects [Visual Studio SDK], extensibility
@@ -12,6 +12,7 @@ ms.assetid: fe9ef6b6-4690-4c2c-872c-301c980d17fe
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

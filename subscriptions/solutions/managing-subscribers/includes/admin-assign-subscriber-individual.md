@@ -1,18 +1,18 @@
 ---
-title: How do I add a single user to an agreement?
+title: How do I assign a subscription?
 description: Super admin or admin is looking for help on how to add a single user.
 ms.topic: include
 ms.assetid: bd97b69d-f07e-43aa-b6a0-82c4633b8d88
-author: CaityBuschlen 
-ms.author: cabuschl 
+author: CaityBuschlen
+ms.author: cabuschl
 ms.date: 06/01/2021
-user.type: admin 
-tags:  
-subscription.type: vl, cloud, retail, partner 
+user.type: admin
+tags: assign
+subscription.type: vl, cloud, retail, partner
 sap.id: b84fffb5-3363-eb7d-224e-1c63faf4067b
 ---
 
-## How do I add a single user to my agreement?
+## How do I assign a subscription?
 
 As a super admin or admin, you can assign an individual subscriber by following these steps: 
 1. Make sure you’re looking at the correct agreement on the left above the subscriber grid.
@@ -21,7 +21,7 @@ As a super admin or admin, you can assign an individual subscriber by following 
 
 ## Azure Active Directory (Azure AD) 
 
-The admin must be a member of the Azure AZ tenant to use this method.
+The admin must be a member of the Azure AD tenant to use this method.
 
 1. Confirm you have the correct tenant selected in the upper-right corner.
 2. Make sure you’re looking at the correct agreement on the left above the subscriber grid.

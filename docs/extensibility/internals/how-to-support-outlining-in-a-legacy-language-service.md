@@ -3,7 +3,7 @@ title: 'How to: Support Outlining in a Legacy Language Service | Microsoft Docs'
 description: Learn how to provide support for outlining, expanding or collapsing different regions of text, in a legacy language service.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], collapse to definitions command
 - language services, supporting Collapse to Definitions command
@@ -12,6 +12,7 @@ ms.assetid: bb6e74c3-93e4-4ef7-afc7-1c9b342f083b
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

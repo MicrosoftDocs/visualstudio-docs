@@ -4,7 +4,7 @@ author: ghogen
 description: Overview of the Container Tools build and debugging process
 ms.author: ghogen
 ms.date: 03/15/2021
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 ms.topic: conceptual
 ---
 # How Visual Studio builds containerized apps
@@ -26,7 +26,7 @@ EXPOSE 80
 EXPOSE 443
 ```
 
-The lines in the Dockerfile begin with the Debian image from Microsoft Container Registry (mcr.microsoft.com) and create an intermediate image `base` that exposes ports 80 and 443, and sets the working directory to `/app`.
+The lines in the Dockerfile begin with the ASP.NET image from Microsoft Container Registry (mcr.microsoft.com) and create an intermediate image `base` that exposes ports 80 and 443, and sets the working directory to `/app`.
 
 The next stage is `build`, which appears as follows:
 
@@ -97,7 +97,9 @@ Warmup will only happen in **Fast** mode, so the running container will have the
 
 ## Volume mapping
 
-For debugging to work in containers, Visual Studio uses volume mapping to map the debugger and NuGet folders from the host machine. Volume mapping is described in the Docker documentation [here](https://docs.docker.com/storage/volumes/). Here are the volumes that are mounted in your container:
+For debugging to work in containers, Visual Studio uses volume mapping to map the debugger and NuGet folders from the host machine. Volume mapping is described in the Docker documentation [here](https://docs.docker.com/storage/volumes/). You can view the volume mappings for a container by using the [Containers window in Visual Studio](view-and-diagnose-containers.md).
+
+Here are the volumes that are mounted in your container:
 
 |Volume|Description|
 |-|-|

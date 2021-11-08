@@ -11,6 +11,7 @@ ms.assetid: b0b53fae-7007-4ad9-a604-21685937622f
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Create a diagnostic data adapter to collect custom data or affect a test machine
 

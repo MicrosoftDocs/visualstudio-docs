@@ -3,7 +3,7 @@ title: Project Modeling | Microsoft Docs
 description: Learn about the standard project objects that are required to create automation for your new project type and the path that project automation follows.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - automation [Visual Studio SDK], implementing project objects
 - project models, automation
@@ -11,6 +11,7 @@ ms.assetid: c8db8fdb-88c1-4b12-86fe-f3c30a18f9ee
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

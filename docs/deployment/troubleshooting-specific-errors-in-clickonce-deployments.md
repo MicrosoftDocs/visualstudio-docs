@@ -19,6 +19,7 @@ ms.assetid: 22dfe8f1-8271-4708-9c25-6bbb13920ac8
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-deployment
 ms.workload: 
   - multiple
 ---
@@ -98,7 +99,7 @@ This article lists the following common errors that can occur when you deploy a 
  If you are publishing with a URL, ensure that the destination computer has FrontPage Server Extensions enabled.
 
 #### Error message: Unable to create the Web site '\<site>'. The components for communicating with FrontPage Server Extensions are not installed.
- Ensure that you have the Microsoft Visual Studio Web Authoring Component installed on the machine that you are publishing from. For Express users, this component is not installed by default. For more information, see [http://go.microsoft.com/fwlink/?LinkId=102310](https://support.microsoft.com/help/945358).
+ Ensure that you have the Microsoft Visual Studio Web Authoring Component installed on the machine that you are publishing from. For Express users, this component is not installed by default.
 
 #### Error message: Could not find file 'Microsoft.Windows.Common-Controls, Version=6.0.0.0, Culture=*, PublicKeyToken=6595b64144ccf1df, ProcessorArchitecture=\*, Type=win32'
  This error message appears when you attempt to publish a WPF application with visual styles enabled. To resolve this issue, see [How to: Publish a WPF Application with Visual Styles Enabled](../deployment/how-to-publish-a-wpf-application-with-visual-styles-enabled.md).

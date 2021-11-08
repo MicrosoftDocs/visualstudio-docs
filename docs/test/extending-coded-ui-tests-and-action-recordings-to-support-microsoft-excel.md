@@ -6,6 +6,7 @@ ms.date: 11/04/2016
 ms.topic: how-to
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ms.workload: 
   - multiple
 author: mikejo5000
@@ -20,7 +21,7 @@ The testing framework for coded UI tests and action recordings does not support 
 
 ## Sample extension to test Microsoft Excel
 
-This [blog post](/archive/blogs/gautamg/3-introducing-sample-excel-extension) contains a link to a [sample extension](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Components.PostAttachments/00/09/94/38/24/ExcelPluginSample.zip) for the coded UI test framework. You can also view the entire [blog post series for coded UI test extensibility](/archive/blogs/gautamg/series-on-coded-ui-test-extensibility).
+This [blog post](/archive/blogs/gautamg/3-introducing-sample-excel-extension) contains a link to a sample extension for the coded UI test framework. You can also view the entire [blog post series for coded UI test extensibility](/archive/blogs/gautamg/series-on-coded-ui-test-extensibility).
 
 > [!NOTE]
 > The sample is intended for use with Microsoft Excel 2010. It may or may not work with other versions of Excel.

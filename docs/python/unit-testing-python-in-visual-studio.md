@@ -3,10 +3,11 @@ title: Unit test Python code
 description: Setting up unit testing for Python code in Visual Studio takes full advantage of Test Explorer features to discover, run, and debug tests.
 ms.date: 09/18/2019
 ms.topic: how-to
-author: JoshuaPartlow
-ms.author: joshuapa
+author: rjmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
-ms.custom: seodec18
+ms.technology: vs-python
+
 ms.workload:
   - python
   - data-science

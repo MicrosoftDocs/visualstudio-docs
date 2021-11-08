@@ -2,12 +2,13 @@
 title: Creating a Software Development Kit | Microsoft Docs
 description: Learn about the general infrastructure of SDKs and how to create a platform SDK and an extension SDK.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 08/31/2021
 ms.topic: how-to
 ms.assetid: 8496afb4-1573-4585-ac67-c3d58b568a12
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
@@ -134,24 +135,23 @@ Extension SDKs have the following installation layout:
 The *SDKManifest.xml* file describes how Visual Studio should consume the SDK. The following is an example:
 
 ```
-<FileList>
-DisplayName = "My SDK"
-ProductFamilyName = "My SDKs"
-TargetFramework = ".NETCore, version=v4.5.1; .NETFramework, version=v4.5.1"
-MinVSVersion = "14.0"
-MaxPlatformVersion = "8.1"
-AppliesTo = "WindowsAppContainer + WindowsXAML"
-SupportPrefer32Bit = "True"
-SupportedArchitectures = "x86;x64;ARM"
-SupportsMultipleVersions = "Error"
-CopyRedistToSubDirectory = "."
-DependsOn = "SDKB, version=2.0"
-MoreInfo = "https://msdn.microsoft.com/MySDK">
-<File Reference = "MySDK.Sprint.winmd" Implementation = "XNASprintImpl.dll">
-<Registration Type = "Flipper" Implementation = "XNASprintFlipperImpl.dll" />
-<Registration Type = "Flexer" Implementation = "XNASprintFlexerImpl.dll" />
-<ToolboxItems VSCategory = "Toolbox.Default" />
-</File>
+<FileList DisplayName = "My SDK"
+          ProductFamilyName = "My SDKs"
+          TargetFramework = ".NETCore, version=v4.5.1; .NETFramework, version=v4.5.1"
+          MinVSVersion = "14.0"
+          MaxPlatformVersion = "8.1"
+          AppliesTo = "WindowsAppContainer + WindowsXAML"
+          SupportPrefer32Bit = "True"
+          SupportedArchitectures = "x86;x64;ARM"
+          SupportsMultipleVersions = "Error"
+          CopyRedistToSubDirectory = "."
+          DependsOn = "SDKB, version=2.0"
+          MoreInfo = "https://msdn.microsoft.com/MySDK">
+  <File Reference = "MySDK.Sprint.winmd" Implementation = "XNASprintImpl.dll">
+    <Registration Type = "Flipper" Implementation = "XNASprintFlipperImpl.dll" />
+    <Registration Type = "Flexer" Implementation = "XNASprintFlexerImpl.dll" />
+    <ToolboxItems VSCategory = "Toolbox.Default" />
+  </File>
 </FileList>
 ```
 
@@ -193,13 +193,18 @@ The following list gives the elements of the file:
 
 ## <a name="ToolboxItems"></a> Specify the location of toolbox items
 
-The **ToolBoxItems** element of the *SDKManifest.xml* schema specifies the category and location of toolbox items in both platform and extension SDKs. The following examples show how to specify different locations. This is applicable to either WinMD or DLL references.
+The **ToolBoxItems** element of the *SDKManifest.xml* schema specifies the control names, source assemblies, and toolbox tab names of toolbox items in both platform and extension SDKs. The following examples show various scenarios. This is applicable to either WinMD or DLL references.
+
+Note that in Visual Studio 2019 and earlier, rather than listing toolbox control names in the manifest, Visual Studio dynamically enumerated the control types in the SDK's assemblies. Starting in Visual Studio 2022, this is no longer supported; toolbox items must be explicitly listed in *SDKManifest.xml*.
 
 1. Place controls in the toolbox default category.
 
     ```xml
     <File Reference = "sample.winmd">
-        <ToolboxItems VSCategory = "Toolbox.Default"/>
+      <ToolboxItems VSCategory = "Toolbox.Default">
+        <Item Type = "Namespace.ControlName1" />
+        <Item Type = "Namespace.ControlName2" />
+      </ToolboxItems>
     </File>
     ```
 
@@ -207,7 +212,10 @@ The **ToolBoxItems** element of the *SDKManifest.xml* schema specifies the categ
 
     ```xml
     <File Reference = "sample.winmd">
-        <ToolboxItems VSCategory= "MyCategoryName"/>
+      <ToolboxItems VSCategory= "MyCategoryName">
+        <Item Type = "Namespace.ControlName1" />
+        <Item Type = "Namespace.ControlName2" />
+      </ToolboxItems>
     </File>
     ```
 
@@ -215,10 +223,12 @@ The **ToolBoxItems** element of the *SDKManifest.xml* schema specifies the categ
 
     ```xml
     <File Reference = "sample.winmd">
-        <ToolboxItems VSCategory = "Graph">
-        <ToolboxItems/>
-        <ToolboxItems VSCategory = "Data">
-        <ToolboxItems />
+      <ToolboxItems VSCategory = "Graph">
+        <Item Type = "Namespace.ControlName1" />
+      </ToolboxItems>
+      <ToolboxItems VSCategory = "Data">
+        <Item Type = "Namespace.ControlName2" />
+      </ToolboxItems>
     </File>
     ```
 
@@ -227,8 +237,10 @@ The **ToolBoxItems** element of the *SDKManifest.xml* schema specifies the categ
     ```xml
     // Blend accepts a slightly different structure for the category name because it allows a path rather than a single category.
     <File Reference = "sample.winmd">
-        <ToolboxItems VSCategory = "Graph" BlendCategory = "Controls/sample/Graph">
-        <ToolboxItems />
+      <ToolboxItems VSCategory = "Graph" BlendCategory = "Controls/sample/Graph">
+        <Item Type = "Namespace.ControlName1" />
+        <Item Type = "Namespace.ControlName2" />
+      </ToolboxItems>
     </File>
     ```
 
@@ -236,10 +248,12 @@ The **ToolBoxItems** element of the *SDKManifest.xml* schema specifies the categ
 
     ```xml
     <File Reference = "sample.winmd">
-        <ToolboxItems VSCategory = "Graph">
-        <ToolboxItems/>
-        <ToolboxItems BlendCategory = "Controls/sample/Graph">
-        <ToolboxItems/>
+      <ToolboxItems VSCategory = "Graph">
+        <Item Type = "Namespace.ControlName1" />
+      </ToolboxItems>
+      <ToolboxItems BlendCategory = "Controls/sample/Graph">
+        <Item Type = "Namespace.ControlName2" />
+      </ToolboxItems>
     </File>
     ```
 
@@ -247,10 +261,12 @@ The **ToolBoxItems** element of the *SDKManifest.xml* schema specifies the categ
 
     ```xml
     <File Reference = "sample.winmd">
-        <ToolboxItems VSCategory = "Toolbox.Common">
-        <ToolboxItems />
-        <ToolboxItems VSCategory = "Toolbox.All">
-        <ToolboxItems />
+      <ToolboxItems VSCategory = "Toolbox.Common">
+        <Item Type = "Namespace.ControlName1" />
+      </ToolboxItems>
+      <ToolboxItems VSCategory = "Toolbox.All">
+        <Item Type = "Namespace.ControlName2" />
+      </ToolboxItems>
     </File>
     ```
 
@@ -258,8 +274,10 @@ The **ToolBoxItems** element of the *SDKManifest.xml* schema specifies the categ
 
     ```xml
     <File Reference = "sample.winmd">
-        <ToolboxItems VSCategory = "Toolbox.ChooseItemsOnly">
-        <ToolboxItems />
+      <ToolboxItems VSCategory = "Toolbox.ChooseItemsOnly">
+        <Item Type = "Namespace.ControlName1" />
+        <Item Type = "Namespace.ControlName2" />
+      </ToolboxItems>
     </File>
     ```
 

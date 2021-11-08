@@ -1,12 +1,13 @@
 ---
 title: "Measure memory usage in your apps"
 description: Find memory leaks and inefficient memory while you're debugging with the debugger-integrated diagnostic tool.
-ms.custom: "seodec18"
+
 ms.date: 04/25/2018
 ms.topic: tutorial
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -104,7 +105,7 @@ To analyze memory usage, click one of the links that opens up a detailed report 
    The report appears in a separate window.
 
 ### Managed types reports
- Choose the current link of a **Objects (Diff)** or **Allocations (Diff)** cell in the Memory Usage summary table.
+ Choose the current link of an **Objects (Diff)** or **Allocations (Diff)** cell in the Memory Usage summary table.
 
  ![Debugger managed type report &#45; Paths to Root](../profiling/media/dbgdiag_mem_managedtypesreport_pathstoroot.png "DBGDIAG_MEM_ManagedTypesReport_PathsToRoot")
 
@@ -123,7 +124,7 @@ To analyze memory usage, click one of the links that opens up a detailed report 
  The **Instances** view displays the instances of the selected object in the snapshot in the upper pane. The **Paths to Root** and **Referenced Objects** pane displays the objects that reference the selected instance and the types that the selected instance references. When the debugger is stopped at the point where the snapshot was taken, you can hover over the **Value** cell to display the values of the object in a tool tip.
 
 ### Native type reports
- Choose the current link of a **Allocations (Diff)** or **Heap Size (Diff)** cell in the Memory Usage summary table of the **Diagnostic Tools** window.
+ Choose the current link of an **Allocations (Diff)** or **Heap Size (Diff)** cell in the Memory Usage summary table of the **Diagnostic Tools** window.
 
  ![Native Type View](../profiling/media/dbgdiag_mem_native_typesview.png "DBGDIAG_MEM_Native_TypesView")
 

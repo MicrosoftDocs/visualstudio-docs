@@ -11,6 +11,7 @@ ms.assetid: 2c55a6f7-4ef5-45fb-9fd1-d72deaaa2829
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

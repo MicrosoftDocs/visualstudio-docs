@@ -1,7 +1,7 @@
 ---
 title: "Deploy UWP apps | Microsoft Docs"
 description: Deploy Universal Windows Platform (UWP) apps from Visual Studio. Specify a local or remote target device for deployment. Understand deployment options.
-ms.custom: "SEO-VS-2020, seodec18"
+
 ms.date: "01/16/2018"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,6 +12,7 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "uwp"
 ---

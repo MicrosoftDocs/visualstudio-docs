@@ -13,6 +13,7 @@ ms.assetid: 81b69bf8-ec87-4bb6-9ad4-1fa7b7802d16
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload: 
   - uwp
 ---
@@ -95,7 +96,7 @@ The **Touch emulation rotate** button sets the interaction mode to rotation gest
  The screen size and resolution are listed as *Screen width inches, pixel width X pixel height*. Note that both the screen size and the resolution are simulated. Location coordinates on the simulator are translated to the selected device size and resolution.
 
 > [!NOTE]
-> You can save scaled versions of bitmap images in your app and Windows will load the correct image for the current scale. For more information, see [Design and UI intro](/windows/uwp/layout/design-and-ui-intro). However, if you change the simulator resolution so that Windows picks a different image to fit the resolution, you have to stop and restart your debug session to view the new image.
+> You can save scaled versions of bitmap images in your app and Windows will load the correct image for the current scale. However, if you change the simulator resolution so that Windows picks a different image to fit the resolution, you have to stop and restart your debug session to view the new image.
 
 ## <a name="BKMK_Capture_a_screenshot_of_your_app_for_submission_to_the_Microsoft_Store"></a> Capture a screenshot of your app for submission to Microsoft Store
  When you submit an app to Microsoft Store, you must include screenshots of the app.

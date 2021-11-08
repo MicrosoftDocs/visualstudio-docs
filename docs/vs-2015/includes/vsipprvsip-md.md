@@ -1,1 +1,0 @@
-Visual Studio Industry Partner (VSIP) program

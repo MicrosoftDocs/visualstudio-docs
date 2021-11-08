@@ -4,15 +4,14 @@ description: Add Enter event handlers for NumericUpDown controls in the create a
 ms.date: 11/04/2016
 ms.custom: SEO-VS-2020
 ms.topic: tutorial
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 dev_langs:
   - "CSharp"
   - "VB"
 ms.assetid: 45a99a5d-c881-4298-b74d-adb481dec5ee
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---

@@ -4,9 +4,10 @@ description: Learn how to improve code map performance and how you can minimize 
 ms.custom: SEO-VS-2020
 ms.date: 05/16/2018
 ms.topic: conceptual
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
 - multiple
 ---

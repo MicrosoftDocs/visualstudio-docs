@@ -1,8 +1,8 @@
 ---
 title: "Measure CPU usage in your apps"
 description: "Analyze CPU performance issues in your application using the debugger-integrated diagnostics tools."
-ms.custom: "seodec18"
-ms.date: 04/03/2019
+
+ms.date: 04/03/2021
 ms.topic: tutorial
 f1_keywords:
   - "vs.performance.wizard.intropage"
@@ -15,6 +15,7 @@ ms.assetid: da2fbf8a-2d41-4654-a509-dd238532d25a
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -25,7 +26,7 @@ Find performance issues while you're debugging with the debugger-integrated **CP
 When the debugger pauses, the **CPU Usage** tool in the Diagnostic Tools window collects information about the functions that are executing in your application. The tool lists the functions that were performing work, and provides a timeline graph you can use to focus on specific segments of the sampling session.
 
 > [!Important]
-> The debugger-integrated Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, ASP.NET Core, and for native/C++ development. Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
+> The debugger-integrated Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, ASP.NET Core, and for native/C++ development. The corresponding Visual Studio [workload](../install/modify-visual-studio.md) is required. Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
 
 In this tutorial, you will:
 

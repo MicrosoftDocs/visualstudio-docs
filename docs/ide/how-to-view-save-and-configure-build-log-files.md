@@ -26,7 +26,7 @@ If you build any kind of project by using MSBuild, you can create a log file to 
 
 ## To view the build log file for a C++ project
 
-1. In **Windows Explorer** or **File Explorer**, open the following file (relative to the project root folder): *Release*\\<ProjectName>\>.Log* or *Debug\\<ProjectName\>.log*
+1. In **Windows Explorer** or **File Explorer**, open the following file (relative to the project root folder): *Release*\\{ProjectName}.Log* or *Debug\\{ProjectName}.log*
 
 ## To create a build log file for a managed-code project
 

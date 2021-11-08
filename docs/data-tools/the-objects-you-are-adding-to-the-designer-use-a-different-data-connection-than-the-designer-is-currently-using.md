@@ -8,6 +8,7 @@ ms.assetid: 332ed2f3-3377-4d51-8e3b-fdb98231978e
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
 - data-storage
 ---

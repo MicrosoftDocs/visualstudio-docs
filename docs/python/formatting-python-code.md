@@ -3,10 +3,11 @@ title: Format Python code
 description: Visual Studio can automatically reformat Python code including spacing, statements, wrapping, and comments.
 ms.date: 03/13/2019
 ms.topic: conceptual
-author: JoshuaPartlow
-ms.author: joshuapa
+author: rjmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
-ms.custom: seodec18
+ms.technology: vs-python
+
 ms.workload:
   - python
   - data-science

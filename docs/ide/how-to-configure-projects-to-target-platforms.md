@@ -2,7 +2,7 @@
 title: 'How to: Configure projects to target platforms'
 description: Learn how Visual Studio enables you to set up your applications to target different platforms, including 64-bit platforms. 
 ms.custom: SEO-VS-2020
-ms.date: 08/16/2019
+ms.date: 09/13/2021
 ms.technology: vs-ide-compile
 ms.topic: how-to
 helpviewer_keywords:
@@ -23,7 +23,16 @@ ms.workload:
 ---
 # How to: Configure projects to target platforms
 
-Visual Studio enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in Visual Studio, see [64-bit applications](/dotnet/framework/64-bit-apps).
+Visual Studio enables you to set up your application builds to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in Visual Studio, see [64-bit applications](/dotnet/framework/64-bit-apps).
+
+::: moniker range="vs-2022"
+> [!NOTE]
+> Visual Studio 2022 runs as a 64-bit application. This is totally separate from the platforms you can target for your projects in Visual Studio. You can use any version of Visual Studio to target both 32-bit and 64-bit platforms.
+::: moniker-end
+::: moniker range="<=vs-2019"
+> [!NOTE]
+> Visual Studio runs as a 32-bit application. This is totally separate from the platforms you can target for your projects in Visual Studio. You can use any version of Visual Studio to target both 32-bit and 64-bit platforms.
+::: moniker-end
 
 ## Target platforms with the Configuration Manager
 
@@ -46,7 +55,7 @@ The **Configuration Manager** provides a way for you to quickly add a new platfo
 
     3. If you want to copy the settings from a current platform configuration, choose it, and then choose the **OK** button.
 
-The properties for all projects that target the 64-bit platform are updated, and the next build of the project will be optimized for 64-bit platforms.
+The properties for all projects in your solution that target the 64-bit platform are updated, and the next build of the project will be optimized for 64-bit platforms.
 
 > [!NOTE]
 > The **Win32** platform name is used for C++ projects, and it means **x86**. Visual Studio considers both project-level platforms and solution-level platforms, and the project platforms come from the language-specific project systems. C++ projects use **Win32** and **x64**, but the solution platforms use **x86** and **x64**. When you choose **x86** as the solution configuration, Visual Studio selects the **Win32** platform for C++ projects. To see both project-level platform and solution-level platform settings, open **Configuration Manager** and note the two platform settings. The solution-level platform is shown in the **Active solution platform** dropdown, and the table shows the project-level platform for each project.
@@ -58,11 +67,11 @@ The **Project Designer** also provides a way to target different platforms with 
 
 Performing this task varies based on the programming language you are using. See the following links for more information:
 
-- For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects, see [/platform (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/platform).
+- For Visual Basic projects, see [/platform (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/platform).
 
-- For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects, see [Build page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).
+- For C# projects, see [Build page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).
 
-- For [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects, see [/clr (Common Language Runtime compilation)](/cpp/build/reference/clr-common-language-runtime-compilation).
+- For C++/CLI projects, see [/clr (Common Language Runtime compilation)](/cpp/build/reference/clr-common-language-runtime-compilation).
 
 ## Manually editing the project file
 

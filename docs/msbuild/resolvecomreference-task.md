@@ -18,6 +18,7 @@ ms.assetid: c9bf5fcf-6453-40ea-b50f-a212adc3e9b5
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---
@@ -60,7 +61,7 @@ Takes a list of one or more type library names or *.tlb* files and resolves thos
 |`VersionMinor`|Required item metadata.<br /><br /> The minor version of the type library. If this item metadata is not specified, the task fails.|
 |`EmbedInteropTypes`|Optional `Boolean` metadata.<br /><br />  If `true`, embed the interop types from this reference directly into your assembly rather than generating an interop DLL.|
 |`LocaleIdentifier`|Optional item metadata.<br /><br /> The Locale Identifier (or LCID) for the type library. This is specified as a 32-bit value that identifies the human language preferred by a user, region, or application. If this item metadata is not specified, the task uses a default locale identifier of "0".|
-|`WrapperTool`|Optional item metadata.<br /><br /> Specifies the wrapper tool that is used to generate the assembly wrapper for this type library. If this item metadata is not specified, the task uses a default wrapper tool of "tlbimp". The available, case insensitive choices of typelibs are:<br /><br /> -   `Primary`: Use this wrapper tool when you want to use an already generated primary interop assembly for the COM component. When you use this wrapper tool, do not specify a wrapper output directory because that will cause the task to fail.<br />-   `TLBImp`: Use this wrapper tool when you want to generate an interop assembly for the COM component.<br />-   `AXImp`:Use this wrapper tool when you want to generate an interop assembly for an ActiveX Control.|
+|`WrapperTool`|Optional item metadata.<br /><br /> Specifies the wrapper tool that is used to generate the assembly wrapper for this type library. If this item metadata is not specified, the task uses a default wrapper tool of "tlbimp". The available, case insensitive choices of typelibs are:<br /><br /> -   `Primary`: Use this wrapper tool when you want to use an already generated primary interop assembly for the COM component. When you use this wrapper tool, do not specify a wrapper output directory because that will cause the task to fail.<br />-   `TLBImp`: Use this wrapper tool when you want to generate an interop assembly for the COM component.<br /> -   `PrimaryOrTLBImp`: Use this wrapper tool when you are unsure whether `Primary` or `TLBImp` is appropriate. The `Primary` logic is applied first, then `TLBImp`.<br />-   `AXImp`:Use this wrapper tool when you want to generate an interop assembly for an ActiveX Control.|
 
 ## TypeLibFiles item metadata
 

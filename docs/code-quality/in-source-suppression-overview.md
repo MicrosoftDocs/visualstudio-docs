@@ -10,6 +10,7 @@ helpviewer_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jmartens
+ms.technology: vs-ide-code-analysis
 dev_langs:
 - CSharp
 - VB
@@ -31,7 +32,7 @@ In an **EditorConfig file**, set the severity to `none`, for example, `dotnet_di
 
 ## Suppress violations in source code
 
-You can suppress violations in code using a preprocessor directive, the [#pragma warning (C#)](/dotnet/csharp/language-reference/preprocessor-directives.md#pragma-warning) or [Disable (Visual Basic)](/dotnet/visual-basic/language-reference/directives/disable-enable.md) directive to suppress the warning for only a specific line of code. Or, you can use the [SuppressMessage attribute](#in-source-suppression-and-the-suppressmessage-attribute).
+You can suppress violations in code using a preprocessor directive, the [#pragma warning (C#)](/dotnet/csharp/language-reference/preprocessor-directives#pragma-warning) or [Disable (Visual Basic)](/dotnet/visual-basic/language-reference/directives/disable-enable) directive to suppress the warning for only a specific line of code. Or, you can use the [SuppressMessage attribute](#in-source-suppression-and-the-suppressmessage-attribute).
 
 - From the **code editor**
 

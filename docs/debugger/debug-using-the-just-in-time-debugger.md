@@ -2,7 +2,7 @@
 title: Debug using the Just-In-Time Debugger | Microsoft Docs
 description: Debug using the Just-In-Time Debugger in Visual Studio. Just-In-Time debugging can launch Visual Studio automatically when an app errors or crashes.
 ms.custom: SEO-VS-2020
-ms.date: 09/24/2018
+ms.date: 08/24/2021
 ms.topic: how-to
 helpviewer_keywords: 
   - debugging [Visual Studio], Just-In-Time
@@ -10,6 +10,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload: 
   - multiple
 ---

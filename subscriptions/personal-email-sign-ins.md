@@ -1,7 +1,7 @@
 ---
 title: Personal emails for Visual Studio subscriptions in VLSC
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 3f4b0528-03f0-4a02-b3c3-a39292a9bbe1
 ms.date: 03/21/2021

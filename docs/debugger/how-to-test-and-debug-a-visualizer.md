@@ -2,7 +2,7 @@
 title: Test and Debug a Visualizer | Microsoft Docs
 description: Test and debug a visualizer by running it from a test driver (visualizer development host) or by installing in Visual Studio and calling it from a debugger window.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 07/02/2021
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -17,6 +17,7 @@ ms.assetid: 5cc12ce8-c819-48e4-b487-98d403001b28
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload: 
   - multiple
 ---
@@ -26,6 +27,9 @@ Once you have written a visualizer, you need to debug and test it.
 One way to test a visualizer is by installing it in Visual Studio and calling it from a debugger window. (See [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).) If you do that, you will need to use a second instance of Visual Studio to attach and debug the visualizer, which is running in the first instance of the debugger.
 
 An easier way to debug a visualizer is to run the visualizer from a test driver. The visualizer APIs make it easy to create such a driver, which is called the *visualizer development host*.
+
+>[!NOTE]
+> Currently, the test driver is supported only when calling the visualizer from a .NET Framework application.
 
 ### To create a visualizer development host
 

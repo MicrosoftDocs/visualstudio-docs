@@ -2,11 +2,12 @@
 description: "Represents an interface for programmatic control of the in-app component of graphics diagnostics."
 title: "VsgDbg Class | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: 6722263c-ccef-40c7-a0ae-87a863fbab00
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

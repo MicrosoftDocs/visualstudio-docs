@@ -1,7 +1,7 @@
 ---
 title: Apply Edits in break mode with Edit and Continue | Microsoft Docs
 description: See how to use Edit and Continue to edit your Visual Basic code when in break mode. There are various ways to enter break mode.
-ms.custom: "SEO-VS-2020, seodec18"
+
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -22,6 +22,7 @@ ms.assetid: 1eef7498-6a1f-4fba-8146-510adc6375c9
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload: 
   - multiple
 ---

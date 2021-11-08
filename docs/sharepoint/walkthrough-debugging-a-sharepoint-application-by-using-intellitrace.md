@@ -16,6 +16,7 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---
@@ -23,9 +24,9 @@ ms.workload:
 
 By using IntelliTrace, you can more easily debug SharePoint solutions. Traditional debuggers give you only a snapshot of a solution at the current moment. However, you can use IntelliTrace to review past events that occurred in your solution and the context in which they occurred and navigate to the code.
 
- This walkthrough demonstrates how to debug a SharePoint 2010 or SharePoint 2013 project in Visual Studio by using Microsoft Monitoring Agent to collect IntelliTrace data from deployed applications. To analyze that data, you must use Visual Studio Enterprise. This project incorporates a feature receiver that, when the feature is activated, adds a task to the Task list and an announcement to the Announcements list. When the feature is deactivated, the task is marked as completed, and a second announcement is added to the Announcements list. However, the procedure contains a logical error that prevents the project from running correctly. By using IntelliTrace, you'll locate and correct the error.
+ This walkthrough demonstrates how to debug a SharePoint project in Visual Studio by using Microsoft Monitoring Agent to collect IntelliTrace data from deployed applications. To analyze that data, you must use Visual Studio Enterprise. This project incorporates a feature receiver that, when the feature is activated, adds a task to the Task list and an announcement to the Announcements list. When the feature is deactivated, the task is marked as completed, and a second announcement is added to the Announcements list. However, the procedure contains a logical error that prevents the project from running correctly. By using IntelliTrace, you'll locate and correct the error.
 
- **Applies to:** The information in this topic applies to SharePoint 2010 and SharePoint 2013 solutions that were created in Visual Studio.
+ **Applies to:** The information in this topic applies to SharePoint solutions that were created in Visual Studio.
 
  This walkthrough illustrates the following tasks:
 
@@ -53,7 +54,7 @@ You need the following components to complete this walkthrough:
 
 First, you create an empty SharePoint project that has a feature receiver.
 
-1. Create a SharePoint 2010 or SharePoint 2013 solution project, and name it **IntelliTraceTest**.
+1. Create a SharePoint solution project targeting the version of SharePoint you have installed, and name it **IntelliTraceTest**.
 
      The **SharePoint Customization Wizard** appears, in which you can specify both the SharePoint site for your project and the trust level of the solution.
 

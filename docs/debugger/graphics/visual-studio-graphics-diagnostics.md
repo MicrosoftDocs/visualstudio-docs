@@ -1,7 +1,7 @@
 ---
 title: "Graphics diagnostics | Microsoft Docs"
 description: Visual Studio Graphics Diagnostics is a set of tools for logging and analyzing Direct3D activity. Use them to troubleshoot rendering and performance problems.
-ms.custom: "SEO-VS-2020, seodec18"
+
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -10,6 +10,7 @@ ms.assetid: fa69c550-62a7-41b5-bb1f-7eb04af1a6e8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

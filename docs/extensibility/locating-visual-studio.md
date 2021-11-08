@@ -7,8 +7,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "deployment, VSIX"
 ms.assetid: 680c3b25-7901-4768-8363-6d1fcd1ea636
-ms.author: "heaths"
-manager: jmartens
+author: leslierichardson95
+ms.author: lerich
 ms.workload:
   - "vssdk"
 ---

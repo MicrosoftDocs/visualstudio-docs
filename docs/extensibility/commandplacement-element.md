@@ -3,7 +3,7 @@ title: CommandPlacement Element | Microsoft Docs
 description: The CommandPlacement element enables buttons, groups, and menus to be included in more than one group or menu. 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - CommandPlacements element (VSCT XML schema)
 - VSCT XML schema elements, CommandPlacements
@@ -11,6 +11,7 @@ ms.assetid: 2cbd7ac8-c55a-43d8-a26d-713b3d790016
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

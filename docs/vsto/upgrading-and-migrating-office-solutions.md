@@ -1,6 +1,6 @@
 ---
 title: "Upgrade and migrate Office solutions"
-description: You must upgrade the project to use it in current versions of Visual Studio if you have a Offince project that was created in an earlier version of Visual Studio.
+description: You must upgrade the project to use it in current versions of Visual Studio if you have an Office project that was created in an earlier version of Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
@@ -16,6 +16,7 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
@@ -72,7 +73,7 @@ ms.workload:
  There are some additional considerations for upgrading document-level customizations and VSTO Add-ins that target Microsoft Office 2003.
 
 ### Document-level projects
- If the document in the project contains Windows Forms controls, you must also have the Visual Studio 2005 Tools for Office Second Edition Runtime installed before you upgrade the project. If this version of the runtime is not installed on the development computer before you upgrade the project, the upgraded project might contain compile or run time errors. After you finish upgrading the project, you can uninstall the Visual Studio 2005 Tools for Office Second Edition Runtime from the development computer if it is not being used by any other Office solutions. This version of the runtime is available as a redistributable package from the Microsoft Download Center at [Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime (VSTO 2005 SE) (x86)](https://www.microsoft.com/download/details.aspx?id=2392).
+ If the document in the project contains Windows Forms controls, you must also have the Visual Studio 2005 Tools for Office Second Edition Runtime installed before you upgrade the project. If this version of the runtime is not installed on the development computer before you upgrade the project, the upgraded project might contain compile or run time errors. After you finish upgrading the project, you can uninstall the Visual Studio 2005 Tools for Office Second Edition Runtime from the development computer if it is not being used by any other Office solutions. This version of the runtime is available as a redistributable package from the Microsoft Download Center at Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime (VSTO 2005 SE) (x86).
 
 ### VSTO Add-in projects
  If the solution file for your original project included a Setup or InstallShield Limited Edition project that was configured to install the VSTO Add-in, Visual Studio upgrades the project, but it does not make any further changes to the project. If you want to keep using a Windows Installer file to deploy your VSTO Add-in, you must modify the Setup or InstallShield Limited Edition project to install new pre-requisites such as the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], the Visual Studio 2010 Tools for Office Runtime, and optionally the primary interop assemblies referenced by your VSTO Add-in. For more information, see [Deploy an Office solution by using Windows Installer](../vsto/deploying-a-vsto-solution-by-using-windows-installer.md).

@@ -3,9 +3,10 @@ title: Manage Python environments and interpreters
 description: Use the Python Environments window to manage global, virtual, and conda environments, installing Python interpreters and packages, and assigning environments to Visual Studio projects.
 ms.date: 08/06/2019
 ms.topic: how-to
-author: JoshuaPartlow
-ms.author: joshuapa
+author: rjmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
+ms.technology: vs-python
 ms.workload:
   - python
   - data-science
@@ -95,10 +96,13 @@ If no environments appear, it means Visual Studio failed to detect any Python in
 
 If you know you have a Python interpreter on your computer but Visual Studio (any version) did not detect it, then use the **+ Custom** command to specify its location manually. See the next section, [Manually identify an existing environment](#manually-identify-an-existing-environment).
 
+::: moniker range="<=vs-2017"
+
 > [!Tip]
 > Visual Studio detects updates to an existing interpreter, such as upgrading Python 2.7.11 to 2.7.14 using the installers from python.org. During the installation process, the older environment disappears from the **Python Environments** list before the update appears in its place.
 >
 > However, if you manually move an interpreter and its environment using the file system, Visual Studio won't know the new location. For more information, see [Move an interpreter](installing-python-interpreters.md#move-an-interpreter).
+::: moniker-end
 
 ### Types of environments
 
@@ -145,7 +149,7 @@ A conda environment is one created using the `conda` tool, or with integrated co
 
 ::: moniker range=">=vs-2019"
 
-1. Select **+ Add Environment** in the **Python Environments** window (or from the Python toolbar), which opens the **Add environment** dialog box. In that dialog, select the **Conda environment** tab:
+1. Select **Add Environment...** in the **Python Environments** window (or from the Python toolbar), which opens the **Add environment** dialog box. In that dialog, select the **Conda environment** tab:
 
     ![Conda environment tab in the Add environment dialog](media/environments/environments-conda-1-2019.png)
 
@@ -225,7 +229,7 @@ Use the following steps to identify an environment that's installed in a non-sta
 
 ::: moniker range=">=vs-2019"
 
-1. Select **+ Add Environment** in the **Python Environments** window (or from the Python toolbar), which opens the **Add environment** dialog box. In that dialog, select the **Existing environment** tab:
+1. Select **Add Environment...** in the **Python Environments** window (or from the Python toolbar), which opens the **Add environment** dialog box. In that dialog, select the **Existing environment** tab:
 
     ![Existing environment tab in the Add environment dialog](media/environments/environments-custom-1-2019.png)
 

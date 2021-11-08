@@ -2,7 +2,7 @@
 title: "Microsoft Visual Studio Debugger (Exception Thrown) Dialog Box | Microsoft Docs"
 titleSuffix: ""
 description: "Learn what to do when an exception occurs that your program needs to handle. You can: 1) break into the debugger; 2) continue; or 3) ignore."
-ms.custom: "SEO-VS-2020, seodec18"
+
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -21,6 +21,7 @@ ms.assetid: 1fe98d10-c8f9-4b39-a920-99169bfd542e
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

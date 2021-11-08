@@ -9,9 +9,10 @@ helpviewer_keywords:
 - dependency diagrams
 - diagrams - modeling, layer
 - constraints, architectural
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
 - multiple
 ---
@@ -19,7 +20,7 @@ ms.workload:
 
 Describe your app's architecture at a high level by creating *dependency diagrams* in Visual Studio. Make sure that your code stays consistent with this design by validating your code with a dependency diagram. You can also include layer validation in your build process. See [Channel 9 Video: Design and validate your architecture using dependency diagrams](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Using-layer-diagrams-to-design-and-validate-your-architecture).
 
-To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 > [!NOTE]
 > Dependency diagrams for .NET Core projects are supported starting in Visual Studio 2019 version 16.2.
@@ -66,7 +67,7 @@ See [Create dependency diagrams from your code](../modeling/create-layer-diagram
 
 Layers represent logical groups of *artifacts*, such as projects, code files, namespaces, classes, and methods. You can create layers from artifacts from Visual C# and Visual Basic projects, or you can attach specifications or plans to a layer by linking documents, such as Word files or PowerPoint presentations. Each layer appears as a rectangle on the diagram and shows the number of artifacts that are linked to it. A layer can contain nested layers that describe more specific tasks.
 
-As a general guideline, name layers according to their function, for example, "Presentation" or "Services". If the artifacts are closely interdependent, place them in the same layer. If the artifacts can be updated separately or used in separate applications, place them in different layers. To learn about layering patterns, visit the Patterns & Practices site at [http://go.microsoft.com/fwlink/?LinkId=145794](https://archive.codeplex.com/?p=apparch).
+As a general guideline, name layers according to their function, for example, "Presentation" or "Services". If the artifacts are closely interdependent, place them in the same layer. If the artifacts can be updated separately or used in separate applications, place them in different layers.
 
 > [!TIP]
 > There are certain types of artifacts that you can link to layers but that do not support validation against the dependency diagram. To see whether the artifact supports validation, open **Layer Explorer** to examine the **Supports Validation** property of the artifact link. See [Discover existing dependencies between layers](#Generate).
@@ -119,7 +120,7 @@ If this is not the case, the code will be more difficult to change throughout it
 
 When you start development of a new project, or a new area in a new project, you can draw layers and dependencies to help identify the major components before you start to develop the code.
 
-- **Show identifiable architectural patterns** in your dependency diagrams, if possible. For example, a dependency diagram that describes a desktop application might include layers such as Presentation, Domain Logic, and Data Store. A dependency diagram that covers a single feature within an application might have layers such as Model, View, and Controller. For more information about such patterns, see [Patterns & Practices: Application Architecture](https://archive.codeplex.com/?p=apparch).
+- **Show identifiable architectural patterns** in your dependency diagrams, if possible. For example, a dependency diagram that describes a desktop application might include layers such as Presentation, Domain Logic, and Data Store. A dependency diagram that covers a single feature within an application might have layers such as Model, View, and Controller.
 
 - **Create a code artifact for each layer** such as a namespace, class, or component. This makes it easier to follow the code and to link the code artifacts to layers. As soon as you create each artifact, link it to the appropriate layer.
 

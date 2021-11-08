@@ -7,6 +7,7 @@ ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-code-analysis
 ---
 # How to: Enable and disable binary code analysis for managed code
 
@@ -34,6 +35,10 @@ To enable or disable legacy code analysis:
 4. To enable or disable automatic code analysis, select or clear the **Run on build** check box in the **Binary analyzers** section.
 
    ![Run binary code analysis on build option in Visual Studio](media/run-on-build-binary-analyzers.png)
+
+5. If you need to disable legacy analysis, verify that legacy code analysis is disabled in the project file. Set the `RunCodeAnalysis` property to false:
+
+   `<RunCodeAnalysis>false</RunCodeAnalysis>`
 
 ::: moniker-end
 

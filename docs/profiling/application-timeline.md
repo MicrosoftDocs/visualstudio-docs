@@ -1,13 +1,14 @@
 ---
 title: "Analyze resource consumption in XAML apps"
 description: Use the Application Timeline profiler to find performance issues in XAML applications. You can analyze time spent for various tasks in various scenarios.
-ms.custom: "SEO-VS-2020, seodec18"
+
 ms.date: "11/01/2018"
 ms.topic: "conceptual"
 ms.assetid: df7d854b-0a28-45a9-8a64-c015a4327701
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "uwp"
 ---

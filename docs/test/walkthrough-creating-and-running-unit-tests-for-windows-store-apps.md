@@ -11,6 +11,7 @@ helpviewer_keywords:
 - unit tests, running
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ms.workload:
 - uwp
 author: mikejo5000

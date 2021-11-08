@@ -3,7 +3,7 @@ title: Getting Local Properties | Microsoft Docs
 description: Learn how Visual Studio uses EnumChildren to get local properties with these examples for managed and unmanaged code.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - expression evaluation, getting local properties
 - debugging [Debugging SDK], local properties
@@ -12,6 +12,7 @@ ms.assetid: 6c3a79e8-1ba1-4863-97c3-0216c3d9f092
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---

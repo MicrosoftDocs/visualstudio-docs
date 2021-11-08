@@ -45,7 +45,7 @@ You can download the Google Test adapter and Boost.Test Adapter extensions on th
 
 The following sections show the basic steps to get you started with C++ unit testing. The basic configuration is similar for both the Microsoft and Google Test frameworks. Boost.Test requires that you manually create a test project.
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ### Create a test project in Visual Studio 2019
 

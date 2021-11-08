@@ -9,6 +9,7 @@ f1_keywords:
 ms.assetid: 9455ab37-93a0-4c46-9eb8-b6611ca23167
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-workflow-designer
 ms.workload:
 - multiple
 author: TerryGLee

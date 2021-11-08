@@ -10,6 +10,7 @@ ms.assetid: 325e28c7-4838-4e3f-b672-4586adc7500c
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---
@@ -77,3 +78,4 @@ This code creates the property CompileRan and gives it the value `true`, but onl
 ## See also
 
 - [Targets](../msbuild/msbuild-targets.md)
+- [How to: Build Incrementally](../msbuild/how-to-build-incrementally.md)

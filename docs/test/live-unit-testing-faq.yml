@@ -108,7 +108,7 @@ sections:
           
           During build, Live Unit Testing automatically overrides the `<BaseOutputPath>`/`<BaseIntermediateOutputPath>` variables to target the Live Unit Testing artifacts folder.
           
-          For example, if your build overrides the <OutputPath> as shown below:
+          For example, if your build overrides the `<OutputPath>` as shown below:
           
           ```xml
           <Project>

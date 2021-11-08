@@ -3,7 +3,7 @@ title: Servers (Visual Studio SDK) | Microsoft Docs
 description: This article describes the definition and role of a server in the debugger architecture in Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - servers, debugging
 - debugging [Debugging SDK], servers
@@ -11,6 +11,7 @@ ms.assetid: 62236d64-7956-448c-9ac3-5528f3edac1d
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---

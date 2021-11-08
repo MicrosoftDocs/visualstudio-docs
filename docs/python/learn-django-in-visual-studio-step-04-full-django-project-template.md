@@ -4,10 +4,11 @@ titleSuffix: ""
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically the features provided by the Django Web Project template.
 ms.date: 11/19/2018
 ms.topic: tutorial
-author: JoshuaPartlow
-ms.author: joshuapa
+author: rjmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
-ms.custom: seodec18
+ms.technology: vs-python
+
 ms.workload:
   - python
   - data-science

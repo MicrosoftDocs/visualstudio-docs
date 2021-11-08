@@ -1,7 +1,7 @@
 ---
 title: Managing large teams and contractors in Visual Studio subscriptions | Visual Studio Marketplace
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 3fc57f5f-2446-4774-9f8f-98ea1340f6b2
 ms.date: 03/21/2021

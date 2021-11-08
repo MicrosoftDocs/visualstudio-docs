@@ -8,6 +8,7 @@ ms.assetid: 4a914de0-9ffc-4526-9603-92e460e52513
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-xml-tools
 ms.workload:
 - multiple
 ---

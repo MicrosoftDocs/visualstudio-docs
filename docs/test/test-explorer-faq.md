@@ -16,6 +16,7 @@ ms.workload:
   - "multiple"
 author: kendrahavens
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Visual Studio Test Explorer FAQ
 
@@ -85,7 +86,7 @@ The hierarchy view sorts tests alphabetically as opposed to by outcome. Previous
 
 The icons next to the Project, Namespace, and Class groupings show the state of the tests within that grouping. See the following table.
 
-![Test Explorer Hierarchy Icons](media/testex-hierarchyicons.png)
+![Test Explorer Hierarchy Icons](media/testex-hierarchy-icons.png)
 
 ## Search by file path
 
@@ -142,7 +143,7 @@ To fix this error:
 
 In Visual Studio 2019, you can opt into preview features in **Tools > Options > Environment > Preview Features**.
 ::: moniker-end
-::: moniker range=">=vs-2017"
+::: moniker range="vs-2017"
 ## Using feature flags
 
 **How can I turn on feature flags to try out new testing features?**

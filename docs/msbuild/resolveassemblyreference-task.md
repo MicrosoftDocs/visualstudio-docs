@@ -21,6 +21,7 @@ ms.assetid: 4d56d848-b29b-4dff-86a2-0a96c9e4a170
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---

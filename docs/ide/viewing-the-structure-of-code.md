@@ -6,7 +6,6 @@ ms.date: 09/19/2019
 ms.topic: reference
 f1_keywords:
 - vs.documentoutline.window
-- vs.objectbrowser
 - vs.classview
 - VS.CodeDefinitionView
 - VS.CodeDefinitionWindow
@@ -25,6 +24,7 @@ helpviewer_keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---

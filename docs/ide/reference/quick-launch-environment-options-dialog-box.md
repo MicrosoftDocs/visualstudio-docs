@@ -14,6 +14,7 @@ ms.assetid: 4200f297-d065-4723-9a30-d91ff2e26c9d
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 monikerRange: vs-2017

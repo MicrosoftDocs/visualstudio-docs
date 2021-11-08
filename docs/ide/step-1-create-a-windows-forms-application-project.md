@@ -5,11 +5,10 @@ ms.custom: SEO-VS-2020
 ms.date: 08/30/2019
 ms.assetid: 16ac2422-e720-4e3a-b511-bc2a54201a86
 ms.topic: tutorial
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
@@ -34,9 +33,9 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
-## Open Visual Studio 2019
+## Open Visual Studio
 
 1. On the start window, choose **Create a new project**.
 
@@ -53,7 +52,7 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
    >
    > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png)
    >
-   > Next, in the Visual Studio Installer, choose the Choose the **.NET desktop development** workload.
+   > Next, in the Visual Studio Installer, choose the **.NET desktop development** workload.
    >
    > ![.NET Core workload in the Visual Studio Installer](../ide/media/install-dot-net-desktop-env.png)
    >

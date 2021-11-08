@@ -1,7 +1,7 @@
 ---
 title: Keep focus when stepping through my app | Microsoft Docs
 description: Use remote debugging to keep your program from losing focus when you debug a window activation problem.
-ms.custom: "SEO-VS-2020, seodec18"
+
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -20,6 +20,7 @@ ms.assetid: 11a30580-3a1a-4be8-a241-0abdc758302e
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload: 
   - multiple
 ---

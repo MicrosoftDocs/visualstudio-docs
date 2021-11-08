@@ -2,6 +2,8 @@
   href: index.yml
 - name: Overview
   items:
+  - name: JavaScript in Visual Studio 2022
+    href: javascript-in-vs-2022.md
   - name: JavaScript in Visual Studio 2019
     href: javascript-in-vs-2019.md
   - name: JavaScript in Visual Studio 2017
@@ -14,12 +16,24 @@
     href: ../ide/quickstart-nodejs.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json
   - name: Create a Vue.js project
     href: quickstart-vuejs-with-nodejs.md
+  - name: Create a React app
+    href: tutorial-create-react-app.md
+  - name: Create an Angular app
+    href: tutorial-create-angular-app.md
+  - name: Create a Vue.js app
+    href: tutorial-create-vue-app.md
 - name: Tutorials
   items:
   - name: Create a Node.js app with Express
     href: tutorial-nodejs.md
   - name: Create a Node.js app with React
     href: tutorial-nodejs-with-react-and-jsx.md
+  - name: Create an ASP.NET Core app with React
+    href: tutorial-asp-net-core-with-react.md
+  - name: Create an ASP.NET Core app with Angular
+    href: tutorial-asp-net-core-with-angular.md
+  - name: Create an ASP.NET Core app with Vue
+    href: tutorial-asp-net-core-with-vue.md
   - name: Create an ASP.NET Core app with TypeScript
     href: tutorial-aspnet-with-typescript.md
   - name: Publish a Node.js app to Linux App Service

@@ -2,7 +2,7 @@
 title: "Error messages (Office development in Visual Studio)"
 description: Learn how each error message topic provides information on possible causes for an error and potential solutions or workarounds to solve the problem.
 titleSuffix: ""
-ms.custom: "seodec18, SEO-VS-2020"
+
 ms.date: "02/02/2017"
 ms.topic: "error-reference"
 dev_langs:
@@ -13,6 +13,7 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---

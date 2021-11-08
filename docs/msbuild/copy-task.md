@@ -8,7 +8,6 @@ f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#Copy
 - MSBuild.Copy.SourceFileNotFound
 - MSBuild.Copy.Retrying
-- MSBuild.Copy.ExceededRetries
 dev_langs:
 - VB
 - CSharp
@@ -21,6 +20,7 @@ ms.assetid: a46ba9da-3e4e-4890-b4ea-09a099b6bc40
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---

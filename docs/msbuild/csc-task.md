@@ -18,6 +18,7 @@ ms.assetid: d8c19b36-f5ca-484b-afa6-8ff3b90e103a
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---
@@ -44,6 +45,7 @@ The following table describes the parameters of the `Csc` task.
 | `Deterministic` | Optional `Boolean` parameter.<br/><br/> If `true`, causes the compiler to output an assembly whose binary content is identical across compilations if inputs are identical.<br/><br/>For more information, see [-deterministic (C# Compiler options)](/dotnet/csharp/language-reference/compiler-options/deterministic-compiler-option). |
 | `DisabledWarnings` | Optional `String` parameter.<br /><br /> Specifies the list of warnings to be disabled. For more information, see [-nowarn (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/nowarn-compiler-option). |
 | `DocumentationFile` | Optional `String` parameter.<br /><br /> Processes documentation comments to an XML file. For more information, see [-doc (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/doc-compiler-option). |
+| `EmbedAllSources` | Optional `Boolean` parameter.<br /><br /> Embed all source files in the PDB. For more information, see [-embed (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/listed-alphabetically) |
 | `EmitDebugInformation` | Optional `Boolean` parameter.<br /><br /> If `true`, the task generates debugging information and places it in a program database (.pdb) file. If `false`, the task emits no debug information. Default is `false`. For more information, see [-debug (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/debug-compiler-option). |
 | `ErrorReport` | Optional `String` parameter.<br /><br /> Provides a convenient way to report a C# internal error to Microsoft. This parameter can have a value of `prompt`, `send`, or `none`. If the parameter is set to `prompt`, you will receive a prompt when an internal compiler error occurs. The prompt lets you send a bug report electronically to Microsoft. If the parameter is set to `send`, a bug report is sent automatically. If the parameter is set to `none`, the error is reported only in the text output of the compiler. Default is `none`. For more information, see [-errorreport (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/errorreport-compiler-option). |
 | `FileAlignment` | Optional `Int32` parameter.<br /><br /> Specifies the size of sections in the output file. For more information, see [-filealign (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/filealign-compiler-option). |
@@ -55,7 +57,7 @@ The following table describes the parameters of the `Csc` task.
 | `MainEntryPoint` | Optional `String` parameter.<br /><br /> Specifies the location of the `Main` method. For more information, see [-main (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/main-compiler-option). |
 | `ModuleAssemblyName` | Optional `String` parameter.<br /><br /> Specifies the name of the assembly that this module will be a part of. |
 | `NoConfig` | Optional `Boolean` parameter.<br /><br /> If `true`, tells the compiler not to compile with the *csc.rsp* file. For more information, see [-noconfig (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/noconfig-compiler-option). |
-| `NoLogo` | Optional `Boolean` parameter.<br /><br /> If `true`, suppresses display of compiler banner information. For more information, see [-nologo (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/nologo-compiler-option). |
+| `NoLogo` | Optional `Boolean` parameter.<br /><br /> If `true`, suppresses display of compiler banner information. For more information, see [-nologo (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/miscellaneous#nologo). |
 | `NoStandardLib` | Optional `Boolean` parameter.<br /><br /> If `true`, prevents the import of *mscorlib.dll*, which defines the entire System namespace. Use this parameter if you want to define or create your own System namespace and objects. For more information, see [-nostdlib (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/nostdlib-compiler-option). |
 | `NoWin32Manifest` | Optional `Boolean` parameter.<br /><br /> If `true`, do not include the default Win32 manifest. |
 | `Optimize` | Optional `Boolean` parameter.<br /><br /> If `true`, enables optimizations. If `false`, disables optimizations. For more information, see [-optimize (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/optimize-compiler-option). |

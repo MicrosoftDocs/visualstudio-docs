@@ -7,6 +7,7 @@ ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-xml-tools
 ---
 # Walkthrough: Use XSLT hierarchy
 

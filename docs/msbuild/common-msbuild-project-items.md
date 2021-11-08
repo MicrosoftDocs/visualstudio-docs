@@ -15,6 +15,7 @@ ms.assetid: 1eba3721-cc12-4b80-9987-84923ede5e2e
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---
@@ -47,8 +48,9 @@ Represents a COM (unmanaged) component reference in the project. This item appli
 |Guid|Required string. A GUID for the component, in the form {12345678-1234-1234-1234-1234567891234}.|
 |VersionMajor|Required string. The major part of the version number of the component. For example, "5" if the full version number is "5.46."|
 |VersionMinor|Required string. The minor part of the version number of the component. For example, "46" if the full version number is "5.46."|
+|EmbedInteropTypes|Optional boolean. If true, embed the interop types from this reference directly into your assembly rather than generating an interop DLL.|
 |LCID|Optional string. The LocaleID for the component.|
-|WrapperTool|Optional string. The name of the wrapper tool that is used on the component, for example, "tlbimp."|
+|WrapperTool|Optional string. The name of the wrapper tool that is used on the component. Values are:<br /><br />1.  primary<br />2.  tlbimp<br />3.  primaryortlbimp<br />4.  aximp|
 |Isolated|Optional boolean. Specifies whether the component is a reg-free component.|
 
 ## COMFileReference
@@ -57,7 +59,7 @@ Represents a list of type libraries that are passed to the `TypeLibFiles` parame
 
 |Item metadata name|Description|
 |---------------|-----------------|
-|WrapperTool|Optional string. The name of the wrapper tool that is used on the component, for example, "tlbimp."|
+|WrapperTool|Optional string. The name of the wrapper tool that is used on the component. Values are:<br /><br />1.  primary<br />2.  tlbimp<br />3.  primaryortlbimp<br />4.  aximp|
 
 ## NativeReference
 

@@ -4,10 +4,11 @@ description: Learn how to launch Visual Studio using DTE to support side-by-side
 ms.custom: SEO-VS-2020
 titleSuffix: ''
 ms.date: 04/26/2019
-ms.topic: conceptual
+ms.topic: how-to
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
@@ -152,10 +153,7 @@ namespace ConsoleLauncherApp
             {
                 ISetupInstance[] setupInstances = new ISetupInstance[1];
                 enumerator.Next(1, setupInstances, out count);
-                if (count == 1 &&
-                    setupInstances != null &&
-                    setupInstances.Length == 1 &&
-                    setupInstances[0] != null)
+                if (count == 1 && setupInstances[0] != null)
                 {
                     yield return setupInstances[0];
                 }
@@ -173,9 +171,6 @@ namespace ConsoleLauncherApp
         {
             [DllImport("ole32.dll")]
             public static extern int CreateBindCtx(uint reserved, out IBindCtx ppbc);
-
-            [DllImport("ole32.dll")]
-            public static extern void GetRunningObjectTable(int reserved, out IRunningObjectTable prot);
         }
     }
 }

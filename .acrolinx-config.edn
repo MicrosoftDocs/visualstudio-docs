@@ -1,2 +1,2 @@
 {:allowed-branchname-matches ["master" "release-.*" "sandbox-.*"]
- :allowed-filename-matches ["docs" "mac" "scripting-docs" "subscriptions"]}
+ :allowed-filename-matches ["docker/" "docs/" "mac/" "scripting-docs/" "subscriptions/"]}

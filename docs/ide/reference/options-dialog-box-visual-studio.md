@@ -15,6 +15,7 @@ ms.assetid: 02b09877-1df1-4531-a0d1-a4ca17c7f857
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
@@ -38,3 +39,4 @@ Clicking OK in the **Options** dialog box saves all settings on all pages. Click
 ## See also
 
 - [Customizing the Editor](../how-to-change-text-case-in-the-editor.md)
+- [Git settings and preferences](../../version-control/git-settings.md)

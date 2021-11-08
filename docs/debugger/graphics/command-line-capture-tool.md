@@ -3,11 +3,12 @@ title: "Command-Line Capture Tool | Microsoft Docs"
 description: Learn about DXCap.exe, a command-line tool for graphics diagnostics capture and playback that supports Direct3D 10 through Direct3D 12 across all feature levels.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: db75b3a7-80b2-4a74-91d2-fd6e0f73b45d
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -130,7 +131,7 @@ DXCap.exe -file regression_test_12.vsglog -c BasicHLSL11.exe
 DXCap.exe -c "C:\Program Files\Internet Explorer\iexplorer.exe" "www.fishgl.com"
 ```
 
- The command in the example above captures graphics information from the desktop version of Internet Explorer while viewing the webpage located at www.fishgl.com which uses the WebGL API to render 3-D content.
+ The command in the example above captures graphics information from the desktop version of Internet Explorer while viewing the webpage located at `www.fishgl.com` which uses the WebGL API to render 3-D content.
 
 > [!NOTE]
 > Because command line arguments that appear after the app are passed to it, you must specify the arguments intended for DXCap.exe before using the `-c` option.

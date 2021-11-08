@@ -3,7 +3,7 @@ title: Create an Extension Pack
 description: Learn how to create an Extension Pack with the Extension Pack Item Template
 ms.custom: SEO-VS-2020
 ms.date: 07/27/2018
-ms.topic: conceptual
+ms.topic: tutorial
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - extensions
 ms.assetid: 5388EEBA-211D-4114-8CD9-70C899919F7E

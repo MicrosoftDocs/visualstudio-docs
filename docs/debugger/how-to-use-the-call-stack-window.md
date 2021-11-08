@@ -1,7 +1,7 @@
 ---
 title: View the call stack in the debugger | Microsoft Docs
 description: Use the Call Stack window to view the function or procedure calls that are currently on the stack in Visual Studio.
-ms.custom: "SEO-VS-2020, seodec18"
+
 ms.date: 10/29/2018
 ms.topic: how-to
 f1_keywords: 
@@ -28,6 +28,7 @@ ms.assetid: 5154a2a1-4729-4dbb-b675-db611a72a731
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload: 
   - multiple
 ---

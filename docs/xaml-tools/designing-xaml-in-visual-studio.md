@@ -9,6 +9,7 @@ ms.assetid: 288e2415-9fcf-408e-bc35-9848315e14fd
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-xaml-tools
 ---
 # Design XAML in Visual Studio and Blend for Visual Studio
 

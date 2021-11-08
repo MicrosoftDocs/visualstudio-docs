@@ -2,7 +2,7 @@
 description: "This function examines a list of fully qualified directories for their current status."
 title: SccDirQueryInfo Function | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccDirQueryInfo
 helpviewer_keywords:
@@ -11,6 +11,7 @@ ms.assetid: 459e2d99-573d-47c4-b834-6d82c5e14162
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

@@ -1,9 +1,8 @@
 ---
 title: "Measure performance from the command line"
 description: "Measure CPU performance and managed memory usage in your application from the command line."
-ms.custom: ""
-ms.date: "02/21/2020"
-ms.topic: "conceptual"
+ms.date: 9/13/2021
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Profiling Tools, command-line"
   - "Diagnostics Tools, command-line"
@@ -11,6 +10,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 monikerRange: '>= vs-2019'
 ms.workload: 
   - "multiple"
@@ -38,7 +38,12 @@ Profiling using the Visual Studio Diagnostics CLI tools works by attaching the p
 
 1. Open a command prompt and change to the directory with the collection agent executable, typically here (for Visual Studio Enterprise).
 
+   ::: moniker range=">= vs-2022"
+   ```<Visual Studio installation folder>\2022\Enterprise\Team Tools\DiagnosticsHub\Collector\```
+   ::: moniker-end
+   ::: moniker range="vs-2019"
    ```<Visual Studio installation folder>\2019\Enterprise\Team Tools\DiagnosticsHub\Collector\```
+   ::: moniker-end
 
 1. Start *VSDiagnostics.exe* by typing the following command.
 

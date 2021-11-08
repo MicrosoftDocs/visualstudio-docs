@@ -2,12 +2,13 @@
 title: What is WPF?
 description: Get started with Windows Presentation Foundation, a framework for creating desktop client applications that supports a broad set of development features.
 ms.custom: SEO-VS-2020
-ms.date: 04/16/2018
+ms.date: 10/30/2020
 ms.topic: overview
 ms.assetid: f3be98cb-870f-472c-9da5-cb815e4f6598
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-designers
 ms.workload:
 - multiple
 ---

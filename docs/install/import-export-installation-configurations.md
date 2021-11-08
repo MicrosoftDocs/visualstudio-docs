@@ -4,15 +4,13 @@ titleSuffix: ''
 description: Learn how to export your installation configuration to a .vsconfig file to share with others, and how to import it to clone.
 ms.date: 05/18/2019
 ms.topic: how-to
-f1_keywords:
-- vs.about
 helpviewer_keywords:
 - import installation configuration
 - export installation configuration
 - install Visual Studio
 - Visual Studio installer
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.workload:
 - multiple
@@ -60,7 +58,7 @@ When you're ready to import an installation configuration file, follow these ste
 
 1. Make sure you've got the workloads and components that you want, and then choose **Close**.
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ## Automatically install missing components
 

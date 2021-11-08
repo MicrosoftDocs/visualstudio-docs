@@ -2,7 +2,7 @@
 description: "This function sets options that control the behavior of the source control plug-in."
 title: SccSetOption Function | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccSetOption
 helpviewer_keywords:
@@ -11,6 +11,7 @@ ms.assetid: 4b5e6666-c24c-438a-a9df-9c52f58f8175
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

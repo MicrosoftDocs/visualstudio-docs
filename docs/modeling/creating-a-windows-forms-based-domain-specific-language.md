@@ -3,9 +3,10 @@ title: Create a Windows Forms-Based Domain-Specific Language
 description: Provides information about how to use Windows Forms to display the state of a domain-specific language model.
 ms.date: 11/04/2016
 ms.topic: how-to
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
+ms.technology: vs-ide-modeling
 ms.custom: SEO-VS-2020
 ms.workload:
 - multiple

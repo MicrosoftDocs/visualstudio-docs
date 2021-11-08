@@ -1,7 +1,7 @@
 ---
 title: Migrate from FxCop analyzers to .NET analyzers
 ms.custom: SEO-VS-2020
-description: "Learn how to how to migrate from FxCop analyzers to .NET analyzers"
+description: "Learn how to migrate from FxCop analyzers to .NET analyzers."
 ms.date: 03/06/2020
 ms.topic: conceptual
 f1_keywords:
@@ -13,6 +13,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-code-analysis
 ---
 
 # Migrate from FxCop analyzers to .NET analyzers

@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2017"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2017."
-ms.date: 12/18/2018
+ms.date: 10/01/2021
 f1_keywords:
   - "VS.StartPage.WhatsNew"
 helpviewer_keywords:
@@ -12,8 +12,8 @@ ms.assetid: 7307e180-ba28-4774-8a43-cbb980085a71
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
-ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
+ms.prod: visual-studio-windows
 ms.topic: conceptual
 ms.workload:
   - "multiple"
@@ -344,7 +344,7 @@ For more information, see the [.NET Core guide](/dotnet/core/index) page.
 
 As part of the "Games development for Unity" workload, we've included tools to help you develop cross-platform to create 2D and 3D games and interactive content. Create once and publish to 21 platforms, including all mobile platforms, WebGL, Mac, PC and Linux desktop, web, or consoles by using Visual Studio 2017 and Unity 5.6.
 
-For more information, see the [Visual Studio Tools for Unity](/gamedev/unity/get-started/visual-studio-tools-for-unity.md) page.
+For more information, see the [Visual Studio Tools for Unity](/visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity) page.
 
 ## AI development
 
@@ -371,7 +371,7 @@ And don't forget to check out our newest version, [Visual Studio 2019](whats-new
 
 Why send feedback to the Visual Studio team? Because we take customer feedback seriously. It drives much of what we do.
 
-If you want to make a suggestion about how we can improve Visual Studio, or learn more about product support options, please see the [Send us feedback](feedback-options.md) page.
+If you want to make a suggestion about how we can improve Visual Studio, or learn more about product support options, please see the [Developer Community](https://developercommunity.visualstudio.com/home) page.
 
 ### Report a problem
 

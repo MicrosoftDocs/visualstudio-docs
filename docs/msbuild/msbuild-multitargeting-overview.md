@@ -8,6 +8,7 @@ ms.assetid: eecbcd65-9fbc-4307-a321-46d3c3b79b12
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---
@@ -44,7 +45,7 @@ By using MSBuild, you can compile an application to run on any one of several ve
 
 ## Configure targets and tasks
 
- You can configure MSBuild targets and tasks to run out-of-process with MSBuild so that you can target contexts that are considerably different than the one you are running on.  For example, you can target a 32-bit, .NET Framework 2.0 application while the development computer is running on a 64-bit platform with .NET Framework 4.5. For more information, see [Configure targets and tasks](../msbuild/configuring-targets-and-tasks.md).
+ You can configure MSBuild targets and tasks to run out-of-process with MSBuild so that you can target contexts that are considerably different than the one you are running on.  For example, you can target a 32-bit, .NET Framework 2.0 application while the development computer is running on a 64-bit platform with .NET Framework 4.5. For more information, see [Configure targets and tasks](../msbuild/configure-tasks.md).
 
 ## Troubleshooting
 

@@ -3,11 +3,12 @@ title: Menus and Commands for Visual Studio | Microsoft Docs
 description: Learn how command bars allow for flexibility in the user interface when you create new features for Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 ms.assetid: 0a1ed675-2bd1-4603-ba3a-f40dfb5cfb69
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
@@ -281,6 +282,6 @@ ms.workload:
 
   There is not a simple way to check shortcut availability. If you want to add a shortcut, follow these steps:
 
-1. Check the list of [Visual Studio 2013 shortcuts](http://visualstudioshortcuts.com/2013/) to determine if there are similar commands to group yours with.
+1. Check the list of [Visual Studio 2013 shortcuts](/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio) to determine if there are similar commands to group yours with.
 
 2. Go to **Tools > Options > Environment > Keyboard** and test your shortcut. Check each keyboard mapping scheme listed under "Apply the following additional keyboard mapping scheme." Check General, C#, VB, and C++ profiles, as those share unique shortcuts. Your shortcut is available if it's not mapped in any of those places.

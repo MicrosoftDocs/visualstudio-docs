@@ -2,10 +2,12 @@
 title: Installing the R Tools
 description: How to install R Tools in Visual Studio 2017 and Visual Studio 2015, including offline installations.
 ms.date: 01/24/2018
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: jmartens
+ms.technology: vs-rtvs
 ms.workload:
   - data-science
 monikerRange: vs-2017

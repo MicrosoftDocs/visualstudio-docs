@@ -1,7 +1,7 @@
 ---
 title: "View variable values in DataTips | Microsoft Docs"
 description: Use DataTips to conveniently view information about variables, including arrays and structures, while debugging. You can also modify values.
-ms.custom: "SEO-VS-2020, seodec18"
+
 ms.date: "11/21/2018"
 ms.topic: "conceptual"
 dev_langs:
@@ -17,6 +17,7 @@ ms.assetid: ffa7bd18-439b-4685-a9b3-c7884b5de41f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

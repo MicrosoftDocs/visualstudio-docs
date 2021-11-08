@@ -10,6 +10,7 @@ ms.assetid: f3152c4e-7673-4047-a079-2326941d1c83
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 dev_langs:
 - CSharp
 - VB

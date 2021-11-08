@@ -2,10 +2,12 @@
 title: Interactive REPL for R
 description: How to use the interactive REPL environment for R inVisual Studio, which is integrated with editor windows.
 ms.date: 06/28/2017
+ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: jmartens
+ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---

@@ -3,11 +3,12 @@ title: "Point/bilinear/trilinear/anisotropic texture filter variants"
 description: If the performance cost of a point, bilinear, trilinear, or anisotropic texture filtering variant is significant, you can consider if its use is worth the cost. 
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: 57d14fc9-b5f7-45ee-9717-48086886742d
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

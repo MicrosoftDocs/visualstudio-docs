@@ -1,17 +1,19 @@
 ---
 title: "Create a Vue.js app using Node.js"
 description: You can create Node.js applications in Visual Studio using the Vue.js framework
-ms.custom: "seodec18"
+
 ms.date: "07/06/2018"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-javascript
 dev_langs:
   - JavaScript
 ms.workload:
   - "nodejs"
+monikerRange: '<= vs-2019'
 ---
 
 # Create a Vue.js application using Node.js Tools for Visual Studio
@@ -68,7 +70,7 @@ For this example, you use an empty ASP.NET Core Application (C#). However, you c
     ::: moniker range=">=vs-2019"
     In Visual Studio 2019, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Empty**, and then choose **Next**. On the next screen, name the project **client-app**, and then choose **Next**.
 
-    Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+    Choose either the recommended target framework or .NET 6, and then choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **Visual C#**, then choose **Web**. In the middle pane, choose **ASP.NET Core Web Application**, type the name **client-app**, and then choose **OK**.

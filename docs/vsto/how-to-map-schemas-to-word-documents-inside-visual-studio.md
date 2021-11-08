@@ -2,7 +2,7 @@
 title: "How to: Map schemas to Word documents inside Visual Studio"
 description: Learn how you can map an XML schema to a Microsoft Office Word document while the document is open in Visual Studio.
 titleSuffix: ""
-ms.custom: "seodec18, SEO-VS-2020"
+
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -15,6 +15,7 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---

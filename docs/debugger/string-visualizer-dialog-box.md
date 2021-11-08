@@ -1,7 +1,7 @@
 ---
-title: "String Visualizer dialog box | Microsoft Docs"
+title: "String Visualizer (Text, XML, HTML, JSON)"
 description: View strings with the built-in String Visualizer dialog box while you are debugging in Visual Studio.
-ms.date: "10/10/2018"
+ms.date: "10/10/2021"
 ms.custom: contperf-fy21q4
 ms.topic: "reference"
 f1_keywords:
@@ -19,10 +19,11 @@ ms.assetid: 080fd8f1-72b0-461f-8451-3c84d5dc51df
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
-# String Visualizer dialog box
+# View Text, XML, HTML, JSON strings in the string visualizer
 
 While you are debugging in Visual Studio, you can view strings with the built-in string visualizer. The string visualizer shows strings that are too long for a data tip or debugger window. It can also help you identify malformed strings.
 
@@ -31,7 +32,12 @@ The built-in string visualizers includes [Text](#text-string-data), [XML](#xml-s
 > [!NOTE]
 > If you need to inspect XAML or WPF UI elements in a visualizer, see or [Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md) or [How to use the WPF tree visualizer](../debugger/how-to-use-the-wpf-tree-visualizer.md).
 
-To open the string visualizer, you must be paused during debugging. Hover over a variable that has a plain text, XML, HTML, or JSON string value, and select the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon").
+## Open the visualizer
+
+To open the string visualizer:
+1. Pause during debugging. 
+2. Hover over a variable that has a plain text, XML, HTML, or JSON string value.
+3. Select the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon").
 
 ## UIElement list
 

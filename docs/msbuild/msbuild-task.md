@@ -18,6 +18,7 @@ ms.assetid: 76577f6c-7669-44ad-a840-363e37a04d34
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---
@@ -37,8 +38,8 @@ Builds MSBuild projects from another MSBuild project.
 | `RebaseOutputs` | Optional `Boolean` parameter.<br /><br /> If `true`, the relative paths of target output items from the built projects have their paths adjusted to be relative to the calling project. Default is `false`. |
 | `RemoveProperties` | Optional `String` parameter.<br /><br /> Specifies the set of global properties to remove. |
 | `RunEachTargetSeparately` | Optional `Boolean` parameter.<br /><br /> If `true`, the MSBuild task invokes each target in the list passed to MSBuild one at a time, instead of at the same time. Setting this parameter to `true` guarantees that subsequent targets are invoked even if previously invoked targets failed. Otherwise, a build error would stop invocation of all subsequent targets. Default is `false`. |
-| `SkipNonexistentProjects` | Optional `Boolean` parameter.<br /><br /> If `true`, project files that do not exist on the disk will be skipped. Otherwise, such projects will cause an error. |
-|`SkipNonexistentTargets`|Optional `Boolean` parameter.<br /><br /> If `true`, project files that exist but do not contain the named `Targets` will be skipped. Otherwise, such projects will cause an error. Introduced in MSBuild 15.5.|
+| `SkipNonexistentProjects` | Optional `Boolean` parameter.<br /><br /> If `true`, project files that do not exist on the disk will be skipped. Otherwise, such projects will cause an error. Defaults to `false`.|
+|`SkipNonexistentTargets`|Optional `Boolean` parameter.<br /><br /> If `true`, project files that exist but do not contain the named `Targets` will be skipped. Otherwise, such projects will cause an error. Defaults to `false`. Introduced in MSBuild 15.5.|
 | `StopOnFirstFailure` | Optional `Boolean` parameter.<br /><br /> If `true`, when one of the projects fails to build, no more projects will be built. Currently this is not supported when building in parallel (with multiple processors). |
 | `TargetAndPropertyListSeparators` | Optional `String[]` parameter.<br /><br /> Specifies a list of targets and properties as `Project` item metadata). Separators will be un-escaped before processing. e.g. %3B (an escaped ';') will be treated as if it were an un-escaped ';'. |
 | `TargetOutputs` | Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` read-only output parameter.<br /><br /> Returns the outputs of the built targets from all the project files. Only the outputs from the targets that were specified are returned, not any outputs that may exist on targets that those targets depend on.<br /><br /> The `TargetOutputs` parameter also contains the following metadata:<br /><br /> -   `MSBuildSourceProjectFile`: The MSBuild project file that contains the target that set the outputs.<br />-   `MSBuildSourceTargetName`: The target that set the outputs. **Note:**  If you want to identify the outputs from each project file or target separately, run the `MSBuild` task separately for each project file or target. If you run the `MSBuild` task only once to build all the project files, the outputs of all the targets are collected into one array. |

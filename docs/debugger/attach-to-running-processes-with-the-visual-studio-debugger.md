@@ -1,8 +1,8 @@
 ---
 title: "Attach to running processes with the debugger"
 description: Discover how to attach the Visual Studio debugger to a running process on a local or remote computer.
-ms.custom: "SEO-VS-2020, seodec18"
-ms.date: "06/12/2020"
+ms.custom: "SEO-VS-2020"
+ms.date: "09/10/2021"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.processes.attach"
@@ -27,9 +27,11 @@ ms.assetid: 27900e58-090c-4211-a309-b3e1496d5824
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
+
 # Attach to running processes with the Visual Studio debugger
 
 You can attach the Visual Studio debugger to a running process on a local or remote computer. After the process is running, select **Debug** > **Attach to Process** or press **Ctrl**+**Alt**+**p** in Visual Studio, and use the **Attach to Process** dialog to attach the debugger to the process.
@@ -77,6 +79,11 @@ To quickly reattach to a process you attached to previously, see [Reattach to a 
 
 1. Select **Attach**.
 
+::: moniker range=">= vs-2022"
+> [!TIP]
+> In the scenario where you have multiple identical processes, use the Command Line column or the w3wp process details from the Title column to identify the right process.
+::: moniker-end
+
 >[!NOTE]
 >You can be attached to multiple apps for debugging, but only one app is active in the debugger at a time. You can set the active app in the Visual Studio **Debug Location** toolbar or **Processes** window.
 
@@ -101,16 +108,22 @@ For more complete instructions for debugging ASP.NET applications that have been
 
      Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
 
-     ::: moniker range=">= vs-2019"
+     ::: moniker range=">= vs-2022"
 
      > [!NOTE]
-     > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4024 is the default port for the Visual Studio 2019 x64 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).
+     > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4026 is the default port for the Visual Studio 2022 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).
+
+     ::: moniker-end
+     ::: moniker range="vs-2019"
+
+     > [!NOTE]
+     > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4024 is the default port for the Visual Studio 2019 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).
 
      ::: moniker-end
      ::: moniker range="vs-2017"
 
      > [!NOTE]
-     > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4022 is the default port for the Visual Studio 2017 x64 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).
+     > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4022 is the default port for the Visual Studio 2017 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).
 
      ::: moniker-end
 
@@ -133,7 +146,7 @@ For more complete instructions for debugging ASP.NET applications that have been
    - To find processes running under all user accounts, select the **Show processes from all users** check box.
 
      >[!NOTE]
-     >If you try to attach to a process owned by an untrusted user account, a security warning dialog box confirmation will appear. For more information see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md).
+     >If you try to attach to a process owned by an untrusted user account, a security warning dialog box confirmation will appear. For more information, see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md).
 
 5. In the **Attach to** field, make sure the type of code you plan to debug is listed. The default **Automatic** setting works for most app types.
 
@@ -153,6 +166,12 @@ For more complete instructions for debugging ASP.NET applications that have been
 In some cases, when you debug in a Remote Desktop (Terminal Services) session, the **Available processes** list won't display all available processes. If you are running Visual Studio as a user who has a limited user account, the **Available processes** list won't show processes that are running in Session 0. Session 0 is used for services and other server processes, including *w3wp.exe*. You can solve the problem by running [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] under an administrator account or by running [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] from the server console instead of a Terminal Services session.
 
 If neither of those workarounds is possible, a third option is to attach to the process by running `vsjitdebugger.exe -p <ProcessId>` from the Windows command line. You can determine the process ID using *tlist.exe*. To obtain *tlist.exe*, download and install Debugging Tools for Windows, available at  [WDK and WinDbg downloads](/windows-hardware/drivers/download-the-wdk).
+
+## Attach to a .NET Core process running on Azure App Service (Windows)
+
+If you're publishing to Azure App Service (Windows), you'll find the **Attach Debugger** option under the **...** menu under **Hosting**. Visual Studio attempts to attach the remote debugger to the instance of Azure App Service (Windows) that the profile is publishing to.
+
+:::image type="content" source="../debugger/media/attach-debugger-publish-profile.png" alt-text="Screenshot of the Attach Debugger option from within the Publish summary page.":::
 
 ## Attach to a .NET Core process running on Linux using SSH
 

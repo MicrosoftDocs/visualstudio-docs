@@ -1,13 +1,14 @@
 ---
 title: "Remote debug ASP.NET on an IIS computer"
 description: Learn how to set up and configure a Visual Studio ASP.NET MVC 4.5.2 application, deploy it to IIS, and attach the remote debugger from Visual Studio. 
-ms.custom: ['remotedebugging', 'seodec18']
-ms.date: 05/06/2020
+ms.custom: ['remotedebugging']
+ms.date: 08/31/2021
 ms.topic: "conceptual"
 ms.assetid: 9cb339b5-3caf-4755-aad1-4a5da54b2a23
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "aspnet"
 ---
@@ -208,7 +209,10 @@ For information on running the remote debugger as a service, see [Run the remote
 
     Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
 
-    ::: moniker range=">=vs-2019"
+    ::: moniker range=">=vs-2022"
+    On Visual Studio 2022, you should see **\<remote computer name>:4026**
+    ::: moniker-end
+    ::: moniker range="vs-2019"
     On Visual Studio 2019, you should see **\<remote computer name>:4024**
     ::: moniker-end
     ::: moniker range="vs-2017"
@@ -243,7 +247,16 @@ For information on running the remote debugger as a service, see [Run the remote
 
     The breakpoint should be hit in Visual Studio.
 
-## <a name="bkmk_openports"></a> Troubleshooting: Open required ports on Windows Server
+## Troubleshooting IIS deployment
+
+- If you can't connect to the host using the host name, try the IP address instead.
+- Make sure the required ports are open on the remote server.
+- Verify that the version of ASP.NET used in your app is the same as the version you installed on the server. For your app, you can view and set the version in the **Properties** page. To set the app to a different version, that version must be installed.
+- If the app tried to open, but you see a certificate warning, choose to trust the site. If you already closed the warning, you can edit the publishing profile, a *.pubxml file, in your project and add the following element (for test only): `<AllowUntrustedCertificate>true</AllowUntrustedCertificate>`
+- If the app does not start from Visual Studio, start the app in IIS to test that it deployed correctly.
+- Check the Output window in Visual Studio for status information, and check your error messages.
+- 
+## <a name="bkmk_openports"></a> Open required ports on Windows Server
 
 In most setups, required ports are opened by the installation of ASP.NET and the remote debugger. However, you may need to verify that ports are open.
 
@@ -253,6 +266,9 @@ In most setups, required ports are opened by the installation of ASP.NET and the
 Required ports:
 
 * 80 - Required for IIS
+::: moniker range=">=vs-2022"
+* 4026 - Required for remote debugging from Visual Studio 2022 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
+::: moniker-end
 ::: moniker range=">=vs-2019"
 * 4024 - Required for remote debugging from Visual Studio 2019 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
 ::: moniker-end

@@ -3,7 +3,7 @@ title: Exposing Properties to the Properties Window | Microsoft Docs
 description: Learn about the public properties of an object. The changes you make to these properties are reflected in the Properties window.
 ms.custom: SEO-VS-2020
 ms.date: 3/16/2019
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - properties [Visual Studio SDK], exposing in Property Browser
 - properties [Visual Studio SDK]
@@ -12,6 +12,7 @@ ms.assetid: 47f295b5-1ca5-4e7b-bb52-7b926b136622
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

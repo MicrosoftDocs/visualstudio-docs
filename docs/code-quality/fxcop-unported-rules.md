@@ -1,5 +1,6 @@
 ---
 title: Unported rules
+description: "Learn about FxCop legacy analysis rules that haven't been implemented as Roslyn analyzers."
 ms.date: 05/21/2019
 ms.topic: reference
 helpviewer_keywords:
@@ -8,6 +9,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-code-analysis
 ms.workload:
 - dotnet
 ---

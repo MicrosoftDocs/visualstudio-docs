@@ -13,6 +13,7 @@ ms.assetid: 716c2af5-8737-4d31-956f-a0273f7c5c0c
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Export load test results from a repository
 

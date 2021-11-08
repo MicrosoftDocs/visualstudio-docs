@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 apps for enterprise in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: d1257931-392a-4a65-bf26-177737505122
 ms.date: 03/21/2021
@@ -82,5 +82,5 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 Be sure to activate these great benefits to make the most of your Visual Studio subscription:
 - [Visual Studio](vs-ide-benefit.md)
 - [Azure DevOps](vs-azure-devops.md)
-- [Azure DevTest individual credit](vs-azure.md)
+- [Azure DevTest offer / credits](/azure/devtest/offer/)
 If you're planning to develop applications for Office, you'll want to activate your [Office Developer Subscription](./vs-m365.md)

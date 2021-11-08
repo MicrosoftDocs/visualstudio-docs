@@ -8,6 +8,7 @@ ms.assetid: 8aa067bb-e8bf-4081-aff0-cfbcf65934a0
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 monikerRange: 'vs-2017'
 ms.workload: 
   - multiple
@@ -42,9 +43,9 @@ To display symbol information such as function names and line numbers, the VSPer
 
 2. Use the following syntax to set the **_NT_SYMBOL_PATH** environment variable or the VSPerfReport /SymbolPath option:
 
-    `srv*<LocalStore>*https://msdl.microsoft.com/download/symbols`
+    `srv*{LocalStore}*https://msdl.microsoft.com/download/symbols`
 
-    where *<LocalStore>* is the path of the local directory that you created.
+    where *{LocalStore}* is the path of the local directory that you created.
 
 ## Specify component symbol files
  Profiling Tools searches for the.*pdb* files of the components that you want to profile in their original locations that are stored in the components or in the folder that contains the profiling data file. You can specify other locations to search by adding one or more paths to **_NT_SYMBOL_PATH** or to the **/SymbolPath** option. Separate paths with semi-colons.

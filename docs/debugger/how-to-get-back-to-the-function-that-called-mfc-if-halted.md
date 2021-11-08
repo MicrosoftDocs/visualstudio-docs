@@ -1,7 +1,7 @@
 ---
 title: Get back to the function that called MFC if halted | Microsoft Docs
 description: Understand how to get back to the function that called MFC if execution is halted in the Visual Studio debugger.
-ms.custom: "SEO-VS-2020, seodec18"
+
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -23,6 +23,7 @@ ms.assetid: d254a5a9-afbd-4923-9d7a-7422d824cabf
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload: 
   - multiple
 ---

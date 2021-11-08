@@ -16,8 +16,10 @@ ms.assetid: db648e5f-6375-4e2d-aa98-eb7261958927
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload: 
   - multiple
+monikerRange: "<=vs-2019"
 ---
 # Debug 64-Bit Applications
 You can debug a 64-bit application that is running on the local computer or on a remote computer.
@@ -40,11 +42,11 @@ You can debug a 64-bit application that is running on the local computer or on a
 4. Start debugging. You should have the same experience as with a 32-bit configuration. If you get errors, see the Troubleshooting section below.
 
 ## Troubleshooting 64-bit debugging
- You may see an error: "A 64-bit debugging operation is taking longer than expected." In this case, Visual Studio has sent a request to the 64-bit version of msvsmon.exe, and it has taken a long time for the result of that request to come back.
+ You may see an error: "A 64-bit debugging operation is taking longer than expected." or "A debugger operation is taking longer than expected." In this case, Visual Studio has sent a request to msvsmon.exe, and it has taken a long time for the result of that request to come back.
 
  There are two main causes for this error:
 
-- You have networking security software installed on your computer that has caused the networking stack to be unreliable, and it has dropped packets going over localhost. Try disabling all network security software and see if this resolves it. If so, report to your network security software vendor that the software is interfering with localhost traffic.
+- You have networking security software installed on your computer that has caused the networking stack to be unreliable, and it has dropped packets going over localhost. Try disabling all network security software and see if this resolves it. If so, report to your network security software vendor that the software is interfering with localhost traffic. This should not occur with Visual Studio 2019 and later, because those versions don't use sockets for this communication.
 
 - You are running into an issue where Visual Studio becomes unresponsive, or other performance problem. If the problem happens regularly, you can collect dumps of Visual Studio (devenv.exe) and the worker process (msvsmon.exe) and send them to Microsoft. For information about reporting a problem, see [How to Report a Problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md).
 

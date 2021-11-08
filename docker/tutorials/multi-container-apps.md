@@ -1,11 +1,13 @@
 ---
-title: "Docker tutorial - Part 6: Multi-container apps"
+title: "Docker tutorial - Part 7: Multi-container apps"
 description: How to set up networking between containers, and add a container for a MySQL database.
-ms.date: "08/04/2020"
+ms.date: "08/06/2021"
 author: nebuk89
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.technology: vs-docker
+ms.custom: "contperf-fy22q1"
+
 ms.topic: conceptual
 ms.workload:
   - "azure"

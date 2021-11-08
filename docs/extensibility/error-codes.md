@@ -3,7 +3,7 @@ title: Error Codes | Microsoft Docs
 description: This article contains a list of error codes, values, and descriptions for Source Control Plug-in API functions.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - error codes, source control plug-ins
 - source control plug-ins, error codes
@@ -12,6 +12,7 @@ ms.assetid: d9cbd1c4-719b-467a-8100-333c1e146d3b
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

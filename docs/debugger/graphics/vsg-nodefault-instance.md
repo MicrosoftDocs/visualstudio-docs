@@ -2,11 +2,12 @@
 description: "Defines by its presence whether a default instance of the VsgDbg Class class—which provides the programmatic capture interface—is supplied."
 title: "VSG_NODEFAULT_INSTANCE | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: 19c95b0d-9a4d-441f-9ed7-3acb39e67521
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

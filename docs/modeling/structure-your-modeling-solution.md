@@ -4,9 +4,10 @@ description: Learn a modeling scheme for dividing the application into different
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
 - multiple
 ---
@@ -18,7 +19,7 @@ To start on a project or subproject quickly, it is useful to have a project temp
 
 This topic assumes that you are working on a project that is large enough to require several team members, and perhaps has several teams. The code and models of the project are stored on a source control system such as [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)]. At least some team members use Visual Studio to develop models, and other team members can view the models by using other Visual Studio versions.
 
-To see which versions of Visual Studio support each tool and modeling feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+To see which versions of Visual Studio support each tool and modeling feature, see [Version support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
 ## Solution structure
 
@@ -105,4 +106,3 @@ For example, if you frequently use solutions that have Presentation, Business, a
 ## See also
 
 - [Use models in your development process](../modeling/use-models-in-your-development-process.md)
-- [Visual Studio Architecture Tooling Guidance](../modeling/visual-studio-architecture-tooling-guidance.md)

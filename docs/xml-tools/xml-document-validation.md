@@ -2,12 +2,13 @@
 title: XML Document Validation in XML editor
 description: Learn about XML document validation in the XML editor and how it checks XML 1.0 syntax and performs data validation as you type.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 09/16/2021
 ms.topic: conceptual
 ms.assetid: abb353bd-6c4a-4978-b03b-a8c245bbfb55
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-xml-tools
 ms.workload:
 - multiple
 ---
@@ -38,6 +39,11 @@ When editing an XSLT file, the *xslt.xsd* file located in the schema cache is us
 
 ## XML schema (XSD) files
 When editing an XML Schema file, the *xsdschema.xsd* file located in the schema cache is used for validation. Validation errors are shown as blue wavy underlines. Any compilation errors are also shown with red wavy underlines.
+
+## Entity Reference Limit
+DTD processing limits the number of entity references by default to 10,000 references and can accomodate most XML schemas.  The error message in Visual Studio may read "Exceeded entity references limit for filename".
+
+If you encounter this limitation in processing an XML document and wish to extend the validator to a larger schema, this can be changed with the `MaxNumberOfDtdEntityReferences` Visual Studio registry key. See [editing the registry for a Visual Studio instance](../install/tools-for-managing-visual-studio-instances.md#editing-the-registry-for-a-visual-studio-instance) for more information on making this change. Please note that this applies to all XML documents opened by the user on that machine.
 
 ## See also
 

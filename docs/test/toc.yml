@@ -54,13 +54,15 @@
     href: run-a-unit-test-as-a-64-bit-process.md
   - name: Configure unit tests by using a .runsettings file
     href: configure-unit-tests-by-using-a-dot-runsettings-file.md
+  - name: Test Execution with Hot Reload
+    href: test-execution-with-hot-reload.md
   - name: Write unit tests for managed code
     items:
     - name: "Walkthrough: Create and run unit tests for managed code"
       href: walkthrough-creating-and-running-unit-tests-for-managed-code.md
     - name: "Walkthrough: Test-driven development"
       href: quick-start-test-driven-development-with-test-explorer.md
-    - name: Use the MSTest API in unit tests
+    - name: Use the MSTest framework in unit tests
       href: using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md
     - name: Use the assert classes
       href: using-the-assert-classes.md
@@ -402,3 +404,5 @@
     href: lab-management/use-build-or-rm-instead-of-lab-management.md
   - name: Install test agents and test controllers
     href: lab-management/install-configure-test-agents.md
+- name: Remote testing in Visual Studio
+  href: remote-testing.md

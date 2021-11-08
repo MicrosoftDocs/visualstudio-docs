@@ -8,6 +8,7 @@ ms.assetid: a29690bf-f212-4ac6-a77a-adc53d14102e
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-xaml-tools
 ---
 # Work with elements in XAML Designer
 

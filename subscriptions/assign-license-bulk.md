@@ -1,12 +1,11 @@
 ---
-title: Assign licenses to groups of users for Visual Studio subscriptions | Microsoft Docs
+title: Assign Visual Studio subscriptions to multiple users | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
-ms.assetid: c2853359-18fd-4be4-97a6-02230c862f92
-ms.date: 03/21/2021
-ms.topic: how-to
-description:  Learn how admins can assign licenses to multiple subscribers using either the Bulk add feature or Microsoft Azure Active Directory groups
+ms.date: 10/21/2021
+ms.topic: conceptual
+description:  Learn how admins can assign multiple subscriptions at one time.
 ---
 
 # Assign subscriptions to multiple users
@@ -77,7 +76,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
 > [!IMPORTANT]
 >
 > The following limitations apply to the use of Azure AD groups for adding subscribers:
-> - The admin must be a member of the AAD tenant when initially adding a group to the admin portal.  After the group has been added, changes to the membership of the groups does not require admin involvement. 
+> - The admin must be a member of the Azure AD tenant when initially adding a group to the admin portal.  After the group has been added, changes to the membership of the groups does not require admin involvement. 
 > - Groups must contain at least one member.  Empty groups are not supported.
 > - All users must be in the top level of the group.  Nested groups are not supported.
 > - Only trusted agreements are supported. (Only agreements who can 'overallocate' subscriptions are trusted.)
@@ -98,7 +97,7 @@ Watch this video or read on to learn more about adding subscribers using the Azu
    > [!div class="mx-imgBorder"]
    > ![Choose bulk add using Azure AD](_img/assign-license-bulk/bulk-add-aad.png "Choose the Bulk add using Azure AD feature to pull subscribers from your Azure Active Directory group.")
 
-4. Begin to enter the name of the Azure AD group that you'd like to add into the form field. This will search the available Azure AD groups within your organization. 
+4. A fly-out window will appear on the right.  Begin to enter the name of the Azure AD group that you'd like to add into the form field. This will search the available Azure AD groups within your organization. 
 
 5. When you select the group, the field will automatically populate with the group name. You will have the option to view the users in that group before you add them. Next, you can choose the subscription level, download rights, and communication preferences for the group. You can add details into the reference field if you wish. 
 
@@ -118,11 +117,6 @@ Watch this video or read on to learn more about adding subscribers using the Azu
 
 
 ## Frequently asked questions
-### Q: Can I choose multiple subscription levels to be assigned within an Azure AD group? 
-A: No -- everyone in the group receives the same subscription. 
-
-### Q: Can I edit subscriber details of individuals added in an Azure AD group?  
-A: No -- To modify information for an individual subscriber, you will need to remove them from the Azure AD security group and assign them a subscription individually.  
 
 ### Q: Why can't I see the option to use Azure Active Directory groups to add subscribers?
 A: The feature is currently only available to organizations with trusted agreements.  Select the **Details** button to display your agreement information.
@@ -130,8 +124,20 @@ A: The feature is currently only available to organizations with trusted agreeme
    > [!div class="mx-imgBorder"]
    > ![Click the Details button](_img/assign-license-bulk/bulk-add-agreement.png "Click the Details button to see what kind of agreement you have")
 
-### Q: I added someone to my Azure AD security group, but I don't see them added in the Subscriptions Administration Portal, and they don't have a subscription. Why not?  
-A: Depending on how your organization has configured Azure AD, you may see delays of up to 24 hours before the user is added. If it's been longer than 24 hours, please visit [Visual Studio administration and subscriptions support](https://my.visualstudio.com/gethelp).  
+### Q: I added users to my Azure Active Directory group, but they don’t have subscriptions yet. Why? 
+A: If the changes were made directly in Azure Active Directory the subscriptions should be assigned very quickly, however if the changes were made in an on-prem Active Directory it will first need to be sync’d to Azure Active Directory. Depending how your on-prem Active Directory is configured the changes could take up to 24 hours to be reflected. If it has been longer than 24 hours our [support team can help troubleshoot any issues](https://aka.ms/vsadminhelp). 
+
+### Q: Can I choose multiple subscription levels to be assigned within an Azure Active Directory group?
+A: No -- everyone in the group receives the same subscription level.
+
+### Q: Can I edit subscriber details of individuals added in an Azure Active Directory group?
+A: No -- To modify information for an individual subscriber, you will need to remove them from the Azure Active Directory security group and assign them a subscription individually.
+
+### Q: Can I add separate notification email addresses for members of an Azure Active Directory group?
+A: No – separate email addresses for notifications are currently not supported for subscriptions added using Azure Active Directory groups. All emails will be sent to the primary email (user principle name)
+
+## Resources
+- [Visual Studio administration and subscriptions support](https://aka.ms/vsadminhelp)
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
@@ -140,5 +146,4 @@ A: Depending on how your organization has configured Azure AD, you may see delay
 - [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-- Have just one or two subscribers to add?  Check out [Add single users](assign-license.md)
-- Need help? Contact [Subscriptions Support](https://aka.ms/vsadminhelp).
+- Have just one or two subscribers to add? Check out [Add single users](assign-license.md)

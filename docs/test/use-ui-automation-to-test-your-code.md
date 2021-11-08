@@ -16,10 +16,11 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ms.workload:
 - multiple
 ---
-# Use Coded UI test to test your code
+# Use Coded UI tests to test your code
 
 Coded UI tests (CUITs) drive your application through its user interface (UI). These tests include functional testing of the UI controls. They let you verify that the whole application, including its user interface, is functioning correctly. Coded UI tests are useful where there is validation or other logic in the user interface, for example in a web page. They are also frequently used to automate an existing manual test.
 
@@ -31,8 +32,11 @@ The specialized **Coded UI Test Builder** and editor make it easy to create and 
 
 ## Requirements
 
-- Visual Studio Enterprise
+- Visual Studio Enterprise 2019*
 - Coded UI test component
+
+   > [!NOTE]
+   > * Visual Studio 2019 is the last version to provide test creation via the recorder. Only basic minimal support for Coded UI Test is available in Visual Studio 2022.
 
 For more information about which platforms and configurations are supported by Coded UI tests, see [Supported platforms](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md).
 

@@ -8,12 +8,12 @@ ms.assetid: 92814100-392a-471d-96fd-e26f637d6cc2
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---
 # How to: Configure targets and tasks
 
-Selected MSBuild tasks can be set to run in the environment they target, regardless of the environment of the development computer. For example, when you use a 64-bit computer to build an application that targets a 32-bit architecture, selected tasks are run in a 32-bit process.
 Selected MSBuild tasks can be set to run in the environment they target, regardless of the environment of the development computer. For example, when you use a 64-bit computer to build an application that targets a 32-bit architecture, selected tasks are run in a 32-bit process.
 
 > [!NOTE]
@@ -36,7 +36,7 @@ The following `UsingTask` attributes affect all operations of a task in a partic
     AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v3.5.dll" />
 ```
 
-You can also use the `MSBuildRuntime` and `MSBuildArchitecture` parameters to set the target context of an individual task.
+You can also use the `MSBuildRuntime` and `MSBuildArchitecture` parameters to set the target context of an individual task invocation.
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -110,5 +110,5 @@ The `MSBuildRuntime` and `MSBuildArchitecture` parameters provide the most flexi
 
 ## See also
 
-- [Configure targets and tasks](../msbuild/configuring-targets-and-tasks.md)
+- [Configure targets and tasks](../msbuild/configure-tasks.md)
 - [UsingTask element](../msbuild/usingtask-element-msbuild.md)

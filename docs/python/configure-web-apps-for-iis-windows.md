@@ -3,10 +3,11 @@ title: Configure Python web apps for IIS
 description: How to configure Python web apps to run with Internet Information Services from a Windows virtual machine.
 ms.date: 12/06/2018
 ms.topic: how-to
-author: JoshuaPartlow
-ms.author: joshuapa
+author: rjmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
-ms.custom: seodec18
+ms.technology: vs-python
+
 ms.workload:
   - python
   - data-science
@@ -111,7 +112,7 @@ Next, modify your app's *web.config* file to include the full paths to *python.e
 
         ```xml
         <!-- Flask apps only: change the project name to match your app -->
-        <add key="WSGI_HANDLER" value="flask_iis_example.app"/>
+        <add key="WSGI_HANDLER" value="FlaskAzurePublishExample.app"/>
         ```
 
     - **Django**: Two changes are needed to *web.config* for Django projects. First, change the `WSGI_HANDLER` value to `django.core.wsgi.get_wsgi_application()` (the object is in the *wsgi.py* file):

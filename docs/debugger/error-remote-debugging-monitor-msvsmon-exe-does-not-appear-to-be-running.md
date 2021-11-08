@@ -2,7 +2,7 @@
 description: "This error message means that Visual Studio could not find the correct instance of the Visual Studio Remote Debugging Monitor on the remote computer."
 title: "The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer."
 titleSuffix: ""
-ms.custom: "seodec18"
+
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:
@@ -15,6 +15,7 @@ dev_langs:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -22,13 +23,13 @@ ms.workload:
 This error message means that Visual Studio could not find the correct instance of the Visual Studio Remote Debugging Monitor on the remote computer. The Visual Studio Remote Debugging Monitor must be installed for remote debugging to work. For information about downloading and setting up the remote debugger, see [Remote Debugging](../debugger/remote-debugging.md).
 
 > [!IMPORTANT]
-> If you believe you've received this message because of a product bug, please [report this issue to Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md). If you need more help, see [Talk to Us](../ide/feedback-options.md) for ways to contact Microsoft.
+> If you believe you've received this message because of a product bug, please [report this issue to Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md). If you need more help, see [Developer Community](https://developercommunity.visualstudio.com/home) for ways to contact Microsoft.
 
 ## I got this message while I was debugging in Visual Studio 2010 or earlier
  If the version of Visual Studio that you are using is Visual Studio 2010 or earlier, you might also receive this error if file and printer sharing is not enabled. To find out more about this issue, please refer to the Visual Studio 2010 version of this documentation: [Error: The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer. - Visual Studio 2010](/previous-versions/visualstudio/visual-studio-2010/ms164726(v=vs.100))
 
 ## I got this message while I was debugging locally
- If you are getting this message while you are debugging locally, your anti-virus software or a third-party firewall may be to blame. Visual Studio is a 32-bit application, so it uses the 64-bit version of the remote debugger to debug 64-bit applications. The two processes communicate using the local network within the local computer. No traffic leaves the computer, but it is possible that third party security software may block the communication.
+ If you are getting this message while you are debugging locally with Visual Studio 2017 or earlier, your anti-virus software or a third-party firewall may be to blame. Visual Studio 2019 and earlier are 32-bit applications. 32-bit versions of Visual Studio use the 64-bit version of the remote debugger to debug 64-bit applications. With Visual Studio 2017 and earlier, the two processes communicate using the local network within the local computer. No traffic leaves the computer, but it is possible that third party security software may block the communication.
 
  The following sections list some other reasons why you might have gotten this message, and what you can do to fix the issue.
 

@@ -20,6 +20,7 @@ ms.assetid: f5754363-8a56-417b-b904-b05d9dd26d03
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "cplusplus"
 ---
@@ -154,8 +155,13 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 ## <a name="BKMK_Diagnosing_issues"></a> Diagnosing issues
  If your scenario does not fit any of the conditions mentioned above, you can gather further details by setting the following DWORD registry value:
  1. Open a Developer Command Prompt.
- 2. Run the following command:  
+ 2. Run the following command: 
+    ::: moniker range=">=vs-2022" 
+     `VsRegEdit.exe set “C:\Program Files\Microsoft Visual Studio\[Version]\[YOUR EDITION]” HKCU Debugger NativeEncDiagnosticLoggingLevel DWORD 1`
+    ::: moniker-end
+    ::: moniker range="vs-2019"
      `VsRegEdit.exe set “C:\Program Files (x86)\Microsoft Visual Studio\[Version]\[YOUR EDITION]” HKCU Debugger NativeEncDiagnosticLoggingLevel DWORD 1`
+    ::: moniker-end
 
  Setting this value at the start of a debug session causes the various components of Edit and Continue to spew verbose logging to the **Output Window** > **Debug** pane.
 

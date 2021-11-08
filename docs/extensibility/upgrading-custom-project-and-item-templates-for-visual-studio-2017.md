@@ -4,11 +4,12 @@ titleSuffix: ''
 description: Learn how to update your custom project and item template from previous versions of the Visual Studio SDK for use with Visual Studio 2017 and later versions.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: ad02477b-e101-4f32-aeb7-292bf95d5c2f
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 monikerRange: vs-2017

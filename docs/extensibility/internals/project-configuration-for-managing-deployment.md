@@ -3,7 +3,7 @@ title: Project Configuration for Managing Deployment | Microsoft Docs
 description: Learn about deployment to the expected location for debugging and installation and the two ways Visual Studio supports projects that support deployment.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - project configurations, managing deployment
 - projects [Visual Studio SDK], configuration for managing deployment
@@ -11,6 +11,7 @@ ms.assetid: bd5940d9-d94d-4944-beda-4ec1ab2bbde5
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

@@ -2,13 +2,14 @@
 title: "Debug .NET Core on Linux"
 description: Debug .NET Core on Linux using Secure Shell (SSH) by attaching to a process. Prepare your app for debugging. Build and deploy the app. Attach the debugger.
 ms.custom: SEO-VS-2020
-ms.date: "02/26/2020"
+ms.date: "08/24/2021"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "remote debugging, linux"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -25,6 +26,8 @@ Starting in Visual Studio 2017, you can attach to .NET Core processes running on
   ``` cmd
   sudo apt-get install openssh-server unzip curl
   ```
+
+  SFTP must be enabled as well as SSH. Most SSH distributions install and enable SFTP by default, but that is not always the case.
 
 - On the Linux server, [install the .NET runtime on Linux](/dotnet/core/install/linux), and find the page matching your Linux distribution (such as Ubuntu). The .NET SDK is not required.
 

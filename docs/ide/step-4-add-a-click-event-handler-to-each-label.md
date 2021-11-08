@@ -4,15 +4,14 @@ description: Learn how to add a click event handler to each label.
 ms.custom: SEO-VS-2020 
 ms.date: 11/04/2016
 ms.topic: tutorial
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 dev_langs:
   - "CSharp"
   - "vb"
 ms.assetid: 16bdbc7c-4129-411d-bace-f4a3e5375975
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---

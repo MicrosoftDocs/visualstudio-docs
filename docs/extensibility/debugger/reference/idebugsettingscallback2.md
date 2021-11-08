@@ -9,6 +9,7 @@ ms.assetid: 7e525d0b-7d7a-4d1c-8b78-e1398fa922f2
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
@@ -18,7 +19,7 @@ Enables debug engines to read metric settings remotely.
 ## Syntax
 
 ```
-IDebugSettingsCallback2D : IUnknown
+IDebugSettingsCallback2 : IUnknown
 ```
 
 ## Notes for Implementers

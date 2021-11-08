@@ -3,11 +3,12 @@ title: "Half-Quarter Texture Dimensions Variant | Microsoft Docs"
 description: If smaller textures show large performance gains, it suggests memory bandwidth pressure or inefficient use of the GPU texture cache. Consider making texture sizes smaller.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: 282e9bbb-51aa-4cd0-8e5c-0901268c29e5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

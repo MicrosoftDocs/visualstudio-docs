@@ -1,1 +1,0 @@
-[Download Visual Studio Community](https://visualstudio.microsoft.com/vs/community/) or [compare Visual Studio editions](https://www.visualstudio.com/vs-2015-product-editions)

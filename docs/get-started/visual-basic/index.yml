@@ -6,12 +6,12 @@ summary: Create Visual Basic apps with Visual Studio.
 metadata:
   title: Visual Basic development with Visual Studio
   description: Create Visual Basic apps by using Visual Studio.
-  ms.custom: seodec18
+  ms.custom: vs-acquisition
   ms.topic: landing-page
-  ms.date: 11/19/2019
+  ms.date: 06/19/2021
   ms.author: ghogen
   author: ghogen
-  manager: jillfra
+  manager: jmartens
   ms.prod: visual-studio-windows
   ms.technology: vs-acquisition
   dev_langs:

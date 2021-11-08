@@ -1,14 +1,14 @@
 ---
 title: Unit testing fundamentals
 description: Learn how Visual Studio Test Explorer provides a flexible and efficient way to run your unit tests and view their results. 
-ms.custom: SEO-VS-2020
-ms.date: 08/07/2019
+ms.date: 07/26/2021
 ms.topic: conceptual
 f1_keywords:
 - vs.UnitTest.CreateUnitTest
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ms.workload:
 - multiple
 ---
@@ -77,7 +77,7 @@ public void Withdraw(double amount)
 
 Now that we have some code, it's time for testing.
 
-## Create unit test projects and test methods
+## Create unit test projects and test methods (C#)
 
 For C#, it is often quicker to generate the unit test project and unit test stubs from your code. Or you can choose to create the unit test project and tests manually depending on your requirements. If you want to create unit tests from code with a 3rd party framework you will need one of these extensions installed: [NUnit](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension-18371) or [xUnit](https://marketplace.visualstudio.com/items?itemName=YowkoTsai.xUnitnetTestGenerator). If you are not using C#, skip this section and go to [Create the unit test project and unit tests manually](#create-the-unit-test-project-and-unit-tests-manually).
 
@@ -95,7 +95,7 @@ For C#, it is often quicker to generate the unit test project and unit test stub
    ![From the editor window, view the context menu](../test/media/vs-2019/basics-create-unit-tests.png)
 
    > [!NOTE]
-   > The **Create Unit Tests** menu command is only available for C# code.
+   > The **Create Unit Tests** menu command is only available for C# code. To use this method with .NET Core or .NET Standard, Visual Studio 2019 is required.
    ::: moniker-end
 
 2. Click **OK** to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.
@@ -111,7 +111,7 @@ For C#, it is often quicker to generate the unit test project and unit test stub
    ![The unit tests are created](../test/media/vs-2019/basics-test-stub.png)
    ::: moniker-end
 
-4. Now jump ahead to learn how to [add code to the unit test methods](#write-your-tests) to make your unit test meaningful, and any extra unit tests that you might want to add to thoroughly test your code.
+4. Now jump ahead to learn how to [Write your tests](#write-your-tests) to make your unit test meaningful, and any extra unit tests that you might want to add to thoroughly test your code.
 
 ### Create the unit test project and unit tests manually
 
@@ -134,7 +134,7 @@ A unit test project usually mirrors the structure of a single code project. In t
 
 ::: moniker range=">=vs-2019"
 
-2. Use the project template search box to find a unit test project template for the test framework that you want to use.
+2. Type **test** in the project template search box to find a unit test project template for the test framework that you want to use. (In the examples in this topic, we use MSTest.)
 
 3. On the next page, name the project. To test the `Accounts` project of our example, you could name the project `AccountsTests`.
 
@@ -143,12 +143,10 @@ A unit test project usually mirrors the structure of a single code project. In t
 4. In your unit test project, add a reference to the code project under test, in our example to the Accounts project.
 
    To create the reference to the code project:
+   
+   1. In the unit test project in Solution Explorer, right-click the **References** or **Dependencies** node, and then choose **Add Project Reference** or **Add Reference**, whichever is available.
 
-   1. Select the project in **Solution Explorer**.
-
-   2. On the **Project** menu, choose **Add Reference**.
-
-   3. On the **Reference Manager** dialog box, open the **Solution** node and choose **Projects**. Select the code project name and close the dialog box.
+   2. On the **Reference Manager** dialog box, open the **Solution** node and choose **Projects**. Select the code project name and close the dialog box.
 
 Each unit test project contains classes that mirror the names of the classes in the code project. In our example, the `AccountsTests` project would contain the following classes:
 
@@ -166,9 +164,9 @@ The AAA (Arrange, Act, Assert) pattern is a common way of writing unit tests for
 
 - The **Act** section invokes the method under test with the arranged parameters.
 
-- The **Assert** section verifies that the action of the method under test behaves as expected.
+- The **Assert** section verifies that the action of the method under test behaves as expected. For .NET, methods in the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> class are often used for verification.
 
-To test the `CheckingAccount.Withdraw` method of our example, we can write two tests: one that verifies the standard behavior of the method, and one that verifies that a withdrawal of more than the balance will fail. In the `CheckingAccountTests` class, we add the following methods:
+To test the `CheckingAccount.Withdraw` method of our example, we can write two tests: one that verifies the standard behavior of the method, and one that verifies that a withdrawal of more than the balance will fail (The following code shows an MSTest unit test, which is supported in .NET.). In the `CheckingAccountTests` class, we add the following methods:
 
 ```csharp
 [TestMethod]

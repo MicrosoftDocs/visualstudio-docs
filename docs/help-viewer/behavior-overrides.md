@@ -7,6 +7,7 @@ ms.assetid: 95fe6396-276b-4ee5-b03d-faacec42765f
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: vs-help-viewer
 ms.workload:
   - "multiple"
 ---

@@ -2,7 +2,7 @@
 description: "This function displays source control properties for a file or project."
 title: SccProperties Function | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccProperties
 helpviewer_keywords:
@@ -11,6 +11,7 @@ ms.assetid: 1bed38c9-73d2-4474-9717-f9dc26a89cbe
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

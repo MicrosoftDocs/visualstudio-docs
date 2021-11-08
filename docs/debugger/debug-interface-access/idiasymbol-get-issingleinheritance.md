@@ -9,6 +9,7 @@ ms.assetid: 46cde656-059b-4c20-9476-3ca68ccc9912
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ---
 # IDiaSymbol::get_isSingleInheritance
 Specifies whether the `this` pointer points to a data member with single inheritance.

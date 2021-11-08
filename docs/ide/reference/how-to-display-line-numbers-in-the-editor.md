@@ -2,7 +2,7 @@
 title: Display line numbers for code
 description: Learn how to display or hide line numbering in your code.
 ms.custom: SEO-VS-2020
-ms.date: 08/28/2020
+ms.date: 08/05/2021
 ms.topic: how-to
 helpviewer_keywords:
 - line numbers, displaying
@@ -13,6 +13,7 @@ ms.assetid: 40b38559-b8de-4041-91f2-68986767c976
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---

@@ -1,7 +1,7 @@
 ---
 title: Run as administrator
 description: Learn how to run Visual Studio as an administrator.
-ms.date: 03/09/2021
+ms.date: 10/26/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - Visual Studio, user permissions
@@ -11,6 +11,7 @@ helpviewer_keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
@@ -58,9 +59,9 @@ If you need to run Visual Studio as an administrator, follow these steps to open
 
 ::: moniker range=">=vs-2019"
 
-1. Open the **Start** menu, and scroll to Visual Studio 2019.
+1. Open the **Start** menu, and scroll to Visual Studio.
 
-1. From the right-click or context menu of **Visual Studio 2019**, select **More** > **Run as administrator**.
+1. From the right-click or context menu of **Visual Studio 2019** or **Visual Studio 2022**, select **More** > **Run as administrator**.
 
    When Visual Studio starts, **(Administrator)** appears after the product name in the title bar.
 

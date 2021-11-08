@@ -17,6 +17,7 @@ ms.assetid: d9550502-0a82-49a6-b005-2caa791fbe02
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ---
 # Dotfuscator Community
 
@@ -64,7 +65,7 @@ For information about enhancing Dotfuscator, see the [Upgrades page][upgrades].
 
 ## Getting started
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 To begin using Dotfuscator Community from Visual Studio, type `dotfuscator` into the **Search Box** (Ctrl+Q).
 

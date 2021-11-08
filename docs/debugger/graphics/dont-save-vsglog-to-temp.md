@@ -2,11 +2,12 @@
 description: "Defines by its presence whether the graphics log file is saved to the user's temporary files directory."
 title: "DONT_SAVE_VSGLOG_TO_TEMP | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: f27ab0e6-9575-4ca0-9901-37d3e5c3a2f5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

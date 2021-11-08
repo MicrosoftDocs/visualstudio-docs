@@ -2,7 +2,7 @@
 title: Property Functions | Microsoft Docs
 description: Learn how to use property functions, which are calls to .NET Framework methods that appear in MSBuild property definitions.
 ms.custom: SEO-VS-2020
-ms.date: 02/21/2017
+ms.date: 10/20/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, property functions
@@ -10,12 +10,13 @@ ms.assetid: 2253956e-3ae0-4bdc-9d3a-4881dfae4ddb
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---
 # Property functions
 
-Property functions are calls to .NET Framework methods that appear in MSBuild property definitions. Unlike tasks, property functions can be used outside of targets, and are evaluated before any target runs.
+Property functions are calls to .NET Framework methods that appear in MSBuild property definitions. Unlike tasks, property functions can be used outside of targets. Property functions are evaluated whenever the properties or items get expanded, which is before any target runs for properties and items outside of any targets, or when the target is evaluated, for property groups and item groups inside targets.
 
 Without using MSBuild tasks, you can read the system time, compare strings, match regular expressions, and perform other actions in your build script. MSBuild will try to convert string to number and number to string, and make other conversions as required.
 
@@ -183,7 +184,13 @@ You can combine property functions to form more complex functions, as the follow
 $([MSBuild]::BitwiseAnd(32, $([System.IO.File]::GetAttributes(tempFile))))
 ```
 
-This example returns the value of the <xref:System.IO.FileAttributes>`Archive` bit (32 or 0) of the file given by the path `tempFile`. Notice that enumerated data values cannot appear by name within property functions. The numeric value (32) must be used instead.
+This example returns the value of the <xref:System.IO.FileAttributes>.`Archive` bit (32 or 0) of the file given by the path `tempFile`. Notice that enumerated data values cannot appear by name in some contexts. In the previous example, the numeric value (32) must be used instead. In other cases, depending on the expectations of the method called, the enum data value must be used. In the following example, the enum value <xref:System.Text.RegularExpressions.RegexOptions>.`ECMAScript` must be used because a numeric value cannot be converted as this method expects.
+
+```xml
+<PropertyGroup>
+    <GitVersionHeightWithOffset>$([System.Text.RegularExpressions.Regex]::Replace("$(PrereleaseVersion)", "^.*?(\d+)$", "$1", "System.Text.RegularExpressions.RegexOptions.ECMAScript"))</GitVersionHeightWithOffset>
+</PropertyGroup>
+```
 
 Metadata may also appear in nested property functions. For more information, see [Batching](../msbuild/msbuild-batching.md).
 
@@ -209,32 +216,60 @@ $([MSBuild]::EnsureTrailingSlash('$(PathProperty)'))
 
 ## MSBuild GetDirectoryNameOfFileAbove
 
-The MSBuild `GetDirectoryNameOfFileAbove` property function looks for a file in the directories above the current directory in the path.
+The MSBuild `GetDirectoryNameOfFileAbove` property function searches upward for a directory containing the specified file, beginning in (and including) the specified directory. It returns the full path of the nearest directory containing the file if it is found, otherwise an empty string.
 
- This property function has the following syntax:
+This property function has the following syntax:
 
 ```
-$([MSBuild]::GetDirectoryNameOfFileAbove(string ThePath, string TheFile))
+$([MSBuild]::GetDirectoryNameOfFileAbove(string startingDirectory, string fileName))
 ```
 
- The following code is an example of this syntax.
+This example shows how to import the nearest *EnlistmentInfo.props* file in or above the current folder, only if a match is found:
 
 ```xml
 <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), EnlistmentInfo.props))\EnlistmentInfo.props" Condition=" '$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), EnlistmentInfo.props))' != '' " />
 ```
 
-## MSBuild GetPathOfFileAbove
-
-The `GetPathOfFileAbove` property function in MSBuild returns the path of the specified file, if located in the directory structure above the current directory. It is functionally equivalent to calling
+Note that this example can be written more concisely by using the `GetPathOfFileAbove` function instead:
 
 ```xml
-<Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.props))\dir.props" />
+<Import Project="$([MSBuild]::GetPathOfFileAbove(EnlistmentInfo.props))" Condition=" '$([MSBuild]::GetPathOfFileAbove(EnlistmentInfo.props))' != '' " />
 ```
+
+## MSBuild GetPathOfFileAbove
+
+The MSBuild `GetPathOfFileAbove` property function searches upward for a directory containing the specified file, beginning in (and including) the specified directory. It returns the full path of the nearest matching file if it is found, otherwise an empty string.
 
 This property function has the following syntax:
 
 ```
-$([MSBuild]::GetPathOfFileAbove(dir.props))
+$([MSBuild]::GetDirectoryNameOfFileAbove(string file, [string startingDirectory]))
+```
+
+where `file` is the name of the file to search for and `startingDirectory` is an optional directory to start the search in. By default, the search will start in the current file's own directory.
+ 
+This example shows how to import a file named *dir.props* in or above the current directory, only if a match is found:
+
+```xml
+<Import Project="$([MSBuild]::GetPathOfFileAbove(dir.props))" Condition=" '$([MSBuild]::GetPathOfFileAbove(dir.props))' != '' " />
+```
+
+which is functionally equivalent to
+
+```xml
+<Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.props))\dir.props" Condition=" '$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.props))' != '' " />
+```
+
+However, sometimes you need to start the search in the parent directory, to avoid matching the current file. This example shows how a *Directory.Build.props* file can import the nearest *Directory.Build.props* file in a strictly higher level of the tree, without recursively importing itself:
+
+```xml
+<Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+```
+
+which is functionally equivalent to
+
+```xml
+<Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove('$(MSBuildThisFileDirectory)../', 'Directory.Build.props'))/Directory.Build.props" />
 ```
 
 ## MSBuild GetRegistryValue
@@ -248,6 +283,9 @@ $([MSBuild]::GetRegistryValue(`HKEY_CURRENT_USER\Software\Microsoft\VisualStudio
 $([MSBuild]::GetRegistryValue(`HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\10.0\Debugger`, `SymbolCacheDir`))
 $([MSBuild]::GetRegistryValue(`HKEY_LOCAL_MACHINE\SOFTWARE\(SampleName)`, `(SampleValue)`))             // parens in name and value
 ```
+
+> [!WARNING]
+> In the .NET SDK version of MSBuild (`dotnet build`), this function is not supported.
 
 ## MSBuild GetRegistryValueFromView
 
@@ -278,6 +316,9 @@ $([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Mic
 ```
 
 gets the **SLRuntimeInstallPath** data of the **ReferenceAssemblies** key, looking first in the 64-bit registry view and then in the 32-bit registry view.
+
+> [!WARNING]
+> In the .NET SDK version of MSBuild (`dotnet build`), this function is not supported.
 
 ## MSBuild MakeRelative
 
@@ -336,6 +377,8 @@ Output:
 -->
 ```
 
+<a name="TargetFramework"></a>
+
 ## MSBuild TargetFramework and TargetPlatform functions
 
 MSBuild 16.7 and higher define several functions for handling [TargetFramework and TargetPlatform properties](msbuild-target-framework-and-target-platform.md).
@@ -343,10 +386,12 @@ MSBuild 16.7 and higher define several functions for handling [TargetFramework a
 |Function signature|Description|
 |------------------------|-----------------|
 |GetTargetFrameworkIdentifier(string targetFramework)|Parse the TargetFrameworkIdentifier from the TargetFramework.|
-|GetTargetFrameworkVersion(string targetFramework)|Parse the TargetFrameworkVersion from the TargetFramework.|
+|GetTargetFrameworkVersion(string targetFramework, int versionPartCount)|Parse the TargetFrameworkVersion from the TargetFramework.|
 |GetTargetPlatformIdentifier(string targetFramework)|Parse the TargetPlatformIdentifier from the TargetFramework.|
-|GetTargetPlatformVersion(string targetFramework)|Parse the TargetPlatformVersion from the TargetFramework.|
+|GetTargetPlatformVersion(string targetFramework, int versionPartCount)|Parse the TargetPlatformVersion from the TargetFramework.|
 |IsTargetFrameworkCompatible(string targetFrameworkTarget, string targetFrameworkCandidate)|Return 'True' if the candidate target framework is compatible with this target framework and false otherwise.|
+
+The `versionPartCount` parameter of `GetTargetFrameworkVersion` and `GetTargetPlatformVersion` has a default value of 2.
 
 The following example shows how these functions are used. 
 
@@ -384,7 +429,7 @@ Value5 = True
 MSBuild 16.5 and higher define several functions for comparing strings that represent versions.
 
 > [!Note]
-> Comparison operators in conditions [can compare strings that can be parsed as `System.Version` objects](#msbuild-conditions.md#Comparing-versions), but the comparison can produce unexpected results. Prefer the property functions.
+> Comparison operators in conditions [can compare strings that can be parsed as `System.Version` objects](msbuild-conditions.md#comparing-versions), but the comparison can produce unexpected results. Prefer the property functions.
 
 |Function signature|Description|
 |------------------------|-----------------|
@@ -410,7 +455,7 @@ In these methods, versions are parsed like <xref:System.Version?displayProperty=
 * `+` is not allowed as positive sign in integer components (it is treated as semver metadata and ignored)
 
 > [!TIP]
-> Comparisons of [TargetFramework properties](msbuild-target-framework-and-target-platform.md) should generally use [IsTargetFrameworkCompatible](#MSBuild-TargetFramework-and-TargetPlatform-functions) instead of extracting and comparing versions. This allows comparing `TargetFramework`s that vary in `TargetFrameworkIdentifier` as well as version.
+> Comparisons of [TargetFramework properties](msbuild-target-framework-and-target-platform.md) should generally use [IsTargetFrameworkCompatible](#TargetFramework) instead of extracting and comparing versions. This allows comparing `TargetFramework`s that vary in `TargetFrameworkIdentifier` as well as version.
 
 ## MSBuild condition functions
 

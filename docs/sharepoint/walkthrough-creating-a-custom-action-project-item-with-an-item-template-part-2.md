@@ -12,6 +12,7 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---
@@ -300,7 +301,7 @@ ms.workload:
 
 13. In the  **Description** box, enter **Opens the SharePoint Developer Center website**.
 
-14. In the **URL** box, enter **https://docs.microsoft.com/sharepoint/dev/**, and then choose the **Finish** button.
+14. In the **URL** box, enter `https://docs.microsoft.com/sharepoint/dev/`, and then choose the **Finish** button.
 
      Visual Studio adds an item that's named **CustomAction1** to your project and opens the *Elements.xml* file in the editor. Verify that *Elements.xml* contains the values that you specified in the wizard.
 
@@ -321,7 +322,7 @@ ms.workload:
 
      The **List Settings** page appears.
 
-4. Under the **Communications** heading near the top of the page, choose the **SharePoint Developer Center** link, verify that the browser opens the website https://docs.microsoft.com/sharepoint/dev/, and then close the browser.
+4. Under the **Communications** heading near the top of the page, choose the **SharePoint Developer Center** link, verify that the browser opens the website `https://docs.microsoft.com/sharepoint/dev/`, and then close the browser.
 
 ## Cleaning up the development computer
  After you finish testing the project item, remove the project item template from the experimental instance of Visual Studio.

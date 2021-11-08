@@ -4,15 +4,14 @@ description: Learn how to add label references to your form.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: tutorial
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 dev_langs:
   - "CSharp"
   - "VB"
 ms.assetid: d418350c-0396-494e-8149-71fa61b395c5
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---

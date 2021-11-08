@@ -3,11 +3,12 @@ title: "CaptureCurrentFrame | Microsoft Docs"
 description: Use the CaptureCurrentFrame method of the VsgDbg class to capture the remainder of the current frame to the graphics log file.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: 4509311d-6fe2-4b65-9b4a-ff0522585d6a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

@@ -3,7 +3,7 @@ title: Extending the Object Model of the Base Project | Microsoft Docs
 description: Learn how to extend the automation object model of the base project in Visual Studio by using a project subtype. 
 ms.custom: SEO-VS-2020
 ms.date: 03/22/2018
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - automation object model, extending
 - project subtypes, extending automation object model
@@ -12,6 +12,7 @@ ms.assetid: 2f95cc53-dff6-476c-bacd-500fb0ff7725
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

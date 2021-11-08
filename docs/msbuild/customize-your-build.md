@@ -2,7 +2,7 @@
 title: Customize your build | Microsoft Docs
 description: Learn about several extensibility hooks you can use to customize MSBuild projects that use the standard build process. 
 ms.custom: SEO-VS-2020
-ms.date: 06/13/2019
+ms.date: 09/13/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, transforms
@@ -11,6 +11,7 @@ ms.assetid: d0bceb3b-14fb-455c-805a-63acefa4b3ed
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---
@@ -24,9 +25,7 @@ A *Directory.Build.rsp* file in or above your source directory will be applied t
 
 ## Directory.Build.props and Directory.Build.targets
 
-Prior to MSBuild version 15, if you wanted to provide a new, custom property to projects in your solution, you had to manually add a reference to that property to every project file in the solution. Or, you had to define the property in a *.props* file and then explicitly import the *.props* file in every project in the solution, among other things.
-
-However, now you can add a new property to every project in one step by defining it in a single file called *Directory.Build.props* in the root folder that contains your source. When MSBuild runs, *Microsoft.Common.props* searches your directory structure for the *Directory.Build.props* file (and *Microsoft.Common.targets* looks for *Directory.Build.targets*). If it finds one, it imports the property. *Directory.Build.props* is a user-defined file that provides customizations to projects under a directory.
+You can add a new property to every project by defining it in a single file called *Directory.Build.props* in the root folder that contains your source. When MSBuild runs, *Microsoft.Common.props* searches your directory structure for the *Directory.Build.props* file (and *Microsoft.Common.targets* looks for *Directory.Build.targets*). If it finds one, it imports the file and reads the properties defined within it. *Directory.Build.props* is a user-defined file that provides customizations to projects under a directory.
 
 > [!NOTE]
 > Linux-based file systems are case-sensitive. Make sure the casing of the Directory.Build.props filename matches exactly, or it won't be detected during the build process.
@@ -76,7 +75,7 @@ Properties that are set in *Directory.Build.props* can be overridden elsewhere i
 When you need to set a property or define a target for an individual project that overrides any prior settings, put that logic in the project file after the final import. In order to do this in an SDK-style project, you first have to replace the SDK-style attribute with the equivalent imports. See [How to use MSBuild project SDKs](how-to-use-project-sdk.md).
 
 > [!NOTE]
-> The MSBuild engine reads in all imported files during evaluation, before starting build execution for any project (including any `PreBuildEvent`), so these files are not expected to be modified by the `PreBuildEvent` or any other part of the build process. Any modifications do not take effect until the next invocation of *MSBuild.exe* or the next Visual Studio build.
+> The MSBuild engine reads in all imported files during evaluation, before starting build execution for a project (including any `PreBuildEvent`), so these files are not expected to be modified by the `PreBuildEvent` or any other part of the build process. Any modifications do not take effect until the next invocation of *MSBuild.exe* or the next Visual Studio build. Also, if your build process contains many project builds (as with multitargeting or building dependent projects), then imported files, including *Directory.build.props* are read when evaluation occurs for each individual project build.
 
 ### Use case: multi-level merging
 
@@ -104,10 +103,10 @@ To make MSBuild correctly merge the "inner" files (*2-src* and *2-test*) with th
 
 A summary of MSBuild's general approach is as follows:
 
-- For any given project, MSBuild finds the first *Directory.Build.props* upward in the solution structure, merges it with defaults, and stops scanning for more
-- If you want multiple levels to be found and merged, then [`<Import...>`](../msbuild/property-functions.md#msbuild-getpathoffileabove) (shown above) the "outer" file from the "inner" file
-- If the "outer" file does not itself also import something above it, then scanning stops there
-- To control the scanning/merging process, use `$(DirectoryBuildPropsPath)` and `$(ImportDirectoryBuildProps)`
+- For any given project, MSBuild finds the first *Directory.Build.props* upward in the solution structure, merges it with defaults, and stops scanning for more.
+- If you want multiple levels to be found and merged, then [`<Import...>`](../msbuild/property-functions.md#msbuild-getpathoffileabove) (shown above) the "outer" file from the "inner" file.
+- If the "outer" file does not itself also import something above it, then scanning stops there.
+- To control the scanning/merging process, use `$(DirectoryBuildPropsPath)` and `$(ImportDirectoryBuildProps)`.
 
 Or more simply: the first *Directory.Build.props* that doesn't import anything is where MSBuild stops.
 
@@ -206,10 +205,6 @@ You can specify the locations of these files by using the following MSBuild prop
 - CustomBeforeMicrosoftCommonTargets
 - CustomAfterMicrosoftCommonProps
 - CustomAfterMicrosoftCommonTargets
-- CustomBeforeMicrosoftCSharpProps
-- CustomBeforeMicrosoftVisualBasicProps
-- CustomAfterMicrosoftCSharpProps
-- CustomAfterMicrosoftVisualBasicProps
 - CustomBeforeMicrosoftCSharpTargets
 - CustomBeforeMicrosoftVisualBasicTargets
 - CustomAfterMicrosoftCSharpTargets
@@ -242,9 +237,11 @@ But, you can use the following properties to specify *.props* file(s) to be auto
 
 To customize the default values of properties for all C++ builds, create another *.props* file (say, *MyProps.props*), and define the `ForceImportAfterCppProps` property in `Directory.Build.props` pointing to it:
 
+```xml
 <PropertyGroup>
   <ForceImportAfterCppProps>$(MsbuildThisFileDirectory)\MyProps.props<ForceImportAfterCppProps>
 </PropertyGroup>
+```
 
 *MyProps.props* will be automatically imported at the very end of *Microsoft.Cpp.props*.
 

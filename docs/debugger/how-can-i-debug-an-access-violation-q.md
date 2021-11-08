@@ -1,7 +1,7 @@
 ---
 title: Debug a C++ access violation | Microsoft Docs
 description: See tips on troubleshooting an access violation when more than one pointer is a candidate. Recent versions of Visual Studio name the errant pointer.
-ms.custom: "SEO-VS-2020, seodec18"
+
 ms.date: 02/05/2019
 ms.topic: how-to
 f1_keywords: 
@@ -18,6 +18,7 @@ ms.assetid: 9311d754-0ce9-4145-b147-88b6ca77ba63
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload: 
   - cplusplus
 ---

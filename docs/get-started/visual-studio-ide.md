@@ -2,10 +2,10 @@
 title: Overview of Visual Studio
 titleSuffix: ''
 description: Learn about the Visual Studio integrated development environment.
-ms.date: 05/28/2021
+ms.date: 09/14/2021
 ms.technology: vs-ide-general
 ms.topic: overview
-ms.custom: [vs-get-started, SEO-VS-2020]
+ms.custom: [vs-acquisition,  vs-get-started, SEO-VS-2020]
 author: TerryGLee
 f1_keywords:
 - vs.startpage
@@ -23,9 +23,9 @@ ms.workload:
 
 Explore Visual Studio further by following along with one of these introductory articles:
 
-- Get acquainted with the code editor in [Learn to use the code editor](../get-started/tutorial-editor.md)
+- Get acquainted with the code editor in [Learn to use the code editor](tutorial-editor.md).
 
-- Learn how Visual Studio organizes code in [Learn about projects and solutions](../get-started/tutorial-projects-solutions.md)
+- Learn how Visual Studio organizes code in [Learn about projects and solutions](tutorial-projects-solutions.md).
 
 If you're ready to dive into more coding, one of the following language-specific quickstarts is a good next step:
 
@@ -41,6 +41,6 @@ If you're ready to dive into more coding, one of the following language-specific
 
 ## See also
 
-- Discover [more Visual Studio features](../ide/advanced-feature-overview.md)
-- Visit [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)
-- Read [The Visual Studio blog](https://devblogs.microsoft.com/visualstudio/)
+- Discover [more Visual Studio features](../ide/advanced-feature-overview.md).
+- Visit [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/).
+- Read the [Visual Studio blog](https://devblogs.microsoft.com/visualstudio/).

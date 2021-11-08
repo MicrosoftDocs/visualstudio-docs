@@ -4,13 +4,12 @@ description: Learn how to extend a free trial of Visual Studio, use an online su
 ms.date: 12/18/2019
 ms.topic: conceptual
 ms.assetid: ffb580a1-8b5d-48f5-b811-87f8036f50ea
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 ---
 # Extend a trial version or update a license
 

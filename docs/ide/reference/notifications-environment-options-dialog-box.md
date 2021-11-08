@@ -10,6 +10,7 @@ ms.assetid: 71cf7380-f2c6-436f-a17c-fdd5f90f5865
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 monikerRange: vs-2017

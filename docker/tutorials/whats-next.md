@@ -1,11 +1,13 @@
 ---
 title: "Docker tutorial - What's next"
 description: Describes options for extending Docker apps with orchestration, using Cloud Native Computing Foundation projects.
-ms.date: "08/04/2020"
+ms.date: "08/06/2021"
 author: nebuk89
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.technology: vs-docker
+ms.custom: "contperf-fy22q1"
+
 ms.topic: conceptual
 ms.workload:
   - "azure"

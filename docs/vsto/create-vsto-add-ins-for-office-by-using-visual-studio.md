@@ -2,7 +2,7 @@
 title: "Create VSTO Add-ins for Office by using Visual Studio"
 description: Learn how you can use the Microsoft Office developer tools in Visual Studio to create .NET Framework applications that extend Office.
 titleSuffix: ""
-ms.custom: "seodec18, SEO-VS-2020"
+
 ms.date: "04/28/2021"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,12 +11,13 @@ dev_langs:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
 # Create VSTO Add-ins for Office by using Visual Studio
 > [!IMPORTANT]
-> VSTO relies on the [.NET Framework](https://docs.microsoft.com/dotnet/framework/get-started/overview). COM add-ins can also be written with the .NET Framework. Office Add-ins cannot be created with [.NET Core and .NET 5+](https://docs.microsoft.com/dotnet/core/dotnet-five), the latest versions of .NET. This is because .NET Core/.NET 5+ cannot work together with .NET Framework in the same process and may lead to add-in load failures. You can continue to use .NET Framework to write VSTO and COM add-ins for Office. Microsoft will not be updating VSTO or the COM add-in platform to use .NET Core or .NET 5+. You can take advantage of .NET Core and .NET 5+, including ASP.NET Core, to create the server side of [Office Web Add-ins](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins).
+> VSTO relies on the [.NET Framework](/dotnet/framework/get-started/overview). COM add-ins can also be written with the .NET Framework. Office Add-ins cannot be created with [.NET Core and .NET 5+](/dotnet/core/dotnet-five), the latest versions of .NET. This is because .NET Core/.NET 5+ cannot work together with .NET Framework in the same process and may lead to add-in load failures. You can continue to use .NET Framework to write VSTO and COM add-ins for Office. Microsoft will not be updating VSTO or the COM add-in platform to use .NET Core or .NET 5+. You can take advantage of .NET Core and .NET 5+, including ASP.NET Core, to create the server side of [Office Web Add-ins](/office/dev/add-ins/overview/office-add-ins).
 
   You can use the Microsoft Office developer tools in Visual Studio to create .NET Framework applications that extend Office. These applications are also named *Office solutions*.
 

@@ -3,11 +3,12 @@ title: Image Service Tools | Microsoft Docs
 description: Learn about the tools provided in the Visual Studio SDK that can help you build extensions using the Visual Studio image service.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 ms.assetid: 2ddb0342-eb22-429a-bdf3-ccc2719a7ceb
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

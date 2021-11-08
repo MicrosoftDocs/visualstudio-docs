@@ -1,6 +1,121 @@
 {
   "redirections": [
     {
+      "source_path": "mac/2017/ide-tour.md",
+      "redirect_url": "/visualstudio/mac/ide-tour?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mac/2017/uninstall.md",
+      "redirect_url": "/visualstudio/mac/uninstall?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mac/accessibility-voiceover.md",
+      "redirect_url": "/visualstudio/mac/accessibility-macos?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mac/2017/update.md",
+      "redirect_url": "/visualstudio/mac/update?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mac/2017/signing-in.md",
+      "redirect_url": "/visualstudio/mac/signing-in?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mac/2017/extending-visual-studio-mac.md",
+      "redirect_url": "/visualstudio/mac/extending-visual-studio-mac?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mac/2017/install-behind-a-firewall-or-proxy-server.md",
+      "redirect_url": "/visualstudio/mac/install-behind-a-firewall-or-proxy-server?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mac/2017/user-accounts.md",
+      "redirect_url": "/visualstudio/mac/user-accounts?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mac/2017/create-offline-installer.md",
+      "redirect_url": "/visualstudio/mac/create-offline-installer?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mac/2017/keyboard-shortcuts.md",
+      "redirect_url": "/visualstudio/mac/keyboard-shortcuts?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mac/2017/enable-subscription.md",
+      "redirect_url": "/visualstudio/mac/enable-subscription?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/python/python-azure-cloud-service-project-template.md",
+      "redirect_url": "/visualstudio/python/managing-python-projects-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/python/learn-flask-visual-studio-step-05-polls-flask-web-project-template.md",
+      "redirect_url": "/visualstudio/python/learn-flask-visual-studio-step-01-project-solution",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/python/learn-flask-visual-studio-step-04-full-flask-project-template.md",
+      "redirect_url": "/visualstudio/python/learn-flask-visual-studio-step-01-project-solution",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/keyboard-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md",
+      "redirect_url": "/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/feedback-options.md",
+      "redirect_url": "https://developercommunity.visualstudio.com/home",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/report-a-problem.yml",
+      "redirect_url": "/visualstudio/ide/how-to-report-a-problem-with-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/report-a-problem-minidumps.md",
+      "redirect_url": "/visualstudio/ide/report-a-problem-perfview-minidumps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/report-a-problem-perfview.md",
+      "redirect_url": "/visualstudio/ide/report-a-problem-perfview-minidumps",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/diagnostic-data-collection.md",
+      "redirect_url": "/visualstudio/ide/visual-studio-experience-improvement-program",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md",
+      "redirect_url": "/visualstudio/ide/not-in-toc/default",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/data-tools/additional-resources-for-troubleshooting-data-access-errors.md",
+      "redirect_url": "/answers/products/?WT.mc_id=msdnredirect-web-msdn",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "scripting-docs/javascript/misc/access-is-denied.md",
       "redirect_url": "/archive/scripting-docs/javascript/misc/access-is-denied",
       "redirect_document_id": false
@@ -42201,141 +42316,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "connected-environment/get-started-netcore-01.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-02.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-03.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-04.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-05.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-06.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-07.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-visualstudio-01.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-visualstudio-02.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-visualstudio-03.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-visualstudio-04.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-visualstudio-05.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-visualstudio-06.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-netcore-visualstudio-07.md",
-      "redirect_url": "/azure/dev-spaces/get-started-netcore-visualstudio",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-nodejs-01.md",
-      "redirect_url": "/azure/dev-spaces/get-started-nodejs",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-nodejs-02.md",
-      "redirect_url": "/azure/dev-spaces/get-started-nodejs",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-nodejs-03.md",
-      "redirect_url": "/azure/dev-spaces/get-started-nodejs",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-nodejs-04.md",
-      "redirect_url": "/azure/dev-spaces/get-started-nodejs",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-nodejs-05.md",
-      "redirect_url": "/azure/dev-spaces/get-started-nodejs",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-nodejs-06.md",
-      "redirect_url": "/azure/dev-spaces/get-started-nodejs",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started-nodejs-07.md",
-      "redirect_url": "/azure/dev-spaces/get-started-nodejs",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/get-started.md",
-      "redirect_url": "/azure/dev-spaces/azure-dev-spaces",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/how-to/share-dev-environment.md",
-      "redirect_url": "/azure/dev-spaces/how-to/share-dev-spaces",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/how-to/use-a-custom-nuget-feed.md",
-      "redirect_url": "/azure/dev-spaces/how-to/use-custom-nuget-feed",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/how-to/use-kubectl-with-vsce.md",
-      "redirect_url": "/azure/dev-spaces/how-to/use-kubectl-with-azure-dev-spaces",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/troubleshooting.md",
-      "redirect_url": "/azure/dev-spaces/troubleshooting",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "connected-environment/visual-studio-connected-environment.md",
-      "redirect_url": "/azure/dev-spaces/azure-dev-spaces",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/code-quality/analyzer-rule-sets.md",
       "redirect_url": "/dotnet/fundamentals/code-analysis/code-quality-rule-options",
       "redirect_document_id": false
@@ -44806,11 +44786,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/data-tools/create-a-sql-database-by-using-a-script.md",
-      "redirect_url": "https://msdn.microsoft.com/library/hh864423(v=vs.103).aspx",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/data-tools/install-sql-server-sample-databases.md",
       "redirect_url": "https://github.com/microsoft/sql-server-samples/releases/tag/wide-world-importers-v1.0",
       "redirect_document_id": false
@@ -45151,11 +45126,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/debugger/run-windows-phone-apps-in-the-emulator.md",
-      "redirect_url": "http://msdn.microsoft.com/en-US/library/dn632391(VS.140).aspx",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/debugger/run-windows-store-apps-on-the-local-machine.md",
       "redirect_url": "/visualstudio/debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml",
       "redirect_document_id": false
@@ -45268,6 +45238,26 @@
     {
       "source_path": "docs/debugger/how-to-step-out-of-managed-code-when-native-frames-are-missing-from-the-call-stack-window.md",
       "redirect_url": "/visualstudio/debugger/how-to-use-the-call-stack-window",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/quickstart-deploy-to-azure.md",
+      "redirect_url": "/visualstudio/deployment/quickstart-deploy-aspnet-web-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/quickstart-deploy-to-local-folder.md",
+      "redirect_url": "/visualstudio/deployment/quickstart-deploy-aspnet-web-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/quickstart-deploy-to-a-web-site.md",
+      "redirect_url": "/visualstudio/deployment/quickstart-deploy-aspnet-web-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/quickstart-deploy-to-linux.md",
+      "redirect_url": "/visualstudio/deployment/quickstart-deploy-aspnet-web-app",
       "redirect_document_id": false
     },
     {
@@ -45846,18 +45836,13 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/get-started/tutorial-open-project-from-repo.md",
-      "redirect_url": "/visualstudio/get-started/tutorial-open-project-from-repo-visual-studio-2019",
+      "source_path": "docs/get-started/tutorial-open-project-from-repo-visual-studio-2019.md",
+      "redirect_url": "/visualstudio/get-started/tutorial-open-project-from-repo?view=vs-2019",
       "redirect_document_id": true
     },
     {
-      "source_path": "docs/get-started/tutorial-open-project-from-repo.md?view=vs-2019",
-      "redirect_url": "/visualstudio/get-started/tutorial-open-project-from-repo-visual-studio-2019",
-      "redirect_document_id": true
-    },
-    {
-      "source_path": "docs/get-started/tutorial-open-project-from-repo.md?view=vs-2017",
-      "redirect_url": "/visualstudio/get-started/tutorial-open-project-from-repo-visual-studio-2017",
+      "source_path": "docs/get-started/tutorial-open-project-from-repo-visual-studio-2017.md",
+      "redirect_url": "/visualstudio/get-started/tutorial-open-project-from-repo?view=vs-2017",
       "redirect_document_id": false
     },
     {
@@ -45929,11 +45914,6 @@
       "source_path": "docs/ide/command-line-arguments-for-the-help-content-manager.md",
       "redirect_url": "/visualstudio/help-viewer/command-line-arguments",
       "redirect_document_id": true
-    },
-    {
-      "source_path": "docs/ide/connected-environment.md",
-      "redirect_url": "/visualstudio/ide/signing-in-to-visual-studio",
-      "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/create-an-offline-installation-of-visual-studio.md",
@@ -46223,6 +46203,21 @@
     {
       "source_path": "docs/ide/neutral-resources-languages-for-localization.md",
       "redirect_url": "/visualstudio/ide/globalizing-and-localizing-applications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/not-in-toc/default-f1-typescript.md",
+      "redirect_url": "/visualstudio/ide/not-in-toc/default",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/not-in-toc/default-f1-javascript.md",
+      "redirect_url": "/visualstudio/ide/not-in-toc/default",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/not-in-toc/default-f1-text-editor.md",
+      "redirect_url": "/visualstudio/ide/not-in-toc/default",
       "redirect_document_id": false
     },
     {
@@ -46896,13 +46891,8 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/msbuild/additional-msbuild-resources.md",
-      "redirect_url": "https://social.msdn.microsoft.com/forums/vstudio/home?forum=msbuild",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/msbuild/additional-resources-for-msbuild.md",
-      "redirect_url": "https://social.msdn.microsoft.com/forums/vstudio/home?forum=msbuild",
+      "source_path": "docs/msbuild/configuring-targets-and-tasks.md",
+      "redirect_url": "/visualstudio/msbuild/configure-tasks",
       "redirect_document_id": false
     },
     {
@@ -51933,11 +51923,6 @@
     {
       "source_path": "subscriptions/vs-license-terms.md",
       "redirect_url": "https://www.microsoft.com/en-us/licensing/product-licensing/products.aspx",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "subscriptions/vs-priority-support.md",
-      "redirect_url": "https://social.msdn.microsoft.com/Forums/vstudio/en-US/home",
       "redirect_document_id": false
     },
     {
@@ -57873,11 +57858,6 @@
     {
       "source_path": "mac/setup-vsmac-tools-unity.md",
       "redirect_url": "/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/devinit/index.md",
-      "redirect_url": "/visualstudio/devinit/getting-started-with-devinit",
       "redirect_document_id": false
     },
     {

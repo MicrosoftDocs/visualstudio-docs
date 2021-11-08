@@ -6,6 +6,7 @@ ms.date: 06/03/2020
 ms.topic: how-to
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ms.workload: 
   - multiple
 author: mikejo5000

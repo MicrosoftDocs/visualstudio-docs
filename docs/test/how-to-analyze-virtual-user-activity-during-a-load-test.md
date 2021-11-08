@@ -10,6 +10,7 @@ ms.assetid: 8bda19b3-91c1-4daf-b6c7-09108bddadff
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Analyze what virtual users are doing during a load test using the virtual user activity chart
 

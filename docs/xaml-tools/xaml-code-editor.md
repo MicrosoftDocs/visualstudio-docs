@@ -5,11 +5,12 @@ ms.date: 06/16/2020
 ms.topic: overview
 f1_keywords:
 - VS.XamlEditor
-monikerRange: vs-2019
+monikerRange: ">=vs-2019"
 ms.custom: contperf-fy21q4
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-xaml-tools
 ---
 # XAML code editor
 
@@ -301,5 +302,3 @@ To learn more about how to edit your code in real time while you're running your
 - [Visual Studio code editor features](../ide/writing-code-in-the-code-and-text-editor.md)
 - [XAML in UWP apps](/windows/uwp/xaml-platform/xaml-overview/)
 - [XAML in Xamarin.Forms apps](/xamarin/xamarin-forms/xaml/)
-- [Xamarin mobile app development (Mac)](/visualstudio/mac/xamarin/)
-- [Visual Studio 2019 for Mac - IDE tour (Mac)](/visualstudio/mac/ide-tour/)

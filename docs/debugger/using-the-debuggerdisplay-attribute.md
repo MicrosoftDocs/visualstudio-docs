@@ -12,6 +12,7 @@ ms.assetid: f4eb7c76-af4e-493b-9ab6-9cb05949d9b3
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload: 
   - multiple
 ---
@@ -90,7 +91,7 @@ public sealed class MyClass
 The ",nq" suffix tells the expression evaluator to remove the quotes when displaying the final value (nq = no quotes).
 
 ## Example
-The following code example shows how to use `DebuggerDisplay`, together with `DebuggerBrowseable` and `DebuggerTypeProxy`. When viewed in a debugger variables window, such as the **Watch** window, it produces an expansion that looks like this:
+The following code example shows how to use `DebuggerDisplay`, together with `DebuggerBrowsable` and `DebuggerTypeProxy`. When viewed in a debugger variables window, such as the **Watch** window, it produces an expansion that looks like this:
 
 |**Name**|**Value**|**Type**|
 |--------------|---------------|--------------|

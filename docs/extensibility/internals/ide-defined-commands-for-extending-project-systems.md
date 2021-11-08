@@ -3,7 +3,7 @@ title: IDE-Defined Commands for Extending Project Systems | Microsoft Docs
 description: Learn about the commands and command groups defined in the Visual Studio integrated development environment (IDE) that are used for extending project systems. 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - commands, project systems
 - project systems, environment-defined commands
@@ -11,6 +11,7 @@ ms.assetid: 0e33b8e9-16fa-4400-a941-e92d56120e7e
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

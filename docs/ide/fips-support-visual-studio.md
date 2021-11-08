@@ -3,17 +3,18 @@ title: Visual Studio support for FIPS
 titleSuffix: ''
 description: Learn about how Visual Studio supports the Federal Information Processing Standard Publication 140-2 approved mode of operation for Windows, Azure, and .NET.
 ms.custom: SEO-VS-2020
-ms.date: 04/14/2020
+ms.date: 10/01/2021
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
 # Visual Studio support for the FIPS 140-2 approved mode of operation
 
-Starting with [version 16.4](/visualstudio/releases/2019/release-notes-v16.4/), Visual Studio 2019 supports the Federal Information Processing Standard (FIPS) Publication 140-2 approved mode of operation for Windows, Azure, and .NET. And, with [version 16.5](/visualstudio/releases/2019/release-notes-archive-v16.5), Visual Studio now supports the FIPS 140-2 approved mode of operation when you develop [C++ applications that target a remote Linux system](/cpp/linux/set-up-fips-compliant-secure-remote-linux-development/).
+Starting with [version 16.4](/visualstudio/releases/2019/release-notes-v16.4/), Visual Studio 2019 supports the Federal Information Processing Standard (FIPS) Publication 140-2 approved mode of operation for Windows, Azure, and .NET. And, with [version 16.5](/visualstudio/releases/2019/release-notes-v16.5), Visual Studio now supports the FIPS 140-2 approved mode of operation when you develop [C++ applications that target a remote Linux system](/cpp/linux/set-up-fips-compliant-secure-remote-linux-development/).
 
 To configure the FIPS 140-2 approved mode of operation for Visual Studio, [install .NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/net48) and then enable the Group Policy setting, **System cryptography: Use FIPS-compliant algorithms for encryption, hashing, and signing**.
 

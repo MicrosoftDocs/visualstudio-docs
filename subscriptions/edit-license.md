@@ -1,7 +1,7 @@
 ---
 title: Edit Visual Studio subscriptions in the Administration Portal | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 97ac8e4d-7a03-42f8-98cb-15bcaa90ef65
 ms.date: 03/21/2021

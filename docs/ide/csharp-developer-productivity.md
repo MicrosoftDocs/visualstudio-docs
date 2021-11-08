@@ -4,7 +4,8 @@ description: An overview of navigation, code analysis, unit testing, and other f
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
-ms.date: 11/21/2019
+ms.technology: vs-ide-general
+ms.date: 02/24/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - editor
@@ -58,7 +59,7 @@ The following are popular Visual Studio shortcuts:
 > [!NOTE]
 > Some extensions unbind the default Visual Studio keybindings. To use the above commands, restore your keybindings to Visual Studio's defaults by going to **Tools** > **Import and Export Settings** > **Reset all settings** or **Tools** > **Options** > **Keyboard** > **Reset**.
 
-For more information about keyboard shortcuts and commands, see [Productivity shortcuts](../ide/productivity-shortcuts.md) and [Popular keyboard shortcuts](default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md).
+For more information about keyboard shortcuts and commands, see [Productivity shortcuts](../ide/productivity-shortcuts.md) and [Popular keyboard shortcuts](default-keyboard-shortcuts-in-visual-studio.md).
 
 ## Navigate quickly to files or types
 
@@ -146,7 +147,7 @@ Several community members have written free extensions that add additional code 
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 - [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2019)
 - [SonarLint for Visual Studio](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio2019)

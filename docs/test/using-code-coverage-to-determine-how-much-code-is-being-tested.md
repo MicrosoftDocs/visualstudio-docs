@@ -13,6 +13,7 @@ dev_langs:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Use code coverage to determine how much code is being tested
 

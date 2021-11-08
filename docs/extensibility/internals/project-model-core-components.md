@@ -3,7 +3,7 @@ title: Project Model Core Components | Microsoft Docs
 description: This article contains descriptions of the interfaces and services identified in the project model core, and the interfaces and services associated with objects.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - project models, objects and interfaces
 - project models, services
@@ -11,6 +11,7 @@ ms.assetid: b2f572d3-b26d-4846-92d1-84055fac141a
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

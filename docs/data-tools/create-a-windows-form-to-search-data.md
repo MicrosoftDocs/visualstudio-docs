@@ -2,7 +2,7 @@
 title: Create a Windows Form to search data
 description: Read an example of how to create a Windows Form to search data. Create the Windows Form application, data source, and form. Add parameterization. Test the app.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 06/07/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - Windows Forms, searching data
@@ -14,6 +14,7 @@ ms.assetid: 65ca79a9-7458-466c-af55-978cd24c549e
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
 - data-storage
 ---
@@ -39,7 +40,12 @@ Tasks illustrated in this walkthrough include:
 
 - Entering parameters into the form and executing the parameterized query.
 
+> [!NOTE]
+> The procedures in this article apply only to .NET Framework Windows Forms projects, not to .NET Core Windows Forms projects.
+
 ## Prerequisites
+
+You must have the **Data storage and processing** workload installed. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
@@ -59,7 +65,9 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create the Windows Forms application
 
-Create a new **Windows Forms App** project for either C# or Visual Basic. Name the project **WindowsSearchForm**.
+:::moniker range="vs-2017"
+
+Create a new **Windows Forms App (.NET Framework)** project for either C# or Visual Basic. Name the project **WindowsSearchForm**.
 
 ## Create the data source
 
@@ -87,13 +95,49 @@ This step creates a data source from a database using the **Data Source Configur
 
      The **NorthwindDataSet** is added to your project, and the **Customers** table appears in the **Data Sources** window.
 
+:::moniker-end
+
+:::moniker range=">=vs-2019"
+
+Create a new **Windows Forms App (.NET Framework)** project for either C# or Visual Basic. Name the project **WindowsSearchForm**.
+
+## Create the data source
+
+This step creates a data source from a database using the **Data Source Configuration** wizard:
+
+1. To open the **Data Sources** window, use quick search (**Ctrl**+**Q**), and search for **Data Sources**.
+
+1. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
+
+1. Select **Database** on the **Choose a Data Source Type** page, and then click **Next**.
+
+1. On the **Choose a Database Model** screen, choose **Dataset**, and then click **Next**.
+
+1. On the **Choose your Data Connection** page do one of the following:
+
+    - If a data connection to the Northwind sample database is available in the drop-down list, select it.
+
+    - Select **New Connection** to launch the **Add/Modify Connection** dialog box.
+
+1. On the **Save connection string to the Application Configuration file** page, click **Next**.
+
+1. On the **Choose your Database Objects** page, expand the **Tables** node.
+
+1. Select the **Customers** table, and then click **Finish**.
+
+     The **NorthwindDataSet** is added to your project, and the **Customers** table appears in the **Data Sources** window.
+
+:::moniker-end
+
 ## Create the form
 
 You can create the data-bound controls by dragging items from the **Data Sources** window onto your form:
 
+1. Make sure the Windows Forms designer has the active focus and the **Data Sources** window is open and pinned.
+
 1. Expand the **Customers** node in the **Data Sources** window.
 
-2. Drag the **Customers** node from the **Data Sources** window to your form.
+1. Drag the **Customers** node from the **Data Sources** window to your form.
 
      A <xref:System.Windows.Forms.DataGridView> and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), CustomersTableAdapter, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.
 
@@ -101,7 +145,7 @@ You can create the data-bound controls by dragging items from the **Data Sources
 
 You can add a WHERE clause to the original query using the **Search Criteria Builder** dialog box:
 
-1. Select the <xref:System.Windows.Forms.DataGridView> control, and then choose **Add Query** on the **Data** menu.
+1. Just below the design surface for your form, select the **customersTableAdapter** button, and then  in the **Properties** window, choose **Add Query...**.
 
 2. Type **FillByCity** in the **New query name** area on the **Search Criteria Builder** dialog box.
 

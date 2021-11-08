@@ -8,6 +8,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -81,7 +82,7 @@ Next, we will create an application that has a few bugs.
     ::: moniker range=">=vs-2019"
     On the start window, choose **Create a new project**. Type **console** in the search box, select either **C#** or **Visual Basic** as the language, and then choose **Console App** for .NET Core. Choose **Next**. Type a project name like **ConsoleApp_FirstApp** and click **Next**.
 
-    Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+    Choose either the recommended target framework or .NET 6, and then choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#** or **Visual Basic**, choose **Console App**, and then in the middle pane choose either **Console App (.NET Core)**. Type a name like **ConsoleApp_FirstApp** and click **OK**.

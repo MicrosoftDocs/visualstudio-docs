@@ -1,5 +1,7 @@
 Web Deploy 3.6 for Hosting Servers provides additional configuration features that enable the creation of the publish settings file from the UI.
 
+The Web Platform Installer for IIS allows installation of version 3.6, not 4.0, so that is the version we recommend in this article.
+
 1. If you have Web Deploy already installed on Windows Server, uninstall it using **Control Panel** > **Programs** > **Uninstall a Program**.
 
 2. Next, install Web Deploy 3.6 for Hosting Servers on Windows Server.

@@ -1,11 +1,11 @@
 ---
 title: Set a watch on variables | Microsoft Docs
 description: While you debug, see variables and expressions in Watch and QuickWatch. Watch can display several variables, QuickWatch only one, and only while in break.
-ms.custom: "SEO-VS-2020, seodec18"
-ms.date: 10/11/2018
+ms.custom: SEO-VS-2020
+ms.date: 09/10/2021
 ms.topic: how-to
-f1_keywords: 
-  - vs.debug.watch
+f1_keywords:
+  - "vs.debug.quickwatch"
 helpviewer_keywords: 
   - debugging [Visual Studio], Watch window
   - expressions [debugger], evaluating
@@ -16,14 +16,16 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload: 
   - multiple
 ---
+
 # Watch variables with Watch windows and QuickWatch
 
 While you're debugging, you can use **Watch** windows and **QuickWatch** to watch variables and expressions. The windows are only available during a debugging session.
 
-**Watch** windows can display several variables at a time while debugging. The **QuickWatch** dialog displays a single variable at a time, and must be closed before debugging can continue.
+**Watch** windows can display several variables at a time while debugging. The **QuickWatch** dialog displays a single variable at a time, and must be closed before debugging can continue. For more information on using QuickWatch, see [Observe a single variable or expression with QuickWatch](#observe-a-single-variable-or-expression-with-quickwatch).
 
 > [!NOTE]
 > If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before going through this article.

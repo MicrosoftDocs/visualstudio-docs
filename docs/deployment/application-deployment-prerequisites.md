@@ -2,7 +2,7 @@
 title: "Application Deployment Prerequisites | Microsoft Docs"
 description: Learn about the deployment prerequisites for your applications, including using the Prerequisites Dialog Box and bootstrapper packages.
 ms.custom: SEO-VS-2020
-ms.date: "11/04/2016"
+ms.date: "09/23/2021"
 ms.topic: "conceptual"
 dev_langs:
   - "FSharp"
@@ -19,18 +19,19 @@ ms.assetid: fc6e047e-ad94-44e8-8ff5-b6d1f4ca7735
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---
-# Application deployment prerequisites
+# Application deployment prerequisites (Windows desktop)
 
-To have your application to install and run successfully, first install all components upon which your application is dependent onto the target computer. For example, most applications created using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have a dependency on the .NET Framework. In this case, the correct version of the common language runtime must be present on the destination computer before the application is installed.
+To have your Windows desktop application install and run successfully, first install all components upon which your application is dependent onto the target computer. For example, most applications created using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have a dependency on the .NET Framework. In this case, the correct version of the common language runtime must be present on the destination computer before the application is installed.
 
- You can select these prerequisites in the **Prerequisites Dialog Box** and install the .NET Framework and any other redistributable as a part of your installation. This practice is known as *bootstrapping*. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] generates a Windows executable program named *Setup.exe*, also known as a *bootstrapper*. The bootstrapper is responsible for installing these prerequisites before your application runs. For more information about selecting these prerequisites, see [Prerequisites dialog box](../ide/reference/prerequisites-dialog-box.md).
+You can select these prerequisites in the **Prerequisites Dialog Box** and install the .NET Framework and any other redistributable as a part of your installation. This practice is known as *bootstrapping*. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] generates a Windows executable program named *Setup.exe*, also known as a *bootstrapper*. The bootstrapper is responsible for installing these prerequisites before your application runs. For more information about selecting these prerequisites, see [Prerequisites dialog box](../ide/reference/prerequisites-dialog-box.md).
 
- Each prerequisite is a bootstrapper package. A bootstrapper package is a group of directories and files containing the manifest files that describe how the prerequisites are installed. If your application prerequisites are not listed in the **Prerequisite Dialog Box**, you can create custom bootstrapper packages and add them to Visual Studio. Then you can select the prerequisites in the **Prerequisites Dialog Box**. For more information, see [Create bootstrapper packages](../deployment/creating-bootstrapper-packages.md).
+Each prerequisite is a bootstrapper package. A bootstrapper package is a group of directories and files containing the manifest files that describe how the prerequisites are installed. If your application prerequisites are not listed in the **Prerequisite Dialog Box**, you can create custom bootstrapper packages and add them to Visual Studio. Then you can select the prerequisites in the **Prerequisites Dialog Box**. For more information, see [Create bootstrapper packages](../deployment/creating-bootstrapper-packages.md).
 
- By default, bootstrapping is enabled for ClickOnce deployment. The bootstrapper generated for ClickOnce deployment is signed. You can disable bootstrapping for a component, but only if you are sure that the correct version of the component is already installed on all target computers.
+By default, bootstrapping is enabled for both Windows Installer deployment (by using Setup projects in Visual Studio) and ClickOnce deployment. The bootstrapper generated for Windows Installer deployment is not signed, but in ClickOnce deployment, the bootstrapper is signed. You can disable bootstrapping for a component, but you should do so only if you are sure that the correct version of the component is already installed on all target computers.
 
 ## Bootstrapping and ClickOnce deployment
  Before installing an application on a client computer, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] examines the client to ensure that it has the requirements specified in the application manifest. These include the following requirements:

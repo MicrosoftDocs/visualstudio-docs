@@ -2,12 +2,13 @@
 title: Adding a Language Server Protocol extension | Microsoft Docs
 description: Learn how to create a Visual Studio extension that integrates a language server based on the Language Server Protocol (LSP).
 ms.custom: SEO-VS-2020
-ms.date: 11/14/2017
+ms.date: 07/05/2021
 ms.topic: conceptual
 ms.assetid: 52f12785-1c51-4c2c-8228-c8e10316cd83
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
@@ -369,6 +370,8 @@ When tracing is turned on the content is written to a file in the *%temp%\Visual
 
 ### Custom messages
 
+::: moniker range="vs-2017"
+
 There are APIs in place to facilitate passing messages to and receiving messages from the language server that are not part of the standard Language Server Protocol. To handle custom messages, implement [ILanguageClientCustomMessage](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage?view=visualstudiosdk-2017&preserve-view=true) interface in your language client class. [VS-StreamJsonRpc](https://github.com/Microsoft/vs-streamjsonrpc/blob/master/doc/index.md) library is used to transmit custom messages between your language client and language server. Since your LSP language client extension is just like any other Visual Studio extension, you can decide to add additional features (that are not supported by the LSP) to Visual Studio (using other Visual Studio APIs) in your extension through custom messages.
 
 #### Receive custom messages
@@ -469,6 +472,126 @@ public class MockLanguageClient: ILanguageClient, ILanguageClientCustomMessage
     }
 }
 ```
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+There are APIs in place to facilitate passing messages to and receiving messages from the language server that are not part of the standard Language Server Protocol. To handle custom messages, implement [ILanguageClientCustomMessage2](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage2) interface in your language client class. [VS-StreamJsonRpc](https://github.com/Microsoft/vs-streamjsonrpc/blob/master/doc/index.md) library is used to transmit custom messages between your language client and language server. Since your LSP language client extension is just like any other Visual Studio extension, you can decide to add additional features (that are not supported by the LSP) to Visual Studio (using other Visual Studio APIs) in your extension through custom messages.
+
+#### Receive custom messages
+
+To receive custom messages from the language server, implement the [CustomMessageTarget]((/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage.custommessagetarget) property on [ILanguageClientCustomMessage2](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage2) and return an object that knows how to handle your custom messages. Example below:
+
+(/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage.custommessagetarget) property on [ILanguageClientCustomMessage2](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage2) and return an object that knows how to handle your custom messages. Example below:
+
+```csharp
+internal class MockCustomLanguageClient : MockLanguageClient, ILanguageClientCustomMessage2
+{
+    private JsonRpc customMessageRpc;
+
+    public MockCustomLanguageClient() : base()
+    {
+        CustomMessageTarget = new CustomTarget();
+    }
+
+    public object CustomMessageTarget
+    {
+        get;
+        set;
+    }
+
+    public class CustomTarget
+    {
+        public void OnCustomNotification(JToken arg)
+        {
+            // Provide logic on what happens OnCustomNotification is called from the language server
+        }
+
+        public string OnCustomRequest(string test)
+        {
+            // Provide logic on what happens OnCustomRequest is called from the language server
+        }
+    }
+}
+```
+
+#### Send custom messages
+
+To send custom messages to the language server, implement the [AttachForCustomMessageAsync](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage2.attachforcustommessageasync) method on [ILanguageClientCustomMessage2](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage2). This method is invoked when your language server is started and ready to receive messages. A [JsonRpc](https://github.com/Microsoft/vs-streamjsonrpc/blob/master/src/StreamJsonRpc/JsonRpc.cs) object is passed as a parameter, which you can then keep to send messages to the language server using [VS-StreamJsonRpc](https://github.com/Microsoft/vs-streamjsonrpc/blob/master/doc/index.md) APIs. Example below:
+
+```csharp
+internal class MockCustomLanguageClient : MockLanguageClient, ILanguageClientCustomMessage2
+{
+    private JsonRpc customMessageRpc;
+
+    public MockCustomLanguageClient() : base()
+    {
+        CustomMessageTarget = new CustomTarget();
+    }
+
+    public async Task AttachForCustomMessageAsync(JsonRpc rpc)
+    {
+        await Task.Yield();
+
+        this.customMessageRpc = rpc;
+    }
+
+    public async Task SendServerCustomNotification(object arg)
+    {
+        await this.customMessageRpc.NotifyWithParameterObjectAsync("OnCustomNotification", arg);
+    }
+
+    public async Task<string> SendServerCustomMessage(string test)
+    {
+        return await this.customMessageRpc.InvokeAsync<string>("OnCustomRequest", test);
+    }
+}
+```
+
+### Middle layer
+
+Sometimes an extension developer may want to intercept LSP messages sent to and received from the language server. For example, an extension developer may want to alter the message parameter sent for a particular LSP message, or modify the results returned from the language server for an LSP feature (for example  completions). When this is necessary, extension developers can use the MiddleLayer API to intercept LSP messages.
+
+To intercept a particular message, create a class that implements the [ILanguageClientMiddleLayer](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientmiddlelayer) interface. Then, implement the [ILanguageClientCustomMessage2](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage2) interface in your language client class and return an instance of your object in the [MiddleLayer](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage2.middlelayer) property. Example below:
+
+```csharp
+public class MockLanguageClient : ILanguageClient, ILanguageClientCustomMessage2
+{
+  public object MiddleLayer => DiagnosticsFilterMiddleLayer.Instance;
+
+  private class DiagnosticsFilterMiddleLayer : ILanguageClientMiddleLayer
+  {
+    internal readonly static DiagnosticsFilterMiddleLayer Instance = new DiagnosticsFilterMiddleLayer();
+
+    private DiagnosticsFilterMiddleLayer() { }
+
+    public bool CanHandle(string methodName)
+    {
+      return methodName == "textDocument/publishDiagnostics";
+    }
+
+    public async Task HandleNotificationAsync(string methodName, JToken methodParam, Func<JToken, Task> sendNotification)
+    {
+      if (methodName == "textDocument/publishDiagnostics")
+      {
+        var diagnosticsToFilter = (JArray)methodParam["diagnostics"];
+        // ony show diagnostics of severity 1 (error)
+        methodParam["diagnostics"] = new JArray(diagnosticsToFilter.Where(diagnostic => diagnostic.Value<int?>("severity") == 1));
+
+      }
+      await sendNotification(methodParam);
+    }
+
+    public async Task<JToken> HandleRequestAsync(string methodName, JToken methodParam, Func<JToken, Task<JToken>> sendRequest)
+    {
+      return await sendRequest(methodParam);
+    }
+  }
+}
+```
+
+::: moniker-end
 
 The middle layer feature is still under development and not yet comprehensive.
 

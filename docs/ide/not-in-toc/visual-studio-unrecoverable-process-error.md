@@ -2,7 +2,7 @@
 title: A process has encountered an unrecoverable error
 description: Learn about the processes that might encounter unrecoverable errors during the normal operations of Visual Studio.
 ms.custom: SEO-VS-2020
-ms.date: 09/10/2020
+ms.date: 10/14/2021
 ms.topic: troubleshooting
 helpviewer_keywords:
 - unrecoverable error
@@ -10,12 +10,18 @@ helpviewer_keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
 # Visual Studio unrecoverable process error
 
+::: moniker range="<=vs-2019"
 Visual Studio uses several out-of-proc processes to run required background tasks, such as live unit testing, code analyzers, and more. These processes are run out-of-proc to give Visual Studio performance advantages, such as enabling Visual Studio to respond faster when running long, resource-intensive jobs. Also, because Visual Studio is a 32-bit process, running processes out-of-proc gives memory intensive work a larger memory space in which to operate.
+:::moniker-end
+:::moniker range=">=vs-2022"
+Visual Studio uses several out-of-proc processes to run required background tasks, such as live unit testing, code analyzers, and more. These processes are run out-of-proc to give Visual Studio performance advantages, such as enabling Visual Studio to respond faster when running long, resource-intensive jobs.
+:::moniker-end
 
 If the *ServiceHub.RoslynCodeAnalysisService.exe* or *ServiceHub.RoslynCodeAnalysisService32.exe* process ends for some reason, a pop-up information bar appears with the following message:
 

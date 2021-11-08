@@ -12,6 +12,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
 - data-storage
 ---
@@ -94,6 +95,18 @@ If you are connecting to Azure services, be sure to download the latest [Azure S
 ### Data providers
 
 For a database to be consumable in ADO.NET, it must have a custom *ADO.NET data provider* or else must expose an ODBC or OLE DB interface. Microsoft provides a [list of ADO.NET data providers](/dotnet/framework/data/adonet/ado-net-overview) for SQL Server products, as well as ODBC and OLE DB providers.
+
+::: moniker range=">=vs-2019"
+> [!NOTE]
+>If you're using Visual Studio to connect to databases using OLEDB or ODBC data providers, you will need to be aware that versions of Visual Studio prior to Visual Studio 2022 are all 32-bit processes. This means some of the data tools in Visual Studio will only be able to connect to OLEDB or ODBC databases using 32-bit data providers. This includes the Microsoft Access 32-bit OLEDB data provider as well as other third-party 32-bit providers.
+>
+>If you're using Visual Studio 2022 to connect to databases, you will need to be aware that Visual Studio 2022 is a 64-bit process. This means some of the data tools in Visual Studio will not be able to connect to OLEDB or ODBC databases using 32-bit data providers.
+>
+>If you need to maintain 32-bit applications that connect to OLEDB or ODBC databases, you will still be able to build and run the application with Visual Studio 2022. However, if you need to use any of the Visual Studio Data Tools such as Server Explorer, Data Source Wizard, or the DataSet Designer, you will need to use an earlier version of Visual Studio that is still a 32-bit process. The last version of Visual Studio that was a 32-bit process was Visual Studio 2019.
+>
+>If you plan on converting the project to be a 64-bit process, it’s recommended that you use the 64-bit Microsoft Access Database Engine, also called Access Connectivity Engine (ACE). Please see [OLE DB Provider for Jet and ODBC driver are 32-bit versions only](/office/troubleshoot/access/jet-odbc-driver-available-32-bit-version) for more information.
+
+::: moniker-end
 
 ### Data modeling
 

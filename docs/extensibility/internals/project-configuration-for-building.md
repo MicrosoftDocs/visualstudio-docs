@@ -3,7 +3,7 @@ title: Project Configuration for Building | Microsoft Docs
 description: Learn how a list of solution configurations for a particular solution is managed by the Solution Configurations dialog box in a new project type.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - projects [Visual Studio SDK], configuration for building
 - project configurations, building
@@ -11,6 +11,7 @@ ms.assetid: 2c83615d-fa4d-4b9f-b315-7a69b3000da0
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

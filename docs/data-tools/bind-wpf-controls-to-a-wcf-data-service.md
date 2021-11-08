@@ -15,6 +15,7 @@ ms.assetid: 8823537c-82f0-41f7-bf30-705f0e5e59fd
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: vs-data-tools
 ms.workload:
 - data-storage
 ---
@@ -42,7 +43,7 @@ You need the following components to complete this walkthrough:
 
 - Visual Studio
 
-- Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex website](https://archive.codeplex.com/?p=SqlServerSamples).
+- Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. To download the database, see [AdventureWorks sample databases](/sql/samples/adventureworks-install-configure?tabs=ssms)
 
 Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:
 

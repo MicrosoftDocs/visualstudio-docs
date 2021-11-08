@@ -16,7 +16,7 @@ In Visual Studio 2017 and later, Google Test is integrated into the Visual Studi
 
 ![Install Google Test](media/cpp-google-component.png)
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ## Add a Google Test project in Visual Studio 2019
 

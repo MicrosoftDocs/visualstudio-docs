@@ -10,6 +10,7 @@ helpviewer_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jmartens
+ms.technology: vs-ide-code-analysis
 ---
 # Disable source code analysis for .NET
 

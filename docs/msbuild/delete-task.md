@@ -18,6 +18,7 @@ ms.assetid: 916bb2e3-3017-4828-ae27-c0b5c99bbb48
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---
@@ -44,7 +45,7 @@ In addition to the parameters listed above, this task inherits parameters from t
 
 ## Example
 
-The following example deletes the file *MyApp.pdb* when you build the `DeleteDebugSymbolFile` target.
+The following example deletes the file *ConsoleApp1.pdb* when you build the `DeleteDebugSymbolFile` target.
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">

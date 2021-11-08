@@ -9,6 +9,7 @@ ms.assetid: adb461c4-812a-4b8c-b2ab-96002379f6a9
 author: john-hart
 ms.author: JohnHart
 manager: jmartens
+ms.technology: vs-ide-deployment
 monikerRange: '>= vs-2019'
 ms.workload:
   - "multiple"

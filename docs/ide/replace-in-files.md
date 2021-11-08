@@ -14,6 +14,7 @@ helpviewer_keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
@@ -24,9 +25,19 @@ ms.workload:
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in **Help** depending on your active settings or edition. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools** > **Import and Export Settings**, and then choose **Reset all settings**.
 
-You can use any of the following methods to display **Replace in Files** in the **Find and Replace** window.
+You can use any of the following methods to display **Replace in Files** in the **Find and Replace** window, or use **Ctrl**+**Shift**+**H**.
 
 ## To display Replace in Files
+
+::: moniker range=">=vs-2019"
+
+1. Press **Ctrl**+**Q** and enter "replace" in the search box at the top of the screen.
+
+1. Choose **Replace in files** from the list of results.
+
+or
+
+::: moniker-end
 
 1. On the **Edit** menu, expand **Find and Replace**.
 
@@ -36,16 +47,37 @@ You can use any of the following methods to display **Replace in Files** in the 
 
    If the **Find and Replace** window is already open, on the toolbar, choose **Replace in Files**.
 
+:::moniker range="vs-2017"
+
 ## Find what
+
+:::moniker-end
+
+:::moniker range=">=vs-2019"
+
+## Find textbox
+
+::: moniker-end
 
 To search for a new text string or expression, specify it in the box. To search for any of the 20 strings that you searched for most recently, open the drop-down list and choose the string. Choose the adjacent **Expression Builder** button if you want to use one or more regular expressions in your search string. For more information, see [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
 
 > [!NOTE]
 > The **Expression Builder** button will only be enabled if you have selected **Use Regular Expressions** under **Find options**.
 
+::: moniker range="vs-2017"
+
 ## Replace With
 
 To replace instances of the string in the **Find what** box with another string, enter the replacement string in the **Replace With** box. To delete instances of the string in the **Find what** box, leave this field blank. Open the list to display the 20 strings for which you searched most recently. Choose the adjacent **Expression Builder** button if you want to use one or more regular expressions in your replacement string. For more information, see [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
+
+::: moniker-end
+::: moniker range=">=vs-2019"
+
+## Replace textbox
+
+To replace instances of the string in the **Find** textbox with another string, enter the replacement string in the **Replace** textbox. To delete instances of the string in the **Find** textbox, leave this field blank. Open the list to display the 20 strings for which you searched most recently. Choose the adjacent **Expression Builder** button if you want to use one or more regular expressions in your replacement string. For more information, see [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
+
+::: moniker-end
 
 ## Look in
 
@@ -60,15 +92,20 @@ You can expand or collapse the **Find options** section. The following options c
 
 **Match case**
 
-When selected, the **Find Results** windows will only display instances of the **Find what** string that are matched both by content and by case. For example, a search for "MyObject" with **Match case** selected will return "MyObject" but not "myobject" or "MYOBJECT."
+When selected, the **Find Results** windows will only display instances of the search string that are matched both by content and by case. For example, a search for "MyObject" with **Match case** selected will return "MyObject" but not "myobject" or "MYOBJECT."
 
 **Match whole word**
 
-When selected, the **Find Results** windows will only display instances of the **Find what** string that are matched in complete words. For example, a search for "MyObject" will return "MyObject" but not "CMyObject" or "MyObjectC."
+When selected, the **Find Results** windows will only display instances of the search string that are matched in complete words. For example, a search for "MyObject" will return "MyObject" but not "CMyObject" or "MyObjectC."
 
 **Use Regular Expressions**
 
+:::moniker range="vs-2017"
 When this check box is selected, you can use special notations to define patterns of text in the **Find what** or **Replace with** text boxes. For a list of these notations, see [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
+:::moniker-end
+:::moniker range=">=vs-2019"
+When this check box is selected, you can use special notations to define patterns of text in the **Find** or **Replace** text boxes. For a list of these notations, see [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
+:::moniker-end
 
 **Look at these file types**
 
@@ -96,6 +133,11 @@ When selected, leaves open all files in which replacements have been made, so yo
 
 > [!CAUTION]
 > You can use **Undo** only on files that remain open for editing. If this option is not selected, files that were not already open for editing will remain closed, and no **Undo** option will be available in those files.
+
+::: moniker range=">=vs-2022"
+> [!NOTE]
+> Starting with Visual Studio 2022, search performance is optimized by showing partial results, such as from pre-indexed files, before final results are available. However, when you perform replace operations, this performance benefit doesn't apply, since replace operations are only started after full search results are returned.
+::: moniker-end
 
 ## See also
 

@@ -4,15 +4,14 @@ description: Learn how to add an if statement so, when the player selects a matc
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: tutorial
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 dev_langs: 
   - "CSharp"
   - "VB"
 ms.assetid: 42e1d08c-7b2e-4efd-9f47-85d6206afe35
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---

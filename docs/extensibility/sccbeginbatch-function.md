@@ -2,7 +2,7 @@
 description: "This function starts a batch sequence of source control operations."
 title: SccBeginBatch Function | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccBeginBatch
 helpviewer_keywords:
@@ -11,6 +11,7 @@ ms.assetid: 33968183-2e15-4e0d-955b-ca12212d1c25
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

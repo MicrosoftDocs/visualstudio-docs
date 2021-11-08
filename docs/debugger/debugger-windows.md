@@ -1,13 +1,14 @@
 ---
 title: "Inspect data using debugger windows | Microsoft Docs"
 description: There are many types of debugger windows that provide you information. This article provides a list of the types. For each there is a link to more information. 
-ms.custom: "SEO-VS-2020, seodec18"
+
 ms.date: "04/25/2018"
 ms.topic: "conceptual"
 ms.assetid: 4c6fe8f1-b015-4989-bb31-72ebac390026
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

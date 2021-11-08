@@ -2,7 +2,7 @@
 title: "Supported Code Changes (C# and Visual Basic) | Microsoft Docs"
 description: Understand what code changes are supported when you are using the Edit and Continue feature while debugging a C# or Visual Basic project in Visual Studio.
 ms.custom: SEO-VS-2020
-ms.date: "10/11/2018"
+ms.date: "9/03/2020"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -16,6 +16,7 @@ ms.assetid: c7a48ea9-5a7f-4328-a9d7-f0e76fac399d
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "dotnet"
 ---
@@ -79,7 +80,7 @@ The table below shows the changes that may be made to C# and Visual Basic code d
 
 ## Unsupported app scenarios
 
-Unsupported apps and platforms include ASP.NET 5, Silverlight 5, and Windows 8.1.
+Unsupported apps and platforms include Silverlight 5 and Windows 8.1. Unsupported scenarios in ASP.NET and ASP.NET Core include editing _.aspx_, _.ascx_, _.cshtml_, and _.razor_ files.
 
 > [!NOTE]
 > Apps that are supported include UWP in Windows 10, and x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only).

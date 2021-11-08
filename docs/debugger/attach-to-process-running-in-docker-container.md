@@ -1,7 +1,7 @@
 ---
 title: "Attach to a process running on a Docker container"
 description: Learn how to debug an app running a Docker container using Visual Studio
-ms.date: "11/11/2020"
+ms.date: "08/24/2021"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugging, linux Docker container"
@@ -9,6 +9,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 monikerRange: '>= vs-2019'
 ms.workload:
   - "multiple"
@@ -17,6 +18,16 @@ ms.workload:
 # Attach to a process running on a Docker container 
 
 You can debug apps running in either a Windows Docker Container or a Linux .NET Core Docker container using Visual Studio.
+
+## Prerequisites
+
+If it's not already present on the Linux server, you need to install SSH server, unzip and install with either curl or wget. For example, on Ubuntu you can do that by running:
+
+``` cmd
+sudo apt-get install openssh-server unzip curl
+```
+
+SFTP must be enabled as well. Most SSH distributions install and enable SFTP by default, but that is not always the case.
 
 ## Attach to a process running on a Linux Docker container
 

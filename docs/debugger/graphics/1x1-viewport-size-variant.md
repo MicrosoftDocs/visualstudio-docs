@@ -3,11 +3,12 @@ title: "1x1 Viewport Size Variant | Microsoft Docs"
 description: Apply the 1x1 viewport size variant to reduce the viewport dimensions on all render targets to 1x1 pixels.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: 3dbc3247-00f5-4644-8ff9-72e9febcf09a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

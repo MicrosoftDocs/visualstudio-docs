@@ -3,11 +3,12 @@ title: "Mip-map Generation Variant | Microsoft Docs"
 description: If mip-map generation shows large performance gains, it indicates that you are using textures without enabling mip-maps, and not getting the most from the texture cache.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: 3b4b3583-0b01-4f5d-aacb-3f96d19111d9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

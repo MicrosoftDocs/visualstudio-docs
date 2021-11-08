@@ -1,7 +1,7 @@
 ---
 title: "Set symbol (.pdb) and source files in the debugger"
 description: "Learn how to configure and manage symbol and source files in Visual Studio"
-ms.custom: ""
+
 ms.date: "3/31/2021"
 ms.topic: "conceptual"
 f1_keywords:
@@ -27,6 +27,7 @@ ms.assetid: 1105e169-5272-4e7c-b3e7-cda1b7798a6b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

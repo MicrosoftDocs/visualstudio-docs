@@ -11,6 +11,7 @@ ms.assetid: 31874114-459a-45d5-9f8b-2ea503627db8
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Report load tests results for test comparisons or trend analysis
 

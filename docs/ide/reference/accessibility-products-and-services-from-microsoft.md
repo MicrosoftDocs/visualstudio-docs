@@ -3,8 +3,6 @@ title: Accessibility products and services from Microsoft
 description: "Learn more about the products and services from Microsoft that can help make our operating systems, programs, and applications more accessible for everyone to use, including people with disabilities."
 ms.date: 08/23/2019
 ms.topic: conceptual
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 helpviewer_keywords:
   - "TTY/TDD services"
   - "documentation, recorded documentation"
@@ -16,9 +14,10 @@ helpviewer_keywords:
   - "TT/TDD services"
   - "recorded documentation"
 ms.assetid: ef3c6247-9f59-4ef4-aa8b-a8922b3e0943
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---

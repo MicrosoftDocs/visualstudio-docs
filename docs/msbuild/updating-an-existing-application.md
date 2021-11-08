@@ -7,6 +7,7 @@ ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---
@@ -18,7 +19,7 @@ To support faster, smaller, and side-by-side installation, Visual Studio 2017 an
 
 ## Use MSBuild from Visual Studio
 
-To ensure that programmatic builds from your application match builds done within Visual Studio or *MSBuild.exe*, load MSBuild assemblies from Visual Studio and use the SDKs available within Visual Studio. The Microsoft.Build.Locator NuGet package streamlines this process.
+To ensure that programmatic builds from your application match builds done within Visual Studio or *MSBuild.exe*, load MSBuild assemblies from Visual Studio and use the SDKs available within Visual Studio. The Microsoft.Build.Locator NuGet package streamlines this process. MSBuild requires binding redirects for certain assemblies (Microsoft.Build assemblies), but if you reference the Microsoft.Build.Locator package, you ensure that your application automatically uses the required binding redirects to version 15.1.0.0. Binding redirects to this version support MSBuild 15.x, 16.x, and 17.x.
 
 ## Use Microsoft.Build.Locator
 

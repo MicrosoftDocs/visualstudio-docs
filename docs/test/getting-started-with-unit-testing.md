@@ -2,13 +2,14 @@
 title: Get started with unit testing
 description: Use Visual Studio to define and run unit tests to maintain code health, and to find errors and faults before your customers do.
 ms.custom: SEO-VS-2020
-ms.date: 04/07/2020
+ms.date: 08/10/2021
 ms.topic: tutorial
 helpviewer_keywords:
 - unit testing, create unit test plans
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ms.workload:
 - multiple
 ---
@@ -16,7 +17,7 @@ ms.workload:
 
 Use Visual Studio to define and run unit tests to maintain code health, ensure code coverage, and find errors and faults before your customers do. Run your unit tests frequently to make sure your code is working properly.
 
-In this article, the code and illustrations use C#, but the concepts and features apply to .NET languages, C++, Python, JavaScript, and TypeScript.
+In this article, the code uses C# and C++, illustrations are in C#, but the concepts and features apply to .NET languages, C++, Python, JavaScript, and TypeScript.
 
 ## Create unit tests
 
@@ -24,8 +25,9 @@ This section describes how to create a unit test project.
 
 1. Open the project that you want to test in Visual Studio.
 
-   For the purposes of demonstrating an example unit test, this article tests a simple "Hello World" C# project named **HelloWorldCore**. The sample code for such a project is as follows:
+   For the purposes of demonstrating an example unit test, this article tests a simple "Hello World" C# or C++ Console project named **HelloWorld** (**HelloWorldCore** in C#). The sample code for such a project is as follows:
 
+   ### [.NET](#tab/dotnet)
    ```csharp
    namespace HelloWorldCore
 
@@ -38,14 +40,32 @@ This section describes how to create a unit test project.
       }
    ```
 
+   ### [C++](#tab/cpp)
+   ```cpp
+   #include <iostream>
+
+   int main()
+   {
+      std::cout << "Hello World!\n";
+   }
+   ```
+   ---
+
 1. In **Solution Explorer**, select the solution node. Then, from the top menu bar, select **File** > **Add** > **New Project**.
 
-1. In the new project dialog box, find a unit test project template for the test framework you want to use, such as MSTest, and select it.
+1. In the new project dialog box, find the unit test project to use.
 
-   Starting in Visual Studio 2017 version 14.8, the .NET languages include built-in templates for NUnit and xUnit. For C++, you will need to select a test framework supported by the language. For Python, see [Set up unit testing in Python code](../python/unit-testing-python-in-visual-studio.md) to set up your test project.
+   ::: moniker range=">=vs-2019"
+   Type **test** in the search box to find a unit test project template for the test framework you want to use, such as MSTest (C#) or the **Native Unit Test** project (C++), and select it.
+   ::: moniker-end
+   ::: moniker range="vs-2017"
+   Expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.
+   ::: moniker-end
+
+   Starting in Visual Studio 2017 version 14.8, the .NET languages include built-in templates for NUnit and xUnit. For C++, in this example select the **Native Unit Test** project, which uses Microsoft Native Unit Test Framework. (To use a different C++ test framework, see [Writing unit tests for C/C++](../test/writing-unit-tests-for-c-cpp.md)). For Python, see [Set up unit testing in Python code](../python/unit-testing-python-in-visual-studio.md) to set up your test project.
 
    > [!TIP]
-   > For C#, you can create unit test projects from code using a faster method. For more information, see [Create unit test projects and test methods](../test/unit-test-basics.md#create-unit-test-projects-and-test-methods). To use this method with .NET Core or .NET Standard, Visual Studio 2019 is required.
+   > For C# only, you can create unit test projects from code using a faster method. For more information, see [Create unit test projects and test methods](../test/unit-test-basics.md#create-unit-test-projects-and-test-methods-c). To use this method with .NET Core or .NET Standard, Visual Studio 2019 is required.
 
    The following illustration shows an MSTest unit test, which is supported in .NET.
 
@@ -69,7 +89,7 @@ This section describes how to create a unit test project.
 
    ![Unit test project in Solution Explorer](media/vs-2019/solution-explorer.png)
 
-1. In the unit test project, add a reference to the project you want to test by right-clicking on **References** or **Dependencies** and then choosing **Add Reference**.
+1. In the unit test project, add a reference to the project you want to test by right-clicking on **References** or **Dependencies** and then choosing **Add Reference** or **Add Project Reference**.
 
 1. Select the project that contains the code you'll test and click **OK**.
 
@@ -77,7 +97,7 @@ This section describes how to create a unit test project.
 
 1. Add code to the unit test method.
 
-   For example, you might use the following code by selecting the correct documentation tab that matches your test framework: MSTest, NUnit, or xUnit (supported on .NET only).
+   For example, you might use the following code by selecting the correct documentation tab that matches your test framework: MSTest, NUnit, or xUnit (supported on .NET only), or C++ Microsoft Native Unit Test Framework.
 
    ### [MSTest](#tab/mstest)
 
@@ -169,6 +189,44 @@ This section describes how to create a unit test project.
     }
     ```
 
+    ### [Microsoft Native Unit Test Framework](#tab/msunittest)
+
+    ```cpp
+    #include "pch.h"
+    #include "CppUnitTest.h"
+    #include "../HelloWorldUnitTestCPP/HelloWorldUnitTestCPP.cpp"   // Update using your project name
+
+    using namespace Microsoft::VisualStudio::CppUnitTestFramework;
+
+    namespace HelloWorldTests
+    {
+       TEST_CLASS(HelloWorldTests)
+       {
+       public:
+
+          TEST_METHOD(TestMethod)
+          {
+             std::string expected = "Hello World!\n";
+
+             std::stringstream buffer;
+             std::streambuf* sbuf = std::cout.rdbuf(); // Save cout's buffer
+             std::cout.rdbuf(buffer.rdbuf()); // Redirect cout to the stringstream buffer
+
+             // Call main() in your test
+             int result = main();
+
+             // When finished, redirect cout to the original buffer 
+             std::cout.rdbuf(sbuf);
+             std::cout << "std original buffer: \n";
+             std::cout << buffer.get();
+
+             // Test
+             Assert::AreEqual(expected, buffer.str());
+          }
+       };
+    }
+    ```
+
     ---
 
 ## Run unit tests
@@ -198,7 +256,7 @@ This section describes how to create a unit test project.
 If you are using the MSTest, xUnit, or NUnit testing framework in Visual Studio 2017 or later, you can see live results of your unit tests.
 
 > [!NOTE]
-> To follow these steps, Visual Studio Enterprise is required.
+> To follow these steps, Visual Studio Enterprise is required, along with .NET code and one of the following test frameworks: MSTest, xUnit, or NUnit.
 
 1. Turn live unit testing from the **Test** menu by choosing **Test** > **Live Unit Testing** > **Start**.
 
@@ -226,13 +284,13 @@ For more information about live unit testing, see [Live unit testing](../test/li
 
 ## Use a third-party test framework
 
-You can run unit tests in Visual Studio by using third-party test frameworks such as Boost, Google, and NUnit, depending on your programming language. To use a third-party framework:
+You can run unit tests in Visual Studio by using third-party test frameworks such as NUnit, Boost, or Google C++ Testing Framework, depending on your programming language. To use a third-party framework:
 
 - Use the **NuGet Package Manager** to install the NuGet package for the framework of your choice.
 
 - (.NET) Starting in Visual Studio 2017 version 14.6, Visual Studio includes pre-configured test project templates for NUnit and xUnit test frameworks. The templates also include the necessary NuGet packages to enable support.
 
-- (C++) In Visual Studio 2017 and later versions, some frameworks like Boost are already included. For more information, see [Write unit tests for C/C++ in Visual Studio](../test/writing-unit-tests-for-c-cpp.md).
+- (C++) In Visual Studio 2017 and later versions, some frameworks like Google C++ Testing Framework are already included. For more information, see [Write unit tests for C/C++ in Visual Studio](../test/writing-unit-tests-for-c-cpp.md).
 
 To add a unit test project:
 
@@ -279,3 +337,6 @@ To add a unit test project:
 
 > [!div class="nextstepaction"]
 > [Create and run unit tests for managed code](walkthrough-creating-and-running-unit-tests-for-managed-code.md)
+
+> [!div class="nextstepaction"]
+> [Write unit tests for C/C++](../test/writing-unit-tests-for-c-cpp.md)

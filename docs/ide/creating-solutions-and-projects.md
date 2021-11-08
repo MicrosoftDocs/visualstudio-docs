@@ -1,25 +1,26 @@
 ---
-title: Work with solutions and projects
-description: Learn about the difference between solutions and projects and how to use them in Visual Studio.
+title: "Create projects & solutions"
+description: Learn how to create and use Visual Studio solutions and projects to store artifacts. 
 ms.custom: "SEO-VS-2020, contperf-fy21q2"
-ms.date: 12/23/2020
+ms.date: 06/14/2021
 ms.topic: how-to
 f1_keywords:
 - vs.openprojectfromweb
-- VS.ToolsOptionsPages.Projects.General
-- SolutionItemsProject
 helpviewer_keywords:
 - solutions [Visual Studio], creating
 - projects [Visual Studio], creating
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
-# Work with solutions and projects
+# Create, work with, and delete Visual Studio projects and solutions
 
-*Projects* hold the items needed to build your app in Visual Studio, such as source code files, bitmaps, icons, and component and service references. When you create a new project, Visual Studio creates a *solution* to contain the project. You can then add other new or existing projects to the solution if you want. Solutions can also contain files that aren't connected to any specific project.
+In this article, you'll learn how to create and use Visual Studio projects from scratch to store the artifacts you need to build your apps.  If you aren't familiar with projects in Visual Studio, see this overview of [Projects and Solutions](solutions-and-projects-in-visual-studio.md).  To learn how to quickly create a project from a template, see [Create a project from a template](create-new-project.md).
+
+*Projects* hold the items needed to build your app in Visual Studio, such as source code files, bitmaps, icons, and component and service references. When you create a new project, Visual Studio creates a *solution* to contain the project. You can then add other new or existing projects to the solution if you want. You can also create [blank or empty solutions](#create-empty-solutions). Solutions can also contain files that aren't connected to any specific project.
 
 ![Diagram showing the solution and project hierarchy.](./media/vside-proj-soln.png)
 
@@ -151,4 +152,3 @@ You can access File Explorer in Windows by using Solution Explorer in Visual Stu
 - [Filtered solutions in Visual Studio](filtered-solutions.md)
 - [Microsoft's open source repositories on GitHub](https://github.com/Microsoft)
 - [Developer code samples](https://code.msdn.microsoft.com/)
-- [Resources for troubleshooting Visual Studio IDE errors](./reference/resources-for-troubleshooting-integrated-development-environment-errors.md)

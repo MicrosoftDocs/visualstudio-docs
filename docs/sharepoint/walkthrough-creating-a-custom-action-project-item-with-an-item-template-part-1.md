@@ -16,6 +16,7 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
+ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---
@@ -424,7 +425,7 @@ ms.workload:
     > [!NOTE]
     > If the **Script Debugging Disabled** dialog box appears, choose the **Yes** button to continue to debug the project.
 
-4. On the **Site Actions** menu, choose **SharePoint Developer Center**, verify that the browser opens the website https://docs.microsoft.com/sharepoint/dev/, and then close the web browser.
+4. On the **Site Actions** menu, choose **SharePoint Developer Center**, verify that the browser opens the website `https://docs.microsoft.com/sharepoint/dev/`, and then close the web browser.
 
 ## Clean up the development computer
  After you finish testing the project item, remove the project item template from the experimental instance of Visual Studio.

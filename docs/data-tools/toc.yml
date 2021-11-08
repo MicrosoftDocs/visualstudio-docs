@@ -209,8 +209,6 @@
       href: how-to-add-update-or-remove-a-wcf-data-service-reference.md
   - name: Upgrade .mdf files
     href: upgrade-dot-mdf-files.md
-  - name: Troubleshoot data access errors
-    href: additional-resources-for-troubleshooting-data-access-errors.md
 - name: Reference
   items:
   - name: O/R Designer (Linq to SQL)

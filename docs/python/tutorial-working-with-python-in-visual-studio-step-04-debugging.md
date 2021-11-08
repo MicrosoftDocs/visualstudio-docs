@@ -4,10 +4,11 @@ titleSuffix: ""
 description: Step 4 of a core walkthrough of Python capabilities in Visual Studio, covering how to run Python code in the debugger.
 ms.date: 01/28/2019
 ms.topic: tutorial
-author: JoshuaPartlow
-ms.author: joshuapa
+author: rjmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
-ms.custom: seodec18
+ms.technology: vs-python
+
 ms.workload:
   - python
   - data-science
@@ -45,6 +46,8 @@ In addition to managing projects, providing a rich editing experience, and the *
     > To close the output window automatically when the program completes, select the **Tools** > **Options** menu command, expand the **Python** node, select **Debugging**, and then clear the option **Wait for input when process exits normally**:
     >
     > ![Python debugging option to close the output window on normal program exit](media/vs-getting-started-python-22-debugging5.png)
+    >
+    > For additional information about debugging, including tasks like how to set script and interpreter arguments, see [Debug your Python code](debugging-python-in-visual-studio.md).
 
 1. Set a breakpoint on the `for` statement by clicking once in the gray margin by that line, or by placing the caret in that line and using the **Debug** > **Toggle Breakpoint** command (**F9**). A red dot appears in the gray margin to indicate the breakpoint (as noted by the arrow below):
 

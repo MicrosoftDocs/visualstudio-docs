@@ -2,7 +2,7 @@
 title: Add references in the Reference Manager
 description: Learn how to use the Reference Manager dialog box to add and manage references to developed components.
 ms.custom: SEO-VS-2020
-ms.date: 08/02/2019
+ms.date: 08/30/2021
 ms.topic: how-to
 f1_keywords:
 - VS.ReferenceManager
@@ -21,6 +21,7 @@ helpviewer_keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
@@ -43,17 +44,31 @@ The Reference Manager dialog box shows different categories on the left side, de
 - **Windows**, with **Core** and **Extensions** subgroups. You can explore the references in the Windows SDK or extension SDKs by using the **Object Browser**.
 
 - **Browse**, with **Recent** subgroup
- 
+
     > [!NOTE]
     > You might not see **Browse** in the Reference Manager dialog box if you're developing C++ projects.
 
 ## Add a reference
+
+::: moniker range="vs-2017"
 
 1. In **Solution Explorer**, right-click on the **References** or **Dependencies** node and choose **Add Reference**. You can also right-click on the project node and select **Add** > **Reference**.
 
    **Reference Manager** opens and lists the available references by group.
 
 2. Specify the references to add, and then select **OK**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. In **Solution Explorer**, right-click on the **References** or **Dependencies** node and choose either **Add Project Reference**, **Add Shared Project Reference**, or **Add COM Reference**. (You can right-click the project node and select **Add** from the fly-out menu to choose from these options, too.)
+
+   **Reference Manager** opens and lists the available references by group.
+
+2. Specify the references to add, and then select **OK**.
+
+::: moniker-end
 
 ## Assemblies tab
 

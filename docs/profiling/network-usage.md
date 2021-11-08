@@ -1,13 +1,14 @@
 ---
 title: "Analyze network usage in UWP apps"
 description: Learn how the Visual Studio Network diagnostics tool collects data about network operations performed using the Windows.Web.Http API.
-ms.custom: "seodec18"
+
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 45fa397d-d7a1-4c4c-9c97-ede6c21643bd
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 monikerRange: vs-2017

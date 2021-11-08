@@ -2,7 +2,7 @@
 title: "Create custom data visualizers | Microsoft Docs"
 description: Visual Studio debugger visualizers are components that display data. Learn about the six standard visualizers, and about how you can write or download others. 
 ms.custom: SEO-VS-2020
-ms.date: "05/27/2020"
+ms.date: "07/29/2021"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.visualizer.troubleshoot"
@@ -19,6 +19,7 @@ ms.assetid: c24c006f-f2ac-429f-89db-677fc0c6e1ea
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -41,9 +42,13 @@ You can write a custom visualizer for an object of any managed class except for 
 
 The architecture of a debugger visualizer has two parts:
 
-- The *debugger side* runs within the Visual Studio debugger, and creates and displays the visualizer user interface.
+- The *debugger side* runs within the Visual Studio debugger, and creates and displays the visualizer user interface. 
+
+  Because Visual Studio executes on the .NET Framework Runtime, this component has to be written for .NET Framework. For this reason, it is not possible to write it for .NET Core.
 
 - The *debuggee side* runs within the process Visual Studio is debugging (the *debuggee*). The data object to visualize (for example, a String object) exists in the debuggee process. The debuggee side sends the object to the debugger side, which displays it in the user interface you create.
+
+  The runtime for which you build this component should match the one in which the debuggee process will run, that is, either .NET Framework or .NET Core.
 
 The debugger side receives the data object from an *object provider* that implements the <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider> interface. The debuggee side sends the object through the *object source*, which is derived from <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>.
 
@@ -67,7 +72,36 @@ To create the visualizer user interface on the debugger side, you create a class
 
 1. Override the <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer.Show%2A?displayProperty=fullName> method to display your interface. Use <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDialogVisualizerService> methods to display Windows forms, dialogs, and controls in your interface.
 
-4. Apply <xref:System.Diagnostics.DebuggerVisualizerAttribute>, giving it the visualizer to display (<xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>).
+1. Apply <xref:System.Diagnostics.DebuggerVisualizerAttribute>, giving it the visualizer to display (<xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>).
+
+#### Special debugger side considerations for .NET 5.0+
+
+Custom Visualizers transfer data between the *debuggee* and *debugger* sides through binary serialization using
+the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> class by default. However, that kind of
+serialization is being curtailed in .NET 5 and above due to security concerns regarding its *unfixible* vulnerabilities.
+Moreover, it has been marked completely obsolete in ASP.NET Core 5 and its usage will throw as described in the
+[ASP.NET Core Documentation](/dotnet/core/compatibility/core-libraries/5.0/binaryformatter-serialization-obsolete).
+This section describes the steps you should take to make sure your visualizer is still supported in
+this scenario.
+
+- For compatibility reasons, the <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer.Show%2A> method
+that was overridden in the preceding section still takes in an <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider>. However, starting in Visual Studio 2019 version 16.10, it is actually of type <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider2>.
+For this reason, cast the `objectProvider` object to the updated interface.
+
+- When sending objects, like commands or data, to the *debuggee-side* use the `IVisualizerObjectProvider2.Serialize` method
+to pass it to a stream, it will determine the best serialization format to use based on the runtime of the *debuggee* process.
+Then, pass the stream to the `IVisualizerObjectProvider2.TransferData` method.
+
+- If the *debuggee-side* visualizer component needs to return anything to the *debugger-side*, it will be located in the
+<xref:System.IO.Stream> object returned by the <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.TransferData%2A>
+method. Use the `IVisualizerObjectProvider2.GetDeserializableObjectFrom` method to get an
+<xref:Microsoft.VisualStudio.DebuggerVisualizers.IDeserializableObject> instance from it and process it as required.
+
+Please refer to the [Special debuggee side considerations for .NET 5.0+](#special-debuggee-side-considerations-for-net-50)
+section to learn what other changes are required on the *debuggee-side* when using Binary Serialization is not supported.
+
+> [!NOTE]
+> If you would like more information on the issue, see the [BinaryFormatter security guide](/dotnet/standard/serialization/binaryformatter-security-guide).
 
 ### To create the visualizer object source for the debuggee side
 
@@ -88,6 +122,20 @@ In the debuggee-side code:
    ```
 
    These are the only supported TFMs.
+
+#### Special debuggee side considerations for .NET 5.0+
+
+> [!IMPORTANT]
+> Additional steps might be needed for a visualizer to work starting in .NET 5.0 due to security concerns regarding the underlying binary
+serialization method used by default. Please read this [section](#special-debugger-side-considerations-for-net-50) before continuing.
+
+- If the visualizer implements the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A> method, 
+use the newly added <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetDeserializableObject%2A> method that
+is available in the latest version of `VisualizerObjectSource`. The <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDeserializableObject>
+it returns helps to determine the object's serialization format (binary or JSON) and to deserialize the underlying object so that it may be used.
+
+- If the *debuggee-side* returns data to the *debugger-side* as part of the `TransferData` call, serialize the response to the
+*debugger-side's* stream via the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.Serialize%2A> method.
 
 ## See also
 

@@ -16,6 +16,7 @@ ms.assetid: c20edbf4-3d4f-4f66-b1d5-753a0d858ed8
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---
@@ -37,13 +38,14 @@ Combines the specified paths into a single path.
 
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
- The following example shows how to create an output folder structure using `CombinePath` to construct the property `$(OutputDirectory)` by combining a root path `$(PublishRoot)` concatenated with `$(ReleaseDirectory)` and a subfolder list `$(LangDirectories)`.
+ The following example shows how to create an output folder structure using `CombinePath` to construct the property `$(OutputDirectory)` by combining a root path `$(PublishRoot)` concatenated with `$(ReleaseDirectory)` and a subfolder list `@(LangDirectories)`.
 
  ```xml
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <PublishRoot>C:\Site1\Release</PublishRoot>
+    <PublishRoot>C:\Site1\</PublishRoot>
+    <ReleaseDirectory>Release\</ReleaseDirectory>
   </PropertyGroup>
 
   <ItemGroup>
@@ -51,7 +53,7 @@ Combines the specified paths into a single path.
   </ItemGroup>
 
   <Target Name="CreateOutputDirectories" AfterTargets="Build">
-    <CombinePath BasePath="$(PublishRoot)" Paths="@(LangDirectories)" >
+    <CombinePath BasePath="$(PublishRoot)$(ReleaseDirectory)" Paths="@(LangDirectories)" >
       <Output TaskParameter="CombinedPaths" ItemName="OutputDirectories"/>
     </CombinePath>
     <MakeDir Directories="@(OutputDirectories)" />

@@ -23,6 +23,7 @@ ms.assetid: 7517ff13-76de-4ecf-9c1b-eb9b7ff4d718
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
@@ -50,7 +51,7 @@ You can use tabs to arrange your layout in several different ways. For example, 
 
 In the **Preview** tab, you can view files in the editor without opening them. You can preview files by choosing them in **Solution Explorer**, during debugging when you step into files, with **Go to Definition**, and when you browse through results of a search. Preview files appear in a tab on the right side of the document tab well. The file opens for editing if you modify it or choose  **Open**.
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 #### Vertical document tabs
 
@@ -163,7 +164,7 @@ First, create a test solution that has two projects, each with a different optim
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. Create a new C# **WPF Application** project. Imagine that in this project, you'll be developing a user interface. You want to maximize the space for the designer window and move other tool windows out of the way.
 

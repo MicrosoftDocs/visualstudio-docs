@@ -2,7 +2,7 @@
 title: MSBuild Targets | Microsoft Docs
 description: Learn how MSBuild uses targets to group tasks together and allow the build process to be factored into smaller units.
 ms.custom: SEO-VS-2020
-ms.date: 06/13/2019
+ms.date: 09/21/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, targets
@@ -10,6 +10,7 @@ ms.assetid: 8060b4d2-e4a9-48cf-a437-852649ceb417
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---
@@ -38,9 +39,19 @@ Targets group tasks together in a particular order and allow the build process t
 </Target>
 ```
 
- If `AfterBuild` executes, it displays only "Second occurrence", because the second definition of `AfterBuild` hides the first.
+If `AfterBuild` executes, it displays only "Second occurrence", because the second definition of `AfterBuild` hides the first.
 
- MSBuild is import-order dependent, and the last definition of a target is the definition used.
+MSBuild is import-order dependent, and the last definition of a target is the definition used. If you try to redefine a target, it won't take effect if the built-in target is defined later. In the case of projects that use an SDK, the order of definition is not necessarily obvious, since the imports for the targets are implicitly added after the end of your project file.
+
+Therefore, to extend the behavior of an existing target, create new target and specify `BeforeTargets` (or `AfterTargets` as appropriate) as follows:
+
+```xml
+<Target Name="MessageBeforePublish" BeforeTargets="BeforePublish">
+  <Message Text="BeforePublish" Importance="high" />
+</Target>
+```
+
+Give your target a descriptive name, as you would name a function in code.
 
 ## Target build order
 
@@ -56,7 +67,7 @@ Targets group tasks together in a particular order and allow the build process t
 
 - Target dependencies
 
-- `BeforeTargets` and `AfterTargets` (MSBuild 4.0)
+- `BeforeTargets` and `AfterTargets`
 
 A target never runs twice during a single build, even if a subsequent target in the build depends on it. Once a target runs, its contribution to the build is complete.
 
@@ -104,7 +115,7 @@ Reference: 4.0
 
 The following lists the public targets in Microsoft.Common.CurrentVersion.Targets.
 
-```
+```xml
 ===================================================
 Build
 The main build entry point.
@@ -117,14 +128,12 @@ The main build entry point.
 
 ===================================================
 BeforeBuild
-Redefine this target in your project in order to run tasks just before Build
 ===================================================
 <Target Name="BeforeBuild"/>
 
 
 ===================================================
 AfterBuild
-Redefine this target in your project in order to run tasks just after Build
 ===================================================
 <Target Name="AfterBuild"/>
 
@@ -149,21 +158,18 @@ Delete all intermediate and final build outputs, and then build the project from
 
 ===================================================
 BeforeRebuild
-Redefine this target in your project in order to run tasks just before Rebuild
 ===================================================
 <Target Name="BeforeRebuild"/>
 
 
 ===================================================
 AfterRebuild
-Redefine this target in your project in order to run tasks just after Rebuild
 ===================================================
 <Target Name="AfterRebuild"/>
 
 
 ===================================================
 BuildGenerateSources
-Redefine this target in your project in order to run tasks for BuildGenerateSources
 Set BuildPassReferences to enable P2P builds
 ===================================================
 <Target Name="BuildGenerateSources"
@@ -172,7 +178,6 @@ Set BuildPassReferences to enable P2P builds
 
 ===================================================
 BuildCompile
-Redefine this target in your project in order to run tasks for BuildCompile
 ===================================================
 <Target Name="BuildCompile"
         DependsOnTargets="BuildCompileTraverse;$(BuildCompileAction)" />
@@ -180,7 +185,6 @@ Redefine this target in your project in order to run tasks for BuildCompile
 
 ===================================================
 BuildLink
-Redefine this target in your project in order to run tasks for BuildLink
 ===================================================
 <Target Name="BuildLink"
         DependsOnTargets="BuildLinkTraverse;$(BuildLinkAction)" />
@@ -296,14 +300,12 @@ ResolveReferences
 
 ===================================================
 BeforeResolveReferences
-Redefine this target in your project in order to run tasks just before ResolveReferences
 ===================================================
 <Target Name="BeforeResolveReferences"/>
 
 
 ===================================================
 AfterResolveReferences
-Redefine this target in your project in order to run tasks just after ResolveReferences
 ===================================================
 <Target Name="AfterResolveReferences"/>
 
@@ -564,14 +566,12 @@ Run GenerateResource on the given resx files.
 
 ===================================================
 BeforeResGen
-Redefine this target in your project in order to run tasks just before Resgen.
 ===================================================
 <Target Name="BeforeResGen"/>
 
 
 ===================================================
 AfterResGen
-Redefine this target in your project in order to run tasks just after Resgen.
 ===================================================
 <Target Name="AfterResGen"/>
 
@@ -618,14 +618,12 @@ Emit any specified code fragments into a temporary source file for the compiler.
 
 ===================================================
 BeforeCompile
-Redefine this target in your project in order to run tasks just before Compile.
 ===================================================
 <Target Name="BeforeCompile"/>
 
 
 ===================================================
 AfterCompile
-Redefine this target in your project in order to run tasks just after Compile.
 ===================================================
 <Target Name="AfterCompile"/>
 
@@ -796,14 +794,12 @@ Delete all intermediate and final build outputs.
 
 ===================================================
 BeforeClean
-Redefine this target in your project in order to run tasks just before Clean.
 ===================================================
 <Target Name="BeforeClean"/>
 
 
 ===================================================
 AfterClean
-Redefine this target in your project in order to run tasks just after Clean.
 ===================================================
 <Target Name="AfterClean"/>
 
@@ -869,14 +865,12 @@ by the BuildManager.
 
 ===================================================
 BeforePublish
-Redefine this target in your project in order to run tasks just before Publish.
 ===================================================
 <Target Name="BeforePublish"/>
 
 
 ===================================================
 AfterPublish
-Redefine this target in your project in order to run tasks just after Publish.
 ===================================================
 <Target Name="AfterPublish"/>
 

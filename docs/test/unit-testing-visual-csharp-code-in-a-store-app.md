@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.author: mikejo
 author: mikejo5000
 manager: jmartens
+ms.technology: vs-ide-test
 ms.workload:
 - uwp
 ---

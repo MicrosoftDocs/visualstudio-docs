@@ -2,7 +2,7 @@
 description: "This function prompts the user for a project path, which is a string that is meaningful only to the source control plug-in."
 title: SccGetProjPath Function | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - SccGetProjPath
 helpviewer_keywords:
@@ -11,6 +11,7 @@ ms.assetid: 1079847e-d45f-4cb8-9d92-1e01ce5d08f6
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

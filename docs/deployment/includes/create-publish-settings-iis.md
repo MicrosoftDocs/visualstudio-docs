@@ -33,9 +33,9 @@
    * The *msdeploy.axd* file referenced in the `publishUrl` attribute is a dynamically generated HTTP handler file for Web Deploy. (For testing purposes, `http://myhostname:8172` generally works as well.)
    * The `publishUrl` port is set to port 8172, which is the default for Web Deploy.
    * The `destinationAppUrl` port is set to port 80, which is the default for IIS.
-   * If you are unable to connect to the remote host in Visual Studio using the host name (in later steps), test the IP address in place of the host name.
+   * If, in later steps, you are unable to connect to the remote host from Visual Studio using the host name, test the server's IP address in place of the host name.
 
      > [!NOTE]
-     > If you are publishing to IIS running on an Azure VM, you must open the Web Deploy and IIS ports in the Network Security group. For detailed information, see [Install and run IIS](/azure/virtual-machines/windows/quick-create-portal#install-web-server).
+     > If you are publishing to IIS running on an Azure VM, you must open an inbound port for Web Deploy and IIS in the Network Security group. For detailed information, see [Open ports to a virtual machine](/azure/virtual-machines/windows/nsg-quickstart-portal).
 
 5. Copy this file to the computer where you are running Visual Studio.

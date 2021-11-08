@@ -2,7 +2,7 @@
 title: MSBuild | Microsoft Docs
 description: Learn about how the Microsoft Build Engine (MSBuild) platform provides a project file with an XML schema to control builds.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 08/11/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, about MSBuild
@@ -11,6 +11,7 @@ ms.assetid: e39f13f7-1e1d-4435-95ca-0c222bca071c
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 ms.workload:
 - multiple
 ---
@@ -18,15 +19,19 @@ ms.workload:
 
 The Microsoft Build Engine is a platform for building applications. This engine, which is also known as MSBuild, provides an XML schema for a project file that controls how the build platform processes and builds software. Visual Studio uses MSBuild, but MSBuild doesn't depend on Visual Studio. By invoking *msbuild.exe* on your project or solution file, you can orchestrate and build products in environments where Visual Studio isn't installed.
 
- Visual Studio uses MSBuild to load and build managed projects. The project files in Visual Studio (*.csproj*, *.vbproj*, *.vcxproj*, and others) contain MSBuild XML code that executes when you build a project by using the IDE. Visual Studio projects import all the necessary settings and build processes to do typical development work, but you can extend or modify them from within Visual Studio or by using an XML editor.
+Visual Studio uses MSBuild to load and build managed projects. The project files in Visual Studio (*.csproj*, *.vbproj*, *.vcxproj*, and others) contain MSBuild XML code that executes when you build a project by using the IDE. Visual Studio projects import all the necessary settings and build processes to do typical development work, but you can extend or modify them from within Visual Studio or by using an XML editor.
 
- For information about MSBuild for C++, see [MSBuild (C++)](/cpp/build/msbuild-visual-cpp).
+::: moniker range=">=vs-2022"
+Starting with Visual Studio 2022, when you build in Visual Studio, the 64-bit version of MSBuild is used.
+::: moniker-end
 
- The following examples illustrate when you might run builds by invoking MSBuild from the command line instead of the Visual Studio IDE.
+For information about MSBuild for C++, see [MSBuild (C++)](/cpp/build/msbuild-visual-cpp).
+
+The following examples illustrate when you might run builds by invoking MSBuild from the command line instead of the Visual Studio IDE.
 
 - Visual Studio isn't installed. ([Download MSBuild without Visual Studio](https://visualstudio.microsoft.com/downloads/?q=build+tools).)
 
-- You want to use the 64-bit version of MSBuild. This version of MSBuild is usually unnecessary, but it allows MSBuild to access more memory.
+- You want to use the 64-bit version of MSBuild, and you're using Visual Studio 2019 or earlier. This version of MSBuild is usually unnecessary, but it allows MSBuild to access more memory.
 
 - You want to run a build in multiple processes. However, you can use the IDE to achieve the same result on projects in C++ and C#.
 
@@ -63,6 +68,8 @@ MSBuild.exe MyProj.proj -property:Configuration=Debug
 ## Project file
 
  MSBuild uses an XML-based project file format that's straightforward and extensible. The MSBuild project file format lets developers describe the items that are to be built, and also how they are to be built for different operating systems and configurations. In addition, the project file format lets developers author reusable build rules that can be factored into separate files so that builds can be performed consistently across different projects in the product.
+
+ The Visual Studio build system stores project-specific logic in the your project file itself, and uses imported MSBuild XML files with extensions like *.props* and *.targets* to define the standard build logic. The *.props* files define MSBuild properties, and *.targets* files define MSBuild targets. These imports are sometimes visible in the Visual Studio project file, but in newer projects such as .NET Core, .NET 5 and .NET 6 projects, you don't see the imports in the project file; instead, you see an SDK reference. These are called SDK-style projects. When you reference an SDK such as the .NET SDK, the imports of .props and .target files are implicitly specified by the SDK.
 
  The following sections describe some of the basic elements of the MSBuild project file format. For a tutorial about how to create a basic project file, see [Walkthrough: Creating an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md).
 
@@ -160,9 +167,7 @@ MSBuild.exe MyProj.proj -property:Configuration=Debug
 
  These are some of the benefits of multitargeting:
 
-- You can develop applications that target earlier versions of .NET Framework, for example, versions 2.0, 3.0, and 3.5.
-
-- You can target frameworks other than .NET Framework, for example, Silverlight.
+- You can develop applications that target earlier versions of .NET Framework, for example, versions 3.5 and 4.7.2.
 
 - You can target a *framework profile*, which is a predefined subset of a target framework.
 

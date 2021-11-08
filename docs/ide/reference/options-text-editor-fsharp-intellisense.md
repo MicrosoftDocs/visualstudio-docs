@@ -9,6 +9,7 @@ f1_keywords:
 author: jillre
 ms.author: jillfra
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "dotnet"
 ---

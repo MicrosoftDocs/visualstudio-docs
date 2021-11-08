@@ -1,1 +1,0 @@
-Windows Library for JavaScript (WinJS)

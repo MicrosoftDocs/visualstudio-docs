@@ -4,10 +4,11 @@ titleSuffix: ""
 description: A walkthrough of Flask basics in the context of Visual Studio projects, specifically demonstrating how to serve static files, add pages to the app, and use template inheritance
 ms.date: 01/07/2019
 ms.topic: tutorial
-author: JoshuaPartlow
-ms.author: joshuapa
+author: rjmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
-ms.custom: seodec18
+ms.technology: vs-python
+
 ms.workload:
   - python
   - data-science
@@ -275,10 +276,7 @@ The following steps demonstrate inheritance:
 
 ## Next steps
 
-> [!div class="nextstepaction"]
-> [Use the full Flask Web Project template](learn-flask-visual-studio-step-04-full-flask-project-template.md)
-
-## Go deeper
+You can go deeper with these resources:
 
 - [Deploy the web app to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md)
 - For more capabilities of Jinja templates, such as control flow, see [Jinja Template Designer Documentation](http://jinja.palletsprojects.com/en/2.10.x/templates/) (jinja.pocoo.org)

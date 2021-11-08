@@ -12,6 +12,7 @@ ms.assetid: fbcd57ee-06ad-4260-8694-09f8e0f93e39
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # How to: Create a web service test
 
@@ -22,7 +23,11 @@ You can use a web performance test to test web services. By using the **Insert R
 
 **Requirements**
 
-Visual Studio Enterprise
+* Visual Studio Enterprise
+* Internet Explorer
+
+>[!NOTE]
+> Web performance and load test functionality only supports Internet Explorer which is not available on Windows 11 and some versions of Windows 10. Read more on [Internet Explorer Lifecycle policy](/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-).
 
 ## To create a simple web service
 

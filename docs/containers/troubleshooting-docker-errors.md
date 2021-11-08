@@ -1,15 +1,15 @@
 ---
 title: Troubleshooting Docker client errors on Windows | Microsoft Docs
 description: Troubleshoot problems you encounter when using Visual Studio to create and deploy web apps to Docker on Windows by using Visual Studio.
-ms.technology: vs-azure
+ms.technology: vs-container-tools
 author: ghogen
 manager: jmartens
-ms.custom: seodec18
+
 ms.assetid: 346f70b9-7b52-4688-a8e8-8f53869618d3
 ms.devlang: dotnet
 ms.topic: troubleshooting
 ms.workload: multiple
-ms.date: 01/27/2020
+ms.date: 10/08/2021
 ms.author: ghogen
 ---
 # Troubleshoot Visual Studio development with Docker
@@ -26,7 +26,7 @@ File sharing only needs to be managed if you are using Hyper-V with Docker. If y
     :::image type="content" source="media//troubleshooting-docker-errors/docker-settings-image.png" alt-text="Shared drives":::
 
 > [!TIP]
-> Visual Studio versions later than Visual Studio 2017 version 15.6 will  prompt when **Shared Drives** aren't configured.
+> Visual Studio versions later than Visual Studio 2017 version 15.6 will prompt when **Shared Drives** aren't configured.
 
 ## Unable to start debugging
 
@@ -53,7 +53,7 @@ The current user must be in the 'docker-users' group to use Docker Desktop.
 Add yourself to the 'docker-users' group and then log out of Windows.
 ```
 
-You must be a member of the 'docker-users' group in order to have permissions to work with Docker containers.  To add yourself to the group in Windows 10, follow these steps:
+You must be a member of the 'docker-users' group in order to have permissions to work with Docker containers.  To add yourself to the group in Windows 10 or later, follow these steps:
 
 1. From the Start menu, open **Computer Management**.
 1. Expand **Local Users and Groups**, and choose **Groups**.
@@ -81,7 +81,7 @@ By default, Docker stores images in the *%ProgramData%/Docker/* folder, which is
     "graph": "D:\\mypath\\images"
 ```
 
-:::image type="content" source="media/troubleshooting-docker-errors/docker-daemon-settings.png" alt-text="Screenshot of Docker File Sharing":::
+:::image type="content" source="media/troubleshooting-docker-errors/docker-daemon-settings.png" alt-text="Screenshot of Docker daemon settings":::
 
 Click **Apply & Restart**. These steps modify the configuration file at *%ProgramData%\docker\config\daemon.json*. Previously built images are not moved.
 

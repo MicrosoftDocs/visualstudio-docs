@@ -1,16 +1,21 @@
 ---
-title: "Docker tutorial - Part 1: Build and run the todo list sample app"
+title: "Docker tutorial - Part 2: Build and run the todo list sample app"
 description: Overview of the todo list sample app that runs in Node.js.
-ms.date: "08/04/2020"
+ms.date: "08/06/2021"
 author: nebuk89
 ms.author: ghogen
 manager: jmartens
-ms.technology: vs-azure
+ms.technology: vs-docker
+ms.custom: "contperf-fy22q1"
+
 ms.topic: conceptual
 ms.workload:
   - "azure"
 ---
 # Build and run the todo sample app
+
+>[!NOTE]
+> This is a continuation of a tutorial that starts [here](docker-tutorial.md)
 
 For the rest of this tutorial, you'll be working with a simple todo list manager that is running in Node.js. If you're not familiar with Node.js, don't worry! No real JavaScript experience is needed!
 
@@ -22,9 +27,11 @@ At this point, your development team is quite small and you're simply building a
 
 Before you can run the application, you need to get the application source code onto your machine. For real projects, you will typically clone the repo. But, for this tutorial, we have created a ZIP file containing the application.
 
-1. Make sure that you have Docker for Windows or Docker Community Edition installed on the local machine. See [Docker for Windows installation documentation](https://docs.docker.com/docker-for-windows/install/). The install process makes the ZIP file containing the sample available at the localhost address.
+1. If you're using Windows, make sure that you have Docker for Windows or Docker Community Edition installed on the local machine. See [Docker for Windows installation documentation](https://docs.docker.com/docker-for-windows/install/). The install process makes the ZIP file containing the sample available at the localhost address. For Mac, install [Docker Desktop for Mac](https://docs.docker.com/docker-for-mac/install/).
 
-1. [Download the ZIP](https://github.com/docker/getting-started/tree/master/app). Open the ZIP file and make sure you extract the contents.
+1. Download the source for the app from the [Docker](https://github.com/docker/getting-started) repo. You can download the ZIP file for the repo. To download the ZIP file, use the green **Code** button and choose **Download ZIP**. Open the ZIP file and Extract All to extract the source of the app from the *app* folder to a folder on your hard drive.
+
+   ![Screenshot showing the green Code button and Download ZIP option](media/download-zip.png)
 
 1. Once extracted, use your favorite code editor to open the project. If you're in need of an editor, you can use [Visual Studio Code](https://code.visualstudio.com/). You should see the `package.json` and two subdirectories (`src` and `spec`).
 
@@ -74,7 +81,7 @@ Now that you have an image, run the application! To do so, use the `docker run` 
 
     Remember the `-d` and `-p` flags? You're running the new container in "detached" mode (in the background) and creating a mapping between the host's port 3000 to the container's port 3000. Without the port mapping, you wouldn't be able to access the application.
 
-1. After a few seconds, open your web browser to [http://localhost:3000](http://localhost:3000).
+1. After a few seconds, open your web browser to `http://localhost:3000`.
     You should see the app!
 
     ![Empty Todo List](media/todo-list-empty.png)

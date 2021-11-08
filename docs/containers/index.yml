@@ -4,9 +4,8 @@ metadata:
   title: Docker container development tools documentation
   description: 'Learn how to build and manage container-based apps and services. Get documentation, example code, tutorials, and more.'
   author: ghogen
-  manager: jillfra
-  ms.prod: visual-studio-windows
-  ms.technology: vs-azure
+  manager: jmartens
+  ms.technology: vs-container-tools
   ms.topic: landing-page
   ms.date: 11/25/2019
   ms.author: ghogen
@@ -59,11 +58,13 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: 'How to: Configure the build and debug environment'
-            url: container-build.md
-          - text: 'How to: View and diagnose containers'
+          - text: 'Use the Containers window'
             url: view-and-diagnose-containers.md
-          - text: 'How to: Troubleshoot container development tools'
+          - text: 'Launch a subset of your Compose services'
+            url: launch-profiles.md
+          - text: 'Configure the build and debug environment'
+            url: container-build.md
+          - text: 'Troubleshoot container development tools'
             url: troubleshooting-docker-errors.md
 
   - title: Container tools settings
@@ -84,8 +85,8 @@ landingContent:
       - linkListType: quickstart
         links:
           - text: Use Bridge to Kubernetes with Visual Studio
-            url: bridge-to-kubernetes.md
+            url: /visualstudio/bridge/overview-bridge-to-kubernetes
       - linkListType: overview
         links:
           - text: How Bridge to Kubernetes works
-            url: overview-bridge-to-kubernetes.md
+            url: /visualstudio/bridge/overview-bridge-to-kubernetes

@@ -2,7 +2,7 @@
 title: "General reference (Office development in Visual Studio)"
 description: Learn general reference information about Microsoft Office development projects in Visual Studio.
 titleSuffix: ""
-ms.custom: "seodec18, SEO-VS-2020"
+
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,6 +13,7 @@ helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
+ms.technology: office-development
 ms.workload:
   - "office"
 ---

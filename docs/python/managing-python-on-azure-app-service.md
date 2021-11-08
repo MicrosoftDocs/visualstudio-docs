@@ -3,10 +3,11 @@ title: Configure Python on Azure App Service (Windows)
 description: How to install a Python interpreter and libraries on Azure App Service, and configuring web applications to properly refer to that interpreter.
 ms.date: 01/07/2019
 ms.topic: how-to
-author: JoshuaPartlow
-ms.author: joshuapa
+author: rjmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
-ms.custom: seodec18
+ms.technology: vs-python
+
 ms.workload:
   - python
   - data-science
@@ -22,8 +23,10 @@ ms.workload:
 
 Customizable Python support for Azure App Service is provided as a set of App Service *site extensions* that each contain a specific version of the Python runtime. You can then install any desired packages directly into that environment, as described in this article. By customizing the environment in the App Service itself, you don't need to maintain packages in your web app projects or upload them with the app code.
 
+::: moniker range="<=vs-2017"
 > [!Tip]
 > Although App Service by default has Python 2.7 and Python 3.4 installed in root folders on the server, you cannot customize or install packages in these environments, nor should you depend on their presence. You should instead rely on a site extension that you control, as described in this article.
+::: moniker-end
 
 ## Choose a Python version through the Azure portal
 

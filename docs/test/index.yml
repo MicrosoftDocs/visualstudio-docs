@@ -10,8 +10,8 @@ metadata:
   ms.technology: vs-ide-test
   author: mikejo5000
   ms.author: mikejo
-  manager: jillfra
-  ms.date: 03/23/2020
+  manager: jmartens
+  ms.date: 08/19/2021
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -27,6 +27,8 @@ landingContent:
             url: improve-code-quality.md
           - text: Unit test tools & tasks
             url: unit-test-your-code.md
+          - text: Unit test basics
+            url: unit-test-basics.md
           - text: Live Unit Testing overview (.NET)
             url: live-unit-testing-intro.md
 
@@ -41,8 +43,6 @@ landingContent:
             url: run-unit-tests-with-test-explorer.md
       - linkListType: how-to-guide
         links:
-          - text: Unit test basics
-            url: unit-test-basics.md
           - text: Code coverage - Determine how much code is being tested
             url: using-code-coverage-to-determine-how-much-code-is-being-tested.md
 
@@ -57,6 +57,8 @@ landingContent:
             url: live-unit-testing-start.md
           - text: Generate unit tests (IntelliTest)
             url: generate-unit-tests-for-your-code-with-intellitest.md
+          - text: Test execution with Hot Reload
+            url: test-execution-with-hot-reload.md
       - linkListType: how-to-guide
         links:
           - text: Microsoft Fakes - Isolate code under test

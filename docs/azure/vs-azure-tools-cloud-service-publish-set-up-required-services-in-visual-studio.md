@@ -3,6 +3,7 @@ title: Prepare to publish or deploy a Cloud Service
 description: Learn the procedures to set up cloud and storage account services and configure your Azure application.
 author: ghogen
 manager: jmartens
+ms.technology: vs-azure
 ms.workload: azure-vs
 ms.topic: how-to
 ms.date: 11/10/2017

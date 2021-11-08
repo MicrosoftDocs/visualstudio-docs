@@ -3,11 +3,12 @@ title: "BC Texture Compression Variant | Microsoft Docs"
 description: Use the BC texture compression variant to allow block compression (BC) on textures having a pixel format that's a variation of B8G8R8X8, B8G8R8A8, or R8G8B8A8.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 ms.assetid: 2d0f5305-585b-4b01-bc9a-7a32d6e991da
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

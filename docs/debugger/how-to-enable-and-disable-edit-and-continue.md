@@ -1,7 +1,7 @@
 ---
 title: Enable and disable Edit and Continue | Microsoft Docs
 description: Learn how to disable and enable Edit and Continue in Visual Studio Options at design time. Edit and Continue works only in debug builds.
-ms.custom: "SEO-VS-2020, seodec18"
+
 ms.date: 10/04/2018
 ms.topic: how-to
 dev_langs: 
@@ -24,6 +24,7 @@ ms.assetid: fd961a1c-76fa-420d-ad8f-c1a6c003b0db
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload: 
   - dotnet
   - cplusplus

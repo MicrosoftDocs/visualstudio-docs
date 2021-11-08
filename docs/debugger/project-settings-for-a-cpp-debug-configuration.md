@@ -1,7 +1,7 @@
 ---
 title: "Project settings for a C++ debug config"
 description: Configure C and C++ debugging in Property Pages. This article describes the settings and tells you their category.
-ms.custom: "SEO-VS-2020, seodec18"
+
 ms.date: "11/26/2018"
 ms.topic: "reference"
 f1_keywords:
@@ -111,6 +111,7 @@ ms.assetid: 860c7f13-a108-4fe5-8fca-d235cd3ca1cb
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "cplusplus"
 ---

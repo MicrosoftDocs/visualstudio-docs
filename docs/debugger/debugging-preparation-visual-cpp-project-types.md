@@ -1,7 +1,7 @@
 ---
 title: "Prepare to debug C++ projects | Microsoft Docs"
 description: Get information about preparing to debug the basic project types created by the Visual C++ project templates in Visual Studio.
-ms.custom: "SEO-VS-2020, seodec18"
+
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -15,6 +15,7 @@ ms.assetid: 912b4ba2-7719-43d5-b087-db33e3f9329a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "cplusplus"
 ---

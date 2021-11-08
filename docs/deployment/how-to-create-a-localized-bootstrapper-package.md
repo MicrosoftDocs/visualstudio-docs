@@ -12,6 +12,7 @@ ms.assetid: 66a1bc7e-6540-4164-963d-557196a69d8a
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-deployment
 ms.workload: 
   - multiple
 ---
@@ -20,7 +21,7 @@ After you create a bootstrapper package, you can create localized versions of th
 
  By default, Visual Studio 2010 includes localized bootstrapper packages only for .NET Framework 4, .NET Framework 4 Client Profile, F# Runtime 2.0, and F# Runtime 4.0. You can create localized packages for other bootstrappers by completing three steps.
 
-1. Create a folder that is named after the locale name in *\Program Files\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages\\\<BootstrapperPackageName>*.
+1. Create a folder that is named after the locale name in *\Program Files (x86)\Microsoft SDKs\ClickOnce Bootstrapper\Packages\\\<BootstrapperPackageName>*.
 
 2. Create a file that contains the software license terms for the bootstrapper package and put it in the new folder.
 
@@ -35,9 +36,9 @@ After you create a bootstrapper package, you can create localized versions of th
 
 1. Create a folder that is named after the locale name.
 
-     On 32-bit computers, create the folder in the *\Program Files\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages\\\<BootstrapperPackageName>\\* folder.
+     On 32-bit computers, create the folder in the *\Program Files\Microsoft SDKs\ClickOnce Bootstrapper\Packages\\\<BootstrapperPackageName>\\* folder.
 
-     On 64-bit computers, create the folder in the *\Program Files (86)\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages\\\<BootstrapperPackageName>\\* folder.
+     On 64-bit computers, create the folder in the *\Program Files (x86)\Microsoft SDKs\ClickOnce Bootstrapper\Packages\\\<BootstrapperPackageName>\\* folder.
 
      The following table shows the folder names that you can use to match a locale.
 
@@ -72,19 +73,22 @@ After you create a bootstrapper package, you can create localized versions of th
 
 1. Create a folder that is named *fr*. The folder name must match the locale name.
 
-     On 32-bit computers, create the folder in the *\Program Files\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages\DotNetFX35SP1\\* folder.
+     On 32-bit computers, create the folder in the *\Program Files\Microsoft SDKs\ClickOnce Bootstrapper\Packages\DotNetFX35SP1\\* folder.
 
-     On 64-bit computers, create the folder in the *\Program Files (86)\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages\DotNetFX35SP1\\* folder.
+     On 64-bit computers, create the folder in the *\Program Files (x86)\Microsoft SDKs\ClickOnce Bootstrapper\Packages\DotNetFX35SP1\\* folder.
 
 2. Put a localized version of the software license terms into the *fr* folder.
 
-3. Copy the *\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages\DotNetFX35SP1\en\package.xml* file to the *fr* folder, and open the file in the XML Designer.
+3. Copy the *\Program Files (x86)\Microsoft SDKs\ClickOnce Bootstrapper\Packages\DotNetFX35SP1\en\package.xml* file to the *fr* folder, and open the file in the XML Designer.
 
 4. Update the `<Strings>` section of the package manifest so that the error strings are in French.
 
 5. Change the `<String Name="Culture">` value to *fr*.
 
 6. Save the *package.xml* file.
+
+>[!NOTE]
+> Starting with the Visual Studio 2019 Update 7 release bootstrapper packages will also be discovered under the path *{VS Install Path}\MSBuild\Microsoft\VisualStudio\BootstrapperPackages*.
 
 ## See also
 - [Create bootstrapper packages](../deployment/creating-bootstrapper-packages.md)

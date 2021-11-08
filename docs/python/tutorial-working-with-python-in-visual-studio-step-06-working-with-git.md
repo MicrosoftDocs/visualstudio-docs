@@ -2,12 +2,13 @@
 title: Python in Visual Studio tutorial step 6, work with Git
 titleSuffix: ""
 description: Step 6 of a core walkthrough of Python in Visual Studio, covering Visual Studio's Git-related features.
-ms.date: 01/28/2019
+ms.date: 08/16/2021
 ms.topic: tutorial
-author: JoshuaPartlow
-ms.author: joshuapa
+author: rjmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
-ms.custom: seodec18
+ms.technology: vs-python
+
 ms.workload:
   - python
   - data-science
@@ -16,6 +17,10 @@ ms.workload:
 # Step 6: Work with Git
 
 **Previous step: [Install packages and manage your Python environment](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)**
+
+[!INCLUDE[..get-started/includes/git-source-control.md](../get-started/includes/git-source-control.md)]
+
+::: moniker range="vs-2017"
 
 Visual Studio provides direct integration with local Git repositories and remote repositories on services like GitHub and Azure Repos. The integration includes cloning a repository, committing changes, and managing branches.
 
@@ -52,6 +57,8 @@ This article provides a basic overview of creating a local Git repository for an
 For a short walkthrough of creating a project from a remote Git repository, see [Quickstart: Clone a repository of Python code in Visual Studio](quickstart-03-python-in-visual-studio-project-from-repository.md).
 
 For a much more comprehensive tutorial, including handling merge conflicts, reviewing code with pull requests, rebasing, and cherry-picking changes between branches, see [Get started with Git and Azure Repos](/azure/devops/repos/git/gitquickstart).
+
+::: moniker-end
 
 ## Tutorial review
 

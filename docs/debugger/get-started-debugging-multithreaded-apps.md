@@ -15,6 +15,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload: 
   - multiple
 ---
@@ -49,7 +50,7 @@ You'll first need a multithreaded application project. An example follows.
 
    In the **Configure your new project** window, type or enter *MyThreadWalkthroughApp* in the **Project name** box. Then, choose either **Next** or **Create**, whichever option is available.
 
-   For a .NET Core project, choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+   For a .NET Core project, choose either the recommended target framework or .NET 6, and then choose **Create**.
 
    ::: moniker-end
    ::: moniker range="vs-2017"

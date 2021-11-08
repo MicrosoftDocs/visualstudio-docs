@@ -3,7 +3,7 @@ title: Dynamically Adding Menu Items | Microsoft Docs
 description: Learn how to use the DynamicItemStart command flag to add menu items at runtime. This article shows how to set the startup project in a Visual Studio solution. 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - DYNAMICITEMSTART
 - menu items, adding dynamically
@@ -12,6 +12,7 @@ ms.assetid: d281e9c9-b289-4d64-8d0a-094bac6c333c
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

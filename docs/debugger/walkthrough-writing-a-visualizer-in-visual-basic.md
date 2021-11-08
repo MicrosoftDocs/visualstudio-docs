@@ -1,7 +1,7 @@
 ---
 title: "Write a visualizer in Visual Basic | Microsoft Docs"
 description: Follow a walkthrough to create a simple visualizer in Visual Basic. You also create a test harness to test your visualizer.
-ms.custom: "SEO-VS-2020, seodec18"
+
 ms.date: "05/27/2020"
 ms.topic: "conceptual"
 dev_langs:
@@ -16,6 +16,7 @@ ms.assetid: c93bf5a1-3e5e-422f-894e-bd72c9bc1b57
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

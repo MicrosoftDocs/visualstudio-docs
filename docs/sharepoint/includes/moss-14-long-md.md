@@ -1,1 +1,1 @@
- Microsoft SharePoint Server 2010 
+ Microsoft SharePoint Server

@@ -1,1 +1,1 @@
- Microsoft SharePoint Foundation 2010 
+ Microsoft SharePoint Foundation

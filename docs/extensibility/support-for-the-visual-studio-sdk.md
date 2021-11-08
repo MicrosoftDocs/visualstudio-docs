@@ -14,6 +14,7 @@ ms.assetid: d9011f5a-cb53-418f-9d8f-74b15b9fc5f5
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
@@ -60,4 +61,4 @@ Information about individual support requests can be found at [Individual Suppor
 
 ## See also
 
-- [Talk to Us](../ide/feedback-options.md)
+- [Visual Studio Developer Community](https://developercommunity.visualstudio.com/home)

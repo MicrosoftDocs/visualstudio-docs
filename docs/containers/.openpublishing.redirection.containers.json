@@ -1,0 +1,24 @@
+{
+    "redirections": [
+      {
+        "source_path": "overview-bridge-to-kubernetes.md",
+        "redirect_url": "/visualstudio/bridge/overview-bridge-to-kubernetes",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "bridge-to-kubernetes.md",
+        "redirect_url": "/visualstudio/bridge/bridge-to-kubernetes-vs",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "configure-bridge-to-kubernetes.md",
+        "redirect_url": "/visualstudio/bridge/configure-bridge-to-kubernetes",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "managed-identity.md",
+        "redirect_url": "/visualstudio/bridge/managed-identity",
+        "redirect_document_id": false
+      }
+    ]
+}

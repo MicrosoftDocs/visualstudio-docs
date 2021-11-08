@@ -42,4 +42,4 @@ More information on using a NuGet Package is provided in the [Including a NuGet 
 ## See also
 
 - [Manage references (Visual Studio on Windows)](/visualstudio/ide/managing-references-in-a-project)
-- [Adding references using NuGet versus an extension SDK (Visual Studio on Windows)](/visualstudio/ide/adding-references-using-nuget-versus-an-extension-sdk)
+- [NuGet versus SDK as a project reference](/visualstudio/extensibility/nuget-versus-sdk-references)

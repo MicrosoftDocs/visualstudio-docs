@@ -1,11 +1,12 @@
 ---
 title: Simplify LINQ expression
 description: "This refactoring is used to remove unnecessary calls to the Enumerable for the Where method."
-ms.date: 08/12/2020
+ms.date: 07/05/2021
 ms.topic: reference
 author: m-redding
 ms.author: midumont
 manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
   - CSharp
 ms.workload: 
@@ -21,7 +22,7 @@ This refactoring applies to:
 
 **When:**  All instances where the method calls `Single()`, `SingleOrDefault()`, and so on, doesn't have any arguments and is preceded by a `Where()` expression. The input to the `Where()` expression cannot be constructed as an expression tree.
 
-**Why:** Removing the unnecessary call to the Enumerable for the `.Where()` method improves performance and readability.
+**Why:** Removing the unnecessary call to the Enumerable for the `.Where()` method improves readability and in some cases performance, see remarks.
 
 ## How-to
 
@@ -30,6 +31,10 @@ This refactoring applies to:
 3. Select **Simplify LINQ expression**
 
    ![Convert typeof to nameof](media/simplify-linq-expression.png)
+   
+## Remarks
+
+In some cases this refactoring may reduce performance. LINQ operations on `List<T>` and `T[]` are not optimized in this case and result in worse performance.
 
 ## See also
 

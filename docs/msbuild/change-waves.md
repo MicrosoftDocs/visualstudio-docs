@@ -9,6 +9,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
+ms.technology: msbuild
 monikerRange: ">=vs-2019"
 ms.workload:
 - multiple

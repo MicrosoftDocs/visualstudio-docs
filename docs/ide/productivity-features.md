@@ -4,9 +4,10 @@ description: Learn about the keyboard shortcuts and productivity features in Vis
 ms.custom: SEO-VS-2020
 ms.date: 4/29/2020
 ms.topic: conceptual
-author: j-martens
-ms.author: jmartens
+author: TerryGLee
+ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---

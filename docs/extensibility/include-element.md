@@ -3,7 +3,7 @@ title: Include Element | Microsoft Docs
 description: The Include element specifies a file that can be located on the supplied include path for insertion into the current file. 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 f1_keywords:
 - Include
 helpviewer_keywords:
@@ -13,6 +13,7 @@ ms.assetid: c923dfe6-084a-4105-aec1-f0a3f8399c54
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

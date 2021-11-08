@@ -3,6 +3,7 @@ title: Add a connection to Azure SQL Database | Microsoft Docs
 description: Add Azure SQL Database connection to your app by using the Visual Studio Connected Services
 author: AngelosP
 manager: jmartens
+ms.technology: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 08/17/2020
@@ -11,7 +12,7 @@ monikerRange: ">= vs-2019"
 ---
 # Add a connection to Azure SQL Database
 
-With Visual Studio, you can connect any of the following to Azure SQL database by using the **Connected Services** feature:
+With Visual Studio, you can connect any of the following to Azure SQL Database by using the **Connected Services** feature:
 
 - .NET Framework console app
 - ASP.NET MVC (.NET Framework) 
@@ -46,7 +47,7 @@ The connected service functionality adds all the needed references and connectio
 
     ![Add Azure SQL Database Service](./media/azure-sql-database-add-connected-service/azure-sql-database.png)
 
-    If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/account/free).
+    If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
 1. In the **Configure Azure SQL Database** screen, select an existing Azure SQL Database, and select **Next**.
 

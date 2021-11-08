@@ -17,6 +17,7 @@ ms.assetid: 4a919cd8-541c-40ee-be3b-352fabc56140
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ---
 # Analyze load test results in the Graphs view of the Load Test Analyzer
 

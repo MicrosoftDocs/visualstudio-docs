@@ -3,13 +3,14 @@ title: Debug Engine | Microsoft Docs
 description: Learn how a debug engine works with the interpreter or operating system to provide services such as execution control, breakpoints, and expression evaluation. 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - debug engines
 ms.assetid: 148b1efc-ca07-4d8e-bdfc-c723a760c620
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---

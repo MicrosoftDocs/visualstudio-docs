@@ -3,10 +3,10 @@ title: Visual Studio Build Tools workload and component IDs
 titleSuffix: ''
 description: Use Visual Studio workload and component IDs to build classic Windows-based applications
 keywords:
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
-ms.date: 05/25/2021
+ms.date: 10/12/2021
 ms.topic: reference
 helpviewer_keywords:
 - workload ID, Visual Studio
@@ -31,13 +31,23 @@ To install these components using the manual installer, download and run the [Bu
 
 ::: moniker-end
 
-::: moniker range=">= vs-2019"
+::: moniker range="vs-2019"
 
 [!INCLUDE[workloads-components-header-2019_md](includes/workloads-components-header-2019_md.md)]
 
 To install these components by using the manual installer, download and run the [Build Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019).
 
 [!INCLUDE[Visual Studio Build Tools 2019](includes/vs-2019/workload-component-id-vs-build-tools.md)]
+
+::: moniker-end
+
+::: moniker range=">= vs-2022"
+
+[!INCLUDE[workloads-components-header-2022_md](includes/workloads-components-header-2022.md)]
+
+To install these components by using the manual installer, download and run the [Build Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022).
+
+[!INCLUDE[Visual Studio Build Tools 2022](includes/vs-2022/workload-component-id-vs-build-tools.md)]
 
 ::: moniker-end
 

@@ -1,7 +1,7 @@
 ---
 title: Admin responsibilities in Visual Studio subscriptions | Visual Studio Marketplace
 author: evanwindom
-ms.author: v-evwin
+ms.author: cabuschl
 manager: cabuschl
 ms.assetid: b26b31dc-1eeb-4871-9ce6-2c980e703f1e
 ms.date: 03/19/2021
@@ -30,12 +30,14 @@ Visual Studio subscriptions allow developers to install and use software to desi
 | License reassignment                     | When a user leaves a team and no longer requires a license, you may reassign the license to another user if at least 90 days have passed since it was assigned to the previous user. When you reassign a license, any product keys that were already used will still be available but will not be replaced. For organizations that have Enterprise Agreements (EA), any benefits that were used by the original user, such as Pluralsight training, will be reset.                                                                                                                                                                                                                                                 |
 | Exception for end users                  | At the end of a software development project, end users typically review an application and determine whether it meets the necessary criteria for release. This process is called user acceptance testing (UAT). Team members such as a business sponsor or a product manager can act as proxies for end users. End users who do not have a Visual Studio subscription may access the software for UAT if use of the software otherwise complies with all Visual Studio licensing terms. It is rare that someone whose primary role is designing, developing, or testing the software would also qualify as an “end user”. |
 
+## Resources
+- [Visual Studio administration and subscriptions support](https://aka.ms/vsadminhelp)
+
 ## See also
 - [Visual Studio documentation](/visualstudio/)
 - [Azure DevOps documentation](/azure/devops/)
 - [Azure documentation](/azure/)
 - [Microsoft 365 documentation](/microsoft-365/)
-- [Visual Studio administration and subscriptions support](https://aka.ms/vsadminhelp)
 
 ## Next steps
 Learn more about responsibilities for admins:

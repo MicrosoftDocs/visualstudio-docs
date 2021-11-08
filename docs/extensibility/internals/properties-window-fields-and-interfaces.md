@@ -3,13 +3,14 @@ title: Properties Window Fields and Interfaces | Microsoft Docs
 description: Learn about the selection that determines what information is displayed in the Properties window based on the window that has focus in the Visual Studio IDE.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - Properties window, fields and interfaces
 ms.assetid: 0328f0e5-2380-4a7a-a872-b547cb775050
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

@@ -18,6 +18,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -118,7 +119,7 @@ By default, IntelliTrace records only IntelliTrace events: debugger events, exce
 
 - **SharePoint 2010 and SharePoint 2013 application events**
 
-  You can record user profile events and a subset of Unified Logging System (ULS) events for SharePoint 2010 and 2013 applications running outside Visual Studio. You can save these events to an .iTrace file. Requires Visual Studio Enterprise 2015 or later versions, a previous version of Visual Studio Ultimate, or [Microsoft Monitoring Agent](https://www.microsoft.com/download/details.aspx?id=40316) running in **Trace** mode.
+  You can record user profile events and a subset of Unified Logging System (ULS) events for SharePoint 2010 and 2013 applications running outside Visual Studio. You can save these events to an .iTrace file. Requires Visual Studio Enterprise 2015 or later versions, a previous version of Visual Studio Ultimate, or [Microsoft Monitoring Agent](https://visualstudio.microsoft.com/vs/older-downloads/#visual-studio-2015-and-other-products) running in **Trace** mode.
 
   When you open the .iTrace file, enter a SharePoint correlation ID to find its matching web request, view the recorded events, and start debugging from a specific event. If the file contains unhandled exceptions, you can choose a correlation ID to start debugging an exception.
 

@@ -1,6 +1,6 @@
 ---
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.date: 03/16/2020
 ms.prod: visual-studio-windows

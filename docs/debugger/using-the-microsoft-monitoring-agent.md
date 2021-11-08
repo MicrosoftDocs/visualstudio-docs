@@ -8,6 +8,7 @@ ms.assetid: fd0a86b9-015d-408e-aa58-59a0a97826ac
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -46,7 +47,7 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
 
     - You've uninstalled any earlier versions of Microsoft Monitoring Agent.
 
-2. [Download the free Microsoft Monitoring Agent](https://www.microsoft.com/download/details.aspx?id=40316), either the 32-bit version **MMASetup-i386.exe** or 64-bit version **MMASetup-AMD64.exe**, from the Microsoft Download Center to your web server.
+2. [Download the free Microsoft Monitoring Agent](https://visualstudio.microsoft.com/vs/older-downloads/#visual-studio-2015-and-other-products), either the 32-bit version **MMASetup-i386.exe** or 64-bit version **MMASetup-AMD64.exe**, from the Microsoft Download Center to your web server.
 
 3. Run the downloaded executable to start the installation wizard.
 

@@ -20,6 +20,7 @@ ms.assetid: 2820ac4c-c893-4d87-8c62-83981d561493
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
@@ -73,7 +74,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
    In the **Configure your new project** window, type a name or use the default name in the **Project name** box. Then, choose **Next** or **Create**, whichever option is available.
 
-   For .NET Core, choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+   For .NET Core, choose either the recommended target framework or .NET 6, and then choose **Create**.
 
    ::: moniker-end
    ::: moniker range="vs-2017"
@@ -248,7 +249,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 1. To resume execution until the second breakpoint is hit, on the **Debug** menu, click **Continue**.
 
-     Previously, the **Status** column showed all tasks as Active, but now two of the tasks are Blocked. Tasks can be blocked for many different reasons. In the **Status** column, hover over a waiting task to learn why it is blocked. For example, in the following illustration, task 3 is waiting on task 4.
+     Previously, the **Status** column showed all tasks as Active, but now two of the tasks are Blocked. Tasks can be blocked for [many different reasons](/dotnet/standard/parallel-programming/potential-pitfalls-in-data-and-task-parallelism). In the **Status** column, hover over a waiting task to learn why it is blocked. For example, in the following illustration, task 3 is waiting on task 4.
 
      ![Two waiting tasks in Tasks window](../debugger/media/pdb_walkthrough_7.png "PDB_Walkthrough_7")
 

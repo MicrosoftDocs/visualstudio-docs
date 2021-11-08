@@ -6,6 +6,7 @@ ms.topic: reference
 author: mikadumont
 ms.author: midumont
 manager: jmartens
+ms.technology: vs-ide-general
 dev_langs:
   - CSharp
 ms.workload:
@@ -19,7 +20,7 @@ This refactoring applies to:
 
 **What:** Use pattern matching.
 
-**When:** You want to use the new [C# pattern matching](https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-9#pattern-matching-enhancements) capabilities.
+**When:** You want to use the new [C# pattern matching](/dotnet/csharp/whats-new/csharp-9#pattern-matching-enhancements) capabilities.
 
 **Why:** This refactoring will make your code more clear and concise.
 

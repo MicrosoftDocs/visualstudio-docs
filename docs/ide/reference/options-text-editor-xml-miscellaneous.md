@@ -10,6 +10,7 @@ ms.assetid: b6538cbe-badd-4313-a1fb-39e906736bbe
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ---
 # Options, Text Editor, XML, Miscellaneous
 

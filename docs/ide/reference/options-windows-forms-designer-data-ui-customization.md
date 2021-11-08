@@ -12,6 +12,7 @@ helpviewer_keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ---
 # Options dialog box: Windows Forms Designer > Data UI Customization
 

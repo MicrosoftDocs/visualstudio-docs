@@ -1,7 +1,7 @@
 ---
 title: Use debugger windows while debugging a foreground app | Microsoft Docs
 description: If you are debugging a program that must stay in the foreground, use remote debugging to avoid putting it in the background.
-ms.custom: "SEO-VS-2020, seodec18"
+
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -21,6 +21,7 @@ ms.assetid: 9e67a308-1c81-42ab-966b-7fc3c1d2bf7a
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload: 
   - multiple
 ---

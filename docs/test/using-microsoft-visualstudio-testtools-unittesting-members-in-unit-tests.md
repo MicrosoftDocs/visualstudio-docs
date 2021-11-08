@@ -6,6 +6,7 @@ ms.date: 03/02/2018
 ms.topic: reference
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ms.workload:
 - multiple
 author: mikejo5000

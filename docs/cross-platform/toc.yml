@@ -7,32 +7,32 @@
 # Auto-expanded node
   items:
   - name: Visual Studio Tools for Unity
-    href: /gamedev/unity/get-started/visual-studio-tools-for-unity.md
+    href: /visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity
   - name: Get Started with Visual Studio Tools for Unity
-    href: /gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity.md
+    href: /visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity
   - name: Use Visual Studio Tools for Unity
-    href: /gamedev/unity/get-started/using-visual-studio-tools-for-unity.md
+    href: /visualstudio/gamedev/unity/get-started/using-visual-studio-tools-for-unity
   - name: Use .NET 4.x in Unity
-    href: /gamedev/unity/unity-scripting-upgrade.md
+    href: /visualstudio/gamedev/unity/unity-scripting-upgrade
   - name: Program Visual Studio Tools for Unity
 # Auto-expanded node
     items:
     - name: Program Visual Studio Tools for Unity
-      href: /gamedev/unity/extensibility/programming-visual-studio-tools-for-unity.md
+      href: /visualstudio/gamedev/unity/extensibility/programming-visual-studio-tools-for-unity
     - name: Customize Project Files Created by VSTU
-      href: /gamedev/unity/extensibility/customize-project-files-created-by-vstu.md
+      href: /visualstudio/gamedev/unity/extensibility/customize-project-files-created-by-vstu
     - name: Share the Unity Log Callback with VSTU
-      href: /gamedev/unity/extensibility/share-the-unity-log-callback-with-vstu.md
+      href: /visualstudio/gamedev/unity/extensibility/programming-visual-studio-tools-for-unity
   - name: Program with Unity and Azure
-    href: /gamedev/unity/visual-studio-tools-for-unity-azure.md
+    href: /visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity
   - name: Troubleshooting and Known Issues (Visual Studio Tools for Unity)
-    href: /gamedev/unity/troubleshooting/troubleshooting-and-known-issues-visual-studio-tools-for-unity.md
+    href: /visualstudio/gamedev/unity/troubleshooting/troubleshooting-and-known-issues-visual-studio-tools-for-unity
   - name: Change Log (Visual Studio Tools for Unity, Windows)
-    href: /gamedev/unity/change-log-visual-studio-tools-for-unity.md
+    href: /visualstudio/gamedev/unity/change-log-visual-studio-tools-for-unity-mac
   - name: Change Log (Visual Studio Tools for Unity, Mac)
-    href: /gamedev/unity/change-log-visual-studio-tools-for-unity-mac.md
+    href: /visualstudio/gamedev/unity/change-log-visual-studio-tools-for-unity-mac
   - name: DevOps with Unity Apps
-    href: /gamedev/unity/application-lifecycle-management-alm-with-unity-apps.md
+    href: /visualstudio/gamedev/unity/application-lifecycle-management-alm-with-unity-apps
 - name: Cross-platform mobile development with C++
   href: /cpp/cross-platform/
 - name: Develop apps for the Universal Windows Platform (UWP)

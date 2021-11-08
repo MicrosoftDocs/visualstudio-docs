@@ -8,9 +8,10 @@ helpviewer_keywords:
 - code, understanding
 - code, visualizing
 - code, exploring
-author: JoshuaPartlow
-ms.author: joshuapa
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
+ms.technology: vs-ide-modeling
 ms.workload:
 - multiple
 ---
@@ -26,7 +27,7 @@ You can use the visualization and modeling tools in Visual Studio to help you un
 
 These tools also help you communicate more easily with the people involved with your project.
 
-To see which editions of Visual Studio support each feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)
+To see which editions of Visual Studio support each feature, see [Edition support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport)
 
 ## What do you want to do?
 
@@ -38,6 +39,7 @@ To see which editions of Visual Studio support each feature, see [Edition suppor
 
 ## See also
 
+- [Install architecture code tools](install-architecture-tools.md)
 - [Scenario: Change your design using visualization and modeling](../modeling/scenario-change-your-design-using-visualization-and-modeling.md)
 - [Analyze and Model Architecture](../modeling/analyze-and-model-your-architecture.md)
 - [Model your app's architecture](../modeling/model-your-app-s-architecture.md)

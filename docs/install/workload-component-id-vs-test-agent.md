@@ -3,10 +3,10 @@ title: Visual Studio Test Agent workload and component IDs
 titleSuffix: ''
 description: Use Visual Studio workload and component IDs to run automated tests and load tests remotely
 keywords:
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
-ms.date: 05/25/2021
+ms.date: 10/12/2021
 ms.topic: reference
 helpviewer_keywords:
 - workload ID, Visual Studio
@@ -29,11 +29,19 @@ open_to_public_contributors: false
 
 ::: moniker-end
 
-::: moniker range=">= vs-2019"
+::: moniker range="vs-2019"
 
 [!INCLUDE[workloads-components-header-2019_md](includes/workloads-components-header-2019_md.md)]
 
 [!include[Visual Studio Test Agent 2019](includes/vs-2019/workload-component-id-vs-test-agent.md)]
+
+::: moniker-end
+
+::: moniker range=">= vs-2022"
+
+[!INCLUDE[workloads-components-header-2022_md](includes/workloads-components-header-2022.md)]
+
+[!include[Visual Studio Test Agent 2022](includes/vs-2022/workload-component-id-vs-test-agent.md)]
 
 ::: moniker-end
 

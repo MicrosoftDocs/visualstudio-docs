@@ -7,7 +7,6 @@ ms.topic: reference
 f1_keywords:
 - vs.build.output
 - vs.debug.output
-- vs.output
 helpviewer_keywords:
 - Output window, about Output window
 - Output window
@@ -16,6 +15,7 @@ ms.assetid: d8931d88-250e-4db4-963f-2c5b3e99b45f
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---

@@ -12,6 +12,7 @@ ms.assetid: 442f33ef-9f52-4515-b55f-fb816d664645
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---

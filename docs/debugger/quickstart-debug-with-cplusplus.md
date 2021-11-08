@@ -1,7 +1,7 @@
 ---
 title: "Debug C++"
 description: "Debug native code using the Visual Studio debugger"
-ms.custom: "mvc"
+
 ms.date: 08/06/2018
 ms.topic: quickstart
 helpviewer_keywords:
@@ -10,6 +10,7 @@ ms.assetid: 639e430b-6d2d-46bd-b738-8c60dfb384f1
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "cplusplus"
 ---

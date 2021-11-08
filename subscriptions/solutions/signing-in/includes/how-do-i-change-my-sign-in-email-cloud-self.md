@@ -8,13 +8,13 @@ ms.author: cabuschl
 ms.date: 06/03/2021
 user.type: subscriber, admin
 tags: sign-in
-subscription.type: cloud,
+subscription.type: cloud
 sap.id: 17a2bf94-0d03-2629-dfd8-e8935f9126ec
 ---
 
 ## How can I change the sign-in email address on my Visual Studio cloud subscription?
 
-If you purchased one or more cloud subscriptions yourself, you are set up as an administrator with the ability to make changes to the subscriptions. To change the sign-in email address for a subscription, you need to edit your subscription in the Visual Studio Subscriptions admin portal.
+If you purchased one or more cloud subscriptions yourself, you are set up as an admin with the ability to make changes to the subscriptions. To change the sign-in email address for a subscription, you need to edit your subscription in the Visual Studio Subscriptions admin portal.
 
 1. Navigate to the [Manage subscribers](https://manage.visualstudio.com/subscribers) page in the admin portal
 2. Locate your subscription in the list, click on the **...** and choose **Edit**

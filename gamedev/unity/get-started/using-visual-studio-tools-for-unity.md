@@ -1,7 +1,7 @@
 ---
 title: "Using Visual Studio Tools for Unity | Microsoft Docs"
 description: Learn to use Visual Studio Tools for Unity's integration and productivity features. Also use the Visual Studio debugger for Unity development.
-ms.custom: ""
+
 ms.date: "07/03/2018"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
@@ -166,7 +166,7 @@ Click the **Stop** button in Visual Studio for Mac, or press **Shift + Command +
 
 :::zone-end
 
-To learn more about debugging in Visual Studio, see [First look at the Visual Studio Debugger](/debugger/debugger-feature-tour.md).
+To learn more about debugging in Visual Studio, see [First look at the Visual Studio Debugger](/visualstudio/debugger/debugger-feature-tour).
 
 #### Attach to Unity and Play
 
@@ -270,7 +270,7 @@ Note that the scenario described here assumes that you have the source code—th
 
    The PDB files are needed for debugging because they contain the DLL's debugging symbols, and map the DLL code to its source code form. If you are targeting the legacy runtime, Visual Studio Tools for Unity will use information from the DLL and PDB to create a DLL.MDB file, which is the debug symbol format used by the legacy Unity scripting engine. If you are targeting the new runtime, and using Portable-PDB, Visual Studio Tools for Unity will not try to do any symbol conversion as the new Unity runtime is able to natively consume Portable-PDBs.
 
-   More information about PDB generation can be found [here](/debugger/how-to-set-debug-and-release-configurations.md). If you are targeting the new runtime, please make sure that "Debugging Information" is set to "Portable", in order to properly generate Portable-PDB. If you are targeting the legacy runtime, you need to use "Full".
+   More information about PDB generation can be found [here](/visualstudio/debugger/how-to-set-debug-and-release-configurations). If you are targeting the new runtime, please make sure that "Debugging Information" is set to "Portable", in order to properly generate Portable-PDB. If you are targeting the legacy runtime, you need to use "Full".
 
 4. Debug your code. You can now debug your DLL source code together with your Unity project's source code, and use all the debugging features you are used to, such as breakpoints and stepping through code.
 
@@ -287,7 +287,7 @@ You can quickly access the Unity Tools for Visual Studio functionality by using 
 |Access Unity documentation|**Ctrl**+**Alt**+**M, Ctrl**+**H**|**Help.UnityAPIReference**|
 |Attach to Unity debugger (player or editor)|**_no default_**|**Debug.AttachUnityDebugger**|
 
-You can change the shortcut key combinations if you don't like the default. For information on how to change it, see [Identify and customize keyboard shortcuts in Visual Studio](/docs/ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).
+You can change the shortcut key combinations if you don't like the default. For information on how to change it, see [Identify and customize keyboard shortcuts in Visual Studio](/visualstudio/ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio).
 
 :::zone-end
 :::zone pivot="macos"
@@ -297,6 +297,6 @@ You can change the shortcut key combinations if you don't like the default. For 
 |Open the MonoBehavior Wizard|**Cmd**+**Shift**+**M**|**EditorContextMenus.CodeWindow.ImplementMonoBehaviours**|
 |Access Unity documentation|**Cmd+'**|**Help.UnityAPIReference**|
 
-You can change the shortcut key combinations if you don't like the default. For information on how to change it, see [Customizing the IDE](/mac/customizing-the-ide#key-bingings).
+You can change the shortcut key combinations if you don't like the default. For information on how to change it, see [Customizing the IDE](/visualstudio/mac/customizing-the-ide#key-bingings).
 
 :::zone-end

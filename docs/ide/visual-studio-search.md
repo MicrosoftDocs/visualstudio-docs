@@ -17,6 +17,7 @@ monikerRange: vs-2019
 author: profexorgeek
 ms.author: jusjohns
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
@@ -60,6 +61,14 @@ Visual Studio search also searches your solution items for filename, code, metho
 You can also do a "camel case" search. In the following screenshot, a search for *FSS* has found a **F**older**S**ize**S**canner file, class, and method:
 
 :::image type="content" source="media/visual-studio-search-camel.png" alt-text="Camel hump search with Visual Studio search":::
+
+## Keyboard shortcuts
+
+The search results includes tabs for **All**, **Code**, **Visual Studio**. You can save time by using the following keyboard shortcuts for different types of searches:
+
+- **Ctrl**+**Q**, **Ctrl**+**T** for files, types, and members
+- **Ctrl**+**Q**, **Ctrl**+**M** for Visual Studio menus, options, components, and templates
+- **Ctrl**+**Q**, **Ctrl**+**E** to go to the **All** tab, for both
 
 ## See also
 

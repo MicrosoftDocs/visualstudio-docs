@@ -3,7 +3,7 @@ title: File Status Code Enumerator | Microsoft Docs
 description: The SccStatus enumerator contains constant values that specify the state of a file in the source control system and is used by SccQueryInfo and POPLISTFUNC.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - named constants, SccStatus enumerator
 - source control plug-ins, file status enumeration
@@ -13,6 +13,7 @@ ms.assetid: 5c37876b-c83c-4ca1-837b-57cd465a879a
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

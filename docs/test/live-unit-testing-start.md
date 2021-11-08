@@ -9,6 +9,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-test
 ms.workload: 
   - dotnet
 ---
@@ -155,7 +156,7 @@ The next step is to create the unit test project to test the StringLibrary libra
 
 3. Name the project **StringLibraryTests** and click **Next**.
 
-4. Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+4. Choose either the recommended target framework or .NET 6, and then choose **Create**.
 
    > [!NOTE]
    > This getting started tutorial uses Live Unit Testing with the MSTest test framework. You can also use the xUnit and NUnit test frameworks.

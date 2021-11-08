@@ -1,7 +1,7 @@
 ---
 title: "Debugging web apps -  errors and troubleshooting"
 description: Find links to reference pages to help debug web applications, such as a troubleshooting page and pages that describe each error that you may encounter.
-ms.custom: "SEO-VS-2020, seodec18"
+
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -26,6 +26,7 @@ ms.assetid: 63f2742e-2031-48a8-9773-d9b547c62230
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

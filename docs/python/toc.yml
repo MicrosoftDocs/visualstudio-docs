@@ -70,11 +70,6 @@
       href: learn-flask-visual-studio-step-02-create-app.md
     - name: 3 - Serve static files and add pages
       href: learn-flask-visual-studio-step-03-serve-static-files-add-pages.md
-    - name: 4 - Use the Flask Web Project template
-      href: learn-flask-visual-studio-step-04-full-flask-project-template.md
-    - name: 5 - Use the Polls Flask Web Project template
-      href: learn-flask-visual-studio-step-05-polls-flask-web-project-template.md
-
 - name: Concepts
   items:
   - name: Python projects
@@ -86,8 +81,6 @@
       href: python-web-application-project-templates.md
     - name: Django web project template
       href: python-django-web-application-project-template.md
-    - name: Azure cloud service template
-      href: python-azure-cloud-service-project-template.md
   - name: Azure SDK for Python
     href: /python/azure/?view=azure-python&preserve-view=true
 - name: How-to guides

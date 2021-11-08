@@ -4,15 +4,14 @@ description: Learn how to add a <xref:System.Windows.Forms.Timer> control to the
 ms.custom: SEO-VS-2020
 ms.date: 03/31/2020
 ms.topic: tutorial
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 dev_langs: 
   - "CSharp"
   - "VB"
 ms.assetid: 09e7930b-cab6-4a22-9a6f-72e23f489585
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---

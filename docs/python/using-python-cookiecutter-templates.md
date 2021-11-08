@@ -3,10 +3,11 @@ title: Use CookieCutter templates with Python
 description: Visual Studio supports the graphical Cookiecutter extension to discover templates for Python code and create projects from those templates.
 ms.date: 01/28/2019
 ms.topic: how-to
-author: JoshuaPartlow
-ms.author: joshuapa
+author: rjmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
-ms.custom: seodec18
+ms.technology: vs-python
+
 ms.workload:
   - python
   - data-science
@@ -81,7 +82,7 @@ Cookiecutter options are available through **Tools** > **Options** > **Cookiecut
 
 ## Optimize Cookiecutter templates for Visual Studio
 
-For the basics of authoring a Cookiecutter template, see the [Cookiecutter documentation](https://cookiecutter.readthedocs.io/en/latest/first_steps.html). The Cookiecutter extension for Visual Studio supports templates created for Cookiecutter v1.4.
+For the basics of authoring a Cookiecutter template, see the [Cookiecutter documentation](https://cookiecutter.readthedocs.io/en/latest/). The Cookiecutter extension for Visual Studio supports templates created for Cookiecutter v1.4.
 
 The default rendering of template variables depends on the type of data (string or list):
 
@@ -102,7 +103,7 @@ Example:
 ```json
 {
     "site_name": "web-app",
-    "python_version": ["3.5.2", "2.7.12"],
+    "python_version": ["3.5.2"],
     "use_azure": "y",
 
     "_visual_studio": {

@@ -5,6 +5,7 @@ ms.date: 04/30/2019
 author: minsa110
 ms.author: somin
 manager: jmartens
+ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "item templates, updating"
@@ -117,7 +118,7 @@ The following example shows the metadata for a project template for a Visual C# 
         <Description>A basic template</Description>
         <Icon>TemplateIcon.ico</Icon>
         <ProjectType>csharp</ProjectType>
-        <LanguageTag>C#</LanguageTag>
+        <LanguageTag>csharp</LanguageTag>
         <PlatformTag>windows</PlatformTag>
         <PlatformTag>linux</PlatformTag>
         <PlatformTag>My Platform</PlatformTag>

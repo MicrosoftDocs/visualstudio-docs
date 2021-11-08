@@ -7,6 +7,7 @@ ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
+ms.technology: vs-ide-general
 f1_keywords:
 - vs.codefix.previewchanges
 ms.workload:

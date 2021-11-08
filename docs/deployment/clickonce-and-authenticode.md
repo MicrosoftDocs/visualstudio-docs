@@ -18,6 +18,7 @@ ms.assetid: ab5b6712-f32a-4e33-842f-e88ab4818ccf
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---
@@ -44,7 +45,7 @@ ms.workload:
 
  By contrast, if you receive a certificate from a CA, such as a certificate vendor, or a department within your enterprise, the certificate offers more security for your users. It not only identifies the publisher of the signed software, but it verifies that identity by checking with the CA that signed it. If the CA is not the root authority, Authenticode will also "chain" back to the root authority to verify that the CA is authorized to issue certificates. For greater security, you should use a certificate issued by a CA whenever possible.
 
- For more information about generating self-certs, see [New-SelfSignedCertificate](/powershell/module/pkiclient/new-selfsignedcertificate) or [MakeCert](/windows/desktop/SecCrypto/makecert).
+ For more information about generating self-certs, see [New-SelfSignedCertificate](/powershell/module/pki/new-selfsignedcertificate) or [MakeCert](/windows/desktop/SecCrypto/makecert).
 
 ### Timestamps
  The certificates used to sign [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications expire after a certain length of time, typically twelve months. In order to remove the need to constantly re-sign applications with new certificates, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] supports timestamp. When an application is signed with a timestamp, its certificate will continue to be accepted even after expiration, provided the timestamp is valid. This allows [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications with expired certificates, but valid timestamps, to download and run. It also allows installed applications with expired certificates to continue to download and install updates.

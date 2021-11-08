@@ -18,6 +18,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
@@ -30,7 +31,7 @@ You can profile on compute nodes of Microsoft Windows HPC clusters by using the 
 
 To profile on a HPC compute node, you must do the following:
 
-- Install Microsoft HPC Pack 2008 on the same computer as Visual Studio. The computer does not have to be part of the HPC cluster. You can install the HPC Pack at the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=4812).
+- Install Microsoft HPC Pack 2008 on the same computer as Visual Studio. The computer does not have to be part of the HPC cluster. You can install the HPC Pack at the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=58506).
 
 - Install the .NET Framework 4 and the stand-alone version of the Profiling Tools on the HPC compute node. Install programs for both the .NET Framework and the stand alone profiler are available on the Visual Studio installation media. **Note** You must restart the compute after you have installed .NET Framework and before you install the Profiling Tools.
 

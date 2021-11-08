@@ -1,11 +1,12 @@
 ---
 title: Compile and build TypeScript code using NuGet
-description: Learn how to add Typescript support to your Visual Studio projects by using the NuGet package.
+description: Learn how to add TypeScript support to your Visual Studio projects by using the NuGet package.
 ms.date: 7/23/2020
 ms.topic: conceptual
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-javascript
 dev_langs:
   - JavaScript
 ms.workload:
@@ -151,7 +152,7 @@ For instructions to run the app after you compile it, see [Create your first Nod
 
 ### Remove default imports
 
-In older ASP.NET Core projects that use the [non-SDK-style format](https://docs.microsoft.com/nuget/resources/check-project-format), you may need to remove some project file elements.
+In older ASP.NET Core projects that use the [non-SDK-style format](/nuget/resources/check-project-format), you may need to remove some project file elements.
 
 If you are using the NuGet package for MSBuild support for a project, the project file must not import `Microsoft.TypeScript.Default.props` or `Microsoft.TypeScript.targets`. The files get imported by the NuGet package, so including them separately may cause unintended behavior.
 

@@ -3,13 +3,14 @@ title: Capability Flags | Microsoft Docs
 description: Learn about the SCC_CAP_xxx flags that indicate the capabilities of a source control plug-in and the SCC_EXCAP_xxx flags that indicate extended capabilities.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 helpviewer_keywords:
 - source control plug-ins, capability flags
 ms.assetid: a3f6071c-eac8-4bcd-8ffd-8d0a2d24a252
 author: leslierichardson95
 ms.author: lerich
 manager: jmartens
+ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---

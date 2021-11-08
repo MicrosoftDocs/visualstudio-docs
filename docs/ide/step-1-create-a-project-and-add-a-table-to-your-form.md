@@ -4,12 +4,11 @@ description: Learn how to create the Matching Game project and add a table to yo
 ms.custom: SEO-VS-2020
 ms.date: 10/15/2019
 ms.topic: tutorial
-ms.prod: visual-studio-windows
-ms.technology: vs-ide-general
 ms.assetid: 1cac4ba4-f3cd-43bd-ad5d-50fc599234e8
-author: j-martens
-ms.author: jmartens
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
+ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
@@ -34,7 +33,7 @@ The first step in creating a matching game is to create the project and add a ta
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 1. On the start window, choose **Create a new project**.
 
@@ -51,7 +50,7 @@ The first step in creating a matching game is to create the project and add a ta
    >
    > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png)
    >
-   > Next, in the Visual Studio Installer, choose the Choose the **.NET desktop development** workload.
+   > Next, in the Visual Studio Installer, choose the **.NET desktop development** workload.
    >
    > ![.NET Core workload in the Visual Studio Installer](../ide/media/install-dot-net-desktop-env.png)
    >

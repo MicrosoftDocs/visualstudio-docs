@@ -1,7 +1,7 @@
 ---
 title: "Project Settings for a VB debug config | Microsoft Docs"
 description: Learn how to change the project settings for a Visual Basic debug configuration in the Property Pages window of Visual Studio.
-ms.custom: "SEO-VS-2020, seodec18"
+
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -22,6 +22,7 @@ ms.assetid: 72a8483a-af0b-4403-8b0d-ee9ad71ee435
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

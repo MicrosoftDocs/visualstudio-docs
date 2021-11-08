@@ -1,7 +1,7 @@
 ---
 title: Start a debugging session for a UWP app | Microsoft Docs
 description: Start a Visual Studio debugging session for a Universal Windows Platform (UWP) app. Configure the debugging session and choose the way to start the app.
-ms.custom: "SEO-VS-2020, seodec18"
+
 ms.date: 11/20/2018
 ms.topic: how-to
 f1_keywords: 
@@ -34,6 +34,7 @@ dev_langs:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload: 
   - uwp
 ---

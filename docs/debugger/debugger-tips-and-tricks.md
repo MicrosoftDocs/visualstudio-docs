@@ -1,7 +1,7 @@
 ---
 title: "Tips and tricks in the debugger"
 description: Learn about some of the lesser-known features supported by the Visual Studio debugger
-ms.custom: "seodec18"
+
 ms.date: "06/15/2018"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -12,6 +12,7 @@ ms.assetid: 5262d8b1-2648-429e-85d5-90fcaadfb362
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
+ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---

@@ -4,16 +4,20 @@ metadata:
   title: Azure Development
   description: Tutorials and conceptual articles about connecting apps and services to Azure and developing Azure services.
   author: ghogen
-  manager: jillfra
+  manager: jmartens
   ms.prod: visual-studio-windows
   ms.technology: vs-azure
   ms.topic: landing-page
-  ms.date: 12/05/2019
+  ms.date: 10/27/2021
   ms.author: ghogen
 
 landingContent:
-  - title: Deploy to Azure App Service
+  - title: Deploy to Azure
     linkLists:
+      - linkListType: overview
+        links:
+          - text: Overview of Azure integration
+            url: overview-azure-integration.md
       - linkListType: tutorial
         links:
           - text: Deploy an ASP.NET Core app to Azure
@@ -21,11 +25,9 @@ landingContent:
           - text: Deploy an ASP.NET Web App to Azure
             url: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs
           - text: Continuous deployment to Azure with Visual Studio and Git
-            url: /aspnet/core/host-and-deploy/azure-apps/azure-continuous-deployment
+            url: /azure/app-service/deploy-continuous-deployment
           - text: Continuous deployment to Azure with Azure Pipelines
             url: /azure/devops/pipelines/get-started-yaml
-          - text: Deploy an ASP.NET Web App to an Azure VM
-            url: /azure/virtual-machines/windows/publish-web-app-from-visual-studio
 
   - title: Azure App Services, Logic Apps, and Azure Functions
     linkLists:
@@ -51,7 +53,7 @@ landingContent:
         - text: Container tools in Visual Studio
           url: ../containers/overview.md
         - text: Kubernetes tools
-          url: ../containers/bridge-to-kubernetes.md
+          url: /visualstudio/bridge/overview-bridge-to-kubernetes
 
   - title: Debug Azure services and analyze performance
     linkLists:
@@ -68,6 +70,10 @@ landingContent:
 
   - title: Connected Services
     linkLists:
+    - linkListType: overview
+      links:
+        - text: Overview 
+          url: overview-connected-services.md
     - linkListType: tutorial
       links:
         - text: Azure Active Directory
