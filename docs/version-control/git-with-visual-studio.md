@@ -114,7 +114,7 @@ When you clone a repository or open a local repository, Visual Studio switches y
 
 ::: moniker range="vs-2022"
 
-For more information, see the "View files in Solution Explorer" section of the [Open a project from a repo](../get-started/tutorial-open-project-from-repo.md#view-files-in-solution-explorer?view=vs-2022&preserve-view=true) tutorial.
+For more information, see the [View files in Solution Explorer](../get-started/tutorial-open-project-from-repo.md#view-files-in-solution-explorer) section of the [Open a project from a repo](../get-started/tutorial-open-project-from-repo.md?view=vs-2022&preserve-view=true) tutorial.
 
 ::: moniker-end
 
