@@ -27,7 +27,7 @@ We designed Visual Studio 2017 to work well in a variety of network and computer
 
 ::: moniker range=">=vs-2019"
 
-We designed Visual Studio 2019 and later to work well in a variety of network and computer configurations. While we recommend that you try the [Visual Studio web installer](https://visualstudio.microsoft.com/downloads)&mdash;which is a small file that allows you to stay current with all the latest fixes and features&mdash;we understand that you might not be able to.
+We designed Visual Studio to work well in a variety of network and computer configurations. While we recommend that you try the [Visual Studio web installer](https://visualstudio.microsoft.com/downloads)&mdash;which is a small file that allows you to stay current with all the latest fixes and features&mdash;we understand that you might not be able to.
 
 ::: moniker-end
 

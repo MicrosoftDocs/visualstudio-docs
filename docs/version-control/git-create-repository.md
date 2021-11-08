@@ -61,7 +61,7 @@ After you’ve created a repo or [cloned one](git-clone-repository.md), Visual S
 
 ## Next steps
 
-For a full overview, see the [Git experience in Visual Studio](git-with-visual-studio.md) page.
+To continue your journey, visit the [Create a branch](git-create-branch.md) page.
 
 ## See also
 
