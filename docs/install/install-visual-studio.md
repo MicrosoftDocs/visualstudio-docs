@@ -38,7 +38,7 @@ Welcome to Visual Studio 2019! In this version, it's easy to choose and install 
 
 ::: moniker range=">=vs-2022"
 
-Welcome to Visual Studio 2022 RC! In this version, it's easy to choose and install just the features you need.
+Welcome to Visual Studio 2022! In this version, it's easy to choose and install just the features you need.
 
 ::: moniker-end
 

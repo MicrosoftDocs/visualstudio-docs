@@ -23,7 +23,7 @@ You can also view information about container images using the **Containers** wi
 :::moniker-end
 :::moniker range=">=vs-2022"
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2022 RC](https://visualstudio.microsoft.com/downloads) or [Visual Studio 2019 version 16.4](https://visualstudio.microsoft.com/downloads) or later.
+- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads) or [Visual Studio 2019 version 16.4](https://visualstudio.microsoft.com/downloads) or later.
 
 :::moniker-end
 
