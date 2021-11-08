@@ -254,6 +254,14 @@ When you double-click a **Commit**, Visual Studio opens its details in a separat
 
 Conflicts can occur during a merge if two developers modify the same lines in a file and Git doesn’t automatically know which is correct. Git halts the merge and informs you that you are in a conflicted state.
 
+::: moniker range="vs-2022"
+
+To learn more about merge conflicts and how to handle them, see the [Resolve merge conflicts](git-resolve-conflicts.md) page.
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
+
 Visual Studio makes it easy to identify and resolve a merge conflict. First, the **Git Repository** window shows a gold info bar at the top of the window.
 
 :::image type="content" source="media/git-merge-conflict-gold-bar.png" alt-text="The 'Merge completed with conflicts' message in Visual Studio ":::
@@ -282,11 +290,13 @@ The Merge Editor in Visual Studio is a three-way merge tool that displays the in
 
 You can also use the toggles to show/hide differences, show/hide word differences, and customize the layout. There are checkboxes on the top of each side that you can use to take all the changes from one side or the other. But to take individual changes, you can click the checkboxes to the left of the conflicting lines on either side. Finally, when you finish resolving the conflicts, you can select the **Accept Merge** button in the Merge Editor. You then write a commit message and commit the changes to complete the resolution.
 
+::: moniker-end
+
 ## Personalize your Git settings
 
 To personalize and customize your Git settings at a repository level as well as at a global level, go to either **Git** > **Settings** on the menu bar, or to **Tools** > **Options** > **Source Control** on the menu bar. Then, choose the [options](git-settings.md) you want.
 
-:::image type="content" source="media/git-options-settings.png" alt-text="The Options dialog box where you can choose personalization and customization settings in Visual Studio IDE ":::
+:::image type="content" source="media/git-options-settings.png" alt-text="The Options dialog box where you can choose personalization and customization settings in Visual Studio IDE.":::
 
 ::: moniker range="<=vs-2019"
 
