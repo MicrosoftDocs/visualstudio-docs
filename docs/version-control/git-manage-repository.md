@@ -2,24 +2,24 @@
 title: Manage a repo in Visual Studio
 titleSuffix: ""
 description: Manage any Git repository in Visual Studio using the Git Repository window.
-ms.date: 11/1/2021
+ms.date: 11/05/2021
 ms.topic: how-to
 author: Taysser-Gherfal
-ms.author: tagherfa
+ms.author: tglee
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ---
 # Manage Git repositories in Visual Studio
 
-The Git Repository window provides a full screen Git experience focused on helping you manage your Git repository and stay up to date with what your team is working on. For example, you might need to Reset, Revert, Cherry-Pick commits or just clean your commit history. The Git repository window is also a great place to visualize and manage your branches. 
+The Git Repository window provides a full screen Git experience focused on helping you manage your Git repository and stay up to date with what your team is working on. For example, you might need to Reset, Revert, Cherry-Pick commits or just clean your commit history. The Git repository window is also a great place to visualize and manage your branches.
 
 ## Change the last commit (Amend)
 
-Updating the last commit is referred to by Git as Amend and it is a very common use case. Sometimes you just need to update your commit message, or you might need to include a last-minute change. 
+Updating the last commit is referred to by Git as Amend and it is a very common use case. Sometimes you just need to update your commit message, or you might need to include a last-minute change.
 
 You can Amend a commit in the command line by using the following command:
- 
+
 ```bash
 git commit --amend
 ```
@@ -37,13 +37,13 @@ If you need to include code changes to your last commit, you can use the Git Cha
 :::image type="content" source="media/vs-2022/git-changes-amend-commit.png" alt-text="Screenshot of Amend code changes using the Git Changes window":::
 
 > [!TIP]
-> Feel free to use the following link to learn more about Amend and Rewriting History: [Git Tools - Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) 
+> Feel free to use the following link to learn more about Amend and Rewriting History: [Git Tools - Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
 
 ## Merge commits (Squash)
 
 To merge a series of commits, Git provides an option to squash commits down into a single commit. This can be helpful if you make frequent commits and end up with a long list of commits that you would like to clean up before pushing to a remote repository.
 
-You can squash two commits in the command line by using the following command: 
+You can squash two commits in the command line by using the following command:
 
 ```bash
 git rebase -i HEAD~2
@@ -53,12 +53,12 @@ Then update **pick** to **squash**, save, and update the commit message as shown
 
 :::image type="content" source="media/vs-2022/git-repository-squash-cmd.png" alt-text="Screenshot of update pick to squash":::
 
-To merge commits in Visual Studio, use the **Ctrl** key and multi-select the commits you would like to merge. Then right click and select **Squash Commits**. Visual Studio automatically combines your commit messages, but sometimes it is better to provide an updated message. Once you review and update your commit message, click the **Squash button**. 
+To merge commits in Visual Studio, use the **Ctrl** key and multi-select the commits you would like to merge. Then right click and select **Squash Commits**. Visual Studio automatically combines your commit messages, but sometimes it is better to provide an updated message. Once you review and update your commit message, click the **Squash button**.
 
 :::image type="content" source="media/vs-2022/git-repository-squash-visual-studio.png" alt-text="Screenshot of squash commits in Visual Studio":::
 
 > [!TIP]
-> Feel free to use the following link to learn more about Squash and Rewriting History: [Git Tools - Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) 
+> Feel free to use the following link to learn more about Squash and Rewriting History: [Git Tools - Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
 
 ## Merge and rebase branches
 
@@ -87,7 +87,7 @@ To do the same in Visual Studio, checkout New_Feature branch by double clicking 
 :::image type="content" source="media/vs-2022/git-repository-rebase-ui.png" alt-text="Screenshot of rebase branches in Visual Studio":::
 
 > [!TIP]
-> Feel free to use the following link to learn more about Merge, Rebase, and Branching in general: [Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) 
+> Feel free to use the following link to learn more about Merge, Rebase, and Branching in general: [Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 
 ## Copy commits (Cherry-Pick)
 
@@ -109,7 +109,7 @@ To do the same in Visual Studio, preview the branch you would like to cherry-pic
 Once the operation is complete, Visual Studio shows a success message and the commit you cherry-picked shows in the outgoing section.
 
 > [!TIP]
-> Feel free to use the following link to learn more about Cherry-picking commits: [Git Cherry-pick](https://git-scm.com/docs/git-cherry-pick) 
+> Feel free to use the following link to learn more about Cherry-picking commits: [Git Cherry-pick](https://git-scm.com/docs/git-cherry-pick)
 
 ## Revert changes
 
@@ -122,16 +122,16 @@ git revert 53333305
 git commit
 ```
 
-These commands will undo the changes made in commit 53333305 and create a new commit on the branch. The original commit at commit_id is still in the Git history. To do the same in Visual Studio, right-click the commit that you would like to Revert and select **Revert** from the context menu. Once you confirm your action and the operation is complete, Visual Studio shows a success message and a new commit shows in the outgoing section. 
+These commands will undo the changes made in commit 53333305 and create a new commit on the branch. The original commit at commit_id is still in the Git history. To do the same in Visual Studio, right-click the commit that you would like to Revert and select **Revert** from the context menu. Once you confirm your action and the operation is complete, Visual Studio shows a success message and a new commit shows in the outgoing section.
 
 :::image type="content" source="media/vs-2022/git-repository-revert-ui.png" alt-text="Screenshot of revert in Visual Studio":::
 
-Click on the new commit to confirm that it undoes the changes of the commit we reverted. 
+Click on the new commit to confirm that it undoes the changes of the commit we reverted.
 
 :::image type="content" source="media/vs-2022/git-repository-revert-confirmation.png" alt-text="Screenshot of confirm revert operation":::
 
 > [!TIP]
-> Feel free to use the following link to learn more about Reverting changes: [Git Revert](https://git-scm.com/docs/git-revert) 
+> Feel free to use the following link to learn more about Reverting changes: [Git Revert](https://git-scm.com/docs/git-revert)
 
 ## Reset a branch to a previous state
 
@@ -145,12 +145,12 @@ To Reset a branch to a previous state using the command line, use the following 
 git reset --hard 53333305
 ```
 
-The **--hard** part of the command tells Git to reset the files to the state of the previous commit and discard any staged changes. To do the same in Visual Studio, right-click the commit that you would like to reset your branch to and select **Reset > Delete Changes (--hard)** from the context menu. 
+The **--hard** part of the command tells Git to reset the files to the state of the previous commit and discard any staged changes. To do the same in Visual Studio, right-click the commit that you would like to reset your branch to and select **Reset > Delete Changes (--hard)** from the context menu.
 
 :::image type="content" source="media/vs-2022/git-repository-reset-ui.png" alt-text="Reset a branch in Visual Studio":::
 
 > [!TIP]
-> Feel free to use the following link to learn more about Resetting branches: [Git Reset](https://git-scm.com/docs/git-reset) 
+> Feel free to use the following link to learn more about Resetting branches: [Git Reset](https://git-scm.com/docs/git-reset)
 
 ## Next steps
 

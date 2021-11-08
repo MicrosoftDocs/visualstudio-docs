@@ -2,10 +2,10 @@
 title: Browse a repo in Visual Studio
 titleSuffix: ""
 description: Browse any Git repository in Visual Studio using the Git Repository window.
-ms.date: 11/1/2021
+ms.date: 11/05/2021
 ms.topic: how-to
 author: Taysser-Gherfal
-ms.author: tagherfa
+ms.author: tglee
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
@@ -21,7 +21,7 @@ To get started, open the Git Repository window by clicking **Git Repository** on
 :::image type="content" source="media/vs-2022/git-repository-browse-ui.png" alt-text="Screenshot showing the anatomy of the Git Repository Window":::
 
 The Git repository window contains 3 main sections as indicated in the preceding screenshot:
-1. **Branches:** Git empowers users to multi-task and experiment with their code through branches. If you are working on multiple features at the same time or if you would like to explore ideas without effecting your working code, branching can be very helpful. 
+1. **Branches:** Git empowers users to multi-task and experiment with their code through branches. If you are working on multiple features at the same time or if you would like to explore ideas without effecting your working code, branching can be very helpful.
 1. **Git Graph:** The Git graph section visualizes the state of your branch. It has three different sections: incoming, outgoing and local history. The incoming section shows incoming commits that your team has been contributing, the outgoing section shows your local commits that you still haven’t pushed, and the local history shows the rest of commits tracked by your local repository.
 1. **Commit Details:** clicking any commit on the Git Graph section opens the commit details UI showing the details of commits. You can check the changes introduced by commits by clicking on them which would show a difference. For example, on the previous screenshot you can see that we are viewing the changes that one commit introduced to the Files.csproj file
 
@@ -32,7 +32,7 @@ You can browse any local or remote branches without having to switch your branch
 :::image type="content" source="media/vs-2022/git-repository-details-tab.png" alt-text="Screenshot of commit details tab":::
 
 > [!TIP]
-> To display your commit in full screen, detach your commit tab and maximize the commit window using the **maximize button**. You can also select your favorite diff configuration by clicking the **Diff Configuration Gear**. 
+> To display your commit in full screen, detach your commit tab and maximize the commit window using the **maximize button**. You can also select your favorite diff configuration by clicking the **Diff Configuration Gear**.
 >:::image type="content" source="media/vs-2022/git-repository-commit-details-full-screen.png" alt-text="Screenshot of full Screen Commit Details with diff configurations":::
 
 ## Compare commits

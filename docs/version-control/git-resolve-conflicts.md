@@ -1,11 +1,11 @@
 ---
 title: Resolve merge conflicts in Visual Studio
 titleSuffix: ""
-description: Understanding, preventing and resolving merge conflicts in VS.
-ms.date: 11/2/2021
+description: Understanding, preventing and resolving merge conflicts in Visual Studio.
+ms.date: 11/05/2021
 ms.topic: how-to
 author: Taysser-Gherfal
-ms.author: tagherfa
+ms.author: tglee
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
@@ -32,7 +32,7 @@ Git is very good at automatically merging file changes in most circumstances, pr
 
 ## Resolve merge conflicts
 
-- If you are collaborating with others on the same branch, you might also get merge conflicts when pushing your changes. 
+- If you are collaborating with others on the same branch, you might also get merge conflicts when pushing your changes.
 
     :::image type="content" source="media/vs-2022/git-conflicts-push-link.png" alt-text="Screenshot of merge conflict after a push":::
 
@@ -51,12 +51,12 @@ Git is very good at automatically merging file changes in most circumstances, pr
 
     :::image type="content" source="media/vs-2022/git-conflicts-status-ui.png" alt-text="Screenshot of merge conflict status":::
 
-- Once you get the Merge Editor open, you can start resolving your conflict by using any of the following methods: 
+- Once you get the Merge Editor open, you can start resolving your conflict by using any of the following methods:
     1. Go over your conflicts line by line and choose between keeping the right or the left side by checking the checkboxes
     1. Keep or ignore all of your conflicting changes
     1. Manually edit your code in the Result window
 
-    :::image type="content" source="media/vs-2022/git-conflicts-resolve-conflict.png" alt-text="Screenshot of resolve merge conflict in VS":::
+    :::image type="content" source="media/vs-2022/git-conflicts-resolve-conflict.png" alt-text="Screenshot of resolve merge conflict in Visual Studio.":::
 
 > [!TIP]
 > If you don’t like the Merge Editor default layout, feel free to change it using the gear drop down menu. For example, this is what the Vertical View look like:
@@ -72,7 +72,7 @@ Git is very good at automatically merging file changes in most circumstances, pr
     :::image type="content" source="media/vs-2022/git-conflicts-merge-commit.png" alt-text="Screenshot of create a merge commit":::
 
 > [!NOTE]
-> If you need to keep all of your changes to a document, you can right click it under the Unmerged Changes section and click on **Keep Current (Local)** without having to open the Merge Editor. 
+> If you need to keep all of your changes to a document, you can right click it under the Unmerged Changes section and click on **Keep Current (Local)** without having to open the Merge Editor.
 > :::image type="content" source="media/vs-2022/git-conflicts-keep-changes.png" alt-text="Keep current and take incoming":::
 
 ## Next steps
