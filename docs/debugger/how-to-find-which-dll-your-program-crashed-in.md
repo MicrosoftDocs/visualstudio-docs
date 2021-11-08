@@ -34,7 +34,7 @@ ms.workload:
 
 1. Note the address where the crash occurred.
 
-    If the address is not shown in the error message, you may need to use alternative methods to identify the DLL. If you suspect a system DLL, you can [load symbols](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) from the Microsoft Symbol Servers when debugging. Otherwise, you may need to [create a dump file](../debugger/using-dump-files.md) with heap information instead. Various [tools](https://blogs.msdn.microsoft.com/andrehal/2009/12/31/what-is-a-dump-and-how-do-i-create-one/) are available to create dump files.
+    If the address is not shown in the error message, you may need to use alternative methods to identify the DLL. If you suspect a system DLL, you can [load symbols](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) from the Microsoft Symbol Servers when debugging. Otherwise, you may need to [create a dump file](../debugger/using-dump-files.md) with heap information instead. Various tools are available to create dump files.
 
 2. On the **Debug** menu, choose **Windows**, and click **Modules**.
 

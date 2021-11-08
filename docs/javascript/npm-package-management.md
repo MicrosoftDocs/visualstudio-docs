@@ -1,9 +1,14 @@
 ---
 title: "Manage npm packages"
 description: Visual Studio helps you to manage packages using the Node.js package manager (npm)
+<<<<<<< HEAD
 ms.custom: "seodec18"
 ms.date: "10/1/2021"
 ms.topic: "how-to"
+=======
+ms.date: 10/1/2021
+ms.topic: how-to
+>>>>>>> 5096c940f91c92da0c2c12e6c5c57390ef0f3a4d
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"

@@ -3,7 +3,7 @@ title: Assign Visual Studio subscriptions to multiple users | Microsoft Docs
 author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
-ms.date: 03/19/2021
+ms.date: 10/21/2021
 ms.topic: conceptual
 description:  Learn how admins can assign multiple subscriptions at one time.
 ---
@@ -76,7 +76,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
 > [!IMPORTANT]
 >
 > The following limitations apply to the use of Azure AD groups for adding subscribers:
-> - The admin must be a member of the AAD tenant when initially adding a group to the admin portal.  After the group has been added, changes to the membership of the groups does not require admin involvement. 
+> - The admin must be a member of the Azure AD tenant when initially adding a group to the admin portal.  After the group has been added, changes to the membership of the groups does not require admin involvement. 
 > - Groups must contain at least one member.  Empty groups are not supported.
 > - All users must be in the top level of the group.  Nested groups are not supported.
 > - Only trusted agreements are supported. (Only agreements who can 'overallocate' subscriptions are trusted.)
@@ -97,7 +97,7 @@ Watch this video or read on to learn more about adding subscribers using the Azu
    > [!div class="mx-imgBorder"]
    > ![Choose bulk add using Azure AD](_img/assign-license-bulk/bulk-add-aad.png "Choose the Bulk add using Azure AD feature to pull subscribers from your Azure Active Directory group.")
 
-4. Begin to enter the name of the Azure AD group that you'd like to add into the form field. This will search the available Azure AD groups within your organization. 
+4. A fly-out window will appear on the right.  Begin to enter the name of the Azure AD group that you'd like to add into the form field. This will search the available Azure AD groups within your organization. 
 
 5. When you select the group, the field will automatically populate with the group name. You will have the option to view the users in that group before you add them. Next, you can choose the subscription level, download rights, and communication preferences for the group. You can add details into the reference field if you wish. 
 

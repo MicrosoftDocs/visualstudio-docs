@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: In this tutorial, you create an app using ASP.NET Core and Vue
-ms.date: 09/28/2021
+ms.date: 11/08/2021
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -24,6 +24,9 @@ Starting in Visual Studio 2022 Preview 2, you can use the method described in th
 
 - Put the client app in a separate project, outside from the ASP.NET Core project
 - Create the client project based on the framework CLI installed on your computer
+
+> [!NOTE]
+> Currently, the front-end project must be published manually (not currently supported with the Publish tool). For additional information, see [https://github.com/MicrosoftDocs/visualstudio-docs/issues/7135](https://github.com/MicrosoftDocs/visualstudio-docs/issues/7135).
 
 ## Prerequisites
 
@@ -110,7 +113,11 @@ Once the project is created, you see some new and modified files:
 
 ## Start the project
 
-Press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
+Before you start the project, make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `applicationUrl` property. (It should look similar to `https://localhost:7049`.)
+
+Then, go to the *vue.config.js* file for your Vue project. Update the target property to match the `applicationUrl` property in  *launchSettings.json*.
+
+To start the project, press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
 
 - The ASP.NET Core API project running
 - The Vue CLI running the vue-cli-service serve command

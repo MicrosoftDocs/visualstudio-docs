@@ -2,7 +2,7 @@
 title: Advanced features
 description: Learn about the advanced features that might be more appropriate for experienced developers, or those developers who are already familiar with Visual Studio.
 ms.custom: vs-acquisition
-ms.date: 09/30/2021
+ms.date: 11/04/2021
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -38,10 +38,15 @@ To learn more about setting up Visual Studio on your system, see [Install Visual
 Visual Studio has a suite of tools to easily create Microsoft Azure cloud-enabled applications. You can configure, build, debug, package, and deploy Azure apps and services directly from the Visual Studio integrated development environment (IDE). To get the Azure tools and project templates, select the **Azure development** workload when you install Visual Studio.
 
 ::: moniker range="<=vs-2019"
+
 ![Screenshot of the Azure development workload in the Visual Studio Installer.](../data-tools/media/azure-development-workload.png)
+
 ::: moniker-end
+
 ::: moniker range=">=vs-2022"
+
 :::image type="content" source="media/vs-2022/azure-development-workload.png" alt-text="Screenshot of the Azure development workload selected in the Visual Studio Installer." border="false":::
+
 ::: moniker-end
 
 ::: moniker range="vs-2017"
@@ -106,7 +111,7 @@ Visual Studio can build apps and games for macOS, Linux, and Windows, and for An
 
 - Mobile apps for iOS, Android, and Windows in C# and F# by using [Xamarin](https://developer.xamarin.com/guides/cross-platform/windows/visual-studio/).
 
-- 2D and 3D games in C# by using [Visual Studio Tools for Unity](/gamedev/unity/get-started/visual-studio-tools-for-unity.md).
+- 2D and 3D games in C# by using [Visual Studio Tools for Unity](/visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity).
 
 - Native C++ apps for iOS, Android, and Windows devices. Share common code in iOS, Android, and Windows libraries by using [C++ for cross-platform development](/cpp/cross-platform/visual-cpp-for-cross-platform-mobile-development).
 

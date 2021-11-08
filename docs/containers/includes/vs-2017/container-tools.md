@@ -8,7 +8,7 @@ ms.technology: vs-container-tools
 ms.topic: include
 ---
 
-With Visual Studio, you can easily build, debug, and run containerized ASP.NET Core apps and publish them to Azure Container Registry, Docker Hub, Azure App Service, or your own container registry. In this article, we'll publish to Container Registry.
+With Visual Studio, you can easily build, debug, and run containerized ASP.NET Core apps and publish them to Azure Container Registry, Docker Hub, Azure App Service, or your own container registry. In this article, we'll publish to Azure Container Registry.
 
 ## Prerequisites
 
@@ -29,7 +29,7 @@ For Docker installation, first review the information at [Docker Desktop for Win
 1. Select **Web Application**.
 1. Check the **Enable Docker Support** checkbox.
 
-   ![Enable Docker Support check box](../../media/container-tools/enable-docker-support.PNG)
+   ![Screenshot of Enable Docker Support check box.](../../media/container-tools/enable-docker-support.PNG)
 
    The screenshot shows .NET Core; if you're using .NET Framework, it looks a bit different.
 
@@ -110,7 +110,7 @@ Once the develop and debug cycle of the app is completed, you can create a produ
     | **[SKU](/azure/container-registry/container-registry-skus)** | Standard | Service tier of the container registry  |
     | **Registry Location** | A location close to you | Choose a Location in a [region](https://azure.microsoft.com/regions/) near you or near other services that will use your container registry. |
 
-    ![Visual Studio's create Azure Container Registry dialog][0]
+    ![Screenshot of Visual Studio's create Azure Container Registry dialog.][0]
 
 1. Click **Create**
 
@@ -118,4 +118,4 @@ Once the develop and debug cycle of the app is completed, you can create a produ
 
 You can now pull the container from the registry to any host capable of running Docker images, for example [Azure Container Instances](/azure/container-instances/container-instances-tutorial-deploy-app).
 
-[0]:../../media/hosting-web-apps-in-docker/vs-acr-provisioning-dialog.png
+[0]:../../media/hosting-web-apps-in-docker/vs-azure-container-registry-provisioning-dialog.png

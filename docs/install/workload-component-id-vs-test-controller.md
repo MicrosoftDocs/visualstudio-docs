@@ -6,7 +6,7 @@ keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.date: 08/10/2021
+ms.date: 10/12/2021
 ms.topic: reference
 helpviewer_keywords:
 - workload ID, Visual Studio
@@ -29,11 +29,19 @@ open_to_public_contributors: false
 
 ::: moniker-end
 
-::: moniker range=">= vs-2019"
+::: moniker range="vs-2019"
 
 [!INCLUDE[workloads-components-header-2019_md](includes/workloads-components-header-2019_md.md)]
 
 [!include[Visual Studio Test Controller 2019](includes/vs-2019/workload-component-id-vs-test-controller.md)]
+
+::: moniker-end
+
+::: moniker range=">= vs-2022"
+
+[!INCLUDE[workloads-components-header-2022_md](includes/workloads-components-header-2022.md)]
+
+[!include[Visual Studio Test Controller 2022](includes/vs-2022/workload-component-id-vs-test-controller.md)]
 
 ::: moniker-end
 

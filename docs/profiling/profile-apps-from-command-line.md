@@ -1,9 +1,8 @@
 ---
 title: "Measure performance from the command line"
 description: "Measure CPU performance and managed memory usage in your application from the command line."
-ms.custom: ""
-ms.date: "09/13/2021"
-ms.topic: "conceptual"
+ms.date: 9/13/2021
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Profiling Tools, command-line"
   - "Diagnostics Tools, command-line"

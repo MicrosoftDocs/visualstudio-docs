@@ -81,6 +81,36 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/feedback-options.md",
+      "redirect_url": "https://developercommunity.visualstudio.com/home",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/report-a-problem.yml",
+      "redirect_url": "/visualstudio/ide/how-to-report-a-problem-with-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/report-a-problem-minidumps.md",
+      "redirect_url": "/visualstudio/ide/report-a-problem-perfview-minidumps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/report-a-problem-perfview.md",
+      "redirect_url": "/visualstudio/ide/report-a-problem-perfview-minidumps",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/diagnostic-data-collection.md",
+      "redirect_url": "/visualstudio/ide/visual-studio-experience-improvement-program",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md",
+      "redirect_url": "/visualstudio/ide/not-in-toc/default",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/data-tools/additional-resources-for-troubleshooting-data-access-errors.md",
       "redirect_url": "/answers/products/?WT.mc_id=msdnredirect-web-msdn",
       "redirect_document_id": false
@@ -45211,6 +45241,26 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/deployment/quickstart-deploy-to-azure.md",
+      "redirect_url": "/visualstudio/deployment/quickstart-deploy-aspnet-web-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/quickstart-deploy-to-local-folder.md",
+      "redirect_url": "/visualstudio/deployment/quickstart-deploy-aspnet-web-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/quickstart-deploy-to-a-web-site.md",
+      "redirect_url": "/visualstudio/deployment/quickstart-deploy-aspnet-web-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/quickstart-deploy-to-linux.md",
+      "redirect_url": "/visualstudio/deployment/quickstart-deploy-aspnet-web-app",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md",
       "redirect_url": "/visualstudio/deployment/securing-clickonce-applications",
       "redirect_document_id": false
@@ -46838,6 +46888,11 @@
     {
       "source_path": "docs/modeling/validate-your-uml-model.md",
       "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/msbuild/configuring-targets-and-tasks.md",
+      "redirect_url": "/visualstudio/msbuild/configure-tasks",
       "redirect_document_id": false
     },
     {
@@ -57803,11 +57858,6 @@
     {
       "source_path": "mac/setup-vsmac-tools-unity.md",
       "redirect_url": "/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/devinit/index.md",
-      "redirect_url": "/visualstudio/devinit/getting-started-with-devinit",
       "redirect_document_id": false
     },
     {

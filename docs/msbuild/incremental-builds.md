@@ -78,3 +78,4 @@ This code creates the property CompileRan and gives it the value `true`, but onl
 ## See also
 
 - [Targets](../msbuild/msbuild-targets.md)
+- [How to: Build Incrementally](../msbuild/how-to-build-incrementally.md)

@@ -23,9 +23,7 @@ Follow these steps to add another admin:
 3. Select **Add**.
 4. Fill out the required fields.
 
-> [!NOTE]
-> 
-> For the super admin role, be sure to check the box.
+Note: For the super admin role, be sure to check the box.
 
 ## More Information
 

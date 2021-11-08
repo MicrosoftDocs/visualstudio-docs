@@ -3,7 +3,7 @@ title: Use command-line parameters to install Visual Studio
 titleSuffix: ''
 description: Learn how to use command-line parameters to control or customize your Visual Studio installation.
 ms.date: 4/16/2021
-ms.custom: seodec18
+
 ms.topic: conceptual
 f1_keywords:
 - command-line parameters
@@ -83,7 +83,7 @@ Start by downloading the Visual Studio 2022 bootstrapper from the [Visual Studio
 ::: moniker range=">=vs-2022"
 
 >[!TIP]
->If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2022 Releases](/visualstudio/releases/2022/history) page.
+>If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio 2022 Releases](/visualstudio/releases/2022/release-notes) page.
 
 ::: moniker-end
 

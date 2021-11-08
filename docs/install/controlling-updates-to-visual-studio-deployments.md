@@ -1,8 +1,7 @@
 ---
 title: Control updates to deployments
 description: Learn how to change where Visual Studio looks for an update when you install from a network.
-ms.date: 04/06/2021
-ms.custom: seodec18
+ms.date: 10/22/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -16,6 +15,7 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
+
 # Control updates to network-based Visual Studio deployments
 
 Enterprise administrators often create a layout and host it on a network file share to deploy to their end users. This page describes how to configure your network layout options properly.
@@ -106,6 +106,28 @@ Because Visual Studio 2017 [stores registry entries in a private registry](tools
 vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 0
 ```
 
+You can turn notifications back on with the following command:
+
+```shell
+vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 1
+```
+
+To get back to default behavior, you can also delete the value with the following command:
+
+```shell
+vsregedit.exe remove "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override
+```
+
+After you run the command to change Visual Studio settings, start Visual Studio. Any already-running instances of Visual Studio won't change behavior until Visual Studio is shut down and restarted. As another option, you can restart the computer to make sure the setting takes effect.
+
+You can confirm the setting with the following command:
+
+```shell
+vsregedit.exe read "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword
+```
+
+If the value doesn’t exist (this is the condition by default), the previous command will indicate it failed to read the value. If you set the value, then the previous command will reflect the value in the Visual Studio configuration (it will indicate either 0 or 1, or whatever value it is set to – only 0 or 1 are expected).
+
 ::: moniker-end
 
 ::: moniker range="vs-2019"
@@ -116,6 +138,28 @@ Because Visual Studio 2019 [stores registry entries in a private registry](tools
 vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 0
 ```
 
+You can turn notifications back on with the following command:
+
+```shell
+vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 1
+```
+
+To get back to default behavior, you can also delete the value with the following command:
+
+```shell
+vsregedit.exe remove "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override
+```
+
+After you run the command to change Visual Studio settings, start Visual Studio. Any already-running instances of Visual Studio won't change behavior until Visual Studio is shut down and restarted. As another option, you can restart the computer to make sure the setting takes effect.
+
+You can confirm the setting with the following command:
+
+```shell
+vsregedit.exe read "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword
+```
+
+If the value doesn’t exist (this is the condition by default), the previous command will indicate it failed to read the value. If you set the value, then the previous command will reflect the value in the Visual Studio configuration (it will indicate either 0 or 1, or whatever value it is set to – only 0 or 1 are expected).
+
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
@@ -125,6 +169,28 @@ Because Visual Studio 2022 [stores registry entries in a private registry](tools
 ```shell
 vsregedit.exe set "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 0
 ```
+
+You can turn notifications back on with the following command:
+
+```shell
+vsregedit.exe set "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 1
+```
+
+To get back to default behavior, you can also delete the value with the following command:
+
+```shell
+vsregedit.exe remove "c:\Program Files\Microsoft Visual Studio\2022\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override
+```
+
+After you run the command to change Visual Studio settings, start Visual Studio. Any already-running instances of Visual Studio won't change behavior until Visual Studio is shut down and restarted. As another option, you can restart the computer to make sure the setting takes effect.
+
+You can confirm the setting with the following command:
+
+```shell
+vsregedit.exe read "c:\Program Files\Microsoft Visual Studio\2022\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword
+```
+
+If the value doesn’t exist (this is the condition by default), the previous command will indicate it failed to read the value. If you set the value, then the previous command will reflect the value in the Visual Studio configuration (it will indicate either 0 or 1, or whatever value it is set to – only 0 or 1 are expected).
 
 ::: moniker-end
 

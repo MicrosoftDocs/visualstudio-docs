@@ -1,8 +1,7 @@
 ---
 title: "First look at deployment"
 description: "Learn about your options for deploying apps from Visual Studio."
-ms.custom: "mvc"
-ms.date: 09/23/2021
+ms.date: 10/29/2021
 ms.topic: conceptual
 dev_langs:
   - "FSharp"
@@ -17,7 +16,6 @@ helpviewer_keywords:
   - "deploying applications [Visual Studio]"
   - "deploying applications [Visual Studio], about deploying applications"
   - "components [.NET Framework], deploying"
-ms.assetid: 63fcdd5b-2e54-4210-9038-65bc23167725
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
@@ -36,7 +34,7 @@ See the quickstarts and tutorials for step-by-step deployment instructions. For 
 
 Deployment to a local folder is typically used for testing or to begin a staged deployment in which another tool is used for final deployment.
 
-- **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python**, and .**NET Core**: Use the **Publish** tool to deploy to a local folder. The exact options available depend on your app type. In Solution Explorer, right-click your project and select **Publish**. (If you haven't previously configured any publishing profiles, you must then select **Create new profile**.) Next, select **Folder**. For more information, see [Deploy to a local folder](quickstart-deploy-to-local-folder.md).
+- **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python**, and .**NET Core**: Use the **Publish** tool to deploy to a local folder. The exact options available depend on your app type. In Solution Explorer, right-click your project and select **Publish**. (If you haven't previously configured any publishing profiles, you must then select **Create new profile**.) Next, select **Folder**. For more information, see [Publish an ASP.NET app](quickstart-deploy-aspnet-web-app.md?tabs=folder).
 
     ![Screenshot that shows selecting Publish.](../deployment/media/quickstart-publish.png)
 
@@ -44,7 +42,6 @@ Deployment to a local folder is typically used for testing or to begin a staged 
 
   - [Deploy a .NET Windows desktop app using ClickOnce](quickstart-deploy-using-clickonce-folder.md)
   - [Deploy a .NET Framework Windows desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md).
-  - [Deploy a .NET Windows desktop app using ClickOnce](quickstart-deploy-using-clickonce-folder.md).
   - [Deploy a C++/CLR app using ClickOnce](/cpp/windows/clickonce-deployment-for-visual-cpp-applications) or, for C/C++, see [Deploy a native app using a Setup project](/cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project).
 
 ## Publish to Azure
@@ -65,14 +62,14 @@ Deployment to a local folder is typically used for testing or to begin a staged 
 
   For Python apps, also see [Python - Publishing to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json).
 
-  For a quick introduction, see [Publish to Azure](quickstart-deploy-to-azure.md) and [Publish to Linux](quickstart-deploy-to-linux.md). Also, see [Publish an ASP.NET Core app to Azure](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](/aspnet/core/publishing/azure-continuous-deployment).
+  For a quick introduction, see [Publish an ASP.NET app](quickstart-deploy-aspnet-web-app.md?tabs=folder). Also, see [Deploy an ASP.NET web app](/azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs#publish-your-web-app). For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](/azure/app-service/deploy-continuous-deployment).
 
   > [!NOTE]
   > If you don't already have an Azure account, you can [sign up here](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=doc&utm_campaign=visualstudio).
 
 ## Publish to the web or deploy to a network share
 
-- **ASP.NET**, **ASP.NET Core**, **Node.js**, and **Python**: You can use the **Publish** tool to deploy to a website by using FTP or Web Deploy. For more information, see [Deploy to a website](quickstart-deploy-to-a-web-site.md).
+- **ASP.NET**, **ASP.NET Core**, **Node.js**, and **Python**: You can use the **Publish** tool to deploy to a website by using FTP or Web Deploy. For more information, see [Publish an ASP.NET app](quickstart-deploy-aspnet-web-app.md?tabs=folder.md?tabs=web-server).
 
     In Solution Explorer, right-click the project and select **Publish**. (If you've previously configured any publishing profiles, you must then select **Create new profile**.) In the **Publish** tool, select the option you want and follow the configuration steps.
 
@@ -80,7 +77,7 @@ Deployment to a local folder is typically used for testing or to begin a staged 
 
     For information on importing a publish profile in Visual Studio, see [Import publish settings and deploy to IIS](../deployment/tutorial-import-publish-settings-iis.md).
 
-    You can also deploy ASP.NET applications and services in a number of other ways. For more information, see [Deploying ASP.NET web applications and services](/aspnet/overview/deployment).
+    You can also deploy ASP.NET applications and services in a number of other ways. For more information, see [Deploying ASP.NET web applications and services](/aspnet/web-forms/overview/deployment/visual-studio-web-deployment/).
 
 - **Windows desktop**: You can publish a Windows desktop application to a web server or a network file share by using ClickOnce deployment. Users can then install the application with a single click. For more information, see the following articles:
 
@@ -138,13 +135,6 @@ You can use Azure Pipelines to enable continuous deployment of your app. For mor
 
 | App type | Deployment scenario | Link |
 | --- | --- | --- |
-| **Office app** | You can publish an add-in for Office from Visual Studio. | [Deploy and publish your Office add-in](https://dev.office.com/docs/add-ins/publish/publish) |
+| **Office app** | You can publish an add-in for Office from Visual Studio. | [Deploy and publish your Office add-in](/office/dev/add-ins/publish/publish) |
 | **WCF or OData service** | Other applications can use WCF RIA services that you deploy to a web server. | [Developing and deploying WCF Data Services](/dotnet/framework/data/wcf/developing-and-deploying-wcf-data-services) |
 | **LightSwitch** | LightSwitch is no longer supported starting in Visual Studio 2017, but can still be deployed from Visual Studio 2015 and earlier. | [Deploying LightSwitch applications](/previous-versions/ff872288(v=vs.140)) |
-
-## Next steps
-
-In this tutorial, you took a quick look at deployment options for different applications.
-
-> [!div class="nextstepaction"]
-> [What publishing options are right for me?](deploying-applications-services-and-components-resources.md#what-publishing-options-are-right-for-me)

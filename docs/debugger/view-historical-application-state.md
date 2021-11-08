@@ -1,7 +1,7 @@
 ---
 title: "View previous app state using IntelliTrace"
 description: "Learn how to take snapshots, and view snapshots with IntelliTrace step-back"
-ms.custom: "seodec18"
+
 ms.date: 09/19/2018
 ms.topic: tutorial
 ms.assetid: 7c60d929-d993-49dc-9db3-43b30be9912b

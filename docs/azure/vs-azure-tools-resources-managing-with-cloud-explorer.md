@@ -16,6 +16,7 @@ ms.author: ghogen
 > [!Important]
 > Cloud Explorer has been retired in Visual Studio 2022. Instead, you can use the following alternatives:
 > - Use [Microsoft Azure Storage Explorer](/azure/vs-azure-tools-storage-manage-with-storage-explorer) is a free, standalone app from Microsoft. You can use it to work visually with Azure Storage data on Windows, macOS, and Linux.
+> - In order to debug an Azure App Service or Azure Function app, you will be able to use the Connected Services or the Publish feature available on all projects. If you rely on Visual Studio for publishing, this option is available under the additional options in the hosting section. If you don’t use the publishing feature, you will be able to connect to any Azure App Service or Azure Function app from the Connected Service tab and invoke various operations like remote debug, remote profile, start/stop the site, view streaming logs etc. 
 > - The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives you direct, elevated command-line access to the App Service server and its file system. This is both a valuable debugging tool and allows for CLI operations such as installing packages.
 >
 > If needed, you can use the Azure Portal or continue to use the Azure node of Server Explorer in previous versions of Visual Studio.
@@ -32,7 +33,7 @@ Like the [Azure portal](https://portal.azure.com), Cloud Explorer is built on th
 
 ## Prerequisites
 
-* Visual Studio 2017 or later (see [Visual Studio downloads](https://visualstudio.microsoft.com/downloads)) with the **Azure workload** selected. You can also use an earlier version of Visual Studio with the [Microsoft Azure SDK for .NET 2.9](https://www.microsoft.com/download/details.aspx?id=51657).
+* Visual Studio 2017 or later (see [Visual Studio downloads](https://visualstudio.microsoft.com/downloads)) with the **Azure workload** selected. You can also use an earlier version of Visual Studio with the Microsoft Azure SDK for .NET 2.9.
 * Microsoft Azure account - If you don't have an account, you can [sign up for a free trial](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/) or [activate your Visual Studio subscriber benefits](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/).
 
 > [!NOTE]

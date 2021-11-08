@@ -98,7 +98,7 @@ If you open the VS Code Extension, you can remove a container with two clicks! I
     docker run -dp 3000:3000 getting-started
     ```
 
-1. Refresh your browser on [http://localhost:3000](http://localhost:3000) and you should see your updated help text!
+1. Refresh your browser on `http://localhost:3000` and you should see your updated help text!
 
 ![Updated application with updated empty text](media/todo-list-updated-empty-text.png)
 
