@@ -2,7 +2,7 @@
 title: The Git experience in Visual Studio
 titleSuffix: ""
 description: Learn how the new integrated Git experience in Visual Studio can help you be more productive.
-ms.date: 11/05/2021
+ms.date: 11/08/2021
 ms.topic: overview
 ms.author: tglee
 author: TerryGLee
@@ -106,7 +106,11 @@ If you don’t know the repository URL, Visual Studio makes it easy to browse to
 
 After you’ve cloned a repository or created one, Visual Studio detects the Git repository and adds it to your list of **Local Repositories** in the Git menu. From here, you can quickly access and switch between your Git repositories.
 
+::: moniker range="<=vs-2019"
+
 :::image type="content" source="media/git-local-repositories.png" alt-text="The Local Repositories option from the Git menu in Visual Studio ":::
+
+::: moniker-end
 
 ## View files in Solution Explorer
 
@@ -142,7 +146,11 @@ Git tracks file changes in your repo as you work, and separates the files in you
 
 As you do your work, Visual Studio keeps track of the file changes to your project in the **Changes** section of the **Git Changes** window.
 
+::: moniker range="<=vs-2019"
+
 :::image type="content" source="media/git-changes-window.png" alt-text="The Git Changes window in Visual Studio.":::
+
+::: moniker-end
 
 When you are ready to stage changes, click the **+** (plus) button on each file you want to stage, or right-click a file and then select **Stage**. You can also stage all your modified files with one click by using the stage all **+** (plus) button at the top of the **Changes** section.
 
@@ -152,7 +160,11 @@ You can also choose not to stage your modified files by skipping the staging are
 
 Visual Studio also makes it easy to commit and sync with one click by using the **Commit All and Push** and **Commit All and Sync** shortcuts. When you double-click any file in the **Changes** and the **Staged changes** sections, you can see a line-by-line comparison with the unmodified version of the file.
 
+::: moniker range="<=vs-2019"
+
 :::image type="content" source="media/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio ":::
+
+::: moniker-end
 
 ::: moniker range="vs-2022"
 
@@ -172,11 +184,19 @@ Visual Studio also makes it easy to commit and sync with one click by using the 
 
 Visual Studio displays the current branch in the selector at the top of the **Git Changes** window.
 
+::: moniker range="<=vs-2019"
+
 :::image type="content" source="media/git-changes-current-branch-selector.png" alt-text="The current branches that you can view by using the selector at the top of the Git Changes selector in Visual Studio ":::
+
+::: moniker-end
 
 The current branch is also available in the status bar on the bottom-right corner of the Visual Studio IDE.
 
+::: moniker range="<=vs-2019"
+
 :::image type="content" source="media/git-changes-current-branch-status-bar.png" alt-text="The current branches that you can view by using the status bar at the bottom-right corner in the Visual Studio IDE ":::
+
+::: moniker-end
 
 From both locations, you can switch between existing branches.
 
