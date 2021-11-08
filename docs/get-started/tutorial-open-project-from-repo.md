@@ -2,7 +2,7 @@
 title: "Tutorial: Open a project from a repo in Visual Studio"
 description: "Learn how to open a project in a Git or Azure DevOps repository with Visual Studio."
 ms.custom: "vs-acquisition, get-started"
-ms.date: 09/30/2021
+ms.date: 11/05/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -49,6 +49,8 @@ Here's how.
 
     > [!TIP]
     > For more information about signing in to Visual Studio, see the [**Sign in to Visual Studio**](../ide/signing-in-to-visual-studio.md?view=vs-2022&preserve-view=true) page. For specific information about how to use your GitHub account to sign in, see the [**Work with GitHub accounts in Visual Studio**](../ide/work-with-github-accounts.md?view=vs-2022&preserve-view=true) page. And if you receive a trust notification and want to know more about it, see the [Configure trust settings for files and folders](../ide/reference/trust-settings.md?view=vs-2022&preserve-view=true) page.
+
+### View files in Solution Explorer
 
 1. Next, Visual Studio loads the solution(s) from the repository by using the **Folder View** in [**Solution Explorer**](../ide/use-solution-explorer.md?view=vs-2022&preserve-view=true).
 

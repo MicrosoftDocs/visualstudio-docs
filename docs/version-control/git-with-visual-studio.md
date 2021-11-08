@@ -110,9 +110,17 @@ After you’ve cloned a repository or created one, Visual Studio detects the Git
 
 ## View files in Solution Explorer
 
-When you clone a repository or open a local repository, Visual Studio switches you into that Git context by saving and closing any previously open solutions and projects. Solution Explorer loads the folder at the root of the Git repository and scans the directory tree for any View files. These include files such as CMakeLists.txt or those with the .sln file extension.
+When you clone a repository or open a local repository, Visual Studio switches you into that Git context by saving and closing any previously open solutions and projects. Solution Explorer loads the folder at the root of the Git repository and scans the directory tree for any viewable files. These include files such as CMakeLists.txt or those with the .sln file extension.
 
-Visual Studio adjusts its View based on which View file you load in Solution Explorer:
+::: moniker range="vs-2022"
+
+For more information, see the [View files in Solution Explorer](../get-started/tutorial-open-project-from-repo.md#view-files-in-solution-explorer) section of the [Open a project from a repo](../get-started/tutorial-open-project-from-repo.md?view=vs-2022&preserve-view=true) tutorial.
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
+
+Visual Studio adjusts its View based on which file you load in Solution Explorer:
 
 - If you clone a repository that contains a single .sln file, then Solution Explorer directly loads that solution for you.
 - If Solution Explorer doesn’t detect any .sln files in your repository, then by default it loads Folder View.
@@ -121,6 +129,8 @@ Visual Studio adjusts its View based on which View file you load in Solution Exp
 You can toggle between the currently open View and the list of Views by using the **Switch Views** button in the Solution Explorer toolbar.
 
 :::image type="content" source="media/git-solution-explorer-views.png" alt-text="Solution Explorer with the Switch Views button selected in Visual Studio.":::
+
+::: moniker-end
 
 ## Git Changes window
 
@@ -144,8 +154,19 @@ Visual Studio also makes it easy to commit and sync with one click by using the 
 
 :::image type="content" source="media/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio ":::
 
+::: moniker range="vs-2022"
+
+> [!TIP]
+> You can associate an Azure DevOps work item with a commit by using the "#" character if you are connected to the Azure DevOps repository.
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
+
 > [!TIP]
 > You can associate an Azure DevOps work item with a commit by using the "#" character if you are connected to the Azure DevOps repository. You can connect your Azure DevOps repository through **Team Explorer** > **Manage Connections**.
+
+::: moniker-end
 
 ### Select an existing branch
 
