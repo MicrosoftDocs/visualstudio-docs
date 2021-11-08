@@ -147,7 +147,7 @@ To do so, choose the following button, choose the edition of Visual Studio that 
 To do so, select the following button, choose the edition of Visual Studio that you want, and then save to your **Downloads** folder.
 
  > [!div class="button"]
- > [Download Visual Studio](https://visualstudio.microsoft.com/vs/preview/#download-preview)
+ > [Download Visual Studio](https://visualstudio.microsoft.com/downloads)
 
 ::: moniker-end
 
