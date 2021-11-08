@@ -99,7 +99,7 @@ Visual Studio prompts for user approval before opening projects that have the [M
 > You should still ensure that the file, folder, or solution comes from a trusted person or a trusted location before approving it.
 
 > [!NOTE]
-> In Visual Studio 2022 RC, we've revamped the Trust Settings functionality to show a warning whenever untrusted code in files, folders, projects, and solutions are about to be opened in the IDE. This feature is disabled by default. To learn more, see the [Visual Studio 2022 version of this page](?view=vs-2022&preserve-view=true).
+> In Visual Studio 2022, we've revamped the Trust Settings functionality to show a warning whenever untrusted code in files, folders, projects, and solutions are about to be opened in the IDE. This feature is disabled by default. To learn more, see the [Visual Studio 2022 version of this page](?view=vs-2022&preserve-view=true).
 
 ## Configure trust settings
 
