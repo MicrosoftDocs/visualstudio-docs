@@ -29,7 +29,7 @@ We accomplish this by making it possible for you to edit your application's code
 
 1. Start the app with the debugger attached using either **F5** or, if [supported for your application](#supported-net-app-frameworks-and-scenarios), **Ctrl+F5**.
 
-1. Open a C#, C++, or Visual Basic code file with some code that can be re-executed through the running apps user interface (for example, code-behind for a button or a ViewModel’s command) or something that is being triggered at an interval through a timer and change the code.
+1. Open a C#, C++, or Visual Basic code file with some code that can be re-executed through the running apps user interface (for example, code-behind for a button or a viewmodel’s command) or something that is being triggered at an interval through a timer and change the code.
 
 1. Apply the code changes using the **Hot Reload** button, or press **ALT+F10**.
 
