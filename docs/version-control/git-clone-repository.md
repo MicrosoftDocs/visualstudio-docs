@@ -2,7 +2,7 @@
 title: Clone a repo in Visual Studio
 titleSuffix: ""
 description: Clone a repo in Visual Studio by using Git or Azure DevOps.
-ms.date: 10/29/2021
+ms.date: 11/08/2021
 ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
