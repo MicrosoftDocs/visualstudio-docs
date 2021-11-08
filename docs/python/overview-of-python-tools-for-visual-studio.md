@@ -32,6 +32,9 @@ To get started:
 ::: moniker range=">=vs-2019"
 - Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md) or [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json).
 ::: moniker-end
+:::moniker range=">=vs-2022"
+ - Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md) or [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json).   {content}
+:::moniker-end
 - Follow the [Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) tutorial for a full end-to-end experience.
 
 ::: moniker range="<=vs-2017"
@@ -47,9 +50,11 @@ Visual Studio's **Python Environments** window (shown below in a wide, expanded 
 ![Expanded view of the Python Environments window](media/environments/environments-expanded-view.png)
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-![Expanded view of the Python Environments window](media/environments/environments-expanded-view-2019.png)
+![Expanded view of the Python Environments window-2019](media/environments/environments-expanded-view-2019.png)
 ::: moniker-end
-
+::: moniker range=">=vs-2022"
+![Expanded view of the Python Environments window-2022](media/environments/environments-expanded-view-2022.png)
+::: moniker-end
 Use the **Open interactive window** command to run Python interactively within the context of Visual Studio. Use the **Open in PowerShell** command to open a separate command window in the folder of the selected environment. From that command window you can run any python script.
 
 For more information:
@@ -74,8 +79,12 @@ For more information:
 ## Interactive window
 
 For every Python environment known to Visual Studio, you can easily open the same interactive (REPL) environment for a Python interpreter directly within Visual Studio, rather than using a separate command prompt. You can easily switch between environments as well. (To open a separate command prompt, select your desired environment in the **Python Environments** window, then select the **Open in PowerShell** command as explained earlier under [Support for multiple interpreters](#support-for-multiple-interpreters).)
-
-![Python interactive window in Visual Studio](media/interactive-window.png)
+:::moniker range=">=vs-2019"
+![Python interactive window in Visual Studio-2019](media/interactive-window.png)
+:::moniker-end
+:::moniker range=">=vs-2022"
+![Python interactive window in Visual Studio-2022](media/interactive-window-2022.png)
+:::moniker-end
 
 Visual Studio also provides tight integration between the Python code editor and the **Interactive** window. The **Ctrl**+**Enter** keyboard shortcut conveniently sends the current line of code (or code block) in the editor to the **Interactive** window, then moves to the next line (or block). **Ctrl**+**Enter** lets you easily step through code without having to run the debugger. You can also send selected code to the **Interactive** window with the same keystroke, and easily paste code from the **Interactive** window into the editor. Together, these capabilities allow you to work out details for a segment of code in the **Interactive** window and easily save the results in a file in the editor.
 
@@ -91,6 +100,10 @@ For more information:
 ::: moniker range=">=vs-2019"
 > [!Note]
 > Visual Studio 2019 supports opening a folder containing Python code and running that code without creating Visual Studio project and solution files. For more information, see [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md). There are, however, benefits to using a project file, as explained in this section.
+::: moniker-end
+::: moniker range=">=vs-2022"
+> [!Note]
+> Visual Studio 2022 supports opening a folder containing Python code and running that code without creating Visual Studio project and solution files. For more information, see [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md). There are, however, benefits to using a project file, as explained in this section.
 ::: moniker-end
 
 Visual Studio helps you manage the complexity of a project as it grows over time. A *Visual Studio project* is much more than a folder structure: it includes an understanding of how different files are used and how they relate to each other. Visual Studio helps you distinguish app code, test code, web pages, JavaScript, build scripts, and so on, which then enable file-appropriate features. A Visual Studio solution, moreover, helps you manage multiple related projects, such as a Python project and a C++ extension project.
@@ -119,7 +132,9 @@ One of Visual Studio's strengths is its powerful debugger. For Python in particu
 ::: moniker range=">=vs-2019"
 In Visual Studio 2019, you can run and debug code without having a Visual Studio project file. See [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md) for an example.
 ::: moniker-end
-
+::: moniker range=">=vs-2022"
+In Visual Studio 2022, you can run and debug code without having a Visual Studio project file. See [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md) for an example.
+::: moniker-end
 For more information:
 
 - Docs: [Debug Python](debugging-python-in-visual-studio.md)
