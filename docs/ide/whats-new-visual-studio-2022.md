@@ -20,9 +20,9 @@ ms.workload:
 **Updated for the 17.0 GA (General Availability) release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
 
 >[!div class="button"]
->[Download Visual Studio 2022 RC](https://visualstudio.microsoft.com/downloads/)
+>[Download Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
 
-With [Visual Studio 2022 RC](/visualstudio/releases/2022/release-notes), you'll always get the best-in-class tools and services available for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our newest version!
+With [Visual Studio 2022](/visualstudio/releases/2022/release-notes), you'll always get the best-in-class tools and services available for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our newest version!
 
 > [!TIP]
 > Check out our **Visual Studio 2022 launch event**. It’s today at 8:30 a.m. Pacific. You can catch it live on [launch.visualstudio.com](https://launch.visualstudio.com/) or on our [Twitch channel](https://www.twitch.tv/visualstudio). And it’ll be available on our [YouTube channel](https://www.youtube.com/visualstudio) later on, in case you can’t watch it live.

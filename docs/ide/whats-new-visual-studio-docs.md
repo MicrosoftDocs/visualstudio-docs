@@ -196,7 +196,7 @@ The following people contributed to the Visual Studio docs during this period. T
 - [How to: Change the build output directory](./how-to-change-the-build-output-directory.md)
   - Review and update as needed for Visual Studio 2022 Preview
   - Update build configurations article for VS 2022
-- [How to: Configure projects to target platforms](./how-to-configure-projects-to-target-platforms.md) - Review and update as needed for Visual Studio 2022 RC
+- [How to: Configure projects to target platforms](./how-to-configure-projects-to-target-platforms.md) - Review and update as needed for Visual Studio 2022
 - [Learn about Solution Explorer](./use-solution-explorer.md) - Add Solution Explorer context menu info
 
 ### Install
