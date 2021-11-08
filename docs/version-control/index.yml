@@ -45,6 +45,12 @@ landingContent:
             url: git-clone-repository.md
           - text: Create a new repo
             url: git-create-repository.md
+          - text: Browse a repo
+            url:  git-browse-repository.md
+          - text: Manage a repo
+            url:  git-manage-repository.md
+          - text: Resolve merge conflicts
+            url:  git-resolve-conflicts.md
       - linkListType: learn
         links:
           - text: Get started with Git and GitHub in Visual Studio 2019

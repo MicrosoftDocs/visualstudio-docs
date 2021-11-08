@@ -2,7 +2,7 @@
 title: Create a repo in Visual Studio
 titleSuffix: ""
 description: Create a repo in Visual Studio by using Git, or browse to an Azure DevOps repo.
-ms.date: 10/29/2021
+ms.date: 11/08/2021
 ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
@@ -37,6 +37,10 @@ Visual Studio makes it easy to clone a repo right from the IDE. Here's how.
 1. After you sign in and enter your repo info, select the **Create and Push** button to create your repo and add your app.
 
     :::image type="content" source="media/vs-2022/git-menu-create-git-repo-push-code.png" alt-text="Screenshot of a user's GitHub info entered by using the Create Git Repository window.":::
+
+### Open an existing local repository
+
+After you’ve created a repo or [cloned one](git-clone-repository.md), Visual Studio detects the Git repository and adds it to your list of **Local Repositories** in the Git menu. From there, you can quickly access and switch between your Git repositories.
 
 ## Create an Azure DevOps repo
 
