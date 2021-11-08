@@ -22,11 +22,10 @@ ms.workload:
 >[!div class="button"]
 >[Download Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
 
-With [Visual Studio 2022](/visualstudio/releases/2022/release-notes), you'll always get the best-in-class tools and services available for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our newest version!
+With [Visual Studio 2022](https://visualstudio.microsoft.com/vs/), you'll always get the best-in-class tools and services available for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our newest version!
 
 > [!TIP]
-> Check out our **Visual Studio 2022 launch event**. It’s today at 8:30 a.m. Pacific. You can catch it live on [launch.visualstudio.com](https://launch.visualstudio.com/) or on our [Twitch channel](https://www.twitch.tv/visualstudio). And it’ll be available on our [YouTube channel](https://www.youtube.com/visualstudio) later on, in case you can’t watch it live.
-
+> Check out our **Visual Studio 2022 launch event**. It’s today at 8:30 A.M. Pacific. You can catch it live on [launch.visualstudio.com](https://launch.visualstudio.com/) or on our [Twitch channel](https://www.twitch.tv/visualstudio). And it’ll be available on our [YouTube channel](https://www.youtube.com/visualstudio) later on, in case you can’t watch it live.
 
 ## Performance improvements
 
@@ -98,6 +97,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 ## See also
 
+* [Visual Studio 2022 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-now-available/)
 * [Launch: Visual Studio 2022 GA (General Availability)](https://devblogs.microsoft.com/visualstudio/join-us-november-8th-for-the-launch-of-visual-studio-2022/)
 * [Visual Studio 2022 RC (Release Candidate)](https://devblogs.microsoft.com/visualstudio/join-us-november-8th-for-the-launch-of-visual-studio-2022/)
 * [Visual Studio 2022 Preview 4](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-4-is-now-available/)
