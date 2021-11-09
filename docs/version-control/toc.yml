@@ -22,7 +22,7 @@
     href: git-push-remote.md
   - name: Fetch, pull, and sync
     href: git-fetch-pull-sync.md
-- name: Manage a repo
+- name: Repo management
   items:
   - name: Browse a repo
     href: git-browse-repository.md
