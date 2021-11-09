@@ -102,9 +102,9 @@
       href: map-methods-on-the-call-stack-while-debugging-in-visual-studio.md
     - name: Mixed code and missing information in the Call Stack window
       href: mixed-code-and-missing-information-in-the-call-stack-window.md
-  - name: Pause code and continue
+  - name: Live code editing
     items:
-    - name: Hot Reload
+    - name: Hot Reload (.NET/C++)
       href: hot-reload.md
     - name: XAML Hot Reload
       items:
