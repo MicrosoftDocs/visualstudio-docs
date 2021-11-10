@@ -40,6 +40,31 @@ If you're not already signed in to Visual Studio with a different account,select
 
 ![Not signed in user](../ide/media/vs2019_usernotsignedin.png)
 
+## Adding GitHub Enterprise Managed User (EMU) accounts
+
+You can add your GitHub EMU account if you're already signed in to Visual Studio with a Microsoft account, or a work or school account.
+
+1. Select the icon with your initials in the upper-right corner of the Visual Studio environment. Then, select **Account settings...** to manage your accounts. You can also open the Account Settings dialog by going to **File** > **Account Settings**.
+
+    :::image type="content" source="../ide/media/account-picker.png" alt-text="Account settings":::
+
+2. Under the **All Accounts** submenu, select the plus sign to add an account, and select **GitHub**.
+
+    :::image type="content" source="../ide/media/sign-in-add-github.png" alt-text="Select add GitHub account":::
+
+3. You'll be redirected to the browser, where you can sign in with your GitHub EMU credentials. 
+
+> [!NOTE]
+> Ensure you enter your GitHub EMU account credentials on this page. 
+
+ :::image type="content" source="../ide/media/github-emu-signin.png" alt-text="Entering GitHub EMU credentials":::
+ 
+ You'll notice the sign in button changs from "Sign in" to "Sign in with your identity provider" once you enter your GitHub EMU account credetials on the sign in page.
+
+After you sign in, you'll get a success window in the browser, and you can return to Visual Studio.
+
+    :::image type="content" source="../ide/media/github-success-signin.png" alt-text="Success window in browser":::
+
 ## Adding GitHub enterprise accounts
 
 By default, Visual Studio only has public GitHub accounts enabled.
