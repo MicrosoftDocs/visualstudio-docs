@@ -55,11 +55,11 @@ You can add your GitHub EMU account if you're already signed in to Visual Studio
 3. You'll be redirected to the browser, where you can sign in with your GitHub EMU credentials. 
 
 > [!NOTE]
-> Ensure you enter your GitHub EMU account credentials on this page. 
+> Ensure you enter your GitHub EMU account credentials (the username has an underscore followed by the company name) on this page.
 
  :::image type="content" source="../ide/media/github-emu-signin.png" alt-text="Entering GitHub EMU credentials":::
  
- You'll notice the sign in button changs from "Sign in" to "Sign in with your identity provider" once you enter your GitHub EMU account credetials on the sign in page.
+ You'll notice the sign in button changes from "Sign in" to "Sign in with your identity provider" once you enter your GitHub EMU account credetials on the sign in page.
 
 After you sign in, you'll get a success window in the browser, and you can return to Visual Studio.
 
