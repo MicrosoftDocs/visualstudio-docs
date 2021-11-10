@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Angular"
 description: In this tutorial, you create an app using ASP.NET Core and Angular
-ms.date: 07/19/2021
+ms.date: 11/08/2021
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -24,6 +24,9 @@ Starting in Visual Studio 2022 Preview 2, you can use the method described in th
 
 - Put the client app in a separate project, outside from the ASP.NET Core project
 - Create the client project based on the framework CLI installed on your computer
+
+>[!NOTE]
+> Currently, the front-end project must be published manually (not currently supported with the Publish tool). For additional information, see [https://github.com/MicrosoftDocs/visualstudio-docs/issues/7135](https://github.com/MicrosoftDocs/visualstudio-docs/issues/7135).
 
 ## Prerequisites
 

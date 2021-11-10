@@ -25,7 +25,7 @@ ms.workload:
 With [Visual Studio 2022](https://visualstudio.microsoft.com/vs/), you'll always get the best-in-class tools and services available for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our newest version!
 
 > [!TIP]
-> Check out our **Visual Studio 2022 launch event**. It’s today at 8:30 A.M. Pacific. You can catch it live on [launch.visualstudio.com](https://launch.visualstudio.com/) or on our [Twitch channel](https://www.twitch.tv/visualstudio). And it’ll be available on our [YouTube channel](https://www.youtube.com/visualstudio) later on, in case you can’t watch it live.
+> Check out the [**Visual Studio 2022 launch event**](https://www.youtube.com/watch?v=f8jXO946eDw) on our [YouTube channel](https://www.youtube.com/visualstudio). You can also catch it on our [Twitch channel](https://www.twitch.tv/visualstudio), too.
 
 ## Performance improvements
 

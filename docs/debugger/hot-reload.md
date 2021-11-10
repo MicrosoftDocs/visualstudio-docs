@@ -29,7 +29,7 @@ We accomplish this by making it possible for you to edit your application's code
 
 1. Start the app with the debugger attached using either **F5** or, if [supported for your application](#supported-net-app-frameworks-and-scenarios), **Ctrl+F5**.
 
-1. Open a C#, C++, or Visual Basic code file with some code that can be re-executed through the running apps user interface (for example, code-behind for a button or a ViewModel’s command) or something that is being triggered at an interval through a timer and change the code.
+1. Open a C#, C++, or Visual Basic code file with some code that can be re-executed through the running apps user interface (for example, code-behind for a button or a viewmodel’s command) or something that is being triggered at an interval through a timer and change the code.
 
 1. Apply the code changes using the **Hot Reload** button, or press **ALT+F10**.
 
@@ -136,13 +136,23 @@ The .NET Hot Reload experience is powered by the [Edit and Continue](../debugger
 
 The preceding improvements are available to both Hot Reload and the Edit and Continue experiences.
 
-## Unsupported .NET Scenarios
+## Unsupported .NET scenarios
 
 Unsupported scenarios:
 
 * Xamarin.Forms apps won’t support .NET Hot Reload in iOS and Android scenarios. You get partial support for Hot Reload when targeting a UWP app. This is by design, and we don’t expect to make any further improvements. (Note: XAML Hot Reload will continues to be available and supported for Xamarin.Forms customers on the latest SDK.)
 * .NET MAUI apps are not supported prior to Visual Studio 2022 version 17.1 Preview 1. Starting in 17.1 Preview 1, .NET MAUI is supported, but only with the debugger attached.
 * Apps built using F# or those targeting .NET Native do not support Hot Reload.
+
+If you’re using Visual Studio without the debugger. NET Hot Reload only works for apps targeting .NET 6.
+
+In addition, Hot Reload is not available in some project configurations:
+
+* If you’re using the Visual Studio debugger to run your app, but you’ve disabled `Edit and Continue` in settings, Hot Reload is not supported.
+* Release or custom build configurations are not supported. Your project must use the Debug build configuration.
+* Some startup or compile optimizations are not supported in .NET Hot Reload. For example, if your project's debug profile is configured in the following ways, .NET Hot Reload is not supported:
+  * [Trimming](/dotnet/core/deploying/trimming/trimming-options) is enabled for your project. For example, it's not supported if `PublishTrimmed` is set to True in your project file for the debug profile.
+  * [ReadyToRun](/dotnet/core/deploying/ready-to-run) is enabled for your project. For example, it's not supported if `PublishReadyToRun` is set to True in your project file for the debug profile.
 
 ## Configure Hot Reload
 

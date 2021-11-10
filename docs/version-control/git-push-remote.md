@@ -20,8 +20,6 @@ Here's how to push to a remote in Visual Studio.
 
 1. Make sure you've got a file open to work on that's in a previously [created](git-create-repository.md) or [cloned](git-clone-repository.md) repo.
 
-1. In the **Git** menu, select
-
 1. Make a change to the file, save it, select the **Git Changes** tab, and then [commit](git-make-commit.md) the change.
 
 1. In the **Git Changes** window, notice the link text that includes the number of incoming and outgoing commits. In the following example, the link text reads **1 outgoing / 0 incoming**.
