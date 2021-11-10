@@ -7,7 +7,7 @@ metadata:
   title: Version control & source control with Git in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Use version / source control technologies in Visual Studio. You can share, integrate, and manage your code releases in Git & GitHub without leaving your codebase.
   ms.topic: landing-page
-  ms.date: 11/08/2021
+  ms.date: 11/09/2021
   author: TerryGLee
   ms.author: tglee
   manager: jmartens
@@ -24,18 +24,8 @@ landingContent:
         links:
           - text: Git experience in Visual Studio
             url: git-with-visual-studio.md
-
-  # Card
-  - title: Get started
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Create a GitHub account
-            url:  git-create-github-account.md
-          - text: Clone a repo
-            url: git-clone-repository.md
-          - text: Create a new repo
-            url: git-create-repository.md
+          - text: "Visual Studio & GitHub: Better together"
+            url: https://visualstudio.microsoft.com/vs/github/
 
   # Card
   - title: Day-to-day workflow
@@ -51,6 +41,28 @@ landingContent:
           - text: Fetch, pull, and sync
             url: git-fetch-pull-sync.md
 
+    # Card
+  - title: What's new
+    linkLists:
+      - linkListType: whats-new
+        links:
+          - text: Multi-repo support in Visual Studio 2022
+            url: https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/
+          - text: Visual Studio 2022 release notes
+            url: /visualstudio/releases/2022/release-notes/
+
+  # Card
+  - title: Get started
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Create a GitHub account
+            url:  git-create-github-account.md
+          - text: Clone a repo
+            url: git-clone-repository.md
+          - text: Create a new repo
+            url: git-create-repository.md
+
   # Card
   - title: Repo management
     linkLists:
@@ -63,7 +75,7 @@ landingContent:
           - text: Resolve merge conflicts
             url:  git-resolve-conflicts.md
 
-  # Card
+   # Card
   - title: Reference
     linkLists:
       - linkListType: concept
@@ -74,18 +86,4 @@ landingContent:
             url:  git-visual-studio-source-control.md
           - text: Compare Git and Team Explorer side-by-side
             url: git-team-explorer-feature-comparison.md
-
-  # Card
-  - title: What's new
-    linkLists:
-      - linkListType: whats-new
-        links:
-          - text: Multi-repo support in Visual Studio 2022
-            url: https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/
-          - text: Visual Studio 2022 release notes
-            url: /visualstudio/releases/2022/release-notes/
-          - text: Enhanced productivity with Git in Visual Studio 2019
-            url: https://devblogs.microsoft.com/visualstudio/enhanced-productivity-with-git-in-visual-studio/
-          - text: Visual Studio 2019 release notes
-            url: /visualstudio/releases/2019/release-notes/
 
