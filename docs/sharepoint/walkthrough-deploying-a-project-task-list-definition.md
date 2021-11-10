@@ -159,7 +159,7 @@ Visual Studio recycles the IIS application pool, retracts any existing versions 
 
      For example, `Install-SPUserSolution -Identity ProjectTaskList.wsp -Site http://NewSiteName`.
 
-     For more information about remote deployment, see [Using Solutions](/previous-versions/office/developer/sharepoint-2010/ee534972(v=office.14)) and [Adding and Deploying Solutions with PowerShell in SharePoint 2010](http://www.dotnetmafia.com/blogs/dotnettipoftheday/archive/2009/12/02/adding-and-deploying-solutions-with-powershell-in-sharepoint-2010.aspx).
+     For more information about remote deployment, see [Using Solutions](/previous-versions/office/developer/sharepoint-2010/ee534972(v=office.14)) and [Adding and Deploying Solutions with PowerShell in SharePoint 2010](https://yugender.wordpress.com/2012/04/02/adding-and-deploying-solutions-with-powershell-in-sharepoint-2010/).
 
 ## Next steps
 
