@@ -120,7 +120,7 @@ Here's how to browse to and clone an Azure DevOps repo by using Visual Studio.
 
     :::image type="content" source="../ide/media/vs-2022/browse-repository-azure-devops.png" alt-text="Screenshot of the 'Browse a repository' section of the 'Clone a repository' dialog box in Visual Studio, Azure DevOps highlighted.":::
 
-1. Follow the prompts to clone an Azure DevOps repo that includes the files you're looking for.
+1. Follow the prompts to clone an Azure DevOps repo that includes the files you're looking for, and then open your project.
 
 ::: moniker-end
 
