@@ -1,6 +1,6 @@
 ---
- title: Remote debugger download
- description: Download links for the remote debugger
+ title: Remote debugger download (C++)
+ description: Download links for the remote debugger for C++
  services: ""
  author: mikejo5000
  ms.service: ""
