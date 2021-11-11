@@ -58,4 +58,5 @@ To continue your journey, visit the [Clone a repo](git-clone-repository.md) page
 
 ## See also
 
-[Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md)
+- [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md)
+- [Visual Studio & GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)

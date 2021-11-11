@@ -101,7 +101,7 @@ RUN `
         --remove Microsoft.VisualStudio.Component.Windows10SDK.10240 `
         --remove Microsoft.VisualStudio.Component.Windows10SDK.10586 `
         --remove Microsoft.VisualStudio.Component.Windows10SDK.14393 `
-        --remove Microsoft.VisualStudio.Component.Windows81SDK
+        --remove Microsoft.VisualStudio.Component.Windows81SDK)
     
     # Cleanup
     && del /q vs_buildtools.exe
@@ -154,7 +154,7 @@ RUN `
         --remove Microsoft.VisualStudio.Component.Windows10SDK.10240 `
         --remove Microsoft.VisualStudio.Component.Windows10SDK.10586 `
         --remove Microsoft.VisualStudio.Component.Windows10SDK.14393 `
-        --remove Microsoft.VisualStudio.Component.Windows81SDK
+        --remove Microsoft.VisualStudio.Component.Windows81SDK)
     
     # Cleanup
     && del /q vs_buildtools.exe
@@ -205,7 +205,7 @@ RUN `
         --remove Microsoft.VisualStudio.Component.Windows10SDK.10240 `
         --remove Microsoft.VisualStudio.Component.Windows10SDK.10586 `
         --remove Microsoft.VisualStudio.Component.Windows10SDK.14393 `
-        --remove Microsoft.VisualStudio.Component.Windows81SDK
+        --remove Microsoft.VisualStudio.Component.Windows81SDK)
     
     # Cleanup
     && del /q vs_buildtools.exe
