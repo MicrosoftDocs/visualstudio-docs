@@ -26,7 +26,7 @@ On Apple Silicon machines (also known as M1 or ARM) with older x64 SDKs installe
 
     ```bash
     chmod +x dotnet-uninstall-pkgs.sh 
-    sudo ./ dotnet-uninstall-pkgs.sh
+    sudo ./dotnet-uninstall-pkgs.sh
     sudo rm -r /etc/dotnet
     ```  
 
