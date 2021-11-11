@@ -106,9 +106,9 @@ Here's how.
 
 1. Follow the prompts to connect to the Git repository that has the files you're looking for.
 
-## Browse to and then clone an Azure DevOps repo
+## Browse to an Azure DevOps repo
 
-Here's how to browse to and then clone an Azure DevOps repo by using Visual Studio.
+Here's how to browse to and clone an Azure DevOps repo by using Visual Studio.
 
 1. Open Visual Studio.
 
@@ -221,11 +221,11 @@ Here's how to use Git in Visual Studio 2019 [**version 16.7**](/visualstudio/rel
 
     Start coding!
 
-## Browse to and then clone an Azure DevOps repo with Visual Studio 2019
+## Browse to an Azure DevOps repo with Visual Studio 2019
 
-What you see when you browse to an Azure DevOps repository by using Visual Studio 2019 depends on which version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes-history) or later, we've changed the UI to accommodate a new, more fully integrated [Git experience in Visual Studio](../ide/git-with-visual-studio.md) in Visual Studio.
+What you see when you browse to and clone an Azure DevOps repository by using Visual Studio 2019 depends on which version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes-history) or later, we've changed the UI to accommodate a new, more fully integrated [Git experience in Visual Studio](../ide/git-with-visual-studio.md) in Visual Studio.
 
-But no matter which version you have installed, you can always browse to and clone an Azure DevOps Server with Visual Studio.
+But no matter which version you have installed, you can always browse to and clone an Azure DevOps repo with Visual Studio.
 
 ### Visual Studio 2019 version 16.8 and later
 
