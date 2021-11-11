@@ -116,7 +116,7 @@ Reference link: [Build and release in Azure Pipelines and TFS](/azure/devops/pip
 
 ## Monitor with HockeyApp
 
-Reference link: **[Monitor with HockeyApp](https://www.hockeyapp.net/features/)**
+Reference link: **[Monitor with HockeyApp](https://marketplace.visualstudio.com/items?itemName=ms.hockeyapp)**
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
