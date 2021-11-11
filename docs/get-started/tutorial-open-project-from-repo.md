@@ -106,7 +106,7 @@ Here's how.
 
 1. Follow the prompts to connect to the Git repository that has the files you're looking for.
 
-## Browse to and then clone an Azure DevOps repository
+## Browse to and then clone an Azure DevOps repo
 
 Here's how to browse to and then clone an Azure DevOps repo by using Visual Studio.
 
