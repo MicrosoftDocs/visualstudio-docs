@@ -1,0 +1,329 @@
+{
+  "redirections": [
+    {
+      "source_path_from_root": "/mac/2017/ide-tour.md",
+      "redirect_url": "/visualstudio/mac/ide-tour?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/uninstall.md",
+      "redirect_url": "/visualstudio/mac/uninstall?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/accessibility-voiceover.md",
+      "redirect_url": "/visualstudio/mac/accessibility-macos?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/update.md",
+      "redirect_url": "/visualstudio/mac/update?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/signing-in.md",
+      "redirect_url": "/visualstudio/mac/signing-in?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/extending-visual-studio-mac.md",
+      "redirect_url": "/visualstudio/mac/extending-visual-studio-mac?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/install-behind-a-firewall-or-proxy-server.md",
+      "redirect_url": "/visualstudio/mac/install-behind-a-firewall-or-proxy-server?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/user-accounts.md",
+      "redirect_url": "/visualstudio/mac/user-accounts?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/create-offline-installer.md",
+      "redirect_url": "/visualstudio/mac/create-offline-installer?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/keyboard-shortcuts.md",
+      "redirect_url": "/visualstudio/mac/keyboard-shortcuts?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/enable-subscription.md",
+      "redirect_url": "/visualstudio/mac/enable-subscription?view=vsmac-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/activation.md",
+      "redirect_url": "/visualstudio/mac/enable-subscription",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/benefits-vsmac-over-xs.md",
+      "redirect_url": "/visualstudio/mac/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/using-vsmac-tools-unity.md",
+      "redirect_url": "/visualstudio/gamedev/unity/get-started/using-visual-studio-tools-for-unity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/unity-tools.md",
+      "redirect_url": "/visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/setup-vsmac-tools-unity.md",
+      "redirect_url": "/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/extending-visual-studio-mac.md",
+      "redirect_url": "/visualstudio/mac/customizing-the-ide",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/version-control.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/azure-workload.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/add-and-remove-project-items.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/azure-functions.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/azure-functions-lab.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/block-selection.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/build-actions.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/building-and-cleaning-projects-and-solutions.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/comments.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/compiling-and-building.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/configurations.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/connected-services.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/create-and-edit-configurations.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/create-new-projects.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/customizing-build-system.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/customizing-the-ide.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/data-visualizations.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/debugging.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/editor-behavior.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/editorconfig.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/editor-themes.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/install-preview.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/managing-app-resources.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/managing-references-in-a-project.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/managing-solutions-and-project-properties.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/open-multiple-solutions.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/publish-app-svc.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/publish-folder.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/razor.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/refactoring.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/report-a-problem.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/set-startup-projects.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/set-up-git-repository.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/set-up-subversion-repository.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/setup-vsmac-tools-unity.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/snippets.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/source-editor.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/task-comments.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/tf-version-control.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/troubleshooting.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/unity-tools.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/updater-troubleshooting.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/using-vsmac-tools-unity.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/visual-studio-experience-improvement-program.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/web-app-deployment.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/working-with-git.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/working-with-subversion.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/2017/xamarin.md",
+      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
+      "redirect_document_id": false
+    }
+  ]
+}

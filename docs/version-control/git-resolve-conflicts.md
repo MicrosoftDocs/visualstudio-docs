@@ -2,7 +2,7 @@
 title: Resolve merge conflicts in Visual Studio
 titleSuffix: ""
 description: Understanding, preventing and resolving merge conflicts in Visual Studio.
-ms.date: 11/08/2021
+ms.date: 11/10/2021
 ms.topic: how-to
 author: Taysser-Gherfal
 ms.author: tglee
@@ -45,13 +45,14 @@ Git is very good at automatically merging file changes in most circumstances, pr
 
 - Let’s choose to **Pull then Push** to include changes introduced to the remote repository. If there are any merge conflict(s) when pulling changes or attempting to merge two branches, Visual Studio lets us know in the Git Changes window, the Git repository window and on any documents with conflicts.
 
-    :::image type="content" source="media/vs-2022/git-conflicts-notification-ui.png" alt-text="Screenshot of merge conflict notification." lightbox="media/vs-2022/git-conflicts-notification-ui.png":::
+    :::image type="content" source="media/vs-2022/git-conflicts-notification-ui.png" alt-text="Screenshot of merge conflict notification.":::
 
 - The **Git Changes** window shows a list of documents with conflicts under Unmerged Changes. To start resolving conflicts, you can double-click on the document you would like to resolve or if you have a document with conflicts opened in the editor, you can select Open Merge Editor.
 
     :::image type="content" source="media/vs-2022/git-conflicts-status-ui.png" alt-text="Screenshot of merge conflict status in the Git Changes window." lightbox="media/vs-2022/git-conflicts-status-ui.png":::
 
-- After you get the **Merge Editor** open, you can start resolving your conflict by using any of the following methods:
+- After you get the **Merge Editor** open, you can start resolving your conflict by using any of the following methods (as depicted in the numbered screenshot).
+
     1. Go over your conflicts line by line and choose between keeping the right or the left side by checking the checkboxes.
     1. Keep or ignore all of your conflicting changes.
     1. Manually edit your code in the Result window.
@@ -60,6 +61,7 @@ Git is very good at automatically merging file changes in most circumstances, pr
 
     > [!TIP]
     > If you don’t like the Merge Editor default layout, feel free to change it by using the gear dropdown menu.
+    >
     > :::image type="content" source="media/vs-2022/git-conflicts-layout-options.png" alt-text="Screenshot of the Merge Editor layout options.":::
     >
     >For example, the following screenshot shows what the Vertical View looks like:
@@ -86,3 +88,4 @@ To continue your journey, use the following link to learn more about merge and m
 ## See also
 
 - [The Git experience in Visual Studio](../ide/git-with-visual-studio.md)
+- [Visual Studio & GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)

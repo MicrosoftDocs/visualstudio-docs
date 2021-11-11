@@ -134,7 +134,7 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
 
    Adding the `using` directive should let you remove the `CalculatorLibrary` namespace from the call site, but now there's an ambiguity. Is `Calculator` the class in `CalculatorLibrary`, or is `Calculator` the namespace?
    
-   To resolve the ambiguity, rename the namespace from `Calculator` to `CalculatorProgram` in both *Program.cs* and *CalculatorLibrary.cs*.
+   To resolve the ambiguity, rename the namespace from `Calculator` to `CalculatorProgram` in *Program.cs*.
 
    ```csharp
    namespace CalculatorProgram
