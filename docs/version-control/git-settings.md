@@ -4,11 +4,11 @@ titleSuffix: ""
 description: Learn how Visual Studio uses .gitconfig files and Git settings to manage your preferences
 ms.date: 06/08/2021
 ms.topic: conceptual
-ms.author: prnadago
-author: prnadago
+author: Taysser-Gherfal
+ms.author: tglee
+ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.manager: jmartens
 monikerRange: ">=vs-2019"
 ---
 # Git settings and preferences in Visual Studio
@@ -57,7 +57,7 @@ The name and email that you provide will be used as the committer information fo
 
 1. From the Git menu, go to **Settings**. To set your user name and email at the global level, go to **Git Global Settings**; to set your user name and email at the repository level, go to **Git Repository Settings**.
 
-2. Provide your user name and email, then choose **OK** to save. 
+2. Provide your user name and email, then choose **OK** to save.
 
    :::image type="content" source="media/user-email-setting.png" alt-text="Git Global settings pane in Options dialog box with a callout to username an email.":::
 
@@ -75,7 +75,7 @@ We recommend setting this option to **True** at the global level. Valid settings
 
 2. Set **Prune remote branches during fetch** to **True** (recommended). Select **Ok** to save.
 
-:::image type="content" source="media/prune-setting.png" alt-text="Screenshot that shows 'Prune remote branches during fetch' highlighted and with 'True' selected from the drop-down.":::    
+:::image type="content" source="media/prune-setting.png" alt-text="Screenshot that shows 'Prune remote branches during fetch' highlighted and with 'True' selected from the drop-down.":::
 
 ### Rebase local branch when pulling
 
@@ -218,8 +218,8 @@ This setting is applicable only when the [Open folder in Solution Explorer when 
 
 ### Automatically check out branches with double-click or the Enter key
 
-The Git Repository window has a list of branches displayed in a tree structure. Single selecting a branch will switch the commit history pane to display the commits for the selected branch. To check out a branch, you can right-click to open the context menu and select **Checkout**. If you turn on this setting, then double-clicking or pressing the Enter key will check out the branch and display its commits. 
-  
+The Git Repository window has a list of branches displayed in a tree structure. Single selecting a branch will switch the commit history pane to display the commits for the selected branch. To check out a branch, you can right-click to open the context menu and select **Checkout**. If you turn on this setting, then double-clicking or pressing the Enter key will check out the branch and display its commits.
+
 :::image type="content" source="media/checkout-branch-setting.png" alt-text="Screenshot showing the checkbox to check out branches with double-click or Enter key in the Options dialog box.":::
 
 
