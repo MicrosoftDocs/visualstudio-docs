@@ -142,12 +142,12 @@ One of Visual Studio's strengths is its powerful debugger. For Python in particu
 
 ::: moniker range=">=vs-2019"
 
-In Visual Studio 2019, you can run and debug code without having a Visual Studio project file. See [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md) for an example.
+In Visual Studio 2019, you can run and debug code without having a Visual Studio project file. See [Quickstart: Open and run Python code in a folder-2019](quickstart-05-python-visual-studio-open-folder.md) for an example.
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-In Visual Studio 2022, you can run and debug code without having a Visual Studio project file. See [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md) for an example.
+In Visual Studio 2022, you can run and debug code without having a Visual Studio project file. See [Quickstart: Open and run Python code in a folder-2022](quickstart-05-python-visual-studio-open-folder.md) for an example.
 ::: moniker-end
 
 For more information:
