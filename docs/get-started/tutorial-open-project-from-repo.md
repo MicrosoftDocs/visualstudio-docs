@@ -376,8 +376,18 @@ Feel free to dive into any of the following language-specific tutorials:
 
 ## See also
 
+::: moniker range="<=vs-2019"
+
 - [The Git experience in Visual Studio](../ide/git-with-visual-studio.md)
 - [Compare Git and Team Explorer side-by-side](../ide/git-team-explorer-feature-comparison.md)
 - [Microsoft Learn: Get started with Git and GitHub in Visual Studio](/learn/modules/visual-studio-github-push/)
 - [Microsoft Learn: Get started with Azure DevOps](/learn/modules/get-started-with-devops/)
 - [Azure DevOps Services: Get started with Azure Repos and Visual Studio](/azure/devops/repos/git/gitquickstart/)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+[Visual Studio version control documentation](../version-control/index.yml)
+
+::: moniker-end
