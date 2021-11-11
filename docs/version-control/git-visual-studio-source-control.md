@@ -4,8 +4,8 @@ titleSuffix: ''
 description: Learn how to use Git & GitHub in Visual Studio to track changes to your code and revert them if you need to.
 ms.date: 11/08/2021
 ms.topic: conceptual
+author: Taysser-Gherfal
 ms.author: tglee
-author: TerryGLee
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general

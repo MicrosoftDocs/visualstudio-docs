@@ -2,7 +2,7 @@
 title: Make a commit in Visual Studio
 titleSuffix: ""
 description: Make a commit in Visual Studio by using Git or Azure DevOps.
-ms.date: 11/08/2021
+ms.date: 11/10/2021
 ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
@@ -48,4 +48,5 @@ To continue your journey, visit the [Push to remote](git-push-remote.md) page.
 
 ## See also
 
-[Git experience in Visual Studio](git-with-visual-studio.md)
+- [Git experience in Visual Studio](git-with-visual-studio.md)
+- [Visual Studio & GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)
