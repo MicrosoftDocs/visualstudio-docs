@@ -43,7 +43,7 @@ To quickly test Python support after following the installation steps, open the 
 
 :::moniker-end
 
-:::moniker range=">=2017 <=2019"
+:::moniker range=">=vs-2017 <=vs-2019"
 
 ## Visual Studio 2017 and Visual Studio 2019
   
@@ -57,7 +57,7 @@ To quickly test Python support after following the installation steps, open the 
 
 :::moniker-end
 
-:::moniker range=">=vs2017"
+:::moniker range=">=vs-2017 >=vs-2022"
 
 1. The installer presents you with a list of workloads, which are groups of related options for specific development areas. For Python, select the **Python development** workload.
 
@@ -112,18 +112,19 @@ To quickly test Python support after following the installation steps, open the 
 | **Python native development tools** | Installs the C++ compiler and other necessary components to develop native extensions for Python. See [Create a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md). Also install the **Desktop development with C++** workload for full C++ support. |
 ::: moniker-end
 
-:::moniker range="vs-2019"
-
-1. After installation, the installer provides options to modify, launch, repair, or uninstall Visual Studio. The **Modify** button changes to **Update** when updates to Visual Studio are available for any installed components. (The **Modify** option is then available on the drop-down menu.) You can also launch Visual Studio and the installer from the Windows **Start** menu by searching on "Visual Studio".
-
-![Launching, modifying, modifying, or uninstalling Visual Studio from the installer-2019](media/installation-vs-launch.png)
-:::moniker-end
 :::moniker range=">=vs-2022"
 
 1. After installation, the installer provides options to modify, launch, repair, or uninstall Visual Studio. The **Modify** button changes to **Update** when updates to Visual Studio are available for any installed components. (The **Modify** option is then available on the drop-down menu.) You can also launch Visual Studio and the installer from the Windows **Start** menu by searching on "Visual Studio".
 
 ![Launching, modifying, modifying, or uninstalling Visual Studio from the installer-2022](media\installation-vs-launch-2022.png)
 :::moniker-end
+:::moniker range="vs-2019"
+
+1. After installation, the installer provides options to modify, launch, repair, or uninstall Visual Studio. The **Modify** button changes to **Update** when updates to Visual Studio are available for any installed components. (The **Modify** option is then available on the drop-down menu.) You can also launch Visual Studio and the installer from the Windows **Start** menu by searching on "Visual Studio".
+
+![Launching, modifying, modifying, or uninstalling Visual Studio from the installer-2019](media/installation-vs-launch.png)
+:::moniker-end
+
 
 ### Troubleshooting
 
@@ -135,7 +136,7 @@ If you encounter problems installing or running Python in Visual Studio, try the
 
 **Example error**: Failed to start interactive process: System.ComponentModel.Win32Exception (0x80004005): Unknown error (0xc0000135) at Microsoft.PythonTools.Repl.PythonInteractiveEvaluator.d__43.MoveNext().
 
-:::moniker range="<vs-2017"
+:::moniker range="<=vs-2015"
 
 ## Visual Studio 2015
 
@@ -172,10 +173,10 @@ For Visual Studio 2022, the Python workload installs in *%ProgramFiles%\Microsof
 ## Install locations
 
 By default, Python support gets installed for all users on a computer.
-For Visual Studio 2019 and Visual Studio 2017, the Python workload is installed in *%ProgramFiles(x86)%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python* where &lt;VS_version&gt; is 2019 or 2017 and &lt;VS_edition&gt; is Community, Professional, or Enterprise.
+For Visual Studio 2019 and Visual Studio 2017, the Python workload installs in *%ProgramFiles(x86)%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python* where &lt;VS_version&gt; is 2019 or 2017 and &lt;VS_edition&gt; is Community, Professional, or Enterprise.
 :::moniker-end
 
-:::moniker range="< vs-2017"
+:::moniker range="<=vs-2015"
 
 ## Install locations
 
