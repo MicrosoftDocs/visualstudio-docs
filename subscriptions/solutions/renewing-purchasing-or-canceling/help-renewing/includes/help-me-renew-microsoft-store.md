@@ -3,9 +3,9 @@ title: Help me renew my through the Microsoft store
 description: Help me renew my Visual Studio subscriptions purchased from the Microsoft store.
 ms.topic: include
 ms.assetid: 3b36270b-aa3b-4c05-b12e-4df8d6f823c1
-author: caitybuschlen
-ms.author: cabuschl
-ms.date: 08/14/2020
+author: rigel512
+ms.author: amast
+ms.date: 11/10/2021
 user.type: subscriber
 tags: renewing
 subscription.type: retail
@@ -14,7 +14,7 @@ sap.id: b324c31f-5d44-4cc2-537a-9c354bc5fbfc
 
 ## Renewing subscriptions through Microsoft Store 
 
-Your subscription should be renewed before the expiration date to ensure access to the included developer tools and software. Renewal pricing is available only for existing Visual Studio Subscriptions customers who have purchased from the Microsoft store in the past, and are within five months of their expiration date. You do not qualify for renewal pricing if your subscription has been expired for longer than five months. 
+Your subscription should be renewed before the expiration date to ensure access to the included developer tools and software. Renewal pricing is available only for existing Visual Studio Subscriptions customers who have purchased from the Microsoft Store in the past, and are within five months of their expiration date. You do not qualify for renewal pricing if your subscription has been expired for longer than five months. 
 
 If your subscription is not expired, you will find your expiration date by viewing your subscriptions in the [subscriptions portal](https://my.visualstudio.com/subscriptions). 
 
