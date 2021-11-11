@@ -30,28 +30,36 @@ To get started:
 - Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json).
 ::: moniker-end
 ::: moniker range="<=vs-2017"
+
 > [!Note]
 > Visual Studio supports Python version 2.7, as well as version 3.5 through 3.7. While it is possible to use Visual Studio to edit code written in other versions of Python, those versions are not officially supported and features such as IntelliSense and debugging might not work. Python version 3.8 support is still under development, specific details about support can be seen in this tracking [issue on GitHub](https://github.com/microsoft/PTVS/issues/5822).
 ::: moniker-end
+
 ::: moniker range=">=vs-2019"
+
 - Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md) or [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json).
 ::: moniker-end
 :::moniker range=">=vs-2022"
+
 - Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md) or [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json).   
 :::moniker-end
+
 - Follow the [Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) tutorial for a full end-to-end experience.
 
 ## Support for multiple interpreters
 
-Visual Studio's **Python Environments** window (shown below in a wide, expanded view) gives you a single place to manage all of your global Python environments, conda environments, and virtual environments. Visual Studio automatically detects installations of Python in standard locations, and allows you to configure custom installations. With each environment, you can easily manage packages, open an interactive window for that environment, and access environment folders.
-
 ::: moniker range="vs-2017"
+Visual Studio's **Python Environments** window (shown below in a wide, expanded view) gives you a single place to manage all of your global Python environments, conda environments, and virtual environments. Visual Studio automatically detects installations of Python in standard locations, and allows you to configure custom installations. With each environment, you can easily manage packages, open an interactive window for that environment, and access environment folders.
 ![Expanded view of the Python Environments window](media/environments/environments-expanded-view.png)
 ::: moniker-end
+
 ::: moniker range="vs-2019"
+Visual Studio's **Python Environments** window (shown below in a wide, expanded view) gives you a single place to manage all of your global Python environments, conda environments, and virtual environments. Visual Studio automatically detects installations of Python in standard locations, and allows you to configure custom installations. With each environment, you can easily manage packages, open an interactive window for that environment, and access environment folders.
 ![Expanded view of the Python Environments window-2019](media/environments/environments-expanded-view-2019.png)
 ::: moniker-end
+
 ::: moniker range=">=vs-2022"
+Visual Studio's **Python Environments** window (shown below in a wide, expanded view) gives you a single place to manage all of your global Python environments, conda environments, and virtual environments. Visual Studio automatically detects installations of Python in standard locations, and allows you to configure custom installations. With each environment, you can easily manage packages, open an interactive window for that environment, and access environment folders.
 ![Expanded view of the Python Environments window-2022](media\environments\environments-expanded-view-2022.png)
 ::: moniker-end
 
@@ -78,12 +86,13 @@ For more information:
 
 ## Interactive window
 
-For every Python environment known to Visual Studio, you can easily open the same interactive (REPL) environment for a Python interpreter directly within Visual Studio, rather than using a separate command prompt. You can easily switch between environments as well. (To open a separate command prompt, select your desired environment in the **Python Environments** window, then select the **Open in PowerShell** command as explained earlier under [Support for multiple interpreters](#support-for-multiple-interpreters).)
-
 :::moniker range=">=vs-2019"
+For every Python environment known to Visual Studio, you can easily open the same interactive (REPL) environment for a Python interpreter directly within Visual Studio, rather than using a separate command prompt. You can easily switch between environments as well. (To open a separate command prompt, select your desired environment in the **Python Environments** window, then select the **Open in PowerShell** command as explained earlier under [Support for multiple interpreters](#support-for-multiple-interpreters).)
 ![Python interactive window in Visual Studio-2019](media/interactive-window.png)
 :::moniker-end
+
 :::moniker range=">=vs-2022"
+For every Python environment known to Visual Studio, you can easily open the same interactive (REPL) environment for a Python interpreter directly within Visual Studio, rather than using a separate command prompt. You can easily switch between environments as well. (To open a separate command prompt, select your desired environment in the **Python Environments** window, then select the **Open in PowerShell** command as explained earlier under [Support for multiple interpreters](#support-for-multiple-interpreters).)
 ![Python interactive window in Visual Studio-2022](media/interactive-window-2022.png)
 :::moniker-end
 
@@ -102,6 +111,7 @@ For more information:
 > [!Note]
 > Visual Studio 2019 supports opening a folder containing Python code and running that code without creating Visual Studio project and solution files. For more information, see [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md). There are, however, benefits to using a project file, as explained in this section.
 ::: moniker-end
+
 ::: moniker range=">=vs-2022"
 > [!Note]
 > Visual Studio 2022 supports opening a folder containing Python code and running that code without creating Visual Studio project and solution files. For more information, see [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md). There are, however, benefits to using a project file, as explained in this section.
@@ -131,11 +141,15 @@ One of Visual Studio's strengths is its powerful debugger. For Python in particu
 ![Visual Studio debugger for Python showing an exception popup](media/debugging-exception-popup.png)
 
 ::: moniker range=">=vs-2019"
+
 In Visual Studio 2019, you can run and debug code without having a Visual Studio project file. See [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md) for an example.
 ::: moniker-end
+
 ::: moniker range=">=vs-2022"
+
 In Visual Studio 2022, you can run and debug code without having a Visual Studio project file. See [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md) for an example.
 ::: moniker-end
+
 For more information:
 
 - Docs: [Debug Python](debugging-python-in-visual-studio.md)
