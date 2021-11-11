@@ -175,7 +175,9 @@
   - name: Access new agreements
     href: agreement-renewals.md    
   - name: Move subscriptions to new agreements
-    href: migrate-subscriptions.md        
+    href: migrate-subscriptions.md    
+  - name: What happens when agreements renew
+    href: agreement-renewals.md    
   - name: Edit subscriptions
     href: edit-license.md
   - name: Delete subscriptions
