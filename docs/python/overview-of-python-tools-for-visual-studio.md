@@ -29,18 +29,17 @@ To get started:
 ::: moniker range="vs-2017"
 - Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json).
 ::: moniker-end
-::: moniker range=">=vs-2019"
-- Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md) or [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json).
-::: moniker-end
-:::moniker range=">=vs-2022"
- - Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md) or [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json).   {content}
-:::moniker-end
-- Follow the [Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) tutorial for a full end-to-end experience.
-
 ::: moniker range="<=vs-2017"
 > [!Note]
 > Visual Studio supports Python version 2.7, as well as version 3.5 through 3.7. While it is possible to use Visual Studio to edit code written in other versions of Python, those versions are not officially supported and features such as IntelliSense and debugging might not work. Python version 3.8 support is still under development, specific details about support can be seen in this tracking [issue on GitHub](https://github.com/microsoft/PTVS/issues/5822).
 ::: moniker-end
+::: moniker range=">=vs-2019"
+- Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md) or [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json).
+::: moniker-end
+:::moniker range=">=vs-2022"
+- Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md) or [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json).   
+:::moniker-end
+- Follow the [Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) tutorial for a full end-to-end experience.
 
 ## Support for multiple interpreters
 
@@ -55,6 +54,7 @@ Visual Studio's **Python Environments** window (shown below in a wide, expanded 
 ::: moniker range=">=vs-2022"
 ![Expanded view of the Python Environments window-2022](media/environments/environments-expanded-view-2022.png)
 ::: moniker-end
+
 Use the **Open interactive window** command to run Python interactively within the context of Visual Studio. Use the **Open in PowerShell** command to open a separate command window in the folder of the selected environment. From that command window you can run any python script.
 
 For more information:
@@ -64,7 +64,7 @@ For more information:
 
 ## Rich editing, IntelliSense, and code comprehension
 
-Visual Studio provides a first-class Python editor, including syntax coloring, auto-complete across all your code and libraries, code formatting, signature help, refactoring, linting, and type hints. Visual Studio also provides unique features like class view, **Go to Definition**, **Find All References**, and code snippets. Direct integration with the [Interactive window](#interactive-window) helps you quickly develop Python code that's already saved in a file.
+Visual Studio provides a first-class Python editor, including syntax coloring, autocomplete across all your code and libraries, code formatting, signature help, refactoring, linting, and type hints. Visual Studio also provides unique features like class view, **Go to Definition**, **Find All References**, and code snippets. Direct integration with the [Interactive window](#interactive-window) helps you quickly develop Python code that's already saved in a file.
 
 ![Code completions for Python code in Visual Studio](media/code-editing-completions-simple.png)
 
@@ -79,6 +79,7 @@ For more information:
 ## Interactive window
 
 For every Python environment known to Visual Studio, you can easily open the same interactive (REPL) environment for a Python interpreter directly within Visual Studio, rather than using a separate command prompt. You can easily switch between environments as well. (To open a separate command prompt, select your desired environment in the **Python Environments** window, then select the **Open in PowerShell** command as explained earlier under [Support for multiple interpreters](#support-for-multiple-interpreters).)
+
 :::moniker range=">=vs-2019"
 ![Python interactive window in Visual Studio-2019](media/interactive-window.png)
 :::moniker-end
