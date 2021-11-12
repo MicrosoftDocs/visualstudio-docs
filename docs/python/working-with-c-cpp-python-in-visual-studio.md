@@ -15,7 +15,7 @@ ms.workload:
 
 # Create a C++ extension for Python
 
-Modules that are written in C++ (or C) are commonly used to extend the capabilities of a Python interpreter. They're also used to enable access to low-level operating system capabilities. 
+Modules that are written in C++ (or C) are commonly used to extend the capabilities of a Python interpreter. They're also used to enable access to low-level operating system capabilities.
 
 Modules come in three primary types:
 
@@ -90,7 +90,7 @@ For more information about the installation options, see [Install Python support
 
 1. To view the results, run the program by selecting **Debug** > **Start without Debugging** or by selecting Ctrl+F5. 
 
-   You can adjust the `COUNT` variable to change how long the benchmark takes to run. For the purpose of this walkthrough, set the count so that the benchmark takes about two seconds.
+   You can adjust the `COUNT` variable to change how long the benchmark takes to run. For this walk-through, set the count so that the benchmark takes about two seconds.
 
    > [!TIP]
    > When you run benchmarks, always use **Debug** > **Start without Debugging**. This helps avoid the overhead that you incur when you run the code within the Visual Studio debugger.
@@ -115,7 +115,7 @@ Follow the instructions in this section to create two identical C++ projects, *s
     > [!Important]
     > A file with the *.cpp* extension is necessary to turn on the C++ property pages in the steps that follow.
 
-1. On the main toolbar, use the dropdown menu to do either of the following:
+1. On the main toolbar, use the dropdown menu to select either of the following configurations:
 
    * For a 64-bit Python runtime, activate the **x64** configuration. 
    * For a 32-bit Python runtime, activate the **Win32** configuration.
@@ -263,21 +263,21 @@ For more background on the code shown in this section, see the [Python/C API Ref
     }
     ```
 
-1. Build the C++ project again to verify your code. If you encounter errors, see the ["Troubleshooting"](#troubleshoot-compiling-failures) section.
+1. Build the C++ project again to verify your code. If you come across errors, see the ["Troubleshooting"](#troubleshoot-compiling-failures) section.
 
 ### Use PyBind11
 
-If you completed the steps in the previous section, you certainly noticed that you used lots of boilerplate code to create the necessary module structures for the C++ code. PyBind11 simplifies the process through macros in a C++ header file that accomplish the same result, but with much less code. 
+If you have completed the steps in the previous section, you certainly noticed that you used lots of boilerplate codes to create the necessary module structures for the C++ code. PyBind11 simplifies the process through macros in a C++ header file that accomplishes the same result, but with much less code. 
 
 For more information about the code in this section, see [PyBind11 basics](https://github.com/pybind/pybind11/blob/master/docs/basics.rst).
 
 1. Install PyBind11 by using pip: `pip install pybind11` or `py -m pip install pybind11`. 
 
-   Alternatively, you can install PyBind11 by using the Python Environments window, and then use its **Open in PowerShell** command for the next step.
+   Alternatively, you can install PyBind11 by using the Python Environments window, and then use it's **Open in PowerShell** command for the next step.
 
 1. In the same terminal, run `python -m pybind11 --includes` or `py -m pybind11 --includes`. 
 
-   This prints a list of paths that you should add to your project's **C/C++** > **General** > **Additional Include Directories** property. Be sure to remove the `-I` prefix, if it's present.
+   This action prints a list of paths that you should add to your project's **C/C++** > **General** > **Additional Include Directories** property. Be sure to remove the `-I` prefix, if it's present.
 
 1. At the top of a fresh *module.cpp* that doesn't include any of the changes from the previous section, include *pybind11.h*:
 
@@ -311,11 +311,11 @@ The C++ module might fail to compile for the following reasons:
 
 - Error: Unable to locate *Python.h* (**E1696: cannot open source file "Python.h"** and/or **C1083: Cannot open include file: "Python.h": No such file or directory**) 
 
-  Solution: Verify that the path in **C/C++** > **General** > **Additional Include Directories** in the project properties points to your Python installation's *include* folder. See step 6 under [Create the core C++ project](#create-the-core-c-projects).
+  Solution: Verify that the path **C/C++** > **General** > **Additional Include Directories** in the project properties points to your Python installation's *include* folder. See step 6 under [Create the core C++ project](#create-the-core-c-projects).
 
 - Error: Unable to locate Python libraries 
  
-   Solution: Verify that the path in **Linker** > **General** > **Additional Library Directories** in the project properties points to your Python installation's *libs* folder. See step 6 under [Create the core C++ project](#create-the-core-c-projects).
+   Solution: Verify that the path: **Linker** > **General** > **Additional Library Directories** in the project properties points to your Python installation's *libs* folder. See step 6 under [Create the core C++ project](#create-the-core-c-projects).
 
 - Linker errors related to target architecture
    
@@ -425,7 +425,7 @@ After you've made the DLL available to Python, as described in the preceding sec
     > [!NOTE]
     > If the **Start Without Debugging** command is disabled, in **Solution Explorer**, right-click the Python project, and then select **Set as Startup Project**.  
 
-    Observe that the C++ routines run approximately five to twenty times faster than the Python implementation. Typical output appears as follows:
+    Observe that the C++ routines run approximately five to 20 times faster than the Python implementation. Typical output appears as follows:
 
     ```output
     Running benchmarks with COUNT = 500000
@@ -440,7 +440,7 @@ After you've made the DLL available to Python, as described in the preceding sec
 
     A *debug* build of the C++ module also runs slower than a *release* build, because the debug build is less optimized and contains various error checks. Feel free to switch between those configurations for comparison, but remember to go back and update the properties that you set earlier for the release configuration.
 
-In the output, you might see that the PyBind11 extension isn't as fast as the CPython extension, though it should be significantly faster than the pure Python implementation. This difference is largely because you used the `METH_O` call, which doesn't support multiple parameters, parameter names, or keywords arguments. PyBind11 generates slightly more complex code to provide a more Python-like interface to callers. But, because the test code calls the function 500,000 times, the results might greatly amplify that overhead!
+In the output, you might see that the PyBind11 extension isn't as fast as the CPython extension, though it should be faster than the pure Python implementation. This difference is largely because you used the `METH_O` call, which doesn't support multiple parameters, parameter names, or keywords arguments. PyBind11 generates slightly more complex code to provide a more Python-like interface to callers. But, because the test code calls the function 500,000 times, the results might greatly amplify that overhead!
 
 You could reduce the overhead further by moving the `for` loop into the native code. This approach would involve using the [iterator protocol](https://docs.python.org/c-api/iter.html) (or the PyBind11 `py::iterable` type for [the function parameter](https://pybind11.readthedocs.io/en/stable/advanced/functions.html#python-objects-as-args)) to process each element. Removing the repeated transitions between Python and C++ is an effective way to reduce the time it takes to process the sequence.
 
@@ -485,7 +485,7 @@ Visual Studio supports debugging Python and C++ code together. In this section, 
 
 ## Alternative approaches
 
-You can create Python extensions in a variety of ways, as described in the following table. The first two rows, `CPython` and `PyBind11`, are discussed in this article.
+You can create Python extensions in various ways, as described in the following table. The first two rows, `CPython` and `PyBind11`, are discussed in this article.
 
 | Approach | Vintage | Representative users | 
 | --- | --- | --- |
