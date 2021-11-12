@@ -1,7 +1,7 @@
 ---
 title: Resolve merge conflicts in Visual Studio
 titleSuffix: ""
-description: Understanding, preventing and resolving merge conflicts in Visual Studio.
+description: Understanding, preventing, and resolving merge conflicts in Visual Studio.
 ms.date: 11/10/2021
 ms.topic: how-to
 author: Taysser-Gherfal
@@ -16,15 +16,15 @@ When you merge one branch into another, file changes from commits in one branch 
 
 ## Understand merge conflicts
 
-The following image shows a very basic example of how changes conflict in Git. Both the main and bugfix branch make updates to the same lines of source code.
+The following image shows a basic example of how changes conflict in Git. In this example, the main branch and the bugfix branch make updates to the same lines of source code.
 
 :::image type="content" source="media/vs-2022/git-conflicts-understand-1.png" alt-text="Diagram that shows a merge conflict.":::
 
-If you try to merge the bugfix branch into main, Git can't determine which changes to use in the merged version. You may want to keep the changes in the main branch, the bugfix branch, or some combination of the two. Resolve this conflict with a merge commit on the main branch that reconciles the conflicting changes between the two branches.
+If you try to merge the bugfix branch into main, Git can't determine which changes to use in the merged version. You might want to keep the changes in the main branch, the bugfix branch, or some combination of the two. Resolve this conflict with a merge commit on the main branch that reconciles the conflicting changes between the two branches.
 
 :::image type="content" source="media/vs-2022/git-conflicts-understand-2.png" alt-text="Diagram that shows how a merge commit resolves a merge conflict.":::
 
-The most common merge conflict situation is when you pull updates from a remote branch to your local branch, for example from origin/bugfix into your local bugfix branch. Resolve these conflicts in the same way - create a merge commit on your local branch reconciling the changes and complete the merge.
+The most common time to discover a merge conflict is when you pull updates from a remote branch to your local branch--for example, from origin/bugfix into your local bugfix branch. Resolve these conflicts in the same way: create a merge commit on your local branch to reconcile the changes, and then complete the merge.
 
 ## Prevent merge conflicts
 
@@ -83,7 +83,7 @@ Git is very good at automatically merging file changes in most circumstances, pr
 
 ## Next steps
 
-To continue your journey, use the following link to learn more about merge and merge conflicts [Git merge and resolving conflicts](https://git-scm.com/docs/git-merge).
+To continue your journey, see the information about [Git merge and resolving conflicts](https://git-scm.com/docs/git-merge) on the Git website.
 
 ## See also
 
