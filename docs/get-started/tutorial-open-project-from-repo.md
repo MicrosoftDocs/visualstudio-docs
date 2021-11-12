@@ -2,7 +2,7 @@
 title: "Tutorial: Open a project from a repo in Visual Studio"
 description: "Learn how to open a project in a Git or Azure DevOps repository with Visual Studio."
 ms.custom: "vs-acquisition, get-started"
-ms.date: 11/05/2021
+ms.date: 11/11/2021
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -106,9 +106,9 @@ Here's how.
 
 1. Follow the prompts to connect to the Git repository that has the files you're looking for.
 
-## Browse to an Azure DevOps Server
+## Browse to an Azure DevOps repo
 
-Here's how to browse to an Azure DevOps Server by using Visual Studio.
+Here's how to browse to and clone an Azure DevOps repo by using Visual Studio.
 
 1. Open Visual Studio.
 
@@ -120,7 +120,7 @@ Here's how to browse to an Azure DevOps Server by using Visual Studio.
 
     :::image type="content" source="../ide/media/vs-2022/browse-repository-azure-devops.png" alt-text="Screenshot of the 'Browse a repository' section of the 'Clone a repository' dialog box in Visual Studio, Azure DevOps highlighted.":::
 
-1. Follow the prompts to connect to an Azure DevOps Server that hosts the files you're looking for.
+1. Follow the prompts to clone an Azure DevOps repo that includes the files you're looking for, and then open your project.
 
 ::: moniker-end
 
@@ -132,7 +132,7 @@ How you open a project from a GitHub repo by using Visual Studio depends on whic
 
 But no matter which version you've installed, you can always open a project from a GitHub repo with Visual Studio.
 
-### 16.8 and later
+### Visual Studio 2019 version 16.8 and later
 
 Here's how to use Git in Visual Studio 2019 [**version 16.8**](/visualstudio/releases/2019/release-notes-history) or later.
 
@@ -195,7 +195,7 @@ Here's how to use Git in Visual Studio 2019 [**version 16.8**](/visualstudio/rel
 
     Start coding!
 
-### 16.7 and earlier
+### Visual Studio 2019 version 16.7 and earlier
 
 Here's how to use Git in Visual Studio 2019 [**version 16.7**](/visualstudio/releases/2019/release-notes-history) or earlier.
 
@@ -221,13 +221,13 @@ Here's how to use Git in Visual Studio 2019 [**version 16.7**](/visualstudio/rel
 
     Start coding!
 
-## Connect to an Azure DevOps Server with Visual Studio 2019
+## Browse to an Azure DevOps repo with Visual Studio 2019
 
-What you see when you connect to an Azure DevOps Server by using Visual Studio 2019 depends on which version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes-history) or later, we've changed the UI to accommodate a new, more fully integrated [Git experience in Visual Studio](../ide/git-with-visual-studio.md) in Visual Studio.
+What you see when you browse to and clone an Azure DevOps repository by using Visual Studio 2019 depends on which version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes-history) or later, we've changed the UI to accommodate a new, more fully integrated [Git experience in Visual Studio](../ide/git-with-visual-studio.md) in Visual Studio.
 
-But no matter which version you have installed, you can always connect to an Azure DevOps Server with Visual Studio.
+But no matter which version you have installed, you can always browse to and clone an Azure DevOps repo with Visual Studio.
 
-### 16.8 and later
+### Visual Studio 2019 version 16.8 and later
 
 1. Open Visual Studio 2019 [**version 16.8**](/visualstudio/releases/2019/release-notes-history) or later.
 
@@ -254,7 +254,7 @@ But no matter which version you have installed, you can always connect to an Azu
 
       ![Screenshot of the 'Team Explorer' dialog box that's generated from Visual Studio 2019 version 16.8 and later.](../ide/media/vs-2019/team-explorer-azure-devops.png)
 
-#### 16.7 and earlier
+#### Visual Studio 2019 version 16.7 and earlier
 
 1. Open Visual Studio 2019 [**version 16.7**](/visualstudio/releases/2019/release-notes-history) or earlier.
 
@@ -376,8 +376,18 @@ Feel free to dive into any of the following language-specific tutorials:
 
 ## See also
 
+::: moniker range="<=vs-2019"
+
 - [The Git experience in Visual Studio](../ide/git-with-visual-studio.md)
 - [Compare Git and Team Explorer side-by-side](../ide/git-team-explorer-feature-comparison.md)
 - [Microsoft Learn: Get started with Git and GitHub in Visual Studio](/learn/modules/visual-studio-github-push/)
 - [Microsoft Learn: Get started with Azure DevOps](/learn/modules/get-started-with-devops/)
 - [Azure DevOps Services: Get started with Azure Repos and Visual Studio](/azure/devops/repos/git/gitquickstart/)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+[Visual Studio version control documentation](../version-control/index.yml)
+
+::: moniker-end

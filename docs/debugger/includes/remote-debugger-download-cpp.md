@@ -1,6 +1,6 @@
 ---
- title: Remote debugger download
- description: Download links for the remote debugger
+ title: Remote debugger download (C++)
+ description: Download links for the remote debugger for C++
  services: ""
  author: mikejo5000
  ms.service: ""
@@ -14,6 +14,7 @@ On the remote device or server that you want to debug on, rather than the Visual
 
 - Download the most recent remote tools for your version of Visual Studio. The latest remote tools version is compatible with earlier Visual Studio versions, but earlier remote tools versions aren't compatible with later Visual Studio versions. (For example, if you are using Visual Studio 2017, download the latest update of the remote tools for Visual Studio 2017. In this scenario, do not download the remote tools for Visual Studio 2019.)
 - Download the remote tools with the same architecture as the machine you're installing them on. For example, if you want to debug a 32-bit app on a remote computer running a 64-bit operating system, install the 64-bit remote tools.
+- If you are remote debugging an ARM64EC application on an ARM64 device, install the ARM64 remote tools, and then launch the x64 remote debugger that gets installed with those tools. This can be found under: *Program Files (x86)\Microsoft Visual Studio\<version>\Common7\IDE\Remote Debugger\x64*.
 
 ::: moniker range=">=vs-2022"
 
