@@ -9,7 +9,7 @@ ms.assetid: 346f70b9-7b52-4688-a8e8-8f53869618d3
 ms.devlang: dotnet
 ms.topic: troubleshooting
 ms.workload: multiple
-ms.date: 10/08/2021
+ms.date: 11/12/2021
 ms.author: ghogen
 ---
 # Troubleshoot Visual Studio development with Docker
