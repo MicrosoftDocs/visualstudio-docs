@@ -76,7 +76,7 @@ To get the latest bootstrappers for Visual Studio 2022 that will always install 
 | Visual Studio 2022 Community    | [vs_community.exe](https://aka.ms/vs/17/release/vs_community.exe)       |
 | Visual Studio 2022 Professional | [vs_professional.exe](https://aka.ms/vs/17/release/vs_professional.exe) |
 | Visual Studio 2022 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/17/release/vs_enterprise.exe)     |
-| Visual Studio 2022 Build Tools   | [vs_buildtools.exe](https://aka.ms/vs/17/pre/vs_buildtools.exe)         |
+| Visual Studio 2022 Build Tools   | [vs_buildtools.exe](https://aka.ms/vs/17/release/vs_buildtools.exe)         |
 
 ::: moniker-end
 
