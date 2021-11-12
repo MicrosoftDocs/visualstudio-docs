@@ -90,7 +90,7 @@ For more information about the installation options, see [Install Python support
 
 1. To view the results, run the program by selecting **Debug** > **Start without Debugging** or by selecting Ctrl+F5. 
 
-   You can adjust the `COUNT` variable to change how long the benchmark takes to run. For this walk-through, set the count so that the benchmark takes about two seconds.
+   You can adjust the `COUNT` variable to change how long the benchmark takes to run. For this walkthrough, set the count so that the benchmark takes about two seconds.
 
    > [!TIP]
    > When you run benchmarks, always use **Debug** > **Start without Debugging**. This helps avoid the overhead that you incur when you run the code within the Visual Studio debugger.
@@ -99,7 +99,7 @@ For more information about the installation options, see [Install Python support
 
 Follow the instructions in this section to create two identical C++ projects, *superfastcode* and *superfastcode2*. Later, you'll use a separate approach in each project to expose the C++ code to Python.
 
-1. In **Solution Explorer**, right-click the solution,  and then select **Add** > **New Project**. A Visual Studio solution can contain both Python and C++ projects, which is one of the advantages of using Visual Studio for Python.
+1. In **Solution Explorer**, right-click the solution,  and then select **Add** > **New Project**. A Visual Studio solution can contain both Python and C++ projects, which are one of the advantages of using Visual Studio for Python.
 
 1. Search on **C++**, select **Empty project**, specify either **superfastcode** for the first project or **superfastcode2** for the second project, and then select **OK**.
 
