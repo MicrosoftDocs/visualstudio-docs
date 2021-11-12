@@ -1,61 +1,6 @@
 {
   "redirections": [
     {
-      "source_path": "mac/2017/ide-tour.md",
-      "redirect_url": "/visualstudio/mac/ide-tour?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/2017/uninstall.md",
-      "redirect_url": "/visualstudio/mac/uninstall?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/accessibility-voiceover.md",
-      "redirect_url": "/visualstudio/mac/accessibility-macos?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/2017/update.md",
-      "redirect_url": "/visualstudio/mac/update?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/2017/signing-in.md",
-      "redirect_url": "/visualstudio/mac/signing-in?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/2017/extending-visual-studio-mac.md",
-      "redirect_url": "/visualstudio/mac/extending-visual-studio-mac?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/2017/install-behind-a-firewall-or-proxy-server.md",
-      "redirect_url": "/visualstudio/mac/install-behind-a-firewall-or-proxy-server?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/2017/user-accounts.md",
-      "redirect_url": "/visualstudio/mac/user-accounts?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/2017/create-offline-installer.md",
-      "redirect_url": "/visualstudio/mac/create-offline-installer?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/2017/keyboard-shortcuts.md",
-      "redirect_url": "/visualstudio/mac/keyboard-shortcuts?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/2017/enable-subscription.md",
-      "redirect_url": "/visualstudio/mac/enable-subscription?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/python/python-azure-cloud-service-project-template.md",
       "redirect_url": "/visualstudio/python/managing-python-projects-in-visual-studio",
       "redirect_document_id": false
@@ -48191,16 +48136,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "mac/activation.md",
-      "redirect_url": "/visualstudio/mac/enable-subscription",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/benefits-vsmac-over-xs.md",
-      "redirect_url": "/visualstudio/mac/",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "scripting-docs/chakra-hosting/hosting-the-javascript-runtime.md",
       "redirect_url": "/microsoft-edge/hosting/chakra-hosting/hosting-the-javascript-runtime",
       "redirect_document_id": false
@@ -57846,21 +57781,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "mac/using-vsmac-tools-unity.md",
-      "redirect_url": "/visualstudio/gamedev/unity/get-started/using-visual-studio-tools-for-unity",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/unity-tools.md",
-      "redirect_url": "/visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/setup-vsmac-tools-unity.md",
-      "redirect_url": "/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/containers/local-process-kubernetes.md",
       "redirect_url": "/visualstudio/containers/bridge-to-kubernetes"
     },
@@ -57897,11 +57817,6 @@
     {
       "source_path": "docs/ide/editorconfig-naming-conventions.md",
       "redirect_url": "/dotnet/fundamentals/code-analysis/style-rules/naming-rules",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/extending-visual-studio-mac.md",
-      "redirect_url": "/visualstudio/mac/customizing-the-ide",
       "redirect_document_id": false
     },
     {

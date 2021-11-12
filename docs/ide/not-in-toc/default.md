@@ -135,22 +135,13 @@ Here's a list of forum resources:
 - [Stack Overflow](https://stackoverflow.com/search?q=%22visual+studio%22)
 - [Reddit](https://www.reddit.com/r/VisualStudio)
 
-## Product support
+##  Feedback and additional support
 
-If you still have questions after you try the other resources, you can contact Microsoft support services by visiting the [Microsoft Support](https://support.microsoft.com/en-us) website. For information about product support available in your area, see the [Developer Community](https://developercommunity.visualstudio.com/home) page.
-
+If you still have questions after you try the other resources, 
+- Contact Microsoft support services by visiting the [Microsoft Support](https://support.microsoft.com/en-us) website. 
+- For product support available in your area, see the [Developer Community](https://developercommunity.visualstudio.com/home) page.
 
 **Didn't mean to click?** [Remap or disable the `F1` help key](../not-in-toc/change-f1-help-key.md)
-
-
-## Help us serve you better
-
-We'd love to get your feedback on how to provide the help you need.
-
-> [!div class="nextstepaction"]
-> [Share your feedback (5 minute survey)](https://www.surveymonkey.com/r/F1_Help_Visual_Studio)
-
-:::image type="content" source="../media/search-error-page-sm.png" alt-text="Sorry we couldn't find a match" border="false":::
 
 ## See also
 
