@@ -6,6 +6,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jmartens
 ms.date: 11/09/2021
+ms.custom: vs-acquisition
 ms.topic: reference
 ms.workload:
 - multiple
