@@ -3,7 +3,6 @@ title: Using Visual Studio on an Azure Virtual Machine
 titleSuffix: ''
 description: Learn how to use Visual Studio on an Azure Virtual Machine
 ms.date: 11/17/2020
-
 ms.topic: conceptual
 helpviewer_keywords:
 - azure services

@@ -3,7 +3,6 @@ title: Enabling administrator updates to Visual Studio with Microsoft Endpoint C
 titleSuffix: ''
 description: Learn more about how to deploy administrator updates to Visual Studio.
 ms.date: 04/06/2021
-ms.custom: 
 ms.topic: overview
 ms.assetid: 546fbad6-f12b-49cf-bccc-f2e63e051a18
 author: anandmeg
