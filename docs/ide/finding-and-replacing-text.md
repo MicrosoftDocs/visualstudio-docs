@@ -110,10 +110,18 @@ In Visual Studio 2022, we improved the multi-caret copy and paste experience. Pr
 
 To use multi-caret, press **Alt**+**Shift**+**mouse click** or **Alt**+**Shift**+**.** and then use **Ctrl**+**Shift**+**arrow key** to expand selections. Next, press **Ctrl**+**C** to copy the text in multiple selections. Use **Alt**+**Shift**+**mouse click** to create multiple carets for each line to paste in where you want them. Finally, press **Ctrl**+**V** to paste each line at its own caret.
 
+:::image type="content" source="media/vs-2022/multi-caret-copy-paste.gif" alt-text="An animation of the multi-caret selection action in Visual Studio.":::
+
+:::image-end:::
+
 Additionally, you can use **Alt**+**Shift**+**up arrow key** (or **down arrow key**) or **Alt**+**Shift**+**mouse drag** to select with multiple carets. Previously, these gestures created a box selection. Now, a box selection transforms into multiple carets. This method is easier and faster than having to click in precise locations to insert individual carets.
 
 > [!TIP]
 > If you prefer to keep using a box selection with **Alt**+**Shift**+**arrow keys** and **Alt**+**Shift**+**mouse drag** when you expand a multi-caret selection, go to **Tools** > **Options** > **Text Editor** > **Advanced** and select **Use box selection**.
+
+You can also access multi-caret selection from the menu bar by selecting **Edit** > **Multiple Carets** and then selecting the action you want.
+
+:::image type="content" source="media/vs-2022/edit-menu-multiple-carets-find-replace.png" alt-text="Screenshot of the Multiple Carets fly-out menu in Visual Studio 2022.":::
 
 ::: moniker-end
 
