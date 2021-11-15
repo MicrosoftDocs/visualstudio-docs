@@ -2,7 +2,7 @@
 title: Find and replace text, and multi-caret selection
 description: Learn about the Find and Replace feature and how to use it to find and replace instances of a pattern.
 ms.custom: SEO-VS-2020
-ms.date: 11/19/2020
+ms.date: 11/15/2021
 ms.topic: conceptual
 f1_keywords:
 - vs.find
@@ -96,9 +96,23 @@ You can define component sets as your search scope by choosing the **Edit Custom
 > [!NOTE]
 > This section applies to Visual Studio on Windows. For Visual Studio for Mac, see [Block selection](/visualstudio/mac/block-selection).
 
+::: moniker range="vs-2017"
+
 **Introduced in Visual Studio 2017 version 15.8**
 
+::: moniker-end
+
 Use *multi-caret selection* to make the same edit in two or more places at the same time. For example, you can insert the same text or modify existing text in multiple locations at the same time.
+
+::: moniker range="vs-2022"
+
+In Visual Studio 2022, we improved the multi-caret copy and paste experience. Previously, pasting multiple lines into multiple carets resulted in the entire clipboard being duplicated at each caret. Now, pasting multiple lines into the same number of carets will insert each line to a respective caret.
+
+To use multi-caret, press **Alt**+**Shift**+**mouse click** or **Alt**+**Shift**+**.** and then use **Ctrl**+**Shift**+**arrow key** to expand selections. Next, press **Ctrl**+**C** to copy the text in multiple selections. Use **Alt**+**Shift**+**mouse click** to create multiple carets for each line to paste in where you want them. Finally, press **Ctrl**+**V** to paste each line at its own caret.
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
 
 In the following screenshot, `-0000` is selected in three locations; if the user presses **Delete**, all three selections are deleted:
 
@@ -128,6 +142,8 @@ Use the following keys and actions for multi-caret selection behaviors:
 Some of the commands are also available on the **Edit** menu, under **Multiple Carets**:
 
 :::image type="content" source="media/edit-menu-multiple-carets-find-replace.png" alt-text="Screenshot of the Multiple Carets fly-out menu in Visual Studio":::
+
+::: moniker-end
 
 ## See also
 
