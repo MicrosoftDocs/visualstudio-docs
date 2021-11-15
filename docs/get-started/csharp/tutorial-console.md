@@ -124,10 +124,10 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 1. In the **Create a new project** window, select **All languages**, and then choose **C#** from the dropdown list. Choose **Windows** from the **All platforms** list, and choose **Console** from the **All project types** list.
 
-   After you apply the language, platform, and project type filters, choose the **Console Application** template, and then select **Next**.
+   After you apply the language, platform, and project type filters, choose the **Console App** template, and then select **Next**.
 
    > [!NOTE]
-   > If you don't see the **Console Application** template, select **Install more tools and features**.
+   > If you don't see the **Console App** template, select **Install more tools and features**.
    >
    > ![Screenshot that shows the Install more tools and features link.](media/vs-2022/not-finding-what-looking-for.png)
    >

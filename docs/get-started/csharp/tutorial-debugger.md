@@ -136,7 +136,7 @@ First, you'll create a .NET Core console application project. The project type c
 
 1. In the **Configure your new project** window, type or enter *GetStartedDebugging* in the **Project name** box. Then, choose **Next**.
 
-1. In the **Additional information** window, ensure that **.NET 6.0 (Preview)** is selected in the **Framework** dropdown menu, and then choose **Create**.
+1. In the **Additional information** window, ensure that **.NET 6.0** is selected in the **Framework** dropdown menu, and then choose **Create**.
 
     Visual Studio opens your new project.
 
