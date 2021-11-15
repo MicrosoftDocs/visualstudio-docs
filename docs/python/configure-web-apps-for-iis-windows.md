@@ -101,7 +101,7 @@ Next, modify your app's *web.config* file to include the full paths to *python.e
 
 1. Set the `WSGI_HANDLER` entry in *web.config* as appropriate for the framework you're using:
 
-    - **Bottle**: make sure that you have parentheses after `app.wsgi_app` as shown below. This is necessary because that object is a function (see *app.py*) rather than a variable:
+    - **Bottle**: make sure you have parentheses after `app.wsgi_app` as shown below. This is necessary because that object is a function (see *app.py*) rather than a variable:
 
         ```xml
         <!-- Bottle apps only -->
@@ -137,7 +137,7 @@ Next, modify your app's *web.config* file to include the full paths to *python.e
 
     Failure to add your URL to the array results in the error **DisallowedHost at / Invalid HTTP_HOST header: '\<site URL\>'. You may need to add '\<site URL\>' to ALLOWED_HOSTS.**
 
-    Note that when the array is empty, Django automatically allows 'localhost' and '127.0.0.1', but adding your production URL removes those capabilities. For this reason you might want to maintain separate development and production copies of *settings.py*, or use environment variables to control the run time values.
+    When the array is empty, Django automatically allows 'localhost' and '127.0.0.1', but adding your production URL removes those capabilities. For this reason you might want to maintain separate development and production copies of *settings.py*, or use environment variables to control the run time values.
 
 ## Deploy to IIS or a Windows VM
 
