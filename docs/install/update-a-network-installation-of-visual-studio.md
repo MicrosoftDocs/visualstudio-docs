@@ -2,7 +2,6 @@
 title: Update a network-based installation
 description: Learn how to update a network-based Visual Studio installation by using the --layout command
 ms.date: 05/26/2021
-
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
