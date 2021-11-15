@@ -16,19 +16,19 @@ The **Git Changes** window provides a seamless way to interact with Git while co
 
 ## Browse through local and remote branches
 
-To get started, open the **Git Repository** window by selecting **Git Repository** on the **View** menu. You can also access the **Git Repository** window by selecting the **outgoing/incoming** links in the **Git Changes** window and on the status bar.
+To get started, open the **Git Repository** window by selecting **Git Repository** on the **View** menu. You can also access the **Git Repository** window by selecting the **Outgoing** and **Incoming** links in the **Git Changes** window and on the status bar.
 
 :::image type="content" source="media/vs-2022/git-repository-browse-ui.png" alt-text="Screenshot that shows the anatomy of the Git Repository window." lightbox="media/vs-2022/git-repository-browse-ui.png":::
 
 The **Git Repository** window contains three main sections, as numbered in the preceding screenshot:
 
 1. **Branches**: Git empowers users to multitask and experiment with their code through branches. If you're working on multiple features at the same time or if you want to explore ideas without affecting your working code, branching can be helpful.
-1. **Git graph**: The graph section visualizes the state of your branch. It has three subsections: 
+1. **Graph**: This section visualizes the state of your branch. It has three subsections: 
 
    - **Incoming** shows incoming commits that your team has been contributing. 
    - **Outgoing** shows your local commits that you still haven't pushed.
    - **Local History** shows the rest of commits tracked by your local repository.
-1. **Commit details**: Selecting any commit in the graph section opens its details. You can check the changes that a commit has introduced by selecting them, which show a difference. For example, the previous screenshot shows the changes that one commit introduced to the *Files.csproj* file.
+1. **Commit**: Selecting any commit in the **Graph** section opens its details. You can check the changes that a commit has introduced by selecting them, which shows a difference. For example, the previous screenshot shows the changes that one commit introduced to the *Files.csproj* file.
 
 You can browse though any local or remote branch without having to switch your branch. When you find a commit that you want to focus on, select the **Open in New Tab** button to open the commit on a different tab.
 
@@ -37,7 +37,7 @@ You can browse though any local or remote branch without having to switch your b
 :::image type="content" source="media/vs-2022/git-repository-details-tab.png" alt-text="Screenshot of the tab for commit details." lightbox="media/vs-2022/git-repository-details-tab.png":::
 
 > [!TIP]
-> To display your commit in full screen, detach your commit tab and maximize the commit window by using the **Maximize** button. You can also select your favorite diff configuration by selecting **Diff Configuration** (the gear icon).
+> To display your commit in full screen, detach your **Commit** tab and maximize the **Commit** window by using the **Maximize** button. You can also select your favorite diff configuration by selecting **Diff Configuration** (the gear icon).
 >
 >:::image type="content" source="media/vs-2022/git-repository-commit-details-full-screen.png" alt-text="Screenshot of full-screen commit details with diff configurations." lightbox="media/vs-2022/git-repository-commit-details-full-screen.png":::
 
@@ -54,7 +54,7 @@ To compare any two commits in your branch, use the **Ctrl** key to select the tw
 
 ## Next steps
 
-To continue your journey, see [Manage Git Repositories in Visual Studio](git-manage-repository.md).
+To continue your journey, see [Manage Git repositories in Visual Studio](git-manage-repository.md).
 
 ## See also
 

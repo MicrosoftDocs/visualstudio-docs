@@ -16,7 +16,7 @@ The **Git Repository** window provides a full-screen Git experience that helps y
 
 ## Change the last commit (amend)
 
-The action of updating the last commit is called *amend* in Git, and it's a common use case. Sometimes you just need to update your commit message, or you might need to include a last-minute change.
+Updating the last commit is called *amending* in Git, and it's a common use case. Sometimes you just need to update your commit message, or you might need to include a last-minute change.
 
 You can amend a commit on the command line by using the following command:
 
@@ -93,7 +93,7 @@ To learn more about merging, rebasing, and branching in general, see [Git Branch
 
 Copy commits from one branch to another by using the cherry-pick option. Unlike a merge or rebase, cherry-picking brings only the changes from the commits that you select, instead of all the changes in a branch. Cherry-picking is a great way to tackle these common problems:
 
-- Accidentally committing on the wrong branch. Cherry-pick the changes over to the correct branch and then reset the original branch to the previous commit.
+- Accidentally committing in the wrong branch. Cherry-pick the changes over to the correct branch and then reset the original branch to the previous commit.
 - Pulling out a set of commits made in a feature branch, so you merge them back to your main branch sooner.
 - Porting in specific commits from the main branch without rebasing your branch.
 
@@ -145,7 +145,7 @@ To reset a branch to a previous state by using the command line, use the followi
 git reset --hard 53333305
 ```
 
-The `--hard` part of the command tells Git to reset the files to the state of the previous commit and discard any staged changes. To do the same in Visual Studio, right-click the commit that you want to reset your branch to, and then select **Reset > Delete Changes (--hard)**.
+The `--hard` part of the command tells Git to reset the files to the state of the previous commit and discard any staged changes. To do the same in Visual Studio, right-click the commit that you want to reset your branch to, and then select **Reset** > **Delete Changes (--hard)**.
 
 :::image type="content" source="media/vs-2022/git-repository-reset-ui.png" alt-text="Screenshot that shows resetting a branch in Visual Studio." lightbox="media/vs-2022/git-repository-reset-ui.png":::
 

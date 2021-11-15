@@ -20,11 +20,11 @@ The following image shows a basic example of how changes conflict in Git. In thi
 
 :::image type="content" source="media/vs-2022/git-conflicts-understand-1.png" alt-text="Diagram that shows a merge conflict.":::
 
-If you try to merge the bugfix branch into main, Git can't determine which changes to use in the merged version. You might want to keep the changes in the main branch, the bugfix branch, or some combination of the two. Resolve this conflict with a merge commit on the main branch that reconciles the conflicting changes between the two branches.
+If you try to merge the bugfix branch into main, Git can't determine which changes to use in the merged version. You might want to keep the changes in the main branch, the bugfix branch, or some combination of the two. Resolve this conflict with a merge commit in the main branch that reconciles the conflicting changes between the two branches.
 
 :::image type="content" source="media/vs-2022/git-conflicts-understand-2.png" alt-text="Diagram that shows how a merge commit resolves a merge conflict.":::
 
-The most common time to discover a merge conflict is when you pull updates from a remote branch to your local branch--for example, from origin/bugfix into your local bugfix branch. Resolve these conflicts in the same way: create a merge commit on your local branch to reconcile the changes, and then complete the merge.
+The most common time to discover a merge conflict is when you pull updates from a remote branch to your local branch--for example, from origin/bugfix into your local bugfix branch. Resolve these conflicts in the same way: create a merge commit in your local branch to reconcile the changes, and then complete the merge.
 
 ## Prevent merge conflicts
 
@@ -32,7 +32,7 @@ Git is good at automatically merging file changes in most circumstances, if the 
 
 ## Resolve merge conflicts
 
-1. If you're collaborating with others on the same branch, you might get merge conflicts when you push your changes.
+1. If you're collaborating with others in the same branch, you might get merge conflicts when you push your changes.
 
     :::image type="content" source="media/vs-2022/git-conflicts-push-link.png" alt-text="Screenshot of merge conflict after a push.":::
 
@@ -43,7 +43,7 @@ Git is good at automatically merging file changes in most circumstances, if the 
     > [!NOTE]
     > If your remote repository supports **Force Push**, you can enable it by using **Git** > **Settings**.
 
-1. In this example, select **Pull then Push** to include changes introduced to the remote repository. If there are any merge conflicts when you're pulling changes or trying to merge two branches, Visual Studio lets you know in the **Git Changes** window, in the **Git Repository** window, and on any file that have conflicts.
+    In this example, select **Pull then Push** to include changes introduced to the remote repository. If there are any merge conflicts when you're pulling changes or trying to merge two branches, Visual Studio lets you know in the **Git Changes** window, in the **Git Repository** window, and on any files that have conflicts.
 
     :::image type="content" source="media/vs-2022/git-conflicts-notification-ui.png" alt-text="Screenshot of a merge conflict notification.":::
 
@@ -53,14 +53,14 @@ Git is good at automatically merging file changes in most circumstances, if the 
 
 1. In Merge Editor, start resolving your conflict by using any of the following methods (as depicted in the numbered screenshot):
 
-    1. Go over your conflicts line by line and choose between keeping the right or the left side by selecting the checkboxes.
-    1. Keep or ignore all of your conflicting changes.
-    1. Manually edit your code in the **Result** window.
+    - Go over your conflicts line by line, and choose between keeping the right or the left side by selecting the checkboxes.
+    - Keep or ignore all of your conflicting changes.
+    - Manually edit your code in the **Result** window.
 
     :::image type="content" source="media/vs-2022/git-conflicts-resolve-conflict.png" alt-text="Screenshot that shows how to resolve a merge conflict in Visual Studio 2022." lightbox="media/vs-2022/git-conflicts-resolve-conflict.png":::
 
     > [!TIP]
-    > If you don't like the default layout in Merge Editor, feel free to change it by using the **Settings** (gear) dropdown menu.
+    > If you don't like the default layout in Merge Editor, feel free to change it by using the gear dropdown menu.
     >
     > :::image type="content" source="media/vs-2022/git-conflicts-layout-options.png" alt-text="Screenshot of the Merge Editor layout options.":::
     >
@@ -83,7 +83,7 @@ Git is good at automatically merging file changes in most circumstances, if the 
 
 ## Next steps
 
-To continue your journey, see the information about [Git merge and resolving conflicts](https://git-scm.com/docs/git-merge) on the Git website.
+To continue your journey and learn more about resolving conflicts, see the [Git webpage for the merge command](https://git-scm.com/docs/git-merge).
 
 ## See also
 
