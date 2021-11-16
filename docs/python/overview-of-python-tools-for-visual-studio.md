@@ -35,7 +35,7 @@ To get started:
 > Visual Studio supports Python version 2.7, as well as version 3.5 through 3.7. While it is possible to use Visual Studio to edit code written in other versions of Python, those versions are not officially supported and features such as IntelliSense and debugging might not work. Python version 3.8 support is still under development, specific details about support can be seen in this tracking [issue on GitHub](https://github.com/microsoft/PTVS/issues/5822).
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 - Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md) or [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json).
 ::: moniker-end
@@ -86,7 +86,7 @@ For more information:
 
 ## Interactive window
 
-:::moniker range=">=vs-2019"
+:::moniker range="vs-2019"
 For every Python environment known to Visual Studio, you can easily open the same interactive (REPL) environment for a Python interpreter directly within Visual Studio, rather than using a separate command prompt. You can easily switch between environments as well. (To open a separate command prompt, select your desired environment in the **Python Environments** window, then select the **Open in PowerShell** command as explained earlier under [Support for multiple interpreters](#support-for-multiple-interpreters).)
 ![Python interactive window in Visual Studio-2019](media/interactive-window.png)
 :::moniker-end
@@ -107,7 +107,7 @@ For more information:
 
 ## Project system, and project and item templates
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 > [!Note]
 > Visual Studio 2019 supports opening a folder containing Python code and running that code without creating Visual Studio project and solution files. For more information, see [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md). There are, however, benefits to using a project file, as explained in this section.
 ::: moniker-end
@@ -140,7 +140,7 @@ One of Visual Studio's strengths is its powerful debugger. For Python in particu
 
 ![Visual Studio debugger for Python showing an exception popup](media/debugging-exception-popup.png)
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 In Visual Studio 2019, you can run and debug code without having a Visual Studio project file. See [Quickstart: Open and run Python code in a folder-2019](quickstart-05-python-visual-studio-open-folder.md) for an example.
 ::: moniker-end
