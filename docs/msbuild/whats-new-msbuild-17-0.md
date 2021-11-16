@@ -15,7 +15,7 @@ monikerRange: '>=vs-2019'
 
 This article describes significant updates in MSBuild 17.0. For the detailed release notes, see [MSBuild 17.0.0](https://github.com/dotnet/msbuild/releases/tag/v17.0.0).
 
-MSBuild 17.0 shipped with [Visual Studio 2022](../ide/whats-new-visual-studio-2022.md) and [.NET 6.0](/dotnet/...).
+MSBuild 17.0 shipped with [Visual Studio 2022](../ide/whats-new-visual-studio-2022.md) and [.NET 6.0](/dotnet/).
 
 ## Changed path
 

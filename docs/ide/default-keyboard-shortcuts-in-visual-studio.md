@@ -2,7 +2,7 @@
 title: Keyboard shortcuts
 description: Learn about the default keyboard shortcuts in Visual Studio that allow you to access a variety of commands and windows.
 ms.custom: SEO-VS-2020
-ms.date: 09/23/2021
+ms.date: 11/15/2021
 ms.topic: reference
 helpviewer_keywords:
 - shortcut keys [Visual Studio], keyboard binding schemes
@@ -121,7 +121,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Select all|**Ctrl+A**| Edit.SelectAll |
 |Select current word|**Ctrl+W** [Text Editor]| Edit.SelectCurrentWord |
 |Selection cancel|**Esc** [Text Editor, Report Designer, Settings Designer, Windows Forms Designer, Managed Resources Editor]| Edit.SelectionCancel |
-|Surround with|**Ctrl+K, Ctrl+S**| Edit.SurroundWith |
+|Surround with|**Ctrl+K, Ctrl+S** <br>(available only in Visual Studio 2019 and earlier)| Edit.SurroundWith |
 |Tab left|**Shift+Tab** [Text Editor, Report Designer, Windows Forms Editor]| Edit.TabLeft |
 |Toggle all outlining|**Ctrl+M, Ctrl+L** [Text Editor]| Edit.ToggleAllOutlining |
 |Toggle bookmark|**Ctrl+K, Ctrl+K** [Text Editor]| Edit.ToggleBookmark |
@@ -407,7 +407,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Size control up|**Ctrl+Shift+Up Arrow**| Edit.SizeControlUp |
 |Size control up grid|**Shift+Up Arrow**| Edit.SizeControlUpGrid |
 |Stop search|**Alt+F3, S**| Edit.StopSearch |
-|Surround with|**Ctrl+K, Ctrl+S**| Edit.SurroundWith |
+|Surround with|**Ctrl+K, Ctrl+S** <br>(available only in Visual Studio 2019 and earlier)| Edit.SurroundWith |
 |Undo|**Ctrl+Z**<br /><br /> or<br /><br /> **Alt+Backspace**| Edit.Undo |
 
 ### <a name="bkmk_editorContext-global-shortcuts"></a> Editor context menus: global shortcuts

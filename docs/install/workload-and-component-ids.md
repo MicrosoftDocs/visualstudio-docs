@@ -7,6 +7,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.date: 10/12/2021
+ms.custom: vs-acquisition
 ms.topic: reference
 helpviewer_keywords:
 - workload ID, Visual Studio
