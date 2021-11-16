@@ -46,21 +46,27 @@ The environments that Visual Studio knows about are displayed in the **Python En
 
 - Select the **View** > **Other Windows** > **Python Environments** menu command.
 - Right-click the **Python Environments** node for a project in **Solution Explorer** and select **View All Python Environments**:
-
-    ::: moniker range="vs-2017"
-    ![View All Environments command in Solution Explorer](media/environments/environments-view-all.png)
-    ::: moniker-end
-    ::: moniker range=">=vs-2019"
-    ![View All Environments command in Solution Explorer](media/environments/environments-view-all-2019.png)
-    ::: moniker-end
+- 
+::: moniker range="vs-2017"
+![View All Environments command in Solution Explorer-2017](media/environments/environments-view-all.png)
+::: moniker-end
+::: moniker range="vs-2019"
+![View All Environments command in Solution Explorer-2019](media/environments/environments-view-all-2019.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![View All Environments command in Solution Explorer-2022](media/environments/environments-view-all-2022.png)
+::: moniker-end
 
 In either case, the **Python Environments** window appears alongside **Solution Explorer**:
 
 ::: moniker range="vs-2017"
-![Python Environments window](media/environments/environments-default-view.png)
+![Python Environments window-2017](media/environments/environments-default-view.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
-![Python Environments window](media/environments/environments-default-view-2019.png)
+::: moniker range="vs-2019"
+![Python Environments window-2019](media/environments/environments-default-view-2019.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Python Environments window-2022](media/environments/environments-default-view-2022.png)
 ::: moniker-end
 
 Visual Studio looks for installed global environments using the registry (following [PEP 514](https://www.python.org/dev/peps/pep-0514/)), along with virtual environments and conda environments (see [Types of environments](#types-of-environments)). If you don't see an expected environment in the list, see [Manually identify an existing environment](#manually-identify-an-existing-environment).
@@ -69,7 +75,12 @@ When you select an environment in the list, Visual Studio displays various prope
 
 Use the drop-down list below the list of environments to switch to different tabs such as **Packages**, and **IntelliSense**. These tabs are also described in the [Python Environments window tab reference](python-environments-window-tab-reference.md).
 
-Selecting an environment doesn't change its relation to any projects. The default environment, shown in boldface in the list, is the one that Visual Studio uses for any new projects. To use a different environment with new projects, use the **Make this the default environment for new projects** command. Within the context of a project, you can always select a specific environment. For more information, see [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
+:::moniker range="vs-2019"
+When you select an environment in the list, Visual Studio displays various properties and commands for that environment on the **Overview** tab. For example, you can see in the image above that the interpreter's location is *C:\Python36-32*. The four commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference - Overview](python-environments-window-tab-reference.md#overview-tab).
+:::moniker-end
+:::moniker range=">=vs-2022"
+When you select an environment in the list, Visual Studio displays various properties and commands for that environment on the **Overview** tab. For example, you can see in the image above that the interpreter's location is *C:\Program Files (x86)\Microsoft Visual Studio\Python310*. The four commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference - Overview](python-environments-window-tab-reference.md#overview-tab).
+:::moniker-end.
 
 To the right of each listed environment is a control that opens an **Interactive** window for that environment. (In Visual Studio 2017 15.5 and earlier, another control appears that refreshes the IntelliSense database for that environment. See [Environments window tab reference](python-environments-window-tab-reference.md) for details about the database.)
 
@@ -80,11 +91,18 @@ To the right of each listed environment is a control that opens an **Interactive
 > ![Python Environments window expanded view](media/environments/environments-expanded-view.png)
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 > [!Tip]
 > When you expand the **Python Environments** window wide enough, you get a fuller view of your environments that you may find more convenient to work with.
 >
-> ![Python Environments window expanded view](media/environments/environments-expanded-view-2019.png)
+> ![Python Environments window expanded view-2019](media/environments/environments-expanded-view-2019.png)
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+> [!Tip]
+> When you expand the **Python Environments** window wide enough, you get a fuller view of your environments that you may find more convenient to work with.
+>
+> ![Python Environments window expanded view-2022](media/environments/environments-expanded-view-2022.png)
 ::: moniker-end
 
 > [!Note]
@@ -122,7 +140,12 @@ For this reason, developers often create a *virtual environment* for a project. 
 
 Visual Studio provides direct support for creating a virtual environment for a project. For example, if you open a project that contains a *requirements.txt*, or create a project from a template that includes that file, Visual Studio prompts you to automatically create a virtual environment and install those dependencies.
 
-At any time within an open project, you can create a new virtual environment. In **Solution Explorer**, expand the project node, right-click **Python Environments**, and select "Add Virtual Environment." For more information, see [Create a virtual environment](./selecting-a-python-environment-for-a-project.md?view=vs-2019&preserve-view=true#create-a-virtual-environment-1).
+:::moniker range="vs-2019"
+At any time within an open project, you can create a new virtual environment. In **Solution Explorer**, expand the project node, right-click **Python Environments**, and choose **Add environment**. In **Add Environment**, choose **Virtual environment**. For more information, see [Create a virtual environment-2019](./selecting-a-python-environment-for-a-project.md?view=vs-2019&preserve-view=true#create-a-virtual-environment-1).
+:::moniker-end
+:::moniker range=">=vs-2022"
+At any time within an open project, you can create a new virtual environment. In **Solution Explorer**, expand the project node, right-click **Python Environments**, and choose **Add environment**. In **Add Environment**, choose **Virtual environment**. For more information, see [Create a virtual environment-2022](./selecting-a-python-environment-for-a-project.md?view=vs-2022&preserve-view=true#create-a-virtual-environment-1).
+:::moniker-end
 
 Visual Studio also provides a command to generate a *requirements.txt* file from a virtual environment, making it easy to recreate the environment on other computers. For more information, see [Use virtual environments](selecting-a-python-environment-for-a-project.md#use-virtual-environments).
 
@@ -134,24 +157,24 @@ A conda environment is one created using the `conda` tool, or with integrated co
 
 1. Select **+ Create conda environment** in the **Python Environments** window, which opens a **Create new conda environment** tab:
 
-    ![Create tab for a new conda environment](media/environments/environments-conda-1.png)
+    ![Create tab for a new conda environment-1](media/environments/environments-conda-1.png)
 
 1. Enter a name for the environment in the **Name** field, select a base Python interpreter in the **Python** field, and select **Create**.
 
 1. The **Output** window shows progress for the new environment, with a few CLI instructions once creation is complete:
 
-    ![Successful creation of a conda environment](media/environments/environments-conda-2.png)
+    ![Successful creation of a conda environment-2](media/environments/environments-conda-2.png)
 
 1. Within Visual Studio, you can activate a conda environment for a project as you would any other environment as described on [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
 
 1. To install packages in the environment, use the [Packages tab](python-environments-window-tab-reference.md#packages-tab).
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 1. Select **Add Environment...** in the **Python Environments** window (or from the Python toolbar), which opens the **Add environment** dialog box. In that dialog, select the **Conda environment** tab:
 
-    ![Conda environment tab in the Add environment dialog](media/environments/environments-conda-1-2019.png)
+    ![Conda environment tab in the Add environment dialog-2019](media/environments/environments-conda-1-2019.png)
 
 1. Configure the following fields:
 
@@ -171,7 +194,38 @@ A conda environment is one created using the `conda` tool, or with integrated co
 
 1. Select **Create**, and observe progress in the **Output** window. The output includes with a few CLI instructions once creation is complete:
 
-    ![Successful creation of a conda environment](media/environments/environments-conda-2-2019.png)
+    ![Successful creation of a conda environment-2019](media/environments/environments-conda-2-2019.png)
+
+1. Within Visual Studio, you can activate a conda environment for a project as you would any other environment as described on [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
+
+1. To install additional packages in the environment, use the [Packages tab](python-environments-window-tab-reference.md#packages-tab).
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+1. Select **Add Environment...** in the **Python Environments** window (or from the Python toolbar), which opens the **Add environment** dialog box. In that dialog, select the **Conda environment** tab:
+
+    ![Conda environment tab in the Add environment dialog-2022](media/environments/environments-conda-1-2022.png)
+
+1. Configure the following fields:
+
+    | Field | Description |
+    | --- | --- |
+    | Project | The project in which to create the environment (if you have multiple projects in the same Visual Studio solution). |
+    | Name | The name for the conda environment. |
+    | Add packages from | Choose **Environment file** if you have an *environment.yml* file describing your dependencies, or choose **One or more Anaconda package names** and list at least one Python package or a Python version in the field below. The package list instructs conda to create a Python environment. To install the latest version of Python, use `python`; to install a specific version, use `python=,major>.<minor>` as in `python=3.7`. You can also use the package button to select Python versions and common packages from a series of menus. |
+    | Set as current environment | Activates the new environment in the selected project after the environment is created. |
+    | Set as default environment for new projects | Automatically sets and activates the conda environment in any new projects created in Visual Studio. This option is the same as using the **Make this the default environment for new projects** in the **Python Environments** window. |
+    | View in Python Environments window | Specifies whether to show the  **Python Environments** window after creating the environment. |
+
+    > [!Important]
+    > When creating a conda environment, be sure to specify at least one Python version or Python package using either `environments.yml` or the package list, which ensures that the environment contains a Python runtime. Otherwise, Visual Studio ignores the environment: the environment doesn't appear anywhere the **Python Environments** window, isn't be set as the current environment for a project, and isn't available as a global environment.
+    >
+    > If you happen to create a conda environment without a Python version, use the `conda info` command to see the locations of conda environment folders, then manually remove the subfolder for the environment from that location.
+
+1. Select **Create**, and observe progress in the **Output** window. The output includes with a few CLI instructions once creation is complete:
+
+    ![Successful creation of a conda environment-2022](media/environments/environments-conda-2-2022.png)
 
 1. Within Visual Studio, you can activate a conda environment for a project as you would any other environment as described on [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
 
@@ -179,7 +233,7 @@ A conda environment is one created using the `conda` tool, or with integrated co
 ::: moniker-end
 
 > [!Note]
-> For best results with conda environments, use conda 4.4.8 or later (conda versions are different from Anaconda versions). You can install suitable versions of Miniconda (Visual Studio 2019) and Anaconda (Visual Studio 2017) through the Visual Studio installer.
+> For best results with conda environments, use conda 4.4.8 or later (conda versions are different from Anaconda versions). You can install suitable versions of Miniconda (Visual Studio 2019 and Visual Studio 2022) and Anaconda (Visual Studio 2017) through the Visual Studio installer.
 
 To see the conda version, where conda environments are stored, and other information, run `conda info` at an Anaconda command prompt (that is, a command prompt where Anaconda is in the path):
 
@@ -227,7 +281,7 @@ Use the following steps to identify an environment that's installed in a non-sta
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 1. Select **Add Environment...** in the **Python Environments** window (or from the Python toolbar), which opens the **Add environment** dialog box. In that dialog, select the **Existing environment** tab:
 
@@ -244,15 +298,37 @@ Use the following steps to identify an environment that's installed in a non-sta
 1. Details of the environment can be reviewed and modified at any time in the **Python Environments** window. In that window, select the environment, then select the **Configure** tab. After making changes, select the **Apply** command. You can also remove the environment using the **Remove** command (not available for auto-detected environments). For more information, see [Configure tab](python-environments-window-tab-reference.md#configure-tab).
 ::: moniker-end
 
+::: moniker range=">=vs-2022"
+
+1. Select **Add Environment...** in the **Python Environments** window (or from the Python toolbar), which opens the **Add environment** dialog box. In that dialog, select the **Existing environment** tab:
+
+    ![Existing environment tab in the Add environment dialog-2022](media/environments/environments-custom-1-2022.png)
+For example, select an existing environment and the path to the existing environment. 
+
+1. Select the **Environment** drop-down, then select **Custom**:
+
+    ![Custom environment option in the Add environment dialog-2022](media/environments/environments-custom-2-2022.png). 
+For example, Anaconda 2021.05 in C:\Users\user\Anaconda3\python.exe
+
+1. In the provided fields in the dialog box, enter or browse (using **...**) to the path of the interpreter under **Prefix path**, which fills in  most of the other fields. After reviewing those values and modifying as necessary, select **Add**.
+
+    ![Fields to specify details for a custom environment option in the Add environment dialog-2022](media/environments/environments-custom-3-2022.png)
+
+1. Details of the environment can be reviewed and modified at any time in the **Python Environments** window. In that window, select the environment, then select the **Configure** tab. After making changes, select the **Apply** command. You can also remove the environment using the **Remove** command (not available for auto-detected environments). For more information, see [Configure tab](python-environments-window-tab-reference.md#configure-tab).
+::: moniker-end
+
 ## Fix or delete invalid environments
 
 If Visual Studio finds registry entries for an environment, but the path to the interpreter is invalid, then the **Python Environments** window shows the name with a strikeout font:
 
 ::: moniker range="vs-2017"
-![The Python Environments window showing an invalid environment](media/environments/environments-invalid-entry.png)
+![The Python Environments window showing an invalid environment-2017](media/environments/environments-invalid-entry.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
-![The Python Environments window showing an invalid environment](media/environments/environments-invalid-entry-2019.png)
+::: moniker range="vs-2019"
+![The Python Environments window showing an invalid environment-2019](media/environments/environments-invalid-entry-2019.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![The Python Environments window showing an invalid environment-2022](media/environments/environments-invalid-entry-2022.png)
 ::: moniker-end
 
 To correct an environment you wish to keep, first try using its installer's **Repair** process. The installers for standard Python 3.x, for example, include that option.
