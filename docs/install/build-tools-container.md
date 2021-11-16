@@ -154,7 +154,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
 
    RUN `
        # Download the Build Tools bootstrapper.
-       curl -SL --output vs_buildtools.exe https://aka.ms/vs/17/pre/vs_buildtools.exe `
+       curl -SL --output vs_buildtools.exe https://aka.ms/vs/17/release/vs_buildtools.exe `
        `
        # Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload, excluding workloads and components with known issues.
        && (start /w vs_buildtools.exe --quiet --wait --norestart --nocache modify `
