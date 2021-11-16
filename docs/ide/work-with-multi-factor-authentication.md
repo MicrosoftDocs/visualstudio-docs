@@ -1,5 +1,6 @@
 ---
-title: Use accounts that require multi-factor authentication
+title: Multi-factor authentication with Visual Studio sign-ins
+titleSuffix: "" 
 ms.date: 05/27/2020
 ms.custom: SEO-VS-2020
 ms.topic: conceptual
@@ -12,7 +13,7 @@ ms.workload:
 - multiple
 monikerRange: ">=vs-2019"
 ---
-# How to use Visual Studio with accounts that require multi-factor authentication
+# Use Visual Studio with accounts that require multi-factor authentication (MFA)
 
 When collaborating with external guest users, it's a good idea to protect your apps and data with **conditional access (CA)** policies such as **multi-factor authentication (MFA)**.  
 
