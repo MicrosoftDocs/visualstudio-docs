@@ -2,7 +2,7 @@
 title: Options, Text Editor, General
 description: Learn how to use the General page to change global settings for the Visual Studio code and text editor.
 ms.custom: SEO-VS-2020
-ms.date: 11/12/2021
+ms.date: 11/15/2021
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor
@@ -72,7 +72,7 @@ When selected, this setting enables you to move text by selecting and then dragg
 
 ### Select subword on double click
 
-When you toggle this setting, a double-click selects only a subword instead of a whole word. (This can be helpful when you're using camelCase text, as an example.)
+When you toggle this setting, a double-click selects only a subword instead of a whole word. (This can be helpful when you're using medial capitals, as an example.)
 
 ::: moniker-end
 

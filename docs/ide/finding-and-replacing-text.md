@@ -55,7 +55,17 @@ You can scope searches to the current document, the current solution, or a custo
 
 The **Find and Replace** control appears in the upper right corner of the code editor window. It immediately highlights every occurrence of the given search string in the current document. You can navigate from one occurrence to another by choosing the **Find Next** button or the **Find Previous** button on the search control.
 
-![Find and Replace in Visual Studio](media/find-and-replace-box.png)
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/find-and-replace-box.png" alt-text="Screenshot of the Find and Replace dialog in the Editor in Visual Studio 2022.":::
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
+
+:::image type="content" source="media/find-and-replace-box.png" alt-text="Screenshot of the Find and Replace dialog in the Editor in Visual Studio 2019 and earlier versions.":::
+
+::: moniker-end
 
 You can access replacement options by choosing the button next to the **Find** text box. To make one replacement at a time, choose the **Replace Next** button next to the **Replace** text box. To replace all matches, choose the **Replace All** button.
 
@@ -74,7 +84,26 @@ A version of the **Find** control is also available in some tool windows. For ex
 
 **Find/Replace in Files** works like the **Find and Replace** control, except that you can define a scope for your search. Not only can you search the current open file in the editor, but also all open documents, the entire solution, the current project, and selected folder sets. You can also search by file name extension. To access the **Find/Replace in Files** dialog box, select **Find and Replace** on the **Edit** menu (or press **Ctrl**+**Shift**+**F**).
 
-![Find in Files in Visual Studio](media/find-in-files-box.png)
+::: moniker range=">=vs-2022"
+
+:::image type="content" source="media/vs-2022/find-files.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 20222, with the Find in Files tab open.":::
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+:::image type="content" source="media/find-files-vs2019.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 2019, with the Find in Files tab open.":::
+
+> [!IMPORTANT]
+> If you are using **Visual Studio 2019** [**version 16.6**](/visualstudio/releases/2019/release-notes-v16.6/) or earlier, the **Find and Replace** dialog box might not look like it appears here. Switch to the [Visual Studio 2017](?view=vs-2017&preserve-view=true) version of this page for descriptions that'll match what you see on your screen.
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+:::image type="content" source="media/find-files-vs2017.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 2017, with the Find in Files tab open.":::
+
+::: moniker-end
 
 ### Find Results
 
@@ -111,8 +140,6 @@ In Visual Studio 2022, we improved the multi-caret copy and paste experience. Pr
 To use multi-caret, press **Alt**+**Shift**+**mouse click** or **Alt**+**Shift**+**.** and then use **Ctrl**+**Shift**+**arrow key** to expand selections. Next, press **Ctrl**+**C** to copy the text in multiple selections. Use **Alt**+**Shift**+**mouse click** to create multiple carets for each line to paste in where you want them. Finally, press **Ctrl**+**V** to paste each line at its own caret.
 
 :::image type="content" source="media/vs-2022/multi-caret-copy-paste.gif" alt-text="An animation of the multi-caret selection action in Visual Studio.":::
-
-:::image-end:::
 
 Additionally, you can use **Alt**+**Shift**+**up arrow key** (or **down arrow key**) or **Alt**+**Shift**+**mouse drag** to select with multiple carets. Previously, these gestures created a box selection. Now, a box selection transforms into multiple carets. This method is easier and faster than having to click in precise locations to insert individual carets.
 
