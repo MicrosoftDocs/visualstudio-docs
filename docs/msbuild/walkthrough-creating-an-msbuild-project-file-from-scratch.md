@@ -117,7 +117,7 @@ Before you can use MSBuild, you must extend the PATH environment variable to inc
     </ItemGroup>
     ```
 
-     Note that this `ItemGroup` already contains an item element.
+     Notice that this `ItemGroup` already contains an item element.
 
 3. Add a `Target` node as a child element of the `Project` node. Name the node `Build`.
 
