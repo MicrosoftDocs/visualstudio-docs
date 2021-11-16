@@ -118,7 +118,7 @@ For ASP.NET Core developers who are targeting .NET 6, there are additional capab
 * **No Debugger:** You get Hot Reload support when using Visual Studio to start your web app without the debugger (CTRL-F5).
 
 > [!NOTE]
-> When working on a Blazor Wasm app and using Visual Studio 2022, Hot Reload for razor pages currently only works when launching apps without the debugger.
+> When working on a Blazor Wasm app and using Visual Studio 2022, Hot Reload for Razor Pages currently only works when launching apps without the debugger.
 
 ## Supported .NET Edits
 
