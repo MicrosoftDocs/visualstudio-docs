@@ -15,7 +15,7 @@ ms.workload:
 
 # Create a C++ extension for Python
 
-Modules that are written in C++ (or C) are commonly used to extend the capabilities of a Python interpreter. They're also used to enable access to low-level operating system capabilities.
+Modules written in C++ (or C) are commonly used to extend the capabilities of a Python interpreter. They're also used to enable access to low-level operating system capabilities.
 
 Modules come in three primary types:
 
@@ -45,7 +45,9 @@ For more information about the installation options, see [Install Python support
 
 ## Create the Python application
 
-1. Create a new Python project in Visual Studio by selecting **File** > **New** > **Project**. Search for **Python**, select the **Python Application** template, enter a name and location, and then select **OK**.
+1. Create a new Python project in Visual Studio by selecting **File** > **New** > **Project**. 
+
+1. Search for **Python**, select the **Python Application** template, enter a name and location, and then select **OK**.
 
 1. In the project's *.py* file, paste the following code. To experience some of the [Python editing features](editing-python-code-in-visual-studio.md), try entering the code manually.  
 
@@ -88,7 +90,7 @@ For more information about the installation options, see [Install Python support
         test(lambda d: [tanh(x) for x in d], '[tanh(x) for x in d] (Python implementation)')
     ```
 
-1. To view the results, run the program by selecting **Debug** > **Start without Debugging** or by selecting Ctrl+F5. 
+1. To view the results, run the program by selecting **Debug** > **Start without Debugging** or by selecting Ctrl+F5.
 
    You can adjust the `COUNT` variable to change how long the benchmark takes to run. For this walkthrough, set the count so that the benchmark takes about two seconds.
 
@@ -99,7 +101,7 @@ For more information about the installation options, see [Install Python support
 
 Follow the instructions in this section to create two identical C++ projects, *superfastcode* and *superfastcode2*. Later, you'll use a separate approach in each project to expose the C++ code to Python.
 
-1. In **Solution Explorer**, right-click the solution,  and then select **Add** > **New Project**. A Visual Studio solution can contain both Python and C++ projects, which are one of the advantages of using Visual Studio for Python.
+1. In **Solution Explorer**, right-click the solution,  and then select **Add** > **New Project**. A Visual Studio solution can contain both Python and C++ projects, which is one of the advantages of using Visual Studio for Python.
 
 1. Search on **C++**, select **Empty project**, specify either **superfastcode** for the first project or **superfastcode2** for the second project, and then select **OK**.
 
@@ -162,7 +164,7 @@ Follow the instructions in this section to create two identical C++ projects, *s
     ::: moniker-end
     
     > [!NOTE]
-    > If the **C/C++** tab isn't displayed in the project properties, the project contains no files that it identifies as C/C++ source files. This condition can occur if you create a source file without a *.c* or *.cpp* file extension. 
+    > If the **C/C++** tab isn't displayed in the project properties, the project contains no files that identifies as C/C++ source files. This condition can occur if you create a source file without a *.c* or *.cpp* file extension. 
     > 
     > For example, if you accidentally entered *module.coo* instead of *module.cpp* earlier in the new item dialog, Visual Studio creates the file but doesn't set the file type to *C/C+ Code*, which activates the C/C++ properties tab. Such misidentification remains even if you rename the file with a *.cpp* file extension. 
     > 
@@ -201,7 +203,7 @@ Follow the instructions in this section to create two identical C++ projects, *s
 
 ## Convert the C++ projects to extensions for Python
 
-To make the C++ DLL an extension for Python, you first modify the exported methods to interact with Python types. You then add a function that exports the module, along with definitions of the module's methods.
+To make the C++ DLL an extension for Python, first modify the exported methods to interact with Python types. Then add a function that exports the module, along with definitions of the module's methods.
 
 The sections that follow explain how you perform these steps by using both the CPython extensions and PyBind11.
 
@@ -400,7 +402,7 @@ You can make the DLL available to Python in any of several ways. Here are two ap
         > [!Tip]
         > If you've already installed the package, you'll see it listed here. Before you continue, click the **X** to uninstall it.
     
-    1. In the search box, paste the copied path, delete *pyproject.toml* from the end, and then select Enter to install the module from that directory.
+    1. In the search box, paste the copied path, delete *pyproject.toml* from the end, and then select **Enter** to install the module from that directory.
     
         > [!Tip]
         > If the installation fails because of a permission error, add *--user* to the end, and try the command again.
@@ -463,7 +465,7 @@ Visual Studio supports debugging Python and C++ code together. In this section, 
     > [!Tip]
     > When you enable native code debugging, the Python output window might close immediately after the program has finished without giving you the usual **Press any key to continue** pause. 
     >
-    > Solution: To force a pause after you've enabled native code debugging, add the `-i` option to the **Run** > **Interpreter Arguments** field on the **Debug** tab. This argument puts the Python interpreter into interactive mode after the code has run, at which point it waits for you to select Ctrl+Z and then Enter to close the window. 
+    > Solution: To force a pause after you've enabled native code debugging, add `-i` option to the **Run** > **Interpreter Arguments** field on the **Debug** tab. This argument puts the Python interpreter into interactive mode after the code has run, at which point it waits for you to select Ctrl+Z and then Enter to close the window. 
     >
     > Alternatively, if you don't mind modifying your Python code, you can add `import os` and `os.system("pause")` statements at the end of your program. This code duplicates the original pause prompt.
 
