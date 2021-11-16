@@ -18,11 +18,11 @@ ms.workload:
 
 **Previous step: [Create a new Python project](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)**
 
-Although **Solution Explorer** is where you manage project files, the *editor* window is typically where you work with the *contents* of files, like source code. The editor is contextually aware of the type of file you're editing, including the programming language (based on the file extension), and offers features appropriate to that language such as syntax coloring and auto-completion using IntelliSense.
+Although **Solution Explorer** is where you manage project files, the *editor* window is typically where you work with the *contents* of files, like source code. The editor is contextually aware of the type of file you're editing, including the programming language (based on the file extension), and offers features appropriate to that language such as syntax coloring and autocompletion using IntelliSense.
 
 1. After creating a new "Python Application" project, a default empty file named *PythonApplication1.py* is open in the Visual Studio editor.
 
-1. In the editor, start typing `print("Hello, Visual Studio")` and notice how Visual Studio IntelliSense displays auto-completion options along the way. The outlined option in the drop-down list is the default completion that's used when you press the **Tab** key. Completions are most helpful when longer statements or identifiers are involved.
+1. In the editor, start typing `print("Hello, Visual Studio")` and notice how Visual Studio IntelliSense displays autocompletion options along the way. The outlined option in the drop-down list is the default completion that's used when you press the **Tab** key. Completions are most helpful when longer statements or identifiers are involved.
 
     ![IntelliSense auto-completion popup](media/vs-getting-started-python-04-IntelliSense1b.png)
 
@@ -45,7 +45,7 @@ Although **Solution Explorer** is where you manage project files, the *editor* w
 
 1. Run the code you've written to this point by pressing **Ctrl**+**F5** or selecting **Debug** > **Start without Debugging** menu item. Visual Studio warns you if you still have errors in your code.
 
-1. When you run the program, a console window appears displaying the results, just as if you'd run a Python interpreter with *PythonApplication1.py* from the command line. Press a key to close the window and return to the Visual Studio editor.
+1. When you run the program, a console window appears to display the results, as you'd run a Python interpreter with *PythonApplication1.py* from the command line. Press a key to close the window and return to the Visual Studio editor.
 
     ![Output for the first run of the program](media/vs-getting-started-python-07-output.png)
 
@@ -63,7 +63,7 @@ Although **Solution Explorer** is where you manage project files, the *editor* w
 
     ![IntellSense showing module members](media/vs-getting-started-python-10-import3.png)
 
-1. Finish by importing the `sin`, `cos`, and `radians` members, noticing the auto-completions available for each. When you're done, your code should appear as follows:
+1. Finish by importing the `sin`, `cos`, and `radians` members, noticing the autocompletions available for each. When you're done, your code should appear as follows:
 
     ```python
     import sys
