@@ -72,7 +72,7 @@ When you create an application in Visual Studio, you first create a project and 
 
 1. On the start window, choose **Create new project**.
 
-   ![View the 'Create a new project' window](../../get-started/media/vs-2019/start-window-create-new-project.png "Screenshot of the start window in Visual Studio 2022 with the 'Create a new project' option highlighted.")
+   ![View the 'Create a new project' window](../../get-started/media/vs-2019/start-window-create-new-project.png "Screenshot of the start window in Visual Studio 2019 with the 'Create a new project' option highlighted.")
 
 1. On the **Create a new project** screen, search for "WPF," choose **WPF Application**, and then choose **Next**.
 
@@ -115,9 +115,9 @@ After you create the project, you can customize it. To do so, choose **Propertie
 
    :::image type="content" source="media/vs-2022/explore-ide-name-project.png" alt-text="Screenshot of the 'Configure your new project' dialog with 'HelloWPFApp' entered in the Project name field.":::
 
-1. In the **Additional information** window, **.NET 6.0** should already be selected for your target framework. If not, select **.NET 6.0**. Then, choose **Create**.
+1. In the **Additional information** window, **.NET 6.0 (Long-term support)** should already be selected for your target framework. If not, select **.NET 6.0 (Long-term support)**. Then, choose **Create**.
 
-   :::image type="content" source="media/vs-2022/wpf-target-framework.png" alt-text="In the 'Screenshot of the Additional information window with '.NET 6.0' selected in the Framework field.":::
+   :::image type="content" source="media/vs-2022/wpf-target-framework.png" alt-text="In the 'Screenshot of the Additional information window with '.NET 6.0 (Long-term support)' selected in the Framework field.":::
 
 Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view.
 

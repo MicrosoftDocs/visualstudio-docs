@@ -2,7 +2,7 @@
 title: Work with GitHub accounts in Visual Studio
 ms.date: 11/16/2020
 ms.custom:
-ms.topic: conceptual
+ms.topic: how-to
 description: "Learn how to use Visual Studio with GitHub accounts."
 author: anandmeg
 ms.author: meghaanand
