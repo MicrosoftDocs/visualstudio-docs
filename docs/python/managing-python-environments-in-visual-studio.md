@@ -78,6 +78,7 @@ Use the drop-down list below the list of environments to switch to different tab
 :::moniker range="vs-2019"
 When you select an environment in the list, Visual Studio displays various properties and commands for that environment on the **Overview** tab. For example, you can see in the image above that the interpreter's location is *C:\Python36-32*. The four commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference - Overview](python-environments-window-tab-reference.md#overview-tab).
 :::moniker-end
+
 :::moniker range=">=vs-2022"
 When you select an environment in the list, Visual Studio displays various properties and commands for that environment on the **Overview** tab. For example, you can see in the image above that the interpreter's location is *C:\Program Files (x86)\Microsoft Visual Studio\Python310*. The four commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference - Overview](python-environments-window-tab-reference.md#overview-tab).
 :::moniker-end.
@@ -151,7 +152,7 @@ Visual Studio also provides a command to generate a *requirements.txt* file from
 
 #### Conda environments
 
-A conda environment is one created using the `conda` tool, or with integrated conda management in Visual Studio 2017 version 15.7 and higher. (Requires Anaconda or Miniconda, which are available through the Visual Studio installer, see [Installation](installing-python-support-in-visual-studio.md#visual-studio-2019-and-visual-studio-2017).)
+A conda environment is one created using the `conda` tool, or with integrated conda management in Visual Studio 2017 version 15.7 and higher. (Requires Anaconda or Miniconda, which are available through the Visual Studio installer, see [Installing Visual Studio 2017 and Visual Studio 2019](installing-python-support-in-visual-studio.md#visual-studio-2017-and-visual-studio-2019).)
 
 ::: moniker range="vs-2017"
 

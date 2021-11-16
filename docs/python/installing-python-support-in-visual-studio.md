@@ -162,7 +162,7 @@ If you encounter problems installing or running Python in Visual Studio, try the
 
 :::moniker range=">=vs-2022"
 
-## Install locations
+## Install locations for Visual Studio 2022
 
 By default, Python support gets installed for all users on a computer.
 For Visual Studio 2022, the Python workload installs in *%ProgramFiles%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python* where &lt;VS_version&gt; is 2022 and &lt;VS_edition&gt; is Community, Professional, or Enterprise.
@@ -170,7 +170,7 @@ For Visual Studio 2022, the Python workload installs in *%ProgramFiles%\Microsof
 
 :::moniker range=">=vs-2017 <=vs-2019"
 
-## Install locations
+## Install locations for Visual Studio 2019 and Visual Studio 2017
 
 By default, Python support gets installed for all users on a computer.
 For Visual Studio 2019 and Visual Studio 2017, the Python workload installs in *%ProgramFiles(x86)%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python* where &lt;VS_version&gt; is 2019 or 2017 and &lt;VS_edition&gt; is Community, Professional, or Enterprise.
@@ -178,7 +178,7 @@ For Visual Studio 2019 and Visual Studio 2017, the Python workload installs in *
 
 :::moniker range="<=vs-2017"
 
-## Install locations
+## Install locations for Visual Studio 2015 and earlier
 
 For Visual Studio 2015 and earlier, installation paths are as follows:
 
