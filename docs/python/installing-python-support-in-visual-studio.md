@@ -67,7 +67,7 @@ To quickly test Python support after following the installation steps, open the 
     ![Launching, modifying, modifying, or uninstalling Visual Studio from the installer-2022](media\installation-vs-launch-2022.png)
 :::moniker-end
 
-:::moniker range="<=vs-2019"
+:::moniker range="vs-2017, vs-2019"
 
 ## Visual Studio 2017 and Visual Studio 2019
   
@@ -93,6 +93,7 @@ To quickly test Python support after following the installation steps, open the 
 | **Cookiecutter template support** | Installs the Cookiecutter graphical UI to discover templates, input template options, and create projects and files. See [Use the Cookiecutter extension](using-python-cookiecutter-templates.md). |
 | **Python web support** | Installs tools for web development including HTML, CSS, and JavaScript editing support, along with templates for projects using the Bottle, Flask, and Django frameworks. See [Python web project templates](python-web-application-project-templates.md). |
 | **Python native development tools** | Installs the C++ compiler and other necessary components to develop native extensions for Python. See [Create a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md). Also install the **Desktop development with C++** workload for full C++ support.
+:::moniker-end
 
 ::: monikers range="vs-2017"
 
@@ -108,10 +109,10 @@ To quickly test Python support after following the installation steps, open the 
 | **Python native development tools** | Installs the C++ compiler and other necessary components to develop native extensions for Python. See [Create a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md). Also install the **Desktop development with C++** workload for full C++ support. |
 ::: moniker-end
 
-1. After installation, the installer provides options to modify, launch, repair, or uninstall Visual Studio. The **Modify** button changes to **Update** when updates to Visual Studio are available for any installed components. (The **Modify** option is then available on the drop-down menu.) You can also launch Visual Studio and the installer from the Windows **Start** menu by searching on "Visual Studio".
+After installation, the installer provides options to modify, launch, repair, or uninstall Visual Studio. The **Modify** button changes to **Update** when updates to Visual Studio are available for any installed components. (The **Modify** option is then available on the drop-down menu.) You can also launch Visual Studio and the installer from the Windows **Start** menu by searching on "Visual Studio".
 
 ![Launching, modifying, modifying, or uninstalling Visual Studio from the installer-2019](media/installation-vs-launch.png)
-:::moniker-end
+
 
 :::moniker range=">=vs-2017"
   > [!Note]
