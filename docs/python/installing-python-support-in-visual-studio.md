@@ -108,9 +108,6 @@ Optional: if you're working with data science, also consider the **Data science 
 
 ![Python development options in the Visual Studio 2022 installer](media/installation-python-options-2022.png)
 
-:::moniker-end
-
-:::moniker range=">=vs-2022"
 
 | Option | Description |
 | --- | --- |
@@ -125,9 +122,6 @@ Optional: if you're working with data science, also consider the **Data science 
 
 ![Python development options in the Visual Studio 2019 installer](media/installation-python-options-2019.png)
 
-:::moniker-end
-
-:::moniker range="vs-2019"
 
 | Option | Description |
 | --- | --- |
@@ -142,10 +136,7 @@ Optional: if you're working with data science, also consider the **Data science 
 
 ![Python development options in the Visual Studio installer](media/installation-python-options.png)
 
-::: moniker-end
 
-:::moniker range="vs-2017"
-  
 | Option | Description |
 | --- | --- |
 | Python distributions | Choose any combination of the available options, such as 32-bit and 64-bit variants of the Python 2, Python 3, Miniconda, Anaconda2, and Anaconda3 distributions that you plan to work with. Each includes the distribution's interpreter, runtime, and libraries. Anaconda, specifically, is an open data science platform that includes a wide range of pre-installed packages. (You can return to the Visual Studio installer at any time to add or remove distributions.)  **Note**: If you've installed a distribution outside of the Visual Studio installer, there's no need to check the equivalent option here. Visual Studio automatically detects existing Python installations. See [The Python Environments window](managing-python-environments-in-visual-studio.md#the-python-environments-window). Also, if a newer version of Python is available than what's shown in the installer, you can install that version separately and Visual Studio will detect it. |
