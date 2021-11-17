@@ -18,7 +18,7 @@ To install Python support for Visual Studio (also known as Python Tools for Visu
 :::moniker range=">=vs-2022"
 - [Visual Studio 2022](#visual-studio-2022)
 :::moniker-end
-:::moniker range=">=vs2017 <=vs-2019"
+:::moniker range=">=vs-2017"
 - [Visual Studio 2017 and Visual Studio 2019](#visual-studio-2017-and-visual-studio-2019)
 :::moniker-end
 :::moniker range="<=vs-2017"
