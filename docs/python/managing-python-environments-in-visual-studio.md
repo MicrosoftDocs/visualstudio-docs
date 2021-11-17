@@ -308,7 +308,7 @@ For example, select an existing environment and the path to the existing environ
 
 1. Select the **Environment** drop-down, then select **Custom**:
 
-    ![Custom environment option in the Add environment dialog-2022](media/environments/environments-custom-2-2022.png). 
+    ![Custom environment option in the Add environment dialog-2022](media/environments/environments-custom-2-2022.png).
 For example, Anaconda 2021.05 in C:\Users\user\Anaconda3\python.exe
 
 1. In the provided fields in the dialog box, enter or browse (using **...**) to the path of the interpreter under **Prefix path**, which fills in  most of the other fields. After reviewing those values and modifying as necessary, select **Add**.
