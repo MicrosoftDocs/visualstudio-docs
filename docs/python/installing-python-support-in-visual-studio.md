@@ -84,8 +84,6 @@ To quickly test Python support after following the installation steps, open the 
   ![Python development workload in the Visual Studio installer](media/installation-python-workload.png).
   Optional: if you're working with data science, also consider the **Data science and analytical applications** workload. This workload includes support for the Python, R, and F# languages. For more information, see [Data science and analytical applications workload](data-science-and-analytical-applications-workload.md).
 
-::: moniker range="vs-2019"
-
 1. On the right side of the installer, choose other options if desired. Skip this step to accept the default options.
     ![Python development options in the Visual Studio 2019 installer](media/installation-python-options-2019.png)
 
@@ -95,7 +93,6 @@ To quickly test Python support after following the installation steps, open the 
 | **Cookiecutter template support** | Installs the Cookiecutter graphical UI to discover templates, input template options, and create projects and files. See [Use the Cookiecutter extension](using-python-cookiecutter-templates.md). |
 | **Python web support** | Installs tools for web development including HTML, CSS, and JavaScript editing support, along with templates for projects using the Bottle, Flask, and Django frameworks. See [Python web project templates](python-web-application-project-templates.md). |
 | **Python native development tools** | Installs the C++ compiler and other necessary components to develop native extensions for Python. See [Create a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md). Also install the **Desktop development with C++** workload for full C++ support.
-::: moniker-end
 
 ::: monikers range="vs-2017"
 
