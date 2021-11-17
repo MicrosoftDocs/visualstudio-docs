@@ -18,7 +18,7 @@ To install Python support for Visual Studio (also known as Python Tools for Visu
 :::moniker range=">=vs-2022"
 - [Visual Studio 2022](#visual-studio-2022)
 :::moniker-end
-:::moniker range=">=vs-2017"
+:::moniker range="<=vs-2019"
 - [Visual Studio 2017 and Visual Studio 2019](#visual-studio-2017-and-visual-studio-2019)
 :::moniker-end
 :::moniker range="<=vs-2017"
@@ -48,7 +48,7 @@ To quickly test Python support after following the installation steps, open the 
 
 :::moniker-end
 
-:::moniker range=">=vs-2017 <=vs-2019"
+:::moniker range="<=vs-2019"
 
 ## Visual Studio 2017 and Visual Studio 2019
   
@@ -172,7 +172,7 @@ By default, Python support gets installed for all users on a computer.
 For Visual Studio 2022, the Python workload installs in *%ProgramFiles%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python* where &lt;VS_version&gt; is 2022 and &lt;VS_edition&gt; is Community, Professional, or Enterprise.
 :::moniker-end
 
-:::moniker range=">=vs-2017 <=vs-2019"
+:::moniker range="<=vs-2019"
 By default, Python support gets installed for all users on a computer.
 For Visual Studio 2019 and Visual Studio 2017, the Python workload installs in *%ProgramFiles(x86)%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python* where &lt;VS_version&gt; is 2019 or 2017 and &lt;VS_edition&gt; is Community, Professional, or Enterprise.
 :::moniker-end
