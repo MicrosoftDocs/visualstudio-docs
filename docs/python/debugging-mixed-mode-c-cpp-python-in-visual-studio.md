@@ -12,21 +12,8 @@ ms.workload:
   - python
   - data-science
 ---
-title: Mixed-mode debugging for Python
-description: Simultaneously debug C++ and Python in Visual Studio including stepping between environments, viewing values, and evaluating expressions.
-ms.date: 11/12/2018
-ms.topic: how-to
-author: rjmolyneaux
-ms.author: rmolyneaux
-manager: jmartens
-ms.technology: vs-python
 
-ms.workload:
-  - python
-  - data-science
----
-
-# Debug Python and C++ together    
+# Debug Python and C++ together
 
 Most regular Python debuggers support debugging of only Python code. In practice, however, Python is used in conjunction with C or C++ in scenarios requiring high performance or the ability to directly invoke platform APIs. (See [Create a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md) for a walkthrough.)
 
