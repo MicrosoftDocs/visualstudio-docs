@@ -15,11 +15,16 @@ ms.workload:
 # How to install Python support in Visual Studio on Windows
 
 To install Python support for Visual Studio (also known as Python Tools for Visual Studio or PTVS), follow the instructions in the section that matches your version of Visual Studio:
-
+:::moniker range=">=vs-2022"
 - [Visual Studio 2022](#visual-studio-2022)
+:::moniker-end
+:::moniker range=">=vs2017 <=vs-2019"
 - [Visual Studio 2017 and Visual Studio 2019](#visual-studio-2017-and-visual-studio-2019)
+:::moniker-end
+:::moniker range="<=vs-2017"
 - [Visual Studio 2015](#visual-studio-2015)
 - [Visual Studio 2013 and earlier](#visual-studio-2013-and-earlier)
+:::moniker-end
 
 To quickly test Python support after following the installation steps, open the **Python Interactive** window by pressing **Alt**+**I** and entering `2+2`. If you don't see the output of `4`, recheck your steps.
 
@@ -62,12 +67,12 @@ To quickly test Python support after following the installation steps, open the 
 1. The installer presents you with a list of workloads, which are groups of related options for specific development areas. For Python, select the **Python development** workload.
 
   ![Python development workload in the Visual Studio installer](media/installation-python-workload.png).
-
   Optional: if you're working with data science, also consider the **Data science and analytical applications** workload. This workload includes support for the Python, R, and F# languages. For more information, see [Data science and analytical applications workload](data-science-and-analytical-applications-workload.md).
 
-> [!Note]
-  The Python and Data Science workloads are available only with Visual Studio 2017 version 15.2 and later.
 :::moniker-end
+
+> [!Note]
+> The Python and Data Science workloads are available only with Visual Studio 2017 version 15.2 and later.
 
 :::moniker range=">=vs-2022"
 
@@ -80,7 +85,7 @@ To quickly test Python support after following the installation steps, open the 
 1. On the right side of the installer, choose other options if desired. Skip this step to accept the default options.
     ![Python development options in the Visual Studio 2019 installer](media/installation-python-options-2019.png)
 ::: moniker-end
-::: monikers range"=vs-2017"
+::: monikers range"vs-2017"
 
 1.On the right side of the installer, choose other options if desired. Skip this step to accept the default options.
     ![Python development options in the Visual Studio installer](media/installation-python-options.png)
@@ -116,8 +121,9 @@ To quickly test Python support after following the installation steps, open the 
 
 1. After installation, the installer provides options to modify, launch, repair, or uninstall Visual Studio. The **Modify** button changes to **Update** when updates to Visual Studio are available for any installed components. (The **Modify** option is then available on the drop-down menu.) You can also launch Visual Studio and the installer from the Windows **Start** menu by searching on "Visual Studio".
 
-![Launching, modifying, modifying, or uninstalling Visual Studio from the installer-2022](media\installation-vs-launch-2022.png)
+    ![Launching, modifying, modifying, or uninstalling Visual Studio from the installer-2022](media\installation-vs-launch-2022.png)
 :::moniker-end
+
 :::moniker range="vs-2019"
 
 1. After installation, the installer provides options to modify, launch, repair, or uninstall Visual Studio. The **Modify** button changes to **Update** when updates to Visual Studio are available for any installed components. (The **Modify** option is then available on the drop-down menu.) You can also launch Visual Studio and the installer from the Windows **Start** menu by searching on "Visual Studio".
@@ -135,9 +141,9 @@ If you encounter problems installing or running Python in Visual Studio, try the
 
 **Example error**: Failed to start interactive process: System.ComponentModel.Win32Exception (0x80004005): Unknown error (0xc0000135) at Microsoft.PythonTools.Repl.PythonInteractiveEvaluator.d__43.MoveNext().
 
-## Visual Studio 2015
-
 :::moniker range="<=vs-2017"
+
+## Visual Studio 2015
 
 1. Run the Visual Studio installer through **Control Panel > Programs and Features**, selecting **Microsoft Visual Studio 2015** and then **Change**.
 
