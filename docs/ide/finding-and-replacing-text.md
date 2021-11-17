@@ -2,7 +2,7 @@
 title: Find and replace text, and multi-caret selection
 description: Learn about the Find and Replace feature and how to use it to find and replace instances of a pattern.
 ms.custom: SEO-VS-2020
-ms.date: 11/15/2021
+ms.date: 11/17/2021
 ms.topic: conceptual
 f1_keywords:
 - vs.find
@@ -69,7 +69,7 @@ The **Find and Replace** control appears in the upper right corner of the code e
 
 You can access replacement options by choosing the button next to the **Find** text box. To make one replacement at a time, choose the **Replace Next** button next to the **Replace** text box. To replace all matches, choose the **Replace All** button.
 
-To change the highlight color for matches, choose the **Tools** menu, select **Options**, and then choose **Environment**, and select **Fonts and Colors**. In the **Show settings for** list, select **Text Editor**, and then in the **Display items** list, select **Find Highlight (Extension)**.
+To change the highlight color for matches, choose the **Tools** menu, select **Options**, and then choose **Environment**, and select **Fonts and Colors**. In the **Show settings for** list, select **Text Editor**, and then in the **Display items** list, select **Find Match Highlight**.
 
 ### Search tool windows
 
