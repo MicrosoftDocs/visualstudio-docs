@@ -102,8 +102,6 @@ Open a command prompt and use the bootstrapper's parameters as defined in the [U
 > [!TIP]
 > To prevent an error, make sure that your full installation path is less than 80 characters.
 
-::: moniker range="<=vs-2019"
-
 - For .NET web and .NET desktop development, run:
 ::: moniker range="<=vs-2019"
    ```shell
