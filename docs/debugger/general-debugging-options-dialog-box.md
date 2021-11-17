@@ -139,16 +139,6 @@ Controls the direction in which stacks are displayed in the **Parallel Stacks** 
 **Ignore GPU memory access exceptions if the data written didn't change the value**:
 Ignores race conditions that were detected during debugging if the data didn't change. For more information, see [Debugging GPU Code](../debugger/debugging-gpu-code.md).
 
-**Use Managed Compatibility Mode**:
-Replaces the default debugging engine with a legacy version to enable these scenarios:
-
-- You are using a .NET language other than C#, Visual Basic, or F# that provides its own Expression Evaluator (this includes C++/CLI).
-
-- You want to enable Edit and Continue for C++ projects during mixed mode debugging.
-
-> [!NOTE]
-> Choosing Managed Compatibility mode disables some features that are implemented only in the default debugging engine. The legacy debugging engine was replaced in Visual Studio 2012.
-
 ::: moniker range="vs-2017"
 **Use the legacy C# and VB expression evaluators**:
 The debugger will use the Visual Studio 2013 C# or Visual Basic expression evaluators rather than the Visual Studio 2015 Roslyn-based expression evaluators.
