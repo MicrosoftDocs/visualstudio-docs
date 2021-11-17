@@ -17,17 +17,17 @@ ms.workload:
 To install Python support for Visual Studio (also known as Python Tools for Visual Studio or PTVS), follow the instructions in the section that matches your version of Visual Studio:
 :::moniker range=">=vs-2022"
 
-- [Visual Studio 2022](#visual-studio-2022)
+-[Visual Studio 2022](#visual-studio-2022)
 :::moniker-end
 
 :::moniker range="vs-2019"
 
-- [Visual Studio 2019](#visual-studio-2017-and-visual-studio-2019)
+- [Visual Studio 2019](#visual-studio-2019)
 :::moniker-end
 
 :::moniker range="vs-2017"
 
-- [Visual Studio 2017](#visual-studio-2017-and-visual-studio-2019)
+- [Visual Studio 2017](#visual-studio-2017)
 :::moniker-end
 :::moniker range="<=vs-2017"
 
@@ -80,7 +80,7 @@ To quickly test Python support after following the installation steps, open the 
 
 :::moniker range="vs-2017"
  > [!div class="nextstepaction"]
-> [Install Visual Studio 2017](https://my.visualstudio.com/Downloads?q=Visual-Studio-2017)
+> [Install Visual Studio 2017 community](https://my.visualstudio.com/Downloads?q=Visual-Studio-2017)
 :::moniker-end
 
 1. The installer presents you with a list of workloads, which are groups of related options for specific development areas. For Python, select the **Python development** workload.
