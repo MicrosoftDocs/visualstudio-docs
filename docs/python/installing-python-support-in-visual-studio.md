@@ -80,12 +80,14 @@ To quickly test Python support after following the installation steps, open the 
     ![Python development options in the Visual Studio 2022 installer](media/installation-python-options-2022.png)
     {content}
 :::moniker-end
+
 ::: moniker range="vs-2019"
 
 1. On the right side of the installer, choose other options if desired. Skip this step to accept the default options.
     ![Python development options in the Visual Studio 2019 installer](media/installation-python-options-2019.png)
 ::: moniker-end
-::: monikers range"vs-2017"
+
+::: monikers range="vs-2017"
 
 1.On the right side of the installer, choose other options if desired. Skip this step to accept the default options.
     ![Python development options in the Visual Studio installer](media/installation-python-options.png)
