@@ -26,7 +26,7 @@ On Apple Silicon machines (also known as M1 or ARM), Visual Studio for Mac 8.10 
 
     ```bash
     chmod +x dotnet-uninstall-pkgs.sh 
-    sudo ./ dotnet-uninstall-pkgs.sh
+    sudo ./dotnet-uninstall-pkgs.sh
     sudo rm -r /etc/dotnet
     ```  
 
