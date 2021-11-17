@@ -41,7 +41,7 @@ To run your container to support a development workflow, you'll do the following
 
 1. Make sure you don't have any previous `getting-started` containers running.
 
-1. In the `getting-started` folder, run the following command (replace the ` \ ` characters with `` ` `` in Windows PowerShell). You'll learn what's going on afterwards:
+1. In the `app` folder, run the following command (replace the ` \ ` characters with `` ` `` in Windows PowerShell). You'll learn what's going on afterwards:
 
     ```bash
     docker run -dp 3000:3000 -w /app -v ${PWD}:/app node:12-alpine sh -c "yarn install && yarn run dev"
