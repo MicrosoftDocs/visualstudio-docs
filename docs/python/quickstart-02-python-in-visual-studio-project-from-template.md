@@ -94,4 +94,3 @@ Using templates can save you significant time when starting a project or creatin
 - [Install Python support in Visual Studio 2022](installing-python-support-in-visual-studio.md#visual-studio-2022)
 - [Install Python support in Visual Studio 2017 and Visual Studio 2019](installing-python-support-in-visual-studio.md#visual-studio-2017-and-visual-studio-2019)
 - [Install Python support in Visual Studio 2015](installing-python-support-in-visual-studio.md#visual-studio-2015)
-- 

@@ -80,4 +80,6 @@ Once you've [installed Python support in Visual Studio](installing-python-suppor
 
 - [Manually identify an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment)
 - [How to install Python support in Visual Studio on Windows](installing-python-support-in-visual-studio.md)
-- [Install locations](installing-python-support-in-visual-studio.md#install-locations)
+- [- [Install Python support in Visual Studio 2022](installing-python-support-in-visual-studio.md#visual-studio-2022)
+- [Install Python support in Visual Studio 2017 and Visual Studio 2019](installing-python-support-in-visual-studio.md#visual-studio-2017-and-visual-studio-2019)
+- [Install Python support in Visual Studio 2015](installing-python-support-in-visual-studio.md#visual-studio-2015)
