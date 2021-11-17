@@ -67,7 +67,7 @@ To quickly test Python support after following the installation steps, open the 
     ![Launching, modifying, modifying, or uninstalling Visual Studio from the installer-2022](media\installation-vs-launch-2022.png)
 :::moniker-end
 
-:::moniker range="vs-2017","vs-2019"
+:::moniker range="vs-2017" "vs-2019"
 
 ## Visual Studio 2017 and Visual Studio 2019
   
