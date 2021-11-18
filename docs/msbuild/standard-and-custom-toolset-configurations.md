@@ -86,11 +86,7 @@ Visual Studio 2017 and later versions do not use a registry key for the path to 
 
 ## Custom Toolset definitions
 
- When a standard Toolset does not fulfill your build requirements, you can create a custom `Toolset`. For example, you may have a build lab scenario in which you must have a separate system for building C++ projects. By using a custom `Toolset`, you can assign custom values to the `ToolsVersion` attribute when run *MSBuild.exe*, as follows:
-
-```cmd
-MSBuild.exe -toolsVersion:<custom toolset> MyProject.proj
-```
+ When a standard Toolset does not fulfill your build requirements, you can create a custom `Toolset`. For example, you may have a build lab scenario in which you must have a separate system for building C++ projects. By using a custom `Toolset`, you can assign custom values to the `ToolsVersion` attribute when run *MSBuild.exe* by using the `/toolsVersion` command-line switch. If you specify the `ToolsVersion` attribute in the project file, it is ignored.
 
  By doing this, you can also use the `$(MSBuildToolsPath)` property to import *.targets* files from that directory, as well as defining your own custom Toolset properties that can be used for any project that uses that Toolset.
 
