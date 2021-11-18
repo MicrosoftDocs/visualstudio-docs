@@ -97,7 +97,7 @@ The Python developer community has produced thousands of useful packages that yo
 :::moniker-end
 
 :::moniker range="vs-2019"
-   ![Installing matplotlib in the environment-2019](media/environments/environments-add-matplotlib2-2019.png)
+        ![Installing matplotlib in the environment-2019](media/environments/environments-add-matplotlib2-2019.png)
 
    > [!NOTE]
    > A small progress bar might appear underneath the environment to indicate that Visual Studio is building its IntelliSense database for the newly-installed package. The **IntelliSense** tab also shows more detailed information. Be aware that until that database is complete, IntelliSense features like auto-completion and syntax checking won't be active in the editor for that package.
