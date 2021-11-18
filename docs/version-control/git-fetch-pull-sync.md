@@ -2,7 +2,7 @@
 title: Fetch, pull, push, and sync in Visual Studio
 titleSuffix: ""
 description: Fetch, pull, push, and sync in Visual Studio by using Git or Azure DevOps.
-ms.date: 11/08/2021
+ms.date: 11/10/2021
 ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
@@ -62,4 +62,5 @@ To continue your journey, visit the [Browse Git repositories](git-browse-reposit
 
 ## See also
 
-[Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md)
+- [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md)
+- [Visual Studio & GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)

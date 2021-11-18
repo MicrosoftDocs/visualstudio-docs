@@ -118,7 +118,7 @@ For ASP.NET Core developers who are targeting .NET 6, there are additional capab
 * **No Debugger:** You get Hot Reload support when using Visual Studio to start your web app without the debugger (CTRL-F5).
 
 > [!NOTE]
-> When working on a Blazor Wasm app and using Visual Studio 2022, Hot Reload for razor pages currently only works when launching apps without the debugger.
+> When working on a Blazor Wasm app and using Visual Studio 2022, Hot Reload for Razor Pages currently only works when launching apps without the debugger.
 
 ## Supported .NET Edits
 
@@ -136,13 +136,24 @@ The .NET Hot Reload experience is powered by the [Edit and Continue](../debugger
 
 The preceding improvements are available to both Hot Reload and the Edit and Continue experiences.
 
-## Unsupported .NET Scenarios
+## Unsupported .NET scenarios
 
 Unsupported scenarios:
 
 * Xamarin.Forms apps won’t support .NET Hot Reload in iOS and Android scenarios. You get partial support for Hot Reload when targeting a UWP app. This is by design, and we don’t expect to make any further improvements. (Note: XAML Hot Reload will continues to be available and supported for Xamarin.Forms customers on the latest SDK.)
 * .NET MAUI apps are not supported prior to Visual Studio 2022 version 17.1 Preview 1. Starting in 17.1 Preview 1, .NET MAUI is supported, but only with the debugger attached.
 * Apps built using F# or those targeting .NET Native do not support Hot Reload.
+
+If you’re using Visual Studio without the debugger. NET Hot Reload only works for apps targeting .NET 6.
+
+In addition, Hot Reload is not available in some project configurations:
+
+* If you’re using the Visual Studio debugger to run your app, but you’ve disabled `Edit and Continue` in settings, Hot Reload is not supported.
+* Release or custom build configurations are not supported. Your project must use the Debug build configuration.
+* Some startup or compile optimizations are not supported in .NET Hot Reload. For example, if your project's debug profile is configured in the following ways, .NET Hot Reload is not supported:
+  * [Trimming](/dotnet/core/deploying/trimming/trimming-options) is enabled for your project. For example, it's not supported if `PublishTrimmed` is set to True in your project file for the debug profile.
+  * [ReadyToRun](/dotnet/core/deploying/ready-to-run) is enabled for your project. For example, it's not supported if `PublishReadyToRun` is set to True in your project file for the debug profile.
+* For WinUI 3 apps, native code debugging is enabled by default (even if the setting is absent from *LaunchSettings.json*), and .NET Hot Reload is not supported when doing mixed mode debugging in this way. For this reason, you must add the explicit setting `nativeDebugging: false` to *LaunchSettings.json* in order to get .NET Hot Reload to work correctly.
 
 ## Configure Hot Reload
 
