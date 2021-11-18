@@ -139,6 +139,7 @@ Controls the direction in which stacks are displayed in the **Parallel Stacks** 
 **Ignore GPU memory access exceptions if the data written didn't change the value**:
 Ignores race conditions that were detected during debugging if the data didn't change. For more information, see [Debugging GPU Code](../debugger/debugging-gpu-code.md).
 
+::: moniker range="<= vs-2022"
 **Use Managed Compatibility Mode**:
 Replaces the default debugging engine with a legacy version to enable these scenarios:
 
@@ -148,6 +149,7 @@ Replaces the default debugging engine with a legacy version to enable these scen
 
 > [!NOTE]
 > Choosing Managed Compatibility mode disables some features that are implemented only in the default debugging engine. The legacy debugging engine was replaced in Visual Studio 2012.
+::: moniker-end
 
 ::: moniker range="vs-2017"
 **Use the legacy C# and VB expression evaluators**:
