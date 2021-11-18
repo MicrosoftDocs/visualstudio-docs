@@ -20,7 +20,7 @@ Python is a popular programming language that is reliable, flexible, easy to lea
 
 Visual Studio is a powerful Python IDE on Windows. Visual Studio provides [open-source](https://github.com/Microsoft/ptvs) support for the Python language through the **Python Development** and **Data Science** workloads (Visual Studio 2017 and later) and the free Python Tools for Visual Studio extension (Visual Studio 2015 and earlier).
 
-Python is not presently supported in Visual Studio for Mac, but is available on Mac and Linux through Visual Studio Code. (see [questions and answers](#questions-and-answers)).
+Python is no presently supported in Visual Studio for Mac, but is available on Mac and Linux through Visual Studio Code. (see [questions and answers](#questions-and-answers)).
 
 To get started:
 

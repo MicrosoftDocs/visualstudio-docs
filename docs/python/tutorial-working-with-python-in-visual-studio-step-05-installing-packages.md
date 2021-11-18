@@ -54,11 +54,11 @@ The Python developer community has produced thousands of useful packages that yo
 1. With a Python project open, you can also open the Python Environments window from Solution Explorer by right-clicking **Python Environments** and selecting **View All Python Environments**
 
    :::moniker range="vs-2022"
-    ![Python Environmenrt-2022](media/environments/environments-view-all-2022.png)
+    ![Python Environments-2022](media/environments/environments-view-all-2022.png)
    :::moniker-end
 
    :::moniker range="vs-2019"
-    ![Environment-2022](media/environments/environments-view-all-2019.png)
+    ![Python Environments-2019](media/environments/environments-view-all-2019.png)
    :::moniker-end
 
 1. Looking at the editor window, you'll notice that if you hover over the `numpy` and `matplotlib` import statements that they are not resolved. That's because the packages have not been installed to the default global environment.
@@ -71,18 +71,16 @@ The Python developer community has produced thousands of useful packages that yo
 
    :::moniker range="vs-2022"
    ![Packages installed in an environment-2022](media/environments/environments-installed-packages-2022.png)
-   :::moniker-end
-    
+   :::moniker-end    
    :::moniker range="vs-2019"
    ![Packages installed in an environment-2019](media/environments/environments-installed-packages-2019.png)
    :::moniker-end
    
-1. Install `matplotlib` by entering its name into the search field and then selecting the **Run command: pip install matplotlib** option. This will install `matplotlib`, and any packages it depends on (in this case that includes `numpy`).
+1. Install `matplotlib` by entering its name into the search field and then selecting the **Run command: pip install matplotlib** option. This option will install `matplotlib`, and any packages it depends on (in this case that includes `numpy`).
 
    :::moniker range="vs-2022"
     ![Installing matplotlib in the environment-2022 in Packages tab](media/environments/environments-add-matplotlib-2022.png)
    :::moniker-end
-
    :::moniker range="vs-2019"
    ![Installing matplotlib in the environment-2019 in Packages tab](media/environments/environments-add-matplotlib-2019.png)
    :::moniker-end
@@ -98,7 +96,6 @@ Visual Studio 2017 version 15.6 and later uses a different and faster method for
    :::moniker range="vs-2022"
    ![Installing matplotlib in the environment-2022](media/environments/environments-add-matplotlib2-2022.png)
    :::moniker-end
-
    :::moniker range="vs-2019"
    ![Installing matplotlib in the environment-2019](media/environments/environments-add-matplotlib2-2019.png)
    :::moniker-end

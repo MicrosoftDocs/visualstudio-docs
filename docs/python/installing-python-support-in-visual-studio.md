@@ -48,7 +48,7 @@ To quickly test Python support after following the installation steps, open the 
 ## Visual Studio 2022
 
 :::moniker-end
-:::moniker range="vs-2019"
+:::Moniker range="vs-2019"
 
 ## Visual Studio 2019
 

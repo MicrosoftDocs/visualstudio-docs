@@ -83,7 +83,7 @@ When you select an environment in the list, Visual Studio displays various prope
 When you select an environment in the list, Visual Studio displays various properties and commands for that environment on the **Overview** tab. For example, you can see in the image above that the interpreter's location is **C:\Program Files (x86)\Microsoft Visual Studio\Python310**. The four commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference - Overview](python-environments-window-tab-reference.md#overview-tab).
 :::moniker-end
 
-To the right of each listed environment is a control that opens an **Interactive** window for that environment. (In Visual Studio 2017 15.5 and earlier, another control appears that refreshes the IntelliSense database for that environment. See [Environments window tab reference](python-environments-window-tab-reference.md) for details about the database.)
+To the right of each listed environment, is a control that opens an **Interactive** window for that environment. (In Visual Studio 2017 15.5 and earlier, another control appears that refreshes the IntelliSense database for that environment. See [Environments window tab reference](python-environments-window-tab-reference.md) for details about the database.)
 
 ::: moniker range="vs-2017"
 > [!Tip]
@@ -129,7 +129,7 @@ Visual Studio can work with global, virtual, and conda environments.
 
 #### Global environments
 
-Each Python installation (for example, Python 2.7, Python 3.6, Python 3.7, Anaconda 4.4.0, etc., see [Install Python interpreters](installing-python-interpreters.md)) maintains its own *global environment*. Each environment is composed of the specific Python interpreter, its standard library, a set of pre-installed packages, and any additional packages you install while that environment is activated. Installing a package into a global environment makes it available to all projects using that environment. If the environment is located in a protected area of the file system (within *c:\program files*, for example), then installing packages requires administrator privileges.
+Each Python installation (for example, Python 2.7, Python 3.6, Python 3.7, Anaconda 4.4.0, etc., see [Install Python interpreters](installing-python-interpreters.md)) maintains its own *global environment*. Each environment is composed of the specific Python interpreter, its standard library, a set of pre-installed packages, and any other packages you install while that environment is activated. Installing a package into a global environment makes it available to all projects using that environment. If the environment is located in a protected area of the file system (within *c:\program files*, for example), then installing packages requires administrator privileges.
 
 Global environments are available to all projects on the computer. In Visual Studio, you select one global environment as the default, which is used for all projects unless you specifically choose a different one for a project. For more information, see [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
 
@@ -199,7 +199,7 @@ A conda environment is one created using the `conda` tool, or with integrated co
 
 1. Within Visual Studio, you can activate a conda environment for a project as you would any other environment as described on [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
 
-1. To install additional packages in the environment, use the [Packages tab](python-environments-window-tab-reference.md#packages-tab).
+1. To install more packages in the environment, use the [Packages tab](python-environments-window-tab-reference.md#packages-tab).
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
@@ -230,7 +230,7 @@ A conda environment is one created using the `conda` tool, or with integrated co
 
 1. Within Visual Studio, you can activate a conda environment for a project as you would any other environment as described on [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
 
-1. To install additional packages in the environment, use the [Packages tab](python-environments-window-tab-reference.md#packages-tab).
+1. To install more packages in the environment, use the [Packages tab](python-environments-window-tab-reference.md#packages-tab).
 ::: moniker-end
 
 > [!Note]
@@ -278,7 +278,7 @@ Use the following steps to identify an environment that's installed in a non-sta
 
 1. Once the fields contain the values you want, select **Apply** to save the configuration. You can now use the environment like any other within Visual Studio.
 
-1. If you need to remove a manually identified environment, select the **Remove** command on the **Configure** tab. Auto-detected environments do not provide this option. For more information, see [Configure tab](python-environments-window-tab-reference.md#configure-tab).
+1. If you need to remove a manually identified environment, select the **Remove** command on the **Configure** tab. Autodetected environments do not provide this option. For more information, see [Configure tab](python-environments-window-tab-reference.md#configure-tab).
 
 ::: moniker-end
 
@@ -296,7 +296,7 @@ Use the following steps to identify an environment that's installed in a non-sta
 
     ![Fields to specify details for a custom environment option in the Add environment dialog](media/environments/environments-custom-3-2019.png)
 
-1. Details of the environment can be reviewed and modified at any time in the **Python Environments** window. In that window, select the environment, then select the **Configure** tab. After making changes, select the **Apply** command. You can also remove the environment using the **Remove** command (not available for auto-detected environments). For more information, see [Configure tab](python-environments-window-tab-reference.md#configure-tab).
+1. Details of the environment can be reviewed and modified at any time in the **Python Environments** window. In that window, select the environment, then select the **Configure** tab. After making changes, select the **Apply** command. You can also remove the environment using the **Remove** command (not available for autodetected environments). For more information, see [Configure tab](python-environments-window-tab-reference.md#configure-tab).
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
@@ -315,7 +315,7 @@ For example, Anaconda 2021.05 in C:\Users\user\Anaconda3\python.exe
 
     ![Fields to specify details for a custom environment option in the Add environment dialog-2022](media/environments/environments-custom-3-2022.png)
 
-1. Details of the environment can be reviewed and modified at any time in the **Python Environments** window. In that window, select the environment, then select the **Configure** tab. After making changes, select the **Apply** command. You can also remove the environment using the **Remove** command (not available for auto-detected environments). For more information, see [Configure tab](python-environments-window-tab-reference.md#configure-tab).
+1. Details of the environment can be reviewed and modified at any time in the **Python Environments** window. In that window, select the environment, then select the **Configure** tab. After making changes, select the **Apply** command. You can also remove the environment using the **Remove** command (not available for autodetected environments). For more information, see [Configure tab](python-environments-window-tab-reference.md#configure-tab).
 ::: moniker-end
 
 ## Fix or delete invalid environments
