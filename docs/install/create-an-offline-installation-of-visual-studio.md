@@ -102,14 +102,17 @@ Open a command prompt and use the bootstrapper's parameters as defined in the [U
 > [!TIP]
 > To prevent an error, make sure that your full installation path is less than 80 characters.
 
-- For .NET web and .NET desktop development, run:
 ::: moniker range="<=vs-2019"
+- For .NET web and .NET desktop development, run:
+
    ```shell
     vs_enterprise.exe --layout c:\localVScache --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional --lang en-US
     ```
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
+- For .NET web and .NET desktop development, run:
+
    ```shell
     vs_enterprise.exe --layout c:\vslayout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --includeOptional --lang en-US
     ```
