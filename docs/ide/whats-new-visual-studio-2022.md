@@ -73,7 +73,7 @@ If you've worked with projects hosted on different Git repositories, you might h
 
 ## Designing for everyone
 
-We’re refreshing the user interface to better keep you in your flow. Some of the changes are subtle cosmetic touches that modernize the UI or reduce crowding.
+We’re refreshing the user interface to better keep you in your flow. Some of the changes include cosmetic touches that modernize the UI or reduce crowding.
 
 ### Look & feel
 
