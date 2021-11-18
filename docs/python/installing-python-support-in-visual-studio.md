@@ -82,7 +82,6 @@ To quickly test Python support after following the installation steps, open the 
 
 >[!div class="nextstepaction"]
 > [Install Visual Studio 2017 community](https://my.visualstudio.com/Downloads?q=Visual-Studio-2017)
-
 :::moniker-end
 
 1. The installer presents you with a list of workloads, which are groups of related options for specific development areas. For Python, select the **Python development** workload.
@@ -101,11 +100,10 @@ Optional: if you're working with data science, also consider the **Data science 
 ![Python development options in the Visual Studio 2019 installer](media/installation-python-options-2019.png)
 :::moniker-end
 
-::: monikers range="vs-2017"
+:::moniker range="vs-2017"
 
-![Python development options in the Visual Studio installer](media/installation-python-options.png)
+![Python development options in Visual Studio 2017 installer](media\installation-python-options.png)
 :::moniker-end
-
 
 | Option | Description |
 | --- | --- |
