@@ -57,6 +57,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE
  ```
 
 ::: moniker-end
+:::moniker range="vs-2022"
 
 ## Apply the license after installation
 
