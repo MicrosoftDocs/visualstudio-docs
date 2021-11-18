@@ -33,9 +33,9 @@ Technically, any filename may be used to track requirements (by using `-r <full 
   - **Refresh existing entries** detects package requirements and updates the version specifiers to match the version you currently have installed.
   - **Update and add entries** refreshes any requirements that are found, and adds all other packages to the end of the file.
 
-Because *requirements.txt* files are intended to freeze the requirements of an environment, all installed packages are written with precise versions. Using precise versions ensures that you can easily reproduce your environment on another computer. Packages are included even if they were installed with a version range, as a dependency of another package, or with an installer other than pip.
+The *requirements.txt* files contain precise versions of all installed packages, and you can use these files to freeze the requirements of an environment. Using precise versions, you can easily reproduce your environment on another computer. The requirements files include packages even if they were installed with a version range, as a dependency of another package, or with an installer other than pip.
 
-If a package cannot be installed by pip and it appears in a *requirements.txt* file, the entire installation fails. In this case, manually edit the file to exclude this package or to use [pip's options](https://pip.readthedocs.org/en/latest/reference/pip_install.html#requirements-file-format) to refer to an installable version of the package. For example, you may prefer to use [`pip wheel`](https://pip.readthedocs.org/en/latest/reference/pip_wheel.html) to compile a dependency and add the `--find-links <path>` option to your *requirements.txt*:
+If pip doesn't install a package, and the package appears in a *requirements.txt* file, the entire installation fails. In this case, manually edit the file to exclude this package or to use [pip's options](https://pip.readthedocs.org/en/latest/reference/pip_install.html#requirements-file-format) to refer to an installable version of the package. For example, you may prefer to use [`pip wheel`](https://pip.readthedocs.org/en/latest/reference/pip_wheel.html) to compile a dependency and add the `--find-links <path>` option to your *requirements.txt*:
 
 ```output
 C:\Project>pip wheel azure

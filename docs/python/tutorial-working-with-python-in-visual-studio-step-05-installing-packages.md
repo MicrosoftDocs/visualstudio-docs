@@ -27,8 +27,9 @@ The Python developer community has produced thousands of useful packages that yo
    > [!NOTE]
    > You can also open the Python Environments window by selecting the Solution Explorer window and using the **Ctrl+K, Ctrl+`** keyboard shortcut. If the shortcut doesn't work and you can't find the Python Environments window in the menu, it's possible you haven't installed the Python workload. See [How to install Python support in Visual Studio on Windows](installing-python-support-in-visual-studio.md#how-to-install-python-support-in-visual-studio-on-windows) for guidance about how to install Python.
    :::moniker range="vs-2022"
-  ![Python Environments window-2022](media/environments/environments-default-view-2022.png)  
+   ![Python Environments window-2022](media/environments/environments-default-view-2022.png)  
    :::moniker-end
+
    :::moniker range="vs-2019"
    ![Python Environments window-2019](media/environments/environments-default-view-2019.png)
    :::moniker-end
@@ -55,6 +56,7 @@ The Python developer community has produced thousands of useful packages that yo
    :::moniker range="vs-2022"
     ![Python Environmenrt-2022](media/environments/environments-view-all-2022.png)
    :::moniker-end
+
    :::moniker range="vs-2019"
     ![Environment-2022](media/environments/environments-view-all-2019.png)
    :::moniker-end
@@ -69,7 +71,8 @@ The Python developer community has produced thousands of useful packages that yo
 
    :::moniker range="vs-2022"
    ![Packages installed in an environment-2022](media/environments/environments-installed-packages-2022.png)
-   :::moniker-end    
+   :::moniker-end
+    
    :::moniker range="vs-2019"
    ![Packages installed in an environment-2019](media/environments/environments-installed-packages-2019.png)
    :::moniker-end
@@ -79,6 +82,7 @@ The Python developer community has produced thousands of useful packages that yo
    :::moniker range="vs-2022"
     ![Installing matplotlib in the environment-2022 in Packages tab](media/environments/environments-add-matplotlib-2022.png)
    :::moniker-end
+
    :::moniker range="vs-2019"
    ![Installing matplotlib in the environment-2019 in Packages tab](media/environments/environments-add-matplotlib-2019.png)
    :::moniker-end
@@ -90,14 +94,14 @@ The Python developer community has produced thousands of useful packages that yo
 > [!NOTE]
    > A small progress bar might appear underneath the environment to indicate that Visual Studio is building its IntelliSense database for the newly-installed package. The **IntelliSense** tab also shows more detailed information. Be aware that until that database is complete, IntelliSense features like auto-completion and syntax checking won't be active in the editor for that package.
 
-   > Visual Studio 2017 version 15.6 and later uses a different and faster method for working with IntelliSense, and displays a message to that effect on the **IntelliSense** tab.
-
+Visual Studio 2017 version 15.6 and later uses a different and faster method for working with IntelliSense, and displays a message to that effect on the **IntelliSense** tab.
    :::moniker range="vs-2022"
-    ![Installing matplotlib in the environment-2022](media/environments/environments-add-matplotlib2-2022.png)
-    :::moniker-end    
+   ![Installing matplotlib in the environment-2022](media/environments/environments-add-matplotlib2-2022.png)
+   :::moniker-end
+
    :::moniker range="vs-2019"
-    ![Installing matplotlib in the environment-2019](media/environments/environments-add-matplotlib2-2019.png)
-   :::moniker-end   
+   ![Installing matplotlib in the environment-2019](media/environments/environments-add-matplotlib2-2019.png)
+   :::moniker-end
 
 ## Run the program
 
