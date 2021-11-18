@@ -46,7 +46,7 @@ The environments that Visual Studio knows about are displayed in the **Python En
 
 - Select the **View** > **Other Windows** > **Python Environments** menu command.
 - Right-click the **Python Environments** node for a project in **Solution Explorer** and select **View All Python Environments**:
-- 
+
 ::: moniker range="vs-2017"
 ![View All Environments command in Solution Explorer-2017](media/environments/environments-view-all.png)
 ::: moniker-end
