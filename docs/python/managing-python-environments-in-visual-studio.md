@@ -13,7 +13,7 @@ ms.workload:
 ---
 # How to create and manage Python environments in Visual Studio
 
-A **Python environment** is a context in which you run Python code and includes global, virtual, and conda environments. An environment consists of an interpreter, a library (typically the Python Standard Library), and a set of installed packages. These components together determine which language constructs and syntax are valid, what operating-system functionality you can access, and which packages you can use.
+A **Python environment** is a context in which you run Python code and includes global, virtual, and conda environments. An environment consists of an interpreter, a library (typically the Python Standard Library), and a set of installed packages. These components together determine validate language constructs and syntax, operating-system functionality that  you can access, and packages you can use.
 
 In Visual Studio on Windows, you use the **Python Environments** window, as described in this article, to manage environments and select one as the default for new projects. Other aspects of environments are found in the following articles:
 
@@ -57,7 +57,7 @@ The environments that Visual Studio knows about are displayed in the **Python En
 ![View All Environments command in Solution Explorer-2022](media/environments/environments-view-all-2022.png)
 ::: moniker-end
 
-In either case, the **Python Environments** window appears alongside **Solution Explorer**:
+In all these cases, the **Python Environments** window appears alongside **Solution Explorer**:
 
 ::: moniker range="vs-2017"
 ![Python Environments window-2017](media/environments/environments-default-view.png)
@@ -71,17 +71,19 @@ In either case, the **Python Environments** window appears alongside **Solution 
 
 Visual Studio looks for installed global environments using the registry (following [PEP 514](https://www.python.org/dev/peps/pep-0514/)), along with virtual environments and conda environments (see [Types of environments](#types-of-environments)). If you don't see an expected environment in the list, see [Manually identify an existing environment](#manually-identify-an-existing-environment).
 
-When you select an environment in the list, Visual Studio displays various properties and commands for that environment on the **Overview** tab. For example, you can see in the image above that the interpreter's location is *C:\Python36-32*. The four commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference - Overview](python-environments-window-tab-reference.md#overview-tab).
-
-Use the drop-down list below the list of environments to switch to different tabs such as **Packages**, and **IntelliSense**. These tabs are also described in the [Python Environments window tab reference](python-environments-window-tab-reference.md).
+:::moniker range="vs-2017"
+When you select an environment in the list, Visual Studio displays various properties and commands for that environment on the **Overview** tab. For example, you can see in the image above that the interpreter's location is **C:\Python36-32**. The four commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference 2017- Overview](python-environments-window-tab-reference.md#overview-tab).
+:::moniker-end
 
 :::moniker range="vs-2019"
-When you select an environment in the list, Visual Studio displays various properties and commands for that environment on the **Overview** tab. For example, you can see in the image above that the interpreter's location is *C:\Python36-32*. The four commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference - Overview](python-environments-window-tab-reference.md#overview-tab).
+When you select an environment in the list, Visual Studio displays various properties and commands for that environment on the **Overview** tab. For example, you can see in the image above that the interpreter's location is *C:\Python36-32*. The four commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference 2019- Overview](python-environments-window-tab-reference.md#overview-tab).
 :::moniker-end
 
 :::moniker range="vs-2022"
-When you select an environment in the list, Visual Studio displays various properties and commands for that environment on the **Overview** tab. For example, you can see in the image above that the interpreter's location is **C:\Program Files (x86)\Microsoft Visual Studio\Python310**. The four commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference - Overview](python-environments-window-tab-reference.md#overview-tab).
+When you select an environment in the list, Visual Studio displays various properties and commands for that environment on the **Overview** tab. For example, you can see in the image above that the interpreter's location is **C:\Program Files (x86)\Microsoft Visual Studio\Python310**. The four commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference 2022- Overview](python-environments-window-tab-reference.md#overview-tab).
 :::moniker-end
+
+Use the drop-down list below the list of environments to switch to different tabs such as **Packages**, and **IntelliSense**. These tabs are also described in the [Python Environments window tab reference](python-environments-window-tab-reference.md).
 
 To the right of each listed environment, is a control that opens an **Interactive** window for that environment. (In Visual Studio 2017 15.5 and earlier, another control appears that refreshes the IntelliSense database for that environment. See [Environments window tab reference](python-environments-window-tab-reference.md) for details about the database.)
 
@@ -286,15 +288,15 @@ Use the following steps to identify an environment that's installed in a non-sta
 
 1. Select **Add Environment...** in the **Python Environments** window (or from the Python toolbar), which opens the **Add environment** dialog box. In that dialog, select the **Existing environment** tab:
 
-    ![Existing environment tab in the Add environment dialog](media/environments/environments-custom-1-2019.png)
+    ![Existing environment tab in the Add environment dialog-2019](media/environments/environments-custom-1-2019.png)
 
 1. Select the **Environment** drop-down, then select **Custom**:
 
-    ![Custom environment option in the Add environment dialog](media/environments/environments-custom-2-2019.png)
+    ![Custom environment option in the Add environment dialog-2019](media/environments/environments-custom-2-2019.png)
 
 1. In the provided fields in the dialog box, enter or browse (using **...**) to the path of the interpreter under **Prefix path**, which fills in  most of the other fields. After reviewing those values and modifying as necessary, select **Add**.
 
-    ![Fields to specify details for a custom environment option in the Add environment dialog](media/environments/environments-custom-3-2019.png)
+    ![Fields to specify details for a custom environment option in the Add environment dialog0-2019](media/environments/environments-custom-3-2019.png)
 
 1. Details of the environment can be reviewed and modified at any time in the **Python Environments** window. In that window, select the environment, then select the **Configure** tab. After making changes, select the **Apply** command. You can also remove the environment using the **Remove** command (not available for autodetected environments). For more information, see [Configure tab](python-environments-window-tab-reference.md#configure-tab).
 ::: moniker-end
@@ -325,11 +327,8 @@ If Visual Studio finds registry entries for an environment, but the path to the 
 ::: moniker range="vs-2017"
 ![The Python Environments window showing an invalid environment-2017](media/environments/environments-invalid-entry.png)
 ::: moniker-end
-::: moniker range="vs-2019"
-![The Python Environments window showing an invalid environment-2019](media/environments/environments-invalid-entry-2019.png)
-::: moniker-end
-::: moniker range=">=vs-2022"
-![The Python Environments window showing an invalid environment-2022](media/environments/environments-invalid-entry-2022.png)
+::: moniker range=">=vs-2019"
+![The Python Environments window showing an invalid environment-2019-2022](media/environments/environments-invalid-entry-2019.png)
 ::: moniker-end
 
 To correct an environment you wish to keep, first try using its installer's **Repair** process. The installers for standard Python 3.x, for example, include that option.
