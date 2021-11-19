@@ -58,44 +58,48 @@ To quickly test Python support after following the installation steps, open the 
 
 :::moniker range=">=vs-2022"
   
-   >[!div class="nextstepaction"]
-   > [Install Visual Studio 2022 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=17) 
+       >[!div class="nextstepaction"]
+       > [Install Visual Studio 2022 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=17) 
  
-   >[!Tip]
-   > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other users, install [Visual Studio 2022 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=17) or [Visual Studio 2022 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=17)
+       >[!Tip]
+       > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other users, install [Visual Studio 2022 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=17) or [Visual Studio 2022 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=17)
 
 :::moniker-end
 :::moniker range="vs-2019"
 
-   >[!div class="nextstepaction"]
-  > [Install Visual Studio 2019 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted)
+       >[!div class="nextstepaction"]
+       > [Install Visual Studio 2019 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted)
 
-   >[!Tip]
-  > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other uses, install [Visual Studio 2019 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted) or [Visual Studio 2019 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted).  
+       >[!Tip]
+      > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other uses, install [Visual Studio 2019 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted) or [Visual Studio 2019 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted).  
 
 :::moniker-end
 
 :::moniker range="vs-2017"
 
-   >[!div class="nextstepaction"]
-   > [Install Visual Studio 2017 community](https://my.visualstudio.com/Downloads?q=Visual-Studio-2017)
+       >[!div class="nextstepaction"]
+       > [Install Visual Studio 2017 community](https://my.visualstudio.com/Downloads?q=Visual-Studio-2017)
 :::moniker-end
 
 1. The installer presents you with a list of workloads, which are groups of related options for specific development areas. For Python, select the **Python development** workload.
 
    ![Python development workload in the Visual Studio installer](media/installation-python-workload.png)  
  .
-Optional: if you're working with data science, also consider the **Data science and analytical applications** workload. This workload includes support for the Python, R, and F# languages. For more information, see [Data science and analytical applications workload](data-science-and-analytical-applications-workload.md).
+    Optional: if you're working with data science, also consider the **Data science and analytical applications** workload. This workload includes support for the Python, R, and F# languages. For more information, see [Data science and analytical applications workload](data-science-and-analytical-applications-workload.md).
 
 1. On the right side of the installer, choose other options if desired. Skip this step to accept the default options.
 :::moniker range=">=vs-2022"
 
    [Python development options in the Visual Studio 2022 installer](media/installation-python-options-2022.png)
+
 :::moniker-end
+
 :::moniker range="vs-2019"
 
    ![Python development options in the Visual Studio 2019 installer](media/installation-python-options-2019.png)
+
 :::moniker-end
+
 :::moniker range="vs-2017"
 
    ![Python development options in Visual Studio 2017 installer](media\installation-python-options.png)
