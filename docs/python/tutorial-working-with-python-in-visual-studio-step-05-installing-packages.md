@@ -60,7 +60,7 @@ The Python developer community has produced thousands of useful packages that yo
 
    ![Packages installed in an environment](media/environments/environments-installed-packages-2019.png)
 
-2. Install `matplotlib` by entering its name into the search field and then selecting the **Run command: pip install matplotlib** option. This step installs `matplotlib`, includes `numpy` and any packages it depends on.
+2. From the Packages Tab, Install `matplotlib` by entering its name into the search field and then selecting the **Run command: pip install matplotlib** option. This step installs `matplotlib`, includes `numpy` and any packages it depends on.
 
    ![Installing matplotlib in the environment](media/environments/environments-add-matplotlib-2019.png)
 
