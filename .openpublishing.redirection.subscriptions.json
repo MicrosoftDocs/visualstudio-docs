@@ -1,5 +1,5 @@
 {
-    "redirections": [    
+    "redirections": [
         {
             "source_path": "subscriptions/vs-azure.md",
             "redirect_url": "/azure/devtest/offer/quickstart-individual-credit",
