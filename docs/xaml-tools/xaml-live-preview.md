@@ -119,4 +119,4 @@ Learn more about [XAML Hot Reload](xaml-hot-reload.md), which pairs closely with
 
 ## See also
 
-[Visual Studio 2022 release notes](/visualstudio/releases/2022/release-notes-preview)
+[Visual Studio 2022 release notes](/visualstudio/releases/2022/release-notes)

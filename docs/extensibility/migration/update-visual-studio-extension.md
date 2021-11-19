@@ -297,8 +297,6 @@ Publishing your extension to the [Visual Studio Marketplace](https://marketplace
 
 In the future, the Marketplace will allow you to upload multiple VSIXs to just one Marketplace listing, allowing you to upload your Visual Studio 2022-targeted VSIX and a pre-Visual Studio 2022 VSIX. Your users will automatically get the right VSIX for the VS version they have installed, when using the VS extension manager.
 
-For the preview releases of Visual Studio 2022, the Marketplace will only support a single VSIX file per Marketplace listing. While Visual Studio 2022 is in preview we encourage you to have a separate Visual Studio 2022 only Marketplace listing for your extension. That way you can iterate your Visual Studio 2022 extension as needed without impacting your customers on earlier versions of Visual Studio. You can also mark the extension as 'preview' to set the expectation it will likely be less reliable, even if the source of that unreliability is Visual Studio 2022, than your mainstream extension.
-
 ### Custom installer
 
 If you build an MSI/EXE to install your extension and spawn vsixinstaller.exe to install (part of) your extension,
