@@ -56,7 +56,7 @@ To quickly test Python support after following the installation steps, open the 
 
 1. Download and run the latest Visual Studio installer. If you have Visual Studio installed already, run the Visual Studio Installer, select the **Modify** option (see [Modify Visual Studio](../install/modify-visual-studio.md)) and go to step 2.
 
-:::moniker range=">=vs-2022"
+   :::moniker range=">=vs-2022"
   
    >[!div class="nextstepaction"]
    > [Install Visual Studio 2022 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=17) 
@@ -64,8 +64,8 @@ To quickly test Python support after following the installation steps, open the 
 >[!Tip]
 > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other users, install [Visual Studio 2022 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=17) or [Visual Studio 2022 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=17)
 
-:::moniker-end
-:::moniker range="vs-2019"
+   :::moniker-end
+   ::moniker range="vs-2019"
 
    >[!div class="nextstepaction"]
    > [Install Visual Studio 2019 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted)
@@ -73,13 +73,13 @@ To quickly test Python support after following the installation steps, open the 
 >[!Tip]
 > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other uses, install [Visual Studio 2019 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted) or [Visual Studio 2019 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted).  
 
-:::moniker-end
+   :::moniker-end
 
-:::moniker range="vs-2017"
+   :::moniker range="vs-2017"
 
    >[!div class="nextstepaction"]
    > [Install Visual Studio 2017 community](https://my.visualstudio.com/Downloads?q=Visual-Studio-2017)
-:::moniker-end
+   :::moniker-end
 
 1. The installer presents you with a list of workloads, which are groups of related options for specific development areas. For Python, select the **Python development** workload.
 
@@ -115,20 +115,20 @@ To quickly test Python support after following the installation steps, open the 
 
 1. After installation, the installer provides options to modify, launch, repair, or uninstall Visual Studio. The **Modify** button changes to **Update** when updates to Visual Studio are available for any installed components. (The **Modify** option is then available on the drop-down menu.) You can also launch Visual Studio and the installer from the Windows **Start** menu by searching on "Visual Studio".
 
-:::moniker range=">=vs-2022"
+   :::moniker range=">=vs-2022"
 
    ![Launching, modifying, modifying, or uninstalling Visual Studio from the installer-2022](media\installation-vs-launch-2022.png)
 
-:::moniker-end
-:::moniker range="vs-2019"
+   :::moniker-end
+   :::moniker range="vs-2019"
 
    ![Launching, modifying, modifying, or uninstalling Visual Studio from the installer-2019](media/installation-vs-launch.png)
 
-:::moniker-end
-:::moniker range="vs-2017"
-  > [!Note]
-> The Python and Data Science workloads are available only with Visual Studio 2017 version 15.2 and later.
-:::moniker-end
+   :::moniker-end
+
+   > [!Note]
+   > The Python and Data Science workloads are available only with Visual Studio 2017 version 15.2 and later.
+   
 
 ### Troubleshooting
 
