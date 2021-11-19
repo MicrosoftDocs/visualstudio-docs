@@ -166,6 +166,7 @@
   "enable_pull_request_custom_validation": true,
   "redirection_files": [
     ".openpublishing.redirection.json",
+    ".openpublishing.redirection.mac.json",
     ".openpublishing.redirection.subscriptions.json",
     "docs/containers/.openpublishing.redirection.containers.json"
 ]

@@ -3,7 +3,7 @@ title: "Team Foundation Version Control (TFVC)"
 description: "A troubleshooting guide about TFVC and macOS."
 author: jmatthiesen
 ms.author: jomatthi
-ms.date: 09/02/2019
+ms.date: 11/18/2021
 ms.technology: vs-ide-general
 ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
 ms.topic: troubleshooting

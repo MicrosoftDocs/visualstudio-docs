@@ -2,7 +2,7 @@
 title: Clone a repo in Visual Studio
 titleSuffix: ""
 description: Clone a repo in Visual Studio by using Git or Azure DevOps.
-ms.date: 11/08/2021
+ms.date: 11/10/2021
 ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
@@ -87,6 +87,7 @@ To continue your journey, visit the [Create a repo](git-create-repository.md) pa
 ## See also
 
 - [The Git experience in Visual Studio](../ide/git-with-visual-studio.md)
+- [Visual Studio & GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)
 - [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md)
 - [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md)
 - [Work with multiple user accounts](../ide/work-with-multiple-user-accounts.md)

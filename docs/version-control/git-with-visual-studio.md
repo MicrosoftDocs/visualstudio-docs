@@ -2,13 +2,14 @@
 title: The Git experience in Visual Studio
 titleSuffix: ""
 description: Learn how the new integrated Git experience in Visual Studio can help you be more productive.
-ms.date: 11/08/2021
+ms.date: 11/10/2021
 ms.topic: overview
+author: Taysser-Gherfal
 ms.author: tglee
-author: TerryGLee
+ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.manager: jmartens
+
 ---
 # Git experience in Visual Studio
 
@@ -336,13 +337,13 @@ We continue to add new features to enhance the Git experience in Visual Studio. 
 - [Announcing the Release of the Git Experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/announcing-the-release-of-the-git-experience-in-visual-studio/) blog post
 - [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md)
 - [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes)
-- [Visual Studio 2022 RC and Preview release notes](/visualstudio/releases/2022/release-notes-preview)
+- [Visual Studio 2022 release notes](/visualstudio/releases/2022/release-notes)
 
 ::: moniker-end
 
 ::: moniker range="vs-2022"
 
-- [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md)
-- [Visual Studio 2022 RC and Preview release notes](/visualstudio/releases/2022/release-notes-preview)
+- [Visual Studio & GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)
+- [Visual Studio 2022 release notes](/visualstudio/releases/2022/release-notes)
 
 ::: moniker-end

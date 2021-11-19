@@ -2,7 +2,6 @@
 title: Create a network-based installation
 description: Learn how to create a network install point for deploying Visual Studio within an enterprise.
 ms.date: 04/06/2021
-
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -59,14 +58,13 @@ Other supported bootstrappers include [vs_teamexplorer.exe](https://download.vis
 
 ::: moniker range=">=vs-2022"
 
->![!TIP]
-> Released versions of Visual Studio 2022 are not yet available, the bootstrappers below are for the preview release of Visual Studio 2022.
-Start by downloading the Visual Studio 2022 bootstrapper from the [Visual Studio downloads page](https://aka.ms/vs2022preview).
+To get the latest bootstrappers for Visual Studio 2022 that will always install the latest version of the Current channel, download one of the files below. Alternatively, if you want to install a specific version or a specific channel of Visual Studio 2022, go to the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page that has links to the fixed version bootstrappers for each servicing release. 
 
-| Edition                    | Download                                                                             |
+| Edition                    | Bootstrapper                                                                             |
 |----------------------------|--------------------------------------------------------------------------------------|
-| Visual Studio Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/17/preview/bootstrapper/vs_enterprise.exe)     |
-| Visual Studio Professional | [vs_professional.exe](https://aka.ms/vs/17/preview/bootstrapper/vs_professional.exe) |
+| Visual Studio Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/17/release/vs_enterprise.exe)     |
+| Visual Studio Professional | [vs_professional.exe](https://aka.ms/vs/17/release/vs_professional.exe) |
+| Visual Studio 2022 Build Tools   | [vs_buildtools.exe](https://aka.ms/vs/17/release/vs_buildtools.exe)         |
 
 ::: moniker-end
 
@@ -87,7 +85,7 @@ Start by downloading the Visual Studio 2022 bootstrapper from the [Visual Studio
 ::: moniker range=">=vs-2022"
 
 >[!TIP]
->If you previously downloaded a bootstrapper file and want to verify what version it is, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, see [Visual Studio 2022 Releases](/visualstudio/releases/2022/release-notes).
+>If you previously downloaded a bootstrapper file and want to verify what version it will install, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties** and then choose the **Details** tab. The **Product version** field will describe the [channel and version](/visualstudio/releases/2022/vs2022-release-rhythm) that the bootstrapper will install. The version number should always be read as "latest servicing version of what is specified", and the channel is Current unless explicitly specified. So, a bootstrapper with a Product version of LTSC 17.0 will install the latest 17.0.x servicing release that is available on the 17.0 LTSC channel. A bootstrapper with a Product version that simply says Visual Studio 2022 will install the latest version of Visual Studio 2022 on the Current channel.
 
 ::: moniker-end
 
