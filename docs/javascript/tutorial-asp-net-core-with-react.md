@@ -99,11 +99,13 @@ Make sure to have the following installed:
 
 ## Start the project
 
-Before you start the project, make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `applicationUrl` property. (It should look similar to `https://localhost:7049`.)
+1. Before you start the project, make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
 
-Then, go to the *setupProxy.js* file for your React project (look in the *src* folder). Update the target property to match the `applicationUrl` property in  *launchSettings.json*.
+   If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It should look similar to `https://localhost:7049`.
 
-To start the project, press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
+1. Then, go to the *setupProxy.js* file for your React project (look in the *src* folder). Update the target property to match the `applicationUrl` property in  *launchSettings.json*.
+
+1. To start the project, press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
 
 - The ASP.NET Core API project running
 - npm running the react-scripts start command
