@@ -22,7 +22,7 @@ The Python developer community has produced thousands of useful packages that yo
 
 ## View environments
 
-1. Select the **View** > **Other Windows** > **Python Environments** menu command. The **Python Environments** window opens as a peer to **Solution Explorer** and shows the different environments available to you. The list shows both environments that you installed using the Visual Studio installer and those you installed separately. That includes global, virtual, and conda environments. The environment in bold is the default environment that's used for new projects. For additional information about working with environments, see [How to create and manage Python environments in Visual Studio environments](managing-python-environments-in-visual-studio.md).
+1. Select the **View** > **Other Windows** > **Python Environments** menu command. The **Python Environments** window opens as a peer to **Solution Explorer** and shows the different environments available to you. The list shows both environments that you installed using the Visual Studio installer and environments you installed separately. That includes global, virtual, and conda environments. The environment in bold is the default environment that's used for new projects. For more information about working with environments, see [How to create and manage Python environments in Visual Studio environments](managing-python-environments-in-visual-studio.md).
 
    ![Python Environments window](media/environments/environments-default-view-2019.png)
 
@@ -31,7 +31,7 @@ The Python developer community has produced thousands of useful packages that yo
 
 2. The environment's **Overview** tab provides quick access to an **Interactive** window for that environment along with the environment's installation folder and interpreters. For example, select **Open interactive window** and an **Interactive** window for that specific environment appears in Visual Studio.
 
-3. Now, create a new project with **File** > **New** > **Project**, selecting the **Python Application** template. In the code file that appears, paste the following code, which creates a cosine wave like the previous tutorial steps, only this time plotted graphically. Alternatively, you can use the project you previously created and replace the code.
+3. Now, create a new project with **File** > **New** > **Project**, selecting the **Python Application** template. In the code file that appears, paste the following code, which creates a cosine wave like the previous tutorial steps, only this time plotted graphically. You can also use the project you previously created and replace the code.
 
     ```python
     from math import radians
@@ -56,11 +56,11 @@ The Python developer community has produced thousands of useful packages that yo
 
 ## Install packages using the Python Environments window
 
-1. From the Python Environments window, select the default environment for new Python projects and choose the **Packages** tab. You will then see a list of packages that are currently installed in the environment.
+1. From the Python Environments window, select the default environment for new Python projects and choose the **Packages** tab. This step displays a list of packages that are currently installed in the environment.
 
    ![Packages installed in an environment](media/environments/environments-installed-packages-2019.png)
 
-2. Install `matplotlib` by entering its name into the search field and then selecting the **Run command: pip install matplotlib** option. This will install `matplotlib`, as well as any packages it depends on (in this case that includes `numpy`).
+2. Install `matplotlib` by entering its name into the search field and then selecting the **Run command: pip install matplotlib** option. This step installs `matplotlib`, includes `numpy` and any packages it depends on.
 
    ![Installing matplotlib in the environment](media/environments/environments-add-matplotlib-2019.png)
 
