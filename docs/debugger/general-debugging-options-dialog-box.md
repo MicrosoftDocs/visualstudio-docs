@@ -139,7 +139,7 @@ Controls the direction in which stacks are displayed in the **Parallel Stacks** 
 **Ignore GPU memory access exceptions if the data written didn't change the value**:
 Ignores race conditions that were detected during debugging if the data didn't change. For more information, see [Debugging GPU Code](../debugger/debugging-gpu-code.md).
 
-::: moniker range="<= vs-2019"
+::: moniker range="<= vs-2022"
 **Use Managed Compatibility Mode**:
 Replaces the default debugging engine with a legacy version to enable these scenarios:
 
