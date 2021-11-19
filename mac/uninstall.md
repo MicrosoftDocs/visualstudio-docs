@@ -14,7 +14,7 @@ ms.topic: how-to
 You can use this guide to uninstall each component in Visual Studio for Mac individually by navigating to the relevant section, or you can use the scripts provided in the [Uninstall Script](#uninstall-script) section to uninstall everything.
 
 > [!NOTE]
-> We'd like to learn more about why you're uninstalling Visual Studio for Mac so we can make it better. If you have a few minutes, [please share your feedback] (https://aka.ms/vs/mac/uninstallsurvey). Thank you!
+> We'd like to learn more about why you're uninstalling Visual Studio for Mac so we can make it better. If you have a few minutes, [please share your feedback](https://aka.ms/vs/mac/uninstallsurvey). Thank you!
 
 
 ## Uninstall Script
