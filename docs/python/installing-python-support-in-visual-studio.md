@@ -58,8 +58,8 @@ To quickly test Python support after following the installation steps, open the 
 
 :::moniker range=">=vs-2022"
   
->[!div class="nextstepaction"]
-> [Install Visual Studio 2022 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=17) 
+   >[!div class="nextstepaction"]
+   > [Install Visual Studio 2022 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=17) 
  
 >[!Tip]
 > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other users, install [Visual Studio 2022 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=17) or [Visual Studio 2022 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=17)
@@ -67,8 +67,8 @@ To quickly test Python support after following the installation steps, open the 
 :::moniker-end
 :::moniker range="vs-2019"
 
->[!div class="nextstepaction"]
-> [Install Visual Studio 2019 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted)
+   >[!div class="nextstepaction"]
+   > [Install Visual Studio 2019 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted)
 
 >[!Tip]
 > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other uses, install [Visual Studio 2019 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted) or [Visual Studio 2019 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted).  
@@ -77,8 +77,8 @@ To quickly test Python support after following the installation steps, open the 
 
 :::moniker range="vs-2017"
 
->[!div class="nextstepaction"]
-> [Install Visual Studio 2017 community](https://my.visualstudio.com/Downloads?q=Visual-Studio-2017)
+   >[!div class="nextstepaction"]
+   > [Install Visual Studio 2017 community](https://my.visualstudio.com/Downloads?q=Visual-Studio-2017)
 :::moniker-end
 
 1. The installer presents you with a list of workloads, which are groups of related options for specific development areas. For Python, select the **Python development** workload.
@@ -103,8 +103,8 @@ To quickly test Python support after following the installation steps, open the 
    :::moniker range="vs-2017"
 
    ![Python development options in Visual Studio 2017 installer](media\installation-python-options.png)
-  :::moniker-end
 
+   :::moniker-end 
 
 | Option | Description |
 | --- | --- |
