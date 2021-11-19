@@ -54,14 +54,14 @@ The Python developer community has produced thousands of useful packages that yo
 1. With a Python project open, you can also open the Python Environments window from Solution Explorer by right-clicking **Python Environments** and selecting **View All Python Environments**
 
    :::moniker range="vs-2022"
-    ![Python Environments-2022](media/environments/environments-view-all-2022.png)
+   ![Python Environments-2022](media/environments/environments-view-all-2022.png)
    :::moniker-end
 
    :::moniker range="vs-2019"
     ![Python Environments-2019](media/environments/environments-view-all-2019.png)
    :::moniker-end
 
-1. Looking at the editor window, you'll notice that if you hover over the `numpy` and `matplotlib` import statements that they are not resolved. That's because the packages have not been installed to the default global environment.
+1. In the editor window, hover over the `numpy` and `matplotlib` import statements. You'll notice that they aren't resolved. To resolve, install the packages to the default global environment.
 
    ![Unresolved package import](media/packages-unresolved-import.png)
 
@@ -75,7 +75,7 @@ The Python developer community has produced thousands of useful packages that yo
    :::moniker range="vs-2019"
    ![Packages installed in an environment-2019](media/environments/environments-installed-packages-2019.png)
    :::moniker-end
-   
+
 1. Install `matplotlib` by entering its name into the search field and then selecting the **Run command: pip install matplotlib** option. This option will install `matplotlib`, and any packages it depends on (in this case that includes `numpy`).
 
    :::moniker range="vs-2022"

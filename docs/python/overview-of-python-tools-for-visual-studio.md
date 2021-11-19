@@ -34,7 +34,6 @@ To get started:
 > [!Note]
 > Visual Studio supports Python version 2.7, as well as version 3.5 through 3.7. While it is possible to use Visual Studio to edit code written in other versions of Python, those versions are not officially supported and features such as IntelliSense and debugging might not work. Python version 3.8 support is still under development, specific details about support can be seen in this tracking [issue on GitHub](https://github.com/microsoft/PTVS/issues/5822).
 ::: moniker-end
-
 ::: moniker range="vs-2019"
 
 - Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md) or [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json).
@@ -48,19 +47,18 @@ To get started:
 
 ## Support for multiple interpreters
 
-::: moniker range="vs-2017"
 Visual Studio's **Python Environments** window (shown below in a wide, expanded view) gives you a single place to manage all of your global Python environments, conda environments, and virtual environments. Visual Studio automatically detects installations of Python in standard locations, and allows you to configure custom installations. With each environment, you can easily manage packages, open an interactive window for that environment, and access environment folders.
-![Expanded view of the Python Environments window](media/environments/environments-expanded-view.png)
+
+::: moniker range="vs-2017"
+    ![Expanded view of the Python Environments window](media/environments/environments-expanded-view.png)
 ::: moniker-end
 
 ::: moniker range="vs-2019"
-Visual Studio's **Python Environments** window (shown below in a wide, expanded view) gives you a single place to manage all of your global Python environments, conda environments, and virtual environments. Visual Studio automatically detects installations of Python in standard locations, and allows you to configure custom installations. With each environment, you can easily manage packages, open an interactive window for that environment, and access environment folders.
-![Expanded view of the Python Environments window-2019](media/environments/environments-expanded-view-2019.png)
+    ![Expanded view of the Python Environments window-2019](media/environments/environments-expanded-view-2019.png)
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-Visual Studio's **Python Environments** window (shown below in a wide, expanded view) gives you a single place to manage all of your global Python environments, conda environments, and virtual environments. Visual Studio automatically detects installations of Python in standard locations, and allows you to configure custom installations. With each environment, you can easily manage packages, open an interactive window for that environment, and access environment folders.
-![Expanded view of the Python Environments window-2022](media\environments\environments-expanded-view-2022.png)
+   ![Expanded view of the Python Environments window-2022](media\environments\environments-expanded-view-2022.png)
 ::: moniker-end
 
 Use the **Open interactive window** command to run Python interactively within the context of Visual Studio. Use the **Open in PowerShell** command to open a separate command window in the folder of the selected environment. From that command window you can run any python script.
@@ -74,7 +72,7 @@ For more information:
 
 Visual Studio provides a first-class Python editor, including syntax coloring, autocomplete across all your code and libraries, code formatting, signature help, refactoring, linting, and type hints. Visual Studio also provides unique features like class view, **Go to Definition**, **Find All References**, and code snippets. Direct integration with the [Interactive window](#interactive-window) helps you quickly develop Python code that's already saved in a file.
 
-![Code completions for Python code in Visual Studio](media/code-editing-completions-simple.png)
+   ![Code completions for Python code in Visual Studio](media/code-editing-completions-simple.png)
 
 For more information:
 
@@ -86,14 +84,14 @@ For more information:
 
 ## Interactive window
 
-:::moniker range="vs-2019"
 For every Python environment known to Visual Studio, you can easily open the same interactive (REPL) environment for a Python interpreter directly within Visual Studio, rather than using a separate command prompt. You can easily switch between environments as well. (To open a separate command prompt, select your desired environment in the **Python Environments** window, then select the **Open in PowerShell** command as explained earlier under [Support for multiple interpreters](#support-for-multiple-interpreters).)
-![Python interactive window in Visual Studio-2019](media/interactive-window.png)
+
+:::moniker range="vs-2019"
+   ![Python interactive window in Visual Studio-2019](media/interactive-window.png)
 :::moniker-end
 
 :::moniker range=">=vs-2022"
-For every Python environment known to Visual Studio, you can easily open the same interactive (REPL) environment for a Python interpreter directly within Visual Studio, rather than using a separate command prompt. You can easily switch between environments as well. (To open a separate command prompt, select your desired environment in the **Python Environments** window, then select the **Open in PowerShell** command as explained earlier under [Support for multiple interpreters](#support-for-multiple-interpreters).)
-![Python interactive window in Visual Studio-2022](media/interactive-window-2022.png)
+   ![Python interactive window in Visual Studio-2022](media/interactive-window-2022.png)
 :::moniker-end
 
 Visual Studio also provides tight integration between the Python code editor and the **Interactive** window. The **Ctrl**+**Enter** keyboard shortcut conveniently sends the current line of code (or code block) in the editor to the **Interactive** window, then moves to the next line (or block). **Ctrl**+**Enter** lets you easily step through code without having to run the debugger. You can also send selected code to the **Interactive** window with the same keystroke, and easily paste code from the **Interactive** window into the editor. Together, these capabilities allow you to work out details for a segment of code in the **Interactive** window and easily save the results in a file in the editor.
@@ -119,11 +117,11 @@ For more information:
 
 Visual Studio helps you manage the complexity of a project as it grows over time. A *Visual Studio project* is much more than a folder structure: it includes an understanding of how different files are used and how they relate to each other. Visual Studio helps you distinguish app code, test code, web pages, JavaScript, build scripts, and so on, which then enable file-appropriate features. A Visual Studio solution, moreover, helps you manage multiple related projects, such as a Python project and a C++ extension project.
 
-![A Visual Studio solution containing both Python and C++ projects](media/projects-solution-explorer-two-projects.png)
+   ![A Visual Studio solution containing both Python and C++ projects](media/projects-solution-explorer-two-projects.png)
 
 Project and item templates automate the process of setting up different types of projects and files, saving you valuable time and relieving you from managing intricate and error-prone details. Visual Studio provides templates for web, Azure, data science, console, and other types of projects, along with templates for files like Python classes, unit tests, Azure web configuration, HTML, and even Django apps.
 
-[![Python project and item templates in Visual Studio](media/project-and-item-templates.png)](media/project-and-item-templates.png#lightbox)
+   [![Python project and item templates in Visual Studio](media/project-and-item-templates.png)](media/project-and-item-templates.png#lightbox)
 
 For more information:
 
@@ -138,7 +136,7 @@ For more information:
 
 One of Visual Studio's strengths is its powerful debugger. For Python in particular, Visual Studio includes Python/C++ mixed-mode debugging, remote debugging on Linux, debugging within the **Interactive** window, and debugging Python unit tests.
 
-![Visual Studio debugger for Python showing an exception popup](media/debugging-exception-popup.png)
+   ![Visual Studio debugger for Python showing an exception popup](media/debugging-exception-popup.png)
 
 ::: moniker range="vs-2019"
 
@@ -161,7 +159,7 @@ For more information:
 
 Profiling explores how time is being spent within your application. Visual Studio supports profiling with CPython-based interpreters and includes the ability to compare performance between different profiling runs.
 
-[![Visual Studio profiler results for a Python project](media/profiling-results.png)](media/profiling-results.png#lightbox)
+   [![Visual Studio profiler results for a Python project](media/profiling-results.png)](media/profiling-results.png#lightbox)
 
 For more information:
 
@@ -172,7 +170,7 @@ For more information:
 
 Discover, run, and manage tests in Visual Studio **Test Explorer**, and easily debug unit tests.
 
-![Debugging a Python unit test in Visual Studio](media/unit-test-debugging.png)
+   ![Debugging a Python unit test in Visual Studio](media/unit-test-debugging.png)
 
 For more information:
 
@@ -206,6 +204,7 @@ A. Python is generally an interpreted language, with which code is run on demand
 
 Python features can be installed in the following editions of Visual Studio as described in the [installation guide](installing-python-support-in-visual-studio.md):
 
+- [Visual Studio 2022 (all editions)](https://visualstudio.microsoft.com/vs/)
 - [Visual Studio 2019 (all editions)](https://visualstudio.microsoft.com/vs/)
 - Visual Studio 2017 (all editions)
 - Visual Studio 2015 (all editions)

@@ -19,12 +19,10 @@ To install Python support for Visual Studio (also known as Python Tools for Visu
 
 -[Visual Studio 2022](#visual-studio-2022)
 :::moniker-end
-
 :::moniker range="vs-2019"
 
 - [Visual Studio 2019](#visual-studio-2019)
 :::moniker-end
-
 :::moniker range="<=vs-2017"
 
 - [Visual Studio 2017](#visual-studio-2017)
@@ -60,49 +58,47 @@ To quickly test Python support after following the installation steps, open the 
 
 :::moniker range=">=vs-2022"
   
-> [!div class="nextstepaction"]
- > [Install Visual Studio 2022 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=17) 
+   >[!div class="nextstepaction"]
+   > [Install Visual Studio 2022 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=17) 
  
- >[!Tip]
-> The Community edition is for individual developers, classroom learning, academic research, and open source development. For other users, install [Visual Studio 2022 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=17) or [Visual Studio 2022 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=17)
+   >[!Tip]
+   > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other users, install [Visual Studio 2022 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=17) or [Visual Studio 2022 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=17)
 
 :::moniker-end
-
 :::moniker range="vs-2019"
 
->[!div class="nextstepaction"]
-> [Install Visual Studio 2019 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted)
+   >[!div class="nextstepaction"]
+  > [Install Visual Studio 2019 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted)
 
- >[!Tip]
-> The Community edition is for individual developers, classroom learning, academic research, and open source development. For other uses, install [Visual Studio 2019 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted) or [Visual Studio 2019 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted).  
+   >[!Tip]
+  > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other uses, install [Visual Studio 2019 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted) or [Visual Studio 2019 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted).  
 
 :::moniker-end
 
 :::moniker range="vs-2017"
 
->[!div class="nextstepaction"]
-> [Install Visual Studio 2017 community](https://my.visualstudio.com/Downloads?q=Visual-Studio-2017)
+   >[!div class="nextstepaction"]
+   > [Install Visual Studio 2017 community](https://my.visualstudio.com/Downloads?q=Visual-Studio-2017)
 :::moniker-end
 
 1. The installer presents you with a list of workloads, which are groups of related options for specific development areas. For Python, select the **Python development** workload.
 
-![Python development workload in the Visual Studio installer](media/installation-python-workload.png)  
+   ![Python development workload in the Visual Studio installer](media/installation-python-workload.png)  
  .
 Optional: if you're working with data science, also consider the **Data science and analytical applications** workload. This workload includes support for the Python, R, and F# languages. For more information, see [Data science and analytical applications workload](data-science-and-analytical-applications-workload.md).
 
 1. On the right side of the installer, choose other options if desired. Skip this step to accept the default options.
 :::moniker range=">=vs-2022"
 
-![Python development options in the Visual Studio 2022 installer](media/installation-python-options-2022.png)
+   [Python development options in the Visual Studio 2022 installer](media/installation-python-options-2022.png)
 :::moniker-end
 :::moniker range="vs-2019"
 
-![Python development options in the Visual Studio 2019 installer](media/installation-python-options-2019.png)
+   ![Python development options in the Visual Studio 2019 installer](media/installation-python-options-2019.png)
 :::moniker-end
-
 :::moniker range="vs-2017"
 
-![Python development options in Visual Studio 2017 installer](media\installation-python-options.png)
+   ![Python development options in Visual Studio 2017 installer](media\installation-python-options.png)
 :::moniker-end
 
 | Option | Description |
@@ -116,21 +112,18 @@ Optional: if you're working with data science, also consider the **Data science 
 
 :::moniker range=">=vs-2022"
 
-![Launching, modifying, modifying, or uninstalling Visual Studio from the installer-2022](media\installation-vs-launch-2022.png)
+   ![Launching, modifying, modifying, or uninstalling Visual Studio from the installer-2022](media\installation-vs-launch-2022.png)
 
 :::moniker-end
-
 :::moniker range="vs-2019"
 
-![Launching, modifying, modifying, or uninstalling Visual Studio from the installer-2019](media/installation-vs-launch.png)
+   ![Launching, modifying, modifying, or uninstalling Visual Studio from the installer-2019](media/installation-vs-launch.png)
 
 :::moniker-end
-
 :::moniker range="vs-2017"
   > [!Note]
 > The Python and Data Science workloads are available only with Visual Studio 2017 version 15.2 and later.
 :::moniker-end
-
 
 ### Troubleshooting
 
@@ -152,7 +145,7 @@ If you encounter problems installing or running Python in Visual Studio, try the
 
 1. Select **Programming Languages** > **Python Tools for Visual Studio** and then **Next**:
 
-    ![PTVS option in Visual Studio 2015 installer](media/installation-vs2015.png)
+   ![PTVS option in Visual Studio 2015 installer](media/installation-vs2015.png)
 
 1. Once Visual Studio setup is complete, [install a Python interpreter of your choice](installing-python-interpreters.md). Visual Studio 2015 supports only Python 3.5 and earlier; later versions generate a message like **Unsupported Python version 3.6**). If you already have an interpreter installed and Visual Studio doesn't detect it automatically, see [Manually identify an existing environment](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
 
@@ -176,21 +169,18 @@ By default, Python support gets installed for all users on a computer.
 For Visual Studio 2022, the Python workload installs in *%ProgramFiles%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python* where &lt;VS_version&gt; is 2022 and &lt;VS_edition&gt; is Community, Professional, or Enterprise.
 
 :::moniker-end
-
 :::moniker range="vs-2019"
 
 By default, Python support gets installed for all users on a computer.
 For Visual Studio 2019 and Visual Studio 2017, the Python workload installs in *%ProgramFiles(x86)%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python* where &lt;VS_version&gt; is 2019 or 2017 and &lt;VS_edition&gt; is Community, Professional, or Enterprise.
 
 :::moniker-end
-
 :::moniker range="vs-2017"
 
 By default, Python support gets installed for all users on a computer.
 For Visual Studio 2019 and Visual Studio 2017, the Python workload installs in *%ProgramFiles(x86)%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python* where &lt;VS_version&gt; is 2019 or 2017 and &lt;VS_edition&gt; is Community, Professional, or Enterprise.
 
 :::moniker-end
-
 :::moniker range="<=vs-2017"
 
 For Visual Studio 2015 and earlier, installation paths are as follows:
