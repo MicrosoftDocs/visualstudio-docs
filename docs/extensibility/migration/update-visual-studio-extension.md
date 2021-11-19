@@ -15,7 +15,7 @@ feedback_system: GitHub
 # Update a Visual Studio extension for Visual Studio 2022
 
 > [!IMPORTANT]
-> The advice in this guide is intended to guide developers in migrating extensions that require major changes to work both in Visual Studio 2019 and 2022. In those cases it is recommend to have two VSIX projects and conditional compilation.
+> The advice in this guide is intended to guide developers in migrating extensions that require major changes to work both in Visual Studio 2019 and 2022. In those cases it is recommended to have two VSIX projects and conditional compilation.
 > Many extensions will be able to work in both Visual Studio 2019 and 2022 with minor changes that won't require following the advice on modernizing your extension in this guide.
 > Try your extension in Visual Studio 2022 and evaluate what option is best for your extension.
 
