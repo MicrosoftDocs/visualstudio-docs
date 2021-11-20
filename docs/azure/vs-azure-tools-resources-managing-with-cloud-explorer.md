@@ -21,7 +21,7 @@ ms.author: ghogen
 >
 > If needed, you can use the Azure Portal or continue to use the Azure node of Server Explorer in previous versions of Visual Studio.
 >
-> For more information about Visual Studio 2022, see our [release notes](/visualstudio/releases/2022/release-notes-preview/).
+> For more information about Visual Studio 2022, see our [release notes](/visualstudio/releases/2022/release-notes/).
 
 ::: moniker-end
 

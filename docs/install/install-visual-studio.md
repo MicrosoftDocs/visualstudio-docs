@@ -59,7 +59,7 @@ Want to know more about what else is new in this version? See our [release notes
 
 ::: moniker range=">=vs-2022"
 
-Want to know more about what else is new in this RC version? See our [release notes](/visualstudio/releases/2022/release-notes-preview/).
+Want to know more about what else is new in this version? See our [release notes](/visualstudio/releases/2022/release-notes/).
 
 ::: moniker-end
 
