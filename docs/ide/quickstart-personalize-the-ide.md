@@ -1,7 +1,7 @@
 ---
 title: Set the Visual Studio dark theme and change text colors
 description: Learn how to change the default Visual Studio color theme to dark mode and change font colors in the code editor.
-ms.date: 11/04/2021
+ms.date: 11/19/2021
 ms.topic: how-to
 ms.custom: contperf-fy21q1
 author: TerryGLee
@@ -121,7 +121,7 @@ Now we'll customize some text colors for the editor. First, let's create a new X
 
 1. To change the color of the line numbers text, in the **Display items** list, choose **Line Number**. In the **Item foreground** box, choose **Olive**.
 
-   ![Options dialog box, Fonts and Colors category](media/quickstart-personalize-line-number-color.png)
+    :::image type="content" source="media/vs-2022/personalize-line-number-color.png" alt-text="Screenshot of the Fonts and Colors category in the Options dialog box.":::
 
    Some languages have their own specific fonts and colors settings. If you are a C++ developer and you want to change the color used for functions, for example, you can look for **C++ Functions** in the **Display items** list.
 
