@@ -121,9 +121,9 @@ First, you'll create a C# application project. The project type comes with all t
 
    ![Screenshot of the 'Configure your new project' window in Visual Studio 2022 with the project name set to 'HelloWorld'.](media/vs-2022/csharp-name-your-helloworld-project.png)
 
-1. In the **Additional information** window, ensure that **.NET 6.0 (Preview)** is selected in the **Framework** dropdown menu, and then choose **Create**.
+1. In the **Additional information** window, ensure that **.NET 6.0** is selected in the **Framework** dropdown menu, and then choose **Create**.
 
-   ![Screenshot of the 'Additional information' window in Visual Studio 2022 with the Framework set to '.NET 6.0 (Preview)'.](media/vs-2022/create-project-additional-info.png)
+   ![Screenshot of the 'Additional information' window in Visual Studio 2022 with the Framework set to '.NET 6.0'.](media/vs-2022/create-project-additional-info.png)
 
    Visual Studio opens your new project.
    
