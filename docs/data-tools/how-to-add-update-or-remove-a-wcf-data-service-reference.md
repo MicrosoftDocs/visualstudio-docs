@@ -1,7 +1,7 @@
 ---
 title: Add, update, or remove a WCF data service reference
 description: Review how to add, update, or remove a Windows Communication Foundation (WCF) data service reference.
-ms.date: 11/04/2016
+ms.date: 11/22/2021
 ms.custom: SEO-VS-2020
 ms.topic: how-to
 helpviewer_keywords:
@@ -20,20 +20,17 @@ ms.workload:
 ---
 # How to: Add, update, or remove a WCF data service reference
 
-::: moniker range="vs-2017"
-A *service reference* enables a project to access one or more [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)]. Use the **Add Service Reference** dialog box to search for [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] in the current solution, locally, on a local area network, or on the Internet.
-::: moniker-end
-::: moniker range=">=vs-2019"
-You can use the **Connected Services** node in **Solution Explorer** to access the **Microsoft WCF Web Service Reference Provider**, which lets you manage Windows Communication Foundation (WCF) data service references.
-::: moniker-end
+For .NET Framework projects, *service reference* enables a project to access one or more [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)]. Use the **Add Service Reference** dialog box to search for [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] in the current solution, locally, on a local area network, or on the Internet.
+
+:::moniker range=">=vs-2019"
+For .NET Core projects, ou can use the **Connected Services** node in **Solution Explorer** to access the **Microsoft WCF Web Service Reference Provider**, which lets you manage Windows Communication Foundation (WCF) data service references.
+:::moniker-end
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 
 ## Add a WCF service reference
 
-### To add a reference to an external service
-
-::: moniker range="vs-2017"
+### To add a reference to an external service (.NET Framework projects)
 
 1. In **Solution Explorer**, right-click the name of the project to which you want to add the service, and then click **Add Service Reference**.
 
@@ -55,8 +52,10 @@ You can use the **Connected Services** node in **Solution Explorer** to access t
 1. Click **OK** to add the reference to the project.
 
      A service client (proxy) is generated, and metadata that describes the service is added to the *app.config* file.
-::: moniker-end
-::: moniker range=">=vs-2019"
+
+:::moniker range=">=vs-2019"
+### To add a reference to an external service (.NET Core projects, including .NET 5 and later)
+
 1. In **Solution Explorer**, double-click or tap the **Connected Services** node.
 
    The **Configure Services** tab opens.
@@ -84,12 +83,9 @@ You can use the **Connected Services** node in **Solution Explorer** to access t
 1. Click **Finish** to add the reference to the project.
 
      A service client (proxy) is generated, and metadata that describes the service is added to the *app.config* file.
+:::moniker-end
 
-::: moniker-end
-
-### To add a reference to a service in the current solution
-
-::: moniker range="vs-2017"
+### To add a reference to a service in the current solution (.NET Framework projects)
 
 1. In **Solution Explorer**, right-click the name of the project to which you want to add the service, and then click **Add Service Reference**.
 
@@ -106,8 +102,9 @@ You can use the **Connected Services** node in **Solution Explorer** to access t
 1. Click **OK** to add the reference to the project.
 
     A service client (proxy) generates, and metadata that describes the service is added to the *app.config* file.
-::: moniker-end
-::: moniker range=">=vs-2019"
+
+### To add a reference to a service in the current solution (.NET Core projects)
+
 1. In **Solution Explorer**, double-click or tap the **Connected Services** node. 
 
    The **Configure Services** tab opens.
@@ -127,8 +124,6 @@ You can use the **Connected Services** node in **Solution Explorer** to access t
 1. Click **Finish** to add the reference to the project.
 
     A service client (proxy) generates, and metadata that describes the service is added to the *app.config* file.
-
-::: moniker-end
 
 ## Update a service reference
 
