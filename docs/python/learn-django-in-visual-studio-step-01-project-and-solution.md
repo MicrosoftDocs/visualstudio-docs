@@ -91,7 +91,7 @@ When working with Django from the command line, you typically start a project by
 ::: moniker range="vs-2022"
 1. In Visual Studio, select **File** > **New** > **Project**, search for "Django", and select the **Blank Django Web Project** template, then select **Next**
 
-    ![New project dialog in Visual Studio for the Blank Django Web Project](mediadjangostep01-create-new-project-screen1-VS22.png)
+    ![New project dialog in Visual Studio for the Blank Django Web Project](media/django/step01-create-new-project-screen1-VS22.png)
 
 1. In the fields at the bottom of the dialog, enter the following information (as shown in the previous graphic), then select **OK**:
 
