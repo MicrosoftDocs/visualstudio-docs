@@ -43,7 +43,7 @@ There are some known issues with the Visual Studio Installer that Microsoft is w
 
 ::: moniker range=">=vs-2022"
 
-There are some known issues with the Visual Studio Installer that Microsoft is working on fixing. Check if your problem is already solved, or find workarounds, in the [Known Issues section of our release notes](/visualstudio/releases/2022/release-notes-preview#-known-issues).
+There are some known issues with the Visual Studio Installer that Microsoft is working on fixing. Check if your problem is already solved, or find workarounds, in the [Known Issues section of our release notes](/visualstudio/releases/2022/release-notes#-known-issues).
 
 ::: moniker-end
 

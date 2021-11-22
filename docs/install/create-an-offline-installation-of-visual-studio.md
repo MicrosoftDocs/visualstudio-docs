@@ -70,12 +70,12 @@ To get the latest bootstrappers for Visual Studio 2019 that will always install 
 
 To get the latest bootstrappers for Visual Studio 2022 that will always install the latest version of the Current channel, download one of the files below. Alternatively, if you want to install a specific version or a specific channel of Visual Studio 2022, go to the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page that has links to the fixed version bootstrappers for each servicing release. 
 
-| Edition                         | Bootstrapper                                                            |
-|---------------------------------|---------------------------------------------------------------------|
-| Visual Studio 2022 Community | [vs_community.exe](https://aka.ms/vs/17/release/vs_community.exe) |
-| Visual Studio 2022 Professional | [vs_professional.exe](https://aka.ms/vs/17/pre/vs_professional.exe) |
-| Visual Studio 2022 Enterprise | [vs_enterprise.exe](https://aka.ms/vs/17/pre/vs_enterprise.exe)     |
-| Visual Studio 2022 Professional | [vs_buildtools.exe](https://aka.ms/vs/17/pre/vs_buildtools.exe) |
+| Edition                         | Bootstrapper                                                               |
+|---------------------------------|-------------------------------------------------------------------------|
+| Visual Studio 2022 Community    | [vs_community.exe](https://aka.ms/vs/17/release/vs_community.exe)       |
+| Visual Studio 2022 Professional | [vs_professional.exe](https://aka.ms/vs/17/release/vs_professional.exe) |
+| Visual Studio 2022 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/17/release/vs_enterprise.exe)     |
+| Visual Studio 2022 Build Tools   | [vs_buildtools.exe](https://aka.ms/vs/17/release/vs_buildtools.exe)         |
 
 ::: moniker-end
 
@@ -103,23 +103,19 @@ Open a command prompt and use the bootstrapper's parameters as defined in the [U
 > To prevent an error, make sure that your full installation path is less than 80 characters.
 
 ::: moniker range="<=vs-2019"
-
 - For .NET web and .NET desktop development, run:
 
    ```shell
     vs_enterprise.exe --layout c:\localVScache --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional --lang en-US
     ```
-
 ::: moniker-end
 
-::: moniker range="vs-2022"
-
+::: moniker range=">=vs-2022"
 - For .NET web and .NET desktop development, run:
 
    ```shell
-    vs_enterprise.exe --layout c:\localVScache --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --includeOptional --lang en-US
+    vs_enterprise.exe --layout c:\vslayout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --includeOptional --lang en-US
     ```
-
 ::: moniker-end
 
 - For .NET desktop and Office development, run:
