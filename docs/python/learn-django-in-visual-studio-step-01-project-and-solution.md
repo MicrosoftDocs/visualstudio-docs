@@ -218,7 +218,7 @@ Now that you've configured source control for your project, you can create the v
 
 ::: moniker-end
 
-::: moniker range="=vs-2022"
+::: moniker range="vs-2022"
 
 1. In **Solution Explorer**, right-click the **Python Environments** node and select **Add Environment**.
 
