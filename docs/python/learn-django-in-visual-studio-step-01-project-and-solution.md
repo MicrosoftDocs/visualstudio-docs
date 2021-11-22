@@ -57,7 +57,7 @@ Python development is not presently supported in Visual Studio for Mac. On Mac a
 
 ### "Visual Studio projects" and "Django projects"
 
-In Django terminology, a "Django project" is composed of several site-level configuration files along with one or more "apps" that you deploy to a web host to create a full web application. A Django project can contain multiple apps, and the same app can be in multiple Django projects..
+In Django terminology, a "Django project" is composed of several site-level configuration files along with one or more "apps" that you deploy to a web host to create a full web application. A Django project can contain multiple apps, and the same app can be in multiple Django projects.
 
 A Visual Studio project, for its part, can contain the Django project along with multiple apps. For the sake of simplicity, whenever this tutorial refers to just a "project," it's referring to the Visual Studio project. When it refers to the "Django project" portion of the web application, it uses "Django project" specifically.
 
@@ -67,6 +67,7 @@ Over the course of this tutorial you'll create a single Visual Studio solution t
 
 When working with Django from the command line, you typically start a project by running the `django-admin startproject <project_name>` command. In Visual Studio, using the "Blank Django Web Project" template provides the same structure within a Visual Studio project and solution.
 
+::: moniker range="<=vs-2019"
 1. In Visual Studio, select **File** > **New** > **Project**, search for "Django", and select the **Blank Django Web Project** template. (The template is also found under **Python** > **Web** in the left-hand list.)
 
     ![New project dialog in Visual Studio for the Blank Django Web Project](media/django/step01-new-blank-project.png)
@@ -85,6 +86,28 @@ When working with Django from the command line, you typically start a project by
     ![Prompt saying that the project requires external packages](media/django/step01-requirements-prompt-install-myself.png)
 
 1. Select the option **I will install them myself**. You create the virtual environment shortly to make sure it's excluded from source control. (The environment can always be created from *requirements.txt*.)
+::: moniker-end
+
+::: moniker range="vs-2022"
+1. In Visual Studio, select **File** > **New** > **Project**, search for "Django", and select the **Blank Django Web Project** template, then select **Next**
+
+    ![New project dialog in Visual Studio for the Blank Django Web Project](mediadjangostep01-create-new-project-screen1-VS22.png)
+
+1. In the fields at the bottom of the dialog, enter the following information (as shown in the previous graphic), then select **OK**:
+
+    - **Name**: set the name of the Visual Studio project to **BasicProject**. This name is also used for the Django project.
+    - **Location**: specify a location in which to create the Visual Studio solution and project.
+    - **Solution**: leave this control set to default **Create new solution** option.
+    - **Solution name**: set to **LearningDjango**, which is appropriate for the solution as a container for multiple projects in this tutorial.
+    - **Create directory for solution**: Leave set (the default).
+    - **Create new Git repository**: Select this option (which is clear by default) so that Visual Studio creates a local Git repository when it creates the solution. If you don't see this option, run the Visual Studio installer and add the **Git for Windows** and **GitHub Extension for Visual Studio** on the **Individual components** tab under **Code tools**.
+
+1. After a moment, Visual Studio prompts you with a dialog saying **This project requires external packages** (shown below). This dialog appears because the template includes a *requirements.txt* file referencing the latest Django 1.x package. (Select **Show required packages** to see the exact dependencies.)
+
+    ![Prompt saying that the project requires external packages](media/django/step01-requirements-prompt-install-myself.png)
+
+1. Select the option **I will install them myself**. You create the virtual environment shortly to make sure it's excluded from source control. (The environment can always be created from *requirements.txt*.)
+::: moniker-end
 
 ## Step 1-2: Examine the Git controls and publish to a remote repository
 
