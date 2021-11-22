@@ -66,7 +66,6 @@ For .NET Core projects, ou can use the **Connected Services** node in **Solution
 
    ![Screenshot of WCF Web Service Provider dialog box](media/vs-2019/configure-wcf-web-service-reference-dialog.png)
 
-
 1. In the **URI** box, enter the URL for the service, and then click **Go** to search for the service. If the service implements user name and password security, you may be prompted for a user name and password.
 
     > [!NOTE]
@@ -103,6 +102,8 @@ For .NET Core projects, ou can use the **Connected Services** node in **Solution
 
     A service client (proxy) generates, and metadata that describes the service is added to the *app.config* file.
 
+:::moniker range=">=vs-2019"
+
 ### To add a reference to a service in the current solution (.NET Core projects)
 
 1. In **Solution Explorer**, double-click or tap the **Connected Services** node. 
@@ -124,6 +125,8 @@ For .NET Core projects, ou can use the **Connected Services** node in **Solution
 1. Click **Finish** to add the reference to the project.
 
     A service client (proxy) generates, and metadata that describes the service is added to the *app.config* file.
+
+:::moniker-end
 
 ## Update a service reference
 
