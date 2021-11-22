@@ -126,7 +126,7 @@ Answer: First of all, using source control from the start, especially if you als
 
 For further discussion on source control as automation, see [The Source of Truth: The Role of Repositories in DevOps](/archive/msdn-magazine/2016/september/mobile-devops-the-source-of-truth-the-role-of-repositories-in-devops), an article in MSDN Magazine written for mobile apps that applies also to web apps.
 
-### Question: Can I prevent Visual Studio from auto-committing a new project?
+### Question: Can I prevent Visual Studio from autocommitting a new project?
 
 Answer: Yes. To disable auto-commit, go to the **Settings** page in **Team Explorer**, select **Git** > **Global settings**, clear the option labeled **Commit changes after merge by default**, then select **Update**.
 
