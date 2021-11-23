@@ -1,0 +1,57 @@
+- name: Visual Studio Community Toolkit
+  href: visual-studio-community-toolkit.md
+  expanded: true
+  items:
+  - name: Getting started
+    expanded: true
+    items:
+    - name: Overview
+      href: getting-started/getting-started-guide.md
+    - name: Get the tools
+      href: getting-started/get-the-tools.md
+    - name: Extension anatomy
+      href: getting-started/extension-anatomy.md
+    - name: Your first extension
+      href: getting-started/your-first-extension.md
+    - name: Useful resources
+      href: getting-started/useful-resources.md
+  - name: Recipes
+    items:
+    - name: Overview
+      href: recipes/recipes-overview.md
+    - name: Menus & commands
+      href: recipes/menus-buttons-commands.md
+    - name: Tool windows
+      href: recipes/custom-tool-windows.md
+    - name: Theming
+      href: recipes/theming.md
+    - name: Settings & options
+      href: recipes/settings-and-options.md
+    - name: Notifications
+      href: recipes/notifications.md
+    - name: Error handling
+      href: recipes/error-handling.md
+    - name: Showing progress
+      href: recipes/showing-progress.md
+  - name: Tips & Tricks
+    items:
+    - name: Files & documents
+      href: tips/files.md
+    - name: Projects
+      href: tips/projects.md
+    - name: Solutions
+      href: tips/solutions.md
+    - name: Build
+      href:tips/ build.md
+    - name: Events
+      href: tips/events.md
+  - name: Publishing
+    items:
+    - name: Checklist
+      href: publish/checklist.md
+    - name: Extension packs
+      href: publish/create-extension-pack.md
+    - name: Marketplace
+      href: publish/marketplace.md
+    - name: Private galleries
+      href: publish/private-galleries.md
