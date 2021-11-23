@@ -224,9 +224,9 @@ To automate building your project, add code that calls MSBuild to `New-WebDeploy
        {
         $StartInfo  = New-Object System.Diagnostics.ProcessStartInfo;
         $StartInfo.Filename = ${Env:ProgramFiles(x86)} + "\\Microsoft Visual Studio\\Installer\\vswhere.exe"
-        $StartInfo.Arguments = " -latest -requires Microsoft.Component.MSBuild -find MSBuild\\**\Bin\\MSBuild.exe"
+        $StartInfo.Arguments = " -latest -requires Microsoft.Component.MSBuild -find MSBuild\\**\\Bin\\MSBuild.exe"
         $StartInfo.RedirectStandardOutput = $True
-        $StartInfo.UseShellExecute = $false
+        $StartInfo.UseShellExecute = $False
         [System.Diagnostics.Process] $VSWhere = [Diagnostics.Process]::Start($StartInfo)
         $VSWhere.WaitForExit()
         return $VSWhere.StandardOutput.ReadToEnd();
