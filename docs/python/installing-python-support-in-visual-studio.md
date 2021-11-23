@@ -71,7 +71,7 @@ To quickly test Python support after following the installation steps, open the 
    > [Install Visual Studio 2019 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted)
 
     >[!Tip]
-    > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other uses, install [Visual Studio 2019 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted) or [Visual Studio 2019 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted).  
+    > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other uses, install [Visual Studio 2019 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted) or [Visual Studio 2019 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted).
 
     :::moniker-end
     :::moniker range="vs-2017"
@@ -82,7 +82,7 @@ To quickly test Python support after following the installation steps, open the 
 
 1. The installer presents you with a list of workloads, which are groups of related options for specific development areas. For Python, select the **Python development** workload.
 
-   ![Python development workload in the Visual Studio installer](media/installation-python-workload.png)  
+   ![Python development workload in the Visual Studio installer](media/installation-python-workload.png)
  .
     Optional: if you're working with data science, also consider the **Data science and analytical applications** workload. This workload includes support for the Python, R, and F# languages. For more information, see [Data science and analytical applications workload](data-science-and-analytical-applications-workload.md).
 
@@ -101,13 +101,13 @@ To quickly test Python support after following the installation steps, open the 
 
    :::moniker range="vs-2017"
 
-   ![Python development options in Visual Studio 2017 installer](media\installation-python-options.png)
+   ![Python development options in Visual Studio 2017 installer](media/installation-python-options.png)
 
    :::moniker-end 
 
  | Option | Description |
    | --- | --- |
-| Python distributions | Choose any combination of the available options, such as 32-bit and 64-bit variants of the Python 2, Python 3, Miniconda, Anaconda2, and Anaconda3 distributions that you plan to work with. Each includes the distribution's interpreter, runtime, and libraries. Anaconda, specifically, is an open data science platform that includes a wide range of pre-installed packages. (You can return to the Visual Studio installer at any time to add or remove distributions.)  **Note**: If you've installed a distribution outside of the Visual Studio installer, there's no need to check the equivalent option here. Visual Studio automatically detects existing Python installations. See [The Python Environments window](managing-python-environments-in-visual-studio.md#the-python-environments-window). Also, if a newer version of Python is available than what's shown in the installer, you can install that version separately and Visual Studio will detect it. |
+| Python distributions | Choose any combination of the available options, such as 32-bit and 64-bit variants of the Python 2, Python 3, Miniconda, Anaconda2, and Anaconda3 distributions that you plan to work with. Each includes the distribution's interpreter, runtime, and libraries. Anaconda, specifically, is an open data science platform that includes a wide range of pre-installed packages. (You can return to the Visual Studio installer at any time to add or remove distributions.) **Note**: If you've installed a distribution outside of the Visual Studio installer, there's no need to check the equivalent option here. Visual Studio automatically detects existing Python installations. See [The Python Environments window](managing-python-environments-in-visual-studio.md#the-python-environments-window). Also, if a newer version of Python is available than what's shown in the installer, you can install that version separately and Visual Studio will detect it. |
 | **Cookiecutter template support** | Installs the Cookiecutter graphical UI to discover templates, input template options, and create projects and files. See [Use the Cookiecutter extension](using-python-cookiecutter-templates.md). |
 | **Python web support** | Installs tools for web development including HTML, CSS, and JavaScript editing support, along with templates for projects using the Bottle, Flask, and Django frameworks. See [Python web project templates](python-web-application-project-templates.md). |
 | **Python native development tools** | Installs the C++ compiler and other necessary components to develop native extensions for Python. See [Create a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md). Also install the **Desktop development with C++** workload for full C++ support. |
@@ -116,7 +116,7 @@ After installation, the installer provides options to modify, launch, repair, or
 
 :::moniker range=">=vs-2022"
 
-   ![Launching, modifying, modifying, or uninstalling Visual Studio from the installer-2022](media\installation-vs-launch-2022.png)
+   ![Launching, modifying, modifying, or uninstalling Visual Studio from the installer-2022](media/installation-vs-launch-2022.png)
 
 :::moniker-end
 :::moniker range="vs-2019"
@@ -207,6 +207,6 @@ Where:
 
 ### User-specific installations (1.5 and earlier)
 
-Python Tools for Visual Studio 1.5 and earlier allowed installation for the current user only, in which case,  the installation path is *%LocalAppData%\Microsoft\VisualStudio\\<VS_ver>\Extensions\Microsoft\Python Tools for Visual Studio\\<PTVS_ver>* where &lt;VS_ver&gt; and &lt;PTVS_ver&gt; are the same as described above.
+Python Tools for Visual Studio 1.5 and earlier allowed installation for the current user only, in which case, the installation path is *%LocalAppData%\Microsoft\VisualStudio\\<VS_ver>\Extensions\Microsoft\Python Tools for Visual Studio\\<PTVS_ver>* where &lt;VS_ver&gt; and &lt;PTVS_ver&gt; are the same as described above.
 
 :::moniker-end
