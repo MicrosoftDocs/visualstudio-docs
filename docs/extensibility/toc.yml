@@ -6,7 +6,7 @@
   - name: Install the Visual Studio SDK
     href: installing-the-visual-studio-sdk.md
   - name: Visual Studio Community Toolkit
-    href: visual-studio-community-toolkit.md
+    href: vsix/visual-studio-community-toolkit.md
   - name: Start to Develop Visual Studio Extensions
     href: starting-to-develop-visual-studio-extensions.md
   - name: "Create your First Extension: Hello World"
