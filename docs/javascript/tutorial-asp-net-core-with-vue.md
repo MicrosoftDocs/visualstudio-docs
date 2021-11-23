@@ -113,16 +113,18 @@ Once the project is created, you see some new and modified files:
 
 ## Start the project
 
-Before you start the project, make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `applicationUrl` property. (It should look similar to `https://localhost:7049`.)
+1. Before you start the project, make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
 
-Then, go to the *vue.config.js* file for your Vue project. Update the target property to match the `applicationUrl` property in  *launchSettings.json*.
+   If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It should look similar to `https://localhost:7049`.
 
-To start the project, press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
+1. Then, go to the *vue.config.js* file for your Vue project. Update the target property to match the `applicationUrl` property in  *launchSettings.json*.
 
-- The ASP.NET Core API project running
-- The Vue CLI running the vue-cli-service serve command
+1. To start the project, press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
 
-You should see an Vue app appear, that is populated via the API.
+   - The ASP.NET Core API project running
+   - The Vue CLI running the vue-cli-service serve command
+
+You should see the Vue app appear, that is populated via the API.
 
 ## Troubleshooting
 

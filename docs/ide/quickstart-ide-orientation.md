@@ -144,7 +144,7 @@ The project is created and a file named *Program.cs* opens in the **Editor** win
 
     :::image type="content" source="media/vs-2022/quickstart-configure-new-project-console.png" alt-text="Screenshot of the 'Configure a new project' window in Visual Studio 2022, where you enter the name of the project.":::
 
-1. In the **Additional information** window, ensure that **.NET 6.0 (Preview)** appears in the **Framework** dropdown menu, and then choose **Create**.
+1. In the **Additional information** window, ensure that **.NET 6.0** appears in the **Framework** dropdown menu, and then choose **Create**.
 
     :::image type="content" source="media/vs-2022/create-project-additional-info.png" alt-text="Screenshot of the 'Additional information' window in Visual Studio 2022, where you select the version of the .NET that you want.":::
 
