@@ -14,13 +14,15 @@ ms.custom: cookbook
 
 To write extensions you have to install the extensibility workload. That's technically all you need, but this set of documentation makes use of the community driven extension called *Extensibility Essentials*. Each version of Visual Studio has its own version: [Extensibility Essentials 2019](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ExtensibilityEssentials2019) or [Extensibility Essentials 2022](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ExtensibilityEssentials2022).
 
+The following video introduces the tools you'll need.
+
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWPhtT]
 
 ## Install extensibility workload
 
 To open the **Visual Studio Installer**, choose **Tools**, and then choose **Get Tools and Features...**. Then install the **Visual Studio extension development** workload.
 
-![VS Installer showing the extensibility workload](../media/vs-installer.png)
+:::image type="content" source="../media/vs-installer.png" alt-text="VS Installer showing the extensibility workload.":::
 
 ## Install Extensibility Essentials
 To install the **Extensibility Essentials**, choose **Extensions**, choose **Manage Extensions** and then search for *extensibility*.
@@ -28,6 +30,6 @@ To install the **Extensibility Essentials**, choose **Extensions**, choose **Man
 * For Visual Studio 2019 install [Extensibility Essentials 2019](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ExtensibilityEssentials2019).
 * For Visual Studio 2022 install [Extensibility Essentials 2022](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ExtensibilityEssentials2022).
 
-![Install Extensibility Essentials from the Extension Manager dialog](../media/install-ext-essentials.png)
+:::image type="content" source="../media/install-ext-essentials.png" alt-text="Install Extensibility Essentials from the Extension Manager dialog.":::
 
 That's it, you are now ready to start developing [your first extension](your-first-extension.md).

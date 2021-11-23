@@ -11,6 +11,7 @@ ms.technology: vs-ide-sdk
 ms.custom: cookbook
 ---
 # Working with projects in Visual Studio extensions
+
 Here's a collection of small code samples on different ways to work with projects.
 
 ## Get project from contained file

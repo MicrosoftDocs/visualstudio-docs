@@ -20,6 +20,8 @@ Storing and retrieving settings is a must-have for many extensions. Let's explor
 * Both synchronous and asynchronous support.
 * No need to load the package for the settings to initialize.
 
+The following video shows you ho to add options to an extension.
+
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWPmjL]
 
 Here's what it should look like in the **Tools > Options** dialog.

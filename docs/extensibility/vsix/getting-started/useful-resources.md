@@ -15,6 +15,8 @@ ms.custom: cookbook
 
 These resources can help you better navigate the world of Visual Studio extensibility.
 
+The following video introduces useful resources for Visual Studio extension authors.
+
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWP8Kw]
 
 ## Resources

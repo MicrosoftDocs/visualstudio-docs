@@ -24,7 +24,7 @@ landingContent:
         links:
           - text: Install the Visual Studio SDK
             url: ./installing-the-visual-studio-sdk.md
-          - text: Visual Studio Community Toolkit
+          - text: Write Visual Studio extensions with the Visual Studio Community Toolkit
             url: ./vsix/visual-studio-community-toolkit.md
       - linkListType: overview
         links:

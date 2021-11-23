@@ -1,7 +1,7 @@
 ---
 title: VSIX Community Toolkit
 description: Welcome to the Visual Studio Extensibility Community Toolkit
-ms.date: 10/12/2021
+ms.date: 12/01/2021
 ms.topic: overview
 author: madskristensen
 ms.author: madsk
@@ -13,6 +13,8 @@ ms.custom: cookbook
 # Visual Studio Community Toolkit
 
 This toolkit will help you write successful Visual Studio extensions and there's something for absolute beginners to experts alike.
+
+The following video introduces you to the Visual Studio extensibility model.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWPht8]
 

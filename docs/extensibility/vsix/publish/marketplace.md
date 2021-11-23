@@ -12,4 +12,6 @@ ms.custom: cookbook
 ---
 # Publish your Visual Studio extension to the Marketplace
 
+The following video shows you how to share your new extension by uploading and publishing it to the Marketplace.
+
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWP8KB]

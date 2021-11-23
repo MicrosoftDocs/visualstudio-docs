@@ -19,7 +19,7 @@ If an exception is an anomaly that shouldn't happen, you want to log the details
 ## Include the symbols
 To ensure you have the most accurate information about the exception that happened, make sure to include the .pdb file in the extension. This is enabled by default, but make sure to check by showing the properties (F4) of your project.
 
-![Include the PDB file in the VSIX container](../media/include-pdb.png)
+:::image type="content" source="../media/include-pdb.png" alt-text="Include the PDB file in the VSIX container.":::
 
 Make sure to set the property **Include Debug Symbols in VSIX Container** to **True**.
 

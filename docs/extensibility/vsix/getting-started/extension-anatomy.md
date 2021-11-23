@@ -1,7 +1,7 @@
 ---
 title: Anatomy of an extension
 description: Explains the structure of a Visual Studio extension
-ms.date: 06/07/2021
+ms.date: 12/01/2021
 ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
@@ -13,6 +13,8 @@ ms.custom: cookbook
 # Anatomy of a Visual Studio extension
 
 A VSIX package is a .vsix file that contains one or more Visual Studio extensions, together with the metadata Visual Studio uses to classify and install the extensions. The VSIX package format follows the Open Packaging Conventions (OPC) standard which means it can be opened by any tool that can open ZIP files.
+
+An extension project is a C# project with a few extras that make it unique. Let's explore the extension project to better understand how extensions projects work with the following video.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWPhtJ]
 

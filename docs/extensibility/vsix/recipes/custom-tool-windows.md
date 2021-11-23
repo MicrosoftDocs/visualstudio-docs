@@ -14,6 +14,8 @@ ms.custom: cookbook
 
 Custom tool windows are great options for adding complex UI to Visual Studio.
 
+A tool window is a core UI concept in Visual Studio, and the following video will show you how to add a custom window.
+
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWPhtK]
 
 A tool window is a window that can be moved around and docked just like the Solution Explorer, Error List, and other well-known tool windows. A tool window consists of an outer shell provided by Visual Studio and a custom inner UI control, which is usually a XAML `<usercontrol>`, provided by the extension.

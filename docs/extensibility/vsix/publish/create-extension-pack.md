@@ -11,8 +11,10 @@ ms.technology: vs-ide-sdk
 ms.custom: cookbook
 ---
 # Create an Extension Pack
+
 This article shows you how to create an Extension Pack. An Extension Pack is a set of extensions that can be installed together. Extension Packs enable you to easily share your favorite extensions with other users or bundle a set of extensions together for a particular scenario.
 
+The following video introduces how to create Extension Packs.
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWP8KA]
 
 ## Create from project template
