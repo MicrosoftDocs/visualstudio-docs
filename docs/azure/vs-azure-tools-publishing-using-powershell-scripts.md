@@ -220,18 +220,16 @@ To automate building your project, add code that calls MSBuild to `New-WebDeploy
     ```powershell
     function Get-MSBuildCmd
     {
-            process
-    {
-
-                $path =  Get-ChildItem "HKLM:\SOFTWARE\Microsoft\MSBuild\ToolsVersions\" |
-                                    Sort-Object {[double]$_.PSChildName} -Descending |
-                                    Select-Object -First 1 |
-                                    Get-ItemProperty -Name MSBuildToolsPath |
-                                    Select -ExpandProperty MSBuildToolsPath
-
-                $path = (Join-Path -Path $path -ChildPath 'msbuild.exe')
-
-            return Get-Item $path
+       process
+       {
+        $StartInfo  = New-Object System.Diagnostics.ProcessStartInfo;
+        $StartInfo.Filename = ${Env:ProgramFiles(x86)} + "\\Microsoft Visual Studio\\Installer\\vswhere.exe"
+        $StartInfo.Arguments = " -latest -requires Microsoft.Component.MSBuild -find MSBuild\\**\Bin\\MSBuild.exe"
+        $StartInfo.RedirectStandardOutput = $True
+        $StartInfo.UseShellExecute = $false
+        [System.Diagnostics.Process] $VSWhere = [Diagnostics.Process]::Start($StartInfo)
+        $VSWhere.WaitForExit()
+        return $VSWhere.StandardOutput.ReadToEnd();
         }
     }
     ```
