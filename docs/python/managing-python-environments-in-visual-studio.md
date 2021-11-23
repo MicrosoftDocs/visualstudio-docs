@@ -105,7 +105,7 @@ To the right of each listed environment is a control that opens an **Interactive
 
 ::: moniker range=">=vs-2022"
 > [!Tip]
-> When you expand the **Python Environments** window wide enough, you'll get a fuller view of your environments that is  more convenient to work with.
+> When you expand the **Python Environments** window wide enough, you'll get a fuller view of your environments that is more convenient to work with.
   > ![Python Environments window expanded view-2022](media/environments/environments-expanded-view-2022.png)
 ::: moniker-end
 
