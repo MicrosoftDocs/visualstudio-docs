@@ -80,7 +80,7 @@ landingContent:
           url: /azure/active-directory/develop/vs-active-directory-add-connected-service
         - text: Azure Cache for Redis
           url: azure-cache-for-redis-add-connected-service.md
-        - text: Azure CosmosDB
+        - text: Azure Cosmos DB
           url: azure-cosmosdb-add-connected-service.md
         - text: Azure Key Vault
           url: /azure/key-vault/vs-key-vault-add-connected-service
