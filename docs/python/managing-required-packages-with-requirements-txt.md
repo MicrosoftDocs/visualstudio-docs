@@ -29,8 +29,12 @@ Technically, any filename may be used to track requirements (by using `-r <full 
 
 - If you already have all the necessary packages installed in an environment, you can right-click that environment in **Solution Explorer** and select **Generate requirements.txt** to create the necessary file. If the file already exists, a prompt appears for how to update it:
 
-    :::moniker range=">=vs-2019"
+    :::moniker range=">=vs-2022"
     ![Generate requirements.txt](media/environments/environments-requirements-txt-install-2022.png)
+    :::moniker-end
+
+    :::moniker range="<=vs-2019"
+    ![Generate requirements.txt](media/environments/environments-requirements-txt-install.png)
     :::moniker-end
 
     ![Update requirements.txt options](media/environments/environments-requirements-txt-replace.png)

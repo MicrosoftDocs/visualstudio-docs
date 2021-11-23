@@ -63,8 +63,14 @@ The Python developer community has produced thousands of useful packages that yo
    :::moniker-end
 
 1. In the editor window, hover over the `numpy` and `matplotlib` import statements. You'll notice that they aren't resolved. To resolve the import statements, install the packages to the default global environment.
+    :::moniker range=">=vs-2022"
+   ![Unresolved package import-2022](media/packages-unresolved-import-2022.png)
+   :::moniker-end
 
-   ![Unresolved package import](media/packages-unresolved-import.png)
+    :::moniker range="<=vs-2019"
+    ![Unresolved package import](media/packages-unresolved-import.png)
+    :::moniker-end
+   
 
 ## Install packages using the Python Environments window
 
@@ -94,6 +100,7 @@ The Python developer community has produced thousands of useful packages that yo
 :::moniker range="vs-2022"
    ![Installing matplotlib in the environment-2022](media/environments/environments-add-matplotlib2-2022.png)
    :::moniker-end
+
    :::moniker range="<=vs-2019"
    ![Installing matplotlib in the environment-2019](media/environments/environments-add-matplotlib2-2019.png)
    :::moniker-end
