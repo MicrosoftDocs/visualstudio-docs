@@ -16,11 +16,11 @@ ms.workload:
 
 # Work with Python in Visual Studio on Windows
 
-Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by both a strong developer community and many free libraries. Python supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing, and is used by many universities, scientists, casual developers, and professional developers alike. You can learn more about the language on [python.org](https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
+Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by both a strong developer community and many free libraries. Python supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing. Scientists, casual developers, professional developers, and many universities alike use Python for programming. You can learn more about the language on [python.org](https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
 
 Visual Studio is a powerful Python IDE on Windows. Visual Studio provides [open-source](https://github.com/Microsoft/ptvs) support for the Python language through the **Python Development** and **Data Science** workloads (Visual Studio 2017 and later) and the free Python Tools for Visual Studio extension (Visual Studio 2015 and earlier).
 
-Python is no presently supported in Visual Studio for Mac, but is available on Mac and Linux through Visual Studio Code. (see [questions and answers](#questions-and-answers)).
+Visual Studio doesn't support Python on Mac now. But it is available on Mac and Linux through Visual Studio Code. (see [questions and answers](#questions-and-answers)).
 
 To get started:
 
@@ -32,16 +32,13 @@ To get started:
 ::: moniker range="<=vs-2017"
 
 > [!Note]
-> Visual Studio supports Python version 2.7, as well as version 3.5 through 3.7. While it is possible to use Visual Studio to edit code written in other versions of Python, those versions are not officially supported and features such as IntelliSense and debugging might not work. Python version 3.8 support is still under development, specific details about support can be seen in this tracking [issue on GitHub](https://github.com/microsoft/PTVS/issues/5822).
+> Visual Studio supports Python version 2.7, as well as version 3.5 through 3.7. While it is possible to use Visual Studio to edit code written in other versions of Python, those versions aren't officially supported and features such as IntelliSense and debugging might not work. Python version 3.8 support is still under development, specific details about support can be seen in this tracking [issue on GitHub](https://github.com/microsoft/PTVS/issues/5822).
 ::: moniker-end
-::: moniker range="vs-2019"
+
+::: moniker range=">=vs-2019"
 
 - Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md) or [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json).
 ::: moniker-end
-:::moniker range=">=vs-2022"
-
-- Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md) or [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json).   
-:::moniker-end
 
 - Follow the [Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) tutorial for a full end-to-end experience.
 
@@ -50,16 +47,19 @@ To get started:
 Visual Studio's **Python Environments** window (shown below in a wide, expanded view) gives you a single place to manage all of your global Python environments, conda environments, and virtual environments. Visual Studio automatically detects installations of Python in standard locations, and allows you to configure custom installations. With each environment, you can easily manage packages, open an interactive window for that environment, and access environment folders.
 
 ::: moniker range="vs-2017"
-![Expanded view of the Python Environments window](media/environments/environments-expanded-view.png)
+
+  ![Expanded view of the Python Environments window](media/environments/environments-expanded-view.png)
 ::: moniker-end
 
 ::: moniker range="vs-2019"
-![Expanded view of the Python Environments window-2019](media/environments/environments-expanded-view-2019.png)
+
+   ![Expanded view of the Python Environments window-2019](media/environments/environments-expanded-view-2019.png)
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
-![Expanded view of the Python Environments window-2022](media\environments\environments-expanded-view-2022.png)
-::: moniker-end
+:::moniker range=">=vs-2022"
+
+   ![Expanded view of the Python Environments window-2022](media\environments\environments-expanded-view-2022.png)
+:::moniker-end
 
 Use the **Open interactive window** command to run Python interactively within the context of Visual Studio. Use the **Open in PowerShell** command to open a separate command window in the folder of the selected environment. From that command window you can run any python script.
 
@@ -105,14 +105,9 @@ For more information:
 
 ## Project system, and project and item templates
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 > [!Note]
 > Visual Studio 2019 supports opening a folder containing Python code and running that code without creating Visual Studio project and solution files. For more information, see [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md). There are, however, benefits to using a project file, as explained in this section.
-::: moniker-end
-
-::: moniker range=">=vs-2022"
-> [!Note]
-> Visual Studio 2022 supports opening a folder containing Python code and running that code without creating Visual Studio project and solution files. For more information, see [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md). There are, however, benefits to using a project file, as explained in this section.
 ::: moniker-end
 
 Visual Studio helps you manage the complexity of a project as it grows over time. A *Visual Studio project* is much more than a folder structure: it includes an understanding of how different files are used and how they relate to each other. Visual Studio helps you distinguish app code, test code, web pages, JavaScript, build scripts, and so on, which then enable file-appropriate features. A Visual Studio solution, moreover, helps you manage multiple related projects, such as a Python project and a C++ extension project.
@@ -192,11 +187,11 @@ A. Not at this time, but you can up vote the request on [Developer Community](ht
 
 **Q. What can I use to build UI with Python?**
 
-A. The main offering in this area is the [Qt Project](https://www.qt.io/qt-for-application-development/), with bindings for Python known as [PySide (the official binding)](https://wiki.qt.io/PySide) (also see [PySide downloads](https://download.qt.io/official_releases/pyside/.)) and [PyQt](https://wiki.python.org/moin/PyQt). Now, Python support in Visual Studio does not include any specific tools for UI development.
+A. The main offering in this area is the [Qt Project](https://www.qt.io/qt-for-application-development/), with bindings for Python known as [PySide (the official binding)](https://wiki.qt.io/PySide) (also see [PySide downloads](https://download.qt.io/official_releases/pyside/.)) and [PyQt](https://wiki.python.org/moin/PyQt). Now, Python support in Visual Studio doesn't include any specific tools for UI development.
 
 **Q. Can a Python project produce a stand-alone executable?**
 
-A. Python is generally an interpreted language, with which code is run on demand in a suitable Python-capable environment such as Visual Studio and web servers. Visual Studio itself does not now provide the means to create a stand-alone executable, which essentially means a program with an embedded Python interpreter. However, the Python community supplied different means to create executables as described on [StackOverflow](https://stackoverflow.com/questions/5458048/how-to-make-a-python-script-standalone-executable-to-run-without-any-dependency). CPython also supports being embedded within a native application, as described on the blog post, [Using CPython's embeddable zip file](https://devblogs.microsoft.com/python/cpython-embeddable-zip-file/).
+A. Python is generally an interpreted language, with which code is run on demand in a suitable Python-capable environment such as Visual Studio and web servers. Visual Studio itself doesn't now provide the means to create a stand-alone executable, which essentially means a program with an embedded Python interpreter. However, the Python community supplied different means to create executables as described on [StackOverflow](https://stackoverflow.com/questions/5458048/how-to-make-a-python-script-standalone-executable-to-run-without-any-dependency). CPython also supports being embedded within a native application, as described on the blog post, [Using CPython's embeddable zip file](https://devblogs.microsoft.com/python/cpython-embeddable-zip-file/).
 
 ::: moniker range="<=vs-2017"
 
@@ -218,7 +213,7 @@ Python features can be installed in the following editions of Visual Studio as d
 Visual Studio 2015 and earlier are available at [visualstudio.microsoft.com/vs/older-downloads/](https://visualstudio.microsoft.com/vs/older-downloads/).
 
 > [!Important]
-> Features are fully supported and maintained for only the latest version of Visual Studio. Features are available in older versions but are not actively maintained.
+> Features are fully supported and maintained for only the latest version of Visual Studio. Features are available in older versions but aren't actively maintained.
 
 |          Python support          |   2017+   |   2015   | 2013 Comm | 2013 Desktop | 2013 Web | 2013 Pro+ | 2012 Pro+ | 2010 SP1 Pro+ |
 |----------------------------------|----------|----------|-----------|--------------|----------|-----------|-----------|---------------|
