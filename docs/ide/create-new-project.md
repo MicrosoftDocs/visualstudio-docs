@@ -2,7 +2,7 @@
 title: Create a new project
 description: Learn how to create a new project in Visual Studio.
 ms.custom: SEO-VS-2020
-ms.date: 12/23/2020
+ms.date: 11/23/2021
 ms.topic: how-to
 f1_keywords:
 - vs.newproject
@@ -54,13 +54,33 @@ Click **OK** to create the solution and project.
 
 ## Open the Create a new project page
 
-There are multiple ways to create a new project in Visual Studio 2019. When you first open Visual Studio, the start window appears, and from there, you can select **Create a new project**.
+There are multiple ways to create a new project in Visual Studio. When you first open Visual Studio, the start window appears, and from there, you can select **Create a new project**.
+
+::: moniker range="vs-2019"
 
 :::image type="content" source="media/vs-2019/start-window-create-new-project.png" alt-text="Screenshot of the 'Create a new project' dialog from the start window in Visual Studio 2019":::
 
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/start-window-create-new-project.png" alt-text="Screenshot of the 'Create a new project' dialog from the start window in Visual Studio 2022.":::
+
+::: moniker-end
+
 If the Visual Studio development environment is already open, you can create a new project by choosing **File** > **New** > **Project** on the menu bar. You can also click the **New Project** button on the toolbar, or press **Ctrl**+**Shift**+**N**.
 
+::: moniker range="vs-2019"
+
 :::image type="content" source="media/vs-2019/new-project-button.png" alt-text="Screenshot of the New Project button in Visual Studio 2019.":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/new-project-button.png" alt-text="Screenshot of the New Project button in Visual Studio 2022.":::
+
+::: moniker-end
 
 ## Select a template type
 
@@ -68,18 +88,43 @@ On the **Create a new project** page, a list of your recently selected templates
 
 If you're not selecting from the recently used templates, you can filter all available project templates by **Language** (for example, C# or C++), **Platform** (for example, Windows or Azure), and **Project type** (for example, Desktop or Web). You can also enter search text into the search box to further filter the templates, for example, **asp.net**.
 
+::: moniker range="vs-2019"
+
 :::image type="content" source="media/vs-2019/create-new-project-filters.png" alt-text="Screenshot of the project template filters in Visual Studio 2019.":::
 
-The tags that appear under each template correspond to the three dropdown filters (Language, Platform, and Project type).
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/create-new-project-filters.png" alt-text="Screenshot of the project template filters in Visual Studio 2022.":::
+
+::: moniker-end
+
+The tags that appear under each template correspond to the three dropdown filters (Language, platform, and project type).
+
+::: moniker range="vs-2019"
 
 > [!TIP]
 > If you don't see the template you're looking for, you might be missing a workload for Visual Studio. To install additional workloads, for example, **Azure Development** or **Mobile Development with .NET**, click the **Install more tools and features** link to open Visual Studio Installer. From there, select the workloads you want to install, and then select **Modify**. After that, additional project templates will be available to choose from.
 >
 > :::image type="content" source="media/vs-2019/install-more-tools-features.png" alt-text="Screenshot of the 'Install more tools and features' link in Visual Studio 2019.":::
 
-Select a template and then click **Next**.
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+> [!TIP]
+> If you don't see the template you're looking for, you might be missing a workload for Visual Studio. To install additional workloads, for example, **Azure Development** or **Mobile Development with .NET**, click the **Install more tools and features** link to open Visual Studio Installer. From there, select the workloads you want to install, and then select **Modify**. After that, additional project templates will be available to choose from.
+>
+> :::image type="content" source="../get-started/csharp/media/vs-2022/not-finding-what-looking-for.png" alt-text="Screenshot of the 'Install more tools and features' link in Visual Studio 2022.":::
+
+::: moniker-end
+
+Select a template and then select **Next**.
 
 ## Configure your project
+
+::: moniker range="vs-2019"
 
 The **Configure your new project** page has options to name your project (and solution), select a disk location, and select a Framework version (if applicable to the template you chose).
 
@@ -89,6 +134,18 @@ The **Configure your new project** page has options to name your project (and so
 > If you create a new project when you already have a project or solution open in Visual Studio, an extra configuration option is available. You can choose to create a new solution or add the new project to the solution that's already open.
 >
 > :::image type="content" source="media/vs-2019/configure-new-project-solution.png" alt-text="Screenshot of the 'Create new solution' or 'Add to solution' dialog in Visual Studio 2019.":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/configure-new-project.png" alt-text="Screenshot of the 'Configure your new project' page in Visual Studio 2022.":::
+
+The **Additional information** dialog includes options to select a Framework version, an authentication type, and more.
+
+:::image type="content" source="media/vs-2022/aspnet-core-additional-information-dialog.png" alt-text="Screenshot of the 'Additional Information dialog in Visual Studio 2022.":::
+
+::: moniker-end
 
 Click **Create** to create the new project.
 
