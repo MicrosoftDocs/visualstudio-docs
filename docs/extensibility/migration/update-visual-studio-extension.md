@@ -15,7 +15,7 @@ feedback_system: GitHub
 # Update a Visual Studio extension for Visual Studio 2022
 
 > [!IMPORTANT]
-> The advice in this guide is intended to guide developers in migrating extensions that require major changes to work both in Visual Studio 2019 and 2022. In those cases it is recommend to have two VSIX projects and conditional compilation.
+> The advice in this guide is intended to guide developers in migrating extensions that require major changes to work both in Visual Studio 2019 and 2022. In those cases it is recommended to have two VSIX projects and conditional compilation.
 > Many extensions will be able to work in both Visual Studio 2019 and 2022 with minor changes that won't require following the advice on modernizing your extension in this guide.
 > Try your extension in Visual Studio 2022 and evaluate what option is best for your extension.
 
@@ -296,8 +296,6 @@ Great, so you've added a Visual Studio 2022 target to your extension and tested 
 Publishing your extension to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) is a great way to get new users to find and install your extension. Whether your extension targets Visual Studio 2022 exclusively or targets older VS versions too, the Marketplace is there to support you.
 
 In the future, the Marketplace will allow you to upload multiple VSIXs to just one Marketplace listing, allowing you to upload your Visual Studio 2022-targeted VSIX and a pre-Visual Studio 2022 VSIX. Your users will automatically get the right VSIX for the VS version they have installed, when using the VS extension manager.
-
-For the preview releases of Visual Studio 2022, the Marketplace will only support a single VSIX file per Marketplace listing. While Visual Studio 2022 is in preview we encourage you to have a separate Visual Studio 2022 only Marketplace listing for your extension. That way you can iterate your Visual Studio 2022 extension as needed without impacting your customers on earlier versions of Visual Studio. You can also mark the extension as 'preview' to set the expectation it will likely be less reliable, even if the source of that unreliability is Visual Studio 2022, than your mainstream extension.
 
 ### Custom installer
 
