@@ -70,13 +70,13 @@ public sealed class OptionsPackage : ToolkitPackage
 }
 ```
 
-Running the extension, we should now see the **MyExtension/General** options page showing up in the **Tools -> Options** dialog.
+Running the extension, we should now see the **MyExtension/General** options page showing up in the **Tools > Options** dialog.
 
 :::image type="content" source="../media/tools-options.png" alt-text="Custom options page registered.":::
 
 The two attributes are very similar but handles different scenarios.
 
-The `ProvideOptionsPage` attribute is what makes the Options page show up in the **Tools -> Options** dialog. You can omit this attribute if you don't want the options page visible to your users.
+The `ProvideOptionsPage` attribute is what makes the Options page show up in the **Tools > Options** dialog. You can omit this attribute if you don't want the options page visible to your users.
 
 `ProvideProfile` registers the options on the roaming profile, which means the individual settings will roam with the user's account across instances and installs of Visual Studio. It also enables the import/export settings feature of Visual Studio. This attribute is optional.
 
@@ -165,6 +165,6 @@ You can find the source code for this extension in the [samples repository](http
 ## Additional resources
 Read the docs for all the details surrounding these scenarios, but notice that while they do provide more detailed documentation, they don't follow the best practices outlined in this sample. They also don't use the Community Toolkit that makes working with settings so much easier.
 
-* [Creating an Options Page](https://docs.microsoft.com/visualstudio/extensibility/creating-an-options-page)
-* [Using the Settings Store](https://docs.microsoft.com/visualstudio/extensibility/using-the-settings-store)
-* [Writing to the User Settings Store](https://docs.microsoft.com/en-us/visualstudio/extensibility/writing-to-the-user-settings-store)
+* [Creating an Options Page](../../creating-an-options-page.md)
+* [Using the Settings Store](../../using-the-settings-store.md)
+* [Writing to the User Settings Store](../../writing-to-the-user-settings-store.md)

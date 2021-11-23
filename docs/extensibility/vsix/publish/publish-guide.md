@@ -10,6 +10,7 @@ ms.prod: visual-studio-windows
 ms.technology: vs-ide-sdk
 ms.custom: cookbook
 ---
+# Publish your Visual Studio extension
 
 This section helps you getting your extension ready to share with your team or the whole world of Visual Studio users.
 

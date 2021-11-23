@@ -130,7 +130,7 @@ Doing so will start the Experimental Instance of Visual Studio with your extensi
 
 When the Experimental Instance starts up, you should see the *Insert GUID* command in the *Edit* main menu.
 
-:::image type="content" source="../assets/img/insert-guid-command.png" alt-text="Insert GUID command located in the Edit main menu.":::
+:::image type="content" source="../media/insert-guid-command.png" alt-text="Insert GUID command located in the Edit main menu.":::
 
 Open any text based file and execute the command to insert a new guid. That's it!
 
@@ -144,5 +144,5 @@ You can find the code for this extension in the [samples repository](https://git
 ## Additional resources
 
 * [Anatomy of extensions](extension-anatomy.md)
-* [Menus & Commands](../recipes/menus-buttons-commands.html)
-* [Best practices checklist](../publish/checklist.html)
+* [Menus & Commands](../recipes/menus-buttons-commands.md)
+* [Best practices checklist](../publish/checklist.md)

@@ -26,7 +26,7 @@ Make sure to set the property **Include Debug Symbols in VSIX Container** to **T
 This sets you up to collect the information you need. Let's look at some strategies for doing that.
 
 ## Automated telemetry
-You can use any telemetry mechanism you can use in any .NET application from your extension. Popular options are [Application Insights](https://docs.microsoft.com/powerapps/maker/canvas-apps/application-insights), [Raygun](https://raygun.com/), [Google Analytics](https://analytics.google.com/) etc.
+You can use any telemetry mechanism you can use in any .NET application from your extension. Popular options are [Application Insights](/powerapps/maker/canvas-apps/application-insights), [Raygun](https://raygun.com/), [Google Analytics](https://analytics.google.com/) etc.
 
 You'll manually have to report the exception details through these telemetry systems using their APIs. This option is a great way to stay on top of any issues that occur on your user's machines and allow you to proactive fix issues early.
 
@@ -68,4 +68,4 @@ When the exception has low severity to the user, there is no reason to interrupt
 
 If the exception is severe and causes the user flow to be interrupted, consider using a message box to let the user know about the error. Make sure to still log the exception through telemetry and/or the Output Window as described previously.
 
-To learn more about how to use the statusbar and message boxes, see the [Notifications recipe](notifications.md).
+To learn more about how to use the status bar and message boxes, see the [Notifications recipe](notifications.md).

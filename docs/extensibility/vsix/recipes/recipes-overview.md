@@ -13,4 +13,4 @@ ms.custom: cookbook
 # A guide on common features in Visual Studio extension development
 This section contains a bunch of recipes for common scenarios in extension development. Browse the menu to see them all.
 
-For shorter and more specific guides, see the [Tips & tricks section](../tips/index.md).
+For shorter and more specific guides, see the [Tips & tricks section](../tips/files.md).

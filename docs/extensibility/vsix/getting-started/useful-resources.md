@@ -22,7 +22,7 @@ Here are some useful resources that can help you in your extension journey.
 
 * [VSIX Community on GitHub](https://github.com/VsixCommunity)
 * [VSIX Community Samples repo](https://github.com/VsixCommunity/Samples)
-* [Official VS SDK documentation](https://docs.microsoft.com/visualstudio/extensibility/)
+* [Official VS SDK documentation](../../index.yml)
 * [VS SDK Samples repo](https://github.com/Microsoft/VSSDK-Extensibility-Samples)
 * [Extensibility chatroom on Gitter.im](https://gitter.im/Microsoft/extendvs)
 
@@ -42,7 +42,7 @@ A good way is to find extensions on the Marketplace that does similar things or 
 ## Book
 To jump start your learning of the Visual Studio extensibility model, consider the [Visual Studio Extensibility Development](https://www.amazon.com/Visual-Studio-Extensibility-Development-Productivity/dp/1484258525) book by Rishabh Verma.
 
-![Visual Studio Extensibility Development book cover](../media/book.png)
+:::image type="content" source="../media/book.png" alt-text="Visual Studio Extensibility Development book cover.":::
 
 It's the best book available to learn from.
 
@@ -82,4 +82,4 @@ TBD
 ### TextView
 TBD
 
-Find more information in the [Visual Studio SDK Glossary](https://docs.microsoft.com/en-us/visualstudio/extensibility/visual-studio-sdk-glossary?view=vs-2019).
+Find more information in the [Visual Studio SDK Glossary](../../visual-studio-sdk-glossary.md).

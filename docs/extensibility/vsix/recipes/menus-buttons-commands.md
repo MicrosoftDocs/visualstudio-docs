@@ -63,4 +63,4 @@ The command Guid and ID must match the guid/id pair from `Button` element in the
 
 ## Additional resources
 
-* [Visual Studio Command Table (.Vsct) Files](https://docs.microsoft.com/visualstudio/extensibility/internals/visual-studio-command-table-dot-vsct-files)
+* [Visual Studio Command Table (.Vsct) Files](../../internals/visual-studio-command-table-dot-vsct-files.md)

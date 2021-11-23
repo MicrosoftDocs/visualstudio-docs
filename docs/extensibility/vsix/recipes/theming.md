@@ -74,6 +74,6 @@ You can find the source code for this extension in the [Community Toolkit test p
 ## Additional resources
 Learn more about Visual Studio colors from these resources.
 
-* [Colors and styling for Visual Studio](https://docs.microsoft.com/visualstudio/extensibility/ux-guidelines/colors-and-styling-for-visual-studio)
-* [Shared colors for Visual Studio](https://docs.microsoft.com/visualstudio/extensibility/ux-guidelines/shared-colors-for-visual-studio)
-* [Color value reference](https://docs.microsoft.com/visualstudio/extensibility/ux-guidelines/color-value-reference-for-visual-studio)
+* [Colors and styling for Visual Studio](../../ux-guidelines/colors-and-styling-for-visual-studio.md)
+* [Shared colors for Visual Studio](../../ux-guidelines/shared-colors-for-visual-studio.md)
+* [Color value reference](../../ux-guidelines/color-value-reference-for-visual-studio.md)
