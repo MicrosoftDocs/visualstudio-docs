@@ -1,7 +1,7 @@
 ---
 title: Theming
 description: How to properly theme tool windows and other XAML controls to match Visual Studio's color themes.
-ms.date: 06/02/2021
+ms.date: 12/01/2021
 ms.topic: conceptual
 author: madskristensen
 ms.author: madsk

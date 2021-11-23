@@ -1,7 +1,7 @@
 ---
 title: Showing progress
 description: Explains the different types of progress bars and when to use each of them
-ms.date: 06/30/2021
+ms.date: 12/01/2021
 ms.topic: conceptual
 author: madskristensen
 ms.author: madsk

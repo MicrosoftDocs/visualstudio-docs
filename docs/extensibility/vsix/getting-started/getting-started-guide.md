@@ -1,7 +1,7 @@
 ---
 title: Getting started guide
 description: Helping beginners get a good basic understanding of Visual Studio extensibility.
-ms.date: 05/24/2021
+ms.date: 12/01/2021
 ms.topic: overview
 author: madskristensen
 ms.author: madsk

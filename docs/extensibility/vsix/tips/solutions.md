@@ -1,7 +1,7 @@
 ---
 title: Working with solutions
 description: Tips for working with solutions.
-ms.date: 08/13/2021
+ms.date: 12/01/2021
 ms.topic: conceptual
 author: madskristensen
 ms.author: madsk

@@ -1,7 +1,7 @@
 ---
 title: Error handling
 description: Explains how to best handle errors and exceptions occurring in extensions
-ms.date: 06/03/2021
+ms.date: 12/01/2021
 ms.topic: conceptual
 author: madskristensen
 ms.author: madsk

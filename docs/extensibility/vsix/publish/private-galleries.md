@@ -1,7 +1,7 @@
 ---
 title: Private extension galleries
 description: Host your own private extension gallery
-ms.date: 05/24/2021
+ms.date: 12/01/2021
 ms.topic: conceptual
 author: madskristensen
 ms.author: madsk

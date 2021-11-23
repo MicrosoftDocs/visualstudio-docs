@@ -1,7 +1,7 @@
 ---
 title: Notifications
 description: A recipe for the various different ways to show notifications to users.
-ms.date: 06/30/2021
+ms.date: 12/01/2021
 ms.topic: conceptual
 author: madskristensen
 ms.author: madsk

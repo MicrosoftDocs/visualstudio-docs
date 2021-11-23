@@ -1,7 +1,7 @@
 ---
 title: Menus & commands
 description: A walkthrough of the menu and command system in Visual Studio.
-ms.date: 08/13/2021
+ms.date: 12/01/2021
 ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
@@ -11,6 +11,7 @@ ms.technology: vs-ide-sdk
 ms.custom: cookbook
 ---
 # Adding menus & commands to Visual Studio extensions
+
 This article walks you through the steps to add menus and commands to your Visual Studio extension. Commands are most often used as buttons in menus around Visual Studio. To create a command requires two steps:
 
 1. Define the command

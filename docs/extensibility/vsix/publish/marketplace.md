@@ -1,7 +1,7 @@
 ---
 title: Marketplace
 description: Publish your visual studio extension to the Marketplace
-ms.date: 10/12/2021
+ms.date: 12/01/2021
 ms.topic: conceptual
 author: madskristensen
 ms.author: madsk

@@ -1,7 +1,7 @@
 ---
 title: Working with builds
 description: Tips for working with builds.
-ms.date: 08/12/2021
+ms.date: 12/01/2021
 ms.topic: conceptual
 author: madskristensen
 ms.author: madsk

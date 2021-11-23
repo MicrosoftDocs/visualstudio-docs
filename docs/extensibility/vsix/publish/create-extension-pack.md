@@ -1,7 +1,7 @@
 ---
 title: Create an extension pack
 description: Create an extension pack to easily share your favorite extensions with others or to bundle a set of extensions together.
-ms.date: 10/12/2021
+ms.date: 12/01/2021
 ms.topic: conceptual
 author: madskristensen
 ms.author: madsk

@@ -1,7 +1,7 @@
 ---
 title: Recipes
 description: Step by step recipes of common features of Visual Studio to extend.
-ms.date: 06/15/2021
+ms.date: 12/01/2021
 ms.topic: conceptual
 author: madskristensen
 ms.author: madsk

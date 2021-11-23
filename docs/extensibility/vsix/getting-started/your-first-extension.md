@@ -1,7 +1,7 @@
 ---
 title: Your first extension
 description: Shows you the few simple steps to get your first Visual Studio extension up and running.
-ms.date: 10/12/2021
+ms.date: 12/01/2021
 ms.topic: conceptual
 author: madskristensen
 ms.author: madsk

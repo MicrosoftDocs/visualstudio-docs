@@ -1,7 +1,7 @@
 ---
 title: Get the tools
 description: A list of tools you need to write Visual Studio extensions and how to install them.
-ms.date: 10/12/2021
+ms.date: 12/01/2021
 ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
