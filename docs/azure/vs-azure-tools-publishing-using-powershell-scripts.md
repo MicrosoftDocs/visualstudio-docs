@@ -234,7 +234,7 @@ To automate building your project, add code that calls MSBuild to `New-WebDeploy
     }
     ```
 
-1. Replace `New-WebDeployPackage` with the following code and replace the placeholders in the line constructing `$msbuildCmd`. This code is for Visual Studio 2022. If you're using Visual Studio 2019, change the **VisualStudioVersion** property to '16.0', '15.0' for Visual Studio 2017, '14.0' for Visual Studio 2015, or '12.0' for Visual Studio 2013).
+1. Replace `New-WebDeployPackage` with the following code and replace the placeholders in the line constructing `$msbuildCmd`.
 
     ```powershell
     function New-WebDeployPackage
