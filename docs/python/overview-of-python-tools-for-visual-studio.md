@@ -16,11 +16,11 @@ ms.workload:
 
 # Work with Python in Visual Studio on Windows
 
-Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by both a strong developer community and many free libraries. Python supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing. Scientists, casual developers, professional developers, and many universities alike use Python for programming. You can learn more about the language on [python.org](https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
+Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by both a strong developer community and many-free libraries. Python supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing. Scientists, casual developers, professional developers, and many universities alike use Python for programming. You can learn more about the language on [python.org](https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
 
 Visual Studio is a powerful Python IDE on Windows. Visual Studio provides [open-source](https://github.com/Microsoft/ptvs) support for the Python language through the **Python Development** and **Data Science** workloads (Visual Studio 2017 and later) and the free Python Tools for Visual Studio extension (Visual Studio 2015 and earlier).
 
-Visual Studio doesn't support Python on Mac now. But it is available on Mac and Linux through Visual Studio Code. (see [questions and answers](#questions-and-answers)).
+Visual Studio doesn't support Python on Mac now. But it's available on Mac and Linux through Visual Studio Code. (see [questions and answers](#questions-and-answers)).
 
 To get started:
 
@@ -86,7 +86,7 @@ For more information:
 
 For every Python environment known to Visual Studio, you can easily open the same interactive (REPL) environment for a Python interpreter directly within Visual Studio, rather than using a separate command prompt. You can easily switch between environments as well. (To open a separate command prompt, select your desired environment in the **Python Environments** window, then select the **Open in PowerShell** command as explained earlier under [Support for multiple interpreters](#support-for-multiple-interpreters).)
 
-:::moniker range="vs-2019"
+:::moniker range="<=    vs-2019"
    ![Python interactive window in Visual Studio-2019](media/interactive-window.png)
 :::moniker-end
 
