@@ -564,8 +564,8 @@ To output operations in JSON, a popular and portable format for storing object d
                     if (num2 != 0)
                     {
                         result = num1 / num2;
-                        writer.WriteValue("Divide");
                     }
+                    writer.WriteValue("Divide");
                     break;
                 // Return text for an incorrect option entry.
                 default:
@@ -786,8 +786,8 @@ namespace CalculatorLibrary
                     if (num2 != 0)
                     {
                         result = num1 / num2;
-                        writer.WriteValue("Divide");
                     }
+                    writer.WriteValue("Divide");
                     break;
                 // Return text for an incorrect option entry.
                 default:
