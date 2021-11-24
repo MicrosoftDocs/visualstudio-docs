@@ -50,7 +50,7 @@ Select **OK** to create the solution and project.
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
+::: moniker range="vs-2019"
 
 ## Open the "Create a new project" dialog
 
@@ -58,27 +58,21 @@ There are multiple ways to create a new project in Visual Studio. When you first
 
 :::image type="content" source="media/vs-2019/start-window-create-new-project.png" alt-text="Screenshot of the 'Create a new project' dialog from the start window in Visual Studio 2019":::
 
-::: moniker-end
-
-::: moniker range="vs-2022"
-
-:::image type="content" source="media/vs-2022/start-window-create-new-project.png" alt-text="Screenshot of the 'Create a new project' dialog from the start window in Visual Studio 2022.":::
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 If the Visual Studio development environment is already open, you can create a new project by choosing **File** > **New** > **Project** on the menu bar. You can also select the **New Project** button on the toolbar, or press **Ctrl**+**Shift**+**N**.
-
-::: moniker-end
-
-::: moniker range="vs-2019"
 
 :::image type="content" source="media/vs-2019/new-project-button.png" alt-text="Screenshot of the New Project button in Visual Studio 2019.":::
 
 ::: moniker-end
 
 ::: moniker range="vs-2022"
+
+## Open the "Create a new project" dialog
+
+There are multiple ways to create a new project in Visual Studio. When you first open Visual Studio, the start window appears, and from there, you can select **Create a new project**.
+
+:::image type="content" source="media/vs-2022/start-window-create-new-project.png" alt-text="Screenshot of the 'Create a new project' dialog from the start window in Visual Studio 2022.":::
+
+If the Visual Studio development environment is already open, you can create a new project by choosing **File** > **New** > **Project** on the menu bar. You can also select the **New Project** button on the toolbar, or press **Ctrl**+**Shift**+**N**.
 
 :::image type="content" source="media/vs-2022/new-project-button.png" alt-text="Screenshot of the New Project button in Visual Studio 2022.":::
 
