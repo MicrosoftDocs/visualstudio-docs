@@ -42,7 +42,7 @@ The following image shows the project templates available for Visual C# .NET Cor
 
 ![Screenshot of the New Project dialog box that lists the project templates you can choose from.](./media/new-project-dialog-net-core.png)
 
-## Configure your project
+## Configure your project in Visual Studio 2017
 
 Enter a name for the new project in the **Name** box. You can save the project in the default location on your computer or click the **Browse** button to find another location. You can also select a solution name or add the new project to a Git repository (by selecting **Add to Source Control**).
 
@@ -52,7 +52,7 @@ Click **OK** to create the solution and project.
 
 ::: moniker range=">=vs-2019"
 
-## Open the Create a new project page
+## Open the Create a new project dialog
 
 There are multiple ways to create a new project in Visual Studio. When you first open Visual Studio, the start window appears, and from there, you can select **Create a new project**.
 
@@ -82,7 +82,7 @@ If the Visual Studio development environment is already open, you can create a n
 
 ## Select a template type
 
-On the **Create a new project** page, a list of your recently selected templates appears on the left. The templates are sorted by *most recently used*.
+On the **Create a new project** dialog, a list of your recently selected templates appears on the left. The templates are sorted by *most recently used*.
 
 If you're not selecting from the recently used templates, you can filter all available project templates by **Language** (for example, C# or C++), **Platform** (for example, Windows or Azure), and **Project type** (for example, Desktop or Web). You can also enter search text into the search box to further filter the templates, for example, **asp.net**.
 
@@ -124,9 +124,9 @@ Select a template and then select **Next**.
 
 ::: moniker range="vs-2019"
 
-The **Configure your new project** page has options to name your project (and solution), select a disk location, and select a Framework version (if applicable to the template you chose).
+The **Configure your new project** dialog has options to name your project (and solution), select a disk location, and select a Framework version (if applicable to the template you chose).
 
-:::image type="content" source="media/vs-2019/configure-new-project.png" alt-text="Screenshot of the 'Configure your new project' page in Visual Studio 2019.":::
+:::image type="content" source="media/vs-2019/configure-new-project.png" alt-text="Screenshot of the 'Configure your new project' dialog in Visual Studio 2019.":::
 
 > [!NOTE]
 > If you create a new project when you already have a project or solution open in Visual Studio, an extra configuration option is available. You can choose to create a new solution or add the new project to the solution that's already open.
@@ -137,7 +137,7 @@ The **Configure your new project** page has options to name your project (and so
 
 ::: moniker range="vs-2022"
 
-:::image type="content" source="media/vs-2022/configure-new-project.png" alt-text="Screenshot of the 'Configure your new project' page in Visual Studio 2022.":::
+:::image type="content" source="media/vs-2022/configure-new-project.png" alt-text="Screenshot of the 'Configure your new project' dialog in Visual Studio 2022.":::
 
 The **Additional information** dialog includes options to select a Framework version, an authentication type, and more.
 
