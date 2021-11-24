@@ -66,7 +66,11 @@ There are multiple ways to create a new project in Visual Studio. When you first
 
 ::: moniker-end
 
+::: moniker range=">=vs-2019"
+
 If the Visual Studio development environment is already open, you can create a new project by choosing **File** > **New** > **Project** on the menu bar. You can also click the **New Project** button on the toolbar, or press **Ctrl**+**Shift**+**N**.
+
+::: moniker-end
 
 ::: moniker range="vs-2019"
 
