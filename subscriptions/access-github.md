@@ -76,7 +76,7 @@ A:  The process for setting up a GitHub Enterprise account can take a while.  If
 A:  Along with GitHub Enterprise, you receive all of the benefits of a standard Visual Studio subscription including software downloads, cloud services, technical support, and partner benefits just as if the subscription was purchased separately.
 
 ## Support resources
-- Learn more about GitHub assignment at [GitHub Docs](https://docs.github.com/github/setting-up-and-managing-your-enterprise-account/managing-licenses-for-the-github-enterprise-and-visual-studio-bundle)
+- Learn more about GitHub assignment at [GitHub Docs](https://docs.github.com/en/enterprise-cloud@latest/billing/managing-licenses-for-visual-studio-subscriptions-with-github-enterprise/about-visual-studio-subscriptions-with-github-enterprise)
 - Find answers to questions on a wide array of GitHub topics at [GitHub Help](https://help.github.com).
 - Need more help?  Contact [GitHub Support](https://support.github.com/)
 - Get help from other GitHub users in the [GitHub Community Forum](https://github.community/).
