@@ -188,7 +188,7 @@ There are several different ways to update an installation of Visual Studio. You
 
 1. In the Visual Studio Installer, look for the installation of Visual Studio that you want to update. 
 
-   For example, if you previously installed Visual Studio Community 2022 Preview and there's an update for it, then an **Update available** message appears in the Visual Studio Installer.
+   For example, if you previously installed Visual Studio Community 2022 and there's an update for it, then an **Update available** message appears in the Visual Studio Installer.
 
      ![Screenshot showing the Update button and message in the Visual Studio Installer when a new update is available.](media/vs-2022/vs-installer-update-visual-studio-community.png "Select the edition of Visual Studio 2022 that you want to update")
 

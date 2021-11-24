@@ -103,14 +103,18 @@ Make sure to have the following installed:
 
 ## Start the project
 
-Before you start the project, make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `applicationUrl` property. (It should look similar to `https://localhost:7049`.)
+Before you start the project, make sure that the port numbers match.
 
-Then, go to the *proxy.conf.js* file for your Angular project (look in the *src* folder). Update the target property to match the `applicationUrl` property in  *launchSettings.json*.
+1. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
 
-To start the project, press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
+   If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It should look similar to `https://localhost:7049`.
 
-- The ASP.NET Core API project running
-- The Angular CLI running the ng start command
+1. Then, go to the *proxy.conf.js* file for your Angular project (look in the *src* folder). Update the target property to match the `applicationUrl` property in  *launchSettings.json*.
+
+1. To start the project, press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
+
+   - The ASP.NET Core API project running
+   - The Angular CLI running the ng start command
 
 You should see an Angular app appear, that is populated via the API.
 
