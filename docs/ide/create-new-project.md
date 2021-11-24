@@ -21,7 +21,7 @@ In this article, we'll show you how to quickly create a new project in Visual St
 
 ::: moniker range="vs-2017"
 
-## Open the New Project dialog in Visual Studio 2017
+## Open the New Project page in Visual Studio 2017
 
 There are multiple ways to create a new project in Visual Studio 2017. On the Start page, you can type in the name of a project template in the **Search project templates** box or select the **Create new project** link to open the **New Project** dialog box. Aside from the Start page, you can also select **File** > **New** > **Project** on the menu bar or click the **New Project** button on the toolbar.
 
@@ -124,7 +124,11 @@ The tags that appear under each template correspond to the three dropdown filter
 
 Select a template and then select **Next**.
 
-## Configure your project
+::: moniker range=">=vs-2019"
+
+## Configure your new project
+
+::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -149,7 +153,11 @@ The **Additional information** dialog includes options to select a Framework ver
 
 ::: moniker-end
 
+::: moniker range=">=vs-2019"
+
 Click **Create** to create the new project.
+
+::: moniker-end
 
 ## Add additional projects to a solution
 
