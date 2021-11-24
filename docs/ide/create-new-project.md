@@ -21,13 +21,13 @@ In this article, we'll show you how to quickly create a new project in Visual St
 
 ::: moniker range="vs-2017"
 
-## Open the New Project dialog
+## Open the New Project dialog in Visual Studio 2017
 
 There are multiple ways to create a new project in Visual Studio 2017. On the Start page, you can type in the name of a project template in the **Search project templates** box or select the **Create new project** link to open the **New Project** dialog box. Aside from the Start page, you can also select **File** > **New** > **Project** on the menu bar or click the **New Project** button on the toolbar.
 
 ![Screenshot of the menu bar in Visual Studio with the File > New > Project options selected.](./media/vside-newproject1.png)
 
-## Select a template type
+## Select a template type in Visual Studio 2017
 
 In the **New Project** dialog box, available project templates appear in a list under the **Templates** category. Templates are organized by programming language and project type, such as Visual C#, JavaScript, and Azure Data Lake.
 
@@ -55,8 +55,6 @@ Click **OK** to create the solution and project.
 ## Open the Create a new project page
 
 There are multiple ways to create a new project in Visual Studio. When you first open Visual Studio, the start window appears, and from there, you can select **Create a new project**.
-
-::: moniker range="vs-2019"
 
 :::image type="content" source="media/vs-2019/start-window-create-new-project.png" alt-text="Screenshot of the 'Create a new project' dialog from the start window in Visual Studio 2019":::
 
