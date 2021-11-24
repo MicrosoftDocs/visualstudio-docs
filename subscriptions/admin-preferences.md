@@ -1,8 +1,8 @@
 ---
 title:  Set preferences in the Visual Studio subscriptions admin portal
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: amast
 ms.assetid: 0fe9eaa4-f589-429e-a443-13bf86637d5a
 ms.date: 10/08/2021
 ms.topic: conceptual
