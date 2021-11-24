@@ -50,7 +50,7 @@ Click **OK** to create the solution and project.
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="<=vs-2019"
 
 ## Open the Create a new project dialog
 
@@ -106,7 +106,11 @@ If you're not selecting from the recently used templates, you can filter all ava
 
 ::: moniker-end
 
+::: moniker range=">=vs-2019"
+
 The tags that appear under each template correspond to the three dropdown filters (Language, platform, and project type).
+
+::: moniker-end
 
 ::: moniker range="vs-2019"
 
