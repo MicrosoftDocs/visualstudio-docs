@@ -1,8 +1,8 @@
 ---
 title: Export subscription information in Visual Studio subscriptions| Microsoft Docs
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: amast
 ms.assetid: 14e4cffb-a695-436c-b269-7820f7411f4e
 ms.date: 08/31/2021
 ms.topic: conceptual
