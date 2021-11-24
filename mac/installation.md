@@ -113,7 +113,7 @@ For other Workloads, refer to the [Workloads](workloads.md) page.
 
 ## Related Video
 
-> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Acquisition/player]
+> [!Video https://docs.microsoft.com/en-us/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Acquisition/player]
 
 ## See also
 
