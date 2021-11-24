@@ -220,7 +220,7 @@ There are several different ways to update an installation of Visual Studio. You
 
 1. In the **Update available** dialog box, choose **Update**.
 
-     ![Screenshot showing the Update button in the 'Update available' dialog box.](media/vs-2022/update-visual-studio-community-from-ide.png "Choose the Update button in the 'Update available' dialog box")
+     ![Screenshot showing the Update button in the 'Update available' dialog box.](media/vs-2022/update-ready-install-visual-studio-community-from-ide.png "Choose the Update button in the 'Update available' dialog box")
 
 ## Use the Notifications hub
 
