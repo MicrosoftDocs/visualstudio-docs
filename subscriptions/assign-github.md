@@ -1,8 +1,8 @@
 ---
 title: Assign Visual Studio subscriptions with GitHub Enterprise | Microsoft Docs
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: amast
 ms.assetid: f271d623-dcde-442a-865c-4dca5ad8a9c5
 ms.date: 03/03/2021
 ms.topic: conceptual
