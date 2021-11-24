@@ -118,9 +118,9 @@ Select a template and then select **Next**.
 
 ::: moniker-end
 
-## Configure your new project
-
 ::: moniker range="vs-2019"
+
+## Configure your new project
 
 The **Configure your new project** dialog has options to name your project (and solution), select a disk location, and select a Framework version (if applicable to the template you chose).
 
@@ -131,11 +131,13 @@ The **Configure your new project** dialog has options to name your project (and 
 >
 > :::image type="content" source="media/vs-2019/configure-new-project-solution.png" alt-text="Screenshot of the 'Create new solution' or 'Add to solution' dialog in Visual Studio 2019.":::
 
-select **Create** to create the new project.
+Select **Create** to create the new project.
 
 ::: moniker-end
 
 ::: moniker range="vs-2022"
+
+## Configure your new project
 
 The **Configure your new project** dialog has options to name your project (and solution), select a disk location, and select a Framework version (if applicable to the template you chose).
 
