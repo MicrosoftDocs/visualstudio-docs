@@ -139,7 +139,7 @@ Select **Create** to create the new project.
 
 ## Configure your new project
 
-The **Configure your new project** dialog has options to name your project (and solution), select a disk location, and select a Framework version (if applicable to the template you chose).
+The **Configure your new project** dialog has options to name your project (and solution), select a disk location, and more.
 
 :::image type="content" source="media/vs-2022/configure-new-project.png" alt-text="Screenshot of the 'Configure your new project' dialog in Visual Studio 2022.":::
 
