@@ -111,7 +111,7 @@ If the certificates names were not in the **Issued To** columns, they must be in
 
 ## Install Visual Studio
 
-After you install the certificates on the client machine, then you are ready to [install Visual Studio from the local cache](../install/create-an-offline-installation-of-visual-studio.md#step-3---install-visual-studio-from-the-local-cache), or [deploy Visual Studio from the network layout share](create-a-network-installation-of-visual-studio.md#deploy-from-a-network-installation) to the client machine.
+After you install the certificates on the client machine, then you are ready to [install Visual Studio from the local cache](../install/create-an-offline-installation-of-visual-studio.md#step-3---install-visual-studio-from-the-local-cache), or [deploy Visual Studio from the network layout share](/visualstudio/install/create-a-network-installation-of-visual-studio#install-visual-studio-onto-a-client-machine-from-a-network-installation) to the client machine.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
