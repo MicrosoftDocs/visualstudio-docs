@@ -1,7 +1,7 @@
 ---
 title: Change themes, fonts, text, and contrast for accessibility
 description: Learn how to change Visual Studio color themes, font colors, text sizes, and extra-contrast colors for ease of use and accessibility concerns.
-ms.date: 11/22/2021
+ms.date: 11/24/2021
 ms.topic: how-to
 ms.custom: contperf-fy21q1
 helpviewer_keywords:
@@ -160,7 +160,7 @@ For more information, see the [Change fonts and colors for the editor](../ide/re
 
 ::: moniker range="vs-2022"
 
-There are font options and color themes for you if you're neurodiverse or experience low vision, as follows:
+In a neurodiverse world, we want to support our different learners and low-vision users by offering the following font options and color themes:
 
 - You can use the [Cascadia Code](#use-the-cascadia-code-font) font, which adds more weight to the proportions of letters, numerals, and characters to help disambiguate them. Cascadia Code also includes coding ligatures.
 - You can choose to use a [high-contrast](#use-windows-high-contrast) color theme for *all* the apps and UI on a computer, or an [extra-contrast](#use-visual-studio-extra-contrast) color theme for Visual Studio only.
