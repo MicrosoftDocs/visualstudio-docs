@@ -112,7 +112,7 @@ Ready to get started? Here's how.
 
 1. When you install Visual Studio, choose the **Installation locations** tab.
 
-   :::image type="content" source="media/vs-2022/vs-installer-installation-locations-cplusplus-workload.png" border="false" alt-text="Screenshot showing the Installation locations tab of the Visual Studio Installer.":::
+   :::image type="content" source="media/vs-2022/vs-installer-installation-locations-tab.png" border="false" alt-text="Screenshot showing the Installation locations tab of the Visual Studio Installer.":::
 
 1. In the **Visual Studio IDE** section, accept the default path. Visual Studio installs the core product, and includes files that are specific to this version of Visual Studio.
 
