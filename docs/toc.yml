@@ -85,14 +85,12 @@
       items:
       - name: Tools for detecting and managing Visual Studio instances
         href: install/tools-for-managing-visual-studio-instances.md
-      - name: Update a network-based installation of Visual Studio
+      - name: Update a Visual Studio instance installed from a network
         href: install/update-a-network-installation-of-visual-studio.md
       - name: Update Visual Studio while on a servicing baseline
         href: install/update-servicing-baseline.md
       - name: Update Visual Studio using a minimal offline layout
         href: install/update-minimal-layout.md
-      - name: Control updates to Visual Studio deployments
-        href: install/controlling-updates-to-visual-studio-deployments.md
       - name: Manage package payload changes
         href: install/changed-payloads.md
       - name: Disable or move the package cache
