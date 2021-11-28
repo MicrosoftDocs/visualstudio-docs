@@ -290,7 +290,7 @@ This folder has to contain a JavaScript file with the same name which exports th
 * `find_tests`
 * `run_tests`
 
-For good a example of the `find_tests` and the `run_tests` implementations, see the implementation for the Mocha
+For a good example of the `find_tests` and the `run_tests` implementations, see the implementation for the Mocha
 unit testing framework in:
 
 `<VisualStudioFolder>\Common7\IDE\Extensions\Microsoft\NodeJsTools\TestAdapter\TestFrameworks\mocha\mocha.js`
