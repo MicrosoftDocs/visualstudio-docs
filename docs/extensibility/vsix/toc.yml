@@ -43,8 +43,6 @@
       href: tips/solutions.md
     - name: Build
       href: tips/build.md
-    - name: Events
-      href: tips/events.md
   - name: Publishing
     items:
     - name: Checklist
