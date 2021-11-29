@@ -38,7 +38,7 @@ Writing extensions is a bit of a niche activity, so searching for help online do
 ## Use open source as a learning tool
 You probably have ideas about what you want your extension to do and how it should work. But what APIs should you use and how do you hook it all up correctly? These are difficult questions and a lot of people give up when these go unanswered.
 
-A good way is to find extensions on the Marketplace that does similar things or uses similar elements as to what you want to do. Then find the source code for that extension and look at what they did and what APIs they used and go from there.
+A good way is to find extensions on the Marketplace that do similar things or use elements similar to what you want to do. Then find the source code for those extensions and look at what they did and what APIs they used and go from there.
 
 ## Book
 To jump start your learning of the Visual Studio extensibility model, consider the [Visual Studio Extensibility Development](https://www.amazon.com/Visual-Studio-Extensibility-Development-Productivity/dp/1484258525) book by Rishabh Verma.
