@@ -24,7 +24,7 @@ The Python developer community has produced thousands of useful packages that yo
 
 1. Select the **View** > **Other Windows** > **Python Environments** menu command. The **Python Environments** window opens as a peer to **Solution Explorer**.
 
-  The Python environments window shows the different environments that are available to you. The list shows both environments that you installed using the Visual Studio installer, and environments that you installed separately. These environments include global, virtual, and conda environments. The environment in bold is the default environment that's used for new projects. For more information about working with environments, see [How to create and manage Python environments in Visual Studio environments](managing-python-environments-in-visual-studio.md).
+   The Python environments window shows the different environments that are available to you. The list shows both environments that you installed using the Visual Studio installer, and environments that you installed separately. These environments include global, virtual, and conda environments. The environment in bold is the default environment that's used for new projects. For more information about working with environments, see [How to create and manage Python environments in Visual Studio environments](managing-python-environments-in-visual-studio.md).
 
    :::moniker range=">=vs-2022"
    ![Python Environments window-2022](media/environments/environments-default-view-2022.png)
@@ -37,7 +37,7 @@ The Python developer community has produced thousands of useful packages that yo
    > [!NOTE]
    > You can also use the **Ctrl+K, Ctrl+`** keyboard shortcut to open the **Python Environments** window from the Solution Explorer window. If the shortcut doesn't work and you can't find the Python Environments window in the menu, it's possible that you haven't installed the Python workload. See [How to install Python support in Visual Studio on Windows](installing-python-support-in-visual-studio.md#how-to-install-python-support-in-visual-studio-on-windows) for guidance about how to install Python.
 
-   > With a Python project open, you can open the **Python Environments** window from **Solution Explorer**. Right-click **Python Environments** and select **View All Python Environments**.
+   With a Python project open, you can open the **Python Environments** window from **Solution Explorer**. Right-click **Python Environments** and select **View All Python Environments**.
 
    :::moniker range="vs-2022"
    ![Python Environments-2022](media/environments/environments-view-all-2022.png)
@@ -109,7 +109,7 @@ The Python developer community has produced thousands of useful packages that yo
 
 1. After the package installs, it appears in the **Python Environments** window. The **X** to the right of the package uninstalls it.
 
-:::moniker range="vs-2022"
+   :::moniker range="vs-2022"
    ![Installing matplotlib in the environment-2022](media/environments/environments-add-matplotlib2-2022.png)
    :::moniker-end
 
