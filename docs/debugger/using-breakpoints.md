@@ -215,7 +215,7 @@ You can break execution when a function is called. This is useful, for example, 
 
 ::: moniker range=">= vs-2019"
 
-## <a name="BKMK_set_a_data_breakpoint_managed"></a>Set data breakpoints (.NET Core 3.0 or later)
+## <a name="BKMK_set_a_data_breakpoint_managed"></a>Set data breakpoints (.NET Core 3.x or .NET 5+)
 
 Data breakpoints break execution when a specific object's property changes.
 

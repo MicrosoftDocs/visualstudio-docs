@@ -31,7 +31,7 @@ Below is a list of errors that may occur when using managed data breakpoints. Th
 
   - The support for managed data breakpoints began in .NET Core 3.0. It is currently not supported in .NET Framework, versions of .NET Core under 3.0, or versions of .NET under 5.0.3. 
     
-  - **Solution**: The solution to this would be to upgrade your project to .NET Core 3.0 or later.
+  - **Solution**: The solution to this would be to upgrade your project to .NET Core 3.x or .NET 5+.
 
 - *"The value cannot be found on the managed heap and cannot be tracked."*
   - Variable declared on the stack.
