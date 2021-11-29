@@ -3,8 +3,8 @@ title: When I sign into the admin portal, I don’t see any agreements to manage
 description: A super admin or admin is signed into the admin portal, but doesn't see an agreement
 ms.topic: include
 ms.assetid: e276637d-8a22-4bb2-a574-7ba9442b92f0
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 06/02/2021
 user.type: admin
 tags: agreement

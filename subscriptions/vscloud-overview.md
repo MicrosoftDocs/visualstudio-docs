@@ -1,8 +1,8 @@
 ---
 title: How to purchase Visual Studio cloud subscriptions
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: af1f7888-6942-4515-9475-0928ecf49dab
 ms.date: 10/18/2021
 ms.topic: overview

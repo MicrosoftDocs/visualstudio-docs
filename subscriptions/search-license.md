@@ -1,8 +1,8 @@
 ---
 title: Search and filter | Microsoft Docs
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 9c0b9a4f-b9a3-491c-a68f-6e4bac7f7b3d
 ms.date: 10/21/2021
 ms.topic: how-to
