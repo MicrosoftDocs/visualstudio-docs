@@ -36,7 +36,7 @@ Choose the **Blue**, **Light**, **Dark**, or **Blue (Extra Contrast)** color the
 
 ::: moniker range="vs-2022"
 
-You can also choose to use the theme that Windows uses by selecting **Use system setting**
+You can also choose to use the theme that Windows uses by selecting **Use system setting**.
 
 ::: moniker-end
 
