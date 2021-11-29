@@ -64,7 +64,7 @@ catch (Exception ex)
 ```
 
 ## Notify the user
-When the exception has low severity to the user, there is no reason to interrupt them. Consider using the statusbar to show that an error occurred.
+When the exception has low severity to the user, there is no reason to interrupt them. Consider using the status bar to show that an error occurred.
 
 If the exception is severe and causes the user flow to be interrupted, consider using a message box to let the user know about the error. Make sure to still log the exception through telemetry and/or the Output Window as described previously.
 

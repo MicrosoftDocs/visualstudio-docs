@@ -32,7 +32,7 @@ To inform the user about non-critical errors, use the **Output Window**. You can
 ## Status bar
 A status bar is an area at the bottom of a primary window that displays information about the current window's state (such as what is being viewed and how), background tasks (such as printing, scanning, and formatting), or other contextual information (such as selection and keyboard state).
 
-:::image type="content" source="../media/statusbar.png" alt-text="Status bar showing custom text.":::
+:::image type="content" source="../media/status-bar.png" alt-text="Status bar showing custom text.":::
 
 Use the status bar when you don't need to take the full attention of the user, but still give them information.
 
@@ -50,7 +50,7 @@ VS.StatusBar.ShowMessageAsync("My text").FireAndForget();
 ### Animation icon
 Adding an animation icon to the status bar is easy.
 
-:::image type="content" source="../media/statusbar-animation.gif" alt-text="Status bar animating using the StatusAnimation.Sync icon.":::
+:::image type="content" source="../media/status-bar-animation.gif" alt-text="Status bar animating using the StatusAnimation.Sync icon.":::
 
 Simply specify which animation icon to use.
 
@@ -118,7 +118,7 @@ InfoBar infoBar = textView.CreateInfoBar(model);
 ## Message box
 There are various ways of showing a message box using .NET. For instance through Windows Forms or WPF. They cause some issues in Visual Studio extensions with parenting correctly against the main window, so it is recommended to use Visual Studio's own message box.
 
-:::image type="content" source="../media/messagebox.png" alt-text="Native Visual Studio message box.":::
+:::image type="content" source="../media/message-box.png" alt-text="Native Visual Studio message box.":::
 
 Use a message box when you need to block the UI to get the full attention of the user.
 

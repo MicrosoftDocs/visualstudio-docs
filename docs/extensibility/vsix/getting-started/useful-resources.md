@@ -74,13 +74,4 @@ Refers to the file extension of a Visual Studio extension (.vsix) and also as a 
 ### VSSDK
 This is short for the *Visual Studio SDK* which are the classes, services, and component that make up the public surface are of Visual Studio's extensibility API. It's usually used when referring to the [Microsoft.VisualStudio.SDK](https://www.nuget.org/packages/Microsoft.VisualStudio.SDK/) NuGet package.
 
-### UI Context
-TBD
-
-### TextBuffer
-TBD
-
-### TextView
-TBD
-
 Find more information in the [Visual Studio SDK Glossary](../../visual-studio-sdk-glossary.md).
