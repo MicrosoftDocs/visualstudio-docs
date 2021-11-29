@@ -18,7 +18,7 @@ This section helps you getting your extension ready to share with your team or t
 Make sure to check out [the checklist](checklist.md) to ensure your extension follows best practices before you share it with anyone.
 
 ## Publish to the Marketplace
-Share your fantastic extension with the world, but publishing it to the [Marketplace](marketplace.md).
+Share your fantastic extension with the world by publishing it to the [Marketplace](marketplace.md).
 
 ## Publish on a private gallery
 You can also [host your own gallery](private-galleries.md) of extensions either internally in your organization or in public, on any web host.
