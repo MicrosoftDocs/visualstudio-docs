@@ -1,8 +1,8 @@
 ---
 title: Assign Visual Studio subscriptions to users | Microsoft Docs
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: amast
 ms.assetid: 4e529a43-7aed-4eee-895d-862a631952df
 ms.date: 10/25/2021
 ms.topic: conceptual
