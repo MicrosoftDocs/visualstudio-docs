@@ -1,6 +1,6 @@
 ---
 title: Manage Python environments and interpreters
-description: Use the Python Environments window to manage global, virtual, and conda environments, installing Python interpreters and packages, and assigning environments to Visual Studio projects.
+description: Use the Python Environments window to manage global, virtual, and conda environments. Install Python interpreters and packages, and assign environments to Visual Studio projects.
 ms.date: 08/06/2019
 ms.topic: how-to
 author: rjmolyneaux
@@ -89,7 +89,7 @@ Use the drop-down list below the list of environments to switch to different tab
 
 Selecting an environment doesn't change its relation to any projects. The default environment, shown in boldface in the list, is the one that Visual Studio uses for any new projects. To use a different environment with new projects, use the **Make this the default environment for new projects** command. Within the context of a project, you can always select a specific environment. For more information, see [Select an environment for a project](selecting-a-python-environment-for-a-project.md#how-to-select-a-python-environment-for-a-project)).
 
-To the right of each listed environment is a control that opens an **Interactive** window for that environment. (In Visual Studio 2017 15.5 and earlier, another control appears that refreshes the IntelliSense database for that environment. See [Environments window tab reference](python-environments-window-tab-reference.md) for details about the database.)
+To the right of each listed environment, is a control that opens an **Interactive** window for that environment. (In Visual Studio 2017 15.5 and earlier, another control appears that refreshes the IntelliSense database for that environment. See [Environments window tab reference](python-environments-window-tab-reference.md) for details about the database.)
 
 ::: moniker range="vs-2017"
 > [!Tip]
@@ -131,17 +131,19 @@ Visual Studio can work with global, virtual, and conda environments.
 
 #### Global environments
 
-Each Python installation (for example, Python 2.7, Python 3.6, Python 3.7, Anaconda 4.4.0, and so on see [Install Python interpreters](installing-python-interpreters.md)) maintains its own *global environment*. Each environment is composed of the specific Python interpreter, its standard library, a set of pre-installed packages, and any other packages you install while that environment is activated. Installing a package into a global environment makes it available to all projects using that environment. If the environment is located in a protected area of the file system (within *c:\program files*, for example), then installing packages requires administrator privileges.
+Each Python installation maintains its own *global environment*. For example, Python 2.7, Python 3.6, Python 3.7, Anaconda 4.4.0, and so on. See [Install Python interpreters](installing-python-interpreters.md))
+
+Each environment is composed of the specific Python interpreter, its standard library, a set of pre-installed packages, and any other packages you install while that environment is activated. Installing a package into a global environment makes it available to all projects using that environment. If the environment is located in a protected area of the file system (within *c:\program files*, for example), then installing packages requires administrator privileges.
 
 Global environments are available to all projects on the computer. In Visual Studio, you select one global environment as the default, which is used for all projects unless you specifically choose a different one for a project. For more information, see [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
 
 #### Virtual environments
 
-Although working in a global environment is an easy way to get started, that environment will, over time, become cluttered with many different packages that you've installed for different projects. Such clutter makes it difficult to thoroughly test an application against a specific set of packages with known versions, which is exactly the kind of environment you'd set up on a build server or web server. Conflicts can also occur when two projects require incompatible packages or different versions of the same package.
+Working in a global environment is an easy way to get started. Over time, the environments become cluttered with many different packages that you've installed for different projects. Such clutter makes it difficult to thoroughly test your application against a specific set of packages with known versions. But,  the kind of environment is exactly as above that you'd set up on a build server or web server. Conflicts can also occur when two projects require incompatible packages or different versions of the same package.
 
-For this reason, developers often create a *virtual environment* for a project. A virtual environment is a subfolder in a project that contains a copy of a specific interpreter. When you activate the virtual environment, any packages you install are installed only in that environment's subfolder. When you then run a Python program within that environment, you know that it's running against only those specific packages.
+For this reason, developers often create a *virtual environment* for a project. A virtual environment is a subfolder in a project that contains a copy of a specific interpreter. If you activate the virtual environment, any packages you install are installed only in that environment's subfolder. When you then run a Python program within that environment, you know that it's running against only those specific packages.
 
-Visual Studio provides direct support for creating a virtual environment for a project. For example, if you open a project that contains a *requirements.txt*, or create a project from a template that includes that file, Visual Studio prompts you to automatically create a virtual environment and install those dependencies.
+Visual Studio provides direct support for creating a virtual environment for a project. For example, if you open a project that contains a *requirements.txt*, or create a project from a template that includes that file, Visual Studio prompts you automatically to create a virtual environment and install those dependencies.
 
 At any time within an open project, you can create a new virtual environment. In **Solution Explorer**, expand the project node, right-click **Python Environments**, and choose **Add environment**. In **Add Environment**, choose **Virtual environment**.
 
@@ -262,9 +264,11 @@ Visual Studio 2017 version 15.7 and later detects conda environments automatical
 
 ## Manually identify an existing environment
 
-Use the following steps to identify an environment that's installed in a non-standard location (including conda environments in Visual Studio 2017 version 15.6 and earlier):
+Use the following steps to identify an environment that's installed in a non-standard location:
 
-::: moniker range="vs-2017"
+::: moniker range="<=vs-2017"
+
+Use the following steps to identify an environment that's installed in a non-standard location (including conda environments in Visual Studio 2017 version 15.6 and earlier):
 
 1. Select **+ Custom** in the **Python Environments** window, which opens the **Configure** tab:
 
@@ -309,12 +313,13 @@ Use the following steps to identify an environment that's installed in a non-sta
 
     ![Existing environment tab in the Add environment dialog-2022](media/environments/environments-custom-1-2022.png)
 
-For example, select an existing environment and the path to the existing environment.
+    For example, select an existing environment and the path to the existing environment.
 
 1. Select the **Environment** drop-down, then select **Custom**:
 
     ![Custom environment option in the Add environment dialog-2022](media/environments/environments-custom-2-2022.png).
-For example, Anaconda 2021.05 in C:\Users\user\Anaconda3\python.exe
+
+    For example, Anaconda 2021.05 in C:\Users\user\Anaconda3\python.exe
 
 1. In the provided fields in the dialog box, enter or browse (using **...**) to the path of the interpreter under **Prefix path**, which fills in most of the other fields. After reviewing those values and modifying as necessary, select **Add**.
 
@@ -330,13 +335,16 @@ If Visual Studio finds registry entries for an environment, but the path to the 
 ::: moniker range="vs-2017"
   ![The Python Environments window showing an invalid environment-2017](media/environments/environments-invalid-entry.png)
 ::: moniker-end
+
 ::: moniker range=">=vs-2019"
   ![The Python Environments window showing an invalid environment-2019-2022](media/environments/environments-invalid-entry-2019.png)
 ::: moniker-end
 
 To correct an environment you wish to keep, first try using its installer's **Repair** process. The installers for standard Python 3.x, for example, include that option.
 
-To correct an environment that doesn't have a repair option, or to remove an invalid environment, use the following steps to modify the registry directly. Visual Studio automatically updates the **Python Environments** window when you make changes to the registry.
+## Modify the registry to correct an environment that doesn't have a repair option, or to remove an invalid environment
+
+Use the following steps to modify the registry directly. Visual Studio automatically updates the**Python Environments** window when you make changes to the registry.
 
 1. Run *regedit.exe*.
 1. Navigate to **HKEY_LOCAL_MACHINE\SOFTWARE\Python** or **HKEY_CURRENT_USER\SOFTWARE\Python**. For IronPython, look for **IronPython** instead.

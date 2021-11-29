@@ -1,7 +1,7 @@
 ---
 title: Python in Visual Studio tutorial step 5, install packages
 titleSuffix: ""
-description: Step 5 of a core walkthrough of Python capabilities in Visual Studio, demonstrating Visual Studio's features for managing packages in a Python environment.
+description: Step 5 is a core walk through to demonstrate Python capabilities in Visual Studio and Visual Studio's features to manage packages in a Python environment.
 ms.date: 03/09/2020
 ms.topic: tutorial
 author: rjmolyneaux
@@ -44,7 +44,7 @@ The Python developer community has produced thousands of useful packages that yo
    :::moniker-end
 
    :::moniker range="<=vs-2019"
-    ![Python Environments-2019](media/environments/environments-view-all-2019.png)
+   ![Python Environments-2019](media/environments/environments-view-all-2019.png)
    :::moniker-end
 
 1. Now, create a new project with **File** > **New** > **Project**, selecting the **Python Application** template.
@@ -73,7 +73,7 @@ The Python developer community has produced thousands of useful packages that yo
     ![Unresolved package import](media/packages-unresolved-import.png)
    :::moniker-end
 
-1. The **Overview** tab in the Python Environments window provides quick access to an **Interactive** window for that environment and the installation folder of the environment and interpreters. 
+1. The **Overview** tab in the Python Environments window provides quick access to an **Interactive** window for that environment and the installation folder of the environment and interpreters.
 
     For example, select **Open interactive window** and an **Interactive** window for that specific environment appears in Visual Studio.
 
@@ -83,7 +83,7 @@ The Python developer community has produced thousands of useful packages that yo
 
 1. From the **Python Environments** window, select the default environment for new Python projects.
 
-1. choose the **Packages** tab.
+1. Choose the **Packages** tab.
 
    :::moniker range="vs-2022"
    ![Packages installed in an environment-2022](media/environments/environments-installed-packages-2022.png)

@@ -131,7 +131,7 @@ After installation, the installer provides options to modify, launch, repair, or
 
 ### Troubleshooting
 
-If you encounter problems installing or running Python in Visual Studio, try the following:
+To resolve problems while installing or running Python in Visual Studio, try one  of the following steps:
 
 - Determine whether the same error occurs using the Python CLI, that is, running *python.exe* from a command prompt.
 - Use the [**Repair**](../install/repair-visual-studio.md) option in the Visual Studio installer.
