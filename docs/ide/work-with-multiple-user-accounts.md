@@ -13,14 +13,14 @@ ms.workload:
 ---
 # Work with multiple user accounts
 
+This article shows you how to add multiple accounts to Visual Studio. It also shows you how to see the resources accessible from those accounts in places such as the **Add Connected Service** dialog, **Server Explorer**, and **Team Explorer**.
+
 If you have multiple Microsoft accounts and/or work or school accounts, you can add them all to Visual Studio so that you can access the resources from any account without having to sign in to it separately. Azure, Application Insights, Azure DevOps, and Microsoft 365 services all support the streamlined sign-in experience.
 
 After you add multiple accounts on one machine, that set of accounts roams with you if you sign in to Visual Studio on another machine.
 
 > [!NOTE]
 > Although the account names roam, the credentials do not. You'll be prompted to enter credentials for those other accounts the first time you attempt to use their resources on a new machine.
-
-This article shows you how to add multiple accounts to Visual Studio. It also shows you how to see the resources accessible from those accounts in places such as the **Add Connected Service** dialog, **Server Explorer**, and **Team Explorer**.
 
 ## Sign in to Visual Studio
 
@@ -56,14 +56,6 @@ Azure Active Directory (AAD) enables support for end-user single sign-in in ASP.
 
 To see this in action, create a new **ASP.NET Core Web Application** project. In the **New ASP.NET Core Web Application** dialog box, choose the **Web Application** template, and then choose **Change Authentication**.
 
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-To see this in action, create a new **ASP.NET Core Web App** project. On the **Create a new ASP.NET Core Web Application** page, choose **ASP.NET Core 3.1** from the drop-down, choose the **Web Application** template, and then choose **Change** under **Authentication**.
-
-::: moniker-end
-
 The **Change Authentication** dialog box appears where you can choose what kind of authentication to use in your application.
 
 ![Change authentication dialog for ASP.NET](../ide/media/vs2015_change_authentication.png)
@@ -75,6 +67,20 @@ For more information about the different kinds of authentication in ASP.NET, see
 From the main menu, choose **Team** > **Manage Connections** to open the **Team Explorer - Connect** window. Choose **Manage Connections** > **Connect to a Project**. In the **Connect to a Project** dialog, select a project from the list (or select **Add TFS Server** and enter the URL to your server). When you select a URL, you're logged in without having to reenter your credentials.
 
 For more information, see [Connect to projects in Team Explorer](connect-team-project.md).
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+To see this in action, create a new **ASP.NET Core Web App** project. On the **Additional information** page, choose **.NET Core 3.1 (Long-term support)** from the **Target Framework** drop-down, and then choose **Microsoft Identity Platform** from the **Authentication Type** drop-down.
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+To see this in action, create a new **ASP.NET Core Web App** project. On the **Additional information** page, choose **.NET Core 6 (Long-term support)** from the **Target Framework** drop-down, and then choose **Microsoft Identity Platform** from the **Authentication Type** drop-down.
+
+::: moniker-end
 
 ## Add an additional account to Visual Studio
 
