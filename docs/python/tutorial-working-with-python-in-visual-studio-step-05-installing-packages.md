@@ -93,9 +93,9 @@ The Python developer community has produced thousands of useful packages that yo
    ![Packages installed in an environment-2019](media/environments/environments-installed-packages-2019.png)
    :::moniker-end
 
-   1. Enter `matplotlib` into the search field to install `matplotlib`.
+1. Enter `matplotlib` into the search field to install `matplotlib`.
 
-   1. Select the **Run command: pip install matplotlib** option.
+1. Select the **Run command: pip install matplotlib** option.
       This option installs `matplotlib`, and any packages it depends on (in this case, that includes `numpy`).
 
    :::moniker range="vs-2022"
