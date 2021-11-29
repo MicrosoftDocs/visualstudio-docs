@@ -2,7 +2,7 @@
 title: General, Environment, Options Dialog Box
 description: Learn how to use the General page in the Environment section to change color themes, status bar settings, file extension associations, and more for the IDE.
 ms.custom: SEO-VS-2020
-ms.date: 07/26/2019
+ms.date: 11/29/2021
 ms.topic: reference
 f1_keywords:
 - VS.Environment.General
@@ -34,7 +34,26 @@ Use this page to change color themes, status bar settings, and file extension as
 
 Choose the **Blue**, **Light**, **Dark**, or **Blue (Extra Contrast)** color theme for the IDE.
 
-You can install additional predefined themes and create custom themes by downloading and installing the **Visual Studio Color Theme Editor** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor). After you install this tool, additional color themes appear in the **Color Theme** list box.
+::: moniker range="vs-2022"
+
+You can also choose to use the theme that Windows uses by selecting **Use system setting**
+
+::: moniker-end
+
+You can install additional predefined themes and create custom themes by downloading and installing the **Visual Studio Color Theme Designer** for the version that you're currently using, as follows:
+
+- [Color Theme Designer for Visual Studio 2022](https://marketplace.visualstudio.com/items?itemName=idex.colorthemedesigner2022)
+- [Color Theme Designer for Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=ms-madsk.ColorThemeDesigner).
+- [Color Theme Editor for Visual Studio 2017](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor)
+
+After you install this tool, additional color themes appear in the **Color Theme** list box.
+
+::: moniker range="vs-2022"
+
+> [!NOTE]
+> Want even more themes to choose from? Check out the wide range of custom themes on the [**Visual Studio Marketplace**](https://marketplace.visualstudio.com/search?target=VS&category=Tools&vsVersion=&subCategory=Themes&sortBy=Installs). And to see examples of new Visual Studio 2022 custom themes based on VS Code, take a look at the [**Introducing a collection of new Visual Studio themes**](https://devblogs.microsoft.com/visualstudio/custom-themes/) blog post.
+
+::: moniker-end
 
 **Apply title case styling to menu bar**
 
