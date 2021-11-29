@@ -59,8 +59,8 @@ To quickly test Python support after following the installation steps, open the 
     :::moniker range=">=vs-2022"
   
    >[!div class="nextstepaction"]
-   > [Install Visual Studio 2022 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=17) 
- 
+   > [Install Visual Studio 2022 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=17)
+
     >[!Tip]
     > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other users, install [Visual Studio 2022 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=17) or [Visual Studio 2022 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=17)
 
@@ -103,7 +103,7 @@ To quickly test Python support after following the installation steps, open the 
 
    ![Python development options in Visual Studio 2017 installer](media/installation-python-options.png)
 
-   :::moniker-end 
+   :::moniker-end
 
  | Option | Description |
    | --- | --- |

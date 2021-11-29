@@ -308,7 +308,8 @@ Use the following steps to identify an environment that's installed in a non-sta
 1. Select **Add Environment...** in the **Python Environments** window (or from the Python toolbar), which opens the **Add environment** dialog box. In that dialog, select the **Existing environment** tab:
 
     ![Existing environment tab in the Add environment dialog-2022](media/environments/environments-custom-1-2022.png)
-For example, select an existing environment and the path to the existing environment. 
+
+For example, select an existing environment and the path to the existing environment.
 
 1. Select the **Environment** drop-down, then select **Custom**:
 
