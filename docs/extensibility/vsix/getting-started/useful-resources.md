@@ -66,7 +66,7 @@ Sometimes referred to as *Package class*. Its `InitializeAsync(...)` method is c
 This is a Package containing keys and values to be added to Visual Studio's private registry. You can either generate this file automatically from a Package class, or create the .pkgdef file manually and included it as an `<Asset>` in the .vsixmanifest file.
 
 ### VSCT
-The Visual Studio Command Table file. This is where menus, commands, and keybindings are declared.
+The Visual Studio Command Table file. This is where menus, commands, and key bindings are declared.
 
 ### VSIX
 Refers to the file extension of a Visual Studio extension (.vsix) and also as a pseudonym for Visual Studio extensibility all up.

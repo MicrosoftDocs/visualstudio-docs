@@ -30,13 +30,13 @@ The **VSCommandTable.vsct** file is where commands are declared. It's an XML fil
 The **\*Package.cs** file is the Package class which is the entry point for most extensions. In here you often find command handlers, tool windows, options pages, services, and other components registered.
 
 ## Compilation
-The project compiles into a .vsix file located in the */bin/debug* or */bin/release* folder depending on your current solution build configuration. The *Visual Studio extension development* [workload](get-the-tools.md) provides dedicated MSBuild targets and tasks to handle the VSIX project flavor.
+The project compiles into a .vsix file located in the */bin/debug* or */bin/release* folder depending on your current solution build configuration. The *Visual Studio extension development* [workload](get-tools.md) provides dedicated MSBuild targets and tasks to handle the VSIX project flavor.
 
 When the VSIX project builds, it automatically deploys itself to the Experimental Instance. This can be controlled in the VSIX project settings: 
 
 :::image type="content" source="../media/deploy-vsix-experimental-instance.png" alt-text="VSIX project properties.":::
 
-## Experimental Instance
+## Experimental instance
 To safeguard your Visual Studio development environment from untested applications that might change it, the VS SDK provides an experimental space that you can use to experiment. You develop new applications by using Visual Studio as usual, but you run them by using this Experimental Instance.
 
 Every application that has a VSIX package launches the Visual Studio experimental instance in debug mode.

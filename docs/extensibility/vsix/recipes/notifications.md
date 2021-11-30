@@ -14,10 +14,10 @@ ms.custom: cookbook
 
 There are several mechanisms for displaying notifications to the user of your extension. Picking the right one can be challenging, so let's look at the options.
 
-1. Status bar
-2. Info bar
-3. Message box
-4. Output window
+* Status bar
+* Info bar
+* Message box
+* Output window
 
 They are used for different purposes and have different levels of demand on the users attention.
 
@@ -75,7 +75,7 @@ VS.StatusBar.EndAnimationAsync(StatusAnimation.Sync).FireAndForget();
 ## Info bar
 An Info Bar is a yellow bar at the top of a tool- or document window. It's useful for grabbing the attention of the user without blocking them. An Info Bar can contain an icon, text, and several hyperlinks.
 
-:::image type="content" source="../media/infobar-sol-exp.png" alt-text="An Info Bar showing in Solution Explorer.":::
+:::image type="content" source="../media/info-bar-solution-explorer.png" alt-text="An Info Bar showing in Solution Explorer.":::
 
 Here's how to add an Info Bar to the Solution Explorer tool window.
 
@@ -145,4 +145,4 @@ await pane.WriteLineAsync("Line 3");
 
 ```
 
-See the [Error handling recipe](error-handling.md) for more info on logging exceptions.
+See the [Error handling recipe](handle-errors.md) for more info on logging exceptions.

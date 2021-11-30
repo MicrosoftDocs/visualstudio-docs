@@ -24,7 +24,7 @@ Based on your experience level, pick where to begin.
 
 ### Learn how to get started
 
-If you are new to extension development, you want to start at the beginning to ensure you're not missing any information up front. Head on over to the [getting started section](getting-started/getting-started-guide.md).
+If you are new to extension development, you want to start at the beginning to ensure you're not missing any information up front. Head on over to the [getting started section](getting-started/get-started-guide.md).
 
 ### Walk me through typical scenarios
 
@@ -33,3 +33,9 @@ Once you know the basics of the Visual Studio extensibility model, it is time to
 ### Publishing the finished extension
 
 When you've written your extension, it is time to publish it. Whether you want to share it with just a few friends, your company, or the whole world, you want to check out the [publishing section](publish/publish-guide.md).
+
+## Tips & tricks
+* [Working with builds in Visual Studio extensions](tips/build.md)
+* [Working with files and documents in Visual Studio extensions](tips/files.md)
+* [Working with projects in Visual Studio extensions](tips/projects.md)
+* [Working with solutions in Visual Studio extensions](tips/solutions.md)

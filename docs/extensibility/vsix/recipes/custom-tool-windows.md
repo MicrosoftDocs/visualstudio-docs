@@ -20,7 +20,8 @@ A tool window is a core UI concept in Visual Studio, and the following video wil
 
 A tool window is a window that can be moved around and docked just like the Solution Explorer, Error List, and other well-known tool windows. A tool window consists of an outer shell provided by Visual Studio and a custom inner UI control, which is usually a XAML `<usercontrol>`, provided by the extension.
 
-> To create a new extension with a tool window, create a new project using the **VSIX Project w/Tool Window (Community)** template and skip the rest of this recipe. See [getting started](../getting-started/your-first-extension.md) for more info.
+>[!NOTE]
+> To create a new extension with a tool window, create a new project using the **VSIX Project w/Tool Window (Community)** template and skip the rest of this recipe. See [getting started](../getting-started/first-extension.md) for more info.
 
 Adding a tool window to an existing extension requires 4 simple steps:
 
@@ -113,6 +114,7 @@ public sealed class MyPackage : ToolkitPackage
 }
 ```
 
+>[!NOTE]
 > Note that the package class must inherit from the `ToolkitPackage` and not from `Package` or `AsyncPackage`.
 
 You can specify what style the tool window should have and where it should show up by default. The following example shows that the tool window should be placed in the same docking container as Solution Explorer in a linked style.

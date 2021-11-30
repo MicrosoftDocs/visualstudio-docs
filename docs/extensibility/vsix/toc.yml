@@ -6,13 +6,13 @@
     expanded: true
     items:
     - name: Overview
-      href: getting-started/getting-started-guide.md
+      href: getting-started/get-started-guide.md
     - name: Get the tools
-      href: getting-started/get-the-tools.md
+      href: getting-started/get-tools.md
     - name: Extension anatomy
       href: getting-started/extension-anatomy.md
     - name: Your first extension
-      href: getting-started/your-first-extension.md
+      href: getting-started/first-extension.md
     - name: Useful resources
       href: getting-started/useful-resources.md
   - name: Recipes
@@ -24,16 +24,16 @@
     - name: Tool windows
       href: recipes/custom-tool-windows.md
     - name: Theming
-      href: recipes/theming.md
+      href: recipes/use-themes.md
     - name: Settings & options
-      href: recipes/settings-and-options.md
+      href: recipes/settings-options.md
     - name: Notifications
       href: recipes/notifications.md
     - name: Error handling
-      href: recipes/error-handling.md
+      href: recipes/handle-errors.md
     - name: Showing progress
-      href: recipes/showing-progress.md
-  - name: Tips & Tricks
+      href: recipes/show-progress.md
+  - name: Tips & tricks
     items:
     - name: Files & documents
       href: tips/files.md
@@ -45,6 +45,8 @@
       href: tips/build.md
   - name: Publishing
     items:
+    - name: Overview
+      href: publish/publish-guide.md
     - name: Checklist
       href: publish/checklist.md
     - name: Extension packs

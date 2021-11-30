@@ -10,7 +10,7 @@ ms.prod: visual-studio-windows
 ms.technology: vs-ide-sdk
 ms.custom: cookbook
 ---
-# Tips on working with solutions in Visual Studio extensions
+# Working with solutions in Visual Studio extensions
 
 Here's a collection of small code samples on different ways to work with solutions.
 

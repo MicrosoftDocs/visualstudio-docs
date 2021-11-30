@@ -76,6 +76,23 @@ From the main menu, choose **Team** > **Manage Connections** to open the **Team 
 
 For more information, see [Connect to projects in Team Explorer](connect-team-project.md).
 
+<<<<<<< Updated upstream
+=======
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+To see this in action, create a new **ASP.NET Core Web App** project. On the **Additional information** page, choose **.NET Core 3.1 (Long-term support)** from the **Target Framework** drop-down, and then choose **Microsoft identity platform** from the **Authentication Type** drop-down.
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+To see this in action, create a new **ASP.NET Core Web App** project. On the **Additional information** page, choose **.NET Core 6.0 (Long-term support)** from the **Target Framework** drop-down, and then choose **Microsoft identity platform** from the **Authentication Type** drop-down.
+
+::: moniker-end
+
+>>>>>>> Stashed changes
 ## Add an additional account to Visual Studio
 
 To add an additional account to Visual Studio:
