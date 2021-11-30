@@ -3,8 +3,8 @@ title: Unable to see my monthly Azure credit in the Azure portal
 description: I'm unable to see my monthly Azure credit after logging into the Azure portal 
 ms.topic: include
 ms.assetid: 48420a4c-11b4-4bbd-a509-2c939d24e81a
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 8/14/2020
 user.type: subscriber
 tags: benefit, azure

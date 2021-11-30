@@ -3,8 +3,8 @@ title: When does my subscription expire?
 description: Information about your subscription(s) is available in the Subscriber Portal. Connect to https://my.visualstudio.com/subscriptions to...
 ms.topic: include
 ms.assetid: 84f740c9-11e1-45d1-b8c7-3cda7adce9d9
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 4/3/2020
 ms.faqid: q1_4
 ---
