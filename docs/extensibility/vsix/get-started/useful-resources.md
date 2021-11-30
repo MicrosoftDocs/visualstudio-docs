@@ -48,7 +48,7 @@ To jump start your learning of the Visual Studio extensibility model, consider t
 It's the best book available to learn from.
 
 ## Glossary
-To better understand this cookbook and being able to search for help online, having a shared vocabulary of extensibility terms is critical. Here's an alphabetical list of concepts and words that are important for extenders to know.
+To better understand this community toolkit and being able to search for help online, having a shared vocabulary of extensibility terms is critical. Here's an alphabetical list of concepts and words that are important for extenders to know.
 
 ### DTE
 *EnvDTE is an assembly-wrapped COM library containing the objects and members for Visual Studio core automation*. Or, an easy-to-use interface for interacting with Visual Studio.

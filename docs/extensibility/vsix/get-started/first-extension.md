@@ -23,7 +23,7 @@ If you're a visual learner, check out this short video of someone following the 
 Before you start writing your first Visual Studio extension (it's easy, I promise!), make sure you've got the [tools needed](get-tools.md).
 
 ## Create the project
-There are several project templates to choose from, so you want to make the right choice. The templates used in this cookbook, all have the moniker **(Community)** in the name.
+There are several project templates to choose from, so you want to make the right choice. The templates used in this community toolkit, all have the moniker **(Community)** in the name.
 
 The **VSIX Project w/Command (Community)** template comes with a command hooked up, making it easy to start from there. This is a great starting point for most extensions. If you know you want a tool window, use the **VSIX Project w/Tool Window (Community)** template. It also has a command to open the tool window.
 
@@ -121,7 +121,7 @@ namespace InsertGuid
 You're using the `VS` object to get the active editor text view, and then insert the guid at its text buffer's caret position.
 
 >[!NOTE]
-> You'll see `await JoinableTaskFactory.SwitchToMainThreadAsync()` and `ThreadHelper.ThrowIfNotOnUIThread()` in many places in this cookbook. They handle thread switching best practices and you don't need to know when and how to use them at this point - compiler warnings with Code Fixes (light bulbs) makes that super easy.
+> You'll see `await JoinableTaskFactory.SwitchToMainThreadAsync()` and `ThreadHelper.ThrowIfNotOnUIThread()` in many places in this community toolkit. They handle thread switching best practices and you don't need to know when and how to use them at this point - compiler warnings with Code Fixes (light bulbs) makes that super easy.
 
 The first draft of our extension is now complete and it is time to test it.
 
