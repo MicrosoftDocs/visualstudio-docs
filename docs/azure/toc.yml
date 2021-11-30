@@ -1,6 +1,8 @@
 - name: Azure Development with Visual Studio
   href: index.yml
   expanded: true
+- name: Overview
+  href: overview-azure-integration.md
 - name: Deploy to Azure App Service
   expanded: true
   items:
@@ -9,14 +11,16 @@
   - name: Deploy a .NET TODO List Web App to Azure
     href: /dotnet/azure/dotnet-quickstart-vs?view=azure-dotnet&preserve-view=true
   - name: Continuous deployment to Azure with Visual Studio and Git with ASP.NET Core
-    href: /aspnet/core/host-and-deploy/azure-apps/azure-continuous-deployment?view=aspnetcore-2.1&preserve-view=true
+    href: /azure/app-service/deploy-continuous-deployment
   - name: Continuous deployment to Azure with Azure Pipelines
     href: /azure/devops/pipelines/get-started-yaml?view=vsts&preserve-view=true
   - name: Deploy an ASP.NET Web App to an Azure VM
-    href: /azure/virtual-machines/windows/publish-web-app-from-visual-studio?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
+    href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
 - name: Connect to Azure services
   expanded: false
   items:
+  - name: Connected Services overview 
+    href: overview-connected-services.md
   - name: Add Azure Active Directory (AD)
     href: /azure/active-directory/develop/vs-active-directory-add-connected-service?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
   - name: Add Azure App Insights
@@ -35,6 +39,14 @@
     href: vs-azure-tools-connected-services-storage.md
   - name: Add Azure App Configuration 
     href: vs-azure-tools-connected-services-app-configuration.md
+- name: GitHub actions
+  href: overview-github-actions.md
+- name: How to
+  items:
+  - name: Get publish profile from Azure App Service
+    href: how-to-get-publish-profile-from-azure-app-service.md
+  - name: Sign in with your Azure subscription
+    href: how-to-sign-in-with-azure-subscription.md
 - name: Azure Cloud Services development
   expanded: false
   items:

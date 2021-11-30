@@ -3,11 +3,11 @@ title: How do I update my sign-in email address?
 description: Super admin or admin wants to update their sign-in email without losing permissions
 ms.topic: include
 ms.assetid: 8270ddd8-3954-4c75-9f08-644777fef57f
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 06/02/2021
 user.type: admin
-tags: 
+tags: email
 subscription.type: vl, cloud, retail, partner
 sap.id: 17a2bf94-0d03-2629-dfd8-e8935f9126ec
 ---

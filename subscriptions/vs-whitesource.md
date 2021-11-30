@@ -1,19 +1,17 @@
 ---
 title: WhiteSource Bolt in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 5e5d3f1a-533d-42eb-960e-01bb6bc7ca16
-ms.date: 03/17/2021
+ms.date: 10/18/2021
 ms.topic: how-to
 description:  Learn how to activate the WhiteSource Bolt subscription included with your Visual Studio subscription.
 ---
 # WhiteSource Bolt in Visual Studio subscriptions
-
 Find and fix open source vulnerabilities and generate comprehensive inventory and license reports of all open source components in your build. Visual Studio Enterprise subscriptions receive six months of unlimited scans.
 
 ## Activation steps
-
 1. To activate your WhiteSource Bolt benefit, sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) .
 
 2. Locate the WhiteSource Bolt tile in the Tools section, and click on the **Get Code** link at the bottom of the benefit tile.
@@ -33,7 +31,6 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
 9. For more information, visit the WhiteSource Bolt [FAQ page](https://bolt.whitesourcesoftware.com/azure/faq/). 
 
 ## Eligibility
-
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | 6 months       |  Yes       |
@@ -65,4 +62,4 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
 Be sure to activate these great benefits to make the most of your Visual Studio subscription:
 - [Visual Studio](vs-ide-benefit.md)
 - [Azure DevOps](vs-azure-devops.md)
-- [Azure DevTest individual credit](vs-azure.md)
+- [Azure DevTest offer / credits](/azure/devtest/offer/)

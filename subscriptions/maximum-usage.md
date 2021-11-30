@@ -1,8 +1,8 @@
 ---
 title:  Use the Maximum Usage feature in Visual Studio subscriptions
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: c473b01f-2dfe-4cc2-ad29-bb5e2a268123
 ms.date: 03/21/2021
 ms.topic: conceptual

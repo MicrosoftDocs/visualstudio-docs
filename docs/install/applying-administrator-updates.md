@@ -3,7 +3,6 @@ title: Applying administrator updates to Visual Studio with Microsoft Endpoint C
 titleSuffix: ''
 description: Learn how to apply administrator updates to Visual Studio.
 ms.date: 04/16/2021
-ms.custom: 
 ms.topic: overview
 ms.assetid: 9a3fdb28-db3d-4970-bc17-7417a985f0fb
 author: anandmeg
@@ -158,4 +157,4 @@ You can use the following methods to provide feedback about Visual Studio admini
 * [Microsoft Update Catalog FAQ](https://www.catalog.update.microsoft.com/faq.aspx)
 * [Microsoft Endpoint Configuration Manager (SCCM) documentation](/mem/configmgr)
 * [Import updates from Microsoft Catalog into Configuration Manager](/mem/configmgr/sum/get-started/synchronize-software-updates#import-updates-from-the-microsoft-update-catalog)
-* [Windows Server Update Services (WSUS) documentation](/windows-server/administration/windows-server-update-services/get-started-windows-server-update-services-wsus)
+* [Windows Server Update Services (WSUS) documentation](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)

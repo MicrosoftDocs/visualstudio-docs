@@ -1,7 +1,7 @@
 ---
 title: "Remote debug ASP.NET on an IIS computer"
 description: Learn how to set up and configure a Visual Studio ASP.NET MVC 4.5.2 application, deploy it to IIS, and attach the remote debugger from Visual Studio. 
-ms.custom: ['remotedebugging', 'seodec18']
+ms.custom: ['remotedebugging']
 ms.date: 08/31/2021
 ms.topic: "conceptual"
 ms.assetid: 9cb339b5-3caf-4755-aad1-4a5da54b2a23
@@ -209,7 +209,10 @@ For information on running the remote debugger as a service, see [Run the remote
 
     Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
 
-    ::: moniker range=">=vs-2019"
+    ::: moniker range=">=vs-2022"
+    On Visual Studio 2022, you should see **\<remote computer name>:4026**
+    ::: moniker-end
+    ::: moniker range="vs-2019"
     On Visual Studio 2019, you should see **\<remote computer name>:4024**
     ::: moniker-end
     ::: moniker range="vs-2017"
@@ -263,6 +266,9 @@ In most setups, required ports are opened by the installation of ASP.NET and the
 Required ports:
 
 * 80 - Required for IIS
+::: moniker range=">=vs-2022"
+* 4026 - Required for remote debugging from Visual Studio 2022 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
+::: moniker-end
 ::: moniker range=">=vs-2019"
 * 4024 - Required for remote debugging from Visual Studio 2019 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
 ::: moniker-end

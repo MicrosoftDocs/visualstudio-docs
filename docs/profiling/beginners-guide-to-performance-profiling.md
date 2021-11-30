@@ -1,7 +1,7 @@
 ---
 title: "Measure CPU usage in your apps"
 description: "Analyze CPU performance issues in your application using the debugger-integrated diagnostics tools."
-ms.custom: "seodec18"
+
 ms.date: 04/03/2021
 ms.topic: tutorial
 f1_keywords:

@@ -1,10 +1,10 @@
 ---
 title: How to purchase Visual Studio cloud subscriptions
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: af1f7888-6942-4515-9475-0928ecf49dab
-ms.date: 02/19/2021
+ms.date: 10/18/2021
 ms.topic: overview
 description:  Rent Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
 ---

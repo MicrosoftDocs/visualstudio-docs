@@ -7,5 +7,5 @@
     topicHref: /visualstudio/gamedev/index
     items:
     - name: Unity
-      tocHref: /visualstudio/gamedev/unity/
-      topicHref: /visualstudio/gamedev/unity/
+      tocHref: /visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity
+      topicHref: /visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity

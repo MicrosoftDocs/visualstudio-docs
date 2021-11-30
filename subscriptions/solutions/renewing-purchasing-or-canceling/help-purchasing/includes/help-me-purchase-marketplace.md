@@ -3,8 +3,8 @@ title: Help me purchase from marketplace.visualstudio.com
 description: Help me purchase Visual Studio subscriptions from marketplace.visualstudio.com
 ms.topic: include
 ms.assetid: 4d0c9d82-5bda-4021-b219-5e1cf948f325
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 09/17/2020
 user.type: subscriber, admin
 tags: purchasing

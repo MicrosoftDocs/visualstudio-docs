@@ -6,6 +6,9 @@
     tocHref: /visualstudio/windows
     topicHref: /visualstudio/windows/index
     items:
+    - name: Installation
+      tocHref: /visualstudio/install/
+      topicHref: /visualstudio/install/install-visual-studio
     - name: IDE
       tocHref: /visualstudio/ide/
       topicHref: /visualstudio/ide/

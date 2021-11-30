@@ -3,8 +3,8 @@ title: Windows developer technical support
 description: Get technical support for Windows developer benefit
 ms.topic: include
 ms.assetid: 92d406c7-96e1-45a9-8259-d07d2a04a23e 
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 02/12/2021
 user.type: subscriber
 tags: redirect

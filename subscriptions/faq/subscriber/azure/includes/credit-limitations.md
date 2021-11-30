@@ -3,8 +3,8 @@ title: Are there any other limitations I should be aware of?
 description: The monthly Azure credit for Visual Studio subscribers is for development and testing only and does not carry a financially backed SLA....
 ms.topic: include
 ms.assetid: db54fb12-254d-47f0-82ff-40aeda8f8c10
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 4/3/2020
 ms.faqid: q5_8
 ---

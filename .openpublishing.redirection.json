@@ -1,61 +1,6 @@
 {
   "redirections": [
     {
-      "source_path": "mac/2017/ide-tour.md",
-      "redirect_url": "/visualstudio/mac/ide-tour?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/2017/uninstall.md",
-      "redirect_url": "/visualstudio/mac/uninstall?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/accessibility-voiceover.md",
-      "redirect_url": "/visualstudio/mac/accessibility-macos?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/2017/update.md",
-      "redirect_url": "/visualstudio/mac/update?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/2017/signing-in.md",
-      "redirect_url": "/visualstudio/mac/signing-in?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/2017/extending-visual-studio-mac.md",
-      "redirect_url": "/visualstudio/mac/extending-visual-studio-mac?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/2017/install-behind-a-firewall-or-proxy-server.md",
-      "redirect_url": "/visualstudio/mac/install-behind-a-firewall-or-proxy-server?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/2017/user-accounts.md",
-      "redirect_url": "/visualstudio/mac/user-accounts?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/2017/create-offline-installer.md",
-      "redirect_url": "/visualstudio/mac/create-offline-installer?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/2017/keyboard-shortcuts.md",
-      "redirect_url": "/visualstudio/mac/keyboard-shortcuts?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/2017/enable-subscription.md",
-      "redirect_url": "/visualstudio/mac/enable-subscription?view=vsmac-2019",
-      "redirect_document_id": false
-    },  
-    {
       "source_path": "docs/python/python-azure-cloud-service-project-template.md",
       "redirect_url": "/visualstudio/python/managing-python-projects-in-visual-studio",
       "redirect_document_id": false
@@ -69,7 +14,7 @@
       "source_path": "docs/python/learn-flask-visual-studio-step-04-full-flask-project-template.md",
       "redirect_url": "/visualstudio/python/learn-flask-visual-studio-step-01-project-solution",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "docs/ide/reference/keyboard-environment-options-dialog-box.md",
       "redirect_url": "/visualstudio/ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio",
@@ -78,6 +23,36 @@
     {
       "source_path": "docs/ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md",
       "redirect_url": "/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/feedback-options.md",
+      "redirect_url": "https://developercommunity.visualstudio.com/home",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/report-a-problem.yml",
+      "redirect_url": "/visualstudio/ide/how-to-report-a-problem-with-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/report-a-problem-minidumps.md",
+      "redirect_url": "/visualstudio/ide/report-a-problem-perfview-minidumps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/report-a-problem-perfview.md",
+      "redirect_url": "/visualstudio/ide/report-a-problem-perfview-minidumps",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/diagnostic-data-collection.md",
+      "redirect_url": "/visualstudio/ide/visual-studio-experience-improvement-program",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md",
+      "redirect_url": "/visualstudio/ide/not-in-toc/default",
       "redirect_document_id": false
     },
     {
@@ -45211,6 +45186,26 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/deployment/quickstart-deploy-to-azure.md",
+      "redirect_url": "/visualstudio/deployment/quickstart-deploy-aspnet-web-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/quickstart-deploy-to-local-folder.md",
+      "redirect_url": "/visualstudio/deployment/quickstart-deploy-aspnet-web-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/quickstart-deploy-to-a-web-site.md",
+      "redirect_url": "/visualstudio/deployment/quickstart-deploy-aspnet-web-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/quickstart-deploy-to-linux.md",
+      "redirect_url": "/visualstudio/deployment/quickstart-deploy-aspnet-web-app",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md",
       "redirect_url": "/visualstudio/deployment/securing-clickonce-applications",
       "redirect_document_id": false
@@ -45786,18 +45781,13 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/get-started/tutorial-open-project-from-repo.md",
-      "redirect_url": "/visualstudio/get-started/tutorial-open-project-from-repo-visual-studio-2019",
+      "source_path": "docs/get-started/tutorial-open-project-from-repo-visual-studio-2019.md",
+      "redirect_url": "/visualstudio/get-started/tutorial-open-project-from-repo?view=vs-2019",
       "redirect_document_id": true
     },
     {
-      "source_path": "docs/get-started/tutorial-open-project-from-repo.md?view=vs-2019",
-      "redirect_url": "/visualstudio/get-started/tutorial-open-project-from-repo-visual-studio-2019",
-      "redirect_document_id": true
-    },
-    {
-      "source_path": "docs/get-started/tutorial-open-project-from-repo.md?view=vs-2017",
-      "redirect_url": "/visualstudio/get-started/tutorial-open-project-from-repo-visual-studio-2017",
+      "source_path": "docs/get-started/tutorial-open-project-from-repo-visual-studio-2017.md",
+      "redirect_url": "/visualstudio/get-started/tutorial-open-project-from-repo?view=vs-2017",
       "redirect_document_id": false
     },
     {
@@ -45869,7 +45859,7 @@
       "source_path": "docs/ide/command-line-arguments-for-the-help-content-manager.md",
       "redirect_url": "/visualstudio/help-viewer/command-line-arguments",
       "redirect_document_id": true
-    },  
+    },
     {
       "source_path": "docs/ide/create-an-offline-installation-of-visual-studio.md",
       "redirect_url": "/visualstudio/install/create-an-offline-installation-of-visual-studio",
@@ -46843,6 +46833,11 @@
     {
       "source_path": "docs/modeling/validate-your-uml-model.md",
       "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/msbuild/configuring-targets-and-tasks.md",
+      "redirect_url": "/visualstudio/msbuild/configure-tasks",
       "redirect_document_id": false
     },
     {
@@ -48138,16 +48133,6 @@
     {
       "source_path": "docs/xml-tools/xml-schema-designer-tasks.md",
       "redirect_url": "/visualstudio/xml-tools/how-to-create-and-edit-an-xsd-schema-file",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/activation.md",
-      "redirect_url": "/visualstudio/mac/enable-subscription",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/benefits-vsmac-over-xs.md",
-      "redirect_url": "/visualstudio/mac/",
       "redirect_document_id": false
     },
     {
@@ -57796,26 +57781,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "mac/using-vsmac-tools-unity.md",
-      "redirect_url": "/visualstudio/gamedev/unity/get-started/using-visual-studio-tools-for-unity",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/unity-tools.md",
-      "redirect_url": "/visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/setup-vsmac-tools-unity.md",
-      "redirect_url": "/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/devinit/index.md",
-      "redirect_url": "/visualstudio/devinit/getting-started-with-devinit",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/containers/local-process-kubernetes.md",
       "redirect_url": "/visualstudio/containers/bridge-to-kubernetes"
     },
@@ -57852,11 +57817,6 @@
     {
       "source_path": "docs/ide/editorconfig-naming-conventions.md",
       "redirect_url": "/dotnet/fundamentals/code-analysis/style-rules/naming-rules",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "mac/extending-visual-studio-mac.md",
-      "redirect_url": "/visualstudio/mac/customizing-the-ide",
       "redirect_document_id": false
     },
     {

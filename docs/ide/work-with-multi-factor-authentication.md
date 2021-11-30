@@ -1,8 +1,9 @@
 ---
-title: Use accounts that require multi-factor authentication
+title: Multi-factor authentication with Visual Studio sign-ins
+titleSuffix: "" 
 ms.date: 05/27/2020
 ms.custom: SEO-VS-2020
-ms.topic: conceptual
+ms.topic: how-to
 description: "Learn how to use Visual Studio with accounts that require multi-factor authentication."
 author: anandmeg
 ms.author: meghaanand
@@ -12,7 +13,8 @@ ms.workload:
 - multiple
 monikerRange: ">=vs-2019"
 ---
-# How to use Visual Studio with accounts that require multi-factor authentication
+
+# Use Visual Studio with accounts that require multi-factor authentication (MFA)
 
 When collaborating with external guest users, it's a good idea to protect your apps and data with **conditional access (CA)** policies such as **multi-factor authentication (MFA)**.  
 
@@ -63,7 +65,7 @@ Clicking on **Reenter your credentials** will open your system's default web bro
 
 ## How to opt out of using a specific Azure Active Directory tenant in Visual Studio
 
-Visual Studio 2019 version 16.6 offers the flexibility to filter out tenants individually or globally, effectively hidding them from Visual Studio. Filtering eliminates the need to authenticate with that tenant, but it also means that you won't be able to access any associated resources.
+Visual Studio 2019 version 16.6 offers the flexibility to filter out tenants individually or globally, effectively hiding them from Visual Studio. Filtering eliminates the need to authenticate with that tenant, but it also means that you won't be able to access any associated resources.
 
 This functionality is useful when you have multiple tenants, but want to optimize your development environment by targeting a specific subset. It can also help in instances when you can't validate a particular CA/MFA policy, as you can filter out the offending tenant. 
 

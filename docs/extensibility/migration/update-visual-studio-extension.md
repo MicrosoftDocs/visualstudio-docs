@@ -15,15 +15,15 @@ feedback_system: GitHub
 # Update a Visual Studio extension for Visual Studio 2022
 
 > [!IMPORTANT]
-> The advice in this guide is intended to guide developers in migrating extensions that require major changes to work both in Visual Studio 2019 and 2022. In those cases it is recommend to have two VSIX projects and conditional compilation.
+> The advice in this guide is intended to guide developers in migrating extensions that require major changes to work both in Visual Studio 2019 and 2022. In those cases it is recommended to have two VSIX projects and conditional compilation.
 > Many extensions will be able to work in both Visual Studio 2019 and 2022 with minor changes that won't require following the advice on modernizing your extension in this guide.
 > Try your extension in Visual Studio 2022 and evaluate what option is best for your extension.
 
-You can update your extension to work with Visual Studio 2022 Preview by following this guide. Visual Studio 2022 Preview is a 64-bit application, and introduces some breaking changes in the VS SDK. This guide walks you through the steps required to get your extension working with the current preview of Visual Studio 2022, so your extension can be ready for users to install before Visual Studio 2022 reaches GA.
+You can update your extension to work with Visual Studio 2022 by following this guide. Visual Studio 2022 is a 64-bit application, and introduces some breaking changes in the VS SDK. This guide walks you through the steps required to get your extension working with the current preview of Visual Studio 2022, so your extension can be ready for users to install before Visual Studio 2022 reaches GA.
 
 ## Installing
 
-Install Visual Studio 2022 Preview from [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022).
+Install Visual Studio 2022 from [Visual Studio 2022 downloads](https://visualstudio.microsoft.com/downloads).
 
 ### Extensions written in a .NET language
 
@@ -75,7 +75,7 @@ Instead, the one VSIX should be modified so that its `source.extension.vsixmanif
 You can skip the steps in this article about using shared projects and multiple VSIXs. You can proceed with [testing](#test-your-extension)!
 
 > [!NOTE]
-> If you are authoring a *new* Visual Studio extension, using Visual Studio 2022 Preview, and want to (also) target Visual Studio 2019 or an earlier version, check out [this guide](target-previous-versions.md).
+> If you are authoring a *new* Visual Studio extension, using Visual Studio 2022, and want to (also) target Visual Studio 2019 or an earlier version, check out [this guide](target-previous-versions.md).
 
 ### MSBuild tasks
 
@@ -135,7 +135,7 @@ All these steps can be completed with Visual Studio 2019.
 Leave the `source.extension.vsixmanifest` file in the VSIX project.
    ![Shared project contains all source files](media/update-visual-studio-extension/source-files-in-shared-project.png)
 
-1. Metadata files (release notes, license, icons, and so on) and VSCT files should be moved to a shared directory and added as linked files to the VSIX project.
+1. Metadata files (release notes, license, icons, and so on) and VSCT files should be moved to a shared directory and added as linked files to the VSIX project. Note that the shared directory is separate from the shared project.
    ![Add metadata and VSCT files as linked files](media/update-visual-studio-extension/add-linked-items-to-vsix.png)
     - For Metadata files, set BuildAction to `Content` and set Include in VSIX to `true`.
 
@@ -278,10 +278,10 @@ However in some cases, a reference to a type that exists in distinct assemblies 
 
 ## Test your extension
 
-To test an extension that targets Visual Studio 2022 you will need to have Visual Studio 2022 Preview installed.
-You will not be able to run 64-bit extensions on versions of Visual Studio prior to Visual Studio 2022 Preview.
+To test an extension that targets Visual Studio 2022 you will need to have Visual Studio 2022 installed.
+You will not be able to run 64-bit extensions on versions of Visual Studio prior to Visual Studio 2022.
 
-You can use Visual Studio 2022 Preview to build and test your extensions whether they target Visual Studio 2022 or an earlier version. When launching a VSIX project from Visual Studio 2022 an experimental instance of Visual Studio will be launched.
+You can use Visual Studio 2022 to build and test your extensions whether they target Visual Studio 2022 or an earlier version. When launching a VSIX project from Visual Studio 2022 an experimental instance of Visual Studio will be launched.
 
 We strongly recommend you test with each version of Visual Studio that you intend the extension to support.
 
@@ -296,8 +296,6 @@ Great, so you've added a Visual Studio 2022 target to your extension and tested 
 Publishing your extension to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) is a great way to get new users to find and install your extension. Whether your extension targets Visual Studio 2022 exclusively or targets older VS versions too, the Marketplace is there to support you.
 
 In the future, the Marketplace will allow you to upload multiple VSIXs to just one Marketplace listing, allowing you to upload your Visual Studio 2022-targeted VSIX and a pre-Visual Studio 2022 VSIX. Your users will automatically get the right VSIX for the VS version they have installed, when using the VS extension manager.
-
-For the preview releases of Visual Studio 2022, the Marketplace will only support a single VSIX file per Marketplace listing. While Visual Studio 2022 is in preview we encourage you to have a separate Visual Studio 2022 only Marketplace listing for your extension. That way you can iterate your Visual Studio 2022 extension as needed without impacting your customers on earlier versions of Visual Studio. You can also mark the extension as 'preview' to set the expectation it will likely be less reliable, even if the source of that unreliability is Visual Studio 2022, than your mainstream extension.
 
 ### Custom installer
 

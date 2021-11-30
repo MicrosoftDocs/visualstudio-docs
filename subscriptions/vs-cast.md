@@ -1,10 +1,10 @@
 ---
 title: CAST Highlight benefit in to Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
-manager: lank
+ms.author: amast  
+manager: shve
 ms.assetid: 92e8957f-c690-46bd-a812-3efd06a2bc6b
-ms.date: 03/18/2021
+ms.date: 10/18/2021
 ms.topic: how-to
 description:  Learn about the CAST Highlight benefit available in selected Visual Studio subscriptions
 ---

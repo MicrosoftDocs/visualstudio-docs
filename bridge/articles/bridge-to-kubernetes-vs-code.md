@@ -5,12 +5,12 @@ author: ghogen
 manager: jmartens
 ms.technology: bridge
 ms.custom: "contperf-fy22q1"
-title: Use Bridge to Kubernetes to run and debug locally with Kubernetes
+title: Use Bridge to Kubernetes to run and debug locally with Kubernetes (VS Code)
 ms.date: 04/14/2021
 description: Learn how to use Bridge to Kubernetes to connect your development computer to a Kubernetes cluster and use local tunnel debugging to debug Kubernetes services on your local machine.
 ---
 
-# Use Bridge to Kubernetes
+# Use Bridge to Kubernetes (VS Code)
 
 Bridge to Kubernetes allows you to run and debug code on your development computer, while still connected to your Kubernetes cluster with the rest of your application or services. In this guide, you will learn how to use Bridge to Kubernetes to redirect traffic between your Kubernetes cluster and code running on your development computer.
 
@@ -21,7 +21,7 @@ This article assumes you already have your own cluster with a microservices arch
 ### Prerequisites
 
 * A Kubernetes cluster with an app that you want to debug.
-* [Visual Studio Code][vs-code] running on macOS, Windows 10, or Linux (currently in preview).
+* [Visual Studio Code][vs-code] running on macOS, Windows 10 or later, or Linux.
 
 ## Connect to your cluster and debug a service
 
@@ -67,7 +67,7 @@ The first step in configuring the debugger for local tunnel debugging is that yo
 
 ![Enter the port number](media/bridge-to-kubernetes-sample/enter-port.png)
 
-Choose a debug launch configuration that you normally use when running your application locally. If you don't have a launch configuration, you can either let Bridge to Kubernetes create one, or choose not to create one, in which case you have to start your application or service manually. Learn more at [Launch configurations](/docs/editor/debugging.md#launch-configurations).
+Choose a debug launch configuration that you normally use when running your application locally. If you don't have a launch configuration, you can either let Bridge to Kubernetes create one, or choose not to create one, in which case you have to start your application or service manually. Learn more at [Launch configurations](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations).
 
 ![Choose the debugger launch configuration](media/bridge-to-kubernetes-vs-code/choose-launch.png)
 

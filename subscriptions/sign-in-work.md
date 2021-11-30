@@ -1,23 +1,21 @@
 ---
 title: Sign in to Visual Studio Subscriptions with work or school accounts | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: f39a2672-c283-4755-93d3-31c7c7a032d0
-ms.date: 02/19/2021
+ms.date: 10/13/2021
 ms.topic: how-to
 description:  Learn how to sign in to your Visual Studio subscription(s) with your work or school account. 
 ---
 
 # Signing in to Visual Studio subscription(s) with your work or school account 
-
 The steps to sign in to your Visual Studio subscription depend on the kind of account you're using.  For example, you may be using a Microsoft Account (MSA) or an email address supplied by your employer or school.  As of January 2019, you can now also use your GitHub account to sign in to some subscriptions. 
 
 This article will provide the steps for signing in with an email address provided by your work or school.
 
 ## Signing in with your work or school account
-
-1. Please visit [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
+1. Visit [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
 2. Enter the email address to which the new Visual Studio subscription was assigned.
 
    > [!NOTE]
@@ -34,7 +32,6 @@ You can now see the type of subscription you're using displayed in the blue bar 
 You can also see your currently selected subscription in the upper right corner, under your username.  It will say "Showing: ", followed by the subscription.  If you have more than one subscription, you can click on the drop down arrow and select the subscription you would like to use.
 
 ## Using your Microsoft Account (MSA) to sign in to a work or school account
-
 1. Go to [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
 2. Enter the email address that was assigned the new Visual Studio subscription
 

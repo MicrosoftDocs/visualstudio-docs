@@ -1,10 +1,10 @@
 ---
 title: Understand benefits in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 0a02232c-437f-4c48-85c1-93ca7887236b
-ms.date: 03/19/2021
+ms.date: 11/29/2021
 ms.topic: how-to
 description:  Learn about what benefits are included in subscriptions, and how to activate them.
 ---
@@ -12,7 +12,7 @@ description:  Learn about what benefits are included in subscriptions, and how t
 # About your subscription benefits
 As a Visual Studio subscriber, you have access to a variety of benefits depending on your subscription level. There are several important things to note about benefits.
 
-## Benefits that vary based on your subscription 
+## Benefits vary based on your subscription 
 The benefits included in your subscription vary based on the type of subscription you have. To see which benefits are included in various subscriptions, please visit our [Visual Studio Subscription benefits page](https://visualstudio.microsoft.com/vs/benefits/). You can filter the view by subscription level and by benefit category to get to the specific information you need. 
 
 You can also use the articles on this site to determine whether a specific benefit is included in your subscription. Each article that covers a benefit includes an "Eligibility" section that shows which subscriptions include it.

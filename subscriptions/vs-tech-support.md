@@ -1,8 +1,8 @@
 ---
 title: Technical Support benefit in Visual Studio subscriptions
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 2e0fd8bb-8f20-487c-b350-b8fde405ea5e
 ms.date: 03/17/2021
 ms.topic: how-to
@@ -36,6 +36,9 @@ Product level descriptions: Expand **Unavailable support plans**. If you see **S
 > - Microsoft Outlook
 
 ## How to activate the benefit
+> [!NOTE]
+> The following steps apply to activation of the benefit in **English** only.  For other languages, visit <https://visualstudio.microsoft.com/subscriptions/support>, scroll to the bottom, and click on **Account, Subscription and Billing Support** and then select your country from the drop-down list.
+
 1. Go to <https://my.visualstudio.com/Benefits>, scroll down to the Support section and on the Technical Support tile click **Chat to activate**.
     > [!div class="mx-imgBorder"]
     > ![Technical Support Benefit Tile](_img/vs-tech-support/vs-tech-support-tile.png "Click 'Chat to activate' on the Technical Support tile.")
@@ -52,9 +55,6 @@ Product level descriptions: Expand **Unavailable support plans**. If you see **S
    > ![Technical Support Benefit Find Subscription ID](_img/vs-tech-support/vs-tech-support-subID-cropped.png "Find your subscription ID on the Subscriptions tab.")
 
 4. After the process is completed, you will receive an email containing your **Contract ID** and **Access ID** you will use when creating a support incident.  It will also provide instructions for submitting support incidents using your new Access ID and Contract ID. 
-
-   > [!NOTE]
-   > To activate your support account in a language other than English, choose your country/region from [this list](https://support.microsoft.com/help/14084/activate-support-contract).
 
 ## How to submit an incident using your benefit
 Once you have your **Contract ID** and **Access ID** set up, you can use it to submit a Tech Support incident. 
@@ -129,4 +129,4 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 Be sure to activate these great benefits to make the most of your Visual Studio subscription:
 - [Visual Studio](vs-ide-benefit.md)
 - [Azure DevOps](vs-azure-devops.md)
-- [Azure DevTest individual credit](vs-azure.md)
+- [Azure DevTest offer / credits](/azure/devtest/offer/)

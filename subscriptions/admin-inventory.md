@@ -1,10 +1,10 @@
 ---
 title: Pre-production inventory in Visual Studio subscription  | Visual Studio Marketplace
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 7d74e113-8fb2-490e-8502-48cce7b1327a
-ms.date: 03/19/2021
+ms.date: 10/08/2021
 ms.topic: conceptual
 description:  Learn about admins' responsibility to conduct pre-production inventories
 ---

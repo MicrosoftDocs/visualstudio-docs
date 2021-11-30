@@ -2,10 +2,8 @@
 title: Install Visual Studio Build Tools into a container
 titleSuffix: ''
 description: Learn how to install Visual Studio Build Tools into a Windows container to support continuous integration and continuous delivery (CI/CD) workflows.
-ms.date: 03/25/2020
-ms.custom: seodec18
+ms.date: 06/09/2021
 ms.topic: conceptual
-ms.assetid: d5c038e2-e70d-411e-950c-8a54917b578a
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
@@ -156,7 +154,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
 
    RUN `
        # Download the Build Tools bootstrapper.
-       curl -SL --output vs_buildtools.exe https://aka.ms/vs/17/pre/vs_buildtools.exe `
+       curl -SL --output vs_buildtools.exe https://aka.ms/vs/17/release/vs_buildtools.exe `
        `
        # Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload, excluding workloads and components with known issues.
        && (start /w vs_buildtools.exe --quiet --wait --norestart --nocache modify `

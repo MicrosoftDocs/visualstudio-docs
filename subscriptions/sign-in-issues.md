@@ -1,24 +1,24 @@
 ---
 title: Issues signing in to Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 176c7f11-b19d-49e9-a6dd-b2e5da5e8480
-ms.date: 02/19/2021
+ms.date: 10/13/2021
 ms.topic: conceptual
 description:  Learn about issues that may arise when signing in to Visual Studio subscriptions
 ---
 
 # Issues signing in to Visual Studio subscriptions
-To use your Visual Studio subscription, you must first sign in.  Depending on your subscription, you may have set it up with either a Microsoft account (MSA) or an Azure Active Directory (AAD) identity.  This article discusses some of the issues you may encounter while signing in to your subscription.
+To use your Visual Studio subscription, you must first sign in.  Depending on your subscription, you may have set it up with either a Microsoft account (MSA) or an Azure Active Directory (Azure AD) identity.  This article discusses some of the issues you may encounter while signing in to your subscription.
 
 ## Microsoft Accounts (MSA) cannot be created using work/school email addresses
-The ability to create a new personal Microsoft Account (MSA) using a work/school email address is no longer allowed when the email domain is configured in Azure AD. What does this mean? If your organization uses Microsoft 365 or other business services from Microsoft that rely on Azure AD, and if you've added a domain name to your Azure AD tenant, users will no longer be able to create a new personal Microsoft account using an email address in your domain.
+Creating a new personal Microsoft Account (MSA) using a work/school email address is no longer allowed when the email domain is configured in Azure AD. What does this mean? If your organization uses Microsoft 365 or other business services from Microsoft that rely on Azure AD, and if you've added a domain name to your Azure AD tenant, users will no longer be able to create a new personal Microsoft account using an email address in your domain.
 
 ### Why was this change made?
 Having a personal Microsoft Account with a work address as a username is fraught with issues for end-users and IT departments alike. For example:
 - Users might think that their personal Microsoft account is business-compliant and that they're in compliance when they save business document to their OneDrive
-- Users who leave an organization generally lose access to their work email address. When they do, they may not be able to back into their personal Microsoft account if they forget their password. The flip side is that their IT department could reset their password and get into the personal account of former employees.
+- Users who leave an organization generally lose access to their work email address. When they do, they may not be able to get back into their personal Microsoft account if they forget their password. Conversely, their IT department could reset their password and get into the personal account of former employees.
 - IT departments have a false sense of account ownership and security. But users only need to roundtrip a code to their work email address once, and can rename their account at any time in the future.
 
 The situation is particularly confusing for users who have two accounts with the same email address (one in Azure AD & one Microsoft account).

@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Create your first Vue.js app"
 description: In this quickstart, you create a Vue.js app in Visual Studio using the Node.js Tools for Visual Studio
-ms.custom: ""
+
 ms.date: 10/31/2019
 ms.topic: quickstart
 ms.devlang: javascript

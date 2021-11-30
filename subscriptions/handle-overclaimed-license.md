@@ -1,8 +1,8 @@
 ---
 title: Handle over-allocated licenses in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: a747100c-6f08-41a4-aaad-05099741742b
 ms.date: 05/18/2021
 ms.topic: conceptual

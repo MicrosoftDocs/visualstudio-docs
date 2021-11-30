@@ -1,8 +1,8 @@
 ---
 title: Setting up admins for monthly Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 8b30e2bc-2ac3-4fcc-b296-128731471032
 ms.date: 03/21/2021
 ms.topic: how-to

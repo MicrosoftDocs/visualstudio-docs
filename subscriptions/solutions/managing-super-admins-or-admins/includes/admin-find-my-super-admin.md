@@ -1,14 +1,14 @@
---- 
+---
 title: Where can I find my super admin?
 description: An admin does not know where to locate the super admin
-ms.topic: include 
-ms.assetid: 7e79bec2-927b-479a-b2df-dfd0773a68c6 
-author: CaityBuschlen 
-ms.author: cabuschl 
+ms.topic: include
+ms.assetid: 7e79bec2-927b-479a-b2df-dfd0773a68c6
+author: evanwindom
+ms.author: amast
 ms.date:  3/23/2021
-user.type: admin 
-tags: manage, super 
-subscription.type: vl, cloud, retail, partner 
+user.type: admin
+tags: manage, super
+subscription.type: vl, cloud, retail, partner
 sap.id: 8789faa7-9d29-25d8-018a-4f6ecee827c8
 ---
 

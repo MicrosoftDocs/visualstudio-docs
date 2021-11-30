@@ -2,7 +2,7 @@
 description: "Each entryPoint element of the vstav3 namespace identifies a customization assembly that should be run when this ClickOnce application is installed."
 title: "&lt;entryPoint&gt; element (Office development in Visual Studio)"
 titleSuffix: ""
-ms.custom: "seodec18"
+
 ms.date: "02/02/2017"
 ms.topic: "reference"
 dev_langs:

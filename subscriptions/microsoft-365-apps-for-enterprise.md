@@ -1,8 +1,8 @@
 ---
 title: Microsoft 365 apps for enterprise in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: d1257931-392a-4a65-bf26-177737505122
 ms.date: 03/21/2021
 ms.topic: how-to
@@ -21,7 +21,8 @@ Create your best work. Work anywhere with apps that are always updated. Microsof
 The process for activating your Microsoft 365 apps for enterprise subscription is simple.  Follow these steps to activate your subscription and install your applications:
 
 1. Sign in to your Visual Studio subscription at [https://my.visualstudio.com](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)
-1. Locate the Microsoft 365 apps for enterprise tile and select **Activate**.
+1. Locate the Microsoft 365 apps for enterprise tile and select **Get code**.
+1. Click **Activate**.
    > [!div class="mx-imgBorder"]
    > ![Microsoft 365 apps for enterprise tile](_img/microsoft-365-apps-for-enterprise/tile-activate.png "Select 'Activate' to get started with your subscription.")
 
@@ -50,8 +51,8 @@ The process for activating your Microsoft 365 apps for enterprise subscription i
 
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard)   | VL, Azure, Retail| Available       |  Yes          |
-| Visual Studio Enterprise subscription with GitHub Enterprise  | VL | Available       |  Yes          |
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail| 12-month trial       |  No          |
+| Visual Studio Enterprise subscription with GitHub Enterprise  | VL | 12-month trial       |  No          |
 | Visual Studio Enterprise (Standard)   | NFR<sup>1</sup> | Not available       |  N/A          |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Not available                                                            |  N/A          |
 | Visual Studio Professional subscription with GitHub Enterprise | VL | Not available         |  N/A          |
@@ -82,5 +83,5 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 Be sure to activate these great benefits to make the most of your Visual Studio subscription:
 - [Visual Studio](vs-ide-benefit.md)
 - [Azure DevOps](vs-azure-devops.md)
-- [Azure DevTest individual credit](vs-azure.md)
+- [Azure DevTest offer / credits](/azure/devtest/offer/)
 If you're planning to develop applications for Office, you'll want to activate your [Office Developer Subscription](./vs-m365.md)

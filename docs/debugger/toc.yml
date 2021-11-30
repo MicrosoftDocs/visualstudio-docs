@@ -4,12 +4,12 @@
   items:
   - name: "What is debugging?"
     href: what-is-debugging.md
+  - name: First look at the debugger
+    href: debugger-feature-tour.md
   - name: Debugging techniques and tools
     href: write-better-code-with-visual-studio.md
 - name: Quickstarts
   items:
-  - name: First look at the debugger
-    href: debugger-feature-tour.md
   - name: Debug a C# or Visual Basic app
     href: quickstart-debug-with-managed.md
   - name: Debug a C++ app
@@ -102,8 +102,18 @@
       href: map-methods-on-the-call-stack-while-debugging-in-visual-studio.md
     - name: Mixed code and missing information in the Call Stack window
       href: mixed-code-and-missing-information-in-the-call-stack-window.md
-  - name: Pause code and continue
+  - name: Live code editing
     items:
+    - name: Hot Reload (.NET/C++)
+      href: hot-reload.md
+    - name: XAML Hot Reload
+      items:
+      - name: Write and debug running XAML code
+        href: ../xaml-tools/xaml-hot-reload.md?toc=/visualstudio/debugger/toc.json
+      - name: Troubleshooting XAML Hot Reload
+        href: ../xaml-tools/xaml-hot-reload-troubleshooting.md?toc=/visualstudio/debugger/toc.json
+    - name: Edit and Continue not supported for F#
+      href: edit-and-continue-not-supported-for-f-hash.md
     - name: Edit code and continue debugging
       href: edit-and-continue.md
     - name: Enable and disable Edit and Continue
@@ -130,14 +140,6 @@
         href: edit-and-continue-visual-basic.md
       - name: Apply edits in break mode with Edit and Continue
         href: how-to-apply-edits-in-break-mode-with-edit-and-continue.md
-    - name: XAML Hot Reload
-      items:
-      - name: Write and debug running XAML code
-        href: ../xaml-tools/xaml-hot-reload.md?toc=/visualstudio/debugger/toc.json
-      - name: Troubleshooting XAML Hot Reload
-        href: ../xaml-tools/xaml-hot-reload-troubleshooting.md?toc=/visualstudio/debugger/toc.json
-    - name: Edit and Continue not supported for F#
-      href: edit-and-continue-not-supported-for-f-hash.md
   - name: Log to Output window
     href: using-tracepoints.md
   - name: View debugger data

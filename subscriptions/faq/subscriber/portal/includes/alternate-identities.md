@@ -3,11 +3,10 @@ title: How do I add alternate identities to my subscription and how does this im
 description: Adding an alternate account to your Visual Studio subscription allows you to access the subscription benefits, like Azure DevOps and...
 ms.topic: include
 ms.prod: 
-ms.custom: 
 ms.assetid: c41fbf02-a623-43b4-9aa7-0c1c51fbda2a
 ms.technology: 
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 manager: 
 robots: 
 ms.date: 04/20/2020

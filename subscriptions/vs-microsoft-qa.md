@@ -1,8 +1,8 @@
 ---
 title: Microsoft Q&A support in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 16af82df-380a-4864-9f4e-6c3442cc7da2
 ms.date: 03/17/2021
 ms.topic: conceptual
@@ -41,25 +41,7 @@ Accessing Microsoft Q&A is simple.
    > ![Microsoft Q&A Tile](_img/vs-microsoft-qa/vs-microsoft-qa-tile.png "Click 'Get help' to connect to the Microsoft Q&A forum")
 
 ## Eligibility
-Availability of the Azure Community benefit depends on your subscription level as shown below:
-
-|                                          Subscription Level                                           |     Channels      |    Benefit    | Renewable? |
-|-------------------------------------------------------------------------------------------------------|-------------------|---------------|------------|
-|                           Visual Studio Enterprise (Standard), NFR<sup>1</sup>                            | VL, Azure, Retail |   Available    |    Yes     |
-|                           Visual Studio Enterprise subscription with GitHub Enterprise                           | VL, Azure, Retail |   Available    |    Yes     |
-|                          Visual Studio Professional (Standard)                          | VL, Azure, Retail |   Available    |    Yes     |
-|                          Visual Studio Professional subscription with GitHub Enterprise                          | VL, Azure, Retail |   Available    |    Yes     |
-|                              Visual Studio Test Professional (Standard)                               |    VL, Retail     |   Available    |    Yes     |
-|                                       MSDN Platforms (Standard)                                       |    VL, Retail     |   Available    |    Yes     |
-| Visual Studio Enterprise (monthly cloud), Visual Studio Professional (monthly cloud)|        All        | Not available |     No     |
-
-<sup>1</sup>  *Includes:  Not for Resale (NFR), Microsoft FTE, Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP), BizSpark, Imagine, Microsoft Certified Trainer (MCT).  
-Excludes:  NFR Basic.*
-
-> [!NOTE]
-> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
-
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
+The Microsoft Q&A forum is freely available.  No subscription is required. 
 
 ## Support Resources
 - Need assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions?  Contact [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp).

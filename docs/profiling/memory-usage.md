@@ -1,7 +1,7 @@
 ---
 title: "Measure memory usage in your apps"
 description: Find memory leaks and inefficient memory while you're debugging with the debugger-integrated diagnostic tool.
-ms.custom: "seodec18"
+
 ms.date: 04/25/2018
 ms.topic: tutorial
 author: mikejo5000

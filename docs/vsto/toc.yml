@@ -42,6 +42,8 @@
         href: common-tasks-in-office-programming.md
       - name: Additional Resources for Developing Office Solutions
         href: additional-resources-for-developing-office-solutions.md
+      - name: Visual Studio Tools for Office Runtime Lifecycle Policy
+        href: visual-studio-tools-for-office-runtime.md
     - name: Upgrading and Migrating Office Solutions
 # Auto-expanded node
       items:

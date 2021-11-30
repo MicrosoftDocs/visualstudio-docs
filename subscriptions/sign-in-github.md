@@ -1,10 +1,10 @@
 ---
 title: Signing in to Visual Studio subscriptions with your GitHub account | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 1bdcb3c9-bba1-4e25-a609-9d7e539d78e0
-ms.date: 03/08/2021
+ms.date: 10/13/2021
 ms.topic: conceptual
 description:  Learn how to sign in to your Visual Studio subscription(s) with your GitHub account. 
 ---
@@ -15,7 +15,6 @@ The steps to sign in to your Visual Studio subscription depend on the kind of ac
 This article will provide the steps for signing in with your GitHub account.
 
 ## Signing in with your GitHub account
-
 GitHub identity support lets you use your existing GitHub account as a credential for a new or existing Microsoft account, linking your GitHub account with your Microsoft account. 
 
 When you sign in with GitHub, Microsoft checks whether any email addresses associated with your GitHub account match an existing personal or enterprise Microsoft account. If the address matches your enterprise account, you'll be prompted to sign in to that account instead. If the address matches a personal account, we’ll add your GitHub account as a sign-in method to that personal account.
@@ -68,4 +67,4 @@ A:  If you have an Azure Active Directory email address on your GitHub account, 
 - [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-Once you've successfully signed in to the subscriptions portal, we recommend visiting the Benefits page at https://my.visualstudio.com/benefits and exploring the great tools, services, and offers available to you.
+Once you've successfully signed in to the subscriptions portal, we recommend visiting the [Benefits page](https://my.visualstudio.com/benefits) and exploring the great tools, services, and offers available to you.

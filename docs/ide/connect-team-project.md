@@ -2,7 +2,7 @@
 title: Connect to projects in Team Explorer
 description: Learn how to use Team Explorer in Visual Studio to work with team members to develop and manage projects.
 ms.custom: SEO-VS-2020
-ms.date: 06/11/2021
+ms.date: 11/11/2021
 ms.topic: conceptual
 ms.author: tglee
 author: TerryGLee
@@ -19,16 +19,16 @@ Use the **Team Explorer** tool window to coordinate your code efforts with other
 
 ::: moniker range="vs-2019"
 
-Team Explorer connects Visual Studio to Team Foundation version control (TFVC) repositories, and to projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops-services) or an on-premises [Azure DevOps Server](/azure/devops/user-guide/about-azure-devops-services-tfs?view=azure-devops&preserve-view=true) (formerly known as TFS). You can manage source code, work items, and builds.
+Team Explorer connects Visual Studio 2019 and earlier to Team Foundation version control (TFVC) repositories, and to projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops-services) or an on-premises [Azure DevOps Server](/azure/devops/user-guide/about-azure-devops-services-tfs?view=azure-devops&preserve-view=true) (formerly known as TFS). You can manage source code, work items, and builds.
 
 > [!IMPORTANT]
 > With the release of Visual Studio 2019 [**version 16.8**](/visualstudio/releases/2019/release-notes-history), the Git version control experience is on by default. If you'd like to learn more about how it compares with Team Explorer, see the [**Side-by-side comparison of Git and Team Explorer**](../version-control/git-team-explorer-feature-comparison.md) page.
 >
-> However, if you prefer to continue to use Team Explorer, go to **Tools** > **Options** > **Environment** > **Preview Features** and then toggle the **New Git user experience** checkbox.
+> However, if you prefer to continue to use Team Explorer in Visual Studio 2019, go to **Tools** > **Options** > **Environment** > **Preview Features** and then toggle the **New Git user experience** checkbox. (This option is not available in Visual Studio 2022 and later.)
 
 How you use Team Explorer to connect to a project depends on the version of Visual Studio 2019 you're using.
 
-## In version 16.8 and later
+## In Visual Studio 2019 version 16.8 and later
 
 1. Open Visual Studio 2019.
 
@@ -55,7 +55,7 @@ How you use Team Explorer to connect to a project depends on the version of Visu
 
       ![Screenshot of the 'Team Explorer' dialog box that's generated from Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/team-explorer-azure-devops.png)
 
-## In version 16.7 and earlier
+## In Visual Studio 2019 version 16.7 and earlier
 
 1. Open Visual Studio 2019.
 
@@ -125,7 +125,7 @@ To connect to a project:
 ## See also
 
 - [Compare Git and Team Explorer side-by-side](git-team-explorer-feature-comparison.md)
-- [The new Git experience in Visual Studio](git-with-visual-studio.md)
+- [Visual Studio version control documentation](../version-control/index.yml)
 - [Team Explorer reference](reference/team-explorer-reference.md)
 - [Connect to a project (Azure DevOps)](/azure/devops/organizations/projects/connect-to-projects)
 - [Troubleshoot connecting to a project](/azure/devops/user-guide/troubleshoot-connection?view=azure-devops&preserve-view=true)

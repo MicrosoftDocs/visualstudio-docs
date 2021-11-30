@@ -1,7 +1,7 @@
 ---
 title: How to automate your Visual Studio Subscriptions using Azure Active Directory groups
 author: esteban-herrera
-ms.author: esherrer
+ms.author: amast
 manager: shve
 ms.date: 07/22/2021
 ms.topic: how-to

@@ -33,7 +33,7 @@
       "overwrite": [],
       "externalReference": [],
       "globalMetadata": {
-        "breadcrumb_path": "/gamedev/breadcrumb/toc.json",
+        "breadcrumb_path": "/visualstudio/gamedev/breadcrumb/toc.json",
         "extendBreadcrumb": true,
         "feedback_system": "GitHub",
         "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
