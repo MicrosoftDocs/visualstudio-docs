@@ -19,7 +19,7 @@ The goal of the getting started guide is to give you a basic understanding of Vi
 ## Get the tools
 The journey starts by [installing the right tools](get-tools.md) into Visual Studio.
 
-## Your first extension]
+## Your first extension
 Next, we're going to [write a simple extension](first-extension.md) as a starting point for future customizations.
 
 ## Extension anatomy

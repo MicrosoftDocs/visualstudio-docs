@@ -16,7 +16,7 @@ These resources can help you better navigate the world of Visual Studio extensib
 
 The following video introduces useful resources for Visual Studio extension authors.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWP8Kw]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWP8Kw]
 
 ## Resources
 Here are some useful resources that can help you in your extension journey.

@@ -16,7 +16,7 @@ This toolkit will help you write successful Visual Studio extensions and there's
 
 The following video introduces you to the Visual Studio extensibility model.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWPht8]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWPht8]
 
 ## Pick your starting point
 
@@ -24,11 +24,11 @@ Based on your experience level, pick where to begin.
 
 ### Learn how to get started
 
-If you are new to extension development, you want to start at the beginning to ensure you're not missing any information up front. Head on over to the [getting started section](getting-started/get-started-guide.md).
+If you are new to extension development, you want to start at the beginning to ensure you're not missing any information up front. Head on over to the [getting started section](get-started/get-started-guide.md).
 
 ### Walk me through typical scenarios
 
-Once you know the basics of the Visual Studio extensibility model, it is time to explore what type of features to extend. To do that, check out the [recipe section](recipes/recipes-overview.md) for inspiration and step-by-step guides.
+Once you know the basics of the Visual Studio extensibility model, it is time to explore what type of features to extend. To do that, check out the [recipe section](recipes/custom-tool-windows.md) for inspiration and step-by-step guides.
 
 ### Publishing the finished extension
 

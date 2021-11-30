@@ -6,19 +6,17 @@
     expanded: true
     items:
     - name: Overview
-      href: getting-started/get-started-guide.md
+      href: get-started/get-started-guide.md
     - name: Get the tools
-      href: getting-started/get-tools.md
+      href: get-started/get-tools.md
     - name: Extension anatomy
-      href: getting-started/extension-anatomy.md
+      href: get-started/extension-anatomy.md
     - name: Your first extension
-      href: getting-started/first-extension.md
+      href: get-started/first-extension.md
     - name: Useful resources
-      href: getting-started/useful-resources.md
+      href: get-started/useful-resources.md
   - name: Recipes
     items:
-    - name: Overview
-      href: recipes/recipes-overview.md
     - name: Menus & commands
       href: recipes/menus-buttons-commands.md
     - name: Tool windows
@@ -51,7 +49,3 @@
       href: publish/checklist.md
     - name: Extension packs
       href: publish/create-extension-pack.md
-    - name: Marketplace
-      href: publish/marketplace.md
-    - name: Private galleries
-      href: publish/private-galleries.md
