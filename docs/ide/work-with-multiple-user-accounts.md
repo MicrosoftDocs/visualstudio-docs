@@ -108,6 +108,22 @@ To see this in action, create a new **ASP.NET Core Web App** project. On the **A
 
 ::: moniker-end
 
+::: moniker range=">=vs-2019"
+
+## Add an additional account to Visual Studio
+
+To add an additional account to Visual Studio:
+
+1. Choose **File** > **Account Settings**.
+
+1. From **All Accounts**, choose an account by using the **+** or the **Add** dropdown.
+
+1. On the **Sign in to your account** page, select the account or choose **Use another account**. Follow the prompts to enter the new account credentials.
+
+(Optional) Now you can go to **Server Explorer** and see the Azure services associated with the account you just added. In **Server Explorer**, right-click on the **Azure** node and choose **Manage and Filter Subscriptions**. Choose the new account by clicking the drop-down arrow next to the current account, and then choose which subscriptions you want to display in **Server Explorer**. You should see all the services associated with the specified subscription. Even though you're not currently signed into Visual Studio with the second account, you are signed in to that account's services and resources. The same is true for **Project** > **Add Connected Service**.
+::: moniker-end
+
+::: moniker range="vs-2017"
 ## Add an additional account to Visual Studio
 
 To add an additional account to Visual Studio:
@@ -118,11 +134,6 @@ To add an additional account to Visual Studio:
 
 1. On the **Sign in to your account** page, select the account or choose **Use another account**. Follow the prompts to enter the new account credentials.
 
-::: moniker range=">=vs-2019"
-(Optional) Now you can go to **Server Explorer** and see the Azure services associated with the account you just added. In **Server Explorer**, right-click on the **Azure** node and choose **Manage and Filter Subscriptions**. Choose the new account by clicking the drop-down arrow next to the current account, and then choose which subscriptions you want to display in **Server Explorer**. You should see all the services associated with the specified subscription. Even though you're not currently signed into Visual Studio with the second account, you are signed in to that account's services and resources. The same is true for **Project** > **Add Connected Service**.
-::: moniker-end
-
-::: moniker range="vs-2017"
 (Optional) Now you can go to **Server Explorer** and see the Azure services associated with the account you just added. In **Server Explorer**, right-click on the **Azure** node and choose **Manage and Filter Subscriptions**. Choose the new account by clicking the drop-down arrow next to the current account, and then choose which subscriptions you want to display in **Server Explorer**. You should see all the services associated with the specified subscription. Even though you're not currently signed into Visual Studio with the second account, you are signed in to that account's services and resources. The same is true for **Project** > **Add Connected Service** and **Team** > **Connect to Team Foundation Server**.
 
 ### Add an account using device code flow
