@@ -87,7 +87,7 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 ## Step 2 - Build an installation script
 
-* Build an installation script that uses [command-line parameters](use-command-line-parameters-to-install-visual-studio.md) to [install Visual Studio onto a client machine from a network layout](/visualstudio/install/create-a-network-installation-of-visual-studio#install-visual-studio-onto-a-client-machine-from-a-network-installation.
+* Build an installation script that uses [command-line parameters](use-command-line-parameters-to-install-visual-studio.md) to [install Visual Studio onto a client machine from a network layout](/visualstudio/install/create-a-network-installation-of-visual-studio#install-visual-studio-onto-a-client-machine-from-a-network-installation).
 
 * (Optional) [Apply a volume license product key](automatically-apply-product-keys-when-deploying-visual-studio.md) as part of the installation script so that users don't need to activate the software separately.
 
