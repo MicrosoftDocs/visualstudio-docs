@@ -145,7 +145,8 @@ The following `response.json` file example will initialize a Visual Studio Enter
 
 ::: moniker range="=vs-2019"
 
-The following `response.json` file example will initialize a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to point back to the layout. Note that for Visual Studio 2019, the update location (channelURI) can only be configured during initial installation and cannot be changed after the fact _unless_ you use the functionality in the latest installer. Refer to [Set defaults for enterprise deployments of Visual Studio](\visualstudio\install\set-defaults-for-enterprise-deploymnets#Use-the-latest-installer) for information how to configure this.
+The following `response.json` file example will initialize a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to point back to the layout. Note that for Visual Studio 2019, the update location (channelURI) can only be configured during initial installation and cannot be changed after the fact _unless_ you use the functionality in the latest installer. Refer to [Set defaults for enterprise deployments of Visual Studio](/visualstudio/install/set-defaults-for-enterprise-deployments
+#Use-the-latest-installer) for information how to configure this.
 
 ```Example response.json
 {
