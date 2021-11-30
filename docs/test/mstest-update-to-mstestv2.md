@@ -47,7 +47,7 @@ Sample *.csproj* now targeting MSTestV2:
 > [!NOTE]
 > Test projects that are Coded UI tests or Web Load Tests are not compatible with MSTestV2. These project types have been deprecated. Read more on [Coded UI Test deprecation](https://devblogs.microsoft.com/devops/changes-to-coded-ui-test-in-visual-studio-2019/) and [Web Load Test deprecation](https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-eol/).
 
-### SDK-style csproj (.NET Core and .NET 5)
+### SDK-style csproj (.NET Core and .NET 5 or later)
 
 If your *.csproj* is the newer SDK-style *.csproj* you're most likely already using MSTestV2. You can find the NuGet packages for [MSTestV2](https://www.nuget.org/packages/MSTest.TestFramework) and the [MSTestV2 Adapter](https://www.nuget.org/packages/MSTest.TestAdapter/) on NuGet.
 
