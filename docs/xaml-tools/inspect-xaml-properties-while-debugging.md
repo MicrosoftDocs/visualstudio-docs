@@ -42,7 +42,7 @@ Let's get started with a very simple WPF application that has a list view and a 
 
 ::: moniker-end
 
-1. Change MainWindow.xaml to the following:
+2. Change MainWindow.xaml to the following:
 
    ```xaml
    <Window x:Class="TestXAML.MainWindow"
@@ -60,7 +60,7 @@ Let's get started with a very simple WPF application that has a list view and a 
    </Window>
    ```
 
-1. Add the following command handler to the MainWindow.xaml.cs file:
+3. Add the following command handler to the MainWindow.xaml.cs file:
 
    ```csharp
    int count;
@@ -81,7 +81,7 @@ Let's get started with a very simple WPF application that has a list view and a 
    }
    ```
 
-1. Build the project and start debugging. (The build configuration must be Debug, not Release. For more information about build configurations, see [Understanding Build Configurations](../ide/understanding-build-configurations.md).)
+4. Build the project and start debugging. (The build configuration must be Debug, not Release. For more information about build configurations, see [Understanding Build Configurations](../ide/understanding-build-configurations.md).)
 
    When the window comes up you should see the in-app toolbar appear within your running application.
 
@@ -92,7 +92,7 @@ Let's get started with a very simple WPF application that has a list view and a 
    ![Main window of the app](../debugger/media/livevisualtree-app.png "LiveVIsualTree-App")
    ::: moniker-end
 
-1. Now, click the **Add Item** button a few times to add new items into the list.
+5. Now, click the **Add Item** button a few times to add new items into the list.
 
 ### Inspect XAML properties
 

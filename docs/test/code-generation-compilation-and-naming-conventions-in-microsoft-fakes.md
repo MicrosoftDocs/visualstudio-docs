@@ -1,6 +1,6 @@
 ---
 title: 'Microsoft Fakes: Generate & compile code; naming conventions'
-description: Learn about options and issues in Fakes code generation and compilation, including the naming conventions for Fakes generated types, members, and parameters.
+description: Learn about options and issues in Fakes code generation and compilation, including the naming conventions for Fakes-generated types, members, and parameters.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -13,7 +13,7 @@ author: mikejo5000
 ---
 # Code generation, compilation, and naming conventions in Microsoft Fakes
 
-This article discusses options and issues in Fakes code generation and compilation, and describes the naming conventions for Fakes generated types, members, and parameters.
+This article discusses options and issues in Fakes code generation and compilation, and describes the naming conventions for Fakes-generated types, members, and parameters.
 
 **Requirements**
 
