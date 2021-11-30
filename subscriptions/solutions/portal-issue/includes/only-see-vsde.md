@@ -3,8 +3,8 @@ title: Why am I only seeing my Visual Studio Dev Essentials and not my Visual St
 description:  Learn what to do if you aren't seeing all of your Visual Studio subscriptions
 ms.topic: include
 ms.assetid: ab387e76-baec-4f27-9769-b2fc86e0c932
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 08/13/2021
 user.type: subscriber
 tags: portal-error

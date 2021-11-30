@@ -3,8 +3,8 @@ title: How do I troubleshoot in Visual Studio?
 description: Find help for Visual Studio troubleshooting in the Visual Studio documentation
 ms.topic: include
 ms.assetid: 51dd1bb6-dc02-4e92-b843-261530814c58
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 09/20/2021
 ms.faqid: q2_6
 ---

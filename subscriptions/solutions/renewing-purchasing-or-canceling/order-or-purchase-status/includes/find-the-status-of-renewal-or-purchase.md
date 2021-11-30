@@ -3,8 +3,8 @@ title: How do I find the status of my renewal or purchase?
 description: How do I find the status of my renewal or purchase for my Visual Studio subscription?
 ms.topic: include
 ms.assetid: 0c208e2d-ea79-4c90-a7b2-69052a34a36f
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 09/17/2020
 user.type: subscriber
 tags: billing
