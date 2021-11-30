@@ -4,8 +4,8 @@ description: 'Learn about the various ways you can purchase Visual Studio subscr
 ms.faqid: group4_1
 ms.topic: include
 ms.assetid: c8dd39de-bf7f-40a2-a203-f2be21b87f5c
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 04/20/2021
 ---
 

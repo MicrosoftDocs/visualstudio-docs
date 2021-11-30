@@ -1,8 +1,8 @@
 ---
 title: Power BI Pro Benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 383fc910-3f4c-474a-a3f8-0f13525f05e9
 ms.date: 08/26/2021
 ms.topic: how-to
