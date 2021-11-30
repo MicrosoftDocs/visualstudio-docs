@@ -22,7 +22,7 @@ Storing and retrieving settings is a must-have for many extensions. Let's explor
 
 The following video shows you ho to add options to an extension.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWPmjL]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWPmjL]
 
 Here's what it should look like in the **Tools > Options** dialog.
 
