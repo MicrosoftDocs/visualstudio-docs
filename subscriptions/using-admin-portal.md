@@ -2,7 +2,7 @@
 title: Get started with the Visual Studio subscriptions Admin Portal | Visual Studio Marketplace
 author: evanwindom
 ms.author: amast
-manager: amast
+manager: shve
 ms.assetid: 4c099fe8-883e-4789-9468-387ce5697dfe
 ms.date: 11/22/2020
 ms.topic: overview

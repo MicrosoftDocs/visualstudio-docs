@@ -3,8 +3,8 @@ title: Unable to activate my Pluralsight benefit
 description: I'm unable to activate my Pluralsight benefit included with my Visual Studio subscription? 
 ms.topic: include
 ms.assetid: 7e5d8886-538c-4e29-9c4c-8989cf4e09dd
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 04/16/2021
 user.type: subscriber
 tags: benefit, pluralsight

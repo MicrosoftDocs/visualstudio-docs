@@ -4,8 +4,8 @@ description: If your organization has an Enterprise Agreement for Azure, your de
 ms.faqid: group2_5
 ms.topic: include
 ms.assetid: 86308cf3-909b-47a0-9230-5d1a93a2f87a
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 05/03/2021
 ---
 
