@@ -57,7 +57,7 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 * Decide on your security and compatibility needs.
 
-  If your company needs to stay on a feature set longer but still wants to get regular servicing security updates, you should plan to use a servicing baseline. For more information, see the ***Support options for Enterprise and Professional customers*** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing-vs2022#support-options-for-enterprise-and-professional-customers) page, as well as the [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md) page.
+  If your company needs to stay on a feature set longer but still wants to get regular servicing security updates, you should plan to use a servicing baseline. For more information, see the ***Support options for Enterprise and Professional customers*** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing-vs2019#support-options-for-enterprise-and-professional-customers) page, as well as the [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md) page.
   
 ::: moniker-end  
 
@@ -99,7 +99,7 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 Use your deployment technology of choice to execute your script onto your target developer workstations.  
 
-* [Update your network layout with the desired version of Visual Studio](/visualstudio/install/create-a-network-installation-of-visual-studio.md#update-or-modify-your-layout)
+* [Update your network layout with the desired version of Visual Studio](/visualstudio/install/create-a-network-installation-of-visual-studio#update-or-modify-your-layout)
 
 * [Refresh your client machine with the latest updates](/visualstudio/install/update-a-network-installation-of-visual-studio) to Visual Studio.
 
