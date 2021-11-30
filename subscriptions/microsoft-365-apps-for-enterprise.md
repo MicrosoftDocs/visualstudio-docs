@@ -21,7 +21,8 @@ Create your best work. Work anywhere with apps that are always updated. Microsof
 The process for activating your Microsoft 365 apps for enterprise subscription is simple.  Follow these steps to activate your subscription and install your applications:
 
 1. Sign in to your Visual Studio subscription at [https://my.visualstudio.com](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)
-1. Locate the Microsoft 365 apps for enterprise tile and select **Activate**.
+1. Locate the Microsoft 365 apps for enterprise tile and select **Get code**.
+1. Click **Activate**.
    > [!div class="mx-imgBorder"]
    > ![Microsoft 365 apps for enterprise tile](_img/microsoft-365-apps-for-enterprise/tile-activate.png "Select 'Activate' to get started with your subscription.")
 
