@@ -126,7 +126,7 @@ You can complete all these steps by using Visual Studio 2019:
 
    ![Screenshot that shows the selections for adding a new project.](media/update-visual-studio-extension/add-new-project.png)
 
-1. In the **Add a new project** dialog, search for **share project**, and then select the **Shared Project** template.
+1. In the **Add a new project** dialog, search for **shared project**, and then select the **Shared Project** template.
 
    ![Screenshot that shows searching for and selecting the Shared Project template.](media/update-visual-studio-extension/new-shared-project-template.png)
 
@@ -139,7 +139,7 @@ Leave the *source.extension.vsixmanifest* file in the VSIX project.
 
    ![Screenshot that shows a shared project containing all source files.](media/update-visual-studio-extension/source-files-in-shared-project.png)
 
-1. Move metadata files (for example, release notes, license, and icons) and Visual Studio Command Table (VSCT) files to a shared directory. Then add them as linked files to the VSIX project. Note that the shared directory is separate from the shared project.
+1. Move metadata files (for example, release notes, license, and icons) and VSCT files to a shared directory. Then add them as linked files to the VSIX project. Note that the shared directory is separate from the shared project.
 
    ![Screenshot that shows selections for adding metadata and V S C T files as linked files.](media/update-visual-studio-extension/add-linked-items-to-vsix.png)
    
@@ -211,7 +211,7 @@ Add Visual Studio 2022 support to your extension by using the following steps. Y
    > [!IMPORTANT]
    > In Visual Studio 2019, the designer for this file does not expose the new `ProductArchitecture` element. You need to use an XML editor to make this change. To access the XML editor, go to Solution Explorer and select the **Open With** command.
    >
-   > The `ProductArchitecture` element is critical. Visual Studio 2022 will not install your extension without it.
+   > The `ProductArchitecture` element is critical. Visual Studio 2022 won't install your extension without it.
 
    | Element | Value | Description |
    | - | - | - |
