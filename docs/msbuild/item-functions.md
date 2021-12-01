@@ -105,4 +105,4 @@ The functions `Exists` and `HasTrailingSlash` are not item functions. They are a
 
 ## See also
 
-- [Items](../msbuild/msbuild-items.md)
+You can also use attributes to perform operations on item lists, such as filtering on item metadata; see [Items](../msbuild/msbuild-items.md).

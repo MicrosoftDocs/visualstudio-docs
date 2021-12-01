@@ -354,6 +354,8 @@ To clear all metadata from a list of items, use the `ClearMetadata` item functio
 <NewItem Include="@(OldItem->ClearMetadata())" />
 ```
 
+See [MSBuild item functions](item-functions.md).
+
 ### <a name="BKMK_KeepDuplicates"></a> KeepDuplicates attribute
 
  If an item is generated within a target, the item element can contain the `KeepDuplicates` attribute. `KeepDuplicates` is a `Boolean` attribute that specifies whether an item should be added to the target group if the item is an exact duplicate of an existing item.
