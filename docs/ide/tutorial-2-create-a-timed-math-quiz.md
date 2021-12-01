@@ -46,7 +46,7 @@ When you finish, your quiz will look similar to the following screenshot, except
 |[Step 7: Add multiplication and division problems](../ide/step-7-add-multiplication-and-division-problems.md)|Add multiplication and division problems that generate random numbers, use the timer, and check for correct answers.|
 |[Step 8: Customize the quiz](../ide/step-8-customize-the-quiz.md)|Try other features, such as changing colors and adding a hint.|
 
-There are also great, free video learning resources available to you. To learn more about programming in C#, see [C# fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners). To learn more about programming in Visual Basic, see [Visual Basic fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/Visual-Basic-Development-for-Absolute-Beginners).
+There are also great, free video learning resources available to you. To learn more about programming in C#, see C# fundamentals: Development for absolute beginners. To learn more about programming in Visual Basic, see Visual Basic fundamentals: Development for absolute beginners.
 
 ## Next steps
 

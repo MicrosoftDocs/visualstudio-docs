@@ -32,7 +32,7 @@ Use the following tasks to validate your software:
 
 |**Category**|**Links**|
 |-|-|
-|**Videos**|![link to video](../data-tools/media/playvideo.gif) [Channel 9: Doug Seven: Code Understanding and Systems Design with Visual Studio 2010](https://channel9.msdn.com/shows/VS2010Launch/Doug-Seven-Code-Understanding-and-Systems-Design-with-Visual-Studio-2010)<br /><br /> ![link to video](../data-tools/media/playvideo.gif) [Channel 9: Architecting an Application](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-5-architecting-an-application))|
+|**Videos**|![link to video](../data-tools/media/playvideo.gif) Channel 9: Doug Seven: Code Understanding and Systems Design with Visual Studio 2010<br /><br /> ![link to video](../data-tools/media/playvideo.gif) Channel 9: Architecting an Application|
 |**Forums**|- [Visual Studio Visualization & Modeling Tools](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsarch)<br />- [Visual Studio extensibility](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx)|
 
 ## See also

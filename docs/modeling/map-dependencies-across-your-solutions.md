@@ -235,8 +235,7 @@ Suppose you have a code review to perform in some files with pending changes. To
 - [Share code maps](share-code-maps.md)
 - [Create code maps for C++](code-maps-for-cpp.md)
 - [Improve code map performance](code-maps-performance.md)
-- [Video: Understand design from code with Visual Studio 2015 code maps](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2015/502)
-- [Video: Understand design from code with Visual Studio 2015 code maps](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2015/502)
+- Video: Understand design from code with Visual Studio 2015 code maps
 - [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
 - [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)
 - [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)

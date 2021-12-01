@@ -101,7 +101,7 @@ For example, if you frequently use solutions that have Presentation, Business, a
 
 ## Watch a video
 
-[Organize and manage your models](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-9-organizing-and-managing-your-models)
+Organize and manage your models
 
 ## See also
 
