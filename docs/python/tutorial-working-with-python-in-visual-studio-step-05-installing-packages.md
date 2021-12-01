@@ -73,21 +73,21 @@ The Python developer community has produced thousands of useful packages that yo
     ![Unresolved package import](media/packages-unresolved-import.png)
    :::moniker-end
 
-1. The **Overview** tab in the Python Environments window provides quick access to an **Interactive** window for that environment and the installation folder of the environment and interpreters.
+1. The **Overview** tab in the Python Environments window provides quick access to an **Interactive** window for that environment and the installation folder of the environment and interpreters. The **Packages** tab is available below the Overview tab.
 
-    For example, select **Open interactive window** and an **Interactive** window for that specific environment appears in Visual Studio.
+    For example, select **Open interactive window** and an **Interactive window** for that specific environment appears in Visual Studio.
 
 1. The **Packages** tab in the Python Environments window lists all packages that are currently installed in the environment.
 
 ## Install packages using the Python Environments window
 
-1. From the **Python Environments** window, select the default environment for new Python projects.
-
-1. See how to install Python packages in **Python Environment** window.
+See the steps below to install Python packages in **Python Environment** window.
 
    :::moniker range=">=vs-2022"
-   [!Install packages in an environment](media/environments/install-python-packages-2022.gif)
+   [Install packages in an environment](media/environments/install-python-packages-2022.gif)
    :::moniker-end
+
+1. From the **Python Environments** window, select the default environment for new Python projects.
 
 1. Choose the **Packages** tab.
 
