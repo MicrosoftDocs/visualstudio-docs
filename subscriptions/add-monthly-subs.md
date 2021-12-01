@@ -2,7 +2,7 @@
 title: Add new monthly subscriptions to Subscriptions Administration Portal | Microsoft Docs
 author: evanwindom
 ms.author: amast
-manager: amast
+manager: shve
 ms.assetid: 36f0d9f1-fe28-469f-a54c-dc46638270a8
 ms.date: 10/08/2021
 ms.topic: how-to

@@ -1,8 +1,8 @@
 ---
 title:  Windows Developer Account benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 588480a3-8806-4ea5-9915-c25974770069
 ms.date: 10/18/2021
 ms.topic: how-to

@@ -2,7 +2,7 @@
 title:  Super admin and admin roles for Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
-manager: amast
+manager: shve
 ms.assetid: 6601c395-f778-48c1-ab76-cf454b9193e4
 ms.date: 03/19/2021
 ms.topic: conceptual

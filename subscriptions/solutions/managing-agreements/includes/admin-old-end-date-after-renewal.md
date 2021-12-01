@@ -3,8 +3,8 @@ title: Why does my agreement still show an old end date after renewal?
 description: The super admin or admin doesn't see their agreement as renewed in the portal
 ms.topic: include
 ms.assetid: 3247ca7a-474e-4d9e-86fe-161860f20ceb
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 09/29/2021
 user.type: admin
 tags: manage, agreement, sign in

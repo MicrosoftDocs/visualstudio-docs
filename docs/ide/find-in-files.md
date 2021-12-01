@@ -98,7 +98,7 @@ You can select or clear the following option(s):
 
 The option you choose from the **Look in** drop-down list determines whether **Find in Files** searches the entire workspace, the entire solution, the current project, the current directory, all open documents, or the current document.
 
-You can also use the adjacent **Browse (...)** button to locate where you want search. Even better, if you've already specified a directory, this button will append the new directory instead of replacing is. For instance, if your "Look in" value was ".\Code", you could click the **Browse (...)** button and navigate to a folder named "Shared Code". The **Browse (...)** box would now show ".\Code;.\Shared Code" and when the Find command is executed, it will search both of those folders.
+You can also use the adjacent **Browse (...)** button to locate where you want to search. Even better, if you've already specified a directory, this button will append the new directory instead of replacing it. For instance, if your "Look in" value was ".\Code", you could click the **Browse (...)** button and navigate to a folder named "Shared Code". The **Browse (...)** box would now show ".\Code;.\Shared Code" and when the Find command is executed, it will search both of those folders.
 
 To refine your search, you can select or clear the following option(s):
 
@@ -140,7 +140,7 @@ You can select or clear the following option(s):
 
 The option you choose from the **Look in** drop-down list determines whether **Find in Files** searches the entire workspace, the entire solution, the current project, the current directory, all open documents, or the current document.
 
-You can also use the adjacent **Browse (...)** button to locate where you want search. Even better, if you've already specified a directory, this button will append the new directory instead of replacing is. For instance, if your "Look in" value was ".\Code", you could click the **Browse (...)** button and navigate to a folder named "Shared Code". The **Browse (...)** box would now show ".\Code;.\Shared Code" and when the Find command is executed, it will search both of those folders.
+You can also use the adjacent **Browse (...)** button to locate where you want to search. Even better, if you've already specified a directory, this button will append the new directory instead of replacing it. For instance, if your "Look in" value was ".\Code", you could click the **Browse (...)** button and navigate to a folder named "Shared Code". The **Browse (...)** box would now show ".\Code;.\Shared Code" and when the Find command is executed, it will search both of those folders.
 
 To refine your search, you can select or clear the following option(s):
 

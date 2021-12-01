@@ -3,8 +3,8 @@ title: Unable to activate my Azure DevOps benefit
 description: I'm unable to activate my Azure DevOps benefit included with my Visual Studio subscription.
 ms.topic: include
 ms.assetid: 3ec2a8c1-07e0-45cd-808c-c354b9e26fb4
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 8/14/2020
 user.type: subscriber
 tags: benefit, azure-devops

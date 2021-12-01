@@ -2,7 +2,7 @@
 title: What happens when Visual Studio subscription agreements renew | Microsoft Docs
 author: evanwindom
 ms.author: amast
-manager: amast
+manager: shve
 ms.assetid: c7198d87-dfbf-4b2f-8ed4-bb4d56873dc1
 ms.date: 11/10/2021
 ms.topic: conceptual

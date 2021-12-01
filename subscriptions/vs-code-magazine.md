@@ -1,8 +1,8 @@
 ---
 title: The CODE Magazine benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: e5768153-2758-46d3-a323-3272def213ee
 ms.date: 10/18/2021
 ms.topic: how-to
