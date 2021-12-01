@@ -89,6 +89,7 @@ The Python developer community has produced thousands of useful packages that yo
    :::moniker range="vs-2022"
     ![Installing matplotlib in the environment-2022 in Packages tab](media/environments/environments-add-matplotlib-2022.png)
    :::moniker-end
+
    :::moniker range="<=vs-2019"
    ![Installing matplotlib in the environment-2019 in Packages tab](media/environments/environments-add-matplotlib-2019.png)
    :::moniker-end
