@@ -160,7 +160,7 @@ For more information about wildcard characters, see [How to: Select the files to
 </Target>
 ```
 
- For more information, see [Transforms](../msbuild/msbuild-transforms.md).
+For more operations on items, see [MSBuild item functions](item-functions.md) and [Transforms](../msbuild/msbuild-transforms.md).
 
 ## Item definitions
 
@@ -348,13 +348,7 @@ Output:
 -->
 ```
 
-To clear all metadata from a list of items, use the `ClearMetadata` item function as follows:
-
-```xml
-<NewItem Include="@(OldItem->ClearMetadata())" />
-```
-
-See [MSBuild item functions](item-functions.md).
+For more operations on items, see [MSBuild item functions](item-functions.md).
 
 ### <a name="BKMK_KeepDuplicates"></a> KeepDuplicates attribute
 
