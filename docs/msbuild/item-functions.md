@@ -66,7 +66,7 @@ The table below lists the intrinsic functions available for items.
 |`Metadata`|`@(MyItem->Metadata("MetadataName"))`|Returns the values of the metadata that have the metadata name.|
 |`WithMetadataValue`|`@(MyItem->WithMetadataValue("MetadataName", "MetadataValue"))`|Returns items that have the given metadata name and value. The comparison is case insensitive.|
 
-:::moniker-end"
+:::moniker-end
 :::moniker range=">=vs-2019"
 
 |Function|Example|Description|
