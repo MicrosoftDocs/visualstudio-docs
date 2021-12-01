@@ -71,12 +71,12 @@ The table below lists the intrinsic functions available for items.
 
 |Function|Example|Description|
 |--------------|-------------|-----------------|
-|`Combine`|`@(MyItems->Combine('path')`|Returns a new set of items with a given relative path appended to all the input items.|
+|`Combine`|`@(MyItems->Combine('path'))`|Returns a new set of items with a given relative path appended to all the input items.|
 |`Count`|`@(MyItems->Count())`|Returns the count of the items.|
 |`DirectoryName`|`@(MyItems->DirectoryName())`|Returns the equivalent of `Path.DirectoryName` for each item.|
 |`Distinct`|`@(MyItems->Distinct())`|Returns items that have distinct `Include` values. Metadata is ignored. The comparison is case insensitive.|
 |`DistinctWithCase`|`@(MyItems->DistinctWithCase())`|Returns items that have distinct `itemspec` values. Metadata is ignored. The comparison is case sensitive.|
-|`Exists`|`@(MyItems->Exists()`|Filters a set of items to those that actually exist on disk.|
+|`Exists`|`@(MyItems->Exists())`|Filters a set of items to those that actually exist on disk.|
 |`GetPathsOfAllDirectoriesAbove`| `@(MyItems->GetPathsOfAllFilesAbove())`|Given a set of items, returns items representing all the ancestor directories. No order is guaranteed.|
 |`Reverse`|`@(MyItems->Reverse())`|Returns the items in reverse order.|
 |`AnyHaveMetadataValue`|`@(MyItems->AnyHaveMetadataValue("MetadataName", "MetadataValue"))` | Returns a `boolean` to indicate whether any item has the given metadata name and value. The comparison is case insensitive. |
