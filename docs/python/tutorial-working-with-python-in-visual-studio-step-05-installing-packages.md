@@ -83,6 +83,12 @@ The Python developer community has produced thousands of useful packages that yo
 
 1. From the **Python Environments** window, select the default environment for new Python projects.
 
+1. See how to install Python packages in **Python Environment** window.
+
+   :::moniker range=">=vs-2022"
+   [!Install packages in Python environment](medis/environments/install-python-packages-2022.git)
+   :::moniker-end
+
 1. Choose the **Packages** tab.
 
    :::moniker range="vs-2022"
