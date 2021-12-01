@@ -4,8 +4,8 @@ description: FAQs list for Signing In.
 ms.faqid: Section3
 ms.topic: conceptual
 ms.assetid: e4573b81-b40c-4008-9c33-9e7437cb5796
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 12/01/2020
 ---
 

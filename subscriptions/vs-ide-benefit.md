@@ -1,8 +1,8 @@
 ---
 title: Visual Studio IDE in Visual Studio subscription | Microsoft Docs
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: c4b13464-76be-40f1-ad60-ed79ee264b12
 ms.date: 10/18/2021
 ms.topic: how-to

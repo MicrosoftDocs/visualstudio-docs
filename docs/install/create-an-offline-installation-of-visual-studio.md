@@ -1,7 +1,7 @@
 ---
 title: Create an offline installation
 description: Learn how to install Visual Studio offline when you have an unreliable internet connection or low bandwidth.
-ms.date: 4/16/2021
+ms.date: 11/23/2021
 ms.topic: conceptual
 f1_keywords:
 - offline installation [Visual Studio]
@@ -21,7 +21,7 @@ ms.technology: vs-installation
 We designed Visual Studio to work well in various network and computer configurations. We recommend that you use the [Visual Studio Installer](https://visualstudio.microsoft.com/downloads), which is a small file that checks for online updates on a regular basis and helps you stay current with all the latest fixes and features. However, sometimes online access is problematic. For example, you might have an unreliable internet connection or your internet connection may have low bandwidth. For situations like these, we've made a few other methods available for acquiring Visual Studio. You can use the **Download all, then install** feature from the Visual Studio Installer to download the files to a local cache on the local machine before you install, or you can use the command line to create a local cache of the files to install later.
 
 > [!NOTE]
-> If you are an enterprise IT administrator who wants to perform a deployment of Visual Studio to a network of client workstations, refer to our [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide).
+> If you are an enterprise IT administrator who wants to perform a deployment of Visual Studio to a network of client workstations, refer to our [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide) and the [Create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md) documentation.
 
 ## Use the "Download all, then install" feature
 
@@ -114,7 +114,7 @@ Open a command prompt and use the bootstrapper's parameters as defined in the [U
 - For .NET web and .NET desktop development, run:
 
    ```shell
-    vs_enterprise.exe --layout c:\vslayout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --includeOptional --lang en-US
+    vs_enterprise.exe --layout c:\localVScache --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --includeOptional --lang en-US
     ```
 ::: moniker-end
 

@@ -3,8 +3,8 @@ title: My issue is not listed
 description: Solution shown when 'issue not listed' category is selected or no solution is found
 ms.topic: include
 ms.assetid: c1537b27-0ae4-4bf3-b1e4-ff05f8e14359
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 04/15/2021
 user.type: subscriber, admin
 tags: no-solution

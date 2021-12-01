@@ -1,8 +1,8 @@
 ---
 title: What software downloads are available in Visual Studio subscriptions? | Microsoft Docs
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: c2878e28-eb5d-4adb-8d7d-a95ffea703a9
 ms.date: 10/13/2021
 ms.topic: how-to

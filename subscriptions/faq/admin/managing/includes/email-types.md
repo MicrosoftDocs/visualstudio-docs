@@ -4,8 +4,8 @@ description: Individuals who are assigned a subscription will receive periodic c
 ms.faqid: group1_5
 ms.topic: include
 ms.assetid: 3b7b2932-3274-4275-9d80-b28406bcefc4
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 3/3/2020
 ---
 

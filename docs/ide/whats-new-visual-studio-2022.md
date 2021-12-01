@@ -39,7 +39,7 @@ Visual Studio 2022 on Windows is now a 64-bit application. This means you can op
 
 And, in [Visual Studio 2022 Preview 4](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-4-is-now-available/), we focused on improving the performance of several key features. For example, [Find in Files](find-in-files.md) is now as much as 3x faster when searching large solutions such as [Orchard Core](https://github.com/OrchardCMS/OrchardCore).
 
-:::image type="content" source="media/vs-2022/find-files-faster.gif" alt-text="Animation of the Find in Files feature as it searches a large C# solution three times faster that the previous version of Visual Studio.":::
+:::image type="content" source="media/vs-2022/find-files-faster.gif" alt-text="Animation of the Find in Files feature as it searches a large C# solution three times faster than the previous version of Visual Studio.":::
 
 ## Build modern apps
 
