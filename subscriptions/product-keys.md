@@ -1,8 +1,8 @@
 ---
 title: Using product keys in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 89e3fcf9-fe5d-4266-8dd7-5567d05fe869
 ms.date: 10/13/2021
 ms.topic: conceptual

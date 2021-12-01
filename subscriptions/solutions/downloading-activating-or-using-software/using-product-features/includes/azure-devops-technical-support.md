@@ -3,8 +3,8 @@ title: Azure DevOps technical support
 description: Get technical support for Azure DevOps
 ms.topic: include
 ms.assetid: 8ee4f3fb-6cb6-473f-b497-208f5c3eaf01
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 02/12/2021
 user.type: subscriber
 tags: redirect

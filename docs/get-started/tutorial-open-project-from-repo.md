@@ -16,7 +16,7 @@ ms.workload:
   - "dotnetcore"
 ---
 # Tutorial: Open a project from a repo
-F
+
 In this tutorial, you'll use Visual Studio to connect to a repository for the first time and then open a project from it.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
@@ -39,7 +39,7 @@ Here's how.
 
 1. Enter or type the repository location, and then select the **Clone** button.
 
-    :::image type="content" source="../ide/media/vs-2022/clone-repository-enter-location.png" alt-text="[Screenshot of the Clone a Repository dialog in Visual Studio where you enter a Git repo URL.":::
+    :::image type="content" source="../ide/media/vs-2022/clone-repository-enter-location.png" alt-text="Screenshot of the Clone a Repository dialog in Visual Studio where you enter a Git repo URL.":::
 
 1. You might be asked for your user sign-in information in the **Git User Information** dialog box. You can either add your information or edit the default information it provides.
 
