@@ -2,7 +2,7 @@
 title:  Visual Studio subscription assignments deleted by Microsoft | Microsoft Docs
 author: evanwindom
 ms.author: amast
-manager: amast
+manager: shve
 ms.assetid: f853ed9d-3543-4f5f-a754-92381ee03523
 ms.date: 09/30/2021
 ms.topic: how-to

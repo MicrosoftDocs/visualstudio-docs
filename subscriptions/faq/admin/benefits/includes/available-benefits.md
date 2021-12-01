@@ -4,8 +4,8 @@ description: The Visual Studio Subscription benefits page allows you to see and 
 ms.faqid: group2_2
 ms.topic: include
 ms.assetid: e8b196c2-6118-47d1-8363-ceae3d9b6fb2
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 11/10/2020
 ---
 
