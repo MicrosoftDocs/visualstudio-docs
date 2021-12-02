@@ -57,7 +57,7 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 * Decide on your security and compatibility needs.
 
-  If your company needs to stay on a feature set longer but still wants to get regular servicing security updates, you should plan to use a servicing baseline. For more information, see the ***Support options for Enterprise and Professional customers*** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing-vs2019#support-options-for-enterprise-and-professional-customers) page, as well as the [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md) page.
+  If your company needs to stay on a feature set longer but still wants to get regular servicing security updates, you should plan to use a servicing baseline. For more information, see the ***Support options for Enterprise and Professional customers*** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2022/servicing-vs2022#enterprise-professional-and-build-tools-editions-support) page, as well as the [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md) page.
   
 ::: moniker-end  
 
