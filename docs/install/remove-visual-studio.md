@@ -2,7 +2,7 @@
 title: Remove Visual Studio
 titleSuffix: ''
 description: Learn how to completely remove Visual Studio from your computer, step by step.
-ms.date: 08/24/2021
+ms.date: 12/01/2021
 ms.custom: vs-acquisition
 ms.topic: how-to
 f1_keywords:
@@ -50,6 +50,8 @@ Here's how to run the `InstallCleanup.exe` tool:
    ```shell
    "C:\Program Files (x86)\Microsoft Visual Studio\Installer\InstallCleanup.exe"
    ```
+
+   For example, use the switch *-i 17* with `InstallCleanup.exe` to remove all 17 versioned products.
 
    > [!NOTE]
    > If you can't find `InstallCleanup.exe` under the Visual Studio Installer directory, which is always located at `%ProgramFiles(x86)%\Microsoft Visual Studio`, here's what to do next. Follow the instructions to [install Visual Studio](install-visual-studio.md). Then, when the workload selection screen is displayed, close the window and follow the steps on this page again.
