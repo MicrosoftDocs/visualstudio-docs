@@ -418,7 +418,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 ## Run, debug, and make changes
 
-1. Choose the **IIS Express** button in the IDE to build and run the app in Debug mode. (Alternatively, press **F5**, or choose **Debug** > **Start Debugging** from the menu bar.)
+1. Select the **IIS Express** button in the IDE to build and run the app in Debug mode. (Alternatively, press **F5**, or choose **Debug** > **Start Debugging** from the menu bar.)
 
      :::image type="content" source="media/vs-2022/csharp-aspnet-razor-iisexpress.png" alt-text="Screenshot showing the IIS Express button highlighted in the Visual Studio IDE.":::
 

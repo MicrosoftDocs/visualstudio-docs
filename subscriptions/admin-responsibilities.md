@@ -1,8 +1,8 @@
 ---
 title: Admin responsibilities in Visual Studio subscriptions | Visual Studio Marketplace
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: b26b31dc-1eeb-4871-9ce6-2c980e703f1e
 ms.date: 03/19/2021
 ms.topic: conceptual

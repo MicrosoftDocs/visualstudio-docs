@@ -1,8 +1,8 @@
 ---
 title: Using the Subscriber Portal in Visual Studio subscriptions| Microsoft Docs
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 8470f035-2a82-4052-9a12-6f24ce796861
 ms.date: 10/14/2021
 ms.topic: overview

@@ -1,8 +1,8 @@
 ---
 title: How to use connected identities in Visual Studio subscriptions  | Microsoft Docs
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 50ce0445-ef1a-4e92-b9d0-aebb2155a111
 ms.date: 10/14/2021
 ms.topic: conceptual

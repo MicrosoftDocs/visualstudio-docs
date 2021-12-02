@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022"
 titleSuffix: ""
 description: "Learn about the new features in the preview release of Visual Studio 2022."
-ms.date: 11/04/2021
+ms.date: 11/18/2021
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -17,12 +17,15 @@ ms.workload:
 ---
 # What's new in Visual Studio 2022
 
-**Updated for the 17.0 Preview 5/Release Candidate (RC).** See [full release notes](/visualstudio/releases/2022/release-notes-preview/) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
+**Updated for the 17.0 GA (General Availability) release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
 
 >[!div class="button"]
->[Download Visual Studio 2022 RC](https://visualstudio.microsoft.com/downloads/)
+>[Download Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
 
-With [Visual Studio 2022 RC](https://visualstudio.microsoft.com/vs/preview/), you'll always get the best-in-class tools and services available for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our newest version!
+With [Visual Studio 2022](https://visualstudio.microsoft.com/vs/), you'll always get the best-in-class tools and services available for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our newest version!
+
+> [!TIP]
+> Check out the [**Visual Studio 2022 launch event**](https://www.youtube.com/watch?v=f8jXO946eDw) on our [YouTube channel](https://www.youtube.com/visualstudio). You can also catch it on our [Twitch channel](https://www.twitch.tv/visualstudio), too.
 
 ## Performance improvements
 
@@ -36,7 +39,7 @@ Visual Studio 2022 on Windows is now a 64-bit application. This means you can op
 
 And, in [Visual Studio 2022 Preview 4](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-4-is-now-available/), we focused on improving the performance of several key features. For example, [Find in Files](find-in-files.md) is now as much as 3x faster when searching large solutions such as [Orchard Core](https://github.com/OrchardCMS/OrchardCore).
 
-:::image type="content" source="media/vs-2022/find-files-faster.gif" alt-text="Animation of the Find in Files feature as it searches a large C# solution three times faster that the previous version of Visual Studio.":::
+:::image type="content" source="media/vs-2022/find-files-faster.gif" alt-text="Animation of the Find in Files feature as it searches a large C# solution three times faster than the previous version of Visual Studio.":::
 
 ## Build modern apps
 
@@ -44,7 +47,9 @@ Visual Studio 2022 makes it quick and easy to build modern, cloud-based applicat
 
 ### Better dev tools for C++ and .NET, and Hot Reload
 
-[Visual Studio 2022 Preview 2](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-2-is-out/) includes better cross-platform app development tools and the latest version of C++ build tools, to include C++20 support. As well, we're updating **Hot Reload** so that you can edit either C++ or .NET projects while your application is running. For more information, see the [**Speed up your .NET and C++ development with Hot Reload in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/speed-up-your-dotnet-and-cplusplus-development-with-hot-reload-in-visual-studio-2022/) blog post.
+[Visual Studio 2022 Preview 2](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-2-is-out/) includes better cross-platform app development tools and the latest version of C++ build tools, to include C++20 support.
+
+As well, we're updating **Hot Reload** so that you can edit either C++ or .NET projects while your application is running. For more information, see the [**Speed up your .NET and C++ development with Hot Reload in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/speed-up-your-dotnet-and-cplusplus-development-with-hot-reload-in-visual-studio-2022/) blog post, and the [Write and debug running code with Hot Reload in Visual Studio with C#, C++, or Visual Basic](../debugger/hot-reload.md) Docs page.
 
 ### Updates for Blazor & Razor editors + Hot Reload for ASP.NET
 
@@ -68,7 +73,7 @@ If you've worked with projects hosted on different Git repositories, you might h
 
 ## Designing for everyone
 
-We’re refreshing the user interface to better keep you in your flow. Some of the changes are subtle cosmetic touches that modernize the UI or reduce crowding.
+We’re refreshing the user interface to better keep you in your flow. Some of the changes include cosmetic touches that modernize the UI or reduce crowding.
 
 ### Look & feel
 
@@ -82,7 +87,7 @@ One of our key focus areas is to make Visual Studio more personalized and flexib
 
 ## What's next
 
-Want to know more about what we're planning for Visual Studio 2022? See the [**Roadmap**](/visualstudio/productinfo/vs-roadmap/) page and the [**Visual Studio 2022 vision**](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/) blog post for details.
+Want to know more about what we're planning for Visual Studio 2022? See the [**Roadmap**](/visualstudio/productinfo/vs-roadmap/) page and the [**Visual Studio 2022 Preview**](/visualstudio/releases/2022/release-notes-preview/) release notes for details.
 
 ## Give us feedback
 
@@ -94,7 +99,8 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 ## See also
 
-* [Visual Studio 2022 GA (General Availability)](https://devblogs.microsoft.com/visualstudio/join-us-november-8th-for-the-launch-of-visual-studio-2022/)
+* [Visual Studio 2022 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-now-available/)
+* [Launch: Visual Studio 2022 GA (General Availability)](https://devblogs.microsoft.com/visualstudio/join-us-november-8th-for-the-launch-of-visual-studio-2022/)
 * [Visual Studio 2022 RC (Release Candidate)](https://devblogs.microsoft.com/visualstudio/join-us-november-8th-for-the-launch-of-visual-studio-2022/)
 * [Visual Studio 2022 Preview 4](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-4-is-now-available/)
 * [Visual Studio 2022 Preview 3](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/)

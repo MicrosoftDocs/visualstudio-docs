@@ -27,7 +27,7 @@ To complete this tutorial:
 - [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) with the *ASP.NET and web development* workload.
 ::: moniker-end
 ::: moniker range=">=vs-2022"
-- [Visual Studio 2022 RC](https://visualstudio.microsoft.com/downloads) with the *ASP.NET and web development* workload.
+- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads) with the *ASP.NET and web development* workload.
 ::: moniker-end
 
 - Install [Docker Desktop](https://docs.docker.com/docker-for-windows/install/)
@@ -43,7 +43,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 4. Give your new application a name (or take the default) and select **OK**.
 5. Select **Web Application**.
 6. Check the **Enable Docker Support** checkbox.
-7. Select the **Linux** container type and click **OK**. Windows containers are not supported to deploy to Azure App Service as a container.
+7. Select the **Linux** container type and click **OK**. 
 ::: moniker-end
 ::: moniker range=">= vs-2019"
 1. From the Visual Studio start window, choose **Create a new project**.

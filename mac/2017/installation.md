@@ -3,7 +3,7 @@ title: "Install Visual Studio 2017 for Mac"
 description: "Instructions on how to install Visual Studio for Mac and additional components required for cross-platform development."
 author: heiligerdankgesang
 ms.author: dominicn
-ms.date: 11/03/2018
+ms.date: 11/10/2021
 ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 ms.custom: video
@@ -17,7 +17,7 @@ ms.topic: how-to
 
 ## Downgrading from Visual Studio 2019 for Mac?
 
-For the best experience, before you downgrade you should ensure that you [uninstall](uninstall.md) Visual Studio 2019 for Mac. If you have issues that are causing you to download, make sure to let us know by [reporting a problem](report-a-problem.md).
+For the best experience, before you downgrade you should ensure that you [uninstall](uninstall.md) Visual Studio 2019 for Mac.
  
 ## Requirements
 
@@ -63,7 +63,7 @@ For working with iOS in Visual Studio you need the following pieces:
       - Fully cross-platform Xamarin apps – Select **Android**, **iOS**, and **macOS** platforms.
    * **.NET Core applications** – Select **.NET Core** platform.
    * **ASP.NET Core Web Applications** – Select **.NET Core** platform.
-   * **Cross-platform Unity Game Development** – No additional platforms need to be installed beyond Visual Studio for Mac. Refer to the [Unity setup guide](./setup-vsmac-tools-unity.md) for more information on installing the Unity extension.
+   * **Cross-platform Unity Game Development** – No additional platforms need to be installed beyond Visual Studio for Mac.
 
    This installation screen displays the version and size of each individual component. You can click each component to display a list of dependencies for that component (for Android), see additional packages that it downloads (for .NET Core), or view any additional applications required (for iOS and macOS):
 
@@ -115,7 +115,7 @@ Installing Visual Studio for Mac allows you to start writing code for your apps.
 
 ### .NET Core apps, ASP.NET Core web apps, Unity game development
 
-For other Workloads, refer to the [Workloads](./workloads.md) page.
+For other Workloads, refer to the [Workloads](./asp-net-core.md) section.
 
 ## Related Video
 

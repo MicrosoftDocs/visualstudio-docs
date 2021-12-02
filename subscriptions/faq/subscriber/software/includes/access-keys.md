@@ -3,8 +3,8 @@ title: How do I access my product keys when my subscription expires?
 description: To have access to your product keys after your subscription expires, you need to export your claimed keys before the subscription...
 ms.topic: include
 ms.assetid: 73342d98-bedb-4c3b-8961-5ee2210b7029
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 4/3/2020
 ms.faqid: q2_3
 ---

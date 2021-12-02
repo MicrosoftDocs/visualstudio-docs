@@ -1,7 +1,7 @@
 ---
 title: Introduction to projects and solutions
 description: Learn about the difference between projects and solutions and how to use them in Visual Studio.
-ms.date: 09/14/2021
+ms.date: 11/12/2021
 ms.technology: vs-ide-general
 ms.custom: [vs-acquisition,  get-started, SEO-VS-2020]
 ms.topic: tutorial
@@ -200,7 +200,7 @@ Add a code file to your empty project.
    }
    ```
 
-   You don't need to understand everything the code is doing yet. Run the app by pressing **Ctrl**+**F5**, and see that the app prints today's date to the *console*, or standard output, window.
+   You don't need to understand everything the code is doing yet. Run the app by pressing **Ctrl**+**F5**, and see that the app prints today's date to the *console*, or standard output, window. Then, close the console window.
 
 ## Add a second project
 
@@ -405,7 +405,7 @@ The line in the *Calendar.cs* file that contains the <xref:System.Runtime.Compil
 
     ::: moniker range=">=vs-2022"
 
-    :::image type="content" source="media/vs-2022/tutorial-project-properties.png" alt-text="Screenshot that shows project properties." border="false":::
+    :::image type="content" source="media/vs-2022/tutorial-project-properties.png" alt-text="Screenshot that shows project properties." lightbox="media/vs-2022/tutorial-project-properties.png":::
 
     ::: moniker-end
 
