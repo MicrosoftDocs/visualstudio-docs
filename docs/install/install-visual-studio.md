@@ -38,7 +38,7 @@ Welcome to Visual Studio 2019! In this version, it's easy to choose and install 
 
 ::: moniker range=">=vs-2022"
 
-Welcome to Visual Studio 2022 RC! In this version, it's easy to choose and install just the features you need.
+Welcome to Visual Studio 2022! In this version, it's easy to choose and install just the features you need.
 
 ::: moniker-end
 
@@ -59,7 +59,7 @@ Want to know more about what else is new in this version? See our [release notes
 
 ::: moniker range=">=vs-2022"
 
-Want to know more about what else is new in this RC version? See our [release notes](/visualstudio/releases/2022/release-notes-preview/).
+Want to know more about what else is new in this version? See our [release notes](/visualstudio/releases/2022/release-notes/).
 
 ::: moniker-end
 
@@ -147,7 +147,7 @@ To do so, choose the following button, choose the edition of Visual Studio that 
 To do so, select the following button, choose the edition of Visual Studio that you want, and then save to your **Downloads** folder.
 
  > [!div class="button"]
- > [Download Visual Studio](https://visualstudio.microsoft.com/vs/preview/#download-preview)
+ > [Download Visual Studio](https://visualstudio.microsoft.com/downloads)
 
 ::: moniker-end
 

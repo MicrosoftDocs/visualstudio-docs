@@ -1,8 +1,8 @@
 ---
 title: Assign Visual Studio subscriptions to multiple users | Microsoft Docs
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.date: 10/21/2021
 ms.topic: conceptual
 description:  Learn how admins can assign multiple subscriptions at one time.

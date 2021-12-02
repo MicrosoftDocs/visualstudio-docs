@@ -1,8 +1,8 @@
 ---
 title: Effects of changing Visual Studio subscription levels | Visual Studio Marketplace
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: bb2fa359-8170-4db0-a0c5-d49fc692b0aa
 ms.date: 10/13/2021
 ms.topic: conceptual

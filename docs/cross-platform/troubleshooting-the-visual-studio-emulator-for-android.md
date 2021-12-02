@@ -144,7 +144,7 @@ This topic contains information to help you resolve issues that you may experien
 
   1. Make sure your computer meets the [system requirements](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md).
 
-  2. Verify that the [SLAT tool](https://slatstatuscheck.codeplex.com/) reports that your computer is SLAT capable.
+  2. Verify that the [coreinfo tool](/sysinternals/downloads/coreinfo) reports that your computer is SLAT capable.
 
   3. Within the BIOS settings of your computer, make sure that all virtualization technology is enabled. The exact BIOS descriptions may vary for each hardware manufacturer. In general, enable features related to:
 

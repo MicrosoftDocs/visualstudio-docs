@@ -3,8 +3,8 @@ title: Help me purchase from the Microsoft Store
 description: Help me purchase Visual Studio subscriptions from the Microsoft Store
 ms.topic: include
 ms.assetid: f56c7642-f945-4bdf-b48e-9d548b08d91d
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 09/17/2020
 user.type: subscriber
 tags: purchasing
@@ -31,9 +31,7 @@ Each of these subscriptions offers the option to make an initial purchase or to 
 1. Go to [Microsoft Store](https://www.microsoft.com/store) and find the subscription you want to purchase.
 2. Click on “Download - New” and add to cart. 
 
-> [!NOTE] 
-> 
-> Sometimes the store will default to showing the renewal price, make sure you are purchasing a new subscription. The store will not validate that you have a current subscription while purchasing at renewal price. You can't activate the renewal without a current matching subscription.
+Note: Sometimes the store will default to showing the renewal price, make sure you are purchasing a new subscription. The store will not validate that you have a current subscription while purchasing at renewal price. You can't activate the renewal without a current matching subscription.
 
 3. Check out. On the confirmation page, you'll be given a product key to use to activate the subscription. See instructions below. 
 

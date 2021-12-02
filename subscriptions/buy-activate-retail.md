@@ -1,8 +1,8 @@
 ---
 title: Visual Studio subscriptions available in the Microsoft Store | Microsoft Docs
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 76654645-08ee-445d-b9ee-123126d1f0fb
 ms.date: 10/11/2021
 ms.topic: how-to

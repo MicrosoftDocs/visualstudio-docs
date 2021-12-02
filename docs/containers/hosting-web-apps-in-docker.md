@@ -32,7 +32,7 @@ To complete this tutorial:
 * Install [Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/)
 ::: moniker-end
 ::: moniker range=">=vs-2022"
-* Install the latest version of [Visual Studio 2022 RC](https://visualstudio.microsoft.com/downloads) with the "ASP.NET and web development" workload
+* Install the latest version of [Visual Studio 2022](https://visualstudio.microsoft.com/downloads) with the "ASP.NET and web development" workload
 * Install [Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/)
 :::moniker-end
 

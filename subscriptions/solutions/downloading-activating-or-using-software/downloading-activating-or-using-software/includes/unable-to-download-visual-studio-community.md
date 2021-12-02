@@ -3,8 +3,8 @@ title: Unable to download or activate Visual Studio Community
 description: I'm unable to download or activate Visual Studio Community.
 ms.topic: include
 ms.assetid: 0c74cb35-a500-4fa0-b010-ac76ee56d2f9
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 08/14/2020
 user.type: subscriber
 tags: download, activate

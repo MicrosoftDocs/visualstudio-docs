@@ -1,8 +1,8 @@
 ---
 title: Visual Studio subscriptions offered through Microsoft for Startups | Microsoft Docs
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 71af88da-b9fa-4d12-999c-7d461f3df0ec
 ms.date: 02/19/2021
 ms.topic: conceptual

@@ -3,8 +3,8 @@ title: Using the Visual Studio subscriber portal (my.visualstudio.com)
 description: FAQs list for Using the Subscriber Portal (my.visualstudio.com).
 ms.topic: conceptual
 ms.assetid: c4ce41f2-a5b2-475f-b1ac-cca28ee17fc2
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 02/15/2021
 ms.faqid: Section1
 ---

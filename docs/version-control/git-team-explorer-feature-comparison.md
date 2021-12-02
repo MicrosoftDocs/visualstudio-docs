@@ -1,14 +1,15 @@
 ---
-title: Side-by-side comparison of Git and Team Explorer in Visual Studio
+title: Side-by-side comparison of Git and Team Explorer in Visual Studio 2019
 titleSuffix: ""
 description: Compare and contrast how to use the new Git experience versus Team Explorer in Visual Studio to manage source control.
-ms.date: 04/01/2021
+ms.date: 11/08/2021
 ms.topic: how-to
+author: Taysser-Gherfal
 ms.author: tglee
-author: TerryGLee
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
+monikerRange: "<=vs-2019"
 ---
 # Side-by-side comparison of Git and Team Explorer
 
@@ -61,10 +62,10 @@ If you’ve been using Team Explorer, here is a step-by-step guide that explains
 
 ## Next steps
 
-For more information about the new Git experience, see the latest video, [Getting started with Git in Visual Studio](https://www.youtube.com/watch?v=GCZ9x3yqkyc), on YouTube.
+For more information about the new Git experience, see the latest video, [Getting started with Git in Visual Studio 2019](https://www.youtube.com/watch?v=GCZ9x3yqkyc), on YouTube.
 
 ## See also
 
-- [The new Git experience in Visual Studio](git-with-visual-studio.md)
+- [The new Git experience in Visual Studio 2019](git-with-visual-studio.md?view=vs-2019&preserve-view=true)
 - [Get Started with Git and GitHub in Visual Studio](/learn/modules/visual-studio-github-push/)
 - [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md)

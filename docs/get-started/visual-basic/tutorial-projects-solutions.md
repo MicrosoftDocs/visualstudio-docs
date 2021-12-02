@@ -233,7 +233,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
 1. Choose the **References** node in the **QuickTest** project, and from the right-click or context menu, choose **Add Reference**.
 
-   ![creenshot showing the context menu for the References node in the QuickTest project, with the 'Add Reference' option selected.](media/tutorial-projects-add-reference-vb.png)
+   ![Screenshot showing the context menu for the References node in the QuickTest project, with the 'Add Reference' option selected.](media/tutorial-projects-add-reference-vb.png)
 
    The **Reference Manager** dialog box opens.
 
