@@ -222,11 +222,18 @@ You can also use right-click menus from the **Call Stack** window to do other th
 
 When your app throws an exception, the debugger takes you to the line of code that threw the exception. For detailed information, see [Inspect an exception using the Exception Helper](../debugger/exception-helper.md).
 
+::: moniker range=">= vs-2022"
+![Exception Helper](../debugger/media/vs-2022/dbg-tour-exception-helper.png "Exception Helper")
+
+In this example, the **Exception Helper** shows you a `System.NullReferenceException` exception and an error message that says that the object reference is not set to an instance of the object. And, it tells us that the string value was null when you tried to call the `Trim` method.
+::: moniker-end
+::: moniker range="<= vs-2019"
 ![Exception Helper](../debugger/media/dbg-tour-exception-helper.png "Exception Helper")
 
 In this example, the **Exception Helper** shows you a `System.Argument` exception and an error message that says that the path is not a legal form. So, we know the error occurred on a method or function argument.
 
 In this example, the `DirectoryInfo` call gave the error on the empty string stored in the `value` variable.
+::: moniker-end
 
 The Exception Helper is a great feature that can help you debug errors. You can also do things like view error details and add a watch from the Exception Helper. Or, if needed, you can change conditions for throwing the particular exception. For more information on how to handle exceptions in your code, see [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md).
 
@@ -238,7 +245,14 @@ You can configure your project to build as a [Debug or Release configuration](..
 
 Debugging properties are specific to each project type. For example, you can specify an argument to pass to the application when you start it. You can access the project-specific properties by right-clicking the project in Solution Explorer and selecting **Properties**. Debugging properties typically appear in the **Build** or **Debug** tab, depending on the particular project type.
 
+::: moniker range=">= vs-2022"
+Starting in Visual Studio 2022, the **Debug** tab for .NET projects provides a link to the debug launch profiles UI, where you can set debug-related properties.
+
+![Project properties](../debugger/media/vs-2022/dbg-tour-project-properties.png "Project properties")
+::: moniker-end
+::: moniker range="<= vs-2019"
 ![Project properties](../debugger/media/dbg-tour-project-properties.png "Project properties")
+::: moniker-end
 
 ## Debug live ASP.NET apps in Azure App Service
 
