@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022"
 titleSuffix: ""
 description: "Learn about the new features in the preview release of Visual Studio 2022."
-ms.date: 11/18/2021
+ms.date: 12/02/2021
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -53,7 +53,7 @@ As well, we're updating **Hot Reload** so that you can edit either C++ or .NET p
 
 ### Updates for Blazor & Razor editors + Hot Reload for ASP.NET
 
-And, new in [Visual Studio 2022 Preview 4](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-4-is-now-available/), there’s a big update for the Blazor and Razor editors, and new capabilities for **Hot Reload** in ASP.NET Core&mdash;including **Hot Reload** when you save a file or when you apply changes to CSS files live!
+And, new in [Visual Studio 2022 Preview 4](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-4-is-now-available/), there’s a big update for the Blazor and [Razor](https://devblogs.microsoft.com/visualstudio/introducing-the-new-razor-editor-in-visual-studio-2022/) editors, and new capabilities for **Hot Reload** in ASP.NET Core&mdash;including **Hot Reload** when you save a file or when you apply changes to CSS files live!
 
 :::image type="content" source="media/vs-2022/hot-reload-blazor-css-live.gif" alt-text="Animation of Hot Reload in Razor and Blazor apps, and in CSS files live.":::
 
