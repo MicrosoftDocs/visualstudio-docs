@@ -43,7 +43,7 @@ In [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studi
 
 ## Build modern apps
 
-Visual Studio 2022 makes it quick and easy to build modern, cloud-based applications with Azure. As well, our new version also has full support for [.NET 6](https://devblogs.microsoft.com/dotnet/announcing-net-6/) and its unified framework for web, client, and mobile apps for both Windows and Mac developers. And, Visual Studio 2022 includes robust support for the C++ workload with new productivity features, C++20 tooling, and [IntelliSense](using-intellisense).
+Visual Studio 2022 makes it quick and easy to build modern, cloud-based applications with Azure. As well, our new version also has full support for [.NET 6](https://devblogs.microsoft.com/dotnet/announcing-net-6/) and its unified framework for web, client, and mobile apps for both Windows and Mac developers. And, Visual Studio 2022 includes robust support for the C++ workload with new productivity features, C++20 tooling, and [IntelliSense](using-intellisense.md).
 
 ### Better dev tools for C++ and .NET, and Hot Reload
 
@@ -77,7 +77,7 @@ We’re refreshing the user interface to better keep you in your flow. Some of t
 
 ### Look & feel
 
-From new iconography to subtle color contrast ratio adjustments and a new [Cascadia](https://github.com/microsoft/cascadia-code#welcome) [Code](how-to-change-fonts-and-colors-in-visual-studio?view=vs-2022#use-the-cascadia-code-font) font, we're working to make Visual Studio 2022 more accessible for everyone. For all the details, see the [**We’ve upgraded the UI in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/) blog post.
+From new iconography to subtle color contrast ratio adjustments and a new [Cascadia](https://github.com/microsoft/cascadia-code#welcome) [Code](how-to-change-fonts-and-colors-in-visual-studio?view=vs-2022.md#use-the-cascadia-code-font&preserve-view=true) font, we're working to make Visual Studio 2022 more accessible for everyone. For all the details, see the [**We’ve upgraded the UI in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/) blog post.
 
 :::image type="content" source="media/vs-2022/icon-refresh.png" alt-text="Screenshot of the contrast between previous and refreshed icons in Visual Studio.":::
 
