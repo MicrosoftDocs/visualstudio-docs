@@ -68,7 +68,7 @@ Over the course of this tutorial you'll create a single Visual Studio solution t
 When working with Django from the command line, you typically start a project by running the `django-admin startproject <project_name>` command. In Visual Studio, using the "Blank Django Web Project" template provides the same structure within a Visual Studio project and solution.
 
 ::: moniker range="<=vs-2019"
-1. In Visual Studio, select **File** > **New** > **Project**, search for "Django", and select the **Blank Django Web Project** template. (The template is also found under **Python** > **Web** in the left-hand list.)
+1. In Visual Studio, select **File** > **New** > **Project**, search for "Django", and select the **Blank Django Web Project** template. (You can also find the template under **Python** > **Web** in the left-hand list.)
 
     ![New project dialog in Visual Studio for the Blank Django Web Project](media/django/step01-new-blank-project.png)
 
@@ -85,14 +85,14 @@ When working with Django from the command line, you typically start a project by
 
     ![Prompt saying that the project requires external packages](media/django/step01-requirements-prompt-install-myself.png)
 
-1. Select the option **I will install them myself**. You create the virtual environment shortly to make sure it's excluded from source control. (The environment can always be created from *requirements.txt*.)
+1. Select the option **I will install them myself**. You create the virtual environment shortly to make sure it's excluded from source control. (You can always create the environment from *requirements.txt*.)
 ::: moniker-end
 
 ::: moniker range="vs-2022"
-1. In Visual Studio, select **File** > **New** > **Project**, search for "Django", and select the **Blank Django Web Project** template, then select **Next**
+1. In Visual Studio, select **File** > **New** > **Project**, search for "Django", and select the **Blank Django Web Project** template, then select **Next**.
 
     ![New project dialog in Visual Studio for the Blank Django Web Project](media/django/step01-create-new-project-screen1-VS22.png)
-
+  
 1. Enter the following information and then select **Create**:
 
     - **Project Name**: set the name of the Visual Studio project to **BasicProject**. This name is also used for the Django project.
@@ -105,7 +105,7 @@ When working with Django from the command line, you typically start a project by
 ## Step 1-2: Examine the Git controls and publish to a remote repository
 
 ::: moniker range="<=vs-2019"
-Because you selected the **Create new Git repository** in the **New Project** dialog, the project is already committed to local source control as soon as the creation process is complete. In this step, you familiarize yourself with Visual Studio's Git controls and the **Team Explorer** window in which you work with source control.
+Because you selected the **Create new Git repository** in the **New Project** dialog, the project is already committed to local source control as the creation process completes. In this step, you familiarize yourself with Visual Studio's Git controls and the **Team Explorer** window in which you work with source control.
 
 1. Examine the Git controls on the bottom corner of the Visual Studio main window. From left to right, these controls show unpushed commits, uncommitted changes, the name of the repository, and the current branch:
 
@@ -126,7 +126,7 @@ Because you selected the **Create new Git repository** in the **New Project** di
 
     You can choose whichever service you want for your own projects. This tutorial shows the use of GitHub, where the completed sample code for the tutorial is maintained in the [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django) repository.
 
-1. When selecting any of the **Publish** controls, **Team Explorer** prompts you for more information. For example, when publishing the sample for this tutorial, the repository itself had to be created first, in which case the **Push to Remote Repository** option was used with the repository's URL.
+1. When selecting any of the **Publish** controls, **Team Explorer** prompts you for more information. For example, when publishing the sample for this tutorial, the repository itself had to be created first, in which case, the **Push to Remote Repository** option was used with the repository's URL.
 
     ![Team Explorer window for pushing to an existing remote repository](media/django/step01-push-to-github.png)
 
@@ -142,7 +142,7 @@ Because you selected the **Create new Git repository** in the **New Project** di
 ::: moniker range="vs-2022"
 In this step, you familiarize yourself with Visual Studio's Git controls and the **Team Explorer** window in which you work with source control.
 
-1. To commit the project to your local source control, push **Add to Source Control** command at the bottom corner of the Visual Studio main window and select Git option. This action will take you to Create Git repository window, where you can create and push a new repository.
+1. To commit the project to your local source control, push **Add to Source Control** command at the bottom corner of the Visual Studio main window and select Git option. This action takes you to Create Git repository window, where you can create and push a new repository.
 
     ![Create a Git repository](media/django/step01-git-add-to-source-control.png)
 
@@ -154,14 +154,14 @@ In this step, you familiarize yourself with Visual Studio's Git controls and the
 1. Select the Git changes button, and Visual Studio opens its **Team Explorer** window on the **Git Changes** page. Because the newly created project is already committed to source control automatically, you don't see any pending changes.
 
     ![Team Explorer window on the Git Changes page](media/django/step01-team-explorer-Gitchanges-VS22.png)
-
+    
 1. On the Visual Studio status bar, select the unpushed commits button (the up arrow with **2**) to open the **Synchronization** page in **Team Explorer**. Because you have only a local repository, the page provides easy options to publish the repository to different remote repositories.
 
     ![Team Explorer window showing available Git repository options for source control](media/django/step01-team-explorer.png)
 
     You can choose whichever service you want for your own projects. This tutorial shows the use of GitHub, where the completed sample code for the tutorial is maintained in the [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django) repository.
 
-1. When selecting any of the **Publish** controls, **Team Explorer** prompts you for more information. For example, when publishing the sample for this tutorial, the repository itself had to be created first, in which case the **Push to Remote Repository** option was used with the repository's URL.
+1. When selecting any of the **Publish** controls, **Team Explorer** prompts you for more information. For example, when publishing the sample for this tutorial, the repository itself had to be created first, in which case, the **Push to Remote Repository** option was used with the repository's URL.
 
     ![Team Explorer window for pushing to an existing remote repository](media/django/step01-push-to-github.png)
 
@@ -176,9 +176,9 @@ In this step, you familiarize yourself with Visual Studio's Git controls and the
 
 ### Question: What are some advantages of using source control from the beginning of a project?
 
-Answer: First of all, using source control from the start, especially if you also use a remote repository, provides a regular offsite backup of your project. Unlike maintaining a project just on a local file system, source control also provides a complete change history and the easy ability to revert a single file or the whole project to a previous state. That change history helps determine the cause of regressions (test failures). Furthermore, source control is essential if multiple people are working on a project, as it manages overwrites and provides conflict resolution.
+Answer: Source control from the start, especially if you also use a remote repository, provides a regular offsite backup of your project. Unlike maintaining a project just on a local file system, source control also provides a complete change history and the easy ability to revert a single file or the whole project to a previous state. That change history helps determine the cause of regressions (test failures). Source control is essential if multiple people are working on a project, because it manages overwrites and provides conflict resolution.
 
-Finally, source control, which is fundamentally a form of automation, sets you up well for automating builds, testing, and release management. It's really the first step in using DevOps for a project, and because the barriers to entry are so low, there's really no reason to not use source control from the beginning.
+Finally, source control, which is fundamentally a form of automation, sets you up well for automating builds, testing, and release management. It's the first step in using DevOps for a project. Because the barriers to entry are so low, there's really no reason to not use source control from the beginning.
 
 For further discussion on source control as automation, see [The Source of Truth: The Role of Repositories in DevOps](/archive/msdn-magazine/2016/september/mobile-devops-the-source-of-truth-the-role-of-repositories-in-devops), an article in MSDN Magazine written for mobile apps that applies also to web apps.
 
@@ -214,7 +214,7 @@ Now that you've configured source control for your project, you can create the v
 
 1. After excluding the virtual environment, the only remaining changes are to the project file and *.gitignore*. The *.gitignore* file contains an added entry for the virtual environment folder. You can double-click the file to see a diff.
 
-1. Enter a commit message and select the **Commit All** button, then push the commits to your remote repository if you like.
+1. Enter a commit message and select the **Commit All** button, then push the commits to your remote repository.
 
 ::: moniker-end
 
@@ -227,9 +227,9 @@ Now that you've configured source control for your project, you can create the v
 
 1. Select **Create** to accept the defaults, in Add Virtual Environment dialog. (You can change the name of the virtual environment if you want, which just changes the name of its subfolder, but `env` is a standard convention.)
 
-![Add virtual environment dialog with requirements.txt message](media/django/step01-add-virtual-environment-dialog-VS22.png)
+    ![Add virtual environment dialog with requirements.txt message](media/django/step01-add-virtual-environment-dialog-VS22.png)
 
-1. Consent to administrator privileges if prompted, then be patient for a few minutes while Visual Studio downloads and installs packages, which for Django means expanding several thousand files in about as many subfolders! You can see progress in the Visual Studio **Output** window. While you're waiting, ponder the Question sections that follow.
+1. Consent to administrator privileges if prompted, then wait for few minutes while Visual Studio downloads and installs packages. During this time several thousands of files are transferred to as many subfolders! You can see progress in the Visual Studio **Output** window. While you're waiting, ponder the Question sections that follow.
 
 1. On the Visual Studio Git controls (on the status bar), select the changes indicator (that shows **99&#42;**) which opens the **Changes** page in **Team Explorer**.
 
@@ -241,7 +241,7 @@ Now that you've configured source control for your project, you can create the v
 
 1. After excluding the virtual environment, the only remaining changes are to the project file and *.gitignore*. The *.gitignore* file contains an added entry for the virtual environment folder. You can double-click the file to see a diff.
 
-1. Enter a commit message and select the **Commit All** button, then push the commits to your remote repository if you like.
+1. Enter a commit message and select the **Commit All** button, then push the commits to your remote repositoryl.
 
 ::: moniker-end
 
@@ -294,7 +294,7 @@ Answer: Yes. Expand the **Python Environments** node, right-click your virtual e
 
 ### Question: Is Django a web server and a framework?
 
-Answer: Yes and no. Django does have a built-in web server that's used for development purposes. This web server is what gets used when you run the web app locally, such as when debugging in Visual Studio. When you deploy to a web host, however, Django uses the host's web server instead. The *wsgi.py* module in the Django project takes care of hooking into the production servers.
+Answer: Yes and no. Django has a built-in web server that's used for development purposes. This web server is used when you run the web app locally, such as when debugging in Visual Studio. When you deploy to a web host, however, Django uses the host's web server instead. The *wsgi.py* module in the Django project takes care of hooking into the production servers.
 
 ### Question: What's the difference between using the Debug menu commands and the server commands on the project's Python submenu?
 

@@ -15,7 +15,7 @@ ms.workload:
 
 # Create a C++ extension for Python
 
-Modules written in C++ (or C) are commonly used to extend the capabilities of a Python interpreter. They're also used to enable access to low-level operating system capabilities.
+Commonly, modules written in C++ (or C) are used to extend the capabilities of a Python interpreter. You can also use them to enable access to low-level operating system capabilities.
 
 Modules come in three primary types:
 
@@ -90,9 +90,9 @@ For more information about the installation options, see [Install Python support
         test(lambda d: [tanh(x) for x in d], '[tanh(x) for x in d] (Python implementation)')
     ```
 
-1. To view the results, run the program by selecting **Debug** > **Start without Debugging** or by selecting Ctrl+F5.
+1. To view the results, run the program by selecting **Debug** > **Start without Debugging** or by selecting **Ctrl+F5**.
 
-   You can adjust the `COUNT` variable to change how long the benchmark takes to run. For this walkthrough, set the count so that the benchmark takes about two seconds.
+   You can adjust the `COUNT` variable to change how long the benchmark runs. For this walkthrough, set the count so that the benchmark takes about two seconds.
 
    > [!TIP]
    > When you run benchmarks, always use **Debug** > **Start without Debugging**. This helps avoid the overhead that you incur when you run the code within the Visual Studio debugger.
@@ -203,7 +203,7 @@ Follow the instructions in this section to create two identical C++ projects, *s
 
 ## Convert the C++ projects to extensions for Python
 
-To make the C++ DLL an extension for Python, first modify the exported methods to interact with Python types. Then add a function that exports the module, along with definitions of the module's methods.
+To make the C++ DLL an extension for Python, first modify the exported methods to interact with Python types. Then, add a function that exports the module, along with definitions of the module's methods.
 
 The sections that follow explain how you perform these steps by using both the CPython extensions and PyBind11.
 
@@ -269,13 +269,13 @@ For more background on the code shown in this section, see the [Python/C API Ref
 
 ### Use PyBind11
 
-If you have completed the steps in the previous section, you certainly noticed that you used lots of boilerplate codes to create the necessary module structures for the C++ code. PyBind11 simplifies the process through macros in a C++ header file that accomplishes the same result, but with much less code. 
+If you've completed the steps in the previous section, you likely noticed that you used lots of boilerplate codes to create the necessary module structures for the C++ code. PyBind11 simplifies the process through macros in a C++ header file that accomplishes the same result, but with much less code. 
 
 For more information about the code in this section, see [PyBind11 basics](https://github.com/pybind/pybind11/blob/master/docs/basics.rst).
 
 1. Install PyBind11 by using pip: `pip install pybind11` or `py -m pip install pybind11`. 
 
-   Alternatively, you can install PyBind11 by using the Python Environments window, and then use it's **Open in PowerShell** command for the next step.
+   Alternatively, you can install PyBind11 by using the Python Environments window, and then use its **Open in PowerShell** command for the next step.
 
 1. In the same terminal, run `python -m pybind11 --includes` or `py -m pybind11 --includes`. 
 
@@ -444,7 +444,7 @@ After you've made the DLL available to Python, as described in the preceding sec
 
 In the output, you might see that the PyBind11 extension isn't as fast as the CPython extension, though it should be faster than the pure Python implementation. This difference is largely because you used the `METH_O` call, which doesn't support multiple parameters, parameter names, or keywords arguments. PyBind11 generates slightly more complex code to provide a more Python-like interface to callers. But, because the test code calls the function 500,000 times, the results might greatly amplify that overhead!
 
-You could reduce the overhead further by moving the `for` loop into the native code. This approach would involve using the [iterator protocol](https://docs.python.org/c-api/iter.html) (or the PyBind11 `py::iterable` type for [the function parameter](https://pybind11.readthedocs.io/en/stable/advanced/functions.html#python-objects-as-args)) to process each element. Removing the repeated transitions between Python and C++ is an effective way to reduce the time it takes to process the sequence.
+You could reduce the overhead further by moving the `for` loop into the native code. This approach involves using the [iterator protocol](https://docs.python.org/c-api/iter.html) (or the PyBind11 `py::iterable` type for [the function parameter](https://pybind11.readthedocs.io/en/stable/advanced/functions.html#python-objects-as-args)) to process each element. Removing the repeated transitions between Python and C++ is an effective way to reduce the time it takes to process the sequence.
 
 ### Troubleshoot importing errors
 
