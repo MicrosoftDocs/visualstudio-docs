@@ -33,7 +33,7 @@ translation.priority.ht:
 1. When configuration is complete, the **Remote Debugger** window appears.
   
     ::: moniker range=">= vs-2022"
-    ![Remote Debugger window](../media/vs-2022/remotedebuggerwindow.png "Remote Debugger window")
+    ![Remote Debugger window](../media/vs-2022/remote-debugger-window.png "Remote Debugger window")
     ::: moniker-end
     ::: moniker range="<= vs-2019"
     ![Remote Debugger window](../media/remotedebuggerwindow.png "Remote Debugger window")

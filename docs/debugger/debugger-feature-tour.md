@@ -45,7 +45,7 @@ To start your app with the debugger attached, press **F11** (**Debug > Step Into
 ::: moniker range=">= vs-2022"
 ![F11 Step Into](../debugger/media/vs-2022/dbg-tour-f11.png "F11 Step Into")
 ::: moniker-end
-::: moniker range="<=> vs-2019"
+::: moniker range="<= vs-2019"
 ![F11 Step Into](../debugger/media/dbg-tour-f11.png "F11 Step Into")
 ::: moniker-end
 
@@ -116,6 +116,17 @@ When you press **Restart**, it saves time versus stopping the app and restarting
 
 If you do want to stop the debugger and get back into the code editor, you can press the red stop ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") button instead of **Restart**.
 
+::: moniker range=">= vs-2022"
+## Live code editing
+
+Visual Studio 2022 supports live code editing while debugging. For detailed information, see:
+
+- [Write and debug running code](hot-reload.md)
+- [Write and debug running XAML code with XAML Hot Reload](../xaml-tools/xaml-hot-reload.md)
+- [Edit and Continue](../debugger/edit-and-continue.md)
+
+::: moniker-end
+::: moniker range="<= vs-2019"
 ## Edit your code and continue debugging (C#, VB, C++, XAML)
 
 In most languages supported by Visual Studio, you can edit your code in the middle of a debugging session and continue debugging. To use this feature, click into your code with your cursor while paused in the debugger, make edits, and press **F5**, **F10**, or **F11** to continue debugging. For more information on using this feature and on feature limitations, see [Edit and Continue](../debugger/edit-and-continue.md).
@@ -123,16 +134,22 @@ In most languages supported by Visual Studio, you can edit your code in the midd
 ![Edit and continue debugging](../debugger/media/dbg-tips-edit-and-continue.gif "EditAndContinue")
 
 To modify XAML code during a debugging session, see [Write and debug running XAML code with XAML Hot Reload](../xaml-tools/xaml-hot-reload.md).
+::: moniker-end
 
 ## Inspect variables with data tips
 
 Now that you know your way around a little, you have a good opportunity to start inspecting your app state (variables) with the debugger. Features that allow you to inspect variables are some of the most useful features of the debugger, and there are different ways to do it. Often, when you try to debug an issue, you are attempting to find out whether variables are storing the values that you expect them to have in a particular app state. For detailed information on using data tips, see [View data values in data tips](../debugger/view-data-values-in-data-tips-in-the-code-editor.md).
 
-While paused in the debugger, hover over an object with the mouse and you see its default property value (in this example, the file name `market 031.jpg` is the default property value).
+While paused in the debugger, hover over an object with the mouse and you see its value, or its default property value.
 
+::: moniker range=">= vs-2022"
+![View a Data Tip](../debugger/media/vs-2022/dbg-tour-data-tips.png "View a data tip")
+::: moniker-end
+::: moniker range="<= vs-2019"
 ![View a Data Tip](../debugger/media/dbg-tour-data-tips.gif "View a data tip")
+::: moniker-end
 
-Expand the object to see all its properties (such as the `FullPath` property in this example).
+If the variable has properties, you can expand the object to see all its properties.
 
 Often, when debugging, you want a quick way to check property values on objects, and the data tips are a good way to do it.
 
@@ -145,14 +162,24 @@ In the **Autos** window, you see variables along with their current value and th
 
 While debugging, look at the **Autos** window at the bottom of the code editor.
 
+::: moniker range=">= vs-2022"
+![Autos Window](../debugger/media/vs-2022/dbg-tour-autos-window.png "Autos window")
+::: moniker-end
+::: moniker range="<= vs-2019"
 ![Autos Window](../debugger/media/dbg-tour-autos-window.png "Autos window")
+::: moniker-end
 
 > [!NOTE]
 > In JavaScript, the **Locals** window is supported but not the **Autos** window.
 
 Next, look at the **Locals** window. The **Locals** window shows you the variables that are currently in scope.
 
+::: moniker range=">= vs-2022"
+![Locals Window](../debugger/media/vs-2022/dbg-tour-locals-window.png "Locals window")
+::: moniker-end
+::: moniker range="<= vs-2019"
 ![Locals Window](../debugger/media/dbg-tour-locals-window.png "Locals window")
+::: moniker-end
 
 In this example, the `this` object and the object `f` are in scope. For more info, see [Inspect Variables in the Autos and Locals Windows](../debugger/autos-and-locals-windows.md).
 
@@ -162,20 +189,30 @@ You can use a **Watch** window to specify a variable (or an expression) that you
 
 While debugging, right-click an object and choose **Add Watch**.
 
+::: moniker range=">= vs-2022"
+![Watch Window](../debugger/media/vs-2022/dbg-tour-watch-window.png "Watch window")
+::: moniker-end
+::: moniker range="<= vs-2019"
 ![Watch Window](../debugger/media/dbg-tour-watch-window.png "Watch window")
+::: moniker-end
 
-In this example, you have a watch set on the `f` object, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** windows always show the variables that you are watching (they're grayed out when out of scope).
+In this example, you have a watch set on the object, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** windows always show the variables that you are watching (they're grayed out when out of scope).
 
 ## Examine the call stack
 
-The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Update` method in this example). The second line shows that `Update` was called from the `Path.set` property, and so on. The call stack is a good way to examine and understand the execution flow of an app. For detailed information, see [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md).
+The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function. The second line shows the function or property it was called from, and so on. The call stack is a good way to examine and understand the execution flow of an app. For detailed information, see [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md).
 
 > [!NOTE]
 > The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
 
 Click the **Call Stack** window while you are debugging, which is by default open in the lower right pane.
 
+::: moniker range=">= vs-2022"
+![Examine the Call Stack](../debugger/media/vs-2022/dbg-tour-call-stack.png "Examine the call stack")
+::: moniker-end
+::: moniker range="<= vs-2019"
 ![Examine the Call Stack](../debugger/media/dbg-tour-call-stack.png "Examine the call stack")
+::: moniker-end
 
 You can double-click a line of code to go look at that source code and that also changes the current scope being inspected by the debugger. This does not advance the debugger.
 
@@ -207,7 +244,9 @@ Debugging properties are specific to each project type. For example, you can spe
 
 the **Snapshot Debugger** takes a snapshot of your in-production apps when code that you are interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
 
+::: moniker range="<= vs-2019"
 ![Launch the snapshot debugger](../debugger/media/snapshot-launch.png "Launch the snapshot debugger")
+::: moniker-end
 
 Snapshot collection is available for ASP.NET applications running in Azure App Service. ASP.NET applications must be running on .NET Framework 4.6.1 or later, and ASP.NET Core applications must be running on .NET Core 2.0 or later on Windows.
 
@@ -219,7 +258,9 @@ For more information, see [Debug live ASP.NET apps using the Snapshot Debugger](
 
 You can navigate and view snapshots by using the **Step Backward** and **Step Forward** buttons in the Debug toolbar. These buttons navigate the events that appear in the **Events** tab in the **Diagnostic Tools** window.
 
+::: moniker range="<= vs-2019"
 ![Step Backward and Forward Buttons](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
+::: moniker-end
 
 For more information, see the [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md) page.
 
