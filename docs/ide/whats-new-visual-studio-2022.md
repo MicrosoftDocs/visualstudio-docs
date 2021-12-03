@@ -77,7 +77,7 @@ We’re refreshing the user interface to better keep you in your flow. Some of t
 
 ### Look & feel
 
-From new iconography to subtle color contrast ratio adjustments and a new [Cascadia](https://github.com/microsoft/cascadia-code#welcome) [Code](how-to-change-fonts-and-colors-in-visual-studio?view=vs-2022.md#use-the-cascadia-code-font&preserve-view=true) font, we're working to make Visual Studio 2022 more accessible for everyone. For all the details, see the [**We’ve upgraded the UI in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/) blog post.
+From new iconography to subtle color contrast ratio adjustments and a new [Cascadia Code](https://github.com/microsoft/cascadia-code#welcome) font, we're working to make Visual Studio 2022 more accessible for everyone. For all the details, see the [**We’ve upgraded the UI in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/) blog post.
 
 :::image type="content" source="media/vs-2022/icon-refresh.png" alt-text="Screenshot of the contrast between previous and refreshed icons in Visual Studio.":::
 
