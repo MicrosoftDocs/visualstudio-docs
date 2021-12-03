@@ -15,7 +15,11 @@ ms.workload:
 
 # Quickstart: Clone a repository of Python code in Visual Studio
 
-Once you've [installed Python support in Visual Studio](installing-python-support-in-visual-studio.md), you can add the GitHub Extension for Visual Studio. The extension lets you easily clone a repository of Python code and create a project from it from within the IDE. You can always clone repositories on the command line as well, and then work with them in Visual Studio.
+Once you've installed Python [installed Python support in Visual Studio](installing-python-support-in-visual-studio.md), you can add the GitHub Extension for Visual Studio. 
+
+The extension lets you easily clone a repository of Python code and create a project from it from within the IDE.
+
+You can always clone repositories on the command line as well, and then work with them in Visual Studio.
 
 ## Install the GitHub Extension for Visual Studio
 
@@ -46,7 +50,7 @@ Once you've [installed Python support in Visual Studio](installing-python-suppor
 
 1. In **Solution Explorer**, expand the **python3** node, right-click **contemplate_koans.py**, and select **Set as Startup File**. This step tells Visual Studio which file it should use when running the project.
 
-1. Select **Project** > **Koans Properties** from the menu, select the **General** tab, and set **Working Directory** to "python3". This step is necessary because by default Visual Studio sets the working directory to the project root rather than the location of the startup file (*python3\contemplate_koans.py*, which you can see in the project properties as well). The program code looks for a file *koans.txt* in the working folder, so without changing this value you see a runtime error.
+1. Select **Project** > **Koans Properties** from the menu, select the **General** tab, and set **Working Directory** to "python3". This step is necessary because by default Visual Studio sets the working directory to the project root. Visual Studio doesn't set the location of the startup file in *python3\contemplate_koans.py*, which you can see in the project properties as well). The program code looks for a file *koans.txt* in the working folder, so without changing this value you see a runtime error.
 
     ![Setting the working directory for a Python project](media/projects-set-working-directory.png)
 
