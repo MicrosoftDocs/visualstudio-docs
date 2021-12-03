@@ -27,7 +27,12 @@ To debug, you need to start your app with the debugger attached to the app proce
 
 If you have a file open in the code editor, you can set a breakpoint by clicking in the margin to the left of a line of code.
 
+::: moniker range=">= vs-2022"
+![Set a Breakpoint](../debugger/media/vs-2022/dbg-tour-set-a-breakpoint.png "Set a breakpoint")
+::: moniker-end
+::: moniker range="<= vs-2019"
 ![Set a Breakpoint](../debugger/media/dbg-tour-set-a-breakpoint.gif "Set a breakpoint")
+::: moniker-end
 
 Press **F5** (**Debug > Start Debugging**) or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug Toolbar, and the debugger runs to the first breakpoint that it encounters. If the app is not yet running, F5 starts the debugger and stops at the first breakpoint.
 
@@ -37,7 +42,12 @@ We provide the keyboard shortcuts for most commands because they make navigation
 
 To start your app with the debugger attached, press **F11** (**Debug > Step Into**). F11 is the **Step Into** command and advances the app execution one statement at a time. When you start the app with F11, the debugger breaks on the first statement that gets executed.
 
+::: moniker range=">= vs-2022"
+![F11 Step Into](../debugger/media/vs-2022/dbg-tour-f11.png "F11 Step Into")
+::: moniker-end
+::: moniker range="<=> vs-2019"
 ![F11 Step Into](../debugger/media/dbg-tour-f11.png "F11 Step Into")
+::: moniker-end
 
 The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point (this statement has not yet executed).
 
@@ -52,25 +62,18 @@ When you are on a line of code that is a function or method call, you can press 
 
 F10 advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing F10, you can skip over code that you're not interested in. This way, you can quickly get to code that you are more interested in. For more details on using the step commands, see [Navigate code in the debugger](../debugger/navigating-through-code-with-the-debugger.md).
 
-## Step into a property
-
-As mentioned earlier, by default the debugger skips over managed properties and fields, but the **Step Into Specific** command allows you to override this behavior.
-
-Right-click on a property or field and choose **Step Into Specific**, then choose one of the available options.
-
-![Screenshot of the Visual Studio Debugger with a line of code highlighted. Step Into Specific is selected on the context menu, and the Path.set method is selected.](../debugger/media/dbg-tour-step-into-specific.png)
-
-In this example, **Step Into Specific** gets us to the code for `Path.set`.
-
-![Screenshot of the Visual Studio Debugger showing the code for Path.set. The braces surrounding the set function are highlighted in yellow.](../debugger/media/dbg-tour-step-into-specific-2.png)
-
 ## Run to a point in your code quickly using the mouse
 
 Using the **Run to Click** button is similar to setting a temporary breakpoint. This command is also handy for getting around quickly within a visible region of app code. You can use **Run to Click** in any open file. For more details on this feature and similar navigation features, see [Run to a specific location in your code](../debugger/navigating-through-code-with-the-debugger.md#run-to-a-specific-location-or-function).
 
 While in the debugger, hover over a line of code until the **Run to Click** (Run execution to here) button ![Screenshot of the Run to Click button from the Visual Studio Debugger. The button indicates that execution should run to the line where the button is placed.](../debugger/media/dbg-tour-run-to-click.png) appears on the left.
 
-![Screenshot of the Visual Studio Debugger showing the Run to Click button appearing just to the left of a call to the Update function.](../debugger/media/dbg-tour-run-to-click-2.png)
+::: moniker range=">= vs-2022"
+![Screenshot of the Visual Studio Debugger showing the Run to Click button appearing just to the left of a call to a function.](../debugger/media/vs-2022/dbg-tour-run-to-click-2.png)
+::: moniker-end
+::: moniker range="<= vs-2019"
+![Screenshot of the Visual Studio Debugger showing the Run to Click button appearing just to the left of a call to a function.](../debugger/media/dbg-tour-run-to-click-2.png)
+::: moniker-end
 
 > [!NOTE]
 > The **Run to Click** (Run execution to here) button is available starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
@@ -89,7 +92,12 @@ This command resumes app execution (and advances the debugger) until the current
 
 When you are editing code (rather than paused in the debugger), right-click a line of code in your app and choose **Run to Cursor** (or press **Ctrl** to **F10**). This command starts debugging and sets a temporary breakpoint on the current line of code. For more details on this feature and similar navigation features, see [Run to a specific location in your code](../debugger/navigating-through-code-with-the-debugger.md#run-to-a-specific-location-or-function).
 
+::: moniker range=">= vs-2022"
+![Run to Cursor](../debugger/media/vs-2022/dbg-tour-run-to-cursor.png "Run to Cursor")
+::: moniker-end
+::: moniker range="<= vs-2019"
 ![Run to Cursor](../debugger/media/dbg-tour-run-to-cursor.png "Run to Cursor")
+::: moniker-end
 
 If you have set breakpoints, the debugger pauses on the first breakpoint that it hits.
 
