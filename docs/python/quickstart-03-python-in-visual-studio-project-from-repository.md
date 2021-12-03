@@ -15,7 +15,7 @@ ms.workload:
 
 # Quickstart: Clone a repository of Python code in Visual Studio
 
-Once you've installed Python [installed Python support in Visual Studio](installing-python-support-in-visual-studio.md), you can add the GitHub Extension for Visual Studio. 
+Once you've installed Python [installed Python support in Visual Studio](installing-python-support-in-visual-studio.md), you can add the GitHub Extension for Visual Studio.
 
 The extension lets you easily clone a repository of Python code and create a project from it from within the IDE.
 
