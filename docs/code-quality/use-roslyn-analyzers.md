@@ -33,11 +33,14 @@ You can configure the severity of analyzer rules, or *diagnostics*, if you [inst
 
 ::: moniker-end
 
+> [!NOTE]
+> Errors cause builds to fail, however to cause [dotnet build](https://docs.microsoft.com/dotnet/core/tools/dotnet-build) to fail you'll need to set `enforcecodestyleinbuild` to `true` in the [runtime configuration properties](https://docs.microsoft.com/dotnet/core/project-sdk/msbuild-props#enforcecodestyleinbuild).
+
 The following table shows the different severity options:
 
 | Severity (Solution Explorer) | Severity (EditorConfig file) | Build-time behavior | Editor behavior |
 |-|-|-|
-| Error | `error` | Violations appear as *Errors* in the Error List and in command-line build output, but do not cause builds to fail.| Offending code is underlined with a red squiggle and marked by a small red box in the scroll bar. |
+| Error | `error` | Violations appear as *Errors* in the Error List and in command-line build output, and cause builds to fail.| Offending code is underlined with a red squiggle and marked by a small red box in the scroll bar. |
 | Warning | `warning` | Violations appear as *Warnings* in the Error List and in command-line build output, but do not cause builds to fail. | Offending code is underlined with a green squiggle and marked by a small green box in the scroll bar. |
 | Info | `suggestion` | Violations appear as *Messages* in the Error List, and not at all in command-line build output. | Offending code is underlined with a gray squiggle and marked by a small gray box in the scroll bar. |
 | Hidden | `silent` | Non-visible to user. | Non-visible to user. The diagnostic is reported to the IDE diagnostic engine, however. |
