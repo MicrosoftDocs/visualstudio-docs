@@ -33,7 +33,7 @@ ms.workload:
 
      You can add more than one feature by choosing multiple titles while choosing the **Ctrl** key.
 
-## Addi custom dependencies
+## Add custom dependencies
  You can add Features that are already deployed on a SharePoint server as a dependency. This way, the SharePoint activation process checks to make sure that all dependent Features are activated before your Feature is installed.
 
 #### To add a dependency by the feature ID
