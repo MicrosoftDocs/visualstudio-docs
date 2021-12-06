@@ -122,7 +122,7 @@ To personalize and customize your Git settings at a repository level as well as 
 
 ## What's next
 
-We continue to add new features to enhance the Git experience in Visual Studio. For more info about a recent feature update along with a link to survey where you can share your feedback on it, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
+We continue to add new features to enhance the Git experience in Visual Studio. For more info about a recent feature update along with a link to survey where you can share your feedback on it, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post. And, If you'd like to check out new updates to the Git experience in a Preview release, you can download and install it from the [Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/) page.
 
 > [!IMPORTANT]
 > If you have a suggestion for us, please let us know! We appreciate the opportunity to engage with you on design decisions via the [**Developer Community**](https://aka.ms/vs-suggest) portal.
@@ -323,7 +323,7 @@ The new Git experience is the default version control system in Visual Studio 20
 
 ## What's next
 
-While the new Git experience is now on by default starting with Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), we continue to add new features to enhance the experience. If you'd like to check out new updates to the Git experience in a Preview release, you can download and install it from the [Visual Studio 2022 Preview](https://aka.ms/vspreview/) page.
+While the new Git experience is now on by default starting with Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), we continue to add new features to enhance the experience. If you'd like to check out new updates to the Git experience in our next release, you can download it from the [What's new in Visual Studio 2022](../ide/whats-new-visual-studio-2022.md) page.
 
 > [!IMPORTANT]
 > If you have a suggestion for us, please let us know! We appreciate the opportunity to engage with you on design decisions via the [**Developer Community**](https://aka.ms/vs-suggest) portal.
