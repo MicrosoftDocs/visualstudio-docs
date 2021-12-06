@@ -2,7 +2,7 @@
 title: The Git experience in Visual Studio
 titleSuffix: ""
 description: Learn how the new integrated Git experience in Visual Studio can help you be more productive.
-ms.date: 11/10/2021
+ms.date: 12/03/2021
 ms.topic: overview
 author: Taysser-Gherfal
 ms.author: tglee
@@ -30,9 +30,9 @@ Git is now the default version control experience in Visual Studio 2019. Since [
 
 ## Learn more about Git
 
-Git is the most widely used modern version control system, so whether you're a professional developer or if you’re learning how to code, Git can be very useful to you. If you are new to Git, the [https://git-scm.com/](https://git-scm.com/) website is a good place to start. There, you'll find cheat sheets, a popular online book, and Git Basics videos.
+Git is the most widely used modern version control system, so whether you're a professional developer or if you’re learning how to code, Git can be very useful to you. If you're new to Git, the [https://git-scm.com/](https://git-scm.com/) website is a good place to start. To learn about using Git and GitHub in Visual Studio with open-source projects, sign up for the Git learning series on the [Visual Studio and GitHub better together](https://visualstudio.microsoft.com/vs/github/) page.
 
-## How to use Git in Visual Studio
+## Start with Git in Visual Studio
 
 ::: moniker range="<=vs-2019"
 
@@ -44,8 +44,8 @@ We'll walk you through how to use the new Git experience in Visual Studio, but i
 
 There are three ways to start using Git with Visual Studio to be more productive:
 
-- [Create a new Git repository](#create-a-new-git-repository). If your code is not associated with Git, you can create a new Git repository.
-- [Clone an existing Git repository](#clone-an-existing-git-repository). If the code that you would like to work on is not on your machine, you can clone any existing remote repositories.
+- [Create a new Git repository](#create-a-new-git-repository). If you already have code that's not associated with Git, you can start by creating a new Git repository.
+- [Clone an existing Git repository](#clone-an-existing-git-repository). If the code that you'd like to work on isn't on your machine, you can clone any existing remote repositories.
 - [Open an existing Git repository](#open-an-existing-local-repository). If your code is already on your machine, you can open it by using **File** > **Open** > **Project/Solution** (or **Folder**) and Visual Studio automatically detects if it has an initialized Git repository.
 
 ::: moniker range="<=vs-2019"
@@ -61,6 +61,9 @@ There are three ways to start using Git with Visual Studio to be more productive
 > Visual Studio includes a fully integrated GitHub account experience. Not only can you add both GitHub and GitHub Enterprise accounts to your keychain, but you can also leverage them just as you do with Microsoft accounts. For more information, see the [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md) page.
 
 ::: moniker-end
+
+> [!TIP]
+> If you don’t have a GitHub account, you can start by following the steps outlined in the [Create a GitHub account to use with Visual Studio](git-create-github-account.md) page.
 
 ## Create a new Git repository
 
