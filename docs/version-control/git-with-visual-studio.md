@@ -143,9 +143,9 @@ Git is now the default version control experience in Visual Studio 2019. Since [
 
 ## Learn more about Git
 
-Git is the most widely used modern version control system, so whether you're a professional developer or if you’re learning how to code, Git can be very useful to you. If you're new to Git, the [https://git-scm.com/](https://git-scm.com/) website is a good place to start. To learn about using Git and GitHub in Visual Studio with open-source projects, sign up for the Git learning series on the [Visual Studio and GitHub better together](https://visualstudio.microsoft.com/vs/github/) page.
+Git is the most widely used modern version control system, so whether you're a professional developer or if you’re learning how to code, Git can be very useful to you. If you're new to Git, the [https://git-scm.com/](https://git-scm.com/) website is a good place to start. There, you'll find cheat sheets, a popular online book, and Git Basics videos.
 
-## Start with Git in Visual Studio
+## Start with Git in Visual Studio 2019
 
 We'll walk you through how to use the new Git experience in Visual Studio, but if you'd like to take a quick tour first, check out the following video: <br><br>*Video length: 5.27 minutes*
 
@@ -153,9 +153,9 @@ We'll walk you through how to use the new Git experience in Visual Studio, but i
 
 There are three ways to start using Git with Visual Studio to be more productive:
 
-- [Create a new Git repository](#create-a-new-git-repository). If you already have code that's not associated with Git, you can start by creating a new Git repository.
-- [Clone an existing Git repository](#clone-an-existing-git-repository). If the code that you'd like to work on isn't on your machine, you can clone any existing remote repositories.
-- [Open an existing Git repository](#open-an-existing-local-repository). If your code is already on your machine, you can open it by using **File** > **Open** > **Project/Solution** (or **Folder**) and Visual Studio automatically detects if it has an initialized Git repository.
+- [Create a new Git repository](#create-a-new-git-repository-in-visual-studio-2019). If you already have code that's not associated with Git, you can start by creating a new Git repository.
+- [Clone an existing Git repository](#clone-an-existing-git-repository-in-visual-studio-2019). If the code that you'd like to work on isn't on your machine, you can clone any existing remote repositories.
+- [Open an existing Git repository](#open-an-existing-local-repository-in-visual-studio-2019). If your code is already on your machine, you can open it by using **File** > **Open** > **Project/Solution** (or **Folder**) and Visual Studio automatically detects if it has an initialized Git repository.
 
 > [!NOTE]
 > Starting with Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes-v16.8), we include a fully integrated GitHub account experience. You can now add both GitHub and GitHub Enterprise accounts to your keychain. You can add and leverage them just as you do with Microsoft accounts, which means that you'll have an easier time accessing your GitHub resources across Visual Studio. For more information, see the [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md) page.
@@ -163,7 +163,7 @@ There are three ways to start using Git with Visual Studio to be more productive
 > [!TIP]
 > If you don’t have a GitHub account, you can start by following the steps outlined in the [Create a GitHub account to use with Visual Studio](git-create-github-account.md) page.
 
-## Create a new Git repository
+## Create a new Git repository in Visual Studio 2019
 
 If your code is not associated with Git, you can start by creating a new Git repository. To do so, select **Git** > **Create Git Repository** from the menu bar. Then, in the **Create a Git repository** dialog box, enter your information.
 
@@ -176,7 +176,7 @@ The **Create a Git repository** dialog box makes it easy to push your new reposi
 
 You can choose to create a local-only Git repository by using the **Local only** option. Or, you can link your local project with an existing empty remote repository on Azure DevOps or any other Git provider by using the **Existing Remote** option.
 
-## Clone an existing Git repository
+## Clone an existing Git repository in Visual Studio 2019
 
 Visual Studio includes a straightforward clone experience. If you know the URL of the repository that you would like to clone, you can paste the URL in the **Repository location** section and then choose the disk location you would like Visual Studio to clone to.
 
@@ -184,7 +184,7 @@ Visual Studio includes a straightforward clone experience. If you know the URL o
 
 If you don’t know the repository URL, Visual Studio makes it easy to browse to and then clone your existing GitHub or Azure DevOps repository.
 
-## Open an existing local repository
+## Open an existing local repository in Visual Studio 2019
 
 After you’ve cloned a repository or created one, Visual Studio detects the Git repository and adds it to your list of **Local Repositories** in the Git menu.
 
@@ -192,7 +192,7 @@ From here, you can quickly access and switch between your Git repositories.
 
 :::image type="content" source="media/git-local-repositories.png" alt-text="The Local Repositories option from the Git menu in Visual Studio ":::
 
-## View files in Solution Explorer
+## View files in Solution Explorer in Visual Studio 2019
 
 When you clone a repository or open a local repository, Visual Studio switches you into that Git context by saving and closing any previously open solutions and projects. Solution Explorer loads the folder at the root of the Git repository and scans the directory tree for any viewable files. These include files such as CMakeLists.txt or those with the .sln file extension.
 
@@ -206,7 +206,7 @@ You can toggle between the currently open View and the list of Views by using th
 
 :::image type="content" source="media/git-solution-explorer-views.png" alt-text="Solution Explorer with the Switch Views button selected in Visual Studio.":::
 
-## Git Changes window
+## Git Changes window in Visual Studio 2019
 
 Git tracks file changes in your repo as you work, and separates the files in your repo into three categories. These changes are equivalent to what you would see when you enter the `git status` command in the command line:
 
@@ -231,7 +231,7 @@ Visual Studio also makes it easy to commit and sync with one click by using the 
 > [!TIP]
 > You can associate an Azure DevOps work item with a commit by using the "#" character if you are connected to the Azure DevOps repository. You can connect your Azure DevOps repository through **Team Explorer** > **Manage Connections**.
 
-### Select an existing branch
+### Select an existing branch in Visual Studio 2019
 
 Visual Studio displays the current branch in the selector at the top of the **Git Changes** window.
 
@@ -243,7 +243,7 @@ The current branch is also available in the status bar on the bottom-right corne
 
 From both locations, you can switch between existing branches.
 
-### Create a new branch
+### Create a new branch in Visual Studio 2019
 
 You can also create a new branch. The equivalent command for this action is `git checkout -b <branchname>`.
 
@@ -253,15 +253,15 @@ Creating a new branch is as simple as entering the branch name and basing it off
 
 You can choose an existing local or remote branch as the base. The **Checkout branch** checkbox automatically switches you to the newly created branch. The equivalent command for this action is `git checkout -b <new-branch><existing-branch>`.
 
-## Git Repository window
+## Git Repository window in Visual Studio 2019
 
 Visual Studio has a new **Git Repository** window, which is a consolidated view of all the details in your repository, including all of the branches, remotes, and commit histories. You can access this window directly from either **Git** or **View** on the menu bar or from the status bar.
 
-### Manage branches
+### Manage branches in Visual Studio 2019
 
 When you select **Manage Branches** from the **Git** menu, you’ll see the branches tree-view in the **Git Repository** window. From the left pane, you can use the right-click context menu to checkout branches, create new branches, merge, rebase, cherry-pick, and more. When you click the branch, you can see a preview of its commit history in the right pane.
 
-### Incoming and outgoing commits
+### Incoming and outgoing commits in Visual Studio 2019
 
 When you fetch a branch, the **Git Changes** window has an indicator under the branch drop-down, which displays the number of unpulled commits from the remote branch. This indicator also shows you the number of unpushed local commits.
 
@@ -271,13 +271,13 @@ The indicator also functions as a link to take you to the commit history of that
 
 :::image type="content" source="media/git-branch-commit-history.png" alt-text="The Git Repository window that shows the commit history of a branch in Visual Studio ":::
 
-#### Commit Details
+#### Commit Details in Visual Studio 2019
 
 When you double-click a **Commit**, Visual Studio opens its details in a separate tool window. From here you can revert the commit, reset the commit, amend the commit message, or create a tag on the commit. When you click a changed file in the commit, Visual Studio opens the side-by-side **Diff** view of the commit and its parent.
 
 :::image type="content" source="media/git-branch-commit-details.png" alt-text="The Commit Details dialog box in Visual Studio ":::
 
-## Handle merge conflicts
+## Handle merge conflicts in Visual Studio 2019
 
 Conflicts can occur during a merge if two developers modify the same lines in a file and Git doesn’t automatically know which is correct. Git halts the merge and informs you that you are in a conflicted state.
 
@@ -301,7 +301,7 @@ Instead, Visual Studio displays a gold info bar on the top of the page that indi
 
 :::image type="content" source="media/git-merge-conflict-gold-info-bar.png" alt-text="Screenshot of 'File contains merge conflicts' message in Visual Studio ":::
 
-### The Merge Editor
+### The Merge Editor in Visual Studio 2019
 
 The Merge Editor in Visual Studio is a three-way merge tool that displays the incoming changes, your current changes, and the result of the merge. You can use the tool bar at the top level of the **Merge Editor** to navigate between conflicts and auto-merged differences in the file.
 
@@ -309,13 +309,13 @@ The Merge Editor in Visual Studio is a three-way merge tool that displays the in
 
 You can also use the toggles to show/hide differences, show/hide word differences, and customize the layout. There are checkboxes on the top of each side that you can use to take all the changes from one side or the other. But to take individual changes, you can click the checkboxes to the left of the conflicting lines on either side. Finally, when you finish resolving the conflicts, you can select the **Accept Merge** button in the Merge Editor. You then write a commit message and commit the changes to complete the resolution.
 
-## Personalize your Git settings
+## Personalize your Git settings in Visual Studio 2019
 
 To personalize and customize your Git settings at a repository level as well as at a global level, go to either **Git** > **Settings** on the menu bar, or to **Tools** > **Options** > **Source Control** on the menu bar. Then, choose the [options](git-settings.md) you want.
 
 :::image type="content" source="media/git-options-settings.png" alt-text="The Options dialog box where you can choose personalization and customization settings in Visual Studio IDE.":::
 
-## How to use the full Team Explorer experience in Visual Studio
+## How to use the full Team Explorer experience in Visual Studio 2019
 
 The new Git experience is the default version control system in Visual Studio 2019 from [version 16.8](/visualstudio/releases/2019/release-notes/) onwards. However, if you want to turn it off, you can. Go to **Tools** > **Options** > **Environment** > **Preview Features** and then toggle the **New Git user experience** checkbox, which will switch you back to Team Explorer for Git.
 
@@ -323,18 +323,12 @@ The new Git experience is the default version control system in Visual Studio 20
 
 ## What's next
 
-While the new Git experience is now on by default starting with Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), we continue to add new features to enhance the experience. If you'd like to check out new updates to the Git experience in our next release, you can download it from the [What's new in Visual Studio 2022](../ide/whats-new-visual-studio-2022.md) page.
-
-> [!IMPORTANT]
-> If you have a suggestion for us, please let us know! We appreciate the opportunity to engage with you on design decisions via the [**Developer Community**](https://aka.ms/vs-suggest) portal.
+If you're using Visual Studio 2019 but you'd like to check out new updates to the Git experience in our next release, you can download & install it from the [What's new in Visual Studio 2022](../ide/whats-new-visual-studio-2022.md) page.
 
 ## See also
 
 - [Get Started with Git and GitHub in Visual Studio 2019](/learn/modules/visual-studio-github-push/) tutorial on Microsoft Learn
-- [Getting started with Git in Visual Studio](https://www.youtube.com/watch?v=GCZ9x3yqkyc) video on YouTube
-- [Announcing the Release of the Git Experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/announcing-the-release-of-the-git-experience-in-visual-studio/) blog post
 - [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md)
 - [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes)
-- [Visual Studio 2022 release notes](/visualstudio/releases/2022/release-notes)
 
 ::: moniker-end
