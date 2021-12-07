@@ -46,24 +46,45 @@ During this walkthrough, you perform the following steps:
 
 - Write code to populate the data tables.
 
-![link to video](../data-tools/media/playvideo.gif) For a video version of this topic, see [Video How to: Creating an n-tier data application](/previous-versions/visualstudio/visual-studio-2008/cc178916(v=vs.90)).
-
 ## Prerequisites
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
-1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **.NET desktop development** workload, or as an individual component.
+1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-downloads), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **.NET desktop development** workload, or as an individual component.
 
 2. Install the Northwind sample database by following these steps:
+
+    :::moniker range="<=vs-2019"
 
     1. In Visual Studio, open the **SQL Server Object Explorer** window. (**SQL Server Object Explorer** is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
 
        A query editor window opens.
 
-    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/master/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
+    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
        After a short time, the query finishes running and the Northwind database is created.
+    ::: moniker-end
+    ::: moniker range=">=vs-2022"
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (**SQL Server Object Explorer** is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
+
+       If you don't see the LocalDB instance, use the toolbar button **Add SQL Server**. The dialog appears. In the dialog, expand **Local** and choose **MSSQLLocalDB**. Enter the appropriate credentials. You can leave the default choice for database.
+
+       ![Screenshot of Connect to SQL Database dialog](media/vs-2022/connect-to-sql-database.png)
+
+    1. Choose **Connect**. A node is added for LocalDB in **SQL Server Object Explorer**.
+
+    1. Right-click on your LocalDB instance and select **New Query**.
+
+       A query editor window opens.
+
+    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
+
+    3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
+
+       After a short time, the query finishes running and the Northwind database is created.
+
+    ::: moniker-end
 
 ## Create the n-tier solution and class library to hold the dataset (DataEntityTier)
 
@@ -244,6 +265,9 @@ Now that the data access tier contains the methods to return data, create method
     [OperationContract]
     DataEntityTier.NorthwindDataSet.OrdersDataTable GetOrders();
     ```
+
+   > [!NOTE]
+   > The code for this tutorial is available in C# and Visual Basic. To switch the code language on this page between C# and Visual Basic, use the code language switcher at the top of the page on the right side.
 
 3. In the DataService project, double-click **Service1.vb** (or **Service1.cs**).
 
