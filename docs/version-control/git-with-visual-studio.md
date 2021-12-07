@@ -55,9 +55,7 @@ If you are working in a team or if you are using different machines, you will al
 
 For your day-to-day Git workflow, Visual Studio provides a seamless way to interact with Git while coding without having you switch away from your code. For example, you can create and switch between branches and you can commit, stash, and push your changes while you are working on your code. However, there are times when it makes more sense to focus on your Git repository. For example, you might need to get a good picture of what your team has been working on, or copy a commit from a different branch, or just clean-up your outgoing commits.
 
-To help you focus on your Git repository, Visual Studio has a Git Repository window, which is a consolidated view of all the details in your repository, including local and remote branches and commit history. You can access this window directly from either **Git** or **View** on the menu bar or from the status bar.
-
-Visual Studio has a new **Git Repository** window, which is a consolidated view of all the details in your repository, including the local and remote branches and commit history. You can access this window directly from either **Git** or **View** on the menu bar or from the status bar.
+To help you focus on your Git repository, Visual Studio has a **Git Repository** window, which is a consolidated view of all the details in your repository, including local and remote branches and commit history. You can access this window directly from either **Git** or **View** on the menu bar or from the status bar.
 
 To learn more about how you can use the Git Repository window to browse and manage your Git repository, refer to the following pages:
 
