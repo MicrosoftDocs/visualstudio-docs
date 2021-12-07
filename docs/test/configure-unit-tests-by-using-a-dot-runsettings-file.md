@@ -99,7 +99,7 @@ If auto detection of run settings files is enabled, the settings in this file ar
    ![Auto detect runsettings file menu in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-menu.png)
    ::: moniker-end
    ::: moniker range=">=vs-2022"
-   ![Auto detect runsettings file menu in Visual Studio 2019](media/vs-2019/vs-2022/auto-detect-runsettings-menu.png)
+   ![Auto detect runsettings file menu in Visual Studio 2019](media/vs-2022/auto-detect-runsettings-menu.png)
    ::: moniker-end
 
 #### Manually select the run settings file
