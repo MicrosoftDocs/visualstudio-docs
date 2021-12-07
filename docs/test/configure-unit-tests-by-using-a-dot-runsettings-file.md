@@ -86,36 +86,20 @@ If auto detection of run settings files is enabled, the settings in this file ar
 
 - Select **Tools** > **Options** > **Test** > **Auto Detect runsettings Files**
 
-   ::: moniker range="vs-2019"
-   ![Auto detect runsettings file option in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-tools-window.png)
-   ::: moniker-end
-   ::: moniker range=">=vs-2022"
-   ![Auto detect runsettings file option in Visual Studio 2019](media/vs-2022/auto-detect-runsettings-tools-window.png)
-   ::: moniker-end
+   ![Auto detect runsettings file option in Visual Studio](media/vs-2019/auto-detect-runsettings-tools-window.png)
 
 - Select **Test** > **Configure Run Settings** > **Auto Detect runsettings Files**
 
-   ::: moniker range="vs-2019"
-   ![Auto detect runsettings file menu in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-menu.png)
-   ::: moniker-end
-   ::: moniker range=">=vs-2022"
-   ![Auto detect runsettings file menu in Visual Studio 2019](media/vs-2022/auto-detect-runsettings-menu.png)
-   ::: moniker-end
+   ![Auto detect runsettings file menu in Visual Studio](media/vs-2019/auto-detect-runsettings-menu.png)
 
 #### Manually select the run settings file
 
 In the IDE, select **Test** > **Configure Run Settings** > **Select Solution Wide runsettings File**, and then select the *.runsettings* file.
 
-   - This file overrides the *.runsettings* file at the root of the solution, if one is present, and is applied across all tests run.
-   - This file selection only persists locally.
+- This file overrides the *.runsettings* file at the root of the solution, if one is present, and is applied across all tests run.
+- This file selection only persists locally.
 
-::: moniker range="vs-2019"
-![Select test solution-wide runsettings file menu in Visual Studio 2019](media/vs-2019/select-solution-settings-file.png)
-::: moniker-end
-::: moniker range=">=vs-2022"
-![Select test solution-wide runsettings file menu in Visual Studio 2019](media/vs-2022/select-solution-settings-file.png)
-::: moniker-end
-
+![Select test solution-wide runsettings file menu in Visual Studio](media/vs-2019/select-solution-settings-file.png)
 
 #### Set a build property
 
