@@ -15,11 +15,11 @@ translation.priority.ht:
   - "zh-tw"
 ---
 1. On the remote computer, find and start the **Remote Debugger** from the **Start** menu. 
-   
+
    If you don't have administrative permissions on the remote computer, right-click the **Remote Debugger** app and select **Run as administrator**. Otherwise, just start it normally.
 
    If you are planning to attach to a process which is running as an administrator, or is running under a different user account (such as IIS), right-click the **Remote Debugger** app and select **Run as administrator**. For more information, see [Run the remote debugger as an administrator](../remote-debugging-errors-and-troubleshooting.md#run-the-remote-debugger-as-an-administrator).
-   
+
 1. The first time you start the remote debugger (or before you have configured it), the **Remote Debugging Configuration** dialog box appears.  
   
     ![Remote Debugger configuration](../media/remotedebuggerconfwizardpage.png "Remote Debugger configuration")  
@@ -32,7 +32,12 @@ translation.priority.ht:
   
 1. When configuration is complete, the **Remote Debugger** window appears.
   
+    ::: moniker range=">= vs-2022"
+    ![Remote Debugger window](../media/vs-2022/remote-debugger-window.png "Remote Debugger window")
+    ::: moniker-end
+    ::: moniker range="<= vs-2019"
     ![Remote Debugger window](../media/remotedebuggerwindow.png "Remote Debugger window")
+    ::: moniker-end
   
     The remote debugger is now waiting for a connection. Use the server name and port number shown to set the remote connection configuration in Visual Studio.  
   

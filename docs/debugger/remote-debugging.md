@@ -1,8 +1,8 @@
 ---
-title: "Remote debugging | Microsoft Docs"
+title: "Remote debugging"
 description: Debug a Visual Studio application that has been deployed on a different computer by using the Visual Studio remote debugger.
 ms.custom: ['remotedebugging', 'SEO-VS-2020']
-ms.date: 09/10/2021
+ms.date: 12/03/2021
 ms.topic: conceptual
 f1_keywords:
   - "vs.debug.remote.overview"
@@ -24,6 +24,7 @@ ms.workload:
 ---
 
 # Remote Debugging
+
 You can debug a Visual Studio application that has been deployed on a different computer. To do so, you use the Visual Studio remote debugger.
 
 For in-depth instructions on remote debugging, see these topics.
@@ -88,6 +89,7 @@ You can find the remote debugger (*msvsmon.exe*) on a computer with Visual Studi
 [!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
 
 ### <a name="configure_msvsmon"></a> Configure the remote debugger
+
 You can change some aspects of the configuration of the remote debugger after you have started it for the first time.
 
 - If you need to add permissions for other users to connect to the remote debugger, choose **Tools > Permissions**. You must have administrator privileges to grant or deny permissions.
@@ -105,6 +107,7 @@ You can change some aspects of the configuration of the remote debugger after yo
      > You can choose to run the remote tools in No Authentication mode, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose the No Authentication mode only if you are sure that the network is not at risk from malicious or hostile traffic.
 
 ## <a name="bkmk_configureService"></a> (Optional) Configure the remote debugger as a service
+
 For debugging in ASP.NET and other server environments, you must either run the remote debugger as an Administrator or, if you want it always running,  run the remote debugger as a service.
 
  If you want to configure the remote debugger as a service, follow these steps.
@@ -113,7 +116,7 @@ For debugging in ASP.NET and other server environments, you must either run the 
 
 2. Start running the configuration wizard. When the first page comes up, click **Next**.
 
-3. Check the **Run the Visual Studio 2015 Remote Debugger as a service** checkbox.
+3. Check the **Run the Visual Studio Remote Debugger as a service** checkbox.
 
 4. Add the name of the user account and password.
 
@@ -125,7 +128,7 @@ For debugging in ASP.NET and other server environments, you must either run the 
 
 7. Click **Finish**.
 
-   At this point the remote debugger is running as a service. You can verify this by going to **Control Panel > Services** and looking for **Visual Studio 2015 Remote Debugger**.
+   At this point the remote debugger is running as a service. You can verify this by going to **Control Panel > Services** and looking for **Visual Studio Remote Debugger**.
 
    You can stop and start the remote debugger service from **Control Panel > Services**.
 
