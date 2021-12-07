@@ -25,9 +25,9 @@ Git is the most widely used modern version control system, so whether you're a p
 
 There are three ways to start using Git with Visual Studio to be more productive:
 
-- [Create a new Git repository](#create-a-new-git-repository). If you already have code that's not associated with Git, you can start by creating a new Git repository.
-- [Clone an existing Git repository](#clone-an-existing-git-repository). If the code that you'd like to work on isn't on your machine, you can clone any existing remote repositories.
-- [Open an existing Git repository](#open-an-existing-local-repository). If your code is already on your machine, you can open it by using **File** > **Open** > **Project/Solution** (or **Folder**) and Visual Studio automatically detects if it has an initialized Git repository.
+- [Create a new Git repository](git-create-repository.md). If you already have code that's not associated with Git, you can start by creating a new Git repository.
+- [Clone an existing Git repository](git-clone-repository.md). If the code that you'd like to work on isn't on your machine, you can clone any existing remote repositories.
+- [Open an existing repository](git-clone-repository.md#open-an-existing-local-repository). If your code is already on your machine, you can open it by using **File** > **Open** > **Project/Solution** (or **Folder**) and Visual Studio automatically detects if it has an initialized Git repository.
 
 > [!NOTE]
 > Visual Studio includes a fully integrated GitHub account experience. Not only can you add both GitHub and GitHub Enterprise accounts to your keychain, but you can also leverage them just as you do with Microsoft accounts. For more information, see the [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md) page.
@@ -35,82 +35,38 @@ There are three ways to start using Git with Visual Studio to be more productive
 > [!TIP]
 > If you don’t have a GitHub account, you can start by following the steps outlined in the [Create a GitHub account to use with Visual Studio](git-create-github-account.md) page.
 
-## Create a new Git repository
-
-If your code is not associated with Git, you can start by creating a new Git repository. See the [Create a repo in Visual Studio](git-create-repository.md) page for all the details.
-
-## Clone an existing Git repository
-
-Visual Studio includes a straightforward clone experience. For a step-by-step guide, see the [Clone a repo in Visual Studio](git-clone-repository.md) page.
-
-## Open an existing local repository
-
-After you’ve cloned a repository or created one, Visual Studio detects the Git repository and adds it to your list of **Local Repositories** in the Git menu.
-
 ## View files in Solution Explorer
 
-When you clone a repository or open a local repository, Visual Studio switches you into that Git context by saving and closing any previously open solutions and projects. Solution Explorer loads the folder at the root of the Git repository and scans the directory tree for any viewable files. These include files such as CMakeLists.txt or those with the .sln file extension.
+When you clone a repository or open a local repository, Visual Studio switches to the new Git context after asking if you'd like to save and close any previously opened solutions and projects. Solution Explorer loads the folder at the root of the Git repository and scans the directory tree for any viewable files. These include files such as CMakeLists.txt or those with the .sln file extension.
 
-For more information, see the [View files in Solution Explorer](../get-started/tutorial-open-project-from-repo.md#view-files-in-solution-explorer) section of the [Open a project from a repo](../get-started/tutorial-open-project-from-repo.md?view=vs-2022&preserve-view=true) tutorial.
+For more information, see the [View files in Solution Explorer](../get-started/tutorial-open-project-from-repo.md#view-files-in-solution-explorer) section of the [Open a project from a repo](../get-started/tutorial-open-project-from-repo.md) tutorial.
 
-## Git Changes window
+## Day-to-day workflow
 
-Git tracks file changes in your repo as you work, and separates the files in your repo into three categories. These changes are equivalent to what you would see when you enter the `git status` command in the command line:
+Git empowers users to multi-task and experiment with their code through branches. If you or your team works on multiple features at the same time or if you'd like to explore ideas without affecting your working code, branching can be very helpful. The recommended Git workflow uses a new branch for every feature or fix that you work on. To learn more about how to create new branches in Visual Studio, refer to the [Create a branch](git-create-branch.md) page.
 
-- **Unmodified files**: These files haven't changed since your last commit.
-- **Modified files**: These files have changes since your last commit, but you haven't yet staged them for the next commit.
-- **Staged files**: These files have changes that will be added to the next commit.
+Once we create a new branch and switch to it, we can start working by changing existing files or by adding new ones and then committing our work to the repository. To learn more about making a commit in Visual Studio and to better understand files states in Git, refer to the [Make a commit](git-make-commit.md) page.
 
-As you do your work, Visual Studio keeps track of the file changes to your project in the **Changes** section of the **Git Changes** window.
+Git is a distributed version control system, meaning that all the changes we have been making so far are local only changes. To contribute these changes to a remote repository, we will need to push our local commit(s). To learn more about pushing to a remote in Visual Studio, refer to the [Push to a remote](git-push-remote.md) page.
 
-When you are ready to stage changes, click the **+** (plus) button on each file you want to stage, or right-click a file and then select **Stage**. You can also stage all your modified files with one click by using the stage all **+** (plus) button at the top of the **Changes** section.
+If you are working in a team or if you are using different machines, you will also need to continually fetch and pull new changes on the remote repository. To learn more bout managing Git network operations in Visual Studio, refer to the [Fetch, pull, push, and sync](git-fetch-pull-sync.md) page.
 
-When you stage a change, Visual Studio creates a **Staged Changes** section. Only changes in the **Staged Changes** section are added to the next commit, which you can do by selecting **Commit Staged**. The equivalent command for this action is `git commit -m "Your commit message"`. Changes can also be unstaged by clicking the **–** (minus) button. The equivalent command for this action is `git reset <file_path>` to unstage a single file or `git reset <directory_path>` to unstage all the files in a directory.
+## Browse and manage Git repositories
 
-You can also choose not to stage your modified files by skipping the staging area. In this case, Visual Studio allows you to commit your changes directly without having to stage them. Just enter your commit message and then select **Commit All**. The equivalent command for this action is `git commit -a`.
+For your day-to-day Git workflow, Visual Studio provides a seamless way to interact with Git while coding without having you switch away from your code. For example, you can create and switch between branches and you can commit, stash, and push your changes while you are working on your code. However, there are times when it makes more sense to focus on your Git repository. For example, you might need to get a good picture of what your team has been working on, or copy a commit from a different branch, or just clean-up your outgoing commits.
 
-Visual Studio also makes it easy to commit and sync with one click by using the **Commit All and Push** and **Commit All and Sync** shortcuts. When you double-click any file in the **Changes** and the **Staged changes** sections, you can see a line-by-line comparison with the unmodified version of the file.
+To help you focus on your Git repository, Visual Studio has a Git Repository window, which is a consolidated view of all the details in your repository, including local and remote branches and commit history. You can access this window directly from either **Git** or **View** on the menu bar or from the status bar.
 
-> [!TIP]
-> You can associate an Azure DevOps work item with a commit by using the "#" character if you are connected to the Azure DevOps repository.
+Visual Studio has a new **Git Repository** window, which is a consolidated view of all the details in your repository, including the local and remote branches and commit history. You can access this window directly from either **Git** or **View** on the menu bar or from the status bar.
 
-### Select an existing branch
+To learn more about how you can use the Git Repository window to browse and manage your Git repository, refer to the following pages:
 
-Visual Studio displays the current branch in the selector at the top of the **Git Changes** window.
-
-The current branch is also available in the status bar on the bottom-right corner of the Visual Studio IDE.
-
-From both locations, you can switch between existing branches.
-
-### Create a new branch
-
-You can also create a new branch. The equivalent command for this action is `git checkout -b <branchname>`.
-
-Creating a new branch is as simple as entering the branch name and basing it off an existing branch.
-
-You can choose an existing local or remote branch as the base. The **Checkout branch** checkbox automatically switches you to the newly created branch. The equivalent command for this action is `git checkout -b <new-branch><existing-branch>`.
-
-## Git Repository window
-
-Visual Studio has a new **Git Repository** window, which is a consolidated view of all the details in your repository, including all of the branches, remotes, and commit histories. You can access this window directly from either **Git** or **View** on the menu bar or from the status bar.
-
-### Manage branches
-
-When you select **Manage Branches** from the **Git** menu, you’ll see the branches tree-view in the **Git Repository** window. From the left pane, you can use the right-click context menu to checkout branches, create new branches, merge, rebase, cherry-pick, and more. When you click the branch, you can see a preview of its commit history in the right pane.
-
-### Incoming and outgoing commits
-
-When you fetch a branch, the **Git Changes** window has an indicator under the branch drop-down, which displays the number of unpulled commits from the remote branch. This indicator also shows you the number of unpushed local commits.
-
-The indicator also functions as a link to take you to the commit history of that branch in the **Git Repository** window. The top of the history now displays the details of these incoming and outgoing commits. From here, you can also decide to Pull or Push the commits.
-
-#### Commit Details
-
-When you double-click a **Commit**, Visual Studio opens its details in a separate tool window. From here you can revert the commit, reset the commit, amend the commit message, or create a tag on the commit. When you click a changed file in the commit, Visual Studio opens the side-by-side **Diff** view of the commit and its parent.
+- [Browse a repo in Visual Studio](git-browse-repository.md)
+- [Manage a repo in Visual Studio](git-manage-repository.md)
 
 ## Handle merge conflicts
 
-Conflicts can occur during a merge if two developers modify the same lines in a file and Git doesn’t automatically know which is correct. Git halts the merge and informs you that you are in a conflicted state.
+Conflicts can occur during a merge if two developers modify the same lines in a file and Git doesn’t automatically know which one is correct. Git halts the merge and informs you that you are in a conflicted state.
 
 To learn more about merge conflicts and how to handle them, see the [Resolve merge conflicts](git-resolve-conflicts.md) page.
 
@@ -136,7 +92,7 @@ We continue to add new features to enhance the Git experience in Visual Studio. 
 
 ::: moniker range="<=vs-2019"
 
-Git is now the default version control experience in Visual Studio 2019. Since [version 16.6](/visualstudio/releases/2019/release-notes-v16.6), we've worked on building out the feature set and iterating on it based on your feedback. In [version 16.8](/visualstudio/releases/2019/release-notes-v16.8), it became the default version control experience for everyone.
+Git is now the default version control experience in **Visual Studio 2019**. Since [version 16.6](/visualstudio/releases/2019/release-notes-v16.6), we've worked on building out the feature set and iterating on it based on your feedback. In [version 16.8](/visualstudio/releases/2019/release-notes-v16.8), it became the default version control experience for everyone.
 
 > [!NOTE]
 > We continue to build out and iterate on the Git feature set in [Visual Studio 2022](/visualstudio/releases/2022/release-notes-preview), too. To learn more about a recent feature update, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
@@ -205,6 +161,8 @@ Visual Studio adjusts its View based on which file you load in Solution Explorer
 You can toggle between the currently open View and the list of Views by using the **Switch Views** button in the Solution Explorer toolbar.
 
 :::image type="content" source="media/git-solution-explorer-views.png" alt-text="Solution Explorer with the Switch Views button selected in Visual Studio.":::
+
+For more information, see the [View files in Solution Explorer](../get-started/tutorial-open-project-from-repo.md#view-files-in-solution-explorer) section of the [Open a project from a repo](../get-started/tutorial-open-project-from-repo.md?view=vs-2019&preserve-view=true) tutorial.
 
 ## Git Changes window in Visual Studio 2019
 
