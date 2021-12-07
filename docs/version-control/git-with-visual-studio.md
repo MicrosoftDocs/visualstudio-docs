@@ -45,11 +45,11 @@ For more information, see the [View files in Solution Explorer](../get-started/t
 
 Git empowers users to multi-task and experiment with their code through branches. If you or your team works on multiple features at the same time or if you'd like to explore ideas without affecting your working code, branching can be very helpful. The recommended Git workflow uses a new branch for every feature or fix that you work on. To learn more about how to create new branches in Visual Studio, refer to the [Create a branch](git-create-branch.md) page.
 
-Once we create a new branch and switch to it, we can start working by changing existing files or by adding new ones and then committing our work to the repository. To learn more about making a commit in Visual Studio and to better understand files states in Git, refer to the [Make a commit](git-make-commit.md) page.
+Once we create a new branch and switch to it, we can start working by changing existing files or by adding new ones and then committing our work to the repository. To learn more about making a commit in Visual Studio and to better understand file states in Git, refer to the [Make a commit](git-make-commit.md) page.
 
 Git is a distributed version control system, meaning that all the changes we have been making so far are local only changes. To contribute these changes to a remote repository, we will need to push our local commit(s). To learn more about pushing to a remote in Visual Studio, refer to the [Push to a remote](git-push-remote.md) page.
 
-If you are working in a team or if you are using different machines, you will also need to continually fetch and pull new changes on the remote repository. To learn more bout managing Git network operations in Visual Studio, refer to the [Fetch, pull, push, and sync](git-fetch-pull-sync.md) page.
+If you are working in a team or if you are using different machines, you will also need to continually fetch and pull new changes on the remote repository. To learn more about managing Git network operations in Visual Studio, refer to the [Fetch, pull, push, and sync](git-fetch-pull-sync.md) page.
 
 ## Browse and manage Git repositories
 
@@ -76,7 +76,7 @@ To personalize and customize your Git settings at a repository level as well as 
 
 ## What's next
 
-We continue to add new features to enhance the Git experience in Visual Studio. For more info about a recent feature update along with a link to survey where you can share your feedback on it, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post. And, If you'd like to check out new updates to the Git experience in a Preview release, you can download and install it from the [Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/) page.
+We continue to add new features to enhance the Git experience in Visual Studio. For more info about a recent feature update along with a link to a survey where you can share your feedback on it, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post. And, if you'd like to check out new updates to the Git experience in a Preview release, you can download and install it from the [Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/) page.
 
 > [!IMPORTANT]
 > If you have a suggestion for us, please let us know! We appreciate the opportunity to engage with you on design decisions via the [**Developer Community**](https://aka.ms/vs-suggest) portal.

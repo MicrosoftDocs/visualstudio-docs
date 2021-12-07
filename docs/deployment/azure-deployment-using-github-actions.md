@@ -47,7 +47,7 @@ If you complete this step by using the [built-in Git tooling](../version-control
 
 ## Setting the GitHub secrets
 
-For the generated workflow to successfully deploy to Azure, it may require access to a [publish profile](/azure/app-service/deploy-github-actions?tabs=applevel#configure-the-github-secret)
+For the generated workflow to successfully deploy to Azure, it may require access to a [publish profile](/azure/app-service/deploy-github-actions?tabs=applevel#configure-the-github-secret).
 
 ![one github secret](./media/summary-one-github-secret.png)
 
