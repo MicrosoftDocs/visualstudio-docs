@@ -41,17 +41,7 @@ Visual Studio generates a new GitHub Actions workflow and asks you to commit it 
 
 ![commit and push](./media/summary-commit-and-push.png)
 
-::: moniker range="vs-2022"
-
-If you complete this step using the [built-in Git tooling](../version-control/git-with-visual-studio.md../version-control/git-with-visual-studio.md?view=vs-2022&preserve-view=true#git-changes-window-in-visual-studio-2019#day-to-day-workflow), Visual Studio will detect the execution of the workflow.
-
-::: moniker-end
-
-::: moniker range="<=vs-2019"
-
-If you complete this step using the [built-in Git tooling](../version-control/git-with-visual-studio.md?view=vs-2019&preserve-view=true#git-changes-window-in-visual-studio-2019), Visual Studio will detect the execution of the workflow.
-
-::: moniker-end
+If you complete this step by using the [built-in Git tooling](../version-control/git-with-visual-studio.md?view=vs-2019&preserve-view=true#git-changes-window-in-visual-studio-2019), Visual Studio will detect the execution of the workflow.
 
 ![workflow is running](./media/summary-workflow-running.png)
 
