@@ -34,7 +34,7 @@ You can configure the severity of analyzer rules, or *diagnostics*, if you [inst
 ::: moniker-end
 
 > [!NOTE]
-> Errors cause builds to fail, however to cause [dotnet build](https://docs.microsoft.com/dotnet/core/tools/dotnet-build) to fail you'll need to set `enforcecodestyleinbuild` to `true` in the [runtime configuration properties](https://docs.microsoft.com/dotnet/core/project-sdk/msbuild-props#enforcecodestyleinbuild).
+> Errors cause builds to fail, however to cause [dotnet build](/dotnet/core/tools/dotnet-build) to fail you'll need to set `enforcecodestyleinbuild` to `true` in the [runtime configuration properties](/dotnet/core/project-sdk/msbuild-props#enforcecodestyleinbuild).
 
 The following table shows the different severity options:
 
