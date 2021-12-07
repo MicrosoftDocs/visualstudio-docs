@@ -2,7 +2,7 @@
 title: Configure unit tests with a .runsettings file
 description: Learn how to use the .runsettings file in Visual Studio to configure unit tests that are run from the command line, from the IDE, or in a build workflow.
 ms.custom: SEO-VS-2020
-ms.date: 11/06/2020
+ms.date: 12/06/2021
 ms.topic: conceptual
 ms.author: mikejo
 manager: jmartens
@@ -86,11 +86,21 @@ If auto detection of run settings files is enabled, the settings in this file ar
 
 - Select **Tools** > **Options** > **Test** > **Auto Detect runsettings Files**
 
+   ::: moniker range="vs-2019"
    ![Auto detect runsettings file option in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-tools-window.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![Auto detect runsettings file option in Visual Studio 2019](media/vs-2022/auto-detect-runsettings-tools-window.png)
+   ::: moniker-end
 
 - Select **Test** > **Configure Run Settings** > **Auto Detect runsettings Files**
 
+   ::: moniker range="vs-2019"
    ![Auto detect runsettings file menu in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-menu.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![Auto detect runsettings file menu in Visual Studio 2019](media/vs-2019/vs-2022/auto-detect-runsettings-menu.png)
+   ::: moniker-end
 
 #### Manually select the run settings file
 
