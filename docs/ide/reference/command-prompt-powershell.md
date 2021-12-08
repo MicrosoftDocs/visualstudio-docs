@@ -170,9 +170,9 @@ Start Developer Command Prompt for Visual Studio 2019 Community Edition on a 64-
 "%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat" -arch=arm -host_arch=amd64
 ```
 
-Start Developer PowerShell for Visual Studio 2022 Community Edition on 64-bit machine, creating build outputs that target arm64:
+Start Developer PowerShell for Visual Studio 2022 Update 1 Community Edition on 64-bit machine, creating build outputs that target arm64:
 ```powershell
-& 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\Launch-VsDevShell.ps1' -Arch arm64 -HostArch amd64
+& 'C:\Program Files (x86)\Microsoft Visual Studio\2022\Community\Common7\Tools\Launch-VsDevShell.ps1' -Arch arm64 -HostArch amd64
 ```
 
 ### SkipAutomaticLocation
