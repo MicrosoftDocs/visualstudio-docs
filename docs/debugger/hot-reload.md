@@ -88,7 +88,7 @@ Also, be aware that not all project types currently support the "no debugger" sc
 
 * UWP apps are not supported for Hot Reload without the debugger. This is by design, and there are no current plans to improve this.
 * Xamarin.Forms apps targeting iOS and Android don’t support .NET Hot Reload (regardless of whether you are starting your app with or without the debugger), but will continue to support XAML Hot Reload.
-* .NET MAUI apps are not supported without the debugger.
+* .NET MAUI apps are supported only with the debugger.
 
 ## Visual Studio 2022 with a .NET 6 app
 
