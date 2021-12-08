@@ -27,7 +27,7 @@ Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.7.2 dev
 Microsoft.VisualStudio.Component.Azure.AuthoringTools | Azure Authoring Tools | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.Azure.ClientLibs | Azure libraries for .NET | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.Azure.Waverton.BuildTools | Azure Cloud Services build tools | 17.0.31804.368 | Required
-Microsoft.VisualStudio.Component.DockerTools.BuildTools | Container development tools - Build Tools | 17.0.31804.368 | Required
+Microsoft.VisualStudio.Component.DockerTools.BuildTools | Container development tools - Build Tools | 17.0.31902.203 | Required
 Microsoft.VisualStudio.Component.NuGet.BuildTools | NuGet targets and build tasks | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.TypeScript.TSServer | TypeScript Server | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Wcf.BuildTools.ComponentGroup | Windows Communication Foundation build tools | 17.0.31804.368 | Required
@@ -40,8 +40,8 @@ Microsoft.Net.Component.4.6.2.TargetingPack | .NET Framework 4.6.2 targeting pac
 Microsoft.Net.Component.4.7.1.TargetingPack | .NET Framework 4.7.1 targeting pack | 17.0.31804.368 | Optional
 Microsoft.Net.Component.4.7.TargetingPack | .NET Framework 4.7 targeting pack | 17.0.31804.368 | Optional
 Microsoft.Net.ComponentGroup.4.6.2-4.7.1.DeveloperTools | .NET Framework 4.6.2-4.7.1 development tools | 17.0.31804.368 | Optional
-Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.31807.268 | Optional
-Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.31807.268 | Optional
+Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.32002.159 | Optional
+Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.32002.159 | Optional
 Microsoft.VisualStudio.Component.TypeScript.SDK.4.4 | TypeScript 4.4 SDK | 17.0.31804.368 | Optional
 
 ## Data storage and processing build tools
@@ -81,8 +81,8 @@ Microsoft.VisualStudio.Component.Roslyn.Compiler | C# and Visual Basic Roslyn co
 Microsoft.Component.ClickOnce.MSBuild | ClickOnce Build Tools | 17.0.31804.368 | Recommended
 Microsoft.Net.Component.4.8.TargetingPack | .NET Framework 4.8 targeting pack | 17.0.31804.368 | Recommended
 Microsoft.Net.ComponentGroup.4.8.DeveloperTools | .NET Framework 4.8 development tools | 17.0.31804.368 | Recommended
-Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.31807.268 | Recommended
-Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.31807.268 | Recommended
+Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.32002.159 | Recommended
+Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.32002.159 | Recommended
 Microsoft.VisualStudio.Component.TestTools.BuildTools | Testing tools core features - Build Tools | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Wcf.BuildTools.ComponentGroup | Windows Communication Foundation build tools | 17.0.31804.368 | Recommended
 Microsoft.Net.Component.3.5.DeveloperTools | .NET Framework 3.5 development tools | 17.0.31804.368 | Optional
@@ -164,8 +164,8 @@ Component ID | Name | Version | Dependency type
 Microsoft.Component.MSBuild | MSBuild | 17.0.31804.368 | Required
 Microsoft.Component.NetFX.Native | .NET Native | 17.0.31804.368 | Required
 Microsoft.Net.Component.4.8.SDK | .NET Framework 4.8 SDK | 17.0.31804.368 | Required
-Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.31807.268 | Required
-Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.31807.268 | Required
+Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.32002.159 | Required
+Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.32002.159 | Required
 Microsoft.VisualStudio.Component.NuGet.BuildTools | NuGet targets and build tasks | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.Roslyn.Compiler | C# and Visual Basic Roslyn compilers | 17.0.31804.368 | Required
 Microsoft.VisualStudio.ComponentGroup.UWP.BuildTools | Universal Windows Platform build prerequisites | 17.0.31806.525 | Required
@@ -185,11 +185,11 @@ Microsoft.VisualStudio.Component.VC.v141.ARM64 | MSVC v141 - VS 2017 C++ ARM64 b
 Microsoft.VisualStudio.Component.VC.v141.x86.x64 | MSVC v141 - VS 2017 C++ x64/x86 build tools (v14.16) | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK | Windows Universal C Runtime | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.18362 | Windows 10 SDK (10.0.18362.0) | 17.0.31804.368 | Optional
-Microsoft.VisualStudio.Component.Windows11SDK.22000 | Windows 11 SDK (10.0.22000.0) | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.Windows11SDK.22000 | Windows 11 SDK (10.0.22000.0) | 17.0.31821.396 | Optional
 Microsoft.VisualStudio.ComponentGroup.UWP.VC.BuildTools | C++ (v143) Universal Windows Platform tools | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.ComponentGroup.UWP.VC.v141.BuildTools | C++ (v141) Universal Windows Platform tools | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.ComponentGroup.UWP.VC.v142.BuildTools | C++ (v142) Universal Windows Platform tools | 17.0.31804.368 | Optional
-Microsoft.VisualStudio.ComponentGroup.VC.Tools.142.x86.x64 | MSVC v142 - VS 2019 C++ x64/x86 build tools (v14.29) | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.ComponentGroup.VC.Tools.142.x86.x64 | MSVC v142 - VS 2019 C++ x64/x86 build tools (v14.29) | 17.0.31821.396 | Optional
 
 ## Desktop development with C++
 
@@ -214,6 +214,7 @@ Microsoft.VisualStudio.Component.VC.ASAN | C++ AddressSanitizer | 17.0.31804.368
 Microsoft.VisualStudio.Component.VC.CMake.Project | C++ CMake tools for Windows | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC v143 - VS 2022 C++ x64/x86 build tools (Latest) | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.Windows10SDK.19041 | Windows 10 SDK (10.0.19041.0) | 17.0.31804.368 | Recommended
+Microsoft.Component.VC.Runtime.UCRTSDK | Windows Universal CRT SDK | 17.0.31804.368 | Optional
 Microsoft.Net.Component.4.7.2.TargetingPack | .NET Framework 4.7.2 targeting pack | 17.0.31804.368 | Optional
 Microsoft.Net.Component.4.8.SDK | .NET Framework 4.8 SDK | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.VC.140 | MSVC v140 - VS 2015 C++ build tools (v14.00) | 17.0.31804.368 | Optional
@@ -226,9 +227,9 @@ Microsoft.VisualStudio.Component.VC.Modules.x86.x64 | C++ Modules for v143 build
 Microsoft.VisualStudio.Component.VC.v141.x86.x64 | MSVC v141 - VS 2017 C++ x64/x86 build tools (v14.16) | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.18362 | Windows 10 SDK (10.0.18362.0) | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.20348 | Windows 10 SDK (10.0.20348.0) | 17.0.31804.368 | Optional
-Microsoft.VisualStudio.Component.Windows11SDK.22000 | Windows 11 SDK (10.0.22000.0) | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.Windows11SDK.22000 | Windows 11 SDK (10.0.22000.0) | 17.0.31821.396 | Optional
 Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Llvm.Clang | C++ Clang tools for Windows (12.0.0 - x64/x86) | 17.0.31804.368 | Optional
-Microsoft.VisualStudio.ComponentGroup.VC.Tools.142.x86.x64 | MSVC v142 - VS 2019 C++ x64/x86 build tools (v14.29) | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.ComponentGroup.VC.Tools.142.x86.x64 | MSVC v142 - VS 2019 C++ x64/x86 build tools (v14.29) | 17.0.31821.396 | Optional
 
 ## Visual Studio extension development
 
@@ -274,9 +275,9 @@ Microsoft.VisualStudio.Web.BuildTools.ComponentGroup | Web development build too
 Microsoft.Component.ClickOnce.MSBuild | ClickOnce Build Tools | 17.0.31804.368 | Recommended
 Microsoft.Net.Component.4.8.TargetingPack | .NET Framework 4.8 targeting pack | 17.0.31804.368 | Recommended
 Microsoft.Net.ComponentGroup.4.8.DeveloperTools | .NET Framework 4.8 development tools | 17.0.31804.368 | Recommended
-Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.31807.268 | Recommended
-Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.31807.268 | Recommended
-Microsoft.VisualStudio.Component.DockerTools.BuildTools | Container development tools - Build Tools | 17.0.31804.368 | Recommended
+Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.32002.159 | Recommended
+Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.32002.159 | Recommended
+Microsoft.VisualStudio.Component.DockerTools.BuildTools | Container development tools - Build Tools | 17.0.31902.203 | Recommended
 Microsoft.VisualStudio.Component.TestTools.BuildTools | Testing tools core features - Build Tools | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.WebDeploy | Web Deploy | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Wcf.BuildTools.ComponentGroup | Windows Communication Foundation build tools | 17.0.31804.368 | Recommended
@@ -285,10 +286,10 @@ Microsoft.Net.Component.4.6.2.TargetingPack | .NET Framework 4.6.2 targeting pac
 Microsoft.Net.Component.4.7.1.TargetingPack | .NET Framework 4.7.1 targeting pack | 17.0.31804.368 | Optional
 Microsoft.Net.Component.4.7.TargetingPack | .NET Framework 4.7 targeting pack | 17.0.31804.368 | Optional
 Microsoft.Net.ComponentGroup.4.6.2-4.7.1.DeveloperTools | .NET Framework 4.6.2-4.7.1 development tools | 17.0.31804.368 | Optional
-microsoft.net.runtime.mono.tooling | Shared native build tooling for Mono runtime | 6.0.21.48005 | Optional
-microsoft.net.sdk.emscripten | Emscripten SDK compiler tooling | 6.0.4.47401 | Optional
+microsoft.net.runtime.mono.tooling | Shared native build tooling for Mono runtime | 6.0.121.56705 | Optional
+microsoft.net.sdk.emscripten | Emscripten SDK compiler tooling | 6.0.5.2003 | Optional
 Microsoft.VisualStudio.Component.TypeScript.SDK.4.4 | TypeScript 4.4 SDK | 17.0.31804.368 | Optional
-wasm.tools | .NET WebAssembly build tools | 6.0.21.48005 | Optional
+wasm.tools | .NET WebAssembly build tools | 6.0.121.56705 | Optional
 
 ## Mobile Development with .NET
 
@@ -313,9 +314,9 @@ These are components that are not included with any workload, but may be selecte
 
 Component ID | Name | Version
 --- | --- | ---
-Microsoft.Net.Core.Component.SDK.2.1 | .NET Core 2.1 Runtime (out of support) | 17.0.31807.268
-Microsoft.NetCore.Component.Runtime.3.1 | .NET Core 3.1 Runtime (LTS) | 17.0.31807.268
-Microsoft.NetCore.Component.Runtime.5.0 | .NET 5.0 Runtime | 17.0.31807.268
+Microsoft.Net.Core.Component.SDK.2.1 | .NET Core 2.1 Runtime (out of support) | 17.0.32002.159
+Microsoft.NetCore.Component.Runtime.3.1 | .NET Core 3.1 Runtime (LTS) | 17.0.32002.159
+Microsoft.NetCore.Component.Runtime.5.0 | .NET 5.0 Runtime | 17.0.32002.159
 Microsoft.VisualStudio.Component.VC.14.29.16.11.ARM | MSVC v142 - VS 2019 C++ ARM build tools (v14.29-16.11) | 17.0.31804.368
 Microsoft.VisualStudio.Component.VC.14.29.16.11.ARM.Spectre | MSVC v142 - VS 2019 C++ ARM Spectre-mitigated libs (v14.29-16.11) | 17.0.31804.368
 Microsoft.VisualStudio.Component.VC.14.29.16.11.ARM64.Spectre | MSVC v142 - VS 2019 C++ ARM64 Spectre-mitigated libs (v14.29-16.11) | 17.0.31804.368
