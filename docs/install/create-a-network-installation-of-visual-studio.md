@@ -212,7 +212,7 @@ xcopy /e c:\VSLayout \\server\share\layoutdirectory
 ## Update or modify your layout 
 It is possible to update a network layout of Visual Studio with the latest product updates so that it can be used both as an installation point and an update source for client workstations to receive the latest version of Visual Studio. It is a best practice to periodically update your layout, particularly if you intend for your clients to receive updates from the layout. This section describes the most common or useful layout maintenance operations.
 
-If you host a layout on a file share, you may want to update a private copy of the layout (for example, c:\VSLayout) and then, after all of the updated content is downloaded, copy it to your file share (for example, \\server\products\VS). If you don't do this, there is a greater chance that any users who happen to run Setup while you are updating the layout might get a mismatch of content from the layout because it was not yet completely updated.
+If you host a layout on a file share, you may want to update a private copy of the layout (for example, c:\VSLayout) and then, after all of the updated content is downloaded, copy it to your file share (for example, \\\server\products\VS). If you don't do this, there is a greater chance that any users who happen to run Setup while you are updating the layout might get a mismatch of content from the layout because it was not yet completely updated.
 
 ### Update the layout to the most current version of the product
 Microsoft frequently releases updated versions of the product to fix functionality or security issues. We recommend that you keep you layout updated with the latest version of the product, so that new client installs always receive the latest goodness. It's also very important to keep your layout updated if your clients are configured to receive updates from the layout. 
@@ -336,6 +336,8 @@ There are two ways to enable your layout to use the latest installer:
    ```
 
 There is no way to programmatically remove this setting in the layout.json file, so if you want your layout to _stop_ using the latest installer that Microsoft makes available, and instead use the version of the installer that corresponds to the bootstrapper (which is mostly likely older than the most recent installer), simply edit the layout.json file and remove the `"UseLatestInstaller": true` setting. 
+
+Note that you may find this `"UseLatestInstaller": true` setting in the layout's response.json file too, but it is ignored there. The [response.json file is used to set default configuration options on the _client_ when the client installs or updates from a layout](/visualstudio/install/automated-installation-with-response-file). This particular `"UseLatestInstaller": true` setting is used to ensure that the contents of the _layout_ have the latest installer.   
 
 ::: moniker-end
 
