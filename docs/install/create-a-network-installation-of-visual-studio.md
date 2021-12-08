@@ -334,7 +334,6 @@ There are two ways to enable your layout to include and provide the latest insta
 
 There is no way to programmatically remove this setting in the layout.json file, so if you want your layout to _stop_ using the latest installer that Microsoft makes available, and instead use the version of the installer that corresponds to the bootstrapper (which is mostly likely older than the most recent installer), simply edit the layout.json file and remove the `"UseLatestInstaller": true` setting. 
 
-Refer to the https://docs.microsoft.com/en-us/visualstudio/install/update-a-network-installation-of-visual-studio?view=vs-2022#programatically-update-a-client-that-doesnt-have-internet-access
 Note that you may find this `"UseLatestInstaller": true` setting in the layout's response.json file too, but it is ignored there. The [response.json file is used to set default configuration options on the _client_ when the client installs or updates from a layout](/visualstudio/install/automated-installation-with-response-file). This particular `"useLatestInstaller": true` setting is used to ensure that the contents of the _layout_ contain the latest installer, so that the client machines can then acquire the latest installer from the layout.   
 
 ::: moniker-end
@@ -404,7 +403,7 @@ Administrators can deploy Visual Studio onto client workstations as part of an i
 When you install from a layout, the content that is installed will default to be acquired from the layout. However, if you select a component that isn't in the layout, and the [client has been configured to look at Microsoft hosted servers for updates](/visualstudio/install/automated-installation-with-response-file), then the installer will attempt to acquire Visual Studio packages from the internet too. If you want to prevent Visual Studio setup attempting to download any content from the web that is missing in your layout, use the `--noWeb` option. If `--noWeb` is used and the layout is missing any content that is selected to be installed, then the setup will fail.
 
 > [!IMPORTANT]
-> The `--noWeb` option does not stop Visual Studio setup on an internet-connected computer from _checking_ for updates. Rather, it prevents the client from downloading the product packages. For more information, see the [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md) page.
+> The `--noWeb` option does not stop the Visual Studio installer on an internet-connected client machine from _checking_ for updates if the client has been configured to look at Microsoft hosted servers for updates. Rather, `--noWeb` simply prevents the client from downloading the product packages. For more information, see the [Update a Visual Studio client that was installed from a network layout](/visualstudio/install/update-a-network-installation-of-visual-studio) page.
 
 ::: moniker range=">=vs-2019"
 
