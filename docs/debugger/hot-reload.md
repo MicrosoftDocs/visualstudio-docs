@@ -74,7 +74,7 @@ This experience is powered by native Edit and Continue. For supported edits, see
 When using Visual Studio 2022 and starting the app with the debugger, Hot Reload works with most app frameworks, including typical app types such as Console, Windows Forms (WinForms), WPF, UWP, WinUI 3 (see note), and most types of ASP.NET web projects (for code-behind edits) including ASP.NET MVC, Web API, and even older Web Forms projects. These are examples. Anywhere you have .NET and you’re using the Visual Studio managed debugger, you should get basic Hot Reload support. This fact means that even projects such as Azure Functions work great in this scenario.
 
 > [!NOTE]
-> WinUI 3 by default uses mixed mode debugging, which does not support Hot Reload. You can modify this in project settings by enabling the Managed Debugger, which enables Hot Reload to work properly. To enable this in your project modify launchSettings.json and add `"nativeDebugging": false` after the `commandName` property
+> WinUI 3 by default uses mixed mode debugging, which does not support Hot Reload. You can modify this in project settings by enabling the Managed Debugger, which enables Hot Reload to work properly. To enable this in your project, modify launchSettings.json and add `"nativeDebugging": false` after the `commandName` property.
 
 .NET MAUI apps are supported starting in Visual Studio 2022 version 17.1 Preview 1.
 
@@ -170,11 +170,11 @@ The settings for Hot Reload include:
 
 ![Screenshot of settings for .NET Hot Reload](../debugger/media/vs-2022/dotnet-hot-reload-settings.png)
 
-You can also control if .NET Hot Reload is available at the project level by modifying your .NET 6 projects launchSetting.json and setting `hotReloadEnabled` to `false`
+You also can control whether .NET Hot Reload is available at the project level by modifying your .NET 6 projects launchSetting.json and setting `hotReloadEnabled` to `false`.
 
 Example:
 
-```XAML
+```xaml
 {
   "profiles": {
     "Console": {
@@ -183,6 +183,7 @@ Example:
     }
   }
 }
+```
 
 ## Warning message
 
