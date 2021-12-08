@@ -174,7 +174,7 @@ You can also control if .NET Hot Reload is available at the project level by mod
 
 Example:
 
-~~~XAML
+```XAML
 {
   "profiles": {
     "Console": {
