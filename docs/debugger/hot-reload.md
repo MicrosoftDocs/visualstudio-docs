@@ -183,7 +183,6 @@ Example:
     }
   }
 }
-~~~
 
 ## Warning message
 
