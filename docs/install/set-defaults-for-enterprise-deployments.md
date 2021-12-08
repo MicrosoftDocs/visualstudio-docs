@@ -106,8 +106,8 @@ The keys in this section only apply to the Computer\HKEY_LOCAL_MACHINE\SOFTWARE\
 
 | **Name**                         | **Type**                    | **Description**                                                |
 |----------------------------------|-----------------------------|-----------------------------------------------------|
-| `Channels` | `Key` |  Key path for storing custom layout channel information. The name of this key is considered the Channel name, and is what shows up in the [Update channel dropdown](/visualstudio/install/update-visual-studio?#configure-source-location-of-updates-1). |
-| `DisabledChannels` | `Key` | Key path for suppressing channels and preventing them from showing up in the Update Channel dialog. If the channel is defined here, it will be filtered out of the dialog. |
+| `Channels` | `Key` |  Subkey path for storing custom layout channel information. The name of this key is considered the Channel name, and is what shows up in the [Update channel dropdown](/visualstudio/install/update-visual-studio?#configure-source-location-of-updates-1). The `ChannelURI` value is required to be present under the `Channels` subkey. |
+| `DisabledChannels` | `Key` | Subkey path for suppressing channels and preventing them from showing up in the Update Channel dialog. If the channel is defined here (along with the `ChannelURI` value), it will be filtered out of the dialog. |
 | `ChannelURI` | `REG_SZ` |  The channelURI to either add to list of update channel values by adding to the `Channels` hive, or suppress from the list of update channels by adding to the `DisabledChannels` registry hive. For Microsoft hosted channels, the channelURI is "https://aka.ms/vs/16/release/channel" or "https://aka.ms/vs/16/pre/channel".  For layouts, this value needs to point to the layout's ChannelManifest.json. Refer to examples below. |
 | `Description` | `REG_SZ` |  A two-line custom description of the channel. If you've already installed from a layout, then the Update Settings UI defaults to "Private Channel" and you can change it using this Description. |
 
