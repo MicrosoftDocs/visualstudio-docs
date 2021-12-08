@@ -34,8 +34,6 @@ To enable Configuration Manager to manage Visual Studio administrator updates, y
 
 * A current licensed version of Windows Server running Microsoft Endpoint Configuration Manager (current branch) and Windows Server Update Services (WSUS). You can’t use WSUS itself to deploy these updates; it must be used in conjunction with Configuration Manager.
 
-* The hierarchy’s top-level WSUS server and the top-level Configuration Manager site server must have access to the Visual Studio URLs and ports listed here: [Install and use Visual Studio and Azure Services behind a firewall or proxy server](../install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md).  
-
 * The Microsoft Endpoint Configuration Manager must be configured to receive notifications when Visual Studio administrator update packages are available.  To do that, use the following steps, and for more information, see [Introduction to software updates in Microsoft Endpoint Configuration Manager](/mem/configmgr/sum/understand/software-updates-introduction).
 
   1. In the Configuration Manager console, select **Administration** (bottom-left), then select **Site Configuration** (middle left), then **Sites**, and select your site server.
