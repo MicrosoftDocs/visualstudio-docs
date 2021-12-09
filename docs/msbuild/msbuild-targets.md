@@ -2,7 +2,7 @@
 title: MSBuild Targets | Microsoft Docs
 description: Learn how MSBuild uses targets to group tasks together and allow the build process to be factored into smaller units.
 ms.custom: SEO-VS-2020
-ms.date: 06/13/2019
+ms.date: 09/21/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, targets
@@ -67,7 +67,7 @@ Give your target a descriptive name, as you would name a function in code.
 
 - Target dependencies
 
-- `BeforeTargets` and `AfterTargets` (MSBuild 4.0)
+- `BeforeTargets` and `AfterTargets`
 
 A target never runs twice during a single build, even if a subsequent target in the build depends on it. Once a target runs, its contribution to the build is complete.
 
@@ -115,7 +115,7 @@ Reference: 4.0
 
 The following lists the public targets in Microsoft.Common.CurrentVersion.Targets.
 
-```
+```xml
 ===================================================
 Build
 The main build entry point.

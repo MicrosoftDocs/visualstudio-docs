@@ -1,10 +1,10 @@
 ---
 title: Grow data science skills with DataCamp in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: fc33d419-78cf-485e-b558-5b7efa900f14
-ms.date: 03/17/2021
+ms.date: 10/18/2021
 ms.topic: how-to
 description:  Learn about the DataCamp training subscription included with selected Visual Studio subscriptions.
 ---

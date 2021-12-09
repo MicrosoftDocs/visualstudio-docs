@@ -10,7 +10,7 @@ metadata:
   ms.technology: vs-ide-deployment
   author: mikejo5000
   ms.author: mikejo
-  manager: jillfra
+  manager: jmartens
   ms.date: 09/17/2019
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
@@ -25,29 +25,33 @@ landingContent:
         links:
           - text: First look at deployment
             url: deploying-applications-services-and-components.md
+          - text: Overview of Publish
+            url: publish-overview.md
 
   # Card (optional)
-  - title: Get started (.NET Core, Python)
+  - title: Get started (.NET)
     linkLists:
-      - linkListType: overview
-        links:
-          - text: Deploy to a folder, IIS, or Azure
-            url: deploying-applications-services-and-components-resources.md
       - linkListType: quickstart
         links:
-          - text: Publish to Azure App Service
-            url: quickstart-deploy-to-azure.md
-          - text: Publish to App Service for Linux
-            url: quickstart-deploy-to-linux.md
-          - text: Publish to a web site
-            url: quickstart-deploy-to-a-web-site.md
-          - text: Publish to a folder
-            url: quickstart-deploy-to-local-folder.md
+          - text: Deploy an ASP.NET web app
+            url: quickstart-deploy-aspnet-web-app.md
           - text: Deploy a .NET Core app using ClickOnce
             url: quickstart-deploy-using-clickonce-folder.md
 
   # Card
-  - title: Deploy .NET apps
+  - title: Deploy ASP.NET web apps
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Publish ASP.NET Core to Azure
+            url: /azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs#publish-your-web-app
+          - text: Get publish settings from IIS
+            url: tutorial-import-publish-settings-iis.md
+          - text: Publish with Git
+            url: /azure/app-service/deploy-continuous-deployment
+
+  # Card
+  - title: Deploy .NET desktop apps
     linkLists:
       - linkListType: tutorial
         links:
@@ -69,20 +73,6 @@ landingContent:
         links:
           - text: Deploy using an installer package
             url: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
-          - text: Package a desktop app for Windows Store
-            url: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
-
-  # Card
-  - title: Deploy ASP.NET Core apps
-    linkLists:
-      - linkListType: tutorial
-        links:
-          - text: Publish ASP.NET Core to Azure
-            url: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs
-          - text: Import publish settings and deploy to IIS
-            url: tutorial-import-publish-settings-iis.md
-          - text: Publish with Git
-            url: /aspnet/core/host-and-deploy/azure-apps/azure-continuous-deployment
 
   # Card
   - title: Additional deployment types

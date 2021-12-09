@@ -7,6 +7,7 @@ author: ghogen
 manager: jmartens
 ms.topic: conceptual
 ms.technology: bridge
+ms.custom: "contperf-fy22q1"
 ---
 # Kubernetes service environment variables
 

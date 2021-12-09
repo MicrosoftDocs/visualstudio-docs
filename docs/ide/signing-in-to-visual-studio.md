@@ -27,6 +27,8 @@ While you don't have to sign in, there are many advantages to doing so. In this 
 > 
 ::: moniker-end
 
+## Benefits to signing in
+
 Here's a full list of what you can expect and what you can do after you sign in:
 
 |Benefit|Description|

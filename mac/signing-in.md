@@ -40,6 +40,9 @@ To sign in to Visual Studio for Mac on first launch, do the following steps:
 
 Alternatively, you can use the **Visual Studio > Sign in…** menu item to sign in and out at any time.
 
+> [!TIP]
+> If you run into any issues signing in, then please try the **Sign in with web browser** option in the **Can't sign in?** drop down menu at the bottom of the **Sign into your account** window. This may be necessary if your Mac is a managed device that uses conditional access.
+
 ## Adding multiple user accounts
 
 Visual Studio for Mac supports adding multiple accounts to your personalization account. These additional accounts will allow you to access resources, such as Azure, from any added account.

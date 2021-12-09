@@ -1,10 +1,10 @@
 ---
 title: Power BI Pro Benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 383fc910-3f4c-474a-a3f8-0f13525f05e9
-ms.date: 03/17/2021
+ms.date: 08/26/2021
 ms.topic: how-to
 description:  Learn about the Power BI Pro subscription included with selected Visual Studio subscriptions.
 ---
@@ -14,7 +14,7 @@ description:  Learn about the Power BI Pro subscription included with selected V
 Transform your data into rich visuals for you to collect and organize.
 
 > [!Note]
-> This Power BI license is made available to learn about and experiment with Power BI capabilities, in a safe place, without impacting larger Production/Dev/Test environments.  The current offer of Power BI requires the subscriber to create their own tenant to enforce separation. If you need to have a Power BI license associated with your corporate credentials in your company tenant please work with your company admin to purchase and assign a license.
+> This Power BI license is made available to learn about and experiment with Power BI capabilities, in a safe place, without impacting larger Production/Dev/Test environments.  To enforce separation, the current offer of Power BI requires the subscriber to add Power BI to their own tenant or create a new one. If you need to have a Power BI license associated with your corporate credentials in your company tenant please work with your company admin to purchase and assign a license.
 
 ## Activation steps
 To use Power BI Pro, you’ll need to set up an account or sign in using an existing account.
@@ -116,4 +116,4 @@ A:  No.  The Power BI Pro benefit cannot be added to government tenants.
 
 ## Next steps
 - To activate your Power BI Pro benefit, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
-- Take advantage of your own development sandbox by activating your [Azure DevTest individual credit](vs-azure.md).
+- Take advantage of your own development sandbox by activating your [Azure DevTest individual credit](/azure/devtest/offer/quickstart-individual-credit).

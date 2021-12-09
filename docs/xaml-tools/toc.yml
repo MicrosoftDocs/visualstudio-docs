@@ -60,6 +60,8 @@
       href: xaml-hot-reload.md
     - name: Troubleshoot
       href: xaml-hot-reload-troubleshooting.md
+  - name: XAML Live Preview
+    href: xaml-live-preview.md
   - name: Debug XAML in Blend
     href: debug-xaml-in-blend.md
   - name: Debug UWP apps >>

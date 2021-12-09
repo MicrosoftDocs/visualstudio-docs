@@ -4,54 +4,46 @@
   items:
   - name: First look at deployment
     href: deploying-applications-services-and-components.md
-  - name: Deploy to a folder, IIS, or Azure
-    href: deploying-applications-services-and-components-resources.md
+  - name: Overview of Publish
+    href: publish-overview.md
 - name: Quickstarts
   items:
-  - name: Deploy to Azure App Service
-    href: quickstart-deploy-to-azure.md
-  - name: Deploy to App Service for Linux
-    href: quickstart-deploy-to-linux.md
-  - name: Deploy to a web site
-    href: quickstart-deploy-to-a-web-site.md
-  - name: Deploy to a folder
-    href: quickstart-deploy-to-local-folder.md
+  - name: Deploy ASP.NET web app
+    href: quickstart-deploy-aspnet-web-app.md
 - name: Tutorials
   items:
   - name: .NET
     items:
-    - name: Deploy a .NET Windows application using ClickOnce
-      href: quickstart-deploy-using-clickonce-folder.md
-    - name: Deploy a .NET Framework desktop app using ClickOnce
-      href: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
-    - name: Create an installer package (Windows desktop)
-      href: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
-    - name: Package a desktop app for Microsoft Store >>
-      href: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
-    - name: Build ClickOnce applications from the Command Line
-      href: building-clickonce-applications-from-the-command-line.md
-  - name: ASP.NET
-    items:
-    - name: Publish an ASP.NET Core app to Azure >>
-      href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs
-    - name: Import publish settings and deploy to IIS
-      href: tutorial-import-publish-settings-iis.md
-    - name: Import publish settings and deploy to Azure
-      href: tutorial-import-publish-settings-azure.md
-    - name: Continuous deployment of ASP.NET Core to Azure with Git >>
-      href: /aspnet/core/publishing/azure-continuous-deployment
+    - name: ASP.NET
+      items:
+      - name: Publish an ASP.NET Core app to Azure >>
+        href: /azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs#publish-your-web-app
+      - name: Get publish settings from IIS
+        href: tutorial-import-publish-settings-iis.md
+      - name: Get publish settings from Azure
+        href: tutorial-import-publish-settings-azure.md
+      - name: Continuous deployment of ASP.NET Core to Azure with Git >>
+        href: /azure/app-service/deploy-continuous-deployment
+    - name: Desktop
+      items:
+      - name: Deploy a .NET Windows application using ClickOnce
+        href: quickstart-deploy-using-clickonce-folder.md
+      - name: Deploy a .NET Framework desktop app using ClickOnce
+        href: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
+      - name: Create an installer package (Windows desktop)
+        href: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
+      - name: Package a desktop app for Microsoft Store >>
+        href: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
+      - name: Build ClickOnce applications from the Command Line
+        href: building-clickonce-applications-from-the-command-line.md
   - name: C++
     items:
     - name: Create an installer package
       href: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
     - name: Package a desktop app for Microsoft Store >>
-      href: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
+      href: /windows/msix/package/packaging-uwp-apps
     - name: Deploy a C++/CLR app using ClickOnce >>
       href: /cpp/windows/clickonce-deployment-for-visual-cpp-applications
-  - name: UWP
-    items:
-    - name: Package a UWP app by using Visual Studio >>
-      href: /windows/uwp/packaging/packaging-uwp-apps
   - name: Node.js
     items:
     - name: Publish to Linux App Service >>
@@ -62,6 +54,10 @@
       href: ../python/publishing-python-web-applications-to-azure-from-visual-studio.md
 - name: How-to guides
   items:
+  - name: GitHub Actions CI/CD Publish
+    items: 
+    - name: Deploy to Azure using GitHub Actions
+      href: azure-deployment-using-github-actions.md
   - name: ClickOnce security and deployment
     items:
     - name: Overview of ClickOnce security and deployment
@@ -220,9 +216,13 @@
         href: troubleshooting-specific-errors-in-clickonce-deployments.md
       - name: Debug ClickOnce applications that use System.Deployment.application
         href: debugging-clickonce-applications-that-use-system-deployment-application.md
-  - name: Application deployment prerequisites
+  - name: Visual Studio Installer projects
     items:
-    - name: Overview of application deployment prerequisites
+    - name: Visual Studio Installer Projects Extension and .NET Core 3.1
+      href: installer-projects-net-core.md
+  - name: Custom bootstrapper
+    items:
+    - name: Application deployment prerequisites
       href: application-deployment-prerequisites.md
     - name: Deploy prerequisites for 64-bit applications
       href: deploying-prerequisites-for-64-bit-applications.md
@@ -258,6 +258,8 @@
         href: schedules-element-bootstrapper.md
 - name: Reference
   items:
+  - name: Deploy to a folder, IIS, or Azure
+    href: deploying-applications-services-and-components-resources.md
   - name: ClickOnce Reference
     items:
     - name: Overview of ClickOnce Reference
@@ -304,7 +306,3 @@
         href: customerrorreporting-element-clickonce-deployment.md
     - name: ClickOnce Unmanaged API Reference
       href: clickonce-unmanaged-api-reference.md
-  - name: Visual Studio Installer Projects Reference
-    items:
-    - name: Visual Studio Installer Projects Extension and .NET Core 3.1
-      href: installer-projects-net-core.md

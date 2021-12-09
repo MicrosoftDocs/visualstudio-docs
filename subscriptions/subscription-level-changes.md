@@ -1,10 +1,10 @@
 ---
 title: Effects of changing Visual Studio subscription levels | Visual Studio Marketplace
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: bb2fa359-8170-4db0-a0c5-d49fc692b0aa
-ms.date: 03/18/2021
+ms.date: 10/13/2021
 ms.topic: conceptual
 description:  Learn about the effects of upgrading or downloading your Visual Studio subscription level.
 ---
@@ -34,7 +34,7 @@ The allotment of individual Azure credits varies by subscription level.  You may
 There are three scenarios you may encounter if your Visual Studio subscription changes.  In addition to potential upgrades or downgrades, your company's subscriptions admin(s) may assign you a subscription at the same level you have now, but with a different subscription ID.  In all three of these cases, the effects on your Azure subscriptions are the same -- only the amounts of individual credits may change. 
 
 Changing your Visual Studio subscription will break the link with your Azure subscription that receives the credits and a new Azure subscription will be created when you activate the benefit in your new subscription.  When that happens, the old Azure subscription will be subject to eventual deactivation.  To avoid this, choose one of the following workarounds:
-- Convert the subscription to pay-as-you-go.  For details, visit our [Azure DevTest Pay-As-You-Go subscriptions article](vs-azure-payg.md).  You will need to attach a payment instrument such as a credit card to this subscription. 
+- Convert the subscription to pay-as-you-go.  For details, https://azure.microsoft.com/offers/ms-azr-0023p/.  You will need to attach a payment instrument such as a credit card to this subscription. 
 - Create a new Azure subscription using the benefit in your new Visual Studio subscription, and transfer any existing Azure assets in the old Azure subscription to the new one. 
   > [!IMPORTANT]
   > It is important that you move your Azure assets to your new Azure subscription or change the existing Azure subscription to pay-as-you-go to avoid loss of your existing Azure assets. 

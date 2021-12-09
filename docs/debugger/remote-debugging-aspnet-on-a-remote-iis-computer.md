@@ -2,7 +2,7 @@
 title: "Remote Debug ASP.NET Core on a Remote IIS Computer | Microsoft Docs"
 description: Debug an ASP.NET Core application that has been deployed to a remote Internet Information Services (IIS) computer using the Visual Studio remote debugger.
 ms.custom: "remotedebugging, SEO-VS-2020"
-ms.date: 05/06/2020
+ms.date: 08/27/2021
 ms.topic: "conceptual"
 ms.assetid: 573a3fc5-6901-41f1-bc87-557aa45d8858
 author: "mikejo5000"
@@ -54,10 +54,10 @@ This article includes steps on setting up a basic configuration of IIS on Window
     ::: moniker range=">=vs-2019"
     In Visual Studio 2019, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project **MyASPApp**, and then choose **Next**.
 
-    Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+    Choose either the recommended target framework or .NET 6, and then choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
-    In Visual Studio 2017, choose **File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application**. In the ASP.NET Core templates section, select **Web Application (Model-View-Controller)**. Make sure that ASP.NET Core 2.1 is selected, that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.
+    In Visual Studio 2017, choose **File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application**. In the ASP.NET Core templates section, select **Web Application (Model-View-Controller)**. Make sure that ASP.NET Core 2.1 or later is selected, that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.
     ::: moniker-end
 
 4. Open the About.cshtml.cs file and set a breakpoint in the `OnGet` method (in older templates, open HomeController.cs instead and set the breakpoint in the `About()` method).
@@ -81,7 +81,7 @@ When you download the software, you may get requests to grant permission to load
 
 1. Install the .NET Core Hosting Bundle on the hosting system. The bundle installs the .NET Core Runtime, .NET Core Library, and the ASP.NET Core Module. For more in-depth instructions, see [Publishing to IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration).
 
-    For .NET Core 3, install the [.NET Core Hosting Bundle](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer).
+    For the current .NET Core hosting bundle, install the [ASP.NET Core Hosting Bundle](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer).
     For .NET Core 2, install the [.NET Core Windows Server Hosting](https://aka.ms/dotnetcore-2-windowshosting).
 
     > [!NOTE]
@@ -195,7 +195,10 @@ For information on running the remote debugger as a service, see [Run the remote
 
     Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
 
-    ::: moniker range=">=vs-2019"
+    ::: moniker range=">=vs-2022"
+    On Visual Studio 2022, you should see **\<remote computer name>:4026**
+    ::: moniker-end
+    ::: moniker range="vs-2019"
     On Visual Studio 2019, you should see **\<remote computer name>:4024**
     ::: moniker-end
     ::: moniker range="vs-2017"
@@ -237,7 +240,17 @@ For information on running the remote debugger as a service, see [Run the remote
 
     The breakpoint should be hit in Visual Studio.
 
-## <a name="bkmk_openports"></a> Troubleshooting: Open required ports on Windows Server
+## Troubleshooting IIS deployment
+
+- If you can't connect to the host using the host name, try the IP address instead.
+- Make sure the required ports are open on the remote server.
+- For ASP.NET Core, you need to make sure that the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
+- Verify that the version of ASP.NET used in your app is the same as the version you installed on the server. For your app, you can view and set the version in the **Properties** page. To set the app to a different version, that version must be installed.
+- If the app tried to open, but you see a certificate warning, choose to trust the site. If you already closed the warning, you can edit the publishing profile, a *.pubxml file, in your project and add the following element (for test only): `<AllowUntrustedCertificate>true</AllowUntrustedCertificate>`
+- If the app does not start from Visual Studio, start the app in IIS to test that it deployed correctly.
+- Check the Output window in Visual Studio for status information, and check your error messages.
+
+## <a name="bkmk_openports"></a> Open required ports on Windows Server
 
 In most setups, required ports are opened by the installation of ASP.NET and the remote debugger. However, you may need to verify that ports are open.
 
@@ -246,14 +259,17 @@ In most setups, required ports are opened by the installation of ASP.NET and the
 
 Required ports:
 
-* 80 - Required for IIS
-::: moniker range=">=vs-2019"
+* 80 - Required for IIS (HTTP)
+::: moniker range=">=vs-2022"
+* 4026 - Required for remote debugging from Visual Studio 2022 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
+::: moniker-end
+::: moniker range="vs-2019"
 * 4024 - Required for remote debugging from Visual Studio 2019 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
 ::: moniker-end
 ::: moniker range="vs-2017"
 * 4022 - Required for remote debugging from Visual Studio 2017 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
 ::: moniker-end
-* UDP 3702 - (Optional) Discovery port enables you to the **Find** button when attaching to the remote debugger in Visual Studio.
+* UDP 3702 - (Optional) Discovery port enables you to use the **Find** button when attaching to the remote debugger in Visual Studio.
 
 1. To open a port on Windows Server, open the **Start** menu, search for **Windows Firewall with Advanced Security**.
 
@@ -266,6 +282,7 @@ Required ports:
 5. Select one or more network types to enable for the port and click **Next**.
 
     The type you select must include the network to which the remote computer is connected.
+
 6. Add the name (for example, **IIS**, **Web Deploy**, or **msvsmon**) for the Inbound Rule and click **Finish**.
 
     You should see your new rule in the Inbound Rules or Outbound Rules list.

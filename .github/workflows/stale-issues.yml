@@ -22,6 +22,6 @@ jobs:
           exempt-issue-labels: 'exempt'
           remove-stale-when-updated: true
           days-before-close: 14
-          days-before-issue-stale: 360
+          days-before-issue-stale: 250
           days-before-pr-stale: -1
           operations-per-run: 500

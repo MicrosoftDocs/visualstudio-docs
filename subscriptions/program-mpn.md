@@ -1,10 +1,10 @@
 ---
 title: Visual Studio subscriptions offered in the Microsoft Partner Network | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 7f4399d8-41da-41e5-a666-acc34958b8c0
-ms.date: 03/21/2021
+ms.date: 10/13/2021
 ms.topic: conceptual
 description:  Details on what subscriptions are offered, what rules apply, and how many subscriptions are offered in MPN.
 ---

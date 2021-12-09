@@ -1,10 +1,10 @@
 ---
 title: Get started with the Visual Studio subscriptions Admin Portal | Visual Studio Marketplace
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 4c099fe8-883e-4789-9468-387ce5697dfe
-ms.date: 10/28/2020
+ms.date: 11/22/2020
 ms.topic: overview
 description: Learn how to get started managing your organization's Visual Studio subscriptions with the Subscriptions Admin Portal.
 ---
@@ -52,7 +52,7 @@ For more information about the agreement you are viewing, select the second icon
 - [Visual Studio licensing white paper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
 - [Compare subscription options and pricing](https://visualstudio.microsoft.com/vs/pricing)
 - [Compare Visual Studio IDE features](https://visualstudio.microsoft.com/vs/compare)
-- [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/)
+- [Subscriptions support for admins](https://aka.ms/VSSAdminSupport)
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)

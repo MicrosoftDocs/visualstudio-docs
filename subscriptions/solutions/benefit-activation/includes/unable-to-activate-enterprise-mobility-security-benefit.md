@@ -3,8 +3,8 @@ title: Unable to activate my Enterprise Mobility + Security (EMS) benefit
 description: I'm unable to activate my Enterprise Mobility + Security (EMS) benefit included with my Visual Studio subscription? 
 ms.topic: include
 ms.assetid: 104e6ef4-5bb1-4f26-af7c-a6925e3665c7
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 8/14/2020
 user.type: subscriber
 tags: benefit, ems
@@ -20,7 +20,7 @@ Starting in September 2019, Enterprise Mobility + Security for compliance and in
 
 1. Sign in to [subscriptions portal](https://my.visualstudio.com/benefits). 
 1. Locate the Microsoft 365 benefit tile in the "Tools" category, and click on Activate. 
-1. Follow the prompts to set up your Microsoft 355 E5 subscription 
+1. Follow the prompts to set up your Microsoft 365 E5 subscription 
 1. On the Add new users page, you'll see a grid you can use to add users who will all have licenses assigned to them. If you need to add more users click + Add another user. 
 1. After you add users, you'll have the option to do things like create teams and install applications. You can either do any or all of those things now, or come back to the admin center any time to set those up. 
 

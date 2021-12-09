@@ -1,8 +1,8 @@
 ---
 title: Assign Visual Studio subscriptions with GitHub Enterprise | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: f271d623-dcde-442a-865c-4dca5ad8a9c5
 ms.date: 03/03/2021
 ms.topic: conceptual
@@ -65,7 +65,7 @@ Since this process is more complex, it may take several days after subscriptions
 GitHub is available as either the cloud-based GitHub.com, or on-premise GitHub Enterprise Server.  The processes for managing the two versions differ.  GitHub provides various help topics and admin guides to help you manage GitHub Enterprise subscriptions.  We've provided links to selected topics below.  
 
 ## Support resources
-- Learn more about GitHub assignment at [GitHub Docs](https://docs.github.com/en/github/setting-up-and-managing-your-enterprise-account/managing-licenses-for-the-github-enterprise-and-visual-studio-bundle)
+- Learn more about GitHub assignment at [GitHub Docs](https://docs.github.com/en/enterprise-cloud@latest/billing/managing-licenses-for-visual-studio-subscriptions-with-github-enterprise/about-visual-studio-subscriptions-with-github-enterprise)
 - Find answers to questions on a wide array of GitHub topics at [GitHub Help](https://help.github.com/en).
 - Get help from other GitHub users in the [GitHub Community Forum](https://github.community/).
 - For assistance with administration of Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vsadminhelp).

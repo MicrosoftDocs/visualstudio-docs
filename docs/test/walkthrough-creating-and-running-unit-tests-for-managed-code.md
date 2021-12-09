@@ -2,7 +2,7 @@
 title: C# unit test tutorial
 description: Learn how to create, run, and customize a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio Test Explorer.
 ms.custom: SEO-VS-2020
-ms.date: 02/12/2021
+ms.date: 12/01/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - unit tests, walkthrough
@@ -19,9 +19,7 @@ author: mikejo5000
 ---
 # Walkthrough: Create and run unit tests for managed code
 
-This article steps you through creating, running, and customizing a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio **Test Explorer**. You start with a C# project that is under development, create tests that exercise its code, run the tests, and examine the results. Then you change the project code and rerun the tests.
-
-
+This article steps you through creating, running, and customizing a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio **Test Explorer**. You start with a C# project that is under development, create tests that exercise its code, run the tests, and examine the results. Then you change the project code and rerun the tests. If you would like a conceptual overview of these tasks before going through these steps, see [Unit test basics](../test/unit-test-basics.md).
 
 ## Create a project to test
 
@@ -57,7 +55,7 @@ This article steps you through creating, running, and customizing a series of un
 
 4. Name the project **Bank**, and then click **Next**.
 
-   Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+   Choose either the recommended target framework or .NET 6, and then choose **Create**.
 
    The Bank project is created and displayed in **Solution Explorer** with the *Program.cs* file open in the code editor.
 
@@ -163,14 +161,14 @@ You now have a project with methods you can test. In this article, the tests foc
 
 ::: moniker range=">=vs-2019"
 
-2. Type **unit test** in the search box, select **C#** as the language, and then select the C# **Unit Test Project** for .NET Core template, and then click **Next**.
+2. Type **test** in the search box, select **C#** as the language, and then select the C# **MSTest Unit Test Project (.NET Core)** for .NET Core template, and then click **Next**.
 
    > [!NOTE]
-   > Starting in Visual Studio 2019 version 16.9, the MSTest project template name changed from **MSTest Unit Test Project (.NET Core)** to **Unit Test Project**.
+   > In Visual Studio 2019 version 16.9, the MSTest project template is **Unit Test Project**.
 
 3. Name the project **BankTests** and click **Next**.
 
-4. Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+4. Choose either the recommended target framework or .NET 6, and then choose **Create**.
 
    The **BankTests** project is added to the **Bank** solution.
 
@@ -178,7 +176,7 @@ You now have a project with methods you can test. In this article, the tests foc
 
 5. In the **BankTests** project, add a reference to the **Bank** project.
 
-   In **Solution Explorer**, select **Dependencies** under the **BankTests** project and then choose **Add Reference** from the right-click menu.
+   In **Solution Explorer**, select **Dependencies** under the **BankTests** project and then choose **Add Reference** (or **Add Project Reference**) from the right-click menu.
 
 6. In the **Reference Manager** dialog box, expand **Projects**, select **Solution**, and then check the **Bank** item.
 
@@ -278,7 +276,7 @@ public void Debit_WithValidAmount_UpdatesBalance()
 }
 ```
 
-The method is straightforward: it sets up a new `BankAccount` object with a beginning balance and then withdraws a valid amount. It uses the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A?displayProperty=nameWithType> method to verify that the ending balance is as expected.
+The method is straightforward: it sets up a new `BankAccount` object with a beginning balance and then withdraws a valid amount. It uses the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A?displayProperty=nameWithType> method to verify that the ending balance is as expected. Methods such as `Assert.AreEqual`, <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue%2A?displayProperty=nameWithType>, and others are frequently used in unit testing. For more conceptual information on writing a unit test, see [Write your tests](../test/unit-test-basics.md#write-your-tests).
 
 ### Test method requirements
 
@@ -328,7 +326,12 @@ m_balance -= amount;
 
 In **Test Explorer**, choose **Run All** to rerun the test (or press **Ctrl** + **R**, **V**). The red/green bar turns green to indicate that the test passed.
 
+::: moniker range="<=vs-2019"
 ![Test Explorer in Visual Studio 2019 showing passed test](media/test-explorer-banktests-passed.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Test Explorer in Visual Studio 2019 showing passed test](media/vs-2022/test-explorer-banktests-passed.png)
+::: moniker-end
 
 ## Use unit tests to improve your code
 
@@ -438,9 +441,9 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
 
 Currently, the test method doesn't handle all the cases that it should. If the method under test, the `Debit` method, failed to throw an <xref:System.ArgumentOutOfRangeException> when the `debitAmount` was larger than the balance (or less than zero), the test method would pass. This is not good, because you want the test method to fail if no exception is thrown.
 
-This is a bug in the test method. To resolve the issue, add an <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail%2A> assert at the end of the test method to handle the case where no exception is thrown.
+This is a bug in the test method. To resolve the issue, add an <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail%2A?displayProperty=nameWithType> assert at the end of the test method to handle the case where no exception is thrown.
 
-Rerunning the test shows that the test now *fails* if the correct exception is caught. The `catch` block catches the exception, but the method continues to execute and it fails at the new <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail%2A> assert. To resolve this problem, add a `return` statement after the `StringAssert` in the `catch` block. Rerunning the test confirms that you've fixed this problem. The final version of the `Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange` looks like this:
+Rerunning the test shows that the test now *fails* if the correct exception is caught. The `catch` block catches the exception, but the method continues to execute and it fails at the new <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail%2A?displayProperty=nameWithType> assert. To resolve this problem, add a `return` statement after the `StringAssert` in the `catch` block. Rerunning the test confirms that you've fixed this problem. The final version of the `Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange` looks like this:
 
 ```csharp
 [TestMethod]

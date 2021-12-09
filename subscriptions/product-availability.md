@@ -1,10 +1,10 @@
 ---
 title: Product availability for downloads in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: abf271b5-7547-4695-a46f-72b2878ba8d4
-ms.date: 03/21/2021
+ms.date: 10/13/2021
 ms.topic: conceptual
 description:  Learn about product availability in software downloads for Visual Studio subscriptions
 ---
@@ -21,7 +21,7 @@ There are several reasons why particular products may not be available to subscr
 - **The product is not included in your subscription level or program.** [Learn more](https://visualstudio.microsoft.com/vs/pricing/) about the software and benefits available with your subscription or [download the full list](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Products_by_Benefit_Level.xlsx) of products available by subscription level. Some programs, such as [Microsoft Partner Network](https://partner.microsoft.com/), provide Visual Studio subscriptions as a part of their benefits.  Those subscriptions do not include all products included in purchased Visual Studio subscriptions. Subscribers to these programs should direct questions about availability of product downloads to the support teams for those programs.
 - **The product is not included in subscriptions.** Some Microsoft products are not included in subscriptions due to special licensing terms, technical restrictions, or developer relevance. If you would like to suggest a product be added to the subscription, please send email to your Visual Studio [Customer Service Center](https://visualstudio.microsoft.com/subscriptions/support/).
 - **The product is publicly available.** Some tools, SDKs, DDKs, and service packs are publicly available from the [Microsoft Download Center](https://www.microsoft.com/download). Some such products may not be published to Downloads.
-- **The product has not yet released.**  Many pre-release (beta) versions and release candidates are available from Downloads. However, not all betas can be included; for instance, some betas require special registration or eligibility. For more information about open technical beta programs, please visit [Microsoft Connect](https://connect.microsoft.com/).
+- **The product has not yet released.**  Many pre-release (beta) versions and release candidates are available from Downloads. However, not all betas can be included; for instance, some betas require special registration or eligibility. 
 - **The product is not available in your country/region.** Some Microsoft products are not available due to regional restrictions.
 - **Redundant software.** Select Office suites and standalone Office downloads and product keys are no longer available in subscriptions that include Office. Downloads and product keys are available for the corresponding highest Office suite of the same version.  For example, if you search for PowerPoint 2010, the search will not produce any results.  However, you can search for Office 2010 - the Office suite that contained PowerPoint 2010 - and download the suite.
 

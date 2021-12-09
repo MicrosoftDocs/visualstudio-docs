@@ -1,8 +1,8 @@
 ---
 title: Pluralsight benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: bc8b526c-2fed-4ac8-aaa2-73d2495256fd
 ms.date: 03/17/2021
 ms.topic: how-to
@@ -118,4 +118,4 @@ A:  At the end of your free Pluralsight subscription, you may choose to purchase
 ## Next steps
 Once you've created your account, you're ready to start training.  Visit [https://www.pluralsight.com](https://www.pluralsight.com) and tap **log in** at the top right corner of the page to start a new course, or return to a course already in progress.
 
-Take advantage of your own development sandbox by activating your [Azure DevTest individual credit](vs-azure.md).
+Take advantage of your own development sandbox by activating your [Azure DevTest individual credit](/azure/devtest/offer/quickstart-individual-credit).

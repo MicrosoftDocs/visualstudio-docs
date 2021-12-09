@@ -55,6 +55,6 @@ To change the publish folder path, open the publish profile and edit the `publis
 To change the build configuration that is used, change the `LastUsedBuildConfiguration` property in the publish profile.
 
 ## See also
- - [dotnet publish](https://docs.microsoft.com/dotnet/core/tools/dotnet-publish)
- - [Publish a Web app to a web site using Visual Studio
-](https://docs.microsoft.com/visualstudio/deployment/quickstart-deploy-to-a-web-site?view=vs-2019)
+ - [dotnet publish](/dotnet/core/tools/dotnet-publish)
+ - [Publish a Web app to a web site using Visual Studio](/visualstudio/deployment/quickstart-deploy-to-a-web-site?view=vs-2019&preserve-view=true)
+ - [Publish an ASP.NET Core app to IIS](/aspnet/core/tutorials/publish-to-iis?view=aspnetcore-5.0&tabs=visual-studio&preserve-view=true)

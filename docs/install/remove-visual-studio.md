@@ -2,8 +2,8 @@
 title: Remove Visual Studio
 titleSuffix: ''
 description: Learn how to completely remove Visual Studio from your computer, step by step.
-ms.date: 12/19/2019
-ms.custom: seodec18
+ms.date: 12/01/2021
+ms.custom: vs-acquisition
 ms.topic: how-to
 f1_keywords:
 - uninstall
@@ -34,10 +34,10 @@ If you experience a catastrophic error and can't repair or uninstall Visual Stud
 
 You can use either of the following command-line switches with the `InstallCleanup.exe` tool:
 
-| Switch | Behavior                                                                                                                                                                                                                                                                                                                 |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `-i`   | This switch is the default if no other switch is passed. It removes only the main installation directory and product information. Use this switch if you intend to reinstall the same version of Visual Studio after you run the `InstallCleanup.exe` tool.                                                              |
-| `-f`   | This switch removes the main installation directory, product information, and most other features installed outside the installation directory, that might also be shared with other Visual Studio installations or other products. Use this switch if you intend to remove Visual Studio without reinstalling it later. |
+| Switch | Behavior |
+|-----------------|--------------------|
+|  `-i [version]`   | This switch is the default if no other switch is passed. It removes only the main installation directory and product information. Use this switch if you intend to reinstall the same version of Visual Studio after you run the `InstallCleanup.exe` tool. If a `[version]` value is specified, only products with a version that start with this string value will be removed. |
+|   `-f`           | This switch removes the main installation directory, product information, and most other features installed outside the installation directory, that might also be shared with other Visual Studio installations or other products. Use this switch if you intend to remove Visual Studio without reinstalling it later. |
 
 Here's how to run the `InstallCleanup.exe` tool:
 
@@ -48,8 +48,10 @@ Here's how to run the `InstallCleanup.exe` tool:
 1. Enter the full path of the `InstallCleanup.exe` tool and add the command-line switch you prefer. By default, the path of the tool is as follows. The double quotes enclose a command containing spaces:
 
    ```shell
-   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\resources\app\layout\InstallCleanup.exe"
+   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\InstallCleanup.exe"
    ```
+
+   For example, use the switch *-i 17* with `InstallCleanup.exe` to remove all 17 versioned products.
 
    > [!NOTE]
    > If you can't find `InstallCleanup.exe` under the Visual Studio Installer directory, which is always located at `%ProgramFiles(x86)%\Microsoft Visual Studio`, here's what to do next. Follow the instructions to [install Visual Studio](install-visual-studio.md). Then, when the workload selection screen is displayed, close the window and follow the steps on this page again.

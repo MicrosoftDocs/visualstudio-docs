@@ -1,8 +1,8 @@
 ---
 title: Visual Studio Subscriptions in MPSA | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: b331c837-3524-42b7-820e-b4fdd5e12793
 ms.date: 03/21/2021
 ms.topic: conceptual

@@ -88,7 +88,7 @@ After you create a bootstrapper package, you can create localized versions of th
 6. Save the *package.xml* file.
 
 >[!NOTE]
-> Starting with the Visual Studio 2019 Update 7 release bootstrapper packages will also be discovered under the path *<VS Install Path>\MSBuild\Microsoft\VisualStudio\BootstrapperPackages*.
+> Starting with the Visual Studio 2019 Update 7 release bootstrapper packages will also be discovered under the path *{VS Install Path}\MSBuild\Microsoft\VisualStudio\BootstrapperPackages*.
 
 ## See also
 - [Create bootstrapper packages](../deployment/creating-bootstrapper-packages.md)

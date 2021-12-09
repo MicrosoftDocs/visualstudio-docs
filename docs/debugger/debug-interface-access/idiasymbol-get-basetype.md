@@ -1,5 +1,6 @@
 ---
-title: "IDiaSymbol::get_baseType | Microsoft Docs"
+title: "IDiaSymbol::get_baseType"
+description: "Retrieves the base type for this symbol"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -15,7 +16,7 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_baseType
-Retrieves the base type for this symbol<em>.</em>
+Retrieves the base type for this symbol.
 
 ## Syntax
 

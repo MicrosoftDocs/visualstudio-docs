@@ -58,11 +58,13 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: 'How to: Configure the build and debug environment'
-            url: container-build.md
-          - text: 'How to: View and diagnose containers'
+          - text: 'Use the Containers window'
             url: view-and-diagnose-containers.md
-          - text: 'How to: Troubleshoot container development tools'
+          - text: 'Launch a subset of your Compose services'
+            url: launch-profiles.md
+          - text: 'Configure the build and debug environment'
+            url: container-build.md
+          - text: 'Troubleshoot container development tools'
             url: troubleshooting-docker-errors.md
 
   - title: Container tools settings
@@ -83,7 +85,7 @@ landingContent:
       - linkListType: quickstart
         links:
           - text: Use Bridge to Kubernetes with Visual Studio
-            url: /visualstudio/bridge/bridge-to-kubernetes
+            url: /visualstudio/bridge/overview-bridge-to-kubernetes
       - linkListType: overview
         links:
           - text: How Bridge to Kubernetes works

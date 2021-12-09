@@ -1,7 +1,7 @@
 ---
 title: Install Visual Studio versions side-by-side
 description: Learn how to install Visual Studio on a computer that has an earlier or later version of Visual Studio already installed.
-ms.custom: SEO-VS-2020
+ms.custom: "vs-acquisition, SEO-VS-2020"
 ms.date: 03/29/2021
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
@@ -93,7 +93,7 @@ When upgrading from one minor version of Visual Studio to the next, the Visual S
 
 ::: moniker range=">=vs-2022"
 
-1. Download the Visual Studio 2022 bootstrapper file from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2022 Releases](/visualstudio/releases/2022/history) page for the minor version that you would like to install side-by-side with your existing version of Visual Studio.
+1. Download the Visual Studio 2022 bootstrapper file from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2022 Releases](/visualstudio/releases/2022/release-notes) page for the minor version that you would like to install side-by-side with your existing version of Visual Studio.
 
 1. Open the command prompt in administrator mode. To do this, open the Windows Start menu, type "cmd", right-click on the Command Prompt search result, and select **Run as administrator**. In the command prompt, change the directory to the folder where your Visual Studio bootstrapper file is located.
 

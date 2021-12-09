@@ -7,11 +7,7 @@ ms.topic: how-to
 f1_keywords: 
   - vs.debug.register.edit
 dev_langs: 
-  - CSharp
-  - VB
-  - FSharp
   - C++
-  - JScript
 helpviewer_keywords: 
   - Registers window, editing register values
   - register values
@@ -23,7 +19,7 @@ ms.technology: vs-ide-debug
 ms.workload: 
   - multiple
 ---
-# How to: Edit a Register Value (C#, C++, Visual Basic, F#)
+# How to: Edit a Register Value (C++)
 
 The Registers window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node.
 

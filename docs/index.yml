@@ -7,12 +7,12 @@ metadata:
   description: Explore documentation for the Visual Studio family of products, including Visual Studio IDEs for Windows and Mac, Visual Studio Code, Visual Studio App Center, GitHub Codespaces, and Visual Studio Subscriptions.
   ms.topic: hub-page
   ms.custom: "contperf-fy21q1, contperf-fy21q3"
-  ms.date: 03/23/2021
+  ms.date: 11/08/2021
   searchScope: []
   titleSuffix: ""
   ms.author: ghogen
   author: ghogen
-  ms.manager: jillfra
+  ms.manager: jmartens
   monikerRange: ">=vs-2017"
   hide_bc: true
 
@@ -21,13 +21,15 @@ productDirectory:
     - title: Visual Studio
       imageSrc: ./media/vs-ide-2019.svg
       links:
+        - url: ./windows/index.yml?view=vs-2022&preserve-view=true
+          text: Visual Studio 2022 (current)
         - url: ./windows/index.yml?view=vs-2019&preserve-view=true
-          text: Visual Studio 2019 (current)
+          text: Visual Studio 2019
         - url: ./windows/index.yml?view=vs-2017&preserve-view=true
           text: Visual Studio 2017
         - url: /previous-versions/visualstudio/
           text: Previous versions
-        - url: /visualstudio/releases/2019/release-notes
+        - url: /visualstudio/releases/2022/release-notes
           text: Release notes
         - url: https://visualstudio.microsoft.com/
           text: Product page

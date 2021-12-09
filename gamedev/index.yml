@@ -10,7 +10,7 @@ metadata:
   ms.author: johmil
   ms.date: 08/05/2020
   ms.topic: hub-page
-
+  ms.prod: visual-studio
 highlightedContent:
   items:
     - title: Game development with Visual Studio
@@ -56,9 +56,9 @@ productDirectory:
       links:
         - url: https://www.unrealengine.com/features
           text: Overview of Unreal Engine
-        - url: https://docs.unrealengine.com/GettingStarted/index.html
+        - url: https://docs.unrealengine.com/4.27/en-US/Basics/GettingStarted/
           text: Get started with Unreal Engine
-        - url: https://docs.unrealengine.com/Programming/Development/VisualStudioSetup/index.html
+        - url: https://docs.unrealengine.com/4.27/en-US/ProductionPipelines/DevelopmentSetup/VisualStudioSetup/
           text: Setting up Visual Studio for Unreal Engine
 
 conceptualContent:
@@ -68,14 +68,14 @@ conceptualContent:
     - title: Learn how to use Visual Studio
       links:
         - text: Start a guided tour
-          url: /docs/get-started/visual-studio-ide.md
+          url: /visualstudio/get-started/visual-studio-ide
           itemType: overview
         - text: Write and edit code
-          url: /docs/ide/index-writing-code.yml
+          url: /visualstudio/ide/index-writing-code
           itemType: tutorial
         - text: General debugging features
           itemType: tutorial
-          url: /docs/debugger/debugger-feature-tour.md
+          url: /visualstudio/debugger/debugger-feature-tour
     - title: Follow a tutorial
       links:
         - text: Your first game with Unity

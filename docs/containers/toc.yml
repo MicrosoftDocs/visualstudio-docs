@@ -17,21 +17,22 @@
     - name: Multi-container app with Docker Compose
       href: tutorial-multicontainer.md
   - name: How to
+    expanded: true
     items:
     - name: Debug app in a local Docker container
       href: edit-and-refresh.md
+    - name: Use the Containers window
+      href: view-and-diagnose-containers.md
+    - name: Launch a subset of Compose services
+      href: launch-profiles.md
+    - name: Configure Container Tools
+      href: container-tools-configure.md
     - name: Deploy to a container registry
       href: hosting-web-apps-in-docker.md
     - name: Deploy to Azure App Service
       href: deploy-app-service.md
     - name: Deploy to Docker Hub
       href: deploy-docker-hub.md
-    - name: Manage launch profiles
-      href: launch-profiles.md
-    - name: View and diagnose containers and images
-      href: view-and-diagnose-containers.md
-    - name: Configure Container Tools
-      href: container-tools-configure.md
   - name: Concepts
     items:
     - name: How Visual Studio builds containerized apps

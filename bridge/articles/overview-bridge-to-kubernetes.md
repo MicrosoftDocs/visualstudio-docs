@@ -1,6 +1,7 @@
 ---
 title: "How Bridge to Kubernetes works"
 ms.technology: bridge
+ms.custom: "contperf-fy22q1"
 ms.date: 11/19/2020
 ms.topic: "conceptual"
 description: "Describes the processes for using Bridge to Kubernetes to connect your development computer to your Kubernetes cluster"
@@ -16,7 +17,7 @@ Bridge to Kubernetes allows you to run and debug code on your development comput
 
 Bridge to Kubernetes avoids having to build and deploy your code to your cluster by instead creating a connection directly between your development computer and your cluster. Connecting your development computer to your cluster while debugging allows you to quickly test and develop your service in the context of the full application without creating any Docker or Kubernetes configuration.
 
-Bridge to Kubernetes redirects traffic between your connected Kubernetes cluster and your development computer. This traffic redirection allows code on your development computer and services running in your Kubernetes cluster to communicate as if they are in the same Kubernetes cluster. Bridge to Kubernetes also provides a way to replicate environment variables and mounted volumes available to pods in your Kubernetes cluster in your development computer. Providing access to environment variables and mounted volumes on your development computer allows you to quickly work on your code without having replicate those dependencies manually.
+Bridge to Kubernetes redirects traffic between your connected Kubernetes cluster and your development computer. This traffic redirection allows code on your development computer and services running in your Kubernetes cluster to communicate as if they are in the same Kubernetes cluster. Bridge to Kubernetes also provides a way to replicate environment variables and mounted volumes available to pods in your Kubernetes cluster in your development computer. Providing access to environment variables and mounted volumes on your development computer allows you to quickly work on your code without having to replicate those dependencies manually.
 
 In Visual Studio Code, Bridge to Kubernetes supports all languages as long as you can run them locally. In Visual Studio, Bridge to Kubernetes supports .NET Core; .NET Framework is not supported because it requires Windows nodes support, which Bridge to Kubernetes doesn't have.
 
@@ -67,8 +68,8 @@ The following animation shows two developers working on the same cluster in isol
 When you enable working in isolation, Bridge to Kubernetes does the following in addition to connecting to your Kubernetes cluster:
 
 * Verifies Kubernetes cluster does not have Azure Dev Spaces enabled.
-* Replicates your chosen service in the cluster in the same namespace and adds a *routing.visualstudio.io/route-from=SERVICE_NAME* label and *routing.visualstudio.io/route-on-header=kubernetes-route-as: GENERATED_NAME* annotation.
-* Configures and starts the routing manager in the same namespace on the Kubernetes cluster. The routing manager uses a label selector to look for the *routing.visualstudio.io/route-from=SERVICE_NAME* label and  *routing.visualstudio.io/route-on-header=kubernetes-route-as: GENERATED_NAME* annotation when configuring routing in your namespace.
+* Replicates your chosen service in the cluster in the same namespace and adds a *routing.visualstudio.io/route-from=SERVICE_NAME* label and *routing.visualstudio.io/route-on-header=kubernetes-route-as=GENERATED_NAME* annotation.
+* Configures and starts the routing manager in the same namespace on the Kubernetes cluster. The routing manager uses a label selector to look for the *routing.visualstudio.io/route-from=SERVICE_NAME* label and  *routing.visualstudio.io/route-on-header=kubernetes-route-as=GENERATED_NAME* annotation when configuring routing in your namespace.
 
 If Bridge to Kubernetes detects that Azure Dev Spaces is enabled on your Kubernetes cluster, you are prompted to disable Azure Dev Spaces before you can use Bridge to Kubernetes.
 

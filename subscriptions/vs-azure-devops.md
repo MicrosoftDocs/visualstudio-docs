@@ -1,15 +1,15 @@
 ---
 title: Azure DevOps benefits for Visual Studio subscribers | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
-manager: lank
+ms.author: amast
+manager: shve
 ms.assetid: fe826200-9600-4b29-a64e-0d66ba3caf3d
-ms.date: 02/19/2021
+ms.date: 10/14/2021
 ms.topic: conceptual
 description:  Understand how you can use Azure DevOps as a Visual Studio subscriber.
 ---
-# Azure DevOps benefits for Visual Studio subscribers
-As an active Visual Studio subscriber, you can use a range of features in Azure DevOps that are included with your subscription as a benefit. You'll be able to use these same features in each Azure DevOps organization in which you are a member, whether you created the organization or were added by someone else.
+# Azure DevOps for Visual Studio subscribers
+As an active Visual Studio subscriber, you can use a range of features in Azure DevOps that are included with your subscription. You'll be able to use these same features in each Azure DevOps organization in which you are a member, whether you created the organization or were added by someone else.
 
 ## Sign in
 
@@ -64,4 +64,4 @@ Learn more about Azure DevOps features:
 - [Azure Test Plans](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web)
 - [Azure Artifacts](https://marketplace.visualstudio.com/items?itemName=ms.feed)
 
-Learn how to activate your [Azure DevTest individual credit](vs-azure.md).
+Learn how to activate your [Azure DevTest individual credit](/azure/devtest/offer/quickstart-individual-credit).

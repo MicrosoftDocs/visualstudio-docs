@@ -1,19 +1,19 @@
 ---
 title:  Set preferences in the Visual Studio subscriptions admin portal
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 0fe9eaa4-f589-429e-a443-13bf86637d5a
-ms.date: 05/18/2021
+ms.date: 10/08/2021
 ms.topic: conceptual
 description: Learn how to set preferences for language, contacts, subscription level and others in the Administration Portal
 ---
 
 # Set preferences for your agreements in the admin portal
-Super admins can set certain preferences in the Administration Portal (admin portal) that will be applied globally for each agreement.  These preferences will automatically populate subscription details for your admins when they are adding subscribers, and can only be modified globally by super admins.  
+Super admins can set certain preferences in the Administration portal (admin portal) that will be applied globally for each agreement.  These preferences will automatically populate subscription details for your admins when they are adding subscribers, and can only be modified globally by super admins.  
 
 ## Access preferences
-You must be signed in to the [admin portal](https://manage.visualstudio.com) using a sign in ID that has super admin rights on the agreement in order to view or modify the preferences.  
+You must be signed in to the [admin portal](https://manage.visualstudio.com) using a sign-in ID that has super admin rights on the agreement in order to view or modify the preferences.  
 
 To set your preferences:
 1. Sign in to the admin portal with an ID that has super admin privileges.

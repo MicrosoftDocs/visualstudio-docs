@@ -1,10 +1,10 @@
 ---
 title: Downloading software titles in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: e2f2619c-7736-47e5-a066-5940d5994db9
-ms.date: 02/18/2021
+ms.date: 10/13/2021
 ms.topic: conceptual
 description:  Learn how to locate and download Microsoft software titles in Visual Studio subscriptions
 ---
@@ -62,6 +62,6 @@ To learn more about locating, claiming, and exporting product keys, check out ou
 - [Locate and claim keys](find-keys.md)
 
 Learn how to take advantage of other great benefits such as:
-- [Azure DevTest individual credit](vs-azure.md)
+- [Azure DevTest offer / credits](/azure/devtest/offer/)
 - [Azure DevOps](vs-azure-devops.md)
 - [Visual Studio IDE](vs-ide-benefit.md)

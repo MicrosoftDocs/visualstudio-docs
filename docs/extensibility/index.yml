@@ -10,7 +10,7 @@ metadata:
   ms.date: 02/24/2020
   author: madskristensen
   ms.author: madsk  
-  manager: jillfra
+  manager: jmartens
   ms.prod: visual-studio-windows
   ms.technology: vs-ide-general  
 
@@ -24,6 +24,8 @@ landingContent:
         links:
           - text: Install the Visual Studio SDK
             url: ./installing-the-visual-studio-sdk.md
+          - text: Write Visual Studio extensions with the Visual Studio Community Toolkit
+            url: ./vsix/visual-studio-community-toolkit.md
       - linkListType: overview
         links:
           - text: Writing Visual Studio extensions

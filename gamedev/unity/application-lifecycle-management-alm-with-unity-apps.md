@@ -36,7 +36,7 @@ General Comment: all planning and tracking features are independent of project t
 
 ## Modeling
 
-Reference link: **[Analyze and model architecture](/modeling/analyze-and-model-your-architecture.md)**
+Reference link: **[Analyze and model architecture](/visualstudio/modeling/analyze-and-model-your-architecture)**
 
 General Comment: Although these design features are either independent of coding language, or work with .NET languages like C#, they operate on a traditional application paradigm with object hierarchies and class relationships. Designing a game within Unity involves a different paradigm altogether, namely the relationships of graphical objects, sounds, shaders, scripts, and so forth. For this reason, the Visual Studio modeling diagram tools are not particularly relevant to the whole of a Unity project. They could possibly be used to manage relationships within C# scripts, but that is only one part of the whole.
 
@@ -57,9 +57,9 @@ General Comment: Although these design features are either independent of coding
 |-------------|--------------------------|-------------------------|
 |[Use Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview?view=vsts&preserve-view=true) or Azure Repos|Yes|Unity projects are simply a collection of files that can be placed into version control systems like any other project, but there are a few special considerations described after this table.|
 |[Getting started with Git in Azure Repos](/azure/devops/repos/git/gitquickstart?view=vsts&preserve-view=true&tabs=visual-studio)|Yes|See notes after the table.|
-|[Improve Code Quality](/test/improve-code-quality.md)|Yes||
-|[Find code changes and other history](/ide/find-code-changes-and-other-history-with-codelens.md)|Yes||
-|[Use code maps to debug your applications](/modeling/use-code-maps-to-debug-your-applications.md)|Yes||
+|[Improve Code Quality](/visualstudio/test/improve-code-quality)|Yes||
+|[Find code changes and other history](/visualstudio/ide/find-code-changes-and-other-history-with-codelens)|Yes||
+|[Use code maps to debug your applications](/visualstudio/modeling/use-code-maps-to-debug-your-applications)|Yes||
 
 Special considerations for version control with Unity:
 
@@ -89,20 +89,20 @@ Reference link: **[Azure Pipelines](/azure/devops/pipelines/index?view=vsts&pres
 |Manual testing|Yes||
 |Test Manager (record and playback tests)|Windows devices and Android emulators only||
 |Code coverage|n/a|Not applicable as unit testing happens within Unity and not Visual Studio, see below.|
-|[Unit test your code](/test/unit-test-your-code.md)|Within Unity, but not Visual Studio|Unity provides its own unit test framework as part of [Unity test tools](https://assetstore.unity.com/packages/tools/utilities/unity-test-tools-13802) (Unity Asset Store). Unit test results are reported within Unity and will not be surfaced within Visual Studio.|
-|[Use UI automation to test your code](/test/use-ui-automation-to-test-your-code.md)|No|Coded UI tests rely on readable controls in the app's UI; Unity apps are graphical in nature and so content isn't readable by the Coded UI test tools.|
+|[Unit test your code](/visualstudio/test/unit-test-your-code)|Within Unity, but not Visual Studio|Unity provides its own unit test framework as part of [Unity test tools](https://assetstore.unity.com/packages/tools/utilities/unity-test-tools-13802) (Unity Asset Store). Unit test results are reported within Unity and will not be surfaced within Visual Studio.|
+|[Use UI automation to test your code](/visualstudio/test/use-ui-automation-to-test-your-code)|No|Coded UI tests rely on readable controls in the app's UI; Unity apps are graphical in nature and so content isn't readable by the Coded UI test tools.|
 
 ## Improve code quality
 
-Reference link: **[Improve code quality](/test/improve-code-quality.md)**
+Reference link: **[Improve code quality](/visualstudio/test/improve-code-quality)**
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
-|[Analyze managed code quality](/code-quality/code-analysis-for-managed-code-overview.md)|Yes|Can analyze the C# script code within Visual Studio.|
+|[Analyze managed code quality](/visualstudio/code-quality/code-analysis-for-managed-code-overview)|Yes|Can analyze the C# script code within Visual Studio.|
 |[Find duplicate code by using code clone detection](https://msdn.microsoft.com/library/hh205279.aspx)|Yes|Can analyze the C# script code within Visual Studio.|
-|[Measure complexity and maintainability of managed code](/code-quality/code-metrics-values.md)|Yes|Can analyze the C# script code within Visual Studio.|
-|[Performance tools](/profiling/performance-explorer.md)|No|Use the [Unity Profiler](https://docs.unity3d.com/Manual/Profiler.html) (Unity website).|
-|[Analyze .NET Framework memory issues](https://msdn.microsoft.com/library/dn342825.aspx)|No|Visual Studio tools do not have hooks into the Mono framework (as used by Unity) for profiling. Use the [Unity Profiler](http://docs.unity3d.com/Manual/Profiler.html) (Unity documentation).|
+|[Measure complexity and maintainability of managed code](/visualstudio/code-quality/code-metrics-values)|Yes|Can analyze the C# script code within Visual Studio.|
+|[Performance tools](/visualstudio/profiling/performance-explorer)|No|Use the [Unity Profiler](https://docs.unity3d.com/Manual/Profiler.html) (Unity website).|
+|Analyze .NET Framework memory issues|No|Visual Studio tools do not have hooks into the Mono framework (as used by Unity) for profiling. Use the [Unity Profiler](http://docs.unity3d.com/Manual/Profiler.html) (Unity documentation).|
 
 ## Release management
 
@@ -116,7 +116,7 @@ Reference link: [Build and release in Azure Pipelines and TFS](/azure/devops/pip
 
 ## Monitor with HockeyApp
 
-Reference link: **[Monitor with HockeyApp](https://www.hockeyapp.net/features/)**
+Reference link: **[Monitor with HockeyApp](https://marketplace.visualstudio.com/items?itemName=ms.hockeyapp)**
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|

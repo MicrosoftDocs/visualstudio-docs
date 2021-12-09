@@ -1,17 +1,19 @@
 ---
 title: Microsoft Windows Virtual Desktop in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 872c5746-5357-4764-949b-aa525a0adf1a
-ms.date: 03/17/2021
+ms.date: 10/18/2021
 ms.topic: conceptual
 description:  Learn how you can take advantage of Microsoft Windows Virtual Desktop via your Visual Studio subscription 
 ---
 
 # Access Windows Virtual Desktop in subscriptions 
 Visual Studio subscribers are now able to use their Azure dev/test individual credits for Microsoft Windows Virtual Desktop services.  
+
 Windows Virtual Desktop is a comprehensive desktop and app virtualization service running in the cloud. It’s the only virtual desktop infrastructure (VDI) that delivers simplified management, multi-session Windows 10, optimizations for Microsoft 365 Apps for enterprise, and support for Remote Desktop Services (RDS) environments. Deploy and scale your Windows desktops and apps on Azure in minutes and get built-in security and compliance features.
+
 Here's what you can do when you run Windows Virtual Desktop on Azure:
 - Set up a multi-session Windows 10 deployment that delivers a full Windows 10 with scalability
 - Virtualize Microsoft 365 Apps for enterprise and optimize it to run in multi-user virtual scenarios
@@ -23,9 +25,9 @@ For more information about what you can do with Windows Virtual Desktop, watch t
 
 ## Use Windows Virtual Desktop with Azure 
 Visual Studio subscribers now have several ways to use Azure subscriptions to pay for Windows Virtual Desktop services:
-- [Azure DevTest individual credits](vs-azure.md).  Subscribers who receive Azure DevTest individual credits as part of their subscriptions can use those credits to pay for Windows Virtual Desktop services.  The amount of the monthly credit depends on the subscription level.
-- [Azure DevTest Pay-as-you-Go subscriptions](vs-azure-payg.md).  You can create Azure subscriptions and attach a payment instrument to have a seamless way to pay for your Windows Virtual Desktop usage. 
-- [Azure Enterprise Agreement DevTest offer](azure-ea-devtest.md).  With this offer, subscribers with Enterprise Agreements can pay for Windows Virtual Desktop with Azure at discounted pricing. 
+- [Azure DevTest individual credits](/azure/devtest/offer/quickstart-individual-credit).  Subscribers who receive Azure DevTest individual credits as part of their subscriptions can use those credits to pay for Windows Virtual Desktop services.  The amount of the monthly credit depends on the subscription level.
+- [Azure DevTest Pay-as-you-Go subscriptions](https://azure.microsoft.com/offers/ms-azr-0023p/).  You can create Azure subscriptions and attach a payment instrument to have a seamless way to pay for your Windows Virtual Desktop usage. 
+- [Azure Enterprise Agreement DevTest offer](/azure/devtest/offer/quickstart-create-enterprise-devtest-subscriptions).  With this offer, subscribers with Enterprise Agreements can pay for Windows Virtual Desktop with Azure at discounted pricing. 
 
 ## Requirements
 Windows Virtual Desktop requires an Azure Active Directory (Azure AD) to which VMs will be joined.  Users must be members of this Azure AD.  There are two options to implement the Azure AD:

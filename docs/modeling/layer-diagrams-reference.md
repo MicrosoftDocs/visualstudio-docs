@@ -45,7 +45,7 @@ Use a dependency diagram to help you perform the following tasks:
 
 - Reinforce the intended architecture during the development and maintenance of your code by including validation with your check-in and build operations.
 
-This topic describes the elements that you can use on a dependency diagram. For more detailed information about how to create and draw dependency diagrams, see [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md). For more information about layering patterns, visit the [Patterns & Practices site](https://archive.codeplex.com/?p=apparch).
+This topic describes the elements that you can use on a dependency diagram. For more detailed information about how to create and draw dependency diagrams, see [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md). For more information about layering patterns, visit the [Patterns & Practices site](/archive/msdn-magazine/2009/may/patterns-and-practices-simplifying-patterns-and-practices).
 
 ## Reading dependency diagrams
 

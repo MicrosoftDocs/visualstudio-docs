@@ -2,10 +2,10 @@
 title: How Visual Studio makes source control easy
 titleSuffix: ''
 description: Learn how to use Git & GitHub in Visual Studio to track changes to your code and revert them if you need to.
-ms.date: 04/01/2021
+ms.date: 11/08/2021
 ms.topic: conceptual
+author: Taysser-Gherfal
 ms.author: tglee
-author: TerryGLee
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
@@ -43,10 +43,10 @@ Git integration in Visual Studio promotes trust and confidence by providing cont
 
 ## Next steps
 
-To learn more about using Git and GitHub in Visual Studio, watch the following YouTube video: [Getting started with Git in Visual Studio](https://www.youtube.com/watch?v=GCZ9x3yqkyc&list=PLReL099Y5nRc-zbaFbf0aNcIamBQujOxP)
+To learn more about using Git and GitHub in Visual Studio 2019, watch the following YouTube video: [Getting started with Git in Visual Studio](https://www.youtube.com/watch?v=GCZ9x3yqkyc&list=PLReL099Y5nRc-zbaFbf0aNcIamBQujOxP)
 
 ## See also
 
-- [Get Started with Git and GitHub in Visual Studio](/learn/modules/visual-studio-github-push/)
-- [The new Git experience in Visual Studio](git-with-visual-studio.md)
-- [Compare Git and Team Explorer side-by-side](git-team-explorer-feature-comparison.md)
+- [Get Started with Git and GitHub in Visual Studio 2019](/learn/modules/visual-studio-github-push/)
+- [The new Git experience in Visual Studio 2019](git-with-visual-studio.md?view=vs-2019&preserve-view=true)
+- [Compare Git and Team Explorer side-by-side in Visual Studio 2019](git-team-explorer-feature-comparison.md?view=vs-2019&preserve-view=true)

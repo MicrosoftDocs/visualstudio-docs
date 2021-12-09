@@ -1,0 +1,24 @@
+{
+    "redirections": [
+        {
+            "source_path": "subscriptions/vs-azure.md",
+            "redirect_url": "/azure/devtest/offer/quickstart-individual-credit",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/vs-azure-payg.md",
+            "redirect_url": "https://azure.microsoft.com/offers/ms-azr-0023p/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/azure-ea-devtest.md",
+            "redirect_url": "/azure/devtest/offer/quickstart-create-enterprise-devtest-subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/faq/subscriber/azure/index.md",
+            "redirect_url": "/azure/devtest/offer/quickstart-individual-credit",
+            "redirect_document_id": false
+        }
+    ]
+}

@@ -1,16 +1,15 @@
 ---
 title: Sign in to Visual Studio Subscriptions with a  Microsoft Account | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin    
-manager: cabuschl
+ms.author: amast  
+manager: shve
 ms.assetid: 19038bb0-2858-49df-9624-cbf8bfbb5d39
-ms.date: 02/19/2021
+ms.date: 10/13/2021
 ms.topic: how-to
 description:  How to Sign In to Your Visual Studio Subscription with your Microsoft Account (MSA)
 ---
 
 # Signing in to your Visual Studio subscription(s) with your Microsoft Account (MSA)
-
 The steps to sign in to your Visual Studio subscription depend on the kind of account you're using.  For example, you may be using a Microsoft Account (MSA) or an email address supplied by your employer or school.  As of January 2019, you can now also use your GitHub account to sign in to some subscriptions. 
 
 This article will provide the steps for signing in with your Microsoft Account (MSA).
@@ -33,7 +32,7 @@ A:  The most common cause of sign in problems is attempting to sign in with an M
 ### Q:  I can't see my subscription. Where is it?
 A:  Many users have more than one subscription.  If you are able to sign in to the subscriptions portal at https://my.visualstudio.com but cannot see your subscription, there are two common causes:
 - You're logged in with a different Microsoft Account.  It's possible that you have multiple subscriptions, such as a Professional or Enterprise subscription and a Visual Studio Dev Essentials membership, and they're associated with different email addresses. To see the other subscriptions, sign out and sign back in using the other MSA.
-- You have multiple subscriptions associated with the same MSA.  To see all of the subscriptions associated with your MSA, visit https://my.visualstudio.com/subscriptions and choose the subscription you wish to use. 
+- You have multiple subscriptions associated with the same MSA.  To see all of the subscriptions associated with your MSA, visit https://my.visualstudio.com/subscriptions and choose the subscription you wish to use. There is also a drop-down list on the [Benefits page](https://my.visualstudio.com/benefits) you can use to switch between subscriptions that are associated with the same sign-in email address.
 
 ## Resources 
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).

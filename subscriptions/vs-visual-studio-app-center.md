@@ -1,16 +1,15 @@
 ---
 title: Visual Studio App Center benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: v-evwin
+ms.author: amast
 manager: cabushcl
 ms.assetid: badd1d4a-90a6-46de-a037-945a91e6019b
-ms.date: 03/17/2021
+ms.date: 10/18/2021
 ms.topic: how-to
 description:  Learn about the Visual Studio App Center benefit included in Visual Studio subscriptions.
 ---
 
 # Visual Studio App Center in Visual Studio subscriptions
-
 App Center is mission control for apps.
 
 - Automatically build your app, test it on real devices, and distribute it to beta testers
@@ -79,4 +78,4 @@ You should now be able to access the App Center portal and create your account.
 Be sure to activate these great benefits to make the most of your Visual Studio subscription:
 - [Visual Studio](vs-ide-benefit.md)
 - [Azure DevOps](vs-azure-devops.md)
-- [Azure DevTest individual credit](vs-azure.md)
+- [Azure DevTest offer / credits](/azure/devtest/offer/)

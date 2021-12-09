@@ -2,7 +2,7 @@
 title: "Visual Studio Profiler API Reference (Native)"
 description: Learn how the Visual Studio profiler APIs allow you to programmatically control the amount of data collected, and insert both timestamp and profile marks during profiling.
 titleSuffix: ""
-ms.custom: "seodec18"
+
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

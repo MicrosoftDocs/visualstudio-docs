@@ -6,6 +6,7 @@ author: nebuk89
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-docker
+ms.custom: "contperf-fy22q1"
 ms.topic: tutorial
 ms.workload:
   - "azure"
@@ -20,7 +21,7 @@ Containers are compact virtualized environments, like virtual machines (VMs), th
 
 ## Prerequisites
 
-- [Visual Studio Code](https://code.microsoft.com/download)
+- [Visual Studio Code](https://code.visualstudio.com/download)
 - Docker Desktop for [Windows](https://docs.docker.com/docker-for-windows/install/) or [Mac](https://docs.docker.com/docker-for-mac/install/).
 
 ## Start the tutorial

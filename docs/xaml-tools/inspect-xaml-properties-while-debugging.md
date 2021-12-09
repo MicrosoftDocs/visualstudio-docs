@@ -2,7 +2,7 @@
 title: "Inspect XAML properties while debugging | Microsoft Docs"
 description: Learn how to use the Live Visual Tree and Live Property Explorer tools while debugging to inspect XAML properties and get a tree view of UI elements.
 ms.custom: SEO-VS-2020
-ms.date: 03/02/2021
+ms.date: 10/26/2021
 ms.topic: how-to
 ms.assetid: 390edde4-7b8d-4c89-8d69-55106b7e6b11
 author: TerryGLee
@@ -21,8 +21,8 @@ You can use these tools in the following configurations:
 
 |Type of App|Operating System and Tools|
 |-----------------|--------------------------------|
-|Windows Presentation Foundation (4.0 and above) applications|Windows 7 and above|
-|Universal Windows apps|Windows 10 and above, with the [Windows 10 SDK](https://dev.windows.com/downloads/windows-10-sdk)|
+|Windows Presentation Foundation (4.0 and later) applications|Windows 7 and later|
+|Universal Windows apps|Windows 10 and later, with the [Windows 10 SDK](https://dev.windows.com/downloads/windows-10-sdk) and later|
 
 ## Look at Elements in the Live Visual Tree
 
@@ -32,7 +32,7 @@ Let's get started with a very simple WPF application that has a list view and a 
 
 ::: moniker range=">=vs-2019"
 
-1. Create a new C# WPF application (**File** > **New** > **Project**, type "C# WPF", choose the **WPF Application** project template, name the project **TestXAML**, and then verify that **.NET Core 3.1** appears in the **Target Framework** drop-down.
+1. Create a new C# WPF application (**File** > **New** > **Project**, type "C# WPF", choose the **WPF Application** project template, name the project **TestXAML**, and then verify that the correct .NET version appears in the **Target Framework** drop-down.
 
 ::: moniker-end
 
@@ -42,7 +42,7 @@ Let's get started with a very simple WPF application that has a list view and a 
 
 ::: moniker-end
 
-1. Change MainWindow.xaml to the following:
+2. Change MainWindow.xaml to the following:
 
    ```xaml
    <Window x:Class="TestXAML.MainWindow"
@@ -60,7 +60,7 @@ Let's get started with a very simple WPF application that has a list view and a 
    </Window>
    ```
 
-1. Add the following command handler to the MainWindow.xaml.cs file:
+3. Add the following command handler to the MainWindow.xaml.cs file:
 
    ```csharp
    int count;
@@ -81,7 +81,7 @@ Let's get started with a very simple WPF application that has a list view and a 
    }
    ```
 
-1. Build the project and start debugging. (The build configuration must be Debug, not Release. For more information about build configurations, see [Understanding Build Configurations](../ide/understanding-build-configurations.md).)
+4. Build the project and start debugging. (The build configuration must be Debug, not Release. For more information about build configurations, see [Understanding Build Configurations](../ide/understanding-build-configurations.md).)
 
    When the window comes up you should see the in-app toolbar appear within your running application.
 
@@ -92,7 +92,7 @@ Let's get started with a very simple WPF application that has a list view and a 
    ![Main window of the app](../debugger/media/livevisualtree-app.png "LiveVIsualTree-App")
    ::: moniker-end
 
-1. Now, click the **Add Item** button a few times to add new items into the list.
+5. Now, click the **Add Item** button a few times to add new items into the list.
 
 ### Inspect XAML properties
 

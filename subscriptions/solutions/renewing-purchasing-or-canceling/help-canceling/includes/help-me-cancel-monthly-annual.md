@@ -4,9 +4,9 @@ description: Help me cancel Visual Studio subscriptions from marketplace.visuals
 ms.topic: include
 ms.assetid: 99f61e19-8251-4f91-b496-3faba77cad4e
 author: caitycherniak
-ms.author: cabuschl
-ms.date: 01/07/2021
-user.type: subscriber, admin
+ms.author: amast
+ms.date: 09/29/2021
+user.type: subscriber
 tags: canceling
 subscription.type: cloud
 sap.id: cf10d424-47bb-7ca2-7d89-113949101f6f
@@ -14,10 +14,12 @@ sap.id: cf10d424-47bb-7ca2-7d89-113949101f6f
 
 ## Canceling monthly and annual subscriptions
 
-To cancel subscriptions purchased at marketplace.visualstudio.com using an Azure subscription, you need to set the number of subscriptions for your agreement to zero (0). Follow these steps to reduce the number of subscriptions: 
+If your company purchased the subscriptions, you'll need to contact your admin.
 
-1. Sign in to https://manage.visualstudio.com
-2. If you are an admin on more than one agreement, choose the desired agreement from the drop-down list. 
-3. Select the Overview icon at the top left to display information about your subscriptions. 
-4. Locate the entry for the subscriptions you wish to cancel, and select Change quantity. This will take you the Visual Studio Marketplace where you will be able to update your purchase quantity.  
-5. Set the quantity to zero (0). Your subscriptions will remain in place until their scheduled billing date, but will not renew when the billing date is reached.
+To cancel subscriptions you purchased yourself from marketplace.visualstudio.com (using an Azure subscription), you need to set the number of subscriptions for your agreement to zero (0). Follow these steps to reduce the number of subscriptions: 
+
+1. Sign in to the admin portal at [https://manage.visualstudio.com](https://manage.visualstudio.com)
+2. If you have multiple agreements, ensure that you've selected the appropriate agreement from the drop-down list
+3. Select “Overview” at the top left 
+4. Find the subscription level you wish to cancel and select “Change quantity”. You'll be taken to the Visual Studio Marketplace where can update your purchase quantity
+5. Set the quantity to zero (0). Your subscriptions will remain in place until their scheduled billing date, but won't renew when the billing date is reached.

@@ -5,11 +5,13 @@
     href: visual-studio-sdk.md
   - name: Install the Visual Studio SDK
     href: installing-the-visual-studio-sdk.md
+  - name: Visual Studio Community Toolkit
+    href: vsix/visual-studio-community-toolkit.md
   - name: Start to Develop Visual Studio Extensions
     href: starting-to-develop-visual-studio-extensions.md
   - name: "Create your First Extension: Hello World"
     href: extensibility-hello-world.md
-  - name: Update extensions for Visual Studio 2022 (Preview)
+  - name: Update extensions for Visual Studio 2022
     items:
     - name: Update an extension
       href: migration/update-visual-studio-extension.md
@@ -576,6 +578,8 @@
         href: private-galleries.md
       - name: Create an Atom Feed for a Private Gallery
         href: how-to-create-an-atom-feed-for-a-private-gallery.md
+      - name: Create an ATOM feed (VsixFeed) for a Private Gallery with VsixUtil
+        href: how-to-create-vsix-feed-for-private-gallery.md
       - name: Manage a Private Gallery By Using Registry Settings
         href: how-to-manage-a-private-gallery-by-using-registry-settings.md
     - name: Support Multiple Versions of Visual Studio

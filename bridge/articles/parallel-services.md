@@ -6,6 +6,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: bridge
+ms.custom: "contperf-fy22q1"
 ms.topic: how-to
 ---
 # Debug multiple services (VS Code)

@@ -1,7 +1,7 @@
 ---
 title: "View previous app state using IntelliTrace"
 description: "Learn how to take snapshots, and view snapshots with IntelliTrace step-back"
-ms.custom: "seodec18"
+
 ms.date: 09/19/2018
 ms.topic: tutorial
 ms.assetid: 7c60d929-d993-49dc-9db3-43b30be9912b
@@ -41,7 +41,7 @@ In this tutorial, you will:
 
     ![Configure behavior for snapshots on exceptions](../debugger/media/intellitrace-enable-snapshots-on-exceptions.png)
 
-    When you enable events and snapshots, taking snapshots on exceptions is also enabled by default. You can disable snapshots on exceptions by deselecting **Collect snapshots on exception events**. When this feature is enabled, snapshots are taken for unhandled exceptions. For handled exceptions, snapshots are taken only if the exception is thrown and if it is not a re-throw of an previously-thrown exception. You can set a maximum number of snapshots on exceptions by selecting a value from the drop-down list. The maximum applies for each time that your app enters break mode (such as when your app hits a breakpoint).
+    When you enable events and snapshots, taking snapshots on exceptions is also enabled by default. You can disable snapshots on exceptions by deselecting **Collect snapshots on exception events**. When this feature is enabled, snapshots are taken for unhandled exceptions. For handled exceptions, snapshots are taken only if the exception is thrown and if it is not a re-throw of a previously-thrown exception. You can set a maximum number of snapshots on exceptions by selecting a value from the drop-down list. The maximum applies for each time that your app enters break mode (such as when your app hits a breakpoint).
 
     > [!NOTE]
     > Snapshots are taken only for exception events that IntelliTrace records. For managed code, you can specify what events IntelliTrace records by selecting **Tools** > **Options** > **IntelliTrace Events**.
@@ -106,8 +106,9 @@ The impact on overall stepping performance depends on your application. The over
   * Alternatively:
     1. Install the VC++ 2015.3 v140 toolset for desktop (x86, x64) component from the Visual Studio installer.
     2. Build the target application.
-    3. From the command line, use the editbin tool to set the `Largeaddressaware` flag for the target executable. For example, you might use this command (after updating the path): "C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise\VC\Tools\MSVC\14.12.25718\bin\Hostx86\x86\editbin.exe" /Largeaddressaware "C:\Path\To\Application\app.exe".
-    4. To start debugging, press **F5**. Now, snapshots are taken on debugger steps and breakpoints.
+    3. From the command line, use the editbin tool to set the `Largeaddressaware` flag for the target executable. For example, you might use this command (after updating the path):
+       "C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise\VC\Tools\MSVC\14.12.25718\bin\Hostx86\x86\editbin.exe" /Largeaddressaware "C:\Path\To\Application\app.exe".
+    1. To start debugging, press **F5**. Now, snapshots are taken on debugger steps and breakpoints.
 
        > [!Note]
        > The `Largeaddressaware` flag must be set each time that the executable is rebuilt with changes.
