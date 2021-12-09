@@ -37,7 +37,7 @@ The tool window contains the following UI (user interface) elements:
 - **Project node**, where you can manage your project(s)
 - **Dependencies node**, where you can manage your solution & project dependencies
 - **Program node**, where you can view, edit, and manage your program or application (app)
-- **[Git changes tab](../version-control/git-with-visual-studio.md?view=vs-2019&preserve-view=true#git-changes-window)**, where you can use Git & GitHub within Visual Studio to collaborate on projects with your team
+- **[Git changes tab](../version-control/git-with-visual-studio.md?view=vs-2019&preserve-view=true#git-changes-window-in-visual-studio-2019)**, where you can use Git & GitHub within Visual Studio to collaborate on projects with your team
 
 > [!TIP]
 > If you don't see the Solution Explorer tool window, you can open it from the Visual Studio menu bar by using **View** > **Solution Explorer**, or by pressing **Ctrl**+**Alt**+**L**.

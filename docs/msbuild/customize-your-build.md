@@ -174,6 +174,22 @@ afterward. This convention allows installed SDKs to augment the build logic of c
 
 The same directory structure is searched in `$(MSBuildUserExtensionsPath)`, which is the per-user folder *%LOCALAPPDATA%\Microsoft\MSBuild*. Files placed in that folder will be imported for all builds of the corresponding project type run under that user's credentials. You can disable the user extensions by setting properties named after the importing file in the pattern `ImportUserLocationsByWildcardBefore{ImportingFileNameWithNoDots}`. For example, setting `ImportUserLocationsByWildcardBeforeMicrosoftCommonProps` to `false` would prevent importing `$(MSBuildUserExtensionsPath)\$(MSBuildToolsVersion)\Imports\Microsoft.Common.props\ImportBefore\*`.
 
+## Custom configuration based on project language
+
+If you need different behaviors depending on the .NET language (C#, Visual Basic, or F#), you can add property groups with conditions that depend on the project file extension in `$(MSBuildProjectExtension)` to define language-specific properties and their values.
+
+```xml
+<PropertyGroup Condition="'$(MSBuildProjectExtension)' == '.vbproj'">
+   <!-- Put VB-only property definitions here -->
+</PropertyGroup>
+<PropertyGroup Condition="'$(MSBuildProjectExtension)' == '.fsproj'">
+   <!-- Put F#-only property definitions here -->
+</PropertyGroup>
+<PropertyGroup Condition="'$(MSBuildProjectExtension)' == '.csproj'">
+   <!-- Put C#-only property definitions here -->
+</PropertyGroup>
+```
+
 ## Customize the solution build
 
 > [!IMPORTANT]
