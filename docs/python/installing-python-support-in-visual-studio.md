@@ -80,7 +80,7 @@ To quickly test Python support after following the installation steps, open the 
    > [Install Visual Studio 2017 community](https://my.visualstudio.com/Downloads?q=Visual-Studio-2017)
     :::moniker-end
 
-1. The installer presents you with a list of workloads, which are groups of related options for specific development areas. For Python, select the **Python development** workload.
+1. The Visual Studio installer provides you a list of workloads that are groups of related options for specific development areas. For Python, select the **Python development** workload.
 
    ![Python development workload in the Visual Studio installer](media/installation-python-workload.png)
  .
@@ -131,7 +131,7 @@ After installation, the installer provides options to modify, launch, repair, or
 
 ### Troubleshooting
 
-To resolve problems while installing or running Python in Visual Studio, try one  of the following steps:
+To fix problems while installing or running Python in Visual Studio, try the following steps:
 
 - Determine whether the same error occurs using the Python CLI, that is, running *python.exe* from a command prompt.
 - Use the [**Repair**](../install/repair-visual-studio.md) option in the Visual Studio installer.
@@ -169,13 +169,15 @@ If you already have an interpreter installed and Visual Studio doesn't detect it
 
 :::moniker range=">=vs-2022"
 
-By default, Python support is installed for all users on a computer.
+By default, the Python support installs for all users on a computer.
+
 For Visual Studio 2022, the Python workload installs in *%ProgramFiles%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python* where &lt;VS_version&gt; is 2022 and &lt;VS_edition&gt; is Community, Professional, or Enterprise.
 
 :::moniker-end
 :::moniker range="<=vs-2019"
 
-By default, Python support is installed for all users on a computer.
+By default, the Python support installs for all users on a computer.
+
 For Visual Studio 2019 and Visual Studio 2017, the Python workload installs in *%ProgramFiles(x86)%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python* where &lt;VS_version&gt; is 2019 or 2017 and &lt;VS_edition&gt; is Community, Professional, or Enterprise.
 
 :::moniker-end

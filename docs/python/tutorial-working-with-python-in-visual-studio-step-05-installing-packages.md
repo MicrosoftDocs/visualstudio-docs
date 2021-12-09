@@ -81,7 +81,7 @@ The Python developer community has produced thousands of useful packages that yo
 
 ## Install packages using the Python Environments window
 
-See the steps below to install Python packages in **Python Environment** window.
+See the steps below to install Python packages in the **Python Environment** window.
 
    :::moniker range=">=vs-2022"
    [Install packages in an environment](media/environments/install-python-packages-2022.gif)
