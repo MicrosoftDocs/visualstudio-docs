@@ -114,7 +114,7 @@ The keys in this section only apply to the Computer\HKEY_LOCAL_MACHINE\SOFTWARE\
 
 Below are two example registry files that illustrates how an IT Admin may want to customize the [Update Settings UI](/visualstudio/install/update-visual-studio?#configure-source-location-of-updates-1). 
 
-The first registry example can be used in a situation where the client has previously installed from a network layout located at `\\vslayoutserver3\vs\2019_Enterprise`. As mentioned above, Visual Studio defaults the channel name for this layout to "Private Channel". Here's how you would customize the channel name and description for this layout.
+The first registry example can be used in a situation where the client has previously installed from a network layout located at `\\vslayoutserver3\vs\2019_Enterprise`. As mentioned previously, Visual Studio defaults the channel name for this layout to "Private Channel". Here's how you would customize the channel name and description for this layout.
 
 ```example registry file
 Windows Registry Editor Version 5.00
