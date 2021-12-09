@@ -29,15 +29,14 @@ Visual Studio allows you to specify how more than one project is run when you pr
 4. Choose the **Multiple Startup Projects** option and set the appropriate actions.
 
 :::moniker range=">=vs-2019"
+
 ## Example
 
-The following example shows a solution WebFrontEndA with three projects, a front-end web site, a Web API project, and a Docker Compose project. Suppose your goal is to start the project WebFrontEndA with debugging enabled, and also start WebAPI, but without attaching the debugger (and without using Docker or Docker Compose). This example shows a case where you want to test and debug the services without running them in Docker, such as when you want to make sure everything works before trying to run in the Docker environment. In this case, the front-end project makes web requests to the Web API project, so having it started is necessary to debug the front end. The `docker-compose` project is not started. Using these options, the WebFrontEndA project can send web requests to the WebAPI project successfully (using a localhost address and port).
+The following example shows a solution WebFrontEndA with three projects, a front-end web site, a Web API project, and a Docker Compose project. The following screenshot shows how to start two of the three projects, one with debugging and one without:
 
 ![Screenshot of the Solution Property Pages.](media/vs-2022/startup-projects.png)
 
-When you run, the services (the web site and the web service) are started in IIS Express, and the two browser tabs open, one for each of the projects that were selected for startup. The debugger attached only to the web site, WebFrontEndA.
-
-In this example, when you're done running without the Docker containers and you do want to run Docker Compose to to start multiple projects, you can just choose `docker-compose` as the single startup project, but then you'll use a different way of specifying which projects or services to start. You'll use a Docker Compose launch profile to determine what services to start, and whether or not to attach the debugger, and there's a different dialog in Visual Studio for configuring it. See [Start a subset of services](../containers/launch-profiles.md). The **Solution Property Pages** dialog is only used for non-containerized solutions or when you are *not* using Docker Compose to manage startup.
+In this example and any other Docker Compose scenario, if you choose `docker-compose` as the single startup project, but then you'll use a different way of specifying which projects or services to start. You'll use a Docker Compose launch profile to determine what services to start, and whether or not to attach the debugger, and there's a different dialog in Visual Studio for configuring it. See [Start a subset of services](../containers/launch-profiles.md). The **Solution Property Pages** dialog is only used for non-containerized solutions or when you are *not* using Docker Compose to manage startup.
 :::moniker-end
 
 ## See also
