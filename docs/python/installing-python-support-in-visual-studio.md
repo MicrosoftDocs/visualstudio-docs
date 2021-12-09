@@ -82,7 +82,7 @@ To quickly test Python support after following the installation steps, open the 
 
 1. The Visual Studio installer provides you a list of workloads that are groups of related options for specific development areas. For Python, select the **Python development** workload.
 
-Optional: if you're working with data science, also consider the **Data science and analytical applications** workload. This workload includes support for the Python, R, and F# languages. For more information, see [Data science and analytical applications workload](data-science-and-analytical-applications-workload.md).
+   Optional: if you're working with data science, also consider the **Data science and analytical applications** workload. This workload includes support for the Python, R, and F# languages. For more information, see [Data science and analytical applications workload](data-science-and-analytical-applications-workload.md).
 
    ![Python development workload in the Visual Studio installer](media/installation-python-workload.png)
  .
