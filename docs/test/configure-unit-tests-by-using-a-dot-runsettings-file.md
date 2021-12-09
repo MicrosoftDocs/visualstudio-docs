@@ -86,11 +86,11 @@ If auto detection of run settings files is enabled, the settings in this file ar
 
 - Select **Tools** > **Options** > **Test** > **Auto Detect runsettings Files**
 
-   ![Auto detect runsettings file option in Visual Studio](media/vs-2019/auto-detect-runsettings-tools-window.png)
+   ![Auto detect runsettings file option in Visual Studio](media/auto-detect-runsettings-tools-window.png)
 
 - Select **Test** > **Configure Run Settings** > **Auto Detect runsettings Files**
 
-   ![Auto detect runsettings file menu in Visual Studio](media/vs-2019/auto-detect-runsettings-menu.png)
+   ![Auto detect runsettings file menu in Visual Studio](media/auto-detect-runsettings-menu.png)
 
 #### Manually select the run settings file
 
@@ -99,7 +99,7 @@ In the IDE, select **Test** > **Configure Run Settings** > **Select Solution Wid
 - This file overrides the *.runsettings* file at the root of the solution, if one is present, and is applied across all tests run.
 - This file selection only persists locally.
 
-![Select test solution-wide runsettings file menu in Visual Studio](media/vs-2019/select-solution-settings-file.png)
+![Select test solution-wide runsettings file menu in Visual Studio](media/select-solution-settings-file.png)
 
 #### Set a build property
 
