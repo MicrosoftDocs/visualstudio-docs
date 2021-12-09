@@ -7,7 +7,7 @@ ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: overview
-ms.date: 10/19/2021
+ms.date: 12/06/2021
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
@@ -21,13 +21,13 @@ If your codebase is hosted on GitHub.com and your deployment target is an Azure 
 
 ![Screenshot showing CI/CD publish option.](./media/github-actions-deployment-mode.png)
 
-Visual Studio also simplifies the process by handling your application secrets for you. 
+Visual Studio also simplifies the process by handling your application secrets for you.
 
 Get started by right-clicking on your project in Solution Explorer and selecting **Publish** from the context menu. For a tutorial, see [Deploy your application to Azure using GitHub Actions workflows created by Visual Studio](../deployment/azure-deployment-using-github-actions.md).
 
 ## How do I get my project on GitHub.com?
 
-See [create a new Git repository](../version-control/git-with-visual-studio.md#create-a-new-git-repository).
+See [create a new Git repository](../version-control/git-with-visual-studio.md?view=vs-2019&preserve-view=true#create-a-new-git-repository-in-visual-studio-2019).
 
 ## See also
 

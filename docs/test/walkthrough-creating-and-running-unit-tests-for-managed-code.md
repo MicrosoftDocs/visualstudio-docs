@@ -2,7 +2,7 @@
 title: C# unit test tutorial
 description: Learn how to create, run, and customize a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio Test Explorer.
 ms.custom: SEO-VS-2020
-ms.date: 08/17/2021
+ms.date: 12/01/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - unit tests, walkthrough
@@ -161,10 +161,10 @@ You now have a project with methods you can test. In this article, the tests foc
 
 ::: moniker range=">=vs-2019"
 
-2. Type **test** in the search box, select **C#** as the language, and then select the C# **Unit Test Project** for .NET Core template, and then click **Next**.
+2. Type **test** in the search box, select **C#** as the language, and then select the C# **MSTest Unit Test Project (.NET Core)** for .NET Core template, and then click **Next**.
 
    > [!NOTE]
-   > Starting in Visual Studio 2019 version 16.9, the MSTest project template name changed from **MSTest Unit Test Project (.NET Core)** to **Unit Test Project**.
+   > In Visual Studio 2019 version 16.9, the MSTest project template is **Unit Test Project**.
 
 3. Name the project **BankTests** and click **Next**.
 
@@ -176,7 +176,7 @@ You now have a project with methods you can test. In this article, the tests foc
 
 5. In the **BankTests** project, add a reference to the **Bank** project.
 
-   In **Solution Explorer**, select **Dependencies** under the **BankTests** project and then choose **Add Reference** from the right-click menu.
+   In **Solution Explorer**, select **Dependencies** under the **BankTests** project and then choose **Add Reference** (or **Add Project Reference**) from the right-click menu.
 
 6. In the **Reference Manager** dialog box, expand **Projects**, select **Solution**, and then check the **Bank** item.
 
@@ -326,7 +326,12 @@ m_balance -= amount;
 
 In **Test Explorer**, choose **Run All** to rerun the test (or press **Ctrl** + **R**, **V**). The red/green bar turns green to indicate that the test passed.
 
+::: moniker range="<=vs-2019"
 ![Test Explorer in Visual Studio 2019 showing passed test](media/test-explorer-banktests-passed.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Test Explorer in Visual Studio 2019 showing passed test](media/vs-2022/test-explorer-banktests-passed.png)
+::: moniker-end
 
 ## Use unit tests to improve your code
 
