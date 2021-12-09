@@ -92,11 +92,11 @@ You can control when and where a breakpoint executes by setting conditions. The 
 
 1. Right-click the breakpoint symbol and select **Conditions** (or press **Alt** + **F9**, **C**). Or hover over the breakpoint symbol, select the **Settings** icon, and then select **Conditions** in the **Breakpoint Settings** window.
 
-::: moniker range=">= vs-2022"
-You can also right-click in the far left margin next to a line of code and select **Insert Conditional Breakpoint**  from the context menu to set a new conditional breakpoint. 
-::: moniker-end
+   ::: moniker range=">= vs-2022"
+   You can also right-click in the far left margin next to a line of code and select **Insert Conditional Breakpoint**  from the context menu to set a new conditional breakpoint. 
+   ::: moniker-end
 
-You can also set conditions in the **Breakpoints** window by right-clicking a breakpoint and selecting **Settings**, and then selecting **Conditions**
+   You can also set conditions in the **Breakpoints** window by right-clicking a breakpoint and selecting **Settings**, and then selecting **Conditions**
 
    ::: moniker range=">= vs-2022"
    ![Breakpoint settings](../debugger/media/vs-2022/breakpoint-settings.png "BreakpointSettings")
