@@ -96,7 +96,9 @@ To sign out, click on the icon with your profile name in the upper-right corner 
 
 > [!NOTE]
 > If you choose not to sign in when you first open Visual Studio, it's easy to do so later. Look for the **Sign in** link in the upper-right corner of the Visual Studio environment.
+>
 > ![Not signed in user](../ide/media/vs2019_usernotsignedin.png)
+>
 
 ::: moniker-end
 
@@ -104,7 +106,9 @@ To sign out, click on the icon with your profile name in the upper-right corner 
 
 > [!NOTE]
 > If you choose not to sign in when you first open Visual Studio, it's easy to do so later. Look for the **Sign in** link in the upper-right corner of the Visual Studio environment.
+>
 > ![Not signed in user](../ide/media/vs-2022/visual-studio-user-not-signed-in.png)
+>
 
 ::: moniker-end
 
