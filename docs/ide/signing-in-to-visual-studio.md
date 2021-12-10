@@ -43,54 +43,76 @@ Here's a full list of what you can expect and what you can do after you sign in:
 ## How to sign in 
 
 ::: moniker range="<=vs-2019"
-1. Launch Visual Studio
+
+1. Launch Visual Studio.
+
    When you open Visual Studio for the first time, you're asked to sign in and provide some basic registration information.
 
    ![Sign-in prompt](../ide/media/vs2019_signinpopup.png)
+
 ::: moniker-end
 
 ::: moniker range="vs-2022"
-1. Launch Visual Studio
+
+1. Launch Visual Studio.
+
    When you open Visual Studio for the first time, you're asked to sign in and provide some basic registration information.
 
    ![Sign-in prompt](../ide/media/vs-2022/visual-studio-sign-in-pop-up.png)
+
 ::: moniker-end
 
-1. Choose a Microsoft account or a work or school account that best represents you. 
+2. Choose a Microsoft account or a work or school account that best represents you. 
    
    If you don't have any of these accounts, you can create a Microsoft account for free by clicking the link under the sign in button. If you're having trouble, see [How do I sign up for a Microsoft account?](https://support.microsoft.com/help/4026324/microsoft-account-how-to-create)
 
-1. Choose the UI settings and color theme that you want to use in Visual Studio. 
+3. Choose the UI settings and color theme that you want to use in Visual Studio. 
    
    Visual Studio remembers these settings and synchronizes them across all Visual Studio environments you have signed in to. For a list of the settings that are synchronized, see [Synchronized settings](../ide/synchronized-settings-in-visual-studio.md). You can change the settings later if you open the **Tools** > **Options** menu in Visual Studio.
 
    After you provide the settings, Visual Studio starts, and you're signed in and ready to get started. 
 
 ::: moniker range="<=vs-2019"
-1. To verify whether you're signed in, look for your name in the upper-right corner of the Visual Studio environment.
+
+4. To verify whether you're signed in, look for your name in the upper-right corner of the Visual Studio environment.
 
    ![Currently logged in user in VS2019](../ide/media/vs2019_username.png)
 
-   If you choose not to sign in when you first open Visual Studio, it's easy to do so later. Look for the **Sign in** link in the upper-right corner of the Visual Studio environment.
+If you choose not to sign in when you first open Visual Studio, it's easy to do so later. Look for the **Sign in** link in the upper-right corner of the Visual Studio environment.
 
-   ![Not signed in user](../ide/media/vs2019_usernotsignedin.png)
+![Not signed in user](../ide/media/vs2019_usernotsignedin.png)
 
 ::: moniker-end
 
 ::: moniker range="vs-2022"
-1. To verify whether you're signed in, look for your name in the upper-right corner of the Visual Studio environment.
+
+4. To verify whether you're signed in, look for your name in the upper-right corner of the Visual Studio environment.
 
    ![Currently logged in user in VS2019](../ide/media/vs-2022/visual-studio-sign-in.png)
-
-   If you choose not to sign in when you first open Visual Studio, it's easy to do so later. Look for the **Sign in** link in the upper-right corner of the Visual Studio environment.
-
-   ![Not signed in user](../ide/media/vs-2022/visual-studio-user-not-signed-in.png)
 
 ::: moniker-end
 
 Unless you sign out, you're automatically signed in to Visual Studio whenever you start it, and any changes to synchronized settings are automatically applied.
 
 To sign out, click on the icon with your profile name in the upper-right corner of the Visual Studio environment, choose the **Account settings** command, and then choose the **Sign out** link. To sign in again, choose the **Sign in** command in the upper-right corner of the Visual Studio environment.
+
+::: moniker range="<=vs-2019"
+
+> [!NOTE]
+> If you choose not to sign in when you first open Visual Studio, it's easy to do so later. Look for the **Sign in** link in the upper-right corner of the Visual Studio environment.
+
+![Not signed in user](../ide/media/vs2019_usernotsignedin.png)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+> [!NOTE]
+> If you choose not to sign in when you first open Visual Studio, it's easy to do so later. Look for the **Sign in** link in the upper-right corner of the Visual Studio environment.
+
+![Not signed in user](../ide/media/vs-2022/visual-studio-user-not-signed-in.png)
+
+::: moniker-end
 
 ## Update your profile
 
@@ -106,8 +128,4 @@ See the [Subscription support](https://visualstudio.microsoft.com/subscriptions/
 
 ## See also
 - [Compare Visual Studio 2022 Editions](https://visualstudio.microsoft.com/vs/compare/)
-- [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md)
-- [Extend a trial version or update a license](how-to-unlock-visual-studio.md)
-- [Work with multiple user accounts](how-to-unlock-visual-studio.md)
-- [Work with accounts that require multifactor authentication](how-to-unlock-visual-studio.md)
 - [Subscriptions Portal Overview](/visualstudio/subscriptions/using-the-subscriber-portal)
