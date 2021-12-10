@@ -214,20 +214,31 @@ You can debug development builds of Unity players with Visual Studio.
    ![Choose an instance of Unity to connect to.](../media/vs/vstu-attach-debugger.png "vstu_connection_to_unity")
 
    **Project**
-
    The name of the Unity project that's running in this instance of Unity.
 
    **Machine**
    The name of the computer or device that this instance of Unity is running on.
 
    **Type**
-   **Editor** if this instance of Unity is running as part of the Unity Editor; **Player** if this instance of Unity is a stand-alone player.
+   Editor if this instance of Unity is running as part of the Unity Editor; Player if this instance of Unity is a stand-alone player.
 
    **Port**
    The port number of the UDP socket that this instance of Unity is communicating over.
 
 > [!IMPORTANT]
 > Because Visual Studio Tools for Unity and the Unity instance are communicating over a UDP network socket, your firewall may need rule to allow it. If needed, you may see a prompt, you'll have to authorize the connection so that VSTU and Unity can communicate.
+
+#### Selecting a Unity instance that doesn't appear in the list
+
+If you have a known Unity Player running that doesn't appear in the list, you can use the **Input IP** button on the Select Unity Instance window. Enter the IP address and port of the running Unity Player to connect the debugger.
+
+To make it easier for you to continue debugging that player without entering the IP and port each time, enable the **Use saved debug targets** setting in the **Tools > Options > Tools for Unity > General** menu.
+
+![Use saved debug targets setting](../media/vs/vstu-use-saved-debug-targets.png)
+
+Visual Studio will show saved debug targets as an option in Attach to Unity button.
+
+![Saved debug target](../media/vs/vstu-saved-target.png)
 
 :::zone-end
 :::zone pivot="macos"
