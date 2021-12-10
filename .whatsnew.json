@@ -137,6 +137,10 @@
             "heading": "XAML tools"
         },
         {
+            "names": ["version-control"],
+            "heading": "Version control"
+        },
+        {
             "names": ["xml-tools"],
             "heading": "XML tools"
         }
