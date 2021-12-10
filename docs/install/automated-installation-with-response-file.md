@@ -1,7 +1,7 @@
 ---
 title: Automate installation with a response file
 description: Learn how to create a JSON response file that helps you automate your Visual Studio installation
-ms.date: 11/23/2021
+ms.date: 12/7/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - response file
@@ -18,7 +18,7 @@ ms.technology: vs-installation
 ---
 # Programmatically configure default settings using a response file
 
-The Visual Studio response file is a [JSON](http://json-schema.org/) file whose contents mirror the command-line parameters and arguments. The response file is used to initialize settings during the initial installation of the product. 
+The Visual Studio response file is a [JSON](http://json-schema.org/) file whose contents mirror the command-line parameters and arguments. The response file is used to initialize client settings during the initial installation of the product onto the client. 
 
 ## Automate installation
 Administrators who deploy Visual Studio can specify a response file by using the `--in` parameter, as in the following example:
@@ -145,7 +145,7 @@ The following `response.json` file example will initialize a Visual Studio Enter
 
 ::: moniker range="=vs-2019"
 
-The following `response.json` file example will initialize a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to point back to the layout. Note that for Visual Studio 2019, the update location (channelURI) can only be configured during initial installation and cannot be changed after the fact _unless_ you use the functionality in the latest installer. Refer to [Set defaults for enterprise deployments of Visual Studio](/visualstudio/install/set-defaults-for-enterprise-deployments.md#configuring-source-location-for-updates) for information how to configure this.
+The following `response.json` file example will initialize a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to point back to the layout. Note that for Visual Studio 2019, the update location (channelURI) can only be configured during initial installation and cannot be changed after the fact _unless_ you use the functionality in the latest installer. Refer to the [Set defaults for enterprise deployments of Visual Studio](/visualstudio/install/set-defaults-for-enterprise-deployments.md#configuring-source-location-for-updates) and the [Configure your layout to always include and provide the latest installer](/visualstudio/install/create-a-network-installation-of-visual-studio#configure-the-layout-to-always-include-and-provide-the-latest-installer) for information on how to configure this.  
 
 ```Example response.json
 {
