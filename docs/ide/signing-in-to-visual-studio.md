@@ -106,4 +106,8 @@ See the [Subscription support](https://visualstudio.microsoft.com/subscriptions/
 
 ## See also
 - [Compare Visual Studio 2022 Editions](https://visualstudio.microsoft.com/vs/compare/)
-- 
+- [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md)
+- [Extend a trial version or update a license](how-to-unlock-visual-studio.md)
+- [Work with multiple user accounts](how-to-unlock-visual-studio.md)
+- [Work with accounts that require multifactor authentication](how-to-unlock-visual-studio.md)
+- [Subscriptions Portal Overview](https://docs.microsoft.com/visualstudio/subscriptions/using-the-subscriber-portal)
