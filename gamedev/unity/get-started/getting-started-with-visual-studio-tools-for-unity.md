@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Install & configure Visual Studio Tools for Unity"
 description: "Learn how to connect Unity and Visual Studio for cross-platform development."
-ms.date: "11/17/2021"
+ms.date: "12/10/2021"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
 ms.topic: quickstart
