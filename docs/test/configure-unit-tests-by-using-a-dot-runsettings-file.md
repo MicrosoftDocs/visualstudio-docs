@@ -2,7 +2,7 @@
 title: Configure unit tests with a .runsettings file
 description: Learn how to use the .runsettings file in Visual Studio to configure unit tests that are run from the command line, from the IDE, or in a build workflow.
 ms.custom: SEO-VS-2020
-ms.date: 11/06/2020
+ms.date: 12/06/2021
 ms.topic: conceptual
 ms.author: mikejo
 manager: jmartens
@@ -86,20 +86,20 @@ If auto detection of run settings files is enabled, the settings in this file ar
 
 - Select **Tools** > **Options** > **Test** > **Auto Detect runsettings Files**
 
-   ![Auto detect runsettings file option in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-tools-window.png)
+   ![Auto detect runsettings file option in Visual Studio](media/auto-detect-runsettings-tools-window.png)
 
 - Select **Test** > **Configure Run Settings** > **Auto Detect runsettings Files**
 
-   ![Auto detect runsettings file menu in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-menu.png)
+   ![Auto detect runsettings file menu in Visual Studio](media/auto-detect-runsettings-menu.png)
 
 #### Manually select the run settings file
 
 In the IDE, select **Test** > **Configure Run Settings** > **Select Solution Wide runsettings File**, and then select the *.runsettings* file.
 
-   - This file overrides the *.runsettings* file at the root of the solution, if one is present, and is applied across all tests run.
-   - This file selection only persists locally.
+- This file overrides the *.runsettings* file at the root of the solution, if one is present, and is applied across all tests run.
+- This file selection only persists locally.
 
-![Select test solution-wide runsettings file menu in Visual Studio 2019](media/vs-2019/select-solution-settings-file.png)
+![Select test solution-wide runsettings file menu in Visual Studio](media/select-solution-settings-file.png)
 
 #### Set a build property
 
