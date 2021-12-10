@@ -110,4 +110,4 @@ See the [Subscription support](https://visualstudio.microsoft.com/subscriptions/
 - [Extend a trial version or update a license](how-to-unlock-visual-studio.md)
 - [Work with multiple user accounts](how-to-unlock-visual-studio.md)
 - [Work with accounts that require multifactor authentication](how-to-unlock-visual-studio.md)
-- [Subscriptions Portal Overview](https://docs.microsoft.com/visualstudio/subscriptions/using-the-subscriber-portal)
+- [Subscriptions Portal Overview](/visualstudio/subscriptions/using-the-subscriber-portal)
