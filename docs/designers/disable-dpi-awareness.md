@@ -7,6 +7,7 @@ ms.author: tglee
 manager: jmartens
 ms.technology: vs-ide-designers
 ms.topic: how-to
+ms.custon: contperf-fy22q2
 ---
 # Disable DPI-awareness to address scaling issues with Windows Forms Designer in Visual Studio
 

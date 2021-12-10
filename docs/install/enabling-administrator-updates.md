@@ -2,7 +2,7 @@
 title: Enabling administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager
 titleSuffix: ''
 description: Learn more about how to deploy administrator updates to Visual Studio.
-ms.date: 04/06/2021
+ms.date: 12/7/2021
 ms.topic: overview
 ms.assetid: 546fbad6-f12b-49cf-bccc-f2e63e051a18
 author: anandmeg
@@ -34,8 +34,6 @@ To enable Configuration Manager to manage Visual Studio administrator updates, y
 
 * A current licensed version of Windows Server running Microsoft Endpoint Configuration Manager (current branch) and Windows Server Update Services (WSUS). You can’t use WSUS itself to deploy these updates; it must be used in conjunction with Configuration Manager.
 
-* The hierarchy’s top-level WSUS server and the top-level Configuration Manager site server must have access to the Visual Studio URLs and ports listed here: [Install and use Visual Studio and Azure Services behind a firewall or proxy server](../install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md).  
-
 * The Microsoft Endpoint Configuration Manager must be configured to receive notifications when Visual Studio administrator update packages are available.  To do that, use the following steps, and for more information, see [Introduction to software updates in Microsoft Endpoint Configuration Manager](/mem/configmgr/sum/understand/software-updates-introduction).
 
   1. In the Configuration Manager console, select **Administration** (bottom-left), then select **Site Configuration** (middle left), then **Sites**, and select your site server.
@@ -56,7 +54,7 @@ To enable a client machine to accept Visual Studio administrator updates, you wi
 
 ### Visual Studio Client Detector Utility
 
-The [Visual Studio Client Detector Utility](https://support.microsoft.com/help/5001148) must be installed on the client machines in order for the administrator updates to be properly recognized and received. This utility was included with all Visual Studio 2017 and Visual Studio 2019 product updates that were released on or after May 12, 2020, it is includes as a pre-requisite with all the Visual Studio administrator updates, and it is also available on the [Microsoft Update Catalog](https://catalog.update.microsoft.com) to install independently.
+The [Visual Studio Client Detector Utility](https://support.microsoft.com/help/5001148) must be installed on the client machines in order for the administrator updates to be properly recognized and received. This utility was included with all Visual Studio 2017 and Visual Studio 2019 product updates that were released on or after May 12, 2020, it is included as a pre-requisite with all the Visual Studio administrator updates, and it is also available on the [Microsoft Update Catalog](https://catalog.update.microsoft.com) to install independently.
 
 ### Encoding administrator intent on the client machines
 
