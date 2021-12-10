@@ -78,10 +78,6 @@ Here's a full list of what you can expect and what you can do after you sign in:
 
    ![Currently logged in user in VS2019](../ide/media/vs2019_username.png)
 
-If you choose not to sign in when you first open Visual Studio, it's easy to do so later. Look for the **Sign in** link in the upper-right corner of the Visual Studio environment.
-
-![Not signed in user](../ide/media/vs2019_usernotsignedin.png)
-
 ::: moniker-end
 
 ::: moniker range="vs-2022"
