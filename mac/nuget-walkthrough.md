@@ -145,7 +145,7 @@ Refer to your particular source control documentation for details on how to excl
 
 ## Related Video
 
-> [!Video https://docs.microsoft.com/en-us/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Using-NuGet/player]
+> [!Video https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Using-NuGet/player]
 
 ## See also
 

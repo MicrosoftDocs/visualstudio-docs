@@ -126,7 +126,7 @@ To revert to a single open editor, select **View > Editor Columns > 1 column**.
 
 ## Related Video
 
-> [!Video https://docs.microsoft.com/en-us/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Customize-the-Look-and-Feel/player]
+> [!Video https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Customize-the-Look-and-Feel/player]
 
 ## See also
 

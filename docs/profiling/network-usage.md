@@ -72,6 +72,5 @@ The Visual Studio **Network** diagnostics tool collects data about network opera
 
 - [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
 - [Visual Studio blog: Introducing Visual Studio's network inspector](https://devblogs.microsoft.com/visualstudio/)
-- Channel 9 Video: VS diagnostics tools - new Network Profiler
 - [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)

@@ -49,8 +49,6 @@ When you finish, your app should look similar to the following image:
 |[Step 8: Add a method to verify whether the player won](../ide/step-8-add-a-method-to-verify-whether-the-player-won.md)|Add a `CheckForWinner()` method to verify whether the player won.|
 |[Step 9: Try other features](../ide/step-9-try-other-features.md)|Try other features, such as changing icons and colors, adding a grid, and adding sounds. Try making the board bigger and adjusting the timer.|
 
-There are also great, free video learning resources available to you. To learn more about programming in C#, see C# fundamentals: Development for absolute beginners. To learn more about programming in Visual Basic, see Visual Basic fundamentals: Development for absolute beginners.
-
 ## Next steps
 
 To begin the tutorial, start with **[Step 1: Create a project and add a table to your form](../ide/step-1-create-a-project-and-add-a-table-to-your-form.md)**.

@@ -30,10 +30,7 @@ Use the following tasks to validate your software:
 
 ## External Resources
 
-|**Category**|**Links**|
-|-|-|
-|**Videos**|![link to video](../data-tools/media/playvideo.gif) Channel 9: Doug Seven: Code Understanding and Systems Design with Visual Studio 2010<br /><br /> ![link to video](../data-tools/media/playvideo.gif) Channel 9: Architecting an Application|
-|**Forums**|- [Visual Studio Visualization & Modeling Tools](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsarch)<br />- [Visual Studio extensibility](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx)|
+**Forums** - [Visual Studio Visualization & Modeling Tools](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsarch)<br />- [Visual Studio extensibility](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx)
 
 ## See also
 

@@ -43,8 +43,6 @@ Download PerfView from [GitHub](https://github.com/Microsoft/perfview/blob/maste
 
 PerfView can store only the most recent data that fits into its buffer. Therefore, try to stop the collection as soon as possible after Visual Studio starts to freeze or slow down. Don't collect for more than 30 seconds after you hit a problem.
 
-For more information, see PerfView Tutorial on Channel9.
-
 ## Create minidumps for a Visual Studio process with all call stacks
 
 In some cases, Microsoft might ask for a minidump of a running Visual Studio process with information for all call stacks. To collect this information, perform these steps:
