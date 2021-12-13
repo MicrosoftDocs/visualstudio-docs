@@ -120,7 +120,7 @@ Visual Studio for Mac automatically displays project files in a way that match t
 View Unity documentation directly in tooltips when inspecting code.
 
 :::zone pivot="windows"
-![Documentation in tooltips](../media/vs/vstu-documentation-tooltips.png)
+![Documentation in tooltips](../media/vs/visual-studio-tools-unity-documentation-tooltips.png)
 :::zone-end
 :::zone pivot="macos"
 

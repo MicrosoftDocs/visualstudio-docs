@@ -42,7 +42,7 @@ When Visual Studio completes the installation process you're ready to setup Unit
 1. In the **Add modules to your install** step, select **Done**.
 
 >[!NOTE]
->If you've already installed Visual Studio 2022, you can deselect the Microsoft Visual Studio Community 2019 option. We will improve this experience soon.
+>If you've already installed Visual Studio 2022, you can deselect the Microsoft Visual Studio Community 2019 option.
 
 The Unity Hub will continue installing Unity in the background. When it's complete, you can create a new project by selecting the **Projects** tab and selecting the **New** button.
 

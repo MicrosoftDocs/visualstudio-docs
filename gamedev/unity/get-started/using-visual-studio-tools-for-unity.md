@@ -234,11 +234,11 @@ If you have a known Unity Player running that doesn't appear in the list, you ca
 
 To make it easier for you to continue debugging that player without entering the IP and port each time, enable the **Use saved debug targets** setting in the **Tools > Options > Tools for Unity > General** menu.
 
-![Use saved debug targets setting](../media/vs/vstu-use-saved-debug-targets.png)
+![Use saved debug targets setting](../media/vs/visual-studio-tools-unity-use-saved-debug-targets.png)
 
 Visual Studio will show saved debug targets as an option in Attach to Unity button.
 
-![Saved debug target](../media/vs/vstu-saved-target.png)
+![Saved debug target](../media/vs/visual-studio-tools-unity-saved-target.png)
 
 :::zone-end
 :::zone pivot="macos"
