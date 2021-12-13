@@ -85,7 +85,7 @@ If you click on the circle at the top, you can iterate through each suggestion, 
 
 ## Related Video
 
-> [!Video https://docs.microsoft.com/en-us/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Refactoring-Code/player]
+> [!Video https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Refactoring-Code/player]
 
 ## See also
 
