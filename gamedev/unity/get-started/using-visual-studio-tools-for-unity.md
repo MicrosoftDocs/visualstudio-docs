@@ -38,11 +38,13 @@ You can access the Unity scripting documentation quickly from Visual Studio. If 
 :::zone pivot="windows"
 - In Visual Studio, highlight or place the cursor over the Unity API you want to learn about, then press **Ctrl**+**Alt**+**M**, **Ctrl**+**H**
 - You can also use the **Help > Unity API Reference** menu instead of the keybinding.
+
 ![Screenshot of the Unity API Reference menu in Visual Studio.](../media/vs/help-unity-documentation.png)
 :::zone-end
 :::zone pivot="macos"
 - In Visual Studio for Mac, highlight or place the cursor over the Unity API you want to learn about, then press **Cmd**+**'**
 - You can also use the **Help > Unity API Reference** menu instead of the keybinding.
+
 ![Screenshot of the Unity API Reference menu in Visual Studio for Mac.](../media/vsm/help-unity-documentation.png)
 :::zone-end
 
@@ -116,6 +118,7 @@ The Unity Project Explorer shows all of your Unity project files and directories
 
 :::zone pivot="windows"
 - On the main Visual Studio menu, choose **View > Unity Project Explorer**. Keyboard shortcut: **Alt**+**Shift**+**E**
+
 ![Screenshot of the Unity Project Explorer window.](../media/vs/unity-project-explorer.png)
 :::zone-end
 :::zone pivot="macos"
@@ -131,17 +134,20 @@ Visual Studio Tools for Unity lets you debug both editor and game scripts for yo
 :::zone pivot="windows"
 
 1. Connect Visual Studio to Unity by clicking the **Play** button labeled **Attach to Unity**, or use the keyboard shortcut **F5**.
+
 ![Screenshot of the Attach to Unity button in Visual Studio.](../media/vs/vstu-play-button.png)
 
 :::zone-end
 :::zone pivot="macos"
 
 1. Connect Visual Studio to Unity by clicking the **Play** button, or type **Command + Return**, or **F5**.
+
 ![Screenshot of the Play button in Visual Studio for Mac.](../media/vsm/using-vsmac-tools-unity-image5.png)
 
 :::zone-end
 
 2. Switch to Unity and click the **Play** button to run the game in the editor.
+
 :::zone pivot="windows"
 ![Screenshot of the Play button in Unity on Windows.](../media/vs/vstu-unity-play-button.png)
 :::zone-end
@@ -156,12 +162,14 @@ Visual Studio Tools for Unity lets you debug both editor and game scripts for yo
 :::zone pivot="windows"
 
 Click the **Stop** button in Visual Studio, or use the keyboard shortcut **Shift + F5**.
+
 ![Screenshot of the Stop button in Visual Studio.](../media/vs/vstu-stop-debugger.png)
 
 :::zone-end
 :::zone pivot="macos"
 
 Click the **Stop** button in Visual Studio for Mac, or press **Shift + Command + Return**.
+
 ![Screenshot of the Stop button in Visual Studio for Mac.](../media/vsm/using-vsmac-tools-unity-image7.png)
 
 :::zone-end
@@ -176,6 +184,7 @@ For added convenience, you can change the **Attach to Unity** button to **Attach
 
 1. Click the small **down arrow** next to the **Attach to Unity** button.
 2. Select **Attach to Unity and Play** from the dropdown menu.
+
    ![Screenshot of the Attach and play button in Visual Studio.](../media/vs/vstu-attach-and-play.png)
 
 The play button becomes labeled **Attach to Unity and Play**. Clicking this button or using the keyboard shortcut **F5** now automatically switches to the Unity editor and runs the game in the editor, in addition to attaching the Visual Studio debugger.
