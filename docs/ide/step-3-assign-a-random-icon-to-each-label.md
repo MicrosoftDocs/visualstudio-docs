@@ -63,6 +63,8 @@ If the icons show up in the same cells every game, it's not very challenging. To
     ```
 
 4. Save your program and run it. It should show a form with random icons assigned to each label. 
+   
+   If the Webdings icons don't display properly on the form, set the **UseCompatibleTextRendering** property of all the labels to **True**.
 
 5. Close your program, and then run it again. Notice that different icons are assigned to each label, as shown in the following picture. 
 
