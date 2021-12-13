@@ -119,7 +119,7 @@ For other Workloads, refer to the [Workloads](./asp-net-core.md) section.
 
 ## Related Video
 
-> [!Video https://docs.microsoft.com/en-us/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Acquisition/player]
+> [!Video https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Acquisition/player]
 
 ## See also
 
