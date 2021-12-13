@@ -15,7 +15,7 @@ ms.workload:
 zone_pivot_groups: platform
 ---
 # Visual Studio Tools for Unity
-![Visual Studio Tools for Unity](../media/hero.png)
+![Screenshot of a computer, game controller, and icons for game play.](../media/hero.png)
 
 ## Overview
 Visual Studio Tools for Unity includes a rich set of features that enhances writing and debugging Unity C# scripts and working with Unity projects.
@@ -29,17 +29,17 @@ Visual Studio Tools for Unity includes a rich set of features that enhances writ
 
 ## Available for Windows and macOS
 :::zone pivot="windows"
-Visual Studio Tools for Unity is available for free and supports Visual Studio 2017 Community, Professional, and Enterprise and newer. We recommend [downloading and using the latest version of Visual Studio](https://visualstudio.microsoft.com/downloads/).
+Visual Studio Tools for Unity is available for free and supports Visual Studio 2017 Community, Professional, and Enterprise and newer. We recommend [downloading and using the latest version of Visual Studio.](https://visualstudio.microsoft.com/downloads/).
 :::zone-end
 :::zone pivot="macos"
-Visual Studio Tools for Unity is available for free and included in every installation of Visual Studio for Mac 2017 and newer. We recommend [downloading and using the latest version of Visual Studio for Mac](https://visualstudio.microsoft.com/downloads/).
+Visual Studio Tools for Unity is available for free and included in every installation of Visual Studio for Mac 2017 and newer. We recommend [downloading and using the latest version of Visual Studio for Mac.](https://visualstudio.microsoft.com/downloads/).
 :::zone-end
 
-Visit the Visual Studio Tools for Unity [getting started documentation](getting-started-with-visual-studio-tools-for-unity.md) for more information about installation and setup.
+Visit the Visual Studio Tools for Unity [getting started with Tools For Unity.](getting-started-with-visual-studio-tools-for-unity.md) for more information about installation and setup.
 
 ### Supported Unity versions
 #### Visual Studio Editor Unity package
-Unity 2020.1 and newer require a Unity Package for external editor tools like Visual Studio and Visual Studio for Mac. [Learn more about these changes in the Unity blog post](https://unity.com/releases/2020-1/programmer-tools#verified-ide-packages-now-include-visual-studio).
+Unity 2020.1 and newer require a Unity Package for external editor tools like Visual Studio and Visual Studio for Mac. [Documentation to Learn more about these changes in the Unity blog post.](https://unity.com/releases/2020-1/programmer-tools#verified-ide-packages-now-include-visual-studio).
 
 The [getting started section](getting-started-with-visual-studio-tools-for-unity.md) includes more information on the configuration of the Visual Studio Editor package.
 
@@ -67,7 +67,7 @@ The latest version of the Visual Studio Editor package is recommended.
 Quickly and accurately add Unity Event Functions, like `Start`, `Update`, and `OnCollisionEnter` to C# scripts with a few keystrokes using auto-complete suggestions powered by IntelliSense. 
 
 :::zone pivot="windows"
-![IntelliSense dialog showing OnCollisionEnter](../media/vs/intellisense-example.png)
+![Screenshot of the IntelliSense dialog showing OnCollisionEnter.](../media/vs/intellisense-example.png)
 :::zone-end
 :::zone pivot="macos"
 Generate code for multiple Unity Event Functions and their comments using ⌘+Shift+M.
@@ -88,12 +88,12 @@ Visual Studio Tools for Unity supports the robust [debugging](using-visual-studi
 * Inspect and modify the value of variables and arguments.
 * Drill down into complex objects and data structures.
 
-![Stopped on a breakpoint inspecting variables](../media/vs/debugging-inspecting.png)
+![Screenshot of Visual Studio stopped on a breakpoint inspecting variables.](../media/vs/debugging-inspecting.png)
 
 ### Quick fixes and refactoring suggestions
 Write better code that captures the best practices with Visual Studio's deep understanding of Unity projects.
 
-![VS refactoring string comparison with CompareTag](../media/vs/unity-diagnostics.png)
+![Screenshot of the Visual Studio refactoring string comparison with CompareTag.](../media/vs/unity-diagnostics.png)
 
 :::zone pivot="windows"
 ### CodeLens hints
@@ -101,14 +101,14 @@ Identify where code is called from using CodeLens hints that show implicit calls
 
 Quickly distinguish your code from Unity methods with hints for every Unity Event Function.
 
- ![New script showing CodeLens hints for Unity Script and Unity Message](../media/vs/codelens-support.png)
+ ![Screenshot of a new script showing CodeLens hints for Unity Script and Unity Message.](../media/vs/codelens-support.png)
 :::zone-end
 
 :::zone pivot="windows"
 ### Unity Project Explorer
 Display project files in a way that matches the Hierarchy Window in the Unity Editor.
 
-![Unity Project Explorer](../media/vs/unity-project-explorer.png)
+![Screenshot of the Unity Project Explorer.](../media/vs/unity-project-explorer.png)
 :::zone-end
 :::zone pivot="macos"
 ### Unity project view
@@ -120,7 +120,7 @@ Visual Studio for Mac automatically displays project files in a way that match t
 View Unity documentation directly in tooltips when inspecting code.
 
 :::zone pivot="windows"
-![Documentation in tooltips](../media/vs/visual-studio-tools-unity-documentation-tooltips.png)
+![Screenshot of Unity documentation showing in tooltips.](../media/vs/visual-studio-tools-unity-documentation-tooltips.png)
 :::zone-end
 :::zone pivot="macos"
 
