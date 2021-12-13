@@ -2,7 +2,7 @@
 title: Create unit test method stubs
 description: Learn how to use the Create Unit Tests command, which allows easy configuration of a test project, the test class, and the test method stub within it.
 ms.custom: SEO-VS-2020
-ms.date: 08/19/2021
+ms.date: 12/01/2021
 ms.topic: how-to
 helpviewer_keywords: 
   - unit testing, create unit tests
@@ -36,7 +36,7 @@ To get started, select a method, a type, or a namespace in the code editor in th
 ![Using the Create unit tests command](media/createunittestcommand.png)
 ::: moniker-end
 ::: moniker range=">=vs-2022"
-![Using the Create unit tests command and menu dialog](media/create-unit-test-command-menu-dialog.png)
+![Using the Create unit tests command and menu dialog](media/vs-2022/create-unit-test-command-menu-dialog.png)
 ::: moniker-end
 
 If you don't see test framework options for NUnit or xUnit, see [Use third-party unit test frameworks](#use-third-party-unit-test-frameworks).
@@ -49,7 +49,7 @@ If you plan to run these tests as part of the test automation process, you might
 ![Setting unit test traits](media/createunittest.png)
 ::: moniker-end
 ::: moniker range=">=vs-2022"
-![Using the Create unit tests traits](media/create-unit-test-traits.png)
+![Using the Create unit tests traits](media/vs-2022/create-unit-test-traits.png)
 ::: moniker-end
 
 ## Use third-party unit test frameworks
