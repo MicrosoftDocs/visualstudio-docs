@@ -245,15 +245,18 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
         if (commandService != null)
         {
             // Add the DynamicItemMenuCommand for the expansion of the root item into N items at run time.
-            CommandID dynamicItemRootId = new CommandID(new Guid(DynamicMenuPackageGuids.guidDynamicMenuPackageCmdSet), (int)DynamicMenuPackageGuids.cmdidMyCommand);
-            DynamicItemMenuCommand dynamicMenuCommand = new DynamicItemMenuCommand(dynamicItemRootId,
+            CommandID dynamicItemRootId = new CommandID(
+                new Guid(DynamicMenuPackageGuids.guidDynamicMenuPackageCmdSet),
+                (int)DynamicMenuPackageGuids.cmdidMyCommand);
+            DynamicItemMenuCommand dynamicMenuCommand = new DynamicItemMenuCommand(
+                dynamicItemRootId,
                 IsValidDynamicItem,
                 OnInvokedDynamicItem,
                 OnBeforeQueryStatusDynamicItem);
                 commandService.AddCommand(dynamicMenuCommand);
-                }
+        }
 
-        dte2 = (DTE2)this.ServiceProvider.GetService(typeof(DTE));
+        this.dte2 = (DTE2)this.ServiceProvider.GetService(typeof(DTE));
     }
     ```
 
