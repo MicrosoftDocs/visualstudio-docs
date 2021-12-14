@@ -110,7 +110,7 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
      1. Type the URL (http), network share, or local path of the symbol server or symbol location in the text field. Statement completion helps you find the correct format.
 
      ::: moniker range=">= vs-2022"
-     ![Tools &#45; Options &#45; Debugging &#45; Symbols page](media/dbg-options-symbols.png "Tools &#45; Options &#45; Debugging &#45; Symbols page")
+     ![Tools &#45; Options &#45; Debugging &#45; Symbols page](media/vs-2022/dbg-options-symbols.png "Tools &#45; Options &#45; Debugging &#45; Symbols page")
      ::: moniker-end
      ::: moniker range="<= vs-2019"
      ![Tools &#45; Options &#45; Debugging &#45; Symbols page](media/dbg-options-symbols.gif "Tools &#45; Options &#45; Debugging &#45; Symbols page")
