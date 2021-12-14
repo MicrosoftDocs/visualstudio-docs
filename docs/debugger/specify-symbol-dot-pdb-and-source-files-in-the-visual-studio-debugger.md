@@ -2,7 +2,7 @@
 title: "Set symbol (.pdb) and source files in the debugger"
 description: "Learn how to configure and manage symbol and source files in Visual Studio"
 
-ms.date: "3/31/2021"
+ms.date: "12/09/2021"
 ms.topic: "conceptual"
 f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.Native"
@@ -109,7 +109,12 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
      1. Select the **+** symbol in the toolbar.
      1. Type the URL (http), network share, or local path of the symbol server or symbol location in the text field. Statement completion helps you find the correct format.
 
+     ::: moniker range=">= vs-2022"
+     ![Tools &#45; Options &#45; Debugging &#45; Symbols page](media/vs-2022/dbg-options-symbols.png "Tools &#45; Options &#45; Debugging &#45; Symbols page")
+     ::: moniker-end
+     ::: moniker range="<= vs-2019"
      ![Tools &#45; Options &#45; Debugging &#45; Symbols page](media/dbg-options-symbols.gif "Tools &#45; Options &#45; Debugging &#45; Symbols page")
+     ::: moniker-end
 
      >[!NOTE]
      >Only the specified folder is searched. You must add entries for any subfolders that you want to search.
@@ -150,7 +155,7 @@ You can select additional symbol options in **Tools** > **Options** > **Debuggin
 
   Always shows the disassembly when source or symbol files are not found.
 
-  ![Options &#47; Debugging  &#47; General disassembly options](../debugger/media/dbg_options_general_disassembly_checkbox.png "Options &#47; Debugging  &#47; General disassembly options")
+  ![Options &#47; Debugging  &#47; General disassembly options](../debugger/media/dbg-options-general-disassembly-checkbox.png "Options &#47; Debugging  &#47; General disassembly options")
   <a name="BKMK_Use_symbol_servers_to_find_symbol_files_not_on_your_local_machine"></a>
 - **Enable source server support**
 
@@ -165,7 +170,7 @@ You can select additional symbol options in **Tools** > **Options** > **Debuggin
 
   Select this item and the child items you want. **Allow source server for partial trust assemblies (Managed only)** and **Always run untrusted source server commands without prompting** can increase the security risks.
 
-  ![Enable source server options](../debugger/media/dbg_options_general_enablesrcsrvr_checkbox.png "DBG_Options_General_EnableSrcSrvr_checkbox")
+  ![Enable source server options](../debugger/media/dbg-options-general-enablesrcsrvr-checkbox.png "DBG_Options_General_EnableSrcSrvr_checkbox")
 
 ## Compiler symbol options
 
