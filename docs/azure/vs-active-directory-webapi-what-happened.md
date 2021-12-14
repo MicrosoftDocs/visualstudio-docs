@@ -121,5 +121,5 @@ When adding the connected service, Visual Studio 2015 backs up changed and remov
 
 ## Next steps
 
-- [Authentication scenarios for Azure Active Directory](azure/active-directory/develop/authentication-vs-authorization)
-- [Add sign-in with Microsoft to an ASP.NET web app](azure/active-directory/develop/quickstart-v2-aspnet-webapp)
+- [Authentication scenarios for Azure Active Directory](/azure/active-directory/develop/authentication-vs-authorization)
+- [Add sign-in with Microsoft to an ASP.NET web app](/azure/active-directory/develop/quickstart-v2-aspnet-webapp)
