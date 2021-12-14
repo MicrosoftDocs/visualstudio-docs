@@ -3,13 +3,12 @@ title: Python in Visual Studio tutorial step 0, installation
 titleSuffix: ""
 description: Step 0 (installation prerequisites) of a core walkthrough of working with Python in Visual Studio.
 ms.date: 12/11/2021
-ms.custom: devdivchpfy22
+ms.custom: devdivchpfy22, vs-acquisition
 ms.topic: tutorial
 author: rjmolyneaux
 ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
-ms.custom: vs-acquisition
 ms.workload:
   - python
   - data-science
