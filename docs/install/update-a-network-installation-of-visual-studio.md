@@ -1,7 +1,7 @@
 ---
 title: Update a network-based installation
 description: Learn how to update a Visual Studio client that was installed from a network layout
-ms.date: 11/23/2021
+ms.date: 12/7/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -70,7 +70,7 @@ Users can [manually update](/visualstudio/install/update-visual-studio) a Visual
   * launching the Visual Studio IDE and responding to the notification flag or message, or choosing Help/Check for updates.  
 
 ## Programatically update the client machines
-Administrators can programmatically update the client installations of Visual Studio by either issuing the commands to the client-side installer, or by invoking a bootstrapper.
+Administrators can programmatically update the client installations of Visual Studio by either issuing the commands to the client-side installer, or by invoking a bootstrapper in the layout.
 
 ### Programatically update Visual Studio by using the Visual Studio Installer
 
