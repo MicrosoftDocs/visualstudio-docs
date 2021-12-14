@@ -2,7 +2,8 @@
 title: Python support in Visual Studio on Windows
 titleSuffix: ""
 description: Summary of Python features in Visual Studio, making it the best Python IDE on Windows (also known as Python Tools for Visual Studio, PTVS).
-ms.date: 06/05/2019
+ms.date: 12/11/2021
+ms.custom: devdivchpfy22
 ms.topic: overview
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -16,11 +17,7 @@ ms.workload:
 
 # Work with Python in Visual Studio on Windows
 
-<<<<<<< HEAD
-Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by both a strong developer community and many-free libraries. Python supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing. Scientists, casual developers, professional developers, and many universities alike use Python for programming. You can learn more about the language on [python.org](https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
-=======
 Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by both a strong developer community and many free libraries. Python supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing. Scientists, casual developers, professional developers, and many universities alike use Python for programming. You can learn more about the language on [python.org](https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
->>>>>>> dc392e126dbd9176825fe68cfc10ede121cde0bf
 
 Visual Studio is a powerful Python IDE on Windows. Visual Studio provides [open-source](https://github.com/Microsoft/ptvs) support for the Python language through the **Python Development** and **Data Science** workloads (Visual Studio 2017 and later) and the free Python Tools for Visual Studio extension (Visual Studio 2015 and earlier).
 
@@ -90,11 +87,7 @@ For more information:
 
 For every Python environment known to Visual Studio, you can easily open the same interactive (REPL) environment for a Python interpreter directly within Visual Studio, rather than using a separate command prompt. You can easily switch between environments as well. (To open a separate command prompt, select your desired environment in the **Python Environments** window, then select the **Open in PowerShell** command as explained earlier under [Support for multiple interpreters](#support-for-multiple-interpreters).)
 
-<<<<<<< HEAD
 :::moniker range="<=vs-2019"
-=======
-:::moniker range="<=    vs-2019"
->>>>>>> dc392e126dbd9176825fe68cfc10ede121cde0bf
    ![Python interactive window in Visual Studio-2019](media/interactive-window.png)
 :::moniker-end
 
@@ -118,14 +111,11 @@ For more information:
 > Visual Studio 2019 supports opening a folder containing Python code and running that code without creating Visual Studio project and solution files. For more information, see [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md). There are, however, benefits to using a project file, as explained in this section.
 ::: moniker-end
 
-<<<<<<< HEAD
-=======
 ::: moniker range="vs-2022"
 > [!Note]
 > Visual Studio 2022 supports opening a folder containing Python code and running that code without creating Visual Studio project and solution files. For more information, see [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md). There are, however, benefits to using a project file, as explained in this section.
 ::: moniker-end
 
->>>>>>> dc392e126dbd9176825fe68cfc10ede121cde0bf
 Visual Studio helps you manage the complexity of a project as it grows over time. A *Visual Studio project* is much more than a folder structure: it includes an understanding of how different files are used and how they relate to each other. Visual Studio helps you distinguish app code, test code, web pages, JavaScript, build scripts, and so on, which then enable file-appropriate features. A Visual Studio solution, moreover, helps you manage multiple related projects, such as a Python project and a C++ extension project.
 
    ![A Visual Studio solution containing both Python and C++ projects](media/projects-solution-explorer-two-projects.png)
@@ -203,11 +193,7 @@ A. Not at this time, but you can up vote the request on [Developer Community](ht
 
 **Q. What can I use to build UI with Python?**
 
-<<<<<<< HEAD
-A. The main offering in this area is the [Qt Project](https://www.qt.io/qt-for-application-development/), with bindings for Python known as [PySide (the official binding)](https://wiki.qt.io/PySide) (also see [PySide downloads](https://download.qt.io/official_releases/pyside/.)) and [PyQt](https://wiki.python.org/moin/PyQt). Now, Python support in Visual Studio doesn't include any specific tools for UI development.
-=======
 A. The main offering in this area is the [Qt Project](https://www.qt.io/qt-for-application-development/), with bindings for Python known as [PySide (the official binding)](https://wiki.qt.io/PySide) (also see [PySide downloads](https://download.qt.io/official_releases/pyside/.)) and [PyQt](https://wiki.python.org/moin/PyQt). Python support in Visual Studio doesn't include any specific tools for UI development.
->>>>>>> dc392e126dbd9176825fe68cfc10ede121cde0bf
 
 **Q. Can a Python project produce a stand-alone executable?**
 
