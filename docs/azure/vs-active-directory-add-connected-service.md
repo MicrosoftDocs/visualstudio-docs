@@ -67,5 +67,5 @@ When you add the connected service the wizard, Visual Studio adds Azure Active D
 
 ## Next steps
 
-- [Authentication scenarios for Azure Active Directory](azure/active-directory/develop/authentication-vs-authorization)
-- [Add sign-in with Microsoft to an ASP.NET web app](azure/active-directory/develop/quickstart-v2-aspnet-webapp)
+- [Authentication scenarios for Azure Active Directory](/azure/active-directory/develop/authentication-vs-authorization)
+- [Add sign-in with Microsoft to an ASP.NET web app](/azure/active-directory/develop/quickstart-v2-aspnet-webapp)
