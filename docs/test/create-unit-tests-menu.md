@@ -61,11 +61,11 @@ To automatically generate unit tests for NUnit or xUnit, install one of these te
 
 ## When should I use this feature?
 
-Use this feature whenever you need to create unit tests, but specifically when you are testing existing code that has little or no test coverage and no documentation. In other words, where there is limited or non-existent code specification. It effectively implements an approach similar to [Smart unit tests](https://devblogs.microsoft.com/devops/introducing-smart-unit-tests/) that characterizes the observed behavior of the code.
+Use this feature whenever you need to create unit tests, but specifically when you are testing existing code that has little or no test coverage and no documentation. In other words, where there is limited or non-existent code specification. It effectively implements an approach similar to [IntelliTest](generate-unit-tests-for-your-code-with-intellitest.md) that characterizes the observed behavior of the code.
 
 However, this feature is equally applicable when a developer starts by writing some code and then uses that to bootstrap unit tests. Within the flow of coding, the developer might want to quickly create a unit test method stub (with a suitable test class and a suitable test project) for a particular piece of code.
 
 ## See also
 
-- [Creating unit test method stubs with "Create Unit Tests"](https://devblogs.microsoft.com/devops/creating-unit-test-method-stubs-with-create-unit-tests/)
-- [Unit testing blog posts](https://devblogs.microsoft.com/devops/?s=unit+testing)
+- [Get started with IntelliTest](generate-unit-tests-for-your-code-with-intellitest.md)
+- [Unit testing blog posts](https://devblogs.microsoft.com/search?query=unit+testing)
