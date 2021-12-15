@@ -2,7 +2,8 @@
 title: Python support in Visual Studio on Windows
 titleSuffix: ""
 description: Summary of Python features in Visual Studio, making it the best Python IDE on Windows (also known as Python Tools for Visual Studio, PTVS).
-ms.date: 06/05/2019
+ms.date: 12/11/2021
+ms.custom: devdivchpfy22
 ms.topic: overview
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -86,7 +87,7 @@ For more information:
 
 For every Python environment known to Visual Studio, you can easily open the same interactive (REPL) environment for a Python interpreter directly within Visual Studio, rather than using a separate command prompt. You can easily switch between environments as well. (To open a separate command prompt, select your desired environment in the **Python Environments** window, then select the **Open in PowerShell** command as explained earlier under [Support for multiple interpreters](#support-for-multiple-interpreters).)
 
-:::moniker range="<=    vs-2019"
+:::moniker range="<=vs-2019"
    ![Python interactive window in Visual Studio-2019](media/interactive-window.png)
 :::moniker-end
 
@@ -105,7 +106,7 @@ For more information:
 
 ## Project system, and project and item templates
 
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 > [!Note]
 > Visual Studio 2019 supports opening a folder containing Python code and running that code without creating Visual Studio project and solution files. For more information, see [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md). There are, however, benefits to using a project file, as explained in this section.
 ::: moniker-end
