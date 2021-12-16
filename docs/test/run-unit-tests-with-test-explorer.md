@@ -32,8 +32,11 @@ When you build the test project, the tests appear in Test Explorer. If Test Expl
 ::: moniker range="vs-2017"
 ![Unit Test Explorer](../test/media/ute_failedpassednotrunsummary.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![Test Explorer](../test/media/vs-2019/test-explorer-16-2.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Test Explorer](../test/media/vs-2022/test-explorer-17-0.png)
 ::: moniker-end
 
 ::: moniker range="vs-2017"
@@ -48,8 +51,11 @@ You can perform much of the work of finding, organizing and running tests from t
 ::: moniker range="vs-2017"
 ![Run tests from the Test Explorer toolbar](../test/media/ute_toolbar.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![Run tests from the Test Explorer toolbar](../test/media/vs-2019/test-explorer-toolbar-diagram-16-2.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+:::image type="content" source="../test/media/vs-2022/test-explorer-toolbar-diagram-17-0.png" alt-text="Run tests from the Test Explorer toolbar":::
 ::: moniker-end
 
 ### Run tests
