@@ -1,12 +1,7 @@
 ---
 title: "Set symbol (.pdb) and source files in the debugger"
 description: "Learn how to configure and manage symbol and source files in Visual Studio"
-
-<<<<<<< HEAD
 ms.date: "12/12/2021"
-=======
-ms.date: "12/09/2021"
->>>>>>> 9a6aaff186531806fa28842a360635adf1aebeb7
 ms.topic: "conceptual"
 f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.Native"
