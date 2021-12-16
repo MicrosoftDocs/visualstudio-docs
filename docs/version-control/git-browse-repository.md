@@ -16,7 +16,7 @@ The **Git Changes** window provides a seamless way to interact with Git while co
 
 ## Browse through local and remote branches
 
-To get started, open the **Git Repository** window by selecting **Git Repository** on the **View** menu. You can also access the **Git Repository** window by selecting the **Outgoing** and **Incoming** links in the **Git Changes** window and on the status bar.
+To get started, open the **Git Repository** window by selecting **Git Repository** on the **View** menu. You can also access the **Git Repository** window by selecting the **outgoing/incoming** links in the **Git Changes** window and on the status bar.
 
 :::image type="content" source="media/vs-2022/git-repository-browse-ui.png" alt-text="Screenshot that shows the anatomy of the Git Repository window." lightbox="media/vs-2022/git-repository-browse-ui.png":::
 
