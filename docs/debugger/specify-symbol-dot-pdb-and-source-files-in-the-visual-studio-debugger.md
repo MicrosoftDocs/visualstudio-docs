@@ -2,7 +2,11 @@
 title: "Set symbol (.pdb) and source files in the debugger"
 description: "Learn how to configure and manage symbol and source files in Visual Studio"
 
+<<<<<<< HEAD
 ms.date: "12/12/2021"
+=======
+ms.date: "12/09/2021"
+>>>>>>> 9a6aaff186531806fa28842a360635adf1aebeb7
 ms.topic: "conceptual"
 f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.Native"
@@ -155,7 +159,7 @@ You can select additional symbol options in **Tools** > **Options** > **Debuggin
 
   Always shows the disassembly when source or symbol files are not found.
 
-  ![Options &#47; Debugging  &#47; General disassembly options](../debugger/media/dbg_options_general_disassembly_checkbox.png "Options &#47; Debugging  &#47; General disassembly options")
+  ![Options &#47; Debugging  &#47; General disassembly options](../debugger/media/dbg-options-general-disassembly-checkbox.png "Options &#47; Debugging  &#47; General disassembly options")
   <a name="BKMK_Use_symbol_servers_to_find_symbol_files_not_on_your_local_machine"></a>
 - **Enable source server support**
 
@@ -170,7 +174,7 @@ You can select additional symbol options in **Tools** > **Options** > **Debuggin
 
   Select this item and the child items you want. **Allow source server for partial trust assemblies (Managed only)** and **Always run untrusted source server commands without prompting** can increase the security risks.
 
-  ![Enable source server options](../debugger/media/dbg_options_general_enablesrcsrvr_checkbox.png "DBG_Options_General_EnableSrcSrvr_checkbox")
+  ![Enable source server options](../debugger/media/dbg-options-general-enablesrcsrvr-checkbox.png "DBG_Options_General_EnableSrcSrvr_checkbox")
 
 ## Compiler symbol options
 

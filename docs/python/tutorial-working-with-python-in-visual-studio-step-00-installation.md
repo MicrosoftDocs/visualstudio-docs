@@ -2,13 +2,13 @@
 title: Python in Visual Studio tutorial step 0, installation
 titleSuffix: ""
 description: Step 0 (installation prerequisites) of a core walkthrough of working with Python in Visual Studio.
-ms.date: 09/14/2021
+ms.date: 12/11/2021
+ms.custom: devdivchpfy22, vs-acquisition
 ms.topic: tutorial
 author: rjmolyneaux
 ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
-ms.custom: vs-acquisition
 ms.workload:
   - python
   - data-science
@@ -27,7 +27,7 @@ ms.workload:
     >[!Tip]
     > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other uses, install [Visual Studio Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted) or [Visual Studio Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted).
 
-1. The installer presents you with a list of workloads, which are groups of related options for specific development areas. For Python, select the **Python development** workload and select **Install**:
+1. The installer provides a list of workloads that are groups of related options for specific development areas. For Python, select the **Python development** workload and select **Install**:
 
     ![Screenshot of the Python development workload selected in the Visual Studio installer.](media/installation-python-workload.png)
 
@@ -49,5 +49,6 @@ ms.workload:
 ## See also
 
 - [Manually identify an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment)
-- [Install Python support in Visual Studio 2015 and earlier](installing-python-support-in-visual-studio.md)
-- [Install locations](installing-python-support-in-visual-studio.md#install-locations)
+- [Install Python support in Visual Studio 2022](installing-python-support-in-visual-studio.md#visual-studio-2022)
+- [Install Python support in Visual Studio 2019](installing-python-support-in-visual-studio.md#visual-studio-2019)
+- [Install Python support in Visual Studio 2015](installing-python-support-in-visual-studio.md#visual-studio-2015)
