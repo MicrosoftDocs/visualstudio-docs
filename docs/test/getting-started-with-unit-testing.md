@@ -375,7 +375,7 @@ To add a unit test project:
 
 5. Add code to your test method.
 
-   ::: moniker range=">=vs-2019"
+   ::: moniker range=">=vs-2022"
    ![Add code to your unit test code file](media/vs-2022/unit-test-method.png)
    ::: moniker-end
    ::: moniker range="<=vs-2019"
