@@ -1,7 +1,7 @@
 ---
 title: Run unit tests with Test Explorer
 description: Learn how to run tests with Test Explorer in Visual Studio. This topic covers how to enable automatic test runs after build, view test results, group and filter the test list, create playlists, and use test shortcuts.
-ms.date: 01/11/2021
+ms.date: 12/16/2021
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -109,8 +109,11 @@ To view the details of an individual test, select the test.
 ::: moniker range="vs-2017"
 ![Test execution details](../test/media/ute_testdetails.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![Test execution details](../test/media/vs-2019/test-explorer-detail.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Test execution details](../test/media/vs-2022/test-explorer-details.png)
 ::: moniker-end
 
 The test details pane displays the following information:
@@ -142,14 +145,23 @@ To change the way that tests are organized, choose the down arrow next to the **
 
 ![Group tests by category in Test Explorer](../test/media/ute_groupbycategory.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 Test Explorer lets you group your tests into a hierarchy. The default hierarchy grouping is **Project**, **Namespace**, and then **Class**. To change the way that tests are organized, choose the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and select a new grouping criteria.
 
-![Group tests by category in Test Explorer](../test/media/vs-2019/test-explorer-groupby-162.png)
+![Group tests by category in Test Explorer](../test/media/vs-2022/test-explorer-groupby-162.png)
 
 You can define your own levels of the hierarchy and group by **State** and then **Class** for example by selecting Group By options in your preferred order.
 
 ![Screenshot of the Visual Studio Test Explorer showing  a test hierarchy in one pane and the Group By menu in the other with the Class and State options checked.](../test/media/vs-2019/test-explorer-groupby-state-16-2.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+Test Explorer lets you group your tests into a hierarchy. The default hierarchy grouping is **Project**, **Namespace**, and then **Class**. To change the way that tests are organized, choose the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and select a new grouping criteria.
+
+![Group tests by category in Test Explorer](../test/media/vs-2022/test-explorer-groupby-170.png)
+
+You can define your own levels of the hierarchy and group by **State** and then **Class** for example by selecting Group By options in your preferred order.
+
+![Screenshot of the Visual Studio Test Explorer showing  a test hierarchy in one pane and the Group By menu in the other with the Class and State options checked.](../test/media/vs-2019/test-explorer-groupby-state-17-0.png)
 ::: moniker-end
 
 ### Test Explorer groups
@@ -187,7 +199,6 @@ In the Microsoft unit test framework for managed apps, you define a trait name/ 
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute>|The Priority category is defined by the unit test framework and requires you to provide an integer value of the priority.|
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute>|The TestCategory attribute enables you to specify the category of a unit test.|
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute>|The TestProperty attribute enables you to define trait category/value pair.|
-
 
 **Traits in the Microsoft Unit Testing Framework for C++**
 
