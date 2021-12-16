@@ -1,7 +1,7 @@
 ---
 title: "Office primary interop assemblies"
 description: Learn how to use the primary interop assembly (PIA) to gain access the features of a Microsoft Office application from an Office project.
-ms.custom: SEO-VS-2020
+ms.custom: SEO-VS-2020, devdivchpfy22
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -25,7 +25,7 @@ To use the features of a Microsoft Office application from an Office project, yo
 
 [!include[Add-ins note](includes/addinsnote.md)]
 
-When you create a new Office project, Visual Studio adds references to the PIAs that are required to build the project. In some scenarios, you might need to add references to additional PIAs (for example, if you want to use a feature of Microsoft Office Word in a project for Microsoft Office Excel).
+When you create a new Office project, Visual Studio adds references to the PIAs that are required to build the project. In some scenarios, you might need to add references to other PIAs (for example, if you want to use a feature of Microsoft Office Word in a project for Microsoft Office Excel).
 
 This topic describes the following aspects of using the Microsoft Office PIAs in Office projects:
 
@@ -49,13 +49,13 @@ Visual Studio uses different sets of the PIAs on the development computer. These
 
 - The global assembly cache
 
-  These copies of the assemblies are used during some development tasks, such as when you run or debug projects. Visual Studio does not install and register these assemblies; you must do this yourself.
+  These copies of the assemblies are used during some development tasks, such as when you run or debug projects. Visual Studio does not install and register these assemblies; you need to do it yourself.
 
 ### Primary interop assemblies in the program files directory
 
-When you install Visual Studio, the PIAs are automatically installed to a location in the file system, outside of the global assembly cache. When you create a new project, Visual Studio automatically adds references to these copies of the PIAs to your project. Visual Studio uses these copies of the PIAs, instead of the assemblies in the global assembly cache, to resolve type references when you develop and build your project.
+The PIAs are automatically added to a location in the file system, outside of the global assembly cache, while you install Visual Studio. When you create a new project, Visual Studio automatically adds references to these copies of the PIAs to your project. Visual Studio uses these copies of the PIAs, instead of the assemblies in the global assembly cache, to resolve type references when you develop and build your project.
 
-These copies of the PIAs help Visual Studio avoid several development issues that can occur when different versions of the PIAs are registered in the global assembly cache.
+When different versions of the PIAs are registered in the global assembly cache, you can face several development issue. The added copies of PIAs will help you to avoid such issues.
 
 Starting with Visual Studio 2017, these copies of the PIAs are installed to following shared locations on the development computer:
 
@@ -77,11 +77,11 @@ The Office PIAs are not required on end-user computers to run Office solutions. 
 
 ## Use features of multiple Microsoft Office applications in a single project
 
-Every Office project template in Visual Studio is designed to work with a single Microsoft Office application. To use features in multiple Microsoft Office applications, or to use features in an application or component that does not have a project in Visual Studio, you must add a reference to the required PIAs.
+Every Office project template in Visual Studio is designed to work with a single Microsoft Office application. To use features in multiple Microsoft Office applications, or to use features in an application or component that doesn't have a project in Visual Studio, you must add a reference to the required PIAs.
 
 In most cases, you should add references to the PIAs that are installed by Visual Studio under the `%ProgramFiles(x86)%\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\` directory. These versions of the assemblies appear on the **Framework** tab of the **Reference Manager** dialog box. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md).
 
-If you have installed and registered the PIAs in the global assembly cache, these versions of the assemblies appear on the **COM** tab of the **Reference Manager** dialog box. You should avoid adding references to these versions of the assemblies, because there are some development issues that can occur when you use them. For example, if you have registered different versions of the PIAs in the global assembly cache, your project will automatically bind to the version of the assembly that was registered last—even if you specify a different version of the assembly on the **COM** tab of the **Reference Manager** dialog box.
+If you have installed and registered the PIAs in the global assembly cache, these versions of the assemblies appear on the **COM** tab of the **Reference Manager** dialog box. Avoid adding references to these versions of the assemblies, because there are some development issues that can occur when you use them. For example, if you have registered different versions of the PIAs in the global assembly cache, your project will automatically bind to the version of the assembly that was registered last—even if you specify a different version of the assembly on the **COM** tab of the **Reference Manager** dialog box.
 
 > [!NOTE]
 > Some assemblies are added to a project automatically when an assembly that references them is added. For example, references to the `Office.dll` and `Microsoft.Vbe.Interop.dll` assemblies are added automatically when you add a reference to the Word, Excel, Outlook, Microsoft Forms, or Graph assemblies.
