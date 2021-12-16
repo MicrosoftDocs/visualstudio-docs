@@ -113,7 +113,7 @@ To learn more about cherry-picking commits, see the [Git webpage for the cherry-
 
 ## Revert changes
 
-The revert operation creates a new commit that undoes the changes from a previous commit. The original commit stays in the repository's history, though. Because reverting doesn't rewrite the history, it's safe to use when you're working with others in shared branches.
+Use the revert command to undo the changes made in commits pushed to shared branches. The revert command creates a new commit that undoes the changes made on a previous commit. The revert command doesn't rewrite the repository history, which makes it safe to use when you're working with others.
 
 To revert changes made in a commit by using the command line, use the following commands. Replace the example ID with the ID of a real commit in your branch.
 
@@ -122,7 +122,7 @@ git revert 53333305
 git commit
 ```
 
-To do the same in Visual Studio, right-click the commit that you want to revert and select **Revert**. After you confirm your action and the operation is complete, Visual Studio shows a success message and a new commit appears in the **Outgoing** section.
+In the previous example, the commands will undo the changes made in commit 53333305 and create a new commit on the branch. The original commit is still in the Git history. To do the same in Visual Studio, right-click the commit you want to revert and then select **Revert**. After you confirm your action and the operation is complete, Visual Studio displays a success message and a new commit appears in the **Outgoing** section.
 
 :::image type="content" source="media/vs-2022/git-repository-revert-ui.png" alt-text="Screenshot of reverting in Visual Studio." lightbox="media/vs-2022/git-repository-revert-ui.png":::
 
@@ -134,10 +134,10 @@ To learn more about reverting changes, see the [Git webpage for the revert comma
 
 ## Reset a branch to a previous state
 
-Use the reset operation to bring a branch in your local repository back to the contents of a previous commit. This action discards all changes that have happened since the commit that you're resetting your branch to.
+Use the reset command to bring a branch in your local repository back to the contents of a previous commit. This action discards all changes that have happened since the commit that you're resetting your branch to.
 
 > [!WARNING]
-> Don't reset shared branches, because you might delete other people's work. Use the revert operation instead.
+> Don't reset shared branches, because you might delete other people's work. Use the revert command instead.
 
 To reset a branch to a previous state by using the command line, use the following command. Replace the example ID with the ID of a real commit in your branch.
 
