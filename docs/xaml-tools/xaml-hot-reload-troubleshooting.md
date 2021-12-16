@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting XAML Hot Reload"
 description: "Fix problems that you may encounter with XAML Hot Reload."
-ms.date: "12/10/2021"
+ms.date: "12/16/2021"
 ms.topic: troubleshooting
 helpviewer_keywords:
   - "xaml edit and continue, troubleshooting"
@@ -29,9 +29,9 @@ The feature is enabled by default. When you start debugging your app, make sure 
 
 ![XAML Hot Reload available](../debugger/media/xaml-hot-reload-available.png)
 
-If you do not see the in-app toolbar, then open **Debug** > **Options** > **General**. Make sure that both options, **Enable UI Debugging Tools for XAML** and **Enable XAML Hot Reload** are selected.
+If you do not see the in-app toolbar, then open **Debug** > **Options** > **XAML Hot Reload**. Make sure that the **Enable XAML Hot Reload** option is selected.
 
-![Screenshot of the Visual Studio Debug Options window. General Debugging options are selected and the Enable XAML Hot Reload option is checked.](../debugger/media/xaml-hot-reload-enable.png)
+![Screenshot of the Visual Studio Debug Options window, with the Enable XAML Hot Reload option highlighted.](../debugger/media/xaml-hot-reload-enable.png)
 
 If these options are selected, then go to Live Visual Tree (**Debug** > **Windows** > **Live Visual Tree**) and make sure that **Show runtime tools in application** toolbar button (on the far left) is selected.
 
@@ -64,7 +64,6 @@ You must either manually set the correct MSBuild property to support XAML Hot Re
 
 If your XAML file shows errors in the **Error List**, then XAML Hot Reload may not work.
 
-
 ## Known limitations
 
 The following are known limitations of XAML Hot Reload. To work around any limitation that you run into, just stop the debugger, and then complete the operation.
@@ -89,4 +88,3 @@ You might come across the following errors while using XAML Hot Reload.
 |This change isn't supported by XAML Hot Reload and won't be applied during the debugging session.|Error indicates that the change you're attempting isn't supported by XAML Hot Reload. Stop the debugging session, make the change, and then restart the debugging session.  |
 
 If you find an unsupported scenario that you'd like to see supported, let us know by using our [Suggest a feature](../ide/suggest-a-feature.md) option.
-
