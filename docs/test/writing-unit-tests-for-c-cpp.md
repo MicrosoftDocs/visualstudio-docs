@@ -15,7 +15,7 @@ author: corob-msft
 Write and run your C++ unit tests by using the **Test Explorer** window. It works just like it does for other languages. For more information about using **Test Explorer**, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md).
 
 > [!NOTE]
-> Some features such as Live Unit Testing, Coded UI Tests and IntelliTest are not supported for C++.
+> Some features such as Live Unit Testing, Coded UI Tests and IntelliTest aren't supported for C++.
 
 Visual Studio includes these C++ test frameworks with no additional downloads required:
 
@@ -24,7 +24,7 @@ Visual Studio includes these C++ test frameworks with no additional downloads re
 - Boost.Test
 - CTest
 
-Use the installed frameworks, or write your own test adapter for whatever framework you would like to use within Visual Studio. A test adapter integrates unit tests with the **Test Explorer** window. Several third-party adapters are available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com). For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
+Use the installed frameworks, or write your own test adapter for whatever framework you want to use within Visual Studio. A test adapter integrates unit tests with the **Test Explorer** window. Several third-party adapters are available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com). For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
 
 **Visual Studio 2017 and later (Professional and Enterprise)**
 
@@ -88,7 +88,7 @@ If the test code doesn't export the functions that you want to test, add the out
 
 ### Add #include directives for header files
 
-Next, in your unit test *.cpp* file, add an `#include` directive for any header files that declare the types and functions you want to test. Type `#include "` and then IntelliSense will activate to help you choose. Repeat for any additional headers.
+Next, in your unit test *.cpp* file, add an `#include` directive for any header files that declare the types and functions you want to test. Type `#include "` and then IntelliSense will activate to help you choose. Repeat for any more headers.
 
 ![Screenshot of the Solution Explorer showing an #include directive being added with IntelliSense highlighting a header file for inclusion.](media/vs-2022/cpp-add-includes-test-project-2022.png)
 
@@ -129,7 +129,7 @@ Add *traits* to test methods to specify test owners, priority, and other informa
    > [!NOTE]
    > CTest integration with **Test Explorer** is not yet available. Run CTest tests from the CMake main menu.
 
-1. If all your tests are not visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
+1. If all your tests aren't visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
 
 1. In **Test Explorer**, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled. After running all the tests, the window shows the tests that passed and the ones that failed.
 
