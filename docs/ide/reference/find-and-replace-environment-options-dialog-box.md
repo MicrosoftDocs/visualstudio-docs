@@ -2,7 +2,7 @@
 title: Find and Replace, Environment, Options Dialog Box
 description: Learn how to use the Find and Replace page in the Environment section to control message boxes and other aspects of a find and replace operation.
 ms.custom: SEO-VS-2020
-ms.date: 12/15/2021
+ms.date: 12/16/2021
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.FindReplace
@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Find and Replace, Environment, Options Dialog Box
 
-Use this page of the **Options** dialog box to control message boxes and other aspects of a find and replace operation. You can access this dialog box from the **Tools** menu by clicking **Options**, expanding **Environment**, and then clicking **Find and Replace**. If this page does not appear in the list, select **Show all setting** in the **Options** dialog box.
+Use this page of the **Options** dialog box to control message boxes and other aspects of a find and replace operation. You can access this dialog box from the **Tools** menu by selecting **Options**, expanding **Environment**, and then selecting **Find and Replace**.
 
 ## UIElement List
 
