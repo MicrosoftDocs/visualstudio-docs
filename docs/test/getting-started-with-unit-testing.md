@@ -294,19 +294,35 @@ If you are using the MSTest, xUnit, or NUnit testing framework in Visual Studio 
 
    ::: moniker-end
 
-   ::: moniker range=">=vs-2019"
+   ::: moniker range="vs-2019"
 
    ![Start live unit testing in Visual Studio 2019](media/vs-2019/start-live-unit-testing.png)
 
    ::: moniker-end
 
+   ::: moniker range=">=vs-2022"
+
+   ![Start live unit testing in Visual Studio 2022](media/vs-2022/start-live-unit-testing.png)
+
+   ::: moniker-end
+
 1. View the results of the tests within the code editor window as you write and edit code.
 
+   ::: moniker range="<=vs-2019"
    ![View the results of the tests](media/vs-2019/live-unit-testing-results.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![View the results of the tests](media/vs-2022/live-unit-testing-results.png)
+   ::: moniker-end
 
 1. Click a test result indicator to see more information, such as the names of the tests that cover that method.
 
+   ::: moniker range="<=vs-2019"
    ![Choose the test result indicators](media/vs-2019/live-unit-testing-details.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![Choose the test result indicators](media/vs-2022/live-unit-testing-details.png)
+   ::: moniker-end
 
 For more information about live unit testing, see [Live unit testing](../test/live-unit-testing-intro.md).
 
@@ -330,23 +346,28 @@ To add a unit test project:
 
    In this example, select [NUnit](https://nunit.org/)
 
-   ::: moniker range=">=vs-2019"
+   ::: moniker range=">=vs-2022"
+   ![NUnit test project template in Visual Studio 2022](media/vs-2022/nunit-test-project-template.png)
+   ::: moniker-end
 
+   ::: moniker range="vs-2019"
    ![NUnit test project template in Visual Studio 2019](media/vs-2019/nunit-test-project-template.png)
 
    Click **Next**, name the project, and then click **Create**.
-
    ::: moniker-end
 
    ::: moniker range="vs-2017"
-
    Name the project, and then click **OK** to create it.
-
    ::: moniker-end
 
    The project template includes NuGet references to NUnit and NUnit3TestAdapter.
 
+   ::: moniker range=">=vs-2022"
+   ![NUnit NuGet dependencies in Solution Explorer](media/vs-2022/nunit-nuget-dependencies.png)
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
    ![NUnit NuGet dependencies in Solution Explorer](media/vs-2019/nunit-nuget-dependencies.png)
+   ::: moniker-end
 
 4. Add a reference from the test project to the project that contains the code you want to test.
 
@@ -354,7 +375,12 @@ To add a unit test project:
 
 5. Add code to your test method.
 
+   ::: moniker range=">=vs-2019"
+   ![Add code to your unit test code file](media/vs-2022/unit-test-method.png)
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
    ![Add code to your unit test code file](media/vs-2019/unit-test-method.png)
+   ::: moniker-end
 
 6. Run the test from **Test Explorer** or by right-clicking on the test code and choosing **Run Test(s)** (or **Ctrl** + **R**, **T**).
 
