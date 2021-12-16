@@ -25,7 +25,7 @@ If you see the message "Hot Reload is not available" in the in-app toolbar while
 
 ### Verify that XAML Hot Reload is enabled
 
-The feature is enabled by default. When you start debugging your app, make sure you see the in-app toolbar, which confirms that XAML Hot Reload is available:
+The feature is enabled by default in Visual Studio 2019 and later versions. When you start debugging your app, make sure you see the in-app toolbar, which confirms that XAML Hot Reload is available:
 
 ![XAML Hot Reload available](../debugger/media/xaml-hot-reload-available.png)
 
