@@ -31,7 +31,7 @@ The feature is enabled by default. When you start debugging your app, make sure 
 
 If you do not see the in-app toolbar, then open **Debug** > **Options** > **XAML Hot Reload**. Make sure that the **Enable XAML Hot Reload** option is selected.
 
-![Screenshot of the Visual Studio Debug Options window, with the Enable XAML Hot Reload option highlighted.](../debugger/media/xaml-hot-reload-enable.png)
+![Screenshot of the Visual Studio Debug Options window, with the Enable XAML Hot Reload option highlighted.](../debugger/media/vs-2022/xaml-hot-reload-enable.png)
 
 If these options are selected, then go to Live Visual Tree (**Debug** > **Windows** > **Live Visual Tree**) and make sure that **Show runtime tools in application** toolbar button (on the far left) is selected.
 
