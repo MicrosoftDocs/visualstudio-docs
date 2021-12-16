@@ -22,8 +22,6 @@ ms.workload:
 
 Use this page of the **Options** dialog box to control message boxes and other aspects of a find and replace operation. You can access this dialog box from the **Tools** menu by selecting **Options**, expanding **Environment**, and then selecting **Find and Replace**.
 
-## UIElement List
-
 **Display informational messages**
 
 Select this option to display all Find and Replace informational messages that have the **Always show this message** option. For example, if you chose not to display the message "Find reached the starting point of the search.", selecting this option would cause this informational message to appear again when you use Find and Replace.
