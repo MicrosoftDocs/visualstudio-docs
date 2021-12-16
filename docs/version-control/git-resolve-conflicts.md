@@ -24,11 +24,11 @@ If you try to merge the bugfix branch into main, Git can't determine which chang
 
 :::image type="content" source="media/vs-2022/git-conflicts-understand-2.png" alt-text="Diagram that shows how a merge commit resolves a merge conflict.":::
 
-The most common time to discover a merge conflict is when you pull updates from a remote branch to your local branch--for example, from origin/bugfix into your local bugfix branch. Resolve these conflicts in the same way: create a merge commit in your local branch to reconcile the changes, and then complete the merge.
+The most common merge conflict scenario occurs when you pull updates from a remote branch to your local branch (for example, from origin/bugfix into your local bugfix branch). You can resolve these conflicts in the same way: create a commit on your local branch to reconcile the changes, and then complete the merge.
 
 ## Prevent merge conflicts
 
-Git is good at automatically merging file changes in most circumstances, if the file contents don't change dramatically between commits. Consider rebasing branches before you open a pull request if your branch is far behind your main branch. Rebased branches will merge into your main branch without conflicts.
+Git is good at automatically merging file changes in most circumstances, as long as the file contents don't change dramatically between commits. If your branch is far behind your main branch, consider rebasing your branches before you open a pull request. Rebased branches will merge into your main branch without conflicts.
 
 ## Resolve merge conflicts
 
