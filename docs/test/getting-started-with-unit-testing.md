@@ -2,7 +2,7 @@
 title: Get started with unit testing
 description: Use Visual Studio to define and run unit tests to maintain code health, and to find errors and faults before your customers do.
 ms.custom: SEO-VS-2020
-ms.date: 08/10/2021
+ms.date: 12/16/2021
 ms.topic: tutorial
 helpviewer_keywords:
 - unit testing, create unit test plans
@@ -25,12 +25,12 @@ This section describes how to create a unit test project.
 
 1. Open the project that you want to test in Visual Studio.
 
-   For the purposes of demonstrating an example unit test, this article tests a simple "Hello World" C# or C++ Console project named **HelloWorld** (**HelloWorldCore** in C#). The sample code for such a project is as follows:
+   For the purposes of demonstrating an example unit test, this article tests a simple "Hello World" C# or C++ Console project named **HelloWorld**. The sample code for such a project is as follows:
 
    ### [.NET](#tab/dotnet)
    ```csharp
-   namespace HelloWorldCore
-
+   namespace HelloWorld
+   {
       public class Program
       {
          public static void Main()
@@ -38,6 +38,7 @@ This section describes how to create a unit test project.
             Console.WriteLine("Hello World!");
          }
       }
+   }
    ```
 
    ### [C++](#tab/cpp)
@@ -56,7 +57,7 @@ This section describes how to create a unit test project.
 1. In the new project dialog box, find the unit test project to use.
 
    ::: moniker range=">=vs-2019"
-   Type **test** in the search box to find a unit test project template for the test framework you want to use, such as MSTest (C#) or the **Native Unit Test** project (C++), and select it.
+   Type **test** in the search box to find a unit test project template for the test framework you want to use, such as **MSTest** (C#) or the **Native Unit Test** project (C++), and select it.
    ::: moniker-end
    ::: moniker range="vs-2017"
    Expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.
@@ -69,7 +70,14 @@ This section describes how to create a unit test project.
 
    The following illustration shows an MSTest unit test, which is supported in .NET.
 
-   ::: moniker range=">=vs-2019"
+   ::: moniker range=">=vs-2022"
+
+   ![Unit test project template in Visual Studio 2022](media/vs-2022/add-new-test-project.png)
+
+   Click **Next**, choose a name for the test project, and then click **Create**.
+
+   ::: moniker-end
+   ::: moniker range="vs-2019"
 
    ![Unit test project template in Visual Studio 2019](media/vs-2019/add-new-test-project.png)
 
@@ -79,7 +87,7 @@ This section describes how to create a unit test project.
 
    ::: moniker range="vs-2017"
 
-   ![Unit test project template in Visual Studio 2019](media/mstest-test-project-template.png)
+   ![Unit test project template in Visual Studio 2017](media/mstest-test-project-template.png)
 
    Choose a name for the test project, such as HelloWorldTests, and then click **OK**.
 
@@ -87,13 +95,23 @@ This section describes how to create a unit test project.
 
    The project is added to your solution.
 
+   ::: moniker range=">=vs-2022"
+   ![Unit test project in Solution Explorer](media/vs-2022/solution-explorer.png)
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
    ![Unit test project in Solution Explorer](media/vs-2019/solution-explorer.png)
+   ::: moniker-end
 
 1. In the unit test project, add a reference to the project you want to test by right-clicking on **References** or **Dependencies** and then choosing **Add Reference** or **Add Project Reference**.
 
 1. Select the project that contains the code you'll test and click **OK**.
 
+   ::: moniker range=">=vs-2022"
+   ![Add project reference in Visual Studio](media/vs-2022/reference-manager.png)
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
    ![Add project reference in Visual Studio](media/vs-2019/reference-manager.png)
+   ::: moniker-end
 
 1. Add code to the unit test method.
 
@@ -118,7 +136,7 @@ This section describes how to create a unit test project.
             using (var sw = new StringWriter())
             {
                Console.SetOut(sw);
-               HelloWorldCore.Program.Main();
+               HelloWorld.Program.Main();
 
                var result = sw.ToString().Trim();
                Assert.AreEqual(Expected, result);
@@ -151,7 +169,7 @@ This section describes how to create a unit test project.
             using (var sw = new StringWriter())
             {
                Console.SetOut(sw);
-               HelloWorldCore.Program.Main();
+               HelloWorld.Program.Main();
 
                var result = sw.ToString().Trim();
                Assert.AreEqual(Expected, result);
@@ -179,7 +197,7 @@ This section describes how to create a unit test project.
                 using (var sw = new StringWriter())
                 {
                     Console.SetOut(sw);
-                    HelloWorldCore.Program.Main();
+                    HelloWorld.Program.Main();
     
                     var result = sw.ToString().Trim();
                     Assert.Equal(Expected, result);
@@ -242,11 +260,21 @@ This section describes how to create a unit test project.
 
 1. Run your unit tests by clicking **Run All** (or press **Ctrl** + **R**, **V**).
 
+   ::: moniker range=">=vs-2022"
+   ![Run unit tests in Test Explorer](media/vs-2022/test-explorer-run-all.png)
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
    ![Run unit tests in Test Explorer](media/vs-2019/test-explorer-run-all.png)
+   ::: moniker-end
 
    After the tests have completed, a green check mark indicates that a test passed. A red "x" icon indicates that a test failed.
 
+   ::: moniker range=">=vs-2022"
+   ![Review unit test results in Test Explorer](media/vs-2022/unit-test-passed.png)
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
    ![Review unit test results in Test Explorer](media/vs-2019/unit-test-passed.png)
+   ::: moniker-end
 
 > [!TIP]
 > You can use [Test Explorer](../test/run-unit-tests-with-test-explorer.md) to run unit tests from the built-in test framework (MSTest) or from third-party test frameworks. You can group tests into categories, filter the test list, and create, save, and run playlists of tests. You can also debug tests and analyze test performance and code coverage.
