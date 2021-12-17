@@ -1,7 +1,7 @@
 ---
 title: "XAML Hot Reload for WPF and UWP apps"
 description: "XAML Hot Reload, or XAML edit and continue, allows you to make changes to your XAML code while running apps"
-ms.date: 12/08/2021
+ms.date: 12/17/2021
 ms.topic: conceptual
 helpviewer_keywords:
   - "xaml edit and continue"
@@ -24,13 +24,11 @@ With XAML Hot Reload, you can incrementally build and test XAML code for your yo
 >
 > But, if you're here for help troubleshooting XAML Hot Reload, see [Troubleshooting XAML Hot Reload](xaml-hot-reload-troubleshooting.md) instead.
 
-
 ## Where to get XAML Hot Reload
 
 Visual Studio XAML Hot Reload is currently supported only when you're running an application in **Visual Studio** -or- **Blend for Visual Studio** with the debugger attached (**F5** or **Start debugging**).
 
 You can't enable this experience by using [Attach to process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md) unless you [manually set an environment variable](xaml-hot-reload-troubleshooting.md#verify-that-you-use-start-debugging-rather-than-attach-to-process).
-
 
 ## Applications for XAML Hot Reload
 
