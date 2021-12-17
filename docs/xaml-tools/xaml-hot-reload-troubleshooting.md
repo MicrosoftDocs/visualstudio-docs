@@ -12,6 +12,7 @@ manager: jmartens
 ms.technology: vs-xaml-tools
 ms.workload:
   - "multiple"
+monikerRange: ">=vs-2019"
 ---
 # Troubleshooting XAML Hot Reload
 

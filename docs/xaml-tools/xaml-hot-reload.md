@@ -13,6 +13,7 @@ ms.custom: "contperf-fy22q1"
 ms.technology: vs-xaml-tools
 ms.workload:
   - "multiple"
+monikerRange: ">=vs-2019"
 ---
 # What is XAML Hot Reload for WPF and UWP apps? (Visual Studio)
 
@@ -26,7 +27,7 @@ With XAML Hot Reload, you can incrementally build and test XAML code for your yo
 
 ## Where to get XAML Hot Reload
 
-Visual Studio XAML Hot Reload is currently supported only when you're running an application in **Visual Studio** -or- **Blend for Visual Studio** with the debugger attached (**F5** or **Start debugging**). 
+Visual Studio XAML Hot Reload is currently supported only when you're running an application in **Visual Studio** -or- **Blend for Visual Studio** with the debugger attached (**F5** or **Start debugging**).
 
 You can't enable this experience by using [Attach to process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md) unless you [manually set an environment variable](xaml-hot-reload-troubleshooting.md#verify-that-you-use-start-debugging-rather-than-attach-to-process).
 
@@ -48,7 +49,7 @@ XAML Hot Reload is especially helpful in these scenarios:
 
 If you're using **Xamarin.Forms**, see [XAML Hot Reload for Xamarin.Forms](/xamarin/xamarin-forms/xaml/hot-reload).
 
-## Example 
+## Example
 
 The following animation shows an instance of using Live Visual Tree to open some source code and then using XAML Hot Reload to change the text and color of a button.
 
