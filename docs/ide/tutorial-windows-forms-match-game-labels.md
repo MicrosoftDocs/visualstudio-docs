@@ -30,7 +30,7 @@ Required. Start with "Tutorial: ". Make the first word following "Tutorial: " a
 verb.
 -->
 
-# Tutorial: <do something with X> 
+# Tutorial: 3 of 4, title to be added.
 
 <!-- 2. Introductory paragraph 
 Required. Lead with a light intro that describes, in customer-friendly language, 
@@ -71,7 +71,7 @@ Follow the H2 headings with a sentence about how the section contributes to the 
 ## [Section 1 heading]
 <!-- Introduction paragraph -->
 
-1. Sign in to the [<service> portal](url).
+1. Sign in to the 
 1. <!-- Step 2 -->
 1. <!-- Step n -->
 
@@ -95,7 +95,7 @@ state that there are no resources to clean up in this section.
 ## Clean up resources
 
 If you're not going to continue to use this application, delete
-<resources> with the following steps:
+\<resources> with the following steps:
 
 1. From the left-hand menu...
 1. ...click Delete, type...and then click Delete
@@ -110,7 +110,7 @@ customer can do.
 
 Advance to the next article to learn how to create...
 > [!div class="nextstepaction"]
-> [Next steps button](contribute-how-to-mvc-tutorial.md)
+> [Next steps button]
 
 <!--
 Remove all the comments in this template before you sign-off or merge to the 
