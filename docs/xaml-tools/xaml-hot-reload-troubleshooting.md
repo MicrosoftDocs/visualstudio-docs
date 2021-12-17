@@ -46,10 +46,6 @@ If you do not see the in-app toolbar, then select **Debug** > **Options** > **XA
 
 ![Screenshot of the Visual Studio Debug Options window, with the Enable XAML Hot Reload option highlighted.](../debugger/media/vs-2022/xaml-hot-reload-enable.png)
 
-If these options are selected, then go to Live Visual Tree (**Debug** > **Windows** > **Live Visual Tree**) and make sure that **Show runtime tools in application** toolbar button (on the far left) is selected.
-
-![Screenshot of the toolbar at the top of the Live Visual Tree window with the 'Show runtime tools in application' button selected.](../debugger/media/xaml-hot-reload-show-runtime-tools.png)
-
 ### Verify that you use Start Debugging rather than Attach to Process
 
 XAML Hot Reload requires that the environment variable `ENABLE_XAML_DIAGNOSTICS_SOURCE_INFO` is set to 1 at the time application starts. Visual Studio sets this automatically as part of the **Debug** > **Start Debugging** (or **F5**) command. If you want to use XAML Hot Reload with the **Debug** > **Attach to Process** command instead, then set the environment variable yourself.
