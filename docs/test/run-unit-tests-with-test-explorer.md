@@ -148,7 +148,7 @@ To change the way that tests are organized, choose the down arrow next to the **
 ::: moniker range="vs-2019"
 Test Explorer lets you group your tests into a hierarchy. The default hierarchy grouping is **Project**, **Namespace**, and then **Class**. To change the way that tests are organized, choose the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and select a new grouping criteria.
 
-![Group tests by category in Test Explorer](../test/media/vs-2022/test-explorer-groupby-162.png)
+![Group tests by category in Test Explorer](../test/media/vs-2019/test-explorer-groupby-162.png)
 
 You can define your own levels of the hierarchy and group by **State** and then **Class** for example by selecting Group By options in your preferred order.
 
@@ -157,11 +157,11 @@ You can define your own levels of the hierarchy and group by **State** and then 
 ::: moniker range=">=vs-2022"
 Test Explorer lets you group your tests into a hierarchy. The default hierarchy grouping is **Project**, **Namespace**, and then **Class**. To change the way that tests are organized, choose the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and select a new grouping criteria.
 
-![Group tests by category in Test Explorer](../test/media/vs-2022/test-explorer-groupby-170.png)
+![Group tests by category in Test Explorer](../test/media/vs-2022/test-explorer-groupby-17-0.png)
 
 You can define your own levels of the hierarchy and group by **State** and then **Class** for example by selecting Group By options in your preferred order.
 
-![Screenshot of the Visual Studio Test Explorer showing  a test hierarchy in one pane and the Group By menu in the other with the Class and State options checked.](../test/media/vs-2019/test-explorer-groupby-state-17-0.png)
+![Screenshot of the Visual Studio Test Explorer showing  a test hierarchy in one pane and the Group By menu in the other with the Class and State options checked.](../test/media/vs-2022/test-explorer-groupby-state-17-0.png)
 ::: moniker-end
 
 ### Test Explorer groups
