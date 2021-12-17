@@ -1,8 +1,7 @@
 ---
 title: "Set symbol (.pdb) and source files in the debugger"
 description: "Learn how to configure and manage symbol and source files in Visual Studio"
-
-ms.date: "12/09/2021"
+ms.date: "12/12/2021"
 ms.topic: "conceptual"
 f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.Native"
@@ -47,8 +46,8 @@ For a detailed explanation of symbol files, see the following:
 
 The *.pdb* file holds debugging and project state information that allows incremental linking of a Debug configuration of your app. The Visual Studio debugger uses *.pdb* files to determine two key pieces of information while debugging:
 
-* The source file name and line number to display in the Visual Studio IDE.
-* Where in the app to stop for a breakpoint.
+- The source file name and line number to display in the Visual Studio IDE.
+- Where in the app to stop for a breakpoint.
 
 Symbol files also show the location of the source files, and optionally, the server to retrieve them from.
 

@@ -21,8 +21,8 @@
   items:
   - name: Connected Services overview 
     href: overview-connected-services.md
-  - name: Add Azure Active Directory (AD)
-    href: /azure/active-directory/develop/vs-active-directory-add-connected-service?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
+  - name: Add Azure Active Directory (Azure AD)
+    href: vs-active-directory-add-connected-service.md
   - name: Add Azure App Insights
     href: azure-app-insights-add-connected-service.md
   - name: Add Azure Cache for Redis
@@ -124,6 +124,18 @@
       href: /azure/vs-azure-tools-storage-explorer-relnotes?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json # in another TOC
     - name: Storage Explorer accessibility
       href: /azure/vs-azure-tools-storage-explorer-accessibility?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json # in another TOC
+- name: Work with Azure Active Directory
+  items:
+    - name: Get started with .NET MVC projects
+      href: vs-active-directory-dotnet-getting-started.md
+    - name: What happened to my .NET MVC project?
+      href: vs-active-directory-dotnet-what-happened.md
+    - name: Get started with WebAPI projects
+      href: vs-active-directory-webapi-getting-started.md
+    - name: What happened to my WebAPI project?
+      href: vs-active-directory-webapi-what-happened.md
+    - name: Diagnose errors during authentication
+      href: vs-active-directory-error.md
 - name: Cloud Explorer
   items:
   - name: Browse and manage storage resources by using Server Explorer
