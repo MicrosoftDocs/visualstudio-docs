@@ -1,6 +1,6 @@
 ---
-title: #Required; page title is displayed in search results. Include the brand.
-description: #Required; article description that is displayed in search results. 
+title: "Tutorial: 4 of 4, title to be added."
+description: Description 4 of 4 to be added.
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
