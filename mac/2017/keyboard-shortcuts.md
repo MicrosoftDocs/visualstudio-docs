@@ -4,7 +4,6 @@ description: "This article lists the default keyboard shortcuts in Visual Studio
 ms.date: 11/14/2021
 author: heiligerdankgesang
 ms.author: dominicn
-ms.assetid: 48E06A61-7294-4EC8-A09D-1763C32AD910
 ---
 # Default keyboard shortcuts in Visual Studio for Mac
 
