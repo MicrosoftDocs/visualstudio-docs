@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting XAML Hot Reload"
 description: "Fix problems that you may encounter with XAML Hot Reload."
-ms.date: "12/16/2021"
+ms.date: "12/17/2021"
 ms.topic: troubleshooting
 helpviewer_keywords:
   - "xaml edit and continue, troubleshooting"
@@ -26,11 +26,23 @@ If you see the message "Hot Reload is not available" in the in-app toolbar while
 
 ### Verify that XAML Hot Reload is enabled
 
+::: moniker range="vs-2019"
+
 The feature is enabled by default in Visual Studio 2019 and later versions. When you start debugging your app, make sure you see the in-app toolbar, which confirms that XAML Hot Reload is available:
 
-![XAML Hot Reload available](../debugger/media/xaml-hot-reload-available.png)
+![Screenshot of the 'XAML Hot Reload available' toolbar in Visual Studio 2019](../debugger/media/xaml-hot-reload-available.png)
 
-If you do not see the in-app toolbar, then open **Debug** > **Options** > **XAML Hot Reload**. Make sure that the **Enable XAML Hot Reload** option is selected.
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+The feature is enabled by default in Visual Studio 2022 and later versions. When you start debugging your app, make sure you see the in-app toolbar, which confirms that XAML Hot Reload is available:
+
+![Screenshot of the 'XAML Hot Reload available' toolbar in Visual Studio 2022](../debugger/media/vs-2022/xaml-hot-reload-available.png)
+
+::: moniker-end
+
+If you do not see the in-app toolbar, then select **Debug** > **Options** > **XAML Hot Reload** from the Visual Studio menu bar. Next, in the **Options** dialog box, make sure that the **Enable XAML Hot Reload** option is selected.
 
 ![Screenshot of the Visual Studio Debug Options window, with the Enable XAML Hot Reload option highlighted.](../debugger/media/vs-2022/xaml-hot-reload-enable.png)
 
