@@ -377,8 +377,11 @@ To filter by a different criteria:
 ::: moniker range="vs-2017"
 ![Filter tests in Test Explorer](../test/media/ute_filtertestlist.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![Filter tests in Test Explorer](../test/media/vs-2019/test-explorer-search-filter-16-2.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Filter tests in Test Explorer](../test/media/vs-2022/test-explorer-search-filter-17-0.png)
 ::: moniker-end
 
 > [!NOTE]
@@ -459,12 +462,13 @@ Tests can be run from Test Explorer by right-clicking in the code editor on a te
 
 ::: moniker range=">=vs-2019"
 ## Test audio cue
-Test Explorer can play a sound when a test run completes. There are two sounds: one sound to indicate the test run succeeded with all passing tests, and a second sound to indicate the test run completed with at least one failing test. You can set up these sounds in the default Windows 10 sound dialog. This feature is available starting in Visual Studio 2019 Update 16.9 Preview 3.
 
-1. Open the default Windows 10 sound dialog.
+Test Explorer can play a sound when a test run completes. There are two sounds: one sound to indicate the test run succeeded with all passing tests, and a second sound to indicate the test run completed with at least one failing test. You can set up these sounds in the default Windows 11 sound dialog. This feature is available starting in Visual Studio 2019 Update 16.9 Preview 3.
+
+1. Open the default Windows 11 sound dialog.
 2. Navigate to the **Sounds** tab.
 3. Find the **Microsoft Visual Studio** category. Choose the **Test Run Succeeded** or **Test Run Failed** sounds to select the preset sounds or browse to your own audio file.  
-![Windows 10 sound dialog](../test/media/default-windows-10-sound-dialog.png)
+![Windows 10 sound dialog](../test/media/default-windows-11-sound-dialog.png)
 
 ::: moniker-end
 ## See also
