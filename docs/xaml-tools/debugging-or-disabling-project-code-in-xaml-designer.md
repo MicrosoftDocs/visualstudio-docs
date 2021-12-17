@@ -61,8 +61,8 @@ When project code is disabled, Visual Studio shows placeholders. For example, Vi
     |2019 only             | WPF Framework | xDesProc.exe   |
     |2022 only             | WPF Framework | WpfSurface.exe |
 
-        > [!IMPORTANT]
-        > In Visual Studio 2019, it's WpfSurface.exe if **New WPF XAML Designer** is enabled in **Tools** > **Options** > **Environment** > **Preview Features**.
+    > [!IMPORTANT]
+    > In Visual Studio 2019, it's WpfSurface.exe if **New WPF XAML Designer** is enabled in **Tools** > **Options** > **Environment** > **Preview Features**.
 
 8. In the first instance of Visual Studio, on the menu bar, choose **Debug** > **Start Debugging**.
 
