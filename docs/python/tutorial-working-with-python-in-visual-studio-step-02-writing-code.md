@@ -2,7 +2,8 @@
 title: Python in Visual Studio tutorial step 2, write and run code
 titleSuffix: ""
 description: Step 2 of a core walkthrough of Python capabilities in Visual Studio, including editing code and running a project.
-ms.date: 01/28/2019
+ms.custom: devdivchpfy22
+ms.date: 12/20/2021
 ms.topic: tutorial
 author: rjmolyneaux
 ms.author: rmolyneaux
