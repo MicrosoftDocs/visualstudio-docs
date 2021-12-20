@@ -2,7 +2,8 @@
 title: Learn Django tutorial in Visual Studio, step 1, Django basics
 titleSuffix: ""
 description: A walkthrough of Django basics in the context of Visual Studio projects, demonstrating the support Visual Studio provides for Django development.
-ms.date: 11/19/2018
+ms.custom: devdivchpfy22
+ms.date: 12/20/2021
 ms.topic: tutorial
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -241,7 +242,7 @@ Now that you've configured source control for your project, you can create the v
 
 1. After excluding the virtual environment, the only remaining changes are to the project file and *.gitignore*. The *.gitignore* file contains an added entry for the virtual environment folder. You can double-click the file to see a diff.
 
-1. Enter a commit message and select the **Commit All** button, then push the commits to your remote repositoryl.
+1. Enter a commit message and select the **Commit All** button, then push the commits to your remote repository.
 
 ::: moniker-end
 
