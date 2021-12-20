@@ -1,7 +1,7 @@
 ---
 title: "Manage npm packages"
 description: Visual Studio helps you to manage packages using the Node.js package manager (npm)
-ms.date: "10/1/2021"
+ms.date: "12/20/2021"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -51,7 +51,8 @@ Next, you can search for npm packages, select one, and install by selecting **In
 
 ## Node.js projects
 
-For Node.js projects, you can perform the following tasks:
+For Node.js projects (.njsproj), you can perform the following tasks:
+
 * [Install packages from Solution Explorer](#npmInstallWindow)
 * [Manage installed packages from Solution Explorer](#solutionExplorer)
 * [Use the `.npm` command in the Node.js Interactive Window](#interactive)
