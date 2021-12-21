@@ -116,9 +116,9 @@ For information about creating an icon, see [Image editor for icons](/cpp/window
 
 **Manifest**
 
-Selects a manifest generation option when the application runs on Windows Vista under User Account Control (UAC). This option can have the following values:
+Selects a manifest generation option when the application runs on Windows under User Account Control (UAC). This option can have the following values:
 
-- **Embed manifest with default settings**. Supports the typical manner in which Visual Studio operates on Windows Vista, which is to embed security information in the application's executable file, specifying that `requestedExecutionLevel` be `AsInvoker`. This is the default option.
+- **Embed manifest with default settings**. Supports the typical manner in which Visual Studio operates on Windows, which is to embed security information in the application's executable file, specifying that `requestedExecutionLevel` be `AsInvoker`. This is the default option.
 
 - **Create application without a manifest**. This method is known as *virtualization*. Use this option for compatibility with earlier applications.
 
