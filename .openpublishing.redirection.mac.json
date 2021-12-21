@@ -119,12 +119,7 @@
       "source_path_from_root": "/mac/2017/customizing-build-system.md",
       "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
       "redirect_document_id": false
-    },
-    {
-      "source_path_from_root": "/mac/2017/customizing-the-ide.md",
-      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
-      "redirect_document_id": false
-    },
+    }
     {
       "source_path_from_root": "/mac/2017/data-visualizations.md",
       "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
