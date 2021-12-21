@@ -1,6 +1,6 @@
 ---
-title: "Tutorial: 2 of 4, title to be added."
-description: Description 2 of 4 to be added.
+title: "Tutorial: Add icons to Matching Game"
+description: In this tutorial, you use a Random object to add icons in Visual Studio using C# or VB Windows Forms. You implement an event handler to display the icons.
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
@@ -12,107 +12,177 @@ ms.custom:
 - SEO-VS-2020
 ---
 
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
+# Tutorial: Add icons to your Matching Game
 
-<!--
-This template provides the basic structure of a tutorial article.
-See the [tutorial guidance](contribute-how-to-mvc-tutorial.md) in the contributor guide.
+In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 
-To provide feedback on this template contact 
-[the templates workgroup](mailto:templateswg@microsoft.com).
--->
+In the matching game, a player selects a square to see an icon, then chooses another square.
+If the icons match, they stay visible.
+If not, the game hides both icons.
+In this tutorial, you assign icons to labels randomly.
+You set them to be hidden and then displayed when selected.
 
-<!-- 1. H1 
-Required. Start with "Tutorial: ". Make the first word following "Tutorial: " a 
-verb.
--->
-
-# Tutorial: 2 of 4, title to be added.
-
-<!-- 2. Introductory paragraph 
-Required. Lead with a light intro that describes, in customer-friendly language, 
-what the customer will learn, or do, or accomplish. Answer the fundamental “why 
-would I want to do this?” question. Keep it short.
--->
-
-[Add your introductory paragraph]
-
-<!-- 3. Tutorial outline 
-Required. Use the format provided in the list below.
--->
-
-In this tutorial, you learn how to:
+In this second tutorial, you learn how to:
 
 > [!div class="checklist"]
-> * All tutorials include a list summarizing the steps to completion
-> * Each of these bullet points align to a key H2
-> * Use these green checkboxes in a tutorial
-
-<!-- 4. Prerequisites 
-Required. First prerequisite is a link to a free trial account if one exists. If there 
-are no prerequisites, state that no prerequisites are needed for this tutorial.
--->
+> - Add a Random object and a list of icons
+> - Assign a random icon to each label
+> - Add event handlers to labels
 
 ## Prerequisites
 
-- <!-- An Azure account with an active subscription. [Create an account for free]
-  (https://azure.microsoft.com/free/?WT.mc_id=A261C142F). -->
-- <!-- prerequisite 2 -->
-- <!-- prerequisite n -->
+This tutorial builds on the previous tutorial, [Create a matching game application](tutorial-windows-forms-create-match-game.md).
+If you haven't done that tutorial, go through that one first.
 
-<!-- 5. H2s
-Required. Give each H2 a heading that sets expectations for the content that follows. 
-Follow the H2 headings with a sentence about how the section contributes to the whole.
--->
+## Add a Random object and a list of icons
 
-## [Section 1 heading]
-<!-- Introduction paragraph -->
+In this section, you create a set of matching symbols for the game.
+Each symbol is added to two random cells in the TableLayoutPanel on the form.
 
-1. Sign in to the 
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+You use `new` statements to create two objects.
+The first is a <xref:System.Random> object that randomly chooses cells in the TableLayoutPanel.
+The second object is a <xref:System.Collections.Generic.List%601> object.
+It stores the randomly chosen symbols.
 
-## [Section 2 heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+1. Open Visual Studio. Open Visual Studio. Your Matching Game project appears under **Open recent**.
 
-## [Section n heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+1. Select *Form1.cs* if you're using C#, or *Form1.vb* if you're using Visual Basic. Then select **View** > **Code**. 
+   As an alternative, select the **F7** key or double-click **Form1**.
+   The Visual Studio IDE displays the code module for Form1.
 
-<!-- 6. Clean up resources
-Required. If resources were created during the tutorial. If no resources were created, 
-state that there are no resources to clean up in this section.
--->
+1. In the existing code, add the following code.
 
-## Clean up resources
+   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet1":::
+   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb" id="Snippet1":::
 
-If you're not going to continue to use this application, delete
-\<resources> with the following steps:
+   [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
 
-1. From the left-hand menu...
-1. ...click Delete, type...and then click Delete
+   If you're using C#, be sure you put the code after the opening curly brace and just after the class declaration (`public partial class Form1 : Form`). If you're using Visual Basic, put the code right after the class declaration (`Public Class Form1`).
 
-<!-- 7. Next steps
-Required: A single link in the blue box format. Point to the next logical tutorial 
-in a series, or, if there are no other tutorials, to some other cool thing the 
-customer can do. 
--->
+You can use list objects to keep track of different types of items.
+A list can hold numbers, true/false values, text, or other objects.
+The items in a list are called elements, and each list only holds one type of element.
+A list of numbers can only hold numbers, not text.
+When you create a `List` object using a `new` statement, you specify the kind of data to store in it.
+
+In the Visual Basic code, you create a temporary array first, but in C#, the list is created with one statement.
+The C# language has *collection initializers*, which prepare the list to accept values.
+In Visual Basic, you can use a collection initializer.
+However, for compatibility with the previous version of Visual Basic, we recommend using the preceding code.
+
+When you use a collection initializer with a `new` statement, after the List object is created, the program fills it with the data in the curly braces.
+In this case, it's a list of strings named icons.
+That list is initialized to contain 16 strings.
+Each string is a single letter that corresponds to the icons in the labels.
+
+These characters appear in the Webdings font as a bus, a bike, and others.
+Your list object has 16 strings, one for each cell in the TableLayoutPanel panel.
+
+In Visual Basic, you get the same result.
+First, the strings are put into a temporary array, which is then converted into a list object.
+An array is similar to a list, except, for example, arrays are created with a fixed size.
+Lists can shrink and grow as needed, which is important in this program.
+
+## Assign a random icon to each label
+
+Each time you run the program, it assigns the icons randomly to the Label controls on your form by using an `AssignIconsToSquares()` method.
+This code uses the keyword `foreach` in C# or `For Each` in Visual Basic.
+
+1. Add the `AssignIconsToSquares()` method.
+
+   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet2":::
+   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb" id="Snippet2":::
+
+   You can enter this code just below the code you added in the previous section.
+
+   > [!NOTE]
+   > One of the lines is commented out on purpose.
+   > You add it later in this procedure.
+
+   The `AssignIconsToSquares()` method iterates through each label control in the TableLayoutPanel.
+   It runs the same statements for each of them.
+   The statements pull a random icon from the list.
+
+   - The first line converts the **control** variable to a label named **iconLabel**. 
+   - The second line is an `if` statement that checks to make sure the conversion worked.
+     If the conversion does work, the statements in the `if` statement run.
+   - The first line in the `if` statement creates a variable named **randomNumber** that contains a random number that corresponds to one of the items in the icons list.
+     It uses the <xref:System.Random.Next> method of the <xref:System.Random> object.
+     The `Next` method returns the random number.
+     This line also uses the <xref:System.Collections.Generic.List%601.Count> property of the **icons** list to determine the range from which to choose the random number.
+   - The next line assigns one of the icon list items to the <xref:System.Windows.Forms.Label.Text> property of the label.
+   - The next line hides the icons.
+     The line is commented out here so you can verify the rest of the code before proceeding.
+   - The last line in the `if` statement removes from the list the icon that has been added to the form.
+
+1. Add a call to the `AssignIconsToSquares()` method to the **Form1** _constructor_.
+   Constructors are called when you create an object.
+
+   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet13":::
+
+   For Visual Basic, add the `AssignIconsToSquares()` method call to the `Form1_Load` method so that the code looks like the following.
+
+   ```vb
+   Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+       AssignIconsToSquares()
+   End Sub
+   ```
+
+  For more information, see [Constructors (C# programming guide)](/dotnet/csharp/programming-guide/classes-and-structs/constructors) or [Use constructors and destructors](/previous-versions/visualstudio/visual-studio-2008/2z08e49e\(v\=vs.90\)).
+
+1. Save your program and run it. It should show a form with random icons assigned to each label.
+
+1. Close your program, and then run it again. Different icons are assigned to each label, as shown in the following picture.
+
+   ![Matching game with random icons](../ide/media/tutorial-windows-forms-match-game-icons/display-random-icons.png)
+
+   The icons are visible now because you haven't hidden them. To hide them from the player, you can set each label's **ForeColor** property to the same color as its **BackColor** property.
+
+1. Stop the program. Remove the comment marks for the commented line of code inside the loop.
+
+   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet15":::
+   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb" id="Snippet15":::
+
+If you run the program again, the icons seem to have disappeared.
+Only a blue background appears.
+The icons are randomly assigned and are still there.
+
+## Add event handlers to labels
+
+In this matching game, a player reveals a hidden icon, then a second one.
+If the icons match, they stay visible.
+If not, both icons are hidden again.
+
+To get your game to work this way, add a <xref:System.Windows.Forms.Control.Click> event handler that changes the color of the text to match the background.
+
+1. Open the form in the **Windows Forms Designer**. Select **Form1.cs** or **Form1.vb**, and then select **View** > **Designer**.
+
+1. Choose the first label control to select it. Then, hold the **Ctrl** key while you select each of the other labels.
+   Be sure that every label is selected.
+
+1. In the **Properties** window, select the **Events** button, which is a lightening bolt.
+   For the **Click** event, select **label_Click** in the box.
+
+     ![Properties window showing Click event](../ide/media/tutorial-windows-forms-match-game-icons/click-event.png)
+
+1. Select the **Enter** key. The IDE adds a `Click` event handler called **label_Click()** to the code.
+   Because you selected all the labels, the handler is hooked to each of the labels.
+
+1. Fill in the rest of the code.
+
+   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet4":::
+   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb" id="Snippet4":::
+
+   > [!NOTE]
+   > If you copy and paste the `label_Click()` code block rather than entering the code manually, be sure to replace the existing `label_Click()` code.
+   > Otherwise, you'll end up with a duplicate code block.
+
+1. Select **Debug** > **Start Debugging** to run your program. You should see an empty form with a blue background. Choose any of the cells in the form, and one of the icons should become visible. Continue choosing different places in the form. As you choose the icons, they should appear.
+
+![Screenshot shows the Matching Game with a single icon visible.](../ide/media/tutorial-windows-forms-match-game-icons/match-game-start.png)
 
 ## Next steps
 
-Advance to the next article to learn how to create...
+Advance to the next article to learn how to change labels using a timer.
 > [!div class="nextstepaction"]
-> [Next steps button]
-
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
+> [ Use a timer in your Matching Game](tutorial-windows-forms-match-game-labels.md)

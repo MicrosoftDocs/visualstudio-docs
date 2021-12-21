@@ -14,7 +14,7 @@ ms.custom:
 
 # Tutorial: Create a matching game application
 
-In this series of four tutorials, you build a matching game, where the player must match pairs of hidden icons.
+In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 
 Use these tutorials to learn about the following tasks in the Visual Studio Integrated Design Environment (IDE).
 
@@ -24,14 +24,16 @@ Use these tutorials to learn about the following tasks in the Visual Studio Inte
 - Build an event handler to respond to events that you can use with multiple objects.
 - Make a timer that counts down and then fires an event exactly once after being started.
 
-When you finish, you will have a complete game.
+When you finish, you'll have a complete game.
 
 ![Screenshot show the game that you create, with several matching icons displayed in a grid.](../ide/media/tutorial-windows-forms-create-match-game/match-game-final.png)
 
-In this tutorial, you learn how to:
+In this first tutorial, you learn how to:
 
 > [!div class="checklist"]
-> -
+> - Create a Visual Studio project that uses Windows Forms
+> - Add and format a layout element
+> - Add and format labels to display
 
 ## Prerequisites
 
@@ -47,7 +49,7 @@ When you create your match, the first step is to create a Windows Forms App proj
 
 1. On the menu bar, select **File** > **New** > **Project**.
 
-     ![Screenshot shows the New project dialog box.](../ide/media/newprojectdialogcallouts.png)
+   ![Screenshot shows the New project dialog box.](../ide/media/newprojectdialogcallouts.png)
 
 1. On the left side of the **New Project** dialog box, select either **Visual C#** or **Visual Basic**, and then select **Windows Desktop**.
 
@@ -84,6 +86,7 @@ When you create your match, the first step is to create a Windows Forms App proj
    > ![Screenshot shows .NET Core workload in the Visual Studio Installer.](../ide/media/tutorial-windows-forms-create-match-game/install-dot-net-desktop-env.png)
    >
    > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Next, select **Continue** to install the workload.
+
 1. In the **Configure your new project** window, name your project *MatchingGame*, then select **Create**.
 
 ::: moniker-end
@@ -100,7 +103,7 @@ In this section, you create the four-by-four grid of the game.
 1. Click on the form to select the Windows Forms Designer. The tab reads **Form1.cs [Design]** for C# or **Form1.vb [Design]** for Visual Basic. In the **Properties** window, set the following form properties.
 
    - Change the form's **Text** property from **Form1** to **Matching Game**. This text appears at the top of the game window.
-   - Set the size of the form. You can do this either by setting the **Size** property to **550, 550**, or by dragging the corner of the form until you see the correct size at the bottom of the Visual Studio IDE.
+   - Set the size of the form. You can change it either by setting the **Size** property to **550, 550**, or by dragging the corner of the form until you see the correct size at the bottom of the Visual Studio IDE.
 
 1. Select the **Toolbox** tab on the left side of the IDE.
    If you don't see it, select **View** > **Toolbox** from the menu bar or **Ctrl**+**Alt**+**X**.
@@ -129,18 +132,18 @@ In this section, you create the four-by-four grid of the game.
 
    When you're done, select **OK** to save your changes.
 
-Your TableLayoutPanel is now a four-by-four grid, with sixteen equally sized square cells.
+Your TableLayoutPanel is now a four-by-four grid, with 16 equally sized square cells.
 These rows and columns are where the icon images appear later.
 
 ![Screenshot shows the Forms tab with a four by four grid.](../ide/media/tutorial-windows-forms-create-match-game/match-game-grid.png)
 
-## [Section n heading]
+## Add and format labels to display
 
 In this section, you create and format labels to display during the game.
 
 1. Be certain that the TableLayoutPanel is selected in the form editor.
    You should see **tableLayoutPanel1** at the top of the **Properties** window.
-   If it is not selected, choose the TableLayoutPanel on the form, or choose it in the drop-down control at the top of the **Properties** window.
+   If it isn't selected, choose the TableLayoutPanel on the form, or choose it in the drop-down control at the top of the **Properties** window.
 
 1. Open the toolbox, as before, and open the **Common Controls** category.
    Add a <xref:System.Windows.Forms.Label> control to the upper-left cell of the TableLayoutPanel.
@@ -177,27 +180,8 @@ Now your form is laid out.
 
 ![Screenshot shows the matching game form with sixteen black squares.](../ide/media/tutorial-windows-forms-create-match-game/match-game-grid-fill.png)
 
-## Clean up resources
-
-If you're not going to continue to use this application, delete
-\<resources> with the following steps:
-
-1. From the left-hand menu...
-1. ...click Delete, type...and then click Delete
-
-<!-- 7. Next steps
-Required: A single link in the blue box format. Point to the next logical tutorial 
-in a series, or, if there are no other tutorials, to some other cool thing the 
-customer can do. 
--->
-
 ## Next steps
 
-Advance to the next article to learn how to create...
+Advance to the next article to learn how to assign a random icon to each label and add event handlers to labels.
 > [!div class="nextstepaction"]
-> [Next steps button]
-
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
+> [Add icons to your Matching Game](tutorial-windows-forms-match-game-icons.md)

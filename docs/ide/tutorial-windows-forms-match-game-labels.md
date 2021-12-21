@@ -1,6 +1,6 @@
 ---
-title: "Tutorial: 3 of 4, title to be added."
-description: Description 3 of 4 to be added.
+title: "Tutorial: Use a timer in your Matching Game"
+description: In this tutorial, you use reference variables to control labels in Visual Studio using C# or VB Windows Forms. You add a timer to run your Matching Game.
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
@@ -12,107 +12,121 @@ ms.custom:
 - SEO-VS-2020
 ---
 
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
+# Tutorial: Use a timer in your Matching Game
 
-<!--
-This template provides the basic structure of a tutorial article.
-See the [tutorial guidance](contribute-how-to-mvc-tutorial.md) in the contributor guide.
+In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 
-To provide feedback on this template contact 
-[the templates workgroup](mailto:templateswg@microsoft.com).
--->
+Your Matching Game program needs to track which Label controls the player chooses.
+After a player chooses the first label, the program should show the icon.
+After the second label is chosen, the program should display both icons for a brief time.
+Then it hides both icons.
 
-<!-- 1. H1 
-Required. Start with "Tutorial: ". Make the first word following "Tutorial: " a 
-verb.
--->
-
-# Tutorial: 3 of 4, title to be added.
-
-<!-- 2. Introductory paragraph 
-Required. Lead with a light intro that describes, in customer-friendly language, 
-what the customer will learn, or do, or accomplish. Answer the fundamental “why 
-would I want to do this?” question. Keep it short.
--->
-
-[Add your introductory paragraph]
-
-<!-- 3. Tutorial outline 
-Required. Use the format provided in the list below.
--->
-
-In this tutorial, you learn how to:
+Your program keeps track of which Label you choose first and second by using *reference variables*.
+A timer hides the icons and controls how long to show the icons
 
 > [!div class="checklist"]
-> * All tutorials include a list summarizing the steps to completion
-> * Each of these bullet points align to a key H2
-> * Use these green checkboxes in a tutorial
-
-<!-- 4. Prerequisites 
-Required. First prerequisite is a link to a free trial account if one exists. If there 
-are no prerequisites, state that no prerequisites are needed for this tutorial.
--->
+> - Add label references
+> - Add a timer
 
 ## Prerequisites
 
-- <!-- An Azure account with an active subscription. [Create an account for free]
-  (https://azure.microsoft.com/free/?WT.mc_id=A261C142F). -->
-- <!-- prerequisite 2 -->
-- <!-- prerequisite n -->
+This tutorial builds on previous tutorials, starting with [Create a matching game application](tutorial-windows-forms-create-match-game.md).
+If you haven't done that tutorial, start with that one.
 
-<!-- 5. H2s
-Required. Give each H2 a heading that sets expectations for the content that follows. 
-Follow the H2 headings with a sentence about how the section contributes to the whole.
--->
+## Add label references
 
-## [Section 1 heading]
-<!-- Introduction paragraph -->
+Add reference variables.
 
-1. Sign in to the 
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+1. Add label references to your form by using the following code.
 
-## [Section 2 heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step5/vb/form1.vb" id="Snippet5":::
+   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step5/cs/form1.cs" id="Snippet5":::
 
-## [Section n heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
+   [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
 
-<!-- 6. Clean up resources
-Required. If resources were created during the tutorial. If no resources were created, 
-state that there are no resources to clean up in this section.
--->
+   These statements don't cause two more Label controls to appear on the form because there's no `new` keyword.
+   The variables `firstClicked` and `secondClicked` are called *reference variables*.
+   They just keep track, or refer to, Label objects.
 
-## Clean up resources
+   When the program starts, both `firstClicked` and `secondClicked` are set to `null` for C# or `Nothing` for Visual Basic.
 
-If you're not going to continue to use this application, delete
-\<resources> with the following steps:
+1. Modify your <xref:System.Windows.Forms.Control.Click> event handler to use the new `firstClicked` reference variable.
+   Remove the last statement in the `label_Click()` event handler method (`clickedLabel.ForeColor = Color.Black;`) and replace it with the `if` statement that follows.
 
-1. From the left-hand menu...
-1. ...click Delete, type...and then click Delete
+   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step5/vb/form1.vb" id="Snippet6":::
+   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step5/cs/form1.cs" id="Snippet6":::
 
-<!-- 7. Next steps
-Required: A single link in the blue box format. Point to the next logical tutorial 
-in a series, or, if there are no other tutorials, to some other cool thing the 
-customer can do. 
--->
+1. Save and run your program. Choose one of the label controls, and its icon appears.
+   Choose the next label control, and notice that nothing happens.
+
+   ![Screenshot shows the Matching Game showing one icon.](../ide/media/tutorial-windows-forms-match-game-icons
+/match-game-start.png)
+
+   Only the first icon that's chosen turns black.
+   The other icons are invisible.
+
+The program is already keeping track of the first label that the player chose.
+The reference `firstClicked` isn't `null` in C# or `Nothing` in Visual Basic.
+When your `if` statement finds that `firstClicked` isn't equal to `null` or `Nothing`, it doesn't run the statements.
+
+## Add a timer
+
+The Matching Game uses a <xref:System.Windows.Forms.Timer> control the app.
+A timer waits, and then fires an event, referred to as a *tick*.
+A time can start and action or repeat an action regularly.
+
+In your program, the timer enables a player to choose two icons.
+If the icons don't match, hide the two icons again after a short period of time.
+
+1. Select the **Toolbox** tab, in the **Components** category, double-click or drag the **Timer** component to your form.
+   The timer icon, called **Timer1**, appears in a space below the form, as shown in the following image.
+
+   ![Screenshot shows the Timer icon below the form.](../ide/media/tutorial-windows-forms-match-game-labels/timer-control-icon.png)
+
+1. Select the **Timer1** icon to select the timer.
+   In the **Properties** window, select the **Properties** button to view properties.
+
+1. Set the  **Interval** property to **750**, which is 750 milliseconds.
+
+   The **Interval** property tells the timer how long to wait between *ticks*, when it triggers its <xref:System.Windows.Forms.Timer.Tick> event.
+   Your program calls the <xref:System.Windows.Forms.Timer.Start> method to start the timer after the player chooses the second label.
+
+1. Choose the timer control icon and then press **Enter**, or double-click the timer.
+   The IDE adds an empty Tick event handler.
+   Replace the code with the following code, or manually enter the following code into the event handler.
+
+   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step6/cs/form1.cs" id="Snippet7":::
+   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step6/vb/form1.vb" id="Snippet7":::
+
+   The Tick event handler does three things:
+
+   - It makes sure the timer isn't running by calling the <xref:System.Windows.Forms.Timer.Stop> method.
+   - It uses two reference variables, `firstClicked` and `secondClicked`, to make the icons of the two labels that the player chose invisible again.
+   - It resets the `firstClicked` and `secondClicked` reference variables to `null` in C# and `Nothing` in Visual Basic.
+
+1. Go to the code editor and add the following code to the top and bottom of the `label_Click()` event handler method.
+   Add the two `if` statements to the top, and three statements to the bottom.
+
+   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step6/cs/form1.cs" id="Snippet8":::
+   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step6/vb/form1.vb" id="Snippet8":::
+
+   The code at the top of the method checks whether the timer was started by checking the value of the **Enabled** property.
+   If the player chooses the first and second Label controls and the timer starts, choosing a third label won't do anything.
+
+   The code at the bottom of the method sets the `secondClicked` reference variable to track the second Label control.
+   Then, it sets that label icon color to black to make it visible.
+   Then, it starts the timer in one-shot mode, so that it waits 750 milliseconds and then fires a single tick.
+   The timer's Tick event handler hides the two icons and resets the `firstClicked` and `secondClicked` reference variables.
+   The form is ready for the player to choose another pair of icons.
+
+1. Save and run your program. Choose an icon, and it becomes visible.
+   Choose another icon. It appears briefly, and then both icons disappear.
+
+The form now keeps track of the first and second icons that you choose.
+It uses the timer to pause before making the icons disappear.
 
 ## Next steps
 
-Advance to the next article to learn how to create...
+Advance to the next article to learn how to finish your Matching Game.
 > [!div class="nextstepaction"]
-> [Next steps button]
-
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
+> [Show congratulations message for your Matching Game](tutorial-windows-forms-match-game-play.md)
