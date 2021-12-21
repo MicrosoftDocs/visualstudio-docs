@@ -83,7 +83,7 @@ For detailed information on project settings for debug configurations in C#, see
 
    The portable format is the most recent cross-platform format for .NET Core. For more information on options, see [Advanced Build Settings dialog box (C#)](../ide/reference/advanced-build-settings-dialog-box-csharp.md).
 
-   ![Generate PDBs for builds in C#](../debugger/media/dbg-project-properties-pdb-dotnet.png "GeneratePDBsForDotNet")
+   ![Generate PDBs for builds in .NET](../debugger/media/vs-2022/dbg-project-properties-pdb-dotnet.png "GeneratePDBsForDotNet")
 
 5. Build your project.
 
