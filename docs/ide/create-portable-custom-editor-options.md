@@ -65,7 +65,7 @@ The editor in Visual Studio supports the core set of [EditorConfig properties](h
 - insert\_final_newline
 - root
 
-All Visual Studio-supported languages except for XML support EditorConfig editor settings. In addition, EditorConfig supports [code style](/dotnet/fundamentals/code-analysis/code-style-rule-options) conventions including [language](/dotnet/fundamentals/code-analysis/style-rules/language-rules), [formatting](/dotnet/fundamentals/code-analysis/style-rules/formatting-rules), and [naming](/dotnet/fundamentals/code-analysis/style-rules/naming-rules) conventions for C# and Visual Basic.
+All Visual Studio-supported languages except for XML support EditorConfig editor settings. Also, EditorConfig supports [code style](/dotnet/fundamentals/code-analysis/code-style-rule-options) conventions including [language](/dotnet/fundamentals/code-analysis/style-rules/language-rules), [formatting](/dotnet/fundamentals/code-analysis/style-rules/formatting-rules), and [naming](/dotnet/fundamentals/code-analysis/style-rules/naming-rules) conventions for C# and Visual Basic.
 
 ## Add and remove EditorConfig files
 
