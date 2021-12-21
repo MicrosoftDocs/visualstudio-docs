@@ -1,7 +1,8 @@
 ---
 title: Install Python support
 description: How to install the Python Tools for Visual Studio (PTVS) in Visual Studio 2017, 2015, 2013, 2012, and 2010, including options and installation locations.
-ms.date: 03/13/2019
+ms.date: 12/11/2021
+ms.custom: devdivchpfy22
 ms.topic: how-to
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -84,9 +85,7 @@ To quickly test Python support after following the installation steps, open the 
 
    Optional: if you're working with data science, also consider the **Data science and analytical applications** workload. This workload includes support for the Python, R, and F# languages. For more information, see [Data science and analytical applications workload](data-science-and-analytical-applications-workload.md).
 
-   ![Python development workload in the Visual Studio installer](media/installation-python-workload.png)
- .
-    
+   ![Python development workload in the Visual Studio installer](media/installation-python-workload.png).
 
 1. On the right side of the installer, choose other options if you want. Skip this step to accept the default options.
    :::moniker range=">=vs-2022"

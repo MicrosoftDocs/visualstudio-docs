@@ -19,9 +19,7 @@
   - name: Enable Subscription
     href: ./enable-subscription.md
 - name: Customizing the IDE
-  items:
-  - name: Extending Visual Studio for Mac
-    href: ./extending-visual-studio-mac.md
+  href: ./customizing-the-ide.md
 - name: Projects and Solutions
   href: ./projects-and-solutions.md
   items:
@@ -47,3 +45,6 @@
       href: /visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac/?context=visualstudio/mac/context
 - name: Accessibility
   href: ./accessibility.md
+  items:
+    - name: Keyboard navigation
+      href: ./accessibility-keyboard.md

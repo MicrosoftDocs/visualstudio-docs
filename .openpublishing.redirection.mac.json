@@ -6,23 +6,8 @@
       "redirect_document_id": false
     },
     {
-      "source_path_from_root": "/mac/2017/uninstall.md",
-      "redirect_url": "/visualstudio/mac/uninstall?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
       "source_path_from_root": "/mac/accessibility-voiceover.md",
       "redirect_url": "/visualstudio/mac/accessibility-macos?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path_from_root": "/mac/2017/update.md",
-      "redirect_url": "/visualstudio/mac/update?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path_from_root": "/mac/2017/signing-in.md",
-      "redirect_url": "/visualstudio/mac/signing-in?view=vsmac-2019",
       "redirect_document_id": false
     },
     {
@@ -31,28 +16,8 @@
       "redirect_document_id": false
     },
     {
-      "source_path_from_root": "/mac/2017/install-behind-a-firewall-or-proxy-server.md",
-      "redirect_url": "/visualstudio/mac/install-behind-a-firewall-or-proxy-server?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path_from_root": "/mac/2017/user-accounts.md",
-      "redirect_url": "/visualstudio/mac/user-accounts?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
       "source_path_from_root": "/mac/2017/create-offline-installer.md",
       "redirect_url": "/visualstudio/mac/create-offline-installer?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path_from_root": "/mac/2017/keyboard-shortcuts.md",
-      "redirect_url": "/visualstudio/mac/keyboard-shortcuts?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
-      "source_path_from_root": "/mac/2017/enable-subscription.md",
-      "redirect_url": "/visualstudio/mac/enable-subscription?view=vsmac-2019",
       "redirect_document_id": false
     },
     {
@@ -78,11 +43,6 @@
     {
       "source_path_from_root": "/mac/setup-vsmac-tools-unity.md",
       "redirect_url": "/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity",
-      "redirect_document_id": false
-    },
-    {
-      "source_path_from_root": "/mac/extending-visual-studio-mac.md",
-      "redirect_url": "/visualstudio/mac/customizing-the-ide",
       "redirect_document_id": false
     },
     {
@@ -157,11 +117,6 @@
     },
     {
       "source_path_from_root": "/mac/2017/customizing-build-system.md",
-      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
-      "redirect_document_id": false
-    },
-    {
-      "source_path_from_root": "/mac/2017/customizing-the-ide.md",
       "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
       "redirect_document_id": false
     },
@@ -287,11 +242,6 @@
     },
     {
       "source_path_from_root": "/mac/2017/unity-tools.md",
-      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
-      "redirect_document_id": false
-    },
-    {
-      "source_path_from_root": "/mac/2017/updater-troubleshooting.md",
       "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
       "redirect_document_id": false
     },

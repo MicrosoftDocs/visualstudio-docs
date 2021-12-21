@@ -4,7 +4,6 @@ description: Visual Studio for Mac can be customized in a variety of ways, allow
 author: heiligerdankgesang
 ms.author: dominicn
 ms.date: 11/06/2020
-ms.assetid: F7C2A28C-0759-4E0D-A28E-B72D5AB73DB6
 ms.custom: video
 ---
 # Customizing the IDE
