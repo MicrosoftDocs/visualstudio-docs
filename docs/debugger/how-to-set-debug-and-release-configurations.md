@@ -51,13 +51,13 @@ You can change the build configuration from the **Build** menu, from the toolbar
 
 To change the build configuration, either:
 
-* From the **Build** menu, select **Configuration Manager**, then select **Debug** or **Release**.
-
-or
-
 * On the toolbar, choose either **Debug** or **Release** from the **Solution Configurations** list.
 
   ![toolbars build configuration](../debugger/media/toolbar-build-configuration.png "ToolbarBuildConfiguration")
+
+  or
+
+* From the **Build** menu, select **Configuration Manager**, then select **Debug** or **Release**.
 
 ## <a name="BKMK_symbols_release"></a>Generate symbol (.pdb) files for a build (C#, C++, Visual Basic, F#)
 
@@ -69,9 +69,9 @@ You can choose to generate symbol (.pdb) files and what debug information to inc
 Each project type may have a different way of setting these options.
 
 ::: moniker range=">=vs-2022"
-### Generate symbol files for a C#, ASP.NET Core, or Visual Basic project (.NET)
+### Generate symbol files for a C# or ASP.NET Core project (.NET only)
 
-For detailed information on project settings for debug configurations in C# or Visual Basic, see [Project settings for a C# debug configuration](../debugger/project-settings-for-csharp-debug-configurations.md) or [Project settings for a Visual Basic debug configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md).
+For detailed information on project settings for debug configurations in C#, see [Project settings for a C# debug configuration](../debugger/project-settings-for-csharp-debug-configurations.md). For Visual Basic .NET projects, symbol files are configured the same as in .NET Framework.
 
 1. In Solution Explorer, right-click the project and choose **Properties**.
 
