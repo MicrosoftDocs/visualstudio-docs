@@ -27,7 +27,7 @@ To use the features of a Microsoft Office application from an Office project, yo
 
 When you create a new Office project, Visual Studio adds references to the PIAs that are required to build the project. In some scenarios, you might need to add references to other PIAs (for example, if you want to use a feature of Microsoft Office Word in a project for Microsoft Office Excel).
 
-This topic describes the following aspects of using the Microsoft Office PIAs in Office projects:
+This article describes the following aspects of using the Microsoft Office PIAs in Office projects:
 
 - [Separate primary interop assemblies to build and run projects](#separateassemblies)
 
@@ -49,13 +49,13 @@ Visual Studio uses different sets of the PIAs on the development computer. These
 
 - The global assembly cache
 
-  These copies of the assemblies are used during some development tasks, such as when you run or debug projects. Visual Studio does not install and register these assemblies; you need to do it yourself.
+  These copies of the assemblies are used during some development tasks, such as when you run or debug projects. Visual Studio doesn't install and register these assemblies; you need to do it yourself.
 
 ### Primary interop assemblies in the program files directory
 
 The PIAs are automatically added to a location in the file system, outside of the global assembly cache, while you install Visual Studio. When you create a new project, Visual Studio automatically adds references to these copies of the PIAs to your project. Visual Studio uses these copies of the PIAs, instead of the assemblies in the global assembly cache, to resolve type references when you develop and build your project.
 
-When different versions of the PIAs are registered in the global assembly cache, you can face several development issue. The added copies of PIAs will help you to avoid such issues.
+When different versions of the PIAs are registered in the global assembly cache, you can face several development issues. The added copies of PIAs will help you to avoid such issues.
 
 Starting with Visual Studio 2017, these copies of the PIAs are installed to following shared locations on the development computer:
 
@@ -71,7 +71,7 @@ Starting with Visual Studio 2017, these copies of the PIAs are installed to foll
 
 To perform certain development tasks, the PIAs must be installed and registered in the global assembly cache on the development computer. Typically, the PIAs are installed automatically when you install Office on the development computer. For more information, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).
 
-The Office PIAs are not required on end-user computers to run Office solutions. For more information, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).
+The Office PIAs aren't required on end-user computers to run Office solutions. For more information, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).
 
 <a name="usingfeatures"></a>
 
@@ -81,7 +81,7 @@ Every Office project template in Visual Studio is designed to work with a single
 
 In most cases, you should add references to the PIAs that are installed by Visual Studio under the `%ProgramFiles(x86)%\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\` directory. These versions of the assemblies appear on the **Framework** tab of the **Reference Manager** dialog box. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md).
 
-If you have installed and registered the PIAs in the global assembly cache, these versions of the assemblies appear on the **COM** tab of the **Reference Manager** dialog box. Avoid adding references to these versions of the assemblies, because there are some development issues that can occur when you use them. For example, if you have registered different versions of the PIAs in the global assembly cache, your project will automatically bind to the version of the assembly that was registered last—even if you specify a different version of the assembly on the **COM** tab of the **Reference Manager** dialog box.
+If you've installed and registered the PIAs in the global assembly cache, these versions of the assemblies appear on the **COM** tab of the **Reference Manager** dialog box. Avoid adding references to these versions of the assemblies, because there are some development issues that can occur when you use them. For example, if you have registered different versions of the PIAs in the global assembly cache, your project will automatically bind to the version of the assembly that was registered last—even if you specify a different version of the assembly on the **COM** tab of the **Reference Manager** dialog box.
 
 > [!NOTE]
 > Some assemblies are added to a project automatically when an assembly that references them is added. For example, references to the `Office.dll` and `Microsoft.Vbe.Interop.dll` assemblies are added automatically when you add a reference to the Word, Excel, Outlook, Microsoft Forms, or Graph assemblies.
@@ -119,7 +119,7 @@ The following table lists the primary interop assemblies that are available for 
 
 ### Binding redirect assemblies
 
-When you install and register the Office PIAs in the global assembly cache (either with Office or by installing the redistributable package for the PIAs), the binding redirect assemblies are also installed only in the global assembly cache. These assemblies help make sure that the correct version of the primary interop assemblies is loaded at run time.
+When you install and register the Office PIAs in the global assembly cache (either with Office or by installing the redistributable package for the PIAs), the binding redirect assemblies are also installed only in the global assembly cache. These assemblies ensure that the correct version of the primary interop assemblies is loaded at run time.
 
 For example, when a solution that references a [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)] assembly runs on a computer that has the [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] version of the same primary interop assembly, the binding redirect assembly instructs the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)] runtime to load the [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] version of the primary interop assembly.
 
