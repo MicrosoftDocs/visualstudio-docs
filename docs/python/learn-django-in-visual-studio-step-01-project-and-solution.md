@@ -92,7 +92,7 @@ When working with Django from the command line, you typically start a project by
 ::: moniker range="vs-2022"
 1. In Visual Studio, select **File** > **New** > **Project**, search for "Django", and select the **Blank Django Web Project** template, then select **Next**.
 
-    ![New project dialog in Visual Studio for the Blank Django Web Project](media/django/step01-create-new-project-screen1-vs-22.png)
+    ![New project dialog in Visual Studio for the Blank Django Web Project](media/django/step-01-create-new-project-screen-1-vs-2022.png)
   
 1. Enter the following information and then select **Create**:
 
@@ -154,7 +154,7 @@ In this step, you familiarize yourself with Visual Studio's Git controls and the
 
 1. Select the Git changes button, and Visual Studio opens its **Team Explorer** window on the **Git Changes** page. Because the newly created project is already committed to source control automatically, you don't see any pending changes.
 
-    ![Team Explorer window on the Git Changes page](media/django/step01-team-explorer-Gitchanges-vs-22.png)
+    ![Team Explorer window on the Git Changes page](media/django/step-01-team-explorer-Gitchanges-vs-2022.png)
     
 1. On the Visual Studio status bar, select the unpushed commits button (the up arrow with **2**) to open the **Synchronization** page in **Team Explorer**. Because you have only a local repository, the page provides easy options to publish the repository to different remote repositories.
 
@@ -223,12 +223,12 @@ Now that you've configured source control for your project, you can create the v
 
 1. In **Solution Explorer**, right-click the **Python Environments** node and select **Add Environment**.
 
-    ![Add Virtual environment command in Solution Explorer](media/django/step01-add-virtual-environment-command-vs-2022.png)
+    ![Add Virtual environment command in Solution Explorer](media/django/step-01-add-virtual-environment-command-vs-2022.png)
 
 
 1. Select **Create** to accept the defaults, in Add Virtual Environment dialog. (You can change the name of the virtual environment if you want, which just changes the name of its subfolder, but `env` is a standard convention.)
 
-    ![Add virtual environment dialog with requirements.txt message](media/django/step01-add-virtual-environment-dialog-vs-22.png)
+    ![Add virtual environment dialog with requirements.txt message](media/django/step-01-add-virtual-environment-dialog-vs-2022.png)
 
 1. Consent to administrator privileges if prompted, then wait for few minutes while Visual Studio downloads and installs packages. During this time several thousands of files are transferred to as many subfolders! You can see progress in the Visual Studio **Output** window. While you're waiting, ponder the Question sections that follow.
 
@@ -238,7 +238,7 @@ Now that you've configured source control for your project, you can create the v
 
     To exclude the virtual environment, right-click the **env** folder and select **Ignore these local items**.
 
-    ![Ignoring a virtual environment in source control changes](media/django/step01-ignore-local-items-vs-22.png)
+    ![Ignoring a virtual environment in source control changes](media/django/step-01-ignore-local-items-vs-2022.png)
 
 1. After excluding the virtual environment, the only remaining changes are to the project file and *.gitignore*. The *.gitignore* file contains an added entry for the virtual environment folder. You can double-click the file to see a diff.
 
