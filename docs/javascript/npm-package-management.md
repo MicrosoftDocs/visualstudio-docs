@@ -1,7 +1,7 @@
 ---
 title: "Manage npm packages"
 description: Visual Studio helps you to manage packages using the Node.js package manager (npm)
-ms.date: "10/1/2021"
+ms.date: "12/20/2021"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -51,7 +51,8 @@ Next, you can search for npm packages, select one, and install by selecting **In
 
 ## Node.js projects
 
-For Node.js projects, you can perform the following tasks:
+For Node.js projects (.njsproj), you can perform the following tasks:
+
 * [Install packages from Solution Explorer](#npmInstallWindow)
 * [Manage installed packages from Solution Explorer](#solutionExplorer)
 * [Use the `.npm` command in the Node.js Interactive Window](#interactive)
@@ -73,7 +74,7 @@ For Node.js projects, the easiest way to install npm packages is through the npm
 
 In this window you can search for a package, specify options, and install.
 
-![Screenshot of the Install New npm Packages dialog. The azure 2.2.1-preview package is selected and the details and options for that package are shown.](../javascript/media/search-package.png)
+![Screenshot of the Install New npm Packages dialog.](../javascript/media/search-package.png)
 
 * **Dependency type** - Chose between **Standard**, **Development**, and **Optional** packages. Standard specifies that the package is a runtime dependency, whereas Development specifies that the package is only required during development.
 * **Add to package.json** - Recommended. This configurable option is deprecated.
@@ -141,7 +142,7 @@ In the window, you can use commands such as the following to install a package:
  > If your project doesn't contain a package.json file, use `.npm init -y` to create a new package.json file
  > with default entries.
 
- ## ASP.NET Core projects
+## ASP.NET Core projects
 
 For projects such as ASP.NET Core projects, you can integrate npm support in your project and use npm to install packages.
 * [Add npm support to a project](#npmAdd)
@@ -158,7 +159,7 @@ If your project does not already include a *package.json* file, you can add one 
 
    npm requires Node.js.
 
-1. To add the *package.json* file, right-click the project in Solution Explorer and choose **Add** > **New Item** (or press **Ctrl** + **SHIFT** + **A**). Choose the **npm Configuration File**, use the default name, and click **Add**.
+1. To add the *package.json* file, right-click the project in Solution Explorer and choose **Add** > **New Item** (or press **Ctrl** + **SHIFT** + **A**). Use the search box to find the npm file, choose the **npm Configuration File**, use the default name, and click **Add**.
 
    ![Add package.json to your project](../javascript/media/npm-add-package-json.png)
 
@@ -180,7 +181,7 @@ When you save the file, Visual Studio adds the package under the **Dependencies 
 
 ### <a name="npmInstallPackage"></a>Install packages using package.json (ASP.NET Core)
 
-For projects with npm included, you can configure npm packages using `package.json`. Right-click the npm node in Solution Explorer and choose **Open package.json**.
+For projects with npm included, you can configure npm packages using `package.json`. Either open `package.json` directly, or right-click the npm node in Solution Explorer and choose **Open package.json**.
 
 ![Screenshot of the Solution Explorer with the npm node selected. A right-click context menu is open and Open package.json is selected.](../javascript/media/npm-add-package.png)
 
