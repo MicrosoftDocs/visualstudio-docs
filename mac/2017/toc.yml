@@ -45,3 +45,6 @@
       href: /visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac/?context=visualstudio/mac/context
 - name: Accessibility
   href: ./accessibility.md
+  items:
+    - name: Keyboard navigation
+      href: ./accessibility-keyboard.md
