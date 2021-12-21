@@ -1,6 +1,9 @@
 ---
 title: "Tutorial: Show congratulations message for your Matching Game"
 description: In this tutorial, you finish your Matching Game in Visual Studio using C# or VB Windows Forms. The game keeps pairs visible and displays a congratulations message.
+dev_langs:
+  - "CSharp"
+  - "VB"
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens

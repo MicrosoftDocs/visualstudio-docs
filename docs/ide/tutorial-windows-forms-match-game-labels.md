@@ -1,6 +1,9 @@
 ---
 title: "Tutorial: Use a timer in your Matching Game"
 description: In this tutorial, you use reference variables to control labels in Visual Studio using C# or VB Windows Forms. You add a timer to run your Matching Game.
+dev_langs:
+  - "CSharp"
+  - "VB"
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
@@ -59,8 +62,7 @@ Add reference variables.
 1. Save and run your program. Choose one of the label controls, and its icon appears.
    Choose the next label control, and notice that nothing happens.
 
-   ![Screenshot shows the Matching Game showing one icon.](../ide/media/tutorial-windows-forms-match-game-icons
-/match-game-start.png)
+   ![Screenshot shows the Matching Game showing one icon.](../ide/media/tutorial-windows-forms-match-game-icons/match-game-start.png)
 
    Only the first icon that's chosen turns black.
    The other icons are invisible.

@@ -1,6 +1,9 @@
 ---
 title: "Tutorial: Add icons to Matching Game"
 description: In this tutorial, you use a Random object to add icons in Visual Studio using C# or VB Windows Forms. You implement an event handler to display the icons.
+dev_langs:
+  - "CSharp"
+  - "VB"
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
