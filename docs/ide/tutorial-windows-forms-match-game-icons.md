@@ -123,7 +123,7 @@ This code uses the keyword `foreach` in C# or `For Each` in Visual Basic.
 
    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet13":::
 
-   For Visual Basic, add the `AssignIconsToSquares()` method call to the `Form1_Load` method so that the code looks like the following.
+   For Visual Basic, add the `AssignIconsToSquares()` method call to the `Form1_Load` method.
 
    ```vb
    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -131,7 +131,7 @@ This code uses the keyword `foreach` in C# or `For Each` in Visual Basic.
    End Sub
    ```
 
-  For more information, see [Constructors (C# programming guide)](/dotnet/csharp/programming-guide/classes-and-structs/constructors) or [Use constructors and destructors](/previous-versions/visualstudio/visual-studio-2008/2z08e49e\(v\=vs.90\)).
+   For more information, see [Constructors (C# programming guide)](/dotnet/csharp/programming-guide/classes-and-structs/constructors) or [Use constructors and destructors](/previous-versions/visualstudio/visual-studio-2008/2z08e49e\(v\=vs.90\)).
 
 1. Save your program and run it. It should show a form with random icons assigned to each label.
 
@@ -182,7 +182,7 @@ To get your game to work this way, add a <xref:System.Windows.Forms.Control.Clic
 
 1. Select **Debug** > **Start Debugging** to run your program. You should see an empty form with a blue background. Choose any of the cells in the form, and one of the icons should become visible. Continue choosing different places in the form. As you choose the icons, they should appear.
 
-![Screenshot shows the Matching Game with a single icon visible.](../ide/media/tutorial-windows-forms-match-game-icons/match-game-start.png)
+   ![Screenshot shows the Matching Game with a single icon visible.](../ide/media/tutorial-windows-forms-match-game-icons/match-game-start.png)
 
 ## Next steps
 

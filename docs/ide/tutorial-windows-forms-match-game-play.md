@@ -122,4 +122,4 @@ Here are some options.
 
 Advance to the next article to learn how to create apps that are accessible.
 > [!div class="nextstepaction"]
-> [Resources for designing accessible applications](/reference/resources-for-designing-accessible-applications.md)
+> [Resources for designing accessible applications](./reference/resources-for-designing-accessible-applications.md)
