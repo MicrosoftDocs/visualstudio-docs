@@ -43,6 +43,4 @@ To download a completed version of the sample, see [Complete matching game tutor
 
 ## To continue or review
 
-- There are great, free video learning resources available to you. To learn more about programming in Visual Basic, see [Visual Basic fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/Visual-Basic-Development-for-Absolute-Beginners). To learn more about programming in C#, see [C# fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners).
-
 - To return to the previous tutorial step, see [Step 8: Add a method to verify whether the player won](../ide/step-8-add-a-method-to-verify-whether-the-player-won.md).
