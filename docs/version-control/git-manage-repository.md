@@ -157,5 +157,5 @@ To continue your journey, see [Resolve merge conflicts in Visual Studio](git-res
 
 ## See also
 
-- [The Git experience in Visual Studio](../ide/git-with-visual-studio.md)
+- [The Git experience in Visual Studio](git-with-visual-studio.md)
 - [Visual Studio and GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)

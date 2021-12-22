@@ -88,7 +88,7 @@ To continue your journey, visit the [Create a repo](git-create-repository.md) pa
 
 ## See also
 
-- [The Git experience in Visual Studio](../ide/git-with-visual-studio.md)
+- [The Git experience in Visual Studio](git-with-visual-studio.md)
 - [Visual Studio & GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)
 - [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md)
 - [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md)

@@ -94,7 +94,7 @@ Once you have committed your changes, push them to the remote repository to allo
 
 ## Related Video
 
-> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Manage-Projects-with-Git/player]
+> [!Video https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Manage-Projects-with-Git/player]
 
 ## See also
 

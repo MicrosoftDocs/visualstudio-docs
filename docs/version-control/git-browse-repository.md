@@ -58,5 +58,5 @@ To continue your journey, see [Manage Git repositories in Visual Studio](git-man
 
 ## See also
 
-- [The Git experience in Visual Studio](../ide/git-with-visual-studio.md)
+- [The Git experience in Visual Studio](git-with-visual-studio.md)
 - [Visual Studio and GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)
