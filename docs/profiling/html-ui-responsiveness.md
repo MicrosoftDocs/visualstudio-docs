@@ -347,8 +347,6 @@ if (performance.mark && performance.measure) {
 
 ## Additional information
 
-- Watch [this video](https://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the UI Responsiveness Profiler.
-
 - Read performance tips for UWP apps built for Windows using JavaScript. For more info, see [Performance best practices for UWP apps using JavaScript](/previous-versions/windows/apps/hh465194\(v\=win.10\)).
 
 - For info on the single-threaded code execution model and performance, see [Executing code](/previous-versions/windows/apps/hh781217\(v\=win.10\)).
