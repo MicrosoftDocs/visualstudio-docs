@@ -23,8 +23,8 @@ In this first tutorial, you learn how to:
 
 > [!div class="checklist"]
 > - Create a Visual Studio project that uses Windows Forms.
-> - Add labels to a form to display the quiz problems.
-> - Set properties for the labels.
+> - Add labels, a button, and other controls to a form.
+> - Set properties for the controls.
 > - Save and run your project.
 
 ## Prerequisites
@@ -85,150 +85,178 @@ When you create a math quiz, the first step is to create a Windows Forms App pro
 
 Visual Studio creates a solution for your app. A solution is a container for all the projects and files that your app needs.
 
-<!-- Original material -->
+## Set form properties
 
-## Set the form properties
+After you select your template and name your file, Visual Studio opens a form for you. This section shows you how to change some form properties.
 
-After you select your template and name your file, Visual Studio opens a form for you. This section shows you how to change some of your form's properties such as the title, size, and border style.
+1. In your project, select Windows Forms Designer. The designer tab reads **Form1.cs [Design]** for C# or **Form1.vb [Design]** for Visual Basic.
 
-1. In Visual Studio, choose the form (either *Form1.cs* or *Form1.vb*, depending on the programming language), and then change its **Text** property to **Math Quiz**.
+1. Select the form, **Form1**.
 
-     The **Properties** window contains properties for the form.
+1. The **Properties** window now displays properties for the form. This window is usually in the lower right corner of Visual Studio. If you don't see **Properties**, select **View** > **Properties Window**.
+
+1. Find the **Text** property in the **Properties** window. Depending on how the list is sorted, you might need to scroll down. Enter the value **Math Quiz**, and then choose **Enter**.
+
+   Your form now has the text **Math Quiz** in its title bar.
+
+   > [!NOTE]
+   > You can display properties by category or alphabetically.
+   > Use the buttons on the **Properties** window to switch back and forth.
 
 1. Change the size of the form to 500 pixels wide by 400 pixels tall.
 
-     You can resize the form by dragging its edges until the correct size appears in the lower-left corner of the integrated development environment (IDE). As an alternative, you can change the values of the **Size** property.
+   You can resize the form by dragging its edges or drag handle until the correct size appears as the **Size** value in the **Properties** window. The drag handle is a small white square in the lower-right corner of the form. You can also resize the form by changing the values of the **Size** property.
 
 1. Change the value of the **FormBorderStyle** property to **Fixed3D**, and set the **MaximizeBox** property to **False**.
 
      These values prevent quiz takers from resizing the form.
 
-## To create the time remaining box
+## Create the time remaining box
 
-1. Add a <xref:System.Windows.Forms.Label> control from the **Toolbox**, and then set the value of its **(Name)** property to **timeLabel**.
+The math quiz contains a box in the upper-right corner that shows the number of seconds that remain in the quiz. This section shows you how to use a label for this box.
 
-     This label will become a box in the upper-right corner that shows the number of seconds that remain in the quiz.
+1. On the left side of the Visual Studio IDE, select the **Toolbox** tab. If you don't see it, select **View** > **Toolbox** from the menu bar or **Ctrl**+**Alt**+**X**.
 
-2. Change the **AutoSize** property to **False** so that you can resize the box.
+1. Select the <xref:System.Windows.Forms.Label> control in the Toolbox, and then drag it onto the form.
 
-3. Change the **BorderStyle** property to **FixedSingle** to draw a line around the box.
+1. Set the value of the label's **(Name)** property to **timeLabel**.
 
-4. Set the **Size** property to **200, 30**.
+1. Change the **AutoSize** property to **False** so that you can resize the box.
 
-5. Move the label to the upper-right corner of the form, where blue spacer lines will appear.
+1. Change the **BorderStyle** property to **FixedSingle** to draw a line around the box.
 
-     These lines help you align controls on the form.
+1. Set the **Size** property to **200, 30**.
 
-6. In the **Properties** window, choose the **Text** property, and then choose the **Backspace** key to clear its value.
+1. Select the **Text** property, and then select the **Backspace** key to clear the **Text** value.
 
-7. Choose the plus sign (**+**) next to the **Font** property, and then change the value of the **Size** property to **15.75**.
+1. Select the plus sign (**+**) next to the **Font** property, and then change the value of the **Size** property to **15.75**.
 
-     You can change several font properties, as the following screenshot shows.
+1. Move the label to the upper-right corner of the form. When blue spacer lines appear, use them to align the control on the form.
 
-     ![Properties window showing font size](../ide/media/express_setfontsize.png)
+1. Add another Label control from the **Toolbox**, and then set its font size to **15.75**.
 
-8. Add another Label control from the **Toolbox**, and then set its font size to **15.75**.
+1. Set this label's **Text** property to **Time Left**.
 
-9. Set the **Text** property to **Time Left**.
+1. Move the label so that it lines up to the left of the **timeLabel** label.
 
-10. Move the label so that it lines up just to the left of the **timeLabel** label.
+   :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/time-remaining-box.png" alt-text="Screenshot that shows the Time Left label and the remaining time. The controls are lined up next to each other in the upper-right corner of the form.":::
 
-### To add controls for the addition problems
 
-1. Add a Label control from the **Toolbox**, and then set its **Text** property to **?** (question mark).
+<!-- Original material -->
 
-2. Set the **AutoSize** property to **False**.
+## Add controls for the addition problem
 
-3. Set the **Size** property to **60, 50**.
+The first part of the quiz is an addition problem. This section shows you how to use labels to display that problem.
 
-4. Set the font size to **18**.
+1. Add a Label control from the **Toolbox** to the form.
 
-5. Set the **TextAlign** property to **MiddleCenter**.
+1. In the **Properties** box, set the following properties for the label:
 
-6. Set the **Location** property to **50, 75** to position the control on the form.
+   - Set the **Text** to **?** (question mark).
+   - Set the **AutoSize** to **False**.
+   - Set the **Size** to **60, 50**.
+   - Set the font size to **18**.
+   - Set the **TextAlign** to **MiddleCenter**.
+   - Set the **Location** to **50, 75** to position the control on the form.
+   - Set the **(Name)** to **plusLeftLabel**.
 
-7. Set the **(Name)** property to **plusLeftLabel**.
+1. In the form, select the **plusLeftLabel** label, and then copy the label by selecting either **Copy** > **Edit** or **Ctrl**+**C**.
 
-8. Choose the **plusLeftLabel** label, and then choose either the **Ctrl**+**C** keys or **Copy** on the **Edit** menu.
+1. Paste the label into the form three times by selecting either **Paste** > **Edit** or **Ctrl**+**V**.
 
-9. Paste the label three times by choosing either the **Ctrl**+**V** keys or **Paste** on the **Edit** menu.
+1. Arrange the three new labels so that they are in a row to the right of the **plusLeftLabel** label.
 
-10. Arrange the three new labels so that they are in a row to the right of the **plusLeftLabel** label.
+1. Set the second label's **Text** property to **+** (plus sign).
 
-     You can use the spacer lines to space them out and line them up.
+1. Set the third label's **(Name)** property to **plusRightLabel**.
 
-11. Set the value of the second label's **Text** property to **+** (plus sign).
+1. Set the fourth label's **Text** property to **=** (equal sign).
 
-12. Set the value of the third label's **(Name)** property to **plusRightLabel**.
+1. Add a <xref:System.Windows.Forms.NumericUpDown> control from the **Toolbox** to the form. You'll learn more about this kind of control later.
 
-13. Set the value of the fourth label's **Text** property to **=** (equal sign).
+1. In the **Properties** box, set the following properties for the NumericUpDown control:
 
-14. Add a <xref:System.Windows.Forms.NumericUpDown> control from the **Toolbox**, set its font size to **18**, and set its width to **100**.
+   - Set the font size to **18**.
+   - Set the width to **100**.
+   - Set the **(Name)** to **sum**.
 
-     You'll learn more about this kind of control later.
+1. Line up the NumericUpDown control with the Label controls for the addition problem.
 
-15. Line up the NumericUpDown control with the Label controls for the addition problem.
+   :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/addition-problem.png" alt-text="Screenshot that shows the first row of the math quiz. Labels are visible, and a control with arrow keys displays a zero.":::
 
-16. Change the value of the **(Name)** property for the NumericUpDown control to **sum**.
+## Add controls for the subtraction, multiplication, and division problems
 
-     You've created the first row, as shown in the following illustration.
+The next step is to add labels to the form for the remaining math problems.
 
-     ![First row of math quiz](../ide/media/express_firstrow.png)
+1. Copy the four Label controls and the NumericUpDown control that you created for the addition problem. Paste them into the form.
 
-## To add controls for the subtraction, multiplication, and division problems
+1. Move the new controls to line up below the addition controls.
 
-1. Copy all five controls for the addition problem (the four Label controls and the NumericUpDown control), and then paste them.
+1. In the **Properties** box, set the following properties of the new controls:
 
-     The form contains five new controls, which are still selected.
+   - Set the **(Name)** of the first question-mark label to **minusLeftLabel**.
+   - Set the **Text** of the second label to **-** (minus sign).
+   - Set the **(Name)** of the second question-mark label to **minusRightLabel**.
+   - Set the **(Name)** of the NumericUpDown control to **difference**.
 
-2. Move all of the controls into place so that they line up below the addition controls.
+1. Copy the addition controls, and paste them two more times into the form.
 
-     You can use the spacer lines to give enough distance between the two rows.
+1. For the third row:
 
-3. Change the value of the **Text** property for the second label to **-** (minus sign).
+   - Set the **(Name)** of the first question-mark label to **timesLeftLabel**.
+   - Set the **Text** of the second label to **×** (multiplication sign). You can copy the multiplication sign from this tutorial and paste it onto the form.
+   - Set the **(Name)** of the second question-mark label to **timesRightLabel**.
+   - Set the **(Name)** of the NumericUpDown control to **product**.
 
-4. Name the first question-mark label **minusLeftLabel**.
+1. For the fourth row:
 
-5. Name the second question-mark label **minusRightLabel**.
+   - Set the **(Name)** of the first question-mark label to **dividedLeftLabel**.
+   - Set the **Text** of the second label to **÷** (division sign). You can copy the division sign from this tutorial and paste it onto the form.
+   - Set the **(Name)** of the second question-mark label to **dividedRightLabel**.
+   - Set the **(Name)** of the NumericUpDown control to **quotient**.
 
-6. Name the NumericUpDown control **difference**.
+:::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/all-math-problems.png" alt-text="Screenshot that shows a math quiz with four rows of problems. Labels and controls with arrow keys are visible.":::
 
-7. Paste the five controls two more times.
+## Add a start button and set the tab-index order
 
-8. For the third row, name the first label **timesLeftLabel**, change the second label's **Text** property to **×** (multiplication sign), name the third label **timesRightLabel**, and name the NumericUpDown control **product**.
+This section shows you how to add a start button. You'll also specify the tabbing order of the controls, or how the quiz taker moves from one control to the next by using the **Tab** key.
 
-9. For the fourth row, name the first label **dividedLeftLabel**, change the second label's **Text** property to **÷** (division sign), name the third label **dividedRightLabel**, and name the NumericUpDown control **quotient**.
+1. Add a <xref:System.Windows.Forms.Button> control from the **Toolbox** to the form.
 
-    > [!NOTE]
-    > You can copy the multiplication sign × and the division sign ÷ from this tutorial and paste them onto the form.
+1. In the **Properties** box, set the following properties of the Button:
 
-## To add a start button and set the tab-index order
+   - Set the **(Name)** to **startButton**.
+   - Set the **Text** to **Start the quiz**.
+   - Set the font size to **14**.
+   - Set **AutoSize** to **True**, which causes the button to automatically resize to fit the text.
+   - Set the **TabIndex** to **0**. This value makes the start button the first control to receive the focus.
 
-1. Add a <xref:System.Windows.Forms.Button> control from the **Toolbox**, and then set its **(Name)** property to **startButton**.
+1. Center the button near the bottom of the form.
 
-2. Set the **Text** property to **Start the quiz**.
+   :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/math-problems-start-button.png" alt-text="Screenshot that shows a math quiz with four rows of problems and a start button.":::
 
-3. Set the font size to **14**.
+1. In the **Properties** box, set the **TabIndex** property of each NumericUpDown control:
 
-4. Set the **AutoSize** property to **True**, which causes the button to automatically resize to fit the text.
+   - Set the **TabIndex** of the sum control to **1**.
+   - Set the **TabIndex** of the difference control to **2**.
+   - Set the **TabIndex** of the product control to **3**.
+   - Set the **TabIndex** of the quotient control to **4**.
 
-5. Center the button near the bottom of the form.
+## Run your app
 
-6. Set the value of the **TabIndex** property for the **startButton** control to **1**.
+The math problems don't work yet on your quiz. But you can still run your app to check whether the **TabIndex** values work as you expect.
 
-    > [!NOTE]
-    > The **TabIndex** property sets the order of the controls when the quiz taker chooses the **Tab** key. To see how it works, open any dialog box (for example, on the menu bar, choose **File** > **Open**), and then choose the **Tab** key a few times. Watch how your cursor moves from control to control each time that you choose the **Tab** key. A programmer decided the order when creating that form.
+1. Save your program.
+1. Use one of the following methods to run your app:
 
-7. Set the value of the **TabIndex** property for the NumericUpDown sum control to **2**, for the difference control to **3**, for the product control to **4**, and for the quotient control to **5**.
+   - Select **F5**.
+   - On the menu bar, select **Debug** > **Start Debugging**.
+   - On the toolbar, select the **Start** button.
 
-     The form should look similar to the following screenshot.
+1. Select the **Tab** key a few times to see how the focus moves from one control to the next.
 
-     ![Initial math quiz form](../ide/media/express_formlaidout.png)
+## Next steps
 
-8. To verify whether the **TabIndex** property works as you expect, save and run your program by choosing the **F5** key, or by choosing **Debug** > **Start Debugging** on the menu bar, and then choose the **Tab** key a few times.
-
-## To continue or review
-
-- To go to the next tutorial step, see **[Step 2: Create a random addition problem](../ide/step-2-create-a-random-addition-problem.md)**.
-
-- To return to the overview topic, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
+Advance to the next article to add a random addition problem to your math quiz.
+> [!div class="nextstepaction"]
+> [Tutorial part 2: Add code to the math quiz Windows Forms app in Visual Studio](tutorial-windows-forms-math-quiz-add-code.md)
