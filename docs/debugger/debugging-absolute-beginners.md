@@ -377,7 +377,7 @@ Next, we will create an application that has a few bugs.
 
 1. Remove the breakpoint by clicking on the breakpoint circle in the left margin (or right-click and choose **Breakpoint** > **Delete Breakpoint**), and then press **F5** to continue.
 
-    The app runs and displays output. It looks pretty good now, but you do notice one thing; you expected the Small Magellanic Cloud galaxy to show up as a Irregular galaxy in the console output, but it shows no galaxy type at all.
+    The app runs and displays output. It looks pretty good now, but you do notice one thing; you expected the Small Magellanic Cloud galaxy to show up as an Irregular galaxy in the console output, but it shows no galaxy type at all.
 
     ```
     Tadpole  400,  Spiral
