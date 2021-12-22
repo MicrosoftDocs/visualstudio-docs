@@ -136,7 +136,7 @@ The **CPU Usage** view shows you a list of functions ordered by longest running,
 ::: moniker range=">=vs-2022"
 Double-click on a function that you are interested in, and you will see a more detailed "Call tree" view, with the selected function highlighted. The table shows columns with data such as the time spent in the function, including called functions (**Total CPU**), and a second column that shows the time spent in a function, excluding called functions (**Self CPU**). This data can help you evaluate whether the function itself is a performance bottleneck.
 
-![Diagnostic Tools caller callee "butterfly" view](../profiling/media/vs-2022/prof-tour-cpu-usage-call-tree.png "Diagnostic Tools Caller Callee View")
+![Diagnostic Tools caller callee "butterfly" view](../profiling/media/vs-2022/prof-tour-call-tree-view.png "Diagnostic Tools Caller Callee View")
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 Double-click on a function that you are interested in, and you will see a more detailed three-pane "butterfly" view, with the selected function in the middle of the window, the calling function on the left, and called functions on the right. The **Function Body** section shows the total amount of time (and the percentage of time) spent in the function body excluding time spent in calling and called functions. This data can help you evaluate whether the function itself is a performance bottleneck.
@@ -156,7 +156,7 @@ The **Diagnostic Tools** window also allows you to evaluate memory usage in your
 To analyze memory usage with the **Memory Usage** tool, you need to take at least one memory snapshot. Often, the best way to analyze memory is to take two snapshots; the first right before a suspected memory issue, and the second snapshot right after a suspected memory issue occurs. Then you can view a diff of the two snapshots and see exactly what changed. The following illustration shows taking a snapshot with the debugger-integrated tool.
 
 ::: moniker range=">=vs-2022"
-![Take a snapshot in the Diagnostic Tools](../profiling/media/prof-tour-take-snapshots.png "Diagnostic Tools Take Snapshots")
+![Take a snapshot in the Diagnostic Tools](../profiling/media/s-2022/prof-tour-take-snapshots.png "Diagnostic Tools Take Snapshots")
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 ![Take a snapshot in the Diagnostic Tools](../profiling/media/prof-tour-take-snapshots.gif "Diagnostic Tools Take Snapshots")
