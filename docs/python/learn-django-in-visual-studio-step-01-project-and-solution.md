@@ -154,8 +154,9 @@ In this step, you familiarize yourself with Visual Studio's Git controls and the
 
 1. Select the Git changes button, and Visual Studio opens its **Team Explorer** window on the **Git Changes** page. Because the newly created project is already committed to source control automatically, you don't see any pending changes.
 
-    ![Team Explorer window on the Git Changes page](media/django/step-01-team-explorer-Gitchanges-vs-2022.png)
+    ![Team Explorer window on the Git Changes page](media/django/step-01-team-explorer-git-changes-vs-2022.png)
     
+
 1. On the Visual Studio status bar, select the unpushed commits button (the up arrow with **2**) to open the **Synchronization** page in **Team Explorer**. Because you have only a local repository, the page provides easy options to publish the repository to different remote repositories.
 
     ![Team Explorer window showing available Git repository options for source control](media/django/step01-team-explorer.png)
