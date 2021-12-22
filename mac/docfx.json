@@ -89,7 +89,8 @@
       "searchScope": [
         "Mac"
       ],
-      "recommendations": true
+      "recommendations": true,
+      "archive_url": "/previous-versions/visualstudio/mac"
     },
     "fileMetadata": {
       "breadcrumb_path": {
