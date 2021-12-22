@@ -128,7 +128,6 @@ public void HelloWorldThrowsException167()
 It's that easy!
 
 Additional resources:
-  * Watch the [Channel 9 video](https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Intellitest)
   * Read this [overview on MSDN Magazine](/archive/msdn-magazine/2015/february/visual-studio-2015-build-better-software-with-smart-unit-tests)
 
 ## Important attributes
