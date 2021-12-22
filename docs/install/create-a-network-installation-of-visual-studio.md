@@ -20,6 +20,7 @@ ms.technology: vs-installation
 Sometimes an enterprise administrator wants to create a network install point that contains Visual Studio files that can be deployed to client workstations. This is to facilitate scenarios where the client machines may have limited permissions or limited access to the internet, or when an organization wants to standardize on a particular version of the developer toolset. We've designed Visual Studio so that an administrator can _create and maintain_ a network layout (file cache), that can be stored on an internal network share. The network layout includes all the Visual Studio files necessary for both initial installation and subsequent product updates.
 
 There is a lot of information on this webpage, and it's grouped up into the following sections:
+
 - [**Before you get started**](#before-you-get-started): highlights tips and other important considerations you should think about when you plan.
 - [**Acquire the correct bootstrapper**](#download-the-visual-studio-bootstrapper-to-create-the-network-layout): guidance on where to find and how to distinguish the various bootstrappers that are available for you to use.
 - [**Create the network layout**](#create-the-network-layout): describes how to create the layout with the correct product content, channel settings, and version of the installer and how to copy it to a network share. 
@@ -28,6 +29,7 @@ There is a lot of information on this webpage, and it's grouped up into the foll
 - [**Help and Support**](#get-support-for-your-network-layout): where to ask for help
 
 ## Before you get started
+
 There are a few important things to plan out and be aware of before you get started.  
 ::: moniker range="vs-2017"
 
@@ -77,11 +79,11 @@ Other supported bootstrappers include vs_feedbackclient.exe, vs_teamexplorer.exe
 
 The bootstrappers listed below will always install the latest most secure version of Visual Studio 2019, no matter when you run them. Alternatively, if you want to create or update a layout to a specific version of Visual Studio 2019, go to the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page that has links to the fixed version bootstrappers for each servicing release, and download the one you want. Copy it into the directory that you want to serve as the source location of the layout.
 
-| Edition                    | Bootstrapper                                                                                                                                                                                                                           |
-|----------------------------|---------------------------------------------------------------------------|
-| Visual Studio 2019 Enterprise version 16.11   | [vs_enterprise.exe](https://aka.ms/vs/16/release/vs_enterprise.exe) |
+| Edition                                       | Bootstrapper                                                            |
+|-----------------------------------------------|-------------------------------------------------------------------------|
+| Visual Studio 2019 Enterprise version 16.11   | [vs_enterprise.exe](https://aka.ms/vs/16/release/vs_enterprise.exe)     |
 | Visual Studio 2019 Professional version 16.11 | [vs_professional.exe](https://aka.ms/vs/16/release/vs_professional.exe) |
-| Visual Studio 2019 Build Tools version 16.11 | [vs_buildtools.exe](https://aka.ms/vs/16/release/vs_buildtools.exe) |
+| Visual Studio 2019 Build Tools version 16.11  | [vs_buildtools.exe](https://aka.ms/vs/16/release/vs_buildtools.exe)     |
 
 Other supported bootstrappers include [vs_teamexplorer.exe](https://aka.ms/vs/16/release/vs_TeamExplorer.exe), [vs_testagent.exe](https://aka.ms/vs/16/release/vs_TestAgent.exe), and [vs_testcontroller.exe](https://aka.ms/vs/16/release/vs_TestController.exe).
 
@@ -135,6 +137,7 @@ The recommended approach is to create an initial layout of Visual Studio Enterpr
 ::: moniker range=">=vs-2022"
 
 ### Ensure your layout has the correct channel
+
 It is important to ensure that the network layout is based off of the correct [channel](/visualstudio/releases/2022/vs2022-release-rhythm), because this is one of the criteria that [administrator updates](applying-administrator-updates.md), if they're deployed throughout the organization, use to identify which client instances should be updated. For example, if your layout is based off of the VisualStudio.17.Release.LTSC.17.0 channel and if your clients are configured to receive updates from Microsoft hosted servers, then any security updates that we make available on the 17.0 LTSC channel will be available to the clients that have installed or updated from that layout. 
 
 The bootstrappers listed above are based off of the Current channel. To create a layout based off of one of the LTSC channels, simply acquire the correct channel's bootstrapper from the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page, copy it into your layout folder, and use it to create or update the layout. 
@@ -209,12 +212,14 @@ xcopy /e c:\VSLayout \\server\share\layoutdirectory
 > [!IMPORTANT]
 > To prevent an error, make sure that your full layout path on the network share is fewer than 80 characters. Or, some organizations have successfully used [symbolic links](/windows/win32/fileio/symbolic-links) to work around the 80-character limitation.
 
-## Update or modify your layout 
+## Update or modify your layout
+
 It is possible to update a network layout of Visual Studio with the latest product updates so that it can be used both as an installation point and an update source for client workstations to receive the latest version of Visual Studio. It is a best practice to periodically update your layout, particularly if you intend for your clients to receive updates from the layout. This section describes the most common or useful layout maintenance operations.
 
 If you host a layout on a file share, you may want to update a private copy of the layout (for example, c:\VSLayout) and then, after all of the updated content is downloaded, copy it to your file share (for example, \\\server\products\VS). If you don't do this, there is a greater chance that any users who happen to run Setup while you are updating the layout might get a mismatch of content from the layout because it was not yet completely updated.
 
 ### Update the layout to the most current version of the product
+
 Microsoft frequently releases updated versions of the product to fix functionality or security issues. We recommend that you keep you layout updated with the latest version of the product, so that new client installs always receive the latest goodness. It's also very important to keep your layout updated if your clients are configured to receive updates from the layout. 
 
 When you create the initial layout, the specified options, such as which workloads and languages to include in the layout, are saved in the layout's configuration file. Later, when you want to update that layout to a newer version of the product, you don't have to re-specify the options that you used during initial layout creation. The layout update commands automatically use the saved layout settings. 
@@ -238,6 +243,7 @@ vs_enterprise.exe --layout c:\VSLayout --passive
 ```
 
 ### Update the layout to a specific version of the product
+
 Sometimes you may want to update your layout to a _particular version of the product_.  For example, you may want to make your layout match the latest secure version of the servicing baseline that you have standardized your organization on. Here's how to do this:
 
 ::: moniker range="vs-2019"
@@ -312,7 +318,10 @@ You can configure your layout to _always_ include and provide the latest install
 ::: moniker range=">=vs-2019"
 
 There are two ways to enable your layout to include and provide the latest installer:
+
 - You can pass in the `--useLatestInstaller` parameter to the bootstrapper when you're creating or updating the layout. This will cause a setting to get set in the layout.json file, which can be found in the root directory of the layout. Here's an example for how to update the layout and configure it to use the latest and greatest installer available.  
+
+
    ```shell
    vs_enterprise.exe --layout C:\VSLayout --useLatestInstaller
    ```
@@ -334,7 +343,7 @@ There are two ways to enable your layout to include and provide the latest insta
 
 There is no way to programmatically remove this setting in the layout.json file, so if you want your layout to _stop_ using the latest installer that Microsoft makes available, and instead use the version of the installer that corresponds to the bootstrapper (which is mostly likely older than the most recent installer), simply edit the layout.json file and remove the `"UseLatestInstaller": true` setting. 
 
-Note that you may find this `"UseLatestInstaller": true` setting in the layout's response.json file too, but it is ignored there. The [response.json file is used to set default configuration options on the _client_ when the client installs or updates from a layout](automated-installation-with-response-file.md). This particular `"useLatestInstaller": true` setting is used to ensure that the contents of the _layout_ contain the latest installer, so that the client machines can then acquire the latest installer from the layout.   
+Note that you may find this `"UseLatestInstaller": true` setting in the layout's response.json file too, but it is ignored there. The [response.json file is used to set default configuration options on the _client_ when the client installs or updates from a layout](automated-installation-with-response-file.md). This particular `"useLatestInstaller": true` setting is used to ensure that the contents of the _layout_ contain the latest installer, so that the client machines can then acquire the latest installer from the layout.
 
 ::: moniker-end
 
@@ -414,6 +423,7 @@ If you get an error message that says "A product matching the following paramete
 ### Configure initial client installation defaults for this layout
 
 You can modify some files in the layout folder to set default values that are used when the product is initially installed on the client machine. Common configuration options include:
+
 - Ability to **configure which workloads, components, or languages should be selected by default** during initial install. 
 - Ability to specify **where the client should receive updates from**.  Options are from the admin-controlled network layout location or from Microsoft hosted servers on the internet (which is the default).
 
@@ -423,13 +433,13 @@ For more information about how to customize and configure the default client set
 
 ::: moniker range=">=vs-2019"
 
-You can also control other enterprise deployment behavior, such as 
+You can also control other enterprise deployment behavior, such as:
 
-- If administrator updates should be enabled and how they should be applied 
+- If administrator updates should be enabled and how they should be applied.
 - Which update channels are available and how network layouts appear to the client machines in the Update Settings dialog.
 - Where shared packages are installed.
 - Where and whether packages are cached.
-- How notifications appear or don't appear
+- How notifications appear or don't appear.
 
 Refer to [Set defaults for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md) for additional details.
 

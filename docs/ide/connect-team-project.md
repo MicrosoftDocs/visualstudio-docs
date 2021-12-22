@@ -118,7 +118,7 @@ To connect to a project:
    ![Connect to a project in Team Explorer](media/team-explorer/connect-project.png "The Team Explorer - Connect to a Project option in Visual Studio.")
 
 > [!TIP]
-> If you want to open a project from a repo, see [Open a project from a repo](/visualstudio/get-started/tutorial-open-project-from-repo?view=vs-2017). If you want to create a new project or add users to a project, see [Create a project (Azure DevOps)](/azure/devops/organizations/projects/create-project) and [Add users to a project or team (Azure DevOps)](/azure/devops/organizations/security/add-users-team-project).
+> If you want to open a project from a repo, see [Open a project from a repo](/visualstudio/get-started/tutorial-open-project-from-repo?view=vs-2017&preserve-view=true). If you want to create a new project or add users to a project, see [Create a project (Azure DevOps)](/azure/devops/organizations/projects/create-project) and [Add users to a project or team (Azure DevOps)](/azure/devops/organizations/security/add-users-team-project).
 
 ::: moniker-end
 

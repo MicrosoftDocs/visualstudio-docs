@@ -47,7 +47,7 @@ In Visual Studio 2017, once the client has installed the product, the client's u
 
 With default Visual Studio 2019 functionality, once the client has installed the product, the client's update location configuration is locked and unchangable. The only way to _reliably_ change the source location for updates is to uninstall and reinstall the product using the correct configuration.
  
-However, if the Visual Studio client uses the latest Visual Studio 2022 Installer, then the client's source location for updates can be changed. This is useful if you want to install from one layout but have updates come from another layout. There are two ways to get the Visual Studio 2022 Installer onto a client machine. The easiest is to simply install and use the Visual Studio 2022 product. Alternatively, you can [distribute the Visual Studio 2022 installer via your Visual Studio 2019 layouts](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-use-the-latest-installer).
+However, if the Visual Studio client uses the latest Visual Studio 2022 Installer, then the client's source location for updates can be changed. This is useful if you want to install from one layout but have updates come from another layout. There are two ways to get the Visual Studio 2022 Installer onto a client machine. The easiest is to simply install and use the Visual Studio 2022 product. Alternatively, you can [distribute the Visual Studio 2022 installer via your Visual Studio 2019 layouts](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer).
 
 ::: moniker-end
 
