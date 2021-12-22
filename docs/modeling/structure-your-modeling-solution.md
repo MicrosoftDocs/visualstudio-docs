@@ -99,10 +99,6 @@ For example, if you frequently use solutions that have Presentation, Business, a
 
 4. Following the instructions in the wizard, select the projects that you want to include in the template, provide a name and description for the template, and specify an output location.
 
-## Watch a video
-
-[Organize and manage your models](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-9-organizing-and-managing-your-models)
-
 ## See also
 
 - [Use models in your development process](../modeling/use-models-in-your-development-process.md)
