@@ -25,7 +25,7 @@ To use the features of a Microsoft Office application from an Office project, yo
 
 [!include[Add-ins note](includes/addinsnote.md)]
 
-When you create a new Office project, Visual Studio adds references to the PIAs that are required to build the project. In some scenarios, you might need to add references to other PIAs (for example, if you want to use a feature of Microsoft Office Word in a project for Microsoft Office Excel).
+When you create a new Office project, Visual Studio adds references to the PIAs that are required to build the project. In some scenarios, you might need to add references to other PIAs (for example, you can use a feature of Microsoft Office Word in a project for Microsoft Office Excel).
 
 This article describes the following aspects of using the Microsoft Office PIAs in Office projects:
 
@@ -45,11 +45,11 @@ Visual Studio uses different sets of the PIAs on the development computer. These
 
 - A folder in the program files directory
 
-  These copies of the assemblies are used when you write code and build projects. Visual Studio installs these assemblies automatically.
+  This set of the assemblies are used when you write code and build projects. Visual Studio installs these assemblies automatically.
 
 - The global assembly cache
 
-  These copies of the assemblies are used during some development tasks, such as when you run or debug projects. Visual Studio doesn't install and register these assemblies; you need to do it yourself.
+  This set of the assemblies are used during some development tasks, such as when you run or debug projects. Visual Studio doesn't install and register these assemblies; you need to do it yourself.
 
 ### Primary interop assemblies in the program files directory
 
@@ -57,7 +57,7 @@ The PIAs are automatically added to a location in the file system, outside of th
 
 When different versions of the PIAs are registered in the global assembly cache, you can face several development issues. The added copies of PIAs will help you to avoid such issues.
 
-Starting with Visual Studio 2017, these copies of the PIAs are installed to following shared locations on the development computer:
+For Visual Studio 2017 and later versions, these copies of the PIAs are installed to following shared locations on the development computer:
 
 - `%ProgramFiles%\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\`
 
@@ -81,7 +81,7 @@ Every Office project template in Visual Studio is designed to work with a single
 
 In most cases, you should add references to the PIAs that are installed by Visual Studio under the `%ProgramFiles(x86)%\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\` directory. These versions of the assemblies appear on the **Framework** tab of the **Reference Manager** dialog box. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md).
 
-If you've installed and registered the PIAs in the global assembly cache, these versions of the assemblies appear on the **COM** tab of the **Reference Manager** dialog box. Avoid adding references to these versions of the assemblies, because there are some development issues that can occur when you use them. For example, if you have registered different versions of the PIAs in the global assembly cache, your project will automatically bind to the version of the assembly that was registered last—even if you specify a different version of the assembly on the **COM** tab of the **Reference Manager** dialog box.
+If you've installed and registered the PIAs in the global assembly cache, these versions of the assemblies appear on the **COM** tab of the **Reference Manager** dialog box. Avoid adding references to these versions of the assemblies, because there are some development issues that can occur when you use them. For example, if you've registered different versions of the PIAs in the global assembly cache, your project will automatically bind to the version of the assembly that was registered last, even if you specify a different version of the assembly on the **COM** tab of the **Reference Manager** dialog box.
 
 > [!NOTE]
 > Some assemblies are added to a project automatically when an assembly that references them is added. For example, references to the `Office.dll` and `Microsoft.Vbe.Interop.dll` assemblies are added automatically when you add a reference to the Word, Excel, Outlook, Microsoft Forms, or Graph assemblies.
