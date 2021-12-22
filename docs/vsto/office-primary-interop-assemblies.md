@@ -45,11 +45,11 @@ Visual Studio uses different sets of the PIAs on the development computer. These
 
 - A folder in the program files directory
 
-  This set of the assemblies are used when you write code and build projects. Visual Studio installs these assemblies automatically.
+  This set of the assemblies is used when you write code and build projects. Visual Studio installs these assemblies automatically.
 
 - The global assembly cache
 
-  This set of the assemblies are used during some development tasks, such as when you run or debug projects. Visual Studio doesn't install and register these assemblies; you need to do it yourself.
+  This set of the assemblies is used during some development tasks, such as when you run or debug projects. Visual Studio doesn't install and register these assemblies; you need to do it yourself.
 
 ### Primary interop assemblies in the program files directory
 
