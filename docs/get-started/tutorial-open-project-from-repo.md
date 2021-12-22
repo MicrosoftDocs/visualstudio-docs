@@ -128,7 +128,7 @@ Here's how to browse to and clone an Azure DevOps repo by using Visual Studio.
 
 ## Open a project from a GitHub repo with Visual Studio 2019
 
-How you open a project from a GitHub repo by using Visual Studio depends on which version you have. Specifically, if you've installed version Visual Studio 2019 [**version 16.8**](/visualstudio/releases/2019/release-notes-history) or later, there's a new, more fully integrated [Git experience in Visual Studio](../ide/git-with-visual-studio.md) available to you.
+How you open a project from a GitHub repo by using Visual Studio depends on which version you have. Specifically, if you've installed version Visual Studio 2019 [**version 16.8**](/visualstudio/releases/2019/release-notes-history) or later, there's a new, more fully integrated [Git experience in Visual Studio](../version-control/git-with-visual-studio.md) available to you.
 
 But no matter which version you've installed, you can always open a project from a GitHub repo with Visual Studio.
 
@@ -223,7 +223,7 @@ Here's how to use Git in Visual Studio 2019 [**version 16.7**](/visualstudio/rel
 
 ## Browse to an Azure DevOps repo with Visual Studio 2019
 
-What you see when you browse to and clone an Azure DevOps repository by using Visual Studio 2019 depends on which version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes-history) or later, we've changed the UI to accommodate a new, more fully integrated [Git experience in Visual Studio](../ide/git-with-visual-studio.md) in Visual Studio.
+What you see when you browse to and clone an Azure DevOps repository by using Visual Studio 2019 depends on which version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes-history) or later, we've changed the UI to accommodate a new, more fully integrated [Git experience in Visual Studio](../version-control/git-with-visual-studio.md) in Visual Studio.
 
 But no matter which version you have installed, you can always browse to and clone an Azure DevOps repo with Visual Studio.
 
@@ -378,8 +378,8 @@ Feel free to dive into any of the following language-specific tutorials:
 
 ::: moniker range="<=vs-2019"
 
-- [The Git experience in Visual Studio](../ide/git-with-visual-studio.md)
-- [Compare Git and Team Explorer side-by-side](../ide/git-team-explorer-feature-comparison.md)
+- [The Git experience in Visual Studio](../version-control/git-with-visual-studio.md)
+- [Compare Git and Team Explorer side-by-side](../version-control/git-team-explorer-feature-comparison.md)
 - [Microsoft Learn: Get started with Git and GitHub in Visual Studio](/learn/modules/visual-studio-github-push/)
 - [Microsoft Learn: Get started with Azure DevOps](/learn/modules/get-started-with-devops/)
 - [Azure DevOps Services: Get started with Azure Repos and Visual Studio](/azure/devops/repos/git/gitquickstart/)
