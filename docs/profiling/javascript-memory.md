@@ -357,8 +357,6 @@ if (performance && performance.mark) {
 
   - You might need to remove one or more event listeners. For more info, see [View DOM event listeners](../debugger/quickstart-debug-html-and-css.md).
 
-- Watch the latter part of [this video](https://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the JavaScript memory analyzer.
-
 - Read [Managing memory in UWP apps](/archive/msdn-magazine/2012/windows-8-special-issue/javascript-managing-memory-in-windows-store-apps).
 
 - Consider temporarily modifying code to isolate problems. For example, you might want to:
