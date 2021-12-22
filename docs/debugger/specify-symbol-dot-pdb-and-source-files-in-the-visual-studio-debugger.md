@@ -2,6 +2,7 @@
 title: "Set symbol (.pdb) and source files in the debugger"
 description: "Learn how to configure and manage symbol and source files in Visual Studio"
 ms.date: "12/12/2021"
+ms.custom: "contperf-fy21q4"
 ms.topic: "conceptual"
 f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.Native"
