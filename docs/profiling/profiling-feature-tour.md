@@ -206,7 +206,12 @@ The [.NET Async tool](../profiling/analyze-async.md) allows you to analyze the p
 
 The tool shows each async operation in a list view. You can see information such as the start time, end time, and total time for an async operation.
 
+::: moniker range=">=vs-2022"
+![.NET Async Tool Stopped](../profiling/media/prof-tour-async-tool.png ".NET Async Tool Stopped")
+::: moniker-end
+::: moniker range="<=vs-2019"
 ![.NET Async Tool Stopped](../profiling/media/async-tool-opened.png ".NET Async Tool Stopped")
+::: moniker-end
 
 ## Analyze database performance (.NET Core)
 
