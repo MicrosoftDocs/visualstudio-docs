@@ -179,7 +179,12 @@ In XAML apps, such as Windows desktop WPF apps and UWP apps, you can analyze res
 
 Low framerates in the **Visual throughput** graph may correspond to visual problems that you see when running your app. Similarly, high numbers in the **UI thread utilization** graph may also correspond to UI responsiveness issues. In the report, you can select a time period with a suspected performance issue, and then examine the detailed UI thread activities in the Timeline details view (lower pane).
 
+::: moniker range=">=vs-2022"
+![Application Timeline profiling tool](../profiling/media/vs-2022/prof-tour-application-timeline.png "Profiling Tour Application Timeline")
+::: moniker-end
+::: moniker range="<=vs-2019"
 ![Application Timeline profiling tool](../profiling/media/prof-tour-application-timeline.gif "Profiling Tour Application Timeline")
+::: moniker-end
 
 In the Timeline details view, you can find information such as the type of activity (or the UI element involved) along with the duration of the activity. For example, in the illustration, a **Layout** event for a Grid control takes 57.53 ms.
 
