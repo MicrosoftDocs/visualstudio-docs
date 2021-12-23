@@ -156,7 +156,7 @@ The **Diagnostic Tools** window also allows you to evaluate memory usage in your
 To analyze memory usage with the **Memory Usage** tool, you need to take at least one memory snapshot. Often, the best way to analyze memory is to take two snapshots; the first right before a suspected memory issue, and the second snapshot right after a suspected memory issue occurs. Then you can view a diff of the two snapshots and see exactly what changed. The following illustration shows taking a snapshot with the debugger-integrated tool.
 
 ::: moniker range=">=vs-2022"
-![Take a snapshot in the Diagnostic Tools](../profiling/media/vs-2022/prof-tour-take-snapshots.png "Diagnostic Tools Take Snapshots")
+![Take a snapshot in the Diagnostic Tools](../profiling/media/vs-2022/prof-tour-take-snapshot.png "Diagnostic Tools Take Snapshots")
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 ![Take a snapshot in the Diagnostic Tools](../profiling/media/prof-tour-take-snapshots.gif "Diagnostic Tools Take Snapshots")
