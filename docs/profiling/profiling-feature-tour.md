@@ -230,7 +230,12 @@ The tool shows live values for each counter in a list view.
 
 In your UWP apps, you can enable **UI Analysis** in the **Diagnostic Tools** window. The tool searches for common performance or accessibility issues and displays them in the **Events** view while you are debugging. The event descriptions provide information that can help resolve issues.
 
+::: moniker range=">=vs-2022"
+![View UI analysis events in the diagnostic tools](../profiling/media/vs-2022/prof-tour-ui-analysis.png "Diagnostic Tools View UI Analysis Events")
+::: moniker-end
+::: moniker range="<=vs-2019"
 ![View UI analysis events in the diagnostic tools](../profiling/media/prof-tour-ui-analysis.png "Diagnostic Tools View UI Analysis Events")
+::: moniker-end
 
 ## Analyze GPU Usage (Direct3D)
 
@@ -238,7 +243,12 @@ In Direct3D apps (Direct3D components must be in C++), you can examine activity 
 
 When you select a time period in the graphs and choose **view details**, a detailed view appears in the lower pane. In the detailed view, you can examine how much activity is happening on each CPU and GPU. Select events in the lowest pane to get popups in the timeline. For example, select the **Present** event to view **Present** call popups. (The light gray vertical VSync lines can be used as a reference to understand whether certain **Present** calls missed VSync. There must be one **Present** call between every two VSyncs in order for the app to steadily hit 60 FPS.)
 
+::: moniker range=">=vs-2022"
+![GPU Usage profiling tool](../profiling/media/vs-2022/prof-tour-gpu-usage.png "Diag GPU Usage")
+::: moniker-end
+::: moniker range="<=vs-2019"
 ![GPU Usage profiling tool](../profiling/media/prof-tour-gpu-usage.png "Diag GPU Usage")
+::: moniker-end
 
 You can also use the graphs to determine whether there are CPU bound or GPU bound performance bottlenecks.
 
