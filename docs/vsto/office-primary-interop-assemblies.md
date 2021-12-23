@@ -2,7 +2,7 @@
 title: "Office primary interop assemblies"
 description: Learn how to use the primary interop assembly (PIA) to gain access the features of a Microsoft Office application from an Office project.
 ms.custom: SEO-VS-2020, devdivchpfy22
-ms.date: "08/14/2019"
+ms.date: "12/23/2021"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -57,7 +57,7 @@ The PIAs are automatically added to a location in the file system, outside of th
 
 When different versions of the PIAs are registered in the global assembly cache, you can face several development issues. The added copies of PIAs will help you to avoid such issues.
 
-For Visual Studio 2017 and later versions, these copies of the PIAs are installed to following shared locations on the development computer:
+For Visual Studio 2017 and later, these copies of the PIAs are installed to following shared locations on the development computer:
 
 - `%ProgramFiles%\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\`
 
