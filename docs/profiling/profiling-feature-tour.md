@@ -190,6 +190,26 @@ In the Timeline details view, you can find information such as the type of activ
 
 For more information, see [Application Timeline](../profiling/application-timeline.md).
 
+::: moniker range=">=vs-2022"
+## Analyze asynchronous code (.NET)
+
+The [.NET Async tool](../profiling/analyze-async.md) allows you to analyze the performance of asynchronous code in your application. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
+
+The tool shows each async operation in a list view. You can see information such as the start time, end time, and total time for an async operation.
+
+![.NET Async Tool Stopped](../profiling/media/vs-2022/prof-tour-async-tool.png ".NET Async Tool Stopped")
+::: moniker-end
+
+::: moniker range="vs-2019"
+## Analyze asynchronous code (.NET)
+
+The [.NET Async tool](../profiling/analyze-async.md) allows you to analyze the performance of asynchronous code in your application. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
+
+The tool shows each async operation in a list view. You can see information such as the start time, end time, and total time for an async operation.
+
+![.NET Async Tool Stopped](../profiling/media/async-tool-opened.png ".NET Async Tool Stopped")
+::: moniker-end
+
 ::: moniker range=">=vs-2019"
 
 ## Examine application events
@@ -199,19 +219,6 @@ The generic [events viewer](../profiling/events-viewer.md) allows you to view th
 The tool shows each event in a list view. Columns provide information about each event, such as the event name, timestamp, and process ID.
 
 ![Event Viewer Trace](../profiling/media/prof-tour-events-viewer.png "Event Viewer Trace")
-
-## Analyze asynchronous code (.NET)
-
-The [.NET Async tool](../profiling/analyze-async.md) allows you to analyze the performance of asynchronous code in your application. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
-
-The tool shows each async operation in a list view. You can see information such as the start time, end time, and total time for an async operation.
-
-::: moniker range=">=vs-2022"
-![.NET Async Tool Stopped](../profiling/media/prof-tour-async-tool.png ".NET Async Tool Stopped")
-::: moniker-end
-::: moniker range="<=vs-2019"
-![.NET Async Tool Stopped](../profiling/media/async-tool-opened.png ".NET Async Tool Stopped")
-::: moniker-end
 
 ## Analyze database performance (.NET Core)
 
