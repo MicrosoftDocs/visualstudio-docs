@@ -27,7 +27,7 @@ There are two kinds of T4 text templates: run time and design time.
 
 ## Run time T4 text templates
 
-Also known as 'preprocessed' templates, run time templates are executed in your application to produce text strings, typically as part of its output. For example, you could create a template to define an HTML page:
+Run time templates are also known as 'preprocessed' templates. The templates are executed in your application to produce text strings, as part of its output. For example, you can create a template to define an HTML page:
 
 ```
 <html><body>
@@ -55,7 +55,7 @@ For more information, see [Run-Time Text Generation with T4 Text Templates](../m
 
 Design time templates define part of the source code and other resources of your application. Typically you use several templates that read the data in a single input file or database, and generate some of your *.cs*, *.vb*, or other source files. Each template generates one file. They're executed within Visual Studio or MSBuild.
 
-For example, your input data could be an XML file of configuration data. Whenever you edit the XML file during development, the text templates regenerate part of the application code. One of the templates could resemble the following example:
+For example, your input data could be an XML file of configuration data. Whenever you edit the XML file during development, the text templates regenerate part of the application code. One of the templates can resemble the following example:
 
 ```
 <#@ output extension=".cs" #>
@@ -80,7 +80,7 @@ namespace Fabrikam.FirstJob
 
 As another example, the input could be a diagram of workflow in a business activity. When the users change their business workflow, or when you start work with new users who have a different workflow, it's easy to regenerate the code to fit the new model.
 
-Design-time templates make it quicker and more reliable to change the configuration when the requirements change. Typically the input is defined in terms of business requirements, as in the workflow example. This makes it easier to discuss the changes with your users and a useful tool in an agile development process.
+Design-time templates are quicker and more reliable to change the configuration when the requirements change. Typically input is defined in terms of business requirements, as in the workflow example. This makes it easier to discuss the changes with your users and a useful tool in an agile development process.
 
 To create a design-time template, add a **Text Template** file to your project. Alternatively, you can add a plain text file and set its **Custom Tool** property to **TextTemplatingFileGenerator**.
 
