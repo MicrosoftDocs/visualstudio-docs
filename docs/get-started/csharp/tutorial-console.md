@@ -146,7 +146,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
    Visual Studio opens your new project, which includes default "Hello World" code.
    
    > [!NOTE]
-   > Starting with .NET 6, new projects using the console template generate different code than previous versions. To learn more, see the [New C# templates generate top-level statements](/core/tutorials/top-level-templates.md) page. 
+   > Starting with .NET 6, new projects using the console template generate different code than previous versions. To learn more, see the [New C# templates generate top-level statements](/dotnet/core/tutorials/top-level-templates) page. 
 
 ::: moniker-end
 
