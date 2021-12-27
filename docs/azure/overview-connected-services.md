@@ -66,7 +66,7 @@ Visual Studio makes it easier to develop Azure applications locally by easing th
 
 ## Containers
 
-Connected Services can help you run application dependencies that are emulating Azure services locally in a container. You can run the Azure Storage emulator called Azurite in a container locally. You can also run Redis in a container locally to emulate Azure Cache for Redis.
+Connected Services can help you run application dependencies that are emulating Azure services locally in a container. You can run the Azure Storage Emulator called Azurite in a container locally. You can also run Redis in a container locally to emulate Azure Cache for Redis.
 
 ## How it works
 
