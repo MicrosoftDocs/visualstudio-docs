@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Create a matching game application"
+title: "Tutorial: Create a matching game"
 description: In these tutorials, you'll create a game where a player matches icons. To start, create a project in Visual Studio using C# or VB Windows Forms and add layout.
 author: anandmeg
 ms.author: meghaanand
@@ -12,7 +12,7 @@ ms.custom:
 - SEO-VS-2020
 ---
 
-# Tutorial: Create a matching game application
+# Tutorial: Create a matching game Windows Forms application in Visual Studio
 
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 
@@ -119,7 +119,7 @@ In this section, you create the four-by-four grid of the game.
      > [!NOTE]
      > The colors are not in alphabetical order, and **CornflowerBlue** is near the bottom of the list.
 
-   - For the **Dock** property, select the drop-down button and select the large middle button.
+   - For the **Dock** property, select the dropdown list and select the large middle button.
      This option spreads the table out so that it covers the entire form.
    - Set the **CellBorderStyle** property to **Inset**.
      This value provides visual borders between each cell on the board.
@@ -128,12 +128,12 @@ In this section, you create the four-by-four grid of the game.
    - Select **Add Column** twice to add two more columns.
    - On the task menu, choose **Edit Rows and Columns** to open the **Column and Row Styles** window.
      For each column, select the **Percent** option button, and then set each column's width to *25* percent.
-   - Select **Rows** from the drop-down box at the top of the window, and set each row's height to 25 percent.
+   - Select **Rows** from the list at the top of the window, and then set each row's height to 25 percent.
 
    When you're done, select **OK** to save your changes.
 
 Your TableLayoutPanel is now a four-by-four grid, with 16 equally sized square cells.
-These rows and columns are where the icon images appear later.
+These rows and columns are where the icons appear later.
 
 ![Screenshot shows the Forms tab with a four by four grid.](../ide/media/tutorial-windows-forms-create-match-game/match-game-grid.png)
 
@@ -143,7 +143,7 @@ In this section, you create and format labels to display during the game.
 
 1. Be certain that the TableLayoutPanel is selected in the form editor.
    You should see **tableLayoutPanel1** at the top of the **Properties** window.
-   If it isn't selected, choose the TableLayoutPanel on the form, or choose it in the drop-down control at the top of the **Properties** window.
+   If it isn't selected, choose the TableLayoutPanel on the form, or choose it from the list at the top of the **Properties** window.
 
 1. Open the toolbox, as before, and open the **Common Controls** category.
    Add a <xref:System.Windows.Forms.Label> control to the upper-left cell of the TableLayoutPanel.
@@ -162,7 +162,7 @@ In this section, you create and format labels to display during the game.
    The upper-left cell of the TableLayoutPanel now contains a black box centered on a blue background.
 
    > [!NOTE]
-   > The Webdings font is a font of icons that ships with the Windows operating system.
+   > Webdings is a font of icons that ships with the Windows operating system.
    > In your matching game, the player matches pairs of icons.
    > This font displays the icons to match.
    >
@@ -176,12 +176,12 @@ In this section, you create and format labels to display during the game.
    A copy of the first Label appears in the second cell of the TableLayoutPanel.
    Paste it again, and another Label appears in the third cell. Keep pasting Label controls until all of the cells are filled.
 
-Now your form is laid out.
+This step completes the layout for your form.
 
 ![Screenshot shows the matching game form with sixteen black squares.](../ide/media/tutorial-windows-forms-create-match-game/match-game-grid-fill.png)
 
 ## Next steps
 
-Advance to the next article to learn how to assign a random icon to each label and add event handlers to labels.
+Advance to the next tutorial to learn how to assign a random icon to each label and add event handlers to labels.
 > [!div class="nextstepaction"]
 > [Add icons to your Matching Game](tutorial-windows-forms-match-game-icons.md)

@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Show congratulations message for your Matching Game"
+title: "Tutorial: Show a congratulations message"
 description: In this tutorial, you finish your Matching Game in Visual Studio using C# or VB Windows Forms. The game keeps pairs visible and displays a congratulations message.
 dev_langs:
   - "CSharp"
@@ -15,7 +15,7 @@ ms.custom:
 - SEO-VS-2020
 ---
 
-# Tutorial: Show congratulations message for your Matching Game
+# Tutorial: Show a message in your matching game Windows Forms application in Visual Studio
 
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 
@@ -76,6 +76,7 @@ This section adds a method to verify whether the player won.
    The method uses another `foreach` loop in C# or `For Each` loop in Visual Basic to go through each label in the <xref:System.Windows.Forms.TableLayoutPanel>.
    It checks each label's icon color to verify whether it matches the background.
    If the colors match, the icon remains invisible, and the player hasn't matched all of the icons remaining.
+
    In that case, the program uses a `return` statement to skip the rest of the method.
    If the loop gets through all of the labels without executing the `return` statement, that means that all of the icons on the form were matched.
    The program shows a MessageBox to congratulate the player on winning, and then calls the `Close()` method to end the game.
@@ -87,9 +88,9 @@ This section adds a method to verify whether the player won.
 
    Be sure that your program checks for a winner immediately after it shows the second icon that the player chooses. Look for the line where you set the second chosen icon's color, and then call the `CheckForWinner()` method right after that line.
 
-1. Save and run the program. Play the game and match all of the icons. When you win, the program displays a congratulatory **MessageBox**.
+1. Save and run the program. Play the game and match all of the icons. When you win, the program displays a congratulatory message.
 
-   ![Matching game with MessageBox](../ide/media/tutorial-windows-forms-match-game-play/match-game-congratulations.png)
+   ![Screenshot shows the Matching game with a MessageBox.](../ide/media/tutorial-windows-forms-match-game-play/match-game-congratulations.png)
 
    After you select **OK**, the Matching Game closes.
 
@@ -101,11 +102,13 @@ Here are some options.
 
 - Replace the icons and colors with ones you choose.
 
-  Try looking at the label's [Forecolor](<xref:System.Windows.Forms.Control.ForeColor%2A>) property.
+  Try looking at the label's [ForeColor](<xref:System.Windows.Forms.Control.ForeColor%2A>) property.
 
 - Add a game timer that tracks how long it takes for the player to win.
 
-  You can add a label to display the elapsed time on the form above the <xref:System.Windows.Forms.TableLayoutPanel>, and add another timer to the form to track the time.
+  You can add a label to display the elapsed time on the form.
+  Place it above the TableLayoutPanel.
+  Add another timer to the form to track the time.
   Use code to start the timer when the player starts the game, and stop the timer after they match the last two icons.
 
 - Add a sound when the player finds a match, another sound when the player uncovers two icons that don't match, and a third sound when the program hides the icons again.
@@ -114,12 +117,23 @@ Here are some options.
 
 - Make the game more difficult by making the board bigger.
 
-  You'll need to do more than just add rows and columns to the TableLayoutPanel. - you'll also need to consider the number of icons you create.
+  You'll need to do more than just add rows and columns to the TableLayoutPanel.
+  You also need to consider the number of icons you create.
 
 - Make the game more challenging by hiding the first icon if the player is too slow to respond.
 
 ## Next steps
 
-Advance to the next article to learn how to create apps that are accessible.
+Congratulations!
+You've completed this series of tutorials.
+You've done these programming and design tasks in the Visual Studio IDE:
+
+- Stored objects, such as icons, in a list
+- Used a loop in C# or Visual Basic to iterate through a list
+- Kept track of state by using reference variables
+- Built an event handler to respond to events for multiple objects
+- Added a timer that counts down and fires an event
+
+Advance to this article to learn how to create apps that are accessible.
 > [!div class="nextstepaction"]
 > [Resources for designing accessible applications](./reference/resources-for-designing-accessible-applications.md)

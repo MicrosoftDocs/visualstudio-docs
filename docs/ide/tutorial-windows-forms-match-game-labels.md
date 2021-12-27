@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Use a timer in your Matching Game"
+title: "Tutorial: Add a timer to your matching game"
 description: In this tutorial, you use reference variables to control labels in Visual Studio using C# or VB Windows Forms. You add a timer to run your Matching Game.
 dev_langs:
   - "CSharp"
@@ -15,7 +15,7 @@ ms.custom:
 - SEO-VS-2020
 ---
 
-# Tutorial: Use a timer in your Matching Game
+# Tutorial: Add a timer in your matching game Windows Forms application in Visual Studio
 
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 
@@ -75,7 +75,7 @@ When your `if` statement finds that `firstClicked` isn't equal to `null` or `Not
 
 The Matching Game uses a <xref:System.Windows.Forms.Timer> control the app.
 A timer waits, and then fires an event, referred to as a *tick*.
-A time can start and action or repeat an action regularly.
+A timer can start and action or repeat an action regularly.
 
 In your program, the timer enables a player to choose two icons.
 If the icons don't match, hide the two icons again after a short period of time.
@@ -124,11 +124,11 @@ If the icons don't match, hide the two icons again after a short period of time.
 1. Save and run your program. Choose an icon, and it becomes visible.
    Choose another icon. It appears briefly, and then both icons disappear.
 
-The form now keeps track of the first and second icons that you choose.
+Your program now keeps track of the first and second icons that you choose.
 It uses the timer to pause before making the icons disappear.
 
 ## Next steps
 
-Advance to the next article to learn how to finish your Matching Game.
+Advance to the next tutorial to learn how to finish your Matching Game.
 > [!div class="nextstepaction"]
 > [Show congratulations message for your Matching Game](tutorial-windows-forms-match-game-play.md)

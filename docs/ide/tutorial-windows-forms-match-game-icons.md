@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Add icons to Matching Game"
+title: "Tutorial: Add icons to the matching game"
 description: In this tutorial, you use a Random object to add icons in Visual Studio using C# or VB Windows Forms. You implement an event handler to display the icons.
 dev_langs:
   - "CSharp"
@@ -15,7 +15,7 @@ ms.custom:
 - SEO-VS-2020
 ---
 
-# Tutorial: Add icons to your Matching Game
+# Tutorial: Add icons to your matching game Windows Forms application in Visual Studio
 
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 
@@ -47,7 +47,7 @@ The first is a <xref:System.Random> object that randomly chooses cells in the Ta
 The second object is a <xref:System.Collections.Generic.List%601> object.
 It stores the randomly chosen symbols.
 
-1. Open Visual Studio. Open Visual Studio. Your Matching Game project appears under **Open recent**.
+1. Open Visual Studio. Your Matching Game project appears under **Open recent**.
 
 1. Select *Form1.cs* if you're using C#, or *Form1.vb* if you're using Visual Basic. Then select **View** > **Code**. 
    As an alternative, select the **F7** key or double-click **Form1**.
@@ -73,7 +73,7 @@ The C# language has *collection initializers*, which prepare the list to accept 
 In Visual Basic, you can use a collection initializer.
 However, for compatibility with the previous version of Visual Basic, we recommend using the preceding code.
 
-When you use a collection initializer with a `new` statement, after the List object is created, the program fills it with the data in the curly braces.
+When you use a collection initializer with a `new` statement, after the `List` object is created, the program fills it with the data in the curly braces.
 In this case, it's a list of strings named icons.
 That list is initialized to contain 16 strings.
 Each string is a single letter that corresponds to the icons in the labels.
@@ -82,8 +82,9 @@ These characters appear in the Webdings font as a bus, a bike, and others.
 Your list object has 16 strings, one for each cell in the TableLayoutPanel panel.
 
 In Visual Basic, you get the same result.
-First, the strings are put into a temporary array, which is then converted into a list object.
-An array is similar to a list, except, for example, arrays are created with a fixed size.
+First, the strings are put into a temporary array, which is then converted into a `List` object.
+An array is similar to a list.
+Arrays have a  fixed size.
 Lists can shrink and grow as needed, which is important in this program.
 
 ## Assign a random icon to each label
@@ -137,7 +138,7 @@ This code uses the keyword `foreach` in C# or `For Each` in Visual Basic.
 
 1. Close your program, and then run it again. Different icons are assigned to each label, as shown in the following picture.
 
-   ![Matching game with random icons](../ide/media/tutorial-windows-forms-match-game-icons/display-random-icons.png)
+   ![Screenshot shows the Matching Game displaying the random icons.](../ide/media/tutorial-windows-forms-match-game-icons/display-random-icons.png)
 
    The icons are visible now because you haven't hidden them. To hide them from the player, you can set each label's **ForeColor** property to the same color as its **BackColor** property.
 
@@ -154,7 +155,7 @@ The icons are randomly assigned and are still there.
 
 In this matching game, a player reveals a hidden icon, then a second one.
 If the icons match, they stay visible.
-If not, both icons are hidden again.
+Otherwise, both icons are hidden again.
 
 To get your game to work this way, add a <xref:System.Windows.Forms.Control.Click> event handler that changes the color of the text to match the background.
 
@@ -166,7 +167,7 @@ To get your game to work this way, add a <xref:System.Windows.Forms.Control.Clic
 1. In the **Properties** window, select the **Events** button, which is a lightening bolt.
    For the **Click** event, select **label_Click** in the box.
 
-     ![Properties window showing Click event](../ide/media/tutorial-windows-forms-match-game-icons/click-event.png)
+     ![Screenshot shows the Properties window showing Click event.](../ide/media/tutorial-windows-forms-match-game-icons/click-event.png)
 
 1. Select the **Enter** key. The IDE adds a `Click` event handler called **label_Click()** to the code.
    Because you selected all the labels, the handler is hooked to each of the labels.
@@ -186,6 +187,6 @@ To get your game to work this way, add a <xref:System.Windows.Forms.Control.Clic
 
 ## Next steps
 
-Advance to the next article to learn how to change labels using a timer.
+Advance to the next tutorial to learn how to change labels using a timer.
 > [!div class="nextstepaction"]
 > [ Use a timer in your Matching Game](tutorial-windows-forms-match-game-labels.md)
