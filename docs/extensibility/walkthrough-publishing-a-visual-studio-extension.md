@@ -193,6 +193,15 @@ Visual Studio Marketplace supports granting additional users permissions to acce
 
    * **Owner**: The user can publish and manage extensions, edit publisher settings, and manage access.
 
+### Troubleshooting
+You will often see the error `TF14045: The identity could not be found.` when adding an user to the publisher profile using their email address. 
+
+You can workaround this error using `User Id` instead of the email address. Users can find the `User Id` on hovering on their name in the Visual Studio Marketplace
+
+![User Id  Marketplace](media/vs-marketplace-userid.png)
+
+You can then proceed to add new user using `User Id`
+
 ## Install the extension from Visual Studio Marketplace
 
 Now that the extension is published, install it in Visual Studio and test it there.
