@@ -6,10 +6,9 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.topic: tutorial
-ms.date: 12/22/2021
+ms.date: 12/30/2021
 ms.custom: 
 - vs-acquisition
-- SEO-VS-2020
 ---
 
 # Tutorial: Create a matching game Windows Forms application in Visual Studio
