@@ -39,8 +39,11 @@ In this article, we use the development of a fictional application called `MyBan
 ::: moniker range="vs-2017"
 ![MyBank Solution](../test/media/ute_mybanksolution.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![MyBank Solution 2019](../test/media/vs-2019/basics-mybank-solution.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![MyBank Solution 2022](../test/media/vs-2022/basics-mybank-solution.png)
 ::: moniker-end
 
 Our first attempt at a design for the `MyBank` application includes an accounts component that represents an individual account and its transactions with the bank, and a database component that represents the functionality to aggregate and manage the individual accounts.
@@ -313,8 +316,11 @@ When you have a large number of tests, you can type in the **Test Explorer** sea
 ::: moniker range="vs-2017"
 ![Search filter categories](../test/media/ute_searchfilter.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![Search filter categories](../test/media/vs-2019/test-explorer-search-filter-16-2.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Search filter categories](../test/media/vs-2022/test-explorer-search-filter-17-0.png)
 ::: moniker-end
 
 |Button|Description|
@@ -345,8 +351,11 @@ Learn more details about [debugging unit tests](../debugger/debugger-feature-tou
 ::: moniker range="vs-2017"
 ![Generate Method Stub Quick Action Menu](../test/media/ute_generatemethodstubintellisense.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![Generate Method Stub Quick Action Menu](../test/media/vs-2019/basics-generate-method-tdd.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Generate Method Stub Quick Action Menu](../test/media/vs-2022/basics-generate-method-tdd.png)
 ::: moniker-end
 
 **Q: Can I create unit tests that take multiple sets of data as input to run the test?**
@@ -391,7 +400,13 @@ To run code coverage for test methods in a solution, choose **Test** > **Analyze
 
 Coverage results appear in the **Code Coverage Results** window.
 
+::: moniker range="<=vs-2019"
 ![Code coverage results](../test/media/ute_codecoverageresults.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Code coverage results](../test/media/vs-2022/ute_codecoverageresults.png)
+::: moniker-end
+==
 
 Learn more about [code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) .
 
