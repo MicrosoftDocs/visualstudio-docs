@@ -47,7 +47,7 @@ When Visual Studio completes the installation process you're ready to setup Unit
 The Unity Hub will continue installing Unity in the background. When it's complete, you can create a new project by selecting the **Projects** tab and selecting the **New** button.
 
 >[!TIP]
->Projects are created using the Unity Edtior and not Visual Studio.
+>Projects are created using the Unity Editor and not Visual Studio.
 
 :::zone-end
 :::zone pivot="macos"
