@@ -2,7 +2,7 @@
 title: EditorConfig settings
 description: Learn how to add an EditorConfig file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase.
 ms.custom: SEO-VS-2020, devdivchpfy22
-ms.date: 12/20/2020
+ms.date: 01/07/2021
 ms.topic: how-to
 helpviewer_keywords:
 - editorconfig [Visual Studio]
@@ -21,14 +21,14 @@ EditorConfig settings are supported by many code editors and IDEs, including Vis
 
 When you add an EditorConfig file to your project in Visual Studio, new lines of code format based on the EditorConfig settings. The formatting of existing code isn't changed unless you run one of the following commands:
 
- - [Code Cleanup](../ide/code-styles-and-code-cleanup.md) (**Ctrl**+**K**, **Ctrl**+**E**), which applies any white space settings, such as indent style, and selected code style settings, such as how to sort `using` directives.
- - **Edit** > **Advanced** > **Format Document** (or **Ctrl**+**K**, **Ctrl**+**D** in the default profile), which only applies white space settings, such as indent style.
+ - [Code Cleanup](../ide/code-styles-and-code-cleanup.md) (**Ctrl**+**K**, **Ctrl**+**E**), which applies any white-space settings, such as indent style, and selected code style settings, such as how to sort `using` directives.
+ - **Edit** > **Advanced** > **Format Document** (or **Ctrl**+**K**, **Ctrl**+**D** in the default profile), which only applies white-space settings, such as indent style.
 
  ::: moniker-end
 
 ::: moniker range="=vs-2017"
 
-When you add an EditorConfig file to your project in Visual Studio, new lines of code format based on the EditorConfig settings. The formatting of existing code isn't changed unless you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D** in the default profile). Formatting the document only affects white space settings, such as indent style, unless you have configured Format Document to [perform additional code cleanup](../ide/code-styles-and-code-cleanup.md#apply-code-styles).
+When you add an EditorConfig file to your project in Visual Studio, new lines of code format based on the EditorConfig settings. The formatting of existing code isn't changed unless you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D** in the default profile). Formatting the document only affects white-space settings, such as indent style, unless you have configured Format Document to [perform additional code cleanup](../ide/code-styles-and-code-cleanup.md#apply-code-styles).
 
  ::: moniker-end
 
@@ -69,7 +69,7 @@ All Visual Studio-supported languages except for XML support EditorConfig editor
 
 ## Add and remove EditorConfig files
 
-When you add an EditorConfig file to your project or codebase, any new lines of code you write are formatted according to the EditorConfig file. However, adding an EditorConfig file doesn't convert existing styles to the new ones until you format the document or run [Code Cleanup](../ide/code-styles-and-code-cleanup.md). For example, if you have indents in your file that are formatted with tabs and you add an EditorConfig file that indents with spaces, the indent characters aren't automatically converted to spaces. When you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D**), the white space settings in the EditorConfig file are applied to existing lines of code.
+When you add an EditorConfig file to your project or codebase, any new lines of code you write are formatted according to the EditorConfig file. However, adding an EditorConfig file doesn't convert existing styles to the new ones until you format the document or run [Code Cleanup](../ide/code-styles-and-code-cleanup.md). For example, if you have indents in your file that are formatted with tabs and you add an EditorConfig file that indents with spaces, the indent characters aren't automatically converted to spaces. When you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D**), the white-space settings in the EditorConfig file are applied to existing lines of code.
 
 If you remove an EditorConfig file from your project or codebase and you want new lines of code to be formatted according to the global editor settings, you must close and reopen any open code files.
 
