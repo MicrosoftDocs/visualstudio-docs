@@ -29,7 +29,7 @@ In this second tutorial, you learn how to:
 > [!div class="checklist"]
 > - Add a Random object and a list of icons
 > - Assign a random icon to each label
-> - Add event handlers to labels
+> - Add event handlers that show icons to the labels
 
 ## Prerequisites
 
@@ -135,7 +135,7 @@ This code uses the keyword `foreach` in C# or `For Each` in Visual Basic.
 
 1. Save your program and run it. It should show a form with random icons assigned to each label.
 
-1. Close your program, and then run it again. Different icons are assigned to each label, as shown in the following picture.
+1. Close your program, and then run it again. Different icons are assigned to each label.
 
    ![Screenshot shows the Matching Game displaying the random icons.](../ide/media/tutorial-windows-forms-match-game-icons/display-random-icons.png)
 
@@ -180,7 +180,7 @@ To get your game to work this way, add a <xref:System.Windows.Forms.Control.Clic
    > If you copy and paste the `label_Click()` code block rather than entering the code manually, be sure to replace the existing `label_Click()` code.
    > Otherwise, you'll end up with a duplicate code block.
 
-1. Select **Debug** > **Start Debugging** to run your program. You should see an empty form with a blue background. Choose any of the cells in the form, and one of the icons should become visible. Continue choosing different places in the form. As you choose the icons, they should appear.
+1. Select **Debug** > **Start Debugging** to run your program. You should see an empty form with a blue background. Choose any of the cells in the form. One of the icons should become visible. Continue choosing different places in the form. As you choose the icons, they should appear.
 
    ![Screenshot shows the Matching Game with a single icon visible.](../ide/media/tutorial-windows-forms-match-game-icons/match-game-start.png)
 

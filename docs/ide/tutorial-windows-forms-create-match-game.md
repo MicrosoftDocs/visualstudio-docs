@@ -41,7 +41,7 @@ Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/)
 
 ## Create your Windows Forms match game project
 
-When you create your match, the first step is to create a Windows Forms App project.
+When you create your matching game, the first step is to create a Windows Forms App project.
 
 ::: moniker range="vs-2017"
 1. Open Visual Studio.
@@ -101,7 +101,7 @@ In this section, you create the four-by-four grid of the game.
 
 1. Click on the form to select the Windows Forms Designer. The tab reads **Form1.cs [Design]** for C# or **Form1.vb [Design]** for Visual Basic. In the **Properties** window, set the following form properties.
 
-   - Change the form's **Text** property from **Form1** to **Matching Game**. This text appears at the top of the game window.
+   - Change the **Text** property from **Form1** to **Matching Game**. This text appears at the top of the game window.
    - Set the size of the form. You can change it either by setting the **Size** property to **550, 550**, or by dragging the corner of the form until you see the correct size at the bottom of the Visual Studio IDE.
 
 1. Select the **Toolbox** tab on the left side of the IDE.
@@ -126,12 +126,12 @@ In this section, you create the four-by-four grid of the game.
      On the task menu, select **Add Row** twice to add two more rows.
    - Select **Add Column** twice to add two more columns.
    - On the task menu, choose **Edit Rows and Columns** to open the **Column and Row Styles** window.
-     For each column, select the **Percent** option button, and then set each column's width to *25* percent.
+     For each column, select the **Percent** option, and then set each column's width to *25* percent.
    - Select **Rows** from the list at the top of the window, and then set each row's height to 25 percent.
 
    When you're done, select **OK** to save your changes.
 
-Your TableLayoutPanel is now a four-by-four grid, with 16 equally sized square cells.
+Your TableLayoutPanel is now a four-by-four grid with 16 equally-sized square cells.
 These rows and columns are where the icons appear later.
 
 ![Screenshot shows the Forms tab with a four by four grid.](../ide/media/tutorial-windows-forms-create-match-game/match-game-grid.png)

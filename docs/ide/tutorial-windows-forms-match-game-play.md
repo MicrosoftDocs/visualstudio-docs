@@ -50,7 +50,7 @@ The game should reset itself so that it no longer keeps track of any labels that
    They no longer keep track of any of the labels.
    The third statement is a `return` statement, which skips the rest of the statements in the method without running them.
 
-1. Run the program, and then start choosing icons on the form.
+1. Run the program, and then start choosing squares on the form.
 
    ![Screenshot of the Matching Game that you create in this tutorial.](../ide/media/tutorial-windows-forms-create-match-game/match-game-final.png)
 

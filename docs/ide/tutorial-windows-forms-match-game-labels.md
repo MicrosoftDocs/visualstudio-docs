@@ -77,10 +77,10 @@ A timer waits, and then fires an event, referred to as a *tick*.
 A timer can start and action or repeat an action regularly.
 
 In your program, the timer enables a player to choose two icons.
-If the icons don't match, hide the two icons again after a short period of time.
+If the icons don't match, it hides the two icons again after a short period of time.
 
 1. Select the **Toolbox** tab, in the **Components** category, double-click or drag the **Timer** component to your form.
-   The timer icon, called **Timer1**, appears in a space below the form, as shown in the following image.
+   The timer icon, called **Timer1**, appears in a space below the form.
 
    ![Screenshot shows the Timer icon below the form.](../ide/media/tutorial-windows-forms-match-game-labels/timer-control-icon.png)
 
@@ -94,7 +94,7 @@ If the icons don't match, hide the two icons again after a short period of time.
 
 1. Choose the timer control icon and then press **Enter**, or double-click the timer.
    The IDE adds an empty Tick event handler.
-   Replace the code with the following code, or manually enter the following code into the event handler.
+   Replace the code with the following code.
 
    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step6/cs/form1.cs" id="Snippet7":::
    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step6/vb/form1.vb" id="Snippet7":::
@@ -120,8 +120,10 @@ If the icons don't match, hide the two icons again after a short period of time.
    The timer's Tick event handler hides the two icons and resets the `firstClicked` and `secondClicked` reference variables.
    The form is ready for the player to choose another pair of icons.
 
-1. Save and run your program. Choose an icon, and it becomes visible.
-   Choose another icon. It appears briefly, and then both icons disappear.
+1. Save and run your program.
+   Select a square and the icon becomes visible.
+   Choose another square.
+   The icon appears briefly and then both icons disappear.
 
 Your program now keeps track of the first and second icons that you choose.
 It uses the timer to pause before making the icons disappear.
