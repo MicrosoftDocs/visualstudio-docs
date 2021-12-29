@@ -62,6 +62,8 @@
     href: /azure/devtest/offer/
   - name: Azure Dev/Test offer eligibility
     href: vs-azure-eligibility.md
+  - name: Maintain Azure credit access
+    href: vs-azure-access.md  
   - name: Azure DevOps
     href: vs-azure-devops.md
 - name: Other benefits
