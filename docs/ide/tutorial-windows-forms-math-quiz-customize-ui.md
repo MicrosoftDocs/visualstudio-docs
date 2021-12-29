@@ -1,12 +1,13 @@
 ---
 title: "Tutorial: Customize a Windows Forms app"
-description: "In this tutorial, you'll learn how to customize your math quiz Windows Forms app. You’ll also use the Visual Studio IDE to add event handlers to clear values."
+description: "Learn how to customize the math quiz Windows Forms app. You'll also use the Visual Studio IDE to add event handlers to clear values."
 ms.custom: 
 - vs-acquisition
-- SEO-VS-2020
-ms.date: 12/21/2021
+dev_langs:
+  - "CSharp"
+  - "VB"
+ms.date: 12/29/2021
 ms.topic: tutorial
-ms.assetid: f44e50be-a5f5-4d77-9cff-dd52374c3f74
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
@@ -15,11 +16,13 @@ ms.workload:
 - multiple
 ---
 
-# Tutorial: Customize the math quiz Windows Forms app in Visual Studio
+# Tutorial: Customize a math quiz Windows Forms app in Visual Studio
 
-In this series of four tutorials, you build a math quiz. The quiz taker tries to answer four random math problems within a specified time. The Visual Studio integrated development environment (IDE) provides the tools that you need to create the app. To learn more, see [Welcome to the Visual Studio IDE](../get-started/visual-studio-ide.md).
+In this series of four tutorials, you'll build a math quiz. The quiz contains four random math problems that a quiz taker tries to answer within a specified time.
 
-Add sentence here.
+The Visual Studio integrated development environment (IDE) provides the tools that you need to create the app. To learn more about this IDE, see [Welcome to the Visual Studio IDE](../get-started/visual-studio-ide.md).
+
+This tutorial shows you how to enhance your quiz by clearing default values and by customizing the appearance of controls.
 
 In this final tutorial, you learn how to:
 
@@ -29,10 +32,18 @@ In this final tutorial, you learn how to:
 
 ## Prerequisites
 
-This tutorial builds on previous tutorials, starting with [Create a project and add labels to your form](tutorial-windows-forms-math-quiz-create-project-add-labels.md). If you haven't completed those tutorials, go through them first.
+This tutorial builds on previous tutorials, starting with [Create a math quiz Windows Forms app in Visual Studio](tutorial-windows-forms-math-quiz-create-project-add-labels.md). If you haven't completed those tutorials, go through them first.
 
 ## Next steps
 
-Advance to the next article to learn how to customize your math quiz.
+Congratulations! You've finished this series of tutorials. You've completed these programming and design tasks in the Visual Studio IDE:
+
+- Created a Visual Studio project that uses Windows Forms
+- Added labels, a button, and NumericUpDown controls
+- Added a timer
+- Set up event handlers for your controls
+- Written C# or Visual Basic code to handle the events
+
+Continue learning with another tutorial series on how to build a matching game.
 > [!div class="nextstepaction"]
 > [Tutorial 3: Create a matching game](tutorial-3-create-a-matching-game.md)
