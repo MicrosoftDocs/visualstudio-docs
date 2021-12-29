@@ -32,7 +32,7 @@ In this final tutorial, you learn how to:
 
 ## Prerequisites
 
-This tutorial builds on previous tutorials, starting with [Create a math quiz Windows Forms app in Visual Studio](tutorial-windows-forms-math-quiz-create-project-add-labels.md). If you haven't completed those tutorials, go through them first.
+This tutorial builds on previous tutorials, starting with [Create a math quiz Windows Forms app in Visual Studio](tutorial-windows-forms-math-quiz-create-project-add-controls.md). If you haven't completed those tutorials, go through them first.
 
 ## Next steps
 

@@ -166,7 +166,7 @@ The first part of the quiz is an addition problem. This section shows you how to
 
 1. Set the third label's **(Name)** property to **additionRightLabel**.
 
-1. Set the fourth label's **Text** property to **=** (equal sign).
+1. Set the fourth label's **Text** property to **=** (equals sign).
 
 1. Add a <xref:System.Windows.Forms.NumericUpDown> control from the **Toolbox** to the form. You'll learn more about this kind of control later.
 
