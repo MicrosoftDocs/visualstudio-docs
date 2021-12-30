@@ -182,7 +182,7 @@ The first part of the quiz is an addition problem. This section shows you how to
 
 ## Add controls for the subtraction, multiplication, and division problems
 
-The next step is to add labels to the form for the remaining math problems.
+Next, add labels to the form for the remaining math problems.
 
 1. Copy the four Label controls and the NumericUpDown control that you created for the addition problem. Paste them into the form.
 
