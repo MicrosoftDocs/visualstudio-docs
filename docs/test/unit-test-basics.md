@@ -404,11 +404,10 @@ Coverage results appear in the **Code Coverage Results** window.
 ![Code coverage results](../test/media/ute_codecoverageresults.png)
 ::: moniker-end
 ::: moniker range=">=vs-2022"
-![Code coverage results](../test/media/vs-2022/ute_codecoverageresults.png)
+![Code coverage results](../test/media/vs-2022/ute-code-coverage-results.png)
 ::: moniker-end
-==
 
-Learn more about [code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) .
+Learn more about [code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
 **Q: Can I test methods in my code that have external dependencies?**
 
