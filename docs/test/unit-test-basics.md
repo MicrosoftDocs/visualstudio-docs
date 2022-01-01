@@ -1,7 +1,7 @@
 ---
 title: Unit testing fundamentals
 description: Learn how Visual Studio Test Explorer provides a flexible and efficient way to run your unit tests and view their results. 
-ms.date: 07/26/2021
+ms.date: 12/28/2021
 ms.topic: conceptual
 f1_keywords:
 - vs.UnitTest.CreateUnitTest
@@ -39,8 +39,11 @@ In this article, we use the development of a fictional application called `MyBan
 ::: moniker range="vs-2017"
 ![MyBank Solution](../test/media/ute_mybanksolution.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![MyBank Solution 2019](../test/media/vs-2019/basics-mybank-solution.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![MyBank Solution 2022](../test/media/vs-2022/basics-mybank-solution.png)
 ::: moniker-end
 
 Our first attempt at a design for the `MyBank` application includes an accounts component that represents an individual account and its transactions with the bank, and a database component that represents the functionality to aggregate and manage the individual accounts.
@@ -91,8 +94,15 @@ For C#, it is often quicker to generate the unit test project and unit test stub
    > [!NOTE]
    > The **Create Unit Tests** menu command is only available for managed code that targets the .NET Framework (but not .NET Core).
    ::: moniker-end
-   ::: moniker range=">=vs-2019"
+   ::: moniker range="vs-2019"
    ![From the editor window, view the context menu](../test/media/vs-2019/basics-create-unit-tests.png)
+
+   > [!NOTE]
+   > The **Create Unit Tests** menu command is only available for C# code. To use this method with .NET Core or .NET Standard, Visual Studio 2019 is required.
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2022"
+   ![From the editor window, view the context menu](../test/media/vs-2022/basics-create-unit-tests.png)
 
    > [!NOTE]
    > The **Create Unit Tests** menu command is only available for C# code. To use this method with .NET Core or .NET Standard, Visual Studio 2019 is required.
@@ -100,15 +110,23 @@ For C#, it is often quicker to generate the unit test project and unit test stub
 
 2. Click **OK** to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.
 
+   ::: moniker range="<=vs-2019"
    ![Create Unit Tests dialog box in Visual Studio](../test/media/create-unit-tests.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![Create Unit Tests dialog box in Visual Studio](../test/media/vs-2022/create-unit-tests.png)
+   ::: moniker-end
 
 3. The unit test stubs are created in a new unit test project for all the methods in the class.
 
    ::: moniker range="vs-2017"
    ![The unit tests are created](../test/media/createunittestsstubs.png)
    ::: moniker-end
-   ::: moniker range=">=vs-2019"
+   ::: moniker range="vs-2019"
    ![The unit tests are created](../test/media/vs-2019/basics-test-stub.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![The unit tests are created](../test/media/vs-2022/basics-test-stub.png)
    ::: moniker-end
 
 4. Now jump ahead to learn how to [Write your tests](#write-your-tests) to make your unit test meaningful, and any extra unit tests that you might want to add to thoroughly test your code.
@@ -233,8 +251,11 @@ When you build the test project, the tests appear in **Test Explorer**. If **Tes
 ::: moniker range="vs-2017"
 ![Unit Test Explorer](../test/media/ute_failedpassednotrunsummary.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![Unit Test Explorer](../test/media/vs-2019/basics-test-explorer.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Unit Test Explorer](../test/media/vs-2022/basics-test-explorer.png)
 ::: moniker-end
 
 As you run, write, and rerun your tests, the **Test Explorer** can display the results in groups of **Failed Tests**, **Passed Tests**, **Skipped Tests** and **Not Run Tests**. You can choose different group by options in the toolbar.
@@ -248,8 +269,11 @@ The **Test Explorer** toolbar helps you discover, organize, and run the tests th
 ::: moniker range="vs-2017"
 ![Run tests from the Test Explorer toolbar](../test/media/ute_toolbar.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![Run tests from the Test Explorer toolbar](../test/media/vs-2019/test-explorer-toolbar-diagram-16-2.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Run tests from the Test Explorer toolbar](../test/media/vs-2022/test-explorer-toolbar-diagram-17-0.png)
 ::: moniker-end
 
 You can choose **Run All** to run all your tests (or press **Ctrl** + **R**, **V**), or choose **Run** to choose a subset of tests to run (**Ctrl** + **R**, **T**). Select a test to view the details of that test in the test details pane. Choose **Open Test** from the right-click menu (Keyboard: **F12**) to display the source code for the selected test.
@@ -292,8 +316,11 @@ When you have a large number of tests, you can type in the **Test Explorer** sea
 ::: moniker range="vs-2017"
 ![Search filter categories](../test/media/ute_searchfilter.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![Search filter categories](../test/media/vs-2019/test-explorer-search-filter-16-2.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Search filter categories](../test/media/vs-2022/test-explorer-search-filter-17-0.png)
 ::: moniker-end
 
 |Button|Description|
@@ -324,8 +351,11 @@ Learn more details about [debugging unit tests](../debugger/debugger-feature-tou
 ::: moniker range="vs-2017"
 ![Generate Method Stub Quick Action Menu](../test/media/ute_generatemethodstubintellisense.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![Generate Method Stub Quick Action Menu](../test/media/vs-2019/basics-generate-method-tdd.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Generate Method Stub Quick Action Menu](../test/media/vs-2022/basics-generate-method-tdd.png)
 ::: moniker-end
 
 **Q: Can I create unit tests that take multiple sets of data as input to run the test?**
@@ -370,9 +400,14 @@ To run code coverage for test methods in a solution, choose **Test** > **Analyze
 
 Coverage results appear in the **Code Coverage Results** window.
 
+::: moniker range="<=vs-2019"
 ![Code coverage results](../test/media/ute_codecoverageresults.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Code coverage results](../test/media/vs-2022/ute-code-coverage-results.png)
+::: moniker-end
 
-Learn more about [code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) .
+Learn more about [code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
 **Q: Can I test methods in my code that have external dependencies?**
 
