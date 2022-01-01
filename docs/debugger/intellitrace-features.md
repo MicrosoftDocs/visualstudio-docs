@@ -121,9 +121,3 @@ When you save IntelliTrace data to file, you get one .itrace file for each proce
 ## Forums
 
 [Visual Studio Debugger](https://social.msdn.microsoft.com/Forums/en-US/home)
-
-## Videos
-
-[IntelliTrace Experience](https://channel9.msdn.com/Series/Visual-Studio-2015-Enterprise-Videos/IntelliTrace-Experience)
-
-[Historical Debugging with IntelliTrace in Microsoft Visual Studio Ultimate 2015](https://channel9.msdn.com/events/Ignite/2015/BRK3716)

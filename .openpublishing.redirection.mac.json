@@ -46,11 +46,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path_from_root": "/mac/extending-visual-studio-mac.md",
-      "redirect_url": "/visualstudio/mac/customizing-the-ide",
-      "redirect_document_id": false
-    },
-    {
       "source_path_from_root": "/mac/2017/version-control.md",
       "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
       "redirect_document_id": false
@@ -122,11 +117,6 @@
     },
     {
       "source_path_from_root": "/mac/2017/customizing-build-system.md",
-      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
-      "redirect_document_id": false
-    },
-    {
-      "source_path_from_root": "/mac/2017/customizing-the-ide.md",
       "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
       "redirect_document_id": false
     },
@@ -252,11 +242,6 @@
     },
     {
       "source_path_from_root": "/mac/2017/unity-tools.md",
-      "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
-      "redirect_document_id": false
-    },
-    {
-      "source_path_from_root": "/mac/2017/updater-troubleshooting.md",
       "redirect_url": "/visualstudio/mac/?view=vsmac-2017",
       "redirect_document_id": false
     },
