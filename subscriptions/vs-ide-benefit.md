@@ -19,7 +19,7 @@ To download the IDE:
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 2. Locate the Visual Studio IDE tile in the Tools section, and click on the **Download** link at the bottom of the benefit tile.  You can also download it from the [Downloads](https://my.visualstudio.com/downloads?wt.mc_id=o~msft~docs) page.
    > [!div class="mx-imgBorder"]
-   > ![Visual Studio Enterprise tile](_img/vs-ide-experience/vs-ide-tile.png "Click "Download' on the Visual Studio tile to install Visual Studio.")
+   > ![Visual Studio Enterprise tile](_img/vs-ide-experience/vs-ide-tile.png "Click 'Download' on the Visual Studio tile to install Visual Studio.")
 
 3. You’ll be redirected to the Download Results page for Visual Studio, where you’ll have the opportunity to download the IDE and obtain a product key to activate it. You may also claim a product key by clicking on the blue **Get Key** link, or claim a key later on the [Product keys](https://my.visualstudio.com/productkeys) page.
 4. On the Details tab of the Download Results page:
