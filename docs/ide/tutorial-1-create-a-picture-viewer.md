@@ -55,8 +55,6 @@ When you finish, your app should look similar to the following image:
 |[Step 10: Write code for additional buttons and a check box](../ide/step-10-write-code-for-additional-buttons-and-a-check-box.md)|Write code to make other buttons and a check box work using IntelliSense.|
 |[Step 11: Run your app and try other features](../ide/step-11-run-your-program-and-try-other-features.md)|Run your app and set the background color. Try other features, such as changing colors, fonts, and borders.|
 
-There are also great, free video learning resources available to you. To learn more about programming in C#, see [C# fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners). To learn more about programming in Visual Basic, see [Visual Basic fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/Visual-Basic-Development-for-Absolute-Beginners).
-
 ## Next steps
 
 To begin the tutorial, start with **[Step 1: Create a Windows Forms application project](../ide/step-1-create-a-windows-forms-application-project.md)**.
