@@ -4,8 +4,8 @@ description: How to set up remote R workspaces and connect to it from Visual Stu
 ms.date: 12/04/2017
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-rtvs
 ms.workload:
