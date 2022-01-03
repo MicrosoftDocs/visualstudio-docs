@@ -1,11 +1,6 @@
 {
   "redirections": [
     {
-      "source_path_from_root": "/mac/2017/ide-tour.md",
-      "redirect_url": "/visualstudio/mac/ide-tour?view=vsmac-2019",
-      "redirect_document_id": false
-    },
-    {
       "source_path_from_root": "/mac/accessibility-voiceover.md",
       "redirect_url": "/visualstudio/mac/accessibility-macos?view=vsmac-2019",
       "redirect_document_id": false
