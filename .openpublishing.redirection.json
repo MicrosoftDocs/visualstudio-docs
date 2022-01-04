@@ -57981,5 +57981,10 @@
       "redirect_url": "/visualstudio/ide/whats-new-visual-studio-docs",
       "redirect_document_id": false
     }
+    {
+      "source_path": "docs/install/remove-visual-studio.md",
+      "redirect_url": "/visualstudio/install/uninstall-visual-studio",
+      "redirect_document_id": false
+    }
   ]
 }

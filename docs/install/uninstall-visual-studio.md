@@ -1,19 +1,16 @@
 ---
-title: Uninstall Visual Studio
+title: Uninstall or remove Visual Studio
 titleSuffix: ''
-description: Learn how to uninstall Visual Studio, step-by-step.
-ms.date: 10/12/2020
+description: Learn how to uninstall or remove Visual Studio, step-by-step.
+ms.date: 01/05/2022
 ms.custom: vs-acquisition
 ms.topic: how-to
 f1_keywords:
 - uninstall
 - uninstall Visual Studio
-ms.assetid: 0e445255-b796-426d-ad93-a4d8e36da2c5
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
@@ -136,9 +133,39 @@ To remove all installations of Visual Studio 2022, and the Visual Studio Install
 
 ::: moniker-end
 
-## Remove all files
+<a name="remove"></a>
 
-If you experience a catastrophic error and can't uninstall Visual Studio by using the previous instructions, there is a "last resort" option that you can consider using instead. For more information about how to remove all Visual Studio installation files and product information completely, see the [Remove Visual Studio](remove-visual-studio.md) page.
+## Remove Visual Studio with InstallCleanup.exe
+
+If you experience a catastrophic error and can't repair or uninstall Visual Studio, you can run the `InstallCleanup.exe` tool to remove installation files and product information for all installed instances of Visual Studio 2017, Visual Studio 2019, or Visual Studio 2022.
+
+> [!WARNING]
+> Use the InstallCleanup tool **only as a last resort** if repair or uninstall fail. This tool might uninstall features from other Visual Studio installations or other products, which then might also need to be repaired or reinstalled.
+
+You can use either of the following command-line switches with the `InstallCleanup.exe` tool:
+
+
+Here's how to run the `InstallCleanup.exe` tool:
+
+1. Close the Visual Studio Installer.
+1. Open an administrator command prompt. To open an administrator command prompt, follow these steps:
+   * Type **cmd** in the "Type here to search" box.
+   * Right-click **Command Prompt**, and then choose **Run as administrator**.
+1. Enter the full path of the `InstallCleanup.exe` tool and add the command-line switch you prefer. By default, the path of the tool is as follows. The double quotes enclose a command containing spaces:
+   | Switch | Behavior |
+   |-----------------|--------------------|
+   |  `-i [version]`   | This switch is the default if no other switch is passed. It removes only the main installation directory and product information. Use this switch if you intend to reinstall the same version of Visual Studio after you run the `InstallCleanup.exe` tool. If a `[version]` value is specified, only products with a version that start with this string value will be removed. |
+   |   `-f`           | This switch removes the main installation directory, product information, and most other features installed outside the installation directory, that might also be shared with other Visual Studio installations or other products. Use this switch if you intend to remove Visual Studio without reinstalling it later. |
+
+
+   ```shell
+   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\InstallCleanup.exe"
+   ```
+
+   For example, use the switch *-i 17* with `InstallCleanup.exe` to remove all 17 versioned products.
+
+   > [!NOTE]
+   > If you can't find `InstallCleanup.exe` under the Visual Studio Installer directory, which is always located at `%ProgramFiles(x86)%\Microsoft Visual Studio`, here's what to do next. Follow the instructions to [install Visual Studio](install-visual-studio.md). Then, when the workload selection screen is displayed, close the window and follow the steps on this page again.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
@@ -146,3 +173,4 @@ If you experience a catastrophic error and can't uninstall Visual Studio by usin
 
 * [Modify Visual Studio](modify-visual-studio.md)
 * [Update Visual Studio](update-visual-studio.md)
+* [Install Visual Studio](install-visual-studio.md)
