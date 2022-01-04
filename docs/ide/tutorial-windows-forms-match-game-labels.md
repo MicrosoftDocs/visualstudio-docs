@@ -9,7 +9,7 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.topic: tutorial
-ms.date: 12/30/2021
+ms.date: 01/07/2022
 ms.custom: 
 - vs-acquisition
 ---
@@ -32,8 +32,8 @@ A timer hides the icons and controls how long to show the icons
 
 ## Prerequisites
 
-This tutorial builds on previous tutorials, starting with [Create a matching game application](tutorial-windows-forms-create-match-game.md).
-If you haven't done that tutorial, start with that one.
+This tutorial builds on previous tutorials, [Create a matching game application](tutorial-windows-forms-create-match-game.md) and [Add icons to your matching game](tutorial-windows-forms-match-game-icons.md).
+Do those tutorials first.
 
 ## Add label references
 

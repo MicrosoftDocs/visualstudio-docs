@@ -9,7 +9,7 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.topic: tutorial
-ms.date: 12/30/2021
+ms.date: 01/07/2022
 ms.custom: 
 - vs-acquisition
 ---
@@ -29,8 +29,8 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-This tutorial builds on previous tutorials, starting with [Create a matching game application](tutorial-windows-forms-create-match-game.md).
-If you haven't done that tutorial, start with that one.
+This tutorial builds on previous tutorials, [Create a matching game application](tutorial-windows-forms-create-match-game.md), [Add icons to your matching game](tutorial-windows-forms-match-game-icons.md), and [Add a timer in your matching game](tutorial-windows-forms-match-game-labels.md)
+Do those tutorials first.
 
 ## Keep pairs visible
 
