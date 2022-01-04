@@ -29,6 +29,7 @@ In the *Properties* folder in an ASP.NET Core project, you can find the launchSe
       "commandName": "Docker",
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "DockerfileRunArguments": "-v $(pwd)/host-folder:/container-folder:ro",
       "environmentVariables": {
         "ASPNETCORE_URLS": "https://+:443;http://+:80",
         "ASPNETCORE_HTTPS_PORT": "44360"
