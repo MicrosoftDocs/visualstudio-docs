@@ -58,7 +58,7 @@ The commandName setting identifies that this section applies to Container Tools.
 | Setting name         | Example                                               | Description                                                                                                             |
 | -------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | commandLineArgs      | "commandLineArgs": "--mysetting myvalue"              | These command-line arguments for starting your app are used when launching your project in the container.                                     |
-|dockerRunArguments|"dockerRunArguments": ""|Additional arguments to pass to the [docker run](https://docs.docker.com/engine/reference/commandline/run/) command.|
+|dockerRunArguments|"dockerRunArguments": "-v $(pwd)/host-folder:/container-folder:ro"|Additional arguments to pass to the [docker run](https://docs.docker.com/engine/reference/commandline/run/) command.|
 | environmentVariables | "environmentVariables": {<br/>   "ASPNETCORE_URLS": "https://+:443;http://+:80", <br/>   "ASPNETCORE_HTTPS_PORT": "44381" <br/> }                    | These environment variable values are passed to the process when it is launched in the container.                       |
 | httpPort             | "httpPort": 24051                                     | This port on the host is mapped to the container's port 80 when launching the container. |
 | launchBrowser        | "launchBrowser": true                                 | Indicates whether to launch the browser after successfully launching the project.                                       |
