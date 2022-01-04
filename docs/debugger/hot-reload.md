@@ -137,7 +137,7 @@ The preceding improvements are available to both Hot Reload and the Edit and Con
 
 Unsupported scenarios:
 
-* Xamarin.Forms apps won’t support .NET Hot Reload in iOS and Android scenarios. You get partial support for Hot Reload when targeting a UWP app. This is by design, and we don’t expect to make any further improvements. (Note: XAML Hot Reload will continues to be available and supported for Xamarin.Forms customers on the latest SDK.)
+* Xamarin.Forms apps won’t support .NET Hot Reload in iOS and Android scenarios. You get partial support for Hot Reload when targeting a UWP app. This is by design, and we don’t expect to make any further improvements. (Note: XAML Hot Reload will continue to be available and supported for Xamarin.Forms customers on the latest SDK.)
 * .NET MAUI apps are not supported prior to Visual Studio 2022 version 17.1 Preview 1. Starting in 17.1 Preview 1, .NET MAUI is supported, but only with the debugger attached.
 * Apps built using F# or those targeting .NET Native do not support Hot Reload.
 
