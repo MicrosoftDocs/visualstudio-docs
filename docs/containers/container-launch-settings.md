@@ -47,7 +47,7 @@ The commandName setting identifies that this section applies to Container Tools.
 
 |Setting name|Version|Example|Description|
 |------------|-------|-------|---------------|
-|dockerRunArguments|Visual Studio 2017|"dockerRunArguments": ""|Additional arguments to pass to the [docker run](https://docs.docker.com/engine/reference/commandline/run/) command.|
+|dockerRunArguments|Visual Studio 2017|"dockerRunArguments": "-v $(pwd)/host-folder:/container-folder:ro"|Additional arguments to pass to the [docker run](https://docs.docker.com/engine/reference/commandline/run/) command.|
 |launchBrowser|Visual Studio 2017|"launchBrowser": true|Indicates whether to launch the browser after successfully launching the project.|
 |launchUrl|Visual Studio 2017|"launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}"|This URL is used when launching the browser.  Supported replacement tokens for this string are:<br/><br/>   - {Scheme} - Replaced with either "http" or "https" depending on whether SSL is used.<br/><br/>   - {ServiceHost} - Usually replaced with "localhost". When targeting Windows containers on Windows 10 RS3 or older, though, it is replaced with the container's IP.<br/><br/>   {ServicePort} - Usually replaced with either sslPort or httpPort, depending on whether SSL is used.  When targeting Windows containers on Windows 10 RS3 or older, though, it is replaced with either "443" or "80", depending on whether SSL is used.|
 
