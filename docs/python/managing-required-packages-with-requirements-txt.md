@@ -1,6 +1,6 @@
 ---
-title: Manage package dependencies with requirements.txt
-description: A requirements.txt file describes a project's dependencies. If you receive a project that contains a requirements.txt file, you can easily install those dependencies in one step.
+title: Manage Python package dependencies
+description: Use pip freeze > requirements.txt and manage python package dependencies in Visual Studio. 
 ms.date: 12/11/2021
 ms.custom: devdivchpfy22
 ms.topic: how-to
@@ -14,7 +14,7 @@ ms.workload:
   - data-science
 ---
 
-# Manage required packages with requirements.txt
+# Manage required Python packages with requirements.txt
 
 If you share a project with others, use a build system, or plan to copy the project to any other location where you need to restore an environment, you need to specify the external packages that the project requires. The recommended approach is to use a [requirements.txt file](https://pip.readthedocs.org/en/latest/user_guide.html#requirements-files) (readthedocs.org) that contains a list of commands for pip that installs the required versions of dependent packages. The most common command is `pip freeze > requirements.txt`, which records an environment's current package list into *requirements.txt*.
 
