@@ -1,5 +1,5 @@
 ---
-title: Select a Python environment for a project
+title: Choose a Python environment 
 description: You can specifically select a Python environment, including Anaconda and virtual environments, to apply to a specific project.
 ms.date: 03/18/2019
 ms.topic: how-to
@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# How to select a Python environment for a project
+# Select a Python environment for a project in Visual Studio
 
 All code in a Python project runs within the context of a specific environment, such as a global Python environment, an Anaconda environment, a virtual environment, or a conda environment. Visual Studio also uses that environment for debugging, import and member completions, syntax checking, and any other tasks that require language services that are specific to the Python version and a set of installed packages.
 
