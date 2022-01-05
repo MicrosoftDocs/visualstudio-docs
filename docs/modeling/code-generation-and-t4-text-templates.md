@@ -23,7 +23,9 @@ ms.workload:
 
 In Visual Studio, a *T4 text template* is a mixture of text blocks and control logic that can generate a text file. The control logic is written as fragments of program code in [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]. In Visual Studio 2015 Update 2 and later, you can use C# version 6.0 features in T4 templates directives. The generated file can be text, such as a web page, or a resource file, or program source code in any language.
 
-There are two kinds of T4 text templates: run time and design time.
+For a domain-specific language(DSL), designed to express statements in a perticular problem space, learn how to [Generate Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
+
+There are two kinds of T4 text templates: [run time](#run-time-t4-text-templates) and [design time](#design-time-t4-text-templates)
 
 ## Run time T4 text templates
 
@@ -80,14 +82,13 @@ namespace Fabrikam.FirstJob
 
 As another example, the input could be a diagram of workflow in a business activity. When the users change their business workflow, or when you start work with new users who have a different workflow, it's easy to regenerate the code to fit the new model.
 
+> [!NOTE]
+> The term *model* is sometimes used to describe data read by one or more templates. The model can be in any format, in any kind of file or database. It does not have to be a UML model or a Domain-Specific Language model. 'Model' just indicates that the data can be defined in terms of the business concepts, rather than resembling the code.
 Design-time templates are quicker and more reliable when changing the configuration as the requirements change. Typically, input is defined in terms of business requirements, as in the workflow example. Design-time templates are useful tools in an agile development process.
 
 To create a design-time template, add a **Text Template** file to your project. Alternatively, you can add a plain text file and set its **Custom Tool** property to **TextTemplatingFileGenerator**.
 
 For more information, see [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md). For more information about the syntax of templates, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).
-
-> [!NOTE]
-> The term *model* is sometimes used to describe data read by one or more templates. The model can be in any format, in any kind of file or database. It does not have to be a UML model or a Domain-Specific Language model. 'Model' just indicates that the data can be defined in terms of the business concepts, rather than resembling the code.
 
 The text template transformation feature is named *T4*.
 
