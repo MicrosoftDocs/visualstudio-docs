@@ -1,5 +1,5 @@
 ---
-title: Select a Python environment for a project
+title: Choose a Python environment 
 description: You can specifically select a Python environment, including Anaconda and virtual environments, to apply to a specific project.
 ms.date: 03/18/2019
 ms.topic: how-to
