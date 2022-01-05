@@ -19,7 +19,7 @@ EditorConfig settings are supported by many code editors and IDEs, including Vis
 
 ::: moniker range=">=vs-2019"
 
-When you add an EditorConfig file to your project in Visual Studio, new lines of code format based on the EditorConfig settings. The formatting of existing code isn't changed unless you run one of the following commands:
+When you add an EditorConfig file to your project in Visual Studio, new lines of code are formatted based on the EditorConfig settings. The formatting of existing code isn't changed unless you run one of the following commands:
 
  - [Code Cleanup](../ide/code-styles-and-code-cleanup.md) (**Ctrl**+**K**, **Ctrl**+**E**), which applies any white-space settings, such as indent style, and selected code style settings, such as how to sort `using` directives.
  - **Edit** > **Advanced** > **Format Document** (or **Ctrl**+**K**, **Ctrl**+**D** in the default profile), which only applies white-space settings, such as indent style.
@@ -28,7 +28,7 @@ When you add an EditorConfig file to your project in Visual Studio, new lines of
 
 ::: moniker range="=vs-2017"
 
-When you add an EditorConfig file to your project in Visual Studio, new lines of code format based on the EditorConfig settings. The formatting of existing code isn't changed unless you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D** in the default profile). Formatting the document only affects white-space settings, such as indent style, unless you have configured Format Document to [perform additional code cleanup](../ide/code-styles-and-code-cleanup.md#apply-code-styles).
+When you add an EditorConfig file to your project in Visual Studio, new lines of code are formatted based on the EditorConfig settings. The formatting of existing code isn't changed unless you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D** in the default profile). Formatting the document only affects white-space settings, such as indent style, unless you've configured Format Document to [perform additional code cleanup](../ide/code-styles-and-code-cleanup.md#apply-code-styles).
 
  ::: moniker-end
 
@@ -128,7 +128,7 @@ Visual Studio helps you edit *.editorconfig* files by providing IntelliSense com
 
 ![IntelliSense in an .editorconfig file](media/vs-2022/editorconfig-intellisense-no-extension-new.png)
 
-After you have edited your EditorConfig file, you must reload your code files for the new settings to take effect.
+After you've edited your EditorConfig file, you must reload your code files for the new settings to take effect.
 
 If you edit many *.editorconfig* files, you might find the [EditorConfig Language Service extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EditorConfig) helpful. Some of the features of this extension include syntax highlighting, improved IntelliSense, validation, and code formatting.
 
