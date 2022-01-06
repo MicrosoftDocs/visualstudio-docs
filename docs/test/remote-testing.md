@@ -44,7 +44,7 @@ Environments are specified using `testenvironments.json` in the root of your sol
 | dockerImage | string | Name of a docker image to load in a docker environment. <br/> This is required if environment `type` is `docker`. dockerImage or dockerFile must be specified, but not both.|
 | dockerFile | string | Path to a Dockerfile, relative to the solution directory, to build an image and load in a docker environment. <br/> This is required if environment `type` is `docker`. dockerImage or dockerFile must be specified, but not both. |
 | wslDistribution | string | Name of the local WSL distribution in which to run the test environment. <br/> This is required if environment `type` is `wsl`. |
-| remoteUri | string | A uri that specifies the connection to the remote machine. e.g. ssh://user@hostname:22. <br/> This is required if environment `type` is `ssh`. |
+| remoteUri | string | A uri that specifies the connection to the remote machine. For example, ssh://user@hostname:22. <br/> This is required if environment `type` is `ssh`. |
 
 
 ### Local container connections
