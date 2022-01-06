@@ -40,7 +40,7 @@ Environments are specified using `testenvironments.json` in the root of your sol
 | ----------------- | ---- | -------------------------------- |
 | name | string | User-friendly environment name that will appear in the Test Explorer. It must be unique within a testEnvironments.json file. |
 | localRoot | string | **[Optional]** Path on the local machine (either absolute or relative to the solution directory) which is projected into the remote environment. If not specified, this will default to the repo root within the context of a git repo (on Visual Studio 17.1 and above). Outside a git repo, this would default to the solution directory. |
-| type | enum | Indicates the type of remote environment. This can be one of the following - `docker`/`wsl`/`ssh`. |
+| type | enum | Indicates the type of remote environment. This value can be either `docker`, `wsl`, or `ssh`. |
 | dockerImage | string | Name of a docker image to load in a docker environment. <br/> This is required if environment `type` is `docker`. dockerImage or dockerFile must be specified, but not both.|
 | dockerFile | string | Path to a Dockerfile, relative to the solution directory, to build an image and load in a docker environment. <br/> This is required if environment `type` is `docker`. dockerImage or dockerFile must be specified, but not both. |
 | wslDistribution | string | Name of the local WSL distribution in which to run the test environment. <br/> This is required if environment `type` is `wsl`. |
