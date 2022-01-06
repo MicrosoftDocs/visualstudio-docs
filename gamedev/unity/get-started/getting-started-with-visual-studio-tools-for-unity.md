@@ -24,7 +24,7 @@ In this quickstart, you'll learn how to install the Visual Studio Tools for Unit
 
 :::zone pivot="windows"
 
-1. [Download the Visual Studio installer](/visualstudio/install/install-visual-studio.md), or open it if already installed.
+1. [Download the Visual Studio installer](/visualstudio/install/install-visual-studio), or open it if already installed.
 2. Select **Modify** (if already installed) or **Install** (for new installations) for your desired version of Visual Studio.
 3. Select the **Workloads** tab, then select the **Game development with Unity** workload.    
 4. If Unity is not already installed, select the Unity Hub checkbox in the Optional section of the installer.
