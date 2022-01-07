@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Add icons to the matching game"
-description: In this tutorial, you use a Random object to add icons in Visual Studio using C# or VB Windows Forms. You implement an event handler to display the icons.
+description: In this tutorial, you'll assign a random icon to each label on your Matching Game Windows Form and implement an event handler to display the icons using C# or VB in Visual Studio.
 dev_langs:
   - "CSharp"
   - "VB"
@@ -14,7 +14,7 @@ ms.custom:
 - vs-acquisition
 ---
 
-# Tutorial: Add icons to your matching game Windows Forms application in Visual Studio
+# Tutorial: Add icons to your WPF app Matching Game
 
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 
@@ -27,9 +27,9 @@ You set them to be hidden and then displayed when selected.
 In this second tutorial, you learn how to:
 
 > [!div class="checklist"]
-> - Add a Random object and a list of icons
-> - Assign a random icon to each label
-> - Add event handlers that show icons to the labels
+> - Add a Random object and a list of icons.
+> - Assign a random icon to each label.
+> - Add event handlers that show icons to the labels.
 
 ## Prerequisites
 
@@ -63,28 +63,14 @@ It stores the randomly chosen symbols.
 
 You can use list objects to keep track of different types of items.
 A list can hold numbers, true/false values, text, or other objects.
-The items in a list are called elements, and each list only holds one type of element.
-A list of numbers can only hold numbers, not text.
-When you create a `List` object using a `new` statement, you specify the kind of data to store in it.
-
-In the Visual Basic code, you create a temporary array first, but in C#, the list is created with one statement.
-The C# language has *collection initializers*, which prepare the list to accept values.
-In Visual Basic, you can use a collection initializer.
-However, for compatibility with the previous version of Visual Basic, we recommend using the preceding code.
-
-When you use a collection initializer with a `new` statement, after the `List` object is created, the program fills it with the data in the curly braces.
-In this case, it's a list of strings named icons.
-That list is initialized to contain 16 strings.
+In your matching game, the list object has 16 strings, one for each cell in the TableLayoutPanel panel.
 Each string is a single letter that corresponds to the icons in the labels.
-
 These characters appear in the Webdings font as a bus, a bike, and others.
-Your list object has 16 strings, one for each cell in the TableLayoutPanel panel.
 
-In Visual Basic, you get the same result.
-First, the strings are put into a temporary array, which is then converted into a `List` object.
-An array is similar to a list.
-Arrays have a  fixed size.
-Lists can shrink and grow as needed, which is important in this program.
+> [!NOTE]
+> Lists can shrink and grow as needed, which is important in this program.
+
+To learn more about lists, see <xref:System.Collections.Generic.List%601>. To see an example in C#, see [A basic list example](/dotnet/csharp/tour-of-csharp/tutorials/arrays-and-collections#a-basic-list-example). To see an example in Visual Basic, see [Using a Simple Collection](/dotnet/visual-basic/programming-guide/concepts/collections#using-a-simple-collection).
 
 ## Assign a random icon to each label
 
@@ -119,6 +105,7 @@ This code uses the keyword `foreach` in C# or `For Each` in Visual Basic.
    - The last line in the `if` statement removes from the list the icon that has been added to the form.
 
 1. Add a call to the `AssignIconsToSquares()` method to the **Form1** _constructor_.
+   This method fills the game board with icons.
    Constructors are called when you create an object.
 
    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet13":::
@@ -134,6 +121,9 @@ This code uses the keyword `foreach` in C# or `For Each` in Visual Basic.
    For more information, see [Constructors (C# programming guide)](/dotnet/csharp/programming-guide/classes-and-structs/constructors) or [Use constructors and destructors](/previous-versions/visualstudio/visual-studio-2008/2z08e49e\(v\=vs.90\)).
 
 1. Save your program and run it. It should show a form with random icons assigned to each label.
+
+   > [!TIP]
+   > If the Webdings icons don't display properly on the form, set the **UseCompatibleTextRendering** property of labels on the form to **True**.
 
 1. Close your program, and then run it again. Different icons are assigned to each label.
 
@@ -156,7 +146,7 @@ In this matching game, a player reveals a hidden icon, then a second one.
 If the icons match, they stay visible.
 Otherwise, both icons are hidden again.
 
-To get your game to work this way, add a <xref:System.Windows.Forms.Control.Click> event handler that changes the color of the text to match the background.
+To get your game to work this way, add a <xref:System.Windows.Forms.Control.Click> event handler that changes the color of the chosen label to match the background.
 
 1. Open the form in the **Windows Forms Designer**. Select **Form1.cs** or **Form1.vb**, and then select **View** > **Designer**.
 

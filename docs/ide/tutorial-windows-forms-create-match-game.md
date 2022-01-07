@@ -30,9 +30,9 @@ When you finish, you'll have a complete game.
 In this first tutorial, you learn how to:
 
 > [!div class="checklist"]
-> - Create a Visual Studio project that uses Windows Forms
-> - Add and format a layout element
-> - Add and format labels to display
+> - Create a Visual Studio project that uses Windows Forms.
+> - Add and format a layout element.
+> - Add and format labels to display.
 
 ## Prerequisites
 
@@ -69,7 +69,7 @@ When you create your matching game, the first step is to create a Windows Forms 
 
    ![Screenshot shows the Create a new project option in the Visual Studio start window.](./media/tutorial-windows-forms-create-match-game/create-new-project-dark-theme.png)
 
-1. On the **Create a new project** window, search for *Windows Forms*. Then select **Desktop** from the **Project type** list.
+1. On the **Create a new project** window, search for *Windows Forms*. Then select **Desktop** from the **All project types** list.
 
 1. Select the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then select **Next**.
 
@@ -95,7 +95,7 @@ A solution is a container for all of the projects and files needed by your app.
 
 At this point, Visual Studio displays an empty form in the **Windows Form Designer**.
 
-## Create layout for your game
+## Create a layout for your game
 
 In this section, you create the four-by-four grid of the game.
 
@@ -118,18 +118,17 @@ In this section, you create the four-by-four grid of the game.
      > [!NOTE]
      > The colors are not in alphabetical order, and **CornflowerBlue** is near the bottom of the list.
 
-   - For the **Dock** property, select the dropdown list and select the large middle button.
+   - Set the **Dock** property to **Fill** from the dropdown list by selecting the large middle button.
      This option spreads the table out so that it covers the entire form.
    - Set the **CellBorderStyle** property to **Inset**.
      This value provides visual borders between each cell on the board.
    - Select the triangle button in the upper-right corner of the TableLayoutPanel to display its task menu.
      On the task menu, select **Add Row** twice to add two more rows.
-   - Select **Add Column** twice to add two more columns.
-   - On the task menu, choose **Edit Rows and Columns** to open the **Column and Row Styles** window.
+     Then select **Add Column** twice to add two more columns.
+   - On the task menu, select **Edit Rows and Columns** to open the **Column and Row Styles** window.
      For each column, select the **Percent** option, and then set each column's width to *25* percent.
    - Select **Rows** from the list at the top of the window, and then set each row's height to 25 percent.
-
-   When you're done, select **OK** to save your changes.
+   - When you're done, select **OK** to save your changes.
 
 Your TableLayoutPanel is now a four-by-four grid with 16 equally-sized square cells.
 These rows and columns are where the icons appear later.
@@ -142,7 +141,7 @@ In this section, you create and format labels to display during the game.
 
 1. Be certain that the TableLayoutPanel is selected in the form editor.
    You should see **tableLayoutPanel1** at the top of the **Properties** window.
-   If it isn't selected, choose the TableLayoutPanel on the form, or choose it from the list at the top of the **Properties** window.
+   If it isn't selected, select the TableLayoutPanel on the form, or select it from the list at the top of the **Properties** window.
 
 1. Open the toolbox, as before, and open the **Common Controls** category.
    Add a <xref:System.Windows.Forms.Label> control to the upper-left cell of the TableLayoutPanel.

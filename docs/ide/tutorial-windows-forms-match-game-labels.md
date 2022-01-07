@@ -14,7 +14,7 @@ ms.custom:
 - vs-acquisition
 ---
 
-# Tutorial: Add a timer in your matching game Windows Forms application in Visual Studio
+# Tutorial: Add reference variables and a timer control to your WPF app Matching Game
 
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 
@@ -27,8 +27,8 @@ Your program keeps track of which Label you choose first and second by using *re
 A timer hides the icons and controls how long to show the icons
 
 > [!div class="checklist"]
-> - Add label references
-> - Add a timer
+> - Add label references.
+> - Add a timer.
 
 ## Prerequisites
 
@@ -37,7 +37,8 @@ Do those tutorials first.
 
 ## Add label references
 
-Add reference variables.
+In this section, you'll add two *reference variables* to your code.
+They keep track of, or refer to Label objects.
 
 1. Add label references to your form by using the following code.
 
@@ -46,10 +47,7 @@ Add reference variables.
 
    [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
 
-   These statements don't cause two more Label controls to appear on the form because there's no `new` keyword.
-   The variables `firstClicked` and `secondClicked` are called *reference variables*.
-   They just keep track, or refer to, Label objects.
-
+   These statements don't cause Label controls to appear on the form because there's no `new` keyword.
    When the program starts, both `firstClicked` and `secondClicked` are set to `null` for C# or `Nothing` for Visual Basic.
 
 1. Modify your <xref:System.Windows.Forms.Control.Click> event handler to use the new `firstClicked` reference variable.
@@ -80,9 +78,9 @@ In your program, the timer enables a player to choose two icons.
 If the icons don't match, it hides the two icons again after a short period of time.
 
 1. Select the **Toolbox** tab, in the **Components** category, double-click or drag the **Timer** component to your form.
-   The timer icon, called **Timer1**, appears in a space below the form.
+   The timer icon, called **timer1**, appears in a space below the form.
 
-   ![Screenshot shows the Timer icon below the form.](../ide/media/tutorial-windows-forms-match-game-labels/timer-control-icon.png)
+   ![Screenshot shows the timer icon below the form.](../ide/media/tutorial-windows-forms-match-game-labels/timer-control-icon.png)
 
 1. Select the **Timer1** icon to select the timer.
    In the **Properties** window, select the **Properties** button to view properties.
@@ -111,14 +109,14 @@ If the icons don't match, it hides the two icons again after a short period of t
    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step6/cs/form1.cs" id="Snippet8":::
    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step6/vb/form1.vb" id="Snippet8":::
 
-   The code at the top of the method checks whether the timer was started by checking the value of the **Enabled** property.
-   If the player chooses the first and second Label controls and the timer starts, choosing a third label won't do anything.
+   - The code at the top of the method checks whether the timer was started by checking the value of the **Enabled** property.
+     If the player chooses the first and second Label controls and the timer starts, choosing a third label won't do anything.
 
-   The code at the bottom of the method sets the `secondClicked` reference variable to track the second Label control.
-   Then, it sets that label icon color to black to make it visible.
-   Then, it starts the timer in one-shot mode, so that it waits 750 milliseconds and then fires a single tick.
-   The timer's Tick event handler hides the two icons and resets the `firstClicked` and `secondClicked` reference variables.
-   The form is ready for the player to choose another pair of icons.
+   - The code at the bottom of the method sets the `secondClicked` reference variable to track the second Label control.
+     Then, it sets that label icon color to black to make it visible.
+     Then, it starts the timer in one-shot mode, so that it waits 750 milliseconds and then fires a single tick.
+     The timer's Tick event handler hides the two icons and resets the `firstClicked` and `secondClicked` reference variables.
+     The form is ready for the player to choose another pair of icons.
 
 1. Save and run your program.
    Select a square and the icon becomes visible.

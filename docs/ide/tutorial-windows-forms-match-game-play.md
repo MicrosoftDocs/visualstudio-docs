@@ -1,6 +1,6 @@
 ---
-title: "Tutorial: Show a congratulations message"
-description: In this tutorial, you finish your Matching Game in Visual Studio using C# or VB Windows Forms. The game keeps pairs visible and displays a message.
+title: "Tutorial: Display a message when a player wins"
+description: In this tutorial, you'll finish the Matching Game by adding code to keep matched pairs visible and display a message when a player wins.
 dev_langs:
   - "CSharp"
   - "VB"
@@ -14,18 +14,18 @@ ms.custom:
 - vs-acquisition
 ---
 
-# Tutorial: Show a message in your matching game Windows Forms application in Visual Studio
+# Tutorial: Display a message in your matching game Windows Forms application in Visual Studio
 
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 
-In this tutorial, you revise your Matching Game to keep pairs visible and to display a congratulations message when a player wins.
+In this tutorial, you revise your Matching Game to keep matched pairs visible and to display a congratulations message when a player wins.
 
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
-> - Keep pairs visible
-> - Verify that a player won
-> - Try other features
+> - Keep pairs visible.
+> - Verify if a player won.
+> - Try other features.
 
 ## Prerequisites
 
@@ -34,7 +34,9 @@ Do those tutorials first.
 
 ## Keep pairs visible
 
-The game should reset itself so that it no longer keeps track of any labels that use the `firstClicked` and `secondClicked` reference variables, without resetting the colors for the two labels that were chosen.
+When a player matches a pair, the game should reset itself so that it no longer keeps track of any labels that use the `firstClicked` and `secondClicked` reference variables.
+It should not reset the colors for the two labels that were matched.
+Those labels continue to be displayed.
 
 1. Add the following `if` statement to the `label_Click()` event handler method.
    Put it near the end of the code just above the statement where you start the timer.
@@ -61,7 +63,7 @@ If you choose a matching pair, the new `if` statement runs.
 The return statement causes the method to skip the code that starts the timer.
 The icons stay visible.
 
-## Verify that a player won
+## Verify if a player won
 
 You've created a fun game.
 After a player wins, the game should end.
@@ -106,7 +108,7 @@ Here are some options.
 - Add a game timer that tracks how long it takes for the player to win.
 
   You can add a label to display the elapsed time on the form.
-  Place it above the TableLayoutPanel.
+  Place it above the **TableLayoutPanel**.
   Add another timer to the form to track the time.
   Use code to start the timer when the player starts the game, and stop the timer after they match the last two icons.
 

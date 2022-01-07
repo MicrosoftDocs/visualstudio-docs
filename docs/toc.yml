@@ -701,11 +701,11 @@
             href: ide/step-8-customize-the-quiz.md
         - name: "Tutorial 3: Create a matching game (C#)"
           items:
-          - name: 1. Create a match game
+          - name: 1. Create a matching game
             href: ide/tutorial-windows-forms-create-match-game.md
           - name: 2. Add icons to your match game
             href: ide/tutorial-windows-forms-match-game-icons.md
-          - name: 3. Add labels to your match game
+          - name: 3. Add labels and a timer
             href: ide/tutorial-windows-forms-match-game-labels.md
           - name: 4. Play your match game
             href: ide/tutorial-windows-forms-match-game-play.md
