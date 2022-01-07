@@ -127,7 +127,7 @@ In some situations, such as when there are corrupted files, issues might require
 
 As a last resort, you can remove all Visual Studio installation files and product information:
 
-1. Follow the steps on the [Remove Visual Studio](remove-visual-studio.md) page.
+1. Follow the steps in this article: [Remove Visual Studio](uninstall-visual-studio.md#remove) page.
 1. Rerun the Visual Studio Installer bootstrapper. You might find the bootstrapper in your **Downloads** folder with a file name that matches a `vs_[Visual Studio edition]__*.exe` pattern. Or, you can download the bootstrapper for your edition of Visual Studio from the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page.
 1. Try to reinstall Visual Studio.
 
@@ -169,7 +169,7 @@ If the solutions listed in this troubleshooting guide don't help you successfull
 ## See also
 
 * [Repair Visual Studio](repair-visual-studio.md)
-* [Remove Visual Studio](remove-visual-studio.md)
+* [Remove Visual Studio](uninstall-visual-studio.md#remove)
 * [Install and use Visual Studio and Azure Services behind a firewall or proxy server](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)

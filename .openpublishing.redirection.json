@@ -58030,6 +58030,71 @@
       "source_path": "docs/ide/step-9-try-other-features.md",
       "redirect_url": "/visualstudio/ide/tutorial-windows-forms-match-game-play",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/tutorial-1-create-a-picture-viewer.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-layout",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-1-create-a-windows-forms-application-project.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-layout",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-2-run-your-program.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-layout",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-3-set-your-form-properties.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-layout",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-layout",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-5-add-controls-to-your-form.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-controls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-6-name-your-button-controls.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-controls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-7-add-dialog-components-to-your-form.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-controls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-9-review-comment-and-test-your-code.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-10-write-code-for-additional-buttons-and-a-check-box.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-11-run-your-program-and-try-other-features.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/install/remove-visual-studio.md",
+      "redirect_url": "/visualstudio/install/uninstall-visual-studio",
+      "redirect_document_id": false
     }
   ]
 }
