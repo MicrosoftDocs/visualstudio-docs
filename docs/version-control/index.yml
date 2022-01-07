@@ -48,8 +48,6 @@ landingContent:
         links:
           - text: Introducing new Git features in Visual Studio 2022 Preview 17.1
             url: https://devblogs.microsoft.com/visualstudio/introducing-new-git-features-to-visual-studio-2022/
-          - text: Become a master at Git and open source
-            url: https://devblogs.microsoft.com/visualstudio/become-a-master-at-git-and-open-source/
           - text: Visual Studio 2022 Preview release notes
             url: /visualstudio/releases/2022/release-notes-preview
 
@@ -88,4 +86,6 @@ landingContent:
             url:  git-visual-studio-source-control.md
           - text: Compare Git and Team Explorer side-by-side
             url: git-team-explorer-feature-comparison.md
+          - text: Become a master at Git and open source
+            url: https://devblogs.microsoft.com/visualstudio/become-a-master-at-git-and-open-source/
 
