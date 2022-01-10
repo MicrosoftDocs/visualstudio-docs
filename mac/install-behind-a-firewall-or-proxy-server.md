@@ -7,7 +7,7 @@ author: jmatthiesen
 ms.author: jomatthi
 manager: dominicn
 ms.topic: reference
-ms.date: 09/18/2019
+ms.date: 01/10/2022
 ---
 
 # Install and use Visual Studio for Mac behind a firewall or proxy server
@@ -28,6 +28,7 @@ Because the Visual Studio for Mac Installer downloads from a various domains and
 | ----------------------------------- |---------------------------|
 | *.live.com| Credential Management |
 | app.vssps.visualstudio.com| Installer Metadata|
+| nw-umwatson.events.data.microsoft.com | Crash and Error Reporting | 
 | vortex.data.microsoft.com | Crash and Error Reporting |
 | az667904.vo.msecnd.net| Crash and Error Reporting |
 | xamarin.com | Installer Metadata|
