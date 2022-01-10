@@ -4,7 +4,9 @@ description: This document provides an overview of how to setup multi-targeted p
 ms.topic: overview
 author: jmatthiesen
 ms.author: jomatthi
+manager: dominicn
 ms.date: 12/12/2019
+ms.topic: how-to
 ms.assetid: 2a561af4-f1fe-493e-9a53-aa6d77d15498
 ---
 

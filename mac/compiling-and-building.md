@@ -2,9 +2,11 @@
 title: "Compiling and Building"
 description: "This article describes how to compile and build projects and solutions in Visual Studio for Mac"
 ms.topic: overview
-author: heiligerdankgesang
-ms.author: dominicn
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 05/03/2021
+ms.topic: how-to
 ms.assetid: FB253757-DB00-4889-A6BF-E44722E25BD1
 ---
 

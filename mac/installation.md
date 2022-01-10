@@ -1,8 +1,9 @@
 ---
 title: "Install Visual Studio 2019 for Mac"
 description: "Instructions on how to install Visual Studio 2019 for Mac and additional components required for cross-platform development."
-author: heiligerdankgesang
-ms.author: dominicn
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 03/04/2021
 ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
