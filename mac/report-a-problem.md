@@ -6,7 +6,6 @@ author: jmatthiesen
 ms.author: jomatthi
 manager: dominicn
 ms.date: 06/18/2019
-ms.topic: how-to
 ms.assetid: 1C7AC52E-754E-473F-A5B5-00C3A40DAACD
 ---
 # How to report a problem in Visual Studio for Mac
