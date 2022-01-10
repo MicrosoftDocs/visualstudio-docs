@@ -72,16 +72,6 @@ By default, Unity should already be configured to use Visual Studio or Visual St
 
     ![Screenshot of the External Tools preference menu in the Unity Editor on Windows](../media/vs/preferences-external-tools.png)
 
-### Install or update the Visual Studio Editor package
-
-In Unity versions 2020 and newer, a separate Unity Package is required for the best experience working with IDEs like Visual Studio. This should be included by default, but we release updates to this package that you can update to at any time.
-
-1. In the Unity Editor, select the **Windows > Package Manager** menu.
-1. Select the **Visual Studio Editor** package.
-1. If a new version is available, select the **Update** button.
-
-![Screenshot of the Package Manager window in the Unity Editor on Windows](../media/vs/unity-package-manager.png)
-
 ### Add a version of Visual Studio that is not listed
 It's possible to select other versions of Visual Studio that are unlisted and installed in a custom directory.
 
@@ -102,6 +92,16 @@ It's possible to select other versions of Visual Studio that are unlisted and in
 4. Close the **Preferences** dialog to complete the configuration process.
 
 :::zone-end
+
+### Install or update the Visual Studio Editor package
+
+In Unity versions 2020 and newer, a separate Unity Package is required for the best experience working with IDEs like Visual Studio and Visual Studio for Mac. This should be included by default, but updates are released to this package that you can update to at any time.
+
+1. In the Unity Editor, select the **Windows > Package Manager** menu.
+1. Select the **Visual Studio Editor** package.
+1. If a new version is available, select the **Update** button.
+
+![Screenshot of the Package Manager window in the Unity Editor on Windows](../media/vs/unity-package-manager.png)
 
 ## Check for updates
 
