@@ -23,7 +23,7 @@ ms.workload:
 
 In Visual Studio, a *T4 text template* is a mixture of text blocks and control logic that can generate a text file. The control logic is written as fragments of program code in [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]. In Visual Studio 2015 Update 2 and later, you can use C# version 6.0 features in T4 templates directives. The generated file can be text, such as a web page, or a resource file, or program source code in any language.
 
-For a domain-specific language(DSL), designed to express statements in a perticular problem space, learn how to [Generate Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
+For a domain-specific language(DSL), designed to express statements in a particular problem space, learn how to [Generate Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
 
 There are two kinds of T4 text templates: [run time](#run-time-t4-text-templates) and [design time](#design-time-t4-text-templates)
 
@@ -71,7 +71,7 @@ namespace Fabrikam.<#= configurationData.SelectSingleNode("jobName").Value #>
 }
 ```
 
-Depending on the values in the XML file, the generated *.cs* file would be in the following format:
+The generated *.cs* file is in the following format based on the XML file values:
 
 ```
 namespace Fabrikam.FirstJob
