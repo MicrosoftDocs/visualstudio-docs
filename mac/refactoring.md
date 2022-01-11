@@ -3,9 +3,10 @@ title: Refactoring code
 description: Refining code using Visual Studio for Mac and quick actions.
 author: jmatthiesen
 ms.author: jomatthi
+manager: dominicn
 ms.date: 07/03/2020
 ms.assetid: C7782BF3-016F-4B41-8A81-85FC540A1A8F
-ms.custom: video
+ms.topic: reference
 ---
 # Refactoring
 

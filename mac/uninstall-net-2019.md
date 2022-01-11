@@ -1,9 +1,11 @@
 ---
 title: Visual Studio for Mac 8.10 and .NET on Apple Silicon machines
 description: Steps for getting supported versions of .NET working in 2019 on M1 machines.
-author: heiligerdankgesang
-ms.author: dominicn
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 11/08/2021
+ms.topic: how-to
 ms.assetid: db2dc420-63d2-44ef-bdda-a351561dc900
 ---
 
