@@ -22,7 +22,7 @@
       href: uninstall.md
     - name: Available Workloads
       href: workloads.md
-- name: Personalize Visual Studio
+- name: Personalize Visual Studio for Mac
   items:
     - name: User Accounts
       items: 
