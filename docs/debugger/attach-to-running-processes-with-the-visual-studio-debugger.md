@@ -7,7 +7,6 @@ ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.processes.attach"
   - "vs.debug.process"
-  - "vs.debug.programs"
   - "vs.debug.detaching"
   - "vs.debug.processes"
   - "vs.debug.error.attach"

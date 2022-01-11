@@ -10,7 +10,6 @@ f1_keywords:
   - vs.debug.sourcewin.edit
   - vs.debug.file
   - vs.debug.breakpt.new
-  - vs.debug.whenbreakpointishit
   - vs.debug.breakpt.location.address
   - vs.debug.breakpt.constraints
   - vs.debug.breakpoints.delete
