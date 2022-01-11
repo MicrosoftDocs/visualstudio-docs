@@ -2,7 +2,7 @@
 title: "IManagedAddin interface"
 description: "Implement the IManagedAddin interface to create a component that loads managed VSTO Add-ins."
 ms.date: "02/02/2017"
-ms.topic: "interface"
+ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"

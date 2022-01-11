@@ -14,12 +14,11 @@ ms.workload:
 ---
 # Remote Debugger Port Assignments
 The Visual Studio Remote Debugger can run as an application or as a background service. When it runs as an application, it uses a port that is assigned by default as follows:
-::: moniker range=">=vs-2022"
+
 - Visual Studio 2022: 4026
-::: moniker-end
-::: moniker range="vs-2019"
+
 - Visual Studio 2019: 4024
-::: moniker-end
+
 - Visual Studio 2017: 4022
 
 - Visual Studio 2015: 4020

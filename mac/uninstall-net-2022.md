@@ -12,7 +12,7 @@ ms.assetid: 18f722bc-3d9d-4c75-9e77-d66b64784c8d
 On Apple Silicon machines (also known as M1 or ARM) with older x64 SDKs installed, you'll need to remove all existing .NET installations in order to use the .NET 6 GA Arm64 SDK.  
 
 > [!NOTE]
-> This information is specific for Visual Studio for Mac 2022 Preview (17.0) versions. For information on this process for Visual Studio for Mac 2019 versions, see [Visual Studio for Mac 8.10 and .NET on Apple Silicon machines](/uninstall-net-2019.md) for details.
+> This information is specific for Visual Studio for Mac 2022 Preview (17.0) versions. For information on this process for Visual Studio for Mac 2019 versions, see [Visual Studio for Mac 8.10 and .NET on Apple Silicon machines](/visualstudio/mac/uninstall-net-2019) for details.
 
 ## Uninstall .NET from your machine: 
 
@@ -26,7 +26,7 @@ On Apple Silicon machines (also known as M1 or ARM) with older x64 SDKs installe
 
     ```bash
     chmod +x dotnet-uninstall-pkgs.sh 
-    sudo ./ dotnet-uninstall-pkgs.sh
+    sudo ./dotnet-uninstall-pkgs.sh
     sudo rm -r /etc/dotnet
     ```  
 

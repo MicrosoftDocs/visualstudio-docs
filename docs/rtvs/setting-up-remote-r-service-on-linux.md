@@ -4,8 +4,8 @@ description: How to set up Remote R Service on Ubuntu and the Windows Subsystem 
 ms.date: 12/04/2017
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: ghogen
+ms.author: ghogen
 ms.reviewer: karthiknadig
 manager: jmartens
 ms.technology: vs-rtvs

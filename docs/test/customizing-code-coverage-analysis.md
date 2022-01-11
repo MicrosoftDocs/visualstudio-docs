@@ -111,6 +111,13 @@ The following table shows the various ways that assemblies and members can be ma
 | Attribute | Matches elements that have the specified attribute. Specify the full name of the attribute, for example `<Attribute>^System\.Diagnostics\.DebuggerHiddenAttribute$</Attribute>`.<br/><br/>If you exclude the <xref:System.Runtime.CompilerServices.CompilerGeneratedAttribute> attribute, code that uses language features such as `async`, `await`, `yield return`, and auto-implemented properties is excluded from code coverage analysis. To exclude truly generated code, only exclude the <xref:System.CodeDom.Compiler.GeneratedCodeAttribute> attribute. |
 | Function | Matches procedures, functions, or methods by fully qualified name, including the parameter list. You can also match part of the name by using a [regular expression](#regular-expressions).<br/><br/>Examples:<br/><br/>`Fabrikam.Math.LocalMath.SquareRoot(double);` (C#)<br/><br/>`Fabrikam::Math::LocalMath::SquareRoot(double)` (C++) |
 
+::: moniker range=">=vs-2022"
+### Code coverage formats
+By default code coverage is collected and saved in a `.coverage` file. You can also collect coverage using other formats including Xml and Cobertura. Different formats may be useful across different editors and pipelines. You can enable this in runsettings by adding `<Format>Cobertura</Format>` or `<Format>Xml</Format>` in the [DataCollector configuration section in your runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#codecoverage-data-collector). This format can be viewed in the code coverage results window in Visual Studio Enterprise.
+
+You can also specify different formats from the command-line by either specifying it in the runsettings file or specifying it in a parameter. For example, the dotnet command-line use `dotnet test --collect:"Code Coverage;Format=Cobertura"`. For vstest use `vstest.console.exe /collect:"Code Coverage;Format=Cobertura"`. The collect parameter will override the format specified in runsettings.
+::: moniker-end
+
 ### Regular expressions
 
 Include and exclude nodes use regular expressions, which aren't the same as wildcards. All matches are case-insensitive. Some examples are:

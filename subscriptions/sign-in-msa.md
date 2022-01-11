@@ -1,8 +1,8 @@
 ---
 title: Sign in to Visual Studio Subscriptions with a  Microsoft Account | Microsoft Docs
 author: evanwindom
-ms.author: cabuschl  
-manager: cabuschl
+ms.author: amast  
+manager: shve
 ms.assetid: 19038bb0-2858-49df-9624-cbf8bfbb5d39
 ms.date: 10/13/2021
 ms.topic: how-to
