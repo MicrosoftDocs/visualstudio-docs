@@ -835,8 +835,6 @@
       href: ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md
     - name: Change the build output directory
       href: ide/how-to-change-the-build-output-directory.md
-    - name: Build to a common output directory
-      href: ide/how-to-build-to-a-common-output-directory.md
     - name: Specify custom build events
       href: ide/specifying-custom-build-events-in-visual-studio.md
     - name: Set multiple startup projects
