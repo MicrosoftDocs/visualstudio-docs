@@ -57987,6 +57987,56 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/tutorial-3-create-a-matching-game.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-create-match-game",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-1-create-a-project-and-add-a-table-to-your-form.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-create-match-game",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-2-add-a-random-object-and-a-list-of-icons.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-match-game-icons",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-3-assign-a-random-icon-to-each-label.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-match-game-icons",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-4-add-a-click-event-handler-to-each-label.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-match-game-icons",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-5-add-label-references.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-match-game-labels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-6-add-a-timer.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-match-game-labels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-7-keep-pairs-visible.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-match-game-play",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-8-add-a-method-to-verify-whether-the-player-won.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-match-game-play",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-9-try-other-features.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-match-game-play",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/tutorial-1-create-a-picture-viewer.md",
       "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-layout",
       "redirect_document_id": false
