@@ -4,8 +4,6 @@ description: "Analyze CPU performance issues in your application using the debug
 
 ms.date: 04/03/2021
 ms.topic: tutorial
-f1_keywords:
-  - "vs.performance.wizard.intropage"
 helpviewer_keywords:
   - "Profiling Tools, quick start"
   - "Diagnostics Tools, CPU Usage"

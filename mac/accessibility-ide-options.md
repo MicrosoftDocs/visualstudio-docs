@@ -1,8 +1,9 @@
 ---
 title: "Set IDE accessibility options"
 description: "Introduction to setting accessibility options in Visual Studio for Mac"
-author: heiligerdankgesang
-ms.author: dominicn
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 09/23/2019
 ms.assetid: 87D22340-2BE6-40EE-ACFD-3CF1BA886175
 ms.topic: how-to

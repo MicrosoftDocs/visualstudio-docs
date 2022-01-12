@@ -3,7 +3,9 @@ title: Visual Studio for Mac – Integrated Terminal
 description: "Working with the Integrated Terminal in Visual Studio for Mac."
 author: jmatthiesen
 ms.author: jomatthi
+manager: dominicn
 ms.date: 05/14/2020
+ms.topic: how-to
 ms.assetid: EFD53CE9-8174-4FE4-8863-2984D22FD921
 ---
 # Integrated Terminal
