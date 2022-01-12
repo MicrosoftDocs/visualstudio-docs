@@ -2,7 +2,7 @@
 title: 'How to: Configure Targets and Tasks | Microsoft Docs'
 description: Learn how to set selected MSBuild tasks to run in the environment they target, regardless of the environment of the development computer.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 01/11/2022
 ms.topic: conceptual
 ms.assetid: 92814100-392a-471d-96fd-e26f637d6cc2
 author: ghogen
@@ -14,7 +14,7 @@ ms.workload:
 ---
 # How to: Configure targets and tasks
 
-Selected MSBuild tasks can be set to run in the environment they target, regardless of the environment of the development computer. For example, when you use a 64-bit computer to build an application that targets a 32-bit architecture, selected tasks are run in a 32-bit process.
+Selected MSBuild tasks can be set to run in the environment they target, when the development computer supports the target environment. For example, when you use a 64-bit Windows computer to build an application that targets a 32-bit Windows architecture, then selected tasks are run in a 32-bit process.
 
 > [!NOTE]
 > If a build task is written in a .NET language, such as Visual C# or Visual Basic, and does not use native resources or tools, then it will run in any target context without adaptation.
