@@ -37,7 +37,7 @@ This tutorial builds on a previous tutorial, [Create a math quiz Windows Forms a
 
 ## Create a random addition problem
 
-1. In your Visual Studio project, select Windows Forms Designer.
+1. In your Visual Studio project, select **Windows Forms Designer**.
 
 1. Select the form, **Form1**.
 

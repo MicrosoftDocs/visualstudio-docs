@@ -92,7 +92,7 @@ Now that you have a way to check the answers, you can write the code for the Tic
      - A congratulatory message appears.
      - The **Enabled** property of the **startButton** control is set to `true` so that the quiz taker can start another quiz.
 
-   - If `CheckTheAnswer()` returns `false`, the code checks the value of **timeLeft**.
+   - If `CheckTheAnswer()` returns `false`, the code checks the value of **timeLeft**:
 
      - If this variable is greater than 0, the timer subtracts 1 from **timeLeft**. It also updates the **Text** property of the **timeLabel** control to show the quiz taker how many seconds remain.
      - If no time remains, the timer stops and changes the **timeLabel** text to **Time's up!** A message box announces that the quiz is over, and the answers are revealed. The start button becomes available again.
