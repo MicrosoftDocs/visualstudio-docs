@@ -132,6 +132,8 @@ The following table lists frequently used properties that are defined in the Vis
 | Win32Manifest | .NET | The name of the manifest file that should be embedded in the final assembly. This parameter is equivalent to the `/win32Manifest` compiler switch. |
 | Win32Resource | .NET | The file name of the Win32 resource to be embedded in the final assembly. This parameter is equivalent to the `/win32resource` compiler switch. |
 
+Properties specific to .NET SDK projects, such as `TargetFramework`, are documented at [Framework properties](/dotnet/core/project-sdk/msbuild-props#framework-properties).
+
 ## See also
 
 - [Common MSBuild project items](../msbuild/common-msbuild-project-items.md)
