@@ -14,7 +14,7 @@ ms.custom:
 - vs-acquisition
 ---
 
-# Tutorial: Add icons to your WinForms app Matching Game
+# Tutorial: Add icons to your matching game WinForms app
 
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 

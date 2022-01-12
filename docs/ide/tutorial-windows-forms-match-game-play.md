@@ -14,7 +14,7 @@ ms.custom:
 - vs-acquisition
 ---
 
-# Tutorial: Display a message in your matching game WinForms application
+# Tutorial: Display a message in your matching game WinForms app
 
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 
