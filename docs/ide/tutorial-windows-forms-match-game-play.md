@@ -14,7 +14,7 @@ ms.custom:
 - vs-acquisition
 ---
 
-# Tutorial: Display a message in your matching game Windows Forms application in Visual Studio
+# Tutorial: Display a message in your matching game WinForms application
 
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 
@@ -135,6 +135,6 @@ You've done these programming and design tasks in the Visual Studio IDE:
 - Built an event handler to respond to events for multiple objects
 - Added a timer that counts down and fires an event
 
-Advance to this article to learn how to create apps that are accessible.
+Advance to this article for a deep dive into Windows Forms Designer.
 > [!div class="nextstepaction"]
-> [Resources for designing accessible applications](./reference/resources-for-designing-accessible-applications.md)
+> [Tutorial: Get started with Windows Forms Designer](../designers/walkthrough-windows-forms-designer.md)

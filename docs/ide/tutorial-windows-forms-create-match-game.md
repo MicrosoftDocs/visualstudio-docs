@@ -11,7 +11,7 @@ ms.custom:
 - vs-acquisition
 ---
 
-# Tutorial: Create a matching game Windows Forms application in Visual Studio
+# Tutorial: Create a matching game WinForms application
 
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 

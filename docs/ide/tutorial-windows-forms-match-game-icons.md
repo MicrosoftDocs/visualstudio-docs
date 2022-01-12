@@ -14,7 +14,7 @@ ms.custom:
 - vs-acquisition
 ---
 
-# Tutorial: Add icons to your WPF app Matching Game
+# Tutorial: Add icons to your WinForms app Matching Game
 
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 

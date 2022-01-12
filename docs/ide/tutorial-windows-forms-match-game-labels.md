@@ -14,7 +14,7 @@ ms.custom:
 - vs-acquisition
 ---
 
-# Tutorial: Add reference variables and a timer control to your WPF app Matching Game
+# Tutorial: Add reference variables and a timer control to your WinForms app Matching Game
 
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 
