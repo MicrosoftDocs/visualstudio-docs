@@ -25,7 +25,7 @@ Use these tutorials to learn about the following tasks in the Visual Studio Inte
 
 When you finish, you'll have a complete game.
 
-![Screenshot show the game that you create, with several matching icons displayed in a grid.](../ide/media/tutorial-windows-forms-create-match-game/match-game-final.png)
+![Screenshot shows the game that you create, with several matching icons displayed in a grid.](../ide/media/tutorial-windows-forms-create-match-game/match-game-final.png)
 
 In this first tutorial, you learn how to:
 
@@ -57,7 +57,7 @@ When you create your matching game, the first step is to create a Windows Forms 
    > [!NOTE]
    > If you don't see the **Windows Forms App (.NET Framework)** template, use the Visual Studio Installer to install the **.NET desktop development** workload.
    >
-   > ![Screenshot show the dot NET desktop development workload in the Visual Studio Installer.](../ide/media/tutorial-windows-forms-create-match-game/install-dot-net-desktop-env.png)
+   > ![Screenshot shows the dot NET desktop development workload in the Visual Studio Installer.](../ide/media/tutorial-windows-forms-create-match-game/install-dot-net-desktop-env.png)
    >
    > For more information, see the [Install Visual Studio](../install/install-visual-studio.md) page.
 ::: moniker-end
