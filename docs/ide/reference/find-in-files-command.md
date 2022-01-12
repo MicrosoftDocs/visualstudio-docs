@@ -2,7 +2,7 @@
 title: Find in Files Command
 description: Learn about the Find command and how it searches files using some of the options available on the Find in Files tab of the Find and Replace window.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 01/11/2022
 ms.topic: reference
 f1_keywords:
 - edit.findinfiles
@@ -16,6 +16,7 @@ manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
 - multiple
+monikerRange: "<=vs-2019"
 ---
 # Find in Files Command
 Search files using a subset of the options available on the **Find in Files** tab of the **Find and Replace** window.
