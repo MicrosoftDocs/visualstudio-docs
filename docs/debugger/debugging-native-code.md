@@ -4,8 +4,6 @@ description: Learn about common debugging problems and high-level techniques for
 ms.custom: SEO-VS-2020
 ms.date: "04/11/2017"
 ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug"
 dev_langs:
   - "CSharp"
   - "VB"

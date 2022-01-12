@@ -3,10 +3,11 @@ title: "Tutorial: Azure Functions"
 description: "A detailed walkthrough of working with Azure Functions in Visual Studio for Mac."
 author: jmatthiesen
 ms.author: jomatthi
+manager: dominicn
 ms.date: 11/06/2020
 ms.technology: vs-ide-install
 ms.assetid: 38FD2070-5151-482E-B0A9-993715128736
-ms.topic: tutorial
+ms.topic: how-to
 ---
 
 # Tutorial: Getting started with Azure Functions
