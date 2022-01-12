@@ -48,7 +48,7 @@ For native C++, **Edit and Continue** requires using the `/INCREMENTAL` option. 
 1. For C++ code, make sure **Enable Native Edit and Continue** is selected, and set the other options:
     - **Apply changes on continue (Native only)**
 
-      If selected, Visual Studio automatically compiles and applies code changes when you continue debugging from a break state. Otherwise, you can choose to apply changes using **Debug** > **Apply Code Changes**.
+      If selected, Visual Studio automatically compiles and applies code changes when you continue debugging from a break state. Else, you can choose to apply changes using **Debug** > **Apply Code Changes**.
 
     - **Warn about stale code (Native only)**
 
