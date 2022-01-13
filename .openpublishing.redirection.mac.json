@@ -16,6 +16,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path_from_root": "/mac/javascript.md",
+      "redirect_url": "/visualstudio/mac/javascript-and-typescript-support",
+      "redirect_document_id": false
+    },
+    {
       "source_path_from_root": "/mac/using-vsmac-tools-unity.md",
       "redirect_url": "/visualstudio/gamedev/unity/get-started/using-visual-studio-tools-for-unity",
       "redirect_document_id": false
