@@ -1,7 +1,7 @@
 ---
 title: Configure Python web apps for IIS
 description: How to configure Python web apps to run with Internet Information Services from a Windows virtual machine.
-ms.date: 12/06/2018
+ms.date: 01/12/2022
 ms.topic: how-to
 author: rjmolyneaux
 ms.author: rmolyneaux
