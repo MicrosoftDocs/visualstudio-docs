@@ -39,7 +39,7 @@ For more information, see [Debug and release configurations](how-to-set-debug-an
 
 Starting in Visual Studio 2022, choose **Open debug launch profiles UI** in the Debug tab to open the launch profiles UI and change debug settings.
 
-## Launch profile
+## Launch profile (.NET 5+, .NET Core)
 
 |Setting|Description|
 |-------------------------------------| - |
@@ -50,6 +50,18 @@ Starting in Visual Studio 2022, choose **Open debug launch profiles UI** in the 
 |**Enable unmanaged code debugging** | Debugs calls to native (unmanaged) Win32 code from the managed app. |
 |**Enable SQL Server debugging** | Debugs SQL Server database objects. |
 |**Enable WebView2 debugging**| Debugs JavaScript with Microsoft Edge (Chromium) based debugger.|
+
+## Launch profile (ASP.NET Core)
+
+In addition to the properties for .NET, ASP.NET Core launch profiles include several additional properties for the ASP.NET Core profile that is named for the project. These settings provide a simple UI for the project's *launchSettings.json* file.
+
+|Setting|Description|
+|-------------------------------------| - |
+|**Launch browser**|Select whether to launch the default browser when you start debugging, using the URL you set in the **Url** setting.|
+|**Url**|Specifies the location of host URL for .NET. The Kestrel server listens to the port specified.|
+|**App URL**|Specifies the application URLs.|
+
+There is also an IIS Express profile by default. This profile has similar properties, in addition to several that are specific to IIS Express. These settings provide a simple UI for the IIS Express profile in *launchSettings.json*. The supplemental properties are not described here.
 
 ## Build tab
 
