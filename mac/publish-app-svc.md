@@ -5,9 +5,9 @@ ms.date: 04/02/2019
 helpviewer_keywords:
   - "deployment, website"
 ms.assetid: 8524a4c5-97a9-41ac-a2a0-034efb9bfc57
-author: sayedihashimi
-ms.author: sayedha
-manager: unniravindranathan
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.prod: visual-studio-mac
 ms.custom: video
 ms.topic: how-to

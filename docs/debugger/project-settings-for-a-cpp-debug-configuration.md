@@ -56,7 +56,6 @@ f1_keywords:
   - "VC.Project.VCDebugSettings.RemoteMachine"
   - "VC.Project.IVCGPUDebugPageObject.AdditionalFilesToDeploy"
   - "VC.Project.VCDebugSettings.WorkingDirectory"
-  - "vs.debug.builds"
   - "VC.Project.VCDebugSettings.Attach"
   - "VC.Project.VCDebugSettings.HttpUrl"
   - "VC.Project.IVCClusterDebugPageObject.MPIAcceptMode"

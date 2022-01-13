@@ -5,9 +5,9 @@ ms.date: 11/09/2020
 helpviewer_keywords:
   - "deployment, website, console, publish"
 ms.assetid: e963fb4b-6d32-4d45-86bb-ef7e4d3028b0
-author: sayedihashimi
-ms.author: sayedha
-manager: unniravindranathan
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.prod: visual-studio-mac
 ms.topic: how-to
 ---
