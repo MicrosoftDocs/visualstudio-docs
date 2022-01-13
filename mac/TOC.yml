@@ -58,6 +58,34 @@
       href: managing-app-resources.md
     - name: "How to: Open multiple solutions or instances"
       href: open-multiple-solutions.md
+    - name: Editor
+      items: 
+        - name: Editor Features
+          href: source-editor.md
+        - name: Refactoring
+          href: refactoring.md
+        - name: IntelliSense
+          href: intellisense.md
+        - name: Show Import Items
+          href: show-imports.md
+        - name: Multi-caret Editing
+          href: multi-caret-editing.md
+        - name: Comments
+          href: comments.md
+        - name: Editor Behavior
+          href: editor-behavior.md
+        - name: Task Comments
+          href: task-comments.md
+        - name: Snippets
+          href: snippets.md
+        - name: Block Selection
+          href: block-selection.md
+        - name: Editor Themes
+          href: editor-themes.md
+        - name: EditorConfig
+          href: editorconfig.md
+        - name: Default Keyboard Shortcuts
+          href: keyboard-shortcuts.md
 - name: Debug
   items: 
     - name: Overview
@@ -110,22 +138,6 @@
           href: publish-app-svc.md
         - name: Publish to Folder
           href: publish-folder.md
-    - name: ASP.NET Core
-      items: 
-        - name: .NET Core Support
-          href: net-core-support.md
-        - name: Getting Started with ASP.NET Core
-          href: asp-net-core.md
-        - name: Building ASP.NET Core applications in Visual Studio for Mac
-          href: building-asp-net-core.md
-        - name: Razor
-          href: razor.md
-        - name: Blazor
-          href: blazor.md
-        - name: JavaScript and TypeScript
-          href: javascript.md
-        - name: launchSettings.json
-          href: launch-settings.md
         - name: Video tutorials
           items: 
           - name: Getting started with ASP.NET Core in Visual Studio for Mac
@@ -168,34 +180,22 @@
           href: accessibility-voiceover.md
 - name: Reference
   items:
-    - name: Source Editor
+    - name: Supported versions of .NET
       items: 
-        - name: Editor Features
-          href: source-editor.md
-        - name: Refactoring
-          href: refactoring.md
-        - name: IntelliSense
-          href: intellisense.md
-        - name: Show Import Items
-          href: show-imports.md
-        - name: Multi-caret Editing
-          href: multi-caret-editing.md
-        - name: Comments
-          href: comments.md
-        - name: Editor Behavior
-          href: editor-behavior.md
-        - name: Task Comments
-          href: task-comments.md
-        - name: Snippets
-          href: snippets.md
-        - name: Block Selection
-          href: block-selection.md
-        - name: Editor Themes
-          href: editor-themes.md
-        - name: EditorConfig
-          href: editorconfig.md
-        - name: Default Keyboard Shortcuts
-          href: keyboard-shortcuts.md
+        - name: .NET Core Support
+          href: net-core-support.md
+        - name: Getting Started with ASP.NET Core
+          href: asp-net-core.md
+        - name: Building ASP.NET Core applications in Visual Studio for Mac
+          href: building-asp-net-core.md
+        - name: Razor
+          href: razor.md
+        - name: Blazor
+          href: blazor.md
+        - name: JavaScript and TypeScript
+          href: javascript-and-typescript-support.md
+        - name: launchSettings.json
+          href: launch-settings.md
     - name: Visual Studio for Mac for Windows Users
       href: vsmac-for-windows-users.md
 - name: Resources
