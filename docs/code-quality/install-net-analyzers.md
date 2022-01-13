@@ -1,8 +1,8 @@
 ---
 title: Enable or install first-party .NET analyzers
-ms.date: 08/03/2018
+ms.date: 01/13/2022
 description: Learn how to enable first-party .NET analyzers from the .NET SDK or install these analyzers as a NuGet package.
-ms.custom: SEO-VS-2020
+ms.custom: SEO-VS-2020, devdivchpfy22
 ms.topic: how-to
 helpviewer_keywords:
   - .NET analyzers
@@ -17,7 +17,7 @@ ms.workload:
 
 ## Overview
 
-.NET compiler platform (Roslyn) analyzers inspect your C# or Visual Basic code for code quality and code style issues. The first-party .NET analyzers are **target-platform agnostic**. That is, your project does not need to target a specific .NET platform. The analyzers work for projects that target `net5.0` as well as earlier .NET versions, such as `netcoreapp`, `netstandard`, and `net472`.
+.NET compiler platform (Roslyn) analyzers inspect your C# or Visual Basic code for code quality and code style issues. The first-party .NET analyzers are **target-platform agnostic**. That is, your project doesn't need to target a specific .NET platform. The analyzers work for projects that target `net5.0` and earlier .NET versions, such as `netcoreapp`, `netstandard`, and `net472`.
 
 You can enable or install the first-party .NET analyzers in one of the following ways:
 
