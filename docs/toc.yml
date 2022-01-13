@@ -682,27 +682,14 @@
             href: ide/step-8-customize-the-quiz.md
         - name: "Tutorial 3: Create a matching game (C#)"
           items:
-          - name: Overview
-            displayName: Tutorial 3 Matching game
-            href: ide/tutorial-3-create-a-matching-game.md
-          - name: "Step 1: Create a project and add a table to your form"
-            href: ide/step-1-create-a-project-and-add-a-table-to-your-form.md
-          - name: "Step 2: Add a random object and a list of icons"
-            href: ide/step-2-add-a-random-object-and-a-list-of-icons.md
-          - name: "Step 3: Assign a random icon to each label"
-            href: ide/step-3-assign-a-random-icon-to-each-label.md
-          - name: "Step 4: Add a click event handler to each label"
-            href: ide/step-4-add-a-click-event-handler-to-each-label.md
-          - name: "Step 5: Add label references"
-            href: ide/step-5-add-label-references.md
-          - name: "Step 6: Add a timer"
-            href: ide/step-6-add-a-timer.md
-          - name: "Step 7: Keep pairs visible"
-            href: ide/step-7-keep-pairs-visible.md
-          - name: "Step 8: Add a method to verify whether the player won"
-            href: ide/step-8-add-a-method-to-verify-whether-the-player-won.md
-          - name: "Step 9: Try other features"
-            href: ide/step-9-try-other-features.md
+          - name: 1. Create a matching game
+            href: ide/tutorial-windows-forms-create-match-game.md
+          - name: 2. Add icons to your match game
+            href: ide/tutorial-windows-forms-match-game-icons.md
+          - name: 3. Add labels and a timer
+            href: ide/tutorial-windows-forms-match-game-labels.md
+          - name: 4. Play your match game
+            href: ide/tutorial-windows-forms-match-game-play.md
     - name: F#
       items:
       - name: F# development
@@ -835,8 +822,6 @@
       href: ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md
     - name: Change the build output directory
       href: ide/how-to-change-the-build-output-directory.md
-    - name: Build to a common output directory
-      href: ide/how-to-build-to-a-common-output-directory.md
     - name: Specify custom build events
       href: ide/specifying-custom-build-events-in-visual-studio.md
     - name: Set multiple startup projects

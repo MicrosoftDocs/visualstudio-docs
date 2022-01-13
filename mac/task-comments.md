@@ -3,7 +3,9 @@ title: "Task Comments"
 description: "Adding task comments to your code"
 author: jmatthiesen
 ms.author: jomatthi
+manager: dominicn
 ms.date: 11/09/2020
+ms.topic: reference
 ms.assetid: 562DCB46-D8FA-4DC4-AAEA-F274448C4CD2
 ---
 

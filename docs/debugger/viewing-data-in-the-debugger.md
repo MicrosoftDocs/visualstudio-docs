@@ -4,8 +4,6 @@ description: Learn the various ways  to inspect and modify program state in Visu
 ms.custom: SEO-VS-2020
 ms.date: "01/09/2019"
 ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug"
 dev_langs:
   - "CSharp"
   - "VB"
