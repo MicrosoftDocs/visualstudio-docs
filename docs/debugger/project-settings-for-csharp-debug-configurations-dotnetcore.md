@@ -63,11 +63,12 @@ The settings provided in the launch profiles UI include the following.
 |**Url**|Specifies the location of host URL for .NET or .NET Core. For a profile named after the project (that is, the commandName property in *launchSettings.json* is *Project*), the Kestrel server listens to the port specified. For an IIS profile, this is typically the same value as the **App URL**. For more information, see the IIS launch profile section under [Configure the project](/aspnet/core/host-and-deploy/iis/development-time-iis-support#configure-the-project).|
 |**App URL**|Specifies the application URL(s). For a profile named after the project, this property specifies the Kestrel server URLs, typically https://localhost:5001 and http://localhost:5000|
 
-Visual Studio provides an IIS Express profile by default, and you can create additional profiles such as an IIS profile. These settings also correspond to settings in *launchSettings.json*. These two profile types share several settings, such as the Hosting model.
+Visual Studio provides an IIS Express profile by default, and you can create additional profiles such as an IIS profile. These settings also correspond to settings in *launchSettings.json*. These two profile types provide several settings, such as the Hosting model.
 
 |Setting|Description|
 |-------------------------------------| - |
 |**Hosting model**|Specify In Process (default) or Out of Process. For more information, see [Hosting models](/aspnet/core/host-and-deploy/aspnet-core-module#hosting-models) in the ASP.NET Core docs.|
+|**App SSL URL**|For IIS Express, the **App SSL URL** is typically http://localhost:44334.|
 
 ## Build tab
 
