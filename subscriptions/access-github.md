@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 2249b32a-46d7-4e29-b543-4769c71ceda6
-ms.date: 10/08/2021
+ms.date: 01/14/2022
 ms.topic: conceptual
 description: Learn about accessing GitHub Enterprise as part of Visual Studio subscriptions
 ---
@@ -74,6 +74,9 @@ A:  The process for setting up a GitHub Enterprise account can take a while.  If
 
 ### Q: Do I get the full Visual Studio subscription benefits?
 A:  Along with GitHub Enterprise, you receive all of the benefits of a standard Visual Studio subscription including software downloads, cloud services, technical support, and partner benefits just as if the subscription was purchased separately.
+
+### Q:  Is GitHub Enterprise included in subscriptions purchased in all channels?
+No.  GitHub Enterprise is currently available to organizations who purchase using Enterprise Agreements.  
 
 ## Support resources
 - Learn more about GitHub assignment at [GitHub Docs](https://docs.github.com/en/enterprise-cloud@latest/billing/managing-licenses-for-visual-studio-subscriptions-with-github-enterprise/about-visual-studio-subscriptions-with-github-enterprise)
