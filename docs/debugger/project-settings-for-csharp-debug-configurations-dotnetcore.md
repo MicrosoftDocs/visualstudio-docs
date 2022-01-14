@@ -46,22 +46,28 @@ Starting in Visual Studio 2022, choose **Open debug launch profiles UI** in the 
 |**Command-line arguments** | Specifies command-line arguments for the app being debugged. The command name is the app name specified in **Start external program**. |
 |**Working directory** | Specifies the working directory of the app being debugged. In C#, the working directory is *\bin\debug* by default. |
 |**Use remote machine**|For remote debugging, select this option and enter the name of the remote debugging target, or an [Msvsmon server name](../debugger/remote-debugging.md). <br />The location of an app on the remote machine is specified by the **Output Path** property on the **Build** tab. The location must be a shareable directory on the remote machine. |
-|**Environment variables**|Sets environment variables prior to running the application process.|
+|**Environment variables**|Sets environment variables prior to running the application process. For ASP.NET Core, see [Environments](/aspnet/core/fundamentals/environments#environments-1).|
 |**Enable unmanaged code debugging** | Debugs calls to native (unmanaged) Win32 code from the managed app. |
 |**Enable SQL Server debugging** | Debugs SQL Server database objects. |
 |**Enable WebView2 debugging**| Debugs JavaScript with Microsoft Edge (Chromium) based debugger.|
 
 ## Launch profile (ASP.NET Core)
 
-In addition to the properties for .NET, ASP.NET Core launch profiles include several additional properties for the ASP.NET Core profile that is named for the project. These settings provide a simple UI for the project's *launchSettings.json* file.
+In addition to the properties for .NET, ASP.NET Core launch profiles include several additional properties for the different ASP.NET Core profiles. These settings provide a simple UI for the project's *launchSettings.json* file. For more information on this file, see the Development and launchSettings.json section in [Use multiple environments in ASP.NET Core](/aspnet/core/fundamentals/environments).
+
+The settings provided in the launch profiles UI include the following.
 
 |Setting|Description|
 |-------------------------------------| - |
 |**Launch browser**|Select whether to launch the default browser when you start debugging, using the URL you set in the **Url** setting.|
-|**Url**|Specifies the location of host URL for .NET. The Kestrel server listens to the port specified.|
-|**App URL**|Specifies the application URLs.|
+|**Url**|Specifies the location of host URL for .NET or .NET Core. For a profile named after the project (that is, the commandName property in *launchSettings.json* is *Project*), the Kestrel server listens to the port specified. For an IIS profile, this is typically the same value as the **App URL**. For more information, see the IIS launch profile section under [Configure the project](/aspnet/core/host-and-deploy/iis/development-time-iis-support#configure-the-project).|
+|**App URL**|Specifies the application URL(s). For a profile named after the project, this property specifies the Kestrel server URLs, typically https://localhost:5001 and http://localhost:5000|
 
-There is also an IIS Express profile by default. This profile has similar properties, in addition to several that are specific to IIS Express. These settings provide a simple UI for the IIS Express profile in *launchSettings.json*. The supplemental properties are not described here.
+Visual Studio provides an IIS Express profile by default, and you can create additional profiles such as an IIS profile. These settings also correspond to settings in *launchSettings.json*. These two profile types share several settings, such as the Hosting model.
+
+|Setting|Description|
+|-------------------------------------| - |
+|**Hosting model**|Specify In Process (default) or Out of Process. For more information, see [Hosting models](/aspnet/core/host-and-deploy/aspnet-core-module#hosting-models) in the ASP.NET Core docs.|
 
 ## Build tab
 
