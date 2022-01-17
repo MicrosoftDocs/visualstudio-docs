@@ -1,7 +1,7 @@
 ---
 title: "Write unit tests for C/C++"
 description: Write C++ unit tests in Visual Studio using various test frameworks including CTest, Boost.Test, and Google Test.
-ms.date: 12/15/2021
+ms.date: 01/17/2022
 ms.custom: devdivchpfy22
 ms.topic: conceptual
 ms.author: "corob"
@@ -32,7 +32,7 @@ C++ unit test projects support [CodeLens](../ide/find-code-changes-and-other-his
 
 **Visual Studio 2017 and later (all editions)**
 
-- **Google Test Adapter** is included as a default component of the **Desktop development with C++** workload. It has a project template that you can add to a solution. Use the **Add New Project** right-click menu on the solution node in **Solution Explorer** to add it. It also has options you can configure via **Tools** > **Options**. For more information, see [How to: Use Google Test in Visual Studio](how-to-use-google-test-for-cpp.md).
+- **Google Test Adapter** is included as a default component of the **Desktop development with C++** workload. It has a project template that you can add to a solution. Right-click on the solution node in **Solution Explorer** and choose **Add** > **New Project** on the shortcut menu to add the project template. It also has options you can configure via **Tools** > **Options**. For more information, see [How to: Use Google Test in Visual Studio](how-to-use-google-test-for-cpp.md).
 
 - **Boost.Test** is included as a default component of the **Desktop development with C++** workload. It's integrated with **Test Explorer**, but currently doesn't have a project template. It must be manually configured. For more information, see [How to: Use Boost.Test in Visual Studio](how-to-use-boost-test-for-cpp.md).
 
@@ -50,14 +50,15 @@ The following sections show the basic steps to get you started with C++ unit tes
 
 ### Create a test project in Visual Studio 2022
 
-Define and run tests inside one or more test projects. Create the projects in the same solution as the code you want to test. 
+Define and run unit tests inside one or more **test projects**. A test project creates a separate app that calls the code in your executable and reports on its behavior. Create test projects in the same solution as the code you want to test.
+
 To add a new test project to an existing solution,
 
 1. Right-click on the Solution node in **Solution Explorer**. 
 1. In the pop-up menu, choose **Add** > **New Project**. 
 1. Set **Language** to **C++** and type "test" into the search box. The following illustration shows the test projects that are available when the **Desktop Development with C++** and the **UWP Development** workload are installed:
 
-![C++ Test Projects in VIsual Studio 2019](media/vs-2022/cpp-new-test-project-vs2022.png)
+![C++ Test Projects in VIsual Studio 2022](media/vs-2022/cpp-new-test-project-vs2022.png)
 
 ::: moniker-end
 
@@ -119,7 +120,7 @@ The *.cpp* file in your test project has a stub class and method defined for you
 
 TEST_CLASS and TEST_METHOD are part of the [Microsoft Native Test Framework](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md). **Test Explorer** discovers test methods in other supported frameworks in a similar way.
 
-A TEST_METHOD returns void. To produce a test result, use the static methods in the `Assert` class to test actual results against expected results. In the following example, assume `MyClass` has a constructor that takes a `std::string`. We can test that the constructor initializes the class as expected and shown in this example:
+A TEST_METHOD returns void. To produce a test result, use the static methods in the `Assert` class to test actual results against expected results. In the following example, assume `MyClass` has a constructor that takes a `std::string`. This example shows how you can test that the constructor initializes the class the way you expect:
 
 ```cpp
 TEST_METHOD(TestClassInit)
@@ -130,7 +131,7 @@ TEST_METHOD(TestClassInit)
 }
 ```
 
-In the previous example, the result of the `Assert::AreEqual` call determines whether the test passes or fails. The Assert class contains many other methods for comparing expected vs. actual results.
+In the previous example, the result of the `Assert::AreEqual` call determines whether the test passes or fails. The `Assert` class contains many other methods to compare expected results with actual results.
 
 You can add *traits* to test methods to specify test owners, priority, and other information. You can then use these values to sort and group tests in **Test Explorer**. For more information, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md).
 
@@ -143,7 +144,7 @@ You can add *traits* to test methods to specify test owners, priority, and other
    > [!NOTE]
    > CTest integration with **Test Explorer** is not yet available. Run CTest tests from the CMake main menu.
 
-1. If all your tests aren't visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
+1. If any of your tests are missing from the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
 
 1. In **Test Explorer**, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled. After running all the tests, the window shows the tests that passed and the ones that failed.
 
