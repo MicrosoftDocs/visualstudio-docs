@@ -1,6 +1,6 @@
 ---
 title: Suppress code analysis violations
-ms.date: 01/17/2022
+ms.date: 01/18/2022
 description: Learn how to suppress code analysis violations in Visual Studio. Understand how to use the SuppressMessageAttribute attribute for in-source suppression.
 ms.custom: SEO-VS-2020, devdivchpfy22
 ms.topic: conceptual
@@ -242,7 +242,7 @@ Global-level suppressions are the only way to suppress messages that refer to co
 
 #### Global suppression file
 
-The global suppression file maintains suppressions that are either global-level suppressions or suppressions that don't specify a target. For example, suppressions for assembly-level violations are stored in this file. Additionally, some ASP.NET suppressions are stored in this file because project-level settings aren't available for code behind a form. A global suppression file is created and added to your project the first time that you select the **In Project Suppression File** option of the **Suppress** command in the **Error List** window.
+The global suppression file maintains suppressions that are either global-level suppressions or suppressions that don't specify a target. For example, suppressions for assembly-level violations are stored in this file. Additionally, some ASP.NET suppressions are stored in this file because project-level settings aren't available for code behind a form. A global suppression file is created and added to your project the first time you select the **In Project Suppression File** option of the **Suppress** command in the **Error List** window.
 
 #### Module suppression scope
 
