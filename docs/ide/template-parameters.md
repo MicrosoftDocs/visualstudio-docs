@@ -53,7 +53,7 @@ The following table lists the reserved template parameters that can be used by a
 |machinename|The current computer name (for example, Computer01).|
 |projectname|The name provided by the user when the project was created.|
 |registeredorganization|The registry key value from HKLM\Software\Microsoft\Windows NT\CurrentVersion\RegisteredOrganization.|
-|rootnamespace|The root namespace of the current project. This parameter applies only to item templates.|
+|rootnamespace|The root namespace of the current project followed by the subfolder of the current item, with slashes replaced by periods. This parameter applies only to item templates.|
 |safeitemname|Same as `itemname` but with all unsafe characters and spaces replaced by underscore characters.|
 |safeitemrootname|Same as `safeitemname`.|
 |safeprojectname|The name provided by the user when the project was created but with all unsafe characters and spaces removed.|
