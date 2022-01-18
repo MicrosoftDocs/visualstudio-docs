@@ -36,9 +36,9 @@ Template parameters are declared in the format $*parameter*$. For example:
 
 1. In the code file for the project item, include parameters where appropriate. For example, the following parameter specifies that the safe project name is used for the namespace in a file:
 
-    ```csharp
-    namespace $safeprojectname$
-    ```
+   ```csharp
+   namespace $safeprojectname$
+   ```
 
 ## Reserved template parameters
 
@@ -47,13 +47,13 @@ The following table lists the reserved template parameters that can be used by a
 |Parameter|Description|
 |---------------|-----------------|
 |clrversion|Current version of the common language runtime (CLR).|
-|ext_*|Add the `ext_` prefix to any parameter to refer to the variables of the parent template. For example, `ext_safeprojectname`.|
+|ext_\*|Add the `ext_` prefix to any parameter to refer to the variables of the parent template. For example, `ext_safeprojectname`.|
 |guid[1-10]|A GUID used to replace the project GUID in a project file. You can specify up to 10 unique GUIDs (for example, `guid1`).|
 |itemname|The name of the file in which the parameter is being used.|
 |machinename|The current computer name (for example, Computer01).|
 |projectname|The name provided by the user when the project was created.|
 |registeredorganization|The registry key value from HKLM\Software\Microsoft\Windows NT\CurrentVersion\RegisteredOrganization.|
-|rootnamespace|The root namespace of the current project. This parameter applies only to item templates.|
+|rootnamespace|The root namespace of the current project followed by the subfolder of the current item, with slashes replaced by periods. This parameter applies only to item templates.|
 |safeitemname|Same as `itemname` but with all unsafe characters and spaces replaced by underscore characters.|
 |safeitemrootname|Same as `safeitemname`.|
 |safeprojectname|The name provided by the user when the project was created but with all unsafe characters and spaces removed.|
