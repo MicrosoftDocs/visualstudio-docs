@@ -180,10 +180,10 @@
           href: accessibility-voiceover.md
 - name: Reference
   items:
-    - name: Supported versions of .NET
+    - name: ASP.NET Core
       items: 
-        - name: .NET Core Support
-          href: net-core-support.md
+        - name: Supported versions of .NET
+          href: supported-versions-net.md
         - name: Getting Started with ASP.NET Core
           href: asp-net-core.md
         - name: Building ASP.NET Core applications in Visual Studio for Mac

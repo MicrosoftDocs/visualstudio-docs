@@ -1,5 +1,5 @@
 ---
-title: ".NET Core support"
+title: "Supported versions of .NET"
 description: This document covers the .NET Core Versions support in Visual Studio for Mac
 author: jmatthiesen
 ms.author: jomatthi
@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.assetid: 8B8CEBE8-00DA-4AD1-8193-77F58B57F244
 ---
 
-# .NET Core Support
+# Supported versions of .NET
 
 The following table describes the versions of .NET Core supported by the stable and preview versions of Visual Studio for Mac:
 
