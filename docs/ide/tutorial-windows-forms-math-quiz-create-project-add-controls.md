@@ -54,7 +54,36 @@ When you create a math quiz, the first step is to create a Windows Forms App pro
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
+
+1. Open Visual Studio.
+
+1. On the start window, select **Create a new project**.
+
+   :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/create-new-project-dark-theme-2019.png" alt-text="Screenshot that shows the Create a new project option in the Visual Studio start window.":::
+
+1. In the **Create a new project** window, search for **Windows Forms**. Then select **Desktop** from the **Project type** list.
+
+1. Select the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then select **Next**.
+
+   :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/create-project-windows-forms.png" alt-text="Screenshot that shows the Create a new project dialog box. The search box, the Project type list, and two templates are called out.":::
+
+   > [!NOTE]
+   > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, select **Install more tools and features**.
+   >
+   > :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/install-more-tools.png" alt-text="Screenshot that shows the Install more tools and features link from the Not finding what you're looking for message in the Create new project dialog box.":::
+   >
+   > Next, in Visual Studio Installer, select **.NET desktop development**.
+   >
+   > :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/install-dot-net-desktop-env.png" alt-text="Screenshot that shows the dot NET desktop development workload in Visual Studio Installer.":::
+   >
+   > Select **Modify** in Visual Studio Installer. You might be prompted to save your work. Next, select **Continue** to install the workload.
+
+1. In the **Configure your new project** window, name your project **MathQuiz**, and then select **Create**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
 
 1. Open Visual Studio.
 
