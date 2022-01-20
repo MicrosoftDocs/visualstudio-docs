@@ -142,6 +142,6 @@ Visual Studio launches a browser window that displays JSON matching the "Hello W
 Congratulations on completing this Quickstart! We hope you learned something about F#, ASP.NET Core, and the Visual Studio IDE. To see the app running on a public server, select the following button.
 
 > [!div class="nextstepaction"]
-> [Deploy the app to Azure App Service](../deployment/quickstart-deploy-to-azure.md)
+> [Deploy the app to Azure App Service](../deployment/quickstart-deploy-aspnet-web-app.md)
 
 To learn more about F#, check out the official [F# Guide](/dotnet/fsharp/index).

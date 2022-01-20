@@ -4,8 +4,8 @@ description: "Learn about the new and updated features that you can use to manag
 ms.date: 10/18/2021
 ms.topic: conceptual
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 2dc938b5-37e9-4dfc-8676-5d0a91d366ab
 ---
 

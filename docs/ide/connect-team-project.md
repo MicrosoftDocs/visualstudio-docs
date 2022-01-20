@@ -2,7 +2,7 @@
 title: Connect to projects in Team Explorer
 description: Learn how to use Team Explorer in Visual Studio to work with team members to develop and manage projects.
 ms.custom: SEO-VS-2020
-ms.date: 11/05/2021
+ms.date: 11/11/2021
 ms.topic: conceptual
 ms.author: tglee
 author: TerryGLee
@@ -28,7 +28,7 @@ Team Explorer connects Visual Studio 2019 and earlier to Team Foundation version
 
 How you use Team Explorer to connect to a project depends on the version of Visual Studio 2019 you're using.
 
-## In version 16.8 and later
+## In Visual Studio 2019 version 16.8 and later
 
 1. Open Visual Studio 2019.
 
@@ -55,7 +55,7 @@ How you use Team Explorer to connect to a project depends on the version of Visu
 
       ![Screenshot of the 'Team Explorer' dialog box that's generated from Visual Studio 2019 version 16.8 and later](../ide/media/vs-2019/team-explorer-azure-devops.png)
 
-## In version 16.7 and earlier
+## In Visual Studio 2019 version 16.7 and earlier
 
 1. Open Visual Studio 2019.
 
@@ -118,14 +118,14 @@ To connect to a project:
    ![Connect to a project in Team Explorer](media/team-explorer/connect-project.png "The Team Explorer - Connect to a Project option in Visual Studio.")
 
 > [!TIP]
-> If you want to open a project from a repo, see [Open a project from a repo](../get-started/tutorial-open-project-from-repo-visual-studio-2017.md). If you want to create a new project or add users to a project, see [Create a project (Azure DevOps)](/azure/devops/organizations/projects/create-project) and [Add users to a project or team (Azure DevOps)](/azure/devops/organizations/security/add-users-team-project).
+> If you want to open a project from a repo, see [Open a project from a repo](/visualstudio/get-started/tutorial-open-project-from-repo?view=vs-2017&preserve-view=true). If you want to create a new project or add users to a project, see [Create a project (Azure DevOps)](/azure/devops/organizations/projects/create-project) and [Add users to a project or team (Azure DevOps)](/azure/devops/organizations/security/add-users-team-project).
 
 ::: moniker-end
 
 ## See also
 
-- [Compare Git and Team Explorer side-by-side](git-team-explorer-feature-comparison.md)
-- [The new Git experience in Visual Studio](git-with-visual-studio.md)
+- [Compare Git and Team Explorer side-by-side](../version-control/git-team-explorer-feature-comparison.md)
+- [Visual Studio version control documentation](../version-control/index.yml)
 - [Team Explorer reference](reference/team-explorer-reference.md)
 - [Connect to a project (Azure DevOps)](/azure/devops/organizations/projects/connect-to-projects)
 - [Troubleshoot connecting to a project](/azure/devops/user-guide/troubleshoot-connection?view=azure-devops&preserve-view=true)

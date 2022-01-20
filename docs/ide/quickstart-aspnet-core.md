@@ -266,7 +266,7 @@ Congratulations on completing this Quickstart! We hope you learned slightly abou
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-index-cshtml-page-hello-world.png" alt-text="Screenshot showing the 'Index.cshtml' file in the Visual Studio code editor with the 'Welcome' text changed to 'Hello World!'.":::
 
-1. Choose **IIS Express** or press **Ctrl**+**F5** to run the app and open it in a web browser.
+1. Select **IIS Express** or press **Ctrl**+**F5** to run the app and open it in a web browser.
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-generic-iis-button.png" alt-text="Screenshot showing the IIS Express button highlighted in Visual Studio.":::
 
@@ -295,4 +295,4 @@ Or, learn how to containerize your web app with Docker:
 
 ## See also
 
-[Publish your web app to Azure App Service by using Visual Studio](../deployment/quickstart-deploy-to-azure.md)
+[Publish your web app to Azure App Service by using Visual Studio](../deployment/quickstart-deploy-aspnet-web-app.md)

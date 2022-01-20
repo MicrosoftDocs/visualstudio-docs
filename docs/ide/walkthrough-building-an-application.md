@@ -12,12 +12,11 @@ ms.workload:
 - multiple
 ---
 # Walkthrough: Build an application
-
-By completing this walkthrough, you'll become more familiar with several options that you can configure when you build applications with Visual Studio. You'll create a custom build configuration, hide certain warning messages, and increase build output information for a sample application.
+In this article, you'll become more familiar with several options that you can configure when you build applications with Visual Studio. You'll create a custom build configuration, hide certain warning messages, and increase build output information for a sample application.
 
 ## Install the sample application
 
-Download the [Introduction to building WPF applications](https://code.msdn.microsoft.com/Introduction-to-Building-b8d16419) sample. Choose either C# or Visual Basic. After the *.zip* file has downloaded, extract it and open the *ExpenseItIntro.sln* file using Visual Studio.
+Download the [Introduction to building WPF applications](https://github.com/microsoft/wpf-samples/tree/main/Getting%20Started/Concepts) sample. Choose either C# or Visual Basic. After the *.zip* file has downloaded, extract it and open the *ExpenseItIntro.sln* file using Visual Studio.
 
 ## Create a custom build configuration
 

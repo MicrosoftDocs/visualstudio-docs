@@ -4,8 +4,6 @@ description: Understand allocation hooks and C run-time memory allocations in Vi
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.hooks"
 dev_langs:
   - "CSharp"
   - "VB"

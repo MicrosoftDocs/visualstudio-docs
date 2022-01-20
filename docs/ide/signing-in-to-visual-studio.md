@@ -2,7 +2,7 @@
 title: Sign in 
 description: Sign in to Visual Studio to Extend the Visual Studio trial period, Unlock Visual Studio, and more
 ms.custom: "contperf-fy21q1"
-ms.date: 09/11/2020
+ms.date: 12/10/2021
 ms.topic: how-to
 ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
 author: anandmeg
@@ -14,60 +14,86 @@ ms.workload:
 ---
 # Sign in to Visual Studio on Windows 
 
-While you don't have to sign in, there are many advantages to doing so. In this article, you'll learn [how to sign in](#how-to-sign-in), how to [update your profile](#update-your-profile), and the benefits to your Visual Studio experience. 
-
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Sign in to Visual Studio for Mac](/visualstudio/mac/signing-in).
+In this article, you'll learn:
++ [The benefits to account sign in](#benefits)
++ How to [sign in](#sign-in) with an account
++ How to [update your profile](#update-your-profile)
 
 ::: moniker range="vs-2017"
 
 > [!WARNING]
-> To work with resources configured for conditional access, upgrade to Visual Studio 2019 Update 16.6 or later. For more information, see [How to use Visual Studio with accounts that require multi-factor authentication](work-with-multi-factor-authentication.md).
-> Using Visual Studio 2017 to access resources configured for conditional access may trigger a degraded authentication experience, prompting reauthentication several times within the same Visual Studio session. 
-> 
+> To work with resources configured for conditional access or multi-factor authentication, you need Visual Studio 2019 Update 16.6 or later. Earlier versions may trigger a degraded authentication experience, prompting reauthentication several times within the same Visual Studio session. 
+
 ::: moniker-end
 
-Here's a full list of what you can expect and what you can do after you sign in:
+<a name="benefits"></a>
+## Benefits: why sign in? 
+
+While you don't have to sign in, there are many advantages to doing so.   
 
 |Benefit|Description|
 |---|---|
-|Extend the Visual Studio trial period|Use Visual Studio Professional or Visual Studio Enterprise **for an additional 90 days**, instead of being limited to the trial period of 30 days. <br/>See [Extend a trial version or update a license](../ide/how-to-unlock-visual-studio.md).|
-|Unlock Visual Studio (Visual Studio subscription or an Azure DevOps organization)|Unlock Visual Studio if you use an account that's associated with a Visual Studio subscription or an Azure DevOps organization.<br/>See [Extend a trial version or update a license](../ide/how-to-unlock-visual-studio.md).|
-|Synchronize your Visual Studio settings|Settings that you customize, such as key bindings, window layout, and color theme, apply immediately when you sign in to Visual Studio on any device. <br/>See [Synchronize settings in Visual Studio](../ide/synchronized-settings-in-visual-studio.md).|
-|Automatically connect to services|Connect to services, such as Azure and Azure DevOps Services, in the IDE without prompting again for credentials for the same account.|
-|Continue using Visual Studio Community edition|If your Community edition installation prompts you for a license, sign in to the IDE to continue using Visual Studio Community for **free**. |
-|Get 'Visual Studio Dev Essentials'|This program includes free software offerings, training, support, and more. <br/>See [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/).|
+|[Extend your Visual Studio trial period](../ide/how-to-unlock-visual-studio.md)|Use Visual Studio Professional or Visual Studio Enterprise **for an additional 90 days**, instead of being limited to the trial period of 30 days.|
+|[Unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)|Unlock Visual Studio if you use an account that's associated with a [Visual Studio subscription](/visualstudio/subscriptions/using-the-subscriber-portal) or an Azure DevOps organization.|
+|[Synchronize](../ide/synchronized-settings-in-visual-studio.md) your settings|Settings that you customize, such as key bindings, window layout, and color theme, apply immediately when you sign in to Visual Studio on any device.|
+|Auto-connect to Azure services|Connect to services, such as Azure and Azure DevOps Services, in the IDE without prompting again for credentials for the same account.|
+|Continue using our Community edition|If the installation prompts you for a license, sign in to the IDE to continue using Visual Studio Community for **free**. |
+|[Get 'Visual Studio Dev Essentials'](https://visualstudio.microsoft.com/dev-essentials/)|This program includes free software, training, support, and more.|
 
+<a name="sign-in"></a>
+## Sign in to account
 
-## How to sign in 
+::: moniker range="<=vs-2019"
 
-When you open Visual Studio for the first time, you're asked to sign in and provide some basic registration information.
+1. Launch Visual Studio. When you open Visual Studio for the first time, you're asked to sign in and provide some basic registration information.
 
-![Sign-in prompt](../ide/media/vs2019_signinpopup.png)
-
-1. Choose a Microsoft account or a work or school account that best represents you. If you don't have any of these accounts, you can create a Microsoft account for free by clicking the link under the sign in button. If you're having trouble, see [How do I sign up for a Microsoft account?](https://support.microsoft.com/help/4026324/microsoft-account-how-to-create)
-
-2. Choose the UI settings and color theme that you want to use in Visual Studio. Visual Studio remembers these settings and synchronizes them across all Visual Studio environments you have signed in to. For a list of the settings that are synchronized, see [Synchronized settings](../ide/synchronized-settings-in-visual-studio.md). You can change the settings later if you open the **Tools** > **Options** menu in Visual Studio.
-   After you provide the settings, Visual Studio starts, and you're signed in and ready to get started. 
+   ![Sign-in prompt](../ide/media/vs2019_signinpopup.png)
    
-1. To verify whether you're signed in, look for your name in the upper-right corner of the Visual Studio environment.
+   > [!NOTE]
+   > If you choose not to sign in when you first open Visual Studio, it's easy to do so later. Look for the **Sign in** link in the upper-right corner of the Visual Studio environment.
 
-![Currently logged in user in VS2019](../ide/media/vs2019_username.png)
+::: moniker-end
 
-If you choose not to sign in when you first open Visual Studio, it's easy to do so later. Look for the **Sign in** link in the upper-right corner of the Visual Studio environment.
+::: moniker range="vs-2022"
 
-![Not signed in user](../ide/media/vs2019_usernotsignedin.png)
+1. Launch Visual Studio.  When you open Visual Studio for the first time, you're asked to sign in and provide some basic registration information.
 
-Unless you sign out, you're automatically signed in to Visual Studio whenever you start it, and any changes to synchronized settings are automatically applied. To sign out, click on the icon with your profile name in the upper-right corner of the Visual Studio environment, choose the **Account settings** command, and then choose the **Sign out** link. To sign in again, choose the **Sign in** command in the upper-right corner of the Visual Studio environment.
+   ![Sign-in prompt](../ide/media/vs-2022/visual-studio-sign-in-pop-up.png)
+
+::: moniker-end
+
+2. Choose a Microsoft account or a work or school account.  If you don't have one, [create a Microsoft account for free](https://support.microsoft.com/help/4026324/microsoft-account-how-to-create) by selecting the link near the **Sign in** button. 
+
+3. Choose your preferred color theme and other the UI settings.  Visual Studio [remembers these settings and synchronizes](../ide/synchronized-settings-in-visual-studio.md) them across all Visual Studio environments you have signed in to. You can change the settings later if you open the **Tools** > **Options** menu in Visual Studio.
+
+   You can see that you're successfully signed in the upper-right corner of the Visual Studio environment.   Unless you sign out, you're automatically signed in to Visual Studio whenever you start it, and any changes to synchronized settings are automatically applied.
+
+::: moniker range="<=vs-2019"
+
+   ![Currently logged in user in VS2019](../ide/media/vs2019_username.png)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+   ![Currently logged in user in VS2019](../ide/media/vs-2022/visual-studio-sign-in.png)
+
+::: moniker-end
+
+
+## Sign out of account
+
+1. Click on the icon with your profile name in the upper-right corner of the Visual Studio environment
+2. Choose the **Account settings** command.
+3. Choose the **Sign out** link. 
 
 ## Update your profile
 
 1. Go to **File** > **Account Settings** and choose the **Manage Visual Studio profile** link.
-
 1. In the browser window, choose **Edit profile** and change the settings that you want.
-
 1. When you're done, choose **Save changes**.
 
-## Troubleshooting
+## See also
 
-See the [Subscription support](https://visualstudio.microsoft.com/subscriptions/support/) page to get help.
+- Troubleshooting: [Subscription support](https://visualstudio.microsoft.com/subscriptions/support/)
+- [Compare Visual Studio 2022 Editions](https://visualstudio.microsoft.com/vs/compare/)

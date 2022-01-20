@@ -4,8 +4,8 @@ description: Monthly Azure credits for Visual Studio subscribers are specificall
 ms.topic: include
 ms.assetid: 2d5a2fa9-f076-4e12-a2c9-cadd6ba66ee4
 ms.technology: 
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 4/3/2020
 ms.faqid: q5_4
 ---

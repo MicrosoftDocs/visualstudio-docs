@@ -40,7 +40,7 @@
     href: git-team-explorer-feature-comparison.md
 - name: What's new
   items:
-  - name: Multi-repo support in Visual Studio 2022
-    href: https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/
+  - name: Visual Studio 2022 Preview release notes
+    href: /visualstudio/releases/2022/release-notes-preview
   - name: Visual Studio 2022 release notes
     href: /visualstudio/releases/2022/release-notes

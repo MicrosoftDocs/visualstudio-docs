@@ -3,8 +3,8 @@ title: Unable to download or activate Visual Studio Enterprise or Professional
 description: Unable to download or activate Visual Studio Enterprise or Professional from Visual Studio Subscriptions
 ms.topic: include
 ms.assetid: 521818c1-124a-4ab9-a488-4326fdd1d18a
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 08/14/2020
 user.type: subscriber
 tags: download, activate

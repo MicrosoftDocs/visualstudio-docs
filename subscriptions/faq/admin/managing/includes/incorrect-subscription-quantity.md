@@ -4,8 +4,8 @@ description: If you're not seeing the correct number of subscriptions for your a
 ms.faqid: group1_7
 ms.topic: include
 ms.assetid: d97a767b-148d-488d-a860-778f406d8207
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 3/3/2020
 ---
 

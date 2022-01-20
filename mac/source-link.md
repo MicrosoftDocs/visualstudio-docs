@@ -1,9 +1,11 @@
 ---
 title: "Debugging into NuGet packages with Source Link"
 description: "This article describes the Source Link feature in Visual Studio for Mac."
-author: heiligerdankgesang
-ms.author: dominicn
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 12/16/2019
+ms.topic: conceptual
 ms.assetid: 4bcb8acf-db50-4bd8-a48e-86248f00c90b
 
 ---

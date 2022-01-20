@@ -1,8 +1,9 @@
 ---
 title: "Uninstall Visual Studio for Mac"
 description: "Instructions for uninstalling Visual Studio for Mac and related tools."
-author: heiligerdankgesang
-ms.author: dominicn
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 09/18/2019
 ms.technology: vs-ide-install
 ms.assetid: 4EB95F75-BC2E-4982-9564-2975805712D8
@@ -14,7 +15,8 @@ ms.topic: how-to
 You can use this guide to uninstall each component in Visual Studio for Mac individually by navigating to the relevant section, or you can use the scripts provided in the [Uninstall Script](#uninstall-script) section to uninstall everything.
 
 > [!NOTE]
-> This information will only remove Visual Studio 2019 or 2017 for Mac from your machine. to uninstall Visual Studio Code, see [this issue](https://github.com/Microsoft/vscode/issues/52151) for details.
+> We'd like to learn more about why you're uninstalling Visual Studio for Mac so we can make it better. If you have a few minutes, [please share your feedback](https://aka.ms/vs/mac/uninstallsurvey). Thank you!
+
 
 ## Uninstall Script
 
@@ -238,3 +240,4 @@ rm -rf ~/Library/Preferences/com.microsoft.visual-studio-preview.plist
 ## See also
 
 - [Uninstall Visual Studio (on Windows)](/visualstudio/install/uninstall-visual-studio)
+- [Uninstall Visual Studio Code](https://github.com/Microsoft/vscode/issues/52151)

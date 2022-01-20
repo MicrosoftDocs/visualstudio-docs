@@ -4,8 +4,8 @@ description: List of INCLUDEs files for Visual Studio subscriptions admin suppor
 ms.topic: conceptual
 ms.assetid: 478648b9-f6f0-4ea3-83b4-5cffa196a496
 robots: noindex, nofollow
-author: CaityBuschlen 
-ms.author: cabuschl 
+author: evanwindom 
+ms.author: amast 
 ms.date: 08/13/2021
 ---
 

@@ -6,8 +6,8 @@ ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "vs.toolsoptionspages.text_editor.r.lint"
-author: kraigb
-ms.author: kraigb
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-rtvs
 ms.workload:

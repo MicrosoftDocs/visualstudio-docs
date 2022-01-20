@@ -60,6 +60,10 @@
   items:
   - name: Azure DevTest offer
     href: /azure/devtest/offer/
+  - name: Azure Dev/Test offer eligibility
+    href: vs-azure-eligibility.md
+  - name: Maintain Azure credit access
+    href: azure-access.md  
   - name: Azure DevOps
     href: vs-azure-devops.md
 - name: Other benefits
@@ -168,8 +172,12 @@
       href: assign-license-bulk.md
     - name: Assign specific subscriptions
       href: assign-guid.md
+  - name: Access new agreements
+    href: agreement-renewals.md    
   - name: Move subscriptions to new agreements
-    href: migrate-subscriptions.md        
+    href: migrate-subscriptions.md    
+  - name: What happens when agreements renew
+    href: agreement-renewals.md    
   - name: Edit subscriptions
     href: edit-license.md
   - name: Delete subscriptions

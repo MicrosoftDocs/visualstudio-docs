@@ -3,8 +3,8 @@ title: Unable to download or activate Visual Studio Code
 description: Unable to download or activate Visual Studio Code from the subscriber portal
 ms.topic: include
 ms.assetid: 681cc2da-fd75-4ca2-a1c8-278fb9629881
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 08/14/2020
 user.type: subscriber
 tags: download, activate

@@ -3,8 +3,8 @@ title:  Resolve bulk upload issues
 description: The super admin or admin thought they assigned the users to the new agreement, but they added the users to the wrong agreement.
 ms.topic: include
 ms.assetid: 273f5f7a-739e-4de0-b7f7-d0bdd616e059
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date:  06/01/2021
 user.type: admin
 tags: bulk, upload
