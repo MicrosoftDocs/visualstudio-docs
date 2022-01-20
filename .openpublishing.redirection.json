@@ -45959,7 +45959,7 @@
     },
     {
       "source_path": "docs/ide/step-2-create-a-random-addition-problem.md",
-      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-add-code",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-add-math-problems",
       "redirect_document_id": false
     },
     {
@@ -45979,12 +45979,12 @@
     },
     {
       "source_path": "docs/ide/step-6-add-a-subtraction-problem.md",
-      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-add-code",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-add-math-problems",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/step-7-add-multiplication-and-division-problems.md",
-      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-add-code",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-add-math-problems",
       "redirect_document_id": false
     },
     {
