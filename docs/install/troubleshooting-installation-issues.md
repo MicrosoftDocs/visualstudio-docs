@@ -166,7 +166,7 @@ To collect the logs:
 
 WebView2 is a component that is required by Visual Studio, but installation of this component can be blocked by your organization’s Group Policies. Blocking the installation of WebView2 will prevent Visual Studio from being installed. 
 
-Two policies control the ability to install WebView2: [Microsoft Edge 'Install (WebView)'](https://docs.microsoft.com/deployedge/microsoft-edge-update-policies#install-webview) and [Microsoft Edge 'InstallDefault'](https://docs.microsoft.com/deployedge/microsoft-edge-update-policies#installdefault).
+Two policies control the ability to install WebView2: [Microsoft Edge 'Install (WebView)'](/deployedge/microsoft-edge-update-policies#install-webview) and [Microsoft Edge 'InstallDefault'](/deployedge/microsoft-edge-update-policies#installdefault).
 
 •	If the Microsoft Edge 'Install (WebView)' policy is configured, it will determine whether WebView2 can be installed.
 •	If the Microsoft Edge 'Install (WebView)' policy is not configured, the Microsoft Edge 'InstallDefault' policy will determine whether WebView2 can be installed.
