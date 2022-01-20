@@ -1,17 +1,19 @@
 ---
 title: "Docker tutorial - Part 2: Share your app"
 description: Describes how to share Docker images using the Docker Hub registry.
-ms.date: "08/06/2021"
-author: nebuk89
-ms.author: ghogen
+ms.prod: vs-code
+ms.topic: tutorial
+ms.author: mikemort
+author: BigMorty
 manager: jmartens
-ms.technology: vs-docker
-ms.custom: "contperf-fy22q1"
+ms.reviewer: "nebuk89, ghogen"
+ms.custom: “docker-team-owned”
+ms.date: 08/06/2021
 
-ms.topic: conceptual
-ms.workload:
-  - "azure"
+# Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---
+
+
 # Share your app
 
 Now that we've built an image, let's share it! To share Docker images, you have to use a Docker registry. The default registry is Docker Hub and is where all of the images we've used have come from.

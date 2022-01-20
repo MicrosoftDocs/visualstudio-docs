@@ -1,16 +1,16 @@
 ---
 title: "Tutorial: Get started with Docker & Visual Studio Code on Windows or Mac"
 description: A multi-step tutorial that covers the basics of working with Docker with Visual Studio Code.
-ms.date: "08/06/2021"
-author: nebuk89
-ms.author: ghogen
-manager: jmartens
-ms.technology: vs-docker
-ms.custom: "contperf-fy22q1"
+ms.prod: vs-code
 ms.topic: tutorial
-ms.workload:
-  - "azure"
-next_page: app.md
+ms.author: mikemort
+author: BigMorty
+manager: jmartens
+ms.reviewer: "nebuk89, ghogen"
+ms.custom: “docker-team-owned”
+ms.date: 08/06/2021
+
+# Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---
 
 # Tutorial: Get started with Docker

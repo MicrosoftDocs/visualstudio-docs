@@ -1,17 +1,18 @@
 ---
 title: "Docker tutorial - Part 2: Build and run the todo list sample app"
 description: Overview of the todo list sample app that runs in Node.js.
-ms.date: "08/06/2021"
-author: nebuk89
-ms.author: ghogen
+ms.prod: vs-code
+ms.topic: tutorial
+ms.author: mikemort
+author: BigMorty
 manager: jmartens
-ms.technology: vs-docker
-ms.custom: "contperf-fy22q1"
+ms.reviewer: "nebuk89, ghogen"
+ms.custom: “docker-team-owned”
+ms.date: 08/06/2021
 
-ms.topic: conceptual
-ms.workload:
-  - "azure"
+# Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---
+
 # Build and run the todo sample app
 
 >[!NOTE]
