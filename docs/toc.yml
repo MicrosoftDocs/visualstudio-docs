@@ -682,8 +682,8 @@
           items:
           - name: 1. Create the math quiz app
             href: ide/tutorial-windows-forms-math-quiz-create-project-add-controls.md
-          - name: 2. Add code to the app
-            href: ide/tutorial-windows-forms-math-quiz-add-code.md
+          - name: 2. Add math problems to the app
+            href: ide/tutorial-windows-forms-math-quiz-add-math-problems.md
           - name: 3. Add a timer to the app
             href: ide/tutorial-windows-forms-math-quiz-add-timer.md
           - name: 4. Customize the app

@@ -6,7 +6,7 @@ ms.custom:
 dev_langs:
   - "CSharp"
   - "VB"
-ms.date: 01/12/2022
+ms.date: 01/20/2022
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
@@ -16,11 +16,9 @@ ms.workload:
 - multiple
 ---
 
-# Tutorial: Customize a math quiz Windows Forms app in Visual Studio
+# Tutorial: Customize a math quiz WinForms app
 
 In this series of four tutorials, you'll build a math quiz. The quiz contains four random math problems that a quiz taker tries to answer within a specified time.
-
-The Visual Studio integrated development environment (IDE) provides the tools that you need to create the app. To learn more about this IDE, see [Welcome to the Visual Studio IDE](../get-started/visual-studio-ide.md).
 
 This tutorial shows you how to enhance your quiz by clearing default values and by customizing the appearance of controls.
 
@@ -115,4 +113,4 @@ Congratulations! You've finished this series of tutorials. You've completed thes
 
 Continue learning with another tutorial series on how to build a matching game.
 > [!div class="nextstepaction"]
-> [Tutorial 3: Create a matching game](tutorial-3-create-a-matching-game.md)
+> [Tutorial 3: Create a matching game](tutorial-windows-forms-create-match-game.md)

@@ -6,7 +6,7 @@ ms.custom:
 dev_langs:
   - "CSharp"
   - "VB"
-ms.date: 01/12/2022
+ms.date: 01/20/2022
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
@@ -16,11 +16,9 @@ ms.workload:
 - multiple
 ---
 
-# Tutorial: Add a Timer control to a math quiz Windows Forms app in Visual Studio
+# Tutorial: Add a Timer control to a math quiz WinForms app
 
 In this series of four tutorials, you'll build a math quiz. The quiz contains four random math problems that a quiz taker tries to answer within a specified time.
-
-The Visual Studio integrated development environment (IDE) provides the tools that you need to create the app. To learn more about this IDE, see [Welcome to the Visual Studio IDE](../get-started/visual-studio-ide.md).
 
 The quiz uses a Timer control. The code behind this control tracks the elapsed time and checks the quiz taker's answers.
 
@@ -52,13 +50,9 @@ To keep track of time during the quiz, you use a timer component. You also need 
 
 ## Check the answers
 
-Throughout the quiz, the code should check the quiz takers' answers. It also needs to check how much time has passed. If time has run out, or if the answers are correct, the quiz should end.
+Because the timer raises a Tick event every second, it makes sense to check the elapsed time in a Tick event handler. It's also practical to check the answers in that event handler. If time has run out, or if the answers are correct, the quiz should end.
 
-Because the timer raises a Tick event every second, it makes sense to put this programming logic in a Tick event handler.
-
-Before you write that event handler, you first need a method to determine whether the answers to the math problems are correct.
-
-Add a method called `CheckTheAnswer()`. This method should be in line with the other methods, such as `StartTheQuiz()`. Your code should look like the following sample.
+Before you write that event handler, add a method called `CheckTheAnswer()` to determine whether the answers to the math problems are correct. This method should be in line with the other methods, such as `StartTheQuiz()`. Your code should look like the following sample.
 
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step7/vb/form1.vb" id="Snippet17":::
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step7/cs/form1.cs" id="Snippet17":::
@@ -120,4 +114,4 @@ When your quiz starts, this code sets the **timeLeft** variable to 30 and the **
 
 Advance to the next tutorial to learn how to customize your math quiz.
 > [!div class="nextstepaction"]
-> [Tutorial part 4: Customize a math quiz Windows Forms app in Visual Studio](tutorial-windows-forms-math-quiz-customize-ui.md)
+> [Tutorial part 4: Customize a math quiz WinForms app](tutorial-windows-forms-math-quiz-customize-ui.md)

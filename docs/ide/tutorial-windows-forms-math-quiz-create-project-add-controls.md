@@ -3,7 +3,7 @@ title: "Tutorial: Create a 'math quiz' Windows Forms App"
 description: "Learn how to create a C# or Visual Basic Windows Forms project for a math quiz application. You'll use the Visual Studio IDE to add UI controls to a form."
 ms.custom: 
 - vs-acquisition
-ms.date: 01/12/2022
+ms.date: 01/20/2022
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
@@ -13,7 +13,7 @@ ms.workload:
 - multiple
 ---
 
-# Tutorial: Create a math quiz Windows Forms app in Visual Studio
+# Tutorial: Create a math quiz WinForms app
 
 In this series of four tutorials, you'll build a math quiz. The quiz contains four random math problems that a quiz taker tries to answer within a specified time.
 
@@ -260,4 +260,4 @@ The math problems don't work yet on your quiz. But you can still run your app to
 
 Advance to the next tutorial to add random math problems and an event handler to your math quiz.
 > [!div class="nextstepaction"]
-> [Tutorial part 2: Add code to a math quiz Windows Forms app in Visual Studio](tutorial-windows-forms-math-quiz-add-code.md)
+> [Tutorial part 2: Add math problems to a math quiz WinForms app](tutorial-windows-forms-math-quiz-add-math-problems.md)

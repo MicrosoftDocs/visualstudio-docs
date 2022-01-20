@@ -1,12 +1,12 @@
 ---
-title: "Tutorial: Add code to a Windows Forms app"
+title: "Tutorial: Add math problems to a Windows Forms app"
 description: Learn how to use the Visual Studio IDE to add an event handler and random math problems to the math quiz Windows Forms app.
 ms.custom: 
 - vs-acquisition
 dev_langs:
   - "CSharp"
   - "VB"
-ms.date: 01/12/2022
+ms.date: 01/20/2022
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
@@ -16,11 +16,9 @@ ms.workload:
 - multiple
 ---
 
-# Tutorial: Add code to a math quiz Windows Forms app in Visual Studio
+# Tutorial: Add math problems to a math quiz WinForms app
 
 In this series of four tutorials, you'll build a math quiz. The quiz contains four random math problems that a quiz taker tries to answer within a specified time.
-
-The Visual Studio integrated development environment (IDE) provides the tools that you need to create the app. To learn more about this IDE, see [Welcome to the Visual Studio IDE](../get-started/visual-studio-ide.md).
 
 Controls use C# or Visual Basic code. In this second tutorial, you make the quiz challenging by adding code for math problems that are based on random numbers. You also create a method that's named `StartTheQuiz()` to fill in the problems.
 
@@ -125,4 +123,4 @@ In this section, you add code to start the quiz when the start button is selecte
 
 Advance to the next tutorial to add a timer to your math quiz and check user answers.
 > [!div class="nextstepaction"]
-> [Tutorial part 3: Add a timer control to a math quiz Windows Forms app in Visual Studio](tutorial-windows-forms-math-quiz-add-timer.md)
+> [Tutorial part 3: Add a timer control to a math quiz WinForms app](tutorial-windows-forms-math-quiz-add-timer.md)
