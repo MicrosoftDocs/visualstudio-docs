@@ -1,6 +1,6 @@
 ---
 title: Turn off code analysis
-ms.date: 01/20/2020
+ms.date: 01/20/2022
 description: Learn how to turn off Visual Studio source code analysis in .NET Core, .NET Standard, and .NET Framework projects.
 ms.custom: SEO-VS-2020, devdivchpfy22
 ms.topic: how-to
@@ -39,7 +39,7 @@ To open this page, right-click the project node in **Solution Explorer** and sel
 - To disable live source analysis, uncheck the **Run on live analysis** option.
 
 > [!NOTE]
-> Starting in Visual Studio 2022 version 17.0.4, if you prefer the on-demand code analysis execution workflow, you can disable analyzer execution during live analysis and/or build and manually trigger code analysis once on a project or a solution on demand. For information about running code analysis manually, see [How to: Run Code Analysis Manually for Managed Code](how-to-run-code-analysis-manually-for-managed-code.md).
+> Starting in Visual Studio 2022 version 17.0.4, if you prefer on-demand code analysis execution workflow, you can disable analyzer execution during live analysis or build and manually trigger code analysis once on a project or a solution on demand. For information about running code analysis manually, see [How to: Run Code Analysis Manually for Managed Code](how-to-run-code-analysis-manually-for-managed-code.md).
 
 ## .NET Framework projects
 
@@ -85,7 +85,7 @@ To open this page, right-click the project node in **Solution Explorer** and sel
 - To disable live source analysis, uncheck the **Run on live analysis** option.
 
 > [!NOTE]
-> Starting in Visual Studio 2019 version 16.5, if you prefer the on-demand code analysis execution workflow, you can disable analyzer execution during live analysis and/or build and manually trigger code analysis once on a project or a solution on demand. For information about running code analysis manually, see [How to: Run Code Analysis Manually for Managed Code](how-to-run-code-analysis-manually-for-managed-code.md).
+> Starting in Visual Studio 2019 version 16.5, if you prefer on-demand code analysis execution workflow, you can disable analyzer execution during live analysis or build and manually trigger code analysis once on a project or a solution on demand. For information about running code analysis manually, see [How to: Run Code Analysis Manually for Managed Code](how-to-run-code-analysis-manually-for-managed-code.md).
 
 ## .NET Framework projects
 
