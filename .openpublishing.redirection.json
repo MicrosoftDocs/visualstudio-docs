@@ -45948,6 +45948,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/tutorial-2-create-a-timed-math-quiz.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-create-project-add-controls",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/step-1-create-a-project-and-add-labels-to-your-form.md",
       "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-create-project-add-controls",
       "redirect_document_id": false

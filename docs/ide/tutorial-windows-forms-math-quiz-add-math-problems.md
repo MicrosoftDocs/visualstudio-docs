@@ -31,7 +31,7 @@ In this second tutorial, you learn how to:
 
 ## Prerequisites
 
-This tutorial builds on a previous tutorial, [Create a math quiz Windows Forms app in Visual Studio](tutorial-windows-forms-math-quiz-create-project-add-controls.md). If you haven't completed that tutorial, go through it first.
+This tutorial builds on a previous tutorial, [Create a math quiz WinForms app](tutorial-windows-forms-math-quiz-create-project-add-controls.md). If you haven't completed that tutorial, go through it first.
 
 ## Create a random addition problem
 
