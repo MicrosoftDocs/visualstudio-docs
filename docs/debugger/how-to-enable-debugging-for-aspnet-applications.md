@@ -97,7 +97,7 @@ IIS Express is the default, and is preconfigured. If you're debugging on local I
 
 1. Under **Environment variables**, make sure that **ASPNETCORE_ENVIRONMENT** is present with a value of **Development**. If not, add the variable.
 
-   ![ASP.NET Core debugger settings](../debugger/media/vs-2022/dbg-aspnet-enable-debugging3.png "ASP.NET Core debugger settings")
+   ![ASP.NET Core debugger settings](../debugger/media/vs-2022/dbg-asp-dotnet-enable-debugging-3.png "ASP.NET Core debugger settings")
 
    For more information about environment variables, see [Environments](/aspnet/core/fundamentals/environments#environments-1).
 
