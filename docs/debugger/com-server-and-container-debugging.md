@@ -4,8 +4,6 @@ description: Learn about COM server and container debugging. Debug a COM server 
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.com"
 dev_langs:
   - "CSharp"
   - "VB"

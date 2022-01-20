@@ -1,9 +1,11 @@
 ---
 title: Visual Studio for Mac 17.0 and .NET on Apple Silicon machines
 description: Steps for getting supported versions of .NET working in 2022 on M1 machines.
-author: heiligerdankgesang
-ms.author: dominicn
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 11/08/2021
+ms.topic: how-to
 ms.assetid: 18f722bc-3d9d-4c75-9e77-d66b64784c8d
 ---
 

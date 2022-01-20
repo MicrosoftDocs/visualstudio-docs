@@ -1,9 +1,11 @@
 ---
 title: Multi-caret editing
 description: Insert text in multiple locations when editing code in Visual Studio for Mac.
-author: cobey
-ms.author: cobey
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 08/19/2019
+ms.topic: reference
 ---
 # Multi-caret editing
 

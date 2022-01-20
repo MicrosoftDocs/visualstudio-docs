@@ -1,6 +1,163 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/how-to-build-to-a-common-output-directory.md",
+      "redirect_url": "/visualstudio/ide/how-to-change-the-build-output-directory#build-to-a-common-outputdirectory",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mac/2017/accessibility-keyboard.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/accessibility-keyboard",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    },
+    {
+      "source_path": "mac/2017/accessibility.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/accessibility",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    },
+    {
+      "source_path": "mac/2017/asp-net-core.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/asp-net-core",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    },
+    {
+      "source_path": "mac/2017/customizing-the-ide.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/customizing-the-ide",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    },
+    {
+      "source_path": "mac/2017/enable-subscription.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/enable-subscription",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    },
+    {
+      "source_path": "mac/2017/extending-visual-studio-mac-walkthrough.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/extending-visual-studio-mac-walkthrough",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    },
+    {
+      "source_path": "mac/2017/install-behind-a-firewall-or-proxy-server.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/install-behind-a-firewall-or-proxy-server",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    },
+    {
+      "source_path": "mac/2017/installation.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/installation",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    },
+    {
+      "source_path": "mac/2017/javascript.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/javascript",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    },
+    {
+      "source_path": "mac/2017/keyboard-shortcuts.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/keyboard-shortcuts",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    },
+    {
+      "source_path": "mac/2017/nuget-walkthrough.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/nuget-walkthrough",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    },
+    {
+      "source_path": "mac/2017/projects-and-solutions.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/projects-and-solutions",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    },
+    {
+      "source_path": "mac/2017/signing-in.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/signing-in",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    },
+    {
+      "source_path": "mac/2017/uninstall.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/uninstall",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    },
+    {
+      "source_path": "mac/2017/update-vsmac-8.0.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/update-vsmac-8.0",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    },
+    {
+      "source_path": "mac/2017/update.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/update",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    },
+    {
+      "source_path": "mac/2017/updater-troubleshooting.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/updater-troubleshooting",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    },
+    {
+      "source_path": "mac/2017/user-accounts.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/user-accounts",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    },
+    {
+      "source_path": "mac/2017/workloads.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/workloads",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2017"
+      ]
+    },
+    {
       "source_path": "docs/python/python-azure-cloud-service-project-template.md",
       "redirect_url": "/visualstudio/python/managing-python-projects-in-visual-studio",
       "redirect_document_id": false
@@ -57867,6 +58024,121 @@
     {
       "source_path": "docs/ide/whats-new-visual-studio-docs-history.md",
       "redirect_url": "/visualstudio/ide/whats-new-visual-studio-docs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/tutorial-3-create-a-matching-game.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-create-match-game",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-1-create-a-project-and-add-a-table-to-your-form.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-create-match-game",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-2-add-a-random-object-and-a-list-of-icons.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-match-game-icons",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-3-assign-a-random-icon-to-each-label.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-match-game-icons",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-4-add-a-click-event-handler-to-each-label.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-match-game-icons",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-5-add-label-references.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-match-game-labels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-6-add-a-timer.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-match-game-labels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-7-keep-pairs-visible.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-match-game-play",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-8-add-a-method-to-verify-whether-the-player-won.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-match-game-play",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-9-try-other-features.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-match-game-play",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/tutorial-1-create-a-picture-viewer.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-layout",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-1-create-a-windows-forms-application-project.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-layout",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-2-run-your-program.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-layout",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-3-set-your-form-properties.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-layout",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-layout",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-5-add-controls-to-your-form.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-controls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-6-name-your-button-controls.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-controls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-7-add-dialog-components-to-your-form.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-controls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-9-review-comment-and-test-your-code.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-10-write-code-for-additional-buttons-and-a-check-box.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-11-run-your-program-and-try-other-features.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/install/remove-visual-studio.md",
+      "redirect_url": "/visualstudio/install/uninstall-visual-studio",
       "redirect_document_id": false
     }
   ]

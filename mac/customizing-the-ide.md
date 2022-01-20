@@ -1,11 +1,11 @@
 ---
 title: Customizing the IDE
 description: Visual Studio for Mac can be customized in a variety of ways, allowing users to develop apps in an environment that meets both their efficiency and aesthetic needs. This article explores the variety of ways Visual Studio for Mac can be adapted to suit your needs.
-author: heiligerdankgesang
-ms.author: dominicn
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 11/06/2020
-ms.assetid: F7C2A28C-0759-4E0D-A28E-B72D5AB73DB6
-ms.custom: video
+ms.topic: how-to
 ---
 # Customizing the IDE
 
@@ -126,7 +126,7 @@ To revert to a single open editor, select **View > Editor Columns > 1 column**.
 
 ## Related Video
 
-> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Customize-the-Look-and-Feel/player]
+> [!Video https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Customize-the-Look-and-Feel/player]
 
 ## See also
 

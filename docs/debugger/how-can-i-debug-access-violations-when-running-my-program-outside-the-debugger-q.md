@@ -5,8 +5,6 @@ description: Use the Just-in-Time Debugger to debug an access violation that occ
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-f1_keywords: 
-  - vs.debug.access
 dev_langs: 
   - CSharp
   - VB
