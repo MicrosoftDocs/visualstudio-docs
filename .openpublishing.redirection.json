@@ -45948,6 +45948,51 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/tutorial-2-create-a-timed-math-quiz.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-create-project-add-controls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-1-create-a-project-and-add-labels-to-your-form.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-create-project-add-controls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-2-create-a-random-addition-problem.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-add-math-problems",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-3-add-a-countdown-timer.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-add-timer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-4-add-the-checktheanswer-parens-method.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-add-timer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-customize-ui",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-6-add-a-subtraction-problem.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-add-math-problems",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-7-add-multiplication-and-division-problems.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-add-math-problems",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/step-8-customize-the-quiz.md",
+      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-customize-ui",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/how-to-target-a-version-of-the-dotnet-framework.md",
       "redirect_url": "/visualstudio/ide/visual-studio-multi-targeting-overview",
       "redirect_document_id": false
