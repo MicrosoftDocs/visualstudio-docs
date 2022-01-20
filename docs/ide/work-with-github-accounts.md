@@ -63,7 +63,7 @@ You can add your GitHub EMU account if you're already signed in to Visual Studio
 
 After you sign in, you'll get a success window in the browser, and you can return to Visual Studio.
 
-    :::image type="content" source="../ide/media/github-success-signin.png" alt-text="Screenshot showing the sign-in success window in the browser":::
+:::image type="content" source="../ide/media/github-success-signin.png" alt-text="Screenshot showing the sign-in success window in the browser":::
 
 ## Adding GitHub enterprise accounts
 
