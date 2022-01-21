@@ -58,7 +58,7 @@ To add a new test project to an existing solution,
 1. In the pop-up menu, choose **Add** > **New Project**. 
 1. Set **Language** to **C++** and type "test" into the search box. The following illustration shows the test projects that are available when the **Desktop Development with C++** and the **UWP Development** workload are installed:
 
-![C++ Test Projects in VIsual Studio 2022](media/vs-2022/cpp-new-test-project-vs2022.png)
+![C++ Test Projects in Visual Studio 2022](media/vs-2022/cpp-new-test-project-vs2022.png)
 
 ::: moniker-end
 
@@ -73,7 +73,7 @@ To add a new test project to an existing solution,
 1. In the pop-up menu, choose **Add** > **New Project**.
 1. Set **Language** to **C++** and type "test" into the search box. The following illustration shows the test projects that are available when the **Desktop Development with C++** and the **UWP Development** workload are installed:
 
-![C++ Test Projects in VIsual Studio 2019](media/vs-2019/cpp-new-test-project-vs2019.png)
+![C++ Test Projects in Visual Studio 2019](media/vs-2019/cpp-new-test-project-vs2019.png)
 
 ::: moniker-end
 
