@@ -1,105 +1,96 @@
 ---
-title: "Run profiling tools with or without the debugger | Microsoft Docs"
-description: "Learn about differences between the different modes available for profiling tools"
-ms.date: "5/26/2020"
-ms.topic: "conceptual"
-ms.assetid: 3fcdccad-c1bd-4c67-bcec-bf33a8fb5d63
-author: "mikejo5000"
-ms.author: "mikejo"
+title: Code Generation and T4 Text Templates
+description: Learn how a T4 text template is a mixture of text blocks and control logic that can generate a text file.
+ms.custom: SEO-VS-2020, devdivchpfy22
+ms.date: 12/28/2021
+ms.topic: overview
+f1_keywords:
+- VS.ToolsOptionsPages.TextTemplating.TextTemplating
+helpviewer_keywords:
+- generating text
+- .tt files
+- code generation
+- text templates
+- generating code
+author: mgoertz-msft
+ms.author: mgoertz
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.technology: vs-ide-modeling
 ms.workload:
-  - "multiple"
+- multiple
 ---
-# Run profiling tools with or without the debugger
+# Code Generation and T4 Text Templates
 
-Visual Studio offers a choice of performance measurement and profiling tools. Some tools, like CPU Usage and Memory Usage, can run with or without the debugger, and on release or debug build configurations. Tools that appear in the [Diagnostics Tools window](../profiling/profiling-feature-tour.md#measure-performance-while-debugging) run only during a debugging session. Tools that appear in the [Performance Profiler](../profiling/profiling-feature-tour.md#post_mortem) run without the debugger and you analyze the results after you choose to stop and collect data (for post-mortem analysis).
+In Visual Studio, a *T4 text template* is a mixture of text blocks and control logic that can generate a text file. The control logic is written as fragments of program code in [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]. In Visual Studio 2015 Update 2 and later, you can use C# version 6.0 features in T4 templates directives. The generated file can be text, such as a web page, or a resource file, or program source code in any language.
 
->[!NOTE]
->You can use the non-debugger performance tools with Windows 7 and later. Windows 8 or later is required to run the debugger-integrated profiling tools.
+For a domain-specific language(DSL), designed to express statements in a particular problem space, learn how to [Generate Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
 
-The non-debugger Performance Profiler and the debugger-integrated Diagnostic Tools provide different information and experiences. Debugger-integrated tools show you variable values and let you use breakpoints. Non-debugger tools give you results closer to the end-user experience.
+There are two kinds of T4 text templates: [run time](#run-time-t4-text-templates) and [design time](#design-time-t4-text-templates)
 
-To help decide which tools and results to use, consider the following:
+## Run time T4 text templates
 
-- Debugger-integrated tool vs. non-debugger tool
-  - External performance problems, like file I/O or network responsiveness issues, won't look much different in the debugger or non-debugger tools.
-  - The debugger itself changes performance times, as it does necessary debugger operations like intercepting exception and module load events.
-  - Release build performance numbers in the Performance Profiler are the most precise and accurate. Debugger-integrated tool results are most useful to compare with other debugging-related measurements, or to use debugger features.
-  - Some tools, such as the .NET Object Allocation tool, are only available for non-debugger scenarios.
-- Debug vs. release build
-  - For problems caused by CPU-intensive calls, there might be considerable performance differences between release and debug builds. Check to see whether the issue exists in release builds.
-  - If the problem occurs only during debug builds, you probably don't need to run the non-debugger tools. For release build problems, decide whether features provided by the debugger-integrated tools will help to pinpoint the problem.
-  - Release builds provide optimizations like inlining function calls and constants, pruning unused code paths, and storing variables in ways that can't be used by the debugger. Performance numbers in the debug builds are less accurate, because debug builds lack these optimizations.
+Run time templates are also known as 'preprocessed' templates. You run the templates in your application to produce text strings, as part of its output. For example, you can create a template to define an HTML page:
 
-## <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Collect profiling data while debugging
+```
+<html><body>
+ The date and time now is: <#= DateTime.Now #>
+</body></html>
+```
 
-When you start debugging in Visual Studio by selecting **Debug** > **Start Debugging**, or pressing **F5**, the **Diagnostic Tools** window appears by default. To open it manually, select **Debug** > **Windows** > **Show Diagnostic Tools**. The **Diagnostic Tools** window shows information about events, process memory, and CPU usage.
+Notice that the template resembles the generated output. The similarity of the template to the resulting output helps you avoid mistakes when you want to change it.
+Also, the template contains fragments of program code. You can use these fragments to repeat sections of text, to make conditional sections, and to show data from your application.
 
-![Screenshot of the Diagnostic Tools window](../profiling/media/diagnostictoolswindow.png "Diagnostic Tools Window")
+To generate the output, your application calls a function that is generated by the template. For example:
 
-- Use the **Settings** icon in the toolbar to select whether to view **Memory Usage**, **UI Analysis**, and **CPU Usage**.
+```csharp
+string webResponseText = new MyTemplate().TransformText();
+```
 
-- Select **Settings** in the **Settings** drop-down list to open the **Diagnostic Tools Property Pages** with more options.
+Your application can run on a computer that doesn't have Visual Studio installed.
 
-- If you're running Visual Studio Enterprise, you can enable or disable IntelliTrace by going to **Tools** > **Options** > **IntelliTrace**.
+To create a run-time template, add a **Preprocessed text template** file to your project. You can also add a plain text file and set its **Custom Tool** property to **TextTemplatingFilePreprocessor**.
 
-The diagnostic session ends when you stop debugging.
+For more information, see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md). For more information about the syntax of templates, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).
 
-For more information, see:
+## Design time T4 text templates
 
-- [Measure application performance by analyzing CPU usage](../profiling/beginners-guide-to-performance-profiling.md)
-- [Measure memory usage in Visual Studio](../profiling/memory-usage.md)
+Design time templates define part of the source code and other resources of your application. Typically, you use several templates that read the data in a single input file or database, and generate some of your *.cs*, *.vb*, or other source files. Each template generates one file and are built within Visual Studio or MSBuild.
 
-### The Events tab
+For example, your input data could be an XML file of configuration data. Whenever you edit the XML file during development, the text templates regenerate part of the application code. One of the templates might resemble the following example:
 
-During a debugging session, the Events tab of the Diagnostic Tools window lists the diagnostic events that occur. The category prefixes *Breakpoint*, *File*, and others, let you quickly scan the list for a category, or skip the categories you don't care about.
+```
+<#@ output extension=".cs" #>
+<#@ assembly name="System.Xml" #>
+<#
+ System.Xml.XmlDocument configurationData = ...; // Read a data file here.
+#>
+namespace Fabrikam.<#= configurationData.SelectSingleNode("jobName").Value #>
+{
+  ... // More code here.
+}
+```
 
-Use the **Filter** drop-down list to filter events in and out of view, by selecting or clearing specific categories of events.
+The generated *.cs* file is in the following format based on the XML file values:
 
-![Screenshot of Diagnostic Event filter](../profiling/media/diagnosticeventfilter.png "Diagnostic Event Filter")
+```
+namespace Fabrikam.FirstJob
+{
+  ... // More code here.
+}
+```
 
-Use the search box to find a specific string in the event list. Here are the results of a search for the string *name* that matched four events:
+As another example, the input could be a diagram of workflow in a business activity. When the users change their business workflow, or when you start work with new users who have a different workflow, it's easy to regenerate the code to fit the new model.
 
-![Screenshot of Diagnostic Event search](../profiling/media/diagnosticseventsearch.png "Diagnostic Event Search")
+> [!NOTE]
+> The term *model* is sometimes used to describe data read by one or more templates. The model can be in any format, in any kind of file or database. It does not have to be a UML model or a Domain-Specific Language model. 'Model' just indicates that the data can be defined in terms of the business concepts, rather than resembling the code.
+Design-time templates are quicker and more reliable when changing the configuration as the requirements change. Typically, input is defined in terms of business requirements, as in the workflow example. Design-time templates are useful tools in an agile development process.
 
-For more information, see [Searching and filtering the Events tab of the Diagnostic Tools window](https://devblogs.microsoft.com/devops/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window/).
+To create a design-time template, add a **Text Template** file to your project. You can also add a plain text file and set its **Custom Tool** property to **TextTemplatingFileGenerator**.
 
-## Collect profiling data without debugging
+For more information, see [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md). For more information about the syntax of templates, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).
 
-To collect performance data without debugging, you can run the Performance Profiler tools.
+The text template transformation feature is named *T4*.
 
-1. With a project open in Visual Studio, set the solution configuration to **Release**, and select **Local Windows Debugger** (or **Local Machine**) as the deployment target.
+## See also
 
-1. Select **Debug** > **Performance Profiler**, or press **Alt**+**F2**.
-
-1. On the diagnostic tools launch page, select one or more tools to run. Only the tools that are applicable to the project type, operating system, and programming language are shown. Select **Show all tools** to also see tools that are disabled for this diagnostic session.
-
-   ![Screenshot of diagnostic tools](../profiling/media/diaghubsummarypage.png "DIAG_SelectTool")
-
-1. To start the diagnostic session, select **Start**.
-
-   While the session is running, some tools show graphs of real-time data on the diagnostic tools page, as well as controls to pause and resume data collection.
-
-    ![Screenshot of data collection on the Performance Profiler](../profiling/media/diaghubcollectdata.png "Hub collect data")
-
-1. To end the diagnostic session, select **Stop Collection**.
-
-   The analyzed data appears on the **Report** page.
-
-You can save the reports, and open them from the **Recently Opened Sessions** list on the Diagnostic Tools launch page.
-
-![Screenshot of Diagnostic Tools Recently Opened Sessions list](../profiling/media/diaghubopenexistingdiagsession.png "PDHUB_OpenExistingDiagSession")
-
-For more information, see:
-
-- [Analyze CPU usage](../profiling/cpu-usage.md)
-- [Analyze memory usage for .NET code](../profiling/dotnet-alloc-tool.md)
-- [Analyze memory usage](../profiling/memory-usage-without-debugging2.md)
-- [Analyze performance of .NET asynchronous code](../profiling/analyze-async.md)
-- [Analyze database performance](../profiling/analyze-database.md)
-- [Analyze GPU usage](../profiling/gpu-usage.md)
-
-## Collect profiling data from the command line
-
-To measure performance data from the command line, you can use VSDiagnostics.exe, which is included with either Visual Studio or the Remote Tools. This is useful for capturing performance traces on systems where Visual Studio isn't installed, or for scripting the collection of performance traces. For detailed instructions, see [Measure application performance from the command line](../profiling/profile-apps-from-command-line.md).
+- [Generate Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
