@@ -52,15 +52,40 @@ There are two situations where turning on this option will **NOT** work:
 1. In situations where you are attaching the debugger to an already running process, this option will have no effect on modules that were already loaded at the time the debugger was attached.
 2. This option has no effect on DLLs that have been pre-compiled (a.k.a ngen'ed) to native code. However, you can disable usage of pre-compiled code by starting the process with the environment variable **'COMPlus_ReadyToRun'** set to **'0'**. This will tell the .NET Core runtime to disable the use of pre-compiled images, forcing the runtime to JIT compile framework code. 
 
-    > [!IMPORTANT]
-    > If you are targeting .NET Framework or an older version of .NET Core (2.x or lower), also add the environment variable 'COMPlus_ZapDisable' and set it to '1'
+   If you are targeting .NET Framework, add the environment variable 'COMPlus_ZapDisable' and set it to '1' by adding it to each profile in the *Properties\launchSettings.json* file:
 
-    **To set an environmental variable for a .NET Core project in Visual Studio:**
-    1. In the **Solution Explorer**, **right-click** the project file and select **Properties**.
-    2. Navigate to the **Debug** tab and under **Environment variables**, click the **Add** button.
-    3. Set Name (Key) to **COMPlus_ReadyToRun** and set Value to **0**.
+```JSON
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:59694/",
+      "sslPort": 44320
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "COMPlus_ReadyToRun": "0"
+      }
+    },
+    "HttpLoggingSample": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "COMPlus_ReadyToRun": "0"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}
+```
 
-    ![Set COMPlus_ReadyToRun environment variable](../debugger/media/environment-variables-debug-menu.png "Set COMPlus_ReadyToRun environment variable")
 
 ## See also
 - [How To Debug Dotnet Framework Source](../debugger/how-to-debug-dotnet-framework-source.md)
