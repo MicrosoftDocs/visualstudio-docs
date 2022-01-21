@@ -162,6 +162,18 @@ To collect the logs:
 > [!NOTE]
 > The tool must be run under the same user account that the failed installation was run under. If you are running the tool from a different user account, set the `–user:<name>` option to specify the user account under which the failed installation was run. Run `Collect.exe -?` from an administrator command prompt for additional options and usage information.
 
+## Problems installing WebView2
+
+WebView2 is a component that is required by Visual Studio, but installation of this component can be blocked by your organization’s Group Policies. Blocking the installation of WebView2 will prevent Visual Studio from being installed. 
+
+Two policies control the ability to install WebView2: [Microsoft Edge 'Install (WebView)'](/deployedge/microsoft-edge-update-policies#install-webview) and [Microsoft Edge 'InstallDefault'](/deployedge/microsoft-edge-update-policies#installdefault).
+
+•	If the Microsoft Edge 'Install (WebView)' policy is configured, it will determine whether WebView2 can be installed.
+•	If the Microsoft Edge 'Install (WebView)' policy is not configured, the Microsoft Edge 'InstallDefault' policy will determine whether WebView2 can be installed.
+
+> [!NOTE]
+> If neither policy is configured, WebView2 installation is allowed by your organization.
+
 ## Live help
 
 If the solutions listed in this troubleshooting guide don't help you successfully install or upgrade Visual Studio, use our [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) support option (English only) for further assistance.
