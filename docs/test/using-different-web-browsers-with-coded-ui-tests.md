@@ -87,7 +87,7 @@ To enable debugging your web application, you must complete the following config
 
     2. For **Common Language Runtime Exceptions**, uncheck **User-unhandled**.
 
-If don't see the option to change `BrowserWindow.CurrentBrowser` in the coded UI test, you might be using a version of Visual Studio that does not support coded UI tests using various web browsers. To use such coded UI tests, you must use Visual Studio Enterprise edition.
+If you don't see the option to change `BrowserWindow.CurrentBrowser` in the coded UI test, you might be using a version of Visual Studio that does not support coded UI tests using various web browsers. To use such coded UI tests, you must use Visual Studio Enterprise edition.
 
 Here are some other things you should know:
 
