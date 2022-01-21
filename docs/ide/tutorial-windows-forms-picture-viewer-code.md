@@ -299,4 +299,4 @@ You've done these programming and design tasks in the Visual Studio IDE:
 
 Continue learning with another tutorial series on how to create a timed math quiz.
 > [!div class="nextstepaction"]
-> [Tutorial 2: Create a timed math quiz](tutorial-2-create-a-timed-math-quiz.md)
+> [Tutorial 2: Create a timed math quiz](tutorial-windows-forms-math-quiz-create-project-add-controls.md)
