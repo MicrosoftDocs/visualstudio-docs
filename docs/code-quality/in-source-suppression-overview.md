@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Suppress code analysis violations
 
-It's often useful to indicate that a warning isn't applicable. Suppressing code analysis violations indicates team members the code was reviewed, and the warning can be suppressed. Following sections describes the different ways to suppress code analysis violations using the Visual Studio IDE.
+It's often useful to indicate to that a warning isn't applicable. Suppressing code analysis violations indicates team members the code was reviewed, and the warning can be suppressed. The following sections describe the different ways to suppress code analysis violations using the Visual Studio IDE.
 
 ::: moniker range=">=vs-2019"
 
@@ -78,12 +78,12 @@ The [global suppression file](#global-level-suppressions) uses the [SuppressMess
 
 ::: moniker range=">=vs-2019"
 
-- From the **Analyze** menu, select **Analyze** > **Build and Suppress Active Issues** on the menu bar to suppress all current violations. It's sometimes referred to as "baselining".
+- From the **Analyze** menu, select **Analyze** > **Build and Suppress Active Issues** on the menu bar to suppress all current violations. Suppressing all current violations is sometimes referred to as "baselining".
 
 ::: moniker-end
 ::: moniker range="vs-2017"
 
-- From the **Analyze** menu, select **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar to suppress all current violations. It's sometimes referred to as "baselining".
+- From the **Analyze** menu, select **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar to suppress all current violations. Suppressing all current violations is sometimes referred to as "baselining".
 ::: moniker-end
 
 ## Suppress violations using project settings
@@ -98,7 +98,7 @@ From the **rule set editor**, clear the check box next to its name or set **Acti
 
 In-source suppression (ISS) uses the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to suppress a warning. The attribute can be placed close to the code segment that generated the warning. You can add the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to the source file by typing it in, or you can use the shortcut menu on a warning in the **Error List** to add it automatically.
 
-The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is a conditional attribute and it's included in the IL metadata of your managed code assembly. It's included only if the CODE_ANALYSIS compilation symbol is defined at compile time.
+The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is a conditional attribute, that's included in the IL metadata of your managed code assembly. This attribute is included only if the CODE_ANALYSIS compilation symbol is defined at compile time.
 
 In C++/CLI, use the macros CA\_SUPPRESS\_MESSAGE or CA\_GLOBAL\_SUPPRESS_MESSAGE in the header file to add the attribute.
 
@@ -153,7 +153,7 @@ The properties of the attribute include:
 
   - [`module`](#module-suppression-scope) - This scope suppresses warnings against an assembly. It's a global suppression that applies to the entire project.
 
-  - `resource` - ([legacy FxCop](../code-quality/static-code-analysis-for-managed-code-overview.md) only) This scope suppresses warnings in diagnostic info written to resource files that are part of the module (assembly). This scope isn't read/respected in C#/VB compilers for Roslyn analyzer diagnostics, which only analyze source files.
+  - `resource` - ([legacy FxCop](../code-quality/static-code-analysis-for-managed-code-overview.md) only) This scope suppresses warnings in diagnostic info written to resource files that are part of the module (assembly). This scope isn't read or respected in C#/VB compilers for Roslyn analyzer diagnostics, which only analyze source files.
 
   - `type` - This scope suppresses warnings against a type.
 
@@ -163,7 +163,7 @@ The properties of the attribute include:
 
   - `namespaceanddescendants` - (Requires compiler version 3.x or higher and Visual Studio 2019) This scope suppresses warnings in a namespace and all its descendant symbols. The `namespaceanddescendants` value is ignored by legacy analysis.
 
-- **Target** - An identifier that is used to specify the target on which the warning is being suppressed. It must contain a fully qualified component name.
+- **Target** - An identifier specifies the target on which the warning is being suppressed. It must contain a fully qualified component name.
 
 When you see warnings in Visual Studio, you can view examples of `SuppressMessage` by [adding a suppression to the global suppression file](../code-quality/use-roslyn-analyzers.md#suppress-violations). The suppression attribute and its required properties appear in a preview window.
 
@@ -185,7 +185,7 @@ For maintainability reasons, omitting the rule name isn't recommended.
 
 Suppression attributes can be applied to a method, but cannot be embedded within a method body. All violations of a particular rule are suppressed if you add the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to the method.
 
-In some cases, you might want to suppress a particular instance of the violation. Consider the example intending to future code isn't automatically exempt from the code analysis rule. Certain code analysis rules allow you to suppress a particular instance of the violation by using the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. In general, legacy rules for violations on a particular symbol (a local variable or parameter) respect the `MessageId` property. [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500.md) is an example of such a rule. However, legacy rules for violations on executable code (non-symbol) don't respect the `MessageId` property. Additionally, .NET Compiler Platform ("Roslyn") analyzers don't respect the `MessageId` property.
+In some cases, you might want to suppress a particular instance of the violation. Consider the example where future code isn't automatically exempt from the code analysis rule. Certain code analysis rules allow you to suppress a particular instance of the violation by using the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. In general, legacy rules for violations on a particular symbol (a local variable or parameter) respect the `MessageId` property. [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500.md) is an example of such a rule. However, legacy rules for violations on executable code (non-symbol) don't respect the `MessageId` property. Additionally, .NET Compiler Platform ("Roslyn") analyzers don't respect the `MessageId` property.
 
 To suppress a particular symbol violation of a rule, specify the symbol name for the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. The following example shows code with two violations of [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500.md)&mdash;one for the `name` variable and one for the `age` variable. Only the violation for the `age` symbol is suppressed.
 
@@ -231,7 +231,7 @@ The managed code analysis tool examines `SuppressMessage` attributes that are ap
 > [!NOTE]
 > When you suppress a warning with `namespace` scope, it suppresses the warning against the namespace itself. It does not suppress the warning against types within the namespace.
 
-Any suppression is expressed by specifying an explicit scope. These suppressions must live at the global level. You're not allowed to specify member-level suppression by modifying a type.
+Any suppression is expressed by specifying an explicit scope. These suppressions must live at the global level. You can't specify member-level suppression by modifying a type.
 
 Global-level suppressions are the only way to suppress messages that refer to compiler-generated code that doesn't map to explicitly provided user source. For example, the following code suppresses a violation against a compiler-emitted constructor:
 
