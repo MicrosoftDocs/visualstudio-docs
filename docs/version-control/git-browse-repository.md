@@ -54,7 +54,7 @@ To compare any two commits in your branch, use the **Ctrl** key to select the tw
 
 ## Create a branch from a commit
 
-In Visual Studio, the **Git Graph** on the **Git Repository** window makes it easier to create branches from previous commits. To do so, right-click on the commit you would like to create a new branch from, and then select **[New Branch](git-create-branch.md)**.
+In Visual Studio, you can use the **Git Graph** pane in the **Git Repository** window to create branches from previous commits. To do so, right-click the commit you would like to create a new branch from, and then select **[New Branch](git-create-branch.md)**.
 
 :::image type="content" source="media/vs-2022/git-create-branch-from-commit.png" alt-text="Screenshot of the Git Graph pane of the Git Repository window.":::
 
@@ -62,7 +62,7 @@ In Visual Studio, the **Git Graph** on the **Git Repository** window makes it ea
 > The equivalent command for this action is `git branch <branchname> [<commit-id>]`.
 
 > [!TIP]
-> To learn how the [Preview](/visualstudio/releases/2022/release-notes-preview) version of Visual Studio 2022 makes it easy to checkout commits, see in the "Checkout commits" section of the [Introducing new Git features to Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/introducing-new-git-features-to-visual-studio-2022/#checkout-commits) blog post.
+> To learn how the [Preview](/visualstudio/releases/2022/release-notes-preview) version of Visual Studio 2022 makes it easy to checkout commits, see the "Checkout commits" section of the [Introducing new Git features to Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/introducing-new-git-features-to-visual-studio-2022/#checkout-commits) blog post.
 
 ## Next steps
 
