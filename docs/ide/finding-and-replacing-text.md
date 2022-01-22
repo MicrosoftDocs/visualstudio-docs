@@ -2,7 +2,7 @@
 title: Find and replace text, and multi-caret selection
 description: Learn about the Find and Replace feature and how to use it to find and replace instances of a pattern.
 ms.custom: SEO-VS-2020
-ms.date: 11/17/2021
+ms.date: 01/21/2022
 ms.topic: conceptual
 f1_keywords:
 - vs.find
@@ -88,11 +88,15 @@ A version of the **Find** control is also available in some tool windows. For ex
 
 :::image type="content" source="media/vs-2022/find-files.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 20222, with the Find in Files tab open.":::
 
+For more detailed information, see the [Find in Files](find-in-files.md) and [Replace in Files](replace-in-files.md) pages.
+
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
 :::image type="content" source="media/find-files-vs2019.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 2019, with the Find in Files tab open.":::
+
+For more detailed information, see the [Find in Files](find-in-files.md) and [Replace in Files](replace-in-files.md) pages.
 
 > [!IMPORTANT]
 > If you are using **Visual Studio 2019** [**version 16.6**](/visualstudio/releases/2019/release-notes-v16.6/) or earlier, the **Find and Replace** dialog box might not look like it appears here. Switch to the [Visual Studio 2017](?view=vs-2017&preserve-view=true) version of this page for descriptions that'll match what you see on your screen.
@@ -102,6 +106,8 @@ A version of the **Find** control is also available in some tool windows. For ex
 ::: moniker range="vs-2017"
 
 :::image type="content" source="media/find-files-vs2017.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 2017, with the Find in Files tab open.":::
+
+For more detailed information, see the [Find in Files](find-in-files.md) and [Replace in Files](replace-in-files.md) pages.
 
 ::: moniker-end
 

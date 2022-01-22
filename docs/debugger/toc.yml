@@ -206,8 +206,10 @@
             href: enabling-debug-features-in-visual-cpp-d-debug.md
         - name: Property pages settings for Web projects
           href: property-pages-settings-for-web-projects.md
-        - name: Project settings for  C# debug configurations
+        - name: Project settings for C# debug configurations
           href: project-settings-for-csharp-debug-configurations.md
+        - name: Project settings for .NET C# debug configurations
+          href: project-settings-for-csharp-debug-configurations-dotnetcore.md
         - name: Project settings for a Visual Basic debug configuration
           href: project-settings-for-a-visual-basic-debug-configuration.md
       - name: DLL projects
