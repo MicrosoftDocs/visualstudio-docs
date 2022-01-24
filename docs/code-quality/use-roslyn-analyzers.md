@@ -38,7 +38,7 @@ The following table shows the different severity options:
 | Severity (Solution Explorer) | Severity (EditorConfig file) | Build-time behavior | Editor behavior |
 |-|-|-|
 | Error | `error` | Violations appear as *Errors* in the Error List and in command-line build output, and cause builds to fail.| Offending code is underlined with a red squiggle and marked by a small red box in the scroll bar. |
-| Warning | `warning` | Violations appear as *Warnings* in the Error List and in command-line build output, but don't cause builds to fail. | Offending code is underlined with a green squiggle and marked by small a green box in the scroll bar. |
+| Warning | `warning` | Violations appear as *Warnings* in the Error List and in command-line build output, but don't cause builds to fail. | Offending code is underlined with a green squiggle and marked by a small green box in the scroll bar. |
 | Info | `suggestion` | Violations appear as *Messages* in the Error List, and not at all in command-line build output. | Offending code is underlined with a gray squiggle and marked by a small gray box in the scroll bar. |
 | Hidden | `silent` | Non-visible to user. | Non-visible to user. The diagnostic is reported to the IDE diagnostic engine, however. |
 | None | `none` | Suppressed completely. | Suppressed completely. |
@@ -62,7 +62,7 @@ Many analyzer rules, or *diagnostics*, have one or more associated *code fixes* 
 
 `Hidden` severity rules that are enabled by default differ from disabled or `None` severity rules in certain aspects.
 
-- If any code fix is registered for a `Hidden` severity rule, Visual Studio offers the fix as a light bulb code-refactoring action even if the hidden diagnostic isn't visible to the user. The fix isn't offered, if severity rule is disabled as `None`.
+- If any code fix is registered for a `Hidden` severity rule, Visual Studio offers the fix as a light bulb code-refactoring action even if the hidden diagnostic isn't visible to the user. The fix isn't offered if the severity rule is disabled as `None`.
 - `Hidden` severity rules can be bulk configured by entries that [set rule severity of multiple analyzer rules at once in an EditorConfig file](#set-rule-severity-of-multiple-analyzer-rules-at-once-in-an-editorconfig-file). `None` severity rules cannot be configured this way. Instead, they must be configured through entries that [set rule severity in an EditorConfig file for each rule ID](#set-rule-severity-in-an-editorconfig-file).
 
 ::: moniker range=">=vs-2019"
@@ -108,7 +108,7 @@ Consider the following EditorConfig example, where [CA1822](/dotnet/fundamentals
    dotnet_analyzer_diagnostic.severity = suggestion
    ```
 
-In the preceding example, all three entries apply to CA1822. However, using the specified precedence rules, the first rule ID-based severity entry wins over the next entries. In this example, CA1822 has an effective severity of "error". The remaining rules with the "Performance" category have severity "warning". And the analyzer rules that don't have the "Performance" category, have severity of "suggestion.
+In the preceding example, all three entries apply to CA1822. However, using the specified precedence rules, the first rule ID-based severity entry wins over the next entries. In this example, CA1822 has an effective severity of "error". The remaining rules with the "Performance" category have severity "warning", and the analyzer rules that don't have the "Performance" category have severity of "suggestion".
 
 #### Manually configure rule severity in an EditorConfig file
 
@@ -168,7 +168,7 @@ You can do much of the customization of analyzer diagnostics from **Solution Exp
 
 ![Analyzers node in Solution Explorer](media/analyzers-expanded-in-solution-explorer.png)
 
-You can view the properties of a diagnostic, including its description and default severity, in **Properties** window. To view properties, right-click the rule and select **Properties**, or select the rule and then press **Alt**+**Enter**.
+You can view the properties of a diagnostic, including its description and default severity, in the **Properties** window. To view properties, right-click the rule and select **Properties**, or select the rule and then press **Alt**+**Enter**.
 
 ![Diagnostic properties in Properties window](media/analyzer-diagnostic-properties.png)
 
@@ -292,7 +292,7 @@ dotnet_diagnostic.CA2231.severity = warning
 
 1. Browse to the rule by expanding its containing assembly.
 
-1. In the **Action** column, select the value to open a drop-down list, and choose the required severity from the list.
+1. In the **Action** column, select the value to open a drop-down list, and choose the desired severity from the list.
 
    ![Rule set file open in editor](media/ruleset-file-in-editor.png)
 
