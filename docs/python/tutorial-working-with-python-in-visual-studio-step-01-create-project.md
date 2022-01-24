@@ -2,7 +2,7 @@
 title: Python in Visual Studio tutorial step 1, create a project
 titleSuffix: ""
 description: Overview and step 1 of a core walkthrough of Python capabilities in Visual Studio, including prerequisites and creating a new Python project.
-ms.date: 09/14/2021
+ms.date: 01/15/2022
 ms.topic: tutorial
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -16,7 +16,7 @@ ms.workload:
 
 # Tutorial: Work with Python in Visual Studio
 
-Python is a popular programming language that is reliable, flexible, easy to learn, and free to use on all operating systems. Python is supported by both a strong developer community and many free libraries. The language supports all kinds of development, including web applications, web services, desktop apps, scripting, and scientific computing. Many universities, scientists, casual developers, and professional developers use Python.
+Python is a popular programming language that is reliable, flexible, easy to learn, and free to use on all operating systems. Python is supported by both a strong developer community and many, free libraries. The language supports all kinds of development, including web applications, web services, desktop apps, scripting, and scientific computing. Many universities, scientists, casual developers, and professional developers use Python.
 
 Visual Studio provides first-class language support for Python. This tutorial guides you through the following steps:
 
@@ -98,7 +98,7 @@ This tutorial begins with a simple project containing a single, empty code file.
    
    - Your project, with the name you gave in the **Create a new project** dialog box, appears in bold **(2)**. On disk, the project is a *.pyproj* file in your project folder.
    
-   - Under your project are source files, in this case only a single *.py* file **(3)**. Selecting a file displays its properties in the **Properties** window. Double-clicking a file opens it in whatever way is appropriate for that file.
+   - Under your project is source files, in this case only a single *.py* file **(3)**. Selecting a file displays its properties in the **Properties** window. Double-clicking a file opens it in whatever way is appropriate for that file.
    
    - Also under the project is the **Python Environments** node **(4)**. Expand the node to show the available Python interpreters.
    
