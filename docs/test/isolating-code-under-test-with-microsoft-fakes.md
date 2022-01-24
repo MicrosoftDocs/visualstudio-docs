@@ -20,7 +20,7 @@ Microsoft Fakes helps you isolate the code you're testing by replacing other par
 
 Fakes come in two flavors:
 
-- A [stub](#get-started-with-stubs) replaces a class with a small substitute that implements the same interface.  To use stubs, you've to design your application so that each component depends only on interfaces, and not on other components. (By "component" we mean a class or group of classes that are designed and updated together and typically contained in an assembly.)
+- A [stub](#get-started-with-stubs) replaces a class with a small substitute that implements the same interface.  To use stubs, you have to design your application so that each component depends only on interfaces, and not on other components. (By "component" we mean a class or group of classes that are designed and updated together and typically contained in an assembly.)
 
 - A [shim](#get-started-with-shims) modifies the compiled code of your application at runtime so that instead of making a specified method call, it runs the shim code that your test provides. Shims can be used to replace calls to assemblies that you can't modify, such as .NET assemblies.
 
@@ -28,15 +28,14 @@ Fakes come in two flavors:
 
 **Requirements**
 
-- Visual Studio Enterprise.
-- A .NET Framework project.
+- Visual Studio Enterprise
+- A .NET Framework project
 ::: moniker range=">=vs-2019"
 - .NET Core, .NET 5.0 or later, and SDK-style project support previewed in Visual Studio 2019 Update 6, and is enabled by default in Update 8. For more information, see [Microsoft Fakes for .NET Core and SDK-style projects](/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects).
 ::: moniker-end
 
 > [!NOTE]
->
-> - Profiling with Visual Studio isn't available for tests that use Microsoft Fakes.
+> Profiling with Visual Studio isn't available for tests that use Microsoft Fakes.
 
 ## Choose between stub and shim types
 
@@ -56,7 +55,7 @@ Other considerations are:
 
 **Interfaces and abstract methods.** Stubs provide implementations of interfaces and abstract methods that can be used in testing. Shims can't instrument interfaces and abstract methods, because they don't have method bodies.
 
-We recommend you to use stub types to isolate from dependencies within your codebase. You can do this by hiding the components behind interfaces. You can use shim types to isolate from third-party components that don't provide a testable API.
+We recommend you use stub types to isolate from dependencies within your codebase. You can do this by hiding the components behind interfaces. You can use shim types to isolate from third-party components that don't provide a testable API.
 
 ## Get started with stubs
 
@@ -64,7 +63,7 @@ For a more detailed description, see [Use stubs to isolate parts of your applica
 
 1. **Inject interfaces**
 
-     To use stubs, you've to write the code you want to test in such a way that it doesn’t explicitly mention classes in another component of your application. By "component" we mean a class or classes that are developed and updated together, and typically contained in one Visual Studio project. Variables and parameters should be declared by using interfaces and instances of other components should be passed in or created by using a factory. For example, if StockFeed is a class in another component of the application, then this is considered bad:
+     To use stubs, you have to write the code you want to test in such a way that it doesn’t explicitly mention classes in another component of your application. By "component" we mean a class or classes that are developed and updated together, and typically contained in one Visual Studio project. Variables and parameters should be declared by using interfaces, and instances of other components should be passed in or created by using a factory. For example, if StockFeed is a class in another component of the application, then this is considered bad:
 
      `return (new StockFeed()).GetSharePrice("COOO"); // Bad`
 
@@ -151,7 +150,7 @@ For a more detailed description, see [Use stubs to isolate parts of your applica
 
     ```
 
-    The special piece of magic here's the class `StubIStockFeed`. For every interface in the referenced assembly, the Microsoft Fakes mechanism generates a stub class. The name of the stub class is derived from the name of the interface, with "`Fakes.Stub`" as a prefix, and the parameter type names appended.
+    The special piece of magic here is the class `StubIStockFeed`. For every interface in the referenced assembly, the Microsoft Fakes mechanism generates a stub class. The name of the stub class is derived from the name of the interface, with "`Fakes.Stub`" as a prefix, and the parameter type names appended.
 
     Stubs are also generated for the getters and setters of properties, for events, and for generic methods. For more information, see [Use stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md).
 
@@ -288,7 +287,7 @@ You'll need minimal changes in your .NET Framework set up for Microsoft Fakes to
 
 - If you're using a custom project template, you need to ensure that it's SDK-style and builds for a compatible target framework.
 - Certain types exist in different assemblies in .NET Framework and .NET Core/.NET 5.0 (for example, `System.DateTime` exists in `System`/`mscorlib` in .NET Framework, and in `System.Runtime` in .NET Core and .NET 5.0), and in these scenarios you need to change the assembly being faked.
-- If you've an assembly reference to a fakes assembly and the test project, you might see a build warning about a missing reference similar to:
+- If you have an assembly reference to a fakes assembly and the test project, you might see a build warning about a missing reference similar to:
 
   ```
   (ResolveAssemblyReferences target) ->
