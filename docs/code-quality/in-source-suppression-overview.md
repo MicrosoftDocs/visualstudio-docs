@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Suppress code analysis violations
 
-It's often useful to indicate to that a warning isn't applicable. Suppressing code analysis violations indicates team members the code was reviewed, and the warning can be suppressed. The following sections describe the different ways to suppress code analysis violations using the Visual Studio IDE.
+It is often useful to indicate that a warning is not applicable. Suppressing code analysis violations indicates team members the code was reviewed, and the warning can be suppressed. The following sections describe the different ways to suppress code analysis violations using the Visual Studio IDE.
 
 ::: moniker range=">=vs-2019"
 
@@ -55,7 +55,7 @@ You can suppress violations in code using a preprocessor directive, the [#pragma
 
   Select the rules you want to suppress, and then right-click and select **Suppress** > **In Source**.
 
-  - If you suppress **In Source**, the **Preview Changes** dialog opens and shows a preview of the C# [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) or Visual Basic [#Disable warning](/dotnet/visual-basic/language-reference/directives/directives) directive that's added to the source code.
+  - If you suppress **In Source**, the **Preview Changes** dialog opens and shows a preview of the C# [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) or Visual Basic [#Disable warning](/dotnet/visual-basic/language-reference/directives/directives) directive that is added to the source code.
 
     ![Preview of adding #pragma warning in code file](media/pragma-warning-preview.png)
 
@@ -70,7 +70,7 @@ You can suppress violations in code using a preprocessor directive, the [#pragma
 
 The [global suppression file](#global-level-suppressions) uses the [SuppressMessage attribute](#in-source-suppression-and-the-suppressmessage-attribute).
 
-- From the **Error List**, select the rules you want to suppress, and then right-click and select **Suppress** > **in Suppression File**. The **Preview Changes** dialog opens and shows a preview of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute that's added to the global suppressions file.
+- From the **Error List**, select the rules you want to suppress, and then right-click and select **Suppress** > **in Suppression File**. The **Preview Changes** dialog opens and shows a preview of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute that is added to the global suppressions file.
 
   ![Preview of adding SuppressMessage attribute to suppression file](media/preview-changes-in-suppression-file.png)
 
@@ -98,7 +98,7 @@ From the **rule set editor**, clear the check box next to its name or set **Acti
 
 In-source suppression (ISS) uses the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to suppress a warning. The attribute can be placed close to the code segment that generated the warning. You can add the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to the source file by typing it in, or you can use the shortcut menu on a warning in the **Error List** to add it automatically.
 
-The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is a conditional attribute, that's included in the IL metadata of your managed code assembly. This attribute is included only if the CODE_ANALYSIS compilation symbol is defined at compile time.
+The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is a conditional attribute, that is included in the IL metadata of your managed code assembly. This attribute is included only if the CODE_ANALYSIS compilation symbol is defined at compile time.
 
 In C++/CLI, use the macros CA\_SUPPRESS\_MESSAGE or CA\_GLOBAL\_SUPPRESS_MESSAGE in the header file to add the attribute.
 
@@ -149,27 +149,27 @@ The properties of the attribute include:
 
 - **MessageId** - Unique identifier of a problem for each message.
 
-- **Scope** - The target on which the warning is being suppressed. If the target isn't specified, it's set to the target of the attribute. Supported [scopes](xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope) include:
+- **Scope** - The target on which the warning is being suppressed. If the target is not specified, it is set to the target of the attribute. Supported [scopes](xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope) include:
 
-  - [`module`](#module-suppression-scope) - This scope suppresses warnings against an assembly. It's a global suppression that applies to the entire project.
+  - [`module`](#module-suppression-scope) - This scope suppresses warnings against an assembly. It is a global suppression that applies to the entire project.
 
-  - `resource` - ([legacy FxCop](../code-quality/static-code-analysis-for-managed-code-overview.md) only) This scope suppresses warnings in diagnostic info written to resource files that are part of the module (assembly). This scope isn't read or respected in C#/VB compilers for Roslyn analyzer diagnostics, which only analyze source files.
+  - `resource` - ([legacy FxCop](../code-quality/static-code-analysis-for-managed-code-overview.md) only) This scope suppresses warnings in diagnostic info written to resource files that are part of the module (assembly). This scope is not read or respected in C#/VB compilers for Roslyn analyzer diagnostics, which only analyze source files.
 
   - `type` - This scope suppresses warnings against a type.
 
   - `member` - This scope suppresses warnings against a member.
 
-  - `namespace` - This scope suppresses warnings against the namespace itself. It doesn't suppress warnings against types within the namespace.
+  - `namespace` - This scope suppresses warnings against the namespace itself. It does not suppress warnings against types within the namespace.
 
   - `namespaceanddescendants` - (Requires compiler version 3.x or higher and Visual Studio 2019) This scope suppresses warnings in a namespace and all its descendant symbols. The `namespaceanddescendants` value is ignored by legacy analysis.
 
-- **Target** - An identifier specifies the target on which the warning is being suppressed. It must contain a fully qualified component name.
+- **Target** - An identifier that is used to specify the target on which the warning is being suppressed. It must contain a fully qualified component name.
 
 When you see warnings in Visual Studio, you can view examples of `SuppressMessage` by [adding a suppression to the global suppression file](../code-quality/use-roslyn-analyzers.md#suppress-violations). The suppression attribute and its required properties appear in a preview window.
 
 ### SuppressMessage usage
 
-Code Analysis warnings are suppressed at the level to which the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is applied. For example, the attribute can be applied at the assembly, module, type, member, or parameter level. The purpose of applying the attribute is to tightly couple the suppression information to the code where the violation occurs.
+Code Analysis warnings are suppressed at the level to which the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is applied. For example, the attribute can be applied at the assembly, module, type, member, or parameter level. The purpose of applying this attribute is to tightly couple the suppression information to the code where the violation occurs.
 
 The general form of suppression includes the rule category and a rule identifier, which contains an optional human-readable representation of the rule name. For example:
 
@@ -179,13 +179,13 @@ If there are strict performance reasons for minimizing in-source suppression met
 
 `[SuppressMessage("Microsoft.Design", "CA1039")]`
 
-For maintainability reasons, omitting the rule name isn't recommended.
+For maintainability reasons, omitting the rule name is not recommended.
 
 ### Suppress selective violations within a method body
 
 Suppression attributes can be applied to a method, but cannot be embedded within a method body. All violations of a particular rule are suppressed if you add the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to the method.
 
-In some cases, you might want to suppress a particular instance of the violation. Consider the example where future code isn't automatically exempt from the code analysis rule. Certain code analysis rules allow you to suppress a particular instance of the violation by using the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. In general, legacy rules for violations on a particular symbol (a local variable or parameter) respect the `MessageId` property. [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500.md) is an example of such a rule. However, legacy rules for violations on executable code (non-symbol) don't respect the `MessageId` property. Additionally, .NET Compiler Platform ("Roslyn") analyzers don't respect the `MessageId` property.
+In some cases, you might want to suppress a particular instance of the violation. Consider the example where future code is not automatically exempt from the code analysis rule. Certain code analysis rules allow you to suppress a particular instance of the violation by using the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. In general, legacy rules for violations on a particular symbol (a local variable or parameter) respect the `MessageId` property. [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500.md) is an example of such a rule. However, legacy rules for violations on executable code (non-symbol) do not respect the `MessageId` property. Additionally, .NET Compiler Platform ("Roslyn") analyzers do not respect the `MessageId` property.
 
 To suppress a particular symbol violation of a rule, specify the symbol name for the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. The following example shows code with two violations of [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500.md)&mdash;one for the `name` variable and one for the `age` variable. Only the violation for the `age` symbol is suppressed.
 
@@ -231,9 +231,9 @@ The managed code analysis tool examines `SuppressMessage` attributes that are ap
 > [!NOTE]
 > When you suppress a warning with `namespace` scope, it suppresses the warning against the namespace itself. It does not suppress the warning against types within the namespace.
 
-Any suppression is expressed by specifying an explicit scope. These suppressions must live at the global level. You can't specify member-level suppression by modifying a type.
+Any suppression can be expressed by specifying an explicit scope. These suppressions must live at the global level. You cannot specify member-level suppression by modifying a type.
 
-Global-level suppressions are the only way to suppress messages that refer to compiler-generated code that doesn't map to explicitly provided user source. For example, the following code suppresses a violation against a compiler-emitted constructor:
+Global-level suppressions are the only way to suppress messages that refer to compiler-generated code that does not map to explicitly provided user source. For example, the following code suppresses a violation against a compiler-emitted constructor:
 
 `[module: SuppressMessage("Microsoft.Design", "CA1055:AbstractTypesDoNotHavePublicConstructors", Scope="member", Target="Microsoft.Tools.FxCop.Type..ctor()")]`
 
@@ -242,7 +242,7 @@ Global-level suppressions are the only way to suppress messages that refer to co
 
 #### Global suppression file
 
-The global suppression file maintains suppressions that are either global-level suppressions or suppressions that don't specify a target. For example, suppressions for assembly-level violations are stored in this file. Additionally, some ASP.NET suppressions are stored in this file because project-level settings aren't available for code behind a form. A global suppression file is created and added to your project the first time you select the **In Project Suppression File** option of the **Suppress** command in the **Error List** window.
+The global suppression file maintains suppressions that are either global-level suppressions or suppressions that do not specify a target. For example, suppressions for assembly-level violations are stored in this file. Additionally, some ASP.NET suppressions are stored in this file because project-level settings are not available for code behind a form. A global suppression file is created and added to your project the first time you select the **In Project Suppression File** option of the **Suppress** command in the **Error List** window.
 
 #### Module suppression scope
 
