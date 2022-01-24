@@ -37,7 +37,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
    Check the **npm** option in the **Output** window to see package installation progress. The installed package shows up under the **npm** node in Solution Explorer.
 
-1. If your project doesn't already include it, add a *.tsconfig* file to your project root. To add the file, right-click the project node and choose **Add > New Item**. Choose the **TypeScript JSON Configuration File**, and then click **Add**.
+1. If your project doesn't already include it, add a *tsconfig.json* file to your project root. To add the file, right-click the project node and choose **Add > New Item**. Choose the **TypeScript JSON Configuration File**, and then click **Add**.
 
    Visual Studio adds the *tsconfig.json* file to the project root. You can use this file to [configure options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for the TypeScript compiler.
 
