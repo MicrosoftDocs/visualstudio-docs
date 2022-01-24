@@ -33,6 +33,9 @@ You can configure the severity of analyzer rules, or *diagnostics*, if you [inst
 
 ::: moniker-end
 
+> [!NOTE]
+> Errors cause builds to fail in Visual Studio, however to cause [dotnet build](/dotnet/core/tools/dotnet-build) to fail you'll need to set `enforcecodestyleinbuild` to `true` in the [project properties page](/dotnet/core/project-sdk/msbuild-props#enforcecodestyleinbuild).
+
 The following table shows the different severity options:
 
 | Severity (Solution Explorer) | Severity (EditorConfig file) | Build-time behavior | Editor behavior |

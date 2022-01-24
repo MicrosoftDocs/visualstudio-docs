@@ -1,8 +1,9 @@
 ---
 title: Compile and build TypeScript code using npm
 description: Learn how to add TypeScript support to your Visual Studio projects by using the Node Package Manager (npm).
-ms.date: 7/23/2020
+ms.date: 01/10/2022
 ms.topic: conceptual
+ms.custom: devdivchpfy22
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
@@ -14,9 +15,11 @@ ms.workload:
 ---
 # Compile TypeScript code (Node.js)
 
-You can add TypeScript support to your projects using the TypeScript SDK, available by default in the Visual Studio installer or by using the npm. For projects developed in Visual Studio 2019, we encourage you to use the TypeScript npm package for greater portability across different platforms and environments.
+You can add TypeScript support to your projects using the TypeScript SDK or by using the npm. The TypeScript SDK is available by default in the Visual Studio installer.
 
-For ASP.NET Core projects, it is recommended that you use the [NuGet package](../javascript/compile-typescript-code-nuget.md) instead.
+For projects developed in Visual Studio 2019, we encourage you to use the TypeScript npm package for greater portability across different platforms and environments.
+
+For ASP.NET Core projects, it's recommended that you use the [NuGet package](../javascript/compile-typescript-code-nuget.md) instead.
 
 ## Add TypeScript support using npm
 
@@ -24,7 +27,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
 1. [Follow instructions](../ide/quickstart-nodejs.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json) to install the Node.js development workload and the Node.js runtime.
 
-   For the simplest integration with Visual Studio, create your project using one of the Node.js TypeScript templates, such as the Blank Node.js Web Application template. Otherwise, use either a Node.js JavaScript template included with Visual Studio and follow instructions here, or use an [Open Folder](../javascript/develop-javascript-code-without-solutions-projects.md) project.
+   For a simple Visual Studio integration, create your project using one of the Node.js TypeScript templates, such as the Blank Node.js Web Application template. Else, use either a Node.js JavaScript template included with Visual Studio and follow instructions here. Or, use an [Open Folder](../javascript/develop-javascript-code-without-solutions-projects.md) project.
 
 1. If your project doesn't already include it, install the [TypeScript npm package](https://www.npmjs.com/package/typescript).
 
@@ -40,7 +43,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
 1. Open *tsconfig.json* and update to set the compiler options that you want.
 
-   The following is an example of a simple *tsconfig.json* file.
+   An example of a simple *tsconfig.json* file follows.
 
    ```json
    {
@@ -67,7 +70,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
 ## Build the application
 
-1. Add TypeScript (*.ts*) or TypeScript JSX (*.tsx*) files to your project, and then add TypeScript code. For a simple example of TypeScript, use the following:
+1. Add TypeScript (*.ts*) or TypeScript JSX (*.tsx*) files to your project, and then add TypeScript code. A simple example of TypeScript follows:
 
    ```typescript
    let message: string = 'Hello World';
@@ -83,7 +86,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
    },
    ```
 
-   If you need to build using a third party tool like webpack, you can add a command-line build script to your *package.json* file:
+   To build using a third-party tool like webpack, you can add a command-line build script to your *package.json* file:
 
    ```json
    "scripts": {
@@ -98,11 +101,11 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 1. If you need to configure options such as the startup page, path to the Node.js runtime, application port, or runtime arguments, right-click the project node in Solution Explorer, and choose **Properties**.
 
    >[!NOTE]
-   > When configuring third-party tools, Node.js projects do not use the paths that are configured under **Tools** > **Options** > **Projects and solutions** > **Web Package Management** > **External Web Tools**. These settings are used for other project types.
+   > When configuring third-party tools, Node.js projects don't use the paths that are configured under **Tools** > **Options** > **Projects and solutions** > **Web Package Management** > **External Web Tools**. These settings are used for other project types.
 
 1. Choose **Build > Build Solution**.
 
-   Although the app builds automatically when you run it, we want to take a look at something that happens during the build process:
+   The app builds automatically when you run it. However, the following might occur during the build process:
 
    If you generated source maps, open the folder specified in the *outDir* option and you find the generated \*.js file(s) along with the generated \*js.map file(s).
 

@@ -183,3 +183,4 @@ This step completes the layout for your form.
 Advance to the next tutorial to learn how to assign a random icon to each label and add event handlers to labels.
 > [!div class="nextstepaction"]
 > [Add icons to your Matching Game](tutorial-windows-forms-match-game-icons.md)
+
