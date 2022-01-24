@@ -1,7 +1,8 @@
 ---
 title: "Run profiling tools with or without the debugger | Microsoft Docs"
 description: "Learn about differences between the different modes available for profiling tools"
-ms.date: "5/26/2020"
+ms.custom: devdivchpfy22
+ms.date: "01/20/2022"
 ms.topic: "conceptual"
 ms.assetid: 3fcdccad-c1bd-4c67-bcec-bf33a8fb5d63
 author: "mikejo5000"
@@ -20,7 +21,7 @@ Visual Studio offers a choice of performance measurement and profiling tools. So
 
 The non-debugger Performance Profiler and the debugger-integrated Diagnostic Tools provide different information and experiences. Debugger-integrated tools show you variable values and let you use breakpoints. Non-debugger tools give you results closer to the end-user experience.
 
-To help decide which tools and results to use, consider the following:
+To decide which tools and results to use, consider the following options:
 
 - Debugger-integrated tool vs. non-debugger tool
   - External performance problems, like file I/O or network responsiveness issues, won't look much different in the debugger or non-debugger tools.
@@ -69,7 +70,7 @@ For more information, see [Searching and filtering the Events tab of the Diagnos
 
 To collect performance data without debugging, you can run the Performance Profiler tools.
 
-1. With a project open in Visual Studio, set the solution configuration to **Release**, and select **Local Windows Debugger** (or **Local Machine**) as the deployment target.
+1. With a project open in Visual Studio, set the solution configuration to **Release**, and select **Local Windows Debugger** (or **Local Machine**) as the deployment target.
 
 1. Select **Debug** > **Performance Profiler**, or press **Alt**+**F2**.
 
@@ -79,7 +80,7 @@ To collect performance data without debugging, you can run the Performance Profi
 
 1. To start the diagnostic session, select **Start**.
 
-   While the session is running, some tools show graphs of real-time data on the diagnostic tools page, as well as controls to pause and resume data collection.
+   While the session is running, some tools show graphs of real-time data on the diagnostic tools page, and controls to pause and resume data collection.
 
     ![Screenshot of data collection on the Performance Profiler](../profiling/media/diaghubcollectdata.png "Hub collect data")
 

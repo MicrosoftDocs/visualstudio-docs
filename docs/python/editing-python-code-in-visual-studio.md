@@ -1,7 +1,7 @@
 ---
 title: Edit Python code
 description: For Python, Visual Studio provides rich IntelliSense, code snippets, and navigation features, alongside formatting, linting, and refactoring.
-ms.date: 03/13/2019
+ms.date: 01/18/2022
 ms.topic: conceptual
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -15,7 +15,7 @@ ms.workload:
 
 # Edit Python code
 
-Because you spend much of your development time in the code editor, [Python support in Visual Studio](installing-python-support-in-visual-studio.md) provides functionality to help you be more productive. Features include IntelliSense syntax highlighting, auto-completion, signature help, method overrides, search, and navigation.
+Because you spend much of your development time in the code editor, [Python support in Visual Studio](installing-python-support-in-visual-studio.md) provides functionality to help you be more productive. Features include IntelliSense syntax highlighting, autocompletion, signature help, method overrides, search, and navigation.
 
 The editor is also integrated with the **Interactive** window in Visual Studio, making it easy to exchange code between the two. See [Tutorial Step 3: Use the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md) and [Use the Interactive window - Send to Interactive command](python-interactive-repl-in-visual-studio.md#send-to-interactive-command) for details.
 
@@ -29,7 +29,7 @@ IntelliSense provides [completions](#completions), [signature help](#signature-h
 
 To improve performance, IntelliSense in Visual Studio 2017 version 15.5 and earlier depends on a completion database that's generated for each Python environment in your project. Databases may need refreshing if you add, remove, or update packages. Database status is shown in the **Python Environments** window (a sibling of **Solution Explorer**) on the **IntelliSense** tab (see [Environments window reference](python-environments-window-tab-reference.md)).
 
-Visual Studio 2017 version 15.6 and later uses a different means to provide IntelliSense completions that are not dependent on the database.
+Visual Studio 2017 version 15.6 and later uses a different means to provide IntelliSense completions that aren't dependent on the database.
 
 ### Completions
 
@@ -137,7 +137,7 @@ Hovering the mouse pointer over an identifier displays a Quick Info tooltip. Dep
 
 ### Code coloring
 
-Code coloring uses information from code analysis to color variables, statements, and other parts of your code. For example, variables that refer to modules or classes may be shown in a different color than functions or other values, and parameter names appear in a different color than local or global variables. (By default, functions are not shown in bold):
+Code coloring uses information from code analysis to color variables, statements, and other parts of your code. For example, variables that refer to modules or classes may be shown in a different color than functions or other values, and parameter names appear in a different color than local or global variables. (By default, functions aren't shown in bold):
 
 ![Code and syntax coloring in the Visual Studio editor](media/code-editing-code-coloring.png)
 
@@ -152,7 +152,7 @@ To customize the colors, go to **Tools** > **Options** > **Environment** > **Fon
 
 Code snippets are fragments of code that can be inserted into your files by typing a shortcut and pressing **Tab**, or using the **Edit** > **IntelliSense** > **Insert Code Snippet** and **Surround With** commands, selecting **Python**, then selecting the desired snippet.
 
-For example, `class` is a shortcut for a code snippet that inserts a class definition. You see the snippet appear in the auto-completion list when you type `class`:
+For example, `class` is a shortcut for a code snippet that inserts a class definition. You see the snippet appear in the autocompletion list when you type `class`:
 
 ![Code snippet for the class shortcut](media/code-editing-code-snippet-class.png)
 
