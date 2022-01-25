@@ -57998,6 +57998,11 @@
       "source_path": "docs/install/remove-visual-studio.md",
       "redirect_url": "/visualstudio/install/uninstall-visual-studio",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/quickstart-fsharp.md",
+      "redirect_url": "/visualstudio/get-started/tutorial-fsharp-web-app",
+      "redirect_document_id": false
     }
   ]
 }
