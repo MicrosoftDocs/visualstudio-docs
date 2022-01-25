@@ -67,7 +67,7 @@ You can control the level of logging on a test controller computer. This is usef
 
 This applies to the test controller, the test agent service, and the test agent process. When diagnosing problems, it is helpful to enable logging on all three processes. The procedure to set the logging level is the same for all three processes, as specified earlier for the test controller. To set the logging levels for the test agent service and the agent process, use the following configuration files:
 
-- *QTController.exe.config* Conttoller service
+- *QTController.exe.config* Controller service
 
 - *QTAgentService.exe.config* Agent service
 
