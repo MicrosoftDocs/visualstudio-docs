@@ -683,7 +683,7 @@
       items:
       - name: F# development
         href: ide/fsharp-visual-studio.md
-      - name: Tutorial: Create a web service in F#
+      - name: "Tutorial: Create a web service in F#"
         href: get-started/tutorial-fsharp-web-app.md
       - name: Target older .NET versions
         href: ide/fsharp-target-older-dotnet-versions.md
