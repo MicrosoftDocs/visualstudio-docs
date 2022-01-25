@@ -59,6 +59,10 @@ Make sure to have the following installed:
    - App.js (modified)
    - App.test.js (modified)
 
+1. Select an installed browser from the Debug toolbar, such as Chrome or Microsoft Edge.
+
+   If the browser you want is not yet installed, install the browser first, and then select it.
+
 ## Create the backend app
 
 1. In the solution explorer, right-click the solution name, hover over **Add**, and then select **New Project**. 
