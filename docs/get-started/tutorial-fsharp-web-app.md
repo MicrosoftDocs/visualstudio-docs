@@ -237,16 +237,15 @@ You can use the knowledge from the previous section for this new project.
 
 ## Next steps
 
-If you haven't already, check out the [Tour of F#](../tour.md).
+If you haven't already, check out the [Tour of F#](/dotnet/fsharp/tour).
 This tour describes the core features of the F# language.
 It provides an overview of some of the capabilities of F# and code samples that you can run.
 
 > [!div class="nextstepaction"]
-> [Tour of F#](../tour.md)
+> [Tour of F#](/dotnet/fsharp/tour)
 
 ## See also
 
-- [F# language reference](../language-reference/index.md)
-- [Type inference](../language-reference/type-inference.md)
-- [Symbol and operator reference](../language-reference/symbol-and-operator-reference/index.md)
-- 
+- [F# language reference](/dotnet/fsharp/language-reference/index)
+- [Type inference](/dotnet/fsharp/language-reference/type-inference)
+- [Symbol and operator reference](/dotnet/fsharp/language-reference/symbol-and-operator-reference/index)
