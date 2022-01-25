@@ -34,7 +34,7 @@ Make sure to have the following installed:
 
 - Visual Studio 2022 Preview 2 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
-- npm ([https://www.npmjs.com/](https://www.npmjs.com/)) 
+- npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)) 
 - npx ([https://www.npmjs.com/package/npx](https://www.npmjs.com/package/npx))
 
 ## Create the frontend app
@@ -84,13 +84,13 @@ Make sure to have the following installed:
 1. Right-click the ASP.NET Core project and choose **Properties**.
 
    :::image type="content" source="media/vs-2022/asp-net-core-project-properties.png" alt-text="Open project properties"::: 
- 
+
 1. Go to the Debug menu and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option.
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-react-deselect-launch-browser.png" alt-text="Open debug launch profiles UI"::: 
 
 1. Next, right-click the React project and select the **Properties** menu and go the **Debugging** section. Change the Debugger to launch to the **launch.json** option.
- 
+
    :::image type="content" source="media/vs-2022/asp-net-core-with-react-choose-debugger.png" alt-text="Choose the debugger (launch.json)":::
 
 ## Set the startup project
