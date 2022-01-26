@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2022."
-ms.date: 12/03/2021
+ms.date: 01/26/2022
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -41,6 +41,9 @@ In [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studi
 
 :::image type="content" source="media/vs-2022/find-files-faster.gif" alt-text="Animation of the Find in Files feature as it searches a large C# solution three times faster than the previous version of Visual Studio.":::
 
+> [!NOTE]
+> **New in 17.1 Preview 3** With new indexed searching, Find in Files is even faster! For more information, see the [Code search in Visual Studio 2022 is about to get much faster](https://devblogs.microsoft.com/visualstudio/code-search-in-visual-studio-is-about-to-get-much-faster/) blog post.
+
 ## Build modern apps
 
 Visual Studio 2022 makes it quick and easy to build modern, cloud-based applications with Azure. As well, our new version also has full support for [.NET 6](https://devblogs.microsoft.com/dotnet/announcing-net-6/) and its unified framework for web, client, and mobile apps for both Windows and Mac developers. And, Visual Studio 2022 includes robust support for the C++ workload with new productivity features, C++20 tooling, and [IntelliSense](using-intellisense.md).
@@ -64,6 +67,9 @@ From real-time & asynchronous collaboration tools to improved insights and produ
 ### Multi-repo support with Git in the IDE
 
 If you've worked with projects hosted on different Git repositories, you might have used external tools or multiple instances of Visual Studio to connect to them. In [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/), you can work with a single solution that has projects in multiple repositories and contribute to them all from a single instance of Visual Studio. To learn more, see the [**Multi-repo support in Visual Studio**](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
+
+> [!NOTE]
+> **New in 17.1 Preview 2** We're continuing to add even more functionality to the Git feature set in Visual Studio. For the latest info, see the [Introducing new Git features to Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/introducing-new-git-features-to-visual-studio-2022/) blog post.
 
 ### IntelliCode improvements
 
