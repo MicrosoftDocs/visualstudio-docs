@@ -149,7 +149,7 @@ This console application finds the square of a hard-coded value and displays the
 
 ::: moniker-end
 
-For more information about F#, see [What is F#](/dotnet/fsharp/what-is-fsharp).
+For more information about coding in F#, see [What is F#](/dotnet/fsharp/what-is-fsharp).
 
 ## Create an ASP.NET Core web service
 
