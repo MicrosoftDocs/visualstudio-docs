@@ -91,6 +91,8 @@ From Azure SDK 2.3, remote debugging has the following limitations:
     The reserved port range 'range' for endpoint Microsoft.WindowsAzure.Plugins.RemoteDebugger.Connector of role 'role' overlaps with an already defined port or range.
   * Allocation failed. Please retry later, try reducing the VM size or number of role instances, or try deploying to a different region.
 
+::: moniker range=">=vs-2022"
+
 ## Debugging Azure App Services
 
 You can debug programs that run in Azure App Services by using the Attach to Process dialog in Visual Studio. 
@@ -120,6 +122,8 @@ You can debug programs that run in Azure App Services by using the Attach to Pro
     ![Process Listing](./media/vs-azure-tools-debug-cloud-services-virtual-machines/attach-to-process.png)
 
 7. Select the process you wish to attach to and then hit **Attach** to start debugging. 
+
+::: moniker-end
 
 ## Debugging Azure virtual machines
 
