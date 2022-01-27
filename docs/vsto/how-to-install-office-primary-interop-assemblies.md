@@ -30,10 +30,11 @@ Make sure that you have a version of the .NET Framework that is no older than 2.
 
 Install Microsoft Office and ensure **.NET Programmability Support** feature is selected for the applications you want to extend (this feature is included in the default installation).
 
-    > [!WARNING]
-    > By default, PIA's are embedded in your solution when you build it so you don't have to distribute PIAs to users as a prerequisite to using your VSTO Add-in or customization.
-
+> [!WARNING]
+  > By default, PIA's are embedded in your solution when you build it so you don't have to distribute PIAs to users as a prerequisite to using your VSTO Add-in or customization.
+  
 ## See also
+
 - [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)
 - [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)
 - [How to: Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)
