@@ -37,14 +37,15 @@ Component.Microsoft.VisualStudio.RazorExtension | Razor Language Services | 17.0
 Component.Microsoft.VisualStudio.Web.AzureFunctions | Azure WebJobs Tools | 17.0.31804.368 | Required
 Component.Microsoft.Web.LibraryManager | Library Manager | 17.0.31804.368 | Required
 Component.Microsoft.WebTools.BrowserLink.WebLivePreview | Web Live Preview | 17.0.31.12604 | Required
+Microsoft.Component.ClickOnce | ClickOnce Publishing | 17.0.31804.368 | Required
 Microsoft.Component.MSBuild | MSBuild | 17.0.31804.368 | Required
 Microsoft.ComponentGroup.ClickOnce.Publish | ClickOnce Publishing for .NET  | 17.0.31804.368 | Required
 Microsoft.Net.Component.4.7.2.TargetingPack | .NET Framework 4.7.2 targeting pack | 17.0.31804.368 | Required
 Microsoft.Net.Component.4.8.SDK | .NET Framework 4.8 SDK | 17.0.31804.368 | Required
 Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.7.2 development tools | 17.0.31804.368 | Required
 Microsoft.NetCore.Component.DevelopmentTools | Development tools for .NET | 17.0.31804.368 | Required
-Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.31807.268 | Required
-Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.31807.268 | Required
+Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.32002.159 | Required
+Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.32002.159 | Required
 Microsoft.NetCore.Component.Web | Web development tools for .NET | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.Azure.ClientLibs | Azure libraries for .NET | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.Common.Azure.Tools | Connectivity and publishing tools | 17.0.31804.368 | Required
@@ -52,8 +53,9 @@ Microsoft.VisualStudio.Component.DockerTools | Container development tools | 17.
 Microsoft.VisualStudio.Component.FSharp | F# language support | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.FSharp.WebTemplates | F# language support for web projects | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.IISExpress | IIS Express  | 17.0.31804.368 | Required
-Microsoft.VisualStudio.Component.JavaScript.Diagnostics | JavaScript diagnostics | 17.0.31805.14 | Required
+Microsoft.VisualStudio.Component.JavaScript.Diagnostics | JavaScript diagnostics | 17.0.32001.416 | Required
 Microsoft.VisualStudio.Component.JavaScript.TypeScript | JavaScript and TypeScript language support | 17.0.31804.368 | Required
+Microsoft.VisualStudio.Component.ManagedDesktop.Core | Managed Desktop Workload Core | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.MSODBC.SQL | SQL Server ODBC Driver | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.MSSQL.CMDLnUtils | SQL Server Command Line Utilities | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.NuGet | NuGet package manager | 17.0.31804.368 | Required
@@ -74,6 +76,8 @@ Microsoft.Component.Azure.DataLake.Tools | Azure Data Lake and Stream Analytics 
 Microsoft.Net.Component.4.8.TargetingPack | .NET Framework 4.8 targeting pack | 17.0.31804.368 | Recommended
 Microsoft.Net.ComponentGroup.4.8.DeveloperTools | .NET Framework 4.8 development tools | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.AppInsights.Tools | Developer Analytics tools | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.AspNet | .NET Framework project and item templates | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.AspNet45 | Advanced ASP.NET features | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.Azure.AuthoringTools | Azure Authoring Tools | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.Azure.Compute.Emulator | Azure Compute Emulator | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.Azure.Powershell | Azure Powershell | 17.0.31804.368 | Recommended
@@ -81,8 +85,10 @@ Microsoft.VisualStudio.Component.Azure.ResourceManager.Tools | Azure Resource Ma
 Microsoft.VisualStudio.Component.Azure.ServiceFabric.Tools | Service Fabric Tools | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.Azure.Waverton | Azure Cloud Services core tools | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.Azure.Waverton.BuildTools | Azure Cloud Services build tools | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.Debugger.Snapshot | Snapshot Debugger | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.DiagnosticTools | .NET profiling tools | 17.0.31804.368 | Recommended
-Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31821.396 | Recommended
+Microsoft.VisualStudio.Component.IntelliTrace.FrontEnd | IntelliTrace | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.WebDeploy | Web Deploy | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.ComponentGroup.Azure.CloudServices | Azure Cloud Services tools | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.ComponentGroup.Azure.ResourceManager.Tools | Azure Resource Manager tools | 17.0.31804.368 | Recommended
@@ -104,21 +110,54 @@ Microsoft.VisualStudio.Component.Wcf.Tooling | Windows Communication Foundation 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
 Microsoft.Component.Azure.DataLake.Tools | Azure Data Lake and Stream Analytics Tools | 17.0.31805.14 | Recommended
+Microsoft.Component.ClickOnce | ClickOnce Publishing | 17.0.31804.368 | Recommended
 Microsoft.Component.MSBuild | MSBuild | 17.0.31804.368 | Recommended
 Microsoft.Net.Component.4.7.2.TargetingPack | .NET Framework 4.7.2 targeting pack | 17.0.31804.368 | Recommended
 Microsoft.Net.Component.4.8.SDK | .NET Framework 4.8 SDK | 17.0.31804.368 | Recommended
 Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.7.2 development tools | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.Common.Azure.Tools | Connectivity and publishing tools | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.ManagedDesktop.Core | Managed Desktop Workload Core | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.MSODBC.SQL | SQL Server ODBC Driver | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.MSSQL.CMDLnUtils | SQL Server Command Line Utilities | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.NuGet | NuGet package manager | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.Roslyn.Compiler | C# and Visual Basic Roslyn compilers | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# and Visual Basic | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.SQL.CLR | CLR data types for SQL Server | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.SQL.LocalDB.Runtime | SQL Server Express 2019 LocalDB | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.SQL.SSDT | SQL Server Data Tools | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.TextTemplating | Text Template Transformation | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.FSharp.Desktop | F# desktop language support | 17.0.31804.368 | Optional
-Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# and Visual Basic | 17.0.31804.368 | Optional
+
+## Data science and analytical applications
+
+**ID:** Microsoft.VisualStudio.Workload.DataScience
+
+**Description:** Languages and tooling for creating data science applications, including Python and F#.
+
+### Components included by this workload
+
+Component ID | Name | Version | Dependency type
+--- | --- | --- | ---
+Microsoft.Component.PythonTools | Python language support | 17.0.31804.368 | Recommended
+Microsoft.Component.PythonTools.Web | Python web support | 17.0.31804.368 | Recommended
+Microsoft.Net.Component.4.7.2.TargetingPack | .NET Framework 4.7.2 targeting pack | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.Common.Azure.Tools | Connectivity and publishing tools | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.FSharp.Desktop | F# desktop language support | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.JavaScript.TypeScript | JavaScript and TypeScript language support | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.NuGet | NuGet package manager | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.Roslyn.Compiler | C# and Visual Basic Roslyn compilers | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# and Visual Basic | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.TypeScript.TSServer | TypeScript Server | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.WebDeploy | Web Deploy | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions | ASP.NET and web development | 17.0.31804.368 | Recommended
+Microsoft.ComponentGroup.PythonTools.NativeDevelopment | Python native development tools | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.Graphics.Tools | Graphics debugger and GPU profiler for DirectX | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.TypeScript.SDK.4.4 | TypeScript 4.4 SDK | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.VC.CoreIde | C++ core features | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.VC.DiagnosticTools | C++ profiling tools | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC v143 - VS 2022 C++ x64/x86 build tools (Latest) | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.Windows10SDK | Windows Universal C Runtime | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.Windows10SDK.19041 | Windows 10 SDK (10.0.19041.0) | 17.0.31804.368 | Optional
 
 ## .NET desktop development
 
@@ -135,8 +174,8 @@ Microsoft.Component.MSBuild | MSBuild | 17.0.31804.368 | Required
 Microsoft.Net.Component.4.7.2.TargetingPack | .NET Framework 4.7.2 targeting pack | 17.0.31804.368 | Required
 Microsoft.Net.Component.4.8.SDK | .NET Framework 4.8 SDK | 17.0.31804.368 | Required
 Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.7.2 development tools | 17.0.31804.368 | Required
-Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.31807.268 | Required
-Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.31807.268 | Required
+Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.32002.159 | Required
+Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.32002.159 | Required
 Microsoft.VisualStudio.Component.ManagedDesktop.Core | Managed Desktop Workload Core | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.ManagedDesktop.Prerequisites | .NET desktop development tools | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.Roslyn.Compiler | C# and Visual Basic Roslyn compilers | 17.0.31804.368 | Required
@@ -154,8 +193,13 @@ Microsoft.VisualStudio.Component.DiagnosticTools | .NET profiling tools | 17.0.3
 Microsoft.VisualStudio.Component.DotNetModelBuilder | ML.NET Model Builder | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.EntityFramework | Entity Framework 6 tools | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.FSharp | F# language support | 17.0.31804.368 | Recommended
-Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31821.396 | Recommended
+Microsoft.VisualStudio.Component.IntelliTrace.FrontEnd | IntelliTrace | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.JavaScript.TypeScript | JavaScript and TypeScript language support | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.LiveUnitTesting | Live Unit Testing | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.NuGet | NuGet package manager | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.TypeScript.TSServer | TypeScript Server | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions | ASP.NET and web development | 17.0.31804.368 | Recommended
 Component.Dotfuscator | PreEmptive Protection - Dotfuscator | 17.0.31804.368 | Optional
 Component.Microsoft.VisualStudio.RazorExtension | Razor Language Services | 17.0.31804.368 | Optional
 Component.Microsoft.Web.LibraryManager | Library Manager | 17.0.31804.368 | Optional
@@ -166,13 +210,17 @@ Microsoft.Net.Component.4.7.TargetingPack | .NET Framework 4.7 targeting pack | 
 Microsoft.Net.ComponentGroup.4.6.2-4.7.1.DeveloperTools | .NET Framework 4.6.2-4.7.1 development tools | 17.0.31804.368 | Optional
 Microsoft.NetCore.Component.Web | Web development tools for .NET | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.AppInsights.Tools | Developer Analytics tools | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.ClassDesigner | Class Designer | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.CodeClone | Code Clone | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.CodeMap | Code Map | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.Common.Azure.Tools | Connectivity and publishing tools | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.DependencyValidation.Enterprise | Live Dependency Validation | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.DockerTools | Container development tools | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.FSharp.Desktop | F# desktop language support | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.FSharp.WebTemplates | F# language support for web projects | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.GraphDocument | DGML editor | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.IISExpress | IIS Express  | 17.0.31804.368 | Optional
-Microsoft.VisualStudio.Component.JavaScript.Diagnostics | JavaScript diagnostics | 17.0.31805.14 | Optional
-Microsoft.VisualStudio.Component.JavaScript.TypeScript | JavaScript and TypeScript language support | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.JavaScript.Diagnostics | JavaScript diagnostics | 17.0.32001.416 | Optional
 Microsoft.VisualStudio.Component.MSODBC.SQL | SQL Server ODBC Driver | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.MSSQL.CMDLnUtils | SQL Server Command Line Utilities | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.PortableLibrary | .NET Portable Library targeting pack | 17.0.31804.368 | Optional
@@ -180,13 +228,12 @@ Microsoft.VisualStudio.Component.SQL.DataSources | Data sources for SQL Server s
 Microsoft.VisualStudio.Component.SQL.LocalDB.Runtime | SQL Server Express 2019 LocalDB | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.SQL.SSDT | SQL Server Data Tools | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.TypeScript.SDK.4.4 | TypeScript 4.4 SDK | 17.0.31804.368 | Optional
-Microsoft.VisualStudio.Component.TypeScript.TSServer | TypeScript Server | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.Wcf.Tooling | Windows Communication Foundation | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.Web | ASP.NET and web development prerequisites | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.WebDeploy | Web Deploy | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.ComponentGroup.ArchitectureTools.Managed | Architecture and analysis tools | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.ComponentGroup.MSIX.Packaging | MSIX Packaging Tools | 17.0.31806.525 | Optional
 Microsoft.VisualStudio.ComponentGroup.Web | ASP.NET and web development prerequisites | 17.0.31804.368 | Optional
-Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions | ASP.NET and web development | 17.0.31804.368 | Optional
 
 ## Game development with Unity
 
@@ -218,7 +265,7 @@ Component ID | Name | Version | Dependency type
 Component.MDD.Linux | C++ for Linux Development | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.VC.CoreIde | C++ core features | 17.0.31804.368 | Required
 Component.Linux.CMake | C++ CMake tools for Linux | 17.0.31804.368 | Recommended
-Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31821.396 | Recommended
 Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions | ASP.NET and web development | 17.0.31804.368 | Recommended
 Component.MDD.Linux.GCC.arm | Embedded and IoT development tools | 17.0.31804.368 | Optional
 
@@ -233,16 +280,25 @@ Component.MDD.Linux.GCC.arm | Embedded and IoT development tools | 17.0.31804.36
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
 Microsoft.Component.MSBuild | MSBuild | 17.0.31804.368 | Required
+Microsoft.VisualStudio.Component.ClassDesigner | Class Designer | 17.0.31804.368 | Required
+Microsoft.VisualStudio.Component.CodeMap | Code Map | 17.0.31804.368 | Required
+Microsoft.VisualStudio.Component.GraphDocument | DGML editor | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.Roslyn.Compiler | C# and Visual Basic Roslyn compilers | 17.0.31804.368 | Required
+Microsoft.VisualStudio.Component.SQL.LocalDB.Runtime | SQL Server Express 2019 LocalDB | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.TextTemplating | Text Template Transformation | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.VC.CoreIde | C++ core features | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.VC.Redist.14.Latest | C++ 2022 Redistributable Update | 17.0.31804.368 | Required
+Microsoft.VisualStudio.ComponentGroup.ArchitectureTools.Native | Architecture tools for C++ | 17.0.31804.368 | Required
 Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Core | C++ core desktop features | 17.0.31804.368 | Required
 Component.Microsoft.VisualStudio.LiveShare.2022 | Live Share | 1.0.4647 | Recommended
 Microsoft.VisualStudio.Component.Debugger.JustInTime | Just-In-Time debugger | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.Graphics.Tools | Graphics debugger and GPU profiler for DirectX | 17.0.31804.368 | Recommended
-Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31821.396 | Recommended
+Microsoft.VisualStudio.Component.IntelliTrace.FrontEnd | IntelliTrace | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.JavaScript.TypeScript | JavaScript and TypeScript language support | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.NuGet | NuGet package manager | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# and Visual Basic | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.TypeScript.TSServer | TypeScript Server | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.VC.ASAN | C++ AddressSanitizer | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.VC.ATL | C++ ATL for latest v143 build tools (x86 & x64) | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.VC.CMake.Project | C++ CMake tools for Windows | 17.0.31804.368 | Recommended
@@ -251,11 +307,15 @@ Microsoft.VisualStudio.Component.VC.TestAdapterForBoostTest | Test Adapter for B
 Microsoft.VisualStudio.Component.VC.TestAdapterForGoogleTest | Test Adapter for Google Test | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC v143 - VS 2022 C++ x64/x86 build tools (Latest) | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.Windows10SDK.19041 | Windows 10 SDK (10.0.19041.0) | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions | ASP.NET and web development | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions.CMake | JSON editor | 17.0.31804.368 | Recommended
 Component.Incredibuild | Incredibuild - Build Acceleration | 17.0.31804.368 | Optional
 Component.IncredibuildMenu | IncredibuildMenu | 1.6.0.1 | Optional
+Microsoft.Component.VC.Runtime.UCRTSDK | Windows Universal CRT SDK | 17.0.31804.368 | Optional
 Microsoft.Net.Component.4.7.2.TargetingPack | .NET Framework 4.7.2 targeting pack | 17.0.31804.368 | Optional
 Microsoft.Net.Component.4.8.SDK | .NET Framework 4.8 SDK | 17.0.31804.368 | Optional
-Microsoft.VisualStudio.Component.JavaScript.Diagnostics | JavaScript diagnostics | 17.0.31805.14 | Optional
+Microsoft.VisualStudio.Component.JavaScript.Diagnostics | JavaScript diagnostics | 17.0.32001.416 | Optional
+Microsoft.VisualStudio.Component.TypeScript.SDK.4.4 | TypeScript 4.4 SDK | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.VC.140 | MSVC v140 - VS 2015 C++ build tools (v14.00) | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.VC.ATLMFC | C++ MFC for latest v143 build tools (x86 & x64) | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.VC.CLI.Support | C++/CLI support for v143 build tools (Latest) | 17.0.31804.368 | Optional
@@ -266,9 +326,9 @@ Microsoft.VisualStudio.Component.VC.Tools.ARM64 | MSVC v143 - VS 2022 C++ ARM64 
 Microsoft.VisualStudio.Component.VC.v141.x86.x64 | MSVC v141 - VS 2017 C++ x64/x86 build tools (v14.16) | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.18362 | Windows 10 SDK (10.0.18362.0) | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.20348 | Windows 10 SDK (10.0.20348.0) | 17.0.31804.368 | Optional
-Microsoft.VisualStudio.Component.Windows11SDK.22000 | Windows 11 SDK (10.0.22000.0) | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.Windows11SDK.22000 | Windows 11 SDK (10.0.22000.0) | 17.0.31821.396 | Optional
 Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Llvm.Clang | C++ Clang tools for Windows (12.0.0 - x64/x86) | 17.0.31804.368 | Optional
-Microsoft.VisualStudio.ComponentGroup.VC.Tools.142.x86.x64 | MSVC v142 - VS 2019 C++ x64/x86 build tools (v14.29) | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.ComponentGroup.VC.Tools.142.x86.x64 | MSVC v142 - VS 2019 C++ x64/x86 build tools (v14.29) | 17.0.31821.396 | Optional
 
 ## Game development with C++
 
@@ -285,7 +345,8 @@ Microsoft.VisualStudio.Component.VC.Redist.14.Latest | C++ 2022 Redistributable 
 Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC v143 - VS 2022 C++ x64/x86 build tools (Latest) | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.Windows10SDK | Windows Universal C Runtime | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.Graphics.Tools | Graphics debugger and GPU profiler for DirectX | 17.0.31804.368 | Recommended
-Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31821.396 | Recommended
+Microsoft.VisualStudio.Component.IntelliTrace.FrontEnd | IntelliTrace | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.VC.ASAN | C++ AddressSanitizer | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.VC.DiagnosticTools | C++ profiling tools | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.Windows10SDK.19041 | Windows 10 SDK (10.0.19041.0) | 17.0.31804.368 | Recommended
@@ -310,7 +371,7 @@ Microsoft.VisualStudio.Component.Roslyn.Compiler | C# and Visual Basic Roslyn co
 Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# and Visual Basic | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.18362 | Windows 10 SDK (10.0.18362.0) | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.20348 | Windows 10 SDK (10.0.20348.0) | 17.0.31804.368 | Optional
-Microsoft.VisualStudio.Component.Windows11SDK.22000 | Windows 11 SDK (10.0.22000.0) | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.Windows11SDK.22000 | Windows 11 SDK (10.0.22000.0) | 17.0.31821.396 | Optional
 
 ## Mobile development with C++
 
@@ -328,7 +389,7 @@ Microsoft.VisualStudio.Component.VC.CoreIde | C++ core features | 17.0.31804.368
 Component.Android.NDK.R21E | Android NDK (R21E) | 17.0.31804.368 | Recommended
 Component.Ant | Apache Ant (1.9.3) | 1.9.3.8 | Recommended
 Component.MDD.Android | C++ Android development tools | 17.0.31804.368 | Recommended
-Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31821.396 | Recommended
 Component.Google.Android.Emulator.API25.Private | Google Android Emulator (API Level 25) (local install) | 17.0.31804.368 | Optional
 Component.HAXM.Private | Intel Hardware Accelerated Execution Manager (HAXM) (local install) | 17.0.31804.368 | Optional
 Component.Incredibuild | Incredibuild - Build Acceleration | 17.0.31804.368 | Optional
@@ -339,7 +400,7 @@ Component.MDD.IOS | C++ iOS development tools | 17.0.31804.368 | Optional
 
 **ID:** Microsoft.VisualStudio.Workload.NetCrossPlat
 
-**Description:** Build cross-platform applications for iOS, Android or Windows using Xamarin. This includes a preview of the .NET MAUI Workload as an optional install.
+**Description:** Build cross-platform applications for iOS, Android or Windows using Xamarin.
 
 ### Components included by this workload
 
@@ -355,8 +416,8 @@ Microsoft.Net.Component.4.7.2.TargetingPack | .NET Framework 4.7.2 targeting pac
 Microsoft.Net.Component.4.8.SDK | .NET Framework 4.8 SDK | 17.0.31804.368 | Required
 Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.7.2 development tools | 17.0.31804.368 | Required
 Microsoft.NetCore.Component.DevelopmentTools | Development tools for .NET | 17.0.31804.368 | Required
-Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.31807.268 | Required
-Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.31807.268 | Required
+Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.32002.159 | Required
+Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.32002.159 | Required
 Microsoft.VisualStudio.Component.FSharp | F# language support | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.Merq | Common Xamarin internal tools | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.MonoDebugger | Mono debugger | 17.0.31804.368 | Required
@@ -364,7 +425,7 @@ Microsoft.VisualStudio.Component.NuGet | NuGet package manager | 17.0.31804.368 
 Microsoft.VisualStudio.Component.Roslyn.Compiler | C# and Visual Basic Roslyn compilers | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# and Visual Basic | 17.0.31804.368 | Required
 Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions.TemplateEngine | ASP.NET templating engine | 17.0.31804.368 | Required
-Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31821.396 | Recommended
 
 ## ASP.NET and web development
 
@@ -379,22 +440,24 @@ Component ID | Name | Version | Dependency type
 Component.Microsoft.VisualStudio.RazorExtension | Razor Language Services | 17.0.31804.368 | Required
 Component.Microsoft.Web.LibraryManager | Library Manager | 17.0.31804.368 | Required
 Component.Microsoft.WebTools.BrowserLink.WebLivePreview | Web Live Preview | 17.0.31.12604 | Required
+Microsoft.Component.ClickOnce | ClickOnce Publishing | 17.0.31804.368 | Required
 Microsoft.Component.MSBuild | MSBuild | 17.0.31804.368 | Required
 Microsoft.ComponentGroup.ClickOnce.Publish | ClickOnce Publishing for .NET  | 17.0.31804.368 | Required
 Microsoft.Net.Component.4.7.2.TargetingPack | .NET Framework 4.7.2 targeting pack | 17.0.31804.368 | Required
 Microsoft.Net.Component.4.8.SDK | .NET Framework 4.8 SDK | 17.0.31804.368 | Required
 Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.7.2 development tools | 17.0.31804.368 | Required
 Microsoft.NetCore.Component.DevelopmentTools | Development tools for .NET | 17.0.31804.368 | Required
-Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.31807.268 | Required
-Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.31807.268 | Required
+Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.32002.159 | Required
+Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.32002.159 | Required
 Microsoft.NetCore.Component.Web | Web development tools for .NET | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.Common.Azure.Tools | Connectivity and publishing tools | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.DockerTools | Container development tools | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.FSharp | F# language support | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.FSharp.WebTemplates | F# language support for web projects | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.IISExpress | IIS Express  | 17.0.31804.368 | Required
-Microsoft.VisualStudio.Component.JavaScript.Diagnostics | JavaScript diagnostics | 17.0.31805.14 | Required
+Microsoft.VisualStudio.Component.JavaScript.Diagnostics | JavaScript diagnostics | 17.0.32001.416 | Required
 Microsoft.VisualStudio.Component.JavaScript.TypeScript | JavaScript and TypeScript language support | 17.0.31804.368 | Required
+Microsoft.VisualStudio.Component.ManagedDesktop.Core | Managed Desktop Workload Core | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.MSODBC.SQL | SQL Server ODBC Driver | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.MSSQL.CMDLnUtils | SQL Server Command Line Utilities | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.NuGet | NuGet package manager | 17.0.31804.368 | Required
@@ -414,24 +477,38 @@ Component.Microsoft.VisualStudio.Web.AzureFunctions | Azure WebJobs Tools | 17.0
 Microsoft.Net.Component.4.8.TargetingPack | .NET Framework 4.8 targeting pack | 17.0.31804.368 | Recommended
 Microsoft.Net.ComponentGroup.4.8.DeveloperTools | .NET Framework 4.8 development tools | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.AppInsights.Tools | Developer Analytics tools | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.AspNet | .NET Framework project and item templates | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.AspNet45 | Advanced ASP.NET features | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.Debugger.JustInTime | Just-In-Time debugger | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.Debugger.Snapshot | Snapshot Debugger | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.DiagnosticTools | .NET profiling tools | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.EntityFramework | Entity Framework 6 tools | 17.0.31804.368 | Recommended
-Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31821.396 | Recommended
+Microsoft.VisualStudio.Component.IntelliTrace.FrontEnd | IntelliTrace | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.LiveUnitTesting | Live Unit Testing | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.WebDeploy | Web Deploy | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.WslDebugging | .NET Debugging with WSL | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.ComponentGroup.AzureFunctions | Azure WebJobs Tools | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.ComponentGroup.Web.CloudTools | Cloud tools for web development | 17.0.31804.368 | Recommended
+Microsoft.Net.Component.4.5.2.TargetingPack | .NET Framework 4.5.2 targeting pack | 17.0.31804.368 | Optional
 Microsoft.Net.Component.4.6.2.TargetingPack | .NET Framework 4.6.2 targeting pack | 17.0.31804.368 | Optional
 Microsoft.Net.Component.4.7.1.TargetingPack | .NET Framework 4.7.1 targeting pack | 17.0.31804.368 | Optional
 Microsoft.Net.Component.4.7.TargetingPack | .NET Framework 4.7 targeting pack | 17.0.31804.368 | Optional
 Microsoft.Net.ComponentGroup.4.6.2-4.7.1.DeveloperTools | .NET Framework 4.6.2-4.7.1 development tools | 17.0.31804.368 | Optional
-microsoft.net.runtime.mono.tooling | Shared native build tooling for Mono runtime | 6.0.21.48005 | Optional
-microsoft.net.sdk.emscripten | Emscripten SDK compiler tooling | 6.0.4.47401 | Optional
+microsoft.net.runtime.mono.tooling | Shared native build tooling for Mono runtime | 6.0.121.56705 | Optional
+microsoft.net.sdk.emscripten | Emscripten SDK compiler tooling | 6.0.5.2003 | Optional
+Microsoft.VisualStudio.Component.ClassDesigner | Class Designer | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.CodeClone | Code Clone | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.CodeMap | Code Map | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.DependencyValidation.Enterprise | Live Dependency Validation | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.GraphDocument | DGML editor | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.TestTools.WebLoadTest | Web performance and load testing tools | 17.0.32001.416 | Optional
 Microsoft.VisualStudio.Component.TypeScript.SDK.4.4 | TypeScript 4.4 SDK | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.Wcf.Tooling | Windows Communication Foundation | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.ComponentGroup.AdditionalWebProjectTemplates | Additional project templates (previous versions) | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.ComponentGroup.ArchitectureTools.Managed | Architecture and analysis tools | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.ComponentGroup.IISDevelopment | Development time IIS support | 17.0.31804.368 | Optional
-wasm.tools | .NET WebAssembly build tools | 6.0.21.48005 | Optional
+wasm.tools | .NET WebAssembly build tools | 6.0.121.56705 | Optional
 
 ## Node.js development
 
@@ -443,13 +520,16 @@ wasm.tools | .NET WebAssembly build tools | 6.0.21.48005 | Optional
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
-Microsoft.VisualStudio.Component.JavaScript.Diagnostics | JavaScript diagnostics | 17.0.31805.14 | Required
+Microsoft.VisualStudio.Component.JavaScript.Diagnostics | JavaScript diagnostics | 17.0.32001.416 | Required
 Microsoft.VisualStudio.Component.JavaScript.TypeScript | JavaScript and TypeScript language support | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.Node.Tools | Node.js development tools | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.TypeScript.TSServer | TypeScript Server | 17.0.31804.368 | Required
 Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions | ASP.NET and web development | 17.0.31804.368 | Required
 Component.Microsoft.VisualStudio.LiveShare.2022 | Live Share | 1.0.4647 | Recommended
-Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.Debugger.JustInTime | Just-In-Time debugger | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31821.396 | Recommended
+Microsoft.VisualStudio.Component.Roslyn.Compiler | C# and Visual Basic Roslyn compilers | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# and Visual Basic | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.WebDeploy | Web Deploy | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.AppInsights.Tools | Developer Analytics tools | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.Common.Azure.Tools | Connectivity and publishing tools | 17.0.31804.368 | Optional
@@ -477,8 +557,8 @@ Microsoft.Net.Component.4.7.2.TargetingPack | .NET Framework 4.7.2 targeting pac
 Microsoft.Net.Component.4.8.SDK | .NET Framework 4.8 SDK | 17.0.31804.368 | Required
 Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.7.2 development tools | 17.0.31804.368 | Required
 Microsoft.NetCore.Component.DevelopmentTools | Development tools for .NET | 17.0.31804.368 | Required
-Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.31807.268 | Required
-Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.31807.268 | Required
+Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.32002.159 | Required
+Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.32002.159 | Required
 Microsoft.NetCore.Component.Web | Web development tools for .NET | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.AppInsights.Tools | Developer Analytics tools | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.Common.Azure.Tools | Connectivity and publishing tools | 17.0.31804.368 | Required
@@ -486,7 +566,7 @@ Microsoft.VisualStudio.Component.DockerTools | Container development tools | 17.
 Microsoft.VisualStudio.Component.FSharp | F# language support | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.FSharp.WebTemplates | F# language support for web projects | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.IISExpress | IIS Express  | 17.0.31804.368 | Required
-Microsoft.VisualStudio.Component.JavaScript.Diagnostics | JavaScript diagnostics | 17.0.31805.14 | Required
+Microsoft.VisualStudio.Component.JavaScript.Diagnostics | JavaScript diagnostics | 17.0.32001.416 | Required
 Microsoft.VisualStudio.Component.JavaScript.TypeScript | JavaScript and TypeScript language support | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.ManagedDesktop.Core | Managed Desktop Workload Core | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.ManagedDesktop.Prerequisites | .NET desktop development tools | 17.0.31804.368 | Required
@@ -509,13 +589,14 @@ Microsoft.VisualStudio.ComponentGroup.Web | ASP.NET and web development prerequi
 Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions | ASP.NET and web development | 17.0.31804.368 | Required
 Microsoft.Net.Component.4.8.TargetingPack | .NET Framework 4.8 targeting pack | 17.0.31804.368 | Recommended
 Microsoft.Net.ComponentGroup.4.8.DeveloperTools | .NET Framework 4.8 development tools | 17.0.31804.368 | Recommended
-Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31821.396 | Recommended
 Microsoft.VisualStudio.Component.TeamOffice | Visual Studio Tools for Office (VSTO) | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.WebDeploy | Web Deploy | 17.0.31804.368 | Recommended
 Microsoft.Net.Component.4.6.2.TargetingPack | .NET Framework 4.6.2 targeting pack | 17.0.31804.368 | Optional
 Microsoft.Net.Component.4.7.1.TargetingPack | .NET Framework 4.7.1 targeting pack | 17.0.31804.368 | Optional
 Microsoft.Net.Component.4.7.TargetingPack | .NET Framework 4.7 targeting pack | 17.0.31804.368 | Optional
 Microsoft.Net.ComponentGroup.4.6.2-4.7.1.DeveloperTools | .NET Framework 4.6.2-4.7.1 development tools | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.IntelliTrace.FrontEnd | IntelliTrace | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.TypeScript.SDK.4.4 | TypeScript 4.4 SDK | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.ComponentGroup.Sharepoint.WIF | Windows Identity Foundation 3.5 | 17.0.31804.368 | Optional
 
@@ -530,21 +611,60 @@ Microsoft.VisualStudio.ComponentGroup.Sharepoint.WIF | Windows Identity Foundati
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
 Microsoft.Component.PythonTools | Python language support | 17.0.31804.368 | Required
-Component.CPython3.x64 | Python 3 64-bit (3.9.5) | 3.9.5 | Recommended
-Component.CPython3.x86 | Python 3 32-bit (3.9.5) | 3.9.5 | Optional
+Component.CPython39.x64 | Python 3 64-bit (3.9.7) | 3.9.7 | Optional
+Component.CPython39.x86 | Python 3 32-bit (3.9.7) | 3.9.7 | Optional
 Component.Microsoft.VisualStudio.LiveShare.2022 | Live Share | 1.0.4647 | Optional
+Component.Microsoft.VisualStudio.RazorExtension | Razor Language Services | 17.0.31804.368 | Optional
+Component.Microsoft.Web.LibraryManager | Library Manager | 17.0.31804.368 | Optional
+Component.Microsoft.WebTools.BrowserLink.WebLivePreview | Web Live Preview | 17.0.31.12604 | Optional
+Microsoft.Component.ClickOnce | ClickOnce Publishing | 17.0.31804.368 | Optional
+Microsoft.Component.MSBuild | MSBuild | 17.0.31804.368 | Optional
 Microsoft.Component.PythonTools.Web | Python web support | 17.0.31804.368 | Optional
+Microsoft.ComponentGroup.ClickOnce.Publish | ClickOnce Publishing for .NET  | 17.0.31804.368 | Optional
 Microsoft.ComponentGroup.PythonTools.NativeDevelopment | Python native development tools | 17.0.31804.368 | Optional
+Microsoft.Net.Component.4.7.2.TargetingPack | .NET Framework 4.7.2 targeting pack | 17.0.31804.368 | Optional
+Microsoft.Net.Component.4.8.SDK | .NET Framework 4.8 SDK | 17.0.31804.368 | Optional
+Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.7.2 development tools | 17.0.31804.368 | Optional
+Microsoft.NetCore.Component.DevelopmentTools | Development tools for .NET | 17.0.31804.368 | Optional
+Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.32002.159 | Optional
+Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.32002.159 | Optional
+Microsoft.NetCore.Component.Web | Web development tools for .NET | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.AppInsights.Tools | Developer Analytics tools | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.Azure.AuthoringTools | Azure Authoring Tools | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.Azure.ClientLibs | Azure libraries for .NET | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.Azure.Compute.Emulator | Azure Compute Emulator | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.Azure.Waverton | Azure Cloud Services core tools | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.Azure.Waverton.BuildTools | Azure Cloud Services build tools | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.Common.Azure.Tools | Connectivity and publishing tools | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.Debugger.JustInTime | Just-In-Time debugger | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.DockerTools | Container development tools | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.FSharp | F# language support | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.FSharp.WebTemplates | F# language support for web projects | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.Graphics.Tools | Graphics debugger and GPU profiler for DirectX | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.IISExpress | IIS Express  | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.JavaScript.Diagnostics | JavaScript diagnostics | 17.0.32001.416 | Optional
 Microsoft.VisualStudio.Component.JavaScript.TypeScript | JavaScript and TypeScript language support | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.ManagedDesktop.Core | Managed Desktop Workload Core | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.MSODBC.SQL | SQL Server ODBC Driver | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.MSSQL.CMDLnUtils | SQL Server Command Line Utilities | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.NuGet | NuGet package manager | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.Roslyn.Compiler | C# and Visual Basic Roslyn compilers | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# and Visual Basic | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.SQL.CLR | CLR data types for SQL Server | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.SQL.DataSources | Data sources for SQL Server support | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.SQL.LocalDB.Runtime | SQL Server Express 2019 LocalDB | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.SQL.SSDT | SQL Server Data Tools | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.TextTemplating | Text Template Transformation | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.TypeScript.SDK.4.4 | TypeScript 4.4 SDK | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.TypeScript.TSServer | TypeScript Server | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.VC.CoreIde | C++ core features | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.VC.DiagnosticTools | C++ profiling tools | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC v143 - VS 2022 C++ x64/x86 build tools (Latest) | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.Web | ASP.NET and web development prerequisites | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.WebDeploy | Web Deploy | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK | Windows Universal C Runtime | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.19041 | Windows 10 SDK (10.0.19041.0) | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.ComponentGroup.Web | ASP.NET and web development prerequisites | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions | ASP.NET and web development | 17.0.31804.368 | Optional
 
 ## Universal Windows Platform development
@@ -559,8 +679,8 @@ Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
 Microsoft.Component.NetFX.Native | .NET Native | 17.0.31804.368 | Required
 Microsoft.ComponentGroup.Blend | Blend for Visual Studio | 17.0.31804.368 | Required
-Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.31807.268 | Required
-Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.31807.268 | Required
+Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime | 17.0.32002.159 | Required
+Microsoft.NetCore.Component.SDK | .NET SDK | 17.0.32002.159 | Required
 Microsoft.VisualStudio.Component.AppInsights.Tools | Developer Analytics tools | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.DiagnosticTools | .NET profiling tools | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.Graphics | Image and 3D model editors | 17.0.31804.368 | Required
@@ -573,10 +693,17 @@ Microsoft.VisualStudio.ComponentGroup.MSIX.Packaging | MSIX Packaging Tools | 17
 Microsoft.VisualStudio.ComponentGroup.UWP.NetCoreAndStandard | .NET Native and .NET Standard | 17.0.31804.368 | Required
 Microsoft.VisualStudio.ComponentGroup.UWP.Support | Universal Windows Platform tools | 17.0.31804.368 | Required
 Microsoft.VisualStudio.ComponentGroup.UWP.Xamarin | Universal Windows Platform tools for Xamarin | 17.0.31804.368 | Required
-Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31821.396 | Recommended
+Microsoft.VisualStudio.Component.IntelliTrace.FrontEnd | IntelliTrace | 17.0.31804.368 | Recommended
 Component.Microsoft.Windows.CppWinRT | C++/WinRT | 2.0.210806.1 | Optional
 Microsoft.Net.Component.4.8.SDK | .NET Framework 4.8 SDK | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.ClassDesigner | Class Designer | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.CodeClone | Code Clone | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.CodeMap | Code Map | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.DependencyValidation.Enterprise | Live Dependency Validation | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.GraphDocument | DGML editor | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.Graphics.Tools | Graphics debugger and GPU profiler for DirectX | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.SQL.LocalDB.Runtime | SQL Server Express 2019 LocalDB | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.UWP.VC.ARM64 | C++ Universal Windows Platform support for v143 build tools (ARM64) | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.UWP.VC.ARM64EC | C++ Universal Windows Platform support for v143 build tools (ARM64EC – experimental) | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.VC.14.29.16.11.ARM | MSVC v142 - VS 2019 C++ ARM build tools (v14.29-16.11) | 17.0.31804.368 | Optional
@@ -593,11 +720,12 @@ Microsoft.VisualStudio.Component.VC.v141.x86.x64 | MSVC v141 - VS 2017 C++ x64/x
 Microsoft.VisualStudio.Component.Windows10SDK | Windows Universal C Runtime | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.18362 | Windows 10 SDK (10.0.18362.0) | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.IpOverUsb | USB Device Connectivity | 17.0.31804.368 | Optional
-Microsoft.VisualStudio.Component.Windows11SDK.22000 | Windows 11 SDK (10.0.22000.0) | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.Component.Windows11SDK.22000 | Windows 11 SDK (10.0.22000.0) | 17.0.31821.396 | Optional
+Microsoft.VisualStudio.ComponentGroup.ArchitectureTools.Managed | Architecture and analysis tools | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.ComponentGroup.UWP.VC | C++ (v143) Universal Windows Platform tools | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.ComponentGroup.UWP.VC.v141 | C++ (v141) Universal Windows Platform tools | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.ComponentGroup.UWP.VC.v142 | C++ (v142) Universal Windows Platform tools | 17.0.31804.368 | Optional
-Microsoft.VisualStudio.ComponentGroup.VC.Tools.142.x86.x64 | MSVC v142 - VS 2019 C++ x64/x86 build tools (v14.29) | 17.0.31804.368 | Optional
+Microsoft.VisualStudio.ComponentGroup.VC.Tools.142.x86.x64 | MSVC v142 - VS 2019 C++ x64/x86 build tools (v14.29) | 17.0.31821.396 | Optional
 
 ## Visual Studio extension development
 
@@ -620,7 +748,8 @@ Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# and Visual Basic |
 Microsoft.VisualStudio.Component.VSSDK | Visual Studio SDK | 17.0.31804.368 | Required
 Microsoft.VisualStudio.ComponentGroup.VisualStudioExtension.Prerequisites | Visual Studio extension development prerequisites | 17.0.31804.368 | Required
 Microsoft.VisualStudio.Component.DiagnosticTools | .NET profiling tools | 17.0.31804.368 | Recommended
-Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31804.368 | Recommended
+Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.0.31821.396 | Recommended
+Microsoft.VisualStudio.Component.IntelliTrace.FrontEnd | IntelliTrace | 17.0.31804.368 | Recommended
 Microsoft.VisualStudio.Component.TextTemplating | Text Template Transformation | 17.0.31804.368 | Recommended
 Microsoft.Component.CodeAnalysis.SDK | .NET Compiler Platform SDK | 17.0.31804.368 | Optional
 Microsoft.VisualStudio.Component.AppInsights.Tools | Developer Analytics tools | 17.0.31804.368 | Optional
@@ -632,6 +761,7 @@ These are components that are not included with any workload, but may be selecte
 
 Component ID | Name | Version
 --- | --- | ---
+Component.Xamarin.Profiler | Xamarin Profiler | 17.0.31815.197
 Microsoft.Component.HelpViewer | Help Viewer | 17.0.31804.368
 Microsoft.Net.Component.3.5.DeveloperTools | .NET Framework 3.5 development tools | 17.0.31804.368
 Microsoft.Net.Component.4.6.1.SDK | .NET Framework 4.6.1 SDK | 17.0.31804.368
@@ -639,14 +769,15 @@ Microsoft.Net.Component.4.6.2.SDK | .NET Framework 4.6.2 SDK | 17.0.31804.368
 Microsoft.Net.Component.4.7.1.SDK | .NET Framework 4.7.1 SDK | 17.0.31804.368
 Microsoft.Net.Component.4.7.2.SDK | .NET Framework 4.7.2 SDK | 17.0.31804.368
 Microsoft.Net.Component.4.7.SDK | .NET Framework 4.7 SDK | 17.0.31804.368
-Microsoft.Net.Core.Component.SDK.2.1 | .NET Core 2.1 Runtime (out of support) | 17.0.31807.268
-Microsoft.NetCore.Component.Runtime.3.1 | .NET Core 3.1 Runtime (LTS) | 17.0.31807.268
-Microsoft.NetCore.Component.Runtime.5.0 | .NET 5.0 Runtime | 17.0.31807.268
+Microsoft.Net.Core.Component.SDK.2.1 | .NET Core 2.1 Runtime (out of support) | 17.0.32002.159
+Microsoft.NetCore.Component.Runtime.3.1 | .NET Core 3.1 Runtime (LTS) | 17.0.32002.159
+Microsoft.NetCore.Component.Runtime.5.0 | .NET 5.0 Runtime | 17.0.32002.159
 Microsoft.NetCore.ComponentGroup.DevelopmentTools.2.1 | Development Tools for .NET Core 2.1 (out of support) | 17.0.31804.368
 Microsoft.NetCore.ComponentGroup.Web.2.1 | Web development tools for .NET Core 2.1 (out of support) | 17.0.31804.368
 Microsoft.VisualStudio.Component.AzureDevOps.OfficeIntegration | Azure DevOps Office Integration | 17.0.31804.368
 Microsoft.VisualStudio.Component.Git | Git for Windows | 17.0.31804.368
 Microsoft.VisualStudio.Component.LinqToSql | LINQ to SQL tools | 17.0.31804.368
+Microsoft.VisualStudio.Component.TestTools.CodedUITest | Coded UI test | 17.0.31804.368
 Microsoft.VisualStudio.Component.VC.14.29.16.11.ARM.Spectre | MSVC v142 - VS 2019 C++ ARM Spectre-mitigated libs (v14.29-16.11) | 17.0.31804.368
 Microsoft.VisualStudio.Component.VC.14.29.16.11.ARM64.Spectre | MSVC v142 - VS 2019 C++ ARM64 Spectre-mitigated libs (v14.29-16.11) | 17.0.31804.368
 Microsoft.VisualStudio.Component.VC.14.29.16.11.ATL | C++ v14.29 (16.11) ATL for v142 build tools (x86 & x64) | 17.0.31804.368

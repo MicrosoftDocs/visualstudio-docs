@@ -16,6 +16,78 @@ ms.workload:
 
 Visual Studio Tools for Unity change log.
 
+## 17.1.0.0
+Released January 19, 2021
+
+### New Features
+
+- **Integration:**
+
+  - Added `CancelInvoke` support to [`UNT0016`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0016.md) diagnostic (Unsafe way to get the method name).
+
+  - Added `ScriptedImporter` and `AssetPostprocessor` classes to well known Unity message containers.
+
+  - Updated Unity messages to 2020.3.20f1.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed dark theme issues with Dialog window and buttons.
+
+  - Correctly handle overridden messages with the opt-in [`UNT0021`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0021.md) diagnostic (Unity message should be protected).
+
+## 17.0.4.0
+Released January 5, 2022
+
+### Bug fixes
+
+- **Integration:**
+
+  - Automatically disable asset-indexing for large Unity projects.
+
+  - Do not warn for compatibility issue when referencing the UnityEngine project.
+
+## 17.0.3.0
+Released December 14, 2021
+
+### Bug fixes
+
+- **Integration:**
+
+  - Reduced memory consumption when processing assets.
+
+## 17.0.2.0
+Released October 30, 2021
+
+### Bug fixes
+
+- **Integration:**
+
+  - Improved light-build time, by only running suppressors able to handle CS compiler warnings. All other analyzers will run through solution analysis.
+
+## 17.0.1.0
+Released October 16, 2021
+
+### Bug fixes
+
+- **Integration:**
+
+  - Reduced memory consumption when parsing yaml assets.
+
+## 17.0.0.0
+Released October 8, 2021
+
+### New Features
+
+- **Integration:**
+
+  - Added support for Visual Studio 2022.
+
+  - We deprecated our legacy project generator for Unity. Going forward please use the latest [Visual Studio Editor package](https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/changelog/CHANGELOG.html) in your projects (`Unity > Window > Package Manager`) and make sure Visual Studio 2022 is set as your preferred code editor (`Unity > Edit > Preferences > External Tools`).
+
+  - Updated Unity messages to 2020.3.9f1.
+
 ## 4.11.4.0
 Released October 4, 2021
 
@@ -23,7 +95,7 @@ Released October 4, 2021
 
 - **Integration:**
 
-  - Automatically disable asset-indexing for large Unity projects.
+  - [Backported] Automatically disable asset-indexing for large Unity projects.
 
 ### Bug fixes
 
@@ -38,7 +110,7 @@ Released August 10, 2021
 
 - **Integration:**
 
-  - Reduced memory consumption when processing assets.
+  - [Backported] Reduced memory consumption when processing assets.
 
   - Optimized allocations with [`USP0008`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0008.md), [`USP0009`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0009.md), [`USP0010`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0010.md) and [`USP0011`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0011.md) suppressors.
 
@@ -51,7 +123,7 @@ Released July 13, 2021
 
 - **Integration:**
 
-  - Improved light-build time, by only running suppressors able to handle CS compiler warnings. All other analyzers will run through solution analysis.
+  - [Backported] Improved light-build time, by only running suppressors able to handle CS compiler warnings. All other analyzers will run through solution analysis.
 
 ## 4.11.1.0
 Released June 15, 2021
@@ -60,7 +132,7 @@ Released June 15, 2021
 
 - **Integration:**
 
-  - Reduced memory consumption when parsing yaml assets.
+  - [Backported] Reduced memory consumption when parsing yaml assets.
 
 ## 4.11.0.0
 Released May 25, 2021

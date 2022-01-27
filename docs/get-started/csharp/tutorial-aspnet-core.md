@@ -42,7 +42,7 @@ In this tutorial for C# development with ASP.NET Core using Visual Studio, you'l
 
 ## Create a project
 
-First, you'll create a ASP.NET Core project. The project type comes with all the template files you'll need for a fully functional website, before you've even added anything!
+First, you'll create an ASP.NET Core project. The project type comes with all the template files you'll need for a fully functional website, before you've even added anything!
 
 ::: moniker range="vs-2017"
 
@@ -455,7 +455,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. Next, create a string for the current date that is formatted for your culture or region by using the [DateTime.ToString](xref:System.DateTime.ToString%2A) method.
 
-   - The first argument for the method specifies how the the date should be displayed. This example uses the format specifier (`d`) which indicates the short date format. 
+   - The first argument for the method specifies how the date should be displayed. This example uses the format specifier (`d`) which indicates the short date format. 
    - The second argument is the [CultureInfo](/dotnet/api/system.globalization.cultureinfo) object that specifies the culture or region for the date. This argument determines, among other things, the language of any words in the date, and the type of separators used.
  
 Change the body of the `OnGet()` method to the following code:
@@ -520,4 +520,4 @@ Or, learn how to containerize your web app with Docker:
 
 ## See also
 
-[Publish your web app to Azure App Service by using Visual Studio](../../deployment/quickstart-deploy-to-azure.md)
+[Publish your web app to Azure App Service by using Visual Studio](../../deployment/quickstart-deploy-aspnet-web-app.md)

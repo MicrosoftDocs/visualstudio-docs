@@ -1,11 +1,12 @@
 ---
 title: Xamarin
 description: "using Xamarin in Visual Studio for Mac allows you to create cross platform applications targeting iOS, Mac, Android, tvOS, and watchOS "
-author: therealjohn
-ms.author: johmil
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 06/18/2019
 ms.assetid: 339F6051-5F90-48DC-8237-EBBC8A03A32B
-ms.topic: overview
+ms.topic: how-to
 ---
 
 # Xamarin mobile app development

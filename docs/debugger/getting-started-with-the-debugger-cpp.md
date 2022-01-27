@@ -186,7 +186,7 @@ First, you'll create a C++ console application project. The project type comes w
 
 Mostly, we use the keyboard shortcuts here, because it's a good way to get fast at executing your app in the debugger (equivalent commands such as menu commands are shown in parentheses).
 
-1. While paused in the `for` loop in the `main` method, press **F11** (or choose **Debug > Step Into**) twice to to advance to the `SendMessage` method call.
+1. While paused in the `for` loop in the `main` method, press **F11** (or choose **Debug > Step Into**) twice to advance to the `SendMessage` method call.
 
      After pressing **F11** twice, you should be at this line of code:
 
