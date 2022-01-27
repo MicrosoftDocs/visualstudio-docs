@@ -22,11 +22,13 @@ ms.workload:
 
 [!include[Add-ins note](includes/addinsnote.md)]
 
+## Prerequisite
+
+Make sure that you have a version of the .NET Framework that is no older than 2.0.
+
 ## To install the PIAs when you install Office
 
-1. Ensure you have a version of the .NET Framework that is no older than 2.0.
-
-2. Install Microsoft Office and ensure **.NET Programmability Support** feature is selected for the applications you want to extend (this feature is included in the default installation).
+Install Microsoft Office and ensure **.NET Programmability Support** feature is selected for the applications you want to extend (this feature is included in the default installation).
 
     > [!WARNING]
     > By default, PIA's are embedded in your solution when you build it so you don't have to distribute PIAs to users as a prerequisite to using your VSTO Add-in or customization.
