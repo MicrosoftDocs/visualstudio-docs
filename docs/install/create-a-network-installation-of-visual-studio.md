@@ -318,10 +318,7 @@ You can configure your layout to _always_ include and provide the latest install
 ::: moniker range=">=vs-2019"
 
 There are two ways to enable your layout to include and provide the latest installer:
-<<<<<<< HEAD
-=======
 
->>>>>>> 6d46d6b86d86b541f2c92c184022ca39ff21a818
 - You can pass in the `--useLatestInstaller` parameter to the bootstrapper when you're creating or updating the layout. This will cause a setting to get set in the layout.json file, which can be found in the root directory of the layout. Here's an example for how to update the layout and configure it to use the latest and greatest installer available.  
 
 
