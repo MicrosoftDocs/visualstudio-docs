@@ -57995,6 +57995,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/test/unit-testing-visual-csharp-code-in-a-store-app.md",
+      "redirect_url": "/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-windows-store-apps",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/install/remove-visual-studio.md",
       "redirect_url": "/visualstudio/install/uninstall-visual-studio",
       "redirect_document_id": false

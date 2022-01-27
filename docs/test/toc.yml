@@ -109,8 +109,6 @@
     items:
     - name: Unit test a C++ UWP DLL
       href: unit-testing-a-visual-cpp-dll-for-store-apps.md
-    - name: Unit test Visual C# code in UWP apps
-      href: unit-testing-visual-csharp-code-in-a-store-app.md
     - name: "Walkthrough: Create and run unit tests for UWP apps"
       href: walkthrough-creating-and-running-unit-tests-for-windows-store-apps.md
   - name: Code coverage
