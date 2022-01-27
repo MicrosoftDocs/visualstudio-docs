@@ -25,7 +25,7 @@ The **Windows Forms Designer** in Visual Studio doesn't have scaling support. Th
 
 ![Windows Forms Designer on HDPI monitor](./media/win-forms-designer-hdpi.png)
 
-When you open a form in the **Windows Forms Designer** in Visual Studio on an HDPI monitor, Visual Studio displays an informational bar at the top of the designer, as follows:
+When you open a form in the **Windows Forms Designer** in Visual Studio on an HDPI monitor, Visual Studio displays an informational bar at the top of the designer:
 
 ::: moniker range="vs-2017"
 
@@ -44,7 +44,9 @@ The message reads **Scaling on your main display is set to 200% (192 dpi). This 
 
 ::: moniker-end
 
-If you aren't working in the designer and don't need to adjust the layout of your form, you can ignore the informational bar and continue working in the code editor or in other types of designers. (You can also [disable notifications](#disable-notifications) so that the informational bar doesn't continue to appear.) Only the **Windows Forms Designer** is affected. If you do need to work in the **Windows Forms Designer**, the next section helps you [resolve the problem](#resolve-hdpi-display-problems).
+If you aren't working in the designer and don't need to adjust the layout of your form, you can ignore the informational bar and continue working in the code editor or in other types of designers. (You can also [disable notifications](#disable-notifications) so that the informational bar doesn't continue to appear.) Only the **Windows Forms Designer** is affected.
+
+If you do need to work in the **Windows Forms Designer**, the next section helps you [resolve the problem](#resolve-hdpi-display-problems).
 
 ## Resolve HDPI display problems
 
