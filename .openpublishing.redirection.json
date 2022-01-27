@@ -71,6 +71,21 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/javascript/javascript-in-vs-2017.md",
+      "redirect_url": "/visualstudio/javascript/javascript-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/javascript/javascript-in-vs-2019.md",
+      "redirect_url": "/visualstudio/javascript/javascript-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/javascript/javascript-in-vs-2022.md",
+      "redirect_url": "/visualstudio/javascript/javascript-in-visual-studio",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "scripting-docs/javascript/misc/access-is-denied.md",
       "redirect_url": "/archive/scripting-docs/javascript/misc/access-is-denied",
       "redirect_document_id": false
