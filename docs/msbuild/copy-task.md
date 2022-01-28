@@ -100,6 +100,10 @@ The following example demonstrates how to do a recursive copy. This project copi
 
     <Target Name="CopyFiles">
         <ItemGroup>
+            <!-- Because this ItemGroup is inside the target, this will enumerate
+                 all files just before calling Copy. If the ItemGroup were outside
+                 the target , it would enumerate the files during evaluation, before
+                 the build starts, which may miss files created during the build. -->
             <MySourceFiles Include="c:\MySourceTree\**\*.*"/>
         </ItemGroup>
 
