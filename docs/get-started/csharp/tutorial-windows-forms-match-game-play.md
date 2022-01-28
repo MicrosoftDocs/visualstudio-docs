@@ -41,10 +41,10 @@ Those labels continue to be displayed.
 1. Add the following `if` statement to the `label_Click()` event handler method.
    Put it near the end of the code just above the statement where you start the timer.
 
-   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step7/cs/form1.cs" id="Snippet9":::
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step7/vb/form1.vb" id="Snippet9":::
+   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step7/cs/form1.cs" id="Snippet9":::
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step7/vb/form1.vb" id="Snippet9":::
 
-   [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
+   [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
 
    The `if` statement checks whether the icon in the first label that the player chooses is the same as the icon in the second label.
    If the icons are the same, the program runs its three statements.
@@ -54,7 +54,7 @@ Those labels continue to be displayed.
 
 1. Run the program, and then start choosing squares on the form.
 
-   ![Screenshot of the Matching Game that you create in this tutorial.](../ide/media/tutorial-windows-forms-create-match-game/match-game-final.png)
+   ![Screenshot of the Matching Game that you create in this tutorial.](../media/tutorial-windows-forms-create-match-game/match-game-final.png)
 
 If you choose a pair that doesn't match, the timer's Tick event triggers.
 Both icons disappear.
@@ -71,8 +71,8 @@ This section adds a method to verify whether the player won.
 
 1. Add a `CheckForWinner()` method to the bottom of your code, below the `timer1_Tick()` event handler.
 
-   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step8/cs/form1.cs" id="Snippet10":::
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step8/vb/form1.vb" id="Snippet10":::
+   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step8/cs/form1.cs" id="Snippet10":::
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step8/vb/form1.vb" id="Snippet10":::
 
    The method uses another `foreach` loop in C# or `For Each` loop in Visual Basic to go through each label in the <xref:System.Windows.Forms.TableLayoutPanel>.
    It checks each label's icon color to verify whether it matches the background.
@@ -84,14 +84,14 @@ This section adds a method to verify whether the player won.
 
    Have the label's <xref:System.Windows.Forms.Control.Click> event handler call the new `CheckForWinner()` method.
 
-   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step8/cs/form1.cs" id="Snippet11":::
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step8/vb/form1.vb" id="Snippet11":::
+   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step8/cs/form1.cs" id="Snippet11":::
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step8/vb/form1.vb" id="Snippet11":::
 
    Be sure that your program checks for a winner immediately after it shows the second icon that the player chooses. Look for the line where you set the second chosen icon's color, and then call the `CheckForWinner()` method right after that line.
 
 1. Save and run the program. Play the game and match all of the icons. When you win, the program displays a congratulatory message.
 
-   ![Screenshot shows the Matching game with a MessageBox.](../ide/media/tutorial-windows-forms-match-game-play/match-game-congratulations.png)
+   ![Screenshot shows the Matching game with a MessageBox.](../media/tutorial-windows-forms-match-game-play/match-game-congratulations.png)
 
    After you select **OK**, the Matching Game closes.
 
@@ -137,4 +137,4 @@ You've done these programming and design tasks in the Visual Studio IDE:
 
 Advance to this article for a deep dive into Windows Forms Designer.
 > [!div class="nextstepaction"]
-> [Tutorial: Get started with Windows Forms Designer](../designers/walkthrough-windows-forms-designer.md)
+> [Tutorial: Get started with Windows Forms Designer](../../designers/walkthrough-windows-forms-designer.md)

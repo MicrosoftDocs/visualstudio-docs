@@ -25,7 +25,7 @@ Use these tutorials to learn about the following tasks in the Visual Studio Inte
 
 When you finish, you'll have a complete game.
 
-![Screenshot shows the game that you create, with several matching icons displayed in a grid.](../ide/media/tutorial-windows-forms-create-match-game/match-game-final.png)
+![Screenshot shows the game that you create, with several matching icons displayed in a grid.](../media/tutorial-windows-forms-create-match-game/match-game-final.png)
 
 In this first tutorial, you learn how to:
 
@@ -48,7 +48,7 @@ When you create your matching game, the first step is to create a Windows Forms 
 
 1. On the menu bar, select **File** > **New** > **Project**.
 
-   ![Screenshot shows the New project dialog box.](../ide/media/newprojectdialogcallouts.png)
+   ![Screenshot shows the New project dialog box.](../media/new-project-dialog-callouts.png)
 
 1. On the left side of the **New Project** dialog box, select either **Visual C#** or **Visual Basic**, and then select **Windows Desktop**.
 
@@ -57,9 +57,9 @@ When you create your matching game, the first step is to create a Windows Forms 
    > [!NOTE]
    > If you don't see the **Windows Forms App (.NET Framework)** template, use the Visual Studio Installer to install the **.NET desktop development** workload.
    >
-   > ![Screenshot shows the dot NET desktop development workload in the Visual Studio Installer.](../ide/media/tutorial-windows-forms-create-match-game/install-dot-net-desktop-env.png)
+   > ![Screenshot shows the dot NET desktop development workload in the Visual Studio Installer.](../media/tutorial-windows-forms-create-match-game/install-dot-net-desktop-env.png)
    >
-   > For more information, see the [Install Visual Studio](../install/install-visual-studio.md) page.
+   > For more information, see the [Install Visual Studio](../../install/install-visual-studio.md) page.
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
@@ -67,22 +67,22 @@ When you create your matching game, the first step is to create a Windows Forms 
 
 1. On the start window, select **Create a new project**.
 
-   ![Screenshot shows the Create a new project option in the Visual Studio start window.](./media/tutorial-windows-forms-create-match-game/create-new-project-dark-theme.png)
+   ![Screenshot shows the Create a new project option in the Visual Studio start window.](../media/tutorial-windows-forms-create-match-game/create-new-project-dark-theme.png)
 
 1. On the **Create a new project** window, search for *Windows Forms*. Then select **Desktop** from the **All project types** list.
 
 1. Select the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then select **Next**.
 
-   ![Screenshot shows the Create a new project dialog box with Windows Forms entered and options for Windows Forms App.](./media/tutorial-windows-forms-create-match-game/create-project-windows-forms.png)
+   ![Screenshot shows the Create a new project dialog box with Windows Forms entered and options for Windows Forms App.](../media/tutorial-windows-forms-create-match-game/create-project-windows-forms.png)
 
    > [!NOTE]
    > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, select the **Install more tools and features** link.
    >
-   > ![Screenshot shows the Install more tools and features link from the Not finding what you're looking for message in the Create new project dialog box.](./media/tutorial-windows-forms-create-match-game/install-more-tools.png)
+   > ![Screenshot shows the Install more tools and features link from the Not finding what you're looking for message in the Create new project dialog box.](../media/tutorial-windows-forms-create-match-game/install-more-tools.png)
    >
    > Next, in Visual Studio Installer, select **.NET desktop development**.
    >
-   > ![Screenshot shows .NET Core workload in the Visual Studio Installer.](../ide/media/tutorial-windows-forms-create-match-game/install-dot-net-desktop-env.png)
+   > ![Screenshot shows .NET Core workload in the Visual Studio Installer.](../media/tutorial-windows-forms-create-match-game/install-dot-net-desktop-env.png)
    >
    > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Next, select **Continue** to install the workload.
 
@@ -133,7 +133,7 @@ In this section, you create the four-by-four grid of the game.
 Your TableLayoutPanel is now a four-by-four grid with 16 equally-sized square cells.
 These rows and columns are where the icons appear later.
 
-![Screenshot shows the Forms tab with a four by four grid.](../ide/media/tutorial-windows-forms-create-match-game/match-game-grid.png)
+![Screenshot shows the Forms tab with a four by four grid.](../media/tutorial-windows-forms-create-match-game/match-game-grid.png)
 
 ## Add and format labels to display
 
@@ -176,7 +176,7 @@ In this section, you create and format labels to display during the game.
 
 This step completes the layout for your form.
 
-![Screenshot shows the matching game form with sixteen black squares.](../ide/media/tutorial-windows-forms-create-match-game/match-game-grid-fill.png)
+![Screenshot shows the matching game form with sixteen black squares.](../media/tutorial-windows-forms-create-match-game/match-game-grid-fill.png)
 
 ## Next steps
 

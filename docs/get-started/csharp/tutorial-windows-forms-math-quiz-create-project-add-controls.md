@@ -17,7 +17,7 @@ ms.workload:
 
 In this series of four tutorials, you'll build a math quiz. The quiz contains four random math problems that a quiz taker tries to answer within a specified time.
 
-The Visual Studio integrated development environment (IDE) provides the tools that you need to create the app. To learn more about this IDE, see [Welcome to the Visual Studio IDE](../get-started/visual-studio-ide.md).
+The Visual Studio integrated development environment (IDE) provides the tools that you need to create the app. To learn more about this IDE, see [Welcome to the Visual Studio IDE](../visual-studio-ide.md).
 
 In this first tutorial, you learn how to:
 
@@ -48,9 +48,9 @@ When you create a math quiz, the first step is to create a Windows Forms App pro
    > [!NOTE]
    > If you don't see the **Windows Forms App (.NET Framework)** template, use Visual Studio Installer to install the **.NET desktop development** workload.
    >
-   > :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/install-dot-net-desktop-env.png" alt-text="Screenshot that shows the dot NET desktop development workload in Visual Studio Installer.":::
+   > :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/install-dot-net-desktop-env.png" alt-text="Screenshot that shows the dot NET desktop development workload in Visual Studio Installer.":::
    >
-   > For more information, see [Install Visual Studio](../install/install-visual-studio.md).
+   > For more information, see [Install Visual Studio](../../install/install-visual-studio.md).
 
 ::: moniker-end
 
@@ -60,22 +60,22 @@ When you create a math quiz, the first step is to create a Windows Forms App pro
 
 1. On the start window, select **Create a new project**.
 
-   :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/create-new-project-dark-theme-2019.png" alt-text="Screenshot that shows the Create a new project option in the Visual Studio start window.":::
+   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/create-new-project-dark-theme-2019.png" alt-text="Screenshot that shows the Create a new project option in the Visual Studio start window.":::
 
 1. In the **Create a new project** window, search for **Windows Forms**. Then select **Desktop** from the **Project type** list.
 
 1. Select the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then select **Next**.
 
-   :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/create-project-windows-forms.png" alt-text="Screenshot that shows the Create a new project dialog box. The search box, the Project type list, and two templates are called out.":::
+   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/create-project-windows-forms.png" alt-text="Screenshot that shows the Create a new project dialog box. The search box, the Project type list, and two templates are called out.":::
 
    > [!NOTE]
    > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, select **Install more tools and features**.
    >
-   > :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/install-more-tools.png" alt-text="Screenshot that shows the Install more tools and features link from the Not finding what you're looking for message in the Create new project dialog box.":::
+   > :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/install-more-tools.png" alt-text="Screenshot that shows the Install more tools and features link from the Not finding what you're looking for message in the Create new project dialog box.":::
    >
    > Next, in Visual Studio Installer, select **.NET desktop development**.
    >
-   > :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/install-dot-net-desktop-env.png" alt-text="Screenshot that shows the dot NET desktop development workload in Visual Studio Installer.":::
+   > :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/install-dot-net-desktop-env.png" alt-text="Screenshot that shows the dot NET desktop development workload in Visual Studio Installer.":::
    >
    > Select **Modify** in Visual Studio Installer. You might be prompted to save your work. Next, select **Continue** to install the workload.
 
@@ -89,22 +89,22 @@ When you create a math quiz, the first step is to create a Windows Forms App pro
 
 1. On the start window, select **Create a new project**.
 
-   :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/create-new-project-dark-theme.png" alt-text="Screenshot that shows the Create a new project option in the Visual Studio start window.":::
+   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/create-new-project-dark-theme.png" alt-text="Screenshot that shows the Create a new project option in the Visual Studio start window.":::
 
 1. In the **Create a new project** window, search for **Windows Forms**. Then select **Desktop** from the **Project type** list.
 
 1. Select the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then select **Next**.
 
-   :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/create-project-windows-forms.png" alt-text="Screenshot that shows the Create a new project dialog box. The search box, the Project type list, and two templates are called out.":::
+   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/create-project-windows-forms.png" alt-text="Screenshot that shows the Create a new project dialog box. The search box, the Project type list, and two templates are called out.":::
 
    > [!NOTE]
    > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, select **Install more tools and features**.
    >
-   > :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/install-more-tools.png" alt-text="Screenshot that shows the Install more tools and features link from the Not finding what you're looking for message in the Create new project dialog box.":::
+   > :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/install-more-tools.png" alt-text="Screenshot that shows the Install more tools and features link from the Not finding what you're looking for message in the Create new project dialog box.":::
    >
    > Next, in Visual Studio Installer, select **.NET desktop development**.
    >
-   > :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/install-dot-net-desktop-env.png" alt-text="Screenshot that shows the dot NET desktop development workload in Visual Studio Installer.":::
+   > :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/install-dot-net-desktop-env.png" alt-text="Screenshot that shows the dot NET desktop development workload in Visual Studio Installer.":::
    >
    > Select **Modify** in Visual Studio Installer. You might be prompted to save your work. Next, select **Continue** to install the workload.
 
@@ -165,7 +165,7 @@ The math quiz contains a box in the upper-right corner. That box shows the numbe
 
 1. Move the label so that it lines up to the left of the **timeLabel** label.
 
-   :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/time-remaining-box.png" alt-text="Screenshot that shows the Time Left label and the remaining time label. The controls are lined up next to each other in the upper-right corner of the form.":::
+   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/time-remaining-box.png" alt-text="Screenshot that shows the Time Left label and the remaining time label. The controls are lined up next to each other in the upper-right corner of the form.":::
 
 <!-- Original material -->
 
@@ -207,7 +207,7 @@ The first part of the quiz is an addition problem. This section shows you how to
 
 1. Line up the NumericUpDown control with the Label controls for the addition problem.
 
-   :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/addition-problem.png" alt-text="Screenshot that shows the first row of the math quiz. Labels are visible, and a control with arrow keys displays a zero.":::
+   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/addition-problem.png" alt-text="Screenshot that shows the first row of the math quiz. Labels are visible, and a control with arrow keys displays a zero.":::
 
 ## Add controls for the subtraction, multiplication, and division problems
 
@@ -240,7 +240,7 @@ Next, add labels to the form for the remaining math problems.
    - Set the **(Name)** of the second question-mark label to **dividedRightLabel**.
    - Set the **(Name)** of the NumericUpDown control to **quotient**.
 
-:::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/all-math-problems.png" alt-text="Screenshot that shows a math quiz with four rows of problems. Labels and controls with arrow keys are visible.":::
+:::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/all-math-problems.png" alt-text="Screenshot that shows a math quiz with four rows of problems. Labels and controls with arrow keys are visible.":::
 
 ## Add a start button and set the tab-index order
 
@@ -258,7 +258,7 @@ This section shows you how to add a start button. You'll also specify the tabbin
 
 1. Center the button near the bottom of the form.
 
-   :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/math-problems-start-button.png" alt-text="Screenshot that shows a math quiz with four rows of problems and a start button.":::
+   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/math-problems-start-button.png" alt-text="Screenshot that shows a math quiz with four rows of problems and a start button.":::
 
 1. In the **Properties** box, set the **TabIndex** property of each NumericUpDown control:
 

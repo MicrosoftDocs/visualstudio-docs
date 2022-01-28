@@ -42,10 +42,10 @@ They keep track of, or refer to Label objects.
 
 1. Add label references to your form by using the following code.
 
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step5/vb/form1.vb" id="Snippet5":::
-   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step5/cs/form1.cs" id="Snippet5":::
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step5/vb/form1.vb" id="Snippet5":::
+   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step5/cs/form1.cs" id="Snippet5":::
 
-   [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
+   [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
 
    These statements don't cause Label controls to appear on the form because there's no `new` keyword.
    When the program starts, both `firstClicked` and `secondClicked` are set to `null` for C# or `Nothing` for Visual Basic.
@@ -53,13 +53,13 @@ They keep track of, or refer to Label objects.
 1. Modify your <xref:System.Windows.Forms.Control.Click> event handler to use the new `firstClicked` reference variable.
    Remove the last statement in the `label_Click()` event handler method (`clickedLabel.ForeColor = Color.Black;`) and replace it with the `if` statement that follows.
 
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step5/vb/form1.vb" id="Snippet6":::
-   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step5/cs/form1.cs" id="Snippet6":::
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step5/vb/form1.vb" id="Snippet6":::
+   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step5/cs/form1.cs" id="Snippet6":::
 
 1. Save and run your program. Choose one of the label controls, and its icon appears.
    Choose the next label control, and notice that nothing happens.
 
-   ![Screenshot shows the Matching Game showing one icon.](../ide/media/tutorial-windows-forms-match-game-icons/match-game-start.png)
+   ![Screenshot shows the Matching Game showing one icon.](../media/tutorial-windows-forms-match-game-icons/match-game-start.png)
 
    Only the first icon that's chosen turns black.
    The other icons are invisible.
@@ -80,7 +80,7 @@ If the icons don't match, it hides the two icons again after a short period of t
 1. Select the **Toolbox** tab, in the **Components** category, double-click or drag the **Timer** component to your form.
    The timer icon, called **timer1**, appears in a space below the form.
 
-   ![Screenshot shows the timer icon below the form.](../ide/media/tutorial-windows-forms-match-game-labels/timer-control-icon.png)
+   ![Screenshot shows the timer icon below the form.](../media/tutorial-windows-forms-match-game-labels/timer-control-icon.png)
 
 1. Select the **Timer1** icon to select the timer.
    In the **Properties** window, select the **Properties** button to view properties.
@@ -94,8 +94,8 @@ If the icons don't match, it hides the two icons again after a short period of t
    The IDE adds an empty Tick event handler.
    Replace the code with the following code.
 
-   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step6/cs/form1.cs" id="Snippet7":::
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step6/vb/form1.vb" id="Snippet7":::
+   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step6/cs/form1.cs" id="Snippet7":::
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step6/vb/form1.vb" id="Snippet7":::
 
    The Tick event handler does three things:
 
@@ -106,8 +106,8 @@ If the icons don't match, it hides the two icons again after a short period of t
 1. Go to the code editor and add the following code to the top and bottom of the `label_Click()` event handler method.
    Add the two `if` statements to the top, and three statements to the bottom.
 
-   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step6/cs/form1.cs" id="Snippet8":::
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step6/vb/form1.vb" id="Snippet8":::
+   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step6/cs/form1.cs" id="Snippet8":::
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step6/vb/form1.vb" id="Snippet8":::
 
    - The code at the top of the method checks whether the timer was started by checking the value of the **Enabled** property.
      If the player chooses the first and second Label controls and the timer starts, choosing a third label won't do anything.
