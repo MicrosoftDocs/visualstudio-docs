@@ -2,7 +2,7 @@
 title: Learn Django tutorial in Visual Studio step 3, static files and pages
 titleSuffix: ""
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically demonstrating how to serve static files, add pages to the app, and use template inheritance
-ms.date: 11/19/2018
+ms.date: 01/25/2022
 ms.topic: tutorial
 author: rjmolyneaux
 ms.author: rmolyneaux
