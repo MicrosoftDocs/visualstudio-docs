@@ -38,22 +38,22 @@ The quiz contains <xref:System.Windows.Forms.NumericUpDown> controls that quiz t
 
 1. Select the first NumericUpDown control on the form. In the **Properties** dialog box, select the **Events** icon on the toolbar.
 
-   :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/toolbar-events-icon.png" alt-text="Screenshot that shows the toolbar of the Properties dialog box. An icon that contains a lightning bolt is called out.":::
+   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/toolbar-events-icon.png" alt-text="Screenshot that shows the toolbar of the Properties dialog box. An icon that contains a lightning bolt is called out.":::
 
    The **Events** tab in **Properties** displays all the events that you can respond to for the item that you selected on the form. In this case, all the listed events pertain to the NumericUpDown control.
 
 1. Select the **Enter** event, enter **answer_Enter**, and then select **Enter**.
 
-   :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/enter-event.png" alt-text="Screenshot that shows the Properties dialog box with the Enter event selected. The method box contains answer_Enter.":::
+   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/enter-event.png" alt-text="Screenshot that shows the Properties dialog box with the Enter event selected. The method box contains answer_Enter.":::
 
    The code editor appears and displays the Enter event handler that you created for the **sum** NumericUpDown control.
 
 1. In the method for the **answer_Enter** event handler, add the following code:
 
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step5_6/vb/form1.vb" id="Snippet11":::
-   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step5_6/cs/form1.cs" id="Snippet11":::
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step5_6/vb/form1.vb" id="Snippet11":::
+   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step5_6/cs/form1.cs" id="Snippet11":::
 
-   [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
+   [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
 
    In this code:
 
@@ -77,7 +77,7 @@ The quiz contains <xref:System.Windows.Forms.NumericUpDown> controls that quiz t
 
 1. Start a quiz, and select a NumericUpDown control. The existing value is automatically selected and then cleared when you start to enter a different value.
 
-   :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/existing-value-selected.png" alt-text="Screenshot that shows the quiz app with four random math problems. The default answer to the first problem is selected.":::
+   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/existing-value-selected.png" alt-text="Screenshot that shows the quiz app with four random math problems. The default answer to the first problem is selected.":::
 
 ## Customize your quiz
 

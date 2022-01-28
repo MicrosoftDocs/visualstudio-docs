@@ -54,10 +54,10 @@ It stores the randomly chosen symbols.
 
 1. In the existing code, add the following code.
 
-   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet1":::
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb" id="Snippet1":::
+   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet1":::
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb" id="Snippet1":::
 
-   [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
+   [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
 
    If you're using C#, be sure you put the code after the opening curly brace and just after the class declaration (`public partial class Form1 : Form`). If you're using Visual Basic, put the code right after the class declaration (`Public Class Form1`).
 
@@ -79,8 +79,8 @@ This code uses the keyword `foreach` in C# or `For Each` in Visual Basic.
 
 1. Add the `AssignIconsToSquares()` method.
 
-   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet2":::
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb" id="Snippet2":::
+   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet2":::
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb" id="Snippet2":::
 
    You can enter this code just below the code you added in the previous section.
 
@@ -108,7 +108,7 @@ This code uses the keyword `foreach` in C# or `For Each` in Visual Basic.
    This method fills the game board with icons.
    Constructors are called when you create an object.
 
-   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet13":::
+   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet13":::
 
    For Visual Basic, add the `AssignIconsToSquares()` method call to the `Form1_Load` method.
 
@@ -127,14 +127,14 @@ This code uses the keyword `foreach` in C# or `For Each` in Visual Basic.
 
 1. Close your program, and then run it again. Different icons are assigned to each label.
 
-   ![Screenshot shows the Matching Game displaying the random icons.](../ide/media/tutorial-windows-forms-match-game-icons/display-random-icons.png)
+   ![Screenshot shows the Matching Game displaying the random icons.](../media/tutorial-windows-forms-match-game-icons/display-random-icons.png)
 
    The icons are visible now because you haven't hidden them. To hide them from the player, you can set each label's **ForeColor** property to the same color as its **BackColor** property.
 
 1. Stop the program. Remove the comment marks for the commented line of code inside the loop.
 
-   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet15":::
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb" id="Snippet15":::
+   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet15":::
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb" id="Snippet15":::
 
 If you run the program again, the icons seem to have disappeared.
 Only a blue background appears.
@@ -156,15 +156,15 @@ To get your game to work this way, add a <xref:System.Windows.Forms.Control.Clic
 1. In the **Properties** window, select the **Events** button, which is a lightening bolt.
    For the **Click** event, select **label_Click** in the box.
 
-     ![Screenshot shows the Properties window showing Click event.](../ide/media/tutorial-windows-forms-match-game-icons/click-event.png)
+     ![Screenshot shows the Properties window showing Click event.](../media/tutorial-windows-forms-match-game-icons/click-event.png)
 
 1. Select the **Enter** key. The IDE adds a `Click` event handler called **label_Click()** to the code.
    Because you selected all the labels, the handler is hooked to each of the labels.
 
 1. Fill in the rest of the code.
 
-   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet4":::
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb" id="Snippet4":::
+   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet4":::
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb" id="Snippet4":::
 
    > [!NOTE]
    > If you copy and paste the `label_Click()` code block rather than entering the code manually, be sure to replace the existing `label_Click()` code.
@@ -172,7 +172,7 @@ To get your game to work this way, add a <xref:System.Windows.Forms.Control.Clic
 
 1. Select **Debug** > **Start Debugging** to run your program. You should see an empty form with a blue background. Choose any of the cells in the form. One of the icons should become visible. Continue choosing different places in the form. As you choose the icons, they should appear.
 
-   ![Screenshot shows the Matching Game with a single icon visible.](../ide/media/tutorial-windows-forms-match-game-icons/match-game-start.png)
+   ![Screenshot shows the Matching Game with a single icon visible.](../media/tutorial-windows-forms-match-game-icons/match-game-start.png)
 
 ## Next steps
 
