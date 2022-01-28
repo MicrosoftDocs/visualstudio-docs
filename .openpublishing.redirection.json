@@ -71,6 +71,21 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/javascript/javascript-in-vs-2017.md",
+      "redirect_url": "/visualstudio/javascript/javascript-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/javascript/javascript-in-vs-2019.md",
+      "redirect_url": "/visualstudio/javascript/javascript-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/javascript/javascript-in-vs-2022.md",
+      "redirect_url": "/visualstudio/javascript/javascript-in-visual-studio",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "scripting-docs/javascript/misc/access-is-denied.md",
       "redirect_url": "/archive/scripting-docs/javascript/misc/access-is-denied",
       "redirect_document_id": false
@@ -57992,6 +58007,11 @@
     {
       "source_path": "docs/ide/step-11-run-your-program-and-try-other-features.md",
       "redirect_url": "/visualstudio/ide/tutorial-windows-forms-picture-viewer-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/unit-testing-visual-csharp-code-in-a-store-app.md",
+      "redirect_url": "/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-windows-store-apps",
       "redirect_document_id": false
     },
     {
