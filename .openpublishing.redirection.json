@@ -6,6 +6,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/quickstart-csharp-console.md",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-console",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/tutorial-windows-forms-create-match-game.md",
       "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-create-match-game",
       "redirect_document_id": false
