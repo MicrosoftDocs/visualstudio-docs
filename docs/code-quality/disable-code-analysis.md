@@ -39,7 +39,7 @@ To open this page, right-click the project node in **Solution Explorer** and sel
 - To disable live source analysis, uncheck the **Run on live analysis** option.
 
 > [!NOTE]
-> Starting in Visual Studio 2022 version 17.0.4, if you prefer on-demand code analysis execution workflow, you can disable analyzer execution during live analysis or build and manually trigger code analysis once on a project or a solution on demand. For information about running code analysis manually, see [How to: Run Code Analysis Manually for Managed Code](how-to-run-code-analysis-manually-for-managed-code.md).
+> Starting in Visual Studio 2022 version 17.0.4, if you prefer the on-demand code analysis execution workflow, you can disable analyzer execution during live analysis. Or build and manually trigger code analysis once on a project or a solution on demand. For information about running code analysis manually, see [How to: Run Code Analysis Manually for Managed Code](how-to-run-code-analysis-manually-for-managed-code.md).
 
 ## .NET Framework projects
 
@@ -111,7 +111,7 @@ Examples:
 
 ## Source analysis
 
-You'll be unable to turn it off [source analysis](roslyn-analyzers-overview.md) in Visual Studio 2017. If you want to clear analyzer errors from the **Error List**, you can suppress all the current violations by selecting **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar. For more information, see [Suppress violations](use-roslyn-analyzers.md#suppress-violations).
+You can't turn off [source analysis](roslyn-analyzers-overview.md) in Visual Studio 2017. If you want to clear analyzer errors from the **Error List**, you can suppress all the current violations by selecting **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar. For more information, see [Suppress violations](use-roslyn-analyzers.md#suppress-violations).
 
 Starting in Visual Studio 2019 version 16.3, you can turn off source code analysis or execute it on demand. Consider upgrading to Visual Studio 2019.
 
