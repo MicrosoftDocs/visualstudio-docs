@@ -1,7 +1,7 @@
 ---
 title: "Create a React app"
 description: In this tutorial, learn how to create a simple React application in Visual Studio.
-ms.date: 07/30/2021
+ms.date: 01/28/2022
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
@@ -23,8 +23,8 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
 Make sure to have the following installed:
 
-- Visual Studio 2022 Preview 2 or later. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
-- npm ([https://www.npmjs.com/](https://www.npmjs.com/)) 
+- Visual Studio 2022 or later. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+- npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
 - npx ([https://www.npmjs.com/package/npx](https://www.npmjs.com/package/npx))
 
 ## Create your app
@@ -62,5 +62,8 @@ Choose **Build** > **Build Solution**  to build the project.
 Press **F5** or select the **Start** button at the top of the window. You see a command prompt appear:
 
 - npm running the react-scripts start command
+
+>[!NOTE]
+> Check console output for messages, such as a message instructing you to update your version of Node.js.
 
 Next, you should see the base React app appear!
