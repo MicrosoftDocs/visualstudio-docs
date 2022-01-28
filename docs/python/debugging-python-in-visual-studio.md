@@ -1,7 +1,7 @@
 ---
 title: Debug Python code
 description: Visual Studio provide rich debugging for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
-ms.date: 01/12/2022
+ms.date: 01/17/2022
 ms.topic: how-to
 author: rjmolyneaux
 ms.author: rmolyneaux
