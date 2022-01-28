@@ -98,11 +98,11 @@ The following example demonstrates how to do a recursive copy. This project copi
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
-    <ItemGroup>
-        <MySourceFiles Include="c:\MySourceTree\**\*.*"/>
-    </ItemGroup>
-
     <Target Name="CopyFiles">
+        <ItemGroup>
+            <MySourceFiles Include="c:\MySourceTree\**\*.*"/>
+        </ItemGroup>
+
         <Copy
             SourceFiles="@(MySourceFiles)"
             DestinationFiles="@(MySourceFiles->'c:\MyDestinationTree\%(RecursiveDir)%(Filename)%(Extension)')"
