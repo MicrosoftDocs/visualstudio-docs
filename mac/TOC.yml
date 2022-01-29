@@ -1,16 +1,16 @@
-- name: Visual Studio for Mac
+- name: Visual Studio for Mac Docs
   href: index.yml
 - name: Overview
   items: 
-    - name: IDE Tour
+    - name: IDE tour
       href: ide-tour.md
-    - name: Visual Studio for Mac for Windows Users
+    - name: Visual Studio for Mac for Windows users
       href: vsmac-for-windows-users.md
-    - name: Integrated Terminal
+    - name: Integrated terminal
       href: integrated-terminal.md
 - name: Installation
   items: 
-    - name: Installing Visual Studio 2019 for Mac
+    - name: Install
       href: installation.md
     - name: Install and use behind a firewall or proxy
       href: install-behind-a-firewall-or-proxy-server.md
@@ -20,22 +20,38 @@
       href: update.md
     - name: Uninstall
       href: uninstall.md
-    - name: Available Workloads
+    - name: Available workloads
       href: workloads.md
-- name: Personalize Visual Studio for Mac
+- name: Personalize
   items:
-    - name: User Accounts
+    - name: User accounts
       items: 
         - name: Overview
           href: user-accounts.md
-        - name: Signing In
+        - name: Sign in account
           href: signing-in.md
-        - name: Enable Subscription
+        - name: Enable subscription
           href: enable-subscription.md
     - name: Customizing the IDE
       items: 
         - name: Customizing the look and feel of IDE
           href: customizing-the-ide.md
+- name: Samples
+  items: 
+    - name: Featured Samples
+      href: samples/index.yml
+    - name: All ASP.NET Core Samples
+      href: /samples/browse/?products=aspnet-core
+    - name: All .NET Core Samples
+      href: /samples/browse/?products=dotnet-core
+    - name: All Xamarin.Forms Samples
+      href: /xamarin/xamarin-forms/samples/
+    - name: All Xamarin.iOS Samples
+      href: /xamarin/ios/samples/
+    - name: All Xamarin.Android Samples
+      href: /xamarin/android/samples/
+    - name: All Xamarin.Mac Samples
+      href: /xamarin/mac/samples/
 - name: Develop
   items: 
     - name: Overview
@@ -44,7 +60,7 @@
       href: create-new-projects.md
     - name: Adding and removing Project Items
       href: add-and-remove-project-items.md
-    - name: Managing Solutions and Project properties
+    - name: Managing solutions and project properties
       href: managing-solutions-and-project-properties.md
     - name: Multitargeting
       href: project-multitargeting.md
@@ -140,15 +156,15 @@
           href: publish-folder.md
         - name: Video tutorials
           items: 
-          - name: Getting started with ASP.NET Core in Visual Studio for Mac
+          - name: Use ASP.NET Core in Visual Studio for Mac
             href: tutorial-aspnet-core-vsmac-getting-started.md
-          - name: Extending an existing ASP.NET Core web application
+          - name: Extend existing ASP.NET Core web apps
             href: tutorial-aspnet-core-vsmac-extending.md
     - name: Azure
       items: 
         - name: Overview
           href: azure-workload.md
-        - name: Introduction to Azure Functions
+        - name: About Azure Functions
           href: azure-functions.md
         - name: "Tutorial: Azure Functions"
           href: azure-functions-lab.md
@@ -164,20 +180,16 @@
       href: /visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity
     - name: Mobile apps with Xamarin
       href: ./xamarin.md
-- name: Accessibility
+- name: Accessibility Tools and Features
   items: 
     - name: Overview
       href: accessibility.md
     - name: Setting IDE accessibility options
       href: accessibility-ide-options.md
-    - name: macOS Accessibility Tools and Features
-      items: 
-        - name: Using macOS Accessibility Tools
-          href: accessibility-macos.md
-        - name: Using Keyboard Navigation
-          href: accessibility-keyboard.md
-        - name: Using VoiceOver
-          href: accessibility-voiceover.md
+    - name: Using macOS Accessibility Tools
+      href: accessibility-macos.md
+    - name: Using Keyboard Navigation
+      href: accessibility-keyboard.md
 - name: Reference
   items:
     - name: ASP.NET Core
@@ -200,39 +212,23 @@
       href: vsmac-for-windows-users.md
 - name: Resources
   items: 
-    - name: Release Notes
-      href: /visualstudio/releasenotes/vs2019-mac-relnotes
-    - name: Preview Release Notes
-      href: /visualstudio/releasenotes/vs2019-mac-preview-relnotes
-- name: Samples
-  items: 
-    - name: Featured Samples
-      href: samples/index.yml
-    - name: All ASP.NET Core Samples
-      href: /samples/browse/?products=aspnet-core
-    - name: All .NET Core Samples
-      href: /samples/browse/?products=dotnet-core
-    - name: All Xamarin.Forms Samples
-      href: /xamarin/xamarin-forms/samples/
-    - name: All Xamarin.iOS Samples
-      href: /xamarin/ios/samples/
-    - name: All Xamarin.Android Samples
-      href: /xamarin/android/samples/
-    - name: All Xamarin.Mac Samples
-      href: /xamarin/mac/samples/
+    - name: Release notes & roadmaps
+      href: /visualstudio/productinfo/mac-roadmap
+    - name: Troubleshooting
+      items:
+       - name: Logs and Exceptions
+         href: troubleshooting.md
+       - name: "Release a new version of my existing extension"
+         href: migrate-extensions.md
+       - name: "Support Team Foundation Version Control"
+         href: tf-version-control.md
+       - name: "Troubleshooting: Why can I not see all templates?"
+         href: troubleshooting-no-templates.md
+       - name: "Troubleshooting: Updater has errors retrieving information"
+         href: updater-troubleshooting.md
 - name: Send feedback
   items: 
-    - name: Logs and Exceptions
-      href: troubleshooting.md
     - name: Visual Studio Customer Experience Improvement Program
       href: visual-studio-experience-improvement-program.md
     - name: Report a Problem
       href: report-a-problem.md
-    - name: "Troubleshooting: How do I release a new version of my existing extension?"
-      href: migrate-extensions.md
-    - name: "Troubleshooting: Does Visual Studio for Mac support Team Foundation Version Control?"
-      href: tf-version-control.md
-    - name: "Troubleshooting: Why can I not see all templates?"
-      href: troubleshooting-no-templates.md
-    - name: "Troubleshooting: Updater has errors retrieving information"
-      href: updater-troubleshooting.md
