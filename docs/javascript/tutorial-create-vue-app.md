@@ -54,7 +54,7 @@ Choose **Build** > **Build Solution**  to build the project.
 
 ## Start Your Project
 
-Press **F5** or select the **Start** button at the top of the window. You see a command prompt appear:
+Press **F5** or select the **Start** button at the top of the window, and you'll see a command prompt:
 
 - npm running the vue-cli-service start command
 
