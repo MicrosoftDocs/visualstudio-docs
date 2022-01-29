@@ -119,7 +119,7 @@ Once the project is created, you see some new and modified files:
 
 1. Then, go to the *vue.config.js* file for your Vue project. Update the target property to match the `applicationUrl` property in  *launchSettings.json*. When you update it, that value should look similar to this:
 
-   ```json
+   ```js
    target: 'https://localhost:5001',
    ```
 

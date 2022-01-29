@@ -111,7 +111,7 @@ Before you start the project, make sure that the port numbers match.
 
 1. Then, go to the *proxy.conf.js* file for your Angular project (look in the *src* folder). Update the target property to match the `applicationUrl` property in  *launchSettings.json*. When you update it, that value should look similar to this:
 
-   ```json
+   ```js
    target: 'https://localhost:7049',
    ```
 

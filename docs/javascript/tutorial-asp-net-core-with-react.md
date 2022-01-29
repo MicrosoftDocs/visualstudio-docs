@@ -109,7 +109,7 @@ Make sure to have the following installed:
 
 1. Then, go to the *setupProxy.js* file for your React project (look in the *src* folder). Update the target property to match the `applicationUrl` property in  *launchSettings.json*. When you update it, that value should look similar to this:
 
-   ```json
+   ```js
    target: 'https://localhost:7049',
    ```
 
