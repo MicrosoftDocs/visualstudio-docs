@@ -6,6 +6,66 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/quickstart-csharp-console.md",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/tutorial-windows-forms-create-match-game.md",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-create-match-game",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/tutorial-windows-forms-match-game-icons.md",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-match-game-icons",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/tutorial-windows-forms-match-game-labels.md",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-match-game-labels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/tutorial-windows-forms-match-game-play.md",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-match-game-play",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/tutorial-windows-forms-math-quiz-add-math-problems.md",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-math-quiz-add-math-problems",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/tutorial-windows-forms-math-quiz-add-timer.md",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-math-quiz-add-timer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/tutorial-windows-forms-math-quiz-create-project-add-controls.md",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-math-quiz-create-project-add-controls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/tutorial-windows-forms-math-quiz-customize-ui.md",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-math-quiz-customize-ui",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/tutorial-windows-forms-picture-viewer-code.md",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-picture-viewer-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/tutorial-windows-forms-picture-viewer-controls.md",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-picture-viewer-controls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/tutorial-windows-forms-picture-viewer-layout.md",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-picture-viewer-layout",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/python/python-azure-cloud-service-project-template.md",
       "redirect_url": "/visualstudio/python/managing-python-projects-in-visual-studio",
       "redirect_document_id": false

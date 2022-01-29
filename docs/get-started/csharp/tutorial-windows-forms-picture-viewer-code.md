@@ -18,7 +18,7 @@ ms.custom:
 
 In this series of three tutorials, you'll create a Windows Forms application that loads a picture and displays it.
 The Visual Studio Integrated Design Environment (IDE) provides the tools you need to create the app.
-To learn more, see [Welcome to the Visual Studio IDE](../get-started/visual-studio-ide.md).
+To learn more, see [Welcome to the Visual Studio IDE](../visual-studio-ide.md).
 
 Controls use C# or Visual Basic code to take the actions associated with them.
 
@@ -49,7 +49,7 @@ Your application calls an event handler when an action takes place, such as sele
 
    This tab displays the code file behind the form.
 
-   ![Screenshot shows the Form1.cs tab with Visual C sharp code.](../ide/media/tutorial-windows-forms-picture-viewer-code/show-picture-button-code.png)
+   ![Screenshot shows the Form1.cs tab with Visual C sharp code.](../media/tutorial-windows-forms-picture-viewer-code/show-picture-button-code.png)
 
    > [!NOTE]
    > Your Form1.vb tab might display **showButton** as **ShowButton**.
@@ -68,7 +68,7 @@ Your application calls an event handler when an action takes place, such as sele
    End Sub
    ```
 
-   [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
+   [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
 
 1. Choose the **Windows Forms Designer** tab again, and then double-click the **Clear the picture** button to open its code.
    Repeat for the remaining two buttons.
@@ -79,15 +79,15 @@ Your application calls an event handler when an action takes place, such as sele
 
    The following snippet shows the new code that you see in the code editor.
 
-   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial1step6/cs/form1.cs" id="Snippet2":::
+   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial1step6/cs/form1.cs" id="Snippet2":::
 
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial1step6/vb/form1.vb" id="Snippet2":::
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial1step6/vb/form1.vb" id="Snippet2":::
 
 Methods, including event handlers, can have any name that you want.
 When you add an event handler with the IDE, it creates a name based on the control's name and the event being handled.
 
 For example, the *Click* event for a button named **showButton** is called `showButton_Click()` or `ShowButton_Click()`. 
-If you want to change a code variable name, right-click the variable in the code and then choose **Refactor** > **Rename**. All instances of that variable in the code are renamed. For more information, see [Rename refactoring](../ide/reference/rename.md).
+If you want to change a code variable name, right-click the variable in the code and then choose **Refactor** > **Rename**. All instances of that variable in the code are renamed. For more information, see [Rename refactoring](../../ide/reference/rename.md).
 
 ## Write code to open a dialog box
 
@@ -103,13 +103,13 @@ As you type, IntelliSense suggests possible code.
 1. Type an *i* on the empty line between the two braces `{ }`or between `Private Sub...` and `End Sub`.
    An **IntelliSense** window opens.
 
-   ![Screenshot shows IntelliSense with Visual C sharp code.](../ide/media/tutorial-windows-forms-picture-viewer-code/intellisense-window.png)
+   ![Screenshot shows IntelliSense with Visual C sharp code.](../media/tutorial-windows-forms-picture-viewer-code/intellisense-window.png)
 
 1. The **IntelliSense** window should highlight the word `if`. Select the **Tab** key to insert `if`.
 
 1. Select **true** and then type `op` to overwrite it for C# or `Op` for Visual Basic.
 
-   ![Screenshot shows the event handler for the show button with the value true selected.](../ide/media/tutorial-windows-forms-picture-viewer-code/show-button-handler-true-selected.png)
+   ![Screenshot shows the event handler for the show button with the value true selected.](../media/tutorial-windows-forms-picture-viewer-code/show-button-handler-true-selected.png)
 
    IntelliSense displays **openFileDialog1**.
 
@@ -151,13 +151,13 @@ As you type, IntelliSense suggests possible code.
    You can copy and paste or use IntelliSense to add it.
    Your final `showButton_Click()` method should look similar to the following code.
 
-   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial1step8/cs/form1.cs" id="Snippet1":::
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial1step8/vb/form1.vb" id="Snippet1":::
+   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial1step8/cs/form1.cs" id="Snippet1":::
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial1step8/vb/form1.vb" id="Snippet1":::
 
 1. Add the following comment to your code.
 
-   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial1step9_10/cs/form1.cs" id="Snippet1":::
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial1step9_10/vb/form1.vb" id="Snippet1":::
+   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial1step9_10/cs/form1.cs" id="Snippet1":::
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial1step9_10/vb/form1.vb" id="Snippet1":::
 
    It's the best practice to always comment your code.
    Code comments make it easier to understand and maintain your code in the future.
@@ -270,13 +270,13 @@ Test all the controls.
 
 1. Select the **Set the background color** button. The **Color** dialog box opens.
 
-   ![Screenshot shows the Color dialog box.](../ide/media/tutorial-windows-forms-picture-viewer-code/color-dialog-box.png)
+   ![Screenshot shows the Color dialog box.](../media/tutorial-windows-forms-picture-viewer-code/color-dialog-box.png)
 
 1. Choose a color to set the background color.
 
 1. Select **Show a picture** to display a picture.
 
-   ![Screenshot shows the Picture Viewer app with a picture displayed.](../ide/media/tutorial-windows-forms-picture-viewer-code/run-picture-viewer.png)
+   ![Screenshot shows the Picture Viewer app with a picture displayed.](../media/tutorial-windows-forms-picture-viewer-code/run-picture-viewer.png)
 
 1. Select and unselect **Stretch**.
 

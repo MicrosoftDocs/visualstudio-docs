@@ -39,10 +39,10 @@ To keep track of time during the quiz, you use a timer component. You also need 
 
 1. Add an integer variable that's named **timeLeft** in the same way that you declared variables in previous tutorials. Put the **timeLeft** declaration right after the other declarations. Your code should look like the following sample.
 
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step7/vb/form1.vb" id="Snippet15":::
-   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step7/cs/form1.cs" id="Snippet15":::
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step7/vb/form1.vb" id="Snippet15":::
+   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step7/cs/form1.cs" id="Snippet15":::
 
-   [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
+   [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
 
 1. In **Windows Forms Designer**, move a <xref:System.Windows.Forms.Timer> control from the **Components** category of the **Toolbox** to your form. The control appears in the gray area at the bottom of the design window.
 
@@ -54,8 +54,8 @@ Because the timer raises a Tick event every second, it makes sense to check the 
 
 Before you write that event handler, add a method called `CheckTheAnswer()` to determine whether the answers to the math problems are correct. This method should be in line with the other methods, such as `StartTheQuiz()`. Your code should look like the following sample.
 
-:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step7/vb/form1.vb" id="Snippet17":::
-:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step7/cs/form1.cs" id="Snippet17":::
+:::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step7/vb/form1.vb" id="Snippet17":::
+:::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step7/cs/form1.cs" id="Snippet17":::
 
 This method determines the answers to the math problems and compares the results to the values in the <xref:System.Windows.Forms.NumericUpDown> controls. In this code:
 
@@ -75,8 +75,8 @@ Now that you have a way to check the answers, you can write the code for the Tic
 
 1. Add the following statements to the new event handler method.
 
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step3/vb/form1.vb" id="Snippet6":::
-   :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step3/cs/form1.cs" id="Snippet6":::
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step3/vb/form1.vb" id="Snippet6":::
+   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step3/cs/form1.cs" id="Snippet6":::
 
    Each second of the quiz, this method runs. The code first checks the value that `CheckTheAnswer()` returns.
 
@@ -95,8 +95,8 @@ Now that you have a way to check the answers, you can write the code for the Tic
 
 To start the timer when the quiz starts, add three lines to the end of the `StartTheQuiz()` method, as the following sample shows.
 
-:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step3/vb/form1.vb" id="Snippet7":::
-:::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step3/cs/form1.cs" id="Snippet7":::
+:::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step3/vb/form1.vb" id="Snippet7":::
+:::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step3/cs/form1.cs" id="Snippet7":::
 
 When your quiz starts, this code sets the **timeLeft** variable to 30 and the **Text** property of the **timeLabel** control to 30 seconds. Then the <xref:System.Windows.Forms.Timer.Start> method of the Timer control starts the countdown.
 
@@ -108,7 +108,7 @@ When your quiz starts, this code sets the **timeLeft** variable to 30 and the **
 
 1. Start another quiz, and provide correct answers to the math problems. When you answer correctly within the time limit, a message box opens, the start button becomes available, and the timer stops.
 
-   :::image type="content" source="./media/tutorial-windows-forms-timed-math-quiz/quiz-end.png" alt-text="Screenshot that shows a completed quiz with 19 seconds remaining. The Start the quiz button is available.":::
+   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/quiz-end.png" alt-text="Screenshot that shows a completed quiz with 19 seconds remaining. The Start the quiz button is available.":::
 
 ## Next steps
 

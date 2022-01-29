@@ -15,7 +15,7 @@ ms.custom:
 
 In this series of three tutorials, you'll create a Windows Forms application that loads a picture and displays it.
 The Visual Studio Integrated Design Environment (IDE) provides the tools you need to create the app.
-To learn more, see [Welcome to the Visual Studio IDE](../get-started/visual-studio-ide.md).
+To learn more, see [Welcome to the Visual Studio IDE](../../get-started/visual-studio-ide.md).
 
 This program has a picture box, a checkbox, and several buttons, which you use to control the application.
 This tutorial shows you how to add these controls.
@@ -51,7 +51,7 @@ You'll add the PictureBox and a checkbox from the Toolbox in the Visual Studio I
 
 1. Choose the new **PictureBox** control to select it, and then select the black triangle on the new PictureBox control to display its task list.
 
-   ![Screenshot shows the PictureBox Tasks dialog box with Dock in Parent Container highlighted.](../ide/media/tutorial-windows-forms-picture-viewer-controls/picture-box-tasks-dialog.png)
+   ![Screenshot shows the PictureBox Tasks dialog box with Dock in Parent Container highlighted.](../media/tutorial-windows-forms-picture-viewer-controls/picture-box-tasks-dialog.png)
 
 1. Select **Dock in Parent Container**, which sets the PictureBox **Dock** property to **Fill**.
    You can see that value in the **Properties** window.
@@ -67,7 +67,7 @@ You'll add the PictureBox and a checkbox from the Toolbox in the Visual Studio I
 
 1. Choose the **Text** property and enter **Stretch**.
 
-    ![Screenshot shows checkbox control named Stretch.](../ide/media/tutorial-windows-forms-picture-viewer-controls/checkbox-named-stretch.png)
+    ![Screenshot shows checkbox control named Stretch.](../media/tutorial-windows-forms-picture-viewer-controls/checkbox-named-stretch.png)
 
 ## Add buttons in a layout panel
 
@@ -107,7 +107,7 @@ These steps show you how to add four buttons to a new layout panel in the TableL
 1. In the **Properties** window, set the **AutoSize** property to **True**.
    The buttons resize to fit their text.
 
-    ![Screenshot shows the Picture Viewer form with four buttons.](../ide/media/tutorial-windows-forms-picture-viewer-controls/buttons-autosize.png)
+    ![Screenshot shows the Picture Viewer form with four buttons.](../media/tutorial-windows-forms-picture-viewer-controls/buttons-autosize.png)
 
 You can run your program to see how the controls look. Select the **F5** key, select **Debug** > **Start Debugging**, or select the **Start** button.
 The buttons that you added don't do anything, yet.
@@ -124,7 +124,7 @@ Use these steps to give them more informative names.
 1. In the **Properties** window, look for **(Name)**.
    Change the name to **closeButton**.
 
-   ![Properties window with closeButton name](../ide/media/tutorial-windows-forms-picture-viewer-controls/close-button-name-property.png)
+   ![Properties window with closeButton name](../media/tutorial-windows-forms-picture-viewer-controls/close-button-name-property.png)
 
    The IDE doesn't accept names that contain spaces.
 
@@ -154,7 +154,7 @@ In this section, you add an <xref:System.Windows.Forms.OpenFileDialog> component
 1. Double-click **ColorDialog** to add a component called **colorDialog1**.
    The components appear at the bottom of **Windows Forms Designer** as icons.
 
-   ![Dialog components](../ide/media/tutorial-windows-forms-picture-viewer-controls/components-window-forms-designer.png)
+   ![Dialog components](../media/tutorial-windows-forms-picture-viewer-controls/components-window-forms-designer.png)
 
 1. Choose the **openFileDialog1** icon and set two properties:
 

@@ -91,7 +91,7 @@ Information on using a NuGet package in an application can be found in the [Incl
 
 ## Source Editor
 
-Regardless of if you're writing in C#, XAML, or JavaScript, the code editor the shares the same core components with Visual Studio on Windows, with an entirely native user interface.
+Regardless of if you're writing in C#, XAML, or JavaScript, the code editor shares the same core components with Visual Studio on Windows, with an entirely native user interface.
 
 This brings some of the following features:
 
