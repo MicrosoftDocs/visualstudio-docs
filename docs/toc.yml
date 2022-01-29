@@ -152,7 +152,7 @@
   - name: "C#: Create a web app"
     href: ide/quickstart-aspnet-core.md
   - name: "C#: Create a console app"
-    href: ide/quickstart-csharp-console.md
+    href: get-started/csharp/tutorial-console.md
   - name: "Visual Basic: Create a console app"
     href: ide/quickstart-visual-basic-console.md
   - name: "Node.js: Create a web app"
