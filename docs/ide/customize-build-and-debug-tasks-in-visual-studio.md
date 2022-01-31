@@ -2,7 +2,7 @@
 title: Customize build debug tasks with JSON files
 description: Learn how to customize tasks to provide some configuration details to run and debug a codebase that Visual Studio doesn't recognize.
 ms.custom: SEO-VS-2020
-ms.date: 01/21/2022
+ms.date: 01/31/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - NMAKE [Visual Studio]
@@ -30,7 +30,7 @@ Customize your project-less codebase by using the following *.json* files:
 |*tasks.vs.json*|Specify custom build commands and compiler switches, and arbitrary (non-build related) tasks.<br>Accessed via the **Solution Explorer** right-click menu item **Configure Tasks**.|
 |*launch.vs.json*|Specify command-line arguments for debugging.<br>Accessed via the **Solution Explorer** right-click menu item **Debug and Launch Settings**.|
 
-These *.json* files are located in a hidden folder called *.vs* in the root folder of your codebase. The *tasks.vs.json* and *launch.vs.json* files are created by Visual Studio on an as-needed basis when you choose either **Configure Tasks** or **Debug and Launch Settings** on a file or folder in **Solution Explorer**. These *.json* files are hidden because users generally don't want to check them into source control. However, if you want to be able to check them into source control, drag the files from either your file system or Solution Explorer into the root of your codebase, where they then are visible.
+These *.json* files are located in a hidden folder called *.vs* in the root folder of your codebase. The *tasks.vs.json* and *launch.vs.json* files are created by Visual Studio on an as-needed basis when you choose either **Configure Tasks** or **Debug and Launch Settings** on a file or folder in **Solution Explorer**. These *.json* files are hidden because users generally don't want to check them into source control. However, if you want to be able to check them into source control, drag the files from your file system into the root of your codebase, where they then are visible in **Solution Explorer** and to source control.
 
 > [!TIP]
 > To view hidden files in Visual Studio, choose the **Show All Files** button on the **Solution Explorer** toolbar.
