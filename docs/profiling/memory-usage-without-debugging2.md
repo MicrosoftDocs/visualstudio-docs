@@ -50,11 +50,11 @@ When you start a diagnostic session, your app starts, and the **Diagnostic Tools
 ![Screenshot of the Diagnostic Tools window in the Visual Studio Performance Profiler showing a timeline graph of the app's memory use.](../profiling/media/memuse__reportoverview_vs-2022.png "MEMUSE__ReportOverview")
 ::: moniker-end
 
-The timeline graph shows memory fluctuations as the app runs. Spikes in the graph usually indicate that some code is collecting or creating data, and then discarding it when the processing is done. Large spikes indicate areas that you might be able to optimize. Of more concern is a rise in memory consumption that's not returned, because it may indicate inefficient memory use or even a memory leak.
+The timeline graph shows memory fluctuations as the app runs. Spikes in the graph usually indicate that some code is collecting or creating data, and then discarding it when the processing is done. Large spikes indicate areas that you can optimize. The memory consumption that's not returned is major concern, because it may indicate inefficient memory use or even a memory leak.
 
 ### Take snapshots of app memory states
 
-An app uses a large number of objects, and you might want to concentrate your analysis on one scenario. Or, you may find memory issues to investigate. You can take snapshots during a diagnostic session to capture memory usage at particular moments. It's a good idea to get a baseline snapshot of an app before a memory issue appears, another snapshot after the first occurrence of the problem, and additional snapshots if you can repeat the scenario.
+An app uses a large number of objects, and you might want to concentrate your analysis on one scenario. Or, you may find memory issues to investigate. You can take snapshots during a diagnostic session to capture memory usage at particular moments. It's good to get a baseline snapshot of an app before a memory issue appears, another snapshot after the first occurrence of the problem, and additional snapshots if you can repeat the scenario.
 
 To collect snapshots, select **Take snapshot** when you want to capture the memory data.
 
@@ -130,7 +130,7 @@ In the snapshot report:
 
 ### <a name="BKMK_Report_tree_filters_"></a> Report tree filters
 
-Many types in apps aren't very interesting to app developers. The snapshot report filters can hide most of these types in the **Managed Memory** and **Paths to Root** trees.
+Many types in apps aren't required to app developers. The snapshot report filters can hide most of these types in the **Managed Memory** and **Paths to Root** trees.
 
 ::: moniker range="<=vs-2019"
 ![Sort and filter options](../profiling/media/memuse_sortandfilter.png "MEMUSE_SortAndFilter")
@@ -160,18 +160,18 @@ Many types in apps aren't very interesting to app developers. The snapshot repor
 
 Both links open the same report. The only difference is the starting sort order of the **Managed Memory** tree. The size link sorts the report by the **Inclusive Size (Bytes)** column. The objects link sorts the report by the **Count** column. You can change the sort column or order after the report opens.
 
-### <a name="BKMK_Managed_Heap_tree__Snapshot_details_"></a> Managed Memory tree (Snapshot details reports)
- The **Managed Memory** tree lists the types of objects that are held in memory. Expand a type name to view the ten largest instances of the type, sorted by size. Select a type or instance to display the **Paths to Root** and **Referenced Objects** trees for the selected item.
+### <a name="BKMK_Managed_Memory_tree__Snapshot_details_"></a> Managed Memory tree (Snapshot details reports)
+ The **Managed Memory** tree lists the types of objects that are held in memory. Expand a type name to view the 10 largest instances of the type, sorted by size. Select a type or instance to display the **Paths to Root** and **Referenced Objects** trees for the selected item.
 
 ::: moniker range="<=vs-2019"
  ![Managed Heap tree](../profiling/media/memuse__snapshotdetails_managedheaptree.png "Managed Heap tree")
 ::: moniker-end
 
 ::: moniker range="vs-2022"
- ![Managed Heap tree](../profiling/media/memuse__snapshotdetails_managedheaptree_vs-2022.png "Managed Heap tree")
+ ![Managed Memory tree](../profiling/media/memuse__snapshotdetails_managedheaptree_vs-2022.png "Managed Memory tree")
 ::: moniker-end
 
-The **Managed Heap** tree in a snapshot details report has the following columns:
+The **Managed Memory** tree in a snapshot details report has the following columns:
 
 |Name|Description|
 |-|-|
@@ -205,7 +205,7 @@ The **Referenced Types** or **Referenced Objects** tree shows the objects that t
 ![Referenced Objects tree for instances](../profiling/media/memuse_snapshotdetails_referencedobjects_instance_vs-2022.png "Referenced Objects tree for instances")
 ::: moniker-end
 
-A **Referenced Types** tree in a snapshot details report has the following columns. A **Referenced Objects** tree does not have the **Reference Count** column.
+A **Referenced Types** tree in a snapshot details report has the following columns. A **Referenced Objects** tree doesn't have the **Reference Count** column.
 
 |Name|Description|
 |-|-|
@@ -231,14 +231,14 @@ Both links open the same report. The only difference is the starting sort order 
 
 ### <a name="BKMK_Managed_Memory_tree__Snapshot_diff_"></a> Managed Memory tree (Snapshot diff reports)
 
- The **Managed Memory** tree lists the types of objects that are held in memory. You can expand a type name to view the ten largest instances of the type, sorted by size. Select a type or instance to display the **Paths to Root** and **Referenced Objects** trees for the selected item.
+ The **Managed Memory** tree lists the types of objects that are held in memory. You can expand a type name to view the 10 largest instances of the type, sorted by size. Select a type or instance to display the **Paths to Root** and **Referenced Objects** trees for the selected item.
 
 ::: moniker range="<=vs-2019"
  ![Managed Heap tree for a type in difference report](../profiling/media/memuse_snapshotdiff_type_heap.png "Managed Heap tree for a type in difference report")
 ::: moniker-end
 
 ::: moniker range="vs-2022"
- ![Managed Heap tree for a type in difference report](../profiling/media/memuse_snapshotdiff_type_heap_vs-2022.png "Managed Heap tree for a type in difference report")
+ ![Managed Memory tree for a type in difference report](../profiling/media/memuse_snapshotdiff_type_heap_vs-2022.png "Managed Memory tree for a type in difference report")
 ::: moniker-end
 
 The **Managed Memory** tree in a snapshot diff report has the following columns:
