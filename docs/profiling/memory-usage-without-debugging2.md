@@ -32,7 +32,7 @@ The Memory Usage tool can run [with or without the debugger](../profiling/runnin
 
 1. In the Debug menu, set the solution configuration to **Release** and select **Local Windows Debugger** (or **Local Machine**) as the deployment target.
 
-1. On the menu bar, choose  **Debug** > **Performance Profiler**.
+1. On the menu bar, select  **Debug** > **Performance Profiler**.
 
 1. Under **Available Tools**, select **Memory Usage**, and then select **Start**.
 
@@ -50,11 +50,11 @@ When you start a diagnostic session, your app starts, and the **Diagnostic Tools
 ![Screenshot of the Diagnostic Tools window in the Visual Studio Performance Profiler showing a timeline graph of the app's memory use.](../profiling/media/memuse__reportoverview_vs-2022.png "MEMUSE__ReportOverview")
 ::: moniker-end
 
-The timeline graph shows memory fluctuations as the app runs. Spikes in the graph usually indicate that some code is collecting or creating data, and then discarding it when the processing is done. Large spikes indicate areas that you can optimize. The memory consumption that's not returned is major concern, because it may indicate inefficient memory use or even a memory leak.
+The timeline graph shows memory fluctuations as the app runs. Spikes in the graph usually indicate that some code is collecting or creating data, and then discarding it when the processing is done. Large spikes indicate areas that you can optimize. Main concern is a rise in memory consumption that's not returned. This may indicate inefficient memory use or even a memory leak.
 
 ### Take snapshots of app memory states
 
-An app uses a large number of objects, and you might want to concentrate your analysis on one scenario. Or, you may find memory issues to investigate. You can take snapshots during a diagnostic session to capture memory usage at particular moments. It's good to get a baseline snapshot of an app before a memory issue appears, another snapshot after the first occurrence of the problem, and additional snapshots if you can repeat the scenario.
+An app uses a large number of objects, and you might want to concentrate your analysis on one scenario. Or, you may find memory issues to investigate. You can take snapshots during a diagnostic session to capture memory usage at particular moments. It's good to get a baseline snapshot of an app before a memory issue appears. You can take another snapshot after the first occurrence of the problem, and additional snapshots if you can repeat the scenario.
 
 To collect snapshots, select **Take snapshot** when you want to capture the memory data.
 
@@ -90,7 +90,7 @@ The numbers are links that open detailed **Memory Usage** report views in new Vi
 |![Step 1](../profiling/media/procguid_1.png "ProcGuid_1")|The total number of bytes in memory when the snapshot was taken.<br /><br /> Select this link to display a snapshot details report sorted by the total size of the type instances.|
 |![Step 2](../profiling/media/procguid_2.png "ProcGuid_2")|The total number of objects in memory when the snapshot was taken.<br /><br /> Select this link to display a snapshot details report sorted by the count of instances of the types.|
 |![Step 3](../profiling/media/procguid_3.png "ProcGuid_3")|The difference between the total size of memory objects in this snapshot and the previous snapshot. <br /><br /> A positive number means the memory size of this snapshot is larger than the previous one, and a negative number means the size is smaller. **Baseline** means a snapshot is the first in a diagnostic session. **No Difference** means the difference is zero.<br /><br /> Select this link to display a snapshot diff report sorted by the difference in the total size of instances of the types.|
-|![Step 4](../profiling/media/procguid_4.png "ProcGuid_4")|The difference between the total number of memory objects in this snapshot and the previous snapshot.<br /><br /> Select this link to display a snapshot diff report sorted by the difference in the total count of instances of the types.|
+|![Step 4](../profiling/media/procguid_4.png "ProcGuid_4")|The difference between the total number of memory objects in this snapshot and the previous snapshot.<br /><br /> Select this link to display a snapshot diff report. It’s sorted by the difference in the total count of instances of the types.|
 ::: moniker-end
 
 ::: moniker range="vs-2022"
