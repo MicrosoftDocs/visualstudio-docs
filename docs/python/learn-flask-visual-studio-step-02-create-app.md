@@ -2,7 +2,7 @@
 title: Learn Flask tutorial in Visual Studio step 2, views and templates
 titleSuffix: ""
 description: A walkthrough of Flask basics in the context of Visual Studio projects, specifically steps of creating an app and using views and templates.
-ms.date: 01/07/2019
+ms.date: 01/26/2022
 ms.topic: tutorial
 author: rjmolyneaux
 ms.author: rmolyneaux
