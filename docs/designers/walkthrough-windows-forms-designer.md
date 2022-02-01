@@ -2,7 +2,7 @@
 title: Windows Forms Designer tutorial
 description: Learn how to build an app using the various tools provided by Windows Forms Designer. The app is a custom control that uses many available layout features.
 ms.custom: SEO-VS-2020
-ms.date: 08/09/2019
+ms.date: 01/31/2022
 ms.topic: tutorial
 helpviewer_keywords:
 - Windows Forms Designer, get started
@@ -272,7 +272,7 @@ The first step is to create the application project. You'll use this project to 
 
 1. Create a new **Windows Forms Application** project and name it **DemoCalculatorTest**.
 
-2. In **Solution Explorer**, right-click the **DemoCalculatorTest** project, and then select **Add Reference** to open the **Add Reference** dialog box.
+2. In **Solution Explorer**, right-click the **DemoCalculatorTest** project, and then select **Add** > **Add Project Reference** to open the **Reference Manager** dialog box.
 
 3. Go to the **Projects** tab, and then select the DemoCalculatorLib project to add the reference to the test project.
 
