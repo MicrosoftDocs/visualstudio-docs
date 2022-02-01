@@ -19,7 +19,7 @@ ms.technology: vs-installation
 ---
 # Visual Studio administrator guide
 
-In enterprise environments, system administrators typically deploy and update installations to end users. The Visual Studio product can be acquired from the internet, from a network share, or from a product cache, and it can be deployed and updated manually, programatically or by using systems management software. The Visual Studio setup engine is designed to support enterprise deployment by giving system administrators the ability to manage and control when and how the Visual Studio software is deployed and updated.  Visual Studio provides the ability to create and maintain acquisition locations, to pre-configure installation defaults, to deploy product keys during the installation process, and to manage product updates after a successful rollout. This administrator guide provides quick links to scenario-based guidance for enterprise deployment.
+In enterprise environments, system administrators typically deploy and update software on end users machines. The Visual Studio product integrates well in these types of environments by giving system administrators the ability to manage and control when and how the Visual Studio software is deployed and updated. Visual Studio can be acquired from the internet, from a network share, or from a product cache, and it can be deployed and updated manually, programatically or by using systems management software. Visual Studio provides the ability to create and maintain acquisition locations, pre-configure installation defaults, deploy product keys during the installation process, and manage product updates after a successful rollout. This administrator guide provides quick links to scenario-based guidance for enterprise deployment.
 
 ## Before you begin - Research and Plan
 
@@ -47,13 +47,13 @@ You will need to make a plan for how you deploy Visual Studio across your organi
 
 ::: moniker range="=vs-2019"
 
-If your company needs to stay on a feature set longer but still wants to get regular servicing security updates, you should plan to use a servicing baseline. For more information about security baselines, see the **Support options for Enterprise and Professional customers** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing-vs2019#support-options-for-enterprise-and-professional-customers) page.
+If your company needs to stay on a feature set longer but still wants to get regular servicing security updates, you should plan to use a servicing baseline. For more information about security baselines, see the **Support options for Enterprise and Professional customers** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing-vs2019#support-options-for-enterprise-and-professional-customers) page.  
   
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-If your company needs to stay on a feature set longer but still wants to get regular servicing security updates, you should plan to use a servicing baseline. For more information, see the **Support options for Enterprise and Professional customers** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2022/servicing-vs2022#enterprise-professional-and-build-tools-editions-support) page.
+If your company needs to stay on a feature set longer but still wants to get regular servicing security updates, you should plan to use a servicing baseline. For more information, see the **Support options for Enterprise and Professional customers** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2022/servicing-vs2022#enterprise-professional-and-build-tools-editions-support) page.  
   
 ::: moniker-end  
 
@@ -73,7 +73,7 @@ If your company needs to stay on a feature set longer but still wants to get reg
 
 The following resources will help you do the intitial install of Visual Studio in common enterprise scenarios.
 
-- **[Review the Install Visual Studio documentation](install-visual-studio.md)** to get a high level overview of the installation options available to end users. [Select the workloads and components](workload-and-component-ids.md) that you want to be available to install.
+- **[Review the Install Visual Studio documentation](install-visual-studio.md)** to get a high level overview of the installation options available to end users. [Select the workloads and components](workload-and-component-ids.md) that you want to be available to install.  
 
 - **[Acquire the correct Visual Studio bootstrapper to install the product](/visualstudio/install/create-a-network-installation-of-visual-studio#download-the-visual-studio-bootstrapper-to-create-the-network-layout).** There are different bootstrappers avaiable for you to choose from. Some bootstrappers install a very particular version of the product, while other bootstrappers initialize the servicing baseline channel. 
 
@@ -94,6 +94,8 @@ The following resources will help you keep your Visual Studio updated, current, 
 
 - **[Review the Update Visual Studio documentation](update-visual-studio.md)** to get a high level overview of the update options available to end users, and how end users are notified that updates are available.  
 
+- **[Make sure you have configured the servicing baseline properly](/visualstudio/install/update-servicing-baseline)** if you want to tightly control when and where updates come from.
+
 - **[Enabling Administrator Updates using Microsoft Endpoint Configuration Manager (SCCM)](enabling-administrator-updates.md)**.  Visual Studio updates are included in the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Home.aspx) and the [Windows Server Update Services (WSUS)](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus). Once Administrator updates are [enabled on the client machines](enabling-administrator-updates.md#encoding-administrator-intent-on-the-client-machines), then an Enterprise administrator can [distribute and apply these updates to Visual Studio client machines](../install/applying-administrator-updates.md) across their organization using standard deployment tools such as Microsoft Endpoint Configuration Manager (SCCM). Note that Administrator updates work if the client is connected to either the internet or to a layout.  
 
 - **[Keep your layout (network installation) updated](create-a-network-installation-of-visual-studio.md#update-or-modify-your-layout)** on a regular basis so that it remains current and secure with the latest product updates. Layouts are meant to be used as both as an installation point for new client installs of Visual Studio as well as a source of updated product bits for installations that are already deployed to client workstations. Visual Studio releases security updates on patch Tuesday, the second Tuesday of the month, and we strongly recommend that you update your layouts on a monthly cadence.
@@ -113,7 +115,7 @@ The following resources will help you keep your Visual Studio updated, current, 
 
 - **[Create custom bootstrapper packages](../deployment/creating-bootstrapper-packages.md)**. Learn advanced technices for how to create custom bootstrapper packages to further control your installation configuration by creating product and package manifests. 
 
-* **[Import or export installation configurations](import-export-installation-configurations.md)**
+* **[Import or export installation configurations](import-export-installation-configurations.md)** to other machines or to layouts.
 
 
 ## Support and Troubleshooting
