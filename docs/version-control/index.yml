@@ -68,7 +68,7 @@ landingContent:
   # Card
   - title: What's new
     linkLists:
-      - linkListType: blog
+      - linkListType: whats-new
         links:
           - text: Introducing new Git features in Visual Studio 2022 Preview 17.1
             url: https://devblogs.microsoft.com/visualstudio/introducing-new-git-features-to-visual-studio-2022/
