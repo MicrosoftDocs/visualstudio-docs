@@ -93,8 +93,8 @@ VsixPublisher.exe logout -publisherName "{Publisher Name}"
 ```
 
 ### createPublisher
-[!Caution]
-This command is no longer available. You can create a new publisher by navigating to [Visual Studio Marketplace](https://marketplace.visualstudio.com/manage/publishers).
+> [!Caution]
+> This command is no longer available. You can create a new publisher by navigating to [Visual Studio Marketplace](https://marketplace.visualstudio.com/manage/publishers).
 
 ## publishManifest file
 
