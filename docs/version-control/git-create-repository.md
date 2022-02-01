@@ -14,6 +14,13 @@ ms.technology: vs-ide-general
 
 Visual Studio makes it easy to clone a repo right from the IDE. Here's how.
 
+## Prerequisites
+
+To follow this article, you'll need:
++ [Visual Studio installed](../install/install-visual-studio.md)
+
++ [A GitHub user account](git-create-github-account.md)
+
 ## Create a GitHub repo
 
 1. Open Visual Studio, and then select **Create a new project**.
