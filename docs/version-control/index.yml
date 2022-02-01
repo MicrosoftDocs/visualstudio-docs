@@ -28,7 +28,7 @@ landingContent:
             url: https://visualstudio.microsoft.com/vs/github/
           - text: How Visual Studio makes source control easy
             url:  git-visual-studio-source-control.md            
-      - linkListType: how-to-guide
+      - linkListType: tutorial
         links:
           - text: Create a GitHub account
             url:  git-create-github-account.md
