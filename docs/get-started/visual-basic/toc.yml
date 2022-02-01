@@ -21,8 +21,39 @@
     href: tutorial-wpf.md
   - name: Create a web app
     href: /aspnet/web-pages/overview/getting-started/introducing-razor-syntax-vb
-  - name: Create a Windows Forms app
+- name: Create your first Windows Forms app
+  expanded: true
+  items:
+  - name: Create a simple Windows Forms app
     href: ../../ide/create-a-visual-basic-winform-in-visual-studio.md?toc=/visualstudio/get-started/visual-basic/toc.json&bc=/visualstudio/get-started/visual-basic/breadcrumb/toc.json
+  - name: "Tutorial 1: Create a picture viewer (VB)"
+    items:
+      - name: 1. Create Picture Viewer app
+        href: ../csharp/tutorial-windows-forms-picture-viewer-layout.md
+      - name: 2. Add controls to the app
+        href: ../csharp/tutorial-windows-forms-picture-viewer-controls.md
+      - name: 3. Code, test, and run the app
+        href: ../csharp/tutorial-windows-forms-picture-viewer-code.md
+  - name: "Tutorial 2: Create a timed math quiz (VB)"
+    items:
+      - name: 1. Create the math quiz app
+        href: ../csharp/tutorial-windows-forms-math-quiz-create-project-add-controls.md
+      - name: 2. Add math problems to the app
+        href: ../csharp/tutorial-windows-forms-math-quiz-add-math-problems.md
+      - name: 3. Add a timer to the app
+        href: ../csharp/tutorial-windows-forms-math-quiz-add-timer.md
+      - name: 4. Customize the app
+        href: ../csharp/tutorial-windows-forms-math-quiz-customize-ui.md
+  - name: "Tutorial 3: Create a matching game (VB)"
+    items:
+      - name: 1. Create a matching game
+        href: ../csharp/tutorial-windows-forms-create-match-game.md
+      - name: 2. Add icons to your match game
+        href: ../csharp/tutorial-windows-forms-match-game-icons.md
+      - name: 3. Add labels and a timer
+        href: ../csharp/tutorial-windows-forms-match-game-labels.md
+      - name: 4. Play your match game
+        href: ../csharp/tutorial-windows-forms-match-game-play.md  
 - name: 'Learn Visual Studio'
   expanded: true
   items:
