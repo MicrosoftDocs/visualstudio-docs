@@ -274,6 +274,8 @@ The first step is to create the application project. You'll use this project to 
 
 2. In **Solution Explorer**, right-click the **DemoCalculatorTest** project, and then select **Add** > **Project Reference** to open the **Reference Manager** dialog box.
 
+    (If you're using Visual Studio 2017, select **Add** > **Reference** to open the **Reference Manager** dialog box.)
+
 3. Go to the **Projects** tab, and then select the DemoCalculatorLib project to add the reference to the test project.
 
 4. In **Solution Explorer**, right-click **DemoCalculatorTest**, and then select **Set as StartUp Project**.
