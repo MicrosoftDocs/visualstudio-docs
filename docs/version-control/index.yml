@@ -28,8 +28,6 @@ landingContent:
             url:  git-visual-studio-source-control.md            
       - linkListType: tutorial
         links:
-          - text: Create a GitHub account
-            url:  git-create-github-account.md
           - text: Clone a repo
             url: git-clone-repository.md
           - text: Create a new repo
