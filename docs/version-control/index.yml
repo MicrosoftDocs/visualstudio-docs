@@ -51,12 +51,15 @@ landingContent:
           - text: Fetch, pull, and sync
             url: git-fetch-pull-sync.md
 
-
-
- 
   # Card
-  - title: Reference
+  - title: Resources
     linkLists:
+      - linkListType: whats-new
+        links:
+          - text: Visual Studio 2022 Preview 17.1 Blog
+            url: https://devblogs.microsoft.com/visualstudio/introducing-new-git-features-to-visual-studio-2022/
+          - text: Visual Studio 2022 release notes
+            url: /visualstudio/releases/2022/release-notes-preview
       - linkListType: reference
         links:
           - text: Git settings and preferences
@@ -68,14 +71,7 @@ landingContent:
 
 
   # Card
-  - title: What's new
-    linkLists:
-      - linkListType: whats-new
-        links:
-          - text: Introducing new Git features in Visual Studio 2022 Preview 17.1
-            url: https://devblogs.microsoft.com/visualstudio/introducing-new-git-features-to-visual-studio-2022/
-          - text: Visual Studio 2022 Preview release notes
-            url: /visualstudio/releases/2022/release-notes-preview
+ 
             
   # Card
   - title: Repo management
