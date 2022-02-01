@@ -1,7 +1,7 @@
 ---
 title: Update Visual Studio while on a servicing baseline
-description: Learn how to update Visual Studio while staying on a servicing baseline.
-ms.date: 11/23/2021
+description: Learn how to configure and update Visual Studio to stay on a servicing baseline.
+ms.date: 2/1/2022
 ms.topic: conceptual
 ms.assetid: 
 author: anandmeg
@@ -13,16 +13,11 @@ ms.prod: visual-studio-windows
 ms.technology: vs-installation
 monikerRange: ">=vs-2019"
 ---
-# Update Visual Studio while on a servicing baseline
+# Visual Studio and servicing baselines
 
-We update Visual Studio often during its product lifecycle. There are two types of updates:
+Visual Studio is updated frequently during its product lifecycle. There are two main types of updates: feature updates and servicing updates. Feature updates are indicated by a change in the minor version number, such as 16.4 to 16.5, and contain significant product updates. Servicing updates consist of critical quality or security fixes and they are denoted by a change in the servicing version number, such as 16.7.8 to 16.7.9. 
 
-* **Minor release updates**&mdash;for example, 16.0 to 16.1&mdash;that include new features and components.  
-* **Servicing updates**—for example, 16.0.4 to 16.0.5—that include only targeted fixes for critical issues.
-
-Enterprise administrators can choose to keep their clients on a servicing baseline. A servicing baseline is supported with servicing updates for a year past the release of the next servicing baseline.
-
-The servicing baseline option gives developers and administrators more flexibility to adopt the new features, bug fixes, or components included in new minor updates. The first servicing baseline is 16.0.x. For more information, see [Support options for enterprise and professional customers](/visualstudio/releases/2019/servicing#support-options-for-enterprise-and-professional-customers).
+A servicing baseline, also referred to as a long-term servicing channel (LTSC) is a particular minor version that is supported and kept secure for about a year longer than other minor versions. The purpose of servicing baselines is to give Enterprise and Professional customers a way to adopt and stay on a very stable product and minimize compatibility risk while also staying secure. Refer to the [Visual Studio support lifecycle](/visualstudio/productinfo/vs-servicing) documentation for information about support for secure baselines.
 
 ## How to get onto a servicing baseline
 
