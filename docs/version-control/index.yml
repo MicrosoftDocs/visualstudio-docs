@@ -51,19 +51,21 @@ landingContent:
           - text: Fetch, pull, and sync
             url: git-fetch-pull-sync.md
 
-  # Card
-  - title: Repo management
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Browse a repo
-            url:  git-browse-repository.md
-          - text: Manage a repo
-            url:  git-manage-repository.md
-          - text: Resolve merge conflicts
-            url:  git-resolve-conflicts.md
+
 
  
+  # Card
+  - title: Reference
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Git settings and preferences
+            url: git-settings.md
+          - text: Compare Git and Team Explorer side-by-side
+            url: git-team-explorer-feature-comparison.md
+          - text: Become a master at Git and open source
+            url: https://devblogs.microsoft.com/visualstudio/become-a-master-at-git-and-open-source/
+
 
   # Card
   - title: What's new
@@ -76,14 +78,13 @@ landingContent:
             url: /visualstudio/releases/2022/release-notes-preview
             
   # Card
-  - title: Reference
+  - title: Repo management
     linkLists:
-      - linkListType: concept
+      - linkListType: how-to-guide
         links:
-          - text: Git settings and preferences
-            url: git-settings.md
-          - text: Compare Git and Team Explorer side-by-side
-            url: git-team-explorer-feature-comparison.md
-          - text: Become a master at Git and open source
-            url: https://devblogs.microsoft.com/visualstudio/become-a-master-at-git-and-open-source/
-
+          - text: Browse a repo
+            url:  git-browse-repository.md
+          - text: Manage a repo
+            url:  git-manage-repository.md
+          - text: Resolve merge conflicts
+            url:  git-resolve-conflicts.md
