@@ -2,7 +2,7 @@
 title: Windows Forms Designer tutorial
 description: Learn how to build an app using the various tools provided by Windows Forms Designer. The app is a custom control that uses many available layout features.
 ms.custom: SEO-VS-2020
-ms.date: 08/09/2019
+ms.date: 01/31/2022
 ms.topic: tutorial
 helpviewer_keywords:
 - Windows Forms Designer, get started
@@ -272,7 +272,7 @@ The first step is to create the application project. You'll use this project to 
 
 1. Create a new **Windows Forms Application** project and name it **DemoCalculatorTest**.
 
-2. In **Solution Explorer**, right-click the **DemoCalculatorTest** project, and then select **Add Reference** to open the **Add Reference** dialog box.
+2. In **Solution Explorer**, right-click the **DemoCalculatorTest** project, and then select **Add** > **Project Reference** to open the **Reference Manager** dialog box.
 
 3. Go to the **Projects** tab, and then select the DemoCalculatorLib project to add the reference to the test project.
 
@@ -306,7 +306,7 @@ To use the DemoCalculator control in an application, you need to place it on a f
 
 ## Next steps
 
-This article has demonstrated how to construct the user interface for a simple calculator. To continue, you can extend its functionality by implementing the calculator logic, then [publish the app using ClickOnce](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md). Or, continue on to a different tutorial where you [create a picture viewer using Windows Forms](../ide/tutorial-1-create-a-picture-viewer.md).
+This article has demonstrated how to construct the user interface for a simple calculator. To continue, you can extend its functionality by implementing the calculator logic, then [publish the app using ClickOnce](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md). Or, continue on to a different tutorial where you [create a picture viewer using Windows Forms](../ide/tutorial-windows-forms-picture-viewer-layout.md).
 
 ## See also
 

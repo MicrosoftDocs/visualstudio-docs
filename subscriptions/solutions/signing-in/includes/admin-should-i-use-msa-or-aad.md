@@ -3,8 +3,8 @@ title: Should I use Microsoft Account or Azure Active Directory?
 description: The admin has both an MSA and Azure AD account but does not know which one to use
 ms.topic: include
 ms.assetid: 8cb1b018-b97a-42e9-a71e-68e60cb8cec1
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 06/02/2021
 user.type: admin
 tags: msa

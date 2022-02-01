@@ -5,7 +5,6 @@ ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
-  - vs.debug.gputthreads
   - vs.debug.gputhreads
 dev_langs: 
   - CSharp

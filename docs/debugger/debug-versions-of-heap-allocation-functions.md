@@ -4,8 +4,6 @@ description: Use debug versions of heap allocation functions in the C run-time l
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.crt"
 dev_langs:
   - "CSharp"
   - "VB"

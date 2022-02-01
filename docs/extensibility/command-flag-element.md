@@ -15,7 +15,7 @@ ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
-# Command flag Eelement
+# Command flag element
 Modifies its parent element.
 
 ## Syntax

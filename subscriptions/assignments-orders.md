@@ -2,7 +2,7 @@
 title: Track assignments and process orders in Visual Studio subscriptions | Visual Studio Marketplace
 author: evanwindom
 ms.author: amast
-manager: amast
+manager: shve
 ms.assetid: 83a9162a-b9e7-43a4-b07f-6c1fd8580f78
 ms.date: 03/21/2021
 ms.topic: conceptual

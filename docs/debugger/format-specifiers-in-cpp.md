@@ -4,8 +4,6 @@ description: Use a format specifier to change the format in which a value is dis
 ms.custom: SEO-VS-2020
 ms.date: "3/11/2019"
 ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug"
 dev_langs:
   - "C++"
 helpviewer_keywords:

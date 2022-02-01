@@ -3,8 +3,8 @@ title: Help me purchase from the Microsoft Store
 description: Help me purchase Visual Studio subscriptions from the Microsoft Store
 ms.topic: include
 ms.assetid: f56c7642-f945-4bdf-b48e-9d548b08d91d
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 09/17/2020
 user.type: subscriber
 tags: purchasing

@@ -4,8 +4,6 @@ description: Learn how to find the inheritance relationship between a base type 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-f1_keywords:
-- vs.classdesigner.AssociationTypeNotFoundError
 helpviewer_keywords:
 - types [Visual Studio], inheritance
 - types [Visual Studio], base

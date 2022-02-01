@@ -2,8 +2,9 @@
 title: "Report a Problem with Visual Studio for Mac"
 description: "How to make suggestions or report issues experienced while using Visual Studio for Mac."
 ms.topic: troubleshooting
-author: therealjohn
-ms.author: johmil
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 06/18/2019
 ms.assetid: 1C7AC52E-754E-473F-A5B5-00C3A40DAACD
 ---

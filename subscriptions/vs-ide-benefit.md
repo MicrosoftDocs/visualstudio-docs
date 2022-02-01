@@ -1,8 +1,8 @@
 ---
 title: Visual Studio IDE in Visual Studio subscription | Microsoft Docs
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: c4b13464-76be-40f1-ad60-ed79ee264b12
 ms.date: 10/18/2021
 ms.topic: how-to
@@ -19,7 +19,7 @@ To download the IDE:
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 2. Locate the Visual Studio IDE tile in the Tools section, and click on the **Download** link at the bottom of the benefit tile.  You can also download it from the [Downloads](https://my.visualstudio.com/downloads?wt.mc_id=o~msft~docs) page.
    > [!div class="mx-imgBorder"]
-   > ![Visual Studio Enterprise tile](_img/vs-ide-experience/vs-ide-tile.png "Click "Download' on the Visual Studio tile to install Visual Studio.")
+   > ![Visual Studio Enterprise tile](_img/vs-ide-experience/vs-ide-tile.png "Click 'Download' on the Visual Studio tile to install Visual Studio.")
 
 3. You’ll be redirected to the Download Results page for Visual Studio, where you’ll have the opportunity to download the IDE and obtain a product key to activate it. You may also claim a product key by clicking on the blue **Get Key** link, or claim a key later on the [Product keys](https://my.visualstudio.com/productkeys) page.
 4. On the Details tab of the Download Results page:

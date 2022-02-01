@@ -4,8 +4,8 @@ description: You can assign subscriptions to your end users one at a time, or us
 ms.faqid: group1_3
 ms.topic: include
 ms.assetid: 59eb35fd-ec94-41ce-b24c-a8a120976bac
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 12/03/2020
 ---
 

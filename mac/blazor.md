@@ -1,8 +1,9 @@
 ---
 title: Create Blazor web apps
 description: Provides information about Blazor support in ASP.NET Core apps in Visual Studio for Mac.
-author: jongalloway
-ms.author: jogallow
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 08/31/2020
 ms.technology: vs-ide-general
 ms.assetid: D2717D3A-9225-40A8-8155-7D0143B2CA60

@@ -1,9 +1,11 @@
 ---
 title: "Customizing the Build System"
 description: "This article is a brief introduction to the MSBuild build system used by Visual Studio for Mac"
-author: heiligerdankgesang
-ms.author: dominicn
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 09/19/2019
+ms.topic: conceptual
 ms.assetid: 6958B102-8527-4B40-BC65-3505DB63F9D3
 ---
 

@@ -1,17 +1,19 @@
 ---
 title: "Docker tutorial - Part 7: Multi-container apps"
 description: How to set up networking between containers, and add a container for a MySQL database.
-ms.date: "08/06/2021"
-author: nebuk89
-ms.author: ghogen
+ms.prod: vs-code
+ms.topic: tutorial
+ms.author: mikemort
+author: BigMorty
 manager: jmartens
-ms.technology: vs-docker
-ms.custom: "contperf-fy22q1"
+ms.reviewer: "nebuk89, ghogen"
+ms.custom: “docker-team-owned”
+ms.date: 08/06/2021
 
-ms.topic: conceptual
-ms.workload:
-  - "azure"
+# Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---
+
+
 # Multi-container apps
 
 Up to this point, you've been working with single-container apps. But, you'll now add MySQL to the application stack. The following question often arises - "Where will MySQL run? Install it in the same container or run it separately?" In general, **each container should do one thing and do it well.** A few reasons:

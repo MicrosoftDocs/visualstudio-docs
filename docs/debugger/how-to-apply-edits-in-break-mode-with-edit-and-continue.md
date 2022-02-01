@@ -4,8 +4,6 @@ description: See how to use Edit and Continue to edit your Visual Basic code whe
 
 ms.date: 11/04/2016
 ms.topic: how-to
-f1_keywords: 
-  - vs.debug.variables.failededit
 dev_langs: 
   - CSharp
   - VB
