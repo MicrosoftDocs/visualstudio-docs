@@ -90,7 +90,7 @@ Here's how.
 
 1. In the Visual Studio IDE, select the **Git** menu, and then select **Clone Repository**.
 
-    :::image type="content" source="../ide/media/vs-2022/git-menu-clone-repository.png" alt-text="Screenshot of the 'Screenshot of the Git menu in Visual Studio 2022 with Clone Repository selected.":::
+    :::image type="content" source="../ide/media/vs-2022/git-menu-clone-repository.png" alt-text="Screenshot of the Git menu in Visual Studio 2022 with Clone Repository selected.":::
 
 1. Follow the prompts to connect to the Git repository that includes the files you're looking for.
 
@@ -98,7 +98,7 @@ Here's how.
 
 1. In the Visual Studio IDE, select the **Git** menu, select **Local Repositories**, and then select **Open Local Repository**.
 
-    :::image type="content" source="../ide/media/vs-2022/git-menu-local-repositories.png" alt-text="Screenshot of the 'Screenshot of the Git menu in Visual Studio 2022 with the Local Repository and Open Local Repository showing.":::
+    :::image type="content" source="../ide/media/vs-2022/git-menu-local-repositories.png" alt-text="Screenshot of the Git menu in Visual Studio 2022 with the Local Repository and Open Local Repository showing.":::
 
     Alternatively, you can perform the same task from **Solution Explorer**. To do so, choose the **Select Repository** control, select the **ellipsis** icon that's next to the **Filter repositories** box, and then select **Open Local Repository**.
 
