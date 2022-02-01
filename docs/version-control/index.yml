@@ -61,12 +61,10 @@ landingContent:
           - text: Videos and more...
             url: https://visualstudio.microsoft.com/vs/github/
 
-
-
   # Card
   - title: Reference
     linkLists:
-    - linkListType: reference
+      - linkListType: reference
         links:
           - text: Git settings & preferences
             url: git-settings.md
