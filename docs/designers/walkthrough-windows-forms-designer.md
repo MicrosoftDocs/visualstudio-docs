@@ -272,7 +272,7 @@ The first step is to create the application project. You'll use this project to 
 
 1. Create a new **Windows Forms Application** project and name it **DemoCalculatorTest**.
 
-2. In **Solution Explorer**, right-click the **DemoCalculatorTest** project, and then select **Add** > **Add Project Reference** to open the **Reference Manager** dialog box.
+2. In **Solution Explorer**, right-click the **DemoCalculatorTest** project, and then select **Add** > **Project Reference** to open the **Reference Manager** dialog box.
 
 3. Go to the **Projects** tab, and then select the DemoCalculatorLib project to add the reference to the test project.
 
