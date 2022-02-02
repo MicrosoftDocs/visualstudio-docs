@@ -52,17 +52,17 @@ In this tutorial, you learn how to:
   - **Git for Windows** on the **Individual components** tab under **Code tools**.
 ::: moniker-end
 
-Django project templates also include earlier versions of Python Tools for Visual Studio. The template details may differ from what's discussed in this tutorial (especially different with earlier versions of the Django framework).
+Django project templates also include earlier versions of Python Tools for Visual Studio. The template details might differ from what's discussed in this tutorial (especially different with earlier versions of the Django framework).
 
 Python development isn't presently supported in Visual Studio for Mac. On Mac and Linux, use the [Python extension in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial).
 
 ### "Visual Studio projects" and "Django projects"
 
-In Django terminology, a "Django project" has several site-level configuration files along with one or more "apps." To create a full web application, you may deploy these apps to a web host. A Django project can contain multiple apps, and the same app can be in multiple Django projects.
+In Django terminology, a "Django project" has several site-level configuration files along with one or more "apps." To create a full web application, you can deploy these apps to a web host. A Django project can contain multiple apps, and the same app can be in multiple Django projects.
 
 A Visual Studio project can contain the Django project along with multiple apps. Whenever this tutorial refers to just a "project," it's referring to the Visual Studio project. When it refers to the "Django project" portion of the web application, it's referring to "Django project" specifically.
 
-Over the course of this tutorial, you'll create a single Visual Studio solution that contains three separate Django projects. Each project will have a single Django app. You can easily switch between different files for comparison, by keeping the projects in the same solution.
+Over the course of this tutorial, you'll create a single Visual Studio solution that contains three separate Django projects. Each project contains a single Django app. You can easily switch between different files for comparison, by keeping the projects in the same solution.
 
 ## Step 1-1: Create a Visual Studio project and solution
 
@@ -224,9 +224,9 @@ Now that you've configured source control for your project, you can create the v
 
     :::image type="content" source="media/django/step-01-add-virtual-environment-command-vs-2022.png" alt-text="Add Virtual environment command in Solution Explorer.":::
 
-1. Select **Create** to accept the defaults, in Add Virtual Environment dialog box. (You may change the name of the virtual environment if you want, which just changes the name of its subfolder, but `env` is a standard convention.)
+1. Select **Create** to accept the defaults, in Add Virtual Environment dialog. (You can change the name of the virtual environment if you want, which just changes the name of its subfolder, but `env` is a standard convention.)
 
-    :::image type="content" source="media/django/step-01-add-virtual-environment-dialog-vs-2022.png" alt-text="Add virtual environment dialog box with requirements.txt message.":::
+    :::image type="content" source="media/django/step-01-add-environment-vs-2022.png" alt-text="Add virtual environment dialog with requirements.txt message.":::
 
 1. Consent to administrator privileges if prompted, then wait for few minutes while Visual Studio downloads and installs packages. During this time, thousands of files are transferred to many subfolders. You can see the progress in the Visual Studio **Output** window. While you're waiting, ponder the Question sections that follow.
 
@@ -250,7 +250,7 @@ Answer: A virtual environment is a great way to isolate your app's exact depende
 
 ### Question: How do I remove a virtual environment that's already committed to source control?
 
-Answer: First, edit your *.gitignore* file to exclude the folder. Find the section at the end with the comment `# Python Tools for Visual Studio (PTVS)` and add a new line for the virtual environment folder, such as `/BasicProject/env`. (Visual Studio doesn't show the file in **Solution Explorer**, so to open the file directly, go to **File** > **Open** > **File** menu. You can also open the file from the **Team Explorer**. Go to the **Settings** page and select **Repository Settings**. Now, navigate to the **Ignore & Attributes Files** section and select the **Edit** link next to **.gitignore**.)
+Answer: First, edit your *.gitignore* file to exclude the folder. Find the section at the end with the comment `# Python Tools for Visual Studio (PTVS)` and add a new line for the virtual environment folder, such as `/BasicProject/env`. (Visual Studio doesn't show the file in **Solution Explorer**, so to open the file directly, go to **File** > **Open** > **File** menu. You can also open the file from **Team Explorer**. Go to the **Settings** page and select **Repository Settings**. Now, navigate to the **Ignore & Attributes Files** section and select the **Edit** link next to **.gitignore**.)
 
 Second, open a command window, navigate to a folder such as *BasicProject*. The *BasicProject* folder contains the virtual environment folder such as *env*, and run `git rm -r env`. Then commit those changes from the command line (`git commit -m 'Remove venv'`) or commit from the **Changes** page of **Team Explorer**.
 
@@ -262,7 +262,7 @@ Once project creation completes, examine the boilerplate Django project code (wh
 
     :::image type="content" source="media/django/step01-django-commands-menu.png" alt-text="Django commands on a Python project context menu.":::
 
-1. In your project, there's a folder named same as the project. It contains the basic Django project files:
+1. In your project, there's a folder with the same name as the project. It contains the basic Django project files:
 
    - *__init.py*: An empty file that tells Python that this folder is a Python package.
    - *settings.py*: Contains settings for Django project, which you'll modify in the course of developing a web app.
@@ -279,7 +279,7 @@ Answer: Yes. Expand the **Python Environments** node, right-click your virtual e
 
 ## Step 1-5: Run the empty Django project
 
-1. In Visual Studio, select **Debug** > **Start Debugging** (**F5**) or use the **Web Server** button on the toolbar (the browser you see may vary):
+1. In Visual Studio, select **Debug** > **Start Debugging** (**F5**) or use the **Web Server** button on the toolbar (the browser you see might vary):
 
     :::image type="content" source="media/django/run-web-server-toolbar-button.png" alt-text="Run web server toolbar button in Visual Studio.":::
 
