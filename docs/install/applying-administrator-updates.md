@@ -23,6 +23,9 @@ The Visual Studio administrator update package that is published to Microsoft Up
 
 Visual Studio administrator updates apply to Visual Studio servicing versions that are under support. For more information about which Visual Studio servicing baselines are still in support during a particular timeframe, see [Visual Studio Product Lifecycle and Servicing](/visualstudio/productinfo/vs-servicing-vs). All supported Visual Studio servicing baselines will be kept secure.  
 
+> [!NOTE]
+> Visual Studio administrator updates cause the client machines to download the product files from whereever the [client is configured to download updates from](/visualstudio/install/update-visual-studio#configure-source-location-of-updates-1) - either the internet or a network layout. Thus, Administrator updates can be used in scenarios where the client is not connected to the internet. For example, if the client is configured to obtain updates from a network layout, then the Administrator Updates can serve to trigger the clients to update themselves.  
+
 ## Types and characteristics of administrator updates
 
 There are three types of administrator updates to Visual Studio:
@@ -52,7 +55,12 @@ The title of each administrator update describes both the applicable version r
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
+* **Visual Studio 2022 version 17.0.3 update** classified as "Security Update" will apply to any Visual Studio 2022 edition on the client that is on either the [Current channel or the 17.0 LTSC channel](/visualstudio/install/update-visual-studio?view=vs-2022#configure-source-location-of-updates-1), and bring it **up** to the 17.0.3 version.  
+* **Visual Studio 2022 version 17.1.0 update** classified as a "Feature Pack" will apply to Visual Studio 2022 editions licensed for enterprise use on the client that is on the Current channel, and it will update it to the 17.1.0 version. 
+* **Visual Studio 2022 version 17.1.2 update** classified as simply "Updates" will apply to Visual Studio 2022 editions licensed for enterprise use on the client that is on the Current channel, and it will update it to the 17.1.2 version. 
+* * **Visual Studio 2022 version 17.2.7 update** classified as "Security Update" will apply to any Visual Studio 2022 edition on the client that is on either the Current channel or the 17.2 LTSC channel, and bring it **up** to the 17.2.7 version. 
 
+If the client instance is greater than the version of the administrator update that's being applied, then the administrator update will have no effect.
 ::: moniker-end
 
 ## Using Configuration Manager to deploy Visual Studio updates
@@ -81,7 +89,7 @@ There are a few configuration options that are can be used to tailor the Visual 
 
 There are three main methods of configuring administrator updates: a registry key, a configuration file on the client machine, or a modification of the Configuration Manager deployment package itself.   
 
-* **Registry key**: Administrator updates look for specific registry keys in any of the standard Visual Studio locations as described in [Set defaults for enterprise deployments](../install/set-defaults-for-enterprise-deployments.md). Options that are controlled by registry keys are items such as **AdministratorUpdatesOptOut** Reg_DWORD, **AdministratorUpdatesOptOut** Reg_DWORD, and **BaselineStickinessVersions2019** Reg_SZ. Admin access on the client computer is required to create and set the value of registry keys.
+* **Registry key**: Administrator updates look for specific registry keys in any of the standard Visual Studio locations as described in [Set defaults for enterprise deployments](../install/set-defaults-for-enterprise-deployments.md). Options that are controlled by registry keys are items such as **AdministratorUpdatesOptOut** Reg_DWORD and **AdministratorUpdatesOptOut** Reg_DWORD. Admin access on the client computer is required to create and set the value of registry keys.
 
 * **Configuration file**: Some settings can be preserved on the client machine in an optional configuration file, which has the benefit of setting it only once and having it apply to all future administrator updates. The configuration file approach behaves like a registry key and is machine wide, which means it will apply to all installs of Visual Studio installed on the client machine. The standard location for the configuration file is at `C:\ProgramData\Microsoft\VisualStudio\updates.config`. However, if you wish to use another location to store the file, you can do so by creating a Reg_SZ registry key called **UpdateConfigurationFile** and setting the value of this key to the path of your config file. This registry key can be place in any of the Visual Studio registry locations as described in [Set defaults for enterprise deployments](../install/set-defaults-for-enterprise-deployments.md). If you choose to add a registry value for a custom configuration file location, it will look for that file; if the file doesn’t exist, then an exception will be thrown and the update will fail.
 
