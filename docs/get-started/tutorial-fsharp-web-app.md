@@ -199,7 +199,7 @@ You can use the knowledge from the previous section for this new project.
 
 1. Select **Create a new project**.
 
-1. On the **Create a new project** page, type **f# web** into the search box. Select the **ASP.NET Core Web API** project template, and then select **Next**.
+1. On the **Create a new project** page, type **F# web** into the search box. Select the **ASP.NET Core Web API** project template, and then select **Next**.
 
 1. In the **Configure your new project** dialog box, for **Project name**, enter *FSharpTutorial*.
 
@@ -210,7 +210,7 @@ You can use the knowledge from the previous section for this new project.
    > Some of the options in this menu are no longer supported.
    > We don't recommend using unsupported options for production environments.
 
-   Visual Studio creates the new F# project. You can see the project components in the Solution Explorer window.
+   When you select **Create**, Visual Studio creates the new F# project. You can see the project components in the Solution Explorer window.
    Visual Studio presents an **Overview** page.
 
 1. In the **Solution Explorer** toolbar, expand the **Controllers** folder, then choose the controller to open the code file in the editor.
@@ -234,6 +234,9 @@ You can use the knowledge from the previous section for this new project.
    A browser window opens to display your Hello World message.
 
 ::: moniker-end
+
+> [!NOTE]
+> If you get a message that asks if you want to accept an IIS SSL Express certificate, choose **Yes** to view the code in a web browser, and then choose **Yes** if you receive a follow-up security warning message.
 
 ## Next steps
 
