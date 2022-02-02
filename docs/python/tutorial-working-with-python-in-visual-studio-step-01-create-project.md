@@ -2,13 +2,13 @@
 title: Python in Visual Studio tutorial step 1, create a project
 titleSuffix: ""
 description: Overview and step 1 of a core walkthrough of Python capabilities in Visual Studio, including prerequisites and creating a new Python project.
-ms.date: 09/14/2021
+ms.date: 02/02/2022
 ms.topic: tutorial
 author: rjmolyneaux
 ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
-ms.custom: vs-acquisition
+ms.custom: vs-acquisition, devdivchpfy22
 ms.workload:
   - python
   - data-science
@@ -32,7 +32,7 @@ Visual Studio provides first-class language support for Python. This tutorial gu
 
 ## Step 1: Create a new Python project
 
-A *project* is how Visual Studio manages all the files that come together to produce a single application. Application files include source code, resources, and configurations. A project formalizes and maintains the relationships among all the project's files. The project also manages external resources that are shared between multiple projects. A project allows your application to effortlessly expand and grow. Using projects is much easier than manually managing relationships in ad hoc folders, scripts, text files, and your memory.
+A *project* is how Visual Studio manages all the files that come together to produce a single application. Application files include source code, resources, and configurations. A project formalizes and maintains the relationships among all the project's files. The project also manages external resources that are shared between multiple projects. A project allows your application to effortlessly expand and grow. Using projects is much easier than manually managing relationships in unplanned folders, scripts, text files, and your memory.
 
 This tutorial begins with a simple project containing a single, empty code file.
 
