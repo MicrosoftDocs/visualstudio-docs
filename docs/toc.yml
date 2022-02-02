@@ -152,7 +152,7 @@
   - name: "C#: Create a web app"
     href: ide/quickstart-aspnet-core.md
   - name: "C#: Create a console app"
-    href: ide/quickstart-csharp-console.md
+    href: get-started/csharp/tutorial-console.md
   - name: "Visual Basic: Create a console app"
     href: ide/quickstart-visual-basic-console.md
   - name: "Node.js: Create a web app"
@@ -299,8 +299,6 @@
       href: ide/outlining.md
     - name: Code generation and refactoring
       items:
-      - name: Generate and fix code
-        href: ide/code-generation-in-visual-studio.md
       - name: Code snippets
         items:
         - name: Use code snippets
@@ -649,36 +647,6 @@
         items:
         - name: System.Windows.Forms API >>
           href: /dotnet/api/system.windows.forms
-      - name: Tutorials
-        items:
-        - name: "Tutorial 1: Create a picture viewer (C#)"
-          items:
-          - name: 1. Create Picture Viewer app
-            href: ide/tutorial-windows-forms-picture-viewer-layout.md
-          - name: 2. Add controls in the app
-            href: ide/tutorial-windows-forms-picture-viewer-controls.md
-          - name: 3. Code, test, and run the app
-            href: ide/tutorial-windows-forms-picture-viewer-code.md
-        - name: "Tutorial 2: Create a timed math quiz (C#)"
-          items:
-          - name: 1. Create the math quiz app
-            href: ide/tutorial-windows-forms-math-quiz-create-project-add-controls.md
-          - name: 2. Add math problems to the app
-            href: ide/tutorial-windows-forms-math-quiz-add-math-problems.md
-          - name: 3. Add a timer to the app
-            href: ide/tutorial-windows-forms-math-quiz-add-timer.md
-          - name: 4. Customize the app
-            href: ide/tutorial-windows-forms-math-quiz-customize-ui.md
-        - name: "Tutorial 3: Create a matching game (C#)"
-          items:
-          - name: 1. Create a matching game
-            href: ide/tutorial-windows-forms-create-match-game.md
-          - name: 2. Add icons to your match game
-            href: ide/tutorial-windows-forms-match-game-icons.md
-          - name: 3. Add labels and a timer
-            href: ide/tutorial-windows-forms-match-game-labels.md
-          - name: 4. Play your match game
-            href: ide/tutorial-windows-forms-match-game-play.md
     - name: F#
       items:
       - name: F# development

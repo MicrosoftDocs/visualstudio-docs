@@ -2,7 +2,7 @@
 title: Find and replace text, and multi-caret selection
 description: Learn about the Find and Replace feature and how to use it to find and replace instances of a pattern.
 ms.custom: SEO-VS-2020
-ms.date: 01/21/2022
+ms.date: 02/01/2022
 ms.topic: conceptual
 f1_keywords:
 - vs.find
@@ -152,6 +152,16 @@ Additionally, you can use **Alt**+**Shift**+**up arrow key** (or **down arrow ke
 > [!TIP]
 > If you prefer to keep using a box selection with **Alt**+**Shift**+**arrow keys** and **Alt**+**Shift**+**mouse drag** when you expand a multi-caret selection, go to **Tools** > **Options** > **Text Editor** > **Advanced** and select **Use box selection**.
 
+### Commands
+
+The following keyboard shortcuts are for actions that are specific to multi-caret selection behaviors.
+
+|Shortcut|Action|Command|
+|-|-|-|
+| **Alt**+**Shift**+**.** | Use multi-caret | Edit.InsertNextMatchingCaret |
+| **Ctrl**+**Shift**+**arrow key** | Expand selections | Edit.SizeControlUp, Edit.SizeControlDown, Edit.SizeControlRight, Edit.SizeControlLeft |
+| **Alt**+**Shift**+**up arrow key** (or **down arrow key**)| Select multiple carets | Edit.LineUpExtendColumn, Edit.LineDownExtendColumn |
+
 You can also access multi-caret selection from the menu bar by selecting **Edit** > **Multiple Carets** and then selecting the action you want.
 
 :::image type="content" source="media/vs-2022/edit-menu-multiple-carets-find-replace.png" alt-text="Screenshot of the Multiple Carets fly-out menu in Visual Studio 2022.":::
@@ -164,10 +174,10 @@ In the following screenshot, `-0000` is selected in three locations; if the user
 
 ![Multi-caret selection in an XML file in Visual Studio](media/multi-caret-selection.png)
 
-To select multiple carets, click or make first text selection as usual, and then press **Alt** while you click or select text in each additional location. You can also automatically add matching text as additional selections, or select a box of text to edit identically on each line.
+To select multiple carets, click or make first text selection as usual, and then press **Ctrl**+**Alt** while you click or select text in each additional location. You can also automatically add matching text as additional selections, or select a box of text to edit identically on each line.
 
 > [!TIP]
-> If you've selected **Alt** as the modifier key for mouse-click Go to Definition in **Tools** > **Options**, multi-caret select is disabled.
+> If you've selected **Alt** as the modifier key for mouse-click in "Go to Definition" from **Tools** > **Options** > **Text Editor** > **General**, multi-caret select is disabled. For more information, see [Options dialog box: Text Editor /> General](reference/options-text-editor-general.md).
 
 ### Commands
 
