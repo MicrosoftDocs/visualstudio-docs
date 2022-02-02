@@ -60,7 +60,7 @@ The [Visual Studio Client Detector Utility](https://support.microsoft.com/help/5
 
 The client computers must be enabled to receive administrator updates. This step is necessary to make sure that the updates are not unintentionally or accidentally pushed out to unsuspecting client computers.
 
-The **AdministratorUpdatesEnabled** key is designed for the administrator to encode administrator intent. This key can be in any of the standard Visual Studio locations as described in the [Set defaults for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md) documentation. Admin access on the client computer is required to create and set the value of this key.
+The **AdministratorUpdatesEnabled** key is designed for the administrator to encode administrator intent. This key can be in any of the [standard Visual Studio registry locations](set-defaults-for-enterprise-deployments.md) documentation. Admin access on the client computer is required to create and set the value of this key.
 
 * To configure the client computer to accept Administrator Updates, set the **AdministratorUpdatesEnabled** REG_DWORD key to **1**.
 * If the **AdministratorUpdatesEnabled** REG_DWORD key is **missing or is set to 0**, administrator updates will be blocked from applying to the client computer.
@@ -83,7 +83,6 @@ You can use the following methods to provide feedback about Visual Studio admini
 * [Visual Studio administrator guide](../install/visual-studio-administrator-guide.md)
 * [Visual Studio Product Lifecycle and Servicing](/visualstudio/productinfo/vs-servicing-vs)
 * [Visual Studio 2019 Release Notes](/visualstudio/releases/2019/release-notes)
-* [Visual Studio 2017 Release Notes](/visualstudio/releasenotes/vs2017-relnotes)
 * [Install Visual Studio](../install/install-visual-studio.md)
 * [Microsoft Update Catalog FAQ](https://www.catalog.update.microsoft.com/faq.aspx)
 * [Microsoft Endpoint Configuration Manager (SCCM) documentation](/mem/configmgr)
