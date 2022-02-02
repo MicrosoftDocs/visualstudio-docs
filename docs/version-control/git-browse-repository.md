@@ -61,8 +61,22 @@ In Visual Studio, you can use the **Git Graph** pane in the **Git Repository** w
 > [!NOTE]
 > The equivalent command for this action is `git branch <branchname> [<commit-id>]`.
 
+## Compare branches
+Comparing branches provides an overview of differences between two branches which can be very helpful before creating a pull request, merging, or even deleting a branch.
+
+:::image type="content" source="media/vs-2022/git-compare-branches-illustration.png" alt-text="Compare branches illustration" lightbox="media/vs-2022/git-compare-branches-illustration.png":::
+
+To compare your currently checked out branch with other branches using Visual Studio, you can utilize the branch picker hosted in the status bar and the Git changes tool window to choose any local or remote branch to compare with. Right click the branch you are targeting and select **Compare with Current Branch**. Alternatively, you can utilize the branch list on the Git Repository window to access the same command.
+
+:::image type="content" source="media/vs-2022/git-compare-branches-entrypoints.gif" alt-text="Compare branches entrypoints":::
+
+Selecting **Compare with Current Branch** opens the compare branches experience where you can navigate the **Changes** list and select the file that you would like to compare.
+
+:::image type="content" source="media/vs-2022/git-compare-branches.png" alt-text="Compare branches diff view" lightbox="media/vs-2022/git-compare-branches.png":::
+
 > [!TIP]
-> To learn how the [Preview](/visualstudio/releases/2022/release-notes-preview) version of Visual Studio 2022 makes it easy to checkout commits, see the "Checkout commits" section of the [Introducing new Git features to Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/introducing-new-git-features-to-visual-studio-2022/#checkout-commits) blog post.
+> If you prefer an inline diff, you can use the diff configuration options gear and switch to an inline diff view.
+> :::image type="content" source="media/vs-2022/git-diff-configuration-options.png" alt-text="Diff configuration options":::
 
 ## Next steps
 
