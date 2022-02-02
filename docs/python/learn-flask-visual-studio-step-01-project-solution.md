@@ -48,9 +48,17 @@ Over the course of these steps you create a single Visual Studio solution that c
 
 ## Prerequisites
 
+::: moniker range="<=vs-2019"
 - Visual Studio 2017 or later on Windows with the following options:
   - The **Python development** workload (**Workload** tab in the installer). For instructions, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
   - **Git for Windows** and **GitHub Extension for Visual Studio** on the **Individual components** tab under **Code tools**.
+::: moniker-end
+
+::: moniker range="vs-2022"
+- Visual Studio 2022 on Windows with the following options:
+  - The **Python development** workload (**Workload** tab in the installer). For instructions, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
+  - **Git for Windows** on the **Individual components** tab under **Code tools**.
+::: moniker-end
 
 Flask project templates are included with all earlier versions of Python Tools for Visual Studio, though details may differ from what's discussed in this tutorial.
 
@@ -58,6 +66,7 @@ Python development is not presently supported in Visual Studio for Mac. On Mac a
 
 ## Step 1-1: Create a Visual Studio project and solution
 
+::: moniker range="<=vs-2019"
 1. In Visual Studio, select **File** > **New** > **Project**, search for "Flask", and select the **Blank Flask Web Project** template. (The template is also found under **Python** > **Web** in the left-hand list.)
 
     ![New project dialog in Visual Studio for the Blank Flask Web Project](media/flask/step01-new-blank-project.png)
@@ -75,9 +84,22 @@ Python development is not presently supported in Visual Studio for Mac. On Mac a
     ![Prompt saying that the project requires external packages](media/tutorials-common/step01-requirements-prompt-install-myself.png)
 
 1. Select the option **I will install them myself**. You create the virtual environment shortly to make sure it's excluded from source control. (The environment can always be created from *requirements.txt*.)
+::: moniker-end
+::: moniker range="vs-2022"
+1. In Visual Studio, select **File** > **New** > **Project**, search for "Flask", and select the **Blank Flask Web Project** template, then select **Next**.
+
+    ![New project dialog in Visual Studio for the Blank Flask Web Project](media/flask/step-01-new-blank-project-vs-2022.png)
+
+1. Configure your new project by entering following information and then select **Create**:
+
+    - **Name**: set the name of the Visual Studio project to **BasicProject**. This name is also used for the Flask project.
+    - **Location**: specify a location in which to create the Visual Studio solution and project.
+    - **Solution name**: set to **LearningFlask**, which is appropriate for the solution as a container for multiple projects in this tutorial.
+::: moniker-end
 
 ## Step 1-2: Examine the Git controls and publish to a remote repository
 
+::: moniker range="<=vs-2019"
 Because you selected the **Create new Git repository** in the **New Project** dialog, the project is already committed to local source control as soon as the creation process is complete. In this step, you familiarize yourself with Visual Studio's Git controls and the **Team Explorer** window in which you work with source control.
 
 1. Examine the Git controls on the bottom corner of the Visual Studio main window. From left to right, these controls show unpushed commits, uncommitted changes, the name of the repository, and the current branch:
@@ -109,6 +131,41 @@ Because you selected the **Create new Git repository** in the **New Project** di
 
 > [!Tip]
 > To quickly navigate within **Team Explorer**, select the header (that reads **Changes** or **Push** in the images above) to see a pop-up menu of the available pages.
+::: moniker-end
+
+::: moniker range="vs-2022"
+In this step, you familiarize yourself with Visual Studio's Git controls and the **Team Explorer** window in which you work with source control.
+
+1. Examine the Git controls on the bottom corner of the Visual Studio main window. From left to right, these controls show unpushed commits, uncommitted changes, the name of the repository, and the current branch:
+
+    ![Git controls in the Visual Studio window](media/flask/step01-git-controls.png)
+
+    > [!Note]
+    > If you don't select the **Create new Git repository** in the **New Project** dialog, the Git controls show only an **Add to source control** command that creates a local repository.
+    >
+    > ![Add to Source Control appears in Visual Studio if you've not created a repository](media/tutorials-common/step01-git-add-to-source-control.png)
+
+1. Select the changes button, and Visual Studio opens its **Team Explorer** window on the **Changes** page. Because the newly created project is already committed to source control automatically, you don't see any pending changes.
+
+    ![Team Explorer window on the Changes page](media/flask/step01-team-explorer-changes.png)
+
+1. On the Visual Studio status bar, select the unpushed commits button (the up arrow with **2**) to open the **Synchronization** page in **Team Explorer**. Because you have only a local repository, the page provides easy options to publish the repository to different remote repositories.
+
+    ![Team Explorer window showing available Git repository options for source control](media/flask/step01-team-explorer.png)
+
+    You can choose whichever service you want for your own projects. This tutorial shows the use of GitHub, where the completed sample code for the tutorial is maintained in the [Microsoft/python-sample-vs-learning-flask](https://github.com/Microsoft/python-sample-vs-learning-flask) repository.
+
+1. When selecting any of the **Publish** controls, **Team Explorer** prompts you for more information. For example, when publishing the sample for this tutorial, the repository itself had to be created first, in which case the **Push to Remote Repository** option was used with the repository's URL.
+
+    ![Team Explorer window for pushing to an existing remote repository](media/flask/step01-push-to-github.png)
+
+    If you don't have an existing repository, the **Publish to GitHub** and **Push to Azure DevOps** options let you create one directly from within Visual Studio.
+
+1. As you work through this tutorial, get into the habit of periodically using the controls in Visual Studio to commit and push changes. This tutorial reminds you at appropriate points.
+
+> [!Tip]
+> To quickly navigate within **Team Explorer**, select the header (that reads **Changes** or **Push** in the images above) to see a pop-up menu of the available pages.
+::: moniker-end
 
 ### Question: What are some advantages of using source control from the beginning of a project?
 
