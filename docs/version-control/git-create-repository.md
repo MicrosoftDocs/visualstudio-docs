@@ -12,7 +12,7 @@ ms.technology: vs-ide-general
 ---
 # Create a Git repository from Visual Studio
 
-Visual Studio makes it easy to clone a repo right from the IDE. Here's how.
+Visual Studio makes it easy to create a repo right from the IDE. Here's how.
 
 ## Prerequisites
 
