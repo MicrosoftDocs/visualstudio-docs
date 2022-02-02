@@ -1,7 +1,7 @@
 ---
 title: Analyze memory usage in the Performance Profiler
 description: Learn how to use the Memory Usage tool without the debugger in the Visual Studio Performance Profiler to monitor your app's memory use.
-ms.custom: devdivchpfy22, devdivchpfy22
+ms.custom: devdivchpfy22
 ms.date: 01/27/2022
 ms.topic: how-to
 dev_langs: 
@@ -69,11 +69,11 @@ To stop a monitoring session without creating a report, just close the diagnosti
 After you stop data collection, the **Memory Usage** tool stops the app and displays the **Memory Usage** overview page.
 
 ::: moniker range="<=vs-2019"
-![Screenshot of the overview page in the Memory Usage tool in the Visual Studio Performance Profiler, showing a memory usage graph and two snapshot panes.](../profiling/media/memuse__reportoverview1.png "Memory Usage overview page")
+![Screenshot of the overview page in the Memory Usage tool in the Visual Studio Performance Profiler, showing a memory usage graph and two snapshot panes.](../profiling/media/memuse__reportoverview-1.png "Memory Usage overview page")
 ::: moniker-end
 
 ::: moniker range="vs-2022"
-![Screenshot of the overview page in the Memory Usage tool in the Visual Studio Performance Profiler, showing a memory usage graph and two snapshot panes.](../profiling/media/memuse__reportoverview1_vs-2022.png "Memory Usage overview page")
+![Screenshot of the overview page in the Memory Usage tool in the Visual Studio Performance Profiler, showing a memory usage graph and two snapshot panes.](../profiling/media/memuse__reportoverview-1_vs-2022.png "Memory Usage overview page")
 ::: moniker-end
 
 ### <a name="BKMK_Memory_Usage_snapshot_views"></a> Memory Usage snapshots
