@@ -22,13 +22,13 @@ ms.custom: devdivchpfy22
 
 # How to: Install the Visual Studio Tools for Office runtime redistributable
 
-   Each computer that runs solutions created by using the Microsoft Office developer tools in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], must install the Visual Studio 2010 Tools for Office runtime. The runtime is installed automatically when you install [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], and Microsoft Office. For more information, see [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md).
+   Each computer that runs solutions created by using the Visual Studio in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], must install the Visual Studio 2010 Tools for Office runtime. The runtime is installed automatically when you install [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], and Microsoft Office. For more information, see [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md).
 
 [!include[Add-ins note](includes/addinsnote.md)]
 
  You might need to follow the manual installation instructions in the following situations:
 
-- You need to install the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] on a server. For example, you want to use the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class to manage document-level solutions on a server.
+- You need to install the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] on a server.
 
 - You need to install the runtime on a computer that already has all the other prerequisites for Office solutions installed.
 
