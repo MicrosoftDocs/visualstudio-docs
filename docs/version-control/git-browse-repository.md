@@ -78,6 +78,25 @@ Selecting **Compare with Current Branch** opens the compare branches experience 
 > If you prefer an inline diff, you can use the diff configuration options gear and switch to an inline diff view.
 > :::image type="content" source="media/vs-2022/git-diff-configuration-options.png" alt-text="Diff configuration options":::
 
+## Checkout commits
+Checking out a commit can be beneficial in multiple ways. For example, it allows you to go back to a previous point in your repository’s history where you can run or test your code. It can also be helpful if you would like to review code from a remote branch (a colleague’s branch, for example). That way you don’t need to create a local branch if you are not planning on contributing to it. In this case, you can just checkout the tip of the remote branch that you would like to review.
+
+:::image type="content" source="media/vs-2022/git-checkout-commit-illustration.png" alt-text="Checkout commit illustration":::
+
+To checkout a previous commit in Visual Studio, open the **Git Repository** window, right click on the commit you would like to go back to and select **checkout (–detach)**. Visual Studio shows a confirmation dialog explaining that by checking out a commit you will be in a detached HEAD state. Meaning that the HEAD of your repository is going to point directly to a commit instead of a branch.
+
+:::image type="content" source="media/vs-2022/git-checkout-commit-entrypoints.gif" alt-text="Checkout commit entry points":::
+
+Now that you are in a detached head state, feel free to run and test your code or even explore and commit changes. When you are done exploring and want to go back to your branch, you can choose to discard your changes by checking out an existing branch or choose to keep your changes by **[creating a new branch](git-create-branch.md)** first.
+
+> [!IMPORTANT]
+> Commits created in a detached head state are not associated with any branch and may be garbage collected by Git after you checkout a branch. That is why to keep your changes, it is recommended to create a new branch before checking out a branch. For example, commits C5 and C6 will be garbage collected if we check out Main without creating a new branch.
+> :::image type="content" source="media/vs-2022/git-detached-head-commits-illustration.png" alt-text="Detached head commits illustration":::
+> To learn more about the detached head state view the following Git documentation: [Detached Head](https://git-scm.com/docs/git-checkout#_detached_head)
+
+Checking out the tip of a remote branch can be helpful if you would like to quickly review a pull request and evaluate the latest updates. To do that in Visual Studio, first make sure to fetch and get the latest updates from your remote repository. Then right click on the remote branch you would like to review and select **Checkout Tip Commit**.
+:::image type="content" source="media/vs-2022/git-checkout-tip-commit.png" alt-text="Checkout tip commit" lightbox="media/vs-2022/git-checkout-tip-commit.png":::
+
 ## Next steps
 
 To continue your journey, see [Manage Git repositories in Visual Studio](git-manage-repository.md).
