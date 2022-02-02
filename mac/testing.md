@@ -6,8 +6,9 @@ ms.topic: conceptual
 helpviewer_keywords:
 - testing tools [Visual Studio for Mac]
 - unit tests [Visual Studio for Mac]
-ms.author: jomatthi
 author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ---
 # Testing tools in Visual Studio for Mac
 

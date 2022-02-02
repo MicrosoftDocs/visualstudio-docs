@@ -1,18 +1,20 @@
 ---
-title: "Docker tutorial - Part 9: Image layering"
+title: "Docker tutorial - Part 9: Image layering / Yarn"
 description: How to examine and manage image layers in Docker images.
-ms.date: "08/06/2021"
-author: nebuk89
-ms.author: ghogen
+ms.prod: vs-code
+ms.topic: tutorial
+ms.author: mikemort
+author: BigMorty
 manager: jmartens
-ms.technology: vs-docker
-ms.custom: "contperf-fy22q1"
+ms.reviewer: "nebuk89, ghogen"
+ms.custom: “docker-team-owned”
+ms.date: 08/06/2021
 
-ms.topic: conceptual
-ms.workload:
-  - "azure"
+# Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---
-# Image layering
+
+
+# Image layering & Yarn
 
 Did you know that you can look at what makes up an image? Using the `docker image history` command, you can see the command that was used to create each layer within an image.
 

@@ -3,8 +3,8 @@ title: Unable to activate my Enterprise Mobility + Security (EMS) benefit
 description: I'm unable to activate my Enterprise Mobility + Security (EMS) benefit included with my Visual Studio subscription? 
 ms.topic: include
 ms.assetid: 104e6ef4-5bb1-4f26-af7c-a6925e3665c7
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 8/14/2020
 user.type: subscriber
 tags: benefit, ems

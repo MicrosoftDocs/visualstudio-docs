@@ -32,7 +32,7 @@ devenv SolutionName /Build [SolnConfigName [/Project ProjName [/ProjectConfig Pr
 
 - *SolutionName*
 
-  Required. The full path and name of the solution file.
+  Required. The path and name of the solution file, relative to the solution's directory.
 
 - *SolnConfigName*
 

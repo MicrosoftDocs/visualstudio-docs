@@ -3,8 +3,8 @@ title: How do I assign a subscription?
 description: Super admin or admin is looking for help on how to add a single user.
 ms.topic: include
 ms.assetid: bd97b69d-f07e-43aa-b6a0-82c4633b8d88
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 06/01/2021
 user.type: admin
 tags: assign

@@ -532,7 +532,7 @@ Features that allow you to inspect variables are one of the most useful features
 
 1. Press **F11** twice to run the `Console.WriteLine` method.
 
-1. With the debugger paused in the `SendMessage` method call, use the mouse to grab the yellow arrow (the execution pointer) on the left and move move it up one line, back to `Console.WriteLine`.
+1. With the debugger paused in the `SendMessage` method call, use the mouse to grab the yellow arrow (the execution pointer) on the left and move it up one line, back to `Console.WriteLine`.
 
 1. Press **F11**.
 

@@ -131,7 +131,7 @@ The following example is sufficient for the test to be discoverable in **Test Ex
 
 ```cpp
 #define BOOST_TEST_MODULE MyTest
-#include <boost/test/included/unit_test.hpp\> //single-header
+#include <boost/test/included/unit_test.hpp> //single-header
 #include "../MyProgram/MyClass.h" // project being tested
 #include <string>
 

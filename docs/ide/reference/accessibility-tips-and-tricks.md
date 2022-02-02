@@ -1,13 +1,13 @@
 ---
 title: "Accessibility tips and tricks for Visual Studio"
 description: "Learn more about tips and tricks that can help make the Visual Studio integrated development environment (IDE) more accessible for everyone to use, including people with disabilities."
-ms.date: 11/03/2021
+ms.date: 02/01/2022
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
 ms.assetid: 6b491d88-f79e-4686-8841-857624bdcfda
-author: anandmeg
-ms.author: meghaanand
+author: TerryGLee
+ms.author: tglee
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
@@ -86,16 +86,36 @@ When a notification appears in the IDE, here's how you can access the Notificati
 
 1. Use either the **Tab** key or the arrow keys to select a notification.
 
-## Use the Sound applet to set build and breakpoint cues
+## Use the Sound dialog box to set build and breakpoint cues
 
-You can use the Sound applet in Windows to assign a sound to Visual Studio program events. Specifically, you can assign sounds to the following program events:
+You can use the Sound dialog box in Windows to assign a sound to Visual Studio program events. Specifically, you can assign sounds to the following program events:
 
 * Breakpoint hit
 * Build canceled
 * Build failed
 * Build succeeded
 
-Here's how:
+Here's how to add sounds to program events in either Windows 11 or Windows 10.
+
+### Windows 11
+
+1. Select the Start button on a computer running Windows 11, and then in the **Search** box, type **Change system sounds**.
+
+    :::image type="content" source="media/change-system-sounds-windows-11.png" alt-text="Screenshot of the Search box in Windows 11.":::
+
+1. From the search results, select the Control Panel option for **Change system sounds**. (Alternatively, select the **Open** icon in the right panel of the search results.)
+
+    :::image type="content" source="media/select-change-system-sounds-windows-11.png" alt-text="Screenshot of the 'Change system sounds' search results in Windows 11.":::
+
+1. In the **Sound** dialog box, click the **Sounds** tab.
+
+1. In **Program Events**, scroll to **Microsoft Visual Studio**, and then select the sounds that you want to apply to the events that you choose.
+
+    :::image type="content" source="media/system-sounds-dialog-windows-11-.png" alt-text="Screenshot of the Sounds tab of the Sound dialog box in Windows 11.":::
+
+1. Click **OK**.
+
+### Windows 10
 
 1. In the **Search** box on a computer running Windows 10, type **Change system sounds**.
 
@@ -111,7 +131,7 @@ Here's how:
 
 1. In **Program Events**, scroll to **Microsoft Visual Studio**, and then select the sounds that you want to apply to the events that you choose.
 
-   ![Sounds tab of the Sound applet in Windows 10](media/sound-applet.png "Sounds tab of the Sound applet in Windows 10")
+   ![Sounds tab of the Sound dialog box in Windows 10](media/sound-applet.png "Sounds tab of the Sound dialog box in Windows 10")
 
 1. Click **OK**.
 

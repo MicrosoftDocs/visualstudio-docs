@@ -4,8 +4,8 @@ description: Visual Studio provides a tailored editing experience for R while re
 ms.date: 11/05/2018
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-rtvs
 ms.workload:

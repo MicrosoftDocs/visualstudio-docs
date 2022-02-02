@@ -2,7 +2,7 @@
 title: How to add an app.config file to a project
 description: Learn how to add an app.config file to a C# project so you can customize how the common language runtime locates and loads assembly files.
 ms.custom: SEO-VS-2020
-ms.date: 11/20/2020
+ms.date: 01/12/2022
 ms.topic: how-to
 dev_langs:
 - CSharp
@@ -26,6 +26,8 @@ When you build your project, the development environment automatically copies yo
 
 ## To add an application configuration file to a C# project
 
+::: moniker range="vs-2017"
+
 1. On the menu bar, choose **Project** > **Add New Item**.
 
      The **Add New Item** dialog box appears.
@@ -35,6 +37,24 @@ When you build your project, the development environment automatically copies yo
 1. In the **Name** text box, enter a name, and then choose the **Add** button.
 
      A file named *app.config* is added to your project.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. In **Solution Explorer**, right-click the project node, and then select **Add** > **New Item**.
+
+     The **Add New Item** dialog box appears.
+
+1. Expand **Installed** > **Visual C# Items**.
+
+1. In the middle pane, select the **Application Configuration File** template.
+
+1. Select the **Add** button.
+
+     A file named *App.config* is added to your project.
+
+::: moniker-end
 
 ## See also
 
