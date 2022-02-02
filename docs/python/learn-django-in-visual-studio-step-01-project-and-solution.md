@@ -31,11 +31,11 @@ In this tutorial, you learn how to:
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
-- Create a basic Django project in a Git repository using the "Blank Django Web Project" template (step 1)
-- Create a Django app with one page and render that page using a template (step 2)
-- Serve static files, add pages, and use template inheritance (step 3)
-- Use the Django Web Project template to create an app with multiple pages and responsive design (step 4)
-- Authenticate users (step 5)
+- Create a basic Django project in a Git repository using the "Blank Django Web Project" template (step 1).
+- Create a Django app with one page and render that page using a template (step 2).
+- Serve static files, add pages, and use template inheritance (step 3).
+- Use the Django Web Project template to create an app with multiple pages and responsive design (step 4).
+- Authenticate users (step 5).
 ::: moniker-end
 
 ## Prerequisites
@@ -141,7 +141,7 @@ Because you selected the **Create new Git repository** in the **New Project** di
 ::: moniker-end
 
 ::: moniker range="vs-2022"
-In this step, you'll familiarize yourself with Visual Studio's Git controls and the **Team Explorer**. With the **Team Explorer** window, you'll work with the source control.
+In this step, you'll familiarize yourself with Visual Studio's Git controls and **Team Explorer**. With **Team Explorer** window, you'll work with the source control.
 
 1. To commit the project to your local source control, push **Add to Source Control** command at the bottom corner of the Visual Studio main window and select **Git** option. This action takes you to **Create Git repository** window, where you can create and push a new repository.
 
