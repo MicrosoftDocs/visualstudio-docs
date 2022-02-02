@@ -80,3 +80,7 @@ Continue with the tutorial!
 
 > [!div class="nextstepaction"]
 > [The application](your-application.md)
+
+Some sources:
++ [Docker Cloud Integration](https://github.com/docker/compose-cli)
++ [Examples](https://github.com/docker/awesome-compose)
