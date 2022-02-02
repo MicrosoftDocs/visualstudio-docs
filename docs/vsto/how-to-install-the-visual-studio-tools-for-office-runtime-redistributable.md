@@ -1,6 +1,6 @@
 ---
-title: "How to: Install the Visual Studio Tools for Office runtime redistributable"
-description: Learn how you can install the Microsoft Visual Studio 2010 Tools for Office runtime redistributable.
+title: "How to: Install the Visual Studio Tools for Office Runtime Redistributable"
+description: Learn how you can install the Microsoft Visual Studio 2010 Tools for Office Runtime Redistributable.
 titleSuffix: ""
 
 ms.date: "01/25/2022"
@@ -20,7 +20,7 @@ ms.workload:
 ms.custom: devdivchpfy22
 ---
 
-# How to: Install the Visual Studio Tools for Office runtime redistributable
+# How to: Install the Visual Studio Tools for Office Runtime Redistributable
 
    Each computer that runs solutions created by using the Visual Studio in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], must install the Visual Studio 2010 Tools for Office runtime. The runtime is installed automatically when you install [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], and Microsoft Office. For more information, see [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md).
 
@@ -49,7 +49,7 @@ ms.custom: devdivchpfy22
 
      You can download these setup files from [Visual Studio 2010 Tools for Office runtime](https://www.microsoft.com/download/details.aspx?id=56961). The prerequisites for the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] match the prerequisites for the .NET Framework.
 
-     The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] includes language packs. If your installation of Windows is set to a language other than English, you can display runtime messages in the same language that you use for Windows. Similarly, if you install the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] and then run your solutions on installations of Windows with a language other than English, runtime messages will appear in the same language as Windows. In some cases, you might need additional language packs. For example, you might need additional language packs if your copy of Windows uses more than one language setting. Alternatively, you can switch to another language after you've already installed the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]. You can find language packs at [Microsoft Visual Studio 2010 Tools for the Microsoft Office system (version 4.0 runtime) language pack](https://www.microsoft.com/download/details.aspx?id=54246).
+     The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] includes language packs. If your installation of Windows is set to a language other than English, you can display runtime messages in the same language that you use for Windows. Similarly, if you install the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]. Then run your solutions on installations of Windows with a language other than English, runtime messages will appear in the same language as Windows. In some cases, you might need more language packs. For example, you might need extra language packs if your copy of Windows uses more than one language setting. Alternatively, you can switch to another language after you've already installed the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]. You can find language packs at [Microsoft Visual Studio 2010 Tools for the Microsoft Office system (version 4.0 runtime) language pack](https://www.microsoft.com/download/details.aspx?id=54246).
 
 ## See also
 
