@@ -1,5 +1,5 @@
 ---
-title: How Visual Studio makes source control easy
+title:  How Visual Studio makes source control easy with Git
 titleSuffix: ''
 description: Learn how to use Git & GitHub in Visual Studio to track changes to your code and revert them if you need to.
 ms.date: 11/08/2021
@@ -11,7 +11,7 @@ ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ---
 
-# How Visual Studio makes source control easy
+#  How Visual Studio makes source control easy with Git
 
 Have you ever wished you could go back to a previously working version of your code? Do you find yourself manually storing copies of your code in different locations as a backup? Source control makes it possible to track changes you make to your code over time so you can both track your progress and revert to specific versions. Visual Studio makes it easy to work with Git, which is the most widely used modern version control system.
 
