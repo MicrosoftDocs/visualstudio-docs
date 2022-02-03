@@ -1,5 +1,5 @@
 ---
-title: Push to a remote in Visual Studio
+title: Push to a remote branch in Visual Studio
 titleSuffix: ""
 description: Push to a remote in Visual Studio by using Git or Azure DevOps.
 ms.date: 11/10/2021
@@ -10,7 +10,7 @@ ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ---
-# Push to a remote in Visual Studio
+# Push from Visual Studio to a remote branch in GitHub
 
 After you've authenticated to GitHub, Visual Studio can improve your GitHub workflow. One of those improvements is the ability to push (also known as publishing) a local project straight to GitHub with a single click. The final stage in a simple Git workflow is to push changes to your remote.
 

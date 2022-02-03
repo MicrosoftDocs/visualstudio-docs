@@ -1,5 +1,5 @@
 ---
-title: Create a repo in Visual Studio
+title: Create a GitHub repo in Visual Studio
 titleSuffix: ""
 description: Create a repo in Visual Studio by using Git, or browse to an Azure DevOps repo.
 ms.date: 02/02/2022
@@ -10,15 +10,14 @@ ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ---
-# Create a repo in Visual Studio
+# Create a Git repository from Visual Studio
 
-Visual Studio makes it easy to clone a repo right from the IDE. Here's how.
+Visual Studio makes it easy to create a repo right from the IDE. Here's how.
 
 ## Prerequisites
 
 To follow this article, you'll need:
 + [Visual Studio installed](../install/install-visual-studio.md)
-
 + [A GitHub user account](git-create-github-account.md)
 
 ## Create a GitHub repo
