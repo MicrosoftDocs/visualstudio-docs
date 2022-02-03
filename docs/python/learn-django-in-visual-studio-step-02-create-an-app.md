@@ -2,7 +2,7 @@
 title: Learn Django tutorial in Visual Studio step 2, views and page template
 titleSuffix: ""
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically steps of creating an app and using views and templates.
-ms.date: 01/18/2022
+ms.date: 02/03/2022
 ms.custom: devdivchpfy22
 ms.topic: tutorial
 author: rjmolyneaux
@@ -61,7 +61,7 @@ Using either method, create an app with the name "HelloDjangoApp". Now, the "Hel
 | **apps.py** | A Python file that defines a configuration class for the app (see below, after this table). |
 | **models.py** | Models are data objects, identified by functions, through which views interact with the app's underlying database (see step 6). Django provides the database connection layer so that apps don't need to concern themselves with those details. The *models.py* file is a default place in which to create your models, and initially contains only the statement, `from django.db import models`. |
 | **tests.py** | A Python file that contains the basic structure of unit tests. |
-| **views.py** | Views are what you typically think of as web pages, which take an HTTP request and return an HTTP response. Views render as HTML and the web browsers know how to display. However, a view doesn't necessarily need to be visible (like an intermediate form). A view is defined by a Python function whose responsibility is to render the HTML to send to the browser. The *views.py* file is a default place in which to create views, and initially contains only the statement, `from django.shortcuts import render`. |
+| **views.py** | Views are what you typically think of as web pages, which take an HTTP request and return an HTTP response. Views typically render as HTML that web browsers know how to display, but a view doesn't necessarily have to be visible (like an intermediate form). A view is defined by a Python function whose responsibility is to render the HTML to send to the browser. The *views.py* file is a default place in which to create views, and initially contains only the statement, `from django.shortcuts import render`. |
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
@@ -92,7 +92,7 @@ Answer: Running the **Add** > **Django app** command or using **Add** > **New It
 
 ## Step 2-2: Run the app from the Django project
 
-At this point, if you run the project again in Visual Studio (using the toolbar button or **Debug** > **Start Debugging**), you'll still see the default page. No app content will appear because you need to define an app-specific page and add the app to the Django project:
+At this point, if you run the project again in Visual Studio (using the toolbar button or **Debug** > **Start Debugging**), you'll still see the default page. No app content appears because you need to define an app-specific page and add the app to the Django project:
 
 1. In the *HelloDjangoApp* folder, modify the *views.py* file to define a view named "index":
 
@@ -174,7 +174,7 @@ Now, run the project again to see a message like "**Hello Django!** on Monday 16
 
 ## Step 2-4: Render a view using a page template
 
-Generating HTML in code works fine for small pages. However, as pages get more sophisticated you need to maintain the static HTML parts of your page (along with references to CSS and JavaScript files) as "page templates." You can then insert the dynamic, code-generated content to the page templates. In the previous section, only the date and time from the `now.strftime` call was dynamic, which means all the other content can be placed in a page template.
+Generating HTML in code works fine for small pages. But, as pages get more sophisticated you need to maintain the static HTML parts of your page (along with references to CSS and JavaScript files) as "page templates." You can then insert the dynamic, code-generated content to the page templates. In the previous section, only the date and time from the `now.strftime` call was dynamic, which means all the other content can be placed in a page template.
 
 A Django page template is a block of HTML that contains multiple replacement tokens called "variables." The variables are delineated by `{{` and `}}`, for example, `{{ content }}`. Django's template module then replaces variables with dynamic content that you provide in code.
 
@@ -231,7 +231,7 @@ The following steps demonstrate the use of page templates:
 
 1. Run the project and observe the output. You should see a similar message as in step 2-2, indicating that the template works.
 
-    Observe, however, that the HTML you used in the `content` property renders only as plain text because the `render` function automatically escapes the HTML. Automatic escape prevents accidental vulnerabilities to injection attacks. Developers often gather input from one page and use it as a value in another through a template placeholder. Escaping also serves as a reminder that it's best to keep the HTML in the page template and out of the code. Fortunately, it's simple to create more variables where needed. For example, change the *index.html* file with *templates* to match the following markup. The following markup adds a page title and keeps all the formatting in the page template:
+    Observe, that the HTML you used in the `content` property renders only as plain text because the `render` function automatically escapes the HTML. Automatic escape prevents accidental vulnerabilities to injection attacks. Developers often gather input from one page and use it as a value in another through a template placeholder. Escaping also serves as a reminder that it's best to keep the HTML in the page template and out of the code. Fortunately, it's simple to create more variables where needed. For example, change the *index.html* file with *templates* to match the following markup. The following markup adds a page title and keeps all the formatting in the page template:
 
     ```html
     <html>
@@ -244,7 +244,7 @@ The following steps demonstrate the use of page templates:
     </html>
     ```
 
-    Then, to provide values for all the variables in the page template, write the `index` view function as follows:
+    Then, to provide values for all the variables in the page template, write the `index` view function as specified here:
 
     ```python
     def index(request):
@@ -276,7 +276,7 @@ Answer: Usually, templates are maintained in separate HTML files. You can also u
 
 ### Question: Templates must use the .html file extension?
 
-Answer: The *.html* extension for page template files is entirely optional as you identify the exact relative path to the file in the second argument to the `render` function. However, Visual Studio (and other editors) provides the features like code completion and syntax coloration with *.html* files, which outweighs the fact that the page templates aren't strictly HTML.
+Answer: The *.html* extension for page template files is entirely optional as you identify the exact relative path to the file in the second argument to the `render` function. But, Visual Studio (and other editors) provides the features like code completion and syntax coloration with *.html* files, which outweighs the fact that the page templates aren't strictly HTML.
 
 In fact, when you're working with a Django project, Visual Studio automatically detects the HTML file that has a Django template and provides certain autocomplete features. For example, when you start typing a Django page template comment, `{#`, Visual Studio automatically gives you the closing `#}` characters. The **Comment Selection** and **Uncomment Selection** commands (on the **Edit** > **Advanced** menu and on the toolbar) also use the template comments instead of HTML comments.
 
