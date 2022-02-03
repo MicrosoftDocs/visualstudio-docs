@@ -233,6 +233,6 @@
     - name: Report a Problem
       href: report-a-problem.md
     - name: Developer Community guidelines
-      href: /docs/ide/developer-community-guidelines.md
+      href: /visualstudio/ide/developer-community-guidelines
     - name: Developer Community data privacy
-      href: /docs/ide/developer-community-privacy.md
+      href: /visualstudio/ide/developer-community-privacy
