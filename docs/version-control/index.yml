@@ -1,10 +1,10 @@
 ### YamlMime:Landing
 
-title: Visual Studio version control documentation # < 60 chars
+title: Visual Studio version control docs # < 60 chars
 summary: Share your code from within Visual Studio by using source control technologies such as Git and GitHub. # < 160 chars
 
 metadata:
-  title: Version control & source control with Git in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
+  title: Version control & source control with Git docs # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Use version / source control technologies in Visual Studio. You can share, integrate, and manage your code releases in Git & GitHub without leaving your codebase.
   ms.topic: landing-page
   ms.date: 02/02/2022
@@ -34,7 +34,7 @@ landingContent:
             url: git-create-repository.md
             
   # Card
-  - title: Day-to-day workflow
+  - title: Innerloop dev workflow
     linkLists:
       - linkListType: how-to-guide
         links:
