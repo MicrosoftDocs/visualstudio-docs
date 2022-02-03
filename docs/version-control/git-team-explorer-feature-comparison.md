@@ -9,7 +9,7 @@ ms.author: tglee
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-monikerRange: "<=vs-2019"
+monikerRange: "vs-2019"
 ---
 # Side-by-side comparison of Git and Team Explorer
 
