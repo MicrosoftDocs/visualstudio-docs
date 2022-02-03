@@ -126,7 +126,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** field. From this window, you can enable Docker support and add authentication support. The drop-down menu for **Authentication Type** has the following four options:
     - **None**. No authentication.
-    - **Individual accounts**. These are stored in a local or Azure-based database.
+    - **Individual accounts**. These accounts are stored in a local or Azure-based database.
     - **Microsoft identity platform**. This option uses Active Directory, Azure AD, or Microsoft 365 for authentication.
     - **Windows**. Suitable for intranet applications.
 
@@ -148,7 +148,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
       After you apply the language, platform, and project type filters, select the **ASP.NET Core Web App** template, and then select **Next**.
 
-   :::image type="content" source="media/vs-2022/csharp-create-new-project-aspnet-core.png" border="false" alt-text="Screenshot shows the ASP.NET Core Web App project template selected and highlighted on the create a new project page..":::
+   :::image type="content" source="media/vs-2022/csharp-create-new-project-aspnet-core.png" border="false" alt-text="Screenshot shows the ASP.NET Core Web App project template selected and highlighted on the Create a new project page.":::
 
    > [!NOTE]
    > If you don't see the **ASP.NET Core Web App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, found at the bottom of the list of templates,  select the **Install more tools and features** link.
@@ -167,7 +167,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 1. In the **Additional information** window, verify that **.NET 6.0** appears in the **Target Framework** field. From this window, you can enable Docker support and add authentication support. The drop-down menu for **Authentication Type** has the following four options:
     - **None**. No authentication.
-    - **Individual accounts**. These are stored in a local or Azure-based database.
+    - **Individual accounts**. These accounts are stored in a local or Azure-based database.
     - **Microsoft identity platform**. This option uses Active Directory, Azure AD, or Microsoft 365 for authentication.
     - **Windows**. Suitable for intranet applications.
 
@@ -240,7 +240,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
    ![Screenshot shows the About page in your web app.](media/csharp-aspnet-razor-browser-page-about.png)
 
-1. Return to Visual Studio, and then press **Shift+F5** to stop debugging. This also closes the project in the browser window.
+1. Return to Visual Studio, and then press **Shift+F5** to stop debugging. This action closes the project in the browser window.
 
 1. In Visual Studio, select **About.cshtml**. Then, delete the word **another** and replace it with **file and directory**.
 
@@ -248,7 +248,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. Select **About.cshtml.cs**. Then, clean up the `using` directives at the top of the file by using the following shortcut:
 
-   Mouseover or select any of the greyed out `using` directives. A [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Select the light bulb, and then select **Remove Unnecessary Usings**.
+   Mouseover or select a greyed out `using` directives. A [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Select the light bulb, and then select **Remove Unnecessary Usings**.
 
    ![Screenshot shows Remove Unnecessary Usings highlighted.  It's below the Quick Actions light bulb icon.](media/csharp-aspnet-razor-remove-unnecessary-usings.png)
 
@@ -337,7 +337,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
    ![Screenshot shows the MyCoreApp Privacy page with the following text: Use this page to detail your site's privacy policy.](media/vs-2019/csharp-aspnet-browser-page-privacy.png)
 
-1. Return to Visual Studio, and then press **Shift+F5** to stop debugging. This also closes the project in the browser window.
+1. Return to Visual Studio, and then press **Shift+F5** to stop debugging. This action closes the project in the browser window.
 
 1. In Visual Studio, open **Privacy.cshtml** for editing. Next, delete the words **Use this page to detail your site's privacy policy** and replace it with **This page is under construction as of @ViewData["TimeStamp"]**.
 
@@ -345,7 +345,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. Now, let's make a code change. Select **Privacy.cshtml.cs**. Next, clean up the `using` directives at the top of the file by using the following shortcut:
 
-   Mouseover or select any of the greyed out `using` directives. A [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Select the light bulb, and then select **Remove unnecessary usings**.
+   Mouseover or select a greyed out `using` directives. A [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Select the light bulb, and then select **Remove unnecessary usings**.
 
    ![Screenshot shows the Privacy . c s h t m l file in the Visual Studio code editor with the Quick Actions tooltip exposed for a greyed out using directive.](media/vs-2019/csharp-aspnet-remove-unnecessary-usings.png)
 
@@ -396,19 +396,19 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
  1. Expand the **Pages** folder.
 
-     :::image type="content" source="media/vs-2022/csharp-aspnet-solution-explorer-pages.png" alt-text="Screenshot shows the contents of the Pages folder in the the Solution Explorer in Visual Studio.":::
+     :::image type="content" source="media/vs-2022/csharp-aspnet-solution-explorer-pages.png" alt-text="Screenshot shows the contents of the Pages folder in the Solution Explorer in Visual Studio.":::
 
  1. Select the **Index.cshtml** file, and view in the code editor.
 
-     :::image type="content" source="media/vs-2022/csharp-aspnet-index-cshtml.png" alt-text="Screenshot shows the Index . c s h t m l file open in the Visual Studio code editor.":::
+     :::image type="content" source="media/vs-2022/csharp-aspnet-index-cshtml.png" alt-text="Screenshot shows the Index.cshtml file open in the Visual Studio code editor.":::
 
  1. Each .cshtml file has an associated code file. To open the code file in the editor, expand the **Index.cshtml** node in Solution Explorer, and select the **Index.cshtml.cs** file.
 
-     :::image type="content" source="media/vs-2022/csharp-aspnet-choose-index-cshtml.png" alt-text="Screenshot shows Index . c s h t m l file selected in the Solution Explorer in Visual Studio.":::
+     :::image type="content" source="media/vs-2022/csharp-aspnet-choose-index-cshtml.png" alt-text="Screenshot shows Index.cshtml file selected in the Solution Explorer in Visual Studio.":::
 
  1. View the **Index.cshtml.cs** file in the code editor.
 
-     :::image type="content" source="media/vs-2022/csharp-aspnet-index-cshtml-editing.png" alt-text="Screenshot shows the Index . c s h t m l . c s file open in the Visual Studio code editor.":::
+     :::image type="content" source="media/vs-2022/csharp-aspnet-index-cshtml-editing.png" alt-text="Screenshot shows the Index.cshtml.cs file open in the Visual Studio code editor.":::
 
  1. The project contains a **wwwroot** folder that is the root for your website. Expand the folder to view its contents.
 
@@ -437,17 +437,17 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-browser-page-privacy.png" alt-text="Screenshot shows the MyCoreApp Privacy page with the following text: Use this page to detail your site's privacy policy.":::
 
-1. Return to Visual Studio, and then press **Shift+F5** to stop debugging. This also closes the project in the browser window.
+1. Return to Visual Studio, and then press **Shift+F5** to stop debugging. This action closes the project in the browser window.
 
 1. In Visual Studio, open **Privacy.cshtml** for editing. Next, delete the words **Use this page to detail your site's privacy policy** and in its place, add the words **This page is under construction as of @ViewData["TimeStamp"]**.
 
-   :::image type="content" source="media/vs-2022/csharp-aspnet-privacy-cshtml-code-changed.png" alt-text="Screenshot shows the Privacy . c s h t m l file open in the Visual Studio code editor with the updated text.":::
+   :::image type="content" source="media/vs-2022/csharp-aspnet-privacy-cshtml-code-changed.png" alt-text="Screenshot shows the Privacy.cshtml file open in the Visual Studio code editor with the updated text.":::
 
 1. Now, let's make a code change. Select **Privacy.cshtml.cs**. Then, clean up the `using` directives at the top of the file by selecting the following shortcut:
 
-   Mouseover or select any of the greyed out `using` directives. A [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Select the light bulb, and then select **Remove unnecessary usings**.
+   Mouseover or select a greyed out `using` directives. A [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Select the light bulb, and then select **Remove unnecessary usings**.
 
-   :::image type="content" source="media/vs-2022/csharp-aspnet-remove-unnecessary-usings.png" alt-text="Screenshot shows the Privacy . c s h t m l file in the Visual Studio code editor with the Quick Actions tooltip open and Preview changes highlighted.":::
+   :::image type="content" source="media/vs-2022/csharp-aspnet-remove-unnecessary-usings.png" alt-text="Screenshot shows the Privacy.cshtml file in the Visual Studio code editor with the Quick Actions tooltip open and Preview changes highlighted.":::
 
    Now select **Preview changes** to see what will change.
 
@@ -458,7 +458,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 1. Next, create a string for the current date that is formatted for your culture or region by using the [DateTime.ToString](xref:System.DateTime.ToString%2A) method.
 
    - The first argument for the method specifies how the date should be displayed. This example uses the format specifier (`d`) which indicates the short date format.
-   - The second argument is the [CultureInfo](/dotnet/api/system.globalization.cultureinfo) object that specifies the culture or region for the date. This argument determines, among other things, the language of any words in the date, and the type of separators used.
+   - The second argument is the [CultureInfo](/dotnet/api/system.globalization.cultureinfo) object that specifies the culture or region for the date. The second argument determines, among other things, the language of any words in the date, and the type of separators used.
 
 Change the body of the `OnGet()` method to the following code:
 
@@ -470,7 +470,7 @@ Change the body of the `OnGet()` method to the following code:
    }
    ```
 
-1. Notice that a wavy underline appears under **CultureInfo**. The wavy underline appear because this type isn't in scope.
+1. Notice that a wavy underline appears under **CultureInfo**. The wavy underline appears because this type isn't in scope.
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-add-new-onget-method.png" alt-text="Screenshot shows an error mark, in the form of a wavy underline, for CultureInfo in the Visual Studio code editor.":::
 
@@ -478,9 +478,9 @@ Change the body of the `OnGet()` method to the following code:
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-error-list.png" alt-text="Screenshot shows the Error List toolbar in Visual Studio with CultureInfo listed, and is missing a using directive.":::
 
-1. Let's fix this. In the code editor, place your cursor on the line that contains the error, and then choose the Quick Actions light bulb in the left margin. Then, from the drop-down menu, choose **using System.Globalization;** to add this directive to the top of your file and resolve the errors.
+1. Let's fix this error. In the code editor, place your cursor on the line that contains the error, and then choose the Quick Actions light bulb in the left margin. Then, from the drop-down menu, choose **using System.Globalization;** to add this directive to the top of your file and resolve the errors.
 
-   :::image type="content" source="media/vs-2022/csharp-aspnet-add-usings.png" alt-text="Screenshot shows the Quick Actions options from it's drop-down menu with a mouseover on using System.Globalization directive":::
+   :::image type="content" source="media/vs-2022/csharp-aspnet-add-usings.png" alt-text="Screenshot shows the Quick Actions options from its drop-down menu with a mouseover on using System.Globalization directive":::
 
 1. Press **F5** to open your project in the web browser.
 
@@ -492,25 +492,9 @@ Change the body of the `OnGet()` method to the following code:
 
 ::: moniker-end
 
-## Quick answers FAQ
-
-Here's a quick FAQ to highlight some key concepts.
-
-### What is C#?
-
-[C#](/dotnet/csharp/tour-of-csharp/) is a type-safe and object-oriented programming language that's designed to be both robust and easy to learn.
-
-### What is ASP.NET Core?
-
-ASP.NET Core is an open-source and cross-platform framework for building internet-connected applications, such as web apps and services. ASP.NET Core apps can run on either .NET Core or the .NET Framework. You can develop and run your ASP.NET Core apps cross-platform on Windows, Mac, and Linux. ASP.NET Core is open source at [GitHub](https://github.com/aspnet/home).
-
-### What is Visual Studio?
-
-Visual Studio is an integrated development suite of productivity tools for developers. Think of it as a program you can use to create programs and applications.
-
 ## Next steps
 
-Congratulations on completing this tutorial! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To learn more about creating a web app or website with C# and ASP.NET, continue with the following tutorial:
+Congratulations on completing this tutorial! We hope you enjoyed learning about C#, ASP.NET Core, and the Visual Studio IDE. To learn more about creating a web app or website with C# and ASP.NET, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
 > [Create a Razor Pages web app with ASP.NET Core](/aspnet/core/tutorials/razor-pages/?view=aspnetcore-2.1&preserve-view=true)
