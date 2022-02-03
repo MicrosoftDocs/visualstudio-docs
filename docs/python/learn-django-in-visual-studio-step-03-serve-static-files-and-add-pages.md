@@ -33,9 +33,9 @@ In this step, you learn how to:
 
 As you develop a Django app, you usually add many Python, HTML, CSS, and JavaScript files. For each file type (files like *web.config* that you might need for deployment), Visual Studio provides convenient [item templates](python-item-templates.md) to get you started.
 
-To view available templates, go to **Solution Explorer**, right-click the folder in which you want to create the item, and then select **Add** > **New Item**:
+To view available templates, go to **Solution Explorer**, right-click the folder in which you want to create the item, and then select **Add** > **New Item**.
 
-    :::image type="content" source="media/django/step03-add-new-item-dialog.png" alt-text="Add new item dialog in Visual Studio.":::
+:::image type="content" source="media/django/step03-add-new-item-dialog.png" alt-text="Add new item dialog in Visual Studio.":::
 
 To use a template, select the desired template, specify a name for the file, and then select **Add**. Adding an item in this manner automatically adds the file to your Visual Studio project and marks the changes for source control.
 
