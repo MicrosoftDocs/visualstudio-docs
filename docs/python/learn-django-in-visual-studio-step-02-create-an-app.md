@@ -1,5 +1,5 @@
 ---
-title: Learn Django tutorial in Visual Studio step 2 with views and page template
+title: Learn Django tutorial in Visual Studio step 2, views and page template
 titleSuffix: ""
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically steps of creating an app and using views and templates.
 ms.date: 01/18/2022
@@ -72,9 +72,9 @@ Using either method, create an app with the name "HelloDjangoApp". Now, the "Hel
 | **templates** | A folder for Django page templates that contains a single *index.html* file. This file is placed in the folder named same as the app name. (In Visual Studio 2017 15.7 and earlier, the file is placed directly under *templates* and step 2-4 instructs you to create the subfolder.) Templates are blocks of HTML into which views can add information to dynamically render a page. Page template "variables," such as `{{ content }}` in *index.html*, are placeholders for dynamic values as explained later in this article (step 2). Usually, Django apps create a namespace for their templates by placing them in a subfolder that matches the app name. |
 | **admin.py** | The Python file in which you extend the app's administrative interface, which is used to view and edit data in a database. Initially, this file contains only the statement, `from django.contrib import admin`. By default, Django includes a standard administrative interface through entries in the Django project's *settings.py* file. To turn on the interface, you can uncomment the existing entries in *urls.py* file. |
 | **apps.py** | A Python file that defines a configuration class for the app (see below, after this table). |
-| **models.py** | Models are data objects, identified by functions, through which views interact with the app's underlying database. Django provides the database connection layer so that the apps don't concern themselves with the models details. The *models.py* file has a default place to create your models. Initially, this file contains only the statement, `from django.db import models`. |
+| **models.py** | Models are data objects, identified by functions, through which views interact with the app's underlying database. Django provides the database connection layer so that the apps don't concern themselves with the models details. The *models.py* file is a default place where you create your models. Initially, this file contains only the statement, `from django.db import models`. |
 | **tests.py** | A Python file that contains the basic structure of unit tests. |
-| **views.py** | Views are similar to web pages, which take an HTTP request and returns an HTTP response. Usually, views render as HTML and the web browsers know how to display, but a view doesn't necessarily have to be visible (like an intermediate form). A view is defined by a Python function whose responsibility is to render the HTML to the browser. The *views.py* file has a default place to create views. Initially, this file contains only the statement, `from django.shortcuts import render`. |
+| **views.py** | Views are similar to web pages, which take an HTTP request and returns an HTTP response. Usually, views render as HTML and the web browsers know how to display, but a view doesn't necessarily have to be visible (like an intermediate form). A view is defined by a Python function whose responsibility is to render the HTML to the browser. The *views.py* file is a default place where you create your views. Initially, this file contains only the statement, `from django.shortcuts import render`. |
 ::: moniker-end
 
 When you use the name "HelloDjangoApp," the contents of the *apps.py* file appears as:
@@ -123,7 +123,7 @@ At this point, if you run the project again in Visual Studio (using the toolbar 
 
 ### Commit to source control
 
-Now that you've tested the code changes successfully, you can review and commit to the source control. In later steps, when this tutorial reminds you to commit to source control again, you can refer to this section.
+After making changes to your code and testing successfully, you can review and commit to the source control. In later steps, when this tutorial reminds you to commit to source control again, you can refer to this section.
 
 1. Select the changes button along the bottom of Visual Studio (circled below), to navigate to **Team Explorer**.
 
@@ -282,11 +282,11 @@ In fact, when you're working with a Django project, Visual Studio automatically 
 
 ### Question: When I run the project, I see an error that the template can't be found. What's wrong?
 
-Answer: If you see errors that the template can't be found, ensure that you've added the app to the Django project's *settings.py* in the `INSTALLED_APPS` list. Without that entry, Django won't know what to look in the app's *templates* folder.
+Answer: If you see errors that the template can't be found, ensure that you have added the app to the Django project's *settings.py* in the `INSTALLED_APPS` list. Without that entry, Django won't know what to look in the app's *templates* folder.
 
 ### Question: Why is template namespacing important?
 
-Answer: When Django looks for a template referred to in the `render` function, it uses the first file that matches the relative path. If you've multiple Django apps in the same project with same folder structures for templates, it's likely that one app will unintentionally use a template from another app. To avoid such errors, always create a subfolder under an app's *templates* folder that matches the name of the app to avoid any duplication.
+Answer: When Django looks for a template referred to in the `render` function, it uses the first file that matches the relative path. If you have multiple Django apps in the same project with same folder structures for templates, it's likely that one app will unintentionally use a template from another app. To avoid such errors, always create a subfolder under an app's *templates* folder that matches the name of the app to avoid any duplication.
 
 ## Next steps
 
