@@ -9,9 +9,9 @@ ms.author: tglee
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-monikerRange: "<=vs-2019"
+monikerRange: "vs-2019"
 ---
-# Side-by-side comparison of Git and Team Explorer
+# Compare the Git experience to Team Explorer in Visual Studio 2019
 
 We launched the first version of a new Git experience in Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/). This new experience helps reduce context switching with a simple **Git Changes** window that includes common Git tasks. It also includes a screen-wide **Git Repository** window for more advanced Git operations, such as branch management and repository browsing.
 
