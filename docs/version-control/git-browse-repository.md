@@ -14,7 +14,7 @@ ms.technology: vs-ide-general
 
 The **Git Changes** window provides a seamless way to interact with Git while coding without having to switch away from your code. But there are times when it makes more sense to focus on your Git repository. For example, you might need to get a good picture of what your team has been working on or maybe compare two commits to investigate a bug.
 
-While this article reference sGit repositories, Azure DevOps repositories are also supported. 
+While this article references GitHub repositories, Azure DevOps repositories are also supported. 
 
 ## Browse through local and remote branches
 
