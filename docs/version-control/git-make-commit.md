@@ -1,7 +1,7 @@
 ---
-title: Make a commit in Visual Studio
+title: Make a git commit in Visual Studio
 titleSuffix: ""
-description: Make a commit in Visual Studio by using Git or Azure DevOps.
+description: Make a git commit in Visual Studio by using Git or Azure DevOps.
 ms.date: 11/10/2021
 ms.topic: how-to
 author: TerryGLee
@@ -10,7 +10,7 @@ ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ---
-# Make a commit in Visual Studio
+# Make a Git commit in Visual Studio
 
 The core part of any Git workflow is modifying files and committing the changes in those files.  While this article references GitHub repositories, Azure DevOps repositories are also supported. 
 
