@@ -17,6 +17,8 @@ ms.technology: vs-ide-general
 
 Git is the default version control experience in Visual Studio. We continue to build out the feature set and iterate on it based on your feedback. For more info about a recent feature update along with a link to survey where you can share your feedback on it, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
 
+While the articles in this section reference Git repositories, Azure DevOps repositories are also supported. 
+
 ## Learn more about Git
 
 Git is the most widely used modern version control system, so whether you're a professional developer or if you’re learning how to code, Git can be very useful to you. If you're new to Git, the [https://git-scm.com/](https://git-scm.com/) website is a good place to start. To learn about using Git and GitHub in Visual Studio with open-source projects, sign up for the Git learning series on the [Visual Studio and GitHub better together](https://visualstudio.microsoft.com/vs/github/) page.
