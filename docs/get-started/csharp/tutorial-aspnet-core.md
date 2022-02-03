@@ -1,21 +1,19 @@
 ---
-title: "Tutorial: Get started with C# and ASP.NET Core"
-titleSuffix: ""
-description: "Learn how to create an ASP.NET Core web app in Visual Studio with C#, step-by-step."
-ms.custom: "vs-acquisition, get-started"
-ms.date: 02/02/2022
-ms.technology: vs-ide-general
-ms.prod: visual-studio-windows
-ms.topic: tutorial
-ms.devlang: CSharp
+title: "Tutorial: Create a C# ASP.NET Core web app in Visual Studio"
+description: In this tutorial, create a web app in Visual Studio with C# and ASP.NET Core.
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-dev_langs:
-  - CSharp
+ms.technology: vs-ide-general
+ms.topic: tutorial
+ms.date: 02/03/2022
+ms.prod: visual-studio-windows
 ms.workload:
   - "aspnet"
   - "dotnetcore"
+dev_langs:
+  - "CSharp"
+ms.custom: "vs-acquistion, get-started"
 ---
 # Tutorial: Get started with C# and ASP.NET Core in Visual Studio
 
@@ -116,7 +114,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
    >
    > Next, in the Visual Studio Installer, select **ASP.NET and web development**.
    >
-   > ![Screenshot shows the .NET Core cross-platform development workload in the Visual Studio Installer.](../../get-started/media/aspnet-core-web-dev-workload.png)
+   > ![Screenshot shows the dot NET Core cross-platform development workload in the Visual Studio Installer.](../../get-started/media/aspnet-core-web-dev-workload.png)
    >
    > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Next, select **Continue** to install the workload.
 
@@ -126,7 +124,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** field. From this window, you can enable Docker support and add authentication support. The drop-down menu for **Authentication Type** has the following four options:
     - **None**. No authentication.
-    - **Individual accounts**. These accounts are stored in a local or Azure-based database.
+    - **Individual accounts**. These authentications are stored in a local or Azure-based database.
     - **Microsoft identity platform**. This option uses Active Directory, Azure AD, or Microsoft 365 for authentication.
     - **Windows**. Suitable for intranet applications.
 
@@ -167,7 +165,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 1. In the **Additional information** window, verify that **.NET 6.0** appears in the **Target Framework** field. From this window, you can enable Docker support and add authentication support. The drop-down menu for **Authentication Type** has the following four options:
     - **None**. No authentication.
-    - **Individual accounts**. These accounts are stored in a local or Azure-based database.
+    - **Individual accounts**. These authentications are stored in a local or Azure-based database.
     - **Microsoft identity platform**. This option uses Active Directory, Azure AD, or Microsoft 365 for authentication.
     - **Windows**. Suitable for intranet applications.
 
@@ -193,19 +191,19 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
  1. Expand the **Pages** folder, and then expand **About.cshtml**.
 
-     ![Screenshot shows the About . c s h t m l file selected in the Solution Explorer in Visual Studio.](media/csharp-aspnet-razor-solution-explorer-aboutcshtml.png)
+     ![Screenshot shows the About dot c s h t m l file selected in the Solution Explorer in Visual Studio.](media/csharp-aspnet-razor-solution-explorer-aboutcshtml.png)
 
  1. View the **About.cshtml** file in the code editor.
 
-     ![Screenshot shows the text of the About . c s h t m l file in the Visual Studio code editor.](media/csharp-aspnet-razor-aboutcshtml-mycoreapp-code.png)
+     ![Screenshot shows the text of the About dot c s h t m l file in the Visual Studio code editor.](media/csharp-aspnet-razor-aboutcshtml-mycoreapp-code.png)
 
  1. Select the **About.cshtml.cs** file.
 
-     ![Screenshot shows the About . c s h t m l . c s file selected in the Solution Explorer in Visual Studio.](media/csharp-aspnet-razor-solution-explorer-aboutcshtmlcs.png)
+     ![Screenshot shows the About dot c s h t m l dot c s file selected in the Solution Explorer in Visual Studio.](media/csharp-aspnet-razor-solution-explorer-aboutcshtmlcs.png)
 
  1. View the **About.cshtml.cs** file in the code editor.
 
-     ![Screenshot shows the content of the About . c s h t m l . c s file in the Visual Studio code editor.](media/csharp-aspnet-razor-aboutcshtmlcs-mycoreapp-code.png)
+     ![Screenshot shows the content of the About dot c s h t m l dot c s file in the Visual Studio code editor.](media/csharp-aspnet-razor-aboutcshtmlcs-mycoreapp-code.png)
 
  1. The project contains a **wwwroot** folder that is the root for your website. Expand the folder to view its contents.
 
@@ -215,7 +213,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
  1. The project also contains configuration files that manage the web app at run time. The default application [configuration](/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. However, you can override these settings by using **appsettings.Development.json**. Expand the **appsettings.json** node to view the **appsettings.Development.json** file.
 
-     ![Screenshot shows appsettings.json selected and expanded in the Solution Explorer in Visual Studio.](media/csharp-aspnet-razor-solution-explorer-appsettingsjson.png)
+     ![Screenshot shows appsettings dot j son selected and expanded in the Solution Explorer in Visual Studio.](media/csharp-aspnet-razor-solution-explorer-appsettingsjson.png)
 
 ## Run, debug, and make changes
 
@@ -244,7 +242,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. In Visual Studio, select **About.cshtml**. Then, delete the word **another** and replace it with **file and directory**.
 
-    ![Screenshot shows the content in the About . c s h t m l file in the Visual Studio code editor.](media/csharp-aspnet-razor-aboutcshtml-mycoreapp-code-changed.png)
+    ![Screenshot shows the content in the About dot c s h t m l file in the Visual Studio code editor.](media/csharp-aspnet-razor-aboutcshtml-mycoreapp-code-changed.png)
 
 1. Select **About.cshtml.cs**. Then, clean up the `using` directives at the top of the file by using the following shortcut:
 
@@ -274,13 +272,13 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. Let's fix this error. In the code editor, place your cursor on either line that contains the error, and then select the Quick Actions light bulb in the left margin. Then, from the drop-down menu, select **using System;** to add this directive to the top of your file and resolve the errors.
 
-   ![Screenshot shows the Quick Actions options from it's drop-down menu with a mouseover on using System.](media/csharp-aspnet-razor-add-usings.png)
+   ![Screenshot shows the Quick Actions options from its drop-down menu with a mouseover on using System.](media/csharp-aspnet-razor-add-usings.png)
 
 1. Press **Ctrl**+**S** to save your changes, and then press **F5** to open your project in the web browser.
 
 1. At the top of the website, select **About** to view your changes.
 
-   ![Screenshot shows the About page in your web page with the new changes.](media/csharp-aspnet-razor-browser-page-about-changed.png)
+   ![Screenshot shows the About page in your web page with the your changes.](media/csharp-aspnet-razor-browser-page-about-changed.png)
 
 1. Close the web browser, press **Shift**+**F5** to stop debugging, and then close Visual Studio.
 
@@ -300,15 +298,15 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
  1. Select the **Index.cshtml** file, and view in the code editor.
 
-     ![Screenshot shows the Index . c s h t m l file open in the Visual Studio code editor.](media/vs-2019/csharp-aspnet-index-cshtml.png)
+     ![Screenshot shows the Index dot c s h t m l file open in the Visual Studio code editor.](media/vs-2019/csharp-aspnet-index-cshtml.png)
 
  1. Each .cshtml file has an associated code file. To open the code file in the editor, expand the **Index.cshtml** node in Solution Explorer, and select the **Index.cshtml.cs** file.
 
-     ![Screenshot shows Index . c s h t m l file selected in the Solution Explorer in Visual Studio.](media/vs-2019/csharp-aspnet-choose-index-cshtml.png)
+     ![Screenshot shows Index dot c s h t m l file selected in the Solution Explorer in Visual Studio.](media/vs-2019/csharp-aspnet-choose-index-cshtml.png)
 
  1. View the **Index.cshtml.cs** file in the code editor.
 
-     ![Screenshot shows the Index . c s h t m l . c s file open in the Visual Studio code editor.](media/vs-2019/csharp-aspnet-index-cshtml-editing.png)
+     ![Screenshot shows the Index . c s h t m l dot c s file open in the Visual Studio code editor.](media/vs-2019/csharp-aspnet-index-cshtml-editing.png)
 
  1. The project contains a **wwwroot** folder that is the root for your website. Expand the folder to view its contents.
 
@@ -318,7 +316,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
  1. The project also contains configuration files that manage the web app at run time. The default application [configuration](/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. However, you can override these settings by using **appsettings.Development.json**. Expand the **appsettings.json** file to view the **appsettings.Development.json** file.
 
-     ![Screenshot shows appsettings.json selected and expanded in the Solution Explorer in Visual Studio.](media/csharp-aspnet-razor-solution-explorer-appsettingsjson.png)
+     ![Screenshot shows appsettings dot j son selected and expanded in the Solution Explorer in Visual Studio.](media/csharp-aspnet-razor-solution-explorer-appsettingsjson.png)
 
 ## Run, debug, and make changes
 
@@ -341,13 +339,13 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. In Visual Studio, open **Privacy.cshtml** for editing. Next, delete the words **Use this page to detail your site's privacy policy** and replace it with **This page is under construction as of @ViewData["TimeStamp"]**.
 
-    ![Screenshot shows the Privacy . c s h t m l file open in the Visual Studio code editor with the updated text.](media/vs-2019/csharp-aspnet-privacy-cshtml-code-changed.png)
+    ![Screenshot shows the Privacy dot c s h t m l file open in the Visual Studio code editor with the updated text.](media/vs-2019/csharp-aspnet-privacy-cshtml-code-changed.png)
 
 1. Now, let's make a code change. Select **Privacy.cshtml.cs**. Next, clean up the `using` directives at the top of the file by using the following shortcut:
 
    Mouseover or select a greyed out `using` directives. A [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Select the light bulb, and then select **Remove unnecessary usings**.
 
-   ![Screenshot shows the Privacy . c s h t m l file in the Visual Studio code editor with the Quick Actions tooltip exposed for a greyed out using directive.](media/vs-2019/csharp-aspnet-remove-unnecessary-usings.png)
+   ![Screenshot shows the Privacy dot c s h t m l file in the Visual Studio code editor with the Quick Actions tooltip exposed for a greyed out using directive.](media/vs-2019/csharp-aspnet-remove-unnecessary-usings.png)
 
    Now select **Preview changes** to see what will change.
 
@@ -375,7 +373,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. Let's fix this error. In the code editor, place your cursor on the line that contains the error, and then select the Quick Actions light bulb in the left margin. Then, from the drop-down menu, select **using System;** to add this directive to the top of your file and resolve the errors.
 
-   ![Screenshot shows the Quick Actions options from it's drop-down menu with a mouseover on using System.](media/vs-2019/csharp-aspnet-add-usings.png)
+   ![Screenshot shows the Quick Actions options from its drop-down menu with a mouseover on using System.](media/vs-2019/csharp-aspnet-add-usings.png)
 
 1. Press **F5** to open your project in the web browser.
 
@@ -392,7 +390,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
  1. The project template creates a solution with a single ASP.NET Core project that is named **MyCoreApp**. Select the **Solution Explorer** tab to view its contents.
 
-     :::image type="content" source="media/vs-2022/csharp-aspnet-razor-solution-explorer-mycoreapp.png" alt-text="Screenshot shows the MyCoreApp project selected and it's content in the Solution Explorer in Visual Studio.":::
+     :::image type="content" source="media/vs-2022/csharp-aspnet-razor-solution-explorer-mycoreapp.png" alt-text="Screenshot shows the MyCoreApp project selected and its content in the Solution Explorer in Visual Studio.":::
 
  1. Expand the **Pages** folder.
 
