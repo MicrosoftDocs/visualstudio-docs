@@ -60,7 +60,7 @@ First, you'll create an ASP.NET Core project. The project type comes with all th
 
 2. From the top menu bar, select **File** > **New** > **Project**.
 
-3. In the **New Project** dialog box in the left pane, expand **Visual C#**, expand **Web** node, and then select **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**. Next, name the file **MyCoreApp** and select **OK**.
+3. In the **New Project** dialog box in the left pane, expand **Visual C#**, expand **Web** node, and then select **.NET Core**. In the middle pane, select **ASP.NET Core Web Application**. Next, name the file **MyCoreApp** and select **OK**.
 
    ![ASP.NET Core Web Application project template in the New Project dialog box in the Visual Studio IDE.](media/csharp-aspnet-choose-template-name-razor-mycoreapp-file.png)
 
@@ -82,7 +82,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 1. Cancel out of the **New Project** dialog box. Then, from the top menu bar, select **Tools** > **Get Tools and Features**.
 
-1. After the Visual Studio Installer launches, select the **ASP.NET and web development** workload, and then choose **Modify**. Visual Studio may have to close, while installing the selected workload.
+1. After the Visual Studio Installer launches, select the **ASP.NET and web development** workload, and select **Modify**. Visual Studio may have to close, while installing the selected workload.
 
 ### Add a project template
 
@@ -103,7 +103,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
    :::image type="content" source="../../get-started/media/vs-2019/create-new-project-dark-theme.png" alt-text="Screenshot shows the start window for Visual Studio. Create a new project option is highlighted.":::
 
-1. In the **Create a new project** window, select **C#** from the drop-down language list. Next, choose **Windows** from the platform list, and **Web** from the project types list.
+1. In the **Create a new project** window, select **C#** from the drop-down language list. Next, select **Windows** from the platform list, and **Web** from the project types list.
 
       After you apply the language, platform, and project type filters, select the **ASP.NET Core Web App** template, and then select **Next**.
 
@@ -155,7 +155,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
    >
    > :::image type="content" source="media/vs-2022/not-finding-what-looking-for.png" alt-text="Screenshot shows the Install more tools and features link that is part of the Not finding what you're looking for message.":::
    >
-   > Then, in the Visual Studio Installer, choose the **ASP.NET and web development** workload.
+   > Then, in the Visual Studio Installer, select the **ASP.NET and web development** workload.
    >
    > :::image type="content" source="media/vs-2022/aspnet-core-web-dev-workload.png" alt-text="Screenshot shows the ASP.NET and web development workload in the Visual Studio Installer.":::
    >
@@ -268,7 +268,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
    ![Screenshot shows error marks, in the form of wavy underlines, for Environment and String in the code editor.](media/csharp-aspnet-razor-add-new-on-get-method.png)
 
-    Open the **Error List** toolbar to see the same errors listed there. If you don't see the **Error List** toolbar, choose **View** > **Error List** from the top menu bar.
+    Open the **Error List** toolbar to see the same errors listed there. If you don't see the **Error List** toolbar, go to **View** > **Error List** from the top menu bar.
 
    ![Screenshot shows the Error List toolbar in Visual Studio with Environment and String listed.](media/csharp-aspnet-razor-error-list.png)
 
@@ -329,7 +329,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
      > [!NOTE]
      > If you get an error message that says **Unable to connect to web server 'IIS Express'**, close Visual Studio and then relaunch the program as an administrator. You can do this by right-clicking the Visual Studio icon from the Start Menu, and then selecting the **Run as administrator** option from the context menu.
      >
-     > You might also get a message that asks if you want to accept an IIS SSL Express certificate. To view the code in a web browser, choose **Yes**, and then choose **Yes** if you receive a follow-up security warning message.
+     > You might also get a message that asks if you want to accept an IIS SSL Express certificate. To view the code in a web browser, select **Yes**, and then select **Yes** if you receive a follow-up security warning message.
 
 1. Visual Studio launches a browser window. You should then see **Home** and **Privacy** pages in the menu bar.
 
@@ -396,7 +396,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
  1. Expand the **Pages** folder.
 
-     :::image type="content" source="media/vs-2022/csharp-aspnet-solution-explorer-pages.png" alt-text="Screenshot shows the contents of the Pages folder in the Solution Explorer in Visual Studio.":::
+     :::image type="content" source="media/vs-2022/csharp-aspnet-solution-explorer-pages.png" alt-text="Screenshot shows the contents of the Pages folder in the Solution Explorer.":::
 
  1. Select the **Index.cshtml** file, and view in the code editor.
 
@@ -429,7 +429,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
      > [!NOTE]
      > If you get an error message that says **Unable to connect to web server 'IIS Express'**, close Visual Studio and then relaunch the program as an administrator. You can do this by right-clicking the Visual Studio icon from the Start Menu, and then selecting the **Run as administrator** option from the context menu.
      >
-     > You might also get a message that asks if you want to accept an IIS SSL Express certificate. To view the code in a web browser, choose **Yes**, and then choose **Yes** if you receive a follow-up security warning message.
+     > You might also get a message that asks if you want to accept an IIS SSL Express certificate. To view the code in a web browser, select **Yes**, and then select **Yes** if you receive a follow-up security warning message.
 
 1. Visual Studio launches a browser window. You should then see **Home** and **Privacy** pages in the menu bar.
 
@@ -478,9 +478,9 @@ Change the body of the `OnGet()` method to the following code:
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-error-list.png" alt-text="Screenshot shows the Error List toolbar in Visual Studio with CultureInfo listed, and is missing a using directive.":::
 
-1. Let's fix this error. In the code editor, place your cursor on the line that contains the error, and then choose the Quick Actions light bulb in the left margin. Then, from the drop-down menu, choose **using System.Globalization;** to add this directive to the top of your file and resolve the errors.
+1. Let's fix this error. In the code editor, place your cursor on the line that contains the error, and then select the Quick Actions light bulb in the left margin. Then, from the drop-down menu, select **using System.Globalization;** to add this directive to the top of your file and resolve the errors.
 
-   :::image type="content" source="media/vs-2022/csharp-aspnet-add-usings.png" alt-text="Screenshot shows the Quick Actions options from its drop-down menu with a mouseover on using System.Globalization directive":::
+   :::image type="content" source="media/vs-2022/csharp-aspnet-add-usings.png" alt-text="Screenshot shows the Quick Actions options from its drop-down menu with a mouseover on System.Globalization directive.":::
 
 1. Press **F5** to open your project in the web browser.
 
