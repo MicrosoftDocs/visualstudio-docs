@@ -36,14 +36,14 @@ The Memory Usage tool can run [with or without the debugger](../profiling/runnin
 
 1. Under **Available Tools**, select **Memory Usage**, and then select **Start**.
 
-   ![Start a Memory Usage diagnostic session](../profiling/media/memory-usage_start_diagnostics-session.png "Start a Memory Usage diagnostic session")
+   ![Start a Memory Usage diagnostic session](../profiling/media/memory-usage-start-diagnostics-session.png "Start a Memory Usage diagnostic session")
 
 ### Monitor memory use
 
 When you start a diagnostic session, your app starts, and the **Diagnostic Tools** window displays a timeline graph of your app's memory use.
 
 ::: moniker range="<=vs-2019"
-![Screenshot of the Diagnostic Tools window in the Visual Studio Performance Profiler showing a timeline graph of the app's memory use.](../profiling/media/memuse__reportoverview.png "MEMUSE__ReportOverview")
+![Screenshot of the Diagnostic Tools window in the Visual Studio Performance Profiler showing a timeline graph of the app's memory use.](../profiling/media/memory-usage-report-overview.png "Memory Report Overview")
 ::: moniker-end
 
 ::: moniker range="vs-2022"
@@ -62,7 +62,7 @@ To collect snapshots, select **Take snapshot** when you want to capture the memo
 
 To stop a monitoring session without creating a report, just close the diagnostic window. To generate a report when you're done collecting or have taken snapshots, select **Stop Collection**.
 
-![Stop Collection](../profiling/media/memuse__stopcollection.png "Stop Collection")
+![Stop Collection](../profiling/media/memory-usage-stop-collection.png "Stop Collection")
 
 ## Memory Usage reports
 
@@ -83,14 +83,14 @@ The numbers in the **Snapshot** panes show the objects and bytes in memory when 
 The numbers are links that open detailed **Memory Usage** report views in new Visual Studio windows. A [snapshot details report](#snapshot-details-reports) shows the types and instances in one snapshot. A [snapshot difference (diff) report](#snapshot-difference-diff-reports) compares the types and instances in two snapshots.
 
 ::: moniker range="<=vs-2019"
-  ![Snapshot view links](../profiling/media/memuse__snapshotview_numbered.png "Snapshot view links")
+  ![Snapshot view links](../profiling/media/memory-usage-snapshot-view-numbered.png "Snapshot view links")
 
 |Image|Description|
 |-|-|
-|![Step 1](../profiling/media/procguid_1.png "ProcGuid_1")|The total number of bytes in memory when the snapshot was taken.<br /><br /> Select this link to display a snapshot details report sorted by the total size of the type instances.|
-|![Step 2](../profiling/media/procguid_2.png "ProcGuid_2")|The total number of objects in memory when the snapshot was taken.<br /><br /> Select this link to display a snapshot details report sorted by the count of instances of the types.|
-|![Step 3](../profiling/media/procguid_3.png "ProcGuid_3")|The difference between the total size of memory objects in this snapshot and the previous snapshot. <br /><br /> A positive number means the memory size of this snapshot is larger than the previous one, and a negative number means the size is smaller. **Baseline** means a snapshot is the first in a diagnostic session. **No Difference** means the difference is zero.<br /><br /> Select this link to display a snapshot diff report sorted by the difference in the total size of instances of the types.|
-|![Step 4](../profiling/media/procguid_4.png "ProcGuid_4")|The difference between the total number of memory objects in this snapshot and the previous snapshot.<br /><br /> Select this link to display a snapshot diff report. It’s sorted by the difference in the total count of instances of the types.|
+|![Step 1](../profiling/media/process-guide-1.png "Process Guide-1")|The total number of bytes in memory when the snapshot was taken. Select this link to display a snapshot details report sorted by the total size of the type instances.|
+|![Step 2](../profiling/media/process-guide-2.png "Process Guide-2")|The total number of objects in memory when the snapshot was taken. Select this link to display a snapshot details report sorted by the count of instances of the types.|
+|![Step 3](../profiling/media/process-guide-3.png "Process Guide-3")|The difference between the total size of memory objects in this snapshot and the previous snapshot. A positive number means the memory size of this snapshot is larger than the previous one, and a negative number means the size is smaller. **Baseline** means a snapshot is the first in a diagnostic session. **No Difference** means the difference is zero. Select this link to display a snapshot diff report sorted by the difference in the total size of instances of the types.|
+|![Step 4](../profiling/media/process-guide-4.png "Process Guide-4")|The difference between the total number of memory objects in this snapshot and the previous snapshot. Select this link to display a snapshot diff report. It’s sorted by the difference in the total count of instances of the types.|
 ::: moniker-end
 
 ::: moniker range="vs-2022"
@@ -98,10 +98,10 @@ The numbers are links that open detailed **Memory Usage** report views in new Vi
 
 |Image|Description|
 |-|-|
-|![Step 1](../profiling/media/process-guide-1.png "ProcGuid-1")|The total number of objects in memory when the snapshot was taken. Select this link to display a snapshot details report sorted by the count of instances of the types.|
-|![Step 2](../profiling/media/process-guide-2.png "ProcGuid-2")|The difference between the total number of memory objects in this snapshot and the previous snapshot. Select this link to display a snapshot diff report sorted by the difference in the total count of instances of the types.|
-|![Step 3](../profiling/media/process-guide-3.png "ProcGuid-3")|The total number of bytes in memory when the snapshot was taken.Select this link to display a snapshot details report sorted by the total size of the type instances.|
-|![Step 4](../profiling/media/process-guide-4.png "ProcGuid-4")|The difference between the total size of memory objects in this snapshot and the previous snapshot. A positive number means the memory size of this snapshot is larger than the previous one, and a negative number means the size is smaller. **Baseline** means a snapshot is the first in a diagnostic session. **No Difference** means the difference is zero. Select this link to display a snapshot diff report sorted by the difference in the total size of instances of the types.|
+|![Step 1](../profiling/media/process-guide-1.png "Process Guide-1")|The total number of objects in memory when the snapshot was taken. Select this link to display a snapshot details report sorted by the count of instances of the types.|
+|![Step 2](../profiling/media/process-guide-2.png "Process Guide-2")|The difference between the total number of memory objects in this snapshot and the previous snapshot. Select this link to display a snapshot diff report sorted by the difference in the total count of instances of the types.|
+|![Step 3](../profiling/media/process-guide-3.png "Process Guide-3")|The total number of bytes in memory when the snapshot was taken.Select this link to display a snapshot details report sorted by the total size of the type instances.|
+|![Step 4](../profiling/media/process-guide-4.png "Process Guide-4")|The difference between the total size of memory objects in this snapshot and the previous snapshot. A positive number means the memory size of this snapshot is larger than the previous one, and a negative number means the size is smaller. **Baseline** means a snapshot is the first in a diagnostic session. **No Difference** means the difference is zero. Select this link to display a snapshot diff report sorted by the difference in the total size of instances of the types.|
 ::: moniker-end
 
 ## Memory Usage snapshot reports
@@ -109,7 +109,7 @@ The numbers are links that open detailed **Memory Usage** report views in new Vi
 <a name="BKMK_Snapshot_report_trees"></a> When you select one of the snapshot links in the **Memory Usage** overview page, a snapshot report opens in a new page.
 
 ::: moniker range="<=vs-2019"
-![Memory Usage snapshot report](../profiling/media/memuse_snapshotreport_all.png "Memory Usage snapshot report")
+![Memory Usage snapshot report](../profiling/media/memory-usage-snapshot-report-all.png "Memory Usage snapshot report")
 ::: moniker-end
 
 ::: moniker range="vs-2022"
@@ -133,7 +133,7 @@ In the snapshot report:
 Many types in apps aren't required to app developers. The snapshot report filters can hide most of these types in the **Managed Memory** and **Paths to Root** trees.
 
 ::: moniker range="<=vs-2019"
-![Sort and filter options](../profiling/media/memuse_sortandfilter.png "MEMUSE_SortAndFilter")
+![Sort and filter options](../profiling/media/memory-usage-sort-and-filter.png "Memory Usage Sort and Filter")
 ::: moniker-end
 
 ::: moniker range="vs-2022"
@@ -151,7 +151,7 @@ Many types in apps aren't required to app developers. The snapshot report filter
  A snapshot details report describes one snapshot from a diagnostic session. To open the report, select the size or objects link in a snapshot pane.
 
 ::: moniker range="<=vs-2019"
- ![Links to snapshot report in a snapshot pane](../profiling/media/memuse_snapshotview_snapshotdetailslinks.png "Links to snapshot report in a snapshot pane")
+ ![Links to snapshot report in a snapshot pane](../profiling/media/memory-usage-snapshot-view-snapshot-details-links.png "Links to snapshot report in a snapshot pane")
 ::: moniker-end
 
 ::: moniker range="vs-2022"
@@ -165,7 +165,7 @@ Both links open the same report. The only difference is the starting sort order 
  The **Managed Memory** tree lists the types of objects that are held in memory. Expand a type name to view the 10 largest instances of the type, sorted by size. Select a type or instance to display the **Paths to Root** and **Referenced Objects** trees for the selected item.
 
 ::: moniker range="<=vs-2019"
- ![Managed Heap tree](../profiling/media/memuse__snapshotdetails_managedheaptree.png "Managed Heap tree")
+ ![Managed Heap tree](../profiling/media/memory-usage-snapshot-details-managed-heap-tree.png "Managed Heap tree")
 ::: moniker-end
 
 ::: moniker range="vs-2022"
@@ -178,7 +178,7 @@ The **Managed Memory** tree in a snapshot details report has the following colum
 |-|-|
 |**Object Type**|The name of the type or object instance.|
 |**Count**|The number of object instances of the type. **Count**  is always 1 for an instance.|
-|**Size (Bytes)**|For a type, the size of all instances of the type in the snapshot, less the size of objects contained in the instances.<br /><br /> For an instance, the size of the object, less the size of objects contained in the instance. |
+|**Size (Bytes)**|For a type, the size of all instances of the type in the snapshot, less the size of objects contained in the instances.For an instance, the size of the object, less the size of objects contained in the instance. |
 |**Inclusive Size (Bytes)**|The size of the instances of the type, or the size of a single instance, including the size of contained objects.|
 |**Module**|The module that contains the object.|
 
@@ -189,7 +189,7 @@ The **Paths to Root tree** shows the chain of objects that reference a type or i
 For a type in the **Paths to Root** tree, the number of objects that hold references to that type appears in the **Reference Count** column.
 
 ::: moniker range="<=vs-2019"
-![Paths to Root tree for types](../profiling/media/memuse_snapshotdetails_type_pathstoroottree.png "Paths to Root tree for types")
+![Paths to Root tree for types](../profiling/media/memory-usage-snapshot-details-type-paths-to-root-tree.png "Paths to Root tree for types")
 ::: moniker-end
 
 ::: moniker range="vs-2022"
@@ -201,7 +201,7 @@ For a type in the **Paths to Root** tree, the number of objects that hold refere
 The **Referenced Types** or **Referenced Objects** tree shows the objects that the selected type or instance references.
 
 ::: moniker range="<=vs-2019"
-![Referenced Objects tree for instances](../profiling/media/memuse_snapshotdetails_referencedobjects_instance.png "Referenced Objects tree for instances")
+![Referenced Objects tree for instances](../profiling/media/memory-usage-snapshot-details-referenced-objects-instance.png "Referenced Objects tree for instances")
 ::: moniker-end
 
 ::: moniker range="vs-2022"
@@ -214,7 +214,7 @@ A **Referenced Types** tree in a snapshot details report has the following colum
 |-|-|
 |**Object Type** or **Instance**|The name of the type or instance.|
 |**Reference Count**|For types, the number of object instances of the type.|
-|**Size (Bytes)**|For a type, the size of all instances of the type, less the size of objects contained in the type.<br /><br /> For an instance, the size of the object, less the size of objects contained in the object.|
+|**Size (Bytes)**|For a type, the size of all instances of the type, less the size of objects contained in the type. For an instance, the size of the object, less the size of objects contained in the object.|
 |**Inclusive Size (Bytes)**|The total size of the instances of the type, or the size of the instance, including the size of contained objects.|
 |**Module**|The module that contains the object.|
 
@@ -225,7 +225,7 @@ A snapshot difference (diff) report shows the changes between a primary snapshot
 Both links open the same report. The only difference is the starting sort order of the **Managed Memory** tree in the report. The size link sorts the report by the **Inclusive Size Diff (Bytes)** column. The objects link sorts the report by the **Count Diff** column. You can change the sort column or order after the report opens.
 
 ::: moniker range="<=vs-2019"
- ![Links to difference report in a snapshot pane](../profiling/media/memuse_snapshotview_snapshotdifflinks.png "Links to difference report in a snapshot pane")
+ ![Links to difference report in a snapshot pane](../profiling/media/memory-usage-snapshot-view-snapshot-diff-links.png "Links to difference report in a snapshot pane")
 ::: moniker-end
 
 ::: moniker range="vs-2022"
@@ -237,7 +237,7 @@ Both links open the same report. The only difference is the starting sort order 
  The **Managed Memory** tree lists the types of objects that are held in memory. You can expand a type name to view the 10 largest instances of the type, sorted by size. Select a type or instance to display the **Paths to Root** and **Referenced Objects** trees for the selected item.
 
 ::: moniker range="<=vs-2019"
- ![Managed Heap tree for a type in difference report](../profiling/media/memuse_snapshotdiff_type_heap.png "Managed Heap tree for a type in difference report")
+ ![Managed Heap tree for a type in difference report](../profiling/media/memory-usage-snapshot-diff-type-heap.png "Managed Heap tree for a type in difference report")
 ::: moniker-end
 
 ::: moniker range="vs-2022"
@@ -264,7 +264,7 @@ The **Paths to Root tree** shows the chain of objects that reference a type or i
 For a type in the **Paths to Root** tree, the number of objects that hold references to that type appears in the **Reference Count** column. The difference in count from the previous snapshot is in the **Reference Diff** column.
 
 ::: moniker range="<=vs-2019"
- ![Paths To Root tree in a diff report](../profiling/media/memuse_snapshotdiff_pathstoroot_instance_all.png "Paths To Root tree in a diff report")
+ ![Paths To Root tree in a diff report](../profiling/media/memory-usage-snapshot-diff-paths-to-root-instance-all.png "Paths To Root tree in a diff report")
 ::: moniker-end
 
 ::: moniker range="vs-2022"
@@ -276,7 +276,7 @@ For a type in the **Paths to Root** tree, the number of objects that hold refere
 The **Referenced Types** or **Referenced Objects** tree shows the objects that the selected type or instance references.
 
 ::: moniker range="<=vs-2019"
-![Referenced Types in a diff report](../profiling/media/memuse_snapshotdiff_referencedtypes.png "Referenced Types in a diff report")
+![Referenced Types in a diff report](../profiling/media/memory-usage-snapshot-diff-referenced-types.png "Referenced Types in a diff report")
 ::: moniker-end
 
 ::: moniker range="vs-2022"
