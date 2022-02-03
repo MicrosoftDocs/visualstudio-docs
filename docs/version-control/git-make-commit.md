@@ -14,7 +14,7 @@ ms.technology: vs-ide-general
 
 The core part of any Git workflow is modifying files and committing the changes in those files.
 
-While this article references Git repositories, Azure DevOps repositories are also supported. 
+While this article references GitHub repositories, Azure DevOps repositories are also supported. 
 
 Git tracks file changes in your repo as you work, and separates the files in your repo into three categories. These changes are equivalent to what you would see when you enter the `git status` command in the command line:
 
