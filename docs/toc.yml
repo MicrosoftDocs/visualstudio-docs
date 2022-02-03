@@ -299,8 +299,6 @@
       href: ide/outlining.md
     - name: Code generation and refactoring
       items:
-      - name: Generate and fix code
-        href: ide/code-generation-in-visual-studio.md
       - name: Code snippets
         items:
         - name: Use code snippets
