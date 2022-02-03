@@ -15,6 +15,8 @@ ms.technology: vs-ide-general
 
 Have you ever wished you could go back to a previously working version of your code? Do you find yourself manually storing copies of your code in different locations as a backup? Source control makes it possible to track changes you make to your code over time so you can both track your progress and revert to specific versions. Visual Studio makes it easy to work with Git, which is the most widely used modern version control system.
 
+While this article references GitHub repositories, Azure DevOps repositories are also supported. 
+
 ## A great place to start with Git & GitHub
 
 GitHub offers free and secured cloud code storage where you can store your code and access it from any device, anywhere. Visual Studio comes with first-class Git and GitHub functionality that makes it easy to use source control to manage your code and collaborate with others. Get started by adding your code to Git & GitHub with the following **Create a Git repository** dialog box. To do so, choose **Git** > **Create a Git repository** from the menu bar.
