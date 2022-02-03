@@ -1,7 +1,7 @@
 ---
-title: Manage a repo in Visual Studio
+title: Manage Git or DevOps repos in Visual Studio
 titleSuffix: ""
-description: Manage any Git repository in Visual Studio by using the Git Repository window.
+description: Manage any Git or Azure DevOps repository in Visual Studio by using the Git Repository window.
 ms.date: 11/10/2021
 ms.topic: how-to
 author: Taysser-Gherfal
