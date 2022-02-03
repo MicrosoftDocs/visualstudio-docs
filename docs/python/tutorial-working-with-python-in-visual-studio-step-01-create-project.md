@@ -63,12 +63,12 @@ This tutorial begins with a simple project containing a single, empty code file.
 
     (4) Also under the project is the **Python Environments** node. When expanded, you see the Python interpreters that are available to you. Expand an interpreter node to see the libraries that are installed into that environment (5).
 
-    Right-click any node or item in **Solution Explorer** to access a menu of applicable commands. For example, the **Rename** command allows you to change the name of any node or item, including the project and the solution.
+    Right-click any node or item in **Solution Explorer** to access a menu of applicable commands. For example, the **Rename** command let's you to change the name of any node or item, including the project and the solution.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-1. In Visual Studio, select **File** > **New** > **Project** or press **Ctrl**+**Shift**+**N**. The **Create a new project** screen appears, where you can search and browse templates across different languages.
+1. In Visual Studio, select **File** > **New** > **Project** or press **Ctrl**+**Shift**+**N**. The **Create a new project** screen displays, where you can search and browse templates across different languages.
    
 1. To view Python templates, search for *python*. Search is a great way to find a template when you can't remember its location in the languages tree.
    
@@ -94,11 +94,11 @@ This tutorial begins with a simple project containing a single, empty code file.
    
    - At the top level is the *solution*, which by default has the same name as your project **(1)**.
      
-     A solution, which appears as a *.sln* file on disk, is a container for one or more related projects. For example, if you write a C++ extension for your Python application, that C++ project can be in the same solution. The solution could also contain a project for a web service, and projects for dedicated test programs.
+     A solution, which is shown as a *.sln* file on disk, is a container for one or more related projects. For example, if you write a C++ extension for your Python application, that C++ project can be in the same solution. The solution could also contain a project for a web service, and projects for dedicated test programs.
    
-   - Your project, with the name you gave in the **Create a new project** dialog box, appears in bold **(2)**. On disk, the project is a *.pyproj* file in your project folder.
+   - Your project, with the name you gave in the **Create a new project** dialog box, displays in bold **(2)**. On disk, the project is a *.pyproj* file in your project folder.
    
-   - Under your project is source files, in this case only a single *.py* file **(3)**. Selecting a file displays its properties in the **Properties** window. Double-clicking a file opens it in whatever way is appropriate for that file.
+   - Under your project are source files, in this case only a single *.py* file **(3)**. Selecting a file displays its properties in the **Properties** window. Double-clicking a file opens it in whatever way is appropriate for that file.
    
    - Also under the project is the **Python Environments** node **(4)**. Expand the node to show the available Python interpreters.
    
