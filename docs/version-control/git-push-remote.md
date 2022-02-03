@@ -16,7 +16,7 @@ After you've authenticated to GitHub, Visual Studio can improve your GitHub work
 
 A remote is a safe place to store your code in the cloud. It's typically referred to as **origin/main** (or origin/master), where "origin" is the default name for a remote. For more information about this terminology, see the [Git Branching - Remote Branches](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches) page on the Git website.
 
-While this article references Git repositories, Azure DevOps repositories are also supported. 
+While this article references GitHub repositories, Azure DevOps repositories are also supported. 
 
 Here's how to push to a remote in Visual Studio.
 
