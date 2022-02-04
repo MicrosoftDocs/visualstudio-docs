@@ -133,8 +133,7 @@ Administrative updates may return the following return codes: 
 | 1007       | The Visual Studio Installer is not installed.                                                                                                                                                               |
 | 1008       | The **BaselineStickinessVersions2019** registry value is not in a readable format. |
 | 1009       | The Visual Studio instance is configured to use a layout, but the layout is missing packages to perform the update. |
-
-| 3010       | The system requires a reboot. The update may or may not have been applied. Reboot the computer and attempt the update again.                                                                                |
+| 3010       | The system requires a reboot. The update may or may not have been applied. Reboot the computer and attempt the update again.   |
 | 862968     | The update was successful, and a restart is recommended but not required. |
 | Other      | Error occurred attempting to apply the update. The update is not applied.                                                                                                                                   |
 
