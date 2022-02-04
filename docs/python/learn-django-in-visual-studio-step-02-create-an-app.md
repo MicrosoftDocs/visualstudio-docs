@@ -231,7 +231,7 @@ The following steps demonstrate the use of page templates:
 
 1. Run the project and observe the output. You should see a similar message as in step 2-2, indicating that the template works.
 
-    Observe, that the HTML you used in the `content` property renders only as plain text because the `render` function automatically escapes the HTML. Automatic escape prevents accidental vulnerabilities to injection attacks. Developers often gather input from one page and use it as a value in another through a template placeholder. Escaping also serves as a reminder that it's best to keep the HTML in the page template and out of the code. Fortunately, it's simple to create more variables where needed. For example, change the *index.html* file with *templates* to match the following markup. The following markup adds a page title and keeps all the formatting in the page template:
+    Observe, that the HTML you used in the `content` property renders only as plain text because the `render` function automatically escapes the HTML. Automatic escape prevents accidental vulnerabilities to injection attacks. Developers often gather input from one page and use it as a value in another through a template placeholder. Escaping also serves as a reminder that it's best to keep the HTML in the page template and out of the code. Also, it's simple to create more variables where needed. For example, change the *index.html* file with *templates* to match the following markup. The following markup adds a page title and keeps all the formatting in the page template:
 
     ```html
     <html>
@@ -282,7 +282,7 @@ In fact, when you're working with a Django project, Visual Studio automatically 
 
 ### Question: When I run the project, I see an error that the template can't be found. What's wrong?
 
-Answer: If you see errors that the template can't be found, ensure that you have added the app to the Django project's *settings.py* in the `INSTALLED_APPS` list. Without that entry, Django won't know what to look in the app's *templates* folder.
+Answer: If you see errors that the template can't be found, ensure that you've added the app to the Django project's *settings.py* in the `INSTALLED_APPS` list. Without that entry, Django won't know what to look in the app's *templates* folder.
 
 ### Question: Why is template namespacing important?
 
