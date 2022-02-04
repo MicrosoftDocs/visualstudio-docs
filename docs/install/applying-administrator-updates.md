@@ -55,7 +55,7 @@ The title of each administrator update describes both the applicable version r
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-* **Visual Studio 2022 version 17.0.3 update** classified as "Security Update" will apply to any Visual Studio 2022 edition on the client that is on either the [Current channel or the 17.0 LTSC channel](/visualstudio/install/update-visual-studio?view=vs-2022#configure-source-location-of-updates-1), and bring it **up** to the 17.0.3 version.  
+* **Visual Studio 2022 version 17.0.3 update** classified as "Security Update" will apply to any Visual Studio 2022 edition on the client that is on either the [Current channel or the 17.0 LTSC channel](/visualstudio/install/update-visual-studio?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1), and bring it **up** to the 17.0.3 version.  
 * **Visual Studio 2022 version 17.1.0 update** classified as a "Feature Pack" will apply to Visual Studio 2022 editions licensed for enterprise use on the client that is on the Current channel, and it will update it to the 17.1.0 version. 
 * **Visual Studio 2022 version 17.1.2 update** classified as simply "Updates" will apply to Visual Studio 2022 editions licensed for enterprise use on the client that is on the Current channel, and it will update it to the 17.1.2 version. 
 * * **Visual Studio 2022 version 17.2.7 update** classified as "Security Update" will apply to any Visual Studio 2022 edition on the client that is on either the Current channel or the 17.2 LTSC channel, and bring it **up** to the 17.2.7 version. 
