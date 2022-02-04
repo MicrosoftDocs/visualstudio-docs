@@ -64,7 +64,7 @@ Over the course of these steps you create a single Visual Studio solution that c
   - **Git for Windows** on the **Individual components** tab under **Code tools**.
 ::: moniker-end
 
-Flask project templates are included with all earlier versions of Python Tools for Visual Studio, though details may differ from what's discussed in this tutorial.
+Flask project templates are included with all earlier versions of Python Tools for Visual Studio, though details might differ from what's discussed in this tutorial.
 
 Python development isn't presently supported in Visual Studio for Mac. On Mac and Linux, use the [Python extension in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial).
 
@@ -124,7 +124,7 @@ Because you selected the **Create new Git repository** in the **New Project** di
 
     ![Team Explorer window showing available Git repository options for source control](media/flask/step01-team-explorer.png)
 
-    You can choose whichever service you want for your own projects. This tutorial shows the use of GitHub, where the completed sample code for the tutorial is maintained in the [Microsoft/python-sample-vs-learning-flask](https://github.com/Microsoft/python-sample-vs-learning-flask) repository.
+    You can select whichever service you want for your own projects. This tutorial shows the use of GitHub, where the completed sample code for the tutorial is maintained in the [Microsoft/python-sample-vs-learning-flask](https://github.com/Microsoft/python-sample-vs-learning-flask) repository.
 
 1. When selecting any of the **Publish** controls, **Team Explorer** prompts you for more information. For example, when publishing the sample for this tutorial, the repository itself had to be created first, in which case the **Push to Remote Repository** option was used with the repository's URL.
 
@@ -157,7 +157,7 @@ In this step, you familiarize yourself with Visual Studio's Git controls and the
 
     ![Team Explorer window showing available Git repository options for source control](media/flask/step-01-team-explorer.png)
 
-    You can choose whichever service you want for your own projects. This tutorial shows the use of GitHub, where the completed sample code for the tutorial is maintained in the [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django) repository.
+    You can select whichever service you want for your own projects. This tutorial shows the use of GitHub, where the completed sample code for the tutorial is maintained in the [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django) repository.
 
 1. When selecting any of the **Publish** controls, **Team Explorer** prompts you for more information. For example, when publishing the sample for this tutorial, the repository itself had to be created first, in which case, the **Push to Remote Repository** option was used with the repository's URL.
 
@@ -328,7 +328,7 @@ Answer: Yes. Expand the **Python Environments** node, right-click your virtual e
 
 ## Step 1-5: Run the project
 
-1. In Visual Studio, select **Debug** > **Start Debugging** (**F5**) or use the **Web Server** button on the toolbar (the browser you see may vary):
+1. In Visual Studio, select **Debug** > **Start Debugging** (**F5**) or use the **Web Server** button on the toolbar (the browser you see might vary):
 
     ![Run web server toolbar button in Visual Studio](media/tutorials-common/run-web-server-toolbar-button.png)
 
