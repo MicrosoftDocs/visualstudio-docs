@@ -22,7 +22,7 @@ You can and should periodically update all Visual Studio clients so that they re
 If the Visual Studio client was originally installed via a network layout, then most likely the client machine is part of a "managed environment" meaning that it is governed by a central administrative team and must adhere to organizational policies. To update client machines in a managed environment consider the questions below whose answers will inform how you should approach the update process. 
 
 -  Where are the updates coming from: a network layout or Microsoft hosted servers? And if the update is coming from a network layout, is the network layout prepared?
--  Is the update going to be initiated by the user, or is it an administrator initiated event? Remember that whoever performs the update must have administrator permissions.
+-  Is the update going to be initiated by the user, or is it an administrator initiated event? Remember that whoever performs the update must have administrator permissions on the client machine.
 
 ## Prepare the update source
 
