@@ -9,9 +9,9 @@ ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ---
-# Create a Git or Azure DevOps repository from Visual Studio
+# Create a Git repository from Visual Studio
 
-Visual Studio makes it easy to create a repo right from the IDE. Here's how.
+Visual Studio makes it easy to create a repo right from the IDE. And, you can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps. Or, you can work locally with no provider at all.  Here's how.
 
 ## Prerequisites
 
