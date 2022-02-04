@@ -1,5 +1,5 @@
 ---
-title: Create a GitHub or DevOps repo
+title: Create a Git repo
 description: Create a repo in Visual Studio by using Git, or browse to an Azure DevOps repo.
 ms.date: 02/02/2022
 ms.topic: how-to
