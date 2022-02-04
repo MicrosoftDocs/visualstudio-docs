@@ -1,6 +1,6 @@
 ---
 title: Create a branch
-description: Create a branch in Visual Studio by using Git or Azure DevOps.
+description: Create a branch for source control in Visual Studio with Git.
 ms.date: 11/10/2021
 ms.topic: how-to
 author: TerryGLee
@@ -9,7 +9,7 @@ ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ---
-# Create a branch in Visual Studio
+# Create a Git branch in Visual Studio
 
 It's easy to create a new branch in Visual Studio; all you have to do is base it off an existing branch.
 
