@@ -1,7 +1,7 @@
 ---
 title: Update a network-based installation
 description: Learn how to update a Visual Studio client that was installed from a network layout
-ms.date: 12/7/2021
+ms.date: 02/04/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
