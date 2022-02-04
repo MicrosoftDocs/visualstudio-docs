@@ -1,7 +1,7 @@
 ---
 title: Create a network-based installation
 description: Learn how to create a network install point for deploying Visual Studio within an enterprise.
-ms.date: 12/7/2021
+ms.date: 02/04/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
