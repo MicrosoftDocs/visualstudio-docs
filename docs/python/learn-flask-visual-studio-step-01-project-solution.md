@@ -23,6 +23,7 @@ Flask is called a "micro" framework because it doesn't directly provide features
 
 ::: moniker range="vs-2017"
 In this tutorial, you learn how to:
+
 - Create a basic Flask project in a Git repository using the "Blank Flask Web Project" template (step 1)
 - Create a Flask app with one page and render that page using a template (step 2)
 - Serve static files, add pages, and use template inheritance (step 3)
@@ -35,6 +36,7 @@ Over the course of these steps you create a single Visual Studio solution that c
 ::: moniker range=">=vs-2019"
 
 In this tutorial, you learn how to:
+
 - Create a basic Flask project in a Git repository using the "Blank Flask Web Project" template (step 1)
 - Create a Flask app with one page and render that page using a template (step 2)
 - Serve static files, add pages, and use template inheritance (step 3)
