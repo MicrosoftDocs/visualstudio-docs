@@ -19,7 +19,7 @@ ms.workload:
 
 [Flask](https://palletsprojects.com/p/flask/) is a lightweight Python framework for web applications that provides the basics for URL routing and page rendering.
 
-Flask is called a "micro" framework because it doesn't directly provide features like form validation, database abstraction, authentication, and so on. Such features are instead provided by special Python packages called Flask *extensions*. The extensions integrate seamlessly with Flask so that they appear as if they are part of Flask itself. For example, Flask itself doesn't provide a page template engine. Templating is provided by extensions such as Jinja and Jade, as demonstrated in this tutorial.
+Flask is called a "micro" framework because it doesn't directly provide features like form validation, database abstraction, authentication, and so on. Such features are instead provided by special Python packages called Flask *extensions*. The extensions integrate seamlessly with Flask so that they appear as if they're part of Flask itself. For example, Flask itself doesn't provide a page template engine. Templating is provided by extensions such as Jinja and Jade, as demonstrated in this tutorial.
 
 ::: moniker range="vs-2017"
 In this tutorial, you learn how to:
@@ -28,7 +28,7 @@ In this tutorial, you learn how to:
 - Create a Flask app with one page and render that page using a template (step 2)
 - Serve static files, add pages, and use template inheritance (step 3)
 - Use the Flask Web Project template to create an app with multiple pages and responsive design (step 4)
-- Use the Polls Flask Web Project template to create an polling app that uses a variety of storage options (Azure storage, MongoDB, or memory).
+- Use the Polls Flask Web Project template to create a polling app that uses various storage options (Azure storage, MongoDB, or memory).
 
 Over the course of these steps you create a single Visual Studio solution that contains three separate projects. You create the project using different Flask project templates that are included with Visual Studio. By keeping the projects in the same solution, you can easily switch back and forth between different files for comparison.
 ::: moniker-end
@@ -51,12 +51,14 @@ Over the course of these steps you create a single Visual Studio solution that c
 ## Prerequisites
 
 ::: moniker range="<=vs-2019"
+
 - Visual Studio 2017 or later on Windows with the following options:
   - The **Python development** workload (**Workload** tab in the installer). For instructions, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
   - **Git for Windows** and **GitHub Extension for Visual Studio** on the **Individual components** tab under **Code tools**.
 ::: moniker-end
 
 ::: moniker range="vs-2022"
+
 - Visual Studio 2022 on Windows with the following options:
   - The **Python development** workload (**Workload** tab in the installer). For instructions, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
   - **Git for Windows** on the **Individual components** tab under **Code tools**.
@@ -64,11 +66,12 @@ Over the course of these steps you create a single Visual Studio solution that c
 
 Flask project templates are included with all earlier versions of Python Tools for Visual Studio, though details may differ from what's discussed in this tutorial.
 
-Python development is not presently supported in Visual Studio for Mac. On Mac and Linux, use the [Python extension in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial).
+Python development isn't presently supported in Visual Studio for Mac. On Mac and Linux, use the [Python extension in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial).
 
 ## Step 1-1: Create a Visual Studio project and solution
 
 ::: moniker range="<=vs-2019"
+
 1. In Visual Studio, select **File** > **New** > **Project**, search for "Flask", and select the **Blank Flask Web Project** template. (The template is also found under **Python** > **Web** in the left-hand list.)
 
     ![New project dialog in Visual Studio for the Blank Flask Web Project](media/flask/step01-new-blank-project.png)
@@ -146,11 +149,9 @@ In this step, you familiarize yourself with Visual Studio's Git controls and the
 
     ![Git controls in the Visual Studio window](media/flask/step-01-git-controls.png)
 
-
 1. Select the Git changes button, and Visual Studio opens its **Team Explorer** window on the **Git Changes** page. Because the newly created project is already committed to source control automatically, you don't see any pending changes.
 
     ![Team Explorer window on the Git Changes page](media/flask/step-01-team-explorer-changes.png)
-    
 
 1. On the Visual Studio status bar, select the unpushed commits button (the up arrow with **2**) to open the **Synchronization** page in **Team Explorer**. Because you have only a local repository, the page provides easy options to publish the repository to different remote repositories.
 
@@ -173,7 +174,7 @@ In this step, you familiarize yourself with Visual Studio's Git controls and the
 
 ### Question: What are some advantages of using source control from the beginning of a project?
 
-Answer: First of all, using source control from the start, especially if you also use a remote repository, provides a regular offsite backup of your project. Unlike maintaining a project just on a local file system, source control also provides a complete change history and the easy ability to revert a single file or the whole project to a previous state. That change history helps determine the cause of regressions (test failures). Furthermore, source control is essential if multiple people are working on a project, as it manages overwrites and provides conflict resolution. Finally, source control, which is fundamentally a form of automation, sets you up well for automating builds, testing, and release management. It's really the first step in using DevOps for a project, and because the barriers to entry are so low, there's really no reason to not use source control from the beginning.
+Answer: Using source control from the start, especially if you also use a remote repository, provides a regular offsite backup of your project. Unlike maintaining a project just on a local file system, source control also provides a complete change history and the easy ability to revert a single file or the whole project to a previous state. That change history helps determine the cause of regressions (test failures). Source control is essential if multiple people are working on a project, because it manages overwrites and provides conflict resolution. Source control is fundamentally a form of automation, sets you up well for automating builds, testing, and release management. It's the first step in using DevOps for a project, and because the barriers to entry are so low, there's really no reason to not use source control from the beginning.
 
 For further discussion on source control as automation, see [The Source of Truth: The Role of Repositories in DevOps](/archive/msdn-magazine/2016/september/mobile-devops-the-source-of-truth-the-role-of-repositories-in-devops), an article in MSDN Magazine written for mobile apps that applies also to web apps.
 
@@ -257,7 +258,7 @@ Second, open a command window, navigate to the folder like *BasicProject* that c
 
 1. As noted earlier, the *requirements.txt* file specifies the Flask package dependency. The presence of this file is what invites you to create a virtual environment when first creating the project.
 
-1. The single *app.py* file contains three parts. First is an `import` statement for Flask, creating an instance of the `Flask` class, which is assigned to the variable `app`, and then assigning a `wsgi_app` variable (which is useful when deploying to a web host, but not used at present):
+1. The single *app.py* file contains three parts. First is an `import` statement for Flask, creating an instance of the `Flask` class, which is assigned to the variable `app`, and then assigning a `wsgi_app` variable (which is useful when deploying to a web host, but not used now):
 
     ```python
     from flask import Flask
@@ -333,7 +334,7 @@ Answer: Yes. Expand the **Python Environments** node, right-click your virtual e
 
 1. Either command assigns a random port number to the PORT environment variable, then runs `python app.py`. The code starts the app using that port within Flask's development server. If Visual Studio says **Failed to start debugger** with a message about having no startup file, right-click **app.py** in **Solution Explorer** and select **Set as Startup File**.
 
-1. When the server starts, you see a console window open that displays the server log. Visual Studio then automatically opens a browser to `http://localhost:<port>`, where you should see the message rendered by the `hello` function:
+1. When the server starts, you see a console window opens that displays the server log. Visual Studio then automatically opens a browser to `http://localhost:<port>`, where you should see the message rendered by the `hello` function:
 
     ![Flask project default view](media/flask/step01-first-run-success.png)
 
@@ -341,7 +342,7 @@ Answer: Yes. Expand the **Python Environments** node, right-click your virtual e
 
 ### Question: What's the difference between using the Debug menu commands and the server commands on the project's Python submenu?
 
-Answer: In addition to the **Debug** menu commands and toolbar buttons, you can also launch the server using the **Python** > **Run server** or **Python** > **Run debug server** commands on the project's context menu. Both commands open a console window in which you see the local URL (localhost:port) for the running server. However, you must manually open a browser with that URL, and running the debug server does not automatically start the Visual Studio debugger. You can attach a debugger to the running process later, if you want, using the **Debug** > **Attach to Process** command.
+Answer: In addition to the **Debug** menu commands and toolbar buttons, you can also launch the server using the **Python** > **Run server** or **Python** > **Run debug server** commands on the project's context menu. Both commands open a console window in which you see the local URL (localhost:port) for the running server. However, you must manually open a browser with that URL, and running the debug server doesn't automatically start the Visual Studio debugger. You can attach a debugger to the running process later, if you want, using the **Debug** > **Attach to Process** command.
 
 ## Next steps
 
