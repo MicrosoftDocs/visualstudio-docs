@@ -121,21 +121,21 @@ You can use one of the following methods to verify that the administrator update
 
 Administrative updates may return the following return codes:  
 
-| Error code | Definition                                                                                                                                                                                                  |
-|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0          | The administrative update was successfully installed.                                                                                                                                                       |
-| 1001       | Visual Studio Installer or a related setup process is running. The update is not applied.                                                                                                                   |
-| 1002       | Visual Studio Installer is paused. The update is not applied.                                                                                                                                               |
-| 1003       | Visual Studio is running. The update is not applied. This condition can be overruled using the `--force` flag.                                                                                              |
-| 1004       | No internet detected. The update was unable to contact the internet location holding the updated files. The update is not applied.                                                                          |
-| 1005       | The **AdministratorUpdatesEnabled** registry value is set to **0** or not set at all. The update is not applied.                                                                                            |
-| 1006       | The **AdministratorUpdatesOptOut** registry value is set to **1**. The update is not applied. The key is intended for client computers that should not be updated by the administrator.                     |
-| 1007       | The Visual Studio Installer is not installed.                                                                                                                                                               |
-| 1008       | The **BaselineStickinessVersions2019** registry value is not in a readable format. |
+| Error code | Definition                                                                                                    |
+|------------|---------------------------------------------------------------------------------------------------------------|
+| 0          | The administrative update was successfully installed.                                                         |
+| 1001       | Visual Studio Installer or a related setup process is running. The update is not applied.                     |
+| 1002       | Visual Studio Installer is paused. The update is not applied.                                                 |
+| 1003       | Visual Studio is running. The update is not applied. This condition can be overruled using the `--force` flag. |
+| 1004       | No internet detected. The update was unable to contact the internet location holding the updated files. The update is not applied. |
+| 1005       | The **AdministratorUpdatesEnabled** registry value is set to **0** or not set at all. The update is not applied. |
+| 1006       | The **AdministratorUpdatesOptOut** registry value is set to **1**. The update is not applied. The key is intended for client computers that should not be updated by the administrator. |
+| 1007       | The Visual Studio Installer is not installed.                                                                 |
+| 1008       | The **BaselineStickinessVersions2019** registry value is not in a readable format.                            |
 | 1009       | The Visual Studio instance is configured to use a layout, but the layout is missing packages to perform the update. |
-| 3010       | The system requires a reboot. The update may or may not have been applied. Reboot the computer and attempt the update again.   |
-| 862968     | The update was successful, and a restart is recommended but not required. |
-| Other      | Error occurred attempting to apply the update. The update is not applied.                                                                                                                                   |
+| 3010       | The system requires a reboot. The update may or may not have been applied. Reboot the computer and attempt the update again. |
+| 862968     | The update was successful, and a restart is recommended but not required.                                     |
+| Other      | Error occurred attempting to apply the update. The update is not applied.                                     |
 
 For an exhaustive list of client error codes, see [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md).
 
