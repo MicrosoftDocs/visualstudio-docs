@@ -2,10 +2,12 @@
 title: "Create an Offline Installer"
 description: Learn how you can create an offline installer on Windows for Visual Studio for Mac.
 ms.custom: SEO-VS-2020
-author: heiligerdankgesang
-ms.author: dominicn
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 11/06/2018
 ms.technology: vs-ide-install
+ms.topic: how-to
 ms.assetid: 5CA4B8C1-2D01-46EA-A6B2-8573B324509B
 ---
 # Create an Offline Installer for Visual Studio for Mac

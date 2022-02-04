@@ -2,7 +2,7 @@
 title: Enable debugging for ASP.NET apps | Microsoft Docs
 description: Learn how to enable debugging for ASP.NET and ASP.NET Core apps in Visual Studio. You can run the process on an IIS Express server or a local IIS server. 
 ms.custom: SEO-VS-2020
-ms.date: 10/29/2020
+ms.date: 01/14/2022
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -29,6 +29,10 @@ You can debug ASP.NET and ASP.NET Core apps in Visual Studio. The process differ
 >The following steps and settings apply only to debugging apps on a local server. Debugging apps on a remote IIS server uses **Attach to Process**, and ignores these settings. For more information and instructions for remote debugging ASP.NET apps on IIS, see [Remote debug ASP.NET on an IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) or [Remote debug ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md).
 
 The built-in IIS Express server is included with Visual Studio. IIS Express is the default debug server for ASP.NET and ASP.NET Core projects, and is preconfigured. It's the easiest way to debug, and ideal for initial debugging and testing.
+
+::: moniker range=">=vs-2022"
+For ASP.NET Core, you can also debug on the Kestrel web server.
+::: moniker-end
 
 You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version 8.0 or higher) that is configured to run the app. To debug on local IIS, you must meet the following requirements:
 
@@ -66,6 +70,43 @@ IIS Express is the default, and is preconfigured. If you're debugging on Local I
 
 1. To start debugging, select **IIS Express (\<Browser name>)** or **Local IIS (\<Browser name>)** in the toolbar, select **Start Debugging** from the **Debug** menu, or press **F5**. The debugger pauses at the breakpoints. If the debugger can't hit the breakpoints, see [Troubleshoot debugging](#troubleshoot-debugging).
 
+::: moniker range=">=vs-2022"
+## Debug ASP.NET Core apps
+
+IIS Express is the default, and is preconfigured. If you're debugging on local IIS instead of IIS Express, make sure you meet the [requirements for local IIS debugging](#iis). A default profile based on the project name is also present, which is configured for the Kestrel web server.
+
+1. Select the ASP.NET Core project in Visual Studio **Solution Explorer** and click the **Properties** icon, or press **Alt**+**Enter**, or right-click and choose **Properties**.
+
+1. Select the **Debug** tab and click the link to open the **Open debug launch profiles UI**.
+
+   The UI presented corresponds to the settings in the project's *launchSettings.json* file. For more information on this file, see the Development and launchSettings.json section in [Use multiple environments in ASP.NET Core](/aspnet/core/fundamentals/environments).
+
+1. Select the profile to configure for debugging.
+
+   - For IIS Express, select **IIS Express** from the dropdown.
+   - For Kestrel, select the profile named after the project.
+   - For local IIS, select **New** and create a new IIS profile.
+
+1. Make sure **Launch browser** is selected.
+
+1. Make sure that **Url**, **App URL**, and **App SSL URL** are correct.
+
+   **Url** specifies the location of host URL for .NET or .NET Core. For a profile named after the project (that is, the commandName property in *launchSettings.json* is *Project*), the Kestrel server listens to the port specified. For an IIS profile, this is typically the same value as the **App URL**. For more information, see the IIS launch profile section under [Configure the project](/aspnet/core/host-and-deploy/iis/development-time-iis-support#configure-the-project).
+
+   **App URL** and **App SSL URL** specify the application URL(s). For a profile named after the project, this property specifies the Kestrel server URLs, typically https://localhost:5001 and http://localhost:5000. For IIS Express, the **App SSL URL** is typically http://localhost:44334.
+
+1. Under **Environment variables**, make sure that **ASPNETCORE_ENVIRONMENT** is present with a value of **Development**. If not, add the variable.
+
+   ![ASP.NET Core debugger settings](../debugger/media/vs-2022/dbg-asp-dotnet-enable-debugging-3.png "ASP.NET Core debugger settings")
+
+   For more information about environment variables, see [Environments](/aspnet/core/fundamentals/environments#environments-1).
+
+1. To debug the app, in your project, set breakpoints on some code. In the Visual Studio toolbar, make sure the configuration is set to **Debug**.
+
+1. To start debugging, select  the profile name in the toolbar, such as **\<project profile name>**, **IIS Express**, or **\<IIS profile name>** in the toolbar, select **Start Debugging** from the **Debug** menu, or press **F5**. The debugger pauses at the breakpoints. If the debugger can't hit the breakpoints, see [Troubleshoot debugging](#troubleshoot-debugging).
+::: moniker-end
+
+::: moniker range="<=vs-2019"
 ## Debug ASP.NET Core apps
 
 IIS Express is the default, and is preconfigured. If you're debugging on Local IIS, make sure you meet the [requirements for local IIS debugging](#iis).
@@ -91,6 +132,7 @@ IIS Express is the default, and is preconfigured. If you're debugging on Local I
 1. To debug the app, in your project, set breakpoints on some code. In the Visual Studio toolbar, make sure the configuration is set to **Debug**, and either **IIS Express**, or the new IIS profile name, appears in the emulator field.
 
 1. To start debugging, select **IIS Express** or **\<IIS profile name>** in the toolbar, select **Start Debugging** from the **Debug** menu, or press **F5**. The debugger pauses at the breakpoints. If the debugger can't hit the breakpoints, see [Troubleshoot debugging](#troubleshoot-debugging).
+::: moniker-end
 
 ## Troubleshoot debugging
 

@@ -1,7 +1,7 @@
 ---
 title: Django web project template for Python
-description: Visual Studio provide a comprehensive template for rapid creation of Django web applications with Python.
-ms.date: 11/12/2018
+description: Visual Studio provides a comprehensive template for rapid creation of Django web applications with Python.
+ms.date: 01/19/2022
 ms.topic: conceptual
 author: rjmolyneaux
 ms.author: rmolyneaux

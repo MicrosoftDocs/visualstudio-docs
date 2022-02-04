@@ -3,8 +3,8 @@ title: What are the subscription licensing terms and conditions?
 description: Licensing terms and conditions for Visual Studio subscriptions
 ms.topic: include
 ms.assetid: 96c05bd0-044c-4791-9c33-6b89a0e6b087
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 06/01/2021
 user.type: subscriber, admin
 tags: licensing-terms

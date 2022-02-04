@@ -3,8 +3,8 @@ title: Update subscriber sign-in email address
 description: Super admin or admin wants to update the subscribers domain in bulk.
 ms.topic: include
 ms.assetid: c1220a33-26b0-4bf9-be97-ab2b3055e351
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 06/01/2021
 user.type: admin
 tags: email

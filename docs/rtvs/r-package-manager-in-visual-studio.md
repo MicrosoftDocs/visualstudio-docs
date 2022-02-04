@@ -4,8 +4,8 @@ description: How to use the R package manager in Visual Studio to install and ma
 ms.date: 01/24/2018
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-rtvs
 ms.workload:

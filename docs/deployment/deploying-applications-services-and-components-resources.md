@@ -93,8 +93,8 @@ You determine how much computing power an App Service has by choosing a [pricing
 > If you want to use Azure App Service in your own datacenter or other on-premises computers, you can do so using the [Azure Stack](https://azure.microsoft.com/overview/azure-stack/).
 
 For more information on publishing to App Service, see:
-- [Quickstart - Publish to Azure App Service](quickstart-deploy-to-azure.md)
-- [Quickstart - Publish ASP.NET Core to Linux](quickstart-deploy-to-linux.md).
+- [Quickstart - Publish to Azure App Service](quickstart-deploy-aspnet-web-app.md)
+- [Quickstart - Publish ASP.NET Core to Linux](quickstart-deploy-aspnet-web-app.md).
 - [Publish an ASP.NET Core app to Azure App Service](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)
 - [Troubleshoot ASP.NET Core on Azure App Service and IIS](/aspnet/core/test/troubleshoot-azure-iis).
 
@@ -162,7 +162,7 @@ If for any reason (such as machine access) you are not able to use cloud service
 - You need only a local test deployment.
 - You want to examine and potentially modify the application files independently before sending them onto another deployment target.
 
-For more information, see [Quickstart - Deploy to a local folder](quickstart-deploy-to-local-folder.md).
+For more information, see [Quickstart - Deploy to a local folder](quickstart-deploy-aspnet-web-app.md).
 ::: moniker range=">=vs-2019"
 For more information on deploying a .NET Windows Application using ClickOnce, see [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md).
 ::: moniker-end
@@ -211,7 +211,7 @@ You can create any number of IIS web server deployment profiles in Visual Studio
 - You want to deploy using credentials other than the ones that you use within Visual Studio, or those tied directly to your Azure accounts.
 - You want to delete files from the target each time you deploy.
 
-For more information, see [Quickstart - Deploy to a web site](quickstart-deploy-to-a-web-site.md).
+For more information, see [Quickstart - Deploy to a web site](quickstart-deploy-aspnet-web-app.md).
 
 For help with troubleshooting ASP.NET Core on IIS, see [Troubleshoot ASP.NET Core on Azure App Service and IIS](/aspnet/core/test/troubleshoot-azure-iis).
 

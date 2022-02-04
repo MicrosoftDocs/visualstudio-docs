@@ -23,7 +23,7 @@ Although **Solution Explorer** is where you manage project files, the *editor* w
 
 1. Once you create a new "Python Application" project, a default empty file named *PythonApplication1.py* is open in the Visual Studio editor.
 
-1. In the editor, start typing `print("Hello, Visual Studio")` and notice how Visual Studio IntelliSense displays auto-completion options along the way. The outlined option in the drop-down list is the default completion that's used when you press the **Tab** key. Completions are most helpful when longer statements or identifiers are involved.
+1. In the editor, start typing `print("Hello, Visual Studio")` and notice how Visual Studio IntelliSense displays autocompletion options along the way. The outlined option in the drop-down list is the default completion that's used when you press the **Tab** key. Completions are most helpful when longer statements or identifiers are involved.
 
     ![IntelliSense auto-completion popup](media/vs-getting-started-python-04-IntelliSense1b.png)
 
@@ -64,7 +64,7 @@ Although **Solution Explorer** is where you manage project files, the *editor* w
 
     ![IntellSense showing module members](media/vs-getting-started-python-10-import3.png)
 
-1. Finish by importing the `sin`, `cos`, and `radians` members, noticing the auto-completions available for each. When you're done, your code should appear as follows:
+1. Finish by importing the `sin`, `cos`, and `radians` members, noticing the autocompletions available for each. When you're done, your code should appear as follows:
 
     ```python
     import sys

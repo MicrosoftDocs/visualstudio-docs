@@ -4,8 +4,8 @@ description: Learn how to renew retail, cloud, and Volume License subscriptions
 ms.topic: include
 ms.assetid: 00b82d16-6a80-42d1-8b71-e12047c6b50c
 ms.technology: 
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 01/19/2021
 ms.faqid: q4_1
 ---

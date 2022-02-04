@@ -14,12 +14,11 @@ ms.workload:
 ---
 # Remote Debugger Port Assignments
 The Visual Studio Remote Debugger can run as an application or as a background service. When it runs as an application, it uses a port that is assigned by default as follows:
-::: moniker range=">=vs-2022"
+
 - Visual Studio 2022: 4026
-::: moniker-end
-::: moniker range="vs-2019"
+
 - Visual Studio 2019: 4024
-::: moniker-end
+
 - Visual Studio 2017: 4022
 
 - Visual Studio 2015: 4020
@@ -50,7 +49,7 @@ In other words, the number of the port assigned to the remote debugger is increm
 
 ## The Remote Debugger Port on 64-bit Operating Systems
 ::: moniker range=">=vs-2022"
- When the 64-bit version of the remote debugger is started, it uses the main port (4026) by default.  If you debug a 32-bit process, the 64-bit version of the remote debugger starts a 32-bit version of the remote debugger on port 4025. If you run the 32-bit remote debugger, it uses 4026, and 4025 is not used.
+ When the 64-bit version of the remote debugger is started, it uses the main port (4026) by default.  If you debug a 32-bit process, the 64-bit version of the remote debugger starts a 32-bit version of the remote debugger on port 4025 in most cases. If you run the 32-bit remote debugger, it uses 4026, and 4025 is not used. The exception to this if Remote Tools for Visual Studio 2022 version 17.2 or newer is installed, and the Remote Debugger Configuration Wizard is used to start the remote debugger as a service, then the default 32-bit debugging port will be 4040 instead of 4025.
 ::: moniker-end
 ::: moniker range="vs-2019"
  When the 64-bit version of the remote debugger is started, it uses the main port (4024) by default.  If you debug a 32-bit process, the 64-bit version of the remote debugger starts a 32-bit version of the remote debugger on port 4025 (the main port number incremented by 1). If you run the 32-bit remote debugger, it uses 4024, and 4025 is not used.
