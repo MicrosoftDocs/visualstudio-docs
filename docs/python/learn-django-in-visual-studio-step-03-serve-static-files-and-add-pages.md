@@ -31,7 +31,7 @@ In this step, you learn how to:
 
 ## Step 3-1: Become familiar with item templates
 
-As you develop a Django app, you usually add many Python, HTML, CSS, and JavaScript files. For each file type (files like *web.config* that you might need for deployment), Visual Studio provides convenient [item templates](python-item-templates.md) to get you started.
+As you develop a Django app, you usually add many Python, HTML, CSS, and JavaScript files. For each file type (files like *web.config* that you might need for deployment), Visual Studio provides convenient [item templates](python-item-templates.md) to get you started. 
 
 To view available templates, go to **Solution Explorer**, right-click the folder in which you want to create the item, and then select **Add** > **New Item**.
 
