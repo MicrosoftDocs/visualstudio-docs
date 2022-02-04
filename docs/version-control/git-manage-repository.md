@@ -1,7 +1,7 @@
 ---
-title: Manage Git or DevOps repos in Visual Studio
+title: Manage Git repos in Visual Studio
 titleSuffix: ""
-description: Manage any Git or Azure DevOps repository in Visual Studio by using the Git Repository window.
+description: Manage any Git repository in Visual Studio by using the Git Repository window.
 ms.date: 11/10/2021
 ms.topic: how-to
 author: Taysser-Gherfal
@@ -13,6 +13,8 @@ ms.technology: vs-ide-general
 # Manage Git or Azure DevOps repositories in Visual Studio
 
 The **Git Repository** window provides a full-screen Git experience that helps you manage your Git repository and stay up to date with your team's projects. For example, you might need to reset, revert, or cherry-pick commits, or just clean your commit history. The **Git Repository** window is also a great place to visualize and manage your branches.
+
+Version control with Visual Studio is easy with Git.  And, you can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps. Or, you can work locally with no provider at all.  
 
 ## Change the last commit (amend)
 
