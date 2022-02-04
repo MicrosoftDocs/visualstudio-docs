@@ -19,13 +19,13 @@ ms.workload:
 
 **Previous step: [Create a Django app with views and page templates](learn-django-in-visual-studio-step-02-create-an-app.md)**
 
-In the previous steps of this tutorial, you learned how to create a minimal Django app with a single HTML page. Modern web apps, however, contain many pages. These web pages use shared resources like CSS and JavaScript files to provide consistent styling and behavior.
+In the previous steps of this tutorial, you learned how to create a minimal Django app with a single HTML page. Modern web apps, however, contain many pages. Modern web pages use shared resources like CSS and JavaScript files to provide consistent styling and behavior.
 
 In this step, you learn how to:
 
 > [!div class="checklist"]
 > - Use Visual Studio item templates to quickly add new files of different types with convenient boilerplate code (step 3-1)
-> - Configure the Django project to serve static files (step 3-2)
+> - Set up the Django project to serve static files (step 3-2)
 > - Add additional pages to the app (step 3-3)
 > - Use template inheritance to create a header and nav bar that's used across pages (step 3-4)
 
@@ -41,13 +41,13 @@ To use a template, select the desired template, specify a name for the file, and
 
 ### Question: How does Visual Studio know which item templates to offer?
 
-Answer: The Visual Studio project file (*.pyproj*) contains a project type identifier that marks it as a Python project. Visual Studio uses this type identifier to show only those item templates that are suitable for the project type. This way, Visual Studio can supply a rich set of item templates for many project types without asking you to sort them every time.
+Answer: The Visual Studio project file (*.pyproj*) contains a project type identifier that marks it as a Python project. Visual Studio uses the type identifier to show only the item templates that are suitable for the project type. This way, Visual Studio can supply a rich set of item templates for many project types without asking you to sort them every time.
 
 ## Step 3-2: Serve static files from your app
 
 In a web app built with Python (using any framework), your Python files always run on the web host's server. The Python files are also never transmitted to a user's computer. Other files, however, such as CSS and JavaScript, are used exclusively by the browser. So, the host server simply delivers them as-is whenever they're requested. Such files are referred to as "static" files, and Django can deliver them automatically without you needing to write any code.
 
-A Django project is configured by default to serve static files from the app's *static* folder, thanks to these lines in the Django project's *settings.py0* file:
+A Django project is set up by default to serve static files from the app's *static* folder, thanks to the lines in the Django project's *settings.py* file:
 
 ```python
 # Static files (CSS, JavaScript, Images)
@@ -58,7 +58,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
 ```
 
-You can organize files using any folder structure within *static* that you like, and then use relative paths within that folder to refer to the files. To demonstrate this process, the following steps are to add a CSS file to the app, then use that stylesheet in the *index.html* template:
+You can organize the files within *static* using any folder structure that you like, and then use relative paths within that folder to refer to the files. To demonstrate the process, follow the below steps to add a CSS file to the app, then use that stylesheet in the *index.html* template:
 
 1. In **Solution Explorer**, right-click the **HelloDjangoApp** folder in the Visual Studio project, select **Add** > **New folder**, and name the folder `static`.
 
@@ -66,11 +66,11 @@ You can organize files using any folder structure within *static* that you like,
 
     :::image type="content" source="media/django/step-03-add-new-item-static-file.png" alt-text="Add new item dialog for static file.":::
 
-    The **site.css** file appears in the project and is opened in the editor. Your folder structure should appear similar to the following image:
+    The **site.css** file appears in the project and is opened in the editor. Your folder structure should appear similar to the below image:
 
     :::image type="content" source="media/django/step03-static-file-structure.png" alt-text="Static file structure as shown in Solution Explorer.":::
 
-1. Replace the contents of *site.css* with the following code and save the file:
+1. Replace the contents of *site.css* file with the following code and save the file:
 
     ```css
     .message {
@@ -135,9 +135,9 @@ The following steps add an "About" page to the "HelloDjangoApp" project, and lin
     :::image type="content" source="media/django/step-03-add-new-item-about-file.png" alt-text="Add new item dialog for about file.":::
 
     > [!Tip]
-    > If the **New Item** command doesn't appear on the **Add** menu, make sure that you've stopped the server so that Visual Studio exits debugging mode.
+    > If the **New Item** command doesn't appear on the **Add** menu, ensure that you have stopped the server so that Visual Studio exits debugging mode.
 
-1. Replace the contents of *about.html* with the following markup (you replace the explicit link to the home page with a simple navigation bar in step 3-4):
+1. Replace the contents of *about.html* with the markup below (you replace the explicit link to the home page with a simple navigation bar in step 3-4):
 
     ```html
     <html>
@@ -191,11 +191,11 @@ As shown in the next section, it's better to use the `{% url '<pattern_name>' %}
 
 ## Step 3-4: Use template inheritance to create a header and nav bar
 
-Instead of having explicit navigation links on each page, modern web apps usually use a branding header and a navigation bar. A navigation bar provides the most important page links, popup menus, and so on. To ensure that the header and nav bar are the same across all pages, you don't want to repeat the same code in every page template. You instead want to define the common parts of all your pages in one place.
+Instead of having explicit navigation links on each page, modern web apps use a branding header and a navigation bar. A navigation bar provides the most important page links, popup menus, and so on. To ensure that the header and nav bar are the same across all pages, don't repeat the same code in every page template. You instead want to define the common parts of all your pages in one place.
 
 Django's template system provides two means for reusing specific elements across multiple templates: includes and inheritance.
 
-- *Includes* are other page templates that you insert at a specific place in the referring template using the syntax `{% include <template_path> %}`. If you want to change the path dynamically in code, you can also use a variable. Includes are typically used in the body of a page to pull in the shared template at a specific location on the page.
+- *Includes* are other page templates that you insert at a specific place in the referring template using the syntax `{% include <template_path> %}`. If you want to change the path dynamically in code, you can also use a variable. Includes are used in the body of a page to pull in the shared template at a specific location on the page.
 
 - *Inheritance* uses the `{% extends <template_path> %}` at the beginning of a page template to specify a shared base template that the referring template then builds upon. Inheritance is commonly used to define a shared layout, nav bar, and other structures for an app's pages, such that referring templates can only add or modify specific areas of the base template called *blocks*.
 
@@ -209,7 +209,7 @@ The following steps demonstrate inheritance:
 
     :::image type="content" source="media/django/step-03-add-new-item-layout-file.png" alt-text="Add new item dialog for layout file.":::
 
-1. Replace the *layout.html* file's contents with the markup below. You can see that this template contains a block named "content" that is all that the referring pages need to replace:
+1. Replace the *layout.html* file's content with the markup below. You can see that this template contains a block named "content" that is all the referring pages need to replace:
 
     ```html
     <!DOCTYPE html>
@@ -280,7 +280,7 @@ The following steps demonstrate inheritance:
     {% endblock %}
     ```
 
-1. Modify the *templates/HelloDjangoApp/about.html* file also to refer to the base template and override the content block:
+1. Modify the *templates/HelloDjangoApp/about.html* file to refer to the base template and override the content block:
 
     ```html
     {% extends "HelloDjangoApp/layout.html" %}
