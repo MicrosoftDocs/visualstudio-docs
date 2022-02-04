@@ -130,7 +130,7 @@ You can also initiate an update to your Visual Studio client by programatically 
 ```shell
    \\server\share\desiredupdatelayoutdir\vs_enterprise.exe update --installPath "C:\clientmachine\installpath" --quiet 
 ```
-Whatever the value of the channelURI in the layout's response.json file will be the location where the client looks for future updates.
+Whatever the value of the channelURI in the new layout's response.json file will be the location where the client looks for future updates.
 
 ::: moniker-end
 
