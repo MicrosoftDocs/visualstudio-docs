@@ -149,7 +149,7 @@ If your client machine doesn't have internet access, then it _must_ acquire the 
 Another way to ensure that the client gets its updates from the network layout is to pass in the `--noweb` and `--noUpdateInstaller` options in a single command to the bootstrapper on the network layout. The former prevents downloading updated workloads, components from the internet, and the latter prevents the installer from self-updating. This option, while available, is generally not recommended because you should always be using the latest and greatest installer.
 
 > [!IMPORTANT]
-> The `--noWeb` option does not stop Visual Studio setup on an internet-connected computer from _checking_ for updates. Rather, it prevents the client from downloading the product packages. For more information, see the [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md) page.
+> The `--noWeb` option does not stop Visual Studio setup on an internet-connected computer from _checking_ for updates. Rather, it prevents the client from downloading the product packages. 
 
 ## Get support for your network layout
 
