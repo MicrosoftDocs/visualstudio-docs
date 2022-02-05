@@ -13,7 +13,6 @@ ms.workload:
   - "dotnetcore"
 dev_langs:
   - CSharp
-ms.technology: vs-ide-general
 ms.devlang: CSharp
 ms.custom: "vs-acquistion, get-started"
 ---
