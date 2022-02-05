@@ -12,7 +12,9 @@ ms.workload:
   - "aspnet"
   - "dotnetcore"
 dev_langs:
-  - "CSharp"
+  - CSharp
+ms.technology: vs-ide-general
+ms.devlang: CSharp
 ms.custom: "vs-acquistion, get-started"
 ---
 # Tutorial: Get started with C# and ASP.NET Core in Visual Studio
@@ -40,7 +42,7 @@ This tutorial will show you how to:
    ::: moniker range=">=vs-2019"
 
    You need Visual Studio to complete this tutorial.
-   Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
+   Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs) for a free version.
 
    ::: moniker-end
 
@@ -101,7 +103,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
    :::image type="content" source="../../get-started/media/vs-2019/create-new-project-dark-theme.png" alt-text="Screenshot shows the start window for Visual Studio. Create a new project option is highlighted.":::
 
-1. In the **Create a new project** window, select **C#** from the drop-down language list. Next, select **Windows** from the platform list, and **Web** from the project types list.
+1. In the **Create a new project** window, select **C#** from the Language list. Next, select **Windows** from the platform list, and **Web** from the project types list.
 
       After you apply the language, platform, and project type filters, select the **ASP.NET Core Web App** template, and then select **Next**.
 
@@ -142,7 +144,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
    :::image type="content" source="media/vs-2022/start-window-create-new-project.png" border="false" alt-text="Screenshot shows the start window for Visual Studio. Create a new project option is highlighted.":::
 
-1. In the **Create a new project** window, select **C#** from the drop-down language list. Next, select **Windows** from the platform list, and **Web** from the project types list.
+1. In the **Create a new project** window, select **C#** from the Language list. Next, select **Windows** from the platform list, and **Web** from the project types list.
 
       After you apply the language, platform, and project type filters, select the **ASP.NET Core Web App** template, and then select **Next**.
 
@@ -209,7 +211,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
      ![Screenshot shows the w w w root folder selected in the Solution Explorer in Visual Studio.](media/csharp-aspnet-razor-solution-explorer-wwwroot.png)
 
-    You can put static site content directly in the paths where you want them, like CSS, images, and JavaScript libraries.
+    You can put static site content&mdash;such as CSS, images, and JavaScript libraries&mdash;directly in the paths where you want them.
 
  1. The project also contains configuration files that manage the web app at run time. The default application [configuration](/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. However, you can override these settings by using **appsettings.Development.json**. Expand the **appsettings.json** node to view the **appsettings.Development.json** file.
 
@@ -240,13 +242,13 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. Return to Visual Studio, and then press **Shift+F5** to stop debugging. This action closes the project in the browser window.
 
-1. In Visual Studio, select **About.cshtml**. Then, delete the word **another** and replace it with **file and directory**.
+1. In Visual Studio, select **About.cshtml**. Then, delete the word _another_ and replace it with _file and directory_.
 
     ![Screenshot shows the content in the About dot c s h t m l file in the Visual Studio code editor.](media/csharp-aspnet-razor-aboutcshtml-mycoreapp-code-changed.png)
 
 1. Select **About.cshtml.cs**. Then, clean up the `using` directives at the top of the file by using the following shortcut:
 
-   Mouseover or select a greyed out `using` directives. A [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Select the light bulb, and then select **Remove Unnecessary Usings**.
+   Mouseover or select a greyed out `using` directive. A [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Select the light bulb, and then select **Remove Unnecessary Usings**.
 
    ![Screenshot shows Remove Unnecessary Usings highlighted.  It's below the Quick Actions light bulb icon.](media/csharp-aspnet-razor-remove-unnecessary-usings.png)
 
@@ -312,7 +314,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
      ![Screenshot shows the w w w root folder selected in the Solution Explorer in Visual Studio.](media/csharp-aspnet-razor-solution-explorer-wwwroot.png)
 
-    You can put static site content directly in the paths where you want them, like CSS, images, and JavaScript libraries.
+    You can put static site content&mdash;such as CSS, images, and JavaScript libraries&mdash;directly in the paths where you want them.
 
  1. The project also contains configuration files that manage the web app at run time. The default application [configuration](/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. However, you can override these settings by using **appsettings.Development.json**. Expand the **appsettings.json** file to view the **appsettings.Development.json** file.
 
@@ -337,13 +339,13 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. Return to Visual Studio, and then press **Shift+F5** to stop debugging. This action closes the project in the browser window.
 
-1. In Visual Studio, open **Privacy.cshtml** for editing. Next, delete the words **Use this page to detail your site's privacy policy** and replace it with **This page is under construction as of @ViewData["TimeStamp"]**.
+1. In Visual Studio, open **Privacy.cshtml** for editing. Next, delete the words _Use this page to detail your site's privacy policy_ and replace it with _This page is under construction as of @ViewData["TimeStamp"]_.
 
     ![Screenshot shows the Privacy dot c s h t m l file open in the Visual Studio code editor with the updated text.](media/vs-2019/csharp-aspnet-privacy-cshtml-code-changed.png)
 
 1. Now, let's make a code change. Select **Privacy.cshtml.cs**. Next, clean up the `using` directives at the top of the file by using the following shortcut:
 
-   Mouseover or select a greyed out `using` directives. A [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Select the light bulb, and then select **Remove unnecessary usings**.
+   Mouseover or select a greyed out `using` directive. A [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Select the light bulb, and then select **Remove unnecessary usings**.
 
    ![Screenshot shows the Privacy dot c s h t m l file in the Visual Studio code editor with the Quick Actions tooltip exposed for a greyed out using directive.](media/vs-2019/csharp-aspnet-remove-unnecessary-usings.png)
 
@@ -412,7 +414,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
      :::image type="content" source="media/vs-2022/csharp-aspnet-razor-solution-explorer-wwwroot.png" alt-text="Screenshot shows the w w w root folder selected in the Solution Explorer in Visual Studio.":::
 
-    You can put static site content directly in the paths where you want them, like CSS, images, and JavaScript libraries.
+    You can put static site content&mdash;such as CSS, images, and JavaScript libraries&mdash;directly in the paths where you want them.
 
  1. The project also contains configuration files that manage the web app at run time. The default application [configuration](/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. However, you can override these settings by using **appsettings.Development.json**. Expand the **appsettings.json** file to view the **appsettings.Development.json** file.
 
@@ -437,13 +439,13 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. Return to Visual Studio, and then press **Shift+F5** to stop debugging. This action closes the project in the browser window.
 
-1. In Visual Studio, open **Privacy.cshtml** for editing. Next, delete the words **Use this page to detail your site's privacy policy** and in its place, add the words **This page is under construction as of @ViewData["TimeStamp"]**.
+1. In Visual Studio, open **Privacy.cshtml** for editing. Next, delete the words _Use this page to detail your site's privacy policy_ and in its place, add the words _This page is under construction as of @ViewData["TimeStamp"]_.
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-privacy-cshtml-code-changed.png" alt-text="Screenshot shows the Privacy.cshtml file open in the Visual Studio code editor with the updated text.":::
 
 1. Now, let's make a code change. Select **Privacy.cshtml.cs**. Then, clean up the `using` directives at the top of the file by selecting the following shortcut:
 
-   Mouseover or select a greyed out `using` directives. A [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Select the light bulb, and then select **Remove unnecessary usings**.
+   Mouseover or select a greyed out `using` directive. A [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Select the light bulb, and then select **Remove unnecessary usings**.
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-remove-unnecessary-usings.png" alt-text="Screenshot shows the Privacy.cshtml file in the Visual Studio code editor with the Quick Actions tooltip open and Preview changes highlighted.":::
 

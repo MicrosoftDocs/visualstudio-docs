@@ -58083,11 +58083,6 @@
       "source_path": "docs/install/remove-visual-studio.md",
       "redirect_url": "/visualstudio/install/uninstall-visual-studio",
       "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/ide/quickstart-aspnet-core.md",
-      "redirect_url": "/visualstudio/get-started/csharp/tutorial-aspnet-core",
-      "redirect_document_id": false
     }
   ]
 }
