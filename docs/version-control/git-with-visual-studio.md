@@ -29,7 +29,7 @@ Version control with Visual Studio is easy with Git.  We meet you where you are.
 
 There are three ways to start using Git with Visual Studio to be more productive:
 
-- [Clone an existing Git repository](git-clone-repository.md). You can create a copy of an existing Git repository from elsewhere. You'll end up with a Git repository on your local machine, ready for work.  You can fing open-source repositories on GitHub or use one you already have. 
+- [Clone an existing Git repository](git-clone-repository.md). Create a copy of an existing Git repository from elsewhere and get that Git repository on your local machine, ready for work.  Find open-source repositories on GitHub or use one you already have. 
 
 - [Create a new Git repository](#create-a-new-git-repository-in-visual-studio-2019). If you already have code that's not associated with Git, you can start by creating a new Git repository.
 
@@ -37,7 +37,7 @@ There are three ways to start using Git with Visual Studio to be more productive
 
 If you don't have a Git provider yet, we recommend you start with GitHub since the Git experience in Visual Studio is optimized for this provider. GitHub offers free and secured cloud code storage where you can store your code and access it from any device, anywhere.   
 
-Not only can you add both GitHub and GitHub Enterprise accounts to your keychain, but you can also leverage them just as you do with Microsoft accounts. For more information, see the [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md) page.  If you don’t have a GitHub account, you can start by following the steps outlined in the [Create a GitHub account to use with Visual Studio](git-create-github-account.md) page.
+Not only can you add both [GitHub and GitHub Enterprise accounts to your keychain](../ide/work-with-github-accounts.md), but you can also leverage them just as you do with Microsoft accounts.  If you don’t have a GitHub account, follow these steps to [create a GitHub account to use with Visual Studio](git-create-github-account.md) now.
 
 :::image type="content" source="media/git-source-control-create-repository.png" alt-text="The Create a Git Repository dialog box in Visual Studio.":::
 
