@@ -28,17 +28,17 @@ If you're new to Git, the [https://git-scm.com/](https://git-scm.com/) website i
 
 Version control with Visual Studio is easy with Git.  We meet you where you are. You can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps. Or, you can work locally with no provider at all.  
 
-If you don't have a Git provider yet, we recommend you start with GitHub since the Git experience in Visual Studio is optimized for this provider. GitHub offers free and secured cloud code storage where you can store your code and access it from any device, anywhere.   Not only can you add both GitHub and GitHub Enterprise accounts to your keychain, but you can also leverage them just as you do with Microsoft accounts. For more information, see the [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md) page.  If you don’t have a GitHub account, you can start by following the steps outlined in the [Create a GitHub account to use with Visual Studio](git-create-github-account.md) page.
+There are three ways to start using Git with Visual Studio to be more productive:
 
-Get started by adding your code to Git & GitHub in the **Create a Git repository** dialog box. Learn how in the article, [Create a new Git repository](git-create-repository.md).
+- [Create a new Git repository](#create-a-new-git-repository-in-visual-studio-2019). If you already have code that's not associated with Git, you can start by creating a new Git repository.
+- [Clone an existing Git repository](git-clone-repository.md). If the code that you'd like to work on isn't on your machine, you can clone any existing remote repositories.  You can also use GitHub to explore and learn from a large number of open-source repositories. Visual Studio makes it easy to clone and browse existing GitHub repositories, so it’s a great learning environment.
+- [Open an existing repository](git-clone-repository.md#open-an-existing-local-repository). If your code is already on your machine, you can open it by using **File** > **Open** > **Project/Solution** (or **Folder**) and Visual Studio automatically detects if it has an initialized Git repository.
+
+If you don't have a Git provider yet, we recommend you start with GitHub since the Git experience in Visual Studio is optimized for this provider. GitHub offers free and secured cloud code storage where you can store your code and access it from any device, anywhere.   
+
+Not only can you add both GitHub and GitHub Enterprise accounts to your keychain, but you can also leverage them just as you do with Microsoft accounts. For more information, see the [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md) page.  If you don’t have a GitHub account, you can start by following the steps outlined in the [Create a GitHub account to use with Visual Studio](git-create-github-account.md) page.
 
 :::image type="content" source="media/git-source-control-create-repository.png" alt-text="The Create a Git Repository dialog box in Visual Studio.":::
-
-Alternately, you can also start by: 
-
-- [Cloning an existing Git repository](git-clone-repository.md). If the code that you'd like to work on isn't on your machine, you can clone any existing remote repositories.  You can also use GitHub to explore and learn from a large number of open-source repositories. Visual Studio makes it easy to clone and browse existing GitHub repositories, so it’s a great learning environment.
-
-- [Opening an existing repository](git-clone-repository.md#open-an-existing-local-repository). If your code is already on your machine, you can open it by using **File** > **Open** > **Project/Solution** (or **Folder**) and Visual Studio automatically detects if it has an initialized Git repository.
 
 ## View files in Solution Explorer
 
@@ -48,11 +48,13 @@ For more information, see the [View files in Solution Explorer](../get-started/t
 
 ## Intuitive inner-loop workflow
 
-For your day-to-day Git workflow, Visual Studio provides a seamless way to interact with Git while coding without having you switch away from your code. For example, you can create and switch between branches and you can commit, stash, and push your changes while you are working on your code.  With Git, you are empowered to multi-task and experiment with your code through branches. If you or your team works on multiple features at the same time, or if you'd like to explore ideas without affecting your working code, branching is very helpful. The recommended Git workflow uses a new branch for every feature or fix that you work on. Learn how to [create a branch](git-create-branch.md) from Visual Studio.
+For your day-to-day Git workflow, Visual Studio provides a seamless way to interact with Git while coding without having you switch away from your code. 
+
+You are empowered to multi-task and experiment with your code through branches. If you or your team works on multiple features at the same time, or if you'd like to explore ideas without affecting your working code, branching is very helpful. The recommended Git workflow uses a new branch for every feature or fix that you work on. Learn how to [create a branch](git-create-branch.md) from Visual Studio.
 
 Once you create a new branch and switch to it, you can start working by changing existing files or by adding new ones and then committing our work to the repository. To learn more about making a commit in Visual Studio and to better understand file states in Git, refer to the [Make a commit](git-make-commit.md) page.
 
-Git is a distributed version control system, meaning that all the changes made so far are local only changes. To contribute these changes to a remote repository, you must push those local commit(s). To learn more about pushing to a remote in Visual Studio, refer to the [Push to a remote](git-push-remote.md) page.
+Git is a distributed version control system, meaning that all the changes made so far are local only changes. To contribute these changes to a remote repository, you must [push those local commit(s) to a remote](git-push-remote.md).
 
 If you are working in a team or if you are using different machines, you will also need to continually fetch and pull new changes on the remote repository. To learn more about managing Git network operations in Visual Studio, refer to the [Fetch, pull, push, and sync](git-fetch-pull-sync.md) page.
 
@@ -60,10 +62,9 @@ If you are working in a team or if you are using different machines, you will al
 
 ## Rpository management & collaboration
 
-However, there are times when it makes more sense to focus on your Git repository. For example, you might need to get a good picture of what your team has been working on, or copy a commit from a different branch, or just clean-up your outgoing commits.
+However, there are times when it makes more sense to focus on your Git repository. For example, you might need to get a good picture of what your team has been working on, or copy a commit from a different branch, or just clean-up your outgoing commits.  Visual Studio includes powerful [repository browsing](git-browse-repository.md) and collaboration features that eliminate the need to use other tools. 
 
 To help you focus on your Git repository, Visual Studio has a **Git Repository** window, which is a consolidated view of all the details in your repository, including local and remote branches and commit history. You can access this window directly from either **Git** or **View** on the menu bar or from the status bar.
-Visual Studio includes powerful [repository browsing](git-browse-repository.md) and collaboration features that eliminate the need to use other tools. Stay up to date with your repository by keeping an eye on your incoming/outgoing commits, previewing branches, and comparing commits. And, manage your repository by managing your branches and squashing and cherry-picking commits.
 
 :::image type="content" source="media/git-source-control-repository-management.png" alt-text="The Visual Studio IDE that highlights the Git menu and the Git Changes tab in Solution Explorer.":::
 
