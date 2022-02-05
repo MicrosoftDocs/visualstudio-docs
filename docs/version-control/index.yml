@@ -22,13 +22,11 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Git experience in Visual Studio
-            url: git-with-visual-studio.md
-          - text: How Visual Studio makes source control easy
-            url:  git-visual-studio-source-control.md            
+          - text: Source control made easy
+            url: git-with-visual-studio.md  
       - linkListType: tutorial
         links:
-          - text: Clone a repo
+          - text: Clone an existing repo
             url: git-clone-repository.md
           - text: Create a new repo
             url: git-create-repository.md
