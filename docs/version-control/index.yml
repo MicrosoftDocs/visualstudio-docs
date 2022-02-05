@@ -22,9 +22,9 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Source control made easy
+          - text: Git & Visual Studio for source control
             url: git-with-visual-studio.md  
-      - linkListType: tutorial
+      - linkListType: how-to-guide
         links:
           - text: Clone an existing repo
             url: git-clone-repository.md
