@@ -39,6 +39,8 @@ If you don't have a Git provider yet, we recommend you start with GitHub since t
 
 Not only can you add both [GitHub and GitHub Enterprise accounts to your keychain](../ide/work-with-github-accounts.md), but you can also leverage them just as you do with Microsoft accounts.  If you don’t have a GitHub account, follow these steps to [create a GitHub account to use with Visual Studio](git-create-github-account.md) now.
 
+If you're new to Git, the [https://git-scm.com/](https://git-scm.com/) website is a good place to start. 
+
 :::image type="content" source="media/git-source-control-create-repository.png" alt-text="The Create a Git Repository dialog box in Visual Studio.":::
 
 ## View files in Solution Explorer
@@ -296,4 +298,3 @@ The new Git experience is the default version control system in Visual Studio 20
 - [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes)
 - To learn more about using Git and GitHub in Visual Studio 2019, watch the following YouTube video: [Getting started with Git in Visual Studio](https://www.youtube.com/watch?v=GCZ9x3yqkyc&list=PLReL099Y5nRc-zbaFbf0aNcIamBQujOxP)
 ::: moniker-end
-- If you're new to Git, the [https://git-scm.com/](https://git-scm.com/) website is a good place to start. 
