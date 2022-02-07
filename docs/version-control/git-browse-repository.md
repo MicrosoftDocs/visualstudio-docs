@@ -10,9 +10,9 @@ ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ---
-# Browse Git repositories in Visual Studio
+# Browse Git repositories & compare branches in Visual Studio
 
-The **Git Changes** window provides a seamless way to interact with Git while coding without having to switch away from your code. But there are times when it makes more sense to focus on your Git repository. For example, you might need to get a good picture of what your team has been working on or maybe compare two commits to investigate a bug.
+The **Git Changes** window provides a seamless way to interact with Git while coding without having to switch away from your code. But there are times when it makes more sense to focus on your Git repository. For example, you might need to get a good picture of what your team has been working on or maybe [compare two commits](#compare-commits) to investigate a bug.
 
 ## Browse through local and remote branches
 
@@ -40,6 +40,8 @@ You can browse though any local or remote branch without having to switch your b
 > To display your commit in full screen, detach your **Commit** tab and maximize the **Commit** window by using the **Maximize** button. You can also select your favorite diff configuration by selecting **Diff Configuration** (the gear icon).
 >
 >:::image type="content" source="media/vs-2022/git-repository-commit-details-full-screen.png" alt-text="Screenshot of full-screen commit details with diff configurations." lightbox="media/vs-2022/git-repository-commit-details-full-screen.png":::
+
+<a name="compare-commits"/>
 
 ## Compare commits
 
