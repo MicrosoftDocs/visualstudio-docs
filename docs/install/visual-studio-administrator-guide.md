@@ -21,7 +21,7 @@ ms.technology: vs-installation
 
 In enterprise environments, system administrators typically deploy and update software on end users machines. The Visual Studio product integrates well in these types of environments by giving system administrators the ability to manage and control when and how the Visual Studio software is deployed and updated. Visual Studio can be acquired from the internet, from a network share, or from a product cache, and it can be deployed and updated manually, programatically or by using systems management software. Visual Studio provides the ability to create and maintain acquisition locations, pre-configure installation defaults, deploy product keys during the installation process, and manage product updates after a successful rollout. This administrator guide provides quick links to scenario-based guidance for enterprise deployment.
 
-## Before you begin - Research and Plan
+## Research and plan before you begin
 
 You will need to make a plan for how you deploy Visual Studio across your organization. Below lists some of the key things to think about, and it's best if your plan and decisions are made before the original installation happens on the client machine. 
 
@@ -71,19 +71,19 @@ If your company needs to stay on a feature set longer but still wants to get reg
 
 ## Install Visual Studio
 
-The following resources will help you do the intitial install of Visual Studio in common enterprise scenarios.
+The following resources will help you do the initial install of Visual Studio in common enterprise scenarios.
 
-- **[Review the Install Visual Studio documentation](install-visual-studio.md)** to get a high level overview of the installation options available to end users. [Select the workloads and components](workload-and-component-ids.md) that you want to be available to install.  
+- **[Review the Install Visual Studio documentation](install-visual-studio.md)** to get a high level overview of the installation options available to end users. [Select the workloads and components](workload-and-component-ids.md) that you want available for install on your client machines.  
 
-- **[Acquire the correct Visual Studio bootstrapper to install the product](/visualstudio/install/create-a-network-installation-of-visual-studio#download-the-visual-studio-bootstrapper-to-create-the-network-layout).** There are different bootstrappers avaiable for you to choose from. Some bootstrappers install a very particular version of the product, while other bootstrappers initialize the servicing baseline channel. 
+- **[Acquire the correct Visual Studio bootstrapper to install the product](/visualstudio/install/create-a-network-installation-of-visual-studio#download-the-visual-studio-bootstrapper-to-create-the-network-layout).** There are different bootstrappers available for you to choose from. Some bootstrappers install a very particular version of the product, while other bootstrappers initialize the servicing baseline channel. 
 
-- **[Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)**. Use a variety of parameters to programatically control or customize your Visual Studio installation. You can build an installation script that automates the installation process. For more information, see [command line parameter examples](command-line-parameter-examples.md).
+- **[Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)**. Use a variety of parameters to programmatically control or customize your Visual Studio installation. You can build an installation script that automates the installation process. For more information, see [command line parameter examples](command-line-parameter-examples.md).
 
 - **[Create a layout (network installation) of Visual Studio](create-a-network-installation-of-visual-studio.md)**. A layout is a cache of the Visual Studio files in a folder on your network that you can use for both the initial installation as well as all product updates. A layout can be used if your client machines are not connected to the internet or if they have limited internet connectivity. Decide whether to use a [response file](automated-installation-with-response-file.md), which allows you to set installation defaults when installing from a layout. After your layout is created, you can then [install Visual Studio onto a client machine from a network layout](create-a-network-installation-of-visual-studio.md#install-visual-studio-onto-a-client-machine-from-a-network-installation).
 
 - **[Install required certificates for offline installation](/visualstudio/install/install-certificates-for-visual-studio-offline.md)**. Install necessary certificates if the client machine is completely disconnected from the internet.
 
-- **[Automatically apply product or subscription keys when deploying Visual Studio](automatically-apply-product-keys-when-deploying-visual-studio.md)**. You can programatically apply a subscription or product key as part of a script that is used to automate the deployment of Visual Studio so that users don't need to activate the software separately. You can set this key either during an installation of Visual Studio or after an installation completes. 
+- **[Automatically apply product or subscription keys when deploying Visual Studio](automatically-apply-product-keys-when-deploying-visual-studio.md)**. You can programmatically apply a subscription or product key as part of a script that is used to automate the deployment of Visual Studio so that users don't need to activate the software separately. You can set this key either during an installation of Visual Studio or after an installation completes. 
 
 - **[Install and use Visual Studio and Azure Services behind a firewall or proxy server](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)**. If your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to add to an "allowlist" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio and Azure Services. 
 
@@ -118,7 +118,7 @@ The following resources will help you keep your Visual Studio updated, current, 
 * **[Import or export installation configurations](import-export-installation-configurations.md)** to other machines or to layouts.
 
 
-## Support and Troubleshooting
+## Manage, Modify or Repair Visual Studio
 
 - **[Detect, verify, and manage installed Visual Studio instances](tools-for-managing-visual-studio-instances.md)** on client machines.
 
