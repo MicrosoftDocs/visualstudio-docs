@@ -66,7 +66,7 @@ The Visual Studio bootstrapper is a light-weight executable that initiates the i
 
 1. Close the Visual Studio Installer.
 1. Delete the Visual Studio Installer installation directory. Typically, the directory is `C:\Program Files (x86)\Microsoft Visual Studio\Installer`.
-1. Run the Visual Studio Installer bootstrapper. You might find the bootstrapper in your Downloads folder with a file name that follows a `vs_[Visual Studio edition]__*.exe` pattern. If you don't find that application, you can download the bootstrapper by going to the [Visual Studio older downloads page](https://visualstudio.microsoft.com/vs/older-downloads and clicking **Download** for your edition of Visual Studio. Then, run the executable to reset your installation metadata.
+1. Run the Visual Studio bootstrapper. You might find the bootstrapper in your Downloads folder with a file name that follows a `vs_[Visual Studio edition]__*.exe` pattern. If you don't find that application, you can download the bootstrapper by going to the [Visual Studio older downloads page](https://visualstudio.microsoft.com/vs/older-downloads) and clicking **Download** for your edition of Visual Studio. Then, run the executable to reset your installation metadata.
 1. Try to install or update Visual Studio again. If the Installer continues to fail, proceed to the [Report a problem](#step-5---report-a-problem) step.
 
 ::: moniker-end
