@@ -338,7 +338,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. Return to Visual Studio, and then press **Shift+F5** to stop debugging. This action closes the project in the browser window.
 
-1. In Visual Studio, open **Privacy.cshtml** for editing. Next, delete the words _Use this page to detail your site's privacy policy_ and replace it with _This page is under construction as of @ViewData["TimeStamp"]_.
+1. In Visual Studio, open **Privacy.cshtml** for editing. Next, delete the sentence, _Use this page to detail your site's privacy policy_ and replace it with _This page is under construction as of @ViewData["TimeStamp"]_.
 
     ![Screenshot shows the Privacy dot c s h t m l file open in the Visual Studio code editor with the updated text.](media/vs-2019/csharp-aspnet-privacy-cshtml-code-changed.png)
 
@@ -438,7 +438,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. Return to Visual Studio, and then press **Shift+F5** to stop debugging. This action closes the project in the browser window.
 
-1. In Visual Studio, open **Privacy.cshtml** for editing. Next, delete the words _Use this page to detail your site's privacy policy_ and in its place, add the words _This page is under construction as of @ViewData["TimeStamp"]_.
+1. In Visual Studio, open **Privacy.cshtml** for editing. Next, delete the sentence, _Use this page to detail your site's privacy policy_ and replace it with _This page is under construction as of @ViewData["TimeStamp"]_.
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-privacy-cshtml-code-changed.png" alt-text="Screenshot shows the Privacy.cshtml file open in the Visual Studio code editor with the updated text.":::
 
@@ -487,7 +487,35 @@ Change the body of the `OnGet()` method to the following code:
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-browser-page-privacy-changed.png" alt-text="Screenshot showing the Privacy page of the MyCoreApp that includes the changes made to add the date.":::
 
-1. Close the web browser, press **Shift**+**F5** to stop debugging, and then close Visual Studio.
+1. Close the web browser, press **Shift**+**F5** to stop debugging.
+
+## Change your home page
+
+1. In the **Solution Explorer**, expand the **Pages** folder, and then select **Index.cshtml**.
+
+   :::image type="content" source="media/vs-2022/csharp-aspnet-index-page-cshtml-file.png" alt-text="Screenshot shows Index.cshtml selected under the Pages node in the Solution Explorer.":::
+
+   The **Index.cshtml** file corresponds with your **Home** page in the web app, which runs in a web browser.
+
+   :::image type="content" source="media/vs-2022/csharp-aspnet-index-page.png" alt-text="Screenshot shows the Home page for the web app in the browser window.":::
+
+   In the code editor, you'll see HTML code for the text that appears on the **Home** page.
+
+   :::image type="content" source="media/vs-2022/csharp-aspnet-index-cshtml-hello.png" alt-text="Screenshot shows the Index.cshtml file for the Home page in the Visual Studio code editor.":::
+
+1. Replace the _Welcome_ text with _Hello World!_
+
+   :::image type="content" source="media/vs-2022/csharp-aspnet-index-cshtml-page-hello-world.png" alt-text="Screenshot shows the Index.cshtml file in the Visual Studio code editor with the 'Welcome' text changed to 'Hello World!'.":::
+    
+1. Select **IIS Express** or press **Ctrl**+**F5** to run the app and open it in a web browser.
+
+   :::image type="content" source="media/vs-2022/csharp-aspnet-generic-iis-button.png" alt-text="Screenshot shows the IIS Express button highlighted in the toolbar for Visual Studio.":::
+
+1. In the web browser, you'll see your new changes on the **Home** page.
+
+   :::image type="content" source="media/vs-2022/csharp-aspnet-index-page-hello-world.png" alt-text="Screenshot shows the Home page for the web app in the browser window. The updated text says 'Hello World!'":::
+
+1. Close the web browser, press **Shift**+**F5** to stop debugging, and now you close Visual Studio.
 
 ::: moniker-end
 
