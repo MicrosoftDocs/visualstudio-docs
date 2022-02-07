@@ -139,7 +139,7 @@ Answer: The 'r' prefix on a string in Python means "raw," which instructs Python
 
 ### Question: What do the ^ and $ characters mean in the URL routing entries?
 
-Answer: In the regular expressions that define URL patterns, ^ means "start of line" and $ means "end of line," wherein the URLs are relative to the site root (the part that follows `https://www.domain.com/`). The regular expression `^$` effectively means "blank" and that's why matches the full URL `https://www.domain.com/` (nothing added to the site root). The pattern `^home$` matches exactly `https://www.domain.com/home/`. (Django doesn't use the trailing / in pattern matching.)
+Answer: In the regular expressions that define URL patterns, ^ means "start of line" and $ means "end of line," wherein the URLs are relative to the site root (the part that follows `https://www.domain.com/`). The regular expression `^$` effectively means "blank" and matches the full URL `https://www.domain.com/` (nothing added to the site root). The pattern `^home$` matches exactly `https://www.domain.com/home/`. (Django doesn't use the trailing / in pattern matching.)
 
 If you don't use a trailing $ in a regular expression, as with `^home`, then URL pattern matches *any* URL that begins with "home" such as "home", "homework", "homestead", and "home192837".
 
@@ -174,7 +174,7 @@ Now, run the project again to see a message like "**Hello Django!** on Monday 16
 
 ## Step 2-4: Render a view using a page template
 
-Generating HTML in code works fine for small pages. But, as pages get more sophisticated you need to maintain the static HTML parts of your page (along with references to CSS and JavaScript files) as "page templates." You can then insert the dynamic, code-generated content to the page templates. In the previous section, only the date and time from the `now.strftime` call was dynamic, which means all the other content can be placed in a page template.
+Generating HTML in code works fine for small pages. However, as pages get more sophisticated you need to maintain the static HTML parts of your page (along with references to CSS and JavaScript files) as "page templates." You can then insert the dynamic, code-generated content to the page templates. In the previous section, only the date and time from the `now.strftime` call was dynamic, which means all the other content can be placed in a page template.
 
 A Django page template is a block of HTML that contains multiple replacement tokens called "variables." The variables are delineated by `{{` and `}}`, for example, `{{ content }}`. Django's template module then replaces variables with dynamic content that you provide in code.
 
@@ -276,7 +276,7 @@ Answer: Usually, templates are maintained in separate HTML files. You can also u
 
 ### Question: Templates must use the .html file extension?
 
-Answer: The *.html* extension for page template files is entirely optional as you identify the exact relative path to the file in the second argument to the `render` function. But, Visual Studio (and other editors) provides the features like code completion and syntax coloration with *.html* files, which outweighs the fact that the page templates aren't strictly HTML.
+Answer: The *.html* extension for page template files is entirely optional, as you identify the exact relative path to the file in the second argument to the `render` function. However, Visual Studio (and other editors) provides the features like code completion and syntax coloration with *.html* files, which outweighs the fact that the page templates aren't strictly HTML.
 
 In fact, when you're working with a Django project, Visual Studio automatically detects the HTML file that has a Django template and provides certain autocomplete features. For example, when you start typing a Django page template comment, `{#`, Visual Studio automatically gives you the closing `#}` characters. The **Comment Selection** and **Uncomment Selection** commands (on the **Edit** > **Advanced** menu and on the toolbar) also use the template comments instead of HTML comments.
 
