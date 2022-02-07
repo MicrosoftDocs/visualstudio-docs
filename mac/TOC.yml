@@ -118,13 +118,13 @@
   items: 
     - name: Overview
       href: compiling-and-building.md
-    - name: Building and Cleaning Projects and Solutions
+    - name: Build & clean Projects and Solutions
       href: building-and-cleaning-projects-and-solutions.md
     - name: Build Actions
       href: build-actions.md
-    - name: "How to: Set multiple startup projects"
+    - name: Set multiple startup projects
       href: set-startup-projects.md
-    - name: Customizing the Build System
+    - name: Customize the Build system (msbuild)
       href: customizing-build-system.md
     - name: Configurations
       items: 
