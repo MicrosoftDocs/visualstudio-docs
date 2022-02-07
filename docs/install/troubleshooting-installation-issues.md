@@ -62,7 +62,7 @@ The Visual Studio bootstrapper is a light-weight executable that initiates the i
 > [!NOTE]
 > Performing the following actions reinstalls the Visual Studio Installer files and resets the installation metadata.
 
-::: moniker range="<=vs-2022"
+::: moniker range="<vs-2022"
 
 1. Close the Visual Studio Installer.
 1. Delete the Visual Studio Installer installation directory. Typically, the directory is `C:\Program Files (x86)\Microsoft Visual Studio\Installer`.
