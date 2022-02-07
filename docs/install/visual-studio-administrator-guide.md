@@ -113,7 +113,7 @@ The following resources will help you keep your Visual Studio updated, current, 
 
 * **[Configure Visual Studio to disable customer feedback](../ide/visual-studio-experience-improvement-program.md)** on individual computers.
 
-- **[Create custom bootstrapper packages](../deployment/creating-bootstrapper-packages.md)**. Learn advanced technices for how to create custom bootstrapper packages to further control your installation configuration by creating product and package manifests. 
+- **[Create custom bootstrapper packages](../deployment/creating-bootstrapper-packages.md)**. Learn advanced techniques for how to create custom bootstrapper packages to further control your installation configuration by creating product and package manifests. 
 
 * **[Import or export installation configurations](import-export-installation-configurations.md)** to other machines or to layouts.
 
