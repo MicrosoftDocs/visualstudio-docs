@@ -2,7 +2,8 @@
 title: Learn Flask tutorial in Visual Studio step 3, static files and pages
 titleSuffix: ""
 description: A walkthrough of Flask basics in the context of Visual Studio projects, specifically demonstrating how to serve static files, add pages to the app, and use template inheritance
-ms.date: 01/07/2019
+ms.custom: devdivchpfy22
+ms.date: 02/07/2022
 ms.topic: tutorial
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -23,6 +24,7 @@ In the previous steps of this tutorial, you've learned how to create a minimal F
 In this step, you learn how to:
 
 > [!div class="checklist"]
+>
 > - Use Visual Studio item templates to quickly add new files of different types with convenient boilerplate code (step 3-1)
 > - Serve static files from code (step 3-2, optional)
 > - Add additional pages to the app (step 3-3)
