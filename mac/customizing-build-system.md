@@ -1,5 +1,5 @@
 ---
-title: "Customizing the Build System"
+title: "Customize the Build System: msbuild on the Mac"
 description: "This article is a brief introduction to the MSBuild build system used by Visual Studio for Mac"
 author: jmatthiesen
 ms.author: jomatthi
@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.assetid: 6958B102-8527-4B40-BC65-3505DB63F9D3
 ---
 
-# Customizing the build system
+# Customize the MSBuild system in Visual Studio for Mac
 
 The Microsoft Build Engine is a platform for building applications. The engine, which is also known as MSBuild, was developed by Microsoft and allows for the building of .NET applications. The Mono framework also has its own implementation of Microsoft's Build Engine, called **xbuild**. At this time, however, xbuild has been phased out in favor of using MSBuild on all operating systems.
 
