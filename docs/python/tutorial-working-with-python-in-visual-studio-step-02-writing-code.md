@@ -46,7 +46,7 @@ Although **Solution Explorer** is where you manage project files, the *editor* w
 
 1. Run the code you've written to this point by pressing **Ctrl**+**F5** or selecting **Debug** > **Start without Debugging** menu item. Visual Studio warns you if you still have errors in your code.
 
-1. When you run the program, a console window appears to display the results. It's similar to as if you'd run a Python interpreter with *PythonApplication1.py* from the command line. Press any key to close the window and return to the Visual Studio editor.
+1. When you run the program, a console window appears to display the results. It's similar to running a Python interpreter with *PythonApplication1.py* from the command line. Press any key to close the window and return to the Visual Studio editor.
 
     ![Output for the first run of the program](media/vs-getting-started-python-07-output.png)
 
