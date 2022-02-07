@@ -292,7 +292,7 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
 
      Your window should resemble the following illustration.
 
-     ![MainWindow form with control labels](media/explore-ide-window-with-control-labels-cs.png "Screenshot of the Design window for MainWindow.xaml showing a TextBlock control, two RadioButton controls labeled 'Hello' and 'Goodbye', and a button labeled 'Display'.")
+     ![MainWindow form with control labels](../media/explore-ide-window-with-control-labels-cs.png "Screenshot of the Design window for MainWindow.xaml showing a TextBlock control, two RadioButton controls labeled 'Hello' and 'Goodbye', and a button labeled 'Display'.")
 
    The XAML markup should now look similar to the following example:
 
