@@ -66,6 +66,8 @@ landingContent:
             url: /cpp/get-started/tutorial-console-cpp
           - text: Get started with Python in Visual Studio
             url: quickstart-python.md
+          - text: Create a console app with C#
+            url: ../get-started/csharp/tutorial-console.md
           - text: Create a console app with Visual Basic
             url: quickstart-visual-basic-console.md
           - text: Create a web app with Node.js
