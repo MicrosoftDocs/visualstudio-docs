@@ -1,7 +1,7 @@
 ---
 title: Update Visual Studio while on a servicing baseline
 description: Learn how to configure and update Visual Studio to stay on a servicing baseline.
-ms.date: 2/1/2022
+ms.date: 2/4/2022
 ms.topic: conceptual
 ms.assetid: 
 author: anandmeg
