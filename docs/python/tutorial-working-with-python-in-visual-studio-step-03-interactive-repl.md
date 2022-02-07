@@ -24,7 +24,7 @@ The Visual Studio **Interactive** window for Python provides a rich read-evaluat
 > [!NOTE]
 > For issues with REPL, be sure to have `ipython` and `ipykernel` packages installed, and for help installing packages, see [Python environments packages tab](./python-environments-window-tab-reference.md#packages-tab).
 
-1. Open the **Interactive** window by right-clicking the project's Python environment in **Solution Explorer** (such as **Python 3.6 (32-bit)** shown in an earlier graphic) and selecting **Open Interactive Window**. You can alternately select **View** > **Other Windows** > **Python Interactive Windows** from the main Visual Studio menu.
+1. Open the **Interactive** window by right-clicking the project's Python environment in **Solution Explorer** (such as **Python 3.6 (32-bit)** shown in an earlier graphic) and selecting **Open Interactive Window**. Other way is to select **View** > **Other Windows** > **Python Interactive Windows** from the main Visual Studio menu.
 
 1. The **Interactive** window opens below the editor with the standard **>>>** Python REPL prompt. The **Environment** drop-down list allows you to select a specific interpreter to work with. Many times you also want to make the **Interactive** window larger, which you can do by dragging the separator between the two windows:
 
@@ -68,7 +68,7 @@ The Visual Studio **Interactive** window for Python provides a rich read-evaluat
 
     ![Pasting multiple lines of code using Sending Interactive](media/vs-getting-started-python-15-interactive5.png)
 
-1. As you can see, this code works fine but its output isn't inspiring. A different step value in the `for` loop would show more of the cosine wave. Fortunately, because the entire `for` loop is in the REPL history as a single unit, it's easy to go back and make whatever changes you want and then test the function again. Press the up arrow to first recall the `for` loop. You can navigate in the code by pressing the left or right arrows. (until you do so, the up and down arrows continue to cycle through the history). Navigate to and change the `range` specification to `range(0, 360, 12)`. Then press **Ctrl**+**Enter** (anywhere in the code) to run the whole statement again:
+1. As you can see, this code works fine but its output isn't inspiring. A different step value in the `for` loop would show more of the cosine wave. The entire `for` loop is available in the REPL history as a single unit, you can go back and make whatever changes you want and then test the function again. Press the up arrow to first recall the `for` loop. You can navigate in the code by pressing the left or right arrows. (until you do so, the up and down arrows continue to cycle through the history). Navigate to and change the `range` specification to `range(0, 360, 12)`. Then press **Ctrl**+**Enter** (anywhere in the code) to run the whole statement again:
 
     ![Editing a previous statement in the interactive window](media/vs-getting-started-python-16-interactive6.png)
 
