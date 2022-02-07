@@ -100,7 +100,7 @@ The following resources will help you keep your Visual Studio updated, current, 
 
 - **[Keep your layout (network installation) updated](create-a-network-installation-of-visual-studio.md#update-or-modify-your-layout)** on a regular basis so that it remains current and secure with the latest product updates. Layouts are meant to be used as both as an installation point for new client installs of Visual Studio as well as a source of updated product bits for installations that are already deployed to client workstations. Visual Studio releases security updates on patch Tuesday, the second Tuesday of the month, and we strongly recommend that you update your layouts on a monthly cadence.
 
-- **[Use command-line parameters to update Visual Studio](use-command-line-parameters-to-install-visual-studio.md)**. Use a variety of parameters to programatically update Visual Studio. For more information, see [command line parameter examples](command-line-parameter-examples.md).
+- **[Use command-line parameters to update Visual Studio](use-command-line-parameters-to-install-visual-studio.md)**. Use a variety of parameters to programmatically update Visual Studio. For more information, see [command line parameter examples](command-line-parameter-examples.md).
 
 - **[Update client machines that are based on a network layout](update-a-network-installation-of-visual-studio.md)**. After you've updated your layout, you can then update your client installations of Visual Studio from the updated network layout. This scenario is also designed to work when the updates are distrubuted thru SCCM and WSUS. 
  
