@@ -19,7 +19,7 @@ ms.workload:
 
 **Previous step: [Create a Django app with views and page templates](learn-django-in-visual-studio-step-02-create-an-app.md)**
 
-In the previous steps of the tutorial, you had learned how to create a minimal Django app with a single HTML page. Modern web apps, however, contain many pages. Modern web pages use shared resources like CSS and JavaScript files to provide consistent styling and behavior.
+In the previous steps of the tutorial, you've learned how to create a minimal Django app with a single HTML page. Modern web apps, however, contain many pages. Modern web pages use shared resources like CSS and JavaScript files to provide consistent styling and behavior.
 
 In this step, you learn how to:
 
@@ -58,7 +58,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
 ```
 
-You can organize the files within *static* using any folder structure that you like, and then use relative paths within that folder to refer to the files. To demonstrate the process, follow the below steps to add a CSS file to the app, then use that stylesheet in the *index.html* template:
+You can organize the files within *static* using any folder structure that you like, and then use relative paths within that folder to refer to the files. To demonstrate the process, follow the steps below to add a CSS file to the app, then use that stylesheet in the *index.html* template:
 
 1. In **Solution Explorer**, right-click the **HelloDjangoApp** folder in the Visual Studio project, select **Add** > **New folder**, and name the folder `static`.
 
@@ -293,7 +293,7 @@ The following steps demonstrate inheritance:
 
     :::image type="content" source="media/django/step-03-navigation-bar.png" alt-text="Running app showing the nav bar.":::
 
-1. Because you had made substantial changes to the app, it's again a good time to [commit your changes to source control](learn-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control).
+1. Because you'd made substantial changes to the app, it's again a good time to [commit your changes to source control](learn-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control).
 
 ## Next steps
 
