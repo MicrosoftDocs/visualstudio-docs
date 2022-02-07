@@ -45,7 +45,7 @@ A Django app usually begins with a standard set of files. Visual Studio provides
 
     :::image type="content" source="media/django/step02-add-django-app-command.png" alt-text="Menu command for adding a Django app.":::
 
-    :::image type="content" source="media/django/step02-django-app-name.png" alt-text="Menu command to enter a Django app name.":::
+    :::image type="content" source="media/django/step-02-django-app-name.png" alt-text="Menu command to enter a Django app name.":::
 
 Using either method, create an app with the name "HelloDjangoApp". Now, the "HelloDjangoApp" folder is created in your project. The folder contains the following items:
 
