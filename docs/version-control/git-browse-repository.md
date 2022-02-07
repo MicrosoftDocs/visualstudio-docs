@@ -9,9 +9,12 @@ ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ---
-# Browse Git repositories & compare commits in Visual Studio
+
+# Browse Git repos & compare commits in Visual Studio
 
 The **Git Changes** window provides a seamless way to interact with Git while coding without having to switch away from your code. But there are times when it makes more sense to focus on your Git repository. For example, you might need to get a good picture of what your team has been working on or maybe compare two commits to investigate a bug.
+
+You can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps.
 
 ## Browse through local and remote branches
 
