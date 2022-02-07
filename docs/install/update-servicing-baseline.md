@@ -27,7 +27,7 @@ In Visual Studio 2022, we vastly improved the experience of easily configuring a
 
 Under the covers, the update source location and corresponding notification flag is governed by the client's `--channelUri` value. 
    - For client machines that are attached to network layouts, this value is typically passed in via the `channelUri` value in the layout's customized response.json file. For more information, refer to [configuring client defaults when installing from a network layout](/visualstudio/install/create-a-network-installation-of-visual-studio?#configure-initial-client-installation-defaults-for-this-layout).
-   - For client machines that have installed the product using a bootstrapper from the internet, you can disable both the update notifications and the ability for Visual Studio to update from the internet by passing in a non-existant channelURI when the product is originally installed (example below). This approach will prevent you from receiving notifications about security updates, so while it's possible to do, we don't necesarrily recommend it.
+   - For client machines that have installed the product using a bootstrapper from the internet, you can disable both the update notifications and the ability for Visual Studio to update from the internet by passing in a non-existent channelURI when the product is originally installed (example below). This approach will prevent you from receiving notifications about security updates, so while it's possible to do, we don't recommend it.
    
 ```shell
 vs_enterprise.exe --channelUri c:\doesnotexist.chman
