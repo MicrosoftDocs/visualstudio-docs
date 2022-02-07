@@ -24,7 +24,7 @@ The Visual Studio administrator update package that is published to Microsoft Up
 Visual Studio administrator updates apply to Visual Studio servicing versions that are under support. For more information about which Visual Studio servicing baselines are still in support during a particular timeframe, see [Visual Studio Product Lifecycle and Servicing](/visualstudio/productinfo/vs-servicing-vs). All supported Visual Studio servicing baselines will be kept secure.  
 
 > [!NOTE]
-> Visual Studio administrator updates cause the client machines to download the product files from whereever the [client is configured to download updates from](/visualstudio/install/update-visual-studio#configure-source-location-of-updates-1) - either the internet or a network layout. Thus, Administrator updates can be used in scenarios where the client is not connected to the internet. For example, if the client is configured to obtain updates from a network layout, then the Administrator Updates can serve to trigger the clients to update themselves.  
+> Visual Studio administrator updates cause the client machines to download the product files from wherever the [client is configured to download updates from](/visualstudio/install/update-visual-studio#configure-source-location-of-updates-1) - either the internet or a network layout. Thus, Administrator updates can be used in scenarios where the client is not connected to the internet. For example, if the client is configured to obtain updates from a network layout, then the Administrator updates can serve to trigger the clients to update themselves.  
 
 ## Types and characteristics of administrator updates
 
