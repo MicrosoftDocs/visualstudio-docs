@@ -515,7 +515,7 @@ Change the body of the `OnGet()` method to the following code:
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-index-page-hello-world.png" alt-text="Screenshot shows the Home page for the web app in the browser window. The updated text says 'Hello World!'":::
 
-1. Close the web browser, press **Shift**+**F5** to stop debugging, and now you close Visual Studio.
+1. Close the web browser, press **Shift**+**F5** to stop debugging, and now you can close Visual Studio.
 
 ::: moniker-end
 
