@@ -29,7 +29,7 @@ This article walks you through building a C++ extension module for `CPython` tha
 The article also demonstrates two ways to make the C++ extension available to Python:
 
 - Use the standard `CPython` extensions, as described in the [Python documentation](https://docs.python.org/3/c-api/).
-- Use [PyBind11](https://github.com/pybind/pybind11), which we recommend for C++11 because of its simplicity.
+- Use [PyBind11](https://github.com/pybind/pybind11), which we recommend for C++11 because of its simplicity. To ensure compatibility, make sure that you are working with one of the more recent versions of Python. 
 
 You'll find the completed sample from this walkthrough on GitHub at [python-samples-vs-cpp-extension](https://github.com/Microsoft/python-sample-vs-cpp-extension).
 

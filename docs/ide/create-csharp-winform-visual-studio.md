@@ -261,7 +261,7 @@ Now that we've added a button control to create an action, let's add a label con
 To learn more, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
-> [Tutorial: Create a picture viewer](tutorial-1-create-a-picture-viewer.md)
+> [Tutorial: Create a picture viewer](tutorial-windows-forms-picture-viewer-layout.md)
 
 ## See also
 

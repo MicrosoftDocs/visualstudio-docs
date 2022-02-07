@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Angular"
 description: In this tutorial, you create an app using ASP.NET Core and Angular
-ms.date: 11/08/2021
+ms.date: 01/28/2022
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -34,7 +34,7 @@ Make sure to have the following installed:
 
 - Visual Studio 2022 Preview 2 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
-- npm ([https://www.npmjs.com/](https://www.npmjs.com/)) 
+- npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
 - Angular CLI ([https://angular.io/cli](https://angular.io/cli))
   This can be the version of your choice
 
@@ -44,7 +44,7 @@ Make sure to have the following installed:
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Create a new project":::
 
-1. Search for Angular in the search bar at the top and then select **Standalone Angular Template**.
+1. Search for Angular in the search bar at the top and then select **Standalone TypeScript Angular Template**.
 
    :::image type="content" source="media/vs-2022/angular-choose-template.png" alt-text="Choose a template":::
 
@@ -109,12 +109,19 @@ Before you start the project, make sure that the port numbers match.
 
    If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It should look similar to `https://localhost:7049`.
 
-1. Then, go to the *proxy.conf.js* file for your Angular project (look in the *src* folder). Update the target property to match the `applicationUrl` property in  *launchSettings.json*.
+1. Then, go to the *proxy.conf.js* file for your Angular project (look in the *src* folder). Update the target property to match the `applicationUrl` property in  *launchSettings.json*. When you update it, that value should look similar to this:
+
+   ```js
+   target: 'https://localhost:7049',
+   ```
 
 1. To start the project, press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
 
    - The ASP.NET Core API project running
    - The Angular CLI running the ng start command
+
+   >[!NOTE]
+   > Check console output for messages, such as a message instructing you to update your version of Node.js.
 
 You should see an Angular app appear, that is populated via the API.
 
