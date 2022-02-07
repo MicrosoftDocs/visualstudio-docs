@@ -152,7 +152,7 @@ We'll add three types of controls to this application: a <xref:System.Windows.Co
 
     Your window should resemble the following illustration:
 
-    ![TextBlock control on the Greetings form](../media/exploreide-greetingswithtextblockonly.png "Screenshot of the TextBlock control on the design surface of the Greetings form.")
+    ![TextBlock control on the MainWindow form](../media/explore-ide-window-with-textblock-only.png "Screenshot of the TextBlock control on the design surface of the MainWindow form.")
 
    The XAML markup should look something like the following example:
 
@@ -216,7 +216,7 @@ Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) c
 
    Your window should look like this:
 
-   ![Greetings form with TextBlock and two radio buttons](../media/exploreide-greetingswithradiobuttons.png "Screenshot of the Design window for Greetings.xaml, showing a TextBlock control and two RadioButton controls positioned on the design surface.")
+   ![MainWindow form with TextBlock and two radio buttons](../media/explore-ide-window-with-radio-buttons.png "Screenshot of the Design window for MainWindow.xaml, showing a TextBlock control and two RadioButton controls positioned on the design surface.")
 
 1. In the **Properties** window for the left RadioButton control, change the **Name** property (the property at the top of the **Properties** window) to `HelloButton`.
 
@@ -292,7 +292,7 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
 
      Your window should resemble the following illustration.
 
-     ![Greetings form with control labels](media/exploreide-greetingswithcontrollabels-cs.png "Screenshot of the Design window for Greetings.xaml showing a TextBlock control, two RadioButton controls labeled 'Hello' and 'Goodbye', and a button labeled 'Display'.")
+     ![MainWindow form with control labels](media/explore-ide-window-with-control-labels-cs.png "Screenshot of the Design window for MainWindow.xaml showing a TextBlock control, two RadioButton controls labeled 'Hello' and 'Goodbye', and a button labeled 'Display'.")
 
    The XAML markup should now look similar to the following example:
 
