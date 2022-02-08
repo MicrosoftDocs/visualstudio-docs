@@ -35,8 +35,6 @@
   items:
   - name: Git settings and preferences
     href: git-settings.md
-  - name: How Visual Studio makes source control easy
-    href: git-visual-studio-source-control.md
   - name: Compare Git and Team Explorer side-by-side
     href: git-team-explorer-feature-comparison.md
   - name: Release notes
