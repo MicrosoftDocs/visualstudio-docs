@@ -256,7 +256,7 @@ Go to specific points in your application's execution when you start debugging f
 
  [IntelliTrace Features](../debugger/intellitrace-features.md)
 
- [Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts&preserve-view=true)
+ [Collect more diagnostic data in manual tests](/azure/devops/test/collect-diagnostic-data)
 
  [IntelliTrace](../debugger/intellitrace.md)
 
