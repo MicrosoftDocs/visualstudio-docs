@@ -475,6 +475,13 @@
     href: service-essentials.md
   - name: List of Available Services
     href: list-of-available-services.md
+- name: Brokered Service Essentials
+# Auto-expanded node
+  items:
+  - name: Service Essentials
+    href: brokered-service-essentials.md
+  - name: Discovering available services
+    href: discover-available-brokered-services.md
 - name: Visual Studio Debugger Extensibility
   href: ../debugger/toc.yml
 - name: Source Control
