@@ -11,7 +11,7 @@ ms.topic: how-to
 ---
 # Install a preview version of Visual Studio for Mac
 
-Before a new version of Visual Studio for Mac is officially released, it's available as a preview. The preview release gives you a chance to try out new features and get the latest bug fixes before they are fully incorporated into the product.
+Before a new version of Visual Studio for Mac is officially released, it's available as a preview. The preview release gives you a chance to try out new features and get the latest bug fixes before they're fully incorporated into the product.
 
 Preview releases of Visual Studio for Mac are distributed as an update, rather than through a separate download. Visual Studio for Mac has two updater channels, as described in the [update](update.md) article: **Stable** and **Preview**.
 
