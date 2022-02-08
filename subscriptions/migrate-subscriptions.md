@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 80e3b300-f2fc-40d4-bbb2-c831a2fa5d34
-ms.date: 09/28/2021
+ms.date: 01/18/2022
 ms.topic: how-to
 description:  This article describes how admins can migrate assigned subscriptions from one agreement to another.
 ---
@@ -75,6 +75,8 @@ Take these steps to open your exported subscriptions list and move the relevant 
  
    Not all the fields in the exported CSV file are needed in the file that's used to upload your subscriptions to the new agreement. The fields appearing in **bold** in the previous list will appear in the template used to upload your list. 
 
+
+
 2. Download the Excel template that you'll use to upload your subscriptions.  
    1. Sign in to the [admin portal](https://manage.visualstudio.com).
    1. On the **Manage Subscribers** tab, select your new agreement in the dropdown list:
@@ -105,9 +107,13 @@ Take these steps to open your exported subscriptions list and move the relevant 
    | Language                   | Language           |
    | Subscription GUID          | Subscription GUID  |
 
+   > [!IMPORTANT] 
+   > Do not copy date from the **Subscription GUID** column into the bulk add template.  Including the GUIDs will cause the upload to fail.
+
    > [!TIP]
    > If you have a lot of subscribers, you might find it helpful to use keyboard shortcuts when you're copying and pasting data. 
-   > To select all the entries in a column like Subscriber Name, select the first entry in the column (not the column heading), select and hold **Ctrl+Shift**, and then select the Down arrow key. This will select all the data in that column.  
+   > To select all the entries in a column like Subscriber Name, select the first entry in the column (not the column heading), select and hold **Ctrl+Shift**, and then select the Down arrow key. This will select all the data in that column. 
+
 
 4. When all your data is moved to the bulk add template, save the template and close it. This list is the subscription list that you'll upload to your new agreement.
 
@@ -119,8 +125,8 @@ Take these steps to open your exported subscriptions list and move the relevant 
  
    In the admin portal, you might briefly see a status message stating that a file is being uploaded. When the upload is complete, you'll see the message **Subscribers updated successfully**.
 The migration of your subscribers from your old agreement to your new one is complete.  
-> [!NOTE]
-> After you add your subscribers to your new agreement, you should remove them from your old agreement. Removing them will prevent them from getting notifications about their old subscriptions.
+  > [!NOTE]
+  > After you add your subscribers to your new agreement, you should remove them from your old agreement. Removing them will prevent them from getting notifications about their old subscriptions.
 
 ## Resources
 - For help with managing Visual Studio subscriptions, see [Visual Studio Subscription support](https://aka.ms/vsadminhelp).

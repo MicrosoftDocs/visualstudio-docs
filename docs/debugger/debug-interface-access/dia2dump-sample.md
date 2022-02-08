@@ -56,7 +56,7 @@ By default, the installation directory is a protected directory. That means you 
 
 1. In a Developer command prompt window, change to the directory where you copied the sample files. If you didn't copy the sample to another directory, you must use an elevated (run as administrator) Developer command prompt window.
 
-1. Enter the command `nmake makefile` to build the default Debug configuration of dia2dump.exe.
+1. Enter the command `nmake all` to build the default Debug configuration of dia2dump.exe.
 
 ## Run the Dia2Dump sample
 

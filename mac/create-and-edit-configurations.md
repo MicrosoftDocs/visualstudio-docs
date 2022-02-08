@@ -1,8 +1,9 @@
 ---
 title: "Creating and Editing Build Configurations"
 description: "This article describes creating build configurations in Visual Studio for Mac"
-author: heiligerdankgesang
-ms.author: dominicn
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 09/18/2019
 ms.assetid: CC1B72D6-12FF-4CCC-A9D4-00F2DC14589F
 ms.custom: video
@@ -64,7 +65,7 @@ Then click **OK** to confirm.
 
 ## Related Video
 
-> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Launch-Multiple-Projects/player]
+> [!Video https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Launch-Multiple-Projects/player]
 
 ## See also
 

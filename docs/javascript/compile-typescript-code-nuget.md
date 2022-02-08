@@ -89,10 +89,10 @@ If Visual Studio is installed, then the node.exe bundled with it will automatica
 
    Source map files are required for debugging.
 
-1. If you want to compile every time you save the project, use the *compileOnSave* option in *.tsconfig.
+1. If you want to compile every time you save the project, use the *compileOnSave* option in *tsconfig.json*.
 
    ```json
-   ```{
+   {
       "compileOnSave":  true,
       "compilerOptions": {
       }

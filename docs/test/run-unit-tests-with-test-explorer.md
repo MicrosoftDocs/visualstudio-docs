@@ -1,7 +1,7 @@
 ---
 title: Run unit tests with Test Explorer
 description: Learn how to run tests with Test Explorer in Visual Studio. This topic covers how to enable automatic test runs after build, view test results, group and filter the test list, create playlists, and use test shortcuts.
-ms.date: 01/11/2021
+ms.date: 12/16/2021
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -32,8 +32,11 @@ When you build the test project, the tests appear in Test Explorer. If Test Expl
 ::: moniker range="vs-2017"
 ![Unit Test Explorer](../test/media/ute_failedpassednotrunsummary.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![Test Explorer](../test/media/vs-2019/test-explorer-16-2.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Test Explorer](../test/media/vs-2022/test-explorer-17-0.png)
 ::: moniker-end
 
 ::: moniker range="vs-2017"
@@ -48,8 +51,11 @@ You can perform much of the work of finding, organizing and running tests from t
 ::: moniker range="vs-2017"
 ![Run tests from the Test Explorer toolbar](../test/media/ute_toolbar.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![Run tests from the Test Explorer toolbar](../test/media/vs-2019/test-explorer-toolbar-diagram-16-2.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+:::image type="content" source="../test/media/vs-2022/test-explorer-toolbar-diagram-17-0.png" alt-text="Run tests from the Test Explorer toolbar":::
 ::: moniker-end
 
 ### Run tests
@@ -103,8 +109,11 @@ To view the details of an individual test, select the test.
 ::: moniker range="vs-2017"
 ![Test execution details](../test/media/ute_testdetails.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![Test execution details](../test/media/vs-2019/test-explorer-detail.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Test execution details](../test/media/vs-2022/test-explorer-details.png)
 ::: moniker-end
 
 The test details pane displays the following information:
@@ -136,7 +145,7 @@ To change the way that tests are organized, choose the down arrow next to the **
 
 ![Group tests by category in Test Explorer](../test/media/ute_groupbycategory.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 Test Explorer lets you group your tests into a hierarchy. The default hierarchy grouping is **Project**, **Namespace**, and then **Class**. To change the way that tests are organized, choose the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and select a new grouping criteria.
 
 ![Group tests by category in Test Explorer](../test/media/vs-2019/test-explorer-groupby-162.png)
@@ -144,6 +153,15 @@ Test Explorer lets you group your tests into a hierarchy. The default hierarchy 
 You can define your own levels of the hierarchy and group by **State** and then **Class** for example by selecting Group By options in your preferred order.
 
 ![Screenshot of the Visual Studio Test Explorer showing  a test hierarchy in one pane and the Group By menu in the other with the Class and State options checked.](../test/media/vs-2019/test-explorer-groupby-state-16-2.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+Test Explorer lets you group your tests into a hierarchy. The default hierarchy grouping is **Project**, **Namespace**, and then **Class**. To change the way that tests are organized, choose the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and select a new grouping criteria.
+
+![Group tests by category in Test Explorer](../test/media/vs-2022/test-explorer-groupby-17-0.png)
+
+You can define your own levels of the hierarchy and group by **State** and then **Class** for example by selecting Group By options in your preferred order.
+
+![Screenshot of the Visual Studio Test Explorer showing  a test hierarchy in one pane and the Group By menu in the other with the Class and State options checked.](../test/media/vs-2022/test-explorer-groupby-state-17-0.png)
 ::: moniker-end
 
 ### Test Explorer groups
@@ -182,7 +200,6 @@ In the Microsoft unit test framework for managed apps, you define a trait name/ 
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute>|The TestCategory attribute enables you to specify the category of a unit test.|
 |<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute>|The TestProperty attribute enables you to define trait category/value pair.|
 
-
 **Traits in the Microsoft Unit Testing Framework for C++**
 
 See [How to use the Microsoft Unit Testing Framework for C++](how-to-use-microsoft-test-framework-for-cpp.md).
@@ -202,7 +219,7 @@ You can create and save a list of tests that you want to run or view as a group.
 
 If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![Screenshot of the Parallel test execution toggle button on the Visual Studio Test Explorer toolbar.](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 ::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 You can create and save a list of tests that you want to run or view as a group. When you select a playlist, the tests in the list are displayed in a new Test Explorer tab. You can add a test to more than one playlist.
 
 **To create a playlist**, choose one or more tests in Test Explorer. On the right-click menu, choose **Add to Playlist** > **New Playlist**.
@@ -252,7 +269,57 @@ Use the following format for xUnit. Make sure there is a space between your `Tes
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range=">=vs-2022"
+You can create and save a list of tests that you want to run or view as a group. When you select a playlist, the tests in the list are displayed in a new Test Explorer tab. You can add a test to more than one playlist.
+
+**To create a playlist**, choose one or more tests in Test Explorer. On the right-click menu, choose **Add to Playlist** > **New Playlist**.
+
+![Create a playlist](../test/media/vs-2022/test-explorer-playlist-17-0.png)
+
+The playlist opens in a new Test Explorer tab. You can use this playlist once and then discard it, or you can click the **Save** button in the playlist window's toolbar, and then select a name and location to save the playlist.
+
+![Playlist opens in separate test explorer tab](../test/media/vs-2022/test-explorer-playlist-tab-17-0.png)
+
+**To create a playlist**, choose one or more tests in Test Explorer. Right-click and choose **Add to Playlist** > **New playlist**.
+
+**To open a playlist**, choose the playlist icon in the Visual Studio toolbar and select a previously saved playlist file from the menu.
+
+**To edit a playlist**, you can right-click on any test and use the menu options to add or remove it from a playlist.
+
+Starting in Visual Studio 2019 version 16.7, you can choose the **Edit** button in the toolbar. Check boxes will appear next to your tests showing what tests are included and excluded in the playlist. Edit groups as desired.
+
+![Edit Playlist button](../test/media/vs-2022/test-explorer-playlist-edit-17-0.png)
+
+You can also check or uncheck the boxes of the parent groups in the hierarchy. This action creates a dynamic playlist that always updates the playlist based on the tests that are in that group. For example, if you place a check mark next to a class, any test added from that class becomes part of this playlist. If you delete a test from that class, it is removed from the playlist. You can learn more about the rules by saving the playlist with the Save button in the toolbar and opening the *.playlist* file that is created on your disk. This file lists all the rules and individual tests that make up a playlist.
+
+![Playlist xml file](../test/media/vs-2022/test-explorer-playlist-xml-file.png)
+
+If you would like to make a playlist for traits, use the following format for MSTest.
+```xml
+<Playlist Version="2.0">
+	<Rule Name="Includes" Match="Any">
+		<Property Name="Trait" Value="SchemaUpdateBasic" />
+	</Rule>
+</Playlist>
+```
+
+Use the following format for xUnit. Make sure there is a space between your `TestCategory` name and the `[Value]`.
+```xml
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+        <Rule Match="Any">
+            <Property Name="Trait" Value="TestCategory [Value]" />
+	    </Rule>
+	</Rule>
+  </Rule>
+</Playlist>
+```
+
+::: moniker-end
+
+::: moniker range="vs-2019"
 ### Test Explorer columns
 
 The [groups](#test-explorer-groups) are also available as columns in Test Explorer, along with Trait, Stack Trace, Error Message, and Fully Qualified Name. Most columns are not visible by default, and you can customize which columns you see and the order in which they appear.
@@ -272,6 +339,26 @@ Columns can be filtered, sorted, and rearranged.
 
   ![Column sort](../test/media/vs-2019/test-explorer-sort-column-16-2.png)
 ::: moniker-end
+::: moniker range=">=vs-2022"
+### Test Explorer columns
+
+The [groups](#test-explorer-groups) are also available as columns in Test Explorer, along with Trait, Stack Trace, Error Message, and Fully Qualified Name. Most columns are not visible by default, and you can customize which columns you see and the order in which they appear.
+
+![Screenshot of the Visual Studio Test Explorer showing a menu with Columns selected and a sub-menu with Duration, Traits, and Error Message selected.](../test/media/vs-2022/test-explorer-columns-17-0.png)
+
+### Filter, sort, and rearrange test columns
+
+Columns can be filtered, sorted, and rearranged.
+* To filter to specific traits, click the filter icon at the top of the Traits column.
+
+  ![Column filter](../test/media/vs-2022/test-explorer-filter-column-17-0.png)
+
+* To change the order of the columns, click on a column header and drag it left or right.
+
+* To sort a column, click on the column header. Not all columns can be sorted. You can also sort by a secondary column by holding the **Shift** key and clicking on an additional column header.
+
+  ![Column sort](../test/media/vs-2022/test-explorer-sort-column-17-0.png)
+::: moniker-end
 
 ## Search and filter the test list
 
@@ -290,8 +377,11 @@ To filter by a different criteria:
 ::: moniker range="vs-2017"
 ![Filter tests in Test Explorer](../test/media/ute_filtertestlist.png)
 ::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![Filter tests in Test Explorer](../test/media/vs-2019/test-explorer-search-filter-16-2.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Filter tests in Test Explorer](../test/media/vs-2022/test-explorer-search-filter-17-0.png)
 ::: moniker-end
 
 > [!NOTE]
@@ -372,12 +462,13 @@ Tests can be run from Test Explorer by right-clicking in the code editor on a te
 
 ::: moniker range=">=vs-2019"
 ## Test audio cue
-Test Explorer can play a sound when a test run completes. There are two sounds: one sound to indicate the test run succeeded with all passing tests, and a second sound to indicate the test run completed with at least one failing test. You can set up these sounds in the default Windows 10 sound dialog. This feature is available starting in Visual Studio 2019 Update 16.9 Preview 3.
 
-1. Open the default Windows 10 sound dialog.
+Test Explorer can play a sound when a test run completes. There are two sounds: one sound to indicate the test run succeeded with all passing tests, and a second sound to indicate the test run completed with at least one failing test. You can set up these sounds in the default Windows 11 sound dialog. This feature is available starting in Visual Studio 2019 Update 16.9 Preview 3.
+
+1. Open the default Windows 11 sound dialog.
 2. Navigate to the **Sounds** tab.
 3. Find the **Microsoft Visual Studio** category. Choose the **Test Run Succeeded** or **Test Run Failed** sounds to select the preset sounds or browse to your own audio file.  
-![Windows 10 sound dialog](../test/media/default-windows-10-sound-dialog.png)
+![Windows 10 sound dialog](../test/media/default-windows-11-sound-dialog.png)
 
 ::: moniker-end
 ## See also
