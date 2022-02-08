@@ -29,9 +29,9 @@ Version control with Visual Studio is easy with Git.  We meet you where you are.
 
 To get started using Git with Visual Studio:
 
-- If you already have a Git repo hosted on a Git provider like GitHub, you can [clone the repository](git-clone-repository.md) to your local machine, and get started. 
+- If you have a Git repo hosted on a Git provider like GitHub, [clone the repository](git-clone-repository.md) to your local machine. 
 
-- Otherwise, you can easily [add your code to Git and GitHub using the create new repository experience](git-create-repository.md).
+- Otherwise, easily [add your code to Git and GitHub using the create new repository experience](git-create-repository.md).
 
 If you don't have a Git provider yet, we recommend you start with GitHub since the Git experience in Visual Studio is optimized for this provider. GitHub offers free and secured cloud code storage where you can store your code and access it from any device, anywhere.   
 
