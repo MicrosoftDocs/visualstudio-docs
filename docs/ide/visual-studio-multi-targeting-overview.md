@@ -43,7 +43,7 @@ When you work on a project that targets an earlier framework version, Visual Stu
 
 - It filters items in the **Add New Item** dialog box, the **Add New Reference** dialog box, and the **Add Service Reference** dialog box to omit choices that are not available in the targeted version.
 
-- It filters custom controls in the **Toolbox** to remove those that are not available in the targeted version and to show the only the most up-to-date controls when multiple controls are available.
+- It filters custom controls in the **Toolbox** to remove those that are not available in the targeted version and to show only the most up-to-date controls when multiple controls are available.
 
 - It filters **IntelliSense** to omit language features that aren't available in the targeted version.
 

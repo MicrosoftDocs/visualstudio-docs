@@ -20,7 +20,6 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.HTML.General
 - VS.ToolsOptionsPages.Text_Editor.HTML_(Web_Forms).General
 - VS.ToolsOptionsPages.Text_Editor.JavaScript.General
-- VS.ToolsOptionsPages.Text_Editor.TypeScript.General
 - VS.ToolsOptionsPages.Text_Editor.JSON.General
 - VS.ToolsOptionsPages.Text_Editor.LESS.General
 - VS.ToolsOptionsPages.Text_Editor.Plain_Text.General

@@ -46,7 +46,7 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 #### <a name="TFS2013"></a> Team Foundation Server 2013
  Set up your build pipeline to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.
 
-1. [Edit your build pipeline or create a new build pipeline.](/azure/devops/pipelines/get-started-designer?view=vsts&preserve-view=true)
+1. [Edit your build pipeline or create a new build pipeline.](/azure/devops/pipelines/customize-pipeline)
 
      ![View build pipeline in TFS 2013](../debugger/media/ffr_tfs2013viewbuilddefinition.png "FFR_TFS2013ViewBuildDefinition")
 

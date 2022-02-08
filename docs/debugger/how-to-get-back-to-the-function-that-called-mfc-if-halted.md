@@ -4,8 +4,6 @@ description: Understand how to get back to the function that called MFC if execu
 
 ms.date: 11/04/2016
 ms.topic: how-to
-f1_keywords: 
-  - vs.debug.mfc
 dev_langs: 
   - CSharp
   - VB

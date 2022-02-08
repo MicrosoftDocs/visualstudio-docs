@@ -9,8 +9,8 @@ f1_keywords:
   - "vs.toolsoptionspages.r_tools"
   - "vs.toolsoptionspages.r_tools.advanced"
   - "vs.toolsoptionspages.r_tools.#150"
-author: kraigb
-ms.author: kraigb
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-rtvs
 ms.workload:

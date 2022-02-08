@@ -2,12 +2,12 @@
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.date: 03/23/2020
+ms.date: 01/03/2022
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
 ---
-## Get support
+## Support or troubleshooting
 
 Sometimes, things can go wrong. If your Visual Studio installation fails, see [Troubleshoot Visual Studio installation and upgrade issues](../troubleshooting-installation-issues.md) for step-by-step guidance.
 

@@ -7,7 +7,7 @@ f1_keywords:
   - vs.performance.rules.DAReflection
   - vs.performance.12
   - vs.performance.rules.DA0012
-  - vs.performance.DA0011
+  - vs.performance.DA0012
 ms.assetid: c92a1d76-21fa-426e-8b1b-a3c08e9bcbca
 author: mikejo5000
 ms.author: mikejo

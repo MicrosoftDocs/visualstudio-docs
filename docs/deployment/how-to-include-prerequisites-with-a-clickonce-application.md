@@ -25,7 +25,7 @@ Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](..
     By default, the path is `%ProgramFiles(x86)%\Microsoft SDKs\ClickOnce Bootstrapper\Packages\`.
 
 >[!NOTE]
-> Starting with the Visual Studio 2019 Update 7 release bootstrapper packages will also be discovered under the path *<VS Install Path>\MSBuild\Microsoft\VisualStudio\BootstrapperPackages*.
+> Starting with the Visual Studio 2019 Update 7 release bootstrapper packages will also be discovered under the path `<VS Install Path>\MSBuild\Microsoft\VisualStudio\BootstrapperPackages`.
 
 2. Open the folder for the prerequisite that you want to add, and then open the language folder for your installed version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (for example, **en** for English).
 

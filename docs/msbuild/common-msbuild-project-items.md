@@ -45,7 +45,7 @@ Represents a COM (unmanaged) component reference in the project. This item appli
 |Item metadata name|Description|
 |---------------|-----------------|
 |Name|Optional string. The display name of the component.|
-|Guid|Required string. A GUID for the component, in the form {12345678-1234-1234-1234-1234567891234}.|
+|Guid|Required string. A GUID for the component, in the form {12345678-1234-1234-1234-123456781234}.|
 |VersionMajor|Required string. The major part of the version number of the component. For example, "5" if the full version number is "5.46."|
 |VersionMinor|Required string. The minor part of the version number of the component. For example, "46" if the full version number is "5.46."|
 |EmbedInteropTypes|Optional boolean. If true, embed the interop types from this reference directly into your assembly rather than generating an interop DLL.|
@@ -78,7 +78,7 @@ Represents a reference to another project. `ProjectReference` items are transfor
 |---------------|-----------------|
 |Name|Optional string. The display name of the reference.|
 |GlobalPropertiesToRemove|Optional `string[]`. Names of properties to remove when building the referenced project, for example `RuntimeIdentifier;PackOnBuild`. Defaults to empty.|
-|Project|Optional string. A GUID for the reference, in the form {12345678-1234-1234-1234-1234567891234}.|
+|Project|Optional string. A GUID for the reference, in the form {12345678-1234-1234-1234-123456781234}.|
 |OutputItemType|Optional string. Item type to emit target outputs into. Default is blank. If the Reference metadata is set to "true" (default) then target outputs will become references for the compiler.|
 |ReferenceOutputAssembly|Optional boolean. If set to `false`, does not include the output of the referenced project as a [Reference](#reference) of this project, but still ensures that the other project builds before this one. Defaults to `true`.|
 |SetConfiguration|Optional string. Sets the global property `Configuration` for the referenced project, for example `Configuration=Release`.|

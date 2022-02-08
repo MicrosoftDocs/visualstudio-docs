@@ -1,6 +1,7 @@
-- name: Version control documentation
+- name: Visual Studio version control docs
   href: index.yml
 - name: Overview
+  expanded: true
   items:
   - name: Git experience in Visual Studio
     href: git-with-visual-studio.md
@@ -12,7 +13,7 @@
     href: git-clone-repository.md
   - name: Create a repo
     href: git-create-repository.md
-- name: Day-to-day workflow
+- name: Innerloop workflow
   items:
   - name: Create a branch
     href: git-create-branch.md
@@ -30,7 +31,7 @@
     href: git-manage-repository.md
   - name: Resolve merge conflicts
     href: git-resolve-conflicts.md
-- name: Reference
+- name: Resources
   items:
   - name: Git settings and preferences
     href: git-settings.md
@@ -38,9 +39,5 @@
     href: git-visual-studio-source-control.md
   - name: Compare Git and Team Explorer side-by-side
     href: git-team-explorer-feature-comparison.md
-- name: What's new
-  items:
-  - name: Multi-repo support in Visual Studio 2022
-    href: https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/
-  - name: Visual Studio 2022 release notes
+  - name: Release notes
     href: /visualstudio/releases/2022/release-notes
