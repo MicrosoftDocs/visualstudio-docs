@@ -58085,6 +58085,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/version-control/git-visual-studio-source-control.md",
+      "redirect_url": "/visualstudio/version-control/git-with-visual-studio",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/quickstart-fsharp.md",
       "redirect_url": "/visualstudio/get-started/tutorial-fsharp-web-app",
       "redirect_document_id": true

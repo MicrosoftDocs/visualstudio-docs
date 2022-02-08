@@ -10,15 +10,15 @@ ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ---
-# Clone a repo in Visual Studio
+# Clone a Git repository in Visual Studio
 
-Visual Studio makes it easy to clone a GitHub repo or an Azure DevOps repo right from the IDE. You can also sign in to GitHub or Azure DevOps while you do so. Here's how.
+Visual Studio makes it easy to clone a repository right from the IDE. You can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps. 
+
 
 ## Prerequisites
 
 To follow this article, you'll need:
 + [Visual Studio installed](../install/install-visual-studio.md)
-
 + [A GitHub user account](git-create-github-account.md)
 
 ## Clone a GitHub repo and sign in
