@@ -1,5 +1,5 @@
 ---
-title: "Build Actions"
+title: "Set build actions"
 description: "This article describes the various build actions that can be used for C# projects"
 author: jmatthiesen
 ms.author: jomatthi
@@ -8,9 +8,9 @@ ms.date: 09/18/2019
 ms.topic: conceptual
 ms.assetid: 5399BCB1-E317-4C7B-87B1-C531E985DE6E
 ---
-# Build actions
+# Configure build actions
 
-All files in a Visual Studio for Mac project have a build action. The build action controls what happens to the file during a build. 
+All files in a Visual Studio for Mac project have a build action. The build action controls what happens to the file when the project is compiled. 
 
 >[!NOTE]
 >This topic applies to Visual Studio for Mac. For Visual Studio on Windows, see [Build actions](/visualstudio/ide/build-actions).
