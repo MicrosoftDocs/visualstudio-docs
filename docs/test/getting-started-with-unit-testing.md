@@ -66,7 +66,7 @@ This section describes how to create a unit test project.
    Starting in Visual Studio 2017 version 14.8, the .NET languages include built-in templates for NUnit and xUnit. For C++, in this example select the **Native Unit Test** project, which uses Microsoft Native Unit Test Framework. (To use a different C++ test framework, see [Writing unit tests for C/C++](../test/writing-unit-tests-for-c-cpp.md)). For Python, see [Set up unit testing in Python code](../python/unit-testing-python-in-visual-studio.md) to set up your test project.
 
    > [!TIP]
-   > For C# only, you can create unit test projects from code using a faster method. For more information, see [Create unit test projects and test methods](../test/unit-test-basics.md#create-unit-test-projects-and-test-methods-c). To use this method with .NET Core or .NET Standard, Visual Studio 2019 is required.
+   > For C# only, you can create unit test projects from code using a faster method. For more information, see [Create unit test projects and test methods](../test/unit-test-basics.md#create-unit-test-projects-and-test-methods-c). To use this method with .NET Core or .NET Standard, Visual Studio 2019 or later is required.
 
    The following illustration shows an MSTest unit test, which is supported in .NET.
 
