@@ -1,7 +1,7 @@
 ---
 title: The Git experience in Visual Studio
 titleSuffix: ""
-description: Learn how the new integrated Git experience in Visual Studio can help you be more productive.
+description: Learn how Git makes source control in Visual Studio more productive.
 ms.date: 02/06/2022
 ms.topic: overview
 author: Taysser-Gherfal
@@ -12,14 +12,14 @@ ms.technology: vs-ide-general
 
 ---
 
-#  How Visual Studio makes source control easy with Git
+#  How Visual Studio makes version control easy with Git
 
-Have you ever wished you could go back to a previously working version of your code? Do you find yourself manually storing copies of your code in different locations as a backup? Well, source control is the answer. With source control, you can track the code changes you make over time and you can revert to specific versions. 
+Have you ever wished you could go back to a previously working version of your code? Do you find yourself manually storing copies of your code in different locations as a backup? Well, version control is the answer.  
 
-Git is the most widely used modern version control system. So whether you're a professional developer or if you’re learning how to code, Visual Studio's Git experience can be very useful to you. 
+Git is the most widely used modern version control system. With Git, you can track the code changes you make over time and you can revert to specific versions.  So whether you're a professional developer or if you’re learning how to code, Visual Studio's Git experience can be very useful to you. 
 
 >[!Tip]
-> To learn about using Git and GitHub in Visual Studio with open-source projects, sign up for the [Git learning series](https://visualstudio.microsoft.com/vs/github/) on the **Visual Studio and GitHub better together** web page.
+> To learn about using Git and GitHub in Visual Studio, sign up for the [Git learning series](https://visualstudio.microsoft.com/vs/github/) on the **Visual Studio and GitHub better together** web page.
 
 ::: moniker range=">=vs-2022"
 
@@ -27,13 +27,11 @@ Git is the most widely used modern version control system. So whether you're a p
 
 Version control with Visual Studio is easy with Git.  We meet you where you are. You can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps. Or, you can work locally with no provider at all.  
 
-There are three ways to start using Git with Visual Studio to be more productive:
+To get started using Git with Visual Studio:
 
-- [Clone an existing Git repository](git-clone-repository.md). Create a copy of an existing Git repository from elsewhere and get that Git repository on your local machine, ready for work.  Find open-source repositories on GitHub or use one you already have. 
+- If you already have a Git repo hosted on a Git provider like GitHub, you can [clone the repository](git-clone-repository.md) to your local machine, and get started. 
 
-- [Create a new Git repository](#create-a-new-git-repository-in-visual-studio-2019). If you already have code that's not associated with Git, you can start by creating a new Git repository.
-
-- [Open an existing repository](git-clone-repository.md#open-an-existing-local-repository). If your code is already on your machine, you can open it by using **File** > **Open** > **Project/Solution** (or **Folder**) and Visual Studio automatically detects if it has an initialized Git repository.
+- Otherwise, you can easily [add your code to Git and GitHub using the create new repository experience](git-create-repository.md).
 
 If you don't have a Git provider yet, we recommend you start with GitHub since the Git experience in Visual Studio is optimized for this provider. GitHub offers free and secured cloud code storage where you can store your code and access it from any device, anywhere.   
 
