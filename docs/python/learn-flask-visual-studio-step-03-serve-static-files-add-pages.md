@@ -19,7 +19,7 @@ ms.workload:
 
 **Previous step: [Create a Flask app with views and page templates](learn-flask-visual-studio-step-02-create-app.md)**
 
-In the previous steps of this tutorial, you've learned how to create a minimal Flask app with a single page of self-contained HTML. Modern web apps are typically composed of many pages, and make use of shared resources like CSS and JavaScript files to provide consistent styling and behavior.
+In the previous steps of this tutorial, you've learned how to create a minimal Flask app with a single page of self-contained HTML. Modern web apps are typically composed of many pages, and use shared resources like CSS and JavaScript files to provide consistent styling and behavior.
 
 In this step, you learn how to:
 
@@ -46,7 +46,7 @@ Answer: The Visual Studio project file (*.pyproj*) contains a project type ident
 
 ## Step 3-2: Serve static files from your app
 
-In a web app built with Python (using any framework), your Python files always run on the web host's server and are never transmitted to a user's computer. Other files such as CSS and JavaScript, are used exclusively by the browser, so the host server simply delivers them as it is whenever they're requested. Such files are referred to as "static" files, and Flask can deliver them automatically without you needing to write any code. Within HTML files, for example, you can refer to static files using a relative path in the project. The first section in this step adds a CSS file to your existing page template.
+In a web app built with Python (using any framework), your Python files always run on the web host's server and are never transmitted to a user's computer. Other files such as CSS and JavaScript, are only used by the browser, so the host server simply delivers them as it is whenever they're requested. Such files are referred to as "static" files, and Flask can deliver them automatically without you needing to write any code. Within HTML files, for example, you can refer to static files using a relative path in the project. The first section in this step adds a CSS file to your existing page template.
 
 When you need to deliver a static file from code, such as through an API endpoint implementation, Flask provides a convenient method that lets you refer to files using relative paths within a folder named *static* (in the project root). The second section in this step demonstrates that method using a simple static data file.
 
@@ -270,7 +270,7 @@ The following steps demonstrate inheritance:
     {% endblock %}
     ```
 
-1. Run the server to observe the results. When you are done, close the server.
+1. Run the server to observe the results. When you're done, close the server.
 
     ![Running app showing the nav bar](media/flask/step-03-nav-bar.png)
 
