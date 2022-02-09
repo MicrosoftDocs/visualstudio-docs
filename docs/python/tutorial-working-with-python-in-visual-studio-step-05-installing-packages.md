@@ -25,8 +25,6 @@ The Python developer community has produced thousands of useful packages that yo
 
 1. Select the **View** > **Other Windows** > **Python Environments** menu command. The **Python Environments** window opens as a peer to **Solution Explorer** and shows the different environments available to you. The list shows both environments that you installed using the Visual Studio installer and environments you installed separately. That includes global, virtual, and conda environments. The environment in bold is the default environment that's used for new projects. For more information about working with environments, see [How to create and manage Python environments in Visual Studio environments](managing-python-environments-in-visual-studio.md).
 
-   The Python environments window shows the different environments that are available to you. The list shows both environments that you installed using the Visual Studio installer, and environments that you installed separately. These environments include global, virtual, and conda environments. The environment in bold is the default environment that's used for new projects. For more information about working with environments, see [How to create and manage Python environments in Visual Studio environments](managing-python-environments-in-visual-studio.md).
-
    :::moniker range=">=vs-2022"
    ![Python Environments window-2022](media/environments/environments-default-view-2022.png)
    :::moniker-end
@@ -48,9 +46,9 @@ The Python developer community has produced thousands of useful packages that yo
    ![Python Environments-2019](media/environments/environments-view-all-2019.png)
    :::moniker-end
 
-1. Now, create a new project with **File** > **New** > **Project**, selecting the **Python Application** template.
+2. Now, create a new project with **File** > **New** > **Project**, selecting the **Python Application** template.
 
-1. In the code file that appears, paste the following code, which creates a cosine wave like the previous tutorial steps, only this time plotted graphically. You can also use the project you previously created and replace the code.
+3. In the code file that appears, paste the following code, which creates a cosine wave like the previous tutorial steps, only this time plotted graphically. You can also use the project you previously created and replace the code.
 
     ```python
     from math import radians
@@ -65,7 +63,7 @@ The Python developer community has produced thousands of useful packages that yo
     main()
     ```
 
-1. In the editor window, hover over the `numpy` and `matplotlib` import statements. You'll notice that they aren't resolved. To resolve the import statements, install the packages to the default global environment.
+4. In the editor window, hover over the `numpy` and `matplotlib` import statements. You'll notice that they aren't resolved. To resolve the import statements, install the packages to the default global environment.
    :::moniker range=">=vs-2022"
    ![Unresolved package import-2022](media/packages-unresolved-import-2022.png)
    :::moniker-end
@@ -78,7 +76,7 @@ The Python developer community has produced thousands of useful packages that yo
 
     For example, select **Open interactive window** and an **Interactive window** for that specific environment appears in Visual Studio.
 
-1. The **Packages** tab in the Python Environments window lists all packages that are currently installed in the environment.
+6. The **Packages** tab in the Python Environments window lists all packages that are currently installed in the environment.
 
 ## Install packages using the Python Environments window
 
