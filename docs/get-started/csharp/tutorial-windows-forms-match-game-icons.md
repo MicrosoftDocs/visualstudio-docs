@@ -154,11 +154,11 @@ To get your game to work this way, add a <xref:System.Windows.Forms.Control.Clic
    Be sure that every label is selected.
 
 1. In the **Properties** window, select the **Events** button, which is a lightening bolt.
-   For the **Click** event, select **label_Click** in the box.
+   For the **Click** event, select **label1_Click** in the box.
 
      ![Screenshot shows the Properties window showing Click event.](../media/tutorial-windows-forms-match-game-icons/click-event.png)
 
-1. Select the **Enter** key. The IDE adds a `Click` event handler called **label_Click()** to the code.
+1. Select the **Enter** key. The IDE adds a `Click` event handler called **label1 _Click()** to the code.
    Because you selected all the labels, the handler is hooked to each of the labels.
 
 1. Fill in the rest of the code.
@@ -167,7 +167,7 @@ To get your game to work this way, add a <xref:System.Windows.Forms.Control.Clic
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb" id="Snippet4":::
 
    > [!NOTE]
-   > If you copy and paste the `label_Click()` code block rather than entering the code manually, be sure to replace the existing `label_Click()` code.
+   > If you copy and paste the `label1_Click()` code block rather than entering the code manually, be sure to replace the existing `label1_Click()` code.
    > Otherwise, you'll end up with a duplicate code block.
 
 1. Select **Debug** > **Start Debugging** to run your program. You should see an empty form with a blue background. Choose any of the cells in the form. One of the icons should become visible. Continue choosing different places in the form. As you choose the icons, they should appear.
