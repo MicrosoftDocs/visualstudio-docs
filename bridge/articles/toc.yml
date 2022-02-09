@@ -1,4 +1,4 @@
-- name: Bridge to Kubernetes
+- name: Bridge to Kubernetes documentation
   href: index.yml
 - name: Overview
   href: overview-bridge-to-kubernetes.md
