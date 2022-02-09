@@ -31,7 +31,7 @@ Below is a list of errors that may occur when using managed data breakpoints. Th
 
   - The support for managed data breakpoints began in .NET Core 3.0. It is currently not supported in .NET Framework, versions of .NET Core under 3.0, or versions of .NET under 5.0.3. 
     
-  - **Solution**: The solution to this would be to upgrade your project to .NET Core 3.0.
+  - **Solution**: The solution to this would be to upgrade your project to .NET Core 3.x or .NET 5+.
 
 - *"The value cannot be found on the managed heap and cannot be tracked."*
   - Variable declared on the stack.
@@ -86,5 +86,5 @@ For any issues or suggestions about this feature, please let us know via Help > 
 
 ## See also
 
-- [Using "Break when Value changes" in .NET Core 3.0](using-breakpoints.md#BKMK_set_a_data_breakpoint_native_cplusplus).
+- [Using "Break when Value changes" in .NET](using-breakpoints.md#BKMK_set_a_data_breakpoint_managed).
 - [DevBlog: Break When Value Changes: Data Breakpoints for .NET Core in Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/break-when-value-changes-data-breakpoints-for-net-core-in-visual-studio-2019/)

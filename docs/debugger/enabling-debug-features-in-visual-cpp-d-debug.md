@@ -4,8 +4,6 @@ description: In Visual C++ you enable debugging features by defining _DEBUG. Lea
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug"
 dev_langs:
   - "CSharp"
   - "VB"

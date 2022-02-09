@@ -1,8 +1,8 @@
 ---
 title: "Tutorial: Open a project from a repo in Visual Studio"
-description: "Learn how to open a project in a Git or Azure DevOps repository with Visual Studio."
+description: "Learn how to open a project in a Git or Azure DevOps repository that you've cloned by using Visual Studio."
 ms.custom: "vs-acquisition, get-started"
-ms.date: 11/11/2021
+ms.date: 01/31/2022
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -16,8 +16,8 @@ ms.workload:
   - "dotnetcore"
 ---
 # Tutorial: Open a project from a repo
-F
-In this tutorial, you'll use Visual Studio to connect to a repository for the first time and then open a project from it.
+
+In this tutorial, you'll use Visual Studio to connect to a repository for the first time, clone it, and then open a project from it.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
@@ -39,13 +39,13 @@ Here's how.
 
 1. Enter or type the repository location, and then select the **Clone** button.
 
-    :::image type="content" source="../ide/media/vs-2022/clone-repository-enter-location.png" alt-text="[Screenshot of the Clone a Repository dialog in Visual Studio where you enter a Git repo URL.":::
+    :::image type="content" source="../ide/media/vs-2022/clone-repository-enter-location.png" alt-text="Screenshot of the Clone a Repository dialog in Visual Studio where you enter a Git repo URL.":::
 
 1. You might be asked for your user sign-in information in the **Git User Information** dialog box. You can either add your information or edit the default information it provides.
 
     :::image type="content" source="../ide/media/vs-2022/git-user-information-dialog.png" alt-text="Screenshot of the Git User Information dialog where you enter or edit your account info in Visual Studio 2022.":::
 
-    Select **Save** to add the info to your global .gitconfig file. (Or, you can choose to do this later by selecting **Cancel**.)
+    Select **Save** to add the info to your global .gitconfig file. (Or, you can select **Cancel** if you'd like to add the info later.)
 
     > [!TIP]
     > For more information about signing in to Visual Studio, see the [**Sign in to Visual Studio**](../ide/signing-in-to-visual-studio.md?view=vs-2022&preserve-view=true) page. For specific information about how to use your GitHub account to sign in, see the [**Work with GitHub accounts in Visual Studio**](../ide/work-with-github-accounts.md?view=vs-2022&preserve-view=true) page. And if you receive a trust notification and want to know more about it, see the [Configure trust settings for files and folders](../ide/reference/trust-settings.md?view=vs-2022&preserve-view=true) page.
@@ -90,7 +90,7 @@ Here's how.
 
 1. In the Visual Studio IDE, select the **Git** menu, and then select **Clone Repository**.
 
-    :::image type="content" source="../ide/media/vs-2022/git-menu-clone-repository.png" alt-text="Screenshot of the 'Screenshot of the Git menu in Visual Studio 2022 with Clone Repository selected.":::
+    :::image type="content" source="../ide/media/vs-2022/git-menu-clone-repository.png" alt-text="Screenshot of the Git menu in Visual Studio 2022 with Clone Repository selected.":::
 
 1. Follow the prompts to connect to the Git repository that includes the files you're looking for.
 
@@ -98,7 +98,7 @@ Here's how.
 
 1. In the Visual Studio IDE, select the **Git** menu, select **Local Repositories**, and then select **Open Local Repository**.
 
-    :::image type="content" source="../ide/media/vs-2022/git-menu-local-repositories.png" alt-text="Screenshot of the 'Screenshot of the Git menu in Visual Studio 2022 with the Local Repository and Open Local Repository showing.":::
+    :::image type="content" source="../ide/media/vs-2022/git-menu-local-repositories.png" alt-text="Screenshot of the Git menu in Visual Studio 2022 with the Local Repository and Open Local Repository showing.":::
 
     Alternatively, you can perform the same task from **Solution Explorer**. To do so, choose the **Select Repository** control, select the **ellipsis** icon that's next to the **Filter repositories** box, and then select **Open Local Repository**.
 
@@ -128,7 +128,7 @@ Here's how to browse to and clone an Azure DevOps repo by using Visual Studio.
 
 ## Open a project from a GitHub repo with Visual Studio 2019
 
-How you open a project from a GitHub repo by using Visual Studio depends on which version you have. Specifically, if you've installed version Visual Studio 2019 [**version 16.8**](/visualstudio/releases/2019/release-notes-history) or later, there's a new, more fully integrated [Git experience in Visual Studio](../ide/git-with-visual-studio.md) available to you.
+How you open a project from a GitHub repo by using Visual Studio depends on which version you have. Specifically, if you've installed version Visual Studio 2019 [**version 16.8**](/visualstudio/releases/2019/release-notes-history) or later, there's a new, more fully integrated [Git experience in Visual Studio](../version-control/git-with-visual-studio.md) available to you.
 
 But no matter which version you've installed, you can always open a project from a GitHub repo with Visual Studio.
 
@@ -152,7 +152,7 @@ Here's how to use Git in Visual Studio 2019 [**version 16.8**](/visualstudio/rel
 
    ![Screenshot of the Git User Information dialog where you enter or edit your account info in Visual Studio 2019 version 16.8 and later.](../ide/media/vs-2019/git-user-information-dialog.png)
 
-    Select **Save** to add the info to your global .gitconfig file. (Or, you can choose to do this later by selecting **Cancel**.)
+    Select **Save** to add the info to your global .gitconfig file. (Or, you can select **Cancel** if you'd like to save the info later.)
 
     > [!TIP]
     > For more information about signing in to Visual Studio, see the [Sign in to Visual Studio](../ide/signing-in-to-visual-studio.md?view=vs-2019&preserve-view=true) page. And for specific information about how to use your GitHub account to sign in, see the [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md?view=vs-2019&preserve-view=true) page.
@@ -161,7 +161,7 @@ Here's how to use Git in Visual Studio 2019 [**version 16.8**](/visualstudio/rel
 
    ![Screenshot of a project in Git that's open in Solution Explorer in Visual Studio 2019 version 16.8 and later.](../ide/media/vs-2019/git-solution-explorer.png )
 
-1. If your repository contains multiple solutions, you will see them in Solution Explorer. You can view the list of solutions by selecting the **Switch Views** button in Solution Explorer.
+1. If your repository contains multiple solutions, Solution Explorer displays them. For a list view of the solutions, select the **Switch Views** button in Solution Explorer.
 
    ![Screenshot of a project in Git that's open in Solution Explorer, with the Switch Views button highlighted in Visual Studio 2019 version 16.8 and later.](../ide/media/vs-2019/git-solution-explorer-switch-views.png)
 
@@ -213,7 +213,7 @@ Here's how to use Git in Visual Studio 2019 [**version 16.7**](/visualstudio/rel
 
    Visual Studio opens the project from the repo.
 
-1. If you have a solution file available, it will appear in the "Solutions and Folders" fly-out menu. Select it, and Visual Studio opens your solution.
+1. If you have a solution file available, it appears in the "Solutions and Folders" fly-out menu. Select it, and Visual Studio opens your solution.
 
    ![Screenshot of the Solution Explorer drop-down list in Visual Studio 2019 version 16.7 and earlier.](./media/open-proj-repo-github-solutions-folders-picker.png)
 
@@ -223,7 +223,7 @@ Here's how to use Git in Visual Studio 2019 [**version 16.7**](/visualstudio/rel
 
 ## Browse to an Azure DevOps repo with Visual Studio 2019
 
-What you see when you browse to and clone an Azure DevOps repository by using Visual Studio 2019 depends on which version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes-history) or later, we've changed the UI to accommodate a new, more fully integrated [Git experience in Visual Studio](../ide/git-with-visual-studio.md) in Visual Studio.
+What you see when you browse to and clone an Azure DevOps repository by using Visual Studio 2019 depends on which version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes-history) or later, we've changed the UI to accommodate a new, more fully integrated [Git experience in Visual Studio](../version-control/git-with-visual-studio.md) in Visual Studio.
 
 But no matter which version you have installed, you can always browse to and clone an Azure DevOps repo with Visual Studio.
 
@@ -309,17 +309,17 @@ But no matter which version you have installed, you can always browse to and clo
 
     ![Choose Clone from the Local Git Repositories section](./media/open-proj-repo-local-git-repo-clone.png)
 
-1. In the box that says ***Enter the URL of a Git repo to clone***, type or paste the URL for your repo, and then press **Enter**. (You might receive a prompt to sign in to GitHub; if so, do so.)
+1. In the box that says ***Enter the URL of a Git repo to clone***, type or paste the URL for your repo, and then press **Enter**. (You might receive a prompt to sign in to GitHub.)
 
-   After Visual Studio clones your repo, Team Explorer closes and Solution Explorer opens. A message appears that says *Click on Solutions and Folders above to view a list of Solutions*. Choose **Solutions and Folders**.
+   After Visual Studio clones your repo, Team Explorer closes and Solution Explorer opens. A message appears that says ***Click on Solutions and Folders above to view a list of Solutions***. Choose **Solutions and Folders**.
 
    ![Choose "Solutions and Folders" from the Solution Explorer](./media/open-proj-repo-github-solutions-folders.png)
 
-1. If you have a solution file available, it will appear in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
+1. If you have a solution file available, it appears in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
 
    ![Choose what you want to open from the Solution Explorer drop-down list.](./media/open-proj-repo-github-solutions-folders-picker.png)
 
-   If you do not have a solution file (specifically, a .sln file) in your repo, the fly-out menu will say "No Solutions Found." However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
+   If you do not have a solution file (specifically, an .sln file) in your repo, the fly-out menu says, "No Solutions Found." However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
 
 ### Review your work
 
@@ -358,9 +358,9 @@ View the following animation to check the work that you completed in the previou
 
       ![The "Solutions and Folders" notification from Team Explorer in Visual Studio.](./media/open-proj-repo-solutions-folders.png)
 
-   A solution file (specifically, a .sln file), will appear in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
+   A solution file (specifically, an .sln file), appears in the "Solutions and Folders" fly-out menu. Choose it, and Visual Studio opens your solution.
 
-   If you do not have a solution file in your repo, the fly-out menu will say "No Solutions Found". However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
+   If you do not have a solution file in your repo, the fly-out menu says, "No Solutions Found". However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
 
 ::: moniker-end
 
@@ -378,8 +378,8 @@ Feel free to dive into any of the following language-specific tutorials:
 
 ::: moniker range="<=vs-2019"
 
-- [The Git experience in Visual Studio](../ide/git-with-visual-studio.md)
-- [Compare Git and Team Explorer side-by-side](../ide/git-team-explorer-feature-comparison.md)
+- [The Git experience in Visual Studio](../version-control/git-with-visual-studio.md)
+- [Compare Git and Team Explorer side-by-side](../version-control/git-team-explorer-feature-comparison.md)
 - [Microsoft Learn: Get started with Git and GitHub in Visual Studio](/learn/modules/visual-studio-github-push/)
 - [Microsoft Learn: Get started with Azure DevOps](/learn/modules/get-started-with-devops/)
 - [Azure DevOps Services: Get started with Azure Repos and Visual Studio](/azure/devops/repos/git/gitquickstart/)

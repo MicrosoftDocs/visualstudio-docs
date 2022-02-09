@@ -2,9 +2,9 @@
 title: Understand benefits in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: amast
-manager: amast
+manager: shve
 ms.assetid: 0a02232c-437f-4c48-85c1-93ca7887236b
-ms.date: 10/08/2021
+ms.date: 12/02/2021
 ms.topic: how-to
 description:  Learn about what benefits are included in subscriptions, and how to activate them.
 ---

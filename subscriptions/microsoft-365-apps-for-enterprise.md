@@ -1,8 +1,8 @@
 ---
 title: Microsoft 365 apps for enterprise in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: d1257931-392a-4a65-bf26-177737505122
 ms.date: 03/21/2021
 ms.topic: how-to
@@ -21,7 +21,8 @@ Create your best work. Work anywhere with apps that are always updated. Microsof
 The process for activating your Microsoft 365 apps for enterprise subscription is simple.  Follow these steps to activate your subscription and install your applications:
 
 1. Sign in to your Visual Studio subscription at [https://my.visualstudio.com](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)
-1. Locate the Microsoft 365 apps for enterprise tile and select **Activate**.
+1. Locate the Microsoft 365 apps for enterprise tile and select **Get code**.
+1. Click **Activate**.
    > [!div class="mx-imgBorder"]
    > ![Microsoft 365 apps for enterprise tile](_img/microsoft-365-apps-for-enterprise/tile-activate.png "Select 'Activate' to get started with your subscription.")
 
@@ -50,8 +51,8 @@ The process for activating your Microsoft 365 apps for enterprise subscription i
 
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard)   | VL, Azure, Retail| Available       |  Yes          |
-| Visual Studio Enterprise subscription with GitHub Enterprise  | VL | Available       |  Yes          |
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail| 12-month trial       |  No          |
+| Visual Studio Enterprise subscription with GitHub Enterprise  | VL | 12-month trial       |  No          |
 | Visual Studio Enterprise (Standard)   | NFR<sup>1</sup> | Not available       |  N/A          |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Not available                                                            |  N/A          |
 | Visual Studio Professional subscription with GitHub Enterprise | VL | Not available         |  N/A          |
@@ -65,7 +66,7 @@ The process for activating your Microsoft 365 apps for enterprise subscription i
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your sign-in email address. If you don't see all your subscriptions, you may have one or more assigned to a different sign-in email address.  You'll need to sign in with that email address to see those subscriptions.
 
 ## Support resources
 - For technical support with any component of Microsoft 365 apps for enterprise, please visit https://support.microsoft.com/allproducts and select the product.

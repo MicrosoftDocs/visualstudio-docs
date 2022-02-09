@@ -3,6 +3,7 @@ title: "Getting Started with ASP.NET Core"
 description: "This article describes how to get started with ASP.NET in Visual Studio for Mac, including installation and creating a new project."
 author: jmatthiesen
 ms.author: jomatthi
+manager: dominicn
 ms.date: 11/06/2020
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 ms.custom: video
@@ -16,7 +17,7 @@ ms.topic: how-to
 
 ## Installing .NET Core
 
-.NET Core 3.1 is automatically installed when you install Visual Studio for Mac. For more information about versions of .NET Core supported in Visual Studio for Mac, see [.NET Core Support](./net-core-support.md).
+.NET Core 3.1 is automatically installed when you install Visual Studio for Mac. For more information about versions of .NET Core supported in Visual Studio for Mac, see [Supported versions of .NET](./supported-versions-net.md).
 
 ## Creating an ASP.NET Core app in Visual Studio for Mac
 
@@ -241,4 +242,4 @@ For more information on the next steps from here, see the following guides:
 
 ## Related Video
 
-> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Build-Your-First-App/player]
+> [!Video https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Build-Your-First-App/player]

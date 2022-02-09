@@ -2,7 +2,7 @@
 title: Azure Dev/Test credits eligibility in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: amast
-manager: amast
+manager: shve
 ms.assetid: 3a8f9439-90e7-4a8a-a5a1-d0d6dcd1ba49
 ms.date: 11/11/2021
 ms.topic: conceptual

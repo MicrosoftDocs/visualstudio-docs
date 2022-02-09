@@ -3,8 +3,8 @@ title: Visual Studio IDE technical support
 description: Get technical support for Visual Studio IDE
 ms.topic: include
 ms.assetid: 4fa47dc5-3791-45c8-afba-9e01693ce45a
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 04/16/2021
 user.type: subscriber
 tags: download, activate, licensing

@@ -1,17 +1,19 @@
 ---
 title: "Docker tutorial - Part 3: Update your app"
 description: Describes how to update a Docker app.
-ms.date: "08/06/2021"
-author: nebuk89
-ms.author: ghogen
+ms.prod: vs-code
+ms.topic: tutorial
+ms.author: mikemort
+author: BigMorty
 manager: jmartens
-ms.technology: vs-docker
-ms.custom: "contperf-fy22q1"
+ms.reviewer: "nebuk89, ghogen"
+ms.custom: “docker-team-owned”
+ms.date: 08/06/2021
 
-ms.topic: conceptual
-ms.workload:
-  - "azure"
+# Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---
+
+
 # Update the app
 
 As a small feature request, you've been asked by the product team to change the "empty text" when you don't have any todo list items. They would like to transition it to the following:

@@ -112,6 +112,12 @@ In this section, you'll create two tables, a primary key in each table, and a fe
    CREATE TABLE [dbo].[Customers]
    ```
 
+7. Add an index constraint to the Customers table. Add a comma at the end of the `Phone` line, then add the following sample before the closing parenthesis:
+
+   ```sql
+   CONSTRAINT [PK_Customers] PRIMARY KEY ([CustomerID])
+   ```
+
    You should see something like this:
 
    :::moniker range=">=vs-2022"
@@ -121,9 +127,9 @@ In this section, you'll create two tables, a primary key in each table, and a fe
    ![Table Designer with Customers table](media/table-designer.png)
    :::moniker-end
 
-7. In the upper-left corner of **Table Designer**, select **Update**, or press **Shift**+**Alt**+**U**.
+8. In the upper-left corner of **Table Designer**, select **Update**, or press **Shift**+**Alt**+**U**.
 
-8. In the **Preview Database Updates** dialog box, select **Update Database**.
+9. In the **Preview Database Updates** dialog box, select **Update Database**.
 
    The Customers table is created in the local database file.
 
@@ -146,9 +152,15 @@ In this section, you'll create two tables, a primary key in each table, and a fe
    CREATE TABLE [dbo].[Orders]
    ```
 
-4. In the upper-left corner of the **Table Designer**, select **Update**, or press **Shift**+**Alt**+**U**..
+4. Add an index constraint to the Customers table. Add a comma at the end of the `OrderQuantity` line, then add the following sample before the closing parenthesis:
 
-5. In the **Preview Database Updates** dialog box, select **Update Database**.
+   ```sql
+   CONSTRAINT [PK_Orders] PRIMARY KEY ([OrderId])
+   ```
+
+5. In the upper-left corner of the **Table Designer**, select **Update**, or press **Shift**+**Alt**+**U**..
+
+6. In the **Preview Database Updates** dialog box, select **Update Database**.
 
    The Orders table is created in the local database file. If you expand the **Tables** node in Server Explorer, you see the two tables:
 
@@ -165,7 +177,12 @@ In this section, you'll create two tables, a primary key in each table, and a fe
 
 1. In the context pane on the right side of the Table Designer grid for the Orders table, right-click on **Foreign Keys** and select **Add New Foreign Key**.
 
+   :::moniker range=">=vs-2022"
+   ![Add a foreign key in Table Designer in Visual Studio](media/vs-2022/add-foreign-key.png)
+   :::moniker-end
+   :::moniker range="<=vs-2019"
    ![Add a foreign key in Table Designer in Visual Studio](../data-tools/media/add-foreign-key.png)
+   :::moniker-end
 
 2. In the text box that appears, replace the text **ToTable** with **Customers**.
 

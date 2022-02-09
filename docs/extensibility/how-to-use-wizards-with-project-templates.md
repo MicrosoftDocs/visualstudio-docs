@@ -57,11 +57,11 @@ This procedure shows how to create a custom wizard that opens a Windows Form bef
 
 2. In **Solution Explorer**, select the VSIX project node. Below **Solution Explorer**, you should see the **Properties** window. If you do not, select **View** > **Properties Window**, or press **F4**. In the **Properties** window, select the following fields to `true`:
 
-   - **Include Assembly In VSIX Container**
+   - **Include Assembly in VSIX Container**
 
-   - **Include Debug Symbols In VSIX Container**
+   - **Include Debug Symbols in Local VSIX Deployment**
 
-   - **Include Debug Symbols In Local VSIX Deployment**
+   - **Include Debug Symbols in VSIX Container**
 
 3. Add the assembly as an asset to the VSIX project. Open the *source.extension.vsixmanifest* file and select the **Assets** tab. In the **Add New Asset** window, for **Type** select **Microsoft.VisualStudio.Assembly**, for **Source** select **A project in current solution**, and for **Project** select **MyProjectWizard**.
 

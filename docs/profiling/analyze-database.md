@@ -6,9 +6,9 @@ ms.date: "5/5/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "database, profiling"
-author: "esteban-herrera"
-ms.author: "esherrer"
-manager: AndSter
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
