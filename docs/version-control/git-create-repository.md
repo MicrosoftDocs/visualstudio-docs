@@ -24,7 +24,7 @@ To follow this article, you'll need:
 1. Open Visual Studio, and then select **Create a new project**.
 
     > [!TIP]
-    > If don't already have a project in Visual Studio to add to a repo, you can quickly [create a new C# console app](../get-started/csharp/tutorial-console.md#create-a-project) and name it **MyNewApp**. Visual Studio populates your new app with default "*Hello, World!*" code.
+    > If you don't already have a project in Visual Studio to add to a repo, you can quickly [create a new C# console app](../get-started/csharp/tutorial-console.md#create-a-project) and name it **MyNewApp**. Visual Studio populates your new app with default "*Hello, World!*" code.
 
 1. From the **Git** menu, select **Create Git Repository**.
 
@@ -52,7 +52,7 @@ After you’ve created a repo or [cloned one](git-clone-repository.md), Visual S
 1. Open Visual Studio, and then select **Create a new project**.
 
     > [!TIP]
-    > If don't already have a project in Visual Studio to add to a repo, you can quickly [create a new C# console app](../get-started/csharp/tutorial-console.md#create-a-project) and name it **MyNewApp**. Visual Studio populates your new app with default "*Hello, World!*" code.
+    > If you don't already have a project in Visual Studio to add to a repo, you can quickly [create a new C# console app](../get-started/csharp/tutorial-console.md#create-a-project) and name it **MyNewApp**. Visual Studio populates your new app with default "*Hello, World!*" code.
 
 1. From the **Git** menu, select **Create Git Repository**.
 
