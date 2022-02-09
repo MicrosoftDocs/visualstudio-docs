@@ -61,7 +61,7 @@ If you are working in a team or if you are using different machines, you will al
 
 :::image type="content" source="media/git-source-control-inner-loop.png" alt-text="The Visual Studio IDE with the Git menu and the Git Changes tab in Solution Explorer showing.":::
 
-## Rpository management & collaboration
+## Repository management & collaboration
 
 However, there are times when it makes more sense to focus on your Git repository. For example, you might need to get a good picture of what your team has been working on, or copy a commit from a different branch, or just clean-up your outgoing commits.  Visual Studio includes powerful [repository browsing](git-browse-repository.md) and collaboration features that eliminate the need to use other tools. 
 
