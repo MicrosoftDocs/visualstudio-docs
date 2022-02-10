@@ -1,5 +1,5 @@
 ---
-title: "Managing app Resources"
+title: "Managing Xamarin app resources"
 description: "This article links to various guides that describe how to manage app resources for a variety of platforms in Visual Studio for Mac"
 author: jmatthiesen
 ms.author: jomatthi

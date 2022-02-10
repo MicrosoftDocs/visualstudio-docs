@@ -22,13 +22,11 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Git experience in Visual Studio
-            url: git-with-visual-studio.md
-          - text: How Visual Studio makes source control easy
-            url:  git-visual-studio-source-control.md            
-      - linkListType: tutorial
+          - text: Git & Visual Studio for source control
+            url: git-with-visual-studio.md  
+      - linkListType: how-to-guide
         links:
-          - text: Clone a repo
+          - text: Clone an existing repo
             url: git-clone-repository.md
           - text: Create a new repo
             url: git-create-repository.md
@@ -48,18 +46,6 @@ landingContent:
             url: git-fetch-pull-sync.md
 
   # Card
-  - title: Resources
-    linkLists:
-      - linkListType: whats-new
-        links:
-          - text: Visual Studio 2022 Preview 17.1 Blog
-            url: https://devblogs.microsoft.com/visualstudio/introducing-new-git-features-to-visual-studio-2022/
-          - text: Visual Studio 2022 release notes
-            url: /visualstudio/releases/2022/release-notes-preview
-          - text: Videos and more...
-            url: https://visualstudio.microsoft.com/vs/github/
-
-  # Card
   - title: Reference
     linkLists:
       - linkListType: reference
@@ -71,6 +57,18 @@ landingContent:
           - text: Become a master at Git & open source (blog)
             url: https://devblogs.microsoft.com/visualstudio/become-a-master-at-git-and-open-source/
             
+  # Card
+  - title: Resources
+    linkLists:
+      - linkListType: whats-new
+        links:
+          - text: Visual Studio 2022 Preview 17.1 Blog
+            url: https://devblogs.microsoft.com/visualstudio/introducing-new-git-features-to-visual-studio-2022/
+          - text: Visual Studio 2022 release notes
+            url: /visualstudio/releases/2022/release-notes-preview
+          - text: Videos and more...
+            url: https://visualstudio.microsoft.com/vs/github/
+
   # Card
   - title: Repo management
     linkLists:

@@ -1,6 +1,5 @@
 ---
-title: Create a GitHub repo in Visual Studio
-titleSuffix: ""
+title: Create a Git repo
 description: Create a repo in Visual Studio by using Git, or browse to an Azure DevOps repo.
 ms.date: 02/02/2022
 ms.topic: how-to
@@ -12,7 +11,7 @@ ms.technology: vs-ide-general
 ---
 # Create a Git repository from Visual Studio
 
-Visual Studio makes it easy to create a repo right from the IDE. Here's how.
+Visual Studio makes it easy to create a repo right from the IDE. Repository creation from Visual Studio is optimized for GitHub, but you can work remotely with the Git provider of your choice.  Here's how.
 
 ## Prerequisites
 
@@ -25,7 +24,7 @@ To follow this article, you'll need:
 1. Open Visual Studio, and then select **Create a new project**.
 
     > [!TIP]
-    > If don't already have a project in Visual Studio to add to a repo, you can quickly [create a new C# console app](../get-started/csharp/tutorial-console.md#create-a-project) and name it **MyNewApp**. Visual Studio populates your new app with default "*Hello, World!*" code.
+    > If you don't already have a project in Visual Studio to add to a repo, you can quickly [create a new C# console app](../get-started/csharp/tutorial-console.md#create-a-project) and name it **MyNewApp**. Visual Studio populates your new app with default "*Hello, World!*" code.
 
 1. From the **Git** menu, select **Create Git Repository**.
 
@@ -53,7 +52,7 @@ After you’ve created a repo or [cloned one](git-clone-repository.md), Visual S
 1. Open Visual Studio, and then select **Create a new project**.
 
     > [!TIP]
-    > If don't already have a project in Visual Studio to add to a repo, you can quickly [create a new C# console app](../get-started/csharp/tutorial-console.md#create-a-project) and name it **MyNewApp**. Visual Studio populates your new app with default "*Hello, World!*" code.
+    > If you don't already have a project in Visual Studio to add to a repo, you can quickly [create a new C# console app](../get-started/csharp/tutorial-console.md#create-a-project) and name it **MyNewApp**. Visual Studio populates your new app with default "*Hello, World!*" code.
 
 1. From the **Git** menu, select **Create Git Repository**.
 
@@ -73,6 +72,3 @@ To continue your journey, visit the [Create a branch](git-create-branch.md) page
 
 - [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md)
 - [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md)
-- [Work with multiple user accounts](../ide/work-with-multiple-user-accounts.md)
-- [Sign in to Visual Studio](../ide/signing-in-to-visual-studio.md)
-- [Visual Studio & GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)
