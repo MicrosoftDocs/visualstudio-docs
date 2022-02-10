@@ -132,19 +132,15 @@ After you create the project, you can customize it. To do so, choose **Propertie
 
 ::: moniker-end
 
-### Change the name of MainWindow.xaml
-
-Let's give MainWindow a more specific name. In **Solution Explorer**, right-click on *MainWindow.xaml* and choose **Rename**. Rename the file to *Greetings.xaml*.
-
 ## Design the user interface (UI)
 
-If the designer is not open, select *Greetings.xaml* and press **Shift**+**F7** to open the designer.
+If the designer is not open, select *MainWindow.xaml* and press **Shift**+**F7** to open the designer.
 
 We'll add three types of controls to this application: a <xref:System.Windows.Controls.TextBlock> control, two <xref:System.Windows.Controls.RadioButton> controls, and a <xref:System.Windows.Controls.Button> control.
 
 ### Add a TextBlock control
 
-::: moniker range="vs-2019"
+::: moniker range="<=vs-2019"
 
 1. Press **Ctrl**+**Q** to activate the search box and type **Toolbox**. Choose **View > Toolbox** from the results list.
 
@@ -156,7 +152,7 @@ We'll add three types of controls to this application: a <xref:System.Windows.Co
 
     Your window should resemble the following illustration:
 
-    ![TextBlock control on the Greetings form](../media/exploreide-greetingswithtextblockonly.png "Screenshot of the TextBlock control on the design surface of the Greetings form.")
+    ![TextBlock control on the MainWindow form](media/explore-ide-window-with-textblock-only.png "Screenshot of the TextBlock control on the design surface of the MainWindow form.")
 
    The XAML markup should look something like the following example:
 
@@ -210,7 +206,7 @@ Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) c
 
 ### Add radio buttons
 
-::: moniker range="vs-2019"
+::: moniker range="<=vs-2019"
 
 1. In the **Toolbox**, find the **RadioButton** control.
 
@@ -220,7 +216,7 @@ Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) c
 
    Your window should look like this:
 
-   ![Greetings form with TextBlock and two radio buttons](../media/exploreide-greetingswithradiobuttons.png "Screenshot of the Design window for Greetings.xaml, showing a TextBlock control and two RadioButton controls positioned on the design surface.")
+   ![MainWindow form with TextBlock and two radio buttons](media/explore-ide-window-with-radio-buttons.png "Screenshot of the Design window for MainWindow.xaml, showing a TextBlock control and two RadioButton controls positioned on the design surface.")
 
 1. In the **Properties** window for the left RadioButton control, change the **Name** property (the property at the top of the **Properties** window) to `HelloButton`.
 
@@ -288,7 +284,7 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
 
 ### Add the button control
 
-::: moniker range="vs-2019"
+::: moniker range="<=vs-2019"
 
 1. In the **Toolbox**, find the **Button** control, and then add it to the design surface under the RadioButton controls by dragging it to the form in the design view. If you're using Visual Studio 2019 or later, a red line helps you center the control.
 
@@ -296,7 +292,7 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
 
      Your window should resemble the following illustration.
 
-     ![Greetings form with control labels](media/exploreide-greetingswithcontrollabels-cs.png "Screenshot of the Design window for Greetings.xaml showing a TextBlock control, two RadioButton controls labeled 'Hello' and 'Goodbye', and a button labeled 'Display'.")
+     ![MainWindow form with control labels](media/explore-ide-window-with-control-labels-cs.png "Screenshot of the Design window for MainWindow.xaml showing a TextBlock control, two RadioButton controls labeled 'Hello' and 'Goodbye', and a button labeled 'Display'.")
 
    The XAML markup should now look similar to the following example:
 
@@ -336,7 +332,7 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
 
 ### Add code to the display button
 
-::: moniker range="vs-2019"
+::: moniker range="<=vs-2019"
 
 When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the `Button_Click` event in *Greetings.xaml.cs*.
 
@@ -404,13 +400,16 @@ When this application runs, a message box appears after a user chooses a radio b
 
 Next, you'll debug the application to look for errors and test that both message boxes appear correctly. The following instructions tell you how to build and launch the debugger, but later you might read [Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf) and [Debug WPF](../../debugger/debugging-wpf.md) for more information.
 
+### Change the name of MainWindow.xaml
+Let's give MainWindow a more specific name. In **Solution Explorer**, right-click on *MainWindow.xaml* and choose **Rename**. Rename the file to *Greetings.xaml*.
+
 ### Find and fix errors
 
 In this step, you'll find the error that we caused earlier by changing the name of the *MainWindow.xaml* file.
 
 #### Start debugging and find the error
 
-::: moniker range="vs-2019"
+::: moniker range="<=vs-2019"
 
 1. Start the debugger by pressing **F5** or selecting **Debug**, then **Start Debugging**.
 
@@ -420,7 +419,7 @@ In this step, you'll find the error that we caused earlier by changing the name 
 
 1. Stop the debugger by choosing **Debug** > **Stop Debugging**.
 
-We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this tutorial, but the code still refers to *MainWindow.xaml* as the startup URI for the application, so the project can't start.
+We renamed *MainWindow.xaml* to *Greetings.xaml*, but the code still refers to *MainWindow.xaml* as the startup URI for the application, so the project can't start.
 
 ::: moniker-end
 
@@ -437,6 +436,7 @@ We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this tutorial, 
 We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this tutorial, but the code still refers to *MainWindow.xaml* as the startup URI for the application, so the project can't start.
 
 ::: moniker-end
+
 #### Specify Greetings.xaml as the startup URI
 
 1. In **Solution Explorer**, open the *App.xaml* file.
