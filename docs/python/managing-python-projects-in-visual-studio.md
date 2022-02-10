@@ -1,7 +1,7 @@
 ---
 title: Manage Python application projects
 description: Projects in Visual Studio manage dependencies between files and the complexity of relationships in an application.
-ms.date: 07/19/2021
+ms.date: 02/10/2022
 ms.topic: conceptual
 author: rjmolyneaux
 ms.author: rmolyneaux
