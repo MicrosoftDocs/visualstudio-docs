@@ -32,7 +32,7 @@
           "ThirdPartyNotices"
         ],
         "src": "./",
-        "group": "vsmac-2019"
+        "group": "vsmac-2019-2022"
       }
     ],
     "resource": [
@@ -63,7 +63,7 @@
           "**/includes/**"
         ],
         "src": "./",
-        "group": "vsmac-2019"
+        "group": "vsmac-2019-2022"
       }
     ],
     "overwrite": [],
@@ -92,30 +92,6 @@
       "recommendations": true,
       "archive_url": "/previous-versions/visualstudio/mac"
     },
-    "fileMetadata": {
-      "breadcrumb_path": {
-        "2017/**/*.md": "/visualstudio/mac/_breadcrumb/toc.json",
-        "2017/**/*.yml": "/visualstudio/mac/_breadcrumb/toc.json"
-      },
-      "titleSuffix": {
-        "2017/**/*.md": "Visual Studio 2017 for Mac",
-        "2017/**/*.yml": "Visual Studio 2017 for Mac"
-      },
-      "feedback_system": {
-        "2017/**/*.md": ""
-      },
-      "feedback_github_repo": {
-        "2017/**/*.md": ""
-      },
-      "hideEdit": {
-        "2017/**/*.md": true
-      },
-      "exclude_monikers": {
-        "**/*.md": [
-          "vsmac-2017"
-        ]
-      }
-    },
     "template": [],
     "dest": "mac",
     "markdownEngineName": "markdig",
@@ -125,9 +101,9 @@
         "dest": "2017",
         "moniker_range": "vsmac-2017"
       },
-      "vsmac-2019": {
-        "dest": "2019",
-        "moniker_range": "vsmac-2019"
+      "vsmac-2019-2022": {
+        "dest": "2019-2022",
+        "moniker_range": ">=vsmac-2019"
       }
     }
   }
