@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot installation or upgrade issues
 description: Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help.
-ms.date: 09/14/2021
+ms.date: 2/4/2022
 ms.custom: vs-acquisition
 ms.topic: troubleshooting
 helpviewer_keywords:
@@ -53,34 +53,25 @@ Repair fixes many common update issues. For more about when and how to repair Vi
 
 ### Step 3 - Check with the developer community
 
-Search for your error message in the [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8) channel. Other members of the community might have found a solution or workaround to your problem.
+Search for your error message in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/search?space=8). Other members of the community might have found a solution or workaround to your problem.
 
 ### Step 4 - Delete the Visual Studio Installer folder to fix upgrade problems
 
-The Visual Studio Installer bootstrapper is a light-weight executable that initiates the install of the Visual Studio Installer. Deleting the Visual Studio Installer files and then rerunning the bootstrapper solves some update failures.
+The Visual Studio bootstrapper is a light-weight executable that initiates the install of the Visual Studio Installer and then the Visual Studio product. Deleting the Visual Studio Installer files and then rerunning the bootstrapper solves some update failures.
 
 > [!NOTE]
 > Performing the following actions reinstalls the Visual Studio Installer files and resets the installation metadata.
 
-::: moniker range="vs-2017"
+::: moniker range="<vs-2022"
 
 1. Close the Visual Studio Installer.
 1. Delete the Visual Studio Installer installation directory. Typically, the directory is `C:\Program Files (x86)\Microsoft Visual Studio\Installer`.
-1. Run the Visual Studio Installer bootstrapper. You might find the bootstrapper in your Downloads folder with a file name that follows a `vs_[Visual Studio edition]__*.exe` pattern. If you don't find that application, you can download the bootstrapper by going to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page and clicking **Download** for your edition of Visual Studio. Then, run the executable to reset your installation metadata.
-1. Try to install or update Visual Studio again. If the Installer continues to fail, go to the next step.
+1. Run the Visual Studio bootstrapper. You might find the bootstrapper in your Downloads folder with a file name that follows a `vs_[Visual Studio edition]__*.exe` pattern. If you don't find that application, you can download the bootstrapper by going to the [Visual Studio older downloads page](https://visualstudio.microsoft.com/vs/older-downloads) and clicking **Download** for your edition of Visual Studio. Then, run the executable to reset your installation metadata.
+1. Try to install or update Visual Studio again. If the Installer continues to fail, proceed to the [Report a problem](#step-5---report-a-problem) step.
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-1. Close the Visual Studio Installer.
-1. Delete the Visual Studio Installer directory. Typically, the directory is `C:\Program Files (x86)\Microsoft Visual Studio\Installer`.
-1. Run the Visual Studio Installer bootstrapper. You might find the bootstrapper in your Downloads folder with a file name that matches a `vs_[Visual Studio edition]__*.exe` pattern. If you don't find that application, you can download the bootstrapper by going to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page and clicking **Download** for your edition of Visual Studio. Then, run the executable to reset your installation metadata.
-1. Try to install or update Visual Studio again. If the Installer continues to fail, go to the next step.
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
+::: moniker range="=vs-2022"
 
 1. Close the Visual Studio Installer.
 1. Delete the Visual Studio Installer folder. Typically, the folder path is `C:\Program Files (x86)\Microsoft Visual Studio\Installer`.
@@ -145,6 +136,10 @@ Here are some known issues and workarounds that might help you when you create a
 | New workloads, components, or language packs fail to install | Make sure that you have internet access if you install from a partial layout and if you select workloads, components, or languages that weren't previously downloaded for that partial layout. |
 
 To resolve issues with a [network installation](create-a-network-installation-of-visual-studio.md), see [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md).
+
+## Administrator Updates
+
+Administrator updates may not be applied correctly due to a vareity of situations. Refer to the [Administrator updates troubleshooting error codes](/visualstudio/install/applying-administrator-updates#verification-reports-and-troubleshooting-error-codes) for further information.
 
 ## Installation logs
 
