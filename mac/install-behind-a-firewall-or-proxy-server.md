@@ -20,7 +20,7 @@ If you or your organization uses security measures such as a firewall or a proxy
 
 ## Install Visual Studio for Mac
 
-Because the Visual Studio for Mac Installer downloads from a various domains and download servers, here are the domains and URLs that you may want to add as trusted in your configurations.
+Because the Visual Studio for Mac Installer downloads from various domains and download servers, here are the domains and URLs that you may want to add as trusted in your configurations.
 
 ### Microsoft domains
 

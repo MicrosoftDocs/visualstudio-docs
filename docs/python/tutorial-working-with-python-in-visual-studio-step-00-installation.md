@@ -2,13 +2,13 @@
 title: Python in Visual Studio tutorial step 0, installation
 titleSuffix: ""
 description: Step 0 (installation prerequisites) of a core walkthrough of working with Python in Visual Studio.
-ms.date: 12/11/2021
-ms.custom: devdivchpfy22, vs-acquisition
+ms.date: 02/01/2022
 ms.topic: tutorial
 author: rjmolyneaux
 ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
+ms.custom: vs-acquisition, devdivchpfy22
 ms.workload:
   - python
   - data-science
@@ -48,7 +48,7 @@ ms.workload:
 
 ## See also
 
-- [Manually identify an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment)
 - [Install Python support in Visual Studio 2022](installing-python-support-in-visual-studio.md#visual-studio-2022)
 - [Install Python support in Visual Studio 2019](installing-python-support-in-visual-studio.md#visual-studio-2019)
 - [Install Python support in Visual Studio 2015](installing-python-support-in-visual-studio.md#visual-studio-2015)
+- [Manually identify an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment)

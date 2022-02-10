@@ -114,6 +114,9 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
     :::image type="content" source="./media/vs-2019/csharp-target-framework.png" alt-text="Screenshot that shows making sure .NET Core 3.1 is selected in the 'In the 'Additional information' window.":::
 
    Visual Studio opens your new project, which includes default "Hello World" code.
+   To view it in the editor, select the code file *Program.cs* in the Solution Explorer window, which is typically on the right-hand side of Visual Studio.
+
+   The default "Hello World" code calls the <xref:System.Console.WriteLine%2A> method to display the literal string "Hello, World!" in the console window. If you press F5, you can run the default program in Debug mode. After the application runs in the debugger, the console window stays open. Press any key to close the console window.
 
 ::: moniker-end
 ::: moniker range=">=vs-2022"
@@ -144,6 +147,10 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
    ![Screenshot that shows .NET 6.0 selected in the Additional information window.](media/vs-2022/csharp-target-framework.png)
 
    Visual Studio opens your new project, which includes default "Hello World" code.
+
+   To view it in the editor, select the code file *Program.cs* in the Solution Explorer window, which is typically on the right-hand side of Visual Studio.
+
+   The single code statement calls the <xref:System.Console.WriteLine%2A> method to display the literal string "Hello, World!" in the console window. If you press F5, you can run the default program in Debug mode. After the application runs in the debugger, the console window stays open. Press any key to close the console window.
    
    > [!NOTE]
    > Starting with .NET 6, new projects using the console template generate different code than previous versions. To learn more, see the [New C# templates generate top-level statements](/dotnet/core/tutorials/top-level-templates) page. 

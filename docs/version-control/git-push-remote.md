@@ -1,7 +1,7 @@
 ---
-title: Push to a remote in Visual Studio
+title: Push to a remote branch in Visual Studio
 titleSuffix: ""
-description: Push to a remote in Visual Studio by using Git or Azure DevOps.
+description: Push to a remote in Visual Studio by using GitHub or Azure DevOps.
 ms.date: 11/10/2021
 ms.topic: how-to
 author: TerryGLee
@@ -10,11 +10,13 @@ ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ---
-# Push to a remote in Visual Studio
+# Push from Visual Studio to a remote branch 
 
 After you've authenticated to GitHub, Visual Studio can improve your GitHub workflow. One of those improvements is the ability to push (also known as publishing) a local project straight to GitHub with a single click. The final stage in a simple Git workflow is to push changes to your remote.
 
 A remote is a safe place to store your code in the cloud. It's typically referred to as **origin/main** (or origin/master), where "origin" is the default name for a remote. For more information about this terminology, see the [Git Branching - Remote Branches](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches) page on the Git website.
+
+While this article references GitHub repositories, you can work remotely with the Git provider of your choice, such as GitHub, GitLab, or Azure DevOps. 
 
 Here's how to push to a remote in Visual Studio.
 

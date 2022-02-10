@@ -1,8 +1,7 @@
 ---
-title: Browse a repo in Visual Studio
-titleSuffix: ""
+title: Browse a repo & compare commits
 description: Browse any Git repository in Visual Studio by using the Git Repository window.
-ms.date: 11/10/2021
+ms.date: 01/21/2022
 ms.topic: how-to
 author: Taysser-Gherfal
 ms.author: tglee
@@ -10,9 +9,12 @@ ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ---
-# Browse Git repositories in Visual Studio
+
+# Browse Git repos & compare commits in Visual Studio
 
 The **Git Changes** window provides a seamless way to interact with Git while coding without having to switch away from your code. But there are times when it makes more sense to focus on your Git repository. For example, you might need to get a good picture of what your team has been working on or maybe compare two commits to investigate a bug.
+
+You can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps.
 
 ## Browse through local and remote branches
 
@@ -23,9 +25,9 @@ To get started, open the **Git Repository** window by selecting **Git Repository
 The **Git Repository** window contains three main sections, as numbered in the preceding screenshot:
 
 1. **Branches**: Git empowers users to multitask and experiment with their code through branches. If you're working on multiple features at the same time or if you want to explore ideas without affecting your working code, branching can be helpful.
-1. **Graph**: This section visualizes the state of your branch. It has three subsections: 
+1. **Graph**: This section visualizes the state of your branch. It has three subsections:
 
-   - **Incoming** shows incoming commits that your team has been contributing. 
+   - **Incoming** shows incoming commits that your team has been contributing.
    - **Outgoing** shows your local commits that you still haven't pushed.
    - **Local History** shows the rest of commits tracked by your local repository.
 1. **Commit**: Selecting any commit in the **Graph** section opens its details. You can check the changes that a commit has introduced by selecting them, which shows a difference. For example, the previous screenshot shows the changes that one commit introduced to the *Files.csproj* file.
@@ -51,6 +53,18 @@ To compare any two commits in your branch, use the **Ctrl** key to select the tw
 
 > [!TIP]
 >Similar to **Commit Details**, you can use the **Open in New Tab** button to open the comparison on a different tab or maximize it on the screen.
+
+## Create a branch from a commit
+
+In Visual Studio, you can use the **Git Graph** pane in the **Git Repository** window to create branches from previous commits. To do so, right-click the commit you would like to create a new branch from, and then select **[New Branch](git-create-branch.md)**.
+
+:::image type="content" source="media/vs-2022/git-create-branch-from-commit.png" alt-text="Screenshot of the Git Graph pane of the Git Repository window.":::
+
+> [!NOTE]
+> The equivalent command for this action is `git branch <branchname> [<commit-id>]`.
+
+> [!TIP]
+> To learn how the [Preview](/visualstudio/releases/2022/release-notes-preview) version of Visual Studio 2022 makes it easy to checkout commits, see the "Checkout commits" section of the [Introducing new Git features to Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/introducing-new-git-features-to-visual-studio-2022/#checkout-commits) blog post.
 
 ## Next steps
 

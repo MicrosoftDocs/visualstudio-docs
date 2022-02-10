@@ -67,6 +67,6 @@ The screen and voice recorder can be used with either manual or automated tests.
 ## See also
 
 - [Collect diagnostic data while testing (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data?view=vsts&preserve-view=true)
-- [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts&preserve-view=true)
+- [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data)
 - [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md)
 - [Run manual tests (Azure Test Plans)](/azure/devops/test/run-manual-tests?view=vsts&preserve-view=true)
