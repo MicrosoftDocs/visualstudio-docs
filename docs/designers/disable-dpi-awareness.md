@@ -47,7 +47,7 @@ The message reads **Scaling on your main display is set to 200% (192 dpi). This 
 If you aren't working in the designer and don't need to adjust the layout of your form, you can ignore the informational bar and continue working in the code editor or in other types of designers. (You can also [disable notifications](#disable-notifications) so that the informational bar doesn't continue to appear.) Only the **Windows Forms Designer** is affected.
 
 > [!TIP]
-> If you've closed the informational bar at the top of the designer, but you still want to replicate the behavior of the link that says **Restart Visual Studio with 100% scaling**, you still can. Select **Tools** > **Command Line**> **Developer Command Prompt** from the Visual Studio menu bar. Then, enter `devenv /noScale`.
+> If you've closed the informational bar at the top of the designer, but you still want to replicate the behavior of the link that says **Restart Visual Studio with 100% scaling**, you still can. Select **Tools** > **Command Line** > **Developer Command Prompt** from the Visual Studio menu bar. Then, enter `devenv /noScale`.
 
 If you do need to work in the **Windows Forms Designer**, the next section helps you [resolve the problem](#resolve-hdpi-display-problems).
 
