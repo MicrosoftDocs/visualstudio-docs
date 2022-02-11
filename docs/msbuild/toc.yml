@@ -73,6 +73,8 @@ items:
         href: how-to-ignore-errors-in-tasks.md
       - name: Build a project that has resources
         href: how-to-build-a-project-that-has-resources.md
+      - name: Create a custom task for code generation 
+        href: tutorial-create-custom-task-for-code-generation.md
       - name: Inline tasks
         items:
         - name: MSBuild inline tasks
