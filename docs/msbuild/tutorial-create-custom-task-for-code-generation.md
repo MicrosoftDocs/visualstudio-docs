@@ -167,33 +167,32 @@ The normal way to distribute a task is through a NuGet package, but during devel
    Greeting:string:Hello World!
    ```
 
-1. Rebuild again and the magic should happens, the generated file must be there. If you are using the standards you must see _MySetting.generated.cs_ file on your solution.
+1. Build again and the generated file should be created and built. Check the project folder for the *MySetting.generated.cs* file.
 
-The class _MySetting_ is in the _example_ namespace, we are going to redefine to use our app namespace. Open the project file and add
+1. The class *MySetting* is in the wrong namespace, so now make a change to use our app namespace. Open the project file and add
 
-```
+   ```xml
 	<PropertyGroup>
 		<SettingNamespace>MSBuildConsoleExample</SettingNamespace>
 	</PropertyGroup>
-```
+   ```
 
-Now, we are going to rebuild again and the class is on _MSBuildConsoleExample_ namespace. In this way you can redefine the generated class name (SettingClass), the text extension files(SettingExtensionFile) to be use as input and the location (RootFolder) of them if you like.
+1. Rebuild again, and observe that the class is in the `MSBuildConsoleExample` namespace. In this way, you can redefine the generated class name (`SettingClass`), the text extension files (`SettingExtensionFile`) to be use as input, and the location (`RootFolder`) of them if you like.
 
-Go to Program.cs and change the hardcoded 'Hello Word!!' to our constant
+1. Open *Program.cs* and change the hardcoded 'Hello Word!!' to the user-defined constant:
 
-```csharp
+   ```csharp
         static void Main(string[] args)
         {
             Console.WriteLine(MySetting.Greeting);
         }
-```
+   ```
 
-We can execute the program, it will greet from our generated class.
+Execute the program; it will print the greeting from the generated class.
 
 ### (Optional) Check what is going on during build process
 
-It is possible to compile using a command line command. We need to go to MSBuildConsoleExample\MSBuildConsoleExample folder.
-We are going to use -bl (binary log) option to generate a binary log. The binary log will have a very useful information to know what is going on during build process.
+It is possible to compile using a command line command. Navigate to the project folder. You'll use the  `-bl` (binary log) option to generate a binary log. The binary log will have a very useful information to know what is going on during build process.
 
 ```dotnetcli
 # Using Dotnet MSBuild (run core environment)
@@ -203,8 +202,7 @@ dotnet build -bl
 msbuild -bl
 ```
 
-Both of them will generate a log msbuild.binlog, and it can be open with [this tool](https://msbuildlog.com/)
-The option `/t:rebuild` means run the rebuild target. It will force the regeneration.
+Both of them will generate a log file `msbuild.binlog`, and it can be opened with [this tool](https://msbuildlog.com/). The option `/t:rebuild` means run the rebuild target. It will force the regeneration of the generated code file.
 
 Congratulations! You've built a task that generates code, and used it in a build.
 
@@ -290,9 +288,9 @@ If you only need to use your custom task in a few projects or in a single soluti
 
 For background on this section, read about [properties and targets](customize-your-build.md) and then how to [include props and targets in a NuGet package](/nuget/create-packages/creating-a-package#include-msbuild-props-and-targets-in-a-package).
 
-In some cases, you might want to add custom build targets or properties in projects that consume your package, such as running a custom tool or process during build. You do this by placing files in the form <package_id>.targets or <package_id>.props within the \build folder of the project.
+In some cases, you might want to add custom build targets or properties in projects that consume your package, such as running a custom tool or process during build. You do this by placing files in the form `<package_id>.targets` or `<package_id>.props` within the `build` folder in the project.
 
-Files in the root \build folder are considered suitable for all target frameworks.
+Files in the project root `build` folder are considered suitable for all target frameworks.
 
 In this section, you'll wire up the task implementation in `.props` and `.targets` files, which will be included in our NuGet package and automatically loaded from a referencing project.
 
@@ -391,7 +389,6 @@ You can also do it by using the command line. Move to the folder where the task 
 dotnet pack -o .
 ```
 
-Congratulations! You have generated a NuGet package named *\AppSettingStronglyTyped\AppSettingStronglyTyped\AppSettingStronglyTyped.1.0.0.nupkg*.
+Congratulations! You've generated a NuGet package named *\AppSettingStronglyTyped\AppSettingStronglyTyped\AppSettingStronglyTyped.1.0.0.nupkg*.
 
 The package has an extension `.nupkg` and is a compressed zip file. You can open it with a zip tool. The `.target` and `.props` files are in the `build` folder. The `.dll` file is in the `lib\netstandard2.0\` folder. The `AppSettingStronglyTyped.nuspec` file is at the root level.
-
