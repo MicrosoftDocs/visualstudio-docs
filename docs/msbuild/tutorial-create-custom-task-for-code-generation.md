@@ -53,9 +53,9 @@ if you want to share code between .NET Framework and any other .NET implementati
 
 The first step is to create the MSBuild custom task. Information about how to [write an MSBuild custom task](task-writing.md) might help you understand the following steps. An MSBuild custom task is a class that implements the <xref:Microsoft.Build.Framework.ITask> interface.
 
-Add a reference to the _Microsoft.Build.Utilities.Core_ NuGet package, and then create a AppSettingStronglyTyped derived from Microsoft.Build.Utilities.Task.
+Add a reference to the _Microsoft.Build.Utilities.Core_ NuGet package, and then create a class named AppSettingStronglyTyped derived from Microsoft.Build.Utilities.Task.
 
-Create three parameters:
+Add three properties. These define the parameters of the task that users set when they use the task in a client project:
 
 ```csharp
         //The name of the class which is going to be generated
@@ -71,9 +71,9 @@ Create three parameters:
         public ITaskItem[] SettingFiles { get; set; }
 ```
 
-The task processes the _SettingFiles_ and generate a class `SettingNamespaceName.SettingClassName`. The generated class will have a set of constants based on the text file's content.
+The task processes the _SettingFiles_ and generates a class `SettingNamespaceName.SettingClassName`. The generated class will have a set of constants based on the text file's content.
 
-The task output will be:
+The task output will be a string that gives the filename of the generated code.
 
 ```csharp
         // The filename where the class was generated
@@ -81,7 +81,7 @@ The task output will be:
         public string ClassNameFile { get; set; }
 ```
 
-When you create a Task, you inherit from Microsoft.Build.Task. To implement the task, you override the `Execute` method. The `Execute` method returns true if the task succeeds, and false otherwise. `Task` implements `ITask` and provides default implementations of some `ITask` members and additionally, provides some logging functionality. It is important to output status to the log to diagnose and troubleshoot the task, especially if an problem occurs and the task must return an error result (false). On error, the class signals the error by calling `Log.LogError`.
+When you create a custom task, you inherit from <xref:Microsoft.Build.Task>. To implement the task, you override the `Execute` method. The `Execute` method returns `true` if the task succeeds, and `false` otherwise. `Task` implements `ITask` and provides default implementations of some `ITask` members and additionally, provides some logging functionality. It is important to output status to the log to diagnose and troubleshoot the task, especially if a problem occurs and the task must return an error result (`false`). On error, the class signals the error by calling `Log.LogError`.
 
 ```csharp
         public override bool Execute()
@@ -98,27 +98,34 @@ When you create a Task, you inherit from Microsoft.Build.Task. To implement the 
         }
 ```
 
-The example code generates C# code during the build process. The task is like any other C# class, so you can add whatever functionality is necessary for your own scenario.
+The example code generates C# code during the build process. The task is like any other C# class, so when you're done with this tutorial, you can customize it and add whatever functionality is necessary for your own scenario.
 
-## Reference the task in a project file for development and testing
+## Generate a console app and use the custom task
+
+Now, create a standard .NET Core Console App for testing the task.
+
+> [!CAUTION]
+> It's important to avoid generating a MSBuild custom task in the same MSBuild process which is going to consume it. The new project should be in a complete different Visual Studio solution, or the new project use a dll pre-generated and re-located from the standard output.
+
+1. Create the .NET Console project MSBuildConsoleExample in a new Visual Studio Solution.
 
 The normal way to distribute a task is through a NuGet package, but during development and debugging, you can include all the information on `.props` and `.targets` directly on your application's project file and then move to the NuGet format when you distribute the task to others.
 
-In this step, create a .NET console project. You'll then modify the project file to consume the code generation task. The code listing in this section shows the modified project file after referencing the task, setting the input parameters for the task, and writing the targets for handling clean and rebuild operations so that the generated code file is removed as you would expect.
+1. Modify the project file to consume the code generation task. The code listing in this section shows the modified project file after referencing the task, setting the input parameters for the task, and writing the targets for handling clean and rebuild operations so that the generated code file is removed as you would expect.
 
-Tasks are registered using the [UsingTask element (MSBuild)](usingtask-element-msbuild.md).  The `UsingTask` element registers the task; it tells MSBuild the name of the task and how to locate and run the assembly that contains the task class. The assembly path is relative to the project file.  
+   Tasks are registered using the [UsingTask element (MSBuild)](usingtask-element-msbuild.md).  The `UsingTask` element registers the task; it tells MSBuild the name of the task and how to locate and run the assembly that contains the task class. The assembly path is relative to the project file.  
 
-The `PropertyGroup` contains the property definitions that correspond to the properties defined in the task. These properties are set using attributes, and the task name is used as the element name.
+   The `PropertyGroup` contains the property definitions that correspond to the properties defined in the task. These properties are set using attributes, and the task name is used as the element name.
 
-`TaskName` is the name of the task to reference from the assembly. This attribute should always use fully specified namespaces. `AssemblyFile` is the file path of the assembly.
+   `TaskName` is the name of the task to reference from the assembly. This attribute should always use fully specified namespaces. `AssemblyFile` is the file path of the assembly.
 
-To invoke the task, add the task to the appropriate target, in this case `GenerateSetting`.
+   To invoke the task, add the task to the appropriate target, in this case `GenerateSetting`.
 
-The target `ForceGenerateOnRebuild` handles the clean and rebuild operations by deleting the generated file. It's set to run after the `CoreClean` target by setting the `AfterTargets` attribute to `CoreClean`.
+   The target `ForceGenerateOnRebuild` handles the clean and rebuild operations by deleting the generated file. It's set to run after the `CoreClean` target by setting the `AfterTargets` attribute to `CoreClean`.
 
-```xml
-<Project Sdk="Microsoft.NET.Sdk">
-	<UsingTask TaskName="AppSettingStronglyTyped.AppSettingStronglyTyped" AssemblyFile="..\..\AppSettingStronglyTyped\AppSettingStronglyTyped\bin\Debug\netstandard2.0\AppSettingStronglyTyped.dll"/>
+   ```xml
+   <Project Sdk="Microsoft.NET.Sdk">
+   	<UsingTask TaskName="AppSettingStronglyTyped.AppSettingStronglyTyped" AssemblyFile="..\.   .\AppSettingStronglyTyped\AppSettingStronglyTyped\bin\Debug\netstandard2.0\AppSettingStronglyTyped.dll"/>
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
@@ -146,223 +153,21 @@ The target `ForceGenerateOnRebuild` handles the clean and rebuild operations by 
 	<Target Name="ForceReGenerateOnRebuild" AfterTargets="CoreClean">
 		<Delete Files="$(RootFolder)\$(SettingClass).generated.cs" />
 	</Target>
-</Project>
-```
+   </Project>
+   ```
 
-> [!NOTE]
-> Instead of overriding a target such as `CoreClean`, this code uses another way to order the targets [(BeforeTarget and AfterTarget)](target-build-order.md#beforetargets-and-aftertargets). SDK-style projects have an implicit import of targets after the last line of the project file; this means that you cannot override default targets unless you specify your imports manually. See [Override predefined targets](how-to-extend-the-visual-studio-build-process.md#override-predefined-targets).
+   > [!NOTE]
+   > Instead of overriding a target such as `CoreClean`, this code uses another way to order the targets [(BeforeTarget and AfterTarget)](target-build-order.md#beforetargets-and-aftertargets). SDK-style projects have an implicit import of targets after the last line of the project file; this means that you cannot override default targets unless you specify your imports manually. See [Override predefined targets](how-to-extend-the-visual-studio-build-process.md#override-predefined-targets).
 
-The `Inputs` and `Outputs` attributes help MSBuild be more efficient by providing information for incremental builds. The dates of the inputs are compared against the outputs to see if the target needs to be run, or if the output of the previous build can be reused.
+   The `Inputs` and `Outputs` attributes help MSBuild be more efficient by providing information for incremental builds. The dates of the inputs are compared against the outputs to see if the target needs to be run, or if the output of the previous build can be reused.
 
-Now try building this project file and make sure the custom task works as expected and correctly generates the C# file. Congratulations, you've built a task that generates code, and used it in your build process effectively.
+1. Create the input text file with the extension defined to be discovered. Using the default extension create `MyValues.mysettings` on the root, with the following content:
 
-## Package the task for distribution
+   ```
+   Greeting:string:Hello World!
+   ```
 
-If you only need to use your custom task in a few projects or in a single solution, consuming the task as a raw assembly might be all you need, but the best way to prepare your task to use it elsewhere or share it with others is as a NuGet package.
-
-To prepare to generate a NuGet package, make some changes to the project file to specify the details that describe the package. The initial project file you created resembles the following:
-
-```xml
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Build.Utilities.Core" Version="17.0.0" />
-  </ItemGroup>
-
-</Project>
-```
-
-To generate a NuGet package, add the following code to set the properties for the package:
-
-```xml
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-		<version>1.0.0</version>
-		<title>AppSettingStronglyTyped</title>
-		<authors>Your author name</authors>
-		<description>Generates a strongly typed setting class base on a text file.</description>
-		<tags>MyTags</tags>
-		<copyright>Copyright ©Contoso 2022</copyright>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Build.Utilities.Core" Version="17.0.0" />
-  </ItemGroup>
-
-</Project>
-```
-
-The dependencies of your MSBuild task must be packaged inside the package; they cannot be expressed as normal PackageReferences. The package won't expose any regular dependencies to external users. It is not needed for the current example, because there aren't any extra dependencies, but it is important to include this step for real-world projects that have dependencies.
-
-```xml
-<Project Sdk="Microsoft.NET.Sdk">
-
-	<PropertyGroup>
-		<TargetFramework>netstandard2.0</TargetFramework>
-		<version>1.0.0</version>
-		<title>AppSettingStronglyTyped</title>
-		<authors>John Doe</authors>
-		<description>Generates a strongly typed setting class base on a txt file</description>
-		<tags>MyTags</tags>
-		<copyright>Copyright ©Microsoft Company 2022</copyright>
-		<!-- we need the assemblies bundled, so set this so we don't expose any dependencies to the outside world -->
-		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
-		<TargetsForTfmSpecificBuildOutput>$(TargetsForTfmSpecificBuildOutput);CopyProjectReferencesToPackage</TargetsForTfmSpecificBuildOutput>
-		<DebugType>embedded</DebugType>
-		<IsPackable>true</IsPackable>
-	</PropertyGroup>
-
-	<ItemGroup>
-		<PackageReference Include="Microsoft.Build.Utilities.Core" Version="17.0.0" />
-	</ItemGroup>
-
-	<Target Name="CopyProjectReferencesToPackage" DependsOnTargets="ResolveReferences">
-		<ItemGroup>
-			<!-- the dependencies of your MSBuild task must be packaged inside the package, they cannot be expressed as normal PackageReferences -->
-
-			<!--example: <BuildOutputInPackage Include="$(PkgFParsec)/lib/netstandard2.0/FParsecCS.dll" />-->
-		</ItemGroup>
-	</Target>
-
-</Project>
-
-```
-
-### Include MSBuild properties and targets in a package
-
-For background on this section, read about [properties and targets](customize-your-build.md) and then how to [include props and targets in a NuGet package](/nuget/create-packages/creating-a-package#include-msbuild-props-and-targets-in-a-package).
-
-In some cases, you might want to add custom build targets or properties in projects that consume your package, such as running a custom tool or process during build. You do this by placing files in the form <package_id>.targets or <package_id>.props within the \build folder of the project.
-
-Files in the root \build folder are considered suitable for all target frameworks.
-
-In this next step, you'll wire up the task implementation in `.props` and `.targets` files, which will be included in our NuGet package and automatically loaded from a referencing project.
-
-1. In the task's project file, *AppSettingStronglyTyped.csproj*, add the following code:
-
-```xml
-	<ItemGroup>
-		<!-- these lines pack the build props/targets files to the `build` folder in the generated package.
-         by convention, the .NET SDK will look for build\<Package Id>.props and build\<Package Id>.targets
-         for automatic inclusion in the build. -->
-		<Content Include="build\AppSettingStronglyTyped.props" PackagePath="build\" />
-		<Content Include="build\AppSettingStronglyTyped.targets" PackagePath="build\" />
-	</ItemGroup>
-```
-
-1. Create a _build_ folder and in that folder, add two text files: *AppSettingStronglyTyped.props* and *AppSettingStronglyTyped.targets*.
-*AppSettingStronglyTyped.props* is imported very early in *Microsoft.Common.props*, and properties defined later are unavailable to it. So, avoid referring to properties that are not yet defined; they would evaluate to empty.
-
-*Directory.Build.targets* is imported from *Microsoft.Common.targets* after importing `.targets` files from NuGet packages. So, it can override properties and targets defined in most of the build logic, or set properties for all your projects regardless of what the individual projects set. See [import order](customize-your-build.md#import-order).
-
-*AppSettingStronglyTyped.props* includes the task and defines some properties with default values:
-
-```xml
-<?xml version="1.0" encoding="utf-8" ?>
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<!--defining properties interesting for my task-->
-	<PropertyGroup>
-		<!--default directory where the .dll was publich inside a nuget package-->
-		<taskForldername>lib</taskForldername>
-		<taskFramework>netstandard2.0</taskFramework>
-		<!--The folder where the custom task will be present. It points to inside the nuget package. -->
-		<CustomTasksFolder>$(MSBuildThisFileDirectory)..\$(taskForldername)\$(taskFramework)</CustomTasksFolder>
-		<!--Reference to the assembly which contains the MSBuild Task-->
-		<CustomTasksAssembly>$(CustomTasksFolder)\$(MSBuildThisFileName).dll</CustomTasksAssembly>
-	</PropertyGroup>
-
-	<!--Register our custom task-->
-	<UsingTask TaskName="$(MSBuildThisFileName).$(MSBuildThisFileName)" AssemblyFile="$(CustomTasksAssembly)"/>
-
-	<!--Task parameters default values, this can be overridden-->
-	<PropertyGroup>
-		<RootFolder Condition="'$(RootFolder)' == ''">$(MSBuildProjectDirectory)</RootFolder>
-		<SettingClass Condition="'$(SettingClass)' == ''">MySetting</SettingClass>
-		<SettingNamespace Condition="'$(SettingNamespace)' == ''">example</SettingNamespace>
-		<SettingExtensionFile Condition="'$(SettingExtensionFile)' == ''">mysettings</SettingExtensionFile>
-	</PropertyGroup>
-</Project>
-```
-
-The _AppSettingStronglyTyped.props_ will be automatically included when the package is installed. Then, our client has the task available and some default values. However, it is never used. In order to put this code in action we need to define some targets on _AppSettingStronglyTyped.targets_ file which also will be also automatically included when the package is installed:
-
-```xml
-<?xml version="1.0" encoding="utf-8" ?>
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-
-	<!--Defining all the text files input parameters-->
-	<ItemGroup>
-		<SettingFiles Include="$(RootFolder)\*.$(SettingExtensionFile)" />
-	</ItemGroup>
-
-	<!--It is generated a target which is executed before the compilation-->
-	<Target Name="BeforeCompile" Inputs="@(SettingFiles)" Outputs="$(RootFolder)\$(SettingClass).generated.cs">
-		<!--Calling our custom task-->
-		<AppSettingStronglyTyped SettingClassName="$(SettingClass)" SettingNamespaceName="$(SettingNamespace)" SettingFiles="@(SettingFiles)">
-			<Output TaskParameter="ClassNameFile" PropertyName="SettingClassFileName" />
-		</AppSettingStronglyTyped>
-		<!--Our generated file is included to be compiled-->
-		<ItemGroup>
-			<Compile Remove="$(SettingClassFileName)" />
-			<Compile Include="$(SettingClassFileName)" />
-		</ItemGroup>
-	</Target>
-
-	<!--The generated file is deleted after a general clean. It will force the regeneration on rebuild-->
-	<Target Name="AfterClean">
-		<Delete Files="$(RootFolder)\$(SettingClass).generated.cs" />
-	</Target>
-</Project>
-```
-
-The first step is the creation of an [InputGroup](msbuild-items.md) which represents the text files (it could be more than one) to read and it will be some of our task parameter. There are default for the location and the extension where we look for, but you can override the values defining the properties on the client msbuild project file.
-
-Then we define two [MSBuild targets](msbuild-targets.md). We [extend the MSBuild process](how-to-extend-the-visual-studio-build-process.md) overriding predefined targets:
-
-1. `BeforeCompile`: The goal is to call our custom task to generate the class and include the class to be compiled. Tasks that are inserted before core compilation is done. Input and Output field are related to [incremental build](incremental-builds.md). If all output items are up-to-date, MSBuild skips the target. This incremental build of the target can significantly improve the build speed. An item is considered up-to-date if its output file is the same age or newer than its input file or files.
-
-1. `AfterClean`: The goal is to delete the generated class file after a general clean happens.Tasks that are inserted after the core clean functionality is invoked. It force the generation on MSBuild rebuild target execution.
-
-### Generate the NuGet package
-
-We can use Visual Studio (Right click on the project and select 'pack').
-We can also do it by command line. Move to the folder where the AppSettingStronglyTyped.csproj is present, and execute:
-
-```dotnetcli
-//-o is to define the output, we are choose the current folder
-dotnet pack -o .
-```
-
-Congratulations! You have generated a NuGet package named *\AppSettingStronglyTyped\AppSettingStronglyTyped\AppSettingStronglyTyped.1.0.0.nupkg*.
-
-The package has an extension `.nupkg` and is a compressed zip file. You can open it with a zip tool. The `.target` and `.props` files are in the `build` folder. The `.dll` file is in the `lib\netstandard2.0\` folder. The `AppSettingStronglyTyped.nuspec` file is at the root level.
-
-### Generate a console app and use the custom task
-
-Now, we are going to create a standard .NET Core console app for testing the nuget package generated.
-
-> [!CAUTION]
-> We need to avoid generating a MSBuild custom task in the same MSBuild process which is going to consume it. The new project should be in a complete different Visual Studio Solution or the new project use a dll pre-generated and re-located from the standard output.
-
-We could called MSBuildConsoleExample the new project on a new Visual Studio Solution.
-
-We must import the AppSettingStronglyTyped NuGet package. We need to define a new package source and define a local folder as package source, [please follow the instructions](/nuget/consume-packages/install-use-packages-visual-studio#package-sources). Then copy our nuget on that folder and install on our console app.
-
-Then, we should rebuild to be sure every thing is working as expected.
-
-At this point, we are going to create our text file with the extension defined to be discovered. Using the default extension we are going to create `MyValues.mysettings` on the root, and add the following content:
-
-```
-Greeting:string:Hello World!
-```
-
-Now, we are going to rebuild again and the magic should happens, the generated file must be there. If you are using the standards you must see _MySetting.generated.cs_ file on your solution.
+1. Rebuild again and the magic should happens, the generated file must be there. If you are using the standards you must see _MySetting.generated.cs_ file on your solution.
 
 The class _MySetting_ is in the _example_ namespace, we are going to redefine to use our app namespace. Open the project file and add
 
@@ -400,3 +205,193 @@ msbuild -bl
 
 Both of them will generate a log msbuild.binlog, and it can be open with [this tool](https://msbuildlog.com/)
 The option `/t:rebuild` means run the rebuild target. It will force the regeneration.
+
+Congratulations! You've built a task that generates code, and used it in a build.
+
+## Package the task for distribution
+
+If you only need to use your custom task in a few projects or in a single solution, consuming the task as a raw assembly might be all you need, but the best way to prepare your task to use it elsewhere or share it with others is as a NuGet package.
+
+1. To prepare to generate a NuGet package, make some changes to the project file to specify the details that describe the package. The initial project file you created resembles the following:
+
+   ```xml
+   <Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Build.Utilities.Core" Version="17.0.0" />
+  </ItemGroup>
+
+   </Project>
+   ```
+
+1. To generate a NuGet package, add the following code to set the properties for the package:
+
+   ```xml
+   <Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+		<version>1.0.0</version>
+		<title>AppSettingStronglyTyped</title>
+		<authors>Your author name</authors>
+		<description>Generates a strongly typed setting class base on a text file.</description>
+		<tags>MyTags</tags>
+		<copyright>Copyright ©Contoso 2022</copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Build.Utilities.Core" Version="17.0.0" />
+  </ItemGroup>
+
+   </Project>
+   ```
+
+1. The dependencies of your MSBuild task must be packaged inside the package; they cannot be expressed as normal PackageReferences. The package won't expose any regular dependencies to external users. It is not needed for the current example, because there aren't any extra dependencies, but it is important to include this step for real-world projects that have dependencies.
+
+   ```xml
+   <Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<version>1.0.0</version>
+		<title>AppSettingStronglyTyped</title>
+		<authors>John Doe</authors>
+		<description>Generates a strongly typed setting class base on a txt file</description>
+		<tags>MyTags</tags>
+		<copyright>Copyright ©Microsoft Company 2022</copyright>
+		<!-- we need the assemblies bundled, so set this so we don't expose any dependencies to the outside world -->
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+		<TargetsForTfmSpecificBuildOutput>$(TargetsForTfmSpecificBuildOutput);CopyProjectReferencesToPackage</TargetsForTfmSpecificBuildOutput>
+		<DebugType>embedded</DebugType>
+		<IsPackable>true</IsPackable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Build.Utilities.Core" Version="17.0.0" />
+	</ItemGroup>
+
+	<Target Name="CopyProjectReferencesToPackage" DependsOnTargets="ResolveReferences">
+		<ItemGroup>
+			<!-- the dependencies of your MSBuild task must be packaged inside the package, they cannot be expressed as normal PackageReferences -->
+
+			<!--example: <BuildOutputInPackage Include="$(PkgFParsec)/lib/netstandard2.0/FParsecCS.dll" />-->
+		</ItemGroup>
+	</Target>
+
+   </Project>
+
+   ```
+
+### Include MSBuild properties and targets in a package
+
+For background on this section, read about [properties and targets](customize-your-build.md) and then how to [include props and targets in a NuGet package](/nuget/create-packages/creating-a-package#include-msbuild-props-and-targets-in-a-package).
+
+In some cases, you might want to add custom build targets or properties in projects that consume your package, such as running a custom tool or process during build. You do this by placing files in the form <package_id>.targets or <package_id>.props within the \build folder of the project.
+
+Files in the root \build folder are considered suitable for all target frameworks.
+
+In this section, you'll wire up the task implementation in `.props` and `.targets` files, which will be included in our NuGet package and automatically loaded from a referencing project.
+
+1. In the task's project file, *AppSettingStronglyTyped.csproj*, add the following code:
+
+   ```xml
+	<ItemGroup>
+		<!-- these lines pack the build props/targets files to the `build` folder in the generated package.
+         by convention, the .NET SDK will look for build\<Package Id>.props and build\<Package Id>.targets
+         for automatic inclusion in the build. -->
+		<Content Include="build\AppSettingStronglyTyped.props" PackagePath="build\" />
+		<Content Include="build\AppSettingStronglyTyped.targets" PackagePath="build\" />
+	</ItemGroup>
+   ```
+
+1. Create a _build_ folder and in that folder, add two text files: *AppSettingStronglyTyped.props* and *AppSettingStronglyTyped.targets*.
+*AppSettingStronglyTyped.props* is imported very early in *Microsoft.Common.props*, and properties defined later are unavailable to it. So, avoid referring to properties that are not yet defined; they would evaluate to empty.
+
+   *Directory.Build.targets* is imported from *Microsoft.Common.targets* after importing `.targets` files from NuGet packages. So, it can override properties and targets defined in most of the build logic, or set properties for all your projects regardless of what the individual projects set. See [import order](customize-your-build.md#import-order).
+
+   *AppSettingStronglyTyped.props* includes the task and defines some properties with default values:
+
+   ```xml
+   <?xml version="1.0" encoding="utf-8" ?>
+   <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<!--defining properties interesting for my task-->
+	<PropertyGroup>
+		<!--default directory where the .dll was publich inside a nuget package-->
+		<taskForldername>lib</taskForldername>
+		<taskFramework>netstandard2.0</taskFramework>
+		<!--The folder where the custom task will be present. It points to inside the nuget package. -->
+		<CustomTasksFolder>$(MSBuildThisFileDirectory)..\$(taskForldername)\$(taskFramework)</CustomTasksFolder>
+		<!--Reference to the assembly which contains the MSBuild Task-->
+		<CustomTasksAssembly>$(CustomTasksFolder)\$(MSBuildThisFileName).dll</CustomTasksAssembly>
+	</PropertyGroup>
+
+	<!--Register our custom task-->
+	<UsingTask TaskName="$(MSBuildThisFileName).$(MSBuildThisFileName)" AssemblyFile="$(CustomTasksAssembly)"/>
+
+	<!--Task parameters default values, this can be overridden-->
+	<PropertyGroup>
+		<RootFolder Condition="'$(RootFolder)' == ''">$(MSBuildProjectDirectory)</RootFolder>
+		<SettingClass Condition="'$(SettingClass)' == ''">MySetting</SettingClass>
+		<SettingNamespace Condition="'$(SettingNamespace)' == ''">example</SettingNamespace>
+		<SettingExtensionFile Condition="'$(SettingExtensionFile)' == ''">mysettings</SettingExtensionFile>
+	</PropertyGroup>
+   </Project>
+   ```
+
+1. The _AppSettingStronglyTyped.props_ will be automatically included when the package is installed. Then, the client has the task available and some default values. However, it is never used. In order to put this code in action, define some targets on _AppSettingStronglyTyped.targets_ file which also will be also automatically included when the package is installed:
+
+   ```xml
+   <?xml version="1.0" encoding="utf-8" ?>
+   <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+	<!--Defining all the text files input parameters-->
+	<ItemGroup>
+		<SettingFiles Include="$(RootFolder)\*.$(SettingExtensionFile)" />
+	</ItemGroup>
+
+	<!--It is generated a target which is executed before the compilation-->
+	<Target Name="BeforeCompile" Inputs="@(SettingFiles)" Outputs="$(RootFolder)\$(SettingClass).generated.cs">
+		<!--Calling our custom task-->
+		<AppSettingStronglyTyped SettingClassName="$(SettingClass)" SettingNamespaceName="$(SettingNamespace)" SettingFiles="@(SettingFiles)">
+			<Output TaskParameter="ClassNameFile" PropertyName="SettingClassFileName" />
+		</AppSettingStronglyTyped>
+		<!--Our generated file is included to be compiled-->
+		<ItemGroup>
+			<Compile Remove="$(SettingClassFileName)" />
+			<Compile Include="$(SettingClassFileName)" />
+		</ItemGroup>
+	</Target>
+
+	<!--The generated file is deleted after a general clean. It will force the regeneration on rebuild-->
+	<Target Name="AfterClean">
+		<Delete Files="$(RootFolder)\$(SettingClass).generated.cs" />
+	</Target>
+   </Project>
+   ```
+
+   The first step is the creation of an [InputGroup](msbuild-items.md) which represents the text files (it could be more than one) to read and it will be some of our task parameter. There are default for the location and the extension where we look for, but you can override the values defining the properties on the client msbuild project file.
+
+   Then we define two [MSBuild targets](msbuild-targets.md). We [extend the MSBuild process](how-to-extend-the-visual-studio-build-process.md) overriding predefined targets:
+
+   - `BeforeCompile`: The goal is to call our custom task to generate the class and include the class to be compiled. Tasks that are inserted before core compilation is done. Input and Output field are related to [incremental build](incremental-builds.md). If all output items are up-to-date, MSBuild skips the target. This incremental build of the target can significantly improve the build speed. An item is considered up-to-date if its output file is the same age or newer than its input file or files.
+
+   -`AfterClean`: The goal is to delete the generated class file after a general clean happens.Tasks that are inserted after the core clean functionality is invoked. It force the generation on MSBuild rebuild target execution.
+
+### Generate the NuGet package
+
+You can use Visual Studio (Right-click on the project and select **Pack**).
+You can also do it by using the command line. Move to the folder where the task project file *AppSettingStronglyTyped.csproj* is present, and execute:
+
+```dotnetcli
+//-o is to define the output, we are choose the current folder
+dotnet pack -o .
+```
+
+Congratulations! You have generated a NuGet package named *\AppSettingStronglyTyped\AppSettingStronglyTyped\AppSettingStronglyTyped.1.0.0.nupkg*.
+
+The package has an extension `.nupkg` and is a compressed zip file. You can open it with a zip tool. The `.target` and `.props` files are in the `build` folder. The `.dll` file is in the `lib\netstandard2.0\` folder. The `AppSettingStronglyTyped.nuspec` file is at the root level.
+
