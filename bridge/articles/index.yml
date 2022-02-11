@@ -16,17 +16,13 @@ metadata:
 landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
-  # Card (optional)
-  - title: Overview
+
+  - title: Try in Visual Studio
     linkLists:
       - linkListType: overview
         links:
           - text: What is Bridge to Kubernetes
             url: overview-bridge-to-kubernetes.md
-  # Card
-
-  - title: Work in Visual Studio
-    linkLists:
       - linkListType: quickstart
         links:
           - text: Bridge to Kubernetes in Visual Studio
@@ -37,8 +33,12 @@ landingContent:
           - text: Configure Bridge to Kubernetes
             url: configure-bridge-to-kubernetes.md
 
-  - title: Work in VS Code
+  - title: Try in VS Code
     linkLists:
+      - linkListType: overview
+        links:
+          - text: What is Bridge to Kubernetes
+            url: overview-bridge-to-kubernetes.md
       - linkListType: quickstart
         links:
           - text: Bridge to Kubernetes in VS Code

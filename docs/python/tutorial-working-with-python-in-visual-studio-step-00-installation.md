@@ -19,7 +19,7 @@ ms.workload:
 > [!Note]
 > Python support is presently available only on Visual Studio for Windows. On Mac and Linux, Python support is available through [Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial).
 
-1. Download and run the latest Visual Studio installer for Windows. Python support is available in the 15.2 and later releases. If you have Visual Studio installed already, open Visual Studio and run the installer by selecting **Tools** > **Add Tools and Features**.
+1. Download and run the latest Visual Studio installer for Windows. Python support is present in the release 15.2 and later. If you have Visual Studio installed already, open Visual Studio and run the installer by selecting **Tools** > **Add Tools and Features**.
 
     > [!div class="nextstepaction"]
     > [Install Visual Studio Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted)
