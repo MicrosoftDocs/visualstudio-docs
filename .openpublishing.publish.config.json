@@ -76,7 +76,7 @@
       "monikers": [],
       "moniker_ranges": [
         "vsmac-2017",
-        "vsmac-2019"
+        ">=vsmac-2019"
       ],
       "open_to_public_contributors": true,
       "type_mapping": {
