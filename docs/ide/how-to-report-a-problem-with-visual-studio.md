@@ -78,6 +78,8 @@ When an issue is missing important information, we assign the **Needs More Info*
 
 1. You can provide more information by adding comments, attachments, or recording steps. This experience is similar to reporting a new problem or providing additional information when voting on a problem.
 
+    ![Screenshot of Developer Community attach system logs and recordings checkbox being checked and showing the option to attach more files.](https://user-images.githubusercontent.com/79461015/153265681-3696f046-b5c7-41c4-ad78-668951578bdd.png)
+
 1. The requesting Microsoft engineer receives a notification about the extra information provided. If they have enough information to investigate, the problem state changes. Otherwise, the engineer asks for even further information.
 
 You can see these requests on the **My Feedback** screen along with all your other **Problems** and **Suggestions**.
