@@ -379,6 +379,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
           // Call *mywebapi*, and display its response in the page
           var request = new System.Net.Http.HttpRequestMessage();
           request.RequestUri = new Uri("http://mywebapi/WeatherForecast");
+          var response = await client.SendAsync(request);
           ViewData["Message"] += " and " + await response.Content.ReadAsStringAsync();
        }
     }
