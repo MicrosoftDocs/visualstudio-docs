@@ -6,7 +6,7 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.topic: tutorial
-ms.date: 02/03/2022
+ms.date: 02/14/2022
 ms.prod: visual-studio-windows
 ms.workload:
   - "aspnet"
