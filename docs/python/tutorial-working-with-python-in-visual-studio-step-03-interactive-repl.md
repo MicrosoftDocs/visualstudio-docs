@@ -24,9 +24,9 @@ The Visual Studio **Interactive** window for Python provides a rich read-evaluat
 > [!NOTE]
 > For issues with REPL, be sure to have `ipython` and `ipykernel` packages installed, and for help installing packages, see [Python environments packages tab](./python-environments-window-tab-reference.md#packages-tab).
 
-1. Open the **Interactive** window by right-clicking the project's Python environment in **Solution Explorer** (such as **Python 3.6 (32-bit)** shown in an earlier graphic) and selecting **Open Interactive Window**. Other way is to select **View** > **Other Windows** > **Python Interactive Windows** from the main Visual Studio menu.
+1. Open the **Interactive** window by right-clicking the project's Python environment in **Solution Explorer** (such as **Python 3.6 (32-bit)** shown in an earlier graphic) and selecting **Open Interactive Window**. Another way is, to select **View** > **Other Windows** > **Python Interactive Windows** from the main Visual Studio menu.
 
-1. The **Interactive** window opens below the editor with the standard **>>>** Python REPL prompt. The **Environment** drop-down list allows you to select a specific interpreter to work with. Many times you also want to make the **Interactive** window larger, which you can do by dragging the separator between the two windows:
+1. The **Interactive** window opens below the editor with the standard **>>>** Python REPL prompt. The **Environment** drop-down list allows you to select a specific interpreter to work with. If you'd like to make the **Interactive** window larger you can drag the separator between the two windows, seen in the image below:
 
     ![Python interactive window and dragging to resize](media/vs-getting-started-python-11-interactive1b.png)
 
@@ -37,13 +37,13 @@ The Visual Studio **Interactive** window for Python provides a rich read-evaluat
 
     ![Python interactive window immediate results](media/vs-getting-started-python-12-interactive2.png)
 
-1. When you start writing a multiline statement, like a function definition, the **Interactive** window shows Python's **...** prompt for continuing lines, which, unlike the command-line REPL, provides automatic indentation. You can add a new **...** line by pressing `Shift+Enter`:
+1. When you start writing a multiline statement (like a function definition), the **Interactive** window shows Python's **...** prompt for continuing lines. Unlike the command-line REPL, this will provide automatic indentation. You can add a new **...** line by pressing `Shift+Enter`:
 
     ![Python interactive window with statement continuation](media/vs-getting-started-python-13-interactive3.png)
 
 1. The **Interactive** window provides a full history of everything you've entered, and improves upon the command-line REPL with multiline history items. For example, you can easily recall the entire definition of the `f` function as a single unit and easily change the name to `make_double`, rather than re-creating the function line by line.
 
-1. Visual Studio can send multiple lines of code from an editor window to the **Interactive** window. This capability allows you to maintain code in a source file and easily send selected parts of it to the **Interactive** window. You can then work with such code fragments in the rapid REPL environment rather than having to run the whole program. To see this feature, first replace the `for` loop in the *PythonApplication1.py* file with the code below:
+1. Visual Studio can send multiple lines of code from an editor window to the **Interactive** window. This capability allows you to maintain code in a source file and easily send the chosen fragments to the **Interactive** window. You can then work with such code fragments in the rapid REPL environment rather than having to run the whole program. To see this feature, first replace the `for` loop in the *PythonApplication1.py* file with the code below:
 
     ```python
     # Create a string with spaces proportional to a cosine of x in degrees
@@ -68,13 +68,13 @@ The Visual Studio **Interactive** window for Python provides a rich read-evaluat
 
     ![Pasting multiple lines of code using Sending Interactive](media/vs-getting-started-python-15-interactive5.png)
 
-1. As you can see, this code works fine but its output isn't inspiring. A different step value in the `for` loop would show more of the cosine wave. The entire `for` loop is available in the REPL history as a single unit, you can go back and make whatever changes you want and then test the function again. Press the up arrow to first recall the `for` loop. You can navigate in the code by pressing the left or right arrows. (until you do so, the up and down arrows continue to cycle through the history). Navigate to and change the `range` specification to `range(0, 360, 12)`. Then press **Ctrl**+**Enter** (anywhere in the code) to run the whole statement again:
+1. As you can see, this code works fine but its output isn't inspiring. A different step value in the `for` loop would show more of the cosine wave. The entire for loop is available in the REPL history as a single unit. You can go back and make whatever changes you want and then test the function again. Press the up arrow to first recall the `for` loop. You can navigate in the code by pressing the left or right arrows (until you do so, the up and down arrows continue to cycle through the history). Navigate to and change the `range` specification to `range(0, 360, 12)`. Then press **Ctrl**+**Enter** anywhere in the code, to run the whole statement again:
 
     ![Editing a previous statement in the interactive window](media/vs-getting-started-python-16-interactive6.png)
 
 1. Repeat the process to experiment with different step settings until you find a value you like best. You can also make the wave repeat by lengthening the range, for example, `range(0, 1800, 12)`.
 
-1. When you're satisfied with the code you wrote in the **Interactive** window, select it. Next, right-click the code and choose **Copy Code** (**Ctrl**+**Shift**+**C**). Finally, paste the selected code into the editor. Notice how this special feature of Visual Studio automatically omits any output along with the `>>>` and `...` prompts. For example, the image below shows using the **Copy Code** command on a selection that includes prompts and output:
+1. When you're satisfied with the code you wrote in the **Interactive** window, select it. Next, right-click the code and choose **Copy Code** (**Ctrl**+**Shift**+**C**). Finally, paste the selected code into the editor. Notice how this special feature of Visual Studio automatically omits any output, along with the `>>>` and `...` prompts. For example, the image below shows using the **Copy Code** command on a selection that includes prompts and output:
 
     ![Interactive window copy code command on a selection with prompts and output](media/vs-getting-started-python-17-interactive7.png)
 
