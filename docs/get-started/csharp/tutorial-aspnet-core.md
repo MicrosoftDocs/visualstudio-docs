@@ -281,7 +281,53 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
    ![Screenshot shows the About page in your web page with the your changes.](media/csharp-aspnet-razor-browser-page-about-changed.png)
 
-1. Close the web browser, press **Shift**+**F5** to stop debugging, and then close Visual Studio.
+1. Close the web browser, press **Shift**+**F5** to stop debugging.
+
+## Change your About page
+
+1. In the **Solution Explorer**, expand the **Pages** folder, and then select **About.cshtml**.
+
+   ![Screenshot shows About dot c s h t m l selected under the Pages node in the Solution Explorer.](media/csharp-aspnet-about-page-html-file.png)
+
+   The **About.cshtml** file corresponds to a page that's titled **About** in the web app, which runs in a web browser.
+
+   ![Screenshot shows the About page for the web app in the browser window.](media/csharp-aspnet-about-page.png)
+
+   In the code editor, you'll see HTML code for the text that appears on the **About** page.
+
+   ![Screenshot shows the About dot c s h t m l file for the Home page in the Visual Studio code editor.](media/csharp-aspnet-about-cshtml-page.png)
+
+1. Replace _Use this area to provide additional information_ text with _Hello World!_
+
+   ![Screenshot shows the About dot c s h t m l file in the Visual Studio code editor with the default text changed to Hello World!](media/csharp-aspnet-about-cshtml-page-hello-world.png)
+
+1. In the **Solution Explorer**, expand **About.cshtml** and then select **About.cshtml.cs**. This file also corresponds with the **About** page in the web browser.
+
+   ![Screenshot shows the About dot c s h t m l dot c s file selected under the About dot c s h t m l node in the Solution Explorer.](media/csharp-aspnet-about-page-code-file.png)
+
+   In the code editor, you'll see C# code that includes text for the _application description_ area of the **About** page.
+
+   ![Screenshot shows C Sharp code for the application description area in the code editor.](media/csharp-aspnet-about-cshtml-cs-code.png)
+
+1. Replace _Your application description page_ text with _What's my message?_
+
+   ![Screenshot in the code editor shows the text changed from Your application description here to What's my message?](media/csharp-aspnet-about-cshtml-cs-message.png)
+
+1. Select **IIS Express** or press **Ctrl**+**F5** to run the app and open it in a web browser.
+
+   ![Screenshot shows the IIS Express button highlighted in the toolbar for Visual Studio](media/csharp-aspnet-hello-world-iis-button.png)
+
+1. In the web browser, you'll see your new changes on the **About** page.
+
+   ![Screenshot shows the About page for the web app in the browser window. The updated text says What's my message? Hello World!](media/csharp-aspnet-about-page-hello-world.png)
+
+1. Close the web browser, press **Shift**+**F5** to stop debugging, and save your project. You can now close Visual Studio.
+
+### Review your work
+
+View the following animation to check the work that you completed in the previous section:
+
+  ![Animated gif shows all the steps for changing the About page text.](media/csharp-aspnet-animated-hello-world.gif)
 
 ::: moniker-end
 
@@ -382,7 +428,36 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
    ![Screenshot showing the updated Privacy page that includes the changes you made.](media/vs-2019/csharp-aspnet-browser-page-privacy-changed.png)
 
-1. Close the web browser, press **Shift**+**F5** to stop debugging, and then close Visual Studio.
+1. Close the web browser, press **Shift**+**F5** to stop debugging.
+
+## Change your Home page
+
+1. In the **Solution Explorer**, expand the **Pages** folder, and then select **Index.cshtml**.
+
+   ![Screenshot shows Index dot c s h t m l selected under the Pages node in the Solution Explorer.](media/vs-2019/csharp-aspnet-index-page-cshtml-file.png)
+
+   The **Index.cshtml** file corresponds with your **Home** page in the web app, which runs in a web browser.
+
+   ![ Screenshot shows the Home page for the web app in the browser window.](media/vs-2019/csharp-aspnet-index-page.png)
+
+   In the code editor, you'll see HTML code for the text that appears on the **Home** page.
+
+   ![Screenshot shows the Index dot c s h t m l file for the Home page in the Visual Studio code editor.](media/vs-2019/csharp-aspnet-index-cshtml-page.png)
+
+1. Replace the _Welcome_ text with _Hello World!_
+
+   ![Screenshot shows the Index dot c s h t m l file in the Visual Studio code editor with the Welcome text changed to Hello World!.](media/vs-2019/csharp-aspnet-index-cshtml-page-hello-world.png)
+    
+1. Select **IIS Express** or press **Ctrl**+**F5** to run the app and open it in a web browser.
+
+   ![Screenshot shows the IIS Express button highlighted in the toolbar for Visual Studio.](media/vs-2019/csharp-aspnet-generic-iis-button.png)
+
+1. In the web browser, you'll see your new changes on the **Home** page.
+
+   ![Screenshot shows the Home page for the web app in the browser window. The updated text says Hello World!](media/vs-2019/csharp-aspnet-index-page-hello-world.png)
+
+1. Close the web browser, press **Shift**+**F5** to stop debugging, and save your project. You can now close Visual Studio.
+
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
@@ -489,7 +564,7 @@ Change the body of the `OnGet()` method to the following code:
 
 1. Close the web browser, press **Shift**+**F5** to stop debugging.
 
-## Change your home page
+## Change your Home page
 
 1. In the **Solution Explorer**, expand the **Pages** folder, and then select **Index.cshtml**.
 
@@ -515,7 +590,7 @@ Change the body of the `OnGet()` method to the following code:
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-index-page-hello-world.png" alt-text="Screenshot shows the Home page for the web app in the browser window. The updated text says 'Hello World!'":::
 
-1. Close the web browser, press **Shift**+**F5** to stop debugging, and now you can close Visual Studio.
+1. Close the web browser, press **Shift**+**F5** to stop debugging, and save your project. You can now close Visual Studio.
 
 ::: moniker-end
 
