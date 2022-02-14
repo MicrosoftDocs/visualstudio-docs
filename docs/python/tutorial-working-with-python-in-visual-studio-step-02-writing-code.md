@@ -21,7 +21,7 @@ ms.custom: devdivchpfy22
 
 Although **Solution Explorer** is where you manage project files, the *editor* window is typically where you work with the *contents* of files, like source code. The editor is contextually aware of the type of file you're editing. The editor also recognizes the programming language (based on the file extension), and offers features appropriate to that language such as syntax coloring and auto-completion using IntelliSense.
 
-1. When you create a new "Python Application" project, a default empty file named *PythonApplication1.py* is open in the Visual Studio editor.
+1. When you create a new "Python Application" project, a default empty file named *PythonApplication1.py* is opened in the Visual Studio editor.
 
 1. In the editor, start typing `print("Hello, Visual Studio")` and notice how Visual Studio IntelliSense displays autocompletion options along the way. The outlined option in the drop-down list is the default completion that's used when you press the **Tab** key. Completions are most helpful when longer statements or identifiers are involved.
 
@@ -37,7 +37,7 @@ Although **Solution Explorer** is where you manage project files, the *editor* w
     print("Hello, Visual Studio")
     ```
 
-1. Notice the syntax coloration that differentiates the statement `print` from the argument `"Hello Visual Studio"`. Also, temporarily delete the last `"` on the string and notice how Visual Studio shows a red underline for code that contains syntax errors. Then replace the `"` to correct the code.
+1. Notice the syntax coloration that differentiates the statement `print` from the argument `"Hello Visual Studio"`. You can, temporarily delete the last `"` on the string and notice how Visual Studio shows a red underline for code that contains syntax errors. Finally replace the `"` to correct the code.
 
     ![IntelliSense syntax coloring and error highlighting](media/vs-getting-started-python-06-IntelliSense3b.png)
 
@@ -46,7 +46,7 @@ Although **Solution Explorer** is where you manage project files, the *editor* w
 
 1. Run the code you've written to this point by pressing **Ctrl**+**F5** or selecting **Debug** > **Start without Debugging** menu item. Visual Studio warns you if you still have errors in your code.
 
-1. When you run the program, a console window appears to display the results. It's similar to running a Python interpreter with *PythonApplication1.py* from the command line. Press any key to close the window and return to the Visual Studio editor.
+1. When you run the program, a console window will display the results. It's similar to running a Python interpreter with *PythonApplication1.py* from the command line. Press any key to close the window and return to the Visual Studio editor.
 
     ![Output for the first run of the program](media/vs-getting-started-python-07-output.png)
 
