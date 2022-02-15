@@ -7,8 +7,6 @@
     href: git-with-visual-studio.md
 - name: Get started
   items:
-  - name: Create a GitHub account
-    href: git-create-github-account.md
   - name: Clone a repo
     href: git-clone-repository.md
   - name: Create a repo
@@ -35,6 +33,8 @@
   items:
   - name: Git settings and preferences
     href: git-settings.md
+  - name: Create a GitHub account
+    href: git-create-github-account.md
   - name: Compare Git and Team Explorer side-by-side
     href: git-team-explorer-feature-comparison.md
   - name: Release notes
