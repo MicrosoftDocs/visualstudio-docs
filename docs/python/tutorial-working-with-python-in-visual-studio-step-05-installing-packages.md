@@ -1,7 +1,7 @@
 ---
 title: Python in Visual Studio tutorial step 5, install packages
 titleSuffix: ""
-description: Step 5 of a core walkthrough of Python capabilities in Visual Studio, demonstrating Visual Studio's features for managing packages in a Python environment.
+description: Step 5 of a core walkthrough of Python capabilities in Visual Studio. Demonstrates Visual Studio features for managing packages in a Python environment.
 ms.date: 02/09/2022
 ms.topic: tutorial
 author: rjmolyneaux
@@ -46,9 +46,9 @@ The Python developer community has produced thousands of useful packages that yo
    ![Python Environments-2019](media/environments/environments-view-all-2019.png)
    :::moniker-end
 
-2. Now, create a new project with **File** > **New** > **Project**, selecting the **Python Application** template.
+1. Now, create a new project with **File** > **New** > **Project**, selecting the **Python Application** template.
 
-3. In the code file that appears, paste the following code, which creates a cosine wave like the previous tutorial steps, only this time plotted graphically. You can also use the project you previously created and replace the code.
+1. In the code file that appears, paste the following code, which creates a cosine wave like the previous tutorial steps, only this time plotted graphically. You can also use the project you previously created and replace the code.
 
     ```python
     from math import radians
@@ -63,7 +63,7 @@ The Python developer community has produced thousands of useful packages that yo
     main()
     ```
 
-4. In the editor window, hover over the `numpy` and `matplotlib` import statements. You'll notice that they aren't resolved. To resolve the import statements, install the packages to the default global environment.
+1. In the editor window, hover over the `numpy` and `matplotlib` import statements. You'll notice that they aren't resolved. To resolve the import statements, install the packages to the default global environment.
    :::moniker range=">=vs-2022"
    ![Unresolved package import-2022](media/packages-unresolved-import-2022.png)
    :::moniker-end
@@ -72,11 +72,11 @@ The Python developer community has produced thousands of useful packages that yo
     ![Unresolved package import](media/packages-unresolved-import.png)
    :::moniker-end
 
-5. Looking at the editor window, you'll notice that if you hover over the `numpy` and `matplotlib` import statements that they aren't resolved. The reason is the packages haven't been installed to the default global environment.
+1. Looking at the editor window, you'll notice that if you hover over the `numpy` and `matplotlib` import statements that they aren't resolved. The reason is the packages haven't been installed to the default global environment.
 
     For example, select **Open interactive window** and an **Interactive window** for that specific environment appears in Visual Studio.
 
-6. The **Packages** tab in the Python Environments window lists all packages that are currently installed in the environment.
+1. The **Packages** tab in the Python Environments window lists all packages that are currently installed in the environment.
 
 ## Install packages using the Python Environments window
 
@@ -86,17 +86,17 @@ The Python developer community has produced thousands of useful packages that yo
    [Install packages in an environment](media/environments/install-python-packages-2022.gif)
    :::moniker-end
 
-2. Install `matplotlib` by entering its name into the search field and then selecting the **Run command: pip install matplotlib** option. Running the command will install `matplotlib`, and any packages it depends on (in this case that includes `numpy`).
+1. Install `matplotlib` by entering its name into the search field and then selecting the **Run command: pip install matplotlib** option. Running the command will install `matplotlib`, and any packages it depends on (in this case that includes `numpy`).
 
-3. Choose the **Packages** tab.
+1. Choose the **Packages** tab.
 
-4. Consent to elevation if prompted to do so.
+1. Consent to elevation if prompted to do so.
 
-5. After the package is installed, it appears in the **Python Environments** window. The **X** to the right of the package uninstalls it.
+1. After the package is installed, it appears in the **Python Environments** window. The **X** to the right of the package uninstalls it.
 
-6. Enter `matplotlib` into the search field to install `matplotlib`.
+1. Enter `matplotlib` into the search field to install `matplotlib`.
 
-7. Select the **Run command: pip install matplotlib** option.
+1. Select the **Run command: pip install matplotlib** option.
       This option installs `matplotlib`, and any packages it depends on (in this case, that includes `numpy`).
 
    :::moniker range="vs-2022"
@@ -106,9 +106,9 @@ The Python developer community has produced thousands of useful packages that yo
    ![Installing matplotlib in the environment-2019 in Packages tab](media/environments/environments-add-matplotlib-2019.png)
    :::moniker-end
 
-8. Consent to elevation if prompted to do so.
+1. Consent to elevation if prompted to do so.
 
-9. After the package installs, it appears in the **Python Environments** window. The **X** to the right of the package uninstalls it.
+1. After the package installs, it appears in the **Python Environments** window. The **X** to the right of the package uninstalls it.
 
    :::moniker range="vs-2022"
    ![Installing matplotlib in the environment-2022](media/environments/environments-add-matplotlib2-2022.png)
