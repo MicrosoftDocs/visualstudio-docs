@@ -22,7 +22,7 @@ To associate your code with Git, you start by creating a new Git repository wher
 
     :::image type="content" source="../media/vs-2022/git-add-source-control.png" alt-text="Screenshot of the Git source control buttons below the Solution Explorer pane, with the Add to Source Control button highlighted.":::
 
-2. In the **Create a Git repository** dialog box, sign in to GitHub.
+1. In the **Create a Git repository** dialog box, sign in to GitHub.
 
     :::image type="content" source="../media/vs-2022/git-create-repo.png" alt-text="Screenshot of the Create a Git Repository dialog window where you can sign in to GitHub.":::
 
@@ -31,7 +31,7 @@ To associate your code with Git, you start by creating a new Git repository wher
     > [!TIP]
     > Whether your repository is public or private, it's best to have a remote backup of your code stored securely on GitHub. Even if you aren't working with a team, a remote repository makes your code available to you from any computer.
 
-3. Select **Create and Push**.
+1. Select **Create and Push**.
 
     After you create your repository, you see status details in the status bar.
 
