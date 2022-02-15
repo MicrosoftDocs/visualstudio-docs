@@ -53,9 +53,9 @@ if you want to share code between .NET Framework and any other .NET implementati
 
 The first step is to create the MSBuild custom task. Information about how to [write an MSBuild custom task](task-writing.md) might help you understand the following steps. An MSBuild custom task is a class that implements the <xref:Microsoft.Build.Framework.ITask> interface.
 
-Add a reference to the _Microsoft.Build.Utilities.Core_ NuGet package, and then create a class named AppSettingStronglyTyped derived from Microsoft.Build.Utilities.Task.
+1. Add a reference to the _Microsoft.Build.Utilities.Core_ NuGet package, and then create a class named AppSettingStronglyTyped derived from Microsoft.Build.Utilities.Task.
 
-Add three properties. These define the parameters of the task that users set when they use the task in a client project:
+1. Add three properties. These define the parameters of the task that users set when they use the task in a client project:
 
 ```csharp
         //The name of the class which is going to be generated
@@ -81,7 +81,7 @@ The task output will be a string that gives the filename of the generated code.
         public string ClassNameFile { get; set; }
 ```
 
-When you create a custom task, you inherit from <xref:Microsoft.Build.Task>. To implement the task, you override the `Execute` method. The `Execute` method returns `true` if the task succeeds, and `false` otherwise. `Task` implements `ITask` and provides default implementations of some `ITask` members and additionally, provides some logging functionality. It is important to output status to the log to diagnose and troubleshoot the task, especially if a problem occurs and the task must return an error result (`false`). On error, the class signals the error by calling `Log.LogError`.
+1. When you create a custom task, you inherit from <xref:Microsoft.Build.Task>. To implement the task, you override the `Execute` method. The `Execute` method returns `true` if the task succeeds, and `false` otherwise. `Task` implements `ITask` and provides default implementations of some `ITask` members and additionally, provides some logging functionality. It is important to output status to the log to diagnose and troubleshoot the task, especially if a problem occurs and the task must return an error result (`false`). On error, the class signals the error by calling `Log.LogError`.
 
 ```csharp
         public override bool Execute()
@@ -190,7 +190,7 @@ The normal way to distribute a task is through a NuGet package, but during devel
 
 Execute the program; it will print the greeting from the generated class.
 
-### (Optional) Check what is going on during build process
+### (Optional) Log events during build process
 
 It is possible to compile using a command line command. Navigate to the project folder. You'll use the  `-bl` (binary log) option to generate a binary log. The binary log will have a very useful information to know what is going on during build process.
 
@@ -215,13 +215,13 @@ If you only need to use your custom task in a few projects or in a single soluti
    ```xml
    <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-  </PropertyGroup>
+      <PropertyGroup>
+         <TargetFramework>netstandard2.0</TargetFramework>
+      </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Build.Utilities.Core" Version="17.0.0" />
-  </ItemGroup>
+      <ItemGroup>
+         <PackageReference Include="Microsoft.Build.Utilities.Core" Version="17.0.0" />
+      </ItemGroup>
 
    </Project>
    ```
@@ -231,19 +231,19 @@ If you only need to use your custom task in a few projects or in a single soluti
    ```xml
    <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-		<version>1.0.0</version>
-		<title>AppSettingStronglyTyped</title>
-		<authors>Your author name</authors>
-		<description>Generates a strongly typed setting class base on a text file.</description>
-		<tags>MyTags</tags>
-		<copyright>Copyright ©Contoso 2022</copyright>
-  </PropertyGroup>
+      <PropertyGroup>
+         <TargetFramework>netstandard2.0</TargetFramework>
+		   <version>1.0.0</version>
+		   <title>AppSettingStronglyTyped</title>
+		   <authors>Your author name</authors>
+		   <description>Generates a strongly typed setting class base on a text file.</description>
+		   <tags>MyTags</tags>
+		   <copyright>Copyright ©Contoso 2022</copyright>
+       </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Build.Utilities.Core" Version="17.0.0" />
-  </ItemGroup>
+     <ItemGroup>
+       <PackageReference Include="Microsoft.Build.Utilities.Core" Version="17.0.0" />
+     </ItemGroup>
 
    </Project>
    ```
@@ -381,8 +381,7 @@ In this section, you'll wire up the task implementation in `.props` and `.target
 
 ### Generate the NuGet package
 
-You can use Visual Studio (Right-click on the project and select **Pack**).
-You can also do it by using the command line. Move to the folder where the task project file *AppSettingStronglyTyped.csproj* is present, and execute:
+You can use Visual Studio (right-click on the project and select **Pack**). You can also do it by using the command line. Move to the folder where the task project file *AppSettingStronglyTyped.csproj* is present, and execute:
 
 ```dotnetcli
 //-o is to define the output, we are choose the current folder
@@ -392,3 +391,7 @@ dotnet pack -o .
 Congratulations! You've generated a NuGet package named *\AppSettingStronglyTyped\AppSettingStronglyTyped\AppSettingStronglyTyped.1.0.0.nupkg*.
 
 The package has an extension `.nupkg` and is a compressed zip file. You can open it with a zip tool. The `.target` and `.props` files are in the `build` folder. The `.dll` file is in the `lib\netstandard2.0\` folder. The `AppSettingStronglyTyped.nuspec` file is at the root level.
+
+## Next steps
+
+TBD Add link go the next tutorial: create a ToolTask.
