@@ -36,6 +36,7 @@ In this tutorial, you will:
 You must have Visual Studio 2019 installed and the **Desktop development with C++** workload.
 
 ::: moniker-end
+
 ::: moniker range="vs-2017"
 
 You must have Visual Studio 2017 installed and the **Desktop development with C++** workload.
@@ -48,7 +49,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
@@ -84,7 +85,7 @@ First, you'll create a C++ console application project. The project type comes w
 
 ::: moniker range=">=vs-2019"
 
-1. Open Visual Studio 2019.
+1. Open Visual Studio.
 
    If the start window is not open, choose **File** > **Start Window**.
 
