@@ -126,6 +126,65 @@ By default, the Developer PowerShell that launches is configured for the Visual 
 > [!TIP]
 > The [execution policy](/powershell/module/microsoft.powershell.core/about/about_execution_policies) must be set in order for the cmdlet to run.
 
+The `Launch-VsDevShell.ps1` script works by locating the `Microsoft.VisualStudio.DevShell.dll` PowerShell module in the Visual Studio installation path, loading it, and then invoking the `Enter-VsDevShell` cmdlet. Installed shortcuts, like those in the Start Menu, load the module and invoke the cmdlet directly. `Launch-VsDevShell.ps1` is the recommended way to initialize Developer PowerShell interactively or for scripting build automation.
+
+## Command line arguments
+
+### Target Architecture and Host Architecture
+
+For build tools -- like the C++ compiler -- that create outputs targeting specific CPU architectures the developer shells can be configured using the appropriate command line argument. The architecture of the build tool binaries can also be configured using command line arguments. This is useful when the build machine is a different architecture than the target architecture.
+
+> [!TIP]
+> Beginning with Visual Studio 2022, `msbuild` will default to a 64-bit msbuild.exe binary, regardless of the Host Architecture.
+
+|Shell|Argument|
+|--|--|
+|Developer Command Prompt|-arch=&lt;Target Architecture&gt;|
+|Developer Command Prompt|-host_arch=&lt;Host Architecture&gt;|
+|Developer PowerShell|-Arch &lt;Target Architecture&gt;|
+|Developer PowerShell|-HostArch &lt;Host Architecture&gt;|
+
+Developer PowerShell arguments -Arch and -HostArch are only available beginning with Visual Studio 2022 Update 1.
+
+The following is a list of which architectures are supported, and whether they can be used for the Target Architecture or Host Architecture arguments.
+
+|Architecture|Target Architecture|Host Architecture|
+|--|--|--|
+|x86|Default|Default|
+|amd64|Yes|Yes|
+|arm|Yes|No|
+|arm64|Yes|No|
+
+> [!TIP]
+> If only Target Architecure is set, the shells will attempt to make the Host Architecture match. This can result in errors when setting only the Target Architecture to a value not also supported by Host Architecture.
+
+#### Examples
+
+Start Developer Command Prompt for Visual Studio 2019 Community Edition on a 64-bit machine, creating build outputs that target 64-bit:
+```cmd
+"%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat" -arch=amd64
+```
+
+Start Developer Command Prompt for Visual Studio 2019 Community Edition on a 64-bit machine, creating build outputs that target arm:
+```cmd
+"%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat" -arch=arm -host_arch=amd64
+```
+
+Start Developer PowerShell for Visual Studio 2022 Update 1 Community Edition on 64-bit machine, creating build outputs that target arm64:
+```powershell
+& 'C:\Program Files (x86)\Microsoft Visual Studio\2022\Community\Common7\Tools\Launch-VsDevShell.ps1' -Arch arm64 -HostArch amd64
+```
+
+### SkipAutomaticLocation
+
+For Developer PowerShell, the starting directory of the shell is the Visual Studio Project Location. This will override any other paths, such as working directory. This behavior can be turned off using the
+command line argument `-SkipAutomaticLocation`. This is useful if, for example, you want the shell to stay in the current directory after initialization.
+
+The Project Location can be adjusted in Tools -> Options -> Projects &amp; Solutions -> Project Location.
+ 
+> [!TIP]
+> The command line arguments `-Arch`, `-HostArch`, and `-SkipAutomaticLocation` are supported by both the `Launch-VsDevShell.ps1` script and the `Enter-VsDevShell` cmdlet.
+
 ## See also
 
 - [Windows Terminal](/windows/terminal/)
