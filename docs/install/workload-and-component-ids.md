@@ -67,6 +67,8 @@ For more information about how to use these lists, see the [Use command-line par
 
 ::: moniker range=">=vs-2022"
 
+**Updated for the [17.1 release](/visualstudio/releases/2022/release-notes/)**
+
 | **Edition** | **ID** | **Description** |
 | ----------- | ------ | --------------- |
 | [Visual&nbsp;Studio Enterprise&nbsp;2022](workload-component-id-vs-enterprise.md?view=vs-2022&preserve-view=true) | Microsoft.VisualStudio.Product.Enterprise | Microsoft DevOps solution for productivity and coordination across teams of any size |
