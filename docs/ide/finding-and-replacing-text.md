@@ -2,7 +2,7 @@
 title: Find and replace text, and multi-caret selection
 description: Learn about the Find and Replace feature and how to use it to find and replace instances of a pattern.
 ms.custom: SEO-VS-2020
-ms.date: 01/21/2022
+ms.date: 02/01/2022
 ms.topic: conceptual
 f1_keywords:
 - vs.find
@@ -151,6 +151,16 @@ Additionally, you can use **Alt**+**Shift**+**up arrow key** (or **down arrow ke
 
 > [!TIP]
 > If you prefer to keep using a box selection with **Alt**+**Shift**+**arrow keys** and **Alt**+**Shift**+**mouse drag** when you expand a multi-caret selection, go to **Tools** > **Options** > **Text Editor** > **Advanced** and select **Use box selection**.
+
+### Commands
+
+The following keyboard shortcuts are for actions that are specific to multi-caret selection behaviors.
+
+|Shortcut|Action|Command|
+|-|-|-|
+| **Alt**+**Shift**+**.** | Use multi-caret | Edit.InsertNextMatchingCaret |
+| **Ctrl**+**Shift**+**arrow key** | Expand selections | Edit.SizeControlUp, Edit.SizeControlDown, Edit.SizeControlRight, Edit.SizeControlLeft |
+| **Alt**+**Shift**+**up arrow key** (or **down arrow key**)| Select multiple carets | Edit.LineUpExtendColumn, Edit.LineDownExtendColumn |
 
 You can also access multi-caret selection from the menu bar by selecting **Edit** > **Multiple Carets** and then selecting the action you want.
 

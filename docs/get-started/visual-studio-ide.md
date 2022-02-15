@@ -2,7 +2,7 @@
 title: Overview of Visual Studio
 titleSuffix: ''
 description: Learn about the Visual Studio integrated development environment.
-ms.date: 09/14/2021
+ms.date: 02/10/2022
 ms.technology: vs-ide-general
 ms.topic: overview
 ms.custom: [vs-acquisition,  vs-get-started, SEO-VS-2020]
@@ -22,6 +22,8 @@ ms.workload:
 ## Next steps
 
 Explore Visual Studio further by following along with one of these introductory articles:
+
+- Cover the basics in this Learn module: [Introduction to Visual Studio](/learn/modules/visual-studio-intro/).
 
 - Get acquainted with the code editor in [Learn to use the code editor](tutorial-editor.md).
 
