@@ -43,8 +43,6 @@
     items:
     - name: Overview
       href: install/visual-studio-administrator-guide.md
-    - name: Visual Studio enterprise guide
-      href: install/visual-studio-enterprise-guide.md
     - name: Use the command line
       items:
       - name: Use command-line parameters to install Visual Studio
@@ -154,7 +152,7 @@
   - name: "C#: Create a console app"
     href: get-started/csharp/tutorial-console.md
   - name: "Visual Basic: Create a console app"
-    href: ide/quickstart-visual-basic-console.md
+    href: get-started/visual-basic/tutorial-console.md    
   - name: "Node.js: Create a web app"
     href: ide/quickstart-nodejs.md
   - name: "Python: Create a web app"

@@ -46503,12 +46503,12 @@
     {
       "source_path": "docs/ide/tutorial-csharp-console.md",
       "redirect_url": "/visualstudio/get-started/csharp/tutorial-console",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
-      "source_path": "docs/ide/tutorial-visual-basic-console.md",
+      "source_path": "docs/ide/quickstart-visual-basic-console.md",
       "redirect_url": "/visualstudio/get-started/visual-basic/tutorial-console",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/user-accounts-and-updates.md",
@@ -58082,6 +58082,11 @@
     {
       "source_path": "docs/install/remove-visual-studio.md",
       "redirect_url": "/visualstudio/install/uninstall-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/version-control/git-visual-studio-source-control.md",
+      "redirect_url": "/visualstudio/version-control/git-with-visual-studio",
       "redirect_document_id": false
     },
     {

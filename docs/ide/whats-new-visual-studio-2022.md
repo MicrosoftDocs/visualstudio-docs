@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2022."
-ms.date: 01/26/2022
+ms.date: 02/15/2022
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -17,7 +17,7 @@ ms.workload:
 ---
 # What's new in Visual Studio 2022
 
-**Updated for the 17.0 GA (General Availability) release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
+**Updated for the 17.1 release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
 
 >[!div class="button"]
 >[Download Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
@@ -25,7 +25,7 @@ ms.workload:
 With [Visual Studio 2022](https://visualstudio.microsoft.com/vs/), you'll always get the best-in-class tools and services available for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our newest version!
 
 > [!TIP]
-> Check out the [**Visual Studio 2022 launch event**](https://www.youtube.com/watch?v=f8jXO946eDw) on our [YouTube channel](https://www.youtube.com/visualstudio). You can also catch it on our [Twitch channel](https://www.twitch.tv/visualstudio), too.
+> Check out the [**Visual Studio 2022 GA launch event**](https://www.youtube.com/watch?v=f8jXO946eDw) on our [YouTube channel](https://www.youtube.com/visualstudio). You can also catch it on our [Twitch channel](https://www.twitch.tv/visualstudio), too.
 
 ## Performance improvements
 

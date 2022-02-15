@@ -1,5 +1,5 @@
 ---
-title: "How to report a problem with Visual Studio"
+title: Report a problem with Visual Studio
 description: "Find out how to report a problem with Visual Studio"
 ms.date: 10/07/2021
 ms.topic: how-to
@@ -11,7 +11,7 @@ ms.technology: vs-ide-general
 ms.workload:
   - "multiple"
 ---
-# How to report a problem with Visual Studio or Visual Studio Installer
+# Report a problem with the Visual Studio product or installer
 
 > [!NOTE]
 > For Visual Studio for Mac, see [How to report a problem in Visual Studio for Mac](/visualstudio/mac/report-a-problem).
@@ -41,16 +41,14 @@ Alternatively, report a problem in **Visual Studio Installer** if you can't inst
 
     ![Vote for duplicates](../ide/media/feedback-duplicate.png)
 
-2. If no duplicates were found, continue by entering a description of the problem. It's important to be as clear as possible to increase the chances of us being able to reproduce the bug. Make sure to include clear reproduction steps.
+1. If no duplicates were found, continue by entering a description of the problem. It's important to be as clear as possible to increase the chances of us being able to reproduce the bug. Make sure to include clear reproduction steps.
 
-3. If relevant to the bug report, take a screenshot by checking the *Include Visual Studio screenshot* checkbox.
+1. If relevant to the bug report, take a screenshot by checking the *Include Visual Studio screenshot* checkbox.  You can even crop the screenshot directly in the browser to remove any sensitive or unrelated parts.
 
     ![Take a screenshot](../ide/media/feedback-screenshot.png)
     *Only Microsoft engineers can see the screenshot*
 
-    You can even crop the screenshot directly in the browser to remove any sensitive or unrelated parts.
-
-4. One of the best ways to help the Visual Studio engineering team solve the problem, is to provide a trace and heap dump files for them to look through. You can easily do that by recording the steps that resulted in the bug.
+1. <a name="trace"/>One of the best ways to help the Visual Studio engineering team solve the problem, is to provide a trace and heap dump files for them to look through. You can easily do that by recording the steps that resulted in the bug.
 
     ![Record your actions](../ide/media/feedback-recording.png)
     *Only Microsoft engineers can see the recording*

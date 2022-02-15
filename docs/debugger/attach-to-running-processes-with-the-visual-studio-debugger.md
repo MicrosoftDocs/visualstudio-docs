@@ -171,11 +171,19 @@ In some cases, when you debug in a Remote Desktop (Terminal Services) session, t
 
 If neither of those workarounds is possible, a third option is to attach to the process by running `vsjitdebugger.exe -p <ProcessId>` from the Windows command line. You can determine the process ID using *tlist.exe*. To obtain *tlist.exe*, download and install Debugging Tools for Windows, available at  [WDK and WinDbg downloads](/windows-hardware/drivers/download-the-wdk).
 
+::: moniker range=">= vs-2022"
+## Attach to a .NET Core process running on Azure App Service (Windows)
+
+If you're publishing to Azure App Service (Windows), see [Debugging Azure App Services](/azure/vs-azure-tools-debug-cloud-services-virtual-machines#debugging-azure-app-services) for instructions.
+::: moniker-end
+
+::: moniker range="vs-2019"
 ## Attach to a .NET Core process running on Azure App Service (Windows)
 
 If you're publishing to Azure App Service (Windows), you'll find the **Attach Debugger** option under the **...** menu under **Hosting** in the publish profile. Visual Studio attempts to attach the remote debugger to the instance of Azure App Service (Windows) that the profile is publishing to.
 
 :::image type="content" source="../debugger/media/attach-debugger-publish-profile.png" alt-text="Screenshot of the Attach Debugger option from within the Publish summary page.":::
+::: moniker-end
 
 ## Attach to a .NET Core process running on Linux using SSH
 
