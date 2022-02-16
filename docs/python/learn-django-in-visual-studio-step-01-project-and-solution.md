@@ -60,7 +60,7 @@ Python development isn't presently supported in Visual Studio for Mac. On Mac an
 
 In Django terminology, a "Django project" has several site-level configuration files along with one or more "apps." To create a full web application, you can deploy these apps to a web host. A Django project can contain multiple apps, and the same app can be in multiple Django projects.
 
-A Visual Studio project can contain the Django project along with multiple apps. Whenever this tutorial refers to just a "project," it's referring to the Visual Studio project. When it refers to the "Django project" portion of the web application, it's referring to "Django project" specifically.
+A Visual Studio project can contain the Django project along with multiple apps. Whenever this tutorial refers to just a "project," it's referring to the Visual Studio project. When it refers to the "Django project" portion of the web application, it's referring to a "Django project" specifically.
 
 Over the course of this tutorial, you'll create a single Visual Studio solution that contains three separate Django projects. Each project contains a single Django app. You can easily switch between different files for comparison, by keeping the projects in the same solution.
 
@@ -141,9 +141,12 @@ Because you selected the **Create new Git repository** in the **New Project** di
 ::: moniker-end
 
 ::: moniker range="vs-2022"
-In this step, you'll familiarize yourself with Visual Studio's Git controls and **Team Explorer**. With **Team Explorer** window, you'll work with the source control.
+In this step, you'll familiarize yourself with Visual Studio's Git controls and **Team Explorer**. With the **Team Explorer** window, you'll work with the source control.
 
-1. To commit the project to your local source control, push **Add to Source Control** command at the bottom corner of the Visual Studio main window and select **Git** option. This action takes you to **Create Git repository** window, where you can create and push a new repository.
+1. To commit the project to your local source control:
+    1. Select **Add to Source Control** command at the bottom corner of the Visual Studio main window.
+    1. Then, select the **Git** option.
+    1. Now, you're taken to the **Create Git repository** window, where you can create and push a new repository.
 
     :::image type="content" source="media/django/step01-git-add-to-source-control.png" alt-text="Create a Git repository.":::
 
@@ -176,7 +179,7 @@ In this step, you'll familiarize yourself with Visual Studio's Git controls and 
 
 ### Question: What are some advantages of using source control from the beginning of a project?
 
-Answer: Source control from the start, especially if you also use a remote repository, provides a regular offsite backup of your project. Unlike maintaining a project on a local file system, source control provides a complete change history and the easy ability to revert a single file or the whole project to previous state. The change history helps determine the cause of regressions (test failures). When multiple people are working on a project, the source control manages the overwrite and provides conflict resolution.
+Answer: Source control from the start, especially if you also use a remote repository, provides a regular offsite backup of your project. Unlike maintaining a project on a local file system, source control provides a complete change history and the easy ability to revert a single file or the whole project to its previous state. The change history helps determine the cause of regressions (test failures). When multiple people are working on a project, the source control manages the overwrite and provides conflict resolution.
 
 Lastly, source control, which is fundamentally a form of automation, sets you up for automating builds, testing, and release management. It's the first step in using DevOps for a project. There's really no reason to not use source control from the beginning as the barriers to entry are low.
 
@@ -228,7 +231,7 @@ Now that you've configured source control for your project, you can create the v
 
     :::image type="content" source="media/django/step-01-add-environment-vs-2022.png" alt-text="Add virtual environment dialog with requirements.txt message.":::
 
-1. Consent to administrator privileges if prompted, then wait for few minutes while Visual Studio downloads and installs packages. During this time, thousands of files are transferred to many subfolders. You can see the progress in the Visual Studio **Output** window. While you're waiting, ponder the Question sections that follow.
+1. Consent to administrator privileges if prompted, then wait a few minutes while Visual Studio downloads and installs packages. During this time, thousands of files are transferred to many subfolders. You can see the progress in the Visual Studio **Output** window. While you're waiting, ponder the Question sections that follow.
 
 1. On the Visual Studio Git controls (on the status bar), select the changes indicator (that shows **99&#42;**) which opens the **Changes** page in **Team Explorer**.
 
@@ -250,7 +253,7 @@ Answer: A virtual environment is a great way to isolate your app's exact depende
 
 ### Question: How do I remove a virtual environment that's already committed to source control?
 
-Answer: First, edit your *.gitignore* file to exclude the folder. Find the section at the end with the comment `# Python Tools for Visual Studio (PTVS)` and add a new line for the virtual environment folder, such as `/BasicProject/env`. (Visual Studio doesn't show the file in **Solution Explorer**, so to open the file directly, go to **File** > **Open** > **File** menu. You can also open the file from **Team Explorer**. Go to the **Settings** page and select **Repository Settings**. Now, navigate to the **Ignore & Attributes Files** section and select the **Edit** link next to **.gitignore**.)
+Answer: First, edit your *.gitignore* file to exclude the folder. Find the section at the end with the comment `# Python Tools for Visual Studio (PTVS)` and add a new line for the virtual environment folder, such as `/BasicProject/env`. (Visual Studio doesn't show the file in **Solution Explorer**. To open the file directly, go to **File** > **Open** > **File** menu. You can also open the file from **Team Explorer**. Go to the **Settings** page and select **Repository Settings**. Now, navigate to the **Ignore & Attributes Files** section and select the **Edit** link next to **.gitignore**.)
 
 Second, open a command window, navigate to a folder such as *BasicProject*. The *BasicProject* folder contains the virtual environment folder such as *env*, and run `git rm -r env`. Then commit those changes from the command line (`git commit -m 'Remove venv'`) or commit from the **Changes** page of **Team Explorer**.
 
@@ -267,7 +270,7 @@ Once project creation completes, examine the boilerplate Django project code (wh
    - *__init.py*: An empty file that tells Python that this folder is a Python package.
    - *settings.py*: Contains settings for Django project, which you'll modify in the course of developing a web app.
    - *urls.py*: Contains a table of contents for the Django project, which you'll also modify in the course of development.
-   - *wsgi.py*: An entry point for WSGI-compatible web servers to serve your project. You usually leave this file as-is as it provides the hooks for production web servers.
+   - *wsgi.py*: An entry point for WSGI-compatible web servers to serve your project. You usually leave this file as-is, as it provides the hooks for production web servers.
 
     :::image type="content" source="media/django/step01-django-project-in-solution-explorer.png" alt-text="Django project files in Solution Explorer.":::
 
@@ -301,7 +304,7 @@ Answer: In addition to the **Debug** menu commands and toolbar buttons, you can 
 
 ## Next steps
 
-At this point, the basic Django project doesn't contain any apps. You'll create an app in the next step. Since you'll work with Django apps more than the Django project, you won't need to know more about the boilerplate files now.
+At this point, the basic Django project doesn't contain any apps. You'll create an app in the next step. Since you'll work with Django apps more than the Django project, you won't need to know more about the boilerplate files for now.
 
 > [!div class="nextstepaction"]
 > [Create a Django app with views and page templates](learn-django-in-visual-studio-step-02-create-an-app.md)
