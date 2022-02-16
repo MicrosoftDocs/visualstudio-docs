@@ -16,31 +16,29 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-# Create an offline installation of Visual Studio
+# Create an offline cache of Visual Studio for local installation
 
-We designed Visual Studio to work well in various network and computer configurations. We recommend that you use the [Visual Studio Installer](https://visualstudio.microsoft.com/downloads), which is a small file that checks for online updates on a regular basis and helps you stay current with all the latest fixes and features. However, sometimes online access is problematic. For example, you might have an unreliable internet connection or your internet connection may have low bandwidth. For situations like these, we've made a few other methods available for acquiring Visual Studio. You can use the **Download all, then install** feature from the Visual Studio Installer to download the files to a local cache on the local machine before you install, or you can use the command line to create a local cache of the files to install later.
+We designed Visual Studio to work well in various network and computer configurations. For all scenarios involving the local machine, we recommend that you use the [Visual Studio Installer](https://visualstudio.microsoft.com/downloads), which is a small file that checks for updates on a regular basis and helps you stay current with all the latest fixes and features. The information on this page discusses how to create offline cache of files for installation on the local machine.
 
-> [!NOTE]
-> If you are an enterprise IT administrator who wants to perform a deployment of Visual Studio to a network of client workstations, refer to our [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide) and the [Create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md) documentation.
+If you are an enterprise IT administrator who wants to perform a deployment of Visual Studio to a network of client workstations, or if you need to create an installation cache of files to transfer to or install onto another machine, refer to our [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide) and the [Create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md) documentation.
 
 ## Use the "Download all, then install" feature
+Sometimes online access is problematic. For example, you might have an unreliable internet connection or your internet connection may have low bandwidth. For situations like these, we've made other methods available for acquiring Visual Studio. You can use the **Download all, then install** feature from the Visual Studio Installer to download the files to a local cache on the local machine before you install, or you can use the command line to create a local cache of the files to install later.
 
-In the Visual Studio Installer, on the **Workloads** tab, you can select the **Download all, then install** option in the dropdown at the bottom of the dialog. The purpose of this feature is to frontload the downloading of the Visual Studio packages onto the same computer that you plan on eventually installing Visual Studio on. By downloading the packages into a local cache first, you can then safely disconnect from the internet before you install Visual Studio.
+To create a local cache, in the Visual Studio Installer, on the **Workloads** tab, you can select the **Download all, then install** option in the dropdown at the bottom of the dialog. The purpose of this feature is to frontload the downloading of the Visual Studio packages onto the same computer that you plan on eventually installing Visual Studio on. By downloading the packages into a local cache first, you can then safely disconnect from the internet before you install Visual Studio.
 
    ![The "Download all, then install" option](media/vs-2019/download-all-then-install-from-installer.png)
 
 > [!IMPORTANT]
-> Do not use the **Download all, then install** feature to create a local cache that you intend to transfer to another computer. It's not designed to work that way. 
+> The **Download all, then install** functionality creates a Visual Studio installation package that is customized to the local machine. Do not try to transfer this cache to another computer, as it's not designed to work that way. Instead, if you want to download an installation cache and transfer it to or install it on another machine, then you'll need to create a layout as described in the [Create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md) documentation.
 
-You can also configure your updates to respect the **Download all, then install** behavior. For more information, refer to the [Customize update settings](/visualstudio/install/update-visual-studio?#installation-and-download-behaviors-1) documentation.
+You can also configure future updates of this instance of Visual Studio to respect the **Download all, then install** behavior. For more information, refer to the [Customize update settings](/visualstudio/install/update-visual-studio?#installation-and-download-behaviors-1) documentation.
 
 ## Use the command line to create a local cache
 
-You can download a small bootstrapper file, and then use the command line to create a local cache. Once the cache is created, you can use it to install Visual Studio. 
+Download the bootstrapper for the edition of Visual Studio you want and copy it into the directory that you want to serve as the source location of your local cache. Once the cache is created, you can use it to install Visual Studio. The bootstrapper is the executable that you use to create, update, and perform other Visual Stusio installation operations. You must have an internet connection to complete this.
 
-### Step 1 - Download the Visual Studio bootstrapper
-
-You must have an internet connection to complete this step.
+### Step 1 - Download the Visual Studio bootstrapper to create the local cache
 
 ::: moniker range="vs-2017"
 
@@ -56,7 +54,7 @@ To get the latest bootstrappers for Visual Studio 2017 version 15.9, download on
 
 ::: moniker range="vs-2019"
 
-To get the latest bootstrappers for Visual Studio 2019 that will always install the latest version of 16.11, download one of the files below. Alternatively, if you want to install a specific version of Visual Studio 2019, go to the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page that has links to the fixed version bootstrappers for each servicing release. 
+The bootstrappers listed below will always install the latest most secure version of Visual Studio 2019, no matter when you run them. Alternatively, if you want to install a specific version of Visual Studio 2019, go to the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page that has links to the fixed version bootstrappers for each servicing release, and download the one you want. Copy it into the directory that you want to serve as the location of your local cache.
 
 | Edition                         | Bootstrapper                                                                    |
 |---------------------------------|-------------------------------------------------------------------------|
@@ -68,21 +66,21 @@ To get the latest bootstrappers for Visual Studio 2019 that will always install 
 
 ::: moniker range="vs-2022"
 
-To get the latest bootstrappers for Visual Studio 2022 that will always install the latest version of the Current channel, download one of the files below. Alternatively, if you want to install a specific version or a specific channel of Visual Studio 2022, go to the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page that has links to the fixed version bootstrappers for each servicing release. 
+The bootstrappers listed below will always install the latest most secure version of Visual Studio 2022 on the Current channel, no matter when you run them. Alternatively, if you want to install a specific version or a specific channel of Visual Studio 2022, go to the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page that has links to the evergreen and fixed version bootstrappers for each servicing release on each channel, and download the one you want. Copy it into the directory that you want to serve as the location of your local cache.
 
-| Edition                         | Bootstrapper                                                               |
+| Edition                         | Bootstrapper                                                            |
 |---------------------------------|-------------------------------------------------------------------------|
 | Visual Studio 2022 Community    | [vs_community.exe](https://aka.ms/vs/17/release/vs_community.exe)       |
 | Visual Studio 2022 Professional | [vs_professional.exe](https://aka.ms/vs/17/release/vs_professional.exe) |
 | Visual Studio 2022 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/17/release/vs_enterprise.exe)     |
-| Visual Studio 2022 Build Tools   | [vs_buildtools.exe](https://aka.ms/vs/17/release/vs_buildtools.exe)         |
+| Visual Studio 2022 Build Tools   | [vs_buildtools.exe](https://aka.ms/vs/17/release/vs_buildtools.exe)    |
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
 >[!TIP]
->If you previously downloaded a specific bootstrapper file from the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#release-dates-and-build-numbers) page and want to verify what version it will install, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the table at the bottom of that page.
+>If you previously downloaded a specific bootstrapper file and want to verify what version it will install, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the table at the bottom of the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history) page.
 
 ::: moniker-end
 
@@ -97,7 +95,7 @@ To get the latest bootstrappers for Visual Studio 2022 that will always install 
 
 You must have an internet connection to complete this step.
 
-Open a command prompt and use the bootstrapper's parameters as defined in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page to create your local installation cache. Common examples using the Enterprise bootstrapper are illustrated below and in the [command-line parameter examples](command-line-parameter-examples.md) page. You can install a language other than English by changing `en-US` to a locale from the [list of language locales](#list-of-language-locales), and you can use the [list of components and workloads](workload-and-component-ids.md) to further customize your local cache.
+Open a command prompt with administrator privileges, navigate to the directory that you downloaded the bootstrapper into, and use the bootstrapper's parameters as defined in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page to create your local installation cache. Common examples using the Enterprise bootstrapper are illustrated below and in the [command-line parameter examples](command-line-parameter-examples.md) page. You can install a language other than English by changing `en-US` to a locale from the [list of language locales](#list-of-language-locales), and you can use the [list of components and workloads](workload-and-component-ids.md) to further customize your local cache.
 
 > [!TIP]
 > To prevent an error, make sure that your full installation path is less than 80 characters.
