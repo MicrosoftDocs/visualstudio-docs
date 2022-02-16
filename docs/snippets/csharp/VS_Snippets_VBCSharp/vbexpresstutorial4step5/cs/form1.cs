@@ -34,7 +34,7 @@ namespace MatchingGame
     /// </summary>
     /// <param name="sender">The label that was clicked</param>
     /// <param name="e"></param>
-    private void label_Click(object sender, EventArgs e)
+    private void label1_Click(object sender, EventArgs e)
     {
         Label clickedLabel = sender as Label;
 

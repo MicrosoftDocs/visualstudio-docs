@@ -98,14 +98,14 @@ For C#, it is often quicker to generate the unit test project and unit test stub
    ![From the editor window, view the context menu](../test/media/vs-2019/basics-create-unit-tests.png)
 
    > [!NOTE]
-   > The **Create Unit Tests** menu command is only available for C# code. To use this method with .NET Core or .NET Standard, Visual Studio 2019 is required.
+   > The **Create Unit Tests** menu command is only available for C# code. To use this method with .NET Core or .NET Standard, Visual Studio 2019 or later is required.
    ::: moniker-end
 
    ::: moniker range=">=vs-2022"
    ![From the editor window, view the context menu](../test/media/vs-2022/basics-create-unit-tests.png)
 
    > [!NOTE]
-   > The **Create Unit Tests** menu command is only available for C# code. To use this method with .NET Core or .NET Standard, Visual Studio 2019 is required.
+   > The **Create Unit Tests** menu command is only available for C# code. To use this method with .NET Core or .NET Standard, Visual Studio 2019 or later is required.
    ::: moniker-end
 
 2. Click **OK** to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.

@@ -507,6 +507,19 @@
       href: how-to-provide-an-asynchronous-visual-studio-service.md
     - name: Troubleshoot Services
       href: how-to-troubleshoot-services.md
+  - name: Use and Provide Brokered Services
+  # Auto-expanded node
+    items:
+    - name: Use and Provide Brokered Services
+      href: use-and-provide-brokered-services.md
+    - name: Consume a Brokered Service
+      href: how-to-consume-brokered-service.md
+    - name: Provide a Brokered Service
+      href: how-to-provide-brokered-service.md
+    - name: Best Practices for Designing a Brokered Service
+      href: best-practices-design-brokered-service.md
+    - name: Secure a Brokered Service
+      href: how-to-secure-brokered-service.md
   - name: Manage VSPackages
   # Auto-expanded node
     items:

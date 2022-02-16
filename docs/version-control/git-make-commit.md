@@ -1,7 +1,7 @@
 ---
-title: Make a commit in Visual Studio
+title: Make a Git commit in Visual Studio
 titleSuffix: ""
-description: Make a commit in Visual Studio by using Git or Azure DevOps.
+description: Make a Git commit in Visual Studio by using Git providers such as GitHub or Azure DevOps.
 ms.date: 11/10/2021
 ms.topic: how-to
 author: TerryGLee
@@ -10,9 +10,9 @@ ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ---
-# Make a commit in Visual Studio
+# Make a Git commit in Visual Studio
 
-The core part of any Git workflow is modifying files and committing the changes in those files.
+The core part of any Git workflow is modifying files and committing the changes in those files.  While this article references GitHub repositories, you can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps. Or, you can work locally with no provider at all.  
 
 Git tracks file changes in your repo as you work, and separates the files in your repo into three categories. These changes are equivalent to what you would see when you enter the `git status` command in the command line:
 
