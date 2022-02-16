@@ -153,8 +153,6 @@
     href: get-started/visual-basic/tutorial-console.md    
   - name: "Node.js: Create a web app"
     href: ide/quickstart-nodejs.md
-  - name: "Python: Create a web app"
-    href: ide/quickstart-python.md
 - name: Tutorials
   expanded: true
   items:
