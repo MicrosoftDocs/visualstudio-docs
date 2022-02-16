@@ -286,7 +286,7 @@ Answer: Yes. Expand the **Python Environments** node, right-click your virtual e
 
     :::image type="content" source="media/django/run-web-server-toolbar-button.png" alt-text="Run web server toolbar button in Visual Studio.":::
 
-1. Running the server means running the command `manage.py runserver <port>`, which starts Django's built-in development server. If Visual Studio says **Failed to start debugger** with a message about having no startup file, right-click **manage.py** in **Solution Explorer** and select **Set as Startup File**.
+1. Running the server means to run the command `manage.py runserver <port>`, which starts Django's built-in development server. If Visual Studio says **Failed to start debugger** with a message about having no startup file, right-click **manage.py** in **Solution Explorer** and select **Set as Startup File**.
 
 1. When you start the server, you see a console window opens that also displays the server log. Visual Studio automatically opens a browser to `http://localhost:<port>`. Since the Django project has no apps, Django shows only a default page to confirm that what you have so far is working fine.
 
