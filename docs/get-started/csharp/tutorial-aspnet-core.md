@@ -353,7 +353,7 @@ View the following animation to check the work that you completed in the previou
 
  1. View the **Index.cshtml.cs** file in the code editor.
 
-     ![Screenshot shows the Index . c s h t m l dot c s file open in the Visual Studio code editor.](media/vs-2019/csharp-aspnet-index-cshtml-editing.png)
+     ![Screenshot shows the Index dot c s h t m l dot c s file open in the Visual Studio code editor.](media/vs-2019/csharp-aspnet-index-cshtml-editing.png)
 
  1. The project contains a **wwwroot** folder that is the root for your website. Expand the folder to view its contents.
 
