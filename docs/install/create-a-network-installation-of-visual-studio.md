@@ -59,11 +59,11 @@ There are a few important things to plan out and be aware of before you get star
 
 ## Download the Visual Studio bootstrapper to create the network layout
 
-Download the bootstrapper for the edition of Visual Studio you want and copy it into the directory that you want to serve as the source location of the layout. The bootstrapper is the executable that you use to create, update, and perform other layout operations.
+Download the bootstrapper for the edition of Visual Studio you want and copy it into the directory that you want to serve as the source location of the layout. Once the layout is created, you can use it to install Visual Studio onto any client machine. The bootstrapper is the executable that you use to create, update, and perform other layout operations. You must have an internet connection to complete this step.
 
 ::: moniker range="vs-2017"
 
-The bootstrappers listed below will always install the latest most secure version of Visual Studio 2017, no matter when you run them:
+To get the latest bootstrappers for Visual Studio 2017 version 15.9, download one of the files below. The bootstrappers listed below will always install the latest most secure version of Visual Studio 2017, no matter when you run them:
 
 | Edition                                      | Bootstrapper            |
 |----------------------------------------------|---------------------|
@@ -89,14 +89,14 @@ Other supported bootstrappers include [vs_teamexplorer.exe](https://aka.ms/vs/16
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="=vs-2022"
 
 The bootstrappers listed below will always install the latest most secure version of Visual Studio 2022 on the Current channel, no matter when you run them. Alternatively, if you want to create or update a layout to a specific version or a specific channel of Visual Studio 2022, go to the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page that has links to the evergreen and fixed version bootstrappers for each servicing release on each channel, and download the one you want. Copy it into the directory that you want to serve as the source location of the layout. 
 
 | Edition                    | Bootstrapper                                                        |
 |----------------------------|----------------------------------------------------------------------|
-| Visual Studio Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/17/release/vs_enterprise.exe)     |
-| Visual Studio Professional | [vs_professional.exe](https://aka.ms/vs/17/release/vs_professional.exe) |
+| Visual Studio 2022 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/17/release/vs_enterprise.exe)     |
+| Visual Studio 2022 Professional | [vs_professional.exe](https://aka.ms/vs/17/release/vs_professional.exe) |
 | Visual Studio 2022 Build Tools   | [vs_buildtools.exe](https://aka.ms/vs/17/release/vs_buildtools.exe)         |
 
 ::: moniker-end
