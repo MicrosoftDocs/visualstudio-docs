@@ -17,8 +17,6 @@
     href: installing-python-interpreters.md
 - name: Quickstarts
   items:
-  - name: "Python: Create a web app"
-    href: ../ide/quickstart-python.md
   - name: Create a web app with Flask
     href: ../ide/quickstart-python.md
     maintainContext: true
