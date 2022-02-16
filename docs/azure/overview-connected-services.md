@@ -7,7 +7,7 @@ ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: overview
-ms.date: 10/19/2021
+ms.date: 02/15/2022
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
@@ -75,13 +75,22 @@ Visual Studio makes it easier to develop Azure applications locally by easing th
 | [SQL Server Express LocalDB](/sql/database-engine/configure-windows/sql-server-express-localdb) | Local alternative to Azure SQL Database. |
 | [Secrets.json](/aspnet/core/security/app-secrets?tabs=windows) | Local alternative for Key Vault. |
 
-## Containers
-
-Connected Services can help you run application dependencies that are emulating Azure services locally in a container. You can run the Azure Storage emulator called Azurite in a container locally.
-
 ## How it works
 
 Visual Studio creates two new files visible in Solution Explorer under Properties called *serviceDependencies.json* and *serviceDependencies.local.json*. Both of these files are safe to check in as they do not contain any secrets.
 
 Visual Studio also creates a file called *serviceDependencies.local.json.user* which is not visible in Solution Explorer by default. This file contains information that could be considered a secret (for example, resource IDs in Azure) and we do not recommend you check it in.
 
+## Containers
+
+Connected Services can help you run application dependencies that are emulating Azure services locally in a container. For example, you can run the Azure Storage emulator called Azurite in a container locally. The next section describes what support Visual Studio provides for transitioning your app from development mode, when you are using these mock services in containers, to using the real services running in Azure.
+
+## Local and connected configurations
+
+During development, you usually use a local emulator, a local database, or a mock service running in a local container. When you use the publish process in Visual Studio to deploy to the cloud, whether it's Azure, Docker Hub, or another supported remote environment, Visual Studio can guide you through the transition to connecting to the real services and databases. When you right-click on the project node in **Solution Explorer** and choose **Publish**, you are guided through the deployment of your app to the cloud, but after that, the service dependencies you previously configured for local use are now shown in the Connected Services UI with a yellow caution icon and a **Configure** link:
+
+![Screenshot showing the Configure option in the Connected Services tab.](media/vs-2022/configure-service-dependencies.png)
+
+If you click those links, Visual Studio will present a few screens that ask for the connection information to the "real" service running in the cloud that your cloud app will use instead of the local service. For example, if you initially configured an app to run with a locally running instance of SQL LocalDB, you would have provided a connection string name and an initial value that referenced that LocalDB database. After your app is first deployed to a cloud environment, you can use the **Configure** links to specify the connection string to use in the cloud. For Azure deployment scenarios, Visual Studio also gives the option of using an [Azure Key Vault](/azure/key-vault/general/overview) to securely store the connection string and other secrets.
+
+![Screenshot showing the options presented to replace the SQL LocalDB service with a real database connection.](media/vs-2022/configure-dependency.png)
