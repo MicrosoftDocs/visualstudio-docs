@@ -11,67 +11,7 @@ ms.custom: template-tutorial
 # Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---
 
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
-
-<!--
-This template provides the basic structure of a tutorial article.
-See the [tutorial guidance](contribute-how-to-mvc-tutorial.md) in the contributor guide.
-
-To provide feedback on this template contact 
-[the templates workgroup](mailto:templateswg@microsoft.com).
--->
-
-<!-- 1. H1 
-Required. Start with "Tutorial: ". Make the first word following "Tutorial: " a 
-verb.
--->
-
 # Tutorial: Create multi-container apps with MySQL & Docker Compose
-
-<!-- 2. Introductory paragraph 
-Required. Lead with a light intro that describes, in customer-friendly language, 
-what the customer will learn, or do, or accomplish. Answer the fundamental “why 
-would I want to do this?” question. Keep it short.
--->
-
-[Add your introductory paragraph]
-
-<!-- 3. Tutorial outline 
-Required. Use the format provided in the list below.
--->
-
-In this tutorial, you learn how to:
-
-> [!div class="checklist"]
-> * All tutorials include a list summarizing the steps to completion
-> * Each of these bullet points align to a key H2
-> * Use these green checkboxes in a tutorial
-
-<!-- 4. Prerequisites 
-Required. First prerequisite is a link to a free trial account if one exists. If there 
-are no prerequisites, state that no prerequisites are needed for this tutorial.
--->
-
-## Prerequisites
-
-- <!-- An Azure account with an active subscription. [Create an account for free]
-  (https://azure.microsoft.com/free/?WT.mc_id=A261C142F). -->
-- <!-- prerequisite 2 -->
-- <!-- prerequisite n -->
-
-<!-- 5. H2s
-Required. Give each H2 a heading that sets expectations for the content that follows. 
-Follow the H2 headings with a sentence about how the section contributes to the whole.
--->
-
-
-7:
-
-
-# Multi-container apps
 
 Up to this point, you've been working with single-container apps. But, you'll now add MySQL to the application stack. The following question often arises - "Where will MySQL run? Install it in the same container or run it separately?" In general, **each container should do one thing and do it well.** A few reasons:
 
@@ -84,14 +24,28 @@ And there are more reasons. So, you will update your application to work like th
 
 ![Todo App connected to MySQL container](media/multi-app-architecture.png)
 
-## Container networking
+In this tutorial, you learn how to:
+
+> [!div class="checklist"]
+> -
+> -
+> -
+
+
+
+## Prerequisites
+
+This tutorial continues set of tutorials, starting with [Create and share a Docker app with Visual Studio Code](tutorial-docker-apps-with-vscode.md).
+Start with that one, which includes prerequisites.
+Then do this tutorial: [Persist data and layer Docker app](tutorial-persist-data-layer-docker-app-with-vscode.md).
+
+## Start MySQL
 
 Remember that containers, by default, run in isolation and don't know anything about other processes or containers on the same machine. So, how do you allow one container to talk to another? The answer is **networking**. Now, you don't have to be a network engineer (hooray!). Simply remember this rule...
 
 > [!NOTE]
 > If two containers are on the same network, they can talk to each other. If they aren't, they can't.
 
-## Start MySQL
 
 There are two ways to put a container on a network: assign it at start or connect an existing container. For now, you will create the network first and attach the MySQL container at startup.
 
@@ -267,27 +221,13 @@ But, there's a good chance you are starting to feel a little overwhelmed with ev
 
 In the next section, we'll talk about Docker Compose. With Docker Compose, you can share your application stacks in a much easier way and let others spin them up with a single (and simple) command!
 
-## Next steps
-
-Continue with the tutorial!
-
-> [!div class="nextstepaction"]
-> [Using Docker Compose](use-docker-compose.md)
-
-
-8:
-
-
-
-# Use Docker Compose
+## Install Docker Compose
 
 [Docker Compose](https://docs.docker.com/compose/) is a tool that was developed to help define and share multi-container applications. With Compose, you can create a YAML file to define the services and with a single command, can spin everything up or tear it all down.
 
 The *big* advantage of using Compose is you can define your application stack in a file, keep it at the root of your project repo (it's now version controlled), and easily enable someone else to contribute to your project. Someone would only need to clone your repo and start the compose app. In fact, you might see quite a few projects on GitHub/GitLab doing exactly this now.
 
 So, how do you get started?
-
-## Install Docker Compose
 
 If you installed Docker Desktop for either Windows or Mac, you already have Docker Compose! Play-with-Docker instances already have Docker Compose installed as well. If you are on a Linux machine, you will need to install Docker Compose using [the instructions here](https://docs.docker.com/compose/install/).
 

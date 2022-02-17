@@ -12,7 +12,7 @@ ms.custom: template-tutorial
 ---
 
 
-# Tutorial: persist data & layer Docker app - VS Code
+# Tutorial: Persist data & layer Docker app - VS Code
 
 
 In case you didn't notice, the todo list is being wiped clean every single time you launch the container. Why is this? Let's dive into how the container is working.
@@ -32,10 +32,12 @@ In this tutorial, you learn how to:
 ## Prerequisites
 
 This tutorial continues the previous tutorial, [Create and share a Docker app with Visual Studio Code](tutorial-docker-apps-with-vscode.md).
-Start with that one, which includes the prerequisites.
+Start with that one, which includes prerequisites.
 
+## Persist your data
 
-To see this in action, you're going to start two containers and create a file in each. What you'll see is that the files created in one container aren't available in another.
+To see this in action, you're going to start two containers and create a file in each.
+What you'll see is that the files created in one container aren't available in another.
 
 1. Start a `ubuntu` container that will create a file named `/data.txt` with a random number between 1 and 10000.
 
@@ -65,7 +67,7 @@ To see this in action, you're going to start two containers and create a file in
 
    You should see a random number!
 
-1. Now, start another `ubuntu` container (the same image) and you'll see you don't have the same file.
+1. Start another `ubuntu` container (the same image) and you'll see you don't have the same file.
 
    ```bash
    docker run -it ubuntu ls /
@@ -75,9 +77,7 @@ To see this in action, you're going to start two containers and create a file in
 
 1. Go ahead and remove the first container using the `docker rm -f` command.
 
-## Container volumes
-
-In the previous section, you saw that each container starts from the image definition each time it starts. While containers can create, update, and delete files, those changes are lost when the container is removed and all changes are isolated to that container. With volumes, you can change all of this.
+In this section, you saw that each container starts from the image definition each time it starts. While containers can create, update, and delete files, those changes are lost when the container is removed and all changes are isolated to that container. With volumes, you can change all of this.
 
 [Volumes](https://docs.docker.com/storage/volumes/) provide the ability to connect specific filesystem paths of the container back to the host machine. If a directory in the container is mounted, changes in that directory are also seen on the host machine. If you mount that same directory across container restarts, you'd see the same files.
 
@@ -154,6 +154,8 @@ However, you saw earlier that rebuilding images for every change takes quite a b
 
 ## Use bind mounts
 
+MERGE INTO NEXT SECTION
+
 In the previous section, you learned about and used a **named volume** to persist the data in your database. Named volumes are great if you simply want to store data, as you don't have to worry about *where* the data is stored.
 
 With **bind mounts**, you control the exact mountpoint on the host. You can use this to persist data, but is often used to provide additional data into containers. When working on an application, you can use a bind mount to mount source code into the container to let it see code changes, respond, and let you see the changes right away.
@@ -161,6 +163,8 @@ With **bind mounts**, you control the exact mountpoint on the host. You can use 
 For Node-based applications, [nodemon](https://npmjs.com/package/nodemon) is a great tool to watch for file changes and then restart the application. There are equivalent tools in most other languages and frameworks.
 
 ## Quick volume type comparisons
+
+MERGE INTO FOLLOWING SECTION
 
 Bind mounts and named volumes are the two main types of volumes that come with the Docker engine. However, additional volume drivers are available to support other uses cases ([SFTP](https://github.com/vieux/docker-volume-sshfs), [Ceph](https://ceph.com/geen-categorie/getting-started-with-the-docker-rbd-volume-plugin/), [NetApp](https://netappdvp.readthedocs.io/en/stable/), [S3](https://github.com/elementar/docker-s3-volume), and more).
 
@@ -231,17 +235,8 @@ At this point, you can persist your database and respond rapidly to the needs an
 
 In order to prepare for production, you need to migrate your database from working in SQLite to something that can scale a little better. For simplicity, you'll keep with a relational database and switch your application to use MySQL. But, how should you run MySQL? How do you allow the containers to talk to each other? You'll learn about that next!
 
-## Next steps
 
-Continue with the tutorial!
-
-> [!div class="nextstepaction"]
-> [Multi-container apps](multi-container-apps.md)
-
-9:
-
-
-# Image layering & Yarn
+## Image layering & Yarn
 
 Did you know that you can look at what makes up an image? Using the `docker image history` command, you can see the command that was used to create each layer within an image.
 
@@ -426,44 +421,10 @@ COPY --from=build /app/build /usr/share/nginx/html
 
 Here, you're using a `node:12` image to perform the build (maximizing layer caching) and then copying the output into an nginx container. Cool, huh?
 
-## Recap
-
-By understanding a little bit about how images are structured, you can build images faster and ship fewer changes. Multi-stage builds also help reduce overall image size and increase final container security by separating build-time dependencies from runtime dependencies.
-
-## Next steps
-
-Continue with the tutorial!
-
-> [!div class="nextstepaction"]
-> [Deploying to the cloud](deploy-to-cloud.md)
-
-
-
-## [Section 1 heading]
-<!-- Introduction paragraph -->
-
-1. Sign in to the [<service> portal](url).
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-## [Section 2 heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-## [Section n heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-<!-- 6. Clean up resources
-Required. If resources were created during the tutorial. If no resources were created, 
-state that there are no resources to clean up in this section.
--->
 
 ## Clean up resources
+
+Keep everything that you've done so far to continue this series of tutorials.
 
 If you're not going to continue to use this application, delete
 <resources> with the following steps:
@@ -471,19 +432,9 @@ If you're not going to continue to use this application, delete
 1. From the left-hand menu...
 1. ...click Delete, type...and then click Delete
 
-<!-- 7. Next steps
-Required: A single link in the blue box format. Point to the next logical tutorial 
-in a series, or, if there are no other tutorials, to some other cool thing the 
-customer can do. 
--->
-
 ## Next steps
 
-Advance to the next article to learn how to create...
-> [!div class="nextstepaction"]
-> [Next steps button](contribute-how-to-mvc-tutorial.md)
+Next, try the next tutorial in this series:
 
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
+> [!div class="nextstepaction"]
+> [Deploy your Docker app to the Azure cloud](tutorial-deploy-docker-app-azure.md)

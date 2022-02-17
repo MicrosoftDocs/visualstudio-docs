@@ -11,68 +11,25 @@ ms.custom: template-tutorial
 # Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---
 
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
-
-<!--
-This template provides the basic structure of a tutorial article.
-See the [tutorial guidance](contribute-how-to-mvc-tutorial.md) in the contributor guide.
-
-To provide feedback on this template contact 
-[the templates workgroup](mailto:templateswg@microsoft.com).
--->
-
-<!-- 1. H1 
-Required. Start with "Tutorial: ". Make the first word following "Tutorial: " a 
-verb.
--->
-
 # Tutorial: Deploy your Docker app to the Azure cloud
 
-<!-- 2. Introductory paragraph 
-Required. Lead with a light intro that describes, in customer-friendly language, 
-what the customer will learn, or do, or accomplish. Answer the fundamental “why 
-would I want to do this?” question. Keep it short.
--->
+Now that you have run your app locally, you can start to think about running it in the cloud so other people can access it and make use of it. To do this, you'll use Docker contexts. A context is the place where you're currently working with containers. Right now, you only have your "default" context, so you'll need to add a cloud one and deploy your app to it.
 
-[Add your introductory paragraph]
 
-<!-- 3. Tutorial outline 
-Required. Use the format provided in the list below.
--->
 
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
-> * All tutorials include a list summarizing the steps to completion
-> * Each of these bullet points align to a key H2
-> * Use these green checkboxes in a tutorial
-
-<!-- 4. Prerequisites 
-Required. First prerequisite is a link to a free trial account if one exists. If there 
-are no prerequisites, state that no prerequisites are needed for this tutorial.
--->
+> -
+> -
+> -
 
 ## Prerequisites
 
-- <!-- An Azure account with an active subscription. [Create an account for free]
-  (https://azure.microsoft.com/free/?WT.mc_id=A261C142F). -->
-- <!-- prerequisite 2 -->
-- <!-- prerequisite n -->
+This tutorial continues the previous tutorial, [Create and share a Docker app with Visual Studio Code](tutorial-docker-apps-with-vscode.md).
+Start with that one, which includes prerequisites.
+Then do this tutorial: [Persist data and layer Docker app](tutorial-persist-data-layer-docker-app-with-vscode.md).
 
-<!-- 5. H2s
-Required. Give each H2 a heading that sets expectations for the content that follows. 
-Follow the H2 headings with a sentence about how the section contributes to the whole.
--->
-
-10:  
-
-
-# Deploy to the cloud
-
-Now that you have run your app locally, you can start to think about running it in the cloud so other people can access it and make use of it. To do this, you'll use Docker contexts. A context is the place where you're currently working with containers. Right now, you only have your "default" context, so you'll need to add a cloud one and deploy your app to it.
 
 ## Create your cloud context
 
@@ -137,18 +94,7 @@ And, you can see that the container is running in a public IP and working correc
 
 Fantastic, you've now taken your workload and deployed it to the cloud successfully for the first time. You can do all of this from the command line as well from within your ACI context using `docker run` and also using `docker compose up` to run your multi-container applications. To find out more about running your containers in the cloud, read through the extended [documentation on using ACI](https://docs.docker.com/engine/context/aci-integration/).
 
-## Next steps
-
-Continue with the tutorial!
-
-> [!div class="nextstepaction"]
-> [What's next](whats-next.md)
-
-
-what next:
-
-
-# What's next
+## What's next
 
 Although you're done with your tutorial, there's still a LOT more to learn about containers!
 You're not going to go deep-dive here, but here are a few other areas to look at next!
@@ -177,35 +123,7 @@ connect to the community, ask questions, and keep learning! We're excited to hav
 
 ## Working with Docker in VS Code
 
-Learn more about using the VS Code Docker extension:
 
-- [VS Code Docker Extension overview](https://code.visualstudio.com/docs/containers/overview)
-- [Get started with Node.js](https://code.visualstudio.com/docs/containers/quickstart-node)
-- [Get started with Python](https://code.visualstudio.com/docs/containers/quickstart-python)
-- [Get started with .NET Core](https://code.visualstudio.com/docs/containers/quickstart-aspnet-core)
-- [Debug containerized apps](https://code.visualstudio.com/docs/containers/debug-common)
-
-
-
-
-## [Section 1 heading]
-<!-- Introduction paragraph -->
-
-1. Sign in to the [<service> portal](url).
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-## [Section 2 heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-## [Section n heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
 
 <!-- 6. Clean up resources
 Required. If resources were created during the tutorial. If no resources were created, 
@@ -213,6 +131,8 @@ state that there are no resources to clean up in this section.
 -->
 
 ## Clean up resources
+
+Keep everything that you've done so far to continue with a bonus tutorial, below.
 
 If you're not going to continue to use this application, delete
 <resources> with the following steps:
@@ -228,11 +148,18 @@ customer can do.
 
 ## Next steps
 
-Advance to the next article to learn how to create...
-> [!div class="nextstepaction"]
-> [Next steps button](contribute-how-to-mvc-tutorial.md)
+You have completed this series of tutorials.
 
-<!--
-Remove all the comments in this template before you sign-off or merge to the 
-main branch.
--->
+Learn more about using the VS Code Docker extension:
+
+- [VS Code Docker Extension overview](https://code.visualstudio.com/docs/containers/overview)
+- [Get started with Node.js](https://code.visualstudio.com/docs/containers/quickstart-node)
+- [Get started with Python](https://code.visualstudio.com/docs/containers/quickstart-python)
+- [Get started with .NET Core](https://code.visualstudio.com/docs/containers/quickstart-aspnet-core)
+- [Debug containerized apps](https://code.visualstudio.com/docs/containers/debug-common)
+
+You might be interested in this bonus tutorial:
+
+> [!div class="nextstepaction"]
+> [Create multi-container apps with MySQL and Docker Compose](tutorial-multi-container-app-mysql.md)
+

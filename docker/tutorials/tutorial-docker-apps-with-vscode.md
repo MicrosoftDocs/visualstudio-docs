@@ -333,7 +333,7 @@ To do this, you will use Play with Docker.
 
 ## Clean up resources
 
-Keep everything that you've done so far to continue this series of tutorials. 
+Keep everything that you've done so far to continue this series of tutorials.
 
 If you are stopping here, delete <resources> with the following steps:
 
