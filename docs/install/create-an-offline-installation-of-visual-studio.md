@@ -1,7 +1,7 @@
 ---
 title: Create an offline installation
 description: Learn how to install Visual Studio offline when you have an unreliable internet connection or low bandwidth.
-ms.date: 11/23/2021
+ms.date: 2/17/2022
 ms.topic: conceptual
 f1_keywords:
 - offline installation [Visual Studio]
