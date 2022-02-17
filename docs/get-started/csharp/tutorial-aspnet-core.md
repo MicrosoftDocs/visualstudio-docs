@@ -498,7 +498,7 @@ View the following animation to check the work that you completed in the previou
 
 1. Select the **IIS Express** button in toolbar, to build and run the app in debug mode. Alternatively, press **F5**, or go to **Debug** > **Start Debugging** from the menu bar.
 
-     :::image type="content" source="media/vs-2022/csharp-aspnet-razor-iisexpress.png" alt-text="Screenshot shows the I I S Express button highlighted in the toolbar in Visual Studio.":::
+     :::image type="content" source="media/vs-2022/csharp-aspnet-razor-iis-express.png" alt-text="Screenshot shows the I I S Express button highlighted in the toolbar in Visual Studio.":::
 
      > [!NOTE]
      > If you get an error message that says **Unable to connect to web server 'IIS Express'**, close Visual Studio and then relaunch the program as an administrator. You can do this by right-clicking the Visual Studio icon from the Start Menu, and then selecting the **Run as administrator** option from the context menu.
