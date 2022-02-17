@@ -36,9 +36,9 @@ productDirectory:
     - title: Visual Studio for Mac
       imageSrc: ./media/vs-mac-2019.svg
       links:
-        - url: ./mac/index.yml?view=vsmac-2022&preserve-view=true
+        - url: ././mac/index.yml?view=vsmac-2022&preserve-view=true
           text: Visual Studio 2022 for Mac (current)
-        - url: ./mac/index.yml?view=vsmac-2019&preserve-view=true
+        - url: ././mac/index.yml?view=vsmac-2019&preserve-view=true
           text: Visual Studio 2019 for Mac
         - url: /previous-versions/visualstudio/mac/
           text: Visual Studio 2017 for Mac
