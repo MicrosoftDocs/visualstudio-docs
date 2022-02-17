@@ -199,7 +199,7 @@ var x = React.createElement(comps_1.RepoDisplay, {description: "test"});
 ## Configure your JavaScript project
 
 The language service is powered by static analysis, which means it analyzes your source code without actually executing it in order to return IntelliSense results and provide other editing features.
-Therefore, the larger the quantity and size of files that are included your project context, the more memory and CPU will be used during analysis.
+Therefore, the larger the quantity and size of files that are included in your project context, the more memory and CPU will be used during analysis.
 Because of this, there are a few default assumptions that are made about your project shape:
 
 - `package.json` and `bower.json` list dependencies used by your project and by default are included in Automatic Type Acquisition (ATA)
