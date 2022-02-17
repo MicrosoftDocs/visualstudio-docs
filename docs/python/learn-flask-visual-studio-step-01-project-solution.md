@@ -141,7 +141,7 @@ Because you selected the **Create new Git repository** in the **New Project** di
 ::: moniker range="vs-2022"
 In this step, you familiarize yourself with Visual Studio's Git controls and the **Team Explorer** window in which you work with source control.
 
-1. To commit the project to your local source control, push **Add to Source Control** command at the bottom corner of the Visual Studio main window and select Git option. This action takes you to Create Git repository window, where you can create and push a new repository.
+1. To commit the project to your local source control, select the **Add to Source Control** command at the bottom corner of the Visual Studio main window and select the Git option. This action takes you to Create Git repository window, where you can create and push a new repository.
 
     ![Create a Git repository](media/django/step01-git-add-to-source-control.png)
 
