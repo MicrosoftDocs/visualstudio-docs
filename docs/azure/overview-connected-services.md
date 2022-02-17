@@ -70,7 +70,7 @@ Visual Studio makes it easier to develop Azure applications locally by easing th
 | [PostgreSQL on container](/azure/postgresql/overview) | PostgreSQL is an object-relational database system that provides reliability and data integrity. This option makes it available in a local container. |
 | [RabbitMQ on container](/azure/azure-functions/functions-bindings-rabbitmq) | RabbitMQ is an open-source multi-protocol message broker. This option makes it available in a local container. |
 | [Redis Cache on container](/azure/azure-cache-for-redis/cache-overview) | Redis cache hosted in a local container. |
-| [SQLite on container](/ef/core/providers/sqlite/?tabs=dotnet-core-cli) | SQLite is an in-process library that provides a self-contained, transactional SQL database engine with no configuration. This option makes it available in a local container. |
+| [SQLite](/ef/core/providers/sqlite/?tabs=dotnet-core-cli) | SQLite is an in-process library that provides a self-contained, transactional SQL database engine with no configuration. |
 | [SQL Server Database](/sql/sql-server/) | On-premises SQL Server Database. |
 | [SQL Server Express LocalDB](/sql/database-engine/configure-windows/sql-server-express-localdb) | Local alternative to Azure SQL Database. |
 | [Secrets.json](/aspnet/core/security/app-secrets?tabs=windows) | Local alternative for Key Vault. |
