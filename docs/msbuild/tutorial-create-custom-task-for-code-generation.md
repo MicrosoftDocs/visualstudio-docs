@@ -1,7 +1,7 @@
 ---
 title: Create a custom task that does code generation | Microsoft Docs
 description: Learn how to use MSBuild to create a custom task that does code generation and properly handles incremental build and clean operations.
-ms.date: 02/07/2022
+ms.date: 02/17/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - tasks
@@ -41,8 +41,7 @@ You can find the complete example at [MSBuild examples](https://github.com/v-fea
 
 Create a .NET Standard Class Library. The framework should be .NET Standard 2.0.
 
-> [!CAUTION]
-> Be sure to understand the difference between full MSBuild (the one that Visual Studio uses) and portable MSBuild, the one bundled in the .NET Core Command Line.
+Be sure to understand the difference between full MSBuild (the one that Visual Studio uses) and portable MSBuild, the one bundled in the .NET Core Command Line.
 
 - Full MSBuild: This version of MSBuild usually lives inside Visual Studio. Runs on .NET Framework. Visual Studio uses this when you execute **Build** on your solution or project. This version is also available from a command-line environment, such as the Visual Studio Developer Command Prompt, or PowerShell.
 - .NET MSBuild: This version of MSBuild is bundled in the .NET Core Command Line. It runs on .NET Core. Visual Studio does not directly invoke this version of MSBuild. It only supports projects that build using Microsoft.NET.Sdk.
@@ -57,7 +56,7 @@ The first step is to create the MSBuild custom task. Information about how to [w
 
 1. Add three properties. These define the parameters of the task that users set when they use the task in a client project:
 
-```csharp
+   ```csharp
         //The name of the class which is going to be generated
         [Required]
         public string SettingClassName { get; set; }
@@ -69,47 +68,131 @@ The first step is to create the MSBuild custom task. Information about how to [w
         //List of files which we need to read with the defined format: 'propertyName:type:defaultValue' per line
         [Required]
         public ITaskItem[] SettingFiles { get; set; }
-```
+   ```
 
-The task processes the _SettingFiles_ and generates a class `SettingNamespaceName.SettingClassName`. The generated class will have a set of constants based on the text file's content.
+   The task processes the _SettingFiles_ and generates a class `SettingNamespaceName.SettingClassName`. The generated class will have a set of constants based on the text file's content.
 
-The task output will be a string that gives the filename of the generated code.
+   The task output will be a string that gives the filename of the generated code.
 
-```csharp
+   ```csharp
         // The filename where the class was generated
         [Output]
         public string ClassNameFile { get; set; }
-```
+   ```
 
-1. When you create a custom task, you inherit from <xref:Microsoft.Build.Task>. To implement the task, you override the `Execute` method. The `Execute` method returns `true` if the task succeeds, and `false` otherwise. `Task` implements `ITask` and provides default implementations of some `ITask` members and additionally, provides some logging functionality. It is important to output status to the log to diagnose and troubleshoot the task, especially if a problem occurs and the task must return an error result (`false`). On error, the class signals the error by calling `Log.LogError`.
+1. When you create a custom task, you inherit from <xref:Microsoft.Build.Utilities.Task?displayProperty=fullName>. To implement the task, you override the <xref:Microsoft.Build.Utilities.Task.Execute> method. The `Execute` method returns `true` if the task succeeds, and `false` otherwise. `Task` implements <xref:Microsoft.Build.Framework.ITask?displayProperty=nameWithType> and provides default implementations of some `ITask` members and additionally, provides some logging functionality. It is important to output status to the log to diagnose and troubleshoot the task, especially if a problem occurs and the task must return an error result (`false`). On error, the class signals the error by calling <xref:Microsoft.Build.Utilities.TaskLoggingHelper.LogError%2A?displayProperty=nameWithType>.
 
 ```csharp
         public override bool Execute()
         {
-            //Read the input files and return a IDictionary<string, object> with the properties to be created.
-            //Any format error it will return not succeed and Log.LogError properly
+            //Read the input files and return a IDictionary<string, object> with the properties to be created. 
+            //Any format error it will return false and log an error
             var (success, settings) = ReadProjectSettingFiles();
             if (!success)
             {
-                return success;
+                return !Log.HasLoggedErrors;
             }
             //Create the class based on the Dictionary
-            return CreateSettingClass(settings);
+            success = CreateSettingClass(settings);
+
+            return !Log.HasLoggedErrors;
         }
 ```
+
+The Task API allows returning false, indicating failure, without indicating to the user what went wrong. It is best to return `!Log.HasLoggedErrors` instead of a boolean code, and log an error when something goes wrong.
+
+### Logging errors
+
+The best practice is to provide details such as the line number and a distinct error code when logging an error. The following code parses the text input file and uses the <xref:Microsoft.Build.Utilities.TaskLoggingHelper.LogError%2A?displayProperty=nameWithType> method with the line number in the text file that produced the error.
+
+```csharp
+private (bool, IDictionary<string, object>) ReadProjectSettingFiles()
+        {
+            var values = new Dictionary<string, object>();
+            foreach (var item in SettingFiles)
+            {
+                int lineNumber = 0;
+
+                var settingFile = item.GetMetadata("FullPath");
+                foreach (string line in File.ReadLines(settingFile))
+                {
+                    lineNumber++;
+
+                    var lineParse = line.Split(':');
+                    if (lineParse.Length != 3)
+                    {
+                        Log.LogError(subcategory: null,
+                                     errorCode: "APPS0001",
+                                     helpKeyword: null,
+                                     file: settingFile,
+                                     lineNumber: lineNumber,
+                                     columnNumber: 0,
+                                     endLineNumber: 0,
+                                     endColumnNumber: 0,
+                                     message: "Incorrect line format. Valid format prop:type:defaultvalue");
+                        return (false, null);
+                    }
+                    var value = GetValue(lineParse[1], lineParse[2]);
+                    if (!value.Item1)
+                    {
+                        return (value.Item1, null);
+                    }
+
+                    values[lineParse[0]] = value.Item2;
+                }
+            }
+            return (true, values);
+        }
+```
+
+Using the techniques shown in the previous code, errors in the syntax of the text input file show up as build errors with helpful diagnostic information:
+
+```output
+Microsoft (R) Build Engine version 17.2.0 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/16/2022 10:23:24 AM.
+Project "S:\work\msbuild-examples\custom-task-code-generation\AppSettingStronglyTyped\AppSettingStronglyTyped.Test\bin\Debug\net6.0\Resources\testscript-fail.msbuild" on node 1 (default targets).
+S:\work\msbuild-examples\custom-task-code-generation\AppSettingStronglyTyped\AppSettingStronglyTyped.Test\bin\Debug\net6.0\Resources\error-prop.setting(1): error APPS0001: Incorrect line format. Valid format prop:type:defaultvalue [S:\work\msbuild-examples\custom-task-code-generation\AppSettingStronglyTyped\AppSettingStronglyTyped.Test\bin\Debug\net6.0\Resources\testscript-fail.msbuild]
+Done Building Project "S:\work\msbuild-examples\custom-task-code-generation\AppSettingStronglyTyped\AppSettingStronglyTyped.Test\bin\Debug\net6.0\Resources\testscript-fail.msbuild" (default targets) -- FAILED.
+
+
+Build FAILED.
+
+"S:\work\msbuild-examples\custom-task-code-generation\AppSettingStronglyTyped\AppSettingStronglyTyped.Test\bin\Debug\net6.0\Resources\testscript-fail.msbuild" (default target) (1) ->
+(generateSettingClass target) ->
+  S:\work\msbuild-examples\custom-task-code-generation\AppSettingStronglyTyped\AppSettingStronglyTyped.Test\bin\Debug\net6.0\Resources\error-prop.setting(1): error APPS0001: Incorrect line format. Valid format prop:type:defaultvalue [S:\work\msbuild-examples\custom-task-code-generation\AppSettingStronglyTyped\AppSettingStronglyTyped.Test\bin\Debug\net6.0\Resources\testscript-fail.msbuild]
+
+    0 Warning(s)
+    1 Error(s)
+```
+
+When you catch exceptions in your task, use the <xref:Microsoft.Build.Utilities.TaskLoggingHelper.LogErrorFromException%2A?displayProperty=nameWithType> method. This will improve the error output, for example by obtaining the call stack where the exception was thrown.
+
+```csharp
+            catch (Exception ex)
+            {
+                // This logging helper method is designed to capture and display information
+                // from arbitrary exceptions in a standard way.
+                Log.LogErrorFromException(ex, showStackTrace: true);
+                return false;
+            }
+```
+
+The implementation of the other methods that use these inputs to build the text for the generated code file is not shown here; see [AppSettingStronglyTyped.cs](https://github.com/v-fearam/msbuild-examples/blob/main/custom-task-code-generation/AppSettingStronglyTyped/AppSettingStronglyTyped/AppSettingStronglyTyped.cs) in the sample repo.
 
 The example code generates C# code during the build process. The task is like any other C# class, so when you're done with this tutorial, you can customize it and add whatever functionality is necessary for your own scenario.
 
 ## Generate a console app and use the custom task
 
-Now, create a standard .NET Core Console App for testing the task.
+In this section, you'll create a standard .NET Core Console App for testing the task.
 
 > [!CAUTION]
 > It's important to avoid generating a MSBuild custom task in the same MSBuild process which is going to consume it. The new project should be in a complete different Visual Studio solution, or the new project use a dll pre-generated and re-located from the standard output.
 
 1. Create the .NET Console project MSBuildConsoleExample in a new Visual Studio Solution.
 
-The normal way to distribute a task is through a NuGet package, but during development and debugging, you can include all the information on `.props` and `.targets` directly on your application's project file and then move to the NuGet format when you distribute the task to others.
+   The normal way to distribute a task is through a NuGet package, but during development and debugging, you can include all the information on `.props` and `.targets` directly on your application's project file and then move to the NuGet format when you distribute the task to others.
 
 1. Modify the project file to consume the code generation task. The code listing in this section shows the modified project file after referencing the task, setting the input parameters for the task, and writing the targets for handling clean and rebuild operations so that the generated code file is removed as you would expect.
 
@@ -125,34 +208,34 @@ The normal way to distribute a task is through a NuGet package, but during devel
 
    ```xml
    <Project Sdk="Microsoft.NET.Sdk">
-   	<UsingTask TaskName="AppSettingStronglyTyped.AppSettingStronglyTyped" AssemblyFile="..\.   .\AppSettingStronglyTyped\AppSettingStronglyTyped\bin\Debug\netstandard2.0\AppSettingStronglyTyped.dll"/>
+      <UsingTask TaskName="AppSettingStronglyTyped.AppSettingStronglyTyped" AssemblyFile="..\.   .\AppSettingStronglyTyped\AppSettingStronglyTyped\bin\Debug\netstandard2.0\AppSettingStronglyTyped.dll"/>
 
-	<PropertyGroup>
-		<OutputType>Exe</OutputType>
-		<TargetFramework>net6.0</TargetFramework>
-		<RootFolder>$(MSBuildProjectDirectory)</RootFolder>
-		<SettingClass>MySetting</SettingClass>
-		<SettingNamespace>MSBuildConsoleExample</SettingNamespace>
-		<SettingExtensionFile>mysettings</SettingExtensionFile>
-	</PropertyGroup>
+      <PropertyGroup>
+         <OutputType>Exe</OutputType>
+         <TargetFramework>net6.0</TargetFramework>
+         <RootFolder>$(MSBuildProjectDirectory)</RootFolder>
+         <SettingClass>MySetting</SettingClass>
+         <SettingNamespace>MSBuildConsoleExample</SettingNamespace>
+         <SettingExtensionFile>mysettings</SettingExtensionFile>
+    </PropertyGroup>
 
-	<ItemGroup>
-		<SettingFiles Include="$(RootFolder)\*.mysettings" />
-	</ItemGroup>`
+    <ItemGroup>
+       <SettingFiles Include="$(RootFolder)\*.mysettings" />
+    </ItemGroup>`
 
-	<Target Name="GenerateSetting" BeforeTargets="CoreCompile" Inputs="@(SettingFiles)" Outputs="$(RootFolder)\$(SettingClass).generated.cs">
-		<AppSettingStronglyTyped SettingClassName="$(SettingClass)" SettingNamespaceName="$(SettingNamespace)" SettingFiles="@(SettingFiles)">
-			<Output TaskParameter="ClassNameFile" PropertyName="SettingClassFileName" />
-		</AppSettingStronglyTyped>
-		<ItemGroup>
-			<Compile Remove="$(SettingClassFileName)" />
-			<Compile Include="$(SettingClassFileName)" />
-		</ItemGroup>
-	</Target>
+    <Target Name="GenerateSetting" BeforeTargets="CoreCompile" Inputs="@(SettingFiles)" Outputs="$(RootFolder)\$(SettingClass).generated.cs">
+       <AppSettingStronglyTyped SettingClassName="$(SettingClass)" SettingNamespaceName="$(SettingNamespace)" SettingFiles="@(SettingFiles)">
+          <Output TaskParameter="ClassNameFile" PropertyName="SettingClassFileName" />
+       </AppSettingStronglyTyped>
+       <ItemGroup>
+          <Compile Remove="$(SettingClassFileName)" />
+          <Compile Include="$(SettingClassFileName)" />
+       </ItemGroup>
+    </Target>
 
-	<Target Name="ForceReGenerateOnRebuild" AfterTargets="CoreClean">
-		<Delete Files="$(RootFolder)\$(SettingClass).generated.cs" />
-	</Target>
+    <Target Name="ForceReGenerateOnRebuild" AfterTargets="CoreClean">
+       <Delete Files="$(RootFolder)\$(SettingClass).generated.cs" />
+    </Target>
    </Project>
    ```
 
@@ -172,9 +255,9 @@ The normal way to distribute a task is through a NuGet package, but during devel
 1. The class *MySetting* is in the wrong namespace, so now make a change to use our app namespace. Open the project file and add
 
    ```xml
-	<PropertyGroup>
-		<SettingNamespace>MSBuildConsoleExample</SettingNamespace>
-	</PropertyGroup>
+   <PropertyGroup>
+      <SettingNamespace>MSBuildConsoleExample</SettingNamespace>
+   </PropertyGroup>
    ```
 
 1. Rebuild again, and observe that the class is in the `MSBuildConsoleExample` namespace. In this way, you can redefine the generated class name (`SettingClass`), the text extension files (`SettingExtensionFile`) to be use as input, and the location (`RootFolder`) of them if you like.
@@ -381,7 +464,7 @@ In this section, you'll wire up the task implementation in `.props` and `.target
 
 ### Generate the NuGet package
 
-You can use Visual Studio (right-click on the project and select **Pack**). You can also do it by using the command line. Move to the folder where the task project file *AppSettingStronglyTyped.csproj* is present, and execute:
+To generate the NuGet package, you can use Visual Studio (right-click on the project node in **Solution Explorer**, and select **Pack**). You can also do it by using the command line. Navigate to the folder where the task project file *AppSettingStronglyTyped.csproj* is present, and execute the following command:
 
 ```dotnetcli
 //-o is to define the output, we are choose the current folder
@@ -394,4 +477,4 @@ The package has an extension `.nupkg` and is a compressed zip file. You can open
 
 ## Next steps
 
-TBD Add link go the next tutorial: create a ToolTask.
+TBD Add link go the next tutorial: create a task that calls an executable using the  Exec task
