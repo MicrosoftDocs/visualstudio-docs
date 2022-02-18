@@ -46,7 +46,7 @@ Answer: The Visual Studio project file (*.pyproj*) contains a project type ident
 
 ## Step 3-2: Serve static files from your app
 
-In a web app built with Python (using any framework), your Python files always run on the web host's server and are never transmitted to a user's computer. Other files such as CSS and JavaScript, are only used by the browser, so the host server simply delivers them as it is whenever they're requested. Such files are referred to as "static" files, and Flask can deliver them automatically without you needing to write any code. Within HTML files, for example, you can refer to static files using a relative path in the project. The first section in this step adds a CSS file to your existing page template.
+In a web app built with Python (using any framework), your Python files always run on the web host's server and are never transmitted to a user's computer. Other files such as CSS and JavaScript, are only used by the browser, so the host server simply delivers them as-is whenever they're requested. Such files are referred to as "static" files, and Flask can deliver them automatically without you needing to write any code. Within HTML files, for example, you can refer to static files using a relative path in the project. The first section in this step adds a CSS file to your existing page template.
 
 When you need to deliver a static file from code, such as through an API endpoint implementation, Flask provides a convenient method that lets you refer to files using relative paths within a folder named *static* (in the project root). The second section in this step demonstrates that method using a simple static data file.
 
@@ -166,7 +166,7 @@ The following steps add an "About" page to the "HelloFlask" project, and links t
     <div><a href="about">About</a></div>
     ```
 
-1. Save all the files using the **File** > **Save All** menu command, or press **Ctrl**+**Shift**+**S**. (This step isn't needed as running the project in Visual Studio saves files automatically. Nevertheless, it's a good command to know about!)
+1. Save all the files using the **File** > **Save All** menu command, or press **Ctrl**+**Shift**+**S**. (This step isn't needed, as running the project in Visual Studio saves files automatically. Nevertheless, it's a good command to know about!)
 
 1. Run the project to observe the results and check navigation between pages. Stop the app when done.
 
@@ -176,7 +176,7 @@ Answer: No, because it's the `@app.route` decorator that determines the URLs for
 
 ## Step 3-4: Use template inheritance to create a header and nav bar
 
-Instead of having explicit navigation links on each page, modern web apps typically use a branding header and a navigation bar that provides the most important page links, popup menus, and so on. To make sure the header and navigation bar are the same across all pages, however, you don't want to repeat the same code in every page template. You instead want to define the common parts of all your pages in one place.
+Instead of having explicit navigation links on each page, modern web apps typically use a branding header and a navigation bar that provides the most important page links, popup menus, and so on. To make sure the app is consistent, the header and navigation bar should be the same across all pages, while not repeating the same code in every page template. You instead want to define the common parts of all your pages in one place.
 
 Flask's templating system (Jinja by default) provides two means for reusing specific elements across multiple templates: includes and inheritance.
 
