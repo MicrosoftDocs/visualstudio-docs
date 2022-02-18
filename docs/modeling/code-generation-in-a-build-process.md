@@ -68,7 +68,15 @@ In the .vbproj or .csproj file, find a line like this:
 
 After that line, insert the Text Templating import:
 
-::: moniker range=">=vs-2019"
+::: moniker range=">=vs-2022"
+
+```xml
+<Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v17.0\TextTemplating\Microsoft.TextTemplating.targets" />
+```
+
+::: moniker-end
+
+::: moniker range="vs-2019"
 
 ```xml
 <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v16.0\TextTemplating\Microsoft.TextTemplating.targets" />
