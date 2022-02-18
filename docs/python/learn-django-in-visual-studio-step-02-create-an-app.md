@@ -174,7 +174,7 @@ Now, run the project again to see a message like "**Hello Django!** on Monday 16
 
 ## Step 2-4: Render a view using a page template
 
-Generating HTML in code works fine for small pages. However, as pages get more sophisticated you need to maintain the static HTML parts of your page (along with references to CSS and JavaScript files) as "page templates." You can then insert the dynamic, code-generated content to the page templates. In the previous section, only the date and time from the `now.strftime` call was dynamic, which means all the other content can be placed in a page template.
+Generating HTML in code works fine for small pages. However, as pages get more sophisticated you need to maintain the static HTML parts of your page (along with references to CSS and JavaScript files) as "page templates." You can then insert the dynamic, code-generated content to the page templates. In the previous section, only the date and time from the `now.strftime` call is dynamic, which means all the other content can be placed in a page template.
 
 A Django page template is a block of HTML that contains multiple replacement tokens called "variables." The variables are delineated by `{{` and `}}`, for example, `{{ content }}`. Django's template module then replaces variables with dynamic content that you provide in code.
 
