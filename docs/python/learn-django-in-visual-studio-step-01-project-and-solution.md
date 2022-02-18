@@ -253,7 +253,7 @@ Answer: A virtual environment is a great way to isolate your app's exact depende
 
 ### Question: How do I remove a virtual environment that's already committed to source control?
 
-Answer: First, edit your *.gitignore* file to exclude the folder. Find the section at the end with the comment `# Python Tools for Visual Studio (PTVS)` and add a new line for the virtual environment folder, such as `/BasicProject/env`. (Visual Studio doesn't show the file in **Solution Explorer**. To open the file directly, go to **File** > **Open** > **File** menu. You can also open the file from **Team Explorer**. Go to the **Settings** page and select **Repository Settings**. Now, navigate to the **Ignore & Attributes Files** section and select the **Edit** link next to **.gitignore**.)
+Answer: First, edit your *.gitignore* file to exclude the folder. Find the section at the end with the comment `# Python Tools for Visual Studio (PTVS)` and add a new line for the virtual environment folder, such as `/BasicProject/env`. (Visual Studio doesn't show the file in **Solution Explorer**. To open the file directly, go to **File** > **Open** > **File**. You can also open the file from **Team Explorer**. Go to the **Settings** page and select **Repository Settings**. Now, navigate to the **Ignore & Attributes Files** section and select the **Edit** link next to **.gitignore**.)
 
 Second, open a command window, navigate to a folder such as *BasicProject*. The *BasicProject* folder contains the virtual environment folder such as *env*, and run `git rm -r env`. Then commit those changes from the command line (`git commit -m 'Remove venv'`) or commit from the **Changes** page of **Team Explorer**.
 
