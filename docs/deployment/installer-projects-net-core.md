@@ -2,7 +2,7 @@
 description: "Packaging applications as an MSI is often accomplished using the Visual Studio Installer Projects Extension."
 title: "Visual Studio Installer Projects and .NET 6.0"
 titleSuffix: ""
-ms.date: "11/29/2021"
+ms.date: "02/18/2022"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "installer projects"
@@ -39,6 +39,14 @@ You can download the extension here:
 - Self-contained applications include the runtime.
 
 To learn more about these deployment strategies, see [.NET Core application publishing overview](/dotnet/core/deploying/).
+
+## Create a setup project
+
+1. From Visual Studio, choose **Extensions** > **Manage Extensions**, and search for "Visual Studio Installer Projects". Or, download the extension directly from the Marketplace.
+
+2. From the Start window, choose **Create a new project**, and then type "setup" in the search box. Choose either a Setup or Web Setup project, and follow instructions.
+
+   For more information, see [Setup and Deployment projects](/previous-versions/visualstudio/visual-studio-2010/wx3b589t(v=vs.100)).
 
 ### Workflow changes for .NET Core 3.1 and later versions
 
