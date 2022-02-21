@@ -19,7 +19,7 @@ Have you ever wished you could go back to a previously working version of your c
 Git is the most widely used modern version control system. With Git, you can track the code changes you make over time and you can revert to specific versions.  So whether you're a professional developer or if you’re learning how to code, Visual Studio's Git experience can be very useful to you. 
 
 >[!Tip]
-> To learn about using Git and GitHub in Visual Studio, sign up for the [Git learning series](https://visualstudio.microsoft.com/vs/github/) on the **Visual Studio and GitHub better together** web page.
+> To learn about using Git and GitHub in Visual Studio, sign up for the [Git learning series](https://visualstudio.microsoft.com/vs/github/).
 
 ::: moniker range=">=vs-2022"
 
@@ -31,9 +31,7 @@ To get started using Git with Visual Studio:
 
 - If you have a Git repo hosted on a Git provider like GitHub, [clone the repository](git-clone-repository.md) to your local machine. 
 
-- Otherwise, easily [add your code to Git and GitHub using the create new repository experience](git-create-repository.md).
-
-If you don't have a Git provider yet, we recommend you start with GitHub since the Git experience in Visual Studio is optimized for this provider. GitHub offers free and secured cloud code storage where you can store your code and access it from any device, anywhere.   
+- Otherwise, easily [create a new Git repository and add your code](git-create-repository.md).  If you don't have a Git provider yet, we recommend you start with GitHub since the Git experience in Visual Studio is optimized for this provider. GitHub offers free and secured cloud code storage where you can store your code and access it from any device, anywhere.   
 
 Not only can you add both [GitHub and GitHub Enterprise accounts to your keychain](../ide/work-with-github-accounts.md), but you can also leverage them just as you do with Microsoft accounts.  If you don’t have a GitHub account, follow these steps to [create a GitHub account to use with Visual Studio](git-create-github-account.md) now.
 
@@ -43,9 +41,7 @@ If you're new to Git, the [https://git-scm.com/](https://git-scm.com/) website i
 
 ## View files in Solution Explorer
 
-When you clone a repository or open a local repository, Visual Studio switches to the new Git context after asking if you'd like to save and close any previously opened solutions and projects. Solution Explorer loads the folder at the root of the Git repository and scans the directory tree for any viewable files. These include files such as CMakeLists.txt or those with the .sln file extension.
-
-For more information, see the [View files in Solution Explorer](../get-started/tutorial-open-project-from-repo.md#view-files-in-solution-explorer) section of the [Open a project from a repo](../get-started/tutorial-open-project-from-repo.md) tutorial.
+When you clone a repository or open a local repository, Visual Studio switches to the Git context. Solution Explorer loads the folder at the root of the Git repository, and scans the directory tree for any viewable files like `CMakeLists.txt` or those with the `.sln` file extension.  For more information, see [View files in Solution Explorer](../get-started/tutorial-open-project-from-repo.md#view-files-in-solution-explorer).
 
 ## Intuitive inner-loop workflow
 
@@ -71,31 +67,29 @@ To help you focus on your Git repository, Visual Studio has a **Git Repository**
 
 ### Browse and manage Git repositories
 
-To learn more about how you can use the Git Repository window to browse and manage your Git repository, refer to the following pages:
+To learn more about how you can use the Git Repository window in Visual Studio to browse and manage your Git repository, refer to the following pages:
 
-- [Browse a repo in Visual Studio](git-browse-repository.md)
-- [Manage a repo in Visual Studio](git-manage-repository.md)
+- [Browse a repo](git-browse-repository.md)
+- [Manage a repo](git-manage-repository.md)
 
 ### Handle merge conflicts
 
-Conflicts can occur during a merge if two developers modify the same lines in a file and Git doesn’t automatically know which one is correct. Git halts the merge and informs you that you are in a conflicted state.
-
-To learn more about merge conflicts and how to handle them, see the [Resolve merge conflicts](git-resolve-conflicts.md) page.
+Conflicts can occur during a merge if two developers modify the same lines in a file and Git doesn’t automatically know which one is correct. Git halts the merge and informs you that you are in a conflicted state.  Learn more in the [Resolve merge conflicts](git-resolve-conflicts.md) page.
 
 ### Personalize your Git settings
 
-To personalize and customize your Git settings at a repository level as well as at a global level, go to either **Git** > **Settings** on the menu bar, or to **Tools** > **Options** > **Source Control** on the menu bar. Then, choose the [options](git-settings.md) you want.
+To personalize your Git settings at a repository level as well as at a global level:
+1. Go to either **Git** > **Settings** on the menu bar
+2. Choose the [options](git-settings.md) you want.
 
 :::image type="content" source="media/git-options-settings.png" alt-text="The Options dialog box where you can choose personalization and customization settings in Visual Studio IDE.":::
 
 
 ## Enhanced experience & feedback
 
-We continue to add new features to enhance the Git experience in Visual Studio. For more info about recent features and a survey where you can share your feedback, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post. 
+We continue to add new features to enhance the Git experience. For more info about recent features and a feedback survey, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post. If you have a suggestion, let us know! We appreciate the opportunity to engage with you in the [**Developer Community**](https://aka.ms/vs-suggest).
 
-To try more recent updates to the Git experience available in a Preview release, download and install from the [Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/) page. Read our [Visual Studio 2022 release notes](/visualstudio/releases/2022/release-notes) for details on each release.
-
-If you have a suggestion for us, please let us know! We appreciate the opportunity to engage with you on design decisions via the [**Developer Community**](https://aka.ms/vs-suggest) portal.
+To try more recent/preview updates to the Git experience available, download and install from the [Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/) page. Read our [Visual Studio 2022 release notes](/visualstudio/releases/2022/release-notes) for details on each release.
 
 ::: moniker-end
 
