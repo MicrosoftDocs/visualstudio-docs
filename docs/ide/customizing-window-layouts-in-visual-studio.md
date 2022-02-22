@@ -71,14 +71,14 @@ You can apply vertical document tabs in the following ways:
 
 #### Color document tabs
 
-Visual Studio 2022 includes new personalization options you can use to help you code more efficiently. A popular feature request is [color document tabs](https://devblogs.microsoft.com/visualstudio/personalize-docs/). We heard you, and we added ways for you to color file tabs by project so that you don't have to hunt for your open files.
+Visual Studio 2022 includes new personalization options you can use to help you code more efficiently. We added another top feature request, [color document tabs](https://devblogs.microsoft.com/visualstudio/personalize-docs/). Now, you color file tabs by project so that you don't have to hunt for your open files.
 
 > [!NOTE]
 > To use color tabs, navigate to **Tools** > **Options** > **Environment** > **Tabs and Windows**, and then select **Colorize document tabs by project**.
 
 Here are our updates, to date:
 
-- **[New in Visual Studio 2022 version 17.0](/visualstudio/releases/2022/release-notes-v17.0)**: You can now colorize tabs in both vertical and horizontal views in the Editor.
+- **[New in Visual Studio 2022 version 17.0 and later](/visualstudio/releases/2022/release-notes-v17.0)**: You can now colorize tabs in both vertical and horizontal views in the Editor.
 
     The following screenshot shows an example of color tabs in the vertical view:
 
@@ -88,7 +88,7 @@ Here are our updates, to date:
 
     :::image type="content" source="media/vs-2022/color-tabs-horizontal.png" alt-text="Screenshot of color tabs in the horizontal view.":::
 
-- **[New in Visual Studio 2022 version 17.1](/visualstudio/releases/2022/release-notes)**: You can also pick your own tab colors. To try this out, right-click on a tab and navigate to **Set Tab Color** to pick from the palette.
+- **[New in Visual Studio 2022 version 17.1 and later](/visualstudio/releases/2022/release-notes)**: You can also pick your own tab colors. To try this out, right-click on a tab and navigate to **Set Tab Color** to pick from the palette.
 
     The following screenshot shows an example of how to personalize the color scheme of tabs:
 
