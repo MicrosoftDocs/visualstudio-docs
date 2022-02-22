@@ -88,7 +88,7 @@ Here are our updates, to date:
 
     :::image type="content" source="media/vs-2022/color-tabs-horizontal.png" alt-text="Screenshot of color tabs in the horizontal view.":::
 
-- **[New in Visual Studio 2022 version 17.1 and later](/visualstudio/releases/2022/release-notes)**: You can also pick your own tab colors. To try this out, right-click on a tab and navigate to **Set Tab Color** to pick from the palette.
+- **[New in Visual Studio 2022 version 17.1 and later](/visualstudio/releases/2022/release-notes)**: You can also choose your own tab colors. To do so, right-click on a tab and select **Set Tab Color** to pick from the palette.
 
     The following screenshot shows an example of how to personalize the color scheme of tabs:
 
