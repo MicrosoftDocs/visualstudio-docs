@@ -12,7 +12,7 @@ ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
-# Run profiling tools with or without the debugger
+# Run profiling tools with or without the debugger (C#, Visual Basic, C++, F#)
 
 Visual Studio offers a choice of performance measurement and profiling tools. Some tools, like CPU Usage and Memory Usage, can run with or without the debugger, and on release or debug build configurations. Tools that appear in the [Diagnostics Tools window](../profiling/profiling-feature-tour.md#measure-performance-while-debugging) run only during a debugging session. Tools that appear in the [Performance Profiler](../profiling/profiling-feature-tour.md#post_mortem) run without the debugger and you analyze the results after you choose to stop and collect data (for post-mortem analysis).
 
