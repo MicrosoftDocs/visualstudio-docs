@@ -58093,6 +58093,11 @@
       "source_path": "docs/ide/quickstart-fsharp.md",
       "redirect_url": "/visualstudio/get-started/tutorial-fsharp-web-app",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/quickstart-aspnet-core.md",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-aspnet-core",
+      "redirect_document_id": false
     }
   ]
 }

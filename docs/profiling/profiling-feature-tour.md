@@ -17,7 +17,7 @@ ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
-# First look at profiling tools
+# First look at profiling tools (C#, Visual Basic, C++, F#)
 
 Visual Studio provides a variety of profiling tools to help you diagnose different kinds of performance issues depending on your app type. In this article, we give a quick look at the most common profiling tools.
 
