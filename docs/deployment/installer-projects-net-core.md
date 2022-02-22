@@ -44,7 +44,7 @@ To learn more about these deployment strategies, see [.NET Core application publ
 
 1. From Visual Studio, choose **Extensions** > **Manage Extensions**, and search for "Visual Studio Installer Projects". Or, download the extension directly from the Marketplace.
 
-2. From the Start window, choose **Create a new project**, and then type "setup" in the search box. Choose either a Setup or Web Setup project, and follow instructions.
+2. From the Start window, choose **Create a new project**, and then type "setup" in the search box. Choose a Setup project, and follow instructions.
 
    For more information, see [Setup and Deployment projects](/previous-versions/visualstudio/visual-studio-2010/wx3b589t(v=vs.100)).
 
