@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: cabushcl
 ms.assetid: badd1d4a-90a6-46de-a037-945a91e6019b
-ms.date: 10/18/2021
+ms.date: 02/17/2022
 ms.topic: how-to
 description:  Learn about the Visual Studio App Center benefit included in Visual Studio subscriptions.
 ---
@@ -36,9 +36,11 @@ Getting started with Visual Studio App Center is easy.
 
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard, monthly cloud)   | VL, Azure, Retail,  NFR<sup>1</sup> | Included       |  Yes          |
+| Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail,  NFR<sup>1</sup> | Included       |  Yes          |
+| Visual Studio Enterprise (monthly cloud)   | Azure | Not available       |  NA          |
 | Visual Studio Enterprise subscription with GitHub Enterprise  | VL | Included       |  Yes          |
-| Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                       | Included                                                            |Yes |
+| Visual Studio Professional (Standard, annual cloud) | VL, Azure, Retail                                       | Included                                                            |Yes |
+| Visual Studio Professional (monthly cloud)   | Azure | Not available       |  NA          |
 | Visual Studio Professional subscription with GitHub Enterprise | VL                                      | Included                                                            |Yes |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Included                                                            |Yes |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Included                                                            |Yes |
