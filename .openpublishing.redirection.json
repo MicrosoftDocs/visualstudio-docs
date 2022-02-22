@@ -58140,11 +58140,6 @@
       "redirect_document_id": true
     },
     {
-      "source_path": "docker/tutorials/image-building-best-practices.md",
-      "redirect_url": "/visualstudio/docker/tutorials/tutorial-multi-container-app-mysql",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/ide/quickstart-fsharp.md",
       "redirect_url": "/visualstudio/get-started/tutorial-fsharp-web-app",
       "redirect_document_id": true
