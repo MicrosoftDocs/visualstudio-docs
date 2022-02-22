@@ -145,8 +145,6 @@
   - name: Visual Studio orientation
     displayName: Feature tour
     href: ide/quickstart-ide-orientation.md
-  - name: "C#: Create a web app"
-    href: ide/quickstart-aspnet-core.md
   - name: "C#: Create a console app"
     href: get-started/csharp/tutorial-console.md
   - name: "Visual Basic: Create a console app"
