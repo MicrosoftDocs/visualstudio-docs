@@ -12,7 +12,7 @@ ms.technology: vs-ide-debug
 ms.workload: 
   - multiple
 ---
-# Analyze CPU usage without debugging in the Performance Profiler
+# Analyze CPU usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)
 
 A good way to start investigating performance issues in your app is to understand its CPU usage. The **CPU Usage** performance tool shows the CPU time and percentage spent executing code in C++, C#/Visual Basic, and JavaScript apps.
 
