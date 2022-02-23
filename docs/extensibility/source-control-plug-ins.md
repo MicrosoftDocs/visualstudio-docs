@@ -28,7 +28,7 @@ The Source Control Plug-in SDK reference section contains the complete interface
  Lists the enumerator data types in the Source Control Plug-in API that the source control plug-in must know about.
 
 - [Capability Flags](../extensibility/capability-flags.md)
- Describes the `SCC_CAP_xxx` flags, which are indicate a provider's capabilities.
+ Describes the `SCC_CAP_xxx` flags, which indicate a provider's capabilities.
 
 - [Bitflags Used by Specific Commands](../extensibility/bitflags-used-by-specific-commands.md)
  Lists flags that are useful in the context of particular commands.

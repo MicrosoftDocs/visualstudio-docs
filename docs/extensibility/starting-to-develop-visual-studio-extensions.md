@@ -1,6 +1,6 @@
 ---
-title: Starting to Develop Visual Studio Extensions | Microsoft Docs
-description: Learn about some of the common questions that you may have the first time you start to write a Visual Studio extension.
+title: Start developing Visual Studio extensions | Microsoft Docs
+description: Get answers to some of the common questions that you may have the first time you start to write a Visual Studio extension.
 ms.custom: SEO-VS-2020
 ms.date: 09/18/2017
 ms.topic: conceptual
@@ -15,7 +15,7 @@ ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
-# Starting to Develop Visual Studio Extensions
+# Start developing extensions in Visual Studio
 
 If you've never written a Visual Studio extension before, you probably have some questions. We've listed some of the most common ones here. If you don't see the information you're looking for, use the feedback buttons (**Is this page helpful?** in the upper right of the screen) to ask for what you want.
 
