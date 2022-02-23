@@ -1,6 +1,118 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ai/about-ai-tools.md",
+      "redirect_url": "/previous-versions/visualstudio/ai/about-ai-tools",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2017"
+      ]
+    },
+    {
+      "source_path": "docs/ai/create-project-existing.md",
+      "redirect_url": "/previous-versions/visualstudio/ai/create-project-existing",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2017"
+      ]
+    },
+    {
+      "source_path": "docs/ai/create-project-gallery.md",
+      "redirect_url": "/previous-versions/visualstudio/ai/create-project-gallery",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2017"
+      ]
+    },
+    {
+      "source_path": "docs/ai/create-project-repo.md",
+      "redirect_url": "/previous-versions/visualstudio/ai/create-project-repo",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2017"
+      ]
+    },
+    {
+      "source_path": "docs/ai/create-project.md",
+      "redirect_url": "/previous-versions/visualstudio/ai/create-project",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2017"
+      ]
+    },
+    {
+      "source_path": "docs/ai/installation.md",
+      "redirect_url": "/previous-versions/visualstudio/ai/installation",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2017"
+      ]
+    },
+    {
+      "source_path": "docs/ai/job-details.md",
+      "redirect_url": "/previous-versions/visualstudio/ai/job-details",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2017"
+      ]
+    },
+    {
+      "source_path": "docs/ai/manage-storage.md",
+      "redirect_url": "/previous-versions/visualstudio/ai/manage-storage",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2017"
+      ]
+    },
+    {
+      "source_path": "docs/ai/monitor-gpu.md",
+      "redirect_url": "/previous-versions/visualstudio/ai/monitor-gpu",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2017"
+      ]
+    },
+    {
+      "source_path": "docs/ai/monitor-tensorboard.md",
+      "redirect_url": "/previous-versions/visualstudio/ai/monitor-tensorboard",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2017"
+      ]
+    },
+    {
+      "source_path": "docs/ai/overview.md",
+      "redirect_url": "/previous-versions/visualstudio/ai/overview",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2017"
+      ]
+    },
+    {
+      "source_path": "docs/ai/tensorflow-local.md",
+      "redirect_url": "/previous-versions/visualstudio/ai/tensorflow-local",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2017"
+      ]
+    },
+    {
+      "source_path": "docs/ai/tensorflow-vm.md",
+      "redirect_url": "/previous-versions/visualstudio/ai/tensorflow-vm",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2017"
+      ]
+    },
+    {
+      "source_path": "docs/ai/train-model.md",
+      "redirect_url": "/previous-versions/visualstudio/ai/train-model",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2017"
+      ]
+    },
+    {
       "source_path": "docs/ide/how-to-build-to-a-common-output-directory.md",
       "redirect_url": "/visualstudio/ide/how-to-change-the-build-output-directory#build-to-a-common-outputdirectory",
       "redirect_document_id": false
