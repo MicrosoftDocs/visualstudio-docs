@@ -27,11 +27,15 @@ And there are more reasons. So, you will update your application to work like th
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
-> -
-> -
-> -
-
-
+> - Start MySQL
+> - Connect to MySQL
+> - Run your app with MySQL
+> - Install Docker Compose
+> - Create the compose file
+> - Define the App Service
+> - Run the application stack
+> - See the app stack in the Docker extension
+> - Tear it all down
 
 ## Prerequisites
 
@@ -213,7 +217,6 @@ If you take a quick look at the Docker extension, you'll see that you have two a
 
 ![Docker Extension showing two ungrouped app containers](media/vs-multi-container-app.png)
 
-## Recap
 
 At this point, you have an application that now stores its data in an external database running in a separate container. You learned a little bit about container networking and saw how service discovery can be performed using DNS.
 
@@ -502,43 +505,12 @@ When you're ready to tear it all down, simply run `docker-compose down`, or righ
 
 Once torn down, you can switch to another project, run `docker-compose up` and be ready to contribute to that project! It really doesn't get much simpler than that!
 
-## Recap
+
 
 In this section, you learned about Docker Compose and how it helps dramatically simplify the defining and sharing of multi-service applications. You created a Compose file by translating the commands you were using into the appropriate compose format.
 
 At this point, you're starting to wrap up the tutorial. However, there are a few best practices about image building to cover, as there is a big issue with the Dockerfile you've been using. So, let's take a look!
 
-## Next steps
-
-Continue with the tutorial!
-
-> [!div class="nextstepaction"]
-> [Image-building best practices](image-building-best-practices.md)
-
-
-## [Section 1 heading]
-<!-- Introduction paragraph -->
-
-1. Sign in to the [<service> portal](url).
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-## [Section 2 heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-## [Section n heading]
-<!-- Introduction paragraph -->
-1. <!-- Step 1 -->
-1. <!-- Step 2 -->
-1. <!-- Step n -->
-
-<!-- 6. Clean up resources
-Required. If resources were created during the tutorial. If no resources were created, 
-state that there are no resources to clean up in this section.
--->
 
 ## Clean up resources
 

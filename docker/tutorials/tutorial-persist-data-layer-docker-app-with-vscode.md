@@ -25,9 +25,16 @@ When a container runs, it uses the various layers from an image for its filesyst
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
-> -
-> -
-> -
+> - Persist your data
+> - Persist your Todo data
+> - Dive into your volume
+> - Use bind mounts
+> - Quick volume type comparisons
+> - Start a dev-mode container
+> - Image layering & Yarn
+> - Layer caching
+> - Multi-stage builds
+
 
 ## Prerequisites
 
@@ -227,7 +234,7 @@ To run your container to support a development workflow, you'll do the following
 
 Using bind mounts is *very* common for local development setups. The advantage is that the dev machine doesn't need to have all of the build tools and environments installed. With a single `docker run` command, the dev environment is pulled and ready to go. You'll learn about Docker Compose in a future step, as this will help simplify your commands (you're already getting a lot of flags).
 
-## Recap
+
 
 At this point, you can persist your database and respond rapidly to the needs and demands of your investors and founders. Hooray! But, guess what? You received great news!
 

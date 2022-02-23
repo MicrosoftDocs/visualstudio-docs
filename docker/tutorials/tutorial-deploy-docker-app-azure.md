@@ -20,9 +20,8 @@ Now that you have run your app locally, you can start to think about running it 
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
-> -
-> -
-> -
+> - Create your cloud context
+> - Run containers in the cloud
 
 ## Prerequisites
 

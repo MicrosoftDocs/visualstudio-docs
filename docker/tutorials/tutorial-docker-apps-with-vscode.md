@@ -14,7 +14,7 @@ ms.custom: template-tutorial
 
 # Tutorial: Create and share a Docker app with Visual Studio Code
 
-In this tutorial, you'll learn about creating and deploying Docker apps on Windows or Mac using Visual Studio Code, including using multiple containers with a database, and using Docker Compose. You'll also deploy your containerized app to Azure.
+In this tutorial, you'll learn about creating and deploying Docker apps on Windows or Mac using Visual Studio Code (VS Code), including using multiple containers with a database, and using Docker Compose. You'll also deploy your containerized app to Azure.
 
 Containers are compact virtualized environments, like virtual machines (VMs), that provide a platform for building and running apps, but without the full size and overhead of the complete operating system. [Docker](https://www.docker.com) is a third-party, industry standard container provider and container management system. Docker Desktop runs on your machine and manages your local containers. Development tools like Visual Studio and VS Code offer extensions that let you to work with a locally installed Docker Desktop service to create containerized apps, deploy apps to containers, and debug apps running on your containers.
 
@@ -36,18 +36,21 @@ Now that we've built an image, let's share it! To share Docker images, you have 
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
-> -
-> -
-> -
+> - Start the tutorial.
+> - Get the app
+> - Build a container image for the app
+> - Starting an app container
+> - Update the source code
+> - Replace the old container
+> - Create a repo
+> - Push the image
+> - Run the image on a new instance
 
 ## Prerequisites
 
 - [Visual Studio Code](https://code.visualstudio.com/download).
-- Docker Desktop for [Windows](https://docs.docker.com/docker-for-windows/install/) or [Mac](https://docs.docker.com/docker-for-mac/install/).
-
-? VS Code Extension -- To access the extension, follow the instructions [here](https://code.visualstudio.com/docs/containers/overview). 
-
-See [Docker for Windows installation documentation](https://docs.docker.com/docker-for-windows/install/). The install process makes the ZIP file containing the sample available at the localhost address. For Mac, install [Docker Desktop for Mac](https://docs.docker.com/docker-for-mac/install/).
+- [Docker VS Code Extension](https://code.visualstudio.com/docs/containers/overview).
+- [Docker Desktop](https://docs.docker.com/desktop/).
 
 ## Start the tutorial
 
