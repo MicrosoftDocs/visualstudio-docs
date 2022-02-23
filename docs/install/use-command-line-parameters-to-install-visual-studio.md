@@ -2,7 +2,7 @@
 title: Use command-line parameters to install Visual Studio
 titleSuffix: ''
 description: Learn how to use command-line parameters to control or customize your Visual Studio installation.
-ms.date: 11/23/2021
+ms.date: 2/17/2022
 ms.topic: conceptual
 f1_keywords:
 - command-line parameters
@@ -27,7 +27,7 @@ When you install Visual Studio programmatically or from a command prompt, you ca
 
 Most command-line options are used with the setup bootstrapper, which is the small (~1 MB) file (for example, vs_enterprise.exe) that initiates the download process.  All of the commands and parameters listed below are designed to work with the bootstrappers. 
 
-It is also possible to use the administrator update package,  which is available to download from the [Microsoft Update Catalog](https://catalog.update.microsoft.com), to programatically update your network layout. More information how to do this can be found in the [Update or modify your layout](create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) documentation.  
+It is also possible to use the administrator update package, which is available to download from the [Microsoft Update Catalog](https://catalog.update.microsoft.com), to programatically update your network layout. More information how to do this can be found in the [Update or modify your layout](create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) documentation.  
 
 ::: moniker range="vs-2017"
 
