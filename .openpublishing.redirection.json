@@ -45441,6 +45441,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "docs/debugger/what-s-new-for-the-debugger-in-visual-studio.md",
+      "redirect_url": "/visualstudio/debugger/index",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/xaml-hot-reload-troubleshooting.md",
       "redirect_url": "/visualstudio/xaml-tools/xaml-hot-reload-troubleshooting",
       "redirect_document_id": true
