@@ -612,8 +612,12 @@
         href: how-to-debug-injected-code.md
     - name: GPU code
       href: debugging-gpu-code.md
-    - name: Graphics diagnostics
-      href: graphics/toc.yml
+    - name: Graphical debugging tools
+      items:
+      - name: Graphics diagnostics
+        href: graphics/toc.yml
+      - name: Image Watch >>
+        href: /previous-versions/visualstudio/visual-studio-2015/debugger/image-watch/image-watch
     - name: ASP.NET
       items:
       - name: Debug ASP.NET applications
