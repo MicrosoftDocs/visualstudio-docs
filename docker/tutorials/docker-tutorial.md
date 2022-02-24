@@ -335,7 +335,7 @@ To do this, you will use Play with Docker.
 
 Keep everything that you've done so far to continue this series of tutorials.
 
-If you are stopping here, delete <resources> with the following steps:
+If you are stopping here, delete \<resources> with the following steps:
 
 1. From the left-hand menu...
 1. ...click Delete, type...and then click Delete

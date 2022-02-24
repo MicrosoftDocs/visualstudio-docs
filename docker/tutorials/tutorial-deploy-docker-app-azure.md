@@ -25,7 +25,7 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-This tutorial continues the previous tutorial, [Create and share a Docker app with Visual Studio Code](tutorial-docker-apps-with-vscode.md).
+This tutorial continues the previous tutorial, [Create and share a Docker app with Visual Studio Code](docker-tutorial.md).
 Start with that one, which includes prerequisites.
 Then do this tutorial: [Persist data and layer Docker app](tutorial-persist-data-layer-docker-app-with-vscode.md).
 
@@ -134,7 +134,7 @@ state that there are no resources to clean up in this section.
 Keep everything that you've done so far to continue with a bonus tutorial, below.
 
 If you're not going to continue to use this application, delete
-<resources> with the following steps:
+\<resources> with the following steps:
 
 1. From the left-hand menu...
 1. ...click Delete, type...and then click Delete

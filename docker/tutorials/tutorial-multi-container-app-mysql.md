@@ -39,7 +39,7 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-This tutorial continues set of tutorials, starting with [Create and share a Docker app with Visual Studio Code](tutorial-docker-apps-with-vscode.md).
+This tutorial continues set of tutorials, starting with [Create and share a Docker app with Visual Studio Code](docker-tutorial.md).
 Start with that one, which includes prerequisites.
 Then do this tutorial: [Persist data and layer Docker app](tutorial-persist-data-layer-docker-app-with-vscode.md).
 
@@ -515,7 +515,7 @@ At this point, you're starting to wrap up the tutorial. However, there are a few
 ## Clean up resources
 
 If you're not going to continue to use this application, delete
-<resources> with the following steps:
+\<resources> with the following steps:
 
 1. From the left-hand menu...
 1. ...click Delete, type...and then click Delete
@@ -530,7 +530,7 @@ customer can do.
 
 Advance to the next article to learn how to create...
 > [!div class="nextstepaction"]
-> [Next steps button](contribute-how-to-mvc-tutorial.md)
+> [Next steps button]
 
 <!--
 Remove all the comments in this template before you sign-off or merge to the 

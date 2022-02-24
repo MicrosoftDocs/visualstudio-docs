@@ -38,7 +38,7 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-This tutorial continues the previous tutorial, [Create and share a Docker app with Visual Studio Code](tutorial-docker-apps-with-vscode.md).
+This tutorial continues the previous tutorial, [Create and share a Docker app with Visual Studio Code](docker-tutorial.md).
 Start with that one, which includes prerequisites.
 
 ## Persist your data
@@ -434,7 +434,7 @@ Here, you're using a `node:12` image to perform the build (maximizing layer cach
 Keep everything that you've done so far to continue this series of tutorials.
 
 If you're not going to continue to use this application, delete
-<resources> with the following steps:
+\<resources> with the following steps:
 
 1. From the left-hand menu...
 1. ...click Delete, type...and then click Delete
