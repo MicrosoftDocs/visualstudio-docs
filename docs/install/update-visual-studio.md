@@ -276,7 +276,8 @@ By choosing the correct value in the **Update channel** dropdown, you can contro
  * LTSC channels all have expiration dates as illustrated in the picture above. Once the LTSC has expired, it will not be able to be used as a source of updates, and it will disappear from this list.
  * All Microsoft channels are hosted on Microsoft servers and require access to the internet.
  * Each instance of Visual Studio has the ability to independently configure its source for updates. So, if you have two instances of Visual Studio 2022 installed, each can update from a different channel. 
- * IT Administrators can control the values in the **Update channel** dropdown. For example, they can add network layout locations as update sources. They can also suppress Microsoft hosted locations from being available as update source options. This functionality works for Visual Studio 2019 installs too. For information on how to configure these update locations, refer to the [Set defaults for enterprise deployments](/visualstudio/install/set-defaults-for-enterprise-deployments?#configuring-source-location-for-updates) page.
+ * To programmatically configure the source location of updates, use the [modifySettings command](visualstudio/install/use-command-line-parameters-to-install-visual-studio.md#configure-source-location-of-updates-command-and-command-line-parameters).
+ * IT Administrators can control the text in the **Update channel** dropdown. For example, they can add network layout locations as update sources. They can also suppress Microsoft hosted locations from being available as update source options. This functionality works for Visual Studio 2019 installs too. For information on how to configure these update locations, refer to the [Set defaults for enterprise deployments](/visualstudio/install/set-defaults-for-enterprise-deployments?#configuring-source-location-for-updates) page.
 
 ## Update on close
 
