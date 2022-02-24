@@ -38,7 +38,7 @@ The following steps give a general overview of what is needed to implement a sou
 
 4. Implement all source control UI, including menu items, dialog boxes, toolbars, and context menus.
 
-5. All source control-related events are passed to your source control VSackage when it is active and must be handled by your VSPackage.
+5. All source control-related events are passed to your source control VSPackage when it is active and must be handled by your VSPackage.
 
 6. Your source control VSPackage must listen to events such as those implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3> interface as well as Track Project Document (TPD) events (as implemented by the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2> interface) and take necessary action.
 

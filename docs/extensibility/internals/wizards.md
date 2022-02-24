@@ -19,7 +19,7 @@ After you create a wizard, you typically want to add it to the [!INCLUDE[vsprvs]
 
  Wizards can be implemented in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to let users select from a tree view of available values when they open the **Add New Project** dialog box or the **Add New Item** dialog box, or when they right-click an item in **Solution Explorer**.
 
- In your wizard, you can provide the option of localizing the name of a new project or ites, and you can determine the icon that users will see when they select the wizard. You can also control the order in which new items appear relative to other available items; items do not have to be organized alphabetically.
+ In your wizard, you can provide the option of localizing the name of a new project or item, and you can determine the icon that users will see when they select the wizard. You can also control the order in which new items appear relative to other available items; items do not have to be organized alphabetically.
 
  You can also supply a wizard that starts differently, based on custom parameters that are passed to the wizard when it is opened.
 

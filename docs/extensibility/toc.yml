@@ -25,6 +25,8 @@
       href: migration/removed-api-list.md
     - name: Migrated PIA
       href: migration/migrated-assemblies.md
+    - name: VS SDK messages
+      href: vssdk-messages/index.md
   - name: What's New Visual Studio 2019 SDK
   # Auto-expanded node
     items:
