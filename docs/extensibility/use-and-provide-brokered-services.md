@@ -45,5 +45,8 @@ VS Packages can offer services of their own by using the <xref:Microsoft.VisualS
 - [How to: Provide a Brokered Service](how-to-provide-brokered-service.md)
  Discusses how to provide a brokered service.
 
+- [How to: Troubleshoot Brokered Services](how-to-troubleshoot-brokered-services.md)
+ Discusses common problems and presents solutions to them.
+
 ## Related sections
 - [Visual Studio SDK](visual-studio-sdk.md)
