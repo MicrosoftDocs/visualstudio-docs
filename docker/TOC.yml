@@ -2,7 +2,7 @@
   expanded: true
   items:
   - name: "1. Create a Docker app with Visual Studio Code"
-    href: tutorials/tutorial-docker-apps-with-vscode.md
+    href: tutorials/docker-tutorial.md
   - name: "2. Deploy a Docker app to Azure"
     href: tutorials/tutorial-persist-data-layer-docker-app-with-vscode.md
   - name: "3. Deploy your Docker app to the Azure cloud"

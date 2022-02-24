@@ -58090,23 +58090,18 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docker/tutorials/docker-tutorial.md",
-      "redirect_url": "/visualstudio/docker/tutorials/tutorial-docker-apps-with-vscode",
-      "redirect_document_id": true
-    },
-    {
       "source_path": "docker/tutorials/your-application.md",
-      "redirect_url": "/visualstudio/docker/tutorials/tutorial-docker-apps-with-vscode",
+      "redirect_url": "/visualstudio/docker/tutorials/docker-tutorial",
       "redirect_document_id": false
     },
     {
       "source_path": "docker/tutorials/update-your-app.md",
-      "redirect_url": "/visualstudio/docker/tutorials/tutorial-docker-apps-with-vscode",
+      "redirect_url": "/visualstudio/docker/tutorials/docker-tutorial",
       "redirect_document_id": false
     },
     {
       "source_path": "docker/tutorials/share-your-app.md",
-      "redirect_url": "/visualstudio/docker/tutorials/tutorial-docker-apps-with-vscode",
+      "redirect_url": "/visualstudio/docker/tutorials/docker-tutorial",
       "redirect_document_id": false
     },
     {
