@@ -47536,6 +47536,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/test/live-unit-testing-whats-new.md",
+      "redirect_url": "/visualstudio/test/live-unit-testing-intro",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/walkthrough-use-the-virtual-user-activity-chart-to-isolate-issues.md",
+      "redirect_url": "/visualstudio/test/analyze-load-test-virtual-user-activity-in-the-details-view",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/test/intellitest-manual/getting-started.md",
       "redirect_url": "/visualstudio/test/intellitest-manual/index",
       "redirect_document_id": false
