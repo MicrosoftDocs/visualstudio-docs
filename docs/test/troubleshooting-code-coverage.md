@@ -63,7 +63,7 @@ Resolution&mdash;Make sure that your build settings generate the *.pdb* file.
 - If the *.pdb* files are not updated when the project is built, then open the project properties, select the **Build** page, choose **Advanced**, and inspect **Debug Info**.
 
 ::: moniker range=">=vs-2022"
-- For C# projects targeting .NET Core, .NET 5+, then open the project properties, select the **Build** page, choose **General**, and inspect **Debug symbols**.
+- For C# projects targeting .NET Core or .NET 5+, then open the project properties, select the **Build** tab, choose **General**, and inspect **Debug symbols**.
 ::: moniker-end
 
 - For C++ projects, ensure that the generated .pdb files have full debug information. Open the project properties and verify that **Linker** > **Debugging** > **Generate Debug Info** is set to **Generate Debug Information optimized for sharing and publishing (/DEBUG:FULL)**.
