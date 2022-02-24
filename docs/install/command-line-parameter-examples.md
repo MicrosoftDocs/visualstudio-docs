@@ -126,7 +126,7 @@ Using the Visual Studio 2022 or later installer, it is possible to [configure wh
 | **Channel Name** | **--channelURI** |
 |------------------|------------------|
 | Visual Studio 2022 Current channel | `https://aka.ms/vs/17/release/channel` |
-| Visual Studio 2022 17.0 LTSC channel | `https://aka.ms/vs/17/release.LTSC.17.0./channel` |
+| Visual Studio 2022 17.0 LTSC channel | `https://aka.ms/vs/17/release.LTSC.17.0/channel` |
 | Visual Studio 2022 Preview channel | `https://aka.ms/vs/17/pre/channel` |
 | Visual Studio 2019 Release channel | `https://aka.ms/vs/16/release/channel` |
 | Visual Studio 2017 Release channel | `https://aka.ms/vs/15/release/channel` |
