@@ -1,7 +1,7 @@
 ---
 title: Update Visual Studio using a minimal offline layout
 description: Learn how to Update Visual Studio using a minimal offline layout.
-ms.date: 05/18/2021
+ms.date: 2/17/2022
 ms.topic: how-to
 ms.assetid:
 author: anandmeg
@@ -123,7 +123,7 @@ Let's walk through a few examples of how to preview, generate, and regenerate a 
 * And here's how to regenerate a minimal offline layout using an existing response file.
 
   ```shell
-  MinimalLayout.exe regenerate -filepath c:\VSLayout\MinimalLayout.json
+  MinimalLayout.exe regenerate --filepath c:\VSLayout\MinimalLayout.json
   ```
 
 A few other examples using the **generate** command:
@@ -165,7 +165,7 @@ A few other examples using the **generate** command:
 * And here's how to regenerate a minimal offline layout using an existing response file.
 
   ```shell
-  MinimalLayout.exe regenerate -filepath c:\VSLayout\MinimalLayout.json
+  MinimalLayout.exe regenerate --filepath c:\VSLayout\MinimalLayout.json
   ```
 
 A few other examples using the **generate** command:
