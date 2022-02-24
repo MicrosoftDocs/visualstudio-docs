@@ -2,7 +2,8 @@
 title: Learn Django tutorial in Visual Studio step 6, Polls project template
 titleSuffix: ""
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically the features of the Polls Django Web Project template such as administrative customization.
-ms.date: 01/25/2022
+ms.date: 02/24/2022
+ms.custom: devdivchpfy22
 ms.topic: tutorial
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -40,7 +41,7 @@ A project created using this template is similar to what you get by following th
 
 1. Like the other project templates in Visual Studio, the "Polls Django Web Project" template includes a *requirements.txt* file, Visual Studio prompts asks where to install those dependencies. Choose the option, **Install into a virtual environment**, and in the **Add Virtual Environment** dialog select **Create** to accept the defaults.
 
-1. Once Python finishes setting up the virtual environment, follow the instructions in the displayed *readme.html* to initialize the database and create a Django super user (that is, an administrator). The steps are to first right-click the **DjangoPolls** project in **Solution Explorer**, select the **Python** > **Django Migrate** command, then right-click the project again, select the **Python** > **Django Create Superuser** command, and follow the prompts. (If you try to create a super user first, you'll see an error because the database has not been initialized.)
+1. Once Python finishes setting up the virtual environment, follow the instructions in the displayed *readme.html* to initialize the database and create a Django super user (that is, an administrator). The steps are to first right-click the **DjangoPolls** project in **Solution Explorer**, select the **Python** > **Django Migrate** command, then right-click the project again, select the **Python** > **Django Create Superuser** command, and follow the prompts. (If you try to create a super user first, you'll see an error because the database hasn't been initialized.)
 
 1. Set the **DjangoPolls** project to be the default for the Visual Studio solution by right-clicking that project in **Solution Explorer** and selecting **Set as Startup Project**. The startup project, which is shown in bold, is what's run when you start the debugger.
 
@@ -48,7 +49,7 @@ A project created using this template is similar to what you get by following th
 
     ![Run web server toolbar button in Visual Studio](media/django/run-web-server-toolbar-button.png)
 
-1. The app created by the template has three pages, Home, About, and Contact, which you navigate between using the top nav bar. Take a minute or two to examine different parts of the app (the About and Contact pages are very similar to the "Django Web Project" and aren't discussed further).
+1. The app created by the template has three pages, Home, About, and Contact, which you navigate between using the top nav bar. Take a minute or two to examine different parts of the app (the About and Contact pages are similar to the "Django Web Project" and aren't discussed further).
 
     ![Full browser view of the Polls Django Web Project app](media/django/step06-full-app-view.png)
 
@@ -62,13 +63,13 @@ A project created using this template is similar to what you get by following th
 
 ### Examine the project contents
 
-As noted before. much of what's in a project created from the "Polls Django Web Project" template should be familiar if you've explored the other project templates in Visual Studio. The additional steps in this article summarize the more significant changes and additions, namely data models and additional views.
+As noted before. much of what's in a project created from the "Polls Django Web Project" template should be familiar if you've explored the other project templates in Visual Studio. The other steps in this article summarize the more significant changes and additions, namely data models and other views.
 
 ### Question: What does the Django Migrate command do?
 
 Answer: the **Django Migrate** command specifically runs the `manage.py migrate` command, which runs any scripts in the *app/migrations* folder that haven't been run previously. In this case, the command runs the *0001_initial.py* script in that folder to set up the necessary schema in the database.
 
-The migration script itself is created by the `manage.py makemigrations` command, which scans the app's *models.py* file, compares it to the current state of the database, and then generates the necessary scripts to migrate the database schema to match the current models. This feature of Django is very powerful as you update and modify your models over time. By generating and running migrations, you keep the models and the database in sync with little difficulty.
+The migration script itself is created by the `manage.py makemigrations` command, which scans the app's *models.py* file, compares it to the current state of the database, and then generates the necessary scripts to migrate the database schema to match the current models. This feature of Django is powerful as you update and modify your models over time. By generating and running migrations, you keep the models and the database in sync with little difficulty.
 
 You work with a migration in step 6-3 later in this article.
 
@@ -111,9 +112,9 @@ class Choice(models.Model):
 
 As you can see, a Poll maintains a description in its `text` field and a publication date in `pub_date`. These fields are the only ones that exist for the Poll in the database; the `total_votes` field is calculated at run time.
 
-A Choice is related to a Poll through the `poll` field, contains a description in `text`, and maintains a count for that choice in `votes`. The `votes_percentage` field is calculated at run time and is not found in the database.
+A Choice is related to a Poll through the `poll` field, contains a description in `text`, and maintains a count for that choice in `votes`. The `votes_percentage` field is calculated at run time and isn't found in the database.
 
-The full list of field types is `CharField` (limited text) `TextField` (unlimited text), `EmailField`, `URLField`, `DateTimeField`, `IntegerField`, `DecimalField`, `BooleanField`, `ForeignKey`, and `ManyToMany`. Each field takes some attributes, like `max_length`. The `blank=True` attribute means the field is optional; `null=true` means that a value is optional. There is also a `choices` attribute that limits values to values in an array of data value/display value tuples. (See the [Model field reference](https://docs.djangoproject.com/en/2.0/ref/models/fields/) in the Django documentation.)
+The full list of field types is `CharField` (limited text) `TextField` (unlimited text), `EmailField`, `URLField`, `DateTimeField`, `IntegerField`, `DecimalField`, `BooleanField`, `ForeignKey`, and `ManyToMany`. Each field takes some attributes, like `max_length`. The `blank=True` attribute means the field is optional; `null=true` means that a value is optional. There's also a `choices` attribute that limits values to values in an array of data value/display value tuples. (See the [Model field reference](https://docs.djangoproject.com/en/2.0/ref/models/fields/) in the Django documentation.)
 
 You can confirm exactly what's stored in the database by examining the *db.sqlite3* file in the project using a tool like the [SQLite browser](https://sqlitebrowser.org/). In the database, you see that a foreign key field like `poll` in the Choice model is stored as `poll_id`; Django handles the mapping automatically.
 
@@ -205,7 +206,7 @@ Answer: Yes, use the [django-admin showmigrations command](https://docs.djangopr
 
 ## Step 6-4: Understand the views and page templates created by the project template
 
-Most of the views generated by the "Polls Django Web Project" template, such as the views for the About and Contact pages, are quite similar to views created by the "Django Web Project" template you worked with earlier in this tutorial. What's different in the Polls app is that its home page makes use of the models, as do several added pages for voting and viewing poll results.
+Most of the views generated by the "Polls Django Web Project" template, such as the views for the About and Contact pages, are similar to views created by the "Django Web Project" template you worked with earlier in this tutorial. What's different in the Polls app is that its home page makes use of the models, as do several added pages for voting and viewing poll results.
 
 To begin with, the first line in the Django project's `urlpatterns` array in *urls.py* file is more than just a simple routing to an app view. Instead, it pulls in the app's own *urls.py* file:
 
@@ -255,7 +256,7 @@ If you're not familiar with the more complex regular expressions used here, you 
 
 In Django, the syntax `?P<name>pattern` creates a group named `name`, which gets passed as arguments to views in the order they appear. In the code shown earlier, `PollsDetailView` and `PollsResultsView` receive an argument named `pk` and `app.views.vote` receives an argument named `poll_id`.
 
-You can also see that most of the views are not just direct references to a view function in *app/views.py*. Instead, most refer to a class in that same file that derives from `django.views.generic.ListView` or `django.views.generic.DetailView`. The base classes provide the `as_view` methods, which take a `template_name` argument to identify the template. The `ListView` base class, as used for the home page, also expects a `queryset` property containing the data and a `context_object_name` property with the variable name by which you want to refer to the data in the template, in this case `latest_poll_list`.
+You can also see that most of the views aren't just direct references to a view function in *app/views.py*. Instead, most refer to a class in that same file that derives from `django.views.generic.ListView` or `django.views.generic.DetailView`. The base classes provide the `as_view` methods, which take a `template_name` argument to identify the template. The `ListView` base class, as used for the home page, also expects a `queryset` property containing the data and a `context_object_name` property with the variable name by which you want to refer to the data in the template, in this case `latest_poll_list`.
 
 Now you can examine the `PollListView` for the home page, which is defined as follows in *app/views.py*:
 
@@ -271,7 +272,7 @@ class PollListView(ListView):
         return context
 ```
 
-All that's done here is to identify the model that the view works with (Poll), and overrides the `get_context_data` method to add `title` and `year` values to the context.
+All that's done here's to identify the model that the view works with (Poll), and overrides the `get_context_data` method to add `title` and `year` values to the context.
 
 The core of the template (*templates/app/index.html*) is as follows:
 
@@ -350,7 +351,7 @@ class PollAdmin(admin.ModelAdmin):
 admin.site.register(Poll, PollAdmin)
 ```
 
-As you can see, the `PollAdmin` class derives from `django.contrib.admin.ModelAdmin` and customizes a number of its fields using names from the `Poll` model, which it manages. These fields are described on [ModelAdmin options](https://docs.djangoproject.com/en/2.0/ref/contrib/admin/#modeladmin-options) in the Django documentation.
+As you can see, the `PollAdmin` class derives from `django.contrib.admin.ModelAdmin` and customizes many its fields using names from the `Poll` model, which it manages. These fields are described on [ModelAdmin options](https://docs.djangoproject.com/en/2.0/ref/contrib/admin/#modeladmin-options) in the Django documentation.
 
 The call to `admin.site.register` then connects that class to the model (`Poll`) and includes it on the admin interface. The overall result is shown below:
 
@@ -371,6 +372,6 @@ Running a web app on your development computer is just one step in making the ap
 
 - Write unit tests in *tests.py*; the Visual Studio project templates provide starting points for these, and more information can be found on [Writing your first Django app, part 5 - testing](https://docs.djangoproject.com/en/2.0/intro/tutorial05/) and [Testing in Django](https://docs.djangoproject.com/en/2.0/topics/testing/) in the Django documentation.
 
-- Change the app from SQLite to a production-level data store such as PostgreSQL, MySQL, and SQL Server (all of which can be hosted on Azure). As described on [When to use SQLite](https://www.sqlite.org/whentouse.html) (sqlite.org), SQLite works fine for low to medium traffic sites with fewer than 100K hits/day, but is not recommended for higher volumes. It's also limited to a single computer, so it cannot be used in any multi-server scenario such as load-balancing and geo-replication. For information on Django's support for other databases, see [Database setup](https://docs.djangoproject.com/en/2.0/intro/tutorial02/#database-setup). You can also use the [Azure SDK for Python](/azure/python/) to work with Azure storage services like tables and blobs.
+- Change the app from SQLite to a production-level data store such as PostgreSQL, MySQL, and SQL Server (all of which can be hosted on Azure). As described on [When to use SQLite](https://www.sqlite.org/whentouse.html) (sqlite.org), SQLite works fine for low to medium traffic sites with fewer than 100 K hits/day, but isn't recommended for higher volumes. It's also limited to a single computer, so it can't be used in any multi-server scenario such as load-balancing and geo-replication. For information on Django's support for other databases, see [Database setup](https://docs.djangoproject.com/en/2.0/intro/tutorial02/#database-setup). You can also use the [Azure SDK for Python](/azure/python/) to work with Azure storage services like tables and blobs.
 
-- Set up a continuous integration/continuous deployment pipeline on a service like Azure DevOps. In addition to working with source control (via Azure Repos or GitHub, or elsewhere), you can configure an Azure DevOps Project to automatically run your unit tests as a pre-requisite for release, and also configure the pipeline to deploy to a staging server for additional tests before deploying to production. Azure DevOps, furthermore, integrates with monitoring solutions like App Insights and closes the whole cycle with agile planning tools. For more information, see [Create a CI/CD pipeline for Python with the Azure DevOps project](/azure/devops-project/azure-devops-project-python?view=vsts&preserve-view=true) and also the general [Azure DevOps documentation](/azure/devops/?view=vsts&preserve-view=true).
+- Set up a continuous integration/continuous deployment pipeline on a service like Azure DevOps. In addition to working with source control (via Azure Repos or GitHub, or elsewhere), you can configure an Azure DevOps Project to automatically run your unit tests as a pre-requisite for release, and also configure the pipeline to deploy to a staging server for more tests before deploying to production. Azure DevOps, furthermore, integrates with monitoring solutions like App Insights and closes the whole cycle with agile planning tools. For more information, see [Create a CI/CD pipeline for Python with the Azure DevOps project](/azure/devops-project/azure-devops-project-python?view=vsts&preserve-view=true) and also the general [Azure DevOps documentation](/azure/devops/?view=vsts&preserve-view=true).
