@@ -5,7 +5,7 @@ author: mikejo5000
 manager: jmartens
 ms.topic: how-to
 ms.workload: azure-vs
-ms.date: 1/24/2022
+ms.date: 2/8/2022
 ms.author: mikejo
 ms.technology: vs-ide-debug
 ---
@@ -108,7 +108,7 @@ You can debug programs that run in Azure App Services by using the Attach to Pro
 
 3. In the dialog box that opens, select the **Subscription name**.
 
-    ![Select Azure App Service Dialog](./media/vs-azure-tools-debug-cloud-services-virtual-machines/select-app-service.png)
+    ![Screenshot of Select Azure App Service Dialog, showing a list of App Services to select.](./media/vs-azure-tools-debug-cloud-services-virtual-machines/select-app-service.png)
 
 > [!NOTE]
 > You need to be logged into a Microsoft Account with access to the subscription that contains your Azure App Service.
@@ -119,7 +119,7 @@ You can debug programs that run in Azure App Services by using the Attach to Pro
 
     This enables remote debugging on your App Service and shows you a list of available processes to attach to. 
 
-    ![Process Listing](./media/vs-azure-tools-debug-cloud-services-virtual-machines/attach-to-process.png)
+    ![Screenshot of the Attach to Process Window, showing the processes running on the selected App Service.](./media/vs-azure-tools-debug-cloud-services-virtual-machines/attach-to-process.png)
 
 6. Select the process you want to attach to and then choose **Attach** to start debugging. 
 

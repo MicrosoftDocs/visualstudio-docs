@@ -1,8 +1,8 @@
 ---
 title: Customize window layouts
-description: Learn how to customize the characteristics that windows exhibit to create layouts that work best for various development workflows.
+description: Learn how to customize the windows in Visual Studio to create layouts that work best for your development workflows.
 ms.custom: SEO-VS-2020
-ms.date: 11/24/2021
+ms.date: 02/22/2022
 ms.topic: conceptual
 f1_keywords:
 - vs.windows
@@ -71,17 +71,28 @@ You can apply vertical document tabs in the following ways:
 
 #### Color document tabs
 
-**[New in Visual Studio 2022 version 17.0 and later](/visualstudio/releases/2022/release-notes)**: We added another top feature request, [color document tabs](https://devblogs.microsoft.com/visualstudio/personalize-docs/). Now, you can colorize tabs in both vertical and horizontal views in the Editor.
+Visual Studio 2022 includes new personalization options you can use to help you code more efficiently. We added another top feature request, [color document tabs](https://devblogs.microsoft.com/visualstudio/personalize-docs/). Now, you color file tabs by project so that you don't have to hunt for your open files.
 
-The following screenshot shows an example of color tabs in the vertical view:
+> [!NOTE]
+> To use color tabs, navigate to **Tools** > **Options** > **Environment** > **Tabs and Windows**, and then select **Colorize document tabs by project**.
 
-:::image type="content" source="media/vs-2022/color-tabs-vertical.png" alt-text="Screenshot of color tabs in the vertical view.":::
+Here are our updates, to date:
 
-The following screenshot shows an example of color tabs in the horizontal view:
+- **[New in Visual Studio 2022 version 17.0 and later](/visualstudio/releases/2022/release-notes-v17.0)**: You can now colorize tabs in both vertical and horizontal views in the Editor.
 
-:::image type="content" source="media/vs-2022/color-tabs-horizontal.png" alt-text="Screenshot of color tabs in the horizontal view.":::
+    The following screenshot shows an example of color tabs in the vertical view:
 
-To use color tabs, navigate to **Tools** > **Options** > **Environment** > **Tabs and Windows**, and then select **Colorize document tabs by project**.
+    :::image type="content" source="media/vs-2022/color-tabs-vertical.png" alt-text="Screenshot of color tabs in the vertical view.":::
+
+    The following screenshot shows an example of color tabs in the horizontal view:
+
+    :::image type="content" source="media/vs-2022/color-tabs-horizontal.png" alt-text="Screenshot of color tabs in the horizontal view.":::
+
+- **[New in Visual Studio 2022 version 17.1 and later](/visualstudio/releases/2022/release-notes)**: You can also choose your own tab colors. To do so, right-click on a tab and select **Set Tab Color** to pick from the palette.
+
+    The following screenshot shows an example of how to personalize the color scheme of tabs:
+
+    :::image type="content" source="media/vs-2022/color-tabs-personalize-schemes.png" alt-text="Screenshot of the Set Tab Option that you can use to personalize the colors of tabs.":::
 
 ::: moniker-end
 
