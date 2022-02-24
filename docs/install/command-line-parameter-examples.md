@@ -120,6 +120,22 @@ For lists of the workloads and components that you can install by using the comm
    --add Microsoft.VisualStudio.Workload.Node --includeRecommended --nickname VSforNode
   ```
 
+## Using --channelURI
+Using the Visual Studio 2022 or later installer, it is possible to [configure where Visual Studio looks for updates](https://docs.microsoft.com/en-us/visualstudio/install/update-visual-studio?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1). This is otherwise known as the update channel or the source location of updates. The following table gives example values for channelURI and what they mean.
+
+| **Channel Name** | **--channelURI** |
+|------------------|------------------|
+| Visual Studio 2022 Current channel | `https://aka.ms/vs/17/release/channel` |
+| Visual Studio 2022 17.0 LTSC channel | `https://aka.ms/vs/17/release.LTSC.17.0./channel` |
+| Visual Studio 2022 Preview channel | `https://aka.ms/vs/17/pre/channel` |
+| Visual Studio 2019 Release channel | `https://aka.ms/vs/16/release/channel` |
+| Visual Studio 2017 Release channel | `https://aka.ms/vs/15/release/channel` |
+| Custom layout - Private Channel | `\\layoutserver\share\path\channelmanifest.json` |
+
+If you choose to use a custom layout as the update channel, then be aware of the following:
+  * the --channelURI must point to the channelmanifest.json file in the custom layout. 
+  * Administrators can configure [how the Custom Layout Private Channel is displayed in the Update Settings UI by configuring the client's registry settings](/visualstudio/install/set-defaults-for-enterprise-deployments#configuring-source-location-for-updates). 
+
 ## Using --remove
 
 ::: moniker range="vs-2017"
