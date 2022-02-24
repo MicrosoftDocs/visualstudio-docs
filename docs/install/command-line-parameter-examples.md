@@ -1,7 +1,7 @@
 ---
 title: Command-line parameter examples for installation
 description: Customize these examples to create your own command-line installation of Visual Studio.
-ms.date: 11/23/2021
+ms.date: 2/17/2022
 ms.topic: conceptual
 ms.assetid: 837F31AA-F121-46e9-9996-F8BCE768E579
 author: anandmeg
@@ -121,7 +121,7 @@ For lists of the workloads and components that you can install by using the comm
   ```
 
 ## Using --channelURI
-Using the Visual Studio 2022 or later installer, it is possible to [configure where Visual Studio looks for updates](https://docs.microsoft.com/en-us/visualstudio/install/update-visual-studio?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1). This is otherwise known as the update channel or the source location of updates. The following table gives example values for channelURI and what they mean.
+Using the Visual Studio 2022 or later installer, it is possible to [configure where Visual Studio looks for updates](/visualstudio/install/update-visual-studio?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1). This is otherwise known as the update channel or the source location of updates. The following table gives example values for channelURI and what they mean.
 
 | **Channel Name** | **--channelURI** |
 |------------------|------------------|
