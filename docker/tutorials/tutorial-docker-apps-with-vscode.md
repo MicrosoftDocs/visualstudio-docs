@@ -82,7 +82,7 @@ If you open the extension now, you will see this tutorial running.
 The container name (`angry_taussig` below) is a randomly created name.
 So, you'll most likely have a different name.
 
-![Tutorial container running in Docker Extension](media/vs-tutorial-in-extension.png)
+![Tutorial container running in Docker Extension](media/vs-tutorial-docker-extension.png)
 
 A container is simply another process on your machine that has been isolated from all other processes on the host machine.
 That isolation leverages kernel namespaces and cgroups.
@@ -101,14 +101,11 @@ Before you can run the application, you need to get the application source code 
 For real projects, you will typically clone the repo.
 For this tutorial, we have created a ZIP file containing the application.
 
-1. Download the source for the app from the [Docker](https://github.com/docker/getting-started) repo.
-   You can download the ZIP file for the repo.
-   To download the ZIP file, use the green **Code** button and choose **Download ZIP**.
-   Open the ZIP file and Extract All to extract the source of the app from the *app* folder to a folder on your hard drive.
+1. Go to the [Docker Getting Started Tutorial](https://github.com/docker/getting-started) repo, and then select **Code** > **Download ZIP**. Once the file is downloaded, extract its contents.
 
    ![Screenshot showing the green Code button and Download ZIP option](media/download-zip.png)
 
-1. Once extracted, use VS Code to open the project.
+1. In VS Code, select File > Once extracted, use VS Code to open the project.
    You should see the `package.json` and two subdirectories (`src` and `spec`).
 
     ![Screenshot of Visual Studio Code opened with the app loaded](media/ide-screenshot.png)
@@ -318,7 +315,7 @@ To do this, you will use Play with Docker.
 
 1. Sign in with your Docker Hub account.
 
-1. Once you're logged in, click on the "+ ADD NEW INSTANCE" link in the left side bar. (If you don't see it, make your browser a little wider.) 
+1. Select **Start** and then select the "+ ADD NEW INSTANCE" link in the left side bar. (If you don't see it, make your browser a little wider.) 
    After a few seconds, a terminal window will be opened in your browser.
 
     ![Play with Docker add new instance](media/pwd-add-new-instance.png)
