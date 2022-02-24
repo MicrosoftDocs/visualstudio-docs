@@ -166,7 +166,7 @@ All layout management operations are run using the bootstrapper exe and they ass
 | `--path shared=<path>`         | **Optional**: Contains shared files for side-by-side Visual Studio installations. Some tools and SDKs install to a location on this drive, while some others might override this setting and install to another drive. Example: `--path shared="C:\VS\shared"` <br/><br/>**Important**: This can be set only once and on the first time that Visual Studio is installed.     |
 | `--path install=<path>`        | **Optional**: Equivalent to `–-installPath`. Specifically, `--installPath "C:\VS"` and `--path install="C:\VS"` are equivalent. Only one of these commands can be used at a time.     |
 
-## modifySettings command and command-line parameters
+## Configure source location of updates command and command-line parameters
 You can programmatically configure the source location of updates for a given instance of Visual Studio by using either the installer or the bootstrapper on the client machine, and passing in the desired update channel.  
 
 | **modifySettings parameters**                   | **Description**                                        |
