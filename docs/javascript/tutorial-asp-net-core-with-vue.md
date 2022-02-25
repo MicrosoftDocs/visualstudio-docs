@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: In this tutorial, you create an app using ASP.NET Core and Vue
-ms.date: 01/28/2022
+ms.date: 02/25/2022
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -135,6 +135,8 @@ You should see the Vue app appear, that is populated via the API.
 
 ## Troubleshooting
 
+### Proxy error
+
 You may see the following error:
 
 ```
@@ -144,3 +146,11 @@ You may see the following error:
 If you see this issue, most likely the frontend started before the backend. Once you see the backend command prompt up and running, just refresh the Vue app in the browser.
 
 Otherwise, if the port is in use, try 5002 in *launchSettings.json* and *vue.config.js*.
+
+### Docker
+
+If you enable Docker support while creating the web API project, the backend may start up using the Docker profile and not listen on the configured port 5001. To resolve:
+
+1. In the Solution properties, set your backend app as the startup project.
+1. In the Debug menu, switch the profile using the **Start** button drop-down menu to the profile for your backend app.
+1. Next, in the Solution properties, reset to multiple startup projects.
