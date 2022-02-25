@@ -2,7 +2,7 @@
 title: Code style options and code cleanup
 description: Learn how to configure Visual Studio to apply code style preferences using the Code Cleanup (Visual Studio 2019) and Format Document (Visual Studio 2017) commands.
 ms.custom: SEO-VS-2020
-ms.date: 04/25/2019
+ms.date: 02/24/2022
 ms.topic: conceptual
 author: mikejo5000
 ms.author: mikejo
@@ -102,8 +102,12 @@ After you've configured code cleanup, you can either click on the broom icon or 
 
 ![Run Code Cleanup across entire project or solution](media/run-code-cleanup-project-solution.png)
 
+::: moniker-end
+::: moniker range=">=vs-2022"
+If you want your code style settings to be applied every time you save a file, go to **Options** > **Text Editor** > **Code Cleanup** and select **Run Code Cleanup profile on save**.
+::: moniker-end
+::: moniker range="<=vs-2019"
 If you want your code style settings to be applied every time you save a file, you may like the [Code Cleanup on Save](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CodeCleanupOnSave) extension.
-
 ::: moniker-end
 
 ## See also

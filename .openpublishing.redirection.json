@@ -45441,6 +45441,26 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "docs/debugger/how-can-i-use-debugger-windows-while-debugging-a-foreground-program-q.md",
+      "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-get-back-to-the-function-that-called-mfc-if-halted.md",
+      "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/prefetch-content-for-windows-store-apps.md",
+      "redirect_url": "/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/what-s-new-for-the-debugger-in-visual-studio.md",
+      "redirect_url": "/visualstudio/debugger/index",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/xaml-hot-reload-troubleshooting.md",
       "redirect_url": "/visualstudio/xaml-tools/xaml-hot-reload-troubleshooting",
       "redirect_document_id": true
@@ -47513,6 +47533,16 @@
     {
       "source_path": "docs/sharepoint/requirements-for-developing-sharepoint-solutions.md",
       "redirect_url": "/visualstudio/sharepoint/getting-started-sharepoint-development-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/live-unit-testing-whats-new.md",
+      "redirect_url": "/visualstudio/test/live-unit-testing-intro",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/walkthrough-use-the-virtual-user-activity-chart-to-isolate-issues.md",
+      "redirect_url": "/visualstudio/test/analyze-load-test-virtual-user-activity-in-the-details-view",
       "redirect_document_id": false
     },
     {
