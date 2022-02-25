@@ -2,7 +2,7 @@
 title: JavaScript IntelliSense
 description: Learn how Visual Studio delivers richer IntelliSense, support for modern JavaScript features, and improved productivity features.
 ms.custom: SEO-VS-2020
-ms.date: 06/28/2017
+ms.date: 02/25/2022
 ms.topic: conceptual
 ms.technology: vs-javascript
 helpviewer_keywords:
@@ -134,8 +134,6 @@ By default, the Salsa language service will try to detect which JavaScript libra
 > This feature is **disabled** by default if using a *tsconfig.json* configuration file, but may be set to enabled as outlined further below.
 
 Currently auto-detection works for dependencies downloaded from npm (by reading the *package.json* file), Bower (by reading the *bower.json* file), and for loose files in your project that match a list of roughly the top 400 most popular JavaScript libraries. For example, if you have *jquery-1.10.min.js* in your project, the file *jquery.d.ts* will be fetched and loaded in order to provide a better editing experience. This *.d.ts* file will have no impact on your project.
-
-If you do not wish to use auto-acquisition, disable it by adding a configuration file as outlined below. You can still place definition files for use directly within your project manually.
 
 ## See also
 
