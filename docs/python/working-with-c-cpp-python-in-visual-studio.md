@@ -2,7 +2,7 @@
 title: Write C++ extensions for Python
 description: This article walks you through how to create a C++ extension for Python by using Visual Studio, CPython, and PyBind11, including mixed-mode debugging.
 ms.custom: devdivchpfy22
-ms.date: 12/20/2021
+ms.date: 02/25/2022
 ms.topic: how-to
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -138,7 +138,6 @@ Follow the instructions in this section to create two identical C++ projects, *s
     | Tab | Property | Value |
     | --- | --- | --- |
     | **General** | **Target Name** | Specify the name of the module to refer to it from Python in `from...import` statements. You use this same name in the C++ code when you define the module for Python. To use the name of the project as the module name, leave the default value of **$\<ProjectName>**.  For `python_d.exe`, add `_d` to the end of the name. |
-    | | **Configuration Type** | **Dynamic Library (.dll)** |
     | | **Advanced** > **Target File Extension** | **.pyd** |
     | | **Project Defaults** > **Configuration Type** | **Dynamic Library (.dll)** |
     | **C/C++** > **General** | **Additional Include Directories** | Add the Python *include* folder as appropriate for your installation (for example, `c:\Python36\include`).  |
