@@ -149,8 +149,8 @@ Otherwise, if the port is in use, try 5002 in *launchSettings.json* and *vue.con
 
 ### Docker
 
-If you enable Docker support while creating the web API project, the backend may start up using the docker profile and not listen on the configured port 5001. To resolve:
+If you enable Docker support while creating the web API project, the backend may start up using the Docker profile and not listen on the configured port 5001. To resolve:
 
 1. In the Solution properties, set your backend app as the startup project.
-1. In the Debug menu, switch the profile using the launch button drop down to the profile for your backend app.
+1. In the Debug menu, switch the profile using the **Start** button drop-down menu to the profile for your backend app.
 1. Next, in the Solution properties, reset to multiple startup projects.
