@@ -1,7 +1,7 @@
 ---
 title: "XAML Hot Reload for WPF and UWP apps"
 description: "XAML Hot Reload, or XAML edit and continue, allows you to make changes to your XAML code while running apps"
-ms.date: 12/17/2021
+ms.date: 02/25/2022
 ms.topic: conceptual
 helpviewer_keywords:
   - "xaml edit and continue"
@@ -17,7 +17,7 @@ monikerRange: ">=vs-2019"
 ---
 # What is XAML Hot Reload for WPF and UWP apps? (Visual Studio)
 
-With XAML Hot Reload, you can incrementally build and test XAML code for your your WPF and UWP apps. You can do so with the benefit of the running app's data context, authentication state, and other real-world complexity that's hard to simulate during design-time.
+With XAML Hot Reload, you can incrementally build and test XAML code for your WPF and UWP apps. You can do so with the benefit of the running app's data context, authentication state, and other real-world complexity that's hard to simulate during design-time.
 
 > [!TIP]
 > If you've arrived here by way of the XAML Hot Reload user interface (UI), welcome! You're in the right place to learn more about XAML Hot Reload.
