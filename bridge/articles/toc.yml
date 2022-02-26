@@ -3,10 +3,12 @@
 - name: Overview
   href: overview-bridge-to-kubernetes.md
 - name: Visual Studio
+  expanded: true
   items:
-  - name: Use Bridge to Kubernetes
+  - name: "Tutorial: Use Bridge to Kubernetes"
     href: bridge-to-kubernetes-vs.md
 - name: VS Code
+  expanded: true
   items:
   - name: Use with an existing app
     href: bridge-to-kubernetes-vs-code.md
