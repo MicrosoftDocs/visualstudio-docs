@@ -26,7 +26,7 @@ Visual Studio includes two command-line shells for developers:
 
 :::image type="content" source="media/developer-command-prompt-for-vs/command-prompt.png" alt-text="Developer Command Prompt for Visual Studio showing clrver tool":::
 
-Starting in Visual Studio 2019 version 16.5, Visual Studio includes an integrated **terminal** that can host either of these shells (Developer Command Prompt and Developer PowerShell). You can also open multiple tabs of each shell. The Visual Studio terminal is built on top of [Windows Terminal](/windows/terminal/). To open the terminal in Visual Studio, choose **View** > **Terminal**.
+Starting in [Visual Studio 2019 version 16.5](/visualstudio/releases/2019/release-notes-v16.5), Visual Studio includes an integrated **terminal** that can host either of these shells (Developer Command Prompt and Developer PowerShell). You can also open multiple tabs of each shell. The Visual Studio terminal is built on top of [Windows Terminal](/windows/terminal/). To open the terminal in Visual Studio, select **View** > **Terminal**.
 
 :::image type="content" source="media/developer-command-prompt-for-vs/vs-terminal.png" alt-text="Visual Studio terminal showing multiple tabs":::
 
@@ -52,7 +52,7 @@ Follow these steps to open Developer Command Prompt or Developer PowerShell from
 
 1. Open Visual Studio.
 
-1. On the menu bar, choose **Tools** > **Command Line** > **Developer Command Prompt** or **Developer PowerShell**.
+1. On the menu bar, select **Tools** > **Command Line** > **Developer Command Prompt** or **Developer PowerShell**.
 
    ![Command prompt menu item in Visual Studio](./media/developer-command-prompt-for-vs/vs-menu.png)
 
@@ -64,11 +64,11 @@ Another way to start the shells is from the Start menu. You may have multiple co
 
 1. Select **Start** ![Windows logo key on the keyboard.](./media/developer-command-prompt-for-vs/windows-logo-key-graphic.png) and scroll to the letter **V**.
 
-1. Expand the **Visual Studio 2019** folder.
+1. Expand the **Visual Studio 2019** or **Visual Studio 2022** folder.
 
-1. Choose **Developer Command Prompt for VS 2019** or **Developer PowerShell for VS 2019**.
+1. If you're running Visual Studio 2019, select either **Developer Command Prompt for VS 2019** or **Developer PowerShell for VS 2019**. If you're running Visual Studio 2022, select **Developer Command Prompt for VS 2022** or **Developer PowerShell for VS 2022**.
 
-   Alternatively, you can start typing the name of the shell in the search box on the taskbar, and choose the result you want as the result list starts to display the search matches.
+   Alternatively, you can start typing the name of the shell in the search box on the taskbar, and select the result you want as the result list starts to display the search matches.
 
    ![Animated gif showing the search behavior on Windows 10](./media/developer-command-prompt-for-vs/windows-10-search.gif)
 
@@ -78,13 +78,13 @@ Another way to start the shells is from the Start menu. You may have multiple co
 
 1. On the **Start** screen, press **Ctrl**+**Tab** to open the **Apps** list, and then press **V**. This brings up a list that includes all installed Visual Studio command prompts.
 
-1. Choose **Developer Command Prompt for VS 2019** or **Developer PowerShell for VS 2019**.
+1. If you're running Visual Studio 2019, select either **Developer Command Prompt for VS 2019** or **Developer PowerShell for VS 2019**. If you're running Visual Studio 2022, select **Developer Command Prompt for VS 2022** or **Developer PowerShell for VS 2022**.
 
 ### Windows 7
 
-1. Choose **Start** and then expand **All Programs**.
+1. Select **Start** and then expand **All Programs**.
 
-1. Choose **Visual Studio 2019** > **Visual Studio Tools** > **Developer Command Prompt for VS 2019** or **Developer PowerShell for VS 2019**.
+1. Select **Visual Studio 2019** > **Visual Studio Tools** > **Developer Command Prompt for VS 2019** or **Developer PowerShell for VS 2019**.
 
    ![Windows 7 Start menu with the command prompt highlighted](./media/developer-command-prompt-for-vs/windows-7-menu.png)
 
@@ -111,7 +111,7 @@ Or enter the following command in the Windows **Run** dialog box:
 ```
 
 > [!TIP]
-> You'll need to edit the path to match your Visual Studio installation.
+> Make sure to edit the path to match the version of Visual Studio that you're using.
 
 ### Developer PowerShell
 
@@ -128,11 +128,13 @@ By default, the Developer PowerShell that launches is configured for the Visual 
 
 The `Launch-VsDevShell.ps1` script works by locating the `Microsoft.VisualStudio.DevShell.dll` PowerShell module in the Visual Studio installation path, loading it, and then invoking the `Enter-VsDevShell` cmdlet. Installed shortcuts, like those in the Start Menu, load the module and invoke the cmdlet directly. `Launch-VsDevShell.ps1` is the recommended way to initialize Developer PowerShell interactively or for scripting build automation.
 
-## Command line arguments
+## Command-line arguments
+
+You can use command-line arguments for either the shells, Developer Command Prompt or Developer PowerShell.
 
 ### Target Architecture and Host Architecture
 
-For build tools -- like the C++ compiler -- that create outputs targeting specific CPU architectures the developer shells can be configured using the appropriate command line argument. The architecture of the build tool binaries can also be configured using command line arguments. This is useful when the build machine is a different architecture than the target architecture.
+For build tools -- like the C++ compiler -- that create outputs targeting specific CPU architectures the developer shells can be configured using the appropriate command-line argument. The architecture of the build tool binaries can also be configured using command-line arguments. This is useful when the build machine is a different architecture than the target architecture.
 
 > [!TIP]
 > Beginning with Visual Studio 2022, `msbuild` will default to a 64-bit msbuild.exe binary, regardless of the Host Architecture.
@@ -144,9 +146,10 @@ For build tools -- like the C++ compiler -- that create outputs targeting specif
 |Developer PowerShell|-Arch &lt;Target Architecture&gt;|
 |Developer PowerShell|-HostArch &lt;Host Architecture&gt;|
 
-Developer PowerShell arguments -Arch and -HostArch are only available beginning with Visual Studio 2022 Update 1.
+> [!IMPORTANT]
+> Developer PowerShell arguments -Arch and -HostArch are only available beginning with [Visual Studio 2022 version 17.1](/visualstudio/releases/2022/release-notes#1710--visual-studio-2022-version-171-newreleasebutton).
 
-The following is a list of which architectures are supported, and whether they can be used for the Target Architecture or Host Architecture arguments.
+The following table lists which architectures are supported, and whether they can be used for the Target Architecture or Host Architecture arguments.
 
 |Architecture|Target Architecture|Host Architecture|
 |--|--|--|
@@ -156,7 +159,7 @@ The following is a list of which architectures are supported, and whether they c
 |arm64|Yes|No|
 
 > [!TIP]
-> If only Target Architecure is set, the shells will attempt to make the Host Architecture match. This can result in errors when setting only the Target Architecture to a value not also supported by Host Architecture.
+> If you set only Target Architecture, the shells attempt to make the Host Architecture match. This can result in errors when only the Target Architecture is set to a value that's not also supported by Host Architecture.
 
 #### Examples
 
@@ -170,20 +173,19 @@ Start Developer Command Prompt for Visual Studio 2019 Community Edition on a 64-
 "%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat" -arch=arm -host_arch=amd64
 ```
 
-Start Developer PowerShell for Visual Studio 2022 Update 1 Community Edition on 64-bit machine, creating build outputs that target arm64:
+Start Developer PowerShell for the Community Edition of [Visual Studio 2022 version 17.1](/visualstudio/releases/2022/release-notes#1710--visual-studio-2022-version-171-newreleasebutton) or later on a 64-bit machine, creating build outputs that target arm64:
 ```powershell
 & 'C:\Program Files (x86)\Microsoft Visual Studio\2022\Community\Common7\Tools\Launch-VsDevShell.ps1' -Arch arm64 -HostArch amd64
 ```
 
 ### SkipAutomaticLocation
 
-For Developer PowerShell, the starting directory of the shell is the Visual Studio Project Location. This will override any other paths, such as working directory. This behavior can be turned off using the
-command line argument `-SkipAutomaticLocation`. This is useful if, for example, you want the shell to stay in the current directory after initialization.
+For Developer PowerShell, the starting directory of the shell is the Visual Studio Project Location. This default locale overrides any other paths, such as working directory. This behavior can be turned off by using the command-line argument `-SkipAutomaticLocation`. This can be useful if you want the shell to stay in the current directory after initialization.
 
-The Project Location can be adjusted in Tools -> Options -> Projects &amp; Solutions -> Project Location.
+The Project Location can be adjusted in **Tools** > **Options** > **Projects &amp; Solutions** > **Project Location**.
 
 > [!TIP]
-> The command line arguments `-Arch`, `-HostArch`, and `-SkipAutomaticLocation` are supported by both the `Launch-VsDevShell.ps1` script and the `Enter-VsDevShell` cmdlet.
+> The command-line arguments `-Arch`, `-HostArch`, and `-SkipAutomaticLocation` are supported by both the `Launch-VsDevShell.ps1` script and the `Enter-VsDevShell` cmdlet.
 
 ## See also
 
