@@ -3,7 +3,7 @@ title: 'Command-line shells & prompt for developers'
 description:  Start from Tools > Command Line menu. Visual Studio Developer Command Prompt, Developer PowerShell, and terminal let you use .NET and C++ tools more easily.
 author: TerryGLee
 ms.author: tglee
-ms.date: 10/26/2021
+ms.date: 02/28/2022
 ms.topic: conceptual
 ms.custom: contperf-fy21q4
 helpviewer_keywords:
@@ -14,11 +14,11 @@ helpviewer_keywords:
   - "Visual Studio terminal"
 ms.assetid: 94fcf524-9045-4993-bfb2-e2d8bad44219
 no-loc: cmdlet
-monikerRange: vs-2019
+monikerRange: ">=vs-2019"
 ---
 # Visual Studio Developer Command Prompt and Developer PowerShell
 
-Visual Studio 2019 includes two command-line shells for developers:
+Visual Studio includes two command-line shells for developers:
 
 - **Visual Studio Developer Command Prompt** - A standard command prompt with certain environment variables set to make using command-line developer tools easier. Available since Visual Studio 2015.
 
@@ -181,7 +181,7 @@ For Developer PowerShell, the starting directory of the shell is the Visual Stud
 command line argument `-SkipAutomaticLocation`. This is useful if, for example, you want the shell to stay in the current directory after initialization.
 
 The Project Location can be adjusted in Tools -> Options -> Projects &amp; Solutions -> Project Location.
- 
+
 > [!TIP]
 > The command line arguments `-Arch`, `-HostArch`, and `-SkipAutomaticLocation` are supported by both the `Launch-VsDevShell.ps1` script and the `Enter-VsDevShell` cmdlet.
 
