@@ -2,7 +2,7 @@
 title: Python in Visual Studio tutorial step 6, work with Git
 titleSuffix: ""
 description: Step 6 of a core walkthrough of Python in Visual Studio, covering Visual Studio's Git-related features.
-ms.date: 02/11/2022
+ms.date: 02/28/2022
 ms.custom: devdivchpfy22
 ms.topic: tutorial
 author: rjmolyneaux
@@ -29,7 +29,7 @@ This article provides a basic overview of creating a local Git repository for an
 
 1. With a project open in Visual Studio, such as the project from the [previous step](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md), right-click the solution and select **Add Solution to Source Control**. Visual Studio creates a local Git repository that contains your project code.
 
-1. When Visual Studio detects the project is managed in a Git repository, Git-related controls appear. The git-related controls appear along the bottom right corner of the Visual Studio window. The controls show pending commits, changes, the name of the repository, and the branch. Hover over the controls to see additional information.
+1. When Visual Studio detects the project is managed in a Git repository, Git-related controls appear. The Git-related controls appear along the bottom right corner of the Visual Studio window. The controls show pending commits, changes, the name of the repository, and the branch. Hover over the controls to see additional information.
 
     ![Additional information appears when hovering over a Git control on the Visual Studio window](media/working-with-git-01.png)
 
