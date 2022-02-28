@@ -26,6 +26,7 @@ In this article, learn how to use macOS accessibility features, and to set acces
 > [!NOTE]
 > This guide refers to Visual Studio for Mac. For Visual Studio on Windows, see [Accessibility features of Visual Studio](/visualstudio/ide/reference/accessibility-features-of-visual-studio).
 
+::: moniker range="vsmac-2019"
 ## Enable macOS accessibility features in Visual Studio for Mac
 
 In Visual Studio for Mac, support for assistive technologies is turned off by default. To enable accessibility support:
@@ -45,6 +46,8 @@ defaults write com.microsoft.visual-studio com.monodevelop.AccessibilityEnabled 
 ```
 
 After changing this setting via the command line, you will need to restart Visual Studio.
+
+::: moniker-end
 
 ## Increase the contrast in macOS
 
