@@ -84,7 +84,7 @@ Another way to start the shells is from the Start menu. You may have multiple co
 
 ### Windows 11
 
-1. Select **Start** ![Screenshot of the Windows 11 logo key on the desktop.](./media/developer-command-prompt-for-vs/windows-11-logo-key-button.png).
+1. Select **Start** :::image type="content" source="media/developer-command-prompt-for-vs/windows-11-logo-button.png" alt-text="Screenshot of the Start button in Windows 11.":::.
 
 1. In **Type here to search** dialog box, enter either `developer command prompt` or `developer powershell`.
 
@@ -92,7 +92,7 @@ Another way to start the shells is from the Start menu. You may have multiple co
 
 ### Windows 10
 
-1. Select **Start** ![Screenshot of the Windows 10 logo key on the desktop.](./media/developer-command-prompt-for-vs/windows-logo-key-graphic.png) and scroll to the letter **V**.
+1. Select **Start** ![Screenshot of the Start button in Windows 10.](./media/developer-command-prompt-for-vs/windows-logo-key-graphic.png), and then scroll to the letter **V**.
 
 1. Expand the **Visual Studio 2019** or **Visual Studio 2022** folder.
 
@@ -100,7 +100,7 @@ Another way to start the shells is from the Start menu. You may have multiple co
 
    Alternatively, you can start typing the name of the shell in the search box on the taskbar, and select the result you want as the result list starts to display the search matches.
 
-   ![An animation that shows the search behavior on Windows 10.](./media/developer-command-prompt-for-vs/windows-10-search.gif)
+   ![An animation that shows the search behavior in Windows 10.](./media/developer-command-prompt-for-vs/windows-10-search.gif)
 
 ### Windows 8.1
 
@@ -114,9 +114,9 @@ Another way to start the shells is from the Start menu. You may have multiple co
 
 1. Select **Start** and then expand **All Programs**.
 
-1. Select **Visual Studio 2019** > **Visual Studio Tools** > **Developer Command Prompt for VS 2019** or **Developer PowerShell for VS 2019**.
+1. Select **Visual Studio 2019** > **Visual Studio Tools** > **Developer Command Prompt for VS 2019** or **Developer PowerShell for VS 2019**. (If you're running Visual Studio 2022, look for the same items that include "2022" instead of "2019".)
 
-   ![Screenshot of the Windows 7 Start menu with the command prompt highlighted](./media/developer-command-prompt-for-vs/windows-7-menu.png)
+   ![Screenshot of the Windows 7 Start menu with the command prompt highlighted.](./media/developer-command-prompt-for-vs/windows-7-menu.png)
 
 If you have other SDKs installed, such as the [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk) or [previous versions](https://developer.microsoft.com/windows/downloads/sdk-archive), you may see additional command prompts. Check the documentation for the individual tools to determine which version of the command prompt you should use.
 
