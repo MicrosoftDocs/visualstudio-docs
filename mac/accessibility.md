@@ -96,7 +96,6 @@ Some users might find that the default color scheme doesn't meet their contrast 
 > [!TIP]
 > The theme will update in the editor in real time, so you can preview and select your preferred theme.
 
-For more information, see the following topics:
+For more information, see the following topic:
 
 * [Use keyboard navigation](accessibility-keyboard.md)
-* [Use macOS VoiceOver with Visual Studio for Mac](accessibility-voiceover.md)
