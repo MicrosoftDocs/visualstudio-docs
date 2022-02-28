@@ -84,9 +84,7 @@ Another way to start the shells is from the Start menu. You may have multiple co
 
 ### Windows 11
 
-1. Select **Start** :::image type="content" source="media/developer-command-prompt-for-vs/windows-11-logo-button.png" alt-text="Screenshot of the Start button in Windows 11.":::.
-
-1. In **Type here to search** dialog box, enter either `developer command prompt` or `developer powershell`.
+1. Select **Start** :::image type="content" source="media/developer-command-prompt-for-vs/windows-11-logo-button.png" alt-text="Screenshot of the Start button in Windows 11.":::, and then in the **Type here to search** dialog box, enter either `developer command prompt` or `developer powershell`.
 
 1. Select the App result that's associated with your search text.
 
@@ -156,7 +154,7 @@ By default, the Developer PowerShell that launches is configured for the Visual 
 > [!TIP]
 > The [execution policy](/powershell/module/microsoft.powershell.core/about/about_execution_policies) must be set in order for the cmdlet to run.
 
-The `Launch-VsDevShell.ps1` script works by locating the `Microsoft.VisualStudio.DevShell.dll` PowerShell module in the Visual Studio installation path, loading it, and then invoking the `Enter-VsDevShell` cmdlet. Installed shortcuts, like those in the Start Menu, load the module and invoke the cmdlet directly. `Launch-VsDevShell.ps1` is the recommended way to initialize Developer PowerShell interactively or for scripting build automation.
+The `Launch-VsDevShell.ps1` script works by locating the `Microsoft.VisualStudio.DevShell.dll` PowerShell module in the Visual Studio installation path, loading it, and then invoking the `Enter-VsDevShell` cmdlet. Installed shortcuts, like those in the Start menu, load the module and invoke the cmdlet directly. `Launch-VsDevShell.ps1` is the recommended way to initialize Developer PowerShell interactively or for scripting build automation.
 
 ## Command-line arguments
 
@@ -193,17 +191,17 @@ The following table lists which architectures are supported, and whether they ca
 
 #### Examples
 
-Start Developer Command Prompt for Visual Studio 2019 Community Edition on a 64-bit machine, creating build outputs that target 64-bit:
+Start the Developer Command Prompt for Visual Studio 2019 Community Edition on a 64-bit machine, creating build outputs that target 64-bit:
 ```cmd
 "%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat" -arch=amd64
 ```
 
-Start Developer Command Prompt for Visual Studio 2019 Community Edition on a 64-bit machine, creating build outputs that target arm:
+Start the Developer Command Prompt for Visual Studio 2019 Community Edition on a 64-bit machine, creating build outputs that target arm:
 ```cmd
 "%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat" -arch=arm -host_arch=amd64
 ```
 
-Start Developer PowerShell for the Community Edition of [Visual Studio 2022 version 17.1](/visualstudio/releases/2022/release-notes#1710--visual-studio-2022-version-171-newreleasebutton) or later on a 64-bit machine, creating build outputs that target arm64:
+Start the Developer PowerShell for the Community Edition of [Visual Studio 2022 version 17.1](/visualstudio/releases/2022/release-notes#1710--visual-studio-2022-version-171-newreleasebutton) or later on a 64-bit machine, creating build outputs that target arm64:
 ```powershell
 & 'C:\Program Files (x86)\Microsoft Visual Studio\2022\Community\Common7\Tools\Launch-VsDevShell.ps1' -Arch arm64 -HostArch amd64
 ```
