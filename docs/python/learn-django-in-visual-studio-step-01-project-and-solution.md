@@ -229,7 +229,7 @@ Now that you've configured source control for your project, you can create the v
 
 1. Select **Create** to accept the defaults, in Add Virtual Environment dialog. (You can change the name of the virtual environment if you want, which just changes the name of its subfolder, but `env` is a standard convention.)
 
-    :::image type="content" source="media/django/step-01-add-environment-dialog-vs-2022.png" alt-text="Add virtual environment dialog with requirements.txt message.":::
+    :::image type="content" source="media/django/step-01-add-environment-dialog-visual-studio-2022.png" alt-text="Add virtual environment dialog with requirements.txt message.":::
 
 1. Consent to administrator privileges if prompted, then wait a few minutes while Visual Studio downloads and installs packages. During this time, thousands of files are transferred to many subfolders. You can see the progress in the Visual Studio **Output** window. While you're waiting, ponder the Question sections that follow.
 
