@@ -62,3 +62,10 @@ Press **F5** or select the **Start** button at the top of the window, and you'll
    > Check console output for messages, such as a message instructing you to update your version of Node.js.
 
 Next, you should see the base Vue.js app appear!
+
+## Next steps
+
+For ASP.NET Core integration:
+
+> [!div class="nextstepaction"]
+> [Create an ASP.NET Core app with Vue](tutorial-asp-net-core-with-vue.md)

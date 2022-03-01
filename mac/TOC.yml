@@ -184,10 +184,6 @@
   items: 
     - name: Overview
       href: accessibility.md
-    - name: Setting IDE accessibility options
-      href: accessibility-ide-options.md
-    - name: Using macOS Accessibility Tools
-      href: accessibility-macos.md
     - name: Using Keyboard Navigation
       href: accessibility-keyboard.md
 - name: Reference
