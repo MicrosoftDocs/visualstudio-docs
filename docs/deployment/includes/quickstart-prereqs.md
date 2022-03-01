@@ -25,6 +25,6 @@
     In Visual Studio 2017, choose **File** > **New Project**, select **Visual C#** > **.NET Core**, then select **ASP.NET Core Web Application**. When prompted, select the **Web Application (Model-View-Controller)** template, make sure that **No Authentication** is selected, and then select **OK**.
     ::: moniker-end
   * Python: Follow [Quickstart: Create your first Python web app using Visual Studio](../../ide/quickstart-python.md), or use **File** > **New Project**, select **Python**, then select **Flask Web Project**.
-  * Node.js: Follow [Quickstart: Use Visual Studio to create your first Node.js app](../../ide/quickstart-nodejs.md), or use **File** > **New Project**, select **JavaScript**, then select **Blank Node.js Web Application**.
+  * Node.js: Follow [Tutorial: Create a Node.js and Express app in Visual Studio](../../javascript/tutorial-nodejs.md), or use **File** > **New Project**, select **JavaScript**, then select **Blank Node.js Web Application**.
 
 * Make sure you build the project using the **Build > Build Solution** menu command before following the deployment steps.
