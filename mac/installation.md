@@ -109,7 +109,7 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
 1. You may be presented with a warning about the application being downloaded from the Internet. Select **Open**.
 
-    [![Warning about app being downloaded from the internet](media/vsmac-2022/installer-internet-warning-sml.png)](media/vsmac-2022/installer-internet-warning#lightbox)
+    [![Warning about app being downloaded from the internet](media/vsmac-2022/installer-internet-warning-sml.png)](media/vsmac-2022/installer-internet-warning.png#lightbox)
 
 1. An alert will appear asking you to acknowledge the privacy and license terms. Follow the links to read them, then select **Continue** if you agree:
 
@@ -117,7 +117,7 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
 1. The list of available workloads is displayed. Select the components you wish to use:
 
-    [![Screenshot of the "What would you like to install?" screen in the Visual Studio Mac Installer, showing a list of components available for installation.](media/installer-workloads-sml.png)](media/installer-workloads.png#lightbox)
+    [![Screenshot of the "What would you like to install?" screen in the Visual Studio Mac Installer, showing a list of components available for installation.](media/vsmac-2022/installer-workloads-sml.png)](media/vsmac-2022/installer-workloads.png#lightbox)
 
    If you do not wish to install all platforms, use the guide below to help you decide which platforms to install:
 
@@ -139,13 +139,13 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
 1. Once installed, Visual Studio for Mac will prompt you to personalize your installation by signing in and selecting the key bindings that you'd like to use:
 
-    [![Sign in to the IDE](media/vsmac-2022/installer-sign-in-sml.png)](media/vsmac-2022/installer-sign-in#lightbox)
+    [![Sign in to the IDE](media/vsmac-2022/installer-sign-in-sml.png)](media/vsmac-2022/installer-sign-in.png#lightbox)
 
     [![Choose which keyboard shortcuts you would like to use](media/vsmac-2022/installer-keyboard-shortcuts-sml.png)](media/vsmac-2022/installer-keyboard-shortcuts.png#lightbox)
 
 1. Once installed, Visual Studio for Mac will launch, and you can open a project or create a new one.
 
-    [![Visual Studio for Mac launches](media/vsmac-2022/vsmac-launch-sml.png)](media/vsmac-2022/vsmac-launch#lightbox)
+    [![Visual Studio for Mac launches](media/vsmac-2022/vsmac-launch-sml.png)](media/vsmac-2022/vsmac-launch.png#lightbox)
 
 ::: moniker-end
 
