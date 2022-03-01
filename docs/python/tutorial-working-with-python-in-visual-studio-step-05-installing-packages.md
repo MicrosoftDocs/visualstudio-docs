@@ -72,7 +72,7 @@ The Python developer community has produced thousands of useful packages that yo
     ![Unresolved package import](media/packages-unresolved-import.png)
    :::moniker-end
 
-1. Looking at the editor window, you'll notice that if you hover over the `numpy` and `matplotlib` import statements that they aren't resolved. The reason is the packages haven't been installed to the default global environment.
+1. When you look at the editor window, notice that when you hover over the `numpy` and `matplotlib` import statements that they aren't resolved. The reason is the packages haven't been installed to the default global environment.
 
     For example, select **Open interactive window** and an **Interactive window** for that specific environment appears in Visual Studio.
 
