@@ -1,6 +1,6 @@
 ---
 title: 'Command-line shells & prompt for developers'
-description:  Start from Tools > Command Line menu. Visual Studio Developer Command Prompt, Developer PowerShell, and terminal let you use .NET and C++ tools more easily.
+description:  Start from the Tools > Command Line menu. Select the Visual Studio Developer Command Prompt, Developer PowerShell, or terminal to use .NET and C++ tools more easily.
 author: TerryGLee
 ms.author: tglee
 ms.date: 02/28/2022
@@ -94,7 +94,7 @@ Another way to start the shells is from the Start menu. You may have multiple co
 
 1. Expand the **Visual Studio 2019** or **Visual Studio 2022** folder.
 
-1. If you're running Visual Studio 2019, select either **Developer Command Prompt for VS 2019** or **Developer PowerShell for VS 2019**. If you're running Visual Studio 2022, select **Developer Command Prompt for VS 2022** or **Developer PowerShell for VS 2022**.
+1. If you're running Visual Studio 2019, select either **Developer Command Prompt for VS 2019** or **Developer PowerShell for VS 2019**. If you're running Visual Studio 2022, select either **Developer Command Prompt for VS 2022** or **Developer PowerShell for VS 2022**.
 
    Alternatively, you can start typing the name of the shell in the search box on the taskbar, and select the result you want as the result list starts to display the search matches.
 
@@ -158,11 +158,11 @@ The `Launch-VsDevShell.ps1` script works by locating the `Microsoft.VisualStudio
 
 ## Command-line arguments
 
-You can use command-line arguments for either the shells, Developer Command Prompt or Developer PowerShell.
+You can use command-line arguments for either of the shells, Developer Command Prompt or Developer PowerShell.
 
 ### Target Architecture and Host Architecture
 
-For build tools -- like the C++ compiler -- that create outputs targeting specific CPU architectures the developer shells can be configured using the appropriate command-line argument. The architecture of the build tool binaries can also be configured using command-line arguments. This is useful when the build machine is a different architecture than the target architecture.
+For build tools -- like the C++ compiler -- that create outputs targeting specific CPU architectures, the developer shells can be configured using the appropriate command-line argument. The architecture of the build tool binaries can also be configured by using command-line arguments. This is useful when the build machine is a different architecture than the target architecture.
 
 > [!TIP]
 > Beginning with Visual Studio 2022, `msbuild` will default to a 64-bit msbuild.exe binary, regardless of the Host Architecture.
@@ -177,7 +177,7 @@ For build tools -- like the C++ compiler -- that create outputs targeting specif
 > [!IMPORTANT]
 > Developer PowerShell arguments -Arch and -HostArch are only available beginning with [Visual Studio 2022 version 17.1](/visualstudio/releases/2022/release-notes#1710--visual-studio-2022-version-171-newreleasebutton).
 
-The following table lists which architectures are supported, and whether they can be used for the Target Architecture or Host Architecture arguments.
+The following table lists which architectures are supported, and whether they can be used for Target Architecture or Host Architecture arguments.
 
 |Architecture|Target Architecture|Host Architecture|
 |--|--|--|
