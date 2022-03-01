@@ -105,7 +105,7 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 1. Download the installer from the [Visual Studio for Mac Preview download page](https://visualstudio.microsoft.com/vs/mac/preview/).
 1. Once the download is complete, click the **visualstudioformacpreviewinstaller-17.0.0.149.dmg** to mount the installer, then run it by double-clicking the arrow logo:
 
-    [![Click the large arrow to begin installation](media/vsmac-2022/installer-internet-warning-sml.png)](media/vsmac-2022/install-installer.png#lightbox)
+    [![Click the large arrow to begin installation](media/vsmac-2022/install-installer-sml.png)](media/vsmac-2022/install-installer.png#lightbox)
 
 1. You may be presented with a warning about the application being downloaded from the Internet. Select **Open**.
 
@@ -143,7 +143,7 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
     [![Choose which keyboard shortcuts you would like to use](media/vsmac-2022/installer-keyboard-shortcuts-sml.png)](media/vsmac-2022/installer-keyboard-shortcuts.png#lightbox)
 
-1. Once installed, Visual Studio for Mac will launch, and you can open a project or create a new one.
+1. Visual Studio for Mac will launch, and you can open a project or create a new one.
 
     [![Visual Studio for Mac launches](media/vsmac-2022/vsmac-launch-sml.png)](media/vsmac-2022/vsmac-launch.png#lightbox)
 
