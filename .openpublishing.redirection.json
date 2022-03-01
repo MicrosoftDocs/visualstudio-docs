@@ -81,6 +81,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/reference/accessibility-features-of-visual-studio.md",
+      "redirect_url": "/visualstudio/ide/how-to-change-fonts-and-colors-in-visual-studio#accessibility-options",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/convert-dialog-box.md",
       "redirect_url": "/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects",
       "redirect_document_id": false
