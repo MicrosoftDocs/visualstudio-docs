@@ -49,7 +49,7 @@ This article provides a basic overview of creating a local Git repository for an
 
     ![Team Explorer in Visual Studio showing branches](media/working-with-git-04.png)
 
-1. When you select the Git control with the repository name (**CosineWave** in a previous image), **Team Explorer** shows a **Connect** interface with which you can quickly switch to another repository entirely.
+1. To switch to another repository, select the Git control with the repository name (**CosineWave** in a previous image), and then in **Team Explorer**, use the Connect interface.
 
 1. When you use a local repository, committed changes go directly into the repository. If you're connected to a remote repository, select the drop-down header in **Team Explorer**, select **Sync** to switch to the **Synchronization** section, and work with the **Pull** and **Fetch** commands presented there.
 
