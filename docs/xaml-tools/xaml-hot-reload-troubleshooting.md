@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting XAML Hot Reload"
 description: "Fix problems that you may encounter with XAML Hot Reload."
-ms.date: "12/17/2021"
+ms.date: "03/02/2022"
 ms.topic: troubleshooting
 helpviewer_keywords:
   - "xaml edit and continue, troubleshooting"
@@ -86,6 +86,7 @@ The following are known limitations of XAML Hot Reload. To work around any limit
 |Changing data binding that uses the {x:Bind} markup extension|N/A|Supported starting in Visual Studio 2019|This requires Windows 10 version 1809 (build 10.0.17763) and later. Not supported in Visual Studio 2017 or previous versions.|
 |Changing x:Uid directives isn't supported|N/A|Not Supported|None|
 |Using multiple processes | Supported | Supported | Supported in Visual Studio 2019 [version 16.6](/visualstudio/releases/2019/release-notes-v16.6) and later. |
+|Editing Styles in themes\generic.xaml |Not Supported| Not supported| XAML Hot Reload creates new styles; the original ones are sealed. Platforms cache styles from generic.xaml after they are applied to controls, which makes them inaccessible for replacement. |
 
 ## Error messages
 
