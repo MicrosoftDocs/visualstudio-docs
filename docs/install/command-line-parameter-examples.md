@@ -134,7 +134,7 @@ Using the Visual Studio 2022 or later installer, it is possible to [configure wh
 
 If you choose to use a custom layout as the update channel, then be aware of the following:
   * the --channelURI must point to the channelmanifest.json file in the custom layout. 
-  * Administrators can configure [how the Custom Layout Private Channel is displayed in the Update Settings UI by configuring the client's registry settings](/visualstudio/install/set-defaults-for-enterprise-deployments#configuring-source-location-for-updates). 
+  * Administrators can configure [how the custom layout "Private Channel" is displayed in the Update Settings UI by configuring the client's registry settings](/visualstudio/install/set-defaults-for-enterprise-deployments#configuring-source-location-for-updates). 
 
 ## Using --remove
 
