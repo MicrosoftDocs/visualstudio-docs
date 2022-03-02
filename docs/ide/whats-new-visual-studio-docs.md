@@ -131,11 +131,9 @@ Following articles were updated for Visual Studio 2022:
 **Updated articles**
 
 - [How Visual Studio makes version control easy with Git](../version-control/git-with-visual-studio.md)
-  - Tightening up the Visual Studio 2022 version
-  - Merging How VS makes source control easy into overview
-- [Browse Git repositories and compare branches in Visual Studio](../version-control/git-browse-repository.md) 
   - Add selected edits to highlight the Visual Studio 2022 version
   - Merge the "How Visual Studio makes source control easy" content into the Overview page
+- [Browse Git repositories and compare branches in Visual Studio](../version-control/git-browse-repository.md) - Updates for Visual Studio Release 17.1
 
 ### VSTO
 
