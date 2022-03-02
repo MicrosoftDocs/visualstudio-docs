@@ -25,7 +25,7 @@ If you are an enterprise IT administrator who wants to perform a deployment of V
 ## Use the "Download all, then install" feature
 Sometimes online access is problematic. For example, you might have an unreliable internet connection or your internet connection may have low bandwidth. For situations like these, we've made other methods available for acquiring Visual Studio. You can use the **Download all, then install** feature from the Visual Studio Installer to download the files to a local cache on the local machine before you install, or you can use the command line to create a local cache of the files to install later.
 
-To create a local cache, in the Visual Studio Installer, on the **Workloads** tab, you can select the **Download all, then install** option in the dropdown at the bottom of the dialog. The purpose of this feature is to frontload the downloading of the Visual Studio packages onto the same computer that you plan on eventually installing Visual Studio on. By downloading the packages into a local cache first, you can then safely disconnect from the internet before you install Visual Studio.
+To create a local cache, select the **Download all, then install** option in the dropdown at the bottom of the **Workloads** tab of the Visual Studio Installer. The purpose of this feature is to frontload the downloading of the Visual Studio packages onto the same computer that you plan on eventually installing Visual Studio on. By downloading the packages into a local cache first, you can then safely disconnect from the internet before you install Visual Studio.
 
    ![The "Download all, then install" option](media/vs-2019/download-all-then-install-from-installer.png)
 
