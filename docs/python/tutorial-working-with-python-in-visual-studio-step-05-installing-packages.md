@@ -1,9 +1,8 @@
 ---
 title: Python in Visual Studio tutorial step 5, install packages
 titleSuffix: ""
-description: Step 5 is a core walk-through to demonstrate Python capabilities in Visual Studio and Visual Studio's features to manage packages in a Python environment.
-ms.date: 12/11/2021
-ms.custom: devdivchpfy22
+description: Step 5 of a core walkthrough of Python capabilities in Visual Studio. Demonstrates Visual Studio features on how to manage and install packages in a Python environment.
+ms.date: 02/28/2022
 ms.topic: tutorial
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -13,6 +12,7 @@ ms.technology: vs-python
 ms.workload:
   - python
   - data-science
+ms.custom: devdivchpfy22
 ---
 
 # Step 5: Install packages in your Python environment
@@ -23,9 +23,7 @@ The Python developer community has produced thousands of useful packages that yo
 
 ## View environments
 
-1. Select the **View** > **Other Windows** > **Python Environments** menu command. The **Python Environments** window opens as a peer to **Solution Explorer**.
-
-   The Python environments window shows the different environments that are available to you. The list shows both environments that you installed using the Visual Studio installer, and environments that you installed separately. These environments include global, virtual, and conda environments. The environment in bold is the default environment that's used for new projects. For more information about working with environments, see [How to create and manage Python environments in Visual Studio environments](managing-python-environments-in-visual-studio.md).
+1. Select the **View** > **Other Windows** > **Python Environments** menu command. The **Python Environments** window opens as a peer to **Solution Explorer** and shows the different environments available to you. The list shows both environments that you installed using the Visual Studio installer and environments you installed separately. That includes global, virtual, and conda environments. The environment in bold is the default environment that's used for new projects. For more information about working with environments, see [How to create and manage Python environments in Visual Studio environments](managing-python-environments-in-visual-studio.md).
 
    :::moniker range=">=vs-2022"
    ![Python Environments window-2022](media/environments/environments-default-view-2022.png)
@@ -74,7 +72,7 @@ The Python developer community has produced thousands of useful packages that yo
     ![Unresolved package import](media/packages-unresolved-import.png)
    :::moniker-end
 
-1. The **Overview** tab in the Python Environments window provides quick access to an **Interactive** window for that environment and the installation folder of the environment and interpreters. The **Packages** tab is available below the Overview tab.
+1. When you look at the editor window, notice that when you hover over the `numpy` and `matplotlib` import statements that they aren't resolved. The reason is the packages haven't been installed to the default global environment.
 
     For example, select **Open interactive window** and an **Interactive window** for that specific environment appears in Visual Studio.
 
@@ -82,23 +80,19 @@ The Python developer community has produced thousands of useful packages that yo
 
 ## Install packages using the Python Environments window
 
-See the steps below to install Python packages in the **Python Environment** window.
+1. From the Python Environments window, select the default environment for new Python projects and choose the **Packages** tab. You'll then see a list of packages that are currently installed in the environment.
 
    :::moniker range=">=vs-2022"
    [Install packages in an environment](media/environments/install-python-packages-2022.gif)
    :::moniker-end
 
-1. From the **Python Environments** window, select the default environment for new Python projects.
+1. Install `matplotlib` by entering its name into the search field and then selecting the **Run command: pip install matplotlib** option. Running the command will install `matplotlib`, and any packages it depends on (in this case that includes `numpy`).
 
 1. Choose the **Packages** tab.
 
-   :::moniker range="vs-2022"
-   ![Packages installed in an environment-2022](media/environments/environments-installed-packages-2022.png)
-   :::moniker-end
+1. Consent to elevation if prompted to do so.
 
-   :::moniker range="<=vs-2019"
-   ![Packages installed in an environment-2019](media/environments/environments-installed-packages-2019.png)
-   :::moniker-end
+1. After the package is installed, it appears in the **Python Environments** window. The **X** to the right of the package uninstalls it.
 
 1. Enter `matplotlib` into the search field to install `matplotlib`.
 
@@ -131,7 +125,7 @@ See the steps below to install Python packages in the **Python Environment** win
 
 ## Run the program
 
-After installing `matplotlib` [matplotlib](https://matplotlib.org/), run the program with (**F5**) or without the debugger (**Ctrl**+**F5**) to see the output:
+Now that [matplotlib](https://matplotlib.org/) is installed, run the program with (**F5**) or without the debugger (**Ctrl**+**F5**) to see the output:
 
    ![Output of matplotlib example](media/environments/environments-add-matplotlib3.png)
 
