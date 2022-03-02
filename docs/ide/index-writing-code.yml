@@ -70,5 +70,5 @@ landingContent:
             url: ../get-started/csharp/tutorial-console.md
           - text: Create a console app with Visual Basic
             url: ../get-started/visual-basic/tutorial-console.md
-          - text: Create a web app with Node.js
-            url: quickstart-nodejs.md
+          - text: Create a Node.js and Express app
+            url: ../javascript/tutorial-nodejs.md
