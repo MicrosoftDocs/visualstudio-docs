@@ -70,6 +70,8 @@ Both tools are installed with Visual Studio for use on the local computer.
 
 To profile applications on devices that do not have Visual Studio installed:
 
+- Download the [Remote Tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202017) specific to your version of Visual Studio.
+
 - Copy and run the stand-alone profiler tools installation program from your Visual Studio computer. To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). Choose the setup program for the operating system (x86/x64) of the remote computer.
 
 > [!NOTE]
