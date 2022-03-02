@@ -74,10 +74,9 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 - [Options dialog box: Text Editor \> General](./reference/options-text-editor-general.md) - add "Show bidirectional text control characters" section
 - [Customize window layouts in Visual Studio](./customizing-window-layouts-in-visual-studio.md) - add personalized color tabs info
-- [Visual Studio Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md) - Updates for Visual Studio Release 17.1
+- [Visual Studio Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md) - Refresh screenshots for Visual Studio 2022 and add Windows 11 info
 - [Accessibility tips and tricks for Visual Studio](./reference/accessibility-tips-and-tricks.md) - update Sound instructions for Windows 11
 - [Find and replace text](./finding-and-replacing-text.md) - add table of shortcuts & commands specific to multi-caret select
-- [Features of the code editor](./writing-code-in-the-code-and-text-editor.md) - delete superfluous Code Generation Features navigation page
 
 ### Install
 
@@ -134,7 +133,9 @@ Following articles were updated for Visual Studio 2022:
 - [How Visual Studio makes version control easy with Git](../version-control/git-with-visual-studio.md)
   - Tightening up the Visual Studio 2022 version
   - Merging How VS makes source control easy into overview
-- [Browse Git repositories and compare branches in Visual Studio](../version-control/git-browse-repository.md) - Updates for Visual Studio Release 17.1
+- [Browse Git repositories and compare branches in Visual Studio](../version-control/git-browse-repository.md) 
+  - Add selected edits to highlight the Visual Studio 2022 version
+  - Merge the "How Visual Studio makes source control easy" content into the Overview page
 
 ### VSTO
 
