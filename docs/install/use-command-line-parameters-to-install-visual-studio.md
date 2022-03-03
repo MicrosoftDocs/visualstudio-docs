@@ -190,7 +190,7 @@ You can download an **Administrator Update** from the [Microsoft Update Catalog]
 If you're updating a layout to a particular version of Visual Studio, just download the Administrator Update to the computer that's hosting the layout, open up a command prompt on that computer and run a command like this:
 `visualstudioupdate-17.0.0to17.1.5.exe layout --layoutPath c:\VSLayout`
 
-On the client, if you download the Administrator Update into your installation directory on your client machine, you can just double-click on the file to apply the update.  You can also open a command window and pass some of the parameters below to change the default behavior. 
+On the client, if you download the Administrator Update into your installation directory on your client machine, you can just double-click on the file to apply the update. You can also open a command window and pass some of the parameters below to change the default behavior. 
 
 If you are deploying the administrator update through Microsoft Endpoint Manager (SCCM), you can modify the package to adjust the behavior by using the parameters below. You can also control the parameters via a configuration file on the client machine. For more information, refer to [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update)
 
