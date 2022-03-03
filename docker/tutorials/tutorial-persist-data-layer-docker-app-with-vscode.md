@@ -30,10 +30,9 @@ In this tutorial, you learn how to:
 > - Understand data across containers.
 > - Persist data using named volumes.
 > - Use bind mounts.
-> - View image layering.
+> - View image layer.
 > - Cache dependencies.
 > - Understand multi-stage builds.
-
 
 ## Prerequisites
 
@@ -55,7 +54,7 @@ The files created in one container aren't available in another.
    The first portion picks a single random number and writes it to `/data.txt`.
    The second command is watching a file to keep the container running.
 
-1. In the **Docker** pane, right-click the ubuntu container and select **Attach Shell**.
+1. In VS Code, in the **Docker** area, right-click the ubuntu container and select **Attach Shell**.
 
    ![Screenshot shows the Docker extension with a container selected and a context menu with Attach Shell selected.](media/attach_shell.png)
 
@@ -72,7 +71,7 @@ The files created in one container aren't available in another.
    To use the command line to see this result, get the container ID by using the `docker ps` command, and run the following command.
 
    ```bash
-   docker exec container-id cat /data.txt
+   docker exec <container-id> cat /data.txt
    ```
 
 1. Start another `ubuntu` container.
@@ -89,7 +88,7 @@ The files created in one container aren't available in another.
 
    There should be no `data.txt` file there because it was written to the scratch space for only the first container.
 
-1. Select these *ubuntu* containers. Right-click and select **Remove**.
+1. Select these two Ubuntu containers. Right-click and select **Remove**.
    From the command line, you can remove them by using the `docker rm -f` command.
 
 ## Persist your todo data using named volumes
@@ -105,7 +104,7 @@ The container writes to the *todo.db* file and that data persists to the host in
 
 For this section, use a **named volume**.
 Docker maintains the physical location the volume on the disk.
-Use the name of the volume, and Docker provides the right data.
+Refer to the name of the volume, and Docker provides the right data.
 
 1. Create a volume by using the `docker volume create` command.
 
@@ -113,11 +112,11 @@ Use the name of the volume, and Docker provides the right data.
    docker volume create todo-db
    ```
 
-1. Under Containers, select **getting-start** and right-click. Select **Stop** to stop the app container.
+1. Under **CONTAINERS**, select **getting-start** and right-click. Select **Stop** to stop the app container.
 
-   To stop the container from the command line, use the `docker stop container-id` command.
+   To stop the container from the command line, use the `docker stop` command.
 
-1. Start the **getting-started** container by using the following command. 
+1. Start the **getting-started** container by using the following command.
 
    ```bash
    docker run -dp 3000:3000 -v todo-db:/etc/todos getting-started
@@ -131,7 +130,8 @@ Use the name of the volume, and Docker provides the right data.
 
    ![Screenshot shows the sample app with several items added to the list.](media/items-added.png)
 
-1. Remove the **getting-started** container for the todo app. You can either use the Docker area in VS Studio or use the `docker stop` and `docker rm` commands.
+1. Remove the **getting-started** container for the todo app.
+   Either right-click the container in the Docker area and select **Remove** or use the `docker stop` and `docker rm` commands.
 
 1. Start a new container using the same command:
 
@@ -143,7 +143,7 @@ Use the name of the volume, and Docker provides the right data.
    Refresh your browser.
    The items you added are still in your list.
 
-1. Remove the getting-started container again.
+1. Remove the **getting-started** container again.
 
 Named volumes and bind mounts, discussed below, are the main types of volumes supported by a default Docker engine installation.
 
@@ -157,7 +157,7 @@ Named volumes and bind mounts, discussed below, are the main types of volumes su
 There are many volume driver plugins available to support NFS, SFTP, NetApp, and more.
 These plugins are especially important to run containers on multiple hosts in a clustered environment such as Swarm or Kubernetes.
 
-If you wonder where Docker *actually* stores your data, use the following command.
+If you wonder where Docker *actually* stores your data, run the following command.
 
 ```bash
 docker volume inspect todo-db
@@ -184,14 +184,14 @@ On most computers, you need root access to access this directory from the host.
 
 ## Use bind mounts
 
-With **bind mounts**, you control the exact mountpoint on the host.
+With *bind mounts*, you control the exact mountpoint on the host.
 This approach persists data, but is often used to provide more data into containers.
 You can use a bind mount to mount source code into the container to let it see code changes, respond, and let you see the changes right away.
 
 To run your container to support a development workflow, you'll take the following steps:
 
 - Mount your source code into the container.
-- Install all dependencies, including the "dev" dependencies.
+- Install all dependencies, including the dev dependencies.
 - Start `nodemon` to watch for filesystem changes.
 
 1. Remove any `getting-started` containers.
@@ -202,15 +202,15 @@ To run your container to support a development workflow, you'll take the followi
    docker run -dp 3000:3000 -w /app -v ${PWD}:/app node:12-alpine sh -c "yarn install && yarn run dev"
    ```
 
-   The parameter values have the following purpose:
+   This command contains the following parameters.
 
    - `-dp 3000:3000` Same as before. Run in detached mode and create a port mapping.
    - `-w /app` Working directory inside the container.
-   - `-v ${PWD}:/app"` Bind mount the current directory from the host in the container into the `/app` directory
+   - `-v ${PWD}:/app"` Bind mount the current directory from the host in the container into the `/app` directory.
    - `node:12-alpine` The image to use. This image is the base image for your app from the *Dockerfile*.
-   - `sh -c "yarn install && yarn run dev"` A command. We're starting a shell using `sh` and running `yarn install` to install *all* dependencies and then running `yarn run dev`. If you look in the `package.json`, the `dev` script is starting `nodemon`.
+   - `sh -c "yarn install && yarn run dev"` A command. It starts a shell using `sh` and runs `yarn install` to install all dependencies. Then it runs `yarn run dev`. If you look in the `package.json`, the `dev` script is starting `nodemon`.
 
-1. You can watch the logs using `docker logs -f <container-id>`.
+1. You can watch the logs using `docker logs`.
 
    ```bash
    docker logs -f <container-id>
@@ -228,9 +228,9 @@ To run your container to support a development workflow, you'll take the followi
 
    When you see the final entry on this list, the app is running.
 
-   When you're done watching the logs, select **Ctrl**+**C**.
+   When you're done watching the logs, select any key in the terminal window or select **Ctrl**+**C** in an external window.
 
-1. In VS Code, open the *src/static/js/app.js*. Change the text of the **Add Item** button on line 109.
+1. In VS Code, open *src/static/js/app.js*. Change the text of the **Add Item** button on line 109.
 
    ```diff
    - {submitting ? 'Adding...' : 'Add Item'}
@@ -243,12 +243,12 @@ To run your container to support a development workflow, you'll take the followi
 
    ![Screenshot shows the sample app with the new text on the button.](media/updated-add-button.png)
 
-## View image layering
+## View image layers
 
 You can look at the layers that make up an image.
-The `docker image history` command, you can see the command that was used to create each layer within an image.
+Run the `docker image history` command to see the command that was used to create each layer within an image.
 
-1. Use the `docker image history` command to see the layers in the *getting-started* image that you created earlier in the tutorial.
+1. Use `docker image history` to see the layers in the *getting-started* image that you created earlier in the tutorial.
 
    ```bash
    docker image history getting-started
@@ -286,7 +286,7 @@ The `docker image history` command, you can see the command that was used to cre
 ## Cache dependencies
 
 Once a layer changes, all downstream layers have to be recreated as well.
-Here's the **Dockerfile** again:
+Here's the *Dockerfile* again:
 
 ```dockerfile
 FROM node:12-alpine
@@ -297,7 +297,7 @@ CMD ["node", "/app/src/index.js"]
 ```
 
 Each command in the *Dockerfile* becomes a new layer in the image.
-To minimize the number of layers, you can restructure your Dockerfile to support caching of dependencies.
+To minimize the number of layers, you can restructure your *Dockerfile* to support caching of dependencies.
 For Node-based applications, those dependencies are defined in the `package.json` file.
 
 The approach is to copy only that file in first, install the dependencies, and *then* copy everything else.
@@ -323,7 +323,7 @@ The process only recreates the yarn dependencies if there was a change to the `p
 
    You should see output like the following results:
 
-   ```plaintext
+   ```output
    Sending build context to Docker daemon  219.1kB
    Step 1/6 : FROM node:12-alpine
    ---> b0dc3a5e5e9e
@@ -393,7 +393,7 @@ Multi-stage builds are an incredibly powerful tool to help use multiple stages t
 There are several advantages for them:
 
 - Separate build-time dependencies from runtime dependencies
-- Reduce overall image size by shipping *only* what your app needs to run
+- Reduce overall image size by shipping only what your app needs to run
 
 This section provides brief examples.
 
@@ -414,13 +414,13 @@ FROM tomcat
 COPY --from=build /app/target/file.war /usr/local/tomcat/webapps 
 ```
 
-This example uses one stage, *build*, to perform the actual Java build using Maven.
-The second stage, starting at "FROM tomcat", copies in files from the *build* stage.
+This example uses one stage, `build`, to perform the actual Java build using Maven.
+The second stage, starting at "FROM tomcat", copies in files from the `build` stage.
 The final image is only the last stage being created, which can be overridden using the `--target` parameter.
 
 ### React example
 
-When building React applications, you need a Node environment to compile the JS code, SASS stylesheets, and more into static HTML, JS, and CSS.
+When building React applications, you need a Node environment to compile the JavaScript code, SASS stylesheets, and more into static HTML, JavaScript, and CSS.
 If you aren't doing server-side rendering, you don't even need a Node environment for the production build.
 
 ```dockerfile

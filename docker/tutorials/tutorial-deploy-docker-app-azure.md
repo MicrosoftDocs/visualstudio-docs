@@ -32,20 +32,19 @@ For this tutorial, you also need the following items:
 
 - An Azure account with an active subscription.
   [Create an account for free](https://azure.microsoft.com/free/).
-- The Azure Account extension.
+- The Azure Account extension for VS Code.
   To install it, select the Extensions icon on the left side bar of VS Code and search for *Azure Account*.
-
 
 ## Create your cloud context
 
 To deploy your app to the cloud, you'll use Docker contexts.
 A context is the place where you're currently working with containers.
-Right now, you only have your "default" context.
+Right now, you only have your default context.
 
 You need to create an Azure Container Instances (ACI) context.
 This procedure creates a context.
 
-1. Check what contexts you have by looking at the **CONTEXTS** section of the Docker panel.
+1. In VS Code, check what contexts you have by looking at the **CONTEXTS** section of the Docker view.
 
    ![Screenshot shows the Context area of the Docker extension with only the default context.](media/default-context.png)
 
@@ -64,20 +63,22 @@ This procedure creates a context.
 
    ![Screenshot shows the option to select or create a resource group.](media/select-resource-group.png)
 
-   Your ACI context now appears under CONTEXTS. Select it to your current in-use context:
+   Your ACI context now appears under CONTEXTS. Select it to be your current in-use context.
 
    ![Screenshot shows the Docker extension contexts with the new context added.](media/list-contexts.png)
 
 ## Run containers in the cloud
 
-1. Run these commands to use your new ACI context and run the container.
+After you create a context in Azure, you can run your container in the cloud.
+
+1. Run these commands.
 
    ```bash
    docker context use newacicontext
    docker run  -dp 3000:3000 <username>/getting-started
    ```
 
-1. Under CONTAINERS, check that your container is running.
+1. In the Docker view, under **CONTAINERS**, check that your container is running.
 
    ![Screenshot shows a container in the Docker extension.](media/context-container.png)
 
@@ -85,12 +86,13 @@ This procedure creates a context.
 
    ![Screenshot shows the sample app, again, this time launched from an Azure Container Instances container.](media/container-instance.png)
 
-   The container is running in a public IP and working correctly.
+   The container is running with a public IP address and working correctly.
 
-1. Now, you can have a look at our running container to see how it's working. You can start by having a look at the container logs:
+1. Have a look at our running container to see how it's working.
+   You can start by looking at the container logs:
 
    ```bash
-   docker logs container-name
+   docker logs <container-name>
    ```
 
    Get the container name under **CONTAINERS**, next to **getting-started**
@@ -103,15 +105,11 @@ This procedure creates a context.
 
 1. To clean up your working space and to make sure you're not being charged for continuing to run the test container, right-click the running container and select **Remove**.
 
-## Recap
-
-
-
 ## Clean up resources
 
 Keep everything that you've done so far to continue with a bonus tutorial, below.
 
-The prerequisite you used in this tutorial series can be used for future Docker development.
+The prerequisites you used in this tutorial series can be used for future Docker development.
 Except for the test container you added to Azure, there's no reason to delete or uninstall anything.
 
 ## Next steps
@@ -123,7 +121,7 @@ Here are some other paths you can take working with containers.
 
 - Container orchestration
 
-  Tools like Kubernetes, Swarm, Nomad, and AKS all address challenges in running containers in a production environment.
+  Tools like Kubernetes, Swarm, Nomad, and Azure Kubernetes Service (AKS) all address challenges in running containers in a production environment.
 
   In general, you have *managers* who receive *expected state*.
   The managers then look at the computers in the cluster and delegate work to worker nodes.
@@ -131,11 +129,11 @@ Here are some other paths you can take working with containers.
 
 - Cloud Native Computing Foundation projects
 
-  The Cloud Native Computing Foundation (CNCF) is a vendor-neutral home for various open-source projects, including Kubernetes, Prometheus, Envoy, Linkerd, and NATS.
+  The Cloud Native Computing Foundation (CNCF) is a vendor-neutral home for various open-source projects, including Kubernetes, Prometheus, Envoy, and Linkerd.
   You can view [Graduated and incubating projects](https://www.cncf.io/projects/) and the entire [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/).
-  There are a LOT of projects to help you address monitoring, logging, security, image registries, and messaging.
+  There are projects to help you address monitoring, logging, security, image registries, and messaging.
 
-Learn more about using the VS Code Docker extension:
+Learn more about using the VS Code Docker Extension:
 
 - [VS Code Docker Extension overview](https://code.visualstudio.com/docs/containers/overview)
 - [Get started with Node.js](https://code.visualstudio.com/docs/containers/quickstart-node)

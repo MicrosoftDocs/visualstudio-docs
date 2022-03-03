@@ -55,12 +55,14 @@ This custom filesystem is provided by a *container image*.
 The image contains everything needed to run an application, such as all dependencies, configuration, scripts, and binaries.
 The image also contains other configuration for the container, such as environment variables, a default command to run, and other metadata.
 
-After you install the Docker extension for VS Code, you can run many of the following commands from VS Code.
+After you install the Docker extension for VS Code, you can work with containers in VS Code.
 In addition to context menus in the Docker pane, you can select **Terminal** > **New Terminal** to open a command-line window.
 You can also run commands in a Bash window.
 Unless specified, any command labeled as **Bash** can run in a Bash window or the VS Code terminal.
 
-1. Create a To start the tutorial, run this command:
+1. In VS Code, select **Terminal** > **New Terminal**.
+
+1. In the terminal window or a Bash window, run this command.
 
    ```bash
    docker run -d -p 80:80 docker/getting-started
@@ -80,12 +82,12 @@ Unless specified, any command labeled as **Bash** can run in a Bash window or th
    > docker run -dp 80:80 docker/getting-started
    > ```
 
-1. Open VS Code and select the Docker icon on the left to open the Docker view.
+1. In VS Code, select the Docker icon on the left to view the Docker extension.
 
    ![Screenshot shows the Docker extension with the docker/getting-started tutorial running.](media/vs-tutorial-docker-extension.png)
 
    The Docker VS Code Extension shows you the containers running on your computer.
-   You can access container logs manage container lifecycle, such as stop and remove.
+   You can access container logs and manage container lifecycle, such as stop and remove.
 
    The container name, **modest_schockly** in this example, is randomly created.
    Yours will have a different name.
@@ -109,8 +111,8 @@ Unless specified, any command labeled as **Bash** can run in a Bash window or th
    Then stop and remove the container:
 
    ```bash
-   docker stop container-id
-   docker rm container-id
+   docker stop <container-id>
+   docker rm <container-id>
    ```
 
 1. Refresh your browser.
@@ -133,8 +135,8 @@ A Dockerfile is a text-based script of instructions that is used to create a con
    ![Screenshot shows part of the Github site, with the green Code button and Download ZIP option highlighted.](media/download-zip.png)
 
 1. In VS Code, select **File** > **Open Folder**.
-   Navigate to the app folder in the extracted project and open that folder.
-   You should see the `package.json` and two subdirectories (`src` and `spec`).
+   Navigate to the *app* folder in the extracted project and open that folder.
+   You should see a file called *package.json* and two folders called *src* and *spec*.
 
    ![Screenshot of Visual Studio Code showing the package.json file open with the app loaded.](media/ide-screenshot.png)
 
@@ -151,7 +153,7 @@ A Dockerfile is a text-based script of instructions that is used to create a con
    > [!NOTE]
    > Be sure that the file has no file extension like `.txt`.
 
-1. In the File Explorer, on the left in VS Code, right-click the **Docker** file and then select **Build Image**.
+1. In the file explorer, on the left in VS Code, right-click the *Dockerfile* and then select **Build Image**.
    Enter *getting-started* as the tag for the image in the text entry box.
 
    The tag is a friendly name for the image.
@@ -163,7 +165,7 @@ A Dockerfile is a text-based script of instructions that is used to create a con
     ```
 
     > [!NOTE]
-    > In an external window, go to the `app` folder that has the *Dockerfile* to run this command.
+    > In an external Bash window, go to the `app` folder that has the *Dockerfile* to run this command.
 
 You've used the *Dockerfile* to build a new container image.
 You might have noticed that many "layers" were downloaded.
@@ -171,13 +173,13 @@ The *Dockerfile* starts from the `node:12-alpine` image.
 Unless that is on your computer already, that image needed to be downloaded.
 
 After the image was downloaded, the *Dockerfile* copies your application and uses `yarn` to install your application's dependencies.
-The `CMD` directive specifies the default command to run when starting a container from this image.
+The `CMD` value in the *Dockerfile* specifies the default command to run when starting a container from this image.
 
 The `.` at the end of the `docker build` command tells that Docker should look for the *Dockerfile* in the current directory.
 
 ## Starting your app container
 
-Now that you have an image, you can run the application! To do so, use the `docker run` command.
+Now that you have an image, you can run the application.
 
 1. To start your container, use the following command.
 
@@ -189,12 +191,12 @@ Now that you have an image, you can run the application! To do so, use the `dock
    The `-p` value creates a mapping between the host port 3000 and the container port 3000.
    Without the port mapping, you wouldn't be able to access the application.
 
-1. After a few seconds, open your web browser to `http://localhost:3000`.
-   You should see the app!
+1. After a few seconds, in VS Code, in the Docker area, under **CONTAINERS**, right-click **getting-started** and select **Open in Browser**.
+   You can instead open your web browser to `http://localhost:3000`.
+
+   You should see the app running.
 
    ![Screenshot shows the sample app with no items and the text No items yet Add one above.](media/todo-list-empty.png)
-
-   You could, instead, right-click **getting-started** in the **Docker** pane and select **Open in Browser**.
 
 1. Add an item or two and see that it works as you expect.
    You can mark items as complete and remove items.
@@ -207,10 +209,10 @@ Now, let's make a few changes and learn about managing your containers.
 
 1. In the `src/static/js/app.js` file, update line 56 to use this new text label:
 
-    ```diff
-    - <p className="text-center">No items yet! Add one above!</p>
-    + <p className="text-center">You have no todo items yet! Add one above!</p>
-    ```
+   ```diff
+   - <p className="text-center">No items yet! Add one above!</p>
+   + <p className="text-center">You have no todo items yet! Add one above!</p>
+   ```
 
     Save your change.
 
@@ -230,12 +232,12 @@ Now, let's make a few changes and learn about managing your containers.
    Then stop and remove the container:
 
    ```bash
-   docker stop container-id
-   docker rm container-id
+   docker stop <container-id>
+   docker rm <container-id>
    ```
 
 1. Build the updated version of the image.
-   In the File Explorer, right-click *Dockerfile*, then select **Build Image**.
+   In the file explorer, right-click *Dockerfile*, then select **Build Image**.
 
    Or, to build on the command line, use the same command you used before.
 
@@ -255,7 +257,7 @@ Now, let's make a few changes and learn about managing your containers.
 
 ## Share your image
 
-Now that we've built an image, you can share it!
+Now that you've built an image, you can share it.
 To share Docker images, use a Docker registry.
 The default registry is Docker Hub, which is where all of the images we've used have come from.
 
@@ -265,7 +267,8 @@ To push an image, first, you need to create a repo on Docker Hub.
 
 1. Select **Create Repository**.
 
-1. For the repo name, enter `getting-started`. Make sure that the **Visibility** is **Public**.
+1. For the repo name, enter `getting-started`.
+   Make sure that the **Visibility** is **Public**.
 
 1. Select **Create**.
 
@@ -274,12 +277,12 @@ To push an image, first, you need to create a repo on Docker Hub.
 
    ![Screenshot shows the Docker Hub page with a suggested Docker command.](media/push-command.png)
 
-1. In the Docker view of VS Code, under **IMAGES**, right-click the image tag, and select **Push...**.
-   Select **Connect registry...** and then **Docker Hub**.
+1. In the Docker view of VS Code, under **IMAGES**, right-click the image tag, and select **Push**.
+   Select **Connect registry** and then **Docker Hub**.
 
    You'll need to enter your Docker Hub account, password, and a namespace.
 
-To push to Docker Hub by using the command line, use this procedure:
+To push to Docker Hub by using the command line, use this procedure.
 
 1. Sign in to the Docker Hub:
 
@@ -321,10 +324,10 @@ To run your app, use Play with Docker.
 
     Play with Docker pulls down your image and starts it.
 
-1. Select the **3000** badge, next to OPEN PORT.
+1. Select the **3000** badge, next to **OPEN PORT**.
    You should see the app with your modifications.
 
-   If the **3000** badge doesn't show up, select **Open Port** and enter 3000.
+   If the **3000** badge doesn't show up, select **OPEN PORT** and enter 3000.
 
 ## Clean up resources
 
@@ -343,4 +346,4 @@ Here are some resources that might be useful to you:
 Next, try the next tutorial in this series:
 
 > [!div class="nextstepaction"]
-> [Perist data and layer a Docker app](tutorial-persist-data-layer-docker-app-with-vscode.md)
+> [Persist data and layer a Docker app](tutorial-persist-data-layer-docker-app-with-vscode.md)
