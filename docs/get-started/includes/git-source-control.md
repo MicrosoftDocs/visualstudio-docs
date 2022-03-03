@@ -1,7 +1,7 @@
 ---
-ms.date: 08/30/2021
+ms.date: 02/11/2022
 ms.technology: vs-ide-general
-ms.custom: vs-get-started
+ms.custom: vs-get-started, devdivchpfy22
 ms.author: tglee
 author: TerryGLee
 manager: jmartens

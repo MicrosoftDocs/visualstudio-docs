@@ -1,7 +1,7 @@
 ---
 title: Change themes, fonts, text, and contrast for accessibility
 description: Learn how to change Visual Studio color themes, font colors, text sizes, and extra-contrast colors for ease of use and accessibility concerns.
-ms.date: 11/24/2021
+ms.date: 02/28/2022
 ms.topic: how-to
 ms.custom: contperf-fy21q1
 helpviewer_keywords:
@@ -154,7 +154,7 @@ You can change the font and text size for all the IDE frame and tool windows, or
 
 ::: moniker-end
 
-For more information, see the [Change fonts and colors for the editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md) page.
+For more information about how to change fonts and colors in the code editor, see the see the [Change fonts and colors for the editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md) page. And, for details about all the user interface (UI) elements where you can change font and color schemes, see the [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) page.
 
 ## Accessibility options
 
@@ -214,17 +214,24 @@ Use the following procedures to toggle the Visual Studio extra contrast option:
 
 1. In the **Color theme** drop-down list, choose the **Blue (Extra Contrast)** theme, and then choose **OK**.
 
-To learn more about other Visual Studio accessibility options available to you, see the [Accessibility features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md) page.
-
 > [!TIP]
 > If there is an accessibility option for colors or fonts that you think might be useful but isn't currently available in Visual Studio, please let us know by selecting **Suggest a feature** in the [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8). For more information about this forum and how it works, see the [Suggest a feature](../ide/suggest-a-feature.md) page.
 
-## Next steps
+### More accessibility features in Visual Studio
 
-To learn more details about all the user interface (UI) elements for which you can change font and color schemes, see the [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) page.
+In addition to the font and color accessibility features, here are more a few more features that make Visual Studio more accessible for people with disabilities:
+
+- Keyboard shortcut controls and customization; see [How to use the keyboard exclusively](reference/how-to-use-the-keyboard-exclusively.md) and [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md).
+
+- Auto-completion for methods and parameters; see [IntelliSense in Visual Studio](using-intellisense.md).
+
+For more information about features, products, and services that make Windows more accessible for people with disabilities, see [Accessibility products and services from Microsoft](reference/accessibility-products-and-services-from-microsoft.md). And, for more information about how to obtain more accessible formats of documentation for Microsoft products, see the [Documentation in alternative formats](reference/accessibility-products-and-services-from-microsoft.md#documentation-in-alternative-formats)section of the [Accessibility products and services from Microsoft](reference/accessibility-products-and-services-from-microsoft.md) page.
+
+### Accessibility support
+
+The accessibility information included on this page might apply only to users who license Microsoft products in the United States. If you obtained this product outside of the United States, visit the [Microsoft Accessibility](https://www.microsoft.com/accessibility/) website for a list of Microsoft support services telephone numbers and addresses. You can contact your subsidiary to find out whether the type of products and services described on this page are available in your area. Information about accessibility is also available in other languages.
 
 ## See also
 
-- [How to: Change fonts and colors for the editor in Visual Studio](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md)
 - [Features of the Visual Studio code editor](../ide/writing-code-in-the-code-and-text-editor.md)
 - [Personalize the Visual Studio IDE and the editor](../ide/quickstart-personalize-the-ide.md)
