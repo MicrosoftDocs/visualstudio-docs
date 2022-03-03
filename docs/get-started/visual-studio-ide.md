@@ -37,9 +37,11 @@ If you're ready to dive into more coding, one of the following language-specific
 
 - [Use Visual Studio to create your first F# web app](../ide/quickstart-fsharp.md)
 
-- [Use Visual Studio to create your first Node.js app](../ide/quickstart-nodejs.md)
-
 - [Use Visual Studio to create your first C++ console app](/cpp/get-started/tutorial-console-cpp)
+
+Another good place to start with coding is a tutorial:
+
+- [Create a Node.js and Express app in Visual Studio](../javascript/tutorial-nodejs.md)
 
 ## See also
 
