@@ -87,7 +87,7 @@ To get the latest bootstrappers for Visual Studio 2022 that will always install 
 
 ::: moniker-end
 
-The Visual Studio installer can be found here: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`. Note that you can't initiate the installer programmatically from same directory that the installer resides in.   
+The Visual Studio Installer can be found here: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`. Note that you can't initiate the installer programmatically from same directory that the installer resides in.   
 
 ## Install, Update, Modify, Repair, Uninstall, and Export commands and command-line parameters
 
