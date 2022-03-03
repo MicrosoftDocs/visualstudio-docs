@@ -148,9 +148,7 @@
   - name: "C#: Create a console app"
     href: get-started/csharp/tutorial-console.md
   - name: "Visual Basic: Create a console app"
-    href: get-started/visual-basic/tutorial-console.md    
-  - name: "Node.js: Create a web app"
-    href: ide/quickstart-nodejs.md
+    href: get-started/visual-basic/tutorial-console.md
 - name: Tutorials
   expanded: true
   items:
@@ -890,8 +888,6 @@
       href: ide/visual-studio-performance-tips-and-tricks.md
 - name: Accessibility
   items:
-  - name: Manage accessibility features
-    href: ide/reference/accessibility-features-of-visual-studio.md
   - name: Set IDE accessibility options
     href: ide/reference/how-to-set-ide-accessibility-options.md
   - name: Accessibility tips and tricks

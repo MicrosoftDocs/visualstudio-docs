@@ -25,6 +25,8 @@
       href: migration/removed-api-list.md
     - name: Migrated PIA
       href: migration/migrated-assemblies.md
+    - name: VS SDK messages
+      href: vssdk-messages/index.md
   - name: What's New Visual Studio 2019 SDK
   # Auto-expanded node
     items:
@@ -520,6 +522,8 @@
       href: best-practices-design-brokered-service.md
     - name: Secure a Brokered Service
       href: how-to-secure-brokered-service.md
+    - name: Troubleshoot Brokered Services
+      href: how-to-troubleshoot-brokered-services.md
   - name: Manage VSPackages
   # Auto-expanded node
     items:
