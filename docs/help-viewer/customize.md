@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "Help Viewer, Viewer Options"
   - "Viewer Options [Help Viewer]"
 ms.assetid: 9c0bc950-7323-4f0f-8de2-0b0af9a42b85
-author: ghogen
-ms.author: ghogen
+author: jasonchlus
+ms.author: jasonchlus
 manager: jmartens
 ms.technology: vs-help-viewer
 ms.workload:
