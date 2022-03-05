@@ -1,7 +1,7 @@
 ---
 title: Create a branch
 description: Create a branch for source control in Visual Studio with Git.
-ms.date: 11/10/2021
+ms.date: 03/03/2022
 ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
@@ -36,4 +36,4 @@ There you have it; you've created a new branch.
 
 ## Next steps
 
-To continue your journey, visit the [Make a commit](git-make-commit.md) page.
+To continue your journey, visit the [Make a commit](git-make-commit.md) page. And to learn more about how to manage branches in Visual Studio, see [Merge and rebase branches](git-manage-repository.md#merge-and-rebase-branches).

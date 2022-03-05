@@ -67,6 +67,7 @@ MSBuild.exe [Switches] [ProjectFile]
 |-version|-ver|Display version information only. The project isn't built.|
 |@`file`||Insert command-line switches from a text file. If you have multiple files, you specify them separately. For more information, see [Response files](../msbuild/msbuild-response-files.md).|
 |-warnAsError[:`code`[`;code2`]|-err[`:code`[`;code2`]|List of warning codes to treats as errors.  Use a semicolon or a comma to separate multiple warning codes. To treat all warnings as errors, use the switch with no values. When a warning is treated as an error the target continues to execute as if it was a warning but the overall build fails.<br/><br/>Example: `-err:MSB4130`|
+|-warnNotAsError[:`code`[`;code2`]|-noerr[`:code`[`;code2`]|List of warning codes that should not be promoted to errors. Specifically, if the warnAsError switch is set to promote all warnings to errors, error codes specified with warnNotAsError are not promoted. This has no effect if warnAsError is not set to promote all warnings to errors. Use a semicolon or a comma to separate multiple warning codes. <br/><br/>Example: `-noerr:MSB4130`|
 |-warnAsMessage[:`code`[`;code2`]|-noWarn[:`code`[`;code2`]|List of warning codes to treats as low importance messages.  Use a semicolon or a comma to separate multiple warning codes.<br/><br/>Example: `-noWarn:MSB3026`|
 
 ### Switches for loggers
