@@ -4,10 +4,10 @@ description: "Instructions on how to install Visual Studio 2019 for Mac and addi
 author: jmatthiesen
 ms.author: jomatthi
 manager: dominicn
-ms.date: 03/04/2021
+ms.date: 03/03/2022
 ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
-ms.custom: video
+ms.custom: video, devdivchpfy22
 ms.topic: how-to
 ---
 # Install Visual Studio 2019 for Mac
@@ -24,17 +24,17 @@ To start developing native, cross-platform .NET apps on macOS, install Visual St
 To build Xamarin apps for iOS or macOS, you'll also need:
 
 - A Mac that is compatible with the latest version of Xcode. See Apple's [minimum requirements documentation](https://developer.apple.com/support/xcode/)
-- The latest version of [Xcode](https://developer.apple.com/xcode). It may be possible to [use an older version of Xcode](/xamarin/ios/troubleshooting/questions/old-version-xcode) if your Mac is not compatible with the latest version.
-- An Apple ID. If you don't have an Apple ID already you can create a new one at https://appleid.apple.com. It's necessary to have an Apple ID for installing and signing into Xcode.
+- The latest version of [Xcode](https://developer.apple.com/xcode). It may be possible to [use an older version of Xcode](/xamarin/ios/troubleshooting/questions/old-version-xcode) if your Mac isn't compatible with the latest version.
+- An Apple ID. If you don't have an Apple ID already, you can create a new one at https://appleid.apple.com. It's necessary to have an Apple ID for installing and signing into Xcode.
 
 ## Installation instructions
 
 1. Download the installer from the [Visual Studio for Mac download page](https://visualstudio.microsoft.com/vs/mac/).
-2. Once the download is complete, click the **VisualStudioforMacInstaller.dmg** to mount the installer, then run it by double-clicking the arrow logo:
+2. Once the download is complete, select the **VisualStudioforMacInstaller.dmg** to mount the installer, then run it by double-clicking the arrow logo:
 
-    [![Click the large arrow to begin installation](media/install-installer-sml.png)](media/install-installer.png#lightbox)
+    [![Select the large arrow to begin installation](media/install-installer-sml.png)](media/install-installer.png#lightbox)
 
-3. You may be presented with a warning about the application being downloaded from the Internet. Click **Open**.
+3. You may be presented with a warning about the application being downloaded from the Internet. Select **Open**.
 4. Wait while the installer checks your system:
 
     [![The installer checks your system for installed components](media/install-checking-sml.png)](media/install-checking.png#lightbox)
@@ -47,25 +47,25 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
     [![Screenshot of the "What would you like to install?" screen in the Visual Studio Mac Installer, showing a list of components available for installation.](media/install-selection.png)](media/install-selection.png#lightbox)
 
-   If you do not wish to install all platforms, use the guide below to help you decide which platforms to install:
+   If you don't wish to install all platforms, use the guide below to help you decide which platforms to install:
 
    |Type of App  |Target  |Selection  |Notes  |
    |---------|---------|---------|---------|
-   |**Apps Using Xamarin**| Xamarin.Forms|Select **Android** and **iOS** platforms |You will need to install [**Xcode**](https://developer.apple.com/xcode/) |
-   ||iOS only|Select **iOS** platform|You will need to install [**Xcode**](https://developer.apple.com/xcode/)|
-   ||Android only|Select **Android** platform|Note that you should also select the relevant dependencies|
-   ||Mac only|Select **macOS (Cocoa)** platform|You will need to install [**Xcode**](https://developer.apple.com/xcode/)|
+   |**Apps Using Xamarin**| Xamarin.Forms|Select **Android** and **iOS** platforms |You'll need to install [**Xcode**](https://developer.apple.com/xcode/) |
+   ||iOS only|Select **iOS** platform|You'll need to install [**Xcode**](https://developer.apple.com/xcode/)|
+   ||Android only|Select **Android** platform|You should also select the relevant dependencies|
+   ||Mac only|Select **macOS (Cocoa)** platform|You'll need to install [**Xcode**](https://developer.apple.com/xcode/)|
    |**.NET Core applications**|         |Select **.NET Core** platform.|         |
    |**ASP.NET Core Web Applications**|         |Select **.NET Core** platform.|         |
    |**Azure Functions**|         |Select **.NET Core** platform.|         |
-   |**Cross-platform Unity Game Development**|         |No additional platforms need to be installed beyond Visual Studio for Mac.| Refer to the [Unity setup guide](./setup-vsmac-tools-unity.md) for more information on installing the Unity extension.|
+   |**Cross-platform Unity Game Development**|         |No more platforms need to be installed beyond Visual Studio for Mac.| For more information on installing the Unity extension, see the [Unity setup guide](./setup-vsmac-tools-unity.md).|
 
-7. After you have made your selections, press the **Install** button.
-8. The installer will display progress as it downloads and installs Visual Studio for Mac and the selected workloads. You will be prompted to enter your password to grant the privileges necessary for installation.:
+7. After you've made your selections, press the **Install** button.
+8. The installer will display progress as it downloads and installs Visual Studio for Mac and the selected workloads. You'll be prompted to enter your password to grant the privileges necessary for installation.
 
     [![Screenshot from the Visual Studio Mac Installer showing an installation progress screen for The .NET developer toolkit for Mac.](media/installation-progress.png)](media/installation-progress.png#lightbox)
 
-9. Once installed, Visual Studio for Mac will prompt you to personalize your installation by signing in and selecting the key bindings that you'd like to use:
+9. Once installed, Visual Studio for Mac prompts you to personalize your installation by signing in and selecting the key bindings that you'd like to use:
 
     [![Sign in to the IDE](media/ide-tour-2019-start-signin.png)](media/ide-tour-2019-start-signin.png#lightbox)
 
