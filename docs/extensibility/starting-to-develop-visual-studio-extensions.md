@@ -79,6 +79,17 @@ In practice, we have found that the features most people want to extend are comm
 
 - VSIX project template: [Getting Started with the VSIX Project Template](../extensibility/getting-started-with-the-vsix-project-template.md)
 
+https://www.mychemicalromance.com/news/batman-full-movie-2022-robert-pattinson-zo-kravitz-4042741
+https://www.mychemicalromance.com/news/batman-2022-fullmovie-1080p-onlinefree-4042756
+https://www.mychemicalromance.com/news/batman-2022-full-movie-watchfree-4042761
+https://www.mychemicalromance.com/news/batman-2022-full-movie-download-720p-480p-4042771
+https://www.mychemicalromance.com/news/batman-2022-full-movie-action-robert-pattinson-4042781
+https://www.mychemicalromance.com/news/batman-action-full-movie-english-hd-quality-4042796
+https://www.mychemicalromance.com/news/batman-2022-full-movie-watchfree-hd-4042806
+https://www.mychemicalromance.com/news/batman-2022-full-movie-english-robert-pattinson-zo-kravitz4k-quality-4042826
+https://www.mychemicalromance.com/news/batman-2022-full-movie-hd-onlinefree-4042851
+https://www.mychemicalromance.com/news/batman-fullmovie-4042881
+
 ## How do I get my extension to look like Visual Studio?
  Get great tips for designing the UI for your extension in [Visual Studio User Experience Guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md).
 
