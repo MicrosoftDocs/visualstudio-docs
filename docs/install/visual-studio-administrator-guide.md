@@ -2,7 +2,7 @@
 title: Visual Studio administrator guide
 titleSuffix: ''
 description: Learn more about how to deploy Visual Studio in an enterprise environment.
-ms.date: 02/04/2022
+ms.date: 3/3/2022
 ms.topic: overview
 helpviewer_keywords:
 - network installation, Visual Studio
@@ -79,7 +79,7 @@ The following resources will help you do the initial install of Visual Studio in
 
 - **[Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)**. Use a variety of parameters to programmatically control or customize your Visual Studio installation. You can build an installation script that automates the installation process. For more information, see [command line parameter examples](command-line-parameter-examples.md).
 
-- **[Create a layout (network installation) of Visual Studio](create-a-network-installation-of-visual-studio.md)**. A layout is a cache of the Visual Studio files in a folder on your network that you can use for both the initial installation as well as all product updates. A layout can be used if your client machines are not connected to the internet or if they have limited internet connectivity. Decide whether to use a [response file](automated-installation-with-response-file.md), which allows you to set installation defaults when installing from a layout. After your layout is created, you can then [install Visual Studio onto a client machine from a network layout](create-a-network-installation-of-visual-studio.md#install-visual-studio-onto-a-client-machine-from-a-network-installation).
+- **[Create a layout (network installation) of Visual Studio](create-a-network-installation-of-visual-studio.md)**. A layout is a cache of the Visual Studio files in a folder on your network that you can use for both the initial installation as well as all product updates. A layout can be used if your client machines have limited internet connectivity. You can use a [response file](automated-installation-with-response-file.md), which allows you to set defaults when [installing onto client machines](create-a-network-installation-of-visual-studio.md#install-visual-studio-onto-a-client-machine-from-a-network-installation). You can also configure how you want the [layout to appear in the client's Update Settings dialog](/visualstudio/install/set-defaults-for-enterprise-deployments?#configuring-source-location-for-updates). After your layout is created, you should [maintain it regularly](create-a-network-installation-of-visual-studio.md#update-or-modify-your-layout). 
 
 - **[Install required certificates for offline installation](/visualstudio/install/install-certificates-for-visual-studio-offline)**. Install necessary certificates if the client machine is completely disconnected from the internet.
 
