@@ -59,4 +59,3 @@ You can edit a run setting's **Timing Details Storage** property's value in the 
 ## See also
 
 - [Analyze virtual user activity in the Details view](../test/analyze-load-test-virtual-user-activity-in-the-details-view.md)
-- [Walkthrough: Using the Virtual User Activity Chart to isolate issues](../test/walkthrough-use-the-virtual-user-activity-chart-to-isolate-issues.md)

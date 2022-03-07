@@ -2,7 +2,7 @@
 title: Options, Text Editor, General
 description: Learn how to use the General page to change global settings for the Visual Studio code and text editor.
 ms.custom: SEO-VS-2020
-ms.date: 11/15/2021
+ms.date: 02/25/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor
@@ -101,13 +101,22 @@ Select this check box to display the element's definition in a window without na
 
 ## Display
 
-The Display section of **Tools** > **Option**s > **Text Editor** > **General** includes the following options.
+The Display section of **Tools** > **Options** > **Text Editor** > **General** includes the following options.
 
 ::: moniker range=">=vs-2019"
 
 ### View whitespace
 
 When selected, you can visualize spaces and tabs.
+
+### Show bidirectional text control characters
+
+When selected, all bidirectional text control characters will be rendered as placeholders in the code editor.
+
+> [!CAUTION]
+> This option is selected by default to prevent a potentially malicious exploit that allows code to be misrepresented.
+>
+> First introduced in [Visual Studio 2019 version 16.11.8](/visualstudio/releases/2019/release-notes#release-notes-icon-visual-studio-2019-version-16118), this option makes sure that the Visual Studio editor no longer allows bidirectional text control characters to manipulate the order of characters in the code editor. The bidirectional text control characters are still present in the code.
 
 ::: moniker-end
 

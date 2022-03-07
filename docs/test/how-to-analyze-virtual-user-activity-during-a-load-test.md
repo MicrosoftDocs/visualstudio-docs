@@ -103,4 +103,3 @@ The procedures below demonstrate how to view the **Virtual User Activity Chart**
 ## See also
 
 - [Analyze virtual user activity in the Details view](../test/analyze-load-test-virtual-user-activity-in-the-details-view.md)
-- [Walkthrough: Using the virtual user activity chart to isolate issues](../test/walkthrough-use-the-virtual-user-activity-chart-to-isolate-issues.md)

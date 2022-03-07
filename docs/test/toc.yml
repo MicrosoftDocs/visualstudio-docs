@@ -130,8 +130,6 @@
   - name: Introduction
     displayName: Live Unit Testing introduction
     href: live-unit-testing-intro.md
-  - name: What's new
-    href: live-unit-testing-whats-new.md
   - name: Get started
     href: live-unit-testing-start.md
   - name: Configure and use
@@ -334,8 +332,6 @@
         href: analyze-load-test-virtual-user-activity-in-the-details-view.md
       - name: Analyze virtual user activity
         href: how-to-analyze-virtual-user-activity-during-a-load-test.md
-      - name: "Walkthrough: Use the activity chart"
-        href: walkthrough-use-the-virtual-user-activity-chart-to-isolate-issues.md
     - name: Threshold rule violations
       href: analyze-threshold-rule-violations-in-load-tests.md
     - name: Compare results and analyze trends
