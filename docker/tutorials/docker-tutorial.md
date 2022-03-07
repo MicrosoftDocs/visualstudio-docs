@@ -13,7 +13,7 @@ ms.custom: template-tutorial
 
 # Tutorial: Create and share a Docker app with Visual Studio Code
 
-This tutorial is the beginning of a three part series introducing Docker using Visual Studio Code (VS Code).
+This tutorial is the beginning of a three-part series introducing Docker using Visual Studio Code (VS Code).
 You'll learn to create and run containers, persist data, and deploy your containerized application to Azure.
 
 In this first tutorial, you'll learn to create and deploy Docker apps.

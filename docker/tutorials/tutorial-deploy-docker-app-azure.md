@@ -11,7 +11,7 @@ ms.custom: template-tutorial
 # Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---
 
-# Tutorial: Deploy your Docker app to the Azure cloud
+# Tutorial: Deploy your Docker app to Azure
 
 In this tutorial, you'll learn to run your containerized application in the cloud.
 Other people can access it and make use of it.
@@ -107,7 +107,7 @@ After you create a context in Azure, you can run your container in the cloud.
 
 ## Clean up resources
 
-Keep everything that you've done so far to continue with a bonus tutorial, below.
+Keep everything that you've done so far to continue with an additional tutorial, below.
 
 The prerequisites you used in this tutorial series can be used for future Docker development.
 Except for the test container you added to Azure, there's no reason to delete or uninstall anything.
@@ -141,7 +141,7 @@ Learn more about using the VS Code Docker Extension:
 - [Get started with .NET Core](https://code.visualstudio.com/docs/containers/quickstart-aspnet-core)
 - [Debug containerized apps](https://code.visualstudio.com/docs/containers/debug-common)
 
-You might be interested in this bonus tutorial:
+You might be interested in this optional tutorial, which builds on the current series of tutorials:
 
 > [!div class="nextstepaction"]
 > [Create multi-container apps with MySQL and Docker Compose](tutorial-multi-container-app-mysql.md)

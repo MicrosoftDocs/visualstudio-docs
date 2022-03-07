@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Multi-container apps with MySQL & Docker Compose"
-description: In this bonus tutorial, learn how to create multi-container apps with MySQL and Docker Compose. Use multiple containers to scale your project.
+description: In this tutorial, learn how to create multi-container apps with MySQL and Docker Compose. Use multiple containers to scale your project.
 author: ucheNkadiCode
 ms.author: uchen
 ms.prod: vs-code
@@ -13,7 +13,7 @@ ms.custom: template-tutorial
 
 # Tutorial: Create multi-container apps with MySQL and Docker Compose
 
-In this bonus tutorial, you'll learn about multi-container apps.
+In this tutorial, you'll learn about multi-container apps.
 Using more than one container allows you to specialize containers for different tasks.
 Each container should do one thing and do it well.
 
@@ -38,7 +38,7 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-This bonus tutorial continues set of tutorials, starting with [Create and share a Docker app with Visual Studio Code](docker-tutorial.md).
+This tutorial continues the series of tutorials, starting with [Create and share a Docker app with Visual Studio Code](docker-tutorial.md).
 Start with that one, which includes prerequisites.
 Then do these tutorials:
 
@@ -500,7 +500,7 @@ There's no reason to delete or uninstall anything.
 
 ## Next steps
 
-In this bonus tutorial, you learned about multi-container apps and Docker Compose.
+In this tutorial, you learned about multi-container apps and Docker Compose.
 Docker Compose helps dramatically simplify the defining and sharing of multi-service applications.
 
 Here are some resources that might be useful to you:

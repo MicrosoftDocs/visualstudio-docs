@@ -1,11 +1,11 @@
 - name: Docker tutorial for VS Code users
   expanded: true
   items:
-  - name: "1. Create a Docker app with Visual Studio Code"
+  - name: "1. Create a container app with Docker and VS Code"
     href: tutorials/docker-tutorial.md
-  - name: "2. Deploy a Docker app to Azure"
+  - name: "2. Persist data in a container app with VS Code"
     href: tutorials/tutorial-persist-data-layer-docker-app-with-vscode.md
-  - name: "3. Deploy your Docker app to the Azure cloud"
+  - name: "3. Deploy your Docker app to Azure"
     href: tutorials/tutorial-deploy-docker-app-azure.md
   - name: "Bonus:  Create multi-container apps"
     href: tutorials/tutorial-multi-container-app-mysql.md
