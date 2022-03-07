@@ -177,7 +177,7 @@ The `CMD` value in the *Dockerfile* specifies the default command to run when st
 
 The `.` at the end of the `docker build` command tells that Docker should look for the *Dockerfile* in the current directory.
 
-## Starting your app container
+## Start your app container
 
 Now that you have an image, you can run the application.
 
