@@ -58172,7 +58172,7 @@
     {
       "source_path": "docker/tutorials/use-docker-compose.md",
       "redirect_url": "/visualstudio/docker/tutorials/tutorial-multi-container-app-mysql",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "docker/tutorials/multi-container-apps.md",
