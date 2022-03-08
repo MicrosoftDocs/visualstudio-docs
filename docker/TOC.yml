@@ -7,5 +7,5 @@
     href: tutorials/tutorial-persist-data-layer-docker-app-with-vscode.md
   - name: "3. Deploy your Docker app to Azure"
     href: tutorials/tutorial-deploy-docker-app-azure.md
-  - name: "Bonus:  Create multi-container apps"
+  - name: "Tutorial: Create multi-container apps"
     href: tutorials/tutorial-multi-container-app-mysql.md

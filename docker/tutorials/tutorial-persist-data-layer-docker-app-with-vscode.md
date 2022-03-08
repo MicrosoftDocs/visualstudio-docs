@@ -190,10 +190,6 @@ You can use a bind mount to mount source code into the container to let it see c
 
 To run your container to support a development workflow, you'll take the following steps:
 
-- Mount your source code into the container.
-- Install all dependencies, including the dev dependencies.
-- Start `nodemon` to watch for filesystem changes.
-
 1. Remove any `getting-started` containers.
 
 1. In the `app` folder, run the following command.
