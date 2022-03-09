@@ -169,7 +169,7 @@ Installing Visual Studio for Mac allows you to start writing code for your apps.
 ### iOS
 
 - [Hello, iOS](/xamarin/ios/get-started/hello-ios/)
-- [Device Provisioning](/xamarin/ios/get-started/installation/device-provisioning/)(To run your application on device).
+- [Device Provisioning](/xamarin/ios/get-started/installation/device-provisioning/) (To run your application on device)
 
 ### Android
 
