@@ -81,6 +81,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/reference/accessibility-features-of-visual-studio.md",
+      "redirect_url": "/visualstudio/ide/how-to-change-fonts-and-colors-in-visual-studio#accessibility-options",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/convert-dialog-box.md",
       "redirect_url": "/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects",
       "redirect_document_id": false
@@ -45938,6 +45943,11 @@
     {
       "source_path": "docs/ide/step-8-customize-the-quiz.md",
       "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-customize-ui",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/quickstart-nodejs.md",
+      "redirect_url": "/visualstudio/javascript/tutorial-nodejs",
       "redirect_document_id": false
     },
     {

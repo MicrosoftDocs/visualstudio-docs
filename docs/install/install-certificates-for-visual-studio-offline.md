@@ -1,7 +1,7 @@
 ---
 title: Install certificates for an offline installation
 description: Learn how to install certificates for a Visual Studio offline installation.
-ms.date: 03/29/2021
+ms.date: 3/3/2022
 ms.topic: how-to
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -111,7 +111,7 @@ If the certificates names were not in the **Issued To** columns, they must be in
 
 ## Install Visual Studio
 
-After you install the certificates on the client machine, then you are ready to [install Visual Studio from the local cache](../install/create-an-offline-installation-of-visual-studio.md#step-3---install-visual-studio-from-the-local-cache), or [deploy Visual Studio from the network layout share](create-a-network-installation-of-visual-studio.md#install-visual-studio-onto-a-client-machine-from-a-network-installation) to the client machine.
+After you install the certificates on the client machine, then you are ready to [install Visual Studio from the local layout](../install/create-an-offline-installation-of-visual-studio.md#step-3---install-visual-studio-from-the-local-layout), or [deploy Visual Studio from the network layout share](create-a-network-installation-of-visual-studio.md#install-visual-studio-onto-a-client-machine-from-a-network-installation) to the client machine.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
