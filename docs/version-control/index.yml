@@ -45,13 +45,25 @@ landingContent:
           - text: Fetch, pull, and sync
             url: git-fetch-pull-sync.md
 
+# Card
+  - title: Repo management
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Browse repos & compare branches
+            url:  git-browse-repository.md
+          - text: Manage repos
+            url:  git-manage-repository.md
+          - text: Resolve merge conflicts
+            url:  git-resolve-conflicts.md
+          - text: Git settings & preferences
+            url: git-settings.md
+  
   # Card
   - title: Reference
     linkLists:
       - linkListType: reference
         links:
-          - text: Git settings & preferences
-            url: git-settings.md
           - text: Compare Git & Team Explorer
             url: git-team-explorer-feature-comparison.md
           - text: Become a master at Git & open source (blog)
@@ -62,21 +74,11 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
-          - text: Visual Studio 2022 Preview 17.2 Blog
+          - text: Recent preview blog
             url: https://devblogs.microsoft.com/visualstudio/line-staging-interactive-staging/
-          - text: Visual Studio 2022 release notes
+          - text: Release notes
             url: /visualstudio/releases/2022/release-notes-preview
           - text: Videos and more...
             url: https://visualstudio.microsoft.com/vs/github/
 
-  # Card
-  - title: Repo management
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Browse a repo
-            url:  git-browse-repository.md
-          - text: Manage a repo
-            url:  git-manage-repository.md
-          - text: Resolve merge conflicts
-            url:  git-resolve-conflicts.md
+
