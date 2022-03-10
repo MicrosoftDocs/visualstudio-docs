@@ -1,7 +1,7 @@
 ---
 title: Learn about Solution Explorer
 description: Learn how you can use the Solution Explorer tool window in Visual Studio to create & manage your files, projects, and solutions.
-ms.date: 09/30/2021
+ms.date: 03/10/2022
 ms.topic: conceptual
 ms.custom: contperf-fy22q1
 helpviewer_keywords:
@@ -72,7 +72,7 @@ What you see in the context menu from the **Solution** node also depends on your
 
 ## Add menu
 
-In the Solution Explorer context menu, one of the most useful options is the **Add** fly-out menu. From it, you can [add another project](../get-started/csharp/tutorial-console-part-2.md#add-another-project) to a solution. You can also [add an item](reference/add-new-item-command.md) to a project, and more.
+In the Solution Explorer context menu, one of the most useful options is the **Add** fly-out menu. From it, you can [add another project](../get-started/csharp/tutorial-console-part-2.md#add-another-project) to a solution. You can also add an item to a project, and more.
 
 :::image type="content" source="media/solution-explorer-context-menu-add-flyout.png" alt-text="Screenshot of the Add fly-out menu from the right-click context menu in Solution Explorer.":::
 

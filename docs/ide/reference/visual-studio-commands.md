@@ -1,8 +1,8 @@
 ---
 title: Commands
-description: Learn about the various commands you have access to in Visual Studio. 
+description: Learn about the various commands you have access to in Visual Studio.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 03/10/2022
 ms.topic: reference
 helpviewer_keywords:
 - Visual Studio, commands
@@ -44,7 +44,6 @@ The following commands take arguments or switches:
 | - | - |
 | [Add Existing Item](../../ide/reference/add-existing-item-command.md) | Adds an existing file to the current solution and opens it. |
 | [Add Existing Project](../../ide/reference/add-existing-project-command.md) | Adds an existing project to the current solution. |
-| [Add New Item](../../ide/reference/add-new-item-command.md) | Adds a new solution item, such as an .htm, .css, .txt, or frameset to the current solution and opens it. |
 | [Alias](../../ide/reference/alias-command.md) | Creates a new alias for a complete command, complete command and arguments, or even another alias. |
 | [Evaluate Statement](../../ide/reference/evaluate-statement-command.md) | Evaluates and displays the given statement. |
 | [Find](../../ide/reference/find-command.md) | Searches files using a subset of the options available on the **Find and Replace** control. |
