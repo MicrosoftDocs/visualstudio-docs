@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot network or proxy errors
 description: Find solutions for network- or proxy-related errors that you might encounter when you install or use Visual Studio behind a firewall or a proxy server.
-ms.date: 10/29/2019
+ms.date: 09/16/2020
 ms.topic: troubleshooting
 helpviewer_keywords:
 - network installation, Visual Studio
