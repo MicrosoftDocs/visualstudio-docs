@@ -91,6 +91,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/reference/add-new-item-command.md",
+      "redirect_url": "/visualstudio/get-started/tutorial-projects-solutions#add-an-item-to-the-project",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/keyboard-environment-options-dialog-box.md",
       "redirect_url": "/visualstudio/ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio",
       "redirect_document_id": false
