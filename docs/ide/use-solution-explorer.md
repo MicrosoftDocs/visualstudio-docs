@@ -4,8 +4,6 @@ description: Learn how you can use the Solution Explorer tool window in Visual S
 ms.date: 09/30/2021
 ms.topic: conceptual
 ms.custom: contperf-fy22q1
-f1_keywords:
-- vs.addnewitem
 helpviewer_keywords:
 - solution explorer [Visual Studio]
 author: TerryGLee
