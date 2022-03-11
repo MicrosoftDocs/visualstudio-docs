@@ -65,6 +65,8 @@ The syntax for running *vstest.console.exe* is:
 
 `vstest.console.exe [TestFileNames] [Options]`
 
+The command returns `true` if it is successful.
+
 The following command runs *vstest.console.exe* for the test library *myTestProject.dll*:
 
 ```cmd
