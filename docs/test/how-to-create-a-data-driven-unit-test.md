@@ -168,6 +168,22 @@ If you ran the `AddIntegers_FromDataSourceTest` method in our example, the resul
 
 When the method under test is corrected and the test rerun, the results bar turns green and the test method is moved to the **Passed Test** group.
 
+## Run an inline data-driven test
+
+For inline tests, MSTest uses `DataRow` to retrieve values from a data source. The test in this example runs successively for each data row.
+
+```csharp
+[DataTestMethod]
+[DataRow(1, 1, 2)]
+[DataRow(2, 2, 4)]
+[DataRow(3, 3, 6)]
+[DataRow(0, 0, 1)] // The test run with this row fails
+public void AddTests(int x, int y, int expected)
+{
+  Assert.AreEqual(expected, x + y);
+}
+```
+
 ## See also
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute?displayProperty=fullName>
