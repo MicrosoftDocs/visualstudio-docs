@@ -2,7 +2,7 @@
 title: VSTest.Console.exe command-line options
 description: Learn about the VSTest.Console.exe command-line tool that runs tests. This article includes the General command-line options.
 ms.custom: SEO-VS-2020
-ms.date: 07/17/2020
+ms.date: 03/11/2022
 ms.topic: reference
 helpviewer_keywords:
 - vstest.console.exe
@@ -101,4 +101,12 @@ Example of a generated *sequence.xml* file:
   <Test Name="TestProject.UnitTest1.TestMethodB" Source="D:\repos\TestProject\TestProject\bin\Debug\TestProject.dll" />
   <Test Name="TestProject.UnitTest1.TestMethodA" Source="D:\repos\TestProject\TestProject\bin\Debug\TestProject.dll" />
 </TestSequence>
+```
+
+## UWP example
+
+For UWP, the appxrecipe file must be referenced instead of a DLL.
+
+```cmd
+vstest.console.exe /Logger:trx /Platform:x64 /framework:frameworkuap10 UnitTestsUWP\bin\x64\Release\UnitTestsUWP.build.appxrecipe
 ```
