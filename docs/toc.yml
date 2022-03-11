@@ -904,8 +904,6 @@
       href: ide/reference/add-existing-item-command.md
     - name: Add Existing Project command
       href: ide/reference/add-existing-project-command.md
-    - name: Add New Item command
-      href: ide/reference/add-new-item-command.md
     - name: Alias command
       href: ide/reference/alias-command.md
     - name: Evaluate Statement command
