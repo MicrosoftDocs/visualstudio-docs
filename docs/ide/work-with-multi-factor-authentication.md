@@ -1,7 +1,7 @@
 ---
 title: Multi-factor authentication with Visual Studio sign-ins
 titleSuffix: "" 
-ms.date: 01/24/2020
+ms.date: 01/25/2022
 ms.custom: SEO-VS-2022
 ms.topic: how-to
 description: "Learn how to use Visual Studio with accounts that require multi-factor authentication (MFA)."
