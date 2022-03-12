@@ -189,9 +189,6 @@ Start with some basic integer math in C#.
 
     Notice that when you do so, the IntelliSense feature in Visual Studio offers you the option to autocomplete the entry.
 
-    > [!NOTE]
-    > The following animation isn't intended to duplicate the preceding code. It's intended only to show how the autocomplete feature works.
-
     ![Animation of integer math code that shows the IntelliSense autocomplete feature in the Visual Studio IDE.](./media/integer-math-intellisense.gif)
 
 1. Choose the green **Start** button next to **Calculator** to build and run your program, or press **F5**.
@@ -225,9 +222,6 @@ Start with some basic integer math in C#.
    ```
 
     If you type the code, the Visual Studio IntelliSense feature offers you the option to autocomplete the entry.
-
-    > [!NOTE]
-    > The following animation isn't intended to demonstrate the preceding code, but only to show how IntelliSense works.
 
     ![Animation of integer math code that shows the IntelliSense autocomplete feature in the Visual Studio IDE.](media/vs-2022/integer-math-intellisense.gif)
 
