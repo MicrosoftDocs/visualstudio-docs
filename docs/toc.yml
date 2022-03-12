@@ -140,18 +140,12 @@
       href: install/build-tools-container-issues.md
   - name: Install Help Viewer
     href: help-viewer/installation.md
-- name: Quickstarts
-  items:
-  - name: Visual Studio orientation
-    displayName: Feature tour
-    href: ide/quickstart-ide-orientation.md
-  - name: "C#: Create a console app"
-    href: get-started/csharp/tutorial-console.md
-  - name: "Visual Basic: Create a console app"
-    href: get-started/visual-basic/tutorial-console.md
 - name: Tutorials
   expanded: true
   items:
+  - name: Visual Studio IDE
+    displayName: Feature tour
+    href: ide/quickstart-ide-orientation.md
   - name: C++ >>
     href: /cpp/get-started/tutorial-console-cpp
   - name: C#  >>
@@ -910,8 +904,6 @@
       href: ide/reference/add-existing-item-command.md
     - name: Add Existing Project command
       href: ide/reference/add-existing-project-command.md
-    - name: Add New Item command
-      href: ide/reference/add-new-item-command.md
     - name: Alias command
       href: ide/reference/alias-command.md
     - name: Evaluate Statement command
