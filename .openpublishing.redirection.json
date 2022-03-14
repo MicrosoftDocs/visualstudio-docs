@@ -58130,6 +58130,56 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docker/tutorials/your-application.md",
+      "redirect_url": "/visualstudio/docker/tutorials/docker-tutorial",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docker/tutorials/update-your-app.md",
+      "redirect_url": "/visualstudio/docker/tutorials/docker-tutorial",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docker/tutorials/share-your-app.md",
+      "redirect_url": "/visualstudio/docker/tutorials/docker-tutorial",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docker/tutorials/persist-your-data.md",
+      "redirect_url": "/visualstudio/docker/tutorials/tutorial-persist-data-layer-docker-app-with-vscode",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docker/tutorials/use-bind-mounts.md",
+      "redirect_url": "/visualstudio/docker/tutorials/tutorial-persist-data-layer-docker-app-with-vscode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docker/tutorials/image-building-best-practices.md",
+      "redirect_url": "/visualstudio/docker/tutorials/tutorial-persist-data-layer-docker-app-with-vscode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docker/tutorials/deploy-to-cloud.md",
+      "redirect_url": "/visualstudio/docker/tutorials/tutorial-deploy-docker-app-azure",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docker/tutorials/whats-next.md",
+      "redirect_url": "/visualstudio/docker/tutorials/tutorial-deploy-docker-app-azure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docker/tutorials/use-docker-compose.md",
+      "redirect_url": "/visualstudio/docker/tutorials/tutorial-multi-container-app-mysql",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docker/tutorials/multi-container-apps.md",
+      "redirect_url": "/visualstudio/docker/tutorials/tutorial-multi-container-app-mysql",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "docs/ide/quickstart-fsharp.md",
       "redirect_url": "/visualstudio/get-started/tutorial-fsharp-web-app",
       "redirect_document_id": true
