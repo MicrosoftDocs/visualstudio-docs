@@ -18,19 +18,12 @@ On Apple Silicon machines (also known as M1 or ARM) with older x64 SDKs installe
 
 ## Uninstall .NET from your machine: 
 
-1. Download the [uninstall script](https://github.com/dotnet/sdk/blob/main/scripts/obtain/uninstall/dotnet-uninstall-pkgs.sh) from the .NET GitHub repository by right-clicking on the script and selecting **Save As** to save the file to your Mac.
-2. Open Terminal and change the working directory to where the script was downloaded:
+Use this [uninstall script](https://github.com/dotnet/sdk/blob/main/scripts/obtain/uninstall/dotnet-uninstall-pkgs.sh) to remove all existing .NET installations. Open Terminal and run the following:
  
-    ```bash
-    cd /location/of/file
-    ```
-3. Make the script executable and then run it with **sudo**:
-
-    ```bash
-    chmod +x dotnet-uninstall-pkgs.sh 
-    sudo ./dotnet-uninstall-pkgs.sh
-    sudo rm -r /etc/dotnet
-    ```  
+```bash
+sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/dotnet/sdk/main/scripts/obtain/uninstall/dotnet-uninstall-pkgs.sh)"
+sudo rm -r /etc/dotnet
+```
 
 ## Install supported .NET SDKs
 
