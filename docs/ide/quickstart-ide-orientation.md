@@ -1,5 +1,5 @@
 ---
-title: "Quickstart: Tour of the Visual Studio IDE"
+title: "Tutorial: Tour of the Visual Studio IDE"
 description: Learn about some of the windows, menus, and other UI features of the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
 titleSuffix: ''
@@ -12,7 +12,7 @@ ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
-# Quickstart: First look at the Visual Studio IDE
+# Tutorial: First look at the Visual Studio IDE
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), we'll take a tour of some of the windows, menus, and other UI features.
 
