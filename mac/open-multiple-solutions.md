@@ -4,15 +4,15 @@ description: Learn how to open more than one solution in Visual Studio for Mac, 
 author: jmatthiesen
 ms.author: jomatthi
 manager: dominicn
-ms.date: 11/09/2020
+ms.date: 02/28/2022
+ms.custom: video,devdivchpfy22
 ms.assetid: 592BA4E3-8DEF-4FCD-8BA0-519A4CEEE03E
-ms.custom: video
 ms.topic: how-to
 ---
 
 # Open multiple solutions or instances of Visual Studio for Mac
 
-By default, all applications on a Mac, including Visual Studio for Mac, are _single-instance_ apps. This means that if the application you want to use is already open (illustrated by a dot under the icon in the dock), selecting the icon again opens the running instance, rather than a new one. If you require additional instances of the application, you can prompt the system to open it for you, as described in the [next section](#open-a-second-instance-of-visual-studio-for-mac).
+By default, all applications on a Mac, including Visual Studio for Mac, are _single-instance_ apps. If the application you want to use is already open (illustrated by a dot under the icon in the dock), selecting the icon again opens the running instance, rather than a new one. If you require more instances of the application, you can prompt the system to open it for you, as described in the [next section](#open-a-second-instance-of-visual-studio-for-mac).
 
 In addition, when you open a solution, the default behavior is to open the solution in a new workspace and close the current workspace (if necessary). You can override this default behavior by keeping the current workspace open, as described in the [Open a second solution](#open-a-second-solution-inside-a-single-instance) section.
 

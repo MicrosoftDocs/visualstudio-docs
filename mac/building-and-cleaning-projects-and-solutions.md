@@ -4,7 +4,8 @@ description: "This article describes how to build a project in Visual Studio for
 author: jmatthiesen
 ms.author: jomatthi
 manager: dominicn
-ms.date: 09/19/2019
+ms.date: 02/28/2022
+ms.custom: devdivchpfy22
 ms.assetid: E4B6CB42-9FE2-43B9-93B7-BD4BD50518B1
 ms.topic: how-to
 ---
