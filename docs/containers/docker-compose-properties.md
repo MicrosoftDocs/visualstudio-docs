@@ -114,8 +114,8 @@ Use double quotes around the values, as in the preceding example, and use the ba
 |com.microsoft.visualstudio.debuggee.arguments|The arguments passed to the program when starting debugging. For .NET Core apps, these arguments are typically additional search paths for NuGet packages followed by the path to the project's output assembly.|
 |com.microsoft.visualstudio.debuggee.workingdirectory|The directory used as the starting directory when starting debugging. This setting is typically */app* for Linux containers, or *C:\app* for Windows containers.|
 |com.microsoft.visualstudio.debuggee.killprogram|This command is used to stop the debuggee program that's running inside of the container (when necessary).|
-|com.microsoft.visualstudio.debuggee.noattach.program|The program launched when starting without debugging (**Ctrl**+**F5**) an Azure Functions Isolated project. Typically both **F5** and **Ctrl**+**F5** uses the same program, but if any project type like Azure Functions Isolated requires a different program than **F5**, then this will be used.|
-|com.microsoft.visualstudio.debuggee.noattach.arguments|The arguments passed to the program when starting without debugging (**Ctrl**+**F5**) an Azure Functions Isolated project.|
+|com.microsoft.visualstudio.debuggee.noattach.program|The program launched when starting without debugging (**Ctrl**+**F5**) an Azure Functions in an isolated process. Typically both **F5** and **Ctrl**+**F5** uses the same program, but if any project type like Azure Functions in an isolated process requires a different program than **F5**, then this will be used.|
+|com.microsoft.visualstudio.debuggee.noattach.arguments|The arguments passed to the program when starting without debugging (**Ctrl**+**F5**) an Azure Functions in an isolated process.|
 
 ### Customize the Docker build process
 
