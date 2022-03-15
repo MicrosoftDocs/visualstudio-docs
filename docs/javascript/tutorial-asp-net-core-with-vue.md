@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: In this tutorial, you create an app using ASP.NET Core and Vue
-ms.date: 02/25/2022
+ms.date: 03/15/2022
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000

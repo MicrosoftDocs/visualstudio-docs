@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with React"
 description: In this tutorial, you create an app using ASP.NET Core and React
-ms.date: 01/28/2022
+ms.date: 03/15/2022
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -92,6 +92,9 @@ Make sure to have the following installed:
 1. Next, right-click the React project and select the **Properties** menu and go the **Debugging** section. Change the Debugger to launch to the **launch.json** option.
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-react-choose-debugger.png" alt-text="Choose the debugger (launch.json)":::
+
+   >[!NOTE]
+   > This setting sets the location of *launch.json*. The default path for *launch.json* is under *.vscode/launch.json*, so typically you can skip this step if you are using the default path.
 
 ## Set the startup project
 
