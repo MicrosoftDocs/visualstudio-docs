@@ -37,6 +37,9 @@ In this tutorial, you'll learn how to manage more than one container and communi
 ## Create a Web Application project
 
 In Visual Studio, create an **ASP.NET Core Web App** project, named `WebFrontEnd`, to create a web application with Razor pages.
+
+> [!NOTE]
+> In Visual Studio 2022 17.2 Preview 2 and later, you can use Azure Functions for this project instead.
   
 ::: moniker range="vs-2017"
 
