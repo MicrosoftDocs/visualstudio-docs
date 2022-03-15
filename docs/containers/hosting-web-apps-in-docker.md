@@ -47,9 +47,6 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 [!INCLUDE [create-aspnet5-app](../azure/includes/vs-2019/create-aspnet5-app-2019.md)]
 ::: moniker-end
 :::moniker range=">=vs-2022"
-> [!NOTE]
-> In Visual Studio 2022 17.2 Preview 2 and later, you can also use Azure Functions.
-
 [!INCLUDE [create-aspnet5-app](../azure/includes/vs-2022/create-aspnet5-app-2022.md)]
 ::: moniker-end
 
