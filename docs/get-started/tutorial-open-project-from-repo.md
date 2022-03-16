@@ -6,8 +6,8 @@ ms.date: 01/31/2022
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 dev_langs:
   - CSharp
