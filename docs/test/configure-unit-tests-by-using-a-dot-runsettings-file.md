@@ -169,7 +169,7 @@ Each of the configuration elements is optional because it has a default value.
     <MaxCpuCount>1</MaxCpuCount>
     <ResultsDirectory>.\TestResults</ResultsDirectory>
     <TargetPlatform>x86</TargetPlatform>
-    <TargetFrameworkVersion>Framework40</TargetFrameworkVersion>
+    <TargetFrameworkVersion>net6.0</TargetFrameworkVersion>
     <TestAdaptersPaths>%SystemDrive%\Temp\foo;%SystemDrive%\Temp\bar</TestAdaptersPaths>
     <TestSessionTimeout>10000</TestSessionTimeout>
     <TreatNoTestsAsError>true</TreatNoTestsAsError>
@@ -180,10 +180,10 @@ The **RunConfiguration** element can include the following elements:
 
 |Node|Default|Values|
 |-|-|-|
-|**MaxCpuCount**|1|This setting controls the degree of parallel test execution when running unit tests using available cores on the machine. The test execution engine starts as a distinct process on each available core, and gives each core a container with tests to run. A container can be an assembly, DLL, or relevant artifact. The test container is the scheduling unit. In each container, the tests are run according to the test framework. If there are many containers, then as processes finish executing the tests in a container, they're given the next available container.<br /><br />MaxCpuCount can be:<br /><br />n, where 1 <= n <= number of cores: up to n processes are launched<br /><br />n, where n = any other value: the number of processes launched can be up to the number of available cores. For instance, set n=0 to let the platform automatically decide the optimal number of processes to launch based on the environment.|
+|**MaxCpuCount**|1|**The option name is case sensitive and is easy to mispell as MaxCPUCount**.<br /><br />This setting controls the level of parallelism on process-level. Use 0 to enable the maximum process-level parallelism.<br /><br />This setting determines the maximum number of test dlls, or other test containers that can run in parallel. Each dll will run in its own testhost process, and will be isolated on the process level from the tests in other test dlls. This setting does not force tests in each test dll to run in parallel. Controlling the parallel execution within dll (on thread-level) is up to the test framework such as MSTest, XUnit or NUnit.<br /><br />The default value is `1`, meaning that only 1 testhost will run at the same time. A special value `0` allows as many testhosts as you have logical processors (e.g. 6, for a computer with 6 physical cores without multi-threading, or 12, for a computer with 6 physical cores with multi-threading).<br /><br />The actual number of testhosts that will be started is determined by the amount of distinct dlls in the run.|
 |**ResultsDirectory**||The directory where test results are placed. The path is relative to the directory that contains .runsettings file.|
-|**TargetFrameworkVersion**|Framework40|`FrameworkCore10` for .NET Core sources, `FrameworkUap10` for UWP-based sources, `Framework45` for .NET Framework 4.5 and higher, `Framework40` for .NET Framework 4.0, and `Framework35` for .NET Framework 3.5.<br /><br />This setting specifies the version of the unit test framework used to discover and execute the tests. It can be different from the version of the .NET platform that you specify in the build properties of the unit test project.<br /><br />If you omit the `TargetFrameworkVersion` element from the *.runsettings* file, the platform automatically determines the framework version based on the built binaries.|
-|**TargetPlatform**|x86|x86, x64|
+|**TargetFrameworkVersion**| net40 or netcoreapp1.0 |**Omit this whole tag to auto-detect.**<br /><br />This setting defines the framework version, or framework family to use to run tests.<br /><br />Accepted values are any framework moniker such as `net48`, `net472`,`net6.0`, `net5.0`, `netcoreapp3.1`, `uap10.0` or any valid full framework name such as`.NETFramework,Version=v4.7.2` or `.NETCoreApp,Version=v6.0.0`. For backwards compatibility `Framework35`, `Framework40`, `Framework45`, `FrameworkCore10`, `FrameworkUap10` are accepted, meaning (`net35`, `net40`, `net45`, `netcoreapp1.0` and `uap10.0` respectively). All the values are case-insensitive.<br /><br />The provided value is used to determine the test runtime provider to be used. Every test runtime provider must respect the framework family to be used, but might not respect the exact framework version:<br /><br />For .NET Framework 4.5.1 - 4.8 a testhost that was built with the specified exact version is used. For values outside of that range .NET Framework 4.5.1 testhost is used.<br /><br />For .NET, the actual version is determined by the test project's `<TargetFramework>` (or more precisely `runtimeconfig.json`).<br /><br />For UWP, the test project application is a testhost by itself, and determines the actual version of UWP that is used.<br /><br />Omit the `TargetFrameworkVersion` element from the *.runsettings* file, to automatically determine the framework version from the built binaries.<br /><br />When auto-detecting all target frameworks will be unified into a single common framework. When different version from the same target framework family are found the newer version is chosen (e.g. net452, net472, net48 = net48).<br /><br />When target frameworks from different framework families are found in the run.<br /><br />For .NET Framework runner (in Visual Studio, or vstest.console.exe in Developer command line) the common target framework is to net40. For .NET runner (dotnet test + dlls) the common target framework is set to netcoreapp1.0.|
+|**TargetPlatform**|x86|**Omit this whole tag to auto-detect.**<br /><br />This setting defines the architecture to use to run tests. Possible values are `x86`, `x64`, `ARM`, `ARM64`, `S390x`.<br /><br />When auto-detecting, the architecture for AnyCPU dlls may differ based on the runner. For .NET Framework runner (in Visual Studio, or vstest.console.exe in Developer command line) the default is x86. For .NET runner (dotnet test) the default is the current process architecture.<br /><br />|
 |**TreatTestAdapterErrorsAsWarnings**|false|false, true|
 |**TestAdaptersPaths**||One or more paths to the directory where the TestAdapters are located|
 |**TestSessionTimeout**||Allows users to terminate a test session when it exceeds a given timeout. Setting a timeout ensures that resources are well consumed and test sessions are constrained to a set time. The setting is available in **Visual Studio 2017 version 15.5** and later.|
@@ -330,16 +330,19 @@ Each element of the file is optional because it has a default value.
 <RunSettings>
   <!-- Configurations that affect the Test Framework -->
   <RunConfiguration>
+    <!-- Use 0 for maximum process-level parallelization. This does not force parallelization within the test dll (on thread-level). You can also change it from the Test menu; choose "Run tests in parallel". Unchecked = 1 (only 1), checked = 0 (max). -->
     <MaxCpuCount>1</MaxCpuCount>
     <!-- Path relative to directory that contains .runsettings file-->
     <ResultsDirectory>.\TestResults</ResultsDirectory>
 
-    <!-- x86 or x64 -->
+    <!-- Omit the whole tag for auto-detection. -->
+    <!-- [x86] or x64, ARM, ARM64, s390x  -->
     <!-- You can also change it from the Test menu; choose "Processor Architecture for AnyCPU Projects" -->
     <TargetPlatform>x86</TargetPlatform>
 
-    <!-- Framework35 | [Framework40] | Framework45 -->
-    <TargetFrameworkVersion>Framework40</TargetFrameworkVersion>
+    <!-- Any TargetFramework moniker or omit the whole tag for auto-detection. -->
+    <!-- net48, [net40], net6.0, net5.0, netcoreapp3.1, uap10.0 etc. -->
+    <TargetFrameworkVersion>net40</TargetFrameworkVersion>
 
     <!-- Path to Test Adapters -->
     <TestAdaptersPaths>%SystemDrive%\Temp\foo;%SystemDrive%\Temp\bar</TestAdaptersPaths>
