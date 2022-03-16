@@ -4,9 +4,9 @@ description: Learn about some of the windows, menus, and other UI features of th
 ms.custom: vs-acquisition
 titleSuffix: ''
 ms.date: 09/14/2021
-ms.topic: quickstart
-author: TerryGLee
-ms.author: tglee
+ms.topic: tutorial
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
