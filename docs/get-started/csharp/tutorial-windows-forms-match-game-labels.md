@@ -51,7 +51,7 @@ They keep track of, or refer to Label objects.
    When the program starts, both `firstClicked` and `secondClicked` are set to `null` for C# or `Nothing` for Visual Basic.
 
 1. Modify your <xref:System.Windows.Forms.Control.Click> event handler to use the new `firstClicked` reference variable.
-   Remove the last statement in the `label_Click()` event handler method (`clickedLabel.ForeColor = Color.Black;`) and replace it with the `if` statement that follows.
+   Remove the last statement in the `label1_Click()` event handler method (`clickedLabel.ForeColor = Color.Black;`) and replace it with the `if` statement as follows.
 
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step5/vb/form1.vb" id="Snippet6":::
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step5/cs/form1.cs" id="Snippet6":::
@@ -66,7 +66,7 @@ They keep track of, or refer to Label objects.
 
 The program is already keeping track of the first label that the player chose.
 The reference `firstClicked` isn't `null` in C# or `Nothing` in Visual Basic.
-When your `if` statement finds that `firstClicked` isn't equal to `null` or `Nothing`, it doesn't run the statements.
+When your `if` statement finds that `firstClicked` isn't equal to `null` or `Nothing`, it runs the statements.
 
 ## Add a timer
 
@@ -103,8 +103,9 @@ If the icons don't match, it hides the two icons again after a short period of t
    - It uses two reference variables, `firstClicked` and `secondClicked`, to make the icons of the two labels that the player chose invisible again.
    - It resets the `firstClicked` and `secondClicked` reference variables to `null` in C# and `Nothing` in Visual Basic.
 
-1. Go to the code editor and add the following code to the top and bottom of the `label_Click()` event handler method.
-   Add the two `if` statements to the top, and three statements to the bottom.
+1. Go to the code editor and add code to the top and bottom of the `label1_Click()` event handler method. 
+   This code will check if the timer is enabled, set the `secondClicked` reference variable, and start the timer.
+   The `label1_Click()` event handler method now looks as follows:
 
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step6/cs/form1.cs" id="Snippet8":::
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step6/vb/form1.vb" id="Snippet8":::
@@ -117,6 +118,10 @@ If the icons don't match, it hides the two icons again after a short period of t
      Then, it starts the timer in one-shot mode, so that it waits 750 milliseconds and then fires a single tick.
      The timer's Tick event handler hides the two icons and resets the `firstClicked` and `secondClicked` reference variables.
      The form is ready for the player to choose another pair of icons.
+
+   > [!NOTE]
+   > If you copy and paste the `label1_Click()` code block rather than entering the code manually, be sure to replace the existing `label1_Click()` code.
+   > Otherwise, you'll end up with a duplicate code block.
 
 1. Save and run your program.
    Select a square and the icon becomes visible.

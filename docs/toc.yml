@@ -43,8 +43,6 @@
     items:
     - name: Overview
       href: install/visual-studio-administrator-guide.md
-    - name: Visual Studio enterprise guide
-      href: install/visual-studio-enterprise-guide.md
     - name: Use the command line
       items:
       - name: Use command-line parameters to install Visual Studio
@@ -147,18 +145,10 @@
   - name: Visual Studio orientation
     displayName: Feature tour
     href: ide/quickstart-ide-orientation.md
-  - name: "C++: Create a console app"
-    href: /cpp/get-started/tutorial-console-cpp
-  - name: "C#: Create a web app"
-    href: ide/quickstart-aspnet-core.md
   - name: "C#: Create a console app"
     href: get-started/csharp/tutorial-console.md
   - name: "Visual Basic: Create a console app"
-    href: ide/quickstart-visual-basic-console.md
-  - name: "Node.js: Create a web app"
-    href: ide/quickstart-nodejs.md
-  - name: "Python: Create a web app"
-    href: ide/quickstart-python.md
+    href: get-started/visual-basic/tutorial-console.md
 - name: Tutorials
   expanded: true
   items:
@@ -898,8 +888,6 @@
       href: ide/visual-studio-performance-tips-and-tricks.md
 - name: Accessibility
   items:
-  - name: Manage accessibility features
-    href: ide/reference/accessibility-features-of-visual-studio.md
   - name: Set IDE accessibility options
     href: ide/reference/how-to-set-ide-accessibility-options.md
   - name: Accessibility tips and tricks

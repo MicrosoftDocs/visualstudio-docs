@@ -1,7 +1,7 @@
 ---
 title: Manage Python application projects
 description: Projects in Visual Studio manage dependencies between files and the complexity of relationships in an application.
-ms.date: 03/18/2019
+ms.date: 02/10/2022
 ms.topic: conceptual
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -34,8 +34,6 @@ Visual Studio provides a variety of Python project templates to quickly set up a
 > Without a project, all versions of Visual Studio work well with Python code. For example, you can open a Python file by itself and enjoy auto-complete, IntelliSense, and debugging (by right-clicking in the editor and selecting **Start with Debugging**). Because such code always uses the default global environment, however, you may see incorrect completions or errors if the code is meant for a different environment. Furthermore, Visual Studio analyzes all files and packages in the folder from which the single file is opened, which could consume considerable CPU time.
 >
 > It's a simple matter to create a Visual Studio project from existing code, as described in [Create a project from existing files](#create-project-from-existing-files).
-
-![movie camera icon for video](../install/media/video-icon.png "Watch a video") [Deep Dive: Use source control with Python projects](https://youtu.be/Aq8eqApnugM) (youtube.com, 8m 55s).
 
 ## Add files, assign a startup file, and set environments
 

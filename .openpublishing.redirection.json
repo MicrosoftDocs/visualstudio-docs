@@ -81,6 +81,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/reference/accessibility-features-of-visual-studio.md",
+      "redirect_url": "/visualstudio/ide/how-to-change-fonts-and-colors-in-visual-studio#accessibility-options",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/convert-dialog-box.md",
       "redirect_url": "/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects",
       "redirect_document_id": false
@@ -45441,6 +45446,26 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "docs/debugger/how-can-i-use-debugger-windows-while-debugging-a-foreground-program-q.md",
+      "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-get-back-to-the-function-that-called-mfc-if-halted.md",
+      "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/prefetch-content-for-windows-store-apps.md",
+      "redirect_url": "/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/what-s-new-for-the-debugger-in-visual-studio.md",
+      "redirect_url": "/visualstudio/debugger/index",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/xaml-hot-reload-troubleshooting.md",
       "redirect_url": "/visualstudio/xaml-tools/xaml-hot-reload-troubleshooting",
       "redirect_document_id": true
@@ -45918,6 +45943,11 @@
     {
       "source_path": "docs/ide/step-8-customize-the-quiz.md",
       "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-customize-ui",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/quickstart-nodejs.md",
+      "redirect_url": "/visualstudio/javascript/tutorial-nodejs",
       "redirect_document_id": false
     },
     {
@@ -46503,12 +46533,12 @@
     {
       "source_path": "docs/ide/tutorial-csharp-console.md",
       "redirect_url": "/visualstudio/get-started/csharp/tutorial-console",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
-      "source_path": "docs/ide/tutorial-visual-basic-console.md",
+      "source_path": "docs/ide/quickstart-visual-basic-console.md",
       "redirect_url": "/visualstudio/get-started/visual-basic/tutorial-console",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/user-accounts-and-updates.md",
@@ -47513,6 +47543,16 @@
     {
       "source_path": "docs/sharepoint/requirements-for-developing-sharepoint-solutions.md",
       "redirect_url": "/visualstudio/sharepoint/getting-started-sharepoint-development-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/live-unit-testing-whats-new.md",
+      "redirect_url": "/visualstudio/test/live-unit-testing-intro",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/walkthrough-use-the-virtual-user-activity-chart-to-isolate-issues.md",
+      "redirect_url": "/visualstudio/test/analyze-load-test-virtual-user-activity-in-the-details-view",
       "redirect_document_id": false
     },
     {
@@ -58093,6 +58133,11 @@
       "source_path": "docs/ide/quickstart-fsharp.md",
       "redirect_url": "/visualstudio/get-started/tutorial-fsharp-web-app",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/quickstart-aspnet-core.md",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-aspnet-core",
+      "redirect_document_id": false
     }
   ]
 }

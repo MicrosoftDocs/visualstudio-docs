@@ -2,7 +2,7 @@
 title: "Project Settings for a .NET C# debug config | Microsoft Docs"
 description: Understand how to change the project settings for a C# .NET 5+ or .NET Core debug configuration in Visual Studio, using the Debug tab and Build tab of the project property pages.
 
-ms.date: "01/13/2022"
+ms.date: "02/22/2022"
 ms.topic: "reference"
 dev_langs:
   - "CSharp"
@@ -24,7 +24,7 @@ monikerRange: '>= vs-2022'
 ms.workload:
   - "dotnet"
 ---
-# Project settings for C# debug configurations (.NET 5+, .NET Core, and ASP.NET Core)
+# Project settings for C# debug configurations (.NET Core, .NET 5+, and ASP.NET Core)
 
 You can change C# project debug settings in the [Debug tab](#debug-tab) and [Build tab](#build-tab) of the project property pages.
 
@@ -39,7 +39,7 @@ For more information, see [Debug and release configurations](how-to-set-debug-an
 
 Starting in Visual Studio 2022, choose **Open debug launch profiles UI** in the Debug tab to open the launch profiles UI and change debug settings.
 
-## Launch profile (.NET 5+, .NET Core)
+## Launch profile (.NET Core, .NET 5+)
 
 |Setting|Description|
 |-------------------------------------| - |
@@ -53,7 +53,7 @@ Starting in Visual Studio 2022, choose **Open debug launch profiles UI** in the 
 
 ## Launch profile (ASP.NET Core)
 
-In addition to the properties for .NET, ASP.NET Core launch profiles include several additional properties for the different ASP.NET Core profiles. These settings provide a simple UI for the project's *launchSettings.json* file. For more information on this file, see the Development and launchSettings.json section in [Use multiple environments in ASP.NET Core](/aspnet/core/fundamentals/environments).
+In addition to the properties for .NET 5+, ASP.NET Core launch profiles include several additional properties for the different ASP.NET Core profiles. These settings provide a simple UI for the project's *launchSettings.json* file. For more information on this file, see the Development and launchSettings.json section in [Use multiple environments in ASP.NET Core](/aspnet/core/fundamentals/environments).
 
 The settings provided in the launch profiles UI include the following.
 

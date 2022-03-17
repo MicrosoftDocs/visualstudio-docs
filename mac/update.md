@@ -4,7 +4,8 @@ description: "Instructions for updating Visual Studio for Mac and accessing prev
 author: jmatthiesen
 ms.author: jomatthi
 manager: dominicn
-ms.date: 09/18/2019
+ms.date: 03/03/2022
+ms.custom: devdivchpfy22
 ms.technology: vs-ide-install
 ms.topic: how-to
 ms.assetid: DB8DC9FE-FF21-4061-8A96-3F9FC08A4F8F
@@ -12,7 +13,7 @@ ms.assetid: DB8DC9FE-FF21-4061-8A96-3F9FC08A4F8F
 
 # Update Visual Studio for Mac
 
-Visual Studio for Mac distributes updates for the IDE and supported frameworks on a regular basis. These updates can be in the form of new features, improvements, and bug fixes.
+Visual Studio for Mac distributes updates for the IDE and supported frameworks regularly. These updates can be in the form of new features, improvements, and bug fixes.
 
 Visual Studio for Mac provides two channels to get these latest versions:
 
@@ -33,21 +34,21 @@ This displays the updater box:
 
 ## Changing the Updater channel
 
-To change the channel select it from the channel drop down and press the **Switch Channel button**:
+To change the channel, select it from the channel drop-down and press the **Switch Channel button**:
 
-![Change Channel drop down](media/update-image3.png)
+![Change Channel drop-down](media/update-image3.png)
 
 ## Downloading and installing updates
 
 Switching channels automatically starts the download process of new updates.
 
-If you have selected the option to **Check Automatically**, the updater box will pop up when Visual Studio for Mac is open to let you know that new updates are available. New downloads will start downloading automatically to your machine when this box appears.
+If you've selected the option to **Check Automatically**, the updater box will pop up when Visual Studio for Mac is open to let you know that new updates are available. New downloads will start downloading automatically to your machine when this box appears.
 
 To start installing updates, select the **Restart and Install Updates** button:
 
 ![Button to start installing updates](media/update-image4.png)
 
-Depending on the components that need to be installed, you may need to accept additional licenses or enter your machine's administrator username and password.
+Depending on the components that need to be installed, you may need to accept more licenses or enter your machine's administrator username and password.
 
 ## Troubleshooting
 

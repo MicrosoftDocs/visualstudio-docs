@@ -124,6 +124,6 @@ Before you perform the steps in this procedure, you must open your test settings
 ## See also
 
 - [Collect diagnostic data while testing (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data?view=vsts&preserve-view=true)
-- [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts&preserve-view=true)
+- [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data)
 - [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md)
 - [Collect IntelliTrace data](../test/how-to-collect-intellitrace-data-to-help-debug-difficult-issues.md)

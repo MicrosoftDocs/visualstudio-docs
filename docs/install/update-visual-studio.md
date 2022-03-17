@@ -2,7 +2,7 @@
 title: Update Visual Studio
 titleSuffix: ''
 description: Learn how to update Visual Studio to the most recent release, step by step.
-ms.date: 12/7/2021
+ms.date: 3/3/2022
 ms.custom: vs-acquisition
 ms.topic: how-to
 ms.prod: visual-studio-windows
@@ -20,17 +20,17 @@ ms.workload:
 ---
 # Update Visual Studio
 
-This topic discusses how to update a client installation of Visual Studio.  If you are an IT Administrator and want to configure your organization's clients to update from a network layout, refer to the [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide), particularly the section on [manage and update a network installations](../install/update-a-network-installation-of-visual-studio.md).
+This topic discusses how to update a client installation of Visual Studio on Windows. For Visual Studio for Mac, see [Update Visual Studio for Mac](/visualstudio/mac/update).
 
-This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Update Visual Studio for Mac](/visualstudio/mac/update). 
+If you are an IT Administrator and want to configure your organization's clients to update from a network layout, refer to the [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide), particularly the section on [manage and update a network installation](../install/update-a-network-installation-of-visual-studio.md).
 
 ## Before you update
 
 In order to install, update, or modify Visual Studio, you must be logged on to the machine with an account that has administrative permissions. If you are logged in as a typical user and try to perform one of these commands, then you'll get a User Account Control notice prompting you for admin credentials. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
 
-We highly recommend saving your work before performing an update.
+Visual Studio must be closed before performing an update. We highly recommend saving your work before performing an update.
 
-Visual Studio must be installed on the machine before you can update it. To install the current version of Visual Studio from Microsoft hosted servers, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page. If you are currently using another instance of Visual Studio, you can either [install a new instance of Visual Studio side-by-side to your existing installation](../install/install-visual-studio-versions-side-by-side.md), or you can [uninstall the previous instance of Visual Studio](../install/uninstall-visual-studio.md) before installing this new one.
+Visual Studio must first be installed on the machine before you can update it. To install the current version of Visual Studio from Microsoft hosted servers, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page. If you are currently using another instance of Visual Studio, you can either [install a new instance of Visual Studio side-by-side to your existing installation](../install/install-visual-studio-versions-side-by-side.md), or you can [uninstall the previous instance of Visual Studio](../install/uninstall-visual-studio.md) before installing this new one.
 
 ::: moniker range="vs-2017"
 
@@ -258,25 +258,25 @@ There are two ways to bring up the Update Settings dialog, which allows you to c
 
 1. Open the Visual Studio installer, select the instance you want to configure, choose the **More button** and then choose the **Update settings** menu option. Refer to previous instructions for how to find the Visual Studio Installer.
 
-    ![Screenshot showing the Updates settings in the Installer.](media/vs-2022/installer-update-settings-menu-option.png)
+  ![Screenshot showing the Updates settings in the Installer.](media/vs-2022/installer-update-settings-menu-option.png)
 
 2. An alternative way to invoke the Update Settings dialog is to open the Visual Studio IDE, bring up the Update available dialog (either **View details** on an update notification or **Check for updates** on the Help menu) and click on the Change update settings link.   
 
-    ![Screenshot showing the Updates settings in the Update available dialog in the IDE.](media/vs-2022/invoke-update-settings-in-the-IDE.png)
+  ![Screenshot showing the Updates settings in the Update available dialog in the IDE.](media/vs-2022/invoke-update-settings-in-the-ide.png)
     
-The **Update settings** dialog will look like this.
+The **Update settings** dialog will look something like this. In this example, the Visual studio instance is using the LTSC 17.0 channel.
 
    ![Screenshot showing the Updates settings dialog in the Visual Studio 2022 IDE.](media/vs-2022/update-settings.png)
 
 By choosing the correct value in the **Update channel** dropdown, you can control the source location of future updates for this instance of Visual Studio. Additional things to keep in mind are:
  * The Preview and Current channels are available for all editions of Visual Studio, and the LTSC channels are only available for Professional and Enterprise customers. 
- * You can choose to update your instance of Visual Studio immediately after you configure the update channel location. Or you can defer the actual product update until some later time. The act of configuring the update channel and the act of updating the product are two independent events. 
- * When you update to a new channel, you will install the most recent release on that channel. If you are an enterprise customer and want to install a particular version on a channel, then follow the Run a specific bootstrapper instructions described previously. 
+ * You can choose to update your instance of Visual Studio immediately after you configure the **Update channel** location. Or you can defer the actual product update until some later time. The act of configuring the update channel and the act of updating the product are two independent events. For information on how to programmatically control the update channel, refer to [Use the modifySettings command](/visualstudio/install/use-command-line-parameters-to-install-visual-studio#configure-source-location-of-updates-command-and-command-line-parameters). 
  * You can only change the update channel if the version of the product that's available at the tip of that channel is **greater** than the version you have installed. For example, you can always transition from the Current channel to the Preview channel, but you can't transition from the Preview channel to the Current channel until the latest release on the Current channel surpasses the version of Preview that you have installed. 
- * LTSC channels all have expiration dates. Once the LTSC has expired, it will not be able to be used as a source of updates, and it will disappear from this list.
+* When you update to a new channel, you'll install the most recent release on that channel. If you are an enterprise customer and want to install a particular version of the product on that channel, then follow the [Run a specific bootstrapper instructions](#run-a-specific-bootstrapper-1) described previously. 
+ * LTSC channels all have expiration dates as illustrated in the picture above. Once the LTSC has expired, it cannot be used as a source of updates, and it'll disappear from this list.
  * All Microsoft channels are hosted on Microsoft servers and require access to the internet.
  * Each instance of Visual Studio has the ability to independently configure its source for updates. So, if you have two instances of Visual Studio 2022 installed, each can update from a different channel. 
- * IT Administrators can control the values in the **Update channel** dropdown. For example, they can add network layout locations as update sources. They can also suppress Microsoft hosted locations from being available as update source options. This functionality works for Visual Studio 2019 installs too. For information on how to configure these update locations, refer to the [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide)
+ * IT Administrators can control the text in the **Update channel** dropdown. For example, they can add network layout locations as update sources. They can also suppress Microsoft hosted locations from being available as update source options. This functionality works for Visual Studio 2019 installs too. For information on how to configure these update locations, refer to the [Set defaults for enterprise deployments](/visualstudio/install/set-defaults-for-enterprise-deployments?#configuring-source-location-for-updates) page.
 
 ## Update on close
 

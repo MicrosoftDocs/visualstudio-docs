@@ -1,5 +1,5 @@
 ---
-title: "Docker tutorial - Part 2: Share your app"
+title: "Docker tutorial - Part 4: Share your app"
 description: Describes how to share Docker images using the Docker Hub registry.
 ms.prod: vs-code
 ms.topic: tutorial

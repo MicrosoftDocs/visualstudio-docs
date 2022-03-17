@@ -8,8 +8,6 @@
   items:
   - name: First look at the Visual Studio IDE
     href: quickstart-ide-orientation-js.md
-  - name: Create a Node.js project
-    href: ../ide/quickstart-nodejs.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json
   - name: Create a Vue.js project
     href: quickstart-vuejs-with-nodejs.md
   - name: Create a React app

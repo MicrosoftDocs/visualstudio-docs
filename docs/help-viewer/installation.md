@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
   - "installing Help Viewer"
   - "Help Viewer, installing"
-author: ghogen
-ms.author: ghogen
+author: jasonchlus
+ms.author: jasonchlus
 manager: jmartens
 ms.technology: vs-help-viewer
 ms.workload:
