@@ -1,8 +1,8 @@
 ---
-title: Create a custom task that does code generation | Microsoft Docs
-description: Learn how to use MSBuild to create a custom task that does code generation and properly handles incremental build and clean operations.
+title: Create a custom task | Microsoft Docs
+description: Learn how to use MSBuild to create a custom task that properly handles incremental build and clean operations.
 ms.date: 02/17/2022
-ms.topic: conceptual
+ms.topic: tutorial
 helpviewer_keywords:
 - tasks
 - MSBuild, tasks
@@ -13,7 +13,7 @@ ms.technology: msbuild
 ms.workload:
 - multiple
 ---
-# Create a custom task that does code generation
+# Tutorial: Create a custom task
 
 In this tutorial, you'll create a custom Task in MSBuild in C# that handles code generation and then you'll use the task in a build that can run in Visual Studio, from the command-line, or could be used in a build pipeline. This example demonstrates how to use MSBuild to handle the clean and rebuild operations. The example also shows how to support incremental build, so that the code is generated only when the input files have changed. The techniques demonstrated are applicable to a wide range of code generation scenarios. The steps also show the use of NuGet to package the task for distribution, and the tutorial includes an optional step to use the BinLog viewer to improve the troubleshooting experience.
 
@@ -477,4 +477,12 @@ The package has an extension `.nupkg` and is a compressed zip file. You can open
 
 ## Next steps
 
-TBD Add link go the next tutorial: create a task that calls an executable using the  Exec task
+Many tasks involve calling an executable. In some scenarios, you can use the Exec task, but if the limitations of the Exec task are an issue, you can also create a custom task. The following tutorial walks through both options with a more realistic code-generation scenario: creating a custom task to generate client code for a REST API.
+
+> [!div class="nextstepaction"]
+> [Use code generation in a build](tutorial-code-generation.md)
+
+Or, learn how to test a custom task.
+
+> [!div class="nextstepaction"]
+> [Test a custom MSBuild task](tutorial-test-custom-task.md)

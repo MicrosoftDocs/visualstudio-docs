@@ -5,6 +5,7 @@ ms.date: 03/07/2022
 ms.topic: tutorial
 helpviewer_keywords:
 - MSBuild, tutorial
+- MSBuild, code generation
 author: ghogen
 ms.author: ghogen
 manager: jmartens
@@ -12,7 +13,7 @@ ms.technology: msbuild
 ms.workload:
 - multiple
 ---
-# Tutorial: Use REST API Client Generation with MSBuild
+# Tutorial: Use code generation in a build
 
 An application which consumes RestApi is a very common scenario. In this tutorial you'll learn how to generate the Rest API client automatically during build process using MSBuild. You'll use [NSawg](https://docs.microsoft.com/aspnet/core/tutorials/getting-started-with-nswag?tabs=visual-studio), a tool that generates client code for a REST API.
 
@@ -314,4 +315,12 @@ Install the [NSwag command line tool](https://github.com/RicoSuter/NSwag/release
 
 ## Next steps
 
-You might want to publish your custom task as a NuGet package. See  [Custom task code generation](custom-task-code-generation.md).
+You might want to publish your custom task as a NuGet package.
+
+> [!div class="nextstepaction"]
+> [Tutorial: Create a custom task](tutorial-custom-task.md#package-the-task-for-distribution)
+
+Or, learn how to test a custom task.
+
+> [!div class="nextstepaction"]
+> [Test a custom MSBuild task](tutorial-test-custom-task.md)
