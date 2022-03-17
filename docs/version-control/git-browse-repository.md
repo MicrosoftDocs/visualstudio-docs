@@ -1,5 +1,5 @@
 ---
-title: Browse a repo & compare commits
+title: "Browse repos, compare branches & commits"
 description: Browse any Git repository in Visual Studio by using the Git Repository window.
 ms.date: 01/21/2022
 ms.topic: how-to
