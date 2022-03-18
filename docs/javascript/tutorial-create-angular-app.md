@@ -24,7 +24,7 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 Make sure to have the following installed:
 
 - Visual Studio 2022 Preview 2 or later. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
-- npm ([https://www.npmjs.com/](https://www.npmjs.com/)) 
+- npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
 - Angular CLI ([https://angular.io/cli](https://angular.io/cli))
   This can be the version of your choice
 
@@ -34,13 +34,13 @@ Make sure to have the following installed:
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Create a new project":::
 
-1. Search for Angular in the search bar at the top and then select **Standalone Angular Template**.
+1. Search for Angular in the search bar at the top and then select **Standalone TypeScript Angular Template**.
 
    :::image type="content" source="media/vs-2022/angular-choose-template.png" alt-text="Choose a template":::
 
-1. Give your project and solution a name. 
+1. Give your project and solution a name.
 
-   When you get to the Additional information window be sure NOT to check the **Add integration for Empty ASP.NET Web API Project** option. This option adds files to your Angular template so that it can be hooked up with the ASP.NET Core project, if an ASP.NET Core project is added.
+   When you get to the Additional information window, be sure NOT to check the **Add integration for Empty ASP.NET Web API Project** option. This option adds files to your Angular template so that it can be hooked up with the ASP.NET Core project, if an ASP.NET Core project is added.
 
    :::image type="content" source="media/vs-2022/angular-additional-info.png" alt-text="Additional information":::
 
@@ -60,8 +60,18 @@ Note, the initial build may take a while, as the Angular CLI will run the npm in
 
 ## Start Your Project
 
-Press **F5** or select the **Start** button at the top of the window. You see a command prompt appear:
+Press **F5** or select the **Start** button at the top of the window, and you'll see a command prompt:
 
 - The Angular CLI running the ng start command
 
-Next, you should see the base Angular app appear!
+   >[!NOTE]
+   > Check console output for messages, such as a message instructing you to update your version of Node.js.
+
+Next, you should see the base Angular apps appear!
+
+## Next steps
+
+For ASP.NET Core integration:
+
+> [!div class="nextstepaction"]
+> [Create an ASP.NET Core app with Angular](tutorial-asp-net-core-with-angular.md)

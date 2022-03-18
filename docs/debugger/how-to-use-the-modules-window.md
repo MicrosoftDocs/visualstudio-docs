@@ -55,7 +55,7 @@ The **Symbol Status** column in the **Modules** window shows which modules have 
 
 1. If the symbols don't load, select **Symbol Settings** to open the **Options** dialog, and specify or change symbol loading locations.
 
-   You can download symbols from the public Microsoft Symbol Servers or other servers, or load symbols from a folder on your computer. For details, see [Specify symbol locations and loading behavior](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md#BKMK_Specify_symbol_locations_and_loading_behavior).
+   You can download symbols from the public Microsoft Symbol Servers or other servers, or load symbols from a folder on your computer. For details, see [Configure location of symbol files and loading behavior](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md#configure-location-of-symbol-files-and-loading-options).
 
 **To change symbol loading behavior settings:**
 

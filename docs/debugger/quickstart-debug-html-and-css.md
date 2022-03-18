@@ -201,7 +201,7 @@ In the procedure that follows, we'll go through the process of interactively deb
 
     - 255px (Offset) and 255px (Margin) or similar values, depending on your device resolution.
 
-      The following illustration shows how the **Layout** tab looks if you're using an emulator with 100px offset and margin).
+      The following illustration shows how the **Layout** tab looks if you're using an emulator with 100px offset and margin.
 
       ![DOM Explorer Layout tab](../debugger/media/js_dom_explorer_layout.png "JS_DOM_Explorer_Layout")
 

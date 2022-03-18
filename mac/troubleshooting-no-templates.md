@@ -2,8 +2,9 @@
 title: Why can I not see all available templates?
 description: "Troubleshooting article on why you cannot see all available templates."
 ms.topic: troubleshooting
-author: heiligerdankgesang
-ms.author: dominicn
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 04/02/2019
 ms.assetid: 297D9094-B40F-4C1A-BF19-B14CB735003A
 ---

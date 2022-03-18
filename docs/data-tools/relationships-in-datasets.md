@@ -6,7 +6,6 @@ ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
 - vbData.Microsoft.VSDesigner.DataSource.DesignRelation
-- vbdata.Microsoft.VSDesigner.DataSource.DesignRelation
 helpviewer_keywords:
 - relationships, about relationships
 - datasets [Visual Basic], relationships

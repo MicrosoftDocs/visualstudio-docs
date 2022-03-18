@@ -4,8 +4,6 @@ description: "Analyze CPU performance issues in your application using the debug
 
 ms.date: 04/03/2021
 ms.topic: tutorial
-f1_keywords:
-  - "vs.performance.wizard.intropage"
 helpviewer_keywords:
   - "Profiling Tools, quick start"
   - "Diagnostics Tools, CPU Usage"
@@ -19,7 +17,7 @@ ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
-# Measure application performance by analyzing CPU usage
+# Measure application performance by analyzing CPU usage (C#, Visual Basic, C++, F#)
 
 Find performance issues while you're debugging with the debugger-integrated **CPU Usage** diagnostic tool.  You can also analyze CPU usage without a debugger attached or by targeting a running app. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 

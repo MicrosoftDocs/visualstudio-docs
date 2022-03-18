@@ -1,9 +1,11 @@
 ---
 title: "launchSettings.json support"
 description: This document covers the support for launchSettings.json in Visual Studio for Mac
-author: sayedihashimi
-ms.author: sayedha
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 09/18/2019
+ms.topic: how-to
 ms.assetid: a556f9d7-86a8-408e-aa54-392584845889
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: In this tutorial, you create an app using ASP.NET Core and Vue
-ms.date: 11/08/2021
+ms.date: 03/15/2022
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -34,7 +34,7 @@ Make sure to have the following installed:
 
 - Visual Studio 2022 Preview 2 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
-- npm ([https://www.npmjs.com/](https://www.npmjs.com/)) 
+- npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
 - Vue CLI ([https://cli.vuejs.org/](https://cli.vuejs.org/))  
 
 ## Create the frontend app
@@ -103,6 +103,9 @@ Once the project is created, you see some new and modified files:
  
    :::image type="content" source="media/vs-2022/asp-net-core-with-vue-choose-debugger.png" alt-text="Choose the debugger (launch.json)":::
 
+   >[!NOTE]
+   > This setting sets the location of *launch.json*. The default path for *launch.json* is under *.vscode/launch.json*, so typically you can skip this step if you are using the default path.
+
 ## Set the startup project
 
 1. Right-click the solution and select **Set Startup Project**. Change the startup project from Single startup project to **Multiple startup projects**. Select **Start** for each project’s action.
@@ -115,18 +118,27 @@ Once the project is created, you see some new and modified files:
 
 1. Before you start the project, make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
 
-   If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It should look similar to `https://localhost:7049`.
+   If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It should look similar to `https://localhost:5001`.
 
-1. Then, go to the *vue.config.js* file for your Vue project. Update the target property to match the `applicationUrl` property in  *launchSettings.json*.
+1. Then, go to the *vue.config.js* file for your Vue project. Update the target property to match the `applicationUrl` property in  *launchSettings.json*. When you update it, that value should look similar to this:
+
+   ```js
+   target: 'https://localhost:5001',
+   ```
 
 1. To start the project, press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
 
    - The ASP.NET Core API project running
    - The Vue CLI running the vue-cli-service serve command
 
+   >[!NOTE]
+   > Check console output for messages, such as a message instructing you to update your version of Node.js.
+
 You should see the Vue app appear, that is populated via the API.
 
 ## Troubleshooting
+
+### Proxy error
 
 You may see the following error:
 
@@ -135,3 +147,22 @@ You may see the following error:
 ```
 
 If you see this issue, most likely the frontend started before the backend. Once you see the backend command prompt up and running, just refresh the Vue app in the browser.
+
+Otherwise, if the port is in use, try 5002 in *launchSettings.json* and *vue.config.js*.
+
+### Docker
+
+If you enable Docker support while creating the web API project, the backend may start up using the Docker profile and not listen on the configured port 5001. To resolve:
+
+Edit the Docker profile in the launchSettings.json by adding the following properties:
+
+```json
+"httpPort": 5003, 
+"sslPort": 5001  
+```
+
+Alternatively, reset using the following method:
+
+1. In the Solution properties, set your backend app as the startup project.
+1. In the Debug menu, switch the profile using the **Start** button drop-down menu to the profile for your backend app.
+1. Next, in the Solution properties, reset to multiple startup projects.

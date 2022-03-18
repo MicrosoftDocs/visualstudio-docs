@@ -48,7 +48,7 @@ Deployment to a local folder is typically used for testing or to begin a staged 
 
 - **ASP.NET**, **ASP.NET Core**, **Python**, and **Node.js**: Publish to Azure App Service or Azure App Service on Linux (using containers) by using one of the following methods:
 
-  - For continuous (or automated) deployment of apps, use Azure DevOps with [Azure Pipelines](/azure/devops/pipelines/get-started-yaml?view=azdevops&preserve-view=true).
+  - For continuous (or automated) deployment of apps, use Azure DevOps with Azure Pipelines.
   - For one-time (or manual) deployment of apps, use the **Publish** tool in Visual Studio.
   - To create GitHub Action workflows for ASP.NET and Azure Function projects hosted on GitHub.com, see [Deploy to Azure using GitHub Actions](../deployment/azure-deployment-using-github-actions.md).
 
@@ -122,7 +122,7 @@ You can enable more sophisticated development and testing by deploying your appl
 
 ## Continuous deployment
 
-You can use Azure Pipelines to enable continuous deployment of your app. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts&preserve-view=true) and [Deploy to Azure](/azure/devops/deploy-azure/index?view=vsts&preserve-view=true).
+You can use Azure Pipelines to enable continuous deployment of your app. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts&preserve-view=true) and [Deploy to Azure](/azure/devops/pipelines/overview-azure).
 
 ## Deploy a SQL database
 

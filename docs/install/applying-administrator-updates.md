@@ -2,7 +2,7 @@
 title: Applying administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager
 titleSuffix: ''
 description: Learn how to apply administrator updates to Visual Studio.
-ms.date: 04/16/2021
+ms.date: 02/04/2022
 ms.topic: overview
 ms.assetid: 9a3fdb28-db3d-4970-bc17-7417a985f0fb
 author: anandmeg
@@ -22,6 +22,9 @@ This document describes different types and characteristics of Visual Studio adm
 The Visual Studio administrator update package that is published to Microsoft Update for consumption by the Microsoft Catalog and WSUS contains information that the Configuration Manager needs to be able to download and distribute the Visual Studio update to client machines. It also contains information that an IT administrator needs in order to decide which updates to distribute throughout the organization. It can also be used to facilitate maintenance of network layouts. The Visual Studio administrator update packages don’t contain enough information to do a fresh installation of the product, nor do they contain any of the actual product binaries that are published to the Content Delivery Network. Visual Studio administrator updates are cumulative, just like regular Visual Studio updates. You can assume that any Visual Studio update that has a higher product version number and a later release date is a superset of an older, lower version.
 
 Visual Studio administrator updates apply to Visual Studio servicing versions that are under support. For more information about which Visual Studio servicing baselines are still in support during a particular timeframe, see [Visual Studio Product Lifecycle and Servicing](/visualstudio/productinfo/vs-servicing-vs). All supported Visual Studio servicing baselines will be kept secure.  
+
+> [!NOTE]
+> Visual Studio administrator updates cause the client machines to download the product files from wherever the [client is configured to download updates from](/visualstudio/install/update-visual-studio#configure-source-location-of-updates-1) - either the internet or a network layout. Thus, Administrator updates can be used in scenarios where the client is not connected to the internet. For example, if the client is configured to obtain updates from a network layout, then the Administrator updates can serve to trigger the clients to update themselves.  
 
 ## Types and characteristics of administrator updates
 
@@ -52,7 +55,12 @@ The title of each administrator update describes both the applicable version r
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
+* **Visual Studio 2022 version 17.0.3 update** classified as "Security Update" will apply to any Visual Studio 2022 edition on the client that is on either the [Current channel or the 17.0 LTSC channel](/visualstudio/install/update-visual-studio?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1), and bring it **up** to the 17.0.3 version.  
+* **Visual Studio 2022 version 17.1.0 update** classified as a "Feature Pack" will apply to Visual Studio 2022 editions licensed for enterprise use on the client that is on the Current channel, and it will update it to the 17.1.0 version. 
+* **Visual Studio 2022 version 17.1.2 update** classified as simply "Updates" will apply to Visual Studio 2022 editions licensed for enterprise use on the client that is on the Current channel, and it will update it to the 17.1.2 version. 
+* **Visual Studio 2022 version 17.2.7 update** classified as "Security Update" will apply to any Visual Studio 2022 edition on the client that is on either the Current channel or the 17.2 LTSC channel, and bring it **up** to the 17.2.7 version. 
 
+If the client instance is greater than the version of the administrator update that's being applied, then the administrator update will have no effect.
 ::: moniker-end
 
 ## Using Configuration Manager to deploy Visual Studio updates
@@ -70,7 +78,7 @@ There are a few configuration options that are can be used to tailor the Visual 
 
 ::: moniker range=">=vs-2019"
 
-* **Servicing baseline stickiness**: As described above, administrator feature updates advance a Visual Studio installation to a more current minor version of the product. Sometimes, however, Visual Studio users need to remain at a particular stable and secure servicing baseline level, and they want to control when their machines advances to a more current minor version. To configure a client machine to remain on a servicing baseline and ignore undesired administrator feature updates sent to it, you’ll need to create and set the **BaselineStickinessVersions2019** Reg_SZ data value to a string that represents the preferred baseline that the client machine should snap to and stay on. The string can contain an allowable servicing baseline version such as **16.7.0**.  
+* **Servicing baseline stickiness**: As described above, administrator feature updates advance a Visual Studio installation to a more current minor version of the product. Sometimes, however, Visual Studio users need to remain at a particular stable and secure servicing baseline level, and they want to control when their machines advances to a more current minor version. To configure a client machine to remain on a servicing baseline and ignore undesired administrator feature updates sent to it, you’ll need to create and set the **BaselineStickinessVersions2019** Reg_SZ data value to a string that represents the preferred baseline that the client machine should snap to and stay on. The string can contain an allowable servicing baseline version such as **16.9.0**.  
      If the `BaselineStickinessVersions2019` registry value is malformed, then all administrator feature updates will be blocked from installing on the machine. Make sure you pay attention to the [supported timeframes for Visual Studio feature updates](/visualstudio/productinfo/vs-servicing-vs). Also, regardless of the presence or value of the `BaselineStickinessVersions2019` key, while it is technically possible to apply administrator feature updates that have reached the end of their lifetimes, we don't recommend it because they will be out of support and thus potentially insecure.
 
 ::: moniker-end
@@ -81,7 +89,7 @@ There are a few configuration options that are can be used to tailor the Visual 
 
 There are three main methods of configuring administrator updates: a registry key, a configuration file on the client machine, or a modification of the Configuration Manager deployment package itself.   
 
-* **Registry key**: Administrator updates look for specific registry keys in any of the standard Visual Studio locations as described in [Set defaults for enterprise deployments](../install/set-defaults-for-enterprise-deployments.md). Options that are controlled by registry keys are items such as **AdministratorUpdatesOptOut** Reg_DWORD, **AdministratorUpdatesOptOut** Reg_DWORD, and **BaselineStickinessVersions2019** Reg_SZ. Admin access on the client computer is required to create and set the value of registry keys.
+* **Registry key**: Administrator updates look for specific registry keys in any of the standard Visual Studio locations as described in [Set defaults for enterprise deployments](../install/set-defaults-for-enterprise-deployments.md). Options that are controlled by registry keys are items such as **AdministratorUpdatesEnabled** Reg_DWORD and **AdministratorUpdatesOptOut** Reg_DWORD. Admin access on the client computer is required to create and set the value of registry keys.
 
 * **Configuration file**: Some settings can be preserved on the client machine in an optional configuration file, which has the benefit of setting it only once and having it apply to all future administrator updates. The configuration file approach behaves like a registry key and is machine wide, which means it will apply to all installs of Visual Studio installed on the client machine. The standard location for the configuration file is at `C:\ProgramData\Microsoft\VisualStudio\updates.config`. However, if you wish to use another location to store the file, you can do so by creating a Reg_SZ registry key called **UpdateConfigurationFile** and setting the value of this key to the path of your config file. This registry key can be place in any of the Visual Studio registry locations as described in [Set defaults for enterprise deployments](../install/set-defaults-for-enterprise-deployments.md). If you choose to add a registry value for a custom configuration file location, it will look for that file; if the file doesn’t exist, then an exception will be thrown and the update will fail.
 
@@ -113,19 +121,21 @@ You can use one of the following methods to verify that the administrator update
 
 Administrative updates may return the following return codes:  
 
-| Error code | Definition                                                                                                                                                                                                  |
-|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0          | The administrative update was successfully installed.                                                                                                                                                       |
-| 1001       | Visual Studio Installer or a related setup process is running. The update is not applied.                                                                                                                   |
-| 1002       | Visual Studio Installer is paused. The update is not applied.                                                                                                                                               |
-| 1003       | Visual Studio is running. The update is not applied. This condition can be overruled using the `--force` flag.                                                                                              |
-| 1004       | No internet detected. The update was unable to contact the internet location holding the updated files. The update is not applied.                                                                          |
-| 1005       | The **AdministratorUpdatesEnabled** registry value is set to **0** or not set at all. The update is not applied.                                                                                            |
-| 1006       | The **AdministratorUpdatesOptOut** registry value is set to **1**. The update is not applied. The key is intended for client computers that should not be updated by the administrator.                     |
-| 1007       | The Visual Studio Installer is not installed.                                                                                                                                                               |
-| 1008       | The **BaselineStickinessVersions2019** registry value is not in a readable format. The registry value must include **All** or valid versions with the build number set to 0 explicitly, for example, X.Y.0. |
-| 3010       | The system requires a reboot. The update may or may not have been applied. Reboot the computer and attempt the update again.                                                                                |
-| Other      | Error occurred attempting to apply the update. The update is not applied.                                                                                                                                   |
+| Error code | Definition                                                                                                    |
+|------------|---------------------------------------------------------------------------------------------------------------|
+| 0          | The administrative update was successfully installed.                                                         |
+| 1001       | Visual Studio Installer or a related setup process is running. The update is not applied.                     |
+| 1002       | Visual Studio Installer is paused. The update is not applied.                                                 |
+| 1003       | Visual Studio is running. The update is not applied. This condition can be overruled using the `--force` flag. |
+| 1004       | No internet detected. The update was unable to contact the internet location holding the updated files. The update is not applied. |
+| 1005       | The **AdministratorUpdatesEnabled** registry value is set to **0** or not set at all. The update is not applied. |
+| 1006       | The **AdministratorUpdatesOptOut** registry value is set to **1**. The update is not applied. The key is intended for client computers that should not be updated by the administrator. |
+| 1007       | The Visual Studio Installer is not installed.                                                                 |
+| 1008       | The **BaselineStickinessVersions2019** registry value is not in a readable format.                            |
+| 1009       | The Visual Studio instance is configured to use a layout, but the layout is missing packages to perform the update. |
+| 3010       | The system requires a reboot. The update may or may not have been applied. Reboot the computer and attempt the update again. |
+| 862968     | The update was successful, and a restart is recommended but not required.                                     |
+| Other      | Error occurred attempting to apply the update. The update is not applied.                                     |
 
 For an exhaustive list of client error codes, see [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md).
 

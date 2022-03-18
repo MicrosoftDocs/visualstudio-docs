@@ -4,8 +4,8 @@ description: Frequently-asked questions on R in Visual Studio.
 ms.date: 12/04/2017
 ms.prod: visual-studio-dev15
 ms.topic: reference
-author: kraigb
-ms.author: kraigb
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-rtvs
 ms.workload:

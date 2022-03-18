@@ -31,26 +31,11 @@ In this tutorial, you will:
 
 ## Prerequisites
 
-::: moniker range=">=vs-2019"
+You must have Visual Studio installed and the **Desktop development with C++** workload.
 
-You must have Visual Studio 2019 installed and the **Desktop development with C++** workload.
+::: moniker range="<=vs-2019"
 
-::: moniker-end
-::: moniker range="vs-2017"
-
-You must have Visual Studio 2017 installed and the **Desktop development with C++** workload.
-
-::: moniker-end
-
-::: moniker range="vs-2017"
-
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads) page to install it for free.
 
 ::: moniker-end
 
@@ -84,7 +69,7 @@ First, you'll create a C++ console application project. The project type comes w
 
 ::: moniker range=">=vs-2019"
 
-1. Open Visual Studio 2019.
+1. Open Visual Studio.
 
    If the start window is not open, choose **File** > **Start Window**.
 
@@ -186,7 +171,7 @@ First, you'll create a C++ console application project. The project type comes w
 
 Mostly, we use the keyboard shortcuts here, because it's a good way to get fast at executing your app in the debugger (equivalent commands such as menu commands are shown in parentheses).
 
-1. While paused in the `for` loop in the `main` method, press **F11** (or choose **Debug > Step Into**) twice to to advance to the `SendMessage` method call.
+1. While paused in the `for` loop in the `main` method, press **F11** (or choose **Debug > Step Into**) twice to advance to the `SendMessage` method call.
 
      After pressing **F11** twice, you should be at this line of code:
 
