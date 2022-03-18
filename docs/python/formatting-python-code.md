@@ -25,7 +25,7 @@ You need to select **Show all settings** for these options to appear:
 
 ![Python formatting options in Visual Studio](media/options-editor-formatting.png)
 
-[Python support in Visual Studio](installing-python-support-in-visual-studio.md) also adds the useful [**Fill Comment Paragraph**](#fill-comment-paragraph-command) command to the **Edit** > **Advanced** menu as described in a later section.
+[Python support in Visual Studio](installing-python-support-in-visual-studio.md) also adds the useful [**Fill Comment Paragraph**](#comment) command to the **Edit** > **Advanced** menu as described in a later section.
 
 
 ## Apply format to selection or file
@@ -113,6 +113,8 @@ The **Statements** options control automatic rewriting of various statements int
 # Not-wrapped:
 # There should be one-- and preferably only one --obvious way to do it.
 ```
+
+<a name="comment"></a>
 
 ## Format comment text
 
