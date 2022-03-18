@@ -3,9 +3,9 @@ title: "Getting Started with ASP.NET Core"
 description: "This article describes how to get started with ASP.NET in Visual Studio for Mac, including installation and creating a new project."
 author: jmatthiesen
 ms.author: jomatthi
-ms.date: 11/06/2020
+ms.date: 03/16/2022
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
-ms.custom: video
+ms.custom: video, devdivchpfy22
 no-loc: [Blazor, "Blazor WebAssembly"]
 ms.topic: how-to
 ---
@@ -24,9 +24,9 @@ Open Visual Studio for Mac. On the Start Screen, select **New Project...**
 
 ![New Project Dialog](media/asp-net-core-2019-new-asp-core.png)
 
-This will display the New Project dialog, allowing you to select a template to create your application.
+The New Project dialog is shown, allowing you to select a template to create your application.
 
-There are a number of projects that will provide you with a pre-built template to start building your ASP.NET Core Application. These are:
+There are many projects that'll provide you with a pre-built template to start building your ASP.NET Core Application. They are:
 
 - **.NET Core > Empty**
 - **.NET Core > API**
@@ -37,11 +37,11 @@ There are a number of projects that will provide you with a pre-built template t
 
 ![ASP.NET Project Options](media/asp-net-core-2019-new-asp-core.png)
 
-Select the **ASP.NET Core Empty Web Application** and press **Next**. Give the Project a Name and press **Create**. This creates a new ASP.NET Core app. In the solution window's left pane, expand the second arrow and then select **Startup.cs**. It should look similar to the image below:
+Select the **ASP.NET Core Empty Web Application** and press **Next**. Give the Project a name and press **Create**. This creates a new ASP.NET Core app. In the solution window's left pane, expand the second arrow and then select **Startup.cs**. It should look similar to the image below:
 
 ![New ASP.NET Core Empty Project view](media/asp-net-core-2019-empty-project.png)
 
-The ASP.NET Core Empty template creates a web application with two default files: **Program.cs** and **Startup.cs**, which are explained below. It also creates a Dependencies folder, which contains your project's NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
+The ASP.NET Core Empty template creates a web application with two default files: **Program.cs** and **Startup.cs**, that are explained below. It also creates a Dependencies folder, which contains your project's NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
 
 ![Solution window displaying dependencies](media/asp-net-core-2019-solution-dependencies.png)
 
@@ -67,7 +67,7 @@ An ASP.NET Core app creates a web server in its main method by configuring and l
 
 * `.UseStartup<Startup>()`: Specifies the Startup class.
 
-However, you can also add additional configurations, such as:
+However, you can also add more configurations, such as:
 
 * `UseKestrel`: Specifies the Kestrel server will be used by the app
 * `UseContentRoot(Directory.GetCurrentDirectory())`: Uses the web project's root folder as the app's content root when the app is started from this folder
@@ -75,7 +75,7 @@ However, you can also add additional configurations, such as:
 
 ### Startup.cs
 
-The Startup class for your app is specified in the `UseStartup()` method on the `CreateWebHostBuilder`. It is in this class that you will specify the request handling pipeline, and where you configure any services.
+The Startup class for your app is specified in the `UseStartup()` method on the `CreateWebHostBuilder`. It is in this class that you'll specify the request handling pipeline, and where you configure any services.
 
 Open and inspect the **Startup.cs** file in your project:
 
@@ -111,17 +111,17 @@ This Startup class must always adhere to the following rules:
 
 The `ConfigureServices` method defines the services that will be used by your app.
 
-The `Configure` allows you to compose your request pipeline using [Middleware](/aspnet/core/fundamentals/middleware). These are components used within an ASP.NET application pipeline to handle requests and responses. The HTTP pipeline consists of a number of request delegates, called in sequence. Each delegate can choose to either handle the request itself, or pass it to the next delegate.
+The `Configure` allows you to compose your request pipeline using [Middleware](/aspnet/core/fundamentals/middleware). These components are used within an ASP.NET application pipeline to handle requests and responses. The HTTP pipeline consists of many request delegates, called in sequence. Each delegate can choose to either handle the request itself, or pass it to the next delegate.
 
 You can configure delegates by using the `Run`,`Map`, and `Use` methods on `IApplicationBuilder`, but the `Run` method will never call a next delegate and should always be used at the end of your pipeline.
 
 The `Configure` method of the pre-built template is built to do a few things. First, it configures an exception handling page for use during development. Then, it sends a response to the requesting web page with a simple "Hello World".
 
-This simple Hello, World project can run now without any additional code being added. To run the app, you can either select which browser you want to run app the app in using the dropdown right of the Play button, or simply hit the Play (triangular) button to use your default browser:
+This simple Hello, World project can run now without any other code being added. To run the app, you can either select which browser you want to run app the app in using the dropdown right of the Play button. Or, you can hit the Play (triangular) button to use your default browser:
 
 ![Browser Run](media/asp-net-web-picker.png)
 
-Visual Studio for Mac uses a random port to launch your web project. To find out what port this is, open the Application Output, which is listed under the **View > Other Windows** menu. You should find output similar to that shown below:
+Visual Studio for Mac uses a random port to launch your web project. To find out what port this is, open the Application Output, which is listed under the **View > Other Windows** menu. You should find output similar as shown below:
 
 ![Application Output displaying listening port](media/asp-net-core-image6.png)
 
@@ -131,15 +131,15 @@ Once the project is running, your default web browser should launch and connect 
 
 ## Adding a Controller
 
-ASP.NET Core Apps use the Model-View-Controller (MVC) design pattern to provide a logical separation of responsibilities for each part of the app. The MVC design pattern consists of the following concepts:
+ASP.NET Core Apps use the Model-View-Controller (MVC) design pattern to provide a logical separation of responsibilities for each part of the app. The MVC design pattern consists of:
 
 - **Model**: A class that represents the data of the app.
 - **View**: Displays the app's user interface (which is often the model data).
-- **Controller**: A class which handles browser requests, responds to user input and interaction.
+- **Controller**: A class that handles browser requests, responds to user input and interaction.
 
 For more information on using MVC, see the [Overview of ASP.NET Core MVC](/aspnet/core/mvc/overview) guide.
 
-To add a controller, do the following:
+To add a controller, do the following steps:
 
 1. Right-click on the Project name and select **Add > New Files**. Select **General > Empty Class**, and enter a controller name:
 
@@ -170,7 +170,7 @@ To add a controller, do the following:
 
 3. Add the `Microsoft.AspNetCore.Mvc` dependency to the project by right-clicking the **Dependency** folder, and selecting **Add Package...**.
 
-4. Use the Search box to browse the NuGet library for `Microsoft.AspNetCore.Mvc`, and select **Add Package**. This may take a few minutes to install and you may be prompted to accept various licenses for the required dependencies:
+4. Use the Search box to browse the NuGet library for `Microsoft.AspNetCore.Mvc`, and select **Add Package**. It may take a few minutes to install and you may be prompted to accept various licenses for the required dependencies:
 
     ![Add Nuget](media/asp-net-core-image9.png)
 
@@ -191,7 +191,7 @@ To add a controller, do the following:
 
     `/[Controller]/[ActionName]/[Parameters]`
 
-    When you add the code snippet above, you are telling the app to default to the `HelloWorld` Controller, and the `Index` action method.
+    When you add the code snippet above, you're telling the app to default to the `HelloWorld` Controller, and the `Index` action method.
 
 6. Add the `services.AddMvc();` call to the `ConfigureServices` method, as illustrated below:
 
@@ -217,15 +217,15 @@ To add a controller, do the following:
 
     ![Running app in browser](media/asp-net-core-image13.png)
 
-9. Try to browse to `http://localhost:xxxx/HelloWorld/Xamarin?name=Amy` (replacing `xxxx` with the correct port), you should see the following:
+9. Try to browse to `http://localhost:xxxx/HelloWorld/Xamarin?name=Amy` (replacing `xxxx` with the correct port), you should see the following page:
 
     ![Running app in browser with arguments](media/asp-net-core-image10.png)
 
 ## Troubleshooting
 
-If you need to install .NET Core manually on macOS 10.12 (Sierra) and higher, do the following:
+If you need to install .NET Core manually on macOS 10.12 (Sierra) and higher, follow these steps:
 
-1. Before you start installing .NET Core, ensure that you have updated all OS updates to the latest stable version. You can check this by going to the App Store application, and selecting the Updates tab.
+1. Before you start installing .NET Core, ensure that you've updated all OS updates to the latest stable version. You can check by going to the App Store application, and selecting the **Updates** tab.
 
 2. Follow the steps listed on the [.NET Core site](https://www.microsoft.com/net/core#macos).
 
@@ -236,7 +236,7 @@ Make sure to complete all steps successfully to ensure that .NET Core is install
 This guide gave an introduction to ASP.NET Core. It describes what it is, when to use it, and provided information on using it in Visual Studio for Mac.
 For more information on the next steps from here, see the following guides:
 - [ASP.NET Core](/aspnet/core/) docs.
-- [Creating Backend Services for Native Mobile Applications](/aspnet/core/mobile/native-mobile-backend), which shows how to build a REST service using ASP.NET Core for a Xamarin.Forms app.
+- [Create Backend Services for Native Mobile Applications](/aspnet/core/mobile/native-mobile-backend), which shows how to build a REST service using ASP.NET Core for a Xamarin.Forms app.
 - [ASP.NET Core hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Web/Getting-Started).
 
 ## Related Video
