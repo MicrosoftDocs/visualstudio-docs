@@ -121,13 +121,13 @@ The **Statements** options control automatic rewriting of various statements int
 **Edit** > **Advanced** > **Fill Comment Paragraph** (**Ctrl**+**E** > **P**) reflows and formats comment text, combining short lines together and breaking up long ones.
 
 
-|| Example 1 |
+|Reformat| Example 1 |
 | --- | --- | 
 |Before| `# This is a very long long long long long long long long long long long long long long long long long long long comment`|
 |After| `# This is a very long long long long long long long long long long long long`<br/>`# long long long long long long long comment` |
 
 
-||Example 2 |
+|Reformat|Example 2 |
 | --- | --- | 
 |Before|`# foo`<br/>`# bar`<br/>`# baz`  |
 |After| `# foo bar baz` |
