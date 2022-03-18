@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Tutorial: Use code generation in a build
 
-An application which consumes RestApi is a very common scenario. In this tutorial you'll learn how to generate the Rest API client automatically during build process using MSBuild. You'll use [NSawg](https://docs.microsoft.com/aspnet/core/tutorials/getting-started-with-nswag?tabs=visual-studio), a tool that generates client code for a REST API.
+An application which consumes RestApi is a very common scenario. In this tutorial you'll learn how to generate the Rest API client automatically during build process using MSBuild. You'll use [NSawg](/aspnet/core/tutorials/getting-started-with-nswag?tabs=visual-studio), a tool that generates client code for a REST API.
 
 The example shows a console app that consumes the public [Pet Store API](https://petstore.swagger.io), which publishes an [OpenAPI spec](https://petstore.swagger.io/v2/swagger.json).
 
@@ -25,7 +25,7 @@ When you want to run a command-line tool as part of a build, there are two appro
 
 ## Option 1: Use the MSBuild Exec Task
 
-We will use the ["Exec" MSBuild task](https://docs.microsoft.com/dotnet/api/microsoft.build.tasks.exec), which simply invokes the specified process with the specified arguments, waits for it to complete, and then returns `true` if the process completes successfully, and `false` if an error occurs.
+We will use the ["Exec" MSBuild task](/dotnet/api/microsoft.build.tasks.exec), which simply invokes the specified process with the specified arguments, waits for it to complete, and then returns `true` if the process completes successfully, and `false` if an error occurs.
 
 NSwag code generation can be used from MSBuild, by [NSwag.MSBuild](https://github.com/RicoSuter/NSwag/wiki/NSwag.MSBuild)
 
@@ -33,7 +33,7 @@ The complete code is in the PetReaderExecTaskExample folder; you can download an
 
 1. Create a new console application named PetReaderExecTaskExample. Use .NET 6.0 or greater.
 
-1. Create another project in the same solution: PetShopRestClient (This is going to contain the generated client as a library). For this project, use netstandard 2.1. The generated client doesn't compile on netstandard 2.0.
+1. Create another project in the same solution: PetShopRestClient (This is going to contain the generated client as a library). For this project, use .NET Standard 2.1. The generated client doesn't compile on .NET Standard 2.0.
 
 1. In the PetReaderExecTaskExample project, and add a project dependency to PetShopRestClient project.
 
@@ -116,7 +116,7 @@ Congratulations! Now, you can execute the program to see how it is working.
 In many cases, using the `Exec` task is good enough to execute an external tools to do something, like REST API Client Code Generation.
 
 In this tutorial, you'll continue with the same example, but the ideas can be used for other more complex examples.
-What if you want to allow Rest Api Client Code Generation if only if you don't use absolute Windows path as input? Or what if you need to calculate in some way where the executable is? When there is any situation where you need to execute some code to do extra work, the [MSBuild Tool Task](/dotnet/api/microsoft.build.utilities.tooltask) is the best solution. This is an abstract class derived from MSBuild `Task`. You can define a concrete subclass, which creates a custom MSBuild task. This lets you run any code that is needed to prepare for command execution. You should read about [Custom task code generation](tutorial-custom-task-code-generation.md) first.
+What if you want to allow Rest Api Client Code Generation if only if you don't use absolute Windows path as input? Or what if you need to calculate in some way where the executable is? When there is any situation where you need to execute some code to do extra work, the [MSBuild Tool Task](/dotnet/api/microsoft.build.utilities.tooltask) is the best solution. This is an abstract class derived from MSBuild `Task`. You can define a concrete subclass, which creates a custom MSBuild task. This lets you run any code that is needed to prepare for command execution. You should read about [Custom task code generation](tutorial-custom-task.md) first.
 
 You'll create a custom task derived from [MSBuild Tool Task](/dotnet/api/microsoft.build.utilities.tooltask) which will generate a REST API client but it will fail if you try to reference the OpenApi spec using a http address. NSwag supports a http address as OpenApi spec input, but for the purposes of this example, let's suppose there's a design requirement to disallow that.
 
@@ -235,7 +235,7 @@ The next step is to create an app that uses the task.
 1. In the `PetRestApiClient` project, create a text file named *petshop-openapi-spec.json* (in the project folder). To add the OpenApi spec, copy the content from [here](https://petstore.swagger.io/v2/swagger.json) into the file. We like a reproducible build that depends only on the input. Consuming the api directly could transform a build which works today to a build which fails tomorrow from the same source. In this example, you'll raise a build error if a user chooses a URL as the OpenApi spec input.
 
 > [!WARNING]
-> A general rebuild won't work. You'll see errors that indicate it's unable to copy or delete `RestApiClientGenerator`.dll'. This is because it's trying to build the MBuild Custom Task in the same build process which uses it. Select `PetReaderToolTaskConsoleApp` and rebuild only that project. The another solution is put the Custom Task in a completely independent Visual Studio solution as you did in the tutorial [Custom task code generation](custom-task-code-generation.md) example.
+> A general rebuild won't work. You'll see errors that indicate it's unable to copy or delete `RestApiClientGenerator`.dll'. This is because it's trying to build the MBuild Custom Task in the same build process which uses it. Select `PetReaderToolTaskConsoleApp` and rebuild only that project. The another solution is put the Custom Task in a completely independent Visual Studio solution as you did in [Tutorial: Create a custom task](tutorial-custom-task.md) example.
 
 1. Copy the following code into *Program.cs*:
 

@@ -74,7 +74,7 @@ items:
       - name: Build a project that has resources
         href: how-to-build-a-project-that-has-resources.md
       - name: Create a custom task
-        href: tutorial-create-custom-task.md
+        href: tutorial-custom-task.md
       - name: Handle code generation
         href: tutorial-code-generation.md
       - name: Test a custom task

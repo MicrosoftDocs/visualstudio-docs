@@ -23,7 +23,7 @@ You can use unit testing functionality in Visual Studio to test your MSBuild Cus
 
 A MSBuild custom task is a class which inherits from <xref:Microsoft.Build.Utilities.Task> (directly or indirectly, because <xref:Microsoft.Build.Utilities.ToolTask> inherits from <xref:Microsoft.Build.Utilities.Task>). The method which performs the actions associated with the task is `Execute()`. This method takes some input values (parameters), and has output parameters which you can use assert to test validity. In this case, some input parameters are paths to files, so this examples has test input files in a folder called *Resources*. This MSBuild task also generates files, so the test asserts the generated files.
 
-A build engine is needed, which a class which implements [IBuildEngine](/dotnet/api/microsoft.build.framework.ibuildengine?view=msbuild-17-netcore). In this example there is a mock using [Moq](https://github.com/Moq/moq4/wiki/Quickstart), but you can use other mock tools. The example collects the errors, but you can collect other information and then assert it.
+A build engine is needed, which a class which implements [IBuildEngine](/dotnet/api/microsoft.build.framework.ibuildengine). In this example there is a mock using [Moq](https://github.com/Moq/moq4/wiki/Quickstart), but you can use other mock tools. The example collects the errors, but you can collect other information and then assert it.
 
 The Engine mock is needed on all the tests, so it's included as `TestInitialize` (it is executed before each test, and each test has own build engine). [Complete example](./custom-task-code-generation/AppSettingStronglyTyped/AppSettingStronglyTyped.Test/AppSettingStronglyTypedTest.cs)
 
@@ -75,15 +75,16 @@ Finally, it needs to assert the expected outcome from the test:
 
 The other tests follow this pattern and expand all the possibilities.
 
-> [!NOTE] When there are files generated, you need to use different file name for each test to avoid collision. Remember to delete the generated files as test cleanup.
+> [!NOTE] 
+> When there are files generated, you need to use different file name for each test to avoid collision. Remember to delete the generated files as test cleanup.
 
 ## Integration tests
 
 Unit tests are important, but you also need to test the custom MSBuild task in a realistic build context.
 
-[System.Diagnostics.Process Class](/dotnet/api/system.diagnostics.process?view=net-6.0) provides access to local and remote processes and enables you to start and stop local system processes. This example runs a build on a unit test using test MSBuild files.
+[System.Diagnostics.Process Class](/dotnet/api/system.diagnostics.process) provides access to local and remote processes and enables you to start and stop local system processes. This example runs a build on a unit test using test MSBuild files.
 
-The test code needs to initialize the execution context for each test. Pay attention to ensure the path to _dotnet_ command is accurate for your environment. The complete example is [here](./custom-task-code-generation/AppSettingStronglyTyped/AppSettingStronglyTyped.Test/AppSettingStronglyTypedIntegrationTest.cs)
+The test code needs to initialize the execution context for each test. Pay attention to ensure the path to the `dotnet` command is accurate for your environment. The complete example is [here](./custom-task-code-generation/AppSettingStronglyTyped/AppSettingStronglyTyped.Test/AppSettingStronglyTypedIntegrationTest.cs)
 
 ```csharp
         public const string MSBUILD = "C:\\Program Files\\dotnet\\dotnet.exe";
