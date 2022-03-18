@@ -2,14 +2,11 @@
 title: How do I add alternate identities to my subscription and how does this impact my Azure credits and Azure DevOps?
 description: Adding an alternate account to your Visual Studio subscription allows you to access the subscription benefits, like Azure DevOps and...
 ms.topic: include
-ms.prod: 
 ms.assetid: c41fbf02-a623-43b4-9aa7-0c1c51fbda2a
-ms.technology: 
 author: evanwindom
 ms.author: amast
-manager: 
-robots: 
-ms.date: 04/20/2020
+manager: shve
+ms.date: 03/15/2022
 ms.faqid: q1_5
 ---
 
