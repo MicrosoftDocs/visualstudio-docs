@@ -92,7 +92,7 @@ Code coverage is an option when you run test methods using Test Explorer. The re
 
 ::: moniker-end
 
-::: moniker range="<=vs-2022"
+::: moniker range="<=vs-2019"
 ## User interface testing with Coded UI and Selenium
 
 Coded UI tests provide a way to create fully automated tests to validate the functionality and behavior of your application’s user interface. They can automate UI testing across a variety of technologies, including XAML-based UWP apps, browser apps, and SharePoint apps.
