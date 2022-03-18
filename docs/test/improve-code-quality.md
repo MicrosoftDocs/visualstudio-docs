@@ -2,7 +2,7 @@
 title: Unit test tools
 description: Learn how Visual Studio testing tools can help you and your team develop and sustain high standards of code excellence.
 ms.custom: SEO-VS-2020
-ms.date: 08/19/2021
+ms.date: 03/18/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - testing tools [Visual Studio]
@@ -85,6 +85,14 @@ Code coverage is an option when you run test methods using Test Explorer. The re
 > [!NOTE]
 > Microsoft Fakes are available in Enterprise edition only and is supported only for .NET code.
 
+::: moniker range=">=vs-2022"
+## User interface testing with Playwright
+
+[Playwright](https://playwright.dev/) is recommended for generic browser-based UI testing.
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
 ## User interface testing with Coded UI and Selenium
 
 Coded UI tests provide a way to create fully automated tests to validate the functionality and behavior of your application’s user interface. They can automate UI testing across a variety of technologies, including XAML-based UWP apps, browser apps, and SharePoint apps.
@@ -92,14 +100,13 @@ Coded UI tests provide a way to create fully automated tests to validate the fun
 > [!NOTE]
 > Coded UI is a deprecated feature.
 
-Whether you choose best-of-breed Coded UI Tests or generic browser-based UI testing with Selenium, Visual Studio provides all the tools you need.
-
-![UI testing with coded UI](media/devtest-codeduitest.png)
+Whether you choose best-of-breed Coded UI Tests or generic browser-based UI testing with [Playwright](https://playwright.dev/), Visual Studio provides all the tools you need.
 
 * [Use UI automation to test your code](use-ui-automation-to-test-your-code.md)
 * [Get started creating, editing, and maintaining a coded UI test](walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
 * [Test UWP apps with coded UI tests](test-uwp-app-with-coded-ui-test.md)
 * [Introduction to coded UI tests with Visual Studio Enterprise (Lab)](https://azuredevopslabs.com/labs/tfs/codedui)
+::: moniker-end
 
 ## Related scenarios
 
