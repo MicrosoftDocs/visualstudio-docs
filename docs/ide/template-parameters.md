@@ -58,7 +58,7 @@ The following table lists the reserved template parameters that can be used by a
 |safeitemname|Same as `itemname` but with all unsafe characters and spaces replaced by underscore characters.|
 |safeitemrootname|Same as `safeitemname`.|
 |safeprojectname|The name provided by the user when the project was created but with all unsafe characters and spaces removed.|
-|time|The current time in a format that's based on your user settings in Windows. One example of a time zone format is DD/MM/YYYY 00:00:00. |
+|time|The current time in a format that's based on Windows user settings. One example of a time format is DD/MM/YYYY 00:00:00. |
 |specifiedsolutionname|The name of the solution. When "create solution directory" is checked, `specifiedsolutionname` has the solution name. When "create solution directory" is not checked, `specifiedsolutionname` is blank.|
 |userdomain|The current user domain.|
 |username|The current user name.|
