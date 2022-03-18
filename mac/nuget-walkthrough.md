@@ -1,17 +1,16 @@
 ---
 title: "Including a NuGet package in your project"
-description: This document covers how to include a NuGet package in a project using Visual Studio for Mac. It walks through finding and downloading a package, as well as introducing the IDE integration features.
+description: This document covers how to include a NuGet package in a project using Visual Studio for Mac. It walks through finding and downloading a package, and introducing the IDE integration features.
 author: jmatthiesen
 ms.author: jomatthi
-manager: dominicn
-ms.date: 11/09/2020
+ms.date: 03/16/2022
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
-ms.custom: conceptual
+ms.custom: conceptual, devdivchpfy22
 ---
 
 # Install and manage NuGet packages in Visual Studio for Mac
 
-The NuGet Package Manager UI in Visual Studio for Mac allows you to easily install, uninstall, and update NuGet packages in projects and solutions. You can search for and add packages to your .NET Core, ASP.NET Core, and Xamarin projects.
+The NuGet Package Manager UI in Visual Studio for Mac lets you easily install, uninstall, and update NuGet packages in projects and solutions. You can search for and add packages to your .NET Core, ASP.NET Core, and Xamarin projects.
 
 This article describes how to include a NuGet package in a project and demonstrates the tool chain that makes the process seamless.
 
@@ -23,23 +22,22 @@ For an intro to using NuGet in Visual Studio for Mac, see [Quickstart: Install a
 
     ![Add new NuGet package context action](media/nuget-walkthrough-packages-menu.png)
 
-2. This launches the **Manage NuGet Packages** window. Ensure that the Source drop-down in the top left corner of the dialog is set to `nuget.org`, so that you're searching the central NuGet package repository.
+2. The **Manage NuGet Packages** window is shown. Ensure that the Source drop-down in the top left corner of the dialog is set to `nuget.org`, so that you're searching the central NuGet package repository.
 
     ![List NuGet Packages](media/nuget-walkthrough-add-packages1.png)
 
-3. Use the search box in the top-right corner to find a specific package, for example `EntityFramework`. When you have found a package that you wish to use, select it and click the **Add Package** button to begin installation.
+3. Use the search box in the top-right corner to find a specific package, for example `EntityFramework`. When you have found a package that you wish to use, select it and select the **Add Package** button to begin installation.
 
     ![Add EntityFramework NuGet Package](media/nuget-walkthrough-add-packages2.png)
 
-4. Once the package has been downloaded, it will be added to your project. The solution will change depending on the type of project you're editing:
+4. Once the package has been downloaded, it'll be added to your project. The solution will change depending on the type of project you're editing:
 
     **Xamarin Projects**
     * The **References** node will contain a list of all the assemblies that are part of a NuGet package.
-    * The **Packages** node displays each NuGet package that you have downloaded. You can update or remove a package from this list.
+    * The **Packages** node displays each NuGet package that you've downloaded. You can update or remove a package from this list.
     
     **.NET Core Projects**
-
-    * The **Dependencies > NuGet** node displays each NuGet package that you have downloaded. You can update or remove a package from this list.
+    * The **Dependencies > NuGet** node displays each NuGet package that you've downloaded. You can update or remove a package from this list.
 
 ## Using NuGet Packages
 
@@ -76,16 +74,16 @@ Check the **Show pre-release packages** checkbox at the bottom of the dialog.
 
 ![Manage NuGet Packages dialog opened with the 'Show pre-release packages' option checked](media/nuget-walkthrough-show-pre-release-packages.png)
 
-Finally, from the **Updates** tab of the dialog, select the package you wish to update and choose the new pre-release version from the **New Version** drop-down and click **Update Package**.
+Finally, from the **Updates** tab of the dialog, select the package you wish to update and choose the new pre-release version from the **New Version** drop-down and select **Update Package**.
 
 ![Manage NuGet Packages dialog opened to the Installed tab, with a package selected and the New Version dropdown list open.](media/nuget-walkthrough-packages-nuget-dialog-update-installed-package.png)
 
 ### Locating outdated packages
-From the Solution Window, you can view what version of a package is currently installed and right-click on the package to update.
+From the Solution Window, you can view what version of a package is currently installed. Right-click on the package to update.
 
 ![Packages menu with the options to Update, Remove, Refresh](media/nuget-walkthrough-PackageMenu.png)
 
-You will also see a notification next to the package name when a new version of a package is available, so you can decide if you may want to update it.
+You'll also see a notification next to the package name when a new version of a package is available. You can decide if you may want to update it.
 
 ![Notification shown when a new package version is available](media/nuget-walkthrough-package-update-available.png)
 
@@ -102,17 +100,17 @@ Managing packages for a solution is a convenient means to work with multiple pro
 
     ![Manage NuGet packages for the solution](media/nuget-walkthrough-manage-packages-solution.png)
 
-1. When managing packages for the solution, the UI lets you select the projects that are affected by the operations:
+1. When you manage packages for the solution, the UI lets you select the projects that are affected by the operations:
 
     ![Project selector when managing packages for the solution](media/nuget-walkthrough-add-to-projects.png)
 
 ### Consolidate tab
 
-When working in a solution with multiple projects, it's considered a best practice to make sure that anywhere you use the same NuGet package in each project, you're also using the same version number of that package. Visual Studio for Mac helps make this easier by providing a **Consolidate** tab in the Package Manager UI when you choose to manage packages for a solution. Using this tab, you can easily see where packages with distinct version numbers are used by different projects in the solution:
+When you work in a solution with multiple projects, ensure that anywhere you use the same NuGet package in each project, you're also using the same version number of that package. Visual Studio for Mac helps make it easier by providing a **Consolidate** tab in the Package Manager UI when you choose to manage packages for a solution. Using the **Consolidate** tab, you can easily see where packages with distinct version numbers are used by different projects in the solution:
 
 ![Package Manager UI Consolidate tab](media/nuget-walkthrough-consolidate-tab.png)
 
-In this example, the NuGetDemo project is using Microsoft.EntityFrameworkCore 2.20, whereas NuGetDemo.Shared is using Microsoft.EntityFrameworkCore 2.2.6. To consolidate package versions, do the following:
+In this example, the NuGetDemo project is using Microsoft.EntityFrameworkCore 2.20, whereas NuGetDemo.Shared is using Microsoft.EntityFrameworkCore 2.2.6. To consolidate package versions, follow these steps:
 
 - Select the projects to update in the project list.
 - Select the version to use in all those projects in the **New Version** list, such as Microsoft.EntityFrameworkCore 3.0.0.
@@ -122,13 +120,13 @@ The Package Manager installs the selected package version into all selected proj
 
 ## Adding Package Sources
 
-Packages available for installation are initially retrieved from nuget.org. However, you can add other package locations to Visual Studio for Mac. This can be useful for testing your own NuGet packages under development, or to use a private NuGet server inside your company or organization.
+Packages available for installation are initially retrieved from nuget.org. However, you can add other package locations to Visual Studio for Mac. It's useful for testing your own NuGet packages under development, or to use a private NuGet server inside your company or organization.
 
-In Visual Studio for Mac, navigate to **Visual Studio > Preferences > NuGet > Sources** to view and edit the list of package sources. Note that sources can be a remote server (specified by a URL) or a local directory.
+In Visual Studio for Mac, navigate to **Visual Studio > Preferences > NuGet > Sources** to view and edit the list of package sources. Sources can be a remote server (specified by a URL) or a local directory.
 
 ![Package Sources](media/nuget-walkthrough-PackageSource.png)
 
-Click **Add** to set-up a new source. Enter a friendly name and the URL (or file path) to the package source. If the source is a secure web server, enter the username and password as well, otherwise leave these entries blank:
+Select **Add** to set up a new source. Enter a friendly name and the URL (or file path) to the package source. If the source is a secure web server, enter the username and password as well, otherwise leave these entries blank:
 
 ![Add Package Source dialog with a prompt for Name, location URL, user name, and password.](media/nuget-walkthrough-PackageSource2.png)
 
@@ -138,7 +136,7 @@ Different sources can then be selected when searching for packages:
 
 ## Version Control
 
-The NuGet documentation discusses [using NuGet without committing packages to source control](/nuget/consume-packages/packages-and-source-control). If you prefer not to store binaries and unused information in source control, you can configure Visual Studio for Mac to automatically restore packages from the server. This means that when a developer retrieves the project from source control for the first time, Visual Studio for Mac will automatically download and install the required packages.
+The NuGet documentation discusses [using NuGet without committing packages to source control](/nuget/consume-packages/packages-and-source-control). If you prefer not to store binaries and unused information in source control, you can configure Visual Studio for Mac to automatically restore packages from the server. When a developer retrieves the project from source control for the first time, Visual Studio for Mac will automatically download and install the required packages.
 
 ![Automatically restore packages](media/nuget-walkthrough-AutoRestore.png)
 
@@ -146,7 +144,7 @@ Refer to your particular source control documentation for details on how to excl
 
 ## Related Video
 
-> [!Video https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Using-NuGet/player]
+> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Using-NuGet/player]
 
 ## See also
 
