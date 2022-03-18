@@ -35,7 +35,7 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
     If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **Node.js development** workload, then choose **Modify**.
 
-    ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)
+    ![Node.js workload in VS Installer](./media/tutorial-nodejs-workload.png)
 
 * You must have the Node.js runtime installed.
 

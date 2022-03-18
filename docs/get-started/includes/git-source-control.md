@@ -1,7 +1,7 @@
 ---
-ms.date: 08/30/2021
+ms.date: 02/11/2022
 ms.technology: vs-ide-general
-ms.custom: vs-get-started
+ms.custom: vs-get-started, devdivchpfy22
 ms.author: tglee
 author: TerryGLee
 manager: jmartens
@@ -11,12 +11,12 @@ ms.topic: include
 
 ## Add Git source control
 
-Now that you've created an app, you might want to add it to a Git repository. We've got you covered. Visual Studio makes that process easy with Git tools you can use directly from the IDE.
+Now that you've created an app, you might want to add it to a Git repository. Visual Studio makes that process easy with Git tools you can use directly from the IDE.
 
 > [!TIP]
 > Git is the most widely used modern version control system, so whether you're a professional developer or you're learning how to code, Git can be very useful. If you're new to Git, the [https://git-scm.com/](https://git-scm.com/) website is a good place to start. There, you can find cheat sheets, a popular online book, and Git Basics videos.
 
-To associate your code with Git, you start by creating a new Git repository where your code is located. Here's how:
+To associate your code with Git, start by creating a new Git repository where your code is located:
 
 1. In the status bar at the bottom-right corner of Visual Studio, select **Add to Source Control**, and then select **Git**.
 
@@ -26,7 +26,7 @@ To associate your code with Git, you start by creating a new Git repository wher
 
     :::image type="content" source="../media/vs-2022/git-create-repo.png" alt-text="Screenshot of the Create a Git Repository dialog window where you can sign in to GitHub.":::
 
-    The repository name auto-populates based on your folder location. By default, your new repository is private, which means you're the only one who can access it.
+    The repository name auto-populates based on your folder location. Your new repository is private by default, which means you're the only one who can access it.
 
     > [!TIP]
     > Whether your repository is public or private, it's best to have a remote backup of your code stored securely on GitHub. Even if you aren't working with a team, a remote repository makes your code available to you from any computer.

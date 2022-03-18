@@ -2,7 +2,7 @@
 title: Advanced example for containers
 description: Learn about an advanced example for Docker containers. This example Dockerfile uses a specific version tag of the microsoft/dotnet-framework image.
 ms.custom: SEO-VS-2020
-ms.date: 09/21/2021
+ms.date: 01/11/2022
 ms.topic: conceptual
 ms.assetid: e03835db-a616-41e6-b339-92b41d0cfc70
 author: anandmeg
@@ -94,8 +94,8 @@ RUN `
         --remove Microsoft.VisualStudio.Component.Windows10SDK.10240 `
         --remove Microsoft.VisualStudio.Component.Windows10SDK.10586 `
         --remove Microsoft.VisualStudio.Component.Windows10SDK.14393 `
-        --remove Microsoft.VisualStudio.Component.Windows81SDK)
-    
+        --remove Microsoft.VisualStudio.Component.Windows81SDK) `
+    `
     # Cleanup
     && del /q vs_buildtools.exe
 
@@ -147,8 +147,8 @@ RUN `
         --remove Microsoft.VisualStudio.Component.Windows10SDK.10240 `
         --remove Microsoft.VisualStudio.Component.Windows10SDK.10586 `
         --remove Microsoft.VisualStudio.Component.Windows10SDK.14393 `
-        --remove Microsoft.VisualStudio.Component.Windows81SDK)
-    
+        --remove Microsoft.VisualStudio.Component.Windows81SDK) `
+    `
     # Cleanup
     && del /q vs_buildtools.exe
 
@@ -179,12 +179,12 @@ COPY Install.cmd C:\TEMP\
 ADD https://aka.ms/vscollect.exe C:\TEMP\collect.exe
 
 # Use the latest release channel. For more control, specify the location of an internal layout.
-ARG CHANNEL_URL=https://aka.ms/vs/17/preview/channel
+ARG CHANNEL_URL=https://aka.ms/vs/17/release/channel
 ADD ${CHANNEL_URL} C:\TEMP\VisualStudio.chman
 
 RUN `
     # Download the Build Tools bootstrapper.
-    curl -SL --output vs_buildtools.exe https://aka.ms/vs/17/pre/vs_buildtools.exe `
+    curl -SL --output vs_buildtools.exe https://aka.ms/vs/17/release/vs_buildtools.exe `
     `
     # Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload, excluding workloads and components with known issues.
     && (start /w C:\TEMP\Install.cmd vs_buildtools.exe --quiet --wait --norestart --nocache modify `
@@ -195,8 +195,8 @@ RUN `
         --remove Microsoft.VisualStudio.Component.Windows10SDK.10240 `
         --remove Microsoft.VisualStudio.Component.Windows10SDK.10586 `
         --remove Microsoft.VisualStudio.Component.Windows10SDK.14393 `
-        --remove Microsoft.VisualStudio.Component.Windows81SDK)
-    
+        --remove Microsoft.VisualStudio.Component.Windows81SDK) `
+    `
     # Cleanup
     && del /q vs_buildtools.exe
 

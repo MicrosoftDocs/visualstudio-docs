@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "accessibility features [Help Viewer]"
   - "Help Viewer, accessibility features"
 ms.assetid: 94a3225c-d2cb-4565-8453-855d1cdc1acf
-author: ghogen
-ms.author: ghogen
+author: jasonchlus
+ms.author: jasonchlus
 manager: jmartens
 ms.technology: vs-help-viewer
 ms.workload:

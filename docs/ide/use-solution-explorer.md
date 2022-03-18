@@ -1,11 +1,9 @@
 ---
 title: Learn about Solution Explorer
 description: Learn how you can use the Solution Explorer tool window in Visual Studio to create & manage your files, projects, and solutions.
-ms.date: 09/30/2021
+ms.date: 03/10/2022
 ms.topic: conceptual
 ms.custom: contperf-fy22q1
-f1_keywords:
-- vs.addnewitem
 helpviewer_keywords:
 - solution explorer [Visual Studio]
 author: TerryGLee
@@ -37,7 +35,7 @@ The tool window contains the following UI (user interface) elements:
 - **Project node**, where you can manage your project(s)
 - **Dependencies node**, where you can manage your solution & project dependencies
 - **Program node**, where you can view, edit, and manage your program or application (app)
-- **[Git changes tab](../version-control/git-with-visual-studio.md?view=vs-2019&preserve-view=true#git-changes-window)**, where you can use Git & GitHub within Visual Studio to collaborate on projects with your team
+- **[Git changes tab](../version-control/git-with-visual-studio.md?view=vs-2019&preserve-view=true#git-changes-window-in-visual-studio-2019)**, where you can use Git & GitHub within Visual Studio to collaborate on projects with your team
 
 > [!TIP]
 > If you don't see the Solution Explorer tool window, you can open it from the Visual Studio menu bar by using **View** > **Solution Explorer**, or by pressing **Ctrl**+**Alt**+**L**.
@@ -74,7 +72,7 @@ What you see in the context menu from the **Solution** node also depends on your
 
 ## Add menu
 
-In the Solution Explorer context menu, one of the most useful options is the **Add** fly-out menu. From it, you can [add another project](../get-started/csharp/tutorial-console-part-2.md#add-another-project) to a solution. You can also [add an item](reference/add-new-item-command.md) to a project, and more.
+In the Solution Explorer context menu, one of the most useful options is the **Add** fly-out menu. From it, you can [add another project](../get-started/csharp/tutorial-console-part-2.md#add-another-project) to a solution. You can also add an item to a project, and more.
 
 :::image type="content" source="media/solution-explorer-context-menu-add-flyout.png" alt-text="Screenshot of the Add fly-out menu from the right-click context menu in Solution Explorer.":::
 

@@ -2,7 +2,7 @@
 title: Troubleshooting Code Coverage
 description: Learn how to resolve erroneous empty results messages when you expect Visual Studio to collect data for native and managed assemblies.
 ms.custom: SEO-VS-2020
-ms.date: 03/31/2020
+ms.date: 02/23/2022
 ms.topic: troubleshooting
 ms.author: mikejo
 manager: jmartens
@@ -58,9 +58,15 @@ Explanation&mdash;The code coverage engine requires that every assembly has its 
 
 The *.pdb* file must be generated from the same build as the *.dll* or *.exe* files.
 
-Resolution&mdash;Make sure that your build settings generate the *.pdb* file. If the *.pdb* files are not updated when the project is built, then open the project properties, select the **Build** page, choose **Advanced**, and inspect **Debug Info**.
+Resolution&mdash;Make sure that your build settings generate the *.pdb* file.
 
-For C++ projects, ensure that the generated .pdb files have full debug information. Open the project properties and verify that **Linker** > **Debugging** > **Generate Debug Info** is set to **Generate Debug Information optimized for sharing and publishing (/DEBUG:FULL)**.
+- If the *.pdb* files are not updated when the project is built, then open the project properties, select the **Build** page, choose **Advanced**, and inspect **Debug Info**.
+
+::: moniker range=">=vs-2022"
+- For C# projects targeting .NET Core or .NET 5+, open the project properties, select the **Build** tab, choose **General**, and inspect **Debug symbols**.
+::: moniker-end
+
+- For C++ projects, ensure that the generated .pdb files have full debug information. Open the project properties and verify that **Linker** > **Debugging** > **Generate Debug Info** is set to **Generate Debug Information optimized for sharing and publishing (/DEBUG:FULL)**.
 
 If the *.pdb* and *.dll* or *.exe* files are in different places, copy the *.pdb* file to the same directory. It is also possible to configure code coverage engine to search for *.pdb* files in another location. For more information, see [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md).
 

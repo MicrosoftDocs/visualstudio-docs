@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with React"
 description: In this tutorial, you create an app using ASP.NET Core and React
-ms.date: 11/08/2021
+ms.date: 03/15/2022
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -32,9 +32,9 @@ Starting in Visual Studio 2022 Preview 2, you can use the method described in th
 
 Make sure to have the following installed:
 
-- Visual Studio 2022 Preview 2 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+- Visual Studio 2022 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
-- npm ([https://www.npmjs.com/](https://www.npmjs.com/)) 
+- npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
 - npx ([https://www.npmjs.com/package/npx](https://www.npmjs.com/package/npx))
 
 ## Create the frontend app
@@ -59,6 +59,10 @@ Make sure to have the following installed:
    - App.js (modified)
    - App.test.js (modified)
 
+1. Select an installed browser from the Debug toolbar, such as Chrome or Microsoft Edge.
+
+   If the browser you want is not yet installed, install the browser first, and then select it.
+
 ## Create the backend app
 
 1. In the solution explorer, right-click the solution name, hover over **Add**, and then select **New Project**. 
@@ -80,14 +84,17 @@ Make sure to have the following installed:
 1. Right-click the ASP.NET Core project and choose **Properties**.
 
    :::image type="content" source="media/vs-2022/asp-net-core-project-properties.png" alt-text="Open project properties"::: 
- 
+
 1. Go to the Debug menu and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option.
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-react-deselect-launch-browser.png" alt-text="Open debug launch profiles UI"::: 
 
 1. Next, right-click the React project and select the **Properties** menu and go the **Debugging** section. Change the Debugger to launch to the **launch.json** option.
- 
+
    :::image type="content" source="media/vs-2022/asp-net-core-with-react-choose-debugger.png" alt-text="Choose the debugger (launch.json)":::
+
+   >[!NOTE]
+   > This setting sets the location of *launch.json*. The default path for *launch.json* is under *.vscode/launch.json*, so typically you can skip this step if you are using the default path.
 
 ## Set the startup project
 
@@ -103,12 +110,19 @@ Make sure to have the following installed:
 
    If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It should look similar to `https://localhost:7049`.
 
-1. Then, go to the *setupProxy.js* file for your React project (look in the *src* folder). Update the target property to match the `applicationUrl` property in  *launchSettings.json*.
+1. Then, go to the *setupProxy.js* file for your React project (look in the *src* folder). Update the target property to match the `applicationUrl` property in  *launchSettings.json*. When you update it, that value should look similar to this:
+
+   ```js
+   target: 'https://localhost:7049',
+   ```
 
 1. To start the project, press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
 
-- The ASP.NET Core API project running
-- npm running the react-scripts start command
+   - The ASP.NET Core API project running
+   - npm running the react-scripts start command
+
+   >[!NOTE]
+   > Check console output for messages, such as a message instructing you to update your version of Node.js.
 
 You should see an React app appear, that is populated via the API.
 

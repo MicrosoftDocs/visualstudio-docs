@@ -4,8 +4,8 @@ description: How to plot data from R programs in Visual Studio, using plot windo
 ms.date: 06/29/2017
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-rtvs
 ms.workload:

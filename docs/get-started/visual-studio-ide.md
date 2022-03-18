@@ -2,7 +2,7 @@
 title: Overview of Visual Studio
 titleSuffix: ''
 description: Learn about the Visual Studio integrated development environment.
-ms.date: 09/14/2021
+ms.date: 02/10/2022
 ms.technology: vs-ide-general
 ms.topic: overview
 ms.custom: [vs-acquisition,  vs-get-started, SEO-VS-2020]
@@ -23,6 +23,8 @@ ms.workload:
 
 Explore Visual Studio further by following along with one of these introductory articles:
 
+- Cover the basics in this Learn module: [Introduction to Visual Studio](/learn/modules/visual-studio-intro/).
+
 - Get acquainted with the code editor in [Learn to use the code editor](tutorial-editor.md).
 
 - Learn how Visual Studio organizes code in [Learn about projects and solutions](tutorial-projects-solutions.md).
@@ -35,9 +37,11 @@ If you're ready to dive into more coding, one of the following language-specific
 
 - [Use Visual Studio to create your first F# web app](../ide/quickstart-fsharp.md)
 
-- [Use Visual Studio to create your first Node.js app](../ide/quickstart-nodejs.md)
-
 - [Use Visual Studio to create your first C++ console app](/cpp/get-started/tutorial-console-cpp)
+
+Another good place to start with coding is a tutorial:
+
+- [Create a Node.js and Express app in Visual Studio](../javascript/tutorial-nodejs.md)
 
 ## See also
 
