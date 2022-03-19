@@ -122,12 +122,12 @@ The **Statements** options control automatic rewriting of various statements int
 
 
 |Reformat| Example 1 |
-| --- | --- | 
+| :- | :- |
 |Before| `# This is a very long long long long long long long long long long long long long long long long long long long comment`|
 |After| `# This is a very long long long long long long long long long long long long`<br/>`# long long long long long long long comment` |
 
 
 |Reformat|Example 2 |
-| --- | --- | 
+| :- | :- | 
 |Before|`# foo`<br/>`# bar`<br/>`# baz`  |
 |After| `# foo bar baz` |
