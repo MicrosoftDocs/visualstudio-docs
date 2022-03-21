@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Add new connections
 
+The steps in this article show how to connect to a database in the Visual Studio IDe. You can use these steps to work directly with your data, such as execute queries, edit data, create and edit tables and other schema properties, edit stored procedures and functions, triggers, and so on. These functions are independent of the programming language or .NET version you are using.
+
 :::moniker range="<=vs-2019"
 You can test your connection to a database or service, and explore database contents and schemas, by using **Server Explorer**, **Cloud Explorer**, or **SQL Server Object Explorer**. The functionality of these windows overlaps to some extent. The basic differences are:
 
@@ -51,7 +53,7 @@ To create a connection to the database, click the **Add Connection** icon in **S
 ![Server Explorer Connect to Database icon.](./media/vs-2022/connect-to-database-server-explorer.png)
 :::moniker-end
 
-This brings up the **Add Connection** dialog box. Here, we have entered the name of the SQL Server LocalDB instance.
+This brings up the **Add Connection** dialog box. Here, we have entered the name of the SQL Server LocalDB instance, `(localdb)\MSSqlLocalDB`, which is usually installed with Visual Studio.
 
 :::moniker range="<=vs-2019"
 ![Add New Connection](../data-tools/media/raddata-add-new-connection-dialog.png)
@@ -59,6 +61,8 @@ This brings up the **Add Connection** dialog box. Here, we have entered the name
 :::moniker range=">=vs-2022"
 ![Add New Connection dialog box.](./media/vs-2022/add-new-connection.png)
 :::moniker-end
+
+If you don't have access to another database, and you don't see LocalDB installed, you can install LocalDB through the Visual Studio Installer, as part of the **Data Storage and Processing** workload, the **ASP.NET and web development** workload, or as an individual component. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
 ## Change the provider
 
@@ -99,6 +103,36 @@ After you have chosen the data source, click **Test Connection**. If it doesn't 
 :::moniker-end
 
 If the test succeeds, you are ready to create a *data source*, which is a Visual Studio term that really means a *data model* that is based on the underlying database or service.
+
+:::moniker range=">=vs-2022"
+
+## Connect using SQL Server Object Explorer
+
+The experience might be easier if you use **SQL Server Object Explorer**, which gives you a dialog that provides more help in finding available databases locally, on the local network, and in your Azure subscriptions, and provides a history of recently used choices.
+
+To access the connect dialog from **SQL Server Object Explorer**, click the toolbar button **Add SQL Server**.
+
+![SQL Server Object Explorer Add SQL Server button](./media/vs-2022/sql-server-object-explorer-add-sql-server-button.png)
+
+The connect dialog comes up. Choose your local, network, or Azure SQL server, select a database, provide credentials, and choose **Connect**.
+
+![SQL Server Object Explorer Connect dialog.](./media/vs-2022/sql-server-object-explorer-connect-dialog.png)
+
+If you need to set other settings in your connection string, you can use the **Advanced** link, which brings up all the settings.
+
+![Advanced settings](./media/vs-2022/sql-connect-advanced-options.png)
+
+After you are done setting up the connection, the server and database are shown in the SQL Server Object Explorer window.
+
+![Connected successfully](./media/vs-2022/successfully-added-connection.png)
+
+From there, you can browse the database, write and execute queries, edit data, stored procedures and functions, and perform other actions directly in Visual Studio.
+
+:::moniker-end
+
+## Next steps
+
+If you're using the .NET Framework and Windows Forms or WPF, you can the **Data Sources** window, for example, to set up databinding for controls in Windows Forms and WPF Applications, see [Add new data sources](add-new-data-sources.md).
 
 ## See also
 
