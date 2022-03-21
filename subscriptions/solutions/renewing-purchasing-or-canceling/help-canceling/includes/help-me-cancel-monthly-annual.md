@@ -3,7 +3,7 @@ title: Help me cancel monthly or annual subscriptions
 description: Help me cancel Visual Studio subscriptions from marketplace.visualstudio.com
 ms.topic: include
 ms.assetid: 99f61e19-8251-4f91-b496-3faba77cad4e
-author: caitycherniak
+author: evanwindom
 ms.author: amast
 ms.date: 09/29/2021
 user.type: subscriber
