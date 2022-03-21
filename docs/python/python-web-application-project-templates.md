@@ -19,8 +19,6 @@ Python in Visual Studio supports developing web projects in Bottle, Flask, and D
 
 You can also use the generic **Web Project** template for other frameworks such as Pyramid. In this case, no frameworks are installed with the template. Instead, install the necessary packages into the environment you're using for the project (see [Python environments window - Package tab](python-environments-window-tab-reference.md#packages-tab)).
 
-For information on deploying a Python web app to Azure, see [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md).
-
 ## Use a project template
 
 You create a project from a template using **File** > **New** > **Project**. To see templates for web projects, select **Python** > **Web** on the left side of the dialog box. Then select a template of your choice, providing names for the project and solution, set options for a solution directory and Git repository, and select **OK**.
@@ -147,4 +145,3 @@ If you have settings for another framework that you would like to share, or if y
 ## See also
 
 - [Python item templates reference](python-item-templates.md)
-- [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md)

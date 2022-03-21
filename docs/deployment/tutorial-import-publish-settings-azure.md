@@ -14,9 +14,7 @@ ms.workload:
 ---
 # Get publish settings from Azure and import into Visual Studio
 
-You can use the **Publish** tool to import publish settings and then deploy your app. In this article, we use publish settings for Azure App Service.
-
-These steps apply to ASP.NET and ASP.NET Core web apps. You can also import publish settings for [Python](../python/publishing-python-web-applications-to-azure-from-visual-studio.md) apps.
+You can use the **Publish** tool to import publish settings and then deploy your app. In this article, we use publish settings for Azure App Service. These steps apply to ASP.NET and ASP.NET Core web apps. 
 
 > [!NOTE]
 > A publish settings file (*\*.publishsettings*) is different than a publishing profile (*\*.pubxml*) created in Visual Studio. A publish settings file is created by Azure App Service, and then it can be imported into Visual Studio.
