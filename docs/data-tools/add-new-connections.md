@@ -84,10 +84,10 @@ If the data source is not what you want, click the **Change** button to choose a
 ::: moniker-end
 
 :::moniker range="<=vs-2019"
-![Change AD0.NET Data Provider.](../data-tools/media/raddata-change-ad0.net-data-provider.png)
+![Change ADO.NET Data Provider.](../data-tools/media/raddata-change-ad0.net-data-provider.png)
 :::moniker-end
 :::moniker range=">=vs-2022"
-![Change AD0.NET Data Provider.](../data-tools/media/change-data-source.png)
+![Change ADO.NET Data Provider.](../data-tools/media/change-data-source.png)
 :::moniker-end
 
 ## Test the connection
