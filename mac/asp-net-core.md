@@ -35,7 +35,7 @@ There are many projects that'll provide you with a pre-built template to start b
 - **.NET Core > Blazor Server App**
 - **.NET Core > Blazor WebAssembly App**
 
-![ASP.NET Project Options](media/asp-net-core-2019-new-asp-core.png)
+![ASP.NET Project Options](media/asp-net-core-2022-new-asp-core.png)
 
 Select the **ASP.NET Core Empty Web Application** and press **Next**. Give the Project a name and press **Create**. This creates a new ASP.NET Core app. In the solution window's left pane, expand the second arrow and then select **Startup.cs**. It should look similar to the image below:
 
