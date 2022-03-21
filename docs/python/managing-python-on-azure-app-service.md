@@ -16,9 +16,6 @@ ms.workload:
 
 # How to set up a Python environment on Azure App Service (Windows)
 
-> [!Important]
-> Microsoft has deprecated the Python extensions for App Service on Windows as described in this article in favor of a direct deployment to [App Service on Linux](publishing-python-web-applications-to-azure-from-visual-studio.md).
-
 [Azure App Service](https://azure.microsoft.com/services/app-service/) is a platform-as-a-service offering for web apps, whether they are sites accessed through a browser, REST APIs used by your own clients, or event-triggered processing. App Service fully supports using Python to implement apps.
 
 Customizable Python support for Azure App Service is provided as a set of App Service *site extensions* that each contain a specific version of the Python runtime. You can then install any desired packages directly into that environment, as described in this article. By customizing the environment in the App Service itself, you don't need to maintain packages in your web app projects or upload them with the app code.

@@ -75,6 +75,5 @@ Congratulations on completing this tutorial on Python in Visual Studio. In this 
 From here, explore the Concepts and How-to guides, including the following articles:
 
 - [Create a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md)
-- [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md)
 - [Profiling](profiling-python-code-in-visual-studio.md)
 - [Unit testing](unit-testing-python-in-visual-studio.md)
