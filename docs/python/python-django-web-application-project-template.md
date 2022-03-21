@@ -65,4 +65,3 @@ The Django management console is accessed through various commands on the **Proj
 ## See also
 
 - [Learn Django tutorial](learn-django-in-visual-studio-step-01-project-and-solution.md)
-- [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md)

@@ -118,6 +118,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/python/publishing-python-web-applications-to-azure-from-visual-studio.md",
+      "redirect_url": "/visualstudio/python",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/quickstart-csharp-console.md",
       "redirect_url": "/visualstudio/get-started/csharp/tutorial-console",
       "redirect_document_id": false
