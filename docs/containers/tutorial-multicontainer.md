@@ -57,6 +57,9 @@ Do not select **Enable Docker Support**. You'll add Docker support later.
 ::: moniker-end
 ::: moniker range=">=vs-2022"
 
+> [!NOTE]
+> In Visual Studio 2022 17.2 Preview 2 and later, you can use Azure Functions for this project instead.
+
 ![Screenshot showing Create ASP.NET Core Web App project.](./media/tutorial-multicontainer/vs-2022/create-web-project.png)
 
 Do not select **Enable Docker Support**. You'll add Docker support later.

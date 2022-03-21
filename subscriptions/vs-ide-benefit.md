@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: c4b13464-76be-40f1-ad60-ed79ee264b12
-ms.date: 10/18/2021
+ms.date: 03/15/2022
 ms.topic: how-to
 description:  Learn how to download and install the Visual Studio IDE included in your Visual Studio subscription
 ---

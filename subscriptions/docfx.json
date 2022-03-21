@@ -4,11 +4,13 @@
       {
         "files": [
           "**/*.md",
+          "solutions/**/includes/**.md",
+          "faq/**/includes/**.md",
           "**/**.yml"
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**",
+          "includes/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
@@ -44,7 +46,12 @@
       "searchScope": ["VS Subscriptions"],
       "recommendations": true
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+        "ROBOTS": {
+            "solutions/**/includes/**.md": "NoIndex,NoFollow",
+            "faq/**/includes/**.md": "NoIndex,NoFollow"
+        }
+    },
     "template": [],
     "dest": "subscriptions",
     "markdownEngineName": "markdig",
