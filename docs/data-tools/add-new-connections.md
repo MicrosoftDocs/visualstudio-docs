@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Add new connections
 
-The steps in this article show how to connect to a database in the Visual Studio IDe. You can use these steps to work directly with your data, such as execute queries, edit data, create and edit tables and other schema properties, edit stored procedures and functions, triggers, and so on. These functions are independent of the programming language or .NET version you are using.
+The steps in this article show how to connect to a database in the Visual Studio IDE. You can use these steps to work directly with your data, such as execute queries, edit data, create and edit tables and other schema properties, edit stored procedures and functions, triggers, and so on. These functions are independent of the programming language or .NET version you are using.
 
 :::moniker range="<=vs-2019"
 You can test your connection to a database or service, and explore database contents and schemas, by using **Server Explorer**, **Cloud Explorer**, or **SQL Server Object Explorer**. The functionality of these windows overlaps to some extent. The basic differences are:
