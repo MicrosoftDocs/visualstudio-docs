@@ -67,7 +67,7 @@ An ASP.NET Core app creates a web server in its main method by configuring and l
 
 * `.UseStartup<Startup>()`: Specifies the Startup class.
 
-However, you can also add more configurations, such as:
+However, you can also add additional configurations, such as:
 
 * `UseKestrel`: Specifies the Kestrel server will be used by the app
 * `UseContentRoot(Directory.GetCurrentDirectory())`: Uses the web project's root folder as the app's content root when the app is started from this folder
@@ -117,7 +117,7 @@ You can configure delegates by using the `Run`,`Map`, and `Use` methods on `IApp
 
 The `Configure` method of the pre-built template is built to do a few things. First, it configures an exception handling page for use during development. Then, it sends a response to the requesting web page with a simple "Hello World".
 
-This simple Hello, World project can run now without any other code being added. To run the app, you can either select which browser you want to run app the app in using the dropdown right of the Play button. Or, you can hit the Play (triangular) button to use your default browser:
+This simple Hello, World project can run now without any additional code being added. To run the app, you can either select which browser you want to run app the app in using the dropdown right of the Play button. Or, you can hit the Play (triangular) button to use your default browser:
 
 ![Browser Run](media/asp-net-web-picker.png)
 
@@ -139,7 +139,7 @@ ASP.NET Core Apps use the Model-View-Controller (MVC) design pattern to provide 
 
 For more information on using MVC, see the [Overview of ASP.NET Core MVC](/aspnet/core/mvc/overview) guide.
 
-To add a controller, do the following steps:
+To add a controller, follow these steps:
 
 1. Right-click on the Project name and select **Add > New Files**. Select **General > Empty Class**, and enter a controller name:
 
