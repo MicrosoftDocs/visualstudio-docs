@@ -2,7 +2,7 @@
 title: 'How to: Specify build events (C#)'
 description: Learn how to use build events to specify commands that run before the build starts or after the build finishes.
 ms.custom: SEO-VS-2020
-ms.date: 03/21/2019
+ms.date: 03/04/2022
 ms.technology: vs-ide-compile
 ms.topic: how-to
 helpviewer_keywords:
@@ -20,11 +20,13 @@ ms.workload:
 ---
 # How to: Specify build events (C#)
 
-Use build events to specify commands that run before the build starts or after the build finishes. Build events execute only if the build successfully reaches those points in the build process.
+Use build events to specify commands that run before the build starts or after the build finishes.
 
 When a project is built, pre-build events are added to a file named *PreBuildEvent.bat* and post-build events are added to a file named *PostBuildEvent.bat*. If you want to ensure error checking, add your own error-checking commands to the build steps.
 
 ## Specify a build event
+
+:::moniker range="<=vs-2019"
 
 1. In **Solution Explorer**, select the project for which you want to specify the build event.
 
@@ -46,6 +48,31 @@ When a project is built, pre-build events are added to a file named *PreBuildEve
 
    > [!NOTE]
    > To add lengthy syntax, or to select any build macros from the [Pre-build event/post-build event command line dialog box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md), click the ellipsis button (**...**) to display an edit box.
+
+:::moniker-end
+:::moniker range=">=vs-2022"
+
+1. In **Solution Explorer**, select the project for which you want to specify the build event.
+
+2. On the **Project** menu, click **Properties** (or from **Solution Explorer**, press **Alt**+**Enter**).
+
+3. Select **Build > Events**.
+
+   ![Screenshot showing the Build Events settings.](media/vs-2022/build-events.png)
+
+4. In the **Pre-build event** section, specify the syntax of the build event.
+
+   > [!NOTE]
+   > Pre-build events do not run if the project is up to date and no build is triggered.
+
+5. In the **Post-build event** section, specify the syntax of the build event.
+
+   > [!NOTE]
+   > Add a `call` statement before all post-build commands that run *.bat* files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.
+
+6. In the **When to run the post-build event** section, specify under what conditions to run the post-build event.
+
+:::moniker-end
 
    The build event syntax can include any command that is valid at a command prompt or in a *.bat* file. The name of a batch file should be preceded by `call` to ensure that all subsequent commands are executed.
 
@@ -152,9 +179,9 @@ Next, invoke this command in a post-build event to modify the application manife
    <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
    ```
 
-5. Back in the **Project Designer**, click the **Build Events** tab and then click **Edit Post-build**.
+5. Back in the **Project Designer**, click the **Build Events** tab.
 
-6. In the **Post-build Event Command Line** box, enter the following command:
+6. In the **Post-build event** section, enter the following command:
 
    `C:\TEMP\ChangeOSVersionCS.exe "$(TargetPath).manifest" 5.1.2600.0`
 
@@ -169,6 +196,9 @@ Next, invoke this command in a post-build event to modify the application manife
    ```xml
    <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
    ```
+
+> [!NOTE]
+> Some scenarios may require more intelligent build actions than the build events are capable of. For example, for many common code-generation scenarios, you need to handle clean and rebuild operations, and you might want to enable incremental build for code-generation steps, so that the step only runs if the output is out-of-date with respect to the inputs. For such scenarios, consider creating a [custom target](../msbuild/target-build-order.md) that specifies `AfterTargets` or `BeforeTargets` to run during a specific point in the build process, and for further control in advanced scenarios, consider creating a [custom task](../msbuild/task-writing.md).
 
 ## See also
 
