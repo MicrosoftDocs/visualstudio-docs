@@ -2,7 +2,7 @@
 title: Visual Studio build numbers and release dates
 titleSuffix: ''
 description: A list of released versions and build numbers for Visual Studio, sorted by date.
-author: RyanMolyneaux
+author: rjmolyneaux
 ms.author: rmolyneaux
 manager: jmartens
 ms.date: 03/22/2022
