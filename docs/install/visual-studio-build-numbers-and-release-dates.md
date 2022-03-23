@@ -2,10 +2,10 @@
 title: Visual Studio build numbers and release dates
 titleSuffix: ''
 description: A list of released versions and build numbers for Visual Studio, sorted by date.
-author: TerryGLee
-ms.author: tglee
+author: rjmolyneaux
+ms.author: rmolyneaux
 manager: jmartens
-ms.date: 02/15/2022
+ms.date: 03/22/2022
 ms.custom: vs-acquisition
 ms.topic: reference
 ms.workload:
@@ -24,6 +24,11 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 17.2.0 | Preview 2.1 | March 22, 2022 | 17.2.32317.152 |
+| 17.1.2 | Release | March 22, 2022 | 17.1.32319.34 |
+| 17.2.0 | Preview 2 | March 16, 2022 | 17.2.32314.265 |
+| 17.1.1 | Release | March 8, 2022 | 17.1.32228.430 |
+| 17.0.7 | Release | March 8, 2022 | 17.0.32228.444 |
 | 17.2.0 | Preview 1 | February 15, 2022 | 17.2.32210.308 |
 | 17.1.0 | Release | February 15, 2022 | 17.1.32210.238 |
 | 17.1.0 | Preview 6 | February 9, 2022 | 17.1.32203.90 |
@@ -65,6 +70,9 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.11.11 | Release | March 8, 2022  | 16.11.32228.343 |
+| 16.9.18  | Release | March 8, 2022  | 16.9.32228.547 |
+| 16.7.26  | Release | March 8, 2022  | 16.7.32228.349 |
 | 16.11.10 | Release | February 8, 2022  | 16.11.32126.315 |
 | 16.9.17 | Release | February 8, 2022  | 16.9.32126.311 |
 | 16.7.25 | Release | February 8, 2022  | 16.7.32125.265 |
@@ -313,6 +321,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**      | **Channel** | **Release date**   | **Build version** |
 |------------------|-------------|--------------------|-------------------|
+| 15.9.45          | Release     | March 8, 2022      | 15.9.28307.1831   |
 | 15.9.44          | Release     | February 8, 2022   | 15.9.28307.1800   |
 | 15.9.43          | Release     | January 11, 2022   | 15.9.28307.1778   |
 | 15.9.42          | Release     | December 14, 2021  | 15.9.28307.1759   |
