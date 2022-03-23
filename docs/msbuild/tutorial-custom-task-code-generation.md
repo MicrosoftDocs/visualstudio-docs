@@ -1,6 +1,6 @@
 ---
 title: Create a custom task | Microsoft Docs
-description: Learn how to use MSBuild to create a custom task that properly handles incremental build and clean operations.
+description: Learn how to use MSBuild to create a custom task for code generation that properly handles incremental build and clean operations.
 ms.date: 02/17/2022
 ms.topic: tutorial
 helpviewer_keywords:
@@ -13,9 +13,11 @@ ms.technology: msbuild
 ms.workload:
 - multiple
 ---
-# Tutorial: Create a custom task
+# Tutorial: Create a custom task for code generation
 
 In this tutorial, you'll create a custom Task in MSBuild in C# that handles code generation and then you'll use the task in a build that can run in Visual Studio, from the command-line, or could be used in a build pipeline. This example demonstrates how to use MSBuild to handle the clean and rebuild operations. The example also shows how to support incremental build, so that the code is generated only when the input files have changed. The techniques demonstrated are applicable to a wide range of code generation scenarios. The steps also show the use of NuGet to package the task for distribution, and the tutorial includes an optional step to use the BinLog viewer to improve the troubleshooting experience.
+
+The complete sample code for this tutorial is at [Custom task - code generation](https://github.com/dotnet/samples/tree/main/msbuild/custom-task-code-generation) in the .NET samples repo on GitHub.
 
 ## Prerequisites
 

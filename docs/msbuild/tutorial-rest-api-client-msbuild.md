@@ -13,9 +13,11 @@ ms.technology: msbuild
 ms.workload:
 - multiple
 ---
-# Tutorial: Use code generation in a build
+# Tutorial: Generate a REST.API client with MSBuild
 
-An application which consumes RestApi is a very common scenario. In this tutorial you'll learn how to generate the Rest API client automatically during build process using MSBuild. You'll use [NSawg](/aspnet/core/tutorials/getting-started-with-nswag?tabs=visual-studio), a tool that generates client code for a REST API.
+An application which consumes a REST API is a very common scenario in which you need to generate code that your application code can use to call the online API. In this tutorial you'll learn how to generate the Rest API client automatically during build process using MSBuild. You'll use [NSawg](/aspnet/core/tutorials/getting-started-with-nswag?tabs=visual-studio), a tool that generates client code for a REST API.
+
+The complete sample code is available at [REST API client generation](https://github.com/dotnet/samples/tree/main/msbuild/rest-api-client-generation) in the .NET samples repo on GitHub.
 
 The example shows a console app that consumes the public [Pet Store API](https://petstore.swagger.io), which publishes an [OpenAPI spec](https://petstore.swagger.io/v2/swagger.json).
 

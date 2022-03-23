@@ -14,10 +14,10 @@ ms.workload:
 ---
 # Tutorial: Test a custom task
 
-You can use unit testing functionality in Visual Studio to test your MSBuild Custom Task before distribution to ensure the correctness of the code. For information about the benefits of doing tests and basic test tooling, see [basics about unit tests](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md). In this tutorial, you use the code examples used in other MSBuild custom task tutorials. The following projects used in those tutorials are available in GitHub and include unit and integration tests for MSBuild Custom Tasks:
+You can use unit testing functionality in Visual Studio to test an MSBuild custom task before distribution to ensure the correctness of the code. For information about the benefits of doing tests and basic test tooling, see [basics about unit tests](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md). In this tutorial, you use the code examples used in other MSBuild custom task tutorials. The following projects used in those tutorials are available in GitHub and include unit and integration tests for MSBuild custom tasks:
 
-1. [Custom Task-Code Generation](tutorial-custom-task.md)
-1. [The Rest-Api client Generation - Option 2 - MSBuild Tool Task](tutorial-code-generation.md)
+1. [Custom Task](tutorial-custom-task-code-generation.md)
+1. [Code Generation](tutorial-code-generation.md)
 
 ## Unit Test
 
@@ -25,7 +25,9 @@ A MSBuild custom task is a class which inherits from <xref:Microsoft.Build.Utili
 
 A build engine is needed, which a class which implements [IBuildEngine](/dotnet/api/microsoft.build.framework.ibuildengine). In this example there is a mock using [Moq](https://github.com/Moq/moq4/wiki/Quickstart), but you can use other mock tools. The example collects the errors, but you can collect other information and then assert it.
 
-The Engine mock is needed on all the tests, so it's included as `TestInitialize` (it is executed before each test, and each test has own build engine). [Complete example](./custom-task-code-generation/AppSettingStronglyTyped/AppSettingStronglyTyped.Test/AppSettingStronglyTypedTest.cs)
+The Engine mock is needed on all the tests, so it's included as `TestInitialize` (it is executed before each test, and each test has own build engine). 
+
+For the complete code, see[AppSettingStronglyTypedTest.cs](https://github.com/dotnet/samples/blob/main/msbuild/custom-task-code-generation/AppSettingStronglyTyped/AppSettingStronglyTyped.Test/AppSettingStronglyTypedTest.cs) in the .NET samples repo  on GitHub.
 
 ```csharp
        private Mock<IBuildEngine> buildEngine;
@@ -84,7 +86,7 @@ Unit tests are important, but you also need to test the custom MSBuild task in a
 
 [System.Diagnostics.Process Class](/dotnet/api/system.diagnostics.process) provides access to local and remote processes and enables you to start and stop local system processes. This example runs a build on a unit test using test MSBuild files.
 
-The test code needs to initialize the execution context for each test. Pay attention to ensure the path to the `dotnet` command is accurate for your environment. The complete example is [here](./custom-task-code-generation/AppSettingStronglyTyped/AppSettingStronglyTyped.Test/AppSettingStronglyTypedIntegrationTest.cs)
+The test code needs to initialize the execution context for each test. Pay attention to ensure the path to the `dotnet` command is accurate for your environment. The complete example is [here](https://github.com/dotnet/samples/blob/main/msbuild/custom-task-code-generation/AppSettingStronglyTyped/AppSettingStronglyTyped.Test/AppSettingStronglyTypedIntegrationTest.cs).
 
 ```csharp
         public const string MSBUILD = "C:\\Program Files\\dotnet\\dotnet.exe";
@@ -114,7 +116,7 @@ On cleanup, the test needs to finish the process:
         }
 ```
 
-Now, create each test. Each test will need its own MSBuild file definition to be executed. For example [testscript-success.msbuild](./custom-task-code-generation/AppSettingStronglyTyped/AppSettingStronglyTyped.Test/Resources/testscript-success.msbuild). For understanding the file please read [Tutorial: Crete a custom task](tutorial-custom-task.md).
+Now, create each test. Each test will need its own MSBuild file definition to be executed. For example [testscript-success.msbuild](https://github.com/dotnet/samples/blob/main/msbuild/custom-task-code-generation/AppSettingStronglyTyped/AppSettingStronglyTyped.Test/Resources/testscript-success.msbuild). For understanding the file please read [Tutorial: Crete a custom task](tutorial-custom-task.md).
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
