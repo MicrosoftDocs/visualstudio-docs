@@ -79,7 +79,7 @@ The complete code is in the *PetReaderExecTaskExample* folder; you can download 
 
    After installing the `NSwag.MSBuild` NuGet package in your project, you can use the variable `$(NSwagExe)` in your `.csproj` file to run the NSwag command-line tool in an MSBuild target. This way, the tools can easily be updated via NuGet. Here we are using the `Exec` MSBuild task to execute the NSwag program with the required parameters to generate the client Rest Api. See [NSwag command and parameters](https://github.com/RicoSuter/NSwag/wiki/NSwag.MSBuild).
 
-   You can capture output from `<Exec>` adding `ConsoleToMsBuild="true"` to your `<Exec>` tag and then capturing the output using the `ConsoleOutput` parameter in an `<Output>` tag. `ConsoleOutput` returns the output as an Item. Whitespace is trimmed. ConsoleOutput is enabled when ConsoleToMSBuild is true.
+   You can capture output from `<Exec>` adding `ConsoleToMsBuild="true"` to your `<Exec>` tag and then capturing the output using the `ConsoleOutput` parameter in an `<Output>` tag. `ConsoleOutput` returns the output as an `Item`. Whitespace is trimmed. `ConsoleOutput` is enabled when `ConsoleToMSBuild` is true.
 
    The second target called `forceReGenerationOnRebuild` deletes the generated class during cleanup to force the regeneration of the generated code during rebuild target execution. This target runs after the `CoreClean` MSBuild predefined target.
 
@@ -214,17 +214,19 @@ The complete code is in this `PetReaderToolTaskExample` folder; you can download
 
 1. Build the project.
 
-## Create a console app to use our new MSBuild Task
+## Create a console app to use the new MSBuild task
 
 The next step is to create an app that uses the task.
 
-1. Create a **Console App** project, and call it `PetReaderToolTaskConsoleApp`. We are going to use .NET 6.0 in our case. Mark it as startup project.
+1. Create a **Console App** project, and call it `PetReaderToolTaskConsoleApp`. Choose .NET 6.0. Mark it as startup project.
 
 1. Create a **Class Library** project to generate the code, called `PetRestApiClient`.  Use .NET Standard 2.1.
 
 1. In the `PetReaderToolTaskConsoleApp` project, create a project dependency to `PetRestApiClient`.
 
-1. In the `PetRestApiClient` project create a folder `PetRestApiClient`. This folder will contain the generated code.Delete *Class1.cs*, which was automatically generated.
+1. In the `PetRestApiClient` project create a folder `PetRestApiClient`. This folder will contain the generated code.
+
+1. Delete *Class1.cs*, which was automatically generated.
 
 1. On `PetRestApiClient`, add the following NuGet packages:
 
@@ -260,30 +262,30 @@ The next step is to create an app that uses the task.
 
 1. Change the MSBuild instructions to call the task and generate the code. Edit *PetRestApiClient.csproj* by following these steps:
 
-   1. Register to the MSBuild custom task:
+   1. Register the use of the MSBuild custom task:
 
-     ```xml
-     <UsingTask TaskName="RestApiClientGenerator.RestApiClientGenerator" AssemblyFile="..\RestApiClientGenerator\bin\Debug\netstandard2.0\RestApiClientGenerator.dll" />
-     ```
+       ```xml
+       <UsingTask TaskName="RestApiClientGenerator.RestApiClientGenerator" AssemblyFile="..\RestApiClientGenerator\bin\Debug\netstandard2.0\RestApiClientGenerator.dll" />
+       ```
 
-   1. Add some props needed to execute the task:
+   1. Add some properties needed to execute the task:
 
-     ```xml
-     <PropertyGroup>
-        <!--The place where the OpenApi spec is in-->
-       <PetClientInputOpenApiSpec>petshop-openapi-spec.json</PetClientInputOpenApiSpec>
-       <PetClientClientClassName>PetRestApiClient</PetClientClientClassName>
-       <PetClientClientNamespaceName>PetRestApiClient</PetClientClientNamespaceName>
-       <PetClientFolderClientClass>PetRestApiClient</PetClientFolderClientClass>
-       <!--The directory where NSawg.exe is in-->
-       <NSwagCommandFullPath>C:\Nsawg\Win</NSwagCommandFullPath>
-      </PropertyGroup>
-     ```
+      ```xml
+       <PropertyGroup>
+          <!--The place where the OpenApi spec is in-->
+         <PetClientInputOpenApiSpec>petshop-openapi-spec.json</PetClientInputOpenApiSpec>
+         <PetClientClientClassName>PetRestApiClient</PetClientClientClassName>
+         <PetClientClientNamespaceName>PetRestApiClient</PetClientClientNamespaceName>
+         <PetClientFolderClientClass>PetRestApiClient</PetClientFolderClientClass>
+         <!--The directory where NSawg.exe is in-->
+         <NSwagCommandFullPath>C:\Nsawg\Win</NSwagCommandFullPath>
+        </PropertyGroup>
+      ```
 
-     > [!IMPORTANT]
-     > Select the proper `NSwagCommandFullPath` value based on the installation location on your system.
+      > [!IMPORTANT]
+      > Select the proper `NSwagCommandFullPath` value based on the installation location on your system.
 
-   1. Add a [MSBuild targets](msbuild-targets.md) to generate the client during build process. This target should execute before `CoreCompile` executes to generate the code used in the compilation.
+   1. Add an [MSBuild target](msbuild-targets.md) to generate the client during the build process. This target should execute before `CoreCompile` executes to generate the code used in the compilation.
 
       ```xml
       <Target Name="generatePetClient" BeforeTargets="CoreCompile" Inputs="$(PetClientInputOpenApiSpec)" Outputs="$(PetClientFolderClientClass)\$(PetClientClientClassName).cs">
@@ -300,17 +302,17 @@ The next step is to create an app that uses the task.
 
 1. Select `PetReaderToolTaskConsoleApp` and rebuild only that project. Now, the client code is generated and the code compiles. You can execute it and see how it works. This code generates the code from a file, and that is allowed.
 
-1. On this step, we are going to show the parameter validation. In *PetRestApiClient.csproj*, change the property `$(PetClientInputOpenApiSpec)` to use the URL:
+1. In this step, you'll demonstrate the parameter validation. In *PetRestApiClient.csproj*, change the property `$(PetClientInputOpenApiSpec)` to use the URL:
 
    ```xml
      <PetClientInputOpenApiSpec>https://petstore.swagger.io/v2/swagger.json</PetClientInputOpenApiSpec>
    ```
 
-1. Select `PetReaderToolTaskConsoleApp` and rebuild only that project. You will get the error, "URL is not allowed."
+1. Select `PetReaderToolTaskConsoleApp` and rebuild only that project. You will get the error, "URL is not allowed" in accordance with the design requirement.
 
-## Downloading code
+## Download the code
 
-Install the [NSwag command line tool](https://github.com/RicoSuter/NSwag/releases). Then, you'll need the full path to the directory where NSwag.exe is located. After that, edit *PetRestApiClient.csproj* and select the proper `$(NSwagCommandFullPath)` value based on your computer. Now, select `RestApiClientGenerator` and build only that project, and finally select and rebuild `PetReaderToolTaskConsoleApp`. You can execute `PetReaderToolTaskConsoleApp`. to verify that everything works as expected.
+Install the [NSwag command line tool](https://github.com/RicoSuter/NSwag/releases). Then, you'll need the full path to the directory where NSwag.exe is located. After that, edit *PetRestApiClient.csproj* and select the proper `$(NSwagCommandFullPath)` value based on the installation path on your computer. Now, select `RestApiClientGenerator` and build only that project, and finally select and rebuild `PetReaderToolTaskConsoleApp`. You can execute `PetReaderToolTaskConsoleApp`. to verify that everything works as expected.
 
 ## Next steps
 
