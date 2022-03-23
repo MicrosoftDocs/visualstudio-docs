@@ -73,9 +73,9 @@ items:
         href: how-to-ignore-errors-in-tasks.md
       - name: Build a project that has resources
         href: how-to-build-a-project-that-has-resources.md
-      - name: Create a custom task
+      - name: Create a custom task for code generation
         href: tutorial-custom-task-code-generation.md
-      - name: Handle code generation
+      - name: Create a REST API client in a build
         href: tutorial-rest-api-client-msbuild.md
       - name: Test a custom task
         href: tutorial-test-custom-task.md

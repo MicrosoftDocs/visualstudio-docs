@@ -17,8 +17,6 @@ ms.workload:
 
 In this tutorial, you'll create a custom Task in MSBuild in C# that handles code generation and then you'll use the task in a build that can run in Visual Studio, from the command-line, or could be used in a build pipeline. This example demonstrates how to use MSBuild to handle the clean and rebuild operations. The example also shows how to support incremental build, so that the code is generated only when the input files have changed. The techniques demonstrated are applicable to a wide range of code generation scenarios. The steps also show the use of NuGet to package the task for distribution, and the tutorial includes an optional step to use the BinLog viewer to improve the troubleshooting experience.
 
-The complete sample code for this tutorial is at [Custom task - code generation](https://github.com/dotnet/samples/tree/main/msbuild/custom-task-code-generation) in the .NET samples repo on GitHub.
-
 ## Prerequisites
 
 You should have an understanding of MSBuild concepts such as tasks, targets, and properties. See [MSBuild concepts](msbuild-concepts.md).
@@ -35,20 +33,20 @@ In this tutorial, you'll create a MSBuild custom task named AppSettingStronglyTy
 propertyName:type:defaultValue
 ```
 
-The code generates a C# class with all the constants. This simple example demonstrates the mechanism, but the same techniques can be used for more advanced code generation scenarios. A problem should stop the build and give the user enough information to diagnose the problem.
+The code generates a C# class with all the constants. A problem should stop the build and give the user enough information to diagnose the problem.
 
-You can find the complete example at [MSBuild examples](https://github.com/v-fearam/msbuild-examples).
+The complete sample code for this tutorial is at [Custom task - code generation](https://github.com/dotnet/samples/tree/main/msbuild/custom-task-code-generation) in the .NET samples repo on GitHub.
 
 ## Create the AppSettingStronglyTyped project
 
 Create a .NET Standard Class Library. The framework should be .NET Standard 2.0.
 
-Be sure to understand the difference between full MSBuild (the one that Visual Studio uses) and portable MSBuild, the one bundled in the .NET Core Command Line.
+Note the difference between full MSBuild (the one that Visual Studio uses) and portable MSBuild, the one bundled in the .NET Core Command Line.
 
 - Full MSBuild: This version of MSBuild usually lives inside Visual Studio. Runs on .NET Framework. Visual Studio uses this when you execute **Build** on your solution or project. This version is also available from a command-line environment, such as the Visual Studio Developer Command Prompt, or PowerShell.
 - .NET MSBuild: This version of MSBuild is bundled in the .NET Core Command Line. It runs on .NET Core. Visual Studio does not directly invoke this version of MSBuild. It only supports projects that build using Microsoft.NET.Sdk.
 
-if you want to share code between .NET Framework and any other .NET implementation, such as .NET Core, your library should target [.NET Standard 2.0](/dotnet/standard/net-standard), and we want to run inside Visual Studio which runs on .NET Framework. .NET Framework doesn't support .NET Standard 2.1.
+if you want to share code between .NET Framework and any other .NET implementation, such as .NET Core, your library should target [.NET Standard 2.0](/dotnet/standard/net-standard), and you want to run inside Visual Studio which runs on the .NET Framework. .NET Framework doesn't support .NET Standard 2.1.
 
 ## Create the AppSettingStronglyTyped MSBuild custom task
 
@@ -74,7 +72,7 @@ The first step is to create the MSBuild custom task. Information about how to [w
 
    The task processes the _SettingFiles_ and generates a class `SettingNamespaceName.SettingClassName`. The generated class will have a set of constants based on the text file's content.
 
-   The task output will be a string that gives the filename of the generated code.
+   The task output should be a string that gives the filename of the generated code:
 
    ```csharp
         // The filename where the class was generated
@@ -189,12 +187,12 @@ The example code generates C# code during the build process. The task is like an
 
 In this section, you'll create a standard .NET Core Console App for testing the task.
 
-> [!CAUTION]
+> [!IMPORTANT]
 > It's important to avoid generating a MSBuild custom task in the same MSBuild process which is going to consume it. The new project should be in a complete different Visual Studio solution, or the new project use a dll pre-generated and re-located from the standard output.
 
 1. Create the .NET Console project MSBuildConsoleExample in a new Visual Studio Solution.
 
-   The normal way to distribute a task is through a NuGet package, but during development and debugging, you can include all the information on `.props` and `.targets` directly on your application's project file and then move to the NuGet format when you distribute the task to others.
+   The normal way to distribute a task is through a NuGet package, but during development and debugging, you can include all the information on `.props` and `.targets` directly in your application's project file and then move to the NuGet format when you distribute the task to others.
 
 1. Modify the project file to consume the code generation task. The code listing in this section shows the modified project file after referencing the task, setting the input parameters for the task, and writing the targets for handling clean and rebuild operations so that the generated code file is removed as you would expect.
 
@@ -246,15 +244,15 @@ In this section, you'll create a standard .NET Core Console App for testing the 
 
    The `Inputs` and `Outputs` attributes help MSBuild be more efficient by providing information for incremental builds. The dates of the inputs are compared against the outputs to see if the target needs to be run, or if the output of the previous build can be reused.
 
-1. Create the input text file with the extension defined to be discovered. Using the default extension create `MyValues.mysettings` on the root, with the following content:
+1. Create the input text file with the extension defined to be discovered. Using the default extension, create `MyValues.mysettings` on the root, with the following content:
 
    ```
    Greeting:string:Hello World!
    ```
 
-1. Build again and the generated file should be created and built. Check the project folder for the *MySetting.generated.cs* file.
+1. Build again, and the generated file should be created and built. Check the project folder for the *MySetting.generated.cs* file.
 
-1. The class *MySetting* is in the wrong namespace, so now make a change to use our app namespace. Open the project file and add
+1. The class *MySetting* is in the wrong namespace, so now make a change to use our app namespace. Open the project file and add the following code:
 
    ```xml
    <PropertyGroup>
@@ -264,7 +262,7 @@ In this section, you'll create a standard .NET Core Console App for testing the 
 
 1. Rebuild again, and observe that the class is in the `MSBuildConsoleExample` namespace. In this way, you can redefine the generated class name (`SettingClass`), the text extension files (`SettingExtensionFile`) to be use as input, and the location (`RootFolder`) of them if you like.
 
-1. Open *Program.cs* and change the hardcoded 'Hello Word!!' to the user-defined constant:
+1. Open *Program.cs* and change the hardcoded 'Hello World!!' to the user-defined constant:
 
    ```csharp
         static void Main(string[] args)
@@ -277,17 +275,17 @@ Execute the program; it will print the greeting from the generated class.
 
 ### (Optional) Log events during build process
 
-It is possible to compile using a command line command. Navigate to the project folder. You'll use the  `-bl` (binary log) option to generate a binary log. The binary log will have a very useful information to know what is going on during build process.
+It is possible to compile using a command-line command. Navigate to the project folder. You'll use the  `-bl` (binary log) option to generate a binary log. The binary log will have a very useful information to know what is going on during build process.
 
 ```dotnetcli
-# Using Dotnet MSBuild (run core environment)
+# Using dotnet MSBuild (run core environment)
 dotnet build -bl
 
-# or Full MSBuild (run on net framework environment, this is used by Visual Studio)
+# or full MSBuild (run on net framework environment; this is used by Visual Studio)
 msbuild -bl
 ```
 
-Both of them will generate a log file `msbuild.binlog`, and it can be opened with [this tool](https://msbuildlog.com/). The option `/t:rebuild` means run the rebuild target. It will force the regeneration of the generated code file.
+Both of the commands generate a log file `msbuild.binlog`, which can be opened with [MSBuild Binary and Structured Log Viewer](https://msbuildlog.com/). The option `/t:rebuild` means run the rebuild target. It will force the regeneration of the generated code file.
 
 Congratulations! You've built a task that generates code, and used it in a build.
 
@@ -371,11 +369,11 @@ If you only need to use your custom task in a few projects or in a single soluti
 
 ### Include MSBuild properties and targets in a package
 
-For background on this section, read about [properties and targets](customize-your-build.md) and then how to [include props and targets in a NuGet package](/nuget/create-packages/creating-a-package#include-msbuild-props-and-targets-in-a-package).
+For background on this section, read about [properties and targets](customize-your-build.md) and then how to [include properties and targets in a NuGet package](/nuget/create-packages/creating-a-package#include-msbuild-props-and-targets-in-a-package).
 
 In some cases, you might want to add custom build targets or properties in projects that consume your package, such as running a custom tool or process during build. You do this by placing files in the form `<package_id>.targets` or `<package_id>.props` within the `build` folder in the project.
 
-Files in the project root `build` folder are considered suitable for all target frameworks.
+Files in the project root *build* folder are considered suitable for all target frameworks.
 
 In this section, you'll wire up the task implementation in `.props` and `.targets` files, which will be included in our NuGet package and automatically loaded from a referencing project.
 
@@ -391,8 +389,7 @@ In this section, you'll wire up the task implementation in `.props` and `.target
 	</ItemGroup>
    ```
 
-1. Create a _build_ folder and in that folder, add two text files: *AppSettingStronglyTyped.props* and *AppSettingStronglyTyped.targets*.
-*AppSettingStronglyTyped.props* is imported very early in *Microsoft.Common.props*, and properties defined later are unavailable to it. So, avoid referring to properties that are not yet defined; they would evaluate to empty.
+1. Create a *build* folder and in that folder, add two text files: *AppSettingStronglyTyped.props* and *AppSettingStronglyTyped.targets*. *AppSettingStronglyTyped.props* is imported very early in *Microsoft.Common.props*, and properties defined later are unavailable to it. So, avoid referring to properties that are not yet defined; they would evaluate to empty.
 
    *Directory.Build.targets* is imported from *Microsoft.Common.targets* after importing `.targets` files from NuGet packages. So, it can override properties and targets defined in most of the build logic, or set properties for all your projects regardless of what the individual projects set. See [import order](customize-your-build.md#import-order).
 
@@ -458,18 +455,18 @@ In this section, you'll wire up the task implementation in `.props` and `.target
 
    The first step is the creation of an [InputGroup](msbuild-items.md) which represents the text files (it could be more than one) to read and it will be some of our task parameter. There are default for the location and the extension where we look for, but you can override the values defining the properties on the client msbuild project file.
 
-   Then we define two [MSBuild targets](msbuild-targets.md). We [extend the MSBuild process](how-to-extend-the-visual-studio-build-process.md) overriding predefined targets:
+   Then we define two [MSBuild targets](msbuild-targets.md). We [extend the MSBuild process](how-to-extend-the-visual-studio-build-process.md), overriding predefined targets:
 
-   - `BeforeCompile`: The goal is to call our custom task to generate the class and include the class to be compiled. Tasks that are inserted before core compilation is done. Input and Output field are related to [incremental build](incremental-builds.md). If all output items are up-to-date, MSBuild skips the target. This incremental build of the target can significantly improve the build speed. An item is considered up-to-date if its output file is the same age or newer than its input file or files.
+   - `BeforeCompile`: The goal is to call our custom task to generate the class and include the class to be compiled. Tasks in this target are inserted before core compilation is done. Input and Output field are related to [incremental build](incremental-builds.md). If all output items are up-to-date, MSBuild skips the target. This incremental build of the target can significantly improve the build speed. An item is considered up-to-date if its output file is the same age or newer than its input file or files.
 
-   -`AfterClean`: The goal is to delete the generated class file after a general clean happens.Tasks that are inserted after the core clean functionality is invoked. It force the generation on MSBuild rebuild target execution.
+   - `AfterClean`: The goal is to delete the generated class file after a general clean happens. Tasks in this target are inserted after the core clean functionality is invoked. It forces the code generation step to be repeated on MSBuild rebuild target execution.
 
 ### Generate the NuGet package
 
 To generate the NuGet package, you can use Visual Studio (right-click on the project node in **Solution Explorer**, and select **Pack**). You can also do it by using the command line. Navigate to the folder where the task project file *AppSettingStronglyTyped.csproj* is present, and execute the following command:
 
 ```dotnetcli
-//-o is to define the output, we are choose the current folder
+// -o is to define the output; the following command chooses the current folder.
 dotnet pack -o .
 ```
 
