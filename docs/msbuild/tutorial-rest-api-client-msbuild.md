@@ -118,7 +118,7 @@ Congratulations! Now, you can execute the program to see how it is working.
 In many cases, using the `Exec` task is good enough to execute an external tools to do something, like REST API Client Code Generation.
 
 In this tutorial, you'll continue with the same example, but the ideas can be used for other more complex examples.
-What if you want to allow Rest Api Client Code Generation if only if you don't use absolute Windows path as input? Or what if you need to calculate in some way where the executable is? When there is any situation where you need to execute some code to do extra work, the [MSBuild Tool Task](/dotnet/api/microsoft.build.utilities.tooltask) is the best solution. This is an abstract class derived from MSBuild `Task`. You can define a concrete subclass, which creates a custom MSBuild task. This lets you run any code that is needed to prepare for command execution. You should read about [Custom task code generation](tutorial-custom-task.md) first.
+What if you want to allow Rest Api Client Code Generation if only if you don't use absolute Windows path as input? Or what if you need to calculate in some way where the executable is? When there is any situation where you need to execute some code to do extra work, the [MSBuild Tool Task](/dotnet/api/microsoft.build.utilities.tooltask) is the best solution. This is an abstract class derived from MSBuild `Task`. You can define a concrete subclass, which creates a custom MSBuild task. This lets you run any code that is needed to prepare for command execution. You should read about [Custom task code generation](tutorial-custom-task-code-generation.md) first.
 
 You'll create a custom task derived from [MSBuild Tool Task](/dotnet/api/microsoft.build.utilities.tooltask) which will generate a REST API client but it will fail if you try to reference the OpenApi spec using a http address. NSwag supports a http address as OpenApi spec input, but for the purposes of this example, let's suppose there's a design requirement to disallow that.
 
@@ -237,7 +237,7 @@ The next step is to create an app that uses the task.
 1. In the `PetRestApiClient` project, create a text file named *petshop-openapi-spec.json* (in the project folder). To add the OpenApi spec, copy the content from [here](https://petstore.swagger.io/v2/swagger.json) into the file. We like a reproducible build that depends only on the input. Consuming the api directly could transform a build which works today to a build which fails tomorrow from the same source. In this example, you'll raise a build error if a user chooses a URL as the OpenApi spec input.
 
 > [!WARNING]
-> A general rebuild won't work. You'll see errors that indicate it's unable to copy or delete `RestApiClientGenerator`.dll'. This is because it's trying to build the MBuild Custom Task in the same build process which uses it. Select `PetReaderToolTaskConsoleApp` and rebuild only that project. The another solution is put the Custom Task in a completely independent Visual Studio solution as you did in [Tutorial: Create a custom task](tutorial-custom-task.md) example.
+> A general rebuild won't work. You'll see errors that indicate it's unable to copy or delete `RestApiClientGenerator`.dll'. This is because it's trying to build the MBuild Custom Task in the same build process which uses it. Select `PetReaderToolTaskConsoleApp` and rebuild only that project. The another solution is put the Custom Task in a completely independent Visual Studio solution as you did in [Tutorial: Create a custom task](tutorial-custom-task-code-generation.md) example.
 
 1. Copy the following code into *Program.cs*:
 
@@ -320,7 +320,7 @@ Install the [NSwag command line tool](https://github.com/RicoSuter/NSwag/release
 You might want to publish your custom task as a NuGet package.
 
 > [!div class="nextstepaction"]
-> [Tutorial: Create a custom task](tutorial-custom-task.md#package-the-task-for-distribution)
+> [Tutorial: Create a custom task](tutorial-custom-task-code-generation.md#package-the-task-for-distribution)
 
 Or, learn how to test a custom task.
 

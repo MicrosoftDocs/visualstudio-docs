@@ -17,7 +17,7 @@ ms.workload:
 You can use unit testing functionality in Visual Studio to test an MSBuild custom task before distribution to ensure the correctness of the code. For information about the benefits of doing tests and basic test tooling, see [basics about unit tests](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md). In this tutorial, you use the code examples used in other MSBuild custom task tutorials. The following projects used in those tutorials are available in GitHub and include unit and integration tests for MSBuild custom tasks:
 
 1. [Custom Task](tutorial-custom-task-code-generation.md)
-1. [Code Generation](tutorial-code-generation.md)
+1. [Code Generation](tutorial-rest-api-client-generation-msbuild.md)
 
 ## Unit Test
 
@@ -116,7 +116,7 @@ On cleanup, the test needs to finish the process:
         }
 ```
 
-Now, create each test. Each test will need its own MSBuild file definition to be executed. For example [testscript-success.msbuild](https://github.com/dotnet/samples/blob/main/msbuild/custom-task-code-generation/AppSettingStronglyTyped/AppSettingStronglyTyped.Test/Resources/testscript-success.msbuild). For understanding the file please read [Tutorial: Crete a custom task](tutorial-custom-task.md).
+Now, create each test. Each test will need its own MSBuild file definition to be executed. For example [testscript-success.msbuild](https://github.com/dotnet/samples/blob/main/msbuild/custom-task-code-generation/AppSettingStronglyTyped/AppSettingStronglyTyped.Test/Resources/testscript-success.msbuild). For understanding the file please read [Tutorial: Crete a custom task](tutorial-custom-task-code-generation.md).
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
