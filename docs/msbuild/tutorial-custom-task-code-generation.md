@@ -82,7 +82,7 @@ The first step is to create the MSBuild custom task. Information about how to [w
 
 1. When you create a custom task, you inherit from <xref:Microsoft.Build.Utilities.Task?displayProperty=fullName>. To implement the task, you override the <xref:Microsoft.Build.Utilities.Task.Execute> method. The `Execute` method returns `true` if the task succeeds, and `false` otherwise. `Task` implements <xref:Microsoft.Build.Framework.ITask?displayProperty=nameWithType> and provides default implementations of some `ITask` members and additionally, provides some logging functionality. It is important to output status to the log to diagnose and troubleshoot the task, especially if a problem occurs and the task must return an error result (`false`). On error, the class signals the error by calling <xref:Microsoft.Build.Utilities.TaskLoggingHelper.LogError%2A?displayProperty=nameWithType>.
 
-```csharp
+   ```csharp
         public override bool Execute()
         {
             //Read the input files and return a IDictionary<string, object> with the properties to be created. 
@@ -97,9 +97,9 @@ The first step is to create the MSBuild custom task. Information about how to [w
 
             return !Log.HasLoggedErrors;
         }
-```
+   ```
 
-The Task API allows returning false, indicating failure, without indicating to the user what went wrong. It is best to return `!Log.HasLoggedErrors` instead of a boolean code, and log an error when something goes wrong.
+   The Task API allows returning false, indicating failure, without indicating to the user what went wrong. It is best to return `!Log.HasLoggedErrors` instead of a boolean code, and log an error when something goes wrong.
 
 ### Logging errors
 
@@ -185,7 +185,7 @@ The example code generates C# code during the build process. The task is like an
 
 ## Generate a console app and use the custom task
 
-In this section, you'll create a standard .NET Core Console App for testing the task.
+In this section, you'll create a standard .NET Core Console App that uses the task.
 
 > [!IMPORTANT]
 > It's important to avoid generating a MSBuild custom task in the same MSBuild process which is going to consume it. The new project should be in a complete different Visual Studio solution, or the new project use a dll pre-generated and re-located from the standard output.
@@ -273,7 +273,7 @@ In this section, you'll create a standard .NET Core Console App for testing the 
 
 Execute the program; it will print the greeting from the generated class.
 
-### (Optional) Log events during build process
+### (Optional) Log events during the build process
 
 It is possible to compile using a command-line command. Navigate to the project folder. You'll use the  `-bl` (binary log) option to generate a binary log. The binary log will have a very useful information to know what is going on during build process.
 

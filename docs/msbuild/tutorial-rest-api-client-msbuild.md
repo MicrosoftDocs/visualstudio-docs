@@ -13,7 +13,7 @@ ms.technology: msbuild
 ms.workload:
 - multiple
 ---
-# Tutorial: Generate a REST.API client with MSBuild
+# Tutorial: Generate a REST.API client
 
 An application which consumes a REST API is a very common scenario in which you need to generate code that your application code can use to call the online API. In this tutorial, you'll learn how to generate the Rest API client automatically during build process using MSBuild. You'll use [NSwag](/aspnet/core/tutorials/getting-started-with-nswag?tabs=visual-studio), a tool that generates client code for a REST API.
 
@@ -25,9 +25,9 @@ The tutorial assumes basic knowledge of MSBuild terms such as tasks, targets, pr
 
 When you want to run a command-line tool as part of a build, there are two approaches to consider. One is to use the MSBuild [Exec task](exec-task.md), which lets you run a command-line tool and specify its parameters. The other method is to create a custom task derived from [ToolTask](xref:Microsoft.Build.Utilities.ToolTask), which gives you greater control.
 
-## Option 1: Use the MSBuild Exec Task
+## Option 1: Exec task
 
-We will use the ["Exec" MSBuild task](/dotnet/api/microsoft.build.tasks.exec), which simply invokes the specified process with the specified arguments, waits for it to complete, and then returns `true` if the process completes successfully, and `false` if an error occurs.
+The [Exec task](/dotnet/api/microsoft.build.tasks.exec) simply invokes the specified process with the specified arguments, waits for it to complete, and then returns `true` if the process completes successfully, and `false` if an error occurs.
 
 NSwag code generation can be used from MSBuild; see [NSwag.MSBuild](https://github.com/RicoSuter/NSwag/wiki/NSwag.MSBuild).
 
@@ -51,20 +51,20 @@ The complete code is in the *PetReaderExecTaskExample* folder; you can download 
 
 1. Next, modify PetShopRestClient.csproj and add a [MSBuild targets](msbuild-targets.md) to generate the client during build process.
 
-  First, add some properties useful for client generation:
+   First, add some properties useful for client generation:
 
-  ```xml
+   ```xml
     <PropertyGroup>
         <PetOpenApiSpecLocation>petshop-openapi-spec.json</PetOpenApiSpecLocation>
         <PetClientClassName>PetShopRestClient</PetClientClassName>
         <PetClientNamespace>PetShopRestClient</PetClientNamespace>
         <PetClientOutputDirectory>PetShopRestClient</PetClientOutputDirectory>
     </PropertyGroup>
-    ```
+   ```
 
-  Add the following targets:
+   Add the following targets:
 
-    ```xml
+   ```xml
     <Target Name="generatePetClient" BeforeTargets="CoreCompile" Inputs="$(PetOpenApiSpecLocation)" Outputs="$(PetClientOutputDirectory)\$(PetClientClassName).cs">
         <Exec Command="$(NSwagExe) openapi2csclient /input:$(PetOpenApiSpecLocation)  /classname:$(PetClientClassName) /namespace:$(PetClientNamespace) /output:$(PetClientOutputDirectory)\$(PetClientClassName).cs" ConsoleToMSBuild="true">
         <Output TaskParameter="ConsoleOutput" PropertyName="OutputOfExec" />
@@ -73,26 +73,26 @@ The complete code is in the *PetReaderExecTaskExample* folder; you can download 
     <Target Name="forceReGenerationOnRebuild" AfterTargets="CoreClean">
        <Delete Files="$(PetClientOutputDirectory)\$(PetClientClassName).cs"></Delete>
     </Target>
-    ```
+   ```
 
-    Notice that this target uses the attributes [BeforeTarget and AfterTarget](target-build-order.md#beforetargets-and-aftertargets) as way to define build order. The first target called `generatePetClient` will be executed before the core compilation target, so the source will be created before the compiler executes. The input and output parameter are related to [Incremental Build](how-to-build-incrementally.md). MSBuild can compare the timestamps of the input files with the timestamps of the output files and determine whether to skip, build, or partially rebuild a target.
+   Notice that this target uses the attributes [BeforeTarget and AfterTarget](target-build-order.md#beforetargets-and-aftertargets) as way to define build order. The first target called `generatePetClient` will be executed before the core compilation target, so the source will be created before the compiler executes. The input and output parameter are related to [Incremental Build](how-to-build-incrementally.md). MSBuild can compare the timestamps of the input files with the timestamps of the output files and determine whether to skip, build, or partially rebuild a target.
 
-    After installing the `NSwag.MSBuild` NuGet package in your project, you can use the variable `$(NSwagExe)` in your `.csproj` file to run the NSwag command-line tool in an MSBuild target. This way, the tools can easily be updated via NuGet. Here we are using the `Exec` MSBuild task to execute the NSwag program with the required parameters to generate the client Rest Api. See [NSwag command and parameters](https://github.com/RicoSuter/NSwag/wiki/NSwag.MSBuild).
+   After installing the `NSwag.MSBuild` NuGet package in your project, you can use the variable `$(NSwagExe)` in your `.csproj` file to run the NSwag command-line tool in an MSBuild target. This way, the tools can easily be updated via NuGet. Here we are using the `Exec` MSBuild task to execute the NSwag program with the required parameters to generate the client Rest Api. See [NSwag command and parameters](https://github.com/RicoSuter/NSwag/wiki/NSwag.MSBuild).
 
-    You can capture output from `<Exec>` adding `ConsoleToMsBuild="true"` to your `<Exec>` tag and then capturing the output using the `ConsoleOutput` parameter in an `<Output>` tag. `ConsoleOutput` returns the output as an Item. Whitespace is trimmed. ConsoleOutput is enabled when ConsoleToMSBuild is true.
+   You can capture output from `<Exec>` adding `ConsoleToMsBuild="true"` to your `<Exec>` tag and then capturing the output using the `ConsoleOutput` parameter in an `<Output>` tag. `ConsoleOutput` returns the output as an Item. Whitespace is trimmed. ConsoleOutput is enabled when ConsoleToMSBuild is true.
 
-    The second target called `forceReGenerationOnRebuild` deletes the generated class during cleanup to force the regeneration of the generated code during rebuild target execution. This target runs after the `CoreClean` MSBuild predefined target.
+   The second target called `forceReGenerationOnRebuild` deletes the generated class during cleanup to force the regeneration of the generated code during rebuild target execution. This target runs after the `CoreClean` MSBuild predefined target.
 
 1. Execute a Visual Studio Solution rebuild and see the client generated on the `PetShopRestClient` folder.
 
 1. Now, use the generated client. Go to the client *Program.cs*, and copy the following code:
 
-  ```csharp
-  using System;
-  using System.Net.Http;
+   ```csharp
+   using System;
+   using System.Net.Http;
 
-  namespace PetReaderExecTaskExample
-  {
+   namespace PetReaderExecTaskExample
+   {
       internal class Program
       {
           private const string baseUrl = "https://petstore.swagger.io/v2";
@@ -105,30 +105,27 @@ The complete code is in the *PetReaderExecTaskExample* folder; you can download 
               Console.WriteLine($"Id: {pet.Id} Name: {pet.Name} Status: {pet.Status} CategoryName: {pet.Category.Name}");
           }
       }
-  }
-  ```
+   }
+   ```
 
-  >[!NOTE]
-  > This code uses `new HttpClient()` because it's simple to demonstrate, but it is not the best practice for real-world code. The best practice is to use `HttpClientFactory` to create an `HttpClient` object which addresses the known issues of `HttpClient` request like Resource Exhaustion or Stale DNS problems. See [Use IHttpClientFactory to implement resilient HTTP requests](/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
+   >[!NOTE]
+   > This code uses `new HttpClient()` because it's simple to demonstrate, but it is not the best practice for real-world code. The best practice is to use `HttpClientFactory` to create an `HttpClient` object which addresses the known issues of `HttpClient` request like Resource Exhaustion or Stale DNS problems. See [Use IHttpClientFactory to implement resilient HTTP requests](/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
 
 Congratulations! Now, you can execute the program to see how it works.
 
-## Option 2: Use the Custom task derived from MSBuild Tool Task
+## Option 2: Custom task derived from ToolTask
 
-In many cases, using the `Exec` task is good enough to execute an external tool to do something like REST API client code generation.
-
-In this tutorial, you'll continue with the same example, but the ideas can be used for other more complex examples.
-What if you want to allow REST API client code generation if and only if you don't use an absolute Windows path as input? Or what if you need to calculate in some way where the executable is? When there is any situation where you need to execute some code to do extra work, the [MSBuild Tool Task](/dotnet/api/microsoft.build.utilities.tooltask) is the best solution. This is an abstract class derived from MSBuild `Task`. You can define a concrete subclass, which creates a custom MSBuild task. This lets you run any code that is needed to prepare for command execution. You should read the tutorial [Create a custom task for code generation](tutorial-custom-task-code-generation.md) first.
+In many cases, using the `Exec` task is good enough to execute an external tool to do something like REST API client code generation, but what if you want to allow REST API client code generation if and only if you don't use an absolute Windows path as input? Or what if you need to calculate in some way where the executable is? When there is any situation where you need to execute some code to do extra work, the [MSBuild Tool Task](/dotnet/api/microsoft.build.utilities.tooltask) is the best solution. This is an abstract class derived from MSBuild `Task`. You can define a concrete subclass, which creates a custom MSBuild task. This lets you run any code that is needed to prepare for command execution. You should read the tutorial [Create a custom task for code generation](tutorial-custom-task-code-generation.md) first.
 
 You'll create a custom task derived from [MSBuild Tool Task](/dotnet/api/microsoft.build.utilities.tooltask) which will generate a REST API client but it will fail if you try to reference the OpenApi spec using a http address. NSwag supports a http address as OpenApi spec input, but for the purposes of this example, let's suppose there's a design requirement to disallow that.
 
-The complete code version is in this `PetReaderToolTaskExample` folder; you can download and take a look. In this tutorial, you'll go through step by step and learn some concepts that you can apply to your own scenarios.
+The complete code is in this `PetReaderToolTaskExample` folder; you can download and take a look. In this tutorial, you'll go through step by step and learn some concepts that you can apply to your own scenarios.
 
 1. Create a new Visual Studio Project for the custom task. Call it `RestApiClientGenerator1` and use the **Class Library (C#)** template with .NET Standard 2.0. Name the solution `PetReaderToolTaskExample`.
 
 1. Delete *Class1.cs*, which was automatically generated.
 
-1. Add _Microsoft.Build.Utilities.Core_ NuGet packages:
+1. Add the `Microsoft.Build.Utilities.Core` NuGet packages:
 
    - Create a class called `RestApiClientGenerator`
    - Inherit from MSBuild `ToolTask` and implement the abstract method as shown in the following code:
@@ -212,8 +209,8 @@ The complete code version is in this `PetReaderToolTaskExample` folder; you can 
     }
     ```
 
-> [!NOTE]
-> This simple validation could be done in other way on the MSBuild file, but it is recommended do it in C# code and encapsulate the command and the logic.
+    > [!NOTE]
+    > This simple validation could be done in other way on the MSBuild file, but it is recommended do it in C# code and encapsulate the command and the logic.
 
 1. Build the project.
 
@@ -236,8 +233,8 @@ The next step is to create an app that uses the task.
 
 1. In the `PetRestApiClient` project, create a text file named *petshop-openapi-spec.json* (in the project folder). To add the OpenApi spec, copy the content from [here](https://petstore.swagger.io/v2/swagger.json) into the file. We like a reproducible build that depends only on the input, as discussed previously. In this example, you'll raise a build error if a user chooses a URL as the OpenApi spec input.
 
-> [!IMPORTANT]
-> A general rebuild won't work. You'll see errors that indicate it's unable to copy or delete `RestApiClientGenerator`.dll'. This is because it's trying to build the MBuild custom tyask in the same build process which uses it. Select `PetReaderToolTaskConsoleApp` and rebuild only that project. The another solution is put the custom task in a completely independent Visual Studio solution as you did in [Tutorial: Create a custom task](tutorial-custom-task-code-generation.md) example.
+   > [!IMPORTANT]
+   > A general rebuild won't work. You'll see errors that indicate it's unable to copy or delete `RestApiClientGenerator`.dll'. This is because it's trying to build the MBuild custom tyask in the same build process which uses it. Select `PetReaderToolTaskConsoleApp` and rebuild only that project. The another solution is put the custom task in a completely independent Visual Studio solution as you did in [Tutorial: Create a custom task](tutorial-custom-task-code-generation.md) example.
 
 1. Copy the following code into *Program.cs*:
 
@@ -288,16 +285,16 @@ The next step is to create an app that uses the task.
 
    1. Add a [MSBuild targets](msbuild-targets.md) to generate the client during build process. This target should execute before `CoreCompile` executes to generate the code used in the compilation.
 
-     ```xml
-     <Target Name="generatePetClient" BeforeTargets="CoreCompile" Inputs="$(PetClientInputOpenApiSpec)" Outputs="$(PetClientFolderClientClass)\$(PetClientClientClassName).cs">
+      ```xml
+      <Target Name="generatePetClient" BeforeTargets="CoreCompile" Inputs="$(PetClientInputOpenApiSpec)" Outputs="$(PetClientFolderClientClass)\$(PetClientClientClassName).cs">
         <!--Calling our custom task derivated from MSBuild Tool Task-->
         <RestApiClientGenerator InputOpenApiSpec="$(PetClientInputOpenApiSpec)" ClientClassName="$(PetClientClientClassName)" ClientNamespaceName="$(PetClientClientNamespaceName)" FolderClientClass="$(PetClientFolderClientClass)" NSwagCommandFullPath="$(NSwagCommandFullPath)"></RestApiClientGenerator>
-     </Target>
+      </Target>
 
-     <Target Name="forceReGenerationOnRebuild" AfterTargets="CoreClean">
+      <Target Name="forceReGenerationOnRebuild" AfterTargets="CoreClean">
         <Delete Files="$(PetClientFolderClientClass)\$(PetClientClientClassName).cs"></Delete>
-     </Target>
-     ```
+      </Target>
+      ```
 
      `Input` and `Output` are related to [Incremental Build](how-to-build-incrementally.md), and the`forceReGenerationOnRebuild` target deletes the generated file after `CoreClean`, which forces the client to be regenerated during the rebuild operation.
 
