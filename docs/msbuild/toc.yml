@@ -76,7 +76,7 @@ items:
       - name: Create a custom task
         href: tutorial-custom-task-code-generation.md
       - name: Handle code generation
-        href: tutorial-rest-api-client-generation-msbuild.md
+        href: tutorial-rest-api-client-msbuild.md
       - name: Test a custom task
         href: tutorial-test-custom-task.md
       - name: Inline tasks

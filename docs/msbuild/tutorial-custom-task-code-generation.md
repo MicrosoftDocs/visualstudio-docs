@@ -482,7 +482,7 @@ The package has an extension `.nupkg` and is a compressed zip file. You can open
 Many tasks involve calling an executable. In some scenarios, you can use the Exec task, but if the limitations of the Exec task are an issue, you can also create a custom task. The following tutorial walks through both options with a more realistic code-generation scenario: creating a custom task to generate client code for a REST API.
 
 > [!div class="nextstepaction"]
-> [Use code generation in a build](tutorial-rest-api-client-generation-msbuild.md)
+> [Use code generation in a build](tutorial-rest-api-client-msbuild.md)
 
 Or, learn how to test a custom task.
 

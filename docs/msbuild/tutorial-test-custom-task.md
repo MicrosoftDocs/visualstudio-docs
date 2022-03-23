@@ -17,7 +17,7 @@ ms.workload:
 You can use unit testing functionality in Visual Studio to test an MSBuild custom task before distribution to ensure the correctness of the code. For information about the benefits of doing tests and basic test tooling, see [basics about unit tests](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md). In this tutorial, you use the code examples used in other MSBuild custom task tutorials. The following projects used in those tutorials are available in GitHub and include unit and integration tests for MSBuild custom tasks:
 
 1. [Custom Task](tutorial-custom-task-code-generation.md)
-1. [Code Generation](tutorial-rest-api-client-generation-msbuild.md)
+1. [Code Generation](tutorial-rest-api-client-msbuild.md)
 
 ## Unit Test
 
