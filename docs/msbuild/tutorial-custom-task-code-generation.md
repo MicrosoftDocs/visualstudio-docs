@@ -15,13 +15,13 @@ ms.workload:
 ---
 # Tutorial: Create a custom task for code generation
 
-In this tutorial, you'll create a custom Task in MSBuild in C# that handles code generation and then you'll use the task in a build that can run in Visual Studio, from the command-line, or could be used in a build pipeline. This example demonstrates how to use MSBuild to handle the clean and rebuild operations. The example also shows how to support incremental build, so that the code is generated only when the input files have changed. The techniques demonstrated are applicable to a wide range of code generation scenarios. The steps also show the use of NuGet to package the task for distribution, and the tutorial includes an optional step to use the BinLog viewer to improve the troubleshooting experience.
+In this tutorial, you'll create a custom task in MSBuild in C# that handles code generation, and then you'll use the task in a build. This example demonstrates how to use MSBuild to handle the clean and rebuild operations. The example also shows how to support incremental build, so that the code is generated only when the input files have changed. The techniques demonstrated are applicable to a wide range of code generation scenarios. The steps also show the use of NuGet to package the task for distribution, and the tutorial includes an optional step to use the BinLog viewer to improve the troubleshooting experience.
 
 ## Prerequisites
 
 You should have an understanding of MSBuild concepts such as tasks, targets, and properties. See [MSBuild concepts](msbuild-concepts.md).
 
-The examples requires MSBuild, which is installed with Visual Studio, but can also be installed separately.
+The examples require MSBuild, which is installed with Visual Studio, but can also be installed separately. See [Download MSBuild without Visual Studio](https://visualstudio.microsoft.com/downloads/?q=build+tools).
 
 ## Introduction to the code example
 
@@ -44,9 +44,9 @@ Create a .NET Standard Class Library. The framework should be .NET Standard 2.0.
 Note the difference between full MSBuild (the one that Visual Studio uses) and portable MSBuild, the one bundled in the .NET Core Command Line.
 
 - Full MSBuild: This version of MSBuild usually lives inside Visual Studio. Runs on .NET Framework. Visual Studio uses this when you execute **Build** on your solution or project. This version is also available from a command-line environment, such as the Visual Studio Developer Command Prompt, or PowerShell.
-- .NET MSBuild: This version of MSBuild is bundled in the .NET Core Command Line. It runs on .NET Core. Visual Studio does not directly invoke this version of MSBuild. It only supports projects that build using Microsoft.NET.Sdk.
+- .NET MSBuild: This version of MSBuild is bundled in the .NET Core Command Line. It runs on .NET Core. Visual Studio doesn't directly invoke this version of MSBuild. It only supports projects that build using Microsoft.NET.Sdk.
 
-if you want to share code between .NET Framework and any other .NET implementation, such as .NET Core, your library should target [.NET Standard 2.0](/dotnet/standard/net-standard), and you want to run inside Visual Studio which runs on the .NET Framework. .NET Framework doesn't support .NET Standard 2.1.
+if you want to share code between .NET Framework and any other .NET implementation, such as .NET Core, your library should target [.NET Standard 2.0](/dotnet/standard/net-standard), and you want to run inside Visual Studio, which runs on the .NET Framework. .NET Framework doesn't support .NET Standard 2.1.
 
 ## Create the AppSettingStronglyTyped MSBuild custom task
 
@@ -54,7 +54,7 @@ The first step is to create the MSBuild custom task. Information about how to [w
 
 1. Add a reference to the _Microsoft.Build.Utilities.Core_ NuGet package, and then create a class named AppSettingStronglyTyped derived from Microsoft.Build.Utilities.Task.
 
-1. Add three properties. These define the parameters of the task that users set when they use the task in a client project:
+1. Add three properties. These properties define the parameters of the task that users set when they use the task in a client project:
 
    ```csharp
         //The name of the class which is going to be generated
@@ -80,7 +80,7 @@ The first step is to create the MSBuild custom task. Information about how to [w
         public string ClassNameFile { get; set; }
    ```
 
-1. When you create a custom task, you inherit from <xref:Microsoft.Build.Utilities.Task?displayProperty=fullName>. To implement the task, you override the <xref:Microsoft.Build.Utilities.Task.Execute> method. The `Execute` method returns `true` if the task succeeds, and `false` otherwise. `Task` implements <xref:Microsoft.Build.Framework.ITask?displayProperty=nameWithType> and provides default implementations of some `ITask` members and additionally, provides some logging functionality. It is important to output status to the log to diagnose and troubleshoot the task, especially if a problem occurs and the task must return an error result (`false`). On error, the class signals the error by calling <xref:Microsoft.Build.Utilities.TaskLoggingHelper.LogError%2A?displayProperty=nameWithType>.
+1. When you create a custom task, you inherit from <xref:Microsoft.Build.Utilities.Task?displayProperty=fullName>. To implement the task, you override the <xref:Microsoft.Build.Utilities.Task.Execute> method. The `Execute` method returns `true` if the task succeeds, and `false` otherwise. `Task` implements <xref:Microsoft.Build.Framework.ITask?displayProperty=nameWithType> and provides default implementations of some `ITask` members and additionally, provides some logging functionality. It's important to output status to the log to diagnose and troubleshoot the task, especially if a problem occurs and the task must return an error result (`false`). On error, the class signals the error by calling <xref:Microsoft.Build.Utilities.TaskLoggingHelper.LogError%2A?displayProperty=nameWithType>.
 
    ```csharp
         public override bool Execute()
@@ -99,7 +99,7 @@ The first step is to create the MSBuild custom task. Information about how to [w
         }
    ```
 
-   The Task API allows returning false, indicating failure, without indicating to the user what went wrong. It is best to return `!Log.HasLoggedErrors` instead of a boolean code, and log an error when something goes wrong.
+   The Task API allows returning false, indicating failure, without indicating to the user what went wrong. It's best to return `!Log.HasLoggedErrors` instead of a boolean code, and log an error when something goes wrong.
 
 ### Logging errors
 
@@ -179,7 +179,7 @@ When you catch exceptions in your task, use the <xref:Microsoft.Build.Utilities.
             }
 ```
 
-The implementation of the other methods that use these inputs to build the text for the generated code file is not shown here; see [AppSettingStronglyTyped.cs](https://github.com/v-fearam/msbuild-examples/blob/main/custom-task-code-generation/AppSettingStronglyTyped/AppSettingStronglyTyped/AppSettingStronglyTyped.cs) in the sample repo.
+The implementation of the other methods that use these inputs to build the text for the generated code file isn't shown here; see [AppSettingStronglyTyped.cs](https://github.com/v-fearam/msbuild-examples/blob/main/custom-task-code-generation/AppSettingStronglyTyped/AppSettingStronglyTyped/AppSettingStronglyTyped.cs) in the sample repo.
 
 The example code generates C# code during the build process. The task is like any other C# class, so when you're done with this tutorial, you can customize it and add whatever functionality is necessary for your own scenario.
 
@@ -240,7 +240,7 @@ In this section, you'll create a standard .NET Core Console App that uses the ta
    ```
 
    > [!NOTE]
-   > Instead of overriding a target such as `CoreClean`, this code uses another way to order the targets [(BeforeTarget and AfterTarget)](target-build-order.md#beforetargets-and-aftertargets). SDK-style projects have an implicit import of targets after the last line of the project file; this means that you cannot override default targets unless you specify your imports manually. See [Override predefined targets](how-to-extend-the-visual-studio-build-process.md#override-predefined-targets).
+   > Instead of overriding a target such as `CoreClean`, this code uses another way to order the targets [(BeforeTarget and AfterTarget)](target-build-order.md#beforetargets-and-aftertargets). SDK-style projects have an implicit import of targets after the last line of the project file; this means that you can't override default targets unless you specify your imports manually. See [Override predefined targets](how-to-extend-the-visual-studio-build-process.md#override-predefined-targets).
 
    The `Inputs` and `Outputs` attributes help MSBuild be more efficient by providing information for incremental builds. The dates of the inputs are compared against the outputs to see if the target needs to be run, or if the output of the previous build can be reused.
 
@@ -275,7 +275,7 @@ Execute the program; it will print the greeting from the generated class.
 
 ### (Optional) Log events during the build process
 
-It is possible to compile using a command-line command. Navigate to the project folder. You'll use the  `-bl` (binary log) option to generate a binary log. The binary log will have a very useful information to know what is going on during build process.
+It's possible to compile using a command-line command. Navigate to the project folder. You'll use the  `-bl` (binary log) option to generate a binary log. The binary log will have useful information to know what is going on during build process.
 
 ```dotnetcli
 # Using dotnet MSBuild (run core environment)
@@ -293,7 +293,7 @@ Congratulations! You've built a task that generates code, and used it in a build
 
 If you only need to use your custom task in a few projects or in a single solution, consuming the task as a raw assembly might be all you need, but the best way to prepare your task to use it elsewhere or share it with others is as a NuGet package.
 
-1. To prepare to generate a NuGet package, make some changes to the project file to specify the details that describe the package. The initial project file you created resembles the following:
+1. To prepare to generate a NuGet package, make some changes to the project file to specify the details that describe the package. The initial project file you created resembles the following code:
 
    ```xml
    <Project Sdk="Microsoft.NET.Sdk">
@@ -331,7 +331,7 @@ If you only need to use your custom task in a few projects or in a single soluti
    </Project>
    ```
 
-1. The dependencies of your MSBuild task must be packaged inside the package; they cannot be expressed as normal PackageReferences. The package won't expose any regular dependencies to external users. It is not needed for the current example, because there aren't any extra dependencies, but it is important to include this step for real-world projects that have dependencies.
+1. The dependencies of your MSBuild task must be packaged inside the package; they cannot be expressed as normal PackageReferences. The package won't expose any regular dependencies to external users. It's not needed for the current example, because there aren't any extra dependencies, but it's important to include this step for real-world projects that have dependencies.
 
    ```xml
    <Project Sdk="Microsoft.NET.Sdk">
@@ -389,7 +389,7 @@ In this section, you'll wire up the task implementation in `.props` and `.target
 	</ItemGroup>
    ```
 
-1. Create a *build* folder and in that folder, add two text files: *AppSettingStronglyTyped.props* and *AppSettingStronglyTyped.targets*. *AppSettingStronglyTyped.props* is imported very early in *Microsoft.Common.props*, and properties defined later are unavailable to it. So, avoid referring to properties that are not yet defined; they would evaluate to empty.
+1. Create a *build* folder and in that folder, add two text files: *AppSettingStronglyTyped.props* and *AppSettingStronglyTyped.targets*. *AppSettingStronglyTyped.props* is imported  early in *Microsoft.Common.props*, and properties defined later are unavailable to it. So, avoid referring to properties that are not yet defined; they would evaluate to empty.
 
    *Directory.Build.targets* is imported from *Microsoft.Common.targets* after importing `.targets` files from NuGet packages. So, it can override properties and targets defined in most of the build logic, or set properties for all your projects regardless of what the individual projects set. See [import order](customize-your-build.md#import-order).
 
@@ -422,7 +422,7 @@ In this section, you'll wire up the task implementation in `.props` and `.target
    </Project>
    ```
 
-1. The _AppSettingStronglyTyped.props_ will be automatically included when the package is installed. Then, the client has the task available and some default values. However, it is never used. In order to put this code in action, define some targets on _AppSettingStronglyTyped.targets_ file which also will be also automatically included when the package is installed:
+1. The *AppSettingStronglyTyped.props* file is automatically included when the package is installed. Then, the client has the task available and some default values. However, it's never used. In order to put this code in action, define some targets in the *AppSettingStronglyTyped.targets* file, which also will be also automatically included when the package is installed:
 
    ```xml
    <?xml version="1.0" encoding="utf-8" ?>
@@ -433,7 +433,7 @@ In this section, you'll wire up the task implementation in `.props` and `.target
 		<SettingFiles Include="$(RootFolder)\*.$(SettingExtensionFile)" />
 	</ItemGroup>
 
-	<!--It is generated a target which is executed before the compilation-->
+	<!--A target that generates code, which is executed before the compilation-->
 	<Target Name="BeforeCompile" Inputs="@(SettingFiles)" Outputs="$(RootFolder)\$(SettingClass).generated.cs">
 		<!--Calling our custom task-->
 		<AppSettingStronglyTyped SettingClassName="$(SettingClass)" SettingNamespaceName="$(SettingNamespace)" SettingFiles="@(SettingFiles)">
@@ -453,13 +453,13 @@ In this section, you'll wire up the task implementation in `.props` and `.target
    </Project>
    ```
 
-   The first step is the creation of an [InputGroup](msbuild-items.md) which represents the text files (it could be more than one) to read and it will be some of our task parameter. There are default for the location and the extension where we look for, but you can override the values defining the properties on the client msbuild project file.
+   The first step is the creation of an [InputGroup](msbuild-items.md), which represents the text files (it could be more than one) to read and it will be some of our task parameter. There are default values for the location and the extension where we look for, but you can override the values that define the properties in the client MSBuild project file.
 
    Then we define two [MSBuild targets](msbuild-targets.md). We [extend the MSBuild process](how-to-extend-the-visual-studio-build-process.md), overriding predefined targets:
 
-   - `BeforeCompile`: The goal is to call our custom task to generate the class and include the class to be compiled. Tasks in this target are inserted before core compilation is done. Input and Output field are related to [incremental build](incremental-builds.md). If all output items are up-to-date, MSBuild skips the target. This incremental build of the target can significantly improve the build speed. An item is considered up-to-date if its output file is the same age or newer than its input file or files.
+   - `BeforeCompile`: The goal is to call the custom task to generate the class and include the class to be compiled. Tasks in this target are inserted before core compilation is done. Input and Output fields are related to [incremental build](incremental-builds.md). If all output items are up-to-date, MSBuild skips the target. This incremental build of the target can significantly improve the performance of your builds. An item is considered up-to-date if its output file is the same age or newer than its input file or files.
 
-   - `AfterClean`: The goal is to delete the generated class file after a general clean happens. Tasks in this target are inserted after the core clean functionality is invoked. It forces the code generation step to be repeated on MSBuild rebuild target execution.
+   - `AfterClean`: The goal is to delete the generated class file after a general clean happens. Tasks in this target are inserted after the core clean functionality is invoked. It forces the code generation step to be repeated when the Rebuild target executes.
 
 ### Generate the NuGet package
 

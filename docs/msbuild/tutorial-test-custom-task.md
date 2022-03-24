@@ -21,9 +21,9 @@ You can use unit testing functionality in Visual Studio to test an MSBuild custo
 
 ## Unit Test
 
-A MSBuild custom task is a class which inherits from <xref:Microsoft.Build.Utilities.Task> (directly or indirectly, because <xref:Microsoft.Build.Utilities.ToolTask> inherits from <xref:Microsoft.Build.Utilities.Task>). The method which performs the actions associated with the task is `Execute()`. This method takes some input values (parameters), and has output parameters which you can use assert to test validity. In this case, some input parameters are paths to files, so this example has test input files in a folder called *Resources*. This MSBuild task also generates files, so the test asserts the generated files.
+A MSBuild custom task is a class that inherits from <xref:Microsoft.Build.Utilities.Task> (directly or indirectly, because <xref:Microsoft.Build.Utilities.ToolTask> inherits from <xref:Microsoft.Build.Utilities.Task>). The method that performs the actions associated with the task is `Execute()`. This method takes some input values (parameters), and has output parameters that you can use assert to test validity. In this case, some input parameters are paths to files, so this example has test input files in a folder called *Resources*. This MSBuild task also generates files, so the test asserts the generated files.
 
-A build engine is needed, which is a class that implements [IBuildEngine](/dotnet/api/microsoft.build.framework.ibuildengine). In this example there is a mock using [Moq](https://github.com/Moq/moq4/wiki/Quickstart), but you can use other mock tools. The example collects the errors, but you can collect other information and then assert it.
+A build engine is needed, which is a class that implements [IBuildEngine](/dotnet/api/microsoft.build.framework.ibuildengine). In this example, there is a mock using [Moq](https://github.com/Moq/moq4/wiki/Quickstart), but you can use other mock tools. The example collects the errors, but you can collect other information and then assert it.
 
 The `Engine` mock is needed on all the tests, so it's included as `TestInitialize` (it is executed before each test, and each test has own build engine).
 
@@ -115,7 +115,7 @@ Unit tests are important, but you also need to test the custom MSBuild task in a
         }
    ```
 
-1. Now, create each test. Each test will need its own MSBuild file definition to be executed. For example [testscript-success.msbuild](https://github.com/dotnet/samples/blob/main/msbuild/custom-task-code-generation/AppSettingStronglyTyped/AppSettingStronglyTyped.Test/Resources/testscript-success.msbuild). For understanding the file please read [Tutorial: Crete a custom task](tutorial-custom-task-code-generation.md).
+1. Now, create each test. Each test will need its own MSBuild file definition to be executed. For example [testscript-success.msbuild](https://github.com/dotnet/samples/blob/main/msbuild/custom-task-code-generation/AppSettingStronglyTyped/AppSettingStronglyTyped.Test/Resources/testscript-success.msbuild). To understand the file, see [Tutorial: Crete a custom task](tutorial-custom-task-code-generation.md).
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
@@ -180,7 +180,7 @@ Unit tests are important, but you also need to test the custom MSBuild task in a
 
 ## Conclusion
 
-Unit testing is useful because you can test and debug the code to ensure correctness of each specific piece of code, but having some integration test is important to ensure the task executes in a realistic build context. In this tutorial you learned how to test an MSBuild custom task.
+Unit testing is useful because you can test and debug the code to ensure correctness of each specific piece of code, but having integration tests is important to ensure the task executes in a realistic build context. In this tutorial,s you learned how to test an MSBuild custom task.
 
 ## Next steps
 
