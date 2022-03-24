@@ -63,7 +63,7 @@ Open and inspect the **Program.cs** file in your project. Notice that several th
     }
 ```
 
-An ASP.NET Core app creates a web server in its main method by configuring and launching a host via an instance of [`WebHostBuilder`](/aspnet/core/fundamentals/hosting). This builder provides methods to let the host to be configured. In the template app, the following configurations are used:
+An ASP.NET Core app creates a web server in its main method by configuring and launching a host via an instance of [`WebHostBuilder`](/aspnet/core/fundamentals/hosting). This builder provides methods to let the host be configured. In the template app, the following configurations are used:
 
 * `.UseStartup<Startup>()`: Specifies the Startup class.
 
@@ -109,7 +109,7 @@ This Startup class must always adhere to the following rules:
 - It must always be public
 - It must contain the two public methods: `ConfigureServices` and `Configure`
 
-The `ConfigureServices` method defines the services that'll be used by your app.
+The `ConfigureServices` method defines the services that will be used by your app.
 
 The `Configure` lets you compose your request pipeline using [Middleware](/aspnet/core/fundamentals/middleware). These components are used within an ASP.NET application pipeline to handle requests and responses. The HTTP pipeline consists of many request delegates, called in sequence. Each delegate can choose to either handle the request itself, or pass it to the next delegate.
 
