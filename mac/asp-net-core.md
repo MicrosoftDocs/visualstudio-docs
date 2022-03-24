@@ -24,7 +24,7 @@ Open Visual Studio for Mac. On the Start Screen, select **New Project...**
 
 ![New Project Dialog](media/asp-net-core-2019-new-asp-core.png)
 
-The New Project dialog is shown, allowing you to select a template to create your application.
+The **New Project** dialog is shown. It lets you select a template to create your application.
 
 There are many projects that'll provide you with a pre-built template to start building your ASP.NET Core Application. They are:
 
@@ -63,7 +63,7 @@ Open and inspect the **Program.cs** file in your project. Notice that several th
     }
 ```
 
-An ASP.NET Core app creates a web server in its main method by configuring and launching a host via an instance of [`WebHostBuilder`](/aspnet/core/fundamentals/hosting). This builder provides methods to allow the host to be configured. In the template app, the following configurations are used:
+An ASP.NET Core app creates a web server in its main method by configuring and launching a host via an instance of [`WebHostBuilder`](/aspnet/core/fundamentals/hosting). This builder provides methods to let the host to be configured. In the template app, the following configurations are used:
 
 * `.UseStartup<Startup>()`: Specifies the Startup class.
 
@@ -109,9 +109,9 @@ This Startup class must always adhere to the following rules:
 - It must always be public
 - It must contain the two public methods: `ConfigureServices` and `Configure`
 
-The `ConfigureServices` method defines the services that will be used by your app.
+The `ConfigureServices` method defines the services that'll be used by your app.
 
-The `Configure` allows you to compose your request pipeline using [Middleware](/aspnet/core/fundamentals/middleware). These components are used within an ASP.NET application pipeline to handle requests and responses. The HTTP pipeline consists of many request delegates, called in sequence. Each delegate can choose to either handle the request itself, or pass it to the next delegate.
+The `Configure` lets you compose your request pipeline using [Middleware](/aspnet/core/fundamentals/middleware). These components are used within an ASP.NET application pipeline to handle requests and responses. The HTTP pipeline consists of many request delegates, called in sequence. Each delegate can choose to either handle the request itself, or pass it to the next delegate.
 
 You can configure delegates by using the `Run`,`Map`, and `Use` methods on `IApplicationBuilder`, but the `Run` method will never call a next delegate and should always be used at the end of your pipeline.
 

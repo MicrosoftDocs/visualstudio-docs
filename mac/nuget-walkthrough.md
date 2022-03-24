@@ -53,7 +53,7 @@ using Newtonsoft.Json;
 
 ## Updating Packages
 
-Package updates can be done either all at once, by right-clicking on the **Dependencies** node (**Packages** node for Xamarin projects), or individually on each package. When a new version of a NuGet package is available, an update icon appears ![Up arrow with circle](media/nuget-walkthrough-update-icon.png).
+Package updates can be done either all at once, by right-clicking on the **Dependencies** node (**Packages** node for Xamarin projects), or individually on each package. When a new version of a NuGet package is available, an update icon is shown ![Up arrow with circle](media/nuget-walkthrough-update-icon.png).
 
 Right-click on **Dependencies** to access the context menu and choose **Update** to update all packages:
 
@@ -70,9 +70,9 @@ To update to a newer pre-release version of a package, you can right-click on **
 
 ![Dependencies context menu with Manage NuGet Packages... menu highlighted](media/nuget-walkthrough-packages-menu-manage-nuget-packages.png)
 
-Check the **Show pre-release packages** checkbox at the bottom of the dialog.
+Check the **Include prereleases** checkbox at the bottom of the dialog.
 
-![Manage NuGet Packages dialog opened with the 'Show pre-release packages' option checked](media/nuget-walkthrough-show-pre-release-packages.png)
+![Manage NuGet Packages dialog opened with the 'Include prereleases option checked](media/nuget-walkthrough-show-pre-release-packages.png)
 
 Finally, from the **Updates** tab of the dialog, select the package you wish to update and choose the new pre-release version from the **New Version** drop-down and select **Update Package**.
 
@@ -110,10 +110,10 @@ When you work in a solution with multiple projects, ensure that anywhere you use
 
 ![Package Manager UI Consolidate tab](media/nuget-walkthrough-consolidate-tab.png)
 
-In this example, the NuGetDemo project is using Microsoft.EntityFrameworkCore 2.20, whereas NuGetDemo.Shared is using Microsoft.EntityFrameworkCore 2.2.6. To consolidate package versions, follow these steps:
+In this example, the NuGetDemo project is using Microsoft.EntityFrameworkCore 3.1.23, whereas NuGetDemo.Shared is using Microsoft.EntityFrameworkCore 5.0.2. To consolidate package versions, follow these steps:
 
 - Select the projects to update in the project list.
-- Select the version to use in all those projects in the **New Version** list, such as Microsoft.EntityFrameworkCore 3.0.0.
+- Select the version to use in all those projects in the **New Version** list, such as Microsoft.EntityFrameworkCore 6.0.3.
 - Select the **Consolidate Package** button.
 
 The Package Manager installs the selected package version into all selected projects, after which the package no longer appears on the **Consolidate** tab.
