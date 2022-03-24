@@ -195,7 +195,7 @@ You may want parts of a code snippet to be replaced by the user. For example, yo
    ![Code snippet replacement parameter tooltip in Visual Studio](media/snippet-replacement-parameter-tooltip.png)
 
    > [!TIP]
-   > If there's more than one replacable parameter in a snippet, you can press **Tab** to navigate from one to the other to change the values.
+   > If there's more than one replaceable parameter in a snippet, you can press **Tab** to navigate from one to the other to change the values.
 
 ## Import a namespace
 
