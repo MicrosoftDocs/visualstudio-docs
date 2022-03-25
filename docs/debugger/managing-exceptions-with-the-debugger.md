@@ -2,7 +2,7 @@
 title: Manage exceptions with the debugger | Microsoft Docs
 description: Learn how to specify which exceptions the debugger breaks on, at which point you want the debugger to break, and how breaks are handled.
 
-ms.date: 10/09/2018
+ms.date: 03/25/2022
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.exceptions
@@ -62,7 +62,17 @@ The debugger can break execution at the point where an exception is thrown, so y
 
 In the **Exception Settings** window (**Debug > Windows > Exception Settings**), expand the node for a category of exceptions, such as **Common Language Runtime Exceptions**. Then select the check box for a specific exception within that category, such as **System.AccessViolationException**. You can also select an entire category of exceptions.
 
-![Checked AccessViolationException](../debugger/media/exceptionsettingscheckaccess.png "ExceptionSettingsCheckAccess")
+::: moniker range="<=vs-2019"
+
+![Checked AccessViolationException](../debugger/media/vs-2019/exceptionsettingscheckaccess.png "ExceptionSettingsCheckAccess")
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+![Screenshot of Exception Settings check box](../debugger/media/vs-2022/exceptionsettingscheckaccess.png "ExceptionSettingsCheckAccess")
+
+::: moniker-end
 
 > [!TIP]
 > You can find specific exceptions by using the **Search** window in the **Exception Settings** toolbar, or use search to filter for specific namespaces (such as **System.IO**).
@@ -135,7 +145,17 @@ If you select an exception in the **Exception Settings** window, debugger execut
 
 To restore the exception settings to the defaults, choose the **Restore the list to the default settings** button:
 
-![Restore defaults in Exception Settings](../debugger/media/restoredefaultexceptions.png "RestoreDefaultExceptions")
+::: moniker range="<=vs-2019"
+
+![Restore defaults in Exception Settings](../debugger/media/vs-2019/restoredefaultexceptions.png "RestoreDefaultExceptions")
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+![Restore defaults in Exception Settings](../debugger/media/vs-2022/restoredefaultexceptions.png "RestoreDefaultExceptions")
+
+::: moniker-end
 
 ## <a name="BKMK_UserUnhandled"></a>Tell the debugger to continue on user-unhandled exceptions
 
@@ -143,13 +163,33 @@ If you are debugging .NET or JavaScript code with [Just My Code](../debugger/jus
 
 1. In the **Exception Settings** window, open the shortcut menu by right-clicking a column label, and then select **Show Columns > Additional Actions**. (If you've turned off **Just My Code**, you won't see this command.) A third column named **Additional Actions** appears.
 
-   ![Additional Actions column](../debugger/media/additionalactionscolumn.png "AdditionalActionsColumn")
+   ::: moniker range="<=vs-2019"
+   
+   ![Additional Actions column](../debugger/media/vs-2019/additionalactionscolumn.png "AdditionalActionsColumn")
+
+   ::: moniker-end
+   
+   ::: moniker range=">=vs-2022"
+   
+   ![Additional Actions column](../debugger/media/vs-2022/additionalactionscolumn.png "AdditionalActionsColumn")
+
+   ::: moniker-end
 
    For an exception that shows **Continue when unhandled in user code** in this column, the debugger continues if that exception isn't handled in user code but is handled externally.
 
 2. To change this setting for a particular exception, select the exception, right-click to show the shortcut menu, and select **Continue When Unhandled in User Code**. You may also change the setting for an entire category of exceptions, such as the entire Common Language Runtime exceptions).
 
-   ![**Continue when unhandled in user code** setting](../debugger/media/continuewhenunhandledinusercodesetting.png "ContinueWhenUnhandledInUserCodeSetting")
+   ::: moniker range="<=vs-2019"
+
+   ![**Continue when unhandled in user code** setting](../debugger/media/vs-2019/continuewhenunhandledinusercodesetting.png "ContinueWhenUnhandledInUserCodeSetting")
+
+   ::: moniker-end
+   
+   ::: moniker range=">=vs-2022"
+
+   ![**Continue when unhandled in user code** setting](../debugger/media/vs-2022/continuewhenunhandledinusercodesetting.png "ContinueWhenUnhandledInUserCodeSetting")
+
+   ::: moniker-end
 
 For example, ASP.NET web applications handle exceptions by converting them to an HTTP 500 status code ([Exception handling in ASP.NET Web API](/aspnet/web-api/overview/error-handling/exception-handling)), which may not help you determine the source of the exception. In the example below, the user code makes a call to `String.Format()` that throws a <xref:System.FormatException>. Execution breaks as follows:
 
@@ -165,11 +205,31 @@ To add an exception:
 
 2. Choose the **Add an exception to the selected category** button (the plus sign).
 
-   ![**Add an exception to the selected category** button](../debugger/media/addanexceptiontotheselectedcategorybutton.png "AddAnExceptionToTheSelectedCategoryButton")
+   ::: moniker range="<=vs-2019"
+
+   ![**Add an exception to the selected category** button](../debugger/media/vs-2019/addanexceptiontotheselectedcategorybutton.png "AddAnExceptionToTheSelectedCategoryButton")
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2022"
+
+   ![**Add an exception to the selected category** button](../debugger/media/vs-2022/addanexceptiontotheselectedcategorybutton.png "AddAnExceptionToTheSelectedCategoryButton")
+
+   ::: moniker-end
 
 3. Type the name of the exception (for example, **System.UriTemplateMatchException**).
 
-   ![Type the exception name](../debugger/media/typetheexceptionname.png "TypeTheExceptionName")
+   ::: moniker range="<=vs-2019"
+
+   ![Type the exception name](../debugger/media/vs-2019/typetheexceptionname.png "TypeTheExceptionName")
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2022"
+
+   ![Type the exception name](../debugger/media/vs-2022/typetheexceptionname.png "TypeTheExceptionName")
+
+   ::: moniker-end
 
    The exception is added to the list (in alphabetical order) and automatically checked.
 
@@ -193,7 +253,17 @@ public class GenericException<T> : Exception
 
 You can add the exception to **Exception Settings** using the previous procedure:
 
-![adding generic exception](../debugger/media/addgenericexception.png "AddGenericException")
+::: moniker range="<=vs-2019"
+
+![Add generic exception](../debugger/media/vs-2019/addgenericexception.png "AddGenericException")
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+![Add generic exception](../debugger/media/vs-2022/addgenericexception.png "AddGenericException")
+
+::: moniker-end
 
 ## Add conditions to an exception
 
