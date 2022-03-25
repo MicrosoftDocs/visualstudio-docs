@@ -82,18 +82,18 @@ The **Build Output** window shows you output messages from building your project
 
 Let's build the project to see some build output. From the **Build** menu, choose **Build Solution**. The **Build Output window automatically obtains focus and shows a successful build message.
 
-![Build Output window](media/vsmac-2022/ide-tour-run-console-application.png)
+![Build Output window](media/vsmac-2022/ide-tour-build-output-window.png)
 
 ## Run your Console Application
 
 Let's run the Console Application by selecting the play icon. You'll see the output in the **Terminal**.
 
-![Build Output window](media/vsmac-2022/ide-tour-build-output-window.png)
+![Run Console Application](media/vsmac-2022/ide-tour-run-console-application.png)
 
 ## Send feedback
 If you run into problems while using Visual Studio for Mac, or if you have suggestions for how to improve the product, you can let us know. To do so, select the **Report a Problem** or **Provide a Suggestion** from the **Help** menu.
 
-## See also
+## Learn more
 
 We've looked at just a few features of Visual Studio to get acquainted with the user interface. 
 Explore further:
