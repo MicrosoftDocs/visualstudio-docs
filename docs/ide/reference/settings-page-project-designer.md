@@ -24,7 +24,7 @@ To access the **Settings** page, select a project node in **Solution Explorer**,
 
 ::: moniker range="vs-2022"
 
-:::image type="content" source="media/vs-2022/project-properties-designer-settings-create-dialog.png" alt-text="Screenshot of the Settings tab in the Project Designer for a WPF project in Visual Studio 2022.":::
+:::image type="content" source="media/vs-2022/project-properties-designer-settings-create-dialog.png" alt-text="Screenshot of the Settings tab in the Project Designer for a WPF project in Visual Studio 2022, where you click a link to dynamically generates the Settings dialog.":::
 
 When you select the **Create or open application settings** link, Visual Studio opens the Settings dialog in the Project Designer.
 
