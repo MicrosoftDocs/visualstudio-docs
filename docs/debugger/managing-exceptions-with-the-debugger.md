@@ -280,7 +280,7 @@ To add conditional exceptions:
 
 2. To add extra required conditions to the exception, select **Add Condition** for each new condition. Additional condition lines appear.
 
-   ![Screenshot of exception conditions.](../debugger/media/extraconditionsforanexception.png "Extra-Conditions-For-An-Exception")
+   ![Screenshot of extra conditions for an exception.](../debugger/media/extraconditionsforanexception.png "Extra-Conditions-For-An-Exception")
 
 3. For each condition line, type the name of the module, and change the comparison operator list to **Equals** or **Not Equals**. You may specify wildcards (**\\\***) in the name to specify more than one module.
 
