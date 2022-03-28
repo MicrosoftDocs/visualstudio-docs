@@ -64,13 +64,13 @@ In the **Exception Settings** window (**Debug > Windows > Exception Settings**),
 
 ::: moniker range="<=vs-2019"
 
-![Checked AccessViolationException](../debugger/media/vs-2019/exceptionsettingscheckaccess.png "ExceptionSettingsCheckAccess")
+![Screenshot of Exception Settings check box.](../debugger/media/vs-2019/exception-settings-check-access.png "Exception-Settings-Check-Access")
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-![Screenshot of Exception Settings check box](../debugger/media/vs-2022/exceptionsettingscheckaccess.png "ExceptionSettingsCheckAccess")
+![Screenshot of Exception Settings check box.](../debugger/media/vs-2022/exception-settings-check-access.png "Exception-Settings-Check-Access")
 
 ::: moniker-end
 
@@ -147,13 +147,13 @@ To restore the exception settings to the defaults, choose the **Restore the list
 
 ::: moniker range="<=vs-2019"
 
-![Restore defaults in Exception Settings](../debugger/media/vs-2019/restoredefaultexceptions.png "RestoreDefaultExceptions")
+![Screenshot of Restore Defaults in Exception Settings.](../debugger/media/vs-2019/restore-default-exceptions.png "Restore-Default-Exceptions")
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-![Restore defaults in Exception Settings](../debugger/media/vs-2022/restoredefaultexceptions.png "RestoreDefaultExceptions")
+![Screenshot of Restore Defaults in Exception Settings.](../debugger/media/vs-2022/restore-default-exceptions.png "Restore-Default-Exceptions")
 
 ::: moniker-end
 
@@ -165,13 +165,13 @@ If you are debugging .NET or JavaScript code with [Just My Code](../debugger/jus
 
    ::: moniker range="<=vs-2019"
    
-   ![Additional Actions column](../debugger/media/vs-2019/additionalactionscolumn.png "AdditionalActionsColumn")
+   ![Screenshot of Additional Actions column.](../debugger/media/vs-2019/additional-actions-column.png "Additional-Actions-Column")
 
    ::: moniker-end
    
    ::: moniker range=">=vs-2022"
    
-   ![Additional Actions column](../debugger/media/vs-2022/additionalactionscolumn.png "AdditionalActionsColumn")
+   ![Screenshot of Additional Actions column.](../debugger/media/vs-2022/additional-actions-column.png "Additional-Actions-Column")
 
    ::: moniker-end
 
@@ -181,13 +181,13 @@ If you are debugging .NET or JavaScript code with [Just My Code](../debugger/jus
 
    ::: moniker range="<=vs-2019"
 
-   ![**Continue when unhandled in user code** setting](../debugger/media/vs-2019/continuewhenunhandledinusercodesetting.png "ContinueWhenUnhandledInUserCodeSetting")
+   ![Screenshot of **Continue when unhandled in user code** setting.](../debugger/media/vs-2019/continue-when-unhandled-in-user-code-setting.png "Continue-When-Unhandled-In-User-Code-Setting")
 
    ::: moniker-end
    
    ::: moniker range=">=vs-2022"
 
-   ![**Continue when unhandled in user code** setting](../debugger/media/vs-2022/continuewhenunhandledinusercodesetting.png "ContinueWhenUnhandledInUserCodeSetting")
+   ![Screenshot of **Continue when unhandled in user code** setting.](../debugger/media/vs-2022/continue-when-unhandled-in-user-code-setting.png "Continue-When-Unhandled-In-User-Code-Setting")
 
    ::: moniker-end
 
@@ -207,13 +207,13 @@ To add an exception:
 
    ::: moniker range="<=vs-2019"
 
-   ![**Add an exception to the selected category** button](../debugger/media/vs-2019/addanexceptiontotheselectedcategorybutton.png "AddAnExceptionToTheSelectedCategoryButton")
+   ![Screenshot of **Add an exception to the selected category** button.](../debugger/media/vs-2019/add-exception-to-selected-category-button.png "Add-Exception-To-Selected-Category-Button")
 
    ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
-   ![**Add an exception to the selected category** button](../debugger/media/vs-2022/addanexceptiontotheselectedcategorybutton.png "AddAnExceptionToTheSelectedCategoryButton")
+   ![Screenshot of **Add an exception to the selected category** button.](../debugger/media/vs-2022/add-exception-to-selected-category-button.png "Add-Exception-To-Selected-Category-Button")
 
    ::: moniker-end
 
@@ -221,13 +221,13 @@ To add an exception:
 
    ::: moniker range="<=vs-2019"
 
-   ![Type the exception name](../debugger/media/vs-2019/typetheexceptionname.png "TypeTheExceptionName")
+   ![Screenshot of **Type exception name**.](../debugger/media/vs-2019/type-the-exception-name.png "Type-The-Exception-Name")
 
    ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
-   ![Type the exception name](../debugger/media/vs-2022/typetheexceptionname.png "TypeTheExceptionName")
+   ![Screenshot of **Type exception name**.](../debugger/media/vs-2022/type-the-exception-name.png "Type-The-Exception-Name")
 
    ::: moniker-end
 
@@ -255,13 +255,13 @@ You can add the exception to **Exception Settings** using the previous procedure
 
 ::: moniker range="<=vs-2019"
 
-![Add generic exception](../debugger/media/vs-2019/addgenericexception.png "AddGenericException")
+![Screenshot of **Add generic exception**.](../debugger/media/vs-2019/add-generic-exception.png "Add-Generic-Exception")
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-![Add generic exception](../debugger/media/vs-2022/addgenericexception.png "AddGenericException")
+![Screenshot of **Add generic exception**.](../debugger/media/vs-2022/add-generic-exception.png "Add-Generic-Exception")
 
 ::: moniker-end
 
@@ -276,11 +276,11 @@ To add conditional exceptions:
 
 1. Choose the **Edit conditions** button in the Exception Settings window, or right-click the exception and choose **Edit Conditions**.
 
-   ![Conditions for an exception](../debugger/media/dbg-conditional-exception.png "DbgConditionalException")
+   ![Screenshot of exception conditions.](../debugger/media/dbg-conditional-exception.png "Dbg-Conditional-Exception")
 
 2. To add extra required conditions to the exception, select **Add Condition** for each new condition. Additional condition lines appear.
 
-   ![Extra conditions for an exception](../debugger/media/extraconditionsforanexception.png "ExtraConditionsForAnException")
+   ![Screenshot of exception conditions.](../debugger/media/extraconditionsforanexception.png "Extra-Conditions-For-An-Exception")
 
 3. For each condition line, type the name of the module, and change the comparison operator list to **Equals** or **Not Equals**. You may specify wildcards (**\\\***) in the name to specify more than one module.
 
