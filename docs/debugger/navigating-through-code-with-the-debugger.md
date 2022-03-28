@@ -147,6 +147,7 @@ While the debugger is paused, you can hover over a statement in source code whil
 > [!NOTE]
 > **Force Run to Click** is available starting in [!include[vs_dev17](../misc/includes/vs_dev17_md.md)].
 ::: moniker-end
+
 ### Manually break into code
 
 To break into the next available line of code in a running app, select **Debug** > **Break All**, or select **Ctrl**+**Alt**+**Break**.
