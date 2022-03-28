@@ -58,3 +58,4 @@ The following animation shows an instance of using Live Visual Tree to open some
 * [Troubleshooting XAML Hot Reload](xaml-hot-reload-troubleshooting.md)
 * [XAML Hot Reload for Xamarin.Forms](/xamarin/xamarin-forms/xaml/hot-reload)
 * [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)
+* [XAML data binding diagnostics](xaml-data-binding-diagnostics.md)
