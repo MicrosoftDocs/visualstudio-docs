@@ -104,7 +104,7 @@ Check out the [.NET coding convention options](/dotnet/fundamentals/code-analysi
 
 Visual Studio provides on-demand formatting of your code file, including code style preferences, through the **Code Cleanup** feature. To run Code Cleanup, click the broom icon at the bottom of the editor or press **Ctrl**+**K**, **Ctrl**+**E**.
 
-![Code Cleanup button in Visual Studio 2019](media/execute-code-cleanup.png)
+![Screenshot of Code Cleanup button.](media/vs-2019/execute-code-cleanup.png)
 
 You can also run code cleanup across your entire project or solution. Right-click on the project or solution name in **Solution Explorer**, select **Analyze and Code Cleanup**, and then select **Run Code Cleanup**.
 
