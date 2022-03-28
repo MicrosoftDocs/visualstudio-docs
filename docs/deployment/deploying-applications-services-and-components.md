@@ -1,7 +1,7 @@
 ---
 title: "First look at deployment"
 description: "Learn about your options for deploying apps from Visual Studio."
-ms.date: 10/29/2021
+ms.date: 03/28/2022
 ms.topic: conceptual
 dev_langs:
   - "FSharp"
@@ -38,29 +38,25 @@ Deployment to a local folder is typically used for testing or to begin a staged 
 
     ![Screenshot that shows selecting Publish.](../deployment/media/quickstart-publish.png)
 
-- **Windows desktop**: You can publish a Windows desktop application to a folder by using ClickOnce deployment. Users can then install the application with a single click. For more information, see the following articles:
+- **Windows desktop**: You can publish a Windows desktop application to a folder by using ClickOnce deployment or a Setup project. Users can then install the application with a single click. For more information, see the following articles:
 
   - [Deploy a .NET Windows desktop app using ClickOnce](quickstart-deploy-using-clickonce-folder.md)
   - [Deploy a .NET Framework Windows desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md).
-  - [Deploy a C++/CLR app using ClickOnce](/cpp/windows/clickonce-deployment-for-visual-cpp-applications) or, for C/C++, see [Deploy a native app using a Setup project](/cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project).
+  - (C++/CLR) [Deploy a C++/CLR app using ClickOnce](/cpp/windows/clickonce-deployment-for-visual-cpp-applications)
+  - (C/C++) [Deploy a native app using a Setup project](/cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project)
 
 ## Publish to Azure
 
-- **ASP.NET**, **ASP.NET Core**, **Python**, and **Node.js**: Publish to Azure App Service or Azure App Service on Linux (using containers) by using one of the following methods:
+- **ASP.NET**, **ASP.NET Core**, **Python**, and **Node.js**: Publish to Azure App Service or Azure App Service on Linux by using one of the following methods:
 
-  - For continuous (or automated) deployment of apps, use Azure DevOps with Azure Pipelines.
-  - For one-time (or manual) deployment of apps, use the **Publish** tool in Visual Studio.
+  - For continuous (or automated) deployment of apps, use Azure DevOps with [Azure Pipelines](/azure/devops/pipelines/tasks/build/visual-studio-build).
+  - For one-time (or manual) deployment of apps, use the [Publish](publish-overview.md) tool in Visual Studio. See [Deploy an ASP.NET Web app](/azure/app-service/quickstart-dotnetcore).
   - To create GitHub Action workflows for ASP.NET and Azure Function projects hosted on GitHub.com, see [Deploy to Azure using GitHub Actions](../deployment/azure-deployment-using-github-actions.md).
+  - For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](/azure/app-service/deploy-continuous-deployment).
 
-  For deployment that provides more customized configuration of the server, you can also use the **Publish** tool to deploy apps to an Azure virtual machine.
-
-  To use the **Publish** tool, right-click the project in Solution Explorer and select **Publish**. (If you've previously configured any publishing profiles, you must then select **Create new profile**.) In the **Publish** dialog box, select either **App Service** or **Azure Virtual Machines**, and then follow the configuration steps.
+  To use the **Publish** tool, right-click the project in Solution Explorer and select **Publish**. (If you've previously configured any publishing profiles, you must then select **Create new profile**.) In the **Publish** dialog box, select either **App Service** or, if you customize your own server, **Azure Virtual Machines**, and then follow the configuration steps.
 
   ![Screenshot that shows selecting Azure App Service.](../deployment/media/quickstart-publish-azure-new.png "Choose Azure App Service")
-
-  Starting in Visual Studio 2017 version 15.7, you can deploy ASP.NET Core apps to App Service on Linux.
-
-  For a quick introduction, see [Publish an ASP.NET app](quickstart-deploy-aspnet-web-app.md?tabs=folder). Also, see [Deploy an ASP.NET web app](/azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs#publish-your-web-app). For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](/azure/app-service/deploy-continuous-deployment).
 
   > [!NOTE]
   > If you don't already have an Azure account, you can [sign up here](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=doc&utm_campaign=visualstudio).
