@@ -45113,6 +45113,21 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/profiling/quickstart-cpu-usage-managed.md",
+      "redirect_url": "/visualstudio/profiling/beginners-guide-to-performance-profiling",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/quickstart-cpu-usage-native.md",
+      "redirect_url": "/visualstudio/profiling/beginners-guide-to-performance-profiling",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/quickstart-cpu-usage-aspnet.md",
+      "redirect_url": "/visualstudio/profiling/beginners-guide-to-performance-profiling",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/profiling/profiling-overview.md",
       "redirect_url": "/visualstudio/profiling/profiling-feature-tour",
       "redirect_document_id": false
