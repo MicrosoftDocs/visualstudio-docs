@@ -3,6 +3,7 @@ title: "Getting Started with ASP.NET Core"
 description: "This article describes how to get started with ASP.NET in Visual Studio for Mac, including installation and creating a new project."
 author: jmatthiesen
 ms.author: jomatthi
+manager: dominicn
 ms.date: 03/16/2022
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 ms.custom: video, devdivchpfy22
@@ -35,13 +36,13 @@ There are many projects that'll provide you with a pre-built template to start b
 - **.NET Core > Blazor Server App**
 - **.NET Core > Blazor WebAssembly App**
 
-![ASP.NET Project Options](media/asp-net-core-2022-new-asp-core.png)
+![ASP.NET Project Options](media/asp-net-core-2019-new-asp-core.png)
 
-Select the **ASP.NET Core Empty Web Application** and press **Next**. Give the Project a name and press **Create**. This creates a new ASP.NET Core app. In the solution window's left pane, expand the second arrow and then select **Startup.cs**. It should look similar to the image below:
+Select the **ASP.NET Core Empty Web Application** and select **Next**. Give the Project a name and select **Create**. This creates a new ASP.NET Core app. In the **Solution** window's left pane, expand the second arrow and then select **Startup.cs**. It should look similar to the following image:
 
 ![New ASP.NET Core Empty Project view](media/asp-net-core-2019-empty-project.png)
 
-The ASP.NET Core Empty template creates a web application with two default files: **Program.cs** and **Startup.cs**, that are explained below. It also creates a Dependencies folder, which contains your project's NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
+The ASP.NET Core Empty template creates a web application with two default files: **Program.cs** and **Startup.cs**, that are explained here. It also creates a **Dependencies** folder, which contains your project's NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
 
 ![Solution window displaying dependencies](media/asp-net-core-2019-solution-dependencies.png)
 
@@ -63,7 +64,7 @@ Open and inspect the **Program.cs** file in your project. Notice that several th
     }
 ```
 
-An ASP.NET Core app creates a web server in its main method by configuring and launching a host via an instance of [`WebHostBuilder`](/aspnet/core/fundamentals/hosting). This builder provides methods to let the host be configured. In the template app, the following configurations are used:
+An ASP.NET Core app creates a web server in its main method by configuring and launching a host via an instance of [`WebHostBuilder`](/aspnet/core/fundamentals/hosting). This builder provides methods to configure the host. In the template app, the following configurations are used:
 
 * `.UseStartup<Startup>()`: Specifies the Startup class.
 
@@ -117,11 +118,11 @@ You can configure delegates by using the `Run`,`Map`, and `Use` methods on `IApp
 
 The `Configure` method of the pre-built template is built to do a few things. First, it configures an exception handling page for use during development. Then, it sends a response to the requesting web page with a simple "Hello World".
 
-This simple Hello, World project can run now without any additional code being added. To run the app, you can either select which browser you want to run app the app in using the dropdown right of the Play button. Or, you can hit the Play (triangular) button to use your default browser:
+This simple Hello, World project can run now without any additional code being added. To run the app, you can either select which browser you want to run app the app in using the dropdown right of the **Play** button. Or, you can hit the **Play** (triangular) button to use your default browser:
 
 ![Browser Run](media/asp-net-web-picker.png)
 
-Visual Studio for Mac uses a random port to launch your web project. To find out what port this is, open the Application Output, which is listed under the **View > Other Windows** menu. You should find output similar as shown below:
+Visual Studio for Mac uses a random port to launch your web project. To find out what port this is, open the Application Output, which is listed under the **View > Other Windows** menu. You should find output similar as the following:
 
 ![Application Output displaying listening port](media/asp-net-core-image6.png)
 
@@ -135,13 +136,13 @@ ASP.NET Core Apps use the Model-View-Controller (MVC) design pattern to provide 
 
 - **Model**: A class that represents the data of the app.
 - **View**: Displays the app's user interface (which is often the model data).
-- **Controller**: A class that handles browser requests, responds to user input and interaction.
+- **Controller**: A class that handles browser requests, responds to user input, and interaction.
 
 For more information on using MVC, see the [Overview of ASP.NET Core MVC](/aspnet/core/mvc/overview) guide.
 
 To add a controller, follow these steps:
 
-1. Right-click on the Project name and select **Add > New Files**. Select **General > Empty Class**, and enter a controller name:
+1. Right-click on the **Project** name and select **Add > New Files**. Select **General > Empty Class**, and enter a controller name:
 
     ![New File dialog](media/asp-net-core-image8.png)
 
@@ -193,7 +194,7 @@ To add a controller, follow these steps:
 
     When you add the code snippet above, you're telling the app to default to the `HelloWorld` Controller, and the `Index` action method.
 
-6. Add the `services.AddMvc();` call to the `ConfigureServices` method, as illustrated below:
+6. Add the `services.AddMvc();` call to the `ConfigureServices` method, as illustrated in the following code:
 
     ```csharp
     public void ConfigureServices(IServiceCollection services)
@@ -204,7 +205,7 @@ To add a controller, follow these steps:
 
     You can also pass parameter information from the URL to the controller.
 
-7. Add another method to your HelloWorldController, as illustrated below:
+7. Add another method to your HelloWorldController, as illustrated in the following code:
 
     ```csharp
     public string Xamarin(string name)

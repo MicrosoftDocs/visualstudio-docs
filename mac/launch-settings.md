@@ -1,8 +1,9 @@
 ---
 title: "launchSettings.json support"
 description: This document covers the support for launchSettings.json in Visual Studio for Mac
-author: sayedihashimi
-ms.author: sayedha
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 03/16/2022
 ms.custom: devdivchpfy22
 ms.assetid: a556f9d7-86a8-408e-aa54-392584845889
@@ -10,13 +11,13 @@ ms.assetid: a556f9d7-86a8-408e-aa54-392584845889
 
 # launchSettings.json
 
-When you're developing ASP.NET Core projects, you can configure how your project should be started in development scenarios. It can be done by customizing the contents of the launchSettings.json file. In Visual Studio for Mac, you can update this file by using the project options UI or by directly editing it. This file is the same configuration file that you can use when running Visual Studio on Windows or from the command line through `dotnet`. This file is stored in your project under the **Properties** folder.
+When you're developing ASP.NET Core projects, you can configure how your project should be started in development scenarios. It can be done by customizing the contents of the _launchSettings.json_ file. In Visual Studio for Mac, you can update this file by using the project **Options** UI or by directly editing it. This file is the same configuration file that you can use when running Visual Studio on Windows or from the command line through `dotnet`. This file is stored in your project under the **Properties** folder.
 
 For more detailed info, see [Use multiple environments in ASP.NET Core](/aspnet/core/fundamentals/environments). In this article, we'll cover how to update this file in Visual Studio for Mac.
 
 ## Update the start configuration by using Visual Studio for Mac
 
-You can directly edit the launchSettings.json file in Visual Studio for Mac, or you can use project options to edit it. To get to the project options, right-click your project and select **Options**.
+You can directly edit the _launchSettings.json_ file in Visual Studio for Mac, or you can use project options to edit it. To get to the project options, right-click your project and select **Options**.
 
 ![Project shortcut menu with "Options" selected](media/vsmac-ctx-proj-options.png)
 

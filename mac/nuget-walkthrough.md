@@ -3,6 +3,7 @@ title: "Including a NuGet package in your project"
 description: This document covers how to include a NuGet package in a project using Visual Studio for Mac. It walks through finding and downloading a package, and introducing the IDE integration features.
 author: jmatthiesen
 ms.author: jomatthi
+manager: dominicn
 ms.date: 03/16/2022
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ms.custom: conceptual, devdivchpfy22
@@ -16,17 +17,17 @@ This article describes how to include a NuGet package in a project and demonstra
 
 For an intro to using NuGet in Visual Studio for Mac, see [Quickstart: Install and use a package in Visual Studio for Mac](/nuget/quickstart/install-and-use-a-package-in-visual-studio-mac)
 
-## Find and Install a Package
+## Find and install a Package
 
 1. With a project open in Visual Studio for Mac, right-click on the **Dependencies** folder (**Packages** folder if using a Xamarin project) in the **Solution Window** and select **Manage NuGet Packages...**.
 
     ![Add new NuGet package context action](media/nuget-walkthrough-packages-menu.png)
 
-2. The **Manage NuGet Packages** window is shown. Ensure that the Source drop-down in the top left corner of the dialog is set to `nuget.org`, so that you're searching the central NuGet package repository.
+2. The **Manage NuGet Packages** dialog comes up. Ensure that the **Package source** drop-down in the bottom left corner of the dialog is set to `nuget.org`, so that you're searching the central NuGet package repository.
 
     ![List NuGet Packages](media/nuget-walkthrough-add-packages1.png)
 
-3. Use the search box in the top-right corner to find a specific package, for example `EntityFramework`. When you have found a package that you wish to use, select it and select the **Add Package** button to begin installation.
+3. Use the **Search** box in the top-right corner to find a specific package, for example `EntityFramework`. When you have found a package that you wish to use, select it and select the **Add Package** button to begin installation.
 
     ![Add EntityFramework NuGet Package](media/nuget-walkthrough-add-packages2.png)
 
@@ -63,7 +64,7 @@ Right-click on **Dependencies** to access the context menu and choose **Update**
 * **Update** - Checks the source server for each package and downloads any newer versions.
 * **Restore** - Downloads any missing packages (without updating existing packages to newer versions).
 
-Update and Restore options are also available at the Solution level, and affect all the projects in the solution.
+**Update** and **Restore** options are also available at the Solution level, and affect all the projects in the solution.
 
 ### Updating to pre-release versions of packages
 To update to a newer pre-release version of a package, you can right-click on **Dependencies** to open the context menu and choose the **Manage NuGet Packages...** menu.
@@ -79,7 +80,7 @@ Finally, from the **Updates** tab of the dialog, select the package you wish to 
 ![Manage NuGet Packages dialog opened to the Installed tab, with a package selected and the New Version dropdown list open.](media/nuget-walkthrough-packages-nuget-dialog-update-installed-package.png)
 
 ### Locating outdated packages
-From the Solution Window, you can view what version of a package is currently installed. Right-click on the package to update.
+From the **Solution** Window, you can view what version of a package is currently installed. Right-click on the package to update.
 
 ![Packages menu with the options to Update, Remove, Refresh](media/nuget-walkthrough-PackageMenu.png)
 
@@ -122,11 +123,11 @@ The Package Manager installs the selected package version into all selected proj
 
 Packages available for installation are initially retrieved from nuget.org. However, you can add other package locations to Visual Studio for Mac. It's useful for testing your own NuGet packages under development, or to use a private NuGet server inside your company or organization.
 
-In Visual Studio for Mac, navigate to **Visual Studio > Preferences > NuGet > Sources** to view and edit the list of package sources. Sources can be a remote server (specified by a URL) or a local directory.
+In Visual Studio for Mac, navigate to **Visual Studio > Preferences > NuGet > Sources** to view and edit the list of package sources. **Sources** can be a remote server (specified by a URL) or a local directory.
 
 ![Package Sources](media/nuget-walkthrough-PackageSource.png)
 
-Select **Add** to set up a new source. Enter a friendly name and the URL (or file path) to the package source. If the source is a secure web server, enter the username and password as well, otherwise leave these entries blank:
+Select **Add** to set up a new source. Enter a friendly **Name** and **Location** (the URL or file path) to the package source. If the source is a secure web server, enter the **Username** and **Password** as well, otherwise leave these entries blank:
 
 ![Add Package Source dialog with a prompt for Name, location URL, user name, and password.](media/nuget-walkthrough-PackageSource2.png)
 
