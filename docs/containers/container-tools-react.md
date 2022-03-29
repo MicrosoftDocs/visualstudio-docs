@@ -370,7 +370,7 @@ The browser shows the app's home page.
    ![Screenshot of running app.](media/container-tools-react/vs-2019/running-app.png)
    ::: moniker-end
    ::: moniker range=">=vs-2022"
-   ![Screenshot of running app.](media/container-tools-react/vs-2022/running-app.png)
+   ![Screenshot of running app.](media/container-tools-react/vs-2022/client-app-page.png)
    ::: moniker-end
 
 :::moniker range="<=vs-2017"
