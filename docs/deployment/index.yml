@@ -51,7 +51,7 @@ landingContent:
         links:
           - text: Publish tool
             url: quickstart-deploy-aspnet-web-app.md
-          - text: Publish to Azure
+          - text: Azure
             url: /azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs#publish-your-web-app
           - text: Get publish settings from IIS
             url: tutorial-import-publish-settings-iis.md
@@ -67,10 +67,6 @@ landingContent:
             url: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
           - text: Installer package
             url: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
-      - linkListType: how-to-guide
-        links:
-          - text: Windows Store
-            url: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
 
   # Card
   - title: Deploy C++ apps
@@ -87,9 +83,9 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Node.js apps to Linux App Service
+          - text: Node.js apps on Linux App Service
             url: ../javascript/publish-nodejs-app-azure.md
-          - text: Deploy containerized apps
+          - text: Containerized apps
             url: ../containers/index.yml
           - text: Publish NuGet packages
             url: /nuget
