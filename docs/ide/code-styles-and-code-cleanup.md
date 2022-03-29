@@ -114,7 +114,7 @@ First, configure which code styles you want to apply (in one of two profiles) in
 
 After you've configured code cleanup, you can either click on the broom icon or press **Ctrl**+**K**, **Ctrl**+**E** to run code cleanup. You can also run code cleanup across your entire project or solution. Right-click on the project or solution name in **Solution Explorer**, select **Analyze and Code Cleanup**, and then select **Run Code Cleanup**.
 
-![Screenshot of Run Code Cleanup across entire project or solution.](media/run-code-cleanup-project-solution.png)
+![Screenshot of Run Code Cleanup across entire project or solution.](media/vs-2019/run-code-cleanup-project-solution.png)
 
 ::: moniker-end
 
@@ -133,7 +133,7 @@ First, configure which code styles you want to apply (in one of two profiles) in
 
 After you've configured code cleanup, you can either click on the broom icon or press **Ctrl**+**K**, **Ctrl**+**E** to run code cleanup. You can also run code cleanup across your entire project or solution. Right-click on the project or solution name in **Solution Explorer**, select **Analyze and Code Cleanup**, and then select **Run Code Cleanup**.
 
-![Screenshot of Run Code Cleanup across entire project or solution.](media/run-code-cleanup-project-solution.png)
+![Screenshot of Run Code Cleanup across entire project or solution.](media/vs-2022/run-code-cleanup-project-solution.png)
 
 ::: moniker-end
 
