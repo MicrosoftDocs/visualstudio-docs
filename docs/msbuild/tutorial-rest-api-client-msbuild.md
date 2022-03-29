@@ -127,7 +127,7 @@ You'll create a custom task derived from [MSBuild ToolTask](/dotnet/api/microsof
 
 The complete code is in this `PetReaderToolTaskExample` folder; you can download and take a look. In this tutorial, you'll go through step by step and learn some concepts that you can apply to your own scenarios.
 
-1. Create a new Visual Studio Project for the custom task. Call it `RestApiClientGenerator1` and use the **Class Library (C#)** template with .NET Standard 2.0. Name the solution `PetReaderToolTaskExample`.
+1. Create a new Visual Studio Project for the custom task. Call it `RestApiClientGenerator` and use the **Class Library (C#)** template with .NET Standard 2.0. Name the solution `PetReaderToolTaskExample`.
 
 1. Delete *Class1.cs*, which was automatically generated.
 
