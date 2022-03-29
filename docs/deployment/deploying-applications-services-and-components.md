@@ -38,7 +38,7 @@ Deployment to a local folder is typically used for testing or to begin a staged 
 
     ![Screenshot that shows selecting Publish.](../deployment/media/quickstart-publish.png)
 
-- **Windows desktop**: You can publish a Windows desktop application to a folder by using ClickOnce deployment or a Setup project. Users can then install the application with a single click. For more information, see the following articles:
+- **Windows desktop**: You can publish a Windows desktop application to a folder by using ClickOnce deployment. Users can then install the application with a single click. For more information, see the following articles:
 
   - [Deploy a .NET Windows desktop app using ClickOnce](quickstart-deploy-using-clickonce-folder.md)
   - [Deploy a .NET Framework Windows desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md).
