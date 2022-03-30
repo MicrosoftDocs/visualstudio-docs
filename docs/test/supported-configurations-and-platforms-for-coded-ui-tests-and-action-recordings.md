@@ -30,7 +30,7 @@ The supported configurations and platforms for coded UI tests for Visual Studio 
 
 | Configuration | Supported |
 |-| - |
-| Operating Systems | [!INCLUDE[win7](../debugger/includes/win7_md.md)]<br /><br /> [!INCLUDE[winsvr08_r2](../debugger/includes/winsvr08_r2_md.md)]<br /><br /> [!INCLUDE[win8](../debugger/includes/win8_md.md)]<br /><br /> Windows 10 |
+| Operating Systems | [!INCLUDE[win7](../debugger/includes/win7_md.md)]<br /><br /> [!INCLUDE[winsvr08_r2](../debugger/includes/winsvr08_r2_md.md)]<br /><br /> [!INCLUDE[win8](../debugger/includes/win8_md.md)]<br /><br /> Windows 10<br /><br /> Windows 11 |
 | 32-bit / 64-bit Support | 32-bit Windows that is running 32-bit [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)] can test 32-bit applications.<br /><br /> 64-bit Windows that is running 32-bit [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)] can test 32-bit WOW Applications that have UI Synchronization.n.<br /><br /> 64-bit Windows that is running 32-bit [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)] can test 64-bit Windows Forms and WPF Applications that do not have UI Synchronization. |
 | Architecture | x86 and x64 **Note:**  Internet Explorer is not supported in 64-bit mode except when running under [!INCLUDE[win8](../debugger/includes/win8_md.md)] or later versions. |
 | .NET | .NET 2.0, 3.0, 3.5, 4 and 4.5. **Note:**  [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)] and Visual Studio will both require .NET 4 to operate. However, applications developed by using the listed .NET versions are supported. |
