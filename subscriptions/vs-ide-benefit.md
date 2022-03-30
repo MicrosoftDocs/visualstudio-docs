@@ -45,7 +45,7 @@ Here's how to download and install the IDE for your version of Visual Studio. We
 
 1. Select **Install**.
 
-1. When the installation is complete, you have the option to modify the installation or start Visual Studio. 
+   When the installation is complete, you have the option to modify the installation or start Visual Studio. 
 
 1. To start Visual Studio, select **Launch**. If multiple versions are installed, they're listed on the **Visual Studio Installer** pane.
 
