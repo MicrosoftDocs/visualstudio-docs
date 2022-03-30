@@ -32,7 +32,7 @@ Use this page to change color themes, status bar settings, and file extension as
 
 **Color Theme**
 
-Choose the **Blue**, **Blue (Extra Contrast)**, **Dark**, or **Light** or  color theme for the IDE.
+Choose the **Blue**, **Blue (Extra Contrast)**, **Dark**, or **Light** color theme for the IDE.
 
 ::: moniker range="vs-2022"
 
