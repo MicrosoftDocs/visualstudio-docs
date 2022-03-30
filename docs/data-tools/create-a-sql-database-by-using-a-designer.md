@@ -1,7 +1,7 @@
 ---
 title: Create a database and add tables
 description: Tutorial that describes how to add tables and foreign keys to a database by using Table Designer in Visual Studio. It also shows how to add data through the graphical interface.
-ms.date: 10/15/2021
+ms.date: 03/30/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - database tables, creating
@@ -204,13 +204,13 @@ In this section, you'll create two tables, a primary key in each table, and a fe
 
 2. Open the shortcut menu for the **Tables** node, select **Refresh**, and then expand the **Tables** node.
 
-3. Open the shortcut menu for the Customers table, and then select **View Data**.
+3. Open the shortcut menu for the Customers table, and then select **Show Table Data** or **View Data**.
 
 4. Add whatever data you want for some customers.
 
     You can specify any five characters you want as the customer IDs, but choose at least one that you can remember for use later in this procedure.
 
-5. Open the shortcut menu for the Orders table, and then select **Show Table Data**.
+5. Open the shortcut menu for the Orders table, and then select **Show Table Data** or **View Data**.
 
 6. Add data for some orders. As you enter each row, it is saved in the database.
 
