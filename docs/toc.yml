@@ -1051,6 +1051,8 @@
         items:
         - name: General
           href: ide/reference/options-text-editor-general.md
+        - name: Advanced
+          href: ide/reference/options-text-editor-advanced.md
         - name: File Extension
           href: ide/reference/options-text-editor-file-extension.md
         - name: All Languages
