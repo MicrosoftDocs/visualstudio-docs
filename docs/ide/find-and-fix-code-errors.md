@@ -101,7 +101,7 @@ With experience, you can quickly use the arrow keys and **Ctrl**+**.** to check 
 
 Visual Studio provides [on-demand formatting of your C# code file](code-styles-and-code-cleanup.md#apply-code-styles), including code style preferences, through the **Code Cleanup** button at the bottom of the editor.
 
-![Code Cleanup button in Visual Studio 2019](media/execute-code-cleanup.png)
+![Screenshot of Code Cleanup button.](media/vs-2019/execute-code-cleanup.png)
 
 In addition to formatting your file for spaces, indents, et cetera, **Code Cleanup** also applies a set of code style conventions that you define. Your preferences for each code style are read from the [EditorConfig file](code-styles-and-code-cleanup.md#code-styles-in-editorconfig-files), if you have one for the project, or from the [code style settings](code-styles-and-code-cleanup.md#code-styles-in-the-options-dialog-box) in the **Options** dialog box.
 

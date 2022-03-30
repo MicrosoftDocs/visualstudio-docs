@@ -372,7 +372,7 @@ To test the case when the amount withdrawn is greater than the balance, do the f
 
 3. Set the `debitAmount` to a number greater than the balance.
 
-Running the two tests and verify that they pass.
+Run the two tests and verify that they pass.
 
 ### Continue the analysis
 

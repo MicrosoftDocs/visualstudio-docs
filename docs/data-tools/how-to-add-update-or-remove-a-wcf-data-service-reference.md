@@ -28,6 +28,10 @@ For .NET Core projects, you can use the **Connected Services** node in **Solutio
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 
+## Prerequisites
+
+The WCF tools are not installed with the .NET workload; use the Visual Studio Installer to modify your installation. In the installer, choose **Windows Communication Foundation** under Individual Components. See [Modify Visual Studio](../install/modify-visual-studio.md).
+
 ## Add a WCF service reference
 
 ### To add a reference to an external service (.NET Framework projects)
@@ -36,7 +40,7 @@ For .NET Core projects, you can use the **Connected Services** node in **Solutio
 
    The **Add Service Reference** dialog box appears.
 
-1. In the **Address** box, enter the URL for the service, and then click **Go** to search for the service. If the service implements user name and password security, you may be prompted for a user name and password.
+1. In the **Address** box, enter the URL for the service, and then click **Go** to search for the service. If the service implements user name and password security, you may be prompted for a user name and password. You can also choose a service in your own solution. Choose the **Discover** button, and then choose **Services in Solution**.
 
     > [!NOTE]
     > You should only reference services from a trusted source. Adding references from an untrusted source may compromise security.
@@ -134,9 +138,16 @@ The Entity Data Model for a [!INCLUDE[ssAstoria](../data-tools/includes/ssastori
 
 ### To update a service reference
 
+:::moniker range="<=vs-2019"
 - In **Solution Explorer**, right-click the service reference and then click **Update Service Reference**.
 
      A progress dialog box displays while the reference is updated from its original location, and the service client is regenerated to reflect any changes in the metadata.
+:::moniker-end
+:::moniker range=">=vs-2022"
+- In **Solution Explorer**, expand the **Connected Services** node, right-click the service reference, and then click **Update Service Reference**.
+
+     A progress dialog box displays while the reference is updated from its original location, and the service client is regenerated to reflect any changes in the metadata.
+:::moniker-end
 
 ## Remove a service reference
 
