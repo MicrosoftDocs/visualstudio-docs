@@ -14,7 +14,7 @@ monikerRange: ">=vsmac-2019"
 
 # Getting Started with ASP.NET Core
 
-:::moniker range="vsmac-2019"
+::: moniker range="vsmac-2019"
 
  Visual Studio for Mac makes it easy to develop your app's service with its support for the latest ASP.NET Core Web development platform. ASP.NET Core runs on .NET Core, the latest evolution of the .NET Framework and runtime. It's been tuned for fast performance, factored for small install sizes, and reimagined to run on Linux and macOS, as well as Windows.
 
@@ -247,9 +247,9 @@ For more information on the next steps from here, see the following guides:
 
 > [!Video https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Build-Your-First-App/player]
 
-:::moniker-end
+::: moniker-end
 
-:::moniker range="vsmac-2022"
+::: moniker range="vsmac-2022"
 
  Visual Studio for Mac makes it easy to develop your app's service with its support for the latest ASP.NET Core Web development platform. ASP.NET Core runs on .NET 6, the latest evolution of the .NET platform and runtime. It's been tuned for fast performance, factored for small install sizes, and reimagined to run on Linux and macOS, as well as Windows.
 
@@ -341,4 +341,4 @@ For more information on the next steps from here, see the following guides:
 
 > [!Video https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Build-Your-First-App/player]
 
-:::moniker-end
+::: moniker-end
