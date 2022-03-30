@@ -1,7 +1,7 @@
 ---
 title: Options, Text Editor, Advanced
 description: Learn how to use the Advanced dialog box to change global settings for the Visual Studio text editor.
-ms.date: 03/28/2022
+ms.date: 03/29/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Advanced
@@ -138,7 +138,7 @@ Use this option to adjust how many characters you want to scroll in each user-in
 
 ## Text formatting method
 
-The default is **Automatic**. You can choose one of two more options, either **Ideal** or **Display**. Choose the option that best allows you to fine-tune text rendering in the editor, based on your specific hardware.
+The default is **Automatic**. You can choose one of two more options, either **Ideal** or **Display**. Choose the option that best allows you to fine-tune text formatting in the editor, based on your specific hardware.
 
 For more information, see [TextFormattingMode](/dotnet/api/system.windows.media.textformattingmode?view=windowsdesktop-6.0&preserve-view=true).
 
