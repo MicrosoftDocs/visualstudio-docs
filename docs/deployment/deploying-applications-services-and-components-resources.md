@@ -29,11 +29,20 @@ Get help for your deployment task:
 - Not sure what deployment option to choose? See [What publishing options are right for me?](#what-publishing-options-are-right-for-me)
 - For help with deployment issues for Azure App Service or IIS, see [Troubleshoot ASP.NET Core on Azure App Service and IIS](/aspnet/core/test/troubleshoot-azure-iis).
 - For help with configuring .NET deployment settings, see [Configure .NET deployment settings](#configure-net-deployment-settings).
+::: moniker range="<=vs-2019"
 - To deploy to a new target, if you have previously created a publish profile, select **New** from the **Publish** window for a configured profile.
 
-   ![Create a new publish profile](../deployment/media/create-a-new-publish-profile.png)
+   ![Screenshot of Create a new publish profile.](../deployment/media/create-a-new-publish-profile.png)
 
    Then, choose a deployment option in the Publish tool. For information on your publishing options, see the following sections.
+::: moniker-end
+::: moniker range=">=vs-2022"
+- To deploy to a new target, if you have previously created a publish profile, select **Publish Selection** from the **Build** menu for a configured profile.
+
+   ![Screenshot of Create a new publish profile.](../deployment/media/vs-2022/create-a-new-publish-profile.png)
+
+   Then, choose a deployment option in the Publish tool. For information on your publishing options, see the following sections.
+::: moniker-end
 
 ## What publishing options are right for me?
 
@@ -58,11 +67,14 @@ From within Visual Studio, applications can be published directly to the followi
 
 The preceding options appear as shown in the following illustration when you create a new publish profile.
 
-::: moniker range=">=vs-2019"
-![Choose a publishing option](../deployment/media/quickstart-publish-dialog.png)
+::: moniker range=">=vs-2022"
+![Screenshot of Choose a publishing option.](../deployment/media/vs-2022/quickstart-publish-dialog.png)
+::: moniker-end
+::: moniker range="vs-2019"
+![Screenshot of Choose a publishing option.](../deployment/media/quickstart-publish-dialog.png)
 ::: moniker-end
 ::: moniker range="vs-2017"
-![Choose a publishing option](../deployment/media/quickstart-publish-dialog-vs-2017.png)
+![Screenshot of Choose a publishing option.](../deployment/media/quickstart-publish-dialog-vs-2017.png)
 ::: moniker-end
 
 For a quick tour of more general application deployment options, see [First look at deployment](../deployment/deploying-applications-services-and-components.md).
@@ -75,7 +87,17 @@ When you choose Azure, you can choose between:
 - A Docker image deployed to [Azure Container Registry](#azure-container-registry)
 - An [Azure Virtual Machine](#azure-virtual-machine)
 
-![Choose an Azure service](../deployment/media/quickstart-choose-azure-service.png)
+::: moniker range="<=vs-2019"
+
+![Screenshot of Choose an Azure service.](../deployment/media/quickstart-choose-azure-service.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+![Screenshot of Choose an Azure service.](../deployment/media/vs-2022/quickstart-choose-azure-service.png)
+
+::: moniker-end
 
 ### Azure App Service
 
