@@ -34,7 +34,17 @@ In *break mode*, app execution is suspended while functions, variables, and obje
 
    For example, in the code editor in Visual Studio, you can use the **Run To Cursor** command to start the app, debugger attached, and enter break mode, and then select **F11** to navigate through the code:
 
-   ![Animation that shows selecting Run To Cursor and then F11.](../debugger/media/navigate-code-code-stepping.gif)
+   ::: moniker range="<=vs-2019"
+
+   ![Animation that shows selecting Run To Cursor and then F11.](../debugger/media/vs-2019/navigate-code-code-stepping.gif)
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2022"
+
+   ![Animation that shows selecting Run To Cursor and then F11.](../debugger/media/vs-2022/navigate-code-code-stepping.gif)
+
+   ::: moniker-end
 
 When you're in break mode, you can use various commands to navigate through your code. You can examine the values of variables to look for violations or bugs. For some project types, you can also make adjustments to the app when you're in break mode.
 
@@ -89,7 +99,17 @@ You might prefer to run directly to a specific location or function when you kno
 
 To set a simple breakpoint in your code, select the far-left margin next to the line of code where you want to suspend execution. You can also select the line and then select **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert Breakpoint**. The breakpoint appears as a red dot in the left margin next to the line of code. The debugger suspends execution just before the line runs.
 
-![Screenshot that shows how to set a breakpoint.](../debugger/media/dbg_basics_setbreakpoint.png)
+::: moniker range="<=vs-2019"
+
+![Screenshot that shows how to set a breakpoint.](../debugger/media/vs-2019/dbg-basics-setbreakpoint.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+![Screenshot that shows how to set a breakpoint.](../debugger/media/vs-2022/dbg-basics-setbreakpoint.png)
+
+::: moniker-end
 
 Breakpoints in Visual Studio provide a rich set of functionality, like conditional breakpoints and tracepoints. For details, see [Using breakpoints](../debugger/using-breakpoints.md).
 
@@ -103,13 +123,34 @@ You can set the debugger to run until it reaches a specified function. You can s
 
 1. In the **New Function Breakpoint** dialog, enter the name of the function and select its language:
 
-   ![Screenshot that shows the New Function Breakpoint dialog.](../debugger/media/dbg_execution_newbreakpoint.png)
+   ::: moniker range="<=vs-2019"
+
+   ![Screenshot that shows the New Function Breakpoint dialog.](../debugger/media/vs-2019/dbg-execution-newbreakpoint.png)
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2022"
+
+   ![Screenshot that shows the New Function Breakpoint dialog.](../debugger/media/vs-2022/dbg-execution-newbreakpoint.png)
+
+   ::: moniker-end
+
 
 1. Select **OK**.
 
 If the function is overloaded or in more than one namespace, you can choose the one you want in the **Breakpoints** window:
 
-![Screenshot that shows overloaded function breakpoints.](../debugger/media/dbg_execution_overloadedbreakpoints.png)
+::: moniker range="<=vs-2019"
+
+![Screenshot that shows breakpoints window.](../debugger/media/vs-2019/dbg-execution-overloadedbreakpoints.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+![Screenshot that shows breakpoints window.](../debugger/media/vs-2022/dbg-execution-overloadedbreakpoints.png)
+
+::: moniker-end
 
 **To select a function breakpoint from the call stack**
 
@@ -156,7 +197,18 @@ To break into the next available line of code in a running app, select **Debug**
 
 When the debugger is paused, a yellow arrow in the margin of the source code or **Disassembly** window marks the location of the statement that will run next. You can change the next statement that will run by moving this arrow. You can skip over code or return to a previous line. Moving the pointer is useful for situations like skipping code that contains a known bug.
 
- ![Animation that shows how to move the pointer.](../debugger/media/dbg_basics_example3.gif)
+ ::: moniker range="<=vs-2019"
+
+ ![Animation that shows how to move the pointer.](../debugger/media/vs-2019/dbg-basics-example3.gif)
+
+ ::: moniker-end
+
+ ::: moniker range=">=vs-2022"
+
+ ![Animation that shows how to move the pointer.](../debugger/media/vs-2022/dbg-basics-example3.gif)
+
+ ::: moniker-end
+
 
 If you want to change the next statement that will run, the debugger must be in break mode. In the source code or **Disassembly** window, drag the yellow arrow to a different line, or right-click the line you want to run next and select **Set Next Statement**.
 
