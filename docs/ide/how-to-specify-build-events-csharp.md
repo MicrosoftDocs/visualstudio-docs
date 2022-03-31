@@ -80,7 +80,7 @@ The build event syntax can include any command that is valid at a command prompt
 
 In these events, you usually want to reference the values of some project-level variables such as the name of the project or the location of the output folder. In prior versions of Visual Studio, these were called *macros*. The equivalent to macros in recent versions of Visual Studio are MSBuild properties. MSBuild is the build engine that Visual Studio uses to process your project file when it performs a build. A build event in the IDE results in an MSBuild [target](../msbuild/msbuild-targets.md) in the project file. You can use any MSBuild property that is available in the target in your project file (for example, `$(OutDir)` or `$(Configuration)`) . The MSBuild properties that are available to you in these events depend on the files implicitly or explicitly imported in a project file, such `.props` and `.targets` files, and properties set in your project file, such as in `PropertyGroup` elements. Commonly available properties are listed at [MSBuild common properties](../msbuild/common-msbuild-project-properties.md). Be careful to use the exact spelling of each property. No error is reported if you misspell a property; instead, an undefined property evaluates to an empty string.
 
-For example, suppose you specify a pre-build event as in the following image:
+For example, suppose you specify a pre-build event as follows:
 
 ![Screenshot showing pre-build event example.](./media/vs-2022/pre-build-event-example.png)
 
@@ -96,7 +96,7 @@ The build event appears as a target that includes the [Exec task](../msbuild/exe
 
 When you build the project in this example, the pre-build event prints the values of some properties. In this example, `$(CscToolPath)` doesn't produce any output, because it's not defined. It is an optional property that you can define in your project file to give the path to a customized instance of the C# compiler (for example, if you were testing a different version of *csc.exe*, or an experimental compiler).
 
-Output from your build events is written to the build output, which can be found in the **Output** window. By **Show output from:**, choose **Build**.
+Output from your build events is written to the build output, which can be found in the **Output** window. In the **Show output from** dropdown, choose **Build**.
 
 ```output
 Build started...
