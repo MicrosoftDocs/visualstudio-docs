@@ -22,9 +22,9 @@ This tool replaces the **XAML UI Responsiveness** tool that was part of the diag
 
 You can use this tool on the following platforms:
 
-- Universal Windows apps (on Windows 10)
+- Universal Windows apps (on Windows 10 and later)
 - Windows 8.1
-- Windows Presentation Foundation (.Net 4.0 and above)
+- Windows Presentation Foundation (.NET 4.0 and above)
 - Windows 7
 
 > [!NOTE]
