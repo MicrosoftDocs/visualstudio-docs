@@ -42,9 +42,9 @@ Then follow the links below to learn more about R-related features as well as th
 
 Also see [Frequently asked questions](faq.md).
 
-![movie camera icon for video](../install/media/video-icon.png "Watch a video") [Watch a video (youtube.com)](https://www.youtube.com/watch?v=dll3IS1bfWQ) for an overview of R Tools for Visual Studio (12m 36s). Also see [more R Tools videos](https://www.youtube.com/results?search_query=R+Tools+for+visual+studio).
+For videos on how to use R Tools in Visual Studio, see [R Tools videos](https://www.youtube.com/results?search_query=R+Tools+for+visual+studio).
 
-## Send us your feedback!
+## Send us your feedback
 
 1. **GitHub issues**: The best way to reach the RTVS team is by [filing an issue on GitHub](https://github.com/Microsoft/RTVS/issues), or by using the **R Tools** > **Feedback** menu.
 
