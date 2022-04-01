@@ -16,8 +16,8 @@ ms.workload:
 
 You can use unit testing functionality in Visual Studio to test an MSBuild custom task before distribution to ensure the correctness of the code. For information about the benefits of doing tests and basic test tooling, see [basics about unit tests](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md). In this tutorial, you use the code examples used in other MSBuild custom task tutorials. The following projects used in those tutorials are available in GitHub and include unit and integration tests for MSBuild custom tasks:
 
-1. [Custom Task](tutorial-custom-task-code-generation.md)
-1. [Code Generation](tutorial-rest-api-client-msbuild.md)
+- [Custom Task](tutorial-custom-task-code-generation.md)
+- [Code Generation](tutorial-rest-api-client-msbuild.md)
 
 ## Unit Test
 
@@ -117,36 +117,36 @@ Unit tests are important, but you also need to test the custom MSBuild task in a
 
 1. Now, create each test. Each test will need its own MSBuild file definition to be executed. For example [testscript-success.msbuild](https://github.com/dotnet/samples/blob/main/msbuild/custom-task-code-generation/AppSettingStronglyTyped/AppSettingStronglyTyped.Test/Resources/testscript-success.msbuild). To understand the file, see [Tutorial: Crete a custom task](tutorial-custom-task-code-generation.md).
 
-```xml
-<Project Sdk="Microsoft.NET.Sdk">
-    <UsingTask TaskName="AppSettingStronglyTyped.AppSettingStronglyTyped" AssemblyFile="..\AppSettingStronglyTyped.dll" />
-    <PropertyGroup>
-        <TargetFramework>netstandard2.1</TargetFramework>
-    </PropertyGroup>
+   ```xml
+   <Project Sdk="Microsoft.NET.Sdk">
+       <UsingTask TaskName="AppSettingStronglyTyped.AppSettingStronglyTyped" AssemblyFile="..\AppSettingStronglyTyped.dll" />
+       <PropertyGroup>
+           <TargetFramework>netstandard2.1</TargetFramework>
+       </PropertyGroup>
 
-    <PropertyGroup>
-        <SettingClass>MySettingSuccess</SettingClass>
-        <SettingNamespace>example</SettingNamespace>
-    </PropertyGroup>
+       <PropertyGroup>
+           <SettingClass>MySettingSuccess</SettingClass>
+           <SettingNamespace>example</SettingNamespace>
+       </PropertyGroup>
 
-    <ItemGroup>
-        <SettingFiles Include="complete-prop.setting" />
-    </ItemGroup>
+       <ItemGroup>
+           <SettingFiles Include="complete-prop.setting" />
+       </ItemGroup>
 
-    <Target Name="generateSettingClass">
-        <AppSettingStronglyTyped SettingClassName="$(SettingClass)" SettingNamespaceName="$(SettingNamespace)" SettingFiles="@(SettingFiles)">
-            <Output TaskParameter="ClassNameFile" PropertyName="SettingClassFileName" />
-        </AppSettingStronglyTyped>
-    </Target>
-</Project>
-```
+       <Target Name="generateSettingClass">
+           <AppSettingStronglyTyped SettingClassName="$(SettingClass)" SettingNamespaceName="$(SettingNamespace)" SettingFiles="@(SettingFiles)">
+               <Output TaskParameter="ClassNameFile" PropertyName="SettingClassFileName" />
+           </AppSettingStronglyTyped>
+       </Target>
+   </Project>
+   ```
 
 1. The test argument gives the instructions to build this MSBuild file:
 
-```csharp
- //Arrage
- buildProcess.StartInfo.Arguments = "build .\\Resources\\testscript-success.msbuild /t:generateSettingClass";
-```
+   ```csharp
+    //Arrage
+    buildProcess.StartInfo.Arguments = "build .\\Resources\\testscript-success.msbuild /t:generateSettingClass";
+   ```
 
 1. Execute and get the output:
 
