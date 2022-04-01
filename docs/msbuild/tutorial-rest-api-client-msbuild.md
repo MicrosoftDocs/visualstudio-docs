@@ -127,7 +127,7 @@ You'll create a custom task derived from [MSBuild ToolTask](/dotnet/api/microsof
 
 The complete code is in this `PetReaderToolTaskExample` folder; you can download and take a look. In this tutorial, you'll go through step by step and learn some concepts that you can apply to your own scenarios.
 
-1. Create a new Visual Studio Project for the custom task. Call it `RestApiClientGenerator1` and use the **Class Library (C#)** template with .NET Standard 2.0. Name the solution `PetReaderToolTaskExample`.
+1. Create a new Visual Studio Project for the custom task. Call it `RestApiClientGenerator` and use the **Class Library (C#)** template with .NET Standard 2.0. Name the solution `PetReaderToolTaskExample`.
 
 1. Delete *Class1.cs*, which was automatically generated.
 
@@ -242,7 +242,7 @@ The next step is to create an app that uses the task.
 1. In the `PetRestApiClient` project, create a text file named *petshop-openapi-spec.json* (in the project folder). To add the OpenApi spec, copy the content from [here](https://petstore.swagger.io/v2/swagger.json) into the file. We like a reproducible build that depends only on the input, as discussed previously. In this example, you'll raise a build error if a user chooses a URL as the OpenApi spec input.
 
    > [!IMPORTANT]
-   > A general rebuild won't work. You'll see errors that indicate it's unable to copy or delete `RestApiClientGenerator`.dll'. This is because it's trying to build the MBuild custom tyask in the same build process which uses it. Select `PetReaderToolTaskConsoleApp` and rebuild only that project. The another solution is put the custom task in a completely independent Visual Studio solution as you did in [Tutorial: Create a custom task](tutorial-custom-task-code-generation.md) example.
+   > A general rebuild won't work. You'll see errors that indicate it's unable to copy or delete `RestApiClientGenerator`.dll'. This is because it's trying to build the MBuild custom task in the same build process which uses it. Select `PetReaderToolTaskConsoleApp` and rebuild only that project. The another solution is put the custom task in a completely independent Visual Studio solution as you did in [Tutorial: Create a custom task](tutorial-custom-task-code-generation.md) example.
 
 1. Copy the following code into *Program.cs*:
 
