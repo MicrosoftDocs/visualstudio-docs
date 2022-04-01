@@ -101,13 +101,13 @@ To set a simple breakpoint in your code, select the far-left margin next to the 
 
 ::: moniker range="<=vs-2019"
 
-![Screenshot that shows how to set a breakpoint.](../debugger/media/vs-2019/dbg-basics-setbreakpoint.png)
+![Screenshot that shows how to set a breakpoint.](../debugger/media/vs-2019/dbg-basics-set-breakpoint.png)
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-![Screenshot that shows how to set a breakpoint.](../debugger/media/vs-2022/dbg-basics-setbreakpoint.png)
+![Screenshot that shows how to set a breakpoint.](../debugger/media/vs-2022/dbg-basics-set-breakpoint.png)
 
 ::: moniker-end
 
@@ -125,13 +125,13 @@ You can set the debugger to run until it reaches a specified function. You can s
 
    ::: moniker range="<=vs-2019"
 
-   ![Screenshot that shows the New Function Breakpoint dialog.](../debugger/media/vs-2019/dbg-execution-newbreakpoint.png)
+   ![Screenshot that shows the New Function Breakpoint dialog.](../debugger/media/vs-2019/dbg-execution-new-breakpoint.png)
 
    ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
-   ![Screenshot that shows the New Function Breakpoint dialog.](../debugger/media/vs-2022/dbg-execution-newbreakpoint.png)
+   ![Screenshot that shows the New Function Breakpoint dialog.](../debugger/media/vs-2022/dbg-execution-new-breakpoint.png)
 
    ::: moniker-end
 
@@ -142,13 +142,13 @@ If the function is overloaded or in more than one namespace, you can choose the 
 
 ::: moniker range="<=vs-2019"
 
-![Screenshot that shows breakpoints window.](../debugger/media/vs-2019/dbg-execution-overloadedbreakpoints.png)
+![Screenshot that shows breakpoints window.](../debugger/media/vs-2019/dbg-execution-overloaded-breakpoints.png)
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-![Screenshot that shows breakpoints window.](../debugger/media/vs-2022/dbg-execution-overloadedbreakpoints.png)
+![Screenshot that shows breakpoints window.](../debugger/media/vs-2022/dbg-execution-overloaded-breakpoints.png)
 
 ::: moniker-end
 
@@ -183,7 +183,7 @@ While the debugger is paused, you can hover over a statement in source code or t
 
 While the debugger is paused, you can hover over a statement in source code while pressing the **Shift** key and then select **Force run execution to here** (the double green arrow). When you choose this option, the application attaches the Visual Studio debugger and pauses at the cursor location. Any breakpoints and first-chance exceptions found during execution are temporarily disabled.
 
-![Screenshot that shows Force Run to Click.](../debugger/media/dbg_force-run-to-cursor.png)
+![Screenshot that shows Force Run to Click.](../debugger/media/dbg-force-run-to-cursor.png)
 
 > [!NOTE]
 > **Force Run to Click** is available starting in [!include[vs_dev17](../misc/includes/vs_dev17_md.md)].
