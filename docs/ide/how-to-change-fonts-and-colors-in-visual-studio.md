@@ -155,7 +155,7 @@ You can change the font and text size for all the IDE frame and tool windows, or
 
 ::: moniker-end
 
-For more information about how to change fonts and colors for accessibility, see the see the []() section of this page. And, for details about all the user interface (UI) elements where you can change font and color schemes, see the [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) page.
+For more information about how to change fonts and colors for accessibility, see the see the [Set accessibility options](#set-accessibility-options) section of this page. And, for details about all the user interface (UI) elements where you can change font and color schemes, see the [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) page.
 
 ## Set accessibility options
 
@@ -222,10 +222,10 @@ Use the following procedures to toggle the Visual Studio extra contrast option:
 
 Visual Studio also includes features to help people who have limited dexterity to write. For example, Visual Studio supports Dvorak keyboard layouts, which make the most frequently typed characters more accessible.
 
-You can also customize the default keyboard shortcuts available with Visual Studio. For more information, see [Identify and customize keyboard shortcuts](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).
+You can also customize the default keyboard shortcuts available with Visual Studio. For more information, see [Identify and customize keyboard shortcuts](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described here, which can vary depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described here, which can vary depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](environment-settings.md#reset-settings).
 
 ::: moniker range="vs-2017"
 
@@ -248,7 +248,7 @@ Here's how to turn off the pop-up windows:
 
 1. Clear the **Auto list members** and **Parameter information** checkboxes.
 
-You can rearrange the windows in the integrated development environment (IDE) to best suit the way you work. You can dock, float, hide, or automatically hide each tool window. For more information about how to change window layouts, see [Customize window layouts](../../ide/customizing-window-layouts-in-visual-studio.md).
+You can rearrange the windows in the integrated development environment (IDE) to best suit the way you work. You can dock, float, hide, or automatically hide each tool window. For more information about how to change window layouts, see [Customize window layouts](customizing-window-layouts-in-visual-studio.md).
 
 #### Change the settings of text-based tool windows
 
