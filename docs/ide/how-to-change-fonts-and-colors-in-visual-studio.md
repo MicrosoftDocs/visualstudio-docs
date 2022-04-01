@@ -326,6 +326,8 @@ To improve toolbar usability and accessibility, you can add text to toolbar butt
 
 1. Adjacent to In **Name**, insert provide a new caption for the selected button.
 
+### A few more accessibility features
+
 In addition to the font and color accessibility features, here are more a few more features that make Visual Studio more accessible for people with disabilities:
 
 - Keyboard shortcut controls and customization; see [How to use the keyboard exclusively](reference/how-to-use-the-keyboard-exclusively.md) and [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md).
