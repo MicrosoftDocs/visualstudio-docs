@@ -1,7 +1,7 @@
 ---
 title: Fix program errors and improve code
 description: This article describes some basic ways Visual Studio can help you find and fix problems in your code, including build errors, code analysis, debugging tools, and unit tests.
-ms.date: 05/02/2018
+ms.date: 03/31/2022
 ms.topic: conceptual
 ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
 author: TerryGLee
@@ -23,7 +23,17 @@ There are two basic types of build configuration: **Debug** and **Release**. The
 
 The easiest way to build your project is to press **F7**, but you can also start the build by selecting **Build** > **Build Solution** from the main menu.
 
+::: moniker range=">=vs-2019"
+
+:::image type="content" source="media/debug-build-solution-menu-item.png" alt-text="Screenshot of the Build menu in the Visual Studio IDE.":::
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
 ![Visual Studio build project menu selection](../ide/media/vs_ide_gs_debug_build_menu_item.png)
+
+::: moniker-end
 
 You can observe the build process in the **Output** window at the bottom of the Visual Studio UI. Errors, warnings, and build operations are displayed here. If you have errors (or if you have warnings above a configured level), your build fails. You can click on the errors and warnings to go to the line where they occurred. Rebuild your project by either pressing **F7** again (to recompile only the files with errors) or **Ctrl**+**Alt**+**F7** (for a clean and complete rebuild).
 
