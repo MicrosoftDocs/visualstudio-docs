@@ -1,8 +1,8 @@
 ---
 title: Change themes, fonts, text, and contrast for accessibility
-description: Learn how to change Visual Studio color themes, font colors, text sizes, and extra-contrast colors for ease of use and accessibility concerns.
+description: Learn how to change Visual Studio color themes, font colors, text sizes, extra-contrast colors, and more for ease of use and accessibility concerns.
 titleSuffix: ''
-ms.date: 04/01/2022
+ms.date: 04/04/2022
 ms.topic: how-to
 ms.custom: contperf-fy21q1
 helpviewer_keywords:
@@ -23,7 +23,7 @@ ms.workload:
 You can change the fonts and the colors in Visual Studio in several ways. For example, you can change the default dark theme (also referred to as "dark mode") to a light theme, a blue theme, an extra-contrast theme, or a theme that matches your system settings. You can also change the default font and text size in both the IDE and the code editor.
 
 > [!TIP]
-> See the [**We’ve upgraded the UI in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/) blog post to learn more about the subtle color contrast ratio adjustments and a new Cascadia Code font we've added to make Visual Studio more accessible for everyone.
+> See the [**We’ve upgraded the UI in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/) blog post to learn more about the subtle color contrast ratio adjustments and a new [Cascadia Code](#use-the-cascadia-code-font) font we've added to make Visual Studio more accessible for everyone.
 
 ::: moniker-end
 
@@ -230,9 +230,6 @@ You can also customize the default keyboard shortcuts available with Visual Stud
 
 Visual Studio also includes auto-completion for methods and parameters; for more information, see [IntelliSense in Visual Studio](using-intellisense.md).
 
-> [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described here, which can vary depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](environment-settings.md#reset-settings).
-
 ::: moniker range="vs-2017"
 
 > [!TIP]
@@ -241,6 +238,9 @@ Visual Studio also includes auto-completion for methods and parameters; for more
 ::: moniker-end
 
 There are more ways to customize Visual Studio to be more accessible to you. For example, you can change the behavior of pop-up windows, text-based tool windows, toolbar buttons, margin indicators, and more.
+
+> [!NOTE]
+> The dialog boxes and menu commands you see might differ from those described here, which can vary depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](environment-settings.md#reset-settings).
 
 #### Change the behavior of pop-up windows
 
