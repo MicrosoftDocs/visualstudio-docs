@@ -68,7 +68,7 @@ Choose from one of the following completion mode settings:
 
 ## Allow CodeLens to displace the caret line
 
-By default, [CodeLens](../find-code-changes-and-other-history-with-codelens.md) information appears over a code line. Toggle to show CodeLens information directly in your code line at in your current caret position, instead.
+By default, [CodeLens](../find-code-changes-and-other-history-with-codelens.md) information appears over a code line. Toggle to show CodeLens information directly in your code line at your current caret position, instead.
 
 ::: moniker range="vs-2022"
 
