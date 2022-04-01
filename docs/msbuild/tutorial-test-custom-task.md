@@ -180,7 +180,7 @@ Unit tests are important, but you also need to test the custom MSBuild task in a
 
 ## Conclusion
 
-Unit testing is useful because you can test and debug the code to ensure correctness of each specific piece of code, but having integration tests is important to ensure the task executes in a realistic build context. In this tutorial,you learned how to test an MSBuild custom task.
+Unit testing is useful because you can test and debug the code to ensure correctness of each specific piece of code, but having integration tests is important to ensure the task executes in a realistic build context. In this tutorial, you learned how to test an MSBuild custom task.
 
 ## Next steps
 
