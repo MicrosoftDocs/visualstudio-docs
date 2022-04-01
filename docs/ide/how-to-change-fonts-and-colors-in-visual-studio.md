@@ -222,7 +222,13 @@ Use the following procedures to toggle the Visual Studio extra contrast option:
 
 Visual Studio also includes features to help people who have limited dexterity to write. For example, Visual Studio supports Dvorak keyboard layouts, which make the most frequently typed characters more accessible.
 
-You can also customize the default keyboard shortcuts available with Visual Studio. For more information, see [Identify and customize keyboard shortcuts](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).
+You can also customize the default keyboard shortcuts available with Visual Studio. For more information, see the following pages:
+
+- [Identify and customize keyboard shortcuts](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
+- [How to use the keyboard exclusively](reference/how-to-use-the-keyboard-exclusively.md)
+- [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md)
+
+Visual Studio also includes auto-completion for methods and parameters; for more information, see [IntelliSense in Visual Studio](using-intellisense.md).
 
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described here, which can vary depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](environment-settings.md#reset-settings).
@@ -326,17 +332,9 @@ To improve toolbar usability and accessibility, you can add text to toolbar butt
 
 1. Adjacent to In **Name**, insert provide a new caption for the selected button.
 
-### A few more accessibility features
-
-In addition to the font and color accessibility features, here are more a few more features that make Visual Studio more accessible for people with disabilities:
-
-- Keyboard shortcut controls and customization; see [How to use the keyboard exclusively](reference/how-to-use-the-keyboard-exclusively.md) and [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md).
-
-- Auto-completion for methods and parameters; see [IntelliSense in Visual Studio](using-intellisense.md).
+### Accessibility support
 
 For more information about features, products, and services that make Windows more accessible for people with disabilities, see [Accessibility products and services from Microsoft](reference/accessibility-products-and-services-from-microsoft.md). And, for more information about how to obtain more accessible formats of documentation for Microsoft products, see the [Documentation in alternative formats](reference/accessibility-products-and-services-from-microsoft.md#documentation-in-alternative-formats) section of the [Accessibility products and services from Microsoft](reference/accessibility-products-and-services-from-microsoft.md) page.
-
-### Accessibility support
 
 The accessibility information included on this page might apply only to users who license Microsoft products in the United States. If you obtained this product outside of the United States, visit the [Microsoft Accessibility](https://www.microsoft.com/accessibility/) website for a list of Microsoft support services telephone numbers and addresses. You can contact your subsidiary to find out whether the type of products and services described on this page are available in your area. Information about accessibility is also available in other languages.
 
