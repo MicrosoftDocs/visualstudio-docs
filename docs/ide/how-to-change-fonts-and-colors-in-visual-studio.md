@@ -1,7 +1,8 @@
 ---
 title: Change themes, fonts, text, and contrast for accessibility
-description: Learn how to change Visual Studio color themes, font colors, text sizes, and extra-contrast colors for ease of use and accessibility concerns.
-ms.date: 02/28/2022
+description: Learn how to change Visual Studio color themes, font colors, text sizes, extra-contrast colors, and more for ease of use and accessibility concerns.
+titleSuffix: ''
+ms.date: 04/04/2022
 ms.topic: how-to
 ms.custom: contperf-fy21q1
 helpviewer_keywords:
@@ -22,7 +23,7 @@ ms.workload:
 You can change the fonts and the colors in Visual Studio in several ways. For example, you can change the default dark theme (also referred to as "dark mode") to a light theme, a blue theme, an extra-contrast theme, or a theme that matches your system settings. You can also change the default font and text size in both the IDE and the code editor.
 
 > [!TIP]
-> See the [**We’ve upgraded the UI in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/) blog post to learn more about the subtle color contrast ratio adjustments and a new Cascadia Code font we've added to make Visual Studio more accessible for everyone.
+> See the [**We’ve upgraded the UI in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/) blog post to learn more about the subtle color contrast ratio adjustments and a new [Cascadia Code](#use-the-cascadia-code-font) font we've added to make Visual Studio more accessible for everyone.
 
 ::: moniker-end
 
@@ -154,9 +155,9 @@ You can change the font and text size for all the IDE frame and tool windows, or
 
 ::: moniker-end
 
-For more information about how to change fonts and colors in the code editor, see the see the [Change fonts and colors for the editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md) page. And, for details about all the user interface (UI) elements where you can change font and color schemes, see the [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) page.
+For more information about how to change fonts and colors for accessibility, see the [Set accessibility options](#set-accessibility-options) section of this page. And, for details about all the user interface (UI) elements where you can change font and color schemes, see the [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) page.
 
-## Accessibility options
+## Set accessibility options
 
 ::: moniker range="vs-2022"
 
@@ -219,15 +220,121 @@ Use the following procedures to toggle the Visual Studio extra contrast option:
 
 ### More accessibility features in Visual Studio
 
-In addition to the font and color accessibility features, here are more a few more features that make Visual Studio more accessible for people with disabilities:
+Visual Studio also includes features to help people who have limited dexterity to write. For example, Visual Studio supports Dvorak keyboard layouts, which make the most frequently typed characters more accessible.
 
-- Keyboard shortcut controls and customization; see [How to use the keyboard exclusively](reference/how-to-use-the-keyboard-exclusively.md) and [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md).
+You can also customize the default keyboard shortcuts available with Visual Studio. For more information, see the following pages:
 
-- Auto-completion for methods and parameters; see [IntelliSense in Visual Studio](using-intellisense.md).
+- [Identify and customize keyboard shortcuts](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
+- [How to use the keyboard exclusively](reference/how-to-use-the-keyboard-exclusively.md)
+- [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md)
 
-For more information about features, products, and services that make Windows more accessible for people with disabilities, see [Accessibility products and services from Microsoft](reference/accessibility-products-and-services-from-microsoft.md). And, for more information about how to obtain more accessible formats of documentation for Microsoft products, see the [Documentation in alternative formats](reference/accessibility-products-and-services-from-microsoft.md#documentation-in-alternative-formats)section of the [Accessibility products and services from Microsoft](reference/accessibility-products-and-services-from-microsoft.md) page.
+Visual Studio also includes auto-completion for methods and parameters; for more information, see [IntelliSense in Visual Studio](using-intellisense.md).
+
+::: moniker range="vs-2017"
+
+> [!TIP]
+> To learn more about recent accessibility updates, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
+
+::: moniker-end
+
+There are more ways to customize Visual Studio to be more accessible to you. For example, you can change the behavior of pop-up windows, text-based tool windows, toolbar buttons, margin indicators, and more.
+
+> [!NOTE]
+> The dialog boxes and menu commands you see might differ from those described here, which can vary depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](environment-settings.md#reset-settings).
+
+#### Change the behavior of pop-up windows
+
+Visual Studio displays pop-up windows in the editor. These pop-up windows include information that makes coding easier, such as parameters to complete a function or statement. The pop-up windows can also be helpful if you have difficulty typing. However, some users might find that they interfere with focus in the code editor, which can be problematic.
+
+Here's how to turn off the pop-up windows:
+
+1. From the **Tools** menu, choose **Options**.
+
+1. Choose **Text Editor** > **All Languages** > **General**.
+
+1. Clear the **Auto list members** and **Parameter information** checkboxes.
+
+You can rearrange the windows in the integrated development environment (IDE) to best suit the way you work. You can dock, float, hide, or automatically hide each tool window. For more information about how to change window layouts, see [Customize window layouts](customizing-window-layouts-in-visual-studio.md).
+
+#### Change the settings of text-based tool windows
+
+You can change the settings for text-based tool windows, such as the **Command** window, **Immediate** window, and **Output** window by using **Tools** > **Options** > **Environment** > **Fonts and Colors**.
+
+When you select **[All Text Tool Windows]** in the **Show settings for** drop-down list, the default setting is listed as **Default** in the **Item foreground** and **Item background** drop-down lists. Choose the **Custom** button to change these settings.
+
+You can also change the settings for how text is displayed in the editor. Here's how.
+
+1. From the **Tools** menu, choose **Options**.
+
+1. Choose **Environment** > **Fonts and Colors**.
+
+1. Select an option on the **Show settings for** drop-down menu.
+
+    To change the font size for text in an editor, choose **Text Editor**.
+
+    To change the font size for text in text-based tool windows, choose **[All Text Tool Windows]**.
+
+    To change the font size for ToolTip text in an editor, choose **Editor Tooltip**.
+
+    To change the font size for text in statement completion pop-ups, choose **Statement Completion**.
+
+1. From **Display items**, select **Plain Text**.
+
+1. In **Font**, select a new font type.
+
+1. In **Size**, select a new font size.
+
+    > [!TIP]
+    > To reset the text size for text-based tool windows and editors, choose **Use Defaults**.
+
+7. Choose **OK**.
+
+#### Change the colors for text, margin indicators, white space, and code elements
+
+You can choose to change the default colors for text, margin indicators, white space, and code elements in the editor. Here's how.
+
+1. From the **Tools** menu, choose **Options**.
+
+1. In the **Environment** folder, choose **Fonts and Colors**.
+
+1. In **Show settings for**, choose **Text Editor**.
+
+1. From **Display items**, select an item whose display you need to change, such as **Plain Text**, **Indicator Margin**, **Visible White Space**, **HTML Attribute Name**, or **XML Attribute**.
+
+1. Select display settings from the following options: **Item foreground**, **Item background**, and **Bold**.
+
+1. Choose **OK**.
+
+> [!TIP]
+> To use high contrast colors for all application windows on your operating system, press **Left Alt**+**Left Shift**+**PrtScn**. If Visual Studio is open, close and then reopen it to fully implement high contrast colors.
+
+#### Add text to toolbar buttons or modify the text
+
+To improve toolbar usability and accessibility, you can add text to toolbar buttons.
+
+###### To assign text to toolbar buttons
+
+1. From the **Tools** menu, choose **Customize**.
+
+1. In the **Customize** dialog box, select the **Commands** tab.
+
+1. Select **Toolbar**, and then choose the toolbar name that contains the button you intend to display text for.
+
+1. In the list, select the command you intend to change.
+
+1. Choose **Modify Selection**.
+
+1. Choose **Image and Text**.
+
+###### To modify the displayed text in a button
+
+1. Re-select **Modify Selection**.
+
+1. Adjacent to In **Name**, insert provide a new caption for the selected button.
 
 ### Accessibility support
+
+For more information about features, products, and services that make Windows more accessible for people with disabilities, see [Accessibility products and services from Microsoft](reference/accessibility-products-and-services-from-microsoft.md). And, for more information about how to obtain more accessible formats of documentation for Microsoft products, see the [Documentation in alternative formats](reference/accessibility-products-and-services-from-microsoft.md#documentation-in-alternative-formats) section of the [Accessibility products and services from Microsoft](reference/accessibility-products-and-services-from-microsoft.md) page.
 
 The accessibility information included on this page might apply only to users who license Microsoft products in the United States. If you obtained this product outside of the United States, visit the [Microsoft Accessibility](https://www.microsoft.com/accessibility/) website for a list of Microsoft support services telephone numbers and addresses. You can contact your subsidiary to find out whether the type of products and services described on this page are available in your area. Information about accessibility is also available in other languages.
 
