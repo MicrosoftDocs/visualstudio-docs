@@ -21,7 +21,7 @@ ms.custom: devdivchpfy22
 ---
 # Troubleshoot network-related errors when you install or use Visual Studio
 
-We've got solutions for the most typical network- or proxy-related errors. You'll find these errors when you install or use Visual Studio behind a firewall or a proxy server.
+We've got solutions for the most typical network- or proxy-related errors. You might encounter these errors when you install or use Visual Studio behind a firewall or a proxy server.
 
 ## Error: “Proxy authorization required”
 
@@ -29,7 +29,7 @@ The “Proxy authorization required” error generally occurs when users connect
 
 ### To fix this proxy error
 
-- Restart Visual Studio. A proxy authentication dialog box should appear. Enter your credentials when prompted in the dialog.
+- Restart Visual Studio. A proxy authentication dialog should appear. Enter your credentials when prompted in the dialog.
 
 - If restarting Visual Studio doesn't solve the problem, it might be because your proxy server doesn't prompt for credentials for http:&#47;&#47;go.microsoft.com addresses, but it does so for &#42;.visualStudio.microsoft.com addresses. For these servers, add the following URLs to an allowlist to unblock all sign-in scenarios in Visual Studio:
 
@@ -43,7 +43,7 @@ The “Proxy authorization required” error generally occurs when users connect
 
   - &#42;.live.com
 
-- We recommend removing the http:&#47;&#47;go.microsoft.com address from the allowlist. Removing the address will allow the proxy authentication dialog to show up for both the http:&#47;&#47;go.microsoft.com address and the server endpoints when Visual Studio restarts.
+- We recommend that you remove the http:&#47;&#47;go.microsoft.com address from the allowlist. Removing the address will allow the proxy authentication dialog to show up for both the http:&#47;&#47;go.microsoft.com address and the server endpoints when Visual Studio restarts.
 
   -OR-
 
