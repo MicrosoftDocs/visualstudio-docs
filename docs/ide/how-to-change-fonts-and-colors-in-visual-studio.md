@@ -4,7 +4,7 @@ description: Learn how to change Visual Studio color themes, font colors, text s
 titleSuffix: ''
 ms.date: 04/04/2022
 ms.topic: how-to
-ms.custom: contperf-fy21q1
+ms.custom: contperf-fy22q3
 helpviewer_keywords:
 - Visual Studio, color themes
 - color themes, Visual Studio
