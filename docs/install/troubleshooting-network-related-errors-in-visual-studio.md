@@ -33,17 +33,17 @@ The “Proxy authorization required” error generally occurs when users connect
 
 - If restarting Visual Studio doesn't solve the problem, it might be because your proxy server doesn't prompt for credentials for http:&#47;&#47;go.microsoft.com addresses, but it does so for &#42;.visualStudio.microsoft.com addresses. For these servers, add the following URLs to an allowlist to unblock all sign-in scenarios in Visual Studio:
 
-  - &#42;.windows.net
+- &#42;.windows.net
 
-  - &#42;.microsoftonline.com
+- &#42;.microsoftonline.com
 
-  - &#42;.visualstudio.microsoft.com
+- &#42;.visualstudio.microsoft.com
 
-  - &#42;.microsoft.com
+- &#42;.microsoft.com
 
-  - &#42;.live.com
+- &#42;.live.com
 
-- We recommend that you remove the http:&#47;&#47;go.microsoft.com address from the allowlist. Removing the address will allow the proxy authentication dialog to show up for both the http:&#47;&#47;go.microsoft.com address and the server endpoints when Visual Studio restarts.
+- We recommend that you remove the http:&#47;&#47;go.microsoft.com address from the allowlist. Removing the address allows the proxy authentication dialog to show up for both the http:&#47;&#47;go.microsoft.com address and the server endpoints when Visual Studio restarts.
 
   -OR-
 
@@ -51,9 +51,9 @@ The “Proxy authorization required” error generally occurs when users connect
 
 ::: moniker range="vs-2017"
 
-  1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE**.
+1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE**.
 
-  2. In the configuration file, find the `<system.net>` block, and then add this code:
+2. In the configuration file, find the `<system.net>` block, and then add this code:
 
       ```xml
       <defaultProxy enabled="true" useDefaultCredentials="true">
@@ -70,9 +70,9 @@ The “Proxy authorization required” error generally occurs when users connect
 
 ::: moniker range=">=vs-2019"
 
-  1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE**.
+1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE**.
 
-  2. In the configuration file, find the `<system.net>` block, and then add this code:
+2. In the configuration file, find the `<system.net>` block, and then add this code:
 
       ```xml
       <defaultProxy enabled="true" useDefaultCredentials="true">
@@ -104,8 +104,8 @@ This error generally occurs when a user connects to the internet through a proxy
    ```
 
 ## Error: “The underlying connection was closed”
-
 If you're using Visual Studio in a private network that has a firewall, Visual Studio might not be able to connect to some network resources. These resources can include Azure DevOps Services for sign-in and licensing, NuGet, and Azure services. If Visual Studio fails to connect to one of these resources, you might see the following error message:
+
 
   **The underlying connection was closed: An unexpected error occurred on send**
 
