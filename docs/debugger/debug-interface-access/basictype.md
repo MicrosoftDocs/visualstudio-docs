@@ -41,9 +41,9 @@ enum BasicType {
     btBit      = 29,
     btBSTR     = 30,
     btHresult  = 31,
-    btChar8    = 34,  // char8_t
     btChar16   = 32,  // char16_t
     btChar32   = 33,  // char32_t
+    btChar8    = 34   // char8_t
 };
 ```
 
