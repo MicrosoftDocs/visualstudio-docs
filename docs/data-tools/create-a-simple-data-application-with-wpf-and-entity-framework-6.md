@@ -83,7 +83,7 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
 
    - Replace the only occurrence of <xref:System.Collections.Generic> (around line 431) with <xref:System.Collections.ObjectModel>.
 
-7. Press **Ctrl**+**Shift**+**B** to build the project. When the build finishes, the model classes are visible to the data sources wizard.
+7. Press **F5** or **Ctrl**+**F5** to build and run the project. When the application first runs, the model classes are visible to the data sources wizard.
 
 Now you are ready to hook up this model to the XAML page so that you can view, navigate, and modify the data.
 
@@ -138,7 +138,6 @@ It is possible to write your own databinding code, but it is much easier to let 
      Now, scroll down and find the `Window_Loaded` event handler. Notice that Visual Studio has added a CollectionViewSource object. This represents the NorthwindEntities object that you selected when you created the model. You added that already, so you don't need it here. Let's replace the code in `Window_Loaded` so that the method now looks like this:
 
      :::code language="csharp" source="../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs" id="Snippet2":::
-
 
 8. Press **F5**. You should see the details for the first customer that was retrieved into the CollectionViewSource. You should also see their orders in the data grid. The formatting isn't great, so let's fix that up. You can also create a way to view the other records and do basic CRUD operations.
 
