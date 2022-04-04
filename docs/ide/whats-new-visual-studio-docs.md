@@ -60,7 +60,7 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 **New articles**
 
-- [Options dialog box: Text Editor \> Advanced](../ide/reference/options-text-editor-advanced.md)
+- [Options dialog box: Text Editor \> Advanced](./reference/options-text-editor-advanced.md)
 
 **Updated articles**
 
