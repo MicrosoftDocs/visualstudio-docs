@@ -113,7 +113,7 @@ Here's how to add sounds to program events in either Windows 11 or Windows 10.
 
 1. In **Program Events**, scroll to **Microsoft Visual Studio**, and then select the sounds that you want to apply to the events that you choose.
 
-    :::image type="content" source="media/system-sounds-dialog-windows-11-.png" alt-text="Screenshot of the Sounds tab of the Sound dialog box in Windows 11.":::
+    :::image type="content" source="media/system-sounds-dialog-windows-11.png" alt-text="Screenshot of the Sounds tab of the Sound dialog box in Windows 11.":::
 
 1. Click **OK**.
 
