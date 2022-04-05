@@ -10,11 +10,11 @@ description:  Learn about the Pluralsight training subscription included with se
 ---
 
 # Pluralsight training benefits in Visual Studio subscriptions
-Advance your skills with expert-authored courses, learning paths, adaptive skill measurement, and more!  Depending on which Visual Studio subscription or program membership you have, you may be eligible for up to six months of free, unlimited access to the entire Pluralsight catalog.
+Advance your skills with expert-authored courses, learning paths, adaptive skill measurement, and more!  You may be eligible for up to six months of free, unlimited access to the entire Pluralsight catalog depending on which Visual Studio subscription you have.
 
 The table below details what Pluralsight subscription benefits are available to each Visual Studio subscription type.  Some subscribers will also be able to take advantage of limited courses after their full catalog access subscription expires. Pluralsight will guide you through that process when your full catalog subscription expires.
 
- Depending on the type of subscription they have, not all subscribers who have previously used a Pluralsight subscription provided through a Visual Studio subscription will be able to redeem new Pluralsight benefit offers. If you are not eligible to redeem additional Pluralsight training benefits, you'll receive a notification when you attempt to activate the benefit on the Pluralsight website.
+Not all subscribers who have previously used a Pluralsight subscription provided through a Visual Studio subscription will be able to redeem new Pluralsight benefit offers. If you are not eligible to redeem more Pluralsight training benefits, you'll receive a notification when you attempt to activate the benefit on the Pluralsight website.
 
 ## Activation steps
 1. To activate your subscription, connect to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the **Activate** link on the Pluralsight benefit tile.  To narrow the list of tiles displayed, you can choose a group filter.  Pluralsight is located in the Professional Development benefits group.
@@ -44,10 +44,10 @@ The table below details what Pluralsight subscription benefits are available to 
 1. That's it!  You're now ready to start learning with thousands of Pluralsight courses!
 
 ## Status of your Pluralsight subscription
-After you activate your Pluralsight benefit, the appearance of the tile in the Visual Studio subscriptions portal will change to help you track the status of your subscription.  
+After you activate your Pluralsight benefit, the appearance of the tile in the Visual Studio subscriptions portal will display the status of your subscription.  
 
 ### While your subscription is active
-Instead of the "Activate" button, you'll now see a small circular button that, if clicked, will take you directly to the Pluralsight portal so you can sign in and continue with your training.  
+Instead of the "Activate" button, you'll now see a small circular button that will take you directly to the Pluralsight portal so you can sign in and continue with your training.  
 
 Under the Pluralsight title at the top of the tile, you'll see text displaying how much time is remaining on your Pluralsight subscription.  When your subscription is within 60 days of expiring, the text will switch to displaying the number of days remaining rather than months.  
 
@@ -95,7 +95,7 @@ A: Not all Visual Studio Enterprise subscriptions include the Pluralsight benefi
 A:  The Pluralsight benefit in selected Visual Studio subscriptions renews when your subscription renews. For example, if you have an annual subscription that you renew each year, the benefit is available to you each year when you renew. If you have a multi-year subscription, the Pluralsight benefit is available to you once during the term of the subscription.  If you renew a multi-year subscription, the benefit will be available again following the renewal.  To find your renewal date, visit <https://my.visualstudio.com/subscriptions> and click *Support Information* and locate the "Valid through:" date. 
 
 ### Q: Do I have access to any customized learning  playlists or channels?
-A: Yes. As a Visual Studio subscriber you get access to featured roles, learning paths, and custom channels (playlists) as part of your Pluralsight training benefit. Featured content has been specially curated by Microsoft and Pluralsight, and is geared towards learning in key areas of interest. Activate your Pluralsight benefit through your Visual Studio subscription portal <https://my.visualstudio.com/benefits> to get access to this and other content on your Pluralsight home page.
+A: Yes. As a Visual Studio subscriber you get access to featured roles, learning paths, and custom channels (playlists) as part of your Pluralsight training benefit. Featured content has been specially curated by Microsoft and Pluralsight for learning in key areas of interest. Activate your Pluralsight benefit through your Visual Studio subscription portal <https://my.visualstudio.com/benefits> to get access to this and other content on your Pluralsight home page.
 
 ### Q: The Pluralsight tile doesn't have an "Activate" link. How can I activate the benefit?
 A:  If you have already activated your Pluralsight benefit, the "Activate" link will be replaced by a link that takes you to the sign-in page for Pluralsight.  You will also see the date you activated the benefit as well as information about how much time remains on your subscription.  If you've already used a subscription, you won't be able to activate another one.
