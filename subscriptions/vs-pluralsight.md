@@ -4,13 +4,12 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: bc8b526c-2fed-4ac8-aaa2-73d2495256fd
-ms.date: 03/17/2021
+ms.date: 4/5/2022
 ms.topic: how-to
 description:  Learn about the Pluralsight training subscription included with selected Visual Studio subscriptions.
 ---
 
 # Pluralsight training benefits in Visual Studio subscriptions
-
 Advance your skills with expert-authored courses, learning paths, adaptive skill measurement, and more!  Depending on which Visual Studio subscription or program membership you have, you may be eligible for up to six months of free, unlimited access to the entire Pluralsight catalog.
 
 The table below details what Pluralsight subscription benefits are available to each Visual Studio subscription type.  Some subscribers will also be able to take advantage of limited courses after their full catalog access subscription expires. Pluralsight will guide you through that process when your full catalog subscription expires.
