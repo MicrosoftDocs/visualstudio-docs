@@ -68,13 +68,13 @@ int main()
 
    ::: moniker range="<=vs-2019"
 
-   ![Screenshot of Watch variables.](../debugger/media/vs-2019/watch-variables.png)
+   ![Screenshot of Watch variables.](../debugger/media/vs-2019/watch-variable.png)
 
    ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
-   ![Screenshot of Watch variables.](../debugger/media/vs-2022/watch-variables.png)
+   ![Screenshot of Watch variables.](../debugger/media/vs-2022/watch-variable.png)
 
    ::: moniker-end
 
