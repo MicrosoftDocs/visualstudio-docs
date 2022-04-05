@@ -1,6 +1,6 @@
 ---
 title: Capabilities of Dotfuscator
-ms.date: 03/28/2019
+ms.date: 12/01/2021
 ms.devlang: dotnet
 ms.topic: conceptual
 keywords: Dotfuscator, Dotfuscator Community, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017, Visual Studio 2019, Visual Studio

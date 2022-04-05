@@ -217,6 +217,16 @@
       "redirect_url": "/visualstudio/ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio",
       "redirect_document_id": false
     },
+  {
+      "source_path": "docs/ide/reference/how-to-set-ide-accessibility-options.md",
+      "redirect_url": "/visualstudio/ide/how-to-change-fonts-and-colors-in-visual-studio#set-accessibility-options",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "docs/ide/reference/how-to-change-fonts-and-colors-in-the-editor.md",
+      "redirect_url": "/visualstudio/ide/how-to-change-fonts-and-colors-in-visual-studio",
+      "redirect_document_id": false
+  },
     {
       "source_path": "docs/ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md",
       "redirect_url": "/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio",

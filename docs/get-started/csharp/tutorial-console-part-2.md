@@ -243,7 +243,7 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
 
 ## Reference .NET libraries: Write to a log
 
-You can use the .NET `Trace` class to add a log of all operations, and write it to a text file. The `Trace` class is also useful for basic print debugging techniques. The `Trace` class is in `System.Diagnostics`, and uses `System.IO` classes like `StreamWriter`.
+You can use the .NET [Trace](xref:System.Diagnostics.Trace) class to add a log of all operations, and write it to a text file. The `Trace` class is also useful for basic print debugging techniques. The `Trace` class is in `System.Diagnostics`, and uses `System.IO` classes like `StreamWriter`.
 
 1. Start by adding the `using` directives at the top of *CalculatorLibrary.cs*:
 
@@ -908,3 +908,4 @@ Congratulations on completing this tutorial! To learn more, continue with the fo
 - [Run a C# program](run-program.md).
 - [Learn about C# IntelliSense](../../ide/visual-csharp-intellisense.md).
 - [Continue with the Visual Studio IDE overview](visual-studio-ide.md).
+- [Logging and tracing](/dotnet/core/diagnostics/logging-tracing)
