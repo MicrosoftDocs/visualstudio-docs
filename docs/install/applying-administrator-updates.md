@@ -2,7 +2,7 @@
 title: Applying administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager
 titleSuffix: ''
 description: Learn how to apply administrator updates to Visual Studio.
-ms.date: 02/04/2022
+ms.date: 04/05/2022
 ms.topic: overview
 ms.assetid: 9a3fdb28-db3d-4970-bc17-7417a985f0fb
 author: anandmeg
@@ -19,12 +19,14 @@ This document describes different types and characteristics of Visual Studio adm
 
 ## Understanding Visual Studio administrator updates
 
-The Visual Studio administrator update package that is published to Microsoft Update for consumption by the Microsoft Catalog and WSUS contains information that the Configuration Manager needs to be able to download and distribute the Visual Studio update to client machines. It also contains information that an IT administrator needs in order to decide which updates to distribute throughout the organization. It can also be used to facilitate maintenance of network layouts. The Visual Studio administrator update packages don’t contain enough information to do a fresh installation of the product, nor do they contain any of the actual product binaries that are published to the Content Delivery Network. Visual Studio administrator updates are cumulative, just like regular Visual Studio updates. You can assume that any Visual Studio update that has a higher product version number and a later release date is a superset of an older, lower version.
+The Visual Studio administrator update package that is published to Microsoft Update for consumption by the Microsoft Catalog, WSUS, and SCCM Configuration Manager contains information that the Visual Studio client machines need to be able to download and update Visual Studio. The Visual Studio administrator update package is titled in a way to help an IT administrator decide which updates to distribute throughout the organization, and it can be configured in a way to control certain aspects of the update behavior. The Visual Studio administrator update can also be used by an admin to [update a network layout](/visualstudio/install/create-a-network-installation-of-visual-studio#update-the-layout-to-a-specific-version-of-the-product). The Visual Studio administrator update packages don’t contain enough information to do a fresh installation of the product, nor do they contain any of the actual product binaries that are published to the Content Delivery Network. Visual Studio administrator updates are cumulative, just like regular Visual Studio updates. You can assume that any Visual Studio update that has a higher product version number and a later release date is a superset of an older, lower version.
+
+Visual Studio administrator updates that are deployed through SCCM cause the client machines to download the product files from wherever the [client is configured to download updates from](/visualstudio/install/update-visual-studio#configure-source-location-of-updates-1) and apply the update. The updated product bits can be sourced from either the internet or, in scenarios where the client is not connected to the internet, the updated product bits can come from an updated network layout. 
+
+>[!NOTE] 
+> By default, the client machine's SYSTEM account will be downloading and installing the Visual Studio administrator updates, which means that the SYSTEM account must have administrative privileges to the machine, and it [must also have access to either the internet or to the network layout location in order to download the updated product bits](#understanding-configuration-options).  
 
 Visual Studio administrator updates apply to Visual Studio servicing versions that are under support. For more information about which Visual Studio servicing baselines are still in support during a particular timeframe, see [Visual Studio Product Lifecycle and Servicing](/visualstudio/productinfo/vs-servicing-vs). All supported Visual Studio servicing baselines will be kept secure.  
-
-> [!NOTE]
-> Visual Studio administrator updates cause the client machines to download the product files from wherever the [client is configured to download updates from](/visualstudio/install/update-visual-studio#configure-source-location-of-updates-1) - either the internet or a network layout. Thus, Administrator updates can be used in scenarios where the client is not connected to the internet. For example, if the client is configured to obtain updates from a network layout, then the Administrator updates can serve to trigger the clients to update themselves.  
 
 ## Types and characteristics of administrator updates
 
@@ -72,9 +74,12 @@ There are a few configuration options that are can be used to tailor the Visual 
 * **[Administrator update opt-in](../install/enabling-administrator-updates.md#encoding-administrator-intent-on-the-client-machines)**: This registry key is required for the client machine to receive administrator updates. It is a machine-wide key, which means it applies to all instances of Visual Studio installed on the box.
 * **Visual Studio user opt-out**: Visual Studio users can use a separate machine-wide **AdministratorUpdatesOptOut** registry key to *opt out* of receiving Visual Studio administrator updates. The purpose of this key is to allow the Visual Studio user to have some control over having updates automatically applied to the machine. To configure the client computer to block administrator updates, set the **AdministratorUpdatesOptOut** REG_DWORD key to **1**. The absence of the key, or a set value of **0**, means that the Visual Studio user wants to receive administrator updates to Visual Studio.
     Note that the **AdministratorUpdatesOptOut** key for encoding user preference is prioritized over the **AdministratorUpdatesEnabled** key, which encodes the IT admin intent. If **AdministratorUpdatesOptOut** is set to **1**, the update will be blocked on the client, even if the **AdministratorUpdatesEnabled** key is also set to **1**. This action assumes that IT admins can access and monitor which developers chose to opt out, and that the two parties can then discuss whose needs are more important. IT admins can always change either key whenever they want.
-* **Location of the updated product bits**: Most of the time, client machines download the updated product bits from the internet via the Microsoft CDN. This scenario requires the client machines to have internet access. Some enterprises, however, restrict client machines to only install and update bits from an internal network layout location. To ensure that administrator updates can be applied using updated bits that are on an internal network location, the following conditions must be true before the administrator update can be successfully deployed: 
-  * The client machine must have, at some point, already run the bootstrapper from that network layout location. Ideally, the original client install would have happened using the bootstrapper from the network layout, but it's also possible to have just installed an update using an updated bootstrapper in that same network location. Either one of these actions would embed, on the client machine, a connection with that particular layout location.
-  * The network layout location (where the client is connected to) must be [updated to contain the updated product bits](../install/update-a-network-installation-of-visual-studio.md) that the administrator update wants to deploy.
+* **Location of the updated product bits**: When executing the update, the client machines will download the updated product bits from either the internet via the Microsoft CDN or from from a network layout share. In both of these cases, the account on the client machine that is executing the update (typically SYSTEM, but [can be customized to USER](/mem/configmgr/apps/deploy-use/create-applications#bkmk_dt-ux)) must have both administrative privileges on the machine as well as access to the source location of product bits. 
+  * If the product is being sourced from the internet, then the SYSTEM account executing the update must have access to at least the [Visual Studio endpoints](/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server). 
+  * If the product is being sourced from a network layout location then the following conditions must be true before the administrator update can be successfully deployed:
+      * The account executing the update must have permissions to the network share. For example, if SYSTEM accounts are executing the administrator updates, then you'll need to give the "Domain Computers" group permissions to the netwrok layout share.  
+      * The client machine must have, at some point, already run the bootstrapper from that network layout location. Ideally, the original client install would have happened using the bootstrapper from the network layout, but it's also possible to have just installed an update using an updated bootstrapper in that same network location. Either one of these actions would embed, on the client machine, a connection with that particular layout location.
+     * The network layout location (where the client is connected to) must be [updated to contain the updated product bits](../install/update-a-network-installation-of-visual-studio.md) that the administrator update wants to deploy.
 
 ::: moniker range=">=vs-2019"
 
@@ -156,14 +161,12 @@ You can use the following methods to provide feedback about Visual Studio admini
 * [Enabling administrator updates](../install/enabling-administrator-updates.md)
 * [Visual Studio administrator guide](../install/visual-studio-administrator-guide.md)
 * [Visual Studio Product Lifecycle and Servicing](/visualstudio/productinfo/vs-servicing-vs)
-* [Visual Studio 2019 Release Notes](/visualstudio/releases/2019/release-notes)
-* [Visual Studio 2017 Release Notes](/visualstudio/releasenotes/vs2017-relnotes)
 * [Install Visual Studio](../install/install-visual-studio.md)
+* [Update Visual Studio](../install/update-visual-studio.md)
 * [Using Command Line Parameters to install Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for detecting and managing Visual Studio instances](../install/tools-for-managing-visual-studio-instances.md)
 * [Create a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md)
-* [How to define settings in a response file](../install/automated-installation-with-response-file.md)
-* [Control updates to network-based Visual Studio deployments](../install/controlling-updates-to-visual-studio-deployments.md)
+* [Update a Visual Studio client that was installed from a network layout](../install/update-a-network-installation-of-visual-studio.md)
 * [Microsoft Update Catalog FAQ](https://www.catalog.update.microsoft.com/faq.aspx)
 * [Microsoft Endpoint Configuration Manager (SCCM) documentation](/mem/configmgr)
 * [Import updates from Microsoft Catalog into Configuration Manager](/mem/configmgr/sum/get-started/synchronize-software-updates#import-updates-from-the-microsoft-update-catalog)
