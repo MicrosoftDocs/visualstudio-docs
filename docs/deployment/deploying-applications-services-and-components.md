@@ -90,7 +90,7 @@ If you require a more complex installation of a desktop application than ClickOn
 - An MSI or EXE installer package can be created by using [InstallShield](https://www.flexerasoftware.com/producer/products/software-installation/installshield-software-installer/tab/requirements) from Flexera Software. InstallShield may be used with Visual Studio 2017 and later versions. Community Edition isn't supported.
 
   > [!NOTE]
-  > InstallShield Limited Edition is no longer included with Visual Studio and isn't supported in Visual Studio 2017 and later versions. Check with [Flexera Software](http://learn.flexerasoftware.com/content/IS-EVAL-InstallShield-Limited-Edition-Visual-Studio) about future availability.
+  > InstallShield Limited Edition is no longer included with Visual Studio and isn't supported in Visual Studio 2017 and later versions. Check with Flexera Software about future availability.
 
 - You can also install prerequisite components for desktop applications by configuring a generic installer, which is known as a bootstrapper. For more information, see [Application deployment prerequisites](../deployment/application-deployment-prerequisites.md).
 
