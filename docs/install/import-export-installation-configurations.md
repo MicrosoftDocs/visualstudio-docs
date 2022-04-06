@@ -46,7 +46,9 @@ You can export an installation configuration file from either a previously insta
    ![Export configuration from the Visual Studio installer](../install/media/vs-2019/export-configuration-confirmation.png)
 
 1. Make sure you've got the workloads and components that you want, and then choose **Export**.
-1.  :::image type="content" source="<../install/media/vs-2022/export-configuration-confirmation1.png>" alt-text="<Export workload and components>" link="<https://link.com>":::
+![Import export installation config](../install/media/vs-2022/export-configuration-confirmation1.png)
+
+
 
 ## Import a configuration
 
