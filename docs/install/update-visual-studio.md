@@ -2,7 +2,7 @@
 title: Update Visual Studio
 titleSuffix: ''
 description: Learn how to update Visual Studio to the most recent release, step by step.
-ms.date: 3/3/2022
+ms.date: 04/05/2022
 ms.custom: vs-acquisition
 ms.topic: how-to
 ms.prod: visual-studio-windows
@@ -26,7 +26,7 @@ If you are an IT Administrator and want to configure your organization's clients
 
 ## Before you update
 
-In order to install, update, or modify Visual Studio, you must be logged on to the machine with an account that has administrative permissions. If you are logged in as a typical user and try to perform one of these commands, then you'll get a User Account Control notice prompting you for admin credentials. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
+In order to install, update, or modify Visual Studio, the account performing the update must have administrative permissions on the machine and also must have permissions to the place where the product updates are located (either the internet or a network share). If you are logged in as a typical user and try to perform one of these commands, then you'll get a User Account Control notice prompting you for admin credentials. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
 
 Visual Studio must be closed before performing an update. We highly recommend saving your work before performing an update.
 
