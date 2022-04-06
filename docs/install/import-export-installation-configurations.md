@@ -48,6 +48,7 @@ You can export an installation configuration file from either a previously insta
 1. Make sure you've got the workloads and components that you want, and then choose **Export**.
 
    :::image type="content" source="../install/media/vs-2022/export-configuration-confirmation1.png" alt-text="Screenshot of the export window.":::
+   :::image-end:::
 
 ## Import a configuration
 
