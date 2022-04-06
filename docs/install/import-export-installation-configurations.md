@@ -46,7 +46,7 @@ You can export an installation configuration file from either a previously insta
    ![Export configuration from the Visual Studio installer](../install/media/vs-2019/export-configuration-confirmation.png)
 
 1. Make sure you've got the workloads and components that you want, and then choose **Export**.
-![Import export installation config.](../install/media/vs-2022/export-configuration-confirmation1.png)
+[!Import export installation config.](../install/media/vs-2022/export-configuration-confirmation1.png)]
 
 
 
