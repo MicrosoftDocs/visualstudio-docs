@@ -48,7 +48,7 @@ You can export an installation configuration file from either a previously insta
 1. Make sure you've got the workloads and components that you want, and then choose **Export**.
 
    :::image type="content" source="../install/media/vs-2022/export-configuration-confirmation1.png" alt-text="Screenshot of the export window.":::
-   ::: moniker-end
+
 
 ## Import a configuration
 
@@ -63,8 +63,7 @@ When you're ready to import an installation configuration file, follow these ste
 1. Make sure you've got the workloads and components that you want, and then choose **Close**.
 
 ::: moniker range=">=vs-2019" 
-::: moniker-end 
-
+  
 ## Automatically install missing components
 
 **New in Visual Studio 2019**: Save a .vsconfig file to your solution root directory and then open a solution. Visual Studio automatically detects which components are missing and prompts you to install them.
@@ -80,6 +79,8 @@ You can also generate a .vsconfig file right from Solution Explorer.
 1. Confirm the location where you want to save the .vsconfig file, and then choose **Review details**.
 
 1. Make sure you've got the workloads and components that you want, and then choose **Export**.
+
+   ::: moniker-end
 
 > [!NOTE]
 > For more information, see the [Configure Visual Studio across your organization with .vsconfig](https://devblogs.microsoft.com/setup/configure-visual-studio-across-your-organization-with-vsconfig/) blog post.
