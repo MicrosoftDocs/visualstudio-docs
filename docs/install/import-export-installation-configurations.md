@@ -39,11 +39,11 @@ You can export an installation configuration file from either a previously insta
 
 1. On the product card, choose the **More** button, and then select **Export configuration**.
 
-   ![Export configuration from the product card in the Visual Studio installer](../install/media/vs-2019/vs-installer-export-config.png)
+   ![Export configuration from the product card in the Visual Studio installer](../install/media/vs-2022/export-config.png)
 
 1. Browse to or type the location where you want to save your .vsconfig file, and then choose **Review details**.
 
-   ![Export configuration from the Visual Studio installer](../install/media/vs-2019/export-configuration-confirmation.png)
+   ![Export configuration from the Visual Studio installer](../install/media/vs-2022/review-details.png)
 
 1. Make sure you've got the workloads and components that you want, and then choose **Export**.
 
@@ -62,8 +62,8 @@ When you're ready to import an installation configuration file, follow these ste
 
 1. Make sure you've got the workloads and components that you want, and then choose **Close**.
 
-::: moniker range=">=vs-2019" 
-  
+::: moniker range=">=vs-2019"
+
 ## Automatically install missing components
 
 **New in Visual Studio 2019**: Save a .vsconfig file to your solution root directory and then open a solution. Visual Studio automatically detects which components are missing and prompts you to install them.
