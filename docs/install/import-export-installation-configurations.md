@@ -48,7 +48,6 @@ You can export an installation configuration file from either a previously insta
 1. Make sure you've got the workloads and components that you want, and then choose **Export**.
 
    :::image type="content" source="../install/media/vs-2022/export-configuration-confirmation1.png" alt-text="Screenshot of the export window.":::
-   :::image-end:::
 
 ## Import a configuration
 
@@ -79,8 +78,9 @@ You can also generate a .vsconfig file right from Solution Explorer.
 1. Confirm the location where you want to save the .vsconfig file, and then choose **Review details**.
 
 1. Make sure you've got the workloads and components that you want, and then choose **Export**.
-:::image type="content" source="<../install/media/vs-2022/export-configuration-confirmation1.png>" alt-text="Screenshot of export" link="<https://link.com>":::
-::: moniker-end
+
+   :::image type="content" source="../install/media/vs-2022/export-configuration-confirmation1.png" alt-text="Add export screenshot.":::
+
 
 > [!NOTE]
 > For more information, see the [Configure Visual Studio across your organization with .vsconfig](https://devblogs.microsoft.com/setup/configure-visual-studio-across-your-organization-with-vsconfig/) blog post.
