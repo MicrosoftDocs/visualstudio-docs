@@ -62,7 +62,8 @@ When you're ready to import an installation configuration file, follow these ste
 
 1. Make sure you've got the workloads and components that you want, and then choose **Close**.
 
-::: moniker range=">=vs-2019"
+::: moniker range=">=vs-2019" 
+::: moniker-end 
 
 ## Automatically install missing components
 
@@ -79,10 +80,6 @@ You can also generate a .vsconfig file right from Solution Explorer.
 1. Confirm the location where you want to save the .vsconfig file, and then choose **Review details**.
 
 1. Make sure you've got the workloads and components that you want, and then choose **Export**.
-
-   
-
-
 
 > [!NOTE]
 > For more information, see the [Configure Visual Studio across your organization with .vsconfig](https://devblogs.microsoft.com/setup/configure-visual-studio-across-your-organization-with-vsconfig/) blog post.
