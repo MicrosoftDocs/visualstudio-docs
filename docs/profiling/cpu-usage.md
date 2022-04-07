@@ -14,7 +14,11 @@ ms.workload:
 ---
 # Analyze CPU usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)
 
-A good way to start investigating performance issues in your app is to understand its CPU usage. The **CPU Usage** performance tool shows the CPU time and percentage spent executing code in C++, C#/Visual Basic, and JavaScript apps.
+A good way to start investigating performance issues in your app is to understand its CPU usage. The **CPU Usage** performance tool shows the CPU time and percentage spent executing code in C++, C#/Visual Basic, and JavaScript apps. If you need to diagnose a slow-down or a process hang in your team’s codebase, the **CPU Usage** tool can help you diagnose the issue with your team’s production code. The tool provides auto analysis or insights so that you can analyze the resulting call trees to help diagnose latency issues.
+
+The tool is also helpful for DevOps scenarios, like when a customer reports that some requests or orders are not getting through to the retail website during peak season. Often, the issues are in production, and it is challenging to debug at that moment, but this tool can help you capture enough information and evidence of the issue. After you collect a trace file, the analysis can quickly help you understand potential causes and give suggestions within the context of your code so that you can take the next steps to fix the issue.
+
+The **CPU Usage** tool is helpful for both local trace sessions and production. It can be initiated by using the keyboard shortcut, **Alt+F2**, and then select **CPU Usage**.
 
 The CPU Usage tool can run on an open Visual Studio project, on an installed Microsoft Store app, or attached to a running app or process. You can run the CPU Usage tool with or without debugging. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
