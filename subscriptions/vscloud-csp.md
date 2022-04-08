@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: d2ab13ed-ef79-4ef0-8736-eccd04bc6020
-ms.date: 10/18/2021
+ms.date: 04/07/2022
 ms.topic: conceptual
 description:  Information for Cloud Solution Providers on how to buy and manage Visual Studio cloud subscriptions for your customers.
 ---
@@ -31,7 +31,7 @@ Anyone with [owner or contributor access](https://na01.safelinks.protection.outl
 0. Choose **Customers** and select a customer to buy for.
 0. Choose **Service Management**.
 0. Choose **Visual Studio Marketplace**.
-0. Make sure you're customer's name is in the upper right corner.
+0. Make sure your customer's name is in the upper right corner.
 0. Choose **Subscriptions**.
 0. Choose Enterprise or Professional for Visual Studio.
 0. Choose **Buy**.
