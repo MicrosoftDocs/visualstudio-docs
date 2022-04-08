@@ -19,7 +19,20 @@ ms.workload:
 
 The Project Designer in Visual Studio is a dialog box that you can use to specify applications settings and properties for a project. The Project Designer includes several different project properties pages to interact with. What you see depends on your project type, platform, or programming language.
 
-The following screenshot shows the project properties pages in the Project Designer that you'll see aftethat are displayed when you
+The following screenshot shows the project properties pages in the Project Designer that you'll see after you select **Properties** from the right-click context menu in **Solution Explorer**:
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/project-properties-designer.png" alt-text="Screenshot of the Project Designer in Visual Studio 2022.":::
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+:::image type="content" source="media/vs-2019/project-properties-designer.png" alt-text="Screenshot of the Project Designer in Visual Studio 2019.":::
+
+::: moniker-end
+
 
 > [!IMPORTANT]
 > The project properties that you can access by using the Project Designer differ from the properties you can access by using the [Properties window](properties-window.md) in Solution Explorer.
