@@ -36,7 +36,7 @@ To open the table visualizer, you must be paused during debugging.
 
 1. Click the icon to open the IEnumerable table visualizer.
 
-:::image type="content" source="../debugger/media/vs-2022/dbg-open-table-visualizer.png" alt-text="Open a table visualizer":::
+   :::image type="content" source="../debugger/media/vs-2022/dbg-open-table-visualizer.png" alt-text="Open a table visualizer":::
 
 ## View table visualizer data
 
