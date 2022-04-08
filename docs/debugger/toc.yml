@@ -75,7 +75,7 @@
     - name: View string values in a visualizer
       href: view-strings-visualizer.md
     - name: View collections in a table visualizer
-      href: view-strings-visualizer.md
+      href: view-ienumerables-visualizer.md
     - name: Disassembly code
       items:
       - name: View disassembly code
