@@ -70,6 +70,9 @@ You can install external analyzers for every project via a NuGet package. Some a
 
 If you install analyzers as a Visual Studio extension, they apply at the solution level and to all instances of Visual Studio. If you install the analyzers as a NuGet package, which is the preferred method, they apply only to the project where the NuGet package was installed. In team environments, analyzers installed as NuGet packages are in scope for *all developers* that work on that project.
 
+> [!NOTE]
+> First party analyzers also ship inside the .NET SDK. It is recommended that you enable these analyzers from the .NET SDK instead of installing the `Microsoft.CodeAnalysis.NetAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers), when possible. Enabling the analyzers from the .NET SDK ensures that you automatically get the analyzer bug fixes and new analyzers as soon as you update the SDK. See [Enable or install first-party .NET analyzers](install-net-analyzers.md) for more details.
+
 ### Build errors
 
 To enforce the rules at build time, which includes through the command line or as part of a continuous integration (CI) build, choose one of the following options:
