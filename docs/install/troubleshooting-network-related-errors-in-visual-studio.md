@@ -1,6 +1,6 @@
 ---
 title: Troubleshoot network or proxy errors
-description: Find solutions for network- or proxy-related errors. You'll find these errors when you install or use Visual Studio behind a firewall or a proxy server.
+description: Find solutions for network- or proxy-related errors that You might encounter when you install or use Visual Studio behind a firewall or a proxy server.
 ms.date: 04/04/2022
 ms.topic: troubleshooting 
 helpviewer_keywords:
@@ -25,7 +25,7 @@ We've got solutions for the most typical network- or proxy-related errors. You m
 
 ## Error: “Proxy authorization required”
 
-The “Proxy authorization required” error generally occurs when users connect to the internet through a proxy server. The proxy server then blocks the calls that Visual Studio makes to some network resources.
+This error generally occurs when users connect to the internet through a proxy server. The proxy server then blocks the calls that Visual Studio makes to some network resources.
 
 ### To fix this proxy error
 
@@ -146,9 +146,9 @@ Enable connections for the following URLs:
 
 ## Error: "Failed to parse ID from parent process"
 
-You might encounter this error message when you use a Visual Studio bootstrapper and a response.json file on a network drive. The error's source is the User Account Control (UAC) in Windows.
+You might encounter this error message when you use a Visual Studio bootstrapper and a response.json file on a network drive. The error's source is the User Account Control **(UAC)** in Windows.
 
-Here's why this error can happen: A mapped network drive or [UNC](/dotnet/standard/io/file-path-formats#unc-paths) share is linked to a user's access token. When UAC is enabled, two user [access tokens](/windows/win32/secauthz/access-tokens) are created: One *with* administrator access, and one *without* administrator access. When a network drive or share is created, the user's current access token is linked to it. Because the bootstrapper must be run as administrator, it won't be able to access the network drive or share if either the drive or the share isn't linked to a user-access-token that has administrator access.
+Here's why this error can happen: A mapped network drive or [UNC](/dotnet/standard/io/file-path-formats#unc-paths) share is linked to a user's access token. When **UAC** is enabled, two user [access tokens](/windows/win32/secauthz/access-tokens) are created: One *with* administrator access, and one *without* administrator access. When a network drive or share is created, the user's current access token is linked to it. Because the bootstrapper must be run as administrator, it won't be able to access the network drive or share if either the drive or the share isn't linked to a user-access-token that has administrator access.
 
 ### To fix this error
 
