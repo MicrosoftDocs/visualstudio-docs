@@ -79,7 +79,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
     ![Choose the MVC template](../javascript/media/aspnet-core-ts-mvc-template.png)
     ::: moniker-end
-    If you don't see the **ASP.NET Core Web Application** project template, you must add the **ASP.NET and web development** workload. For detailed instructions, see the [Prerequisites](#prerequisites).
+    If you don't see the **ASP.NET Core Web App** project template, you must add the **ASP.NET and web development** workload. For detailed instructions, see the [Prerequisites](#prerequisites).
 
     Visual Studio creates the new solution and opens your project in the right pane.
 
