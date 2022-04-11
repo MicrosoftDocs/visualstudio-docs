@@ -1,6 +1,6 @@
 ---
-title: "Error: project type not found (ClickOnce, Windows Installer)"
-description: "Resolve issues when a ClickOnce or Windows Installer project can't be loaded and you see this error message: The application which this project type is based on was not found.
+title: "Error: project type not found (Windows Installer, ClickOnce)"
+description: "Resolve issues when a Windows Installer or ClickOnce project can't be loaded and you see this error message: The application which this project type is based on was not found.
 ms.date: 04/11/2022
 ms.topic: error-reference
 dev_langs:
@@ -20,7 +20,7 @@ ms.workload:
   - "multiple"
 ---
 
-# Error: The application which this project type is based on was not found (ClickOnce or Windows Installer)
+# Error: The application which this project type is based on was not found (Windows Installer or ClickOnce)
 
 When you try to load a ClickOnce or Windows Installer project, you may get this error: ```<path to project file>: The application which this project type is based on was not found. Please try this link for further information: <link>```.
 
@@ -28,13 +28,13 @@ This message indicates that the project requires components that are not install
 
 To resolve this issue:
 
-1. Make sure the correct Visual Studio workload is installed for your project type. Select **Tools** > **Get tools and features** to open the Visual Studio Installer. For ClickOnce or Windows Installer, the workload is .NET desktop development or Desktop development with C++.
-
-   For ClickOnce, make sure the individual component, ClickOnce Publishing, is also installed. This component should be installed with the workload by default.
+1. Make sure the required Visual Studio workload is installed for your project type. Select **Tools** > **Get tools and features** to open the Visual Studio Installer. For Windows Installer or ClickOnce, the workload is .NET desktop development or Desktop development with C++.
 
 1. For Windows Installer projects, you may need to install the [Visual Studio Installer Projects extension](../deployment/installer-projects-net-core.md).
 
-1. Re-open the solution in Visual Studio.
+1. If the project was created using InstallShield from Flexera Software, you may need to repair the installation (this can happen after upgrading Visual Studio).
+
+1. Close and re-open Visual Studio, and then reload the project.
 
 ## See also
 
