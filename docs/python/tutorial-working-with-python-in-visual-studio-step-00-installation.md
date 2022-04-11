@@ -2,7 +2,7 @@
 title: Python in Visual Studio tutorial step 0, installation
 titleSuffix: ""
 description: Step 0 (installation prerequisites) of a core walkthrough of working with Python in Visual Studio.
-ms.date: 02/01/2022
+ms.date: 04/01/2022
 ms.topic: tutorial
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -19,7 +19,7 @@ ms.workload:
 > [!Note]
 > Python support is presently available only on Visual Studio for Windows. On Mac and Linux, Python support is available through [Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial).
 
-1. Download and run the latest Visual Studio installer for Windows. Python support is present in the release 15.2 and later. If you have Visual Studio installed already, open Visual Studio and run the installer by selecting **Tools** > **Add Tools and Features**.
+1. Download and run the latest Visual Studio installer for Windows. Python support is present in the release 15.2 and later. If you have Visual Studio installed already, open Visual Studio and run the installer by selecting **Tools** > **Get Tools and Features**.
 
     > [!div class="nextstepaction"]
     > [Install Visual Studio Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted)

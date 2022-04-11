@@ -103,7 +103,7 @@ The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is
 In C++/CLI, use the macros CA\_SUPPRESS\_MESSAGE or CA\_GLOBAL\_SUPPRESS_MESSAGE in the header file to add the attribute.
 
 > [!NOTE]
-> You should not use in-source suppressions on release builds, to prevent shipping the in-source suppression metadata accidentally. Additionally, because of the processing cost of in-source suppression, the performance of your application can be degraded.
+> You should not use in-source suppressions on release builds, to prevent shipping the in-source suppression metadata accidentally.
 
 ::: moniker range="vs-2017"
 
