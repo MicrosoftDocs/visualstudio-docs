@@ -28,11 +28,13 @@ This message indicates that the project requires components that are not install
 
 To resolve this issue:
 
-- Make sure the correct Visual Studio workload is installed for your project type. Select **Tools** > **Get tools and features** to open the Visual Studio Installer. For ClickOnce or Windows Installer, the workload is .NET desktop development or Desktop development with C++.
+1. Make sure the correct Visual Studio workload is installed for your project type. Select **Tools** > **Get tools and features** to open the Visual Studio Installer. For ClickOnce or Windows Installer, the workload is .NET desktop development or Desktop development with C++.
 
-- For ClickOnce, make sure the individual component, ClickOnce Publishing, is also installed. This component should be installed with the workload by default.
+   For ClickOnce, make sure the individual component, ClickOnce Publishing, is also installed. This component should be installed with the workload by default.
 
-- For Windows Installer projects targeting .NET Core, .NET 5 or later, you may need to install the [Visual Studio Installer Projects extension](../deployment/installer-projects-net-core.md).
+1. For Windows Installer projects, you may need to install the [Visual Studio Installer Projects extension](../deployment/installer-projects-net-core.md).
+
+1. Re-open the solution in Visual Studio.
 
 ## See also
 
