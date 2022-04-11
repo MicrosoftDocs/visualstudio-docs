@@ -1,6 +1,6 @@
 ---
 title: "Error: project type not found (ClickOnce, Windows Installer)"
-description: "Resolve issues when a ClickOnce or Windows Installer project can't be loaded and you see this error message: "The application which this project type is based on was not found".
+description: "Resolve issues when a ClickOnce or Windows Installer project can't be loaded and you see this error message: The application which this project type is based on was not found.
 ms.date: 04/11/2022
 ms.topic: error-reference
 dev_langs:
