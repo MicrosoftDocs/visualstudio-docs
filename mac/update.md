@@ -61,12 +61,20 @@ This displays the **Visual Studio Update** box:
 
 ## Changing the update channel
 
+::: moniker range="vsmac-2019"
+
 To change the channel, select it from the **Update channel:** drop-down and select **Switch Channel**:
 
 ![Change Channel drop-down](media/update-image3.png)
 
+::: moniker-end
+
+::: moniker range="vsmac-2022"
+
 > [!NOTE]
 > Only the **Preview** channel is available for [Visual Studio 2022 for Mac Preview](https://visualstudio.microsoft.com/vs/mac/preview/) until the GA (General Availability) release.
+
+::: moniker-end
 
 ## Downloading and installing updates
 
