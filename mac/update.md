@@ -23,7 +23,7 @@ Visual Studio for Mac provides two channels to get these latest versions:
 ::: moniker range="vsmac-2022"
 
 > [!NOTE]
-> Only the **Preview** channel is available for [Visual Studio 2022 for Mac Preview](https://visualstudio.microsoft.com/vs/mac/preview/) currently until the GA (General Availability) release.
+> Only the **Preview** channel is available for [Visual Studio 2022 for Mac Preview](https://visualstudio.microsoft.com/vs/mac/preview/) until the GA (General Availability) release.
 
 ::: moniker-end
 
@@ -71,7 +71,7 @@ Switching channels automatically starts the download process of new updates.
 
 If you've selected the option to **Check Automatically**, the **Visual Studio Update** box will pop up when Visual Studio for Mac is open to let you know that new updates are available. New updates will start downloading automatically to your machine when the updater box appears.
 
-Once the updates are downloaded, to start installing updates, select **Restart and Install Updates**:
+Once the updates are downloaded, select **Restart and Install Updates** to start installing the updates:
 
 ::: moniker range="vsmac-2019"
 
