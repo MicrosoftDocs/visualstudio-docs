@@ -183,7 +183,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Server explorer|**Ctrl+Alt+S**| View.ServerExplorer |
 |Show smart tag|**Ctrl+.**<br /><br />or **Shift+Alt+F10** [HTML Editor Design View]| View.ShowSmartTag |
 |Solution explorer|**Ctrl+Alt+L**| View.SolutionExplorer |
-|TFS Team explorer|**Ctrl+\\, Ctrl+M**| View.TfsTeamExplorer |
+|TFS Team Explorer|**Ctrl+\\, Ctrl+M**| View.TfsTeamExplorer |
 |Toolbox|**Ctrl+Alt+X**| View.Toolbox |
 |View code|**Enter** [Class Diagram]<br /><br />or **F7** [Settings Designer]| View.ViewCode |
 |View designer|**Shift+F7** [HTML Editor Source View]| View.ViewDesigner |

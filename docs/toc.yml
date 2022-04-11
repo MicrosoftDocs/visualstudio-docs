@@ -493,7 +493,7 @@
       - name: Manage editor windows
         href: ide/how-to-manage-editor-windows.md
       - name: Change fonts and colors
-        href: ide/reference/how-to-change-fonts-and-colors-in-the-editor.md
+        href: ide/how-to-change-fonts-and-colors-in-visual-studio.md
       - name: Manage word wrap
         href: ide/reference/how-to-manage-word-wrap-in-the-editor.md
       - name: Display line numbers
@@ -882,8 +882,6 @@
       href: ide/visual-studio-performance-tips-and-tricks.md
 - name: Accessibility
   items:
-  - name: Set IDE accessibility options
-    href: ide/reference/how-to-set-ide-accessibility-options.md
   - name: Accessibility tips and tricks
     href: ide/reference/accessibility-tips-and-tricks.md
   - name: Accessibility products and services from Microsoft
@@ -1051,6 +1049,8 @@
         items:
         - name: General
           href: ide/reference/options-text-editor-general.md
+        - name: Advanced
+          href: ide/reference/options-text-editor-advanced.md
         - name: File Extension
           href: ide/reference/options-text-editor-file-extension.md
         - name: All Languages

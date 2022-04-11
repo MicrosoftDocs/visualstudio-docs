@@ -49,7 +49,7 @@ Represents a COM (unmanaged) component reference in the project. This item appli
 |VersionMajor|Required string. The major part of the version number of the component. For example, "5" if the full version number is "5.46."|
 |VersionMinor|Required string. The minor part of the version number of the component. For example, "46" if the full version number is "5.46."|
 |EmbedInteropTypes|Optional boolean. If true, embed the interop types from this reference directly into your assembly rather than generating an interop DLL.|
-|LCID|Optional string. The LocaleID for the component.|
+|Lcid|Optional string. The LocaleID for the component.|
 |WrapperTool|Optional string. The name of the wrapper tool that is used on the component. Values are:<br /><br />1.  primary<br />2.  tlbimp<br />3.  primaryortlbimp<br />4.  aximp|
 |Isolated|Optional boolean. Specifies whether the component is a reg-free component.|
 

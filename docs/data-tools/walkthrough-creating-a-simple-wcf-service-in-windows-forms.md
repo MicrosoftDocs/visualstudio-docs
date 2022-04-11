@@ -22,9 +22,13 @@ ms.workload:
 ---
 # Walkthrough: Create a simple WCF service in Windows Forms
 
-This walkthrough demonstrates how to create a simple Windows Communication Foundation (WCF) service, test it, and then access it from a Windows Forms application.
+This walkthrough demonstrates how to create a simple Windows Communication Foundation (WCF) service, test it, and then access it from a .NET Framework Windows Forms application.
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
+
+## Prerequisites
+
+The WCF tools are not installed with the .NET workload; use the Visual Studio Installer to modify your installation. In the installer, choose **Windows Communication Foundation** under Individual Components. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
 ## Create a service
 
@@ -48,7 +52,7 @@ This walkthrough demonstrates how to create a simple Windows Communication Found
 
 3. Type **wcf service library** in the search box on the **Create a new project** page. Select either the C# or Visual Basic template for **WCF Service Library**, and then click **Next**.
 
-   ![Create new WCF Service Library project in Visual Studio 2019](media/vs-2019/create-new-wcf-service-library.png)
+   ![Create new WCF Service Library project in Visual Studio](media/vs-2019/create-new-wcf-service-library.png)
 
    > [!TIP]
    > If you don't see any templates, you may need to install the **Windows Communication Foundation** component of Visual Studio. Choose **Install more tools and features** to open Visual Studio Installer. Choose the **Individual components** tab, scroll down to **Development activities**, and then select **Windows Communication Foundation**. Click **Modify**.
@@ -74,7 +78,7 @@ This walkthrough demonstrates how to create a simple Windows Communication Found
    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/iservice1.cs" id="Snippet1":::
    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/iservice1.vb" id="Snippet1":::
 
-   In the above code, note the `<OperationContract()>` or `[OperationContract]` attributes. These attributes are required for any method exposed by the service.
+   In the above code, note the `OperationContract` attribute. This attribute is required for any method exposed by the service.
 
 6. In **Solution Explorer**, double-click **Service1.vb** or **Service1.cs**.
 
