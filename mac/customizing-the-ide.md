@@ -71,7 +71,7 @@ These bindings can also be set during the initial setup of Visual Studio for Mac
 
 ## Workspace layout
 
-Visual Studio for Mac's workspace consists of a main document area (normally the editor, designer surface, or options file), surrounded by complimentary *tool windows* that contain useful information for accessing and managing application files, testing, and debugging.
+Visual Studio for Mac's workspace consists of a main document area (normally the editor, designer surface, or options file), surrounded by complementary *tool windows* that contain useful information for accessing and managing application files, testing, and debugging.
 
  ![Workspace layout](media/customizing-the-ide-image1a.png)
 
