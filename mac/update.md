@@ -35,7 +35,7 @@ To open the **Visual Studio Update**, select **Visual Studio > Check for Updates
 
 ::: moniker range="vsmac-2019"
 
-![Check for update option](media/update-image1.png)
+:::image type="content" source="media/update-image1.png" alt-text="Screenshot of the Check for updates option off the Visual Studio menu.":::
 
 ::: moniker-end
 
@@ -49,7 +49,7 @@ This displays the **Visual Studio Update** box:
 
 ::: moniker range="vsmac-2019"
 
-![updater box](media/update-image2.png)
+:::image type="content" source="media/update-image2.png" alt-text="Screenshot of Visual Studio Update dialog box.":::
 
 ::: moniker-end
 
@@ -65,7 +65,7 @@ This displays the **Visual Studio Update** box:
 
 To change the channel, select it from the **Update channel:** drop-down and select **Switch Channel**:
 
-![Change Channel drop-down](media/update-image3.png)
+:::image type="content" source="media/update-image3.png" alt-text="Screenshot showing the Change Channel drop-down.":::
 
 ::: moniker-end
 
@@ -86,7 +86,7 @@ Once the updates are downloaded, select **Restart and Install Updates** to start
 
 ::: moniker range="vsmac-2019"
 
-![Button to start installing updates](media/update-image4.png)
+:::image type="content" source="media/update-image4.png" alt-text="Screenshot of restart and install updates after updates are downloaded.":::
 
 ::: moniker-end
 
