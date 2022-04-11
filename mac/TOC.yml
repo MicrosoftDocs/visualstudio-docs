@@ -6,8 +6,6 @@
       href: ide-tour.md
     - name: Visual Studio for Mac for Windows users
       href: vsmac-for-windows-users.md
-    - name: Integrated terminal
-      href: integrated-terminal.md
 - name: Installation
   items: 
     - name: Install
@@ -64,6 +62,8 @@
       href: managing-solutions-and-project-properties.md
     - name: Multitargeting
       href: project-multitargeting.md
+    - name: Integrated terminal
+      href: integrated-terminal.md
     - name: Managing references in a project
       items: 
         - name: Overview
