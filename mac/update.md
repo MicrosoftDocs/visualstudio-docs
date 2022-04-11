@@ -61,7 +61,7 @@ This displays the **Visual Studio Update** box:
 
 ## Changing the update channel
 
-To change the channel, select it from the **Update channel** drop-down and select **Switch Channel**:
+To change the channel, select it from the **Update channel:** drop-down and select **Switch Channel**:
 
 ![Change Channel drop-down](media/update-image3.png)
 
