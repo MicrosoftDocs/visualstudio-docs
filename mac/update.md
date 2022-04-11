@@ -61,9 +61,12 @@ This displays the **Visual Studio Update** box:
 
 ## Changing the update channel
 
-To change the channel, select it from the channel drop-down and press the **Switch Channel button**:
+To change the channel, select it from the **Update channel** drop-down and select **Switch Channel**:
 
 ![Change Channel drop-down](media/update-image3.png)
+
+> [!NOTE]
+> Only the **Preview** channel is available for [Visual Studio 2022 for Mac Preview](https://visualstudio.microsoft.com/vs/mac/preview/) until the GA (General Availability) release.
 
 ## Downloading and installing updates
 
