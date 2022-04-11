@@ -65,7 +65,7 @@ This displays the **Visual Studio Update** box:
 
 To change the channel, select it from the **Update channel:** drop-down and select **Switch Channel**:
 
-:::image type="content" source="media/update-image3.png" alt-text="Screenshot showing how to switch the update channel.:::
+:::image type="content" source="media/update-image3.png" alt-text="Screenshot showing how to switch the update channel.":::
 
 ::: moniker-end
 
