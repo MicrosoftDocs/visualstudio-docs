@@ -1,7 +1,7 @@
 ---
 title: Import or export installation configurations
 titleSuffix: ''
-description: Learn how to export your installation configuration to a .vsconfig file. This way you can share with others, and learn how to import it to clone.
+description: Learn how to export your installation configuration to a .vsconfig file to share with others, and how to import it to clone.
 ms.date: 04/05/2022
 ms.topic: how-to
 helpviewer_keywords:
@@ -66,7 +66,7 @@ When you're ready to import an installation configuration file, follow these ste
 
 ## Automatically install missing components
 
-**New in Visual Studio 2019**: Save a .vsconfig file to your solution root directory and then open a solution. Visual Studio automatically detects which components are missing and prompts you to install them.
+**New in Visual Studio 2019**: Save a .vsconfig file to your solution root directory and then open a solution. Visual Studio automatically detects the missing components and prompts you to install them.
 
 ![Solution Explorer suggests additional components](../install/media/vs-2019/solution-explorer-config-file.png)
 
