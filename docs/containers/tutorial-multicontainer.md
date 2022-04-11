@@ -194,17 +194,17 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
           dockerfile: MyWebAPI/Dockerfile
     ```
 
-1. To run the site locally, you have to use a different URL for the request to the Web API service, since docker compose sets up the host names in its own network, so that `mywebapi` is visible to other services as a hostname. To run locally, first replace `mywebapi` in the `OnGet` method in *Index.cshtml.cs* with a localhost and port syntax. You can get the port number either from launching the webapi project on its own or from the **App URL** setting in the **Debug** section of **Project Properties** (**Alt**+**Enter**).
+1. To run the site normally (not with Docker Compose), you have to use a different URL for the request to the Web API service, since Docker Compose sets up the host names in its own network, so that `mywebapi` is visible to other services as a hostname. To run outside of Docker Compose, first replace `mywebapi` in the `OnGet` method in *Index.cshtml.cs* with a localhost and port syntax. You can get the port number either from launching the webapi project on its own or from the **App URL** setting in the **Debug** section of **Project Properties** (**Alt**+**Enter**).
 
    ```csharp
    request.RequestUri = new Uri("http://localhost:{port}/WeatherForecast");
    ```
 
-1. Run the site locally now to verify that it works as expected. Right-click on the Web API project, and choose **Set as startup project**, and then choose **Debug** > **Start without debugging**. Then, right-click the WebFrontEnd project node and choose **Set as startup project**, and press **F5** to start debugging.
+1. Run the site normally (not with Docker Compose) now to verify that it works as expected. Right-click on the Web API project, and choose **Set as startup project**, and then choose **Debug** > **Start without debugging**. Then, right-click the WebFrontEnd project node and choose **Set as startup project**, and press **F5** to start debugging.
 
    If everything is configured correctly with the .NET Core 2.x version, you see the message "Hello from webfrontend and webapi (with value 1)."  With .NET Core 3, you see weather forecast data.
 
-   Once you've verified it works locally, change the URL in `OnGet` in *Index.cshtml.cs* back to reference mywebapi in preparation for running in Docker Compose. You might wish to use a configuration file to obtain the URL, if you want to use the same code for both Docker and non-container run and debug configurations.
+   Once you've verified it works outside of Docker Compose, change the URL in `OnGet` in *Index.cshtml.cs* back to reference mywebapi in preparation for running in Docker Compose. You might wish to use a configuration file to obtain the URL, if you want to use the same code for both Docker and non-container run and debug configurations.
 
 1. The first project that you use when you add container orchestration is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the docker-compose project.  On the docker-compose project node, right-click to open the context menu, and then choose **Properties**, or use Alt+Enter.  The following screenshot shows the properties you would want for the solution used here.  For example, you can change the page that is loaded by customizing the **Service URL** property.
 
@@ -328,17 +328,17 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
           dockerfile: MyWebAPI/Dockerfile
     ```
 
-1. To run the site locally, you have to use a different URL for the request to the Web API service, since docker compose sets up the host names in its own network, so that `mywebapi` is visible to other services as a hostname. To run locally, first replace `mywebapi` in the `OnGet` method in *Index.cshtml.cs* with a localhost and port syntax. You can get the port number either from launching the webapi project on its own or from the **App URL** setting in the **Debug** section of **Project Properties** (**Alt**+**Enter**).
+1. To run the site normally (outside of Docker Compose), you have to use a different URL for the request to the Web API service, since docker compose sets up the host names in its own network, so that `mywebapi` is visible to other services as a hostname. To run without Docker Compose, first replace `mywebapi` in the `OnGet` method in *Index.cshtml.cs* with a localhost and port syntax. You can get the port number either from launching the webapi project on its own or from the **App URL** setting in the **Debug** section of **Project Properties** (**Alt**+**Enter**).
 
    ```csharp
    request.RequestUri = new Uri("http://localhost:{port}/WeatherForecast");
    ```
 
-1. Run the site locally now to verify that it works as expected. Right-click on the Web API project, and choose **Set as startup project**, and then choose **Debug** > **Start without debugging**. Then, right-click the WebFrontEnd project node and choose **Set as startup project**, and press **F5** to start debugging.
+1. Run the site outside of Docker Compose now to verify that it works as expected. Right-click on the Web API project, and choose **Set as startup project**, and then choose **Debug** > **Start without debugging**. Then, right-click the WebFrontEnd project node and choose **Set as startup project**, and press **F5** to start debugging.
 
    If everything is configured correctly with the .NET Core 2.x version, you see the message "Hello from webfrontend and webapi (with value 1)."  With .NET Core 3, you see weather forecast data.
 
-   Once you've verified it works locally, change the URL in `OnGet` in *Index.cshtml.cs* back to reference mywebapi in preparation for running in Docker Compose. You might wish to use a configuration file to obtain the URL, if you want to use the same code for both Docker and non-container run and debug configurations.
+   Once you've verified it works without Docker Compose, change the URL in `OnGet` in *Index.cshtml.cs* back to reference mywebapi in preparation for running in Docker Compose. You might wish to use a configuration file to obtain the URL, if you want to use the same code for both Docker and non-container run and debug configurations.
 
 1. The first project that you use when you add container orchestration is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the docker-compose project.  On the docker-compose project node, right-click to open the context menu, and then choose **Properties**, or use Alt+Enter.  The following screenshot shows the properties you would want for the solution used here.  For example, you can change the page that is loaded by customizing the **Service URL** property.
 
@@ -466,15 +466,15 @@ Congratulations, you're running a Docker Compose application with a custom Docke
           dockerfile: MyWebAPI/Dockerfile
     ```
 
-1. To run the site locally, you have to use a different URL for the request to the Web API service, since docker compose sets up the host names in its own network, so that `mywebapi` is visible to other services as a hostname. To run locally, first replace `mywebapi` in the `OnGet` method in *Index.cshtml.cs* with a localhost and port syntax. You can get the port number either from launching the webapi project on its own or find it in **Project Properties** in the **Debug** section, choose **Open debug launch profiles UI**, then choose **IIS Express**, and look for the **App URL** setting.
+1. To run the site normally (outside of Docker Compose), you have to use a different URL for the request to the Web API service, since docker compose sets up the host names in its own network, so that `mywebapi` is visible to other services as a hostname. To run outside of Docker Compose, first replace `mywebapi` in the `OnGet` method in *Index.cshtml.cs* with a localhost and port syntax. You can get the port number either from launching the webapi project on its own or find it in **Project Properties** in the **Debug** section, choose **Open debug launch profiles UI**, then choose **IIS Express**, and look for the **App URL** setting.
 
    ```csharp
    request.RequestUri = new Uri("http://localhost:{port}/WeatherForecast");
    ```
 
-   Run the site locally in IIS Express now to verify that it works as expected: Right-click on the Web API project and choose **Debug** > **Start without debugging**. Then, right-click the WebFrontEnd project node and choose **Set as startup project**, and press **F5** to start debugging. If everything is configured correctly, you see weather forecast data.
+   Run the site outside of Docker Compose in IIS Express now to verify that it works as expected: Right-click on the Web API project and choose **Debug** > **Start without debugging**. Then, right-click the WebFrontEnd project node and choose **Set as startup project**, and press **F5** to start debugging. If everything is configured correctly, you see weather forecast data.
 
-   Once you've verified it works locally, change the URL in `OnGet` in *Index.cshtml.cs* back to reference mywebapi in preparation for running in Docker Compose. You might wish to use a configuration file to obtain the URL, if you want to use the same code for both Docker and non-container run and debug configurations.
+   Once you've verified it works outside of Docker Compose, change the URL in `OnGet` in *Index.cshtml.cs* back to reference mywebapi in preparation for running in Docker Compose. You might wish to use a configuration file to obtain the URL, if you want to use the same code for both Docker and non-container run and debug configurations.
 
 1. The first project that you use when you add container orchestration is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the docker-compose project.  On the docker-compose project node, right-click to open the context menu, and then choose **Properties**, or use **Alt**+**Enter**.  The following screenshot shows the properties you would want for the solution used here.  For example, you can change the page that is loaded by customizing the **Service URL** property.
 

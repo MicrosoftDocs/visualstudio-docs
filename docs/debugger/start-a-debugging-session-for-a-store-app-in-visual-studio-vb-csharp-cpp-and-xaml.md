@@ -136,7 +136,7 @@ In C++ apps, Visual Studio debugs native code by default. You can choose to debu
 
 By default, you must supply Windows credentials to run the remote debugger when you select **Remote Machine** as the deployment target. You can change the authentication requirement.
 
-The **Universal (Unencrypted Protocol)** authentication mode is for IoT, Xbox, and HoloLens devices, and Creator's Update or later Windows 10 PCs.
+The **Universal (Unencrypted Protocol)** authentication mode is for IoT, Xbox, and HoloLens devices, Widows 11 PCs, and Creator's Update or later Windows 10 PCs.
 
 **To change authentication method:**
 

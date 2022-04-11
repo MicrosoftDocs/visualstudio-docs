@@ -78,6 +78,9 @@ In Visual Studio 2022, the **Containers** window is available, which lets you vi
 
 ::: moniker-end
 
+> [!NOTE]
+> Docker's licensing requirements might be different for different versions of Docker Desktop. Refer to the [Docker documentation](https://docs.docker.com/subscription/) to understand the current licensing requirements for using your version of Docker Desktop for development in your situation.
+
 ### Adding Docker support
 
 You can enable Docker support during project creation by selecting **Enable Docker Support** when creating a new project, as shown in the following screenshot:
