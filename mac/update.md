@@ -20,19 +20,46 @@ Visual Studio for Mac provides two channels to get these latest versions:
 * **Stable** - Provides thoroughly tested updates. This channel is recommended for the best development experience.
 * **Preview** - Provides early access to updates that are candidates for release in the Stable Channel. These releases may not be reliable for everyday use.
 
+::: moniker range="vsmac-2022"
+
+> [!NOTE]
+> Only the **Preview** channel is available for [Visual Studio 2022 for Mac Preview](https://visualstudio.microsoft.com/vs/mac/preview/) currently until GA (General Availability) release.
+
+::: moniker-end
+
 ## Checking for updates
 
-You can use the **Visual Studio Updater** box to check for new updates, change channels, and download and install updates.
+You can use the **Visual Studio Update** box to check for new updates, change channels, and download and install updates.
 
-To open the **Visual Studio Updater**, browse to **Visual Studio > Check for Updates**:
+To open the **Visual Studio Update**, select **Visual Studio > Check for Updates...**:
+
+::: moniker range="vsmac-2019"
 
 ![Check for update option](media/update-image1.png)
 
-This displays the updater box:
+::: moniker-end
+
+::: moniker range="vsmac-2022"
+
+![Check for updates option](media/vsmac-2022/check-for-updates.png)
+
+::: moniker-end
+
+This displays the **Visual Studio Update** box:
+
+::: moniker range="vsmac-2019"
 
 ![updater box](media/update-image2.png)
 
-## Changing the Updater channel
+::: moniker-end
+
+::: moniker range="vsmac-2022"
+
+![updater box](media/vsmac-2022/visual-studio-update-box.png)
+
+::: moniker-end
+
+## Changing the update channel
 
 To change the channel, select it from the channel drop-down and press the **Switch Channel button**:
 
@@ -42,11 +69,21 @@ To change the channel, select it from the channel drop-down and press the **Swit
 
 Switching channels automatically starts the download process of new updates.
 
-If you've selected the option to **Check Automatically**, the updater box will pop up when Visual Studio for Mac is open to let you know that new updates are available. New downloads will start downloading automatically to your machine when this box appears.
+If you've selected the option to **Check Automatically**, the **Visual Studio Update** box will pop up when Visual Studio for Mac is open to let you know that new updates are available. New updates will start downloading automatically to your machine when the updater box appears.
 
-To start installing updates, select the **Restart and Install Updates** button:
+Once the updates are downloaded, to start installing updates, select **Restart and Install Updates**:
+
+::: moniker range="vsmac-2019"
 
 ![Button to start installing updates](media/update-image4.png)
+
+::: moniker-end
+
+::: moniker range="vsmac-2022"
+
+![Button to start installing updates](media/update-image4.png)
+
+::: moniker-end
 
 Depending on the components that need to be installed, you may need to accept more licenses or enter your machine's administrator username and password.
 
