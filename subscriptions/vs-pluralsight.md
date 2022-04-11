@@ -4,13 +4,13 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: bc8b526c-2fed-4ac8-aaa2-73d2495256fd
-ms.date: 4/5/2022
+ms.date: 4/11/2022
 ms.topic: how-to
 description:  Learn about the Pluralsight training subscription included with selected Visual Studio subscriptions.
 ---
 
 # Pluralsight training benefits in Visual Studio subscriptions
-Advance your skills with expert-authored courses, learning paths, adaptive skill measurement, and more!  You may be eligible for up to six months of free, unlimited access to the entire Pluralsight catalog depending on which Visual Studio subscription you have.
+Advance your skills with expert-authored courses, learning paths, adaptive skill measurement, and more!  Take your learning to the next level with up to six months of access to the Pluralsight tech skills platform. Master Azure, C#, Angular, ASP.NET Core and other trending tech, assess your skills and close any gaps by learning from industry experts.
 
 The table below details what Pluralsight subscription benefits are available to each Visual Studio subscription type.  Some subscribers will also be able to take advantage of limited courses after their full catalog access subscription expires. Pluralsight will guide you through that process when your full catalog subscription expires.
 
@@ -21,7 +21,7 @@ Not all subscribers who have previously used a Pluralsight subscription provided
    > [!div class="mx-imgBorder"]
    > ![Pluralsight Benefit Tile](_img/vs-pluralsight/vs-pluralsight-tile.png "Click Activate to claim your benefit")
 
-(The tile above is an example of what a Visual Studio Enterprise subscriber will see.  If you are using a different Visual Studio subscription, the duration of your Pluralsight benefit will vary.  See the Eligibility table for details.)
+   (The tile above is an example of what a Visual Studio Enterprise subscriber will see.  If you are using a different Visual Studio subscription, the duration of your    Pluralsight benefit will vary.  See the Eligibility table for details.)
 1. You'll be redirected to the Pluralsight page for the benefit that's included with your Visual Studio subscription.
    - Provide the contact information requested on the form
    - Click the checkbox to accept the terms of use
