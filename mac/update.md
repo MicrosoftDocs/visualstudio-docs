@@ -41,7 +41,7 @@ To open the **Visual Studio Update**, select **Visual Studio > Check for Updates
 
 ::: moniker range="vsmac-2022"
 
-:::image type="content" source="media/vsmac-2022/check-for-updates.png" alt-text="Screenshot of the Check for updates option off the Visual Studio menu":::
+:::image type="content" source="media/vsmac-2022/check-for-updates.png" alt-text="Screenshot of the Check for updates option off the Visual Studio menu.":::
 
 ::: moniker-end
 
@@ -55,7 +55,7 @@ This displays the **Visual Studio Update** box:
 
 ::: moniker range="vsmac-2022"
 
-:::image type="content" source="media/vsmac-2022/visual-studio-update-box.png" alt-text="Screenshot of Visual Studio Update dialog box":::
+:::image type="content" source="media/vsmac-2022/visual-studio-update-box.png" alt-text="Screenshot of Visual Studio Update dialog box.":::
 
 ::: moniker-end
 
@@ -92,7 +92,7 @@ Once the updates are downloaded, select **Restart and Install Updates** to start
 
 ::: moniker range="vsmac-2022"
 
-:::image type="content" source="media/vsmac-2022/restart-and-install-updates.png" alt-text="Screenshot of restart and install updates after updates are downloaded":::
+:::image type="content" source="media/vsmac-2022/restart-and-install-updates.png" alt-text="Screenshot of restart and install updates after updates are downloaded.":::
 
 ::: moniker-end
 
