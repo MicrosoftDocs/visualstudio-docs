@@ -1,10 +1,10 @@
 ---
-title: "Updating Visual Studio for Mac"
-description: "Instructions for updating Visual Studio for Mac and accessing preview releases."
+title: "Update Visual Studio for Mac"
+description: "Learn how to update Visual Studio for Mac and to access preview releases."
 author: jmatthiesen
 ms.author: jomatthi
 manager: dominicn
-ms.date: 03/03/2022
+ms.date: 04/11/2022
 ms.custom: devdivchpfy22
 ms.technology: vs-ide-install
 ms.topic: how-to
@@ -65,7 +65,7 @@ This displays the **Visual Studio Update** box:
 
 To change the channel, select it from the **Update channel:** drop-down and select **Switch Channel**:
 
-:::image type="content" source="media/update-image3.png" alt-text="Screenshot showing the Change Channel drop-down.":::
+:::image type="content" source="media/update-image3.png" alt-text="Screenshot showing how to switch the update channel.:::
 
 ::: moniker-end
 
