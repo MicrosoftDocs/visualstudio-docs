@@ -1,7 +1,6 @@
 ---
 title: Work with GitHub accounts in Visual Studio
 ms.date: 04/12/2022
-ms.custom:
 ms.topic: how-to
 description: "Learn how to use Visual Studio with GitHub accounts."
 author: anandmeg
@@ -27,7 +26,7 @@ You can add your public GitHub account if you're already signed in to Visual Stu
 
 2. Under the **All Accounts** submenu, select the plus sign to add an account, and select **GitHub**.
 
-    :::image type="content" source="../ide/media/sign-in-add-github.png" alt-text="Select add GitHub account":::
+:::image type="content" source="../ide/media/sign-in-add-github.png" alt-text="Select add GitHub account":::
 
 3. You'll be redirected to the browser, where you can sign in with your GitHub credentials. After your sign in, you'll get a success window in the browser, and you can return to Visual Studio.
 
