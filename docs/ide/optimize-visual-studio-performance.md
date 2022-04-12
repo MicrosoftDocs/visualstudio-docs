@@ -22,19 +22,19 @@ This article provides some suggestions to try if you find that Visual Studio is 
 
 ## Upgrade Visual Studio
 
-If you are currently using an earlier version of Visual Studio, such as Visual Studio 2017 or Visual Studio 2019, download [Visual Studio 2022](https://visualstudio.microsoft.com/downloads) for free to check out its improved performance. Solutions load much faster than in earlier versions, with performance improvements in other areas too. Visual Studio 2022 is side-by-side compatible with Visual Studio 2019 and Visual Studio 2017, so you won't lose anything by trying it out.
+If you're currently using an earlier version of Visual Studio, such as Visual Studio 2017 or Visual Studio 2019, download [Visual Studio 2022](https://visualstudio.microsoft.com/downloads) for free to check out its improved performance. Solutions load much faster than in earlier versions, with performance improvements in other areas too. Visual Studio 2022 is side-by-side compatible with Visual Studio 2017 and Visual Studio 2019, so you won't lose anything by trying it out.
 
 ::: moniker range="vs-2017"
 
-If you're already using Visual Studio 2017, make sure you are running version 15.6 or later. Data shows that solutions load up to two or three times faster in version 15.6. Download it [here](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download). For more information, see the [Load solutions faster with Visual Studio 2017 version 15.6](https://devblogs.microsoft.com/visualstudio/load-solutions-faster-with-visual-studio-2017-version-15-6/) blog post.
+If you're already using Visual Studio 2017, make sure you're running version 15.6 or later. Data shows that solutions load up to two or three times faster in version 15.6. Download it [here](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download). For more information, see the [Load solutions faster with Visual Studio 2017 version 15.6](https://devblogs.microsoft.com/visualstudio/load-solutions-faster-with-visual-studio-2017-version-15-6/) blog post.
 
 ::: moniker-end
 
 ## Extensions and tool windows
 
-You may have extensions installed that are slowing Visual Studio down. For help on managing extensions to improve performance, see [Change extension settings to improve performance](../ide/optimize-visual-studio-startup-time.md#extensions).
+You might have extensions installed that slow Visual Studio down. For help on managing extensions to improve performance, see [Change extension settings to improve performance](../ide/optimize-visual-studio-startup-time.md#extensions).
 
-Similarly, you may have tool windows that are slowing Visual Studio down. For help on managing tool windows, see [Change tool window settings to improve performance](../ide/optimize-visual-studio-startup-time.md#tool-windows).
+Similarly, you might have tool windows that slow Visual Studio down. For help on managing tool windows, see [Change tool window settings to improve performance](../ide/optimize-visual-studio-startup-time.md#tool-windows).
 
 ## Hardware
 
