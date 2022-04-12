@@ -25,8 +25,6 @@ You can add your public GitHub account if you're already signed in to Visual Stu
 
  :::image type="content" source="../install/media/vs-2022/Account Settings1.png" alt-text="Screenshot of the account settings window.":::
 
-    :::image type="content" source="../media/vs-2022/Account Settings1.png" alt-text="Account settings":::
-
 2. Under the **All Accounts** submenu, select the plus sign to add an account, and select **GitHub**.
 
     :::image type="content" source="../ide/media/sign-in-add-github.png" alt-text="Select add GitHub account":::
