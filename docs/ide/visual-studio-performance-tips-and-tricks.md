@@ -2,7 +2,7 @@
 title: Tips to improve performance
 description: Learn how to optimize certain Visual Studio features that you might not be using to help improve performance.
 ms.custom: SEO-VS-2020
-ms.date: 10/01/2021
+ms.date: 04/11/2022
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -84,11 +84,15 @@ Some tools or extensions can be turned off to improve performance.
 
 For information about .NET Compiler Platform ("Roslyn") performance considerations, see [Performance considerations for large solutions](https://github.com/dotnet/roslyn/blob/master/docs/wiki/Performance-considerations-for-large-solutions.md).
 
+::: moniker range="vs-2017"
+
 - **Disable full solution analysis**
 
     Visual Studio performs analysis on your entire solution in order to provide a rich experience about errors before invoking a build. This feature is useful to identify errors as soon as possible. However, for large solutions, this feature can consume significant memory resources. If you’re experiencing memory pressure or similar issues, you can disable this experience to free up these resources. By default, this option is enabled for Visual Basic and disabled for C#.
 
     To disable **Full Solution Analysis**, choose **Tools** > **Options** > **Text Editor**, then select either **Visual Basic** or **C#**. Choose **Advanced** and deselect **Enable full solution analysis**.
+
+::: moniker-end
 
 - **Disable CodeLens**
 
