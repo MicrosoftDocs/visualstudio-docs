@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path_from_root": "/mac/accessibility-ide-options.md",
+      "redirect_url": "/visualstudio/mac/accessibility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/accessibility-macos.md",
+      "redirect_url": "/visualstudio/mac/accessibility",
+      "redirect_document_id": false
+    },
+    {
       "source_path_from_root": "/mac/accessibility-voiceover.md",
       "redirect_url": "/visualstudio/mac/accessibility-macos?view=vsmac-2019",
       "redirect_document_id": false
