@@ -49,7 +49,6 @@ You can export an installation configuration file from either a previously insta
 
    :::image type="content" source="../install/media/vs-2022/export-configuration-confirmation1.png" alt-text="Screenshot of the export window.":::
 
-
 ## Import a configuration
 
 When you're ready to import an installation configuration file, follow these steps.
