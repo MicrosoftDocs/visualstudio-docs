@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 2e0fd8bb-8f20-487c-b350-b8fde405ea5e
-ms.date: 03/17/2021
+ms.date: 04/13/2022
 ms.topic: how-to
 description: Learn how to activate the technical support benefit included with your Visual Studio subscription.
 ---
@@ -16,8 +16,6 @@ The Technical Support benefit in Visual Studio subscriptions is for resolving br
 
 > [!NOTE]
 > Not all subscriptions at a given level are eligible to receive support incidents. Subscriptions acquired through FTE, NFR, MPN, MCT and other programs do not receive support incidents. If your subscription is not eligible to receive technical support incidents, the Technical Support tile will not appear in your available benefits.
-
-**To submit a support request using the benefit, you must first activate it.  Follow the steps in the next section to complete the activation.**
 
 ## Supported products 
 Developer Tools such as the Visual Studio IDE and Azure DevOps Server will receive both mainstream and extended support through Visual Studio subscriptions.
@@ -57,7 +55,9 @@ Product level descriptions: Expand **Unavailable support plans**. If you see **S
 4. After the process is completed, you will receive an email containing your **Contract ID** and **Access ID** you will use when creating a support incident.  It will also provide instructions for submitting support incidents using your new Access ID and Contract ID. 
 
 ## How to submit an incident using your benefit
-Once you have your **Contract ID** and **Access ID** set up, you can use it to submit a Tech Support incident. 
+**To submit a support request using the benefit, you must first activate it.  Follow the steps in the previous section to complete the activation.**
+
+When you have your **Contract ID** and **Access ID** set up, you can use it to submit a Tech Support incident. 
 
 You can submit incidents online, over the phone, or from the Azure portal. 
 
@@ -98,9 +98,8 @@ To use your Visual Studio subscription technical support benefit for issues rela
 0. Under “Support” click **New Support Request**
 
 ## Eligibility
-
-| Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
-|--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
+| Subscription Level |     Channels  | Benefit | Renewable?    |
+|--------------------|---------------|---------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail, selected NFR<sup>1</sup> | 4 incidents       |  Yes|
 | Visual Studio Enterprise subscription with GitHub Enterprise | VL | 4 incidents       |  Yes|
 | Visual Studio Professional (Standard) | VL, Azure, Retail, selected NFR<sup>2</sup>                                        | 2 incidents                                                          |Yes         |
@@ -118,7 +117,7 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## Support resources
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp).
-- 
+
 ## See also
 - [Visual Studio documentation](/visualstudio/)
 - [Azure DevOps documentation](/azure/devops/)
