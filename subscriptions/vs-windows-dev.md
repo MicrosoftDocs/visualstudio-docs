@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 588480a3-8806-4ea5-9915-c25974770069
-ms.date: 10/18/2021
+ms.date: 04/13/2022
 ms.topic: how-to
 description:  Learn about the Windows Developer Account included with your Visual Studio subscription.
 ---
@@ -38,8 +38,8 @@ We recommend that you create a "private" browser window for this process.  For e
 12. Click **Go to dashboard** to begin using your Windows Developer Account!
 
 ## Eligibility
-| Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
-|--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
+| Subscription Level | Channels | Benefit | Renewable?    |
+|--------------------|----------|---------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Included       |  Yes|
 | Visual Studio Enterprise subscription with GitHub Enterprise   | VL  | Included       |  Yes|
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Included                                                            |Yes|
