@@ -46,7 +46,7 @@ You can add your GitHub EMU account if you're already signed in to Visual Studio
 
 1. Select the icon with your initials in the upper-right corner of the Visual Studio environment. Then, select **Account settings...** to manage your accounts. You can also open the Account Settings dialog by going to **File** > **Account Settings...**.
 
-    :::image type="content" source="../install/media/vs-2022/Account Settings1.png" alt-text="Enterprise Managed User account settings.":::
+    :::image type="content" source="../install/media/vs-2022/Account Settings1.png" alt-text="Screenshot of Enterprise Managed User.":::
 
 2. From the **All Accounts** submenu, select the **+** or the **Add** dropdown to add an account, and then select **GitHub**.
 
@@ -69,7 +69,7 @@ By default, Visual Studio only has public GitHub accounts enabled.
 
 1. To enable GitHub enterprise accounts, go to **Tools** > **Options** and search for the **Accounts** options.
 
-    :::image type="content" source="../install/media/vs-2022/GitHubEntAcct.png" alt-text="Enterprise account Settings Window.":::
+    :::image type="content" source="../install/media/vs-2022/GitHubEntAcct.png" alt-text="SCreenshot of Github Account.":::
 
 2. Then, check the box to **Include GitHub Enterprise Server accounts**. The next time you go to your **Account Settings** and try to add a GitHub account, you'll see options for both GitHub and GitHub Enterprise.
 
