@@ -18,7 +18,7 @@ If you have a public GitHub or GitHub Enterprise account, you can add it to your
 
 ## Adding public GitHub accounts
 
-You can add your public GitHub account if you're already signed in to Visual Studio with a Microsoft account, or a work or school account.
+You can add your public GitHub account if you're already signed into Visual Studio with a Microsoft account,  work account, or school account.
 
 1. Select the icon with your initials in the upper-right corner of the Visual Studio environment. Then, select **Account settings...** to manage your accounts. You can also open the Account Settings dialog by going to **File** > **Account Settings...**.
 
@@ -28,7 +28,7 @@ You can add your public GitHub account if you're already signed in to Visual Stu
 
 :::image type="content" source="../ide/media/sign-in-add-github.png" alt-text="Select add GitHub account":::
 
-1. You'll be redirected to the browser, where you can sign in with your GitHub credentials. After your sign in, you'll get a success window in the browser, and you can return to Visual Studio.
+1. You'll be redirected to the browser, where you can sign in with your GitHub credentials. After you sign in, you'll get a success window in the browser, and you can return to Visual Studio.
 
     :::image type="content" source="../ide/media/github-success-signin.png" alt-text="Success window in browser":::
 
@@ -42,7 +42,7 @@ If you're not already signed in to Visual Studio with a different account, selec
 
 ## Adding GitHub Enterprise Managed User (EMU) accounts
 
-You can add your GitHub EMU account if you're already signed in to Visual Studio with a Microsoft account, work account or school account.
+You can add your GitHub EMU account if you're already signed into Visual Studio with a Microsoft account, work account, or school account.
 
 1. Select the icon with your initials in the upper-right corner of the Visual Studio environment. Then, select **Account settings...** to manage your accounts. You can also open the Account Settings dialog by going to **File** > **Account Settings...**.
 
