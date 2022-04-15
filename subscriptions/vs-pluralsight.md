@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: bc8b526c-2fed-4ac8-aaa2-73d2495256fd
-ms.date: 4/11/2022
+ms.date: 4/13/2022
 ms.topic: how-to
 description:  Learn about the Pluralsight training subscription included with selected Visual Studio subscriptions.
 ---
@@ -16,7 +16,7 @@ The table below details what Pluralsight subscription benefits are available to 
 
 Not all subscribers who have previously used a Pluralsight subscription provided through a Visual Studio subscription will be able to redeem new Pluralsight benefit offers. If you are not eligible to redeem more Pluralsight training benefits, you'll receive a notification when you attempt to activate the benefit on the Pluralsight website.
 
-## Activation steps
+## Activate your Pluralsight subscription
 1. To activate your subscription, connect to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the **Activate** link on the Pluralsight benefit tile.  To narrow the list of tiles displayed, you can choose a group filter.  Pluralsight is located in the Professional Development benefits group.
    > [!div class="mx-imgBorder"]
    > ![Pluralsight Benefit Tile](_img/vs-pluralsight/vs-pluralsight-tile.png "Click Activate to claim your benefit")
@@ -87,7 +87,6 @@ Excludes:  NFR Basic.*
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
 ## Frequently asked questions
-
 ### Q: I have a Visual Studio Enterprise subscription, but I don't see the Pluralsight tile on the Benefits page. What's wrong?
 A: Not all Visual Studio Enterprise subscriptions include the Pluralsight benefit.  Check the [eligibility table](#eligibility) to see whether your subscription is eligible.
 
