@@ -197,6 +197,8 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
     ![Enable mixed mode debugging](../debugger/media/mixed-mode-enable-native-code-debugging.png)
     ::: moniker-end
 
+1. If you are targeting an x64 DLL from a .NET Framework app, change the platform target from **Any CPU** to x64. To do this, you may need to select **Configuration Manager** from the Debug toolbar's Solution Platform drop-down. Then, if you can't switch to x64 directly, create a **New** Configuration that targets x64.
+
 ## Set a breakpoint and start debugging
 
 1. In the C# project, open *Program.cs*. Set a breakpoint on the following line of code by clicking in the far left margin, selecting the line and pressing **F9**, or right-clicking the line and selecting **Breakpoint** > **Insert Breakpoint**.
