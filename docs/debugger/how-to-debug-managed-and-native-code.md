@@ -2,7 +2,7 @@
 title: "Tutorial: Debug C# and C++ code (mixed mode)"
 description: Learn how to debug a native DLL from a .NET Core or .NET Framework app using mixed-mode debugging
 
-ms.date: 11/02/2018
+ms.date: 04/15/2022
 ms.topic: tutorial
 dev_langs:
   - "CSharp"
@@ -35,9 +35,18 @@ In this tutorial, you will:
 
 ## Prerequisites
 
+::: moniker range=">=vs-2022"
 You must have Visual Studio installed, with the following workloads:
-- **Desktop development with C++**
-- Either **.NET desktop development** or **.NET Core cross platform development**, depending on which type of app you want to create.
+
+* **Desktop development with C++**
+* **.NET desktop development**
+::: moniker-end
+::: moniker range="<=vs-2019"
+You must have Visual Studio installed, with the following workloads:
+
+* **Desktop development with C++**
+* **.NET desktop development** or **.NET Core cross platform development**, depending on the type of app that you want to create.
+::: moniker-end
 
 If you don't have Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
 
@@ -176,9 +185,17 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
 1. In **Solution Explorer**, select the **Mixed_Mode_Calling_App** project node and select the **Properties** icon, or right-click the project node and select **Properties**.
 
-1. Select **Debug** in the left pane, select the **Enable native code debugging** check box, and then close the properties page to save the changes.
+1. Enable native code debugging in the properties.
+
+    ::: moniker range=">=vs-2022"
+    Select **Debug** in the left pane, open **Debug Launch profiles UI**, then select the **Enable native code debugging** check box, and then close the properties page to save the changes.
+    ![Enable mixed mode debugging](../debugger/media/vs-2022/mixed-mode-enable-native-code-debugging.png)
+    ::: moniker-end
+    ::: moniker range="<=vs-2019"
+    Select **Debug** in the left pane, select the **Enable native code debugging** check box, and then close the properties page to save the changes.
 
     ![Enable mixed mode debugging](../debugger/media/mixed-mode-enable-native-code-debugging.png)
+    ::: moniker-end
 
 ## Set a breakpoint and start debugging
 
