@@ -56,7 +56,7 @@ If you don't have access to a calling app's project, you can debug the DLL from 
 1. Enable native code debugging in the properties.
 
     ::: moniker range=">=vs-2022"
-    For C#, select **Debug** in the left pane, open **Debug Launch profiles UI**, then select the **Enable native code debugging** check box, and then close the properties page to save the changes.
+    For C#, select **Debug** in the left pane, select **Open debug launch profiles UI**, then select the **Enable native code debugging** check box, and then close the properties page to save the changes.
     ![Enable mixed mode debugging in C#](../debugger/media/vs-2022/mixed-mode-enable-native-code-debugging.png)
 
     For Visual Basic, select **Debug** in the left pane, select the **Enable native code debugging** check box, and then close the properties page to save the changes.
