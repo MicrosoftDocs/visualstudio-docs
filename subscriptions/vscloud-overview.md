@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: af1f7888-6942-4515-9475-0928ecf49dab
-ms.date: 10/18/2021
+ms.date: 04/14/2022
 ms.topic: overview
 description:  Rent Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
 ---
@@ -23,7 +23,6 @@ To bill your purchases, you need an [Azure subscription](https://azure.microsoft
 You'll need to be a contributor or higher for an Azure subscription that was created for your EA subscription to purchase cloud subscriptions.
 
 ## How to buy cloud subscriptions
-
 1. Sign in to the [Visual Studio Marketplace > Subscriptions](https://marketplace.visualstudio.com/subscriptions).
 
 2. Choose the subscription that you want to buy, for example - Visual Studio Professional - monthly subscription.
