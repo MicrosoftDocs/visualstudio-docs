@@ -142,7 +142,7 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
     Then, type a name like **Mixed_Mode_Calling_App** and click **OK**.
     ::: moniker-end
 
-    If you don't see the correct project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET Core cross-platform development** or **.NET desktop development** workload, depending on your target framework, and then choose **Modify**.
+    If you don't see the correct project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the correct .NET workload as described in the prerequisites, and then choose **Modify**.
 
     > [!NOTE]
     > You could also add the new managed project to your existing C++ solution. We are creating the project in a new solution to make the mixed-mode debugging task more difficult.
@@ -217,7 +217,12 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
    The *Mixed_Mode.h* native header file opens, and you see the yellow arrow where the debugger is paused.
 
+   ::: moniker range=">=vs-2022"
+   ![Step into native code](../debugger/media/vs-2022/mixed-mode-step-into-native-code.png)
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
    ![Step into native code](../debugger/media/mixed-mode-step-into-native-code.png)
+   ::: moniker-end
 
 1. Now, you can set and hit breakpoints and inspect variables in the native or managed code.
 
