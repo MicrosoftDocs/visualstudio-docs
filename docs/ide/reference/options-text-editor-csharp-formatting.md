@@ -1,8 +1,8 @@
 ---
 title: C# editor formatting options
-description: Learn how to use the Formatting options page and its subpages to set options for formatting code in the code editor when you are programming in C#.
+description: Learn how to use the Formatting options page and its subpages to set options for formatting code in the code editor when you're programming in C#.
 ms.custom: SEO-VS-2020
-ms.date: 08/14/2018
+ms.date: 04/15/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.Spacing
@@ -90,6 +90,15 @@ The indentation options on this page apply when code is formatted automatically.
 > There are also indentation options on the **Text Editor** > **C#** > **Tabs** options page. Those options only determine where the code editor places the cursor when you press **Enter** at the end of a line.
 >
 > ![C# text editor tabs options in Visual Studio](media/csharp-tabs-options.png)
+
+## New Lines page
+
+Use the new lines options on this page to control whether you want braces, keywords, or expressions to appear on new lines in the code editor.
+
+> [!IMPORTANT]
+> The settings on this page can be overridden by your .editorconfig file. To learn more, see [Create portable, custom editor settings with EditorConfig](../create-portable-custom-editor-options.md).
+
+:::image type="content" source="media/csharp-new-lines-options.png" alt-text="Screenshot of the C# new lines options in Visual Studio .":::
 
 ## See also
 
