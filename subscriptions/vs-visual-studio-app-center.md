@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: cabushcl
 ms.assetid: badd1d4a-90a6-46de-a037-945a91e6019b
-ms.date: 02/17/2022
+ms.date: 04/13/2022
 ms.topic: how-to
 description:  Learn about the Visual Studio App Center benefit included in Visual Studio subscriptions.
 ---
@@ -16,7 +16,7 @@ App Center is mission control for apps.
 - Collect crash reports and user analytics, including custom events.
 - Add push notifications to your app in minutes
 
-## Activation steps
+## Get started with Visual Studio App Center
 Getting started with Visual Studio App Center is easy.
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
@@ -34,8 +34,8 @@ Getting started with Visual Studio App Center is easy.
 
 ## Eligibility
 
-| Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
-|--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
+| Subscription Level    |  Channels | Benefit   | Renewable?    |
+|-----------------------|-----------|-----------|---------------|
 | Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail,  NFR<sup>1</sup> | Included       |  Yes          |
 | Visual Studio Enterprise (monthly cloud)   | Azure | Not available       |  NA          |
 | Visual Studio Enterprise subscription with GitHub Enterprise  | VL | Included       |  Yes          |
