@@ -45,7 +45,7 @@ If you don't have access to a calling app's project, you can debug the DLL from 
 
 1. Select **OK**.
 
-   ![Enable mixed mode debugging](../debugger/media/dbg-mixed-mode-from-native.png "Enable mixed mode debugging")
+   ![Enable mixed mode debugging in C++](../debugger/media/dbg-mixed-mode-from-native.png "Enable mixed mode debugging")
 
 ## Enable mixed-mode debugging for a managed calling app
 
@@ -57,11 +57,11 @@ If you don't have access to a calling app's project, you can debug the DLL from 
 
     ::: moniker range=">=vs-2022"
     For C#, select **Debug** in the left pane, open **Debug Launch profiles UI**, then select the **Enable native code debugging** check box, and then close the properties page to save the changes.
-    ![Enable mixed mode debugging](../debugger/media/vs-2022/mixed-mode-enable-native-code-debugging.png)
+    ![Enable mixed mode debugging in C#](../debugger/media/vs-2022/mixed-mode-enable-native-code-debugging.png)
 
     For Visual Basic, select **Debug** in the left pane, select the **Enable native code debugging** check box, and then close the properties page to save the changes.
 
-    ![Enable mixed mode debugging](../debugger/media/mixed-mode-enable-native-code-debugging.png)
+    ![Enable mixed mode debugging in Visual Basic](../debugger/media/mixed-mode-enable-native-code-debugging.png)
     ::: moniker-end
     ::: moniker range="<=vs-2019"
     Select **Debug** in the left pane, select the **Enable native code debugging** check box, and then close the properties page to save the changes.
