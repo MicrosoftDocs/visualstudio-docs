@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: d2ab13ed-ef79-4ef0-8736-eccd04bc6020
-ms.date: 04/11/2022
+ms.date: 04/14/2022
 ms.topic: conceptual
 description:  Information for Cloud Solution Providers on how to buy and manage Visual Studio cloud subscriptions for your customers.
 ---
@@ -65,10 +65,10 @@ To view Visual Studio pricing for CSP partners, log into the [Partner Center](ht
 
 Here's how to interpret what you see on this spreadsheet:
 
-| Meter category    |   Name                 |  Units                                |           What this is                          |
-|-------------------|------------------------|---------------------------------------|-------------------------------------------------|
-| Visual Studio     | Enterprise             |  Subscription                         | Visual Studio Enterprise monthly subscription   |
-| Visual Studio     | Professional           |  Subscription                         | Visual Studio Professional monthly subscription |
+| Meter category    |   Name         |  Units         |           What this is                          |
+|-------------------|----------------|----------------|-------------------------------------------------|
+| Visual Studio     | Enterprise     |  Subscription  | Visual Studio Enterprise monthly subscription   |
+| Visual Studio     | Professional   |  Subscription  | Visual Studio Professional monthly subscription |
 
 We offer a 5% discount on the 6th unit you buy (for a given customer) each month of each Visual Studio subscription. That's why you see two rows for each subscription option. One row shows a "Minimum Value" of 0, which you should interpret as the base price for units 1 through 5. The other row shows a "Minimum Value" of 5, so this is the 5% discount price that applies to units 6 and above.
 
