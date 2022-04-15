@@ -188,7 +188,7 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 1. Enable native code debugging in the properties.
 
     ::: moniker range=">=vs-2022"
-    Select **Debug** in the left pane, open **Debug Launch profiles UI**, then select the **Enable native code debugging** check box, and then close the properties page to save the changes.
+    Select **Debug** in the left pane, select **Open debug launch profiles UI**, then select the **Enable native code debugging** check box, and then close the properties page to save the changes.
     ![Enable mixed mode debugging](../debugger/media/vs-2022/mixed-mode-enable-native-code-debugging.png)
     ::: moniker-end
     ::: moniker range="<=vs-2019"
