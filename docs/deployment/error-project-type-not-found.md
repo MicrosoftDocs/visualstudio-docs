@@ -26,15 +26,15 @@ When you try to load a ClickOnce or Windows Installer project, you may get this 
 
 This message indicates that the project requires components that are not installed for your version of Visual Studio.
 
-To resolve this issue:
+## To correct this error
 
-1. Make sure the required Visual Studio workload is installed for your project type. Select **Tools** > **Get tools and features** to open the Visual Studio Installer. For Windows Installer or ClickOnce, the workload is .NET desktop development or Desktop development with C++.
+- Make sure the required Visual Studio workload is installed for your project type. Select **Tools** > **Get tools and features** to open the Visual Studio Installer. For Windows Installer or ClickOnce, the workload is .NET desktop development or Desktop development with C++.
 
-1. For Windows Installer projects, you may need to install the [Visual Studio Installer Projects extension](../deployment/installer-projects-net-core.md).
+- For Windows Installer projects, you may need to install the [Visual Studio Installer Projects extension](../deployment/installer-projects-net-core.md).
 
-1. If the project was created using InstallShield from Flexera Software, you may need to repair the installation (this can happen after upgrading Visual Studio).
+- If the project was created using InstallShield from Flexera Software, you may need to repair the installation (this can happen after upgrading Visual Studio).
 
-1. Close and re-open Visual Studio, and then reload the project.
+- After you install required components, close and re-open Visual Studio, and then reload the project.
 
 ## See also
 
