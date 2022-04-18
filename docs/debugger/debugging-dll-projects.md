@@ -163,6 +163,7 @@ You can also debug a native DLL from a managed calling project. For more informa
 - [Prepare to debug C++ projects](../debugger/debugging-preparation-visual-cpp-project-types.md)
 - [C#, F#, and Visual Basic project types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
 - [Project settings for a C++ Debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
+- [Project settings for .NET C# debug configurations](../debugger/project-settings-for-csharp-debug-configurations-dotnetcore.md)
 - [Project settings for  C# Debug configurations](../debugger/project-settings-for-csharp-debug-configurations.md)
 - [Project settings for a Visual Basic Debug configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
 - [Debugger security](../debugger/debugger-security.md)
