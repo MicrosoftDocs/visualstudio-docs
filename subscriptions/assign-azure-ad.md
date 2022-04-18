@@ -3,7 +3,7 @@ title: How to automate your Visual Studio Subscriptions using Azure Active Direc
 author: esteban-herrera
 ms.author: amast
 manager: shve
-ms.date: 07/22/2021
+ms.date: 04/18/2022
 ms.topic: how-to
 description:  Learn how admins can assign and subscriptions using Azure Active Directory groups
 ---
@@ -11,10 +11,11 @@ description:  Learn how admins can assign and subscriptions using Azure Active D
 # How to automate your Visual Studio Subscriptions using Azure Active Directory groups
 
 This guide will show you how to take advantage of Azure Active Directory (Azure AD) groups to create a simple and convenient process to automate and manage your Visual Studio subscriptions.
-Once you’ve assigned a subscription level to an Azure Active Directory group, your users will be able to request to join an Azure Active Directory group based on the subscription level they need. Once they are approved to join the group, they will be automatically assigned the corresponding subscription. If they are removed from the group or from Azure Active Directory they will automatically have their subscription removed.
+After you’ve assigned a subscription level to an Azure Active Directory group, your users will be able to request to join an Azure Active Directory group based on the subscription level they need. Once they are approved to join the group, they will be automatically assigned the corresponding subscription. If they are removed from the group or from Azure Active Directory they will automatically have their subscription removed.
 
 ## Requirements
 - Your organization must be using an Azure Active Directory tenent for identity management.
+- Your organization must have a "trusted" agreement.  (You must be able to overallocate subscriptions.)
 - You must have admin rights and access to the [Administration Portal](https://manage.visualstudio.com).
 - You must have Global Administrator or Privileged Role Administrator role for the directory in the [Azure Active Directory admin center](https://aad.portal.azure.com/).
 
