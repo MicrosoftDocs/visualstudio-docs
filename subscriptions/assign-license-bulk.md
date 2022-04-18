@@ -37,8 +37,8 @@ To add large groups of users, you can use the bulk add feature, or if your organ
    To help ensure a smooth upload, observe the following best practices:
 
     - Ensure that none of the form fields contain commas.
-    - Remove spaces before and after form fields.
-    - Make sure user's names do not contain extra spaces between two-part first or last names (for example, if a person has a two-part first name such as "Maggie May", it should be typed as "MaggieMay" because the system won't trim the extra space.)
+    - Remove spaces before and after values in form fields.
+    - Make sure user's names do not contain extra spaces between two-part first or last names. For example, if a person has a two-part first name such as "Maggie May", it should be typed as "MaggieMay" because the system won't trim the extra space.
     - Make sure all required fields are completed. 
     - Check the **Error message** column.  If any errors are listed, resolve those before attempting to upload the file. 
 
@@ -52,11 +52,11 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
     An upload progress dialog appears.
 
-    If the template contains errors, the upload will fail, and you will be shown the errors so that you can correct the template and attempt the bulk upload again.
+    If the template contains errors, the upload will fail.  You will be shown the errors so that you can correct the template and attempt the bulk upload again.
    > [!div class="mx-imgBorder"]
    > ![Error message if the upload of multiple subscribers fails](_img/assign-license-bulk/bulk-add-upload-failure.png "This message will appear if the file you uploaded contained errors.  Resolve the errors and perform the Bulk add process again.")
 
-   If you encounter a failure follow these steps:
+   If you encounter a failure, follow these steps:
    1. Open the Excel file you created, correct the problems, and save the file.
    0. Return to the Administration Portal and dismiss the error message.
    0. Choose **Add**.
@@ -70,7 +70,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
    > ![Confirmation message if the upload of multiple subscribers succeeds](_img/assign-license-bulk/bulk-add-upload-success.png "When your upload completes successfully, you'll receive a confirmation message.")
 
 ## Use Azure Active Directory groups to assign subscriptions 
-Using this feature makes it easy to stay on top of your subscription assignments. You can add Azure Active Directory Security Groups in the Subscriptions Administration Portal which will ensure that all individuals in the group are assigned a subscription. And to make it easier, when individuals leave your organization and are removed from Azure Active Directory, their access to subscriptions is also removed. 
+Using this feature makes it easy to stay on top of your subscription assignments. Add Azure Active Directory Security Groups in the Subscriptions Administration Portal to ensure that everyone in the group is assigned a subscription. When members leave your organization and are removed from Azure Active Directory, their access to subscriptions is also removed automatically for you. 
 
 
 > [!IMPORTANT]
@@ -97,7 +97,7 @@ Watch this video or read on to learn more about adding subscribers using the Azu
    > [!div class="mx-imgBorder"]
    > ![Choose bulk add using Azure AD](_img/assign-license-bulk/bulk-add-aad.png "Choose the Bulk add using Azure AD feature to pull subscribers from your Azure Active Directory group.")
 
-4. A fly-out window will appear on the right.  Begin to enter the name of the Azure AD group that you'd like to add into the form field. This will search the available Azure AD groups within your organization. 
+4. A fly-out window will appear on the right.  Begin to enter the name of the Azure AD group that you'd like to add into the form field. The system will search the available Azure AD groups within your organization for a match. 
 
 5. When you select the group, the field will automatically populate with the group name. You will have the option to view the users in that group before you add them. Next, you can choose the subscription level, download rights, and communication preferences for the group. You can add details into the reference field if you wish. 
 
@@ -108,7 +108,7 @@ Watch this video or read on to learn more about adding subscribers using the Azu
 
 7. To see the added group, scroll to the bottom of your list of users.  
 
-8. Select **View subscribers** to display the members of the group. You can view details about the subscribers in the group, but you cannot make any edits to the subscribers or the subscriptions that they are assigned.    
+8. Select **View subscribers** to display the members of the group. You can view details about the subscribers in the group.  However, you can't make any edits to the subscribers or the subscriptions assigned to them.    
 
 > [!NOTE]
 > If you have already assigned subscriptions individually to users who are subsequently added as part of an Azure AD group, they will be added as part of the group and will no longer be listed individually. However, if the individual subscription is for a different subscription level, they will have two subscriptions.  Example:  If a user has an individual Visual Studio Professional subscription, and they are a member of a group to which you assign Visual Studio Enterprise subscriptions, they will have both.  
@@ -125,16 +125,16 @@ A: The feature is currently only available to organizations with trusted agreeme
    > ![Click the Details button](_img/assign-license-bulk/bulk-add-agreement.png "Click the Details button to see what kind of agreement you have")
 
 ### Q: I added users to my Azure Active Directory group, but they don’t have subscriptions yet. Why? 
-A: If the changes were made directly in Azure Active Directory the subscriptions should be assigned very quickly, however if the changes were made in an on-prem Active Directory it will first need to be sync’d to Azure Active Directory. Depending how your on-prem Active Directory is configured the changes could take up to 24 hours to be reflected. If it has been longer than 24 hours our [support team can help troubleshoot any issues](https://aka.ms/vsadminhelp). 
+A: If the changes were made directly in Azure Active Directory the subscriptions should be assigned very quickly.  If the changes were made in an on-prem Active Directory it will first need to be sync’d to Azure Active Directory. Depending how your on-prem Active Directory is configured, the changes could take up to 24 hours to be reflected. If it has been longer than 24 hours, our [support team can help troubleshoot any issues](https://aka.ms/vsadminhelp). 
 
 ### Q: Can I choose multiple subscription levels to be assigned within an Azure Active Directory group?
-A: No -- everyone in the group receives the same subscription level.
+A: No -- Everyone in the group receives the same subscription level.
 
 ### Q: Can I edit subscriber details of individuals added in an Azure Active Directory group?
-A: No -- To modify information for an individual subscriber, you will need to remove them from the Azure Active Directory security group and assign them a subscription individually.
+A: No -- To modify information for an individual subscriber, remove them from the Azure Active Directory security group and assign them a subscription individually.
 
 ### Q: Can I add separate notification email addresses for members of an Azure Active Directory group?
-A: No – separate email addresses for notifications are currently not supported for subscriptions added using Azure Active Directory groups. All emails will be sent to the primary email (user principle name)
+A: No – Separate email addresses for notifications are currently not supported for subscriptions added using Azure Active Directory groups. All emails will be sent to the primary email (user principle name).
 
 ## Resources
 - [Visual Studio administration and subscriptions support](https://aka.ms/vsadminhelp)
