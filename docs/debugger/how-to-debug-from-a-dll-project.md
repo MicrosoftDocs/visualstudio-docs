@@ -81,7 +81,7 @@ Native and managed DLL projects have different settings to specify calling apps.
 
    - Or, select **Start browser with URL** and fill in the URL of a local ASP.NET app.
 
-   ::: moniker range=">= vs-2019"
+   ::: moniker range=">= vs-2022"
    - For .NET Core DLLs in Visual Basic, the **Debug** Properties page is different. Select **Executable** from the **Launch** dropdown, and then add the fully qualified path and name of the calling app in the **Executable** field.
    ::: moniker-end
    ::: moniker range="<= vs-2019"
