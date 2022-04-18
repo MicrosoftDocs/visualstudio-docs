@@ -371,7 +371,7 @@ Now, we mark every dependency of this Task project, both `PackageReference` and 
 ```
 #### Bundling dependencies into the package
 
-We also have to embed the runtime assets of our dependencies into the Task package. There are two parts to this: an MSBuild target that adds our dependencies to the `BuildOutputInPackage` ItemGroup, and a few properties that control the layout of those `BuildOutputInPackage` items. You can learn more about this process [at the NuGet documentation](https://docs.microsoft.com/en-us/nuget/reference/msbuild-targets#targetsfortfmspecificbuildoutput).
+We also have to embed the runtime assets of our dependencies into the Task package. There are two parts to this: an MSBuild target that adds our dependencies to the `BuildOutputInPackage` ItemGroup, and a few properties that control the layout of those `BuildOutputInPackage` items. You can learn more about this process [in the NuGet documentation](https://docs.microsoft.com/nuget/reference/msbuild-targets#targetsfortfmspecificbuildoutput).
 
 ```xml
 <PropertyGroup>
