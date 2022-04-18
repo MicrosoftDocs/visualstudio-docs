@@ -57,7 +57,7 @@ Native and managed DLL projects have different settings to specify calling apps.
 
 1. In the Launch Profiles dialog box, select the **Create a new profile** icon, and choose **Executable**.
 
-   :::image type="content" source="../debugger/media/dbg-profile-create-new.png" alt-text="Screenshot of the UI to create a new debug profile.":::
+   :::image type="content" source="../debugger/media/vs-2022/dbg-profile-create-new.png" alt-text="Screenshot of the UI to create a new debug profile.":::
 
 1. In the new profile, under **Executable**, browse to the location of the executable (*.exe* file) and select it.
 
