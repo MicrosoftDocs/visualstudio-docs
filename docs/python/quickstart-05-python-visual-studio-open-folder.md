@@ -1,7 +1,7 @@
 ---
 title: Quickstart - Open a Python code folder
 description: In this quickstart, you open and run Python code from a folder without using a Visual Studio project (Visual Studio 2019 only).
-ms.date: 03/12/2019
+ms.date: 04/18/2022
 ms.topic: quickstart
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -15,11 +15,14 @@ monikerRange: ">= vs-2019"
 ---
 
 # Quickstart: Open and run Python code in a folder
-
+::: moniker range="vs-2019"
 Once you've [installed Python support in Visual Studio 2019](installing-python-support-in-visual-studio.md), it's easy to run existing Python code in Visual Studio 2019 without creating a Visual Studio project.
-
+::: moniker-end
+::: moniker range =">=vs-2022"
+Once you've [installed Python support in Visual Studio 2022](installing-python-support-in-visual-studio.md), it's easy to run existing Python code in Visual Studio 2022 without creating a Visual Studio project.
 > [!Note]
-> Visual Studio 2017 and earlier require you to create a Visual Studio project to run Python code, which you can easily do using a built-in project template. See [Quickstart: Create a Python project from existing code](quickstart-01-python-in-visual-studio-project-from-existing-code.md)
+> Visual Studio 2017 and earlier require you to create a Visual Studio project to run Python code, which you can easily do using a built-in project template. See [Quickstart: Create a Python project from existing code](quickstart-01-python-in-visual-studio-project-from-existing-code.md).
+::: moniker-end
 
 1. For this walkthrough, you can use any folder with Python code that you like. To follow along with the example shown here, clone the gregmalcolm/python_koans GitHub repository to your computer using the command `git clone https://github.com/gregmalcolm/python_koans` in an appropriate folder.
 
@@ -35,7 +38,7 @@ Once you've [installed Python support in Visual Studio 2019](installing-python-s
 
     ![Controls to expand and collapse folders in Solution Explorer](media/quickstart-open-folder/03-expand-collapse-folders.png)
 
-1. When opening a Python folder, Visual Studio creates several hidden folders to manage settings related to the project. To see these folders (and any other hidden files and folders, such as the *.git* folder), select the **Show All Files** toolbar button:
+1. When opening a Python folder, Visual Studio creates several hidden folders to manage settings related to the project. To see these folders (and any other hidden files and folders, such as the `.git` folder), select the **Show All Files** toolbar button:
 
     ![A view of hidden folders in Solution Explorer](media/quickstart-open-folder/05-view-hidden-folders.png)
 
@@ -75,7 +78,7 @@ In such cases, you must also add a line to the launch configuration JSON file to
     > [!Note]
     > If you don't see **Default** as a choice, be sure that you chose a Python *.py* file when selecting the **Debug and Launch Settings** command. Visual Studio uses the file type to determine which debugger options to display.
 
-1. Visual Studio opens a file named *launch.vs.json*, which is located in the hidden *.vs* folder. This file describes the debugging context for the project. To specify a working directory, add a value for `"workingDirectory"`, as in  `"workingDirectory": "python3"` for python-koans example:
+1. Visual Studio opens a file named *launch.vs.json*, which is located in the hidden `.vs` folder. This file describes the debugging context for the project. To specify a working directory, add a value for `"workingDirectory"`, as in  `"workingDirectory": "python3"` for python-koans example:
 
     ```json
     {
