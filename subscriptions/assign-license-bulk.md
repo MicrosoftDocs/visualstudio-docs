@@ -3,7 +3,7 @@ title: Assign Visual Studio subscriptions to multiple users | Microsoft Docs
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 10/21/2021
+ms.date: 04/18/2022
 ms.topic: conceptual
 description:  Learn how admins can assign multiple subscriptions at one time.
 ---
@@ -11,7 +11,7 @@ description:  Learn how admins can assign multiple subscriptions at one time.
 # Assign subscriptions to multiple users
 The Subscriptions Administration Portal lets you add users one-at-a-time, or in large groups.  To add individual users, see [Add single users](assign-license.md).
 
-To add large groups of users, you can use the bulk add feature, or if your organization is using Microsoft Azure Active Directory (Azure AD), you can use Azure AD groups. This article will explain the process for both options.  Watch this video or read on to learn more about the bulk add feature. 
+To add large groups of users, you can use the bulk add feature, or if your organization is using Microsoft Azure Active Directory (Azure AD) **and your organization has a trusted agreement**, you can use Azure AD groups. This article will explain the process for both options.  Watch this video or read on to learn more about the bulk add feature. 
 
 <br>
 
