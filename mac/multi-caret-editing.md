@@ -32,7 +32,7 @@ Each of these behaviors are anchored to the current position of the caret when y
 
 By using your cursor, you are able to free select specific insertion points for your multiple carets. While the keyboard shortcuts are bound to matching strings, you can manually insert a caret anywhere in the document with the cursor. Once the carets are set, each will echo the key entries you type on your keyboard.
 
-To use the mouse to insert multiple carets, you must press and hold ⌘⌥ and click where you would like the carets to be entered. You will be in insertion mode as long as the ⌘⌥ keys are held. If you insert a caret in an incorrect location, you can remove the caret by continuing to hold ⌘⌥ and clicking in the same area again. Once you have all of the carets located where you would like them, stop pressing the ⌘⌥ keys and start typing. The following GIF demonstrates both selecting a set of insertion points as well as removing erroneously set points.
+To use the mouse to insert multiple carets, you must press and hold <kbd>control</kbd> and <kbd>option</kbd> and click where you would like the carets to be entered. You will be in insertion mode as long as the <kbd>control</kbd> and <kbd>option</kbd> keys are held. If you insert a caret in an incorrect location, you can remove the caret by continuing to hold <kbd>control</kbd> and <kbd>option</kbd> and clicking in the same area again. Once you have all of the carets located where you would like them, stop pressing the <kbd>control</kbd> and <kbd>option</kbd> keys and start typing. The following GIF demonstrates both selecting a set of insertion points as well as removing erroneously set points.
 
 ![multi-caret mouse](media/multi-caret-mouse.gif)
 
