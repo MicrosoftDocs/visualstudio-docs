@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: c15f7e18-b280-4902-a60d-2c2598653207
-ms.date: 10/14/2021
+ms.date: 04/14/2022
 ms.topic: conceptual
 description:  Learn about the Azure Community Support benefit included in selected Visual Studio subscriptions.
 ---
@@ -52,7 +52,7 @@ Getting started with Azure Community is easy.
     > [!div class="mx-imgBorder"]
     >![Azure Community Tile](_img/vs-azure-community/vs-azure-community-tile.png "Click the 'Get Help' button on the Azure Community tile to get started.")
 
-3. You'll see a list of the available forums.  Simply click on the forum of your choice.
+3. You'll see a list of the available forums.  Click on the forum of your choice.
     > [!div class="mx-imgBorder"]
     > ![Azure Community Forums](_img/vs-azure-community/vs-azure-community-forums.png "On the Azure Community Support page, select your choice of forums.")
 

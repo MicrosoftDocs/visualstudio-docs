@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: fe826200-9600-4b29-a64e-0d66ba3caf3d
-ms.date: 10/14/2021
+ms.date: 04/14/2022
 ms.topic: conceptual
 description:  Understand how you can use Azure DevOps as a Visual Studio subscriber.
 ---
@@ -22,8 +22,8 @@ When you sign in to Azure DevOps using either the identity that you used for act
 [Sign up for a free Azure DevOps organization](https://visualstudio.microsoft.com/team-services/)
 
 ## Eligibility
-| Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
-|--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
+| Subscription Level | Channels    | Benefit | Renewable?    |
+|--------------------|-------------|---------|---------------|
 | Visual Studio Enterprise (Standard, monthly cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup>  | Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans, self-hosted parallel jobs |  Yes          |
 | Visual Studio Enterprise subscription with GitHub Enterprise   | VL| Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans, self-hosted parallel jobs |  Yes          |
 | Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                        | Azure Boards & Repos (Basic<sup>2</sup>)                                                             |  Yes          |
@@ -35,7 +35,7 @@ When you sign in to Azure DevOps using either the identity that you used for act
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (Enterprise), BizSpark, MCT Software & Services Developer, FTE.
   Excludes: MCT Software & Services, Imagine.*
 
-<sup>2</sup> *Basic plan includes defining release pipelines and multi-stage continuous deployment (CD) pipelines, and using approvals and gates to control deployments; when the Free access to Pipelines Preview feature is enabled, Stakeholders gain access to all Azure Pipelines features. *
+<sup>2</sup> *Basic plan includes defining release pipelines and multi-stage continuous deployment (CD) pipelines, and using approvals and gates to control deployments; when the Free access to Pipelines Preview feature is enabled, Stakeholders gain access to all Azure Pipelines features.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.

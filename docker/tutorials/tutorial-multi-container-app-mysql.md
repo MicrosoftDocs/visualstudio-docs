@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Multi-container apps with MySQL & Docker Compose"
+title: "Create multi-container apps with MySQL & Docker Compose"
 description: In this tutorial, learn how to create multi-container apps with MySQL and Docker Compose. Use multiple containers to scale your project.
 author: ucheNkadiCode
 ms.author: uchen
@@ -13,28 +13,25 @@ ms.custom: [template-tutorial, contperf-fy22q3]
 
 # Tutorial: Create multi-container apps with MySQL and Docker Compose
 
-In this tutorial, you'll learn about multi-container apps.
-Using more than one container allows you to specialize containers for different tasks.
-Each container should do one thing and do it well.
-
-Here are some reasons you might want to use multi-container apps:
-
-- Separate containers you to manage APIs and front-ends differently than databases.
-- Containers let you version and update versions in isolation.
-- While you might use a container for the database locally, you may want to use a managed service for the database in production.
-- Running multiple processes requires a process manager, which adds complexity to container startup/shutdown.
-
-You'll update your application to work as described in this diagram.
-
-![Diagram shows two containers labeled Todo App and MySQL connected with a line.](media/multi-app-architecture.png)
-
-In this tutorial, you learn how to:
-
+In this tutorial, you'll learn how to create multi-container apps. This tutorial builds on the getting started tutorials, [Create and share a Docker app with Visual Studio Code](docker-tutorial.md).  In this advanced tutorial, you'll update your application to work as described in this diagram and learn how to:
 > [!div class="checklist"]
 > - Start MySQL.
 > - Run your app with MySQL.
 > - Create the compose file.
 > - Run the application stack.
+
+![Diagram shows two containers labeled Todo App and MySQL connected with a line.](media/multi-app-architecture.png)
+
+Using multiple containers allows you to dedicate containers for specialized tasks.  Each container should do one thing and do it well.
+
+Here are some reasons you might want to use multi-container apps:
+- Separate containers you to manage APIs and front-ends differently than databases.
+- Containers let you version and update versions in isolation.
+- While you might use a container for the database locally, you may want to use a managed service for the database in production.
+- Running multiple processes requires a process manager, which adds complexity to container startup/shutdown.
+
+
+
 
 ## Prerequisites
 

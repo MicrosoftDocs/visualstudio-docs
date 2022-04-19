@@ -2,9 +2,9 @@
 title: Change themes, fonts, text, and contrast for accessibility
 description: Learn how to change Visual Studio color themes, font colors, text sizes, extra-contrast colors, and more for ease of use and accessibility concerns.
 titleSuffix: ''
-ms.date: 04/04/2022
+ms.date: 04/15/2022
 ms.topic: how-to
-ms.custom: contperf-fy21q1
+ms.custom: contperf-fy22q3
 helpviewer_keywords:
 - Visual Studio, color themes
 - color themes, Visual Studio
@@ -156,6 +156,10 @@ You can change the font and text size for all the IDE frame and tool windows, or
 ::: moniker-end
 
 For more information about how to change fonts and colors for accessibility, see the [Set accessibility options](#set-accessibility-options) section of this page. And, for details about all the user interface (UI) elements where you can change font and color schemes, see the [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) page.
+
+## Set language-specific editor options
+
+You can make a variety of changes to the code editor to suit your programming language of choice. For example, you can change [brace formatting](reference/options-text-editor-csharp-formatting.md#new-lines-page) in C# to appear inline or on a new line, and more. To learn how to customize the code editor, see [Set language-specific editor options](reference/setting-language-specific-editor-options.md).
 
 ## Set accessibility options
 

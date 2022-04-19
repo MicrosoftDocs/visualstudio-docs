@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 872c5746-5357-4764-949b-aa525a0adf1a
-ms.date: 10/18/2021
+ms.date: 04/13/2022
 ms.topic: conceptual
 description:  Learn how you can take advantage of Microsoft Windows Virtual Desktop via your Visual Studio subscription 
 ---
@@ -42,8 +42,8 @@ When all your prerequisites are in place, you’ll want to complete several acti
 - [Manage app groups](/azure/virtual-desktop/manage-app-groups) for Windows Virtual Desktop
 
 ## Eligibility
-| Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
-|--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
+| Subscription Level | Channels | Benefit  | Renewable?    |
+|--------------------|----------|----------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail, | Available|  Yes          |
 | Visual Studio Enterprise subscription with GitHub Enterprise  | VL | Available|  Yes          |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Available                                                             |  Yes             |

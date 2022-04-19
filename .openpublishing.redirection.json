@@ -46828,6 +46828,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/install/visual-studio-enterprise-guide.md",
+      "redirect_url": "/visualstudio/install/visual-studio-administrator-guide",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/modeling/create-uml-modeling-projects-and-diagrams.md",
       "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
