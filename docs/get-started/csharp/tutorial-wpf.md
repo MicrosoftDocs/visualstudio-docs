@@ -334,11 +334,11 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
 
 ::: moniker range="<=vs-2019"
 
-When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the `Button_Click` event in *Greetings.xaml.cs*.
+When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the `Button_Click` event in *MainWindow.xaml.cs*.
 
 1. On the design surface, double-click the **Display** button.
 
-     *Greetings.xaml.cs* opens, with the cursor in the `Button_Click` event.
+     *MainWindow.xaml.cs* opens, with the cursor in the `Button_Click` event.
 
     ```csharp
     private void Button_Click(object sender, RoutedEventArgs e)
@@ -366,11 +366,11 @@ When this application runs, a message box appears after a user chooses a radio b
 
 ::: moniker range=">=vs-2022"
 
-When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the `Button_Click` event in *Greetings.xaml.cs*.
+When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the `Button_Click` event in *MainWindow.xaml.cs*.
 
 1. On the design surface, double-click the **Display** button.
 
-     *Greetings.xaml.cs* opens, with the cursor in the `Button_Click` event.
+     *MainWindow.xaml.cs* opens, with the cursor in the `Button_Click` event.
 
     ```csharp
     private void Button_Click(object sender, RoutedEventArgs e)
