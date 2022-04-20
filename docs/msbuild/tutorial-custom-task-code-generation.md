@@ -322,7 +322,7 @@ To prepare to generate a NuGet package, make some changes to the project file to
 </Project>
 ```
 
-To generate a NuGet package, add the following code to set the properties for the package. You can see a full list of supported MSBuild properties in the [Pack documentation](https://docs.microsoft.com/nuget/reference/msbuild-targets#pack-target):
+To generate a NuGet package, add the following code to set the properties for the package. You can see a full list of supported MSBuild properties in the [Pack documentation](/nuget/reference/msbuild-targets#pack-target):
 
 ```xml
 <PropertyGroup>
@@ -353,7 +353,7 @@ The dependencies of your MSBuild task must be packaged inside the package; they 
 </ItemGroup>
 ```
 
-Now, we mark every dependency of this Task project, both `PackageReference` and `ProjectReference` with the `PrivateAssets="all"` attribute. This will tell NuGet not to expose these dependencies to consuming projects at all. You can read more about controlling dependency assets [at the NuGet documentation](https://docs.microsoft.com/nuget/consume-packages/package-references-in-project-files#controlling-dependency-assets).
+Now, we mark every dependency of this Task project, both `PackageReference` and `ProjectReference` with the `PrivateAssets="all"` attribute. This will tell NuGet not to expose these dependencies to consuming projects at all. You can read more about controlling dependency assets [at the NuGet documentation](/nuget/consume-packages/package-references-in-project-files#controlling-dependency-assets).
 
 ```xml
 <ItemGroup>
@@ -371,7 +371,7 @@ Now, we mark every dependency of this Task project, both `PackageReference` and 
 ```
 #### Bundling dependencies into the package
 
-We also have to embed the runtime assets of our dependencies into the Task package. There are two parts to this: an MSBuild target that adds our dependencies to the `BuildOutputInPackage` ItemGroup, and a few properties that control the layout of those `BuildOutputInPackage` items. You can learn more about this process [in the NuGet documentation](https://docs.microsoft.com/nuget/reference/msbuild-targets#targetsfortfmspecificbuildoutput).
+We also have to embed the runtime assets of our dependencies into the Task package. There are two parts to this: an MSBuild target that adds our dependencies to the `BuildOutputInPackage` ItemGroup, and a few properties that control the layout of those `BuildOutputInPackage` items. You can learn more about this process [in the NuGet documentation](/nuget/reference/msbuild-targets#targetsfortfmspecificbuildoutput).
 
 ```xml
 <PropertyGroup>
