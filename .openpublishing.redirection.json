@@ -58332,6 +58332,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "subscriptions/assign-azure-ad.md",
+      "redirect_url": "/visualstudio/subscriptions/assign-license-bulk",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/quickstart-aspnet-core.md",
       "redirect_url": "/visualstudio/get-started/csharp/tutorial-aspnet-core",
       "redirect_document_id": false
