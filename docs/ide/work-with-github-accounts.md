@@ -26,7 +26,7 @@ You can add your public GitHub account if you're already signed into Visual Stud
 
  :::image type="content" source="../ide/media/vs-2022/Account Settings1.png" alt-text="Screenshot of the Account Settings window.":::
 
- ::: moniker-end
+::: moniker end
 
 1. From the **All Accounts** submenu, select the plus sign to add an account, and select **GitHub**.
 
