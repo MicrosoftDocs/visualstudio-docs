@@ -112,12 +112,15 @@ To view the call tree, select the parent node in the report. The **CPU Usage** p
 
 System and framework functions that are executed by your code are called *external code*. External code functions start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you aren't interested in external code, so the CPU Usage call tree gathers the external functions of a user method into one **[External Code]** node.
 
+::: moniker range=">=vs-2022"
 To view the call paths of external code, switch the current view to the **Call Tree** view or right-click and select **View in Call Tree**.
 
-::: moniker range=">=vs-2022"
 ![Show Call Tree](../profiling/media/vs-2022/cpu-use-wt-call-tree-view.png "Show Call Tree")
 ::: moniker-end
 ::: moniker range="<=vs-2019"
+To view the call paths of external code, on the main diagnostic report page (right pane), select **Show External Code** from the **Filter** dropdown, and then select **Apply**. The **Call Tree** view of the **CPU Usage** page then expands the external code calls. (The **Filter** dropdown is available on the main diagnostic page, not the detailed views.)
+
+![Show External Code](../profiling/media/cpu-use-wt-filterview.png "Show External Code")
 ::: moniker-end
 
 Many external code call chains are deeply nested, so the width of the chain can exceed the display width of the **Function Name** column. The function names then appear as shown in the following image.
@@ -126,7 +129,7 @@ Many external code call chains are deeply nested, so the width of the chain can 
 ![Nested external code in the call tree](../profiling/media/vs-2022/cpu-use-wt-show-external-code.png "Nested external code in the call tree")
 ::: moniker-end
 ::: moniker range="<=vs-2019"
-![Show External Code](../profiling/media/cpu-use-wt-filterview.png "Show External Code")
+![Nested external code in the call tree](../profiling/media/cpu-use-wt-showexternalcodetoowide.png "Nested external code in the call tree")
 ::: moniker-end
 
 To find a function name you're looking for, use the search box. Hover over the selected line or use the horizontal scroll bar to view the data.
@@ -144,6 +147,12 @@ To find a function name you're looking for, use the search box. Hover over the s
 ### <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU usage call tree
 
 When the compiler encounters an asynchronous method, it creates a hidden class to control the method's execution. Conceptually, the class is a state machine. The class has compiler-generated functions that asynchronously call the original methods, and the callbacks, scheduler, and iterators needed to run them. When a parent method calls the original method, the compiler removes the method from the execution context of the parent, and runs the hidden class methods in the context of the system and framework code that controls app execution. The asynchronous methods are often, but not always, executed on one or more different threads. This code appears in the **CPU Usage** call tree as children of the **[External Code]** node immediately below the top node of the tree.
+
+::: moniker range="<=vs-2019"
+In the following example, the first two nodes under **[External Code]** are the compiler-generated methods of the state machine class. The third node is the call to the original method.
+
+![Asynchronous node](media/cpu-use-wt-getmaxnumberasync-selected.png "Asynchronous node")
+::: moniker-end
 
 Expand the generated methods to show what's going on:
 
