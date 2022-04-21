@@ -1,5 +1,5 @@
 ---
-title: Visual Studio subscription benefits
+title: Visual Studio subscriber benefits
 description: Subscription benefits FAQs for admins
 ms.topic: conceptual
 ms.assetid: 6079e787-c3de-4cd1-a3c4-91173c4271b7
