@@ -1,6 +1,6 @@
 ---
 title: Work with GitHub accounts in Visual Studio
-ms.date: 04/12/2022
+ms.date: 04/2/2022
 ms.topic: how-to
 description: "Learn how to use Visual Studio with GitHub accounts."
 ms.custom: devdivchpfy22
@@ -20,11 +20,15 @@ If you have a public GitHub or GitHub Enterprise account, you can add it to your
 
 You can add your public GitHub account if you're already signed into Visual Studio with a Microsoft account,  work account, or school account.
 
+::: moniker range=">=vs-2019"
+
 1. Select the icon with your initials in the upper-right corner of the Visual Studio environment. Then, select **Account settings...** to manage your accounts. You can also open the Account Settings dialog by going to **File** > **Account Settings...**.
 
- :::image type="content" source="../install/media/vs-2022/Account Settings1.png" alt-text="Screenshot of the account settings window.":::
+ :::image type="content" source="../ide/media/vs-2022/Account Settings1.png" alt-text="Screenshot of the Account Settings window.":::
 
-1. Under the **All Accounts** submenu, select the plus sign to add an account, and select **GitHub**.
+ ::: moniker-end
+
+1. From the **All Accounts** submenu, select the plus sign to add an account, and select **GitHub**.
 
 :::image type="content" source="../ide/media/sign-in-add-github.png" alt-text="Select add GitHub account":::
 
@@ -38,7 +42,7 @@ You can add your public GitHub account if you're already signed into Visual Stud
 
 If you're not already signed in to Visual Studio with a different account, select the **Sign in** link in the upper-right corner of the Visual Studio environment. You can also open the Account Settings dialog by going to **File** > **Account Settings...**. Then, follow the instructions above to add your GitHub account.
 
-   :::image type="content" source="../install/media/vs-2022/signintovs2022.png" alt-text="Not signed to VS 2022":::
+   :::image type="content" source="../ide/media/vs-2022/signintovs2022.png" alt-text="Not signed to VS 2022":::
 
 ## Adding GitHub Enterprise Managed User (EMU) accounts
 
@@ -46,7 +50,7 @@ You can add your GitHub EMU account if you're already signed into Visual Studio 
 
 1. Select the icon with your initials in the upper-right corner of the Visual Studio environment. Then, select **Account settings...** to manage your accounts. You can also open the Account Settings dialog by going to **File** > **Account Settings...**.
 
-    :::image type="content" source="../install/media/vs-2022/Account Settings1.png" alt-text="Screenshot of Enterprise Managed User.":::
+    :::image type="content" source="../ide/media/vs-2022/Account Settings1.png" alt-text="Screenshot of Enterprise Managed User.":::
 
 1. From the **All Accounts** submenu, select the **+** or the **Add** dropdown to add an account, and then select **GitHub**.
 
@@ -69,15 +73,14 @@ By default, Visual Studio only has public GitHub accounts enabled.
 
 1. To enable GitHub enterprise accounts, go to **Tools** > **Options** and search for the **Accounts** options.
 
-    :::image type="content" source="../install/media/vs-2022/GitHubEntAcct.png" alt-text="Screenshot of Github Account.":::
+    :::image type="content" source="../ide/media/vs-2022/GitHubEntAcct.png" alt-text="Screenshot of Github Account.":::
 
 1. Then, check the box to **Include GitHub Enterprise Server accounts**. The next time you go to your **Account Settings** and try to add a GitHub account, you'll see options for both GitHub and GitHub Enterprise.
 
-    :::image type="content" source="../ide/media/github-enterprise-endpoint-signin.png" alt-text="Sign in with GitHub Enterprise":::
+:::image type="content" source="../ide/media/github-enterprise-endpoint-signin.png" alt-text="Sign in with GitHub Enterprise":::
 
 1. After you enter your GitHub Enterprise server address, select **Sign in with your browser**. There, you can sign in using your GitHub Enterprise credentials.
 
 ## See also
-.
 - [Work with multiple user accounts](work-with-multiple-user-accounts.md)
 - [Sign in to Visual Studio](signing-in-to-visual-studio.md)

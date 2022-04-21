@@ -2,7 +2,7 @@
 title: Import or export installation configurations
 titleSuffix: ''
 description: Learn how to export your installation configuration to a .vsconfig file to share with others, and how to import it to clone.
-ms.date: 04/05/2022
+ms.date: 04/21/2022
 ms.topic: how-to
 helpviewer_keywords:
 - import installation configuration
@@ -24,7 +24,7 @@ You can configure Visual Studio across your organization with installation confi
 
 Here's how.
 
-::: moniker range="vs-2017"
+::: moniker range=">=vs-2019"
 
 > [!NOTE]
 > This functionality is available only in Visual Studio 2017 version 15.9 and later.
@@ -41,13 +41,21 @@ You can export an installation configuration file from either a previously insta
 
    ![Export configuration from the product card in the Visual Studio installer](../install/media/vs-2022/export-config.png)
 
+::: moniker range="vs-2022"
+
 1. Browse to or type the location where you want to save your .vsconfig file, and then choose **Review details**.
 
    ![Export configuration from the Visual Studio installer](../install/media/vs-2022/review-details.png)
 
+::: moniker-end
+
+::: moniker range="vs-2022"
+
 1. Make sure you've got the workloads and components that you want, and then choose **Export**.
 
    :::image type="content" source="../install/media/vs-2022/export-configuration-confirmation1.png" alt-text="Screenshot of the export window.":::
+
+  ::: moniker-end
 
 ## Import a configuration
 

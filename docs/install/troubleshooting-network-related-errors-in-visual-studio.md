@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot network or proxy errors
 description: Find solutions for network- or proxy-related errors that you might encounter when you install or use Visual Studio behind a firewall or a proxy server.
-ms.date: 04/04/2022
+ms.date: 04/21/2022
 ms.topic: troubleshooting 
 helpviewer_keywords:
 - network installation, Visual Studio
@@ -33,15 +33,15 @@ This error generally occurs when users connect to the internet through a proxy s
 
 - If restarting Visual Studio doesn't solve the problem, it might be because your proxy server doesn't prompt for credentials for http:&#47;&#47;go.microsoft.com addresses, but it does so for &#42;.visualStudio.microsoft.com addresses. For these servers, add the following URLs to an allowlist to unblock all sign-in scenarios in Visual Studio:
 
-- &#42;.windows.net
+  - &#42;.windows.net
 
-- &#42;.microsoftonline.com
+  - &#42;.microsoftonline.com
 
-- &#42;.visualstudio.microsoft.com
+  - &#42;.visualstudio.microsoft.com
 
-- &#42;.microsoft.com
+  - &#42;.microsoft.com
 
-- &#42;.live.com
+  - &#42;.live.com
 
 - We recommend that you remove the http:&#47;&#47;go.microsoft.com address from the allowlist. Removing the address allows the proxy authentication dialog to show up for both the http:&#47;&#47;go.microsoft.com address and the server endpoints when Visual Studio restarts.
 
@@ -68,10 +68,17 @@ This error generally occurs when users connect to the internet through a proxy s
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE**.
-.
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2022\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2022\Enterprise\Common7\IDE**.
+
+::: moniker-end
+
 1. In the configuration file, find the `<system.net>` block, and then add this code:
 
       ```xml
@@ -85,7 +92,7 @@ This error generally occurs when users connect to the internet through a proxy s
      > [!NOTE]
      > For more information, see the [&lt;defaultProxy&gt; Element (Network Settings)](/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings/) and [&lt;proxy&gt; Element (Network Settings)](/dotnet/framework/configure-apps/file-schema/network/proxy-element-network-settings) pages.
 
-::: moniker-end
+
 
 ## Error: “Disconnected from Visual Studio” when attempting to report a problem
 
@@ -148,7 +155,7 @@ Enable connections for the following URLs:
 
 You might encounter this error message when you use a Visual Studio bootstrapper and a response.json file on a network drive. The error's source is the User Account Control (UAC) in Windows.
 
-Here's why this error can happen: A mapped network drive or [UNC](/dotnet/standard/io/file-path-formats#unc-paths) share is linked to a user's access token. When UAC is enabled, two user [access tokens](/windows/win32/secauthz/access-tokens) are created: One *with* administrator access, and one *without* administrator access. When a network drive or share is created, the user's current access token is linked to it. Because the bootstrapper must be run as administrator, it won't be able to access the network drive or share if either the drive or the share isn't linked to a user-access-token that has administrator access.
+Here's why this error can happen: A mapped network drive or [UNC](/dotnet/standard/io/file-path-formats#unc-paths) share is linked to a user's access token. When UAC is enabled, two user [access tokens](/windows/win32/secauthz/access-tokens) are created: One *with* administrator access, and one *without* administrator access. When a network drive or share is created, the user's current access token is linked to it. Because the bootstrapper must be run as administrator, it won't be able to access the network drive or share if either the drive or the share isn't linked to a user-access token that has administrator access.
 
 ### To fix this error
 
