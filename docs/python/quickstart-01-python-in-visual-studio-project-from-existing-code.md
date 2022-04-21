@@ -1,13 +1,13 @@
 ---
 title: Quickstart - Create a Python project from code
 description: In this quickstart, you create a Visual Studio project for Python from an existing folder, using a convenient template.
-ms.date: 12/06/2018
+ms.date: 04/22/2022
 ms.topic: quickstart
 author: rjmolyneaux
 ms.author: rmolyneaux
 manager: jmartens
 ms.technology: vs-python
-
+ms.custom: devdivchpfy22
 ms.workload:
   - python
   - data-science

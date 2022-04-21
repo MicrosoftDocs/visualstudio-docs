@@ -77,31 +77,6 @@ In such cases, you must also add a line to the launch configuration JSON file to
 
     > [!Note]
     > If you don't see **Default** as a choice, be sure that you chose a Python *.py* file when selecting the **Debug and Launch Settings** command. Visual Studio uses the file type to determine which debugger options to display.
-
-1. Visual Studio opens a file named *launch.vs.json*, which is located in the hidden `.vs` folder. This file describes the debugging context for the project. To specify a working directory, add a value for `"workingDirectory"`, as in  `"workingDirectory": "python3"` for python-koans example:
-
-    ```json
-    
-{
-      "version": "0.2.1",
-"defaults": {},
-"configurations": [
-{
-"type": "python",
-"interpreter": "(default)",
-"interpreterArguments": "",
-"scriptArguments": "",
-"env": {},
-"nativeDebug": false,
-"webBrowserUrl": "",
-"project": "contemplate_koans.py",
-"projectTarget": "",
-"name": "contemplate_koans.py"
-}
-]
-    }
-    ```
-
 ::: moniker-end
 ::: moniker range=">=vs-2022"
 1. For this walkthrough, you can use any folder with Python code that you like. To follow along with the example shown here, clone the gregmalcolm/python_koans GitHub repository to your computer using the command `git clone https://github.com/gregmalcolm/python_koans` in an appropriate folder.
@@ -116,7 +91,7 @@ In such cases, you must also add a line to the launch configuration JSON file to
 
 1. Visual Studio displays the folder in **Solution Explorer** in what's called **Folder View**. You can expand and collapse folders using the arrows on the left edges of the folder names:
 
-    ![Controls to expand and collapse folders in Solution Explorer](media/quickstart-open-folder/vs-code/03-expand-collapse-folders.png)
+    ![Controls to expand and collapse folders in Solution Explorer](media/quickstart-open-folder/vs-2022/03-expand-collapse-folders.png)
 
 1. When opening a Python folder, Visual Studio creates several hidden folders to manage settings related to the project. To see these folders (and any other hidden files and folders, such as the `.git` folder), select the **Show All Files** toolbar button:
 
@@ -158,31 +133,31 @@ In such cases, you must also add a line to the launch configuration JSON file to
     > [!Note]
     > If you don't see **Default** as a choice, be sure that you chose a Python *.py* file when selecting the **Add Debug Configuration** command. Visual Studio uses the file type to determine which debugger options to display.
 
+::: moniker-end
 1. Visual Studio opens a file named *launch.vs.json*, which is located in the hidden `.vs` folder. This file describes the debugging context for the project. To specify a working directory, add a value for `"workingDirectory"`, as in  `"workingDirectory": "python3"` for python-koans example:
 
     ```json
-   
- {
-"version": "0.2.1",
-"defaults": {},
-"configurations": [
+    
 {
-"type": "python",
-"interpreter": "(default)",
-"interpreterArguments": "",
-"scriptArguments": "",
-"env": {},
-"nativeDebug": false,
-"webBrowserUrl": "",
-"project": "contemplate_koans.py",
-"projectTarget": "",
-"name": "contemplate_koans.py"
-}
-]
+    "version": "0.2.1",
+    "defaults": {},
+    "configurations":    
+    [    
+        {
+            "type": "python",
+            "interpreter": "(default)",
+            "interpreterArguments": "",
+            "scriptArguments": "",
+            "env": {},
+            "nativeDebug": false,
+            "webBrowserUrl": "",
+            "project": "contemplate_koans.py",
+            "projectTarget": "",
+            "name": "contemplate_koans.py"
+        }    
+    ]
 }
     ```
-
-::: moniker-end
 1. Save the file and launch the program again, which now runs in the specified folder.
 
 ## Next steps
