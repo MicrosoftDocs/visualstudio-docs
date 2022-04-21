@@ -123,12 +123,14 @@ To view the call paths of external code, on the main diagnostic report page (rig
 ![Show External Code](../profiling/media/cpu-use-wt-filterview.png "Show External Code")
 ::: moniker-end
 
+::: moniker range=">=vs-2022"
 Many external code call chains are deeply nested, so the width of the chain can exceed the display width of the **Function Name** column. The function names then appear as shown in the following image.
 
-::: moniker range=">=vs-2022"
 ![Nested external code in the call tree](../profiling/media/vs-2022/cpu-use-wt-show-external-code.png "Nested external code in the call tree")
 ::: moniker-end
 ::: moniker range="<=vs-2019"
+Many external code call chains are deeply nested, so the width of the chain can exceed the display width of the **Function Name** column. The function names then appear as **...**.
+
 ![Nested external code in the call tree](../profiling/media/cpu-use-wt-showexternalcodetoowide.png "Nested external code in the call tree")
 ::: moniker-end
 
