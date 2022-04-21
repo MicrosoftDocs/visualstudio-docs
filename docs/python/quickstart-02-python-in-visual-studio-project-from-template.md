@@ -42,8 +42,7 @@ Once you've [installed Python support in Visual Studio](installing-python-suppor
 1. Visual Studio displays the **Add Virtual Environment** dialog. Accept the default and select **Create**, then consent to any elevation requests.
 
     ![Installing Flask into a virtual environment](media/vs-2022/quickstart-python-07-install-into-virtual-environment.png)
-::: moniker-end> 
-
+::: moniker-end>
 [!Tip]
  > When you begin a project, it's highly recommended to create a virtual environment right away, as most Visual Studio templates invite you to do. Virtual environments maintain your project's exact requirements over time as you add and remove libraries. You can then easily generate a *requirements.txt* file, which you use to reinstall those dependencies on other development computers (as when using source control) and when deploying the project to a production server. For more information on virtual environments and their benefits, see [Use virtual environments](../python/selecting-a-python-environment-for-a-project.md#use-virtual-environments) and [Manage required packages with requirements.txt](../python/managing-required-packages-with-requirements-txt.md).
 
