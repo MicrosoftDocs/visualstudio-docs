@@ -33,21 +33,41 @@ Usually, the local machine best replicates installed app execution. To collect d
 
 1. In the Visual Studio project, set the solution configuration to **Release** and select **Local Windows Debugger** (or **Local Machine**) as the deployment target.
 
+    ::: moniker range=">=vs-2022"
     ![Select Release and Local Machine](../profiling/media/vs-2022/cpu-use-select-release.png "Select Release")
+    ::: moniker-end
+    ::: moniker range="<=vs-2019"
+    ![Select Release and Local Machine](../profiling/media/cpuuse-selectreleaselocalmachine.png "Select Release and Local Machine")
+    ::: moniker-end
 
 1. Select **Debug** > **Performance Profiler**.
 
 1. Under **Available tools**, select **CPU Usage**, and then select **Start**.
 
+    ::: moniker range=">=vs-2022"
     ![Select CPU Usage](../profiling/media/vs-2022/cpu-use-lib-choose-cpu-usage.png "Select CPU Usage")
+    ::: moniker-end
+    ::: moniker range="<=vs-2019"
+    ![Select CPU Usage](../profiling/media/cpuuse-lib-choosecpuusage.png "Select CPU Usage")
+    ::: moniker-end
 
-4. After the app starts, the diagnostic session begins and displays CPU usage data. When you're finished collecting data, select **Stop Collection**.
+1. After the app starts, the diagnostic session begins and displays CPU usage data. When you're finished collecting data, select **Stop Collection**.
 
-   ![Stop CPU Usage data collection](../profiling/media/vs-2022/cpu-use-wt-stop-collection.png "Stop CPU Usage data collection")
+    ::: moniker range=">=vs-2022"
+    ![Stop CPU Usage data collection](../profiling/media/vs-2022/cpu-use-wt-stop-collection.png "Stop CPU Usage data collection")
+    ::: moniker-end
+    ::: moniker range="<=vs-2019"
+    ![Stop CPU Usage data collection](../profiling/media/cpu-use-wt-stopcollection.png "Stop CPU Usage data collection")
+    ::: moniker-end
 
-   The CPU Usage tool analyzes the data and displays the report.
+    The CPU Usage tool analyzes the data and displays the report.
 
-   ![CPU Usage report](../profiling/media/vs-2022/cpu-use-wt-report.png "CPU Usage report")
+    ::: moniker range=">=vs-2022"
+    ![CPU Usage report](../profiling/media/vs-2022/cpu-use-wt-report.png "CPU Usage report")
+    ::: moniker-end
+    ::: moniker range="<=vs-2019"
+   ![CPU Usage report](../profiling/media/cpu-use-wt-report.png "CPU Usage report")
+    ::: moniker-end
 
 ## Analyze the CPU Usage report
 
@@ -71,11 +91,14 @@ To view the call tree, select the parent node in the report. The **CPU Usage** p
 
 #### <a name="BKMK_Call_tree_structure"></a> Call tree structure
 
-::: moniker range=">=vs-2019"
+::: moniker range=">=vs-2022"
 ![Call tree structure](../profiling/media/vs-2022/cpu-use-wt-call-tree-annotated.png "Call tree structure")
 ::: moniker-end
+::: moniker range="vs-2019"
+![Call tree structure](../profiling/media/vs-2019/cpu-use-wt-getmaxnumbercalltree-annotated.png "Call tree structure")
+::: moniker-end
 ::: moniker range="vs-2017"
-![Call tree structure](../profiling/media/vs-2022/cpu-use-wt-call-tree-annotated.png "Call tree structure")
+![Call tree structure](../profiling/media/cpu-use-wt-getmaxnumbercalltree-annotated.png "Call tree structure")
 ::: moniker-end
 
 |Image|Description|
@@ -91,28 +114,45 @@ System and framework functions that are executed by your code are called *extern
 
 To view the call paths of external code, switch the current view to the **Call Tree** view or right-click and select **View in Call Tree**.
 
+::: moniker range=">=vs-2022"
 ![Show Call Tree](../profiling/media/vs-2022/cpu-use-wt-call-tree-view.png "Show Call Tree")
+::: moniker-end
+::: moniker range="<=vs-2019"
+::: moniker-end
 
 Many external code call chains are deeply nested, so the width of the chain can exceed the display width of the **Function Name** column. The function names then appear as shown in the following image.
 
+::: moniker range=">=vs-2022"
 ![Nested external code in the call tree](../profiling/media/vs-2022/cpu-use-wt-show-external-code.png "Nested external code in the call tree")
+::: moniker-end
+::: moniker range="<=vs-2019"
+![Show External Code](../profiling/media/cpu-use-wt-filterview.png "Show External Code")
+::: moniker-end
 
 To find a function name you're looking for, use the search box. Hover over the selected line or use the horizontal scroll bar to view the data.
 
-::: moniker range=">=vs-2019"
+::: moniker range=">=vs-2022"
 ![Search for nested external code](../profiling/media/vs-2022/cpu-use-wt-search.png "Search for nested external code")
 ::: moniker-end
+::: moniker range="vs-2019"
+![Search for nested external code](../profiling/media/vs-2019/cpu-use-wt-showexternalcodetoowide-found.png "Search for nested external code")
+::: moniker-end
 ::: moniker range="vs-2017"
-![Search for nested external code](../profiling/media/vs-2022/cpu-use-wt-search.png "Search for nested external code")
+![Search for nested external code](../profiling/media/cpu-use-wt-showexternalcodetoowide-found.png "Search for nested external code")
 ::: moniker-end
 
 ### <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU usage call tree
 
- When the compiler encounters an asynchronous method, it creates a hidden class to control the method's execution. Conceptually, the class is a state machine. The class has compiler-generated functions that asynchronously call the original methods, and the callbacks, scheduler, and iterators needed to run them. When a parent method calls the original method, the compiler removes the method from the execution context of the parent, and runs the hidden class methods in the context of the system and framework code that controls app execution. The asynchronous methods are often, but not always, executed on one or more different threads. This code appears in the **CPU Usage** call tree as children of the **[External Code]** node immediately below the top node of the tree.
+When the compiler encounters an asynchronous method, it creates a hidden class to control the method's execution. Conceptually, the class is a state machine. The class has compiler-generated functions that asynchronously call the original methods, and the callbacks, scheduler, and iterators needed to run them. When a parent method calls the original method, the compiler removes the method from the execution context of the parent, and runs the hidden class methods in the context of the system and framework code that controls app execution. The asynchronous methods are often, but not always, executed on one or more different threads. This code appears in the **CPU Usage** call tree as children of the **[External Code]** node immediately below the top node of the tree.
 
 Expand the generated methods to show what's going on:
 
+::: moniker range=">=vs-2022"
 ![Expanded asynchronous node](media/vs-2022/cpu-use-wt-expanded-call-tree.png "Expanded asynchronous node")
+::: moniker-end
+::: moniker range="<=vs-2019"
+![Expanded asynchronous node](media/cpu-use-wt-getmaxnumberasync-expandedcalltree.png "Expanded asynchronous node")
+::: moniker-end
 
 - `MainPage::GetMaxNumberAsyncButton_Click` just manages a list of the task values, computes the maximum of the results, and displays the output.
 
