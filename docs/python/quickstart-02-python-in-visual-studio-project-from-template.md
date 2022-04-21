@@ -21,27 +21,27 @@ Once you've [installed Python support in Visual Studio](installing-python-suppor
 
 1. From the top menu bar, choose **File** > **New** > **Project**, then in the **New Project** dialog search for "blank flask", select the **Blank Flask Web Project** template in the middle list, give the project a name, and select **OK**:
 
-    ![Creating a new project with the Blank Flask Web Project template](media/quickstart-python-06-blank-flask-template.png)
+    :::image type="content" source="media/quickstart-python-06-blank-flask-template.png" alt-text="Creating a new project with the Blank Flask Web Project template.":::
 1. Visual Studio prompts you with a dialog that says **This project requires external packages.** This dialog appears because the template includes a *requirements.txt* file specifying a dependency on Flask. Visual Studio can install the packages automatically, and gives you the option to install them into a *virtual environment*. Using a virtual environment is recommended over installing into a global environment, so select **Install into a virtual environment** to continue.
 
-    ![Installing Flask into a virtual environment](media/quickstart-python-07-install-into-virtual-environment.png)
+    :::image type="content" source="media/quickstart-python-07-install-into-virtual-environment.png" alt-text="Installing Flask into a virtual environment.":::
 
 1. Visual Studio displays the **Add Virtual Environment** dialog. Accept the default and select **Create**, then consent to any elevation requests.
 ::: moniker-end
 ::: moniker range=">=vs-2022"
 1. Start Visual Studio and from the top menu bar, choose **File** > **New** > **Project**. Then in the **New Project** dialog search for "blank flask", select the **Blank Flask Web Project** template from the list and select **Next**.  
 
-    ![Creating a new project with the Blank Flask Web Project template](media/vs-2022/quickstart-python-06-blank-flask-template.png)
+    :::image type="content" source="media/vs-2022/quickstart-python-06-blank-flask-template.png" alt-text="Creating a new project with the Blank Flask Web Project template.":::
 
 1. Visual Studio displays the project configuration dialog, give the project a name and select **Create**.
 
-    ![Configure the new project fields with a name and desired location.](media/vs-2022/quickstart-python-065-blank-flask-project-config.png)
+    :::image type="content" source="media/vs-2022/quickstart-python-065-blank-flask-project-config.png" alt-text="Configure the new project fields with a name and desired location.":::
 
 1. Visual Studio prompts you with a dialog that says **This project requires external packages.** This dialog appears because the template includes a *requirements.txt* file specifying a dependency on Flask. Visual Studio can install the packages automatically, and gives you the option to install them into a *virtual environment*. Using a virtual environment is recommended over installing into a global environment, so select **Install into a virtual environment** to continue.
 
 1. Visual Studio displays the **Add Virtual Environment** dialog. Accept the default and select **Create**, then consent to any elevation requests.
 
-    ![Installing Flask into a virtual environment](media/vs-2022/quickstart-python-07-install-into-virtual-environment.png)
+    :::image type="content" source="media/vs-2022/quickstart-python-07-install-into-virtual-environment.png" alt-text="Installing Flask into a virtual environment.":::
 ::: moniker-end
  > [!Tip]
  > When you begin a project, it's highly recommended to create a virtual environment right away, as most Visual Studio templates invite you to do. Virtual environments maintain your project's exact requirements over time as you add and remove libraries. You can then easily generate a *requirements.txt* file, which you use to reinstall those dependencies on other development computers (as when using source control) and when deploying the project to a production server. For more information on virtual environments and their benefits, see [Use virtual environments](../python/selecting-a-python-environment-for-a-project.md#use-virtual-environments) and [Manage required packages with requirements.txt](../python/managing-required-packages-with-requirements-txt.md).
