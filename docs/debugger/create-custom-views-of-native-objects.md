@@ -1,7 +1,7 @@
 ---
 title: Create custom views of C++ objects
 description: Use the Natvis framework to customize the way that Visual Studio displays native types in the debugger
-ms.date: 03/02/2020
+ms.date: 04/22/2022
 ms.topic: how-to
 f1_keywords: 
   - natvis
@@ -40,7 +40,7 @@ The same `TextBox` looks much simpler in the variable window when Natvis custom 
 
 ## <a name="BKMK_Using_Natvis_files"></a>Use .natvis files in C++ projects
 
-Natvis uses *.natvis* files to specify visualization rules. A *.natvis* file is an XML file with a *.natvis* extension. The Natvis schema is defined in *%VSINSTALLDIR%\Xml\Schemas\natvis.xsd*.
+Natvis uses *.natvis* files to specify visualization rules. A *.natvis* file is an XML file with a *.natvis* extension. The Natvis schema is defined in *\<VS Installation Folder\>\Xml\Schemas\natvis.xsd*.
 
 The basic structure of a *.natvis* file is one or more `Type` elements representing visualization entries. The fully qualified name of each `Type` element is specified in its `Name` attribute.
 
@@ -59,7 +59,7 @@ The basic structure of a *.natvis* file is one or more `Type` elements represent
 </AutoVisualizer>
 ```
 
-Visual Studio provides some *.natvis* files in the *%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers* folder. These files have visualization rules for many common types, and can serve as examples for writing visualizations for new types.
+Visual Studio provides some *.natvis* files in the *\<VS Installation Folder\>\Common7\Packages\Debugger\Visualizers* folder. These files have visualization rules for many common types, and can serve as examples for writing visualizations for new types.
 
 ### Add a .natvis file to a C++ project
 
@@ -139,7 +139,7 @@ The *.natvis* files are evaluated in the following order:
 
 ::: moniker-end
 
-5. The system-wide Natvis directory (*%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers*). This directory has the *.natvis* files that are installed with Visual Studio. If you have administrator permissions, you can add files to this directory.
+5. The system-wide Natvis directory (*\<VS Installation Folder\>\Common7\Packages\Debugger\Visualizers*). This directory has the *.natvis* files that are installed with Visual Studio. If you have administrator permissions, you can add files to this directory.
 
 ## Modify .natvis files while debugging
 
