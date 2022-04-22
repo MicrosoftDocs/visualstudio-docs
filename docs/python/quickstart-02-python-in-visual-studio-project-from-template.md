@@ -35,44 +35,40 @@ Once you've [installed Python support in Visual Studio](installing-python-suppor
 
 1. After Visual Studio creates that environment, look in **Solution Explorer** to see that you have an *app.py* file along with *requirements.txt*. Open *app.py* to see that the template has provided code like that in [Quickstart - Create a web app with Flask](../ide/quickstart-python.md), with a few added sections. All of the code shown here's created by the template, so you don't need to paste any into *app.py* yourself.
 
-    The code begins with the necessary imports:
+The code begins with the necessary imports:
 
-    ```python
-
+```python
             from flask import Flask
             app = Flask(__name__)
-    
-    ```
+```
 
-    Next is the following line that can be helpful when deploying an app to a web host:
+Next is the following line that can be helpful when deploying an app to a web host:
 
-    ```python
-    
-            wsgi_app = app.wsgi_app
-        
-    ```
+```python
+    wsgi_app = app.wsgi_app
+```
 
-    Then comes route decorator on a simple function that defines a view:
+Then comes route decorator on a simple function that defines a view:
 
-    ```python
-            @app.route('/')
-            def hello():
-            """Renders a sample page."""
-            return "Hello World!"
-    ```
+```python
+    @app.route('/')
+    def hello():
+    """Renders a sample page."""
+    return "Hello World!"
+```
 
-    Finally, the following startup code allows you to set the host and port through environment variables rather than hard-coding them. Such code allows you to easily control the configuration on both development and production machines without changing the code:
+Finally, the following startup code allows you to set the host and port through environment variables rather than hard-coding them. Such code allows you to easily control the configuration on both development and production machines without changing the code:
 
-    ```python
-            if __name__ == '__main__':
-            import os
-            HOST = os.environ.get('SERVER_HOST', 'localhost')
-            try:
-            PORT = int(os.environ.get('SERVER_PORT', '5555'))
-            except ValueError:
-            PORT = 5555
-            app.run(HOST, PORT)
-    ```
+```python
+    if __name__ == '__main__':
+    import os
+    HOST = os.environ.get('SERVER_HOST', 'localhost')
+    try:
+    PORT = int(os.environ.get('SERVER_PORT', '5555'))
+    except ValueError:
+    PORT = 5555
+    app.run(HOST, PORT)
+```
 
 1. Select **Debug** > **Start without Debugging** to run the app and open a browser to `localhost:5555`.
 ::: moniker-end
@@ -98,42 +94,40 @@ Once you've [installed Python support in Visual Studio](installing-python-suppor
 
 1. After Visual Studio creates that environment, look in **Solution Explorer** to see that you have an *app.py* file along with *requirements.txt*. Open *app.py* to see that the template has provided code like that in [Quickstart - Create a web app with Flask](../ide/quickstart-python.md), with a few added sections. All of the code shown here's created by the template, so you don't need to paste any into *app.py* yourself.
 
-    The code begins with the necessary imports:
+The code begins with the necessary imports:
 
-    ```python
+```python
+    from flask import Flask
+    app = Flask(__name__)
+```
 
-            from flask import Flask
-            app = Flask(__name__)
-    ```
+Next is the following line that can be helpful when deploying an app to a web host:
 
-    Next is the following line that can be helpful when deploying an app to a web host:
+```python
+    wsgi_app = app.wsgi_app
+```
 
-    ```python
-        wsgi_app = app.wsgi_app
+Then comes route decorator on a simple function that defines a view:
 
-    ```
+```python
+    @app.route('/')
+    def hello():
+    """Renders a sample page."""
+    return "Hello World!"
+```
 
-    Then comes route decorator on a simple function that defines a view:
+Finally, the following startup code allows you to set the host and port through environment variables rather than hard-coding them. Such code allows you to easily control the configuration on both development and production machines without changing the code:
 
-    ```python
-            @app.route('/')
-            def hello():
-            """Renders a sample page."""
-            return "Hello World!"
-    ```
-
-    Finally, the following startup code allows you to set the host and port through environment variables rather than hard-coding them. Such code allows you to easily control the configuration on both development and production machines without changing the code:
-
-    ```python
-            if __name__ == '__main__':
-            import os
-            HOST = os.environ.get('SERVER_HOST', 'localhost')
-            try:
-            PORT = int(os.environ.get('SERVER_PORT', '5555'))
-            except ValueError:
-            PORT = 5555
-            app.run(HOST, PORT)
-    ```
+```python
+    if __name__ == '__main__':
+    import os
+    HOST = os.environ.get('SERVER_HOST', 'localhost')
+    try:
+    PORT = int(os.environ.get('SERVER_PORT', '5555'))
+    except ValueError:
+    PORT = 5555
+    app.run(HOST, PORT)
+```
 
 1. Select **Debug** > **Start without Debugging** to run the app and open a browser to `localhost:5555`.
 ::: moniker-end
