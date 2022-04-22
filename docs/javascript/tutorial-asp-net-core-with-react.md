@@ -89,6 +89,9 @@ Make sure to have the following installed:
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-react-deselect-launch-browser.png" alt-text="Open debug launch profiles UI"::: 
 
+   >[!NOTE]
+   > Currently, *launch.json* must be located under the *.vscode* folder.
+
 ## Set the startup project
 
 1. Right-click the solution and select **Set Startup Project**. Change the startup project from Single startup project to **Multiple startup projects**. Select **Start** for each project’s action.
