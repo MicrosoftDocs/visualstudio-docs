@@ -37,7 +37,7 @@ Usually, the local machine best replicates installed app execution. To collect d
     ![Select Release and Local Machine](../profiling/media/vs-2022/cpu-use-select-release.png "Select Release")
     ::: moniker-end
     ::: moniker range="<=vs-2019"
-    ![Select Release and Local Machine](../profiling/media/cpuuse-selectreleaselocalmachine.png "Select Release and Local Machine")
+    ![Select Release and Local Machine](../profiling/media/cpu-use-select-release-local-machine.png "Select Release and Local Machine")
     ::: moniker-end
 
 1. Select **Debug** > **Performance Profiler**.
@@ -48,7 +48,7 @@ Usually, the local machine best replicates installed app execution. To collect d
     ![Select CPU Usage](../profiling/media/vs-2022/cpu-use-lib-choose-cpu-usage.png "Select CPU Usage")
     ::: moniker-end
     ::: moniker range="<=vs-2019"
-    ![Select CPU Usage](../profiling/media/cpuuse-lib-choosecpuusage.png "Select CPU Usage")
+    ![Select CPU Usage](../profiling/media/cpu-use-lib-choose-cpu-usage.png "Select CPU Usage")
     ::: moniker-end
 
 1. After the app starts, the diagnostic session begins and displays CPU usage data. When you're finished collecting data, select **Stop Collection**.
@@ -57,7 +57,7 @@ Usually, the local machine best replicates installed app execution. To collect d
     ![Stop CPU Usage data collection](../profiling/media/vs-2022/cpu-use-wt-stop-collection.png "Stop CPU Usage data collection")
     ::: moniker-end
     ::: moniker range="<=vs-2019"
-    ![Stop CPU Usage data collection](../profiling/media/cpu-use-wt-stopcollection.png "Stop CPU Usage data collection")
+    ![Stop CPU Usage data collection](../profiling/media/cpu-use-wt-stop-collection.png "Stop CPU Usage data collection")
     ::: moniker-end
 
     The CPU Usage tool analyzes the data and displays the report.
@@ -95,10 +95,10 @@ To view the call tree, select the parent node in the report. The **CPU Usage** p
 ![Call tree structure](../profiling/media/vs-2022/cpu-use-wt-call-tree-annotated.png "Call tree structure")
 ::: moniker-end
 ::: moniker range="vs-2019"
-![Call tree structure](../profiling/media/vs-2019/cpu-use-wt-getmaxnumbercalltree-annotated.png "Call tree structure")
+![Call tree structure](../profiling/media/vs-2019/cpu-use-wt-getmaxnumber-call-tree-annotated.png "Call tree structure")
 ::: moniker-end
 ::: moniker range="vs-2017"
-![Call tree structure](../profiling/media/cpu-use-wt-getmaxnumbercalltree-annotated.png "Call tree structure")
+![Call tree structure](../profiling/media/cpu-use-wt-getmaxnumber-call-tree-annotated.png "Call tree structure")
 ::: moniker-end
 
 |Image|Description|
@@ -120,7 +120,7 @@ To view the call paths of external code, switch the current view to the **Call T
 ::: moniker range="<=vs-2019"
 To view the call paths of external code, on the main diagnostic report page (right pane), select **Show External Code** from the **Filter** dropdown, and then select **Apply**. The **Call Tree** view of the **CPU Usage** page then expands the external code calls. (The **Filter** dropdown is available on the main diagnostic page, not the detailed views.)
 
-![Show External Code](../profiling/media/cpu-use-wt-filterview.png "Show External Code")
+![Show External Code](../profiling/media/cpu-use-wt-filter-view.png "Show External Code")
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
@@ -131,7 +131,7 @@ Many external code call chains are deeply nested, so the width of the chain can 
 ::: moniker range="<=vs-2019"
 Many external code call chains are deeply nested, so the width of the chain can exceed the display width of the **Function Name** column. The function names then appear as **...**.
 
-![Nested external code in the call tree](../profiling/media/cpu-use-wt-showexternalcodetoowide.png "Nested external code in the call tree")
+![Nested external code in the call tree](../profiling/media/cpu-use-wt-show-external-code-too-wide.png "Nested external code in the call tree")
 ::: moniker-end
 
 To find a function name you're looking for, use the search box. Hover over the selected line or use the horizontal scroll bar to view the data.
@@ -140,10 +140,10 @@ To find a function name you're looking for, use the search box. Hover over the s
 ![Search for nested external code](../profiling/media/vs-2022/cpu-use-wt-search.png "Search for nested external code")
 ::: moniker-end
 ::: moniker range="vs-2019"
-![Search for nested external code](../profiling/media/vs-2019/cpu-use-wt-showexternalcodetoowide-found.png "Search for nested external code")
+![Search for nested external code](../profiling/media/vs-2019/cpu-use-wt-show-external-code-too-wide-found.png "Search for nested external code")
 ::: moniker-end
 ::: moniker range="vs-2017"
-![Search for nested external code](../profiling/media/cpu-use-wt-showexternalcodetoowide-found.png "Search for nested external code")
+![Search for nested external code](../profiling/media/cpu-use-wt-show-external-code-too-wide-found.png "Search for nested external code")
 ::: moniker-end
 
 ### <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU usage call tree
@@ -153,7 +153,7 @@ When the compiler encounters an asynchronous method, it creates a hidden class t
 ::: moniker range="<=vs-2019"
 In the following example, the first two nodes under **[External Code]** are the compiler-generated methods of the state machine class. The third node is the call to the original method.
 
-![Asynchronous node](media/cpu-use-wt-getmaxnumberasync-selected.png "Asynchronous node")
+![Asynchronous node](media/cpu-use-wt-getmaxnumber-async-selected.png "Asynchronous node")
 ::: moniker-end
 
 Expand the generated methods to show what's going on:
@@ -162,7 +162,7 @@ Expand the generated methods to show what's going on:
 ![Expanded asynchronous node](media/vs-2022/cpu-use-wt-expanded-call-tree.png "Expanded asynchronous node")
 ::: moniker-end
 ::: moniker range="<=vs-2019"
-![Expanded asynchronous node](media/cpu-use-wt-getmaxnumberasync-expandedcalltree.png "Expanded asynchronous node")
+![Expanded asynchronous node](media/cpu-use-wt-getmaxnumber-async-expanded-call-tree.png "Expanded asynchronous node")
 ::: moniker-end
 
 - `MainPage::GetMaxNumberAsyncButton_Click` just manages a list of the task values, computes the maximum of the results, and displays the output.
