@@ -54,12 +54,12 @@ CloudPilot, by UnifyCloud, is designed to help developers quickly and easily mov
 
 | Subscription Level  |  Channels  | Benefit  | Renewable?    |
 |---------------------|------------|----------|---------------|
-| Visual Studio Enterprise (Standard)   | VL, Azure, Retail, | 2 licenses, 90 days, unlimited scans       |  No.  Available to new subscribers only          |
-| Visual Studio Enterprise subscription with GitHub Enterprise   | VL | 2 licenses, 90 days, unlimited scans       |  No.  Available to new subscribers only          |
-| Visual Studio Professional (Standard) | VL, Azure, Retail                                       | 1 license, 30 days, one scan                                                            |  No.  Available to new subscribers only           |
-| Visual Studio Professional subscription with GitHub Enterprise | VL | 1 license, 30 days, one scan                                                            |  No.  Available to new subscribers only           |
-| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                             |  N/A           |
-| MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              |  N/A          |
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail, | 2 licenses, 90 days, unlimited scans       |  No.  Available to new subscribers only  |
+| Visual Studio Enterprise subscription with GitHub Enterprise   | VL | 2 licenses, 90 days, unlimited scans       |  No.  Available to new subscribers only |
+| Visual Studio Professional (Standard) | VL, Azure, Retail  | 1 license, 30 days, one scan  |  No.  Available to new subscribers only |
+| Visual Studio Professional subscription with GitHub Enterprise | VL | 1 license, 30 days, one scan |  No.  Available to new subscribers only |
+| Visual Studio Test Professional (Standard) | VL, Retail | Not available |  N/A |
+| MSDN Platforms (Standard) | VL, Retail | Not available |  N/A  |
 | Visual Studio Enterprise (Standard)  | NFR* |Not available  | N/A |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
 
