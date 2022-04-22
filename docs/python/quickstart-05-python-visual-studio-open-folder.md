@@ -15,15 +15,19 @@ monikerRange: ">= vs-2019"
 ---
 
 # Quickstart: Open and run Python code in a folder
+
 ::: moniker range="vs-2019"
 Once you've [installed Python support in Visual Studio 2019](installing-python-support-in-visual-studio.md), it's easy to run existing Python code in Visual Studio 2019 without creating a Visual Studio project.
 ::: moniker-end
+
 ::: moniker range=">=vs-2022"
 Once you've [installed Python support in Visual Studio 2022](installing-python-support-in-visual-studio.md), it's easy to run existing Python code in Visual Studio 2022 without creating a Visual Studio project.
 > [!Note]
 > Visual Studio 2017 and earlier require you to create a Visual Studio project to run Python code, which you can easily do using a built-in project template. See [Quickstart: Create a Python project from existing code](quickstart-01-python-in-visual-studio-project-from-existing-code.md).
 ::: moniker-end
+
 ::: moniker range="vs-2019"
+
 1. For this walkthrough, you can use any folder with Python code that you like. To follow along with the example shown here, clone the gregmalcolm/python_koans GitHub repository to your computer using the command `git clone https://github.com/gregmalcolm/python_koans` in an appropriate folder.
 
 1. Launch Visual Studio 2019 and in the start window, select **Open** at the bottom of the **Get started** column. Alternately, if you already have Visual Studio running, select the **File** > **Open** > **Folder** command instead.
@@ -61,24 +65,10 @@ Once you've [installed Python support in Visual Studio 2022](installing-python-s
 
 1. To close the folder in Visual Studio, select the **File** > **Close folder** menu command.
 
-## Set a working directory
-
-By default, Visual Studio runs a Python project opened as a folder in the root of that same folder. The code in your project, however, might assume that Python is being run in a subfolder. For example, suppose you open the root folder of the python_koans repository and then set the *python3/contemplate-koans.py* file as startup item. If you then run the code, you see an error that the *koans.txt* file cannot be found. This error happens because *contemplate-koans.py* assumes that Python is being run in the *python3* folder rather than the repository root.
-
-In such cases, you must also add a line to the launch configuration JSON file to specify the working directory:
-
-1. Right-click the Python (*.py*) startup file in **Solution Explorer** and select **Debug and Launch Settings**.
-
-    :::image type="content" source="media/quickstart-open-folder/09-debug-launch-settings-menu-command.png" alt-text="Screenshot of the Solution Explorer Folder View with the contemplate-koans.py file selected, and Debug and Launch Settings selected on the context menu.":::
-
-1. In the **Select debugger** dialog box that appears, select **Default** and then choose **Select**.
-
-    :::image type="content" source="media/quickstart-open-folder/10-select-debugger.png" alt-text="Screenshot of the Select a Debugger dialog with the Default debugger selected and the Select button chosen.":::
-
-    > [!Note]
-    > If you don't see **Default** as a choice, be sure that you chose a Python *.py* file when selecting the **Debug and Launch Settings** command. Visual Studio uses the file type to determine which debugger options to display.
 ::: moniker-end
+
 ::: moniker range=">=vs-2022"
+
 1. For this walkthrough, you can use any folder with Python code that you like. To follow along with the example shown here, clone the gregmalcolm/python_koans GitHub repository to your computer using the command `git clone https://github.com/gregmalcolm/python_koans` in an appropriate folder.
 
 1. Launch Visual Studio 2022 and in the start window, select **Open** at the bottom of the **Get started** column. Alternately, if you already have Visual Studio running, select the **File** > **Open** > **Folder** command instead.
@@ -116,7 +106,53 @@ In such cases, you must also add a line to the launch configuration JSON file to
 
 1. To close the folder in Visual Studio, select the **File** > **Close folder** menu command.
 
+::: moniker-end
+
 ## Set a working directory
+
+::: moniker range="vs-2019"
+By default, Visual Studio runs a Python project opened as a folder in the root of that same folder. The code in your project, however, might assume that Python is being run in a subfolder. For example, suppose you open the root folder of the python_koans repository and then set the *python3/contemplate-koans.py* file as startup item. If you then run the code, you see an error that the *koans.txt* file cannot be found. This error happens because *contemplate-koans.py* assumes that Python is being run in the *python3* folder rather than the repository root.
+
+In such cases, you must also add a line to the launch configuration JSON file to specify the working directory:
+
+1. Right-click the Python (*.py*) startup file in **Solution Explorer** and select **Debug and Launch Settings**.
+
+    :::image type="content" source="media/quickstart-open-folder/09-debug-launch-settings-menu-command.png" alt-text="Screenshot of the Solution Explorer Folder View with the contemplate-koans.py file selected, and Debug and Launch Settings selected on the context menu.":::
+
+1. In the **Select debugger** dialog box that appears, select **Default** and then choose **Select**.
+
+    :::image type="content" source="media/quickstart-open-folder/10-select-debugger.png" alt-text="Screenshot of the Select a Debugger dialog with the Default debugger selected and the Select button chosen.":::
+
+    > [!Note]
+    > If you don't see **Default** as a choice, be sure that you chose a Python *.py* file when selecting the **Debug and Launch Settings** command. Visual Studio uses the file type to determine which debugger options to display.
+1. Visual Studio opens a file named *launch.vs.json*, which is located in the hidden `.vs` folder. This file describes the debugging context for the project. To specify a working directory, add a value for `"workingDirectory"`, as in  `"workingDirectory": "python3"` for python-koans example:
+
+```json
+    
+{
+    "version": "0.2.1",
+    "defaults": {},
+    "configurations":    
+    [    
+        {
+            "type": "python",
+            "interpreter": "(default)",
+            "interpreterArguments": "",
+            "scriptArguments": "",
+            "env": {},
+            "nativeDebug": false,
+            "webBrowserUrl": "",
+            "project": "contemplate_koans.py",
+            "projectTarget": "",
+            "name": "contemplate_koans.py"
+        }    
+    ]
+}
+```
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
 
 By default, Visual Studio runs a Python project opened as a folder in the root of that same folder. The code in your project, however, might assume that Python is being run in a subfolder. For example, suppose you open the root folder of the python_koans repository and then set the *python3/contemplate-koans.py* file as startup item. If you then run the code, you see an error that the *koans.txt* file cannot be found. This error happens because *contemplate-koans.py* assumes that Python is being run in the *python3* folder rather than the repository root.
 
@@ -133,7 +169,6 @@ In such cases, you must also add a line to the launch configuration JSON file to
     > [!Note]
     > If you don't see **Default** as a choice, be sure that you chose a Python *.py* file when selecting the **Add Debug Configuration** command. Visual Studio uses the file type to determine which debugger options to display.
 
-::: moniker-end
 1. Visual Studio opens a file named *launch.vs.json*, which is located in the hidden `.vs` folder. This file describes the debugging context for the project. To specify a working directory, add a value for `"workingDirectory"`, as in  `"workingDirectory": "python3"` for python-koans example:
 
 ```json
@@ -160,6 +195,8 @@ In such cases, you must also add a line to the launch configuration JSON file to
 ```
 
 1. Save the file and launch the program again, which now runs in the specified folder.
+
+::: moniker-end
 
 ## Next steps
 
