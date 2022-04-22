@@ -6,7 +6,7 @@ manager: shve
 ms.assetid: 5bba2205-d32f-413d-9b58-724a24993842
 ms.date: 04/22/2022
 ms.topic: how-to
-description:  Learn about the LinkedIn Learning benefit included as part of a LinkedIn Premium subscription included in selected Visual Studio subscriptions.
+description:  Learn about the LinkedIn Learning benefit included in selected Visual Studio subscriptions.
 ---
 
 # The LinkedIn Learning benefit in Visual Studio subscriptions
@@ -24,7 +24,7 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
    > [!div class="mx-imgBorder"]
    > ![LinkedIn Learning Benefit Tile](_img/vs-linkedin/vs-linkedin-6-month-tile.png "Click 'Get code' to claim your code and get started.")
 
-0. If you already have a LinkedIn account and you’re signed in automatically, you’ll immediately be taken to the LinkedIn Learning benefit activation page.  If you have a LinkedIn account but you’re not automatically signed in, simply enter your username and password, and then click **Sign in**.  Please skip to [this step](#activate-your-offer) to activate your offer.
+0. If you already have a LinkedIn account, enter your username and password, and then click **Sign in**.  Skip to [this step](#activate-your-offer) to activate your offer.  If you don't have an account, follow the steps in the next section to create one. 
 
 ### Create a LinkedIn account
 1. If you don’t already have a LinkedIn account, click **Join now**.
@@ -37,7 +37,7 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 
 0. In this step, you’ll have the chance to identify areas of interest to you.  To expedite the account creation process, click **Not sure yet.  I’m open!**  (You can identify areas of interest later.)
 
-0. When you provided your email address, you were sent a message containing a confirmation code.  The message is from “Linkedin Messages”.  If you don’t find it in your inbox, please check your junk mail folders.  Enter the code from the message and click **Verify**.
+0. When you provided your email address, you were sent a message containing a confirmation code.  The message is from “Linkedin Messages”.  Enter the code from the message and click **Verify**.  If you don’t find it in your inbox, check your junk mail folders.  
 
 0. If you would like to import your contacts from the email account you entered earlier, you can do that now.  Otherwise, click **Skip**. (If you choose to skip this step, you’ll be asked to confirm your choice.  Click **Yes**.)
 
@@ -50,7 +50,7 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 0. You can download the LinkedIn App to your phone to have access to your network anywhere.  You can send a link to your phone, or download directly from the App Store or Google Play.  You can also click **Next** to skip this step now, and download the app later.
 
 ### Activate your offer
-1. Now that you’ve either signed in to your LinkedIn account or created a new one, you’re ready to activate your Premium subscription and begin enjoying LinkedIn Learning.  Click **Activate your offer**.
+1. Now that you’ve either signed in to your LinkedIn account or created a new one, you’re ready to activate your Premium subscription. Click **Activate your offer**.
    > [!div class="mx-imgBorder"]
    > ![LinkedIn Learning Activate](_img/vs-linkedin/vs-linkedin-Activate1.png "Click 'Activate your offer' to begin learning.")
 
@@ -102,6 +102,5 @@ A:  No, the LinkedIn Learning offer is available to new subscribers only.
 - [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-Check out the rest of the great benefits included with your subscription. Visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
-
-If you haven't already activated the Azure DevTest individual credit benefit that comes with your subscription, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the Azure tile in the Tools category to set up your Azure subscription and redeem your Azure DevTest individual credit.
+- Check out the rest of the great benefits included with your subscription. Visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
+- Activate the Azure DevTest individual credit benefit that comes with most subscriptions.  Visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the Azure tile in the Tools category to redeem your Azure DevTest individual credit.
