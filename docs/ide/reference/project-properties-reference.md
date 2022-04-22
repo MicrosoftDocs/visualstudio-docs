@@ -2,7 +2,7 @@
 title: What is the Project Designer?
 description: Learn how to configure and customize project properties by using the Project Designer.
 ms.custom: SEO-VS-2020
-ms.date: 04/08/2022
+ms.date: 04/25/2022
 ms.topic: reference
 helpviewer_keywords:
 - user interface [Visual Studio], projects
