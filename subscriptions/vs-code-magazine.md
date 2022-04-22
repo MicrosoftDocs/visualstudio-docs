@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: e5768153-2758-46d3-a323-3272def213ee
-ms.date: 10/18/2021
+ms.date: 04/22/2022
 ms.topic: how-to
 description:  Learn about the CODE Magazine benefit included in your Visual Studio subscription.
 ---
@@ -42,18 +42,18 @@ The process to set up your CODE Magazine subscription is simple.  Just follow th
 After you complete your subscription order, you'll see a confirmation page, including a link you can use to see which issues you've received: https://codemag.com/my/fulfillment. 
 
 ## Eligibility
-| Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
-|--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard)   | VL, Azure, Retail| Available       |  No          |
-| Visual Studio Enterprise subscription with GitHub Enterprise   | VL| Available       |  No          |
-| Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Available                                                            |  No          |
-| Visual Studio Professional subscription with GitHub Enterprise | VL                                      | Available                                                            |  No          |
-| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Available                                             |  No          |
-| MSDN Platforms (Standard)                                          | VL, Retail                                              | Available                                              |  No          |
+| Subscription Level  |  Channels  | Benefit  | Renewable?    |
+|---------------------|------------|----------|---------------|
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail| Available       |  No  |
+| Visual Studio Enterprise subscription with GitHub Enterprise   | VL| Available       |  No  |
+| Visual Studio Professional (Standard) | VL, Azure, Retail      | Available |  No  |
+| Visual Studio Professional subscription with GitHub Enterprise | VL| Available  |  No  |
+| Visual Studio Test Professional (Standard)                         | VL, Retail | Available  |  No  |
+| MSDN Platforms (Standard)                                          | VL, Retail | Available  |  No  |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
-| Visual Studio Enterprise NFR<sup>1</sup> | NFR | Not available | N/A |
+| Visual Studio Enterprise NFR\* | NFR | Not available | N/A |
 
-<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, BizSpark, Imagine, Imagine Premium, Microsoft Partner Network (MPN), Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services Developer, MCT Software & Services.  
+\* *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, BizSpark, Imagine, Imagine Premium, Microsoft Partner Network (MPN), Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services Developer, MCT Software & Services.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
