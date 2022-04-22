@@ -37,33 +37,33 @@ Once you've [installed Python support in Visual Studio](installing-python-suppor
 
     The code begins with the necessary imports:
 
-        ```python
+    ```python
 
             from flask import Flask
             app = Flask(__name__)
     
-        ```
+    ```
 
     Next is the following line that can be helpful when deploying an app to a web host:
 
-        ```python
+    ```python
     
             wsgi_app = app.wsgi_app
         
-        ```
+    ```
 
     Then comes route decorator on a simple function that defines a view:
 
-        ```python
+    ```python
             @app.route('/')
             def hello():
             """Renders a sample page."""
             return "Hello World!"
-        ```
+    ```
 
     Finally, the following startup code allows you to set the host and port through environment variables rather than hard-coding them. Such code allows you to easily control the configuration on both development and production machines without changing the code:
 
-        ```python
+    ```python
             if __name__ == '__main__':
             import os
             HOST = os.environ.get('SERVER_HOST', 'localhost')
@@ -72,7 +72,7 @@ Once you've [installed Python support in Visual Studio](installing-python-suppor
             except ValueError:
             PORT = 5555
             app.run(HOST, PORT)
-        ```
+    ```
 
 1. Select **Debug** > **Start without Debugging** to run the app and open a browser to `localhost:5555`.
 ::: moniker-end
@@ -100,31 +100,31 @@ Once you've [installed Python support in Visual Studio](installing-python-suppor
 
     The code begins with the necessary imports:
 
-        ```python
+    ```python
 
             from flask import Flask
             app = Flask(__name__)
-        ```
+    ```
 
     Next is the following line that can be helpful when deploying an app to a web host:
 
-        ```python
+    ```python
         wsgi_app = app.wsgi_app
 
-        ```
+    ```
 
     Then comes route decorator on a simple function that defines a view:
 
-        ```python
+    ```python
             @app.route('/')
             def hello():
             """Renders a sample page."""
             return "Hello World!"
-        ```
+    ```
 
     Finally, the following startup code allows you to set the host and port through environment variables rather than hard-coding them. Such code allows you to easily control the configuration on both development and production machines without changing the code:
 
-        ```python
+    ```python
             if __name__ == '__main__':
             import os
             HOST = os.environ.get('SERVER_HOST', 'localhost')
@@ -133,7 +133,7 @@ Once you've [installed Python support in Visual Studio](installing-python-suppor
             except ValueError:
             PORT = 5555
             app.run(HOST, PORT)
-        ```
+    ```
 
 1. Select **Debug** > **Start without Debugging** to run the app and open a browser to `localhost:5555`.
 ::: moniker-end
