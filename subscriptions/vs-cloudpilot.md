@@ -60,7 +60,7 @@ CloudPilot, by UnifyCloud, is designed to help developers quickly and easily mov
 | Visual Studio Professional subscription with GitHub Enterprise | VL | 1 license, 30 days, one scan |  No.  Available to new subscribers only |
 | Visual Studio Test Professional (Standard) | VL, Retail | Not available |  N/A |
 | MSDN Platforms (Standard) | VL, Retail | Not available |  N/A  |
-| Visual Studio Enterprise (Standard)  | NFR* |Not available  | N/A |
+| Visual Studio Enterprise (Standard)  | NFR\* |Not available  | N/A |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
 
 \*  *Includes:  Not for Resale (NFR), FTE, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Partner Network (MPN), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark, Imagine, NFR Basic*

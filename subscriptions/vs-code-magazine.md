@@ -51,7 +51,7 @@ After you complete your subscription order, you'll see a confirmation page, incl
 | Visual Studio Test Professional (Standard)                         | VL, Retail | Available  |  No  |
 | MSDN Platforms (Standard)                                          | VL, Retail | Available  |  No  |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
-| Visual Studio Enterprise NFR* | NFR | Not available | N/A |
+| Visual Studio Enterprise NFR\* | NFR | Not available | N/A |
 
 \* *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, BizSpark, Imagine, Imagine Premium, Microsoft Partner Network (MPN), Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services Developer, MCT Software & Services.  
 

@@ -34,13 +34,13 @@ Getting help via the Concierge Chat service is very easy.
 ## Eligibility
 | Subscription Level | Channels | Benefit  | Renewable?  |
 |--------------------|----------|----------|-------------|
-| Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR* | Available |  Yes |
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR\* | Available |  Yes |
 | Visual Studio Enterprise subscription with GitHub Enterprise | VL| Available |  Yes |
 | Visual Studio Professional (Standard) | VL, Azure, Retail  | Available |  Yes |
 | Visual Studio Professional subscription with GitHub Enterprise | VL | Available |  Yes |
 | Visual Studio Test Professional (Standard) | VL, Retail | Available |  Yes |
 | MSDN Platforms (Standard) | VL, Retail | Available |  Yes |
-| Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
+| Visual Studio Enterprise (monthly cloud), Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
 
 \*  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark.  Excludes:  FTE, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Partner Network (MPN), Imagine.  Excludes:  NFR Basic*
 
