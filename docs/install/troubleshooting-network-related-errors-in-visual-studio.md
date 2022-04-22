@@ -49,7 +49,6 @@ This error generally occurs when users connect to the internet through a proxy s
 
 - If you want to use your default credentials with your proxy, you can perform the following actions:
 
-::: moniker range="vs-2017"
 
 1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE**.
 
@@ -66,7 +65,6 @@ This error generally occurs when users connect to the internet through a proxy s
      > [!NOTE]
      > For more information, see the [&lt;defaultProxy&gt; Element (Network Settings)](/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings/) and [&lt;proxy&gt; Element (Network Settings)](/dotnet/framework/configure-apps/file-schema/network/proxy-element-network-settings) pages.
 
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -91,8 +89,6 @@ This error generally occurs when users connect to the internet through a proxy s
 
      > [!NOTE]
      > For more information, see the [&lt;defaultProxy&gt; Element (Network Settings)](/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings/) and [&lt;proxy&gt; Element (Network Settings)](/dotnet/framework/configure-apps/file-schema/network/proxy-element-network-settings) pages.
-
-
 
 ## Error: “Disconnected from Visual Studio” when attempting to report a problem
 

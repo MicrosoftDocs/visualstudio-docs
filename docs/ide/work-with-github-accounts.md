@@ -20,13 +20,9 @@ If you have a public GitHub or GitHub Enterprise account, you can add it to your
 
 You can add your public GitHub account if you're already signed into Visual Studio with a Microsoft account,  work account, or school account.
 
-::: moniker range=">=vs-2019"
-
 1. Select the icon with your initials in the upper-right corner of the Visual Studio environment. Then, select **Account settings...** to manage your accounts. You can also open the Account Settings dialog by going to **File** > **Account Settings...**.
 
  :::image type="content" source="../ide/media/vs-2022/Account Settings1.png" alt-text="Screenshot of the Account Settings window.":::
-
-::: moniker-end
 
 1. From the **All Accounts** submenu, select the plus sign to add an account, and select **GitHub**.
 

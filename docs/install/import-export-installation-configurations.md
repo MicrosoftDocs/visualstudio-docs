@@ -24,7 +24,7 @@ You can configure Visual Studio across your organization with installation confi
 
 Here's how.
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2017"
 
 > [!NOTE]
 > This functionality is available only in Visual Studio 2017 version 15.9 and later.
@@ -41,21 +41,13 @@ You can export an installation configuration file from either a previously insta
 
    ![Export configuration from the product card in the Visual Studio installer](../install/media/vs-2022/export-config.png)
 
-::: moniker range=">=vs-2019"
-
 1. Browse to or type the location where you want to save your .vsconfig file, and then choose **Review details**.
 
-   ![Export configuration from the Visual Studio installer](../install/media/vs-2022/review-details.png)
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
+   ![Export configuration from the Visual Studio installer](../install/media/vs-2022/review-details1.png)
 
 1. Make sure you've got the workloads and components that you want, and then choose **Export**.
 
    :::image type="content" source="../install/media/vs-2022/export-configuration-confirmation1.png" alt-text="Screenshot of the export window.":::
-
-::: moniker-end
 
 ## Import a configuration
 
