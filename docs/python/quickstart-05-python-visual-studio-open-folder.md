@@ -150,6 +150,7 @@ In such cases, you must also add a line to the launch configuration JSON file to
 }
 ```
 
+1. Save the file and launch the program again, which now runs in the specified folder.
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
@@ -171,28 +172,28 @@ In such cases, you must also add a line to the launch configuration JSON file to
 
 1. Visual Studio opens a file named *launch.vs.json*, which is located in the hidden `.vs` folder. This file describes the debugging context for the project. To specify a working directory, add a value for `"workingDirectory"`, as in  `"workingDirectory": "python3"` for python-koans example:
 
-```json
-    
-{
-    "version": "0.2.1",
-    "defaults": {},
-    "configurations":    
-    [    
-        {
-            "type": "python",
-            "interpreter": "(default)",
-            "interpreterArguments": "",
-            "scriptArguments": "",
-            "env": {},
-            "nativeDebug": false,
-            "webBrowserUrl": "",
-            "project": "contemplate_koans.py",
-            "projectTarget": "",
-            "name": "contemplate_koans.py"
-        }    
-    ]
-}
-```
+    ```json
+        
+    {
+        "version": "0.2.1",
+        "defaults": {},
+        "configurations":    
+        [    
+            {
+                "type": "python",
+                "interpreter": "(default)",
+                "interpreterArguments": "",
+                "scriptArguments": "",
+                "env": {},
+                "nativeDebug": false,
+                "webBrowserUrl": "",
+                "project": "contemplate_koans.py",
+                "projectTarget": "",
+                "name": "contemplate_koans.py"
+            }    
+        ]
+    }
+    ```
 
 1. Save the file and launch the program again, which now runs in the specified folder.
 

@@ -20,7 +20,6 @@ Once you've [installed Python support in Visual Studio](installing-python-suppor
 ::: moniker range="<=vs-2019"
 
 1. Start Visual Studio.
-
 1. From the top menu bar, choose **File** > **New** > **Project**, then in the **New Project** dialog search for "blank flask", select the **Blank Flask Web Project** template in the middle list, give the project a name, and select **OK**:
 
     :::image type="content" source="media/quickstart-python-06-blank-flask-template.png" alt-text="Creating a new project with the Blank Flask Web Project template.":::
@@ -31,49 +30,49 @@ Once you've [installed Python support in Visual Studio](installing-python-suppor
 
 1. Visual Studio displays the **Add Virtual Environment** dialog. Accept the default and select **Create**, then consent to any elevation requests.
 
- > [!Tip]
- > When you begin a project, it's highly recommended to create a virtual environment right away, as most Visual Studio templates invite you to do. Virtual environments maintain your project's exact requirements over time as you add and remove libraries. You can then easily generate a *requirements.txt* file, which you use to reinstall those dependencies on other development computers (as when using source control) and when deploying the project to a production server. For more information on virtual environments and their benefits, see [Use virtual environments](../python/selecting-a-python-environment-for-a-project.md#use-virtual-environments) and [Manage required packages with requirements.txt](../python/managing-required-packages-with-requirements-txt.md).
+     > [!Tip]
+     > When you begin a project, it's highly recommended to create a virtual environment right away, as most Visual Studio templates invite you to do. Virtual environments maintain your project's exact requirements over time as you add and remove libraries. You can then easily generate a *requirements.txt* file, which you use to reinstall those dependencies on other development computers (as when using source control) and when deploying the project to a production server. For more information on virtual environments and their benefits, see [Use virtual environments](../python/selecting-a-python-environment-for-a-project.md#use-virtual-environments) and [Manage required packages with requirements.txt](../python/managing-required-packages-with-requirements-txt.md).
 
 1. After Visual Studio creates that environment, look in **Solution Explorer** to see that you have an *app.py* file along with *requirements.txt*. Open *app.py* to see that the template has provided code like that in [Quickstart - Create a web app with Flask](../ide/quickstart-python.md), with a few added sections. All of the code shown here's created by the template, so you don't need to paste any into *app.py* yourself.
 
     The code begins with the necessary imports:
 
-    ```python
+        ```python
 
-        from flask import Flask
-        app = Flask(__name__)
+            from flask import Flask
+            app = Flask(__name__)
     
-    ```
+        ```
 
-Next is the following line that can be helpful when deploying an app to a web host:
+    Next is the following line that can be helpful when deploying an app to a web host:
 
-```python
+        ```python
     
-        wsgi_app = app.wsgi_app
-    
-```
+            wsgi_app = app.wsgi_app
+        
+        ```
 
-Then comes route decorator on a simple function that defines a view:
+    Then comes route decorator on a simple function that defines a view:
 
-```python
-    @app.route('/')
-    def hello():
-        """Renders a sample page."""
-        return "Hello World!"
-```
+        ```python
+            @app.route('/')
+            def hello():
+            """Renders a sample page."""
+            return "Hello World!"
+        ```
 
-Finally, the following startup code allows you to set the host and port through environment variables rather than hard-coding them. Such code allows you to easily control the configuration on both development and production machines without changing the code:
+    Finally, the following startup code allows you to set the host and port through environment variables rather than hard-coding them. Such code allows you to easily control the configuration on both development and production machines without changing the code:
 
-```python
-    if __name__ == '__main__':
-        import os
-        HOST = os.environ.get('SERVER_HOST', 'localhost')
-        try:
+        ```python
+            if __name__ == '__main__':
+            import os
+            HOST = os.environ.get('SERVER_HOST', 'localhost')
+            try:
             PORT = int(os.environ.get('SERVER_PORT', '5555'))
-        except ValueError:
+            except ValueError:
             PORT = 5555
-        app.run(HOST, PORT)
-```
+            app.run(HOST, PORT)
+        ```
 
 1. Select **Debug** > **Start without Debugging** to run the app and open a browser to `localhost:5555`.
 ::: moniker-end
@@ -94,47 +93,47 @@ Finally, the following startup code allows you to set the host and port through 
 
      :::image type="content" source="media/vs-2022/quickstart-python-07-install-into-virtual-environment.png" alt-text="Installing Flask into a virtual environment.":::
 
- > [!Tip]
- > When you begin a project, it's highly recommended to create a virtual environment right away, as most Visual Studio templates invite you to do. Virtual environments maintain your project's exact requirements over time as you add and remove libraries. You can then easily generate a *requirements.txt* file, which you use to reinstall those dependencies on other development computers (as when using source control) and when deploying the project to a production server. For more information on virtual environments and their benefits, see [Use virtual environments](../python/selecting-a-python-environment-for-a-project.md#use-virtual-environments) and [Manage required packages with requirements.txt](../python/managing-required-packages-with-requirements-txt.md).
+     > [!Tip]
+     > When you begin a project, it's highly recommended to create a virtual environment right away, as most Visual Studio templates invite you to do. Virtual environments maintain your project's exact requirements over time as you add and remove libraries. You can then easily generate a *requirements.txt* file, which you use to reinstall those dependencies on other development computers (as when using source control) and when deploying the project to a production server. For more information on virtual environments and their benefits, see [Use virtual environments](../python/selecting-a-python-environment-for-a-project.md#use-virtual-environments) and [Manage required packages with requirements.txt](../python/managing-required-packages-with-requirements-txt.md).
 
 1. After Visual Studio creates that environment, look in **Solution Explorer** to see that you have an *app.py* file along with *requirements.txt*. Open *app.py* to see that the template has provided code like that in [Quickstart - Create a web app with Flask](../ide/quickstart-python.md), with a few added sections. All of the code shown here's created by the template, so you don't need to paste any into *app.py* yourself.
 
     The code begins with the necessary imports:
 
-```python
+        ```python
 
-    from flask import Flask
-    app = Flask(__name__)
-```
+            from flask import Flask
+            app = Flask(__name__)
+        ```
 
-Next is the following line that can be helpful when deploying an app to a web host:
+    Next is the following line that can be helpful when deploying an app to a web host:
 
-```python
-    wsgi_app = app.wsgi_app
+        ```python
+        wsgi_app = app.wsgi_app
 
-```
+        ```
 
-Then comes route decorator on a simple function that defines a view:
+    Then comes route decorator on a simple function that defines a view:
 
-```python
-    @app.route('/')
-    def hello():
-        """Renders a sample page."""
-        return "Hello World!"
-```
+        ```python
+            @app.route('/')
+            def hello():
+            """Renders a sample page."""
+            return "Hello World!"
+        ```
 
-Finally, the following startup code allows you to set the host and port through environment variables rather than hard-coding them. Such code allows you to easily control the configuration on both development and production machines without changing the code:
+    Finally, the following startup code allows you to set the host and port through environment variables rather than hard-coding them. Such code allows you to easily control the configuration on both development and production machines without changing the code:
 
-```python
-    if __name__ == '__main__':
-        import os
-        HOST = os.environ.get('SERVER_HOST', 'localhost')
-        try:
+        ```python
+            if __name__ == '__main__':
+            import os
+            HOST = os.environ.get('SERVER_HOST', 'localhost')
+            try:
             PORT = int(os.environ.get('SERVER_PORT', '5555'))
-        except ValueError:
+            except ValueError:
             PORT = 5555
-        app.run(HOST, PORT)
-```
+            app.run(HOST, PORT)
+        ```
 
 1. Select **Debug** > **Start without Debugging** to run the app and open a browser to `localhost:5555`.
 ::: moniker-end
