@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 44a790d1-f37e-4be0-9023-af1b3fdfcd35
-ms.date: 10/18/2021
+ms.date: 04/22/2022
 ms.topic: conceptual
 description:  Learn about the Developer Community Support benefit included in selected Visual Studio subscriptions.
 ---

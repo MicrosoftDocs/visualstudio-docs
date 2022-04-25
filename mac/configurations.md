@@ -24,8 +24,6 @@ Solution configurations are used to specify configurations for all projects in a
 
 ![Configuration Mapping Options](media/projects-and-solutions-image3.png)
 
-For more information about configurations, see the [Configuration Manager](https://www.youtube.com/watch?v=tjSdkqYh5Vg) video by James Montemagno.
-
 ## Project build configurations
 
 Projects tend to have multiple configurations. The configuration and platform a project targets are used together to specify the properties to use when it's built. Switching between configurations allows for different outputs at build time. For example, a Debug configuration will output debugging symbols, allowing the debugger to resolve function names, parameters, or variables from a crashed application's stack trace. While this additional information is useful during development, it leads to an inflated file size and isn't ideal for distribution.
