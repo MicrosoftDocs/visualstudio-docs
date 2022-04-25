@@ -89,12 +89,8 @@ Make sure to have the following installed:
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-react-deselect-launch-browser.png" alt-text="Open debug launch profiles UI"::: 
 
-1. Next, right-click the React project and select the **Properties** menu and go the **Debugging** section. Change the Debugger to launch to the **launch.json** option.
-
-   :::image type="content" source="media/vs-2022/asp-net-core-with-react-choose-debugger.png" alt-text="Choose the debugger (launch.json)":::
-
    >[!NOTE]
-   > This setting sets the location of *launch.json*. The default path for *launch.json* is under *.vscode/launch.json*, so typically you can skip this step if you are using the default path.
+   > Currently, *launch.json* must be located under the *.vscode* folder.
 
 ## Set the startup project
 
