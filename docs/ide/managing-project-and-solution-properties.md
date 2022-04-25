@@ -62,7 +62,7 @@ In C#, Visual Basic, and F# projects, properties are exposed in the [**Project D
 
 ::: moniker range="vs-2022"
 
-The following illustration shows the **Build** property page for a console project in C#:
+The following screenshot shows the **Build** property page in the Project Designer for a console project in C#:
 
 :::image type="content" source="media/vs-2022/properties-page-csharp-console.png" alt-text="Screenshot of the Properties page in Visual Studio 2022." lightbox="media/vs-2022/properties-page-csharp-console.png":::
 
@@ -70,7 +70,7 @@ The following illustration shows the **Build** property page for a console proje
 
 ::: moniker range="<=vs-2019"
 
-The following illustration shows the **Build** property page for a WPF project in C#:
+The following screenshot shows the **Build** property page in the Project Designer for a WPF project in C#:
 
 ![Visual Studio Project Designer](../ide/media/vs2015_proppage_build.png)
 
@@ -83,7 +83,7 @@ For information about each of the property pages in **Project Designer**, see [W
 
 ### C++ and JavaScript projects
 
-C++ and JavaScript projects have a different user interface for managing project properties. This illustration shows a C++ project property page (JavaScript pages are similar):
+C++ and JavaScript projects have a different user interface for managing project properties. This screenshot shows a C++ project property page (JavaScript pages are similar):
 
 ::: moniker range=">=vs-2019"
 

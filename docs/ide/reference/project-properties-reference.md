@@ -33,7 +33,6 @@ The following screenshot shows the project properties pages in the Project Desig
 
 ::: moniker-end
 
-
 > [!IMPORTANT]
 > The project properties that you can access by using the Project Designer differ from the properties you can access by using the [Properties window](properties-window.md) in Solution Explorer.
 
@@ -55,4 +54,4 @@ The following screenshot shows the project properties pages in the Project Desig
 
 ## See also
 
-- [Solutions and Projects](../../ide/solutions-and-projects-in-visual-studio.md)
+- [What are solutions and projects in Visual Studio?](../solutions-and-projects-in-visual-studio.md)
