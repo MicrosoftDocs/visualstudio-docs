@@ -51,9 +51,9 @@ This error generally occurs when users connect to the internet through a proxy s
 
 ::: moniker range="vs-2017"
 
-1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE**.
+  1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE**.
 
-1. In the configuration file, find the `<system.net>` block, and then add this code:
+  1. In the configuration file, find the `<system.net>` block, and then add this code:
 
       ```xml
       <defaultProxy enabled="true" useDefaultCredentials="true">
@@ -70,9 +70,9 @@ This error generally occurs when users connect to the internet through a proxy s
 
 ::: moniker range="vs-2019"
 
-1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE**.
+  1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE**.
 
-1. In the configuration file, find the `<system.net>` block, and then add this code:
+  1. In the configuration file, find the `<system.net>` block, and then add this code:
 
       ```xml
       <defaultProxy enabled="true" useDefaultCredentials="true">
@@ -89,9 +89,9 @@ This error generally occurs when users connect to the internet through a proxy s
 
 ::: moniker range="vs-2022"
 
-1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2022\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2022\Enterprise\Common7\IDE**.
+ 1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2022\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2022\Enterprise\Common7\IDE**.
 
-1. In the configuration file, find the `<system.net>` block, and then add this code:
+ 1. In the configuration file, find the `<system.net>` block, and then add this code:
 
       ```xml
       <defaultProxy enabled="true" useDefaultCredentials="true">
