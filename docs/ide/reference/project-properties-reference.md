@@ -1,8 +1,8 @@
 ---
-title: Project Properties Reference
-description: Learn how to configure and customize project properties.
+title: What is the Project Designer?
+description: Learn how to configure and customize project properties by using the Project Designer.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 04/25/2022
 ms.topic: reference
 helpviewer_keywords:
 - user interface [Visual Studio], projects
@@ -15,11 +15,28 @@ ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
-# Project Properties reference
+# What is the Project Designer?
 
-Learn more about how to configure and customize project properties.
+The Project Designer in Visual Studio is a dialog box that you can use to specify applications settings and properties for a project. The Project Designer includes several different project properties pages to interact with. What you see depends on your project type, platform, or programming language.
 
-## Project Properties pages
+The following screenshot shows the project properties pages in the Project Designer that you'll see after you select **Properties** from the right-click context menu in **Solution Explorer**:
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/project-properties-designer.png" alt-text="Screenshot of the Project Designer in Visual Studio 2022.":::
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+:::image type="content" source="media/vs-2019/project-properties-designer.png" alt-text="Screenshot of the Project Designer in Visual Studio 2019.":::
+
+::: moniker-end
+
+> [!IMPORTANT]
+> The project properties that you can access by using the Project Designer differ from the properties you can access by using the [Properties window](properties-window.md) in Solution Explorer.
+
+## Project properties pages
 
 | Title | Description |
 | - | - |
@@ -37,4 +54,4 @@ Learn more about how to configure and customize project properties.
 
 ## See also
 
-- [Solutions and Projects](../../ide/solutions-and-projects-in-visual-studio.md)
+- [What are solutions and projects in Visual Studio?](../solutions-and-projects-in-visual-studio.md)
