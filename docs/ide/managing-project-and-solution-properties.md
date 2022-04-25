@@ -58,7 +58,7 @@ Project properties are organized into groups, and each group has its own propert
 
 ### C#, Visual Basic, and F# projects
 
-In C#, Visual Basic, and F# projects, properties are exposed in the **Project Designer**.
+In C#, Visual Basic, and F# projects, properties are exposed in the [**Project Designer**](reference/project-properties-reference.md).
 
 ::: moniker range="vs-2022"
 
@@ -76,10 +76,10 @@ The following illustration shows the **Build** property page for a WPF project i
 
 ::: moniker-end
 
-For information about each of the property pages in **Project Designer**, see [Project properties & Project Designer reference](../ide/reference/project-properties-reference.md).
+For information about each of the property pages in **Project Designer**, see [What is the Project Designer?](reference/project-properties-reference.md).
 
 > [!TIP]
-> Solutions have a few properties, and so do project items; these properties are accessed in the [Properties window](../ide/reference/properties-window.md), not the **Project Designer**.
+> Solutions have a few properties, and so do project items; these properties are accessed in the [**Properties window**](reference/properties-window.md), not the [Project Designer](reference/project-properties-reference.md).
 
 ### C++ and JavaScript projects
 
