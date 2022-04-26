@@ -63,6 +63,8 @@ Alternatively, you can use the **Visual Studio > Sign in…** menu item to sign 
 
 3. After you've logged in, you'll see an option to select keyboard shortcuts. Select the option you wish to use and **Continue**. You'll then be prompted with the Visual Studio 2022 for Mac start window. From here, you can open or create a new project.
 
+    :::image type="content" source="media/vsmac-2022/vsmac-launch.png" alt-text="Screenshot of open or create a new project window in Visual Studio for Mac ":::
+
 4. Select **Visual Studio > Account...** from the **Visual Studio** menu to sign in and out or to add additional accounts.
 
     :::image type="content" source="media/vsmac-2022/account-window-after-sign-in.png" alt-text="Screenshot of Account window in Visual Studio 2022 for Mac after signing in.":::
@@ -77,6 +79,12 @@ Alternatively, you can use the **Visual Studio > Sign in…** menu item to sign 
 Visual Studio for Mac supports adding multiple accounts to your personalization account. These accounts will allow you to access resources, such as Azure, from any added account.
 
 To add additional user accounts, choose the **Visual Studio > Account...** menu from Visual Studio for Mac. Select the **Add...** button to enter additional account credentials.
+
+::: moniker range="vsmac-2019"
+
+![Manage accounts](media/user-accounts-login.png)
+
+::: moniker-end
 
 ::: moniker range="vsmac-2022"
 
