@@ -1147,7 +1147,7 @@
       href: ide/reference/output-window.md
     - name: Project Properties
       items:
-      - name: Reference
+      - name: Project Designer reference
         displayName: Project properties
         href: ide/reference/project-properties-reference.md
       - name: Application Page, Project Designer (UWP)
