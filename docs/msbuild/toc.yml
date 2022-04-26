@@ -635,6 +635,20 @@ items:
         href: errors/msb8041.md
       - name: MSB8042
         href: errors/msb8042.md
+      - name: MSB8053
+        href: errors/msb8053.md
+      - name: MSB8054
+        href: errors/msb8054.md
+      - name: MSB8055
+        href: errors/msb8055.md
+      - name: MSB8056
+        href: errors/msb8056.md
+      - name: MSB8057
+        href: errors/msb8057.md
+      - name: MSB8058
+        href: errors/msb8058.md
+      - name: MSB8059
+        href: errors/msb8059.md
       - name: MSB8060
         href: errors/msb8060.md
       - name: MSB8061

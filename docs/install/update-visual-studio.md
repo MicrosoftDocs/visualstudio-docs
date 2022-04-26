@@ -296,7 +296,7 @@ If you are part of an organization that centralizes management of software insta
 
 * [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md)
 * [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
-* [Visual Studio enterprise guide](visual-studio-enterprise-guide.md)
+* [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)
 * [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 * [Modify Visual Studio](modify-visual-studio.md)

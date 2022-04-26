@@ -4,24 +4,24 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: bc8b526c-2fed-4ac8-aaa2-73d2495256fd
-ms.date: 4/5/2022
+ms.date: 4/13/2022
 ms.topic: how-to
 description:  Learn about the Pluralsight training subscription included with selected Visual Studio subscriptions.
 ---
 
 # Pluralsight training benefits in Visual Studio subscriptions
-Advance your skills with expert-authored courses, learning paths, adaptive skill measurement, and more!  You may be eligible for up to six months of free, unlimited access to the entire Pluralsight catalog depending on which Visual Studio subscription you have.
+Advance your skills with expert-authored courses, learning paths, adaptive skill measurement, and more!  Take your learning to the next level with up to six months of access to the Pluralsight tech skills platform. Master Azure, C#, Angular, ASP.NET Core and other trending tech, assess your skills and close any gaps by learning from industry experts.
 
 The table below details what Pluralsight subscription benefits are available to each Visual Studio subscription type.  Some subscribers will also be able to take advantage of limited courses after their full catalog access subscription expires. Pluralsight will guide you through that process when your full catalog subscription expires.
 
 Not all subscribers who have previously used a Pluralsight subscription provided through a Visual Studio subscription will be able to redeem new Pluralsight benefit offers. If you are not eligible to redeem more Pluralsight training benefits, you'll receive a notification when you attempt to activate the benefit on the Pluralsight website.
 
-## Activation steps
+## Activate your Pluralsight subscription
 1. To activate your subscription, connect to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the **Activate** link on the Pluralsight benefit tile.  To narrow the list of tiles displayed, you can choose a group filter.  Pluralsight is located in the Professional Development benefits group.
    > [!div class="mx-imgBorder"]
    > ![Pluralsight Benefit Tile](_img/vs-pluralsight/vs-pluralsight-tile.png "Click Activate to claim your benefit")
 
-(The tile above is an example of what a Visual Studio Enterprise subscriber will see.  If you are using a different Visual Studio subscription, the duration of your Pluralsight benefit will vary.  See the Eligibility table for details.)
+   (The tile above is an example of what a Visual Studio Enterprise subscriber will see.  If you are using a different Visual Studio subscription, the duration of your    Pluralsight benefit will vary.  See the Eligibility table for details.)
 1. You'll be redirected to the Pluralsight page for the benefit that's included with your Visual Studio subscription.
    - Provide the contact information requested on the form
    - Click the checkbox to accept the terms of use
@@ -87,7 +87,6 @@ Excludes:  NFR Basic.*
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
 ## Frequently asked questions
-
 ### Q: I have a Visual Studio Enterprise subscription, but I don't see the Pluralsight tile on the Benefits page. What's wrong?
 A: Not all Visual Studio Enterprise subscriptions include the Pluralsight benefit.  Check the [eligibility table](#eligibility) to see whether your subscription is eligible.
 

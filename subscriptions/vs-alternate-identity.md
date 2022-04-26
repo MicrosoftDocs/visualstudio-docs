@@ -4,9 +4,9 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 86f2856c-8adf-4085-9962-f4136679e5ed
-ms.date: 10/14/2021
+ms.date: 04/14/2022
 ms.topic: conceptual
-description:  How to add an alternate identity for your Visual Studio subscription, to use for Azure DevOps and Azure
+description:  Learn how to add an alternate identity for your Visual Studio subscription to use for Azure DevOps and Azure
 ---
 # Identities for Visual Studio subscribers
 When you activate your Visual Studio subscription, we link the identity (or login) that you used during activation with the Visual Studio subscription. This way, we can recognize you on the [Visual Studio subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), in Azure DevOps, and in Azure.
@@ -40,16 +40,11 @@ For all subscriptions, you can add a "work or school account" so you can use tha
 Your alternate account is added to the Visual Studio subscription, allowing both identities to utilize the benefits of the subscription that require you to sign in with the alternate account (IDE, Azure DevOps, and Azure).
 
 ## FAQ
-
 ### Q:  Why doesn't Azure DevOps recognize me as a Visual Studio subscriber?
-
 A: Azure DevOps should automatically recognize your subscription when you sign in using your primary or alternate identity. If not, you can try a few things:
-
-* Check that you have an active Visual Studio subscription that includes [Azure DevOps](vs-azure-devops.md#eligibility) as a benefit.
-
-* Confirm that you're using a login/identity that is either the primary or alternate identity for your Visual Studio subscription.  Many people, for example, will also have a Visual Studio Dev Essentials membership associated with a different sign-in ID.  Attempting to sign in to other subscriptions with that ID will fail unless those subscriptions are associated with that email address.
-
-* Visit the [Visual Studio subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) at least once before you sign in to Azure DevOps.
+- Check that you have an active Visual Studio subscription that includes [Azure DevOps](vs-azure-devops.md#eligibility) as a benefit.
+- Confirm that you're using a login/identity that is either the primary or alternate identity for your Visual Studio subscription.  Many people, for example, will also have a Visual Studio Dev Essentials membership associated with a different sign-in ID.  Attempting to sign in to other subscriptions with that ID will fail unless those subscriptions are associated with that email address.
+- Visit the [Visual Studio subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) at least once before you sign in to Azure DevOps.
 
 If Azure DevOps still doesn't recognize your subscription, contact [Azure DevOps support](https://azure.microsoft.com/support/devops/).
 
