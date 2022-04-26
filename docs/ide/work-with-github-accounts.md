@@ -22,13 +22,14 @@ You can add your public GitHub account if you're already signed into Visual Stud
 
 1. Select the icon with your initials in the upper-right corner of the Visual Studio environment. Then, select **Account settings...** to manage your accounts. You can also open the Account Settings dialog by going to **File** > **Account Settings...**.
 
- :::image type="content" source="../ide/media/vs-2022/Account Settings1.png" alt-text="Screenshot of the Account Settings window.":::
+    :::image type="content" source="../ide/media/vs-2022/Account Settings1.png" alt-text="Screenshot of the Account Settings window.":::
 
 1. From the **All Accounts** submenu, select the plus sign to add an account, and select **GitHub**.
 
-:::image type="content" source="../ide/media/sign-in-add-github.png" alt-text="Select add GitHub account":::
+    :::image type="content" source="../ide/media/sign-in-add-github.png" alt-text="Select add GitHub account":::
 
-1. You'll be redirected to the browser, where you can sign in with your GitHub credentials. After you sign in, you'll get a success window in the browser, and you can return to Visual Studio.
+1. You'll be redirected to the browser, where you can sign in with your GitHub credentials. After you sign in, you'll get a success window in the browser, and you
+   can return to Visual Studio.
 
     :::image type="content" source="../ide/media/github-success-signin.png" alt-text="Success window in browser":::
 
@@ -37,8 +38,8 @@ You can add your public GitHub account if you're already signed into Visual Stud
     :::image type="content" source="../ide/media/show-both-accounts.png" alt-text="Both accounts showing":::
 
 If you're not already signed in to Visual Studio with a different account, select the **Sign in** link in the upper-right corner of the Visual Studio environment. You can also open the Account Settings dialog by going to **File** > **Account Settings...**. Then, follow the instructions above to add your GitHub account.
-
-   :::image type="content" source="../ide/media/vs-2022/signintovs2022.png" alt-text="Not signed to VS 2022":::
+    
+    :::image type="content" source="../ide/media/vs-2022/signintovs2022.png" alt-text="Not signed to VS 2022":::
 
 ## Adding GitHub Enterprise Managed User (EMU) accounts
 
@@ -57,11 +58,11 @@ You can add your GitHub EMU account if you're already signed into Visual Studio 
 > [!NOTE]
 > Ensure you enter your GitHub EMU account credentials (the username has an underscore followed by the company name) on this page.
 
- :::image type="content" source="../ide/media/github-enterprise-managed-users-sign-in.png" alt-text="Screenshot showing the GitHub sign in experience for the GitHub Enterprise Managed User account":::
+    :::image type="content" source="../ide/media/github-enterprise-managed-users-sign-in.png" alt-text="Screenshot showing the GitHub sign in experience for the GitHub Enterprise Managed User account":::
 
 After you sign in, you'll get a success window in the browser, and you can return to Visual Studio.
 
-:::image type="content" source="../ide/media/github-success-signin.png" alt-text="Screenshot showing the sign-in success window in the browser":::
+    :::image type="content" source="../ide/media/github-success-signin.png" alt-text="Screenshot showing the sign-in success window in the browser":::
 
 ## Adding GitHub enterprise accounts
 
@@ -73,7 +74,7 @@ By default, Visual Studio only has public GitHub accounts enabled.
 
 1. Then, check the box to **Include GitHub Enterprise Server accounts**. The next time you go to your **Account Settings** and try to add a GitHub account, you'll see options for both GitHub and GitHub Enterprise.
 
-:::image type="content" source="../ide/media/github-enterprise-endpoint-signin.png" alt-text="Sign in with GitHub Enterprise":::
+    :::image type="content" source="../ide/media/github-enterprise-endpoint-signin.png" alt-text="Sign in with GitHub Enterprise":::
 
 1. After you enter your GitHub Enterprise server address, select **Sign in with your browser**. There, you can sign in using your GitHub Enterprise credentials.
 
