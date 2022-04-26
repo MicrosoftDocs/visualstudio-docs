@@ -26,8 +26,6 @@
   items:
     - name: User accounts
       items: 
-        - name: Overview
-          href: user-accounts.md
         - name: Sign in account
           href: signing-in.md
         - name: Enable subscription

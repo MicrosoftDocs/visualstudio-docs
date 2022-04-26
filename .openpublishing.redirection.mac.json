@@ -46,6 +46,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path_from_root": "/mac/user-accounts.md",
+      "redirect_url": "/visualstudio/mac/signing-in",
+      "redirect_document_id": false
+    },
+    {
       "source_path_from_root": "/mac/setup-vsmac-tools-unity.md",
       "redirect_url": "/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity",
       "redirect_document_id": false
