@@ -1145,7 +1145,7 @@
         href: ide/reference/xaml-designer.md
     - name: Output window
       href: ide/reference/output-window.md
-    - name: Project Designer & properties pages
+    - name: Project Designer & project properties
       items:
       - name: Project Designer reference
         href: ide/reference/project-properties-reference.md
