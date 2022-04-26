@@ -2,7 +2,7 @@
 title: "View variable values in DataTips | Microsoft Docs"
 description: Use DataTips to conveniently view information about variables, including arrays and structures, while debugging. You can also modify values.
 
-ms.date: "11/21/2018"
+ms.date: "04/26/2022"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -38,6 +38,13 @@ DataTips appear only in break mode, and only on variables that are in the curren
 ### Make a DataTip transparent
 
 To make a DataTip transparent to see code that is underneath it, while in the DataTip, press **Ctrl**. The DataTip stays transparent as long as you hold down the **Ctrl** key. This doesn't work for pinned or floating DataTips.
+
+::: moniker range=">= vs-2022"
+### Keep a DataTip expanded
+
+Starting in Visual Studio 2022 Update 1, when you expand a DataTip, you can keep it expanded until you click elsewhere. This is called a *sticky DataTip*. To enable this feature, select **Tools** > **Options** > **Debugging**, and then in the **General** tab, select **Keep expanded data tips open until clicked away**.
+::: moniker-end
+
 ### Pin a DataTip
 
 To pin a DataTip so that it stays open, select the pushpin **Pin to source** icon.
