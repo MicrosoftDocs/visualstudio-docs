@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 0fe9eaa4-f589-429e-a443-13bf86637d5a
-ms.date: 10/08/2021
+ms.date: 04/25/2022
 ms.topic: conceptual
 description: Learn how to set preferences for language, contacts, subscription level and others in the Administration Portal
 ---
@@ -54,7 +54,7 @@ This preference allows you to decide whether admins can add subscribers from out
 Enabling this setting, which is on by default, will enable subscribers to access downloads when admins create new subscriptions.  Admins can still disable downloads on an individual subscription basis.  Disabling access to downloads also disables access to product keys.  
 
 ### Overallocation notification 
-Opt-in to receive an email when assignments on your agreement become overallocated. This email notification will be sent to the [Contact e-mail address](admin-preferences.md#contact-email-address), or all admins on your agreement if there is no Contact e-mail address. Use the drop down menu to configure the threshold at which you'd like to be notified. 
+Opt in to receive an email when assignments on your agreement become overallocated. This email notification will be sent to the [Contact e-mail address](admin-preferences.md#contact-email-address), or all admins on your agreement if there is no Contact e-mail address. Use the drop-down menu to configure the threshold at which you'd like to be notified. 
 
  
 ## Frequently asked questions
@@ -71,17 +71,17 @@ A:  Check out our [Contact my Admin](contact-my-admin.md) article.
 A:  If no specific email address is set in the **Contact email address** preference, all admins on the agreement will receive the request. 
 
 ## Resources
-- [Visual Studio administration and subscriptions support](https://aka.ms/vsadminhelp)
+[Visual Studio administration and subscriptions support](https://aka.ms/vsadminhelp)
 
 ## See also
-- [Visual Studio documentation](/visualstudio/)
-- [Azure DevOps documentation](/azure/devops/)
-- [Azure documentation](/azure/)
-- [Microsoft 365 documentation](/microsoft-365/)
++ [Visual Studio documentation](/visualstudio/)
++ [Azure DevOps documentation](/azure/devops/)
++ [Azure documentation](/azure/)
++ [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Learn more about managing Visual Studio subscriptions.
-- [Assign individual subscriptions](assign-license.md)
-- [Assign multiple subscriptions](assign-license-bulk.md)
-- [Edit subscriptions](edit-license.md)
-- [Determine maximum usage](maximum-usage.md)
++ [Assign individual subscriptions](assign-license.md)
++ [Assign multiple subscriptions](assign-license-bulk.md)
++ [Edit subscriptions](edit-license.md)
++ [Determine maximum usage](maximum-usage.md)
