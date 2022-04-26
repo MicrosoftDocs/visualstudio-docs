@@ -38,8 +38,8 @@ You can add your public GitHub account if you're already signed into Visual Stud
     :::image type="content" source="../ide/media/show-both-accounts.png" alt-text="Both accounts showing":::
 
 If you're not already signed in to Visual Studio with a different account, select the **Sign in** link in the upper-right corner of the Visual Studio environment. You can also open the Account Settings dialog by going to **File** > **Account Settings...**. Then, follow the instructions above to add your GitHub account.
-    
-    :::image type="content" source="../ide/media/vs-2022/signintovs2022.png" alt-text="Not signed to VS 2022":::
+
+:::image type="content" source="../ide/media/vs-2022/signintovs2022.png" alt-text="Not signed to VS 2022":::
 
 ## Adding GitHub Enterprise Managed User (EMU) accounts
 
@@ -58,11 +58,11 @@ You can add your GitHub EMU account if you're already signed into Visual Studio 
 > [!NOTE]
 > Ensure you enter your GitHub EMU account credentials (the username has an underscore followed by the company name) on this page.
 
-    :::image type="content" source="../ide/media/github-enterprise-managed-users-sign-in.png" alt-text="Screenshot showing the GitHub sign in experience for the GitHub Enterprise Managed User account":::
+:::image type="content" source="../ide/media/github-enterprise-managed-users-sign-in.png" alt-text="Screenshot showing the GitHub sign in experience for the GitHub Enterprise Managed User account":::
 
 After you sign in, you'll get a success window in the browser, and you can return to Visual Studio.
 
-    :::image type="content" source="../ide/media/github-success-signin.png" alt-text="Screenshot showing the sign-in success window in the browser":::
+:::image type="content" source="../ide/media/github-success-signin.png" alt-text="Screenshot showing the sign-in success window in the browser":::
 
 ## Adding GitHub enterprise accounts
 
