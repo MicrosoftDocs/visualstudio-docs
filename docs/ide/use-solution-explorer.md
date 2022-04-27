@@ -82,9 +82,9 @@ The following screenshot for a C# console app shows the context menu options tha
 
 What you see in the context menu from the **Project** node also depends on your project type, programming language, or platform. The following screenshot highlights the following extra options for a C# app: **Project Dependencies**, **Project Build Order**, **Set Startup Projects**, and a **Git** fly-out menu. These extra options typically appear when you add another project to a solution and then add it to a repo.
 
-:::image type="content" source="media/solution-explorer-context-menu-extra-items.png" alt-text="Screenshot of the right-click context menu in Solution Explorer with extra options.":::
+:::image type="content" source="media/project-node-context-menu-extra-items.png" alt-text="Screenshot of the right-click context menu in Solution Explorer with extra options.":::
 
-## Add menu
+## The Add context menu fly-out
 
 In the Solution Explorer context menu, one of the most useful options is the **Add** fly-out menu. From it, you can [add another project](../get-started/csharp/tutorial-console-part-2.md#add-another-project) to a solution. You can also add an item to a project, and more.
 
