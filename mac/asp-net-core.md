@@ -285,8 +285,6 @@ app.MapGet("/", () => "Hello World!");
 
 `app.Run();` runs the app.
 
-:::moniker-end
-
 This simple Hello, World project can run now without any additional code being added. To run the app, you can either select which browser you want to run app the app in using the dropdown right of the Play button, or simply hit the Play (triangular) button to use your default browser:
 
 ![Browser Run](media/asp-net-web-picker.png)
