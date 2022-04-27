@@ -50,7 +50,7 @@ if "%ERRORLEVEL%"=="3010" (
         set ERR=%ERRORLEVEL%
         call C:\TEMP\collect.exe -zip:C:\vslogs.zip
 
-        exit %ERRORLEVEL%
+        exit %ERR%
     )
 )
 
