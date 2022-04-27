@@ -72,9 +72,9 @@ The following table lists frequently used properties that are defined in the Vis
 | KeyOriginatorFile | All | The name of the strong-name key file. |
 | ModuleAssemblyName | .NET | The name of the assembly that the compiled module is to be incorporated into. The property is equivalent to the `/moduleassemblyname` compiler switch. |
 | MSBuildProjectExtensionsPath | All | Specifies the path where project extensions are located. By default, this takes the same value as `BaseIntermediateOutputPath`. |
-| MSBuildTreatWarningsAsErrors | All | A boolean value that tells MSBuild to treat all warnings errors, unless they're suppressed. |
-| MSBuildWarningsAsErrors | All | Specifies a list of warning codes to treat as errors. Only the numeric part of the warning identifier must be specified. Multiple warnings are separated by semicolons. |
-| MSBuildWarningsAsMessages | All | Specifies a list of warning codes to suppress by treating them as low-importance messages. Only the numeric part of the warning identifier must be specified. Multiple warnings are separated by semicolons. Note that some warnings emitted by MSBuild cannot be suppressed by using this property; to suppress them, use the command-line switch `-warnAsMessage`.|
+| MSBuildTreatWarningsAsErrors | All | A boolean value that tells MSBuild to treat all warnings as errors, unless they're suppressed. |
+| MSBuildWarningsAsErrors | All | Specifies a list of warning codes to treat as errors. Separate multiple warnings by semicolons. |
+| MSBuildWarningsAsMessages | All | Specifies a list of warning codes to suppress by treating them as low-importance messages. Separate multiple warnings by semicolons. Note that some warnings emitted by MSBuild cannot be suppressed by using this property; to suppress them, use the command-line switch `-warnAsMessage`.|
 | NoLogo | All | A boolean value that indicates whether you want compiler logo to be turned off. This property is equivalent to the `/nologo` compiler switch. |
 | NoStdLib | .NET | A boolean value that indicates whether to avoid referencing the standard library (*mscorlib.dll*). The default value is `false`. |
 | NoVBRuntimeReference | Visual Basic | A boolean value that indicates whether the Visual Basic runtime (*Microsoft.VisualBasic.dll*) should be included as a reference in the project. |
