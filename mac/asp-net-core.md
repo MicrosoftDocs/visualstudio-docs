@@ -291,7 +291,11 @@ This simple Hello, World project can run now without any additional code being a
 
 ![Browser Run](media/asp-net-web-picker.png)
 
-Once the project is running, your default web browser should launch and connect to the URL `https://localhost:7043/`. You should see the text `Hello World!`:
+Visual Studio for Mac uses a random port to launch your web project. To find out what port this is, open the Application Output, which is listed under the **View > Other Windows** menu. You should find output similar to that shown below:
+
+![Application Output displaying listening port](media/asp-net-core-image6.png)
+
+Once the project is running, your default web browser should launch and connect to the URL listed in the Application Output. Alternatively, you can open any browser of your choice, and enter `http://localhost:5000/`, replacing the `5000` with the port that Visual Studio output in the Application Output. You should see the text `Hello World!`:
 
 ![browser showing text](media/asp-net-core-image7.png)
 ::: moniker-end
@@ -312,101 +316,6 @@ This guide gave an introduction to ASP.NET Core. It describes what it is, when t
 For more information on the next steps from here, see the following guides:
 - [ASP.NET Core](/aspnet/core/) docs.
 - [Creating Backend Services for Native Mobile Applications](/aspnet/core/mobile/native-mobile-backend), which shows how to build a REST service using ASP.NET Core for a Xamarin.Forms app.
-- [ASP.NET Core hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Web/Getting-Started).
-
-## Related Video
-
-> [!Video https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Build-Your-First-App/player]
-
-::: moniker-end
-
-::: moniker range="vsmac-2022"
-
-Visual Studio for Mac makes it easy to develop your app's service with its support for the latest ASP.NET Core Web development platform. ASP.NET Core runs on .NET 6, the latest evolution of the .NET platform and runtime. It's been tuned for fast performance, factored for small install sizes, and reimagined to run on Linux and macOS, as well as Windows.
-
-## Installing .NET 6
-
-.NET 6 is automatically installed when you install Visual Studio for Mac. For more information about versions of .NET supported in Visual Studio for Mac, see [Supported versions of .NET](./supported-versions-net.md).
-
-## Creating an ASP.NET Core app in Visual Studio for Mac
-
-Open Visual Studio for Mac. On the Start Screen, select **New Project...**
-
-![New Project Dialog](media/asp-net-core-2022-new-asp-core.png)
-
-This will display the New Project dialog, allowing you to select a template to create your application.
-
-There are a number of projects that will provide you with a pre-built template to start building your ASP.NET Core Application. These are:
-
-- **.NET Core > Empty**
-- **.NET Core > API**
-- **.NET Core > Web Application**
-- **.NET Core > Web Application (Model-View-Controller)**
-- **.NET Core > Blazor Server App**
-- **.NET Core > Blazor WebAssembly App**
-
-![ASP.NET Project Options](media/asp-net-core-2022-new-asp-core.png)
-
-Select the **ASP.NET Core Empty Web Application** and press **Continue**. Then select the target framework, in this case **.NET 6.0** and leave **Configure for HTTPS** checked as in the image below.
-
-![Configuring the web app for .NET 6.0](media/asp-net-core-2022-configure-net-6.png)
-
-Give the Project a Name and press **Create**. This creates a new ASP.NET Core app. In the solution window's left pane, expand the second arrow and then select **Program.cs**. It should look similar to the image below:
-
-![New ASP.NET Core Empty Project view](media/asp-net-core-2022-empty-project.png)
-
-The ASP.NET Core Empty template creates a web application with two default files: **Program.cs**, which is explained below and **appsettings.json**. It also creates a Dependencies folder, which contains your project's NuGet package dependencies such as ASP.NET Core, and .NET 6:
-
-![Solution window displaying dependencies](media/asp-net-core-2022-solution-dependencies.png)
-
-### Program.cs
-
-Open and inspect the **Program.cs** file in your project. Notice that several things are happening. The first is that there is not a `Main` method. By default the Empty template is configured to use the minimal Web API type projects introduced in .NET 6.
-
-```csharp
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
-
-app.MapGet("/", () => "Hello World!");
-
-app.Run();
-```
-
-The following code creates a [WebApplicationBuilder](/dotnet/api/microsoft.aspnetcore.builder.webapplicationbuilder) and a [WebApplication](/dotnet/api/microsoft.aspnetcore.builder.webapplication) with pre-configured defaults:
-
-```csharp
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
-```
-
-The following code creates and HTTP GET endpoint `/` which returns `Hello World!`:
-
-```csharp
-app.MapGet("/", () => "Hello World!");
-```
-
-`app.Run();` runs the app.
-
-:::moniker-end
-
-This simple Hello, World project can run now without any additional code being added. To run the app, you can either select which browser you want to run app the app in using the dropdown right of the Play button, or simply hit the Play (triangular) button to use your default browser:
-
-![Browser Run](media/asp-net-web-picker.png)
-
-Once the project is running, your default web browser should launch and connect to the URL `https://localhost:7043/`. You should see the text `Hello World!`:
-
-![browser showing text](media/asp-net-core-image7.png)
-
-## Summary
-
-This guide gave an introduction to using ASP.NET Core with Visual Studio for Mac.
-
-## Next Steps
-
-For more information on the next steps from here, see the following guides:
-
-- [ASP.NET Core](/aspnet/core/) docs.
-- [Tutorial: Create a minimal web API with ASP.NET Core](/aspnet/core/tutorials/min-web-api).
 - [ASP.NET Core hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Web/Getting-Started).
 
 ## Related Video
