@@ -3,7 +3,7 @@ title: Assign Visual Studio subscriptions to multiple users | Microsoft Docs
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 04/18/2022
+ms.date: 04/26/2022
 ms.topic: conceptual
 description:  Learn how admins can assign multiple subscriptions at one time.
 ---
@@ -36,11 +36,11 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
    To help ensure a smooth upload, observe the following best practices:
 
-    - Ensure that none of the form fields contain commas.
-    - Remove spaces before and after values in form fields.
-    - Make sure user's names do not contain extra spaces between two-part first or last names. For example, if a person has a two-part first name such as "Maggie May", it should be typed as "MaggieMay" because the system won't trim the extra space.
-    - Make sure all required fields are completed. 
-    - Check the **Error message** column.  If any errors are listed, resolve those before attempting to upload the file. 
+    + Ensure that none of the form fields contain commas.
+    + Remove spaces before and after values in form fields.
+    + Make sure user's names do not contain extra spaces between two-part first or last names. For example, if a person has a two-part first name such as "Maggie May", it should be typed as "MaggieMay" because the system won't trim the extra space.
+    + Make sure all required fields are completed. 
+    + Check the **Error message** column.  If any errors are listed, resolve those before attempting to upload the file. 
 
 1. Return to the Visual Studio Subscriptions Administration portal. In the **Upload Multiple Subscribers** dialog box, select **Browse**.
    > [!div class="mx-imgBorder"]
@@ -76,12 +76,12 @@ Using this feature makes it easy to stay on top of your subscription assignments
 > [!IMPORTANT]
 >
 > The following limitations apply to the use of Azure AD groups for adding subscribers:
-> - The admin must be a member of the Azure AD tenant when initially adding a group to the admin portal.  After the group has been added, changes to the membership of the groups does not require admin involvement. 
-> - Groups must contain at least one member.  Empty groups are not supported.
-> - All users must be in the top level of the group.  Nested groups are not supported.
-> - Only trusted agreements are supported. (Only agreements who can 'overallocate' subscriptions are trusted.)
-> - All members of the group must have an email address associated with their Azure AD account.
-> - Separate email addresses for notifications are not supported for subscriptions added using Azure AD groups.  
+> + The admin must be a member of the Azure AD tenant when initially adding a group to the admin portal.  After the group has been added, changes to the membership of the groups does not require admin involvement. 
+> + Groups must contain at least one member.  Empty groups are not supported.
+> + All users must be in the top level of the group.  Nested groups are not supported.
+> + Only trusted agreements are supported. (Only agreements who can 'overallocate' subscriptions are trusted.)
+> + All members of the group must have an email address associated with their Azure AD account.
+> + Separate email addresses for notifications are not supported for subscriptions added using Azure AD groups.  
 
 Watch this video or read on to learn more about adding subscribers using the Azure Active Directory group feature. 
 <br>
@@ -125,7 +125,7 @@ A: The feature is currently only available to organizations with trusted agreeme
    > ![Click the Details button](_img/assign-license-bulk/bulk-add-agreement.png "Click the Details button to see what kind of agreement you have")
 
 ### Q: I added users to my Azure Active Directory group, but they don’t have subscriptions yet. Why? 
-A: If the changes were made directly in Azure Active Directory the subscriptions should be assigned very quickly.  If the changes were made in an on-prem Active Directory it will first need to be sync’d to Azure Active Directory. Depending how your on-prem Active Directory is configured, the changes could take up to 24 hours to be reflected. If it has been longer than 24 hours, our [support team can help troubleshoot any issues](https://aka.ms/vsadminhelp). 
+A: If the changes were made directly in Azure Active Directory the subscriptions should be assigned very quickly.  If the changes were made in an on-prem Active Directory it will first need to be synced to Azure Active Directory. Depending how your on-prem Active Directory is configured, the changes could take up to 24 hours to be reflected. If it has been longer than 24 hours, our [support team can help troubleshoot any issues](https://aka.ms/vsadminhelp). 
 
 ### Q: Can I choose multiple subscription levels to be assigned within an Azure Active Directory group?
 A: No -- Everyone in the group receives the same subscription level.
@@ -137,13 +137,13 @@ A: No -- To modify information for an individual subscriber, remove them from th
 A: No – Separate email addresses for notifications are currently not supported for subscriptions added using Azure Active Directory groups. All emails will be sent to the primary email (user principle name).
 
 ## Resources
-- [Visual Studio administration and subscriptions support](https://aka.ms/vsadminhelp)
+[Visual Studio administration and subscriptions support](https://aka.ms/vsadminhelp)
 
 ## See also
-- [Visual Studio documentation](/visualstudio/)
-- [Azure DevOps documentation](/azure/devops/)
-- [Azure documentation](/azure/)
-- [Microsoft 365 documentation](/microsoft-365/)
++ [Visual Studio documentation](/visualstudio/)
++ [Azure DevOps documentation](/azure/devops/)
++ [Azure documentation](/azure/)
++ [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-- Have just one or two subscribers to add? Check out [Add single users](assign-license.md)
+Have just one or two subscribers to add? Check out [Add single users](assign-license.md)
