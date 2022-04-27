@@ -27,7 +27,9 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 ::: moniker range=">=vs-2019"
 
 - If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+- Make sure the **.NET desktop development** workload is installed. You can verify this in the Visual Studio Installer. 
 - You can use either .NET Framework or .NET Core for this tutorial. .NET Core is the newer, more modern framework. .NET Core requires Visual Studio 2019 version 16.3 or later.
+
 ::: moniker-end
 
 ## Configure the IDE
