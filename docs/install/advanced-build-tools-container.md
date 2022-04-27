@@ -44,17 +44,17 @@ setlocal enabledelayedexpansion
 
 call %*
 if "%ERRORLEVEL%"=="3010" (
-    exit 0
+    exit \b 0
 ) else (
     if not "%ERRORLEVEL%"=="0" (
         set ERR=%ERRORLEVEL%
         call C:\TEMP\collect.exe -zip:C:\vslogs.zip
 
-        exit %ERR%
+        exit \b %ERR%
     )
 )
 
-exit 0
+exit \b 0
 ```
 
 ## Dockerfile
@@ -88,7 +88,7 @@ RUN `
     curl -SL --output vs_buildtools.exe https://aka.ms/vs/15/release/vs_buildtools.exe `
     `
     # Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload, excluding workloads and components with known issues.
-    && (start /w C:\TEMP\Install.cmd vs_buildtools.exe --quiet --wait --norestart --nocache `
+    && (call C:\TEMP\Install.cmd vs_buildtools.exe --quiet --wait --norestart --nocache `
         --installPath C:\BuildTools `
         --channelUri C:\TEMP\VisualStudio.chman `
         --installChannelUri C:\TEMP\VisualStudio.chman `
