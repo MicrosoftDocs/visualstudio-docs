@@ -18,35 +18,25 @@ Projects have properties that govern many aspects of compilation, debugging, tes
 You access project properties by right-clicking the project node in **Solution Explorer** and choosing **Properties**, or by typing **properties** into the search box on the menu bar and choosing **Properties Window** from the results.
 
 ::: moniker range="vs-2022"
-
 :::image type="content" source="media/vs-2022/properties-from-solution-explorer-context-menu.png" alt-text="Screenshot of the Solution Explorer context menu with the Properties option highlighted.":::
-
 ::: moniker-end
 
 ::: moniker range="vs-2019"
-
 :::image type="content" source="media/vs-2019/properties-from-solution-explorer-context-menu.png" alt-text="Screenshot of the Solution Explorer context menu with the Properties option highlighted.":::
-
 ::: moniker-end
 
 ::: moniker range="vs-2017"
-
 ![Project context menu](../ide/media/vs2015_proj_prop_menu.gif)
-
 ::: moniker-end
 
 .NET projects might also have a properties node in the project tree itself.
 
 ::: moniker range=">=vs-2019"
-
 :::image type="content" source="media/vs-2022/properties-node-solution-explorer.png" alt-text="Screenshot of Solution Explorer with a Properties node showing.":::
-
 ::: moniker-end
 
 ::: moniker range="vs-2017"
-
 ![Properties node in Solution Explorer tree](../ide/media/vs2015_props_se.png)
-
 ::: moniker-end
 
 > [!NOTE]
@@ -60,23 +50,21 @@ Project properties are organized into groups, and each group has its own propert
 
 In C#, Visual Basic, and F# projects, properties are exposed in the [**Project Designer**](reference/project-properties-reference.md).
 
-::: moniker range="vs-2022"
-
 The following screenshot shows the **Build** property page in the Project Designer for a console project in C#:
 
-:::image type="content" source="media/vs-2022/properties-page-csharp-console.png" alt-text="Screenshot of the Properties page in Visual Studio 2022." lightbox="media/vs-2022/properties-page-csharp-console.png":::
-
+::: moniker range="vs-2022"
+:::image type="content" source="reference/media/vs-2022/project-properties-designer-build.png" alt-text="Screenshot of the Project Designer, with the Build tab selected.":::
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
+::: moniker range="vs-2019"
+:::image type="content" source="reference/media/vs-2019/project-properties-designer-build.png" alt-text="Screenshot of the Project Designer, with the Build tab selected.":::
+::: moniker-end
 
-The following screenshot shows the **Build** property page in the Project Designer for a WPF project in C#:
-
+::: moniker range="vs-2017"
 ![Visual Studio Project Designer](../ide/media/vs2015_proppage_build.png)
-
 ::: moniker-end
 
-For information about each of the property pages in **Project Designer**, see [What is the Project Designer?](reference/project-properties-reference.md).
+For more information about each of the property pages in **Project Designer**, see [What is the Project Designer](reference/project-properties-reference.md).
 
 > [!TIP]
 > Solutions have a few properties, and so do project items; these properties are accessed in the [**Properties window**](reference/properties-window.md), not the [Project Designer](reference/project-properties-reference.md).
@@ -86,15 +74,11 @@ For information about each of the property pages in **Project Designer**, see [W
 C++ and JavaScript projects have a different user interface for managing project properties. This screenshot shows a C++ project property page (JavaScript pages are similar):
 
 ::: moniker range=">=vs-2019"
-
 :::image type="content" source="media/vs-2022/properties-page-cpp-console.png" alt-text="Screenshot of the C++ project properties page.":::
-
 ::: moniker-end
 
 ::: moniker range="vs-2017"
-
 ![Visual C&#43;&#43; project properties](../ide/media/vs2015_projprops_cpp.png)
-
 ::: moniker-end
 
 For information about C++ project properties, see [Work with project properties (C++)](/cpp/build/working-with-project-properties). For more information about JavaScript properties, see [Property pages, JavaScript](../ide/reference/property-pages-javascript.md).
