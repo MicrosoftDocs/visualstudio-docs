@@ -1,6 +1,6 @@
 ---
 title: Work with GitHub accounts in Visual Studio
-ms.date: 04/26/2022
+ms.date: 04/28/2022
 ms.topic: how-to
 description: "Learn how to use Visual Studio with GitHub accounts."
 ms.custom: devdivchpfy22
