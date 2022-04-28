@@ -1,7 +1,7 @@
 ---
 title: Multi-factor authentication with Visual Studio sign-ins
 titleSuffix: "" 
-ms.date: 01/25/2022
+ms.date: 04/28/2022
 ms.custom: SEO-VS-2022
 ms.topic: how-to
 description: "Learn how to use Visual Studio with accounts that require multi-factor authentication (MFA)."
@@ -14,7 +14,7 @@ ms.workload:
 monikerRange: ">=vs-2019"
 ---
 
-# Work with accounts that require multi-factor authentication (MFA)
+# Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)
 
 In this article, you'll learn how to use Visual Studio with accounts that require multi-factor authentication (MFA).
 
@@ -93,4 +93,3 @@ The **Filter account** dialog will appear, allowing you to select which tenants 
 
 - [Sign in to Visual Studio](signing-in-to-visual-studio.md)
 - [Sign in to Visual Studio for Mac](/visualstudio/mac/signing-in)
-- [Work with multiple user accounts](work-with-multiple-user-accounts.md)

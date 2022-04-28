@@ -79,5 +79,4 @@ By default, Visual Studio only has public GitHub accounts enabled.
 
 ## See also
 
-- [Work with multiple user accounts](work-with-multiple-user-accounts.md)
 - [Sign in to Visual Studio](signing-in-to-visual-studio.md)
