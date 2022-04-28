@@ -2,7 +2,7 @@
 title: "Measure CPU usage in your apps"
 description: "Analyze CPU performance issues in your application using the debugger-integrated diagnostics tools."
 
-ms.date: 04/03/2021
+ms.date: 04/28/2022
 ms.topic: tutorial
 helpviewer_keywords:
   - "Profiling Tools, quick start"
@@ -34,7 +34,7 @@ In this tutorial, you will:
 
 If **CPU Usage** does not give you the data that you need, other profiling tools in the [Performance Profiler](../profiling/profiling-feature-tour.md#post_mortem) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time.
 
-## Step 1: Collect profiling data
+## Step 1: Collect CPU usage data
 
 1. Open the project you want to debug in Visual Studio and set a breakpoint in your app at the point where you want to examine CPU usage.
 
