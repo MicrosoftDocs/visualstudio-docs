@@ -37,7 +37,7 @@ Open Visual Studio for Mac. On the Start Screen, select **New Project...**
 ::: moniker-end
 
 ::: moniker range="vsmac-2022"
-![Screenshot of the new project dialog in Visual Studio for Mac 2022](media/asp-net-core-2022-new-asp-core.png)
+![Screenshot of the new project dialog in Visual Studio for Mac 2022.](media/asp-net-core-2022-new-asp-core.png)
 ::: moniker-end
 
 This will display the New Project dialog, allowing you to select a template to create your application.
@@ -64,11 +64,11 @@ The ASP.NET Core Empty template creates a web application with two default files
 ::: moniker-end
 
 ::: moniker range="vsmac-2022"
-![Screenshot of the new project dialog in Visual Studio Mac 2022 with ASP.NET Core project type highlighted](media/asp-net-core-2022-new-asp-core.png)
+![Screenshot of the new project dialog in Visual Studio Mac 2022 with ASP.NET Core project type highlighted.](media/asp-net-core-2022-new-asp-core.png)
 
 Select the **ASP.NET Core Empty Web Application** and press **Continue**. Then select the target framework, in this case **.NET 6.0** and leave **Configure for HTTPS** checked as in the image below.
 
-![Screenshot of the new project dialog in Visual Studio Mac 2022 with target framework dropdown indicating .NET 6](media/asp-net-core-2022-configure-net-6.png)
+![Screenshot of the new project dialog in Visual Studio Mac 2022 with target framework dropdown indicating .NET 6.](media/asp-net-core-2022-configure-net-6.png)
 
 Give the Project a Name and press **Create**. This creates a new ASP.NET Core app. In the solution window's left pane, expand the second arrow and then select **Program.cs**. It should look similar to the image below:
 
