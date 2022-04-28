@@ -62,7 +62,7 @@ The menu bar contains the following UI elements, from left to right:
 
 ## Context menu
 
-In Solution Explorer, there are several options that you can interact with by using the right-click context menu. What context-specific options that appear depend on whether you select a **Solution** node or a **Project** node.
+In Solution Explorer, there are several options that you can interact with by using the right-click context menu. The  context-specific options that appear depend on whether you select a **Solution** node or a **Project** node.
 
 ### Solution node context menu options
 
@@ -78,11 +78,11 @@ What you see in the context menu from the **Solution** node also depends on your
 
 The following screenshot for a C# console app shows the context menu options that appear when you right-click the **Project** node.
 
-:::image type="content" source="media/project-node-context-menu.png" alt-text="Screenshot of the right-click context menu from a project node in Solution Explorer.":::
+:::image type="content" source="media/project-node-context-menu.png" alt-text="Screenshot of the right-click context menu from a project node in Solution Explorer." lightbox="media/project-node-context-menu.png:::
 
-What you see in the context menu from the **Project** node also depends on your project type, programming language, or platform. The following screenshot highlights the following extra options for a C# app: **Project Dependencies**, **Project Build Order**, **Set Startup Projects**, and a **Git** fly-out menu. These extra options typically appear when you add another project to a solution and then add it to a repo.
+What you see in the context menu from the **Project** node also depends on your project type, programming language, or platform. The following screenshot highlights the following extra option for a C# app: a **Build Dependencies** fly-out menu. Extra options typically appear when you add another project to a solution and then add it to a repo.
 
-:::image type="content" source="media/project-node-context-menu-extra-items.png" alt-text="Screenshot of the right-click context menu in Solution Explorer with extra options.":::
+:::image type="content" source="media/project-node-context-menu-extra-items.png" alt-text="Screenshot of the right-click context menu in Solution Explorer with extra options." lightbox="media/project-node-context-menu-extra-items.png:::
 
 ## The Add context menu fly-out
 
