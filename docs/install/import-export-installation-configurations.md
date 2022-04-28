@@ -43,13 +43,13 @@ You can export an installation configuration file from either a previously insta
 
 1. Browse to or type the location where you want to save your .vsconfig file, and then choose **Review details**.
 
-   ![Export configuration from the Visual Studio installer](../install/media/vs-2022/review-details1.png)
+   ![Export configuration from the Visual Studio installer](../install/media/vs-2022/review-details-1.png)
 
 1. Make sure you've got the workloads and components that you want, and then choose **Export**.
 
    ::: moniker range="vs-2022"
 
-      :::image type="content" source="../install/media/vs-2022/export-configuration-confirmation1.png" alt-text="Screenshot of the Export Window.":::
+      :::image type="content" source="../install/media/vs-2022/export-configuration-confirmation-1.png" alt-text="Screenshot of the Export Window.":::
 
    ::: moniker-end
 
