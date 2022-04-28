@@ -37,7 +37,7 @@ Open Visual Studio for Mac. On the Start Screen, select **New Project...**
 ::: moniker-end
 
 ::: moniker range="vsmac-2022"
-![New Project Dialog](media/asp-net-core-2022-new-asp-core.png)
+![Screenshot of the new project dialog in Visual Studio for Mac 2022](media/asp-net-core-2022-new-asp-core.png)
 ::: moniker-end
 
 This will display the New Project dialog, allowing you to select a template to create your application.
@@ -64,24 +64,25 @@ The ASP.NET Core Empty template creates a web application with two default files
 ::: moniker-end
 
 ::: moniker range="vsmac-2022"
-![ASP.NET Project Options](media/asp-net-core-2022-new-asp-core.png)
+![Screenshot of the new project dialog in Visual Studio Mac 2022 with ASP.NET Core project type highlighted](media/asp-net-core-2022-new-asp-core.png)
 
 Select the **ASP.NET Core Empty Web Application** and press **Continue**. Then select the target framework, in this case **.NET 6.0** and leave **Configure for HTTPS** checked as in the image below.
 
-![Configuring the web app for .NET 6.0](media/asp-net-core-2022-configure-net-6.png)
+![Screenshot of the new project dialog in Visual Studio Mac 2022 with target framework dropdown indicating .NET 6](media/asp-net-core-2022-configure-net-6.png)
 
 Give the Project a Name and press **Create**. This creates a new ASP.NET Core app. In the solution window's left pane, expand the second arrow and then select **Program.cs**. It should look similar to the image below:
 
-![New ASP.NET Core Empty Project view](media/asp-net-core-2022-empty-project.png)
+![Screenshot of the Visual Studio for Mac 2022 editor with the default files loaded from the project template.](media/asp-net-core-2022-empty-project.png)
 
 The ASP.NET Core Empty template creates a web application with two default files: **Program.cs**, which is explained below and **appsettings.json**. It also creates a Dependencies folder, which contains your project's NuGet package dependencies such as ASP.NET Core, and .NET 6:
 
-![Solution window displaying dependencies](media/asp-net-core-2022-solution-dependencies.png)
+![Screenshot of the Visual Studio for Mac 2022 project dependencies structure showing the 6.x versions of ASP.NET and .NET included.](media/asp-net-core-2022-solution-dependencies.png)
 ::: moniker-end
 
 ### Program.cs
 
 ::: moniker range="vsmac-2019"
+
 Open and inspect the **Program.cs** file in your project. Notice that several things are happening in the `Main` method – the entry into your app:
 
 ```csharp
