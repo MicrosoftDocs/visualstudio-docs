@@ -67,7 +67,7 @@ In the working directory, create the "Dockerfile" with the following content:
 # escape=`
 
 # Use a specific tagged image.
-ARG FROM_IMAGE=mcr.microsoft.com/dotnet/framework/runtime:4.8
+ARG FROM_IMAGE=mcr.microsoft.com/windows/servercore:ltsc2019
 FROM ${FROM_IMAGE}
 
 # Restore the default Windows shell for correct batch processing.
@@ -166,9 +166,8 @@ ENTRYPOINT ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\
 ```dockerfile
 # escape=`
 
-# Use a specific tagged image. Tags can be changed, though that is unlikely for most images.
-# You could also use the immutable tag @sha256:324e9ab7262331ebb16a4100d0fb1cfb804395a766e3bb1806c62989d1fc1326
-ARG FROM_IMAGE=mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-ltsc2019
+# Use the latest Windows Server Core 2019 image.
+ARG FROM_IMAGE=mcr.microsoft.com/windows/servercore:ltsc2019
 FROM ${FROM_IMAGE}
 
 # Restore the default Windows shell for correct batch processing.
