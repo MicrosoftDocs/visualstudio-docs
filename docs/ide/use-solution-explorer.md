@@ -1,7 +1,7 @@
 ---
 title: Learn about Solution Explorer
 description: Learn how you can use the Solution Explorer tool window in Visual Studio to create & manage your files, projects, and solutions.
-ms.date: 04/27/2022
+ms.date: 04/28/2022
 ms.topic: conceptual
 ms.custom: contperf-fy22q1
 helpviewer_keywords:
@@ -68,21 +68,21 @@ In Solution Explorer, there are several options that you can interact with by us
 
 The following screenshot for a C# console app shows the context menu options that appear when you right-click the **Solution** node.
 
-:::image type="content" source="media/solution-node-context-menu.png" alt-text="Screenshot of the right-click context menu from the solution node in Solution Explorer.":::
+:::image type="content" source="media/solution-node-context-menu-sml.png" alt-text="Screenshot of the right-click context menu from the solution node in Solution Explorer." lightbox="media/solution-node-context-menu-lrg.png":::
 
 What you see in the context menu from the **Solution** node also depends on your project type, programming language, or platform. The following screenshot highlights the following extra options for a C# app: **Project Dependencies**, **Project Build Order**, **Set Startup Projects**, and a **Git** fly-out menu. These extra options typically appear when you add another project to a solution and then add it to a repo.
 
-:::image type="content" source="media/solution-node-context-menu-extra-items.png" alt-text="Screenshot of the right-click context menu from the solution node in Solution Explorer, which shows extra options.":::
+:::image type="content" source="media/solution-node-context-menu-extra-items-sml.png" alt-text="Screenshot of the right-click context menu from the solution node in Solution Explorer, which shows extra options." lightbox="media/solution-node-context-menu-extra-items-lrg.png":::
 
 ### Project node context menu options
 
 The following screenshot for a C# console app shows the context menu options that appear when you right-click the **Project** node.
 
-:::image type="content" source="media/project-node-context-menu.png" alt-text="Screenshot of the right-click context menu from a project node in Solution Explorer." lightbox="media/project-node-context-menu.png":::
+:::image type="content" source="media/project-node-context-menu-sml.png" alt-text="Screenshot of the right-click context menu from a project node in Solution Explorer." lightbox="media/project-node-context-menu-lrg.png":::
 
 What you see in the context menu from the **Project** node also depends on your project type, programming language, or platform. The following screenshot highlights the following extra option for a C# app: a **Build Dependencies** fly-out menu. Extra options typically appear when you add another project to a solution and then add it to a repo.
 
-:::image type="content" source="media/project-node-context-menu-extra-items.png" alt-text="Screenshot of the right-click context menu in Solution Explorer with extra options." lightbox="media/project-node-context-menu-extra-items.png":::
+:::image type="content" source="media/project-node-context-menu-extra-items-sml.png" alt-text="Screenshot of the right-click context menu in Solution Explorer with extra options." lightbox="media/project-node-context-menu-extra-items-lrg.png":::
 
 ## The Add context menu fly-out
 
