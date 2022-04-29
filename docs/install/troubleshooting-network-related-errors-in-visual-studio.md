@@ -21,7 +21,6 @@ ms.technology: vs-installation
 # Troubleshoot network-related errors when you install or use Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-# Troubleshoot network-related errors when you install or use Visual Studio
 
 We've got solutions for the most typical network- or proxy-related errors. You might encounter these errors when you install or use Visual Studio behind a firewall or a proxy server.
 
