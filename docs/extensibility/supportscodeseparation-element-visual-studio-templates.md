@@ -20,7 +20,7 @@ ms.workload:
 ---
 # SupportsCodeSeparation Element (Visual Studio Templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether or not the **Place code in separate file** check box is enabled in the **Add New Item** dialog box.
 
  \<VSTemplate>

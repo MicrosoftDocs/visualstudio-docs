@@ -23,7 +23,7 @@ ms.workload:
 ---
 # Run solutions in different versions of Microsoft Office
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Run Office solutions created by using Visual Studio 2010 and above
 

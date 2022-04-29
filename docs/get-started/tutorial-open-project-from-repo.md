@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Tutorial: Open a project from a repo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this tutorial, you'll use Visual Studio to connect to a repository for the first time, clone it, and then open a project from it.
 

@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_rank
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the rank (number of dimensions) of a FORTRAN multi-dimensional array.
 
 ## Syntax

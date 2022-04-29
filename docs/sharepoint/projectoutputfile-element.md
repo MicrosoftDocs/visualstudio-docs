@@ -18,7 +18,7 @@ ms.workload:
 ---
 # ProjectOutputFile element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Represents the output of a separate project to include with the project item when it is deployed to SharePoint.
 
 ## Syntax

@@ -20,7 +20,7 @@ dev_langs:
 ---
 # BP_RESOLUTION_INFO
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the bound breakpoint information for either a code breakpoint or a data breakpoint.
 
 ## Syntax

@@ -18,7 +18,7 @@ ms.workload:
 ---
 # ProjectType element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Categorizes the project template so that it appears under the specified group in the **New Project** or **Add New Item** dialog box.
 
 > [!WARNING]

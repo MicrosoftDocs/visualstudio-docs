@@ -13,7 +13,7 @@ ms.custom: "devx-track-csharp, aaddev, vs-azure"
 ---
 # Get Started with Azure Active Directory (WebApi projects)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 > [!div class="op_single_selector"]
 > - [Getting Started](vs-active-directory-webapi-getting-started.md)

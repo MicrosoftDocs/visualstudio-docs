@@ -16,7 +16,7 @@ manager: jmartens
 ---
 # Install Visual Studio versions side-by-side
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can install Visual Studio on a computer that has an earlier or later version of Visual Studio already installed.
 

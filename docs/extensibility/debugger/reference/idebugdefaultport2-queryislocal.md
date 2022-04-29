@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDebugDefaultPort2::QueryIsLocal
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method determines whether this port is on the local machine.
 
 ## Syntax

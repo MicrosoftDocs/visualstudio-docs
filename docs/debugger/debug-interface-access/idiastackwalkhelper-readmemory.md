@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaStackWalkHelper::readMemory
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Reads a block of data from the executable's image in memory.
 
 ## Syntax

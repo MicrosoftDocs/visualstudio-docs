@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Python item templates
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The item templates are available in Python projects through the **Project** > **Add New Item** menu command, or the **Add** > **New Item** command on the context menu in **Solution Explorer**.
 

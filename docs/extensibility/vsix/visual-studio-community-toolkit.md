@@ -12,7 +12,7 @@ ms.custom: cookbook
 ---
 # Visual Studio Community Toolkit
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This toolkit will help you write successful Visual Studio extensions and there's something for absolute beginners to experts alike.
 

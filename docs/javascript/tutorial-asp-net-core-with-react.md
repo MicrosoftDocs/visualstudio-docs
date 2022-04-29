@@ -16,7 +16,7 @@ monikerRange: '>= vs-2022'
 ---
 # Tutorial: Create an ASP.NET Core app with React in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this article, you learn how to build an ASP.NET Core project to act as an API backend and a React project to act as the UI.
 

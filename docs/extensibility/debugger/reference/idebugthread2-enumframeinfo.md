@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugThread2::EnumFrameInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of the stack frames for this thread.
 
 ## Syntax

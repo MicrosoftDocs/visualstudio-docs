@@ -15,7 +15,7 @@ ms.workload:
 ---
 # IDiaSymbol::findInlineFramesByRVA
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an enumeration that allows a client to iterate through all of the inline frames on a specified relative virtual address (RVA).
 
 ## Syntax

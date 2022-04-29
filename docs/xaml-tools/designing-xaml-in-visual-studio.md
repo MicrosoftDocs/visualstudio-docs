@@ -13,7 +13,7 @@ ms.technology: vs-xaml-tools
 ---
 # Design XAML in Visual Studio and Blend for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio and Blend for Visual Studio both provide visual tools for building engaging user interfaces and rich media experiences with XAML for a variety of app types. Both integrated development environments (IDE) share a common set of features, including a visual XAML editor (designer). Blend for Visual Studio, which supports the WPF and UWP platforms, provides additional tools for designing visual states and creating animations.
 

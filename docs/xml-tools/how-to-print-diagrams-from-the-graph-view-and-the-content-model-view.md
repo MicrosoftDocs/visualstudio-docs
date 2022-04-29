@@ -14,7 +14,7 @@ ms.workload:
 ---
 # How to: Print diagrams from the Graph View and the Content Model View
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic describes how to print a diagram from the Graph View or the Content Model View of XML Schema Designer.
 

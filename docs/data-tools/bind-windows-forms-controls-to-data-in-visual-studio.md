@@ -23,7 +23,7 @@ ms.workload:
 ---
 # Bind Windows Forms controls to data in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can display data to users of your application by binding data to Windows Forms. To create these data-bound controls, drag items from the **Data Sources** window onto the Windows Forms Designer in Visual Studio.
 

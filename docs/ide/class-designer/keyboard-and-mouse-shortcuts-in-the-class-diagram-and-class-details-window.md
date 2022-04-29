@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Keyboard and mouse shortcuts in the Class Diagram and Class Details window
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the keyboard in addition to the mouse to perform navigational actions in **Class Designer** and in the **Class Details** window.
 

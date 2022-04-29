@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugSymbolSearchEvent2::GetSymbolSearchInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Called by an event handler to retrieve results about a symbol load process.
 
 ## Syntax

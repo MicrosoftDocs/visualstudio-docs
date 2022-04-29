@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugEnumField::GetValueFromStringCaseInsensitive
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method uses a case-insensitive search to return the value associated with the name of an enumeration constant.
 
 ## Syntax

@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Modules View - .NET memory sampling data
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Modules view of .NET memory allocation data that is collected by using the sampling method groups the memory data by the modules that were executed in the profiling run. Each module is the root of a hierarchical tree. The functions of the module are listed underneath the module node.
 
  The source file line numbers of statements that allocate memory are listed underneath the function node, and the addresses of the instructions that do the allocation are listed underneath the line node. Inclusive and exclusive values are always the same for line data and instruction data.

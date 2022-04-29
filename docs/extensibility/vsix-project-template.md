@@ -17,7 +17,7 @@ ms.workload:
 ---
 # VSIX project template
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the VSIX Project template to wrap one or more Visual Studio extensions in a VSIX project, and then publish the package on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site.
 

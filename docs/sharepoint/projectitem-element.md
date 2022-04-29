@@ -18,7 +18,7 @@ ms.workload:
 ---
 # ProjectItem element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Represents a SharePoint project item. This element the required root element of the *.spdata* file.
 
 ## Syntax

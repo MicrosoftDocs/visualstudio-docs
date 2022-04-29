@@ -20,7 +20,7 @@ ms.workload:
 ---
 # List Registers Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Displays the value of the selected registers and lets you modify the list of registers to show.
 
 ## Syntax

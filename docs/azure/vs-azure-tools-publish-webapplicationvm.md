@@ -11,7 +11,7 @@ ms.author: ghogen
 ---
 # Publish-WebApplicationVM (Windows PowerShell script)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Deploys a web application to a virtual machine. The script creates the required resources in your Azure subscription if they don't exist.
 
 ```

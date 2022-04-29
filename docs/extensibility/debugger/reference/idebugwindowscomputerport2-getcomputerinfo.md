@@ -19,7 +19,7 @@ dev_langs:
 ---
 # IDebugWindowsComputerPort2::GetComputerInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves information about the computer on which the debugger in running.
 
 ## Syntax

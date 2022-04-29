@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Manage application settings (.NET)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Application settings enable you to store application information dynamically. Settings allow you to store information on the client computer that shouldn't be included in the application code (for example a connection string), user preferences, and other information you need at runtime.
 

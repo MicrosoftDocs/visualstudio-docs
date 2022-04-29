@@ -16,7 +16,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_framePadSize
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Retrieves the extra pad size added to each function.
 

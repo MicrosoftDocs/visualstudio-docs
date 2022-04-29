@@ -21,7 +21,7 @@ ms.workload:
 ---
 # Get started (SharePoint development in Visual Studio)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
   This section helps you start working with [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] to develop SharePoint solutions that take advantage of [!INCLUDE[wss_14_short](../sharepoint/includes/wss-14-short-md.md)] and [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)].
 

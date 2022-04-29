@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IEnumDebugPortSuppliers2::Skip
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Skips over the specified number of elements.
 
 ## Syntax

@@ -17,6 +17,6 @@ monikerRange: vs-2017
 ---
 # Notifications, Environment, Options dialog box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this option to stop ignoring any notifications that you previously chose to ignore through the **Notifications** dialog. For more information, see [Update Visual Studio](../../install/update-visual-studio.md).

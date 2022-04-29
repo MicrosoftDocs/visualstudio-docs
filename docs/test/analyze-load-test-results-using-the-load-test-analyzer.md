@@ -16,7 +16,7 @@ ms.technology: vs-ide-test
 ---
 # Analyze load test results using the Load Test Analyzer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Find bottlenecks, identify errors, and measure improvements in your app when you use the **Load Test Analyzer**.
 

@@ -12,7 +12,7 @@ ms.custom: cookbook
 ---
 # Build custom tool windows
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Custom tool windows are great options for adding complex UI to Visual Studio.
 

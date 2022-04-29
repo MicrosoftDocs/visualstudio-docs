@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaEnumTables::Next
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a specified number of tables in the enumeration sequence.
 
 ## Syntax

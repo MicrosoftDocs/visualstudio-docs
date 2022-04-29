@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Functions View - contention data
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Functions report view of contention data lists the functions in the profiling run that were blocked from execution during the profiling run.
 
  The following table explains the values that are displayed in the Functions view of a profiling data file that was collected by using the concurrency method.

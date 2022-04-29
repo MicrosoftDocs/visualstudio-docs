@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Error: Kerberos Authentication Failed
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you try to do remote debugging, you might get the following error message:
 
 ```cmd

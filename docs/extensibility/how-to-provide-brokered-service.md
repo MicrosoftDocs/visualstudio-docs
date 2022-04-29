@@ -17,7 +17,7 @@ ms.workload:
 ---
 # How to: Provide a brokered service
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A brokered service consists of the following elements:
 

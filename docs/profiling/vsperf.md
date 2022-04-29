@@ -14,7 +14,7 @@ ms.workload:
 ---
 # VSPerf
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Use the **VsPerf** command line tool to:
 
 1. Profile UWP apps from the command line when Visual Studio is not installed on the device.

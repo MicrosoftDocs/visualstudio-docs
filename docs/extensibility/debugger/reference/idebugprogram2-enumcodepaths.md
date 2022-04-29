@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugProgram2::EnumCodePaths
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of the code paths for a given position in a source file.
 
 ## Syntax

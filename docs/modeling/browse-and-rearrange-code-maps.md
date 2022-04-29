@@ -28,7 +28,7 @@ ms.workload:
 ---
 # Browse and rearrange code maps
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Rearrange items on code maps to make them easier to read and improve their performance.
 

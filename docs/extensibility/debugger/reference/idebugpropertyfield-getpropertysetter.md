@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugPropertyField::GetPropertySetter
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the method that sets the property.
 
 ## Syntax

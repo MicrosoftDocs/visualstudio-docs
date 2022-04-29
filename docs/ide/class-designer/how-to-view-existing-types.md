@@ -18,7 +18,7 @@ ms.workload:
 ---
 # How to: View existing types in Class Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To see an existing type and its members, add its shape to a class diagram.
 

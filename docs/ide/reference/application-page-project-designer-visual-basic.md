@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Application Page, Project Designer (Visual Basic)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Application** page of the Project Designer to specify a project's application settings and properties.
 

@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Resource Contention Data Views
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section contains reference information for the views and reports of profiler data files that contain thread contention profiling data.
 
 ## In This Section

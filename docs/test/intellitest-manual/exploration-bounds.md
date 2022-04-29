@@ -15,7 +15,7 @@ author: mikejo5000
 ---
 # Exploration bounds
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **PexSettingsAttributeBase** is the abstract base class for settings bounds as attributes. See [Settings Waterfall](settings-waterfall.md) for an overview of settings in IntelliTest.
 

@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Breakpoint-related methods
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A debug engine (DE) must support the setting of breakpoints. Visual Studio debugging supports the following types of breakpoints:
 
 - Bound

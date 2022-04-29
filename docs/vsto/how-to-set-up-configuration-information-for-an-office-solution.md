@@ -20,7 +20,7 @@ ms.workload:
 ---
 # How to: Set up configuration information for an Office solution
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can use configuration files to configure settings that are specific to your Office solutions. You can specify settings such as assembly binding policy, remoting objects, debug, and trace settings.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

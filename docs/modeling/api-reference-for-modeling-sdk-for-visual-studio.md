@@ -13,7 +13,7 @@ ms.workload:
 ---
 # API Reference for Modeling SDK for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio Visualization and Modeling SDK provides the platform on which your domain-specific languages (DSL) tools are built.
 

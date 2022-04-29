@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaDataSource::loadAndValidateDataFromPdb
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Opens and verifies that the program database (.pdb) file matches the signature information provided, and  prepares the .pdb file as a debug data source.
 
 ## Syntax

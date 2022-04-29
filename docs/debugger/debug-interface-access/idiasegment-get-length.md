@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSegment::get_length
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the number of bytes in the segment.
 
 ## Syntax

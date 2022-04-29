@@ -19,7 +19,7 @@ ms.workload:
 ---
 # &lt;update&gt; element (Office development in Visual Studio)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The `update` element specifies the interval at which the solution will check for updates.
 
 ## Syntax

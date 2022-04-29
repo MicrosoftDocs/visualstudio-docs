@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_virtualBaseClass
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that specifies whether the user-defined data type is a virtual base class.
 
 ## Syntax

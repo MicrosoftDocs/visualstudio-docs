@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugProgramEngines2::EnumPossibleEngines
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the GUIDs for all the possible debug engines (DE) that can debug this program.
 
 ## Syntax

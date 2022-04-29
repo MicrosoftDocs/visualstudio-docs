@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugThread2::GetLogicalThread
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Debug engines do not implement this method.
 
 ## Syntax

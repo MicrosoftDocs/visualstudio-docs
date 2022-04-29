@@ -20,7 +20,7 @@ dev_langs:
 ---
 # PENDING_BP_STATE_INFO
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains information about the state of a breakpoint that is ready to bind to a code location.
 
 ## Syntax

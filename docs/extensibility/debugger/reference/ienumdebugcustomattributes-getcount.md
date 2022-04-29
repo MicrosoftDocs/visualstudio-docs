@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IEnumDebugCustomAttributes::GetCount
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the number of custom attributes in an enumerator.
 
 ## Syntax

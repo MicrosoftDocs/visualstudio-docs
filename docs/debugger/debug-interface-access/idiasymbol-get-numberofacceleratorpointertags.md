@@ -15,7 +15,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_numberOfAcceleratorPointerTags
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the number of accelerator pointer tags in a C++ AMP stub function.
 
 ## Syntax

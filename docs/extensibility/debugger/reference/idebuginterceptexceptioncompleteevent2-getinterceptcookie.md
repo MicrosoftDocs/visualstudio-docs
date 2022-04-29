@@ -21,7 +21,7 @@ dev_langs:
 ---
 # IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Called when the processing of an intercepted exception has completed.
 
 ## Syntax

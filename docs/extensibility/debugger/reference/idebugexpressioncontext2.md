@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDebugExpressionContext2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a context for expression evaluation.
 
 ## Syntax

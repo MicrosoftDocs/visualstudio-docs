@@ -23,7 +23,7 @@ ms.workload:
 ---
 # Debug HTML and CSS in UWP apps in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 For JavaScript apps, Visual Studio provides a comprehensive debugging experience that includes features that are familiar to Internet Explorer and Visual Studio developers. These features are supported for UWP apps and for apps created using Visual Studio Tools for Apache Cordova.
 

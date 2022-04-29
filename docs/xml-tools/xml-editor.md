@@ -13,7 +13,7 @@ ms.workload:
 ---
 # XML editor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The XML editor in Visual Studio is based on the text editor and includes additional support for the XML languages. When you open an XML file in Visual Studio, it opens in the XML editor.
 

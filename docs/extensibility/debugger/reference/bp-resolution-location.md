@@ -20,7 +20,7 @@ dev_langs:
 ---
 # BP_RESOLUTION_LOCATION
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the structure of the breakpoint resolution location.
 
 ## Syntax

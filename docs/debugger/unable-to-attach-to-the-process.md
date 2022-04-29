@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Unable to Attach to the Process
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Unable to attach to the process. Debugger component on server received access denied while connecting to this machine.
 
  There are two common scenarios that cause this error:

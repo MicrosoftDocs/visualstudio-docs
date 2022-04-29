@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugCoreServer3::DisableAutoAttach
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Disables automatic attaching for all debug engines associated with this server.
 
 ## Syntax

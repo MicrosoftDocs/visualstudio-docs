@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugCustomAttribute::GetName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name of the custom attribute.
 
 ## Syntax

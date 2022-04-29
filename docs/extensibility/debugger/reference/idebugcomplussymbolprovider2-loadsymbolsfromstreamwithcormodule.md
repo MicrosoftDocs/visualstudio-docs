@@ -21,7 +21,7 @@ dev_langs:
 ---
 # IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Load debug symbols from a data stream given the **ICorDebugModule** object.
 
 ## Syntax

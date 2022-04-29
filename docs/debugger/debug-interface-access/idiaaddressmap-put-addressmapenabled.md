@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaAddressMap::put_addressMapEnabled
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether the address map should be used to translate symbol addresses.
 
 ## Syntax

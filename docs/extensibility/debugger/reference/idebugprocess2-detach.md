@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugProcess2::Detach
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Detaches the debugger from this process by detaching all of the programs in the process.
 
 ## Syntax

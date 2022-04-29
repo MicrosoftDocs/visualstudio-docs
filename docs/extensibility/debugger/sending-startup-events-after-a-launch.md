@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Send startup events after a launch
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Once the debug engine (DE) is attached to the program, it sends a series of startup events back to the debug session.
 
  Startup events sent back to the debug session include:

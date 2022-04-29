@@ -14,7 +14,7 @@ ms.technology: vs-ide-test
 ---
 # Configure load test run settings
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 *Run settings* are a set of properties that influence the way a load test runs. Run settings are organized by categories in the **Properties** window.
 

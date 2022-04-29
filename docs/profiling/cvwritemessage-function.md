@@ -32,7 +32,7 @@ ms.workload:
 ---
 # CvWriteMessage function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Writes a message to the Concurrency Visualizer trace file.
 
 ## Syntax

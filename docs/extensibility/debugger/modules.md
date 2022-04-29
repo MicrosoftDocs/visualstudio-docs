@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Modules
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In terms of the debugger architecture, a *module*:
 
 - Is a physical container of code, such as an executable file or a DLL.

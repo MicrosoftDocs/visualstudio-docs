@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Evaluation Tools for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## Craftsmanship checklist for Visual Studio
  Use this checklist to evaluate user experience quality for visual and interaction details.
 

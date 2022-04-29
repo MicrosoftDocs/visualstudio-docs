@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Walkthrough: Using XSLT IntelliSense
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete value of some attributes.
 

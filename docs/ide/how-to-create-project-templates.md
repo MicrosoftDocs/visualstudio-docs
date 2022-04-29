@@ -15,7 +15,7 @@ ms.technology: vs-ide-general
 ---
 # How to: Create project templates
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic shows you how to create a template using the **Export Template Wizard**, which packages your template in a *.zip* file.
 

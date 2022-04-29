@@ -15,7 +15,7 @@ ms.workload:
 ---
 # CrossSession
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The *VSPerfCmd.exe* **CrossSession** option enables the profiler to collect data from any console session. The **CrossSession** option must be used with the **Start** option.
 
  You can use the abbreviation **CS** in place of **CrossSession**.

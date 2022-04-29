@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDebugProperty3
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface provides support for:
 
 - Retrieving an arbitrarily long string associated with the property.

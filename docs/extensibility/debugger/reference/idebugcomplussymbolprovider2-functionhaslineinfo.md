@@ -19,7 +19,7 @@ dev_langs:
 ---
 # IDebugComPlusSymbolProvider2::FunctionHasLineInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the specified method has line information.
 
 ## Syntax

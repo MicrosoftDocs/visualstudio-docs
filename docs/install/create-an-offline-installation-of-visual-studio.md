@@ -18,7 +18,7 @@ ms.technology: vs-installation
 ---
 # Create an offline installation package of Visual Studio for local installation
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 We designed Visual Studio to work well in various network and computer configurations. For all scenarios involving the local machine, we recommend that you use the [Visual Studio Installer](https://visualstudio.microsoft.com/downloads), which is a small file that checks for updates on a regular basis and helps you stay current with all the latest fixes and features. The information on this page discusses how to create an offline installation package of files for installation on the local machine.
 

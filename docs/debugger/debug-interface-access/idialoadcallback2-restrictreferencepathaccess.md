@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaLoadCallback2::RestrictReferencePathAccess
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if looking for a .pdb file is allowed in the path where the .exe file is located.
 
 ## Syntax

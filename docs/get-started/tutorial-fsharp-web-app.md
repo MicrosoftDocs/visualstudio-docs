@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Tutorial: Create an ASP.NET Core web service in F#
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio Integrated Development Environment (IDE) supports F# for several product types.
 You can easily create a full web services app.

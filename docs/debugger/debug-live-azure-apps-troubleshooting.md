@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Troubleshooting and known issues for snapshot debugging in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If the steps described in this article do not resolve your issue, search for the problem on [Developer Community](https://aka.ms/feedback/suggest?space=8) or report a new issue by choosing **Help** > **Send Feedback** > **Report a Problem** in Visual Studio.
 

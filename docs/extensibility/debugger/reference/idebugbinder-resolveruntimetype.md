@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugBinder::ResolveRuntimeType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method determines the run-time type of an object.
 
 ## Syntax

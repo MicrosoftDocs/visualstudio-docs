@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Copy (Programmatic Capture)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Copies the contents of the active graphics log (.vsglog) file into a new file.
 
 ## Syntax

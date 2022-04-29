@@ -18,7 +18,7 @@ ms.workload:
 ---
 # DA0017: High rates of paging active memory to disk
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 |Item|Value|
 |-|-|

@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugProgram2::CauseBreak
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Requests that the program stop execution the next time one of its threads attempts to run.
 
 ## Syntax

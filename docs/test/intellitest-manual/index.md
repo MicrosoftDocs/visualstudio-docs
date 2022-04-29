@@ -15,7 +15,7 @@ author: mikejo5000
 ---
 # Overview of Microsoft IntelliTest
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 IntelliTest enables you to find bugs early, and
 reduces test maintenance costs. Using an automated

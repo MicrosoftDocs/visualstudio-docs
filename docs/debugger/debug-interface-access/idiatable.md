@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaTable
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates a DIA data source table.
 
 ## Syntax

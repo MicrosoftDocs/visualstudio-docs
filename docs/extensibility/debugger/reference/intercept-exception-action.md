@@ -21,7 +21,7 @@ dev_langs:
 ---
 # INTERCEPT_EXCEPTION_ACTION
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies what actions to take when intercepting exceptions.
 
 ## Syntax

@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Automation support for Options pages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 VSPackages can provide custom **Options** dialog boxes to the **Tools** menu (**Tools Options** pages) in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and can make them available to the automation model.
 
 ## Tools Options pages

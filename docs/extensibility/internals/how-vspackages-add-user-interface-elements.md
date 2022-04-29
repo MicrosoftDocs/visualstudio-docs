@@ -18,7 +18,7 @@ ms.workload:
 ---
 # How VSPackages add user interface elements
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A VSPackage can add user interface (UI) elements, for example, menus, toolbars, and tool windows, to Visual Studio by means of the *.vsct* file.
 
 You can find design guidelines for UI elements at [Visual Studio user experience guidelines](../../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md).

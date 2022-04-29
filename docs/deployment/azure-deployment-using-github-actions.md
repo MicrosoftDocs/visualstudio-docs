@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Deploy your application to Azure using GitHub Actions workflows created by Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Starting in Visual Studio 2019 version 16.11, you can create new GitHub Action workflows for .NET projects hosted on GitHub.com.
 

@@ -14,7 +14,7 @@ ms.workload:
 ---
 # UnInit
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Finalizes the graphics log file, closes it, and frees resources that were used while the app was actively recording graphics information.
 
 ## Syntax

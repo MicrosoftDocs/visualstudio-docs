@@ -26,7 +26,7 @@ ms.workload:
 ---
 # How to: Apply Edits in Break Mode with Edit and Continue (Visual Basic)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can use Edit and Continue to edit your code in Break mode, and then continue without stopping and restarting execution.
 
 For limitations on using Edit and Continue while debugging, see [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).

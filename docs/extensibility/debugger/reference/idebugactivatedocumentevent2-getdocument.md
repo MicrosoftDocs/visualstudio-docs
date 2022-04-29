@@ -21,7 +21,7 @@ dev_langs:
 ---
 # IDebugActivateDocumentEvent2::GetDocument
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the document to activate.
 
 ## Syntax

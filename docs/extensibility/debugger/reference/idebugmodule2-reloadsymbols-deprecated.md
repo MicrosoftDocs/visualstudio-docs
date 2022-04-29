@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugModule2::ReloadSymbols_Deprecated
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 OBSOLETE. DO NOT USE. Reloads the symbols for this module.
 
 ## Syntax

@@ -20,7 +20,7 @@ dev_langs:
 ---
 # PENDING_BP_STATE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the state of a pending breakpoint (a breakpoint that has not yet been bound).
 
 ## Syntax

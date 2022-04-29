@@ -21,7 +21,7 @@ ms.technology: vs-ide-test
 ---
 # How to: Select a load test results repository
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You are not limited to a local results store. Frequently, load tests are run on a remote set of Agent computers. Agents, together with a controller, can generate more simulated load than any single computer. For more information, see [Test controllers and test agents](configure-test-agents-and-controllers-for-load-tests.md).
 

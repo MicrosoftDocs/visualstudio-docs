@@ -20,7 +20,7 @@ ms.workload:
 ---
 # How to: Sign Office solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   If you sign a solution, you can grant trust to the solution using the certificate as evidence. You can use the same certificate for multiple solutions, and all the solutions will be trusted with no additional security policy updates.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

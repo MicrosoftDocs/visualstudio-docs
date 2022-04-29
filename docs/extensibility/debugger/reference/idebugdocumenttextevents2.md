@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDebugDocumentTextEvents2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is used to notify Visual Studio about changes to the source document that are supplied by the debug engine.
 
 ## Syntax

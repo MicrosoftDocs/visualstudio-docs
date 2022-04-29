@@ -15,7 +15,7 @@ monikerRange: ">=vs-2019"
 ---
 # Visual Studio and servicing baselines
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio is updated frequently during its product lifecycle. There are two main types of updates: feature updates and servicing updates. Feature updates are indicated by a change in the minor version number, such as 16.4 to 16.5, and they contain significant product updates. Servicing updates consist of critical quality or security fixes and they are denoted by a change in the servicing version number, such as 16.7.8 to 16.7.9. 
 

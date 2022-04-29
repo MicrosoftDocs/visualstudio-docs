@@ -15,7 +15,7 @@ ms.workload:
 ---
 # IDebugGenericFieldInstance
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents an instance of a field for a managed code generic type.
 
 ## Syntax

@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugObject::SetValue
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the value of the object from a consecutive series of bytes.
 
 ## Syntax

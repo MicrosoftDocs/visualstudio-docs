@@ -13,7 +13,7 @@ ms.technology: vs-ide-general
 ---
 # How to: Troubleshoot templates
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If a template fails to load in the development environment, there are several ways to locate the problem.
 

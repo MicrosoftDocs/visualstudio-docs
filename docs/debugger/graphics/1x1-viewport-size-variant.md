@@ -14,7 +14,7 @@ ms.workload:
 ---
 # 1x1 Viewport Size Variant
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Reduces the viewport dimensions on all render targets to 1x1 pixels.
 
 ## Interpretation

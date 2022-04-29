@@ -19,7 +19,7 @@ ms.workload:
 ---
 # &lt;entryPoints&gt; element (Office development in Visual Studio)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The `entryPoints` element of the `vstav3` namespace contains all the `entryPoint` elements associated with an Office solution.
 
 ## Syntax

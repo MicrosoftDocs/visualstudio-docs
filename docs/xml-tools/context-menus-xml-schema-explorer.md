@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Context menus (XML Schema Explorer)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A context menu is the menu that appears when you right-click on something. The following context menu items are used to perform schema-specific searches and other operations.
 

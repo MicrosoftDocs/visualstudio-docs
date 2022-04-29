@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaEnumSymbolsByAddr::Next
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the next symbols in order by address.
 
 ## Syntax

@@ -22,7 +22,7 @@ ms.workload:
 ---
 # &lt;description&gt; element (ClickOnce deployment)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Identifies application information used to create a shell presence and an **Add or Remove Programs** item in Control Panel.
 
 ## Syntax

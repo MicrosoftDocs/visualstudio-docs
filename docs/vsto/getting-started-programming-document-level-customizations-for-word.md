@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Get started programming document-level customizations for Word
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   If you are just getting started creating document-level customizations for Microsoft Office Word by using Visual Studio, here is what you need to know.
 
  [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]

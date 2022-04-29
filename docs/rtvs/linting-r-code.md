@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Lint R code in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A linter analyzes code to reveal potential errors, formatting issues, and other code noise such as spurious whitespace. Using a linter also helps encourage certain coding conventions, such as how identifiers are named. Such conventions are helpful within teams and other collaborative situations.
 

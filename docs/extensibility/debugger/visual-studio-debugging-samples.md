@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Visual Studio debugging samples
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Two samples show how to extend the Visual Studio debugger using [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)].
 
 - The Debugger Expression Evaluator Sample, for managed languages, is included in the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)]. In the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] window, click the **Samples** tab, click **All** or **C#** in the list of languages, and then click **Debugger**.

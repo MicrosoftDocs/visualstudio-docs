@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Output
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Output** option specifies the name of the profiling data file for the performance session. **Output** must be used with the **Start** option.
 
 ## Syntax

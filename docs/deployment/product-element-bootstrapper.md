@@ -21,7 +21,7 @@ ms.workload:
 ---
 # &lt;Product&gt; element (bootstrapper)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `Product` element is the top-level XML element inside of a product file.
 
 ## Syntax

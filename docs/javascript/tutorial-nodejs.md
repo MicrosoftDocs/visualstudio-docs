@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Tutorial: Create a Node.js and Express app in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This tutorial for Visual Studio development uses Node.js and Express. In this tutorial, you create a simple Node.js web app, add some code, explore some features of the IDE, and run the app. 
 

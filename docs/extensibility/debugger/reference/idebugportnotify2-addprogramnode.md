@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugPortNotify2::AddProgramNode
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Registers a program that can be debugged with the port it is running on.
 
 ## Syntax

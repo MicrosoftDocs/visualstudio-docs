@@ -20,7 +20,7 @@ ms.technology: vs-ide-test
 ---
 # How to: Access load test results for analysis
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you run a load test from the Load Test Editor, the load test results open automatically and the running load test is displayed in the **Load Test Analyzer**. When you run a load test from the command line, you must access the load test results manually.
 

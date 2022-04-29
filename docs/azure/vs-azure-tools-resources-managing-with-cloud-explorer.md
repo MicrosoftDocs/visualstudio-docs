@@ -11,7 +11,7 @@ ms.author: ghogen
 ---
 # Manage the resources associated with your Azure accounts in Visual Studio Cloud Explorer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range=">=vs-2022"
 > [!Important]

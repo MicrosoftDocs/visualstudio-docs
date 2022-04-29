@@ -79,7 +79,7 @@ ms.workload:
 ---
 # CRT Debug Heap Details
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This topic provides a detailed look at the CRT debug heap.
 
 ## <a name="BKMK_Contents"></a> Contents

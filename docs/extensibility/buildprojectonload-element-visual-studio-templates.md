@@ -14,7 +14,7 @@ ms.workload:
 ---
 # BuildProjectOnload element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Builds only new projects as you create and add them to a solution. The entire solution isn't built.
 
 Element hierarchy:

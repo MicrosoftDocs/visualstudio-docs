@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugProgram2::GetProcess
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Get the process that this program is running in.
 
 ## Syntax

@@ -17,7 +17,7 @@ ms.workload:
 ---
 # How to: Print class diagrams
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can print a class diagram using the print feature of Visual Studio.
 

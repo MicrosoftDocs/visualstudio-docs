@@ -15,7 +15,7 @@ author: mikejo5000
 ---
 # Test generation
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In traditional unit testing, a test consists of several things:
 

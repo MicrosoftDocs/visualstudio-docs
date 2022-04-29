@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaEnumDebugStreamData::Skip
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Skips a specified number of records in an enumerated sequence.
 
 ## Syntax

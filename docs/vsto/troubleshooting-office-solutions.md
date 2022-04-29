@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Troubleshoot Office solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This section contains tips for solving common problems that you might encounter when creating solutions by using the Office development tools in Visual Studio.
 
 ## In this section

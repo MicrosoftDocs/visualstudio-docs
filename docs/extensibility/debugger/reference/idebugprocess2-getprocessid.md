@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugProcess2::GetProcessId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the GUID for this process.
 
 ## Syntax

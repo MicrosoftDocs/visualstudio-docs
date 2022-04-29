@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaFrameData::get_program
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the program string that is used to compute the register set before the call to the current function.
 
 ## Syntax

@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Edit R code in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 R Tools for Visual Studio (RTVS) tailors the Visual Studio editing experience specifically for R while retaining all the features and the ability to use extensions. (For example, if you prefer VIM key bindings, you can install the free [VsVim extension](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim) from the Visual Studio Marketplace.)
 

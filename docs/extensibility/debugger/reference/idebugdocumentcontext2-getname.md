@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugDocumentContext2::GetName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the displayable name of the document that contains this document context.
 
 ## Syntax

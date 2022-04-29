@@ -21,7 +21,7 @@ ms.workload:
 ---
 # How to debug a managed memory dump with .NET Diagnostic Analyzers
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 
 

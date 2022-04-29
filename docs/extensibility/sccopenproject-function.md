@@ -17,7 +17,7 @@ ms.workload:
 ---
 # SccOpenProject Function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function opens an existing source control project or creates a new one.
 
 ## Syntax

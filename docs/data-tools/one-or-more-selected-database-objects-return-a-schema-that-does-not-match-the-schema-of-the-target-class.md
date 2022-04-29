@@ -14,7 +14,7 @@ ms.workload:
 ---
 # One or more selected database objects return a schema that does not match the schema of the target class
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 One or more selected database objects return a schema that does not match the schema of the target class. Nothing has been added to the designer.
 

@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugProcess2::GetName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the title, friendly name, or file name of the process.
 
 ## Syntax

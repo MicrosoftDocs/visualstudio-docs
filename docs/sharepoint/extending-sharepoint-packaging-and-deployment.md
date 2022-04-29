@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Extend SharePoint packaging and deployment
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can extend the packaging and deployment process for SharePoint projects.
 
 ## Create deployment steps

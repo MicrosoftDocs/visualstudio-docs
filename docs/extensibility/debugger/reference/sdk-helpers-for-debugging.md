@@ -20,7 +20,7 @@ ms.workload:
 ---
 # SDK Helpers for Debugging
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 These functions and declarations are global helper functions for implementing debug engines, expression evaluators, and symbol providers in C++.
 
 > [!NOTE]

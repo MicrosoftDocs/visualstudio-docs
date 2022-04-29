@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Create a WPF-Based Domain-Specific Language
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can create a domain-specific language that has a WPF designer instead of a graphical designer.
 

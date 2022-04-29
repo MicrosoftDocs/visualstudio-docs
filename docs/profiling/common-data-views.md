@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Common data views
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section contains reference information about the views and reports of profiler data files that are common to all profiling methods.
 
 ## In this section

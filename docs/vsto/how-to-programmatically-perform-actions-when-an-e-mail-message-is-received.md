@@ -22,7 +22,7 @@ ms.workload:
 ---
 # How to: Programmatically perform actions when an email message is received
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example performs custom actions when the user receives an email message.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

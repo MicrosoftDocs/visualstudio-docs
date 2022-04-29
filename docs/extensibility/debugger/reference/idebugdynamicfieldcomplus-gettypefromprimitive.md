@@ -19,7 +19,7 @@ dev_langs:
 ---
 # IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a type given its primitive type.
 
 ## Syntax

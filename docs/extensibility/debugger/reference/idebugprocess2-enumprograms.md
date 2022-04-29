@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugProcess2::EnumPrograms
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of all the programs contained by this process.
 
 ## Syntax

@@ -15,7 +15,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_isReturnValue
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether the variable carries a return value.
 
 ## Syntax

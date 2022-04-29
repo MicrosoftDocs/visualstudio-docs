@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaInjectedSource::get_filename
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the file name for the source.
 
 ## Syntax

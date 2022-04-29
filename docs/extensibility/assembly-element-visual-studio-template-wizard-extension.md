@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Assembly element (Visual Studio template wizard extension)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the name or strong name of the assembly that implements the `IWizard` interface.
 
  \<VSTemplate>

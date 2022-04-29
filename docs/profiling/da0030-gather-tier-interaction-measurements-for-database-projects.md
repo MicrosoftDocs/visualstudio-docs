@@ -18,7 +18,7 @@ ms.workload:
 ---
 # DA0030: Gather tier interaction measurements for database projects
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 |Item|Value|
 |-|-|

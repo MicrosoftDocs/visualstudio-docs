@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Description element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the description of the template as it appears in either the **New Project** or **Add New Item** dialog box.
 
  \<VSTemplate>

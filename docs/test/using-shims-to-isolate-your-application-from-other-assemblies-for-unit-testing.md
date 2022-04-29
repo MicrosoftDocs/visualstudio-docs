@@ -14,7 +14,7 @@ dev_langs:
 ---
 # Use shims to isolate your app for unit testing
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Shim types** are one of two technologies that the Microsoft Fakes Framework uses to let you isolate components under test from the environment. Shims divert calls to specific methods to code that you write as part of your test. Many methods return different results dependent on external conditions, but a shim is under the control of your test and can return consistent results at every call. This makes it easier to write the tests.
 

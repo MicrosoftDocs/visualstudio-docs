@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Install test agents and test controllers
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 For test scenarios that use Visual Studio and Azure Test Plans or Team Foundation Server (TFS), you don't need a test controller. Agents for Visual Studio handle orchestration by communicating with Azure Test Plans or TFS. A scenario could be that you run continuous tests for build and release workflows in Azure Test Plans or TFS.
 

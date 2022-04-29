@@ -24,7 +24,7 @@ ms.workload:
 ---
 # CvWriteFlag function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Writes a flag to the Concurrency Visualizer trace file.
 
 ## Syntax

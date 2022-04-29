@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugReference2::GetDerivedMostReference
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the derived-most reference of a reference. Reserved for future use.
 
 ## Syntax

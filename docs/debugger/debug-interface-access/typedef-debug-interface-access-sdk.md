@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Typedef (Debug Interface Access SDK)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Symbols with `SymTagTypedef` tags introduce names for other types.
 
 ## Properties

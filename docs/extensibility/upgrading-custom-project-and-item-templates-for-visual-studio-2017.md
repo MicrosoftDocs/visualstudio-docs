@@ -16,7 +16,7 @@ monikerRange: vs-2017
 ---
 # Upgrade Custom Project and Item Templates for Visual Studio 2017
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Starting in Visual Studio 2017, Visual Studio discovers project and item templates that have been installed by a .vsix or an .msi in a different way to previous versions of Visual Studio. If you own extensions that use custom project or item templates, you need to update your extensions. This article explains what you must do.
 

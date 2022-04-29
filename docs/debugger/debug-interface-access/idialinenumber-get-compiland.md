@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaLineNumber::get_compiland
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a reference to the symbol for the compiland that contributed the bytes of image text.
 
 ## Syntax

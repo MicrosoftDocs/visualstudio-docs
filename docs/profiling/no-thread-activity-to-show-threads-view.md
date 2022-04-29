@@ -17,7 +17,7 @@ ms.workload:
 ---
 # No thread activity to show (Threads View)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This area shows data about the unhidden threads in the currently visible time range.
 
  If no information is visible, check the following settings:

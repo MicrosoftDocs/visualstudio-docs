@@ -20,7 +20,7 @@ dev_langs:
 ---
 # BPRESI_FIELDS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the information to be retrieved about the successful resolution of a breakpoint.
 
 ## Syntax

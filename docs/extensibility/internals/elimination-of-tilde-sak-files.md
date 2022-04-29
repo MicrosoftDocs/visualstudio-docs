@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Elimination of ~SAK files
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In Source Control Plug-in API 1.2, the *~SAK* files have been replaced by capability flags and new functions that detect whether a source control plug-in supports the *MSSCCPRJ* file and shared checkouts.
 
 ## ~SAK files

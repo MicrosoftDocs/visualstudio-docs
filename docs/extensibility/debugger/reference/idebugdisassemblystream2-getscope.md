@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugDisassemblyStream2::GetScope
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the scope of the disassembly stream.
 
 ## Syntax

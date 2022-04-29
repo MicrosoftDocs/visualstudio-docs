@@ -15,7 +15,7 @@ ms.workload:
 ---
 # How to: Instrument a native stand-alone component and collect timing data with the profiler from the command line
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to instrument a native component such as a C++ .*exe* or .*dll* file, and to collect detailed timing data.
 
 > [!NOTE]

@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Debug a WebView control in a UWP App
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  To inspect and debug `WebView` controls in a Windows Runtime app, you can configure Visual Studio to attach the script debugger when you start your app. You have two ways to interact with `WebView` controls using the debugger:
 

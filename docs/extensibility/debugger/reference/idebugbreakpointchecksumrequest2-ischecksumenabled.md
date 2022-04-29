@@ -18,7 +18,7 @@ dev_langs:
 ---
 # IDebugBreakpointChecksumRequest2::IsChecksumEnabled
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines whether the checksum is enabled for this document.
 
 ## Syntax

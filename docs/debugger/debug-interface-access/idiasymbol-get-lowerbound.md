@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_lowerBound
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the lower bound of a FORTRAN array dimension.
 
 ## Syntax

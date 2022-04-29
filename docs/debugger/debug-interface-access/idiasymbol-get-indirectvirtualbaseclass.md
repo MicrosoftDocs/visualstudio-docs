@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_indirectVirtualBaseClass
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that specifies whether the user-defined data type is an indirect virtual base class.
 
 ## Syntax

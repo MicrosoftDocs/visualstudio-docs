@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Half/Quarter Texture Dimensions Variant
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Reduces the texture dimensions on textures that are not render targets.
 
 ## Interpretation

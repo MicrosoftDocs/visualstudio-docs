@@ -18,7 +18,7 @@ monikerRange: vs-2017
 ---
 # What's new in profiling tools in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Diagnostics Tools include new visualizations to help you identify issues in your app that need fixing. The Diagnostics Tools now include support for ASP.NET apps.
 

@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugClassField::EnumNestedClasses
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator for the classes nested in this class.
 
 ## Syntax

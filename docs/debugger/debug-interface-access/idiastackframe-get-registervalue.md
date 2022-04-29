@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaStackFrame::get_registerValue
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the value of a specified register as stored in the stack frame.
 
 ## Syntax

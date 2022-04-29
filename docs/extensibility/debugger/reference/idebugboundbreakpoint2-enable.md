@@ -21,7 +21,7 @@ dev_langs:
 ---
 # IDebugBoundBreakpoint2::Enable
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enables or disables the breakpoint.
 
 ## Syntax

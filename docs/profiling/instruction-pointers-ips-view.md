@@ -23,7 +23,7 @@ ms.workload:
 ---
 # Instruction Pointers (IPs) View
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Instruction Pointers view enables you to see specific instructions that are executed during sampling profiling.
 
  This view is not available during instrumentation profiling.

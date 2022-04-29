@@ -15,7 +15,7 @@ ms.technology: vs-ide-test
 ---
 # How to: Create load test performance reports using Microsoft Excel
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can generate Microsoft Excel load test reports that are based on two or more test results.
 

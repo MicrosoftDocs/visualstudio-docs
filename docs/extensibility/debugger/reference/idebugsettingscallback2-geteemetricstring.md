@@ -18,7 +18,7 @@ dev_langs:
 ---
 # IDebugSettingsCallback2::GetEEMetricString
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the value string of an expression evaluator metric given its name.
 
 ## Syntax

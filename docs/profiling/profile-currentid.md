@@ -16,7 +16,7 @@ ms.workload:
 ---
 # PROFILE_CURRENTID
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The PROFILE_CURRENTID returns the pseudo-token for the thread ID or process ID, in a call to NameProfile, StartProfile, StopProfile, SuspendProfile, and ResumeProfile functions. Use it to cause the function to operate on the current thread or process, rather than a specifically indicated one.
 
 ## Example 1

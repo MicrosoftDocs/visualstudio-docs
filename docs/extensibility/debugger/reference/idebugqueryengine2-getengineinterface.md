@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugQueryEngine2::GetEngineInterface
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a custom debug engine (DE) interface.
 
 ## Syntax

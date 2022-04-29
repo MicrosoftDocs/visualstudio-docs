@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Set Current Process
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the specified process as the active process in the debugger.
 
 ## Syntax

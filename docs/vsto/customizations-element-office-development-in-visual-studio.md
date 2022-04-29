@@ -21,7 +21,7 @@ ms.workload:
 ---
 # &lt;customizations&gt; element (Office development in Visual Studio)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The `customizations` element of the `vstov4` namespace contains all the information about installing and loading each Office solution.
 
 ## Syntax for document-level customizations

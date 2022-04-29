@@ -18,7 +18,7 @@ ms.workload:
 ---
 # How to: Provide expanded outlining support in a legacy language service
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 There are two options for extending outlining support for your language beyond supporting the **Collapse to Definitions** command. You can add editor-controlled outline regions and add client-controlled outline regions.
 
 ## Adding editor-controlled outline regions

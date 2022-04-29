@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Build actions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 All files in a Visual Studio project have a build action. The build action controls what happens to the file when the project is compiled.
 

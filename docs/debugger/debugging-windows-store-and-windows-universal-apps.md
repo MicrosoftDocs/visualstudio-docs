@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Debug Universal Windows Apps (UWP) in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio debugger provides complete support for debugging UWP apps. See the following articles for UWP debug tasks.
 

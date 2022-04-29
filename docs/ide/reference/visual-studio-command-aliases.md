@@ -22,7 +22,7 @@ ms.workload:
 ---
 # Visual Studio Command Aliases
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Command aliases let you type fewer characters when you want to execute a command. You enter aliases into the **Find/Command** box or **Command** window. For example, instead of entering `>File.OpenFile` to display the **Open File** dialog box, you can use the pre-defined alias `>of`.
 

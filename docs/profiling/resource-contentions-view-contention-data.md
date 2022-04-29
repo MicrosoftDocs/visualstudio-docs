@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Resource Contentions View - Contention Data
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Resource Contention view lists contention data for the resources that were the source of contention events. A contention event occurs when a function in a thread is forced to wait for access to the resource because a function in another thread has acquired exclusive access to the resource. Each resource is the root node of a call tree that displays the function execution paths that resulted in the contention events.
 
 ## Data Values

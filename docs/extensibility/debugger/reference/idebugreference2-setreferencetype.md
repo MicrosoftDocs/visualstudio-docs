@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugReference2::SetReferenceType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the reference type. Reserved for future use.
 
 ## Syntax

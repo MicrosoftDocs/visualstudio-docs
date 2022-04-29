@@ -40,7 +40,7 @@ ms.workload:
 ---
 # Start a debugging session for a UWP app
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article describes how to start a Visual Studio debugging session for a Universal Windows Platform (UWP) app. UWP apps can be written in XAML and C++, XAML and C#/Visual Basic. To start debugging a UWP app, configure the debugging session and choose the way to start the app.
 

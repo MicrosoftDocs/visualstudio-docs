@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugPropertyDestroyEvent2::GetDebugProperty
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the property to be destroyed.
 
 ## Syntax

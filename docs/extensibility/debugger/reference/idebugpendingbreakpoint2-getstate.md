@@ -21,7 +21,7 @@ dev_langs:
 ---
 # IDebugPendingBreakpoint2::GetState
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the state of the pending breakpoint.
 
 ## Syntax

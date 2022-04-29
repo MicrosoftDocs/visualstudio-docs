@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Use escape sequences in text templates
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use escape sequences in text templates to generate text template tags and (in C# code only) to escape control characters and quotation marks.
 

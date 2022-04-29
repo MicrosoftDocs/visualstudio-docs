@@ -25,7 +25,7 @@ ms.workload:
 ---
 # Debug multiple processes (C#, Visual Basic, C++)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio can debug a solution that has several processes. You can start and switch between processes, break, continue, and step through source, stop debugging, and end or detach from individual processes.
 

@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaEnumSymbolsByAddr
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates by address the various symbols contained in the data source.
 
 ## Syntax

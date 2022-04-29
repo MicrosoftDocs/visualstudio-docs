@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Launch
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Launch** option starts the profiler using the sampling method and it also starts the specified application.
 
  To use the **Launch** option, you must specify the **Sample** method in the **Start** option.

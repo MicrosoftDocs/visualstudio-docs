@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugModule3::LoadSymbols
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Loads the symbols for the current module.
 
 ## Syntax

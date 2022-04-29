@@ -17,7 +17,7 @@ ms.workload:
 ---
 # SccRename Function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function renames a file in the source control system.
 
 ## Syntax

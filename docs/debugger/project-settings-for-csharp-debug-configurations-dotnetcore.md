@@ -26,7 +26,7 @@ ms.workload:
 ---
 # Project settings for C# debug configurations (.NET Core, .NET 5+, and ASP.NET Core)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can change C# project debug settings in the [Debug tab](#debug-tab) and [Build tab](#build-tab) of the project property pages.
 

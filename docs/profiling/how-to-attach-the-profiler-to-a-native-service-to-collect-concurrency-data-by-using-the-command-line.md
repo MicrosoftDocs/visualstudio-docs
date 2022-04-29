@@ -15,7 +15,7 @@ ms.workload:
 ---
 # How to: Attach the profiler to a native service to collect concurrency data by using the command line (VSPerfCmd)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This article describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a native (C/C++) service and collect process and thread concurrency data by using the sampling method.
 
 > [!NOTE]

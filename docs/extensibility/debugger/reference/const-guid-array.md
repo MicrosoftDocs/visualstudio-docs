@@ -20,7 +20,7 @@ dev_langs:
 ---
 # CONST_GUID_ARRAY
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A structure that holds a list of `GUID`s.
 
 ## Syntax

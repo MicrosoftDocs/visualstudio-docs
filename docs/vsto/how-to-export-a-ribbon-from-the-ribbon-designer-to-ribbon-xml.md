@@ -25,7 +25,7 @@ ms.workload:
 ---
 # How to: Export a ribbon from the Ribbon Designer to Ribbon XML
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The **Ribbon (Visual Designer)** item does not support all possible types of Ribbon customization. To customize the ribbon in advanced ways, you can export the ribbon from the designer to Ribbon XML and edit the XML directly.
 
 > [!NOTE]

@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugReference2::EnumChildren
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Get a list of selected children of a reference. Reserved for future use.
 
 ## Syntax

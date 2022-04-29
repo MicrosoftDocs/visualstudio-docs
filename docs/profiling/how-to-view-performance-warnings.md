@@ -14,7 +14,7 @@ ms.workload:
 ---
 # How to: View performance warnings
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The performance warnings of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools Profiling Tools indicate issues in a profiled application that can slow program execution. Warnings can also indicate that you might want to change collection methods to collect more useful data. Performance warnings are generated automatically in a profiling session and appear in the **Error List** window when a profiling data file is opened in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE.
 
  If the **Error List** window does not appear when you open a profiling data file, click the **View** menu, and then click **Error List**.

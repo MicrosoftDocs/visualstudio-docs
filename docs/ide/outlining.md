@@ -21,7 +21,7 @@ ms.workload:
 ---
 # Outlining
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can choose to hide some code from view by collapsing a region of code so that it appears under a plus sign (**+**). You expand a collapsed region by clicking the plus sign. If you are a keyboard user, you can choose **Ctrl**+**M**+**M** to collapse and expand. You can also collapse an outlining region by double-clicking any line in the region on the outlining margin, which appears just to the left of the code. You can see the contents of a collapsed region as a tooltip when you hover over the collapsed region.
 

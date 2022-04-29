@@ -15,7 +15,7 @@ ms.technology: vs-installation
 ---
 # Enabling administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Microsoft Endpoint Configuration Manager (SCCM) can manage Visual Studio administrator updates by using the Software Update management workflow. For documentation simplicity, the content below will refer to the Visual Studio 2017, Visual Studio 2019 and Visual Studio 2022 products collectively as "Visual Studio".
 

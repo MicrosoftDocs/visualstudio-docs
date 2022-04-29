@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Create visual data plots with R
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Plotting is a key part of a data scientist's workflow. In R Tools for Visual Studio (RTVS), all plotting activity centers around one or more plot windows, which are designed to improve your productivity with this key activity.
 

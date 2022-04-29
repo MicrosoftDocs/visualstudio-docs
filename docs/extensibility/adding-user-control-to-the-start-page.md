@@ -19,7 +19,7 @@ monikerRange: vs-2017
 ---
 # Add user control to the Start Page
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough shows how to add a DLL reference to a custom Start Page. The example adds a user control to the solution, builds the user control, and then references the built assembly from the Start Page *.xaml* file. A new tab hosts the user control, which functions as a basic Web browser.
 

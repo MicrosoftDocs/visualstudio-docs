@@ -25,7 +25,7 @@ ms.workload:
 ---
 # Deploying a VSTO Solution Using Windows Installer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Summary
 

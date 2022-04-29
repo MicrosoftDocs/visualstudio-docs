@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Export button (Concurrency Visualizer)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Export** button enables you to export the call stack as a .*csv* file for your own records or for use with another tool such as Microsoft Excel.
 
 ## See also

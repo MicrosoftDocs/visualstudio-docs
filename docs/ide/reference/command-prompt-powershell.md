@@ -18,7 +18,7 @@ monikerRange: ">=vs-2019"
 ---
 # Visual Studio Developer Command Prompt and Developer PowerShell
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio includes two command-line shells for developers, a command prompt and an instance of PowerShell, as follows:
 

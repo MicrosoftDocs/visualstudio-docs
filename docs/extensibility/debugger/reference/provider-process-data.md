@@ -20,7 +20,7 @@ dev_langs:
 ---
 # PROVIDER_PROCESS_DATA
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure provides information about processes running on a machine.
 
 ## Syntax

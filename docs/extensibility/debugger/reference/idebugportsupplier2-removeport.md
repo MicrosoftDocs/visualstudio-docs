@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugPortSupplier2::RemovePort
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Removes a port.
 
 ## Syntax

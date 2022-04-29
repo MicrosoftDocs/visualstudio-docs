@@ -13,7 +13,7 @@ ms.workload:
 ---
 # VSG_NODEFAULT_INSTANCE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Defines by its presence whether a default instance of the [VsgDbg Class](vsgdbg-class.md) class—which provides the programmatic capture interface—is supplied.
 
 ## Syntax

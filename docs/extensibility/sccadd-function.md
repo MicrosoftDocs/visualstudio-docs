@@ -17,7 +17,7 @@ ms.workload:
 ---
 # SccAdd function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function adds new files to the source control system.
 
 ## Syntax

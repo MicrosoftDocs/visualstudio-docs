@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugObject2::GetBackingFieldForProperty
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the field or variable (if any) that may be backing the property represented by this object.
 
 ## Syntax

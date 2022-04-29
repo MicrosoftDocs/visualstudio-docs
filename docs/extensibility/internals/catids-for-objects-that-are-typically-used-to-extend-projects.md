@@ -18,7 +18,7 @@ ms.workload:
 ---
 # CATIDs for objects that are typically used to extend projects
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following table lists CATIDs that are used to extend `Project` and `ProjectItem` automation objects for [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)], [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)], and [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] projects. These CATIDs are defined in *VSLangProj.olb*.
 
 ## Listing of CATIDs

@@ -18,7 +18,7 @@ ms.workload:
 ---
 # ExtensionData element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Represents a collection of custom data items that are associated with the SharePoint project item.
 
 ## Syntax

@@ -21,7 +21,7 @@ dev_langs:
 ---
 # IDebugMessageEvent2::GetMessage
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the message to be displayed.
 
 ## Syntax

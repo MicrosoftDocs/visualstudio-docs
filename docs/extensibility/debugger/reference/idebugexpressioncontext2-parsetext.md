@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugExpressionContext2::ParseText
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Parses an expression in text form for later evaluation.
 
 ## Syntax

@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSectionContrib::get_virtualAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the virtual address (VA) of the contribution.
 
 ## Syntax

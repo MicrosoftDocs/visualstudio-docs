@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Options, Text Editor, HTML (Web Forms), Miscellaneous
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Miscellaneous** options page to set preferences for how the HTML editor handles elements pasted into the page. To access this page, on the menu bar, choose **Tools** > **Options**, and then expand **Text Editor** > **HTML (Web Forms)** > **Miscellaneous**.
 

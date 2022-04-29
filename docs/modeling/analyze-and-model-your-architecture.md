@@ -23,7 +23,7 @@ ms.workload:
 ---
 # Analyze and model your architecture
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Make sure your app meets architectural requirements by using Visual Studio architecture and modeling tools to design and model your app.
 

@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Sharing Classes between DSLs by using a DSL Library
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In the Visual Studio Visualization and Modeling SDK, you can create an incomplete DSL Definition that you can import into another DSL. This lets you factor common parts of similar models.
 
 ## Creating and using DSL Libraries

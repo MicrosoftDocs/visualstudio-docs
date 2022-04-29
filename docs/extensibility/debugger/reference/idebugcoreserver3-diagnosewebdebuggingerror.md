@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugCoreServer3::DiagnoseWebDebuggingError
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Attempts to determine why an auto-attach failed.
 
 ## Syntax

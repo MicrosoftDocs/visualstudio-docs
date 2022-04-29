@@ -14,7 +14,7 @@ ms.workload:
 ---
 # QueryCounters
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **QueryCounters** option lists the CPU (hardware) performance counters that are available on the computer.
 
  **QueryCounters** must be the only option on the command line.

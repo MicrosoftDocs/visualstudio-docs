@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugModule3::SetJustMyCodeState
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Marks the module as being user code or not.
 
 ## Syntax

@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IPropertyProxyEESide::GetInitialData
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the initial data for this object.
 
 ## Syntax

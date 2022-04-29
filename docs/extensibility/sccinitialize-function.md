@@ -17,7 +17,7 @@ ms.workload:
 ---
 # SccInitialize Function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function initializes the source control plug-in and provides capabilities and limits to the integrated development environment (IDE).
 
 ## Syntax

@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugProgramEx2::Attach
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Attach a session to a program.
 
 ## Syntax

@@ -15,7 +15,7 @@ ms.workload:
 ---
 # m_stateFlags field
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Stores information about the current state of the <xref:System.Threading.Tasks.Task> object.
 
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

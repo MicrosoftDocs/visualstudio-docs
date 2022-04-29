@@ -21,7 +21,7 @@ dev_langs:
 ---
 # IDebugPendingBreakpoint2::SetCondition
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets or changes the condition associated with the pending breakpoint.
 
 ## Syntax

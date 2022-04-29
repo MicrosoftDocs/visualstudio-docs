@@ -20,7 +20,7 @@ dev_langs:
 ---
 # MODULE_FLAGS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Used to describe a module.
 
 ## Syntax

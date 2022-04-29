@@ -14,7 +14,7 @@ ms.workload:
 ---
 # EndCapture
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Ends a capture interval that was started with `BeginCapture`.
 
 ## Syntax

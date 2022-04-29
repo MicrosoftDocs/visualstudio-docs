@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_compilerName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the name of the compiler used to generate the [Compiland](../../debugger/debug-interface-access/compiland.md).
 
 ## Syntax

@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDebugPort2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a debug port on a machine.
 
 ## Syntax

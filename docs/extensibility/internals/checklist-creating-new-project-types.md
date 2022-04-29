@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Checklist: Create new project types
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You must complete several tasks to create a new project type. The following checklist provides a guide to those tasks:
 
 1. Design the functionality for your new project type. For more information, see [Project type design decisions](../../extensibility/internals/project-type-design-decisions.md).

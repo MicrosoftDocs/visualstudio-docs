@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Disk Operations Report (Threads View)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Disk Operations Report shows disk I/O operations in the disk channels.
 
  For each disk access that occurs on behalf of the process that's being profiled in the currently visible time window, this information is reported:

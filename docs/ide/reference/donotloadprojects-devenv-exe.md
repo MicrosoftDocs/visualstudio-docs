@@ -17,7 +17,7 @@ ms.workload:
 ---
 # /DoNotLoadProjects (devenv.exe)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **New for Visual Studio 2019 version 16.1**
 

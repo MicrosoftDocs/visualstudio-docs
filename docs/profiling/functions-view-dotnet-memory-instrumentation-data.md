@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Functions View - .NET memory instrumentation data
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Functions view of .NET memory allocation profiling data that was collected by using the instrumentation method lists the functions that allocated memory during the profiling run. A function row reports the size and number of allocations, and the timing data for the function.
 
 ## General

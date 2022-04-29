@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaFrameData
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Exposes the details of a stack frame.
 
 ## Syntax

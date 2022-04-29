@@ -22,7 +22,7 @@ dev_langs:
 ---
 # IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Allows (or disallows) expression evaluation to occur on the given thread, even if the program has stopped.
 
 ## Syntax

@@ -44,7 +44,7 @@ ms.workload:
 ---
 # Content controls
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Content controls provide a way for you to design documents and templates that have these features:
 
 - A user interface (UI) that has controlled input like a form.

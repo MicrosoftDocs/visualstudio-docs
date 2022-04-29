@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Debugging Applications
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following sections deal with debugging for specific types of applications. Different application types and different languages require different settings and techniques, and present different issues that need to be debugged.
 
 ## Debugging for different types of applications

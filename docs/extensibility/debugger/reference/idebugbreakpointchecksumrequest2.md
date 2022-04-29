@@ -15,7 +15,7 @@ ms.workload:
 ---
 # IDebugBreakpointChecksumRequest2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents a document checksum for a breakpoint request.
 
 ## Syntax

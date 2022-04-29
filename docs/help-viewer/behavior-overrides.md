@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Help Content Manager overrides
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can change the default behavior of Help Viewer and help-related features in the Visual Studio IDE. Some options are specified by creating a [.pkgdef](https://devblogs.microsoft.com/visualstudio/whats-a-pkgdef-and-why/) file to set various registry key values. Others are set directly in the registry.
 

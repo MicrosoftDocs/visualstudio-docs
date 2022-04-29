@@ -14,7 +14,7 @@ ms.workload:
 ---
 # ToggleHUD
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Toggles the graphics diagnostics *HUD* (Head-Up Display) overlay on or off.
 
 ## Syntax

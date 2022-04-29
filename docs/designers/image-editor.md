@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Image editor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article describes how to work with the Visual Studio **Image Editor** to view and modify texture and image resources.
 

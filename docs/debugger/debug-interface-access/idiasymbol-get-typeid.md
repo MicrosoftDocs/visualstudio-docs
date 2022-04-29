@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_typeId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the type identifier of the symbol.
 
 ## Syntax

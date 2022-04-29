@@ -15,7 +15,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_isVirtualInheritance
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether the `this` pointer points to a data member with virtual inheritance.
 
 ## Syntax

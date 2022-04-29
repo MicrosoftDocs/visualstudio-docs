@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Colors and Styling for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Use color in Visual Studio
 

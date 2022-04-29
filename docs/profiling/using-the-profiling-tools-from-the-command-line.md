@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Use the Profiling Tools from the command-line
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can use the command-line tools of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools to profile applications at the command prompt and to automate profiling by using batch files and scripting. You can also generate report files at a command prompt. You can use the lightweight stand-alone profiler to collect data on computers that do not have [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installed.
 
 > [!NOTE]

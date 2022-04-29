@@ -22,7 +22,7 @@ ms.workload:
 ---
 # Find the name of the ASP.NET process
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To debug a running [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] app, the Visual Studio debugger must attach to the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] process by name.
 

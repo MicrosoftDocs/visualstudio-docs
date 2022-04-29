@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Advanced Security Settings dialog box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This dialog box allows you to specify security settings related to debugging in zone.
 

@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_oemSymbolId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the original equipment manufacturer (OEM) symbol's ID value.
 
 ## Syntax

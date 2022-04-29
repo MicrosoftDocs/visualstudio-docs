@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Get started with R Tools for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Once you have R Tools for Visual Studio (RTVS) installed (see [Installation](installing-r-tools-for-visual-studio.md)), you can quickly get a taste of the experience that those tools provide.
 

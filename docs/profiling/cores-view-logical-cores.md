@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Cores View logical cores
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Each channel name represents one of the logical cores that exist on the profiled system. The naming counts up from 0 to the total number of logical cores. For example, a four-core system will count from logical core 0 to logical core 3.
 
 ## See also

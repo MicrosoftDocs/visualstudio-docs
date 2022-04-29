@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Spy++ Reference
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 See the sections listed below for descriptions of each Spy++ menu and dialog box:
 
 ## In This Section

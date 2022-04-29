@@ -16,7 +16,7 @@ ms.workload:
 ---
 # How to: Change Fonts
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can change the font, font style, and font size for Spy++ windows.
 
 ### To change font options

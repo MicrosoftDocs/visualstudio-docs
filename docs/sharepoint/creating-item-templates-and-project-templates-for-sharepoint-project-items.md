@@ -24,7 +24,7 @@ ms.workload:
 ---
 # Create item templates and project templates for SharePoint project items
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you define a custom SharePoint project item type, you can associate it with an item template or a project template. This association allows other developers to use the project item in Visual Studio. You can also create a wizard for the template.
 

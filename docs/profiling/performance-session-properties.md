@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Performance session properties
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A **Performance Session** enables you to configure settings that determine how the application is profiled. It also stores reports that are generated for the profiling session.
 

@@ -14,7 +14,7 @@ ms.workload:
 ---
 # How to: Instrument a .NET service and collect detailed timing data by using the profiler command line
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article describes how to use Visual Studio Profiling Tools command-line tools to instrument a .NET Framework service and collect detailed timing data.
 

@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaLoadCallback2::RestrictSystemRootAccess
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if searching for .pdb files is allowed in the system root directory.
 
 ## Syntax

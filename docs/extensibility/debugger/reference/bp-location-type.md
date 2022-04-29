@@ -20,7 +20,7 @@ dev_langs:
 ---
 # BP_LOCATION_TYPE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the location type of the breakpoint for a breakpoint request.
 
 ## Syntax

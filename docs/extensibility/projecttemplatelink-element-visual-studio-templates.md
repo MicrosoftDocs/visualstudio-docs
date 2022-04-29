@@ -19,7 +19,7 @@ ms.workload:
 ---
 # ProjectTemplateLink element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the path to the *.vstemplate* file of one project in a multi-project template.
 
  \<VSTemplate>

@@ -19,7 +19,7 @@ dev_langs:
 ---
 # IDebugArrayObject2::HasBaseIndices
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the array has base indices (lower bounds) defined.
 
 ## Syntax

@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Prerequisites dialog box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Prerequisites** dialog box specifies which prerequisite components are installed, how they are installed, and which order the packages are installed.
 

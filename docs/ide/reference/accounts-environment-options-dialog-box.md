@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Accounts, Environment, Options dialog box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this page to set various options related to the accounts you use to sign in to Visual Studio.
 

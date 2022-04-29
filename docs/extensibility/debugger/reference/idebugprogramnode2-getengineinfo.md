@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugProgramNode2::GetEngineInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name and identifier of the debug engine (DE) running a program.
 
 ## Syntax

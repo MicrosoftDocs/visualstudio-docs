@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDebugDocumentContext2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a position in a source file document.
 
 ## Syntax

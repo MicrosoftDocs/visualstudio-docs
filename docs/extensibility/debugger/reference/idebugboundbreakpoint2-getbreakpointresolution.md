@@ -21,7 +21,7 @@ dev_langs:
 ---
 # IDebugBoundBreakpoint2::GetBreakpointResolution
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the breakpoint resolution that describes this breakpoint.
 
 ## Syntax

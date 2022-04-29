@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugEvent2::GetAttributes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the attributes for this debug event.
 
 ## Syntax

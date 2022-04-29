@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Messages Tab, Message Options Dialog Box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Use the **Messages** tab to select which message types to list in [Messages View](../debugger/messages-view.md), and to specify message search criteria. To display the [Message Options Dialog Box](../debugger/message-options-dialog-box.md), choose **Log Messages** from the **Spy** menu.
 
  Typically, you first select **Message Groups**, and then fine-tune the selection by selecting individual **Messages to View**. The **All** button selects all message types, and the **None** button clears all types.

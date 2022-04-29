@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaStackWalkHelper::frameForVA
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the stack frame that contains the specified virtual address.
 
 ## Syntax

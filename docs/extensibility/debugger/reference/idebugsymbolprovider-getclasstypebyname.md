@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugSymbolProvider::GetClassTypeByName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the class field type representing a fully qualified class name.
 
 ## Syntax

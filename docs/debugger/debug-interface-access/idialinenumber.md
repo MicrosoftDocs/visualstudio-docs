@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaLineNumber
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Accesses information that describes the process of mapping from a block of bytes of image text to a source file line number.
 
 ## Syntax

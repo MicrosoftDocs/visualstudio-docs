@@ -19,7 +19,7 @@ monikerRange: vs-2017
 ---
 # What's new for design in Visual Studio 2017
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Live dependency validation
 

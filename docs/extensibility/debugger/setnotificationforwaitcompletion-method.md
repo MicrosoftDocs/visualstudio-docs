@@ -16,7 +16,7 @@ ms.workload:
 ---
 # SetNotificationForWaitCompletion Method
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets or clears the TASK_STATE_WAIT_COMPLETION_NOTIFICATION state bit.
 
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

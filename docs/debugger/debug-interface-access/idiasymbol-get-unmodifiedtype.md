@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_unmodifiedType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the original type for this symbol. Use when the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) is set to a type.
 
 ## Syntax

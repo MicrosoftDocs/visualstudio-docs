@@ -21,7 +21,7 @@ ms.technology: vs-ide-test
 ---
 # Analyze load test results in the Graphs view of the Load Test Analyzer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The results of a load test are displayed as data in several different panes.
 

@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Convert Get method to property / Convert property to Get method refactorings
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 These refactorings apply to:
 

@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugStackFrame2::GetDocumentContext
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the document context for this stack frame.
 
 ## Syntax

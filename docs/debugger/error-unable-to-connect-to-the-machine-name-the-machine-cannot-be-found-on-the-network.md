@@ -21,7 +21,7 @@ ms.workload:
 ---
 # Error: Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network.
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This behavior occurs if one of the following conditions is true:
 
 - Your connection to the remote computer was broken.

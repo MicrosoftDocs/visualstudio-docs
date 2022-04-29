@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Menu Commands
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Help topics in this section list the commands available on the Spy++ menus.
 
 ## In This Section

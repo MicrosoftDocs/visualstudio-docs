@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Message Options Dialog Box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Use this dialog box to select which messages are listed in [Messages View](../debugger/messages-view.md). To display this dialog box, choose **Log Messages** from the **Spy** menu.
 
 ## In This Section

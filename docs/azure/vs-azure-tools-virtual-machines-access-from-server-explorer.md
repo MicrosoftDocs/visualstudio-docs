@@ -11,7 +11,7 @@ ms.author: ghogen
 ---
 # Accessing Azure Virtual Machines from Server Explorer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range=">=vs-2022"
 > [!Important]

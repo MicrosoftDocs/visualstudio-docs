@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Test Area 1: Add To/Open From Source Control
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This source-control plug-in test area covers placing solutions or projects under source control and retrieving them from source control.
 
 ## Command Menu Access

@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Args
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The VSPerfCmd.exe **Args** option specifies a list of arguments that are passed to the target application of the **Launch** subcommand.
 
  **Args** can only be used when **Launch** is also specified on the command line. **Args** is optional when **Launch** is specified.

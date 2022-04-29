@@ -29,7 +29,7 @@ ms.workload:
 ---
 # Troubleshoot SharePoint packaging and deployment
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This topic covers various problems that you might encounter when you package and deploy SharePoint solutions.
 
 ## Enable enhanced debugging

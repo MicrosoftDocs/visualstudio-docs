@@ -13,7 +13,7 @@ ms.custom: aaddev, vs-azure
 ---
 # Diagnosing errors with the Azure Active Directory Connected Service
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 While detecting previous authentication code, the Azure Active Directory connected service detected an incompatible authentication type.
 

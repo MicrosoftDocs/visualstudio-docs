@@ -20,7 +20,7 @@ ms.workload:
 ---
 # How to: Define a SharePoint project item type
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Define a project item type when you want to create a custom SharePoint project item. For more information, see [Defining custom SharePoint project item types](../sharepoint/defining-custom-sharepoint-project-item-types.md).
 
 ### To define a project item type

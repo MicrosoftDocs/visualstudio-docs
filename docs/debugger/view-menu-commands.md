@@ -16,7 +16,7 @@ ms.workload:
 ---
 # View Menu Commands
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **View** menu provides commands for controlling the Spy++ user interface.
 
  **Font**

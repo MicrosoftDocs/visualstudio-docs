@@ -24,7 +24,7 @@ ms.workload:
 ---
 # Import items from an existing SharePoint site
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The Import SharePoint Solution Package project template lets you reuse elements such as content types and fields from existing SharePoint sites in a new [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint solution. Although you can run most imported solutions without modification, there are certain restrictions and issues to consider, especially if you modify any items after importing them.
 
 > [!NOTE]

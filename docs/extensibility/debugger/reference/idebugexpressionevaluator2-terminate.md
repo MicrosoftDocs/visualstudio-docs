@@ -19,7 +19,7 @@ dev_langs:
 ---
 # IDebugExpressionEvaluator2::Terminate
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Stops and cleans up the expression evaluator.
 
 ## Syntax

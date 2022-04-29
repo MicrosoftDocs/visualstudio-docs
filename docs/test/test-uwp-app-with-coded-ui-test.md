@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Create a coded UI test to test a UWP app
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article explains how to create a coded UI test for a Universal Windows Platform (UWP) app.
 

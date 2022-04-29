@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Runtime Activity Designers
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Runtime activity designers are used to persist and terminate workflow activities. The topics contained in this section provide guidance on how to use the Workflow Designer activity designers.
 
 ## Related Sections

@@ -16,7 +16,7 @@ author: TerryGLee
 ---
 # Transition Activity Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A <xref:System.Activities.Statements.Transition> represents the transition between two states.
 

@@ -17,7 +17,7 @@ ms.workload:
 ---
 # marker_series::write_alert method
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Writes an alert to the Concurrency Visualizer trace file.
 
 ## Syntax

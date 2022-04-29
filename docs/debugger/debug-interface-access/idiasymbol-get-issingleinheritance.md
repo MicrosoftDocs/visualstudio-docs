@@ -13,7 +13,7 @@ ms.technology: vs-ide-debug
 ---
 # IDiaSymbol::get_isSingleInheritance
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether the `this` pointer points to a data member with single inheritance.
 
 ## Syntax
