@@ -6,8 +6,8 @@ ms.date: "10/28/2019"
 ms.topic: "how-to"
 helpviewer_keywords:
   - "tracepoints, about tracepoints"
-author: "Sagar-S-S"
-ms.author: "sashe"
+author: MikeJo5000
+ms.author: mikejo
 manager: AndSter
 ms.workload:
   - "multiple"
