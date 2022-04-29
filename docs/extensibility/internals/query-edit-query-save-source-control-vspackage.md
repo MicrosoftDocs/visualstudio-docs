@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Query Edit Query Save (Source Control VSPackage)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] editors can broadcast Query Edit Query Save (QEQS) events. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Source Control Stub implements the QEQS service, so that it is the recipient of QEQS events. These events are then delegated to the currently active source control VSPackage. The active source control VSPackage implements the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2> and its methods. The methods of the `IVsQueryEditQuerySave2` interface are typically called immediately before a document is edited for the first time and immediately before a document is saved.
 
 ## QueryEditQuerySave Events

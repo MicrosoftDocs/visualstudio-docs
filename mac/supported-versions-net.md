@@ -8,8 +8,9 @@ ms.date: 01/08/2020
 ms.topic: how-to
 ms.assetid: 8B8CEBE8-00DA-4AD1-8193-77F58B57F244
 ---
-
 # Supported versions of .NET
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 The following table describes the versions of .NET Core supported by the stable and preview versions of Visual Studio for Mac:
 

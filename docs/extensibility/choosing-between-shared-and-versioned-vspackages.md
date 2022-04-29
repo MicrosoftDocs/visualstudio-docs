@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Choose between shared and versioned VSPackages
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Different versions of Visual Studio can coexist on the same computer. VSPackages can support any mix of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] versions.
 
  You can enable side-by-side installations of VSPackages through either of two strategies, the shared strategy or the versioned strategy. Both accommodate the presence of multiple versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and associated versions of the .NET Framework.

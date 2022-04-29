@@ -17,6 +17,8 @@ ms.technology: vs-ide-test
 ---
 # Manage load test results in the Load Test Results Repository
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 When you run your load tests, any information gathered during a load test run may be stored in the *Load Test Results Repository*, which is a SQL database. The Load Test Results Repository contains performance counter data and any information about recorded errors. The Results Repository database is created by setup for controllers, or created automatically on the first local run of a load test. For a local run, the database will be created automatically if the load test schema is not present.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]

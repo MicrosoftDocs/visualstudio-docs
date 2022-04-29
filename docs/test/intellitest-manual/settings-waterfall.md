@@ -15,6 +15,8 @@ author: mikejo5000
 ---
 # Settings waterfall
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The concept of the settings waterfall means that the user can specify settings at the **Assembly**, **Fixture**, and **Exploration** level:
 
 * Assembly - [PexAssemblySettings](attribute-glossary.md#pexassemblysettings)

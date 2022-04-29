@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # BC Texture Compression Variant
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enables block compression on textures that have a pixel format that's a variation of B8G8R8X8, B8G8R8A8, or R8G8B8A8.
 
 ## Interpretation

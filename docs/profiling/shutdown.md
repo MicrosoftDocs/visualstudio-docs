@@ -13,6 +13,8 @@ ms.workload:
   - multiple
 ---
 # Shutdown
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Shutdown** option waits for any currently profiled process to end or detach, and then it turns off the profiler and closes the profiling data file. The **Shutdown** option must be the last command of a profiling run.
 
  If a time-out parameter is not specified, the **Shutdown** option waits indefinitely. If a time-out parameter is specified, the option returns after the specified number of seconds without turning off the profiler or closing the data file.

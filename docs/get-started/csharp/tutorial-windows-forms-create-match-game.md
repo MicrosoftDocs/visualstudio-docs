@@ -10,8 +10,9 @@ ms.date: 01/07/2022
 ms.custom: 
 - vs-acquisition
 ---
-
 # Tutorial: Create a matching game WinForms app
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 

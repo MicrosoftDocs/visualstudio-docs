@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # Find Window Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Use this dialog box to select a window and display its properties or messages. To display this dialog box, choose **Find Window** from the **Spy** menu.
 
  The following settings are available:

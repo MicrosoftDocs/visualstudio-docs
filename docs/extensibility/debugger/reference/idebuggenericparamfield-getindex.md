@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugGenericParamField::GetIndex
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the index of this generic parameter.
 
 ## Syntax

@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Troubleshooting template installation
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 If you run into problems deploying your project or item templates, you can enable diagnostic logging.
 
 ::: moniker range="vs-2017"

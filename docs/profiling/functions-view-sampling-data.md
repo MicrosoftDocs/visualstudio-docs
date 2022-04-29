@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # Functions View - sampling data
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Functions report view for the sampling profile method lists the functions that were sampled during the profiling run.
 
 > [!NOTE]

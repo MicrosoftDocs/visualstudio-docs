@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugExceptionEvent2::PassToDebuggee
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether the exception should be passed on to the program being debugged when execution resumes, or if the exception should be discarded.
 
 ## Syntax

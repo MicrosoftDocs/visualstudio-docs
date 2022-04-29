@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Toolbox
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The **Toolbox** window displays controls that you can add to Visual Studio projects. To open **Toolbox**, choose **View** > **Toolbox** from the menu bar, or press **Ctrl**+**Alt**+**X**.
 
 ![Screenshot of the Toolbox window showing the options in the Containers section.](media/vs-2019/toolbox.png "Screenshot of the Toolbox window")

@@ -18,6 +18,8 @@ ms.workload:
 ---
 # DA0026: Excessive kernel CPU time processing
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 |Item|Value|
 |-|-|
 |Rule Id|TODO|

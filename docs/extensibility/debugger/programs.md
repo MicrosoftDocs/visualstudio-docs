@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Programs
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In the debugger architecture, a *program*:
 
 - Is a container for both a set of threads and a set of modules. A program has no single analogy in the Windows operating system.

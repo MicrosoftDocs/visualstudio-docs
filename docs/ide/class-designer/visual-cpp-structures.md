@@ -16,6 +16,8 @@ ms.workload:
 ---
 # C++ structures in Class Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 **Class Designer** supports C++ structures, which are declared with the keyword `struct`. Following is an example:
 
 ```cpp

@@ -16,6 +16,8 @@ ms.technology: vs-ide-general
 ---
 # Project and item templates
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Project and item templates provide reusable stubs that give users some basic code and structure, that they can customize for their own purposes.
 
 ## Visual Studio templates

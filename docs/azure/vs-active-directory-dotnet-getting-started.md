@@ -14,6 +14,8 @@ ms.custom: "devx-track-csharp, aaddev, vs-azure"
 ---
 # Getting Started with Azure Active Directory (ASP.NET MVC Projects)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 > [!div class="op_single_selector"]
 > - [Getting Started](vs-active-directory-dotnet-getting-started.md)
 > - [What Happened](vs-active-directory-dotnet-what-happened.md)

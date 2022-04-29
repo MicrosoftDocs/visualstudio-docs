@@ -10,8 +10,9 @@ ms.technology: vs-ide-install
 ms.assetid: 4EB95F75-BC2E-4982-9564-2975805712D8
 ms.topic: how-to
 ---
-
 # Uninstall Visual Studio for Mac 
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 You can use this guide to uninstall each component in Visual Studio for Mac individually by navigating to the relevant section. You can also use the scripts provided in the [Uninstall Script](#uninstall-script) section to uninstall everything.
 

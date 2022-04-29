@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram2::Continue
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Continues running this program from a stopped state. Any previous execution state (such as a step) is preserved, and the program starts executing again.
 
 > [!NOTE]

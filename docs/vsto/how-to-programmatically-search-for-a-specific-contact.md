@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically search for a specific contact
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example searches an Outlook contacts folder for a specific contact by first and last name. The example assumes that a contact named **John Evans** exists in the contacts folder.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

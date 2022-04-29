@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Publish a Web app to Azure App Service using Visual Studio for Mac
 
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+
 You can use the Publish tool to publish ASP.NET Core apps to Azure App Service.
 
 ## Prerequisites

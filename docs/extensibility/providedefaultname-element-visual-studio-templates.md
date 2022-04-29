@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # ProvideDefaultName element (Visual Studio templates)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project system will generate a default name for the template in the **Add New Item** or **New Project** dialog box.
 
  \<VSTemplate>

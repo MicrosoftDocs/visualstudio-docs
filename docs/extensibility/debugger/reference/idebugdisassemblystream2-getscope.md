@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugDisassemblyStream2::GetScope
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the scope of the disassembly stream.
 
 ## Syntax

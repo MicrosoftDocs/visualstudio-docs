@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Tutorial - Create your first extension: Hello World
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This Hello World example walks you through creating your first extension for Visual Studio. This tutorial shows you how to add a new command to Visual Studio.
 
 In the process, you will learn how to:

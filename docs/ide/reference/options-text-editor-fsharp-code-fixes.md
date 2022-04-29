@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Options: Text Editor > F# > Code Fixes
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Use the Code Fixes options page to specify the settings that can help identify code errors and offer solutions. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **F#** > **Code Fixes**.
 
 ## Code Fixes

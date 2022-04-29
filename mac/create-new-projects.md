@@ -11,6 +11,8 @@ ms.assetid: 5880BB10-0A12-47E2-8A82-7A2D59C4D579
 ---
 # Create a new project
 
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+
 ## Opening the project creation dialog
 
 There are a few ways to create a new project in Visual Studio for Mac. When you first open Visual Studio for Mac, the start window is shown. From here, you can select **New** which takes you to the project creation screen.

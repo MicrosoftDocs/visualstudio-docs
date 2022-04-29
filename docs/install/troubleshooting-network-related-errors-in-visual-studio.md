@@ -17,9 +17,10 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.custom: devdivchpfy22
 ---
 # Troubleshoot network-related errors when you install or use Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 We've got solutions for the most typical network- or proxy-related errors. You might encounter these errors when you install or use Visual Studio behind a firewall or a proxy server.
 

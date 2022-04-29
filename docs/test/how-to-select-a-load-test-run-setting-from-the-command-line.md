@@ -15,6 +15,8 @@ ms.technology: vs-ide-test
 ---
 # How to: Select a load test run setting to use from the command line
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 A load test can include *run settings*, which are properties that influence the way a load test runs. Run settings are organized by categories in the **Properties** window. When a load test is run, it uses the run setting that is currently set as active.
 
 If your load test contains only one run setting, it is always the active node. If your load test contains multiple run settings nodes, you can select the one to use when you run a load test from the command line. See [How to: Add additional run settings to a load test](../test/how-to-add-additional-run-settings-to-a-load-test.md).

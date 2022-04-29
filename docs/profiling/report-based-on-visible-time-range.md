@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # Report based on visible time range
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Profile view displays reports that are based on the currently visible time range and channels. To see details for different subsets of the data, click items in the legend.
 
  You can find more information about the data in the tables here.

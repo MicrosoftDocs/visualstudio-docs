@@ -16,6 +16,8 @@ ms.workload:
 ---
 # How to: Get a service
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You often need to get Visual Studio services to access different features. In general, a Visual Studio service provides one or more interfaces that you can use. You can get most services from a VSPackage.
 
 Any VSPackage that derives from <xref:Microsoft.VisualStudio.Shell.Package> and that has been correctly sited can ask for any global service. Because the `Package` class implements <xref:System.IServiceProvider>, any VSPackage that derives from `Package` is also a service provider.

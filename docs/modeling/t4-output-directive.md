@@ -13,6 +13,8 @@ ms.workload:
 ---
 # T4 Output Directive
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In Visual Studio text templates, the `output` directive is used to define the file name extension and encoding of the transformed file.
 
  For example, if your Visual Studio project includes a template file named **MyTemplate.tt** which contains the following directive:

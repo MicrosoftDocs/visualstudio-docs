@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugBinder::ResolveDynamicType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns the exact type of a variable.
 
 ## Syntax

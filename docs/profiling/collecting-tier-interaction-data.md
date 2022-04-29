@@ -21,6 +21,8 @@ ms.workload:
 ---
 # Collect tier interaction data
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Tier interaction profiling provides additional information about the execution times of functions of multi-tiered applications that communicate with databases through ADO.NET services. Data is collected only for synchronous function calls.
 
 **Visual Studio editions**

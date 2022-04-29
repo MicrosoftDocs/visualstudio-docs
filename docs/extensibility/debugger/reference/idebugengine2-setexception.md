@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngine2::SetException
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies how the debug engine (DE) should handle a given exception.
 
 ## Syntax

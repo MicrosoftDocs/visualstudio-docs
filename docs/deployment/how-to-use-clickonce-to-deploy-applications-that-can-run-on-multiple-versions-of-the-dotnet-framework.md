@@ -21,6 +21,8 @@ ms.workload:
   - dotnet
 ---
 # How to: Use ClickOnce to deploy applications that can run on multiple versions of the .NET framework
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can deploy an application that targets multiple versions of the .NET Framework by using the ClickOnce deployment technology. This requires that you generate and update the application and deployment manifests.
 
 > [!NOTE]

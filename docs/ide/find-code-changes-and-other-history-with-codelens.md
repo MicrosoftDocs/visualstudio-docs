@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Find code changes and other history with CodeLens
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 CodeLens lets you stay focused on your work while you find out what happened to your code&ndash;without leaving the editor. You can find references to a piece of code, changes to your code, linked bugs, work items, code reviews, and unit tests.
 
 ::: moniker range=">=vs-2019"

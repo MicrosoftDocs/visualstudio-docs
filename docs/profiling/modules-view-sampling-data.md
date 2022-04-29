@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # Modules View - sampling data
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Modules view of sampling data displays performance data that is grouped by the modules that were sampled in the profiling data. Each module is the root of a hierarchical tree. The sampled functions of the module are listed underneath the module node.
 
 > [!NOTE]

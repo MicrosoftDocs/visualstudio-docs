@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically delete appointments
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example deletes one instance of a recurring appointment. The example assumes that an instance of a recurring appointment occurs on June 28, 2006, at 08:00.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

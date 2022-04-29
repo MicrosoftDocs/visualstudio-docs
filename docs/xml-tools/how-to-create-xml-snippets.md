@@ -14,6 +14,8 @@ ms.workload:
 ---
 # How to: Create XML snippets
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The XML editor can be used to create new XML snippets. The editor includes an XML snippet, named "Snippet", that is a boilerplate snippet for creating new XML snippets.
 
 ## To create a new XML snippet

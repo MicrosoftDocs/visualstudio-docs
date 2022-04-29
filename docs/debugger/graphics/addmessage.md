@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # AddMessage
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Adds a custom message to the graphics diagnostics *HUD* (Head-Up Display).
 
 ## Syntax

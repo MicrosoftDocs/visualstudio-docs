@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Options dialog box: Text Editor \> JavaScript/TypeScript \> Linting
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Use the **Linting** page of the **Options** dialog box to set options for analyzing code in the Code Editor. To access this page, on the menu bar, choose **Tools** > **Options**, and then expand **Text Editor** > **JavaScript/TypeScript** > **Linting**.
 
 ## ESLint Settings

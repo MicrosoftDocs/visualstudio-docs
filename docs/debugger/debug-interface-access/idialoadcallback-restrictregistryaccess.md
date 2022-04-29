@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaLoadCallback::RestrictRegistryAccess
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if registry queries can be used to locate symbol search paths.
 
 ## Syntax

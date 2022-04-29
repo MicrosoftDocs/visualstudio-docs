@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaAddressMap::get_imageAlign
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the current image alignment.
 
 ## Syntax

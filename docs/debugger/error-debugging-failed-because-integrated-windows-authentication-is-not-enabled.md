@@ -21,6 +21,8 @@ ms.workload:
   - "multiple"
 ---
 # Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Authentication of the user who requested debugging was prevented by an authentication error. This can occur when you try to step into a Web application or an XML Web service. One cause of this error is that integrated Windows authentication is not enabled. To enable it, follow the steps in "To enable integrated Windows authentication."
 
  If you have enabled integrated Windows authentication and this error still appears, it is possible that this error is caused because **Digest Authentication for Windows Domain Servers** is enabled. In this situation you should contact with your network administrator.

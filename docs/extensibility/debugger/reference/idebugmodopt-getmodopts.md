@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugModOpt::GetModOpts
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of optional modifiers.
 
 ## Syntax

@@ -20,6 +20,8 @@ ms.workload:
 ---
 # How to: Specify build events (C#)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Use build events to specify commands that run before the build starts or after the build finishes.
 
 When a project is built, pre-build events are added to a file named *PreBuildEvent.bat* and post-build events are added to a file named *PostBuildEvent.bat*. If you want to ensure error checking, add your own error-checking commands to the build steps.

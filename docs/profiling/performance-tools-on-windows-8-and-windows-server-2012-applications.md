@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Performance tools on Windows 8 and Windows Server 2012 applications
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Enhanced security features starting in Windows 8 and Windows Server 2012 required significant changes in the way Visual Studio performance tools collect data on these platforms. UWP apps also require new collection techniques. This topic describes the changes for performance tools starting on Windows 8 and Windows Server 2012 platforms.
 
 > [!NOTE]
