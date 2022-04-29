@@ -67,6 +67,16 @@ Clicking on **Re-enter your credentials** will open your system's default web br
 > [!NOTE] 
 > For the best experience, keep your browser open until all CA/MFA policies are validated for your resources. Closing the browser may result in losing the previously built MFA state, and may prompt additional authorization prompts.
 
+### Unable to sign in
+If you're unable to log in even when using the system web browser, try the following steps to resolve the issue:
+
+1. [Sign out](signing-in-to-visual-studio.md#sign-out-of-account) of the account in Visual Studio.
+1. Select **Tools** > **Options** > **Accounts** > Uncheck **Authenticate across all Azure Active Directories**.
+1. Sign in again.
+
+> [!NOTE]
+> After the above troubleshooting steps, you should be able to log in but you won't have access to all your tenants/resources as the [offending tenants blocking sign-in will be filtered out](#how-to-opt-out-of-using-a-specific-azure-active-directory-tenant-in-visual-studio). 
+
 ## How to opt out of using a specific Azure Active Directory tenant in Visual Studio
 
 Visual Studio 2019 version 16.6 and above offers the flexibility to filter out tenants individually or globally, effectively hiding them from Visual Studio. Filtering eliminates the need to authenticate with that tenant, but it also means that you won't be able to access any associated resources.
