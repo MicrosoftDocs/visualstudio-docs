@@ -10,6 +10,8 @@ ms.assetid: CE860D79-E29E-4B93-B094-BE74B35FC1C2
 ---
 # Troubleshooting
 
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+
 ## Viewing logs in Visual Studio for Mac
 
 Logs can be found by browsing to the **Help > Open Log Directory** menu item, as illustrated below:
