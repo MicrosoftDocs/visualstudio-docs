@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # REFERENCE_COMPARE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the type of comparison for references.
 
 ## Syntax

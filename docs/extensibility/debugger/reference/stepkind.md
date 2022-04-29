@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # STEPKIND
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the step kind for stepping.
 
 ## Syntax

@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPendingBreakpoint2::EnumBoundBreakpoints
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Enumerates all breakpoints bound from this pending breakpoint.
 
 ## Syntax

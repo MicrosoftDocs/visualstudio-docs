@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortSupplierDescription2::GetDescription
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the description and description metadata for the port supplier.
 
 ## Syntax

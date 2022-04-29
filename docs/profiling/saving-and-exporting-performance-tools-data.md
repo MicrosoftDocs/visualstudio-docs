@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Save and export performance tools data
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This article describes how to save and export performance data files.
 
 ## How to: Save performance data files as analyzed report files

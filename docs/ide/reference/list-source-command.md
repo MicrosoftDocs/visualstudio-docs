@@ -19,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # List Source Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Displays the specified lines of source code.
 
 ## Syntax

@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugDynamicFieldCOMPlus::GetTypeFromTypeDef
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves a type given its token.
 
 ## Syntax

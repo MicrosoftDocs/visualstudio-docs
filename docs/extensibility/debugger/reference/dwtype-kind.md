@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # dwTYPE_KIND
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies how to interpret the type of an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.
 
 ## Syntax

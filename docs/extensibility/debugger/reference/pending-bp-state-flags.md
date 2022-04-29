@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # PENDING_BP_STATE_FLAGS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the pending breakpoint state flags.
 
 ## Syntax

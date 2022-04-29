@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # MODULE_INFO_FLAGS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the state of symbols for a module.
 
 ## Syntax

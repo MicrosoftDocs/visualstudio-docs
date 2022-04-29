@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugPortPicker
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Represents a customized UI for selecting the port.
 
 ## Syntax

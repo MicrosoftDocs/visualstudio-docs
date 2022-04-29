@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugClassField::EnumNestedClasses
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Creates an enumerator for the classes nested in this class.
 
 ## Syntax

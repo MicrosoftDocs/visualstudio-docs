@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Create a new project in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 In this article, we'll show you how to quickly create a new project in Visual Studio from a template.
 
 ::: moniker range="vs-2017"

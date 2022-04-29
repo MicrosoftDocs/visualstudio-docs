@@ -20,8 +20,9 @@ ms.technology: vs-ide-debug
 ms.workload: 
   - multiple
 ---
-
 # Watch variables with Watch windows and QuickWatch
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 While you're debugging, you can use **Watch** windows and **QuickWatch** to watch variables and expressions. The windows are only available during a debugging session.
 

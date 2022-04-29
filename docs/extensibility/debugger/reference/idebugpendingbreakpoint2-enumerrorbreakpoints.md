@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPendingBreakpoint2::EnumErrorBreakpoints
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets a list of all error breakpoints that resulted from this pending breakpoint.
 
 ## Syntax

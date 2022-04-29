@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Source Control Plug-in Glossary
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The following helpful terms and definitions pertain to the Source Control Plug-in SDK documentation.
 
 ## Definitions

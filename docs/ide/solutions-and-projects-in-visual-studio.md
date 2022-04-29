@@ -23,6 +23,8 @@ ms.workload:
 ---
 # What are solutions and projects in Visual Studio?
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 In this article, you'll learn what  a *project* and a *solution* is in Visual Studio. It also briefly covers the Solution Explorer tool window and how to create a new project.
 
 > [!NOTE]

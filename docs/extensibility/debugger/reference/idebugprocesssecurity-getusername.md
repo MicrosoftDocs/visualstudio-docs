@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcessSecurity::GetUserName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the user name from the port supplier.
 
 ## Syntax

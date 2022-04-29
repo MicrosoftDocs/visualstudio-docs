@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugAddresses::Next
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method returns the next set of elements from the enumeration.
 
 ## Syntax

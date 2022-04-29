@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # SccIsMultiCheckoutEnabled Function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This function checks whether the source control plug-in allows multiple checkouts on a file.
 
 ## Syntax

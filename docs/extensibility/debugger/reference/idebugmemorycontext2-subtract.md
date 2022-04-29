@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugMemoryContext2::Subtract
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Subtracts the specified value from the current context and returns a new context.
 
 ## Syntax

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess2::GetName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the title, friendly name, or file name of the process.
 
 ## Syntax

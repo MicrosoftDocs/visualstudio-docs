@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Visual Studio Debugger Glossary
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The following are terms used in the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] Debugging SDK.
 
 ## Terms

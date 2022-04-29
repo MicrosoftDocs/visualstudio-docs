@@ -20,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Profile a SharePoint application
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   This walkthrough shows how to use the profiling tools in Visual Studio to optimize the performance of a SharePoint application. The example application is a SharePoint feature event receiver that contains an idle loop that degrades the performance of the feature event receiver. The Visual Studio profiler enables you to locate and eliminate the most expensive (slowest-performing) part of the project, also known as the *hot path*.
 
  This walkthrough demonstrates the following tasks:

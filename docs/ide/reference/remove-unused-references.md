@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Remove Unused References
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This refactoring applies to:
 
 - C#

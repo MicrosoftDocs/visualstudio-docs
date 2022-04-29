@@ -18,6 +18,8 @@ ms.workload:
 ---
 # DA0505: Average Private Bytes allocated for the Process being profiled
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 |Item|Value|
 |-|-|
 |Rule Id|DA0505|

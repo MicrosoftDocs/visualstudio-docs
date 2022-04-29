@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSession::findFile
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves source files by compiland and name.
 
 ## Syntax

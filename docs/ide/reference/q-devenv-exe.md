@@ -18,6 +18,8 @@ ms.workload:
 ---
 # /? (devenv.exe)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Displays a message box listing all `devenv` switches, with a brief description of each switch.
 
 ## Syntax

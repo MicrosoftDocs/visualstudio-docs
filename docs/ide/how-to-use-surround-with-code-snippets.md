@@ -16,6 +16,8 @@ ms.workload:
 ---
 # How to: Use surround-with code snippets
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 ::: moniker range="vs-2022"
 
 The following procedures describe how to use surround-with code snippets. Surround-with code snippets are available from the **Edit** menu and from the right-click context menu.

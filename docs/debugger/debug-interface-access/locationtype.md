@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # LocationType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Indicates the kind of location information contained in a symbol.
 
 ## Syntax

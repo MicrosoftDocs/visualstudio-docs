@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugThreadDestroyEvent2::GetExitCode
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the exit code for a thread.
 
 ## Syntax

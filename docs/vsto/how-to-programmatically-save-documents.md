@@ -19,6 +19,8 @@ ms.workload:
 ---
 # How to: Programmatically save documents
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 There are several ways to save Microsoft Office Word documents. You can save a document without changing the name of the document, or you can save a document with a new name.
 
 [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty3::SetValueAsStringWithError
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Sets the value of this property and returns an error message, if necessary.
 
 ## Syntax

@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Debugger components
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugger is implemented as a VSPackage and manages the entire debug session. The debug session comprises the following elements:
 
 - **Debug Package:** The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugger provides the same user interface no matter what is being debugged.

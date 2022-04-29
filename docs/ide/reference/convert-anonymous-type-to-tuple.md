@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Convert anonymous type to tuple
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This refactoring applies to:
 
 - C#

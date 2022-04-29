@@ -17,6 +17,8 @@ monikerRange: '>= vs-2019'
 ---
 # Convert anonymous type to class
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This refactoring applies to:
 
 - C#

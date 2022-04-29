@@ -23,6 +23,8 @@ ms.workload:
   - multiple
 ---
 # CvWriteAlert function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Writes an alert to the Concurrency Visualizer trace file.
 
 ## Syntax

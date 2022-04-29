@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaLineNumber::get_columnNumberEnd
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the one-based source column number where the expression or statement ends.
 
 ## Syntax

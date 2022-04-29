@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Welcome to the Visual Studio IDE | Python
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The Visual Studio *integrated development environment* is a creative launching pad for Python (and other languages) that you can use to edit, debug, and test code, and then publish an app. An integrated development environment (IDE) is a feature-rich program that can be used for many aspects of software development. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes code completion tools, interactive REPL environments, and other features to ease the software development process.
 
 [![Visual Studio with a Python project](media/tour-ide-overview.png)](media/tour-ide-overview.png#lightbox)

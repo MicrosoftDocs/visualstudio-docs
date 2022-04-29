@@ -12,8 +12,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Quickstart: Create a Python project from existing code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 Once you've [installed Python support in Visual Studio](installing-python-support-in-visual-studio.md), it's easy to bring existing Python code into a Visual Studio project.
 

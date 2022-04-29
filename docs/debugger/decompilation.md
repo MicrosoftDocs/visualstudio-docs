@@ -17,8 +17,9 @@ ms.workload:
   - multiple
 monikerRange: '>= vs-2019'
 ---
-
 # Generate source code from .NET assemblies while debugging
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 When debugging a .NET application, you may find that you want to view source code that you don't have. For example, breaking on an exception or using the call stack to navigate to a source location.
 

@@ -22,6 +22,8 @@ ms.workload:
 ---
 # How to: Debug in mixed mode (C#, C++, Visual Basic)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The following procedures describe how to enable debugging for managed and native code together, also known as mixed-mode debugging. There are two mixed-mode debugging scenarios:
 
 - The app that calls a DLL is written in native code, and the DLL is managed.

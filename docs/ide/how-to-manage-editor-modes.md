@@ -30,6 +30,8 @@ ms.workload:
 ---
 # How to: Manage editor modes
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 You can display the Visual Studio code editor in various display modes.
 
 > [!NOTE]

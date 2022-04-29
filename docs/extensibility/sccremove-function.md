@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # SccRemove Function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This function deletes files from the source control system.
 
 ## Syntax

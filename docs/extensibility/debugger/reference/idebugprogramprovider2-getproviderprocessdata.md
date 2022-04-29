@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramProvider2::GetProviderProcessData
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves a list of running programs from a specified process.
 
 ## Syntax

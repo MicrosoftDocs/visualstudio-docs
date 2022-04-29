@@ -18,6 +18,8 @@ ms.workload:
 ---
 # DA0018: 32-bit Application running at process-managed memory limits
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 |Item|Value|
 |-|-|
 |Rule Id|DA0018|

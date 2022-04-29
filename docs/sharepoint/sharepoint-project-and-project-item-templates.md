@@ -25,6 +25,8 @@ ms.workload:
   - "office"
 ---
 # SharePoint project and project item templates
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   The following sections describe the available SharePoint project and project item templates and how they are used.
 
 ## Project and project item templates overview

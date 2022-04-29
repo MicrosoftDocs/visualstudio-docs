@@ -18,6 +18,8 @@ ms.workload:
 - multiple
 ---
 # Add Existing Item Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Adds an existing file to the current solution and opens it.
 
 ## Syntax

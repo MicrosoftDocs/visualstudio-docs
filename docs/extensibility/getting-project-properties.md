@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Get project properties
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This walkthrough shows how to displays project properties in a tool window.
 
 ## Prerequisites

@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # Performance Report overview
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 You can view the profiling data of a performance session in the **Performance Report** window of the Visual Studio Team System Development Edition integrated development environment (IDE). The profiling data is saved in .vsp and .vsps files. Report view windows enable you to view and analyze application performance issues.
 
 > [!CAUTION]

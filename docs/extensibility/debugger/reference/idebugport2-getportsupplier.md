@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPort2::GetPortSupplier
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the port supplier for this port.
 
 ## Syntax

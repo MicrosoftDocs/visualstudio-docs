@@ -14,6 +14,8 @@ ms.workload:
   - multiple
 ---
 # Detach
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The VSPerfCmd.exe **Detach** option disconnects the profiler from the specified processes or all processes if none are specified. Profiling must have been initialized by using the sampling method.
 
  Profiling that was started with either the **Launch** or the **Attach** options can be disconnected with **Detach**. The profiler can be reattached by using subsequent **Attach** commands.

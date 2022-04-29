@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IEnumDebugBoundBreakpoints2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This interface enumerates the bound breakpoints associated with a pending breakpoint or breakpoint bound event.
 
 ## Syntax

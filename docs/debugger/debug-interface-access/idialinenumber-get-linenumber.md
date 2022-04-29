@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaLineNumber::get_lineNumber
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the line number in the source file.
 
 ## Syntax

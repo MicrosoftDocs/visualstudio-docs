@@ -15,6 +15,8 @@ monikerRange: vs-2017
 ---
 # Walkthrough: Save user settings on a Start Page
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 You can persist user settings for your Start Page. By following this walkthrough, you can create a control that saves a setting to the registry when the user clicks a button, and then retrieves that setting every time the Start Page loads. Because the Start Page project template includes a customizable user control, and the default Start Page XAML calls that control, you don't have to modify the Start Page itself.
 
 The settings store that is instantiated in this walkthrough is an instance of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore> interface, which reads and writes to the following registry location when it's called: **HKCU\Software\Microsoft\VisualStudio\14.0\\\<CollectionName>**

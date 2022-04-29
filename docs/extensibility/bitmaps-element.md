@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Bitmaps element
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Groups [Bitmap element](../extensibility/bitmap-element.md) elements.
 
 ## Syntax

@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Visual Studio commands
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 You can enter Visual Studio commands in the **Command** window, **Immediate** window, or **Find/Command** box. In each case, the greater than sign (`>`) indicates that a command, rather than a search or debug operation, follows.
 
 You can find a complete list of commands and their syntax on the **Keyboard** page in **Tools** > **Options** > **Environment**.

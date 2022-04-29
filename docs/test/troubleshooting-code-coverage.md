@@ -13,6 +13,8 @@ author: mikejo5000
 ---
 # Troubleshoot code coverage
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The code coverage analysis tool in Visual Studio collects data for native and managed assemblies (*.dll* or *.exe* files). However, in some cases, the **Code Coverage Results** window displays an error similar to "Empty results generated: ...." There are several reasons why you can get empty results. This article helps you resolve those issues.
 
 ## What you should see

@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugExtendedField::IsClosedType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Determines if the field represents a closed type.
 
 ## Syntax

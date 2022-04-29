@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugReference2::EnumChildren
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Get a list of selected children of a reference. Reserved for future use.
 
 ## Syntax

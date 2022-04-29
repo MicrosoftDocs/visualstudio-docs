@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugFunctionObject2::CreateObject
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Creates an object that uses a constructor given evaluation flag settings and a timeout value.
 
 ## Syntax

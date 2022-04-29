@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugReference2::GetSize
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the size, in bytes, of the value of the reference. Reserved for future use.
 
 ## Syntax

@@ -18,6 +18,8 @@ ms.workload:
   - "multiple"
 ---
 # Set Current Thread Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Sets the specified thread as the current thread.
 
 ## Syntax

@@ -12,6 +12,8 @@ ms.workload:
 ---
 # Shortcut tips for Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 You can navigate in Visual Studio more easily by using the shortcuts in this article. These shortcuts include keyboard and mouse shortcuts as well as text you can enter to help accomplish a task more easily.
 
 For a complete list of command shortcuts, see [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).

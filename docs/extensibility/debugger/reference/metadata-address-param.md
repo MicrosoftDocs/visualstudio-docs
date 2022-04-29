@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # METADATA_ADDRESS_PARAM
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This structure represents a parameter of a method or function.
 
 ## Syntax

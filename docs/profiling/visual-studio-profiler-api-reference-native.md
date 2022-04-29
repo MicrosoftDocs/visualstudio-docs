@@ -18,6 +18,8 @@ ms.workload:
   - "cplusplus"
 ---
 # Visual Studio profiler API reference (native)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Visual Studio profiler APIs allow you to programmatically control the amount of data collected, and insert both timestamp and profile marks during profiling. To use native APIs, you include *VSPerf.h* header file and add the *VSPerf.lib* in your project.
 
 > [!NOTE]

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # DISASSEMBLY_STREAM_SCOPE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the scope of the disassembly stream.
 
 ## Syntax

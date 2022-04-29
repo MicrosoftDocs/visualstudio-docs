@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugSettingsCallback2::GetMetricString
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the value string of the metric given its name.
 
 ## Syntax

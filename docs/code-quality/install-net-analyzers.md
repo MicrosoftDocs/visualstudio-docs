@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Enable or install first-party .NET analyzers
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 ## Overview
 
 .NET compiler platform (Roslyn) analyzers inspect your C# or Visual Basic code for code quality and code style issues. The first-party .NET analyzers are **target-platform agnostic**. That is, your project doesn't need to target a specific .NET platform. The analyzers work for projects that target `net5.0` and earlier .NET versions, such as `netcoreapp`, `netstandard`, and `net472`.

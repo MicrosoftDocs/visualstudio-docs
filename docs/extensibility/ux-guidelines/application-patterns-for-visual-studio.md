@@ -13,6 +13,8 @@ ms.workload:
 - vssdk
 ---
 # Application Patterns for Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 ## <a name="BKMK_WindowInteractions"></a> Window interactions
 
 ### Overview

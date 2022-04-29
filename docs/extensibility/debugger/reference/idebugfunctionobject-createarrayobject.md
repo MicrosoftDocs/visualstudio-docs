@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugFunctionObject::CreateArrayObject
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Creates an array object. This array can contain either primitive or object instance values.
 
 ## Syntax

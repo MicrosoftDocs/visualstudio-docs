@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugActivateDocumentEvent2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The debug engine (DE) uses this interface to request a document to be loaded.
 
 ## Syntax

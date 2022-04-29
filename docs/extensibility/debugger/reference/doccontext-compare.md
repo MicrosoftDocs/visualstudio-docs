@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # DOCCONTEXT_COMPARE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the criteria for comparing two document contexts.
 
 ## Syntax

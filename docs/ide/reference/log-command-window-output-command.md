@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Log Command window output command
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Copies all input and output from the **Command** window into a file.
 
 ## Syntax

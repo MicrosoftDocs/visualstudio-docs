@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically save Visio documents
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   There are several ways to save Microsoft Office Visio documents:
 
 - Save changes in an existing document.

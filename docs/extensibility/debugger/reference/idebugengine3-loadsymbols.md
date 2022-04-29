@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngine3::LoadSymbols
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Loads (as necessary) symbols for all modules being debugged by this debugging engine.
 
 ## Syntax

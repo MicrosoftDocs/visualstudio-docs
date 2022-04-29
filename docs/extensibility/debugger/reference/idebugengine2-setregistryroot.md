@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngine2::SetRegistryRoot
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Sets the registry root for the debug engine (DE).
 
 ## Syntax

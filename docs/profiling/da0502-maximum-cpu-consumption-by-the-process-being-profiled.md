@@ -18,6 +18,8 @@ ms.workload:
 ---
 # DA0502: Maximum CPU consumption by the process being profiled
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 |Item|Value|
 |-|-|
 |Rule Id|DA0502|

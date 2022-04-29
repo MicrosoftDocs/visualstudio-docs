@@ -21,6 +21,8 @@ ms.description: "Collect ETL traces using perfview.exe and create minidumps to s
 ---
 # Collect an ETL trace with PerfView and create minidumps with all call stacks
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 When you report a problem with Visual Studio, the Microsoft product team might ask for an ETL trace or minidumps to collect additional information for troubleshooting. Use the following steps to collect an ETL trace or to create minidumps for all call stacks.
 
 ## Collect an ETL trace with PerfView

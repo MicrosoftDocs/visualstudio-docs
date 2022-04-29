@@ -24,6 +24,8 @@ ms.workload:
 ---
 # How to: Collect performance data for a web site
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 You can use the **Performance Wizard** to collect performance data for an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application. You can profile a web application that is open in Visual Studio, or you can profile an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web site that is located on your local computer and not open in the Visual Studio IDE.
 
 > [!NOTE]

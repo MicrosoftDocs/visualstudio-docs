@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Saving Symbol Information with Performance Data Files
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 If you are using the Visual Studio IDE to analyze files and you plan to move your VSP file to a different computer, you must set the performance project settings to save or *serialize* symbols in your report file. This increases the size of a report file. Serializing symbols is necessary for two reasons:
 
 - To embed code symbols into a performance report before the target assemblies are lost from their location in temporary storage.

@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # ResumeProfile
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The `ResumeProfile` method decrements the Suspend/Resume counter for the specified profiling level.
 
 ## Syntax

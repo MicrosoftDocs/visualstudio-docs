@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngine2::RemoveAllSetExceptions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Removes the list of exceptions the IDE has set for a particular run-time architecture or language.
 
 ## Syntax

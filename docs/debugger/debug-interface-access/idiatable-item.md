@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaTable::Item
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves a reference to the specified entry in the table.
 
 ## Syntax

@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # Caller/Callee view -  contention data
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The Caller/Callee view displays contention information for a selected function and its parent and child functions. The Caller/Callee view contains three grids.
 
  **Current function** is displayed in the middle grid, and it shows contention information for the selected function. The values include all blocking contentions for the function.

@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Make member static
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This refactoring applies to:
 
 - C#

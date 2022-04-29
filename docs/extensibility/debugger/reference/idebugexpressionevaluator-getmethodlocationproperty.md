@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpressionEvaluator::GetMethodLocationProperty
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method converts a method location and offset into a memory address.
 
 ## Syntax

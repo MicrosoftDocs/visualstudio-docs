@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Convert between regular string and verbatim string literals refactoring
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This refactoring applies to:
 
 - C#

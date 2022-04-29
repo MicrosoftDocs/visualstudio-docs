@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # CONTEXT_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This structure describes a memory context or code context.
 
 ## Syntax

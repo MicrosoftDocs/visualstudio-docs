@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugField::GetSize
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method gets the size of a field, in bytes.
 
 ## Syntax

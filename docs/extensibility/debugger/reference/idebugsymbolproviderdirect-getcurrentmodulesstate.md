@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProviderDirect::GetCurrentModulesState
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves information about the symbol group of which the symbol provider is a member.
 
 ## Syntax

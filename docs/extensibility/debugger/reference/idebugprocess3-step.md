@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess3::Step
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Causes the process to step one instruction or statement.
 
 > [!NOTE]

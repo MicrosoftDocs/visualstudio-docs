@@ -18,6 +18,8 @@ ms.workload:
 ---
 # DA0039: Very high rate of lock contentions
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 |Item|Value|
 |-|-|
 |Rule Id|DA0039|

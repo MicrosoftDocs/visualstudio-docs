@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaDataSource::openSession
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Opens a session for querying symbols.
 
 ## Syntax

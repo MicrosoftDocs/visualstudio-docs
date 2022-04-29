@@ -19,6 +19,8 @@ ms.workload:
 ---
 # DA0007: Avoid using exceptions for control flow
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 |Item|Value|
 |-|-|
 |Rule Id|DA0007|

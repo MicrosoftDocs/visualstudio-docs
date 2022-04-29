@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # Caller/Callee view - .NET memory instrumentation Data
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The Caller/Callee view of .NET memory profiling data that was collected by using the instrumentation method displays allocation and timing data for a selected function and the parent and child functions of that selected function. The Caller/Callee view contains three grids.
 
  **Current function** is displayed in the middle grid, and it shows memory profiling information about the selected function. The values include all sampled calls to the function.

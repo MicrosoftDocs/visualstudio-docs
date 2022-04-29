@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # GETNAME_TYPE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the name type of files to retrieve.
 
 ## Syntax

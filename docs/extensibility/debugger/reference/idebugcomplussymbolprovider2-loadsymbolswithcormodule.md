@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Loads debug symbols given the **ICorDebugModule** object.
 
 ## Syntax

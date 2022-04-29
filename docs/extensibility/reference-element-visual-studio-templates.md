@@ -18,6 +18,8 @@ ms.workload:
 - vssdk
 ---
 # Reference element (Visual Studio templates)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the assembly reference to add when the item is added to a project.
 
  \<VSTemplate>

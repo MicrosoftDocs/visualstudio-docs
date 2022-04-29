@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortEx2::GetPortProcessId
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the process ID of the port itself.
 
 ## Syntax

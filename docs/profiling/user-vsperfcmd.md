@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # User (VSPerfCmd)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The **User** option specifies the domain and user name of the account that owns the profiled process. This option is required only if the process is running as a user other than the logged on user. The process owner is listed in the User Name column on the **Processes** tab of Windows Task Manager.
 
  The **User** option can only be specified on a command line that also contains the **Start** option.

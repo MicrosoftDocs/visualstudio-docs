@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugEnumField::GetStringFromValue
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method obtains the name of the enumeration constant given its value.
 
 ## Syntax

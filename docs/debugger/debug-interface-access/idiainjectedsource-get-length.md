@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaInjectedSource::get_length
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the number of bytes of code.
 
 ## Syntax

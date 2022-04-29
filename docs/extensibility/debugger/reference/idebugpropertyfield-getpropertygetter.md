@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPropertyField::GetPropertyGetter
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the method that gets the property.
 
 ## Syntax

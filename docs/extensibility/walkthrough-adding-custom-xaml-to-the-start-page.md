@@ -18,6 +18,8 @@ monikerRange: vs-2017
 ---
 # Walkthrough: Add custom XAML to the start page
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This walkthrough shows how to create a custom Visual Studio start page that contains a Web browser.
 
 ## Add custom XAML

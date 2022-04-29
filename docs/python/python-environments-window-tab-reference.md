@@ -12,8 +12,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Python Environments window tabs reference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 To open the **Python Environments** window:
 

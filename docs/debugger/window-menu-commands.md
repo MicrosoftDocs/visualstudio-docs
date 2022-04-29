@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Window Menu Commands
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The **Window** menu provides commands to manage Spy++ windows.
 
  **Cascade**

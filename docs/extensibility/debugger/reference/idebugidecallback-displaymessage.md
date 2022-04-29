@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugIDECallback::DisplayMessage
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Sends the specified message string to the debugger's output window.
 
 ## Syntax

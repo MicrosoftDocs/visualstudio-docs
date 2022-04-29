@@ -20,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically set search options in Word
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   There are two ways to set search options for selections in Microsoft Office Word documents:
 
 - Set individual properties of a <xref:Microsoft.Office.Interop.Word.Find> object.

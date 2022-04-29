@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # FIELD_KIND
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the kind of field contained in an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.
 
 ## Syntax

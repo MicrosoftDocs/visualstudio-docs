@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # StartProfile
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The `StartProfile` function sets the counter to 1 (on) for the specified profiling level.
 
 ## Syntax

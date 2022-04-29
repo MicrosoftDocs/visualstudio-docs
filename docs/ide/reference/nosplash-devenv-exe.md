@@ -17,6 +17,8 @@ ms.workload:
 ---
 # /NoSplash (devenv.exe)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Prevents the splash screen from being shown.
 
 ## Syntax

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugStackFrame2::GetInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets a description of the stack frame.
 
 ## Syntax

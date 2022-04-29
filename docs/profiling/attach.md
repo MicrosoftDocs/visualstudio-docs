@@ -14,6 +14,8 @@ ms.workload:
   - multiple
 ---
 # Attach
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The *VSPerfCmd.exe* **Attach** option begins sample profiling of the running process specified by the process ID (PID).
 
  To use the **Attach** option, you must specify the **Sample** method in the Start option.

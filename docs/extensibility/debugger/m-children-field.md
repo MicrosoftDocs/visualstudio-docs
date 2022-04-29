@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # m_children field
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The list of child tasks that are registered with this task.
 
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

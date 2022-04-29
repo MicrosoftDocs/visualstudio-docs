@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugCodeContexts2::Reset
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Resets the enumeration to the first element.
 
 ## Syntax

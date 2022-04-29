@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProvider::GetLanguage
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method gets the language that was used to compile the code at the debug address.
 
 ## Syntax

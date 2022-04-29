@@ -17,6 +17,8 @@ ms.workload:
 ---
 # TryCatch Activity Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The **TryCatch** activity designer is used to create and configure a <xref:System.Activities.Statements.TryCatch> activity.
 
 ## The TryCatch Activity

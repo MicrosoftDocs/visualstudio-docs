@@ -13,6 +13,8 @@ ms.workload:
 - multiple
 ---
 # Artboard modifier keys in Blend
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Some keyboard shortcuts do not have associated menu items, which means that you can't use the [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)] user interface to discover them. The following table lists shortcuts that modify an action, such as resizing an object.
 
 |To do this action|Do this|

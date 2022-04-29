@@ -18,6 +18,8 @@ ms.workload:
 ---
 # DA0021: High rate of Gen 1 garbage collections
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 |Item|Value|
 |-|-|
 |Rule Id|DA0021|

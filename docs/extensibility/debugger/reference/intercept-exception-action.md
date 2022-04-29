@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # INTERCEPT_EXCEPTION_ACTION
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies what actions to take when intercepting exceptions.
 
 ## Syntax

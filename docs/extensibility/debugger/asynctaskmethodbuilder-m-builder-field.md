@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # AsyncTaskMethodBuilder.m_builder field
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Represents the generic builder object to which this non-generic instance delegates.
 
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>

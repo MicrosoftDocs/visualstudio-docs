@@ -12,6 +12,8 @@ ms.custom: cookbook
 ---
 # Working with projects in Visual Studio extensions
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Here's a collection of small code samples on different ways to work with projects.
 
 ## Get project from contained file

@@ -12,6 +12,8 @@ ms.custom: cookbook
 ---
 # Error handling in Visual Studio extensions
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Exceptions will likely occur in any program including Visual Studio extensions. Let's make sure we handle them correctly in a way that optimizes the user experiences when they do occur.
 
 If an exception is an anomaly that shouldn't happen, you want to log the details of the exception in a way you can fix it. Depending on the severity of the issue, you might also want to let the user know about it.

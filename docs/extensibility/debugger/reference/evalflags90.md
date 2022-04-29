@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # EVALFLAGS90
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Enumerates the valid values for flags that control expression evaluation. This enumeration extends the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration.
 
 ## Syntax

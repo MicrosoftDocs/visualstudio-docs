@@ -15,6 +15,8 @@ ms.workload:
   - "office"
 ---
 # IWefDebuggingSupport interface
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   Implemented by a debugging environment, such as Visual Studio, to facilitate debugging of apps for Office. The Office application, such as Word or Excel, obtains this interface from Visual Studio and then calls methods on the interface at certain points during the debugging session.
 
 ## Syntax

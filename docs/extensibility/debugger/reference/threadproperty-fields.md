@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # THREADPROPERTY_FIELDS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies what information about a thread is to be retrieved.
 
 ## Syntax

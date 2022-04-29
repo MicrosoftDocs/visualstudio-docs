@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugField::GetInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method gets displayable information about the field.
 
 ## Syntax

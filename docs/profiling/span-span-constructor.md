@@ -15,8 +15,9 @@ ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
-
 # span::span Constructor
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 Initializes a new instance of the `span` class.
 

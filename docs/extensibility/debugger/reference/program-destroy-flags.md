@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # PROGRAM_DESTROY_FLAGS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Enumerates the valid values of the program destroy flags.
 
 ## Syntax

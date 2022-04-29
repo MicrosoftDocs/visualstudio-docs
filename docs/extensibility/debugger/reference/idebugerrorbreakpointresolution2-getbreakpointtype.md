@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugErrorBreakpointResolution2::GetBreakpointType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the breakpoint type.
 
 ## Syntax

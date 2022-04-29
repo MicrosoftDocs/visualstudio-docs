@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProvider::GetMethodFieldsByName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method gets the field representing a fully qualified method name.
 
 ## Syntax

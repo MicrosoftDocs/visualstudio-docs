@@ -20,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically restore selections after searches
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   If you find and replace text in a document, you might want to restore the user's original selection after the search is completed.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]

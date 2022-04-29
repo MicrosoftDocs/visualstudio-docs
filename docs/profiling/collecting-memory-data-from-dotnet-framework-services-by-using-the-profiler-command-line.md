@@ -14,6 +14,8 @@ ms.workload:
   - dotnet
 ---
 # Collect memory data from .NET Framework services by using the profiler command line
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This section describes the procedures and options for collecting memory allocation and object lifetime data for a .NET Framework service using the sampling method from the command line.
 
 ## Common tasks

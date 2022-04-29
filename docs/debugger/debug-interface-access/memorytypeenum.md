@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # MemoryTypeEnum
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the type of memory to access.
 
 ## Syntax

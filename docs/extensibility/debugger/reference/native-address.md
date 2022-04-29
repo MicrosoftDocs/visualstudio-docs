@@ -20,6 +20,8 @@ dev_langs:
 ---
 # NATIVE_ADDRESS
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This structure represents a native address.
 
 ## Syntax

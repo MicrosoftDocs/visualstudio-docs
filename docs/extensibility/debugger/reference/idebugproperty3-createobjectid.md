@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty3::CreateObjectID
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Creates a unique ID for this property to ensure that it is unique among all other properties.
 
 ## Syntax

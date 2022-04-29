@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugFields::Clone
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method returns a copy of the current enumeration as a separate object.
 
 ## Syntax

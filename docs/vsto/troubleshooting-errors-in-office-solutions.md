@@ -25,6 +25,8 @@ ms.workload:
   - "office"
 ---
 # Troubleshoot errors in Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   You might encounter issues when you perform the following tasks while you develop Office solutions in Visual Studio:
 
 - [Create, upgrade, and open projects](#creating)

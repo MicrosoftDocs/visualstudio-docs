@@ -16,6 +16,8 @@ ms.workload:
 ---
 # CancellationScope Activity Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The **CancellationScope** activity designer is used to create and configure a <xref:System.Activities.Statements.CancellationScope> activity.
 
 ## The CancellationScope Activity

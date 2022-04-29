@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # How to: Add a custom SharePoint node to Server Explorer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   You can add custom nodes under the **SharePoint Connections** node in **Server Explorer**. This is useful when you want to display additional SharePoint components that are not displayed in **Server Explorer** by default. For more information, see [Extend the SharePoint connections node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md).
 
  To add a custom node, first create a class that defines the new node. Then create an extension that adds the node as a child of an existing node.

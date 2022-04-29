@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolSearchEvent2::GetSymbolSearchInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Called by an event handler to retrieve results about a symbol load process.
 
 ## Syntax

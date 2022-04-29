@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Create a master detail relation using a cached dataset
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   This walkthrough demonstrates creating a master/detail relation on a worksheet, and caching the data so that the solution can be used offline.
 
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]

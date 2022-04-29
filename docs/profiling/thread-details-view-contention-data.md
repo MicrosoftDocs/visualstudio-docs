@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # Thread Details view - contention data
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The Thread Details view presents a timeline graph of the blocking events in the selected thread of a profiling run that were caused by contentions over resources. A blocking event occurs when the thread is forced to suspend execution because another thread has locked access to a resource.
 
  This view represents the execution timeline of the thread as a horizontal bar and the blocking events as vertical bar on a horizontal timeline for the thread. When necessary, you can zoom in on a section of the timeline to view the individual events. To view the execution path of the functions that led to the event, click the event bar. The functions appear in the **Call Stack** window. When the source code for a function is available, you can click the function name to edit the source file in the Visual Studio IDE.

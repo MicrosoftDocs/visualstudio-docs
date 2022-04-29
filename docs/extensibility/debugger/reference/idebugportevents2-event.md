@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortEvents2::Event
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method sends events that signify the creation and destruction of processes and programs on a port.
 
 ## Syntax

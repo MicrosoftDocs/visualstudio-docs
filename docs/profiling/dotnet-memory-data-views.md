@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # .NET memory data views
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This section contains reference information for the views and reports of profiler data files that contains .NET memory profiling data.
 
 ## In this section

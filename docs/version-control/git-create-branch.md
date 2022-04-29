@@ -11,6 +11,8 @@ ms.technology: vs-ide-general
 ---
 # Create a Git branch in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 It's easy to create a new branch in Visual Studio; all you have to do is base it off an existing branch.
 
 Here's how.

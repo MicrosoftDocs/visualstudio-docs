@@ -17,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # Troubleshoot Office solution security
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   This topic contains tips for solving common problems that you might encounter when you work with securing Office solutions.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

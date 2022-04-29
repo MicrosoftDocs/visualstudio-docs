@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject::GetValue
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the value of the object as a consecutive series of bytes.
 
 ## Syntax

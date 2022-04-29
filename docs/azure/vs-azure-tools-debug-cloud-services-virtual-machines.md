@@ -11,6 +11,8 @@ ms.technology: vs-ide-debug
 ---
 # Debugging an Azure cloud service or virtual machine in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Visual Studio gives you different options for debugging Azure cloud services and virtual machines.
 
 ## Debug your cloud service on your local computer

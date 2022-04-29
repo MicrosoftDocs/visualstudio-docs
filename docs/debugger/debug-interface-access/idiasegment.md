@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSegment
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Maps data from the section number to segments of address space.
 
 ## Syntax

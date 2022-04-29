@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # BP_PASSCOUNT
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Describes the count and conditions upon which a conditional breakpoint is fired.
 
 ## Syntax

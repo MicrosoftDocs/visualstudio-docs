@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugMessageEvent2::GetMessage
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the message to be displayed.
 
 ## Syntax

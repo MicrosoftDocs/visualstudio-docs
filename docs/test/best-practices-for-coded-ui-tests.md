@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Best practices for coded UI tests
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This topic describes some recommendations for developing coded UI tests.
 
 [!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]

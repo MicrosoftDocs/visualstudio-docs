@@ -10,8 +10,10 @@ ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: how-to
 ms.date: 01/25/2021
-ms.author: ghogen
-monikerRange: ">=vs-2019"
+---
+# Create and deploy to Cloud Services (extended support) in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 ---
 # Create and deploy to Cloud Services (extended support) in Visual Studio
 

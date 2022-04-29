@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Guidelines to create Outlook form regions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   The following information can help you optimize your form regions and avoid potential problems:
 
 - [Use form region names](#UsingFormRegions).

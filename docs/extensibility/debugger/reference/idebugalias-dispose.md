@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugAlias::Dispose
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Marks this alias for removal.
 
 ## Syntax

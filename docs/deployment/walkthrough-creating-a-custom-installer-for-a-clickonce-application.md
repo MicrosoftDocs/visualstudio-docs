@@ -23,6 +23,8 @@ ms.workload:
   - "multiple"
 ---
 # Walkthrough: Create a custom installer for a ClickOnce application
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Any ClickOnce application based on an *.exe* file can be silently installed and updated by a custom installer. A custom installer can implement custom user experience during installation, including custom dialog boxes for security and maintenance operations. To perform installation operations, the custom installer uses the <xref:System.Deployment.Application.InPlaceHostingManager> class. This walkthrough demonstrates how to create a custom installer that silently installs a ClickOnce application.
 
 ## Prerequisites

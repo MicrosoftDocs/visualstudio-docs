@@ -20,6 +20,8 @@ dev_langs:
 ---
 # IDebugStackFrame2::GetLanguageInfo
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Gets the language associated with this stack frame.
 
 ## Syntax

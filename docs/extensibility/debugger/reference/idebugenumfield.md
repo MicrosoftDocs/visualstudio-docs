@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugEnumField
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This interface represents an enumeration type.
 
 ## Syntax

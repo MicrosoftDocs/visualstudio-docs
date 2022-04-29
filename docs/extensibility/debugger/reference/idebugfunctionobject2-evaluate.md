@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugFunctionObject2::Evaluate
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Calls the function and returns the resulting value as an object.
 
 ## Syntax

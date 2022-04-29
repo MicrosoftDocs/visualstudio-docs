@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSegment::get_virtualAddress
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the virtual address (VA) of the beginning of the section.
 
 ## Syntax

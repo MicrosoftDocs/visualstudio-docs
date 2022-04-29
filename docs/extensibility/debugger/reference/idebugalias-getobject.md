@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugAlias::GetObject
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the object that this alias is for.
 
 ## Syntax

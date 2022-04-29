@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # DEBUG_ADDRESS_UNION
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Describes different kinds of addresses.
 
 ## Syntax

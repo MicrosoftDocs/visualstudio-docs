@@ -21,6 +21,8 @@ ms.workload:
 ---
 # Open project command
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Opens an existing project or solution.
 
 ## Syntax

@@ -14,6 +14,8 @@ ms.workload:
   - cplusplus
 ---
 # How to: Attach the profiler to a native service to collect application statistics by using the command line (VSPerfCmd)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This article describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a native service and collect performance statistics by using the sampling method.
 
 > [!NOTE]

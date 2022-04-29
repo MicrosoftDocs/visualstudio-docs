@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugGenericParamField::GetOwner
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the type or method owner of this generic parameter.
 
 ## Syntax

@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugActivateDocumentEvent2::GetDocumentContext
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the document context that describes the position in the document that is to be made active by the debug package.
 
 ## Syntax

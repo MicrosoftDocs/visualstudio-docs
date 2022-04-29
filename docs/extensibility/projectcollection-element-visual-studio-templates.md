@@ -18,6 +18,8 @@ ms.workload:
 - vssdk
 ---
 # ProjectCollection element (Visual Studio templates)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the organization and contents of multi-project templates.
 
  \<VSTemplate>

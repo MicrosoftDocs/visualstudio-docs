@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentTextEvents2::onRemoveText
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Notifies the debug package that text has been removed from the document.
 
 ## Syntax

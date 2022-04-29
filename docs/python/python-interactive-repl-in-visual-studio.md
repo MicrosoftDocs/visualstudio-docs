@@ -12,8 +12,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Work with the Python Interactive window
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 Visual Studio provides an interactive read-evaluate-print loop (REPL) window for each of your Python environments, which improves upon the REPL you get with *python.exe* on the command line. The **Interactive** window (opened with the **View** > **Other Windows** > **&lt;environment&gt; Interactive** menu commands) lets you enter arbitrary Python code and see immediate results. This way of coding helps you learn and experiment with APIs and libraries, and to interactively develop working code to include in your projects.
 

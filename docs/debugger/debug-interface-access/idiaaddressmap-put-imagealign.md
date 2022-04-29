@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaAddressMap::put_imageAlign
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Sets the image alignment.
 
 ## Syntax

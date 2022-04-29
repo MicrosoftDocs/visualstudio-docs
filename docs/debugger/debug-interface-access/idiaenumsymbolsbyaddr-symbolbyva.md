@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaEnumSymbolsByAddr::symbolByVA
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Positions the enumerator by performing a lookup by virtual address (VA).
 
 ## Syntax

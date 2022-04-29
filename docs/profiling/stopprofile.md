@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # StopProfile
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The `StopProfile` function sets the counter to 0 (off) for the specified profiling level.
 
 ## Syntax

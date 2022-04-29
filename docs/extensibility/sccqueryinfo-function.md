@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # SccQueryInfo Function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This function obtains status information for a set of selected files under source control.
 
 ## Syntax

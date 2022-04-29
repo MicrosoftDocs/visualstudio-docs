@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # Function (Debug Interface Access SDK)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Each function is identified by a `SymTagFunction` symbol.
 
 ## Properties

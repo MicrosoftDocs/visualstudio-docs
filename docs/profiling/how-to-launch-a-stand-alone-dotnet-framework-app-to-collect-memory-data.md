@@ -14,6 +14,8 @@ ms.workload:
   - dotnet
 ---
 # How to: Launch a stand-alone .NET Framework application with the profiler to collect memory data by using the command line
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to start a .NET Framework stand-alone (client) application and collect memory data.
 
  A profiling session has three parts:

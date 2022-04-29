@@ -18,6 +18,8 @@ ms.workload:
 - vssdk
 ---
 # IntelliSenseHostFlags
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies IntelliSense host flags.
 
 ## Syntax

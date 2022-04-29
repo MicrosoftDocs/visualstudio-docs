@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugGenericFieldDefinition::TypeParamCount
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the number of type parameters that are associated with the generic field.
 
 ## Syntax

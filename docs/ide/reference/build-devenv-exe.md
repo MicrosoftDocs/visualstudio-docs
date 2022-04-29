@@ -20,6 +20,8 @@ ms.workload:
 ---
 # /Build (devenv.exe)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Builds a solution or project using a specified solution configuration file.
 
 ## Syntax

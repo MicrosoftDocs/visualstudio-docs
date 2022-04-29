@@ -17,6 +17,8 @@ ms.workload:
 ---
 # How to: Provide a brokered service
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 A brokered service consists of the following elements:
 
 - [An interface](#ServiceInterface) that declares the service's functionality and serves as a contract between the service and its clients.

@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IEnumDebugPorts2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This interface enumerates the ports of a machine or port supplier.
 
 ## Syntax

@@ -27,6 +27,8 @@ ms.workload:
   - "multiple"
 ---
 # Walkthrough: Debugging a Web Form
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The steps in this walkthrough show you how to debug an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application, also known as a Web Form. It shows you how to start and stop execution, set breakpoints, and examine variables in the **Watch** window.
 
 > [!NOTE]

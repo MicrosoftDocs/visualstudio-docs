@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugBreakpointUnboundEvent2::GetReason
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the reason the breakpoint was unbound.
 
 ## Syntax

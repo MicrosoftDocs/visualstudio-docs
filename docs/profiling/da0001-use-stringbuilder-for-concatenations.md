@@ -19,6 +19,8 @@ ms.workload:
 ---
 # DA0001: Use StringBuilder for concatenations
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 |Item|Value|
 |-|-|
 |Rule Id|DA0001|

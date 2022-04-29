@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugField::GetContainer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method gets the container of a field.
 
 ## Syntax

@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # Call Tree view - instrumentation data
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The values for a function in the call tree indicate the time for the function instances that were called by the parent function in the call tree. Percentage values are calculated by comparing the value of the function instances to the total elapsed inclusive time of all functions in the profiling run.
 
 ## General

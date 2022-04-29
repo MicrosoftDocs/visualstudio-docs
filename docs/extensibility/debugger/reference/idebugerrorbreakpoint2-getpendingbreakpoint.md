@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugErrorBreakpoint2::GetPendingBreakpoint
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the pending breakpoint that caused the error.
 
 ## Syntax

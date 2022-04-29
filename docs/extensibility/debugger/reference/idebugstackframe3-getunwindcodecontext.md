@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugStackFrame3::GetUnwindCodeContext
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Returns the code context representing a location if a stack unwind operation occurred.
 
 ## Syntax

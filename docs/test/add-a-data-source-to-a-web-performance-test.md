@@ -15,6 +15,8 @@ ms.technology: vs-ide-test
 ---
 # Add a data source to a web performance test
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Bind data to provide different values to the same test, for example, to provide different values to your form post parameters.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]

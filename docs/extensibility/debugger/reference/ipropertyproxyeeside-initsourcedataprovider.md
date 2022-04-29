@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IPropertyProxyEESide::InitSourceDataProvider
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Initializes the source data for this object and returns an object containing the initial data.
 
 ## Syntax

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # TEXT_POSITION
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Describes the line and column location in the given text.
 
 ## Syntax

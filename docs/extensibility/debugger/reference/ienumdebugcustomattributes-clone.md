@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugCustomAttributes::Clone
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Creates an enumerator that contains the same enumeration state as the current enumerator.
 
 ## Syntax

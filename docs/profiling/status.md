@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Status
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The *VSPerfCmd.exe* **Status** option displays information about the state of the profiler and any processes that are currently being profiled.
 
  The **Status** option must be the only option specified on the command line. The profiler must be initialized with the *VSPerfCmd.exe* **Start** option before any status can be displayed.

@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Debug UWP apps on remote machines from Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 You can use Visual Studio to run, debug, profile, and test a Universal Windows Platform (UWP) app on another computer or device. Running the UWP app on a remote machine is especially helpful when the Visual Studio computer does not support UWP-specific functionality like touch, geo-location, or physical orientation.
 
 ## <a name="BKMK_Prerequisites"></a> Prerequisites

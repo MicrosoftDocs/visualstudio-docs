@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IEnumDebugCustomAttributes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Enumerates custom attributes.
 
 ## Syntax

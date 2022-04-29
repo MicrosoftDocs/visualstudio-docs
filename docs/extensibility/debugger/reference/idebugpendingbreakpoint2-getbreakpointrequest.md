@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPendingBreakpoint2::GetBreakpointRequest
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the breakpoint request that was used to create this pending breakpoint.
 
 ## Syntax

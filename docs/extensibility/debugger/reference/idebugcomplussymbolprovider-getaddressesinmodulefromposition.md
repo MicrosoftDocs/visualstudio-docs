@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Maps a document position in the specified module to an array of debug addresses.
 
 ## Syntax

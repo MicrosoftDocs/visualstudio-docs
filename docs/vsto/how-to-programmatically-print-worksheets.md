@@ -20,6 +20,8 @@ ms.workload:
 ---
 # How to: Programmatically print worksheets
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 You can print any worksheet in a workbook.
 
 [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugArrayObject::GetRank
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the rank of the array, that is, the number of dimensions.
 
 ## Syntax

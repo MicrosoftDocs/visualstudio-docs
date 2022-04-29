@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # STEPUNIT
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the step unit for stepping.
 
 ## Syntax

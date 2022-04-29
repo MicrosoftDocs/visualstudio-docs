@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Use `new()`
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This applies to:
 
 - C#

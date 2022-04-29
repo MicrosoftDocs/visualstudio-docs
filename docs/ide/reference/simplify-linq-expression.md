@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Simplify LINQ expression
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This refactoring applies to:
 
 - C#

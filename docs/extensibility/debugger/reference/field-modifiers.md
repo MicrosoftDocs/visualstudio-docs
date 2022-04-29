@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # FIELD_MODIFIERS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies modifiers for a field type.
 
 ## Syntax

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugCodeContext2::GetLanguageInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the language information for this code context.
 
 ## Syntax

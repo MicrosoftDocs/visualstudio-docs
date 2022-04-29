@@ -13,8 +13,9 @@ dev_langs:
 ms.workload:
   - "nodejs"
 ---
-
 # Debug a JavaScript or TypeScript app in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 You can debug JavaScript and TypeScript code using Visual Studio. You can set and hit breakpoints, attach the debugger, inspect variables, view the call stack, and use other debugging features.
 

@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Author a Windows Installer package
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Data drives the Windows Installer model. Rather than writing a procedural script to copy files and write registry entries, for example, you author rows and columns in database tables that contain file and registry data.
 
 ## Database entries

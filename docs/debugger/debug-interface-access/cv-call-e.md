@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # CV_call_e
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the calling convention for a function.
 
 > [!NOTE]

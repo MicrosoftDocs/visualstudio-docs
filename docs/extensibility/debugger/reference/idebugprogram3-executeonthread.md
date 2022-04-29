@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram3::ExecuteOnThread
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Executes the debugger program. The thread is returned to give the debugger information on which thread the user is viewing when executing the program.
 
 ## Syntax

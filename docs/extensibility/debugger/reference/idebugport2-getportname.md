@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPort2::GetPortName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the port name.
 
 ## Syntax

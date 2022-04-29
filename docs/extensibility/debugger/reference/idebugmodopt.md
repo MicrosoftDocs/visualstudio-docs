@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugModOpt
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Represents a debug optional modifier.
 
 ## Syntax

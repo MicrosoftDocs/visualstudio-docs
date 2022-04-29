@@ -17,6 +17,8 @@ ms.workload:
   - multiple
 ---
 # How to: Create a profiling tools call trace report
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The  *call trace report* for the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools lists timing information for each entry and exit point to your application's functions and each call to other functions by your function. Call trace reports are available for profiling data only if it was collected with the instrumentation method.
 
 > [!NOTE]

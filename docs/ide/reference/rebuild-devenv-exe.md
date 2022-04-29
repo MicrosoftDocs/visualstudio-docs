@@ -20,6 +20,8 @@ ms.workload:
 ---
 # /Rebuild (devenv.exe)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Cleans and then builds the specified solution configuration.
 
 ## Syntax

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugCustomAttributeQuery2::GetCustomAttributeByName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Obtains the custom attributes bytes given the name of the custom attribute.
 
 ## Syntax

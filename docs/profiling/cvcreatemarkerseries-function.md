@@ -19,6 +19,8 @@ ms.workload:
   - multiple
 ---
 # CvCreateMarkerSeries function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Creates marker series for a given provider.
 
 ## Syntax

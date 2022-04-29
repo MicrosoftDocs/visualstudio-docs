@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Walkthrough: Create a Dataset with the Dataset Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 In this walkthrough you create a dataset using the **Dataset Designer**. The article takes you through the process of creating a new project and adding a new **DataSet** item to it. You'll learn how to create tables based on tables in a database without using a wizard.
 
 ## Prerequisites

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # CODE_PATH
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Describes a method or function call.
 
 ## Syntax

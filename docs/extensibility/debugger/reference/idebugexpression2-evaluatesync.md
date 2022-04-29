@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpression2::EvaluateSync
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method evaluates the expression synchronously.
 
 ## Syntax

@@ -13,6 +13,8 @@ ms.custom: aaddev, vs-azure
 ---
 # Diagnosing errors with the Azure Active Directory Connected Service
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 While detecting previous authentication code, the Azure Active Directory connected service detected an incompatible authentication type.
 
 To correctly detect previous authentication code in a project, the project must be rebuilt. If you see this error and you don't have a previous authentication code in your project, rebuild and try again.

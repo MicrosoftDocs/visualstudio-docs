@@ -20,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # Work with contact items
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   The <xref:Microsoft.Office.Interop.Outlook.ContactItem> class contains the methods and properties you use to perform tasks with contacts.
 
 |Task|Procedure|

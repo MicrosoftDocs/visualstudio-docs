@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugExtendedField
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Extends the types of fields that are available to support managed code generics.
 
 ## Syntax

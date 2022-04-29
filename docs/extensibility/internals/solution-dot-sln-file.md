@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Solution (.sln) file
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 A solution is a structure for organizing projects in Visual Studio. The solution maintains the state information for projects in two files:
 
 - .sln file (text-based, shared)

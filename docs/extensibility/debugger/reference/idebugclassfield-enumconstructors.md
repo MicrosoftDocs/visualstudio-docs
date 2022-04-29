@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugClassField::EnumConstructors
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Creates an enumerator for the constructors for this class.
 
 ## Syntax

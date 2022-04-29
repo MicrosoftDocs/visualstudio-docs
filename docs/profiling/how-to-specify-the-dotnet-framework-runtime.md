@@ -17,6 +17,8 @@ ms.workload:
 ---
 # How to: Specify the .NET Framework runtime
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 With the release of .NET Framework 4, applications can be composed of modules that were built by using different versions of the .NET Framework run-time. By default, Visual Studio Profiling Tools profile the first runtime that is loaded by the application. You can specify the run-time to profile when you start an application with the profiler and when you attach the profiler to an already running application.
 
 ## To specify the .NET Framework run-time to profile when starting an application with the profiler

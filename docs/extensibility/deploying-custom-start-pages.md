@@ -18,6 +18,8 @@ monikerRange: vs-2017
 ---
 # Deploy custom Start Pages
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 You can deploy custom Start Pages by using VSIX deployment or by copying the files to the correct locations on the target computer.
 
 ## VSIX deployment by using the Start Page project template

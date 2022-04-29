@@ -18,6 +18,8 @@ ms.workload:
   - "multiple"
 ---
 # Annotation
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 A location program code can be annotated with a `SymTagAnnotation` symbol.
 
 ## Properties

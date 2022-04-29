@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugBreakpointRequest3::GetRequestInfo2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method gets the breakpoint request information that describes this breakpoint request.
 
 ## Syntax

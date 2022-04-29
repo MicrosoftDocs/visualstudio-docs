@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaLineNumber::get_addressSection
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the section part of the memory address where a block begins.
 
 ## Syntax

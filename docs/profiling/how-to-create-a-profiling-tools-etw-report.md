@@ -14,6 +14,8 @@ ms.workload:
   - multiple
 ---
 # How to: Create a profiling tools ETW report
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The Event Tracing for Windows (ETW) report lists the ETW events that are recorded in a performance session of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools. ETW data is collected in a binary (.*etl*) file. For more information about this report, see [Event Tracing for Windows (ETW) report](../profiling/event-tracing-for-windows-etw-report.md).
 
 > [!NOTE]

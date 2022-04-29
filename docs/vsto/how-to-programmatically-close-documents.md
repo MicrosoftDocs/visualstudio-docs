@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically close documents
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   You can close the active document or you can specify a document to close.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]

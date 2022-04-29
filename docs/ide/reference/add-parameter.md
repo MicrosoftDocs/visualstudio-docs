@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Add a parameter to a method using a Quick Action
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This code generation applies to:
 
 - C#

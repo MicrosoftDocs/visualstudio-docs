@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Remote Debugger Port Assignments
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The Visual Studio Remote Debugger can run as an application or as a background service. When it runs as an application, it uses a port that is assigned by default as follows:
 
 - Visual Studio 2022: 4026

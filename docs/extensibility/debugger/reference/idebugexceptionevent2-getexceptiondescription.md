@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugExceptionEvent2::GetExceptionDescription
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets a displayable description of the exception.
 
 ## Syntax

@@ -14,6 +14,8 @@ ms.workload:
 ---
 # FinalState Activity Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The <xref:System.Activities.Core.Presentation.FinalState> designer is used to create a <xref:System.Activities.Statements.State> that terminates a state machine instance.
 
 ## Using the FinalState Activity Designer

@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaReadExeAtRVACallback::ReadExecutableAtRVA
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Reads the specified number of bytes starting at the specified relative virtual address (RVA) from the executable file.
 
 ## Syntax

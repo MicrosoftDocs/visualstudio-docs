@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # BP_CONDITION
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Describes the conditions under which a breakpoint fires.
 
 ## Syntax

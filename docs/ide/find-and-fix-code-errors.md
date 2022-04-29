@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Make code work in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Visual Studio provides a powerful integrated set of project build and debugging tools. In this article, find out how Visual Studio can help you find problems in your code using build output, code analysis, debugging tools, and unit tests.
 
 You've figured out the editor and created some code. Now, you want to make sure the code works properly. In Visual Studio, as with most IDEs, there are two phases to making code work: building the code to catch and resolve project and compiler errors, and running the code to find run-time and dynamic errors.

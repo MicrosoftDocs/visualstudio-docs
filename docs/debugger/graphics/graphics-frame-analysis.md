@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # Graphics Frame Analysis
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and optimize the rendering performance of your Direct3D game or app.
 
 ## Frame analysis

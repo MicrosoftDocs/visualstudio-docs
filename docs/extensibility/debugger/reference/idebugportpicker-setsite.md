@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortPicker::SetSite
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Sets the service provider.
 
 ## Syntax

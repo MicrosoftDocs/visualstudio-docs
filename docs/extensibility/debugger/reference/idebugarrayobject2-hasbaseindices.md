@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugArrayObject2::HasBaseIndices
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Determines if the array has base indices (lower bounds) defined.
 
 ## Syntax

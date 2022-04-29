@@ -13,8 +13,9 @@ ms.technology: vs-ide-test
 ms.workload:
 - multiple
 ---
-
 # Upgrade from MSTestV1 to MSTestV2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 You can upgrade your test project by retargeting the MSTest version referenced in your *.csproj* from the MSTestV1 to MSTestV2. Not all features in MSTestV1 were brought forward into MSTestV2, so some changes may be required to resolve errors. See [MSTestV1 features that are not supported in MSTestV2](#mstestv1-features-that-are-not-supported-in-mstestv2) to understand what features will no longer function. Some of these may need to be removed from your tests.
 

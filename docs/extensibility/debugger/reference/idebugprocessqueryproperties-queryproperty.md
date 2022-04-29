@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcessQueryProperties::QueryProperty
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method queries for a specified property value of the debugging process.
 
 ## Syntax

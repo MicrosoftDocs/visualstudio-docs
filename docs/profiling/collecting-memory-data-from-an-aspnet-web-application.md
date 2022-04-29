@@ -17,6 +17,8 @@ ms.workload:
   - aspnet
 ---
 # Collect memory data from an ASP.NET web application by using the profiler command line
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This section describes the procedures and options for collecting memory allocation and object lifetime data for an ASP.NET web application by using the **VSPerfCmd** command-line tool.
 
 > [!NOTE]

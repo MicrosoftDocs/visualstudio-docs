@@ -19,6 +19,8 @@ open_to_public_contributors: false
 ---
 # Visual Studio Build Tools component directory
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 [!INCLUDE[workloads-components-universal-header_md](includes/workloads-components-universal-header_md.md)]
 
 ::: moniker range="vs-2017"

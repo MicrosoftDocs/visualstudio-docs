@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPendingBreakpoint2::Delete
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Deletes this pending breakpoint and all breakpoints bound from it.
 
 ## Syntax

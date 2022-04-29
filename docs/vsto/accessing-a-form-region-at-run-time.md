@@ -20,6 +20,8 @@ ms.workload:
 ---
 # Access a form region at run time
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 |Applies to|
 |----------------|
 |The information in this topic applies only to the following project types and versions of Microsoft Office. For more information, see [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md).<br /><br /> **Project type**<br /><br /> -   VSTO Add-in projects<br /><br /> **Microsoft Office version**<br /><br /> -   [!INCLUDE[Outlook_14_short](../vsto/includes/outlook-14-short-md.md)]|

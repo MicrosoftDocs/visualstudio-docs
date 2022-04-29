@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # Manage Channels
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 In the **Threads View** in the Concurrency Visualizer, you can organize the channels for your process so that you can examine particular patterns. You can sort channels, move them up and down, and hide or show them.
 
 ## Sort By

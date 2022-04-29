@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty2::GetMemoryBytes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the memory bytes that compose the value of a property.
 
 ## Syntax

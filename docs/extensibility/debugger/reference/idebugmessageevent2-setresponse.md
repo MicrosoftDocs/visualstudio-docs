@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugMessageEvent2::SetResponse
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Sets the response, if any, from the message box.
 
 ## Syntax

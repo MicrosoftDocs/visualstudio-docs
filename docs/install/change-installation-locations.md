@@ -19,6 +19,8 @@ ms.technology: vs-installation
 ---
 # Select the installation locations in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 ::: moniker range=">=vs-2022"
 
 You can reduce the installation footprint of Visual Studio on your system drive by changing the location of some of its files. Specifically, you can use a different location for the **download cache** and **shared components, tools, and SDKs**.

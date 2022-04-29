@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Window Properties Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Use this dialog box to find out more about a specific window. To display this dialog box, move the focus to the [Windows View](../debugger/windows-view.md) window. Select any window node in the tree, then choose **Properties** from the **View** menu.
 
 ## In This Section

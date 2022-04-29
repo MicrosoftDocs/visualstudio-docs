@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugFunctionObject::CreateStringObject
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Creates a string object.
 
 ## Syntax

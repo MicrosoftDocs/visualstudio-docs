@@ -14,6 +14,8 @@ ms.workload:
   - dotnet
 ---
 # How to: Instrument a stand-alone .NET Framework component and collect memory data with the profiler by using the command line
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to instrument a .NET Framework component of a stand-alone application such as an .exe or .dll file and collect memory information by using the profiler.
 
 > [!NOTE]

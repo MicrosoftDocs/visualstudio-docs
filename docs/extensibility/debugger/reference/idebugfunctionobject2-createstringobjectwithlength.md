@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugFunctionObject2::CreateStringObjectWithLength
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Creates a string object that has the specified length.
 
 ## Syntax

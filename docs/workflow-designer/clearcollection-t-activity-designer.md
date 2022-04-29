@@ -16,6 +16,8 @@ ms.workload:
 ---
 # ClearCollection\<T> Activity Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The **ClearCollection\<T>** activity designer is used to create and configure a <xref:System.Activities.Statements.ClearCollection%601> activity.
 
 ## The ClearCollection\<T> Activity

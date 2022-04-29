@@ -14,6 +14,8 @@ author: TerryGLee
 ---
 # Unsupported debugging scenarios in the Workflow Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The Workflow Designer does not support the following debugging scenarios:
 
 - Execution cannot be continued after code has been edited.

@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # Other Dialog Boxes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 These dialog boxes display information about the Spy++ program.
 
 ## In This Section

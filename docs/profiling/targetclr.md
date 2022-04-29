@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # TargetCLR
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The **TargetCLR** option specifies the version of the common language run-time (CLR) to profile when more than one version of the CLR is loaded in an application.
 
  By default, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools target the first version of the CLR that is loaded by the application.

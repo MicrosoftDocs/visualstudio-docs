@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugFunctionObject::CreatePrimitiveObject
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Creates a primitive data object, such as a simple integer.
 
 ## Syntax

@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpressionEvaluator2::Terminate
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Stops and cleans up the expression evaluator.
 
 ## Syntax

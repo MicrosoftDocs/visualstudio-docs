@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Extend a trial version or update a license
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 You can evaluate a free trial of [Visual Studio Professional or Visual Studio Enterprise](https://visualstudio.microsoft.com/vs/compare/) for 30 days. And if you sign in, you can extend the trial period to 90 days. (Visual Studio Community is free without a trial period. However, you must [sign in](signing-in-to-visual-studio.md) periodically to keep your [license up to date](#update-a-stale-license).)
 
 To continue using Visual Studio after a trial period ends, unlock it with an [online subscription](#use-an-online-subscription) or a [product key](#enter-a-product-key).

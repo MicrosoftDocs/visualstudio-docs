@@ -17,6 +17,8 @@ ms.technology: vs-ide-test
 ---
 # Strategies for troubleshooting test controllers and test agents in load tests
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This article covers some common problems you might encounter when you work with test controllers and test agents in Visual Studio.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]

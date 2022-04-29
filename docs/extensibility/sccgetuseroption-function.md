@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # SccGetUserOption Function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This function retrieves a variety of user-specific options.
 
 ## Syntax

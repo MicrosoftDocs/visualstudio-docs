@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically print Visio documents
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   You can print a complete Microsoft Office Visio document or only a specific page.
 
  For details about the print methods, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Document.Print](/office/vba/api/Visio.Document.Print) method and [Microsoft.Office.Interop.Visio.Page.Print](/office/vba/api/Visio.Page.Print) method.

@@ -20,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Collect data by using a Windows Form
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   This walkthrough demonstrates how to open a Windows Form from a document-level customization for Microsoft Office Excel, collect information from the user, and write that information into a worksheet cell.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

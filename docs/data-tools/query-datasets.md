@@ -16,6 +16,8 @@ ms.workload:
 - data-storage
 ---
 # Query datasets
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 To search for specific records in a dataset, use the `FindBy` method on the DataTable, write your own foreach statement to loop over the table's Rows collection, or use [LINQ to DataSet](/dotnet/framework/data/adonet/linq-to-dataset).
 
 ## Dataset case sensitivity

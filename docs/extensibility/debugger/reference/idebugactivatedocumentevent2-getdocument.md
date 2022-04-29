@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugActivateDocumentEvent2::GetDocument
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the document to activate.
 
 ## Syntax

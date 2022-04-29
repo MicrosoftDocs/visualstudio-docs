@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Inline a temporary variable refactoring
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This refactoring applies to:
 
 - C#

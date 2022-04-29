@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # BUILT_TYPE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This structure specifies information about a field type taken from metadata.
 
 ## Syntax

@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Deploying a Custom Directive Processor
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 To use a custom directive processor in Visual Studio on any computer, you must register it by one of the methods described in this topic.
 
 The alternative methods are:

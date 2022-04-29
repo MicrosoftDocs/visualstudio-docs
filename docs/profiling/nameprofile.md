@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # NameProfile
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The `NameProfile` function assigns a string to the specified process or thread.
 
  The NameProfile API is available only for instrumentation profiling. The NameProfile API is not supported for sampling profiling.

@@ -16,6 +16,8 @@ monikerRange: vs-2019
 ---
 # Move type to namespace
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This refactoring applies to:
 
 - C#

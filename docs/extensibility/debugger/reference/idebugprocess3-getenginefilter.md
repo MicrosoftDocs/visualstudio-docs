@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess3::GetEngineFilter
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves an array of unique identifiers for available debug engines.
 
 ## Syntax

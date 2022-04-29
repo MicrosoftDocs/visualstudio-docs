@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugModule2::GetInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets information about this module.
 
 ## Syntax

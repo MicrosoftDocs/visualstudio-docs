@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Personalize the Visual Studio IDE
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 You can personalize Visual Studio in various ways to best support your own development style and requirements. Many of your settings roam with you across Visual Studio instances&mdash;see [Synchronized settings](../ide/synchronized-settings-in-visual-studio.md). This article briefly describes different personalizations and where you can find more information.
 
 > [!NOTE]

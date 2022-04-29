@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Collect statistics for ASP.NET web apps
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This section describes the procedures and options for collecting performance statistics for an ASP.NET Web application by using the **VSPerfASPNETCmd** and **VSPerfCmd** command-line tool and the sampling profiling method.
 
 > [!NOTE]

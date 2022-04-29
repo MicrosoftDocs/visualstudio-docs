@@ -19,6 +19,8 @@ ms.workload:
   - multiple
 ---
 # VSInstr warnings
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The following table lists warnings issued by the *VSInstr.exe* tool. You can use the NOWARN option along with the warning numbers to suppress the warning from appearing.
 
 |Warning Number|Description|

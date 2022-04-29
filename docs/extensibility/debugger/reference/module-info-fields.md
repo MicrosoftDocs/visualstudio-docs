@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # MODULE_INFO_FIELDS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the flags for the debug module information.
 
 ## Syntax

@@ -15,6 +15,8 @@ ms.workload:
   - "office"
 ---
 # SetWefProcessId method
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   Provides the process identifier that will run Web Extensions Framework (WEF) content.
 
 ## Syntax

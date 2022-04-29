@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugBinder3::GetEEService
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method returns a requested service.
 
 ## Syntax

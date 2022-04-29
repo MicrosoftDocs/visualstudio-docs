@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # BP_COND_STYLE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the breakpoint condition style for pending and bound breakpoints.
 
 ## Syntax

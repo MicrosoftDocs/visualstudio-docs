@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugDocumentChecksum2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Represents a checksum for a debug document and enables passing the checksum between components.
 
 ## Syntax

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramProvider2::SetLocale
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Establishes a locale to be used for any locale-specific resources.
 
 ## Syntax

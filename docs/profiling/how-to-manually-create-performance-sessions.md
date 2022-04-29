@@ -20,6 +20,8 @@ ms.workload:
   - multiple
 ---
 # How to: Manually create performance sessions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 You can manually create a performance session. You are not required to open a project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to do this. For more information, see [Configure performance sessions](../profiling/configuring-performance-sessions.md).
 
 ### To manually create a performance session

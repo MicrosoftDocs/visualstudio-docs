@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugModule2::ReloadSymbols_Deprecated
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 OBSOLETE. DO NOT USE. Reloads the symbols for this module.
 
 ## Syntax

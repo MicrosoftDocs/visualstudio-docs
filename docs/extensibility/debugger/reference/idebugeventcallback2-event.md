@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugEventCallback2::Event
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Sends notification of debug events.
 
 ## Syntax

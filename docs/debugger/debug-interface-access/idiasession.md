@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSession
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Provides a query context for debug symbols.
 
 ## Syntax

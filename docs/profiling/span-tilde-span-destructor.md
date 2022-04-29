@@ -15,8 +15,9 @@ ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
-
 # span::~span destructor
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 Destroys the `span` object and releases its resources.
 

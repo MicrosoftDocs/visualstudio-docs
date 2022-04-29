@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # BP_STATE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the existence of a bound breakpoint and also specifies if it is enabled.
 
 ## Syntax

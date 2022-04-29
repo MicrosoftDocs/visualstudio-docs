@@ -20,6 +20,8 @@ dev_langs:
 ---
 # MODULE_SYMBOL_SEARCH_INFO
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Contains status information about symbol search paths that have been searched.
 
 ## Syntax

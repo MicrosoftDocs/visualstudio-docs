@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # CONNECTION_PROTOCOL
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Indicates the protocol being used to communicate between a debug server and the debug package (DE).
 
 ## Syntax

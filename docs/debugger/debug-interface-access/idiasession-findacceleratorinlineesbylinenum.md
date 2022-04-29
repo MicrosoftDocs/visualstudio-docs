@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSession::findAcceleratorInlineesByLinenum
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Returns an enumeration of symbols for inline frames that correspond to the specified source location.
 
 ## Syntax

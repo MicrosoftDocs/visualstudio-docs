@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocument2::GetDocumentClassID
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the class identifier of the document.
 
 ## Syntax

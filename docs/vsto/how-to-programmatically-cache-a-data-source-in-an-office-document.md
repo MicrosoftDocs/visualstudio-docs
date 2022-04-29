@@ -21,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically cache a data source in an Office document
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   You can programmatically add a data object to the data cache in a document by calling the `StartCaching` method of a host item, such as a <xref:Microsoft.Office.Tools.Word.Document>, <xref:Microsoft.Office.Tools.Excel.Workbook>, or <xref:Microsoft.Office.Tools.Excel.Worksheet>. Remove a data object from the data cache by calling the `StopCaching` method of a host item.
 
  The `StartCaching` method and the `StopCaching` method are both private, but they appear in IntelliSense.

@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Name element (Visual Studio templates)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the name of the template as it appears in the **New Project** or **Add New Item** dialog box.
 
  \<VSTemplate>

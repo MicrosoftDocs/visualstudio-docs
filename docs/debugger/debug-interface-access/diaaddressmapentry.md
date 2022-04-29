@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # DiaAddressMapEntry
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Describes an entry in an address map.
 
 ## Syntax

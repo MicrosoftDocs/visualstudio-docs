@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty3::DestroyObjectID
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Destroys the unique ID associated with this property, indicating that the caller no longer cares to identify this property uniquely from all other properties.
 
 ## Syntax

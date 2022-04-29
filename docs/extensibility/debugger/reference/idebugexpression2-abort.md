@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpression2::Abort
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method cancels asynchronous expression evaluation as started by a call to the [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md) method.
 
 ## Syntax

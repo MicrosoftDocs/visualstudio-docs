@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # REFERENCE_TYPE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the reference type.
 
 ## Syntax

@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Symbol Provider Interfaces
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The following are the Symbol Handling Interfaces for the [!INCLUDE[vsipsdk](../../../extensibility/includes/vsipsdk_md.md)].
 
 ## Discussion

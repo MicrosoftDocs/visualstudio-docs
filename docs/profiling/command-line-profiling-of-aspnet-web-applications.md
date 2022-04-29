@@ -17,6 +17,8 @@ ms.workload:
   - "aspnet"
 ---
 # Command-line profiling of ASP.NET web applications
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This section describes the procedures and options for collecting performance data for [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web applications by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools from the command line.
 
 > [!NOTE]

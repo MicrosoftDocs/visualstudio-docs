@@ -17,6 +17,8 @@ ms.workload:
   - multiple
 ---
 # CvInitProvider function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Initializes marker provider. Must be called before any other Concurrency Visualizer SDK functions.
 
 ## Syntax

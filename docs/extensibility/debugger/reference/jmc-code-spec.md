@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # JMC_CODE_SPEC
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This structure is used to set the JustMyCode information for a module.
 
 ## Syntax

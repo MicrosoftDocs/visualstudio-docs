@@ -21,6 +21,8 @@ ms.workload:
 ---
 # DA0029: Unsupported CLR version
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 |Item|Value|
 |-|-|
 |Rule Id|DA0029|

@@ -16,4 +16,6 @@ ms.workload:
 ---
 # Options dialog box: Environment \> Tabs and Windows
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Use this page to set options for how tabbed windows behave in the editor pane and how tool windows behave. For more information, see [Customize window layouts in Visual Studio](../../ide/customizing-window-layouts-in-visual-studio.md)
