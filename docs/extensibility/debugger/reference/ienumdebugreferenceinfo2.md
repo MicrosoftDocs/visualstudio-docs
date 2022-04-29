@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IEnumDebugReferenceInfo2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface enumerates [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structures.
 
 ## Syntax

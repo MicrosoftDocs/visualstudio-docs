@@ -20,7 +20,7 @@ dev_langs:
 ---
 # AD_PROCESS_ID
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the process ID, which may be either a system ID or a GUID.
 
 ## Syntax

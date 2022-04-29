@@ -22,7 +22,7 @@ ms.workload:
 ---
 # DA0013: High usage of String.Split or String.Substring
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 |Item|Value|
 |-|-|

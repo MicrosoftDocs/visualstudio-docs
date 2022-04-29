@@ -13,7 +13,7 @@ ms.technology: vs-ide-designers
 ---
 # Tutorial: Get started with Windows Forms Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Windows Forms Designer provides many tools for building Windows Forms applications. This article illustrates how to build an app using the various tools provided by the designer, including the following tasks:
 

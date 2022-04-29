@@ -14,7 +14,7 @@ ms.workload:
 ---
 # How to: Change the Graphics Diagnostics Playback Machine
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can play back graphics information by using your local machine, or by using a remote machine or device.
 
 ## Choosing a Playback Machine

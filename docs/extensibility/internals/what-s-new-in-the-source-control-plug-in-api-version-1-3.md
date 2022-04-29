@@ -17,7 +17,7 @@ ms.workload:
 ---
 # What&#39;s New in the Source Control Plug-in API Version 1.3
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Source Control Plug-in API version 1.3 introduces the following new functions to provide more advanced control.
 
 ## Changes

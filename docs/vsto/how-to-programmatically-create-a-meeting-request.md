@@ -20,7 +20,7 @@ ms.workload:
 ---
 # How to: Programmatically create a meeting request
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example creates a meeting request in Microsoft Office Outlook and sends the request to a required attendee.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

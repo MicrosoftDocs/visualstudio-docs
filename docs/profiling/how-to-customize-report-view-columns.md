@@ -20,7 +20,7 @@ ms.workload:
 ---
 # How to: Customize Report View columns
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Performance tools in Visual Studio Team System Development Edition  are fully integrated into the integrated development environment (IDE) to provide a seamless user experience. The following list is representative of views that can be customized by adding, removing, and rearranging columns:
 
 - [Modules View](../profiling/modules-view.md)

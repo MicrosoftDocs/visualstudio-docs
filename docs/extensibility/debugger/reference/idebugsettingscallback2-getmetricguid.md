@@ -18,7 +18,7 @@ dev_langs:
 ---
 # IDebugSettingsCallback2::GetMetricGuid
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the unique identifier of a metric given its name.
 
 ## Syntax

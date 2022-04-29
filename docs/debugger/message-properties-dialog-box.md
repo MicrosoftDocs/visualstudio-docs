@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Message Properties Dialog Box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Use this dialog box to find out more about a specific message. To display this dialog box, move the focus to a [Messages View](../debugger/messages-view.md) window. Select any message node in the tree, then choose **Properties** from the **View** menu.
 
  The **General** tab is the only tab displayed. The following settings are available:

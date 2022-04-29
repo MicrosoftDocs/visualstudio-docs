@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Objects
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following reference information explains objects that are used to create an instance of the core text editor.
 
 ## In this section

@@ -21,7 +21,7 @@ dev_langs:
 ---
 # IDebugMemoryBytes2::WriteAt
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Writes the specified number of bytes of memory, starting at the specified address.
 
 ## Syntax

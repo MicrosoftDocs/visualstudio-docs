@@ -16,7 +16,7 @@ monikerRange: ">=vs-2019"
 ---
 # Troubleshooting XAML Hot Reload
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This troubleshooting guide includes detailed instructions that should resolve most issues that prevent XAML Hot Reload from working correctly.
 

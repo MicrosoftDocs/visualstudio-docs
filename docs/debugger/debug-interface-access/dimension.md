@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Dimension
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Each FORTRAN array has a dimension that is identified by a `SymTagDimension` symbol.
 
 ## Properties

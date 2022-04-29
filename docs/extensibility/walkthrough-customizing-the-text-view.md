@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Walkthrough: Customize the text view
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can customize a text view by modifying any of the following properties in its editor-format map:
 
 - Indicator margin

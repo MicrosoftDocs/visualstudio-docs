@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugDocumentPosition2::GetDocument
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the containing document.
 
 ## Syntax

@@ -18,7 +18,7 @@ dev_langs:
 ---
 # IDebugExpressionEvaluator3::Parse2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Converts an expression string to a parsed expression given the symbol provider and the address of the evaluating frame.
 
 ## Syntax

@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugDisassemblyStream2::GetCodeContext
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a code context object corresponding to a specified code location identifier.
 
 ## Syntax

@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IManagedAddin interface
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Implement the IManagedAddin interface to create a component that loads managed VSTO Add-ins. This interface was added in the 2007 Microsoft Office system.
 
 ## Syntax

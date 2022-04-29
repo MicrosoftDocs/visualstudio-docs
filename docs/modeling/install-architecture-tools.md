@@ -10,7 +10,7 @@ ms.technology: vs-ide-modeling
 ---
 # Install Code Map and Live Dependency Validation
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To create a code map in Visual Studio, first install the **Code Map** and **Live Dependency Validation** components:
 

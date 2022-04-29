@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Generate a deconstructor in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This code generation applies to:
 

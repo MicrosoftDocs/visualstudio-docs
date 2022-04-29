@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Walkthrough: Calling into the SharePoint client object model in a Server Explorer extension
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates how to call the SharePoint client object model from an extension for the **SharePoint Connections** node in **Server Explorer**. For more information about how to use the SharePoint client object model, see [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md).
 
  This walkthrough demonstrates the following tasks:

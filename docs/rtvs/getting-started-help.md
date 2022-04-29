@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Help in R Tools for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Help for R is integrated directly into the interactive window in Visual Studio. Whenever you use the `?` command, such as `?mtcars`, help from the R documentation appears in a Visual Studio window:
 

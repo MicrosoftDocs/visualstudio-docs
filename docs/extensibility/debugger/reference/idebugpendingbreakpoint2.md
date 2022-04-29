@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDebugPendingBreakpoint2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a breakpoint that is ready to bind to a code location.
 
 ## Syntax

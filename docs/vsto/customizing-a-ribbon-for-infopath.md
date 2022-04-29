@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Customize a Ribbon for InfoPath
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you customize the Ribbon in Microsoft Office InfoPath, you must consider where your custom Ribbon will appear in the application. [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)] can display the Ribbon in the following three types of InfoPath application windows:
 
 - Windows that display a form template that is opened in design mode.

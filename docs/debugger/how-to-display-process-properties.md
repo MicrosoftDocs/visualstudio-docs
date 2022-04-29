@@ -16,7 +16,7 @@ ms.workload:
 ---
 # How to: Display Process Properties
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To find out more about a process listed in [Processes View](../debugger/processes-view.md), use the [Process Properties Dialog Box](../debugger/process-properties-dialog-box.md).
 
 ### To open a Process Properties dialog box

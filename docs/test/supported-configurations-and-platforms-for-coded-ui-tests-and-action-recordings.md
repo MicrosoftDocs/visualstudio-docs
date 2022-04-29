@@ -15,7 +15,7 @@ author: mikejo5000
 ---
 # Supported configurations and platforms for coded UI tests and action recordings
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The supported configurations and platforms for coded UI tests for Visual Studio Enterprise are listed in the following table. These configurations also apply to action recordings created by using [!INCLUDE[MTRlong](../test/includes/mtrlong_md.md)].
 

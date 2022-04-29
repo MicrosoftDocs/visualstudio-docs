@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugExpressionEvaluationCompleteEvent2::GetResult
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the result of expression evaluation.
 
 ## Syntax

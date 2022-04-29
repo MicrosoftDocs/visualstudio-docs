@@ -16,5 +16,5 @@ ms.workload:
 ---
 # About Microsoft Spy++
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Use this dialog box to display copyright, version, ownership, and other information about Spy++.

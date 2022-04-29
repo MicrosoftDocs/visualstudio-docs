@@ -25,7 +25,7 @@ ms.workload:
 ---
 # Walkthrough: Create an external list in SharePoint by using business data
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Business Data Connectivity (BDC) service enables SharePoint to display business data from back-end server applications, Web services, and databases.
 

@@ -13,7 +13,7 @@ ms.workload:
 ---
 # RTVS current version
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can check your version by going to **Help** > **About** in Visual Studio and scrolling down to the **R Tools for Visual Studio** entry:
 

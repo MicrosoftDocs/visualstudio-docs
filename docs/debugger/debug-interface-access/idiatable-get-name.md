@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaTable::get_name
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the name of the table.
 
 ## Syntax

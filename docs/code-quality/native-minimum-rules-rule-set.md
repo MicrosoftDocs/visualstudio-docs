@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Native Minimum Rules rule set
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Microsoft Native Minimum Rules focus on the most critical problems in native code, including potential security holes and application crashes.
 

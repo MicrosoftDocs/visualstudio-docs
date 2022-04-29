@@ -22,7 +22,7 @@ ms.workload:
 ---
 # Managed Debugging: Recommended Property Settings
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Certain properties should be set the same way for all managed debugging scenarios.
 
  The following tables display recommended property settings.

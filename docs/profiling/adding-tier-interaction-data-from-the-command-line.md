@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Add tier interaction data from the command line
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Tier interaction profiling provides additional information about the execution times of synchronous [!INCLUDE[vstecado](../data-tools/includes/vstecado_md.md)] calls in functions of multi-tiered applications that communicate with one or more databases.
 

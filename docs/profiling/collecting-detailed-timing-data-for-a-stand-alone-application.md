@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Collect detailed timing data for a stand-alone application by using the profiler command line
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section describes the procedures and options for collecting detailed performance data for a client (stand-alone) component by using the instrumentation method from the command line.
 
 ## Common tasks

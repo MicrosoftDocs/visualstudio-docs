@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IEEVisualizerDataProvider::SetObjectForVisualizer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method changes the object that the visualizer represents.
 
 ## Syntax

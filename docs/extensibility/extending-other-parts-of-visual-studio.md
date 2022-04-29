@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Extend other parts of Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are many more parts of the Visual Studio UI that you can extend. Here we show you just a few.
 

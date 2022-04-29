@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugMethodField::EnumParameters
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator for the parameters of the method.
 
 ## Syntax

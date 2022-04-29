@@ -20,7 +20,7 @@ dev_langs:
 ---
 # CONNECTION_PROTOCOL
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Indicates the protocol being used to communicate between a debug server and the debug package (DE).
 
 ## Syntax

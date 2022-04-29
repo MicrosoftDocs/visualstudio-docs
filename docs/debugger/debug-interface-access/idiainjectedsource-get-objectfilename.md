@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaInjectedSource::get_objectFilename
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the object file name to which the source was compiled.
 
 ## Syntax

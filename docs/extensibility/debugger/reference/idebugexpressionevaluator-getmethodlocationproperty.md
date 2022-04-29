@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugExpressionEvaluator::GetMethodLocationProperty
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method converts a method location and offset into a memory address.
 
 ## Syntax

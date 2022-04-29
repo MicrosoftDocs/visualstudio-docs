@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDebugCoreServer2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is used to represent and obtain information from a server on a machine on the network.
 
 ## Syntax

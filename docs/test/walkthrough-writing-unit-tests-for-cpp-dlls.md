@@ -12,7 +12,7 @@ author: corob-msft
 ---
 # How to: Write unit tests for C++ DLLs
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough describes how to develop a native C++ DLL using test-first methodology. The basic steps are as follows:
 

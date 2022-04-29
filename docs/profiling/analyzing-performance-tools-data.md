@@ -23,7 +23,7 @@ ms.workload:
 ---
 # Analyze performance tools data
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The performance reports of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools enable you to view and analyze application performance problems. This section provides an overview of the performance reports and views that can be used to examine performance data.
 
 ## Common tasks

@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Security Page, Project Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Security** page of the **Project Designer** is used to configure code access security settings for applications that are deployed by using ClickOnce deployment. For more information, see [Code Access Security for ClickOnce Applications](../../deployment/code-access-security-for-clickonce-applications.md).
 

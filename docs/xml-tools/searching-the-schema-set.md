@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Search the schema set
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **XML Schema Explorer** enables you to search the schema set in the following ways:
 

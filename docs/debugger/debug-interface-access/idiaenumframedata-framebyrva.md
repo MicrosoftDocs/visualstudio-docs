@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaEnumFrameData::frameByRVA
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a frame by relative virtual address (RVA).
 
 ## Syntax

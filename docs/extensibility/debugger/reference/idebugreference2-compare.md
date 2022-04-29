@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugReference2::Compare
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Compares one reference to another. Reserved for future use.
 
 ## Syntax

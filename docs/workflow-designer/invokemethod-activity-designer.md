@@ -16,7 +16,7 @@ ms.workload:
 ---
 # InvokeMethod Activity Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **InvokeMethod** designer is used to create and configure an <xref:System.Activities.Statements.InvokeMethod> activity.
 

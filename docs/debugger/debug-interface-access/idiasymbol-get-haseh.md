@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_hasEH
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that specifies whether the function contains any unmanaged C++-style exception handling (for example, a try/catch block).
 
 ## Syntax

@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Office primary interop assemblies
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To use the features of a Microsoft Office application from an Office project, you must use the primary interop assembly (PIA) for the application. The PIA enables managed code to interact with a Microsoft Office application's COM-based object model.
 

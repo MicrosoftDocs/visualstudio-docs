@@ -20,7 +20,7 @@ dev_langs:
 ---
 # CONTEXT_INFO
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure describes a memory context or code context.
 
 ## Syntax

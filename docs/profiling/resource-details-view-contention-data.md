@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Resource Details View - Contention Data
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Resource Details view presents a timeline graph of the blocking events that were caused by contentions over a selected resource. A blocking event occurs when a thread is forced to suspend execution because another thread has locked access to the resource.
 
  This view represents the execution timeline of each thread as a horizontal bar and represents each blocking event as a vertical bar on the thread timeline. When necessary, you can magnify a section of the timeline to view individual events. To view the execution path (call stack) of the functions that led to the event, click the event bar. The functions appear in the **Call Stack** window. When the source code for a function is available, you can click the function name to edit the source file in the interface for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].

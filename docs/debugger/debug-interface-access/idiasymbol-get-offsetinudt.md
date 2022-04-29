@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_offsetInUdt
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the offset to the beginning of a user-defined type (UDT) of a member in the UDT.
 
 ## Syntax

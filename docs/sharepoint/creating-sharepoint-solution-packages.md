@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Create SharePoint solution packages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   By using the Package Designer, you can create and customize deployment packages. For example, you can add SharePoint project items and Features, reset the IIS server, set Feature activation scopes, and identify Feature dependencies. The designer also generates a manifest, an XML file that describes each package.
 
 ## Packaging tools

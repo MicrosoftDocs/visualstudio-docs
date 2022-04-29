@@ -17,7 +17,7 @@ ms.workload:
 ---
 # CommandName element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `CommandName` element specifies the text that appears in the keyboard category in the **Options** dialog box, and in the **Commands** list in the **Customize** dialog box.
 
 ## Syntax

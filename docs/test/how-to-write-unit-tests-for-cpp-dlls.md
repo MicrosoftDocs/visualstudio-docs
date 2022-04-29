@@ -12,7 +12,7 @@ author: corob-msft
 ---
 # Write unit tests for C++ DLLs in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are several ways to test DLL code, depending on whether it exports the functions that you want to test. Choose one of the following ways:
 

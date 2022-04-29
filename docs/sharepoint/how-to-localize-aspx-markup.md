@@ -19,7 +19,7 @@ ms.workload:
 ---
 # How to: Localize ASPX markup
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] (.aspx) pages typically use hard-coded string values. To localize these strings, replace them with expressions that reference localized resources.
 
 ## Localize ASPX markup

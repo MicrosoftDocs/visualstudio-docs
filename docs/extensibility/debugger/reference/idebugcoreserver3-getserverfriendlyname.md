@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugCoreServer3::GetServerFriendlyName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a friendly name for the server.
 
 ## Syntax

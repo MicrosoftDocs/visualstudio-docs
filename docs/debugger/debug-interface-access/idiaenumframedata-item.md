@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaEnumFrameData::Item
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a frame data element by means of an index.
 
 ## Syntax

@@ -16,7 +16,7 @@ ms.workload:
 ---
 # VSPackages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 VSPackages are software modules that extend the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) by providing UI elements, services, projects, editors, and designers.
 
 ## In This Section

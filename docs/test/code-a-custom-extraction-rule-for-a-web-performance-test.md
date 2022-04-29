@@ -19,7 +19,7 @@ ms.technology: vs-ide-test
 ---
 # Code a custom extraction rule for a web performance test
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can create your own extraction rules. To do this, you derive your own rules from an extraction rule class. Extraction rules derive from the <xref:Microsoft.VisualStudio.TestTools.WebTesting.ExtractionRule> base class.
 

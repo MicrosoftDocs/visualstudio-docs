@@ -16,7 +16,7 @@ ms.workload:
 ---
 # General Tab, Thread Properties Dialog Box
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Use this dialog box to find out more about a specific thread. To display this dialog box, move the focus to a [Threads View](../debugger/threads-view.md) window, or open [Messages View](../debugger/messages-view.md) and expand a message. Select any thread node in the tree, then choose **Properties** from the **View** menu.
 
  The **Thread Properties** dialog box contains one pane, the **General** tab. The following settings are available:

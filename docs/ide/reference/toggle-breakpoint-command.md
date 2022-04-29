@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Toggle Breakpoint Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Turns the breakpoint either on or off, depending on its current state, at the current location in the file.
 
 ## Syntax

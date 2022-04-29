@@ -14,7 +14,7 @@ ms.workload:
 ---
 # This related method is the backing method for the following default insert, update, or delete methods
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This related method is the backing method for the following default `Insert`, `Update`, or `Delete` methods. If it is deleted, these methods will be deleted as well. Do you wish to continue?
 

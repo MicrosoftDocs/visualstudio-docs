@@ -11,7 +11,7 @@ ms.custon: contperf-fy22q2
 ---
 # Disable DPI-awareness to fix HDPI / scaling issues with Windows Forms Designer in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this article, you'll learn the limitations of Windows Forms Designer on HDPI monitors and [how to run Visual Studio as a DPI-unaware process](#resolve-hdpi-display-problems).
 

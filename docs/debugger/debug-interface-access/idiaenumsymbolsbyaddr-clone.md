@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaEnumSymbolsByAddr::Clone
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Makes a copy of an object.
 
 ## Syntax

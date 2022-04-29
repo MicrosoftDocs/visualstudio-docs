@@ -19,7 +19,7 @@ dev_langs:
 ---
 # BP_LOCATION_CODE_FUNC_OFFSET
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the offset location of a breakpoint in a function in code.
 
 ## Syntax

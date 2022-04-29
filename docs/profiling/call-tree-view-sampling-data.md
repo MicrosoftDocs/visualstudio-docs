@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Call Tree view - sampling data
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Call Tree view displays the function execution paths that were traversed in the profiled application.
 
 > [!NOTE]

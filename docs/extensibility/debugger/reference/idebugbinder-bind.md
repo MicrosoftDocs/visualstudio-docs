@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugBinder::Bind
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the memory context or object that contains the symbol's current value.
 
 ## Syntax

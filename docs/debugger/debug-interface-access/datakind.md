@@ -17,7 +17,7 @@ ms.workload:
 ---
 # DataKind
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Indicates the particular scope of a data value.
 
 ## Syntax

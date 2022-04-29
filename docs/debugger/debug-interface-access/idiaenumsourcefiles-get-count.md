@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaEnumSourceFiles::get_Count
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the number of source files.
 
 ## Syntax

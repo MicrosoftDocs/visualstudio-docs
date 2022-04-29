@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Create an options page
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough creates a simple Tools/Options page that uses a property grid to examine and set properties.
 

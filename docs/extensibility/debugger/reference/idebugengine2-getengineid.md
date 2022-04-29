@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugEngine2::GetEngineID
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the GUID of the debug engine (DE).
 
 ## Syntax

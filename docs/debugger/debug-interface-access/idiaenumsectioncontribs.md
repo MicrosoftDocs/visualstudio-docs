@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaEnumSectionContribs
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates the various section contributions contained in the data source.
 
 ## Syntax

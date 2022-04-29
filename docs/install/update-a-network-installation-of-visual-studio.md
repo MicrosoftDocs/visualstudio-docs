@@ -17,7 +17,7 @@ ms.technology: vs-installation
 ---
 # Update a Visual Studio client that was installed from a network layout
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can and should periodically update all Visual Studio clients so that they receive the latest security and functionality fixes. 
 

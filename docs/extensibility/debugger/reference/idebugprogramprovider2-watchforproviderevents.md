@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugProgramProvider2::WatchForProviderEvents
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Allows the process to be notified of port events.
 
 ## Syntax

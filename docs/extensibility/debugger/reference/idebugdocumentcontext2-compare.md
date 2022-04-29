@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugDocumentContext2::Compare
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Compares this document context to a given array of document contexts.
 
 ## Syntax

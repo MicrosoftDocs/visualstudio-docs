@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Record and replay live ASP.NET apps on Azure virtual machines using the Snapshot Debugger
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Time Travel Debugging (TTD) preview in Visual Studio Enterprise provides the ability to record a Web app running on an Azure Virtual Machine (VM) and then accurately reconstruct and replay the execution path. TTD integrates with the Snapshot Debugger and allows you to rewind and replay each line of code any number of times you want, helping you isolate and identify problems that might only occur in production environments.
 

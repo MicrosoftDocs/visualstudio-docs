@@ -15,7 +15,7 @@ ms.technology: vs-ide-test
 ---
 # Test mix models overview
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You use load modeling options to more accurately predict the expected real-world usage of a website or application that you are load testing. It's important to do this because a load test that's not based on an accurate load model can generate misleading results.
 

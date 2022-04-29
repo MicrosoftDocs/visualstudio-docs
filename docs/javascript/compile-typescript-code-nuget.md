@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Compile TypeScript code (ASP.NET Core)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can add TypeScript support to your projects using the TypeScript SDK, available by default in the Visual Studio installer or by using the NuGet package. For projects developed in Visual Studio 2019, we encourage you to use the TypeScript NuGet for greater portability across different platforms and environments.
 

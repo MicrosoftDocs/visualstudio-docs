@@ -26,7 +26,7 @@ manager: jmartens
 ---
 # Upgrade from Dotfuscator Community 5
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Learn how to upgrade to PreEmptive Protection - Dotfuscator Community 6.
 

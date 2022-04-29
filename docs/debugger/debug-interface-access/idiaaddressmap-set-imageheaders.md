@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaAddressMap::set_imageHeaders
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets image headers to enable relative virtual address translation.
 
 ## Syntax

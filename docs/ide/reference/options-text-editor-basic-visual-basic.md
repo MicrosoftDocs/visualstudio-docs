@@ -24,7 +24,7 @@ ms.workload:
 ---
 # Options, Text Editor, Basic (Visual Basic), Advanced
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **VB Specific** property page, in the **Basic** folder of the **Text Editor** folder of the **Options** (**Tools** menu) dialog box includes the following properties:
 
 ## Analysis

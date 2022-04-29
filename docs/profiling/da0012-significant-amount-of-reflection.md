@@ -19,7 +19,7 @@ ms.workload:
 ---
 # DA0012: Significant amount of Reflection
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 |Item|Value|
 |-|-|

@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaImageData::get_virtualAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the location in virtual memory of the image.
 
 ## Syntax

@@ -18,7 +18,7 @@ ms.workload:
 ---
 # diagnostic namespace
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `diagnostics` namespace provides functionality for emitting Concurrency Visualizer markers.
 
 ## Syntax

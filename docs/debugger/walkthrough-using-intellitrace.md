@@ -13,7 +13,7 @@ ms.workload:
 ---
 # View events with IntelliTrace in Visual Studio Enterprise (C#, Visual Basic)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use IntelliTrace to collect information about specific events or categories of events, or about individual function calls in addition to events. The following procedures show how to do this.
 

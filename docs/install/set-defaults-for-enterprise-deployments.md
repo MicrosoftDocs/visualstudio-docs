@@ -20,7 +20,7 @@ ms.technology: vs-installation
 ---
 # Set defaults for enterprise deployments of Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can set registry policies that affect the deployment and update behavior of Visual Studio. These policies are global on the client machine and affect the following:
 

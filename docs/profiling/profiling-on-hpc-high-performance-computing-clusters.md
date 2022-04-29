@@ -25,7 +25,7 @@ ms.workload:
 ---
 # Profile on HPC (high performance computing) clusters
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can profile on compute nodes of Microsoft Windows HPC clusters by using the sampling method of the Visual Studio Profiling Tools. For more information about HPC see [Windows HPC](https://azure.microsoft.com/solutions/big-compute/) on the Microsoft Web site.
 

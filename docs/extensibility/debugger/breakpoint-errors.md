@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Breakpoint errors
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following describes the process when a breakpoint attempts to bind to code but fails.
 
 ## Troubleshoot a breakpoint error

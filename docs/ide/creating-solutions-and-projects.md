@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Create, work with, and delete Visual Studio projects and solutions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this article, you'll learn how to create and use Visual Studio projects from scratch to store the artifacts you need to build your apps.  If you aren't familiar with projects in Visual Studio, see this overview of [Projects and Solutions](solutions-and-projects-in-visual-studio.md).  To learn how to quickly create a project from a template, see [Create a project from a template](create-new-project.md).
 

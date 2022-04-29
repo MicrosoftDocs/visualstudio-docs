@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugManagedObject::GetManagedObject
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns an interface that represents the managed object.
 
 ## Syntax

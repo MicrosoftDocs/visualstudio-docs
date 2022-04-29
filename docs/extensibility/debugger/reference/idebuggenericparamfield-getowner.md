@@ -18,7 +18,7 @@ dev_langs:
 ---
 # IDebugGenericParamField::GetOwner
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the type or method owner of this generic parameter.
 
 ## Syntax

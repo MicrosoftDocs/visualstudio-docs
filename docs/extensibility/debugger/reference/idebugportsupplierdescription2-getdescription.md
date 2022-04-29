@@ -18,7 +18,7 @@ dev_langs:
 ---
 # IDebugPortSupplierDescription2::GetDescription
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the description and description metadata for the port supplier.
 
 ## Syntax

@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Saving a Standard Document
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The environment handles the Save, Save As, and Save All commands. When a user selects **Save**, **Save As**, or **Save All** from the **File** menu or closes the solution, resulting in a **Save All**, the following process occurs.
 
  ![Standard Editor](../../extensibility/internals/media/public.gif "Public")

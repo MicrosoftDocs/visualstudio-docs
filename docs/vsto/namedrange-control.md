@@ -23,7 +23,7 @@ ms.workload:
 ---
 # NamedRange control
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Tools.Excel.NamedRange> control is a range that has a unique name, exposes events, and can be bound to data. For more information, see [Excel object model overview](../vsto/excel-object-model-overview.md).
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]

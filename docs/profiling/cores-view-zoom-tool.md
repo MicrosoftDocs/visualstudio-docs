@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Cores View Zoom tool
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Zoom control is a slider that lets you zoom in and out on the timeline so that you can focus on areas of particular interest. This control zooms on the center of the current view, so adjust the view before you zoom in.
 
 ## Other ways to zoom

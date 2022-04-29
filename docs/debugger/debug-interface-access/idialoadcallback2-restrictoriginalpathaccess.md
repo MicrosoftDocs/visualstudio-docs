@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaLoadCallback2::RestrictOriginalPathAccess
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if it is okay to look for a .pdb file in the original debug directory.
 
 ## Syntax

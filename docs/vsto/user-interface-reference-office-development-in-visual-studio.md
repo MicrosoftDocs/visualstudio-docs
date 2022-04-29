@@ -19,7 +19,7 @@ ms.workload:
 ---
 # User interface reference (Office development in Visual Studio)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The following user interface elements are part of Office projects in Visual Studio.
 
 ## In this section

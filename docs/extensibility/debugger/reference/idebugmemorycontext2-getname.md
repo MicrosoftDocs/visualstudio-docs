@@ -21,7 +21,7 @@ dev_langs:
 ---
 # IDebugMemoryContext2::GetName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the user-displayable name for this context.
 
 ## Syntax

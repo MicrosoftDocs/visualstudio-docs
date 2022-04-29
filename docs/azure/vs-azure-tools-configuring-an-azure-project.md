@@ -11,7 +11,7 @@ ms.author: ghogen
 ---
 # Configure an Azure cloud service project with Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can configure an Azure cloud service project, depending on your requirements for that project. You can set properties for the project for the following categories:
 
 - **Publish a cloud service to Azure** - You can set a property to make sure that an existing cloud service deployed to Azure is not accidentally deleted.

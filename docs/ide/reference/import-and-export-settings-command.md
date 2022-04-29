@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Import and Export Settings command (.vssettings file)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Imports, exports, or resets Visual Studio settings file, `.vssettings`.
 

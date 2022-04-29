@@ -24,7 +24,7 @@ ms.workload:
 ---
 # Devenv command-line switches for VSPackage development
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio allows developers to automate tasks from the command line when executing `devenv.exe`, the file that starts the Visual Studio IDE.
 

@@ -20,7 +20,7 @@ dev_langs:
 ---
 # PROCESS_INFO
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains information about a process.
 
 ## Syntax

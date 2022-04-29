@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_hasSEH
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that specifies whether the function contains any [Structured Exception Handling (C/C++)](/cpp/cpp/structured-exception-handling-c-cpp) (for example, __try/\__except blocks).
 
 ## Syntax

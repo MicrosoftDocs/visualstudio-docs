@@ -23,7 +23,7 @@ ms.workload:
 ---
 # Walkthrough: Create a custom tab by using Ribbon XML
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates how to create a custom Ribbon tab by using the **Ribbon (XML)** item.
 
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]

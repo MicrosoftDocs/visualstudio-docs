@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Compare performance data files
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Profiling Tools data files comparison functionality allows you to select two report files (.*vsp* or .*vsps*) files and generate a report that shows the differences, performance regressions, and improvements that occurred from one profiling session to the other.
 

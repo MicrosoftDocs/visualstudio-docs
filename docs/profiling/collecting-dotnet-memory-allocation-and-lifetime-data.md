@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Collect .NET Framework memory allocation and lifetime data
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio Profiling Tools support the collection of .NET Framework memory allocation and object lifetime data, which helps you detect memory-related performance issues in your application.
 

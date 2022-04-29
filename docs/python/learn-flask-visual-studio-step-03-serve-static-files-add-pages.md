@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Step 3: Serve static files, add pages, and use template inheritance with Flask app
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Previous step: [Create a Flask app with views and page templates](learn-flask-visual-studio-step-02-create-app.md)**
 

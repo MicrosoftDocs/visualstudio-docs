@@ -21,7 +21,7 @@ ms.workload:
 ---
 # &lt;fileAssociation&gt; element (ClickOnce application)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Identifies a file extension to be associated with the application.
 
 ## Syntax

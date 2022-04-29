@@ -18,7 +18,7 @@ ms.workload:
 ---
 # CustomParameter element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains a custom parameter name and value to use when a project or item is created from the template.
 
 ## Syntax

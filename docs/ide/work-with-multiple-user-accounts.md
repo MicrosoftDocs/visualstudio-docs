@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Work with multiple user accounts
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range="vs-2017"
 This article shows you how to add multiple accounts to Visual Studio. It also shows you how to see the resources accessible from those accounts in places such as the **Add Connected Service** dialog, **Server Explorer**, and **Team Explorer**.

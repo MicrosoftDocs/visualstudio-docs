@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Compile TypeScript code (Node.js)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can add TypeScript support to your projects using the TypeScript SDK or by using the npm. The TypeScript SDK is available by default in the Visual Studio installer.
 

@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Graphics Frame Validation
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 <!-- VERSIONLESS -->
 Visual Studio 2017 and greater support the **Frame Validation** tool.  The Frame Validation window displays errors and warnings associated with the event list.  To view this window, select the **View > Frame Validation** menu.
 

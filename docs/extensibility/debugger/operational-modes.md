@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Operational modes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 There are three modes in which the IDE can operate, as follows:
 
 - [Design mode](#vsconoperationalmodesanchor1)

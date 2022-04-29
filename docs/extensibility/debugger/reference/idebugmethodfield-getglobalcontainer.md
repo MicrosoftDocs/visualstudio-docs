@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugMethodField::GetGlobalContainer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the global container of the method.
 
 ## Syntax

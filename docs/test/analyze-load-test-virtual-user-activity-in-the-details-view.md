@@ -17,7 +17,7 @@ ms.technology: vs-ide-test
 ---
 # Analyzing load test virtual user activity in the Details view of the Load Test Analyzer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 

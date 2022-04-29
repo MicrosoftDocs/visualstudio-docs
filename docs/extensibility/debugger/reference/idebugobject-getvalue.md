@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugObject::GetValue
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the value of the object as a consecutive series of bytes.
 
 ## Syntax

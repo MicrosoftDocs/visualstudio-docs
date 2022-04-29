@@ -13,7 +13,7 @@ ms.workload:
 ---
 # How to: Personalize the Visual Studio IDE and the editor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range="vs-2022"
 

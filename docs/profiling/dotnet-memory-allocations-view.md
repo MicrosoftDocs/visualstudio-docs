@@ -22,7 +22,7 @@ ms.workload:
 ---
 # .NET Memory Allocations View
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Allocations view lists the types that were created during the profiling run. Each type is the root node of a call tree that displays the function execution paths that resulted in the allocations of the type.
 

@@ -19,7 +19,7 @@ ms.workload:
 ---
 # ProjectSubType element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Classifies the template into a subcategory of the value specified in the `ProjectType` element.
 
  \<VSTemplate>

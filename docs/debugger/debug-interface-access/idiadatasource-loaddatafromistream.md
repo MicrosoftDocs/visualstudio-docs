@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaDataSource::loadDataFromIStream
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Prepares the debug data stored in a program database (.pdb) file accessed through an in-memory data stream.
 
 ## Syntax

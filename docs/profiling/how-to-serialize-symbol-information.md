@@ -19,7 +19,7 @@ ms.workload:
 ---
 # How to: Serialize symbol information
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can serialize symbols that you must have to analyze your application. Symbol serialization adds symbols to the .*vsp* file. By adding symbol information to the .*vsp* file, others can analyze a performance report without having access to the original symbols. If symbols are not serialized, you must have original instrumented .*exe* and .*pdb* files to analyze the .*vsp* file.
 
 ### To automatically serialize symbol information

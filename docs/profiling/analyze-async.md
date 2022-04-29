@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Analyze performance of .NET asynchronous code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the .NET Async tool to analyze the performance of asynchronous code in your app.
 

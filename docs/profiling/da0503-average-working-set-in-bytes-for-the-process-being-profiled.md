@@ -18,7 +18,7 @@ ms.workload:
 ---
 # DA0503: Average working set in bytes for the process being profiled
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 |Item|Value|
 |-|-|

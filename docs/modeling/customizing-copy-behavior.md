@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Customizing Copy Behavior
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In a domain-specific language (DSL) created with the Visual Studio Visualization and Modeling SDK, you can alter what happens when the user copies and pastes elements.
 
 ## Standard Copy and Paste Behavior

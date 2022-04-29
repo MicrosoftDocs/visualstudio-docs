@@ -21,7 +21,7 @@ ms.workload:
 ---
 # Extend the functionality of a TableAdapter
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can extend the functionality of a TableAdapter by adding code to the TableAdapter's partial class file.
 

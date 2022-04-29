@@ -17,7 +17,7 @@ ms.workload:
 ---
 # SccDirDiff function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function displays the differences between the current local directory on the client disk and the corresponding project under source control.
 
 ## Syntax

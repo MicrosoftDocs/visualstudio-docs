@@ -14,7 +14,7 @@ monikerRange: '<= vs-2022'
 ---
 # Use different web browsers with coded UI tests
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Coded UI tests can automate testing for web applications by recording your tests using Internet Explorer. You can then customize your test and play it back using either Internet Explorer or other browser types for these web applications. This article describes how to automate the tests using Selenium.
 

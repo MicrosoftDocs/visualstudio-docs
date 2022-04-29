@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugDefaultPort2::GetPortNotify
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets an [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md) interface for this port.
 
 ## Syntax

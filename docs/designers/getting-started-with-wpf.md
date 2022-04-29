@@ -14,7 +14,7 @@ ms.workload:
 ---
 # What is Windows Presentation Foundation (WPF)?
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Windows Presentation Foundation is a UI framework that creates desktop client applications.  The WPF development platform supports a broad set of application development features, including an application model, resources, controls, graphics, layout, data binding, documents, and security.
 

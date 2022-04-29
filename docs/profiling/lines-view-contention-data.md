@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Lines View - contention data
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Lines view of contention data lists performance data for the statements that were executing when the samples were collected in the profiling run. In a source file, a statement can span more than one line in a source file, and a single line can include more than one statement.
 
  A statement is identified by the following data:

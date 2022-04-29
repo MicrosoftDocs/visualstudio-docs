@@ -30,7 +30,7 @@ ms.workload:
 ---
 # View the structure of code by using different tool windows
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can examine classes and their members in Visual Studio using various tool windows, including **Class View**, **Call Hierarchy**, **Object Browser**, and **Code Definition** (C++ only). These tool windows can examine code in Visual Studio projects, .NET components, COM components, dynamic-link libraries (DLL), and type libraries (TLB).
 

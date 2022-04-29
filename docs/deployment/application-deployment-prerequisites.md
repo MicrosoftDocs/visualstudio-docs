@@ -25,7 +25,7 @@ ms.workload:
 ---
 # Application deployment prerequisites (Windows desktop)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To have your Windows desktop application install and run successfully, first install all components upon which your application is dependent onto the target computer. For example, most applications created using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have a dependency on the .NET Framework. In this case, the correct version of the common language runtime must be present on the destination computer before the application is installed.
 

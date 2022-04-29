@@ -13,7 +13,7 @@ ms.technology: vs-installation
 ---
 # Visual Studio on ARM-powered devices
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range="vs-2019"
 

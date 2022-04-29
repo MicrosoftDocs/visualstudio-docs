@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Debugging XSLT
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can debug XSLT code in Visual Studio. The XSLT debugger supports setting breakpoints, viewing XSLT execution states, and so on. The XSLT debugger can be used to debug XSLT style sheets or XSLT applications.
 

@@ -15,7 +15,7 @@ ms.workload:
 ---
 # IDiaSymbol::findInlineeLinesByAddr
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, in this symbol within the specified address range.
 
 ## Syntax

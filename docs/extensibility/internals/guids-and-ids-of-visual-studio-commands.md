@@ -20,7 +20,7 @@ ms.workload:
 ---
 # GUIDs and IDs of Visual Studio commands
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The GUID and ID values of the commands included in the Visual Studio integrated development environment (IDE) are defined in .vsct files that are installed as part of the Visual Studio SDK. For more information, see [IDE-defined commands, menus, and groups](../../extensibility/internals/ide-defined-commands-menus-and-groups.md).
 
  For more information about how to work with IDE objects that are defined in *.vsct* files, see [Extend menus and commands](../../extensibility/extending-menus-and-commands.md).

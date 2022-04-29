@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugDocumentContext2::EnumCodeContexts
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of all code contexts associated with this document context.
 
 ## Syntax

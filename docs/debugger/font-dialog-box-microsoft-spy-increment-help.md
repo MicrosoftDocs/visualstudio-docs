@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Font Dialog Box (Microsoft Spy++ Help)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Use this dialog box to configure the character font used in a [Spy++ Views](../debugger/spy-increment-views.md) window. To display this dialog box, expand the **View** menu and choose **Font**.
 
  The following settings are available:

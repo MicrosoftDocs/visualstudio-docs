@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Publish Page, Project Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Publish** page of the **Project Designer** is used to configure properties for ClickOnce deployment.
 

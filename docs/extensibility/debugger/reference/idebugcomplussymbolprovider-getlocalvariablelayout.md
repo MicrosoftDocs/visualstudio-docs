@@ -19,7 +19,7 @@ dev_langs:
 ---
 # IDebugComPlusSymbolProvider::GetLocalVariablelayout
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the layout of local variables for a set of methods.
 
 ## Syntax

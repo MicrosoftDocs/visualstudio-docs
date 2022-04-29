@@ -15,7 +15,7 @@ ms.workload:
 ---
 # m_stateObject field
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 An object that represents data that the action will use.
 
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

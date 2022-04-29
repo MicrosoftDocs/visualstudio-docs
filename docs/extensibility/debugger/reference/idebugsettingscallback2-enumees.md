@@ -18,7 +18,7 @@ dev_langs:
 ---
 # IDebugSettingsCallback2::EnumEEs
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates the available expression evaluators given the language and vendor identifiers.
 
 ## Syntax

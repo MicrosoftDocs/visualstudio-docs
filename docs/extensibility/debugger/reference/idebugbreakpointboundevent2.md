@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDebugBreakpointBoundEvent2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface tells the session debug manager (SDM) that a pending breakpoint has been successfully bound to a loaded program.
 
 ## Syntax

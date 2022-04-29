@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Setting a Background Image on a Diagram
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In Visual Studio Visualization and Modeling SDK, you can set the background image for a generated designer by using custom code.
 
 ## Setting the background image

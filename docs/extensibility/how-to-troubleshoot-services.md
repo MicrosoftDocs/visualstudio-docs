@@ -16,7 +16,7 @@ ms.workload:
 ---
 # How to: Troubleshoot services
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 There are several common problems that can occur when you try to get a service:
 
 - The service is not registered with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].

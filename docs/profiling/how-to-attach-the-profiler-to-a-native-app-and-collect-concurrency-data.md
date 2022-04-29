@@ -15,7 +15,7 @@ ms.workload:
 ---
 # How to: Attach the profiler to a native stand-alone application and collect concurrency data by using the command line
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a running native (C/C++) stand-alone application and collect thread contention data.
 
 > [!NOTE]

@@ -16,7 +16,7 @@ ms.technology: vs-ide-test
 ---
 # Edit load patterns to model virtual user activities
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The load pattern properties specify how the simulated user load is adjusted during a load test. Visual Studio provides three built-in load patterns: constant, step, and goal-based. You choose the load pattern and adjust the properties to appropriate levels for your load test goals.
 

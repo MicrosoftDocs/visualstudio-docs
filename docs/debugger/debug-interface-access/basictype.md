@@ -18,7 +18,7 @@ ms.workload:
 ---
 # BasicType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the symbol's basic type.
 
 ## Syntax

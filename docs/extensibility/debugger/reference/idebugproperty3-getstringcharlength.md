@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugProperty3::GetStringCharLength
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the number of characters in the associated property's string.
 
 ## Syntax

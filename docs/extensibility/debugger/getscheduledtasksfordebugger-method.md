@@ -15,7 +15,7 @@ ms.workload:
 ---
 # GetScheduledTasksForDebugger Method
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an array of all scheduled tasks.
 
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

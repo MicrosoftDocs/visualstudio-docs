@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Step 6: Use the Polls Django Web Project template
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Previous step: [Authenticate users in Django](learn-django-in-visual-studio-step-05-django-authentication.md)**
 

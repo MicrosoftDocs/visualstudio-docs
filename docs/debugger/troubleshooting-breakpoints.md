@@ -14,7 +14,7 @@ ms.custom: devdivchpfy22
 ---
 # Troubleshoot Breakpoints in the Visual Studio Debugger
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Breakpoint Warnings
 

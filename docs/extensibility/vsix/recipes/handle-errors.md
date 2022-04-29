@@ -12,7 +12,7 @@ ms.custom: cookbook
 ---
 # Error handling in Visual Studio extensions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Exceptions will likely occur in any program including Visual Studio extensions. Let's make sure we handle them correctly in a way that optimizes the user experiences when they do occur.
 

@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugBreakpointRequest2::GetRequestInfo
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the breakpoint request information that describes this breakpoint request.
 
 ## Syntax

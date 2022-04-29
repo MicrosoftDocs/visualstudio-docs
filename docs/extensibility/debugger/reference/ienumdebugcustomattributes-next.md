@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IEnumDebugCustomAttributes::Next
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a specified number of custom attributes in an enumeration sequence.
 
 ## Syntax

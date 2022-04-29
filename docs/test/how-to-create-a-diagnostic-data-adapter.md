@@ -14,7 +14,7 @@ ms.technology: vs-ide-test
 ---
 # How to: Create a diagnostic data adapter
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To create a *diagnostic data adapter*, you create a class library using Visual Studio, and then add the Diagnostic Data Adapter APIs provided by Visual Studio Enterprise to your class library. Send any information that you want as a stream or a file to the <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectionSink> provided by the framework, when handling the events that are raised during the test run. The streams or files sent to the <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectionSink> are stored as attachments to the test results when your test finishes. If you create a bug from these test results or when you use [!INCLUDE[mtrlong](../test/includes/mtrlong_md.md)], the files are also linked to the bug.
 

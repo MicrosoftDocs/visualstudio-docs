@@ -18,7 +18,7 @@ ms.technology: vs-ide-test
 ---
 # Assign roles to a test controller and test agent
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article demonstrates how to create and configure a test setting that uses a test controller and test agent to distribute testing across several machines using Visual Studio. It also demonstrates how to add diagnostic and data adapters to the test setting.
 

@@ -18,7 +18,7 @@ ms.workload:
 ---
 # How to: Retrieve the SharePoint project service
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can access the SharePoint project service in the following types of solutions:
 
 - An extension of the SharePoint project system, such as a project extension, project item extension, or project item type definition. For more information about these types of extensions, see [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md).

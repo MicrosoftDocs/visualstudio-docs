@@ -24,7 +24,7 @@ ms.workload:
 ---
 # Debug DLLs in Visual Studio (C#, C++, Visual Basic, F#)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A DLL (dynamic-link library) is a library that contains code and data that can be used by more than one app. You can use Visual Studio to create, build, configure, and debug DLLs.
 

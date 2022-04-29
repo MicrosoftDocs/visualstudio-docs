@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSectionContrib::get_addressOffset
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the offset part of the contribution's address.
 
 ## Syntax

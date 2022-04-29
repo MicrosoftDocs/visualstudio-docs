@@ -16,7 +16,7 @@ ms.workload:
 ---
 # CorrelationScope Activity Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **CorrelationScope** activity designer is used to create and configure a <xref:System.ServiceModel.Activities.CorrelationScope> activity that provides implicit management of child messaging activities using a <xref:System.ServiceModel.Activities.CorrelationHandle> object.
 

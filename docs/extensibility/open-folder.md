@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Open Folder extensibility
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The [Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) feature allows users to open any codebase in Visual Studio without the need for project or solution files. Open Folder provides the features users expect from Visual Studio such as:
 

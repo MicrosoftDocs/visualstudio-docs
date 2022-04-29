@@ -20,7 +20,7 @@ dev_langs:
 ---
 # BP_PASSCOUNT_STYLE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the condition associated with the breakpoint pass count that causes the breakpoint to fire.
 
 ## Syntax

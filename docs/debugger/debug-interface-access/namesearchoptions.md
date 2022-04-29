@@ -17,7 +17,7 @@ ms.workload:
 ---
 # NameSearchOptions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the search options for symbol and file names.
 
 ## Syntax

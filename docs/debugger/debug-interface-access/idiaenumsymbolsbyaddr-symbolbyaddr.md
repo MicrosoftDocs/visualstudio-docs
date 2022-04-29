@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaEnumSymbolsByAddr::symbolByAddr
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Positions the enumerator by performing a lookup by image section number and offset.
 
 ## Syntax

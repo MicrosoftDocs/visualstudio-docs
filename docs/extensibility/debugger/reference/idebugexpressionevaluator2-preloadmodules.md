@@ -19,7 +19,7 @@ dev_langs:
 ---
 # IDebugExpressionEvaluator2::PreloadModules
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Preloads the modules designated by the specified symbol provider.
 
 ## Syntax

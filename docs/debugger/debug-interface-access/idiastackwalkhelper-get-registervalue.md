@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaStackWalkHelper::get_registerValue
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the value of a register.
 
 ## Syntax

@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Model editor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This document describes how to work with the Visual Studio **Model Editor** to view, create, and modify 3D models.
 

@@ -19,7 +19,7 @@ dev_langs:
 ---
 # IDebugComPlusSymbolProvider::LoadSymbols
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Loads the specified debug symbols in memory.
 
 ## Syntax

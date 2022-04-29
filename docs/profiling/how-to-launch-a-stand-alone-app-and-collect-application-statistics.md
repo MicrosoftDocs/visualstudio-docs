@@ -15,7 +15,7 @@ ms.workload:
 ---
 # How to: Launch a stand-alone application with the profiler and collect application statistics by using the command line
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to start a stand-alone (client) application and collect performance statistics by using the sampling method.
 
 > [!NOTE]

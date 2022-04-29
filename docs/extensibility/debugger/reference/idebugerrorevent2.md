@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDebugErrorEvent2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface specifies an error message to be reported to the user.
 
 ## Syntax

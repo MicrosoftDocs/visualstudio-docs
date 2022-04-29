@@ -26,7 +26,7 @@ ms.workload:
 ---
 # Debugging Preparation: C#, F#, and Visual Basic Project Types
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The topics in this section describe how to debug the C#, F#, and [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] project types created by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project templates.
 

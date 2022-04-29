@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Registration and Selection (Source Control VSPackage)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A source control VSPackage must be registered to expose it to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. If more than one source control VSPackage is registered, the user can select which VSPackage to load at appropriate times. See [VSPackages](../../extensibility/internals/vspackages.md) for more details on VSPackages and how to register them.
 
 ## Registering a Source Control Package

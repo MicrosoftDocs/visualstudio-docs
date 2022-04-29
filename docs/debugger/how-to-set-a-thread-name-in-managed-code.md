@@ -24,7 +24,7 @@ ms.workload:
 ---
 # How to: Set a Thread Name in Managed Code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Thread naming is possible in any edition of Visual Studio. Thread naming is useful for keeping track of threads in the **Threads** window.
 
  To set a thread name in managed code, use the <xref:System.Threading.Thread.Name%2A> property.

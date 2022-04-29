@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugEngineProgram2::WatchForThreadStep
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Watches for execution (or stops watching for execution) to occur on the given thread.
 
 ## Syntax

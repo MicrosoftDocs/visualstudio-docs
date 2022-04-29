@@ -21,7 +21,7 @@ dev_langs:
 ---
 # IDebugMemoryContext2::Compare
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Compares the memory context to each context in the given array in the manner indicated by compare flags, returning an index of the first context that matches.
 
 ## Syntax

@@ -18,7 +18,7 @@ dev_langs:
 ---
 # IDebugProcessSecurity::QueryCanSafelyAttach
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method allows the port supplier to display a warning before the user attaches to an unsafe process.
 
 ## Syntax

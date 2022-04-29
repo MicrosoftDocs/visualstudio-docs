@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Collect detailed timing data for services by using the instrumentation method from the profiler command line
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section describes the procedures and options for collecting detailed performance data for Windows services using the instrumentation method from the command line.
 
 ## Common tasks

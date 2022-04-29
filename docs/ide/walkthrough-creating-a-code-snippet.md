@@ -23,7 +23,7 @@ ms.workload:
 ---
 # Walkthrough: Create a code snippet
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can create a code snippet with only a few steps. All you need to do is create an XML file, fill in the appropriate elements, and add your code to it. You can optionally make use of replacement parameters and project references. Import the snippet to your Visual Studio installation by using the **Import** button in the **Code Snippets Manager** (**Tools** > **Code Snippets Manager**).
 

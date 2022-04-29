@@ -18,7 +18,7 @@ monikerRange: vs-2017
 ---
 # Add Visual Studio commands to a Start Page
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you create a custom Start Page, you can add Visual Studio commands to it. This document discusses the different ways to bind Visual Studio commands to XAML objects on a Start Page.
 

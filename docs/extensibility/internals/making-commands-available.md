@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Making commands available
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When multiple VSPackages are added to Visual Studio, the user interface (UI) may become overcrowded with commands. You can program your package to help reduce this problem, as follows:
 

@@ -19,7 +19,7 @@ ms.workload:
 ---
 # How to: Manage editor windows
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can work on code in several locations at once. Do this by splitting an editor window, or by opening several instances of editor windows.
 

@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Debug workflows with the Workflow Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Workflow Designer** provides the ability to debug workflows and custom activities. The process and behavior are similar to that of the default Visual Studio debugger.
 

@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Graphics State
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The State window in Visual Studio graphics Diagnostics helps you understand the graphics state that is active at the time of the current event, such as a draw call.
 
 ## Understanding the State window

@@ -18,7 +18,7 @@ ms.workload:
 ---
 # ExtensionDataItem element
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   A custom data item that is associated with the SharePoint project item, in key/value format. Both the key and value must be strings.
 
 ## Syntax

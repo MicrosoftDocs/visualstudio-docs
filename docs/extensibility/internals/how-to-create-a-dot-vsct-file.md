@@ -16,7 +16,7 @@ ms.workload:
 ---
 # How to: Create a .vsct file
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are several ways to create an XML-based Visual Studio command table configuration (*.vsct*) file.
 

@@ -19,7 +19,7 @@ ms.workload:
 ---
 # NumberOfParentCategoriesToRollUp element (Visual Studio templates)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the number of parent categories that will display the template in the **New Project** dialog box.
 
  \<VSTemplate>

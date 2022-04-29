@@ -27,7 +27,7 @@ ms.workload:
 ---
 # &lt;RelatedProducts&gt; element (bootstrapper)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `RelatedProducts` element defines other products that either depend upon or are included in the current product.
 
 ## Syntax

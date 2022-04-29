@@ -32,7 +32,7 @@ ms.custom: devdivchpfy22
 ---
 # How to: Enable and disable Edit and Continue (C#, VB, C++)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can disable or enable **Edit and Continue** in the Visual Studio **Options** dialog box at design time. **Edit and Continue** works only in debug builds. For more information, see [Edit and Continue](../debugger/edit-and-continue.md).
 

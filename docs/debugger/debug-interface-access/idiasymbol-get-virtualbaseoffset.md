@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_virtualBaseOffset
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the offset in the virtual function table of a virtual function.
 
 ## Syntax

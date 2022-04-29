@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugProcessEx2::Detach
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method informs the process that a session is no longer debugging the process.
 
 ## Syntax

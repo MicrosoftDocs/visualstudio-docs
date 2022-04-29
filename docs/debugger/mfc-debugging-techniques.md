@@ -31,7 +31,7 @@ ms.workload:
 ---
 # MFC Debugging Techniques
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If you are debugging an MFC program, these debugging techniques may be useful.
 
 ## <a name="BKMK_In_this_topic"></a> In this topic

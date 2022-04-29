@@ -20,7 +20,7 @@ dev_langs:
 ---
 # TEXT_POSITION
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the line and column location in the given text.
 
 ## Syntax

@@ -22,7 +22,7 @@ ms.workload:
 ---
 # Use regular expressions in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio uses [.NET regular expressions](/dotnet/standard/base-types/regular-expressions) to find and replace text.
 

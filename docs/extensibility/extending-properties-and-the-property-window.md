@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Extend properties and the Property window
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Properties** window is used to view and edit the design-time properties and events of selected objects.
 
  When you select an object in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the public properties of that object appear in the **Properties** window. For more information, see [Properties window overview](../extensibility/internals/properties-window-overview.md).

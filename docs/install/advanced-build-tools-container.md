@@ -15,7 +15,7 @@ ms.technology: vs-installation
 ---
 # Advanced example for containers
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range="vs-2017"
 

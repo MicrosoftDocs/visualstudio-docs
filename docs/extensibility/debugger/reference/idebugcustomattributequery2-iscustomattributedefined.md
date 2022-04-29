@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugCustomAttributeQuery2::IsCustomAttributeDefined
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines whether a custom attribute exists by name.
 
 ## Syntax

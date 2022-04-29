@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaFrameData::get_lengthParams
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the number of bytes of parameters pushed on the stack.
 
 ## Syntax

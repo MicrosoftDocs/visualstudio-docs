@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_token
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the metadata token of a managed function or variable.
 
 ## Syntax

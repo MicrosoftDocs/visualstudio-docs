@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaLineNumber::get_relativeVirtualAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the relative virtual address (RVA) of the block.
 
 ## Syntax

@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugDocument2::GetDocumentClassID
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the class identifier of the document.
 
 ## Syntax

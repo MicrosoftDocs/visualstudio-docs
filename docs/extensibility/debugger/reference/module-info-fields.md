@@ -20,7 +20,7 @@ dev_langs:
 ---
 # MODULE_INFO_FIELDS
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the flags for the debug module information.
 
 ## Syntax

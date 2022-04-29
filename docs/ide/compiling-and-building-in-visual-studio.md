@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Compile and build in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 For a first introduction to building within the IDE, see [Walkthrough: Building an application](walkthrough-building-an-application.md).
 

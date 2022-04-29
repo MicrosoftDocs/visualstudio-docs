@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Project Types Architecture
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section contains detailed information about the architecture of project types in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
 
 ## In This Section

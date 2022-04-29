@@ -24,7 +24,7 @@ ms.workload:
 ---
 # Handle a concurrency exception
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Concurrency exceptions (<xref:System.Data.DBConcurrencyException?displayProperty=fullName>) are raised when two users attempt to change the same data in a database at the same time. In this walkthrough, you create a Windows application that illustrates how to catch a <xref:System.Data.DBConcurrencyException>, locate the row that caused the error, and learn a strategy for how to handle it.
 

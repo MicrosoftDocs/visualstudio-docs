@@ -16,7 +16,7 @@ ms.workload:
 ---
 # How to: Display Thread Properties
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To find out more about a thread listed in [Threads View](../debugger/threads-view.md), use the [Thread Properties Dialog Box](../debugger/thread-properties-dialog-box.md).
 
 ### To open a Thread Properties dialog box

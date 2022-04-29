@@ -14,7 +14,7 @@ ms.workload:
 ---
 # How to create and manage Python environments in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A **Python environment** is a context in which you run Python code and includes global, virtual, and conda environments. An environment consists of an interpreter, a library (typically the Python Standard Library), and a set of installed packages. These components together determine valid language constructs and syntax, operating-system functionality that you can access, and packages you can use.
 

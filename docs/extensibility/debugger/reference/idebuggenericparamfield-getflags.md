@@ -19,7 +19,7 @@ dev_langs:
 ---
 # IDebugGenericParamField::GetFlags
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the flags for this generic parameter.
 
 ## Syntax

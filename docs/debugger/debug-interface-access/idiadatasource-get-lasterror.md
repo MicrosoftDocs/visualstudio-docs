@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaDataSource::get_lastError
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the file name for the last load error.
 
 ## Syntax

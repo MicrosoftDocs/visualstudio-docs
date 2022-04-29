@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Graphics Pipeline Stages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Graphics Pipeline Stages window helps you understand how an individual draw call is transformed by each stage of the Direct3D graphics pipeline.
 
  This is the Pipeline Stages window:

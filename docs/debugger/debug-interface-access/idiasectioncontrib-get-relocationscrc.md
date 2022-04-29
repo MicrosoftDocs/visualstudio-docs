@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSectionContrib::get_relocationsCrc
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the cyclic redundancy check (CRC) of the relocation information for the section.
 
 ## Syntax

@@ -19,7 +19,7 @@ ms.workload:
 ---
 # How to: Programmatically add an entry to Outlook contacts
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example creates a new contact and enters data into the new contact.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

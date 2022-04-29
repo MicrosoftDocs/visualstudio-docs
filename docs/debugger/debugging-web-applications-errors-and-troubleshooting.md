@@ -32,7 +32,7 @@ ms.workload:
 ---
 # Debugging Web Applications: Errors and Troubleshooting
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You may encounter the following errors when attempting to debug Web applications.
 
 - [Troubleshooting](../debugger/debugging-web-applications-troubleshooting.md)

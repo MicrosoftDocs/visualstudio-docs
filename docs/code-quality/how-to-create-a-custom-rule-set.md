@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Customize a rule set
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can create a custom rule set to meet specific project needs for code analysis.
 

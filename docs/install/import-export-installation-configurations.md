@@ -19,7 +19,7 @@ ms.technology: vs-installation
 ---
 # Import or export installation configurations
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 # Import or export installation configurations
 
 You can configure Visual Studio across your organization with installation configuration files. To do so, export the workload and component information to a .vsconfig file by using the Visual Studio installer. You can then import the configuration into new or existing installations, and share them with others, too.

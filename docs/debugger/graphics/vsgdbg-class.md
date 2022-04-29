@@ -13,7 +13,7 @@ ms.workload:
 ---
 # VsgDbg Class
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents an interface for programmatic control of the in-app component of graphics diagnostics.
 
 ## Syntax

@@ -19,7 +19,7 @@ dev_langs:
 ---
 # IDebugPointerObject3::GetPointerAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the address of the pointer.
 
 ## Syntax

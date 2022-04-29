@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IEnumDebugObjects::Reset
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method resets the enumeration to the first element.
 
 ## Syntax

@@ -15,7 +15,7 @@ ms.workload:
 ---
 # TASK_STATE_CANCELED field
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The task was canceled before it reached the running state, or it confirmed its cancellation and completed without exception.
 
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

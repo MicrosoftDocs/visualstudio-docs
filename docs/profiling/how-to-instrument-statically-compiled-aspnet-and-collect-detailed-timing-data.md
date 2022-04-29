@@ -15,7 +15,7 @@ ms.workload:
 ---
 # How to: Instrument a statically compiled ASP.NET web application and collect detailed timing data with the profiler by using the command line
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to instrument a precompiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web component or web site and collect detailed timing data.
 
 > [!NOTE]

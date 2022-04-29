@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_age
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the age value of a .pdb file.
 
 ## Syntax

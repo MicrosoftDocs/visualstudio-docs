@@ -16,7 +16,7 @@ ms.technology: vs-ide-general
 ---
 # Options dialog box: Windows Forms Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Windows Forms Designer options page lets you set preferences for the grids and other features of the Windows Forms Designer in Visual Studio. Open the **Options** dialog box from the **Tools** menu.
 

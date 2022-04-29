@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_thisAdjust
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the logical `this` adjustor for the method.
 
 ## Syntax

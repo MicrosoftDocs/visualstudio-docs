@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Common tasks in Office programming
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This topic is designed to help you find the answers to the following categories of common questions about programming Office solutions by using Visual Studio.
 
 - [Setup and general tasks](#projects).

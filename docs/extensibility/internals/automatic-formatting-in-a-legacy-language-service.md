@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Automatic formatting in a legacy language service
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 With automatic formatting, a language service automatically inserts a snippet of code when a user begins to type a known code construct.
 
 ## Automatic formatting behavior

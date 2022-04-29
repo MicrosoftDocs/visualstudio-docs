@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSession::findSymbolByVAEx
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a specified symbol type that contains, or is closest to, a specified virtual address (VA) and offset.
 
 ## Syntax

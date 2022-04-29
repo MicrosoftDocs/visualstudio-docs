@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugCanStopEvent2::GetCodeContext
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the code context that describes the location of this event.
 
 ## Syntax

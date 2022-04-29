@@ -19,7 +19,7 @@ dev_langs:
 ---
 # IDebugComPlusSymbolProvider::ReplaceSymbols
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Replaces the current debug symbols with those in the specified data stream.
 
 ## Syntax

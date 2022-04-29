@@ -14,7 +14,7 @@ ms.workload:
 ---
 # 0x/2x/4x MSAA Variants
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Overrides multi-sample anti-aliasing (MSAA) settings on all render targets and swap chains.
 
 ## Interpretation

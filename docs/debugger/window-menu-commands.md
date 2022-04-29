@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Window Menu Commands
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Window** menu provides commands to manage Spy++ windows.
 
  **Cascade**

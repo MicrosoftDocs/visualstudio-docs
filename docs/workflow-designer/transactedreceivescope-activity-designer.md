@@ -16,7 +16,7 @@ ms.workload:
 ---
 # TransactedReceiveScope Activity Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **TransactedReceiveScope** designer is used to create and configure a <xref:System.ServiceModel.Activities.TransactedReceiveScope> activity.
 

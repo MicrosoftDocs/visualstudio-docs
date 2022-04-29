@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Work with the R interactive window
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 R Tools for Visual Studio (RTVS) provides an R interactive window, also known as a **REPL** (Read-Evaluate-Print-Loop) window, in which you can enter R code and immediately see the results. All modules, syntax, and variables, as well as IntelliSense, is available in the interactive window.
 

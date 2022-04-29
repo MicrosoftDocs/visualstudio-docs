@@ -18,7 +18,7 @@ dev_langs:
 ---
 # IDebugPortPicker::SetSite
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the service provider.
 
 ## Syntax

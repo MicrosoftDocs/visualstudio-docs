@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugProcessEx2::Attach
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method informs the process that a session is now debugging the process.
 
 ## Syntax

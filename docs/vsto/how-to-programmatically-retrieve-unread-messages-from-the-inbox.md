@@ -21,7 +21,7 @@ ms.workload:
 ---
 # How to: Programmatically retrieve unread messages from the Inbox
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example retrieves unread email messages from the Outlook **Inbox** and displays the number of items.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

@@ -11,7 +11,7 @@ ms.workload:
 ---
 # DirectX 12 Support in Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## DirectX 12 Support
 

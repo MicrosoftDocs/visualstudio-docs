@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSession::findChildren
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves all children of a specified parent identifier that match the name and symbol type.
 
 ## Syntax

@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_virtualTableShapeId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the virtual table shape symbol identifier of the symbol.
 
 ## Syntax

@@ -9,7 +9,7 @@ ms.topic: conceptual
 ---
 # How Visual Studio builds containerized apps
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Whether you're building from the Visual Studio IDE, or setting up a command-line build, you need to know how Visual Studio uses the Dockerfile to build your projects.  For performance reasons, Visual Studio follows a special process for containerized apps. Understanding how Visual Studio builds your projects is especially important when you customize your build process by modifying the Dockerfile.
 

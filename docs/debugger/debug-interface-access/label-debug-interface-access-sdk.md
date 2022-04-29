@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Label (Debug Interface Access SDK)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A location in program code is identified by a `SymTagLabel` symbol.
 
 ## Properties

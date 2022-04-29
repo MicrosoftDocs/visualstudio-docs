@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Accessibility features of the Help Viewer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Microsoft is committed to making its products and services easier for everyone to use. This topic includes information about the features, products, and services that help make Microsoft Help Viewer accessible for people with a wide range of abilities.
 
 ## Keyboard access

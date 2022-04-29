@@ -20,7 +20,7 @@ ms.workload:
 ---
 # How to: Specify build events (C#)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use build events to specify commands that run before the build starts or after the build finishes.
 

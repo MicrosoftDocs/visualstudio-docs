@@ -14,7 +14,7 @@ ms.workload:
 ---
 # The connection property in the Application Settings file is missing or incorrect
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The connection property in the Application Settings file is missing or incorrect. The connection string from the *.dbml* file has been used in its place.
 

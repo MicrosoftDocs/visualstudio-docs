@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Anatomy of a coded UI test
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you create a Coded UI Test in a coded UI test project, several files are added to the solution. This article provides information about the files.
 

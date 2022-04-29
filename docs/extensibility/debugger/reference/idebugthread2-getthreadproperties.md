@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugThread2::GetThreadProperties
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the properties that describe this thread.
 
 ## Syntax

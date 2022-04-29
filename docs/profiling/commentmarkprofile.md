@@ -18,7 +18,7 @@ ms.workload:
 ---
 # CommentMarkProfile
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `CommentMarkProfile` function inserts a numeric marker and a text string into the *.vsp* file. For the mark and comment to be inserted, profiling for the thread that contains the `CommentMarkProfile` function must be ON.
 
 ## Syntax

@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugStackFrame2::GetExpressionContext
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets an evaluation context for expression evaluation within the current context of a stack frame and thread.
 
 ## Syntax

@@ -26,7 +26,7 @@ ms.workload:
 ---
 # Walkthrough: Create a site column, content type, and list for SharePoint
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The following procedures demonstrate how to create custom SharePoint site columns—or *fields*—as well as a content type that uses the site columns. It also shows how to create a list that uses the new content type.
 
  This walkthrough includes the following tasks:

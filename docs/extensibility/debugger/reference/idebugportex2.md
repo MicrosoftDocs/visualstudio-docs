@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDebugPortEx2
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface lets the session debug manager (SDM) control the programs and processes running on a port.
 
 ## Syntax

@@ -19,7 +19,7 @@ dev_langs:
 ---
 # IDebugAlias2::GetAppDomainId
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the identifier for the application domain.
 
 ## Syntax

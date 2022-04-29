@@ -14,7 +14,7 @@ author: TerryGLee
 ---
 # Unsupported debugging scenarios in the Workflow Designer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Workflow Designer does not support the following debugging scenarios:
 

@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Work with the Node.js interactive window
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Node.js Tools for Visual Studio include an interactive window for the installed Node.js runtime. This window allows you to enter JavaScript code and see the results immediately, as well as execute npm commands to interact with the current project. The interactive window is also known as a REPL (**R**ead/**E**valuate/**P**rint **L**oop).
 

@@ -21,7 +21,7 @@ ms.workload:
 ---
 # How to: Configure noise reduction in report views
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Performance reports can be configured for noise reduction by limiting the amount of data that is presented in the Call Tree view and the Allocation view. By using noise reduction, performance problems are more prominent. This is useful when you analyze performance reports.
 
  Noise reduction configuration options include the following settings:

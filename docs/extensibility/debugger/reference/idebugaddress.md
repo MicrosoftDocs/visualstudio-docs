@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDebugAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents the address of an item. It is returned by the symbol handler.
 
 ## Syntax

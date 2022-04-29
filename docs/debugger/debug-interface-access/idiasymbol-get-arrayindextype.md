@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_arrayIndexType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the symbol interface of the array index type of the symbol.
 
 ## Syntax

@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IEnumDebugCustomAttributes::Skip
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Skips a specified number of custom attributes in an enumeration sequence.
 
 ## Syntax

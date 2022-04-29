@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaImageData
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Exposes the details of the base location and memory offsets of the module or image.
 
 ## Syntax

@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSession::findLinesByVA
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the line number information for lines contained in a specified virtual address (VA) range.
 
 ## Syntax

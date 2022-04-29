@@ -17,7 +17,7 @@ ms.workload:
 ---
 # SccGetProjPath function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function prompts the user for a project path, which is a string that is meaningful only to the source control plug-in. It is called when the user is:
 
 - Creating a new project

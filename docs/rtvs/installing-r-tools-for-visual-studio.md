@@ -14,7 +14,7 @@ monikerRange: vs-2017
 ---
 # How to install R Tools for Visual Studio
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this article:
 

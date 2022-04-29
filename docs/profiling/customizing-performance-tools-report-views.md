@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Customize performance tools report views
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section covers how to customize reports that are generated with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools.
 
 ## Common tasks

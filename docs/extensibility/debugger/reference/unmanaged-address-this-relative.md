@@ -20,7 +20,7 @@ dev_langs:
 ---
 # UNMANAGED_ADDRESS_THIS_RELATIVE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure represents an address that is relative to a `this` pointer (`Me` in Visual Basic).
 
 ## Syntax

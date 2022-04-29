@@ -17,7 +17,7 @@ ms.workload:
 ---
 # SccEndBatch function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function concludes a batch of source control operations. These batches may not be nested.
 
 ## Syntax

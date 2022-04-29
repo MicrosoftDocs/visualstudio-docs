@@ -20,7 +20,7 @@ ms.workload:
 ---
 # How to: Programmatically copy and paste shapes in a Visio document
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can programmatically copy shapes on one page of a document and paste them into a new page in the same document. You can choose to paste them into the default location (the center of the active window) or into the same coordinate locations as they had on the original page.
 
 ## Copy and paste shapes

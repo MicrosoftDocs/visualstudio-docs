@@ -20,7 +20,7 @@ dev_langs:
 ---
 # MODULE_INFO
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes a particular module (DLL, EXE, or assembly).
 
 ## Syntax

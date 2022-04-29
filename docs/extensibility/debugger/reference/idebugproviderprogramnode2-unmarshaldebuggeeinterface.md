@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugProviderProgramNode2::UnmarshalDebuggeeInterface
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Obtains a specified interface across process boundaries.
 
 ## Syntax

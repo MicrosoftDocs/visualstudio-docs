@@ -15,7 +15,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_numberOfModifiers
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the number of modifiers that are applied to the original type.
 
 ## Syntax

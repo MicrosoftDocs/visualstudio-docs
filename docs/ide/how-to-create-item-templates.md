@@ -13,7 +13,7 @@ ms.technology: vs-ide-general
 ---
 # How to: Create item templates
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article shows you how to create an item template by using the **Export Template Wizard**. If your template will consist of multiple files, see [How to: Create multi-file item templates](../ide/how-to-create-multi-file-item-templates.md).
 

@@ -15,7 +15,7 @@ ms.custom: "vs-acquisition, get-started"
 ---
 # Tutorial: Create a WinForms app with Visual Basic
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this tutorial, you'll create a Visual Basic application that has a Windows Forms user interface.
 The Visual Studio integrated development environment (IDE) includes all the tools you need to create a Windows Forms app.

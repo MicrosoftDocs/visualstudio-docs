@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaStackWalkFrame::searchForReturnAddress
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Searches the specified stack frame for the nearest function return address.
 
 ## Syntax

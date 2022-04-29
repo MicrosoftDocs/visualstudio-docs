@@ -18,7 +18,7 @@ ms.workload:
 ---
 # ArrayType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 An array is identified by a `SymTagArray` symbol.
 
 ## Properties

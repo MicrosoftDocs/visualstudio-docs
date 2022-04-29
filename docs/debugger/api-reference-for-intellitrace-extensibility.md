@@ -16,7 +16,7 @@ ms.workload:
 ---
 # API reference for IntelliTrace extensibility
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By using the information in this section, you can use IntelliTrace extensibility APIs to read and decode .itrace files in your application.
 

@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugFunctionPosition2::GetOffset
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the position of the function in the source document.
 
 ## Syntax

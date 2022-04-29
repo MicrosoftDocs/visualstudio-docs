@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSymbol::findChildrenEx
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the children of the symbol. The local symbols that are returned include live range information, if the program is compiled with optimization on.
 
 ## Syntax

@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugPortSupplier2::GetPortSupplierName
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the port supplier name.
 
 ## Syntax

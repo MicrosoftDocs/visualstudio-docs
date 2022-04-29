@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Performance Explorer
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio Profiling Tools let developers measure, evaluate, and target performance-related issues in their code. These tools are fully integrated into the IDE to provide a seamless and approachable user experience.
 

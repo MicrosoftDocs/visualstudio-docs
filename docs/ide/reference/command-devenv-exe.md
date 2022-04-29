@@ -18,7 +18,7 @@ ms.workload:
 ---
 # /Command (devenv.exe)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Executes the specified command after launching the Visual Studio IDE.
 

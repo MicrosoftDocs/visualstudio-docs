@@ -19,7 +19,7 @@ dev_langs:
 ---
 # IDebugPrimitiveTypeField::GetPrimitiveType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the primitive type that is associated with this field.
 
 ## Syntax

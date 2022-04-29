@@ -16,7 +16,7 @@ ms.technology: vs-ide-general
 ---
 # How to: Update existing templates
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 After you create a template and compress the files into a *.zip* file, you may want to modify the template. You can do this by manually changing the files in the template or by exporting a new template from a project that's based on the template.
 

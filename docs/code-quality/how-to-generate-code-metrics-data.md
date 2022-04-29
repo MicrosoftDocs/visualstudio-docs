@@ -17,7 +17,7 @@ ms.workload:
 ---
 # How to: Generate code metrics data
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can generate code metrics data in three ways:
 

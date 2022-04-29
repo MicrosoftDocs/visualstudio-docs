@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugDocumentContext2::GetStatementRange
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the file statement range of the document context.
 
 ## Syntax

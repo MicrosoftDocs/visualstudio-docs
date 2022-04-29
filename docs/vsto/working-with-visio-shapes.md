@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Work with Visio shapes
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The topics in this section provide step-by-step procedures and code examples for using the object model of Microsoft Office Visio to work with shapes in Office projects.
 
 |Task|Procedure|

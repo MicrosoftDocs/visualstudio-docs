@@ -24,7 +24,7 @@ ms.workload:
 ---
 # How Can I Debug a C++ Access Violation?
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Problem Description
 

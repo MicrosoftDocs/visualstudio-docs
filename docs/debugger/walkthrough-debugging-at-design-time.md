@@ -21,7 +21,7 @@ ms.workload:
 ---
 # Debug at design time in Visual Studio (C#, C++/CLI, Visual Basic, F#)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To debug code at design time instead of while an app is running, you can use the **Immediate** window.
 

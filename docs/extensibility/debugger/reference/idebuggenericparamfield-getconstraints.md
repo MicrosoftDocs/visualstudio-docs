@@ -19,7 +19,7 @@ dev_langs:
 ---
 # IDebugGenericParamField::GetConstraints
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the constraints that are associated with this generic parameter.
 
 ## Syntax

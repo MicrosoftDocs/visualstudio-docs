@@ -18,7 +18,7 @@ ms.workload:
 ---
 # AsyncTaskMethodBuilder structure - internal members
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This topic describes the internal members of the <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder> class. For general information about this class, see the <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder> reference topic.
 
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>

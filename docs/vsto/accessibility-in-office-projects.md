@@ -21,7 +21,7 @@ ms.workload:
 ---
 # Accessibility in Office projects
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Microsoft Visual Studio and Microsoft Office include many accessibility features that enable you to build custom solutions that meet standard accessibility requirements. Microsoft publishes guidelines for accessibility on the Web. For details, see the [Accessibility website](https://www.microsoft.com/accessibility/).
 

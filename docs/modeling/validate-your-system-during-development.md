@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Validate your system during development
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio can help keep your software consistent with user requirements and with the architecture of your system.
 

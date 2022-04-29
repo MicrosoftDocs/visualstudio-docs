@@ -14,7 +14,7 @@ ms.workload:
 ---
 # What&#39;s New in the Visual Studio 2017 SDK
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio SDK has the following new and updated features for Visual Studio 2017.
 

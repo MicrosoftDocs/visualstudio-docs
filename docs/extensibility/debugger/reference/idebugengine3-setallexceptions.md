@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugEngine3::SetAllExceptions
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method sets the state of all outstanding exceptions.
 
 ## Syntax

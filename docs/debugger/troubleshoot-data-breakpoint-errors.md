@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Troubleshooting data breakpoint errors
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This page will walk you through on resolving common errors seen when using "Break when Value Changes"
 
 ## Diagnosing "Unable to set data breakpoint" errors

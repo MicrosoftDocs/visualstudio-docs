@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugPortEx2::ResumeProcess
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Resumes execution of a process.
 
 ## Syntax

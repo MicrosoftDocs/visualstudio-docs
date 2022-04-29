@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Add a Tracking Property to a Domain-Specific Language Definition
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough shows how to add a tracking property to a domain model.
 

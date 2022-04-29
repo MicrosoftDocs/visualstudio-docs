@@ -19,7 +19,7 @@ ms.workload:
 ---
 # List Call Stack Command
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Displays the current call stack.
 
 ## Syntax

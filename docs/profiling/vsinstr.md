@@ -23,7 +23,7 @@ ms.workload:
 ---
 # VSInstr
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The VSInstr tool is used to instrument binaries. It is invoked by using the following syntax:
 
 ```cmd

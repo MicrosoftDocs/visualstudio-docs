@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugBreakpointResolution2::GetBreakpointType
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the type of the breakpoint represented by this resolution.
 
 ## Syntax

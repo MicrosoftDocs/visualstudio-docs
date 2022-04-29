@@ -15,7 +15,7 @@ author: mikejo5000
 ---
 # Use Azure Test Plans instead of Lab Management for automated testing
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you use Microsoft Test Manager and Lab Management for automated testing or for build-deploy-test automation, this topic explains how you can achieve the same goals using the [build and release](/azure/devops/pipelines/index?view=vsts&preserve-view=true) features in Azure Pipelines and Team Foundation Server (TFS).
 

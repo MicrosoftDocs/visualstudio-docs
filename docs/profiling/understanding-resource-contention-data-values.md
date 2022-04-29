@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Understand resource contention data values
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Resource contention profiling collects detailed call stack information each time competing threads in an application are forced to wait for access to a shared resource.
 

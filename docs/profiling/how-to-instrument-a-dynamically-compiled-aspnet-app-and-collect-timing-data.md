@@ -14,7 +14,7 @@ ms.workload:
 ---
 # How to: Instrument a dynamically compiled ASP.NET web application and collect detailed timing data with the profiler by using the command line
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article describes how to use Visual Studio Profiling Tools command-line tools to collect detailed timing data for a dynamically compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application by using the instrumentation profiling method.
 

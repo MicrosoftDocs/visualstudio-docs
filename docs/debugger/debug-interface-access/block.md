@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Block
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Each code block is identified by a `SymTagBlock` symbol. Block symbols are used to identify nested scopes within functions.
 
 ## Properties

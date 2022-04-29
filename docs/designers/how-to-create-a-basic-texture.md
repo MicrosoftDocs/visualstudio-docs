@@ -14,7 +14,7 @@ ms.workload:
 ---
 # How to: Create a basic texture
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article demonstrates how to use the Image Editor to create a basic texture, including the following activities:
 

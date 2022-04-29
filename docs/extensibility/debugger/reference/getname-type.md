@@ -20,7 +20,7 @@ dev_langs:
 ---
 # GETNAME_TYPE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the name type of files to retrieve.
 
 ## Syntax

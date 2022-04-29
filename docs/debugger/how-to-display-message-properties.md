@@ -16,7 +16,7 @@ ms.workload:
 ---
 # How to: Display Message Properties
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To find out more about a message listed in [Messages View](../debugger/messages-view.md), use the [Message Properties Dialog Box](../debugger/message-properties-dialog-box.md).
 
 ### To open a Message Properties dialog box

@@ -22,7 +22,7 @@ ms.workload:
 ---
 # Object Lifetime View
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Object Lifetime view is available when **Also collect .NET object lifetime data** is checked on the **Performance Session** property pages.
 
  The garbage collector of the .NET Framework manages the allocation and release of memory for your application. To optimize the performance of the garbage collector, the managed heap is divided into three generations: 0, 1, and 2. The  garbage collector of the runtime stores new objects in generation 0. Objects that survive collections are promoted and stored in generations 1 and 2.

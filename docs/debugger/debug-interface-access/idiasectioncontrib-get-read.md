@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSectionContrib::get_read
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that indicates whether the section can be read.
 
 ## Syntax

@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Resources in VSPackages
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can embed localized resources in native satellite UI DLLs, managed satellite DLLs, or in a managed VSPackage itself.
 
  Some resources cannot be embedded in VSPackages. The following managed types can be embedded:

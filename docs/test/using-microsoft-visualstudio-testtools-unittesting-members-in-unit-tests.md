@@ -13,7 +13,7 @@ author: mikejo5000
 ---
 # Use the MSTest framework in unit tests
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The [MSTest](<xref:Microsoft.VisualStudio.TestTools.UnitTesting>) framework supports unit testing in Visual Studio. Use the classes and members in the <xref:Microsoft.VisualStudio.TestTools.UnitTesting> namespace when you are coding unit tests. You can also use them when you are refining a unit test that was generated from code.
 

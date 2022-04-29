@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Options Dialog Box, Projects and Solutions, Web Projects
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Sets the web server that web projects will use for development within [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. To access these options, select **Tools > Options** expand **Projects and Solutions**, and select **Web Projects**.
 

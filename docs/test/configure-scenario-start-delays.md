@@ -14,7 +14,7 @@ ms.technology: vs-ide-test
 ---
 # Configure scenario start delays in load tests
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Specify a delay before a scenario starts in a load test by using the Load Test Editor and the **Properties** window.
 

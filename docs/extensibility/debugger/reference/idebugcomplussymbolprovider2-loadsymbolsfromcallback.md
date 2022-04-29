@@ -19,7 +19,7 @@ dev_langs:
 ---
 # IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Loads debug symbols using the specified callback method.
 
 ## Syntax

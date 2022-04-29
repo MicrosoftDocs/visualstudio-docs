@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugSymbolProvider::GetAddressesFromPosition
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method maps a document position into an array of debug addresses.
 
 ## Syntax

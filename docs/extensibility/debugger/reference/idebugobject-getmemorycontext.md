@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugObject::GetMemoryContext
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the memory context that represents the address of the value of the object.
 
 ## Syntax

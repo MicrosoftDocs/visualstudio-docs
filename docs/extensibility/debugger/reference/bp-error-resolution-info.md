@@ -20,7 +20,7 @@ dev_langs:
 ---
 # BP_ERROR_RESOLUTION_INFO
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the resolution of an error breakpoint, including location, program, and thread.
 
 ## Syntax

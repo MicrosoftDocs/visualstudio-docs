@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Multiple DSLs in One Solution
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can package several DSLs as part of a single solution so that they are installed together.
 

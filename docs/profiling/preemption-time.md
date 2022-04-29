@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Preemption time
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 These segments in the timeline are associated with the blocking time that is categorized as Pre-emption. This category implies that a thread is switched out because of one of these reasons:
 
 - The scheduler replaced it by using a higher priority thread.

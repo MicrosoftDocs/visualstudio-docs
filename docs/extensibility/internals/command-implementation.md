@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Command implementation
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To implement a command in a VSPackage, you must perform the following tasks:
 
 1. In the *.vsct* file, set up a command group and then add the command to it. For more information, see [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).

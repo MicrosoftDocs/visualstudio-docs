@@ -16,7 +16,7 @@ ms.workload:
 ---
 # How to: Display Window Properties
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To find out more about a window listed in [Windows View](../debugger/windows-view.md), use the [Window Properties Dialog Box](../debugger/window-properties-dialog-box.md).
 
 ### To open the Window Properties dialog box

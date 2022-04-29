@@ -16,7 +16,7 @@ ms.custom: devdivchpfy22
 ---
 # Step 2: Write and run code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Previous step: [Create a new Python project](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)**
 

@@ -20,7 +20,7 @@ dev_langs:
 ---
 # METADATA_TYPE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure specifies information about a field type taken from metadata.
 
 ## Syntax

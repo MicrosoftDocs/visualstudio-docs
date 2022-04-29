@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IEnumCodePaths2::Reset
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Resets the enumeration to the first element.
 
 ## Syntax

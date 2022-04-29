@@ -20,7 +20,7 @@ dev_langs:
 ---
 # REFERENCE_COMPARE
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the type of comparison for references.
 
 ## Syntax

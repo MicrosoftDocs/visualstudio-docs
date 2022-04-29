@@ -19,7 +19,7 @@ dev_langs:
 ---
 # IDebugFunctionObject2::CreateStringObjectWithLength
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates a string object that has the specified length.
 
 ## Syntax

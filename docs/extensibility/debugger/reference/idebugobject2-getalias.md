@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugObject2::GetAlias
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the alias associated with this object, if any.
 
 ## Syntax

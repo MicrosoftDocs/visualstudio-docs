@@ -20,7 +20,7 @@ dev_langs:
 ---
 # IDebugBreakpointBoundEvent2::EnumBoundBreakpoints
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator of breakpoints that were bound on this event.
 
 ## Syntax

@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Publish a Node.js application to Azure (Linux App Service)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This tutorial walks you through the task of creating a simple Node.js application and publishing it to Azure.
 

@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Customize File Storage and XML Serialization
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When the user saves an instance, or *model*, of a domain-specific language (DSL) in Visual Studio, an XML file is created or updated. The file can be reloaded to recreate the model in the Store.
 

@@ -22,7 +22,7 @@ ms.workload:
 ---
 # Walkthrough: Writing a Visualizer in Visual Basic
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]. The visualizer you will create in this walkthrough displays the contents of a string using a Windows Forms message box. This simple string visualizer is a basic example to show how you can create visualizers for other data types more applicable to your projects.
 

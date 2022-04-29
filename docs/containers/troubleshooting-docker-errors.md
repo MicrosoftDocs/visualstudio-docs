@@ -14,7 +14,7 @@ ms.author: ghogen
 ---
 # Troubleshoot Visual Studio development with Docker
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you're working with Visual Studio Container Tools, you may encounter issues while building or debugging your application. Below are some common troubleshooting steps.
 

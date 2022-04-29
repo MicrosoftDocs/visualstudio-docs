@@ -17,7 +17,7 @@ ms.workload:
 ---
 # IDiaSymbol::get_function
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that specifies whether the public symbol refers to a function.
 
 ## Syntax
