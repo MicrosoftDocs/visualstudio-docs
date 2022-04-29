@@ -1,6 +1,6 @@
 ---
 title: Sign in 
-description: Learn how to sign in to Visual Studio, why sign in, how to switch user accounts and access the resources 
+description: Learn why to sign in to Visual Studio, how to sign in, and how to add and switch user accounts.
 ms.custom: "contperf-fy21q1"
 ms.date: 04/28/2022
 ms.topic: how-to
