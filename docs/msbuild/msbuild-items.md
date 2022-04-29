@@ -21,7 +21,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
 
 ## Create items in a project file
 
- You declare items in the project file as child elements of an [ItemGroup](../msbuild/itemgroup-element-msbuild.md) element. The name of the child element is the type of the item. The `Include` attribute of the element specifies the items (files) to be included with that item type. For example, the following XML creates an item type that's named `Compile`, which includes two files.
+ You declare items in the project file as child elements of an [ItemGroup](../msbuild/itemgroup-element-msbuild.md) element. Valid item names begin with an uppercase or lowercase letter or underscore (`_`); valid subsequent characters include alphanumeric characters (letters or digits), underscore, and hyphen (`-`). The name of the child element is the type of the item. The `Include` attribute of the element specifies the items (files) to be included with that item type. For example, the following XML creates an item type that's named `Compile`, which includes two files.
 
 ```xml
 <ItemGroup>
