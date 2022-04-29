@@ -11,7 +11,7 @@ ms.assetid: EFD53CE9-8174-4FE4-8863-2984D22FD921
 
 # Integrated Terminal
 
-In Visual Studio for Mac you can open an integrated terminal window, initially starting at the root of your solution. The terminal can be useful for different kinds of situations – running front-end tasks (for example: npm, ng, or vue), managing containers, running advanced git commands, executing Entity Framework commands, viewing dotnet CLI output, adding NuGet packages, and more. 
+You can open an integrated terminal window in Visual Studio for Mac, starting at the root of your solution. The terminal can be useful for different kinds of situations – running front-end tasks (for example: npm, ng, or vue), managing containers, running advanced git commands, executing Entity Framework commands, viewing dotnet CLI output, adding NuGet packages, and more. 
 
 To open the **Terminal**:
 - Use the **Ctrl + `** keyboard shortcut with the backtick character to show or hide the Terminal window.

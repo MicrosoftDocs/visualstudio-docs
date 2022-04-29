@@ -15,7 +15,7 @@ Migrating from one operating system to another can be daunting. There are often 
 
 ## Keyboard shortcuts
 
-As developers, many of you will be accustomed to using the keyboard for your tasks and navigation. Some keys on the keyboard are common between Macs and Windows PCs. You could be forgiven for thinking that keyboard actions such as copy and paste use the same key combinations. This is not always the case. Fortunately, you can change your key bindings in Visual Studio for Mac to closely match those of Visual Studio in Windows.
+As developers, many of you will be accustomed to using the keyboard for your tasks and navigation. Some keys on the keyboard are common between Macs and Windows PCs. You might think that keyboard actions such as copy and paste use the same key combinations. This is not always the case. Fortunately, you can change your key bindings in Visual Studio for Mac to closely match those of Visual Studio in Windows.
 
 ::: moniker range="vsmac-2019"
 
@@ -39,13 +39,13 @@ If you want to change the keyboard shortcuts later, you can find the setting in 
 
 ::: moniker range="vsmac-2019"
 
-It's important to note that macOS uses different system-wide shortcuts to Windows. Changing the key binding preferences will allow you to use familiar Windows shortcuts in Visual Studio for Mac. However, in other areas of macOS you'll need to be familiar with macOS shortcuts.
+It's important to note that macOS uses different system-wide shortcuts than Windows. Changing the key binding preferences will allow you to use familiar Windows shortcuts in Visual Studio for Mac. However, in other areas of macOS you'll need to be familiar with macOS shortcuts.
 
 ::: moniker-end
 
 ::: moniker range="vsmac-2022"
 
-It's important to note that macOS uses different system-wide shortcuts to Windows. Changing the keyboard shortcuts preferences will allow you to use familiar Windows shortcuts in Visual Studio for Mac. However, in other areas of macOS you'll need to be familiar with macOS shortcuts.
+It's important to note that macOS uses different system-wide shortcuts than Windows. Changing the keyboard shortcuts preferences will allow you to use familiar Windows shortcuts in Visual Studio for Mac. However, in other areas of macOS you'll need to be familiar with macOS shortcuts.
 
 ::: moniker-end
 
