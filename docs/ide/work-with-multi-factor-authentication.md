@@ -75,7 +75,7 @@ If you're experiencing CA/MFA issues and/or are unable to log in even when using
 1. Sign in again.
 
 > [!NOTE]
-> After the above troubleshooting steps, you should be able to log in but you won't have access to all the Azure Active Directory tenants and resources as the [offending tenants blocking sign-in will be filtered out](#how-to-opt-out-of-using-a-specific-azure-active-directory-tenant-in-visual-studio). 
+> After these steps you'll likely be able to log in, but your account will be put in a filtered state. While in a filtered state, only your account's default tenant and resources will be available. All other Azure Active Directory tenants and resources will become inaccessible, but you can [manually add them back](#how-to-opt-out-of-using-a-specific-azure-active-directory-tenant-in-visual-studio). 
 
 ## How to opt out of using a specific Azure Active Directory tenant in Visual Studio
 
