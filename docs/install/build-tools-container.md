@@ -2,7 +2,7 @@
 title: Install Visual Studio Build Tools into a container
 titleSuffix: ''
 description: Learn how to install Visual Studio Build Tools into a Windows container to support continuous integration and continuous delivery (CI/CD) workflows.
-ms.date: 06/09/2021
+ms.date: 04/28/2022
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -56,8 +56,8 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    ```dockerfile
    # escape=`
 
-   # Use the latest Windows Server Core image with .NET Framework 4.7.2.
-   FROM mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-ltsc2019
+   # Use the latest Windows Server Core 2019 image.
+   FROM mcr.microsoft.com/windows/servercore:ltsc2019
 
    # Restore the default Windows shell for correct batch processing.
    SHELL ["cmd", "/S", "/C"]
@@ -102,8 +102,8 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    ```dockerfile
    # escape=`
 
-   # Use the latest Windows Server Core image with .NET Framework 4.8.
-   FROM mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-ltsc2019
+   # Use the latest Windows Server Core 2019 image.
+   FROM mcr.microsoft.com/windows/servercore:ltsc2019
 
    # Restore the default Windows shell for correct batch processing.
    SHELL ["cmd", "/S", "/C"]
@@ -146,8 +146,8 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    ```dockerfile
    # escape=`
 
-   # Use the latest Windows Server Core image with .NET Framework 4.8.
-   FROM mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-ltsc2019
+   # Use the latest Windows Server Core 2019 image.
+   FROM mcr.microsoft.com/windows/servercore:ltsc2019
 
    # Restore the default Windows shell for correct batch processing.
    SHELL ["cmd", "/S", "/C"]
