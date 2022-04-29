@@ -5,8 +5,9 @@ ms.author: amast
 manager: shve
 ms.assetid: 34eaceda-f5db-41d6-bc23-ecf55fe1768e
 ms.date: 10/13/2021
-ms.topic: conceptual
-description:  Learn what happens when your admin removes your Visual Studio subscription.
+ms.topic: troubleshooting
+ms.custom: kr2b-contr-experiment
+description: Learn what happens when your admin removes your Visual Studio subscription. This information includes how your benefit change and support resources.
 ---
 
 # What happens when an admin removes my subscription?
