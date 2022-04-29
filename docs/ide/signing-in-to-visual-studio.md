@@ -40,7 +40,7 @@ While you don't have to sign in, there are many advantages to doing so.
 |[Unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)|Unlock Visual Studio if you use an account that's associated with a [Visual Studio subscription](/visualstudio/subscriptions/using-the-subscriber-portal) or an Azure DevOps organization.|
 |[Synchronize](../ide/synchronized-settings-in-visual-studio.md) your settings|Settings that you customize, such as key bindings, window layout, and color theme, apply immediately when you sign in to Visual Studio on any device.|
 |Auto-connect to Azure services|Connect to services, such as Azure and Azure DevOps Services, in the IDE without prompting again for credentials for the same account.|
-|Continue using our Community edition|If the installation prompts you for a license, sign in to the IDE to continue using Visual Studio Community without interruptions.|
+|Continue using our Community edition without interruptions|If the installation prompts you to sign-in periodically, sign in to the IDE to continue using Visual Studio Community without interruptions.|
 |[Get 'Visual Studio Dev Essentials'](https://visualstudio.microsoft.com/dev-essentials/)|This program includes free software, training, support, and more.|
 
 <a name="sign-in"></a>
@@ -165,7 +165,7 @@ Starting with version 16.8, you’ll be able to add both GitHub and GitHub Enter
 
 For detailed instructions, see [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md).
 
-### Add multi-factor authentication (MFA) enabled account to Visual Studio
+### Add a multi-factor authentication (MFA) enabled account to Visual Studio
 
 In the 16.6 release, we added new capabilities to Visual Studio 2019 that streamline how users can access resources secured via CA policies such as MFA. To use this enhanced workflow, you'll need to opt into using your system's default web browser as the mechanism to add and reauthenticate Visual Studio accounts.
 
