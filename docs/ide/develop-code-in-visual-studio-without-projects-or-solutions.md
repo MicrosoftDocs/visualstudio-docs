@@ -22,7 +22,7 @@ You can open code from nearly any type of directory-based project into Visual St
 After you open your code files in Visual Studio, **Solution Explorer** displays all the files in the folder. You can click on any file to begin editing it. In the background, Visual Studio starts indexing the files to enable IntelliSense, navigation, and refactoring features. As you edit, create, move, or delete files, Visual Studio tracks the changes automatically and continuously updates its IntelliSense index. Code will appear with syntax colorization and, in many cases, include basic IntelliSense statement completion.
 
 > [!NOTE]
-> If you're looking for information that's specific to VS Code, visit the [Getting started with VS Code](https://code.visualstudio.com/docs) page.
+> If you're looking for information that's specific to VS Code, visit the [Getting started with Visual Studio Code](https://code.visualstudio.com/docs) page.
 
 ## Open any code
 
