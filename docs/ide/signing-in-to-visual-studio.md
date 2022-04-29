@@ -212,7 +212,7 @@ The next time you open **Server Explorer**, the resources for that subscription 
 
 ### Access Azure Active Directory in a Web project
 
-Azure Active Directory (AAD) enables support for end-user single sign-in in ASP.NET MVC web apps or AD authentication in web API services. Domain authentication is different from individual user account authentication. Users that have access to your Active Directory domain can use their existing AAD accounts to connect to your web applications. Microsoft 365 apps can also use domain authentication.
+Azure Active Directory (Azure AD) enables support for end-user single sign-in in ASP.NET MVC web apps or AD authentication in web API services. Domain authentication is different from individual user account authentication. Users that have access to your Active Directory domain can use their existing Azure AD accounts to connect to your web applications. Microsoft 365 apps can also use domain authentication.
 
 ::: moniker range="vs-2017"
 
