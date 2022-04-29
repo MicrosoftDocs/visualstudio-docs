@@ -15,8 +15,10 @@ ms.workload:
 ---
 # Create a simple data application with WPF and Entity Framework 6
 
+::: moniker range="vs-2022"
 > [!WARNING]
 > The scenario in this tutorial is currently blocked due to an issue with Visual Studio 2022 that is scheduled to be fixed in a future update. It should work with Visual Studio 2019 or earlier.
+::: moniker-end
 
 This walkthrough shows how to create a basic "forms over data" application in Visual Studio. The app uses SQL Server LocalDB, the Northwind database, Entity Framework 6 (not Entity Framework Core), and Windows Presentation Foundation for .NET Framework (not .NET Core or .NET 5 or later). It shows how to do basic databinding with a master-detail view, and it also has a custom Binding Navigator with buttons for **Move Next**, **Move Previous**, **Move to beginning**, **Move to end**, **Update** and **Delete**.
 
