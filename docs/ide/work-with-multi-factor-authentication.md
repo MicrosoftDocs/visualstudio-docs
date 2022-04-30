@@ -16,6 +16,8 @@ monikerRange: ">=vs-2019"
 
 # Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 In this article, you'll learn how to use Visual Studio with accounts that require multi-factor authentication (MFA).
 
 ## Why enable MFA policies?

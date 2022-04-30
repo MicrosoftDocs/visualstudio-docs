@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugClassField
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This interface represents a class as a type.
 
 ## Syntax

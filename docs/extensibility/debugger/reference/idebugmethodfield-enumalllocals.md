@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugMethodField::EnumAllLocals
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Creates an enumerator for all local variables of the method, including those generated internally by a compiler.
 
 ## Syntax

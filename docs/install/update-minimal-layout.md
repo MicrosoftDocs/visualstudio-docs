@@ -14,6 +14,8 @@ ms.technology: vs-installation
 ---
 # Update Visual Studio using a minimal offline layout
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 For computers that are not connected to the internet, creating a minimal layout is the easiest and fastest way to update your offline Visual Studio instances.
 
 The minimal layout tool generates a layout tailored specifically to your team's needs. Enterprise administrators can use this tool to create update layout(s) for most versions for Visual Studio 2017 and 2019. Unlike a full Visual Studio layout, a minimal layout only contains the updated packages, so it is always smaller and faster to generate and deploy. You can further minimize the size of the update layout by specifying only the desired languages, workloads, and components.

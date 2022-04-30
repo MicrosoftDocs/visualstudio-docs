@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # EXCEPTION_STATE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the exception state.
 
 ## Syntax

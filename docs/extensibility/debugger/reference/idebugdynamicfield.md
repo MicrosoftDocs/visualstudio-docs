@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugDynamicField
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This interface represents a type of a variable.
 
 ## Syntax

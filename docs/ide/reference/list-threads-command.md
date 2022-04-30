@@ -19,6 +19,8 @@ ms.workload:
 - multiple
 ---
 # List Threads Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Displays a list of the threads in the current program.
 
 ## Syntax

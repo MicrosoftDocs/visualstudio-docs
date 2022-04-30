@@ -13,6 +13,8 @@ ms.workload:
 - vssdk
 ---
 # Menus and Commands for Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 ## Command usage
 
 ### Overview

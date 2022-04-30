@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Evaluate XPath expressions
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 You can evaluate XPath expressions by using the **QuickWatch** window during debugging. The XPath expression must be valid according to the W3C XPath 1.0 recommendation. The current XSLT context (that is, the `self::node()` node in the **Locals** window) provides the evaluation context for the XPath expression.
 
 When evaluating an XPath expression:

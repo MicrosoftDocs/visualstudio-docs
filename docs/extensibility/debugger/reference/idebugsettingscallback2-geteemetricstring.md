@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugSettingsCallback2::GetEEMetricString
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the value string of an expression evaluator metric given its name.
 
 ## Syntax

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngine3::SetEngineGuid
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method sets the debug engine's (DE) `GUID`.
 
 ## Syntax

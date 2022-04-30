@@ -19,6 +19,8 @@ ms.workload:
 ---
 # WizardData Element (Visual Studio Templates)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Specifies custom XML
 
 ```xml

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugStackFrame2::EnumProperties
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Creates an enumerator for properties associated with the stack frame, such as local variables.
 
 ## Syntax

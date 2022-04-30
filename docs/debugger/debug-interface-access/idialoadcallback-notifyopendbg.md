@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaLoadCallback::NotifyOpenDBG
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Called when a candidate .dbg file has been opened.
 
 ## Syntax

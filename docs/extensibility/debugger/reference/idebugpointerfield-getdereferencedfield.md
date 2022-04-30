@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPointerField::GetDereferencedField
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method returns the type of object to which this pointer object points.
 
 ## Syntax

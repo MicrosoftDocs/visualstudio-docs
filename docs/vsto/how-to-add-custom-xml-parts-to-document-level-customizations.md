@@ -23,6 +23,8 @@ ms.workload:
   - "office"
 ---
 # How to: Add custom XML parts to document-level customizations
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   You can store XML data in a Microsoft Office Excel workbook or Microsoft Office Word document by creating a custom XML part in a document-level customization. For more information, see [Custom XML parts overview](../vsto/custom-xml-parts-overview.md).
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]

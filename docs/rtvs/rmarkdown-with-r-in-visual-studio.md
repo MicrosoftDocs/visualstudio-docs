@@ -11,8 +11,9 @@ ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
-
 # Create R Markdown documents
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 [R Markdown](https://rmarkdown.rstudio.com/) is a document format that turns analysis in R into high-quality documents, reports, presentations, and dashboards.
 

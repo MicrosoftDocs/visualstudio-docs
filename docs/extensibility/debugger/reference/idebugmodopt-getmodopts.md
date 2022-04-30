@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugModOpt::GetModOpts
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves a list of optional modifiers.
 
 ## Syntax

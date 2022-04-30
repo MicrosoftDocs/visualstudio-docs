@@ -20,6 +20,8 @@ author: mikejo5000
 ---
 # How to: Create a data-driven unit test
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 You can use the Microsoft unit test framework for managed code to set up a unit test method to retrieve values from a data source. The method is run successively for each row in the data source, which makes it easy to test a variety of input by using a single method.
 
 Creating a data-driven unit test involves the following steps:

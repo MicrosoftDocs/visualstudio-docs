@@ -19,6 +19,8 @@ ms.workload:
 - multiple
 ---
 # List Modules Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Lists the modules for the current process.
 
 ## Syntax

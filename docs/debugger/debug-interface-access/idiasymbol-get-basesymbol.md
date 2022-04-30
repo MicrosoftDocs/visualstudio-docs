@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_baseSymbol
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the symbol from which the pointer is based.
 
 ## Syntax

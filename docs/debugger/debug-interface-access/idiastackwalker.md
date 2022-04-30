@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaStackWalker
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Provides methods to do a stack walk using information in the .pdb file.
 
 ## Syntax

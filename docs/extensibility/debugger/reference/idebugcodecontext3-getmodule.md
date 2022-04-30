@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugCodeContext3::GetModule
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves a reference to the interface of the debug module.
 
 ## Syntax

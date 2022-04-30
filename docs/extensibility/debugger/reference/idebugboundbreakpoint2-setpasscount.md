@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugBoundBreakpoint2::SetPassCount
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Sets or changes the pass count associated with this bound breakpoint.
 
 ## Syntax

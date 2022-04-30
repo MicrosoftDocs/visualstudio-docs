@@ -20,6 +20,8 @@ dev_langs:
 ---
 # METADATA_ADDRESS_ARRAYELEM
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This structure represents an array element within an array.
 
 ## Syntax

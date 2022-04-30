@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Keyboard shortcuts (HTML and JavaScript)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Keyboard shortcuts in Visual Studio for debugging UWP apps using HTML and JavaScript.
 
 ## General shortcuts

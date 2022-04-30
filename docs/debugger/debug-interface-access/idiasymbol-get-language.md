@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_language
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the language of the source.
 
 ## Syntax

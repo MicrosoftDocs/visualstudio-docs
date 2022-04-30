@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_baseDataOffset
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the base data offset.
 
 ## Syntax

@@ -23,6 +23,8 @@ ms.workload:
 ---
 # How to: Configure projects to target platforms
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Visual Studio enables you to set up your application builds to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in Visual Studio, see [64-bit applications](/dotnet/framework/64-bit-apps).
 
 ::: moniker range="vs-2022"

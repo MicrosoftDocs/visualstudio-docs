@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Instruction Pointers (IPs) View - sampling data
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The IPs view of sampling data lists performance data for the assembly instructions that were directly executing when the samples were collected in the profiling run.
 
 > [!NOTE]

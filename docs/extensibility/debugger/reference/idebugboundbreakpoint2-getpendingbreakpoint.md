@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugBoundBreakpoint2::GetPendingBreakpoint
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the pending breakpoint from which the specified bound breakpoint was created.
 
 ## Syntax

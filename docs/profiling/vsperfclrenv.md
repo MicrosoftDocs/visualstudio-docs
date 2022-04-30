@@ -19,6 +19,8 @@ ms.workload:
 ---
 # VSPerfCLREnv
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The VSPerfCLREnv tool is used to set environment variables that are required to profile a .NET Framework application. It uses the following syntax:
 
 ```cmd

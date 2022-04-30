@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Brokered service essentials
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 A brokered service is a service acquired via an <xref:Microsoft.ServiceHub.Framework.IServiceBroker>,
 and is exposed as an RPC-compatible interface to enable the service and its client to exist in distinct AppDomains, processes or even across machines (in the case of Live Share).
 The brokered service may be proffered from the main [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] process or some of its auxiliary processes, and may be consumed by any of these processes by a [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] extension.

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngineProgram2::Stop
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Stops all threads running in this program.
 
 ## Syntax

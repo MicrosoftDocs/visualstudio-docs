@@ -18,6 +18,8 @@ ms.workload:
 - multiple
 ---
 # How to: Create a Domain-Specific Language Solution
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 A domain-specific language (DSL) is created by using a specialized Visual Studio solution.
 
 ## Prerequisites

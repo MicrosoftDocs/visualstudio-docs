@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject::GetManagedDebugObject
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Creates a copy of the managed object in the address space of the debug engine.
 
 ## Syntax

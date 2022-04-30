@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # How to: Cache data in a password-protected document
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   If you add data to the data cache in a document or workbook that is protected with a password, changes to the cached data are not saved automatically. You can save changes to the cached data by overriding two methods in your project.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]

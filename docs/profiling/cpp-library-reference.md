@@ -16,6 +16,8 @@ ms.workload:
 ---
 # C++ library reference
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This section contains reference information for the Concurrency Visualizer SDK.
 
 > [!NOTE]

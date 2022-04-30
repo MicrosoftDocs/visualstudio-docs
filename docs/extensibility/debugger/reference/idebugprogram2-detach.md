@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram2::Detach
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Detaches a debug engine from the program.
 
 ## Syntax

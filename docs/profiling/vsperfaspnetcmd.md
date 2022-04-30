@@ -16,6 +16,8 @@ ms.workload:
   - multiple
 ---
 # VSPerfASPNetCmd
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The **VSPerfASPNetCmd.exe** command-line tool allows you to profile ASP.Net web sites without requiring that you set environment variables or restart your computer. Use **VSPerfASPNetCmd.exe** instead of [VSPerfCmd](../profiling/vsperfcmd.md) when you are profiling ASP.NET websites and you do not need the additional functionality provided by **VSPerfCmd**. For more information about **VSPerfASPNetCmd**, see [Rapid web site profiling with VSPerfASPNETCmd](../profiling/rapid-web-site-profiling-with-vsperfaspnetcmd.md). **VSPerfASPNetCmd** is the preferred command line tool to use when you are using the standalone profiler to profile an ASP.NET web site.
 
 ## Syntax

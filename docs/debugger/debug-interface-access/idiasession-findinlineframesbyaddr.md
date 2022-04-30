@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSession::findInlineFramesByAddr
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves an enumeration that allows a client to iterate through all of the inline frames on a given address.
 
 ## Syntax

@@ -24,6 +24,8 @@ ms.workload:
   - "office"
 ---
 # Extend Word documents and Excel workbooks in VSTO add-ins at run time
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   You can use a VSTO Add-in to customize Word documents and Excel workbooks in the following ways:
 
 - Add managed controls to any open document or worksheet.

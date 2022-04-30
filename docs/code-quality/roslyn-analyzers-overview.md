@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Overview of source code analysis
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 .NET Compiler Platform (Roslyn) Analyzers inspect your C# or Visual Basic code for style, quality, maintainability, design, and other issues. This inspection or analysis happens during design time in all open files.
 
 Analyzers are divided into the following groups:

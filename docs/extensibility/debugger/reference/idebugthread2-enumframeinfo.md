@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugThread2::EnumFrameInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves a list of the stack frames for this thread.
 
 ## Syntax

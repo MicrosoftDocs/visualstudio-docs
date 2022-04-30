@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty2::GetDerivedMostProperty
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the derived-most property of a property.
 
 ## Syntax

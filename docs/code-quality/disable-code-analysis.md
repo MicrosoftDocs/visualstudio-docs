@@ -12,8 +12,9 @@ ms.author: midumont
 manager: jmartens
 ms.technology: vs-ide-code-analysis
 ---
-
 # Disable source code analysis for .NET
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 ::: moniker range=">=vs-2022"
 

@@ -16,6 +16,8 @@ ms.workload:
   - multiple
 ---
 # marker_series::write_message method
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Writes a message to the Concurrency Visualizer trace file.
 
 ## Syntax

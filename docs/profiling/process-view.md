@@ -21,6 +21,8 @@ ms.workload:
   - "multiple"
 ---
 # Process View
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The Process view displays profiling data for the processes and threads that were executed during the profiling run.
 
  Processes are listed by name. Threads are listed as child nodes of the process that created them. Threads are named by the function that started the thread or by the label **[ntdll.dll]** if no symbols are available.

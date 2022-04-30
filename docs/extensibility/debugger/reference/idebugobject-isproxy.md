@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject::IsProxy
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Determines if the object is a transparent proxy.
 
 ## Syntax

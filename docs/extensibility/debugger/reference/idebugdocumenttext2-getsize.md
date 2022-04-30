@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentText2::GetSize
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the size of the text at this position in the document.
 
 ## Syntax

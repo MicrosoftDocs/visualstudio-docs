@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugDisassemblyStream2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This interface represents a stream of instructions.
 
 ## Syntax

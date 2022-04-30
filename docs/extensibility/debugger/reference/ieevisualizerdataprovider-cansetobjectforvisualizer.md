@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IEEVisualizerDataProvider::CanSetObjectForVisualizer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method determines whether the visualizer can have the data object it represents updated.
 
 ## Syntax

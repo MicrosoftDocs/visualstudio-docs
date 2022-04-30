@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Point, Bilinear, Trilinear, and Anisotropic Texture Filtering Variants
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Overrides the filtering mode on appropriate texture samplers.
 
 ## Interpretation

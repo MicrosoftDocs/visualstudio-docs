@@ -17,6 +17,8 @@ ms.workload:
   - multiple
 ---
 # Collect application statistics for stand-alone applications by using the profiler command line
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This section describes the procedures and options for collecting performance statistics for a client (stand-alone) application by using the sampling method from the command line.
 
 > [!NOTE]

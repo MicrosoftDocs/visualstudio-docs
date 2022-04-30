@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Event descriptions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Each type of event has a specific purpose.
 
 ## Events and the reasons for their use

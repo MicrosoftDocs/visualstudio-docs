@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # PROVIDER_FLAGS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies desired properties to be obtained from a program provider.
 
 ## Syntax

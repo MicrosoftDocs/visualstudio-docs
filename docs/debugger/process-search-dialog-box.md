@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Process Search Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Use this dialog box to find and select the node for a specific process in [Processes View](../debugger/processes-view.md). To display this dialog box, move the focus to a **Processes** view window. Then choose **Find Process** from the **Search** menu.
 
  The following settings are available:

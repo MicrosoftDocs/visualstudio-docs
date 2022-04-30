@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # How to: Create a SharePoint project extension
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   Create a project extension when you want to add functionality to any SharePoint project that is open in Visual Studio. For more information, see [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md).
 
 ### To create a project extension

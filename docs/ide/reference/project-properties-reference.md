@@ -15,7 +15,9 @@ ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
-# What is the Project Designer?
+# Project Properties reference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]?
 
 The Project Designer in Visual Studio is a dialog box that you can use to specify applications settings and properties for a project. The Project Designer includes several different project properties pages to interact with. What you see depends on your project type, platform, or programming language.
 

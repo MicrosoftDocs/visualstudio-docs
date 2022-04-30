@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Call debugger events
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Events in debugging sessions occur in a specific order.
 
 ## Discussion

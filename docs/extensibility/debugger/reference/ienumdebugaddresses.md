@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IEnumDebugAddresses
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This interface represents a collection of objects implementing the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
 ## Syntax

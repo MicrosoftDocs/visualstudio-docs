@@ -13,6 +13,8 @@ ms.workload:
 - vssdk
 ---
 # Animations for Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 ## Animation fundamentals
 
 ### Animation best practices in Visual Studio

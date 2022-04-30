@@ -17,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # How to: Create a SharePoint command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   If you want to use the server object model in a SharePoint tools extension, you must create a custom *SharePoint command* to call the API. You define the SharePoint command in an assembly that can call into the server object model directly.
 
  For more information about the purpose of SharePoint commands, see [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md).

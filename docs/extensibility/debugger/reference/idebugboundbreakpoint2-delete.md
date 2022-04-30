@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugBoundBreakpoint2::Delete
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Deletes the breakpoint.
 
 ## Syntax

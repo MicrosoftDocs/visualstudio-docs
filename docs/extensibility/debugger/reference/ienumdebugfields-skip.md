@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugFields::Skip
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method skips over the specified number of elements.
 
 ## Syntax

@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaFrameData::get_systemExceptionHandling
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves a flag that indicates whether system exception handling is in effect.
 
 ## Syntax

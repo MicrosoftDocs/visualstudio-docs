@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Lines View - sampling data
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The Lines view of sampling data lists performance data for the statements that were executing when the samples were collected in the profiling run.
 
 > [!NOTE]

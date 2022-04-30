@@ -16,6 +16,8 @@ ms.workload:
   - multiple
 ---
 # marker_importance enumeration
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Represents the importance level of a Concurrency Visualizer marker.
 
 ## Syntax

@@ -18,6 +18,8 @@ ms.workload:
 - multiple
 ---
 # Find Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Searches files using a subset of the options available on the **Find in Files** tab of the **Find and Replace** window.
 
 ## Syntax

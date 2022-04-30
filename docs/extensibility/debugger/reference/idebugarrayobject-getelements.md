@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugArrayObject::GetElements
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets an enumerator of all elements of the array.
 
 ## Syntax

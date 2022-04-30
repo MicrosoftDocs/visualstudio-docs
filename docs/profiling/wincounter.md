@@ -13,6 +13,8 @@ ms.workload:
   - multiple
 ---
 # WinCounter
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The **WinCounter** option specifies a Windows or application performance counter to collect at set intervals during the profile run. Windows and application performance counters are listed as marks in the profiling data file. You can specify multiple performance counters to collect in separate options.
 
  By default, counters are collected every 500 milliseconds. Use the **AutoMark** option to specify a different collection interval.

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # DISASSEMBLY_FLAGS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the flags for disassembly.
 
 ## Syntax

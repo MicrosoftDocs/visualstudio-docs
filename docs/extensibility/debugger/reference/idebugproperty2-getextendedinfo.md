@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty2::GetExtendedInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets extended information for the property.
 
 ## Syntax

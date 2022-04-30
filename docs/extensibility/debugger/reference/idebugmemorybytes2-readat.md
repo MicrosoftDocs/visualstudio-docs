@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugMemoryBytes2::ReadAt
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Reads a sequence of bytes, starting at a given location.
 
 ## Syntax

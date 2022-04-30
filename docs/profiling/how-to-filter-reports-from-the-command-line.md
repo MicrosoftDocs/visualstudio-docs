@@ -14,6 +14,8 @@ ms.workload:
   - multiple
 ---
 # How to: Filter reports from the command line
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 By using options for the **VSPerfReport** command, you can filter reports to a specific time segment of the profiling data file or restrict the data to one or more processes or threads. For more information about this command, see [VSPerfReport](../profiling/vsperfreport.md).
 
 |Options|Description|

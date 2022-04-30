@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Sorting, filtering, and grouping (XML Schema Explorer)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This topic describes the options that are available through the **Sorting, Filtering, and Grouping Options** menu on the **XML Schema Explorer** toolbar.
 
 ## Filter options

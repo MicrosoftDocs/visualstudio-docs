@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # METADATA_ADDRESS_RETVAL
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This structure represents a return value from a method or function.
 
 ## Syntax

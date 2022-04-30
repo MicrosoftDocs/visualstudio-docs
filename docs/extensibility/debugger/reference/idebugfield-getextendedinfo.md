@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugField::GetExtendedInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method gets extended information about a field.
 
 ## Syntax

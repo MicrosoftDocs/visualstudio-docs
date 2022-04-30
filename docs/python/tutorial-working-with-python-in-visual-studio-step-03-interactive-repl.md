@@ -14,8 +14,9 @@ ms.workload:
   - data-science
 ms.custom: devdivchpfy22
 ---
-
 # Step 3: Use the Interactive REPL window
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 **Previous step: [Write and run code](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)**
 

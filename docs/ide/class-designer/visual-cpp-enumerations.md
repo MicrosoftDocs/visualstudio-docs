@@ -16,6 +16,8 @@ ms.workload:
 ---
 # C++ enumerations in Class Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 **Class Designer** supports C++ `enum` and scoped `enum class` types. Following is an example:
 
 ```cpp

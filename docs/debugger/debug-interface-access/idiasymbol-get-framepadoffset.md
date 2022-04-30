@@ -16,6 +16,8 @@ ms.workload:
 ---
 # IDiaSymbol::get_framePadOffset
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Retrieves the offset of the stack pad from the frame pointer register.
 
 ## Syntax

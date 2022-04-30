@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortPicker::DisplayPortPicker
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Displays the specified dialog box that allows the user to select a port.
 
 ## Syntax

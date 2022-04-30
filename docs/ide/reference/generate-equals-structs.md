@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Generate IEquatable operators when generating Equals for structs
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This code generation applies to:
 
 - C#

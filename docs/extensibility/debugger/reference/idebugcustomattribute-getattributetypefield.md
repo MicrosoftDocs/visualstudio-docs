@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugCustomAttribute::GetAttributeTypeField
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the custom attribute class type.
 
 ## Syntax

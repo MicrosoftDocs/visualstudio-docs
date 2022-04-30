@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Collect thread and process concurrency data
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The Visual Studio Profiling Tools concurrency profiling method enables you to collect resource contention data that includes information about every synchronization event that causes a function in the profiled application to wait for access to a resource.
 
 You can specify the concurrency profiling method by using one of the following procedures:

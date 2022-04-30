@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaStackFrame::get_allocatesBasePointer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves a flag that indicates whether the base pointer is allocated for code in this address range.
 
 ## Syntax

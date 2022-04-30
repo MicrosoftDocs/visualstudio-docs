@@ -15,8 +15,9 @@ monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
-
 # Understand performance collection methods
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 Visual Studio Profiling tools provide five methods for collecting performance data. This article describes the different methods and suggests scenarios in which collecting data with a particular method might be appropriate.
 

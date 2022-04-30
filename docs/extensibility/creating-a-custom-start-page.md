@@ -15,6 +15,8 @@ monikerRange: vs-2017
 ---
 # Creating a custom Start Page
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 You can create a custom Start Page by following the steps in this document.
 
 ## Create a blank Start Page

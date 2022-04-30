@@ -14,6 +14,8 @@ ms.technology: vs-installation
 ---
 # Known issues for containers
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 There are a few issues when installing Visual Studio into a Docker container.
 
 ## Windows container

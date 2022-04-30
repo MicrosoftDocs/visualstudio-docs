@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaLoadCallback::NotifyOpenPDB
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Called when a candidate .pdb file is opened.
 
 ## Syntax

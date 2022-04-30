@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugMemoryBytes2::GetSize
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the size, in bytes, of the memory represented by this [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) object.
 
 ## Syntax

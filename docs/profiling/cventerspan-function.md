@@ -29,6 +29,8 @@ ms.workload:
   - multiple
 ---
 # CvEnterSpan function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Marks the beginning of a new span.
 
 ## Syntax

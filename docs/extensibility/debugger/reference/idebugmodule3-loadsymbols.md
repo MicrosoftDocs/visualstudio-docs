@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugModule3::LoadSymbols
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Loads the symbols for the current module.
 
 ## Syntax

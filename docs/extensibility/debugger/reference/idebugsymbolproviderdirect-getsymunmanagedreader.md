@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProviderDirect::GetSymUnmanagedReader
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves a symbol reader for unmanaged code.
 
 ## Syntax

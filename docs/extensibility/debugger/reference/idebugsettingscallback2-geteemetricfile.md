@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugSettingsCallback2::GetEEMetricFile
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the expression evaluator metric file given the name or the metric.
 
 ## Syntax

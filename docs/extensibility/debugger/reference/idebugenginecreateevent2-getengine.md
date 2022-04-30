@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngineCreateEvent2::GetEngine
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the object that represents the newly created debug engine (DE).
 
 ## Syntax

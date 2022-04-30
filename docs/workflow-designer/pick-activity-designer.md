@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Pick Activity Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The <xref:System.Activities.Statements.Pick> activity provides event-based control flow. The activity executes one of several branches in response to a triggering event.
 
 ## The Pick Activity

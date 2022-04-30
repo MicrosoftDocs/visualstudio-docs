@@ -19,6 +19,8 @@ ms.workload:
 - multiple
 ---
 # List Memory Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Displays the contents of the specified range of memory.
 
 ## Syntax

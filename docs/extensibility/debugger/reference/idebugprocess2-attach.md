@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess2::Attach
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Attaches the session debug manager (SDM) to the process.
 
 ## Syntax

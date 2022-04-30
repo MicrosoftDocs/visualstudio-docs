@@ -15,6 +15,8 @@ ms.workload:
   - "dotnet"
 ---
 # Lines View - .NET Memory sampling data
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The Lines view for .NET memory allocation profiling data that uses the sampling method lists the statements that allocated memory during the profiling run. The columns also include the size and number of allocations.
 
  In a source file, a statement can span more than one line in a source file, and a single line can include more than one statement.

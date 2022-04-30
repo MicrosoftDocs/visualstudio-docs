@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortSupplier2::EnumPorts
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves a list of all the ports supplied by a port supplier.
 
 ## Syntax

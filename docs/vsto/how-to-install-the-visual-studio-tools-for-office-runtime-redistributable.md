@@ -19,8 +19,9 @@ ms.workload:
   - "office"
 ms.custom: devdivchpfy22
 ---
-
 # How to: Install the Visual Studio Tools for Office Runtime Redistributable
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
    Each computer that runs solutions created by using the Visual Studio in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], must install the Visual Studio 2010 Tools for Office runtime. The runtime is installed automatically when you install [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], and Microsoft Office. For more information, see [Visual Studio Tools for Office runtime installation scenarios](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md).
 

@@ -18,6 +18,8 @@ ms.workload:
   - "multiple"
 ---
 # Marks View
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The Marks view displays sampling and ETW events that were inserted into the application.
 
  The default marks that are prepopulated in the report label the start of the program and the end of the program.

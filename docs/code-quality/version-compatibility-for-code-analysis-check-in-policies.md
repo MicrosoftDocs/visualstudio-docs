@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Version Compatibility for Code Analysis Check-In Policies
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 If you must evaluate and author code analysis check-in policies using different versions of [!INCLUDE[esprtfc](../code-quality/includes/esprtfc_md.md)], you must know the differences in how [!INCLUDE[vstsTfsOrcasLong](../code-quality/includes/vststfsorcaslong_md.md)] and [!INCLUDE[vstsTfsRosarioShort](../code-quality/includes/vststfsrosarioshort_md.md)] evaluate check-in policies.
 
 ## Version Compatibility for Evaluating Check-In Policies

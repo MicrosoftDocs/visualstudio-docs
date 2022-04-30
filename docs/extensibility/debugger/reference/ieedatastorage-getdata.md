@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IEEDataStorage::GetData
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the specified number of bytes from the object.
 
 ## Syntax

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # THREADSTATE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the state of the thread.
 
 ## Syntax

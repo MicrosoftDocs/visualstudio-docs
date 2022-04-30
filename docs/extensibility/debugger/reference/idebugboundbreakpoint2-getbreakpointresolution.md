@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugBoundBreakpoint2::GetBreakpointResolution
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the breakpoint resolution that describes this breakpoint.
 
 ## Syntax

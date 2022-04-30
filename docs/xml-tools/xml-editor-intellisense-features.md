@@ -14,6 +14,8 @@ ms.workload:
 ---
 # XML editor IntelliSense features
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The XML editor provides full IntelliSense features comparable to other language editors provided in Visual Studio. This section explains how you can use the IntelliSense with XML Schema definition language (XSD) and XSLT documents.
 
 ## IntelliSense in an XSD document

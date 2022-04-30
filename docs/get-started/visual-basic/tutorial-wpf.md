@@ -14,8 +14,9 @@ dev_langs:
 ms.date: 01/07/2022
 ms.custom: "vs-acquisition, get-started"
 ---
-
 # Tutorial: Create a WPF application with Visual Basic
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 In this tutorial, you'll create an application using Visual Basic in the Visual Studio integrated development environment (IDE).
 Your program will use the Windows Presentation Foundation (WPF) UI framework.

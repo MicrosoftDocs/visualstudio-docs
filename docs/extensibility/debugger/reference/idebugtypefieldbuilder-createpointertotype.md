@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugTypeFieldBuilder::CreatePointerToType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Creates a pointer to the specified type.
 
 ## Syntax

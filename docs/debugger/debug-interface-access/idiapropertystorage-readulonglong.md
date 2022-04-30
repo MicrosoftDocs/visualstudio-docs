@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaPropertyStorage::ReadULONGLONG
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Reads `ULONGLONG` values in a property set.
 
 ## Syntax

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugReference2::GetMemoryContext
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets a memory context of a reference. Reserved for future use.
 
 ## Syntax

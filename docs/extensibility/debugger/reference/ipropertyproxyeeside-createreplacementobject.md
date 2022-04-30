@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IPropertyProxyEESide::CreateReplacementObject
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Creates a copy of a data object specific to the expression evaluator (EE).
 
 ## Syntax

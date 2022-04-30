@@ -20,6 +20,8 @@ dev_langs:
 ---
 # IDebugProgramNode2::DetachDebugger_V7
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 > [!Note]
 > DEPRECATED. DO NOT USE.
 

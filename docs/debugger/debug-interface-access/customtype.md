@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # CustomType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Vendor-defined types (compiler-specific types) are identified by a `SymTagCustomType` symbol.
 
 ## Properties

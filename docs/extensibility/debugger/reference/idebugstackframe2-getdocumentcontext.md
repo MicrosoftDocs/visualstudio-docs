@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugStackFrame2::GetDocumentContext
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the document context for this stack frame.
 
 ## Syntax

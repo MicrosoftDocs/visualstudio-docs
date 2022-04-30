@@ -19,6 +19,8 @@ dev_langs:
 ---
 # PROCESS_INFO_FLAGS
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Describes or specifies properties of a process.
 
 ## Syntax

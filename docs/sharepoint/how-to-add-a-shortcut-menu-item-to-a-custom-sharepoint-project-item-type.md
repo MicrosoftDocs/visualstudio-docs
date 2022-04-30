@@ -20,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # How to: Add a shortcut menu item to a custom SharePoint project item type
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   When you define a custom SharePoint project item type, you can add a shortcut menu item to the project item. The menu item appears when a user right-clicks the project item in **Solution Explorer**.
 
  The following steps assume that you have already defined your own SharePoint project item type. For more information, see [How to: Define a SharePoint project item type](../sharepoint/how-to-define-a-sharepoint-project-item-type.md).

@@ -16,4 +16,6 @@ ms.workload:
   - "multiple"
 ---
 # Thread ready connector
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 When you click a blocking segment to see a call stack and its unblocking stack, the thread ready connector may also appear. If the unblocking event occurred on another thread in the current process, the thread ready connector visually identifies the thread and execution segment that enabled the blocked thread to resume execution.

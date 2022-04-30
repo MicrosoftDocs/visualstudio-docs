@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Expose properties to the Properties window
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This walkthrough exposes the public properties of an object to the **Properties** window. The changes you make to these properties are reflected in the **Properties** window.
 
 ## Prerequisites

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugMethodField::EnumParameters
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Creates an enumerator for the parameters of the method.
 
 ## Syntax

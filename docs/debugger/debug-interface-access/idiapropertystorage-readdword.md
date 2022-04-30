@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaPropertyStorage::ReadDWORD
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Reads `DWORD` values in a property set.
 
 ## Syntax

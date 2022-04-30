@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugField::GetTypeInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method gets type-independent information about the symbol or type.
 
 ## Syntax

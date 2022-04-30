@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # DEBUG_REASON
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies why the process was launched for debugging.
 
 ## Syntax

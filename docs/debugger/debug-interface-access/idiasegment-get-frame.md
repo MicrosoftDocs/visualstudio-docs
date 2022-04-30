@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSegment::get_frame
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the segment number.
 
 ## Syntax

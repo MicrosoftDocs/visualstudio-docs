@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugClassField::DoesInterfaceExist
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Determines if a specific interface is defined in the class.
 
 ## Syntax

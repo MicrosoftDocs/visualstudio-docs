@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramProvider2::WatchForProviderEvents
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Allows the process to be notified of port events.
 
 ## Syntax

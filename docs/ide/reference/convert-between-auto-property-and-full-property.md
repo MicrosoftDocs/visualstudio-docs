@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Convert between auto property and full property
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This refactoring applies to:
 
 - C#

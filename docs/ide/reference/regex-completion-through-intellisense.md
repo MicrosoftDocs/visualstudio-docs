@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Regex completion through IntelliSense menu
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This refactoring applies to:
 
 - C#

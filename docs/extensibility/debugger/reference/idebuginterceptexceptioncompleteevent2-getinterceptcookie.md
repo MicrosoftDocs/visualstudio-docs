@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Called when the processing of an intercepted exception has completed.
 
 ## Syntax

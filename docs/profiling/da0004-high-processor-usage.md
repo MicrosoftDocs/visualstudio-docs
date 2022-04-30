@@ -19,6 +19,8 @@ ms.workload:
 ---
 # DA0004: High processor usage
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 |Item|Value|
 |-|-|
 |Rule Id|DA0004|

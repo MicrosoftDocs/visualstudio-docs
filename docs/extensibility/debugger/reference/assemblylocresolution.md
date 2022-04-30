@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # ASSEMBLYLOCRESOLUTION
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies where an assembly is located.
 
 ## Syntax

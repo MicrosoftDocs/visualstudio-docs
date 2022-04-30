@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # BP_RESOLUTION_DATA
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Describes the result of binding a data breakpoint.
 
 ## Syntax

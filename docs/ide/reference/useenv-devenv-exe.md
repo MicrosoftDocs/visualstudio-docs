@@ -25,6 +25,8 @@ ms.workload:
 ---
 # /UseEnv (devenv.exe)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Starts Visual Studio and loads certain environment variables for compilation.
 
 > [!NOTE]

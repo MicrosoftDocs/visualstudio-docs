@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugClassField::GetEnclosingClass
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the class that encloses this class.
 
 ## Syntax

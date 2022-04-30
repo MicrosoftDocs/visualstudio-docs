@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugCoreServer3::GetConnectionProtocol
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Returns a value indicating the protocol that is being used to communicate between the server and the debug package.
 
 ## Syntax

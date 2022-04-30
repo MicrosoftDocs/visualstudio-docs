@@ -11,6 +11,8 @@ ms.custon: contperf-fy22q2
 ---
 # Disable DPI-awareness to fix HDPI / scaling issues with Windows Forms Designer in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 In this article, you'll learn the limitations of Windows Forms Designer on HDPI monitors and [how to run Visual Studio as a DPI-unaware process](#resolve-hdpi-display-problems).
 
 Visual Studio is a dots per inch (DPI) aware application, which means the display scales automatically. If an application states that it's not DPI-aware, the operating system scales the application as a bitmap. This behavior is also called DPI virtualization. The application still thinks that it's running at 100% scaling, or 96 dpi.

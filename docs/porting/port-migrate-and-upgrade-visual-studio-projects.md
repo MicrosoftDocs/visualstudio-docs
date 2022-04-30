@@ -22,6 +22,8 @@ helpviewer_keywords:
 ---
 # Project migration and upgrade reference for Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 ::: moniker range="vs-2017"
 
 Each version of Visual Studio generally supports most previous types of projects, files, and other assets. You can work with them [as you always have](../ide/solutions-and-projects-in-visual-studio.md), and provided that you don't depend on newer features, Visual Studio tries to preserve backwards compatibility with previous versions like Visual Studio 2015, Visual Studio 2013, and Visual Studio 2012. (See the [Release Notes](/visualstudio/releasenotes/vs2017-relnotes/) for which features are specific to which versions.)

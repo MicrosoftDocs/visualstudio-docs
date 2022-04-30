@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugDisassemblyStream2::GetCodeLocationId
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Returns a code location identifier for a particular code context.
 
 ## Syntax

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty3::GetCustomViewerList
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets a list of custom viewers associated with this property.
 
 ## Syntax

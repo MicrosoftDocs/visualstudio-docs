@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram2::GetENCUpdate
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method gets the Edit and Continue (ENC) update for this program. A custom debug engine always returns `E_NOTIMPL`.
 
 ## Syntax

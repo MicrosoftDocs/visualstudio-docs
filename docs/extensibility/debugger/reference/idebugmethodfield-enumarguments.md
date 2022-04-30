@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugMethodField::EnumArguments
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Creates an enumerator for the type of each argument required to call the method.
 
 ## Syntax

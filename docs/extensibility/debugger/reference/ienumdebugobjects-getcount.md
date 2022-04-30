@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugObjects::GetCount
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method returns the number of elements in the enumeration.
 
 ## Syntax

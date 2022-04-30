@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugSettingsCallback2::GetEEMetricDword
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves a value that corresponds to the specified metric of the expression evaluator.
 
 ## Syntax

@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Init
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Prepares the in-app component of graphics diagnostics to actively capture and record graphics information to a graphics log file.
 
 ## Syntax

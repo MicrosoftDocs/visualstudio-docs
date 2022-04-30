@@ -20,6 +20,8 @@ ms.workload:
 ---
 # Debug HTML and CSS sample code
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The code in this topic is the sample file for [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md). The errors present by design in the QuickStart are fixed in this version of the code.
 
 ## Sample Code

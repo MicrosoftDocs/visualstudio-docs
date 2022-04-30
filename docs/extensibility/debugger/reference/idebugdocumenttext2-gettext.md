@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentText2::GetText
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the text from the specified position in the document.
 
 ## Syntax

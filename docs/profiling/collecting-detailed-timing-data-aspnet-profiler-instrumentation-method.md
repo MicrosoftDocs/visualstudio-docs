@@ -17,6 +17,8 @@ ms.workload:
   - aspnet
 ---
 # Collect detailed timing data for an ASP.NET web application using the profiler instrumentation method from the command line
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This section describes the procedures and options for collecting detailed performance data for an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application by using the **VSPerfCmd** command line tool and the instrumentation method.
 
 > [!NOTE]

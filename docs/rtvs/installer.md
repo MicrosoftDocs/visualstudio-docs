@@ -11,8 +11,9 @@ ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
-
 # Welcome to R Tools for Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 Thank you for installing R Tools for Visual Studio (RTVS)! Check it out and let us know what you think using the links under [Resources](#resources).
 

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram2::Terminate
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Terminates the program.
 
 ## Syntax

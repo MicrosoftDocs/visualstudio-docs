@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugCanStopEvent2::GetReason
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the reason why the debug engine (DE) wants to stop.
 
 ## Syntax

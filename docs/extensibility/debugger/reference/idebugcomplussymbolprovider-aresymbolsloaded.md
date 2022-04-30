@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::AreSymbolsLoaded
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Determines if the debug symbols are loaded for the specified module given the application domain identifier.
 
 ## Syntax

@@ -13,6 +13,8 @@ ms.workload:
 - vssdk
 ---
 # Common Control Patterns for Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 ## <a name="BKMK_CommonControls"></a> Common controls
 
 ### Overview

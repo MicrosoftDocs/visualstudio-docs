@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_stride
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the stride of the matrix or strided array.
 
 ## Syntax

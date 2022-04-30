@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_isPointerBasedOnSymbolValue
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies whether the `this` pointer is based on a symbol value.
 
 ## Syntax

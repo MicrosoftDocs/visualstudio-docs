@@ -18,6 +18,8 @@ ms.workload:
 ---
 # How to: Display URLs as Links in the Editor
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 You can choose to have the Code Editor treat Uniform Resource Locators (URLs) in your code as active links. When you use this feature, URLs:
 
 - Appear underlined.

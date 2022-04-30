@@ -21,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # Registry entries for VSTO Add-ins
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   You must create a specific set of registry entries when you deploy VSTO Add-ins that are created by using Visual Studio. These registry entries provide information that enables the Microsoft Office application to discover and load the VSTO Add-in.
 
  [!INCLUDE[appliesto_allapp](../vsto/includes/appliesto-allapp-md.md)]

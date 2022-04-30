@@ -12,8 +12,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Automatically reformat Python code in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 Visual Studio lets you quickly reformat code to match pre-configured formatting options.
 

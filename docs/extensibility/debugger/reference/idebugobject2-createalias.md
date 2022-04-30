@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject2::CreateAlias
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Creates a unique ID or alias for this object or returns an existing alias.
 
 ## Syntax

@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Assign Activity Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The **Assign** activity designer is used to create and configure an <xref:System.Activities.Statements.Assign> activity.
 
 ## The Assign Activity

@@ -12,8 +12,9 @@ ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
-
 # Use Docker containers with R Tools for Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 The R Tools for Visual Studio (RTVS) version 1.3+, alongside an installation of [Docker for Windows](https://www.docker.com/docker-windows), supports working with Docker containers.
 

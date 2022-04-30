@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugDisassemblyStream2::GetSize
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the size in instructions of this disassembly stream.
 
 ## Syntax

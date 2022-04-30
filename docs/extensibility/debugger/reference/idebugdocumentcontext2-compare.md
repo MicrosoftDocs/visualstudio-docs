@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentContext2::Compare
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Compares this document context to a given array of document contexts.
 
 ## Syntax

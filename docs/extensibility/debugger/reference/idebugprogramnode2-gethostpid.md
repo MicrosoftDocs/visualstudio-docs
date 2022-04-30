@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramNode2::GetHostPid
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the system process identifier for the process hosting the program.
 
 ## Syntax

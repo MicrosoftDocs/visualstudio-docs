@@ -14,6 +14,8 @@ ms.workload:
   - aspnet
 ---
 # How to: Modify web.config files to instrument and profile dynamically compiled ASP.NET web applications
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools instrumentation method to collect detailed timing data, .NET memory allocation data, and .NET object lifetime data from dynamically compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications.
 
  This topic describes how to modify the *web.config* configuration file to enable the instrumentation and profiling of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications.

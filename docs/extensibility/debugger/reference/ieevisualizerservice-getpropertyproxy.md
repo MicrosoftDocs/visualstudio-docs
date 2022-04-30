@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IEEVisualizerService::GetPropertyProxy
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method returns a proxy for a property object.
 
 ## Syntax

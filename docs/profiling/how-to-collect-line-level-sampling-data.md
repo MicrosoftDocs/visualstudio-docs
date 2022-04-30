@@ -16,6 +16,8 @@ ms.workload:
   - multiple
 ---
 # How to: Collect line-level sampling data
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Line-level sampling is the ability of the profiler to determine where in the code of a processor-intensive function, such as a function that has high exclusive samples, the processor has to spend most of its time.
 
 ## Overview

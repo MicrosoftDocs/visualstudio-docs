@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugSettingsCallback2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Enables debug engines to read metric settings remotely.
 
 ## Syntax

@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically delete Outlook contacts
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   This example deletes a contact. The example assumes that a contact named "Armando Pinto" exists in the **Contacts** folder.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

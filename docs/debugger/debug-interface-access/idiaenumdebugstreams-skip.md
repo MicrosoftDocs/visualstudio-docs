@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaEnumDebugStreams::Skip
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Skips a specified number of debug streams in an enumeration sequence.
 
 ## Syntax

@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # Span markers
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 A span marker represents a meaningful phase of an application. For example, you can use a span to represent an interval of time during which a particular work item is being processed. Its length represents the duration of the corresponding application phase. This illustration shows a span in Concurrency Visualizer:
 
  ![A span marker in Concurrency Visualizer](../profiling/media/cvmarkerspan.png "CVMarkerSpan")

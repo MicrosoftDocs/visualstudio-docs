@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugCustomAttributes::Next
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves a specified number of custom attributes in an enumeration sequence.
 
 ## Syntax

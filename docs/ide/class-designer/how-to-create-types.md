@@ -23,6 +23,8 @@ ms.workload:
 ---
 # How to: Create types by using Class Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 To design new types for C# and Visual Basic projects, create them on a class diagram. To see existing types, see [How to: View Existing Types](how-to-view-existing-types.md).
 
 ## <a name="CreateType"></a> Create a new type

@@ -16,6 +16,8 @@ author: TerryGLee
 ---
 # State Activity Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 A <xref:System.Activities.Statements.State> represents a state in which a state machine can be in.
 
 ## Using the State Activity Designer

@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Restrictions on string lengths
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The Source Control Plug-in API limits the lengths of strings used in various functions.
 
 ## String length values

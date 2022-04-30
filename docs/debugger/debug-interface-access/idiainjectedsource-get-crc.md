@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaInjectedSource::get_crc
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves a cyclic redundancy check (CRC) calculated from the bytes of the source code.
 
 ## Syntax

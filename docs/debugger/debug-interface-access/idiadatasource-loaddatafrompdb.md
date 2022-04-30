@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaDataSource::loadDataFromPdb
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Opens and prepares a program database (.pdb) file as a debug data source.
 
 ## Syntax

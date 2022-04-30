@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Parallel Activity Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The <xref:System.Activities.Statements.Parallel> activity executes a collection of child activities concurrently.
 
 ## The Parallel Activity

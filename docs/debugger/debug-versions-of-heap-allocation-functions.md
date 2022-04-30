@@ -26,6 +26,8 @@ ms.workload:
   - "multiple"
 ---
 # Debug Versions of Heap Allocation Functions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The C run-time library contains special Debug versions of the heap allocation functions. These functions have the same names as the Release versions with _dbg appended to them. This topic describes the differences between the Release version of a CRT function and the _dbg version, using `malloc` and `_malloc_dbg` as examples.
 
  When [_DEBUG](/cpp/c-runtime-library/debug) is defined, the CRT maps all [malloc](/cpp/c-runtime-library/reference/malloc) calls to [_malloc_dbg](/cpp/c-runtime-library/reference/malloc-dbg). Therefore, you do not need to rewrite your code using `_malloc_dbg` instead of `malloc` to receive the benefits while debugging.

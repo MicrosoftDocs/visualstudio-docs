@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # NAME_MATCH
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Selects the case option for matching names.
 
 ## Syntax

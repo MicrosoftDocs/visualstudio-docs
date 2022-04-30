@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # BP_TYPE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies whether the breakpoint is at a code location, is a data location, or is another type of breakpoint.
 
 ## Syntax

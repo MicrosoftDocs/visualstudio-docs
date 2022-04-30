@@ -16,8 +16,9 @@ ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
-
 # R Tools for Visual Studio options
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 Settings are accessed through the **R Tools** > **Options** menu, or through **Tools** > **Options** and scrolling to **R Tools**:
 

@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # Zoom control (threads view)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The zoom control is a slider that helps you to zoom in and out on the timeline so that you can focus on areas of particular interest. Because this control zooms in on the center of the timeline view, center the area of interest before you zoom in.
 
 ## Zoom in by dragging in the timeline view

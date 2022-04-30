@@ -14,6 +14,8 @@ ms.technology: vs-installation
 ---
 # Automatically apply product keys when deploying Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 You can apply your product key programmatically as part of a script that is used to automate the deployment of Visual Studio. You can set a product key on a device programmatically either during an installation of Visual Studio or after an installation completes.
 
 ::: moniker range="vs-2017"

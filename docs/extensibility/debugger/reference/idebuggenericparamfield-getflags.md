@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugGenericParamField::GetFlags
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the flags for this generic parameter.
 
 ## Syntax

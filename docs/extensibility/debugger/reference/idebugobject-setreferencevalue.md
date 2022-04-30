@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject::SetReferenceValue
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Sets the reference value of this object.
 
 ## Syntax

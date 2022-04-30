@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentPositionOffset2::GetRange
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the range for the current document position.
 
 ## Syntax

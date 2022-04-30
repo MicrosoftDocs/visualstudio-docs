@@ -18,6 +18,8 @@ ms.workload:
 ---
 # DA0024: Excessive GC CPU time
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 |Item|Value|
 |-|-|
 |Rule Id|DA0024|

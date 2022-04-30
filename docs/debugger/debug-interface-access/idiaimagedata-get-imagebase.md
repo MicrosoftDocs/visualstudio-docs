@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaImageData::get_imageBase
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the memory location where the image should be based.
 
 ## Syntax

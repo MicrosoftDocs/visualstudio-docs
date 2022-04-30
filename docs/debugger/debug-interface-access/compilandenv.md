@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # CompilandEnv
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The compiler may include additional environment variables with symbols. There is one `SymTagCompilandEnv` symbol for each of these variables.
 
 ## Properties

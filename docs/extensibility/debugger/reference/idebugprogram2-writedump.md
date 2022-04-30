@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram2::WriteDump
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Writes a dump to a file.
 
 ## Syntax

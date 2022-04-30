@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # SccGetParentProjectPath function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This function determines the parent project path of a specified project. This function is called when the user is adding a Visual Studio project to source control.
 
 ## Syntax

@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugTypeFieldBuilder2::CreateArrayOfType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Creates an array of the specified type and size.
 
 ## Syntax

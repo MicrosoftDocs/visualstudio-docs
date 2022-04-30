@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Create a Silverlight web part that displays OData for SharePoint
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   SharePoint 2010 exposes its list data by means of OData. In SharePoint, the OData service is implemented by the RESTful service ListData.svc. This walkthrough shows how to create a SharePoint web part that hosts a Silverlight application. The Silverlight application displays SharePoint Announcement list information by using ListData.svc. For more information, see [SharePoint Foundation REST Interface](/previous-versions/office/developer/sharepoint-2010/ff521587(v=office.14)) and [Open Data Protocol](https://www.odata.org/).
 
  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]

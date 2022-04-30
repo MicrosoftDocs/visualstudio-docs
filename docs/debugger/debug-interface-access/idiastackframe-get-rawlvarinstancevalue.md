@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaStackFrame::get_rawLVarInstanceValue
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method retrieves the value of the specified local variable as raw bytes.
 
 ## Syntax

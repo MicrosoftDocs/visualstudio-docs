@@ -13,8 +13,9 @@ ms.workload:
 ms.prod: visual-studio-windows
 
 ---
-
 # **Connected experiences in Visual Studio** #
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 Visual Studio consists of client software applications and connected experiences designed to enable you to code more effectively. Updating a [NuGet](/nuget/consume-packages/install-use-packages-visual-studio) package, selecting an [IntelliCode](/visualstudio/intellicode/overview) suggestion, and collaborating with another developer through [Live Share](/visualstudio/liveshare/quickstart/share) are examples of connected experiences. 
 

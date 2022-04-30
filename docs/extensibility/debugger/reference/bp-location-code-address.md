@@ -18,6 +18,8 @@ dev_langs:
 - CPP
 ---
 # BP_LOCATION_CODE_ADDRESS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Describes the location of a breakpoint at an address in code.
 
 ## Syntax

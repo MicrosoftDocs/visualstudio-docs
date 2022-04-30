@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Convert a local function to a method
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This refactoring applies to:
 
 - C#

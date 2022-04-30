@@ -22,6 +22,8 @@ ms.workload:
 ---
 # Debugging WPF
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] provides additional features to make debugging WPF applications easier.
 
 ## Related Topics

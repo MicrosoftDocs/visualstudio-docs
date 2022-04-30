@@ -14,6 +14,8 @@ ms.workload:
   - cplusplus
 ---
 # How to: Launch a stand-alone native application with the profiler to collect concurrency data by using the command line
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to start a native stand-alone (client) application and collect process and thread concurrency data.
 
  A profiling session has the following parts:

@@ -19,6 +19,8 @@ ms.workload:
 ---
 # /Clean (devenv.exe)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Cleans all intermediary files and output directories.
 
 ## Syntax

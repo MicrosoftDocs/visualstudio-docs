@@ -21,6 +21,8 @@ ms.workload:
   - "multiple"
 ---
 # Debugging WCF Services
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 ## In This Section
  [Limitations on WCF Debugging](../debugger/limitations-on-wcf-debugging.md)
  Describes restrictions on debugging WCF.

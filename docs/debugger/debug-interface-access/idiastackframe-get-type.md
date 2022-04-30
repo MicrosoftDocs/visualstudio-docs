@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaStackFrame::get_type
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the frame type.
 
 ## Syntax

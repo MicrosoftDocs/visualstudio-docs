@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugCustomAttribute
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This interface represents a custom attribute, and it can provide the name, parent, and class type of the attribute.
 
 ## Syntax

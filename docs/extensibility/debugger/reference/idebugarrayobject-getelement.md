@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugArrayObject::GetElement
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets an element of the array.
 
 ## Syntax

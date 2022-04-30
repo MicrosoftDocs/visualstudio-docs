@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # UNMANAGED_ADDRESS_PHYSICAL
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This structure represents a physical address.
 
 ## Syntax

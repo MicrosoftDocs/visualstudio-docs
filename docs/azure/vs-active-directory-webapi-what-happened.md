@@ -13,6 +13,8 @@ ms.custom: "devx-track-csharp, aaddev, vs-azure"
 ---
 # What happened to my WebAPI project (Visual Studio Azure Active Directory connected service)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 > [!div class="op_single_selector"]
 > - [Getting Started](vs-active-directory-webapi-getting-started.md)
 > - [What Happened](vs-active-directory-webapi-what-happened.md)

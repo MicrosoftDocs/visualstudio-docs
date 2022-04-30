@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaFrameData::get_addressOffset
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the offset part of the code address for the frame.
 
 ## Syntax

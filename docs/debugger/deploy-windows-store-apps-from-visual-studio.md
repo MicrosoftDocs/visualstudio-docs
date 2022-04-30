@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Deploy UWP apps from Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The Visual Studio deployment functionality builds and registers UWP apps that are created with Visual Studio on a target device. Exactly how the app is registered depends on whether the target device is local or remote:
 
 - When the target is the local Visual Studio machine, Visual Studio registers the app from its build folder.

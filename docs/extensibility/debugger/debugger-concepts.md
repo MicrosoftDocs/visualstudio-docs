@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Debugger concepts
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 To build on the Visual Studio debug package, you need to be familiar with the architectural concepts used in designing the package.
 
 ## In this section

@@ -14,6 +14,8 @@ ms.workload:
 ---
 # How to: Create an XML document based on an XSD schema
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The **Generate Sample XML** feature generates a sample XML file based on your XML Schema (XSD) file.
 
 You can use this option for the following scenarios:

@@ -21,6 +21,8 @@ ms.workload:
 ---
 # /Run (devenv.exe)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Compiles and runs the specified project or solution.
 
 ## Syntax

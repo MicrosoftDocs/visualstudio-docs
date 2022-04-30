@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Profiling Tools Usage Rules
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Performance rules in the Profiling Tools Usage category provide guidance for using the profiler to collect data most effectively.
 
 | Rule | Description |

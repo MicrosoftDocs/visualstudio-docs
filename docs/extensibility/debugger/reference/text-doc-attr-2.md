@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # TEXT_DOC_ATTR_2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Describes the attributes of a document.
 
 ## Syntax

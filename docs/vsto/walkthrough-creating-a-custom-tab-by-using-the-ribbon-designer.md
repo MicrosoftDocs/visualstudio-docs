@@ -23,6 +23,8 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Create a custom tab by using the Ribbon Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   By using the Ribbon Designer, you can create a custom tab and then add and position controls on it.
 
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]

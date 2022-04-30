@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Customize startup
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 You can customize the startup experience for Visual Studio in several different ways, such as opening your most recent solution or just an empty development environment.
 
 ::: moniker range="vs-2017"

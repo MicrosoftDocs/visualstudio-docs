@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Modules View - instrumentation data
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The Modules view displays performance data that is grouped by the modules that were in the profiling data. The functions of the module are listed below the module node.
 
 ## General

@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Validate your system during development
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Visual Studio can help keep your software consistent with user requirements and with the architecture of your system.
 
 To see which versions of Visual Studio support each of these features, see [Version support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).

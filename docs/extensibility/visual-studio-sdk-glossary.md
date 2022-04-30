@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Visual Studio SDK glossary
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This glossary provides definitions for terms that are used in the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] documentation.
 
 ## Terms

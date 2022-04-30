@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # EVALFLAGS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies flags that control expression evaluation.
 
 ## Syntax

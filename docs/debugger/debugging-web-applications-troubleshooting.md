@@ -22,6 +22,8 @@ ms.workload:
   - "multiple"
 ---
 # Debugging Web Applications: Troubleshooting
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This section contains common procedures that can be used to resolve errors.
 
 ## In This Section

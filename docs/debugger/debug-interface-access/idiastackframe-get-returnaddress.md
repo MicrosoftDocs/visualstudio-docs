@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaStackFrame::get_returnAddress
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the return address of the frame.
 
 ## Syntax

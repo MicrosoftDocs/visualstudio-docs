@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugCoreServer3::DisableAutoAttach
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Disables automatic attaching for all debug engines associated with this server.
 
 ## Syntax

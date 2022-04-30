@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugBinder3::GetExceptionObjectAndType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method retrieves the exception associated with an object, if any.
 
 ## Syntax

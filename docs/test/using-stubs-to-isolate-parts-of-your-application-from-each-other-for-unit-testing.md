@@ -16,6 +16,8 @@ dev_langs:
 ---
 # Use stubs to isolate parts of your application from each other for unit testing
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 *Stub types* are one of two technologies that the Microsoft Fakes framework provides to let you easily isolate a component you are testing from other components that it calls. A stub is a small piece of code that takes the place of another component during testing. The benefit of using a stub is that it returns consistent results, making the test easier to write. And you can run tests even if the other components are not working yet.
 
 For an overview and quick start guide to Fakes, see [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md).

@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # SccBackgroundGet function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This function retrieves from source control each of the specified files with no user interaction.
 
 ## Syntax

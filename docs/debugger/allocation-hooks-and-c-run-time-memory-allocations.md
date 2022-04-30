@@ -23,6 +23,8 @@ ms.workload:
   - "multiple"
 ---
 # Allocation Hooks and C Run-Time Memory Allocations
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 A very important restriction on allocation hook functions is that they must explicitly ignore `_CRT_BLOCK` blocks. These blocks are the memory allocations made internally by C run-time library functions if they make any calls to C run-time library functions that allocate internal memory. You can ignore `_CRT_BLOCK` blocks by including the following code at the beginning of your allocation hook function:
 
 ```cpp

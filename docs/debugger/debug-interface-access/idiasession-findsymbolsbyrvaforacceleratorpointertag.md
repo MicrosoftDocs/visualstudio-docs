@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSession::findSymbolsByRVAForAcceleratorPointerTag
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Given a corresponding tag value, this method returns an enumeration of symbols that are contained in a specified parent Accelerator stub function at a specified relative virtual address.
 
 ## Syntax

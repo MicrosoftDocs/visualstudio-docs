@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugBinder3::GetTypeArguments
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method retrieves a list of argument types associated with this object.
 
 ## Syntax

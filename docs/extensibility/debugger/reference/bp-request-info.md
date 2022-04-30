@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # BP_REQUEST_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Contains the information required to implement a breakpoint.
 
 ## Syntax

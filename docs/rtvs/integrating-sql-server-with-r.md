@@ -11,8 +11,9 @@ ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
-
 # Work with SQL Server and R
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 Visual Studio's excellent support for SQL Server helps data scientists work with R and SQL databases through the ability to create and run SQL queries and to work with stored procedures.
 

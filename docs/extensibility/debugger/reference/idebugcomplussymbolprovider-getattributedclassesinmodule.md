@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetAttributedClassesinModule
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the classes with the specified attribute in a given module.
 
 ## Syntax

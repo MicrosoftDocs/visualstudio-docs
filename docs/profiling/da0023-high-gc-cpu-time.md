@@ -18,6 +18,8 @@ ms.workload:
 ---
 # DA0023: High GC CPU time
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 |Item|Value|
 |-|-|
 |Rule Id|DA0023|

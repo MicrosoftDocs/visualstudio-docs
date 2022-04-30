@@ -12,6 +12,8 @@ ms.author: ghogen
 ---
 # Deploy an ASP.NET container to a container registry using Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 ## Overview
 
 Docker is a lightweight container engine, similar in some ways to a virtual machine, which you can use to host applications and services.

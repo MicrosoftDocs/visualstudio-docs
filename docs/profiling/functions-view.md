@@ -21,6 +21,8 @@ ms.workload:
   - "multiple"
 ---
 # Functions View
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The Functions view lists the functions that are called during profiling.
 
  By default, functions are listed by name. To view functions by module, right-click in the Functions View window and then select **Show in Module View**. This will display the Module view.

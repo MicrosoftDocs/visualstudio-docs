@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProvider::GetClassTypeByName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method gets the class field type representing a fully qualified class name.
 
 ## Syntax

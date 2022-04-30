@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaLoadCallback
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Receives callbacks from the DIA symbol locating procedure, thus enabling a user interface to report on the progress of the location attempt.
 
 ## Syntax

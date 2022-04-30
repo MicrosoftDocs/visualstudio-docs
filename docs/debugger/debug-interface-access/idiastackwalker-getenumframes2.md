@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaStackWalker::getEnumFrames2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves a stack frame enumerator for a specific platform type.
 
 ## Syntax

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugCoreServer2::GetPort
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves a specific port.
 
 ## Syntax

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngine2::SetMetric
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method sets a registry value known as a metric.
 
 ## Syntax

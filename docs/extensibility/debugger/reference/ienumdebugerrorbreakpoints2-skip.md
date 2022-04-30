@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugErrorBreakpoints2::Skip
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Skips over the specified number of elements.
 
 ## Syntax

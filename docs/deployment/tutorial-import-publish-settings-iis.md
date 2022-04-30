@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Get publish settings from IIS and import into Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 You can use the **Publish** tool to import publish settings and then deploy your app. In this article, we use publish settings for IIS.
 
 These steps apply to ASP.NET and ASP.NET Core web applications.

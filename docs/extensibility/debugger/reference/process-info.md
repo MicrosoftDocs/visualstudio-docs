@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # PROCESS_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Contains information about a process.
 
 ## Syntax

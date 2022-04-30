@@ -14,6 +14,8 @@ ms.workload:
   - multiple
 ---
 # Create basic profiling reports from the command line
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This article describes the basic VSPerfReport commands that generate comma-separated value (.*csv*) reports from a .*vsp* or .*vsps* profiling data file. For a description of all report options, see [VSPerfReport](../profiling/vsperfreport.md).
 
 ## Report commands

@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Options dialog box: Environment \> Startup
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 ::: moniker range="vs-2017"
 
 Use this page to customize the Visual Studio start page or set a different default action when Visual Studio starts up. For more information, see [Customize startup](../../ide/customizing-the-start-page-for-visual-studio.md).

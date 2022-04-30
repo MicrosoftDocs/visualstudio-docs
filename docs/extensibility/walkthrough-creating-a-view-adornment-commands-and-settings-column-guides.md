@@ -13,6 +13,8 @@ ms.workload:
 - vssdk
 ---
 # Walkthrough: Create a view adornment, commands, and settings (column guides)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 You can extend the Visual Studio text/code editor with commands and view effects. This article shows you how to get started with a popular extension feature, column guides. Column guides are visually light lines drawn on the text editor's view to help you manage your code to specific column widths. Specifically, formatted code can be important for samples you include in documents, blog posts, or bug reports.
 
 In this walkthrough, you:

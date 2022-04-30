@@ -15,6 +15,8 @@ monikerRange: ">=vs-2019"
 ---
 # Visual Studio and servicing baselines
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Visual Studio is updated frequently during its product lifecycle. There are two main types of updates: feature updates and servicing updates. Feature updates are indicated by a change in the minor version number, such as 16.4 to 16.5, and they contain significant product updates. Servicing updates consist of critical quality or security fixes and they are denoted by a change in the servicing version number, such as 16.7.8 to 16.7.9. 
 
 A servicing baseline, also referred to as a Long-Term Servicing Channel (LTSC) is a particular minor version that is supported and kept secure for about a year longer than other minor versions. The purpose of servicing baselines is to give Enterprise and Professional customers a way to adopt and stay on a very stable product and minimize compatibility risk while also staying secure. Refer to the [Visual Studio support lifecycle](/visualstudio/productinfo/vs-servicing) documentation for information about support for secure baselines.

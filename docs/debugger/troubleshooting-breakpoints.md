@@ -14,6 +14,8 @@ ms.custom: devdivchpfy22
 ---
 # Troubleshoot Breakpoints in the Visual Studio Debugger
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 ## Breakpoint Warnings
 
 When debugging, a breakpoint has two possible visual states:

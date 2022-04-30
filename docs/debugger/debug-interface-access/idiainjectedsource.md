@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaInjectedSource
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Accesses injected source code stored in the DIA data source.
 
 ## Syntax

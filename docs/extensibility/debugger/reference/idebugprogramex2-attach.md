@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramEx2::Attach
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Attach a session to a program.
 
 ## Syntax

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramNode2::GetHostName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the name of the process hosting the program.
 
 ## Syntax

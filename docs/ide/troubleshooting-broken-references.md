@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Troubleshoot broken references
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 If your application attempts to use a broken reference, an exception error is generated. The inability to find the referenced component is the primary trigger for the error, but there are several situations in which a reference can be considered broken. These instances are shown in the following list:
 
 - The project's reference path is incorrect or incomplete.

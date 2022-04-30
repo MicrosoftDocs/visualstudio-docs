@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngine2::CreatePendingBreakpoint
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Creates a pending breakpoint in the debug engine (DE).
 
 ## Syntax

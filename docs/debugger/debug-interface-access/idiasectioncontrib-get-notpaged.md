@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSectionContrib::get_notPaged
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves a flag that indicates whether the section cannot be paged out of memory.
 
 ## Syntax

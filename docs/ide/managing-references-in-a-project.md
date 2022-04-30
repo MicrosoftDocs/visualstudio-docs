@@ -27,6 +27,8 @@ ms.workload:
 ---
 # Manage references in a project
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Before you write code against an external component or connected service, your project must first contain a reference to it. A reference is essentially an entry in a project file that contains the information that Visual Studio needs to locate the component or the service.
 
 To add a reference, right click on the **References** or **Dependencies** node in **Solution Explorer** and choose **Add Reference**. You can also right-click on the project node and select **Add** > **Reference**. For more information, see [How to: Add or remove references](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md).

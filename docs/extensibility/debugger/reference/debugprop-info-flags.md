@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # DEBUGPROP_INFO_FLAGS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies what information to retrieve about a debug property object.
 
 ## Syntax

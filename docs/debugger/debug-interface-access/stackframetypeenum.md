@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # StackFrameTypeEnum
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the stack frame type.
 
 ## Syntax

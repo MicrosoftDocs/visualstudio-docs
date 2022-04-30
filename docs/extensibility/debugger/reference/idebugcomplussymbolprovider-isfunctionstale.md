@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::IsFunctionStale
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Determines if the function at the specified debug address is considered stale.
 
 ## Syntax

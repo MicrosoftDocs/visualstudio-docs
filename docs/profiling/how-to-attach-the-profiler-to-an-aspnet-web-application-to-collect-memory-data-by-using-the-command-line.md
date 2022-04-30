@@ -14,6 +14,8 @@ ms.workload:
   - aspnet
 ---
 # How to: Attach the profiler to an ASP.NET web application to collect memory data by using the command line
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application and collect data about the number and size of .NET Framework memory allocations. You can also collect data about the lifetime of .NET Framework memory objects.
 
 > [!NOTE]

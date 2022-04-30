@@ -12,6 +12,8 @@ ms.technology: vs-xaml-tools
 ---
 # Keyboard shortcuts for XAML Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Keyboard shortcuts in XAML Designer can speed up your work by reducing an action that would require multiple mouse-button clicks to a single keyboard shortcut.
 
 ## Element shortcuts

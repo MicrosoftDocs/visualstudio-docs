@@ -16,6 +16,8 @@ ms.workload:
 ---
 # How to: Use the XML Schema Designer with XML literals
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This topic describes how to view a schema associated with an XML literal in a Visual Basic project.
 
 ## Create a new Visual Basic project

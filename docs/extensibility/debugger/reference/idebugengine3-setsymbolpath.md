@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngine3::SetSymbolPath
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Sets the path or paths that are searched for debugging symbols.
 
 ## Syntax

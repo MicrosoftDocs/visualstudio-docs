@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram2::GetDisassemblyStream
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the disassembly stream for this program or a part of this program.
 
 ## Syntax

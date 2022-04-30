@@ -23,6 +23,8 @@ ms.workload:
 ---
 # How Can I Debug Access Violations When Running My Program Outside the Debugger?
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 ## Problem Description
  My program runs fine in the Visual Studio environment, but when I run it stand-alone with the Windows operating system, it produces an access violation. How can I debug this problem?
 

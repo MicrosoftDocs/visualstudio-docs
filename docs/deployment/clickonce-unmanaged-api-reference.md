@@ -33,6 +33,8 @@ ms.workload:
   - "cplusplus"
 ---
 # ClickOnce unmanaged API reference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] unmanaged public APIs from dfshim.dll.
 
 ## CleanOnlineAppCache

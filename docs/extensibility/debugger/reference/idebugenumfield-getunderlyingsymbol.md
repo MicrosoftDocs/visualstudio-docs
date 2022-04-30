@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugEnumField::GetUnderlyingSymbol
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) that represents the name of the enumeration.
 
 ## Syntax

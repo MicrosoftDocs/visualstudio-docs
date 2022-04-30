@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IEEVisualizerDataProvider::GetObjectForVisualizer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This method gets the object that this visualizer represents.
 
 ## Syntax

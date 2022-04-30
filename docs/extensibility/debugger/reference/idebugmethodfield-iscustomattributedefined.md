@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugMethodField::IsCustomAttributeDefined
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Determines whether a specific custom attribute has been defined.
 
 ## Syntax

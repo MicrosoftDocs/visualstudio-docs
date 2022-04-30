@@ -21,6 +21,8 @@ ms.technology: vs-ide-general
 ---
 # Capabilities of Dotfuscator
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This page focuses on the capabilities of Dotfuscator Community with some references to advanced options available through [upgrades][upgrades].
 
 Dotfuscator Community is a *post-build* system for .NET applications.

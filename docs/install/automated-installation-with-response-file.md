@@ -18,6 +18,8 @@ ms.technology: vs-installation
 ---
 # Programmatically configure default settings using a response file
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The Visual Studio response file is a [JSON](http://json-schema.org/) file whose contents mirror the command-line parameters and arguments. The response file is used to initialize client settings during the initial installation of the product onto the client. 
 
 ## Automate installation

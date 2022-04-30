@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Run code when a SharePoint project is deployed or retracted
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   If you want to perform additional tasks when a SharePoint project is deployed or retracted, you can handle events that are raised by Visual Studio. For more information, see [Extend SharePoint packaging and deployment](../sharepoint/extending-sharepoint-packaging-and-deployment.md).
 
 ### To run code when a SharePoint project is deployed or retracted

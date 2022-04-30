@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Memory and paging performance rules
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Performance rules in the memory and paging category identify paging activity in a profiling run that can impact application performance and responsiveness.
 
 |Rule|Description|

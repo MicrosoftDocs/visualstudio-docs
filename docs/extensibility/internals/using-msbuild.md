@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Using MSBuild
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 MSBuild supplies a well-defined, extensible XML format for creating project files that fully describe project items to be built, build tasks, and build configurations.
 
 ## General MSBuild Considerations

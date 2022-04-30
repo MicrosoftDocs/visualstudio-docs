@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # FRAMEINFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Describes a stack frame.
 
 ## Syntax

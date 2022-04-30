@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Welcome to the Visual Studio IDE | C\#
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 [!INCLUDE [overview-part-1](../includes/ide-overview.md)]
 
 ## Select environment settings

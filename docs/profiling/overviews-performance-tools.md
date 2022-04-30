@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Overviews (performance tools)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This section provides conceptual and terminology overviews for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools, which you can use to measure the performance characteristics of an application under development.
 
 ## In this section

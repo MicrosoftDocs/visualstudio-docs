@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramNode2::GetEngineInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the name and identifier of the debug engine (DE) running a program.
 
 ## Syntax

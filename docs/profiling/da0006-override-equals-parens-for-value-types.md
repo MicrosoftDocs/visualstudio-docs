@@ -19,6 +19,8 @@ ms.workload:
 ---
 # DA0006: Override Equals() for value types
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 |Item|Value|
 |-|-|
 |Rule Id|DA0006|

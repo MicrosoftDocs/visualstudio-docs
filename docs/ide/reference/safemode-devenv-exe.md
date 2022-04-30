@@ -18,6 +18,8 @@ ms.workload:
 ---
 # /SafeMode (devenv.exe)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Starts Visual Studio in safe mode, loading only the default environment and services.
 
 ## Syntax

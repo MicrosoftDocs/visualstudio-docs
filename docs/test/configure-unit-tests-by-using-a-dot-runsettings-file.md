@@ -13,6 +13,8 @@ author: mikejo5000
 ---
 # Configure unit tests by using a *.runsettings* file
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Unit tests in Visual Studio can be configured by using a *.runsettings* file. For example, you can change the .NET version on which the tests are run, the directory for the test results, or the data that's collected during a test run. A common use of a *.runsettings* file is to customize [code coverage analysis](../test/customizing-code-coverage-analysis.md).
 
 Run settings files can be used to configure tests that are run from the [command line](vstest-console-options.md), from the IDE, or in a build workflow using Azure Test Plans or Team Foundation Server (TFS).

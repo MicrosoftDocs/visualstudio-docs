@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngineProgram2::WatchForThreadStep
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Watches for execution (or stops watching for execution) to occur on the given thread.
 
 ## Syntax

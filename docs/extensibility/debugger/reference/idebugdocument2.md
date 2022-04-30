@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugDocument2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This interface represents a source document.
 
 ## Syntax

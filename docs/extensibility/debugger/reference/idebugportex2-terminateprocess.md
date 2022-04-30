@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortEx2::TerminateProcess
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Terminates a process.
 
 ## Syntax

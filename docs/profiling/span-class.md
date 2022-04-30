@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # span class
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Defines a phase of the application.
 
 ## Syntax

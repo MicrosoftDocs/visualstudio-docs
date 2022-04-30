@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Termination and detaching
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The following section describes normal termination.
 
 ## Discussion

@@ -13,8 +13,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Quickstart: Create your first Python web app using Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 In this 5-10 minute introduction to Visual Studio as a Python IDE, you create a simple Python web application based on the Flask framework. You create the project through discrete steps that help you learn about Visual Studio's basic features.
 

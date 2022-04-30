@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject2::GetField
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the type of this object.
 
 ## Syntax

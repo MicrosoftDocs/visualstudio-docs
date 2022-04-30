@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Confirm Activity Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The **Confirm** activity designer is used to create and configure a <xref:System.Activities.Statements.Confirm> activity.
 
 ## The Confirm Activity

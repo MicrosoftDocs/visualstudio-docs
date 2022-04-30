@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaStackFrame::get_cplusplusExceptionHandling
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves a flag that indicates if C++ exception handling is in effect.
 
 ## Syntax

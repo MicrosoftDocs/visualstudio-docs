@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaStackWalkFrame::searchForReturnAddressStart
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Searches the specified stack frame for a return address at or near the specified address.
 
 ## Syntax

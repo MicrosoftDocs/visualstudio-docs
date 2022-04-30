@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty3::GetStringChars
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the string associated with this property and stores it in a user-supplied buffer.
 
 ## Syntax

@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Create a simple data application with WPF and Entity Framework 6
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 ::: moniker range="vs-2022"
 > [!WARNING]
 > The scenario in this tutorial is currently blocked due to an issue with Visual Studio 2022 that is scheduled to be fixed in a future update. It should work with Visual Studio 2019 or earlier.

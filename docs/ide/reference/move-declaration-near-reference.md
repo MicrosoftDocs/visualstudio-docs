@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Move declaration near reference refactoring
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This refactoring applies to:
 
 - C#

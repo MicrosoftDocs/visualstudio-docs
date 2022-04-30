@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Discovering available brokered services
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Brokered services can be exposed by [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] or its extensions.
 This document describes how to discover brokered services exposed by [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
 

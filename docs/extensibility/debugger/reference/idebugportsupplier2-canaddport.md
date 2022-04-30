@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortSupplier2::CanAddPort
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Verifies that a port supplier can add new ports.
 
 ## Syntax

@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugTypeFieldBuilder2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Extends the **IDebugTypeFieldBuilder** to be able to create array types.
 
 ## Syntax

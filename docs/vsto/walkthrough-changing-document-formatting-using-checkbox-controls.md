@@ -21,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Change document formatting using CheckBox controls
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   This walkthrough demonstrates how to use Windows Forms controls in a document-level customization for Microsoft Office Word to change text formatting.
 
  [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]

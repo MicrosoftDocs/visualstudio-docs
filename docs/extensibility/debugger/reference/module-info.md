@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # MODULE_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Describes a particular module (DLL, EXE, or assembly).
 
 ## Syntax

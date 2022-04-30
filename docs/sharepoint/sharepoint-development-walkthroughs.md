@@ -17,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # SharePoint development walkthroughs
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   The following walkthroughs demonstrate how to develop and deploy SharePoint solutions by using [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
 ## General

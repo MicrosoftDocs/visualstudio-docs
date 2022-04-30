@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugThread2::CanSetNextStatement
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Determines whether the current instruction pointer can be set to the given stack frame.
 
 ## Syntax

@@ -18,6 +18,8 @@ ms.workload:
 ---
 # TemplateContent Element (Visual Studio Templates)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Specifies the contents of the template.
 
 Element hierarchy:

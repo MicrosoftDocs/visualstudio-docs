@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Group element
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Defines a VSPackage command group.
 
 ## Syntax

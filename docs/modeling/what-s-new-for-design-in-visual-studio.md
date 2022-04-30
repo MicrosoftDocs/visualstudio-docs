@@ -19,6 +19,8 @@ monikerRange: vs-2017
 ---
 # What's new for design in Visual Studio 2017
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 ## Live dependency validation
 
 Removing unwanted dependencies is an important part of managing your technical debt. Visual Studio provides live validation of dependencies, including precise information about issues, such as where they are located. Live dependency validation takes full advantages of new features in the Error List and the editor.

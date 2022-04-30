@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugThread2::GetName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the name of a thread.
 
 ## Syntax

@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Visual Studio Emulator for Android
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The Visual Studio Emulator for Android is a desktop application to emulate an Android device. It's deprecated in Visual Studio 2015 and it's not supported in Visual Studio 2017 or Visual Studio 2019. We recommend you use the Google Android emulators instead. To see the Visual Studio Emulator for Android instructions for Visual Studio 2015, choose Visual Studio 2015 in the documentation version selector.
 
 > [!IMPORTANT]

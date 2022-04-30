@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Troubleshoot the Visual Studio Emulator for Android
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This topic contains information to help you resolve issues that you may experience when you're using the Visual Studio Emulator for Android.
 
 > [!WARNING]

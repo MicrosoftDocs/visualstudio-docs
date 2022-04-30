@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugDocumentContext2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This interface represents a position in a source file document.
 
 ## Syntax

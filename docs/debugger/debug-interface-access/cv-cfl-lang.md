@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # CV_CFL_LANG
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the source code language of the application or linked module.
 
 ## Syntax

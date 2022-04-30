@@ -12,6 +12,8 @@ ms.workload:
   - multiple
 ---
 # Getting Started with Visual Studio Graphics Diagnostics
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 In this section you'll prepare to use Graphics Diagnostics for the first time, then you'll capture frames from a Direct3D app and examine them in the Graphics Analyzer.
 
 ## Requirements

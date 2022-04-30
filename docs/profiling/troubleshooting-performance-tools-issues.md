@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Troubleshoot performance tools issues
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 You might experience one of the following issues when you use the Profiling Tools:
 
 - [No data is collected by the profiling tools](#no-data-is-collected-by-the-profiling-tools)

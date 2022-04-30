@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # ThreadOn and ThreadOff
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The *VSPerfCmd.exe* **ThreadOff** and **ThreadOn** subcommands are only available in command-line profiling sessions that use the instrumentation method. **ThreadOff** and **ThreadOn** pause and resume profiling for the specified thread. **ThreadOff** stops profiling the thread and **ThreadOn** starts profiling the thread.
 
  In most cases, you specify **ThreadOn** or **ThreadOff** as the only option in a *VSPerfCmd.exe* command line, but they can also be combined with the **GlobalOn**, **GlobalOff**, **ProcessOn**, and **ProcessOff** subcommands.

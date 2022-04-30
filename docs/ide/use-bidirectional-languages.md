@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Support for bidirectional languages in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Visual Studio can display Arabic and Hebrew text correctly and lets you enter bidirectional text for object names and values.
 
 > [!NOTE]

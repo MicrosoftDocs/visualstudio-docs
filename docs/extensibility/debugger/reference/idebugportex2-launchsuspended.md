@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortEx2::LaunchSuspended
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Launches an executable file.
 
 ## Syntax

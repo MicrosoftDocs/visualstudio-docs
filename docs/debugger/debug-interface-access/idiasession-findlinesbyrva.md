@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSession::findLinesByRVA
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the lines in a specified compiland that contain a specified relative virtual address (RVA).
 
 ## Syntax

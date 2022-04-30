@@ -14,6 +14,8 @@ ms.technology: vs-ide-test
 ---
 # How to: Configure network emulation using test settings in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 You can configure the diagnostic data adapter to test your application under various network environments from Visual Studio. It can also be configured to test an artificial network load, or bottleneck, when you run your tests.
 
 > [!WARNING]

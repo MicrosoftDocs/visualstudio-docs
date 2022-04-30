@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSourceFile::get_checksumType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the checksum type.
 
 ## Syntax

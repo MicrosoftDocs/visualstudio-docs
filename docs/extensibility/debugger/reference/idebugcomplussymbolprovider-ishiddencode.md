@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::IsHiddenCode
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Determines if the code at the specified debugger address is hidden.
 
 ## Syntax

@@ -22,6 +22,8 @@ ms.workload:
 ---
 # DA0013: High usage of String.Split or String.Substring
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 |Item|Value|
 |-|-|
 |Rule Id|DA0013|

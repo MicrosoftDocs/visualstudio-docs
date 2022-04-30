@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # CV_HREG_e
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies a target register.
 
 > [!NOTE]

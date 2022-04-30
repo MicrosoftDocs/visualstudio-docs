@@ -19,6 +19,8 @@ ms.workload:
 ---
 # FlowSwitch\<T> Activity Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The <xref:System.Activities.Statements.FlowSwitch%601> activity is a conditional node that provides branching for the flow of control based on match criterion when more than two alternative branches are required. If the flow branching requires only two paths, use the <xref:System.Activities.Statements.FlowDecision> activity instead.
 
 ## The FlowSwitch\<T> Activity

@@ -23,6 +23,8 @@ ms.workload:
 ---
 # Insert new records into a database
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 To insert new records into a database with [ADO.NET](/dotnet/framework/data/adonet/) in a .NET Framework project, you can use the `TableAdapter.Update` method, or one of the TableAdapter's DBDirect methods (specifically the `TableAdapter.Insert` method). For more information, see [TableAdapter](../data-tools/create-and-configure-tableadapters.md).
 
 If your application doesn't use TableAdapters, you can use command objects (for example,  <xref:System.Data.SqlClient.SqlCommand>) to  insert new records in your database.

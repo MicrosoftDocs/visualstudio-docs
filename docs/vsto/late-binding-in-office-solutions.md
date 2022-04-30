@@ -20,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # Late binding in Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
   Some types in the object models of Office applications provide functionality that is available through late-binding features. For example, some methods and properties can return different types of objects depending on the context of the Office application, and some types can expose different methods or properties in different contexts.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

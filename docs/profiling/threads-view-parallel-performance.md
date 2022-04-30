@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Threads view in the Concurrency Visualizer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 **Threads** view is the most detailed and feature-rich view in the Concurrency Visualizer. In the **Threads** view, you can identify which threads are executing code during an execution segment, and analyze whether threads are executing or blocking because of synchronization, I/O, or other reasons. **Threads** view reports also profile call-stack tree execution and unblocking threads.
 
 While threads are executing, the Concurrency Visualizer collects samples. When a thread has stopped executing, the visualizer examines all operating system context-switch events for the thread. Context switches can occur because:

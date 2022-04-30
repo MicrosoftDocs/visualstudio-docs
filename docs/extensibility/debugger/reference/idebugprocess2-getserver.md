@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess2::GetServer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the server that this process is running on.
 
 ## Syntax

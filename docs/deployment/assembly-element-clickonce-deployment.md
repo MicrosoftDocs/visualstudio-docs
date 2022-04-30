@@ -21,6 +21,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;assembly&gt; element (ClickOnce deployment)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The top-level element for the deployment manifest.
 
 ## Syntax

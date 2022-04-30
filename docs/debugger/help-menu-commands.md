@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Help Menu Commands
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The **Help** menu provides commands to open Help files.
 
  **Index**

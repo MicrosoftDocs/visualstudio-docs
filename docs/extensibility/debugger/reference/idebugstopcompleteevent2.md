@@ -14,6 +14,8 @@ ms.workload:
 ---
 # IDebugStopCompleteEvent2
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 The debug engine (DE) can send this optional event to the session debug manager (SDM) when a program has stopped.
 
 ## Syntax

@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # COMPUTER_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Describes the computer on which the debugger is running.
 
 ## Syntax

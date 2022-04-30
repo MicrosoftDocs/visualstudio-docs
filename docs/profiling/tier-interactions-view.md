@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Tier Interactions View
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Tier interaction profiling provides additional information about the execution times in functions of multitiered applications that communicate with databases through [!INCLUDE[vstecado](../data-tools/includes/vstecado_md.md)]. Data is collected only for synchronous function calls.
 
 **Requirements**

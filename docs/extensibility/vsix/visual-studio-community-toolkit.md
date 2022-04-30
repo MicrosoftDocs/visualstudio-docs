@@ -12,6 +12,8 @@ ms.custom: cookbook
 ---
 # Visual Studio Community Toolkit
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This toolkit will help you write successful Visual Studio extensions and there's something for absolute beginners to experts alike.
 
 The following video introduces you to the Visual Studio extensibility model.

@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Performance rules by ID
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 | Warning | Description |
 | - | - |
 | [DA0001: Use StringBuilder for concatenations](../profiling/da0001-use-stringbuilder-for-concatenations.md) | Calls to System.String.Concat are a significant proportion of the profiling data. Consider using the <xref:System.Text.StringBuilder> class to construct strings from more than one segment. |

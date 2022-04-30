@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Profiling and Windows Vista security
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Depending on the [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)] User Access Permissions settings that a computer administrator has made available, an individual user might have security permission to profile a process on that computer. The following examples illustrate possible differences among users:
 
 - Some users may access advanced profiling features when the administrator has set the driver and service to start.

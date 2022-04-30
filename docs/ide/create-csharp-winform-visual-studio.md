@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Create a Windows Forms app in Visual Studio with C\#
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 In this short introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# application that has a Windows-based user interface (UI).
 
 ::: moniker range="vs-2017"

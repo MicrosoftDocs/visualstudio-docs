@@ -20,6 +20,8 @@ ms.workload:
   - "multiple"
 ---
 # Caller/Callee view
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The Caller/Callee view displays profiling information for a selected function and its parent and child functions. The Caller/Callee view contains three grids:
 
  **Current function** is displayed in the middle grid, and it shows profiling information for the selected function. The values include all calls to the function that were collected in the profiling run.

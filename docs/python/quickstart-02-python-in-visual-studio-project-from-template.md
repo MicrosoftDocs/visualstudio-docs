@@ -12,8 +12,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Quickstart: Create a Python project from a template in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 
 Once you've [installed Python support in Visual Studio](installing-python-support-in-visual-studio.md), it's easy to create a new Python project using a variety of templates. In this Quickstart, you create a simple Flask app using a template. The resulting project is similar to the project you create manually through [Quickstart - Create a web app with Flask](../ide/quickstart-python.md).
 

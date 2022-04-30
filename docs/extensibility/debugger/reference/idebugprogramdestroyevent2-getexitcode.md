@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramDestroyEvent2::GetExitCode
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the program's exit code.
 
 ## Syntax

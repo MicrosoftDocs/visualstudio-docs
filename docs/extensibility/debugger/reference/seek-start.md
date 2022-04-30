@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # SEEK_START
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Specifies the position from which to start seeking in a disassembly stream.
 
 ## Syntax

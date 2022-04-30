@@ -12,6 +12,8 @@ ms.author: ghogen
 ---
 # Browse and manage storage resources by using Server Explorer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 [!INCLUDE [storage-try-azure-tools](./includes/storage-try-azure-tools.md)]
 
 ## Overview

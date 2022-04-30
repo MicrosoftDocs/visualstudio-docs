@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # DEBUG_PROPERTY_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Contains information about a debug property.
 
 ## Syntax

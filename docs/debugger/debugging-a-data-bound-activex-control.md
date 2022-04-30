@@ -22,6 +22,8 @@ ms.workload:
   - multiple
 ---
 # Debugging a Data-Bound ActiveX Control
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 If you are developing an ActiveX control that will be bound to a data source control, you can create your own container application and use that container to debug the ActiveX control.
 
  For example, you can create a dialog-based MFC application and place your data-bound control and a data source control on the dialog box. You can use this MFC application for run-time testing and as the container executable for debugging your data-bound ActiveX control.

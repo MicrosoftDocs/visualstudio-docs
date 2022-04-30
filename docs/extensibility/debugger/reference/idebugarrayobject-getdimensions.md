@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugArrayObject::GetDimensions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Gets the dimensions of the array.
 
 ## Syntax

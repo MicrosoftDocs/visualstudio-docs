@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Generate a field, property, or local variable in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 This code generation applies to:
 
 - C#

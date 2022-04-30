@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # SccProperties Function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This function displays source control properties for a file or project.
 
 ## Syntax

@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Evaluate Statement command
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
+
 Evaluates and displays the given statement.
 
 ## Syntax

@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Spy Menu Commands
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 The **Spy** menu provides commands to work with Spy++ Windows and views.
 
  **Windows**

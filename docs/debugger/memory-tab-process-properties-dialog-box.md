@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Memory Tab, Process Properties Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Use the **Memory** tab to show how a process uses memory. To display the [Process Properties Dialog Box](../debugger/process-properties-dialog-box.md), move the focus to a [Processes View](../debugger/processes-view.md) window. Select any process node in the tree, then choose **Properties** from the **View** menu.
 
  The following settings are available on the **Memory** tab:

@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaLineNumber::get_virtualAddress
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves the virtual address (VA) of the block.
 
 ## Syntax

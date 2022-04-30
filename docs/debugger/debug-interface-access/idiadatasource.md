@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaDataSource
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Initiates access to a source of debugging symbols.
 
 ## Syntax

@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSession::get_globalScope
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 Retrieves a reference to the global scope.
 
 ## Syntax

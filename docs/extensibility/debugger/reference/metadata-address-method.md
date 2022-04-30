@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # METADATA_ADDRESS_METHOD
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-not-mac.md)]
 This structure represents the address of a method of a class.
 
 ## Syntax
