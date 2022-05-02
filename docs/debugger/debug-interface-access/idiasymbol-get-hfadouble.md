@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_hfaDouble
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that specifies whether a user-defined type (UDT) contains homogeneous floating-point aggregate (HFA) data of type double.
 
 ## Syntax

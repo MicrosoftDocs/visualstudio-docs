@@ -14,6 +14,8 @@ ms.workload:
   - "office"
 ---
 # GetAutoInsertExtensions method
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Gets information about the apps for Office that are to be automatically inserted during debugging.
 
  This method is reserved for future use.

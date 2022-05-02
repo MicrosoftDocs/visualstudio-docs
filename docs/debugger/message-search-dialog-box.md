@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Message Search Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Use this dialog box to find and select the node for a specific message in [Messages View](../debugger/messages-view.md). To display this dialog box, move the focus to a Messages view window. Then choose **Find Message** from the **Search** menu.
 
  The following settings are available:

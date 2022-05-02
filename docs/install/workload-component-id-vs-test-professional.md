@@ -19,6 +19,8 @@ open_to_public_contributors: false
 ---
 # Visual Studio Test Professional component directory
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The tables on this page list the IDs that you can use to install Visual Studio by using the command line or that you can specify as a dependency in a VSIX manifest. Note that we will add additional components as we release updates to Visual Studio.
 
 Also note the following about the page:

@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugReturnValueEvent2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) after stepping out of or over a function.
 
 ## Syntax

@@ -41,6 +41,8 @@ ms.workload:
   - "office"
 ---
 # Host items and host controls overview
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Host items and host controls are types that help provide the programming model for Office solutions that are created by using the Office development tools in Visual Studio. Host items and host controls make interacting with the object models of Microsoft Office Word and Microsoft Office Excel, which are based on COM, more like interacting with managed objects such as Windows Forms controls.
 
  [!INCLUDE[appliesto_controls](../vsto/includes/appliesto-controls-md.md)]

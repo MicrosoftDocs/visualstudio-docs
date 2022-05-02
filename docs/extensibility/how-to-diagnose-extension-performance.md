@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Measuring extension impact in startup
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 ## Focus on extension performance in Visual Studio 2017
 
 Based on customer feedback, one of the focus areas for Visual Studio 2017 release has been startup and solution load performance. As the Visual Studio platform team, we have been working on improving startup and solution load performance. In general, our measurements suggest installed extensions can also have a considerable impact on those scenarios.

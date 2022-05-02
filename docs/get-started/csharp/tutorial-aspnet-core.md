@@ -18,6 +18,8 @@ ms.custom: "vs-acquistion, get-started"
 ---
 # Tutorial: Get started with C# and ASP.NET Core in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this tutorial for C# development with ASP.NET Core, you'll create a C# ASP.NET Core web app in Visual Studio.
 
 This tutorial will show you how to:

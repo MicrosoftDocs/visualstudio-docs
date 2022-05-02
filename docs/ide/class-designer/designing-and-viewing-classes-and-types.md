@@ -23,6 +23,8 @@ ms.workload:
 ---
 # Design and view classes and types with Class Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Design, visualize, and refactor classes and other types in your code with **Class Designer** in Visual Studio. Use class diagrams to create and edit classes in your C#, Visual Basic, or C++ project. You can also use class diagrams to understand your project structure better or reorganize your code.
 
 >[!NOTE]

@@ -13,6 +13,8 @@ ms.workload:
 - vssdk
 ---
 # Walkthrough: Display light bulb suggestions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Light bulbs are icons in the Visual Studio editor that expand to display a set of actions, for example, fixes for problems identified by the built-in code analyzers or code refactoring.
 
  In the Visual C# and Visual Basic editors, you can also use the .NET Compiler Platform ("Roslyn") to write and package your own code analyzers with actions that display light bulbs automatically. For more information, see:

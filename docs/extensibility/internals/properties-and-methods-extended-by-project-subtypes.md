@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Properties and Methods Extended by Project Subtypes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A project subtype has a lot of power to influence the behavior of the project because it is constructed as an aggregator of a base project. This section summarizes some of the features that can be enhanced or modified by project subtypes.
 
 ## Features Gained by Aggregation

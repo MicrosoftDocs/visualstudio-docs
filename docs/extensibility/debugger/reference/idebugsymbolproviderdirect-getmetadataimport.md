@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProviderDirect::GetMetaDataImport
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the metadata import information.
 
 ## Syntax

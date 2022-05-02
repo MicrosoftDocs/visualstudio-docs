@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Callback functions implemented by the IDE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To make integration with the integrated development environment (IDE) as seamless as possible and to provide a unified end-user experience, the source control plug-in can use callback functions that are implemented by the IDE. The plug-in can call these functions at appropriate times during a source control operation to pass information to the IDE; the IDE can then display this information as embedded elements in its native UI. The user has a less fragmented experience in this scenario than if the plug-in employed its own UI.
 
  The required header file is *scc.h*. The default location is *\Program Files\VSIP 8.0\EnvSDK\common\inc\\*. It is also in the VSIP folder that has the source control plug-in sample at *\Program Files\VSIP 8.0\MSSCCI\\*.

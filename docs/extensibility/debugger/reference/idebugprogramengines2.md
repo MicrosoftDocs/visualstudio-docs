@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugProgramEngines2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is used by program nodes to specify all the possible debug engines (DE) that can debug this program.
 
 ## Syntax

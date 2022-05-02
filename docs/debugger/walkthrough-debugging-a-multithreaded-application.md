@@ -28,6 +28,8 @@ ms.workload:
   - "multiple"
 ---
 # View threads in the Visual Studio debugger by using the Threads window (C#, Visual Basic, C++)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In the **Threads** window, you can examine and work with threads in the application that you're debugging. For step-by-step guidance on how to use the **Threads** window, see [Walkthrough: Debug by using the Threads window](../debugger/how-to-use-the-threads-window.md).
 
 ## Use the Threads window

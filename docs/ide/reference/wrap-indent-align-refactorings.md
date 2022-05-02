@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Wrap, indent, and align refactorings
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 ## Wrap and align call chains
 
 This refactoring applies to:

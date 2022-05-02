@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Split or merge if statements
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This refactoring applies to:
 
 - C#

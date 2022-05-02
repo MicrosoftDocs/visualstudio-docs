@@ -19,6 +19,8 @@ ms.workload:
   - multiple
 ---
 # How to: Compare performance data files
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can compare the results of two different profiler data files (.*vsp* or .*vsps*) by creating a comparison ("Diff") report or view. The comparison shows the differences, performance regressions, and improvements that occurred from one profiling session to the other.
 
  The Diff report presents a table view of the data. The table presents the delta, or change from the baseline. This is calculated by determining the difference between the old value, the baseline value, and the result value from the new analysis.

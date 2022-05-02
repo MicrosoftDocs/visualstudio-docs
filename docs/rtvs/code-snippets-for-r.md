@@ -11,8 +11,9 @@ ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
-
 # Code snippets for R
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Code snippets in Visual Studio provide shortcuts to quickly insert code blocks of arbitrary length, helping you avoid retyping similar code over and over. The R Tools for Visual Studio (RTVS) add dozens of useful R snippets to Visual Studio's collection.
 

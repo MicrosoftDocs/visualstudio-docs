@@ -27,6 +27,8 @@ ms.workload:
   - "multiple"
 ---
 # Walkthrough: Manually deploy a ClickOnce application that does not require re-signing and that preserves branding information
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application and then give it to a customer to publish and deploy, the customer has traditionally had to update the deployment manifest and re-sign it. While that is still the preferred method in most cases, the .NET Framework 3.5 enables you to create [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments that can be deployed by customers without having to regenerate a new deployment manifest. For more information, see [Deploy ClickOnce applications for testing and production servers without resigning](../deployment/deploying-clickonce-applications-for-testing-and-production-without-resigning.md).
 
  When you create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application and then give it to a customer to publish and deploy, the application can use the customer's branding or can preserve your branding. For example, if the application is a single proprietary application, you might want to preserve your branding. If the application is highly customized for each customer, you might want to use the customer's branding. The .NET Framework 3.5 enables you to preserve your branding, publisher information and security signature when you give an application to an organization to deploy. For more information, see [Create ClickOnce applications for others to deploy](../deployment/creating-clickonce-applications-for-others-to-deploy.md).

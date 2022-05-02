@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Write Code to Customize a Domain-Specific Language
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This section shows you how to use custom code to access, modify, or create a model in a domain-specific language.
 
 There are several contexts in which you can write code that works with a DSL:

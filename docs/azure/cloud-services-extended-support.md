@@ -15,6 +15,8 @@ monikerRange: ">=vs-2019"
 ---
 # Create and deploy to Cloud Services (extended support) in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Starting with [Visual Studio 2019 version 16.9](https://visualstudio.microsoft.com/vs/), you can work with cloud services by using Azure Resource Manager, which greatly simplifies and modernizes maintenance and management of Azure resources. This is enabled by a new Azure service referred to as *Cloud Services (extended support)*. You can publish an existing cloud service to Cloud Services (extended support). For information on this Azure service, see [Cloud Services (extended support) documentation](/azure/cloud-services-extended-support/overview).
 
 ## Publish to Cloud Services (extended support)

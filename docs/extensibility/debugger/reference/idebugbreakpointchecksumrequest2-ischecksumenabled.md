@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugBreakpointChecksumRequest2::IsChecksumEnabled
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines whether the checksum is enabled for this document.
 
 ## Syntax

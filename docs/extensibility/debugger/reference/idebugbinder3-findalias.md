@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugBinder3::FindAlias
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method locates an alias, given a name. This will search all aliases in the program.
 
 ## Syntax

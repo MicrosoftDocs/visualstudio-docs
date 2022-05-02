@@ -16,8 +16,9 @@ monikerRange: 'vs-2017'
 ms.workload: 
   - aspnet
 ---
-
 # Collect concurrency data for an ASP.NET web application using the profiler command line
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The concurrency method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools enables you to collect resource contention data.
 
 ## Common tasks

@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # TASK_STATE_FAULTED field
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The task completed due to an unhandled exception.
 
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

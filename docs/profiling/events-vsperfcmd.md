@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # Events (VSPerfCmd)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The *VSPerfCmd.exe* **Events** option controls Event Tracing for Windows (ETW) logging. ETW data is saved to an .etl file that is separate from the profiler data file. The data can be viewed in a report using the [VSPerfReport](../profiling/vsperfreport.md) /summary:etw command.
 
  The **Events** option can be called at any time before the VSPerfCmd **Shutdown** command is called to stop profiling.

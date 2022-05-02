@@ -19,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # Data (Debug Interface Access SDK)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 All variables, such as parameters, local variables, global variables, and class members, are identified by `SymTagData` symbols. Constant values (`LocIsConstant`) are also identified with this type.
 
 ## Properties

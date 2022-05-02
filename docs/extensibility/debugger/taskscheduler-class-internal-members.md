@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # TaskScheduler Class - Internal members
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This article describes the internal members of the <xref:System.Threading.Tasks.TaskScheduler?displayProperty=fullName> class that help you implement a custom debugger. For general information about this class, see the <xref:System.Threading.Tasks.TaskScheduler> reference article.
 
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

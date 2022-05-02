@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # Command-line profiling of services
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section describes the procedures and options for collecting performance data for Windows services by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools from the command line.
 
 > [!NOTE]

@@ -16,6 +16,8 @@ ms.workload:
 ---
 # System requirements for the Visual Studio Emulator for Android
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the virtualization technology for Windows 8 and later versions. To run the emulator, your computer must meet the requirements to run Hyper-V as described in this topic.
 
 The setup program tries to configure these prerequisites for you silently when you install the emulator. When setup successfully configures the prerequisites, the emulator simply works as expected. Otherwise you may have to enable these prerequisites manually. If you have to configure the prerequisites manually, the steps and tools are the same steps described [here](/previous-versions/windows/apps/jj863509\(v=vs.105\)) for the Windows Phone Emulator.

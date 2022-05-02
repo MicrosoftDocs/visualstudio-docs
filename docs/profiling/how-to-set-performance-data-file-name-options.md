@@ -14,6 +14,8 @@ ms.workload:
 ---
 # How to: Set performance data file name options
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 By default, you save a profiling data (.*vsp*) file by using the following syntax:
 
 *Path\VSP-File\YYMMDD(N)* **.vsp**

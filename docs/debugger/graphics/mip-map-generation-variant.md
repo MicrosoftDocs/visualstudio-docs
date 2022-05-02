@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Mip-map Generation Variant
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enables mip-maps on textures that are not render targets.
 
 ## Interpretation

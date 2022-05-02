@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugThread2::GetThreadId
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the system thread identifier.
 
 ## Syntax

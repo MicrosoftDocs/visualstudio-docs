@@ -17,6 +17,8 @@ ms.workload:
 ---
 # How to: Profile JavaScript code in web pages
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio Profiling Tools can collect performance data for JavaScript code that executes in an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application, an arbitrary web page, or JavaScript application by using the instrumentation profiling method. Requires Internet Explorer 8 or later.
 
 > [!WARNING]
