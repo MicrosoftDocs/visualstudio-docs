@@ -24,6 +24,8 @@ ms.workload:
   - "office"
 ---
 # Create site columns, content types, and lists for SharePoint
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Visual Studio provides project item templates for many different fundamental SharePoint items, including *lists* and *content types*, both of which can incorporate site columns (or *fields*). The new designers for content types and lists make creating these items easier than ever.
 
 ## Site columns

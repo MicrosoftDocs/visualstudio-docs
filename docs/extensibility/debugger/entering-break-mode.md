@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Enter break mode
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following information describes the process that occurs when a breakpoint is encountered after stepping into a function, running to the line of source code that has the cursor in it, or running to a breakpoint.
 
 ## Break mode process

@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Install outside the extensions folder
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Starting with Visual Studio 2017 and VSIX v3 (version 3), extension assets can be installed outside of the extensions folder. Currently, the following locations are enabled as valid installation locations (where [INSTALLDIR] is mapped to the Visual Studio instance's installation directory):
 
 * [INSTALLDIR]\MSBuild

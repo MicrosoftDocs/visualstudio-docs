@@ -13,6 +13,8 @@ monikerRange: ">=vs-2019"
 ---
 # An overview of the GitHub Actions integration in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 [GitHub Actions](https://github.com/features/actions) is the Continuous Integration / Continuous Delivery (CI/CD) solution offered by GitHub. You can host your code for free on GitHub.com and you can use GitHub Actions to automatically build, test and deploy your application when code changes are made.
 
 ## Visual Studio generates working GitHub Action workflows for you

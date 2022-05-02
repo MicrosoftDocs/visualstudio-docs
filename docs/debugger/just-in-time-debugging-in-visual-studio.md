@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Disable the Just-In-Time Debugger
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Just-In-Time Debugger dialog box may open when an error occurs in a running app, and prevent the app from continuing.
 
 The Just-In-Time Debugger gives you the option to launch Visual Studio to debug the error. You must have Visual Studio or another selected debugger installed to view detailed information about the error or try to debug it.

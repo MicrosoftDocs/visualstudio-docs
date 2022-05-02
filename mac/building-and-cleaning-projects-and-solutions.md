@@ -9,8 +9,9 @@ ms.custom: devdivchpfy22
 ms.assetid: E4B6CB42-9FE2-43B9-93B7-BD4BD50518B1
 ms.topic: how-to
 ---
-
 # Building and cleaning projects and solutions
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 Follow the steps in this article to learn how to build, rebuild, or clean your all or some of the projects in a solution.
 

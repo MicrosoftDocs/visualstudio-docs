@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Messages Menu Commands
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Messages** menu provides commands for controlling message views.
 
  **Start/Stop Logging**

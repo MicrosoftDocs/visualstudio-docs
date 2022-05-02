@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Resource Monitoring Performance Rules
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Performance messages in the Resource Monitoring category provide additional data about the performance of your application. You can use this data to analyze performance issues. These rules are informational and reported for every profiling run.
 
 |Rule|Description|

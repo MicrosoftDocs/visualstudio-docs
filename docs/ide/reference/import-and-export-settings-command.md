@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Import and Export Settings command (.vssettings file)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Imports, exports, or resets Visual Studio settings file, `.vssettings`.
 
 The file’s schema is open. Most commonly, the schema follows an XML structure where each category is a tag, which can itself contain subcategory tags. These subcategory tags can contain property value tags. While most packages use the common structure, any package in Visual Studio can contribute arbitrary XML to the file with the schema it chooses.

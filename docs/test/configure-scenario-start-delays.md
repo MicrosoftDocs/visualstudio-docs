@@ -14,6 +14,8 @@ ms.technology: vs-ide-test
 ---
 # Configure scenario start delays in load tests
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Specify a delay before a scenario starts in a load test by using the Load Test Editor and the **Properties** window.
 
 For example, you might want to use the **Delay Start Time** property if you need one scenario to start producing items that another scenario consumes. You can delay the consuming scenario to enable the producing scenario to populate some data.

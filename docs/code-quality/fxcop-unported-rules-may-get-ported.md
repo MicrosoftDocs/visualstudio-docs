@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Unported rules that may be ported
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The following FxCop legacy analysis rules haven't yet been implemented as analyzers, but still may be. This could be because of a blocking technical reason or simply that the rule is lower priority. For more information about the porting status of each rule, click the link in the **Tracking issue** column.
 
 Rule ID | Tracking issue

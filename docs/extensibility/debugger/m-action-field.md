@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # m_action field
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The delegate that represents the code to execute in the <xref:System.Threading.Tasks.Task> object.
 
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

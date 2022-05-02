@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # MarkProfile
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `MarkProfile` method inserts a profile mark in the .*vsp* file. Profiling for the thread containing the `MarkProfile` function must be ON for the mark to be inserted.
 
 ## Syntax

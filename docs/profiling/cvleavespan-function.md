@@ -17,6 +17,8 @@ ms.workload:
   - multiple
 ---
 # CvLeaveSpan function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Marks the end of span.
 
 ## Syntax

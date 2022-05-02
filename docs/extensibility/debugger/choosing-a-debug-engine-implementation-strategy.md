@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Choose a debug engine implementation strategy
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Use the run-time architecture to determine your debug engine (DE) implementation strategy. You can create the debug engine in-process to the program you're debugging. Create the debug engine in-process to the Visual Studio session debug manager (SDM). Or, create the debug engine out-of-process to both of them. The following guidelines should help you choose among these three strategies.
 
 ## Guidelines

@@ -20,6 +20,8 @@ ms.workload:
   - "multiple"
 ---
 # Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Stepping into a Web application or XML Web service failed because the IIS lockdown tool has been run and URLScan has been installed and activated. This condition blocks IIS from receiving the DEBUG verb.
 
  URLScan is a security tool that works in conjunction with the IIS Lockdown Tool to give IIS Web site administrators the ability to turn off unnecessary features and restrict the type of HTTP requests that the server will process. By blocking specific HTTP requests, the URLScan security tool prevents potentially harmful requests from reaching the server and causing damage.

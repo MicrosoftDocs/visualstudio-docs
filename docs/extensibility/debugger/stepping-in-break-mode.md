@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Stepping in break mode
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following section describes the process that occurs when the debugger is in break mode and must step through code:
 
 ## Stepping process

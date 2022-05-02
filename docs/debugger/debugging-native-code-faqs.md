@@ -25,6 +25,8 @@ ms.workload:
   - "cplusplus"
 ---
 # Debugging Native Code FAQs
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following topics contain answers to some frequently asked questions:
 
 - [How Can I Debug Access Violations When Running My Program Standalone?](../debugger/how-can-i-debug-access-violations-when-running-my-program-outside-the-debugger-q.md)

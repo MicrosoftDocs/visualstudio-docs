@@ -22,6 +22,8 @@ ms.workload:
   - multiple
 ---
 # How to: Install a Visualizer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 After you have created a visualizer, you must install the visualizer so that it will be available in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Installing a visualizer is a simple process.
 
 > [!NOTE]

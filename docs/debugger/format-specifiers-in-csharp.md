@@ -30,6 +30,8 @@ ms.workload:
   - "dotnet"
 ---
 # Format specifiers in C# in the Visual Studio debugger
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can change the format in which a value is displayed in the **Watch** window by using format specifiers. You can also use format specifiers in the **Immediate** window, the **Command** window, in [tracepoints](../debugger/using-breakpoints.md#BKMK_Print_to_the_Output_window_with_tracepoints), and in source windows. If you pause on an expression in those windows, the result will appear in a  [DataTip](../debugger/view-data-values-in-data-tips-in-the-code-editor.md) in the specified format display.
 
 To use a format specifier, enter the variable expression followed by a comma and the appropriate specifier.

@@ -15,6 +15,8 @@ ms.workload:
 ---
 # package.json configuration
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 If you are developing a Node.js app with a lot of npm packages, it's not uncommon to run into warnings or errors when you build your project if one or more packages has been updated. Sometimes, a version conflict results, or a package version has been deprecated. Here are a couple of quick tips to help you configure your [package.json](https://docs.npmjs.com/files/package.json) file and understand what is going on when you see warnings or errors. This is not a complete guide to *package.json* and is focused only on npm package versioning.
 
 The npm package versioning system has strict rules. The version format follows here:

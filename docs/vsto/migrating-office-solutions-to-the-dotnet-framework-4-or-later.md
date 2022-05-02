@@ -20,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # Migrate Office solutions to the .NET Framework 4 or later
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   If the target framework of an Office project is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later from an earlier version of the .NET Framework, some additional steps might be required to continue to run the solution on development and end-user computers. For more information, see [Required changes to run Office projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/required-changes-to-run-office-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md).
 
  In addition, the project might no longer compile. Some features of Office projects have different programming models for different versions of the .NET Framework. When the target framework of an Office project is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later from an earlier version of the .NET Framework, you must make the following code changes to the project:

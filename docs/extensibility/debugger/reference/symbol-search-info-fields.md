@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # SYMBOL_SEARCH_INFO_FIELDS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the kind of symbol information to retrieve.
 
 ## Syntax

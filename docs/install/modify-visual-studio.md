@@ -21,6 +21,8 @@ ms.technology: vs-installation
 ---
 # Modify Visual Studio workloads, components, and language packs
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 ::: moniker range=">=vs-2019"
 
 It's easy to modify Visual Studio so that it includes only what you want, when you want it. To do so, open the Visual Studio Installer, and then add or remove workloads, components, and language packs.

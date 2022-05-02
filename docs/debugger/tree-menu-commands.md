@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Tree Menu Commands
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Tree** menu provides commands to expand or collapse views.
 
  **Expand One Level**

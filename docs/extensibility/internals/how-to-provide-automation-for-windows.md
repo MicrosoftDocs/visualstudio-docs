@@ -17,6 +17,8 @@ ms.workload:
 ---
 # How to: Provide automation for windows
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can provide automation for document and tool windows. Providing automation is advisable whenever you want to make automation objects available on a window, and the environment does not already provide a ready-made automation object, as it does with a task list.
 
 ## Automation for tool windows

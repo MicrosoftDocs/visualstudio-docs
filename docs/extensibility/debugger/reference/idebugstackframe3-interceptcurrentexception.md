@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugStackFrame3::InterceptCurrentException
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Called by the debugger on the current stack frame when it wants to intercept the current exception.
 
 ## Syntax

@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Tutorial: Open a project from a repo
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this tutorial, you'll use Visual Studio to connect to a repository for the first time, clone it, and then open a project from it.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.

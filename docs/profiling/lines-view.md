@@ -19,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # Lines View
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Lines view is available only for profiler data that was collected by using the sampling method. The view is not available for data that was collected by using instrumentation.
 
  For sampling profile data, the Lines view identifies the statement in a function that was directly executing when the sample was collected. For .NET memory data, the Lines view identifies the statements that allocate memory.

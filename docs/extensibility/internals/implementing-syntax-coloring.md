@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Implementing Syntax Coloring
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When the language service provides syntax colorization, the parser converts a line of text into an array of colorable items and returns token types corresponding to these colorable items. The parser should return token types that belong to a list of colorable items. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] displays each colorable item in the code window according to the attributes assigned by the colorizer object to the appropriate token type.
 
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] does not specify a parser interface, and parser implementation is completely up to you. However, a default parser implementation is provided in the Visual Studio Language Package project. For managed code, the managed package framework (MPF) provides complete support for colorizing text.
