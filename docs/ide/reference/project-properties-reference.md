@@ -15,7 +15,7 @@ ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
-# Project Properties reference
+# What is the Project Designer?
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]?
 
