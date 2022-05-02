@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Registering a legacy language service 2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following sections provide lists of registry entries for the various language service options available in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
 
  In the following list of registry entries, *VS Reg Root* is equal to HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*X.Y*, where *X.Y* is the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] version number.

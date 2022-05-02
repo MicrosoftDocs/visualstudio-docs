@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Use performance rules to analyze data
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The performance warnings of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools indicate issues in a profiled application that can slow program execution. Warnings can also indicate that you might need to change collection methods to collect more useful data. Performance warnings are generated automatically in a profiling session. Warnings appear in the **Error List** window when a profiling data file is opened in Visual Studio. From the **Error List** window, you can locate the source code of the issue, and you can display detailed information about the error, such as information about how to resolve the problem. You can also disable warnings in which you are not interested.
 
 > [!NOTE]

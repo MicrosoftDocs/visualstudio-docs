@@ -19,8 +19,9 @@ ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---
-
 # Overview of Publish
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 For ASP.NET, .NET Core, and Python apps, you can use the Publish tool to deploy your applications.
 

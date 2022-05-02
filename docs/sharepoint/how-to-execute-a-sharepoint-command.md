@@ -17,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # How to: Execute a SharePoint command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   If you want to use the server object model in a SharePoint tools extension, you must create a custom *SharePoint command* to call the API. After you define the command and deploy it with your SharePoint tools extension, your extension can execute the command to call into the SharePoint server object model. To execute the command, use one of the ExecuteCommand methods of an <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> object.
 
  For more information about the purpose of SharePoint commands, see [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md).

@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_countLiveRanges
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the number of valid address ranges associated with the local symbol.
 
 ## Syntax

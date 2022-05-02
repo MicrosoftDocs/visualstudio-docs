@@ -11,8 +11,9 @@ ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
-
 # Create R projects in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 An R project (an *.rxproj* file) identifies all the source and content files associated with your project. It also contains build information for each file, maintains the information to integrate with source-control systems, and helps you organize your application into logical components. Workspace-related information such as the list of installed packages, however, is maintained separately in the workspace itself.
 

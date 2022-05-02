@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugProcessCreateEvent2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is sent when a process is launched.
 
 ## Syntax

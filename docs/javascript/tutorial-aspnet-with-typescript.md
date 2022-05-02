@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Tutorial: Create an ASP.NET Core app with TypeScript in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this tutorial for Visual Studio development ASP.NET Core and TypeScript, you create a simple web application, add some TypeScript code, and then run the app.
 
 ::: moniker range=">=vs-2022"

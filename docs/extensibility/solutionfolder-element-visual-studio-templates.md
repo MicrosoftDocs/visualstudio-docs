@@ -18,6 +18,8 @@ ms.workload:
 - vssdk
 ---
 # SolutionFolder Element (Visual Studio Templates)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Groups projects in multi-project templates.
 
  \<VSTemplate>

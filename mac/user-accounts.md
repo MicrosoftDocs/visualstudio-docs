@@ -8,8 +8,9 @@ manager: dominicn
 ms.date: 09/18/2019
 ms.assetid: 17AB4F31-4921-4B4E-8D9D-95FB84294521
 ---
-
 # User Accounts
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 Once you have downloaded and installed Visual Studio for Mac, you must sign in to activate your subscription in order to get access all features of Visual Studio for Mac.
 

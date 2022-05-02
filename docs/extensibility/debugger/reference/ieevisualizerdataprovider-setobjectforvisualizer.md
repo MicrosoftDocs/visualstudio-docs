@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IEEVisualizerDataProvider::SetObjectForVisualizer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method changes the object that the visualizer represents.
 
 ## Syntax

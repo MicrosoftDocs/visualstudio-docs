@@ -16,6 +16,8 @@ ms.workload:
 ---
 # IntelliSense completion for unimported types and extension methods
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This refactoring applies to:
 
 - C#

@@ -24,6 +24,8 @@ ms.workload:
 ---
 # Persist dynamic controls in Office documents
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Controls that are added at run time are not persisted when the document or workbook is saved and closed. The exact behavior is different for host controls and Windows Forms controls. In both cases, you can add code to your solution to re-create the controls when the user reopens the document.
 
 Controls that you add to documents at run time are called *dynamic controls*. For more information about dynamic controls, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).

@@ -17,6 +17,8 @@ ms.workload:
 ---
 # How to: Specify an application icon (Visual Basic, C#)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The `Icon` property for a project specifies the icon file (*.ico*) that will be displayed for the compiled application in **File Explorer** and in the Windows taskbar.
 
 The `Icon` property can be accessed in the **Application** pane of the **Project Designer**; it contains a list of icons that have been added to a project either as resources or as content files.

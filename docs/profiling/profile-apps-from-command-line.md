@@ -15,8 +15,9 @@ monikerRange: '>= vs-2019'
 ms.workload: 
   - "multiple"
 ---
-
 # Measure application performance from the command line
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can collect performance information about an application by using command-line tools.
 

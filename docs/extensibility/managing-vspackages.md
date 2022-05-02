@@ -18,6 +18,8 @@ ms.workload:
 - vssdk
 ---
 # Manage VSPackages
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In most cases you don't need to worry about managing VSPackages, since the project and item templates register and load the package automatically. However, in some circumstances you may need to learn a bit more in order to manage your package.
 
 ## Use the experimental instance

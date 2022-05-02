@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # Event Tracing for Windows (ETW) report
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Event Tracing for Windows (ETW) report lists the ETW events that were recorded in a performance session of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools. ETW data is collected in a binary (.*etl*) file.
 
 > [!NOTE]

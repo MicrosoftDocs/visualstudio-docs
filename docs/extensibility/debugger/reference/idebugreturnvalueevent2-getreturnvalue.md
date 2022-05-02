@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugReturnValueEvent2::GetReturnValue
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the value returned on stepping out of or over a function.
 
 ## Syntax

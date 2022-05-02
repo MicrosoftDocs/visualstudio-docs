@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Error: User Could Not Execute Stored Procedure sp_enable_sql_debug
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Stored Procedure sp_enable_sql_debug could not execute on the server. This can be caused by:
 
 - A connection problem. You need to have a stable connection to the server.

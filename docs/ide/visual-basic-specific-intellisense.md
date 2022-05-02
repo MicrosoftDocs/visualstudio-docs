@@ -18,6 +18,8 @@ ms.workload:
 ---
 # IntelliSense for Visual Basic code files
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Visual Basic source code editor offers the following IntelliSense features:
 
 ## Syntax tips

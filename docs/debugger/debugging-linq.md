@@ -24,6 +24,8 @@ ms.workload:
   - "multiple"
 ---
 # Debugging LINQ
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] supports the debugging of language integrated query (LINQ) code, with some limitations. Most debugging features work with LINQ statements, including stepping, setting breakpoints, and viewing results in debugger windows. This topic describes the major limitations of LINQ debugging.
 
 ## <a name="BKMK_ViewingLINQResults"></a> Viewing LINQ Results

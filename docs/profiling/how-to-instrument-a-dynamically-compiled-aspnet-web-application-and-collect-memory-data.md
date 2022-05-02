@@ -14,6 +14,8 @@ ms.workload:
   - aspnet
 ---
 # How to: Instrument a dynamically compiled ASP.NET web application and collect memory data by using the profiler command line
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to collect detailed .NET memory allocation and object lifetime data for a dynamically compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application by using the instrumentation profiling method.
 
 > [!NOTE]

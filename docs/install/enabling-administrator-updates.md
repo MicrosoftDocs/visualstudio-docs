@@ -15,6 +15,8 @@ ms.technology: vs-installation
 ---
 # Enabling administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Microsoft Endpoint Configuration Manager (SCCM) can manage Visual Studio administrator updates by using the Software Update management workflow. For documentation simplicity, the content below will refer to the Visual Studio 2017, Visual Studio 2019 and Visual Studio 2022 products collectively as "Visual Studio".
 
 When Microsoft publishes a new Visual Studio update to the Content Delivery Network (CDN), Microsoft will simultaneously publish a corresponding administrator update package to the Microsoft Update servers. This will then enable an administrator to distribute the Visual Studio update via the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Home.aspx) (MUC) or [Windows Server Update Services](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) (WSUS). Configuration Manager can be set up to synchronize the Visual Studio administrator updates from the WSUS catalog into the site server, and then, it can download the update and distribute it to Visual Studio client machines across the organization. Refer to the Visual Studio Release Notes for more information about which fixes are present in each release of Visual Studio.

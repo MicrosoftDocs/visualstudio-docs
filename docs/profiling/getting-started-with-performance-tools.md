@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Getting started with performance tools
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio offers several ways to collect, view, and analyze code performance data. In many cases, the best way to get started with performance tools is to use the default settings of the **Performance Wizard**. The wizard collects app statistics that can point to performance issues in your code.
 
 - Performance warnings that notify you of common coding issues appear in the Visual Studio **Error List** window. You can navigate from the warnings to your source code, and to detailed help topics that help you write more efficient code.

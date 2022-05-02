@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Exception handling (Visual Studio SDK)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following describes the process that occurs when exceptions are thrown.
 
 ## Exception handling process

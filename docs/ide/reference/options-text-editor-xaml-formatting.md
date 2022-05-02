@@ -35,6 +35,8 @@ ms.workload:
 ---
 # Options, Text Editor, XAML, Formatting
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Use the **Formatting** property page to specify how elements and attributes are formatted in your XAML documents. To open the **Options** dialog box, click the **Tools** menu and then click **Options**. To access the **Formatting** property page, expand the **Text Editor** > **XAML** > **Formatting** node.
 
 ## Auto-Formatting Events

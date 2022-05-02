@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # GETHOSTNAME_TYPE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the type of host name.
 
 ## Syntax

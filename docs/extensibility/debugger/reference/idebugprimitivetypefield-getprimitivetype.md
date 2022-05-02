@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPrimitiveTypeField::GetPrimitiveType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the primitive type that is associated with this field.
 
 ## Syntax

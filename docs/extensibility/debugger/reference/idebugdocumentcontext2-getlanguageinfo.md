@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentContext2::GetLanguageInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the language associated with this document context.
 
 ## Syntax

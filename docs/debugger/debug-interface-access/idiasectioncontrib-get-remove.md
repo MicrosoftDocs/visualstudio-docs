@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSectionContrib::get_remove
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that indicates whether the section is removed before it is made part of the in-memory image.
 
 ## Syntax

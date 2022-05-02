@@ -21,6 +21,8 @@ ms.workload:
   - multiple
 ---
 # VSPerfMon
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can use VSPerfMon tool to collect performance data for an application; typically this tool is launched by *VSPerfCmd.exe*. VSPerfMon displays additional information about process attach or detach which is not available by using the VSPerfCmd tool. To view this information, start VSPerfMon in a separate window. To invoke VSPerfMon use the following syntax:
 
 ```cmd

@@ -23,6 +23,8 @@ ms.workload:
 ---
 # View threads and tasks in the Parallel Stacks window (C#, Visual Basic, C++)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The **Parallel Stacks** window is useful for debugging multithreaded applications. It has several views:
 
 - [Threads view](#threads-view) shows call stack information for all threads in the app. You can navigate between threads and stack frames on those threads.

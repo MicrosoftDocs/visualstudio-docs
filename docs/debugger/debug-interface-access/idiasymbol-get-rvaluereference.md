@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_RValueReference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that specifies whether a pointer type is an rvalue reference. Use when the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) is set to a pointer type.
 
 ## Syntax

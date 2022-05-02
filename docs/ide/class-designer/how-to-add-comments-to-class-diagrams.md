@@ -20,6 +20,8 @@ ms.workload:
 ---
 # How to: Add comments to class diagrams
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can use comment shapes to annotate class diagrams. A comment shape has one property, **Text**, into which you can type text. Comment shapes exist only on the diagram surface and not in code.
 
 A comment resides on the class diagram view in **Class Designer**. If you open a second class diagram onto the same project, comments you created in the first view are not visible. If you delete a diagram, all the comments it contained are also deleted.

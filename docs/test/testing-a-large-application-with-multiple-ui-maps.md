@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Test a large application with multiple UI Maps
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This topic discusses how to use coded UI tests when you are testing a large application by using multiple UI Maps.
 
 [!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]

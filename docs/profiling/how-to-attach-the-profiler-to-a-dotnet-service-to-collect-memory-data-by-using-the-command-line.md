@@ -14,6 +14,8 @@ ms.workload:
   - dotnet
 ---
 # How to: Attach the profiler to a .NET Framework service to collect memory data by using the command line
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a .NET Framework service and collect memory data. You can collect data about the number and size of memory allocations, and you can also collect data about the lifetime of memory objects.
 
 > [!NOTE]

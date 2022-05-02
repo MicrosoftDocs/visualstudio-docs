@@ -18,6 +18,8 @@ ms.workload:
 - multiple
 ---
 # Quick Watch Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Displays the selected or specified text in the Expression field of the [QuickWatch](../../debugger/watch-and-quickwatch-windows.md) window. You can use this dialog box to calculate the current value of a variable or expression recognized by the debugger, or the contents of a register. In addition, you can change the value of any non-const variable or the contents of any register.
 
 ## Syntax

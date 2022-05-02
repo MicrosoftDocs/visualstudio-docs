@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugCustomAttributeQuery::GetCustomAttributeByName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a custom attribute given its name.
 
 ## Syntax

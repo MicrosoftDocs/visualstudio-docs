@@ -16,6 +16,8 @@ monikerRange: vs-2017
 ---
 # How to: Migrate extensibility projects to Visual Studio 2017
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This document explains how to upgrade extensibility projects to Visual Studio 2017. In addition to describing how to update the project files, it also describes how to upgrade from extension manifest version 2 (VSIX v2) to the new version 3 VSIX manifest format (VSIX v3).
 
 ## Install Visual Studio 2017 with required workloads

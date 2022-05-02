@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentTextEvents2::onUpdateDocumentAttributes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Notifies receiver of the event that the document attributes have been updated.
 
 ## Syntax

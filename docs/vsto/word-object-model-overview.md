@@ -22,6 +22,8 @@ ms.workload:
   - "office"
 ---
 # Word object model overview
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you develop Word solutions in Visual Studio, you interact with the Word object model. This object model consists of classes and interfaces that are provided in the primary interop assembly for Word, and are defined in the <xref:Microsoft.Office.Interop.Word> namespace.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]

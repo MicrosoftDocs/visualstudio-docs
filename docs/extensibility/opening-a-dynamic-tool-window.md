@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Open a dynamic tool window
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Tool windows are typically opened from a command on a menu, or an equivalent keyboard shortcut. At times, however, you might need a tool window that opens whenever a specific UI context applies, and closes when the UI context no longer applies. These types of tool windows are called *dynamic* or *auto-visible*.
 
 > [!NOTE]

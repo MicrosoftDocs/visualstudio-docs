@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # How to: Update a Visual Studio extension
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can update a Visual Studio extension on your system by using **Extensions and Updates** to install the updated version. If you create an updated version of an extension, you can signify it as updated by incrementing the version number in the VSIX manifest.
 
  Updates are installed when the VSIX manifest of the incoming extension has the same `ID` as the installed one and a higher `Version` number. If the `Version` number is the same or lower, the package cannot be installed. If the `ID` values do not match, the package that is not yet installed is recognized as a separate extension.

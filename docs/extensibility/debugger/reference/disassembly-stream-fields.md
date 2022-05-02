@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # DISASSEMBLY_STREAM_FIELDS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies what information to retrieve about a disassembly field.
 
 ## Syntax

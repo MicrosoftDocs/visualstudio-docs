@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Understand memory allocation and object lifetime data values
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The *.NET memory allocation* profiling method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools collects information about the size and number of objects that were created in an allocation or destroyed in a garbage collection and additional information about the function *call stack* when the event occurred. A *call stack* is a dynamic structure that stores information about the functions that are executing on the processor.
 
 The memory profiler interrupts the computer processor at each allocation of a .NET Framework object in a profiled application. When object lifetime data is also collected, the profiler interrupts the processor after each .NET Framework garbage collection. The data is aggregated for each profiled function and for each type of object.

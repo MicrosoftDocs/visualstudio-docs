@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugBinder3::GetMemoryContext64
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Converts either an object location or a 64-bit memory address to a memory context.
 
 ## Syntax

@@ -12,8 +12,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Use IPython in the Interactive window
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio **Interactive** window in IPython mode is an advanced yet user-friendly interactive development environment that has Interactive Parallel Computing features. This article walks through using IPython in the Visual Studio **Interactive** window, in which all of the regular [Interactive window](python-interactive-repl-in-visual-studio.md) features are also available.
 

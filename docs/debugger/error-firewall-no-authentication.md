@@ -18,6 +18,8 @@ ms.workload:
   - "multiple"
 ---
 # Error: Firewall No Authentication
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Internet Connection Firewall on the remote machine is not set up to allow remote debugging. For remote debugging with `No Authentication`, msvsmon.exe must be added to the exceptions list. Opening some IPSEC ports may be necessary as well.
 
 > [!NOTE]

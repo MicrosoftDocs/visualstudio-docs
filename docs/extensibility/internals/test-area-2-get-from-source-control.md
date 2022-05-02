@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Test Area 2: Get From Source Control
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This test area covers test cases for retrieving items from the version store via the Get command. These test cases can be applied to both local and to Web projects.
 
 ## Command Menu Access

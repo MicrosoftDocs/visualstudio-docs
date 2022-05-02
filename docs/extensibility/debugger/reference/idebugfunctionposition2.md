@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugFunctionPosition2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents an abstract position of a function in a source document.
 
 ## Syntax

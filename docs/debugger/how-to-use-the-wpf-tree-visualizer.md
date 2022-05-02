@@ -21,6 +21,8 @@ ms.workload:
   - multiple
 ---
 # How to: Use the WPF Tree Visualizer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can use the WPF Tree visualizer to explore the visual tree of a WPF object, and to view the WPF dependency properties for the objects that are contained in that tree. For more information about visual trees, see [Trees in WPF](/dotnet/framework/wpf/advanced/trees-in-wpf). For more information about dependency properties, see [Dependency Properties Overview](/dotnet/framework/wpf/advanced/dependency-properties-overview).
 
  When you open the WPF Tree visualizer, you will see two panes: the **Visual Tree** on the left and the **Properties of** _Name_**:**_Type_ pane on the right. Select any object in the **Visual Tree** pane, and the **Properties of** _Name_**:**_Type_ pane is automatically updated to show the properties for that object.

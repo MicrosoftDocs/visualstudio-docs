@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugBreakpointResolution2::GetBreakpointType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the type of the breakpoint represented by this resolution.
 
 ## Syntax

@@ -15,6 +15,8 @@ ms.workload:
 - multiple
 ---
 # Debugging a T4 Text Template
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can set breakpoints in text templates. To debug a design-time text template, save the text template file, and then choose **Debug T4 Template** on the shortcut menu of the file in Solution Explorer. To debug a run-time text template, simply debug the application to which it belongs.
 
  To debug a text template, you should understand the steps of the template transformation process. Different kinds of errors can occur within each step. The steps are as follows.

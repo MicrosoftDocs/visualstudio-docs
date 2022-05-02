@@ -14,6 +14,8 @@ ms.workload:
 - multiple
 ---
 # Security of Text Templates
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Text templates have the following security concerns:
 
 - Text templates are vulnerable to arbitrary code insertions.

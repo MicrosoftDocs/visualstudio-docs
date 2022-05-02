@@ -11,8 +11,9 @@ ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
-
 # Frequently asked questions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Visual Studio support
 
