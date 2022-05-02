@@ -4,7 +4,7 @@ description: This document covers the .NET Core Versions support in Visual Studi
 author: jmatthiesen
 ms.author: jomatthi
 manager: dominicn
-ms.date: 03/16/2022
+ms.date: 05/02/2022
 ms.custom: devdivchpfy22
 ms.assetid: 8B8CEBE8-00DA-4AD1-8193-77F58B57F244
 ---

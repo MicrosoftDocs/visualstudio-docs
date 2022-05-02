@@ -4,7 +4,7 @@ description: "This article describes how to get started with ASP.NET in Visual S
 author: jmatthiesen
 ms.author: jomatthi
 manager: dominicn
-ms.date: 03/16/2022
+ms.date: 05/02/2022
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 ms.custom: video, devdivchpfy22
 no-loc: [Blazor, "Blazor WebAssembly"]

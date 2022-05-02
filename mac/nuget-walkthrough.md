@@ -4,7 +4,7 @@ description: This document covers how to include a NuGet package in a project us
 author: jmatthiesen
 ms.author: jomatthi
 manager: dominicn
-ms.date: 03/16/2022
+ms.date: 05/02/2022
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ms.custom: conceptual, devdivchpfy22
 ---
