@@ -21,6 +21,8 @@ ms.workload:
 ---
 # Automatic feature suspension
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 If your available system memory falls to 200 MB or less, Visual Studio displays the following message in the code editor:
 
 ![Alert text suspending full solution analysis](../code-quality/media/fsa_alert.png)

@@ -16,6 +16,8 @@ ms.workload:
 - multiple
 ---
 # Overview of the Domain-Specific Language Tools User Interface
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you first open a Domain-Specific Language Tools (DSL Tools) solution in Visual Studio, the user interface will resemble the following picture.
 
  ![dsl designer](../modeling/media/dsl_designer.png)

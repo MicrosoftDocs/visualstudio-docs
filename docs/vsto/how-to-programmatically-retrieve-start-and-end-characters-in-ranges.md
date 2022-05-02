@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically retrieve start and end characters in ranges
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example demonstrates how you can retrieve the character positions of the start and end positions of a range.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]

@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Texture nodes
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In the Shader Designer, texture nodes sample various texture types and geometries, and produce or transform texture coordinates. Textures provide color and lighting detail on objects.
 
 ## Texture node reference

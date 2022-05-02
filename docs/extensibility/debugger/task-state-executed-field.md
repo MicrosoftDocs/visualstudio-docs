@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # TASK_STATE_EXECUTED field
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The task is running but has not yet completed.
 
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

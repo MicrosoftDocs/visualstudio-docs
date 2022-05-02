@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Intercepting Legacy Language Service Commands
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 With [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], you can have the language service intercept commands that the text view would otherwise handle. This is useful for language-specific behavior that the text view does not manage. You can intercept these commands by adding one or more command filters to the text view from your language service.
 
 ## Getting and Routing the Command

@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugDocumentPositionOffset2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents a position in a source file as a character offset.
 
 ## Syntax

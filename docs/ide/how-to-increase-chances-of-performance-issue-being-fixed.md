@@ -9,8 +9,9 @@ ms.technology: vs-ide-general
 ms.date: 11/19/2019
 ms.topic: conceptual
 ---
-
 # How to increase the chances of a performance issue being fixed
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The "[Report a problem](./how-to-report-a-problem-with-visual-studio.md?view=vs-2019&preserve-view=true)" tool is widely used by Visual Studio users to report a range of problems. The Visual Studio team spots crash and slowness trends in user feedback and addresses issues impacting a broad swath of users. The more actionable a specific feedback ticket is, the more likely it will be diagnosed and resolved quickly by the product team. This document describes the best practices while reporting crash or slowness issues to make them more actionable.
 

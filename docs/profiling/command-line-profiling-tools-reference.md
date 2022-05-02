@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # Command-line profiling tools reference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Command-line performance tools allow programmers to profile their applications at the command prompt. The following command-line profiling tools allow you to profile code at the command prompt.
 
 ## In this section

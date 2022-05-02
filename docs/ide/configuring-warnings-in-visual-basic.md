@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Configuring warnings in Visual Basic
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler includes a set of warnings about code that may cause run-time errors. You can use that information to write cleaner, faster, better code with fewer bugs. For example, the compiler will produce a warning when the user attempts to invoke a member of an unassigned object variable, return from a function without setting the return value, or execute a `Try` block with errors in the logic to catch exceptions.
 
 Sometimes the compiler provides extra logic on the user's behalf so that the user can focus on the task at hand, rather than on anticipating possible errors. In previous versions of [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], **Option Strict** was used to limit the additional logic that the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler provides. Configuring warnings allows you to limit this logic in a more granular way, at the level of the individual warnings.

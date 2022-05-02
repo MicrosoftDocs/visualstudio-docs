@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugGenericFieldDefinition::GetFormalTypeParams
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the type parameters given the number of parameters.
 
 ## Syntax

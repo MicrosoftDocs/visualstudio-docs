@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Get started with debugger extensibility
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] provides the information that you need to create and customize debugger components used to debug programs from within the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] environment.
 
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging has added improvements derived from the extensive usability testing performed on previous [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debuggers. You can use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging to step through a multi-language application, or you can implement on-the-fly editing of variables while debugging applications and multi-language solutions.

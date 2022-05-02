@@ -15,6 +15,8 @@ ms.workload:
   - "office"
 ---
 # IManagedAddin::Load
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Called when a managed VSTO Add-in is loaded.
 
 ## Syntax

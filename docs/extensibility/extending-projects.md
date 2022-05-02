@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Extend projects
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Projects and solutions are the ways Visual Studio organizes code and resource files into compilation and deployment units. You can find more information about projects in [Projects (Visual Studio SDK)](../extensibility/extending-projects.md).
 
  You can create your own project types with the Visual Studio SDK and the Managed Package Framework for Projects, which you can download at [Managed Package Framework for Projects](https://github.com/tunnelvisionlabs/MPFProj10). To understand how custom projects are implemented, see [New project generation: Under the hood, part one](../extensibility/internals/new-project-generation-under-the-hood-part-one.md) and [New project generation: Under the hood, part two](../extensibility/internals/new-project-generation-under-the-hood-part-two.md).

@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Create a SharePoint web part
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can create and customize a web part by adding a **Web Part** item to any SharePoint project and then editing the code file for the web part or by using a designer. For more information, see [How to: Create a SharePoint web part by using a designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md).
 
 ### To create a SharePoint web part

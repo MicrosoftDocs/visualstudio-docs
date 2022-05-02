@@ -20,6 +20,8 @@ ms.workload:
   - "multiple"
 ---
 # Mixed mode debugging for IA64 processes is unsupported.
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Visual Studio does not support mixed-mode debugging of managed and native code in IA64 processes. This means that you cannot step from managed code to native code, or from native code to managed code, while debugging.
 
 ### Workarounds

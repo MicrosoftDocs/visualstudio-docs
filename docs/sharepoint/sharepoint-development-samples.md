@@ -17,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # SharePoint development samples
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can use Visual Studio to download and install samples of SharePoint applications from the [MSDN Code Gallery](https://code.msdn.microsoft.com/).
 
  You can download each sample individually. You can also download a Sample Pack, which has related samples that share a technology or article. You'll receive a notification when source code changes are published for any sample that you download.

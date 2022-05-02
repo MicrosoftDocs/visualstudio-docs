@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugModule3::SetJustMyCodeState
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Marks the module as being user code or not.
 
 ## Syntax

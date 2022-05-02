@@ -13,6 +13,8 @@ ms.workload:
   - "aspnet"
 ---
 # Profile ASP.NET load tests
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can collect profiling data from automated [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)] web tests that you run on ASP.NET Web sites projects. You can collect sampling and tier interaction data. For more information, see the following topics:
 
 - [(NIB) How to: Run a Performance Session on a Web Application from the Web Performance Test Editor](/previous-versions/ff356203(v=vs.100))

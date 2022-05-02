@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Test Area 4: Check In
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This source-control plug-in test area covers sending updated items to the version store via the **Check In** command.
 
 ## Command Menu Access

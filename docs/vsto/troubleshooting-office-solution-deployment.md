@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Troubleshoot Office solution deployment
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This topic contains information about how to solve common problems that you might encounter when you deploy Office solutions.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

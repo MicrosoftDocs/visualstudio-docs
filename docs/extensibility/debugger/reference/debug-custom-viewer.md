@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # DEBUG_CUSTOM_VIEWER
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A structure that identifies a custom viewer or type visualizer.
 
 ## Syntax

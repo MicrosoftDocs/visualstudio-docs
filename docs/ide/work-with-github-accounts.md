@@ -14,6 +14,8 @@ monikerRange: ">=vs-2019"
 ---
 # Work with GitHub accounts in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 If you have a public GitHub or GitHub Enterprise account, you can add it to your Visual Studio keychain. After you add your account, you'll be able to take advantage of the platform integration by accessing and creating GitHub repositories, right from Visual Studio.
 
 ## Adding public GitHub accounts
@@ -69,7 +71,7 @@ By default, Visual Studio only has public GitHub accounts enabled.
 
 1. To enable GitHub enterprise accounts, go to **Tools** > **Options** and search for the **Accounts** options.
 
-    :::image type="content" source="../ide/media/vs-2022/add-github-enterprise-account.png" alt-text="Screenshot of Github Account.":::
+    :::image type="content" source="../ide/media/vs-2022/add-github-enterprise-account.png" alt-text="Screenshot of GitHub Account.":::
 
 1. Then, check the box to **Include GitHub Enterprise Server accounts**. The next time you go to your **Account Settings** and try to add a GitHub account, you'll see options for both GitHub and GitHub Enterprise.
 
@@ -78,5 +80,4 @@ By default, Visual Studio only has public GitHub accounts enabled.
 1. After you enter your GitHub Enterprise server address, select **Sign in with your browser**. There, you can sign in using your GitHub Enterprise credentials.
 
 ## See also
-- [Work with multiple user accounts](work-with-multiple-user-accounts.md)
 - [Sign in to Visual Studio](signing-in-to-visual-studio.md)

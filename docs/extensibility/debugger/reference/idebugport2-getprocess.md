@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPort2::GetProcess
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the specified process running on a port.
 
 ## Syntax

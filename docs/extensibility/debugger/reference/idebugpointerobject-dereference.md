@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPointerObject::Dereference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the object pointed to.
 
 ## Syntax

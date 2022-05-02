@@ -12,6 +12,8 @@ ms.custom: cookbook
 ---
 # Adding menus & commands to Visual Studio extensions
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This article walks you through the steps to add menus and commands to your Visual Studio extension. Commands are most often used as buttons in menus around Visual Studio. To create a command requires two steps:
 
 1. Define the command

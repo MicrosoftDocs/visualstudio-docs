@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugEngineProgram2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface provides multi-threaded debugging support.
 
 ## Syntax

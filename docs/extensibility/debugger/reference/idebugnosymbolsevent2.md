@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugNoSymbolsEvent2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Signals the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] debugger UI to warn the user that symbols could not be located for the launched executable.
 
 ## Syntax

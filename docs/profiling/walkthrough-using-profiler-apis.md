@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Walkthrough: Using profiler APIs
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The walkthrough uses a C# application to demonstrate how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools APIs. You will use the profiler APIs to limit the amount of data that is collected during instrumentation profiling.
 
  The steps in this walkthrough generally apply to a C/C++ application. For each language, you will have to configure your build environment appropriately.

@@ -17,6 +17,8 @@ ms.technology: vs-ide-test
 ---
 # How to: Specify timeout periods for test controllers and test agents
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Both the test controller and the test agent have several timeout settings that specify how long they should wait for responses from one another, or from a data source before failing with an error. Under certain circumstances, it might be necessary to edit the timeout values to meet the needs of your topology or other environment issues. To edit the timeout values, edit the XML configuration file that is associated with either the test controller or test agent, as covered in the following procedures.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
