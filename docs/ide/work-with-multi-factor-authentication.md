@@ -13,8 +13,14 @@ ms.workload:
 - multiple
 monikerRange: ">=vs-2019"
 ---
+<<<<<<< HEAD
 
 # Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+=======
+# Work with accounts that require multi-factor authentication (MFA)
+>>>>>>> e9e2e3ec681db9f155dbcc8ec4cfe5eb2083ae75
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
