@@ -19,11 +19,11 @@ For more detailed info, see [Use multiple environments in ASP.NET Core](/aspnet/
 
 You can directly edit the _launchSettings.json_ file in Visual Studio for Mac, or you can use project options to edit it. To get to the project options, right-click your project and select **Options**.
 
-![Project shortcut menu with "Options" selected](media/vsmac-ctx-proj-options.png)
+![Project shortcut menu with "Options" selected to update the start configuration by using Visual Studio for Mac.](media/vsmac-ctx-proj-options.png)
 
 Select **Run** > **Configurations** > **Default**.
 
-!["Run," "Configurations," and "Default" in project options](media/vsmac-run-config-default.png)
+!["Run," "Configurations," and "Default" in project options to update the start configuration by using Visual Studio for Mac.](media/vsmac-run-config-default.png)
 
 Primarily, you'll configure two things here:
 
@@ -38,6 +38,6 @@ You can use the grid to specify values for environment variables. These environm
 
 To configure the URL that the application will be started with, go to the **ASP.NET Core** tab.
 
-![Application URL in project options](media/vsmac-run-config-default-aspnetcore.png)
+![Application URL in project options to configure the URL that the application will be started with.](media/vsmac-run-config-default-aspnetcore.png)
 
 Here you can specify the URL that the application will listen on when it's started.

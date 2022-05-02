@@ -23,7 +23,7 @@ ms.topic: how-to
 
 Open Visual Studio for Mac. On the Start Screen, select **New Project...**
 
-![New Project Dialog](media/asp-net-core-2019-new-asp-core.png)
+![This screenshot shows the New Project Dialog while creating an ASP.NET Core app in Visual Studio for Mac ](media/asp-net-core-2019-new-asp-core.png)
 
 The **New Project** dialog is shown. It lets you select a template to create your application.
 
@@ -36,15 +36,15 @@ There are many projects that'll provide you with a pre-built template to start b
 - **.NET Core > Blazor Server App**
 - **.NET Core > Blazor WebAssembly App**
 
-![ASP.NET Project Options](media/asp-net-core-2019-new-asp-core.png)
+![This screenshot shows the ASP.NET Project Options while creating an ASP.NET Core app in Visual Studio for Mac](media/asp-net-core-2019-new-asp-core.png)
 
 Select the **ASP.NET Core Empty Web Application** and select **Next**. Give the Project a name and select **Create**. This creates a new ASP.NET Core app. In the **Solution** window's left pane, expand the second arrow and then select **Startup.cs**. It should look similar to the following image:
 
-![New ASP.NET Core Empty Project view](media/asp-net-core-2019-empty-project.png)
+:::image type="content" source="media/asp-net-core-2019-empty-project.png" alt-text="This screenshot shows new ASP.NET Core Empty Project view while creating an ASP.NET Core app." lightbox="media/asp-net-core-2019-empty-project.png":::
 
 The ASP.NET Core Empty template creates a web application with two default files: **Program.cs** and **Startup.cs**, that are explained here. It also creates a **Dependencies** folder, which contains your project's NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
 
-![Solution window displaying dependencies](media/asp-net-core-2019-solution-dependencies.png)
+![This is a screenshot of Solution window displaying dependencies](media/asp-net-core-2019-solution-dependencies.png)
 
 ### Program.cs
 
@@ -66,13 +66,13 @@ Open and inspect the **Program.cs** file in your project. Notice that several th
 
 An ASP.NET Core app creates a web server in its main method by configuring and launching a host via an instance of [`WebHostBuilder`](/aspnet/core/fundamentals/hosting). This builder provides methods to configure the host. In the template app, the following configurations are used:
 
-* `.UseStartup<Startup>()`: Specifies the Startup class.
+- `.UseStartup<Startup>()`: Specifies the Startup class.
 
 However, you can also add additional configurations, such as:
 
-* `UseKestrel`: Specifies the Kestrel server will be used by the app
-* `UseContentRoot(Directory.GetCurrentDirectory())`: Uses the web project's root folder as the app's content root when the app is started from this folder
-* `.UseIISIntegration()`: Specifies that the app should work with IIS. To use IIS with ASP.NET Core both `UseKestrel` and `UseIISIntegration` need to be specified.
+- `UseKestrel`: Specifies the Kestrel server will be used by the app
+- `UseContentRoot(Directory.GetCurrentDirectory())`: Uses the web project's root folder as the app's content root when the app is started from this folder
+- `.UseIISIntegration()`: Specifies that the app should work with IIS. To use IIS with ASP.NET Core both `UseKestrel` and `UseIISIntegration` need to be specified.
 
 ### Startup.cs
 
@@ -120,15 +120,15 @@ The `Configure` method of the pre-built template is built to do a few things. Fi
 
 This simple Hello, World project can run now without any additional code being added. To run the app, you can either select which browser you want to run app the app in using the dropdown right of the **Play** button. Or, you can hit the **Play** (triangular) button to use your default browser:
 
-![Browser Run](media/asp-net-web-picker.png)
+![Browser Run where you can either select which browser you want to run app the app in using the dropdown right of the Play button. Or, you can hit the Play (triangular) button to use your default browser.](media/asp-net-web-picker.png)
 
 Visual Studio for Mac uses a random port to launch your web project. To find out what port this is, open the Application Output, which is listed under the **View > Other Windows** menu. You should find output similar as the following:
 
-![Application Output displaying listening port](media/asp-net-core-image6.png)
+![This is an illustration of the Application Output displaying listening port.](media/asp-net-core-image6.png)
 
 Once the project is running, your default web browser should launch and connect to the URL listed in the Application Output. Alternatively, you can open any browser of your choice, and enter `http://localhost:5000/`, replacing the `5000` with the port that Visual Studio output in the Application Output. You should see the text `Hello World!`:
 
-![browser showing text](media/asp-net-core-image7.png)
+![This is a screenshot of a browser showing text.](media/asp-net-core-image7.png)
 
 ## Adding a Controller
 
@@ -144,7 +144,7 @@ To add a controller, follow these steps:
 
 1. Right-click on the **Project** name and select **Add > New Files**. Select **General > Empty Class**, and enter a controller name:
 
-    ![New File dialog](media/asp-net-core-image8.png)
+    ![This is a screenshot of a New File dialog while adding a controller.](media/asp-net-core-image8.png)
 
 2. Add the following code to the new controller:
 
@@ -173,7 +173,7 @@ To add a controller, follow these steps:
 
 4. Use the Search box to browse the NuGet library for `Microsoft.AspNetCore.Mvc`, and select **Add Package**. It may take a few minutes to install and you may be prompted to accept various licenses for the required dependencies:
 
-    ![Add Nuget](media/asp-net-core-image9.png)
+    ![This is a screenshot of Add Nuget while adding a controller.](media/asp-net-core-image9.png)
 
 5. In the Startup class, remove the `app.Run` lambda and set the URL routing logic used by MVC to determine which code it should invoke to the following:
 
@@ -216,11 +216,11 @@ To add a controller, follow these steps:
 
 8. If you run the app now, it should automatically open your browser:
 
-    ![Running app in browser](media/asp-net-core-image13.png)
+    ![Screenshot of running app in browser while adding a controller.](media/asp-net-core-image13.png)
 
 9. Try to browse to `http://localhost:xxxx/HelloWorld/Xamarin?name=Amy` (replacing `xxxx` with the correct port), you should see the following page:
 
-    ![Running app in browser with arguments](media/asp-net-core-image10.png)
+    ![Screenshot of running app in browser with arguments while adding a controller.](media/asp-net-core-image10.png)
 
 ## Troubleshooting
 
@@ -236,10 +236,11 @@ Make sure to complete all steps successfully to ensure that .NET Core is install
 
 This guide gave an introduction to ASP.NET Core. It describes what it is, when to use it, and provided information on using it in Visual Studio for Mac.
 For more information on the next steps from here, see the following guides:
+
 - [ASP.NET Core](/aspnet/core/) docs.
 - [Create Backend Services for Native Mobile Applications](/aspnet/core/mobile/native-mobile-backend), which shows how to build a REST service using ASP.NET Core for a Xamarin.Forms app.
 - [ASP.NET Core hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Web/Getting-Started).
 
 ## Related Video
 
-> [!Video https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Build-Your-First-App/player]
+> [!Video <https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Build-Your-First-App/player>]
