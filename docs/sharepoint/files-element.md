@@ -17,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # Files element
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Specifies the files to deploy with the SharePoint project item, such as Feature element files and the output of dependent non-SharePoint projects.
 
 ## Syntax

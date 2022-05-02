@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Data class inheritance (O/R Designer)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Like other objects, LINQ to SQL classes can use inheritance and be derived from other classes. In code, you can specify inheritance relationships between objects by declaring that one class inherits from another. In a database, inheritance relationships are created in several ways. The **Object Relational Designer** (**O/R Designer**) supports the concept of single-table inheritance as it is often implemented in relational systems.
 
 In single-table inheritance, there is a single database table that contains columns for both base and derived classes. With relational data, a discriminator column contains the value that determines which class any given record belongs to. For example, consider a `Persons` table that contains everyone employed by a company. Some people are employees and some people are managers. The `Persons` table contains a column named `Type` that has a value of 1 for managers and a value of 2 for employees. The `Type` column is the discriminator column. In this scenario, you can create a subclass of employees and populate the class with only records that have a `Type` value of 2.

@@ -28,6 +28,8 @@ ms.workload:
 ---
 # Security, versioning, and manifest issues in ClickOnce deployments
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 There are a variety of issues with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] security, application versioning, and manifest syntax and semantics that can cause a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment not to succeed.
 
 ## ClickOnce and Windows Vista User Account Control

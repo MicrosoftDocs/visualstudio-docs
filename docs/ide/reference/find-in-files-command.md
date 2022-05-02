@@ -19,6 +19,8 @@ ms.workload:
 monikerRange: "<=vs-2019"
 ---
 # Find in Files Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Search files using a subset of the options available on the **Find in Files** tab of the **Find and Replace** window.
 
 > [!IMPORTANT]

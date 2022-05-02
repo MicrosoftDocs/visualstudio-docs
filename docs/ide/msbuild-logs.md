@@ -18,8 +18,9 @@ ms.workload:
   - "multiple"
 ms.description: "Generate build logs for msbuild projects to collect helpful information when troubleshooting issues."
 ---
-
 # Troubleshoot and create logs for MSBuild problems
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The following procedures can help you diagnose build problems in your Visual Studio project, and, if necessary, create a log to send to Microsoft for investigation.
 

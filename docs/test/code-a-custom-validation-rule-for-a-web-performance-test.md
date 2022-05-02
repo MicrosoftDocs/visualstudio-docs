@@ -21,6 +21,8 @@ ms.technology: vs-ide-test
 ---
 # Code a custom validation rule for a web performance test
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can create your own validation rules. To do this, you derive your own rule class from a validation rule class. Validation rules derive from the <xref:Microsoft.VisualStudio.TestTools.WebTesting.ValidationRule> base class.
 
 > [!NOTE]

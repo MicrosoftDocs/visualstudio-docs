@@ -18,6 +18,8 @@ ms.workload:
 - multiple
 ---
 # Go To Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Moves the cursor to the specified line.
 
 ## Syntax

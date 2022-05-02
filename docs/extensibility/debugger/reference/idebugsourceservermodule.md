@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugSourceServerModule
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents the source server information that is contained in a PDB file.
 
 ## Syntax

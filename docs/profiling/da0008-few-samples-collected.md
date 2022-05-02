@@ -19,6 +19,8 @@ ms.workload:
 ---
 # DA0008: Few samples collected
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 |Item|Value|
 |-|-|
 |Rule Id|DA0008|

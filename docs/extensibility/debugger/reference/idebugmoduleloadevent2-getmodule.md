@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugModuleLoadEvent2::GetModule
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the module that is being loaded or unloaded.
 
 ## Syntax

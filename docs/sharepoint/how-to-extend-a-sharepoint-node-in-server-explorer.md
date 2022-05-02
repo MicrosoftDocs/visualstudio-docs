@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Extend a SharePoint node in Server Explorer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can extend nodes under the **SharePoint Connections** node in **Server Explorer**. This is useful when you want to add new child nodes, shortcut menu items, or properties to an existing node. For more information, see [Extend the SharePoint connections node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md).
 
 ### To extend a SharePoint node in Server Explorer

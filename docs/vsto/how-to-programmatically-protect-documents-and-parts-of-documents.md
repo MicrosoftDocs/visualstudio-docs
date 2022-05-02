@@ -20,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically protect documents and parts of documents
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can add protection to Microsoft Office Word documents to prevent users from making any edits to the document.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]

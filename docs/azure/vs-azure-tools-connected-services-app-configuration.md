@@ -12,6 +12,8 @@ monikerRange: ">=vs-2019"
 ---
 # Adding Azure App Configuration by using Visual Studio Connected Services
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this tutorial, you will learn how to easily add everything you need to start using Azure App Configuration to manage your configuration and feature flags for web projects in Visual Studio. By using the Connected Services feature in Visual Studio, you can have Visual Studio automatically add all the code, NuGet packages, and configuration settings you need to connect to your App Configuration resource in Azure. To use this feature, you must be using Visual Studio 2019 version 16.9 or later.
 
 You can use the App Configuration Connected Services feature in ASP.NET Core, .NET Core Console, and .NET Framework projects.

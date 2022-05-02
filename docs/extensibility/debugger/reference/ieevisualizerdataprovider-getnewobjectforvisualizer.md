@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IEEVisualizerDataProvider::GetNewObjectForVisualizer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets a new object for the visualizer. This method will always create a new object from the existing object.
 
 ## Syntax

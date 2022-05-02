@@ -10,8 +10,9 @@ ms.date: 10/18/2019
 ms.assetid: 591b21ee-8c3f-446b-9505-7d41bfc86701
 ms.topic: how-to
 ---
-
 # Tutorial: Getting started with ASP.NET Core in Visual Studio for Mac
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 This tutorial consists of two steps; installing Visual Studio for Mac and building your first ASP.NET Core web application.
 

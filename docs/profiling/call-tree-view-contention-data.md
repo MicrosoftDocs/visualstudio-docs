@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # Call Tree view - contention data
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Call Tree view displays the function execution paths that were traversed in the profiled application. The root of the tree is the entry point into the application or the component. Each function node lists all functions that it called, the number of times that the function was blocked, and the amount of time that the function was blocked because it was contending for a resource with other threads or processes.
 
  The values in the Call Tree view are for the function instances that were called by the parent function in the call tree. Percentage values are calculated by comparing the function instance value to the total number of contentions in the profiling run.

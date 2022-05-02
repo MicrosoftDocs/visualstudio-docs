@@ -18,6 +18,8 @@ ms.workload:
 ---
 # How to: View existing types in Class Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 To see an existing type and its members, add its shape to a class diagram.
 
 You can see local and referenced types. A local type exists in the currently open project and is read/write. A referenced type exists in another project or in a referenced assembly and is read-only.

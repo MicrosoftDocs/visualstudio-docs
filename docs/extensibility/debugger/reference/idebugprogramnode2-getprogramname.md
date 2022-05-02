@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramNode2::GetProgramName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name of the program.
 
 ## Syntax

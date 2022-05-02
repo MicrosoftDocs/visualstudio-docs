@@ -15,6 +15,8 @@ ms.technology: vs-ide-test
 ---
 # Edit test mix models to specify the probability of a virtual user running a test
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The *test mix model* specifies the probability of a virtual user running a given test in a load test scenario. This lets you simulate load more realistically. Instead of having just one workflow through your applications, you can have several workflows, which is a closer approximation of how end-users interact with your applications.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]

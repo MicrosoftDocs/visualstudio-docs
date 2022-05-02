@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaLoadCallback2::RestrictDBGAccess
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if looking for debug information is allowed from .dbg files.
 
 ## Syntax

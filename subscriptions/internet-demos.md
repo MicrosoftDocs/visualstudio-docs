@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 1c5ede60-cb5a-4d5f-a6a2-a1f536f6c4ad
-ms.date: 10/13/2021
+ms.date: 05/02/2022
 ms.topic: conceptual
 description:  Learn how to use product keys to support internet demonstrations via Terminal Services and enable RDS access
 ---
@@ -25,20 +25,20 @@ Five keys of each type are available for Windows Server 2008 R2, and each key wi
 4. Follow the steps in the wizard.  When you’re selecting the agreement type, choose “License Pack (retail)” and enter the product key you obtained from the MY portal.
 
 End users can connect to access applications via RDS if the following conditions are met:
-- Users must be anonymous (in a non-authenticated state).
-- Connections must be over the Internet.
-- Up to 200 concurrent user connections may be used for demonstrations of the application.
-- The product keys to enable user connections must be obtained by a Visual Studio subscriber.
++ Users must be anonymous (in a non-authenticated state).
++ Connections must be over the Internet.
++ Up to 200 concurrent user connections may be used for demonstrations of the application.
++ The product keys to enable user connections must be obtained by a Visual Studio subscriber.
 
 ## Support resources
-- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vssubscriberhelp).
+For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vssubscriberhelp).
 
 ## See also
-- [Windows Server documentation](/windows-server/)
-- [Visual Studio documentation](/visualstudio/)
-- [Azure DevOps documentation](/azure/devops/)
-- [Azure documentation](/azure/)
-- [Microsoft 365 documentation](/microsoft-365/)
++ [Windows Server documentation](/windows-server/)
++ [Visual Studio documentation](/visualstudio/)
++ [Azure DevOps documentation](/azure/devops/)
++ [Azure documentation](/azure/)
++ [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 If you need guidance for deploying RDS, check out the multi-part blog series on **Remote Desktop Services (RDS) 2012 session deployment** at https://techcommunity.microsoft.com/t5/Ask-The-Performance-Team/bg-p/AskPerf. 

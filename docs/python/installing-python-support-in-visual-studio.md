@@ -15,6 +15,8 @@ ms.workload:
 ---
 # How to install Python support in Visual Studio on Windows
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 To install Python support for Visual Studio (also known as Python Tools for Visual Studio or PTVS), follow the instructions in the section that matches your version of Visual Studio:
 :::moniker range=">=vs-2022"
 

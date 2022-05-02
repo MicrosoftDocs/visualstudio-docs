@@ -15,8 +15,9 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-code-analysis
 ---
-
 # Migrate from legacy analysis (FxCop) to source analysis (.NET analyzers)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Source analysis by .NET Compiler Platform ("Roslyn") analyzers replaces [legacy analysis](../code-quality/code-analysis-for-managed-code-overview.md) for managed code. For newer project templates such as .NET Core and .NET Standard projects, legacy analysis is not available.
 

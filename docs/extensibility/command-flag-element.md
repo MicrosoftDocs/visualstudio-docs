@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Command flag element
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Modifies its parent element.
 
 ## Syntax

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpressionEvaluator::Parse
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method converts an expression string to a parsed expression.
 
 ## Syntax

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # MACHINE_INFO_FIELDS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies what kind of information to retrieve for a particular machine.
 
 ## Syntax

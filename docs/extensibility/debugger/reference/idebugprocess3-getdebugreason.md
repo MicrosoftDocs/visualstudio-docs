@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess3::GetDebugReason
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns the reason that the process was launched for debugging.
 
 ## Syntax

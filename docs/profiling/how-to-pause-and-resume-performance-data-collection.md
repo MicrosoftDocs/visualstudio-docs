@@ -15,6 +15,8 @@ ms.workload:
   - multiple
 ---
 # How to: Pause and resume performance data collection
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 From the profiling session page window, you can control the collection of profiling data interactively.
 
  Controlling data collection enables you to reduce the size of the profile data file, and to collect data only for those operations that you are interested in. You can pause and resume profiling multiple times in a performance session.

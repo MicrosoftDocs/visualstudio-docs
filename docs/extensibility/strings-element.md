@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Strings Element
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Strings element must contain at least a **ButtonText** child element. All other child elements are optional. Invalid XML characters such as '&' and '<' must be coded as entities ('&amp;' and '&lt;' and so on).
 
  An ampersand in the text string specifies the keyboard shortcut for the command.

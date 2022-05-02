@@ -27,6 +27,8 @@ ms.workload:
   - "multiple"
 ---
 # Debug Source Files, Common Properties, Solution Property Pages Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This property page specifies where the debugger will look for source files when debugging the solution.
 
  To access the **Debug Source Files** property page, right-click on your Solution in **Solution Explorer** and select **Properties** from the shortcut menu. Expand the **Common Properties** folder, and click the **Debug Source Files** page.

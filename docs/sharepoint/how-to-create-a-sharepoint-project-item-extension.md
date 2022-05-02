@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # How to: Create a SharePoint project item extension
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Create a project item extension when you want to add functionality to a SharePoint project item that is already installed in Visual Studio. For more information, see [Extend SharePoint project items](../sharepoint/extending-sharepoint-project-items.md).
 
 ### To create a project item extension

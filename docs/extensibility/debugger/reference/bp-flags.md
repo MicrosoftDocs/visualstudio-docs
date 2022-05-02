@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # BP_FLAGS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Provides optional flags that may be used to specify additional information when setting a breakpoint.
 
 ## Syntax

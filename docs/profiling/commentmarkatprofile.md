@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # CommentMarkAtProfile
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `CommentMarkAtProfile` method inserts a timestamp value, a numeric mark, and a comment string into the *.vsp* file. The timestamp value can be used to synchronize external events. For the mark and comment to be inserted, profiling for the thread that contains the CommentMarkAtProfile function must be ON.
 
 ## Syntax

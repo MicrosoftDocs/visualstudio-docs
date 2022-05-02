@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject::IsReadOnly
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if this object is read-only.
 
 ## Syntax

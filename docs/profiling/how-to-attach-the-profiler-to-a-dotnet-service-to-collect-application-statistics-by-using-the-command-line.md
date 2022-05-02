@@ -14,6 +14,8 @@ ms.workload:
   - dotnet
 ---
 # How to: Attach the profiler to a .NET service to collect application statistics by using the command line
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a .NET Framework service and collect performance statistics by using the sampling method.
 
 > [!NOTE]

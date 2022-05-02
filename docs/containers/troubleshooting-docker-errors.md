@@ -14,6 +14,8 @@ ms.author: ghogen
 ---
 # Troubleshoot Visual Studio development with Docker
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 When you're working with Visual Studio Container Tools, you may encounter issues while building or debugging your application. Below are some common troubleshooting steps.
 
 ## Volume sharing is not enabled. Enable volume sharing in the Docker CE for Windows settings  (Linux containers only)

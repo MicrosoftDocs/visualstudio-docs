@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugDefaultPort2::GetServer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method obtains an interface to the server that this port is on.
 
 ## Syntax

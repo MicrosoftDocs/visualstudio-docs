@@ -21,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically add new worksheets to workbooks
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can programmatically create a worksheet and then add the worksheet to the collection of worksheets in the workbook.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]

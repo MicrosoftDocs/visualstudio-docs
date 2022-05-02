@@ -23,6 +23,8 @@ ms.workload:
   - "office"
 ---
 # How to: Permit code to run behind documents with restricted permissions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can use the Information Rights Management (IRM) feature of Microsoft Office to restrict permissions to a document or workbook. By default, the code behind a restricted Microsoft Office Word document or Microsoft Office Excel workbook is not permitted to run. You can change the default so that your managed code extensions can access the object model, and your solution will work.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]

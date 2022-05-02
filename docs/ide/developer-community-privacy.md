@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Developer Community data privacy
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 By default, all information in problem reports on [Developer Community](https://aka.ms/feedback/suggest?space=8), including any comments and replies, is publicly visible. This is beneficial because it allows the entire community to see the issues, solutions, and workarounds that other users have found. However, if you're concerned about the privacy of your data or identity, you have options.
 
 ## Identity privacy

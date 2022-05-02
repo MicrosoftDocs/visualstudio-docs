@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Web Projects
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A Web project system is a project system that creates Web projects. Web projects in turn create Web applications. You can program a Web page using traditional programming languages, such as [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)], to collect and process information from a user, store it in a database, and so on. Web pages with associated code are called smart Web pages.
 
 ## In This Section

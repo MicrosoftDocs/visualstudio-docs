@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # UsingNameSpace
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Some symbols might be referred to by namespace, and would subsequently be identified by a `SymTagUsingNameSpace` tag.
 
 > [!NOTE]

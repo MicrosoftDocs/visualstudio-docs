@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Considerations for unloading and reloading nested projects
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 When you implement nested project types, you must perform additional steps when you unload and reload the projects. To correctly notify listeners to solution events, you must correctly raise the `OnBeforeUnloadProject` and `OnAfterLoadProject` events.
 
 One reason to raise these events is for source code control (SCC). You don't want SCC to delete the items from the server and then add them back as *new* if there's a `Get` operation from SCC. In that case, a new file would be loaded out of SCC. You'd have to unload and reload all the files in case they're different.
