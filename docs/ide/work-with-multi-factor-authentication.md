@@ -1,7 +1,7 @@
 ---
 title: Multi-factor authentication with Visual Studio sign-ins
 titleSuffix: "" 
-ms.date: 01/25/2022
+ms.date: 04/28/2022
 ms.custom: SEO-VS-2022
 ms.topic: how-to
 description: "Learn how to use Visual Studio with accounts that require multi-factor authentication (MFA)."
@@ -13,7 +13,8 @@ ms.workload:
 - multiple
 monikerRange: ">=vs-2019"
 ---
-# Work with accounts that require multi-factor authentication (MFA)
+
+# Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -68,6 +69,16 @@ Clicking on **Re-enter your credentials** will open your system's default web br
 > [!NOTE] 
 > For the best experience, keep your browser open until all CA/MFA policies are validated for your resources. Closing the browser may result in losing the previously built MFA state, and may prompt additional authorization prompts.
 
+### Troubleshooting sign in issues
+If you're experiencing CA/MFA issues and/or are unable to log in even when using the system web browser, try the following steps to resolve the issue:
+
+1. [Sign out](signing-in-to-visual-studio.md#sign-out-of-account) of the account in Visual Studio.
+1. Select **Tools** > **Options** > **Accounts** > Uncheck **Authenticate across all Azure Active Directories**.
+1. Sign in again.
+
+> [!NOTE]
+> After these steps you'll likely be able to log in, but your account will be put in a filtered state. While in a filtered state, only your account's default tenant and resources will be available. All other Azure Active Directory tenants and resources will become inaccessible, but you can [manually add them back](#how-to-opt-out-of-using-a-specific-azure-active-directory-tenant-in-visual-studio). 
+
 ## How to opt out of using a specific Azure Active Directory tenant in Visual Studio
 
 Visual Studio 2019 version 16.6 and above offers the flexibility to filter out tenants individually or globally, effectively hiding them from Visual Studio. Filtering eliminates the need to authenticate with that tenant, but it also means that you won't be able to access any associated resources.
@@ -90,8 +101,11 @@ The **Filter account** dialog will appear, allowing you to select which tenants 
 
 :::image type="content" source="media/vs-2022/select-filter-account.png" alt-text="Select account to filter.":::
 
+After you deselect the tenant to filter, the **Account Settings** and the **Filter account** dialogs will show filtered state.
+
+:::image type="content" source="media/vs-2022/account-settings-filter-account-dialogs-tenants-filtered-out-state.png" alt-text="Screenshot showing the filtered tenant state on the Account Settings and the Filter Account dialogs":::
+
 ## See also
 
 - [Sign in to Visual Studio](signing-in-to-visual-studio.md)
 - [Sign in to Visual Studio for Mac](/visualstudio/mac/signing-in)
-- [Work with multiple user accounts](work-with-multiple-user-accounts.md)
