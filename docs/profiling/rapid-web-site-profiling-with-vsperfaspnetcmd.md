@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Rapid web site profiling with VSPerfASPNETCmd
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The **VSPerfASPNETCmd** command-line tool enables you to easily profile [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web applications. In comparison to the [VSPerfCmd](../profiling/vsperfcmd.md) command line tool, options are reduced, no environment variables have to be set, and rebooting the computer is not required. Using **VSPerfASPNETCmd** is the preferred method for profiling with the standalone profiler. For more information, see [How to: Install the stand-alone profiler](../profiling/how-to-install-the-stand-alone-profiler.md).
 
 > [!NOTE]

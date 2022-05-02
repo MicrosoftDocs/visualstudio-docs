@@ -17,6 +17,8 @@ monikerRange: ">=vs-2019"
 ---
 # What is XAML Hot Reload for WPF and UWP apps? (Visual Studio)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 With XAML Hot Reload, you can incrementally build and test XAML code for your WPF and UWP apps. You can do so with the benefit of the running app's data context, authentication state, and other real-world complexity that's hard to simulate during design-time.
 
 > [!TIP]
@@ -58,3 +60,4 @@ The following animation shows an instance of using Live Visual Tree to open some
 * [Troubleshooting XAML Hot Reload](xaml-hot-reload-troubleshooting.md)
 * [XAML Hot Reload for Xamarin.Forms](/xamarin/xamarin-forms/xaml/hot-reload)
 * [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)
+* [XAML data binding diagnostics](xaml-data-binding-diagnostics.md)

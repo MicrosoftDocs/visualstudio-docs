@@ -26,6 +26,8 @@ ms.workload:
   - multiple
 ---
 # How Can I Find Out Who Is Passing a Wrong Parameter Value?
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## Problem Description
  The wrong parameter value is being passed to one of my functions. This function is called from all over the place. How can I find out what is passing it the wrong value?
 

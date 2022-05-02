@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Buttons element
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Groups [Button](../extensibility/button-element.md) elements, which represent individual commands.
 
 ## Syntax

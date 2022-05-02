@@ -18,6 +18,8 @@ ms.workload:
 - vssdk
 ---
 # CreatePkgDef utility
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Takes a .dll file for a Visual Studio extension as a parameter and creates a *.pkgdef* file to accompany the *.dll* file. The *.pkgdef* file contains all the information that would otherwise be written to the system registry when the extension is installed.
 
 > [!NOTE]

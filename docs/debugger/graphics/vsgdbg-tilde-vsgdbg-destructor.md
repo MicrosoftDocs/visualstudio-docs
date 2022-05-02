@@ -12,6 +12,8 @@ ms.workload:
   - "multiple"
 ---
 # VsgDbg::~VsgDbg (Destructor)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Destroys an instance of the `VsgDbg` class. If graphics information is actively being recorded, the graphics log file is finalized and closed, and the resources that were used while actively capturing graphics information are released.
 
 ## Syntax

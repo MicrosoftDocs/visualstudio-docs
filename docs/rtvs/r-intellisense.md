@@ -11,8 +11,9 @@ ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
-
 # IntelliSense
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio IntelliSense displays information about functions you can call, members of objects, function arguments, and [code snippets](code-snippets-for-r.md) directly in your view as you write code. It also displays possible completions as you type, and completes when you press the **Tab** or **Enter** keys (see [Editor options](editing-r-code-in-visual-studio.md#editor-options) for the **Advanced** tab). IntelliSense is available in both the editor and the [interactive window](interactive-repl-for-r-in-visual-studio.md).
 

@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Flowchart Activity Designers
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Workflow Designer includes a number of system-provided activities that you can use when constructing your workflows. This section contains the system-provided activities used to manage flowcharts within a workflow. The following topics describe these activities and provide guidance on how to use them.
 
 ## Reference

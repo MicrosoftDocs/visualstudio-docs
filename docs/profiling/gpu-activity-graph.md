@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # GPU Activity graph
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The GPU Activity graph in the Concurrency Visualizer displays the level of DirectX activity on the system as measured by the number of DirectX engines that are in use over time.  The graph doesn't show which specific engines were used.  An engine is considered to be in use if it is processing any GPU work.
 
 ## GPU Activity graph colors

@@ -10,10 +10,13 @@ ms.technology: vs-ide-test
 ms.workload: 
   - multiple
 author: mikejo5000
+monikerRange: '<= vs-2022'
 ---
 # Use different web browsers with coded UI tests
 
-Coded UI tests can automate testing for web applications by recording your tests using Internet Explorer. You can then customize your test and play it back using either Internet Explorer or other browser types for these web applications.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+Coded UI tests can automate testing for web applications by recording your tests using Internet Explorer. You can then customize your test and play it back using either Internet Explorer or other browser types for these web applications. This article describes how to automate the tests using Selenium.
 
 [!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
 

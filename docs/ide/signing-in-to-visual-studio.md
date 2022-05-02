@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Sign in to Visual Studio on Windows 
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this article, you'll learn:
 + [The benefits to account sign in](#benefits)
 + How to [sign in](#sign-in) with an account

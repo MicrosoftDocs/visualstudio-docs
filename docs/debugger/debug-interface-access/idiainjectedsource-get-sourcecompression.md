@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaInjectedSource::get_sourceCompression
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the indicator of the source compression used.
 
 ## Syntax

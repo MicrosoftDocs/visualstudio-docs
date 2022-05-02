@@ -24,6 +24,8 @@ ms.workload:
 ---
 # Create item templates and project templates for SharePoint project items
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 When you define a custom SharePoint project item type, you can associate it with an item template or a project template. This association allows other developers to use the project item in Visual Studio. You can also create a wizard for the template.
 
 For example, Visual Studio does not include a project template or item template for adding a field to a SharePoint site. You can define a SharePoint project item type that represents a field and then construct an item template that other developers can use to add the field item to a SharePoint project. Or, you can construct a project template so that developers can create a new SharePoint project that has the field item. In both cases, you can also provide a wizard that appears when developers use your template. This wizard can collect information from developers to configure the new item or project.

@@ -38,6 +38,8 @@ ms.workload:
 ---
 # Use breakpoints in the Visual Studio debugger
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Breakpoints are one of the most important debugging techniques in your developer's toolbox. You set breakpoints wherever you want to pause debugger execution. For example, you may want to see the state of code variables or look at the call stack at a certain breakpoint.  If you are trying to resolve a warning or issue while using breakpoints, see [Troubleshoot breakpoints in the Visual Studio debugger](../debugger/troubleshooting-breakpoints.md).
 
 > [!NOTE]
@@ -60,12 +62,15 @@ For most languages including C#, breakpoint and current execution lines are auto
 
 When you debug, execution pauses at the breakpoint, before the code on that line is executed. The breakpoint symbol shows a yellow arrow.
 
-At the breakpoint in the following example, the value of `testInt` is still 1. So, the value hasn't changed since the variable was initialized (set to a value of 1) because the statement in yellow hasn't yet executed.
-
 ::: moniker range=">= vs-2022"
+At the breakpoint in the following example, the value of `testInt` is still 3. So, the value hasn't changed since the variable was initialized (set to a value of 3) because the statement in yellow hasn't yet executed.
+
 ![Breakpoint execution stopped](../debugger/media/vs-2022/breakpoint-execution.png "Breakpoint execution")
 ::: moniker-end
+
 ::: moniker range="<= vs-2019"
+At the breakpoint in the following example, the value of `testInt` is still 1. So, the value hasn't changed since the variable was initialized (set to a value of 1) because the statement in yellow hasn't yet executed.
+
 ![Breakpoint execution stopped](../debugger/media/breakpointexecution.png "Breakpoint execution")
 ::: moniker-end
 

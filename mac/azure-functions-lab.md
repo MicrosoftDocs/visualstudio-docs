@@ -9,8 +9,9 @@ ms.technology: vs-ide-install
 ms.assetid: 38FD2070-5151-482E-B0A9-993715128736
 ms.topic: how-to
 ---
-
 # Tutorial: Getting started with Azure Functions & Visual Studio for Mac
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 In this lab, you'll learn how to get started building Azure Functions using Visual Studio for Mac. You'll also integrate with Azure storage tables, which represent one of the many kinds of bindings and triggers available to Azure Functions developers.
 

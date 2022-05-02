@@ -114,6 +114,8 @@ ms.author: mikejo
 ---
 # Oops! No `F1` help match was found
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 ## Now what?
 
 We're sorry! It looks like we couldn't find what you were looking for. 

@@ -1,7 +1,7 @@
 ---
 title: "Accessibility tips and tricks for Visual Studio"
 description: "Learn more about tips and tricks that can help make the Visual Studio integrated development environment (IDE) more accessible for everyone to use, including people with disabilities."
-ms.date: 02/01/2022
+ms.date: 04/04/2022
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # Accessibility tips and tricks for Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. Whether you want to use keyboard shortcuts to navigate the IDE, or use high-contrast themes to improve visibility, you'll find several tips & tricks on this page about how to do so.
 
@@ -35,7 +37,7 @@ For some folks, some colors are more difficult to see. If you want more contrast
 ::: moniker range="vs-2022"
 
 > [!TIP]
-> See the [**We’ve upgraded the UI in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/) blog post to learn more about the subtle color contrast ratio adjustments and a new Cascadia Code font we've added to make Visual Studio more accessible for everyone.
+> See the [**We’ve upgraded the UI in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/) blog post to learn more about the subtle color contrast ratio adjustments and a new [Cascadia Code](../how-to-change-fonts-and-colors-in-visual-studio.md#use-the-cascadia-code-font) font we've added to make Visual Studio more accessible for everyone.
 
 ::: moniker-end
 
@@ -70,6 +72,8 @@ Some other useful keyboard shortcuts include the following.
 |Toolbox window|Add a control from the Toolbox to a form or designer.|**Enter**|
 |Options dialog box: Environment > Keyboard|Delete a key combination entered in the **Press shortcut keys** option.|**Backspace**|
 |Notifications tool window|Open the Notifications tool window by using two keyboard shortcut key combinations, one followed by the other. Then, view a  notification by using the arrow keys to select it.| **Ctrl**+**&#92;**, **Ctrl**+**N**|
+
+For a complete list, see [Keyboard shortcuts in Visual Studio](../default-keyboard-shortcuts-in-visual-studio.md).
 
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition.
@@ -111,7 +115,7 @@ Here's how to add sounds to program events in either Windows 11 or Windows 10.
 
 1. In **Program Events**, scroll to **Microsoft Visual Studio**, and then select the sounds that you want to apply to the events that you choose.
 
-    :::image type="content" source="media/system-sounds-dialog-windows-11-.png" alt-text="Screenshot of the Sounds tab of the Sound dialog box in Windows 11.":::
+    :::image type="content" source="media/system-sounds-dialog-windows-11.png" alt-text="Screenshot of the Sounds tab of the Sound dialog box in Windows 11.":::
 
 1. Click **OK**.
 
@@ -144,8 +148,8 @@ Here's how to add sounds to program events in either Windows 11 or Windows 10.
 
 ## See also
 
-* [Accessibility features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
-* [How to: Customize menus and toolbars in Visual Studio](../../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
+* [Set accessibility options](../how-to-change-fonts-and-colors-in-visual-studio.md#set-accessibility-options)
+* [Customize menus and toolbars in Visual Studio](../../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
 * [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)
 * [Accessibility (Visual Studio for Mac)](/visualstudio/mac/accessibility)
 * [Microsoft Accessibility](https://www.microsoft.com/Accessibility)

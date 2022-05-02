@@ -23,6 +23,8 @@ ms.workload:
   - "multiple"
 ---
 # Deploy prerequisites for 64-bit applications
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ClickOnce deployment supports the installation of applications on 64-bit platforms. The target platforms are **x86** for 32-bit platforms, **x64** for machines supporting the AMD64 and EM64T instruction sets, and **Itanium** for the 64-bit Itanium processor.
 
 ## Prerequisites

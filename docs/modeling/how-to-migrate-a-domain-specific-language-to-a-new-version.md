@@ -12,6 +12,8 @@ ms.workload:
   - "multiple"
 ---
 # How to: Migrate a Domain-Specific Language to a New Version
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can migrate projects that define and use domain-specific language to [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] from the version of [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] that was distributed with [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)].
 
  A migration tool is provided as part of [!INCLUDE[vssdk_current_long](../misc/includes/vssdk_current_long_md.md)]. The tool converts Visual Studio projects and solutions that use or define DSL Tools.

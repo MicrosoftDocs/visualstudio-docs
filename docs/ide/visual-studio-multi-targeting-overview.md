@@ -1,7 +1,7 @@
 ---
 title: Targeted .NET frameworks
 description: Learn how to specify the version of the .NET Framework that you want your project to target so the application can only use functionality that's available in the specified version.
-ms.date: 11/19/2021
+ms.date: 03/23/2022
 ms.topic: overview
 helpviewer_keywords:
 - targeting .NET Framework [Visual Studio]
@@ -15,6 +15,8 @@ ms.workload:
 - dotnet
 ---
 # Framework targeting overview
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In Visual Studio, you can specify the version of .NET that you want your project to target. Framework targeting helps guarantee that the application uses only functionality that is available in the specified framework version. For .NET Framework apps to run on another computer, the framework version that the application targets must be compatible with the framework version that's installed on the computer.
 
@@ -75,7 +77,19 @@ When you create a .NET Framework project, you can select the target .NET Framewo
 
 ::: moniker range="vs-2022"
 
+If you choose to create a .NET Framework project, you'll see an interface that's similar to the following screenshot:
+
 :::image type="content" source="media/vs-2022/configure-new-project-framework.png" alt-text="Screenshot of the Framework drop-down list in Visual Studio 2022.":::
+
+If you choose to create a .NET project, you'll see user interface (UI) that's similar to the following two screenshots.
+
+The first screen you'll see is the **Configure your new project** dialog.
+
+:::image type="content" source="media/vs-2022/configure-your-new-project.png" alt-text="Screenshot of the 'Configure your new project' dialog box in Visual Studio 2022.":::
+
+The second screen you'll see is the **Additional options** dialog.
+
+:::image type="content" source="media/vs-2022/configure-new-project-additional-info.png" alt-text="Screenshot of the 'Additional options' dialog box in Visual Studio 2022.":::
 
 ::: moniker-end
 
@@ -84,6 +98,7 @@ When you create a .NET Framework project, you can select the target .NET Framewo
 In an existing Visual Basic, C#, or F# project, you change the target .NET version in the project properties dialog box. For information about how to change the target version for C++ projects, see [How to modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset) instead.
 
 ::: moniker range="<=vs-2019"
+
 1. In **Solution Explorer**, open the right-click context menu for the project that you want to change, and then choose **Properties**.
 
 1. In the left column of the **Properties** window, choose the **Application** tab.
@@ -98,9 +113,11 @@ In an existing Visual Basic, C#, or F# project, you change the target .NET versi
 1. In the verification dialog box that appears, choose the **Yes** button.
 
    The project unloads. When it reloads, it targets the .NET version that you just chose.
+
 ::: moniker-end
 
 ::: moniker range="vs-2022"
+
 1. In **Solution Explorer**, open the right-click context menu for the project that you want to change, and then choose **Properties**.
 
 1. In the left column of the **Properties** window, choose the **Application** tab.
@@ -110,11 +127,18 @@ In an existing Visual Basic, C#, or F# project, you change the target .NET versi
 
 1. In the **Target Framework** list, choose the version that you want.
 
+    For a .NET Framework project, the dialog you see might look similar to the following screenshot:
+
    :::image type="content" source="media/vs-2022/project-properties-application-tab-framework.png" alt-text="Screenshot of the Project Properties dialog with .NET Framework options highlighted.":::
 
-1. In the verification dialog box that appears, choose the **Yes** button.
+   For a .NET project, the dialog might look similar to the following screenshot:
+
+   :::image type="content" source="media/vs-2022/project-properties-target-framework.png" alt-text="Screenshot of the General tab in the Project Properties dialog box, with the 'Target framework' selections showing.":::
+
+1. If a verification dialog box appears, choose the **Yes** button.
 
    The project unloads. When it reloads, it targets the .NET version that you just chose.
+
 ::: moniker-end
 
 > [!NOTE]

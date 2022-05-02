@@ -2,7 +2,7 @@
 title: 'Walkthrough: Create a code snippet'
 description: "Learn how to create a code snippet in three steps: create an XML file, fill in the appropriate elements, and add your code to it."
 ms.custom: SEO-VS-2020
-ms.date: 03/31/2020
+ms.date: 03/24/2022
 ms.topic: how-to
 helpviewer_keywords:
 - code snippets, creating
@@ -22,6 +22,8 @@ ms.workload:
 - multiple
 ---
 # Walkthrough: Create a code snippet
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can create a code snippet with only a few steps. All you need to do is create an XML file, fill in the appropriate elements, and add your code to it. You can optionally make use of replacement parameters and project references. Import the snippet to your Visual Studio installation by using the **Import** button in the **Code Snippets Manager** (**Tools** > **Code Snippets Manager**).
 
@@ -93,14 +95,14 @@ The following XML is the basic snippet template:
 
    ::: moniker range="vs-2017"
 
-   *%USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets*  
+   *%USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets*
    *%USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\Visual Basic\My Code Snippets*
 
    ::: moniker-end
 
    ::: moniker range=">=vs-2019"
 
-   *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets*  
+   *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets*
    *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual Basic\My Code Snippets*
 
    ::: moniker-end
@@ -195,7 +197,7 @@ You may want parts of a code snippet to be replaced by the user. For example, yo
    ![Code snippet replacement parameter tooltip in Visual Studio](media/snippet-replacement-parameter-tooltip.png)
 
    > [!TIP]
-   > If there's more than one replacable parameter in a snippet, you can press **Tab** to navigate from one to the other to change the values.
+   > If there's more than one replaceable parameter in a snippet, you can press **Tab** to navigate from one to the other to change the values.
 
 ## Import a namespace
 

@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Walkthrough: Capturing Graphics Information
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics to manually capture graphics information from a Direct3D app.
 
  This walkthrough illustrates these tasks:

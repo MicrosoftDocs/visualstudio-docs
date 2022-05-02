@@ -1,8 +1,7 @@
 ---
 title: "Debugging Mixed-Mode Applications | Microsoft Docs"
 description: Debug a mixed-mode application, which is an app that combines native code with managed code that runs on the common language runtime, in Visual Studio.
-ms.custom: SEO-VS-2020
-ms.date: "11/04/2016"
+ms.date: "04/15/2022"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -26,6 +25,9 @@ ms.workload:
   - "multiple"
 ---
 # Debugging Mixed-Mode Applications
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 A mixed-mode application is any application that combines native code (C++) with managed code (such as Visual Basic, Visual C#, or C++ that runs on the common language runtime). Debugging mixed-mode applications is largely transparent in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]; it is not too different from debugging a single-mode application. There are a few special considerations, however.
 
 ## Enable C++ Edit and Continue in Mixed Mode Debugging
@@ -36,7 +38,8 @@ To enable Edit and Continue for C++, see [How to enable and disable Edit and Con
 > To use Edit and Continue for C++ in Visual Studio 2013, you have to revert to the legacy debugging engine. See [Switching to Managed Compatibility Mode in Visual Studio 2013](https://devblogs.microsoft.com/devops/switching-to-managed-compatibility-mode-in-visual-studio-2013/) on the  Microsoft Application Lifecycle Management blog.
 
 ## Property Evaluation in Mixed-Mode Applications
- In a mixed-mode application, the evaluation of properties by the debugger is an expensive operation. As a result, debugging operations such as stepping might appear slow. For more information, see [Stepping](/previous-versions/visualstudio/visual-studio-2010/ek13f001(v=vs.100)). If you experience poor performance in mixed-mode debugging, you might want to turn off property evaluation in the debugger windows.
+
+ In a mixed-mode application, the evaluation of properties by the debugger is an expensive operation. As a result, debugging operations such as stepping might appear slow. For more information, see [Navigating code in the debugger](../debugger/navigating-through-code-with-the-debugger.md). If you experience poor performance in mixed-mode debugging, you might want to turn off property evaluation in the debugger windows.
 
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).

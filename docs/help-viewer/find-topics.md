@@ -13,6 +13,8 @@ ms.workload:
 ---
 # How to: Search for topics
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can use the full-text search feature to locate all topics that contain a particular word. You can also refine and customize your search by using wildcard expressions, logical operators, and advanced search operators.
 
 To open the **Search** tab, choose the **Search** tab in the **Help Viewer** window, or if you are a keyboard user, choose **Ctrl**+**E**.

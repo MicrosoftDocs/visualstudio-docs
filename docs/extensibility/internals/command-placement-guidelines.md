@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Command placement guidelines
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Best practices for positioning commands in the Visual Studio integrated development environment (IDE) vary depending on the size of the command set. Commands are defined and positioned according to the information in *.vsct* files.
 
 ## Best practices for all command sets

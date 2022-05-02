@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # Channels (threads view)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Concurrency Visualizer shows four kinds of channels: thread channels, disk channels, marker channels, and GPU channels.
 
 ## Thread channels

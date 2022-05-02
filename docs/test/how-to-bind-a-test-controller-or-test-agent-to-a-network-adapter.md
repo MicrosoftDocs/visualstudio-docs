@@ -17,6 +17,8 @@ ms.technology: vs-ide-test
 ---
 # How to: Bind a test controller or test agent to a network adapter
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 If a computer that has the test controller or the test agent software installed has multiple network adapters, then you must specify the IP address instead of the name of the computer to identify that test controller or test agent.
 
 > [!WARNING]

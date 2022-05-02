@@ -15,6 +15,8 @@ ms.technology: vs-ide-general
 ---
 # How to: Create multi-project templates
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Multi-project templates act as containers for two or more projects. When you create a project that's based on a multi-project template, every project in the template is added to the solution.
 
 A multi-project template has two or more project templates and a root template of type **ProjectGroup**.

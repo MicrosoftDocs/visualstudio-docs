@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # MACHINE_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes a particular machine.
 
 ## Syntax

@@ -21,6 +21,8 @@ dev_langs:
 ---
 # IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Requests that the firewall not block remote debugging.
 
 ## Syntax

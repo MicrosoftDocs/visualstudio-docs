@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Custom colorable items
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can override the list of types for colorizing, such as keywords and comments, by implementing custom colorable items as part of your language service.
 
 ## User settings of colorable items

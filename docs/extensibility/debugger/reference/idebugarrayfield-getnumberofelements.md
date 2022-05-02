@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugArrayField::GetNumberOfElements
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the number of elements in the array.
 
 ## Syntax

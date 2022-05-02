@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In part 2 of this tutorial series, you dive a little deeper into the Visual Studio build and debug features you need for daily development. These features include managing multiple projects, debugging, and referencing third-party packages. You run the C# console app you created in [Part 1 of this tutorial](tutorial-console.md), and explore some features of the Visual Studio integrated development environment (IDE). This tutorial is part 2 of a two-part tutorial series.
 
 In this tutorial, you:
@@ -243,7 +245,7 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
 
 ## Reference .NET libraries: Write to a log
 
-You can use the .NET `Trace` class to add a log of all operations, and write it to a text file. The `Trace` class is also useful for basic print debugging techniques. The `Trace` class is in `System.Diagnostics`, and uses `System.IO` classes like `StreamWriter`.
+You can use the .NET [Trace](xref:System.Diagnostics.Trace) class to add a log of all operations, and write it to a text file. The `Trace` class is also useful for basic print debugging techniques. The `Trace` class is in `System.Diagnostics`, and uses `System.IO` classes like `StreamWriter`.
 
 1. Start by adding the `using` directives at the top of *CalculatorLibrary.cs*:
 
@@ -908,3 +910,4 @@ Congratulations on completing this tutorial! To learn more, continue with the fo
 - [Run a C# program](run-program.md).
 - [Learn about C# IntelliSense](../../ide/visual-csharp-intellisense.md).
 - [Continue with the Visual Studio IDE overview](visual-studio-ide.md).
+- [Logging and tracing](/dotnet/core/diagnostics/logging-tracing)

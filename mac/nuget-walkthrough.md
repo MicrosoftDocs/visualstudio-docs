@@ -8,10 +8,11 @@ ms.date: 05/02/2022
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ms.custom: conceptual, devdivchpfy22
 ---
-
 # Install and manage NuGet packages in Visual Studio for Mac
 
-The NuGet Package Manager UI in Visual Studio for Mac lets you easily install, uninstall, and update NuGet packages in projects and solutions. You can search for and add packages to your .NET Core, ASP.NET Core, and Xamarin projects.
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+
+The NuGet Package Manager UI in Visual Studio for Mac allows you to easily install, uninstall, and update NuGet packages in projects and solutions. You can search for and add packages to your .NET Core, ASP.NET Core, and Xamarin projects.
 
 This article describes how to include a NuGet package in a project and demonstrates the tool chain that makes the process seamless.
 

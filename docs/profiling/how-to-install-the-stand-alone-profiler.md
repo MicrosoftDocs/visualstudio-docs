@@ -17,6 +17,8 @@ ms.workload:
   - multiple
 ---
 # How to: Install the stand-alone profiler
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides a command line based stand-alone profiler that can be run without installing the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. This situation occurs when a computer does not or cannot have a development environment installed. For example, you should not install a development environment on a production web server.
 
 > [!NOTE]

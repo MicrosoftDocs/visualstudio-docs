@@ -50,8 +50,6 @@
       href: ../javascript/publish-nodejs-app-azure.md
   - name: Python
     items:
-    - name: Publish to Azure App Service >>
-      href: ../python/publishing-python-web-applications-to-azure-from-visual-studio.md
 - name: How-to guides
   items:
   - name: GitHub Actions CI/CD Publish
@@ -306,3 +304,5 @@
         href: customerrorreporting-element-clickonce-deployment.md
     - name: ClickOnce Unmanaged API Reference
       href: clickonce-unmanaged-api-reference.md
+  - name: Error - Project type not found
+    href: error-project-type-not-found.md

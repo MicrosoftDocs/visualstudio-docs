@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugProcess3
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a running process and its programs. This interface exists as a replacement to several methods in the [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface. It provides control over all programs in the process.
 
 > [!NOTE]

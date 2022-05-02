@@ -10,6 +10,8 @@ ms.topic: how-to
 ---
 # Customizing the IDE
 
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+
 Visual Studio for Mac can be customized, allowing users to develop apps in an environment that meets their needs for both efficiency and aesthetics. This article explores the variety of ways that Visual Studio for Mac can be adapted to suit your needs.
 
 ## Dark theme
@@ -71,7 +73,7 @@ These bindings can also be set during the initial setup of Visual Studio for Mac
 
 ## Workspace layout
 
-Visual Studio for Mac's workspace consists of a main document area (normally the editor, designer surface, or options file), surrounded by complimentary *tool windows* that contain useful information for accessing and managing application files, testing, and debugging.
+Visual Studio for Mac's workspace consists of a main document area (normally the editor, designer surface, or options file), surrounded by complementary *tool windows* that contain useful information for accessing and managing application files, testing, and debugging.
 
  ![Workspace layout](media/customizing-the-ide-image1a.png)
 

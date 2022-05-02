@@ -18,6 +18,8 @@ ms.workload:
 ---
 # DA0504: Maximum Working Set in Bytes for the Process being profiled
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 |Item|Value|
 |-|-|
 |Rule Id|DA0504|

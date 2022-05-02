@@ -40,6 +40,8 @@ ms.workload:
 ---
 # Start a debugging session for a UWP app
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This article describes how to start a Visual Studio debugging session for a Universal Windows Platform (UWP) app. UWP apps can be written in XAML and C++, XAML and C#/Visual Basic. To start debugging a UWP app, configure the debugging session and choose the way to start the app.
 
 ::: moniker range=">=vs-2019"
@@ -136,7 +138,7 @@ In C++ apps, Visual Studio debugs native code by default. You can choose to debu
 
 By default, you must supply Windows credentials to run the remote debugger when you select **Remote Machine** as the deployment target. You can change the authentication requirement.
 
-The **Universal (Unencrypted Protocol)** authentication mode is for IoT, Xbox, and HoloLens devices, and Creator's Update or later Windows 10 PCs.
+The **Universal (Unencrypted Protocol)** authentication mode is for IoT, Xbox, and HoloLens devices, Widows 11 PCs, and Creator's Update or later Windows 10 PCs.
 
 **To change authentication method:**
 

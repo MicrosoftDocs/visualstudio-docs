@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # SccCheckin function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function checks in previously checked-out files to the source control system, storing the changes and creating a new version. This function is called with a count and an array of names of the files to be checked in.
 
 ## Syntax

@@ -15,7 +15,14 @@ ms.workload:
 ---
 # Create a simple data application with WPF and Entity Framework 6
 
-This walkthrough shows how to create a basic "forms over data" application in Visual Studio. The app uses SQL Server LocalDB, the Northwind database, Entity Framework 6 (not Entity Framework Core), and Windows Presentation Foundation for .NET Framework (not .NET Core). It shows how to do basic databinding with a master-detail view, and it also has a custom Binding Navigator with buttons for **Move Next**, **Move Previous**, **Move to beginning**, **Move to end**, **Update** and **Delete**.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+::: moniker range="vs-2022"
+> [!WARNING]
+> The scenario in this tutorial is currently blocked due to an issue with Visual Studio 2022 that is scheduled to be fixed in a future update. It should work with Visual Studio 2019 or earlier.
+::: moniker-end
+
+This walkthrough shows how to create a basic "forms over data" application in Visual Studio. The app uses SQL Server LocalDB, the Northwind database, Entity Framework 6 (not Entity Framework Core), and Windows Presentation Foundation for .NET Framework (not .NET Core or .NET 5 or later). It shows how to do basic databinding with a master-detail view, and it also has a custom Binding Navigator with buttons for **Move Next**, **Move Previous**, **Move to beginning**, **Move to end**, **Update** and **Delete**.
 
 This article focuses on using data tools in Visual Studio, and does not attempt to explain the underlying technologies in any depth. It assumes that you have a basic familiarity with XAML, Entity Framework, and SQL. This example also does not demonstrate Model-View-ViewModel (MVVM) architecture, which is standard for WPF applications. However, you can copy this code into your own MVVM application with few modifications.
 
@@ -83,7 +90,7 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
 
    - Replace the only occurrence of <xref:System.Collections.Generic> (around line 431) with <xref:System.Collections.ObjectModel>.
 
-7. Press **Ctrl**+**Shift**+**B** to build the project. When the build finishes, the model classes are visible to the data sources wizard.
+7. Press **F5** or **Ctrl**+**F5** to build and run the project. When the application first runs, the model classes are visible to the data sources wizard.
 
 Now you are ready to hook up this model to the XAML page so that you can view, navigate, and modify the data.
 
@@ -138,7 +145,6 @@ It is possible to write your own databinding code, but it is much easier to let 
      Now, scroll down and find the `Window_Loaded` event handler. Notice that Visual Studio has added a CollectionViewSource object. This represents the NorthwindEntities object that you selected when you created the model. You added that already, so you don't need it here. Let's replace the code in `Window_Loaded` so that the method now looks like this:
 
      :::code language="csharp" source="../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs" id="Snippet2":::
-
 
 8. Press **F5**. You should see the details for the first customer that was retrieved into the CollectionViewSource. You should also see their orders in the data grid. The formatting isn't great, so let's fix that up. You can also create a way to view the other records and do basic CRUD operations.
 

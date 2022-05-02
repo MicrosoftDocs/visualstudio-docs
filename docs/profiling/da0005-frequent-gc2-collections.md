@@ -19,6 +19,8 @@ ms.workload:
 ---
 # DA0005: Frequent GC2 collections
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 |Item|Value|
 |-|-|
 |RuleId|DA0005|

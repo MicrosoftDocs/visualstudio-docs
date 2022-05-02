@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Extend SharePoint projects
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Create a project extension when you want to customize project-level features of SharePoint projects. For example, you can add custom project properties, or respond to project-level events that are raised when the user develops a SharePoint solution in Visual Studio.
 
 ## Create project extensions

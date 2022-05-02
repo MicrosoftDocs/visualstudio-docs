@@ -23,6 +23,8 @@ ms.workload:
   - "office"
 ---
 # Sandboxed solution considerations
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   *Sandboxed solutions* are a feature in Microsoft SharePoint 2010 that enables site collection users to upload their own custom code solutions. A common sandboxed solution is users uploading their own Web Parts.
 
  A sandboxed SharePoint application runs in a secure, monitored process that has access to a limited part of the Web farm. Microsoft SharePoint 2010 uses a combination of features, solution galleries, solution monitoring, and a validation framework to enable sandboxed solutions.

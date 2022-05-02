@@ -1,7 +1,7 @@
 ---
 title: Learn about Solution Explorer
 description: Learn how you can use the Solution Explorer tool window in Visual Studio to create & manage your files, projects, and solutions.
-ms.date: 03/10/2022
+ms.date: 04/28/2022
 ms.topic: conceptual
 ms.custom: contperf-fy22q1
 helpviewer_keywords:
@@ -14,6 +14,8 @@ ms.workload:
 - multiple
 ---
 # Learn about Solution Explorer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the Solution Explorer tool window to create & manage your solutions and projects and to view & interact with your code. In this article, we'll detail the user interface (UI) options that help you do so.
 
@@ -62,15 +64,29 @@ The menu bar contains the following UI elements, from left to right:
 
 ## Context menu
 
-In Solution Explorer, there are several options that you can interact with by using the context menu. The following screenshot for a C# app shows the context menu options that appear when you right-click the **Solution** node.
+In Solution Explorer, there are several options that you can interact with by using the right-click context menu. The  context-specific options that appear depend on whether you select a **Solution** node or a **Project** node.
 
-:::image type="content" source="media/solution-explorer-context-menu.png" alt-text="Screenshot of the right-click context menu in Solution Explorer.":::
+### Solution node context menu options
+
+The following screenshot for a C# console app shows the context menu options that appear when you right-click the **Solution** node.
+
+:::image type="content" source="media/solution-node-context-menu-sml.png" alt-text="Screenshot of the right-click context menu from a solution node in Solution Explorer." lightbox="media/solution-node-context-menu-lrg.png":::
 
 What you see in the context menu from the **Solution** node also depends on your project type, programming language, or platform. The following screenshot highlights the following extra options for a C# app: **Project Dependencies**, **Project Build Order**, **Set Startup Projects**, and a **Git** fly-out menu. These extra options typically appear when you add another project to a solution and then add it to a repo.
 
-:::image type="content" source="media/solution-explorer-context-menu-extra-items.png" alt-text="Screenshot of the right-click context menu in Solution Explorer with extra options.":::
+:::image type="content" source="media/solution-node-context-menu-extra-items-sml.png" alt-text="Screenshot of the right-click context menu from a solution node in Solution Explorer, which shows extra options." lightbox="media/solution-node-context-menu-extra-items-lrg.png":::
 
-## Add menu
+### Project node context menu options
+
+The following screenshot for a C# console app shows the context menu options that appear when you right-click the **Project** node.
+
+:::image type="content" source="media/project-node-context-menu-sml.png" alt-text="Screenshot of the right-click context menu from a project node in Solution Explorer." lightbox="media/project-node-context-menu-lrg.png":::
+
+What you see in the context menu from the **Project** node also depends on your project type, programming language, or platform. The following screenshot highlights the following extra option for a C# app: a **Build Dependencies** fly-out menu. Extra options typically appear when you add another project to a solution and then add it to a repo.
+
+:::image type="content" source="media/project-node-context-menu-extra-items-sml.png" alt-text="Screenshot of the right-click context menu from a project node in Solution Explorer, which shows an extra option." lightbox="media/project-node-context-menu-extra-items-lrg.png":::
+
+## The Add context menu fly-out
 
 In the Solution Explorer context menu, one of the most useful options is the **Add** fly-out menu. From it, you can [add another project](../get-started/csharp/tutorial-console-part-2.md#add-another-project) to a solution. You can also add an item to a project, and more.
 
@@ -83,4 +99,5 @@ For a tutorial that walks you through how to add items and projects by using the
 ## See also
 
 - [What are solutions and projects in Visual Studio?](solutions-and-projects-in-visual-studio.md)
+- [What is the Project Designer?](reference/project-properties-reference.md)
 - [Customize window layouts in Visual Studio](customizing-window-layouts-in-visual-studio.md)

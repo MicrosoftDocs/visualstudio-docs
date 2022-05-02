@@ -28,6 +28,8 @@ ms.workload:
   - "office"
 ---
 # Deploy an Office solution
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can deploy Office solutions by using ClickOnce or Windows Installer. By using ClickOnce, you reduce the number of steps that deploying and updating your solution requires. If you use Windows Installer, you gain control of how a solution is installed and what pages the setup program displays when users install your solution.
 
 [!include[Add-ins note](includes/addinsnote.md)]

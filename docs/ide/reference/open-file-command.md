@@ -20,6 +20,8 @@ ms.workload:
 ---
 # Open file command
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Opens an existing file and allows you to specify an editor.
 
 ## Syntax

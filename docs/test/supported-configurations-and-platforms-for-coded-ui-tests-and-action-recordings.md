@@ -15,6 +15,8 @@ author: mikejo5000
 ---
 # Supported configurations and platforms for coded UI tests and action recordings
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The supported configurations and platforms for coded UI tests for Visual Studio Enterprise are listed in the following table. These configurations also apply to action recordings created by using [!INCLUDE[MTRlong](../test/includes/mtrlong_md.md)].
 
 > [!NOTE]
@@ -30,7 +32,7 @@ The supported configurations and platforms for coded UI tests for Visual Studio 
 
 | Configuration | Supported |
 |-| - |
-| Operating Systems | [!INCLUDE[win7](../debugger/includes/win7_md.md)]<br /><br /> [!INCLUDE[winsvr08_r2](../debugger/includes/winsvr08_r2_md.md)]<br /><br /> [!INCLUDE[win8](../debugger/includes/win8_md.md)]<br /><br /> Windows 10 |
+| Operating Systems | [!INCLUDE[win7](../debugger/includes/win7_md.md)]<br /><br /> [!INCLUDE[winsvr08_r2](../debugger/includes/winsvr08_r2_md.md)]<br /><br /> [!INCLUDE[win8](../debugger/includes/win8_md.md)]<br /><br /> Windows 10<br /><br /> Windows 11 |
 | 32-bit / 64-bit Support | 32-bit Windows that is running 32-bit [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)] can test 32-bit applications.<br /><br /> 64-bit Windows that is running 32-bit [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)] can test 32-bit WOW Applications that have UI Synchronization.n.<br /><br /> 64-bit Windows that is running 32-bit [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)] can test 64-bit Windows Forms and WPF Applications that do not have UI Synchronization. |
 | Architecture | x86 and x64 **Note:**  Internet Explorer is not supported in 64-bit mode except when running under [!INCLUDE[win8](../debugger/includes/win8_md.md)] or later versions. |
 | .NET | .NET 2.0, 3.0, 3.5, 4 and 4.5. **Note:**  [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)] and Visual Studio will both require .NET 4 to operate. However, applications developed by using the listed .NET versions are supported. |
@@ -51,7 +53,7 @@ The supported configurations and platforms for coded UI tests for Visual Studio 
 | Internet Explorer 6<br /><br /> Internet Explorer 7 | Not supported. |
 | Chrome<br /><br /> Firefox | Recording of action steps is not supported. Coded UI Tests can be played back on Chrome and Firefox browsers with Visual Studio 2012 Update 4 or later. Go [here](using-different-web-browsers-with-coded-ui-tests.md) for more details. |
 | Opera<br /><br /> Safari | Not supported. |
-| Silverlight | Not supported.<br /><br /> For Visual Studo 2013 however, you can download the [Microsoft Visual Studio 2013 coded UI test plugin for Silverlight](https://marketplace.visualstudio.com/items?itemName=PrachiBoraMSFT.MicrosoftVisualStudio2013CodedUITestPluginforSilve) from the Visual Studio Gallery. |
+| Silverlight | Not supported.<br /><br /> For Visual Studio 2013 however, you can download the [Microsoft Visual Studio 2013 coded UI test plugin for Silverlight](https://marketplace.visualstudio.com/items?itemName=PrachiBoraMSFT.MicrosoftVisualStudio2013CodedUITestPluginforSilve) from the Visual Studio Gallery. |
 | Flash/Java | Not supported. |
 | Windows Forms 2.0 and later | Fully supported. **Note:**  NetFx controls are fully supported, but not all third-party controls are supported. |
 | WPF 3.5 and later | Fully supported.<br /><br /> **Note** NetFx controls are fully supported, but not all third-party controls are supported. |

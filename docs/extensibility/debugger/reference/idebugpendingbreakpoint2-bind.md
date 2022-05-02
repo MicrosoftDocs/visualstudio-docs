@@ -20,6 +20,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPendingBreakpoint2::Bind
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Binds this pending breakpoint to one or more code locations.
 
 ## Syntax

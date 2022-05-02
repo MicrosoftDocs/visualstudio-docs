@@ -16,6 +16,8 @@ ms.technology: vs-ide-general
 ---
 # Template parameters
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can replace values in your template when the template is instantiated. To set up this functionality, use *template parameters*. Template parameters can be used to replace values such as class names and namespaces in the template. The template wizard that runs in the background when a user adds a new item or project replaces these parameters.
 
 ## Declare and enable template parameters
@@ -58,7 +60,8 @@ The following table lists the reserved template parameters that can be used by a
 |safeitemname|Same as `itemname` but with all unsafe characters and spaces replaced by underscore characters.|
 |safeitemrootname|Same as `safeitemname`.|
 |safeprojectname|The name provided by the user when the project was created but with all unsafe characters and spaces removed.|
-|time|The current time in a format that's based on your user settings in Windows. One example of a time zone format is DD/MM/YYYY 00:00:00. |
+|targetframeworkversion|Current version of the target .NET Framework.|
+|time|The current time in a format that's based on Windows user settings. One example of a time format is DD/MM/YYYY 00:00:00. |
 |specifiedsolutionname|The name of the solution. When "create solution directory" is checked, `specifiedsolutionname` has the solution name. When "create solution directory" is not checked, `specifiedsolutionname` is blank.|
 |userdomain|The current user domain.|
 |username|The current user name.|

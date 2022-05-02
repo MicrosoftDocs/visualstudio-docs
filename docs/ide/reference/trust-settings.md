@@ -18,6 +18,8 @@ helpviewer_keywords:
 ---
 # Configure trust settings for files and folders
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 ::: moniker range=">=vs-2022"
 
 In Visual Studio 2022, we've revamped the **Trust Settings** functionality to show a warning whenever untrusted code is opened in the IDE. 

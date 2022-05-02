@@ -25,6 +25,8 @@ ms.workload:
 ---
 # Refactor classes and types in Class Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 When you refactor code, you make it easier to understand, maintain, and more efficient by changing its internal structure and how its objects are designed, not its external behavior. Use Class Designer and the Class Details window to reduce the work that you have to do and the chance of introducing bugs when you refactor C#, Visual Basic, or C++ code in your Visual Studio project.
 
 > [!NOTE]

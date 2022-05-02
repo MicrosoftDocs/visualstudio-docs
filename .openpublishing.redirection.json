@@ -118,6 +118,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/python/publishing-python-web-applications-to-azure-from-visual-studio.md",
+      "redirect_url": "/visualstudio/python",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/quickstart-csharp-console.md",
       "redirect_url": "/visualstudio/get-started/csharp/tutorial-console",
       "redirect_document_id": false
@@ -212,6 +217,16 @@
       "redirect_url": "/visualstudio/ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio",
       "redirect_document_id": false
     },
+  {
+      "source_path": "docs/ide/reference/how-to-set-ide-accessibility-options.md",
+      "redirect_url": "/visualstudio/ide/how-to-change-fonts-and-colors-in-visual-studio#set-accessibility-options",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "docs/ide/reference/how-to-change-fonts-and-colors-in-the-editor.md",
+      "redirect_url": "/visualstudio/ide/how-to-change-fonts-and-colors-in-visual-studio",
+      "redirect_document_id": false
+  },
     {
       "source_path": "docs/ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md",
       "redirect_url": "/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio",
@@ -45108,6 +45123,21 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/profiling/quickstart-cpu-usage-managed.md",
+      "redirect_url": "/visualstudio/profiling/beginners-guide-to-performance-profiling",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/quickstart-cpu-usage-native.md",
+      "redirect_url": "/visualstudio/profiling/beginners-guide-to-performance-profiling",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/quickstart-cpu-usage-aspnet.md",
+      "redirect_url": "/visualstudio/profiling/beginners-guide-to-performance-profiling",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/profiling/profiling-overview.md",
       "redirect_url": "/visualstudio/profiling/profiling-feature-tour",
       "redirect_document_id": false
@@ -46795,6 +46825,11 @@
     {
       "source_path": "docs/install/install-vs-inconsistent-quality-network.md",
       "redirect_url": "/visualstudio/install/create-an-offline-installation-of-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/install/visual-studio-enterprise-guide.md",
+      "redirect_url": "/visualstudio/install/visual-studio-administrator-guide",
       "redirect_document_id": false
     },
     {
@@ -58300,6 +58335,11 @@
       "source_path": "docs/ide/quickstart-fsharp.md",
       "redirect_url": "/visualstudio/get-started/tutorial-fsharp-web-app",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "subscriptions/assign-azure-ad.md",
+      "redirect_url": "/visualstudio/subscriptions/assign-license-bulk",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/quickstart-aspnet-core.md",

@@ -12,6 +12,8 @@ ms.custom: cookbook
 ---
 # Useful resources on Visual Studio extensions
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 These resources can help you better navigate the world of Visual Studio extensibility.
 
 The following video introduces useful resources for Visual Studio extension authors.

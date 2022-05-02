@@ -14,8 +14,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Step 3: Serve static files, add pages, and use template inheritance with Flask app
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Previous step: [Create a Flask app with views and page templates](learn-flask-visual-studio-step-02-create-app.md)**
 
@@ -280,7 +281,6 @@ The following steps demonstrate inheritance:
 
 You can go deeper with these resources:
 
-- [Deploy the web app to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md)
 - For more capabilities of Jinja templates, such as control flow, see [Jinja Template Designer Documentation](http://jinja.palletsprojects.com/en/2.10.x/templates/) (jinja.pocoo.org)
 - For  details on using `url_for`, see [url_for](https://flask.palletsprojects.com/en/1.0.x/api/#flask.url_for) within the Flask Application object documentation (flask.pocoo.org)
 - Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-flask](https://github.com/Microsoft/python-sample-vs-learning-flask)

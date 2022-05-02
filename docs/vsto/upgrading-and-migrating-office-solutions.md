@@ -21,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # Upgrade and migrate Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   If you have a Microsoft Office project that was created in an earlier version of Visual Studio, you must upgrade the project to use it in current versions of Visual Studio. To upgrade a Microsoft Office project, open it in a version of Visual Studio that includes the Microsoft Office developer tools. For more information about the versions of Visual Studio that include the Microsoft Office developer tools, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).
 
 [!include[Add-ins note](includes/addinsnote.md)]

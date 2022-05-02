@@ -127,8 +127,6 @@
       href: debugging-python-in-visual-studio.md
     - name: Debugging code on remote Linux computers
       href: debugging-python-code-on-remote-linux-machines.md
-  - name: Publishing to Azure App Service on Linux
-    href: publishing-python-web-applications-to-azure-from-visual-studio.md
   - name: Interacting with C++
     items:
     - name: Creating a C++ extension for Python
