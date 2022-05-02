@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugMethodField::EnumStaticLocals
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator for static local variables of the method.
 
 ## Syntax

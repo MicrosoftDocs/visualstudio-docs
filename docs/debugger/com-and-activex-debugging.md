@@ -26,6 +26,8 @@ ms.workload:
   - "multiple"
 ---
 # COM and ActiveX Debugging
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section provides tips on debugging COM applications and ActiveX controls.
 
 ## In This Section

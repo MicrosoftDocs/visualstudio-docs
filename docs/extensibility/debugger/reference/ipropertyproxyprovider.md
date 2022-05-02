@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IPropertyProxyProvider
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface supplies a proxy interface to view and change an object's data.
 
 ## Syntax

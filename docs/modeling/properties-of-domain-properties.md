@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # Properties of Domain Properties
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A *domain property* is a feature of a model element that can hold a value. For example, the `Person` domain class could have properties `Name` and `BirthDate`. In the DSL Definition, domain properties are listed in the domain class box on the diagram and under the domain class in DSL Explorer. For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md).
 
 > [!NOTE]

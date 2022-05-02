@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugSettingsCallback2::GetEEMetricGuid
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the unique identifier for a expression evaluator metric given its name.
 
 ## Syntax

@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Project Subtypes Design
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Project subtypes let VSPackages extend projects based on the Microsoft Build Engine (MSBuild). The use of aggregation lets you reuse the bulk of the core managed project system implemented in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] yet still customize the behavior for a particular scenario.
 
  The following topics detail the basic design and implementation of project subtypes:

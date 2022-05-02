@@ -11,8 +11,9 @@ ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
-
 # Package manager
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The R Tools for Visual Studio (RTVS) package manager is a UI for managing the R packages. To open it, select **R Tools** > **Windows** > **Packages** or pressing **Ctrl**+**7**.
 

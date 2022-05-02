@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # 16 bpp Render Target Format Variant
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the pixel format to DXGI_FORMAT_B5G6R5_UNORM for all render targets and back buffers.
 
 ## Interpretation

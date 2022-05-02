@@ -27,6 +27,8 @@ ms.workload:
 ---
 # Send messages to the Output window
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can write run-time messages to the **Output** window using the <xref:System.Diagnostics.Debug> class or the <xref:System.Diagnostics.Trace> class, which are part of the <xref:System.Diagnostics> class library. Use the <xref:System.Diagnostics.Debug> class if you only want output in the *Debug* version of your program. Use the <xref:System.Diagnostics.Trace> class if you want output in both the *Debug* and *Release* versions.
 
 ## Output methods

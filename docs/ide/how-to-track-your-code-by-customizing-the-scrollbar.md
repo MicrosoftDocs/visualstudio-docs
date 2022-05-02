@@ -13,6 +13,8 @@ ms.workload:
 ---
 # How to: Customize the scroll bar
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 When you are working with long code files, it can be hard to keep track of where everything is in the file. You can customize the scroll bar of the code editor to give you an overall picture of what's happening in your code.
 
 ## Annotations

@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # GetTaskSchedulersForDebugger Method
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an array of all <xref:System.Threading.Tasks.TaskScheduler> objects that are currently active.
 
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

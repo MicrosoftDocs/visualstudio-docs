@@ -12,6 +12,8 @@ ms.custom: cookbook
 ---
 # Working with builds in Visual Studio extensions 
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Here's a collection of small code samples on different ways to work with builds.
 
 ## Build solution

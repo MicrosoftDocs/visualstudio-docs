@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugGenericParamField::GetNameOfFormalParam
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the name of this generic parameter.
 
 ## Syntax

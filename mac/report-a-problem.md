@@ -10,6 +10,8 @@ ms.assetid: 1C7AC52E-754E-473F-A5B5-00C3A40DAACD
 ---
 # Report a problem or suggestions for Visual Studio for Mac
 
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+
 If you experience a problem with Visual Studio for Mac, we want to know about it. Here's how to report the problem to [Developer Community](https://aka.ms/feedback/report?space=41) so that we can diagnose and fix it.
 
 ## How to report a problem

@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Database projects and data-tier applications
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can use database projects to create new databases, new data-tier applications (DACs), and to update existing databases and data-tier applications. Both database projects and DAC projects enable you to apply version control and project management techniques to your database development efforts in much the same way that you apply those techniques to managed or native code. You can help your development team manage changes to databases and database servers by creating a DAC project, database project, or a server project and putting it under version control. Members of your team can then check out files to make, build, and test changes in an isolated development environment, or sandbox, before sharing them with the team. To help ensure code quality, your team can finish and test all changes for a particular release of the database in a staging environment before you deploy the changes into production.
 
 For a list of the database features that are supported by data-tier applications, see [DAC support for SQL Server objects](/sql/relational-databases/data-tier-applications/dac-support-for-sql-server-objects-and-versions). If you use features in your database that are not supported by data-tier applications, you should instead use a database project to manage changes to your database.

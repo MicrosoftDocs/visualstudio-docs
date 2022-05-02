@@ -62,6 +62,8 @@ ms.workload:
 ---
 # Additional support for errors in Office solutions
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can use the following resources to help you find answers to problems you encounter as you create Office solutions in Visual Studio.
 
 ## Troubleshoot specific errors

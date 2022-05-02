@@ -16,6 +16,8 @@ author: mikejo5000
 ---
 # Unit tests for generic methods
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can generate unit tests for generic methods exactly as you do for other methods. The following sections provide information about and examples of creating unit tests for generic methods.
 
 ## Type arguments and type constraints

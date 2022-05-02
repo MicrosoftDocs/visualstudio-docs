@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # Functions View - instrumentation data
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Functions report view lists profiling data by function name.
 
 ## General

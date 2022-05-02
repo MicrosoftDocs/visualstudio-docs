@@ -26,6 +26,8 @@ ms.workload:
   - "multiple"
 ---
 # Debugging Errors and Warning Dialog Boxes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Below are the errors and warning dialog boxes you may encounter while debugging your application.
 
 ## In This Section

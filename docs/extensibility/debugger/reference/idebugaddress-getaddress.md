@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugAddress::GetAddress
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a structure describing an object and its location within its scope or container.
 
 ## Syntax

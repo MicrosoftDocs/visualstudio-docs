@@ -27,6 +27,8 @@ ms.workload:
 ---
 # Create models for your app
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Modeling diagrams help you understand, clarify, and communicate ideas about your code and the user requirements that your software system must support.
 
 To see which versions of Visual Studio support each type of diagram, see [Version support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).

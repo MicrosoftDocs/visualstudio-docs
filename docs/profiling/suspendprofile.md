@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # SuspendProfile
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `SuspendProfile` method increments the Suspend/Resume counter for the specified profiling level.
 
 ## Syntax

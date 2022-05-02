@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugThread2::GetProgram
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the program in which a thread is running.
 
 ## Syntax

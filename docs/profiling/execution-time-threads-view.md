@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # Execution time (Threads View)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 These segments in the Threads View timeline represent execution time, when the thread is actively doing work on a logical core in the system.
 
  Changes in thread status are detected through kernel context switch events. Event Tracing for Windows (ETW) captures sample stacks every millisecond. In a very short green segment, it is possible that no sample is taken. Therefore, some short execution segments may show no call stack.

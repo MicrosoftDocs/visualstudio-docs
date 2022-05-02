@@ -21,6 +21,8 @@ ms.workload:
   - "multiple"
 ---
 # Error: Unable to Automatically Step Into the Server
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The error reads:
 
  Unable to Automatically Step Into the Server. The debugger was not notified before the remote procedure was executed

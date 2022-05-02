@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Graphics Event List
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Use the Graphics Event List in Visual Studio Graphics Analyzer to explore the Direct3D events that were recorded while rendering a frame of your game or app.
 
  This is the Event List:

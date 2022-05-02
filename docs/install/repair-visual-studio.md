@@ -13,8 +13,9 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-
 # Repair Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Sometimes your Visual Studio installation becomes damaged or corrupted. A repair is useful for fixing a wide variety of install-time issues, including update issues.
 

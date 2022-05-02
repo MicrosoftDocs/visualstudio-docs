@@ -20,6 +20,8 @@ ms.workload:
   - "multiple"
 ---
 # UDT
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Each class, structure, and union is identified by a `SymTagUDT` symbol. Each member, function, data, or nested type, and each base class, appears as a class child of the user-defined type (UDT).
 
 ## Properties

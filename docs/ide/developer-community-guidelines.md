@@ -12,6 +12,8 @@ ms.workload:
 ---
 # Developer Community guidelines
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Developer Community tracks issues and feature suggestions for Visual Studio.
 
 ## Submitting problems and suggestions

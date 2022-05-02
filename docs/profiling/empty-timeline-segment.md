@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # Empty timeline segment
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In the Concurrency Visualizer, the reason that a section of the timeline is empty (has a white background) depends on the kind of channel.
 
 - For a CPU thread channel, it means that the thread did not exist during this part of the timeline. If you're interested in the thread, you can find its executing section by using the zoom control or scrolling horizontally.

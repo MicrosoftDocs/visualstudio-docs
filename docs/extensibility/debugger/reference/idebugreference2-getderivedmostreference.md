@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugReference2::GetDerivedMostReference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the derived-most reference of a reference. Reserved for future use.
 
 ## Syntax

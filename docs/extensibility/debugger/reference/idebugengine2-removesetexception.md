@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngine2::RemoveSetException
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Removes the specified exception so it is no longer handled by the debug engine.
 
 ## Syntax

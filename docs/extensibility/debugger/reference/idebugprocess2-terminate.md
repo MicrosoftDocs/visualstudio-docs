@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess2::Terminate
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Terminates the process.
 
 ## Syntax

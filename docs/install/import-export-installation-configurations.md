@@ -16,9 +16,10 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.custom: devdivchpfy22
 ---
 # Import or export installation configurations
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can configure Visual Studio across your organization with installation configuration files. To do so, export the workload and component information to a .vsconfig file by using the Visual Studio installer. You can then import the configuration into new or existing installations, and share them with others, too.
 

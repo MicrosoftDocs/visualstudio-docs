@@ -14,6 +14,8 @@ ms.workload:
 ---
 # How to: Filter profiling tools report views to display Just My Code
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio provides filtering for performance reports so that they display only code that you have implemented. This feature, which is named Just My Code, is enabled by default. It is configured through the **Just My Code** option in the **Options** dialog box.
 
 ## To enable Just My Code

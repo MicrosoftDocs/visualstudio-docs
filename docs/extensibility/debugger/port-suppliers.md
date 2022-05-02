@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Port suppliers
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In the debugger architecture, a *port supplier*:
 
 - Is contained by a server and provides ports on request to that server.

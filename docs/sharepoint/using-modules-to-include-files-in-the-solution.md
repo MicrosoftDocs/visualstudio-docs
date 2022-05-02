@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Use modules to include files in the solution
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   There may be times when you may want to deploy files to the SharePoint server regardless of their file type, such as new master pages. To do this, you can use *Modules* (not to be confused with [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] code modules). Modules are containers for files in a SharePoint solution. When the solution is deployed, the files in the module are copied to the specified folders on the SharePoint server.
 
 ## Module items and elements

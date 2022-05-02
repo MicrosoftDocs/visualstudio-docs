@@ -26,6 +26,8 @@ ms.workload:
 ---
 # Executable for Debugging Session Dialog Box
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This dialog box appears when you try to debug a DLL for which no executable is specified. Visual Studio can't launch a DLL directly. Instead, Visual Studio launches the specified executable. You can debug the DLL when it's called by the executable.
 
  **Executable file name**
