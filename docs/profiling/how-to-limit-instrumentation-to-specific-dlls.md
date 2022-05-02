@@ -16,6 +16,8 @@ ms.workload:
 ---
 # How to: Limit instrumentation to specific DLLs
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 By using the instrumentation profiling method, you can limit the collection of profiling data to one or more DLLs in an application. To profile one or more DLLs in an application, you create a performance session that includes the .*dll* files as targets. You can specify the DLLs that you want to profile as projects in a Visual Studio solution or as independent binary files.
 
 ## To limit instrumentation to specific DLLs in a Visual Studio solution

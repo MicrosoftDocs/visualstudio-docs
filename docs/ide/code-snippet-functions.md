@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Code snippet functions
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 There are three functions available to use with C# code snippets. Functions are specified in the [Function](../ide/code-snippets-schema-reference.md#function-element) element of the code snippet. For information on creating code snippets, see [Code snippets](../ide/code-snippets.md).
 
 ## Functions

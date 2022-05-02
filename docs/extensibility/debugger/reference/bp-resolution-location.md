@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # BP_RESOLUTION_LOCATION
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the structure of the breakpoint resolution location.
 
 ## Syntax

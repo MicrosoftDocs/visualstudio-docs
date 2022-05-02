@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically search for an email address in contacts
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example searches a contact folder for contacts that have the domain name **example.com** in their e-mail addresses.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

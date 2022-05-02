@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugModule3::IsUserCode
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves information on whether the module represents user code or not.
 
 ## Syntax

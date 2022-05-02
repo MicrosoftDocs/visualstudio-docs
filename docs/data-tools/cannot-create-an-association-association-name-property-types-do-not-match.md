@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Cannot create an association &lt;association name&gt; - property types do not match
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Cannot create an association \<association name> - property types do not match. Properties do not have matching types: \<property names>.
 
 Associations are defined by the selected **Association Properties** in the **Association Editor** dialog box. Properties on each side of the association must be of the same data type.

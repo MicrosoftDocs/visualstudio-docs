@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_hasLongJump
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that specifies whether the function contains a use of the [longjmp](/cpp/c-runtime-library/reference/longjmp) command (paired with a [setjmp](/cpp/c-runtime-library/reference/setjmp) command, these form the C-style method of exception handling).
 
 ## Syntax

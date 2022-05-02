@@ -22,6 +22,8 @@ ms.workload:
 ---
 # Specify an older .NET Framework version for debugging (C#, Visual Basic, F#)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Visual Studio debugger supports debugging older versions of the Microsoft .NET Framework as well as the current version. If you start an application from Visual Studio, the debugger can always identify the correct version of the .NET Framework for the application you are debugging. However, if the application is already running and you start debugging by using **Attach to**, the debugger may not always be able to identify an older version of the .NET Framework. If this happens, you will get an error message that says,
 
 ``` cmd

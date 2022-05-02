@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugCodeContext3
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Extends the [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) interface to enable the retrieval of module and process interfaces.
 
 ## Syntax

@@ -46,6 +46,8 @@ ms.workload:
   - "office"
 ---
 # Office projects in the Visual Studio environment
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Microsoft Office projects have a development experience that is similar to other types of projects in Visual Studio, such as Windows Forms projects. When you create or open an Office project, the project items appear in **Solution Explorer**. For document-level projects, the document (that is, the Word document or Excel workbook) opens in Visual Studio, and the document behaves as a visual designer.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

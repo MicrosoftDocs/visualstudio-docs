@@ -183,6 +183,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/work-with-multiple-user-accounts.md",
+      "redirect_url": "/visualstudio/ide/signing-in-to-visual-studio",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/python/python-azure-cloud-service-project-template.md",
       "redirect_url": "/visualstudio/python/managing-python-projects-in-visual-studio",
       "redirect_document_id": false

@@ -17,6 +17,8 @@ ms.workload:
 ---
 # How to: Generate code metrics data
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can generate code metrics data in three ways:
 
 - By enabling [.NET code-quality analyzers](#net-code-quality-analyzers-code-metrics-rules) and enabling the four code metrics (maintainability) rules it contains.

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPropertyCreateEvent2::GetDebugProperty
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the new property.
 
 ## Syntax

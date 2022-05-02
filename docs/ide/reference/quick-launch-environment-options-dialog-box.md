@@ -21,6 +21,8 @@ monikerRange: vs-2017
 ---
 # Quick Launch, Environment, Options Dialog Box
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can use **Quick Launch** to quickly search and execute actions for IDE assets such as options, templates, menus. You can't use **Quick Launch** to search for code and symbols. The **Quick Launch** search box is located at the top-right corner of the menu bar and is accessible by pressing **Ctrl**+**Q**. Type your search string in the box. To search for strings that contain @, use '@@'.
 
 **Quick Launch** is enabled by default when you install Visual Studio. On the menu bar, you can show or hide **Quick Launch** by choosing **Tools** > **Options**. Expand the **Environments** node, and then choose **Quick Launch**. Select or clear the **Enable Quick Launch** check box. You can also enable or disable search categories on this page.

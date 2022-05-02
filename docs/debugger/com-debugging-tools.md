@@ -25,6 +25,8 @@ ms.workload:
 ---
 # COM Debugging Tools
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This topic lists tools that can help you test and inspect COM programs.
 
 OLE/COM Object Viewer

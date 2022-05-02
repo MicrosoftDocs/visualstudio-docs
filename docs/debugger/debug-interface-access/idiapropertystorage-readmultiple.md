@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaPropertyStorage::ReadMultiple
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Reads specified properties from the current property set.
 
 ## Syntax

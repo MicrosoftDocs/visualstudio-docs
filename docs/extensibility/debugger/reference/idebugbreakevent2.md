@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugBreakEvent2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface tells the session debug manager (SDM) that an asynchronous break has been successfully completed.
 
 ## Syntax

@@ -17,6 +17,8 @@ ms.technology: vs-ide-test
 ---
 # How to: Add and Delete Counters on Graphs in Load Test Results
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can use the **Counters** panel to add performance counters to a graph.
 
 ![Added counter to graph](../test/media/ltest_selectcounter.png)

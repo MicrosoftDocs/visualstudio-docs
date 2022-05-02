@@ -19,6 +19,8 @@ ms.workload:
 ---
 # First look at profiling tools (C#, Visual Basic, C++, F#)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio provides a variety of profiling tools to help you diagnose different kinds of app performance issues depending on your app type. In this article, we give a quick look at the most common profiling tools.
 
 To see profiling tool support for different app types, see [Which tool should I use?](#which-tool-should-i-use)

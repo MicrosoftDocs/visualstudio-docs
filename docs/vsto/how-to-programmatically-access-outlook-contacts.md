@@ -17,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically access Outlook contacts
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example finds all contacts whose last names contain a specified search string.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

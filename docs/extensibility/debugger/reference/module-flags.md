@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # MODULE_FLAGS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Used to describe a module.
 
 ## Syntax

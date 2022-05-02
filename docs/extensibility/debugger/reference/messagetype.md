@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # MESSAGETYPE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the message type and reason.
 
 ## Syntax

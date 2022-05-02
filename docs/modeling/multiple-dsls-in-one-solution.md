@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Multiple DSLs in One Solution
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can package several DSLs as part of a single solution so that they are installed together.
 
 You can use several techniques to integrate multiple DSLs. For more information, see [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md) and [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md) and [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md).

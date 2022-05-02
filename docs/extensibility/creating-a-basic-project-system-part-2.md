@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Create a basic project system, part 2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The first walkthrough in this series, [Create a basic project system, part 1](../extensibility/creating-a-basic-project-system-part-1.md), shows how to create a basic project system. This walkthrough builds on the basic project system by adding a Visual Studio template, a property page, and other features. You must complete the first walkthrough before you start this one.
 
 This walkthrough teaches how to create a project type that has the project file name extension *.myproj*. To complete the walkthrough, you do not have to create your own language because the walkthrough borrows from the existing Visual C# project system.

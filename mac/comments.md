@@ -11,6 +11,8 @@ ms.topic: reference
 ---
 # Comments
 
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+
 While debugging or experimenting with code, you might want to comment blocks of code either temporarily or long term.
 
 To comment out an entire block of code:

@@ -21,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # How to: Target Office applications through primary interop assemblies
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you create a new Office project, Visual Studio automatically adds references to the Microsoft Office primary interop assemblies (PIAs) that are required to build your project. You must add references to other PIAs in the following scenarios:
 
 - You want to use features of other Microsoft Office applications in your project. For example, you might want to use features of Microsoft Office Excel in a project for Microsoft Office Word.

@@ -36,6 +36,8 @@ ms.workload:
 ---
 # Find and replace text
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can find and replace text in the Visual Studio editor by using [Find and Replace](#find-and-replace-control) (**Ctrl**+**F** or **Ctrl**+**H**) or [Find/Replace in Files](#find-in-files-and-replace-in-files) (**Ctrl**+**Shift**+**F** or **Ctrl**+**Shift**+**H**). You can also find and replace only *some* instances of a pattern by using *[multi-caret selection](#multi-caret-selection)*.
 
 > [!TIP]

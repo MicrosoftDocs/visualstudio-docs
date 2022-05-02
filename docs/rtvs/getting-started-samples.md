@@ -11,8 +11,9 @@ ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
-
 # R Tools for Visual Studio sample projects
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This collection of samples gets you started on R, R Tools for Visual Studio (RTVS), and Microsoft Machine Learning Server:
 

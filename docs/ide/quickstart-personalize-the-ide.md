@@ -13,6 +13,8 @@ ms.workload:
 ---
 # How to: Personalize the Visual Studio IDE and the editor
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 ::: moniker range="vs-2022"
 
 In this how-to article, we'll customize the Visual Studio color theme. Then, we'll customize the colors for two different types of text in the code editor.

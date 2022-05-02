@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Create parent container folders for solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In the Source Control Plug-in API Version 1.2, a user can specify a single root source control destination for all web projects within the solution. This single root is called a Super Unified Root (SUR).
 
  In the Source Control Plug-in API Version 1.1, if the user added a multiproject solution to source control, the user was prompted to specify one source control destination for each web project.

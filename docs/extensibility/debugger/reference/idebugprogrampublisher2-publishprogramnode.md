@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramPublisher2::PublishProgramNode
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Makes a program node available for use by debug engines (DEs) and the session debug manager (SDM).
 
 ## Syntax

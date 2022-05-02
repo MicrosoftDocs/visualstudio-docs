@@ -13,6 +13,8 @@ monikerRange: ">=vs-2019"
 ---
 # Overview: Connected Services
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Connected Services is a collection of tools in Visual Studio that help you connect your application to the following:
 
 * Azure services

@@ -26,6 +26,8 @@ ms.technology: vs-ide-general
 ---
 # Install Dotfuscator Community
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Dotfuscator Community is an optional component of Visual Studio.
 These instructions explain how to install it.
 

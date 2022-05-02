@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # Working with the Domain-Specific Language Explorer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **DSL Explorer** displays several kinds of information in a tree view. For more information about most of the items in the DSL Explorer, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md).
 
  It has the following nodes:

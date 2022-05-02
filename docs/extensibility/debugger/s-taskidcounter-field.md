@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # s_taskIdCounter Field
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The next available identifier for a <xref:System.Threading.Tasks.Task> object.
 
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

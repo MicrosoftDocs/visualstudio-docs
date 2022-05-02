@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugAddresses::GetCount
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns the number of elements in the enumeration.
 
 ## Syntax

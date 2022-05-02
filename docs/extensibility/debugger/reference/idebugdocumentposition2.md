@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugDocumentPosition2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents an abstract position in a source file.
 
 ## Syntax
