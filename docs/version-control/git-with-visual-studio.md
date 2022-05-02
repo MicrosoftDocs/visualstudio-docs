@@ -11,8 +11,9 @@ ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 
 ---
-
 #  How Visual Studio makes version control easy with Git
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Have you ever wished you could go back to a previously working version of your code? Do you find yourself manually storing copies of your code in different locations as a backup? Well, version control is the answer.  
 
@@ -49,7 +50,7 @@ For your day-to-day Git workflow, Visual Studio provides a seamless way to inter
 
 You are empowered to multi-task and experiment with your code through branches. If you or your team works on multiple features at the same time, or if you'd like to explore ideas without affecting your working code, branching is very helpful. The recommended Git workflow uses a new branch for every feature or fix that you work on. Learn how to [create a branch](git-create-branch.md) from Visual Studio.
 
-Once you create a new branch and switch to it, you can start working by changing existing files or by adding new ones and then committing our work to the repository. To learn more about making a commit in Visual Studio and to better understand file states in Git, refer to the [Make a commit](git-make-commit.md) page.
+Once you create a new branch and switch to it, you can start working by changing existing files or by adding new ones and then committing your work to the repository. To learn more about making a commit in Visual Studio and to better understand file states in Git, refer to the [Make a commit](git-make-commit.md) page.
 
 Git is a distributed version control system, meaning that all the changes made so far are local only changes. To contribute these changes to a remote repository, you must [push those local commit(s) to a remote](git-push-remote.md).
 

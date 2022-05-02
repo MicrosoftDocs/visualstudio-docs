@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Analyze resource consumption and UI thread activity (XAML)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Use the **Application Timeline** profiler to find and fix application-interaction related performance issues in XAML applications. This tool helps improve the XAML application performance by showing a detailed view of the applications' resource consumption. You can analyze the time spent by your application preparing UI frames (layout and render), servicing network and disk requests, and in scenarios like Application Startup, Page Load, and Windows resize.
 
 **Application Timeline** is one of the tools you can start with the **Debug** > **Performance Profiler** command.
@@ -22,9 +24,9 @@ This tool replaces the **XAML UI Responsiveness** tool that was part of the diag
 
 You can use this tool on the following platforms:
 
-- Universal Windows apps (on Windows 10)
+- Universal Windows apps (on Windows 10 and later)
 - Windows 8.1
-- Windows Presentation Foundation (.Net 4.0 and above)
+- Windows Presentation Foundation (.NET 4.0 and above)
 - Windows 7
 
 > [!NOTE]

@@ -24,6 +24,8 @@ ms.workload:
   - multiple
 ---
 # Analyze JavaScript memory usage in UWP apps
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The JavaScript memory analyzer is available in Visual Studio to help you understand memory usage and find memory leaks in your UWP apps built for Windows using JavaScript. Supported apps include apps for Universal Windows Apps.
 
  The JavaScript memory analyzer can do these things for you:

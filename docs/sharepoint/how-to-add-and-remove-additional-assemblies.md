@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # How to: Add and remove additional assemblies
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   If a SharePoint package depends on other assemblies for functionality or data, you can add the assemblies to your solution package (.wsp). This way, the SharePoint server makes sure that custom assemblies are installed with a package.
 
  You can also add and change the safe controls and class resource files associated with the assemblies.

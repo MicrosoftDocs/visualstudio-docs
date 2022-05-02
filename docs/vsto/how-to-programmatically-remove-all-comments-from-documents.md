@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically remove all comments from documents
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Use the `DeleteAllComments` method to remove all comments from a Microsoft Office Word document.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]

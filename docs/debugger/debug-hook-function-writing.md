@@ -26,6 +26,8 @@ ms.workload:
   - multiple
 ---
 # Debug Hook Function Writing
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section describes a number of custom debug hook functions you can write that allow you to insert your code into some predefined points inside the debugger's normal processing.
 
 ## In This Section

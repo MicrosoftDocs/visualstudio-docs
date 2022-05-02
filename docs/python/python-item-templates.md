@@ -12,8 +12,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Python item templates
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The item templates are available in Python projects through the **Project** > **Add New Item** menu command, or the **Add** > **New Item** command on the context menu in **Solution Explorer**.
 
@@ -45,4 +46,3 @@ The following table briefly explains the effect of each item template within a P
 
 - [Manage Python projects - Project templates](managing-python-projects-in-visual-studio.md#project-templates)
 - [Python web project templates](python-web-application-project-templates.md)
-- [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md)

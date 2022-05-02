@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: f271d623-dcde-442a-865c-4dca5ad8a9c5
-ms.date: 03/10/2022
+ms.date: 04/25/2022
 ms.topic: conceptual
 description: Managing subscriptions in the Visual Studio subscriptions with GitHub Enterprise
 ---
@@ -83,25 +83,25 @@ To add a user to your organization in GitHub:
 If you have questions, contact your GitHub or Microsoft account manager. You can also visit https://aka.ms/GHEandVSS for more information.
 
 ## Support resources
-- Learn more about GitHub assignment at [GitHub Docs](https://docs.github.com/en/enterprise-cloud@latest/billing/managing-licenses-for-visual-studio-subscriptions-with-github-enterprise/about-visual-studio-subscriptions-with-github-enterprise)
-- Find answers to questions on a wide array of GitHub topics at [GitHub Help](https://help.github.com/en).
-- Get help from other GitHub users in the [GitHub Community Forum](https://github.community/).
-- For assistance with administration of Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vsadminhelp).
-- Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
-- Get [technical support](https://support.microsoft.com/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24) for GitHub Enterprise.   
++ Learn more about GitHub assignment at [GitHub Docs](https://docs.github.com/en/enterprise-cloud@latest/billing/managing-licenses-for-visual-studio-subscriptions-with-github-enterprise/about-visual-studio-subscriptions-with-github-enterprise)
++ Find answers to questions on a wide array of GitHub topics at [GitHub Help](https://help.github.com/en).
++ Get help from other GitHub users in the [GitHub Community Forum](https://github.community/).
++ For assistance with administration of Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vsadminhelp).
++ Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
++ Get [technical support](https://support.microsoft.com/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24) for GitHub Enterprise.   
 
 ## See also
-- [Visual Studio documentation](/visualstudio/)
-- [Azure DevOps documentation](/azure/devops/)
-- [Azure documentation](/azure/)
-- [Microsoft 365 documentation](/microsoft-365/)
++ [Visual Studio documentation](/visualstudio/)
++ [Azure DevOps documentation](/azure/devops/)
++ [Azure documentation](/azure/)
++ [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Learn more about managing Visual Studio subscriptions.
-- [Assign individual subscriptions](assign-license.md)
-- [Assign multiple subscriptions](assign-license-bulk.md)
-- [Edit subscriptions](edit-license.md)
-- [Delete subscriptions](delete-license.md)
-- [Determine maximum usage](maximum-usage.md)
++ [Assign individual subscriptions](assign-license.md)
++ [Assign multiple subscriptions](assign-license-bulk.md)
++ [Edit subscriptions](edit-license.md)
++ [Delete subscriptions](delete-license.md)
++ [Determine maximum usage](maximum-usage.md)
 
 For more information about managing Visual Studio subscriptions with GitHub Enterprise, check out the Visual Studio [subscriptions admin portal](https://visualstudio.microsoft.com/subscriptions-administration/).

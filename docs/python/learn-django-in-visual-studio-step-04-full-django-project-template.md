@@ -14,8 +14,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Step 4: Use the full Django Web Project template
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Previous step: [Serve static files, add pages, and use template inheritance](learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md)**
 
@@ -214,6 +215,5 @@ Answer: The lack of the trailing '$' in the regular expression was a simple over
 
 ## Go deeper
 
-- [Deploy the web app to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md)
 - [Writing your first Django app, part 4 - forms and generic views](https://docs.djangoproject.com/en/2.0/intro/tutorial04/) (docs.djangoproject.com)
 - Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django)

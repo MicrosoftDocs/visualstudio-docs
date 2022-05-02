@@ -26,6 +26,8 @@ manager: jmartens
 ---
 # Upgrade from Dotfuscator Community 5
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Learn how to upgrade to PreEmptive Protection - Dotfuscator Community 6.
 
 Depending on your installation history and version of Visual Studio, you may be currently running Dotfuscator Community 5, the prior major version. If so, you should upgrade, because it is important to ensure your code is being given the [latest protection measures][always-improving]. Upgrades are available at no charge.
@@ -39,7 +41,7 @@ If you are unsure what version of Dotfuscator you are running, you can determine
 * Launch the Dotfuscator Community [graphical user interface][gui] (GUI) by going to Visual Studio's **Tools** menu and selecting **PreEmptive Protection - Dotfuscator Community**.
 
   From the Dotfuscator GUI, open the **Help** menu, and select **About...** to display the About screen.
-  
+
   This screen will list Dotfuscator's version.
 
 * If you have Dotfuscator integrated into your build with the [command-line interface][cli] (such as with [Xamarin][xamarin] apps), you can also check your build logs for a line like the following example:
@@ -111,7 +113,7 @@ DotfuscatorXamarinCliPath ('[...]\DotfuscatorCE\dotfuscatorCLI.exe') must exist.
 To update your build to use the correct CLI path:
 
 1. Start the Dotfuscator Community [GUI][gui] by going to Visual Studio's **Tools** menu and selecting **PreEmptive Protection - Dotfuscator Community**.
-   
+
 2. In the Dotfuscator Community GUI, go to the **Tools** menu and select **Dotfuscator Command Prompt**.
 
 3. In the command prompt that opens, type `where dotfuscator.exe`.
@@ -120,7 +122,7 @@ To update your build to use the correct CLI path:
 4. Open the project or build configuration as appropriate for your build system.
 
     * For Visual Studio projects, you will need to open the project file (`.csproj`, `.vbproj`, or `.fsproj`) as plain text. [Open a project file](../solutions-and-projects-in-visual-studio.md#project-file) in Visual Studio.
-    
+
     * If you previously used Dotfuscator Community's [Xamarin][xamarin] integration to protect a Xamarin app, recall that Dotfuscator is integrated into each individual app project (such as `MyProject.Android.csproj` and `MyProject.iOS.csproj`) separately and not into shared library projects.
       You will need to update all of the app projects that are currently using Dotfuscator.
 
@@ -130,7 +132,7 @@ To update your build to use the correct CLI path:
     * When updating a project using Dotfuscator Community's [Xamarin][xamarin] integration, the old path will be located between the `<DotfuscatorXamarinCliPath>` and `</DotfuscatorXamarinCliPath>` tags.
 
 6. Replace the old paths located in step 5 with the new path you noted in step 3.
-   
+
    If one of the old paths is not an absolute path, then you should adjust the new path appropriately based on the context.
    In the example below, the `VSInstallDir` environment variable was used in the old path, so the corresponding new path should do so as well.
 

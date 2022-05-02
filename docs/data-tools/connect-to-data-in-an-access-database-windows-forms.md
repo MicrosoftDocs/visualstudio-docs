@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Connect to data in an Access database
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can connect to an Access database (either an *.mdb* file or an *.accdb* file) by using Visual Studio. After you define the connection, the data appears in the **Data Sources** window. From there, you can drag tables or views onto your design surface.
 ::: moniker range="vs-2017"
 > [!NOTE]

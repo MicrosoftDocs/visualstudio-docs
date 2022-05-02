@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugEvent2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is used to communicate both critical debug information, such as stopping at a breakpoint, and non-critical information, such as a debugging message.
 
 ## Syntax

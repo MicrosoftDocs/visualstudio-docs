@@ -17,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # SafeControls element
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   A collection of ASPX controls and Web Parts that are designated as secure for any user to access on any ASPX page on the SharePoint site.
 
 ## Syntax

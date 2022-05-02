@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugGenericFieldDefinition::ConstructInstantiation
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Constructs a field instance given an array of type arguments.
 
 ## Syntax

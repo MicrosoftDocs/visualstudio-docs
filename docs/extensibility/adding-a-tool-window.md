@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Add a tool window
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this walkthrough you learn how to create a tool window and integrate it into Visual Studio in the following ways:
 
 - Add a control to the tool window.

@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: d2ab13ed-ef79-4ef0-8736-eccd04bc6020
-ms.date: 10/18/2021
+ms.date: 04/14/2022
 ms.topic: conceptual
 description:  Information for Cloud Solution Providers on how to buy and manage Visual Studio cloud subscriptions for your customers.
 ---
@@ -15,7 +15,7 @@ Visual Studio Enterprise and Visual Studio Professional cloud subscriptions for 
 [Compare cloud subscription options](https://visualstudio.microsoft.com/vs/pricing)
 
 > [!NOTE]
-> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
+> Microsoft no longer offers Visual Studio Professional **annual** subscriptions and Visual Studio Enterprise **annual** subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.  Monthly subscriptions are still available.  
 
 ## Prerequisites
 You must first set up your customer tenant in the Partner Center and create an Azure subscription for this tenant.
@@ -26,12 +26,11 @@ You must first set up your customer tenant in the Partner Center and create an A
 Anyone with [owner or contributor access](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fvsts%2Forganizations%2Fbilling%2Fadd-backup-billing-managers%3Fview%3Dvsts%2520%2520sa&data=02%7C01%7C%7Cb9e717e8abff47b0cd7e08d618edd860%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636723807145220358&sdata=aIaamEXHhx94KCYVY%2FFibqFzNBEqKPntpql867xAMgU%3D&reserved=0) to the Azure subscription can purchase Visual Studio subscriptions.
 
 ## How to buy
-
 1. Log into the [Microsoft Partner Center](https://partnercenter.microsoft.com).
 0. Choose **Customers** and select a customer to buy for.
 0. Choose **Service Management**.
 0. Choose **Visual Studio Marketplace**.
-0. Make sure you're customer's name is in the upper right corner.
+0. Make sure your customer's name is in the upper right corner.
 0. Choose **Subscriptions**.
 0. Choose Enterprise or Professional for Visual Studio.
 0. Choose **Buy**.
@@ -66,10 +65,10 @@ To view Visual Studio pricing for CSP partners, log into the [Partner Center](ht
 
 Here's how to interpret what you see on this spreadsheet:
 
-| Meter category    |   Name                 |  Units                                |           What this is                          |
-|-------------------|------------------------|---------------------------------------|-------------------------------------------------|
-| Visual Studio     | Enterprise             |  Subscription                         | Visual Studio Enterprise monthly subscription   |
-| Visual Studio     | Professional           |  Subscription                         | Visual Studio Professional monthly subscription |
+| Meter category    |   Name         |  Units         |           What this is                          |
+|-------------------|----------------|----------------|-------------------------------------------------|
+| Visual Studio     | Enterprise     |  Subscription  | Visual Studio Enterprise monthly subscription   |
+| Visual Studio     | Professional   |  Subscription  | Visual Studio Professional monthly subscription |
 
 We offer a 5% discount on the 6th unit you buy (for a given customer) each month of each Visual Studio subscription. That's why you see two rows for each subscription option. One row shows a "Minimum Value" of 0, which you should interpret as the base price for units 1 through 5. The other row shows a "Minimum Value" of 5, so this is the 5% discount price that applies to units 6 and above.
 

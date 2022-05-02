@@ -12,6 +12,8 @@ ms.workload:
   - "multiple"
 ---
 # VSG_DEFAULT_RUN_FILENAME
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Defines the default file name of the graphics log file.
 
 ## Syntax

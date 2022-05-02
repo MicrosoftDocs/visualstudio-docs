@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # FIELD_INFO_FIELDS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies what information to retrieve about an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.
 
 ## Syntax

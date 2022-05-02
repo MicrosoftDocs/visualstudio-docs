@@ -12,8 +12,9 @@ ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
-
 # Remote R Service for Linux
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Remote R Service for Linux is currently packaged as rtvs-daemon. The daemon is supported and tested on Ubuntu 16.04, 16.10 LTS desktop, server, and Windows Subsystem for Linux running Ubuntu. The bulk of this article provides instructions for setting up Remote R Service on these different systems.
 

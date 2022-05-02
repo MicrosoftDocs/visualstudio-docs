@@ -16,6 +16,8 @@ ms.workload:
   - "dotnet"
 ---
 # IDiaSymbol::get_hasManagedCode
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag indicating whether the module contains managed code.
 
 ## Syntax

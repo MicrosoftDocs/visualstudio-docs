@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IPropertyProxyEESide::ResolveAssemblyRef
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines the location of the specified managed assembly reference.
 
 ## Syntax

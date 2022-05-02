@@ -13,8 +13,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Quickstart: Create your first Python web app using Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this 5-10 minute introduction to Visual Studio as a Python IDE, you create a simple Python web application based on the Flask framework. You create the project through discrete steps that help you learn about Visual Studio's basic features.
 
@@ -282,7 +283,6 @@ You might have noticed that the **Add** > **New Item** dialog box displays many 
 Congratulations on running your first Python app from Visual Studio. You've learned a little about using Visual Studio as a Python IDE!
 
 > [!div class="nextstepaction"]
-> [Deploy the app to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md)
 
 Because the steps you followed in this Quickstart are fairly generic, you've probably guessed that they can and should be automated. Such automation is the role of Visual Studio project templates. Go through [Quickstart - Create a Python project using a template](../python/quickstart-02-python-in-visual-studio-project-from-template.md) to create a web app similar to the one in this article, but with fewer steps.
 

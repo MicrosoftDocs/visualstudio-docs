@@ -18,6 +18,8 @@ ms.workload:
 - vssdk
 ---
 # Program nodes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In the debugger architecture, a *program node*:
 
 - Is a lightweight description of a program.

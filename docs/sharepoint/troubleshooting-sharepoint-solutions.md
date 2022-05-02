@@ -21,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # Troubleshoot SharePoint solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The following problems or alerts might occur when you debug SharePoint solutions by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger. For more information, see [Debugging SharePoint 2007 Workflow Solutions](/previous-versions/bb386166(v=vs.100)).
 
 ## Token restrictions in sandboxed visual web parts

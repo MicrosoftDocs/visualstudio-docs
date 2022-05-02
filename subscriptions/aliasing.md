@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 97bf7474-c6c2-49b3-b2c9-f1b2808eed1a
-ms.date: 03/19/2021
+ms.date: 04/26/2022
 ms.topic: conceptual
 description: Sign-in may fail if aliases or friendly names are used
 ---
@@ -18,7 +18,6 @@ The term “aliasing” refers to users having different identities to sign in t
 Aliasing can be encountered when a company has a Microsoft Online Service for their directory sign-in, like 'JohnD@contoso.com', but users access their email accounts using aliases or friendly names, such as 'John.Doe@contoso.com'. Make sure your users are using the “Sign-in Email Address” as listed in the admin portal at https://manage.visualstudio.com to access their subscriptions. 
 
 ## What are the potential issues?
-
 Depending on the subscriber’s account type, they may encounter one of two issues. 
 
 ### Work or school account UPN mismatch issue 
@@ -73,8 +72,8 @@ The Visual Studio platform prioritizes the primary alias to show subscription de
 ## Preventing aliasing issues
 
 As an admin, there are two options to ensure your subscribers have a successful sign-in experience on [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
-- The first option (recommended), is to leverage the directory account as the sign-in for the Visual Studio Subscriptions portal at https://my.visualstudio.com.  
-- The second option (less secure), is to allow your subscribers to sign in using a different email address than their directory email address.
++ The first option (recommended), is to leverage the directory account as the sign-in for the Visual Studio Subscriptions portal at https://my.visualstudio.com.  
++ The second option (less secure), is to allow your subscribers to sign in using a different email address than their directory email address.
 
 Both of these options are configured in the admin portal by completing the following steps:  
 1. Sign into [https://manage.visualstudio.com](https://manage.visualstudio.com) 
@@ -87,17 +86,17 @@ Both of these options are configured in the admin portal by completing the follo
 > For both individual and bulk changes, the subscribers will receive an email with instructions that their sign-in email address has changed and they will need to sign in using the updated email address. It’s also important to note that if the subscriber previously activated benefits under the other sign-in address, they’ll need to continue using the other sign-in address to access them.  
 
 ## Support resources
-- For assistance with administration of Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vsadminhelp).
+For assistance with administration of Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vsadminhelp).
 
 ## See also
-- [Visual Studio documentation](/visualstudio/)
-- [Azure DevOps documentation](/azure/devops/)
-- [Azure documentation](/azure/)
-- [Microsoft 365 documentation](/microsoft-365/)
++ [Visual Studio documentation](/visualstudio/)
++ [Azure DevOps documentation](/azure/devops/)
++ [Azure documentation](/azure/)
++ [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Learn more about managing Visual Studio subscriptions.
-- [Assign individual subscriptions](assign-license.md)
-- [Assign multiple subscriptions](assign-license-bulk.md)
-- [Edit subscriptions](edit-license.md)
-- [Determine maximum usage](maximum-usage.md)
++ [Assign individual subscriptions](assign-license.md)
++ [Assign multiple subscriptions](assign-license-bulk.md)
++ [Edit subscriptions](edit-license.md)
++ [Determine maximum usage](maximum-usage.md)

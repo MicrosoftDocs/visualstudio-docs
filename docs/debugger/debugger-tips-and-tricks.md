@@ -2,7 +2,7 @@
 title: "Tips and tricks in the debugger"
 description: Learn about some of the lesser-known features supported by the Visual Studio debugger
 
-ms.date: "06/15/2018"
+ms.date: "04/26/2022"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "stepping"
@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Learn Productivity Tips and Tricks for the Debugger in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Read this topic to learn a few productivity tips and tricks for the Visual Studio debugger. For a look at the basic features of the debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md). In this topic, we cover some areas that are not included in the feature tour.
 
 ## Pin data tips
@@ -25,6 +27,10 @@ Read this topic to learn a few productivity tips and tricks for the Visual Studi
 If you frequently hover over data tips while debugging, you may want to pin the data tip for the variable to give yourself quick access. The variable stays pinned even after restarting. To pin the data tip, click the pin icon while hovering over it. You can pin multiple variables.
 
 ![Pinning a Data Tip](../debugger/media/dbg-tips-data-tips-pinned.png "PinningDataTip")
+
+::: moniker range=">= vs-2022"
+You can also customize data tips in several other ways, such as keeping a data tip expanded (a *sticky data tip*), or making a data tip transparent. For more information, see [View data values in DataTips in the code editor](../debugger/view-data-values-in-data-tips-in-the-code-editor.md).
+::: moniker-end
 
 ## Edit your code and continue debugging (C#, VB, C++)
 

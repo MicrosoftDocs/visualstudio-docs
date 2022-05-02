@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Manage test controllers and test agents
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 If you want to use Visual Studio to run tests remotely, distribute tests across multiple machines, or run load tests, you must configure a test controller, test agents, and test settings file. This topic describes how to manage test controllers and test agents after you install and configure them for the first time.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]

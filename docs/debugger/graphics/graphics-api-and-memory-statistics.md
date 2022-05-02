@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # Graphics API and Memory Statistics
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 <!-- VERSIONLESS -->
 Visual Studio 2017 and greater support the Graphics API Statistics and Memory Statistics tools.  These two tools let you view various bits of information on Direct3D API usage as well as GPU memory consumption of various resources.
 

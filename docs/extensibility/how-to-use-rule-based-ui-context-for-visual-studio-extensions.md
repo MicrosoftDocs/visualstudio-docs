@@ -13,6 +13,8 @@ ms.workload:
 ---
 # How to: Use rule-based UI Context for Visual Studio extensions
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio allows loading of VSPackages when certain well-known <xref:Microsoft.VisualStudio.Shell.UIContext>s are activated. However, these UI Contexts aren't fine grained, which leaves extension authors no choice but to pick an available UI Context that activates before the point they really wanted the VSPackage to load. For a list of well-known UI contexts, see <xref:Microsoft.VisualStudio.Shell.KnownUIContexts>.
 
 Loading packages can have a performance impact and loading them sooner than needed is not the best practice. Visual Studio 2015 introduced the concept of Rules-based UI Contexts, a mechanism that allows extension authors to define the precise conditions under which a UI Context is activated and associated VSPackages are loaded.

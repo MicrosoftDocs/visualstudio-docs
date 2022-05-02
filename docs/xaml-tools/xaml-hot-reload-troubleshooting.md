@@ -16,6 +16,8 @@ monikerRange: ">=vs-2019"
 ---
 # Troubleshooting XAML Hot Reload
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This troubleshooting guide includes detailed instructions that should resolve most issues that prevent XAML Hot Reload from working correctly.
 
 XAML Hot Reload is supported for WPF and UWP apps. For details on operating system and tooling requirements, see [Write and debug running XAML code with XAML Hot Reload](xaml-hot-reload.md).

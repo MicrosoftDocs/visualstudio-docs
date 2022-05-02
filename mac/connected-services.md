@@ -8,8 +8,9 @@ manager: dominicn
 ms.date: 11/06/2018
 ms.topic: how-to
 ---
-
 # Connected Services walkthrough in Visual Studio for Mac
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 The Connected Services workflow brings the Azure portal workflow into Visual Studio for Mac, so you don’t have to leave your project to add services.
 

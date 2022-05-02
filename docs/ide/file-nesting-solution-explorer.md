@@ -14,6 +14,8 @@ ms.technology: vs-ide-general
 ---
 # File nesting in Solution Explorer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 **Solution Explorer** nests related files to help organize them and make them easier to locate. For example, if you add a Windows Forms form to a project, the code file for the form is nested below the form in **Solution Explorer**. In ASP.NET Core projects, file nesting can be taken a step further. You can choose between the file nesting presets **Off**, **Default**, and **Web**. You can also [customize how files are nested](#customize-file-nesting) or [create solution-specific and project-specific settings](#create-project-specific-settings).
 
 > [!NOTE]

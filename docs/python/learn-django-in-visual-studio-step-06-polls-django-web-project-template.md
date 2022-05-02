@@ -15,8 +15,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Step 6: Use the Polls Django Web Project template
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Previous step: [Authenticate users in Django](learn-django-in-visual-studio-step-05-django-authentication.md)**
 
@@ -365,8 +366,6 @@ The call to `admin.site.register` then connects that class to the model (`Poll`)
 You've now explored the "Blank Django Web Project", "Django Web Project", and "Polls Django Web Project" templates in Visual Studio. You've learned all the basics of Django such as using views and templates. You've also explored routing, authentication, and used database models. You should now be able to create a web app of your own with any views and models that you need.
 
 Running a web app on your development computer is just one step in making the app available to your customers. Next steps might include the following tasks:
-
-- Deploy the web app to a production server, such as Azure App Service. See [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md).
 
 - Customize the 404 page by creating a template named *templates/404.html*. When present, Django uses this template instead of its default one. For more information, see [Error views](https://docs.djangoproject.com/en/2.0/ref/views/#error-views) in the Django documentation.
 

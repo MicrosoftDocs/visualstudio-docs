@@ -1,6 +1,6 @@
 ---
 title: Capabilities of Dotfuscator
-ms.date: 03/28/2019
+ms.date: 12/01/2021
 ms.devlang: dotnet
 ms.topic: conceptual
 keywords: Dotfuscator, Dotfuscator Community, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2017, Visual Studio 2019, Visual Studio
@@ -20,6 +20,8 @@ manager: jmartens
 ms.technology: vs-ide-general
 ---
 # Capabilities of Dotfuscator
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This page focuses on the capabilities of Dotfuscator Community with some references to advanced options available through [upgrades][upgrades].
 

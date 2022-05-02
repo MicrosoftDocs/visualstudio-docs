@@ -25,6 +25,8 @@ ms.workload:
   - multiple
 ---
 # How Can I Keep Focus When Stepping Through My App?
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## Description
  My program has a window-activation problem. Stepping through the program with the debugger interferes with my ability to reproduce the problem because my program keeps losing focus. Is there any way to avoid this?
 

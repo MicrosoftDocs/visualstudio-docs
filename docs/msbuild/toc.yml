@@ -73,6 +73,12 @@ items:
         href: how-to-ignore-errors-in-tasks.md
       - name: Build a project that has resources
         href: how-to-build-a-project-that-has-resources.md
+      - name: Create a custom task for code generation
+        href: tutorial-custom-task-code-generation.md
+      - name: Create a REST API client in a build
+        href: tutorial-rest-api-client-msbuild.md
+      - name: Test a custom task
+        href: tutorial-test-custom-task.md
       - name: Inline tasks
         items:
         - name: MSBuild inline tasks
@@ -503,6 +509,10 @@ items:
         href: errors/msb3190.md
       - name: MSB3270
         href: errors/msb3270.md
+      - name: MSB3721
+        href: errors/msb3271.md
+      - name: MSB3273
+        href: errors/msb3273.md
       - name: MSB3274
         href: errors/msb3274.md
       - name: MSB3275
@@ -629,6 +639,20 @@ items:
         href: errors/msb8041.md
       - name: MSB8042
         href: errors/msb8042.md
+      - name: MSB8053
+        href: errors/msb8053.md
+      - name: MSB8054
+        href: errors/msb8054.md
+      - name: MSB8055
+        href: errors/msb8055.md
+      - name: MSB8056
+        href: errors/msb8056.md
+      - name: MSB8057
+        href: errors/msb8057.md
+      - name: MSB8058
+        href: errors/msb8058.md
+      - name: MSB8059
+        href: errors/msb8059.md
       - name: MSB8060
         href: errors/msb8060.md
       - name: MSB8061

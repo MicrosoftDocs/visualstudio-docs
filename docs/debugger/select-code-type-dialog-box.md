@@ -28,6 +28,8 @@ ms.workload:
 ---
 # Select Code Type Dialog Box
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 To open this dialog box, open the **Attach to Process** dialog box, and then click the **Select** button.
 
 **Automatically determine the type of code to debug**
@@ -40,7 +42,7 @@ From the list provided, choose the type(s) of code you want to debug. This can b
 - Blazor WebAssembly - Client-side Blazor WebAssembly
 - GPU - Software Emulator - C++ code running on a GPU software emulator
 - JavaScript (Chrome) - JavaScript running in Chrome
-- JavaScript (Microsoft Edge - Chromium) - JavaScript running in Chromium-based Microsoft Edge for Windows 10
+- JavaScript (Microsoft Edge - Chromium) - JavaScript running in Chromium-based Microsoft Edge for Windows 10 or later
 - JavaScript CDP (V3) Debugger - Chrome DevTools Protocol version 3, used for debugging in a CDP client
 - Managed (CoreCLR) - .NET Core
 - Managed (Native compilation) - C++/CLR code

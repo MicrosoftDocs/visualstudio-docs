@@ -16,6 +16,8 @@ ms.workload:
   - multiple
 ---
 # marker_series::marker_series constructor
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Initializes a new instance of the `marker_series` class.
 
 ## Syntax

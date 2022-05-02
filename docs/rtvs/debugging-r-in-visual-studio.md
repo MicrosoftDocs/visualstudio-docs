@@ -11,8 +11,9 @@ ms.technology: vs-rtvs
 ms.workload:
   - data-science
 ---
-
 # Debug R in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 R Tools for Visual Studio (RTVS) integrates with the full debugging experience of Visual Studio (see [Debugging in Visual Studio](../debugger/debugger-feature-tour.md). This support includes breakpoints, attaching to running processes, inspecting and watching variables, and inspecting the call stack. This article, then, explores those aspects of debugging that are unique to R and RTVS.
 

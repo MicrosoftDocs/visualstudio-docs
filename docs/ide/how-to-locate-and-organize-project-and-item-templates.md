@@ -2,7 +2,7 @@
 title: Locate templates
 description: Learn how to locate and organize project and item templates.
 ms.custom: SEO-VS-2020
-ms.date: 01/02/2018
+ms.date: 04/12/2022
 ms.topic: how-to
 helpviewer_keywords:
 - project templates [Visual Studio], locations
@@ -14,6 +14,8 @@ manager: jmartens
 ms.technology: vs-ide-general
 ---
 # How to: Locate and organize project and item templates
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Template files must be placed in a known location in order for them to be shown in the new project and new item dialog boxes..
 
@@ -43,7 +45,7 @@ For example, the following directory has the Visual Basic item templates for Eng
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 - *%ProgramFiles(x86)%\\Microsoft Visual Studio\\2019\\\<edition>\\Common7\IDE\ProjectTemplates\\<Language\>\\<Locale ID\>*
 
@@ -52,6 +54,18 @@ For example, the following directory has the Visual Basic item templates for Eng
 For example, the following directory has the Visual Basic item templates for English (LCID 1033):
 
 *C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\ItemTemplates\\VisualBasic\\1033*
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+- *%ProgramFiles%\\Microsoft Visual Studio\\2022\\\<edition>\\Common7\IDE\ProjectTemplates\\<Language\>\\<Locale ID\>*
+
+- *%ProgramFiles%\\Microsoft Visual Studio\\2022\\\<edition>\Common7\IDE\ItemTemplates\\<Language\>\\<Locale ID\>*
+
+For example, the following directory has the Visual Basic item templates for English (LCID 1033):
+
+*C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\ItemTemplates\\VisualBasic\\1033*
 
 ::: moniker-end
 
@@ -71,7 +85,7 @@ For example, the following directory has user project templates for C#:
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 - *%USERPROFILE%\Documents\Visual Studio 2019\Templates\ProjectTemplates*
 
@@ -80,6 +94,18 @@ For example, the following directory has user project templates for C#:
 For example, the following directory has user project templates for C#:
 
 - *C:\Users\UserName\Documents\Visual Studio 2019\Templates\ProjectTemplates\Visual C#*
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+- *%USERPROFILE%\Documents\Visual Studio 2022\Templates\ProjectTemplates*
+
+- *%USERPROFILE%\Documents\Visual Studio 2022\Templates\ItemTemplates*
+
+For example, the following directory has user project templates for C#:
+
+- *C:\Users\UserName\Documents\Visual Studio 2022\Templates\ProjectTemplates\Visual C#*
 
 ::: moniker-end
 

@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugArrayObject2::GetBaseIndices
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the base indices (lower bounds) for each index given the number of dimensions in the array.
 
 ## Syntax

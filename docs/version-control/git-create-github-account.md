@@ -12,6 +12,8 @@ ms.technology: vs-ide-general
 ---
 # Create a GitHub account to use with Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 With a GitHub account, you get [full GitHub support](https://visualstudio.microsoft.com/vs/github/) from within the [Visual Studio IDE](../get-started/visual-studio-ide.md) to both manage your code and collaborate with others on development projects.
 
 If you don't already have a GitHub account, here's how to create one.

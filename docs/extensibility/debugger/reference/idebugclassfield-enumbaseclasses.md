@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugClassField::EnumBaseClasses
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator for the base classes of this class.
 
 ## Syntax

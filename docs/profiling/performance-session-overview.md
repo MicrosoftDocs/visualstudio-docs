@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # Performance session overview
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This overview explains the basics of profiling. Developers who are new to performance work will see how the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools can help them become productive quickly and increase the performance of their code. Developers who are experienced in profiling can gain an overview of specific Profiling Tools features and processes.
 
  The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools help you identify performance issues in source code and compare the performance of possible solutions. Profiling Tools wizards and default settings can give you immediate insight into many performance issues. The features and options of the Profiling Tools provide exact control over the profiling process. This control includes the precise targeting of code sections, the collection of block-level timing information, and the inclusion of additional processor and system performance data in your data.

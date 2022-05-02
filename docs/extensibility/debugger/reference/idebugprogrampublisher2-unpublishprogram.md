@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramPublisher2::UnpublishProgram
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Makes a program unavailable to be debugged.
 
 ## Syntax

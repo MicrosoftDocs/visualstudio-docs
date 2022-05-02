@@ -10,6 +10,8 @@ ms.assetid: 5399BCB1-E317-4C7B-87B1-C531E985DE6E
 ---
 # Configure build actions
 
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+
 All files in a Visual Studio for Mac project have a build action. The build action controls what happens to the file when the project is compiled. 
 
 >[!NOTE]

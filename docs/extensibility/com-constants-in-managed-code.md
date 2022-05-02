@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # COM constants in managed code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Managed Package Framework (MPF) makes some standard COM constants available to managed code. These constants are listed below for your reference.
 
 ## Boolean HRESULT values

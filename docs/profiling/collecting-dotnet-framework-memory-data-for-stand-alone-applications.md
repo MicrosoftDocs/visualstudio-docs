@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Collect .NET Framework memory data by using the profiler command line
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This section describes the procedures and options for collecting memory allocation and object lifetime data for a .NET client (stand-alone) application by using the sampling method from the command line.
 
 ## Common tasks

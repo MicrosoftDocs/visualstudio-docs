@@ -25,6 +25,8 @@ ms.workload:
 ---
 # Refresh a UWP app in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
  You can make changes to your code while you're debugging, and then refresh a UWP app using JavaScript by choosing the **Refresh Windows app** button on the **Debug** toolbar. Choosing this button reloads the app without stopping and restarting the debugger. The Refresh feature enables you to modify HTML, CSS, and JavaScript code and quickly see the result. This feature is supported for UWP apps.
 
  Refresh doesn't maintain your app state or reflect the following changes to your app:

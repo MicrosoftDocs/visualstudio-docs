@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # Copy selection
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To copy the entire call stack from the report tab, click **Copy**. You can then paste the call stack in any program that supports that action.
 
 ## See also

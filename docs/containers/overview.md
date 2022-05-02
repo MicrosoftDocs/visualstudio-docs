@@ -9,6 +9,8 @@ ms.technology: vs-container-tools
 ---
 # Visual Studio Container Tools for Docker
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The tools included in Visual Studio for developing with Docker containers are easy to use, and greatly simplify building, debugging, and deployment for containerized applications. You can work with a container for a single project, or use container orchestration with Docker Compose or Service Fabric to work with multiple services in containers.
 
 ::: moniker range="vs-2017"
@@ -77,6 +79,9 @@ With Visual Studio 2022, you can use Docker Compose or Service Fabric as contain
 In Visual Studio 2022, the **Containers** window is available, which lets you view running containers, browse available images, view environment variables, logs, and port mappings, inspect the filesystem, attach a debugger, or open a terminal window inside the container environment. See [Use the Containers window](view-and-diagnose-containers.md).
 
 ::: moniker-end
+
+> [!NOTE]
+> Docker's licensing requirements might be different for different versions of Docker Desktop. Refer to the [Docker documentation](https://docs.docker.com/subscription/) to understand the current licensing requirements for using your version of Docker Desktop for development in your situation.
 
 ### Adding Docker support
 

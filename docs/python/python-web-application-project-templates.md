@@ -12,14 +12,13 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Python web application project templates
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Python in Visual Studio supports developing web projects in Bottle, Flask, and Django frameworks through project templates and a debug launcher that can be configured to handle various frameworks. These templates include a *requirements.txt* file to declare the necessary dependencies. When creating a project from one of these templates, Visual Studio prompts you to install those packages (see [Install project requirements](#install-project-requirements) later in this article).
 
 You can also use the generic **Web Project** template for other frameworks such as Pyramid. In this case, no frameworks are installed with the template. Instead, install the necessary packages into the environment you're using for the project (see [Python environments window - Package tab](python-environments-window-tab-reference.md#packages-tab)).
-
-For information on deploying a Python web app to Azure, see [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md).
 
 ## Use a project template
 
@@ -147,4 +146,3 @@ If you have settings for another framework that you would like to share, or if y
 ## See also
 
 - [Python item templates reference](python-item-templates.md)
-- [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md)

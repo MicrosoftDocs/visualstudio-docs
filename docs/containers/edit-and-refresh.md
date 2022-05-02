@@ -12,6 +12,8 @@ ms.technology: vs-container-tools
 ---
 # Debug apps in a local Docker container
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio provides a consistent way to develop Docker containers and validate your application locally.
 You can run and debug your apps in Linux or Windows containers running on your local Windows desktop with Docker installed, and you don't have to restart the container each time you make a code change.
 
@@ -65,9 +67,9 @@ If you have a project and you've added Docker support as described in the [overv
 [!INCLUDE [create-aspnet5-app-2022](../azure/includes/vs-2022/create-aspnet5-app-2022.md)]
 ::: moniker-end
 
-### Edit your code and refresh
+### Edit your Razor pages and refresh
 
-To quickly iterate changes, you can start your application in a container. Then, continue to make changes, viewing them as you would with IIS Express.
+To quickly iterate changes in your Razor pages, you can start your application in a container. Then, continue to make changes, viewing them as you would with IIS Express. 
 
 1. Make sure that Docker is set up to use the container type (Linux or Windows) that you are using. Right-click on the Docker icon on the Taskbar, and choose **Switch to Linux containers** or **Switch to Windows containers** as appropriate.
 

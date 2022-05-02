@@ -2,7 +2,7 @@
 title: Code style options and code cleanup
 description: Learn how to configure Visual Studio to apply code style preferences using the Code Cleanup (Visual Studio 2019) and Format Document (Visual Studio 2017) commands.
 ms.custom: SEO-VS-2020
-ms.date: 02/24/2022
+ms.date: 03/28/2022
 ms.topic: conceptual
 author: mikejo5000
 ms.author: mikejo
@@ -16,7 +16,9 @@ ms.workload:
 ---
 # Code style preferences
 
-You can define code style settings per-project by using an [EditorConfig file](#code-styles-in-editorconfig-files), or for all code you edit in Visual Studio on the text editor [**Options** page](#code-styles-in-the-options-dialog-box). For C# code, you can also configure Visual Studio to apply these code style preferences using the **Code Cleanup** (Visual Studio 2019) and **Format Document** (Visual Studio 2017) commands.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+You can define code style settings per-project by using an [EditorConfig file](#code-styles-in-editorconfig-files), or for all code you edit in Visual Studio on the text editor [**Options** page](#code-styles-in-the-options-dialog-box). For C# code, you can also configure Visual Studio to apply these code style preferences using the **Code Cleanup** (Visual Studio 2019, Visual Studio 2022) and **Format Document** (Visual Studio 2017) commands.
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Editor behavior in Visual Studio for Mac](/visualstudio/mac/editor-behavior).
@@ -25,11 +27,19 @@ You can define code style settings per-project by using an [EditorConfig file](#
 
 [Code style settings](/dotnet/fundamentals/code-analysis/code-style-rule-options) for .NET can be specified by adding an [EditorConfig](create-portable-custom-editor-options.md) file to your project. EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in an EditorConfig file take precedence over code styles that are specified in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project.
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 You can manually populate your EditorConfig file, or you can automatically generate the file based on the code style settings you've chosen in the Visual Studio **Options** dialog box. This options page is available at **Tools** > **Options** > **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**. Click **Generate .editorconfig file from settings** to automatically generate a coding style *.editorconfig* file based on the settings on this **Options** page.
 
-![Generate editorconfig file from settings in Visual Studio 2019](media/vs-2019/generate-editorconfig-file-small.png)
+![Screenshot of Generate editorconfig file from settings.](media/vs-2019/generate-editorconfig-file-small.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+You can manually populate your EditorConfig file, or you can automatically generate the file based on the code style settings you've chosen in the Visual Studio **Options** dialog box. This options page is available at **Tools** > **Options** > **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**. Click **Generate .editorconfig file from settings** to automatically generate a coding style *.editorconfig* file based on the settings on this **Options** page.
+
+![Screenshot of Generate editorconfig file from settings.](media/vs-2022/generate-editorconfig-file-small.png)
 
 ::: moniker-end
 
@@ -41,13 +51,19 @@ Each item in the list shows a preview of the preference when selected:
 
 ::: moniker range="vs-2017"
 
-![Code style options](media/code-style-quick-actions-dialog.png)
+![Screenshot of code style options.](media/code-style-quick-actions-dialog.png)
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
-![Code style options](media/vs-2019/code-style-quick-actions-dialog.png)
+![Screenshot of code style options.](media/vs-2019/code-style-quick-actions-dialog.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+![Screenshot of code style options.](media/vs-2022/code-style-quick-actions-dialog.png)
 
 ::: moniker-end
 
@@ -76,7 +92,7 @@ You can configure the **Format Document** command (**Edit** > **Advanced** > **F
 
 Configure which settings you want **Format Document** to apply on the [Formatting options page](reference/options-text-editor-csharp-formatting.md#format-document-settings).
 
-![Code style settings for format document in Visual Studio 2017](media/format-document-settings-experiment.png)
+![Screenshot of code style settings for format document.](media/format-document-settings-experiment.png)
 
 > [!TIP]
 > Rules configured with a severity of **None** don't participate in code cleanup but can be individually applied via the **Quick Actions and Refactorings** menu.
@@ -85,24 +101,44 @@ The first time you trigger the **Format Document** command, a yellow info bar pr
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
-For C# code files, Visual Studio 2019 has a **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**) to apply code styles from an EditorConfig file or from the **Code Style** options page. If an *.editorconfig* file exists for the project, those are the settings that take precedence.
+For C# code files, Visual Studio has a **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**) to apply code styles from an EditorConfig file or from the **Code Style** options page. If an *.editorconfig* file exists for the project, those are the settings that take precedence.
 
-![Execute code cleanup in Visual Studio 2019](media/execute-code-cleanup.png)
+![Screenshot of Execute code cleanup.](media/vs-2019/execute-code-cleanup.png)
 
 > [!TIP]
 > Rules configured with a severity of **None** don't participate in code cleanup but can be individually applied via the **Quick Actions and Refactorings** menu.
 
 First, configure which code styles you want to apply (in one of two profiles) in the **Configure Code Cleanup** dialog box. To open this dialog box, click the expander arrow next to the code cleanup broom icon and then choose **Configure Code Cleanup**.
 
-![Configure Code Cleanup in Visual Studio 2019](media/configure-code-cleanup.png)
+![Screenshot of Configure Code Cleanup.](media/vs-2019/configure-code-cleanup.png)
 
 After you've configured code cleanup, you can either click on the broom icon or press **Ctrl**+**K**, **Ctrl**+**E** to run code cleanup. You can also run code cleanup across your entire project or solution. Right-click on the project or solution name in **Solution Explorer**, select **Analyze and Code Cleanup**, and then select **Run Code Cleanup**.
 
-![Run Code Cleanup across entire project or solution](media/run-code-cleanup-project-solution.png)
+![Screenshot of Run Code Cleanup across entire project or solution.](media/vs-2019/run-code-cleanup-project-solution.png)
 
 ::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+For C# code files, Visual Studio has a **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**) to apply code styles from an EditorConfig file or from the **Code Style** options page. If an *.editorconfig* file exists for the project, those are the settings that take precedence.
+
+![Screenshot of Execute code cleanup.](media/vs-2022/execute-code-cleanup.png)
+
+> [!TIP]
+> Rules configured with a severity of **None** don't participate in code cleanup but can be individually applied via the **Quick Actions and Refactorings** menu.
+
+First, configure which code styles you want to apply (in one of two profiles) in the **Configure Code Cleanup** dialog box. To open this dialog box, click the expander arrow next to the code cleanup broom icon and then choose **Configure Code Cleanup**.
+
+![Screenshot of Configure Code Cleanup.](media/vs-2022/configure-code-cleanup.png)
+
+After you've configured code cleanup, you can either click on the broom icon or press **Ctrl**+**K**, **Ctrl**+**E** to run code cleanup. You can also run code cleanup across your entire project or solution. Right-click on the project or solution name in **Solution Explorer**, select **Analyze and Code Cleanup**, and then select **Run Code Cleanup**.
+
+![Screenshot of Run Code Cleanup across entire project or solution.](media/vs-2022/run-code-cleanup-project-solution.png)
+
+::: moniker-end
+
 ::: moniker range=">=vs-2022"
 If you want your code style settings to be applied every time you save a file, go to **Options** > **Text Editor** > **Code Cleanup** and select **Run Code Cleanup profile on save**.
 ::: moniker-end

@@ -23,6 +23,8 @@ ms.workload:
 ---
 # Enable access to VBA to create or open a Visual Studio Tools for the Microsoft Office system project
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You must explicitly enable access to the Visual Basic for Applications (VBA) project system in Microsoft Office before you can create or open a Visual Studio Tools for the Microsoft Office system project.
 
  Microsoft Office development projects require access to the Visual Basic for Applications (VBA) project system in Microsoft Office Word and Microsoft Office Excel, even though the projects do not use Visual Basic for Applications. Design-time support of controls in both Visual Basic and C# projects depends on the Visual Basic for Applications project system.

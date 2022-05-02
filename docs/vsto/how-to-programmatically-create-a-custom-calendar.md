@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically create a custom calendar
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example creates a new Calendar folder named **PersonalCalendar**, and then creates a new Appointment item and adds it to the Calendar folder. The code then displays the Calendar folder.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

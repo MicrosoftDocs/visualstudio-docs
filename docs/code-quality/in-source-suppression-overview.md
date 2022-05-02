@@ -20,6 +20,8 @@ ms.workload:
 ---
 # Suppress code analysis violations
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 It is often useful to indicate that a warning is not applicable. Suppressing code analysis violations indicates team members the code was reviewed, and the warning can be suppressed. The following sections describe the different ways to suppress code analysis violations using the Visual Studio IDE.
 
 ::: moniker range=">=vs-2019"
@@ -103,7 +105,7 @@ The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is
 In C++/CLI, use the macros CA\_SUPPRESS\_MESSAGE or CA\_GLOBAL\_SUPPRESS_MESSAGE in the header file to add the attribute.
 
 > [!NOTE]
-> You should not use in-source suppressions on release builds, to prevent shipping the in-source suppression metadata accidentally. Additionally, because of the processing cost of in-source suppression, the performance of your application can be degraded.
+> You should not use in-source suppressions on release builds, to prevent shipping the in-source suppression metadata accidentally.
 
 ::: moniker range="vs-2017"
 

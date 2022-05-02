@@ -12,8 +12,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Refactor Python code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio provides several commands for automatically transforming and cleaning up your Python source code:
 

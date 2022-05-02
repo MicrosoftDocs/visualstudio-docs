@@ -14,6 +14,8 @@ ms.workload:
   - multiple
 ---
 # Collect application statistics for services by using the profiler sampling method
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section describes the procedures and options for collecting performance statistics for Windows services using the sampling method from the command line.
 
 > [!NOTE]

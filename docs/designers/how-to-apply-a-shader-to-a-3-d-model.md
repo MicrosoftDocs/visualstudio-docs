@@ -14,6 +14,8 @@ ms.workload:
 ---
 # How to: Apply a shader to a 3D model
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This article demonstrates how to use the Model Editor to apply a Directed Graph Shader Language (DGSL) shader to a 3D model.
 
 ## Apply a shader to a 3D model

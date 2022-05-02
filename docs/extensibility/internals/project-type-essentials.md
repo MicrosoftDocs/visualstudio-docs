@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Project Type Essentials
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] includes several project types for languages such as [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)]. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] also lets you create your own project types.
 
  If you just want to add custom commands, editors, or tool windows to [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], you can do so without creating a new project type. For more information, see the following topics:

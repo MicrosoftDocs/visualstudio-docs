@@ -9,7 +9,9 @@ ms.custom: devdivchpfy22
 ms.assetid: 8B8CEBE8-00DA-4AD1-8193-77F58B57F244
 ---
 
-# .NET Core support
+# Supported versions of .NET
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 The following table describes the versions of .NET Core supported by the stable and preview versions of Visual Studio for Mac:
 

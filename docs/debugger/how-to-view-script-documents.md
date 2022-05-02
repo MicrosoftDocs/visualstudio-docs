@@ -21,6 +21,8 @@ ms.workload:
 ---
 # How to: View Script Documents (JavaScript)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Server-side script files are visible in Solution Explorer. Client-side script files are visible only when you are in debug mode or break mode. Client-side script files appear in the **Script Documents** node.
 
 For some application types that dynamically generate pages, it is easier to enter break mode and debug when you set a breakpoint from a script document that is loaded in the browser. Similarly, you can add the `debugger` statement from a loaded script document to enter break mode. This article shows how to view these documents.

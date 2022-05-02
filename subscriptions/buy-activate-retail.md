@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 76654645-08ee-445d-b9ee-123126d1f0fb
-ms.date: 10/11/2021
+ms.date: 04/26/2022
 ms.topic: how-to
 description:  Learn how to purchase Visual Studio subscriptions in the Microsoft Store and activate them in the Visual Studio subscriptions portal.
 ---
@@ -16,9 +16,9 @@ Visual Studio subscriptions are available through various channels. Choose from 
 Need help with deciding which subscription is right for you?  Check out our [subscription benefits page](https://visualstudio.microsoft.com/vs/benefits/).  
 
 Visual Studio subscriptions available through the Microsoft Store include:
-- [Visual Studio Enterprise](https://www.microsoft.com/p/visual-studio-enterprise-subscription/dg7gmgf0dst4?activetab=pivot%3aoverviewtab)
-- [Visual Studio Professional](https://www.microsoft.com/p/visual-studio-professional-subscription/dg7gmgf0dst3?activetab=pivot%3aoverviewtab)
-- [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab)
++ [Visual Studio Enterprise](https://www.microsoft.com/p/visual-studio-enterprise-subscription/dg7gmgf0dst4?activetab=pivot%3aoverviewtab)
++ [Visual Studio Professional](https://www.microsoft.com/p/visual-studio-professional-subscription/dg7gmgf0dst3?activetab=pivot%3aoverviewtab)
++ [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab)
 
 Each of these subscriptions offers the option to make an initial purchase or to renew an existing subscription.  Renewal pricing, which reflects a significant discount, is only available for existing subscriptions. 
 
@@ -43,15 +43,15 @@ After you purchase a Visual Studio subscription through the Microsoft Store, you
 If you have any questions about purchasing through the Microsoft Store, help is available.  Contact [Microsoft Store Support](https://support.microsoft.com/help/28808/microsoft-store-contact-support?ocid=MSCOMStoreFooter-ContactUs).
 
 ## Resources 
-- [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp)
+[Visual Studio subscriptions support](https://my.visualstudio.com/gethelp)
 
 ## See also
-- [Visual Studio documentation](/visualstudio/)
-- [Azure DevOps documentation](/azure/devops/)
-- [Azure documentation](/azure/)
-- [Microsoft 365 documentation](/microsoft-365/)
++ [Visual Studio documentation](/visualstudio/)
++ [Azure DevOps documentation](/azure/devops/)
++ [Azure documentation](/azure/)
++ [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Once you've activated your subscription, visit the [Benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) page to see all the tools, services, training, and support benefits included in your subscription.  We recommend setting up these benefits to get started:
-- [Visual Studio](vs-ide-benefit.md)
-- [Azure DevOps](vs-azure-devops.md)
++ [Visual Studio](vs-ide-benefit.md)
++ [Azure DevOps](vs-azure-devops.md)

@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Syntax Coloring in a Legacy Language Service
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio uses a coloring service to identify elements of the language and display them with the specified colors in an editor.
 
 ## Colorizer Model

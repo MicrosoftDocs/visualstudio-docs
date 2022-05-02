@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # MACHINE_INFO_FLAGS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Used to describe a machine.
 
 ## Syntax

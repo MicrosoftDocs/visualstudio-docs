@@ -21,6 +21,8 @@ ms.workload:
 - data-storage
 ---
 # Walkthrough: Creating a WCF Data Service with WPF and Entity Framework
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] that is hosted in an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application and then access it from a Windows Forms application.
 
 In this walkthrough you:
@@ -38,6 +40,9 @@ In this walkthrough you:
 - Optionally add filtering capabilities to the application.
 
 ## Prerequisites
+
+The WCF tools are not installed with the .NET workload; use the Visual Studio Installer to modify your installation. In the installer, choose **Windows Communication Foundation** under Individual Components. See [Modify Visual Studio](../install/modify-visual-studio.md).
+
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
 1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.

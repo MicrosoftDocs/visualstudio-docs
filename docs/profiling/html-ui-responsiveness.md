@@ -21,6 +21,8 @@ ms.workload:
   - uwp
 ---
 # Analyze HTML UI responsiveness in Universal Windows Apps
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This topic describes how to isolate performance problems in your apps using the UI Responsiveness Profiler, a performance tool available for Universal Windows Apps.
 
  The UI Responsiveness Profiler can help you isolate problems such as UI responsiveness issues or platform side effects that typically occur with these symptoms:

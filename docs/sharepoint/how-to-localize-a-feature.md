@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Localize a feature
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   By default, feature titles and descriptions use hard-coded string values. To localize the feature title and description, replace the strings with expressions that reference localized resources.
 
 ## Localize a feature

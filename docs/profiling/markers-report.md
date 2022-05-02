@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # Markers Report
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Markers Report lists the markers in the displayed time frame.  Panning or zooming, or hiding lanes, might cause markers to appear or disappear. The report contains this information about each marker:
 
 - The time when it began, relative to the start of the trace.

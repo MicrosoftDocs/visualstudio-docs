@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaFrameData::get_type
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the compiler-specific frame type.
 
 ## Syntax

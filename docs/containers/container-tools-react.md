@@ -11,6 +11,8 @@ ms.topic: quickstart
 ---
 # Quickstart: Use Docker with a React Single-page App in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 With Visual Studio, you can easily build, debug, and run containerized ASP.NET Core apps, including those with client-side JavaScript such as React.js single-page app, and publish them to Azure Container Registry, Docker Hub, Azure App Service, or your own container registry. In this article, we'll publish to Azure Container Registry.
 
 ## Prerequisites
@@ -303,10 +305,61 @@ Update the Dockerfile by adding the following lines. This will copy node and npm
 ## Debug
 
 :::moniker range=">=vs-2022"
-Set the default URL for debugging. You can use the dropdown menu next to the Start button, and choose **Debug properties**. In the **Launch profile** dialog comes up, choose **Docker** and edit the URL to append `/weatherforecast` to what's already there.
+Set the launch properties for debugging. You can use the dropdown menu next to the Start button, and choose **Debug properties**. In the **Launch profile** dialog comes up, choose **Docker**.
+
+Set **Environment variables** to the following. Your SSL port number should match the HTTPS **Host Port** from the **Ports** tab of the **Containers** window.
+
+   ```
+   ASPNETCORE_ENVIRONMENT=Development,ASPNETCORE_HOSTINGSTARTUPASSEMBLIES=Microsoft.AspNetCore.SpaProxy,ASPNETCORE_HTTPS_PORT=<your SSL port>,ASPNETCORE_URLS=https:////+:443;http:////+:80
+   ```
+
+This action changes the Docker entry in the *launchSettings.json* file and enables the SPA Proxy to work correctly. Find the *launchSettings.json* file in **Solution Explorer** under **Properties**. You should see something like this, but with your app's assigned port numbers:
+
+```json
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "environmentVariables": {
+        "ASPNETCORE_URLS": "https://+:443;http://+:80",
+        "ASPNETCORE_HTTPS_PORT": "7136",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy"
+      },
+      "publishAllPorts": true,
+      "useSSL": true,
+      "httpPort": 5136,
+      "sslPort":  7136
+    }
+```
 :::moniker-end
 
 Select **Docker** from the debug drop-down in the toolbar, and start debugging the app. You might see a message with a prompt about trusting a certificate; choose to trust the certificate to continue.  The first time you build, docker downloads the base images, so it might take a bit longer.
+
+:::moniker range=">=vs-2022"
+The project uses the SPA Proxy. If the browser loads the front page before the proxy is ready, you might see a page that says you will automatically redirected when the proxy is ready.
+
+If the page never redirects, check that you are able to run the proxy. Open a Visual Studio dev command prompt, go to the ClientApp folder in your project, and then give the command, `npm run start`. You should see something like this:
+
+```
+> projectspa1@0.1.0 prestart
+> node aspnetcore-https && node aspnetcore-react
+
+
+> projectspa1@0.1.0 start
+> rimraf ./build && react-scripts start
+
+[HPM] Proxy created: [ '/weatherforecast' ]  ->  http://localhost:30449
+i ｢wds｣: Project is running at https://0.0.0.0:44445/
+i ｢wds｣: webpack output is served from
+i ｢wds｣: Content not from webpack is served from c:\Users\ghogen\source\repos\ProjectSpa1\ProjectSpa1\ClientApp\public
+i ｢wds｣: 404s will fallback to /
+Starting the development server...
+Compiled successfully!
+```
+
+If that succeeds, try starting the app again in the browser. If it doesn't succeed, check again that everything is correct in your *launchSettings.json* file.
+:::moniker-end
 
 The **Container Tools** option in the **Output** window shows what actions are taking place. You should see the installation steps associated with *npm.exe*.
 
@@ -319,7 +372,7 @@ The browser shows the app's home page.
    ![Screenshot of running app.](media/container-tools-react/vs-2019/running-app.png)
    ::: moniker-end
    ::: moniker range=">=vs-2022"
-   ![Screenshot of running app.](media/container-tools-react/vs-2022/running-app.png)
+   ![Screenshot of running app.](media/container-tools-react/vs-2022/client-app-page.png)
    ::: moniker-end
 
 :::moniker range="<=vs-2017"

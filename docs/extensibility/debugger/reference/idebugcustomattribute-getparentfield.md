@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugCustomAttribute::GetParentField
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the field to which the custom attribute is attached.
 
 ## Syntax

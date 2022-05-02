@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 02/04/2022
+ms.date: 04/05/2022
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -15,10 +15,111 @@ ms.topic: conceptual
 ms.workload:
   - "multiple"
 ---
-
 # What's new in Visual Studio docs
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Welcome to what's new in the Visual Studio docs. The following sections provide the previous three months of what's new in the Visual Studio docs.
+
+## March 2022
+
+### Azure
+
+**Updated articles**
+
+- [Overview: Connected Services](../azure/overview-connected-services.md) - Add local services section
+
+### Containers
+
+**Updated articles**
+
+- [Quickstart: Use Docker with a React Single-page App in Visual Studio](../containers/container-tools-react.md) - Add settings for SPA Proxy for .NET 6
+- [Docker Compose build properties](../containers/docker-compose-properties.md) - Update for Azure Functions support in container tools
+
+### Data tools
+
+**Updated articles**
+
+- [How to: Add, update, or remove a WCF data service reference](../data-tools/how-to-add-update-or-remove-a-wcf-data-service-reference.md) - Add info about installing WCF tools
+- [Add new connections](../data-tools/add-new-connections.md) - Update for Visual Studio 2022
+- [Save data with the TableAdapter DBDirect methods](../data-tools/save-data-with-the-tableadapter-dbdirect-methods.md) - Add note about variable names
+
+### Debugger
+
+**Updated articles**
+
+- [Manage exceptions with the debugger in Visual Studio](../debugger/managing-exceptions-with-the-debugger.md) - Update for Visual Studio 2022
+
+### Deployment
+
+**Updated articles**
+
+- [Deploy your app to a folder, IIS, Azure, or another destination](../deployment/deploying-applications-services-and-components-resources.md) - Update for Visual Studio 2022
+- [Deployment in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.](../deployment/index.yml) - Discovery work and link updates for VS deployment
+
+### IDE
+
+**New articles**
+
+- [Options dialog box: Text Editor \> Advanced](./reference/options-text-editor-advanced.md)
+
+**Updated articles**
+
+- [Code style preferences](./code-styles-and-code-cleanup.md) - Visual Studio 2022 Refresh - IDE code styles
+- [Framework targeting overview](./visual-studio-multi-targeting-overview.md) - Update text & screenshots for non-.NET Framework options
+- [How to: Specify build events (C#)](./how-to-specify-build-events-csharp.md) - Update for Visual Studio 2022
+- [Visual Studio Developer Command Prompt and Developer PowerShell](./reference/command-prompt-powershell.md) - Update Developer Command Prompt & Developer PowerShell topic
+
+### Install
+
+**Updated articles**
+
+- [Visual Studio on ARM-powered devices](../install/visual-studio-on-arm-devices.md) - Update for Visual Studio 2022 and update the tips section
+
+Following articles were updated to include modifySettings, expiration date features included in 17.1
+- [Command-line parameter examples for Visual Studio installation](../install/command-line-parameter-examples.md)
+- [Create an offline installation package of Visual Studio for local installation](../install/create-an-offline-installation-of-visual-studio.md)
+- [Update Visual Studio](../install/update-visual-studio.md)
+- [Use command-line parameters to install, update, and manage Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md)
+
+### JavaScript
+
+**Updated articles**
+
+- [Tutorial: Create a Node.js and Express app in Visual Studio](../javascript/tutorial-nodejs.md) - Merge Node.js quickstart into tutorial
+
+### MSBuild
+
+**Updated articles**
+
+- [MSBuild error MSB8041](../msbuild/errors/msb8041.md) - Update MSB8041 docs per user issue
+
+### Test
+
+**Updated articles**
+
+- [Configure unit tests by using a *.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) - Update doc
+- [First look at testing tools in Visual Studio](../test/improve-code-quality.md) - Change recommendations for UI testing to Playwright
+- [How to: Create a data-driven unit test](../test/how-to-create-a-data-driven-unit-test.md) - Add content for inline data-driven tests
+
+### XAML tools
+
+**New articles**
+
+- [XAML data binding diagnostics](../xaml-tools/xaml-data-binding-diagnostics.md)
+
+### Community contributors
+
+The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
+
+- [softwarepronto](https://github.com/softwarepronto) (2)
+- [AlexMFV](https://github.com/AlexMFV) - Alex Valente (1)
+- [dkopec91](https://github.com/dkopec91) - Daniel (1)
+- [hyoshioka0128](https://github.com/hyoshioka0128) - Hiroshi Yoshioka (1)
+- [pranavkm](https://github.com/pranavkm) - Pranav K (1)
+- [robertmclaws](https://github.com/robertmclaws) - Robert McLaws (1)
+- [sguitardude](https://github.com/sguitardude) (1)
+- [wuyuansushen](https://github.com/wuyuansushen) (1)
 
 ## February 2022
 
@@ -144,20 +245,6 @@ Following articles were updated for Visual Studio 2022:
 - [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md)
 - [How to: Install the Visual Studio Tools for Office Runtime Redistributable](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md)
 
-### Community contributors
-
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
-
-- [GitHubPang](https://github.com/GitHubPang) (4)
-- [HaythamAmairah](https://github.com/HaythamAmairah) - Haytham Amairah (2)
-- [deep-bhatt](https://github.com/deep-bhatt) - Deep Bhatt (1)
-- [fandecheng](https://github.com/fandecheng) (1)
-- [LarissaCrawford](https://github.com/LarissaCrawford) - Larissa Crawford (1)
-- [mrlacey](https://github.com/mrlacey) - Matt Lacey (1)
-- [nico-abram](https://github.com/nico-abram) - Nicolas Abram (1)
-- [r0bfr](https://github.com/r0bfr) (1)
-- [vxchin](https://github.com/vxchin) - Vincent Chin (1)
-
 ## January 2022
 
 ### Code quality
@@ -265,114 +352,3 @@ The following people contributed to the Visual Studio docs during this period. T
 
 **Updated articles**
 - [How to: Install Office primary interop assemblies](../vsto/how-to-install-office-primary-interop-assemblies.md) - Update for Visual Studio 2022
-
-## December 2021
-
-### Data tools
-
-**Updated articles**
-
-- [Create a simple data application by using ADO.NET](../data-tools/create-a-simple-data-application-by-using-adonet.md) - Data tools: Fix links and update for Visual Studio 2022
-- [Walkthrough: Create an n-tier data application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)
-  - Data tools: Fix links and update for Visual Studio 2022
-  - Add code example to fix issue #7340
-- [Create a database and add tables in Visual Studio](../data-tools/create-a-sql-database-by-using-a-designer.md) - Fix issue #7161, add constraints & update for Visual Studio 2022
-
-### Debugger
-
-**Updated articles**
-
-- [Specify symbol (.pdb) and source files in the Visual Studio debugger (C#, C++, Visual Basic, F#)](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) - SEO and edits for article on specifying symbol files in the debugger
-- [Debug using the Just-In-Time Debugger in Visual Studio](../debugger/debug-using-the-just-in-time-debugger.md) - Update JIT debugger and configuration for debug and release - project designer updates, refresh
-- [Set debug and release configurations in Visual Studio](../debugger/how-to-set-debug-and-release-configurations.md) - Update JIT debugger and configuration for debug and release - project designer updates, refresh
-- [Attach to running processes with the Visual Studio debugger](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md) - Attach to process updates - refresh screenshots
-- [Write and debug running code with Hot Reload in Visual Studio (C#, Visual Basic, C++)](../debugger/hot-reload.md) - Various improvements to the Hot Reload docs
-- [Use breakpoints in the Visual Studio debugger](../debugger/using-breakpoints.md) - Configure run settings, breakpoints - refresh screenshots
-- [First look at the Visual Studio Debugger](../debugger/debugger-feature-tour.md) - Refresh remote debugger and other debugging topics
-
-### Extensibility
-
-**New articles**
-
-Visual Studio Community Toolkit get started articles and more:
-
-- [Visual Studio Community Toolkit](../extensibility/vsix/visual-studio-community-toolkit.md)
-
-### Get started
-
-**Updated articles**
-
-- [Tutorial: Create a simple C# console app in Visual Studio (part 1 of 2)](../get-started/csharp/tutorial-console.md) - Update tutorial for .NET6 C# template code and update gifs
-
-### IDE
-
-**Updated articles**
-
-- [Sign in to Visual Studio on Windows](./signing-in-to-visual-studio.md) - Sign in update
-- [How to: Set multiple startup projects](./how-to-set-multiple-startup-projects.md) - Startup projects: update for Visual Studio 2022
-- [What's new in Visual Studio 2022](./whats-new-visual-studio-2022.md) - Add Docs links and remove some Preview mentions
-- [Find and Replace, Environment, Options Dialog Box](./reference/find-and-replace-environment-options-dialog-box.md) - Update Find & Replace (Options dialog) page
-
-### Install
-
-**Updated articles**
-
-- [Create, maintain, and deploy a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md)
-  - Replace redirected links
-  - Updated docs related to channel hopping and layouts based on TAM feedback.
-- [Set defaults for enterprise deployments of Visual Studio](../install/set-defaults-for-enterprise-deployments.md) - Updated docs related to channel hopping and layouts based on TAM feedback.
-
-### MSBuild
-
-**Updated articles**
-
-- [GenerateResource task](../msbuild/generateresource-task.md) - Add UsePreserializedResources
-- [Item functions](../msbuild/item-functions.md) - Add intrinsic item functions
-- [Customize your build](../msbuild/customize-your-build.md) - Add example for project language
-- [Understand build configurations](./understanding-build-configurations.md) - Build configurations: update for Visual Studio 2022
-
-### Profiling
-
-**Updated articles**
-
-- [First look at profiling tools](../profiling/profiling-feature-tour.md) - Update profiling feature tour, refresh screenshots
-
-### Python
-
-**Updated articles**
-
-- [How to install Python support in Visual Studio on Windows](../python/installing-python-support-in-visual-studio.md) - Refresh article for Visual Studio 2022
-- [How to create and manage Python environments in Visual Studio](../python/managing-python-environments-in-visual-studio.md) - Refresh article for Visual Studio 2022
-- [Manage required packages with requirements.txt](../python/managing-required-packages-with-requirements-txt.md) - Refresh article for Visual Studio 2022
-- [Work with Python in Visual Studio on Windows](../python/overview-of-python-tools-for-visual-studio.md) - Refresh article for Visual Studio 2022
-- [Quickstart: Clone a repository of Python code in Visual Studio](../python/quickstart-03-python-in-visual-studio-project-from-repository.md) - Refresh article for Visual Studio 2022
-- [Step 5: Install packages in your Python environment](../python/tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md) - Refresh article for Visual Studio 2022
-
-### Test
-
-**Updated articles**
-
-- [Unit test basics](../test/unit-test-basics.md) - Update Unit Test basics article, refresh screenshots
-- [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md) - Update Test Explorer doc
-- [Get started with unit testing](../test/getting-started-with-unit-testing.md) - Update get started with unit testing
-- [Get started with Live Unit Testing](../test/live-unit-testing-start.md) - Visual Studio 2022 Live Unit Testing updates
-- [How to configure and use Live Unit Testing](../test/live-unit-testing.md) - Visual Studio 2022 Live Unit Testing updates
-
-### Version control
-
-**Updated articles**
-
-- [Git experience in Visual Studio](../version-control/git-with-visual-studio.md) - Update Git Experience overview page
-
-### VSTO
-
-**Updated articles**
-
-- [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md) - VM-1210221-PIA-for-1887259_2
-
-### XAML tools
-
-**Updated articles**
-
-- [Debug or disable project code in XAML Designer](../xaml-tools/debugging-or-disabling-project-code-in-xaml-designer.md) - Add table that lists process names for different versions
-- [Troubleshooting XAML Hot Reload](../xaml-tools/xaml-hot-reload-troubleshooting.md) - Update the 'Verify that XAML Hot Reload is enabled' section

@@ -243,7 +243,7 @@ The MSBuild `GetPathOfFileAbove` property function searches upward for a directo
 This property function has the following syntax:
 
 ```
-$([MSBuild]::GetDirectoryNameOfFileAbove(string file, [string startingDirectory]))
+$([MSBuild]::GetPathOfFileAbove(string file, [string startingDirectory]))
 ```
 
 where `file` is the name of the file to search for and `startingDirectory` is an optional directory to start the search in. By default, the search will start in the current file's own directory.

@@ -22,6 +22,8 @@ ms.workload:
 ---
 # Options, Text Editor, C#, IntelliSense
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Use the **IntelliSense** options page to modify settings that affect the behavior of IntelliSense for C#. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **C#** > **IntelliSense**.
 
 The **IntelliSense** options page contains the following options:

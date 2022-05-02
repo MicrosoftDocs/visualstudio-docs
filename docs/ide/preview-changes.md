@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Preview Changes window
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 When using various *Quick Actions* or *Refactoring* tools in Visual Studio, it is often possible to preview changes that are going to be made to your project prior to accepting them. The **Preview Changes** window is where this is done.  For example, here is the **Preview Changes** window showing what will be changed during a Rename refactor in a C# project:
 
 ![Preview Changes](media/previewchanges.png)

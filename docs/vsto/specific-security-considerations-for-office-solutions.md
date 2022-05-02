@@ -23,6 +23,8 @@ ms.workload:
   - "office"
 ---
 # Specific security considerations for Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The security features provided by the Microsoft .NET Framework and Microsoft Office can help to protect your Office solutions against possible security threats. This topic explains some of those threats and provides recommendations to help protect against them. It also includes information about how Microsoft Office security settings affect Office solutions.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
