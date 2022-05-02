@@ -12,7 +12,7 @@ description: Learn how to get the most out of your Visual Studio subscriptions
 The Visual Studio [Subscriber Portal](https://my.visualstudio.com) gives you the ability to manage all your subscriptions and program memberships in a single place. You can make changes to your profile, use all of the benefits included with your subscriptions, and switch between subscriptions quickly and easily.
 
 ## Managing multiple subscriptions
-The Visual Studio subscriptions portal brings together all your Visual Studio subscriptions and programs in a single improved portal experience. For example, you might have a standard subscription such as Visual Studio Enterprise through work, and a monthly Visual Studio Professional subscription or Visual Studio Dev Essentials membership you use at home.
+The Visual Studio subscriptions portal brings together all your Visual Studio subscriptions and programs in a single improved portal experience. For example, you might have one subscription through work, and another subscription or Visual Studio Dev Essentials membership you use at home.
 
 ### Which subscription am I using?
 On the Benefits page, the subscription in use will be prominently displayed in the blue banner. It's also displayed in the upper-right of the page.
@@ -27,7 +27,7 @@ On the Benefits page, the subscription in use will be prominently displayed in t
 
 ### If your subscription is not visible...
 + It may be expired. Only active subscriptions are displayed in the Subscriber Portal.
-+ It may be associated with a different email address. For example, if you sign in to a Visual Studio Professional subscription with your work/school email and have a Visual Studio Dev Essentials membership associated with your Microsoft Account, you will only see the subscription corresponding to the email address you used to sign in to the Subscriber Portal. To see the other subscription, you will need to sign out, and then sign in with the other email address.
++ It may be associated with a different email address. If you have more than one subscription, and they are assigned to different email addresses, you will only see one at a time.  To switch to a different subscription, sign out of the portal and sign in with the email associated with the desired subscription.  
 + If your company buys subscriptions through a Volume License, your admin may not have assigned a subscription to you or may have reassigned your subscription to another user.
 
 ## Renewing my subscriptions
@@ -38,14 +38,14 @@ On the Benefits page, the subscription in use will be prominently displayed in t
 
 **Cloud subscriptions:**  Cloud subscriptions don't need to be renewed. As long as your subscription is paid, it will remain active.
 
-**Subscriptions acquired through programs:**  If you get your subscription through a program, your subscription is tied to your participation in the program. Please reach out to your program contacts for additional information.
+**Subscriptions acquired through programs:**  If you get your subscription through a program, your subscription is tied to your participation in the program. Reach out to your program contacts for additional information.
 
 + [Imagine](https://imagine.microsoft.com/about)
 + [Microsoft Partner Network](https://partner.microsoft.com)
 + [Microsoft Certified Trainer](https://www.microsoft.com/learning/mct-certification.aspx)
 
 ## Transferring subscriptions
-If your subscription was purchased through Microsoft Volume Licensing and you need to re-assign it to someone else within the organization, your admin will need to do this for you.
+If your subscription was purchased through Microsoft Volume Licensing and you need to re-assign it to someone else within the organization, your admin can do this for you.
 Retail subscriptions can be transferred to another user by contacting Customer Service. Complimentary or “Not For Resale” subscriptions cannot be transferred.
 
 ## Managing my profile
@@ -61,7 +61,7 @@ You can easily change the contact information and preferences in your profile.
 5. Select your browser's **back** button to return to the Benefits page.
 
 ### Setting communications preferences
-If you would like to receive periodic updates about your subscription and benefits, including the monthly Visual Studio Subscriptions newsletter, [update your preferences](https://app.vsaex.visualstudio.com/me?workflowID=devprogram&tab=edit) by checking the box for Visual Studio Subscriptions in your Visual Studio profile. You can change these preferences and unsubscribe at any time. 
+To receive periodic updates and newsletters about your subscription and benefits, [update your preferences](https://app.vsaex.visualstudio.com/me?workflowID=devprogram&tab=edit) and check the box for Visual Studio Subscriptions in your Visual Studio profile. You can change these preferences and unsubscribe at any time. 
 
    > [!div class="mx-imgBorder"]
    > ![Setting Preferences](_img/manage-vs-subscriptions/change-prefs.png "Select the Visual Studio subscriptions program emails checkbox to receive updates.")
