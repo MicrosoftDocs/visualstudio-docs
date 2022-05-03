@@ -27,7 +27,7 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 **Updated articles**
 
-- [Add new data sources](../data-tools/add-new-data-sources.md) - Update for VS 2022
+- [Add new data sources](../data-tools/add-new-data-sources.md) - Update for Visual Studio 2022
 
 ### Debugger
 
@@ -38,13 +38,13 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 **Updated articles**
 
 - [View data values in DataTips in the code editor](../debugger/view-data-values-in-data-tips-in-the-code-editor.md) - Add content for sticky data tips
-- [Create custom views of C++ objects in the debugger using the Natvis framework](../debugger/create-custom-views-of-native-objects.md) - Version updates and file path updates for VS 2022 to Natvis custom visualizer doc
+- [Create custom views of C++ objects in the debugger using the Natvis framework](../debugger/create-custom-views-of-native-objects.md) - Version updates and file path updates for Visual Studio 2022 to Natvis custom visualizer doc
 - [How to: Debug from a DLL project in Visual Studio (C#, C++, Visual Basic, F#)](../debugger/how-to-debug-from-a-dll-project.md) - .NET updates for debugging from a DLL
 - [How to: Debug in mixed mode (C#, C++, Visual Basic)](../debugger/how-to-debug-in-mixed-mode.md) - Update Project Designer information for mixed mode debugging
 - [Tutorial: Debug C# and C++ in the same debugging session](../debugger/how-to-debug-managed-and-native-code.md) - Update Project Designer information for mixed mode debugging
-- [Debug only user code with Just My Code](../debugger/just-my-code.md) - VS 2022 Refresh - debugger just code
-- [Watch variables with Watch windows and QuickWatch](../debugger/watch-and-quickwatch-windows.md) - VS 2022 Refresh - debugger quickwatch
-- [Navigate through code by using the Visual Studio debugger](../debugger/navigating-through-code-with-the-debugger.md) - VS 2022 Refresh - debugger navigating
+- [Debug only user code with Just My Code](../debugger/just-my-code.md) - debugger just code
+- [Watch variables with Watch windows and QuickWatch](../debugger/watch-and-quickwatch-windows.md) - debugger quickwatch
+- [Navigate through code by using the Visual Studio debugger](../debugger/navigating-through-code-with-the-debugger.md) - debugger navigating
 
 ### Deployment
 
@@ -56,15 +56,14 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 **Updated articles**
 
-- [Develop code in Visual Studio without projects or solutions](./develop-code-in-visual-studio-without-projects-or-solutions.md) - add Git experience info as an alternative to Team Explorer
+- [Develop code in Visual Studio without projects or solutions](./develop-code-in-visual-studio-without-projects-or-solutions.md) - add Git experience info
 - [Learn about Solution Explorer](./use-solution-explorer.md) - add Solution node and Project node info
 - [Options dialog box: Text Editor \> C# \> Code Style \> Formatting](./reference/options-text-editor-csharp-formatting.md) - add New Lines info & brace formatting info
 - [Optimize Visual Studio performance](./optimize-visual-studio-performance.md) - update outdated information
-- [How to: Locate and organize project and item templates](./how-to-locate-and-organize-project-and-item-templates.md) - update template locale info for VS2022
-- [Work with GitHub accounts in Visual Studio](./work-with-github-accounts.md) - [Freshness] User story 1932253 - Refresh top articles by PV for Visual Studio Acquisition
+- [How to: Locate and organize project and item templates](./how-to-locate-and-organize-project-and-item-templates.md) - update template locale info for Visual Studio 2022
+- [Work with GitHub accounts in Visual Studio](./work-with-github-accounts.md) - Refresh top articles by PV for Visual Studio Acquisition
 - [How to: Change fonts, colors, and themes in Visual Studio](./how-to-change-fonts-and-colors-in-visual-studio.md) - revise, merge, and redirect duplicative content
 - [Make code work in Visual Studio](./find-and-fix-code-errors.md) - review content, revise screenshot in intro section, and revise all alt text to standard
-- [How to: Specify build events (C#)](./how-to-specify-build-events-csharp.md) - Add info on MSBuild target and properties
 - [Manage project and solution properties](./managing-project-and-solution-properties.md) - updates to Project Designer and Properties-related pages
 - [What is the Project Designer?](./reference/project-properties-reference.md) - updates to Project Designer and Properties-related pages
 - [Settings page, Project Designer](./reference/settings-page-project-designer.md) - updates to Project Designer and Properties-related pages
@@ -73,9 +72,9 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 **Updated articles**
 
-- [Disable or move the package cache](../install/disable-or-move-the-package-cache.md) - [Freshness] User story 1932253 - Refresh top articles by PV for Visual Studio Acquisition
-- [Import or export installation configurations](../install/import-export-installation-configurations.md) - [Freshness] User story 1932253 - Refresh top articles by PV for Visual Studio Acquisition
-- [Troubleshoot network-related errors when you install or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md) - [Freshness] User story 1932253 - Refresh top articles by PV for Visual Studio Acquisition
+- [Disable or move the package cache](../install/disable-or-move-the-package-cache.md) - Refresh top articles by PV for Visual Studio Acquisition
+- [Import or export installation configurations](../install/import-export-installation-configurations.md) - Refresh top articles by PV for Visual Studio Acquisition
+- [Troubleshoot network-related errors when you install or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md) - Refresh top articles by PV for Visual Studio Acquisition
 - [Applying administrator updates that use Microsoft Endpoint Configuration Manager](../install/applying-administrator-updates.md) - Clarify SYSTEM account requirements for VS Administrator Updates
 
 ### Modeling
@@ -104,6 +103,7 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 **Updated articles**
 
+- [How to: Specify build events (C#)](./how-to-specify-build-events-csharp.md) - Add info on MSBuild target and properties
 - [Tutorial: Create a custom task for code generation](../msbuild/tutorial-custom-task-code-generation.md)
   - Document MSBuild task authoring guidance changes
   - Add new MSBuild tutorials
@@ -113,21 +113,20 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 **Updated articles**
 
 - [Analyze CPU usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)](../profiling/cpu-usage.md)
-  - Versioning updates for CPU Usage article for VS 2019 and VS 2022
+  - Versioning updates for CPU Usage article for Visual Studio 2019 and Visual Studio 2022
   - added additional content for using the cpu usage tool, how its helpful
-- [Measure memory usage in Visual Studio (C#, Visual Basic, C++, F#)](../profiling/memory-usage.md) - VS 2022 Refresh - profiling memory usage
+- [Measure memory usage in Visual Studio (C#, Visual Basic, C++, F#)](../profiling/memory-usage.md) - refresh profiling memory usage for Visual Studio 2022
 
 ### Test
 
 **Updated articles**
 
-- [Generate unit tests for fuzz testing by using IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md) - VS 2022 Refresh - test generate unit
+- [Generate unit tests for fuzz testing by using IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md) - refresh test generate unit for Visual Studio 2022
 
 ### Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
-- [evanwindom](https://github.com/evanwindom) (13)
 - [nick1941](https://github.com/nick1941) - Nicholas Piazza (1)
 - [Nightblade](https://github.com/Nightblade) - Nightblade (1)
 - [realenginerd](https://github.com/realenginerd) (1)
