@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 00/04/2022
+ms.date: 5/4/2022
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
