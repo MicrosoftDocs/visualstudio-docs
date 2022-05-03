@@ -18,8 +18,8 @@ Post questions, find answers and share your knowledge in the Developer Community
 
 Connecting to the Developer Community is simple.
 
-1. Sign in to the Visual Studio subscriptions portal at <https://my.visualstudio.com/benefits>
-0. Find the **Developer Community** in the Support section, and click **Get help**.
+1. Sign in to the Visual Studio subscriptions portal at <https://my.visualstudio.com/benefits>.
+0. Find the **Developer Community** in the Support section, and select **Get help**.
 (You can also point your browser directly to <https://developercommunity.visualstudio.com/>.)
 
    > [!div class="mx-imgBorder"]

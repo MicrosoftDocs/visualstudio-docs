@@ -18,21 +18,21 @@ Connect and engage with fellow users and Microsoft technical experts on best pra
 
 Accessing the community forum is simple.  
 
-1. Sign in to <https://my.visualstudio.com/benefits>
-0. Locate the **Microsoft Tech Community** tile and select **Get help**
+1. Sign in to <https://my.visualstudio.com/benefits>.
+0. Locate the **Microsoft Tech Community** tile and select **Get help**.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot shows the Microsoft Tech Community tile with Get help highlighted.](_img/vs-tech-community/vs-tech-community-tile.png "Select 'Get help' on the Microsoft Tech Community tile")
 
-0. If you haven't previously registered for the community, click **Get Started**
+0. If you haven't previously registered for the community, select **Get Started**.
 0. In the **Step 1: Setup your profile** section:
    + Select your preferred language
    + Enter your work email address
    + Create your profile name 
-0. For **Step 2: Code of Conduct**, please read the Code of Conduct and then click the checkbox to indicate your acceptance of the Code of Conduct and Terms of Service.
+0. For **Step 2: Code of Conduct**, please read the Code of Conduct and then select the checkbox to indicate your acceptance of the Code of Conduct and Terms of Service.
 0. Click **Register** to finish setting up your profile.
 
-That's all there is to it.  You're now ready to use the community portal.  The home page has news about the community.  To see content specific to the communities you joined, click on the **Community Hubs** drop-down at the top of the page and choose a community from your list.  You can always add communities to the list by clicking **Browse All Community Hubs** clicking on the hub of your choice, and then clicking the **Join** button.
+That's all there is to it.  You're now ready to use the community portal.  The home page has news about the community.  To see content specific to the communities you joined, select the **Community Hubs** drop-down at the top of the page and choose a community from your list.  You can always add communities to the list by selecting **Browse All Community Hubs**, selecting on the hub of your choice, and then selecting **Join**.
 
 ## Eligibility
 

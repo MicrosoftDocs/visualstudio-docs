@@ -38,8 +38,8 @@ You'll also find "how-to" guides to help you ask great questions and craft quali
 
 Accessing Microsoft Q&A is simple.
 
-1. Sign in to the Visual Studio subscriptions portal at <https://my.visualstudio.com/benefits>
-1. Find the Microsoft Q&A tile in the Support section, and click **Get help**.
+1. Sign in to the Visual Studio subscriptions portal at <https://my.visualstudio.com/benefits>.
+1. Find the Microsoft Q&A tile in the Support section, and select **Get help**.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot shows the Microsoft Q&A tile with Get help highlighted.](_img/vs-microsoft-qa/vs-microsoft-qa-tile.png "Select 'Get help' to connect to the Microsoft Q&A forum")
