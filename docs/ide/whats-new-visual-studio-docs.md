@@ -89,7 +89,7 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 **New articles**
 
-- [Title not found in: #9879](../msbuild/errors/msb3271.md)
+- [MSBuild error MSB3271](../msbuild/errors/msb3271.md)
 - [Title not found in: #9879](../msbuild/errors/msb3273.md)
 - [Tutorial: Create a custom task for code generation](../msbuild/tutorial-custom-task-code-generation.md)
 - [MSBuild error MSB8053](../msbuild/errors/msb8053.md)
