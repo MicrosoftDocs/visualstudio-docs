@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 8fccb5f6-ff61-488f-a91e-447faeda798d
-ms.date: 05/02/2022
+ms.date: 05/03/2022
 ms.topic: how-to
 ms.custom: kr2b-contr-experiment
 description:  Learn about the Microsoft Tech Community forum support benefit included in selected Visual Studio subscriptions.

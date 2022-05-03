@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 16af82df-380a-4864-9f4e-6c3442cc7da2
-ms.date: 03/17/2021
+ms.date: 05/03/2022
 ms.topic: how-to
 ms.custom: kr2b-contr-experiment
 description:  Learn about the Microsoft Q&A forum support benefit included in selected Visual Studio subscriptions.
