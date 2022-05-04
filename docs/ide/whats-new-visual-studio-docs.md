@@ -61,7 +61,7 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 - [Options dialog box: Text Editor \> C# \> Code Style \> Formatting](./reference/options-text-editor-csharp-formatting.md) - add New Lines info & brace formatting info
 - [Optimize Visual Studio performance](./optimize-visual-studio-performance.md) - update outdated information
 - [How to: Locate and organize project and item templates](./how-to-locate-and-organize-project-and-item-templates.md) - update template locale info for Visual Studio 2022
-- [Work with GitHub accounts in Visual Studio](./work-with-github-accounts.md) - Refresh top articles by PV for Visual Studio Acquisition
+- [Work with GitHub accounts in Visual Studio](./work-with-github-accounts.md) - Refresh top articles for Visual Studio Acquisition
 - [How to: Change fonts, colors, and themes in Visual Studio](./how-to-change-fonts-and-colors-in-visual-studio.md) - revise, merge, and redirect duplicative content
 - [Make code work in Visual Studio](./find-and-fix-code-errors.md) - review content, revise screenshot in intro section, and revise all alt text to standard
 - [Manage project and solution properties](./managing-project-and-solution-properties.md) - updates to Project Designer and Properties-related pages
@@ -72,17 +72,16 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 **Updated articles**
 
-- [Disable or move the package cache](../install/disable-or-move-the-package-cache.md) - Refresh top articles by PV for Visual Studio Acquisition
-- [Import or export installation configurations](../install/import-export-installation-configurations.md) - Refresh top articles by PV for Visual Studio Acquisition
-- [Troubleshoot network-related errors when you install or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md) - Refresh top articles by PV for Visual Studio Acquisition
-- [Applying administrator updates that use Microsoft Endpoint Configuration Manager](../install/applying-administrator-updates.md) - Clarify SYSTEM account requirements for VS Administrator Updates
+- [Disable or move the package cache](../install/disable-or-move-the-package-cache.md) - Refresh top articles for Visual Studio Acquisition
+- [Import or export installation configurations](../install/import-export-installation-configurations.md) - Refresh top articles for Visual Studio Acquisition
+- [Troubleshoot network-related errors when you install or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md) - Refresh top articles for Visual Studio Acquisition
+- [Applying administrator updates that use Microsoft Endpoint Configuration Manager](../install/applying-administrator-updates.md) - Clarify SYSTEM account requirements for Visual Studio Administrator Updates
 
 ### Modeling
 
 **Updated articles**
 
 - [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md)
-  - Confirm merge from repo_sync_working_branch to main to sync with https://github.com/MicrosoftDocs/visualstudio-docs (branch main); Put grammar in code blocks
 
 ### MSBuild
 
@@ -167,7 +166,7 @@ The following people contributed to the Visual Studio docs during this period. T
 **Updated articles**
 
 - [Deploy your app to a folder, IIS, Azure, or another destination](../deployment/deploying-applications-services-and-components-resources.md) - Update for Visual Studio 2022
-- [Deployment in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.](../deployment/index.yml) - Discovery work and link updates for VS deployment
+- [Deployment in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.](../deployment/index.yml) - Discovery work and link updates for Visual Studio deployment
 
 ### IDE
 
@@ -259,8 +258,8 @@ The following people contributed to the Visual Studio docs during this period. T
 **New articles**
 
 - [How to: Troubleshoot brokered services](../extensibility/how-to-troubleshoot-brokered-services.md)
-- [VS SDK error messages](../extensibility/vssdk-messages/index.md)
-- [VS SDK analyzer error VsixCompatibility1001](../extensibility/vssdk-messages/vsixcompatibility1001.md)
+- [Visual Studio SDK error messages](../extensibility/vssdk-messages/index.md)
+- [Visual Studio SDK analyzer error VsixCompatibility1001](../extensibility/vssdk-messages/vsixcompatibility1001.md)
 - [Best practices for designing a brokered service](../extensibility/best-practices-design-brokered-service.md)
 - [How to: Consume a brokered service](../extensibility/how-to-consume-brokered-service.md)
 - [How to: Provide a brokered service](../extensibility/how-to-provide-brokered-service.md)
