@@ -113,7 +113,7 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 - [Analyze CPU usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)](../profiling/cpu-usage.md)
   - Versioning updates for CPU Usage article for Visual Studio 2019 and Visual Studio 2022
-  - added additional content for using the cpu usage tool, how its helpful
+  - Added additional content for using the cpu usage tool, how it's helpful
 - [Measure memory usage in Visual Studio (C#, Visual Basic, C++, F#)](../profiling/memory-usage.md) - refresh profiling memory usage for Visual Studio 2022
 
 ### Test
