@@ -117,7 +117,7 @@ Find changes for an entire file in the file-level indicators at the bottom of th
 > [!NOTE]
 > File-level indicators are not available for C# and Visual Basic files.
 
-To get more details about a change, right-click that item. Depending on whether you are using TFVC or Git, there are options to compare the versions of the file, view details and track the changeset, get the selected version of the file, and email the author of that change. Some of these details appear in **Team Explorer**.
+To get more details about a change, right-click that item. Depending on whether you are using TFVC or Git, there are options to compare the versions of the file, view details and track the changeset, get the selected version of the file, and email the author of that change. Some of these details appear in **Team Explorer** in Visual Studio 2019 version 16.7 and earlier. In in Visual Studio 2019 version 16.8 and later, these details will appear in **Git Changes**.
 
 You can also see who changed your code over time. This can help you find patterns in your team's changes and assess their impact.
 
