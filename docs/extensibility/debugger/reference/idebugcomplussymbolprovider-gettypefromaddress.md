@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetTypeFromAddress
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves to a symbol type given its debug address.
 
 ## Syntax

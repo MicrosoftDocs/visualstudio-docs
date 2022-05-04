@@ -22,6 +22,8 @@ ms.workload:
 ---
 # Build ClickOnce applications from the command line
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], you can build projects from the command line, even if they are created in the integrated development environment (IDE). In fact, you can rebuild a project created with [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] on another computer that has only the .NET Framework installed. This allows you to reproduce a build using an automated process, for example, in a central build lab or using advanced scripting techniques beyond the scope of building the project itself.
 
 ## Use MSBuild to reproduce .NET Framework ClickOnce application deployments

@@ -16,6 +16,8 @@ monikerRange: '>= vs-2022'
 ---
 # Tutorial: Create an ASP.NET Core app with Vue in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this article, you learn how to build an ASP.NET Core project to act as an API backend and a Vue project to act as the UI.
 
 Currently, Visual Studio includes ASP.NET Core Single Page Application (SPA) templates that support Angular, React, and Vue. The templates provide a built in Client App folder in your ASP.NET Core projects that contains the base files and folders of each framework.
@@ -99,12 +101,8 @@ Once the project is created, you see some new and modified files:
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-vue-deselect-launch-browser.png" alt-text="Open debug launch profiles UI"::: 
 
-1. Next, right-click the Vue project and select the **Properties** menu and go the **Debugging** section. Change the Debugger to launch to the **launch.json** option.
- 
-   :::image type="content" source="media/vs-2022/asp-net-core-with-vue-choose-debugger.png" alt-text="Choose the debugger (launch.json)":::
-
    >[!NOTE]
-   > This setting sets the location of *launch.json*. The default path for *launch.json* is under *.vscode/launch.json*, so typically you can skip this step if you are using the default path.
+   > Currently, *launch.json* must be located under the *.vscode* folder.
 
 ## Set the startup project
 

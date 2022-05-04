@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::CreateTypeFromPrimitive
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates a type from the specified primitive type.
 
 ## Syntax

@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # &lt;application&gt; element (Office development in Visual Studio)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The `application` element of the `vstav3` namespace wraps the description of Office solutions. The child elements are different for document-level customizations and VSTO Add-ins.
 
 ## Syntax for document-level customizations

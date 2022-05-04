@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Tutorial: Create a simple application with C\#
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 By completing this tutorial, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment ([IDE](visual-studio-ide.md)).
 
 ## Prerequisites
@@ -27,7 +29,9 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 ::: moniker range=">=vs-2019"
 
 - If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+- Make sure the **.NET desktop development** workload is installed. You can verify this in the Visual Studio Installer. 
 - You can use either .NET Framework or .NET Core for this tutorial. .NET Core is the newer, more modern framework. .NET Core requires Visual Studio 2019 version 16.3 or later.
+
 ::: moniker-end
 
 ## Configure the IDE
@@ -334,11 +338,11 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
 
 ::: moniker range="<=vs-2019"
 
-When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the `Button_Click` event in *Greetings.xaml.cs*.
+When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the `Button_Click` event in *MainWindow.xaml.cs*.
 
 1. On the design surface, double-click the **Display** button.
 
-     *Greetings.xaml.cs* opens, with the cursor in the `Button_Click` event.
+     *MainWindow.xaml.cs* opens, with the cursor in the `Button_Click` event.
 
     ```csharp
     private void Button_Click(object sender, RoutedEventArgs e)
@@ -366,11 +370,11 @@ When this application runs, a message box appears after a user chooses a radio b
 
 ::: moniker range=">=vs-2022"
 
-When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the `Button_Click` event in *Greetings.xaml.cs*.
+When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the `Button_Click` event in *MainWindow.xaml.cs*.
 
 1. On the design surface, double-click the **Display** button.
 
-     *Greetings.xaml.cs* opens, with the cursor in the `Button_Click` event.
+     *MainWindow.xaml.cs* opens, with the cursor in the `Button_Click` event.
 
     ```csharp
     private void Button_Click(object sender, RoutedEventArgs e)

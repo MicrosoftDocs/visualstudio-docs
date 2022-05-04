@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Environment settings for Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 When you open Visual Studio for the first time, you can optimize the development environment for the type of development that you do the most by choosing a collection of settings. Each collection optimizes elements such as keyboard shortcuts, window layouts, project and item templates, and command visibility.
 
 The following settings collections are available:

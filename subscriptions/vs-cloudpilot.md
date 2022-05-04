@@ -4,13 +4,13 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 6255b6a3-f101-4b2c-b7fa-851eccc944b2
-ms.date: 10/18/2021
+ms.date: 04/22/2022
 ms.topic: conceptual
 description:  Learn about the CloudPilot benefit available in selected Visual Studio subscriptions
 ---
 
 # The CloudPilot benefit in Visual Studio subscriptions
-Move your apps to Microsoft Azure in a few easy steps. In minutes, identify all required code changes down to the line of code for successful migration to: Containers, VMs, App Services, SQL Azure, and/or SQL MI. Then, migrate apps to Azure using wizards leveraging ASR, DMA, and DMS.
+Move your apps to Microsoft Azure in a few easy steps. In minutes, identify all required code changes down to the line of code for successful migration to: Containers, VMs, App Services, SQL Azure, and/or SQL MI. Then, migrate apps to Azure using wizards leveraging Azure Site Recovery, DMA, and DMS.
 
 ## Overview
 CloudPilot, by UnifyCloud, is designed to help developers quickly and easily move applications to Azure.  In a fraction of time a manual assessment would take, CloudPilot accurately determines Azure PaaS & IaaS migration costs and provides detailed recommendations, down to the line of code, on what code changes need to be made for the application to run in the Cloud. CloudPilot assists in the initial assessment of the Cloud migration effort and in development planning, in the re-factoring process by offering detailed code-level changes for the Cloud, and in the final testing against enterprise technology controls and policies.
@@ -52,18 +52,18 @@ CloudPilot, by UnifyCloud, is designed to help developers quickly and easily mov
 
 ## Eligibility
 
-| Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
-|--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard)   | VL, Azure, Retail, | 2 licenses, 90 days, unlimited scans       |  No.  Available to new subscribers only          |
-| Visual Studio Enterprise subscription with GitHub Enterprise   | VL | 2 licenses, 90 days, unlimited scans       |  No.  Available to new subscribers only          |
-| Visual Studio Professional (Standard) | VL, Azure, Retail                                       | 1 license, 30 days, one scan                                                            |  No.  Available to new subscribers only           |
-| Visual Studio Professional subscription with GitHub Enterprise | VL | 1 license, 30 days, one scan                                                            |  No.  Available to new subscribers only           |
-| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                             |  N/A           |
-| MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              |  N/A          |
-| Visual Studio Enterprise (Standard)  | NFR<sup>1</sup> |Not available  | N/A |
+| Subscription Level  |  Channels  | Benefit  | Renewable?    |
+|---------------------|------------|----------|---------------|
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail, | 2 licenses, 90 days, unlimited scans       |  No.  Available to new subscribers only  |
+| Visual Studio Enterprise subscription with GitHub Enterprise   | VL | 2 licenses, 90 days, unlimited scans       |  No.  Available to new subscribers only |
+| Visual Studio Professional (Standard) | VL, Azure, Retail  | 1 license, 30 days, one scan  |  No.  Available to new subscribers only |
+| Visual Studio Professional subscription with GitHub Enterprise | VL | 1 license, 30 days, one scan |  No.  Available to new subscribers only |
+| Visual Studio Test Professional (Standard) | VL, Retail | Not available |  N/A |
+| MSDN Platforms (Standard) | VL, Retail | Not available |  N/A  |
+| Visual Studio Enterprise (Standard)  | NFR\* |Not available  | N/A |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
 
-<sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Partner Network (MPN), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark, Imagine, NFR Basic*
+\*  *Includes:  Not for Resale (NFR), FTE, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Partner Network (MPN), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark, Imagine, NFR Basic*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.

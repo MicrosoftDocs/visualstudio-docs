@@ -16,6 +16,8 @@ ms.technology: vs-ide-test
 ---
 # How to: Add custom counter sets using the Load Test Editor
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 When you create a load test with the **New Load Test Wizard**, you add an initial set of counters. These offer you a set of predefined counter sets for your load test.
 
 > [!NOTE]

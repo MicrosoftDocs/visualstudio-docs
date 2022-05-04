@@ -18,6 +18,8 @@ ms.workload:
 - vssdk
 ---
 # WizardExtension Element (Visual Studio Templates)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains the registration elements for customizing the template wizard.
 
  \<VSTemplate>

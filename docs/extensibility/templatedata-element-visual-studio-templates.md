@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # TemplateData Element (Visual Studio Templates)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.
 
  \<VSTemplate>

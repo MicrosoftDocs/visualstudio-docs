@@ -14,6 +14,8 @@ ms.workload:
   - multiple
 ---
 # Create portable profiling data files from the command line
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To make sharing of profiling data easier, you can use the [VSPerfReport](../profiling/vsperfreport.md) command-line tool to embed the symbols for a profiling run into the .*vsp* file.
 
  You can also create a pre-analyzed profiling data (.*vsps*) file that is smaller and is quicker to load in the IDE.

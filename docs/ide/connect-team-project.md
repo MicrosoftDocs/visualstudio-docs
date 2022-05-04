@@ -11,6 +11,8 @@ monikerRange: "<=vs-2019"
 ---
 # Connect to projects in Team Explorer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 ::: moniker range="vs-2017"
 
 Use the **Team Explorer** tool window to coordinate your code efforts with other team members to develop a project, and to manage work that's assigned to you, your team, or your projects. **Team Explorer** connects Visual Studio to Git and GitHub repositories, Team Foundation version control (TFVC) repositories, and projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops) or an on-premises [Azure DevOps Server](/azure/devops) (formerly known as TFS). You can manage source code, work items, and builds.

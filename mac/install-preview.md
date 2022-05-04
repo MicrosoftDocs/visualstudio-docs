@@ -10,8 +10,9 @@ ms.technology: vs-ide-install
 ms.assetid: 0E1EF257-9DE4-4653-9DF4-805CE007A1A1
 ms.topic: how-to
 ---
-
 # Install a preview version of Visual Studio for Mac
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 Before a new version of Visual Studio for Mac is officially released, it's available as a preview. The preview release gives you a chance to try out new features and get the latest bug fixes before they're fully incorporated into the product.
 

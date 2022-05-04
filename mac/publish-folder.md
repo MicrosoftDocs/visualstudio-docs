@@ -13,6 +13,8 @@ ms.topic: how-to
 ---
 # Publish to a folder using Visual Studio for Mac
 
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+
 You can use the Publish tool to publish .NET Core Console or ASP.NET Core apps to a folder.
 
 ## Prerequisites

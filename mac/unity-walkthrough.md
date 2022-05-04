@@ -10,8 +10,9 @@ ms.technology: vs-ide-general
 ms.assetid: D07FA43B-9D18-4DFA-8343-CD538FAD84DB
 ms.topic: how-to
 ---
-
 # Getting started building games with Unity in Visual Studio for Mac
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 Unity is a game engine that enables you to develop games in C#. This walkthrough shows how to get started developing and debugging Unity games using Visual Studio for Mac and the Visual Studio for Mac Tools for Unity extension alongside the Unity environment.
 

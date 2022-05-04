@@ -19,6 +19,8 @@ ms.workload:
 - multiple
 ---
 # Symbol Path Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the list of directories for the debugger to search for symbols.
 
 ## Syntax

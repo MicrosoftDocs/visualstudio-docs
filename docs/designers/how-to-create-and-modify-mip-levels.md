@@ -13,6 +13,8 @@ ms.workload:
 - multiple
 ---
 # How to: Create and modify MIP levels
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This document demonstrates how to use the **Image Editor** to generate and modify *MIP levels* for texture-space Level-of-Detail (LoD).
 
 ## Generating MIP levels

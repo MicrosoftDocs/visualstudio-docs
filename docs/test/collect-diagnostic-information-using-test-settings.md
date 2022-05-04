@@ -14,6 +14,8 @@ ms.technology: vs-ide-test
 ---
 # Collect diagnostic information using test settings
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can use *Test settings* in Visual Studio to collect extra data when you run your tests. For example, you might want to make a video recording as you run your test. There are diagnostic data adapters to:
 
 - Collect each UI action step in text format

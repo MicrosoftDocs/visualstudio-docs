@@ -14,8 +14,9 @@ monikerRange: '>= vs-2017'
 ms.workload:
   - "multiple"
 ---
-
 # Understand profiler performance collection methods
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This document outlines the data collection methods that tools within the Visual Studio Performance Profiler utilize. 
 

@@ -25,6 +25,8 @@ ms.workload:
   - "multiple"
 ---
 # Assertion Failed Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 An assertion statement specifies a condition that you expect to hold true at some particular point in your program. If that condition does not hold true, the assertion fails, execution of your program is interrupted, and this dialog box appears.
 
 |Click|To|

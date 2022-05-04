@@ -23,6 +23,8 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Bind data to controls on a Word actions pane
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates data binding to controls on an actions pane in Word. The controls demonstrate a master/detail relation between tables in a SQL Server database.
 
  [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]

@@ -20,6 +20,8 @@ ms.workload:
 ---
 # Error: SQL Can&#39;t Find SSDEBUGPS
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 SSDEBUGPS.dll is the SQL Server Debugging Host component.
 
 This error occurs when you are trying to start debugging, and indicates that the specified file is not present on the [!INCLUDE[sqprsqlong](../debugger/includes/sqprsqlong_md.md)] machine. Possible causes are that either Remote Debugging setup was never run, or that somehow this file got deleted.

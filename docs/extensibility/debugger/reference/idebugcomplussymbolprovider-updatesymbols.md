@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::UpdateSymbols
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Updates the debug symbols in memory with those from the specified data stream.
 
 ## Syntax

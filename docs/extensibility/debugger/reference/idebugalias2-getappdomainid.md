@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugAlias2::GetAppDomainId
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the identifier for the application domain.
 
 ## Syntax

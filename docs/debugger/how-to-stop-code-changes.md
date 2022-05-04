@@ -22,6 +22,8 @@ ms.workload:
   - multiple
 ---
 # How to: Stop Code Changes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 While Edit and Continue is in the process of applying code changes, you can stop the operation.
 
 > [!CAUTION]

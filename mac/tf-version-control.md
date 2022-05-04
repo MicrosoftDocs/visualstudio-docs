@@ -9,8 +9,9 @@ ms.technology: vs-ide-general
 ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
 ms.topic: troubleshooting
 ---
-
 # Does Visual Studio for Mac support Team Foundation Version Control?
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 > [!CAUTION]
 > The preview TFVC extension for Visual Studio for Mac is no longer supported in Visual Studio 2019 for Mac.

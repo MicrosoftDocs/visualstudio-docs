@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugModule2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a module—that is, an executable unit of a program—such as a DLL.
 
 ## Syntax

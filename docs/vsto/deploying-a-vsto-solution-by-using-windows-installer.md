@@ -23,8 +23,9 @@ ms.technology: office-development
 ms.workload:
   - "office"
 ---
-
 # Deploying a VSTO Solution Using Windows Installer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Summary
 

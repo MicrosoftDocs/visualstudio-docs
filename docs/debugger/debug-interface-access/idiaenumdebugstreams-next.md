@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaEnumDebugStreams::Next
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a specified number of debug streams in the enumeration sequence.
 
 ## Syntax

@@ -21,6 +21,8 @@ ms.workload:
   - "multiple"
 ---
 # Limitations on WCF Debugging
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 There are three ways that you can begin debugging a WCF service:
 
 - You are debugging a client process that calls a service. The debugger steps into the service. The service does not have to be in the same solution as your client application.

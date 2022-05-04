@@ -20,6 +20,8 @@ ms.workload:
 ---
 # Create and configure TableAdapters
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 TableAdapters provide communication between your application and a database. They connect to the database, run queries or stored procedures, and either return a new data table or fill an existing <xref:System.Data.DataTable> with the returned data. TableAdapters can also send updated data from your application back to the database.
 
 TableAdapters are created for you when you perform one of the following actions:

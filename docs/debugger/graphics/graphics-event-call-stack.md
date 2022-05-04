@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Graphics Event Call Stack
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Graphics Event Call Stack in Visual Studio Graphics Analyzer helps you map the relationship between problematic graphics events and your app's source code.
 
  This is the Event Call Stack window:

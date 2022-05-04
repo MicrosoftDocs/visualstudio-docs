@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # What&#39;s New in the Source Control Plug-in API Version 1.2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section highlights the advanced source code control functionality in the Source Control Plug-in API version 1.2. The following lists the new features in version 1.2:
 
 ## Changes

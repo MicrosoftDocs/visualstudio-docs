@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Using the Managed Package Framework to Implement a Project Type (C#)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Managed Package Framework (MPF) provides C# classes you can use or inherit from to implement your own project types. The MPF implements many of the interfaces Visual Studio expects a project type to provide, leaving you free to concentrate on implementing the particulars of your project type.
 
 ## Using the MPF Project Source Code

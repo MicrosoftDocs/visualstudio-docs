@@ -14,6 +14,8 @@ ms.workload:
 - multiple
 ---
 # Model your app&#39;s architecture
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To help ensure that your software system or application meets your users' needs, you can create models in Visual Studio as part of your description of the overall structure and behavior of your software system or application. Using models, you can also describe patterns that are used throughout the design. These models help you understand the existing architecture, discuss changes, and communicate your intentions clearly.
 
  To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).

@@ -20,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # How to: Add and remove features and items to a Package by using the Packaging Explorer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   To configure a package to deploy SharePoint items and Features, you can use the Packaging Explorer. You can adjust the SharePoint project items and Features inside your .wsp file.
 
  Alternatively, you can use the Packaging Designer to view and re-order the Features to change the activation order. For more information, see [How to: Add and remove features and items to a package by using the Package Designer](../sharepoint/how-to-add-and-remove-features-and-items-to-a-package-by-using-the-package-designer.md).

@@ -14,7 +14,8 @@ ms.technology: vs-ide-code-analysis
 ms.workload:
 - dotnet
 ---
-
 # Overview of code analysis for .NET in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio can perform code analysis of managed code in two ways: with [legacy analysis](../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md), also known as FxCop static analysis of managed assemblies, and with the more modern [.NET Compiler Platform-based code analyzers](../code-quality/roslyn-analyzers-overview.md). .NET Compiler Platform-based code analyzers, which analyze your code live as you type, replace legacy FxCop static code analysis, which only analyzes compiled code.

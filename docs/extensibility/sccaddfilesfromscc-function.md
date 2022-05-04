@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # SccAddFilesFromSCC function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function adds a list of files from source control to the currently opened project.
 
 ## Syntax

@@ -5,7 +5,7 @@ description: A list of released versions and build numbers for Visual Studio, so
 author: rjmolyneaux
 ms.author: rmolyneaux
 manager: jmartens
-ms.date: 04/12/2022
+ms.date: 05/03/2022
 ms.custom: vs-acquisition
 ms.topic: reference
 ms.workload:
@@ -16,6 +16,8 @@ open_to_public_contributors: false
 ---
 # Visual Studio build numbers and release dates
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 ::: moniker range="vs-2022"
 
 ## Visual Studio 2022
@@ -24,6 +26,12 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 17.2.0 | Preview 6 | May 3, 2022 | 17.2.32427.441 |
+| 17.2.0 | Preview 5 | April 26, 2022 | 17.2.32422.2 |
+| 17.1.6 | Release | April 26, 2022 | 17.1.32421.90 |
+| 17.2.0 | Preview 4 | April 19, 2022 | 17.2.32414.248 |
+| 17.1.5 | Release | April 19, 2022 | 17.1.32414.318 |
+| 17.0.9 | Release | April 19, 2022 | 17.0.32417.34 |
 | 17.2.0 | Preview 3 | April 12, 2022 | 17.2.32408.312 |
 | 17.1.4 | Release | April 12, 2022 | 17.1.32407.343 |
 | 17.0.8 | Release | April 12, 2022 | 17.0.32407.392 |
@@ -74,6 +82,9 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.11.13 | Release | April 19, 2022 | 16.11.32413.511 |
+| 16.9.20 | Release | April 19, 2022 | 16.9.32413.69 |
+| 16.7.28 | Release | April 19, 2022 | 16.7.32413.119 |
 | 16.11.12 | Release | April 12, 2022  | 16.11.32407.337 |
 | 16.9.19  | Release | April 12, 2022  | 16.9.32407.336 |
 | 16.7.27  | Release | April 12, 2022  | 16.7.32407.390 |
@@ -328,6 +339,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**      | **Channel** | **Release date**   | **Build version** |
 |------------------|-------------|--------------------|-------------------|
+| 15.9.47          | Release     | April 19, 2022     | 15.9.28307.1927   |
 | 15.9.46          | Release     | April 12, 2022     | 15.9.28307.1919   |
 | 15.9.45          | Release     | March 8, 2022      | 15.9.28307.1831   |
 | 15.9.44          | Release     | February 8, 2022   | 15.9.28307.1800   |

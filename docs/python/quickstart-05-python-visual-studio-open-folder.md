@@ -13,7 +13,6 @@ ms.workload:
   - data-science
 monikerRange: ">= vs-2019"
 ---
-
 # Quickstart: Open and run Python code in a folder
 
 ::: moniker range="vs-2019"

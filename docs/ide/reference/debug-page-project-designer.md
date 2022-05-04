@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Debug Page, Project Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Use the **Debug** page of the **Project Designer** to set properties for debugging behavior in a Visual Basic or C# project.
 
 To access the **Debug** page, select a project node in **Solution Explorer**. On the **Project** menu, choose **\<ProjectName> Properties**. When the **Project Designer** appears, click the **Debug** tab.

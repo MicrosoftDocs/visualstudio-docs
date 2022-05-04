@@ -2,7 +2,7 @@
 title: Advanced example for containers
 description: Learn about an advanced example for Docker containers. This example Dockerfile uses a specific version tag of the microsoft/dotnet-framework image.
 ms.custom: SEO-VS-2020
-ms.date: 01/11/2022
+ms.date: 04/28/2022
 ms.topic: conceptual
 ms.assetid: e03835db-a616-41e6-b339-92b41d0cfc70
 author: anandmeg
@@ -14,6 +14,8 @@ ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
 # Advanced example for containers
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range="vs-2017"
 
@@ -53,6 +55,8 @@ if "%ERRORLEVEL%"=="3010" (
         exit /b !ERR!
     )
 )
+
+exit /b 0
 ```
 
 ## Dockerfile
@@ -65,7 +69,7 @@ In the working directory, create the "Dockerfile" with the following content:
 # escape=`
 
 # Use a specific tagged image.
-ARG FROM_IMAGE=mcr.microsoft.com/dotnet/framework/runtime:4.8
+ARG FROM_IMAGE=mcr.microsoft.com/windows/servercore:ltsc2019
 FROM ${FROM_IMAGE}
 
 # Restore the default Windows shell for correct batch processing.
@@ -86,7 +90,7 @@ RUN `
     curl -SL --output vs_buildtools.exe https://aka.ms/vs/15/release/vs_buildtools.exe `
     `
     # Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload, excluding workloads and components with known issues.
-    && (start /w C:\TEMP\Install.cmd vs_buildtools.exe --quiet --wait --norestart --nocache `
+    && (call C:\TEMP\Install.cmd vs_buildtools.exe --quiet --wait --norestart --nocache `
         --installPath C:\BuildTools `
         --channelUri C:\TEMP\VisualStudio.chman `
         --installChannelUri C:\TEMP\VisualStudio.chman `
@@ -118,7 +122,7 @@ ENTRYPOINT ["C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.ex
 
 # Use a specific tagged image. Tags can be changed, though that is unlikely for most images.
 # You could also use the immutable tag @sha256:324e9ab7262331ebb16a4100d0fb1cfb804395a766e3bb1806c62989d1fc1326
-ARG FROM_IMAGE=mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-ltsc2019
+ARG FROM_IMAGE=mcr.microsoft.com/windows/servercore:ltsc2019
 FROM ${FROM_IMAGE}
 
 # Restore the default Windows shell for correct batch processing.
@@ -139,7 +143,7 @@ RUN `
     curl -SL --output vs_buildtools.exe https://aka.ms/vs/16/release/vs_buildtools.exe `
     `
     # Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload, excluding workloads and components with known issues.
-    && (start /w C:\TEMP\Install.cmd vs_buildtools.exe --quiet --wait --norestart --nocache modify `
+    && (call C:\TEMP\Install.cmd vs_buildtools.exe --quiet --wait --norestart --nocache install `
         --installPath "%ProgramFiles(x86)%\Microsoft Visual Studio\2019\BuildTools" `
         --channelUri C:\TEMP\VisualStudio.chman `
         --installChannelUri C:\TEMP\VisualStudio.chman `
@@ -164,9 +168,8 @@ ENTRYPOINT ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\
 ```dockerfile
 # escape=`
 
-# Use a specific tagged image. Tags can be changed, though that is unlikely for most images.
-# You could also use the immutable tag @sha256:324e9ab7262331ebb16a4100d0fb1cfb804395a766e3bb1806c62989d1fc1326
-ARG FROM_IMAGE=mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-ltsc2019
+# Use the latest Windows Server Core 2019 image.
+ARG FROM_IMAGE=mcr.microsoft.com/windows/servercore:ltsc2019
 FROM ${FROM_IMAGE}
 
 # Restore the default Windows shell for correct batch processing.
@@ -187,7 +190,7 @@ RUN `
     curl -SL --output vs_buildtools.exe https://aka.ms/vs/17/release/vs_buildtools.exe `
     `
     # Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload, excluding workloads and components with known issues.
-    && (start /w C:\TEMP\Install.cmd vs_buildtools.exe --quiet --wait --norestart --nocache modify `
+    && (call C:\TEMP\Install.cmd vs_buildtools.exe --quiet --wait --norestart --nocache install `
         --installPath "%ProgramFiles(x86)%\Microsoft Visual Studio\2022\BuildTools" `
         --channelUri C:\TEMP\VisualStudio.chman `
         --installChannelUri C:\TEMP\VisualStudio.chman `

@@ -20,6 +20,8 @@ ms.workload:
   - "multiple"
 ---
 # ClickOnce deployment manifest
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A deployment manifest is an XML file that describes a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment, including the identification of the current [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application version to deploy.
 
  Deployment manifests have the following elements and attributes.

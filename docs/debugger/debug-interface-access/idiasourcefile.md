@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSourceFile
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents a source file.
 
 ## Syntax

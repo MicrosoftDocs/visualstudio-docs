@@ -15,6 +15,8 @@ ms.workload:
   - dotnet
 ---
 # How to: Attach the profiler to a .NET service to collect concurrency data by using the command line
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a .NET Framework service and collect process and thread concurrency data using the sampling method.
 
 > [!NOTE]

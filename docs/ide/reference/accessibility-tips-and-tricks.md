@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Accessibility tips and tricks for Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. Whether you want to use keyboard shortcuts to navigate the IDE, or use high-contrast themes to improve visibility, you'll find several tips & tricks on this page about how to do so.
 
 We also cover how to use annotations to reveal useful information about your code, and how to set sound cues for build and breakpoint events.

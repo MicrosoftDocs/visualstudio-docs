@@ -20,6 +20,8 @@ ms.workload:
   - "multiple"
 ---
 # Error: A Security Check Failed Because the IIS Admin Service Did Not Respond
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This error occurs when the IIS Admin Service does not respond. This usually indicates that there is a problem with the IIS installation. First, verify that the service is running using the **Services** tool from **Administrative Tools**.
 
 ### To correct this error

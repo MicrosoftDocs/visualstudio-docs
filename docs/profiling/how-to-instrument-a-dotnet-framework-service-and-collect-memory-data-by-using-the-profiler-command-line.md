@@ -15,6 +15,8 @@ ms.workload:
 ---
 # How to: Instrument a .NET Framework service and collect memory data by using the profiler command line
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to instrument a .NET Framework service and collect memory usage data. You can collect memory allocation data, or you can collect both memory allocation and object lifetime data.
 
 > [!NOTE]
