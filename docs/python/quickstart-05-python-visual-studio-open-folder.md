@@ -111,7 +111,7 @@ Once you've [installed Python support in Visual Studio 2022](installing-python-s
 ## Set a working directory
 
 ::: moniker range="vs-2019"
-By default, Visual Studio runs a Python project opened as a folder in the root of that same folder. The code in your project, however, might assume that Python is being run in a subfolder. For example, suppose you open the root folder of the python_koans repository and then set the *python3/contemplate-koans.py* file as startup item. If you then run the code, you see an error that the *koans.txt* file cannot be found. This error happens because *contemplate-koans.py* assumes that Python is being run in the *python3* folder rather than the repository root.
+By default, Visual Studio runs a Python project opened as a folder in the root of that same folder. The code in your project, however, might assume that Python is being run in a subfolder. For example, suppose you open the root folder of the python_koans repository and then set the *python3/contemplate-koans.py* file as startup item. If you then run the code, you see an error that the *koans.txt* file can't be found. This error happens because *contemplate-koans.py* assumes that Python is being run in the *python3* folder rather than the repository root.
 
 In such cases, you must also add a line to the launch configuration JSON file to specify the working directory:
 
@@ -155,7 +155,7 @@ In such cases, you must also add a line to the launch configuration JSON file to
 
 ::: moniker range=">=vs-2022"
 
-By default, Visual Studio runs a Python project opened as a folder in the root of that same folder. The code in your project, however, might assume that Python is being run in a subfolder. For example, suppose you open the root folder of the python_koans repository and then set the *python3/contemplate-koans.py* file as startup item. If you then run the code, you see an error that the *koans.txt* file cannot be found. This error happens because *contemplate-koans.py* assumes that Python is being run in the *python3* folder rather than the repository root.
+By default, Visual Studio runs a Python project opened as a folder in the root of that same folder. The code in your project, however, might assume that Python is being run in a subfolder. For example, suppose you open the root folder of the python_koans repository and then set the *python3/contemplate-koans.py* file as startup item. If you then run the code, you see an error that the *koans.txt* file can't be found. This error happens because *contemplate-koans.py* assumes that Python is being run in the *python3* folder rather than the repository root.
 
 In such cases, you must also add a line to the launch configuration JSON file to specify the working directory:
 
