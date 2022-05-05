@@ -2,7 +2,7 @@
 title: Find code changes and other history with CodeLens
 description: Learn about CodeLens and how to use it explore the history of your code without having to leave the editor.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 05/05/2022
 ms.topic: conceptual
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.All_Languages.CodeLens
@@ -76,7 +76,7 @@ You need:
 
 - Azure DevOps Services, Team Foundation Server 2013 or later, or Git
 
-- [Skype for Business](/skypeforbusiness/) to contact your team from the code editor
+- [Microsoft Teams](/MicrosoftTeams/) or [Skype for Business](/skypeforbusiness/) to contact your team from the code editor
 
 For C# or Visual Basic code that's stored with Team Foundation Version Control (TFVC) or Git, you get CodeLens details at the class and method levels (*code element-level* indicators). If your Git repository is hosted in TfGit, you also get links to TFS work items.
 
@@ -206,7 +206,7 @@ Find the author of an item by selecting the **authors** indicator or by pressing
 
 ![Contact the owner of an item](../ide/media/codelens-contact-item-owner.png)
 
-Open the shortcut menu for an item to see the contact options. If you have Lync or Skype for Business installed, you see these options:
+Open the shortcut menu for an item to see the contact options. If you have Lync, Skype for Business, or Teams installed, you see options similar to those in the following screenshot:
 
 ![Contact options for an item](../ide/media/codelens-item-contact-menu.png)
 
@@ -289,6 +289,8 @@ Turn CodeLens file-level indicators on and off using the chevron icons at the bo
 
 **A:** This might happen because CodeLens can't find the work items in Azure Boards or TFS. Check that you're connected to the project that has those work items, and that you have permissions to see those work items. Work item details might also not show if the commit description has incorrect information about the work item IDs in Azure Boards or TFS.
 
+::: moniker range="<=vs-2019"
+
 ### Q: Why don't I see the Skype indicators?
 
 **A:** Skype indicators don't appear if you're not signed into Skype for Business, don't have it installed, or don't have a supported configuration. However, you can still send email:
@@ -302,6 +304,8 @@ Turn CodeLens file-level indicators on and off using the chevron icons at the bo
 - Lync 2010 or later alone (32-bit or 64-bit), but not Lync Basic 2013 with Windows 8.1
 
 CodeLens doesn't support having different versions of Lync or Skype installed. They might not be localized for all localized versions of Visual Studio.
+
+::: moniker-end
 
 ### Q: How do I change the font and color for CodeLens?
 
