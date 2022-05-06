@@ -2,7 +2,7 @@
 title: "Multiple Categories Are Present | Microsoft Docs"
 description: Learn that when a section that contains more than one kind of activity for a given time range, two colors are displayed, one vertically stacked on the other.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.cv.threads.timeline.multicategory"
 helpviewer_keywords:
