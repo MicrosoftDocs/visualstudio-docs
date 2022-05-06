@@ -4,8 +4,6 @@
   items: 
     - name: IDE tour
       href: ide-tour.md
-    - name: Visual Studio for Mac for Windows users
-      href: vsmac-for-windows-users.md
 - name: Installation
   items: 
     - name: Install
@@ -24,8 +22,6 @@
   items:
     - name: User accounts
       items: 
-        - name: Overview
-          href: user-accounts.md
         - name: Sign in account
           href: signing-in.md
         - name: Enable subscription
@@ -210,6 +206,8 @@
   items: 
     - name: Release notes & roadmaps
       href: /visualstudio/productinfo/mac-roadmap
+    - name: Cheatsheet on Visual Studio for Mac for Windows users
+      href: vsmac-for-windows-users.md
     - name: Troubleshooting
       items:
        - name: Logs and Exceptions
