@@ -16,6 +16,7 @@ f1_keywords:
   - "vs.cv.threads.filter"
   - "vs.cv.threads.reportnav.profile"
   - "vs.cv.threads.timeline.threadready"
+  - "vs.cv.threads.timeline.caret
   - "vs.cv.threads.reportnav.unblockedby"
   - "vs.cv.threads.activelegend"
   - "vs.cv.threads.tools.zoom"
