@@ -25,6 +25,12 @@ f1_keywords:
   - "vs.cv.threads.reportnav.profile"
   - "vs.cv.threads.timeline.sleep"
   - "vs.cv.threads.report.executionbreakdown"
+  - "vs.cv.threads.timeline.synchronization"
+  - "vs.cv.threads.timeline.threadready"
+  - "vs.cv.threads.timeline.uiprocessing"
+  - "vs.cv.threads.reportnav.unblockedby"
+  - "vs.cv.threads.activelegend"
+  - "vs.cv.threads.tools.zoom"
 helpviewer_keywords:
   - "Concurrency Visualizer, Threads View (Parallel Performance)"
 ms.assetid: 2e441103-a266-407b-88c3-fb58716257a3
@@ -435,6 +441,46 @@ The Profile view displays reports that are based on the currently visible time r
 ## Sleep time
 
 These segments in the timeline are associated with the blocking time that is categorized as Sleep. The sleep category implies that a thread has voluntarily given up its logical core and is doing no work. During this time, a thread has been blocked in an API that the Concurrency Visualizer is counting as Sleep. APIs such as `Sleep()` and `SwitchToThread()` fall into this group.
+
+## Synchronization time
+
+These segments in the timeline are associated with blocking times that are categorized as Synchronization. When a thread is marked as blocked on synchronization, one of these things is implied:
+
+- The execution of the thread may have resulted in a call to a well-known thread synchronization API such as `EnterCriticalSection()` or `WaitForSingleObject()`.
+
+- The API matching algorithm cannot be totally comprehensive, and therefore some APIs that could be mapped to other categories may also appear as synchronization because a frame in the call stack eventually reached an underlying kernel blocking primitive that was mapped to this category.
+
+  To understand the underlying cause for a thread blocking event, carefully examine the blocking call stacks and profile reports.
+
+## Thread ready connector
+
+When you click a blocking segment to see a call stack and its unblocking stack, the thread ready connector may also appear. If the unblocking event occurred on another thread in the current process, the thread ready connector visually identifies the thread and execution segment that enabled the blocked thread to resume execution.
+
+## UI processing time
+
+These segments in the timeline are associated with blocking times that are categorized as UI Processing. This implies that a thread is pumping Windows messages or performing other user interface (UI) work. During this time, a thread has been blocked in an API that the Concurrency Visualizer is counting as UI Processing. APIs such as `GetMessage()` and `MsgWaitForMultipleObjects()` fall into this group.
+
+ If no pre-defined blocking API is identified, review the call stacks and profile reports to determine the underlying causes of delay.
+
+ The UI Processing category helps you understand the responsiveness of GUI applications, and is desirable in applications that depend on UI responsiveness. For example, if the UI thread in an application achieves 100% time in UI Processing, it is probably responsive. However, if the UI thread spends considerable time in other categories, look for the root causes and consider options for reducing non-UI categories on that thread.
+
+## Unblock stack
+
+If the currently selected thread element represents a blocked segment that later began to execute after it was unblocked by another thread in the current process, the call stack for the thread that did the unblocking is shown on this tab.
+
+## Visible timeline profile
+
+The Visible Timeline Profile for the Thread Blocking View provides statistical information and links to reports. As you zoom in, zoom out, scroll horizontally, hide channels, or show channels, the numbers in the active legend change to reflect what is currently in view. To view a report about an item in the Legend, click the item.
+
+## Zoom control (threads view)
+
+The zoom control is a slider that helps you to zoom in and out on the timeline so that you can focus on areas of particular interest. Because this control zooms in on the center of the timeline view, center the area of interest before you zoom in.
+
+### Zoom in by dragging in the timeline view
+ Zooming in by dragging in the timeline view creates an area that is highlighted in yellow. When you release the mouse button, the timeline view zooms in on the selected range.
+
+### Zoom in and out by using the mouse wheel
+ Click on any point on the timeline (to ensure it has mouse focus), and then press **Ctrl** and move the mouse wheel (forward zooms in; backward zooms out).
 
 ## See also
 

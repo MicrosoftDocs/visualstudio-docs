@@ -686,12 +686,10 @@
     - name: Utilization Navigator
       href: utilization-navigator.md
     - name: Utilization View
-      items:
-      - name: Utilization View
-        href: utilization-view.md
+      href: utilization-view.md
     - name: Threads View (Parallel Performance)
       items:
-      - name: Overview of Threads View (Parallel Performance)
+      - name: Threads View (Parallel Performance)
         href: threads-view-parallel-performance.md
       - name: Threads View Messages
         items:
@@ -701,20 +699,6 @@
           href: no-thread-activity-to-show-threads-view.md
         - name: Multiple Categories Are Present
           href: multiple-categories-are-present.md
-      - name: Synchronization Time
-        href: synchronization-time.md
-      - name: Thread Ready Connector
-        href: thread-ready-connector.md
-      - name: Timeline Caret
-        href: timeline-caret.md
-      - name: UI Processing Time
-        href: ui-processing-time.md
-      - name: Unblocking Stack
-        href: unblocking-stack.md
-      - name: Visible Timeline Profile
-        href: visible-timeline-profile.md
-      - name: Zoom Control (Threads View)
-        href: zoom-control-threads-view.md
     - name: Cores View
       items:
       - name: Overview of Cores View
