@@ -26,7 +26,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can create several build configurations for a solution. For example, you can configure a test build that your QA team can use for test runs, and you can configure different kinds of builds that you can distribute to different customers.
+You can create several build configurations for a solution, in addition to the built-in configurations **Debug** and **Release**. For example, you can create a **Test** configuration for internal testing builds, and you can configure different kinds of builds that you can distribute to different customers.
 
 ## Create build configurations
 
@@ -62,7 +62,7 @@ Most project properties are not dependent on the configuration or the platform, 
 
 In the project property pages, the pages that have settings that depend on the configuration and the platform have dropdown boxes that let you choose the configuration and platform that the current values of the settings apply to.
 
-![Screenshot showing project properties that are dependent on the configuration and platform.][(./media/vs-2019/project-properties-configuration-and-platform.png)
+![Screenshot showing project properties that are dependent on the configuration and platform.](./media/vs-2019/project-properties-configuration-and-platform.png)
 :::moniker-end
 
 :::moniker range=">=vs-2022"
