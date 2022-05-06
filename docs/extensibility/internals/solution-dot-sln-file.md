@@ -1,5 +1,5 @@
 ---
-title: Solution (.Sln) file
+title: Solution (.sln) file
 description: Learn about the .sln file, which is one of the files that maintains state information for a project in Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 03/15/2019
