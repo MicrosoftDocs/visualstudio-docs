@@ -691,6 +691,10 @@
       items:
       - name: Threads View (Parallel Performance)
         href: threads-view-parallel-performance.md
+      - name: Threads View reports(Parallel Performance)
+        href: threads-view-reports.md
+      - name: Threads View timeline reports(Parallel Performance)
+        href: threads-view-timeline-reports.md
       - name: Threads View Messages
         items:
         - name: No Disk Activity to Show (Threads View)
