@@ -701,28 +701,14 @@
           href: multiple-categories-are-present.md
     - name: Cores View
       items:
-      - name: Overview of Cores View
+      - name: Cores View
         href: cores-view.md
-      - name: Cores View Legend
-        href: cores-view-legend.md
-      - name: Cores View Logical Cores
-        href: cores-view-logical-cores.md
-      - name: Cores View Timeline
-        href: cores-view-timeline.md
-      - name: Cores View Zoom Tool
-        href: cores-view-zoom-tool.md
     - name: Advanced Settings Dialog Box (Concurrency Visualizer)
       href: advanced-settings-dialog-box-concurrency-visualizer.md
     - name: Concurrency Visualizer Markers
       items:
-      - name: Overview of Concurrency Visualizer Markers
+      - name: Concurrency Visualizer Markers
         href: concurrency-visualizer-markers.md
-      - name: Flag Markers
-        href: flag-markers.md
-      - name: Message Markers
-        href: message-markers.md
-      - name: Span Markers
-        href: span-markers.md
       - name: Visualizing EventSource Events as Markers
         href: visualizing-eventsource-events-as-markers.md
     - name: Concurrency Visualizer SDK
