@@ -126,33 +126,33 @@ The **Profile Report** tab shows reports for the categories and links in the leg
 - **Execution**
   The **Execution** report shows the breakdown of the time the application spent in execution.
 
-  To find the line of code in which execution time is spent, expand the call tree and on the shortcut menu for the call tree entry, select **View Source** or **View Call Sites**. **View Source** locates the executed line of code. **View Call Sites** locates the line of code that called the executed line. If only one call site line exists, its code is highlighted. If several call sites exist, select the one you want in the dialog box, and then select **Go to source**. It's often most useful to locate the call site that has the most instances, the most time, or both. For more information, see [Execution profile report](../profiling/execution-profile-report.md).
+  To find the line of code in which execution time is spent, expand the call tree and on the shortcut menu for the call tree entry, select **View Source** or **View Call Sites**. **View Source** locates the executed line of code. **View Call Sites** locates the line of code that called the executed line. If only one call site line exists, its code is highlighted. If several call sites exist, select the one you want in the dialog box, and then select **Go to source**. It's often most useful to locate the call site that has the most instances, the most time, or both. For more information, see [Execution profile report](../profiling/threads-view-timeline-reports.md#execution-time-threads-view).
 
 - **Synchronization**
-  The **Synchronization** report shows the calls that are responsible for synchronization blocks, along with the total blocking times of each call stack. For more information, see [Synchronization time](../profiling/synchronization-time.md).
+  The **Synchronization** report shows the calls that are responsible for synchronization blocks, along with the total blocking times of each call stack. For more information, see [Synchronization time](../profiling/threads-view-timeline-reports.md#synchronization-time).
 
 - **I/O**
-  The **I/O** report shows the calls that are responsible for I/O blocks, along with the total blocking times of each call stack. For more information, see [I/O time (Threads view)](../profiling/i-o-time-threads-view.md).
+  The **I/O** report shows the calls that are responsible for I/O blocks, along with the total blocking times of each call stack. For more information, see [I/O time (Threads view)](../profiling/threads-view-timeline-reports.md#i-o-time-threads-view).
 
 - **Sleep**
-  The **Sleep** report shows the calls that are responsible for sleep blocks, along with the total blocking times of each call stack. For more information, see [Sleep time](../profiling/sleep-time.md).
+  The **Sleep** report shows the calls that are responsible for sleep blocks, along with the total blocking times of each call stack. For more information, see [Sleep time](../profiling/threads-view-timeline-reports.md#sleep-time).
 
 - **Memory Management**
-  The **Memory Management** report shows the calls where memory management blocks occurred, along with the total blocking times of each call stack. Use this information to identify areas that have excessive paging or garbage collection issues.  For more information, see [Memory management time](../profiling/memory-management-time.md).
+  The **Memory Management** report shows the calls where memory management blocks occurred, along with the total blocking times of each call stack. Use this information to identify areas that have excessive paging or garbage collection issues.  For more information, see [Memory management time](../profiling/threads-view-timeline-reports.md#memory-management-time).
 
 - **Preemption**
-  The **Preemption** report shows where processes on the system preempted the current process, and individual threads that replaced threads in the current process. You can use this information to identify the processes and threads that are most responsible for preemption. For more information, see [Preemption time](../profiling/preemption-time.md).
+  The **Preemption** report shows where processes on the system preempted the current process, and individual threads that replaced threads in the current process. You can use this information to identify the processes and threads that are most responsible for preemption. For more information, see [Preemption time](../profiling/threads-view-timeline-reports.md#preemption-time).
 
 - **UI Processing**
-  The **UI Processing** report shows the calls that are responsible for UI processing blocks, along with the total blocking times of each call stack. For more information, see [UI processing time](../profiling/ui-processing-time.md).
+  The **UI Processing** report shows the calls that are responsible for UI processing blocks, along with the total blocking times of each call stack. For more information, see [UI processing time](../profiling/threads-view-timeline-reports.md#ui-processing-time).
 
 - **Per Thread Summary**
   Select **Per Thread Summary** to display a graph showing the state of threads for the currently selected time interval. The color-coded columns show the total time each thread spent in run, blocked, I/O and other states. The threads are labeled at the bottom. When you adjust the zoom level in the timeline graph, this graph automatically updates.
 
-  At some zoom levels, some threads might not show in the graph. When this happens, ellipses (**...**) appear at the right. If the thread you want does not appear, you can hide other threads. For more information, see [Per thread summary report](../profiling/per-thread-summary-report.md).
+  At some zoom levels, some threads might not show in the graph. When this happens, ellipses (**...**) appear at the right. If the thread you want does not appear, you can hide other threads. For more information, see [Per thread summary report](../profiling/threads-view-reports.md#per-thread-summary-report).
 
 - **Disk Operations**
-  Select **Disk Operations** to show processes and threads involved in disk I/O for the current process, files they touched (for example, DLLs they loaded), how many bytes they read, and other information. You can use this report to evaluate time spent accessing files during execution, especially when your process seems to be I/O-bound. For more information, see [Disk operations report](../profiling/disk-operations-report-threads-view.md).
+  Select **Disk Operations** to show processes and threads involved in disk I/O for the current process, files they touched (for example, DLLs they loaded), how many bytes they read, and other information. You can use this report to evaluate time spent accessing files during execution, especially when your process seems to be I/O-bound. For more information, see [Disk operations report](../profiling/threads-view-reports.md#disk-operations-report-threads-view).
 
 ### Current tab
 This tab shows the call stack for a selected point on a thread segment in the timeline graph. The call stacks are trimmed to show only activity that is related to your app.
