@@ -1,25 +1,20 @@
 - name: Reference (Visual Studio Debugging APIs)
-# Auto-expanded node
   items:
   - name: Reference (Visual Studio Debugging APIs)
     href: reference-visual-studio-debugging-apis.md
   - name: API Reference (Visual Studio Debugging)
-# Auto-expanded node
     items:
     - name: API Reference (Visual Studio Debugging)
       href: api-reference-visual-studio-debugging.md
     - name: Interfaces (Visual Studio Debugging)
-# Auto-expanded node
       items:
       - name: Interfaces (Visual Studio Debugging)
         href: interfaces-visual-studio-debugging.md
       - name: Core Interfaces
-# Auto-expanded node
         items:
         - name: Core Interfaces
           href: core-interfaces.md
         - name: IDebugActivateDocumentEvent2
-# Auto-expanded node
           items:
           - name: IDebugActivateDocumentEvent2
             href: idebugactivatedocumentevent2.md
@@ -28,14 +23,12 @@
           - name: IDebugActivateDocumentEvent2::GetDocumentContext
             href: idebugactivatedocumentevent2-getdocumentcontext.md
         - name: IDebugBeforeSymbolSearchEvent2
-# Auto-expanded node
           items:
           - name: IDebugBeforeSymbolSearchEvent2
             href: idebugbeforesymbolsearchevent2.md
           - name: IDebugBeforeSymbolSearchEvent2::GetModuleName
             href: idebugbeforesymbolsearchevent2-getmodulename.md
         - name: IDebugBoundBreakpoint2
-# Auto-expanded node
           items:
           - name: IDebugBoundBreakpoint2
             href: idebugboundbreakpoint2.md
@@ -60,7 +53,6 @@
         - name: IDebugBreakEvent2
           href: idebugbreakevent2.md
         - name: IDebugBreakpointBoundEvent2
-# Auto-expanded node
           items:
           - name: IDebugBreakpointBoundEvent2
             href: idebugbreakpointboundevent2.md
@@ -69,7 +61,6 @@
           - name: IDebugBreakpointBoundEvent2::GetPendingBreakpoint
             href: idebugbreakpointboundevent2-getpendingbreakpoint.md
         - name: IDebugBreakpointChecksumRequest2
-# Auto-expanded node
           items:
           - name: IDebugBreakpointChecksumRequest2
             href: idebugbreakpointchecksumrequest2.md
@@ -78,21 +69,18 @@
           - name: IDebugBreakpointChecksumRequest2::IsChecksumEnabled
             href: idebugbreakpointchecksumrequest2-ischecksumenabled.md
         - name: IDebugBreakpointErrorEvent2
-# Auto-expanded node
           items:
           - name: IDebugBreakpointErrorEvent2
             href: idebugbreakpointerrorevent2.md
           - name: IDebugBreakpointErrorEvent2::GetErrorBreakpoint
             href: idebugbreakpointerrorevent2-geterrorbreakpoint.md
         - name: IDebugBreakpointEvent2
-# Auto-expanded node
           items:
           - name: IDebugBreakpointEvent2
             href: idebugbreakpointevent2.md
           - name: IDebugBreakpointEvent2::EnumBreakpoints
             href: idebugbreakpointevent2-enumbreakpoints.md
         - name: IDebugBreakpointRequest2
-# Auto-expanded node
           items:
           - name: IDebugBreakpointRequest2
             href: idebugbreakpointrequest2.md
@@ -101,14 +89,12 @@
           - name: IDebugBreakpointRequest2::GetRequestInfo
             href: idebugbreakpointrequest2-getrequestinfo.md
         - name: IDebugBreakpointRequest3
-# Auto-expanded node
           items:
           - name: IDebugBreakpointRequest3
             href: idebugbreakpointrequest3.md
           - name: IDebugBreakpointRequest3::GetRequestInfo2
             href: idebugbreakpointrequest3-getrequestinfo2.md
         - name: IDebugBreakpointResolution2
-# Auto-expanded node
           items:
           - name: IDebugBreakpointResolution2
             href: idebugbreakpointresolution2.md
@@ -117,7 +103,6 @@
           - name: IDebugBreakpointResolution2::GetResolutionInfo
             href: idebugbreakpointresolution2-getresolutioninfo.md
         - name: IDebugBreakpointUnboundEvent2
-# Auto-expanded node
           items:
           - name: IDebugBreakpointUnboundEvent2
             href: idebugbreakpointunboundevent2.md
@@ -126,7 +111,6 @@
           - name: IDebugBreakpointUnboundEvent2::GetReason
             href: idebugbreakpointunboundevent2-getreason.md
         - name: IDebugCanStopEvent2
-# Auto-expanded node
           items:
           - name: IDebugCanStopEvent2
             href: idebugcanstopevent2.md
@@ -139,7 +123,6 @@
           - name: IDebugCanStopEvent2::GetReason
             href: idebugcanstopevent2-getreason.md
         - name: IDebugCodeContext2
-# Auto-expanded node
           items:
           - name: IDebugCodeContext2
             href: idebugcodecontext2.md
@@ -148,7 +131,6 @@
           - name: IDebugCodeContext2::GetLanguageInfo
             href: idebugcodecontext2-getlanguageinfo.md
         - name: IDebugCodeContext3
-# Auto-expanded node
           items:
           - name: IDebugCodeContext3
             href: idebugcodecontext3.md
@@ -157,7 +139,6 @@
           - name: IDebugCodeContext3::GetProcess
             href: idebugcodecontext3-getprocess.md
         - name: IDebugCoreServer2
-# Auto-expanded node
           items:
           - name: IDebugCoreServer2
             href: idebugcoreserver2.md
@@ -176,7 +157,6 @@
           - name: IDebugCoreServer2::GetPortSupplier
             href: idebugcoreserver2-getportsupplier.md
         - name: IDebugCoreServer3
-# Auto-expanded node
           items:
           - name: IDebugCoreServer3
             href: idebugcoreserver3.md
@@ -197,14 +177,12 @@
           - name: IDebugCoreServer3::QueryIsLocal
             href: idebugcoreserver3-queryislocal.md
         - name: IDebugCustomViewer
-# Auto-expanded node
           items:
           - name: IDebugCustomViewer
             href: idebugcustomviewer.md
           - name: IDebugCustomViewer::DisplayValue
             href: idebugcustomviewer-displayvalue.md
         - name: IDebugDefaultPort2
-# Auto-expanded node
           items:
           - name: IDebugDefaultPort2
             href: idebugdefaultport2.md
@@ -215,7 +193,6 @@
           - name: IDebugDefaultPort2::QueryIsLocal
             href: idebugdefaultport2-queryislocal.md
         - name: IDebugDisassemblyStream2
-# Auto-expanded node
           items:
           - name: IDebugDisassemblyStream2
             href: idebugdisassemblystream2.md
@@ -236,7 +213,6 @@
           - name: IDebugDisassemblyStream2::Seek
             href: idebugdisassemblystream2-seek.md
         - name: IDebugDocument2
-# Auto-expanded node
           items:
           - name: IDebugDocument2
             href: idebugdocument2.md
@@ -245,14 +221,12 @@
           - name: IDebugDocument2::GetName
             href: idebugdocument2-getname.md
         - name: IDebugDocumentChecksum2
-# Auto-expanded node
           items:
           - name: IDebugDocumentChecksum2
             href: idebugdocumentchecksum2.md
           - name: IDebugDocumentChecksum2::GetChecksumAndAlgorithmId
             href: idebugdocumentchecksum2-getchecksumandalgorithmid.md
         - name: IDebugDocumentContext2
-# Auto-expanded node
           items:
           - name: IDebugDocumentContext2
             href: idebugdocumentcontext2.md
@@ -273,7 +247,6 @@
           - name: IDebugDocumentContext2::Seek
             href: idebugdocumentcontext2-seek.md
         - name: IDebugDocumentPosition2
-# Auto-expanded node
           items:
           - name: IDebugDocumentPosition2
             href: idebugdocumentposition2.md
@@ -286,14 +259,12 @@
           - name: IDebugDocumentPosition2::IsPositionInDocument
             href: idebugdocumentposition2-ispositionindocument.md
         - name: IDebugDocumentPositionOffset2
-# Auto-expanded node
           items:
           - name: IDebugDocumentPositionOffset2
             href: idebugdocumentpositionoffset2.md
           - name: IDebugDocumentPositionOffset2::GetRange
             href: idebugdocumentpositionoffset2-getrange.md
         - name: IDebugDocumentText2
-# Auto-expanded node
           items:
           - name: IDebugDocumentText2
             href: idebugdocumenttext2.md
@@ -302,7 +273,6 @@
           - name: IDebugDocumentText2::GetText
             href: idebugdocumenttext2-gettext.md
         - name: IDebugDocumentTextEvents2
-# Auto-expanded node
           items:
           - name: IDebugDocumentTextEvents2
             href: idebugdocumenttextevents2.md
@@ -319,7 +289,6 @@
           - name: IDebugDocumentTextEvents2::onUpdateTextAttributes
             href: idebugdocumenttextevents2-onupdatetextattributes.md
         - name: IDebugEngine2
-# Auto-expanded node
           items:
           - name: IDebugEngine2
             href: idebugengine2.md
@@ -350,7 +319,6 @@
           - name: IDebugEngine2::SetRegistryRoot
             href: idebugengine2-setregistryroot.md
         - name: IDebugEngine3
-# Auto-expanded node
           items:
           - name: IDebugEngine3
             href: idebugengine3.md
@@ -365,14 +333,12 @@
           - name: IDebugEngine3::SetSymbolPath
             href: idebugengine3-setsymbolpath.md
         - name: IDebugEngineCreateEvent2
-# Auto-expanded node
           items:
           - name: IDebugEngineCreateEvent2
             href: idebugenginecreateevent2.md
           - name: IDebugEngineCreateEvent2::GetEngine
             href: idebugenginecreateevent2-getengine.md
         - name: IDebugEngineLaunch2
-# Auto-expanded node
           items:
           - name: IDebugEngineLaunch2
             href: idebugenginelaunch2.md
@@ -385,7 +351,6 @@
           - name: IDebugEngineLaunch2::TerminateProcess
             href: idebugenginelaunch2-terminateprocess.md
         - name: IDebugEngineProgram2
-# Auto-expanded node
           items:
           - name: IDebugEngineProgram2
             href: idebugengineprogram2.md
@@ -398,7 +363,6 @@
         - name: IDebugEntryPointEvent2
           href: idebugentrypointevent2.md
         - name: IDebugErrorBreakpoint2
-# Auto-expanded node
           items:
           - name: IDebugErrorBreakpoint2
             href: idebugerrorbreakpoint2.md
@@ -407,7 +371,6 @@
           - name: IDebugErrorBreakpoint2::GetPendingBreakpoint
             href: idebugerrorbreakpoint2-getpendingbreakpoint.md
         - name: IDebugErrorBreakpointResolution2
-# Auto-expanded node
           items:
           - name: IDebugErrorBreakpointResolution2
             href: idebugerrorbreakpointresolution2.md
@@ -416,28 +379,24 @@
           - name: IDebugErrorBreakpointResolution2::GetResolutionInfo
             href: idebugerrorbreakpointresolution2-getresolutioninfo.md
         - name: IDebugErrorEvent2
-# Auto-expanded node
           items:
           - name: IDebugErrorEvent2
             href: idebugerrorevent2.md
           - name: IDebugErrorEvent2::GetErrorMessage
             href: idebugerrorevent2-geterrormessage.md
         - name: IDebugEvent2
-# Auto-expanded node
           items:
           - name: IDebugEvent2
             href: idebugevent2.md
           - name: IDebugEvent2::GetAttributes
             href: idebugevent2-getattributes.md
         - name: IDebugEventCallback2
-# Auto-expanded node
           items:
           - name: IDebugEventCallback2
             href: idebugeventcallback2.md
           - name: IDebugEventCallback2::Event
             href: idebugeventcallback2-event.md
         - name: IDebugExceptionEvent2
-# Auto-expanded node
           items:
           - name: IDebugExceptionEvent2
             href: idebugexceptionevent2.md
@@ -450,7 +409,6 @@
           - name: IDebugExceptionEvent2::PassToDebuggee
             href: idebugexceptionevent2-passtodebuggee.md
         - name: IDebugExpression2
-# Auto-expanded node
           items:
           - name: IDebugExpression2
             href: idebugexpression2.md
@@ -461,7 +419,6 @@
           - name: IDebugExpression2::EvaluateSync
             href: idebugexpression2-evaluatesync.md
         - name: IDebugExpressionContext2
-# Auto-expanded node
           items:
           - name: IDebugExpressionContext2
             href: idebugexpressioncontext2.md
@@ -470,7 +427,6 @@
           - name: IDebugExpressionContext2::ParseText
             href: idebugexpressioncontext2-parsetext.md
         - name: IDebugExpressionEvaluationCompleteEvent2
-# Auto-expanded node
           items:
           - name: IDebugExpressionEvaluationCompleteEvent2
             href: idebugexpressionevaluationcompleteevent2.md
@@ -479,14 +435,12 @@
           - name: IDebugExpressionEvaluationCompleteEvent2::GetResult
             href: idebugexpressionevaluationcompleteevent2-getresult.md
         - name: IDebugFirewallConfigurationCallback2
-# Auto-expanded node
           items:
           - name: IDebugFirewallConfigurationCallback2
             href: idebugfirewallconfigurationcallback2.md
           - name: IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked
             href: idebugfirewallconfigurationcallback2-ensuredcomunblocked.md
         - name: IDebugFunctionPosition2
-# Auto-expanded node
           items:
           - name: IDebugFunctionPosition2
             href: idebugfunctionposition2.md
@@ -495,7 +449,6 @@
           - name: IDebugFunctionPosition2::GetOffset
             href: idebugfunctionposition2-getoffset.md
         - name: IDebugInterceptExceptionCompleteEvent2
-# Auto-expanded node
           items:
           - name: IDebugInterceptExceptionCompleteEvent2
             href: idebuginterceptexceptioncompleteevent2.md
@@ -504,7 +457,6 @@
         - name: IDebugLoadCompleteEvent2
           href: idebugloadcompleteevent2.md
         - name: IDebugMemoryBytes2
-# Auto-expanded node
           items:
           - name: IDebugMemoryBytes2
             href: idebugmemorybytes2.md
@@ -515,7 +467,6 @@
           - name: IDebugMemoryBytes2::WriteAt
             href: idebugmemorybytes2-writeat.md
         - name: IDebugMemoryContext2
-# Auto-expanded node
           items:
           - name: IDebugMemoryContext2
             href: idebugmemorycontext2.md
@@ -530,7 +481,6 @@
           - name: IDebugMemoryContext2::Subtract
             href: idebugmemorycontext2-subtract.md
         - name: IDebugMessageEvent2
-# Auto-expanded node
           items:
           - name: IDebugMessageEvent2
             href: idebugmessageevent2.md
@@ -539,7 +489,6 @@
           - name: IDebugMessageEvent2::SetResponse
             href: idebugmessageevent2-setresponse.md
         - name: IDebugModule2
-# Auto-expanded node
           items:
           - name: IDebugModule2
             href: idebugmodule2.md
@@ -548,7 +497,6 @@
           - name: IDebugModule2::ReloadSymbols_Deprecated
             href: idebugmodule2-reloadsymbols-deprecated.md
         - name: IDebugModule3
-# Auto-expanded node
           items:
           - name: IDebugModule3
             href: idebugmodule3.md
@@ -561,7 +509,6 @@
           - name: IDebugModule3::SetJustMyCodeState
             href: idebugmodule3-setjustmycodestate.md
         - name: IDebugModuleLoadEvent2
-# Auto-expanded node
           items:
           - name: IDebugModuleLoadEvent2
             href: idebugmoduleloadevent2.md
@@ -570,14 +517,12 @@
         - name: IDebugNoSymbolsEvent2
           href: idebugnosymbolsevent2.md
         - name: IDebugOutputStringEvent2
-# Auto-expanded node
           items:
           - name: IDebugOutputStringEvent2
             href: idebugoutputstringevent2.md
           - name: IDebugOutputStringEvent2::GetString
             href: idebugoutputstringevent2-getstring.md
         - name: IDebugPendingBreakpoint2
-# Auto-expanded node
           items:
           - name: IDebugPendingBreakpoint2
             href: idebugpendingbreakpoint2.md
@@ -604,7 +549,6 @@
           - name: IDebugPendingBreakpoint2::Virtualize
             href: idebugpendingbreakpoint2-virtualize.md
         - name: IDebugPort2
-# Auto-expanded node
           items:
           - name: IDebugPort2
             href: idebugport2.md
@@ -621,14 +565,12 @@
           - name: IDebugPort2::GetProcess
             href: idebugport2-getprocess.md
         - name: IDebugPortEvents2
-# Auto-expanded node
           items:
           - name: IDebugPortEvents2
             href: idebugportevents2.md
           - name: IDebugPortEvents2::Event
             href: idebugportevents2-event.md
         - name: IDebugPortEx2
-# Auto-expanded node
           items:
           - name: IDebugPortEx2
             href: idebugportex2.md
@@ -645,7 +587,6 @@
           - name: IDebugPortEx2::TerminateProcess
             href: idebugportex2-terminateprocess.md
         - name: IDebugPortNotify2
-# Auto-expanded node
           items:
           - name: IDebugPortNotify2
             href: idebugportnotify2.md
@@ -654,7 +595,6 @@
           - name: IDebugPortNotify2::RemoveProgramNode
             href: idebugportnotify2-removeprogramnode.md
         - name: IDebugPortPicker
-# Auto-expanded node
           items:
           - name: IDebugPortPicker
             href: idebugportpicker.md
@@ -663,14 +603,12 @@
           - name: IDebugPortPicker::SetSite
             href: idebugportpicker-setsite.md
         - name: IDebugPortRequest2
-# Auto-expanded node
           items:
           - name: IDebugPortRequest2
             href: idebugportrequest2.md
           - name: IDebugPortRequest2::GetPortName
             href: idebugportrequest2-getportname.md
         - name: IDebugPortSupplier2
-# Auto-expanded node
           items:
           - name: IDebugPortSupplier2
             href: idebugportsupplier2.md
@@ -689,7 +627,6 @@
           - name: IDebugPortSupplier2::RemovePort
             href: idebugportsupplier2-removeport.md
         - name: IDebugPortSupplier3
-# Auto-expanded node
           items:
           - name: IDebugPortSupplier3
             href: idebugportsupplier3.md
@@ -698,28 +635,24 @@
           - name: IDebugPortSupplier3::EnumPersistedPorts
             href: idebugportsupplier3-enumpersistedports.md
         - name: IDebugPortSupplierEx2
-# Auto-expanded node
           items:
           - name: IDebugPortSupplierEx2
             href: idebugportsupplierex2.md
           - name: IDebugPortSupplierEx2::SetServer
             href: idebugportsupplierex2-setserver.md
         - name: IDebugPortSupplierLocale2
-# Auto-expanded node
           items:
           - name: IDebugPortSupplierLocale2
             href: idebugportsupplierlocale2.md
           - name: IDebugPortSupplierLocale2::SetLocale
             href: idebugportsupplierlocale2-setlocale.md
         - name: IDebugPortSupplierDescription2
-# Auto-expanded node
           items:
           - name: IDebugPortSupplierDescription2
             href: idebugportsupplierdescription2.md
           - name: IDebugPortSupplierDescription2::GetDescription
             href: idebugportsupplierdescription2-getdescription.md
         - name: IDebugProcess2
-# Auto-expanded node
           items:
           - name: IDebugProcess2
             href: idebugprocess2.md
@@ -752,7 +685,6 @@
           - name: IDebugProcess2::Terminate
             href: idebugprocess2-terminate.md
         - name: IDebugProcess3
-# Auto-expanded node
           items:
           - name: IDebugProcess3
             href: idebugprocess3.md
@@ -779,7 +711,6 @@
         - name: IDebugProcessDestroyEvent2
           href: idebugprocessdestroyevent2.md
         - name: IDebugProcessEx2
-# Auto-expanded node
           items:
           - name: IDebugProcessEx2
             href: idebugprocessex2.md
@@ -790,7 +721,6 @@
           - name: IDebugProcessEx2::Detach
             href: idebugprocessex2-detach.md
         - name: IDebugProcessQueryProperties
-# Auto-expanded node
           items:
           - name: IDebugProcessQueryProperties
             href: idebugprocessqueryproperties.md
@@ -799,7 +729,6 @@
           - name: IDebugProcessQueryProperties::QueryProperties
             href: idebugprocessqueryproperties-queryproperties.md
         - name: IDebugProcessSecurity
-# Auto-expanded node
           items:
           - name: IDebugProcessSecurity
             href: idebugprocesssecurity.md
@@ -808,7 +737,6 @@
           - name: IDebugProcessSecurity::QueryCanSafelyAttach
             href: idebugprocesssecurity-querycansafelyattach.md
         - name: IDebugProgram2
-# Auto-expanded node
           items:
           - name: IDebugProgram2
             href: idebugprogram2.md
@@ -855,7 +783,6 @@
           - name: IDebugProgram2::WriteDump
             href: idebugprogram2-writedump.md
         - name: IDebugProgram3
-# Auto-expanded node
           items:
           - name: IDebugProgram3
             href: idebugprogram3.md
@@ -864,21 +791,18 @@
         - name: IDebugProgramCreateEvent2
           href: idebugprogramcreateevent2.md
         - name: IDebugProgramDestroyEvent2
-# Auto-expanded node
           items:
           - name: IDebugProgramDestroyEvent2
             href: idebugprogramdestroyevent2.md
           - name: IDebugProgramDestroyEvent2::GetExitCode
             href: idebugprogramdestroyevent2-getexitcode.md
         - name: IDebugProgramDestroyEventFlags2
-# Auto-expanded node
           items:
           - name: IDebugProgramDestroyEventFlags2
             href: idebugprogramdestroyeventflags2.md
           - name: IDebugProgramDestroyEventFlags2::GetFlags
             href: idebugprogramdestroyeventflags2-getflags.md
         - name: IDebugProgramEngines2
-# Auto-expanded node
           items:
           - name: IDebugProgramEngines2
             href: idebugprogramengines2.md
@@ -887,7 +811,6 @@
           - name: IDebugProgramEngines2::SetEngine
             href: idebugprogramengines2-setengine.md
         - name: IDebugProgramEx2
-# Auto-expanded node
           items:
           - name: IDebugProgramEx2
             href: idebugprogramex2.md
@@ -896,7 +819,6 @@
           - name: IDebugProgramEx2::GetProgramNode
             href: idebugprogramex2-getprogramnode.md
         - name: IDebugProgramHost2
-# Auto-expanded node
           items:
           - name: IDebugProgramHost2
             href: idebugprogramhost2.md
@@ -909,7 +831,6 @@
         - name: IDebugProgramNameChangedEvent2
           href: idebugprogramnamechangedevent2.md
         - name: IDebugProgramNode2
-# Auto-expanded node
           items:
           - name: IDebugProgramNode2
             href: idebugprogramnode2.md
@@ -928,14 +849,12 @@
           - name: IDebugProgramNode2::GetProgramName
             href: idebugprogramnode2-getprogramname.md
         - name: IDebugProgramNodeAttach2
-# Auto-expanded node
           items:
           - name: IDebugProgramNodeAttach2
             href: idebugprogramnodeattach2.md
           - name: IDebugProgramNodeAttach2::OnAttach
             href: idebugprogramnodeattach2-onattach.md
         - name: IDebugProgramProvider2
-# Auto-expanded node
           items:
           - name: IDebugProgramProvider2
             href: idebugprogramprovider2.md
@@ -948,7 +867,6 @@
           - name: IDebugProgramProvider2::SetLocale
             href: idebugprogramprovider2-setlocale.md
         - name: IDebugProgramPublisher2
-# Auto-expanded node
           items:
           - name: IDebugProgramPublisher2
             href: idebugprogrampublisher2.md
@@ -963,7 +881,6 @@
           - name: IDebugProgramPublisher2::UnpublishProgramNode
             href: idebugprogrampublisher2-unpublishprogramnode.md
         - name: IDebugProperty2
-# Auto-expanded node
           items:
           - name: IDebugProperty2
             href: idebugproperty2.md
@@ -990,7 +907,6 @@
           - name: IDebugProperty2::SetValueAsString
             href: idebugproperty2-setvalueasstring.md
         - name: IDebugProperty3
-# Auto-expanded node
           items:
           - name: IDebugProperty3
             href: idebugproperty3.md
@@ -1009,35 +925,30 @@
           - name: IDebugProperty3::SetValueAsStringWithError
             href: idebugproperty3-setvalueasstringwitherror.md
         - name: IDebugPropertyCreateEvent2
-# Auto-expanded node
           items:
           - name: IDebugPropertyCreateEvent2
             href: idebugpropertycreateevent2.md
           - name: IDebugPropertyCreateEvent2::GetDebugProperty
             href: idebugpropertycreateevent2-getdebugproperty.md
         - name: IDebugPropertyDestroyEvent2
-# Auto-expanded node
           items:
           - name: IDebugPropertyDestroyEvent2
             href: idebugpropertydestroyevent2.md
           - name: IDebugPropertyDestroyEvent2::GetDebugProperty
             href: idebugpropertydestroyevent2-getdebugproperty.md
         - name: IDebugProviderProgramNode2
-# Auto-expanded node
           items:
           - name: IDebugProviderProgramNode2
             href: idebugproviderprogramnode2.md
           - name: IDebugProviderProgramNode2::UnmarshalDebuggeeInterface
             href: idebugproviderprogramnode2-unmarshaldebuggeeinterface.md
         - name: IDebugQueryEngine2
-# Auto-expanded node
           items:
           - name: IDebugQueryEngine2
             href: idebugqueryengine2.md
           - name: IDebugQueryEngine2::GetEngineInterface
             href: idebugqueryengine2-getengineinterface.md
         - name: IDebugReference2
-# Auto-expanded node
           items:
           - name: IDebugReference2
             href: idebugreference2.md
@@ -1064,14 +975,12 @@
           - name: IDebugReference2::SetValueAsString
             href: idebugreference2-setvalueasstring.md
         - name: IDebugReturnValueEvent2
-# Auto-expanded node
           items:
           - name: IDebugReturnValueEvent2
             href: idebugreturnvalueevent2.md
           - name: IDebugReturnValueEvent2::GetReturnValue
             href: idebugreturnvalueevent2-getreturnvalue.md
         - name: IDebugSettingsCallback2
-# Auto-expanded node
           items:
           - name: IDebugSettingsCallback2
             href: idebugsettingscallback2.md
@@ -1094,14 +1003,12 @@
           - name: IDebugSettingsCallback2::GetMetricString
             href: idebugsettingscallback2-getmetricstring.md
         - name: IDebugSourceServerModule
-# Auto-expanded node
           items:
           - name: IDebugSourceServerModule
             href: idebugsourceservermodule.md
           - name: IDebugSourceServerModule::GetSourceServerData
             href: idebugsourceservermodule-getsourceserverdata.md
         - name: IDebugStackFrame2
-# Auto-expanded node
           items:
           - name: IDebugStackFrame2
             href: idebugstackframe2.md
@@ -1126,7 +1033,6 @@
           - name: IDebugStackFrame2::GetThread
             href: idebugstackframe2-getthread.md
         - name: IDebugStackFrame3
-# Auto-expanded node
           items:
           - name: IDebugStackFrame3
             href: idebugstackframe3.md
@@ -1139,14 +1045,12 @@
         - name: IDebugStopCompleteEvent2
           href: idebugstopcompleteevent2.md
         - name: IDebugSymbolSearchEvent2
-# Auto-expanded node
           items:
           - name: IDebugSymbolSearchEvent2
             href: idebugsymbolsearchevent2.md
           - name: IDebugSymbolSearchEvent2::GetSymbolSearchInfo
             href: idebugsymbolsearchevent2-getsymbolsearchinfo.md
         - name: IDebugThread2
-# Auto-expanded node
           items:
           - name: IDebugThread2
             href: idebugthread2.md
@@ -1175,7 +1079,6 @@
         - name: IDebugThreadCreateEvent2
           href: idebugthreadcreateevent2.md
         - name: IDebugThreadDestroyEvent2
-# Auto-expanded node
           items:
           - name: IDebugThreadDestroyEvent2
             href: idebugthreaddestroyevent2.md
@@ -1184,14 +1087,12 @@
         - name: IDebugThreadNameChangedEvent2
           href: idebugthreadnamechangedevent2.md
         - name: IDebugWindowsComputerPort2
-# Auto-expanded node
           items:
           - name: IDebugWindowsComputerPort2
             href: idebugwindowscomputerport2.md
           - name: IDebugWindowsComputerPort2::GetComputerInfo
             href: idebugwindowscomputerport2-getcomputerinfo.md
         - name: IEEDataStorage
-# Auto-expanded node
           items:
           - name: IEEDataStorage
             href: ieedatastorage.md
@@ -1200,7 +1101,6 @@
           - name: IEEDataStorage::GetSize
             href: ieedatastorage-getsize.md
         - name: IEnumCodePaths2
-# Auto-expanded node
           items:
           - name: IEnumCodePaths2
             href: ienumcodepaths2.md
@@ -1215,7 +1115,6 @@
           - name: IEnumCodePaths2::Skip
             href: ienumcodepaths2-skip.md
         - name: IEnumDebugBoundBreakpoints2
-# Auto-expanded node
           items:
           - name: IEnumDebugBoundBreakpoints2
             href: ienumdebugboundbreakpoints2.md
@@ -1230,7 +1129,6 @@
           - name: IEnumDebugBoundBreakpoints2::Skip
             href: ienumdebugboundbreakpoints2-skip.md
         - name: IEnumDebugCodeContexts2
-# Auto-expanded node
           items:
           - name: IEnumDebugCodeContexts2
             href: ienumdebugcodecontexts2.md
@@ -1245,7 +1143,6 @@
           - name: IEnumDebugCodeContexts2::Skip
             href: ienumdebugcodecontexts2-skip.md
         - name: IEnumDebugErrorBreakpoints2
-# Auto-expanded node
           items:
           - name: IEnumDebugErrorBreakpoints2
             href: ienumdebugerrorbreakpoints2.md
@@ -1260,7 +1157,6 @@
           - name: IEnumDebugErrorBreakpoints2::Skip
             href: ienumdebugerrorbreakpoints2-skip.md
         - name: IEnumDebugFrameInfo2
-# Auto-expanded node
           items:
           - name: IEnumDebugFrameInfo2
             href: ienumdebugframeinfo2.md
@@ -1275,7 +1171,6 @@
           - name: IEnumDebugFrameInfo2::Skip
             href: ienumdebugframeinfo2-skip.md
         - name: IEnumDebugModules2
-# Auto-expanded node
           items:
           - name: IEnumDebugModules2
             href: ienumdebugmodules2.md
@@ -1290,7 +1185,6 @@
           - name: IEnumDebugModules2::Skip
             href: ienumdebugmodules2-skip.md
         - name: IEnumDebugPorts2
-# Auto-expanded node
           items:
           - name: IEnumDebugPorts2
             href: ienumdebugports2.md
@@ -1305,7 +1199,6 @@
           - name: IEnumDebugPorts2::Skip
             href: ienumdebugports2-skip.md
         - name: IEnumDebugPortSuppliers2
-# Auto-expanded node
           items:
           - name: IEnumDebugPortSuppliers2
             href: ienumdebugportsuppliers2.md
@@ -1320,7 +1213,6 @@
           - name: IEnumDebugPortSuppliers2::Skip
             href: ienumdebugportsuppliers2-skip.md
         - name: IEnumDebugProcesses2
-# Auto-expanded node
           items:
           - name: IEnumDebugProcesses2
             href: ienumdebugprocesses2.md
@@ -1335,7 +1227,6 @@
           - name: IEnumDebugProcesses2::Skip
             href: ienumdebugprocesses2-skip.md
         - name: IEnumDebugPrograms2
-# Auto-expanded node
           items:
           - name: IEnumDebugPrograms2
             href: ienumdebugprograms2.md
@@ -1350,7 +1241,6 @@
           - name: IEnumDebugPrograms2::Skip
             href: ienumdebugprograms2-skip.md
         - name: IEnumDebugPropertyInfo2
-# Auto-expanded node
           items:
           - name: IEnumDebugPropertyInfo2
             href: ienumdebugpropertyinfo2.md
@@ -1365,7 +1255,6 @@
           - name: IEnumDebugPropertyInfo2::Skip
             href: ienumdebugpropertyinfo2-skip.md
         - name: IEnumDebugReferenceInfo2
-# Auto-expanded node
           items:
           - name: IEnumDebugReferenceInfo2
             href: ienumdebugreferenceinfo2.md
@@ -1380,7 +1269,6 @@
           - name: IEnumDebugReferenceInfo2::Skip
             href: ienumdebugreferenceinfo2-skip.md
         - name: IEnumDebugThreads2
-# Auto-expanded node
           items:
           - name: IEnumDebugThreads2
             href: ienumdebugthreads2.md
@@ -1395,7 +1283,6 @@
           - name: IEnumDebugThreads2::Skip
             href: ienumdebugthreads2-skip.md
         - name: IPropertyProxyEESide
-# Auto-expanded node
           items:
           - name: IPropertyProxyEESide
             href: ipropertyproxyeeside.md
@@ -1412,19 +1299,16 @@
           - name: IPropertyProxyEESide::ResolveAssemblyRef
             href: ipropertyproxyeeside-resolveassemblyref.md
         - name: IPropertyProxyProvider
-# Auto-expanded node
           items:
           - name: IPropertyProxyProvider
             href: ipropertyproxyprovider.md
           - name: IPropertyProxyProvider::GetPropertyProxy
             href: ipropertyproxyprovider-getpropertyproxy.md
       - name: Expression Evaluation Interfaces
-# Auto-expanded node
         items:
         - name: Expression Evaluation Interfaces
           href: expression-evaluation-interfaces.md
         - name: IDebugAlias
-# Auto-expanded node
           items:
           - name: IDebugAlias
             href: idebugalias.md
@@ -1437,14 +1321,12 @@
           - name: IDebugAlias::GetObject
             href: idebugalias-getobject.md
         - name: IDebugAlias2
-# Auto-expanded node
           items:
           - name: IDebugAlias2
             href: idebugalias2.md
           - name: IDebugAlias2::GetAppDomainId
             href: idebugalias2-getappdomainid.md
         - name: IDebugArrayObject
-# Auto-expanded node
           items:
           - name: IDebugArrayObject
             href: idebugarrayobject.md
@@ -1459,7 +1341,6 @@
           - name: IDebugArrayObject::GetRank
             href: idebugarrayobject-getrank.md
         - name: IDebugArrayObject2
-# Auto-expanded node
           items:
           - name: IDebugArrayObject2
             href: idebugarrayobject2.md
@@ -1468,7 +1349,6 @@
           - name: IDebugArrayObject2::HasBaseIndices
             href: idebugarrayobject2-hasbaseindices.md
         - name: IDebugBinder
-# Auto-expanded node
           items:
           - name: IDebugBinder
             href: idebugbinder.md
@@ -1483,7 +1363,6 @@
           - name: IDebugBinder::ResolveRuntimeType
             href: idebugbinder-resolveruntimetype.md
         - name: IDebugBinder3
-# Auto-expanded node
           items:
           - name: IDebugBinder3
             href: idebugbinder3.md
@@ -1504,7 +1383,6 @@
           - name: IDebugBinder3::GetTypeArguments
             href: idebugbinder3-gettypearguments.md
         - name: IDebugExpressionEvaluator
-# Auto-expanded node
           items:
           - name: IDebugExpressionEvaluator
             href: idebugexpressionevaluator.md
@@ -1519,7 +1397,6 @@
           - name: IDebugExpressionEvaluator::SetRegistryRoot
             href: idebugexpressionevaluator-setregistryroot.md
         - name: IDebugExpressionEvaluator2
-# Auto-expanded node
           items:
           - name: IDebugExpressionEvaluator2
             href: idebugexpressionevaluator2.md
@@ -1536,14 +1413,12 @@
           - name: IDebugExpressionEvaluator2::Terminate
             href: idebugexpressionevaluator2-terminate.md
         - name: IDebugExpressionEvaluator3
-# Auto-expanded node
           items:
           - name: IDebugExpressionEvaluator3
             href: idebugexpressionevaluator3.md
           - name: IDebugExpressionEvaluator3::Parse2
             href: idebugexpressionevaluator3-parse2.md
         - name: IDebugFunctionObject
-# Auto-expanded node
           items:
           - name: IDebugFunctionObject
             href: idebugfunctionobject.md
@@ -1560,7 +1435,6 @@
           - name: IDebugFunctionObject::Evaluate
             href: idebugfunctionobject-evaluate.md
         - name: IDebugFunctionObject2
-# Auto-expanded node
           items:
           - name: IDebugFunctionObject2
             href: idebugfunctionobject2.md
@@ -1571,14 +1445,12 @@
           - name: IDebugFunctionObject2::Evaluate
             href: idebugfunctionobject2-evaluate.md
         - name: IDebugIDECallback
-# Auto-expanded node
           items:
           - name: IDebugIDECallback
             href: idebugidecallback.md
           - name: IDebugIDECallback::DisplayMessage
             href: idebugidecallback-displaymessage.md
         - name: IDebugManagedObject
-# Auto-expanded node
           items:
           - name: IDebugManagedObject
             href: idebugmanagedobject.md
@@ -1587,7 +1459,6 @@
           - name: IDebugManagedObject::SetFromManagedObject
             href: idebugmanagedobject-setfrommanagedobject.md
         - name: IDebugObject
-# Auto-expanded node
           items:
           - name: IDebugObject
             href: idebugobject.md
@@ -1612,7 +1483,6 @@
           - name: IDebugObject::SetValue
             href: idebugobject-setvalue.md
         - name: IDebugObject2
-# Auto-expanded node
           items:
           - name: IDebugObject2
             href: idebugobject2.md
@@ -1631,14 +1501,12 @@
           - name: IDebugObject2::IsUserData
             href: idebugobject2-isuserdata.md
         - name: IDebugParsedExpression
-# Auto-expanded node
           items:
           - name: IDebugParsedExpression
             href: idebugparsedexpression.md
           - name: IDebugParsedExpression::EvaluateSync
             href: idebugparsedexpression-evaluatesync.md
         - name: IDebugPointerObject
-# Auto-expanded node
           items:
           - name: IDebugPointerObject
             href: idebugpointerobject.md
@@ -1649,14 +1517,12 @@
           - name: IDebugPointerObject::SetBytes
             href: idebugpointerobject-setbytes.md
         - name: IDebugPointerObject3
-# Auto-expanded node
           items:
           - name: IDebugPointerObject3
             href: idebugpointerobject3.md
           - name: IDebugPointerObject3::GetPointerAddress
             href: idebugpointerobject3-getpointeraddress.md
         - name: IEEVisualizerDataProvider
-# Auto-expanded node
           items:
           - name: IEEVisualizerDataProvider
             href: ieevisualizerdataprovider.md
@@ -1669,7 +1535,6 @@
           - name: IEEVisualizerDataProvider::SetObjectForVisualizer
             href: ieevisualizerdataprovider-setobjectforvisualizer.md
         - name: IEEVisualizerService
-# Auto-expanded node
           items:
           - name: IEEVisualizerService
             href: ieevisualizerservice.md
@@ -1682,14 +1547,12 @@
           - name: IEEVisualizerService::GetValueDisplayStringCount
             href: ieevisualizerservice-getvaluedisplaystringcount.md
         - name: IEEVisualizerServiceProvider
-# Auto-expanded node
           items:
           - name: IEEVisualizerServiceProvider
             href: ieevisualizerserviceprovider.md
           - name: IEEVisualizerServiceProvider::CreateVisualizerService
             href: ieevisualizerserviceprovider-createvisualizerservice.md
         - name: IEnumDebugObjects
-# Auto-expanded node
           items:
           - name: IEnumDebugObjects
             href: ienumdebugobjects.md
@@ -1704,26 +1567,22 @@
           - name: IEnumDebugObjects::Skip
             href: ienumdebugobjects-skip.md
       - name: Symbol Provider Interfaces
-# Auto-expanded node
         items:
         - name: Symbol Provider Interfaces
           href: symbol-provider-interfaces.md
         - name: IDebugAddress
-# Auto-expanded node
           items:
           - name: IDebugAddress
             href: idebugaddress.md
           - name: IDebugAddress::GetAddress
             href: idebugaddress-getaddress.md
         - name: IDebugAddress2
-# Auto-expanded node
           items:
           - name: IDebugAddress2
             href: idebugaddress2.md
           - name: IDebugAddress2::GetProcessID
             href: idebugaddress2-getprocessid.md
         - name: IDebugArrayField
-# Auto-expanded node
           items:
           - name: IDebugArrayField
             href: idebugarrayfield.md
@@ -1734,7 +1593,6 @@
           - name: IDebugArrayField::GetRank
             href: idebugarrayfield-getrank.md
         - name: IDebugClassField
-# Auto-expanded node
           items:
           - name: IDebugClassField
             href: idebugclassfield.md
@@ -1755,7 +1613,6 @@
           - name: IDebugClassField::GetEnclosingClass
             href: idebugclassfield-getenclosingclass.md
         - name: IDebugComPlusSymbolProvider
-# Auto-expanded node
           items:
           - name: IDebugComPlusSymbolProvider
             href: idebugcomplussymbolprovider.md
@@ -1804,7 +1661,6 @@
           - name: IDebugComPlusSymbolProvider::UpdateSymbols
             href: idebugcomplussymbolprovider-updatesymbols.md
         - name: IDebugComPlusSymbolProvider2
-# Auto-expanded node
           items:
           - name: IDebugComPlusSymbolProvider2
             href: idebugcomplussymbolprovider2.md
@@ -1823,14 +1679,12 @@
           - name: IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule
             href: idebugcomplussymbolprovider2-loadsymbolswithcormodule.md
         - name: IDebugContainerField
-# Auto-expanded node
           items:
           - name: IDebugContainerField
             href: idebugcontainerfield.md
           - name: IDebugContainerField::EnumFields
             href: idebugcontainerfield-enumfields.md
         - name: IDebugCustomAttribute
-# Auto-expanded node
           items:
           - name: IDebugCustomAttribute
             href: idebugcustomattribute.md
@@ -1843,7 +1697,6 @@
           - name: IDebugCustomAttribute::GetParentField
             href: idebugcustomattribute-getparentfield.md
         - name: IDebugCustomAttributeQuery
-# Auto-expanded node
           items:
           - name: IDebugCustomAttributeQuery
             href: idebugcustomattributequery.md
@@ -1852,7 +1705,6 @@
           - name: IDebugCustomAttributeQuery::IsCustomAttributeDefined
             href: idebugcustomattributequery-iscustomattributedefined.md
         - name: IDebugCustomAttributeQuery2
-# Auto-expanded node
           items:
           - name: IDebugCustomAttributeQuery2
             href: idebugcustomattributequery2.md
@@ -1865,7 +1717,6 @@
         - name: IDebugDynamicField
           href: idebugdynamicfield.md
         - name: IDebugDynamicFieldCOMPlus
-# Auto-expanded node
           items:
           - name: IDebugDynamicFieldCOMPlus
             href: idebugdynamicfieldcomplus.md
@@ -1874,7 +1725,6 @@
           - name: IDebugDynamicFieldCOMPlus::GetTypeFromTypeDef
             href: idebugdynamicfieldcomplus-gettypefromtypedef.md
         - name: IDebugEnumField
-# Auto-expanded node
           items:
           - name: IDebugEnumField
             href: idebugenumfield.md
@@ -1887,7 +1737,6 @@
           - name: IDebugEnumField::GetValueFromStringCaseInsensitive
             href: idebugenumfield-getvaluefromstringcaseinsensitive.md
         - name: IDebugExtendedField
-# Auto-expanded node
           items:
           - name: IDebugExtendedField
             href: idebugextendedfield.md
@@ -1896,7 +1745,6 @@
           - name: IDebugExtendedField::IsClosedType
             href: idebugextendedfield-isclosedtype.md
         - name: IDebugField
-# Auto-expanded node
           items:
           - name: IDebugField
             href: idebugfield.md
@@ -1919,7 +1767,6 @@
           - name: IDebugField::GetTypeInfo
             href: idebugfield-gettypeinfo.md
         - name: IDebugGenericFieldDefinition
-# Auto-expanded node
           items:
           - name: IDebugGenericFieldDefinition
             href: idebuggenericfielddefinition.md
@@ -1930,7 +1777,6 @@
           - name: IDebugGenericFieldDefinition::TypeParamCount
             href: idebuggenericfielddefinition-typeparamcount.md
         - name: IDebugGenericFieldInstance
-# Auto-expanded node
           items:
           - name: IDebugGenericFieldInstance
             href: idebuggenericfieldinstance.md
@@ -1939,7 +1785,6 @@
           - name: IDebugGenericFieldInstance::TypeArgumentCount
             href: idebuggenericfieldinstance-typeargumentcount.md
         - name: IDebugGenericParamField
-# Auto-expanded node
           items:
           - name: IDebugGenericParamField
             href: idebuggenericparamfield.md
@@ -1956,7 +1801,6 @@
           - name: IDebugGenericParamField::GetOwner
             href: idebuggenericparamfield-getowner.md
         - name: IDebugMethodField
-# Auto-expanded node
           items:
           - name: IDebugMethodField
             href: idebugmethodfield.md
@@ -1977,28 +1821,24 @@
           - name: IDebugMethodField::IsCustomAttributeDefined
             href: idebugmethodfield-iscustomattributedefined.md
         - name: IDebugModOpt
-# Auto-expanded node
           items:
           - name: IDebugModOpt
             href: idebugmodopt.md
           - name: IDebugModOpt::GetModOpts
             href: idebugmodopt-getmodopts.md
         - name: IDebugPointerField
-# Auto-expanded node
           items:
           - name: IDebugPointerField
             href: idebugpointerfield.md
           - name: IDebugPointerField::GetDereferencedField
             href: idebugpointerfield-getdereferencedfield.md
         - name: IDebugPrimitiveTypeField
-# Auto-expanded node
           items:
           - name: IDebugPrimitiveTypeField
             href: idebugprimitivetypefield.md
           - name: IDebugPrimitiveTypeField::GetPrimitiveType
             href: idebugprimitivetypefield-getprimitivetype.md
         - name: IDebugPropertyField
-# Auto-expanded node
           items:
           - name: IDebugPropertyField
             href: idebugpropertyfield.md
@@ -2007,7 +1847,6 @@
           - name: IDebugPropertyField::GetPropertySetter
             href: idebugpropertyfield-getpropertysetter.md
         - name: IDebugSymbolProvider
-# Auto-expanded node
           items:
           - name: IDebugSymbolProvider
             href: idebugsymbolprovider.md
@@ -2032,7 +1871,6 @@
           - name: IDebugSymbolProvider::GetTypeByName
             href: idebugsymbolprovider-gettypebyname.md
         - name: IDebugSymbolProviderDirect
-# Auto-expanded node
           items:
           - name: IDebugSymbolProviderDirect
             href: idebugsymbolproviderdirect.md
@@ -2049,7 +1887,6 @@
           - name: IDebugSymbolProviderDirect::GetSymUnmanagedReader
             href: idebugsymbolproviderdirect-getsymunmanagedreader.md
         - name: IDebugTypeFieldBuilder
-# Auto-expanded node
           items:
           - name: IDebugTypeFieldBuilder
             href: idebugtypefieldbuilder.md
@@ -2058,14 +1895,12 @@
           - name: IDebugTypeFieldBuilder::CreatePointerToType
             href: idebugtypefieldbuilder-createpointertotype.md
         - name: IDebugTypeFieldBuilder2
-# Auto-expanded node
           items:
           - name: IDebugTypeFieldBuilder2
             href: idebugtypefieldbuilder2.md
           - name: IDebugTypeFieldBuilder2::CreateArrayOfType
             href: idebugtypefieldbuilder2-createarrayoftype.md
         - name: IEnumDebugAddresses
-# Auto-expanded node
           items:
           - name: IEnumDebugAddresses
             href: ienumdebugaddresses.md
@@ -2080,7 +1915,6 @@
           - name: IEnumDebugAddresses::Skip
             href: ienumdebugaddresses-skip.md
         - name: IEnumDebugCustomAttributes
-# Auto-expanded node
           items:
           - name: IEnumDebugCustomAttributes
             href: ienumdebugcustomattributes.md
@@ -2095,7 +1929,6 @@
           - name: IEnumDebugCustomAttributes::Skip
             href: ienumdebugcustomattributes-skip.md
         - name: IEnumDebugFields
-# Auto-expanded node
           items:
           - name: IEnumDebugFields
             href: ienumdebugfields.md
@@ -2110,7 +1943,6 @@
           - name: IEnumDebugFields::Skip
             href: ienumdebugfields-skip.md
     - name: Enumerations (Visual Studio Debugging)
-# Auto-expanded node
       items:
       - name: Enumerations (Visual Studio Debugging)
         href: enumerations-visual-studio-debugging.md
@@ -2263,7 +2095,6 @@
       - name: THREADSTATE
         href: threadstate.md
     - name: Structures and Unions
-# Auto-expanded node
       items:
       - name: Structures and Unions
         href: structures-and-unions.md

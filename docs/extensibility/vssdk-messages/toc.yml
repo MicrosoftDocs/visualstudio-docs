@@ -2,7 +2,7 @@ items:
 - name: VS SDK messages
   href: index.md
 - name: Error messages
-  expanded: true
   items:
   - name: VsixCompatibility1001
     href: vsixcompatibility1001.md
+  expanded: true
