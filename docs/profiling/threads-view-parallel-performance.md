@@ -1,6 +1,6 @@
 ---
 title: "Threads view in the Concurrency Visualizer | Microsoft Docs"
-description: Learn that in the Threads view, you can identify which threads are executing code during an execution segment.
+description: "Learn that in the Threads view, you can identify which threads are executing code during an execution segment."
 ms.date: "05/06/2022"
 ms.topic: "conceptual"
 f1_keywords:
@@ -132,7 +132,7 @@ The **Profile Report** tab shows reports for the categories and links in the leg
   The **Synchronization** report shows the calls that are responsible for synchronization blocks, along with the total blocking times of each call stack. For more information, see [Synchronization time](../profiling/threads-view-timeline-reports.md#synchronization-time).
 
 - **I/O**
-  The **I/O** report shows the calls that are responsible for I/O blocks, along with the total blocking times of each call stack. For more information, see [I/O time (Threads view)](../profiling/threads-view-timeline-reports.md#i-o-time-threads-view).
+  The **I/O** report shows the calls that are responsible for I/O blocks, along with the total blocking times of each call stack. For more information, see [I/O time (Threads view)](../profiling/threads-view-timeline-reports.md#io-time-threads-view).
 
 - **Sleep**
   The **Sleep** report shows the calls that are responsible for sleep blocks, along with the total blocking times of each call stack. For more information, see [Sleep time](../profiling/threads-view-timeline-reports.md#sleep-time).

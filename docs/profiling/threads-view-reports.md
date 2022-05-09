@@ -1,6 +1,6 @@
 ---
 title: "Threads view reports in the Concurrency Visualizer | Microsoft Docs"
-description: Learn that in the Threads view, you can use reports to identify which threads are executing code during an execution segment.
+description: "Learn that in the Threads view, you can use reports to identify which threads are executing code during an execution segment."
 ms.date: "05/06/2022"
 ms.topic: "conceptual"
 f1_keywords:
@@ -45,10 +45,10 @@ The Profile Reports provide aggregate blocking time data for call stacks that ar
 |**Details**|Fully qualified name of the function. This includes line count when it's available.|
 
 #### Synchronization
- The Synchronization report shows the calls that are responsible for segments that are blocking on synchronization, and the aggregate blocking times of each call stack. For more information, see [Synchronization time](../profiling/synchronization-time.md).
+ The Synchronization report shows the calls that are responsible for segments that are blocking on synchronization, and the aggregate blocking times of each call stack. For more information, see [Synchronization time](../profiling/threads-view-timeline-reports.md#synchronization-time).
 
 #### Sleep
- The Sleep report shows the calls that are responsible for blocking time that was attributed to time that was spent sleeping, and the aggregate blocking times of each call stack. For more information, see [Sleep time](../profiling/sleep-time.md).
+ The Sleep report shows the calls that are responsible for blocking time that was attributed to time that was spent sleeping, and the aggregate blocking times of each call stack. For more information, see [Sleep time](../profiling/threads-view-timeline-reports.md#sleep-time).
 
 #### I/O
  The I/O report shows the calls that are responsible for segments that are blocking on I/O, and the aggregate blocking times of each call stack. For more information, see [I/O time (threads view)](../profiling/i-o-time-threads-view.md).

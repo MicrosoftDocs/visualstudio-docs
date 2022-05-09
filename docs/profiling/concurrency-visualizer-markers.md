@@ -35,7 +35,7 @@ In the Concurrency Visualizer, markers are icons that represent events in an app
  Each thread that generates markers has a separate timeline channel.  The ID of the thread that's responsible for generating the marker events is shown next to the description of the marker channel.  The ID that's shown on the left side of the marker channel matches the ID of another thread in the current process.
 
 ## Marker importance
- Markers can have one of four importance levels: low, normal, high, and critical.  You can filter the sources of markers based on importance level.  For example, if you only want to see markers from a particular source that has normal or critical importance, you can configure the filter in the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box. The importance of a marker is displayed in its tooltip, and in the [Markers Report](../profiling/markers-report.md).
+ Markers can have one of four importance levels: low, normal, high, and critical.  You can filter the sources of markers based on importance level.  For example, if you only want to see markers from a particular source that has normal or critical importance, you can configure the filter in the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box. The importance of a marker is displayed in its tooltip, and in the [Markers Report](../profiling/threads-view-reports.md#markers-report).
 
 ## Marker category
  A marker category indicates a group of marker events that come from the same source.  The Concurrency Visualizer uses color to distinguish different categories of flags and spans. You can configure the Concurrency Visualizer to use categories to filter the marker events from a particular event provider.  Use the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box to configure the filter.
@@ -85,7 +85,7 @@ Markers showing categories
 An alert marker
 
 ### Aggregation flags
- Sometimes flags occur so close to one another in the Concurrency Visualizer that they can't be drawn individually. When this occurs, a gray *aggregation flag* that represents the underlying flags is shown. When you rest the pointer on one of these icons, a tooltip displays the number of underlying flags that are represented. To view the flags, zoom in. If you zoom in all the way and still get an aggregation flag, you can view the underlying flags in the [Markers Report](../profiling/markers-report.md).
+ Sometimes flags occur so close to one another in the Concurrency Visualizer that they can't be drawn individually. When this occurs, a gray *aggregation flag* that represents the underlying flags is shown. When you rest the pointer on one of these icons, a tooltip displays the number of underlying flags that are represented. To view the flags, zoom in. If you zoom in all the way and still get an aggregation flag, you can view the underlying flags in the [Markers Report](../profiling/threads-view-reports.md#markers-report).
 
  Aggregation flags are drawn in different sizes. The size depends on the importance level of the most important flag in the aggregation. The following illustration shows aggregation flags in increasing order of importance.
 
@@ -94,10 +94,10 @@ Aggregation flags by level of importance
 
 ## Message markers
 
-A message marker represents log output. A message is a string that's issued by a specific thread at a specific time. You can export messages to a text file for use with other tools. You can rest the pointer on a message in the Concurrency Visualizer to view the message string. And you can view all the message markers in the [Markers report](../profiling/markers-report.md).  The following illustration shows a message marker.
+A message marker represents log output. A message is a string that's issued by a specific thread at a specific time. You can export messages to a text file for use with other tools. You can rest the pointer on a message in the Concurrency Visualizer to view the message string. And you can view all the message markers in the [Markers report](../profiling/threads-view-reports.md#markers-report).  The following illustration shows a message marker.
 
 ### Message aggregation markers
- Sometimes multiple messages occur so close to one another in the Concurrency Visualizer that they can't be drawn individually. When this occurs, a *message aggregation marker* that represents the underlying messages is shown. When you rest the pointer on one of these icons, a tooltip displays the number of underlying messages that are represented. To view the messages, zoom in.  If you zoom in all the way and still get an aggregation marker, you can view the underlying messages in the [Markers Report](../profiling/markers-report.md).
+ Sometimes multiple messages occur so close to one another in the Concurrency Visualizer that they can't be drawn individually. When this occurs, a *message aggregation marker* that represents the underlying messages is shown. When you rest the pointer on one of these icons, a tooltip displays the number of underlying messages that are represented. To view the messages, zoom in.  If you zoom in all the way and still get an aggregation marker, you can view the underlying messages in the [Markers Report](../profiling/threads-view-reports.md#markers-report).
 
 ## Span markers
 
@@ -113,13 +113,13 @@ A span marker in the Concurrency Visualizer
 The colors of the first five span categories
 
 ### Span aggregation markers
- Sometimes span markers occur so close to one another in the Concurrency Visualizer that they can't be drawn individually. When this occurs, a gray *span aggregation marker* that represents the underlying spans is shown. When you rest the pointer on one of these icons, a tooltip displays the number of underlying spans that are represented. To view the spans, zoom in. If you zoom in all the way and still get an span aggregation marker, you can view the underlying span markers in the [Markers Report](../profiling/markers-report.md). This illustration shows a span aggregation marker:
+ Sometimes span markers occur so close to one another in the Concurrency Visualizer that they can't be drawn individually. When this occurs, a gray *span aggregation marker* that represents the underlying spans is shown. When you rest the pointer on one of these icons, a tooltip displays the number of underlying spans that are represented. To view the spans, zoom in. If you zoom in all the way and still get an span aggregation marker, you can view the underlying span markers in the [Markers Report](../profiling/threads-view-reports.md#markers-report). This illustration shows a span aggregation marker:
 
  ![An aggregate span marker in Concurrency Visualizer](../profiling/media/cvmarkerspanaggregate.png "CVMarkerSpanAggregate")
 A span aggregation marker
 
 ## See also
-- [Flag markers](../profiling/flag-markers.md)
-- [Message markers](../profiling/message-markers.md)
-- [Span markers](../profiling/span-markers.md)
+- [Flag markers](../profiling/concurrency-visualizer-markers.md#flag-markers)
+- [Message markers](../profiling/concurrency-visualizer-markers.md#message-markers)
+- [Span markers](../profiling/concurrency-visualizer-markers.md#span-markers)
 - [Visualize EventSource events as markers](../profiling/visualizing-eventsource-events-as-markers.md)
