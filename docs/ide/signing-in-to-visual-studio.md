@@ -244,6 +244,10 @@ To see this in action, create a new **ASP.NET Core Web App** project. On the **A
 
 To see this in action, create a new **ASP.NET Core Web App** project. On the **Additional information** page, choose **.NET Core 6 (Long-term support)** from the **Target Framework** drop-down, and then choose an authentication type from the **Authentication Type** drop-down.
 
+### Identity: Proxy support for Azure Active Directory backed accounts
+
+Visual Studio can now detect when users are behind a proxy and proactively prompts for credentials to successfully add their Microsoft account (MSA) or work or school accounts to Visual Studio. The new support prompts for credentials, stores them in the Windows Credential Manager, and can attach them to the needed network (as needed), to complete identity related operations.
+
 ::: moniker-end
 
 ## Sign out of account
