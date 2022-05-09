@@ -51,16 +51,16 @@ The Profile Reports provide aggregate blocking time data for call stacks that ar
  The Sleep report shows the calls that are responsible for blocking time that was attributed to time that was spent sleeping, and the aggregate blocking times of each call stack. For more information, see [Sleep time](../profiling/threads-view-timeline-reports.md#sleep-time).
 
 #### I/O
- The I/O report shows the calls that are responsible for segments that are blocking on I/O, and the aggregate blocking times of each call stack. For more information, see [I/O time (threads view)](../profiling/i-o-time-threads-view.md).
+ The I/O report shows the calls that are responsible for segments that are blocking on I/O, and the aggregate blocking times of each call stack. For more information, see [I/O time (threads view)](../profiling/threads-view-timeline-reports.md#io-time-threads-view).
 
 #### Memory management
- The Memory Management report shows the calls that are responsible for segments that are blocking on memory management operations, and the aggregate blocking times of each call stack. For more information, see [Memory management time](../profiling/memory-management-time.md).
+ The Memory Management report shows the calls that are responsible for segments that are blocking on memory management operations, and the aggregate blocking times of each call stack. For more information, see [Memory management time](../profiling/threads-view-timeline-reports.md#memory-management-time).
 
 #### Preemption
- The Preemption report lists the processes that preempted the current process together with the number of instances.  You can expand each process to view the specific threads that replaced threads in the current process and to view a breakdown of preemption instances per thread. This blocking report is less actionable than the others because preemption is typically imposed on your process by the operating system, not by a problem in your code. For more information, see [Preemption time](../profiling/preemption-time.md).
+ The Preemption report lists the processes that preempted the current process together with the number of instances.  You can expand each process to view the specific threads that replaced threads in the current process and to view a breakdown of preemption instances per thread. This blocking report is less actionable than the others because preemption is typically imposed on your process by the operating system, not by a problem in your code. For more information, see [Preemption time](../profiling/threads-view-timeline-reports.md#preemption-time).
 
 #### UI processing
- The UI Processing report shows the calls that are responsible for blocking segments that are blocking on UI processing blocks, and the aggregate blocking times of each call stack. For more information, see [UI processing time](../profiling/ui-processing-time.md).
+ The UI Processing report shows the calls that are responsible for blocking segments that are blocking on UI processing blocks, and the aggregate blocking times of each call stack. For more information, see [UI processing time](../profiling/threads-view-timeline-reports.md#ui-processing-time).
 
 ## Disk Operations Report (Threads View)
 
@@ -105,7 +105,7 @@ The Execution Profile Report is a traditional sampling profile. Samples are take
 |% Exclusive|The percentage of total samples that is shown in the exclusive samples column. Percentages are rounded to two decimal places.|
 |Details|Fully qualified name of the function. This includes line count when it is available.|
 
- This report table can be seen in the [Execution time (Threads View)](../profiling/execution-time-threads-view.md) view.
+ This report table can be seen in the [Execution time (Threads View)](../profiling/threads-view-timeline-reports.md#execution-time-threads-view) view.
 
 ## Markers Report
 

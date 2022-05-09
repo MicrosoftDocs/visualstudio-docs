@@ -1,5 +1,5 @@
 ---
-title: "Threads view in the Concurrency Visualizer | Microsoft Docs"
+title: "Threads view in the Concurrency Visualizer"
 description: "Learn that in the Threads view, you can identify which threads are executing code during an execution segment."
 ms.date: "05/06/2022"
 ms.topic: "conceptual"
@@ -16,7 +16,7 @@ f1_keywords:
   - "vs.cv.threads.filter"
   - "vs.cv.threads.reportnav.profile"
   - "vs.cv.threads.timeline.threadready"
-  - "vs.cv.threads.timeline.caret
+  - "vs.cv.threads.timeline.caret"
   - "vs.cv.threads.reportnav.unblockedby"
   - "vs.cv.threads.activelegend"
   - "vs.cv.threads.tools.zoom"
