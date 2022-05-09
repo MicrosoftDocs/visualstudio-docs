@@ -14,73 +14,14 @@ ms.topic: how-to
 
  [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
-You can use this guide to uninstall each component in Visual Studio for Mac individually by navigating to the relevant section. You can also use the scripts provided in the [Uninstall Script](#uninstall-script) section to uninstall everything.
+You can use this guide to uninstall each component in Visual Studio for Mac individually by navigating to the relevant section. We recommend you use the scripts provided in the [Uninstall scripts](#uninstall-scripts) section to uninstall everything.
 
 This article is for Visual Studio for Mac. If you're looking for info on VS Code, see [Visual Studio Code set-up](https://code.visualstudio.com/docs/setup/setup-overview).
 
 > [!NOTE]
 > We'd like to learn more about why you're uninstalling Visual Studio for Mac so we can make it better. If you have a few minutes, [please share your feedback](https://aka.ms/vs/mac/uninstallsurvey). Thank you!
 
-## Uninstall application
-
-The first step in uninstalling Visual Studio from a Mac is to locate **Visual Studio** app in the **Applications** directory and drag it to the **Trash Can**. Alternatively, control-click and select **Move to Trash** as illustrated in the following image:
-
-::: moniker range="vsmac-2019"
-
-![Move Visual Studio Application to trash](media/uninstall-image1.png)
-
-::: moniker-end
-
-::: moniker range="vsmac-2022"
-
-:::image type="content" source="media/vsmac-2022/move-vsmac-application-to-trash.png" alt-text="Screenshot showing how to uninstall Visual Studio for Mac application.":::
-
-::: moniker-end
-
-Deleting this app bundle removes Visual Studio for Mac, even though there may be other files related to Xamarin still on the file system.
-
-To remove all traces of Visual Studio for Mac, run the following commands in Terminal:
-
-::: moniker range="vsmac-2019"
-
-```bash
-sudo rm -rf "/Applications/Visual Studio.app"
-rm -rf ~/Library/Caches/VisualStudio
-rm -rf ~/Library/Preferences/VisualStudio
-rm -rf ~/Library/Preferences/Visual\ Studio
-rm -rf ~/Library/Logs/VisualStudio
-rm -rf ~/Library/VisualStudio
-rm -rf ~/Library/Preferences/Xamarin/
-rm -rf ~/Library/Application\ Support/VisualStudio
-rm -rf ~/Library/Application\ Support/VisualStudio/7.0/LocalInstall/Addins/
-rm -rf ~/Library/Application\ Support/VisualStudio/8.0/LocalInstall/Addins/
-```
-
-::: moniker-end
-
-::: moniker range="vsmac-2022"
-
-```bash
-sudo rm -rf "/Applications/Visual Studio.app"
-rm -rf ~/Library/Caches/VisualStudio
-rm -rf ~/Library/Preferences/VisualStudio
-rm -rf ~/Library/Preferences/Visual\ Studio
-rm -rf ~/Library/Logs/VisualStudio
-rm -rf ~/Library/VisualStudio
-rm -rf ~/Library/Preferences/Xamarin/
-rm -rf ~/Library/Application\ Support/VisualStudio
-rm -rf ~/Library/Application\ Support/VisualStudio/17.0/LocalInstall/Addins/
-```
-
-::: moniker-end
-
-You might also want to remove the following directory containing various Xamarin files and folders. However, this directory contains the Android signing keys. For more information, see the section **[Uninstalling Android SDK and Java SDK](#uninstall-android-sdk-and-java-sdk)**:
-
-```bash
-rm -rf ~/Library/Developer/Xamarin
-```
-
-## Uninstall Script
+## Uninstall scripts
 
 There are two scripts that can be used to uninstall Visual Studio for Mac and all components from your machine:
 
@@ -138,6 +79,64 @@ To run the script, do the following steps:
     ```
 
 4. Finally, delete the .NET Core uninstall script.
+
+## Manually removing Visual Studio for Mac
+
+If you prefer to remove Visual Studio for Mac and its dependencies manually (instead of using the scripts from the prior section), this section summarizes the steps you should follow. 
+
+The first step in uninstalling Visual Studio from a Mac is to locate **Visual Studio** app in the **Applications** directory and drag it to **Trash**. Alternatively, control-click and select **Move to Trash** as illustrated in the following image:
+
+::: moniker range="vsmac-2019"
+
+![Screenshot that shows the move to trash option in the Visual Studio Application.](media/uninstall-image1.png)
+
+::: moniker-end
+
+::: moniker range="vsmac-2022"
+
+:::image type="content" source="media/vsmac-2022/move-vsmac-application-to-trash.png" alt-text="Screenshot showing how to uninstall Visual Studio for Mac application.":::
+
+::: moniker-end
+
+Deleting this app bundle removes Visual Studio for Mac, but there may still be other files such as Xamarin SDKs, .NET SDKs, or iOS development tools on the file system.
+
+To remove all traces of Visual Studio for Mac, run the following commands in Terminal:
+
+::: moniker range="vsmac-2019"
+
+```bash
+sudo rm -rf "/Applications/Visual Studio.app"
+rm -rf ~/Library/Caches/VisualStudio
+rm -rf ~/Library/Preferences/VisualStudio
+rm -rf ~/Library/Preferences/Visual\ Studio
+rm -rf ~/Library/Logs/VisualStudio
+rm -rf ~/Library/VisualStudio
+rm -rf ~/Library/Preferences/Xamarin/
+rm -rf ~/Library/Application\ Support/VisualStudio
+```
+
+::: moniker-end
+
+::: moniker range="vsmac-2022"
+
+```bash
+sudo rm -rf "/Applications/Visual Studio.app"
+rm -rf ~/Library/Caches/VisualStudio
+rm -rf ~/Library/Preferences/VisualStudio
+rm -rf ~/Library/Preferences/Visual\ Studio
+rm -rf ~/Library/Logs/VisualStudio
+rm -rf ~/Library/VisualStudio
+rm -rf ~/Library/Preferences/Xamarin/
+rm -rf ~/Library/Application\ Support/VisualStudio
+```
+
+::: moniker-end
+
+You might also want to remove the following directory containing various Xamarin files and folders. However, this directory contains the Android signing keys. For more information, see the section **[Uninstalling Android SDK and Java SDK](#uninstall-android-sdk-and-java-sdk)**:
+
+```bash
+rm -rf ~/Library/Developer/Xamarin
+```
 
 ## Uninstall Mono SDK (MDK)
 
