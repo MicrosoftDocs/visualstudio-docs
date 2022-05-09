@@ -2,7 +2,7 @@
 title: 'How to: Create and remove project dependencies'
 description: Learn how you can use Visual Studio to create and remove your project's dependency on code from other projects.
 ms.custom: SEO-VS-2020
-ms.date: 06/21/2017
+ms.date: 05/09/2022
 ms.topic: how-to
 f1_keywords:
 - VS.ProjectDependenciesDlg
@@ -35,9 +35,6 @@ When building a solution that contains multiple projects, it can be necessary to
 
     The **Project Dependencies** dialog box opens.
 
-   > [!NOTE]
-   > The **Project Dependencies** option is only available in a solution with more than one project.
-
 3. On the **Dependencies** tab, select a project from the **Project** drop-down menu.
 
 4. In the **Depends on** field, select the check box of any other project that must build before this project does.
@@ -51,9 +48,6 @@ When building a solution that contains multiple projects, it can be necessary to
 2. On the **Project** menu, choose **Project Dependencies**.
 
      The **Project Dependencies** dialog box opens.
-
-    > [!NOTE]
-    > The **Project Dependencies** option is only available in a solution with more than one project.
 
 3. On the **Dependencies** tab, select a project from the **Project** drop-down menu.
 
