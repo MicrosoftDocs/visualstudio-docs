@@ -246,7 +246,12 @@ To see this in action, create a new **ASP.NET Core Web App** project. On the **A
 
 ### Identity: Proxy support for Azure Active Directory backed accounts
 
-Visual Studio can now detect when users are behind a proxy and proactively prompts for credentials to successfully add their Microsoft account (MSA) or work or school accounts to Visual Studio. The new support prompts for credentials, stores them in the Windows Credential Manager, and can attach them to the needed network (as needed), to complete identity related operations.
+Visual Studio can now detect when users are behind a proxy and proactively prompt for proxy credentials when adding  Microsoft accounts (MSA) or work or school accounts (WSA) to Visual Studio. 
+
+Proxy credentials are stored in the Windows Credential Manager and are used as needed to complete identity related operations.
+
+> [!NOTE]
+> If the proxy server starts or changes after opening Visual Studio, the **Account Settings** dialog will show a warning, but you'll need to restart Visual Studio to get the proxy credentials prompt.
 
 ::: moniker-end
 
