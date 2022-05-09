@@ -57,7 +57,7 @@ A project dependency is automatically created when you add a project-to-project 
 
 4. In the **Depends on** field, clear the check boxes beside any other projects that are no longer dependencies of this project.
 
-## Build order
+## To view the build order
 
 From the **Project Dependencies** dialog, you can switch to the **Build order** tab to the view the build order for the solution.
 
