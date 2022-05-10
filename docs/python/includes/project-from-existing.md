@@ -22,4 +22,4 @@ ms.topic: include
 
 1. Select **Finish** and Visual Studio creates the project and opens it in **Solution Explorer**. If you want to move the `.pyproj` file elsewhere, select it in **Solution Explorer** and choose **File** > **Save As**. This action updates file references in the project but doesn't move any code files.
 
-1. To set a different startup file, locate the file in **Solution Explorer**, right-click, and select **Set as Startup File**.
+1. To set a different startup file, locate the file in **Solution Explorer**, right-click on the file, and select **Set as Startup File**.
