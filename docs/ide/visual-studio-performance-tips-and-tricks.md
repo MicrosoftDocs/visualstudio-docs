@@ -2,7 +2,7 @@
 title: Tips to improve performance
 description: Learn how to optimize certain Visual Studio features that you might not be using to help improve performance.
 ms.custom: SEO-VS-2020
-ms.date: 04/14/2022
+ms.date: 05/10/2022
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -151,9 +151,9 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
     Visual Studio runs the Git command `git status` with untracked files to provide a seamless experience when you add new files to a repository. When there are a large number of untracked files, `git status` can consume extra memory. To ignore these files and improve performance of `git status`, you can add these files or folders to your local .gitignore file. To access the file, go to **Git** > **Settings** > **Git Repository Settings**. Then, in the **Git files** section, click **Add** to create a .gitignore file, or click **Edit** if you already have one.
 
-- **Enable commit graph in Git tooling (Preview-only)**
+- **Enable commit graph in Git tooling**
 
-    [New in Visual Studio 2022 Preview](/visualstudio/releases/2022/release-notes-preview): If you're experiencing delays when you view your Git repository or branch history in Visual Studio, we've integrated a "commit graph" feature that can help. To use commit graph, [download the Visual Studio 2022 Preview](https://aka.ms/vs2022preview). To learn more about commit graph, see the [Supercharge your Git experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/) blog post.
+    [New in Visual Studio 2022 version 17.2](https://aka.ms/vs-2022-17-2-release): If you're experiencing delays when you view your Git repository or branch history in Visual Studio, we've integrated a "commit graph" feature that can help. To use commit graph, make sure you [download and install Visual Studio 2022](https://visualstudio.microsoft.com/downloads/). To learn more about commit graph, see the [Supercharge your Git experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/) blog post.
 
 ## Force a garbage collection
 
