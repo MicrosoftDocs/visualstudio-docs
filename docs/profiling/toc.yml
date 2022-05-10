@@ -34,6 +34,8 @@
     href: events-viewer.md 
   - name: CPU usage
     href: cpu-usage.md
+  - name: File IO
+    href: use-file-io.md    
   - name: Memory usage
     items:
     - name: Choose a memory analysis tool
