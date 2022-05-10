@@ -1,7 +1,6 @@
 ---
 title: "Advanced Visualizer Scenarios | Microsoft Docs"
 description: Visual Studio debugger visualizers advanced scenarios and examples for them. 
-ms.custom: SEO-VS-2020
 ms.date: "05/09/2022"
 ms.topic: "conceptual"
 f1_keywords:
