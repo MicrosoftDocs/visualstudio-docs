@@ -4,7 +4,7 @@ description: "Learn how to uninstall or remove Visual Studio for Mac and related
 author: jmatthiesen
 ms.author: jomatthi
 manager: dominicn
-ms.date: 03/03/2022
+ms.date: 04/27/2022
 ms.custom: devdivchpfy22
 ms.technology: vs-ide-install
 ms.assetid: 4EB95F75-BC2E-4982-9564-2975805712D8
@@ -14,16 +14,16 @@ ms.topic: how-to
 
  [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
-You can use this guide to uninstall each component in Visual Studio for Mac individually by navigating to the relevant section. You can also use the scripts provided in the [Uninstall Script](#uninstall-script) section to uninstall everything.
+You can use this guide to uninstall each component in Visual Studio for Mac individually by navigating to the relevant section. We recommend you use the scripts provided in the [Uninstall scripts](#uninstall-scripts) section to uninstall everything.
 
-This article is for Visual Studio. If you're looking for info on VS Code, see [Visual Studio Code set-up](https://code.visualstudio.com/docs/setup/setup-overview).
+This article is for Visual Studio for Mac. If you're looking for info on VS Code, see [Visual Studio Code set-up](https://code.visualstudio.com/docs/setup/setup-overview).
 
 > [!NOTE]
 > We'd like to learn more about why you're uninstalling Visual Studio for Mac so we can make it better. If you have a few minutes, [please share your feedback](https://aka.ms/vs/mac/uninstallsurvey). Thank you!
 
-## Uninstall Script
+## Uninstall scripts
 
-There are two scripts that can be used to uninstall Visual Studio for Mac and all components for your machine:
+There are two scripts that can be used to uninstall Visual Studio for Mac and all components from your machine:
 
 - [Visual Studio and Xamarin script](#visual-studio-for-mac-and-xamarin-script)
 - [.NET Core script](#net-core-script)
@@ -71,7 +71,7 @@ To run the script, do the following steps:
     cd /location/of/file
     ```
 
-3. Make the script executable and the run it with **sudo**:
+3. Make the script executable and then run it with **sudo**:
 
     ```bash
     chmod +x ./dotnet-uninstall-pkgs.sh
@@ -80,15 +80,29 @@ To run the script, do the following steps:
 
 4. Finally, delete the .NET Core uninstall script.
 
-## Uninstall Visual Studio for Mac
+## Manually removing Visual Studio for Mac
 
-The first step in uninstalling Visual Studio from a Mac is to locate **Visual Studio.app** in the **/Applications** directory and drag it to the **Trash Can**. Alternatively, right-click and select **Move to Trash** as illustrated in the following image:
+If you prefer to remove Visual Studio for Mac and its dependencies manually (instead of using the scripts from the prior section), this section summarizes the steps you should follow. 
 
-![Move Visual Studio Application to trash](media/uninstall-image1.png)
+The first step in uninstalling Visual Studio from a Mac is to locate **Visual Studio** app in the **Applications** directory and drag it to **Trash**. Alternatively, control-click and select **Move to Trash** as illustrated in the following image:
 
-Deleting this app bundle removes Visual Studio for Mac, even though there may be other files related to Xamarin still on the file system.
+::: moniker range="vsmac-2019"
+
+![Screenshot that shows the move to trash option in the Visual Studio Application.](media/uninstall-image1.png)
+
+::: moniker-end
+
+::: moniker range="vsmac-2022"
+
+:::image type="content" source="media/vsmac-2022/move-vsmac-application-to-trash.png" alt-text="Screenshot showing how to uninstall Visual Studio for Mac application.":::
+
+::: moniker-end
+
+Deleting this app bundle removes Visual Studio for Mac, but there may still be other files such as Xamarin SDKs, .NET SDKs, or iOS development tools on the file system.
 
 To remove all traces of Visual Studio for Mac, run the following commands in Terminal:
+
+::: moniker range="vsmac-2019"
 
 ```bash
 sudo rm -rf "/Applications/Visual Studio.app"
@@ -99,9 +113,24 @@ rm -rf ~/Library/Logs/VisualStudio
 rm -rf ~/Library/VisualStudio
 rm -rf ~/Library/Preferences/Xamarin/
 rm -rf ~/Library/Application\ Support/VisualStudio
-rm -rf ~/Library/Application\ Support/VisualStudio/7.0/LocalInstall/Addins/
-rm -rf ~/Library/Application\ Support/VisualStudio/8.0/LocalInstall/Addins/
 ```
+
+::: moniker-end
+
+::: moniker range="vsmac-2022"
+
+```bash
+sudo rm -rf "/Applications/Visual Studio.app"
+rm -rf ~/Library/Caches/VisualStudio
+rm -rf ~/Library/Preferences/VisualStudio
+rm -rf ~/Library/Preferences/Visual\ Studio
+rm -rf ~/Library/Logs/VisualStudio
+rm -rf ~/Library/VisualStudio
+rm -rf ~/Library/Preferences/Xamarin/
+rm -rf ~/Library/Application\ Support/VisualStudio
+```
+
+::: moniker-end
 
 You might also want to remove the following directory containing various Xamarin files and folders. However, this directory contains the Android signing keys. For more information, see the section **[Uninstalling Android SDK and Java SDK](#uninstall-android-sdk-and-java-sdk)**:
 
@@ -181,7 +210,7 @@ sudo pkgutil --forget com.xamarin.xamarin.ios.pkg
 
 ## Uninstall Xamarin.Mac
 
-Xamarin.Mac can be removed from your machine using the following two commands that remove the product and license from your Mac respectively:
+Xamarin.Mac can be removed from your machine by using the following two commands that remove the product and license from your Mac respectively:
 
 ```bash
 sudo rm -rf /Library/Frameworks/Xamarin.Mac.framework
@@ -190,7 +219,7 @@ rm -rf ~/Library/Xamarin.Mac
 
 ## Uninstall Workbooks and Inspector
 
-Starting with 1.2.2, Xamarin Workbooks & Inspector can be uninstalled from a terminal by running:
+Starting with 1.2.2, Xamarin Workbooks & Inspector can be uninstalled by running the following command in Terminal:
 
 ```bash
 sudo /Library/Frameworks/Xamarin.Interactive.framework/Versions/Current/uninstall
