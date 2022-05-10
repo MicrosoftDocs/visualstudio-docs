@@ -21,7 +21,7 @@ ms.workload:
 ---
 # Advanced Visualizer Scenarios
 
-This page contains information that might be usful for people that are writing their own custom data visualizers. Particularly when the object that is being visualized or the visualizer UI itself
+This article provides information that might be useful if you're writing your own custom data visualizers, particularly if the object that is being visualized or the visualizer UI itself is unusually complex.
 is more complex than what otherwise would be expected.
 
 ## Handling long serialization time
