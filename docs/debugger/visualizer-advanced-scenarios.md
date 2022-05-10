@@ -26,7 +26,7 @@ This article provides information that might be useful if you're writing your ow
 ## Handling long serialization time
 
 There are some cases when calling the default <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetData%2A> method on the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> will
-result in a Timeout Exception being thrown by the visualizer. Custom Data Visualizers operations can only take a maximum of five seconds to guarantee that Visual Studio remains responsive. That is, every
+result in a Timeout Exception being thrown by the visualizer. Custom data visualizer operations are allowed only a maximum of five seconds to guarantee that Visual Studio remains responsive. That is, every
 call to <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetData%2A>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.CreateReplacementObject%2A>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A>, etc., must finish their execution before the time limit is reached or VS will throw. Since there is no plan to provide support for changing this time constraint,
 visualizer implementations must handle cases in which an object takes longer than this to be serialized by themselves. To handle this scenario correctly, it is recommended that the visualizer handles passing data from the
 *debuggee-side* component to the *debugger-side* component by chunks or pieces.
