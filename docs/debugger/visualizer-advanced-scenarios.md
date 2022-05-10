@@ -23,18 +23,18 @@ ms.workload:
 ---
 # Advanced Visualizer Scenarios
 
-This page contains additional information that might be usful for people that are writing their own custom data visualizers. Particularly when the object that is being visualized or the visualizer UI itself
+This page contains information that might be usful for people that are writing their own custom data visualizers. Particularly when the object that is being visualized or the visualizer UI itself
 is more complex than what otherwise would be expected.
 
 ## Handling long serialization time
 
-There are some cases where calling the default <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetData> method on the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> will
+There are some cases when calling the default <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetData> method on the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> will
 result in a Timeout Exception being thrown by the visualizer. Custom Data Visualizers operations can only take a maximum of five seconds to guarantee that Visual Studio remains responsive. That is, every
-call to <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetData>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.CreateReplacementObject>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.TransferData>, etc., must finish their execution before this time limit is reached or VS will throw. Since there is no plan to provide support for changing this time constraint,
-visualizer implementations must handle cases in which an object takes longer than this to be serialized by themselves. To achieve this, it is recommended that the visualizer handles passing data from the
+call to <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetData>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.CreateReplacementObject>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.TransferData>, etc., must finish their execution before the time limit is reached or VS will throw. Since there is no plan to provide support for changing this time constraint,
+visualizer implementations must handle cases in which an object takes longer than this to be serialized by themselves. To handle this scenario correctly, it is recommended that the visualizer handles passing data from the
 *debuggee-side* component to the *debugger-side* component by chunks or pieces.
 
-For example, let us imagine that we have a very complex object called `VerySlowObject` that has many fields and properties that must be processed and copied over to the *debugger-side* visualizer component. Among those properties we have `VeryLongList` which, depending on the instance of `VerySlowObject`, might be serialized within the five seconds or take a little more. 
+For example, let us imagine that we have a complex object called `VerySlowObject` that has many fields and properties that must be processed and copied over to the *debugger-side* visualizer component. Among those properties, we have `VeryLongList` which, depending on the instance of `VerySlowObject`, might be serialized within the five seconds or take a little more.
 
 ```csharp
 public class VerySlowObject
@@ -80,14 +80,14 @@ public class GetVeryLongListResponse
 }
 ```
 
-With all our helper classed in place, the `TransferData` method might written as follows.
+With all our helper classed in place, the `TransferData` method can be written as follows.
 
 ```csharp
 public override void TransferData(object obj, Stream fromVisualizer, Stream toVisualizer)
 {
     // Serialize `obj` into the `toVisualizer` stream...
 
-    // Start our timer so that we can stop processing this request if we are taking too long.
+    // Start our timer so that we can stop processing the request if we are taking too long.
     long startTime = Environment.TickCount;
 
     VerySlowObject slowObject = obj as VerySlowObject;
@@ -107,7 +107,7 @@ public override void TransferData(object obj, Stream fromVisualizer, Stream toVi
             break;
         }
 
-        // This takes a considerable amount of time...
+        // This call takes a considerable amount of time...
         returnValues.Add(slowObject.VeryLongList[i].ToString());
     }
     
@@ -156,7 +156,7 @@ public class CustomVisualizer : DialogDebuggerVisualizer
             }
             while (requestedCount == fetchedCount || timeoutOccurred);
 
-            // Do some additional processing of the data before showing it to the user.
+            // Do some processing of the data before showing it to the user.
             string valuesToBeShown = ProcessList(verySlowObjectList);
             MessageBox.Show(valuesToBeShown);
         }
