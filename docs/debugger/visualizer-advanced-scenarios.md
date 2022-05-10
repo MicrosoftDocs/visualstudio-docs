@@ -25,11 +25,7 @@ This article provides information that might be useful if you're writing your ow
 
 ## Handling long serialization time
 
-There are some cases when calling the default <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetData%2A> method on the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> will
-result in a Timeout Exception being thrown by the visualizer. Custom data visualizer operations are allowed only a maximum of five seconds to guarantee that Visual Studio remains responsive. That is, every
-call to <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetData%2A>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.CreateReplacementObject%2A>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A>, etc., must finish execution before the time limit is reached or VS will throw an exception. Because there is no plan to provide support for changing this time constraint,
-visualizer implementations must handle cases where an object takes longer than five seconds to be serialized. To handle this scenario correctly, it is recommended that the visualizer handles passing data from the
-*debuggee-side* component to the *debugger-side* component by chunks or pieces.
+There are some cases when calling the default <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetData%2A> method on the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> will result in a Timeout Exception being thrown by the visualizer. Custom data visualizer operations are allowed only a maximum of five seconds to guarantee that Visual Studio remains responsive. That is, every call to <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetData%2A>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.CreateReplacementObject%2A>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A>, etc., must finish execution before the time limit is reached or VS will throw an exception. Because there is no plan to provide support for changing this time constraint, visualizer implementations must handle cases where an object takes longer than five seconds to be serialized. To handle this scenario correctly, it is recommended that the visualizer handles passing data from the *debuggee-side* component to the *debugger-side* component by chunks or pieces.
 
 For example, let us imagine that you have a complex object called `VerySlowObject` that has many fields and properties that must be processed and copied over to the *debugger-side* visualizer component. Among those properties, you have `VeryLongList` which, depending on the instance of `VerySlowObject`, might be serialized within the five seconds or take a little more.
 
@@ -77,14 +73,14 @@ public class GetVeryLongListResponse
 }
 ```
 
-With all our helper classed in place, the `TransferData` method can be written as follows.
+With your helper classes in place, the `TransferData` method can be written as follows.
 
 ```csharp
 public override void TransferData(object obj, Stream fromVisualizer, Stream toVisualizer)
 {
     // Serialize `obj` into the `toVisualizer` stream...
 
-    // Start our timer so that we can stop processing the request if we are taking too long.
+    // Start the timer so that we can stop processing the request if it is are taking too long.
     long startTime = Environment.TickCount;
 
     VerySlowObject slowObject = obj as VerySlowObject;
@@ -98,7 +94,7 @@ public override void TransferData(object obj, Stream fromVisualizer, Stream toVi
 
     for (int i = (int)command.StartOffset; i < slowObject.VeryLongList.Count; i++)
     {
-        // If we have taken more than 3 seconds, just return what we have gotten so far and fetch the remaining data on a posterior call.
+        // If the call takes more than 3 seconds, just return what we have received so far and fetch the remaining data on a posterior call.
         if ((Environment.TickCount - startTime) > 3_000)
         {
             break;
