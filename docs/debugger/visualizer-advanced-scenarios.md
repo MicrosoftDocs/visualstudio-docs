@@ -112,7 +112,7 @@ public override void TransferData(object obj, Stream fromVisualizer, Stream toVi
 }
 ```
 
-And finally, our visualizer has just to take into account the possibility of receiving partial data and handle it correctly.
+And finally, your visualizer has to take into account the possibility of receiving partial data and handle it correctly.
 
 ```csharp
 public class CustomVisualizer : DialogDebuggerVisualizer
