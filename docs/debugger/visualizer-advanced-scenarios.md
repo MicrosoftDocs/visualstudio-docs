@@ -28,9 +28,9 @@ is more complex than what otherwise would be expected.
 
 ## Handling long serialization time
 
-There are some cases when calling the default <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetData> method on the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> will
+There are some cases when calling the default <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetData%2A> method on the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> will
 result in a Timeout Exception being thrown by the visualizer. Custom Data Visualizers operations can only take a maximum of five seconds to guarantee that Visual Studio remains responsive. That is, every
-call to <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetData>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.CreateReplacementObject>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData>, etc., must finish their execution before the time limit is reached or VS will throw. Since there is no plan to provide support for changing this time constraint,
+call to <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetData%2A>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.CreateReplacementObject%2A>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A>, etc., must finish their execution before the time limit is reached or VS will throw. Since there is no plan to provide support for changing this time constraint,
 visualizer implementations must handle cases in which an object takes longer than this to be serialized by themselves. To handle this scenario correctly, it is recommended that the visualizer handles passing data from the
 *debuggee-side* component to the *debugger-side* component by chunks or pieces.
 
@@ -48,7 +48,7 @@ public class VerySlowObject
 }
 ```
 
-Therefore, we need to create our own custom <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> derived class that overrides the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData> method.
+Therefore, we need to create our own custom <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> derived class that overrides the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A> method.
 
 ```csharp
 public class CustomVisualizerObjectSource : VisualizerObjectSource
