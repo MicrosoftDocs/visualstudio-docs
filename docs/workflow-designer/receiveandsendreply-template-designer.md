@@ -17,6 +17,8 @@ ms.workload:
 ---
 # ReceiveAndSendReply Template Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The **ReceiveAndSendReply** template is used to create a pair of pre-configured <xref:System.ServiceModel.Activities.Receive> and <xref:System.ServiceModel.Activities.SendReply> activities. The activities are part of a <xref:System.Activities.Statements.Sequence> activity, and are correlated as part of a request/response message exchange pattern on the server.
 
 ## The ReceiveAndSendReply template

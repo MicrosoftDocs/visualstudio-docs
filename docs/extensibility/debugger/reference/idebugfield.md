@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugField
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a field, that is, a description of a symbol or type.
 
 ## Syntax

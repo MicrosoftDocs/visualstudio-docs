@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Bitflags used by specific commands
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The behavior of a number of functions in the Source Control Plug-in API can be modified by setting one or more bits in a single value. These values are known as bitflags. The various bitflags used by the Source Control Plug-in API are detailed here, grouped by the function that uses them.
 
 ## Checked out flag

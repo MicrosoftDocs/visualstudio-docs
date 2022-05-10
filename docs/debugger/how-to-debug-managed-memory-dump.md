@@ -19,8 +19,9 @@ monikerRange: '>= vs-2019'
 ms.workload: 
   - "multiple"
 ---
-
 # How to debug a managed memory dump with .NET Diagnostic Analyzers
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 
 

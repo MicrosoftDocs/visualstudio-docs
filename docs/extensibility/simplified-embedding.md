@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Simplified Embedding
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Simplified embedding is enabled in an editor when its document view object is parented to (that is, made a child of) [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowPane> interface is implemented to handle its window commands. Simplified embedding editors cannot host active controls. The objects used to create an editor with simplified embedding are shown in the following illustration.
 
  ![Simplified Embedding Editor graphic](../extensibility/media/vssimplifiedembeddingeditor.gif "vsSimplifiedEmbeddingEditor")

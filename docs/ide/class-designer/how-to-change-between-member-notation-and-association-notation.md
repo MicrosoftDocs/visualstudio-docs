@@ -19,6 +19,8 @@ ms.workload:
 ---
 # How to: Change between member notation and association notation in Class Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In **Class Designer**, you can change the way the class diagram represents an association relationship between two types from member notation to association notation and vice versa. Members displayed as association lines often provide a useful visualization of how types are related.
 
 > [!NOTE]

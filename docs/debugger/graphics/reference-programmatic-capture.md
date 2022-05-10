@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Reference (Programmatic Capture)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Graphics Diagnostics supports programmatic control over its capture features, through the programmatic capture API. You can use this API to toggle and add messages to the graphics diagnostics HUD (Head-Up Display), initialize and create graphics log files, and capture graphics information.
 
 ## Programmatic Capture APIs

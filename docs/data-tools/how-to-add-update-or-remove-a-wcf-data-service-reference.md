@@ -20,6 +20,8 @@ ms.workload:
 ---
 # How to: Add, update, or remove a WCF data service reference
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 For .NET Framework projects, *service reference* enables a project to access one or more [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)]. Use the **Add Service Reference** dialog box to search for [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] in the current solution, locally, on a local area network, or on the Internet.
 
 :::moniker range=">=vs-2019"

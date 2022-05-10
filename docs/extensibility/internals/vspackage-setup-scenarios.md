@@ -15,6 +15,8 @@ ms.workload:
 ---
 # VSPackage Setup Scenarios
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 It is important to design your VSPackage installer for flexibility. For example, you might need to release a security patch in the future, or you might change a business strategy that requires thorough side-by-side versioning support.
 
 In [Supporting Multiple Versions of Visual Studio](../../extensibility/supporting-multiple-versions-of-visual-studio.md), you can read about the advantages and issues of supporting side-by-side installations of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] with either shared or side-by-side installations of your VSPackage. In short, side-by-side VSPackages give you the most flexibility to support new features of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].

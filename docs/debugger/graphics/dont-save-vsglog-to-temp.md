@@ -12,6 +12,8 @@ ms.workload:
   - "multiple"
 ---
 # DONT_SAVE_VSGLOG_TO_TEMP
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Defines by its presence whether the graphics log file is saved to the user's temporary files directory.
 
 ## Syntax

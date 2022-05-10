@@ -14,6 +14,8 @@ ms.workload:
 ---
 # How to: Export a texture for use with Direct2D or JavaScript apps
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Image Content Pipeline can generate textures that are compatible with Direct2D's internal rendering conventions. Textures of this kind are suitable for use in apps that use Direct2D, and in UWP apps created by using JavaScript.
 
 This document demonstrates these activities:

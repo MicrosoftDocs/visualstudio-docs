@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSectionContrib::get_code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that indicates whether the section contains executable code.
 
 ## Syntax

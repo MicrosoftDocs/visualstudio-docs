@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugContainerField
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a symbol or type that is a container for other symbols or types.
 
 ## Syntax

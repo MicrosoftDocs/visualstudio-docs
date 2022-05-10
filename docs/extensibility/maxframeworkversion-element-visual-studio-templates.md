@@ -17,6 +17,8 @@ ms.workload:
 ---
 # MaxFrameworkVersion element (Visual Studio templates)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Specifies the maximum version of the .NET Framework that is required by the template. It determines the highest value available in the **Target Framework Version** dropdown of the **New Project** dialog. In order for users to be able to select a framework version, you must also specify [RequiredFrameworkVersion](../extensibility/requiredframeworkversion-element-visual-studio-templates.md) as the minimum .NET Framework version for the template.
 
 > [!IMPORTANT]

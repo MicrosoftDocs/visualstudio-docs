@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Walkthrough: Create a custom editor
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The VSPackage project template can create a simple custom editor in C++. The VSPackage project template no longer supports C# or Visual Basic projects. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
 
 ## Prerequisites

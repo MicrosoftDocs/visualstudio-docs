@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugCoreServer3::GetServerFriendlyName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a friendly name for the server.
 
 ## Syntax

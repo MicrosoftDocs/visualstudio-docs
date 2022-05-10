@@ -9,8 +9,9 @@ ms.technology: vs-ide-general
 ms.assetid: F898CB6E-05ED-44CD-8DB6-427B2592CCC6
 ms.topic: how-to
 ---
-
 # Create Razor web apps
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 This guide offers an introduction to creating your first Razor web app. For more in-depth guidance, see [Introduction to Razor Pages in ASP.NET Core](/aspnet/core/razor-pages/index).
 

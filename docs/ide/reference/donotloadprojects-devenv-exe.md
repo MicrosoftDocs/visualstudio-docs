@@ -17,6 +17,8 @@ ms.workload:
 ---
 # /DoNotLoadProjects (devenv.exe)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 **New for Visual Studio 2019 version 16.1**
 
 Opens the specified solution without loading any projects. For more information, see [Filtered solutions in Visual Studio](../filtered-solutions.md).

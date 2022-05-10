@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Invoke text transformation in a Visual Studio extension
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 If you are writing a Visual Studio extension such as a menu command or [domain-specific language](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md), you can use the text templating service to transform text templates. Get the [STextTemplating](/previous-versions/visualstudio/visual-studio-2012/bb932394(v=vs.110)) service and cast it to [ITextTemplating](/previous-versions/visualstudio/visual-studio-2012/bb932392(v=vs.110)).
 
 ## Get the text templating service

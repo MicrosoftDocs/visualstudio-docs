@@ -17,6 +17,8 @@ ms.technology: vs-installation
 ---
 # Create, maintain, and deploy a network installation of Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Sometimes an enterprise administrator wants to create a network install point that contains Visual Studio files that can be deployed to client workstations. This is to facilitate scenarios where the client machines may have limited permissions or limited access to the internet, or when an organization wants to standardize on a particular version of the developer toolset. We've designed Visual Studio so that an administrator can _create and maintain_ a network layout (file cache), that can be stored on an internal network share. The network layout includes all the Visual Studio files necessary for both initial installation and subsequent product updates.
 
 There is a lot of information on this webpage, and it's grouped up into the following sections:

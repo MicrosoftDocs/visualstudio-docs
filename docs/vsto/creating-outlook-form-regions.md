@@ -21,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # Create Outlook form regions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can use form regions to customize Microsoft Office Outlook forms. Visual Studio provides advanced tools that make it easier for you to design, develop, and debug form regions.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

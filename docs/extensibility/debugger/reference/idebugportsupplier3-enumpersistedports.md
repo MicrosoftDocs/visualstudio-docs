@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortSupplier3::EnumPersistedPorts
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method retrieves an object that allows enumeration of the list of persisted ports.
 
 ## Syntax

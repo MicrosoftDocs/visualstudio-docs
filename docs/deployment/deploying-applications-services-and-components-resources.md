@@ -19,8 +19,9 @@ ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---
-
 # Deploy your app to a folder, IIS, Azure, or another destination
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By deploying an application, service, or component, you distribute it for installation on other computers, devices, servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need.
 

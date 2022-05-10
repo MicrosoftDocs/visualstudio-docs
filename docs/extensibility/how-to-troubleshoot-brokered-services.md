@@ -17,10 +17,12 @@ ms.workload:
 ---
 # How to: Troubleshoot brokered services
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Brokered services may fail in various ways.
 Several common ways are described below with suggestions to guide your investigation and possible fixes.
 
-A useful technique to start your investigation with is to check the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] [Activity Log](/visualstudio/extensibility/how-to-use-the-activity-log?view=vs-2022), which often logs errors or warnings when things go awry with brokered services.
+A useful technique to start your investigation with is to check the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] [Activity Log](how-to-use-the-activity-log.md), which often logs errors or warnings when things go awry with brokered services.
 
 ## Requesting a service
 
@@ -40,7 +42,7 @@ The result of a service request may be `null` when any of the following conditio
 - The requested service is registered but is missing information about which package to initialize so that its factory can be proffered. The <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ProvideBrokeredServiceAttribute> attribute automatically generates registration that indicates the package the attribute was applied to so that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can load that package as needed.
   If the attribute is applied to the wrong package or the pkgdef file is hand-authored, this information may be missing or inaccurate.
 - The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] package responsible for proffering the brokered service throws during initialization or otherwise fails to actually proffer that service factory.
-  Check the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] [Activity Log](/visualstudio/extensibility/how-to-use-the-activity-log?view=vs-2022) for evidence of a package load failure.
+  Check the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] [Activity Log](how-to-use-the-activity-log.md) for evidence of a package load failure.
 - The service factory itself returns `null`.
 
 ### Service request throws exception

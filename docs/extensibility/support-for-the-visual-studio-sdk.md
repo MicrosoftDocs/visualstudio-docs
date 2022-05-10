@@ -19,6 +19,8 @@ ms.workload:
 - vssdk
 ---
 # Support for the Visual Studio SDK
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Several support options are available for customers who have questions about how to extend the Visual Studio integrated development environment (IDE).
 
 ## Free Support

@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSession::findFileById
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a source file by source file identifier.
 
 ## Syntax

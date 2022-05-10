@@ -22,6 +22,8 @@ ms.workload:
   - "cplusplus"
 ---
 # Edit and Continue (C++)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can use Edit and Continue in C++ projects. See [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md) for information about the limitations of Edit and Continue.
 
 For more information about Visual Studio 2015 Update 3 improvements, see [C++ Edit and Continue in Visual Studio 2015 Update 3](https://devblogs.microsoft.com/cppblog/c-edit-and-continue-in-visual-studio-2015-update-3/).

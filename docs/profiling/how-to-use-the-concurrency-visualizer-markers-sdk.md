@@ -12,6 +12,8 @@ ms.workload:
   - multiple
 ---
 # How To: Use the Concurrency Visualizer markers SDK
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This topic shows how to use the Concurrency Visualizer SDK to create spans and write flags, messages, and alerts.
 
 ### To use C++

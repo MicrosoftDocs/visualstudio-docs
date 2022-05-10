@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically create new workbooks
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you create a workbook programmatically, it is a native <xref:Microsoft.Office.Interop.Excel.Workbook> object, not a <xref:Microsoft.Office.Tools.Excel.Workbook> host item.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]

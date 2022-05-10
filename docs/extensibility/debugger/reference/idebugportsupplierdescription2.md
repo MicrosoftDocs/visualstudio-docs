@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugPortSupplierDescription2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enables the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] UI to display text inside the **Transport Information** section of the **Attach to Process** dialog box.
 
 ## Syntax

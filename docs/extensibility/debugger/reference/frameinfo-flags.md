@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # FRAMEINFO_FLAGS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the information to retrieve about a stack frame object.
 
 ## Syntax

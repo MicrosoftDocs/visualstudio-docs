@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_backEndMinor
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the back end minor version number of the compiler.
 
 ## Syntax

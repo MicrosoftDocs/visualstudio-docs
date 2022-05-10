@@ -14,8 +14,9 @@ monikerRange: '>= vs-2019'
 ms.workload:
   - "multiple"
 ---
-
 # Attach to a process running on a Docker container 
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can debug apps running in either a Windows Docker Container or a Linux .NET Core Docker container using Visual Studio.
 

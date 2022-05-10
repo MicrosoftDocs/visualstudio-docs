@@ -13,6 +13,8 @@ ms.workload:
   - multiple
 ---
 # Mark
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The *VSPerfCmd.exe* **Mark** option inserts the specified information into the profiling data file. Mark can be listed in a separate VSPerfReport report or in the Mark Report view of the profiler UI. **Mark** can be used to specify start and end points in report and view filters.
 
  The **Mark** option must be the only option specified on the command line.

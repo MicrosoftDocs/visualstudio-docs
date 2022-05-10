@@ -19,6 +19,8 @@ ms.workload:
 ---
 # The workbook contains ActiveX controls that cannot be loaded
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
   The error "The workbook used to create this project contains ActiveX controls that the designer cannot load" appears when you add a control to a Word document or an Excel worksheet programmatically, save the document or workbook, and then create a new document-level solution based on the document or workbook.
 
  Information that describes the managed type of the control is not saved along with the document or workbook. When you create a new solution based on that document or workbook, Visual Studio does not have enough information to load the control in the host item designer.

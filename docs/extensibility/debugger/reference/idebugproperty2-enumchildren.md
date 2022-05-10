@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty2::EnumChildren
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of the children of the property.
 
 ## Syntax

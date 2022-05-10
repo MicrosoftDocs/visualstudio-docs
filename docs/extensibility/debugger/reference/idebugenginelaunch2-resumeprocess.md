@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngineLaunch2::ResumeProcess
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Resumes process execution.
 
 ## Syntax

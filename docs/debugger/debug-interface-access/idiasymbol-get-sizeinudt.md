@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_sizeInUdt
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the size of a member of a user-defined type.
 
 ## Syntax

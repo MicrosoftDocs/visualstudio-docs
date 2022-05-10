@@ -862,8 +862,6 @@
     - name: Sign in to Visual Studio
       displayName: personalization accounts
       href: ide/signing-in-to-visual-studio.md
-    - name: Work with multiple user accounts
-      href: ide/work-with-multiple-user-accounts.md
     - name: Work with accounts that require multifactor authentication
       href: ide/work-with-multi-factor-authentication.md
     - name: Work with GitHub accounts in Visual Studio
@@ -1145,10 +1143,9 @@
         href: ide/reference/xaml-designer.md
     - name: Output window
       href: ide/reference/output-window.md
-    - name: Project Properties
+    - name: Project Designer & project properties
       items:
-      - name: Reference
-        displayName: Project properties
+      - name: Project Designer reference
         href: ide/reference/project-properties-reference.md
       - name: Application Page, Project Designer (UWP)
         href: ide/reference/application-page-project-designer-uwp.md

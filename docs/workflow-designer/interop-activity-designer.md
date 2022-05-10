@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Interop Activity Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The **Interop** activity designer is used to create and configure an <xref:System.Activities.Statements.Interop> activity.
 
 ## The Interop Activity

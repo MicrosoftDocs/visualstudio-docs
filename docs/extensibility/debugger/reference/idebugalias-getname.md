@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugAlias::GetName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name of this alias.
 
 ## Syntax

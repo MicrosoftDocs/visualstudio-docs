@@ -11,6 +11,8 @@ ms.topic: how-to
 ---
 # Sign in to Visual Studio for Mac
 
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+
 Signing in to Visual Studio for Mac is how you [activate your subscription](enable-subscription.md). When you download Visual Studio for Mac, you'll always get the Community edition by default. If you have a [Professional or Enterprise license](https://visualstudio.microsoft.com/vs/compare/), you should sign in on first run to unlock any additional features. In addition you'll also get the following:
 
 * **Access to the Visual Studio Dev Essentials program** – This program includes free software offerings, training, support, and more. See [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/) for more information.

@@ -22,6 +22,8 @@ ms.workload:
 ---
 # Immediate window
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Use the **Immediate** window to debug and evaluate expressions, execute statements, and print variable values. The **Immediate** window evaluates expressions by building and using the currently selected project.
 
 To display the **Immediate** window, open a project for editing, and then choose **Debug** > **Windows** > **Immediate** or press **Ctrl**+**Alt**+**I**. You can also enter **Debug.Immediate** in the **Command** window.

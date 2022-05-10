@@ -2,7 +2,7 @@
 title: "Project settings for a C++ debug config"
 description: Configure C and C++ debugging in Property Pages. This article describes the settings and tells you their category.
 
-ms.date: "11/26/2018"
+ms.date: "04/22/2022"
 ms.topic: "reference"
 f1_keywords:
   - "VC.Project.VCDebugSettings.WebBrowser.DebuggerType"
@@ -115,6 +115,9 @@ ms.workload:
   - "cplusplus"
 ---
 # Project settings for a C++ debug configuration
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can change the project settings for a C or C++ debug configuration in the **Property Pages** dialog box, as discussed in [How to: Set debug and release configurations](../debugger/how-to-set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** dialog box.
 
 > [!NOTE]
@@ -131,7 +134,7 @@ You can change the project settings for a C or C++ debug configuration in the **
 | **Debugger to launch** | Specifies the debugger to run, with the following choices:<br /><br /> -   **Local Windows Debugger**<br />-   **Remote Windows Debugger**<br />-   **Web Browser Debugger**<br />-   **Web Service Debugger** |
 | **Command** (Local Windows Debugger) | Specifies the command for starting the program that you are debugging on the local computer. |
 | **Remote Command** (Remote Windows Debugger) | The path for the .exe on the remote computer. Enter the path just as you would enter it on the remote machine. |
-| **Command Arguments** (Local Windows Debugger)<br /><br /> **Remote Command Arguments** (Remote Windows Debugger) | -   Specifies arguments for the command specified earlier.<br /><br /> You can use the following redirection operators in this box:<br /><br /> < `file`<br /> Reads stdin from file.<br /><br /> > `file`<br /> Writes stdout to file.<br /><br /> >> `file`<br /> Appends stdout to file.<br /><br /> 2> `file`<br /> Writes stderr to file.<br /><br /> 2>> `file`<br /> Appends stderr to file.<br /><br /> 2> &1<br /> Sends stderr (2) output to same location as stdout (1).<br /><br /> 1> &2<br /> Sends stdout (1) output to same location as stderr (2).<br /><br /> In most cases, these operators are applicable only to console applications. |
+| **Command Arguments** (Local Windows Debugger)<br /><br /> **Remote Command Arguments** (Remote Windows Debugger) | -   Specifies arguments for the command specified earlier.<br /><br /> You can use the following redirection operators in this box:<br /><br /> < `file`<br /> Reads stdin from file.<br /><br /> > `file`<br /> Writes stdout to file.<br /><br /> >> `file`<br /> Appends stdout to file.<br /><br /> 2> `file`<br /> Writes stderr to file.<br /><br /> 2>> `file`<br /> Appends stderr to file.<br /><br /> 2> &1<br /> Sends stderr (2) output to same location as stdout (1).<br /><br /> 1> &2<br /> Sends stdout (1) output to same location as stderr (2).<br /><br /> In most cases, these operators are applicable only to console applications. <br /><br />If you need to escape characters in the command, you can use ASCII values, such as %25 to replace %. If you use the **Start Debugging** command, double quotes will escape the preceding commands, such as "<" to replace <.|
 | **Working Directory** | Specifies the working directory of the program being debugged, relative to the project directory where your EXE is located. If you leave this blank, the working directory is the project directory. For remote debugging, the project directory is on the remote server. |
 | **Attach** (Local Windows Debugger and Remote Windows Debugger) | Specifies whether to start or attach to the application. Default setting is No. |
 | **Remote Server Name** (Remote Windows Debugger) | Specifies the name of a computer (other than yours) on which you want to debug an application.<br /><br /> The RemoteMachine Build macro is set to the value of this property; for more information, see [Macros for build commands and properties](/cpp/build/reference/common-macros-for-build-commands-and-properties). |

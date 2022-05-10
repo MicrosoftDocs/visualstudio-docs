@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider2::IsAddressSequencePoint
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the specified debug address is a sequence point.
 
 ## Syntax

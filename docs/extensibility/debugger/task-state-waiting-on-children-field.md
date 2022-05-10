@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # TASK_STATE_WAITING_ON_CHILDREN field
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The task has finished executing its delegate and is implicitly waiting for attached child tasks to complete.
 
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # PROGRAM_NODE_ARRAY
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains an array of objects that describe programs of interest.
 
 ## Syntax

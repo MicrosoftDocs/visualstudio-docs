@@ -29,6 +29,8 @@ ms.workload:
   - "multiple"
 ---
 # Create ClickOnce applications for others to deploy
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Not all developers who are creating ClickOnce deployments plan to deploy the applications themselves. Many of them just package their application by using ClickOnce and then hand the files off to a customer, such as a large corporation. The customer becomes the one responsible for hosting the application on its network. This topic discusses some of the problems inherent in such deployments in versions of the .NET Framework prior to version 3.5. It then describes a new solution provided by using the new "use manifest for trust" feature in the .NET Framework 3.5. Finally, it concludes with recommended strategies for creating ClickOnce deployments for customers who are still using older versions of the .NET Framework.
 
 ## Issues involved in creating deployments for customers

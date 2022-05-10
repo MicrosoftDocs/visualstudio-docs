@@ -16,6 +16,8 @@ ms.workload:
   - multiple
 ---
 # marker_series::is_enabled method
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if any session has enabled the provider.
 
 ## Syntax

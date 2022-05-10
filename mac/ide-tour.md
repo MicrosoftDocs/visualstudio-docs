@@ -9,8 +9,9 @@ ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
 ms.custom: video, devdivchpfy22
 ms.topic: overview
 ---
-
 # Visual Studio for Mac IDE tour
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 ::: moniker range="vsmac-2022"
 

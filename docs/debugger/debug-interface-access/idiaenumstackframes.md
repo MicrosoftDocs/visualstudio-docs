@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaEnumStackFrames
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates the various stack frames available.
 
 ## Methods in Vtable Order

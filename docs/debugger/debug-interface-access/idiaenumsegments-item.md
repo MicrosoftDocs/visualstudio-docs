@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaEnumSegments::Item
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a segment by means of an index.
 
 ## Syntax

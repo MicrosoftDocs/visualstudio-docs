@@ -18,6 +18,8 @@ ms.technology: vs-installation
 ---
 # Troubleshoot Visual Studio installation and upgrade issues
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 > [!IMPORTANT]
 > Having a problem installing? We can help. We offer an [**installation chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option.
 
