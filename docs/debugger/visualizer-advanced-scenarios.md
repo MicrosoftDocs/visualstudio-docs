@@ -31,7 +31,7 @@ call to <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.
 visualizer implementations must handle cases where an object takes longer than five seconds to be serialized. To handle this scenario correctly, it is recommended that the visualizer handles passing data from the
 *debuggee-side* component to the *debugger-side* component by chunks or pieces.
 
-For example, let us imagine that we have a complex object called `VerySlowObject` that has many fields and properties that must be processed and copied over to the *debugger-side* visualizer component. Among those properties, we have `VeryLongList` which, depending on the instance of `VerySlowObject`, might be serialized within the five seconds or take a little more.
+For example, let us imagine that you have a complex object called `VerySlowObject` that has many fields and properties that must be processed and copied over to the *debugger-side* visualizer component. Among those properties, you have `VeryLongList` which, depending on the instance of `VerySlowObject`, might be serialized within the five seconds or take a little more.
 
 ```csharp
 public class VerySlowObject
