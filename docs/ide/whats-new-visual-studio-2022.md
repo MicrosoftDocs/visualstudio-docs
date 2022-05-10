@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2022."
-ms.date: 02/15/2022
+ms.date: 05/10/2022
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -19,7 +19,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-**Updated for the 17.1 release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
+**Updated for the 17.2 release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
 
 >[!div class="button"]
 >[Download Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
@@ -71,7 +71,7 @@ From real-time & asynchronous collaboration tools to improved insights and produ
 If you've worked with projects hosted on different Git repositories, you might have used external tools or multiple instances of Visual Studio to connect to them. In [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/), you can work with a single solution that has projects in multiple repositories and contribute to them all from a single instance of Visual Studio. To learn more, see the [**Multi-repo support in Visual Studio**](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
 
 > [!NOTE]
-> **New in 17.1**: We're continuing to add even more functionality to the Git feature set. For the latest info, see the [Introducing new Git features to Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/introducing-new-git-features-to-visual-studio-2022/) blog post.
+> **New in 17.2**: We're continuing to add even more functionality to the Git feature set. For the latest info, see the [Supercharge your Git experience in Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/) blog post.
 
 ### IntelliCode improvements
 
@@ -95,7 +95,7 @@ One of our key focus areas is to make Visual Studio more personalized and flexib
 
 ## What's next
 
-Want to know more about what we're planning for Visual Studio 2022? See the [**Roadmap**](/visualstudio/productinfo/vs-roadmap/) page and the [**Visual Studio 2022 17.2 Preview**](/visualstudio/releases/2022/release-notes-preview/) release notes for details.
+Want to know more about what we're planning for Visual Studio 2022? See the [**Roadmap**](/visualstudio/productinfo/vs-roadmap/) page and the [**Visual Studio 2022 17.3 Preview**](/visualstudio/releases/2022/release-notes-preview/) release notes for details.
 
 ## Give us feedback
 
@@ -107,5 +107,5 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 ## See also
 
-* [Visual Studio 2022 17.1 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-1-is-now-available/)
+* [Visual Studio 2022 17.2 is now available](https://aka.ms/vs-2022-17-2-release)
 * [Visual Studio 2022 GA is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-now-available/)
