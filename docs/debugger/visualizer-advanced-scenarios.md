@@ -57,7 +57,7 @@ public class CustomVisualizerObjectSource : VisualizerObjectSource
 }
 ```
 
-At this point we have two alternatives, we either add custom 'Command' and 'Response' types that let the visualizer coordinate between both components on the state of the data transfer; or we let the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> handle it by itself. If our object had only a simple collection of the same types (and we wanted to send every element to the UI), the latter would be suggested since the *debuggee-side* would just return segments of the collection until the end was reached. In the case where we have several different parts or we might just want to return part of the whole object, the former might be easier. Considering that we decided for the second approach, we would have created the following classes on our debugee-side project.
+At this point you have two alternatives; you either add custom 'Command' and 'Response' types that let the visualizer coordinate between both components on the state of the data transfer; or you let the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> handle it by itself. If your object had only a simple collection of the same types (and you wanted to send every element to the UI), the latter would be suggested since the *debuggee-side* would just return segments of the collection until the end was reached. In the case where you have several different parts or you might just want to return part of the whole object, the former might be easier. Considering that you decided on the second approach, you would have created the following classes on your debugee-side project.
 
 ```csharp
 public class GetVeryLongListCommand
