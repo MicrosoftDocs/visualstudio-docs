@@ -19,7 +19,7 @@ manager: caslan
 ms.workload:
   - "multiple"
 ---
-# Advanced Visualizer Scenarios
+# Advanced visualizer scenarios
 
 This article provides information that might be useful if you're writing your own custom data visualizers, particularly if the object that is being visualized or the visualizer UI itself is unusually complex.
 
