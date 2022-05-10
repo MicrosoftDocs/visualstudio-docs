@@ -45,7 +45,7 @@ public class VerySlowObject
 }
 ```
 
-Therefore, we need to create our own custom <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> derived class that overrides the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A> method.
+Therefore, you need to create our own custom <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> derived class that overrides the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A> method.
 
 ```csharp
 public class CustomVisualizerObjectSource : VisualizerObjectSource
