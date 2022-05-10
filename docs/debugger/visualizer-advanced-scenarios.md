@@ -14,7 +14,6 @@ helpviewer_keywords:
   - "debugger, visualizers"
   - "visualizers, writing"
   - "visualizers"
-ms.assetid: AE93D992-D7D7-40FB-BA49-5B26BEB581E0
 author: "mpeyrotc"
 ms.author: "mapeyrot"
 manager: caslan
