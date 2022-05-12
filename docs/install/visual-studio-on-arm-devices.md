@@ -1,7 +1,7 @@
 ---
 title: Visual Studio on ARM powered devices
 description: Recommendations for using Visual Studio on devices with ARM-based processors.
-ms.date: 03/09/2022
+ms.date: 05/13/2022
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -32,6 +32,9 @@ Visual Studio is built to target processors based on the x64 architecture, and t
 Visual Studio can run on ARM-powered devices via x64 emulation, though some features are not currently supported on ARM. As such, we don't recommend running Visual Studio on devices that use ARM-based processors, and instead recommend remotely targeted ARM devices.
 
 See [Visual Studio 2022 System Requirements](/visualstudio/releases/2022/system-requirements) for supported operating systems, hardware, supported languages, and additional requirements and guidance.
+
+> [!NOTE]
+> 17.3 Preview 2 release of Visual Studio 2022 will include support for Windows 11 on Arm64! This version of Visual Studio will run natively on Arm64, giving developers the ability to build and debug apps directly on ARM64-based Windows 11 devices. Learn more here.
 
 ::: moniker-end
 
