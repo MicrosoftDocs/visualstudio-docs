@@ -102,7 +102,7 @@ Syntax example: `vs_enterprise.exe [command] <optional parameters>...`
 | (blank)     | The default command both installs the product, and it is used for all layout maintenance operations.                    |
 | `modify`    | Modifies an installed product.                                                                                          |
 | `update`    | Updates an installed product.                                                                                           |
-| `updateall` | Updates all of the installed products in sequential order. Works with --quiet and --passive parameters.                           |
+| `updateall` | Updates all of the installed products in sequential order. Works with --quiet and --passive parameters.                 |
 | `repair`    | Repairs an installed product.                                                                                           |
 | `uninstall` | Uninstalls an installed product.                                                                                        |
 | `export`    | Exports installation selection to an installation configuration file. **Note**: Can only be used with vs_installer.exe or setup.exe. |
