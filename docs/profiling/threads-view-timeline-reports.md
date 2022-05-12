@@ -48,15 +48,15 @@ These segments in the timeline are associated with blocking times that are categ
 
 ## Preemption time
 
-These segments in the timeline are associated with the blocking time that is categorized as Pre-emption. This category implies that a thread is switched out because of one of these reasons:
+These segments in the timeline are associated with the blocking time that is categorized as Preemption. This category implies that a thread is switched out because of one of these reasons:
 
 - The scheduler replaced it by using a higher priority thread.
 
 - The execution quantum of the thread expired and other threads were ready to execute.
 
-  During this time, a thread has been blocked by a kernel wait reason that the Concurrency Visualizer is counting as Pre-emption. Pre-emption segments start when a thread is pushed out of a logical core, and end when that thread resumes execution.
+  During this time, a thread has been blocked by a kernel wait reason that the Concurrency Visualizer is counting as Preemption. Preemption segments start when a thread is pushed out of a logical core, and end when that thread resumes execution.
 
-  The tooltip for a pre-empted segment displays the name of the process or thread that caused the pre-emption. However, this does not imply that the process or thread that took over actually ran throughout the preempted period.
+  The tooltip for a preempted segment displays the name of the process or thread that caused the preemption. However, this does not imply that the process or thread that took over actually ran throughout the preempted period.
 
 ## Sleep time
 
@@ -78,7 +78,7 @@ These segments in the timeline are associated with blocking times that are categ
 
  If no pre-defined blocking API is identified, review the call stacks and profile reports to determine the underlying causes of delay.
 
- The UI Processing category helps you understand the responsiveness of GUI applications, and is desirable in applications that depend on UI responsiveness. For example, if the UI thread in an application achieves 100% time in UI Processing, it is probably responsive. However, if the UI thread spends considerable time in other categories, look for the root causes and consider options for reducing non-UI categories on that thread.
+ The UI Processing category helps you understand the responsiveness of GUI applications, and is desirable in applications that depend on UI responsiveness. For example, if the UI thread in an application achieves 100% time in UI Processing, it's probably responsive. However, if the UI thread spends considerable time in other categories, look for the root causes and consider options for reducing non-UI categories on that thread.
 
 ## See also
 
