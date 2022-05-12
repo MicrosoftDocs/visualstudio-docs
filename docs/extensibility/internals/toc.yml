@@ -438,7 +438,7 @@
     href: solutions-overview.md
   - name: Solution (.Sln) File
     href: solution-dot-sln-file.md
-  - name: Solution User Options (.Suo) File
+  - name: Solution User Options (.suo) File
     href: solution-user-options-dot-suo-file.md
 - name: Extending Properties
 # Auto-expanded node
