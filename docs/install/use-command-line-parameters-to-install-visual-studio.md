@@ -2,7 +2,7 @@
 title: Use command-line parameters to install Visual Studio
 titleSuffix: ''
 description: Learn how to use command-line parameters to control or customize your Visual Studio installation.
-ms.date: 3/3/2022
+ms.date: 5/13/2022
 ms.topic: conceptual
 f1_keywords:
 - command-line parameters
@@ -102,6 +102,7 @@ Syntax example: `vs_enterprise.exe [command] <optional parameters>...`
 | (blank)     | The default command both installs the product, and it is used for all layout maintenance operations.                    |
 | `modify`    | Modifies an installed product.                                                                                          |
 | `update`    | Updates an installed product.                                                                                           |
+| `updateall` | Updates all of the installed products in sequential order. Works with --quiet and --passive parameters.                           |
 | `repair`    | Repairs an installed product.                                                                                           |
 | `uninstall` | Uninstalls an installed product.                                                                                        |
 | `export`    | Exports installation selection to an installation configuration file. **Note**: Can only be used with vs_installer.exe or setup.exe. |
