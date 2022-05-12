@@ -688,111 +688,33 @@
     - name: Utilization Navigator
       href: utilization-navigator.md
     - name: Utilization View
-      items:
-      - name: Overview of Utilization View
-        href: utilization-view.md
-      - name: CPU Utilization Graph
-        href: cpu-utilization-graph.md
-      - name: Average CPU Utilization
-        href: average-cpu-utilization.md
-      - name: Zoom Control (Utilization View)
-        href: zoom-control-utilization-view.md
-      - name: GPU Activity Graph
-        href: gpu-activity-graph.md
-      - name: GPU Activity (Paging)
-        href: gpu-activity-paging.md
-      - name: GPU Activity (This Process)
-        href: gpu-activity-this-process.md
-      - name: GPU Activity (Other Processes)
-        href: gpu-activity-other-processes.md
+      href: utilization-view.md
     - name: Threads View (Parallel Performance)
       items:
-      - name: Overview of Threads View (Parallel Performance)
+      - name: Threads View (Parallel Performance)
         href: threads-view-parallel-performance.md
-      - name: Blocking Time Profile Report
-        href: blocking-time-profile-report.md
-      - name: Channels (Threads View)
-        href: channels-threads-view.md
-      - name: Copy Selection
-        href: copy-selection.md
-      - name: Current Tab
-        href: current-tab.md
-      - name: Disk Operations Report (Threads View)
-        href: disk-operations-report-threads-view.md
-      - name: Empty Timeline Segment
-        href: empty-timeline-segment.md
-      - name: Execution Profile Report
-        href: execution-profile-report.md
-      - name: Execution Time (Threads View)
-        href: execution-time-threads-view.md
-      - name: Export Button (Concurrency Visualizer)
-        href: export-button-concurrency-visualizer.md
-      - name: I-O Time (Threads View)
-        href: i-o-time-threads-view.md
-      - name: Just My Code (Threads View)
-        href: just-my-code-threads-view.md
-      - name: Manage Channels
-        href: manage-channels.md
-      - name: Markers Report
-        href: markers-report.md
-      - name: Measure Mode On-Off
-        href: measure-mode-on-off.md
-      - name: Memory Management Time
-        href: memory-management-time.md
-      - name: Multiple Categories Are Present
-        href: multiple-categories-are-present.md
-      - name: No Disk Activity to Show (Threads View)
-        href: no-disk-activity-to-show-threads-view.md
-      - name: No Thread Activity to Show (Threads View)
-        href: no-thread-activity-to-show-threads-view.md
-      - name: Noise Reduction Percentage
-        href: noise-reduction-percentage.md
-      - name: Per Thread Summary Report
-        href: per-thread-summary-report.md
-      - name: Preemption Time
-        href: preemption-time.md
-      - name: Report Based on Visible Time Range
-        href: report-based-on-visible-time-range.md
-      - name: Sleep Time
-        href: sleep-time.md
-      - name: Synchronization Time
-        href: synchronization-time.md
-      - name: Thread Ready Connector
-        href: thread-ready-connector.md
-      - name: Timeline Caret
-        href: timeline-caret.md
-      - name: UI Processing Time
-        href: ui-processing-time.md
-      - name: Unblocking Stack
-        href: unblocking-stack.md
-      - name: Visible Timeline Profile
-        href: visible-timeline-profile.md
-      - name: Zoom Control (Threads View)
-        href: zoom-control-threads-view.md
+      - name: Threads View reports
+        href: threads-view-reports.md
+      - name: Threads View timeline reports
+        href: threads-view-timeline-reports.md
+      - name: Threads View Messages
+        items:
+        - name: No Disk Activity to Show (Threads View)
+          href: no-disk-activity-to-show-threads-view.md
+        - name: No Thread Activity to Show (Threads View)
+          href: no-thread-activity-to-show-threads-view.md
+        - name: Multiple Categories Are Present
+          href: multiple-categories-are-present.md
     - name: Cores View
       items:
-      - name: Overview of Cores View
+      - name: Cores View
         href: cores-view.md
-      - name: Cores View Legend
-        href: cores-view-legend.md
-      - name: Cores View Logical Cores
-        href: cores-view-logical-cores.md
-      - name: Cores View Timeline
-        href: cores-view-timeline.md
-      - name: Cores View Zoom Tool
-        href: cores-view-zoom-tool.md
     - name: Advanced Settings Dialog Box (Concurrency Visualizer)
       href: advanced-settings-dialog-box-concurrency-visualizer.md
     - name: Concurrency Visualizer Markers
       items:
-      - name: Overview of Concurrency Visualizer Markers
+      - name: Concurrency Visualizer Markers
         href: concurrency-visualizer-markers.md
-      - name: Flag Markers
-        href: flag-markers.md
-      - name: Message Markers
-        href: message-markers.md
-      - name: Span Markers
-        href: span-markers.md
       - name: Visualizing EventSource Events as Markers
         href: visualizing-eventsource-events-as-markers.md
     - name: Concurrency Visualizer SDK
