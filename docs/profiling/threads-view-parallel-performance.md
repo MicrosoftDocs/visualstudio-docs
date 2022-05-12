@@ -277,7 +277,7 @@ By default, the value of the Noise Reduction Percentage setting is 2. Only entri
 
 The Profile view displays reports that are based on the currently visible time range and channels. To see details for different subsets of the data, click items in the legend.
 
- You can find more information about the data in the tables here.
+ You can find more information about the data in the [Threads View reports](../profiling/threads-view-reports.md).
 
 ## Thread ready connector
 

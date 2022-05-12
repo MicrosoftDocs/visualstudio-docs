@@ -24,6 +24,8 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
+ This article provides information about the timeline reports in the Threads view of the Concurrency Visualizer.
+
 ## Execution time (Threads View)
 
 These segments in the Threads View timeline represent execution time, when the thread is actively doing work on a logical core in the system.

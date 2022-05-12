@@ -69,28 +69,24 @@ A flag marker represents something that occurred at an instant in time in an app
 ### Flag importance
  Flags are displayed in different sizes depending on their importance. Like any marker, the importance can be low, normal, high, or critical.  This illustration shows the appearance of markers by importance level:
 
- ![Low, Normal, High, and Critical importance markers](../profiling/media/cvmarkerimportance.png "CVMarkerImportance")
-Markers showing flag importance
+ ![Illustration of Low, Normal, High, and Critical importance markers.](../profiling/media/cvmarkerimportance.png "CVMarkerImportance")
 
 ### Flag category
  A flag is displayed in one of five different colors depending on its category. The colors are reused if there are more than five categories. You cannot choose the color. Like any marker, the category can be any integer. The next illustration shows the colors for the first five categories.
 
- ![Five colors of category markers](../profiling/media/cvmarkercategory.png "CVMarkerCategory")
-Markers showing categories
+ ![Illustration of five colors of category markers.](../profiling/media/cvmarkercategory.png "CVMarkerCategory")
 
 ### Alerts
  An alert is a red-colored flag that represents a critical application event, such as an exception.  Here's an alert:
 
- ![The Concurrency Visualizer Alert Marker](../profiling/media/cvmarkeralert.png "CVMarkerAlert")
-An alert marker
+ ![Illustration of the Concurrency Visualizer alert marker.](../profiling/media/cvmarkeralert.png "CVMarkerAlert")
 
 ### Aggregation flags
  Sometimes flags occur so close to one another in the Concurrency Visualizer that they can't be drawn individually. When this occurs, a gray *aggregation flag* that represents the underlying flags is shown. When you rest the pointer on one of these icons, a tooltip displays the number of underlying flags that are represented. To view the flags, zoom in. If you zoom in all the way and still get an aggregation flag, you can view the underlying flags in the [Markers Report](../profiling/threads-view-reports.md#markers-report).
 
  Aggregation flags are drawn in different sizes. The size depends on the importance level of the most important flag in the aggregation. The following illustration shows aggregation flags in increasing order of importance.
 
- ![Aggregate flags showing four levels of importance](../profiling/media/cvmarkeraggregate.png "CVMarkerAggregate")
-Aggregation flags by level of importance
+ ![Illustration of aggregate flags showing four levels of importance.](../profiling/media/cvmarkeraggregate.png "CVMarkerAggregate")
 
 ## Message markers
 
@@ -103,20 +99,17 @@ A message marker represents log output. A message is a string that's issued by a
 
 A span marker represents a meaningful phase of an application. For example, you can use a span to represent an interval of time during which a particular work item is being processed. Its length represents the duration of the corresponding application phase. This illustration shows a span in Concurrency Visualizer:
 
- ![A span marker in Concurrency Visualizer](../profiling/media/cvmarkerspan.png "CVMarkerSpan")
-A span marker in the Concurrency Visualizer
+ ![Illustration of a span marker in Concurrency Visualizer.](../profiling/media/cvmarkerspan.png "CVMarkerSpan")
 
 ### Span category
  A span marker is displayed in one of five different colors, depending on its category. The colors are repeated if there are more than five categories. The category can be any integer. This illustration shows the five possible colors:
 
- ![Five spans in different categories](../profiling/media/cvmarkerspancategory.png "CVMarkerSpanCategory")
-The colors of the first five span categories
+ ![Illustration of five spans in different categories.](../profiling/media/cvmarkerspancategory.png "CVMarkerSpanCategory")
 
 ### Span aggregation markers
  Sometimes span markers occur so close to one another in the Concurrency Visualizer that they can't be drawn individually. When this occurs, a gray *span aggregation marker* that represents the underlying spans is shown. When you rest the pointer on one of these icons, a tooltip displays the number of underlying spans that are represented. To view the spans, zoom in. If you zoom in all the way and still get an span aggregation marker, you can view the underlying span markers in the [Markers Report](../profiling/threads-view-reports.md#markers-report). This illustration shows a span aggregation marker:
 
- ![An aggregate span marker in Concurrency Visualizer](../profiling/media/cvmarkerspanaggregate.png "CVMarkerSpanAggregate")
-A span aggregation marker
+ ![Illustration of an aggregate span marker in Concurrency Visualizer.](../profiling/media/cvmarkerspanaggregate.png "CVMarkerSpanAggregate")
 
 ## See also
 - [Flag markers](../profiling/concurrency-visualizer-markers.md#flag-markers)
