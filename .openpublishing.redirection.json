@@ -45128,6 +45128,211 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/profiling/cpu-utilization-graph.md",
+      "redirect_url": "/visualstudio/profiling/concurrency-visualizer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/average-cpu-utilization.md",
+      "redirect_url": "/visualstudio/profiling/concurrency-visualizer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/zoom-control-utilization-view.md",
+      "redirect_url": "/visualstudio/profiling/concurrency-visualizer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/gpu-activity-graph.md",
+      "redirect_url": "/visualstudio/profiling/concurrency-visualizer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/gpu-activity-paging.md",
+      "redirect_url": "/visualstudio/profiling/concurrency-visualizer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/gpu-activity-this-process.md",
+      "redirect_url": "/visualstudio/profiling/concurrency-visualizer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/gpu-activity-other-processes.md",
+      "redirect_url": "/visualstudio/profiling/concurrency-visualizer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/channels-threads-view.md",
+      "redirect_url": "/visualstudio/profiling/concurrency-visualizer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/report-based-on-visible-time-range.md",
+      "redirect_url": "/visualstudio/profiling/concurrency-visualizer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/visible-timeline-profile.md",
+      "redirect_url": "/visualstudio/profiling/concurrency-visualizer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/zoom-control-threads-view.md",
+      "redirect_url": "/visualstudio/profiling/concurrency-visualizer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/copy-selection.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-parallel-performance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/current-tab.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-parallel-performance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/empty-timeline-segment.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-parallel-performance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/export-button-concurrency-visualizer.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-parallel-performance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/just-my-code-threads-view.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-parallel-performance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/manage-channels.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-parallel-performance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/measure-mode-on-off.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-parallel-performance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/noise-reduction-percentage.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-parallel-performance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/thread-ready-connector.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-parallel-performance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/timeline-caret.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-parallel-performance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/unblocking-stack.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-parallel-performance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/blocking-time-profile-report.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-reports",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/disk-operations-report-threads-view.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-reports",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/execution-profile-report.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-reports",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/markers-report.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-reports",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/per-thread-summary-report.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-reports",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/i-o-time-threads-view.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-timeline-reports",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/preemption-time.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-timeline-reports",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/sleep-time.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-timeline-reports",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/ui-processing-time.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-timeline-reports",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/synchronization-time.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-timeline-reports",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/execution-time-threads-view.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-timeline-reports",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/memory-management-time.md",
+      "redirect_url": "/visualstudio/profiling/threads-view-timeline-reports",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/cores-view-legend.md",
+      "redirect_url": "/visualstudio/profiling/cores-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/cores-view-logical-cores.md",
+      "redirect_url": "/visualstudio/profiling/cores-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/cores-view-timeline.md",
+      "redirect_url": "/visualstudio/profiling/cores-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/cores-view-zoom-tool.md",
+      "redirect_url": "/visualstudio/profiling/cores-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/flag-markers.md",
+      "redirect_url": "/visualstudio/profiling/concurrency-visualizer-markers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/message-markers.md",
+      "redirect_url": "/visualstudio/profiling/concurrency-visualizer-markers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/span-markers.md",
+      "redirect_url": "/visualstudio/profiling/concurrency-visualizer-markers",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/profiling/quickstart-cpu-usage-managed.md",
       "redirect_url": "/visualstudio/profiling/beginners-guide-to-performance-profiling",
       "redirect_document_id": false
