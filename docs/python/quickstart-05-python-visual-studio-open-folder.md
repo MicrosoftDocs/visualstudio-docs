@@ -45,7 +45,7 @@ Once you've [installed Python support in Visual Studio 2022](installing-python-s
 
     :::image type="content" source="media/quickstart-open-folder/05-view-hidden-folders.png" alt-text="Screenshot of a view of hidden folders in Solution Explorer.":::
 
-1. To run the code, you first need to identify the startup or primary program file. In the example shown here, the startup file *contemplate-koans.py*. Right-click that file and select **Set as Startup Item**.
+1. To run the code, you first need to identify the startup or primary program file. In the example shown here, select the startup file *contemplate-koans.py*,  right-click that file and select **Set as Startup Item**.
 
     :::image type="content" source="media/quickstart-open-folder/06-set-as-startup-item-command.png" alt-text="Screenshot of the setting a startup item in Solution Explorer.":::
 
