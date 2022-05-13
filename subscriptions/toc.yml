@@ -176,6 +176,8 @@
     href: agreement-renewals.md    
   - name: Move subscriptions to new agreements
     href: migrate-subscriptions.md    
+  - name: Change org email addresses
+    href: change-org-email-addresses.md    
   - name: What happens when agreements renew
     href: agreement-renewals.md    
   - name: Edit subscriptions
