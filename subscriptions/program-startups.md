@@ -15,7 +15,7 @@ Qualified startups who join the Microsoft for Startups program can earn five Vis
 
 ## Subscription details 
 
-These subscriptions are the same as the subscriptions offered through the Azure Marketplace, with no special limitations or restrictions. Each subscription must be assigned to an end use before the user can run Visual Studio and be recognized as a Visual Studio Enterprise subscriber in Azure DevOps Services.
+These subscriptions are the same as the subscriptions offered through the Azure Marketplace, with no special limitations or restrictions. Each subscription must be assigned to an end user before the user can run Visual Studio and be recognized as a Visual Studio Enterprise subscriber in Azure DevOps Services.
 
 > [!Note]
 > With all Visual Studio cloud subscriptions, the licensed user must sign in to Visual Studio using the same identity/login that was used to activate the Visual Studio subscription.
