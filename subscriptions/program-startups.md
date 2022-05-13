@@ -11,23 +11,22 @@ description:  Details on subscriptions offered through the Microsoft for Startup
 
 # Visual Studio subscriptions offered to startups
 
-Qualified startups who join the Microsoft for Startups program can earn 5 Visual Studio Enterprise [monthly cloud subscriptions](https://visualstudio.microsoft.com/vs/pricing-details/). 
+Qualified startups who join the Microsoft for Startups program can earn five Visual Studio Enterprise [monthly cloud subscriptions](https://visualstudio.microsoft.com/vs/pricing-details/). 
 
 ## Subscription details 
 
-These are the same subscriptions that are offered through the Azure Marketplace, with no special limitations or restrictions. Each subscription must be assigned to an end use before the user can run Visual Studio and be recognized as a Visual Studio Enterprise subscriber in Azure DevOps Services.
-
+These subscriptions are the same as the subscriptions offered through the Azure Marketplace, with no special limitations or restrictions. Each subscription must be assigned to an end use before the user can run Visual Studio and be recognized as a Visual Studio Enterprise subscriber in Azure DevOps Services.
 
 > [!Note]
 > With all Visual Studio cloud subscriptions, the licensed user must sign in to Visual Studio using the same identity/login that was used to activate the Visual Studio subscription.
 
-Product keys are not offered to unlock the product; sign-in is the only option for running Visual Studio. The Visual Studio subscriber can operate offline for up to 30 days before Visual Studio stops working. While working online, Visual Studio silently refreshes the user's license status periodically to ensure the subscription is still valid.
+Product keys aren't offered to unlock the product; sign-in is the only option for running Visual Studio. The Visual Studio subscriber can operate offline for up to 30 days before Visual Studio stops working. When users are working online, Visual Studio silently refreshes the user's license status periodically to ensure the subscription is still valid.
 
 ## Frequently asked questions
 
 ### Q: What benefits are included with subscriptions provided through Microsoft for Startups?
 
-A:  These are monthly subscriptions, with limited benefits.  Subscriptions include:
+A:  These subscriptions are monthly subscriptions, with limited benefits.  Subscriptions include:
 + Visual Studio IDE for Windows and Mac
 + Azure DevOps 
 + Azure DevOps Server 
