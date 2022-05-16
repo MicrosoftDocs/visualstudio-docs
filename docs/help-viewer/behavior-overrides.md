@@ -15,17 +15,23 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can change the default behavior of Help Viewer and help-related features in the Visual Studio IDE. Some options are specified by creating a [.pkgdef](https://devblogs.microsoft.com/visualstudio/whats-a-pkgdef-and-why/) file to set various registry key values. Others are set directly in the registry.
+You can change the default behavior of Help Viewer and help-related features in the Visual Studio IDE. Some options are specified by creating a [.pkgdef](https://devblogs.microsoft.com/visualstudio/whats-a-pkgdef-and-why/) file to set various registry key values. You can set other options directly in the registry.
 
-## How to control Help Viewer behavior by using a .pkgdef file
+## Use a .pkgdef file to change Help Viewer behavior
 
-1. Create a *.pkgdef* file with the first line as `[$RootKey$\Help]`.
+1. Create a *.pkgdef* file with this text on the first line:
 
-2. Add any or all of the registry key values described in the table below on separate lines, for example `"UseOnlineHelp"=dword:00000001`.
+   `[$RootKey$\Help]`
+
+2. Add any or all of the registry key values described in the table below on separate lines. For instance, you might add the following line to configure the `UseOnlineHelp` value:
+
+   `"UseOnlineHelp"=dword:00000001`
 
 3. Copy the file to *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\<edition\>\Common7\IDE\CommonExtensions*.
 
-4. Run `devenv /updateconfiguration` in a developer command prompt.
+4. At a developer command prompt, run this command:
+
+   `devenv /updateconfiguration`
 
 ### Registry key values
 
@@ -52,7 +58,7 @@ You can change the default behavior of Help Viewer and help-related features in 
 
 ## Use Registry Editor to change Help Viewer behavior
 
-The following two behaviors can be controlled by setting registry key values in the Registry Editor.
+You can control the following types of behavior by setting registry key values in the Registry Editor.
 
 |Task|Registry Key|Value|Data|
 |----------|-----|------|----|
