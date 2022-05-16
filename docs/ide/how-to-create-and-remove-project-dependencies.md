@@ -67,7 +67,7 @@ You can use the **Build order** tab to view the order that projects will be buil
 
 The order you see listed is the desired logical build order, but in practice, Visual Studio further optimizes the build process by building multiple projects in parallel. However, as long as you've specified the project dependencies, any dependent projects will not start building until after their dependencies have completed.
 
-![Screenshot of the Build order tab](media/vs-2022/project-build-order.png)
+![Screenshot of the Build order tab.](media/vs-2022/project-build-order.png)
 
 ## See also
 
