@@ -56,7 +56,7 @@ The following sections describe attributes, child elements, and parent elements.
 |-------------|-----------------|
 |[Item](../msbuild/item-element-msbuild.md)|Defines the inputs for the build process. There may be zero or more `Item` elements in an `ItemGroup`.|
 
-In addition to the generic `Item` element itself, there are a number of elements that represent types of items, such as `Reference`, `ProjectReference`, `Compile`, and others as listed at [Common MSBuild project items](common-msbuild-project-items.md).
+In addition to the generic `Item` element, ItemGroup allows child elements that represent types of items, such as `Reference`, `ProjectReference`, `Compile`, and others as listed at [Common MSBuild project items](common-msbuild-project-items.md).
            
 ### Parent elements
 
