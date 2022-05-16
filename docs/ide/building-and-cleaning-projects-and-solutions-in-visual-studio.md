@@ -73,11 +73,9 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
 
 3. Select the  **Only build startup projects and dependencies on Run** check box.
 
-     When this check box is selected, only the current startup project and its dependencies are built when you perform either of the following steps:
+     When this check box is selected, only the current startup project and its dependencies are built when you choose **Debug** > **Start** (**F5**).
 
-    - On the menu bar, choose **Debug** > **Start** (**F5**).
-
-    - On the menu bar, choose **Build** > **Build Solution** (**Ctrl**+**Shift**+**B**).
+    When you choose **Build** > **Build Solution** (**Ctrl**+**Shift**+**B**), the entire solution is built.
 
     When this check box is cleared, all projects, their dependencies, and the solution files are built when you run either of the preceding commands.
 
