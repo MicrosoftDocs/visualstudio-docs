@@ -49,7 +49,7 @@ The following table includes some basic rules and guidelines for developing sear
 |Syntax|Description|
 |------------|-----------------|
 |Case sensitivity|Searches aren't case-sensitive. Develop your search criteria by using uppercase or lowercase characters. For example, "OLE" and "ole" return the same results.|
-|Character combinations|You can't search only for individual letters (Az PowerShell module) or numbers (0-9). If you try to search for certain reserved words, such as "and," "from," and "with," they'll be ignored. For more information, see [Words ignored in searches](#stopwords) later in this article.|
+|Character combinations|You can't search only for individual letters (a-z) or numbers (0-9). If you try to search for certain reserved words, such as "and," "from," and "with," they're ignored. For more information, see [Words ignored in searches](#stopwords) later in this article.|
 |Evaluation order|Search queries are evaluated from left to right.|
 
 ### Search syntax
@@ -57,8 +57,8 @@ The following table includes some basic rules and guidelines for developing sear
 You might enter a search string that includes multiple words, such as "word1 word2." That string is equivalent to typing "word1 AND word2." Searches that use the AND operator return only topics that contain all the individual words in the search string.
 
 > [!IMPORTANT]
-> - Phrase searches are not supported. If you specify more than one word in a search string, returned topics will contain all the words that you specified but not necessarily the exact phrase that you specified.
-> - Use logical operators to specify the relationship between words in your search phrase. You can include logical operators, such as AND, OR, NOT, and NEAR, to further refine your search. For example, if you search for "declaring NEAR union", search results will include topics that contain the words "declaring" and "union" no more than a few words apart from each other. For more information, see [Logical operators in search expressions](../help-viewer/logical-operators-search-expressions.md).
+> - Phrase searches are not supported. If you specify more than one word in a search string, returned topics contain all the words that you specified but not necessarily the exact phrase that you specified.
+> - Use logical operators to specify the relationship between words in your search phrase. You can include logical operators, such as AND, OR, NOT, and NEAR, to further refine your search. For example, if you search for "declaring NEAR union", search results include topics that contain the words "declaring" and "union" no more than a few words apart from each other. For more information, see [Logical operators in search expressions](../help-viewer/logical-operators-search-expressions.md).
 
 ### Filters
 
@@ -76,7 +76,7 @@ The search algorithm applies certain criteria to help rank search results higher
 
 ### Words ignored in searches (stop words)
 
-Commonly occurring words or numbers, which are sometimes called stop words, are automatically ignored during a full-text search. For example, if you search for the phrase "pass through," search results will display topics that contain the word "pass" but not "through."
+Commonly occurring words or numbers, which are sometimes called stop words, are automatically ignored during a full-text search. For example, if you search for the phrase "pass through," search results display topics that contain the word "pass" but not "through."
 
 ## See also
 
