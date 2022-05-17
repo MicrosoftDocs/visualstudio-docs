@@ -16,7 +16,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can change the default behavior of Help Viewer and help-related features in the Visual Studio IDE.
+You can change the default behavior of Microsoft Help Viewer and help-related features in the Visual Studio IDE.
 
 Help Content Manager is a tool that you can use to deploy and manage local Help Viewer content. To change Help Viewer behavior, you can override default settings of the Help Content Manager executable program, HlpCtntMgr.exe.
 

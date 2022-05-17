@@ -16,7 +16,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can use the full-text search feature of Help Viewer to locate all topics that contain a particular word. You can also refine and customize your search by using wildcard expressions, logical operators, and advanced search operators.
+You can use the full-text search feature of Microsoft Help Viewer to locate all topics that contain a particular word. You can also refine and customize your search by using wildcard expressions, logical operators, and advanced search operators.
 
 ## To perform a full-text search
 
@@ -49,7 +49,7 @@ The following table includes some basic rules and guidelines for developing sear
 |Syntax|Description|
 |------------|-----------------|
 |Case sensitivity|Searches aren't case-sensitive. Develop your search criteria by using uppercase or lowercase characters. For example, "OLE" and "ole" return the same results.|
-|Character combinations|You can't search only for individual letters (a-z) or numbers (0-9). If you try to search for certain reserved words, such as "and," "from," and "with," they're ignored. For more information, see [Words ignored in searches](#stopwords) later in this article.|
+|Character combinations|You can't search only for individual letters (a-z) or numbers (0-9). If you try to search for certain reserved words, such as "and," "from," and "with," they're ignored. For more information, see [Words ignored in searches](#words-ignored-in-searches-stop-words) later in this article.|
 |Evaluation order|Search queries are evaluated from left to right.|
 
 ### Search syntax
