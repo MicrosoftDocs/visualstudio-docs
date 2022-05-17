@@ -2,7 +2,7 @@
 title: Git settings in Visual Studio
 titleSuffix: ""
 description: Learn how Visual Studio uses .gitconfig files and Git settings to manage your preferences
-ms.date: 06/08/2021
+ms.date: 05/17/2022
 ms.topic: conceptual
 author: Taysser-Gherfal
 ms.author: tglee
@@ -87,13 +87,20 @@ Rebasing sets aside the changes made by commits in the current branch that are n
 - False: Merge the current branch into the upstream branch.
 - Unset (default): Unless specified in other configuration files, merge the current branch into the upstream branch.
 - Interactive: Rebase in interactive mode.
-- Preserve: Rebase without flattening locally created merge commits.
+- Merges: Rebase without flattening locally created merge commits.
 
 1. From the Git menu, go to **Settings**. Go to **Git Global Settings** to configure this option at the global level; go to **Git Repository Settings** to configure this option at the repo level.
 
 2. Set **Rebase local branch when pulling** to the desired setting, and select **OK** to save.
 
-    :::image type="content" source="media/rebase-setting.png" alt-text="Screenshot that shows 'Rebase local branch when pulling' highlighted and 'True' selected from the drop-down.":::
+    :::image type="content" source="media/rebase-setting.png" alt-text="Screenshot that shows 'Rebase local branch when pulling' highlighted and 'Merges' selected from the drop-down.":::
+
+::: moniker range="vs-2019"
+
+> [!NOTE]
+> If you're using Visual Studio 2019, your user interface might say "Preserve" instead of "Merges". The functionality remains the same, however.
+
+::: moniker-end
 
 It's not possible to configure `pull.rebase` to **Interactive** in Visual Studio. Visual Studio doesn't have interactive rebase support.
 To configure `pull.rebase` to use interactive mode, use the command line.
@@ -207,7 +214,7 @@ When enabled, this setting allows you to `push --force-with-lease` from within V
 For more information, see [push --force-with-lease](https://git-scm.com/docs/git-push#Documentation/git-push.txt---no-force-with-lease).
 
 ### Open folder in Solution Explorer when opening a Git repository
-<!-- todo: write section -->
+
 When you use Visual Studio to open or switch to a Git repository, Visual Studio loads the Git content so that you can view changes, commits, branches, and manage your repository from within the IDE. In addition, Visual Studio will also load the code of the repository in Solution Explorer. Visual Studio will scan the repository folder for solutions, CMakeLists.txt, or any other view files that it recognizes and display them as a list in Solution Explorer. From there, you can select a solution to load or the folder to view the directory contents. When you turn off this checkbox, then Visual Studio will not open the repository folder in Solution Explorer. This will essentially allow you to open Visual Studio as a Git repository manager only. This setting is on by default.
 
 :::image type="content" source="media/open-folder-setting.png" alt-text="Screenshot showing the checkbox to open folder when opening a Git repository in the Options dialog box.":::
@@ -223,7 +230,6 @@ This setting is applicable only when the [Open folder in Solution Explorer when 
 The Git Repository window has a list of branches displayed in a tree structure. Single selecting a branch will switch the commit history pane to display the commits for the selected branch. To check out a branch, you can right-click to open the context menu and select **Checkout**. If you turn on this setting, then double-clicking or pressing the Enter key will check out the branch and display its commits.
 
 :::image type="content" source="media/checkout-branch-setting.png" alt-text="Screenshot showing the checkbox to check out branches with double-click or Enter key in the Options dialog box.":::
-
 
 ## See also
 
