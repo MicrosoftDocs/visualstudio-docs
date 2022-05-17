@@ -77,7 +77,7 @@ We recommend setting this option to **True** at the global level. Valid settings
 
 2. Set **Prune remote branches during fetch** to **True** (recommended). Select **Ok** to save.
 
-:::image type="content" source="media/prune-setting.png" alt-text="Screenshot that shows 'Prune remote branches during fetch' highlighted and with 'True' selected from the drop-down.":::
+    :::image type="content" source="media/prune-setting.png" alt-text="Screenshot that shows 'Prune remote branches during fetch' highlighted and with 'True' selected from the drop-down.":::
 
 ### Rebase local branch when pulling
 
@@ -97,8 +97,8 @@ Rebasing sets aside the changes made by commits in the current branch that are n
 
 ::: moniker range="vs-2019"
 
-> [!NOTE]
-> If you're using Visual Studio 2019, your user interface might say "Preserve" instead of "Merges". The functionality remains the same, however.
+   > [!NOTE]
+   > If you're using Visual Studio 2019, your user interface might include an option that says "Preserve" instead of "Merges". The functionality remains the same, however.
 
 ::: moniker-end
 
@@ -131,7 +131,7 @@ When Visual Studio performs a remote Git operation, the remote endpoint might re
 
 2. Set **Credential helper** to the desired value, and select **OK** to save.
 
-:::image type="content" source="media/credential-helper-setting.png" alt-text="Screenshot showing the credential helper setting in the Options dialog box.":::
+    :::image type="content" source="media/credential-helper-setting.png" alt-text="Screenshot showing the credential helper setting in the Options dialog box.":::
 
 ### Diff & merge tools
 
@@ -182,8 +182,7 @@ By default, Visual Studio closes any open solution or folder when you switch to 
 - No: When a repository is opened, Visual Studio performs a check as to whether the current solution is under Git. If it is not, then the solution remains open.
 - Always ask (default): When this is set, you can make a choice through a dialog box per repository open, whether you want to keep the current solution open or close it.
 
-:::image type="content" source="media/close-sln-setting.png" alt-text="Screenshot showing the close solution setting in the Options dialog box.":::
-
+    :::image type="content" source="media/close-sln-setting.png" alt-text="Screenshot showing the close solution setting in the Options dialog box.":::
 
 ### Enable download of author images from third-party sources
 
