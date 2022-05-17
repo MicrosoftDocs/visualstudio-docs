@@ -202,13 +202,13 @@
       href: assign-github.md
   - name: Troubleshoot
     items:
-      - name: Accounts removed by Microsoft
+    - name: Accounts removed by Microsoft
       href: account-removed.md  
-      - name: Expired subscriptions
+    - name: Expired subscriptions
       href: handle-expired-license.md
-      - name: Subscriber sign-in scenarios 
+    - name: Subscriber sign-in scenarios 
       href: aliasing.md
-      - name: Subscribers with personal email sign-ins
+    - name: Subscribers with personal email sign-ins
       href: personal-email-sign-ins.md
 - name: Resources
   items:
