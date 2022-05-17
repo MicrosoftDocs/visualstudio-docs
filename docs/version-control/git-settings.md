@@ -2,7 +2,7 @@
 title: Git settings in Visual Studio
 titleSuffix: ""
 description: Learn how Visual Studio uses .gitconfig files and Git settings to manage your preferences
-ms.date: 05/17/2022
+ms.date: 05/18/2022
 ms.topic: conceptual
 author: Taysser-Gherfal
 ms.author: tglee
@@ -83,24 +83,20 @@ We recommend setting this option to **True** at the global level. Valid settings
 
 Rebasing sets aside the changes made by commits in the current branch that are not in the upstream branch, resets the current branch to the upstream branch, then applies the changes that were set aside. This setting is available at both global and repository scopes, and corresponds to the `git config` [pull.rebase](https://git-scm.com/docs/git-config#Documentation/git-config.txt-pullrebase) setting. Valid settings are, as follows:
 
-- True: Rebase current branch on top of upstream branch after fetch.
-- False: Merge the current branch into the upstream branch.
-- Unset (default): Unless specified in other configuration files, merge the current branch into the upstream branch.
-- Interactive: Rebase in interactive mode.
-- Merges: Rebase without flattening locally created merge commits.
+- **True**: Rebase current branch on top of upstream branch after fetch.
+- **False**: Merge the current branch into the upstream branch.
+- **Unset** (default): Unless specified in other configuration files, merge the current branch into the upstream branch.
+- **Interactive**: Rebase in interactive mode.
+- **Merges**: Rebase without flattening locally created merge commits.
+
+  > [!NOTE]
+  > If you're using Visual Studio 2022 [version 17.1](/visualstudio/releases/2022/release-notes-v17.1) or earlier, your user interface might include a setting that says "Preserve" instead of "Merges". The functionality remains the same, however.
 
 1. From the Git menu, go to **Settings**. Go to **Git Global Settings** to configure this option at the global level; go to **Git Repository Settings** to configure this option at the repo level.
 
 2. Set **Rebase local branch when pulling** to the desired setting, and select **OK** to save.
 
     :::image type="content" source="media/rebase-setting.png" alt-text="Screenshot that shows 'Rebase local branch when pulling' highlighted and 'Merges' selected from the drop-down.":::
-
-::: moniker range="vs-2019"
-
-   > [!NOTE]
-   > If you're using Visual Studio 2019, your user interface might include an option that says "Preserve" instead of "Merges". The functionality remains the same, however.
-
-::: moniker-end
 
 It's not possible to configure `pull.rebase` to **Interactive** in Visual Studio. Visual Studio doesn't have interactive rebase support.
 To configure `pull.rebase` to use interactive mode, use the command line.
