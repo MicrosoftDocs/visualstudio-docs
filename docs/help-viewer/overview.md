@@ -89,6 +89,18 @@ The toolbar in the **Help Viewer** window contains the following buttons:
 
 - The small triangle on the right-hand side opens a list of tabs, including topic tabs and the **Manage Content** tab. You can choose a tab name to make it the active tab.
 
+### Accessibility features
+
+Microsoft is committed to making its products and services easy for everyone to use. Several features help make Help Viewer accessible for people with a wide range of abilities.
+
+- Keyboard access. You can access all features of the Help Viewer by using the keyboard. For more information, see [Shortcut keys (Help Viewer)](../help-viewer/shortcut-keys.md).
+
+- Font size. You can modify the font size in which topic text appears in the document window. For more information, see [Customize the Help Viewer](../help-viewer/customize.md).
+
+- Window size. You can change the width of the navigation or document windows by pointing to the divider between the two windows. When the cursor changes to a double-headed arrow, use the primary mouse button to drag the divider to the right or left.
+
+- Help Viewer position. You can reposition the Help Viewer by dragging its title bar to a different position.
+
 ## See also
 
 - [Microsoft Help Viewer installation](../help-viewer/installation.md)
