@@ -52,7 +52,7 @@ You can use styles in XML comments that will render in Quick Info when hovering 
    ![Screenshot showing the completed comment with style tags for italics, bold, bullets, and a clickable link.](media/doc-style-cs.png)
 
 > [!NOTE]
-> There is an [option](../../ide/reference/options-text-editor-csharp-advanced.md) to toggle XML documentation comments after typing `///` in C# or `'''` Visual Basic. From the menu bar, choose **Tools** > **Options** to open the **Options** dialog box. Then, navigate to **Text Editor** > **C#** or **Basic** > **Advanced**. In the **Editor Help** section, look for the **Generate XML documentation comments** option.
+> There is an [option](../../ide/reference/options-text-editor-csharp-advanced.md) to toggle XML documentation comments after typing `///` in C# or `'''` Visual Basic. From the menu bar, choose **Tools** > **Options** to open the **Options** dialog box. Then, navigate to **Text Editor** > **C#** (or **Visual Basic**) > **Advanced**. In the **Editor Help** section, look for the **Generate XML documentation comments** option.
 
 ## See also
 
