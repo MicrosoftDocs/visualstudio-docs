@@ -44,7 +44,7 @@ This applies to new partners placing new Open License orders, but who register o
 
 This applies to partners that already have access to the [Visual Studio Subscriptions Administration Portal](https://manage.visualstudio.com), but have placed an order for Open Licenses with Visual Studio subscriptions that they will need to manage.  
 
-<br> 
+
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vkAG]
 
