@@ -69,9 +69,11 @@ Pruning removes remote-tracking branches that no longer exist on the remote and 
 
 We recommend setting this option to **True** at the global level. Valid settings are, as follows:
 
-- True (recommended)
-- False
-- Unset (default)
+- **True** (recommended)
+- **False**
+- **Unset** (default)
+
+Here's how to change the settings:
 
 1. From the Git menu, go to **Settings**. Go to **Git Global Settings** to configure this option at the global level; go to **Git Repository Settings** to configure this option at the repo level.
 
@@ -92,6 +94,8 @@ Rebasing sets aside the changes made by commits in the current branch that are n
   > [!NOTE]
   > In Visual Studio 2022 [version 17.2](/visualstudio/releases/2022/release-notes), we changed the "Preserve" setting to "Merges" to match a recent update from Git. So, if you're using an earlier version of Visual Studio with Git tooling, your user interface might say "Preserve" instead of "Merges". The functionality remains the same, however.
 
+Here's how to change the settings:
+
 1. From the Git menu, go to **Settings**. Go to **Git Global Settings** to configure this option at the global level; go to **Git Repository Settings** to configure this option at the repo level.
 
 2. Set **Rebase local branch when pulling** to the desired setting, and select **OK** to save.
@@ -105,9 +109,11 @@ To configure `pull.rebase` to use interactive mode, use the command line.
 
 Cryptographic network provider is a Git configuration setting at global scope that configures which TLS/SSL backend to use at runtime, and corresponds to the `git config` [http.sslBackend](https://git-scm.com/docs/git-config#Documentation/git-config.txt-httpsslBackend) setting. The values are, as follows:
 
-- OpenSSL: Use [OpenSSL](https://www.openssl.org/) for TLS and SSL protocols.
-- Secure Channel: Use [Secure Channel (schannel)](/windows/win32/secauthn/secure-channel) for TLS and SSL protocols. Schannel is the native Windows solution, accessing the Windows Credential Store, thereby allowing for enterprise-wide management of certificates.
-- Unset (default): If this setting is unset, OpenSSL is the default.
+- **OpenSSL**: Use [OpenSSL](https://www.openssl.org/) for TLS and SSL protocols.
+- **Secure Channel**: Use [Secure Channel (schannel)](/windows/win32/secauthn/secure-channel) for TLS and SSL protocols. Schannel is the native Windows solution, accessing the Windows Credential Store, thereby allowing for enterprise-wide management of certificates.
+- **Unset** (default): If this setting is unset, OpenSSL is the default.
+
+Here's how to change the settings:
 
 1. From the Git menu, go to **Settings**. Go to **Git Global Settings** to configure this setting.
 
@@ -119,9 +125,11 @@ Cryptographic network provider is a Git configuration setting at global scope th
 
 When Visual Studio performs a remote Git operation, the remote endpoint might reject the request because it requires credentials to be provided with the request. At that time, Git invokes a credential helper, which will return the credentials needed to perform the operation, and then will try the request again. The credential helper used corresponds to the `git config` [credential.helper](https://git-scm.com/docs/gitcredentials) setting. It is available at the global scope with the following values:
 
-- GCM for Windows: Use [Git Credential Manager for Windows](https://github.com/microsoft/Git-Credential-Manager-for-Windows) as the helper.
-- GCM Core: Use [Git Credential Manager Core](https://github.com/microsoft/Git-Credential-Manager-Core) as the helper.
-- Unset (default): If this setting is unset, the credential helper set in the system config is used. As of Git for Windows 2.29, the default credential helper is GCM Core.
+- **GCM for Windows**: Use [Git Credential Manager for Windows](https://github.com/microsoft/Git-Credential-Manager-for-Windows) as the helper.
+- **GCM Core**: Use [Git Credential Manager Core](https://github.com/microsoft/Git-Credential-Manager-Core) as the helper.
+- **Unset** (default): If this setting is unset, the credential helper set in the system config is used. As of Git for Windows 2.29, the default credential helper is GCM Core.
+
+Here's how to change the settings:
 
 1. From the Git menu, go to **Settings**. Go to **Git Global Settings** to configure this setting.
 
@@ -174,9 +182,9 @@ The following settings manage Git-related preferences in Visual Studio, and are 
 
 By default, Visual Studio closes any open solution or folder when you switch to another repository. When it does so, it might also load the solution or folder of the new repository based on if you choose to [Open folder in Solution Explorer when opening a Git repository](#open-folder-in-solution-explorer-when-opening-a-git-repository) and [Automatically load the solution when opening a Git repository](#automatically-load-the-solution-when-opening-a-git-repository). This maintains the consistency between the open code and open repository. However, if your solution is not in the same folder root as your repository, you may want to keep the solution open when you switch to its repository. You can do that with this setting. The values are, as follows:
 
-- Yes: When a repository is opened, the currently open solution is always closed
-- No: When a repository is opened, Visual Studio performs a check as to whether the current solution is under Git. If it is not, then the solution remains open.
-- Always ask (default): When this is set, you can make a choice through a dialog box per repository open, whether you want to keep the current solution open or close it.
+- **Yes**: When a repository is opened, the currently open solution is always closed
+- **No**: When a repository is opened, Visual Studio performs a check as to whether the current solution is under Git. If it is not, then the solution remains open.
+- **Always ask** (default): When this is set, you can make a choice through a dialog box per repository open, whether you want to keep the current solution open or close it.
 
     :::image type="content" source="media/close-sln-setting.png" alt-text="Screenshot showing the close solution setting in the Options dialog box.":::
 
