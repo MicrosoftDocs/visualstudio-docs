@@ -2,7 +2,7 @@
 title: Git settings in Visual Studio
 titleSuffix: ""
 description: Learn how Visual Studio uses .gitconfig files and Git settings to manage your preferences
-ms.date: 05/18/2022
+ms.date: 05/19/2022
 ms.topic: conceptual
 author: Taysser-Gherfal
 ms.author: tglee
@@ -90,7 +90,7 @@ Rebasing sets aside the changes made by commits in the current branch that are n
 - **Merges**: Rebase without flattening locally created merge commits.
 
   > [!NOTE]
-  > If you're using Visual Studio 2022 [version 17.1](/visualstudio/releases/2022/release-notes-v17.1) or earlier, your user interface might include a setting that says "Preserve" instead of "Merges". The functionality remains the same, however.
+  > In Visual Studio 2022 [version 17.2](/visualstudio/releases/2022/release-notes), we changed the "Preserve" setting to "Merges" to match a recent update from Git. So, if you're using an earlier version of Visual Studio with Git tooling, your user interface might say "Preserve" instead of "Merges". The functionality remains the same, however.
 
 1. From the Git menu, go to **Settings**. Go to **Git Global Settings** to configure this option at the global level; go to **Git Repository Settings** to configure this option at the repo level.
 
