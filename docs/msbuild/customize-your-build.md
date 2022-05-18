@@ -255,7 +255,7 @@ To customize the default values of properties for all C++ builds, create another
 
 ```xml
 <PropertyGroup>
-  <ForceImportAfterCppProps>$(MsbuildThisFileDirectory)\MyProps.props<ForceImportAfterCppProps>
+  <ForceImportAfterCppProps>$(MsbuildThisFileDirectory)\MyProps.props</ForceImportAfterCppProps>
 </PropertyGroup>
 ```
 
