@@ -436,7 +436,7 @@
   items:
   - name: Solutions
     href: solutions-overview.md
-  - name: Solution (.Sln) File
+  - name: Solution (.sln) File
     href: solution-dot-sln-file.md
   - name: Solution User Options (.Suo) File
     href: solution-user-options-dot-suo-file.md
