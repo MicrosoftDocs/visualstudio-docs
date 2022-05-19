@@ -2,7 +2,7 @@
 title: "Format specifiers in the debugger (C++) | Microsoft Docs"
 description: Use a format specifier to change the format in which a value is displayed in a Watch, Autos, or Locals window. This article provides usage details.
 ms.custom: SEO-VS-2020
-ms.date: "3/11/2019"
+ms.date: 05/17/2022
 ms.topic: "conceptual"
 dev_langs:
   - "C++"
@@ -148,7 +148,29 @@ If you have a pointer to an object you want to view as an array, you can use an 
 
 ## <a name="BKMK_Format_specifiers_for_interop_debugging_and_C___edit_and_continue"></a> Format specifiers for interop debugging with C++/CLI
 
-Specifiers in **bold** are supported only for debugging native and C++/CLI code. This requires the legacy debugger, specified using [Managed Compatibility Mode](../debugger/general-debugging-options-dialog-box.md).
+::: moniker range=">= vs-2022" 
+
+| Specifier | Format | Original Watch Value | Value Displayed |
+|--|--|--|--|
+| o | unsigned octal integer | 0xF065 | 0170145 |
+| x<br /><br />X | Hexadecimal integer | 61541 | 0x0000f065 |
+| c | single character | \<location> | 101 'e' |
+| s | const char* (with quotation marks) | \<location> | "hello world" |
+| su | const wchar_t*<br /><br /> const char16_t\* (with quotation marks) | \<location> | L"hello world" |
+| sub | const wchar_t*<br /><br /> const char16_t\* | \<location> | hello world |
+| s8 | const char* (with quotation marks) | \<location> | "hello world" |
+| hr | HRESULT or Win32 error code.<br/>This specifier is no longer needed for HRESULTs as the debugger decodes them automatically. | S_OK | S_OK |
+| wc | Window class flag | 0x00000040, | WC_DEFAULTCHAR |
+| wm | Windows message numbers | 0x0010 | WM_CLOSE |
+| ! | raw format, ignoring any data type view customizations | \<customized representation> | 4 |
+
+The d, e, f, g, h, i, l, m, ma, mb, md, mq, mu, mw, and u specifiers for native and C++/CLI code required the legacy debugger, which isn't supported in Visual Studio 2022 or later versions.
+
+::: moniker-end
+
+::: moniker range="<vs-2022" 
+
+Specifiers in **bold** are supported only for debugging native and C++/CLI code. These specifiers require the legacy debugger, specified using [Managed Compatibility Mode](../debugger/general-debugging-options-dialog-box.md).
 
 |Specifier|Format|Original Watch Value|Value Displayed|
 |---------------|------------|--------------------------|---------------------|
@@ -185,6 +207,8 @@ Specifiers in **bold** are supported only for debugging native and C++/CLI code.
 |**md**|4 doublewords|0x0012ffac|0x0012ffac 00CB34B3 80943084 308A22FF 00002657|
 |**mq**|2 quadwords|0x0012ffac|0x0012ffac 7ffdf00000000000 5f441a790012fdd4|
 |**mu**|2-byte characters (Unicode)|0x0012ffac|0x0012ffac 8478 77f4 ffff ffff 0000 0000 0000 0000|
+
+::: moniker-end
 
 ### <a name="BKMK_Size_specifier_for_pointers_as_arrays_in_interop_debugging_and_C___edit_and_continue"></a> Size specifier for pointers as arrays in interop debugging with C++/CLI
 
