@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows) | Microsoft Docs"
 description: View the change log for Visual Studio Tools for Unity, Windows. See changes from version 1.0.0.0 through 4.7.0.0 and beyond.
-ms.date: "9/28/2021"
+ms.date: "5/19/2022"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
 ms.topic: "conceptual"
@@ -17,7 +17,7 @@ ms.workload:
 Visual Studio Tools for Unity change log.
 
 ## 17.1.0.0
-Released January 19, 2021
+Released January 19, 2022
 
 ### New Features
 
