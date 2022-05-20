@@ -75,9 +75,9 @@ The following is a full list of arguments that can be used when defining an exte
 |Target Extension|$(TargetExt)|The file name extension of the item to be built.|
 |Binary Directory|$(BinDir)|The final location of the binary that is being built (defined as drive + path).|
 |Project Directory|$(ProjectDir)|The directory of the current project (drive + path).|
-|Project File Name|$(ProjectFileName)|The file name of the current project (drive + path + file name).|
+|Project File Name|$(ProjectFileName)|The file name of the current project (file name).|
 |Solution Directory|$(SolutionDir)|The directory of the current solution (drive + path).|
-|Solution File Name|$(SolutionFileName)|The file name of the current solution (drive + path + file name).|
+|Solution File Name|$(SolutionFileName)|The file name of the current solution (file name).|
 
 > [!NOTE]
 > The IDE status bar displays the **Current Line** and **Current Column** variables to indicate where the insertion point is located in the active **Code Editor**. The **Current Text** variable returns the text or code selected at that location.
