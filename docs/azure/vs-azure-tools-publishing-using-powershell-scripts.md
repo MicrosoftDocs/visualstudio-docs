@@ -244,7 +244,7 @@ To automate building your project, add code that calls MSBuild to `New-WebDeploy
         #Write a function to build and package your web application
     ```
 
-    To build your web application, use MsBuild.exe. For help, see [MSBuild Command-Line Reference](../msbuild/msbuild-command-line-reference.md)
+    To build your web application, use MSBuild.exe. For help, see [MSBuild Command-Line Reference](../msbuild/msbuild-command-line-reference.md)
 
     ```powershell
     Write-VerboseWithTime 'Build-WebDeployPackage: Start'
@@ -260,7 +260,7 @@ To automate building your project, add code that calls MSBuild to `New-WebDeploy
 $job = Start-Process cmd.exe -ArgumentList('/C "' + $msbuildCmd + '"') -WindowStyle Normal -Wait -PassThru
 
 if ($job.ExitCode -ne 0) {
-    throw('MsBuild exited with an error. ExitCode:' + $job.ExitCode)
+    throw('MSBuild exited with an error. ExitCode:' + $job.ExitCode)
 }
 
 #Obtain the project name
