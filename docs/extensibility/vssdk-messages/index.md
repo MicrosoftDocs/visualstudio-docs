@@ -25,7 +25,7 @@ Some VS SDK analyzer errors have corresponding articles that explain why the err
   
 If these steps don't lead to information about your error, go to the end of this page, and send feedback that includes the number or text of the error.
 
-## See also
+## Next steps
 
 - [Update a Visual Studio extension](../migration/update-visual-studio-extension.md)
 - [Breaking API list](../migration/breaking-api-list.md)
