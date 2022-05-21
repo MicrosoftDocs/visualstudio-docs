@@ -51,8 +51,6 @@ To debug apps in a local Docker container, the following tools must be installed
 
 To run Docker containers locally, you must have a local Docker client. You can use [Docker Desktop](https://www.docker.com/get-docker), which requires Windows 10 or later.
 
-Docker containers are available for .NET Framework and .NET Core projects. Let's look at two examples. First, we look at a .NET Core web app. Then, we look at a .NET Framework console app.
-
 ## Create a web app
 
 If you have a project and you've added Docker support as described in the [overview](overview.md), skip this section.
