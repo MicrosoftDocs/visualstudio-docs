@@ -13,8 +13,8 @@ ms.topic: troubleshooting
 
  [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
-> [!CAUTION]
-> The preview TFVC extension for Visual Studio for Mac is no longer supported in Visual Studio 2019 for Mac.
+> [!IMPORTANT]
+> Team Foundation Version Control solutions are no longer supported on macOS. Recommendations made here may no longer work.
 
 
 ## Alternative Version Control options in Visual Studio for Mac
@@ -25,16 +25,9 @@ Git is supported in Visual Studio for Mac and is the default option for reposito
 
 ## Unsupported workarounds for TFVC
 
-While Visual Studio for Mac doesn't officially support TFVC, the rest of this guide provides some workarounds to work with TFVC on macOS. If you're using TFVC for version control today, here are some solutions you can use to access your source code hosted in TFVC:
+While Visual Studio for Mac doesn't officially support TFVC, the rest of this guide provides a workaround to work with TFVC on macOS. If you're using TFVC for version control today, here is a solution you can use to access your source code hosted in TFVC:
 
-* Option 1. [ Use Visual Studio Code and the Azure Repos extension, for a graphical UI](#use-visual-studio-code-and-the-azure-repos-extension)
-* Option 2. [Connect to your repo using the Team Explorer Everywhere Command Line Client (TEE-CLC)](#connecting-using-the-team-explorer-everywhere-command-line-client)
-
-### Option 1. <a id="use-visual-studio-code-and-the-azure-repos-extension"></a> Use Visual Studio Code and the Azure Repos extension
-
-If you like to work with a graphical interface to manage your files in version control, then the Azure Repos extension for Visual Studio Code provides a supported solution from Microsoft. To get started, download [Visual Studio Code](https://code.visualstudio.com) and then learn how to [configure the Azure Repos extension](https://marketplace.visualstudio.com/items?itemName=ms-vsts.team).
-
-### Option 2. <a id="connecting-using-the-team-explorer-everywhere-command-line-client"></a> Connecting using the Team Explorer Everywhere Command Line Client
+###  <a id="connecting-using-the-team-explorer-everywhere-command-line-client"></a> Connecting using the Team Explorer Everywhere Command Line Client
 
 > [!IMPORTANT]
 > As per the Team Explorer Everywhere README, this project is [no longer being maintained](https://github.com/microsoft/team-explorer-everywhere).
