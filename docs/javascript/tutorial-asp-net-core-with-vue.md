@@ -148,6 +148,10 @@ If you see this issue, most likely the frontend started before the backend. Once
 
 Otherwise, if the port is in use, try 5002 in *launchSettings.json* and *vue.config.js*.
 
+### Outdated version of Vue
+
+If you see the console message **Could not find the file 'C:\Users\Me\source\repos\vueprojectname\package.json'** when you create the project, you may need to update your version of the Vue CLI. After you update the Vue CLI, you may also need to delete the *.vuerc* file in *C:\Users\\[yourprofilename\]*.
+
 ### Docker
 
 If you enable Docker support while creating the web API project, the backend may start up using the Docker profile and not listen on the configured port 5001. To resolve:
