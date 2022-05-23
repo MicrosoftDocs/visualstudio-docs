@@ -8,6 +8,7 @@ ms.date: 06/23/2022
 ms.technology: vs-ide-general
 ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
 ms.topic: troubleshooting
+monikerRange: 'vsmac-2019'
 ---
 # Does Visual Studio for Mac support Team Foundation Version Control?
 
