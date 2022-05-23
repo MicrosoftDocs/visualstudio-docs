@@ -2,7 +2,7 @@
 title: Manage project and solution properties
 description: Learn how to manage both the project properties and the solution properties in Visual Studio.
 ms.custom: SEO-VS-2020
-ms.date: 04/25/2022
+ms.date: 05/23/2022
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -89,7 +89,9 @@ For information about C++ project properties, see [Work with project properties 
 
 To access properties on the solution, right click the solution node in **Solution Explorer** and choose **Properties**. In the dialog, you can set project configurations for **Debug** or **Release** builds, choose which projects should be the startup project when **F5** is pressed, and set code analysis options.
 
+Solution properties are stored in a Solution User Options (.suo) file. For more information about this file type, see the "[**Solution file**](solutions-and-projects-in-visual-studio.md#solution-file)" section of the [Solutions and projects in Visual Studio](solutions-and-projects-in-visual-studio.md) page.
+
 ## See also
 
-- [Solutions and projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md)
+- [What are solutions and projects in Visual Studio?](../ide/solutions-and-projects-in-visual-studio.md)
 - [Managing solution and project properties (Visual Studio for Mac)](/visualstudio/mac/managing-solutions-and-project-properties)

@@ -101,5 +101,3 @@ You can attach the Visual Studio debugger to a process running in a Windows Dock
 4. Choose the corresponding container process from the list of **Available processes** and select **Attach** to start debugging your C# container process.
 
     ![Screenshot of the Attach to Process dialog in Visual Studio. Connection type is set to Docker (Windows Container) and the dotnet.exe process is selected.](../debugger/media/docker-attach-complete-windows.png "Completed Windows Docker Attach Menu")
-
-5. Choose the corresponding container process from the list of available processes and choose **Attach** to start debugging your C# container process.
