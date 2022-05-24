@@ -34,7 +34,7 @@ Visual Studio can run on ARM-powered devices via x64 emulation, though some feat
 See [Visual Studio 2022 System Requirements](/visualstudio/releases/2022/system-requirements) for supported operating systems, hardware, supported languages, and additional requirements and guidance.
 
 > [!NOTE]
-> 17.3 Preview 2 release of Visual Studio 2022 will include support for Windows 11 on Arm64! This version of Visual Studio will run natively on Arm64, giving developers the ability to build and debug apps directly on Arm64-based Windows 11 devices. Checkout the [release blog](https://devblogs.microsoft.com/visualstudio/) to learn more.
+> 17.3 Preview 2 release of Visual Studio 2022 will include support for Windows 11 on Arm64! This version of Visual Studio will run natively on Arm64, giving developers the ability to build and debug apps directly on Arm64-based Windows 11 devices. Checkout the [release blog](https://blogs.windows.com/windowsdeveloper/2022/05/24/create-next-generation-experiences-at-scale-with-windows/) to learn more.
 ::: moniker-end
 
 ## Remote targeting ARM devices
