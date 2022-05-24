@@ -2,7 +2,7 @@
 title: Setting Language-Specific Editor Options
 description: Learn how to set a variety of text editor options that apply to specific programming languages.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 05/20/2022
 ms.topic: reference
 helpviewer_keywords:
 - editor options
@@ -23,8 +23,19 @@ Visual Studio offers a variety of text editor options that apply to specific pro
 
 ## Settings available in the Options dialog box
 
+::: moniker range="vs-2022"
+
+[Options, Text Editor, Visual Basic](../../ide/reference/options-text-editor-basic-visual-basic.md)\
+Describes settings for end constructs, code reformatting, outlining, and error correction suggestions, among others, for Visual Basic code.
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
+
 [Options, Text Editor, Basic (Visual Basic)](../../ide/reference/options-text-editor-basic-visual-basic.md)\
 Describes settings for end constructs, code reformatting, outlining, and error correction suggestions, among others, for Visual Basic code.
+
+::: moniker-end
 
 [Options, Text Editor, C/C++, Formatting](../../ide/reference/options-text-editor-c-cpp-formatting.md)\
 Describes outlining, indenting, Quick Info, and other settings for C and C++ code.
