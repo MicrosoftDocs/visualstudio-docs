@@ -1,7 +1,7 @@
 ---
 title: Configure Python on Azure App Service (Windows)
 description: How to install a Python interpreter and libraries on Azure App Service, and configuring web applications to properly refer to that interpreter.
-ms.date: 05/09/2022
+ms.date: 05/25/2022
 ms.topic: how-to
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -74,6 +74,9 @@ For example, after adding a reference to `python361x64` (Python 3.6.1 x64), your
 
 After installing the site extension (through either the portal or an Azure Resource Manager template), you next point your app's *web.config* file to the Python interpreter. The *web.config* file instructs the IIS (7+) web server running on App Service about how it should handle Python requests through HttpPlatform.
 
+> [!Note]
+> We recommend using **HttpPlatform** to configure your apps, as the [WFastCGI](https://pypi.org/project/wfastcgi/) project is no longer maintained. 
+
 Begin by finding the full path to the site extension's *python.exe*, then create and modify the appropriate *web.config* file.
 
 ### Find the path to python.exe
@@ -120,6 +123,38 @@ The HttpPlatform module passes socket connections directly to a standalone Pytho
 ```
 
 The `HTTP_PLATFORM_PORT` environment variable shown here contains the port that your local server should listen on for connections from localhost. This example also shows how to create another environment variable, if desired, in this case `SERVER_PORT`.
+
+### Configure the FastCGI handler
+
+FastCGI is an interface that works at the request level. IIS receives incoming connections and forwards each request to a WSGI app running in one or more persistent Python processes. The [wfastcgi package](https://pypi.io/project/wfastcgi) is pre-installed and configured with each Python site extension, so you can easily enable it by including the code in *web.config* like what's shown below for a web app based on the Bottle framework. Note that the full paths to *python.exe* and *wfastcgi.py* are placed in the `PythonHandler` key:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <appSettings>
+    <add key="PYTHONPATH" value="D:\home\site\wwwroot"/>
+    <!-- The handler here is specific to Bottle; other frameworks vary. -->
+    <add key="WSGI_HANDLER" value="app.wsgi_app()"/>
+    <add key="WSGI_LOG" value="D:\home\LogFiles\wfastcgi.log"/>
+  </appSettings>
+  <system.webServer>
+    <handlers>
+      <add name="PythonHandler" path="*" verb="*" modules="FastCgiModule"
+           scriptProcessor="D:\home\Python361x64\python.exe|D:\home\Python361x64\wfastcgi.py"
+           resourceType="Unspecified" requireAccess="Script"/>
+    </handlers>
+  </system.webServer>
+</configuration>
+```
+
+The `<appSettings>` defined here are available to your app as environment variables:
+
+- The value for `PYTHONPATH` may be freely extended but must include the root of your app.
+- `WSGI_HANDLER` must point to a WSGI app importable from your app.
+- `WSGI_LOG` is optional but recommended for debugging your app.
+
+See [Publish to Azure](publishing-python-web-applications-to-azure-from-visual-studio.md) for additional details on *web.config* contents for Bottle, Flask, and Django web apps.
+
 
 ## Install packages
 
