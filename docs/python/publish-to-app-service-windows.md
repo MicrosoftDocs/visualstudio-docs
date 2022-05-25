@@ -112,10 +112,10 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
     ALLOWED_HOSTS = ['vspython-test-02.azurewebsites.net']
     ```
 
-    > [!Note]
+> [!Note]
     >Failure to add your URL to the array results in the error "DisallowedHost at / Invalid HTTP_HOST header: '\<site URL\>'. You may need to add '\<site URL\>' to ALLOWED_HOSTS."
 
-    > [!Note]
+> [!Note]
     > When the array is empty, Django automatically allows 'localhost', but adding your production URL removes that capabilities. For this reason you might want to maintain separate development and production copies of `settings.py`, or use environment variables to control the run time values.
 
 1. In **Solution Explorer**, expand the folder named the same as your project, right-click the `static` folder, select **Add > New Item...**, select the "Azure static files web.config" template, and select **OK**. This action creates another `web.config` in the `static` folder that disables Python processing for that folder. This configuration sends requests for static files to the default web server rather than using the Python application.
