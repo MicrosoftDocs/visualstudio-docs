@@ -30,10 +30,8 @@ Visual Studio provides several commands for automatically transforming and clean
 1. Right-click the identifier you wish to rename and select **Rename**, or place the caret in that identifier and select the **Edit** > **Refactor** > **Rename** menu command (**F2**).
 1. In the **Rename** dialog that appears, enter the new name for the identifier and select **OK**:
 :::image type="content" source="media/code-refactor-rename-1.png" alt-text="Screenshot of Rename prompt for new identifer name.":::
-
 1. In the next dialog, select the files and instances in your code to which to apply the renaming; select any individual instance to preview the specific change:
 :::image type="content" source="media/code-refactor-rename-2.png" alt-text="Screenshot of Rename dialog to select where to apply the changes.":::
-
 1. Select **Apply** to make the changes to your source code files. (This action can be undone.)
 
 ::: moniker-end
