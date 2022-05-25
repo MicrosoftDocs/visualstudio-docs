@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Work with a Conceptual Model (WCF Data Services)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 When you use a conceptual model to describe the data in a database, you can query data through your objects instead of having to translate back and forth between a database schema and an object model.
 
 You can use conceptual models with WCF Data Services applications. The following topics show how to query data through a conceptual model.

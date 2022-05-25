@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugDynamicFieldCOMPlus
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents a dynamic field for an [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) object.
 
 ## Syntax

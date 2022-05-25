@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Options, Text Editor, C#, Advanced
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Use the **Advanced** options page to modify the settings for editor formatting, code refactoring, and XML documentation comments for C#. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **C#** > **Advanced**.
 
 > [!NOTE]
@@ -23,9 +25,28 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
 ## Analysis
 
+::: moniker range=">=vs-2022"
+
+- Run background code analysis for ...
+
+  Choose one of the following options.
+
+  | Option | Description |
+  | - | - |
+  | None | All analyzers and corresponding code fixes are disabled.<br/><br/>Compiler diagnostics and corresponding code fixes are enabled on *all open* documents. |
+  | Current document (default) | All analyzers run just on the currently active document.<br/><br/>Compiler diagnostics are enabled on *all open* documents. |
+  | Open documents | All analyzers and compiler diagnostics are enabled on *all open* documents. |
+  | Entire solution | All analyzers and compiler diagnostics are enabled on *all* documents in the solution, whether open or closed. |
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
+
 - Live code analysis or Background analysis scope
 
    Configure the background analysis scope for managed code. For more information, see [How to: Configure live code analysis scope for managed code](../../code-quality/configure-live-code-analysis-scope-managed-code.md).
+
+::: moniker-end
 
 ## Using Directives
 

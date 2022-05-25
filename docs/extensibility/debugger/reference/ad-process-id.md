@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # AD_PROCESS_ID
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the process ID, which may be either a system ID or a GUID.
 
 ## Syntax

@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # How to: Add a property to SharePoint projects
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can use a project extension to add a property to any SharePoint project. The property appears in the **Properties** window when the project is selected in **Solution Explorer**.
 
  The following steps assume that you have already created a project extension. For more information, see [How to: Create a SharePoint project extension](../sharepoint/how-to-create-a-sharepoint-project-extension.md).

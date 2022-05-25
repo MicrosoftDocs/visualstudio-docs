@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpressionEvaluator::SetRegistryRoot
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method sets the registry root. Used for side-by-side debugging.
 
 ## Syntax

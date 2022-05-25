@@ -6,7 +6,7 @@ keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.date: 02/15/2022
+ms.date: 05/10/2022
 ms.topic: reference
 helpviewer_keywords:
 - workload ID, Visual Studio
@@ -18,6 +18,8 @@ ms.technology: vs-installation
 open_to_public_contributors: false
 ---
 # Visual Studio Professional component directory
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE[workloads-components-universal-header_md](includes/workloads-components-universal-header_md.md)]
 

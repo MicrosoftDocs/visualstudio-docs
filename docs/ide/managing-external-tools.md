@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Manage external tools
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can call external tools from inside Visual Studio by using the **Tools** menu. A few default tools are available from the **Tools** menu, and you can customize the menu by adding other executables of your own.
 
 ## Tools available on the Tools menu
@@ -62,7 +64,7 @@ The following is a full list of arguments that can be used when defining an exte
 |----------|--------------|-----------------|
 |Item Path|$(ItemPath)|The complete file name of the current file (drive + path + file name).|
 |Item Directory|$(ItemDir)|The directory of the current file (drive + path).|
-|Item File Name|$(ItemFilename)|The file name of the current file (file name).|
+|Item File Name|$(ItemFilename)|The file name of the current file.|
 |Item Extension|$(ItemExt)|The file name extension of the current file.|
 |Current Line|$(CurLine)|The current line position of the cursor in the code window.|
 |Current Column|$(CurCol)|The current column position of the cursor in the code window.|
@@ -73,9 +75,9 @@ The following is a full list of arguments that can be used when defining an exte
 |Target Extension|$(TargetExt)|The file name extension of the item to be built.|
 |Binary Directory|$(BinDir)|The final location of the binary that is being built (defined as drive + path).|
 |Project Directory|$(ProjectDir)|The directory of the current project (drive + path).|
-|Project File Name|$(ProjectFileName)|The file name of the current project (drive + path + file name).|
+|Project File Name|$(ProjectFileName)|The file name of the current project.|
 |Solution Directory|$(SolutionDir)|The directory of the current solution (drive + path).|
-|Solution File Name|$(SolutionFileName)|The file name of the current solution (drive + path + file name).|
+|Solution File Name|$(SolutionFileName)|The file name of the current solution.|
 
 > [!NOTE]
 > The IDE status bar displays the **Current Line** and **Current Column** variables to indicate where the insertion point is located in the active **Code Editor**. The **Current Text** variable returns the text or code selected at that location.

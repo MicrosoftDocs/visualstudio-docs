@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically create an email item
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example creates an email message in Microsoft Office Outlook.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

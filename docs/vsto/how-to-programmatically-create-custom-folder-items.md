@@ -16,6 +16,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically create custom folder items
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example creates a new folder in Microsoft Office Outlook. The name of the user who is logged on is used for the folder name.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugStackFrame2::GetPhysicalStackRange
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a machine-dependent representation of the range of physical addresses associated with a stack frame.
 
 ## Syntax

@@ -27,6 +27,8 @@ ms.workload:
 ---
 # Limitations of Windows Forms controls on Office documents
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 There are some differences between Windows Forms controls that are added to Microsoft Office Word documents or Microsoft Office Excel worksheets, and Windows Forms controls that are added to Windows Forms. For example, when you add a <xref:Microsoft.Office.Tools.Word.Controls.Button> control to a document, properties such as <xref:System.Windows.Forms.Control.Dock>, <xref:System.Windows.Forms.Control.Anchor>, and <xref:System.Windows.Forms.Control.TabIndex> do not behave as you might expect.
 
 Many of these differences are caused by the way that Windows Forms controls are hosted on documents. When a Windows Forms control is added to a document, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] embeds an ActiveX control that then hosts the Windows Forms control in the document. The Windows Forms control is not embedded directly in the document.

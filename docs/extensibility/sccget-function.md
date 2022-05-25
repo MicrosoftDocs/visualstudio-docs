@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # SccGet function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function retrieves a copy of one or more files for viewing and compiling but not for editing. In most systems, the files are tagged as read-only.
 
 ## Syntax

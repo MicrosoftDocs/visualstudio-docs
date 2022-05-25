@@ -2,7 +2,7 @@
 title: "General, Debugging, Options Dialog Box | Microsoft Docs"
 description: Set Visual Studio debugger options to meet your debugging needs. You can configure break behavior, debugging levels, display behavior, and much else.
 ms.custom: SEO-VS-2020
-ms.date: "06/04/2020"
+ms.date: "04/26/2022"
 ms.topic: "reference"
 f1_keywords:
   - "vs.debug.options.General"
@@ -26,6 +26,8 @@ ms.workload:
   - "multiple"
 ---
 # General debugging options
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To set Visual Studio debugger options, select **Tools** > **Options**, and under **Debugging** select or deselect the boxes next to the **General** options. You can restore all default settings with **Tools** > **Import and Export Settings** > **Reset all settings**. To reset a subset of settings, save your settings with the **Import and Export Settings Wizard** before making the changes that you want to test, then import your saved settings afterward.
 
@@ -219,6 +221,11 @@ Enables this [memory optimization](https://devblogs.microsoft.com/cppblog/out-of
 
 **Bring Visual Studio to the foreground when breaking in the debugger**
 Switches Visual Studio to the foreground when you pause in the debugger.
+::: moniker-end
+
+::: moniker range=">= vs-2022"
+**Keep expanded data tips open until clicked away**
+When this option is selected, an expanded data tip stays expanded until you click away from it.
 ::: moniker-end
 
 ## Options available in older versions of Visual Studio

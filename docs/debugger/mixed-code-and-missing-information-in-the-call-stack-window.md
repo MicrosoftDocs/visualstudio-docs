@@ -28,6 +28,8 @@ ms.workload:
   - "multiple"
 ---
 # Mixed Code and Missing Information in the Call Stack Window
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Because of differences between call stacks for managed and native code, the debugger cannot always show the complete call stack when the code types mix. When native code calls managed code, you may notice the following discrepancies in the **Call Stack** window:
 
 - The native frame immediately above the managed code may be missing from the **Call Stack** window. For more information, see [How to: Step out of Managed Code when Native Frames are Missing from the Call Stack Window](how-to-use-the-call-stack-window.md).

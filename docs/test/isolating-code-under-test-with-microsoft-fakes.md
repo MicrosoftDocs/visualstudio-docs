@@ -16,6 +16,8 @@ dev_langs:
 ---
 # Isolate code under test with Microsoft Fakes
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Microsoft Fakes helps you isolate the code you're testing by replacing other parts of the application with *stubs* or *shims*. The stubs and shims are small pieces of code that are under the control of your tests. By isolating your code for testing, you know that if the test fails, the cause is there and not somewhere else. Stubs and shims also let you test your code even if other parts of your application aren't working yet.
 
 Fakes come in two flavors:

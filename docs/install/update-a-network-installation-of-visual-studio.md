@@ -17,6 +17,8 @@ ms.technology: vs-installation
 ---
 # Update a Visual Studio client that was installed from a network layout
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can and should periodically update all Visual Studio clients so that they receive the latest security and functionality fixes. 
 
 If the Visual Studio client was originally installed via a network layout, then most likely the client machine is part of a "managed environment" meaning that it is governed by a central administrative team and must adhere to organizational policies. To update client machines in a managed environment consider the questions below whose answers will inform how you should approach the update process. 

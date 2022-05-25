@@ -34,6 +34,8 @@ ms.workload:
 ---
 # Class Designer errors
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 **Class Designer** does not track the location of your source files, so modifying your project structure or moving source files in the project can cause **Class Designer** to lose track of the type, For example, it's common to modify the source type of a typedef, base classes, and association types. You might receive an error such as **Class Designer is unable to display this type**. To resolve the error, drag the modified or relocated source code to the class diagram again to display it.
 
 ## Resources

@@ -18,6 +18,8 @@ ms.workload:
   - "multiple"
 ---
 # Error: Mixed mode debugging for IA64 processes is unsupported
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger does not support debugging mixed native and managed code in an Itanium-based process.
 
 ### To correct this error

@@ -12,8 +12,9 @@ ms.author: midumont
 manager: jmartens
 ms.technology: vs-ide-code-analysis
 ---
-
 # Disable source code analysis for .NET
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range=">=vs-2022"
 
@@ -49,7 +50,7 @@ To turn off source code analysis for analyzers, add one or more of the following
 | - | - | - |
 | `RunAnalyzersDuringBuild` | Controls whether analyzers run at build time. | `true` |
 | `RunAnalyzersDuringLiveAnalysis` | Controls whether analyzers analyze code live at design time. | `true` |
-| `RunAnalyzers` | Disables analyzers at both build and design time. This property takes precedence over `RunAnalyzersDuringBuild` and `RunAnalyzersDuringLiveAnalysis`. | `true` |
+| `RunAnalyzers` | `false` disables analyzers at both build and design time. This property takes precedence over `RunAnalyzersDuringBuild` and `RunAnalyzersDuringLiveAnalysis`. | `true` |
 
 Examples:
 

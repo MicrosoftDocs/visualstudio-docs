@@ -28,6 +28,8 @@ ms.workload:
 ---
 # Browse and rearrange code maps
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Rearrange items on code maps to make them easier to read and improve their performance.
 
 You can customize code maps without affecting the underlying code in a solution. This is useful when you want to focus on key code elements or communicate ideas about the code. For example, to highlight interesting areas, you can select code elements on the map and filter them, change the style of code elements and links, hide or delete code elements, and organize code elements using properties, categories, or groups.

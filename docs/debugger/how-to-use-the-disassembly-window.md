@@ -27,6 +27,8 @@ ms.workload:
 ---
 # View disassembly code in the Visual Studio debugger (C#, C++, Visual Basic, F#)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The **Disassembly** window shows assembly code corresponding to the instructions created by the compiler. If you're debugging managed code, these assembly instructions correspond to the native code created by the Just-in-Time (JIT) compiler, not the Microsoft intermediate language (MSIL) created by the Visual Studio compiler.
 
 > [!NOTE]

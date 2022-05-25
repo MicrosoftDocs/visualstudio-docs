@@ -9,8 +9,9 @@ ms.technology: vs-ide-general
 ms.assetid: 5DA76197-7859-421f-AC45-401F22F5D794
 ms.topic: troubleshooting
 ---
-
 # Troubleshooting: How do I release a new version of my existing extension?
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 > [!IMPORTANT]
 > Currently, creating new extensions is not officially supported in Visual Studio 2019 for Mac.

@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Use profiling methods to collect performance data from the command line
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Your choice of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools and options depends on factors such as the type of application that you are profiling, the profiling method that you want to use, and whether the target application is written in native or .NET Framework code.
 
  This topic organizes the command-line procedural topics according to the profiling method that you choose.

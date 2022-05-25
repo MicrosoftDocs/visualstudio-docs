@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Spy++ Help
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The documentation for the Spy++ utility includes two groups of general topics on Using Spy++ and on the Spy++ Views. These are followed by the Spy++ Reference, which provides further details on each available menu command and dialog box.
 
 ## Using Spy++

@@ -10,6 +10,8 @@ ms.topic: how-to
 ---
 # Set up a Subversion repository
 
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+
 Subversion is a centralized _version control system_, meaning that there's a single server that contains all files and revisions, from which users can check out any version of any file. When files are checked out from a remote Subversion repository, the user gets a snapshot of the repository at that point in time.
 
 To use Subversion for your version control, it must be installed on your machine. To check if Subversion is installed your machine, use the following command in Terminal:

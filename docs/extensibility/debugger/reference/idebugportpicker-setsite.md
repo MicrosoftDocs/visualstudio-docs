@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortPicker::SetSite
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the service provider.
 
 ## Syntax

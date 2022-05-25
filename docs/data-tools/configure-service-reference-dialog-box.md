@@ -20,6 +20,8 @@ ms.workload:
 ---
 # Configure Service Reference dialog box
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The **Configure Service Reference** dialog box enables you to configure the behavior of Windows Communication Foundation (WCF) services.
 
 To access the **Configure Service Reference** dialog box, right-click a service reference in **Solution Explorer** and choose **Configure Service Reference**. You can also access the dialog box by clicking the **Advanced** button in the **Add Service Reference Dialog Box**.

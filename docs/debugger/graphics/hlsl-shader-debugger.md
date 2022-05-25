@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # HLSL Shader Debugger
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The HLSL debugger in Visual Studio Graphics Analyzer helps you understand how your HLSL shader code operates under real conditions of your app.
 
  This is the HLSL debugger:

@@ -19,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # Function Details View
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Function Details View** window displays the following information:
 
 - The **Cost Distribution** bar chart represents the relationships between a function that you select and the calling functions that executed the selected function, and between the selected function and the functions that were called by it.

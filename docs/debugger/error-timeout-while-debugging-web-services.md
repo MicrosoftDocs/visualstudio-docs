@@ -19,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # Error: Timeout While Debugging Web Services
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you are stepping into an XML Web service from calling code, the call may sometimes time out, with the result being that you cannot continue debugging. You may see an error message such as this.
 
 ```cmd

@@ -2,7 +2,7 @@
 title: Options, Text Editor, Basic (VB), Advanced
 description: Learn how to use the Advanced page in the Basic section to change the default settings of the Analysis, Import Directives, and Highlighting properties.
 ms.custom: SEO-VS-2020
-ms.date: 08/12/2020
+ms.date: 05/20/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Visual_Basic.Editor
@@ -23,13 +23,45 @@ ms.workload:
 - multiple
 ---
 # Options, Text Editor, Basic (Visual Basic), Advanced
-The **VB Specific** property page, in the **Basic** folder of the **Text Editor** folder of the **Options** (**Tools** menu) dialog box includes the following properties:
+
+::: moniker range=">=vs-2022"
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+The **VB Specific** property page, in the **Visual Basic** folder of the **Text Editor** folder of the **Options** (**Tools** menu) dialog box, includes the following properties:
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+The **VB Specific** property page, in the **Basic** folder of the **Text Editor** folder of the **Options** (**Tools** menu) dialog box, includes the following properties:
+
+::: moniker-end
 
 ## Analysis
+
+::: moniker range=">=vs-2022"
+
+- Run background code analysis for ...
+
+  Choose one of the following options.
+
+  | Option | Description |
+  | - | - |
+  | None | All analyzers and corresponding code fixes are disabled.<br/><br/>Compiler diagnostics and corresponding code fixes are enabled on *all open* documents. |
+  | Current document (default) | All analyzers run just on the currently active document.<br/><br/>Compiler diagnostics are enabled on *all open* documents. |
+  | Open documents | All analyzers and compiler diagnostics are enabled on *all open* documents. |
+  | Entire solution | All analyzers and compiler diagnostics are enabled on *all* documents in the solution, whether open or closed. |
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
 
 - Live code analysis or Background analysis scope
 
    Configure the background analysis scope for managed code. For more information, see [How to: Configure live code analysis scope for managed code](../../code-quality/configure-live-code-analysis-scope-managed-code.md).
+
+::: moniker-end
 
 ## Using Directives
 
@@ -77,8 +109,8 @@ When selected, vertical lines appear in the editor that line up with structured 
 ## Editor Help
 
 ::: moniker range=">=vs-2019"
-**Inline Parameter Name Hints**    
-When selected, inserts parameter name hints for literals, casted literals, and object instantiations prior to each argument in function calls.  
+**Inline Parameter Name Hints**
+When selected, inserts parameter name hints for literals, casted literals, and object instantiations prior to each argument in function calls.
 
 ![Inline Parameter Name Hints for Visual Basic](media/inline-parameter-name-hints-visualbasic.png)
 ::: moniker-end

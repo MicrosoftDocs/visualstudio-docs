@@ -1,5 +1,5 @@
 ---
-title: Solution (.Sln) file
+title: Solution (.sln) file
 description: Learn about the .sln file, which is one of the files that maintains state information for a project in Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 03/15/2019
@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Solution (.sln) file
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A solution is a structure for organizing projects in Visual Studio. The solution maintains the state information for projects in two files:
 

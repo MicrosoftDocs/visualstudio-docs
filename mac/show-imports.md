@@ -10,6 +10,8 @@ ms.topic: reference
 ---
 # Show import items
 
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+
 Visual Studio for Mac can show all available types, even if they aren't imported to your project, in your IntelliSense completion list. By selecting an item which isn't imported, the correct `using` statement will be added to your source file.
 
 ![show import items overview](media/importitems-overview.gif)

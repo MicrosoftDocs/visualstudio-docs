@@ -18,6 +18,8 @@ ms.workload:
   - "multiple"
 ---
 # Constants (Debug Interface Access SDK)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 These string constants can be used to identify various sections of a program debug database (PDB) file through the DIA SDK.
 
 ## Constants

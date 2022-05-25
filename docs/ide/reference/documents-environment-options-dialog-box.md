@@ -2,7 +2,7 @@
 title: Documents, Environment, Options Dialog Box
 description: Learn how to use the Environments page in the Documents section to control the display of documents in the IDE and manage external changes to documents and files.
 ms.custom: SEO-VS-2020
-ms.date: 03/28/2019
+ms.date: 05/16/2022
 ms.topic: reference
 f1_keywords:
 - VS.Environment.Documents
@@ -36,6 +36,8 @@ ms.workload:
 - multiple
 ---
 # Options dialog box: Environment \> Documents
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this page of the **Options** dialog box to control the display of documents in the integrated development environment (IDE) and manage external changes to documents and files. You can access this dialog box by clicking **Options** on the **Tools** menu and then selecting **Environment** > **Documents**.
 
@@ -79,6 +81,16 @@ For example, if you set this option to 5 and have 10 miscellaneous files open, w
 **Save documents as Unicode when data cannot be saved in codepage**
 
 Select this option to cause files containing information incompatible with the selected codepage to be saved as Unicode by default.
+
+::: moniker range="vs-2022"
+
+**Automatically save files when Visual Studio is in the background**
+
+Select this option when you want Visual Studio, after it loses focus, to save every file in the IDE. This includes project files, solution files, and even miscellaneous files that aren’t part of the project or solution. The intent is that when you switch to another tool, all your changes in Visual Studio are committed to disk.
+
+To learn more, see the [Suffer from Ctrl+S fatigue? We have a feature for you](https://devblogs.microsoft.com/visualstudio/suffer-from-ctrls-fatigue-we-have-a-feature-for-you/) blog post.
+
+::: moniker-end
 
 ## See also
 

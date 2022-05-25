@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Search Menu Commands
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Search** menu provides commands to search for specific windows.
 
  **Find Window/Process/Thread/Message**

@@ -4,16 +4,16 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 97ac8e4d-7a03-42f8-98cb-15bcaa90ef65
-ms.date: 03/21/2021
+ms.date: 04/27/2022
 ms.topic: how-to
 description:  Learn how admins can edit subscription assignments.
 ---
 
 # Edit Visual Studio subscription assignments
-As a subscription admin, you can make changes to the subscriptions assigned to individuals within your organization.  This article discusses the types of changes you can make and provides the necessary steps.
+As a subscription admin, you can make changes to the subscriptions assigned to members of your organization.  This article discusses the types of changes you can make and provides the necessary steps.
 
    > [!NOTE]
-   > If you need to change subscription details for a subscriber assigned through an Azure Active Directory Group, you will need to remove them from the group and add them into the Administration Portal individually.  
+   > If you need to change certain subscription details for a subscriber assigned through an Azure Active Directory Group, you will need to remove them from the group and add them into the Administration Portal individually.  Changes to their email address, spelling of their name, etc should be made in the Azure AD group.  If you need to change subscription levels or download permissions, however, they will need to be removed from the group and added directly into the admin portal. 
 
 ## Change subscriber information
 You can edit a subscriber’s information to correct errors or update information.
@@ -51,15 +51,15 @@ Watch this video or read on to learn how to edit multiple subscribers using bulk
 5. Once you’ve uploaded the file, you will see a notification letting you know it was successful. At this point, your edits will be reflected in the subscriber information.
 
 ## Resources
-- [Subscriptions Support](https://aka.ms/vsadminhelp)
+[Subscriptions Support](https://aka.ms/vsadminhelp)
 
 ## See also
-- [Visual Studio documentation](/visualstudio/)
-- [Azure DevOps documentation](/azure/devops/)
-- [Azure documentation](/azure/)
-- [Microsoft 365 documentation](/microsoft-365/)
++ [Visual Studio documentation](/visualstudio/)
++ [Azure DevOps documentation](/azure/devops/)
++ [Azure documentation](/azure/)
++ [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-- Need to assign a specific subscription ID? Check out Assigning a subscription ID. 
-- For help finding a particular subscription, check out [Search for a subscription](search-license.md).
-- Need to create a list of all your subscriptions?  Check out [Export subscriptions](exporting-subscriptions.md).
++ Need to assign a specific subscription ID? Check out Assigning a subscription ID. 
++ For help finding a particular subscription, check out [Search for a subscription](search-license.md).
++ Need to create a list of all your subscriptions?  Check out [Export subscriptions](exporting-subscriptions.md).

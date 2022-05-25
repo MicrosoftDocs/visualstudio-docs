@@ -20,6 +20,8 @@ monikerRange: vs-2017
 ---
 # PromptForSaveOnCreation element (Visual Studio templates)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Specifies whether the user is prompted for a project save location via the **New Project** dialog box when creating a project. If this element is set to `true`, then the user is prompted for a save location. If `false`, then they are not prompted (that is, a temporary project is created).
 
 ```xml

@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Collect additional performance data
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In addition to the data that you collect by using a profiling method, Visual Studio Profiling Tools enable you to record and view additional data.
 
 ## Common tasks

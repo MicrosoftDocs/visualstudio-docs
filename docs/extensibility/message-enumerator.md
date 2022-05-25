@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Message enumerator
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following flags are used for the `TEXTOUTPROC` function, which is a callback function that the IDE provides when it calls the [SccOpenProject](../extensibility/sccopenproject-function.md) (see [LPTEXTOUTPROC](../extensibility/lptextoutproc.md) for details on the callback function).
 
  If the IDE is asked to cancel the process, it may get one of the cancel messages. In this case, the source control plug-in uses `SCC_MSG_STARTCANCEL` to ask the IDE to display the **Cancel** button. After this, any set of normal messages may be sent. If any of these returns `SCC_MSG_RTN_CANCEL`, then the plug-in quits the operation and returns. The plug-in also polls `SCC_MSG_DOCANCEL` periodically to determine if the user has canceled the operation. When all operations are done, or if the user has canceled, the plug-in sends `SCC_MSG_STOPCANCEL`. The `SCC_MSG_INFO`, SCC_MSG_WARNING, and SCC_MSG_ERROR types are used for messages that get displayed in the scrolling list of messages. `SCC_MSG_STATUS` is a special type that indicates that the text should show up in a status bar or temporary display area. It does not remain permanently in the list.

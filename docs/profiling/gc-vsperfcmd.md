@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # GC (VSPerfCmd)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **GC** option enables the collection of .NET Framework memory allocation and object lifetime data. The **GC** option can only be used with the sampling profiling method and only with the **Launch** option.
 
  When you are using the **GC** option, the VSPerfClrEnv **/sampleon** command is not required.

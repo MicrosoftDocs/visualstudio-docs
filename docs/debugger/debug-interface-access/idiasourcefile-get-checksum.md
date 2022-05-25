@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSourceFile::get_checksum
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the checksum bytes.
 
 ## Syntax

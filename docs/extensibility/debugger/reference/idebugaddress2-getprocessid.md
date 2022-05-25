@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugAddress2::GetProcessID
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the ID of the process that owns the object represented by this [IDebugAddress2](../../../extensibility/debugger/reference/idebugaddress2.md) interface.
 
 ## Syntax

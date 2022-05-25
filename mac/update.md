@@ -4,14 +4,15 @@ description: "Learn how to update Visual Studio for Mac and to access preview re
 author: jmatthiesen
 ms.author: jomatthi
 manager: dominicn
-ms.date: 04/11/2022
+ms.date: 04/24/2022
 ms.custom: devdivchpfy22
 ms.technology: vs-ide-install
 ms.topic: how-to
 ms.assetid: DB8DC9FE-FF21-4061-8A96-3F9FC08A4F8F
 ---
-
 # Update Visual Studio for Mac
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 Visual Studio for Mac distributes updates for the IDE and supported frameworks regularly. These updates can be in the form of new features, improvements, and bug fixes.
 
@@ -19,13 +20,6 @@ Visual Studio for Mac provides two channels to get these latest versions:
 
 * **Stable** - Provides thoroughly tested updates. This channel is recommended for the best development experience.
 * **Preview** - Provides early access to updates that are candidates for release in the Stable Channel. These releases may not be reliable for everyday use.
-
-::: moniker range="vsmac-2022"
-
-> [!NOTE]
-> Only the **Preview** channel is available for [Visual Studio 2022 for Mac Preview](https://visualstudio.microsoft.com/vs/mac/preview/) until the GA (General Availability) release.
-
-::: moniker-end
 
 ## Checking for updates
 
@@ -61,9 +55,9 @@ This displays the **Visual Studio Update** box:
 
 ## Changing the update channel
 
-::: moniker range="vsmac-2019"
-
 To change the channel, select it from the **Update channel:** drop-down and select **Switch Channel**:
+
+::: moniker range="vsmac-2019"
 
 :::image type="content" source="media/update-image3.png" alt-text="Screenshot showing how to switch the update channel.":::
 
@@ -71,8 +65,7 @@ To change the channel, select it from the **Update channel:** drop-down and sele
 
 ::: moniker range="vsmac-2022"
 
-> [!NOTE]
-> Only the **Preview** channel is available for [Visual Studio 2022 for Mac Preview](https://visualstudio.microsoft.com/vs/mac/preview/) until the GA (General Availability) release.
+:::image type="content" source="media/vsmac-2022/visual-studio-update-channel.png" alt-text="Screenshot showing how to switch the update channel.":::
 
 ::: moniker-end
 

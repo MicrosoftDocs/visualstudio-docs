@@ -20,6 +20,8 @@ ms.workload:
 ---
 # Print command
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Evaluates an expression or displays specified text.
 
 ## Syntax

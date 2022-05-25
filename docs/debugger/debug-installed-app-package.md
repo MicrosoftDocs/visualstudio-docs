@@ -25,6 +25,8 @@ ms.workload:
 ---
 # Debug an installed UWP app package in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio can debug installed Universal Windows Platform (UWP) app packages on Windows 10 and newer computers and Xbox, HoloLens, and IoT devices.
 
 >[!NOTE]

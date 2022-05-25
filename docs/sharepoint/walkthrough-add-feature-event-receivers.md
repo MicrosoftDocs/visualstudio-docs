@@ -21,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Add feature event receivers
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Feature event receivers are methods that execute when one of the following feature-related events occurs in SharePoint:
 
 - A feature is installed.

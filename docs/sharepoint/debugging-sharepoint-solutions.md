@@ -20,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # Debug SharePoint solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can debug SharePoint solutions by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger. When you start debugging, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] deploys the project files to the SharePoint server and then opens an instance of the SharePoint site in the Web browser. The following sections explain how to debug SharePoint applications in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
 - [Enable debugging](#enable-debugging)

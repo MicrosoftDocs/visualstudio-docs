@@ -26,6 +26,8 @@ manager: jmartens
 ---
 # Upgrade from Dotfuscator Community 5
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Learn how to upgrade to PreEmptive Protection - Dotfuscator Community 6.
 
 Depending on your installation history and version of Visual Studio, you may be currently running Dotfuscator Community 5, the prior major version. If so, you should upgrade, because it is important to ensure your code is being given the [latest protection measures][always-improving]. Upgrades are available at no charge.
