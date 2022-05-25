@@ -28,9 +28,9 @@ Learn more about the changes in the [release notes](/visualstudio/releasenotes/v
 ::: moniker range="vsmac-2022"
 
  > [!div class="button"]
- > [Download Visual Studio for Mac Preview](https://visualstudio.microsoft.com/vs/mac/preview/)
+ > [Download Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/)
 
-Learn more about the changes in the [release notes](/visualstudio/releases/2022/mac-release-notes-preview).
+Learn more about the changes in the [release notes](/visualstudio/releases/2022/mac-release-notes).
 
 ::: moniker-end
 
@@ -104,8 +104,8 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
 ::: moniker range="vsmac-2022"
 
-1. Download the installer from the [Visual Studio for Mac Preview download page](https://visualstudio.microsoft.com/vs/mac/preview/).
-1. Once the download is complete, click the **visualstudioformacpreviewinstaller-<preview_build_number>.dmg** to mount the installer, then run it by double-clicking the arrow logo:
+1. Download the installer from the [Visual Studio for Mac download page](https://visualstudio.microsoft.com/vs/mac/).
+1. Once the download is complete, click the **VisualStudioForMacInstaller_<build_number>.dmg** to mount the installer, then run it by double-clicking the arrow logo:
 
     [![Click the large arrow to begin installation](media/vsmac-2022/install-installer-sml.png)](media/vsmac-2022/install-installer.png#lightbox)
 

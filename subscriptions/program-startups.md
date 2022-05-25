@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 71af88da-b9fa-4d12-999c-7d461f3df0ec
-ms.date: 05/13/2022
+ms.date: 05/24/2022
 ms.topic: conceptual
 description:  Details on subscriptions offered through the Microsoft for Startups program.
 ---
@@ -17,7 +17,7 @@ Qualified startups who join the Microsoft for Startups program can earn five Vis
 
 These subscriptions are the same as the subscriptions offered through the Azure Marketplace, with no special limitations or restrictions. Each subscription must be assigned to an end user before the user can run Visual Studio and be recognized as a Visual Studio Enterprise subscriber in Azure DevOps Services.
 
-> [!Note]
+> [!NOTE]
 > With all Visual Studio cloud subscriptions, the licensed user must sign in to Visual Studio using the same identity/login that was used to activate the Visual Studio subscription.
 
 Product keys aren't offered to unlock the product; sign-in is the only option for running Visual Studio. The Visual Studio subscriber can operate offline for up to 30 days before Visual Studio stops working. When users are working online, Visual Studio silently refreshes the user's license status periodically to ensure the subscription is still valid.
@@ -38,12 +38,12 @@ For assistance with sales, subscriptions, accounts and billing for Visual Studio
 
 ## See also
 
-- [Visual Studio documentation](/visualstudio/)
-- [Azure DevOps documentation](/azure/devops/)
-- [Azure documentation](/azure/)
-- [Microsoft 365 documentation](/microsoft-365/)
++ [Visual Studio documentation](/visualstudio/)
++ [Azure DevOps documentation](/azure/devops/)
++ [Azure documentation](/azure/)
++ [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 
-- [Learn more about Microsoft for Startups](https://startups.microsoft.com)
-- [Microsoft for Startups blog](https://startups.microsoft.com/Blog?search=Microsoft%20for%20Startups)
++ [Learn more about Microsoft for Startups](https://startups.microsoft.com)
++ [Microsoft for Startups blog](https://startups.microsoft.com/Blog?search=Microsoft%20for%20Startups)
