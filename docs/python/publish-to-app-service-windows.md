@@ -60,7 +60,6 @@ If desired, you can also install the `bottle` package using the process in those
 ## Publish to App Service
 
 Publishing to Azure App Service from Visual Studio 2017 and later copies only the files in your project to the server. It's necessary, therefore, to create the necessary files to configure the server environment.
-
 ::: moniker range="<=vs-2019>"
 
 1. In Visual Studio **Solution Explorer**, right-click the project and select **Add > New Item...**. In the dialog that appears, selecting the "Azure web.config (Fast CGI)" template and select OK. This creates a `web.config` file in your project root.
@@ -159,7 +158,6 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
 :::image type="content" source="media/azure-publish-results.png" alt-text="Screenshot of Results of publishing Bottle, Flask, and Django apps to App Service.":::
 
 ::: moniker-end
-
 ::: moniker range=">=vs-2022>"
 
 1. In Visual Studio **Solution Explorer**, right-click the project and select **Add > New Item...**. In the dialog that appears, selecting the "Azure web.config (Fast CGI)" template and select OK. This creates a `web.config` file in your project root.
@@ -221,10 +219,10 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
 1. In **Solution Explorer**, expand the folder named the same as your project, right-click the `static` folder, select **Add > New Item...**, select the "Azure static files web.config" template, and select **OK**. This action creates another `web.config` in the `static` folder that disables Python processing for that folder. This configuration sends requests for static files to the default web server rather than using the Python application.
 
 1. Save your project, then in Visual Studio **Solution Explorer**, right-click the project and select **Publish**.
-    :::image type="content" source="media/template-web-publish-command.png" alt-text="Screenshot showing Publish command on a project's context menu.":::
+:::image type="content" source="media/template-web-publish-command.png" alt-text="Screenshot showing Publish command on a project's context menu.":::
 
 1. In the **Publish** tab that appears, select the publishing target. Publish starts a configuration dialog, select **Azure** as Publish Target, then select **Next** followed by Specific Target configuration as **Azure App Services**. A dialog appears in which you can select the appropriate subscription and app service. Select **Publish** to start the Web publishing activity.
-    :::image type="content" source="media/vs-2022/tutorials-common-publish-2022.png" alt-text="Screenshot of Publish to Azure, Visual Studio 2022.":::
+:::image type="content" source="media/vs-2022/tutorials-common-publish-2022.png" alt-text="Screenshot of Publish to Azure, Visual Studio 2022.":::
 
 1. Visual Studio displays publishing status in a "Web Publish Activity" window and the Publish window. Once publishing is complete, the default browser opens on the site URL. The URL is also shown in the Publish window.
 
@@ -255,7 +253,7 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
     > If you make any changes to your app's `requirements.txt` file, be sure to again use the Kudu console to install any packages that are now listed in that file.
 
 1. Once you've fully configured the server environment, refresh the page in the browser and the web app should appear.
-    :::image type="content" source="media/azure-publish-results.png" alt-text="Screenshot of Results of publishing Bottle, Flask, and Django apps to App Service.":::
+:::image type="content" source="media/azure-publish-results.png" alt-text="Screenshot of Results of publishing Bottle, Flask, and Django apps to App Service.":::
 
 ::: moniker-end
 
