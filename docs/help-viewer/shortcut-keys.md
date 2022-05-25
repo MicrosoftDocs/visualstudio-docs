@@ -113,4 +113,4 @@ You can navigate in the **Microsoft Help Viewer** by using the shortcut keys in 
 
 ## See also
 
-- [Customize the Help Viewer](customize.md)
+- [Accessibility features of the Help Viewer](accessibility-features.md)
