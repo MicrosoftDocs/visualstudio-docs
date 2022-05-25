@@ -156,7 +156,6 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
 
 1. Once you've fully configured the server environment, refresh the page in the browser and the web app should appear.
 :::image type="content" source="media/azure-publish-results.png" alt-text="Screenshot of Results of publishing Bottle, Flask, and Django apps to App Service.":::
-
 ::: moniker-end
 ::: moniker range=">=vs-2022>"
 
@@ -254,7 +253,6 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
 
 1. Once you've fully configured the server environment, refresh the page in the browser and the web app should appear.
 :::image type="content" source="media/azure-publish-results.png" alt-text="Screenshot of Results of publishing Bottle, Flask, and Django apps to App Service.":::
-
 ::: moniker-end
 
 As part of this process, Visual Studio also does the following steps:
