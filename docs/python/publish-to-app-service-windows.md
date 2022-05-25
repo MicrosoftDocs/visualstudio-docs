@@ -60,6 +60,7 @@ If desired, you can also install the `bottle` package using the process in those
 ## Publish to App Service
 
 Publishing to Azure App Service from Visual Studio 2017 and later copies only the files in your project to the server. It's necessary, therefore, to create the necessary files to configure the server environment.
+
 ::: moniker range="<=vs-2019>"
 
 1. In Visual Studio **Solution Explorer**, right-click the project and select **Add > New Item...**. In the dialog that appears, selecting the "Azure web.config (Fast CGI)" template and select OK. This creates a `web.config` file in your project root.
@@ -112,10 +113,10 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
     ALLOWED_HOSTS = ['vspython-test-02.azurewebsites.net']
     ```
 
-> [!Note]
+    > [!Note]
     >Failure to add your URL to the array results in the error "DisallowedHost at / Invalid HTTP_HOST header: '\<site URL\>'. You may need to add '\<site URL\>' to ALLOWED_HOSTS."
 
-> [!Note]
+    > [!Note]
     > When the array is empty, Django automatically allows 'localhost', but adding your production URL removes that capabilities. For this reason you might want to maintain separate development and production copies of `settings.py`, or use environment variables to control the run time values.
 
 1. In **Solution Explorer**, expand the folder named the same as your project, right-click the `static` folder, select **Add > New Item...**, select the "Azure static files web.config" template, and select **OK**. This action creates another `web.config` in the `static` folder that disables Python processing for that folder. This configuration sends requests for static files to the default web server rather than using the Python application.
