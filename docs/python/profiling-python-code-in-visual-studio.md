@@ -25,12 +25,12 @@ Profiling is started through the **Debug** > **Launch Python Profiling** menu co
 
 When you select **OK**, the profiler runs and opens a performance report through which you can explore how time is spent in the application:
 
-  ::: moniker range="<=vs-2019>"
+::: moniker range="<=vs-2019>"
   :::image type="content" source="media/profiling-results.png" alt-text="Screenshot of Profiling performance report.":::
 
-  ::: moniker-end
+::: moniker-end
 
-  ::: moniker range=">=vs-2022>"
+::: moniker range=">=vs-2022>"
   :::image type="content" source="media/profiling-results-vs22.png" alt-text="Screenshot of Profiling performance report.":::
 
 ::: moniker-end
