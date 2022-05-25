@@ -37,13 +37,11 @@ Visual Studio provides several commands for automatically transforming and clean
 1. Select **Apply** to make the changes to your source code files. (This action can be undone.)
 
 ::: moniker-end
-
 ::: moniker range=">=vs-2022>"
 
 1. Right-click the identifier you wish to rename and select **Rename**, or place the caret in that identifier and select the **Edit** > **Refactor** > **Rename** menu command (**F2**), or select the identifier and press **Ctrl+R**.
 1. In the **Rename** dialog that appears, enter the new name for the identifier and press **Enter**:
 :::image type="content" source="media/vs-2022/code-refactor-rename-1.png" alt-text="Screenshot of Rename prompt for new identifer name.":::
-
 ::: moniker-end
 
 ## Extract method
@@ -57,9 +55,7 @@ Visual Studio provides several commands for automatically transforming and clean
 
 1. Select **OK** and the code is modified.
 :::image type="content" source="media/code-refactor-extract-method-2.png" alt-text="Screenshot showing effect of extracting a method.":::
-
 ::: moniker-end
-
 ::: moniker range=">=vs-2022>"
 
 1. Select the lines of code or the expression to extract into a separate method.
@@ -69,23 +65,18 @@ Visual Studio provides several commands for automatically transforming and clean
 
 1. Select **OK** and the code is modified.
 :::image type="content" source="media/vs-2022/code-refactor-extract-method-2.png" alt-text="Screenshot of Effects of extracting a method.":::
-
 ::: moniker-end
 
 ## Add import
 
 When you place the caret on an identifier that lacks type information, Visual Studio provides a smart tag (the light bulb icon to the left of the code) whose commands add the necessary `import` or `from ... import` statement:
-
 ::: moniker range="<=vs-2019>"
 
 :::image type="content" source="media/code-refactor-add-import-1.png" alt-text="Screenshot of Add import smart tag.":::
-
 ::: moniker-end
-
 ::: moniker range=">=vs-2022>"
 
 :::image type="content" source="media/vs-2022/code-refactor-add-import-1.png" alt-text="Screenshot of Add import smart tag.":::
-
 ::: moniker-end
 
 Visual Studio offers `import` completions for top-level packages and modules in the current project and the standard library. Visual Studio also offers `from ... import` completions for submodules and subpackages as well as module members. Completions include functions, classes, or exported data. Selecting either option adds the statement to at the top of the file after other imports, or into an existing `from ... import` statement if the same module is already imported.
@@ -103,17 +94,12 @@ Finally, if something would normally be excluded but has other values that would
 When writing code, it's easy to end up with `import` statements for modules that aren't being used at all. Because Visual Studio analyzes your code, it can automatically determine whether an `import` statement is needed by looking at whether the imported name is used within the scope, after the statement occurs.
 
 ::: moniker range="<=vs-2019>"
-
 Use right-click anywhere in the editor and select **Remove Imports**, which gives you options to remove from **All Scopes** or just the **Current Scope**:
 :::image type="content" source="media/code-refactor-remove-imports-1.png" alt-text="Screenshot of Remove imports menu.":::
-
 ::: moniker-end
-
 ::: moniker range=">=vs-2022>"
-
 When you place the caret on the import that lacks usage, Visual Studio provides a smart tag (the light bulb icon to the left of the code) whose commands remove the necessary `Remove unused import` statement:
 :::image type="content" source="media/vs-2022/code-refactor-remove-imports-1.png" alt-text="Screenshot of Remove imports menu.":::
-
 ::: moniker-end
 
 Visual Studio then makes the appropriate changes to the code:
