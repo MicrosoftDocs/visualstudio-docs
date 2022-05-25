@@ -29,10 +29,10 @@ Visual Studio provides several commands for automatically transforming and clean
 
 1. Right-click the identifier you wish to rename and select **Rename**, or place the caret in that identifier and select the **Edit** > **Refactor** > **Rename** menu command (**F2**).
 1. In the **Rename** dialog that appears, enter the new name for the identifier and select **OK**:
-   :::image type="content" source="media/code-refactor-rename-1.png" alt-text="Screenshot of Rename prompt for new identifer name.":::
+:::image type="content" source="media/code-refactor-rename-1.png" alt-text="Screenshot of Rename prompt for new identifer name.":::
 
 1. In the next dialog, select the files and instances in your code to which to apply the renaming; select any individual instance to preview the specific change:
-   :::image type="content" source="media/code-refactor-rename-2.png" alt-text="Screenshot of Rename dialog to select where to apply the changes.":::
+:::image type="content" source="media/code-refactor-rename-2.png" alt-text="Screenshot of Rename dialog to select where to apply the changes.":::
 
 1. Select **Apply** to make the changes to your source code files. (This action can be undone.)
 
@@ -42,7 +42,7 @@ Visual Studio provides several commands for automatically transforming and clean
 
 1. Right-click the identifier you wish to rename and select **Rename**, or place the caret in that identifier and select the **Edit** > **Refactor** > **Rename** menu command (**F2**), or select the identifier and press **Ctrl+R**.
 1. In the **Rename** dialog that appears, enter the new name for the identifier and press **Enter**:
-    :::image type="content" source="media/vs-2022/code-refactor-rename-1.png" alt-text="Screenshot of Rename prompt for new identifer name.":::
+:::image type="content" source="media/vs-2022/code-refactor-rename-1.png" alt-text="Screenshot of Rename prompt for new identifer name.":::
 
 ::: moniker-end
 
@@ -53,10 +53,10 @@ Visual Studio provides several commands for automatically transforming and clean
 1. Select the lines of code or the expression to extract into a separate method.
 1. Select the **Edit** > **Refactor** > **Extract method** menu command or type **Ctrl**+**R** > **M**.
 1. In the dialog that appears, enter a new method name, indicate where to extract it to, and select any closure variables. Variables not selected for closure are turned into method arguments:
-    :::image type="content" source="media/code-refactor-extract-method-1.png" alt-text="Screenshot of Extract method dialog.":::
+:::image type="content" source="media/code-refactor-extract-method-1.png" alt-text="Screenshot of Extract method dialog.":::
 
 1. Select **OK** and the code is modified.
-    :::image type="content" source="media/code-refactor-extract-method-2.png" alt-text="Screenshot showing effect of extracting a method.":::
+:::image type="content" source="media/code-refactor-extract-method-2.png" alt-text="Screenshot showing effect of extracting a method.":::
 
 ::: moniker-end
 
@@ -65,10 +65,10 @@ Visual Studio provides several commands for automatically transforming and clean
 1. Select the lines of code or the expression to extract into a separate method.
 1. When you place the caret on code sample, Visual Studio provides a smart tag (the wrench icon to the left of the code).
 1. In the dialog that appears, select **Extract** for closure to be turned into method arguments:
-    :::image type="content" source="media/vs-2022/code-refactor-extract-method-1.png" alt-text="Screenshot of Extract method dialog.":::
+:::image type="content" source="media/vs-2022/code-refactor-extract-method-1.png" alt-text="Screenshot of Extract method dialog.":::
 
 1. Select **OK** and the code is modified.
-    :::image type="content" source="media/vs-2022/code-refactor-extract-method-2.png" alt-text="Screenshot of Effects of extracting a method.":::
+:::image type="content" source="media/vs-2022/code-refactor-extract-method-2.png" alt-text="Screenshot of Effects of extracting a method.":::
 
 ::: moniker-end
 
@@ -105,19 +105,19 @@ When writing code, it's easy to end up with `import` statements for modules that
 ::: moniker range="<=vs-2019>"
 
 Use right-click anywhere in the editor and select **Remove Imports**, which gives you options to remove from **All Scopes** or just the **Current Scope**:
-    :::image type="content" source="media/code-refactor-remove-imports-1.png" alt-text="Screenshot of Remove imports menu.":::
+:::image type="content" source="media/code-refactor-remove-imports-1.png" alt-text="Screenshot of Remove imports menu.":::
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022>"
 
 When you place the caret on the import that lacks usage, Visual Studio provides a smart tag (the light bulb icon to the left of the code) whose commands remove the necessary `Remove unused import` statement:
-    :::image type="content" source="media/vs-2022/code-refactor-remove-imports-1.png" alt-text="Screenshot of Remove imports menu.":::
+:::image type="content" source="media/vs-2022/code-refactor-remove-imports-1.png" alt-text="Screenshot of Remove imports menu.":::
 
 ::: moniker-end
 
 Visual Studio then makes the appropriate changes to the code:
-    :::image type="content" source="media/code-refactor-remove-imports-2.png" alt-text="Screenshot showing effects of removing imports.":::
+:::image type="content" source="media/code-refactor-remove-imports-2.png" alt-text="Screenshot showing effects of removing imports.":::
 
 > [!Note]
 > Visual Studio doesn't account for control flow. Using a name before an `import` statement is treated as if the name was in fact used. Visual Studio also ignores all `from __future__` imports, imports that are performed inside of a class definition, as well from `from ... import *` statements.
