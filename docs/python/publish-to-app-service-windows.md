@@ -61,7 +61,7 @@ If desired, you can also install the `bottle` package using the process in those
 
 Publishing to Azure App Service from Visual Studio 2017 and later copies only the files in your project to the server. It's necessary, therefore, to create the necessary files to configure the server environment.
 
-::: moniker range="<=vs-2019>"
+::: moniker range="<=vs-2019"
 
 1. In Visual Studio **Solution Explorer**, right-click the project and select **Add > New Item...**. In the dialog that appears, selecting the "Azure web.config (Fast CGI)" template and select OK. This creates a `web.config` file in your project root.
 
@@ -158,7 +158,7 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
 1. Once you've fully configured the server environment, refresh the page in the browser and the web app should appear.
 :::image type="content" source="media/azure-publish-results.png" alt-text="Screenshot of Results of publishing Bottle, Flask, and Django apps to App Service.":::
 ::: moniker-end
-::: moniker range=">=vs-2022>"
+::: moniker range=">=vs-2022"
 
 1. In Visual Studio **Solution Explorer**, right-click the project and select **Add > New Item...**. In the dialog that appears, selecting the "Azure web.config (Fast CGI)" template and select OK. This creates a `web.config` file in your project root.
 
