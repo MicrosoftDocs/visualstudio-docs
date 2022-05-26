@@ -81,9 +81,82 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 ::: moniker range="vs-2019"
    ![Screenshot of creating the Web API project.](./media/tutorial-multicontainer/vs-2019/create-webapi-project.png)
 ::: moniker-end
-::: moniker range=">=vs-2022"
+
+:::moniker range=">=vs-2022"
+1. Add a project to the same solution and call it *WebAPI*. Select **API** as the project type, and clear the checkbox for **Configure for HTTPS**. In this design, we're only using SSL for communication with the client, not for communication from between containers in the same web application. Only `WebFrontEnd` needs HTTPS and the code in the examples assumes that you have cleared that checkbox. In general, the .NET developer certificates used by Visual Studio are only supported for external-to-container requests, not for container-to-container requests.
+
    ![Screenshot of creating the Web API project.](media/tutorial-multicontainer/vs-2022/create-web-api-project.png)
-::: moniker-end
+
+1. Add support for Redis Cache. Add the NuGet package `Microsoft.Extensions.Caching.StackExchange.Redis` (not `StackExchange.Redis`). In *Program.cs*, add the following lines, just before `var app = builder.Build()`:
+
+   ```csharp
+   builder.Services.AddStackExchangeRedisCache(options =>
+      {
+         options.Configuration = "redis:6379"; // redis is the container name of the redis service. 6379 is the default port
+         options.InstanceName = "SampleInstance";
+      });
+   ```
+
+1. Add using directives in *Program.cs* for `Microsoft.Extensions.Caching.Distributed` and `Microsoft.Extensions.Caching.StackExchangeRedis`.
+
+   ```csharp
+   using Microsoft.Extensions.Caching.Distributed;
+   using Microsoft.Extensions.Caching.StackExchangeRedis;
+   ```
+
+1. In the Web API project, delete the existing *WeatherForecast.cs* and *Controllers/WeatherForecastController.cs*, and add a file under Controllers, *CounterController.cs*, with the following contents:
+
+   ```csharp
+   using Microsoft.AspNetCore.Mvc;
+   using Microsoft.Extensions.Caching.Distributed;
+   using StackExchange.Redis;
+
+   namespace WebApi.Controllers
+   {
+       [ApiController]
+       [Route("[controller]")]
+       public class CounterController : ControllerBase
+       {
+           private readonly ILogger<CounterController> _logger;
+           private readonly IDistributedCache _cache;
+
+           public CounterController(ILogger<CounterController> logger, IDistributedCache cache)
+           {
+               _logger = logger;
+               _cache = cache;
+           }
+
+           [HttpGet(Name = "GetCounter")]
+           public string Get()
+           {
+               string key = "Counter";
+               string? result = null;
+               try
+               {
+                   var counterStr = _cache.GetString(key);
+                   if (int.TryParse(counterStr, out int counter))
+                   {
+                       counter++;
+                   }
+                   else
+                   {
+                       counter = 0;
+                   }
+                   result = counter.ToString();
+                   _cache.SetString(key, result);
+               }
+               catch(RedisConnectionException)
+               {
+                   result = $"Redis cache is not found.";
+               }
+               return result;
+           }
+       }
+   }
+   ```
+
+   The service increments a counter every time the page is accessed and stores the counter in the Redis cache.
+:::moniker-end
 
 ## Add code to call the Web API
 
@@ -370,97 +443,8 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 Congratulations, you're running a Docker Compose application with a custom Docker Compose profile.
 
 ::: moniker-end
-::: moniker range=">=vs-2022"
-## Create a Web Application project
 
-In Visual Studio, create an **ASP.NET Core Web App** project, named `WebFrontEnd`, to create a web application with Razor pages.
-
-> [!NOTE]
-> In Visual Studio 2022 17.2 and later, you can use Azure Functions for this project instead.
-
-![Screenshot showing Create ASP.NET Core Web App project.](./media/tutorial-multicontainer/vs-2022/create-web-project.png)
-
-Do not select **Enable Docker Support**. You'll add Docker support later.
-
-![Screenshot of the Additional information screen when creating a web project. The option to Enable Docker Support is not selected.](./media/tutorial-multicontainer/vs-2022/create-web-project-additional-information.png)
-
-## Create a Web API project
-
-1. Add a project to the same solution and call it *WebAPI*. Select **API** as the project type, and clear the checkbox for **Configure for HTTPS**. In this design, we're only using SSL for communication with the client, not for communication from between containers in the same web application. Only `WebFrontEnd` needs HTTPS and the code in the examples assumes that you have cleared that checkbox. In general, the .NET developer certificates used by Visual Studio are only supported for external-to-container requests, not for container-to-container requests.
-
-   ![Screenshot of creating the Web API project.](media/tutorial-multicontainer/vs-2022/create-web-api-project.png)
-
-1. Add support for Redis Cache. Add the NuGet package `Microsoft.Extensions.Caching.StackExchange.Redis` (not `StackExchange.Redis`). In *Program.cs*, add the following lines, just before `var app = builder.Build()`:
-
-   ```csharp
-   builder.Services.AddStackExchangeRedisCache(options =>
-      {
-         options.Configuration = "redis:6379"; // redis is the container name of the redis service. 6379 is the default port
-         options.InstanceName = "SampleInstance";
-      });
-   ```
-
-1. Add using directives in *Program.cs* for `Microsoft.Extensions.Caching.Distributed` and `Microsoft.Extensions.Caching.StackExchangeRedis`.
-
-   ```csharp
-   using Microsoft.Extensions.Caching.Distributed;
-   using Microsoft.Extensions.Caching.StackExchangeRedis;
-   ```
-
-1. In the Web API project, delete the existing *WeatherForecast.cs* and *Controllers/WeatherForecastController.cs*, and add a file under Controllers, *CounterController.cs*, with the following contents:
-
-   ```csharp
-   using Microsoft.AspNetCore.Mvc;
-   using Microsoft.Extensions.Caching.Distributed;
-   using StackExchange.Redis;
-
-   namespace WebApi.Controllers
-   {
-       [ApiController]
-       [Route("[controller]")]
-       public class CounterController : ControllerBase
-       {
-           private readonly ILogger<CounterController> _logger;
-           private readonly IDistributedCache _cache;
-
-           public CounterController(ILogger<CounterController> logger, IDistributedCache cache)
-           {
-               _logger = logger;
-               _cache = cache;
-           }
-
-           [HttpGet(Name = "GetCounter")]
-           public string Get()
-           {
-               string key = "Counter";
-               string? result = null;
-               try
-               {
-                   var counterStr = _cache.GetString(key);
-                   if (int.TryParse(counterStr, out int counter))
-                   {
-                       counter++;
-                   }
-                   else
-                   {
-                       counter = 0;
-                   }
-                   result = counter.ToString();
-                   _cache.SetString(key, result);
-               }
-               catch(RedisConnectionException)
-               {
-                   result = $"Redis cache is not found.";
-               }
-               return result;
-           }
-       }
-   }
-   ```
-
-   The service increments a counter every time the page is accessed and stores the counter in the Redis cache.
-
-## Add code to call the Web API
+:::moniker range=">=vs-2022"
 
 1. In the `WebFrontEnd` project, open the *Index.cshtml.cs* file, and replace the `OnGet` method with the following code.
 
