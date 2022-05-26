@@ -52,6 +52,9 @@ The following commands can be found on the **Edit** > **Outlining** submenu.
 |Collapse Block:\<logical boundary>|(C++) Collapses a region in the function containing the insertion point. For example, if the insertion point lies inside a loop, the loop is hidden.|
 |Collapse All in: \<logical structures>|(C++) Collapses all the structures inside the function.|
 
+> [!TIP]
+> For more information on how to use the keyboard exclusively, see [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md)
+
 You can also use the Visual Studio SDK to define the text regions you want to expand or collapse. See [Walkthrough: Outlining](../extensibility/walkthrough-outlining.md).
 
 ## See also
