@@ -1,6 +1,6 @@
 ---
 title: Collapse and expand regions of code
-description: Learn how you can use the expand and collapse commands to work in outline mode in Visual Studio
+description: Learn how you can use the expand and collapse commands to work in outline mode in Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 05/26/2022
 ms.topic: conceptual
@@ -51,9 +51,6 @@ The following commands can be found on the **Edit** > **Outlining** submenu.
 |Collapse to Definitions|(**Ctrl**+**M**, **Ctrl**+**O**) - Collapses the members of all types.|
 |Collapse Block:\<logical boundary>|(C++) Collapses a region in the function containing the insertion point. For example, if the insertion point lies inside a loop, the loop is hidden.|
 |Collapse All in: \<logical structures>|(C++) Collapses all the structures inside the function.|
-
-> [!TIP]
-> For more information on how to use the keyboard exclusively, see [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md)
 
 You can also use the Visual Studio SDK to define the text regions you want to expand or collapse. See [Walkthrough: Outlining](../extensibility/walkthrough-outlining.md).
 
