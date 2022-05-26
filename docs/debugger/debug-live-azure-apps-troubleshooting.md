@@ -200,7 +200,7 @@ To clear out the list, follow these steps:
 
 1.	Run these commands in Developer Command Prompt for VS (with admin privileges)
    vsregedit remove local HKCU SnapshotDebugger AzureResourcesMRU
-vsregedit remove local HKCU SnapshotDebugger StorageAccountsMRU
+   vsregedit remove local HKCU SnapshotDebugger StorageAccountsMRU
 ```
 2.	Delete any .suo files associated with the web app
 
