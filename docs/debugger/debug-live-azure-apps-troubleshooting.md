@@ -191,6 +191,22 @@ To fix this, delete the following App settings in the Azure portal and attach th
 - SNAPSHOTDEBUGGER_EXTENSION_VERSION
 ::: moniker-end
 
+## Issue: I am attaching to the wrong/old Azure resource or storage account
+
+Take these steps:
+
+The "Azure resource" and "Storage account" entries use resource names as keys so actions such as migrating a resource to different subscriptions can cause problems.
+To clear out the list, follow these steps:
+
+1. Run these commands in Developer Command Prompt for VS (with admin privileges)
+
+   ```
+   vsregedit remove local HKCU SnapshotDebugger AzureResourcesMRU
+   vsregedit remove local HKCU SnapshotDebugger StorageAccountsMRU
+   ```
+
+3. Delete any .suo files associated with the web app
+
 ## Issue: I am having problems Snapshot Debugging and I need to enable more logging
 
 ### Enable Agent Logs
