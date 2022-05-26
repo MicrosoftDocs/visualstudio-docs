@@ -1,6 +1,6 @@
 ---
 title: Accessibility of Help Viewer
-description: Review accessibility features in the Microsoft Help Viewer. Examples include keyboard access, font size, window size, and Help Viewer position.
+description: Review accessibility features of Microsoft Help Viewer. Examples include keyboard access, font size, window size, and Help Viewer position.
 ms.date: 05/26/2022
 ms.topic: conceptual
 helpviewer_keywords:
@@ -53,7 +53,7 @@ To use the **Viewer Options** dialog to make the text larger or smaller, follow 
    If you use a keyboard:
 
    - Use the **Tab** key to shift the focus in the **Viewer Options** dialog.
-   - Use the Up arrow key and the Down arrow key to select a font size.
+   - Use the **Up arrow key** and the **Down arrow key** to select a font size.
 
    :::image type="content" source="./media/accessibility-features/viewer-options-set-text-size.png" alt-text="Screenshot of the Viewer Options dialog. The Text Size label is called out. In the Text Size list, Largest is selected.":::
 
@@ -83,6 +83,8 @@ You can change the size of the Help Viewer window. If you have access to a mouse
   1. Use the arrow keys to resize the Help Viewer window.
   1. Select **Enter**.
 
+  :::image type="content" source="./media/accessibility-features/resize-help-viewer.png" alt-text="Screenshot of Help Viewer. The pointer, which contains an up arrow and a down arrow, is visible on the top edge of the window and is called out.":::
+
 ### Resize the navigation and document windows
 
 With a mouse:
@@ -101,6 +103,8 @@ You can reposition the Help Viewer window.
   1. Select **Alt**+**Space**+**M**.
   1. Use the arrow keys to move the Help Viewer window to a different position.
   1. Select **Enter**.
+
+  :::image type="content" source="./media/accessibility-features/move-help-viewer.png" alt-text="Screenshot of Help Viewer and an on-screen keyboard. The Alt and M keys and the Spacebar are called out.":::
 
 ## See also
 
