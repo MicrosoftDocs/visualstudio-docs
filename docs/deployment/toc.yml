@@ -216,7 +216,7 @@
         href: debugging-clickonce-applications-that-use-system-deployment-application.md
   - name: Visual Studio Installer projects
     items:
-    - name: Visual Studio Installer Projects Extension and .NET Core 3.1
+    - name: Visual Studio Installer Projects Extension and .NET 6.0
       href: installer-projects-net-core.md
   - name: Custom bootstrapper
     items:
