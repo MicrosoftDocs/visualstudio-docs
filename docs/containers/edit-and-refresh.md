@@ -148,7 +148,11 @@ Often, changes require further inspection. You can use the debugging features of
 
 ## Create a .NET Framework console app
 
-When you use .NET Framework console app projects, the option to add Docker support without orchestration isn't supported. You can still use the following procedure, even if you're using only a single Docker project.
+This section presents how to debug .NET Framework console app project in a local Docker container by first presenting how to add Docker support to the project. It is important to recognize that different project types have different levels of Docker support. There are even different levels of Docker support for .NET Core console app projects versus .NET Framework console app projects. 
+
+When a .NET Framework console app project is created, there is no option to enable Docker support. After creating such a project, there is no way to explicitly add Docker support to the project. For a .NET Framework console app project, it is possible to add support for container orchestration. A side effect of adding orchestration support to the .NET Framework console app project is that it adds Docker support to the project, 
+
+The following procedure demonstrates how to add orchestration support to a .NET Framework console app project which subsequently adds Docker support to the project and allows the project to be debugged in a local Docker container.
 
 1. Create a new .NET Framework Console app project.
 1. In Solution Explorer, right-click the project node, and then select **Add** > **Container Orchestration Support**.  In the dialog box that appears, select **Docker Compose**. A Dockerfile is added to your project and a Docker Compose project with associated support files is added.
