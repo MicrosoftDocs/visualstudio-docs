@@ -217,6 +217,8 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
                 //app.UseHttpsRedirection();
     ```
 
+## Add Docker Compose support
+
 1. In the `WebFrontEnd` project, choose **Add > Container Orchestrator Support**. The **Docker Support Options** dialog appears.
 
 1. Choose **Docker Compose**.
@@ -270,19 +272,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
           dockerfile: MyWebAPI/Dockerfile
     ```
 
-1. To run the site normally (not with Docker Compose), you have to use a different URL for the request to the Web API service, since Docker Compose sets up the host names in its own network, so that `mywebapi` is visible to other services as a hostname. To run outside of Docker Compose, first replace `mywebapi` in the `OnGet` method in *Index.cshtml.cs* with a localhost and port syntax. You can get the port number either from launching the webapi project on its own or from the **App URL** setting in the **Debug** section of **Project Properties** (**Alt**+**Enter**).
-
-   ```csharp
-   request.RequestUri = new Uri("http://localhost:{port}/WeatherForecast");
-   ```
-
-1. Run the site normally (not with Docker Compose) now to verify that it works as expected. Right-click on the Web API project, and choose **Set as startup project**, and then choose **Debug** > **Start without debugging**. Then, right-click the WebFrontEnd project node and choose **Set as startup project**, and press **F5** to start debugging.
-
-   If everything is configured correctly with the .NET Core 2.x version, you see the message "Hello from webfrontend and webapi (with value 1)."  With .NET Core 3, you see weather forecast data.
-
-   Once you've verified it works outside of Docker Compose, change the URL in `OnGet` in *Index.cshtml.cs* back to reference mywebapi in preparation for running in Docker Compose. You might wish to use a configuration file to obtain the URL, if you want to use the same code for both Docker and non-container run and debug configurations.
-
-1. The first project that you use when you add container orchestration is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the docker-compose project.  On the docker-compose project node, right-click to open the context menu, and then choose **Properties**, or use Alt+Enter.  The following screenshot shows the properties you would want for the solution used here.  For example, you can change the page that is loaded by customizing the **Service URL** property.
+1. The first project that you use when you add container orchestration is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the docker-compose project.  On the docker-compose project node, right-click to open the context menu, and then choose **Properties**, or press **Alt**+**Enter**.  The following screenshot shows the properties you would want for the solution used here.  For example, you can change the page that is loaded by customizing the **Service URL** property.
 
    ![Screenshot of docker-compose project properties.](media/tutorial-multicontainer/launch-action.png)
 
@@ -314,12 +304,12 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
        }
     }
    ```
-   
+
     > [!NOTE]
     > In real-world code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
 
 1. In the *Index.cshtml* file, add a line to display `ViewData["Message"]` so that the file looks like the following code:
-    
+
       ```cshtml
       @page
       @model IndexModel
@@ -335,7 +325,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
       ```
 
 1. (ASP.NET 2.x only) Now in the Web API project, add code to the Values controller to customize the message returned by the API for the call you added from *webfrontend*.
-    
+
       ```csharp
         // GET api/values/5
         [HttpGet("{id}")]
@@ -345,11 +335,13 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
         }
       ```
 
-    With .NET Core 3.1 and later, you don't need this, because you can use the WeatherForecast API that is already there. However, you need to comment out the call to <xref:Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection*>  in the Web API project, because this code uses HTTP, not HTTPS, to call the Web API.
+   With .NET Core 3.1 and later, you don't need this, because you can use the WeatherForecast API that is already there. However, you need to comment out the call to <xref:Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection*>  in the Web API project, because this code uses HTTP, not HTTPS, to call the Web API.
 
     ```csharp
                 //app.UseHttpsRedirection();
     ```
+
+## Add Docker Compose support
 
 1. In the `WebFrontEnd` project, choose **Add > Container Orchestrator Support**. The **Docker Support Options** dialog appears.
 
@@ -403,18 +395,6 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
           context: .
           dockerfile: MyWebAPI/Dockerfile
     ```
-
-1. To run the site normally (outside of Docker Compose), you have to use a different URL for the request to the Web API service, since docker compose sets up the host names in its own network, so that `mywebapi` is visible to other services as a hostname. To run without Docker Compose, first replace `mywebapi` in the `OnGet` method in *Index.cshtml.cs* with a localhost and port syntax. You can get the port number either from launching the webapi project on its own or from the **App URL** setting in the **Debug** section of **Project Properties** (**Alt**+**Enter**).
-
-   ```csharp
-   request.RequestUri = new Uri("http://localhost:{port}/WeatherForecast");
-   ```
-
-1. Run the site outside of Docker Compose now to verify that it works as expected. Right-click on the Web API project, and choose **Set as startup project**, and then choose **Debug** > **Start without debugging**. Then, right-click the WebFrontEnd project node and choose **Set as startup project**, and press **F5** to start debugging.
-
-   If everything is configured correctly with the .NET Core 2.x version, you see the message "Hello from webfrontend and webapi (with value 1)."  With .NET Core 3, you see weather forecast data.
-
-   Once you've verified it works without Docker Compose, change the URL in `OnGet` in *Index.cshtml.cs* back to reference mywebapi in preparation for running in Docker Compose. You might wish to use a configuration file to obtain the URL, if you want to use the same code for both Docker and non-container run and debug configurations.
 
 1. The first project that you use when you add container orchestration is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the docker-compose project.  On the docker-compose project node, right-click to open the context menu, and then choose **Properties**, or use Alt+Enter.  The following screenshot shows the properties you would want for the solution used here.  For example, you can change the page that is loaded by customizing the **Service URL** property.
 
@@ -485,6 +465,8 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
       This code will display the value of the counter returned from the Web API project.
 
+## Add Docker Compose support
+
 1. In the `WebFrontEnd` project, choose **Add > Container Orchestrator Support**. The **Docker Support Options** dialog appears.
 
 1. Choose **Docker Compose**.
@@ -554,6 +536,8 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 1. Press **F5**. Here's what you see when launched:
 
    ![Screenshot of running web app.](media/tutorial-multicontainer/vs-2022/webfrontend-counter.png)
+
+## Set up launch profiles
 
 1. This solution has a Redis Cache, but it's not efficient to rebuild the Redis cache container every time you start a debugging session. To avoid that, you can set up a couple of launch profiles, one profile that just starts the Redis cache, and another to start the other services, which will use the Redis cache container that's already running. From the menu bar, you can use the dropdown next to the start button to bring up a menu of debug options; choose **Manage Docker Compose Launch Settings**.
 
