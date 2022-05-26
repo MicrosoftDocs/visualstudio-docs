@@ -12,17 +12,17 @@ description:  Learn how to work with connected Microsoft accounts and Azure Acti
 
 # How to use connected identities in Visual Studio subscriptions
 
-If you receive a Visual Studio subscription through your work or school, and you use your Microsoft account (MSA) to sign in, your subscriptions admin may connect your MSA to your identity in your organization's Azure Active Directory (Azure AD).  This will change how you access some of the benefits included in your subscription. 
+If you receive a Visual Studio subscription through your work or school, and you use your Microsoft account (MSA) to sign in, your subscriptions admin may connect your MSA to your identity in your organization's Azure Active Directory (Azure AD).  This connection will change how you access some of the benefits included in your subscription. 
 
 ## Overview of connected IDs
 
-Organizations are increasingly moving to Azure AD-based identities to provide improved security and support for automated management of subscriptions.  If your subscription uses an MSA such as an @outlook.com or other personal email address, your admin may change your sign-in email to your Azure AD identity.  That will change how you sign in to the subscriber portal at https://my.visualstudio.com but may not change how you access all of your benefits.  
+Organizations are increasingly moving to Azure AD-based identities to provide improved security and support for automated management of subscriptions.  If your subscription uses an MSA such as an @outlook.com or other personal email address, your admin may change your sign-in email to your Azure AD identity.  Switching to your Azure AD identity will change how you sign in to the subscriber portal at https://my.visualstudio.com.  It may not change how you access all of your benefits, however.  
 
 If your admin connects your MSA and Azure AD identities, you'll receive an email letting you know to start accessing your Visual Studio subscription with your Azure AD identity instead of your MSA. 
 
 ## How to access benefits using Azure AD identities
 
-After your admin has connected your MSA to your Azure AD identity, you'll need to sign in to the subscriber portal at https://my.visualstudio.com with your Azure AD identity to access benefits that rely on Azure AD.  These include:
+After your admin has connected your MSA to your Azure AD identity, sign in to the [subscriber portal](https://my.visualstudio.com) with your Azure AD identity to access benefits that rely on Azure AD.  These include:
 + Visual Studio IDE
 + Azure DevOps
 + Azure DevTest individual credit
@@ -33,7 +33,7 @@ For many of the benefits offered in Visual Studio subscriptions such as Pluralsi
 
 ## Use an alternate identity to access your subscription
 
-Adding an alternate account to your Visual Studio subscription allows you to access the subscription benefits, like Azure DevOps and Azure, with a different identity than the one to which the subscription is assigned. In the past, this functionality was available only if your Visual Studio (VS) subscription was assigned to a Microsoft Account (MSA). We have extended this functionality for work or school accounts in Azure AD.  For more information about using alternate accounts, check out our [Alternate identities](vs-alternate-identity.md) article. 
+Adding an alternate account to your Visual Studio subscription allows you to access the subscription benefits, like Azure DevOps and Azure, with a different identity than the one to which the subscription is assigned. In the past, this functionality was available only if your Visual Studio subscription was assigned to a Microsoft Account (MSA). We have extended this functionality for work or school accounts in Azure AD.  For more information about using alternate accounts, check out our [Alternate identities](vs-alternate-identity.md) article. 
 
 ## Frequently asked questions
 
