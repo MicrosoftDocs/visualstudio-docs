@@ -77,12 +77,15 @@ Do not select **Enable Docker Support**. You'll add Docker support later.
 
 ## Create a Web API project
 
+::: moniker range="vs-2017"
 Add a project to the same solution and call it *MyWebAPI*. Select **API** as the project type, and clear the checkbox for **Configure for HTTPS**. In this design, we're only using SSL for communication with the client, not for communication from between containers in the same web application. Only `WebFrontEnd` needs HTTPS and the code in the examples assumes that you have cleared that checkbox. In general, the .NET developer certificates used by Visual Studio are only supported for external-to-container requests, not for container-to-container requests.
 
-::: moniker range="vs-2017"
    ![Screenshot of creating the Web API project.](./media/tutorial-multicontainer/docker-tutorial-mywebapi.png)
 ::: moniker-end
 ::: moniker range="vs-2019"
+
+Add a project to the same solution and call it *MyWebAPI*. Select **API** as the project type, and clear the checkbox for **Configure for HTTPS**. In this design, we're only using SSL for communication with the client, not for communication from between containers in the same web application. Only `WebFrontEnd` needs HTTPS and the code in the examples assumes that you have cleared that checkbox. In general, the .NET developer certificates used by Visual Studio are only supported for external-to-container requests, not for container-to-container requests.
+
    ![Screenshot of creating the Web API project.](./media/tutorial-multicontainer/vs-2019/create-webapi-project.png)
 ::: moniker-end
 
