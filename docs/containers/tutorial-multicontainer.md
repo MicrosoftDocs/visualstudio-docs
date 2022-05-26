@@ -14,6 +14,10 @@ ms.topic: tutorial
 
 In this tutorial, you'll learn how to manage more than one container and communicate between them when using Container Tools in Visual Studio.  Managing multiple containers requires *container orchestration* and requires an orchestrator such as Docker Compose or Service Fabric. Here, we'll use Docker Compose. Docker Compose is great for local debugging and testing in the course of the development cycle.
 
+:::moniker range=">=vs-2022"
+The completed sample that you'll create in this tutorial may be found on GitHub at [https://github.com/MicrosoftDocs/vs-tutorial-samples](https://github.com/MicrosoftDocs/vs-tutorial-samples) in the folder *csharp/docker/ComposeSample*.
+:::moniker-end
+
 ## Prerequisites
 
 ::: moniker range="vs-2017"
