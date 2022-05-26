@@ -32,7 +32,7 @@ When you select **OK**, the profiler runs and opens a performance report through
 ::: moniker-end
 
 > [!Note]
-> When you profile a Python application Visual Studio collects data for the lifetime of the process. At present, it is not possible to pause profiling. We do want to hear your feedback on future capabilities. Use the **Product feedback** button at the bottom of this page.
+> When you profile a Python application, Visual Studio collects data for the lifetime of the process. We do want to hear your feedback on future capabilities. Use the **Product feedback** button at the bottom of this page.
 
 ## Profiling for IronPython
 

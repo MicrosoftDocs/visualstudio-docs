@@ -122,7 +122,8 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
 1. In **Solution Explorer**, expand the folder named the same as your project, right-click the `static` folder, select **Add > New Item...**, select the "Azure static files web.config" template, and select **OK**. This action creates another `web.config` in the `static` folder that disables Python processing for that folder. This configuration sends requests for static files to the default web server rather than using the Python application.
 
 1. Save your project, then in Visual Studio **Solution Explorer**, right-click the project and select **Publish**.
-:::image type="content" source="media/template-web-publish-command.png" alt-text="Screenshot showing Publish command on a project's context menu.":::
+
+    :::image type="content" source="media/template-web-publish-command.png" alt-text="Screenshot showing Publish command on a project's context menu.":::
 
 1. In the **Publish** tab that appears, select the publishing target. Your own Azure subscription: select **Microsoft Azure App Service**, then **Select Existing** followed by **Publish**. A dialog appears in which you can select the appropriate subscription and app service. If the App Service doesn't appear, use the downloaded publishing profile as described next for a temporary App Service.
 :::image type="content" source="media/tutorials-common-publish-1a-2017.png" alt-text="Screenshot of Publish to Azure step 1, Visual Studio 2017 and later, existing subscriptions.":::

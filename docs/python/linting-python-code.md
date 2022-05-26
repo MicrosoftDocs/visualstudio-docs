@@ -38,7 +38,7 @@ Double-clicking an error takes you directly to the source code that generated th
 
 The [command-line options](https://pylint.readthedocs.io/en/latest/user_guide/run.html#command-line-options) section of the PyLint documentation describes how to control PyLint's behavior through a `.pylintrc` configuration file. Such a file can be placed in the root of a Python project in Visual Studio or elsewhere depending on how widely you want those settings applied (see the [command-line options](https://pylint.readthedocs.io/en/latest/user_guide/run.html#command-line-options) for details).
 
-For example, to suppress the "missing docstring" warnings shown in the previous image with a *.pylintrc* file in a project, do the steps:
+For example, to suppress the "missing docstring" warnings shown in the previous image with a `.pylintrc`rc file in a project, do the steps:
 
 1. On the command line, navigate to your project root (which has your `.pyproj` file) and run the following command to generate a commented configuration file:
 
