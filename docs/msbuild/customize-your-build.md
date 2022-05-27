@@ -209,6 +209,8 @@ For example, you could define a new target to write a custom log message after b
 
 The solution build is separate from the project builds, so settings here do not affect project builds.
 
+When you have many solution files that you want to extend in the same way, but you don't want to write to the `$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\` folder (which usually requires elevated permissions), you can create the files *Directory.Solution.props* and *Directory.Solution.targets* and place them in the root path above the solution files you want to extend. *Directory.Solution.props* is imported at the beginning of the solution build, and *Directory.Solution.targets* is imported at the end of the solution build.
+
 ## Customize all .NET builds
 
 When maintaining a build server, you might need to configure MSBuild settings globally for all builds on the server.  In principle, you could modify the global *Microsoft.Common.Targets* or *Microsoft.Common.Props* files, but there is a better way. You can affect all builds of a certain project type (such as all C# projects) by using certain MSBuild properties and adding certain custom `.targets` and `.props` files.
