@@ -12,7 +12,7 @@ description:  Learn how to add an alternate identity for your Visual Studio subs
 
 When you activate your Visual Studio subscription, we link the identity (or login) that you used during activation with the Visual Studio subscription. This way, we can recognize you on the [Visual Studio subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), in Azure DevOps, and in Azure.
 
-In Azure DevOps, we check your Visual Studio subscription status each time you log in, and grant you features automatically within each organization in which you're a member.
+In Azure DevOps, we check your Visual Studio subscription status each time you log in.  We grant you features automatically within each organization in which you're a member.
 Because these features are included as a subscriber benefit, it's free to add you as a member in any Azure DevOps organization when using an identity that is linked to your Visual Studio subscription.
 
 In Azure, we check your Visual Studio subscription status when you activate your [monthly Azure DevTest individual credit](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/)
