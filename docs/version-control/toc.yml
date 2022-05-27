@@ -1,10 +1,10 @@
 - name: Visual Studio version control docs
   href: index.yml
 - name: Overview
-  expanded: true
   items:
   - name: Git experience in Visual Studio
     href: git-with-visual-studio.md
+  expanded: true
 - name: Get started
   items:
   - name: Clone a repo

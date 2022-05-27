@@ -9,6 +9,7 @@ ms.author: tglee
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
+ms.custom: version-control
 ---
 # Create a GitHub account to use with Visual Studio
 
