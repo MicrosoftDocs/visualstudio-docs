@@ -37,8 +37,6 @@ The completed sample that you'll create in this tutorial may be found on GitHub 
 
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 * [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/) with the **Web Development**, **Azure Tools** workload, and/or **.NET cross-platform development** workload installed. This includes .NET Core 3.1 and .NET 6 development tools.
-* [.NET 5 Development Tools](https://dotnet.microsoft.com/download/dotnet-core/5.0) for development with .NET 5.
-* [.NET 6 Development Tools](https://dotnet.microsoft.com/download/dotnet/6.0) for development with .NET 6.
 ::: moniker-end
 
 ## Create a Web Application project
@@ -94,7 +92,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 
    ![Screenshot of creating the Web API project.](media/tutorial-multicontainer/vs-2022/create-web-api-project.png)
 
-1. Add support for Redis Cache. Add the NuGet package `Microsoft.Extensions.Caching.StackExchange.Redis` (not `StackExchange.Redis`). In *Program.cs*, add the following lines, just before `var app = builder.Build()`:
+1. Add support for Redis Cache. Add the NuGet package `Microsoft.Extensions.Caching.StackExchangeRedis` (not `StackExchange.Redis`). In *Program.cs*, add the following lines, just before `var app = builder.Build()`:
 
    ```csharp
    builder.Services.AddStackExchangeRedisCache(options =>
