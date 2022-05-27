@@ -82,4 +82,4 @@ The Azure community is freely available.  No subscription is required.
 
 ## Next steps
 
-Did you know that many Visual Studio subscriptions come with Azure DevTest individual credit?  Learn how to [activate](/azure/devtest/offer/) yours.
+Did you know that many Visual Studio subscriptions come with Azure DevTest individual credits?  Learn how to [activate](/azure/devtest/offer/) yours.
