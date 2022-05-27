@@ -168,6 +168,8 @@
     ".openpublishing.redirection.json",
     ".openpublishing.redirection.mac.json",
     ".openpublishing.redirection.subscriptions.json",
+    ".openpublishing.redirection.vs2017.json",
+    ".openpublishing.redirection.vs2015.json",
     "docs/containers/.openpublishing.redirection.containers.json"
   ]
 }

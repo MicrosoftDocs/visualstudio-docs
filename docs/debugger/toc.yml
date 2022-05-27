@@ -2,7 +2,7 @@
   href: index.yml
 - name: Overview
   items:
-  - name: "What is debugging?"
+  - name: What is debugging?
     href: what-is-debugging.md
   - name: First look at the debugger
     href: debugger-feature-tour.md
@@ -51,7 +51,7 @@
     - name: Inspect data in debugger windows
       href: debugger-windows.md
     - name: Inspect exceptions
-      href: exception-helper.md 
+      href: exception-helper.md
     - name: Inspect variables
       href: autos-and-locals-windows.md
     - name: Watch variables
@@ -222,7 +222,7 @@
           href: how-to-debug-from-a-dll-project.md
         - name: Debug in mixed mode
           href: how-to-debug-in-mixed-mode.md
-      - name: "Debugging preparation: Console projects"
+      - name: 'Debugging preparation: Console projects'
         href: debugging-preparation-console-projects.md
       - name: Debug an executable not part of a Visual Studio solution
         href: how-to-debug-an-executable-not-part-of-a-visual-studio-solution.md
@@ -238,7 +238,7 @@
         items:
         - name: Create custom views of C++ objects
           href: create-custom-views-of-native-objects.md
-        - name: "C++ custom visualizer compatibility"
+        - name: C++ custom visualizer compatibility
           href: visual-cpp-custom-visualizer-compatibility.md
       - name: Custom views (managed)
         items:
@@ -254,9 +254,9 @@
           href: create-custom-visualizers-of-data.md
         - name: Visualizer architecture
           href: visualizer-architecture.md
-        - name: "Walkthrough: Write a visualizer in C#"
+        - name: 'Walkthrough: Write a visualizer in C#'
           href: walkthrough-writing-a-visualizer-in-csharp.md
-        - name: "Walkthrough: Write a visualizer in Visual Basic"
+        - name: 'Walkthrough: Write a visualizer in Visual Basic'
           href: walkthrough-writing-a-visualizer-in-visual-basic.md
         - name: Install a visualizer
           href: how-to-install-a-visualizer.md
@@ -271,7 +271,7 @@
   - name: Source code
     items:
     - name: Decompile .NET assemblies
-      href: decompilation.md    
+      href: decompilation.md
   - name: Remote debugging
     items:
     - name: Remote debugging
@@ -463,17 +463,6 @@
       - name: Debug XAML in Blend
         href: ../xaml-tools/debug-xaml-in-blend.md?toc=/visualstudio/debugger/toc.json
       - name: HTML and CSS
-        items:
-        - name: Debug HTML and CSS
-          href: quickstart-debug-html-and-css.md
-        - name: Refresh an app (JavaScript)
-          href: refresh-an-app-javascript.md
-        - name: Debug a WebView control
-          href: debug-a-webview-control.md
-        - name: Debug HTML and CSS sample code
-          href: debug-html-css-and-javascript-sample-code.md
-      - name: Debug JavaScript using the console
-        href: quickstart-debug-javascript-using-the-console.md
       - name: How to trigger suspend, resume, and background events
         href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
     - name: Managed code (C#, Visual Basic, F#)
@@ -482,13 +471,13 @@
         href: debugging-managed-code.md
       - name: Debugging preparation
         items:
-        - name: "Debugging preparation: C#, F#, and Visual Basic project types"
+        - name: 'Debugging preparation: C#, F#, and Visual Basic project types'
           href: debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md
-        - name: "Managed debugging: Recommended property settings"
+        - name: 'Managed debugging: Recommended property settings'
           href: managed-debugging-recommended-property-settings.md
-        - name: "Debugging preparation: Windows Forms applications"
+        - name: 'Debugging preparation: Windows Forms applications'
           href: debugging-preparation-windows-forms-applications.md
-        - name: "Debugging preparation: Windows services"
+        - name: 'Debugging preparation: Windows services'
           href: debugging-preparation-windows-services.md
       - name: Send messages to the Output window
         href: diagnostic-messages-in-the-output-window.md
@@ -496,7 +485,7 @@
         href: assertions-in-managed-code.md
       - name: Stop statements in Visual Basic
         href: stop-statements-in-visual-basic.md
-      - name: "Walkthrough: Debugging a Windows Form"
+      - name: 'Walkthrough: Debugging a Windows Form'
         href: walkthrough-debugging-a-windows-form.md
       - name: Debug the OnStart method
         href: how-to-debug-the-onstart-method.md
@@ -528,7 +517,7 @@
       items:
       - name: Debug native code
         href: debugging-native-code.md
-      - name: "Debugging preparation: C++ project types"
+      - name: 'Debugging preparation: C++ project types'
         href: debugging-preparation-visual-cpp-project-types.md
       - name: Debug optimized code
         href: how-to-debug-optimized-code.md
@@ -618,7 +607,7 @@
       items:
       - name: Debug ASP.NET applications
         href: how-to-enable-debugging-for-aspnet-applications.md
-      - name: "ASP.NET debugging: system requirements"
+      - name: 'ASP.NET debugging: system requirements'
         href: aspnet-debugging-system-requirements.md
       - name: Run the worker process under a user account
         href: how-to-run-the-worker-process-under-a-user-account.md
@@ -626,17 +615,17 @@
         href: how-to-find-the-name-of-the-aspnet-process.md
       - name: Debug deployed Web applications
         href: debugging-deployed-web-applications.md
-      - name: "Walkthrough: Debugging a Web Form"
+      - name: 'Walkthrough: Debugging a Web Form'
         href: walkthrough-debugging-a-web-form.md
       - name: Debug ASP.NET exceptions
         href: how-to-debug-aspnet-exceptions.md
-      - name: "Web apps: Errors and troubleshooting"
+      - name: 'Web apps: Errors and troubleshooting'
         items:
-        - name: "Debug Web applications: Errors and troubleshooting"
+        - name: 'Debug Web applications: Errors and troubleshooting'
           href: debugging-web-applications-errors-and-troubleshooting.md
-        - name: "Web apps: Troubleshooting"
+        - name: 'Web apps: Troubleshooting'
           items:
-          - name: "Debug Web applications: Troubleshooting"
+          - name: 'Debug Web applications: Troubleshooting'
             href: debugging-web-applications-troubleshooting.md
           - name: Verify IIS property settings
             href: how-to-verify-iis-property-settings.md
@@ -668,11 +657,7 @@
       items:
       - name: Debug Web applications
         href: debugging-web-applications.md
-      - name: JavaScript Console commands
-        href: javascript-console-commands.md
-      - name: Keyboard shortcuts (HTML and JavaScript)
-        href: keyboard-shortcuts-html-and-javascript.md
-      - name: "Warning: Script debugging disabled"
+      - name: 'Warning: Script debugging disabled'
         href: warning-script-debugging-disabled.md
     - name: WCF services
       items:
@@ -778,9 +763,9 @@
         href: error-user-could-not-execute-stored-procedure-sp-enable-sql-debug.md
       - name: Windows file sharing has been configured...
         href: error-windows-file-sharing-has-been-configured-dot-dot-dot.md
-      - name: "Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process"
+      - name: 'Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process'
         href: security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md
-      - name: "Security Warning: Debugger must execute untrusted command"
+      - name: 'Security Warning: Debugger must execute untrusted command'
         href: security-warning-debugger-must-execute-untrusted-command.md
       - name: Source server security alert
         href: source-server-security-alert.md
