@@ -2,7 +2,7 @@
 title: Customizing Code Coverage Analysis
 description: Learn how to use the ExcludeFromCodeCoverageAttribute attribute to exclude test code from coverage results. You can include assemblies outside your solution.
 ms.custom: SEO-VS-2020
-ms.date: 08/21/2019
+ms.date: 05/27/2022
 ms.topic: conceptual
 ms.author: mikejo
 manager: jmartens
@@ -122,7 +122,7 @@ You can also specify different formats from the command-line by either specifyin
 
 ::: moniker range=">=vs-2022"
 ### Static and dynamic native instrumentation
-In Visual Studio 2022 version 17.2 we added option to instrument native binary statically - on disk. In previous versions we were supporting only dynamic instrumentation which was not able to instrument methods often. Static native instrumentation is more stable and it is recommended. Static native instrumentation requires enabling [/PROFILE](https://docs.microsoft.com/en-us/cpp/build/reference/profile-performance-tools-profiler?view=msvc-170) link option for all native projects you need code coverage collection. 
+In Visual Studio 2022 version 17.2 we added option to instrument native binary statically - on disk. In previous versions we were supporting only dynamic instrumentation which was not able to instrument methods often. Static native instrumentation is more stable and it is recommended. Static native instrumentation requires enabling [/PROFILE](https://docs.microsoft.com/cpp/build/reference/profile-performance-tools-profiler?view=msvc-170) link option for all native projects you need code coverage collection. 
 
 You can enable native static instrumentation by enabling preview feature "Code Coverage native static instrumentation" in  **Tools > Options > Environment > Preview Features**.
 
