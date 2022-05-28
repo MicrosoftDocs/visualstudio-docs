@@ -552,7 +552,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
    ![Screenshot of Manage Docker Compose Launch Settings dialog box.](media/tutorial-multicontainer/vs-2022/launch-profile.png)
 
-   Choose **New** to create a new profile, and name it `Start Redis`. Then, set the Redis container to **Start without debugging**, leave the other set to not start, and choose **Save**.
+   Choose **New** to create a new profile, and name it `Start Redis`. Then, set the Redis container to **Start without debugging**, leave the other set to **Do not start**, and choose **Save**.
 
    ![Screenshot showing creating the Redis profile that starts the Redis service only.](media/tutorial-multicontainer/vs-2022/launch-profile-start-redis-only.png)
 
