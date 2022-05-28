@@ -277,7 +277,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
           dockerfile: MyWebAPI/Dockerfile
     ```
 
-1. The first project that you use when you add container orchestration is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the docker-compose project.  On the docker-compose project node, right-click to open the context menu, and then choose **Properties**, or press **Alt**+**Enter**.  The following screenshot shows the properties you would want for the solution used here.  For example, you can change the page that is loaded by customizing the **Service URL** property.
+1. The first project that you add container orchestration support to is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the docker-compose project.  On the docker-compose project node, right-click to open the context menu, and then choose **Properties**, or press **Alt**+**Enter**.  The following screenshot shows the properties you would want for the solution used here.  For example, you can change the page that is loaded by customizing the **Service URL** property.
 
    ![Screenshot of docker-compose project properties.](media/tutorial-multicontainer/launch-action.png)
 
@@ -401,7 +401,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
           dockerfile: MyWebAPI/Dockerfile
     ```
 
-1. The first project that you use when you add container orchestration is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the docker-compose project.  On the docker-compose project node, right-click to open the context menu, and then choose **Properties**, or use Alt+Enter.  The following screenshot shows the properties you would want for the solution used here.  For example, you can change the page that is loaded by customizing the **Service URL** property.
+1. The first project that you add container orchestration to is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the docker-compose project.  On the docker-compose project node, right-click to open the context menu, and then choose **Properties**, or use Alt+Enter.  The following screenshot shows the properties you would want for the solution used here.  For example, you can change the page that is loaded by customizing the **Service URL** property.
 
    ![Screenshot of docker-compose project properties.](media/tutorial-multicontainer/launch-action.png)
 
@@ -534,7 +534,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
    Make sure the indentation is at the same level as the other two services.
 
-1. The first project that you use when you add container orchestration is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the docker-compose project.  On the docker-compose project node, right-click to open the context menu, and then choose **Properties**, or use **Alt**+**Enter**. For example, you can change the page that is loaded by customizing the **Service URL** property.
+1. The first project that you add container orchestration to is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the docker-compose project.  On the docker-compose project node, right-click to open the context menu, and then choose **Properties**, or use **Alt**+**Enter**. For example, you can change the page that is loaded by customizing the **Service URL** property.
 
    ![Screenshot of docker-compose project properties.](media/tutorial-multicontainer/launch-action.png)
 
@@ -562,7 +562,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
    (Optional) Create a third profile `Start All` to start everything. You can choose **Start without debugging** for Redis.
 
-1. Choose **Start Redis** from the dropdown list on the main Visual Studio toolbar, press **F5**. The Redis container builds and starts. You can use the **Containers** window to see that it's running. Next, choose **Start My Services** from the dropdown list and press **F5** to launch them.
+1. Choose **Start Redis** from the dropdown list on the main Visual Studio toolbar, press **F5**. The Redis container builds and starts. You can use the **Containers** window to see that it's running. Next, choose **Start My Services** from the dropdown list and press **F5** to launch them. Now you can keep the Redis cache container running throughout many subsequent debug sessions. Every time you use **Start My Services**, those services will use the same Redis cache container.
 
 Congratulations, you're running a Docker Compose application with a custom Docker Compose profile.
 
