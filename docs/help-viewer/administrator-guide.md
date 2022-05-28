@@ -76,7 +76,7 @@ Requirements:
 - Users must have administrator rights to update, add, or remove the local Help content after it has been installed.
 
     > [!TIP]
-    > If users do not have administrator rights, it is recommended that you disable the **Manage Content** tab in the Help Viewer. For more information, see [Help Content Manager overrides](../help-viewer/behavior-overrides.md).
+    > If users do not have administrator rights, it is recommended that you disable the **Manage Content** tab in the Help Viewer. For more information, see [Override Help Viewer defaults](../help-viewer/behavior-overrides.md).
 
 Caveats:
 
@@ -143,6 +143,6 @@ Next, you need to package the content so it can be deployed to client computers.
 ## See also
 
 - [Command-line arguments for the Help Content Manager](../help-viewer/command-line-arguments.md)
-- [Help Content Manager overrides](../help-viewer/behavior-overrides.md)
+- [Override Help Viewer defaults](../help-viewer/behavior-overrides.md)
 - [Microsoft Help Viewer](../help-viewer/overview.md)
 - [Help Viewer SDK](../extensibility/internals/microsoft-help-viewer-sdk.md)

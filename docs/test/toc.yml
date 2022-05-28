@@ -22,7 +22,7 @@
     items:
     - name: Overview
       href: intellitest-manual/index.md
-    - name: "How to: Generate unit tests with IntelliTest"
+    - name: 'How to: Generate unit tests with IntelliTest'
       href: generate-unit-tests-for-your-code-with-intellitest.md
     - name: Test generation
       href: intellitest-manual/test-generation.md
@@ -58,9 +58,9 @@
     href: test-execution-with-hot-reload.md
   - name: Write unit tests for managed code
     items:
-    - name: "Walkthrough: Create and run unit tests for managed code"
+    - name: 'Walkthrough: Create and run unit tests for managed code'
       href: walkthrough-creating-and-running-unit-tests-for-managed-code.md
-    - name: "Walkthrough: Test-driven development"
+    - name: 'Walkthrough: Test-driven development'
       href: quick-start-test-driven-development-with-test-explorer.md
     - name: Use the MSTest framework in unit tests
       href: using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md
@@ -101,7 +101,7 @@
       href: how-to-use-ctest-for-cpp.md
     - name: Write unit tests for C/C++ DLLs
       href: how-to-write-unit-tests-for-cpp-dlls.md
-    - name: "Walkthrough: Writing Unit tests for C++ DLLs"
+    - name: 'Walkthrough: Writing Unit tests for C++ DLLs'
       href: walkthrough-writing-unit-tests-for-cpp-dlls.md
     - name: Microsoft Unit Testing Framework for C++ API Reference
       href: microsoft-visualstudio-testtools-cppunittestframework-api-reference.md
@@ -109,7 +109,7 @@
     items:
     - name: Unit test a C++ UWP DLL
       href: unit-testing-a-visual-cpp-dll-for-store-apps.md
-    - name: "Create & run unit tests for UWP apps"
+    - name: Create & run unit tests for UWP apps
       href: walkthrough-creating-and-running-unit-tests-for-windows-store-apps.md
   - name: Code coverage
     items:
@@ -138,7 +138,7 @@
     href: live-unit-testing-faq.yml
 - name: Web performance and load testing
   items:
-  - name: "Quickstart: Create a load test project"
+  - name: 'Quickstart: Create a load test project'
     href: quickstart-create-a-load-test-project.md
   - name: Load test configuration
     items:
@@ -219,7 +219,7 @@
           href: how-to-select-the-active-run-setting-for-a-load-test.md
         - name: Command line
           href: how-to-select-a-load-test-run-setting-from-the-command-line.md
-  - name: "Walkthrough: Create and run a load test"
+  - name: 'Walkthrough: Create and run a load test'
     href: walkthrough-create-and-run-a-load-test.md
   - name: Web performance tests
     items:
@@ -359,7 +359,7 @@
   - name: Overview
     displayName: Coded UI test
     href: use-ui-automation-to-test-your-code.md
-  - name: "Walkthrough: Create, Edit and Maintain a Coded UI Test"
+  - name: 'Walkthrough: Create, Edit and Maintain a Coded UI Test'
     href: walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md
   - name: Test UWP Apps with Coded UI Tests
     href: test-uwp-app-with-coded-ui-test.md
