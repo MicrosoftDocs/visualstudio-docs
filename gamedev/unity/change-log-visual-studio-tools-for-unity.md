@@ -77,8 +77,6 @@ Released February 15, 2022
 
   - Remember the last IP endpoint used when manually attaching.
 
-- **Integration:**
-
   - Added [`UNT0026`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0026.md), `GetComponent` always allocates, to use `TryGetComponent` instead.
 
   - Updated [`UNT0003`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0003.md), usage of non generic `GetComponent`, to work with `TryGetComponent` as well.
