@@ -16,6 +16,85 @@ ms.workload:
 
 Visual Studio Tools for Unity change log.
 
+## 17.2.4.0
+Released May 10, 2022
+
+### New Features
+
+- **Integration:**
+
+  - Updated [`UNT0015`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0015.md) and [`USP0012`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0012.md) to support `DidReloadScripts` attribute.
+
+  - Added [`USP0019`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0019.md), Don't flag private methods decorated with `PreserveAttribute` or `UsedImplicitlyAttribute` as unused.
+
+  - Added [`USP0018`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0018.md), Unity objects should not be used with throw expressions.
+
+## 17.2.3.0
+Released April 26, 2022
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed stability issues when reporting diagnostics.
+
+  - Fixed stability issues with message protocol.
+
+## 17.2.2.0
+Released April 12, 2022
+
+### New Features
+
+- **Debugging:**
+
+  - Bumped debugger protocol to 2.58.
+
+### Bug fixes
+
+- **Debugging:**
+
+  - Fixed stability issues when handling exceptions.
+
+## 17.2.1.0
+Released March 16, 2022
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed UPE when working with external packages. This requires a new generation process, fully preserving the folder structure and available with the VS Editor package `2.0.15`.
+
+## 17.2.0.0
+Released February 15, 2022
+
+### New Features
+
+- **Debugging:**
+
+  - Added support for debugging source generators.
+
+- **Integration:**
+
+  - Remember the last IP endpoint used when manually attaching.
+
+- **Integration:**
+
+  - Added [`UNT0026`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0026.md), `GetComponent` always allocates, to use `TryGetComponent` instead.
+
+  - Updated [`UNT0003`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0003.md), usage of non generic `GetComponent`, to work with `TryGetComponent` as well.
+
+  - Updated [`UNT0014`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0014.md), `GetComponent` called with non component/interface, to work with `TryGetComponent` as well.
+
+  - Updated [`USP0016`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0016.md), Initialization detection with nullable reference types, to work with non-Unity objects.
+
+  - Updated [`UNT0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0006.md), Incorrect message signature, when checking instance or static methods.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Remove Unity's `RuntimePlatform` from the machine name (player announce).
+
 ## 17.1.0.0
 Released January 19, 2022
 
