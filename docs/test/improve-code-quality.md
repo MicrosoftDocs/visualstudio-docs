@@ -79,6 +79,7 @@ Code coverage is an option when you run test methods using Test Explorer. The re
 * [Use code coverage to determine how much code is being tested](using-code-coverage-to-determine-how-much-code-is-being-tested.md)
 * [Unit testing, code coverage and code clone analysis with Visual Studio (Lab)](https://azuredevopslabs.com/labs/devopsserver/liveunittesting)
 * [Customize code coverage analysis](customizing-code-coverage-analysis.md)
+* [Microsoft.CodeCoverage.Console tool](microsoft-code-coverage-console-tool.md)
 
 ## Microsoft Fakes
 
