@@ -37,26 +37,28 @@ In this tutorial, you:
 
 - An ASP.NET (AMD64) web app running on .NET Framework 4.8 or later on an Azure VM.
 
-## Start the Snapshot Debugger with time travel debugging enabled
+## Attach the Snapshot Debugger
 
 1. Open the project for the app you want to snapshot debug.
 
    > [!IMPORTANT]
    > Make sure to open the same version of source code that's published to your Azure VM.
 
-1. Choose **Debug > Attach Snapshot Debugger...**. Select the Azure VM your web app is deployed to, and an Azure Storage account, and then select **Attach**.
+1. Choose **Debug > Attach Snapshot Debugger**. Select the Azure VM your web app is deployed to, and an Azure Storage account, and then select **Attach**.
 
    ![Screenshot that shows selecting an Azure resource.](../debugger/media/time-travel-debugging-select-azure-resource-new.png)
 
    > [!IMPORTANT]
    > The first time you select **Attach Snapshot Debugger**, IIS automatically restarts on your VM.
 
-1. Visual Studio is now in snapshot debugging mode. The metadata for the **Modules** isn't initially activated. Navigate to the web app to activate the **Start Collection** button in the Visual Studio toolbar.
+1. Visual Studio is now in snapshot debugging mode.
 
    ![Screenshot that shows snapshot debugging mode.](../debugger/media/snapshot-message.png)
 
-    > [!NOTE]
-    > The Application Insights site extension also supports Snapshot Debugging. If you get a **site extension out of date** error message, see [Site Extension Upgrade](../debugger/debug-live-azure-apps-troubleshooting.md#site-extension-upgrade) for upgrading details.
+   > [!NOTE]
+   > The Application Insights site extension also supports Snapshot Debugging. If you get a **site extension out of date** error message, see [Site Extension Upgrade](../debugger/debug-live-azure-apps-troubleshooting.md#site-extension-upgrade) for upgrading details.
+
+   The metadata for the **Modules** isn't initially activated. Navigate to the web app to activate the **Start Collection** button in the Visual Studio toolbar.
 
    The **Modules** window shows you when all the modules are loaded for the Azure VM. To open the **Modules** window, select **Debug** > **Windows** > **Modules**.
 
@@ -64,7 +66,7 @@ In this tutorial, you:
 
 ## Set a snappoint
 
-1. To set a snappoint, in the code editor, click the left gutter next to the method you're interested in. Make sure it's code that you know will execute.
+1. To set a snappoint, in the code editor, click the left gutter next to the method you're interested in. Make sure that the code executes.
 
    ![Screenshot that shows setting a snappoint in the code editor.](../debugger/media/time-travel-debugging-set-snappoint-settings.png)
 
@@ -78,7 +80,7 @@ In this tutorial, you:
 
 ## Take the snapshot
 
-When a snappoint is turned on, it captures a snapshot whenever the line of code it's placed on executes. The execution might be caused by a request on your server. To force your snappoint to hit, go to the browser view of your website and take the required actions to cause your snappoint to be hit.
+When a snappoint is turned on, it captures a snapshot whenever the line of code it's placed on executes. The execution might require a request on your server. To force your snappoint to hit, go to the browser view of your website and take the required actions.
 
 ## Start debugging a time travel recording
 
@@ -102,7 +104,7 @@ For more information and help, see [Troubleshooting and known issues](../debugge
 
 ## Set a conditional snappoint
 
-If it's difficult to recreate a particular state in your app, consider using a conditional snappoint. Conditional snappoints help you avoid collecting a time travel recording until the app enters a desired state, such as when a variable has a particular value. For more information about setting conditions based on expressions, filters, or hit counts, see [Breakpoint conditions](using-breakpoints.md#breakpoint-conditions).
+If it's difficult to recreate a particular state in your app, consider using a conditional snappoint. Conditional snappoints help you avoid collecting a recording until the app enters a desired state, such as when a variable has a particular value. For more information about setting conditions based on expressions, filters, or hit counts, see [Breakpoint conditions](using-breakpoints.md#breakpoint-conditions).
 
 ## Next steps
 
