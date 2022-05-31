@@ -2,7 +2,7 @@
 title: Time travel debugging for live ASP.NET apps on Azure VMs
 description: Learn how to use the Visual Studio Snapshot Debugger to record and replay live ASP.NET apps on Azure virtual machines.
 ms.custom: SEO-VS-2020, kr2b-contr-experiment
-ms.date: 05/31/2022
+ms.date: 06/01/2022
 ms.topic: how-to
 helpviewer_keywords: 
   - debugger
@@ -58,7 +58,7 @@ In this tutorial, you:
    > [!NOTE]
    > The Application Insights site extension also supports Snapshot Debugging. If you get a **site extension out of date** error message, see [Site Extension Upgrade](../debugger/debug-live-azure-apps-troubleshooting.md#site-extension-upgrade) for upgrading details.
 
-   The metadata for the modules isn't initially activated. Navigate to the web app to load the modules.
+1. The metadata for the modules isn't initially activated. Navigate to the web app to load the modules.
 
    The **Modules** window shows you when all the modules are loaded for the Azure VM. To open the **Modules** window, select **Debug** > **Windows** > **Modules**.
 
@@ -84,7 +84,7 @@ Select **Start Collection** in the toolbar to turn on the snappoint.
 
 When you turn on the snappoint, it captures a snapshot when the line of code it's placed on executes. The execution might require a request on your server. To force your snappoint to hit, go to the browser view of your website and take any required actions.
 
-By default, the snappoint captures only one snapshot. After capturing a snapshot, the snappoint turns off. If you want to capture another snapshot at the snappoint, you can turn the snappoint back on by selecting **Update Collection**.
+By default, the snappoint captures only one snapshot. After the snappoint captures a snapshot, it turns off. If you want to capture another snapshot at the snappoint, you can turn the snappoint back on by selecting **Update Collection**.
 
 ## Debug a time travel recording
 

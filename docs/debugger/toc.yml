@@ -424,7 +424,7 @@
       href: debug-live-azure-apps-faq.yml
     - name: Troubleshooting snapshot debugging
       href: debug-live-azure-apps-troubleshooting.md
-    - name: Time Travel Debugging live Azure virtual machine app
+    - name: Time travel debugging for live Azure VM apps
       href: debug-live-azure-virtual-machines-time-travel-debugging.md
   - name: Linux debugging
     items:
