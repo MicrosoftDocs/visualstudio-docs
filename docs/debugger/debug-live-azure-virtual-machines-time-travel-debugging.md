@@ -27,7 +27,7 @@ In this tutorial, you:
 > [!div class="checklist"]
 > * Start the Snapshot Debugger with time travel debugging enabled.
 > * Set a snappoint and collect a time travel recording.
-> * Start debugging a time travel recording.
+> * Debug a time travel recording.
 
 ## Prerequisites
 
@@ -104,7 +104,7 @@ By default, the snappoint captures only one snapshot. After the snappoint captur
 
 The website is still live, and end users aren't impacted by time travel debugging activity.
 
-For more information and help, see [Troubleshooting and known issues](../debugger/debug-live-azure-apps-troubleshooting.md).
+For more information and help, see [Troubleshooting and known issues for snapshot debugging in Visual Studio](../debugger/debug-live-azure-apps-troubleshooting.md).
 
 ## Set a conditional snappoint
 
@@ -112,7 +112,7 @@ If it's difficult to recreate a particular state in your app, consider using a c
 
 ## Next steps
 
-In this tutorial, you learned how to use the Snapshot Debugger to collect a time travel recording for Azure VMs. Learn more details about Snapshot Debugger:
+In this tutorial, you learned how to use the Snapshot Debugger to collect a time travel recording for Azure VMs. Learn more about snapshot debugging:
 
 > [!div class="nextstepaction"]
 > [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.yml)
