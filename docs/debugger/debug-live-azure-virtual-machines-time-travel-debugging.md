@@ -14,7 +14,7 @@ ms.workload:
   - aspnet
   - azure
 ---
-# Use the Snapshot Debugger to record and replay live ASP.NET apps on Azure VMs
+# Use time travel debugging to record and replay ASP.NET apps on Azure VMs
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -33,13 +33,13 @@ In this tutorial, you:
 
 - [Visual Studio Enterprise 2019 or higher](https://visualstudio.microsoft.com/vs) with the **Azure development workload** installed.
 
-  In the Visual Studio Installer, **Snapshot Debugger** is under **Debugging and testing** on the **Individual components** tab.
+  In the Visual Studio Installer, make sure **Snapshot Debugger** is selected under **Debugging and testing** on the **Individual components** tab.
 
 - An ASP.NET (AMD64) web app running on .NET Framework 4.8 or later on an Azure VM.
 
 ## Attach the Snapshot Debugger
 
-1. Open the project for the app you want to snapshot debug.
+1. Open the project for the app you want to debug.
 
    > [!IMPORTANT]
    > Make sure to open the same version of source code that's published to your Azure VM.
@@ -58,15 +58,17 @@ In this tutorial, you:
    > [!NOTE]
    > The Application Insights site extension also supports Snapshot Debugging. If you get a **site extension out of date** error message, see [Site Extension Upgrade](../debugger/debug-live-azure-apps-troubleshooting.md#site-extension-upgrade) for upgrading details.
 
-   The metadata for the **Modules** isn't initially activated. Navigate to the web app to activate the **Start Collection** button in the Visual Studio toolbar.
+   The metadata for the modules isn't initially activated. Navigate to the web app to load the modules.
 
    The **Modules** window shows you when all the modules are loaded for the Azure VM. To open the **Modules** window, select **Debug** > **Windows** > **Modules**.
 
    ![Screenshot that shows the Modules window.](../debugger/media/snapshot-modules.png)
 
+   Once all modules are loaded, you can select the **Start Collection** button in the Visual Studio toolbar.
+
 ## Set a snappoint
 
-1. To set a snappoint, in the code editor, click the left gutter next to the method you're interested in. Make sure that the code executes.
+1. To set a snappoint, in the code editor, click the left gutter next to a method you're interested in. Make sure you know that the code executes.
 
    ![Screenshot that shows setting a snappoint in the code editor.](../debugger/media/time-travel-debugging-set-snappoint-settings.png)
 
@@ -74,17 +76,19 @@ In this tutorial, you:
 
    ![Screenshot that shows the Snapshot Settings window.](../debugger/media/time-travel-debugging-set-snappoint-new.png)
 
-1. Select **Start Collection** in the toolbar to turn on the snappoint.
-
-   ![Screenshot that shows selecting Start Collection to turn on the snappoint.](../debugger/media/snapshot-start-collection.png)
-
 ## Take the snapshot
 
-When a snappoint is turned on, it captures a snapshot whenever the line of code it's placed on executes. The execution might require a request on your server. To force your snappoint to hit, go to the browser view of your website and take the required actions.
+Select **Start Collection** in the toolbar to turn on the snappoint.
 
-## Start debugging a time travel recording
+![Screenshot that shows selecting Start Collection to turn on the snappoint.](../debugger/media/snapshot-start-collection.png)
 
-1. When the snappoint is hit, a snapshot appears in the **Diagnostic Tools** window. To open this window, choose **Debug** > **Windows** > **Show Diagnostic Tools**.
+When you turn on the snappoint, it captures a snapshot when the line of code it's placed on executes. The execution might require a request on your server. To force your snappoint to hit, go to the browser view of your website and take any required actions.
+
+By default, the snappoint captures only one snapshot. After capturing a snapshot, the snappoint turns off. If you want to capture another snapshot at the snappoint, you can turn the snappoint back on by selecting **Update Collection**.
+
+## Debug a time travel recording
+
+1. When the snappoint is hit, a snapshot appears in the **Diagnostic Tools** window. If this window isn't open, open it by selecting **Debug** > **Windows** > **Show Diagnostic Tools**.
 
    ![Screenshot that shows the snapshot in the Diagnostic Tools window.](../debugger/media/snapshot-diagsession-window.png)
 
@@ -94,13 +98,13 @@ When a snappoint is turned on, it captures a snapshot whenever the line of code 
 
    - You can also use the **Debug** toolbar to **Show Next Statement**, **Step Into**, **Step Over**, **Step Out**, **Step Back Into**, **Step Back Over**, and **Step Back Out**.
 
-     ![Screenshot that shows the Debugging toolbar.](../debugger/media/time-travel-debugging-step-commands.png)
+     ![Screenshot that shows the Debug toolbar.](../debugger/media/time-travel-debugging-step-commands.png)
 
    - You can also use the Visual Studio **Locals**, **Watches**, and **Call Stack** windows, and evaluate expressions.
 
-The website is still live, and end users aren't impacted by time travel debugging activity. Only one snapshot is captured per snappoint by default. After a snapshot is captured, the snappoint turns off. If you want to capture another snapshot at the snappoint, you can turn the snappoint back on by selecting **Update Collection**.
+The website is still live, and end users aren't impacted by time travel debugging activity.
 
-For more information and help, see [Troubleshooting and known issues](../debugger/debug-live-azure-apps-troubleshooting.md) and [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.yml).
+For more information and help, see [Troubleshooting and known issues](../debugger/debug-live-azure-apps-troubleshooting.md).
 
 ## Set a conditional snappoint
 
