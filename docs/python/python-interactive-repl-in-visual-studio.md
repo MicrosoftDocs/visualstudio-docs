@@ -1,7 +1,7 @@
 ---
 title: Python interactive window (REPL)
 description: Use the interactive window (REPL) for rapid Python code development in Visual Studio.
-ms.date: 04/26/2022
+ms.date: 02/06/2022
 ms.topic: how-to
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -16,7 +16,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Visual Studio provides an interactive read-evaluate-print loop (REPL) window for each of your Python environments, which improves upon the REPL you get with *python.exe* on the command line. The **Interactive** window (opened with the **View** > **Other Windows** > **&lt;environment&gt; Interactive** menu commands) lets you enter arbitrary Python code and see immediate results. This way of coding helps you learn and experiment with APIs and libraries, and to interactively develop working code to include in your projects.
+Visual Studio provides an interactive read-evaluate-print loop (REPL) window for each of your Python environments, which improves upon the REPL you get with *python.exe* on the command line. The **Interactive** window (opened with the **View** > **Other Windows** > **&lt;environment&gt; Interactive** menu commands) lets you enter arbitrary Python code and see immediate results. This way of coding helps you learn and experiment with APIs and libraries and interactively develop working code to include in your projects.
 
 :::image type="content" source="media/interactive-window.png" alt-text="Screenshot showing the Python interactive read-evaluate-print loop (REPL) window.":::
 
@@ -24,8 +24,8 @@ Visual Studio has many Python REPL modes to choose from:
 
 | REPL | Description | Editing | Debugging | Images |
 | --- | --- | --- | --- | --- |
-| Standard | Default REPL, talks to Python directly | Standard editing (multiline, and so on). | Yes, via `$attach` | No |
-| Debug | Default REPL, talks to debugged Python process | Standard editing | Only debugging | No |
+| Standard | Default REPL talks to Python directly | Standard editing (multiline, and so on). | Yes, via `$attach` | No |
+| Debug | Default REPL talks to debugged Python process | Standard editing | Only debugging | No |
 | IPython | REPL talks to IPython backend | IPython commands, Pylab conveniences | No | Yes, inline in REPL |
 | IPython w/o Pylab | REPL talks to IPython backend | Standard IPython | No | Yes, separate window |
 
@@ -45,7 +45,7 @@ Second, near the bottom of the **View** > **Other Windows** menu, there's a **Py
 
 :::image type="content" source="media/interactive-window-menu.png" alt-text="Screenshot showing Interactive Window menu items in View > Other Windows.":::
 
-Third, you can open an **Interactive** window on the startup file in your project, or for a stand-alone file, by selecting the **Debug** > **Execute \<Project | File> in Python Interactive** menu command (**Shift**+**Alt**+**F5**):
+Third, you can open an **Interactive** window for the startup file in your project, or for any stand-alone file, by selecting the **Debug** > **Execute \<Project | File> in Python Interactive** menu command (**Shift**+**Alt**+**F5**):
 
 :::image type="content" source="media/interactive-execute-project.png" alt-text="Screenshot of Execute Project in Python Interactive menu.":::
 
@@ -55,18 +55,18 @@ Finally, you can select code in file and use the [**Send to Interactive** comman
 
 You can control various aspects of the **Interactive** window through **Tools** > **Options** > **Python** > **Interactive Windows** (see [Options](python-support-options-and-settings-in-visual-studio.md)):
 
-:::image type="content" source="media/options-interactive-windows.png" alt-text="Screenshot of Python > Interactive Windows under Options.":::
+:::image type="content" source="media/options-interactive-windows.png" alt-text="Screenshot of Python Interactive Windows under Options.":::
 
 ## Use the Interactive window
 
-Once the **Interactive** window is open, you can start entering code line-by-line at the **\>\>\>** prompt. The **Interactive** window executes each line as you enter it, which includes importing modules, defining variables, and so on:
+Once the **Interactive** window is open, you can start entering code line-by-line at the **\>\>\>** prompt. The **Interactive** window executes each line as you enter it, which includes options such as importing modules, defining variables.
 
 :::image type="content" source="media/interactive-window.png" alt-text="Screenshot showing how to use Python interactive window.":::
 
-The exception is when more lines of code are needed to make a complete statement, such as when a `for` statement ends in a colon as shown above. In these cases, the line prompt changes to **...** indicating that you need to enter more lines for the block, as shown on the fourth and fifth lines in the graphic above. When you press **Enter** on a blank line, the **Interactive** window closes the block and runs it in the interpreter.
+The exception is when more lines of code are needed to make a complete statement, such as when a `for` statement ends in a colon as shown above. In these cases, the line prompt changes to **...**, indicating that you need to enter more lines for the block, as shown on the fourth and fifth lines in the graphic above. When you press **Enter** on a blank line, the **Interactive** window closes the block and runs it in the interpreter.
 
-> [!Tip]
-> The **Interactive** window improves upon the usual Python command-line REPL experience by automatically indenting statements that belong to a surrounding scope. Its history (recalled with the up arrow) also provides multiline items, whereas the command-line REPL provides only single lines.
+  > [!Tip]
+  > The **Interactive** window improves upon the usual Python command-line REPL experience by automatically indenting statements that belong to a surrounding scope. Its history (recalled with the up arrow) also provides multiline items, whereas the command-line REPL provides only single lines.
 <a name="meta-commands"></a>
 The **Interactive** window also supports several meta-commands. All meta-commands start with `$`, and you can type `$help` to get a list of the meta-commands and `$help <command>` to get usage details for a specific command.
 
@@ -103,7 +103,7 @@ Commands are also extensible by Visual Studio extensions by implementing and exp
 
 ## Switch scopes
 
-By default, the **Interactive** window for a project is scoped to the project's startup file as if you ran it from the command prompt. For a stand-alone file, it scopes to that file. At any time during your REPL session, however, the drop-down menu along the top of the **Interactive** window lets you change scope:
+By default, the **Interactive** window for a project is scoped to the project's startup file as if you ran it from the command prompt. For a stand-alone file, it scopes to that file. At any time during your REPL session, however, the drop-down menu along the top of the **Interactive** window lets you change the scope:
 
 :::image type="content" source="media/interactive-scopes.png" alt-text="Screenshot showing the Interactive window scopes.":::
 
@@ -122,8 +122,8 @@ In addition to working within the **Interactive** window directly, you can selec
 
 This command is useful for iterative or evolutionary code development, including testing your code as you develop it. For example, once you've sent a piece of code to the **Interactive** window and seen its output, you can press the up arrow to show the code again, modify it, and test it quickly by pressing **Ctrl**+**Enter**. (Pressing **Enter** at the end of input executes it, but pressing **Enter** in the middle of input inserts a newline.) Once you have the code you want, you can easily copy it back into your project file.
 
-> [!Tip]
-> By default, Visual Studio removes **>>>** and **...** REPL prompts when pasting code from the **Interactive** window into the editor. You can change this behavior on  the **Tools** > **Options** > **Text Editor** > **Python** > **Advanced** tab using the **Paste removes REPL prompts** option. See [Options - Miscellaneous options](python-support-options-and-settings-in-visual-studio.md#miscellaneous-options).
+  > [!Tip]
+    > By default, Visual Studio removes **>>>** and **...** REPL prompts when pasting code from the **Interactive** window into the editor. You can change this behavior on  the **Tools** > **Options** > **Text Editor** > **Python** > **Advanced** tab using the **Paste removes REPL prompts** option. See [Options - Miscellaneous options](python-support-options-and-settings-in-visual-studio.md#miscellaneous-options).
 
 <!-- After 15.3 is released, you can also press **Undo** after pasting to restore prompts. Press **Undo** a second time to remove the pasted code entirely. -->
 :::moniker-end
@@ -135,8 +135,8 @@ In addition to working within the **Interactive** window directly, you can selec
 
 This command is useful for iterative or evolutionary code development, including testing your code as you develop it. For example, once you've sent a piece of code to the **Interactive** window and seen its output, you can press the up arrow to show the code again, modify it, and test it quickly by pressing **Ctrl**+**E**. (Pressing **Enter** at the end of input executes it, but pressing **Enter** in the middle of input inserts a newline.) Once you have the code you want, you can easily copy it back into your project file.
 
-> [!Tip]
-> By default, Visual Studio removes **>>>** and **...** REPL prompts when pasting code from the **Interactive** window into the editor. You can change this behavior on  the **Tools** > **Options** > **Text Editor** > **Python** > **Advanced** tab using the **Paste removes REPL prompts** option. See [Options - Miscellaneous options](python-support-options-and-settings-in-visual-studio.md#miscellaneous-options).
+  > [!Tip]
+  > By default, Visual Studio removes **>>>** and **...** REPL prompts when pasting code from the **Interactive** window into the editor. You can change this behavior on  the **Tools** > **Options** > **Text Editor** > **Python** > **Advanced** tab using the **Paste removes REPL prompts** option. See [Options - Miscellaneous options](python-support-options-and-settings-in-visual-studio.md#miscellaneous-options).
 
 <!-- After 15.3 is released, you can also press **Undo** after pasting to restore prompts. Press **Undo** a second time to remove the pasted code entirely. -->
 :::moniker-end
@@ -147,7 +147,7 @@ Code cells can be used in data analysis and are supported by various text editor
 
 For example, when using a code file as a scratchpad, you often have a small block of code you want to send all at once. To group code together, mark the code as a *code cell* by adding a comment starting with `#%%` to the beginning of the cell, which ends the previous one. Code cells can be collapsed and expanded, and using **Ctrl**+**Enter** inside a code cell sends the entire cell to the **Interactive** window and moves to the next one.
 
-Visual Studio also detects code cells starting with comments like `# In[1]:`, which is the format you get when exporting a Jupyter notebook as a Python file. This detection makes it easy to run a notebook from [Azure Notebooks](https://notebooks.azure.com/) by downloading as a Python file, opening in Visual Studio, and using **Ctrl**+**Enter** to run each cell.
+Visual Studio also detects code cells starting with comments like `# In[1]:`, which is the format you get when exporting a Jupyter notebook as a Python file. This detection makes it easy to run a notebook from [Azure Notebooks](https://notebooks.azure.com/) by downloading it as a Python file, opening in Visual Studio, and using **Ctrl**+**Enter** to run each cell.
 
 :::image type="content" source="media/interactive-code-cells.png" alt-text="Screenshot showing Interactive code cells.":::
 
