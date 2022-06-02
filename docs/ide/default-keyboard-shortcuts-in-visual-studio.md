@@ -591,7 +591,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Server explorer|**Ctrl+Alt+S**| View.ServerExplorer |
 |Show smart tag|**Shift+Alt+F10**<br /><br /> or<br /><br /> **Ctrl+.**| View.ShowSmartTag |
 |Solution explorer|**Ctrl+Alt+L**| View.SolutionExplorer |
-|SQL server object explorer|**Ctrl+\\, Ctrl+S**| View.SQLServerObjectExplorer |
+|SQL Server object explorer|**Ctrl+\\, Ctrl+S**| View.SQLServerObjectExplorer |
 |Task list|**Ctrl+\\, T**<br /><br /> or<br /><br /> **Ctrl+\\, Ctrl+T**| View.TaskList |
 |TFS team explorer|**Ctrl+\\, Ctrl+M**| View.TfsTeamExplorer |
 |Toolbox|**Ctrl+Alt+X**| View.Toolbox |
@@ -918,12 +918,12 @@ The shortcuts specific to this context are:
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
-|CommitAllEdits|**Shift+Alt+U**|CommitAllEdits |
+|Commit all edits|**Shift+Alt+U**|CommitAllEdits |
 |Expand wildcards|**Ctrl+R, E**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+E**| SQL.ExpandWildcards |
 |Fully qualify names|**Ctrl+R, Q**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+Q**| SQL.FullyqualifyNames |
 |Move to schema|**Ctrl+R, M**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+M**| SQL.MovetoSchema |
 |Rename|**F2**<br /><br /> or<br /><br /> **Ctrl+R, R**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+R**| SQL.Rename |
-|ViewFileInScriptPanel|**Shift+Alt+PgDn**| |
+|View file in Script Panel|**Shift+Alt+PgDn**| ViewFileInScriptPanel |
 
 ### <a name="bkmk_microsoft-sql-server-data-tools-t-sql-editor-context-specific-shortcuts"></a> Microsoft SQL Server Data Tools, T-SQL Editor: context specific shortcuts
 
@@ -931,7 +931,7 @@ The shortcuts specific to this context are:
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
-|CommitAllEdits|**Shift+Alt+U**|
+|Commit all edits|**Shift+Alt+U**|CommitAllEdits |
 |Execute with debugger|**Alt+F5**| SQL.ExecuteWithDebugger |
 |Expand wildcards|**Ctrl+R, E**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+E**| SQL.ExpandWildcards |
 |Fully qualify names|**Ctrl+R, Q**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+Q**| SQL.FullyqualifyNames |
