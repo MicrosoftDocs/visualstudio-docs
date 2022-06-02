@@ -2,7 +2,7 @@
 title: "Remote debugging"
 description: Debug a Visual Studio application that has been deployed on a different computer by using the Visual Studio remote debugger.
 ms.custom: ['remotedebugging', 'SEO-VS-2020']
-ms.date: 12/03/2021
+ms.date: 05/27/2022
 ms.topic: conceptual
 f1_keywords:
   - "vs.debug.remote.overview"
@@ -32,8 +32,8 @@ For in-depth instructions on remote debugging, see these topics.
 
 |Scenario|Link|
 |-|-|-|
-|Azure App Service|[Remote debug ASP.NET on Azure](../debugger/remote-debugging-azure.md) or, for Visual Studio Enterprise, the [Snapshot Debugger](../debugger/debug-live-azure-applications.md)|
-|Azure VM|[Remote debug ASP.NET on Azure](../debugger/remote-debugging-azure.md)|
+|Azure App Service|[Remote debug ASP.NET Core on Azure](/learn/modules/dotnet-debug-visual-studio-azure-web-apps/) or, for Visual Studio Enterprise, the [Snapshot Debugger](../debugger/debug-live-azure-applications.md)|
+|Azure VM|[Remote debug ASP.NET on an Azure VM](../debugger/remote-debugging-azure.md)|
 |Azure Service Fabric|[Debug an Azure Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application)|
 |ASP.NET|[Remote debug ASP.NET Core](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) or [Remote Debug ASP.NET](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
 |C# or Visual Basic|[Remote debug a C# or Visual Basic project](../debugger/remote-debugging-csharp.md)|
