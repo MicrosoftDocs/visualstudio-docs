@@ -123,7 +123,7 @@ In addition to working within the **Interactive** window directly, you can selec
 This command is useful for iterative or evolutionary code development, including testing your code as you develop it. For example, once you've sent a piece of code to the **Interactive** window and seen its output, you can press the up arrow to show the code again, modify it, and test it quickly by pressing **Ctrl**+**Enter**. (Pressing **Enter** at the end of input executes it, but pressing **Enter** in the middle of input inserts a newline.) Once you have the code you want, you can easily copy it back into your project file.
 
   > [!Tip]
-    > By default, Visual Studio removes **>>>** and **...** REPL prompts when pasting code from the **Interactive** window into the editor. You can change this behavior on  the **Tools** > **Options** > **Text Editor** > **Python** > **Advanced** tab using the **Paste removes REPL prompts** option. See [Options - Miscellaneous options](python-support-options-and-settings-in-visual-studio.md#miscellaneous-options).
+  > By default, Visual Studio removes **>>>** and **...** REPL prompts when pasting code from the **Interactive** window into the editor. You can change this behavior on  the **Tools** > **Options** > **Text Editor** > **Python** > **Advanced** tab using the **Paste removes REPL prompts** option. See [Options - Miscellaneous options](python-support-options-and-settings-in-visual-studio.md#miscellaneous-options).
 
 <!-- After 15.3 is released, you can also press **Undo** after pasting to restore prompts. Press **Undo** a second time to remove the pasted code entirely. -->
 :::moniker-end
