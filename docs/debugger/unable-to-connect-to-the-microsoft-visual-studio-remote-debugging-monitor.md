@@ -1,9 +1,8 @@
 ---
 title: "Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor"
 description: Learn the meaning of "Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor", the possible causes, and the solutions. 
-ms.custom: SEO-VS-2020
 titleSuffix: ""
-ms.date: "04/14/2020"
+ms.date: "06/02/2022"
 ms.topic: "reference"
 f1_keywords:
   - "vs.debug.error.remote_debug"
@@ -70,7 +69,7 @@ If these values are correct and the message mentions **Windows Authentication** 
 
 ## <a name="connection_terminated"></a> Connection with the remote endpoint was terminated
 
-If you are debugging an Azure App Service app, try using the [Attach Debugger](../debugger/remote-debugging-azure.md#remote_debug_azure_app_service) command from Cloud Explorer or Server Explorer instead of **Attach to Process**.
+If you are debugging an Azure App Service app, try following instructions in [Remote debug ASP.NET Core on Azure](/learn/modules/dotnet-debug-visual-studio-azure-web-apps/) to connect to Azure App Service.
 
 If you are using **Attach to Process** to debug:
 
