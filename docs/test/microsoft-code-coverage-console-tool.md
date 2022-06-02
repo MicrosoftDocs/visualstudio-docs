@@ -17,10 +17,10 @@ author: mikejo5000
 
 Microsoft.CodeCoverage.Console is a command-line tool. You can use it to collect code coverage for C++ and C# code. It supports also merging and converting code coverage reports. This tool can be used to collect code coverage in non-test scenarios (for example for simple console application).
 
-Microsoft.CodeCoverage.Console is available in Visual Studio 2022 17.3 under folder `Common7\IDE\Extensions\Microsoft\CodeCoverage.Console`:
+Microsoft.CodeCoverage.Console is available in Visual Studio 2022 17.3 under folder `Common7\IDE\Extensions\Microsoft\CodeCoverage.Console`. You can use it in Developer Command Prompt & Developer PowerShell:
 
 ```console
-C:\Program Files\Microsoft Visual Studio\2022\Enterprise>Common7\IDE\Extensions\Microsoft\CodeCoverage.Console\Microsoft.CodeCoverage.Console.exe --help
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise> Microsoft.CodeCoverage.Console --help
 Description:
   Dynamic code coverage tools.
 
@@ -113,7 +113,7 @@ If you don't want to use `instrument` command then files to be instrumented need
 Then you can collect code coverage as follows:
 
 ```console
-D:\ConsoleApplication\x64\Debug>"%VSINSTALLDIR%Common7\IDE\Extensions\Microsoft\CodeCoverage.Console\Microsoft.CodeCoverage.Console" collect --settings coverage.config .\ConsoleApplication.exe
+D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console collect --settings coverage.config .\ConsoleApplication.exe
 SessionId: 85d9d49e-38a7-43a4-81ff-9e12f0e6b04b
 Hello World!
 Code coverage results: output.coverage.
@@ -124,14 +124,14 @@ Code coverage results: output.coverage.
 In this case first binary needs to be instrumented as follows:
 
 ```console
-D:\ConsoleApplication\x64\Debug>"%VSINSTALLDIR%Common7\IDE\Extensions\Microsoft\CodeCoverage.Console\Microsoft.CodeCoverage.Console" instrument ConsoleApplication.exe
+D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console instrument ConsoleApplication.exe
 Input file successfully instrumented.
 ```
 
 Then you can collect code coverage as follows:
 
 ```console
-D:\ConsoleApplication\x64\Debug>"%VSINSTALLDIR%Common7\IDE\Extensions\Microsoft\CodeCoverage.Console\Microsoft.CodeCoverage.Console" collect .\ConsoleApplication.exe
+D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console collect .\ConsoleApplication.exe
 SessionId: e85e657f-9ff3-42a0-88d7-2349598a1ecd
 Hello World!
 Code coverage results: output.coverage.
@@ -142,7 +142,7 @@ Code coverage results: output.coverage.
 In this case you can separate completely coverage collection from running your application. First instrument your binary as follows:
 
 ```console
-D:\ConsoleApplication\x64\Debug>"%VSINSTALLDIR%Common7\IDE\Extensions\Microsoft\CodeCoverage.Console\Microsoft.CodeCoverage.Console" instrument --session-id 73c34ce5-501c-4369-a4cb-04d31427d1a4 ConsoleApplication.exe
+D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console instrument --session-id 73c34ce5-501c-4369-a4cb-04d31427d1a4 ConsoleApplication.exe
 Input file successfully instrumented.
 ```
 
@@ -152,7 +152,7 @@ Input file successfully instrumented.
 In second step we have to start coverage collector as follows:
 
 ```console
-D:\ConsoleApplication\x64\Debug>"%VSINSTALLDIR%Common7\IDE\Extensions\Microsoft\CodeCoverage.Console\Microsoft.CodeCoverage.Console" collect --session-id 73c34ce5-501c-4369-a4cb-04d31427d1a4 --server-mode
+D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console collect --session-id 73c34ce5-501c-4369-a4cb-04d31427d1a4 --server-mode
 SessionId: 73c34ce5-501c-4369-a4cb-04d31427d1a4
 ```
 
@@ -168,7 +168,7 @@ Hello World!
 Finally collector can be closed as follows:
 
 ```console
-D:\ConsoleApplication\x64\Debug>"%VSINSTALLDIR%Common7\IDE\Extensions\Microsoft\CodeCoverage.Console\Microsoft.CodeCoverage.Console" shutdown 73c34ce5-501c-4369-a4cb-04d31427d1a4
+D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console shutdown 73c34ce5-501c-4369-a4cb-04d31427d1a4
 ```
 
 ::: moniker-end
