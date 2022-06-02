@@ -211,15 +211,15 @@ Let's comment out some code.
                                 select word;
     ```
 
-1. We're not using the `moreWords` variable, but we might use it later so we don't want to delete it. Instead, we'll comment out those lines. Select the entire definition of `moreWords` down to the closing semicolon, and then choose the **Comment out the selected lines** button on the Text Editor toolbar. If you prefer to use the keyboard, select **Ctrl**+**E**, **C**.
+1. We're not using the `moreWords` variable, but we might use it later so we don't want to delete it. Instead, we'll comment out those lines. Select the entire definition of `moreWords` down to the closing semicolon, and then choose the **Comment out the selected lines** button on the Text Editor toolbar. If you prefer to use the keyboard, select **Ctrl**+**K**, **Ctrl**+**C**.
 
    :::image type="content" source="media/vs-2022/tutorial-comment-out.png" alt-text="Screenshot of the Comment out button in the Text Editor toolbar in Visual Studio 2022.":::
 
    The C# comment characters `//` are added to the beginning of each selected line to comment out the code.
 
-When you want to uncomment lines, you can select them, and then choose the **Uncomment the selected lines** button on the Text Editor toolbar. If you prefer to use the keyboard, select **Ctrl**+**E**, **U**.
+   When you want to uncomment lines, you can select them, and then choose the **Uncomment the selected lines** button on the Text Editor toolbar. If you prefer to use the keyboard, select **Ctrl**+**K**, **Ctrl**+**U**.
 
-:::image type="content" source="media/vs-2022/tutorial-uncomment.png" alt-text="Screenshot of the Uncomment button in the Text Editor toolbar in Visual Studio 2022.":::
+   :::image type="content" source="media/vs-2022/tutorial-uncomment.png" alt-text="Screenshot of the Uncomment button in the Text Editor toolbar in Visual Studio 2022.":::
 
 ::: moniker-end
 
