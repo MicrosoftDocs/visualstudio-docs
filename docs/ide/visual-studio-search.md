@@ -27,6 +27,13 @@ ms.workload:
 
 The Visual Studio integrated development environment (IDE) has many menus, options, and features, which can be difficult to remember. The Visual Studio search feature is a single search box that helps developers find IDE menus and options, while also searching your code. Whether you're new to Visual Studio or an experienced developer, this feature offers a quick way to search across IDE features and your code.
 
+::: moniker range="vs-2022"
+
+> [!TIP]
+> To learn more about current and upcoming changes to the search experience in Visual Studio 2022, see the [Introducing a New Way to Search Your Code and Visual Studio Features](https://devblogs.microsoft.com/visualstudio/introducing-a-new-way-to-search-your-code-and-visual-studio-features/) and  [All-In-One Search Is Getting Slicker](https://devblogs.microsoft.com/visualstudio/all-in-one-search-is-getting-slicker/) blog posts.
+
+::: moniker-end
+
 Use the **Ctrl**+**Q** keyboard shortcut to access the search box or click the Visual Studio Search input box, located next to the menu bar by default:
 
 :::image type="content" source="media/visual-studio-search-cropped.png" alt-text="Visual Studio search box" lightbox="media/visual-studio-search.png":::
