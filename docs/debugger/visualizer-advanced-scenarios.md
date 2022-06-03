@@ -23,9 +23,83 @@ ms.workload:
 
 This article provides information that might be useful if you're writing your own custom data visualizers, particularly if the object that is being visualized or the visualizer UI itself is unusually complex.
 
+The following examples are based on a visual studio solution that has two projects. The first corresponds to a .NET Framework 4.7.2 project that will be the *debugger-side* component for the UI logic. The second is a .NET Standard 2.0 project that will be the *debuggee-side* component so that it can be used in .NET Core applications.
+
+The *debugger-side* will comprise of a WPF window that might contain an indeterminate `ProgressBar` control that is visible on load and two labels called `DataLabel` and `ErrorLabel`, both collapsed on load. Once it finishes fetching the data from the object it is trying to visualize, the progress bar will be collapsed and the visualizer will show the data label with the relevant information. In the case of an error, the progress bar is also hidden, but it will show an error message via the error label. A simplified example is shown below:
+
+```xml
+<Window x:Class="AdvancedVisualizer.DebuggerSide.VisualizerDialog"
+        xmlns:local="clr-namespace:AdvancedVisualizer.DebuggerSide">
+
+    <Grid>
+        <StackPanel x:Name="progressControl" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <ProgressBar IsIndeterminate="True" Width="200" Height="10"/>
+            <Label HorizontalAlignment="Center">Loading...</Label>
+        </StackPanel>
+        <Label x:Name="DataLabel" Visibility="Collapsed" />
+        <Label x:Name="ErrorLabel" Visibility="Collapsed" />
+    </Grid>
+
+</Window>
+```
+
+To simplify our examples, the `VisualizerDialog` interaction logic will have a simple constructor that registers an event handler to its `Loaded` event. This event handler will be in charge of fetching the data and will change depending on each example, so it will be shown separately in each section.
+
+```csharp
+public partial class VisualizerDialog : Window
+{
+    private AdvancedVisualizerViewModel ViewModel => (AdvancedVisualizerViewModel)this.DataContext;
+
+    public VisualizerDialog()
+    {
+        InitializeComponent();
+
+        this.Loaded += VisualizerLoaded;
+    }
+
+    public void VisualizerLoaded(object sender, RoutedEventArgs e)
+    {
+        // Logic to fetch and show the data in the UI.
+    }
+}
+```
+
+The *debugger-side* will also have a view model called `AdvancedVisualizerViewModel` to handle the visualizer's logic for fetching its data from the *debuggee-side*. This will also change depending on each example, so it will be shown separately in each section. Finally, the visualizer entry point will look as follows:
+
+```csharp
+[assembly: DebuggerVisualizer(typeof(AdvancedVisualizer), typeof(AdvancedVisualizer.DebuggeeSide.CustomVisualizerObjectSource), Target = typeof(SomeObject), Description = "Advanced Visualizer")]
+namespace AdvancedVisualizer.DebuggerSide
+{
+    public class AdvancedVisualizer : DialogDebuggerVisualizer
+    {
+        protected override void Show(IDialogVisualizerService windowService, IVisualizerObjectProvider objectProvider)
+        {
+            IAsyncVisualizerObjectProvider asyncObjectProvider = objectProvider as IAsyncVisualizerObjectProvider;
+
+            if (asyncObjectProvider != null)
+            {
+                AdvancedVisualizerViewModel viewModel = new AdvancedVisualizerViewModel((IAsyncVisualizerObjectProvider)objectProvider);
+                Window advancedVisualizerWindow = new VisualizerDialog() { DataContext = viewModel };
+
+                advancedVisualizerWindow.ShowDialog();
+            }
+        }
+    }
+}
+```
+
+  > [!NOTE]
+  > The avid reader will have noticed that in the code above we are performing a cast on the `objectProvider`. The reasoning behind this cast is explained in the [Using the new Async API](#Using-the-new-Async-API) section.
+
+The *debugee-side* will vary depending on the example, so it will also be shown separately in each section.
+
+## Using the new Async API
+
+For compatibility reasons, the `Show` method that gets overwritten by your `DialogDebuggerVisualizer` still receives an object provider instance of type `IVisualizerObjectProvider`. However, this type also implements the `IAsyncVisualizerObjectProvider` interface. Therfore, it is safe to cast it when using VS 2022 17.2 onward. That provider adds an async implementation of the methods present in `IVisualizerObjectProvider2`.
+
 ## Handling long serialization time
 
-There are some cases when calling the default <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetData%2A> method on the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> will result in a Timeout Exception being thrown by the visualizer. Custom data visualizer operations are allowed only a maximum of five seconds to guarantee that Visual Studio remains responsive. That is, every call to <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetData%2A>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.CreateReplacementObject%2A>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A>, etc., must finish execution before the time limit is reached or VS will throw an exception. Because there is no plan to provide support for changing this time constraint, visualizer implementations must handle cases where an object takes longer than five seconds to be serialized. To handle this scenario correctly, it is recommended that the visualizer handles passing data from the *debuggee-side* component to the *debugger-side* component by chunks or pieces.
+There are some cases when calling the default <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetDeserializableObjectAsync%2A> method on the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> will result in a Timeout Exception being thrown by the visualizer. Custom data visualizer operations are allowed only a maximum of five seconds to guarantee that Visual Studio remains responsive. That is, every call to <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetDeserializableObjectAsync%2A>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.ReplaceDataAsync%2A>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferDeserializableObjectAsync%2A>, etc., must finish execution before the time limit is reached or VS will throw an exception. Because there is no plan to provide support for changing this time constraint, visualizer implementations must handle cases where an object takes longer than five seconds to be serialized. To handle this scenario correctly, it is recommended that the visualizer handles passing data from the *debuggee-side* component to the *debugger-side* component by chunks or pieces.
 
 For example, let us imagine that you have a complex object called `VerySlowObject` that has many fields and properties that must be processed and copied over to the *debugger-side* visualizer component. Among those properties, you have `VeryLongList` which, depending on the instance of `VerySlowObject`, might be serialized within the five seconds or take a little more.
 
@@ -35,13 +109,13 @@ public class VerySlowObject
     // More properties...
 
     // One of the properties we want to visualize.
-    List<SomeRandomObject> VeryLongList { get; }
+    public List<SomeRandomObject> VeryLongList { get; }
 
     // More properties...
 }
 ```
 
-Therefore, you need to create our own custom <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> derived class that overrides the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A> method.
+That is why you need to create our own *debugee-side* component, which is a class that derives from <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> and overrides the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A> method.
 
 ```csharp
 public class CustomVisualizerObjectSource : VisualizerObjectSource
@@ -53,13 +127,12 @@ public class CustomVisualizerObjectSource : VisualizerObjectSource
 }
 ```
 
-At this point you have two alternatives; you either add custom 'Command' and 'Response' types that let the visualizer coordinate between both components on the state of the data transfer; or you let the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> handle it by itself. If your object had only a simple collection of the same types (and you wanted to send every element to the UI), the latter would be suggested since the *debuggee-side* would just return segments of the collection until the end was reached. In the case where you have several different parts or you might just want to return part of the whole object, the former might be easier. Considering that you decided on the second approach, you would have created the following classes on your debugee-side project.
+At this point you have two alternatives; you either add custom 'Command' and 'Response' types that let the visualizer coordinate between both components on the state of the data transfer; or you let the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> handle it by itself. If your object had only a simple collection of the same types (and you wanted to send every element to the UI), the latter would be suggested since the *debuggee-side* would just return segments of the collection until the end was reached. In the case where you have several different parts or you might just want to return part of the whole object, the former might be easier. Considering that you decided on the second approach, you would have created the following classes on your *debugee-side* project.
 
 ```csharp
 public class GetVeryLongListCommand
 {
     public int StartOffset { get; }
-    public int Count { get; }
 
     // Constructor...
 }
@@ -67,13 +140,56 @@ public class GetVeryLongListCommand
 public class GetVeryLongListResponse
 {
     public string[] Values { get; }
-    public bool TimoutOccurred { get; }
+    public bool IsComplete { get; }
 
     // Constructor...
 }
 ```
 
-With your helper classes in place, the `TransferData` method can be written as follows.
+With your helper classes in place, your view model can have an async method to fetch the data and process it for it to be displayed in the UI. Lets call it `GetDataAsync`.
+
+```csharp
+public async Task<string> GetDataAsync()
+{
+    using (Stream commandStream = new MemoryStream())
+    {
+        List<string> verySlowObjectList = new List<string>();
+
+        // Consider the possibility that we might timeout when fetching the data.
+        bool isRequestComplete;
+
+        do
+        {
+            // Send the command requesting more elements from the collection.
+            m_asyncObjectProvider.Serialize(new GetVeryLongListCommand(verySlowObjectList.Count), commandStream);
+
+            // Process the response
+            IDeserializableObject deserializableObject = await m_asyncObjectProvider.TransferDeserializableObjectAsync(commandStream, CancellationToken.None);
+            GetVeryLongListResponse response = deserializableObject.ToObject<GetVeryLongListResponse>();
+            commandStream.SetLength(0);
+
+            // Check if a timeout occurred, if it did we will try fetching more data again.
+            isRequestComplete = response.IsComplete;
+
+            // If no timeout occurred and we did not get all the elements we asked for, then we reached the end
+            // of the collection and we can safely exit the loop.
+            verySlowObjectList.AddRange(response.Values);
+        }
+        while (isRequestComplete);
+
+        // Do some processing of the data before showing it to the user.
+        string valuesToBeShown = ProcessList(verySlowObjectList);
+        return valuesToBeShown;
+    }
+}
+
+private string ProcessList(List<string> verySlowObjectList)
+{
+    // Do some processing of the data before showing it to the user...
+}
+```
+
+The `GetDataAsync` method will create the `GetVeryLongListCommand` instance in a loop, send it over to the *debuggee-side* for it to process, and based on the response it will either resend it to get the rest of the data or end the cycle since it has fetched all of it. The `TransferData` method on the *debuggee-side* can handle the request as follows.
 
 ```csharp
 public override void TransferData(object obj, Stream fromVisualizer, Stream toVisualizer)
@@ -83,7 +199,9 @@ public override void TransferData(object obj, Stream fromVisualizer, Stream toVi
     // Start the timer so that we can stop processing the request if it is are taking too long.
     long startTime = Environment.TickCount;
 
-    VerySlowObject slowObject = obj as VerySlowObject;
+    var slowObject = obj as VerySlowObject;
+
+    bool isComplete = true;
 
     // Read the supplied command
     fromVisualizer.Seek(0, SeekOrigin.Begin);
@@ -97,69 +215,48 @@ public override void TransferData(object obj, Stream fromVisualizer, Stream toVi
         // If the call takes more than 3 seconds, just return what we have received so far and fetch the remaining data on a posterior call.
         if ((Environment.TickCount - startTime) > 3_000)
         {
+            isComplete = false;
             break;
         }
 
         // This call takes a considerable amount of time...
         returnValues.Add(slowObject.VeryLongList[i].ToString());
     }
-    
-    Serialize(toVisualizer, returnValues.ToArray());
+
+    GetVeryLongListResponse response = new GetVeryLongListResponse(returnValues.ToArray(), isComplete);
+    Serialize(toVisualizer, response);
 }
 ```
 
-And finally, your visualizer has to take into account the possibility of receiving partial data and handle it correctly.
+Once the view model has all the data, your visualizer's `VisualizerLoaded` event handler makes the call to the view model so that it can request the data.
 
 ```csharp
-public class CustomVisualizer : DialogDebuggerVisualizer
+public void VisualizerLoaded(object sender, RoutedEventArgs e)
 {
-    protected override void Show(IDialogVisualizerService windowService, IVisualizerObjectProvider objectProvider)
+    _ = Dispatcher.InvokeAsync(async () =>
     {
-        IVisualizerObjectProvider2 objectProvider2 = objectProvider as IVisualizerObjectProvider2;
-
-        if (objectProvider2 != null)
+        try
         {
-            List<string> verySlowObjectList = new List<string>();
+            string data = await this.ViewModel.GetDataAsync();
 
-            // Ask for batches of 100 elements until we get all the elements of our object...
-            int requestedCount = 100;
-            int fetchedCount;
-            // Consider the possibility that we might timeout when fetching the data.
-            bool timeoutOccurred;
-
-            do
-            {
-                // Send the command requesting more elements from the collection.
-                Stream commandStream = new MemoryStream();
-                objectProvider2.Serialize(new GetVeryLongListCommand(verySlowObjectList.Count, requestedCount), commandStream);
-
-                // Process the response
-                Stream deserializableObjectStream = objectProvider2.TransferData(commandStream);
-                IDeserializableObject deserializableObject = objectProvider2.GetDeserializableObjectFrom(deserializableObjectStream);
-
-                GetVeryLongListResponse response = deserializableObject.ToObject<GetVeryLongListResponse>();
-
-                // Check if a timeout occurred, if it did we will try fetching more data again.
-                timeoutOccurred = response.TimoutOccurred;
-
-                // If no timeout occurred and we did not get all the elements we asked for, then we reached the end
-                // of the collection and we can safely exit the loop.
-                fetchedCount = response.Values.Length;
-                verySlowObjectList.AddRange(response.Values);
-            }
-            while (requestedCount == fetchedCount || timeoutOccurred);
-
-            // Do some processing of the data before showing it to the user.
-            string valuesToBeShown = ProcessList(verySlowObjectList);
-            MessageBox.Show(valuesToBeShown);
+            this.DataLabel.Visibility = Visibility.Visible;
+            this.DataLabel.Content = data;
         }
-
-        MessageBox.Show("Error.");
-    }
-
-    // More methods...
+        catch
+        {
+            this.ErrorLabel.Content = "Error getting data.";
+        }
+        finally
+        {
+            this.progressControl.Visibility = Visibility.Collapsed;
+        }
+    });
 }
 ```
+  > [!NOTE]
+  > It is important to handle errors that might happen with the request and to inform the user of them here.
+
+With these changes, your visualizer should be able to handle objects that take a long time to serialize from de *debuggee-side* to the *debugger-side*.
 
 ## See also
 
