@@ -81,8 +81,8 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 **Updated articles**
 
-- [Tutorial: Build an application](../walkthrough-building-an-application.md) - Build walkthough: update for Visual Studio 2022
-- [How to: Create and remove project dependencies](../how-to-create-and-remove-project-dependencies.md) - Add screenshots, links and new Build order section
+- [Tutorial: Build an application](./walkthrough-building-an-application.md) - Build walkthough: update for Visual Studio 2022
+- [How to: Create and remove project dependencies](./how-to-create-and-remove-project-dependencies.md) - Add screenshots, links and new Build order section
 
 ### Profiling
 
