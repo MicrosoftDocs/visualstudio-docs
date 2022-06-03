@@ -2,7 +2,7 @@
 title: "Attach to running processes with the debugger"
 description: Discover how to attach the Visual Studio debugger to a running process on a local or remote computer.
 ms.custom: "SEO-VS-2020"
-ms.date: "12/09/2021"
+ms.date: "05/26/2022"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.processes.attach"
@@ -175,7 +175,7 @@ If neither of those workarounds is possible, a third option is to attach to the 
 ::: moniker range=">= vs-2022"
 ## Attach to a .NET Core process running on Azure App Service (Windows)
 
-If you're publishing to Azure App Service (Windows), see [Debugging Azure App Services](/azure/vs-azure-tools-debug-cloud-services-virtual-machines#debugging-azure-app-services) for instructions.
+If you're publishing to Azure App Service (Windows), see [Remote debug ASP.NET Core on Azure](/learn/modules/dotnet-debug-visual-studio-azure-web-apps/) or [Debugging Azure App Services](/azure/vs-azure-tools-debug-cloud-services-virtual-machines#debugging-azure-app-services) for instructions.
 ::: moniker-end
 
 ::: moniker range="vs-2019"

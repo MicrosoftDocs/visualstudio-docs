@@ -26,7 +26,7 @@ A solution is a structure for organizing projects in Visual Studio. The solution
 
 - .suo file (binary, user-specific solution options)
 
-For more information about .suo files, see [Solution User Options (.Suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md).
+For more information about .suo files, see [Solution User Options (.suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md).
 
 If your VSPackage is loaded as a result of being referenced in the .sln file, the environment calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.ReadSolutionProps%2A> to read in the .sln file.
 
@@ -162,5 +162,5 @@ Only the .sln file contains entries in the `preSolution` and `postSolution` sect
 ## See also
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps>
-- [Solution User Options (.Suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md)
+- [Solution User Options (.suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md)
 - [Solutions](../../extensibility/internals/solutions-overview.md)
