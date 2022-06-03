@@ -41,7 +41,6 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 **Updated articles**
 
 - [Troubleshooting and known issues for snapshot debugging in Visual Studio](../debugger/debug-live-azure-apps-troubleshooting.md)
-  - Confirm merge from repo_sync_working_branch to main to sync with https://github.com/MicrosoftDocs/visualstudio-docs (branch main)
   - Update debug-live-azure-apps-troubleshooting.md
 - [Format specifiers for C++ in the Visual Studio debugger](../debugger/format-specifiers-in-cpp.md) - Address feedback ticket 1074671
 
@@ -74,11 +73,16 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 - [Synchronize Visual Studio settings across multiple computers](./synchronized-settings-in-visual-studio.md) - update 'Turn off synchronized settings on a particular computer' section
 - [Options dialog box: Environment \> Documents](./reference/documents-environment-options-dialog-box.md) - add new Auto Save All Files option
 - [Options, Text Editor, C#, Advanced](./reference/options-text-editor-csharp-advanced.md) - Updates for background code analysis scope
-- [Tutorial: Build an application](./walkthrough-building-an-application.md) - Build walkthough: update for Visual Studio 2022
-- [How to: Create and remove project dependencies](./how-to-create-and-remove-project-dependencies.md) - Add screenshots, links and new Build order section
 - [What is the Project Designer?](./reference/project-properties-reference.md) - revise Project Designer reference links for Visual Studio 2022
 - [Sign in to Visual Studio on Windows](./signing-in-to-visual-studio.md) - Update the sign in docs
 - [Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)](./work-with-multi-factor-authentication.md) - Update the sign in docs
+
+### MS Build
+
+**Updated articles**
+
+- [Tutorial: Build an application](../walkthrough-building-an-application.md) - Build walkthough: update for Visual Studio 2022
+- [How to: Create and remove project dependencies](../how-to-create-and-remove-project-dependencies.md) - Add screenshots, links and new Build order section
 
 ### Profiling
 
