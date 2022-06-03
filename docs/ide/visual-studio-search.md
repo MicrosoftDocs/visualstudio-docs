@@ -1,7 +1,7 @@
 ---
-title: Use Visual Studio Search
-description: Learn to use Visual Studio search to find settings, menus, and code.
-ms.date: 10/08/2020
+title: Use Visual Studio search
+description: Learn to use Visual Studio search to find settings, menus, code, and more.
+ms.date: 06/03/2022
 ms.topic: how-to
 helpviewer_keywords:
 - environments [Visual Studio], navigation
@@ -13,9 +13,9 @@ helpviewer_keywords:
 - Window.QuickLaunch
 - IDE navigator
 ms.assetid: 3870a8fd-4afa-4f1e-a811-9fdf41a9e82d
-monikerRange: vs-2019
-author: profexorgeek
-ms.author: jusjohns
+monikerRange: ">=vs-2019"
+author: TerryGLee
+ms.author: tglee
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
@@ -34,7 +34,7 @@ Use the **Ctrl**+**Q** keyboard shortcut to access the search box or click the V
 > [!NOTE]
 > The command executed by Visual Studio search is `Window.QuickLaunch` and you may see this feature referred to as quick search or quick launch.
 
-Unlike other search features such as Find in Files or Search Solution Explorer, search in Visual Studio results include IDE features, menu options, file names, and more. The following sections discuss the different types of results that Visual Studio search can find.
+Unlike other search features such as [Find in Files](find-in-files.md) or Search Solution Explorer, search in Visual Studio results include IDE features, menu options, file names, and more. The following sections discuss the different types of results that Visual Studio search can find.
 
 ## Search menus, options, and windows
 
