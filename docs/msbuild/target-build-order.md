@@ -112,7 +112,7 @@ Alternately, specify the order as
 </Target>
 ```
 
-It is not generally useful to specify _both_ `BeforeTargets` and `AfterTargets` on the same target. As described in the next section, only the first target encountered will cause the new target to run.
+It is not generally useful to specify *both* `BeforeTargets` and `AfterTargets` on the same target. As described in the next section, only the first target encountered will cause the new target to run.
 
 ## Determine the target build order
 
