@@ -43,7 +43,7 @@ Commands:
 
 ## Collect, connect, shutdown, merge and snapshot commands
 
-The Microsoft.CodeCoverage.Console tool is extension to [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) dotnet tool. The documentation for collect, connect, shutdown, merge and snapshot commands can be found [here](/dotnet/core/additional-tools/dotnet-coverage). Additionally Microsoft.CodeCoverage.Console tool supports collecting code coverage for C++ code.
+The Microsoft.CodeCoverage.Console tool is extension to the [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) dotnet tool. The documentation for collect, connect, shutdown, merge and snapshot commands can be found [here](/dotnet/core/additional-tools/dotnet-coverage). Additionally, the Microsoft.CodeCoverage.Console tool supports collecting code coverage for C++ code.
 
 ::: moniker range=">=vs-2022"
 ## Instrument command
