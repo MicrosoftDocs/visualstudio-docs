@@ -138,7 +138,7 @@ Code coverage results: output.coverage.
 
 ### Using instrument command and collect command in server mode
 
-In this case, you can completely separate coverage collection from running your application. First instrument your binary as follows:
+In this case, you can completely separate coverage collection from running your application. First, instrument your binary as follows:
 
 ```console
 D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console instrument --session-id 73c34ce5-501c-4369-a4cb-04d31427d1a4 ConsoleApplication.exe
