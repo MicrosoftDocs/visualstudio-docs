@@ -2,7 +2,7 @@
 title: Keyboard shortcuts
 description: Learn about the default keyboard shortcuts in Visual Studio that allow you to access a variety of commands and windows.
 ms.custom: SEO-VS-2020
-ms.date: 11/15/2021
+ms.date: 06/01/2022
 ms.topic: reference
 helpviewer_keywords:
 - shortcut keys [Visual Studio], keyboard binding schemes
@@ -41,7 +41,7 @@ Click to get our [printable keyboard shortcut cheatsheet for Visual Studio](http
 
 All shortcuts in this section apply globally unless otherwise specified. The *Global* context means that the shortcut is applicable in any tool window in Visual Studio.
 
-> [!NOTE]
+> [!TIP]
 > You can [look up the shortcut](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md) for any command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**.
 
 - [Build](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_build-popular-shortcuts)
@@ -591,7 +591,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Server explorer|**Ctrl+Alt+S**| View.ServerExplorer |
 |Show smart tag|**Shift+Alt+F10**<br /><br /> or<br /><br /> **Ctrl+.**| View.ShowSmartTag |
 |Solution explorer|**Ctrl+Alt+L**| View.SolutionExplorer |
-|SQL server object explorer|**Ctrl+\\, Ctrl+S**| View.SQLServerObjectExplorer |
+|SQL Server object explorer|**Ctrl+\\, Ctrl+S**| View.SQLServerObjectExplorer |
 |Task list|**Ctrl+\\, T**<br /><br /> or<br /><br /> **Ctrl+\\, Ctrl+T**| View.TaskList |
 |TFS team explorer|**Ctrl+\\, Ctrl+M**| View.TfsTeamExplorer |
 |Toolbox|**Ctrl+Alt+X**| View.Toolbox |
@@ -916,24 +916,22 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
-|CommitAllEdits|**Shift+Alt+U**|
+|Commit all edits|**Shift+Alt+U**|CommitAllEdits |
 |Expand wildcards|**Ctrl+R, E**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+E**| SQL.ExpandWildcards |
 |Fully qualify names|**Ctrl+R, Q**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+Q**| SQL.FullyqualifyNames |
 |Move to schema|**Ctrl+R, M**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+M**| SQL.MovetoSchema |
 |Rename|**F2**<br /><br /> or<br /><br /> **Ctrl+R, R**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+R**| SQL.Rename |
-|ViewFileInScriptPanel|**Shift+Alt+PgDn**| |
+|View file in Script Panel|**Shift+Alt+PgDn**| ViewFileInScriptPanel |
 
 ### <a name="bkmk_microsoft-sql-server-data-tools-t-sql-editor-context-specific-shortcuts"></a> Microsoft SQL Server Data Tools, T-SQL Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
-|CommitAllEdits|**Shift+Alt+U**|
+|Commit all edits|**Shift+Alt+U**|CommitAllEdits |
 |Execute with debugger|**Alt+F5**| SQL.ExecuteWithDebugger |
 |Expand wildcards|**Ctrl+R, E**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+E**| SQL.ExpandWildcards |
 |Fully qualify names|**Ctrl+R, Q**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+Q**| SQL.FullyqualifyNames |
@@ -954,7 +952,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |T SQL editor cancel query|**Alt+Break**| SQL.TSqlEditorCancelQuery |
@@ -972,7 +969,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Command|Keyboard shortcut|Command ID|
 |-|-|-|
 |Minimize|**F12**| PageInspector.Minimize |
@@ -980,7 +976,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_query-designer-context-specific-shortcuts"></a> Query Designer: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -997,7 +992,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |Query results new row|**Alt+End**| SQL.QueryResultsNewRow |
@@ -1007,7 +1001,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_report-designer-context-specific-shortcuts"></a> Report Designer: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -1104,7 +1097,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_text-editor-context-specific-shortcuts"></a> Text Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 | Commands | Keyboard shortcuts |Command ID|
 |-|-|-|
@@ -1493,17 +1485,15 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |Fit all|**Ctrl+0** (zero)| Design.FitAll |
 |Show handles|**F9**| Design.ShowHandles |
 |Zoom in|**Ctrl+Alt+=**| Design.ZoomIn |
 |Zoom out|**Ctrl+Alt+-**| Design.ZoomOut |
-|Designer options|**Ctrl+Shift+;**|
 |Edit text|**F2**| Format.EditText |
 |All|**Ctrl+Shift+R**| Format.ResetLayout.All |
-|Run project code|**Ctrl+F9**|
+|Run project code|**Ctrl+F9**| Design.RunProjectCode |
 |Hide (Blend only)|**Ctrl+H**| Timeline.Hide (Blend only) |
 |Lock (Blend only)|**Ctrl+L**| Timeline.Lock (Blend only) |
 |Show (Blend only)|**Ctrl+Shift+H**| Timeline.Show (Blend only) |
@@ -1513,6 +1503,8 @@ The shortcuts specific to this context are:
 |Edge right move left|**Ctrl+Shift+Alt+,**| View.EdgeRightMoveLeft |
 |Edge right move right|**Ctrl+Shift+Alt+.**| View.EdgeRightMoveRight |
 |Show property marker menu|**Ctrl+Spacebar**| View.ShowPropertyMarkerMenu |
+
+For detailed info, see [Keyboard shortcuts for XAML Designer](../xaml-tools/keyboard-shortcuts-for-xaml-designer.md) and [Keyboard shortcuts in Blend for Visual Studio](../xaml-tools/keyboard-shortcuts-in-blend.md).
 
 ### <a name="bkmk_xml-text-editor-context-specific-shortcuts"></a> XML (Text) Editor: context specific shortcuts
 
@@ -1539,4 +1531,3 @@ The shortcuts specific to this context are:
 |Show content model view|**Ctrl+2**| XsdDesigner.ShowContentModelView |
 |Show graph view|**Ctrl+3**| XsdDesigner.ShowGraphView |
 |Show start view|**Ctrl+1**| XsdDesigner.ShowStartView |
-
