@@ -164,7 +164,7 @@ Hello World!
 > [!NOTE]
 > Instrumented binary contains a reference to `static_covrun64.dll`. Make sure that this file is next to the instrumented binary or the directory where `static_covrun64.dll` is located is listed in the `Path` environment variable. The `collect` and `connect` commands are adding proper directories to `Path` automatically.
 
-Finally collector can be closed as follows:
+Finally, the collector can be closed as follows:
 
 ```console
 D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console shutdown 73c34ce5-501c-4369-a4cb-04d31427d1a4
