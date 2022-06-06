@@ -128,7 +128,7 @@ You can enable native static instrumentation by enabling the preview feature **C
 
 You can also enable native static instrumentation in runsettings by adding `<EnableStaticNativeInstrumentation>True</EnableStaticNativeInstrumentation>` under `<CodeCoverage>` tag. Use this method for command line scenarios.
 
-By default dynamic native instrumentation is always enabled. If both static and dynamic instrumentation is enabled Visual Studio will try to instrument your C++ code statically but if this will not be possible (for example when `/PROFILE` link option is not enabled) dynamic instrumentation will be used. You can fully disable dynamic native instrumentation in runsettings by adding `<EnableDynamicNativeInstrumentation>False</EnableDynamicNativeInstrumentation>` under `<CodeCoverage>`.
+By default, dynamic native instrumentation is always enabled. If both static and dynamic instrumentation is enabled, Visual Studio tries to instrument your C++ code statically, but if this is not possible (for example, when the `/PROFILE` link option is not enabled), dynamic instrumentation will be used. You can fully disable dynamic native instrumentation in runsettings by adding `<EnableDynamicNativeInstrumentation>False</EnableDynamicNativeInstrumentation>` under `<CodeCoverage>`.
 
 When static native instrumentation is enabled native binaries will be instrumented and replaced on disk before test execution. Original binaries will be restored after test execution. You can disable restoring original files in runsettings by adding `<EnableStaticNativeInstrumentationRestore>False</EnableStaticNativeInstrumentationRestore>` under `<CodeCoverage>` tag. This can be especially usefull in CI scenarios.
 
