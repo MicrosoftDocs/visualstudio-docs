@@ -99,7 +99,7 @@ Hello World!
 
 ### Using only collect command with configuration
 
-If you don't want to use `instrument` command then files to be instrumented need to be specified in configuration file as follows:
+If you don't want to use the `instrument` command, then the files to be instrumented need to be specified in a configuration file as follows:
 
 ```xml
 <ModulePaths>
