@@ -146,7 +146,7 @@ Input file successfully instrumented.
 ```
 
 > [!NOTE]
-> Session ID needs to be used in this scenario to make sure that application can connect and provide data to external collector.
+> Session ID needs to be used in this scenario to make sure that the application can connect and provide data to external collector.
 
 In second step we have to start coverage collector as follows:
 
