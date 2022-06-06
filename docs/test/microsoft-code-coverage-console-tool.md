@@ -120,7 +120,7 @@ Code coverage results: output.coverage.
 
 ### Using instrument and collect commands
 
-In this case first binary needs to be instrumented as follows:
+In this case, first binary needs to be instrumented as follows:
 
 ```console
 D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console instrument ConsoleApplication.exe
