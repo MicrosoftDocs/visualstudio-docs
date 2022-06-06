@@ -585,12 +585,8 @@
           items:
           - name: COM server and container debugging
             href: com-server-and-container-debugging.md
-        - name: ActiveX control
-          items:
-          - name: Debug an ActiveX control
-            href: how-to-debug-an-activex-control.md
-          - name: Debug a data-bound ActiveX control
-            href: debugging-a-data-bound-activex-control.md
+        - name: Debug an ActiveX control
+          href: how-to-debug-an-activex-control.md
         - name: COM debugging tools
           href: com-debugging-tools.md
       - name: Debug injected code
@@ -801,7 +797,7 @@
         href: how-to-expand-and-collapse-spy-increment-trees.md
     - name: Views in Spy++
       items:
-      - name: Spy++ Views
+      - name: Spy++ views
         href: spy-increment-views.md
       - name: Windows
         items:
@@ -809,9 +805,9 @@
           href: windows-view.md
         - name: Use the Finder tool
           href: how-to-use-the-finder-tool.md
-        - name: Search for a Window in Windows View
+        - name: Search for a window in Windows View
           href: how-to-search-for-a-window-in-windows-view.md
-        - name: Display Window properties
+        - name: Display window properties
           href: how-to-display-window-properties.md
       - name: Messages
         items:
@@ -845,96 +841,26 @@
           href: how-to-search-for-a-thread-in-threads-view.md
         - name: Display thread properties
           href: how-to-display-thread-properties.md
-    - name: Spy++ Reference
+    - name: Spy++ reference
       items:
-      - name: Spy++ Reference overview
+      - name: Spy++ reference overview
         href: spy-increment-reference.md
-      - name: Menu Commands
-        items:
-        - name: Menu Commands overview
-          href: menu-commands.md
-        - name: Spy menu commands
-          href: spy-menu-commands.md
-        - name: Tree menu commands
-          href: tree-menu-commands.md
-        - name: Search menu commands
-          href: search-menu-commands.md
-        - name: View menu commands
-          href: view-menu-commands.md
-        - name: Messages menu commands
-          href: messages-menu-commands.md
-        - name: Window menu commands
-          href: window-menu-commands.md
-        - name: Help menu commands
-          href: help-menu-commands.md
-      - name: Font dialog box (Microsoft Spy++ Help)
-        href: font-dialog-box-microsoft-spy-increment-help.md
+      - name: Spy++ menu commands
+        href: menu-commands.md
       - name: Search tools for Spy++ views
-        items:
-        - name: Overview of search tools for Spy++ views
-          href: search-tools-for-spy-increment-views.md
-        - name: Find Window Dialog Box
-          href: find-window-dialog-box.md
-        - name: Window Search dialog box
-          href: window-search-dialog-box.md
-        - name: Message Search dialog box
-          href: message-search-dialog-box.md
-        - name: Process Search dialog box
-          href: process-search-dialog-box.md
-        - name: Thread Search dialog box
-          href: thread-search-dialog-box.md
-      - name: Window Properties
-        items:
-        - name: Window Properties dialog box
-          href: window-properties-dialog-box.md
-        - name: General Tab, Window Properties dialog box
-          href: general-tab-window-properties-dialog-box.md
-        - name: Styles Tab, Window Properties dialog box
-          href: styles-tab-window-properties-dialog-box.md
-        - name: Windows Tab, Window Properties dialog box
-          href: windows-tab-window-properties-dialog-box.md
-        - name: Class Tab, Window Properties dialog box
-          href: class-tab-window-properties-dialog-box.md
-        - name: Process Tab, Window Properties dialog box
-          href: process-tab-window-properties-dialog-box.md
-      - name: Message Options
-        items:
-        - name: Message Options dialog box
-          href: message-options-dialog-box.md
-        - name: Windows Tab, Message Options dialog box
-          href: windows-tab-message-options-dialog-box.md
-        - name: Messages Tab, Message Options dialog box
-          href: messages-tab-message-options-dialog-box.md
-        - name: Output Tab, Message Options dialog box
-          href: output-tab-message-options-dialog-box.md
+        href: search-tools-for-spy-increment-views.md
+      - name: Window Properties dialog box
+        href: window-properties-dialog-box.md
+      - name: Message Options dialog box
+        href: message-options-dialog-box.md
       - name: Message Properties dialog box
         href: message-properties-dialog-box.md
-      - name: Process Properties
-        items:
-        - name: Process Properties dialog box
-          href: process-properties-dialog-box.md
-        - name: General Tab, Process Properties dialog box
-          href: general-tab-process-properties-dialog-box.md
-        - name: Memory Tab, Process Properties dialog box
-          href: memory-tab-process-properties-dialog-box.md
-        - name: Page File Tab, Process Properties dialog box
-          href: page-file-tab-process-properties-dialog-box.md
-        - name: Space Tab, Process Properties dialog box
-          href: space-tab-process-properties-dialog-box.md
-      - name: Thread Properties
-        items:
-        - name: Thread Properties dialog box
-          href: thread-properties-dialog-box.md
-        - name: General Tab, Thread Properties dialog box
-          href: general-tab-thread-properties-dialog-box.md
-      - name: Other dialog boxes
-        items:
-        - name: Additional dialog boxes
-          href: other-dialog-boxes.md
-        - name: About Microsoft Spy++
-          href: about-microsoft-spy-increment.md
-        - name: Copyright notice for Spy++ help
-          href: copyright-notice-for-spy-increment-help.md
+      - name: Process Properties dialog box
+        href: process-properties-dialog-box.md
+      - name: Thread Properties dialog box
+        href: thread-properties-dialog-box.md
+      - name: About Spy++ dialog box
+        href: about-microsoft-spy-increment.md
 - name: Resources
   items:
   - name: FAQ - Find your debugging feature
