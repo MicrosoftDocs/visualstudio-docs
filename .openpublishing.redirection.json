@@ -3681,6 +3681,156 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/spy-menu-commands.md",
+      "redirect_url": "/visualstudio/debugger/menu-commands",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/tree-menu-commands.md",
+      "redirect_url": "/visualstudio/debugger/menu-commands",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/search-menu-commands.md",
+      "redirect_url": "/visualstudio/debugger/menu-commands",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/view-menu-commands.md",
+      "redirect_url": "/visualstudio/debugger/menu-commands",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/messages-menu-commands.md",
+      "redirect_url": "/visualstudio/debugger/menu-commands",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/window-menu-commands.md",
+      "redirect_url": "/visualstudio/debugger/menu-commands",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/help-menu-commands.md",
+      "redirect_url": "/visualstudio/debugger/menu-commands",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/font-dialog-box-microsoft-spy-increment-help.md",
+      "redirect_url": "/visualstudio/debugger/spy-increment-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/find-window-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/search-tools-for-spy-increment-views",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/window-search-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/search-tools-for-spy-increment-views",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/message-search-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/search-tools-for-spy-increment-views",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/process-search-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/search-tools-for-spy-increment-views",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/thread-search-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/search-tools-for-spy-increment-views",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/general-tab-window-properties-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/window-properties-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/styles-tab-window-properties-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/window-properties-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/windows-tab-window-properties-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/window-properties-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/class-tab-window-properties-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/window-properties-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/process-tab-window-properties-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/window-properties-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/windows-tab-message-options-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/message-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/messages-tab-message-options-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/message-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/output-tab-message-options-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/message-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/general-tab-process-properties-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/process-properties-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/memory-tab-process-properties-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/process-properties-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/page-file-tab-process-properties-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/process-properties-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/space-tab-process-properties-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/process-properties-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/general-tab-thread-properties-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/thread-properties-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/other-dialog-boxes.md",
+      "redirect_url": "/visualstudio/debugger/about-microsoft-spy-increment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/copyright-notice-for-spy-increment-help.md",
+      "redirect_url": "/visualstudio/debugger/about-microsoft-spy-increment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/version-compatibility-for-code-analysis-check-in-policies.md",
+      "redirect_url": "/visualstudio/code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugging-a-data-bound-activex-control.md",
+      "redirect_url": "/visualstudio/debugger/how-to-debug-an-activex-control",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/deployment/quickstart-deploy-to-azure.md",
       "redirect_url": "/visualstudio/deployment/quickstart-deploy-aspnet-web-app",
       "redirect_document_id": false
