@@ -81,7 +81,7 @@ tells MSBuild that the `Serve` target depends on the `Chop` target and the `Cook
 
 ## BeforeTargets and AfterTargets
 
-In MSBuild 4.0 and newer, you can specify target order by using the `BeforeTargets` and `AfterTargets` attributes.
+In MSBuild 4.0 and later, you can specify target order by using the `BeforeTargets` and `AfterTargets` attributes.
 
 Consider the following script.
 
