@@ -155,7 +155,7 @@ D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console collect --session
 SessionId: 73c34ce5-501c-4369-a4cb-04d31427d1a4
 ```
 
-Then application can be started as follows:
+Then the application can be started as follows:
 
 ```console
 D:\ConsoleApplication\x64\Debug>.\ConsoleApplication.exe
