@@ -45,6 +45,9 @@ ms.workload:
 
 - Page object
 
+### Graphical view
+![Classical view](https://documentation.help/MS-Visio-Developer-Reference/OMD_online_Vis10.gif)
+
 ### Application object
  The Microsoft.Office.Interop.Visio.Application object represents the Visio application, and is the parent of all of the other objects. Its members usually apply to Visio as a whole. You can use the properties and methods of the Microsoft.Office.Interop.Visio.Application and the `Microsoft.Office.Interop.Visio.ApplicationSettings` objects to control the Visio environment.
 
