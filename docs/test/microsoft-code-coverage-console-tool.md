@@ -1,7 +1,6 @@
 ---
 title: Microsoft.CodeCoverage.Console tool
 description: Learn how to use the Microsoft.CodeCoverage.Console tool to collect code coverage.
-ms.custom: SEO-VS-2022
 ms.date: 05/30/2022
 ms.topic: conceptual
 ms.author: mikejo
