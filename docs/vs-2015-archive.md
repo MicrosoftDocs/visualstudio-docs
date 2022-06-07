@@ -6,7 +6,6 @@ ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-monikerRange: ">=vs-2017"
 ---
 # Visual Studio 2015 documentation
 
