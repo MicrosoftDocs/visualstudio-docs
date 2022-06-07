@@ -16,10 +16,10 @@
       },
       {
         "files": [
-          "**/*.md",
-          "**/*.yml"
         ],
         "exclude": [
+          "**/*.md",
+          "**/*.yml",
           "**/obj/**",
           "vsdocsdocs/**",
           "**/includes/**"
