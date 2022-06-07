@@ -91,7 +91,7 @@ c:\program files (x86)\microsoft\visual studio\installer\>setup.exe update --ins
 
 ### Programatically update Visual studio by using a bootstrapper.
 
-::: moniker range=">=vs-2017"
+::: moniker range=">=vs-2019"
 
 You can update Visual Studio by programatically calling a bootstrapper from the same location that you originally installed from. All bootstrappers sourced from Microsoft hosted servers are considered from the same location. If your bootstrapper was on a network layout share, then the [network layout must be updated](create-a-network-installation-of-visual-studio.md#update-or-modify-your-layout) to contain the desired product updates.
 

@@ -148,9 +148,6 @@ Take these steps:
 Take these steps:
 
 - Make sure the Snapshot Debugger component is installed. Open the Visual Studio Installer, and check the **Snapshot Debugger** component in the Azure workload.
-::: moniker range="< vs-2019"
-- Make sure your app is supported. Currently, only ASP.NET (4.6.1+) and ASP.NET Core (2.0+) apps deployed to Azure App Services are supported.
-::: moniker-end
 ::: moniker range=">= vs-2019"
 - Make sure your app is supported:
   - Azure App Services - ASP.NET applications running on .NET Framework 4.6.1 or later.
