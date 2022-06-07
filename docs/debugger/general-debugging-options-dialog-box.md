@@ -153,10 +153,6 @@ Replaces the default debugging engine with a legacy version to enable these scen
 > Choosing Managed Compatibility mode disables some features that are implemented only in the default debugging engine. The legacy debugging engine was replaced in Visual Studio 2012.
 ::: moniker-end
 
-::: moniker range="vs-2017"
-**Use the legacy C# and VB expression evaluators**:
-The debugger will use the Visual Studio 2013 C# or Visual Basic expression evaluators rather than the Visual Studio 2015 Roslyn-based expression evaluators.
-::: moniker-end
 
 **Warn when using custom debugger visualizers against potentially unsafe processes (Managed only)**:
 Visual Studio warns you when you are using a custom debugger visualizer that is running code in the debugged process, because it could be running unsafe code.

@@ -65,16 +65,6 @@ If you have a file that applies to multiple projects, such as a readme file for 
 
 When you create a .NET Framework project, you can specify a specific version of the .NET Framework that you want the project to use. (When you create a .NET Core project, you don't specify a framework version.)
 
-::: moniker range="vs-2017"
-
-To specify a .NET Framework version, select the **Framework** drop-down menu in the **New Project** dialog box.
-
-![Screenshot of the Framework drop-down in New Project dialog box.](./media/vside-newproject-framework.png)
-
-> [!NOTE]
-> You must have .NET Framework 3.5 installed on your system to access .NET Framework versions earlier than .NET Framework 4.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -92,15 +82,6 @@ You can also create empty solutions that have no projects. This might be prefera
 
 1. On the menu bar, select **File** > **New** > **Project**.
 
-::: moniker range="vs-2017"
-
-2. In the left (**Templates**) pane, select **Other Project Types** > **Visual Studio Solutions** in the expanded list.
-
-3. In the middle pane, select **Blank Solution**.
-
-4. Enter **Name** and **Location** values for your solution, and then select **OK**.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -116,17 +97,6 @@ After you create an empty solution, you can add new or existing projects or item
 
 As mentioned earlier, you can also open code files without needing a project or solution. To learn about developing code in this way, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
-::: moniker range="vs-2017"
-
-## Create a temporary project
-
-(C# and Visual Basic only)
-
-If you create a .NET-based project without specifying a disk location, it is a temporary project. Temporary projects enable you to experiment with .NET projects. At any time while you are working with a temporary project, you can choose to save it or discard it.
-
-To create a temporary project, first go to **Tools** > **Options** > **Projects and Solutions** > **General**, and uncheck the **Save new projects when created** checkbox. Then open the **New Project** dialog box as usual.
-
-::: moniker-end
 
 ## Delete a solution, project, or item
 

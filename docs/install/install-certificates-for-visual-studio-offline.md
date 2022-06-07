@@ -29,13 +29,6 @@ There are three options for installing or updating certificates in an offline en
 
 ### Option 1 - Manually install certificates from a layout folder
 
-::: moniker range="vs-2017"
-
-When you create a [network layout](../install/create-a-network-installation-of-visual-studio.md) or a [local offline cache](../install/create-an-offline-installation-of-visual-studio.md), the necessary certificates are downloaded to the Certificates folder. You can then manually install the certificates by double-clicking each of the certificate files, and then clicking through the Certificate Manager wizard. If asked for a password, leave it blank.
-
-**Update**: For Visual Studio 2017 version 15.8 Preview 2 or later, you can manually install the certificates by right-clicking each of the certificate files, selecting Install Certificate, and then clicking through the Certificate Manager wizard.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

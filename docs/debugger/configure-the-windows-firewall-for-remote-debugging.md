@@ -89,15 +89,6 @@ For remote debugging, the following ports must be open on the remote computer:
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-|**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|
-|-|-|-|-|
-|4022|Incoming|TCP|For VS 2017. The port number increments by 2 for each Visual Studio version. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
-|4023|Incoming|TCP|For VS 2017. The port number increments by 2 for each Visual Studio version. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see  [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
-|3702|Outgoing|UDP|(Optional) Required for remote debugger discovery.|
-
-::: moniker-end
 
 
 

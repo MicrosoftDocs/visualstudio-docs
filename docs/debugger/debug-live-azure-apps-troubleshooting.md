@@ -102,10 +102,6 @@ We have resolved this in Visual Studio 2019.
 
 Take these steps:
 
-::: moniker range="vs-2017"
-
-* Verify in the Azure portal that the AppSettings for SnapshotDebugger (SNAPSHOTDEBUGGER_EXTENSION_VERSION) and InstrumentationEngine (INSTRUMENTATIONENGINE_EXTENSION_VERSION) are uppercase. If not, update the settings manually, which forces a site restart.
-::: moniker-end
 * If this error continues to persist, use one of the feedback channels described in the beginning of this article.
 
 ### (500) Internal Server Error

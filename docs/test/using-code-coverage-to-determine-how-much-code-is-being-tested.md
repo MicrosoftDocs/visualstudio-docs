@@ -24,11 +24,6 @@ Code coverage analysis can be applied to both managed (CLI) and unmanaged (nativ
 
 Code coverage is an option when you run test methods using Test Explorer. The results table shows the percentage of the code that was run in each assembly, class, and method. In addition, the source editor shows you which code has been tested.
 
-::: moniker range="vs-2017"
-
-![Code coverage results with coloring](../test/media/codecoverage1.png)
-
-::: moniker-end
 
 ## Requirements
 
@@ -36,11 +31,6 @@ The code coverage feature is available only in Visual Studio Enterprise edition.
 
 ## Analyze code coverage
 
-::: moniker range="vs-2017"
-
-1. On the **Test** menu, choose **Analyze Code Coverage**.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -293,11 +283,6 @@ To run tests from the command line, use *vstest.console.exe*. Code coverage is a
 
 1. Launch the Developer Command Prompt for Visual Studio:
 
-   ::: moniker range="vs-2017"
-
-   In the Windows **Start** menu, choose **Visual Studio 2017** > **Developer Command Prompt for VS 2017**.
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2019"
 

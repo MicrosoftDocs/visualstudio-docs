@@ -35,13 +35,7 @@ ms.workload:
 ## To add mapped folders to a project
 
 1. On the menu bar, choose **File** > **New** > **Project**.
-::: moniker range="=vs-2017"
-2. In the **New Project** dialog box, expand either the **Visual Basic** or **Visual C#** node, expand the **Office/SharePoint** node, and then choose the **SharePoint Solutions** node.
 
-3. In the list of project templates, choose the **SharePoint 2013 Visual Web Part** template.
-
-4. In the **Name** box, enter **TestProject1**, and then choose the **OK** button.
-::: moniker-end
 ::: moniker range=">=vs-2019"
 2. On the **Create a New Project** dialog select the *SharePoint Visual Web Part** for the particular version of SharePoint you have installed. For example, if you have SharePoint 2019 install select the **SharePoint 2019 Visual Web Part** template.
     [!INCLUDE[new-project-dialog-search](../sharepoint/includes/new-project-dialog-search-md.md)]

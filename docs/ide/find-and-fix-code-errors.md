@@ -31,11 +31,6 @@ The easiest way to build your project is to press **F7**, but you can also start
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-![Screenshot of the Visual Studio build project menu selection.](../ide/media/vs_ide_gs_debug_build_menu_item.png)
-
-::: moniker-end
 
 You can observe the build process in the **Output** window at the bottom of the Visual Studio UI. Errors, warnings, and build operations are displayed here. If you have errors (or if you have warnings above a configured level), your build fails. You can click on the errors and warnings to go to the line where they occurred. Rebuild your project by either pressing **F7** again (to recompile only the files with errors) or **Ctrl**+**Alt**+**F7** (for a clean and complete rebuild).
 

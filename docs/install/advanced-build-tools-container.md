@@ -17,11 +17,6 @@ ms.technology: vs-installation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-::: moniker range="vs-2017"
-
-The sample Dockerfile in [Install Build Tools into a container](build-tools-container.md) always uses the [microsoft/dotnet-framework:4.7.2](https://hub.docker.com/r/microsoft/dotnet-framework) image based on the latest microsoft/windowsservercore image and the latest Visual Studio Build Tools installer. If you publish this image to a [Docker registry](https://azure.microsoft.com/services/container-registry) for others to pull, this image might be okay for many scenarios. However, in practice it's more common to be specific about what base image you use, what binaries you download, and which tool versions you install.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -63,57 +58,6 @@ exit /b 0
 
 In the working directory, create the "Dockerfile" with the following content:
 
-::: moniker range="vs-2017"
-
-```dockerfile
-# escape=`
-
-# Use a specific tagged image.
-ARG FROM_IMAGE=mcr.microsoft.com/windows/servercore:ltsc2019
-FROM ${FROM_IMAGE}
-
-# Restore the default Windows shell for correct batch processing.
-SHELL ["cmd", "/S", "/C"]
-
-# Copy our Install script.
-COPY Install.cmd C:\TEMP\
-
-# Download collect.exe in case of an install failure.
-ADD https://aka.ms/vscollect.exe C:\TEMP\collect.exe
-
-# Use the latest release channel. For more control, specify the location of an internal layout.
-ARG CHANNEL_URL=https://aka.ms/vs/15/release/channel
-ADD ${CHANNEL_URL} C:\TEMP\VisualStudio.chman
-
-RUN `
-    # Download the Build Tools bootstrapper.
-    curl -SL --output vs_buildtools.exe https://aka.ms/vs/15/release/vs_buildtools.exe `
-    `
-    # Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload, excluding workloads and components with known issues.
-    && (call C:\TEMP\Install.cmd vs_buildtools.exe --quiet --wait --norestart --nocache `
-        --installPath C:\BuildTools `
-        --channelUri C:\TEMP\VisualStudio.chman `
-        --installChannelUri C:\TEMP\VisualStudio.chman `
-        --add Microsoft.VisualStudio.Workload.AzureBuildTools `
-        --remove Microsoft.VisualStudio.Component.Windows10SDK.10240 `
-        --remove Microsoft.VisualStudio.Component.Windows10SDK.10586 `
-        --remove Microsoft.VisualStudio.Component.Windows10SDK.14393 `
-        --remove Microsoft.VisualStudio.Component.Windows81SDK) `
-    `
-    # Cleanup
-    && del /q vs_buildtools.exe
-
-# Define the entry point for the Docker container.
-# This entry point starts the developer command prompt and launches the PowerShell shell.
-ENTRYPOINT ["C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
-```
-
-   > [!WARNING]
-   > Visual Studio 2017 version 15.8 or earlier (any product) will not properly install on mcr\.microsoft\.com\/windows\/servercore:1809 or later. No error is displayed.
-   >
-   > See [Known issues for containers](build-tools-container-issues.md) for more information.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -212,13 +156,6 @@ ENTRYPOINT ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\
 
 Run the following command to build the image in the current working directory:
 
-::: moniker range="vs-2017"
-
-```shell
-docker build -t buildtools2017:15.6.27428.2037 -t buildtools2017:latest -m 2GB .
-```
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -246,21 +183,6 @@ Optionally pass either or both `FROM_IMAGE` or `CHANNEL_URL` arguments using the
 
 This example downloads specific tools and validates that the hashes match. It also downloads the latest Visual Studio and .NET log collection utility so that if an install failure does occur, you can copy the logs to your host machine to analyze the failure.
 
-::: moniker range="vs-2017"
-
-```shell
-> docker build -t buildtools2017:15.6.27428.2037 -t buildtools2017:latest -m 2GB .
-Sending build context to Docker daemon
-
-...
-Step 8/10 : RUN C:\TEMP\Install.cmd C:\TEMP\vs_buildtools.exe --quiet --wait --norestart --nocache ...
- ---> Running in 4b62b4ce3a3c
-The command 'cmd /S /C C:\TEMP\Install.cmd C:\TEMP\vs_buildtools.exe ...' returned a non-zero code: 1603
-
-> docker cp 4b62b4ce3a3c:C:\vslogs.zip "%TEMP%\vslogs.zip"
-```
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

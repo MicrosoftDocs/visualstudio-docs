@@ -29,11 +29,7 @@ Starting in Visual Studio 2022, if you want to use Angular or Vue with ASP.NET C
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
 ::: moniker-end
-::: moniker range="vs-2017"
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
-
-::: moniker-end
 
 In this tutorial, you learn how to:
 > [!div class="checklist"]
@@ -50,9 +46,7 @@ In this tutorial, you learn how to:
     ::: moniker range="vs-2019"
     If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    If you haven't already installed Visual Studio 2017, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
-    ::: moniker-end
+
 
     If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 
@@ -74,13 +68,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **Visual C#**, then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application - C#**, then choose **OK**.
 
-    In the dialog box that appears, select **Web Application (Model-View-Controller)** in the dialog box, and then choose **Create** (or **OK**).
-
-    ![Choose the MVC template](../javascript/media/aspnet-core-ts-mvc-template.png)
-    ::: moniker-end
     If you don't see the **ASP.NET Core Web App** project template, you must add the **ASP.NET and web development** workload. For detailed instructions, see the [Prerequisites](#prerequisites).
 
     Visual Studio creates the new solution and opens your project in the right pane.

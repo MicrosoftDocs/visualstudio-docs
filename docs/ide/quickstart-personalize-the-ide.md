@@ -64,28 +64,6 @@ The default color theme for Visual Studio's user interface is **Blue**. Let's ch
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-In this how-to article, we'll customize the Visual Studio color theme from the blue theme to the dark theme. Then, we'll customize the colors for two different types of text in the code editor.
-
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
-
-## Set the color theme for the IDE
-
-The default color theme for Visual Studio's user interface is **Blue**. Let's change it to **Dark**.
-
-1. On the menu bar, which is the row of menus such as **File** and **Edit**, choose **Tools** > **Options**.
-
-1. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
-
-   The color theme for the entire Visual Studio development environment (IDE) changes to **Dark**.
-
-   ![Visual Studio 2017 in dark theme](media/quickstart-personalize-dark-theme.png)
-
-> [!TIP]
-> You can install additional predefined themes by installing the **Visual Studio Color Theme Editor** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor). After you install this tool, additional color themes appear in the **Color theme** drop-down list.
-
-::: moniker-end
 
 ## Change text colors in the editor
 

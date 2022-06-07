@@ -39,13 +39,6 @@ The **Generate From Usage** feature can be used with test frameworks that integr
 
 3. Create a new **Unit Test Project (.NET Framework)** project.
 
-   ::: moniker range="vs-2017"
-
-   The following illustration shows the **New Project** dialog box for C# templates.
-
-   ![Unit Test Project template](../ide/media/newproject_test.png)
-
-   ::: moniker-end
 
 ### Add a reference to the Class Library project
 

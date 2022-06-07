@@ -86,9 +86,7 @@ Next, we will create an application that has a few bugs.
 
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#** or **Visual Basic**, choose **Console App**, and then in the middle pane choose either **Console App (.NET Core)**. Type a name like **ConsoleApp_FirstApp** and click **OK**.
-    ::: moniker-end
+
 
     If you don't see the **Console App** project template for .NET Core, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET Core cross platform development** workload, then choose **Modify**.
 

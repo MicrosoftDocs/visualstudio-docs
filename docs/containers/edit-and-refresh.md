@@ -17,9 +17,6 @@ ms.technology: vs-container-tools
 Visual Studio provides a consistent way to develop Docker containers and validate your application locally.
 You can run and debug your apps in Linux or Windows containers running on your local Windows desktop with Docker installed, and you don't have to restart the container each time you make a code change.
 
-:::moniker range="vs-2017"
-This article illustrates how to use Visual Studio to start an app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized apps. Supported project types include web app and console app targeting .NET Framework and .NET Core. The examples presented in this article, are an ASP.NET Core web application and a .NET Framework console application.
-:::moniker-end
 
 :::moniker range=">=vs-2019"
 This article illustrates how to use Visual Studio to start an app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized apps. Supported project types include web app, console app, and Azure Function targeting .NET Framework and .NET Core. The examples presented in this article, are a project of type ASP.NET Core Web App and a project of type Console App (.NET Framework).
@@ -31,11 +28,6 @@ If you already have a project of a supported type, Visual Studio can create a Do
 
 To debug apps in a local Docker container, the following tools must be installed:
 
-::: moniker range="vs-2017"
-
-* [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) with the Web Development workload installed
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -55,9 +47,6 @@ To run Docker containers locally, you must have a local Docker client. You can u
 
 If you have a project and you've added Docker support as described in the [overview](overview.md), skip this section.
 
-::: moniker range="vs-2017"
-[!INCLUDE [create-aspnet5-app](../azure/includes/create-aspnet5-app.md)]
-::: moniker-end
 ::: moniker range="vs-2019"
 [!INCLUDE [create-aspnet5-app-2019](../azure/includes/vs-2019/create-aspnet5-app-2019.md)]
 ::: moniker-end
