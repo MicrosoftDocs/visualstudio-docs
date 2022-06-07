@@ -1,8 +1,8 @@
 ---
 title: Code coverage testing
 description: Learn how to use the code coverage feature of Visual Studio to determine what proportion of your project code is being tested by coded tests.
-ms.custom: SEO-VS-2020
-ms.date: 07/23/2019
+ms.custom: SEO-VS-2020, devdivchpfy22
+ms.date: 06/23/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - code coverage
@@ -25,7 +25,7 @@ Code coverage is an option when you run test methods using Test Explorer. The re
 
 ::: moniker range="vs-2017"
 
-![Code coverage results with coloring](../test/media/codecoverage1.png)
+:::image type="content" source="media/codecoverage1.png" alt-text="Screenshot of Code coverage results with coloring.":::
 
 ::: moniker-end
 
@@ -45,29 +45,30 @@ The code coverage feature is available only in Visual Studio Enterprise edition.
 
 1. On the **Test** menu, select **Analyze Code Coverage for All Tests**.
 
-   ![Analyze code coverage menu in VS 2019](../test/media/vs-2019/analyze-code-coverage.png)
+    :::image type="content" source="media/vs-2019/analyze-code-coverage.png" alt-text="Screenshot of Analyze code coverage menu in VS 2019.":::
 
    You can also run code coverage from the Test Explorer tool window.
 
 ::: moniker-end
 
-2. After the tests have run, to see which lines have been run, choose ![Show Code Coverage Coloring icon](../test/media/codecoverage-showcoloringicon.png) **Show Code Coverage Coloring** in the **Code Coverage Results** window. By default, code that is covered by tests is highlighted in light blue.
+1. After the tests have run, to see which lines have been run, choose :::image type="content" source="media/codecoverage-showcoloringicon.png" alt-text="Screenshot of Show Code Coverage Coloring icon."::: **Show Code Coverage Coloring** in the **Code Coverage Results** window. By default, code that is covered by tests is highlighted in light blue.
 
    > [!TIP]
    > To change the colors or to use bold face, choose **Tools** > **Options** > **Environment** > **Fonts and Colors** > **Show settings for: Text Editor**. Under **Display items**, adjust settings for the "Coverage" items, for example, **Coverage Not Touched Area**.
    >
-   > ![Code coverage fonts and colors](media/vs-2019/coverage-fonts-and-colors.png)
+   > :::image type="content" source="media/vs-2019/coverage-fonts-and-colors.png" alt-text="Screenshot showing code coverage fonts and colors":::
 
-3. If the results show low coverage, investigate which parts of the code are not being exercised, and write more tests to cover them. Development teams typically aim for about 80% code coverage. In some situations, lower coverage is acceptable. For example, lower coverage is acceptable where some code is generated from a standard template.
+1. If the results show low coverage, investigate which parts of the code aren't being exercised, and write more tests to cover them. Development teams typically aim for about 80% code coverage. In some situations, lower coverage is acceptable. For example, lower coverage is acceptable where some code is generated from a standard template.
 
 > [!TIP]
+
 > - Turn compiler optimization off
 > - If you're working with unmanaged (native) code, use a debug build
 > - Generate .pdb (symbol) files for each assembly
 
 If you don't get the results you expect, see [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md).
 
-Don't forget to run code coverage again after updating your code. Coverage results and code coloring are not automatically updated after you modify your code or when you run tests.
+Don't forget to run code coverage again after updating your code. Coverage results and code coloring aren't automatically updated after you modify your code or when you run tests.
 
 ## Report in blocks or lines
 
@@ -92,7 +93,7 @@ You can merge the results of several runs, for example from runs that use differ
 
    The coverage coloring might be incorrect if the source code has changed since the *.coverage* file was generated.
 
-- **To make results readable as text**, choose **Export Code Coverage Results**. This generates a readable *.coveragexml* file, which you could process with other tools or send easily in mail.
+- **To make results readable as text**, choose **Export Code Coverage Results**. This generates a readable.coveragexml* file, which you could process with other tools or send easily in mail.
 
 - **To send results to someone else**, send either a *.coverage* file or an exported *.coveragexml* file. They can then import the file. If they have the same version of the source code, they can see coverage coloring.
 
@@ -108,7 +109,7 @@ Use **Export Code Coverage Results** to save the results of a merge operation.
 
 ### Limitations in merging
 
-- If you merge coverage data from different versions of the code, the results are shown separately, but they are not combined. To get fully combined results, use the same build of the code, changing only the test data.
+- If you merge coverage data from different versions of the code, the results are shown separately, but they aren't combined. To get fully combined results, use the same build of the code, changing only the test data.
 
 - If you merge a results file that has been exported and then imported, you can only view the results by lines, not by blocks. Use the **Add/Remove Columns** command to show the line data.
 
@@ -289,7 +290,7 @@ To run tests from the command line, use *vstest.console.exe*. Code coverage is a
 
    ::: moniker-end
 
-2. At the command prompt, run the following command:
+1. At the command prompt, run the following command:
 
    ```shell
    vstest.console.exe MyTestAssembly.dll /EnableCodeCoverage
@@ -299,7 +300,7 @@ For more information, see [VSTest.Console.exe command-line options](vstest-conso
 
 ## Troubleshoot
 
-If you do not see code coverage results, the [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md) article might help you.
+If you don't see code coverage results, the [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md) article might help you.
 
 ## See also
 
