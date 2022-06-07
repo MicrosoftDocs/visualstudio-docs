@@ -1,8 +1,8 @@
 ---
 title: "Create projects & solutions"
-description: Learn how to create and use Visual Studio solutions and projects to store artifacts. 
+description: Learn how to create and use Visual Studio solutions and projects to store artifacts.
 ms.custom: "SEO-VS-2020, contperf-fy21q2"
-ms.date: 06/14/2021
+ms.date: 06/07/2022
 ms.topic: how-to
 f1_keywords:
 - vs.openprojectfromweb
@@ -68,9 +68,19 @@ When you create a .NET Framework project, you can specify a specific version of 
 
 ::: moniker range=">=vs-2019"
 
-To specify a .NET Framework version, select the **Framework** drop-down menu on the **Create a new project** page.
+To specify a .NET Framework version, select the **Framework** drop-down menu on the **Configure your new project** page.
 
-![Screenshot of the Framework selector in the 'Configure new project' dialog box.](media/vs-2019/configure-new-project-framework.png)
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+![Screenshot of the Framework selector in the 'Configure new project' dialog box in Visual Studio 2019.](media/vs-2019/configure-new-project-framework.png)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/configure-new-project-framework.png" alt-text="Screenshot of the Framework selector in the 'Configure new project' dialog box.":::
 
 ::: moniker-end
 
