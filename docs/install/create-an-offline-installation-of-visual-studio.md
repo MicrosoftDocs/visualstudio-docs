@@ -42,17 +42,6 @@ Download the bootstrapper for the edition of Visual Studio you want and copy it 
 
 ### Step 1 - Download the Visual Studio bootstrapper
 
-::: moniker range="vs-2017"
-
-To get the latest bootstrappers for Visual Studio 2017 version 15.9, download one of the files below. These bootstrappers will always install the latest version of Visual Studio 2017, no matter when you run them.
-
-| Edition                                      | Bootstrapper            |
-|----------------------------------------------|---------------------|
-| Visual Studio 2017 Professional version 15.9 | [vs_professional.exe](https://aka.ms/vs/15/release/vs_professional.exe) |
-| Visual Studio 2017 Enterprise version 15.9   | [vs_enterprise.exe](https://aka.ms/vs/15/release/vs_enterprise.exe)   |
-| Visual Studio 2017 Build Tools version 15.9  | [vs_buildtools.exe](https://aka.ms/vs/15/release/vs_buildtools.exe)   |
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -136,12 +125,6 @@ Open a command prompt with administrator privileges, navigate to the directory w
     vs_enterprise.exe --layout c:\localVSlayout --lang en-US
     ```
 
-::: moniker range="vs-2017"
-
-   > [!NOTE]
-   > A complete local layout of Visual Studio requires a minimum of 35 GB of disk space. For more information, see [System requirements](/visualstudio/productinfo/vs2017-system-requirements-vs/). 
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

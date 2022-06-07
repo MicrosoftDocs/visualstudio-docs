@@ -39,21 +39,6 @@ You can download agents for Visual Studio 2017, Visual Studio 2015, and Visual S
 
 These installers are available as ISO files for easy installation on virtual machines.
 
-::: moniker range="vs-2017"
-## Compatible versions of TFS, Microsoft Test Manager, the test controller, and test agent
-
-You can mix different versions of TFS, Microsoft Test Manager, the test controller, and the test agent, according to the following table:
-
-| TFS | Microsoft Test Manager with Lab Center | Controller | Agent |
-| --- | -------------------------------------- | ---------- | ----- |
-| 2017: upgrade from 2015 or new install | 2017 | 2017 | 2017 |
-| 2017: upgrade from 2015 or new install | 2017 | 2013 Update 5 | 2013 Update 5 |
-| 2017: upgrade from 2015 or new install | 2015 | 2013 Update 5 | 2013 Update 5 |
-| 2015: upgrade from 2013 | 2013 | 2013 |2013 |
-| 2015: new install | 2013 | 2013 | 2013 |
-| 2015: upgrade from 2013 or new install | 2015 | 2013 | 2013 |
-| 2013 | 2015 | 2013 | 2013 |
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 ## Compatible versions of TFS, the test controller, and test agent

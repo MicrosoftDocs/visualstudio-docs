@@ -38,13 +38,6 @@ Run settings files are optional. If you don't require any special configuration,
 
 4. Run the unit tests to use the custom run settings.
 
-::: moniker range="vs-2017"
-
-If you want to turn the custom settings off and on in the IDE, deselect or select the file in the **Test** > **Test Settings** menu.
-
-![Test settings menu with custom settings file in Visual Studio 2017](../test/media/codecoverage-settingsfile.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -59,13 +52,6 @@ If you want to turn the custom settings off and on in the IDE, deselect or selec
 
 The methods available depend on your version of Visual Studio.
 
-::: moniker range="vs-2017"
-To specify a run settings file in the IDE, select **Test** > **Test Settings** > **Select Test Settings File**, and then select the *.runsettings* file.
-
-![Select test settings file menu in Visual Studio 2017](media/select-test-settings-file.png)
-
-The file appears on the Test Settings menu, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

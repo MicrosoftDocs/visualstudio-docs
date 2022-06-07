@@ -67,37 +67,6 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create the Windows Forms application
 
-:::moniker range="vs-2017"
-
-Create a new **Windows Forms App (.NET Framework)** project for either C# or Visual Basic. Name the project **WindowsSearchForm**.
-
-## Create the data source
-
-This step creates a data source from a database using the **Data Source Configuration** wizard:
-
-1. To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
-
-2. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
-
-3. Select **Database** on the **Choose a Data Source Type** page, and then click **Next**.
-
-4. On the **Choose your Data Connection** page do one of the following:
-
-    - If a data connection to the Northwind sample database is available in the drop-down list, select it.
-
-    - Select **New Connection** to launch the **Add/Modify Connection** dialog box.
-
-5. If your database requires a password, select the option to include sensitive data, and then click **Next**.
-
-6. On the **Save connection string to the Application Configuration file** page, click **Next**.
-
-7. On the **Choose your Database Objects** page, expand the **Tables** node.
-
-8. Select the **Customers** table, and then click **Finish**.
-
-     The **NorthwindDataSet** is added to your project, and the **Customers** table appears in the **Data Sources** window.
-
-:::moniker-end
 
 :::moniker range=">=vs-2019"
 

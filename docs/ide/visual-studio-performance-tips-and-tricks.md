@@ -86,15 +86,6 @@ Some tools or extensions can be turned off to improve performance.
 
 For information about .NET Compiler Platform ("Roslyn") performance considerations, see [Performance considerations for large solutions](https://github.com/dotnet/roslyn/blob/master/docs/wiki/Performance-considerations-for-large-solutions.md).
 
-::: moniker range="vs-2017"
-
-- **Disable full solution analysis**
-
-    Visual Studio performs analysis on your entire solution in order to provide a rich experience about errors before invoking a build. This feature is useful to identify errors as soon as possible. However, for large solutions, this feature can consume significant memory resources. If you’re experiencing memory pressure or similar issues, you can disable this experience to free up these resources. By default, this option is enabled for Visual Basic and disabled for C#.
-
-    To disable **Full Solution Analysis**, choose **Tools** > **Options** > **Text Editor**, then select either **Visual Basic** or **C#**. Choose **Advanced** and deselect **Enable full solution analysis**.
-
-::: moniker-end
 
 - **Disable CodeLens**
 
@@ -111,11 +102,6 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
     Extensions are additional software components added to Visual Studio that provide new functionality or extend existing functionality. Extensions can often be a source of memory resource issues. If you’re experiencing memory resource problems, try disabling extensions one at a time to see how it impacts the scenario or workflow.
 
-   ::: moniker range="vs-2017"
-
-    To disable extensions, go to **Tools** > **Extensions and Updates**, and disable a particular extension.
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2019"
 

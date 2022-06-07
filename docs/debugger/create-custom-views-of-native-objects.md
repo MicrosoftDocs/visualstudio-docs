@@ -141,11 +141,6 @@ The *.natvis* files are evaluated in the following order:
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-4. The user-specific Natvis directory (for example, *%USERPROFILE%\Documents\Visual Studio 2017\Visualizers*).
-
-::: moniker-end
 
 5. The system-wide Natvis directory (*\<VS Installation Folder\>\Common7\Packages\Debugger\Visualizers*). This directory has the *.natvis* files that are installed with Visual Studio. If you have administrator permissions, you can add files to this directory.
 

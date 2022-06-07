@@ -109,9 +109,6 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 - Suggest usings for types in .NET Framework assemblies
 ::: moniker-end
 
-::: moniker range="vs-2017"
-- Suggest usings for types in reference assemblies
-::: moniker-end
 
 - Suggest usings for types in NuGet packages
 

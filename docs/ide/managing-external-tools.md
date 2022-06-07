@@ -25,14 +25,6 @@ You can call external tools from inside Visual Studio by using the **Tools** men
 
 The **Tools** menu contains several built-in commands, including:
 
-::: moniker range="vs-2017"
-
-* **Extensions and Updates** to [Manage Visual Studio Extensions](finding-and-using-visual-studio-extensions.md)
-* **Code Snippets Manager** to [Organize Code Snippets](code-snippets.md)
-* **Customize** to [Customize menus and toolbars](how-to-customize-menus-and-toolbars-in-visual-studio.md)
-* **Options** to [Set a variety of different options for the Visual Studio IDE and other tools](reference/options-dialog-box-visual-studio.md)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

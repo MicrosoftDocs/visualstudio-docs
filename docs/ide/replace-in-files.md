@@ -39,11 +39,6 @@ ms.workload:
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-:::image type="content" source="media/find-replace-files.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 2017, with the Replace in Files tab open.":::
-
-::: moniker-end
 
 You can use any of the following methods to display **Replace in Files** in the **Find and Replace** window, or use **Ctrl**+**Shift**+**H**.
 
@@ -80,17 +75,6 @@ To replace instances of the string in the **Find** textbox with another string, 
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-## Replace With
-
-To replace instances of the string in the **Find what** box with another string, enter the replacement string in the **Replace With** box. To delete instances of the string in the **Find what** box, leave this field blank. Open the list to display the 20 strings for which you searched most recently. Choose the adjacent **Expression Builder** button if you want to use one or more regular expressions in your replacement string. For more information, see [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
-
-## Display file names only
-
-When this check box is selected, the **Find Results** windows list the full names and paths for all files that contain the search string. However, the results don't include the line of code where the string appears. This check box is available for **Find in Files** only.
-
-::: moniker-end
 
 ## Keep modified files open after Replace All
 
