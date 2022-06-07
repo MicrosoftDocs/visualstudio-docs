@@ -140,18 +140,6 @@ If you choose to use a custom layout as the update channel, then be aware of the
 
 ## Using --remove
 
-::: moniker range="vs-2017"
-
-* Remove the Profiling Tools component from the default installed Visual Studio instance:
-
-  ```shell
-   vs_enterprise.exe modify ^
-   --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" ^
-   --remove Microsoft.VisualStudio.Component.DiagnosticTools ^
-   --passive
-  ```
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

@@ -24,9 +24,7 @@ If you choose an **Analyze Code Coverage** command on the **Test** menu, and if 
 ::: moniker range=">=vs-2019"
 ![Code coverage results with coloring](../test/media/vs-2019/codecoverage1.png)
 ::: moniker-end
-::: moniker range="vs-2017"
-![Code coverage results with coloring](../test/media/codecoverage1.png)
-::: moniker-end
+
 
 For more information, see [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 

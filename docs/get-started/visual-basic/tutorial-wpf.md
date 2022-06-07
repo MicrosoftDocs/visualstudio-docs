@@ -34,10 +34,6 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-::: moniker range="vs-2017"
-You need Visual Studio to complete this tutorial.
-Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) for a free version.
-::: moniker-end
 ::: moniker range="vs-2019"
 You need Visual Studio to complete this tutorial.
 Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
@@ -52,24 +48,6 @@ Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/down
 When you create an application in Visual Studio, you first create a project.
 In this tutorial, create a Windows Presentation Foundation project.
 
-::: moniker range="vs-2017"
-1. Open Visual Studio.
-
-1. On the menu bar, select **File** > **New** > **Project**.
-
-   ![Screenshot shows Visual Studio with File then New then Project selected from the menu.](media/tutorial-wpf/visual-studio-create-project.png)
-
-1. In the **New Project** dialog box, select **Installed** > **Visual Basic** > **Windows Desktop**, and then select the **WPF App (.NET Framework)** template. Name the project **HelloWPFApp**, and select **OK**.
-
-   ![Screenshot shows the New Project dialog box with the W P F app template selected.](media/tutorial-wpf/create-desktop-project.png)
-
-   Visual Studio creates the HelloWPFApp project and solution.
-   **Solution Explorer** shows the various files.
-
-   ![Screenshot shows Solution Explorer with Hello W P F App files loaded.](media/tutorial-wpf/solution-explorer.png)
-
-The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view.
-::: moniker-end
 ::: moniker range="vs-2019"
 1. Open Visual Studio.
 
@@ -249,11 +227,6 @@ To see how this process works, the first step deliberately introduces an error i
 
 1. Start the debugger again (press **F5**). You should now see the **Greetings** window of your application.
 
-   ::: moniker range="vs-2017"
-
-   ![Screenshot of the Greetings window with the TextBlock, RadioButtons, and Button controls visible. The 'Hello' radio button is selected.](media/exploreide-wpf-running-app.png)
-
-   ::: moniker-end
 
    ::: moniker range="vs-2019"
 
@@ -335,10 +308,6 @@ Advance to the next article to learn how to create a Windows Forms app in Visual
 
 For more information about Visual Studio, see these resources:
 
-::: moniker range="vs-2017"
-- [What's new in Visual Studio 2017](../../ide/whats-new-visual-studio-2017.md)
-- [Productivity tips](../../ide/productivity-features.md)
-::: moniker-end
 ::: moniker range="vs-2019"
 - [What's new in Visual Studio 2019](../../ide/whats-new-visual-studio-2019.md)
 - [Productivity tips](../../ide/productivity-features.md)

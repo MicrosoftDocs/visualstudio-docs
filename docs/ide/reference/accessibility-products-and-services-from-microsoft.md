@@ -71,12 +71,6 @@ Microsoft Support Services are subject to the prices, terms, and conditions in p
 
 For more information about how accessible technology for computers helps to improve the lives of people with disabilities, see the [Microsoft Accessibility](https://www.microsoft.com/accessibility/) website.
 
-::: moniker range="vs-2017"
-
-> [!TIP]
-> To learn more about recent accessibility updates to Visual Studio, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
-
-::: moniker-end
 
 ## See also
 

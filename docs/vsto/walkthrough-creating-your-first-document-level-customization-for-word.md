@@ -55,19 +55,7 @@ ms.workload:
 1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
 2. On the **File** menu, point to **New**, and then click **Project**.
-::: moniker range="vs-2017"
-3. In the templates pane, expand **Visual C#** or **Visual Basic**, and then expand **Office/SharePoint**.
 
-4. Under the expanded **Office/SharePoint** node, select the **VSTO Add-ins** node.
-
-5. In the list of project templates, select a Word VSTO document project.
-
-6. In the **Name** box, type **FirstDocumentCustomization**.
-
-7. Click **OK**.
-
-8. Select **Create a new document** from the **Visual Studio Tools for Office Project Wizard**, and click **OK**.
-::: moniker-end
 ::: moniker range=">=vs-2019"
 3. On the **Create a New Project** dialog select the **Word VSTO Document** project.
 

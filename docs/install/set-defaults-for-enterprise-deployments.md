@@ -60,17 +60,7 @@ The registry settings in this section control how and where the Visual Studio pr
 
 
 ## Controlling Administrator Updates
-::: moniker range="vs-2017"
 
-The registry settings in this section control if and how administrator updates are applied to the client machine.
-
-| **Name**                         | **Type**                    | **Default**                                         | **Description**           |
-|----------------------------------|-----------------------------|-----------------------------------------------------|---------------------------|
-| `AdministratorUpdatesEnabled`    | `REG_DWORD`                 | 0                                                   | Allows administrator updates to be applied to the client computer. If this value is missing or is set to 0, administrator updates will be blocked. This value is for administrative use. For more information, see [Enabling Administrator Updates](enabling-administrator-updates.md). |
-| `AdministratorUpdatesOptOut`     | `REG_DWORD`                 | 0                                                   | Indicates that the user does not want to receive administrator updates to Visual Studio. The absence of the registry value, or a set value of 0, means that the Visual Studio user wants to receive administrator updates to Visual Studio. This is for developer user (if they have admin permissions on the client machine). For more information, see [Applying administrator updates](../install/applying-administrator-updates.md#understanding-configuration-options). |
-| `UpdateConfigurationFile`        | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%<br>\Microsoft<br>\VisualStudio<br>\updates.config | The file path for configuring Administrative Updates. For more information, see [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update).   |    
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -152,13 +142,6 @@ Windows Registry Editor Version 5.00
 
 ## Controlling notifications in the Visual Studio IDE
 
-::: moniker range="vs-2017"
-
-As described earlier, Visual Studio checks the location from which it has been installed, such as a network share or the internet, to see whether any updates are available. When an update is available, Visual Studio notifies the user with a notification flag in the top right-hand corner of the window.
-
-   ![Notification flag for updates](media/notification-flag.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -170,37 +153,6 @@ As described earlier, Visual Studio checks the location from which it has been i
 
 You can disable the notifications if you don't want end users to be notified of updates. (For example, you might want to disable notifications if you deliver updates through a central software distribution mechanism.)
 
-::: moniker range="vs-2017"
-
-Because Visual Studio 2017 [stores registry entries in a private registry](tools-for-managing-visual-studio-instances.md#editing-the-registry-for-a-visual-studio-instance), you can't directly edit the registry in the typical way. However, Visual Studio includes a `vsregedit.exe` utility that you can use to change Visual Studio settings. You can turn off notifications with the following command:
-
-```shell
-vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 0
-```
-
-You can turn notifications back on with the following command:
-
-```shell
-vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 1
-```
-
-To get back to default behavior, you can also delete the value with the following command:
-
-```shell
-vsregedit.exe remove "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override
-```
-
-After you run the command to change Visual Studio settings, start Visual Studio. Any already-running instances of Visual Studio won't change behavior until Visual Studio is shut down and restarted. As another option, you can restart the computer to make sure the setting takes effect.
-
-You can confirm the setting with the following command:
-
-```shell
-vsregedit.exe read "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword
-```
-
-If the value doesn’t exist (this is the condition by default), the previous command will indicate it failed to read the value. If you set the value, then the previous command will reflect the value in the Visual Studio configuration (it will indicate either 0 or 1, or whatever value it is set to – only 0 or 1 are expected).
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

@@ -31,11 +31,6 @@ To customize code coverage, follow these steps:
 
 2. Add the content from the example file at the end of this article, and then customize it to your needs as described in the sections that follow.
 
-::: moniker range="vs-2017"
-
-3. To select the run settings file, on the **Test** menu, choose **Test Settings** > **Select Test Settings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file-from-the-command-line).
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -48,13 +43,6 @@ To customize code coverage, follow these steps:
    > [!TIP]
    > Any previous code coverage results and code coloring aren't automatically hidden when you run tests or update your code.
 
-::: moniker range="vs-2017"
-
-To turn the custom settings off and on, deselect or select the file in the **Test** > **Test Settings** menu.
-
-![Test settings menu with custom settings file in Visual Studio 2017](../test/media/codecoverage-settingsfile.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

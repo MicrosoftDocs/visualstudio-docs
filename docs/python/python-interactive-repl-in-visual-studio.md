@@ -71,20 +71,6 @@ The exception is when additional lines of code are needed to make a complete sta
 <a name="meta-commands"></a>
 The **Interactive** window also supports several meta-commands. All meta-commands start with `$`, and you can type `$help` to get a list of the meta-commands and `$help <command>` to get usage details for a specific command.
 
-:::moniker range="<=vs-2017"
-
-| Meta-command | Description |
-| --- | --- |
-| `$$` | Inserts a comment, which is helpful to comment code throughout your session. |
-| `$attach` | Attaches the Visual Studio debugger to the REPL window process to enable debugging. |
-| `$cls`, `$clear` | Clears the contents of the editor window, leaving history and execution context intact. |
-| `$help` | Display a list of commands, or help on a specific command. |
-| `$load` | Loads commands from file and executes until complete. |
-| `$mod` | Switches the current scope to the specified module name. |
-| `$reset` | Resets the execution environment to the initial state, but keeps history. |
-| `$wait` | Waits for at least the specified number of milliseconds. |
-
-:::moniker-end
 
 :::moniker range=">=vs-2019"
 

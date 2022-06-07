@@ -39,9 +39,7 @@ In other words, the number of the port assigned to the remote debugger is increm
 ::: moniker range="vs-2019"
  TCP 4024 (in Visual Studio 2019) is the main port, and is required for all scenarios. You can configure this from either the command line or the remote debugger window.
 ::: moniker-end
-::: moniker range="vs-2017"
- TCP 4022 (in Visual Studio 2017) is the main port, and is required for all scenarios. You can configure this from either the command line or the remote debugger window.
-::: moniker-end
+
 
  In the remote debugger window, click **Tools > Options**, and set the TCP/IP port number.
 
@@ -56,9 +54,7 @@ In other words, the number of the port assigned to the remote debugger is increm
 ::: moniker range="vs-2019"
  When the 64-bit version of the remote debugger is started, it uses the main port (4024) by default.  If you debug a 32-bit process, the 64-bit version of the remote debugger starts a 32-bit version of the remote debugger on port 4025 (the main port number incremented by 1). If you run the 32-bit remote debugger, it uses 4024, and 4025 is not used.
 ::: moniker-end
-::: moniker range="vs-2017"
- When the 64-bit version of the remote debugger is started, it uses the main port (4022) by default.  If you debug a 32-bit process, the 64-bit version of the remote debugger starts a 32-bit version of the remote debugger on port 4023 (the main port number incremented by 1). If you run the 32-bit remote debugger, it uses 4022, and 4023 is not used.
-:::moniker-end
+
 
  This port is configurable from the command line: **Msvsmon /wow64port \<port number>**.
 

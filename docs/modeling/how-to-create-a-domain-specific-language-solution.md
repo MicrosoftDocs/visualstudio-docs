@@ -39,11 +39,6 @@ Before you can start this procedure, install these components:
    > [!NOTE]
    > Preferably, the name that you choose for the project should be a valid Visual C# identifier because it might be used to generate code.
 
-   ::: moniker range="vs-2017"
-
-   ![Create DSL dialog](../modeling/media/create_dsldialog.png)
-
-   ::: moniker-end
 
 2. Choose a DSL template.
 
