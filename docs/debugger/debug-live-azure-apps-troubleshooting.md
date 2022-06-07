@@ -102,10 +102,6 @@ We have resolved this in Visual Studio 2019.
 
 Take these steps:
 
-::: moniker range="vs-2017"
-
-* Verify in the Azure portal that the AppSettings for SnapshotDebugger (SNAPSHOTDEBUGGER_EXTENSION_VERSION) and InstrumentationEngine (INSTRUMENTATIONENGINE_EXTENSION_VERSION) are uppercase. If not, update the settings manually, which forces a site restart.
-::: moniker-end
 * If this error continues to persist, use one of the feedback channels described in the beginning of this article.
 
 ### (500) Internal Server Error
@@ -152,9 +148,6 @@ Take these steps:
 Take these steps:
 
 - Make sure the Snapshot Debugger component is installed. Open the Visual Studio Installer, and check the **Snapshot Debugger** component in the Azure workload.
-::: moniker range="< vs-2019"
-- Make sure your app is supported. Currently, only ASP.NET (4.6.1+) and ASP.NET Core (2.0+) apps deployed to Azure App Services are supported.
-::: moniker-end
 ::: moniker range=">= vs-2019"
 - Make sure your app is supported:
   - Azure App Services - ASP.NET applications running on .NET Framework 4.6.1 or later.

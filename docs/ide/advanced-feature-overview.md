@@ -21,11 +21,6 @@ This article describes features for experienced developers, or developers who ar
 
 In Visual Studio's modular installer, you choose and install the *workloads* you want. Workloads are groups of features that programming languages or platforms need to work. This modular strategy helps keep the Visual Studio installation footprint smaller, so it installs and updates faster.
 
-::: moniker range="vs-2017"
-
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -51,13 +46,6 @@ Visual Studio has a suite of tools to easily create Microsoft Azure cloud-enable
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-After you install the **Azure development** workload, the following **Cloud** templates for C# are available in the **New Project** dialog:
-
-![Cloud project templates for Visual Studio](media/cloud-project-templates.png)
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -172,27 +160,6 @@ And, for a step-by-step tutorial on how to connect to a Git or Azure DevOps repo
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-To learn more about managing Git repos in Visual Studio by using **Team Explorer**, see [Get started with Git and Azure Repos](/azure/devops/repos/git/gitquickstart?tabs=visual-studio). To learn more the Visual Studio built-in source control features, see the [Git features in Visual Studio](https://devblogs.microsoft.com/devops/new-git-features-in-visual-studio-2017/) blog post.
-
-[Azure DevOps Services](/azure/devops/index) is a suite of cloud-based services that plan, host, automate, and deploy software and promote team collaboration. DevOps Services supports both GitHub distributed version control and Team Foundation Version Control (TFVC) centralized version control. DevOps Services provides continuous build and release (CI/CD) pipelines for code stored in version control systems. DevOps Services also supports Scrum, CMMI, and Agile development methodologies. You can use DevOps Services to manage code along with bugs and work items for your project.
-
-Team Foundation Server (TFS) is the application lifecycle management hub for Visual Studio. It enables everyone involved with the development process to participate using a single solution. TFS is useful for managing heterogeneous teams and projects, too.
-
-You can connect to an Azure DevOps organization or a Team Foundation Server on your network through the Visual Studio **Team Explorer** window. From the **Team Explorer** window, you can check code into or out of source control, manage work items, start builds, and access team rooms and workspaces. To open **Team Explorer**, use the search box, or select **View** > **Team Explorer**.
-
-The following image shows the **Team Explorer** window for a solution that's hosted in Azure DevOps Services.
-
-![Screenshot of the Visual Studio Team Explorer window connected to a project.](../ide/media/vs2017_teamexplorer_devops.png)
-
-Azure DevOps is an application lifecycle management hub for Visual Studio. Azure DevOps enables everyone involved with the development process to participate using a single solution. Azure DevOps is also useful for managing heterogeneous teams and projects.
-
-You can connect to an Azure DevOps organization or Azure DevOps Server on your network through the **Team Explorer** window in Visual Studio. From the **Team Explorer** window, you can check code into or out of source control, manage work items, start builds, and access team rooms and workspaces. To open **Team Explorer**, use the search box, or select **View** > **Team Explorer**.
-
-You can also automate your build process to build code that developers check into version control. For example, you can build one or more projects nightly, or every time certain code is checked in. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts&preserve-view=true).
-
-::: moniker-end
 
 ## Next steps
 

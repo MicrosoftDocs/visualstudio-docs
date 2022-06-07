@@ -49,14 +49,7 @@ First, create a web part project by using the **Visual Web Part** project templa
 1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by using the **Run as Administrator** option.
 
 2. On the menu bar, choose **File** > **New** > **Project**.
-::: moniker range="=vs-2017"
 
-3. In the **New Project** dialog box, under either **Visual C#** or **Visual Basic**, expand **Office/SharePoint**, and then choose the **SharePoint Solutions** category.
-
-4. In the list of templates, choose the **SharePoint 2013 - Visual Web Part** template, and then choose the **OK** button.
-
-     The **SharePoint Customization Wizard** appears. By using this wizard, you can specify the site that you'll use to debug the project and the trust level of the solution.
-::: moniker-end
 ::: moniker range=">=vs-2019"
 3. On the **Create a New Project** dialog select the *SharePoint Empty Project** for the particular version of SharePoint you have installed. For example, if you have SharePoint 2019 install select the **SharePoint 2019 - Empty Project** template.
     [!INCLUDE[new-project-dialog-search](../sharepoint/includes/new-project-dialog-search-md.md)]

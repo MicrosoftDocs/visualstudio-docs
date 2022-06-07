@@ -83,12 +83,6 @@ ms.workload:
 
 7. Choose the **OK** button.
 
-   ::: moniker range="vs-2017"
-
-   > [!NOTE]
-   > Add-in projects are always saved when they are created. They cannot be created as temporary projects. For more information about temporary projects, see [Temporary projects](../ide/creating-solutions-and-projects.md#create-a-temporary-project).
-
-   ::: moniker-end
 
 ### To create a document-level customization project
 

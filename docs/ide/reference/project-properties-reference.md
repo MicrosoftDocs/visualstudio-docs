@@ -31,9 +31,6 @@ The following screenshot shows an example of a project properties page for a C# 
 :::image type="content" source="media/vs-2019/project-properties-designer.png" alt-text="Screenshot of the Project Designer in Visual Studio 2019.":::
 ::: moniker-end
 
-::: moniker range="vs-2017"
-:::image type="content" source="media/project-properties-designer-visual-studio-2017.png" alt-text="Screenshot of the Project Designer in Visual Studio 2017.":::
-::: moniker-end
 
 > [!IMPORTANT]
 > The project properties that you can access by using the Project Designer differ from the properties you can access by using the [Properties window](properties-window.md) in Solution Explorer.

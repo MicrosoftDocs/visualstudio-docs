@@ -33,10 +33,6 @@ If you're new to Python in Visual Studio, the following articles also provide fr
 - [Work with Python in Visual Studio](overview-of-python-tools-for-visual-studio.md)
 - [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md)
 
-::: moniker range="vs-2017"
-> [!Note]
-> You can't manage environments for Python code that is opened only as a folder using the **File** > **Open** > **Folder** command. Instead, [Create a Python project from existing code](quickstart-01-python-in-visual-studio-project-from-existing-code.md) to enjoy the environment features of Visual Studio.
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 > [!Note]
@@ -50,9 +46,6 @@ The environments that Visual Studio knows about are displayed in the **Python En
 - Select the **View** > **Other Windows** > **Python Environments** menu command.
 - Right-click the **Python Environments** node for a project in **Solution Explorer** and select **View All Python Environments**:
 
-::: moniker range="vs-2017"
-   ![View All Environments command in Solution Explorer-2017](media/environments/environments-view-all.png)
-::: moniker-end
 ::: moniker range="vs-2019"
    ![View All Environments command in Solution Explorer-2019](media/environments/environments-view-all-2019.png)
 ::: moniker-end
@@ -62,9 +55,6 @@ The environments that Visual Studio knows about are displayed in the **Python En
 
 In all these cases, the **Python Environments** window appears alongside **Solution Explorer**:
 
-::: moniker range="vs-2017"
-   ![Python Environments window-2017](media/environments/environments-default-view.png)
-::: moniker-end
 ::: moniker range="vs-2019"
    ![Python Environments window-2019](media/environments/environments-default-view-2019.png)
 ::: moniker-end
@@ -76,9 +66,6 @@ Visual Studio looks for installed global environments using the registry (follow
 
 When you select an environment in the list, Visual Studio displays various properties and commands for that environment on the **Overview** tab.
 
-:::moniker range="vs-2017"
- For example, you can see in the image above that the interpreter's location is **C:\Python36-32**. The four commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference 2017- Overview](python-environments-window-tab-reference.md#overview-tab).
-:::moniker-end
 
 :::moniker range="vs-2019"
  For example, you can see in the image above that the interpreter's location is **C:\Python36-32**. The four commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference 2019- Overview](python-environments-window-tab-reference.md#overview-tab).
@@ -94,11 +81,6 @@ Selecting an environment doesn't change its relation to any projects. The defaul
 
 To the right of each listed environment, is a control that opens an **Interactive** window for that environment. (In Visual Studio 2017 15.5 and earlier, another control appears that refreshes the IntelliSense database for that environment. See [Environments window tab reference](python-environments-window-tab-reference.md) for details about the database.)
 
-::: moniker range="vs-2017"
-> [!Tip]
-> When you expand the **Python Environments** window wide enough, you'll get a fuller view of your environments that is more convenient to work with.
-   > ![Python Environments window expanded view](media/environments/environments-expanded-view.png)
-::: moniker-end
 
 ::: moniker range="vs-2019"
 > [!Tip]
@@ -121,12 +103,6 @@ If no environments appear, it means Visual Studio failed to detect any Python in
 
 If you know you have a Python interpreter on your computer but Visual Studio (any version) didn't detect it, then use the **+ Custom** command to specify its location manually. See the next section, [Manually identify an existing environment](#manually-identify-an-existing-environment).
 
-::: moniker range="<=vs-2017"
-> [!Tip]
-> Visual Studio detects updates to an existing interpreter, such as upgrading Python 2.7.11 to 2.7.14 using the installers from python.org. During the installation process, the older environment disappears from the **Python Environments** list before the update appears in its place.
-
-> However, if you manually move an interpreter and its environment using the file system, Visual Studio won't know the new location. For more information, see [Move an interpreter](installing-python-interpreters.md#move-an-interpreter).
-::: moniker-end
 
 ### Types of environments
 
@@ -163,22 +139,6 @@ Visual Studio also provides a command to generate a *requirements.txt* file from
 
 A conda environment is one you create using the `conda` tool, or with integrated conda management in Visual Studio 2017 version 15.7 and higher. (Requires Anaconda or Miniconda, which are available through the Visual Studio installer, see [Install Visual Studio 2017](installing-python-support-in-visual-studio.md#visual-studio-2017)
 
-::: moniker range="vs-2017"
-
-1. Select **+ Create conda environment** in the **Python Environments** window, which opens a **Create new conda environment** tab:
-
-   ![Create tab for a new conda environment-1](media/environments/environments-conda-1.png)
-
-1. Enter a name for the environment in the **Name** field, select a base Python interpreter in the **Python** field, and select **Create**.
-
-1. The **Output** window shows progress for the new environment, with a few CLI instructions once creation is complete:
-
-   ![Successful creation of a conda environment-2](media/environments/environments-conda-2.png)
-
-1. Within Visual Studio, you can activate a conda environment for a project as you would any other environment as described on [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
-
-1. To install packages in the environment, use the [Packages tab](python-environments-window-tab-reference.md#packages-tab).
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -275,29 +235,6 @@ Visual Studio 2017 version 15.7 and later detects conda environments automatical
 
 Use the following steps to identify an environment that's installed in a non-standard location:
 
-::: moniker range="<=vs-2017"
-
-Use the following steps to identify an environment that's installed in a non-standard location (including conda environments in Visual Studio 2017 version 15.6 and earlier):
-
-1. Select **+ Custom** in the **Python Environments** window, which opens the **Configure** tab:
-
-   ![Default view for a new custom environment](media/environments/environments-custom-1.png)
-
-1. Enter a name for the environment in the **Description** field.
-
-1. Enter or browse (using **...**) to the path of the interpreter in the **Prefix path** field.
-
-1. If Visual Studio detects a Python interpreter at that location (such as the path shown below for a conda environment), it enables the **Auto Detect** command. Selecting **Auto Detect** completes the remaining fields. You can also complete those fields manually.
-
-   ![Enabling the Auto Detect command](media/environments/environments-custom-2.png)
-
-   ![Completion of environment fields after using Auto Detect](media/environments/environments-custom-3.png)
-
-1. Once the fields contain the values you want, select **Apply** to save the configuration. You can now use the environment like any other within Visual Studio.
-
-1. If you need to remove a manually identified environment, select the **Remove** command on the **Configure** tab. Autodetected environments don't provide this option. For more information, see [Configure tab](python-environments-window-tab-reference.md#configure-tab).
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -358,9 +295,6 @@ You can also review and modify details of the environment at any time in the **P
 
 If Visual Studio finds registry entries for an environment, but the path to the interpreter is invalid, then the **Python Environments** window shows the name with a strikeout font:
 
-::: moniker range="vs-2017"
-  ![The Python Environments window showing an invalid environment-2017](media/environments/environments-invalid-entry.png)
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
   ![The Python Environments window showing an invalid environment-2019-2022](media/environments/environments-invalid-entry-2019.png)

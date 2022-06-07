@@ -39,11 +39,6 @@ You will need to make a plan for how you deploy Visual Studio across your organi
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-- Make sure that each target computer meets the [minimum installation requirements](/visualstudio/productinfo/vs2017-system-requirements-vs). Note that Visual Studio does not support application virtualization solutions such as Microsoft App-V or MSIX for Windows or third-party app virtualization technologies.
-
-::: moniker-end
 
 - Clarify your security and compatibility needs. Do you need to ensure that your organization is always running the latest and most secure software?   
 

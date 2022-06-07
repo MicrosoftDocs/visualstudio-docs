@@ -39,11 +39,6 @@ A user on the client machine with sufficient permissions can [manually initiate 
 
 When Visual Studio is initially installed on the client machine, it records the location where it should check for updates. If Visual Studio was installed from Microsoft hosted servers, then it will by default look for updates from Microsoft hosted servers. If Visual Studio was installed or updated by invoking a bootstrapper on a network layout, then it will look for updates in the [location specified by the layout](automated-installation-with-response-file.md).  
 
-::: moniker range="vs-2017"
-
-In Visual Studio 2017, once the client has installed the product, the client's update location configuration is locked and unchangable. In order to configure a different source location for updates, you will need to uninstall and reinstall the product using the correct layout configuration.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -76,15 +71,6 @@ Administrators can programmatically update the client installations of Visual St
 
 ### Programatically update Visual Studio by using the Visual Studio Installer
 
-::: moniker range="vs-2017"
-
-You can initiate an update to Visual Studio by programmatically invoking the client's installer and issuing the update command. For example:
-
-```shell
-c:\program files (x86)\microsoft\visual studio\installer\>setup.exe update --installPath "C:\Program Files\Microsoft Visual Studio\2017\Enterprise" 
-```
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -105,7 +91,7 @@ c:\program files (x86)\microsoft\visual studio\installer\>setup.exe update --ins
 
 ### Programatically update Visual studio by using a bootstrapper.
 
-::: moniker range=">=vs-2017"
+::: moniker range=">=vs-2019"
 
 You can update Visual Studio by programatically calling a bootstrapper from the same location that you originally installed from. All bootstrappers sourced from Microsoft hosted servers are considered from the same location. If your bootstrapper was on a network layout share, then the [network layout must be updated](create-a-network-installation-of-visual-studio.md#update-or-modify-your-layout) to contain the desired product updates.
 

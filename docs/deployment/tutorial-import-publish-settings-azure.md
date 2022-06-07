@@ -30,12 +30,6 @@ You can use the **Publish** tool to import publish settings and then deploy your
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-* You must have Visual Studio 2017 installed and the **ASP.NET and web development** workload.
-
-    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
-::: moniker-end
 
 * Create an Azure App Service. For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
 

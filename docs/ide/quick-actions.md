@@ -30,11 +30,6 @@ Quick Actions can be used to:
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-- [Suppress](../code-quality/use-roslyn-analyzers.md#suppress-violations) a code analyzer rule violation
-
-::: moniker-end
 
 - Apply a refactoring (for example, [inline a temporary variable](../ide/reference/inline-temporary-variable.md))
 

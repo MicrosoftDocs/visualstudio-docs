@@ -31,17 +31,6 @@ The command-line options described below can either be used with the setup boots
 
 It is also possible to use the Administrator Update package, which is available to download from the [Microsoft Update Catalog](https://catalog.update.microsoft.com), to programatically update your network layout. More information how to do this can be found in the [Update or modify your layout](create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) documentation.  
 
-::: moniker range="vs-2017"
-
-To get the bootstrapper for Visual Studio 2017 version 15.9, download one of the following bootstrapper files below:
-
-| **Edition**                                  | **Bootstrapper**       |
-|----------------------------------------------|---------------------|
-| Visual Studio Enterprise 2017 version 15.9   | [vs_enterprise.exe](https://aka.ms/vs/15/release/vs_enterprise.exe)  |
-| Visual Studio Professional 2017 version 15.9 | [vs_professional.exe](https://aka.ms/vs/15/release/vs_professional.exe)  |
-| Visual Studio Build Tools 2017 version 15.9  | [vs_buildtools.exe](https://aka.ms/vs/15/release/vs_buildtools.exe)   |
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -68,12 +57,6 @@ To get the latest bootstrappers for Visual Studio 2022 that will always install 
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
->[!TIP]
->If you previously downloaded a bootstrapper file and want to verify what version it is, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio build numbers and release dates](visual-studio-build-numbers-and-release-dates.md) page.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

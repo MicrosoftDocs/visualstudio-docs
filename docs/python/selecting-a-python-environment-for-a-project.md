@@ -22,25 +22,6 @@ All new Python projects in Visual Studio are initially configured to use the def
 
 ![Global default Python environment shown in Solution Explorer](media/environments/environments-project.png)
 
-::: moniker range="vs-2017"
-To change the environment for a project, right-click the **Python Environments** node and select **Add/Remove Python Environments**. From the displayed list, which includes global, virtual, and conda environments, select all the ones you want to appear under the **Python Environments** node:
-
-![Add/Remove Python Environments dialog](media/environments/environments-add-remove.png)
-
-Once you select **OK**, all the selected environments appear under the **Python Environments** node. The currently activated environment appears in bold:
-
-![Multiple Python environments shown in Solution Explorer](media/environments/environments-project-multiple.png)
-
-To quickly activate a different environment, right-click that environment name and select **Activate environment**. Your choice is saved with the project and that environment is activated whenever you open the project in the future. If you clear all the options in the **Add/Remove Python Environments** dialog, Visual Studio activates the global default environment.
-
-The context menu on the **Python Environments** node also provides additional commands:
-
-| Command | Description |
-| --- | --- |
-| **Add Virtual Environment** | Begins the process of creating a new virtual environment in the project. See [Create a virtual environment](#create-a-virtual-environment). |
-| **Add Existing Virtual Environment** | Prompts you to select a folder that contains a virtual environment and adds it to the list under **Python Environments**, but does not activate it. See [Activate an existing virtual environment](#activate-an-existing-virtual-environment). |
-| **Create Conda environment** | Switches to the **Python Environments** *window* in which you enter a name for the environment and specify its base interpreter. See [Conda environments](managing-python-environments-in-visual-studio.md#conda-environments). |
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 To change the environment for a project, right-click the **Python Environments** node and select **Add Environment**. You can also select **Add Environment** from the environment drop-down in the Python toolbar.
@@ -70,40 +51,6 @@ In Visual Studio, a virtual environment can be activated for a project like any 
 
 Once a virtual environment is added to your project, it appears in the **Python Environments** window. You can then activate it like any other environment, and you can manage its packages.
 
-::: moniker range="vs-2017"
-### Create a virtual environment
-
-You can create a new virtual environment directly in Visual Studio as follows:
-
-1. Right-click **Python Environments** in **Solution Explorer** and select **Add Virtual Environment**, which brings up the following dialog box:
-
-    ![Creating a virtual environment](media/environments/environments-add-virtual-1.png)
-
-1. In the **Location of the virtual environment** field, specify a path for the virtual environment. If you specify a name only, the virtual environment is created within the current project in a subfolder with that name.
-
-1. Select an environment as the base interpreter and select **Create**. Visual Studio displays a progress bar while it configures the environment and downloads any necessary packages. Upon completion, the virtual environment appears in the **Python Environments** window for the containing project.
-
-1. The virtual environment is not activated by default. To activate the virtual environment for the project, right-click it and select **Activate Environment**.
-
-> [!Note]
-> If the location path identifies an existing virtual environment, Visual Studio detects the base interpreter automatically (using the *orig-prefix.txt* file in the environment's *lib* directory) and changes the **Create** button to **Add**.
->
-> If a *requirements.txt* file exists when adding a virtual environment, the **Add Virtual Environment** dialog displays an option to install the packages automatically, making it easy to recreate an environment on another computer:
->
-> ![Create virtual environment with requirements.txt](media/environments/environments-requirements-txt.png)
->
-> Either way, the result is the same as if you'd used the **Add Existing Virtual Environment** command.
-
-### Activate an existing virtual environment
-
-If you've already created a virtual environment elsewhere, you can activate it for a project as follows:
-
-1. Right-click **Python Environments** in **Solution Explorer** and select **Add Existing Virtual Environment**.
-
-1. In the **Browse** dialog that appears, navigate to and select the folder that contains the virtual environment, and select **OK**. If Visual Studio detects a *requirements.txt* file in that environment, it asks whether to install those packages.
-
-1. After a few moments, the virtual environment appears under the **Python Environments** node in **Solution Explorer**. The virtual environment is not activated by default, so right-click it and select **Activate Environment**.
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 ### Create a virtual environment
@@ -150,9 +97,6 @@ In Solution Explorer, expand any specific environment's node to quickly view the
 
 ![Python packages for an environment in Solution Explorer](media/environments/environments-installed-packages.png)
 
-::: moniker range="vs-2017"
-To install new packages, right-click the environment and select **Install Python Package** to switch to the appropriate **Packages** tab in the **Python Environments** window. Enter a search term (usually the package name) and Visual Studio displays matching packages.
-::: moniker-end
 ::: moniker range=">=vs-2019"
 To install new packages, right-click the environment and select **Manage Python Packages** (or use the package button on the Python toolbar) to switch to the appropriate **Packages** tab in the **Python Environments** window. Once in the **Packages** tab, enter a search term (usually the package name) and Visual Studio displays matching packages.
 ::: moniker-end

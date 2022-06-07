@@ -71,11 +71,6 @@ Synchronized settings for Visual Studio are turned on by default. You can turn o
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-Synchronized settings for Visual Studio are turned on by default. You can turn off synchronized settings on a computer by going to the **Tools** > **Options** > **Environment** > **Accounts** page and unselecting the **Synchronize settings across devices when signed into Visual Studio** option.
-
-::: moniker-end
 
 ::: moniker range="<=vs-2019"
 
@@ -92,24 +87,6 @@ Settings are synchronized across versions and editions of Visual Studio installe
 
 ## Side-by-side synchronized settings
 
-::: moniker range="vs-2017"
-
-Certain settings like tool window layout aren't shared between different side-by-side installations of Visual Studio. The *CurrentSettings.vssettings* file in *%userprofile%\Documents\Visual Studio 2017\Settings* is in an installation-specific folder that is similar to *%localappdata%\Microsoft\VisualStudio\15.0_xxxxxxxx\Settings*.
-
-> [!NOTE]
-> To use the new installation-specific settings, do a fresh installation. When you upgrade an existing Visual Studio installation, it uses the existing shared location.
-
-If you currently have side-by-side installations of Visual Studio and want to use the new installation-specific settings file location, follow these steps:
-
-1. Upgrade to Visual Studio 2017 version 15.3 or later.
-
-2. Use the **Import and Export Settings Wizard** to export all your existing settings to some location outside of the *%localappdata%\Microsoft\VisualStudio\15.0_xxxxxxxx* folder.
-
-3. Open the **Developer Command Prompt for VS 2017** and run `devenv /resetuserdata`.
-
-1. Open Visual Studio and import the saved settings from the exported settings file.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
