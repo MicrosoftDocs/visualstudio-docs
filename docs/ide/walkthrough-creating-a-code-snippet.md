@@ -93,12 +93,6 @@ The following XML is the basic snippet template:
 
 5. The snippet is copied to one of the following locations, depending on the code language:
 
-   ::: moniker range="vs-2017"
-
-   *%USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets*
-   *%USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\Visual Basic\My Code Snippets*
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2019"
 
@@ -113,11 +107,6 @@ The following XML is the basic snippet template:
 
 ## Description and shortcut fields
 
-::: moniker range="vs-2017"
-
-1. Description fields give more information about your code snippet when viewed in the Code Snippets Manager. The shortcut is a tag that users can type in order to insert your snippet. Edit the snippet you have added by opening the file *%USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\\[Visual C# or Visual Basic]\My Code Snippet\SquareRoot.snippet*.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

@@ -27,9 +27,6 @@ You access project properties by right-clicking the project node in **Solution E
 :::image type="content" source="media/vs-2019/properties-from-solution-explorer-context-menu.png" alt-text="Screenshot of the Solution Explorer context menu with the Properties option highlighted.":::
 ::: moniker-end
 
-::: moniker range="vs-2017"
-![Project context menu](../ide/media/vs2015_proj_prop_menu.gif)
-::: moniker-end
 
 .NET projects might also have a properties node in the project tree itself.
 
@@ -37,9 +34,6 @@ You access project properties by right-clicking the project node in **Solution E
 :::image type="content" source="media/vs-2022/properties-node-solution-explorer.png" alt-text="Screenshot of Solution Explorer with a Properties node showing.":::
 ::: moniker-end
 
-::: moniker range="vs-2017"
-![Properties node in Solution Explorer tree](../ide/media/vs2015_props_se.png)
-::: moniker-end
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Managing solution and project properties (Visual Studio for Mac)](/visualstudio/mac/managing-solutions-and-project-properties).
@@ -62,9 +56,6 @@ The following screenshot shows the **Build** property page in the Project Design
 :::image type="content" source="reference/media/vs-2019/project-properties-designer-build.png" alt-text="Screenshot of the Project Designer, with the Build tab selected.":::
 ::: moniker-end
 
-::: moniker range="vs-2017"
-![Visual Studio Project Designer](../ide/media/vs2015_proppage_build.png)
-::: moniker-end
 
 For more information about each of the property pages in **Project Designer**, see [What is the Project Designer](reference/project-properties-reference.md).
 
@@ -79,9 +70,6 @@ C++ and JavaScript projects have a different user interface for managing project
 :::image type="content" source="media/vs-2022/properties-page-cpp-console.png" alt-text="Screenshot of the C++ project properties page.":::
 ::: moniker-end
 
-::: moniker range="vs-2017"
-![Visual C&#43;&#43; project properties](../ide/media/vs2015_projprops_cpp.png)
-::: moniker-end
 
 For information about C++ project properties, see [Work with project properties (C++)](/cpp/build/working-with-project-properties). For more information about JavaScript properties, see [Property pages, JavaScript](../ide/reference/property-pages-javascript.md).
 

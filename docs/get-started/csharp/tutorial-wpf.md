@@ -23,9 +23,6 @@ By completing this tutorial, you'll become familiar with many of the tools, dial
 
 ## Prerequisites
 
-::: moniker range="vs-2017"
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?) page to install it for free.
-::: moniker-end
 ::: moniker range=">=vs-2019"
 
 - If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
@@ -36,17 +33,6 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ## Configure the IDE
 
-::: moniker range="vs-2017"
-
-When you open Visual Studio for the first time, you'll be prompted to sign in. This step is optional for this tutorial. Next you may be shown a dialog box that asks you to choose your development settings and color theme. Keep the defaults and choose **Start Visual Studio**.
-
-![Choose settings dialog box](../media/exploreide-settings.png)
-
-After Visual Studio launches, you'll see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. In the center of the application window is the **Start Page**. When you load a solution or project, editors and designers appear in the space where the **Start Page** is. When you develop an application, you'll spend most of your time in this central area.
-
-![Visual Studio 2017 IDE with General Settings applied](../media/exploreide-idewithgeneralsettings.png "Screenshot of the Visual Studio 2017 IDE with General Settings applied")
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -58,17 +44,6 @@ When you launch Visual Studio, the start window opens first. Select **Continue w
 
 When you create an application in Visual Studio, you first create a project and a solution. For this example, you'll create a Windows Presentation Foundation (WPF) project.
 
-::: moniker range="vs-2017"
-
-1. Create a new project. On the menu bar, select **File** > **New** > **Project**.
-
-     ![On the menu bar, choose File, New, Project](../media/exploreide-filenewproject.png "Screenshot showing the Visual Studio menu bar where you choose File, New, Project.")
-
-1. In the **New Project** dialog, select the **Installed** > **Visual C#** > **Windows Desktop** category, and then select the **WPF App (.NET Framework)** template. Name the project **HelloWPFApp**, and select **OK**.
-
-     ![WPF app template in Visual Studio New Project dialog](media/exploreide-newprojectcsharp.png "Screenshot of the WPF App template in the New Project dialog.")
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -455,9 +430,6 @@ As an optional step, it will avoid confusion to change the title of your applica
 
 Start the debugger again (press **F5**). You should now see the **Greetings** window of your application.
 
-::: moniker range="vs-2017"
-![Screenshot of running app](media/exploreide-wpf-running-app.png "Screenshot of the Greetings window with the TextBlock, RadioButtons, and Button controls visible. The 'Hello' radio button is selected.")
-::: moniker-end
 ::: moniker range="vs-2019"
 ![Screenshot of running app](media/vs-2019/exploreide-wpf-running-app.png "Screenshot of the Greetings window with the TextBlock, RadioButtons, and Button controls visible. The 'Hello' radio button is selected.")
 ::: moniker-end

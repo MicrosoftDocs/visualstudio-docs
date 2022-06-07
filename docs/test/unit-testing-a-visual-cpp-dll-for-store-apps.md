@@ -31,11 +31,6 @@ Start by creating a new test project. On the **File** menu, choose **New** > **P
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-Start by creating a new test project. On the **File** menu, choose **New** > **Project**. In the **New Project** dialog, expand **Installed** > **Visual C++** and choose **Windows Universal**. Then choose **Unit Test App (Universal Windows)** from the list of project templates.
-
-::: moniker-end
 
 1. In the New Project dialog, expand **Installed** > **Visual C++** and choose **Windows Universal**. Then choose **Unit Test App (Universal Windows)** from the list of project templates.
 
@@ -86,12 +81,6 @@ In **Solution Explorer**, choose the solution name. From the shortcut menu, choo
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-In **Solution Explorer**, choose the solution name. From the shortcut menu, choose **Add**, and then **New Project**.
-
-![Create the RooterLib project](../test/media/ute_cpp_windows_rooterlib_create.png)
-
-::: moniker-end
 
 1. In the **Add New Project** dialog box, choose **DLL (UWP apps)**.
 

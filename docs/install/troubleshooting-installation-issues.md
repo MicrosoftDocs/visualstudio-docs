@@ -31,11 +31,6 @@ The following steps apply to a typical online installation. For an offline insta
 
 ### Step 1 - Check whether the problem is a known issue
 
-::: moniker range="vs-2017"
-
-There are some known issues with the Visual Studio Installer that Microsoft is working on fixing. To see if there's a workaround for your problem, check the [Known Issues section of our release notes](/visualstudio/releasenotes/vs2017-relnotes#-known-issues).
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -86,15 +81,6 @@ The Visual Studio bootstrapper is a light-weight executable that initiates the i
 
 In some situations, such as when there are corrupted files, issues might require case-by-case troubleshooting. To help us help you, follow these steps:
 
-::: moniker range="vs-2017"
-
-1. Collect your setup logs. See [How to get the Visual Studio installation logs](#installation-logs) for details.
-1. Open the Visual Studio Installer, and then click **Report a problem** to open the Visual Studio Feedback tool.
-![Screenshot showing the Provide feedback button in the Visual Studio Installer.](media/report-a-problem.png)
-1. Give your problem report a title, and provide relevant details. Click **Next** to go to the **Attachments** section, and then attach the generated log file (typically, the file is at `%TEMP%\vslogs.zip`).
-1. Click **Next** to review the problem report, and then click **Submit**.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
