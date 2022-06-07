@@ -106,12 +106,6 @@ Using the **Run Mypy** command on this code generates the following error:
 
 ![Example result of mypy validating type hints](media/code-editing-type-hints-validation-error.png)
 
-::: moniker range="vs-2017"
-> [!Tip]
-> For versions of Python before 3.5, Visual Studio also displays type hints that you supply through Typeshed *stub files* (*.pyi*). You can use stub files whenever you don't want to include type hints directly in your code, or when you want to create type hints for a library that doesn't use them directly. For more information, see [Create stubs for Python modules](https://github.com/python/mypy/wiki/Creating-Stubs-For-Python-Modules) in the mypy project wiki.
->
-> At present, Visual Studio doesn't support type hints in comments.
-::: moniker-end
 ::: moniker range=">=vs-2019"
 > [!Tip]
 > For versions of Python before 3.5, Visual Studio also displays type hints that you supply through Typeshed *stub files* (*.pyi*). You can use stub files whenever you don't want to include type hints directly in your code, or when you want to create type hints for a library that doesn't use them directly. For more information, see [Create stubs for Python modules](https://github.com/python/mypy/wiki/Creating-Stubs-For-Python-Modules) in the mypy project wiki.

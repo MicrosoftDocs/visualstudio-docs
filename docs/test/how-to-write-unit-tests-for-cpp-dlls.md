@@ -64,11 +64,6 @@ Go to the procedure [To add unit tests in the same project](#sameProject).
 
       ::: moniker-end
 
-      ::: moniker range="vs-2017"
-
-      1. On the **File** menu, choose **New** > **Project** > **Visual C++** > **Test** > **C++ Unit Test Project**.
-
-      ::: moniker-end
 
   1. In **Solution Explorer**, right-click on the test project, then choose **Add** > **Reference**.
 
@@ -96,11 +91,6 @@ Go to the procedure [To add unit tests in the same project](#sameProject).
 
       ::: moniker-end
 
-      ::: moniker range="vs-2017"
-
-      1. On the **File** menu, choose **New** > **Project** > **Visual C++** > **Test** > **C++ Unit Test Project**.
-
-      ::: moniker-end
 
   1. In **Solution Explorer**, on the shortcut menu of the test project, choose **Properties**.
 

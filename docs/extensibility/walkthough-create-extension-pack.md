@@ -67,11 +67,6 @@ The Extension Pack item template creates an Extension Pack with set of extension
 
 Now that the extension is published, install it in Visual Studio and test it there.
 
-::: moniker range="vs-2017"
-
-1. In Visual Studio, on the **Tools** menu, click **Extensions and Updates**.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -93,11 +88,6 @@ Now that the extension is published, install it in Visual Studio and test it the
 
 To remove the extension from your computer:
 
-::: moniker range="vs-2017"
-
-1. In Visual Studio, on the **Tools** menu, click **Extensions and Updates**.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

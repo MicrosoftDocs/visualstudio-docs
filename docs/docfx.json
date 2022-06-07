@@ -16,6 +16,19 @@
       },
       {
         "files": [
+        ],
+        "exclude": [
+          "**/*.md",
+          "**/*.yml",
+          "**/obj/**",
+          "vsdocsdocs/**",
+          "**/includes/**"
+        ],
+        "src": ".",
+        "group": "vs-2017"
+      },
+      {
+        "files": [
           "**/*.md",
           "**/*.yml"
         ],
@@ -26,7 +39,7 @@
           "vs-2015/**"
         ],
         "src": "./",
-        "group": "vs-2017-2019"
+        "group": "vs-2019-"
       }
     ],
     "resource": [
@@ -55,11 +68,26 @@
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
+          "**/includes/**"
+        ],
+        "src": ".",
+        "group": "vs-2017"
+      },
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "vsdocsdocs/**",
           "**/includes/**",
           "vs-2015/**"
         ],
         "src": "./",
-        "group": "vs-2017-2019"
+        "group": "vs-2019-"
       }
     ],
     "overwrite": [],
@@ -138,9 +166,13 @@
         "dest": "vs-2015-dest",
         "moniker_range": "vs-2015"
       },
-      "vs-2017-2019": {
-        "dest": "vs-2017-2019-dest",
-        "moniker_range": ">= vs-2017"
+      "vs-2017": {
+        "dest": "vs-2017-dest",
+        "moniker_range": "vs-2017"
+      },
+      "vs-2019-": {
+        "dest": "vs-2019-dest",
+        "moniker_range": ">= vs-2019"
       }
     }
   }

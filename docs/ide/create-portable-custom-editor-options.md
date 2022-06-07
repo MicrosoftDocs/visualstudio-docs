@@ -28,17 +28,7 @@ When you add an EditorConfig file to your project in Visual Studio, new lines of
 
  ::: moniker-end
 
-::: moniker range="=vs-2017"
 
-When you add an EditorConfig file to your project in Visual Studio, new lines of code are formatted based on the EditorConfig settings. The formatting of existing code isn't changed unless you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D** in the default profile). Formatting the document only affects white-space settings, such as indent style, unless you've configured Format Document to [perform additional code cleanup](../ide/code-styles-and-code-cleanup.md#apply-code-styles).
-
- ::: moniker-end
-
-::: moniker range="vs-2017"
-
-You can define which EditorConfig settings you want **Format Document** to apply on the [**Formatting** options page](reference/options-text-editor-csharp-formatting.md#format-document-settings).
-
-::: moniker-end
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [EditorConfig in Visual Studio for Mac](/visualstudio/mac/editorconfig).

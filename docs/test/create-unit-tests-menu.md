@@ -19,10 +19,6 @@ ms.workload:
 
 The **Create Unit Tests** command creates unit test method stubs. This feature allows easy configuration of a test project, the test class, and the test method stub within it.
 
-::: moniker range="vs-2017"
-> [!NOTE]
-> The **Create Unit Tests** menu command is only available for C# code that targets .NET Framework (but not .NET Core or .NET Standard).
-::: moniker-end
 ::: moniker range=">=vs-2019"
 > [!NOTE]
 > The **Create Unit Tests** menu command is only available for C# code. To use this method with .NET Core or .NET Standard, Visual Studio 2019 or later is required.

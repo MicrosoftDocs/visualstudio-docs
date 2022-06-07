@@ -38,30 +38,6 @@ Each project's file contains additional information read by the environment to p
 
 The header of a .sln file looks like this:
 
-::: moniker range="vs-2017"
-
-```
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
-MinimumVisualStudioVersion = 10.0.40219.1
-```
-
-### Definitions
-
-`Microsoft Visual Studio Solution File, Format Version 12.00`\
-Standard header that defines the file format version.
-
-`# Visual Studio 15`\
-The major version of Visual Studio that (most recently) saved this solution file. This information controls the version number in the solution icon.
-
-`VisualStudioVersion = 15.0.26730.15`\
-The full version of Visual Studio that (most recently) saved the solution file. If the solution file is saved by a newer version of Visual Studio that has the same major version, this value is not updated so as to lessen churn in solution files.
-
-`MinimumVisualStudioVersion = 10.0.40219.1`\
-The minimum (oldest) version of Visual Studio that can open this solution file.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

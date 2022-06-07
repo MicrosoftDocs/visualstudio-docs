@@ -28,10 +28,6 @@ You can run MSBuild from Visual Studio, or from the **Command Window**. In this 
 
 ## Install MSBuild
 
-::: moniker range="vs-2017"
-
-If you have Visual Studio, then you already have MSBuild installed. To install MSBuild 15 on a system that doesn't have Visual Studio, go to [Visual Studio older downloads](https://visualstudio.microsoft.com/vs/older-downloads/), expand **Visual Studio 2017** and choose the **Download** button. If you have a Visual Studio subscription, sign in and find the link to download the latest version of **Build Tools for Visual Studio 2017**. If you don't have a Visual Studio subscription, you can still install the latest version of the build tools. On this page, use the version selector to switch to the 2019 version of the page and follow the installation instructions.
-::: moniker-end
 
 ::: moniker range="vs-2019"
 If you have Visual Studio, then you already have MSBuild installed. With Visual Studio 2019 and later, it's installed under the Visual Studio installation folder. For a typical default installation on Windows 10, MSBuild.exe is under the installation folder in *MSBuild\Current\Bin*.
@@ -66,11 +62,7 @@ To install MSBuild on a system that doesn't have Visual Studio, go to Build Tool
 
     In the **Project name** box, type `BuildApp`. Enter a **Location** for the solution, for example, *D:\\*.
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **Visual C#** > **Windows Desktop**, then choose **Windows Forms App (.NET Framework)**. Then choose **OK**.
 
-    In the **Name** box, type `BuildApp`. Enter a **Location** for the solution, for example, *D:\\*. Accept the defaults for **Create directory for solution** (selected), **Add to Source Control** (not selected), and **Solution Name** (**BuildApp**).
-    ::: moniker-end
 
 1. Click **OK** or **Create** to create the project file.
 
@@ -276,14 +268,7 @@ Use this syntax to examine some of the properties in the project file.
     ```
 
     ::: moniker-end
-    ::: moniker range="vs-2017"
 
-    ```output
-    Configuration is Debug
-    MSBuildToolsPath is C:\Program Files (x86)\Microsoft Visual Studio\2017\<Visual Studio SKU>\MSBuild\15.0\Bin
-    ```
-
-    ::: moniker-end
 
 ### Conditional properties
 

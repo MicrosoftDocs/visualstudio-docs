@@ -34,13 +34,6 @@ Links to [/langversion (C# compiler options)](/dotnet/csharp/language-reference/
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-Specifies the version of the language to use. The feature set is different in each version, so this option can be used to force the compiler to allow only a subset of the implemented features, or to enable only those features compatible with an existing standard.
-
-The default value is C# 7.0.
-
-::: moniker-end
 
 **Internal Compiler Error Reporting**
 

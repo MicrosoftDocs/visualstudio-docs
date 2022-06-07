@@ -26,11 +26,6 @@ This article provides some suggestions to try if you find that Visual Studio is 
 
 If you're currently using an earlier version of Visual Studio, such as Visual Studio 2017 or Visual Studio 2019, download [Visual Studio 2022](https://visualstudio.microsoft.com/downloads) for free to check out its improved performance. Solutions load much faster than in earlier versions, with performance improvements in other areas too. You can install Visual Studio on a computer that has an earlier or later version of Visual Studio already installed. For more information, see [Install Visual Studio versions side-by-side](../install/install-visual-studio-versions-side-by-side.md).
 
-::: moniker range="vs-2017"
-
-If you're already using Visual Studio 2017, make sure you're running version 15.6 or later. Data shows that solutions load up to two or three times faster in version 15.6. Download it [here](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download). For more information, see the [Load solutions faster with Visual Studio 2017 version 15.6](https://devblogs.microsoft.com/visualstudio/load-solutions-faster-with-visual-studio-2017-version-15-6/) blog post.
-
-::: moniker-end
 
 ## Extensions and tool windows
 

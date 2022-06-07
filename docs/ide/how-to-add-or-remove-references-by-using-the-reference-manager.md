@@ -52,15 +52,6 @@ The Reference Manager dialog box shows different categories on the left side, de
 
 ## Add a reference
 
-::: moniker range="vs-2017"
-
-1. In **Solution Explorer**, right-click on the **References** or **Dependencies** node and choose **Add Reference**. You can also right-click on the project node and select **Add** > **Reference**.
-
-   **Reference Manager** opens and lists the available references by group.
-
-2. Specify the references to add, and then select **OK**.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

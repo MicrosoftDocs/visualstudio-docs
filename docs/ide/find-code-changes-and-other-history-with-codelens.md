@@ -26,12 +26,6 @@ CodeLens lets you stay focused on your work while you find out what happened to 
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-> [!NOTE]
-> CodeLens is available only in Visual Studio Enterprise and Professional editions. It is not available in Visual Studio Community edition.
-
-::: moniker-end
 
 See where and how the individual parts of your code are used in your solution:
 
@@ -278,12 +272,6 @@ Turn CodeLens file-level indicators on and off using the chevron icons at the bo
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-> [!TIP]
-> CodeLens is not available in Visual Studio Community edition.
-
-::: moniker-end
 
 ### Q: Why don't I see the work item details for a commit?
 

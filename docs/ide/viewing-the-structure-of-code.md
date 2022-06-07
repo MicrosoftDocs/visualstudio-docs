@@ -125,11 +125,6 @@ The **Object Browser** window displays descriptions of the code in your projects
 
 You can filter the components you want to view by using the drop-down list at the top of the window. Custom components can include managed code executables, library assemblies, type libraries, and *.ocx* files. It is not possible to add C++ custom components.
 
-::: moniker range="vs-2017"
-
-Custom settings are saved in the Visual Studio user application directory, *%APPDATA%\Microsoft\VisualStudio\15.0\ObjBrowEX.dat*.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

@@ -64,11 +64,6 @@ You can use the VSIX Project template to create an extension or to package an ex
 
 9. Close Visual Studio and then reopen it.
 
-::: moniker range="vs-2017"
-
-10. Select **Extensions and Updates** (on the **Tools** menu) and select the **Templates** category. One of the available extensions should be **My Project Template**.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

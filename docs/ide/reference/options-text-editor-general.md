@@ -55,11 +55,6 @@ This dialog box lets you change global settings for the Visual Studio code and t
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-:::image type="content" source="media/tools-options-text-editor-general.png" alt-text="Screenshot of the text editor's general settings in the Options dialog box.":::
-
-::: moniker-end
 
 ## Settings
 
