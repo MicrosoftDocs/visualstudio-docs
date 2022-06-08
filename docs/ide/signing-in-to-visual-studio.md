@@ -24,12 +24,6 @@ In this article, you'll learn:
 + How to [sign out](#sign-out-of-account) of an account
 + How to [update](#update-your-account-profile) your profile
 
-::: moniker range="vs-2017"
-
-> [!WARNING]
-> To work with resources configured for conditional access or multi-factor authentication, you need Visual Studio 2019 Update 16.6 or later. Earlier versions may trigger a degraded authentication experience, prompting reauthentication several times within the same Visual Studio session. 
-
-::: moniker-end
 
 <a name="benefits"></a>
 ## Benefits: why sign in? 
@@ -110,54 +104,6 @@ To add an additional account to Visual Studio:
 (Optional) Now you can go to **Server Explorer** and see the Azure services associated with the account you just added. In **Server Explorer**, right-click on the **Azure** node and choose **Manage and Filter Subscriptions**. Choose the new account by clicking the drop-down arrow next to the current account, and then choose which subscriptions you want to display in **Server Explorer**. You should see all the services associated with the specified subscription. Even though you're not currently signed into Visual Studio with the second account, you are signed in to that account's services and resources. The same is true for **Project** > **Add Connected Service**.
 ::: moniker-end
 
-::: moniker range="vs-2017"
-### Add an additional account to Visual Studio
-
-To add an additional account to Visual Studio:
-
-1. Choose **File** > **Account Settings**.
-
-1. Under **All Accounts**, choose **Add an account**.
-
-1. On the **Sign in to your account** page, select the account or choose **Use another account**. Follow the prompts to enter the new account credentials.
-
-(Optional) Now you can go to **Server Explorer** and see the Azure services associated with the account you just added. In **Server Explorer**, right-click on the **Azure** node and choose **Manage and Filter Subscriptions**. Choose the new account by clicking the drop-down arrow next to the current account, and then choose which subscriptions you want to display in **Server Explorer**. You should see all the services associated with the specified subscription. Even though you're not currently signed into Visual Studio with the second account, you are signed in to that account's services and resources. The same is true for **Project** > **Add Connected Service** and **Team** > **Connect to Team Foundation Server**.
-
-### Add an account using device code flow
-
-In some cases, you can't sign in or add an account in the regular manner. This can happen if Internet Explorer is blocked for some reason, or if your network is behind a firewall. To work around this, you can enable *device code flow* to add an account or reauthenticate your account. Device code flow lets you sign in using a different browser or on a different machine&mdash;either physical or virtual (VM).
-
-To sign in using device code flow:
-
-1. Open the [**Accounts**](reference/accounts-environment-options-dialog-box.md) page under **Tools** > **Options** > **Environment**, and then select **Enable device code flow when adding or re-authenticating an account**. Choose **OK** to close the options pages.
-
-1. Choose **File** > **Account Settings** to open the account management page.
-
-1. Choose **Add an account** under **All Accounts**.
-
-   A dialog box shows you a URL and a code to paste into a web browser.
-
-   ![Device code flow URL and code](media/work-with-multiple-user-accounts/device-login-code.png)
-
-1. Press **Ctrl**+**C** to copy the text of the dialog, and then choose **OK** to close the dialog. Paste the text you copied into a text editor such as Notepad. This makes it easier to copy the code in the next step.
-
-1. Navigate to the device login URL on the machine or web browser you want to use to sign in to Visual Studio, and then paste or enter the code you copied into the box that says **Code**.
-
-   The **Visual Studio** app name should appear further down on the page.
-
-1. Under **Visual Studio**, choose **Continue**.
-
-   ![Screenshot of the Device Login page showing the Continue option.](media/work-with-multiple-user-accounts/device-login-page.png)
-
-1. Follow the prompts to enter your account credentials.
-
-   A page appears telling you that you've signed into Visual Studio on your device, and that you can close the browser window.
-
-   ![Visual Studio sign in through browser complete](media/work-with-multiple-user-accounts/sign-in-browser-complete.png)
-
-1. Go back to the account management page in Visual Studio and you'll see the newly added account listed under **All Accounts**. Choose **Close**.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -216,23 +162,6 @@ The next time you open **Server Explorer**, the resources for that subscription 
 
 Azure Active Directory (Azure AD) enables support for end-user single sign-in in ASP.NET MVC web apps or AD authentication in web API services. Domain authentication is different from individual user account authentication. Users that have access to your Active Directory domain can use their existing Azure AD accounts to connect to your web applications. Microsoft 365 apps can also use domain authentication.
 
-::: moniker range="vs-2017"
-
-To see this in action, create a new **ASP.NET Core Web Application** project. In the **New ASP.NET Core Web Application** dialog box, choose the **Web Application** template, and then choose **Change Authentication**.
-
-The **Change Authentication** dialog box appears where you can choose what kind of authentication to use in your application.
-
-![Change authentication dialog for ASP.NET](../ide/media/vs2015_change_authentication.png)
-
-For more information about the different kinds of authentication in ASP.NET, see [Create ASP.NET web projects in Visual Studio](/aspnet/visual-studio/overview/2013/creating-web-projects-in-visual-studio#authentication-methods).
-
-### Access your Azure DevOps organization
-
-From the main menu, choose **Team** > **Manage Connections** to open the **Team Explorer - Connect** window. Choose **Manage Connections** > **Connect to a Project**. In the **Connect to a Project** dialog, select a project from the list (or select **Add TFS Server** and enter the URL to your server). When you select a URL, you're logged in without having to reenter your credentials.
-
-For more information, see [Connect to projects in Team Explorer](connect-team-project.md).
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

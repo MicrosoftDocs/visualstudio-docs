@@ -59,11 +59,6 @@ Code style preferences can be set for all of your C# and Visual Basic projects b
 
 Each item in the list shows a preview of the preference when selected:
 
-::: moniker range="vs-2017"
-
-![Screenshot of code style options.](media/code-style-quick-actions-dialog.png)
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -93,23 +88,6 @@ Starting in Visual Studio 2019 version 16.8, which includes the .NET 5.0 RC2 SDK
 
 ## Apply code styles
 
-::: moniker range="vs-2017"
-
-You can configure the **Format Document** command (**Edit** > **Advanced** > **Format Document**) to apply your code style settings (from an EditorConfig file or **Code Style** options) along with the regular formatting that it does (such as indentation). If an *.editorconfig* file exists for the project, those settings take precedence.
-
-> [!NOTE]
-> Applying code styles by using the **Format Document** command is only available for C# code files. This is an experimental feature.
-
-Configure which settings you want **Format Document** to apply on the [Formatting options page](reference/options-text-editor-csharp-formatting.md#format-document-settings).
-
-![Screenshot of code style settings for format document.](media/format-document-settings-experiment.png)
-
-> [!TIP]
-> Rules configured with a severity of **None** don't participate in code cleanup but can be individually applied via the **Quick Actions and Refactorings** menu.
-
-The first time you trigger the **Format Document** command, a yellow info bar prompts you to configure your code cleanup settings.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

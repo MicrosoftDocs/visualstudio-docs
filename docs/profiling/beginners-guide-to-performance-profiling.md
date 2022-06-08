@@ -121,9 +121,7 @@ We recommend that you begin analyzing your data by examining the list of functio
     ::: moniker range=">=vs-2019"
     ![Diagnostics Tools Call Tree](../profiling/media/vs-2019/diag-tools-call-tree.png "DiagToolsCallTree")
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    ![Diagnostics Tools Call Tree](../profiling/media/diag-tools-call-tree.png "DiagToolsCallTree")
-    ::: moniker-end
+
 
     |Image|Description|
     |-|-|

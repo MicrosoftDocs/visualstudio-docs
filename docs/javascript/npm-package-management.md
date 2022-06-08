@@ -115,12 +115,7 @@ Right-click a package node to take one of the following actions:
 * **Update npm Package(s)** Updates the package to the latest version, according to the SemVer range specified in *package.json*. (Run `npm update --save`.) SemVer ranges are typically specified using "~" or "^".
 * **Uninstall npm Package(s)** Uninstalls the package and removes it from *package.json* (Runs `npm uninstall --save`.)
 ::: moniker-end
-::: moniker range="vs-2017"
-Right-click a package node or the **npm** node to take one of the following actions:
-* **Install missing packages** that are listed in *package.json*
-* **Update npm packages** to the latest version
-* **Uninstall a package** and remove from *package.json*
-::: moniker-end
+
 
 >[!NOTE]
 > For help resolving issues with npm packages, see [Troubleshooting](#troubleshooting-npm-packages).

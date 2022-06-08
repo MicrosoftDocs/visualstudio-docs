@@ -23,13 +23,6 @@ open_to_public_contributors: false
 
 [!INCLUDE[workloads-components-universal-header_md](includes/workloads-components-universal-header_md.md)]
 
-::: moniker range="vs-2017"
-
-[!INCLUDE[workloads-components-header-2017_md](includes/workloads-components-header-2017_md.md)]
-
-[!include[Visual Studio Community 2017](includes/vs-2017/workload-component-id-vs-enterprise.md)]
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

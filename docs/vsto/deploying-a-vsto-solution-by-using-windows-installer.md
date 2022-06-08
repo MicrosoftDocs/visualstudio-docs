@@ -116,19 +116,14 @@ The first step is to create the setup project.
 
 1. Open the Office AddIn Project you want to deploy. For this example, we're using an Excel Add-in called ExcelAddIn.
 2. With the Office Project Open, on the **File** menu, expand **Add** and click **New Project** to add a new project.
-::: moniker range="=vs-2017"
-3. In the **Add New Project** dialog, expand **Other Project Types** in **the Project types** pane, then expand **Setup and Deployment** and then select **Visual Studio Installer**.
-4. In the **Templates** pane, select **Setup Project** from the **Visual Studio installed** templates group.
-::: moniker-end
+
 ::: moniker range="=vs-2019"
 3. On the **Add a New Project** dialog, select the **Setup Project** template.
 4. Click **Next**.
 ::: moniker-end
 
 5. In the **Name** box, type **OfficeAddInSetup**.
-::: moniker range="=vs-2017"
-6. Click **Open** to create the new setup project.
-::: moniker-end
+
 ::: moniker range="=vs-2019"
 6. Click **Create** to create the new setup project.
 ::: moniker-end

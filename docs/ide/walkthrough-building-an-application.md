@@ -18,9 +18,6 @@ In this article, you'll become more familiar with several options that you can c
 
 ## Install the sample application
 
-:::moniker range="vs-2017"
-The sample code used in this tutorial is found at [WPF samples](https://github.com/microsoft/wpf-samples). To clone the repo, use GitHub's green **Clone** button and choose a location on the local hard drive for the repo. In Visual Studio, choose **Open project**, and browse to the location you chose to clone the repo, and under that, look for *GettingStarted/WalkthroughFirstWPFApp/csharp/ExpenseItIntro.sln* to work in C#, or *GettingStarted/WalkthroughFirstWPFApp/vb/ExpenseItIntro2.sln* to work in Visual Basic.
-:::moniker-end
 
 :::moniker range=">=vs-2019"
  The sample code used in this tutorial is found at [WPF samples](https://github.com/microsoft/wpf-samples). To clone the repo, use GitHub's green **Clone** button, and choose **Clone in Visual Studio**. You can choose the location on the local hard drive to create a copy of the contents of the repo. The repo contains many solutions. If Visual Studio opens one of the solutions, close the solution and then choose **Open project or solution**, and browse to the location where you cloned the repo, and under that, look for *GettingStarted/WalkthroughFirstWPFApp/csharp/ExpenseItIntro.sln* to work in C#, or *GettingStarted/WalkthroughFirstWPFApp/vb/ExpenseItIntro2.sln* to work in Visual Basic.

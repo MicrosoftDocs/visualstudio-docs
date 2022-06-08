@@ -58,13 +58,6 @@ This article steps you through the process of using legacy analysis to analyze y
 
 3. Choose the **Code Analysis** tab.
 
-::: moniker range="vs-2017"
-
-4. Make sure that **Enable Code Analysis on Build** is selected.
-
-5. From the **Run this rule set** drop-down list, select **Microsoft All Rules**.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

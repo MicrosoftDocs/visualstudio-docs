@@ -78,13 +78,6 @@ A "solution folder" is a virtual folder that's only in **Solution Explorer**, wh
 
 After you create a new project, you can use **[Solution Explorer](use-solution-explorer.md)** to view and manage the project and solution and their associated items. The following illustration shows **Solution Explorer** with a C# solution that contains two projects:
 
-::: moniker range="vs-2017"
-
-![Screenshot of Solution Explorer with two projects.](../ide/media/vs2015_solution_explorer.png)
-
-The toolbar across the top of **Solution Explorer** has buttons to switch from a solution view to a folder view, show hidden files, collapse all nodes, and more.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

@@ -95,13 +95,6 @@ You can search across the IDE for commands, files, and options, in addition to f
 
 - **Find dialog boxes, menu commands, options, and more**. In the search box, enter keywords or phrases for the items that you're trying to find. For example, the following options appear if you enter **new project**:
 
-   ::: moniker range="vs-2017"
-
-   ![Quick Launch Results for 'new project'](../ide/media/productivity_quicklaunch.png)
-
-   **Quick Launch** displays links to create a new project, to add a new item to a project, and to the **Projects and Solutions** page in the **Options** dialog box, among others. Search results can also include project files and tool windows.
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2019"
 
@@ -147,11 +140,6 @@ Debugging can consume a lot of time, but the following tips can help you speed u
 
 You can quickly access the Developer Command Prompt, or another Visual Studio tool, if you pin it to the Start menu or the taskbar.
 
-::: moniker range="vs-2017"
-
-1. In Windows Explorer, browse to *%ProgramData%\Microsoft\Windows\Start Menu\Programs\Visual Studio 2017\Visual Studio Tools*.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

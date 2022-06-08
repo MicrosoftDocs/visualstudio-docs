@@ -82,8 +82,6 @@
         href: how-to-enforce-maintainable-code-with-a-code-analysis-check-in-policy.md
       - name: Synchronize project rule sets with check-in policy
         href: how-to-synchronize-code-project-rule-sets-with-team-project-check-in-policy.md
-      - name: Version compatibility
-        href: version-compatibility-for-code-analysis-check-in-policies.md
     - name: Migrate to .NET analyzers
       items:
       - name: Migrate from legacy analysis to .NET analyzers

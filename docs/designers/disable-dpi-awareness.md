@@ -37,15 +37,6 @@ When you open a form in the **Windows Forms Designer** on an HDPI monitor, Visua
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-The message reads **Scaling on your main display is set to 200% (192 dpi). This might cause rendering problems in the designer window.**
-
-![Screenshot of the informational bar in Visual Studio 2017 to restart in DPI-unaware mode.](./media/scaling-gold-bar.png)
-
-> [!NOTE]
-> This informational bar was introduced in Visual Studio 2017 version 15.8.
-
-::: moniker-end
 
 
 > [!TIP]

@@ -81,7 +81,7 @@ tells MSBuild that the `Serve` target depends on the `Chop` target and the `Cook
 
 ## BeforeTargets and AfterTargets
 
-In MSBuild 4.0, you can specify target order by using the `BeforeTargets` and `AfterTargets` attributes.
+In MSBuild 4.0 and later, you can specify target order by using the `BeforeTargets` and `AfterTargets` attributes.
 
 Consider the following script.
 
@@ -99,11 +99,20 @@ Consider the following script.
 To create an intermediate target `Optimize` that runs after the `Compile` target, but before the `Link` target, add the following target anywhere in the `Project` element.
 
 ```xml
-<Target Name="Optimize"
-    AfterTargets="Compile" BeforeTargets="Link">
+<Target Name="Optimize" AfterTargets="Compile">
     <Message Text="Optimizing" />
 </Target>
 ```
+
+Alternately, specify the order as
+
+```xml
+<Target Name="Optimize" BeforeTargets="Link">
+    <Message Text="Optimizing" />
+</Target>
+```
+
+It is not generally useful to specify *both* `BeforeTargets` and `AfterTargets` on the same target. As described in the next section, only the first target encountered will cause the new target to run.
 
 ## Determine the target build order
 

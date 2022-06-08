@@ -22,21 +22,14 @@
 
    Click **Finish** to save the publish profile.
    ::: moniker-end
-   ::: moniker range="vs-2017"
-   ![Screenshot of the Pick a publish target dialog in Visual Studio with the Folder `bin\Release\Publish' selected as the publish target.](../media/remotedbg_publish_local.png)
-   For a Web Forms app, choose **Custom** in the Publish dialog box, enter a profile name, and choose **OK**.
 
-   Click **Create profile** in the drop-down list (**Publish** is the default value).
-   ::: moniker-end
 
 1. Switch to a debug configuration.
 
    ::: moniker range=">=vs-2019"
    Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
    ::: moniker-end
-   ::: moniker range="vs-2017"
-   In the **Settings** dialog box, enable debugging by clicking **Next**, choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
-   ::: moniker-end
+
 
    > [!NOTE]
    > If you use a Release build, you disable debugging in the *web.config* file when you publish.
