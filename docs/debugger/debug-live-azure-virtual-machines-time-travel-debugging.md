@@ -1,8 +1,8 @@
 ---
 title: Time travel debugging for live ASP.NET apps on Azure VMs
-description: Learn how to use the Visual Studio Snapshot Debugger to record and replay live ASP.NET apps on Azure virtual machines.
+description: Use the Visual Studio Snapshot Debugger with Time Travel Debugging (TTD) to record and replay live ASP.NET apps on Azure VMs.
 ms.custom: SEO-VS-2020, kr2b-contr-experiment
-ms.date: 06/01/2022
+ms.date: 06/09/2022
 ms.topic: how-to
 helpviewer_keywords: 
   - debugger
@@ -18,16 +18,18 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Time travel debugging in Visual Studio Enterprise can record a web app running on an Azure virtual machine (VM), and then accurately reconstruct and replay the execution path. Time travel debugging integrates with the Snapshot Debugger to let you rewind and replay each line of code as many times as you want. This procedure can help you isolate and identify problems that might occur only in production environments.
+Time travel debugging in Visual Studio Enterprise can record a web app running on an Azure virtual machine (VM), and then accurately reconstruct and replay the execution path. Time Travel Debugging (TTD) was added to Visual Studio 2019 Enterprise as a preview feature, and is now integrated into the Visual Studio Snapshot Debugger.
+
+Time travel debugging lets you rewind and replay each line of code as many times as you want. This procedure can help you isolate and identify problems that might occur only in production environments.
 
 Capturing a time travel debugging recording doesn't halt your app, but it adds significant overhead to the running process. The amount of slowdown depends on factors like process size and the number of active threads.
 
 In this tutorial, you:
 
 > [!div class="checklist"]
-> * Start the Snapshot Debugger with time travel debugging enabled.
+> * Start the Snapshot Debugger with TTD.
 > * Set a snappoint and collect a time travel recording.
-> * Debug a time travel recording.
+> * Debug the time travel recording.
 
 ## Prerequisites
 
