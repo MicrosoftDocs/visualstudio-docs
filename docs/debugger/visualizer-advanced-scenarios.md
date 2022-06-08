@@ -21,9 +21,9 @@ ms.workload:
 ---
 # Advanced visualizer scenarios
 
-This article provides information that might be useful if you're writing your own custom data visualizers, particularly if the object that is being visualized or the visualizer UI itself is unusually complex.
+This article provides information that might be useful if you're writing your own custom data visualizers, particularly if the object that is being visualized or the visualizer UI itself is complex.
 
-The following examples are based on a visual studio solution that has two projects. The first corresponds to a .NET Framework 4.7.2 project that will be the *debugger-side* component for the UI logic. The second is a .NET Standard 2.0 project that will be the *debuggee-side* component so that it can be used in .NET Core applications.
+The following examples are based on a Visual Studio solution that has two projects. The first corresponds to a .NET Framework 4.7.2 project that will be the *debugger-side* component for the UI logic. The second is a .NET Standard 2.0 project that will be the *debuggee-side* component so that it can be used in .NET Core applications.
 
 The *debugger-side* will comprise a WPF window that might contain an indeterminate `ProgressBar` control that is visible on load and two labels called `DataLabel` and `ErrorLabel`, both collapsed on load. Once it finishes fetching the data from the object it is trying to visualize, the progress bar will be collapsed and the visualizer will show the data label with the relevant information. In the case of an error, the progress bar is also hidden, but it will show an error message using the error label. A simplified example is shown below:
 
@@ -74,15 +74,12 @@ namespace AdvancedVisualizer.DebuggerSide
     {
         protected override void Show(IDialogVisualizerService windowService, IVisualizerObjectProvider objectProvider)
         {
-            IAsyncVisualizerObjectProvider asyncObjectProvider = objectProvider as IAsyncVisualizerObjectProvider;
+            IAsyncVisualizerObjectProvider asyncObjectProvider = (IAsyncVisualizerObjectProvider)objectProvider;
 
-            if (asyncObjectProvider != null)
-            {
-                AdvancedVisualizerViewModel viewModel = new AdvancedVisualizerViewModel((IAsyncVisualizerObjectProvider)objectProvider);
-                Window advancedVisualizerWindow = new VisualizerDialog() { DataContext = viewModel };
+            AdvancedVisualizerViewModel viewModel = new AdvancedVisualizerViewModel(asyncObjectProvider);
+            Window advancedVisualizerWindow = new VisualizerDialog() { DataContext = viewModel };
 
-                advancedVisualizerWindow.ShowDialog();
-            }
+            advancedVisualizerWindow.ShowDialog();
         }
     }
 }
