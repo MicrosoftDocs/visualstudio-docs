@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 5/4/2022
+ms.date: 6/2/2022
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -20,6 +20,112 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Welcome to what's new in the Visual Studio docs. The following sections provide the previous three months of what's new in the Visual Studio docs.
+
+## May 2022
+
+### Code quality
+
+**Updated articles**
+
+- [Configure live code analysis for .NET](../code-quality/configure-live-code-analysis-scope-managed-code.md) - Updates for background code analysis scope
+- [Run code analysis manually for .NET](../code-quality/how-to-run-code-analysis-manually-for-managed-code.md) - Updates for background code analysis scope
+
+### Containers
+
+**Updated articles**
+
+- [Tutorial: Create a multi-container app with Docker Compose](../containers/tutorial-multicontainer.md) - use the ComposeSample with Redis cache
+
+### Debugger
+
+**Updated articles**
+
+- [Troubleshooting and known issues for snapshot debugging in Visual Studio](../debugger/debug-live-azure-apps-troubleshooting.md)
+  - Update debug-live-azure-apps-troubleshooting.md
+- [Format specifiers for C++ in the Visual Studio debugger](../debugger/format-specifiers-in-cpp.md) - Address feedback ticket 1074671
+
+### Extensibility
+
+**Updated articles**
+
+- [Visual Studio SDK error messages](../extensibility/vssdk-messages/index.md) - Edits to improve SEO and usability
+- [Visual Studio SDK analyzer error VsixCompatibility1001](../extensibility/vssdk-messages/vsixcompatibility1001.md) - Edits to improve SEO and usability
+
+### Help viewer
+
+**Updated articles**
+
+- [Accessibility features of the Help Viewer](../help-viewer/accessibility-features.md) - 603085 | Refresh Help Viewer accessibility article
+- [Override Help Viewer defaults](../help-viewer/behavior-overrides.md) - 603085 | Refresh Help Viewer articles
+- [How to: Search for topics in Help Viewer](../help-viewer/find-topics.md) - 603085 | Refresh Help Viewer articles
+
+### IDE
+
+**Updated articles**
+
+- [Code style preferences](./code-styles-and-code-cleanup.md) - update Basic to Visual Basic in Tools>Options>Text Editor topics
+- [Common Quick Actions](./common-quick-actions.md) - update Basic to Visual Basic in Tools>Options>Text Editor topics
+- [How to: Manage editor modes](./how-to-manage-editor-modes.md) - update Basic to Visual Basic in Tools>Options>Text Editor topics
+- [Options, Text Editor, Basic (Visual Basic), Advanced](./reference/options-text-editor-basic-visual-basic.md)
+  - update Basic to Visual Basic in Tools>Options>Text Editor topics
+  - Updates for background code analysis scope
+- [Set language-specific editor options](./reference/setting-language-specific-editor-options.md) - update Basic to Visual Basic in Tools>Options>Text Editor topics
+- [Synchronize Visual Studio settings across multiple computers](./synchronized-settings-in-visual-studio.md) - update 'Turn off synchronized settings on a particular computer' section
+- [Options dialog box: Environment \> Documents](./reference/documents-environment-options-dialog-box.md) - add new Auto Save All Files option
+- [Options, Text Editor, C#, Advanced](./reference/options-text-editor-csharp-advanced.md) - Updates for background code analysis scope
+- [What is the Project Designer?](./reference/project-properties-reference.md) - revise Project Designer reference links for Visual Studio 2022
+- [Sign in to Visual Studio on Windows](./signing-in-to-visual-studio.md) - Update the sign in docs
+- [Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)](./work-with-multi-factor-authentication.md) - Update the sign in docs
+
+### MS Build
+
+**Updated articles**
+
+- [Tutorial: Build an application](./walkthrough-building-an-application.md) - Build walkthough: update for Visual Studio 2022
+- [How to: Create and remove project dependencies](./how-to-create-and-remove-project-dependencies.md) - Add screenshots, links and new Build order section
+
+### Profiling
+
+**New articles**
+
+- [Threads view reports in the Concurrency Visualizer](../profiling/threads-view-reports.md)
+- [Threads view timeline reports in the Concurrency Visualizer](../profiling/threads-view-timeline-reports.md)
+- [View file read and write information to help improve performance](../profiling/use-file-io.md)
+
+**Updated articles**
+
+- [Concurrency Visualizer markers](../profiling/concurrency-visualizer-markers.md) - Refactor Concurrency Visualizer
+- [Cores View](../profiling/cores-view.md) - Refactor Concurrency Visualizer
+- [Threads view in the Concurrency Visualizer](../profiling/threads-view-parallel-performance.md) - Refactor Concurrency Visualizer
+- [Utilization view](../profiling/utilization-view.md) - Refactor Concurrency Visualizer
+
+### Python
+
+**Updated articles**
+
+- [Quickstart: Create a Python project from a template in Visual Studio](../python/quickstart-02-python-in-visual-studio-project-from-template.md) - Quickstart: Open and run Python code in a folder
+- [Quickstart: Open and run Python code in a folder](../python/quickstart-05-python-visual-studio-open-folder.md) - Quickstart: Open and run Python code in a folder
+
+### Test
+
+**Updated articles**
+
+- [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) - Updates for 17.2 code coverage feature preview
+
+### Version control
+
+**Updated articles**
+
+- [Git settings and preferences in Visual Studio](../version-control/git-settings.md) - update 'Rebase local branch when pulling' section
+
+### Community contributors
+
+The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
+
+- [hyoshioka0128](https://github.com/hyoshioka0128) - Hiroshi Yoshioka (6)
+- [softwarepronto](https://github.com/softwarepronto) (2)
+- [matei-tm](https://github.com/matei-tm) - Mircea-Tiberiu Matei (1)
+- [xparadoxical](https://github.com/xparadoxical) (1)
 
 ## April 2022
 
@@ -232,127 +338,3 @@ The following people contributed to the Visual Studio docs during this period. T
 - [sguitardude](https://github.com/sguitardude) (1)
 - [wuyuansushen](https://github.com/wuyuansushen) (1)
 
-## February 2022
-
-### Azure
-
-**Updated articles**
-
-- [Debugging an Azure cloud service or virtual machine in Visual Studio](../azure/vs-azure-tools-debug-cloud-services-virtual-machines.md) - Add Debugging Azure App Services Section
-
-### Debugger
-
-**Updated articles**
-
-- [Remote Debugging a C# or Visual Basic project in Visual Studio](../debugger/remote-debugging-csharp.md) - .NET Project Designer updates
-- [Getting Started with Visual Studio Graphics Diagnostics](../debugger/graphics/getting-started-with-visual-studio-graphics-diagnostics.md) - Windows 11 updates for debugging and profiling
-
-### Deployment
-
-**Updated articles**
-
-- [Quickstart: Publish an ASP.NET web app](../deployment/quickstart-deploy-aspnet-web-app.md) - Update and refresh for freshness and accuracy for Visual Studio 2022
-
-### Extensibility
-
-**New articles**
-
-- [How to: Troubleshoot brokered services](../extensibility/how-to-troubleshoot-brokered-services.md)
-- [Visual Studio SDK error messages](../extensibility/vssdk-messages/index.md)
-- [Visual Studio SDK analyzer error VsixCompatibility1001](../extensibility/vssdk-messages/vsixcompatibility1001.md)
-- [Best practices for designing a brokered service](../extensibility/best-practices-design-brokered-service.md)
-- [How to: Consume a brokered service](../extensibility/how-to-consume-brokered-service.md)
-- [How to: Provide a brokered service](../extensibility/how-to-provide-brokered-service.md)
-- [How to: Secure a brokered service](../extensibility/how-to-secure-brokered-service.md)
-- [Brokered service essentials](../extensibility/internals/brokered-service-essentials.md)
-- [Discovering available brokered services](../extensibility/internals/discover-available-brokered-services.md)
-- [Using and providing brokered services](../extensibility/use-and-provide-brokered-services.md)
-
-### Get started
-
-**New articles**
-
-- [Tutorial: Create an ASP.NET Core web service in F#](../get-started/tutorial-fsharp-web-app.md)
-
-**Updated articles**
-
-- [Tutorial: Create a simple Visual Basic (VB) console app](../get-started/visual-basic/tutorial-console.md) - revamped Visual Basic start-off tutorial
-- [Tutorial: Create a simple application with C\#](../get-started/csharp/tutorial-wpf.md) - Update WPF C# tutorial to fix the broken work flow
-- [Tutorial: Get started with C# and ASP.NET Core in Visual Studio](../get-started/csharp/tutorial-aspnet-core.md) - Content update for ASP.NET Core web app tutorial
-
-### IDE
-
-**Updated articles**
-
-- [Options dialog box: Text Editor \> General](./reference/options-text-editor-general.md) - add "Show bidirectional text control characters" section
-- [Customize window layouts in Visual Studio](./customizing-window-layouts-in-visual-studio.md) - add personalized color tabs info
-- [Visual Studio Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md) - Refresh screenshots for Visual Studio 2022 and add Windows 11 info
-- [Accessibility tips and tricks for Visual Studio](./reference/accessibility-tips-and-tricks.md) - update Sound instructions for Windows 11
-- [Find and replace text](./finding-and-replacing-text.md) - add table of shortcuts & commands specific to multi-caret select
-
-### Install
-
-**Updated articles**
-
-- [Applying administrator updates that use Microsoft Endpoint Configuration Manager](../install/applying-administrator-updates.md) - Enterprise Admin Installer doc updates - consolidation and clarification
-- [Troubleshoot Visual Studio installation and upgrade issues](../install/troubleshooting-installation-issues.md) - Enterprise Admin Installer doc updates - consolidation and clarification
-- [Visual Studio and servicing baselines](../install/update-servicing-baseline.md) - Enterprise Admin Installer doc updates - consolidation and clarification
-- [Visual Studio administrator guide](../install/visual-studio-administrator-guide.md) - Enterprise Admin Installer doc updates - consolidation and clarification
-
-### JavaScript
-
-**Updated articles**
-
-- [Tutorial: Create an ASP.NET Core app with Vue in Visual Studio](../javascript/tutorial-asp-net-core-with-vue.md) - Add troubleshooting info for Docker to ASP.NET Core and Vue.js article
-
-### Profiling
-
-**Updated articles**
-
-- [Analyze memory usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)](../profiling/memory-usage-without-debugging2.md) - Update for Visual Studio 2022
-
-### Python
-
-**Updated articles**
-
-Following articles were updated for Visual Studio 2022:
-
-- [Step 6: Use the Polls Django Web Project template](../python/learn-django-in-visual-studio-step-06-polls-django-web-project-template.md)
-- [Step 5: Authenticate users in Django](../python/learn-django-in-visual-studio-step-05-django-authentication.md)
-- [Step 4: Use the full Django Web Project template](../python/learn-django-in-visual-studio-step-04-full-django-project-template.md)
-- [Step 4: Run code in the debugger](../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md)
-- [Step 3: Serve static files, add pages, and use template inheritance with Flask app](../python/learn-flask-visual-studio-step-03-serve-static-files-add-pages.md)
-- [Step 3: Use the Interactive REPL window](../python/tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)
-- [Step 2: Create a Flask app with views and page templates](../python/learn-flask-visual-studio-step-02-create-app.md)
-- [Step 3: Serve static files, add pages, and use template inheritance with Django app](../python/learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md)
-- [Tutorial: Get started with the Flask web framework in Visual Studio](../python/learn-flask-visual-studio-step-01-project-solution.md)
-- [Step 2: Create a Django app with views and page templates](../python/learn-django-in-visual-studio-step-02-create-an-app.md)
-- [Tutorial: Get started with the Django web framework in Visual Studio](../python/learn-django-in-visual-studio-step-01-project-and-solution.md)
-
-### Test
-
-**Updated articles**
-
-Following articles were updated for Visual Studio 2022:
-
-- [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)
-- [How to use Google Test for C++ in Visual Studio](../test/how-to-use-google-test-for-cpp.md)
-
-### Version control
-
-**Updated articles**
-
-- [How Visual Studio makes version control easy with Git](../version-control/git-with-visual-studio.md)
-  - Add selected edits to highlight the Visual Studio 2022 version
-  - Merge the "How Visual Studio makes source control easy" content into the Overview page
-- [Browse Git repositories and compare branches in Visual Studio](../version-control/git-browse-repository.md) - Updates for Visual Studio Release 17.1
-
-### VSTO
-
-**Updated articles**
-
-Following articles were updated for Visual Studio 2022:
-
-- [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md)
-- [How to: Install the Visual Studio Tools for Office Runtime Redistributable](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md)
-- 

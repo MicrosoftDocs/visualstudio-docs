@@ -22,11 +22,6 @@ Python uses unit tests extensively to validate scenarios while designing a progr
 
 This article provides a brief outline of unit testing capabilities in Visual Studio with Python. For more on unit testing in general, see [Unit test your code](../test/unit-test-your-code.md).
 
-::: moniker range="vs-2017"
-
-[!include[Testing Python code](includes/vs-2017/unit-testing-python.md)]
-
-::: moniker-end
 
 ::: moniker range=">= vs-2019"
 

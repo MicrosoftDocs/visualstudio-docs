@@ -339,11 +339,6 @@ A user can then register CustomLibrary as the namespace under the Partners hive,
 
 Add the following registry key and value:
 
-::: moniker range="vs-2017"
-
-**HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\15.0\Dynamic Help**
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

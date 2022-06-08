@@ -47,13 +47,7 @@ The following list shows the code metrics results that Visual Studio calculates:
 
 - **Lines of Executable code** - Indicates the approximate number of executable code lines or operations. This is a count of number of operations in executable code. This metric is available starting in Visual Studio 2019 version 16.4 and Microsoft.CodeAnalysis.Metrics (2.9.5). The value is typically a close match to the previous metric, **Lines of Code**, which is the MSIL-instruction-based metric used in legacy mode.
 ::: moniker-end
-::: moniker range="vs-2017"
 
-- **Lines of Code** - Indicates the approximate number of lines in the code. The count is based on the IL code and is therefore not the exact number of lines in the source code file. A high count might indicate that a type or method is trying to do too much work and should be split up. It might also indicate that the type or method might be hard to maintain.
-
-   > [!NOTE]
-   > The [command-line version](../code-quality/how-to-generate-code-metrics-data.md#command-line-code-metrics) of the code metrics tool counts actual lines of code because it analyzes the source code instead of IL.
-::: moniker-end
 
 ## Anonymous methods
 

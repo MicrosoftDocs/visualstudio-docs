@@ -143,9 +143,6 @@ For more information about managing network connections, see:
 
 [Network information sample](https://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)
 
-::: moniker range="vs-2017"
-[Analyze energy use](../profiling/analyze-energy-use-in-store-apps.md)
-::: moniker-end
 
 [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity)
 

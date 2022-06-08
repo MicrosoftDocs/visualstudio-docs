@@ -139,12 +139,6 @@ Here's how to add sounds to program events in either Windows 11 or Windows 10.
 
 1. Click **OK**.
 
-::: moniker range="vs-2017"
-
-> [!TIP]
-> To learn more about accessibility updates, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
-
-::: moniker-end
 
 ## See also
 
