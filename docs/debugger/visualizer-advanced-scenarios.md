@@ -25,7 +25,7 @@ This article provides information that might be useful if you're writing your ow
 
 The following examples are based on a visual studio solution that has two projects. The first corresponds to a .NET Framework 4.7.2 project that will be the *debugger-side* component for the UI logic. The second is a .NET Standard 2.0 project that will be the *debuggee-side* component so that it can be used in .NET Core applications.
 
-The *debugger-side* will comprise of a WPF window that might contain an indeterminate `ProgressBar` control that is visible on load and two labels called `DataLabel` and `ErrorLabel`, both collapsed on load. Once it finishes fetching the data from the object it is trying to visualize, the progress bar will be collapsed and the visualizer will show the data label with the relevant information. In the case of an error, the progress bar is also hidden, but it will show an error message via the error label. A simplified example is shown below:
+The *debugger-side* will comprise a WPF window that might contain an indeterminate `ProgressBar` control that is visible on load and two labels called `DataLabel` and `ErrorLabel`, both collapsed on load. Once it finishes fetching the data from the object it is trying to visualize, the progress bar will be collapsed and the visualizer will show the data label with the relevant information. In the case of an error, the progress bar is also hidden, but it will show an error message using the error label. A simplified example is shown below:
 
 ```xml
 <Window x:Class="AdvancedVisualizer.DebuggerSide.VisualizerDialog"
@@ -43,7 +43,7 @@ The *debugger-side* will comprise of a WPF window that might contain an indeterm
 </Window>
 ```
 
-To simplify our examples, the `VisualizerDialog` interaction logic will have a simple constructor that registers an event handler to its `Loaded` event. This event handler will be in charge of fetching the data and will change depending on each example, so it will be shown separately in each section.
+To simplify the example, the `VisualizerDialog` interaction logic has a simple constructor that registers an event handler to its `Loaded` event. This event handler is in charge of fetching the data and changes depending on each example, so it is shown separately in each section.
 
 ```csharp
 public partial class VisualizerDialog : Window
@@ -64,7 +64,7 @@ public partial class VisualizerDialog : Window
 }
 ```
 
-The *debugger-side* will also have a view model called `AdvancedVisualizerViewModel` to handle the visualizer's logic for fetching its data from the *debuggee-side*. This will also change depending on each example, so it will be shown separately in each section. Finally, the visualizer entry point will look as follows:
+The *debugger-side* has a view model called `AdvancedVisualizerViewModel` to handle the visualizer's logic for fetching its data from the *debuggee-side*. This changes depending on each example, so it is shown separately in each section. Finally, the visualizer entry point appears as follows:
 
 ```csharp
 [assembly: DebuggerVisualizer(typeof(AdvancedVisualizer), typeof(AdvancedVisualizer.DebuggeeSide.CustomVisualizerObjectSource), Target = typeof(SomeObject), Description = "Advanced Visualizer")]
@@ -91,7 +91,7 @@ namespace AdvancedVisualizer.DebuggerSide
   > [!NOTE]
   > The avid reader will have noticed that in the code above we are performing a cast on the `objectProvider`. The reasoning behind this cast is explained in the [Using the new Async API](#using-the-new-async-api) section.
 
-The *debugee-side* will vary depending on the example, so it will also be shown separately in each section.
+The *debugee-side* varies depending on the example, so it is shown separately in each section.
 
 ## Using the new Async API
 
@@ -101,7 +101,7 @@ For compatibility reasons, the `Show` method that gets overwritten by your `Dial
 
 There are some cases when calling the default <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetDeserializableObjectAsync%2A> method on the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> will result in a Timeout Exception being thrown by the visualizer. Custom data visualizer operations are allowed only a maximum of five seconds to guarantee that Visual Studio remains responsive. That is, every call to <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetDeserializableObjectAsync%2A>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.ReplaceDataAsync%2A>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferDeserializableObjectAsync%2A>, etc., must finish execution before the time limit is reached or VS will throw an exception. Because there is no plan to provide support for changing this time constraint, visualizer implementations must handle cases where an object takes longer than five seconds to be serialized. To handle this scenario correctly, it is recommended that the visualizer handles passing data from the *debuggee-side* component to the *debugger-side* component by chunks or pieces.
 
-For example, let us imagine that you have a complex object called `VerySlowObject` that has many fields and properties that must be processed and copied over to the *debugger-side* visualizer component. Among those properties, you have `VeryLongList` which, depending on the instance of `VerySlowObject`, might be serialized within the five seconds or take a little more.
+For example, imagine that you have a complex object called `VerySlowObject` that has many fields and properties that must be processed and copied over to the *debugger-side* visualizer component. Among those properties, you have `VeryLongList` which, depending on the instance of `VerySlowObject`, might be serialized within the five seconds or take a little more.
 
 ```csharp
 public class VerySlowObject
@@ -146,7 +146,7 @@ public class GetVeryLongListResponse
 }
 ```
 
-With your helper classes in place, your view model can have an async method to fetch the data and process it for it to be displayed in the UI. Lets call it `GetDataAsync`.
+With your helper classes in place, your view model can have an async method to fetch the data and process it for it to be displayed in the UI. In this example, call it `GetDataAsync`.
 
 ```csharp
 public async Task<string> GetDataAsync()
