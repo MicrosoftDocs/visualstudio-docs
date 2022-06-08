@@ -13,7 +13,7 @@ ms.workload:
   - python
   - data-science
 ---
-# Use PyLint to monitor issues in Python code
+# Use PyLint to check Python code
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
