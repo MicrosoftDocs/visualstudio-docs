@@ -160,38 +160,7 @@ In this tutorial, you begin with a simple project that has code for a Node.js an
    :::image type="content" source="./media/tutorial-nodejs-command-prompt.png" alt-text="Screenshot that shows Open Command Prompt Here in the project context menu.":::
 
 ::: moniker-end
-::: moniker range="vs-2017"
-1. Open Visual Studio.
 
-1. Create a new project.
-
-   From the top menu bar, select **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **JavaScript**, then select **Node.js**. In the middle pane, select **Basic Azure Node.js Express 4 application**, then select **OK**.
-    
-   If you don't see the **Basic Azure Node.js Express 4 application** project template, you need to add the **Node.js development** workload. For instructions, see [Prerequisites](#prerequisites).
-
-   Visual Studio creates the new solution and opens your project in the right pane. The *app.js* project file opens in the editor (left pane).
-
-   :::image type="content" source="../javascript/media/tutorial-project-structure.png" alt-text="Screenshot that shows project structure in Solution Explorer.":::
-
-   (1) Highlighted in **bold** is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties**. You can do round-tripping with other development tools, because the project file doesn't make custom changes to the Node.js project source.
-
-   (2) At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
-
-   (3) The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages by using a dialog box. You can also install and update packages by using the settings in *package.json* or the right-click options in the npm node.
-
-   (4) *package.json* is a file used by npm to manage package dependencies and package versions for locally installed packages. For more information, see [Manage npm packages](../javascript/npm-package-management.md).
-
-   (5) Project files such as *app.js* show up under the project node. *app.js* is the project startup file and that's why it's **bold**. You can set the startup file by right-clicking a file in the project and selecting **Set as Node.js startup file**.
-
-1. Open the **npm** node and make sure that all the required npm packages are present.
-
-   If a package is missing, its icon contains an exclamation point. To install any missing packages, you can right-click the **npm** node and select **Install npm Packages**.
-
-   To install npm packages or Node.js commands from a command prompt, right-click the project node and select **Open Command Prompt Here** from the context menu.
-
-   :::image type="content" source="./media/tutorial-nodejs-command-prompt.png" alt-text="Screenshot that shows Open Command Prompt Here in the project context menu.":::
-
-::: moniker-end
 
 ## Add some code
 
@@ -340,9 +309,7 @@ To set a breakpoint, in *index.js*, select the left gutter before the following 
    ::: moniker range="vs-2019"
    :::image type="content" source="../javascript/media/vs-2019/tutorial-nodejs-deploy-target.png" alt-text="Screenshot that shows a drop-down list that appears in the debug target box.":::
    ::: moniker-end
-   ::: moniker range="vs-2017"
-   :::image type="content" source="../javascript/media/tutorial-nodejs-deploy-target.png" alt-text="Screenshot that shows a drop-down list that appears in the debug target box.":::
-   ::: moniker-end
+
 
    If you know your preferred debug target is available on your machine, but it doesn't appear as an option, select **Browse With** from the debug target dropdown list. Select your default browser target in the list, and select **Set as Default**.
 

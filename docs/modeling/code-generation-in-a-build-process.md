@@ -86,13 +86,6 @@ After that line, insert the Text Templating import:
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-```xml
-<Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v15.0\TextTemplating\Microsoft.TextTemplating.targets" />
-```
-
-::: moniker-end
 
 ## Transform templates in a build
 
@@ -308,11 +301,6 @@ If you update an included file or another file read by the template, Visual Stud
 
 ## See also
 
-::: moniker range="vs-2017"
-
-- There's good guidance in the T4 MSbuild template at `%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\msbuild\Microsoft\VisualStudio\v15.0\TextTemplating\Microsoft.TextTemplating.targets`
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

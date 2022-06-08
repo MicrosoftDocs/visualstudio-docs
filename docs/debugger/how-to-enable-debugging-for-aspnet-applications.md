@@ -41,9 +41,6 @@ You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version
 <a name="iis"></a>
 - If it's not installed, install the **ASP.NET and web development workload**. (Rerun the Visual Studio Installer, select **Modify**, and add this workload.)
 
-   ::: moniker range="vs-2017"
-   In Visual Studio 2017, Look for the **Development time IIS support** component. Make sure it's selected when you add the workload.
-   ::: moniker-end
 - Run Visual Studio as an administrator.
 - Install and correctly configure IIS with the appropriate version(s) of ASP.NET and/or ASP.NET Core. For more information on using IIS with ASP.NET Core, see [Host ASP.NET Core on Windows with IIS](/aspnet/core/host-and-deploy/iis/index). For ASP.NET, see [Install IIS and ASP.NET Modules](/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules).
 - Make sure the app runs on IIS without errors.

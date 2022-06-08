@@ -33,12 +33,7 @@ There is a lot of information on this webpage, and it's grouped up into the foll
 ## Before you get started
 
 There are a few important things to plan out and be aware of before you get started.  
-::: moniker range="vs-2017"
 
-- **Folder Management:** If you have multiple editions of Visual Studio in use within your enterprise (for example, Visual Studio 2017 Professional and Visual Studio 2017 Enterprise), you must create a separate network install point for each edition. Furthermore, the original Visual Studio installation layout and all subsequent product updates must be located in the same network directory to ensure that the client's repair and uninstall functionality works properly. Lastly, the layout path must be fewer than 80 characters, although some organizations have successfully used [symbolic links](/windows/win32/fileio/symbolic-links) to work around the 80-character limitation. 
-- **Planning for Updates:** You must decide how your client machines should receive product updates _before_ you do the initial client install. This is necessary to ensure that your clients' update location configuration is set correctly. Your choices include having the clients get updates from either the network layout location or from Microsoft hosted servers on the internet. Once the client has installed from the layout, the client's update location configuration is locked and unchangable. 
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -63,19 +58,6 @@ There are a few important things to plan out and be aware of before you get star
 
 Download the bootstrapper for the edition of Visual Studio you want and copy it into the directory that you want to serve as the source location of the layout. Once the layout is created, you can use it to install Visual Studio onto any client machine. The bootstrapper is the executable that you use to create, update, and perform other layout operations. You must have an internet connection to complete this step.
 
-::: moniker range="vs-2017"
-
-To get the latest bootstrappers for Visual Studio 2017 version 15.9, download one of the files below. The bootstrappers listed below will always install the latest most secure version of Visual Studio 2017, no matter when you run them:
-
-| Edition                                      | Bootstrapper            |
-|----------------------------------------------|---------------------|
-| Visual Studio 2017 Enterprise version 15.9   | [vs_enterprise.exe](https://aka.ms/vs/15/release/vs_enterprise.exe) |
-| Visual Studio 2017 Professional version 15.9 | [vs_professional.exe](https://aka.ms/vs/15/release/vs_professional.exe) |
-| Visual Studio 2017 Build Tools version 15.9  | [vs_buildtools.exe](https://aka.ms/vs/15/release/vs_buildtools.exe)   |
-
-Other supported bootstrappers include vs_feedbackclient.exe, vs_teamexplorer.exe, vs_testagent.exe, vs_testcontroller.exe, and vs_testprofessional.exe.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -103,12 +85,6 @@ The bootstrappers listed below will always install the latest most secure versio
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
->[!TIP]
->If you previously downloaded a bootstrapper file and want to verify what version it is, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, see [Visual Studio build numbers and release dates](visual-studio-build-numbers-and-release-dates.md).
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -447,11 +423,6 @@ Refer to [Set defaults for enterprise deployments of Visual Studio](set-defaults
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-You can also control other enterprise deployment behavior, such as where shared packages are installed. Refer to [Set defaults for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md) for additional details.
-
-::: moniker-end
 
 ### Error codes
 

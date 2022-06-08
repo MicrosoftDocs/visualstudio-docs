@@ -63,10 +63,7 @@ If you already have your own Direct3D app to explore Graphics Diagnostics with, 
 ::: moniker range=">=vs-2019"
 Download a sample from [Direct3D Game Sample](/samples/microsoft/windows-universal-samples/simple3dgamedx/).
 ::: moniker-end
-::: moniker range="vs-2017"
-- The **DirectX 11 App (Universal Windows)** or **DirectX 12 App (Universal Windows)** project templates for Windows 10 or later.
-- [Direct3D 12 UAP sample](https://code.msdn.microsoft.com/Direct3D-12-UAP-Sample-ecb1779f) for Windows 10 or later.
-::: moniker-end
+
 
 Make sure you can build and run the app before moving on. Choose **Build** > **Build Solution** to make sure it builds without errors. Then choose **Debug** > **Start without Debugging** (**Ctrl + F5**) to make sure it runs correctly. Depending on what machine you are testing with the tool, you may need to adjust the platform and debugging target for the sample. For example, to test against the x64 platform on your Visual Studio host machine, choose **x64** as the Solution Platform and **Local Machine** as your debugging target. 
 

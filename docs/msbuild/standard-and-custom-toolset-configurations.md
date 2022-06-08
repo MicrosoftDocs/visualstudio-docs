@@ -50,18 +50,6 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
 
  ::: moniker-end
 
-::: moniker range="vs-2017"
- MSBuild 15.0 includes the following standard Toolsets:
-
-|ToolsVersion|Toolset path (as specified in the MSBuildToolsPath or MSBuildBinPath build property)|
-|------------------| - |
-|2.0|*\<Windows installation path>\Microsoft.Net\Framework\v2.0.50727\\*|
-|3.5|*\<Windows installation path>\Microsoft.NET\Framework\v3.5\\*|
-|4.0|*\<Windows installation path>\Microsoft.NET\Framework\v4.0.30319\\*|
-|15.0|*\<Visual Studio installation path>\MSBuild\15.0\bin*|
-
- The `ToolsVersion` value determines which Toolset is used by a project that Visual Studio generates. In Visual Studio 2017, the default value is "15.0" (no matter what the version specified in the project file), but you can override that attribute by using the **/toolsversion** switch at a command prompt. For information about this attribute and other ways to specify the `ToolsVersion`, see [Overriding ToolsVersion settings](../msbuild/overriding-toolsversion-settings.md).
- ::: moniker-end
 
 Visual Studio 2017 and later versions do not use a registry key for the path to MSBuild. For versions of MSBuild prior to 15.0 that are installed with Visual Studio 2017, the following registry keys specify the installation path of MSBuild.exe.
 

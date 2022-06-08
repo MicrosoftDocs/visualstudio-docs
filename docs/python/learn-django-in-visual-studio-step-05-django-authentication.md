@@ -20,9 +20,6 @@ ms.workload:
 
 **Previous step: [Use the full Django Web Project template](learn-django-in-visual-studio-step-04-full-django-project-template.md)**
 
-::: moniker range="vs-2017"
-Because authentication is a common need for web apps, the "Django Web Project" template includes a basic authentication flow. (The "Polls Django Web Project" template discussed in step 6 of this tutorial also includes the same flow.) When you use any of the Django project templates, Visual Studio includes all the necessary modules for authentication in the Django project's *settings.py*.
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 The "Django Web Project" template includes a basic authentication flow, as authentication is a common need for web apps. When you use any of the Django project templates, Visual Studio includes all the necessary modules for authentication in the Django project's *settings.py* file.
@@ -214,9 +211,6 @@ Answer: The `{% csrf_token %}` tag includes Django's built-in [cross-site reques
 
 ## Next steps
 
-::: moniker range="vs-2017"
-- [Use the Polls Django Web Project template](learn-django-in-visual-studio-step-06-polls-django-web-project-template.md)
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 > [!Note]

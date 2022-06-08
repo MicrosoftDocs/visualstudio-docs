@@ -43,11 +43,6 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
 1. Create a new **Domain-Specific Language** project.
 
-   ::: moniker range="vs-2017"
-
-    ![Create DSL dialog](../modeling/media/create_dsldialog.png)
-
-   ::: moniker-end
 
     The **Domain-Specific Language Wizard** opens and displays a list of template DSL solutions.
 

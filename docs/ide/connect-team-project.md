@@ -13,11 +13,6 @@ monikerRange: "<=vs-2019"
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-::: moniker range="vs-2017"
-
-Use the **Team Explorer** tool window to coordinate your code efforts with other team members to develop a project, and to manage work that's assigned to you, your team, or your projects. **Team Explorer** connects Visual Studio to Git and GitHub repositories, Team Foundation version control (TFVC) repositories, and projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops) or an on-premises [Azure DevOps Server](/azure/devops) (formerly known as TFS). You can manage source code, work items, and builds.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -96,33 +91,6 @@ How you use Team Explorer to connect to a project depends on the version of Visu
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-![Team Explorer Home page in Visual Studio](media/team-explorer/team-explorer.png "The Team Explorer - Home page in Visual Studio.")
-
-> [!TIP]
-> If you open Visual Studio and **Team Explorer** doesn't appear, open it by choosing **View** > **Team Explorer** from the menu bar, or by pressing **Ctrl**+**&#92;**, **Ctrl**+**M**.
-
-## Connect to a project or repository
-
-Connect to a project or repository on the **Connect** page.
-
-![Connect page in Team Explorer](media/team-explorer/connect.png "The Team Explorer - Connect page in Visual Studio")
-
-To connect to a project:
-
-1. Open the **Connect** page by choosing the **Manage Connections** icon.
-
-   ![Manage Connections button in Team Explorer](media/team-explorer/manage-connections.png "The Team Explorer - Manage Connections button in Visual Studio.")
-
-1. On the **Connect** page, choose **Manage Connections** > **Connect to a project**.
-
-   ![Connect to a project in Team Explorer](media/team-explorer/connect-project.png "The Team Explorer - Connect to a Project option in Visual Studio.")
-
-> [!TIP]
-> If you want to open a project from a repo, see [Open a project from a repo](/visualstudio/get-started/tutorial-open-project-from-repo?view=vs-2017&preserve-view=true). If you want to create a new project or add users to a project, see [Create a project (Azure DevOps)](/azure/devops/organizations/projects/create-project) and [Add users to a project or team (Azure DevOps)](/azure/devops/organizations/security/add-users-team-project).
-
-::: moniker-end
 
 ## See also
 

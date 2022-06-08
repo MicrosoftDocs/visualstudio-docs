@@ -84,9 +84,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
     ::: moniker range="vs-2019"
     **MJO-DL:4024** on Visual Studio 2019
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    **MJO-DL:4022** on Visual Studio 2017
-    ::: moniker-end
+
 
 7. Make sure that **Enable native code debugging** is not selected.
 

@@ -36,15 +36,6 @@ The Universal Windows App development tools come with emulators that you can use
 
 Here is the list of software that you need:
 
-::: moniker range="vs-2017"
-
-- [Windows 10](https://support.microsoft.com/help/17777/downloads-for-windows). Visual Studio 2017 supports UWP development only on Windows 10. For more details, see Visual Studio [Platform targeting](/visualstudio/productinfo/vs2017-compatibility-vs) and [System requirements](/visualstudio/productinfo/vs2017-system-requirements-vs).
-
-- [Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download). You will also need the optional Universal Windows Platform development workload.
-
-     ![UWP workload](media/uwp_workload.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

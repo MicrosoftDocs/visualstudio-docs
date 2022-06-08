@@ -52,11 +52,7 @@ To create the app:
 
     If you don't see the **Console App** for .NET Core project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET Core cross platform development** workload, then choose **Modify**.
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Console App**, and then in the middle pane choose **Console App (.NET Core)**. Type a name like **Console_Parse_JSON** and click **OK**.
 
-    If you don't see the **Console App (.NET Core)** project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET Core cross platform development** workload, then choose **Modify**.
-    ::: moniker-end
 
     Visual Studio creates the console project, which appears in Solution Explorer in the right pane.
 

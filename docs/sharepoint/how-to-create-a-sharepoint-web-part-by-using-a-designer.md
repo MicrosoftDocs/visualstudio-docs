@@ -28,14 +28,7 @@ ms.workload:
 ## To create a project for visual web parts
 
 1. On the menu bar, choose **File** >**New** > **Project**.
-::: moniker range="=vs-2017"
 
-2. In the **New Project** dialog box, under either **Visual C#** or **Visual Basic**, expand the **Office/SharePoint** node, and then choose the **SharePoint Solutions** category.
-
-3. In the list of project templates, choose **SharePoint 2013 - Visual Web Part**, and then choose the **OK** button.
-
-     The **SharePoint Customization Wizard** appears.
-::: moniker-end
 ::: moniker range=">=vs-2019"
 2. On the **Create a New Project** dialog select the *SharePoint Visual Web Part** for the particular version of SharePoint you have installed. For example, if you have SharePoint 2019 install select the **SharePoint 2019 - Visual Web Part** template.
     [!INCLUDE[new-project-dialog-search](../sharepoint/includes/new-project-dialog-search-md.md)]

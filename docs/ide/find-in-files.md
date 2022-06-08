@@ -43,11 +43,6 @@ ms.workload:
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-:::image type="content" source="media/find-files-vs2017.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 2017, with the Find in Files tab open.":::
-
-::: moniker-end
 
 ## How to display Find in Files
 
@@ -71,13 +66,6 @@ To cancel a Find operation, press **Ctrl**+**Break**.
 > [!NOTE]
 > The **Find and Replace** tool does not search directories with the `Hidden` or `System` attribute.
 
-::: moniker range="vs-2017"
-
-## Find what
-
-To search for a new text string or expression, specify it in the **Find what** box.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -163,85 +151,7 @@ Use this option to append the results from the current search to previous search
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
 
-### Expression Builder
-
-If you want to use regular expressions in your search string, select the adjacent  **Expression Builder** button that's next to the search box. For more information, see [Using regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
-
-> [!NOTE]
-> The **Expression Builder** button is enabled only if you've selected **Use Regular Expressions** under **Find options**.
-
-## Look in
-
-The option chosen from the **Look in** drop-down list determines whether **Find in Files** searches only in currently active files or in all files stored within certain folders.
-
-Select a search scope from the list or click the **Browse (...)** button to display the **Choose Search Folders** dialog box and to enter your own set of directories. You can also type a path directly into the **Look in** box.
-
-> [!WARNING]
-> If you choose the **Entire Solution** or **Current Project** options, project and solution files are not searched. If you want to look in project files, select a search folder.
-
-> [!NOTE]
-> If you use the **Look in** option to search for a file that you have checked out from source code control, only the version of that file that's has been downloaded to your local machine is found.
-
-::: moniker-end
-
-::: moniker range="vs-2017"
-
-## Include subfolders
-
-Specifies that subfolders of the **Look in** folder will be searched.
-
-## Find options
-
-You can expand or collapse the **Find options** section. You can select or clear the following option(s):
-
-**Match case**
-
-When selected, a **Find Results** search will be case-sensitive
-
-**Match whole word**
-
-When selected, the **Find Results** windows will only return whole word matches.
-
-**Use Regular Expressions**
-
-If this check box is selected, you can use special notations to define patterns of text to match in the **Find what** or **Replace with** text boxes. For a list of these notations, see [Using regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
-
-**Look at these file types**
-
-This list indicates the types of files to search through in the **Look in** directories. If this field is blank, all of the files in the **Look in** directories will be searched.
-
-Select any item in the list to enter a preconfigured search string that will find files of those particular types.
-
-## Result options
-
-You can expand or collapse the **Result options** section. The following options under **List results in** can be selected or cleared:
-
-**Find results 1 window**
-
-When selected, the results of the current search replaces the content of the **Find Results 1** window. This window opens automatically to display your search results. To open this window manually, select **Other Windows** from the **View** menu and then select **Find Results 1**.
-
-**Find results 2 window**
-
-When selected, the results of the current search will replace the content of the **Find Results 2** window. This window opens automatically to display your search results. To open this window manually, select **Other Windows** from the **View** menu and choose **Find Results 2**.
-
-> [!TIP]
-> You can toggle between the results windows by pressing **Alt**+**1** or **Alt**+**2**.
-
-**Find results table**
-
-Displays the results of the search in a table format rather than in a text list.
-
-**Append results**
-
-Appends the results from the search to the previous search results.
-
-**Display file names only**
-
-Displays a list of files containing search matches rather than displaying the search matches themselves.
-
-::: moniker-end
 
 ## Search results
 

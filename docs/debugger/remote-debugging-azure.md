@@ -42,9 +42,7 @@ These procedures have been tested on these server configurations:
 ::: moniker range=">=vs-2019"
 Visual Studio 2019 or later versions is required to follow the steps shown in this article.
 ::: moniker-end
-::: moniker range="vs-2017"
-Visual Studio 2017 is required to follow the steps shown in this article.
-::: moniker-end
+
 
 ### Network requirements
 
@@ -71,9 +69,7 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    In Visual Studio 2017, choose **File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application**. In the ASP.NET Core templates section, select **Web Application (Model-View-Controller)**. Make sure that ASP.NET Core 2.1 or later is selected, that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.
-    ::: moniker-end
+
 
 1. Open the About.cshtml.cs file and set a breakpoint in the `OnGet` method (in older templates, open HomeController.cs instead and set the breakpoint in the `About()` method).
 
@@ -200,9 +196,7 @@ Download the version of the remote tools that matches your version of Visual Stu
     ::: moniker range="vs-2019"
     On Visual Studio 2019, you should see **\<remote computer name>:4024**
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    On Visual Studio 2017, you should see **\<remote computer name>:4022**
-    ::: moniker-end
+
     The port is required. If you don't see the port number, add it manually.
 
 4. Click **Refresh**.
@@ -225,9 +219,7 @@ Download the version of the remote tools that matches your version of Visual Stu
     ::: moniker range=">=vs-2019"
     ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
-    ::: moniker-end
+
 
 7. Click **Attach**.
 
@@ -263,9 +255,7 @@ Required ports:
 ::: moniker range="vs-2019"
 * 4024 - Required for remote debugging from Visual Studio 2019 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
 ::: moniker-end
-::: moniker range="vs-2017"
-* 4022 - Required for remote debugging from Visual Studio 2017 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
-::: moniker-end
+
 * UDP 3702 - (Optional) Discovery port enables you to the **Find** button when attaching to the remote debugger in Visual Studio.
 
 In addition, these ports should already be opened by the ASP.NET installation:

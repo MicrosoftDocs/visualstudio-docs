@@ -25,12 +25,6 @@ You can configure Visual Studio across your organization with installation confi
 
 Here's how.
 
-::: moniker range="vs-2017"
-
-> [!NOTE]
-> This functionality is available only in Visual Studio 2017 version 15.9 and later.
-
-::: moniker-end
 
 ## Export a configuration
 
