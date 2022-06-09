@@ -2,7 +2,7 @@
 title: Options, Text Editor, General
 description: Learn how to use the General page to change global settings for the Visual Studio code and text editor.
 ms.custom: SEO-VS-2020
-ms.date: 02/25/2022
+ms.date: 06/09/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor
@@ -55,7 +55,6 @@ This dialog box lets you change global settings for the Visual Studio code and t
 
 ::: moniker-end
 
-
 ## Settings
 
 The Settings section of **Tools** > **Options** > **Text Editor** > **General** includes the following options.
@@ -87,6 +86,9 @@ By default, the editor detects encoding by searching for byte order marks or cha
 ### Follow project coding conventions
 
 When selected, the project's specified coding conventions override any coding conventions you use on your personal projects.
+
+> [!TIP]
+> To learn more about coding conventions and how they are applied, see the "[**Code consistency**](../create-portable-custom-editor-options.md#code-consistency)" section of the [Create portable, custom editor settings with EditorConfig](../create-portable-custom-editor-options.md) page.
 
 ### Enable mouse click to perform Go to Definition
 
