@@ -199,7 +199,7 @@ Microsoft Office locates Add-ins by using registry keys. The keys in the HKEY\_C
 2. Expand **View**.
 3. Click **Registry** to open the registry editor window.
 4. In the **Registry(OfficeAddInSetup)** editor, expand **HKEY\_LOCAL\_MACHINE** and then **Software**.
-5. Delete the **\[Manufacturer\]**?key found under **HKEY\_LOCAL\_MACHINE\\Software**.
+5. Delete the **\[Manufacturer\]** key found under **HKEY\_LOCAL\_MACHINE\\Software**.
 6. Expand **HKEY\_CURRENT\_USER** and then **Software**.
 7. Delete the **\[Manufacturer\]** key found under **HKEY\_CURRENT\_USER\\Software**.
 8. To add registry keys for the add-in installation right-click the **User/Machine Hive** key, select **New Key**. Use the text **Software** for the name of the new key. Right-click on the newly created **Software** key and create a new key with the text **Microsoft**.
