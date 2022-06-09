@@ -1,7 +1,7 @@
 ---
 title: Configure Python web apps for IIS
 description: How to configure Python web apps to run with Internet Information Services from a Windows virtual machine.
-ms.date: 05/09/2022
+ms.date: 05/25/2022
 ms.topic: how-to
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -62,6 +62,86 @@ The HttpPlatform module passes socket connections directly to a standalone Pytho
 ```
 
 The `HTTP_PLATFORM_PORT` environment variable shown here contains the port that your local server should listen on for connections from localhost. This example also shows how to create another environment variable, if desired, in this case `SERVER_PORT`.
+
+### Configure the FastCGI handler
+
+FastCGI is an interface that works at the request level. IIS receives incoming connections and forwards each request to a WSGI app running in one or more persistent Python processes.
+
+> [!Note]
+> We recommend using **HttpPlatform** to configure your apps, as the [WFastCGI](https://pypi.org/project/wfastcgi/) project is no longer maintained. 
+
+To use FastCGI, first install and configure the wfastcgi package as described on [pypi.org/project/wfastcgi/](https://pypi.io/project/wfastcgi).
+
+Next, modify your app's *web.config* file to include the full paths to *python.exe* and *wfastcgi.py* in the `PythonHandler` key. The steps below assume that Python is installed in *c:\python36-32* and that your app code is in *c:\home\site\wwwroot*; adjust for your paths accordingly:
+
+1. Modify the `PythonHandler` entry in *web.config* so that the path matches the Python install location (see [IIS Configuration Reference](https://www.iis.net/configreference) (iis.net) for exact details).
+
+    ```xml
+    <system.webServer>
+      <handlers>
+        <add name="PythonHandler" path="*" verb="*" modules="FastCgiModule"
+            scriptProcessor="c:\python36-32\python.exe|c:\python36-32\wfastcgi.py"
+            resourceType="Unspecified" requireAccess="Script"/>
+      </handlers>
+    </system.webServer>
+    ```
+
+1. Within the `<appSettings>` section of *web.config*, add keys for `WSGI_HANDLER`, `WSGI_LOG` (optional), and `PYTHONPATH`:
+
+    ```xml
+    <appSettings>
+      <add key="PYTHONPATH" value="c:\home\site\wwwroot"/>
+      <!-- The handler here is specific to Bottle; see the next section. -->
+      <add key="WSGI_HANDLER" value="app.wsgi_app()"/>
+      <add key="WSGI_LOG" value="c:\home\LogFiles\wfastcgi.log"/>
+    </appSettings>
+    ```
+
+    These `<appSettings>` values are available to your app as environment variables:
+
+    - The value for `PYTHONPATH` may be freely extended but must include the root of your app.
+    - `WSGI_HANDLER` must point to a WSGI app importable from your app.
+    - `WSGI_LOG` is optional but recommended for debugging your app.
+
+1. Set the `WSGI_HANDLER` entry in *web.config* as appropriate for the framework you're using:
+
+    - **Bottle**: make sure you have parentheses after `app.wsgi_app` as shown below. This is necessary because that object is a function (see *app.py*) rather than a variable:
+
+        ```xml
+        <!-- Bottle apps only -->
+        <add key="WSGI_HANDLER" value="app.wsgi_app()"/>
+        ```
+
+    - **Flask**: Change the `WSGI_HANDLER` value to `<project_name>.app` where `<project_name>` matches the name of your project. You can find the exact identifier by looking at the `from <project_name> import app` statement in the *runserver.py*. For example, if the project is named "FlaskAzurePublishExample", the entry would appear as follows:
+
+        ```xml
+        <!-- Flask apps only: change the project name to match your app -->
+        <add key="WSGI_HANDLER" value="FlaskAzurePublishExample.app"/>
+        ```
+
+    - **Django**: Two changes are needed to *web.config* for Django projects. First, change the `WSGI_HANDLER` value to `django.core.wsgi.get_wsgi_application()` (the object is in the *wsgi.py* file):
+
+        ```xml
+        <!-- Django apps only -->
+        <add key="WSGI_HANDLER" value="django.core.wsgi.get_wsgi_application()"/>
+        ```
+
+        Second, add the following entry below the one for `WSGI_HANDLER`, replacing `DjangoAzurePublishExample` with the name of your project:
+
+        ```xml
+        <add key="DJANGO_SETTINGS_MODULE" value="django_iis_example.settings" />
+        ```
+
+1. **Django apps only**: In the Django project's *settings.py* file, add your site URL domain or IP address to `ALLOWED_HOSTS` as shown below, replacing '1.2.3.4' with your URL or IP address, of course:
+
+    ```python
+    # Change the URL or IP address to your specific site
+    ALLOWED_HOSTS = ['1.2.3.4']
+    ```
+
+    Failure to add your URL to the array results in the error **DisallowedHost at / Invalid HTTP_HOST header: '\<site URL\>'. You may need to add '\<site URL\>' to ALLOWED_HOSTS.**
+
+    When the array is empty, Django automatically allows 'localhost' and '127.0.0.1', but adding your production URL removes those capabilities. For this reason, you might want to maintain separate development and production copies of *settings.py*, or use environment variables to control the runtime values.
 
 ## Deploy to IIS or a Windows VM
 
