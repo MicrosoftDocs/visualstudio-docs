@@ -103,36 +103,6 @@ The following tables describe the format specifiers that you can use in Visual S
 
 ::: moniker-end
 
-::: moniker range="vs-2017" 
-
-|Specifier|Format|Original Watch Value|Value Displayed|
-|---------------|------------|--------------------------|---------------------|
-|d|decimal integer|0x00000066|102|
-|o|unsigned octal integer|0x00000066|000000000146|
-|x<br /><br /> **h**|hexadecimal integer|102|0xcccccccc|
-|X<br /><br /> **H**|hexadecimal integer|102|0xCCCCCCCC|
-|c|single character|0x0065, c|101 'e'|
-|s|const char* string (with quotation marks)|\<location> "hello world"|"hello world"|
-|**sb**|const char* string (no quotation marks)|\<location> "hello world"|hello world|
-|s8|UTF-8 string|\<location> "This is a UTF-8 coffee cup â˜•"|"This is a UTF-8 coffee cup ☕"|
-|**s8b**|UTF-8 string (no quotation marks)|\<location> "hello world"|hello world|
-|su|Unicode (UTF-16 encoding) string (with quotation marks)|\<location> L"hello world"|L"hello world"<br /><br /> u"hello world"|
-|sub|Unicode (UTF-16 encoding) string (no quotation marks)|\<location> L"hello world"|hello world|
-|bstr|BSTR binary string (with quotation marks)|\<location> L"hello world"|L"hello world"|
-|env|Environment block (double-null terminated string)|\<location> L"=::=::\\\\"|L"=::=::\\\\\\0=C:=C:\\\\windows\\\\system32\\0ALLUSERSPROFILE=...|
-|**s32**|UTF-32 string (with quotation marks)|\<location> U"hello world"|U"hello world"|
-|**s32b**|UTF-32 string (no quotation marks)|\<location> U"hello world"|hello world|
-|**en**|enum|Saturday(6)|Saturday|
-|**hv**|Pointer type - indicates that the pointer value being inspected is the result of the heap allocation of an array, for example, `new int[3]`.|\<location>{\<first member>}|\<location>{\<first member>, \<second member>, ...}|
-|**na**|Suppresses the memory address of a pointer to an object.|\<location>, {member=value...}|{member=value...}|
-|**nd**|Displays only the base class information, ignoring derived classes|`(Shape*) square` includes base class and derived class information|Displays only base class information|
-|hr|HRESULT or Win32 error code. This specifier is no longer needed for HRESULTs as the debugger decodes them automatically.|S_OK|S_OK|
-|wc|Window class flag|0x0010|WC_DEFAULTCHAR|
-|wm|Windows message numbers|16|WM_CLOSE|
-|!|raw format, ignoring any data type views customizations|\<customized representation>|4|
-
-::: moniker-end
-
 > [!NOTE]
 > When the **hv** format specifier is present, the debugger attempts to determine the length of the buffer and display that number of elements. Because it is not always possible for the debugger to find the exact buffer size of an array, you should use a size specifier `(pBuffer,[bufferSize])` whenever possible. The **hv** format specifier is useful when the buffer size is not readily available.
 
