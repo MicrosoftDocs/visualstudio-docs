@@ -85,10 +85,10 @@ By default, the editor detects encoding by searching for byte order marks or cha
 
 ### Follow project coding conventions
 
-When selected, the project's specified coding conventions override any coding conventions you use on your personal projects.
+When selected, the project's specified [coding conventions](../create-portable-custom-editor-options.md#code-consistency) override any coding conventions you use on your personal projects.
 
 > [!TIP]
-> To learn more about coding conventions and how they are applied, see the "[**Code consistency**](../create-portable-custom-editor-options.md#code-consistency)" section of the [Create portable, custom editor settings with EditorConfig](../create-portable-custom-editor-options.md) page.
+> To learn more about coding conventions and how they are applied, see the [Create portable, custom editor settings with EditorConfig](../create-portable-custom-editor-options.md) page.
 
 ### Enable mouse click to perform Go to Definition
 
