@@ -29,7 +29,7 @@ When you select **OK**, the profiler runs and opens a performance report through
 :::image type="content" source="media/profiling-results.png" alt-text="Screenshot of Profiling performance report.":::
 ::: moniker-end
 ::: moniker range=">=vs-2022"
-:::image type="content" source="media/profiling-results-vs22.png" alt-text="Screenshot of Profiling performance report.":::
+:::image type="content" source="media/profiling-results-vs-22.png" alt-text="Screenshot of Profiling performance report.":::
 ::: moniker-end
 
   > [!Note]

@@ -131,7 +131,7 @@ This command is useful for iterative or evolutionary code development, including
 :::moniker range=">=vs-2022"
 In addition to working within the **Interactive** window directly, you can select code in the editor, right-click, and choose **Send to Interactive** or press **Ctrl**+**Enter**.
 
-:::image type="content" source="media/interactive-send-to-vs22.png" alt-text="Screenshot showing Send to interactive menu command.":::
+:::image type="content" source="media/interactive-send-to-vs-22.png" alt-text="Screenshot showing Send to interactive menu command.":::
 
 This command is useful for iterative or evolutionary code development, including testing your code as you develop it. For example, once you've sent a piece of code to the **Interactive** window and seen its output, you can press the up arrow to show the code again, modify it, and test it quickly by pressing **Ctrl**+**E**. (Pressing **Enter** at the end of input executes it, but pressing **Enter** in the middle of input inserts a newline.) Once you have the code you want, you can easily copy it back into your project file.
 
