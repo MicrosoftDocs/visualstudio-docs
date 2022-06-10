@@ -34,11 +34,6 @@ You can use the **Configuration Manager** dialog box to select or modify existin
 
 To open the **Configuration Manager** dialog box, in **Solution Explorer**, right-click on the solution node to open the shortcut menu for the solution, and then choose **Configuration Manager**.
 
-:::moniker range="<=vs-2017"
-> [!NOTE]
-> If the **Configuration Manager** command doesn't appear on the shortcut menu, look under the **Build** menu on the menu bar. If it doesn't appear there either, on the menu bar, choose **Tools** > **Options**, and then in the left pane of the **Options** dialog box, expand **Projects and Solutions** > **General**, and in the right pane, select the **Show advanced build configurations** check box.
-:::moniker-end
-
 You can also open the **Configuration Manager** by clicking on the dropdown list on the Visual Studio  toolbar that lets you choose the current configuration (for example, **Debug** or **Release**).
 
 ![Screenshot of Configuration Manager dialog box.](./media/configuration-manager.png)
