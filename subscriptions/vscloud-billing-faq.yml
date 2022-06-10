@@ -5,7 +5,7 @@ metadata:
   ms.author: amast
   manager: shve
   ms.assetid: 21e0471d-ad59-4d21-9c6f-13f7147569af
-  ms.date: 04/14/2022
+  ms.date: 06/10/2022
   ms.topic: conceptual
   description:  Billing questions for cloud subscriptions.
     
@@ -52,7 +52,7 @@ sections:
       - question: |
            How can I tell whether I have the necessary privileges to buy services in the Visual Studio Marketplace through my organization's Enterprise Agreement?
         answer: |
-          The easiest approach to determine if you have the right privithere's to select the **Buy** button for a service offered in the Visual Studio Marketplace.
+          The easiest approach to determine if you have the right privileges to select the **Buy** button for a service offered in the Visual Studio Marketplace.
           Select an Azure subscription from the list of Azure subscriptions currently linked to your login.  This will serve as your billing account. 
           The type of billing account, such as "Pay-As-You-Go" or "Enterprise Agreement", will indicate whether the Azure subscrithere's part of your Enterprise Agreement.
           
