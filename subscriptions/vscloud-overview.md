@@ -54,7 +54,7 @@ to start downloading software and using other subscriber benefits.
 > ![Go to Visual Studio subscriber portal](_img/buy-vs-subscriptions/view-subscription-benefits-subscriptions-portal.png "In the Visual Studio subscriptions portal, you can explore your subscription and use available benefits.")
 
 If you purchased more than one subscription, proceed to the
-    [Visual Studio Subscriptions Admin portal](https://manage.visualstudio.com) to assign subscriptions to others.  You may need to [add your new subscriptions](add-monthly-subs.md) to the Admin Portal if this is the first time you've purchased them.
+    [Visual Studio Subscriptions Admin portal](https://manage.visualstudio.com) to assign subscriptions to others.  You may need to [add your new subscriptions](add-monthly-subs.md) to the Admin Portal if this purchase is your first.
 
 > [!div class="mx-imgBorder"]
 > ![Assign subscriptions to others](_img/buy-vs-subscriptions/buy-vs-sub-success-many.png "Select 'Assign to users' to provide subscriptions to your users.")
@@ -93,9 +93,9 @@ A:  We provide monthly subscriptions and standard subscriptions in our direct sa
 There are also many options through our volume licensing program. You can research the options and prices on
 [https://www.microsoft.com/en-us/licensing/how-to-buy/how-to-buy](https://www.microsoft.com/en-us/licensing/how-to-buy/how-to-buy).
 
-#### Q: The price for a retail subscription is higher. What additional benefits am I receiving?
+#### Q: The price for a retail subscription is higher. What extra benefits am I receiving?
 
-A:  You'll receive perpetual license rights for the Visual Studio IDE that came with the subscription. When it is time to renew, you only pay the software assurance price, which is significantly less.
+A:  You'll receive perpetual license rights for the Visual Studio IDE that came with the subscription. When it's time to renew, you only pay the software assurance price, which is much lower.
 
 ### For existing annual cloud subscribers
 
@@ -109,11 +109,11 @@ A:  No.  Your subscriptions will remain in place and you'll be able to manage th
 
 #### Q: What if I want to increase the number of subscriptions for my customers?
 
-A: Annual subscriptions that are purchased during a given month are charged immediately for a full year and are valid for a full year. So, you can modify the number of licenses only in the current month of purchase (they will be valid for one year and charged for one year). Outside of the month of purchase, it is no longer possible to increase the number of subscriptions.
+A: Annual subscriptions that are purchased during a given month are charged immediately for a full year and are valid for a full year. So, you can modify the number of licenses only in the current month of purchase (they will be valid for one year and charged for one year). Outside of the month of purchase, it's no longer possible to increase the number of subscriptions.
 
 #### Q: What if I want to decrease the number of subscriptions for my customers?
 
-A: Your admin can still decrease the number of subscriptions by visiting https://manage.visualstudio.com and following the instructions in this article to decrease subscription counts. The system will *not* generate a pro-rated credit. For a refund you'll need to contact the Azure billing team.
+A: Your admin can still decrease the number of subscriptions by visiting https://manage.visualstudio.com and following the instructions in this article to decrease subscription counts. The system will *not* generate a pro-rated credit. For a refund, you'll need to contact the Azure billing team.
 
 #### Q: If I cancel my subscription, will I be able to buy another Annual Cloud subscription later?
 
@@ -131,11 +131,11 @@ A:  Existing customers won't be impacted. New customers will need to decide whet
 
 #### Q: What if I want to increase the number of subscriptions for my customers?
 
-A: Annual subscriptions purchased during a given month are charged immediately for a full year and are valid for a full year. For that reason, your admin can only modify the number of licenses in the current month of purchase (they will be valid for 1 year and charged for 1 year). Outside of the month of purchase it is no longer possible to increase the number of subscriptions.
+A: Annual subscriptions purchased during a given month are charged immediately for a full year and are valid for a full year. For that reason, your admin can only modify the number of licenses in the current month of purchase (they will be valid for one year and charged for one year). Outside of the month of purchase it's no longer possible to increase the number of subscriptions.
 
 #### Q: What if I want to decrease the number of subscriptions for my customers?
 
-A:  Your admin can still decrease the number of subscriptions by visiting [https://manage.visualstudio.com](https://manage.visualstudio.com) and following the instructions in this article to decrease subscription counts. The system will **not** generate a pro-rated credit. For a refund you'll need to contact the Azure billing team.
+A:  Your admin can still decrease the number of subscriptions by visiting [https://manage.visualstudio.com](https://manage.visualstudio.com) and following the instructions in this article to decrease subscription counts. The system will **not** generate a pro-rated credit. For a refund, you'll need to contact the Azure billing team.
 
 #### Q: If my customers cancel their subscriptions, will they be able to buy more Annual Cloud subscriptions later?
 
