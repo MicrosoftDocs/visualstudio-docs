@@ -48,7 +48,7 @@ to start downloading software and using other subscriber benefits.
 > [!div class="mx-imgBorder"]
 > ![Finish purchase successfully](_img/buy-vs-subscriptions/buy-vs-sub-success.png "You'll receive a confirmation of a successful purchase.")
 
-0. Click **View my subscription** to open the subscriber portal and begin using your subscription.
+0. Select **View my subscription** to open the subscriber portal and begin using your subscription.
 
 > [!div class="mx-imgBorder"]
 > ![Go to Visual Studio subscriber portal](_img/buy-vs-subscriptions/view-subscription-benefits-subscriptions-portal.png "In the Visual Studio subscriptions portal, you can explore your subscription and use available benefits.")
@@ -57,11 +57,11 @@ If you purchased more than one subscription, proceed to the
     [Visual Studio Subscriptions Admin portal](https://manage.visualstudio.com) to assign subscriptions to others.  You may need to [add your new subscriptions](add-monthly-subs.md) to the Admin Portal if this is the first time you've purchased them.
 
 > [!div class="mx-imgBorder"]
-> ![Assign subscriptions to others](_img/buy-vs-subscriptions/buy-vs-sub-success-many.png "Click 'Assign to users' to provide subscriptions to your users.")
+> ![Assign subscriptions to others](_img/buy-vs-subscriptions/buy-vs-sub-success-many.png "Select 'Assign to users' to provide subscriptions to your users.")
 
 
 > [!div class="mx-imgBorder"]
-> ![View subscriptions](_img/buy-vs-subscriptions/assign-subscriptions.png "Click 'Add' to assign subscriptions to users")
+> ![View subscriptions](_img/buy-vs-subscriptions/assign-subscriptions.png "Select 'Add' to assign subscriptions to users")
 
 ## <a name="manage-subscriptions"></a>Cancel renewals of cloud subscriptions you've purchased
 
