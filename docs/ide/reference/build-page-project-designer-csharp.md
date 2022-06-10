@@ -194,6 +194,7 @@ Treats the specified warnings as errors. Separate multiple warning numbers with 
 
 :::moniker-end
 
+:::moniker range="<=vs-2019"
 ## Output (.NET Framework and .NET Core 3.x and earlier)
 
 The following settings are used to configure the output options for the build process.
@@ -245,7 +246,6 @@ Specifies whether or not to generate an XML documentation file.
 **XML documentation file path**
 
 This setting only appears if the **Documentation file** setting is enabled. Specifies the path of a file into which documentation comments will be processed. For more information, see [/doc (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/doc-compiler-option).
-:::moniker-end
 
 ## Events
 
