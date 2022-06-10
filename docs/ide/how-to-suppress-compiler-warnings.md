@@ -28,7 +28,7 @@ There are two different properties UI, which are referred to here as *current* a
 
 1. Right-click on the project node, and choose **Properties** on the context menu. Or, select the project node and press **Alt**+**Enter**.
 
-1. Choose the **Build** page or section, and if you're in the current  UI, go to the **Errors and warnings** subsection.
+1. Choose the **Build** page or section, and if you're in the current UI, go to the **Errors and warnings** subsection.
 
 1. In the **Suppress warnings** or **Suppress specific warnings** box, specify the error codes of the warnings that you want to suppress, separated by semicolons. For a list and descriptions of warning codes, see [C# Compiler Messages](/dotnet/csharp/language-reference/compiler-messages/).
 
