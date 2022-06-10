@@ -2,7 +2,7 @@
 title: Full screen and virtual space mode
 description: Learn how to manage the Visual Studio editor modes to display all of the tools and windows in a way that works best for you.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 05/20/2022
 ms.topic: how-to
 helpviewer_keywords:
 - word wrap
@@ -30,6 +30,8 @@ ms.workload:
 ---
 # How to: Manage editor modes
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can display the Visual Studio code editor in various display modes.
 
 > [!NOTE]
@@ -49,6 +51,21 @@ You can choose to hide all tool windows and view only document windows by enabli
 
 In **Virtual Space** mode, spaces are inserted at the end of each line of code. Select this option to position comments at a consistent point next to your code.
 
+::: moniker range="vs-2022"
+
+1. Select **Options** from the **Tools** menu.
+
+1. Expand the **Text Editor** folder, and choose **All Languages** to set this option globally, or choose a specific language folder. For example, to turn on line numbers only in Visual Basic, choose the **Visual Basic** > **Text Editor** node.
+
+1. Select **General** options, and under **Settings**, select **Enable Virtual Space**.
+
+    > [!NOTE]
+    > **Virtual Space** is enabled in **Column Selection** mode. When **Virtual Space** mode is not enabled, the insertion point moves from the end of one line directly to the first character of the next.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
 1. Select **Options** from the **Tools** menu.
 
 2. Expand the **Text Editor** folder, and choose **All Languages** to set this option globally, or choose a specific language folder. For example, to turn on line numbers only in Visual Basic, choose the **Basic** > **Text Editor** node.
@@ -57,6 +74,8 @@ In **Virtual Space** mode, spaces are inserted at the end of each line of code. 
 
     > [!NOTE]
     > **Virtual Space** is enabled in **Column Selection** mode. When **Virtual Space** mode is not enabled, the insertion point moves from the end of one line directly to the first character of the next.
+
+::: moniker-end
 
 ## See also
 

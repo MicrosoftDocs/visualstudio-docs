@@ -22,6 +22,8 @@ ms.workload:
   - multiple
 ---
 # How to: Specify which files are published by ClickOnce
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, all non-code files in the project are deployed along with the application. In some cases, you may not want or need to publish certain files, or you may want to install certain files based on conditions. Visual Studio provides the capabilities to exclude files, mark files as data files or prerequisites, and create groups of files for conditional installation.
 
  Files for a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application are managed in the **Application Files** dialog box, accessible from the **Publish** page of the **Project Designer**.

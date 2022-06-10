@@ -1,7 +1,7 @@
 ---
 title: Common Quick Actions
 description: Most popular Quick Actions for C# and Visual Basic including fixing misspelled keywords or symbols, resolving merge conflicts, removing necessary imports, generating types, introducing local variables, etc.
-ms.date: 03/28/2018
+ms.date: 05/20/2022
 ms.topic: reference
 author: TerryGLee
 ms.author: tglee
@@ -14,6 +14,8 @@ ms.workload:
 - multiple
 ---
 # Common Quick Actions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The sections in this topic list some of the common **Quick Actions** that are applicable to both C# and Visual Basic code. These actions are *code fixes* for either compiler diagnostics, or the built-in [.NET Compiler Platform analyzers](../code-quality/roslyn-analyzers-overview.md) in Visual Studio.
 
@@ -174,7 +176,17 @@ void DoWork(CancellationToken cancellationToken = default) { ... }
 
 ### Add usings/imports for types in reference assemblies, NuGet packages, or other types in your solution
 
-Using types located in other projects in your solution will display the Quick Action automatically, however the others need to be enabled from the **Tools > Options > C#** or **Basic > Advanced** tab:
+::: moniker range="vs-2022"
+
+Using types located in other projects in your solution will display the Quick Action automatically, however the others need to be enabled from the **Tools > Options > Text Editor > C#** or **Visual Basic > Advanced** tab:
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
+
+Using types located in other projects in your solution will display the Quick Action automatically, however the others need to be enabled from the **Tools > Options > Text Editor > C#** or **Basic > Advanced** tab:
+
+::: moniker-end
 
 - Suggest usings/imports for types in reference assemblies
 - Suggest usings/imports for types in NuGet packages

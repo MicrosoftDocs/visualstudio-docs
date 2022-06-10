@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Debug live ASP.NET Azure apps using the Snapshot Debugger
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Snapshot Debugger takes a snapshot of your in-production apps when code that you're interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
 
 Snappoints and logpoints are similar to breakpoints, but unlike breakpoints, snappoints don't halt the application when hit. Typically, capturing a snapshot at a snappoint takes 10-20 milliseconds.
@@ -35,9 +37,7 @@ In this tutorial, you will:
    ::: moniker range=">=vs-2019"
    If it's not already installed, install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads). If you're updating from a previous Visual Studio installation, run the Visual Studio Installer and check the Snapshot Debugger component in the **ASP.NET and web development workload**.
    ::: moniker-end
-   ::: moniker range="<=vs-2017"
-   If it's not already installed, install [Visual Studio 2017 Enterprise version 15.5](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) or later. If you're updating from a previous Visual Studio 2017 installation, run the Visual Studio Installer and check the Snapshot Debugger component in the **ASP.NET and web development workload**.
-   ::: moniker-end
+
 
 * Basic or higher Azure App Service plan.
 
@@ -52,13 +52,6 @@ In this tutorial, you will:
    > [!IMPORTANT]
    > To snapshot debug, you need to open the *same version of source code* that is published to your Azure App Service.
 
-::: moniker range="<=vs-2017"
-
-2. In the Cloud Explorer (**View > Cloud Explorer**), right-click the Azure App Service your project is deployed to and select **Attach Snapshot Debugger**.
-
-   ![Launch the snapshot debugger](../debugger/media/snapshot-launch.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -73,10 +66,6 @@ In this tutorial, you will:
    > [!IMPORTANT]
    > The first time you select **Attach Snapshot Debugger**, you're prompted to install the Snapshot Debugger site extension on your Azure App Service. This installation requires a restart of your Azure App Service.
 
-   ::: moniker range="<=vs-2017"
-   > [!NOTE]
-   > The Application Insights site extension also supports Snapshot Debugging. If you come across a "site extension out of date" error message, see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
-   ::: moniker-end
    ::: moniker range=">=vs-2019"
    > [!NOTE]
    > (Visual Studio 2019 version 16.2 and above) Snapshot Debugger has enabled Azure cloud support. Make sure that both the Azure resource and Azure Storage account you select are from the same cloud. Please contact your Azure administrator if you have questions about your enterprise's [Azure compliance](https://azure.microsoft.com/overview/trusted-cloud/) configurations.

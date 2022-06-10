@@ -2,7 +2,7 @@
 title: Use command-line parameters to install Visual Studio
 titleSuffix: ''
 description: Learn how to use command-line parameters to control or customize your Visual Studio installation.
-ms.date: 3/3/2022
+ms.date: 5/16/2022
 ms.topic: conceptual
 f1_keywords:
 - command-line parameters
@@ -19,6 +19,8 @@ ms.technology: vs-installation
 ---
 # Use command-line parameters to install, update, and manage Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 When you install Visual Studio programmatically or from a command prompt, you can use various command-line parameters to control or customize the installation to perform the following actions:
 
 - Start the installation on the client with certain options and behaviors preselected.
@@ -29,17 +31,6 @@ The command-line options described below can either be used with the setup boots
 
 It is also possible to use the Administrator Update package, which is available to download from the [Microsoft Update Catalog](https://catalog.update.microsoft.com), to programatically update your network layout. More information how to do this can be found in the [Update or modify your layout](create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) documentation.  
 
-::: moniker range="vs-2017"
-
-To get the bootstrapper for Visual Studio 2017 version 15.9, download one of the following bootstrapper files below:
-
-| **Edition**                                  | **Bootstrapper**       |
-|----------------------------------------------|---------------------|
-| Visual Studio Enterprise 2017 version 15.9   | [vs_enterprise.exe](https://aka.ms/vs/15/release/vs_enterprise.exe)  |
-| Visual Studio Professional 2017 version 15.9 | [vs_professional.exe](https://aka.ms/vs/15/release/vs_professional.exe)  |
-| Visual Studio Build Tools 2017 version 15.9  | [vs_buildtools.exe](https://aka.ms/vs/15/release/vs_buildtools.exe)   |
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -66,12 +57,6 @@ To get the latest bootstrappers for Visual Studio 2022 that will always install 
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
->[!TIP]
->If you previously downloaded a bootstrapper file and want to verify what version it is, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the [Visual Studio build numbers and release dates](visual-studio-build-numbers-and-release-dates.md) page.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -100,6 +85,7 @@ Syntax example: `vs_enterprise.exe [command] <optional parameters>...`
 | (blank)     | The default command both installs the product, and it is used for all layout maintenance operations.                    |
 | `modify`    | Modifies an installed product.                                                                                          |
 | `update`    | Updates an installed product.                                                                                           |
+| `updateall` | Updates all of the installed products in sequential order. Works with `--quiet` and `--passive` parameters.                 |
 | `repair`    | Repairs an installed product.                                                                                           |
 | `uninstall` | Uninstalls an installed product.                                                                                        |
 | `export`    | Exports installation selection to an installation configuration file. **Note**: Can only be used with vs_installer.exe or setup.exe. |

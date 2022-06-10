@@ -12,6 +12,8 @@ ms.workload:
 - vssdk
 ---
 # Images and Icons for Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## <a name="BKMK_ImageUseInVisualStudio"></a> Image use in Visual Studio
  Before creating artwork, consider making use of the 1,000+ images in the [Visual Studio Image Library](https://www.microsoft.com/download/details.aspx?id=35825).
 

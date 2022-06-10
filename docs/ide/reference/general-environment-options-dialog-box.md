@@ -26,6 +26,8 @@ ms.workload:
 ---
 # Options dialog box: Environment \> General
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Use this page to change color themes, status bar settings, and file extension associations, among other options, for the integrated development environment (IDE). You can access the **Options** dialog box by opening the **Tools** menu, choosing **Options**, opening the **Environment** folder and then choosing the **General** page.
 
 ## Visual Experience
@@ -75,12 +77,6 @@ This option enables or disables per-monitor dots per inch (DPI) awareness (or *P
 
 Specifies whether Visual Studio sets the adjustment to the visual experience automatically or you set the adjustment explicitly. This adjustment may change the display of colors from gradients to flat colors, or it may restrict the use of animations in menus or popup windows.
 
-::: moniker range="vs-2017"
-
-> [!TIP]
-> Windows 10 has a setting that says **Let Windows try to fix apps so they're not blurry**. Turning that setting **on** is recommended if Visual Studio appears blurry on your monitor. Consider upgrading to [Visual Studio 2019](https://visualstudio.microsoft.com/downloads), which has significantly improved display clarity because it is a per-monitor dots per inch aware application.
-
-::: moniker-end
 
 **Enable rich client experience**
 

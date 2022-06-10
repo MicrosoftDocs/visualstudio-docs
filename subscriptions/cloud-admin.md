@@ -4,16 +4,14 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 8b30e2bc-2ac3-4fcc-b296-128731471032
-ms.date: 03/21/2021
+ms.date: 04/26/2022
 ms.topic: how-to
 description: Setting Up admins for monthly Subscriptions
 ---
 # Set up admins for Visual Studio monthly subscriptions
-
 Visual Studio monthly subscriptions are managed by admins. These individuals can assign subscriptions, edit assignments, add or delete subscriptions, and perform other subscription management tasks.
 
 ## The Azure subscription owner is the first admin
-
 When you purchase Visual Studio monthly subscriptions, as the owner of the Azure subscription used to make the purchases, you are automatically set up as an admin for those subscriptions.
 
 You can purchase monthly subscriptions through the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions), or by contacting a Cloud Solution Provider. If you purchase through the Visual Studio Marketplace, at the end of the purchase experience, you'll be provided with an opportunity to manage users. Choosing that option will take you to the Visual Studio Subscriptions Administration Portal - [https://manage.visualstudio.com](https://manage.visualstudio.com).
@@ -23,8 +21,7 @@ Once you've purchased subscriptions, you can visit the [Administration Portal](h
 As the owner of the Azure subscription used to purchase the monthly subscriptions, you can also assign additional admins.
 
 ## Add admins
-
-To add admins:
+To add admins for your subscriptions:
 
 1. Connect to the Azure portal at [portal.azure.com](https://portal.azure.com).
 2. Sign in with the account you used to purchase the Visual Studio monthly subscriptions.
@@ -54,17 +51,17 @@ The new admin can now sign in to the [Administration Portal](https://manage.visu
 For information about Visual Studio monthly subscriptions, see the [Overview](vscloud-overview.md) under Buying  subscriptions. To purchase Visual Studio monthly subscriptions, visit the Visual Studio Marketplace at [https://marketplace.visualstudio.com/subscriptions](https://marketplace.visualstudio.com/subscription).
 
 ## Resources
-- [Subscriptions Support](https://aka.ms/vsadminhelp)
+[Subscriptions Support](https://aka.ms/vsadminhelp)
 
 ## See also
-- [Visual Studio documentation](/visualstudio/)
-- [Azure DevOps documentation](/azure/devops/)
-- [Azure documentation](/azure/)
-- [Microsoft 365 documentation](/microsoft-365/)
++ [Visual Studio documentation](/visualstudio/)
++ [Azure DevOps documentation](/azure/devops/)
++ [Azure documentation](/azure/)
++ [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Learn more about managing Visual Studio subscriptions.
-- [Assign individual subscriptions](assign-license.md)
-- [Assign multiple subscriptions](assign-license-bulk.md)
-- [Edit subscriptions](edit-license.md)
-- [Determine maximum usage](maximum-usage.md)
++ [Assign individual subscriptions](assign-license.md)
++ [Assign multiple subscriptions](assign-license-bulk.md)
++ [Edit subscriptions](edit-license.md)
++ [Determine maximum usage](maximum-usage.md)

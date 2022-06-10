@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Add custom properties to dependency diagrams
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 When you write extension code for dependency diagrams, you can store values with any element on a dependency diagram. The values will persist when the diagram is saved and re-opened. You can also have these properties appear in the **Properties** window so that users can see and edit them. For example, you could let users specify a regular expression for each layer, and write validation code to verify that the names of classes in each layer conform to the pattern specified by the user.
 
 ## Non-visible properties

@@ -9,19 +9,10 @@ ms.topic: reference
 ---
 # Container Tools launch settings
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In the *Properties* folder in an ASP.NET Core project, you can find the launchSettings.json file, which contains settings that control how your web app is started on your development machine. For detailed information on how this file is used in ASP.NET development, see [Use multiple environments in ASP.NET Core](/aspnet/core/fundamentals/environments?view=aspnetcore-2.2&preserve-view=true). In *launchSettings.json*, the settings in the **Docker** section are related to how Visual Studio handles containerized apps.
 
-::: moniker range="vs-2017"
-
-```json
-    "Docker": {
-      "commandName": "Docker",
-      "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}"
-    }
-```
-
-::: moniker-end
 ::: moniker range=">=vs-2019"
 
 ```json
@@ -44,14 +35,6 @@ In the *Properties* folder in an ASP.NET Core project, you can find the launchSe
 
 The commandName setting identifies that this section applies to Container Tools. The following table shows the properties that can be set in this section:
 
-::: moniker range="vs-2017"
-
-|Setting name|Version|Example|Description|
-|------------|-------|-------|---------------|
-|launchBrowser|Visual Studio 2017|"launchBrowser": true|Indicates whether to launch the browser after successfully launching the project.|
-|launchUrl|Visual Studio 2017|"launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}"|This URL is used when launching the browser.  Supported replacement tokens for this string are:<br/><br/>   - {Scheme} - Replaced with either "http" or "https" depending on whether SSL is used.<br/><br/>   - {ServiceHost} - Usually replaced with "localhost". When targeting Windows containers on Windows 10 RS3 or older, though, it is replaced with the container's IP.<br/><br/>   {ServicePort} - Usually replaced with either sslPort or httpPort, depending on whether SSL is used.  When targeting Windows containers on Windows 10 RS3 or older, though, it is replaced with either "443" or "80", depending on whether SSL is used.|
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

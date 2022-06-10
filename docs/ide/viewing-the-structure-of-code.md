@@ -30,6 +30,8 @@ ms.workload:
 ---
 # View the structure of code by using different tool windows
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can examine classes and their members in Visual Studio using various tool windows, including **Class View**, **Call Hierarchy**, **Object Browser**, and **Code Definition** (C++ only). These tool windows can examine code in Visual Studio projects, .NET components, COM components, dynamic-link libraries (DLL), and type libraries (TLB).
 
 You can also use **Solution Explorer** to browse the types and members in your projects, search for symbols, view a method's call hierarchy, find symbol references, and more, without having to switch between multiple tool windows.
@@ -123,11 +125,6 @@ The **Object Browser** window displays descriptions of the code in your projects
 
 You can filter the components you want to view by using the drop-down list at the top of the window. Custom components can include managed code executables, library assemblies, type libraries, and *.ocx* files. It is not possible to add C++ custom components.
 
-::: moniker range="vs-2017"
-
-Custom settings are saved in the Visual Studio user application directory, *%APPDATA%\Microsoft\VisualStudio\15.0\ObjBrowEX.dat*.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

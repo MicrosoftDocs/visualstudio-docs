@@ -17,6 +17,8 @@ ms.workload:
 ---
 # User permissions and Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 For reasons of security, you should run Visual Studio as a typical user whenever possible.
 
 > [!WARNING]
@@ -47,15 +49,6 @@ If you need to run Visual Studio as an administrator, follow these steps to open
 > [!NOTE]
 > These instructions are for Windows 10. They are similar for other versions of Windows.
 
-::: moniker range="vs-2017"
-
-1. Open the **Start** menu, and scroll to Visual Studio 2017.
-
-1. From the right-click or context menu of **Visual Studio 2017**, select **More** > **Run as administrator**.
-
-   When Visual Studio starts, **(Administrator)** appears after the product name in the title bar.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

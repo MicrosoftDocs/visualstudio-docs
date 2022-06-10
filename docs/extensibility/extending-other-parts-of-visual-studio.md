@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Extend other parts of Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 There are many more parts of the Visual Studio UI that you can extend. Here we show you just a few.
 
 ## Create a VSPackage
@@ -34,13 +36,6 @@ Learn how to add new controls and other items to the Toolbox and how to use Tool
 
 Learn how to read and write to the status bar and the progress bar, and how to provide animations and other UI: [Extend the status bar](../extensibility/extending-the-status-bar.md).
 
-::: moniker range="vs-2017"
-
-## Create custom Start Pages
-
-Learn how to make your own start page, either from scratch or from a downloadable start page sample: [Create a custom Start Page](../extensibility/creating-a-custom-start-page.md).
-
-::: moniker-end
 
 ## Write to the Activity log
 

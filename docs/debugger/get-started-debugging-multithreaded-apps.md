@@ -21,6 +21,8 @@ ms.workload:
 ---
 # Get started debugging multithreaded applications (C#, Visual Basic, C++)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio provides several tools and user interface elements to help you debug multithreaded applications. This tutorial shows how to use thread markers, the **Parallel Stacks** window, the **Parallel Watch** window, conditional breakpoints, and filter breakpoints. Completing this tutorial will familiarize you with Visual Studio features for debugging multithreaded applications.
 
 These two topics provide additional information on using other multithreaded debugging tools:
@@ -53,19 +55,7 @@ You'll first need a multithreaded application project. An example follows.
    For a .NET Core project, choose either the recommended target framework or .NET 6, and then choose **Create**.
 
    ::: moniker-end
-   ::: moniker range="vs-2017"
-   From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, choose the following:
 
-   - For a C# app, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
-   - For a Visual Basic app, under **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
-   - For a C++ app, under **Visual C++**, choose **Windows Desktop**,, and then choose **Windows Console Application**.
-
-   If you don't see the **Console App (.NET Framework)** for, for C++, the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
-
-   Then, type a name like *MyThreadWalkthroughApp* and click **OK**.
-
-   Select **OK**.
-   ::: moniker-end
 
    A new console project appears. After the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called *Program.cs*, *MyThreadWalkthroughApp.cpp*, or *Module1.vb*.
 

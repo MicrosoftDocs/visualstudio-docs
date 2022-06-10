@@ -13,8 +13,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Create a C++ extension for Python
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Commonly, modules written in C++ (or C) are used to extend the capabilities of a Python interpreter. You can also use them to enable access to low-level operating system capabilities.
 
@@ -148,20 +149,6 @@ Follow the instructions in this section to create two identical C++ projects, *s
 
     ::: moniker-end
 
-    ::: moniker range="=vs-2017"
-
-    | Tab | Property | Value |
-    | --- | --- | --- |
-    | **General** | **General** > **Target Name** | Specify the name of the module to refer to it from Python in `from...import` statements. You use this same name in the C++ code when you define the module for Python. To use the name of the project as the module name, leave the default value of **$\<ProjectName>**. For `python_d.exe`, add `_d` to the end of the name. |
-    | | **General** > **Target Extension** | **.pyd** |
-    | | **Project Defaults** > **Configuration Type** | **Dynamic Library (.dll)** |
-    | **C/C++** > **General** | **Additional Include Directories** | Add the Python *include* folder, as appropriate for your installation (for example, *c:\Python36\include*).  |
-    | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | If it's present, change the **_DEBUG** value to **NDEBUG** to match the non-debug version of `CPython`. When you're using `python_d.exe`, leave this value unchanged. |
-    | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** to match the non-debug version of `CPython`. When you're using `python_d.exe`, leave this value unchanged. |
-    | **Linker** > **General** | **Additional Library Directories** | Add the Python *libs* folder that contains *.lib* files, as appropriate for your installation (for example, *c:\Python36\libs*). Be sure to point to the *libs* folder that contains *.lib* files, and *not* the *Lib* folder that contains *.py* files. |
-    | | |
-
-    ::: moniker-end
     
     > [!NOTE]
     > If the **C/C++** tab isn't displayed in the project properties, the project contains no files that identifies as C/C++ source files. This condition can occur if you create a source file without a *.c* or *.cpp* file extension. 

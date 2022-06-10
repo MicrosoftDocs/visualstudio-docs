@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # THUNK_ORDINAL
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Designates thunk types.
 
 ## Syntax

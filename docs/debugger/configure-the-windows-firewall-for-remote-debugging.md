@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Configure Windows Firewall for remote debugging
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 On a network protected by Windows Firewall, the firewall must be configured to permit remote debugging. Visual Studio and the remote debugging tools try to open the correct firewall ports during installation or startup, but you may also need to open ports or allow apps manually.
 
 This topic describes how to configure the Windows firewall to enable remote debugging on Windows 10, 8/8.1, and 7; and Windows Server 2012 R2, 2012, and 2008 R2 computers. The Visual Studio and remote computer don't have to be running the same operating system. For example, the Visual Studio computer can run Windows 11, and the remote computer can run Windows Server 2012 R2.
@@ -87,15 +89,6 @@ For remote debugging, the following ports must be open on the remote computer:
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-|**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|
-|-|-|-|-|
-|4022|Incoming|TCP|For VS 2017. The port number increments by 2 for each Visual Studio version. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
-|4023|Incoming|TCP|For VS 2017. The port number increments by 2 for each Visual Studio version. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see  [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
-|3702|Outgoing|UDP|(Optional) Required for remote debugger discovery.|
-
-::: moniker-end
 
 
 

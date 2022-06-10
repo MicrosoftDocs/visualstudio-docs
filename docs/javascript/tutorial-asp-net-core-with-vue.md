@@ -16,6 +16,8 @@ monikerRange: '>= vs-2022'
 ---
 # Tutorial: Create an ASP.NET Core app with Vue in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this article, you learn how to build an ASP.NET Core project to act as an API backend and a Vue project to act as the UI.
 
 Currently, Visual Studio includes ASP.NET Core Single Page Application (SPA) templates that support Angular, React, and Vue. The templates provide a built in Client App folder in your ASP.NET Core projects that contains the base files and folders of each framework.
@@ -99,12 +101,8 @@ Once the project is created, you see some new and modified files:
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-vue-deselect-launch-browser.png" alt-text="Open debug launch profiles UI"::: 
 
-1. Next, right-click the Vue project and select the **Properties** menu and go the **Debugging** section. Change the Debugger to launch to the **launch.json** option.
- 
-   :::image type="content" source="media/vs-2022/asp-net-core-with-vue-choose-debugger.png" alt-text="Choose the debugger (launch.json)":::
-
    >[!NOTE]
-   > This setting sets the location of *launch.json*. The default path for *launch.json* is under *.vscode/launch.json*, so typically you can skip this step if you are using the default path.
+   > Currently, *launch.json* must be located under the *.vscode* folder.
 
 ## Set the startup project
 
@@ -149,6 +147,10 @@ You may see the following error:
 If you see this issue, most likely the frontend started before the backend. Once you see the backend command prompt up and running, just refresh the Vue app in the browser.
 
 Otherwise, if the port is in use, try 5002 in *launchSettings.json* and *vue.config.js*.
+
+### Outdated version of Vue
+
+If you see the console message **Could not find the file 'C:\Users\Me\source\repos\vueprojectname\package.json'** when you create the project, you may need to update your version of the Vue CLI. After you update the Vue CLI, you may also need to delete the *.vuerc* file in *C:\Users\\[yourprofilename\]*.
 
 ### Docker
 

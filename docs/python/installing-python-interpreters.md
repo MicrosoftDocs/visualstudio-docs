@@ -12,8 +12,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Install Python interpreters
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By default, installing the Python development workload in Visual Studio 2017 and later also installs Python 3 (64-bit). You can optionally choose to install 32-bit and 64-bit versions of Python 2 and Python 3, along with Miniconda (Visual Studio 2019) or Anaconda 2/Anaconda 3 (Visual Studio 2017), as described in [Installation](installing-python-support-in-visual-studio.md).
 
@@ -23,12 +24,8 @@ Alternately, you can install standard python interpreters from the **Add Environ
 
 You can also manually install any of the interpreters listed in the table below outside of the Visual Studio installer. For example, if you installed Anaconda 3 before installing Visual Studio, you don't need to install it again through the Visual Studio installer. You can also install an interpreter manually if, for example, a newer version of available that doesn't yet appear in the Visual Studio installer.
 
-::: moniker range="<=vs-2017"
-> [!Note]
-> Visual Studio supports Python version 2.7, as well as version 3.5 to 3.7. While it is possible to use Visual Studio to edit code written in other versions of Python, those versions are not officially supported and features such as IntelliSense and debugging might not work.
-::: moniker-end
 
-::: moniker range=">vs-2017"
+::: moniker range=">=vs-2019"
 > [!Note]
 > Visual Studio supports Python version 3.7. While it is possible to use Visual Studio to edit code written in other versions of Python, those versions are not officially supported and features such as IntelliSense and debugging might not work.
 ::: moniker-end

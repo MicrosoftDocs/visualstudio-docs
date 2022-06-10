@@ -15,6 +15,8 @@ ms.workload:
 ---
 # How to install Python support in Visual Studio on Windows
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 To install Python support for Visual Studio (also known as Python Tools for Visual Studio or PTVS), follow the instructions in the section that matches your version of Visual Studio:
 :::moniker range=">=vs-2022"
 
@@ -24,12 +26,7 @@ To install Python support for Visual Studio (also known as Python Tools for Visu
 
 - [Visual Studio 2019](#visual-studio-2019)
 :::moniker-end
-:::moniker range="<=vs-2017"
 
-- [Visual Studio 2017](#visual-studio-2017)
-- [Visual Studio 2015](#visual-studio-2015)
-- [Visual Studio 2013 and earlier](#visual-studio-2013-and-earlier)
-:::moniker-end
 
 To quickly test Python support after following the installation steps, open the **Python Interactive** window by pressing **Alt**+**I** and entering `2+2`. If you don't see the output of `4`, recheck your steps.
 
@@ -49,11 +46,7 @@ To quickly test Python support after following the installation steps, open the 
 ## Visual Studio 2019
 
 :::moniker-end
-:::moniker range="vs-2017"
 
-## Visual Studio 2017
-
-:::moniker-end
 
 1. Download and run the latest Visual Studio installer. If you have Visual Studio installed already, run the Visual Studio Installer, select the **Modify** option (see [Modify Visual Studio](../install/modify-visual-studio.md)) and go to step 2.
 
@@ -75,11 +68,7 @@ To quickly test Python support after following the installation steps, open the 
     > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other uses, install [Visual Studio 2019 Professional](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted) or [Visual Studio 2019 Enterprise](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_gettingstarted).
 
     :::moniker-end
-    :::moniker range="vs-2017"
 
-   >[!div class="nextstepaction"]
-   > [Install Visual Studio 2017 community](https://my.visualstudio.com/Downloads?q=Visual-Studio-2017)
-    :::moniker-end
 
 1. The Visual Studio installer provides you a list of workloads that are groups of related options for specific development areas. For Python, select the **Python development** workload.
 
@@ -100,11 +89,6 @@ To quickly test Python support after following the installation steps, open the 
 
    :::moniker-end
 
-   :::moniker range="vs-2017"
-
-   ![Python development options in Visual Studio 2017 installer](media/installation-python-options.png)
-
-   :::moniker-end
 
  | Option | Description |
    | --- | --- |
@@ -125,10 +109,7 @@ After installation, the installer provides options to modify, launch, repair, or
    ![Launching, modifying, modifying, or uninstalling Visual Studio from the installer-2019](media/installation-vs-launch.png)
 
 :::moniker-end
-:::moniker range="vs-2017"
-  > [!Note]
-> The Python and Data Science workloads are available only with Visual Studio 2017 version 15.2 and later.
-:::moniker-end
+
 
 ### Troubleshooting
 
@@ -140,31 +121,6 @@ To fix problems while installing or running Python in Visual Studio, try the fol
 
 **Example error**: Failed to start interactive process: System.ComponentModel.Win32Exception (0x80004005): Unknown error (0xc0000135) at Microsoft.PythonTools.Repl.PythonInteractiveEvaluator.d__43.MoveNext().
 
-:::moniker range="<=vs-2017"
-
-## Visual Studio 2015
-
-1. Run the Visual Studio installer through **Control Panel > Programs and Features**, selecting **Microsoft Visual Studio 2015** and then **Change**.
-
-1. In the installer, select **Modify**.
-
-1. Select **Programming Languages** > **Python Tools for Visual Studio** and then **Next**:
-
-   ![PTVS option in Visual Studio 2015 installer](media/installation-vs2015.png)
-
-1. Once Visual Studio setup is complete, [install a Python interpreter of your choice](installing-python-interpreters.md). Visual Studio 2015 supports only Python 3.5 and earlier; later versions generate a message like **Unsupported Python version 3.6**). If you already have an interpreter installed and Visual Studio doesn't detect it automatically, see [Manually identify an existing environment](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
-
-## Visual Studio 2013 and earlier
-
-1. Install the appropriate version of Python Tools for Visual Studio for your version of Visual Studio:
-
-    - Visual Studio 2013: [PTVS 2.2.2 for Visual Studio 2013](https://github.com/Microsoft/PTVS/releases/v2.2.2). The **File** > **New Project** dialog in Visual Studio 2013 gives you a shortcut for this process.
-    - Visual Studio 2010 and 2012: [PTVS 2.1.1 for Visual Studio 2010 and 2012](https://github.com/Microsoft/PTVS/releases/v2.1.1)
-
-1. [Install a Python interpreter of your choice](installing-python-interpreters.md).
-If you already have an interpreter installed and Visual Studio doesn't detect it automatically, see [Manually identify an existing environment](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
-
-:::moniker-end
 
 ## Install locations
 
@@ -183,28 +139,3 @@ For Visual Studio 2019 and Visual Studio 2017, the Python workload installs in *
 
 :::moniker-end
 
-:::moniker range="<=vs-2017"
-
-For Visual Studio 2015 and earlier, installation paths are as follows:
-
-- 32-bit:
-  - Path: *%Program Files(x86)%\Microsoft Visual Studio \<VS_ver>\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\\<PTVS_ver>*
-  - Registry location of path: **HKEY_LOCAL_MACHINE\Software\Microsoft\PythonTools\\<VS_ver>\InstallDir**
-- 64-bit:
-  - Path: *%Program Files%\Microsoft Visual Studio \<VS_ver>\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\\<PTVS_ver>*
-  - Registry location of path: **HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\PythonTools\\<VS_ver>\InstallDir**
-
-Where:
-
-- &lt;VS_ver&gt; is:
-  - 14.0 for Visual Studio 2015
-  - 12.0 for Visual Studio 2013
-  - 11.0 for Visual Studio 2012
-  - 10.0 for Visual Studio 2010
-- &lt;PTVS_ver&gt; is a version number, such as 2.2.2, 2.1.1, 2.0, 1.5, 1.1, or 1.0.
-
-### User-specific installations (1.5 and earlier)
-
-Python Tools for Visual Studio 1.5 and earlier allowed installation for the current user only, in which case, the installation path is *%LocalAppData%\Microsoft\VisualStudio\\<VS_ver>\Extensions\Microsoft\Python Tools for Visual Studio\\<PTVS_ver>* where &lt;VS_ver&gt; and &lt;PTVS_ver&gt; are the same as described above.
-
-:::moniker-end

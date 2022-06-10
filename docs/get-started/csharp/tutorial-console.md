@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Tutorial: Create a simple C# console app in Visual Studio (part 1 of 2)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this tutorial, you use Visual Studio to create and run a C# console app, and explore some features of the Visual Studio integrated development environment (IDE). This tutorial is part 1 of a two-part tutorial series.
 
 In this tutorial, you:
@@ -35,11 +37,6 @@ In this tutorial, you:
 
 You must have Visual Studio installed.
 
-::: moniker range="vs-2017"
-
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -51,38 +48,6 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 To start, create a C# application project. The project type comes with all the template files you need.
 
-::: moniker range="vs-2017"
-
-1. Open Visual Studio 2017.
-
-2. From the top menu bar, choose **File** > **New** > **Project**.
-   (Alternatively, press **Ctrl**+**Shift**+**N**).
-
-3. In the left pane of the **New Project** dialog box, expand **C#**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file ***Calculator***.
-
-   ![Screenshot that shows the Console App (.NET Core) project template in the New Project dialog box in the Visual Studio IDE.](./media/new-project-csharp-calculator-console-app.png)
-
-### Add a workload (optional)
-
-If you don't see the **Console App (.NET Core)** project template, you can get it by adding the **.NET Core cross-platform development** workload. Here's how.
-
-#### Option 1: Use the New Project dialog box
-
-1. Choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
-
-   ![Screenshot that shows the Choose the Open Visual Studio Installer link from the New Project dialog box.](./media/csharp-open-visual-studio-installer-generic-dark.png)
-
-1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
-
-   ![Screenshot that shows the .NET Core cross-platform development workload in the Visual Studio Installer.](./media/dot-net-core-xplat-dev-workload.png)
-
-#### Option 2: Use the Tools menu bar
-
-1. Cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features**.
-
-1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -753,17 +718,6 @@ namespace Calculator
 
 ## Next steps
 
-:::moniker range="vs-2017"
-
-Continue with more tutorials:
-
-> [!div class="nextstepaction"]
-> [C# tutorials](/dotnet/csharp/tutorials)
-
-> [!div class="nextstepaction"]
-> [Tour the Visual Studio IDE](../visual-studio-ide.md)
-
-:::moniker-end
 
 :::moniker range=">=vs-2019"
 

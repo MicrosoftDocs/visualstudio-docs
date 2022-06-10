@@ -21,6 +21,8 @@ ms.workload:
 - data-storage
 ---
 # Walkthrough: Creating a WCF Data Service with WPF and Entity Framework
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] that is hosted in an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application and then access it from a Windows Forms application.
 
 In this walkthrough you:

@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Brace matching in a legacy language service
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Brace matching helps the developer track language elements that need to occur together, such as parentheses and curly braces. When a developer enters a closing brace, the opening brace is highlighted.
 
  You can match two or three co-occurring elements, called pairs and triples. Triples are sets of three co-occurring elements. For example, in C#, the `foreach` statement forms a triple: `foreach()`, `{`, and `}`. All three elements are highlighted when the closing brace is typed.

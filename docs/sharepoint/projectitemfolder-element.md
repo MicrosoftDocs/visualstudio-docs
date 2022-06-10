@@ -17,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # ProjectItemFolder element
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Represents a mapped folder.
 
 ## Syntax

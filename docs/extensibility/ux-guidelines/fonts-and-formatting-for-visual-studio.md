@@ -13,6 +13,8 @@ ms.workload:
 - vssdk
 ---
 # Fonts and Formatting for Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## <a name="BKMK_TheEnvironmentFont"></a> The environment font
  All fonts within Visual Studio must be exposed to the user for customization. This is primarily done through the **Fonts and Colors** page in the **Tools > Options** dialog. The three main categories of font settings are:
 
@@ -102,11 +104,6 @@ xmlns:vsui="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visual
 
 **Appears as:** 34 pt Segoe UI Light
 
-::: moniker range="vs-2017"
-
-**Use for:** (rare) unique branded UI, like in the Start Page
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -423,13 +420,6 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
 #### 310% Environment font + Light
 
-::: moniker range="vs-2017"
-
-|Usage|Appearance|
-|-|-|
-|**Usage:**<br /><br /> -   Larger heading in signature dialogs<br />-   Main report heading<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Always use Light weight<br /><br /> **Don't:**<br /><br /> -   Use for UI other than signature UI such as Start Page<br />-   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in tool windows|**Appears as:** 28 pt Segoe UI Light<br /><br /> **Visual example:**<br /><br /> ![Example of 310% Environment font &#43; Light heading](../../extensibility/ux-guidelines/media/0202-a_ef310.png "0202-a_EF310")|
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

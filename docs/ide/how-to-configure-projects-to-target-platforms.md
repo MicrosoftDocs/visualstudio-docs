@@ -23,6 +23,8 @@ ms.workload:
 ---
 # How to: Configure projects to target platforms
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio enables you to set up your application builds to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in Visual Studio, see [64-bit applications](/dotnet/framework/64-bit-apps).
 
 ::: moniker range="vs-2022"
@@ -116,10 +118,6 @@ You might have a .NET assembly or DLL that has both x86 and x64 versions. To set
 </Project>
 ```
 
-::: moniker range="vs-2017"
-> [!NOTE]
-> In Visual Studio 2017, you need to unload the project before you can edit the project file. To unload the project, right-click on the project node, and choose **Unload project**. When done editing, save your changes and reload the project by right-clicking the project node and choosing **Reload project**.
-::: moniker-end
 
 For more information about the project file, see [MSBuild project file schema reference](../msbuild/msbuild-project-file-schema-reference.md).
 

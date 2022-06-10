@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Configure a computer to develop Office solutions
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 To create VSTO Add-ins and customizations for Microsoft Office, install a supported version of Visual Studio, the .NET Framework, and Microsoft Office.
 
 |Software|Supported versions|

@@ -13,6 +13,8 @@ ms.workload:
 ---
 # How to: Insert XML comments for documentation generation
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio can help you document code elements such as classes and methods, by automatically generating the standard XML documentation comment structure. At compile time, you can generate an XML file that contains the documentation comments. To enable that option, select **Generate a file containing API documentation** on the **Build** > **Output** tab of your project's properties.
 
 > [!TIP]
@@ -50,7 +52,7 @@ You can use styles in XML comments that will render in Quick Info when hovering 
    ![Screenshot showing the completed comment with style tags for italics, bold, bullets, and a clickable link.](media/doc-style-cs.png)
 
 > [!NOTE]
-> There is an [option](../../ide/reference/options-text-editor-csharp-advanced.md) to toggle XML documentation comments after typing `///` in C# or `'''` Visual Basic. From the menu bar, choose **Tools** > **Options** to open the **Options** dialog box. Then, navigate to **Text Editor** > **C#** or **Basic** > **Advanced**. In the **Editor Help** section, look for the **Generate XML documentation comments** option.
+> There is an [option](../../ide/reference/options-text-editor-csharp-advanced.md) to toggle XML documentation comments after typing `///` in C# or `'''` Visual Basic. From the menu bar, choose **Tools** > **Options** to open the **Options** dialog box. Then, navigate to **Text Editor** > **C#** (or **Visual Basic**) > **Advanced**. In the **Editor Help** section, look for the **Generate XML documentation comments** option.
 
 ## See also
 

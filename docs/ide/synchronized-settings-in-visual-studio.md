@@ -2,7 +2,7 @@
 title: Synchronize settings
 description: Learn how to synchronize your Visual Studio settings across multiple computers by signing in to the same personalization account.
 ms.custom: SEO-VS-2020
-ms.date: 06/18/2020
+ms.date: 05/20/2022
 ms.topic: conceptual
 ms.assetid: a3d2ea29-be5d-4012-9820-44b06adbb7dd
 author: TerryGLee
@@ -13,6 +13,8 @@ ms.workload:
 - multiple
 ---
 # Synchronize Visual Studio settings across multiple computers
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you sign in to Visual Studio on multiple computers using the same personalization account, your settings can be synchronized across the computers.
 
@@ -44,12 +46,40 @@ By default, the following settings are synchronized:
 
 ## Turn off synchronized settings on a particular computer
 
-Synchronized settings for Visual Studio are turned on by default. You can turn off synchronized settings on a computer by going to the **Tools** > **Options** > **Environment** > **Accounts** page and unchecking **Synchronize settings across devices when signed into Visual Studio**.
+::: moniker range="vs-2022"
+
+Synchronized settings for Visual Studio are turned on by default. You can turn off synchronized settings on a computer by going to the **Tools** > **Options** > **Environment** > **Accounts** page and clearing the **Synchronize settings across devices and installs on this machine (enabling this may overwrite local settings)** checkbox.
+
+In earlier versions of Visual Studio 2022, this checkbox controlled only the synchronization of settings across devices. When you cleared the checkbox, it prevented the current device from synchronizing with other devices. (Although if the checkbox was selected on other devices, those devices continued to synchronize with each other. Conversely, multiple installations of Visual Studio on the same device continued to synchronize their settings even if the checkbox was cleared.)
+
+Starting with Visual Studio 2022 [**version 17.2**](/visualstudio/releases/2022/release-notes), this checkbox also controls how Visual Studio synchronizes its installations on the same device. Clearing the checkbox prevents the current Visual Studio installation from synchronizing its settings with Visual Studio installations on the same device or on other devices.  Visual Studio installations on other devices that have the checkbox selected continue to synchronize with each other, as will devices with earlier (pre-17.2) versions of Visual Studio 2022 installed.
+
+If you have multiple installations of Visual Studio, the following table describes how your settings are synchronized when you select or clear the **Synchronize Visual Studio settings across devices and installs on this machine** checkbox.
+
+|Checkbox <br>status   |Version of Visual Studio |Current install syncs on the same device?  |Current install syncs across devices? |Other installs on the same device sync across devices? |
+|---------|----------------|--------|--------|----------------------------------------------|
+|Cleared  | 17.1 & earlier | Yes    | No     | No                                           |
+|Selected | 17.1 & earlier | Yes    | Yes    | Yes, except 17.2+ with the checkbox cleared  |
+|Cleared  | 17.2 & later   | No     | No     | No change                                    |
+|Selected | 17.2 & later   | Yes    | Yes    | Yes, except 17.2+ with the checkbox cleared  |
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+Synchronized settings for Visual Studio are turned on by default. You can turn off synchronized settings on a computer by going to the **Tools** > **Options** > **Environment** > **Accounts** page and unselecting the **Synchronize Visual Studio settings across devices** option.
+
+::: moniker-end
+
+
+::: moniker range="<=vs-2019"
 
 As an example, if you decide not to synchronize the settings in Visual Studio on computer "A", any setting changes made on computer "A" do not appear on computer "B" or computer "C". Computers "B" and "C" will continue to synchronize with each other, but not with computer "A".
 
 > [!NOTE]
 > If you choose not to synchronize settings by deselecting the option on the **Tools** > **Options** > **Environment** > **Accounts** page, other versions or editions of Visual Studio that you have on the same computer aren't affected. Those side-by-side installations of Visual Studio will continue to synchronize their settings (unless you uncheck the option there, too).
+
+::: moniker-end
 
 ## Synchronize settings across Visual Studio IDE products and editions
 
@@ -57,28 +87,10 @@ Settings are synchronized across versions and editions of Visual Studio installe
 
 ## Side-by-side synchronized settings
 
-::: moniker range="vs-2017"
-
-Certain settings like tool window layout aren't shared between different side-by-side installations of Visual Studio. The *CurrentSettings.vssettings* file in *%userprofile%\Documents\Visual Studio 2017\Settings* is in an installation-specific folder that is similar to *%localappdata%\Microsoft\VisualStudio\15.0_xxxxxxxx\Settings*.
-
-> [!NOTE]
-> To use the new installation-specific settings, do a fresh installation. When you upgrade an existing Visual Studio installation, it uses the existing shared location.
-
-If you currently have side-by-side installations of Visual Studio and want to use the new installation-specific settings file location, follow these steps:
-
-1. Upgrade to Visual Studio 2017 version 15.3 or later.
-
-2. Use the **Import and Export Settings Wizard** to export all your existing settings to some location outside of the *%localappdata%\Microsoft\VisualStudio\15.0_xxxxxxxx* folder.
-
-3. Open the **Developer Command Prompt for VS 2017** and run `devenv /resetuserdata`.
-
-1. Open Visual Studio and import the saved settings from the exported settings file.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-Certain settings like tool window layout aren't shared between different side-by-side installations of Visual Studio. The *CurrentSettings.vssettings* file in *%userprofile%\Documents\Visual Studio 2019\Settings* is in an installation-specific folder that is similar to *%localappdata%\Microsoft\VisualStudio\16.0_xxxxxxxx\Settings*.
+Certain settings like tool window layout aren't shared between different side-by-side installations of Visual Studio. For example, the *CurrentSettings.vssettings* file in *%userprofile%\Documents\Visual Studio 2019\Settings* is in an installation-specific folder that is similar to *%localappdata%\Microsoft\VisualStudio\16.0_xxxxxxxx\Settings*.
 
 ::: moniker-end
 

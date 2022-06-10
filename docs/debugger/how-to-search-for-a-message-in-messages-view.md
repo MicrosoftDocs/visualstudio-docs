@@ -17,6 +17,8 @@ ms.workload:
   - multiple
 ---
 # How to: Search for a Message in Messages View
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can search for a specific message in Messages view by using its handle, type, or message ID as search criteria. Any one of these — or a combination — will be valid search criteria. The initial direction of the search can also be specified. The fields in the dialog box are preloaded with the attributes of the message currently selected.
 
 ### To search for a message in Messages view

@@ -11,17 +11,12 @@ ms.topic: quickstart
 ---
 # Quickstart: Use Docker with a React Single-page App in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 With Visual Studio, you can easily build, debug, and run containerized ASP.NET Core apps, including those with client-side JavaScript such as React.js single-page app, and publish them to Azure Container Registry, Docker Hub, Azure App Service, or your own container registry. In this article, we'll publish to Azure Container Registry.
 
 ## Prerequisites
 
-::: moniker range="vs-2017"
-* [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-* [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
-* To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
-* [Node.js](https://nodejs.org/en/download/)
-* For Windows containers, Windows 10 version 1809 or later, to use the Docker images referenced in this article.
-::: moniker-end
 ::: moniker range="vs-2019"
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 * [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
@@ -45,20 +40,6 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
 ## Create a project and add Docker support
 
-::: moniker range="vs-2017"
-
-1. Create a new project using the **ASP.NET Core Web Application** template.
-
-1. Select **React.js**. You can't select **Enable Docker Support**, but don't worry, you can add that support after you create the project.
-
-   ![Screenshot of new React.js project.](media/container-tools-react/vs-2017/new-react-project.png)
-
-1. Right-click on the project node, and choose **Add** > **Docker Support** to add a Dockerfile to your project.
-
-   ![Screenshot of Add Docker support menu item.](media/container-tools-react/vs-2017/add-docker-support.png)
-
-1. Select the container type, and click **OK**.
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -363,9 +344,6 @@ The **Container Tools** option in the **Output** window shows what actions are t
 
 The browser shows the app's home page.
 
-   ::: moniker range="vs-2017"
-   ![Screenshot of running app.](media/container-tools-react/vs-2017/running-app.png)
-   ::: moniker-end
    ::: moniker range="vs-2019"
    ![Screenshot of running app.](media/container-tools-react/vs-2019/running-app.png)
    ::: moniker-end
@@ -373,30 +351,6 @@ The browser shows the app's home page.
    ![Screenshot of running app.](media/container-tools-react/vs-2022/client-app-page.png)
    ::: moniker-end
 
-:::moniker range="<=vs-2017"
-Try navigating to the *Counter* page and test the client-side code for the counter by clicking the **Increment** button.
-
-Open the **Package Manager Console** (PMC) from the menu **Tools**> NuGet Package Manager, **Package Manager Console**.
-
-The resulting Docker image of the app is tagged as *dev*. The image is based on the *3.1* tag of the *dotnet/core/aspnet* base image. Run the `docker images` command in the **Package Manager Console** (PMC) window. The images on the machine are displayed:
-
-```console
-REPOSITORY                             TAG                 IMAGE ID            CREATED             SIZE
-webapplicationreact1                   dev                 09be6ec2405d        2 hours ago         352MB
-mcr.microsoft.com/dotnet/core/aspnet   3.1                 e3559b2d50bb        10 days ago         207MB
-```
-
-> [!NOTE]
-> The **dev** image does not contain the app binaries and other content, as **Debug** configurations use volume mounting to provide the iterative edit and debug experience. To create a production image containing all contents, use the **Release** configuration.
-
-Run the `docker ps` command in PMC. Notice the app is running using the container:
-
-```console
-CONTAINER ID        IMAGE                      COMMAND               CREATED             STATUS              PORTS                                           NAMES
-56d1b1008c89        webapplicationreact1:dev   "tail -f /dev/null"   2 hours ago         Up 2 hours          0.0.0.0:32771->80/tcp, 0.0.0.0:32770->443/tcp   WebApplication-ReactSPA
-```
-
-:::moniker-end
 
 :::moniker range=">=vs-2019"
 
@@ -421,28 +375,6 @@ You can also view the images and inspect information about them. Choose the **Im
 
 Once the develop and debug cycle of the app is completed, you can create a production image of the app.
 
-:::moniker range="vs-2017"
-
-1. Change the configuration drop-down to **Release** and build the app.
-1. Right-click your project in **Solution Explorer** and choose **Publish**.
-1. On the publish target dialog, select **Container Registry**.
-1. Choose **Create New Azure Container Registry** and click **Publish**.
-1. Fill in your desired values in the **Create a new Azure Container Registry**.
-
-    | Setting      | Suggested value  | Description                                |
-    | ------------ |  ------- | -------------------------------------------------- |
-    | **DNS Prefix** | Globally unique name | Name that uniquely identifies your container registry. |
-    | **Subscription** | Choose your subscription | The Azure subscription to use. |
-    | **[Resource Group](/azure/azure-resource-manager/resource-group-overview)** | myResourceGroup |  Name of the resource group in which to create your container registry. Choose **New** to create a new resource group.|
-    | **[SKU](/azure/container-registry/container-registry-skus)** | Standard | Service tier of the container registry  |
-    | **Registry Location** | A location close to you | Choose a Location in a [region](https://azure.microsoft.com/regions/) near you or near other services that will use your container registry. |
-
-    ![Screenshot of Visual Studio's create Azure Container Registry dialog.](media/hosting-web-apps-in-docker/vs-azure-container-registry-provisioning-dialog.png)
-
-1. Select **Create**.
-
-   ![Screenshot showing successful publish.](media/container-tools/publish-succeeded.png)
-:::moniker-end
 
 :::moniker range="vs-2019"
 

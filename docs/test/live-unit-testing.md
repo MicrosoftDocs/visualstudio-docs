@@ -13,6 +13,8 @@ ms.workload:
 ---
 # How to configure and use Live Unit Testing
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 As you're developing an application, Live Unit Testing automatically runs any impacted unit tests in the background and presents the results and code coverage in real time. As you modify your code, Live Unit Testing provides feedback on how your changes impacted existing tests and whether the new code you've added is covered by one or more existing tests. This gently reminds you to write unit tests as you're making bug fixes or adding new features.
 
 > [!NOTE]
@@ -151,26 +153,6 @@ From the failed test, you can easily debug the product code, make edits, and con
 
 For example, the test failure shown in the previous image was caused by an incorrect assumption in the test method that non-alphabetic characters return `true` when passed to the <xref:System.Char.IsLower%2A?displayProperty=fullName> method. After you correct the test method, all the tests should pass. You don't have to pause or stop Live Unit Testing.
 
-::: moniker range="vs-2017"
-## Test Explorer
-
-**Test Explorer** provides an interface that lets you run and debug tests and analyze test results. Live Unit Testing integrates with **Test Explorer**. When Live Unit Testing is not enabled or is stopped, **Test Explorer** displays the status of unit tests the last time a test was run. Source code changes require that you rerun the tests. In contrast, when Live Unit Testing is enabled, the status of unit tests in **Test Explorer** is updated immediately. You don't need to explicitly run the unit tests.
-
-> [!TIP]
-> Open **Live Unit Testing** by selecting **Test** > **Windows** > **Test Explorer** from the top-level Visual Studio menu.
-
-You may notice in the **Test Explorer** window that some tests are faded out. For example, when you enable Live Unit Testing after opening a previously saved project, the **Test Explorer** window had faded out all but the failed test, as the following image shows. In this case, Live Unit Testing has rerun the failed test, but it has not rerun the successful tests. This is because Live Unit Testing's persisted data indicates that there were no changes since the tests were last run successfully.
-
-![Failed test in Test Explorer](media/lut-test-explorer.png)
-
-You can rerun any tests that appear faded by selecting the **Run All** or **Run** options from the **Test Explorer** menu. Or, select one or more tests in the  **Test Explorer** menu, right-click, and then select **Run Selected Tests** or **Debug Selected Tests** from the popup menu. As tests are run, they bubble up the top.
-
-There are some differences between Live Unit Testing automatically running and updating test results and explicitly running tests from **Test Explorer**. These differences include:
-
-- Running or debugging tests from the Test Explorer window runs regular binaries, whereas Live Unit Testing runs instrumented binaries.
-- Live Unit Testing does not create a new application domain to run tests, but rather runs tests from the default domain. Tests run from the **Test Explorer** window do create a new application domain.
-- Live Unit Testing runs tests in each test assembly sequentially. In the **Test Explorer** window, you can choose to run multiple tests in parallel.
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 ## Live Unit Testing window

@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaAddressMap::put_relativeVirtualAddressEnabled
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Allows the client to enable or disable the calculation and use of relative virtual addresses (RVA).
 
 ## Syntax

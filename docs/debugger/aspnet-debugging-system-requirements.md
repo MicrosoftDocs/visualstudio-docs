@@ -21,6 +21,8 @@ ms.workload:
   - "aspnet"
 ---
 # ASP.NET Debugging: System Requirements
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This topic describes the software and security requirements for [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] debugging scenarios:
 
 - Local debugging, in which [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and the Web application run on the same computer. There are two versions of this scenario:

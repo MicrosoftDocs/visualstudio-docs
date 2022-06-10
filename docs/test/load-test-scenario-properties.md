@@ -15,6 +15,8 @@ ms.technology: vs-ide-test
 ---
 # Load test scenario properties
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Change your load test scenario property settings in Visual Studio to meet your load testing requirements. This article lists the various load test scenario properties by category.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]

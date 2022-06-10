@@ -22,6 +22,8 @@ ms.workload:
 ---
 # Identify and customize keyboard shortcuts in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use. Many shortcuts always invoke the same commands, but the behavior of a shortcut can vary based on the following conditions:
 
 - Which default environment settings you choose the first time that you open Visual Studio&mdash;for example, General Development or Visual C#. (For information about changing or resetting your settings, see [Environment settings](environment-settings.md).)
@@ -113,11 +115,6 @@ You can share your custom keyboard shortcuts by exporting them to a file and the
 
 5. In the **What do you want to name your settings file** and **Store my settings file in this directory** boxes, either leave the default values or specify different values, and then choose **Finish**.
 
-::: moniker range="vs-2017"
-
-By default, your shortcuts are saved in a file in the *%USERPROFILE%\Documents\Visual Studio 2017\Settings* folder. The name of the file reflects the date when you exported the settings, and the extension is *.vssettings*.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

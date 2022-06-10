@@ -1,9 +1,7 @@
 - name: Analyze and model your architecture
   href: analyze-and-model-your-architecture.md
-- name: What's new for design in Visual Studio 2017
-  href: what-s-new-for-design-in-visual-studio.md
 - name: Install architecture tools
-  href: install-architecture-tools.md  
+  href: install-architecture-tools.md
 - name: Change your design using visualization and modeling
   href: scenario-change-your-design-using-visualization-and-modeling.md
 - name: Code maps and dependency diagrams
@@ -36,9 +34,9 @@
   items:
   - name: Create models for your app
     href: create-models-for-your-app.md
-  - name: "Dependency Diagrams: Reference"
+  - name: 'Dependency Diagrams: Reference'
     href: layer-diagrams-reference.md
-  - name: "Dependency Diagrams: Guidelines"
+  - name: 'Dependency Diagrams: Guidelines'
     href: layer-diagrams-guidelines.md
   - name: Share models
     items:
@@ -221,9 +219,9 @@
       href: accessing-models-from-text-templates.md
     - name: Use Visual Studio ModelBus in a Text Template
       href: using-visual-studio-modelbus-in-a-text-template.md
-    - name: "Walkthrough: Debug a Text Template that Accesses a Model"
+    - name: 'Walkthrough: Debug a Text Template that Accesses a Model'
       href: walkthrough-debugging-a-text-template-that-accesses-a-model.md
-    - name: "Walkthrough: Connect a Host to a Generated Directive Processor"
+    - name: 'Walkthrough: Connect a Host to a Generated Directive Processor'
       href: walkthrough-connecting-a-host-to-a-generated-directive-processor.md
     - name: The DslTextTransform Command
       href: the-dsltexttransform-command.md
@@ -277,7 +275,7 @@
     items:
     - name: Overview and how-to
       href: design-time-code-generation-by-using-t4-text-templates.md
-    - name: "Walkthrough: Generate Code by using Text Templates"
+    - name: 'Walkthrough: Generate Code by using Text Templates'
       href: walkthrough-generating-code-by-using-text-templates.md
     - name: Code Generation in a Build Process
       href: code-generation-in-a-build-process.md
@@ -342,7 +340,7 @@
         href: creating-custom-t4-text-template-directive-processors.md
       - name: Deploy a Custom Directive Processor
         href: deploying-a-custom-directive-processor.md
-      - name: "Walkthrough: Create a Custom Directive Processor"
+      - name: 'Walkthrough: Create a Custom Directive Processor'
         href: walkthrough-creating-a-custom-directive-processor.md
     - name: Invoke Text Transformation in a VS Extension
       href: invoking-text-transformation-in-a-vs-extension.md
@@ -350,7 +348,7 @@
       items:
       - name: Process Text Templates by using a Custom Host
         href: processing-text-templates-by-using-a-custom-host.md
-      - name: "Walkthrough: Create a Custom Text Template Host"
+      - name: 'Walkthrough: Create a Custom Text Template Host'
         href: walkthrough-creating-a-custom-text-template-host.md
   - name: API Reference for T4 Text Templates
     href: api-reference-for-t4-text-templates.md

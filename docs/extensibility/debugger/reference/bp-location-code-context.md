@@ -18,6 +18,8 @@ dev_langs:
 - CPP
 ---
 # BP_LOCATION_CODE_CONTEXT
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the location of a breakpoint that is bound directly to an address in the program being debugged.
 
 ## Syntax

@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Create an extension with a menu command
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This walkthrough shows how to create an extension with a menu command that launches Notepad.
 
 ## Prerequisites
@@ -29,11 +31,6 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 1. Create a VSIX project named **FirstMenuCommand**. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".
 
-::: moniker range="vs-2017"
-
-2. When the project opens, add a custom command item template named **FirstCommand**. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. In the **Add New Item** dialog, go to **Visual C#** > **Extensibility** and select **Custom Command**. In the **Name** field at the bottom of the window, change the command file name to *FirstCommand.cs*.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -45,11 +42,6 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
     The experimental instance of Visual Studio appears. For more information about the experimental instance, see [The experimental instance](../extensibility/the-experimental-instance.md).
 
-::: moniker range="vs-2017"
-
-4. In the experimental instance, open the **Tools** > **Extensions and Updates** window. You should see the **FirstMenuCommand** extension here. (If you open **Extensions and Updates** in your working instance of Visual Studio, you won't see **FirstMenuCommand**).
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

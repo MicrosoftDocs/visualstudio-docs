@@ -23,6 +23,8 @@ ms.workload:
 ---
 # Walkthrough: Create a code snippet
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can create a code snippet with only a few steps. All you need to do is create an XML file, fill in the appropriate elements, and add your code to it. You can optionally make use of replacement parameters and project references. Import the snippet to your Visual Studio installation by using the **Import** button in the **Code Snippets Manager** (**Tools** > **Code Snippets Manager**).
 
 ## Snippet template
@@ -91,12 +93,6 @@ The following XML is the basic snippet template:
 
 5. The snippet is copied to one of the following locations, depending on the code language:
 
-   ::: moniker range="vs-2017"
-
-   *%USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets*
-   *%USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\Visual Basic\My Code Snippets*
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2019"
 
@@ -111,11 +107,6 @@ The following XML is the basic snippet template:
 
 ## Description and shortcut fields
 
-::: moniker range="vs-2017"
-
-1. Description fields give more information about your code snippet when viewed in the Code Snippets Manager. The shortcut is a tag that users can type in order to insert your snippet. Edit the snippet you have added by opening the file *%USERPROFILE%\Documents\Visual Studio 2017\Code Snippets\\[Visual C# or Visual Basic]\My Code Snippet\SquareRoot.snippet*.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

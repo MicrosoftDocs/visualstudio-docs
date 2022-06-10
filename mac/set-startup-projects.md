@@ -11,6 +11,8 @@ ms.assetid: fd354fff-ce6b-4505-a815-84a2311e39ba
 ---
 # Set multiple startup projects
 
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+
 Visual Studio for Mac allows you to specify that more than one project should be started when you debug or run your solution.
 
 ## To set multiple startup projects

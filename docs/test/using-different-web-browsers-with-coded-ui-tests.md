@@ -14,6 +14,8 @@ monikerRange: '<= vs-2022'
 ---
 # Use different web browsers with coded UI tests
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Coded UI tests can automate testing for web applications by recording your tests using Internet Explorer. You can then customize your test and play it back using either Internet Explorer or other browser types for these web applications. This article describes how to automate the tests using Selenium.
 
 [!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
@@ -49,13 +51,6 @@ To play back tests on non-IE web browsers, you must install the **Selenium compo
 
 ### Install Selenium components
 
-::: moniker range="vs-2017"
-
-1. On the **Tools** menu, choose **Extensions and Updates**.
-
-2. In the **Extensions and Updates** dialog box, search for `Selenium components for Cross Browser Testing`.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

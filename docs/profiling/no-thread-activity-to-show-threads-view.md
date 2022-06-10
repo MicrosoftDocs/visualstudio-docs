@@ -2,7 +2,7 @@
 title: "No Thread Activity to Show (Threads View) | Microsoft Docs"
 description: Learn about the Threads view where there is no activity to show in the currently visible time range.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.cv.threads.nothreadreport"
 helpviewer_keywords:
@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # No thread activity to show (Threads View)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This area shows data about the unhidden threads in the currently visible time range.
 
  If no information is visible, check the following settings:

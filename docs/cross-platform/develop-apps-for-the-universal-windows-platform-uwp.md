@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Develop apps for the Universal Windows Platform (UWP)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 With the Universal Windows Platform and our one Windows core, you can run the same app on any Windows 10 device, from phones to desktops. Create these Universal Windows apps with Visual Studio and the Universal Windows App development tools.
 
 ![Universal Windows Platform](../cross-platform/media/uwp_coreextensions.png)
@@ -34,15 +36,6 @@ The Universal Windows App development tools come with emulators that you can use
 
 Here is the list of software that you need:
 
-::: moniker range="vs-2017"
-
-- [Windows 10](https://support.microsoft.com/help/17777/downloads-for-windows). Visual Studio 2017 supports UWP development only on Windows 10. For more details, see Visual Studio [Platform targeting](/visualstudio/productinfo/vs2017-compatibility-vs) and [System requirements](/visualstudio/productinfo/vs2017-system-requirements-vs).
-
-- [Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download). You will also need the optional Universal Windows Platform development workload.
-
-     ![UWP workload](media/uwp_workload.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

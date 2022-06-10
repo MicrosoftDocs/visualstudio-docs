@@ -13,8 +13,9 @@ dev_langs:
 ms.workload:
   - "nodejs"
 ---
-
 # Debug a JavaScript or TypeScript app in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can debug JavaScript and TypeScript code using Visual Studio. You can set and hit breakpoints, attach the debugger, inspect variables, view the call stack, and use other debugging features.
 
@@ -46,9 +47,7 @@ Visual Studio provides client-side debugging support for Chrome and Microsoft Ed
 > For ASP.NET and ASP.NET Core, debugging embedded scripts in CSHTML files is not supported. JavaScript code must be in separate files to enable debugging.
 
 ::: moniker-end
-::: moniker range="vs-2017"
-Visual Studio provides client-side debugging support for Chrome and Internet Explorer only. In some scenarios, the debugger automatically hits breakpoints in JavaScript and TypeScript code and in embedded scripts on HTML files. For debugging client-side script in ASP.NET apps, see the blog post [Client-side debugging of ASP.NET projects in Google Chrome](https://devblogs.microsoft.com/aspnet/client-side-debugging-of-asp-net-projects-in-google-chrome/).
-::: moniker-end
+
 
 For applications other than ASP.NET, follow the steps described here.
 
@@ -63,9 +62,7 @@ For help to generate source maps, see [Generate source maps for debugging](#gene
 ::: moniker range=">=vs-2019"
 For this scenario, use either Microsoft Edge (Chromium), currently named **Microsoft Edge Beta** in the IDE, or Chrome.
 ::: moniker-end
-::: moniker range="vs-2017"
-For this scenario, use Chrome.
-::: moniker-end
+
 
 1. Close all windows for the target browser.
 
@@ -91,11 +88,6 @@ For this scenario, use Chrome.
     `chrome.exe --remote-debugging-port=9222`
     ::: moniker-end
 
-    ::: moniker range="vs-2017"
-    Open the **Run** command from the Windows **Start** button (right-click and choose **Run**), and enter the following command:
-
-    `chrome.exe --remote-debugging-port=9222`
-    ::: moniker-end
 
     This starts your browser with debugging enabled.
 
@@ -130,9 +122,7 @@ To attach the debugger from Visual Studio and hit breakpoints in client-side cod
     ::: moniker range=">=vs-2019"
     In Visual Studio 2019, choose the correct debugger for your target browser, **JavaScript (Chrome)** or **JavaScript (Microsoft Edge - Chromium)** in the **Attach to** field, type **chrome** or **edge** in the filter box to filter the search results.
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    In Visual Studio 2017, choose **Webkit code** in the **Attach to** field, type **chrome** in the filter box to filter the search results.
-    ::: moniker-end
+
 
 5. Select the browser process with the correct host port (localhost in this example), and select **Attach**.
 
@@ -143,11 +133,7 @@ To attach the debugger from Visual Studio and hit breakpoints in client-side cod
 
     ![Attach to process](../javascript/media/tutorial-nodejs-react-attach-to-process-edge.png)
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    ![Attach to process](../javascript/media/tutorial-nodejs-react-attach-to-process.png)
 
-    You know the debugger has attached correctly when the DOM Explorer and the JavaScript Console open in Visual Studio. These debugging tools are similar to Chrome Developer Tools and F12 Tools for Microsoft Edge.
-    ::: moniker-end
 
     > [!TIP]
     > If the debugger does not attach and you see the message "Failed to launch debug adapter" or "Unable to attach to the process. An operation is not legal in the current state.", use the Windows Task Manager to close all instances of the target browser before starting the browser in debugging mode. Browser extensions may be running and preventing full debug mode.
@@ -255,9 +241,7 @@ These project settings are available.
 ::: moniker range=">=vs-2019"
 Starting in Visual Studio 2019, Visual Studio provides debugging support for Chrome and Microsoft Edge (Chromium) only.
 ::: moniker-end
-::: moniker range="vs-2017"
-Visual Studio provides debugging support for Chrome and Internet Explorer only.
-::: moniker-end
+
 
 However, you cannot automatically hit breakpoints on files generated with Razor syntax (cshtml, vbhtml). There are two approaches you can use to debug this kind of file:
 
@@ -273,8 +257,5 @@ However, you cannot automatically hit breakpoints on files generated with Razor 
    For Microsoft Edge (Chromium), use the same procedure as Chrome.
    ::: moniker-end
 
-   ::: moniker range="vs-2017"
-   For Internet Explorer, go to **Solution Explorer > Script Documents > Windows Internet Explorer > YourPageName**.
-   ::: moniker-end
 
 For more information, see [Client-side debugging of ASP.NET projects in Google Chrome](https://devblogs.microsoft.com/aspnet/client-side-debugging-of-asp-net-projects-in-google-chrome/).

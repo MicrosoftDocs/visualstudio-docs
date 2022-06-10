@@ -14,6 +14,8 @@ ms.technology: vs-installation
 ---
 # Command-line parameter examples for Visual Studio installation
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 To illustrate how to [use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md), here are several examples that you can customize to match your needs.
 
 In each example, `vs_enterprise.exe`, `vs_professional.exe` and `vs_community.exe` represent the respective edition of the Visual Studio bootstrapper, which is the small (approximately 1MB) file that initiates the download process. If you are using a different edition, substitute the appropriate bootstrapper name.
@@ -138,18 +140,6 @@ If you choose to use a custom layout as the update channel, then be aware of the
 
 ## Using --remove
 
-::: moniker range="vs-2017"
-
-* Remove the Profiling Tools component from the default installed Visual Studio instance:
-
-  ```shell
-   vs_enterprise.exe modify ^
-   --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" ^
-   --remove Microsoft.VisualStudio.Component.DiagnosticTools ^
-   --passive
-  ```
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

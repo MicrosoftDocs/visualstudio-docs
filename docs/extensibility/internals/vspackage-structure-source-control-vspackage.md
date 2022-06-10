@@ -17,6 +17,8 @@ ms.workload:
 ---
 # VSPackage Structure (Source Control VSPackage)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Source Control Package SDK provides guidelines for creating a VSPackage that allow a source control implementer to integrate his or her source control functionality with the Visual Studio environment. A VSPackage is a COM component that is typically loaded on demand by the Visual Studio integrated development environment (IDE) based on the services that are advertised by the package in its registry entries. Every VSPackage must implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>. A VSPackage typically consumes services offered by the Visual Studio IDE and proffers some services of its own.
 
 A VSPackage declares its menu items and establishes a default item state via the .vsct file. The Visual Studio IDE displays the menu items in this state until the VSPackage is loaded. Subsequently, the VSPackage's implementation of the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> method is called to enable or disable menu items.

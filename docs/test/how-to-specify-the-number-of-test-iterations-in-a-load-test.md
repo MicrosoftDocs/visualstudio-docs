@@ -15,6 +15,8 @@ ms.technology: vs-ide-test
 ---
 # How to: Specify the number of test iterations in a load test run setting
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 After you create your load test with the **New Load Test Wizard**, you can use the **Load Test Editor** to change the scenarios properties to meet your testing needs and goals. For more information, see [Walkthrough: Create and run a load test](../test/walkthrough-create-and-run-a-load-test.md).
 
 Using the **Load Test Editor**, you can edit the **Test Iterations** property of a run settings value in the **Properties** window. The **Test Iterations** property specifies the number of iterations to run on all the web performance and unit tests in all the scenarios in a load test using the **Load Test Editor**.

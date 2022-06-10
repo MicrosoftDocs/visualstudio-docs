@@ -19,6 +19,8 @@ ms.workload:
 ---
 # How to: Display line numbers in the editor
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can display or hide line numbering in your code.
 
 ## Display line numbers in code

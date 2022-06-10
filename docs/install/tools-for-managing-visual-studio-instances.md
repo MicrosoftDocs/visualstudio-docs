@@ -18,6 +18,8 @@ ms.technology: vs-installation
 ---
 # Tools for detecting and managing Visual Studio instances
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 There are several tools that you can use to detect Visual Studio installations on client machines and to manage the installations.
 
 ## Detecting existing Visual Studio instances
@@ -55,12 +57,6 @@ Get-CimInstance MSFT_VSInstance
 select distinct SMS_G_System_COMPUTER_SYSTEM.Name, SMS_G_System_ADD_REMOVE_PROGRAMS.DisplayName, SMS_G_System_ADD_REMOVE_PROGRAMS.Version from SMS_R_System inner join SMS_G_System_COMPUTER_SYSTEM on SMS_G_System_COMPUTER_SYSTEM.ResourceID = SMS_R_System.ResourceId inner join SMS_G_System_ADD_REMOVE_PROGRAMS on SMS_G_System_ADD_REMOVE_PROGRAMS.ResourceID = SMS_R_System.ResourceId where SMS_G_System_ADD_REMOVE_PROGRAMS.DisplayName like "Visual Studio %[a-z]% 201[7,9]" 
 ```
 
-::: moniker range="vs-2017"
-
-> [!TIP]
-> For more information about Visual Studio 2017 installation, see [Visual Studio Setup Archives](https://devblogs.microsoft.com/setup/tag/vs2017/).
-
-::: moniker-end
 
 ## Editing the registry for a Visual Studio instance
 

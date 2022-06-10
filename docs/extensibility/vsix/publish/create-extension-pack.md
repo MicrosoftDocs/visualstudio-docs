@@ -1,6 +1,6 @@
 ---
 title: Create an extension pack
-description: Create an extension pack to easily share your favorite extensions with others or to bundle a set of extensions together.
+description: Follow the video or use the instructions to create an extension pack that contains your favorite extensions or group a set of extensions together.
 ms.date: 12/01/2021
 ms.topic: conceptual
 author: madskristensen
@@ -8,9 +8,11 @@ ms.author: madsk
 manager: pchapman
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-sdk
-ms.custom: cookbook
+ms.custom: cookbook, kr2b-contr-experiment
 ---
 # Create an Extension Pack
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article shows you how to create an Extension Pack. An Extension Pack is a set of extensions that can be installed together. Extension Packs enable you to easily share your favorite extensions with other users or bundle a set of extensions together for a particular scenario.
 
@@ -45,4 +47,4 @@ In the Solution Explorer, right-click the project node and select **Add > New It
 
 The .vsext file in the root of your project is what turns the project into an extension pack. Just make sure it's *Build Action* is set to *Content* and that *Include in VSIX* is set to *True* as shown below.
 
-![Include in VSIX](../media/include-in-vsix.png)
+![Screenshot of the Properties dialog. Build action and Include in V S I X are highlighted.](../media/include-in-vsix.png)

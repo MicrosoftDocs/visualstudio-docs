@@ -10,8 +10,9 @@ ms.date: 01/07/2022
 ms.custom: 
 - vs-acquisition
 ---
-
 # Tutorial: Create a matching game WinForms app
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this series of four tutorials, you build a matching game, where the player matches pairs of hidden icons.
 
@@ -43,24 +44,6 @@ Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/)
 
 When you create your matching game, the first step is to create a Windows Forms App project.
 
-::: moniker range="vs-2017"
-1. Open Visual Studio.
-
-1. On the menu bar, select **File** > **New** > **Project**.
-
-   ![Screenshot shows the New project dialog box.](../media/new-project-dialog-callouts.png)
-
-1. On the left side of the **New Project** dialog box, select either **Visual C#** or **Visual Basic**, and then select **Windows Desktop**.
-
-1. In the project templates list, select **Windows Forms App (.NET Framework)**. Name the new form *MatchingGame*, and then select **OK**.
-
-   > [!NOTE]
-   > If you don't see the **Windows Forms App (.NET Framework)** template, use the Visual Studio Installer to install the **.NET desktop development** workload.
-   >
-   > ![Screenshot shows the dot NET desktop development workload in the Visual Studio Installer.](../media/tutorial-windows-forms-create-match-game/install-dot-net-desktop-env.png)
-   >
-   > For more information, see the [Install Visual Studio](../../install/install-visual-studio.md) page.
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 1. Open Visual Studio.

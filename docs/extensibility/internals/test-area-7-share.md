@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Test Area 7: Share
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This test area covers sharing items between locations via the **Share** command.
 
  A hhare operation is the apparent duplication of files and folder items between two or more locations within a source control file hierarchy. Duplication does not really occur on the server, but the user does see the same file in two or more specified locations. Whenever changes are made to any of the shared items, those changes appear in all other shared locations.

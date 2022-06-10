@@ -20,6 +20,8 @@ ms.workload:
 ---
 # Suppress code analysis violations
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 It is often useful to indicate that a warning is not applicable. Suppressing code analysis violations indicates team members the code was reviewed, and the warning can be suppressed. The following sections describe the different ways to suppress code analysis violations using the Visual Studio IDE.
 
 ::: moniker range=">=vs-2019"
@@ -40,9 +42,6 @@ You can suppress violations in code using a preprocessor directive, the [#pragma
 
   If you choose **in Source**, you see a preview of the preprocessor directive that will be added to your code.
 
-  ::: moniker range="vs-2017"
-  :::image type="content" source="media/suppress-diagnostic-from-editor.png" alt-text="Suppress diagnostic from quick actions menu":::
-  ::: moniker-end
   ::: moniker range=">=vs-2019"
   :::image type="content" source="media/vs-2019/suppress-diagnostic-from-editor.png" alt-text="Suppress diagnostic from quick actions menu":::
 
@@ -81,10 +80,7 @@ The [global suppression file](#global-level-suppressions) uses the [SuppressMess
 - From the **Analyze** menu, select **Analyze** > **Build and Suppress Active Issues** on the menu bar to suppress all current violations. Suppressing all current violations is sometimes referred to as "baselining".
 
 ::: moniker-end
-::: moniker range="vs-2017"
 
-- From the **Analyze** menu, select **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar to suppress all current violations. Suppressing all current violations is sometimes referred to as "baselining".
-::: moniker-end
 
 ## Suppress violations using project settings
 
@@ -105,14 +101,6 @@ In C++/CLI, use the macros CA\_SUPPRESS\_MESSAGE or CA\_GLOBAL\_SUPPRESS_MESSAGE
 > [!NOTE]
 > You should not use in-source suppressions on release builds, to prevent shipping the in-source suppression metadata accidentally.
 
-::: moniker range="vs-2017"
-
-> [!NOTE]
-> If you migrate a project to Visual Studio 2017, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings, you can suppress all of them by selecting **Analyze** > **Run Code Analysis and Suppress Active Issues**.
->
-> ![Run code analysis and suppress issues in Visual Studio](media/suppress-active-issues.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

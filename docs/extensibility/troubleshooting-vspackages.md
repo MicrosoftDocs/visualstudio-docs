@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Troubleshooting VSPackages
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Following are common problems that you might have with your VSPackage and tips to resolve the issues.
 
 ### To troubleshoot a VSPackage that keeps Visual Studio from starting

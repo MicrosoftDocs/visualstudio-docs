@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically display worksheet comments
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can programmatically show and hide comments in Microsoft Office Excel worksheets.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]

@@ -15,6 +15,8 @@ ms.workload:
   - "office"
 ---
 # GetValidCompatibleFramework function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This API supports the Office infrastructure and isn't intended to be used directly from your code.
 
 ## Syntax

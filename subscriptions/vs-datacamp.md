@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: fc33d419-78cf-485e-b558-5b7efa900f14
-ms.date: 10/18/2021
+ms.date: 04/22/2022
 ms.topic: how-to
 description:  Learn about the DataCamp training subscription included with selected Visual Studio subscriptions.
 ---
@@ -19,12 +19,12 @@ Eligible Visual Studio subscriptions include subscriptions to DataCamp.  With Da
    > [!div class="mx-imgBorder"]
    > ![DataCamp Benefit Tile](_img/vs-datacamp/vs-datacamp-tile-2.png "Click 'Activate' to get started.")
 
-3. On the DataCamp page, you can create a new account.  You can choose to enter an email address and password, or sign in using existing accounts from Facebook, LinkedIn, or Google.  Once you've provided your sign-in information, click **Get Started**.
+3. On the DataCamp page, you can create a new account.  You can choose to enter an email address and password, or sign in using existing accounts from Facebook, LinkedIn, or Google.  Provide your sign-in information and click **Get Started**.
 
    > [!NOTE]
    > When you begin creating your account, you may receive the following error message: "OOPS!  Your promo code is invalid or expired."  This happens because when your promo code is created, it expires after a few minutes.  If you receive this message, simply return to the [Benefits](https://my.visualstudio.com/benefits) page and click on the **Activate** link on the DataCamp benefit tile.
 
-4. Once your account has been created, you can choose a learning path.  Options include:
+4. After your account has been created, you can choose a learning path.  Options include:
     - Learning R for Data Science
     - Start Learning Python for Data Science
     - Develop your Data Science Skillset
@@ -52,18 +52,18 @@ You can stop at any point, and resume your training in your next session.  Just 
 > ![DataCamp Continue Training](_img/vs-datacamp/vs-datacamp-continue-training.png "Click 'Continue Track' to resume training at any time.")
 
 ## Eligibility
-| Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
-|--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard)   | VL, Azure, Retail, | 3-months       |  No.  Available to new subscribers only          |
-| Visual Studio Enterprise subscription with GitHub Enterprise   | VL | 3-months       |  No.  Available to new subscribers only          |
-| Visual Studio Professional (Standard) | VL, Azure, Retail                                       | 3-months                                                            |  No.  Available to new subscribers only           |
-| Visual Studio Professional subscription with GitHub Enterprise| VL | 3-months                                                            |  No.  Available to new subscribers only           |
-| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | 3-months                                             |  No.  Available to new subscribers only           |
-| MSDN Platforms (Standard)                                          | VL, Retail                                              | 3-months                                              |  No.  Available to new subscribers only           |
-| Visual Studio Enterprise (Standard)  | NFR<sup>1</sup> |Not available  | N/A |
+| Subscription Level | Channels | Benefit | Renewable? |
+|--------------------|----------|---------|------------|
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail, | 3-months |  No.  Available to new subscribers only |
+| Visual Studio Enterprise subscription with GitHub Enterprise   | VL | 3-months |  No.  Available to new subscribers only |
+| Visual Studio Professional (Standard) | VL, Azure, Retail  | 3-months |  No.  Available to new subscribers only |
+| Visual Studio Professional subscription with GitHub Enterprise| VL | 3-months |  No.  Available to new subscribers only |
+| Visual Studio Test Professional (Standard) | VL, Retail | 3-months |  No.  Available to new subscribers only |
+| MSDN Platforms (Standard) | VL, Retail | 3-months |  No.  Available to new subscribers only |
+| Visual Studio Enterprise (Standard)  | NFR\* |Not available  | N/A |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
 
-<sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Partner Network (MPN), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark, Imagine.  Excludes:  NFR Basic*
+\*  *Includes:  Not for Resale (NFR), FTE, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Partner Network (MPN), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark, Imagine.  Excludes:  NFR Basic*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.

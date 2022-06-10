@@ -1,6 +1,7 @@
 ---
 title: Add Azure Cache for Redis by using Connected Services | Microsoft Docs
-description: Add Azure Cache for Redis support to your app by using the Visual Studio to add a connected service
+description: Learn how to add Azure cache for Redis support to your app with the Visual Studio process for adding a connected service.
+ms.custom: kr2b-contr-experiment
 author: AngelosP
 manager: jmartens
 ms.technology: vs-azure
@@ -11,6 +12,8 @@ ms.author: angelpe
 monikerRange: ">= vs-2019"
 ---
 # Add Azure Cache for Redis by using Visual Studio Connected Services
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With Visual Studio, you can connect any of the following to Azure Cache for Redis by using the **Connected Services** feature:
 
@@ -41,11 +44,11 @@ The connected service functionality adds all the needed references and connectio
 
 1. In the **Connected Services** tab, select the + icon for **Service Dependencies**.
 
-    ![Add Service Dependency](./media/vs-azure-tools-connected-services-storage/vs-2019/connected-services-tab.png)
+    ![Screenshot showing connected services selected in the menu pane. The + icon is highlighted for emphasis.](./media/vs-azure-tools-connected-services-storage/vs-2019/connected-services-tab.png)
 
 1. In the **Add Dependency** page, select **Azure Cache for Redis**.
 
-    ![Add Azure Cache for Redis](./media/azure-redis-cache-add-connected-service/azure-redis-cache.png)
+    ![Screenshot of the Add Dependency page. Azure Cache for Redis is selected.](./media/azure-redis-cache-add-connected-service/azure-redis-cache.png)
 
     If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
@@ -53,7 +56,7 @@ The connected service functionality adds all the needed references and connectio
 
     If you need to create a new component, go to the next step. Otherwise, skip to step 7.
 
-    ![Connect to existing Azure Cache for Redis](./media/azure-redis-cache-add-connected-service/created-azure-redis-cache.png)
+    ![Screenshot of the Configure Azure Cache for Redis screen. Next is highlighted.](./media/azure-redis-cache-add-connected-service/created-azure-redis-cache.png)
 
 1. To create an Azure Redis Cache:
 
@@ -61,21 +64,21 @@ The connected service functionality adds all the needed references and connectio
 
    1. Fill out the **Azure Cache for Redis: Create new** screen, and select **Create**.
 
-       ![New Azure Cache for Redis](./media/azure-redis-cache-add-connected-service/create-new-azure-redis-cache.png)
+       ![Screenshot of the Azure Cache for Redis create new page. Create is highlighted.](./media/azure-redis-cache-add-connected-service/create-new-azure-redis-cache.png)
 
    1. When the **Configure Azure Cache for Redis** screen is displayed, the new cache appears in the list. Select the new database in the list, and select **Next**.
 
 1. Enter a connection string name, or choose the default, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
 
-   ![Specify connection string](./media/azure-redis-cache-add-connected-service/connection-string.png)
+   ![Screenshot of the Azure Cache for Redis connection information page. Next is highlighted.](./media/azure-redis-cache-add-connected-service/connection-string.png)
 
 1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
 
-   ![Summary of changes](./media/azure-redis-cache-add-connected-service/summary-of-changes.png)
+   ![Screenshot of the Summary of changes page. Finish is highlighted.](./media/azure-redis-cache-add-connected-service/summary-of-changes.png)
 
 1. The connection appears under the **Service Dependencies** section of the **Connected Services** tab.
 
-   ![Service dependencies](./media/azure-redis-cache-add-connected-service/service-dependencies-after.png)
+   ![Screenshot showing a list of configured service dependencies](./media/azure-redis-cache-add-connected-service/service-dependencies-after.png)
 
 ## See also
 

@@ -20,6 +20,8 @@ ms.workload:
 ---
 # Update Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This topic discusses how to update a client installation of Visual Studio on Windows. For Visual Studio for Mac, see [Update Visual Studio for Mac](/visualstudio/mac/update).
 
 If you are an IT Administrator and want to configure your organization's clients to update from a network layout, refer to the [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide), particularly the section on [manage and update a network installation](../install/update-a-network-installation-of-visual-studio.md).
@@ -32,51 +34,6 @@ Visual Studio must be closed before performing an update. We highly recommend sa
 
 Visual Studio must first be installed on the machine before you can update it. To install the current version of Visual Studio from Microsoft hosted servers, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page. If you are currently using another instance of Visual Studio, you can either [install a new instance of Visual Studio side-by-side to your existing installation](../install/install-visual-studio-versions-side-by-side.md), or you can [uninstall the previous instance of Visual Studio](../install/uninstall-visual-studio.md) before installing this new one.
 
-::: moniker range="vs-2017"
-
-We encourage you to update to the most [recent release](/visualstudio/releasenotes/vs2017-relnotes/) of Visual Studio 2017 so that you always get the latest features, security fixes, and improvements. And if you'd like to try out our newest version, consider downloading and installing [Visual Studio 2022](https://visualstudio.microsoft.com/downloads).
-
-## Use the Notifications hub
-
-1. When there's an update, there's a corresponding notification flag in the title bar of the Visual Studio IDE. Choose the notification flag to open the **Notifications** hub, and then choose the update that you want to install.
-
-   ![Screenshot showing an update in the the Notification hub of the Visual Studio IDE.](media/vs-install-notifications-hub-15dot6.png "The Notifications hub in Visual Studio 2017")
-
-1. When the **Update** dialog box opens, choose **Update Now**.
-
-    ![Screenshot showing the Update Now button in the Update dialog box launched from the Notifications hub of Visual Studio 2017.](media/vs-update-now-from-notifications-hub.png "The Update dialog box from the Notifications hub in Visual Studio")
-
-     If a User Access Control dialog box opens, choose **Yes**. Next, a "Please wait" dialog might open for a moment, and then the Visual Studio Installer opens to start the update.
-
-     ![Screenshot showing the Visual Studio Installer experience.](media/visual-studio-15dot6-installer.png "The new Visual Studio Installer experience")
-
-     Your update will complete, and then Visual Studio will restart.
-
-## Manually check for updates
-
-1. You can check to see if an update is available by choosing **Help** > **Check for Updates** on the menu bar.
-
-     ![Screenshot showing the Help menu in Visual Studio.](media/vs-help-menu-check-for-updates.png "The new Help menu in Visual Studio")
-
-1. When the **Update** dialog box opens, choose **Update Now**.
-
-   The update proceeds as described in the previous section, and then Visual Studio restarts after the update completes successfully.
-
-## Use the Visual Studio Installer
-
-1. As in earlier versions of Visual Studio, you can use the Visual Studio Installer to install an update.  First, find the **Visual Studio Installer** on your computer.  In the Windows Start menu, you can search for "installer".  
-
-1. Open the installer. The Visual Studio Installer might require updating before you continue.
-
-1. On the **Product** page in the installer, look for the edition of Visual Studio that you installed previously and now want to update.
-
-1. If an update is available, you see an **Update** button. (It might take a few seconds for the installer to determine whether an update is available.)
-
-   Choose the **Update** button to install the updates.
-
-     ![Screenshot showing the Update button in the Visual Studio Installer that can be used to update Visual Studio 2017.](media/update-visual-studio.png "Update Visual Studio 2017 by using the Visual Studio Installer")
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -296,7 +253,7 @@ If you are part of an organization that centralizes management of software insta
 
 * [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md)
 * [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
-* [Visual Studio enterprise guide](visual-studio-enterprise-guide.md)
+* [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)
 * [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 * [Modify Visual Studio](modify-visual-studio.md)

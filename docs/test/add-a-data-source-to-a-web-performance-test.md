@@ -15,6 +15,8 @@ ms.technology: vs-ide-test
 ---
 # Add a data source to a web performance test
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Bind data to provide different values to the same test, for example, to provide different values to your form post parameters.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
@@ -31,35 +33,6 @@ Your solution should also include a web performance test that browses through th
 
 ## Create a SQL database
 
-::: moniker range="vs-2017"
-
-1. If you don’t have Visual Studio Enterprise, you can download it from the [Visual Studio Downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page.
-
-2. Create a SQL database.
-
-     ![Add a new SQL database](../test/media/web_test_databinding_sql_addnewdb.png)
-
-3. Create a database project.
-
-     ![Create new project from database](../test/media/web_test_databinding_sql_addnewdbproject.png)
-
-4. Add a table to the database project.
-
-     ![Add a new table to the database project](../test/media/web_test_databinding_sql_addnewdbtablename.png)
-
-5. Add fields to the table.
-
-     ![Add fields to the table](../test/media/web_test_databinding_sql_addnewdbaddfields.png)
-
-6. Publish the database project.
-
-     ![Publish database project from Solution Explorer](../test/media/web_test_databinding_sql_addnewdbpublish.png)
-
-7. Add data to the fields.
-
-     ![Add data to the fields](../test/media/web_test_databinding_sql_addnewfieldsadddata.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
