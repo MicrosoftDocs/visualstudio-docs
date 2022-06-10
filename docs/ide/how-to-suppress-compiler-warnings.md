@@ -22,13 +22,13 @@ You can declutter a build log by filtering out one or more kinds of compiler war
 Use the **Build** properties to suppress specific warnings for C# and F# projects. 
 
 :::moniker range=">=vs-2022"
-There are two different properties UI, which are referred to here as *current* and *legacy*. .NET Core and .NET 5 and later project types have a single-page of properties you can scroll through. .NET Framework project types have a series of named tabs you can select.
+There are two different properties UI experiences, which are referred to here as *current* or *legacy* Project Designer. .NET Core and .NET 5 and later project types have the current Project Designer, a single-page of properties you can scroll through. .NET Framework project types have the legacy Project Designer, a series of named tabs you can select.
 
 1. In **Solution Explorer**, choose the project in which you want to suppress warnings.
 
 1. Right-click on the project node, and choose **Properties** on the context menu. Or, select the project node and press **Alt**+**Enter**.
 
-1. Choose the **Build** page or section, and if you're in the current UI, go to the **Errors and warnings** subsection.
+1. Choose **Build**, and if you're in the current Project Designer, go to the **Errors and warnings** subsection.
 
 1. In the **Suppress warnings** or **Suppress specific warnings** box, specify the error codes of the warnings that you want to suppress, separated by semicolons. For a list and descriptions of warning codes, see [C# Compiler Messages](/dotnet/csharp/language-reference/compiler-messages/).
 
