@@ -2,7 +2,7 @@
 title: Suppress warnings for projects and NuGet packages
 description: Learn how you can use Visual Studio to declutter a build log by filtering out one or more kinds of compiler warnings.
 ms.custom: SEO-VS-2020
-ms.date: 01/24/2018
+ms.date: 06/10/2022
 ms.technology: vs-ide-compile
 ms.topic: how-to
 author: ghogen
@@ -19,17 +19,35 @@ You can declutter a build log by filtering out one or more kinds of compiler war
 
 ## Suppress specific warnings for Visual C# or F\#
 
-Use the **Build** property page to suppress specific warnings for C# and F# projects.
+Use the **Build** properties to suppress specific warnings for C# and F# projects. 
+
+:::moniker range=">=vs-2022"
+There are two different properties UI, which are referred to here as *current* and *legacy*. .NET Core and .NET 5 and later project types have a single-page of properties you can scroll through. .NET Framework project types have a series of named tabs you can select.
 
 1. In **Solution Explorer**, choose the project in which you want to suppress warnings.
 
-1. On the menu bar, choose **View** > **Property Pages**.
+1. Right-click on the project node, and choose **Properties** on the context menu. Or, select the project node and press **Alt**+**Enter**.
 
-1. Choose the **Build** page.
+1. Choose the **Build** page or section, and if you're in the current  UI, go to the **Errors and warnings** subsection.
 
-1. In the **Suppress warnings** box, specify the error codes of the warnings that you want to suppress, separated by semicolons.
+1. In the **Suppress warnings** or **Suppress specific warnings** box, specify the error codes of the warnings that you want to suppress, separated by semicolons. For a list and descriptions of warning codes, see [C# Compiler Messages](/dotnet/csharp/language-reference/compiler-messages/).
 
 1. Rebuild the solution.
+:::moniker-end
+:::moniker range="<=vs-2019"
+1. In **Solution Explorer**, choose the project in which you want to suppress warnings.
+
+1. Right-click on the project node, and choose **Properties** on the context menu. Or, select the project node and press **Alt**+**Enter**.
+
+1. Choose the **Build** page or section, and if you're in the current  UI, open the **Errors and warnings** subsection.
+
+1. In the **Suppress warnings** or **Suppress specific warnings** box, specify the error codes of the warnings that you want to suppress, separated by semicolons. For a list and descriptions of warning codes, see [C# Compiler Messages](/dotnet/csharp/language-reference/compiler-messages/).
+
+1. Rebuild the solution.
+:::moniker-end
+
+> [!NOTE]
+> Some warnings can't be suppressed. For a list of those, see [NoWarn compiler option](/dotnet/csharp/language-reference/compiler-options/errors-warnings#nowarn).
 
 ## Suppress specific warnings for C++
 
