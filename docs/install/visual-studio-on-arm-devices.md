@@ -72,7 +72,7 @@ With the Visual Studio 17.3 Preview 2 release, you can access the new native Arm
 
 Many C++ libraries are already available on Arm64. Vcpkg also runs natively on Arm64, and while some dependent 3rd party tools may still run emulated, you can successfully build and consume 1700+ C++ libraries directly in your native Arm64 build environment.
 
-If you are a Visual Studio C++ developer on a Windows 11 Arm64 device, check out the latest Visual Studio Preview. By installing the C++ Desktop Workload, you can load any desktop C++ projects and solutions using MSBuild to try any of the editing, building, and debugging capabilities you are already familiar with in Visual Studio. 
+By installing the C++ Desktop Workload, you can load any desktop C++ projects and solutions using MSBuild to try any of the editing, building, and debugging capabilities you are already familiar with in Visual Studio. 
 Additional C++ Visual Studio workloads (for example, gaming) and build systems (for example, CMake) will be supported in subsequent updates. 
 
 ## Visual Studio versions before 17.3 Preview 2
