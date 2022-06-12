@@ -11,7 +11,7 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-# Visual Studio on ARM-powered devices
+# Visual Studio on Arm-powered devices
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -66,9 +66,9 @@ With the Visual Studio 17.3 Preview 2 release, you can access the new native Arm
 
 | **Host architecture (platform the compiler is running on)** | **Target architecture (platform the compiler is generating binaries for)** | **Installation path** |
 | ----------- | ------ | --------------- |
-| Arm64 | Arm64 | <VS Install>\ VC\Tools\MSVC\14.33.31424\bin\HostARM64\ARM64 |
-| Arm64 | X64 | <VS Install>\ VC\Tools\MSVC\14.33.31424\bin\ HostARM64\x64 |
-| Arm64 | X86 | <VS Install>\ VC\Tools\MSVC\14.33.31424\bin\HostARM64\x86 |
+| Arm64 | Arm64 | <Visual Studio Install>\VC\Tools\MSVC\14.33.31424\bin\HostARM64\ARM64 |
+| Arm64 | X64 | <Visual Studio Install>\VC\Tools\MSVC\14.33.31424\bin\ HostARM64\x64 |
+| Arm64 | X86 | <Visual Studio Install>\VC\Tools\MSVC\14.33.31424\bin\HostARM64\x86 |
 
 Many C++ libraries are already available on Arm64. Vcpkg also runs natively on Arm64, and while some dependent 3rd party tools may still run emulated, you can successfully build and consume 1700+ C++ libraries directly in your native Arm64 build environment.
 
@@ -147,6 +147,6 @@ If you'd like Visual Studio to run natively on ARM devices, we'd love to hear ab
 
 ::: moniker range="vs-2022"
 
-We’d love to hear from you about the experiences we are bringing online. Let us know what you like and whether you have suggestions for making Visual Studio even better on Arm64. You can share feedback with us via [Developer Community](https://developercommunity.visualstudio.com/home): report any bugs or issues via [report a problem](https://docs.microsoft.com/visualstudio/ide/how-to-report-a-problem-with-visual-studio) and [share your suggestions](https://developercommunity.visualstudio.com/report?space=8&entry=suggestion) for prioritizing more workloads.
+We’d love to hear from you about the experiences we are bringing online. Let us know what you like and whether you have suggestions for making Visual Studio even better on Arm64. You can share feedback with us via [Developer Community](https://developercommunity.visualstudio.com/home): report any bugs or issues via [report a problem](../ide/how-to-report-a-problem-with-visual-studio) and [share your suggestions](https://developercommunity.visualstudio.com/report?space=8&entry=suggestion) for prioritizing more workloads.
 
 ::: moniker-end
