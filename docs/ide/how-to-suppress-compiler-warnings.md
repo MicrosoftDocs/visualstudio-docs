@@ -139,7 +139,8 @@ In some cases, you may want to suppress NuGet compiler warnings for a single NuG
    ![Screenshot of NuGet package in Solution Explorer.](media/nuget-package-with-warning.png)
    :::moniker-end
    :::moniker range=">=vs-2022"
-   ![Screenshot of NuGet package in Solution Explorer.](media/vs-2022/nuget-package-with-warning.png)
+   ![Screenshot of NuGet package in Solution Explorer.](media/vs-2022/nuget-package-with-warning.png){width=50%}
+   :::moniker-end
 
 1. From the right-click or context menu, select **Properties**.
 
@@ -149,7 +150,7 @@ In some cases, you may want to suppress NuGet compiler warnings for a single NuG
    ![NuGet package properties](media/nuget-properties-nowarn.png)
    :::moniker-end
    :::moniker range=">=vs-2022"
-   ![Screenshot of NuGet package properties](media/vs-2022/nuget-properties-nowarn.png)
+   ![Screenshot of NuGet package properties](media/vs-2022/nuget-properties-nowarn.png){width=50%}
    :::moniker-end
 
    The warning disappears from **Solution Explorer** and the **Error List**. In the project file, the NoWarn property is set.
