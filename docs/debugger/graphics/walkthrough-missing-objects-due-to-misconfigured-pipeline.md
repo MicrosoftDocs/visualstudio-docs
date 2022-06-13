@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Walkthrough: Missing Objects Due to Misconfigured Pipeline
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics tools to investigate an object that's missing due to an unset pixel shader.
 
  This walkthrough illustrates these tasks:

@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugPortEvents2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface notifies a listener (typically the session debug manager [SDM] or a debug engine) of process and program creation and destruction on a particular port. This information can be used to present a real-time view of the processes and programs running on the port.
 
 ## Syntax

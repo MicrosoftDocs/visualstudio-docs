@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # How to: Provide hidden text support in a legacy language service
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can create hidden text regions in addition to outline regions. Hidden text regions can be client-controlled or editor-controlled and are used to hide a region of text completely. The editor displays a hidden region as horizontal lines. An example of this is the **Script Only** view in the HTML editor.
 
 ## To implement a hidden text region

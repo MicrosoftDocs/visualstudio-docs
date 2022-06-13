@@ -1,9 +1,7 @@
 - name: Visual Studio Community Toolkit
   href: visual-studio-community-toolkit.md
-  expanded: true
   items:
   - name: Getting started
-    expanded: true
     items:
     - name: Overview
       href: get-started/get-started-guide.md
@@ -15,6 +13,7 @@
       href: get-started/first-extension.md
     - name: Useful resources
       href: get-started/useful-resources.md
+    expanded: true
   - name: Recipes
     items:
     - name: Menus & commands
@@ -49,3 +48,4 @@
       href: publish/checklist.md
     - name: Extension packs
       href: publish/create-extension-pack.md
+  expanded: true

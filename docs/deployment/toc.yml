@@ -49,11 +49,10 @@
     - name: Publish to Linux App Service >>
       href: ../javascript/publish-nodejs-app-azure.md
   - name: Python
-    items:
 - name: How-to guides
   items:
   - name: GitHub Actions CI/CD Publish
-    items: 
+    items:
     - name: Deploy to Azure using GitHub Actions
       href: azure-deployment-using-github-actions.md
   - name: ClickOnce security and deployment
@@ -170,21 +169,21 @@
         href: how-to-publish-a-wpf-application-with-visual-styles-enabled.md
       - name: Download Assemblies on Demand
         items:
-        - name: "Walkthrough: Download assemblies on demand using the Designer"
+        - name: 'Walkthrough: Download assemblies on demand using the Designer'
           href: walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md
-        - name: "Walkthrough: Download assemblies on demand"
+        - name: 'Walkthrough: Download assemblies on demand'
           href: walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api.md
-      - name: "Walkthrough: Download satellite assemblies on demand using the Designer"
+      - name: 'Walkthrough: Download satellite assemblies on demand using the Designer'
         href: walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md
       - name: Manual Deployment
         items:
-        - name: "Walkthrough: Manually deploy a ClickOnce application"
+        - name: 'Walkthrough: Manually deploy a ClickOnce application'
           href: walkthrough-manually-deploying-a-clickonce-application.md
-        - name: "Walkthrough: Manually deploy an app that does not require re-signing"
+        - name: 'Walkthrough: Manually deploy an app that does not require re-signing'
           href: walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required.md
-      - name: "Walkthrough: Download satellite assemblies on demand"
+      - name: 'Walkthrough: Download satellite assemblies on demand'
         href: walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md
-      - name: "Walkthrough: Create a custom installer"
+      - name: 'Walkthrough: Create a custom installer'
         href: walkthrough-creating-a-custom-installer-for-a-clickonce-application.md
     - name: Update Strategy
       items:
@@ -216,7 +215,7 @@
         href: debugging-clickonce-applications-that-use-system-deployment-application.md
   - name: Visual Studio Installer projects
     items:
-    - name: Visual Studio Installer Projects Extension and .NET Core 3.1
+    - name: Visual Studio Installer Projects Extension and .NET 6.0
       href: installer-projects-net-core.md
   - name: Custom bootstrapper
     items:
@@ -232,7 +231,7 @@
       href: how-to-create-a-package-manifest.md
     - name: Create a localized bootstrapper package
       href: how-to-create-a-localized-bootstrapper-package.md
-    - name: "Walkthrough: Create a custom bootstrapper with a privacy prompt"
+    - name: 'Walkthrough: Create a custom bootstrapper with a privacy prompt'
       href: walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt.md
     - name: Product and Package Schema Reference
       items:

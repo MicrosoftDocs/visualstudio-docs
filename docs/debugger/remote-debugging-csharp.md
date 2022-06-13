@@ -21,6 +21,8 @@ ms.workload:
   - "dotnet"
 ---
 # Remote Debugging a C# or Visual Basic project in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To debug a Visual Studio application that has been deployed on a different computer, install and run the remote tools on the computer where you deployed your app, configure your project to connect to the remote computer from Visual Studio, and then run your app.
 
 ![Remote debugger components](../debugger/media/remote-debugger-client-apps.png "Remote_debugger_components")
@@ -82,9 +84,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
     ::: moniker range="vs-2019"
     **MJO-DL:4024** on Visual Studio 2019
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    **MJO-DL:4022** on Visual Studio 2017
-    ::: moniker-end
+
 
 7. Make sure that **Enable native code debugging** is not selected.
 

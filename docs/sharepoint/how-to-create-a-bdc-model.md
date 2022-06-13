@@ -19,23 +19,14 @@ ms.workload:
 ---
 # How to: Create a BDC model
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
   You can create a Business Data Connectivity (BDC) model by using the template for that kind of item and then adding the model to any SharePoint project. For more information, see [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md). For more information about how to design the model, see [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md).
 
 ## To create a BDC project
 
 1. On the menu bar, choose **File** > **New** > **Project**.
-::: moniker range="=vs-2017"
-   > [!NOTE]
-   > If your IDE is set to use Visual Basic development settings, choose **File** > **New Project**.
 
-  The **New Project** dialog box opens.
-
-2. Under either **Visual Basic** or **Visual C#**, choose **Office/SharePoint**, **SharePoint Solutions**.
-
-3. In the **Templates** pane, choose the **SharePoint 2013 - Empty Project** item, and then choose the **OK** button.
-
-     The **SharePoint Customization Wizard** opens.
-::: moniker-end
 ::: moniker range=">=vs-2019"
 2. On the **Create a New Project** dialog select the *SharePoint Empty Project** for the particular version of SharePoint you have installed. For example, if you have SharePoint 2019 install select the **SharePoint 2019 - Empty Project** template.
     [!INCLUDE[new-project-dialog-search](../sharepoint/includes/new-project-dialog-search-md.md)]

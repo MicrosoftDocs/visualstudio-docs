@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Tutorial: Debug C# and C++ in the same debugging session
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio lets you enable more than one debugger type in a debugging session, which is called mixed-mode debugging. In this tutorial, you learn to debug both managed and native code in a single debugging session.
 
 This tutorial shows how to debug native code from a managed app, but you can also [debug managed code from a native app](../debugger/how-to-debug-in-mixed-mode.md). The debugger also supports other types of mixed-mode debugging, such as debugging [Python and native code](../python/debugging-mixed-mode-c-cpp-python-in-visual-studio.md), and using the script debugger in app types such as ASP.NET.
@@ -61,9 +63,7 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
     ::: moniker range=">=vs-2019"
     Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **Empty Project**, choose **Templates**, then choose **Empty Project** for C++. In the dialog box that appears, choose **Create**. Then, type a name like **Mixed_Mode_Debugging** and click **Create**.
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C++**, choose **Other**, and then in the middle pane choose **Empty Project**. Then, type a name like **Mixed_Mode_Debugging** and click **OK**.
-    ::: moniker-end
+
 
     If you don't see the **Empty Project** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
 
@@ -136,11 +136,7 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
     For .NET Core, choose either the recommended target framework or .NET 6, and then choose **Create**.
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)** or  **Console App (.NET Core)**.
 
-    Then, type a name like **Mixed_Mode_Calling_App** and click **OK**.
-    ::: moniker-end
 
     If you don't see the correct project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the correct .NET workload as described in the prerequisites, and then choose **Modify**.
 

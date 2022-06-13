@@ -12,6 +12,8 @@ author: corob-msft
 ---
 # Write unit tests for C/C++ in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can write and run your C++ unit tests by using the **Test Explorer** window. It works just like it does for other languages. For more information about using **Test Explorer**, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md).
 
 > [!NOTE]
@@ -77,19 +79,6 @@ To add a new test project to an existing solution,
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-### Create a test project in Visual Studio 2017
-
-Define and run tests inside one or more test projects. You create the projects in the same solution as the code you want to test.
-To add a new test project,
-
-1. Right-click on the Solution node in **Solution Explorer** and choose **Add** > **New Project**.
-1. In the left pane, choose **Visual C++ Test**. Then, choose one of the project types from the center pane. The following illustration shows the test projects that are available when the **Desktop Development with C++** workload is installed:
-
-   ![C++ Test Projects](media/cpp-new-test-project.png)
-
-::: moniker-end
 
 ### Create references to other projects in the solution
 

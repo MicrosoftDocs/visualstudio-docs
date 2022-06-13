@@ -14,8 +14,9 @@ ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
-
 # Troubleshooting and known issues for snapshot debugging in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If the steps described in this article do not resolve your issue, search for the problem on [Developer Community](https://aka.ms/feedback/suggest?space=8) or report a new issue by choosing **Help** > **Send Feedback** > **Report a Problem** in Visual Studio.
 
@@ -101,10 +102,6 @@ We have resolved this in Visual Studio 2019.
 
 Take these steps:
 
-::: moniker range="vs-2017"
-
-* Verify in the Azure portal that the AppSettings for SnapshotDebugger (SNAPSHOTDEBUGGER_EXTENSION_VERSION) and InstrumentationEngine (INSTRUMENTATIONENGINE_EXTENSION_VERSION) are uppercase. If not, update the settings manually, which forces a site restart.
-::: moniker-end
 * If this error continues to persist, use one of the feedback channels described in the beginning of this article.
 
 ### (500) Internal Server Error
@@ -151,9 +148,6 @@ Take these steps:
 Take these steps:
 
 - Make sure the Snapshot Debugger component is installed. Open the Visual Studio Installer, and check the **Snapshot Debugger** component in the Azure workload.
-::: moniker range="< vs-2019"
-- Make sure your app is supported. Currently, only ASP.NET (4.6.1+) and ASP.NET Core (2.0+) apps deployed to Azure App Services are supported.
-::: moniker-end
 ::: moniker range=">= vs-2019"
 - Make sure your app is supported:
   - Azure App Services - ASP.NET applications running on .NET Framework 4.6.1 or later.
@@ -189,6 +183,22 @@ To fix this, delete the following App settings in the Azure portal and attach th
 - INSTRUMENTATIONENGINE_EXTENSION_VERSION
 - SNAPSHOTDEBUGGER_EXTENSION_VERSION
 ::: moniker-end
+
+## Issue: I am attaching to the wrong/old Azure resource or storage account
+
+Take these steps:
+
+The "Azure resource" and "Storage account" entries use resource names as keys so actions such as migrating a resource to different subscriptions can cause problems.
+To clear out the list, follow these steps:
+
+1. Run these commands in Developer Command Prompt for VS (with admin privileges)
+
+   ```
+   vsregedit remove local HKCU SnapshotDebugger AzureResourcesMRU
+   vsregedit remove local HKCU SnapshotDebugger StorageAccountsMRU
+   ```
+
+3. Delete any .suo files associated with the web app
 
 ## Issue: I am having problems Snapshot Debugging and I need to enable more logging
 

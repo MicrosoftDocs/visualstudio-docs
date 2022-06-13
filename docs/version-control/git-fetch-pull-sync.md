@@ -8,8 +8,11 @@ ms.author: tglee
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
+ms.custom: version-control
 ---
 # Use git fetch, pull, push and sync for version control in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio helps you keep your local branch synchronized with your remote branch through download (fetch and pull) and upload (push) operations.
 

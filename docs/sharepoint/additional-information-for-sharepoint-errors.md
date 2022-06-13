@@ -21,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # Additional information for SharePoint errors
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can find assistance in troubleshooting [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint tools errors and warnings in troubleshooting topics and the public forums.
 
 ## Troubleshoot errors and issues

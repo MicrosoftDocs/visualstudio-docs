@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Find/Command box
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can search for text and run Visual Studio commands from the **Find/Command** box. The **Find/Command** box is still available as a toolbar control, but is no longer visible by default. You can display the **Find/Command** box by choosing **Add or Remove Buttons** on the **Standard** toolbar and then choosing **Find**.
 
 To run a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command, preface it with a greater than (**>**) sign.

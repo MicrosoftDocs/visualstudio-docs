@@ -22,6 +22,8 @@ ms.workload:
 ---
 # Walkthrough: Create a simple WCF service in Windows Forms
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This walkthrough demonstrates how to create a simple Windows Communication Foundation (WCF) service, test it, and then access it from a .NET Framework Windows Forms application.
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
@@ -34,17 +36,6 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
 1. Open Visual Studio.
 
-::: moniker range="vs-2017"
-
-2. On the **File** menu, choose **New** > **Project**.
-
-3. In the **New Project** dialog box, expand the **Visual Basic** or **Visual C#** node and choose **WCF**, followed by **WCF Service Library**.
-
-4. Click **OK** to create the project.
-
-   ![The WCF Service Library project](../data-tools/media/wcf1.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

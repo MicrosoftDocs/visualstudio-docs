@@ -2,7 +2,7 @@
 title: Bind to data in XAML Designer
 description: Learn how to bind data to a control in the XAMl Designer by setting data binding properties using the artboard and the Properties window.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 06/07/2022
 ms.topic: how-to
 f1_keywords:
 - VS.XamlDesigner.DataBinding
@@ -15,6 +15,8 @@ manager: jmartens
 ms.technology: vs-xaml-tools
 ---
 # Walkthrough: Bind to data in XAML Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In XAML Designer, you can set data binding properties by using the artboard and the Properties window. The example in this walkthrough shows how to bind data to a control. Specifically, the walkthrough shows how to create a simple shopping cart class that has a [DependencyProperty](xref:Windows.UI.Xaml.DependencyProperty) named `ItemCount`, and then bind the `ItemCount` property to the **Text** property of a [TextBlock](xref:Windows.UI.Xaml.Controls.TextBlock) control.
 
@@ -91,6 +93,9 @@ In XAML Designer, you can set data binding properties by using the artboard and 
 1. Press **F5** to run the app.
 
      The `TextBlock` control should show the default value of 0 as text.
+
+> [!TIP]
+> For more information about data binding, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).
 
 ## See also
 

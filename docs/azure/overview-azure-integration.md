@@ -13,6 +13,8 @@ monikerRange: ">=vs-2019"
 ---
 # Overview: Azure integration
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can work with Azure in Visual Studio using many capabilities designed to make development and deployment to Azure easier.
 
 ## Provision Azure resources

@@ -1,6 +1,6 @@
 ---
 title: Theming
-description: How to properly theme tool windows and other XAML controls to match Visual Studio's color themes.
+description: Learn how to use WPF controls to theme windows and other XAML controls to match Visual Studio's color themes.
 ms.date: 12/01/2021
 ms.topic: conceptual
 author: madskristensen
@@ -8,27 +8,29 @@ ms.author: madsk
 manager: pchapman
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-sdk
-ms.custom: cookbook
+ms.custom: cookbook, kr2b-contr-experiment
 ---
 # Matching Visual Studio themes in Visual Studio extensions
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Whenever you are building any custom UI using WPF, you need to make sure it matches the theming of Visual Studio. That way your UI will look native and feel more like a natural part of Visual Studio. If not, your tool windows and dialogs might end up looking like this in the Light theme:
 
-:::image type="content" source="../media/theming-light-none.png" alt-text="Un-themed UI in the Light theme.":::
+:::image type="content" source="../media/theming-light-none.png" alt-text="Screenshot showing a window that uses the Light theme without W P F controls.":::
 
 Notice how the padding around text boxes and buttons doesn't look right? It gets even worse in the Dark theme:
 
-:::image type="content" source="../media/theming-dark-none.png" alt-text="Un-themed UI in the Dark theme.":::
+:::image type="content" source="../media/theming-dark-none.png" alt-text="Screenshot showing a window that uses the Dark theme without W P F controls.":::
 
 Now the text and the background colors make it almost impossible to read. Not good.
 
 There's an easy way to make sure that our UI's background colors, button styling, etc. matches that of Visual Studio's with a simple little trick. That way the same UI can look like this in the Light theme:
 
-:::image type="content" source="../media/theming-light.png" alt-text="Correctly themed UI in the Light theme.":::
+:::image type="content" source="../media/theming-light.png" alt-text="Screenshot showing a window that correctly uses controls and the Light theme.":::
 
 Or in the Dark theme:
 
-:::image type="content" source="../media/theming-dark.png" alt-text="Correctly themed UI in the Dark theme.":::
+:::image type="content" source="../media/theming-dark.png" alt-text="Screenshot showing a window that correctly uses controls and the Dark theme.":::
 
 That looks much better. Let's look at how we can theme our UI.
 

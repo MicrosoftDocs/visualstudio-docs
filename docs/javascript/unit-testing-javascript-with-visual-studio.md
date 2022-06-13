@@ -13,8 +13,9 @@ dev_langs:
 ms.workload:
   - "nodejs"
 ---
-
 # Unit testing JavaScript and TypeScript in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can write and run unit tests in Visual Studio using some of the more popular
 JavaScript frameworks without the need to switch to a command prompt. Both Node.js and ASP.NET Core projects are supported.
@@ -97,9 +98,7 @@ You can run tests in Visual Studio or from the command line.
 ::: moniker range=">=vs-2019"
 You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by right-clicking and selecting **Debug**.
 ::: moniker-end
-::: moniker range="vs-2017"
-You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run Selected Tests** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by selecting **Debug Selected Tests**.
-::: moniker-end
+
 
 For TypeScript, unit tests are run against the generated JavaScript code.
 
@@ -258,9 +257,7 @@ Test execution time: 1.5731 Seconds
 ::: moniker range=">=vs-2019"
 You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by right-clicking and selecting **Debug**.
 ::: moniker-end
-::: moniker range="vs-2017"
-You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run Selected Tests** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by selecting **Debug Selected Tests**.
-::: moniker-end
+
 
 For TypeScript, unit tests are run against the generated JavaScript code.
 

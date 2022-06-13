@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # DUMPTYPE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies how much of a program's state (such as running threads, stack frames, and current instruction address) to dump.
 
 ## Syntax

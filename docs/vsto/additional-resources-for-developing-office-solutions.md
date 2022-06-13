@@ -17,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # Additional resources to develop Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The Microsoft Office developer tools in Visual Studio represent just one of many ways to extend Office applications. Office applications also have some built-in features, such as the Open XML Formats, that are not covered by the Office developer tools in Visual Studio or this documentation.
 
  If you want to learn more about the possibilities offered by Microsoft Office and the Office developer tools in Visual Studio, these resources will get you started.

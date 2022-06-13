@@ -2,7 +2,7 @@
 title: Develop code without projects or solutions
 description: Learn how to develop code directly in Visual Studio without a need for projects or solutions.
 ms.custom: SEO-VS-2020
-ms.date: 06/22/2020
+ms.date: 04/29/2022
 ms.topic: how-to
 helpviewer_keywords:
 - open folder [Visual Studio]
@@ -17,9 +17,14 @@ ms.workload:
 ---
 # Develop code in Visual Studio without projects or solutions
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can open code from nearly any type of directory-based project into Visual Studio without the need for a solution or project file. This means you can, for example, clone a repo on GitHub, open it directly into Visual Studio, and begin developing, without having to create a solution or project. If needed, you can specify custom build tasks and launch parameters through simple JSON files.
 
 After you open your code files in Visual Studio, **Solution Explorer** displays all the files in the folder. You can click on any file to begin editing it. In the background, Visual Studio starts indexing the files to enable IntelliSense, navigation, and refactoring features. As you edit, create, move, or delete files, Visual Studio tracks the changes automatically and continuously updates its IntelliSense index. Code will appear with syntax colorization and, in many cases, include basic IntelliSense statement completion.
+
+> [!NOTE]
+> If you're looking for information that's specific to VS Code, visit the [Getting started with Visual Studio Code](https://code.visualstudio.com/docs) page.
 
 ## Open any code
 
@@ -29,13 +34,6 @@ You can open code into Visual Studio in the following ways:
 
 - On the context (right-click) menu of a folder containing code, choose the **Open in Visual Studio** command.
 
-::: moniker range="vs-2017"
-- Choose the **Open Folder** link on the Visual Studio **Start Page**.
-
-    > [!IMPORTANT]
-    > Not all code can be opened by using the **Open Folder** link from the Visual Studio **Start Page**. For example, if your code file was saved as part of a solution&mdash;in other words, in an .sln file&mdash;you must use one of the other options listed here to open your code.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 - Choose the **Open Folder** link on the start window.
@@ -51,13 +49,21 @@ You can open code into Visual Studio in the following ways:
 
 ### To open code from a cloned GitHub repo
 
-The following example shows how to clone a GitHub repo and then open its code in Visual Studio. To follow this procedure, you must have a GitHub account and Git for Windows installed on your system. See [Signing up for a new GitHub account](https://help.github.com/articles/signing-up-for-a-new-github-account/) and [Git for Windows](https://git-for-windows.github.io/) for more information.
+The following example shows how to clone a GitHub repo and then open its code in Visual Studio. To follow this procedure, you must have a GitHub account and Git for Windows installed on your system. See [Create a GitHub account to use with Visual Studio](../version-control/git-create-github-account.md) and [Git for Windows](https://git-for-windows.github.io/) for more information.
 
 1. Go to the repo you want to clone on GitHub.
 
 1. Choose the **Clone or Download** button and then choose the **Copy to Clipboard** button in the dropdown menu to copy the secure URL for the GitHub repo.
 
    ![GitHub clone button](./media/VSIDE_Code_Clone.png)
+
+#### Use Git in Visual Studio
+
+As of Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/), we introduced a new, streamlined Git interface that you can use to interact with your files on GitHub. To learn more, visit the [Visual Studio version control docs](../version-control/index.yml).
+
+#### Use Team Explorer in Visual Studio
+
+You can still use Team Explorer in Visual Studio 2022 and in Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/) and later. However, you might find it easier to use the new Git experience. For more information, see [How Visual Studio makes version control easy with Git](../version-control/git-with-visual-studio.md).
 
 1. In Visual Studio, choose the **Team Explorer** tab to open **Team Explorer**. If you don't see the tab, open it from **View** > **Team Explorer**.
 

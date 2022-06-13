@@ -15,8 +15,9 @@ ms.workload:
   - "nodejs"
 monikerRange: '<= vs-2019'
 ---
-
 # Create a Vue.js application using Node.js Tools for Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio supports app development with the [Vue.js](https://vuejs.org/) framework in either JavaScript or TypeScript.
 
@@ -36,9 +37,7 @@ The following new features support Vue.js application development in Visual Stud
     ::: moniker range=">=vs-2019"
     If a required version is not already installed, install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads).
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
-    ::: moniker-end
+
 
     If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **Node.js development** workload, then choose **Modify**.
 
@@ -72,13 +71,7 @@ For this example, you use an empty ASP.NET Core Application (C#). However, you c
 
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **Visual C#**, then choose **Web**. In the middle pane, choose **ASP.NET Core Web Application**, type the name **client-app**, and then choose **OK**.
 
-    Select **Empty**, and then click **OK**.
-
-    Visual Studio creates the project, which opens in Solution Explorer (right pane).
-    ::: moniker-end
 
     If you don't see the **ASP.NET Core Web Application** project template, you must install the **ASP.NET and web development** workload and the .**NET Core** development workload first. To install the workload(s), click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Select the required workloads.
 

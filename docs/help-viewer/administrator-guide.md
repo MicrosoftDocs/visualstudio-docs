@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Help Viewer administrator guide
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Help Viewer allows you to manage local Help installations for network environments with or without internet access. Local help content is configured on a per machine basis. By default, users must have administrator rights to update their local Help installation.
 
 If your network environment allows clients to access the internet, you can use the **Help Content Manager** executable to deploy local Help content from the internet. For more information about *HlpCtntMgr.exe* command line syntax, see [Command-line arguments for the Help Content Manager](../help-viewer/command-line-arguments.md).
@@ -74,7 +76,7 @@ Requirements:
 - Users must have administrator rights to update, add, or remove the local Help content after it has been installed.
 
     > [!TIP]
-    > If users do not have administrator rights, it is recommended that you disable the **Manage Content** tab in the Help Viewer. For more information, see [Help Content Manager overrides](../help-viewer/behavior-overrides.md).
+    > If users do not have administrator rights, it is recommended that you disable the **Manage Content** tab in the Help Viewer. For more information, see [Override Help Viewer defaults](../help-viewer/behavior-overrides.md).
 
 Caveats:
 
@@ -141,6 +143,6 @@ Next, you need to package the content so it can be deployed to client computers.
 ## See also
 
 - [Command-line arguments for the Help Content Manager](../help-viewer/command-line-arguments.md)
-- [Help Content Manager overrides](../help-viewer/behavior-overrides.md)
+- [Override Help Viewer defaults](../help-viewer/behavior-overrides.md)
 - [Microsoft Help Viewer](../help-viewer/overview.md)
 - [Help Viewer SDK](../extensibility/internals/microsoft-help-viewer-sdk.md)

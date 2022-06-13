@@ -11,6 +11,8 @@ ms.custon: contperf-fy22q2
 ---
 # Disable DPI-awareness to fix HDPI / scaling issues with Windows Forms Designer in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this article, you'll learn the limitations of Windows Forms Designer on HDPI monitors and [how to run Visual Studio as a DPI-unaware process](#resolve-hdpi-display-problems).
 
 Visual Studio is a dots per inch (DPI) aware application, which means the display scales automatically. If an application states that it's not DPI-aware, the operating system scales the application as a bitmap. This behavior is also called DPI virtualization. The application still thinks that it's running at 100% scaling, or 96 dpi.
@@ -35,15 +37,6 @@ When you open a form in the **Windows Forms Designer** on an HDPI monitor, Visua
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-The message reads **Scaling on your main display is set to 200% (192 dpi). This might cause rendering problems in the designer window.**
-
-![Screenshot of the informational bar in Visual Studio 2017 to restart in DPI-unaware mode.](./media/scaling-gold-bar.png)
-
-> [!NOTE]
-> This informational bar was introduced in Visual Studio 2017 version 15.8.
-
-::: moniker-end
 
 
 > [!TIP]

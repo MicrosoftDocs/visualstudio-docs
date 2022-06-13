@@ -26,6 +26,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;deployment&gt; element (ClickOnce deployment)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Identifies the attributes used for the deployment of updates and exposure to the system.
 
 ## Syntax

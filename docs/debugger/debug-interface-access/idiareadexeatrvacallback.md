@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaReadExeAtRVACallback
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enables a client application to supply bytes of an executable file as specified by a relative virtual address.
 
 ## Syntax

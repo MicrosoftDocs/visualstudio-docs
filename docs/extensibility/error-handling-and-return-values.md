@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Error handling and return values
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 VSPackages and COM use the same architecture for errors. The `SetErrorInfo` and `GetErrorInfo` functions are part of the Win32 application programming interface (API). Any VSPackage in the integrated development environment (IDE) can call these global Win32 APIs to record rich error information when receiving an error notification. The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides interop assemblies to manage error information.
 
 ## Interop methods

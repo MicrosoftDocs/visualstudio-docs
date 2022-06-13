@@ -17,6 +17,8 @@ ms.workload:
 ---
 # How to: Turn off compatibility warnings for source control plug-ins
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 A user may see several compatibility warnings when employing source control in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The warnings presented depend on the capabilities of the source control plug-in and can be disabled as detailed here.
 
 ### To disable the warning: "To ensure optimal source control integration with Visual Studio"

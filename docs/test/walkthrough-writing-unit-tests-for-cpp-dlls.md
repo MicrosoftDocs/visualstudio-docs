@@ -12,6 +12,8 @@ author: corob-msft
 ---
 # How to: Write unit tests for C++ DLLs
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This walkthrough describes how to develop a native C++ DLL using test-first methodology. The basic steps are as follows:
 
 1. [Create a native test project](#create_test_project). The test project is located in the same solution as the DLL project.
@@ -112,37 +114,6 @@ The following steps show how to create a DLL project in Visual Studio 2019.
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-The following steps show how to create a DLL project in Visual Studio 2017.
-
-1. Create a C++ project by using the **Win32 Project** template.
-
-     In this walkthrough, the project is named `RootFinder`.
-
-2. Select **DLL** and **Export Symbols** in the Win32 Application Wizard.
-
-     The **Export Symbols** option generates a convenient macro that you can use to declare exported methods.
-
-     ![C++ project wizard set for DLL and Export Symbols](../test/media/utecpp06.png)
-
-3. Declare an exported function in the principal *.h* file:
-
-     ![New DLL code project and .h file with API macros](../test/media/utecpp07.png)
-
-     The declarator `__declspec(dllexport)` causes the public and protected members of the class to be visible outside the DLL. For more information, see [Using dllimport and dllexport in C++ Classes](/cpp/cpp/using-dllimport-and-dllexport-in-cpp-classes).
-
-4. In the principal *.cpp* file, add a minimal body for the function:
-
-    ```cpp
-        // Find the square root of a number.
-        double CRootFinder::SquareRoot(double v)
-        {
-            return 0.0;
-        }
-    ```
-
-::: moniker-end
 
 ## <a name="make_functions_visible"></a> Couple the test project to the DLL project
 
@@ -319,12 +290,6 @@ The following steps show how to create a DLL project in Visual Studio 2017.
 
    ![All tests pass](../test/media/ute_ult_alltestspass.png)
 
-::: moniker range="vs-2017"
-
-> [!TIP]
-> If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![Screenshot of the parallel test execution toggle button on the Test Explorer toolbar. When this button is selected, tests will run in parallel.](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

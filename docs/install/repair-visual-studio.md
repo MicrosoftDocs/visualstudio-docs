@@ -13,8 +13,9 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-
 # Repair Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Sometimes your Visual Studio installation becomes damaged or corrupted. A repair is useful for fixing a wide variety of install-time issues, including update issues.
 
@@ -33,30 +34,7 @@ Use repair if you're having issues with:
 > Repairing Visual Studio resets user settings and reinstalls your existing assemblies. If you're experiencing a product issue and repair does not fix it, create a [Visual Studio Feedback Ticket](https://aka.ms/feedback/suggest?space=8). For more information, see [How to report a problem with Visual Studio or Visual Studio Installer](../ide/how-to-report-a-problem-with-visual-studio.md).
 
 ## How to repair
-::: moniker range="vs-2017"
 
-1. Find the **Visual Studio Installer** on your computer.
-
-     For example, on a computer running Windows 10 Anniversary Update or later, select **Start**, and then scroll to the letter **V**, where it's listed as **Visual Studio Installer**.
-
-   > [!NOTE]
-   > On some computers, the Visual Studio Installer might be listed under the letter **"M"** as the **Microsoft Visual Studio Installer**.
-   >
-   > Alternatively, you can find the Visual Studio Installer in the following location:
-   >`C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
-
-1. Open the installer, choose **More**, and then choose **Repair**.
-
-    ![Screenshot showing the Repair option in the More dropdown menu of the Visual Studio Installer.](media/repair-visual-studio.png "Repair Visual Studio from the Visual Studio Installer")
-
-   > [!NOTE]
-   > Repairing Visual Studio will reset the environment. Local customizations like per-user extensions installed without elevation, user settings, and profiles will be removed. Your synchronized settings such as themes, colors, key bindings will be restored.
-   >
-
-   > [!TIP]
-   > The **Repair** option appears only for installed instances of Visual Studio. If you do not see the **Repair** option, chances are that you've selected **More** in a version that's listed in the Visual Studio Installer as "Available" rather than "Installed".
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

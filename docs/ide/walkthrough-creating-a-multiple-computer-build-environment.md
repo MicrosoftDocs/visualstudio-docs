@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Walkthrough: Create a multiple-computer build environment
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can create a build environment within your organization by installing Visual Studio on a host computer and then copying various files and settings to another computer so that it can participate in builds. You don't have to install Visual Studio on the other computer.
 
 This document does not confer rights to redistribute the software externally or to provide build environments to third parties.
@@ -378,17 +380,6 @@ You can create a build environment that can be deployed to various computers and
     <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), Partner.AutoImports.props))\Partner.AutoImports.props"/>
     ```
 
-::: moniker range="vs-2017"
-
-6. Change the command-line environment as follows:
-
-    - Set Depot=*location of the Depot directory that you created in step 1*
-
-    - Set path=%path%;*location of MSBuild on the computer*;%Depot%\Windows\System32;%Depot%\Windows\SysWOW64;%Depot%\Microsoft Visual Studio 15.0\Common7\IDE\
-
-       For native 64-bit building, point to the 64-bit version of MSBuild.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

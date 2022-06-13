@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Introducing Spy++
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Spy++ lets you perform the following tasks:
 
 - Display a graphical tree of relationships among system objects. These include [processes](../debugger/processes-view.md), [threads](../debugger/threads-view.md), and [windows](../debugger/windows-view.md).

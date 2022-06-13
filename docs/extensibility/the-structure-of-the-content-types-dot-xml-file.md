@@ -18,6 +18,8 @@ ms.workload:
 - vssdk
 ---
 # The Structure of the [Content_types].xml File
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains information about the kinds of content in a VSIX package. Visual Studio uses the [Content_Types].xml file to install the package, but it does not install the file itself.
 
 > [!NOTE]

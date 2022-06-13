@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugPropertyField
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface provides the functions that allow getting and setting a property.
 
 ## Syntax

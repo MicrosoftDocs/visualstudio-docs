@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Options, Text Editor, U-SQL, IntelliSense
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Use the **IntelliSense** options page to modify some text editor settings for U-SQL. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **U-SQL** > **IntelliSense**.
 
 ## IntelliSense Settings

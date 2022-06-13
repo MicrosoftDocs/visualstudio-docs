@@ -19,13 +19,10 @@ ms.workload:
 ---
 # Customize how Visual Studio creates captions for data-bound controls
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 When you drag items from the [Data Sources window](add-new-data-sources.md#data-sources-window) onto a designer, a special consideration comes into play: the column names in the caption labels are reformatted into a more readable string when two or more words are found to be concatenated together.
 
-::: moniker range="vs-2017"
-
-You can customize the way in which these labels are created by setting the **SmartCaptionExpression**, **SmartCaptionReplacement**, and **SmartCaptionSuffix** values in the **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\15.0\Data Designers** registry key.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -67,11 +64,6 @@ The following table lists the internal default settings for these registry value
 
 3. Expand the **HKEY_CURRENT_USER** > **Software** > **Microsoft** > **VisualStudio** node.
 
-::: moniker range="vs-2017"
-
-4. Right-click the **15.0** node, and create a new **Key** named `Data Designers`.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -107,11 +99,6 @@ The following table lists the internal default settings for these registry value
 
 3. Expand the **HKEY_CURRENT_USER** > **Software** > **Microsoft** > **VisualStudio** node.
 
-::: moniker range="vs-2017"
-
-4. Right-click the **15.0** node, and create a new **Key** named `Data Designers`.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

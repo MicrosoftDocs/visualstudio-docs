@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugErrorBreakpointResolution2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents the resolution of a breakpoint error.
 
 ## Syntax

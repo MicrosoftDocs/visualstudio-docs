@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Parent element
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The parent of a button or combo box may only be a group. The parent of a menu or group may be any other menu or group. In a [CommandPlacement element](../extensibility/commandplacement-element.md), this element is required; in all other instances it is optional. If this element is omitted, the parent of `Group_Undefined:0` will be implied.
 
 ## Syntax

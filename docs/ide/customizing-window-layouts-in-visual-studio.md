@@ -29,6 +29,8 @@ ms.workload:
 ---
 # Customize window layouts in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In Visual Studio, you can customize the position, size, and behavior of windows to create window layouts that work best for various development workflows. When you customize the layout, the IDE remembers it. For example, if you change the docking location of **Solution Explorer** and then close Visual Studio, the next time that you open Visual Studio, even if you're working on another computer, **Solution Explorer** will be docked in that same location.
 
 You can also name and save a custom layout and then switch between layouts with a single command. For example, you could create a layout for editing and a layout for debugging, and switch between them by using the **Window** > **Apply Window Layout** menu command.
@@ -187,11 +189,6 @@ First, create a test solution that has two projects, each with a different optim
 
 #### Create a UI project and customize the layout
 
-::: moniker range="vs-2017"
-
-1. Create a new C# **WPF App** project. Imagine that in this project, you'll be developing a user interface. You want to maximize the space for the designer window and move other tool windows out of the way.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

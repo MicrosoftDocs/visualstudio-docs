@@ -10,8 +10,9 @@ ms.workload:
   - cplusplus
 author: corob-msft
 ---
-
 # How to use Google Test for C++ in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In Visual Studio 2017 and later, Google Test is integrated into the Visual Studio IDE as a default component of the **Desktop Development with C++** workload. To verify that it's installed on your machine, open the Visual Studio Installer. Find Google Test under the list of workload components:
 
@@ -41,17 +42,6 @@ In Visual Studio 2017 and later, Google Test is integrated into the Visual Studi
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-## Add a Google Test project in Visual Studio 2017
-
-1. In **Solution Explorer**, right-click on the solution node and choose **Add** > **New Project**.
-2. In the left pane, choose **Visual C++** > **Test** and then choose **Google Test Project** in the center pane.
-3. Give the test project a name and choose **OK**.
-
-![New Google Test Project](media/cpp-gtest-new-project.png)
-
-::: moniker-end
 
 ## Configure the test project
 

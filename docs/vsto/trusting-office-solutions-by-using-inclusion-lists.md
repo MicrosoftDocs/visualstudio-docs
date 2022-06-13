@@ -20,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # Trust Office solutions by using inclusion lists
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Inclusion lists enable users to grant trust to Office solutions that are signed with a certificate that identifies the publisher. Inclusion lists are user-specific, and they can be used for document-level customizations and VSTO Add-ins.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

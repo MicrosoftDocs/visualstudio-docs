@@ -21,6 +21,8 @@ ms.workload:
 ---
 # Bind WPF controls to a dataset
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this walkthrough, you create a WPF application that contains data-bound controls. The controls are bound to product records that are encapsulated in a dataset. You also add buttons to browse through products and save changes to product records.
 
 This walkthrough illustrates the following tasks:
@@ -53,19 +55,6 @@ Prior knowledge of the following concepts is also helpful, but not required to c
 
 Create a new WPF project to display product records.
 
-::: moniker range="vs-2017"
-
-1. Open Visual Studio.
-
-2. On the **File** menu, select **New** > **Project**.
-
-3. Expand **Visual Basic** or **Visual C#**, and then select **Windows**.
-
-4. Select the **WPF App** project template.
-
-5. In the **Name** box, enter **AdventureWorksProductsEditor** and then select **OK**.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

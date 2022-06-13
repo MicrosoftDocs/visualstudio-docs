@@ -19,6 +19,8 @@ ms.workload:
 ---
 # How to: Customize class diagrams
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can change the way that class diagrams display information. You can customize the whole diagram or the individual types on the design surface.
 
 For example, you can adjust the zoom level of an entire class diagram, change how individual type members are grouped and sorted, hide or show relationships, and move individual or sets of types anywhere on the diagram.

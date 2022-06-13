@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Add commands and gestures to dependency diagrams
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can define right-click menu commands and gesture handlers on dependency diagrams in Visual Studio. You can package these extensions into a Visual Studio Integration Extension (VSIX) that you can distribute to other Visual Studio users.
 
 You can define several command and gesture handlers in the same Visual Studio project if you want. You can also combine several such projects into one VSIX. For example, you could define a single VSIX that includes layer commands, and a domain-specific language.
@@ -47,11 +49,6 @@ The quickest method of creating an extension is to use the project template. Thi
 
     [Defining a Gesture Handler](#gesture)
 
-::: moniker range="vs-2017"
-
-5. To install the extension in the main instance of Visual Studio, or on another computer, find the *.vsix* file in the *bin* directory. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, choose **Extensions and Updates** on the **Tools** menu.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

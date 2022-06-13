@@ -12,14 +12,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Remotely debug Python code on Linux
 
-::: moniker range="<= vs-2017"
-
-[!include[Debugging Python code](includes/vs-2017/remote-debugging-python-code.md)]
-
-::: moniker-end
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range=">= vs-2019"
 

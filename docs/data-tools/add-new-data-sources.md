@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Add new data sources
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 :::moniker range=">=vs-2019"
 > [!NOTE]
 > The features described in this article apply to .NET Framework Windows Forms and WPF development. The features are not supported for .NET Core development, for both WPF and Windows Forms.

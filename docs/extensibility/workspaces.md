@@ -12,6 +12,8 @@ ms.workload:
 ---
 # Workspaces
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 A workspace is how Visual Studio represents any collection of files in [Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md), and it's represented by the <xref:Microsoft.VisualStudio.Workspace.IWorkspace> type. By itself, the workspace doesn't understand the contents or features related to files within the folder. Rather, it provides a general set of APIs for features and extensions to produce and consume data that others can act upon. The producers are composed through the [Managed Extensibility Framework](https://github.com/Microsoft/vs-mef/blob/master/doc/index.md) (MEF) using various export attributes.
 
 ## Workspace providers and services
@@ -173,11 +175,6 @@ A UI context can be used to auto-load your package. The value is `4646B819-1AE0-
 
 Workspace extensibility is heavily MEF-based, and composition errors will cause the package hosting Open Folder to fail to load. For example, if an extension exports a type with `ExportFileContextProviderAttribute`, but the type only implements `IWorkspaceProviderFactory<IFileContextActionProvider>`, an error will occur when trying to open a folder in Visual Studio.
 
-::: moniker range="vs-2017"
-
-Error details can be found in _%LOCALAPPDATA%\Microsoft\VisualStudio\15.0_id\ComponentModelCache\Microsoft.VisualStudio.Default.err_. Resolve any errors for types implemented by your extension.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

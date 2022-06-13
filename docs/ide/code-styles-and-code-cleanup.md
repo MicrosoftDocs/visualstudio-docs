@@ -2,7 +2,7 @@
 title: Code style options and code cleanup
 description: Learn how to configure Visual Studio to apply code style preferences using the Code Cleanup (Visual Studio 2019) and Format Document (Visual Studio 2017) commands.
 ms.custom: SEO-VS-2020
-ms.date: 03/28/2022
+ms.date: 05/20/2022
 ms.topic: conceptual
 author: mikejo5000
 ms.author: mikejo
@@ -15,6 +15,8 @@ ms.workload:
 - multiple
 ---
 # Code style preferences
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can define code style settings per-project by using an [EditorConfig file](#code-styles-in-editorconfig-files), or for all code you edit in Visual Studio on the text editor [**Options** page](#code-styles-in-the-options-dialog-box). For C# code, you can also configure Visual Studio to apply these code style preferences using the **Code Cleanup** (Visual Studio 2019, Visual Studio 2022) and **Format Document** (Visual Studio 2017) commands.
 
@@ -35,7 +37,7 @@ You can manually populate your EditorConfig file, or you can automatically gener
 
 ::: moniker range=">=vs-2022"
 
-You can manually populate your EditorConfig file, or you can automatically generate the file based on the code style settings you've chosen in the Visual Studio **Options** dialog box. This options page is available at **Tools** > **Options** > **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**. Click **Generate .editorconfig file from settings** to automatically generate a coding style *.editorconfig* file based on the settings on this **Options** page.
+You can manually populate your EditorConfig file, or you can automatically generate the file based on the code style settings you've chosen in the Visual Studio **Options** dialog box. This options page is available at **Tools** > **Options** > **Text Editor** > [**C#** or  **Visual Basic**] > **Code Style** > **General**. Click **Generate .editorconfig file from settings** to automatically generate a coding style *.editorconfig* file based on the settings on this **Options** page.
 
 ![Screenshot of Generate editorconfig file from settings.](media/vs-2022/generate-editorconfig-file-small.png)
 
@@ -43,15 +45,20 @@ You can manually populate your EditorConfig file, or you can automatically gener
 
 ## Code styles in the Options dialog box
 
+::: moniker range="vs-2022"
+
+Code style preferences can be set for all of your C# and Visual Basic projects by opening the **Options** dialog box from the **Tools** menu. In the **Options** dialog box, select **Text Editor** > [**C#** or  **Visual Basic**] > **Code Style** > **General**.
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
+
 Code style preferences can be set for all of your C# and Visual Basic projects by opening the **Options** dialog box from the **Tools** menu. In the **Options** dialog box, select **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**.
+
+::: moniker-end
 
 Each item in the list shows a preview of the preference when selected:
 
-::: moniker range="vs-2017"
-
-![Screenshot of code style options.](media/code-style-quick-actions-dialog.png)
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -81,23 +88,6 @@ Starting in Visual Studio 2019 version 16.8, which includes the .NET 5.0 RC2 SDK
 
 ## Apply code styles
 
-::: moniker range="vs-2017"
-
-You can configure the **Format Document** command (**Edit** > **Advanced** > **Format Document**) to apply your code style settings (from an EditorConfig file or **Code Style** options) along with the regular formatting that it does (such as indentation). If an *.editorconfig* file exists for the project, those settings take precedence.
-
-> [!NOTE]
-> Applying code styles by using the **Format Document** command is only available for C# code files. This is an experimental feature.
-
-Configure which settings you want **Format Document** to apply on the [Formatting options page](reference/options-text-editor-csharp-formatting.md#format-document-settings).
-
-![Screenshot of code style settings for format document.](media/format-document-settings-experiment.png)
-
-> [!TIP]
-> Rules configured with a severity of **None** don't participate in code cleanup but can be individually applied via the **Quick Actions and Refactorings** menu.
-
-The first time you trigger the **Format Document** command, a yellow info bar prompts you to configure your code cleanup settings.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

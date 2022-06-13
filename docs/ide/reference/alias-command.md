@@ -21,6 +21,8 @@ ms.workload:
 - multiple
 ---
 # Alias Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates a new alias for a complete command, complete command and arguments, or another alias.
 
 > [!TIP]

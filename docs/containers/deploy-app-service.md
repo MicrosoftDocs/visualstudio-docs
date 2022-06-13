@@ -12,6 +12,8 @@ ms.author: ghogen
 ---
 # Deploy an ASP.NET Core container to Azure App Service using Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This tutorial walks you through using Visual Studio to publish your containerized ASP.NET Core web application to an [Azure App Service](/azure/app-service). Azure App Service is an appropriate service for a single-container web app hosted in Azure.
 
 If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/dotnet/?utm_source=acr-publish-doc&utm_medium=docs&utm_campaign=docs) before you begin.
@@ -20,9 +22,6 @@ If you don't have an Azure subscription, create a [free account](https://azure.m
 
 To complete this tutorial:
 
-::: moniker range="vs-2017"
-- Install the latest version of [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) with the "ASP.NET and web development" workload
-::: moniker-end
 ::: moniker range="vs-2019"
 - [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) with the *ASP.NET and web development* workload.
 ::: moniker-end
@@ -36,15 +35,6 @@ To complete this tutorial:
 
 The following steps guide you through creating a basic ASP.NET Core app that will be used in this tutorial.
 
-::: moniker range="vs-2017"
-1. From the Visual Studio menu, select **File > New > Project**.
-2. Under the **Templates** section of the **New Project** dialog box, select **Visual C# > Web**.
-3. Select **ASP.NET Core Web Application**.
-4. Give your new application a name (or take the default) and select **OK**.
-5. Select **Web Application**.
-6. Check the **Enable Docker Support** checkbox.
-7. Select the **Linux** container type and click **OK**. 
-::: moniker-end
 ::: moniker range=">= vs-2019"
 1. From the Visual Studio start window, choose **Create a new project**.
 1. Choose **ASP.NET Core Web App**, and choose **Next**.
@@ -57,32 +47,6 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 
 ## Deploy the container to Azure
 
-::: moniker range="vs-2017"
-
-1. Right-click your project in **Solution Explorer** and choose **Publish**.
-1. On the publish target dialog, choose **App Service Linux** or **App Service**. This is the operating system that will host the web server.
-1. You can publish only to App Service, or you can publish to both App Service and Azure Container Registry (ACR). To publish the container in an Azure Container Registry (ACR), choose **Create new App Service for containers**, and click **Publish**.
-
-   ![Screenshot of publish dialog.](media/deploy-app-service/publish-app-service-linux-1.png)
-
-   To publish only to an Azure App Service without using Azure Container Registry, choose **Create new**, and click **Publish**.
-
-1. Check that you're signed in with the account that's associated with your Azure subscription, and choose a unique name, subscription, resource group, hosting plan, and container registry (if applicable), or accept the defaults.
-
-   ![Screenshot of publish settings.](media/deploy-app-service/publish-app-service-linux-2.png)
-
-1. Choose **Create**. Your container is deployed to Azure in the resource group and container registry you selected. This process takes a bit of time. When it's completed, the **Publish** tab shows information about what was published, including the site URL.
-
-   ![Screenshot of publish tab.](media/deploy-app-service/publish-succeeded.PNG)
-
-1. Click on the site link to verify your app works as expected in Azure.
-
-   ![Screenshot of web application.](media/deploy-app-service/web-application-running.png)
-
-1. The publishing profile is saved with all the details you selected, such as the resource group and container registry.
-
-1. To deploy again with the same publishing profile, use the **Publish** button, the **Publish** button on the **Web Publish Activity** window, or right-click on the project in **Solution Explorer** and choose the **Publish** item on the context-menu.
-:::moniker-end
 
 :::moniker range="vs-2019"
 

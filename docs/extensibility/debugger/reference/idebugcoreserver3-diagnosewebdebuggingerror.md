@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugCoreServer3::DiagnoseWebDebuggingError
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Attempts to determine why an auto-attach failed.
 
 ## Syntax

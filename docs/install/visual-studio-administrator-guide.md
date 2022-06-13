@@ -19,6 +19,8 @@ ms.technology: vs-installation
 ---
 # Visual Studio administrator guide
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In enterprise environments, system administrators typically deploy and update software on end users machines. The Visual Studio product integrates well in these types of environments by giving system administrators the ability to manage and control when and how the Visual Studio software is deployed and updated. Visual Studio can be acquired from the internet, from a network share, or from a product cache, and it can be deployed and updated manually, programatically or by using systems management software. Visual Studio provides the ability to create and maintain acquisition locations, pre-configure installation defaults, deploy product keys during the installation process, and manage product updates after a successful rollout. This administrator guide provides quick links to scenario-based guidance for enterprise deployment.
 
 ## Research and plan before you begin
@@ -37,11 +39,6 @@ You will need to make a plan for how you deploy Visual Studio across your organi
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-- Make sure that each target computer meets the [minimum installation requirements](/visualstudio/productinfo/vs2017-system-requirements-vs). Note that Visual Studio does not support application virtualization solutions such as Microsoft App-V or MSIX for Windows or third-party app virtualization technologies.
-
-::: moniker-end
 
 - Clarify your security and compatibility needs. Do you need to ensure that your organization is always running the latest and most secure software?   
 

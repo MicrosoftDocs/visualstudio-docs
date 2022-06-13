@@ -18,6 +18,8 @@ ms.technology: vs-installation
 ---
 # Create an offline installation package of Visual Studio for local installation
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 We designed Visual Studio to work well in various network and computer configurations. For all scenarios involving the local machine, we recommend that you use the [Visual Studio Installer](https://visualstudio.microsoft.com/downloads), which is a small file that checks for updates on a regular basis and helps you stay current with all the latest fixes and features. The information on this page discusses how to create an offline installation package of files for installation on the local machine.
 
 If you are an enterprise IT administrator who wants to perform a deployment of Visual Studio to a network of client workstations, or if you need to create an installation package of files to transfer to or install onto another machine, refer to our [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide) and the [Create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md) documentation.
@@ -40,17 +42,6 @@ Download the bootstrapper for the edition of Visual Studio you want and copy it 
 
 ### Step 1 - Download the Visual Studio bootstrapper
 
-::: moniker range="vs-2017"
-
-To get the latest bootstrappers for Visual Studio 2017 version 15.9, download one of the files below. These bootstrappers will always install the latest version of Visual Studio 2017, no matter when you run them.
-
-| Edition                                      | Bootstrapper            |
-|----------------------------------------------|---------------------|
-| Visual Studio 2017 Professional version 15.9 | [vs_professional.exe](https://aka.ms/vs/15/release/vs_professional.exe) |
-| Visual Studio 2017 Enterprise version 15.9   | [vs_enterprise.exe](https://aka.ms/vs/15/release/vs_enterprise.exe)   |
-| Visual Studio 2017 Build Tools version 15.9  | [vs_buildtools.exe](https://aka.ms/vs/15/release/vs_buildtools.exe)   |
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -134,12 +125,6 @@ Open a command prompt with administrator privileges, navigate to the directory w
     vs_enterprise.exe --layout c:\localVSlayout --lang en-US
     ```
 
-::: moniker range="vs-2017"
-
-   > [!NOTE]
-   > A complete local layout of Visual Studio requires a minimum of 35 GB of disk space. For more information, see [System requirements](/visualstudio/productinfo/vs2017-system-requirements-vs/). 
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Command-Line Capture Tool
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 DXCap.exe is a command-line tool for graphics diagnostics capture and playback. It supports Direct3D 10 through Direct3D 12 across all feature levels.
 
 ## Syntax

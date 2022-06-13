@@ -9,11 +9,8 @@ ms.topic: quickstart
 ---
 # Quickstart: Docker in Visual Studio
 
-::: moniker range="vs-2017"
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-[!include[Visual Studio Container Tools](includes/vs-2017/container-tools.md)]
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

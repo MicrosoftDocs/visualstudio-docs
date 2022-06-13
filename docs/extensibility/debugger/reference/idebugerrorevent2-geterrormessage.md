@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugErrorEvent2::GetErrorMessage
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns information that allows construction of a human-readable error message.
 
 ## Syntax

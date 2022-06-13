@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Get started with Live Unit Testing
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 When you enable Live Unit Testing in a Visual Studio solution, it visually depicts your test coverage and the status of your tests. Live Unit Testing also dynamically executes tests whenever you modify your code and immediately notifies you when your changes cause tests to fail.
 
 Live Unit Testing can be used to test solutions that target either .NET Framework or .NET Core. In this tutorial, you'll learn to use Live Unit Testing by creating a simple class library that targets .NET Standard, and you'll create an MSTest project that targets .NET Core to test it.
@@ -35,11 +37,6 @@ The solution is just a container for one or more projects. To create a blank sol
 
 1. Type **solution** into the template search box, and then select the **Blank Solution** template. Name the project **UtilityLibraries**.
 
-   ::: moniker range="vs-2017"
-
-   ![The **New Project** dialog](./media/lut-start/new-solution.png)
-
-   ::: moniker-end
 
 1. Finish creating the solution.
 
@@ -47,20 +44,6 @@ Now that you've created the solution, you'll create a class library named String
 
 1. In **Solution Explorer**, right-click on the UtilityLibraries solution and select **Add** > **New Project**.
 
-::: moniker range="vs-2017"
-
-2. In the **Add New Project** dialog, select the C# node, then select **.NET Standard**.
-
-   > [!NOTE]
-   > Because our library targets .NET Standard rather than a particular .NET implementation, it can be called from any .NET implementation that supports that version of .NET Standard. For more information, see [.NET Standard](/dotnet/standard/net-standard).
-
-3. Select the **Class Library (.NET Standard)** template in the right pane, and enter **StringLibrary** in the **Name** text box, as the following illustration shows:
-
-   ![The **Add New Project** dialog](./media/lut-start/add-project-cs.png)
-
-4. Select **OK** to create the project.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -129,23 +112,6 @@ The next step is to create the unit test project to test the StringLibrary libra
 
 1. In **Solution Explorer**, right-click on the UtilityLibraries solution and select **Add** > **New Project**.
 
-::: moniker range="vs-2017"
-
-2. In the **Add New Project** dialog, select the C# node, then select **.NET Core**.
-
-   > [!NOTE]
-   > You do not have to write your unit tests in the same language as your class library.
-
-3. Select the **Unit Test Project (.NET Core)** template in the right pane, and enter **StringLibraryTests** in the **Name** text box, as the following illustration shows:
-
-   ![The **Add New Project** dialog for the unit test project](./media/lut-start/add-unit-test-cs.png)
-
-4. Select **OK** to create the project.
-
-   > [!NOTE]
-   > This getting started tutorial uses Live Unit Testing with the MSTest test framework. You can also use the xUnit and NUnit test frameworks.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -254,11 +220,6 @@ So far, although you've written the tests for the StringLibrary class library, y
 
 1. Visual Studio starts Live Unit Test, which automatically runs all of your tests.
 
-::: moniker range="vs-2017"
-When it finishes running your tests, **Test Explorer** displays both the overall results and the result of individual tests. In addition, the code editor window graphically displays both your test code coverage and the result for your tests. As the following illustration shows, all three tests have executed successfully. It also shows that our tests have covered all code paths in the `StartsWithUpper` method, and those tests all executed successfully (which is indicated by the green check mark, "✓"). Finally, it shows that none of the other methods in StringLibrary have code coverage (which is indicated by a blue line, "➖").
-
-![The Test Explorer and code editor window after starting Live Unit testing](media/lut-start/lut-results-cs.png)
-::: moniker-end
 ::: moniker range=">=vs-2019"
 When it finishes running your tests, **Live Unit Testing** displays both the overall results and the result of individual tests. In addition, the code editor window graphically displays both your test code coverage and the result for your tests. As the following illustration shows, all three tests have executed successfully. It also shows that our tests have covered all code paths in the `StartsWithUpper` method, and those tests all executed successfully (which is indicated by the green check mark, "✓"). Finally, it shows that none of the other methods in StringLibrary have code coverage (which is indicated by a blue line, "➖").
 ::: moniker-end
@@ -308,9 +269,6 @@ To extend code coverage to the `StartsWithLower` method, do the following:
 
 1. Live Unit Testing automatically executes new and modified tests when you modify your source code. As the following illustration shows, all of the tests, including the two you've added and the one you've modified, have succeeded.
 
-   ::: moniker range="vs-2017"
-   ![The Test Explorer after expanding test coverage](media/lut-start/test-dynamic.png)
-   ::: moniker-end
    ::: moniker range="vs-2019"
    ![The Live Test Explorer after expanding test coverage](media/lut-start/vs-2019/test-dynamic.png)
    ::: moniker-end
@@ -341,9 +299,6 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
 
 1. When the test executes, Live Unit Testing indicates that the `TestHasEmbeddedSpaces` method has failed, as the following illustration shows:
 
-   ::: moniker range="vs-2017"
-   ![The Test Explorer reporting a failed test](media/lut-start/test-failure.png)
-   ::: moniker-end
    ::: moniker range="vs-2019"
    ![The Live Test Explorer reporting a failed test](media/lut-start/vs-2019/test-failure.png)
    ::: moniker-end
@@ -364,9 +319,6 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
 
 1. Select the failed **TestHasEmbeddedSpaces** test. Live Unit Testing gives you a few options such as running all tests and debugging all tests, as the following illustration shows:
 
-   ::: moniker range="vs-2017"
-   ![Live Unit Testing options for a failed test](media/lut-start/test-failure-options.png)
-   ::: moniker-end
    ::: moniker range="vs-2019"
    ![Live Unit Testing options for a failed test](media/lut-start/vs-2019/test-failure-options.png)
    ::: moniker-end

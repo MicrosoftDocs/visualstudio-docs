@@ -14,15 +14,12 @@ ms.workload:
 ---
 # Visual Studio productivity guide for C# developers
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Learn how Visual Studio makes developers more productive than ever. Take advantage of our performance and productivity improvements like navigation to decompiled assemblies, variable name suggestions as you type, a hierarchy-view in **Test Explorer**, Go To All (**Ctrl**+**T**) to navigate to file/type/member/symbol declarations, an intelligent **Exception Helper**, code style configuration and enforcement, and many refactorings and code fixes.
 
 ## I'm used to keyboard shortcuts from a different editor
 
-::: moniker range="vs-2017"
-
-**New in Visual Studio 2017 version 15.8**
-
-::: moniker-end
 
 If you're coming from another IDE or coding environment, you can change your keyboard scheme to *Visual Studio Code* or *ReSharper (Visual Studio)*:
 
@@ -138,14 +135,6 @@ You can [install FxCop analyzers](../code-quality/install-net-analyzers.md) to f
 
 Several community members have written free extensions that add additional code inspections:
 
-::: moniker range="vs-2017"
-
-- [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2017)
-- [SonarLint for Visual Studio](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio2017)
-- [StyleCopAnalyzers](https://www.nuget.org/packages/stylecop.analyzers/)
-- [CodeCracker](https://www.nuget.org/packages/codecracker.CSharp/)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -203,14 +192,6 @@ Some of Visual Studio's debugging capabilities include:
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-- *Run to click*, which lets you hover next to a line of code, hit the green 'play' icon that appears, and run your program until it reaches that line.
-- The **Exception Helper**, which puts the most important information at the top level in the dialog, for example, which variable is `null` in a `NullReferenceException`.
-- [Step back debugging](../debugger/view-historical-application-state.md), which lets you go back to previous breakpoints or steps and view the state of the application as it was in the past.
-- [Snapshot debugging](/azure/application-insights/app-insights-snapshot-debugger), which lets you investigate the state of a live web application at the moment an exception was thrown (must be on Azure).
-
-::: moniker-end
 
 ![Exception Helper in Visual Studio](../ide/media/VSGuide_Debugging.png)
 

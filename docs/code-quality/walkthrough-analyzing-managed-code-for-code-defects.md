@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Walkthrough: Use static code analysis to find code defects
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this walkthrough, you'll analyze a managed project for code defects by using legacy code analysis.
 
 This article steps you through the process of using legacy analysis to analyze your .NET managed code assemblies for conformance with the .NET design guidelines.
@@ -56,13 +58,6 @@ This article steps you through the process of using legacy analysis to analyze y
 
 3. Choose the **Code Analysis** tab.
 
-::: moniker range="vs-2017"
-
-4. Make sure that **Enable Code Analysis on Build** is selected.
-
-5. From the **Run this rule set** drop-down list, select **Microsoft All Rules**.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

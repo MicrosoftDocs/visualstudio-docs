@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 6601c395-f778-48c1-ab76-cf454b9193e4
-ms.date: 03/19/2021
+ms.date: 04/25/2022
 ms.topic: conceptual
 description: Learn about the super admin and admin roles, and how to assign admins. 
 ---
@@ -23,29 +23,29 @@ Watch a demonstration about how to manage admins.
 ## Assigning admins
 To assign new admins (admins):
 1. Sign in to https://manage.visualstudio.com using an email address that's assigned as a super admin on the agreement through which the subscriptions were purchased.
-2. Click on the tab labeled **Manage Administrators**.
-3. Click **Add**.
+0. Click on the tab labeled **Manage Administrators**.
+0. Click **Add**.
    > [!div class="mx-imgBorder"]
    > ![Add admins](_img/admin-roles/add-admins.png "Click the Manage Administrators blade, then click Add to assign new admins.")
-4. Complete the form with the new admin's information.  
+0. Complete the form with the new admin's information.  
    > [!div class="mx-imgBorder"]
    > ![Add admin form](_img/admin-roles/add-form.png "Enter the sign-in information for the new admin, and choose whether to make them a super admin.  Then click Add.")
 
    > [!NOTE]
    > If you want this admin to be able to assign additional admins, remember to check the **Super Admin** box.
 
-5. After you click **Add** to assign the new admin, they will receive an email inviting them to sign in to the portal.  
+0. After you click **Add** to assign the new admin, they will receive an email inviting them to sign in to the portal.  
 
 ## Resources
-- [Visual Studio administration and subscriptions support](https://aka.ms/vsadminhelp)
+[Visual Studio administration and subscriptions support](https://aka.ms/vsadminhelp)
 
 ## See also
-- [Visual Studio documentation](/visualstudio/)
-- [Azure DevOps documentation](/azure/devops/)
-- [Azure documentation](/azure/)
-- [Microsoft 365 documentation](/microsoft-365/)
++ [Visual Studio documentation](/visualstudio/)
++ [Azure DevOps documentation](/azure/devops/)
++ [Azure documentation](/azure/)
++ [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-- Learn how to [assign subscriptions](assign-license.md)
-- Learn more about the full range of [subscription benefits](https://visualstudio.microsoft.com/vs/benefits/)
-- [Set agreement preferences](admin-preferences.md)
++ Learn how to [assign subscriptions](assign-license.md)
++ Learn more about the full range of [subscription benefits](https://visualstudio.microsoft.com/vs/benefits/)
++ [Set agreement preferences](admin-preferences.md)

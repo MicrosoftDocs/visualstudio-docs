@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Services Provided (Source Control VSPackage)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Services are the primary mechanism through which functionality is shared among VSPackages and between the Visual Studio integrated development environment (IDE) and its installed VSPackages. For detailed description of services and their importance in the Visual Studio IDE, see[Using and Providing Services](../../extensibility/using-and-providing-services.md).
 
 ## The Source Control Service

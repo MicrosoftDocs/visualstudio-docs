@@ -23,6 +23,8 @@ ms.workload:
 ---
 # Encodings and line endings
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The following characters are interpreted as line breaks in Visual Studio:
 
 - CR LF: Carriage return + line feed, Unicode characters 000D + 000A

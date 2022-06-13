@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Personalize the Visual Studio IDE
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can personalize Visual Studio in various ways to best support your own development style and requirements. Many of your settings roam with you across Visual Studio instances&mdash;see [Synchronized settings](../ide/synchronized-settings-in-visual-studio.md). This article briefly describes different personalizations and where you can find more information.
 
 > [!NOTE]
@@ -47,13 +49,6 @@ You can change the main menu casing between **Title Case** ("File") and **All Ca
 
 To add or remove menu or toolbar items, see [How to: Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md).
 
-::: moniker range="vs-2017"
-
-## Start page
-
-To create a custom start page for you and your team, see [Customize the Start page](../ide/customizing-the-start-page-for-visual-studio.md).
-
-::: moniker-end
 
 ## Window layouts
 

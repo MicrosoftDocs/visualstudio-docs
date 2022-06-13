@@ -18,14 +18,10 @@ ms.workload:
 ---
 # Connect to data in an Access database
 
-You can connect to an Access database (either an *.mdb* file or an *.accdb* file) by using Visual Studio. After you define the connection, the data appears in the **Data Sources** window. From there, you can drag tables or views onto your design surface.
-::: moniker range="vs-2017"
-> [!NOTE]
-> If you're using Visual Studio to connect to Access databases, you will need to be aware that versions of Visual Studio prior to Visual Studio 2022 are all 32-bit processes.
->
-> This means some of the data tools in Visual Studio will only be able to connect to Access databases using 32-bit data providers.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-::: moniker-end
+You can connect to an Access database (either an *.mdb* file or an *.accdb* file) by using Visual Studio. After you define the connection, the data appears in the **Data Sources** window. From there, you can drag tables or views onto your design surface.
+
 
 ::: moniker range=">=vs-2019"
 > [!NOTE]
@@ -165,49 +161,6 @@ Connect to databases created with Microsoft 365, Access 2016, Access 2013, Acces
 
 :::moniker-end
 
-:::moniker range="vs-2017"
-
-## Create a dataset for an .accdb file
-
-Connect to databases created with Microsoft 365, Access 2013, Access 2010, or Access 2007 by using the following procedure.
-
-1. Open a Windows Forms or WPF application project in Visual Studio.
-
-2. To open the **Data Sources** window, press **Ctrl**+**Q**, enter "data" in the search box, and choose **Data Sources** window. Or on the **View** menu, select **Other Windows** > **Data Sources**. Or on the keyboard, press **Shift**+**Alt**+**D**.
-
-3. In the **Data Sources** window, click **Add New Data Source**.
-
-   The **Data Source Configuration Wizard** opens.
-
-4. Select **Database** on the **Choose a Data Source Type** page, and then select **Next**.
-
-5. Select **Dataset** on the **Choose a Database Model** page, and then select **Next**.
-
-6. On the **Choose your Data Connection** page, select **New Connection** to configure a new data connection.
-
-   The **Add Connection** dialog box opens.
-
-7. If **Data source** is not set to **Microsoft Access Database File**, select the **Change** button.
-
-   The **Change Data Source** dialog box opens. In the list of data sources, choose **Microsoft Access Database File**. In the **Data provider** drop-down, select **.NET Framework Data Provider for OLE DB**, and then choose **OK**.
-
-8. Choose **Browse** next to **Database file name**, and then navigate to your *.accdb* file and choose **Open**.
-
-9. Enter a user name and password (if necessary), and then choose **OK**.
-
-10. Select **Next** on the **Choose your Data Connection** page.
-
-    You may get a dialog box telling you the data file is not in your current project. Select **Yes** or **No**.
-
-11. Select **Next** on the **Save connection string to the Application Configuration file** page.
-
-12. Expand the **Tables** node on the **Choose your Database Objects** page.
-
-13. Select the tables or views you want to include in your dataset, and then select **Finish**.
-
-    The dataset is added to your project, and the tables and views appear in the **Data Sources** window.
-
-::: moniker-end
 
 ## Create a dataset for an .mdb file
 

@@ -17,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # How to: Run code when deployment steps are executed
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   If you want to perform additional tasks for a deployment step in a SharePoint project, you can handle events that are raised by SharePoint project items before and after Visual Studio executes each deployment step. For more information, see [Extending SharePoint Packaging and Deployment](../sharepoint/extending-sharepoint-packaging-and-deployment.md).
 
 ### To run code when deployment steps are executed

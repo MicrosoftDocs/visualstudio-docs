@@ -14,21 +14,14 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Tutorial: Get started with the Django web framework in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [Django](https://www.djangoproject.com/) is a high-level Python framework designed for rapid, secure, and scalable web development. This tutorial explores the Django framework in the context of the project templates. Visual Studio provides the project templates to streamline the creation of Django-based web apps.
 
 In this tutorial, you learn how to:
 
-::: moniker range="vs-2017"
-- Create a basic Django project in a Git repository using the "Blank Django Web Project" template (step 1)
-- Create a Django app with one page and render that page using a template (step 2)
-- Serve static files, add pages, and use template inheritance (step 3)
-- Use the Django Web Project template to create an app with multiple pages and responsive design (step 4)
-- Authenticate users (step 5)
-- Use the Polls Django Web Project template to create an app that uses models, database migrations, and customizations to the administrative interface (step 6)
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 - Create a basic Django project in a Git repository using the "Blank Django Web Project" template (step 1).

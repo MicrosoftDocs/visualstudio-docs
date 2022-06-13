@@ -36,6 +36,8 @@ ms.workload:
 ---
 # Find and replace text
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can find and replace text in the Visual Studio editor by using [Find and Replace](#find-and-replace-control) (**Ctrl**+**F** or **Ctrl**+**H**) or [Find/Replace in Files](#find-in-files-and-replace-in-files) (**Ctrl**+**Shift**+**F** or **Ctrl**+**Shift**+**H**). You can also find and replace only *some* instances of a pattern by using *[multi-caret selection](#multi-caret-selection)*.
 
 > [!TIP]
@@ -103,13 +105,6 @@ For more detailed information, see the [Find in Files](find-in-files.md) and [Re
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-:::image type="content" source="media/find-files-vs2017.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 2017, with the Find in Files tab open.":::
-
-For more detailed information, see the [Find in Files](find-in-files.md) and [Replace in Files](replace-in-files.md) pages.
-
-::: moniker-end
 
 ### Find Results
 
@@ -131,11 +126,6 @@ You can define component sets as your search scope by choosing the **Edit Custom
 > [!NOTE]
 > This section applies to Visual Studio on Windows. For Visual Studio for Mac, see [Block selection](/visualstudio/mac/block-selection).
 
-::: moniker range="vs-2017"
-
-**Introduced in Visual Studio 2017 version 15.8**
-
-::: moniker-end
 
 Use *multi-caret selection* to make the same edit in two or more places at the same time. For example, you can insert the same text or modify existing text in multiple locations at the same time.
 

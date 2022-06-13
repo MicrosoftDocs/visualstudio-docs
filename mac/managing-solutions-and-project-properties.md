@@ -10,6 +10,8 @@ ms.assetid: 75247EB8-323A-4AFD-A451-6703A03D5D1F
 ---
 # Managing Project and Solution Properties
 
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+
 ## Project options
 
 Project options are specific to each project and affect how the project is written, built, and run. Unlike Visual Studio for Mac preferences which are user-specific settings, project options are stored in the project (.csproj) file, so that other developers can build and run the project correctly. Having specific project options allows many developers to work on the same document without compromising the formatting of the file.

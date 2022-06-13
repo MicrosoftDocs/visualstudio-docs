@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: c473b01f-2dfe-4cc2-ad29-bb5e2a268123
-ms.date: 03/21/2021
+ms.date: 05/02/2022
 ms.topic: conceptual
 description: Learn how to view the maximum number of assigned subscriptions in the admin portal
 ---
@@ -38,16 +38,16 @@ For each subscription level, the report shows the date you reached a new maximum
 A:  The information in the overview shows the *current* assignments and available subscriptions for each subscription level.  This may be very different from the maximum number of subscriptions assigned for the agreement during the current year or the life of the agreement.  The maximum usage feature allows you to see when the maximum assignment levels were reached and what the levels were.  This is an important distinction, since billing for subscriptions during true-up is based on the maximum number of subscriptions assigned at any point throughout the year. 
 
 ## Resources
-- [Visual Studio licensing white paper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
-- [Visual Studio Administration and Subscriptions Support](https://aka.ms/vsadminhelp)
-- [Volume Licensing terms](https://www.microsoft.com/licensing/product-licensing/products.aspx)
++ [Visual Studio licensing white paper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
++ [Visual Studio Administration and Subscriptions Support](https://aka.ms/vsadminhelp)
++ [Volume Licensing terms](https://www.microsoft.com/licensing/product-licensing/products.aspx)
 
 ## See also
-- [Visual Studio documentation](/visualstudio/)
-- [Azure DevOps documentation](/azure/devops/)
-- [Azure documentation](/azure/)
-- [Microsoft 365 documentation](/microsoft-365/)
++ [Visual Studio documentation](/visualstudio/)
++ [Azure DevOps documentation](/azure/devops/)
++ [Azure documentation](/azure/)
++ [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-- If you have any questions about subscription assignments or other aspects of the admin portal, please contact https://visualstudio.microsoft.com/subscriptions/support/ for assistance. 
-- Learn more about what to do if you assign more subscriptions that you purchased, referred to as [overallocations](handle-overclaimed-license.md).
++ If you have any questions about subscription assignments or other aspects of the admin portal, please contact https://visualstudio.microsoft.com/subscriptions/support/ for assistance. 
++ Learn more about what to do if you assign more subscriptions that you purchased, referred to as [overallocations](handle-overclaimed-license.md).

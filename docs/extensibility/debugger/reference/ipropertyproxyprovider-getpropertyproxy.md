@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IPropertyProxyProvider::GetPropertyProxy
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the property proxy interface for the specified proxy ID.
 
 ## Syntax

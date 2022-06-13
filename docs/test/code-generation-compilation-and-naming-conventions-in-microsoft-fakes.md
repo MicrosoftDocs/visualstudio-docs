@@ -13,6 +13,8 @@ author: mikejo5000
 ---
 # Code generation, compilation, and naming conventions in Microsoft Fakes
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This article discusses options and issues in Fakes code generation and compilation, and describes the naming conventions for Fakes-generated types, members, and parameters.
 
 **Requirements**

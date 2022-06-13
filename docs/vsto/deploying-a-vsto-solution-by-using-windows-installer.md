@@ -23,8 +23,9 @@ ms.technology: office-development
 ms.workload:
   - "office"
 ---
-
 # Deploying a VSTO Solution Using Windows Installer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Summary
 
@@ -115,19 +116,14 @@ The first step is to create the setup project.
 
 1. Open the Office AddIn Project you want to deploy. For this example, we're using an Excel Add-in called ExcelAddIn.
 2. With the Office Project Open, on the **File** menu, expand **Add** and click **New Project** to add a new project.
-::: moniker range="=vs-2017"
-3. In the **Add New Project** dialog, expand **Other Project Types** in **the Project types** pane, then expand **Setup and Deployment** and then select **Visual Studio Installer**.
-4. In the **Templates** pane, select **Setup Project** from the **Visual Studio installed** templates group.
-::: moniker-end
+
 ::: moniker range="=vs-2019"
 3. On the **Add a New Project** dialog, select the **Setup Project** template.
 4. Click **Next**.
 ::: moniker-end
 
 5. In the **Name** box, type **OfficeAddInSetup**.
-::: moniker range="=vs-2017"
-6. Click **Open** to create the new setup project.
-::: moniker-end
+
 ::: moniker range="=vs-2019"
 6. Click **Create** to create the new setup project.
 ::: moniker-end
@@ -203,7 +199,7 @@ Microsoft Office locates Add-ins by using registry keys. The keys in the HKEY\_C
 2. Expand **View**.
 3. Click **Registry** to open the registry editor window.
 4. In the **Registry(OfficeAddInSetup)** editor, expand **HKEY\_LOCAL\_MACHINE** and then **Software**.
-5. Delete the **\[Manufacturer\]**?key found under **HKEY\_LOCAL\_MACHINE\\Software**.
+5. Delete the **\[Manufacturer\]** key found under **HKEY\_LOCAL\_MACHINE\\Software**.
 6. Expand **HKEY\_CURRENT\_USER** and then **Software**.
 7. Delete the **\[Manufacturer\]** key found under **HKEY\_CURRENT\_USER\\Software**.
 8. To add registry keys for the add-in installation right-click the **User/Machine Hive** key, select **New Key**. Use the text **Software** for the name of the new key. Right-click on the newly created **Software** key and create a new key with the text **Microsoft**.
@@ -337,17 +333,17 @@ For more information, see [Type Equivalence and Embedded Interop Types](/dotnet/
 
 |Primary interop assembly|Office 2010|Office 2013|Office 2013 (64-bit)|Office 2016|Office 2016 (64-bit)|
 |------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|
-|Excel|{EA7564AC-C67D-4868-BE5C-26E4FC2223FF}|{C8A65ABE-3270-4FD7-B854-50C8082C8F39}|{E3BD1151-B9CA-4D45-A77E-51A6E0ED322A}|C4ACE6DB-AA99-401F-8BE6-8784BD09F003}|{C4ACE6DB-AA99-401F-8BE6-8784BD09F003}|
+|Excel|{EA7564AC-C67D-4868-BE5C-26E4FC2223FF}|{C8A65ABE-3270-4FD7-B854-50C8082C8F39}|{E3BD1151-B9CA-4D45-A77E-51A6E0ED322A}|{C845E028-E091-442E-8202-21F596C559A0}|{C4ACE6DB-AA99-401F-8BE6-8784BD09F003}|
 |InfoPath|{4153F732-D670-4E44-8AB7-500F2B576BDA}|{0F825A16-25B2-4771-A497-FC8AF3B355D8}|{C5BBD36E-B320-47EF-A512-556B99CB7E41}|-|-|
-|Outlook|{1D844339-3DAE-413E-BC13-62D6A52816B2}|{F9F828D5-9F0B-46F9-9E3E-9C59F3C5E136}|{7824A03F-28CC-4371-BC54-93D15EFC1E7F}|{7C6D92EF-7B45-46E5-8670-819663220E4E}|{7C6D92EF-7B45-46E5-8670-819663220E4E}|
-|PowerPoint|{EECBA6B8-3A62-44AD-99EB-8666265466F9}|{813139AD-6DAB-4DDD-8C6D-0CA30D073B41}|{05758318-BCFD-4288-AD8D-81185841C235}|{E0A76492-0FD5-4EC2-8570-AE1BAA61DC88}|{E0A76492-0FD5-4EC2-8570-AE1BAA61DC88}|
-|Visio|{3EA123B5-6316-452E-9D51-A489E06E2347}|{C1713368-12A8-41F1-ACA1-934B01AD6EEB}|{2CC0B221-22D2-4C15-A9FB-DE818E51AF75}|{2D4540EC-2C88-4C28-AE88-2614B5460648}|{2D4540EC-2C88-4C28-AE88-2614B5460648}|
-|Word|{8B74A499-37F8-4DEA-B5A0-D72FC501CEFA}|{9FE736B7-B1EE-410C-8D07-082891C3DAC8}|{13C07AF5-B206-4A48-BB5B-B8022333E3CA}|{DC5CCACD-A7AC-4FD3-9F70-9454B5DE5161}|{DC5CCACD-A7AC-4FD3-9F70-9454B5DE5161}|
+|Outlook|{1D844339-3DAE-413E-BC13-62D6A52816B2}|{F9F828D5-9F0B-46F9-9E3E-9C59F3C5E136}|{7824A03F-28CC-4371-BC54-93D15EFC1E7F}|{2C6C511D-4542-4E0C-95D0-05D4406032F2}|{7C6D92EF-7B45-46E5-8670-819663220E4E}|
+|PowerPoint|{EECBA6B8-3A62-44AD-99EB-8666265466F9}|{813139AD-6DAB-4DDD-8C6D-0CA30D073B41}|{05758318-BCFD-4288-AD8D-81185841C235}|{9E73CEA4-29D0-4D16-8FB9-5AB17387C960}|{E0A76492-0FD5-4EC2-8570-AE1BAA61DC88}|
+|Visio|{3EA123B5-6316-452E-9D51-A489E06E2347}|{C1713368-12A8-41F1-ACA1-934B01AD6EEB}|{2CC0B221-22D2-4C15-A9FB-DE818E51AF75}|{A4C55BC1-B94C-4058-B15C-B9D4AE540AD1}|{2D4540EC-2C88-4C28-AE88-2614B5460648}|
+|Word|{8B74A499-37F8-4DEA-B5A0-D72FC501CEFA}|{9FE736B7-B1EE-410C-8D07-082891C3DAC8}|{13C07AF5-B206-4A48-BB5B-B8022333E3CA}|{30CAC893-3CA4-494C-A5E9-A99141352216}|{DC5CCACD-A7AC-4FD3-9F70-9454B5DE5161}|
 |Microsoft Forms 2.0|{B2279272-3FD2-434D-B94E-E4E0F8561AC4}|{B2279272-3FD2-434D-B94E-E4E0F8561AC4}|{A5A30117-2D2A-4C5C-B3C8-8897AC32C2AC}|-|-|
 |Microsoft Graph|{011B9112-EBB1-4A6C-86CB-C2FDC9EA7B0E}|{52DA4B37-B8EB-4B7F-89C1-824654CE4C70}|{24706F33-F0CE-4EB4-BC91-9E935394F510}|-|-|
 |Smart Tag|{7102C98C-EF47-4F04-A227-FE33650BF954}|{487A7921-EB3A-4262-BB5B-A5736B732486}|{74EFC1F9-747D-4867-B951-EFCF29F51AF7}|-|-|
-|Office Shared|{64E2917E-AA13-4CA4-BFFE-EA6EDA3AFCB4}|{6A174BDB-0049-4D1C-86EF-3114CB0C4C4E}|{76601EBB-44A7-49EE-8DE3-7B7B9D7EBB05}|{625F5772-C1B3-497E-8ABE-7254EDB00506}|{625F5772-C1B3-497E-8ABE-7254EDB00506}|
-|Project|{957A4EC0-E67B-4E86-A383-6AF7270B216A}|{1C50E422-24FA-44A9-A120-E88280C8C341}|{706D7F44-8231-489D-9B25-3025ADE9F114}|{107BCD9A-F1DC-4004-A444-33706FC10058}|{107BCD9A-F1DC-4004-A444-33706FC10058}|
+|Office Shared|{64E2917E-AA13-4CA4-BFFE-EA6EDA3AFCB4}|{6A174BDB-0049-4D1C-86EF-3114CB0C4C4E}|{76601EBB-44A7-49EE-8DE3-7B7B9D7EBB05}|{68477CB0-662A-48FB-AF2E-9573C92869F7}|{625F5772-C1B3-497E-8ABE-7254EDB00506}|
+|Project|{957A4EC0-E67B-4E86-A383-6AF7270B216A}|{1C50E422-24FA-44A9-A120-E88280C8C341}|{706D7F44-8231-489D-9B25-3025ADE9F114}|{0B6EDA1D-4A15-4F88-8B20-EA6528978E4E}|{107BCD9A-F1DC-4004-A444-33706FC10058}|
 
   ![Screenshot of the Final launch conditions](media/setup-project-figure-11.jpg)
 

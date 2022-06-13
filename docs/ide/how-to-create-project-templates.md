@@ -15,6 +15,8 @@ ms.technology: vs-ide-general
 ---
 # How to: Create project templates
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This topic shows you how to create a template using the **Export Template Wizard**, which packages your template in a *.zip* file.
 
 ## Use the Export Template Wizard
@@ -32,15 +34,6 @@ This topic shows you how to create a template using the **Export Template Wizard
 
 4. On the **Choose Template Type** page, select **Project Template**. Select the project you want to export to a template, and then choose **Next**.
 
-::: moniker range="vs-2017"
-
-5. On the **Select Template Options** page, enter a name and optional description, icon, and preview image for your template. These items will appear in the **New Project** dialog box. Choose **Finish**.
-
-   The project is exported into a *.zip* file and placed in the specified output location, and, if selected, imported into Visual Studio.
-
-To find your template in the **New Project** dialog box, expand **Installed** and then expand the category that corresponds to the `ProjectType` element in the *.vstemplate* file. For example, a *.vstemplate* file that contains `<ProjectType>CSharp</ProjectType>` appears under **Installed** > **Visual C#**, by default. You can organize your template into a subdirectory of the project type just by creating a folder in that directory and placing your template's *.zip* file in it. For more information, see [How to: Locate and organize templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

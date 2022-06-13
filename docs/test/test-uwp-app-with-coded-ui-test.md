@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Create a coded UI test to test a UWP app
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This article explains how to create a coded UI test for a Universal Windows Platform (UWP) app.
 
 [!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
@@ -26,11 +28,6 @@ The first step is to create a simple UWP app to run the test against.
 
 1. In Visual Studio, create a new project using the **Blank App (Universal Windows)** template for Visual C# or Visual Basic.
 
-   ::: moniker range="vs-2017"
-
-   ![Blank app Universal Windows template](../test/media/blank-uwp-app-template.png)
-
-   ::: moniker-end
 
 1. In the **New Universal Windows Platform Project** dialog, select **OK** to accept the default platform versions.
 
@@ -64,11 +61,6 @@ The first step is to create a simple UWP app to run the test against.
 
 1. Search for and select the **Coded UI Test Project (Universal Windows)** template.
 
-   ::: moniker range="vs-2017"
-
-   ![New coded UI test project](../test/media/coded-ui-test-project-uwp-template.png)
-
-   ::: moniker-end
 
    > [!NOTE]
    > If you don't see the **Coded UI Test Project (Universal Windows)** template, you need to [install the coded UI test component](../test/use-ui-automation-to-test-your-code.md#install-the-coded-ui-test-component).

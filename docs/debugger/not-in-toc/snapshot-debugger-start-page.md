@@ -11,8 +11,9 @@ ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
-
 # Getting Started With The Snapshot Debugger
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio Snapshot Debugger is now connected to your service and you can start collecting snapshots to help with debugging.
 
