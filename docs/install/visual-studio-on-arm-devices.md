@@ -91,14 +91,6 @@ For the best experience, we recommend you use Visual Studio on a separate, x86 p
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
-
-### Remote targeting ARM devices
-
-For the best experience, we recommend you use Visual Studio on a separate, x64 powered, computer, and use the remote deployment and debugging features in Visual Studio to target the ARM-based device. To debug Windows Universal Applications already installed on the device, see the [debug installed app package](../debugger/debug-installed-app-package.md) documentation. To deploy a new app, see [running a Windows Store app remotely](../debugger/run-windows-store-apps-on-a-remote-machine.md). For all other application types, see the [remote debugging](../debugger/remote-debugging.md) documentation.
-
-::: moniker-end
-
 ::: moniker range="vs-2019"
 
 ## Tips for running Visual Studio on ARM devices
