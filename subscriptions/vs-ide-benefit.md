@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: c4b13464-76be-40f1-ad60-ed79ee264b12
-ms.date: 04/22/2022
+ms.date: 06/13/2022
 ms.topic: how-to
 description: In this article, you learn how to download and install the Visual Studio IDE that's included in your Visual Studio subscription.
 ---
@@ -86,19 +86,19 @@ If you have questions about Visual Studio or need technical assistance, check th
 
 For Visual Studio IDE technical issues or questions, contact [Visual Studio technical support](https://visualstudio.microsoft.com/vs/support/). Before you use the limited Visual Studio [technical support incidents](vs-tech-support.md) that might be included with your Visual Studio subscription, we suggest trying some other online resources:
 
-- For installation problems, see the step-by-step guidance in [Troubleshoot Visual Studio installation and upgrade issues](https://docs.microsoft.com/visualstudio/install/troubleshooting-installation-issues). 
++ For installation problems, see the step-by-step guidance in [Troubleshoot Visual Studio installation and upgrade issues](https://docs.microsoft.com/visualstudio/install/troubleshooting-installation-issues). 
 
    You can also try the [installation chat](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option.
 
-- Review tutorials, troubleshooting guides, and helpful resources within [Visual Studio IDE documentation](https://docs.microsoft.com/visualstudio/ide/).
++ Review tutorials, troubleshooting guides, and helpful resources within [Visual Studio IDE documentation](https://docs.microsoft.com/visualstudio/ide/).
 
-- Search the online [Developer Community](https://developercommunity.visualstudio.com/), and get expert answers via a community-supported forum. 
++ Search the online [Developer Community](https://developercommunity.visualstudio.com/), and get expert answers via a community-supported forum. 
    
    You can search keywords, read, vote, and comment, all without logging in. If you don’t find what you need with a search, you can suggest a feature or report a problem from the navigation menu. 
    
    To submit a feature request, you’ll need to sign in to fill out and post the report. To report a problem or bug, you need to have a running instance of Visual Studio.
 
-- Search the [Stack Overflow public Q&A site](https://stackoverflow.com/questions/tagged/visual-studio?tab=Newest) for answers to already-asked questions that are tagged with *\[visual-studio]*, or sign up for an account and ask a new question.
++ Search the [Stack Overflow public Q&A site](https://stackoverflow.com/questions/tagged/visual-studio?tab=Newest) for answers to already-asked questions that are tagged with *\[visual-studio]*, or sign up for an account and ask a new question.
 
 ### Technical support incidents
 
@@ -112,15 +112,15 @@ For assistance with sales, subscriptions, accounts, and billing, contact [Visual
 
 ## See also
 
-- [Visual Studio documentation](/visualstudio/)
-- [Azure DevOps documentation](/azure/devops/)
-- [Azure documentation](/azure/)
-- [Microsoft 365 documentation](/microsoft-365/)
++ [Visual Studio documentation](/visualstudio/)
++ [Azure DevOps documentation](/azure/devops/)
++ [Azure documentation](/azure/)
++ [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 
 After you've installed Visual Studio, be sure to activate additional important benefits:
 
-- [Azure DevOps](vs-azure-devops.md)
-- [Azure DevTest offer/credits](/azure/devtest/offer/)
-- [Windows Developer account](vs-windows-dev.md)
++ [Azure DevOps](vs-azure-devops.md)
++ [Azure DevTest offer/credits](/azure/devtest/offer/)
++ [Windows Developer account](vs-windows-dev.md)
