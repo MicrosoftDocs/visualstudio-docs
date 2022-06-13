@@ -47,7 +47,7 @@ Anyone with [owner or contributor access](https://na01.safelinks.protection.outl
 > for automation of purchasing.
 
 Once you confirm the purchase, you can choose **Manage** to assign subscriptions to your customer's end users.  You can
-also access the Subscription Admin portal from the Partner Center by choosing **Service management**.  From there see the steps or video below.
+also access the Subscription Admin portal from the Partner Center by choosing **Service management** to see the steps or video below.
 
 ## How to manage Visual Studio cloud subscriptions for your customer
 
@@ -56,7 +56,7 @@ also access the Subscription Admin portal from the Partner Center by choosing **
 0. Choose **Service Management**.
 0. Choose **Manage Visual Studio Subscriptions**.
 
-If you have more than one Azure subscription for this customer, use the drop-down menu to choose the Azure subscription through which you made the purchases.  The **License Summary** shows you the number of subscriptions that have been assigned and how many are available for each Visual Studio cloud subscription option.  The summary also allows you to purchase additional subscriptions or reduce the number of subscriptions.
+If you have more than one Azure subscription for this customer, use the drop-down menu to choose the Azure subscription through which you made the purchases.  The **License Summary** shows you the number of subscriptions that have been assigned and how many are available for each Visual Studio cloud subscription option.  The summary also allows you to purchase more subscriptions or reduce the number of subscriptions.
 
 Choose **add** to assign a subscription to a new user.  The displayed count updates, and the end user receives an email notification. The end user can then sign in using the email address you provided to activate their Visual Studio subscription in the [Visual Studio subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
 
@@ -74,13 +74,13 @@ Here's how to interpret what you see on this spreadsheet:
 | Visual Studio     | Enterprise     |  Subscription  | Visual Studio Enterprise monthly subscription   |
 | Visual Studio     | Professional   |  Subscription  | Visual Studio Professional monthly subscription |
 
-We offer a 5% discount on the 6th unit you buy (for a given customer) each month of each Visual Studio subscription. That's why you see two rows for each subscription option. One row shows a "Minimum Value" of 0, which you should interpret as the base price for units 1 through 5. The other row shows a "Minimum Value" of 5, so this is the 5% discount price that applies to units 6 and above.
+We offer a 5% discount on the 6th unit you buy (for a given customer) each month of each Visual Studio subscription. That's why you see two rows for each subscription option. One row shows a "Minimum Value" of zero, which you should interpret as the base price for units one through five. The other row shows a "Minimum Value" of five, which shows the 5% discount price that applies to units six and above.
 
 ## Frequently asked questions
 
 ### Q: How are **monthly** cloud subscription charges processed?
 
-A: At the first purchase, we bill a prorated quantity to cover the remaining days in the current month. For instance, if a purchase of 10 Visual Studio Professional monthly cloud subscriptions was made on April 15, then we would charge 5 units because there are 15 days left in the 30-day month, or 50% and we prorate the units charged by 50%. On the first of May, and each month thereafter until you cancel, the full 10 units will be billed.
+A: At the first purchase, we bill a prorated quantity to cover the remaining days in the current month. For instance, if a purchase of 10 Visual Studio Professional monthly cloud subscriptions was made on April 15, we would charge five units because there are 15 days left in the 30-day month (50%), so we prorate the units charged by 50%. On the first of May, and each month thereafter until you cancel, the full 10 units will be billed.
 
 When you increase the paid quantity later, we also prorate the increased units to cover the remaining days in the current month. So if you bought 1 more Visual Studio Professional monthly cloud subscription on May 10, we would bill roughly 0.677 units (21 days remaining in the 31-day month of May).
 
@@ -90,7 +90,7 @@ A: When you cancel a Visual Studio cloud subscription, you're canceling automati
 
 With monthly cloud subscriptions, cancellations take effect the first day of the next month. If you only cancel some of your customer's monthly cloud subscriptions, be sure to remove users on the first of the next month to ensure that the correct people continue to have active subscriptions assigned.
 
-For annual cloud subscriptions, cancellations take effect the first day of the month following 12 months from the original purchase, or 12 months from the last annual renewal charge. For instance, if you bought a Visual Studio Enterprise annual cloud subscription on January 3, 2018 then it remains active until February 1, 2019 when it automatically renews for another year. If you cancel at any time between then and February 1, 2020 then the subscription will expire on February 1, 2020. There is no rebate for canceling part way through the subscription year with annual cloud subscriptions.
+For annual cloud subscriptions, cancellations take effect the first day of the month following 12 months from the original purchase, or 12 months from the last annual renewal charge. For instance, if you bought a Visual Studio Enterprise annual cloud subscription on January 3, 2018 then it remains active until February 1, 2019 when it automatically renews for another year. If you cancel at any time between then and February 1, 2020, the subscription will expire on February 1, 2020. There is no rebate for canceling part way through the subscription year with annual cloud subscriptions.
 
 ### Q: What kind of volume discounts are available for Visual Studio subscriptions?
 
@@ -113,6 +113,7 @@ A:  No, prices for Visual Studio subscriptions are flat. The same price is offer
 A: Not at this time. Your customers can take advantage of [Azure dev/test pricing](https://azure.microsoft.com/pricing/dev-test/), but we do not have anything specifically for CSPs.
 
 ## Resources
+
 For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
 
 ## See also
