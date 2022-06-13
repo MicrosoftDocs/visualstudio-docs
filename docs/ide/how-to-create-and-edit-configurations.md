@@ -65,7 +65,7 @@ Most project properties are not dependent on the configuration or the platform, 
 
 Properties that you can set differently based on the configuration and the platform have a gear icon next to them on the project settings page. If you click on the gear icon, a menu pops up that gives you options for having the same or different values based on either the configuration, the platform, or both.
 
-![Screenshot showing project properties that are dependent on the configuration and platform.][(./media/vs-2022/project-properties-build.png)
+![Screenshot showing project properties that are dependent on the configuration and platform.](./media/vs-2022/project-properties-build.png)
 :::moniker-end
 
 For more information about property page settings, see [Manage project and solution properties](../ide/managing-project-and-solution-properties.md).
