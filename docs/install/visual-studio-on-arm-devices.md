@@ -118,7 +118,7 @@ Not all Visual Studio projects are configured to launch projects locally when yo
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range="vs-2019"
 
 ### Tips for running Visual Studio on ARM devices
 
