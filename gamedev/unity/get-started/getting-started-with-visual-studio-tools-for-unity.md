@@ -27,7 +27,7 @@ In this quickstart, you learn how to install the Visual Studio Tools for Unity e
 :::zone pivot="windows"
 
 1. [Download the Visual Studio installer](/visualstudio/install/install-visual-studio), or open it if already installed.
-1. Select **Install** or **Modify** if Visual Studio is already installed.
+1. Select **Install**, or **Modify** if Visual Studio is already installed.
 1. Select the **Workloads** tab, then select the **Game development with Unity** workload.
 1. If Unity isn't already installed, select **Unity Hub** under **Optional**.
 1. Select **Modify** or **Install** to complete the installation.
@@ -79,7 +79,7 @@ By default, Unity should already be configured to use Visual Studio or Visual St
 It's possible to select other versions of Visual Studio that are unlisted and installed in a custom directory.
 
 1. Select **Browse...** from the dropdown list.
-1. Navigate to the *Common7/IDE* directory inside your Visual Studio installation directory and select *devenv.exe*. Then, select **Open**.
+1. Navigate to the *Common7/IDE* directory inside your Visual Studio installation directory and select *devenv.exe*. Then select **Open**.
 1. For Unity 2019 and older only, confirm that **Editor Attaching** is selected.
 1. Close the **Preferences** dialog to complete the configuration process.
 
