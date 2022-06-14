@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 44a790d1-f37e-4be0-9023-af1b3fdfcd35
-ms.date: 06/13/2022
+ms.date: 06/14/2022
 ms.topic: how-to
 ms.custom: kr2b-contr-experiment
 description:  Learn about the Developer Community Support benefit included in selected Visual Studio subscriptions.
@@ -23,7 +23,7 @@ Connecting to the Developer Community is simple.
 (You can also point your browser directly to <https://developercommunity.visualstudio.com/>.)
 
    > [!div class="mx-imgBorder"]
-   > ![Developer Community Tile](_img/vs-developer-community/vs-developer-community-tile.png "Select 'Get help' to connect to the Developer Community")
+   > ![Developer Community Tile](_img/vs-developer-community/vs-developer-community-tile.png "Screenshot of Developer Community tile.  'Get help' button is highlighted.")
 
 You can search for answers, or view content in product areas such as:
 
