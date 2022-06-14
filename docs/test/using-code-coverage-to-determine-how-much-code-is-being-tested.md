@@ -24,7 +24,6 @@ Code coverage analysis is possible for both managed (CLI) and unmanaged (native)
 
 Code coverage option is available under the Test menu when you run test methods using Test Explorer. The results table shows the percentage of the code executed in each assembly, class, and procedure. The source editor highlights the tested code.
 
-
 ## Requirements
 
 The code coverage feature is available only in Visual Studio Enterprise edition.
@@ -213,7 +212,7 @@ public ref class ExampleClass2
 { ... }
 ```
 
-#### Exclude elements in Native C++ code
+### Exclude elements in Native C++ code
 
 To exclude unmanaged (native) elements in C++ code:
 
