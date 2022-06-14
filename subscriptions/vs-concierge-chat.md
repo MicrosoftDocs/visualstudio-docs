@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: dcd99e32-c9f3-4e19-8428-319dfa220463
-ms.date: 06/13/2022
+ms.date: 06/14/2022
 ms.topic: how-to
 description:  Learn about the Concierge Chat benefit included in Visual Studio subscriptions.
 
@@ -23,7 +23,7 @@ Getting help via the Concierge Chat service is very easy.
 
 2. Locate the Concierge Chat tile in the Support section of the benefits page and select on **Chat now**.
     > [!div class="mx-imgBorder"]
-    > ![Concierge Chat Tile](_img/vs-concierge-chat/vs-concierge-chat-tile.png "Select 'Chat now' to launch a new chat session.")
+    > ![Concierge Chat Tile](_img/vs-concierge-chat/vs-concierge-chat-tile.png "Screenshot of Concierge Chat tile.  Chat now button is highlighted.")
 
 3. Select **Continue**.
 
@@ -31,7 +31,7 @@ Getting help via the Concierge Chat service is very easy.
 
 5. When an agent is available, the chat will start.
     > [!div class="mx-imgBorder"]
-    > ![Concierge Chat Session](_img/vs-concierge-chat/vs-concierge-chat-session.png "The chat session window will show when an agent joins the session.")
+    > ![Concierge Chat Session](_img/vs-concierge-chat/vs-concierge-chat-session.png "Screen shot of the chat window showing that an agent is being connected.")
 
 ## Eligibility
 
