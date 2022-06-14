@@ -170,7 +170,7 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
     textBox1.Text = "Button was clicked!";
     ```
 
-    ### [C++](#tab/C++)
+    ### [C++](#tab/cpp)
     ```cpp
     textBox1->Text = "Button was clicked!";
     ```
