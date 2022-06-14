@@ -95,6 +95,7 @@ ms.workload:
 
 9. In the MainPage.xaml code file (*MainPage.xaml.cs* for Visual C# or *MainPage.xaml.vb* for Visual Basic), add the following namespace references.
 
+    ### [C#](#tab/csharp)
     ```vb
     ' Add the following three Imports statements.
     Imports SLApplication.ServiceReference1
@@ -102,29 +103,35 @@ ms.workload:
     Imports System.Data.Services.Client
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     // Add the following three using directives.
     using SLApplication.ServiceReference1;
     using System.Windows.Data;
     using System.Data.Services.Client;
     ```
+    ---
 
 10. Add the following variable declarations at the top of the class.
 
+    ### [C#](#tab/csharp)
     ```vb
     Private context As TeamSiteDataContext
     Private myCollectionViewSource As CollectionViewSource
     Private announcements As New DataServiceCollection(Of AnnouncementsItem)()
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     private TeamSiteDataContext context;
     private CollectionViewSource myCollectionViewSource;
     DataServiceCollection<AnnouncementsItem> announcements = new DataServiceCollection<AnnouncementsItem>();
     ```
+    ---
 
 11. Replace the `UserControl_Loaded` procedure with the following.
 
+    ### [C#](#tab/csharp)
     ```vb
     Private Sub UserControl_Loaded_1(sender As Object, e As RoutedEventArgs)
         ' The URL for the OData service.
@@ -141,6 +148,7 @@ ms.workload:
     End Sub
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     private void UserControl_Loaded_1(object sender, RoutedEventArgs e)
     {
@@ -159,11 +167,13 @@ ms.workload:
         }
     }
     ```
+    ---
 
      Be sure to replace the *ServerName* placeholder with the name of your server that's running SharePoint.
 
 12. Add the following error-handling procedure.
 
+    ### [C#](#tab/csharp)
     ```vb
     Private Sub announcements_LoadCompleted(sender As Object, e As LoadCompletedEventArgs)
         ' Handle any errors.
@@ -176,6 +186,7 @@ ms.workload:
 
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     void announcements_LoadCompleted(object sender, LoadCompletedEventArgs e)
     {
@@ -190,6 +201,7 @@ ms.workload:
         }
     }
     ```
+    ---
 
 ## Modify the Silverlight web part
  Change a property in the Silverlight web part project to enable Silverlight debugging.

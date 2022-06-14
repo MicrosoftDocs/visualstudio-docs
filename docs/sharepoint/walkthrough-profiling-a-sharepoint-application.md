@@ -79,20 +79,24 @@ ms.workload:
 
 3. In the event receiver class, add the following variable declarations.
 
+    ### [C#](#tab/csharp)
     ```vb
     ' SharePoint site/subsite.
     Private siteUrl As String = "http://localhost"
     Private webUrl As String = "/"
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     // SharePoint site/subsite.
     private string siteUrl = "http://localhost";
     private string webUrl = "/";
     ```
+    ---
 
 4. Replace the `FeatureActivated` procedure with the following code.
 
+    ### [C#](#tab/csharp)
     ```vb
     Public Overrides Sub FeatureActivated(properties As SPFeatureReceiverProperties)
         Try
@@ -118,6 +122,7 @@ ms.workload:
     End Sub
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     public override void FeatureActivated(SPFeatureReceiverProperties properties)
     {
@@ -149,9 +154,11 @@ ms.workload:
         }
     }
     ```
+    ---
 
 5. Add the following procedure below the `FeatureActivated`procedure.
 
+    ### [C#](#tab/csharp)
     ```vb
 
     Public Sub TimeCounter()
@@ -164,6 +171,7 @@ ms.workload:
     End Sub
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     public void TimeCounter()
     {
@@ -176,6 +184,7 @@ ms.workload:
         }
     }
     ```
+    ---
 
 6. In **Solution Explorer**, open the shortcut menu for the project (**ProfileTest**), and then choose **Properties**.
 

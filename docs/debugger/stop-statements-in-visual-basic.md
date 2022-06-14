@@ -45,23 +45,29 @@ When you run a Visual Basic application outside of the debugger, a Stop statemen
 
 Another alternative is to use a <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=nameWithType> statement instead of the Stop statement. A <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=nameWithType> statement breaks execution only when a specified condition is not met. <xref:System.Diagnostics.Debug.Assert%2A> statements are automatically removed when you build a Release version. For more information, see [Assertions in Managed Code](assertions-in-managed-code.md). If you want an <xref:System.Diagnostics.Debug.Assert%2A> statement that always breaks execution in the Debug version, you can do this:
 
+### [C#](#tab/csharp)
 ```csharp
 Debug.Assert(false);
 ```
 
+### [VB](#tab/vb)
 ```vb
 Debug.Assert(False)
 ```
+---
 
 Yet another alternative is to use the <xref:System.Diagnostics.Debug.Fail%2A?displayProperty=nameWithType> method:
 
+### [C#](#tab/csharp)
 ```csharp
 Debug.Fail("a clever output string goes here");
 ```
 
+### [VB](#tab/vb)
 ```vb
 Debug.Fail("a clever output string goes here")
 ```
+---
 
 ## See also
 

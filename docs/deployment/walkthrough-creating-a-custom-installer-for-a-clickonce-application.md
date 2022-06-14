@@ -37,15 +37,18 @@ Any ClickOnce application based on an *.exe* file can be silently installed and 
 
 3. Add the following `Imports` or `using` directives to the top of your new class.
 
+    ### [C#](#tab/csharp)
     ```vb
     Imports System.Deployment.Application
     Imports System.Windows.Forms
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     using System.Deployment.Application;
     using System.Windows.Forms;
     ```
+    ---
 
 4. Add the following methods to your class.
 
@@ -59,17 +62,20 @@ Any ClickOnce application based on an *.exe* file can be silently installed and 
 
 5. To attempt installation from your code, call the `InstallApplication` method. For example, if you named your class `MyInstaller`, you might call `InstallApplication` in the following way.
 
+    ### [C#](#tab/csharp)
     ```vb
     Dim installer As New MyInstaller()
     installer.InstallApplication("\\myServer\myShare\myApp.application")
     MessageBox.Show("Installer object created.")
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     MyInstaller installer = new MyInstaller();
     installer.InstallApplication(@"\\myServer\myShare\myApp.application");
     MessageBox.Show("Installer object created.");
     ```
+    ---
 
 ## Next steps
  A ClickOnce application can also add custom update logic, including a custom user interface to show during the update process. For more information, see <xref:System.Deployment.Application.UpdateCheckInfo>. A ClickOnce application can also suppress the standard Start menu entry, shortcut, and Add or Remove Programs entry by using a `<customUX>` element. For more information, see [\<entryPoint> element](../deployment/entrypoint-element-clickonce-application.md) and <xref:System.Deployment.Application.DownloadApplicationCompletedEventArgs.ShortcutAppId%2A>.

@@ -76,20 +76,24 @@ Next, add code to two methods in the feature receiver: `FeatureActivated` and `F
 
 1. At the top of the `Feature1EventReceiver` class, add the following code, which declares variables that specify the SharePoint site and subsite:
 
+    ### [C#](#tab/csharp)
     ```vb
     ' SharePoint site and subsite.
     Private siteUrl As String = "http://localhost"
     Private webUrl As String = "/"
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     // SharePoint site and subsite.
     private string siteUrl = "http://localhost";
     private string webUrl = "/";
     ```
+    ---
 
 2. Replace the `FeatureActivated` method with the following code:
 
+    ### [C#](#tab/csharp)
     ```vb
     Public Overrides Sub FeatureActivated(ByVal properties As SPFeatureReceiverProperties)
         Try
@@ -119,6 +123,7 @@ Next, add code to two methods in the feature receiver: `FeatureActivated` and `F
     End Sub
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     public override void FeatureActivated(SPFeatureReceiverProperties properties)
     {
@@ -153,9 +158,11 @@ Next, add code to two methods in the feature receiver: `FeatureActivated` and `F
 
     }
     ```
+    ---
 
 3. Replace the `FeatureDeactivating` method with the following code:
 
+    ### [C#](#tab/csharp)
     ```vb
     Public Overrides Sub FeatureDeactivating(ByVal properties As SPFeatureReceiverProperties)
         ' The following line induces an error to demonstrate debugging.
@@ -197,6 +204,7 @@ Next, add code to two methods in the feature receiver: `FeatureActivated` and `F
     End Sub
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     public override void FeatureDeactivating(SPFeatureReceiverProperties properties)
     {
@@ -243,6 +251,7 @@ Next, add code to two methods in the feature receiver: `FeatureActivated` and `F
         }
     }
     ```
+    ---
 
 ## Test the project
 

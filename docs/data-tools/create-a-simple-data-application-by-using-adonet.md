@@ -187,13 +187,16 @@ To complete the NewCustomer form logic, follow these steps.
 
 1. Bring the `System.Data.SqlClient` namespace into scope so that you don't have to fully qualify the names of its members.
 
+     ### [C#](#tab/csharp)
      ```csharp
      using System.Data.SqlClient;
      ```
 
+     ### [VB](#tab/vb)
      ```vb
      Imports System.Data.SqlClient
      ```
+     ---
 
 2. Add some variables and helper methods to the class as shown in the following code.
 
@@ -219,15 +222,18 @@ To complete the FillOrCancel form logic, follow these steps.
 
 1. Bring the following two namespaces into scope so that you don't have to fully qualify the names of their members.
 
+     ### [C#](#tab/csharp)
      ```csharp
      using System.Data.SqlClient;
      using System.Text.RegularExpressions;
      ```
 
+     ### [VB](#tab/vb)
      ```vb
      Imports System.Data.SqlClient
      Imports System.Text.RegularExpressions
      ```
+     ---
 
 2. Add a variable and helper method to the class as shown in the following code.
 

@@ -176,13 +176,16 @@ ms.workload:
 
  To bind a content control to an element in a custom XML part, use the **XMLMapping** property of the control. The following code example demonstrates how to bind a <xref:Microsoft.Office.Tools.Word.PlainTextContentControl> to the `Price` element under the `Product` node in a custom XML part that has already been added to the document.
 
+### [C#](#tab/csharp)
 ```vb
 plainTextContentControl1.XMLMapping.SetMapping("/Product/Price")
 ```
 
+### [VB](#tab/vb)
 ```csharp
 plainTextContentControl1.XMLMapping.SetMapping("/Product/Price", String.Empty, null);
 ```
+---
 
  For a walkthrough that demonstrates how to bind content controls to custom XML parts in more detail, see [Walkthrough: Bind content controls to custom XML parts](../vsto/walkthrough-binding-content-controls-to-custom-xml-parts.md).
 

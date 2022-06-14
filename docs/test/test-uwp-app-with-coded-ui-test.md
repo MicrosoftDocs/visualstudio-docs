@@ -43,13 +43,16 @@ The first step is to create a simple UWP app to run the test against.
 
 1. Double-click the button control and add the following code to the body of the `Button_Click` method. This code simply sets the text in the textbox to the name of the button control, just to give us something to verify with the coded UI test we'll create later.
 
+   ### [C#](#tab/csharp)
    ```csharp
    this.textBox.Text = this.button.Name;
    ```
 
+   ### [VB](#tab/vb)
    ```vb
    Me.textBox.Text = Me.button.Name
    ```
+   ---
 
 1. Press **Ctrl**+**F5** to run the app. You should see something like the following:
 
@@ -105,6 +108,7 @@ The first step is to create a simple UWP app to run the test against.
 
     The assert method looks like this:
 
+    ### [C#](#tab/csharp)
     ```csharp
     public void AssertMethod1()
     {
@@ -117,6 +121,7 @@ The first step is to create a simple UWP app to run the test against.
     }
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     Public Sub AssertMethod1()
         Dim uITextBoxEdit As XamlEdit = Me.UIApp2Window.UITextBoxEdit
@@ -125,6 +130,7 @@ The first step is to create a simple UWP app to run the test against.
         Assert.AreEqual(Me.AssertMethod1ExpectedValues.UITextBoxEditText, uITextBoxEdit.Text, "Textbox value is unexpected.")
     End Sub
     ```
+    ---
 
 1. Next, we need to obtain the **AutomationId** of the UWP [app](#create-a-uwp-app-to-test) that we want to test. Open the Windows **Start** menu to see the tile for the app. Then, drag the cross-hair tool ![Target icon](media/target-icon.png) from the **Coded UI Test Builder** dialog to the tile for your app. When a blue box surrounds the tile, release your mouse.
 
@@ -136,13 +142,16 @@ The first step is to create a simple UWP app to run the test against.
 
 1. Add code to the test method to launch the UWP app. In **Solution Explorer**, open *CodedUITest1.cs* or *CodedUITest1.vb*. Above the call to `AssertMethod1`, add code to launch the UWP app:
 
+   ### [C#](#tab/csharp)
    ```csharp
    XamlWindow.Launch("af5ecd75-f252-45a1-9e7e-c6f1d8f054ff_0q1pp7qrjexbp!App")
    ```
 
+   ### [VB](#tab/vb)
    ```vb
    XamlWindow myAppWindow = XamlWindow.Launch("af5ecd75-f252-45a1-9e7e-c6f1d8f054ff_0q1pp7qrjexbp!App");
    ```
+   ---
 
    Replace the automation ID in the example code with the value you copied to the clipboard in the previous step.
 
@@ -151,16 +160,20 @@ The first step is to create a simple UWP app to run the test against.
 
 1. Next, add code to the test method to click the button. On the line after `XamlWindow.Launch`, add a gesture to tap the button control:
 
+   ### [C#](#tab/csharp)
    ```csharp
    Gesture.Tap(this.UIMap.UIUWPAppWindow.UIButtonButton);
    ```
 
+   ### [VB](#tab/vb)
    ```vb
    Gesture.Tap(Me.UIMap.UIUWPAppWindow.UIButtonButton)
    ```
+   ---
 
    After adding the code, the complete `CodedUITestMethod1` test method should appear as follows:
 
+   ### [C#](#tab/csharp)
    ```csharp
    [TestMethod]
    public void CodedUITestMethod1()
@@ -174,6 +187,7 @@ The first step is to create a simple UWP app to run the test against.
    }
    ```
 
+   ### [VB](#tab/vb)
    ```vb
    <CodedUITest(CodedUITestType.WindowsStore)>
    Public Class CodedUITest1
@@ -190,6 +204,7 @@ The first step is to create a simple UWP app to run the test against.
            Me.UIMap.AssertMethod1()
        End Sub
    ```
+   ---
 
 1. Build the test project, and then open **Test Explorer** by selecting **Test** > **Windows** > **Test Explorer**.
 

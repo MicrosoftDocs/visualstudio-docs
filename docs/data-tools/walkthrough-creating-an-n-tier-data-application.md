@@ -252,6 +252,7 @@ Now that the data access tier contains the methods to return data, create method
 
 2. Add the following code under the **Add your service operations here** comment:
 
+    ### [C#](#tab/csharp)
     ```vb
     <OperationContract()> _
     Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable
@@ -260,6 +261,7 @@ Now that the data access tier contains the methods to return data, create method
     Function GetOrders() As DataEntityTier.NorthwindDataSet.OrdersDataTable
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     [OperationContract]
     DataEntityTier.NorthwindDataSet.CustomersDataTable GetCustomers();
@@ -267,6 +269,7 @@ Now that the data access tier contains the methods to return data, create method
     [OperationContract]
     DataEntityTier.NorthwindDataSet.OrdersDataTable GetOrders();
     ```
+    ---
 
    > [!NOTE]
    > The code for this tutorial is available in C# and Visual Basic. To switch the code language on this page between C# and Visual Basic, use the code language switcher at the top of the page on the right side.
@@ -275,6 +278,7 @@ Now that the data access tier contains the methods to return data, create method
 
 4. Add the following code to the **Service1** class:
 
+    ### [C#](#tab/csharp)
     ```vb
     Public Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable Implements IService1.GetCustomers
         Dim CustomersTableAdapter1 As New DataAccessTier.NorthwindDataSetTableAdapters.CustomersTableAdapter
@@ -287,6 +291,7 @@ Now that the data access tier contains the methods to return data, create method
     End Function
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     public DataEntityTier.NorthwindDataSet.CustomersDataTable GetCustomers()
     {
@@ -303,6 +308,7 @@ Now that the data access tier contains the methods to return data, create method
         return OrdersTableAdapter1.GetOrders();
     }
     ```
+    ---
 
 5. On the **Build** menu, click **Build Solution**.
 
@@ -367,18 +373,21 @@ After you add the service reference to the data service, the **Data Sources** wi
 
 7. Add the following code to the `Form1_Load` event handler.
 
+    ### [C#](#tab/csharp)
     ```vb
     Dim DataSvc As New ServiceReference1.Service1Client
     NorthwindDataSet.Customers.Merge(DataSvc.GetCustomers)
     NorthwindDataSet.Orders.Merge(DataSvc.GetOrders)
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     ServiceReference1.Service1Client DataSvc =
         new ServiceReference1.Service1Client();
     northwindDataSet.Customers.Merge(DataSvc.GetCustomers());
     northwindDataSet.Orders.Merge(DataSvc.GetOrders());
     ```
+    ---
 
 ## Increase the maximum message size allowed by the service
 The default value for `maxReceivedMessageSize` is not large enough to hold the data retrieved from the `Customers` and `Orders` tables. In the following steps, you'll increase the value to 6553600. You change the value on the client, which automatically updates the service reference.

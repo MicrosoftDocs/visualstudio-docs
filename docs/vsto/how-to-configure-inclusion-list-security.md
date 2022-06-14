@@ -67,6 +67,7 @@ ms.workload:
 
 2. Open the *Program.vb* or *Program.cs* file for editing and add the following code.
 
+    ### [C#](#tab/csharp)
     ```vb
     Dim key As Microsoft.Win32.RegistryKey
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager\PromptingLevel")
@@ -78,6 +79,7 @@ ms.workload:
     key.Close()
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     Microsoft.Win32.RegistryKey key;
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\\MICROSOFT\\.NETFramework\\Security\\TrustManager\\PromptingLevel");
@@ -88,6 +90,7 @@ ms.workload:
     key.SetValue("UntrustedSites", "Disabled");
     key.Close();
     ```
+    ---
 
 3. Build and run the application.
 
@@ -126,6 +129,7 @@ ms.workload:
 
 2. Open the *Program.vb* or *Program.cs* file for editing and add the following code.
 
+    ### [C#](#tab/csharp)
     ```vb
     Dim key As Microsoft.Win32.RegistryKey
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager\PromptingLevel")
@@ -137,6 +141,7 @@ ms.workload:
     key.Close()
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     Microsoft.Win32.RegistryKey key;
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\\MICROSOFT\\.NETFramework\\Security\\TrustManager\\PromptingLevel");
@@ -147,6 +152,7 @@ ms.workload:
     key.SetValue("UntrustedSites", "Disabled");
     key.Close();
     ```
+    ---
 
 3. Build and run the application.
 
@@ -181,6 +187,7 @@ ms.workload:
 
 2. Open the *Program.vb* or *Program.cs* file for editing and add the following code.
 
+    ### [C#](#tab/csharp)
     ```vb
     Dim key As Microsoft.Win32.RegistryKey
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager\PromptingLevel")
@@ -192,6 +199,7 @@ ms.workload:
     key.Close()
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     Microsoft.Win32.RegistryKey key;
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\\MICROSOFT\\.NETFramework\\Security\\TrustManager\\PromptingLevel");
@@ -203,6 +211,7 @@ ms.workload:
     key.Close();
 
     ```
+    ---
 
 3. Build and run the application.
 

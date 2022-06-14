@@ -125,6 +125,7 @@ End Sub
 ### Access objects from non-VBA solutions
  In a non-VBA solution, you must cast the COMAddIn.Object property value to the interface it implements, and then you can call the exposed methods on the interface object. The following code example demonstrates how to call the `ImportData` method from a different VSTO Add-in that was created by using the Office developer tools in Visual Studio.
 
+### [C#](#tab/csharp)
 ```vb
 Dim addIn As Office.COMAddIn = Globals.ThisAddIn.Application.COMAddIns.Item("ExcelImportData")
 Dim utilities As ExcelImportData.IAddInUtilities = TryCast( _
@@ -132,12 +133,14 @@ Dim utilities As ExcelImportData.IAddInUtilities = TryCast( _
 utilities.ImportData()
 ```
 
+### [VB](#tab/vb)
 ```csharp
 object addInName = "ExcelImportData";
 Office.COMAddIn addIn = Globals.ThisAddIn.Application.COMAddIns.Item(ref addInName);
 ExcelImportData.IAddInUtilities utilities = (ExcelImportData.IAddInUtilities)addIn.Object;
 utilities.ImportData();
 ```
+---
 
  In this example, if you try to cast the value of the COMAddIn.Object property to the `AddInUtilities` class rather than the `IAddInUtilities` interface, the code will throw an <xref:System.InvalidCastException>.
 

@@ -60,13 +60,16 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
 
 7. Compile the file into an assembly.
 
+   ### [C#](#tab/csharp)
    ```csharp
    csc /target:library /keyfile:TestKey.snk ClickOnceLibrary.cs
    ```
 
+   ### [VB](#tab/vb)
    ```vb
    vbc /target:library /keyfile:TestKey.snk ClickOnceLibrary.vb
    ```
+   ---
 
 8. To get the public key token for the assembly, use the following command:
 
@@ -87,13 +90,16 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
 
 13. Compile it into an executable using the following command.
 
+    ### [C#](#tab/csharp)
     ```csharp
     csc /target:exe /reference:ClickOnceLibrary.dll Form1.cs
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     vbc /target:exe /reference:ClickOnceLibrary.dll Form1.vb
     ```
+    ---
 
 ## Mark assemblies as optional
 

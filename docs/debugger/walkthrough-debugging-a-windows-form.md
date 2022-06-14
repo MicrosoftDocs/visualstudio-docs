@@ -1,13 +1,12 @@
 ---
 title: "Debugging a Windows Form | Microsoft Docs"
-description: Follow a walkthrough to see how to create and debug a Windows Form, a common managed application. You can use C#, Visual Basic, C++, or F#.
+description: Follow a walkthrough to see how to create and debug a Windows Form, a common managed application. You can use C#, Visual Basic, or C++.
 
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
   - "VB"
-  - "FSharp"
   - "C++"
 helpviewer_keywords:
   - "debugging [Visual Studio], walkthroughs"

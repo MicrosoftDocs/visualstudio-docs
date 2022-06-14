@@ -63,6 +63,7 @@ End Sub
 
      The following code example validates that the **Quantity** column contains a value greater than 0. If **Quantity** is less than or equal to 0, the column is set to an error. The `Else` clause clears the error if **Quantity** is more than 0. The code in the column-changing event handler should resemble the following:
 
+    ### [C#](#tab/csharp)
     ```vb
     If (e.Column.ColumnName = Me.QuantityColumn.ColumnName) Then
         If CType(e.ProposedValue, Short) <= 0 Then
@@ -73,6 +74,7 @@ End Sub
     End If
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     // Add this code to the DataTable partial class.
 
@@ -99,6 +101,7 @@ End Sub
         }
     }
     ```
+    ---
 
 ## Validate changes to whole rows
 Validate values in whole rows by handling the <xref:System.Data.DataTable.RowChanging> event. The <xref:System.Data.DataTable.RowChanging> event is raised when the values in all columns are committed. It is necessary to validate in the <xref:System.Data.DataTable.RowChanging> event when the value in one column relies on the value in another column. For example, consider OrderDate and RequiredDate in the Orders table in Northwind.
@@ -122,6 +125,7 @@ Create an event handler for the <xref:System.Data.DataTable.RowChanging> event b
 
 4. The following code shows where to add user code to validate during the <xref:System.Data.DataTable.RowChanging> event. The C# example also includes code to hook the event handler method up to the `OrdersRowChanging` event.
 
+    ### [C#](#tab/csharp)
     ```vb
     Partial Class OrdersDataTable
         Private Sub OrdersDataTable_OrdersRowChanging(ByVal sender As System.Object, ByVal e As OrdersRowChangeEvent) Handles Me.OrdersRowChanging
@@ -137,6 +141,7 @@ Create an event handler for the <xref:System.Data.DataTable.RowChanging> event b
     End Class
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     partial class OrdersDataTable
     {
@@ -164,6 +169,7 @@ Create an event handler for the <xref:System.Data.DataTable.RowChanging> event b
         }
     }
     ```
+    ---
 
 ## See also
 

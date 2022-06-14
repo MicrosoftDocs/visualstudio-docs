@@ -44,6 +44,7 @@ A deployment is an optional operation for projects. A Web project, for example, 
 
 - Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.AdviseDeployStatusCallback%2A> method to register the environment to receive notifications of deployment status events.
 
+    ### [C#](#tab/csharp)
     ```vb
     Private adviseSink As Microsoft.VisualStudio.Shell.EventSinkCollection = New Microsoft.VisualStudio.Shell.EventSinkCollection()
     Public Function AdviseDeployStatusCallback(ByVal pIVsDeployStatusCallback As IVsDeployStatusCallback, _
@@ -59,6 +60,7 @@ A deployment is an optional operation for projects. A Web project, for example, 
     End Function
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     private Microsoft.VisualStudio.Shell.EventSinkCollection adviseSink = new Microsoft.VisualStudio.Shell.EventSinkCollection();
     public int AdviseDeployStatusCallback(IVsDeployStatusCallback pIVsDeployStatusCallback,
@@ -72,9 +74,11 @@ A deployment is an optional operation for projects. A Web project, for example, 
     }
 
     ```
+    ---
 
 - Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.UnadviseDeployStatusCallback%2A> method to cancel the environment's registration to receive notifications of deployment status events.
 
+    ### [C#](#tab/csharp)
     ```vb
     Public Function UnadviseDeployStatusCallback(ByVal dwCookie As UInteger) As Integer
         adviseSink.RemoveAt(dwCookie)
@@ -82,6 +86,7 @@ A deployment is an optional operation for projects. A Web project, for example, 
     End Function
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     public int UnadviseDeployStatusCallback(uint dwCookie)
     {
@@ -90,9 +95,11 @@ A deployment is an optional operation for projects. A Web project, for example, 
     }
 
     ```
+    ---
 
 - Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.Commit%2A> method to perform the commit operation specific to your application.  This method is used mainly for database deployment.
 
+    ### [C#](#tab/csharp)
     ```vb
     Public Function Commit(ByVal dwReserved As UInteger) As Integer
         'Implement commit operation here.
@@ -100,6 +107,7 @@ A deployment is an optional operation for projects. A Web project, for example, 
     End Function
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     public int Commit(uint dwReserved)
     {
@@ -108,9 +116,11 @@ A deployment is an optional operation for projects. A Web project, for example, 
     }
 
     ```
+    ---
 
 - Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.Rollback%2A> method to perform a rollback operation. When this method is called, the deployment project must do whatever is appropriate to roll back changes and restore the state of the project. This method is used mainly for database deployment.
 
+    ### [C#](#tab/csharp)
     ```vb
     Public Function Commit(ByVal dwReserved As UInteger) As Integer
         'Implement commit operation here.
@@ -118,6 +128,7 @@ A deployment is an optional operation for projects. A Web project, for example, 
     End Function
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     public int Rollback(uint dwReserved)
     {
@@ -126,9 +137,11 @@ A deployment is an optional operation for projects. A Web project, for example, 
     }
 
     ```
+    ---
 
 - Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.QueryStartDeploy%2A> method to determine whether or not a project is able to start a deployment operation.
 
+    ### [C#](#tab/csharp)
     ```vb
     Public Function QueryStartDeploy(ByVal dwOptions As UInteger, ByVal pfSupported As Integer(), ByVal pfReady As Integer()) As Integer
         If Not pfSupported Is Nothing AndAlso pfSupported.Length > 0 Then
@@ -144,6 +157,7 @@ A deployment is an optional operation for projects. A Web project, for example, 
     End Function
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     public int QueryStartDeploy(uint dwOptions, int[] pfSupported, int[] pfReady)
     {
@@ -159,9 +173,11 @@ A deployment is an optional operation for projects. A Web project, for example, 
     }
 
     ```
+    ---
 
 - Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.QueryStatusDeploy%2A> method to determine whether or not a deployment operation has completed successfully.
 
+    ### [C#](#tab/csharp)
     ```vb
     Public Function QueryStatusDeploy(ByRef pfDeployDone As Integer) As Integer
         pfDeployDone = 1
@@ -172,6 +188,7 @@ A deployment is an optional operation for projects. A Web project, for example, 
     End Function
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     public int QueryStatusDeploy(out int pfDeployDone)
     {
@@ -182,9 +199,11 @@ A deployment is an optional operation for projects. A Web project, for example, 
     }
 
     ```
+    ---
 
 - Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.StartDeploy%2A> method to begin a deployment operation in a separate thread. Place the code specific to your application's deployment inside the `Deploy` method.
 
+    ### [C#](#tab/csharp)
     ```vb
     Public Function StartDeploy(ByVal pIVsOutputWindowPane As IVsOutputWindowPane, ByVal dwOptions As UInteger) As Integer
         If pIVsOutputWindowPane Is Nothing Then
@@ -213,6 +232,7 @@ A deployment is an optional operation for projects. A Web project, for example, 
     End Function
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     public int StartDeploy(IVsOutputWindowPane pIVsOutputWindowPane, uint dwOptions)
     {
@@ -239,9 +259,11 @@ A deployment is an optional operation for projects. A Web project, for example, 
     }
 
     ```
+    ---
 
 - Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.StopDeploy%2A> method to stop a deployment operation. This method is called when a user presses the **Cancel** button during the deployment process.
 
+    ### [C#](#tab/csharp)
     ```vb
     Public Function StopDeploy(ByVal fSync As Integer) As Integer
         If Not deploymentThread Is Nothing AndAlso deploymentThread.IsAlive Then
@@ -262,6 +284,7 @@ A deployment is an optional operation for projects. A Web project, for example, 
     End Function
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     public int StopDeploy(int fSync)
     {
@@ -284,6 +307,7 @@ A deployment is an optional operation for projects. A Web project, for example, 
     }
 
     ```
+    ---
 
 > [!NOTE]
 > All code examples provided in this topic are parts of a larger example in [VSSDK samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples).

@@ -142,13 +142,16 @@ In such a case, you can specify the `endpointConfigurationName` as a parameter t
 
 2. In the Code Editor, add a constructor for the service reference:
 
+    ### [C#](#tab/csharp)
     ```vb
     Dim proxy As New ServiceReference.Service1Client(
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     ServiceReference.Service1Client proxy = new ServiceReference.Service1Client(
     ```
+    ---
 
     > [!NOTE]
     > Replace *ServiceReference* with the namespace for the service reference and replace *Service1Client* with the name of the service.

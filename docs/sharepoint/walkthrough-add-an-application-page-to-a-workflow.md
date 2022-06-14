@@ -54,15 +54,18 @@ ms.workload:
 
 3. To the bottom of the `createTask1_MethodInvoking` method, add the following code:
 
+    ### [C#](#tab/csharp)
     ```vb
     createTask1_TaskProperties1.ExtendedProperties("Outcome") =
       workflowProperties.InitiationData
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     createTask1_TaskProperties1.ExtendedProperties["Outcome"] =
       workflowProperties.InitiationData;
     ```
+    ---
 
 ## Create an application page
  Next, add an ASPX form to the project. This form will display data obtained from the expense report workflow project. To do this, you will add an application page. An application page uses the same master page as other SharePoint pages, meaning that it will resemble other pages on the SharePoint site.
@@ -104,6 +107,7 @@ ms.workload:
 
 2. Replace the **using** or **Import** statements (depending on your programming language) at the top of the class with the following:
 
+    ### [C#](#tab/csharp)
     ```vb
     Imports System
     Imports Microsoft.SharePoint
@@ -117,6 +121,7 @@ ms.workload:
     Imports Microsoft.SharePoint.Navigation
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     using System;
     using Microsoft.SharePoint;
@@ -129,9 +134,11 @@ ms.workload:
     using System.Drawing;
     using Microsoft.SharePoint.Navigation;
     ```
+    ---
 
 3. Add the following code to the `Page_Load` method:
 
+    ### [C#](#tab/csharp)
     ```vb
     Try
         ' Reference the Tasks list on the SharePoint site.
@@ -202,6 +209,7 @@ ms.workload:
     End Try
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     try
     {
@@ -292,6 +300,7 @@ ms.workload:
         System.Diagnostics.Debug.WriteLine("Error: " + errx.ToString());
     }
     ```
+    ---
 
     > [!WARNING]
     > Be sure to replace "TestServer" in the code with the name of a valid server that's running SharePoint.

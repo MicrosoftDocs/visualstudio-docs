@@ -88,13 +88,16 @@ In this last part of the tutorial, you'll explore some ways to customize the qui
 
 - Use the **BackColor** property of the **timeLabel** control to turn this label red when only five seconds remain in a quiz.
 
+  ### [C#](#tab/csharp)
   ```csharp
   timeLabel.BackColor = Color.Red;
   ```
 
+  ### [VB](#tab/vb)
   ```vb
   timeLabel.BackColor = Color.Red
   ```
+  ---
 
 - Reset the color when the quiz is over.
 

@@ -253,6 +253,7 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 
 11. Update **MainPage.xaml.cs** to match the following code:
 
+### [C#](#tab/csharp)
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -345,6 +346,7 @@ namespace ArithmeticUI
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 ' The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -411,6 +413,7 @@ Public NotInheritable Class MainPage
     End Sub
 End Class
 ```
+---
 
 12. Choose the **F5** key to run the app.
 

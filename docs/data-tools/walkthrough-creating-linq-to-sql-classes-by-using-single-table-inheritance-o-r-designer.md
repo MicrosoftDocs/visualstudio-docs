@@ -149,6 +149,7 @@ You now add some code to the form that queries for a specific class in the objec
 
 3. Add the following code to the `Form1_Load` event handler:
 
+    ### [C#](#tab/csharp)
     ```vb
     Dim dc As New DataClasses1DataContext
     Dim results = From emp In dc.Persons _
@@ -160,6 +161,7 @@ You now add some code to the form that queries for a specific class in the objec
     Next
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     NorthwindDataContext dc = new DataClasses1DataContext();
     var results = from emp in dc.Persons
@@ -171,6 +173,7 @@ You now add some code to the form that queries for a specific class in the objec
         listBox1.Items.Add(Emp.LastName)
     }
     ```
+    ---
 
 ## Test the application
 Run the application and verify that the records displayed in the list box are all employees (records that have a value of 2 in their **Type** column).

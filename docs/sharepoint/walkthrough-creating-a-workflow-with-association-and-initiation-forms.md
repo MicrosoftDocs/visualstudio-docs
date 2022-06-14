@@ -139,6 +139,7 @@ ms.workload:
 
 5. Replace the `GetAssociationData` method with:
 
+    ### [C#](#tab/csharp)
     ```vb
     Private Function GetAssociationData() As String
         ' TODO: Return a string that contains the association data that
@@ -148,6 +149,7 @@ ms.workload:
     End Function
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     private string GetAssociationData()
     {
@@ -157,6 +159,7 @@ ms.workload:
         return this.AutoApproveLimit.Text;
     }
     ```
+    ---
 
 ## Add an initiation form to the workflow
  Next, create the initiation form that appears when users run the workflow against their expense reports.
@@ -201,6 +204,7 @@ ms.workload:
 
 5. Replace the `Page_Load` method with the following example:
 
+    ### [C#](#tab/csharp)
     ```vb
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As
       EventArgs) Handles Me.Load
@@ -211,6 +215,7 @@ ms.workload:
     End Sub
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -220,9 +225,11 @@ ms.workload:
           Guid(associationGuid)].AssociationData;
     }
     ```
+    ---
 
 6. Replace the `GetInitiationData` method with the following example:
 
+    ### [C#](#tab/csharp)
     ```vb
     ' This method is called when the user clicks the button to start the workflow.
     Private Function GetInitiationData() As String
@@ -234,6 +241,7 @@ ms.workload:
     End Function
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     // This method is called when the user clicks the button to start the workflow.
     private string GetInitiationData()
@@ -244,6 +252,7 @@ ms.workload:
         return this.ExpenseTotal.Text;
     }
     ```
+    ---
 
 ## Cutomize the workflow
  Next, customize the workflow. Later, you will associate two forms to the workflow.
@@ -299,6 +308,7 @@ ms.workload:
 
 2. Add the following method:
 
+    ### [C#](#tab/csharp)
     ```vb
     Private Sub createTask1_MethodInvoking(ByVal sender As
       System.Object, ByVal e As System.EventArgs)
@@ -311,6 +321,7 @@ ms.workload:
     End Sub
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     private void createTask1_MethodInvoking(object sender, EventArgs e)
     {
@@ -322,12 +333,14 @@ ms.workload:
           Needed";
     }
     ```
+    ---
 
     > [!NOTE]
     > In the code, replace `somedomain\\someuser` with a domain and user name for which a task will be created, such as, "`Office\\JoeSch`". For testing it is easiest to use the account you are developing with.
 
 3. Below the `MethodInvoking` method, add the following example:
 
+    ### [C#](#tab/csharp)
     ```vb
     Private Sub checkApprovalNeeded(ByVal sender As Object, ByVal e As
       ConditionalEventArgs)
@@ -340,6 +353,7 @@ ms.workload:
     End Sub
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     private void checkApprovalNeeded(object sender, ConditionalEventArgs
       e)
@@ -353,6 +367,7 @@ ms.workload:
         e.Result = approval;
     }
     ```
+    ---
 
 4. In the workflow designer, choose the **ifElseBranchActivity1** activity.
 
@@ -364,6 +379,7 @@ ms.workload:
 
 8. Replace the `MethodInvoking` code with the following:
 
+    ### [C#](#tab/csharp)
     ```vb
     Private Sub logToHistoryListActivity1_MethodInvoking(ByVal sender As
       System.Object, ByVal e As System.EventArgs)
@@ -372,6 +388,7 @@ ms.workload:
     End Sub
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     private void logToHistoryListActivity1_MethodInvoking(object sender,
       EventArgs e)
@@ -380,6 +397,7 @@ ms.workload:
           auto approved for " + workflowProperties.InitiationData;
     }
     ```
+    ---
 
 9. Choose the **F5** key to debug the program.
 

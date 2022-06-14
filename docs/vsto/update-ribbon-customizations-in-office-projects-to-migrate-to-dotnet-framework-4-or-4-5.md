@@ -42,6 +42,7 @@ ms.workload:
 
      The following code example shows the default constructor of a Ribbon class in a project that targets the .NET Framework 3.5.
 
+    ### [C#](#tab/csharp)
     ```vb
     Public Sub New()
         MyBase.New()
@@ -49,15 +50,18 @@ ms.workload:
     End Sub
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     public Ribbon1()
     {
         InitializeComponent();
     }
     ```
+    ---
 
      The following code example shows the default constructor of a Ribbon class in a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.
 
+    ### [C#](#tab/csharp)
     ```vb
     Public Sub New()
         MyBase.New(Globals.Factory.GetRibbonFactory())
@@ -65,6 +69,7 @@ ms.workload:
     End Sub
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     public Ribbon1()
         : base(Globals.Factory.GetRibbonFactory())
@@ -72,6 +77,7 @@ ms.workload:
         InitializeComponent();
     }
     ```
+    ---
 
 3. In the `InitializeComponent` method, modify any code that constructs a Ribbon control so that the code instead uses one of the helper methods of the <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> object.
 
@@ -80,23 +86,29 @@ ms.workload:
 
      For example, assume that your file contains the following line of code that instantiates a <xref:Microsoft.Office.Tools.Ribbon.RibbonButton> named `button1` in a project that targets the .NET Framework 3.5.
 
+    ### [C#](#tab/csharp)
     ```vb
     Me.button1 = New Microsoft.Office.Tools.Ribbon.RibbonButton()
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     this.button1 = new Microsoft.Office.Tools.Ribbon.RibbonButton();
     ```
+    ---
 
      In a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must use the following code instead.
 
+    ### [C#](#tab/csharp)
     ```vb
     Me.button1 = Me.Factory.CreateRibbonButton()
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     this.button1 = this.Factory.CreateRibbonButton();
     ```
+    ---
 
      For a full list of the helper methods for the Ribbon controls, see [Instantiate Ribbon controls](#ribboncontrols).
 
@@ -169,23 +181,29 @@ ms.workload:
 
   The following code example demonstrates how to set the `Position` property of a tab in a Ribbon class in a project that targets the .NET Framework 3.5.
 
+### [C#](#tab/csharp)
 ```vb
 Me.tab1.Position = RibbonPosition.AfterOfficeId("TabHome")
 ```
 
+### [VB](#tab/vb)
 ```csharp
 this.tab1.Position = RibbonPosition.AfterOfficeId("TabHome");
 ```
+---
 
  The following code example demonstrates the same task in a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)].
 
+### [C#](#tab/csharp)
 ```vb
 Me.tab1.Position = Me.Factory.RibbonPosition.AfterOfficeId("TabHome")
 ```
 
+### [VB](#tab/vb)
 ```csharp
 this.tab1.Position = this.Factory.RibbonPosition.AfterOfficeId("TabHome");
 ```
+---
 
 ## See also
 - [Migrate Office solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md)

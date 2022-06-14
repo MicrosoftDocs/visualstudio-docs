@@ -76,16 +76,20 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
 
 2. Add a `using` or `Imports` statement for the SDK.
 
+    ### [C#](#tab/csharp)
     ```vb
     Imports Microsoft.ConcurrencyVisualizer.Instrumentation
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     using Microsoft.ConcurrencyVisualizer.Instrumentation;
     ```
+    ---
 
 3. Add code to create three spans on the default marker series and write a flag, a message, and an alert, one to each span. You create a [Span](/previous-versions/hh694189(v=vs.140)) object by calling the static `EnterSpan` method. To write to the default series, you use the static write methods of the [Markers](/previous-versions/hh694099(v=vs.140)) class.
 
+    ### [C#](#tab/csharp)
     ```vb
     Dim flagSpan As Span = Markers.EnterSpan("flag span")
     Markers.WriteFlag("Here is the flag.")
@@ -104,6 +108,7 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
     alertSpan.Leave()
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     Span flagSpan = Markers.EnterSpan("flag span");
     Markers.WriteFlag("Here is the flag.");
@@ -121,6 +126,7 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
     Markers.WriteAlert("Here is an alert");
     alertSpan.Leave();
     ```
+    ---
 
 4. On the menu bar, choose **Analyze**, **Concurrency Visualizer**, **Start with Current Project** to run the app and display the Concurrency Visualizer. The following illustration shows the three spans and three markers in the Threads View of the Concurrency Visualizer.
 
@@ -128,6 +134,7 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
 
 5. Add code to create customer marker series by using the static [CreateMarkerSeries](/previous-versions/hh694171(v=vs.140)) method. The [MarkerSeries](/previous-versions/hh694127(v=vs.140)) class contains methods for creating spans and writing flags, messages, and alerts.
 
+    ### [C#](#tab/csharp)
     ```VB
 
     Dim flagSeries As MarkerSeries = Markers.DefaultWriter.CreateMarkerSeries("flag series")
@@ -144,6 +151,7 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
     messageSeriesSpan.Leave()
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
 
     MarkerSeries flagSeries = Markers.DefaultWriter.CreateMarkerSeries("flag series");
@@ -159,6 +167,7 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
     System.Threading.Thread.Sleep(1);
     messageSeriesSpan.Leave();
     ```
+    ---
 
 6. Start the current project to display the Concurrency Visualizer. The three marker series appear in their own lanes in the Threads View. The following illustration shows the three new spans.
 

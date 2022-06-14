@@ -182,6 +182,7 @@ In some cases, you might want to suppress a particular instance of the violation
 
 To suppress a particular symbol violation of a rule, specify the symbol name for the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. The following example shows code with two violations of [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500.md)&mdash;one for the `name` variable and one for the `age` variable. Only the violation for the `age` symbol is suppressed.
 
+### [C#](#tab/csharp)
 ```vb
 Public Class Animal
     Dim age As Integer
@@ -198,6 +199,7 @@ Public Class Animal
 End Class
 ```
 
+### [VB](#tab/vb)
 ```csharp
 public class Animal
 {
@@ -214,6 +216,7 @@ public class Animal
     }
 }
 ```
+---
 
 ### Global-level suppressions
 

@@ -39,6 +39,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
 
 1. Create a library.
 
+    ### [C#](#tab/csharp)
     ```vb
     Private m_CallBrowserLibrary As CallBrowser.Library = Nothing
     Private m_nLibraryCookie As UInteger = 0
@@ -46,6 +47,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
     m_CallBrowserLibrary = New CallBrowser.Library()
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     private CallBrowser.Library m_CallBrowserLibrary = null;
     private uint m_nLibraryCookie = 0;
@@ -53,9 +55,11 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
     m_CallBrowserLibrary = new CallBrowser.Library();
 
     ```
+    ---
 
 2. Obtain a reference to an object of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2> type and call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.RegisterSimpleLibrary%2A> method.
 
+    ### [C#](#tab/csharp)
     ```vb
     Private Sub RegisterLibrary()
         If m_nLibraryCookie <> 0 Then
@@ -79,6 +83,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
     End Sub
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     private void RegisterLibrary()
     {
@@ -107,11 +112,13 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
     }
 
     ```
+    ---
 
 ### To unregister a library with the object manager
 
 1. Obtain a reference to an object of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2> type and call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.UnregisterLibrary%2A> method.
 
+    ### [C#](#tab/csharp)
     ```vb
     Private Sub UnregisterLibrary()
         If m_nLibraryCookie <> 0 Then
@@ -134,6 +141,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
     End Sub
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     private void UnregisterLibrary()
     {
@@ -162,6 +170,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
     }
 
     ```
+    ---
 
 ## See also
 - [Legacy language service extensibility](../../extensibility/internals/legacy-language-service-extensibility.md)

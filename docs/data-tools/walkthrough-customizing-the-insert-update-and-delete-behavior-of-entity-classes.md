@@ -134,25 +134,31 @@ Create controls that are bound to entity classes by dragging LINQ to SQL data so
 
 4. Add the following code to the form, global to the form, outside any specific method, but inside the `Form1` class:
 
+    ### [C#](#tab/csharp)
     ```vb
     Private NorthwindDataContext1 As New NorthwindDataContext
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     private NorthwindDataContext northwindDataContext1
         = new NorthwindDataContext();
     ```
+    ---
 
 5. Create an event handler for the `Form_Load` event and add the following code to the handler:
 
+    ### [C#](#tab/csharp)
     ```vb
     CustomerBindingSource.DataSource = NorthwindDataContext1.Customers
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     customerBindingSource.DataSource
         = northwindDataContext1.Customers;
     ```
+    ---
 
 ## Implement save functionality
 
@@ -170,13 +176,16 @@ By default, the save button is not enabled and save functionality is not impleme
 
 5. Add the following code into the save button event handler:
 
+    ### [C#](#tab/csharp)
     ```vb
     NorthwindDataContext1.SubmitChanges()
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     northwindDataContext1.SubmitChanges();
     ```
+    ---
 
 ## Override the default behavior for performing updates (inserts, updates, and deletes)
 

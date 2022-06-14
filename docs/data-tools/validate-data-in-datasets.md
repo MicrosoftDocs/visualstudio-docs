@@ -34,6 +34,7 @@ You can confirm that data that's being written to a dataset is valid by building
 
 The best place to add validation to your application is in the dataset's partial class file. In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], open the **Dataset Designer** and double-click the column or table for which you want to create validation. This action opens up the code file, where you can create a <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> event handler.
 
+### [C#](#tab/csharp)
 ```csharp
 private static void OnColumnChanging(object sender, DataColumnChangeEventArgs e)
 {
@@ -41,11 +42,13 @@ private static void OnColumnChanging(object sender, DataColumnChangeEventArgs e)
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 Private Shared Sub OnColumnChanging(sender As Object, e As DataColumnChangeEventArgs)
  
 End Sub
 ```
+---
 
 ## Validate data
 Validation within a dataset is accomplished in the following ways:

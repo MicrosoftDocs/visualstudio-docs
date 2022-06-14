@@ -57,17 +57,20 @@ Your application calls an event handler when an action takes place, such as sele
 
 1. Focus on this part of the code.
 
+   ### [C#](#tab/csharp)
    ```csharp
    private void ShowButton_Click(object sender, EventArgs e)
    {
    }
    ```
 
+   ### [VB](#tab/vb)
    ```vb
    Private Sub showButton_Click() Handles showButton.Click
 
    End Sub
    ```
+   ---
 
    [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
 
@@ -141,13 +144,16 @@ As you type, IntelliSense suggests possible code.
 
 1. Add the following line of code.
 
+   ### [C#](#tab/csharp)
    ```csharp
    pictureBox1.Load(openFileDialog1.FileName);  
    ```
 
+   ### [VB](#tab/vb)
    ```vb
    PictureBox1.Load(OpenFileDialog1.FileName)
    ```
+   ---
 
    You can copy and paste or use IntelliSense to add it.
    Your final `showButton_Click()` method should look similar to the following code.
@@ -172,6 +178,7 @@ In this section, add the code for the other event handlers.
 1. In **Windows Forms Designer**, double-click the **Clear** the picture button.
    Add the code in the braces.
 
+   ### [C#](#tab/csharp)
    ```csharp
    private void clearButton_Click(object sender, EventArgs e)
    {
@@ -180,15 +187,18 @@ In this section, add the code for the other event handlers.
    }
    ```
 
+   ### [VB](#tab/vb)
    ```vb
    Private Sub clearButton_Click() Handles clearButton.Click
        ' Clear the picture.
        PictureBox1.Image = Nothing
    End Sub   
    ```
+   ---
 
 1. Double-click the **Set the background color** button and add the code in braces.
 
+   ### [C#](#tab/csharp)
    ```csharp
    private void backgroundButton_Click(object sender, EventArgs e)
    {
@@ -199,6 +209,7 @@ In this section, add the code for the other event handlers.
    }
    ```
 
+   ### [VB](#tab/vb)
    ```vb
    Private Sub backgroundButton_Click() Handles backgroundButton.Click
        ' Show the color dialog box. If the user clicks OK, change the
@@ -208,9 +219,11 @@ In this section, add the code for the other event handlers.
        End If
    End Sub
    ```
+   ---
 
 1. Double-click the **Close** button and add the code in braces.
 
+   ### [C#](#tab/csharp)
    ```csharp
    private void closeButton_Click(object sender, EventArgs e)
    {
@@ -220,15 +233,18 @@ In this section, add the code for the other event handlers.
 
    ```
 
+   ### [VB](#tab/vb)
    ```vb
    Private Sub closeButton_Click() Handles closeButton.Click
        ' Close the form.
        Close()
    End Sub  
    ```
+   ---
 
 1. Double-click the **Stretch** checkbox and add the code in braces.
 
+   ### [C#](#tab/csharp)
    ```csharp
    private void checkBox1_CheckedChanged(object sender, EventArgs e)
    {
@@ -243,6 +259,7 @@ In this section, add the code for the other event handlers.
    }
    ```
 
+   ### [VB](#tab/vb)
    ```vb
    Private Sub CheckBox1_CheckedChanged() Handles CheckBox1.CheckedChanged
        ' If the user selects the Stretch check box, change 
@@ -255,6 +272,7 @@ In this section, add the code for the other event handlers.
        End If
    End Sub   
    ```
+   ---
 
 ## Run your application
 

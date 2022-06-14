@@ -207,16 +207,20 @@ In the next step, you create the user interface that displays the data from the 
 
 4. In **Solution Explorer**, open the shortcut menu for the **Form1** node and choose **View Code** to open the Code Editor, and add the following `Imports` or `Using` statement at the top of the file:
 
+   ### [C#](#tab/csharp)
    ```vb
    Imports NorthwindClient.ServiceReference1
    ```
 
+   ### [VB](#tab/vb)
    ```csharp
    using NorthwindClient.ServiceReference1;
    ```
+   ---
 
 5. Add the following code to the `Form1_Load` event handler:
 
+   ### [C#](#tab/csharp)
    ```vb
    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
            Dim proxy As New NorthwindEntities _
@@ -225,6 +229,7 @@ In the next step, you create the user interface that displays the data from the 
        End Sub
    ```
 
+   ### [VB](#tab/vb)
    ```csharp
    private void Form1_Load(object sender, EventArgs e)
    {
@@ -232,6 +237,7 @@ In the next step, you create the user interface that displays the data from the 
    this.CustomersBindingSource.DataSource = proxy.Customers;
    }
    ```
+   ---
 
 6. In **Solution Explorer**, open the shortcut menu for the **NorthwindCustomers.svc** file and choose **View in Browser**. Internet Explorer opens and the XML schema for the service displays.
 
@@ -256,6 +262,7 @@ In this step, you customize the application to filter the data by the customer's
 
 3. Open the shortcut menu for the <xref:System.Windows.Forms.Button> control, choose **View Code**, and then add the following code in the `Button1_Click` event handler:
 
+    ### [C#](#tab/csharp)
     ```vb
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
             Dim proxy As New northwindEntities _
@@ -270,6 +277,7 @@ In this step, you customize the application to filter the data by the customer's
         End Sub
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     private void Button1_Click(object sender, EventArgs e)
     {
@@ -282,6 +290,7 @@ In this step, you customize the application to filter the data by the customer's
 
     }
     ```
+    ---
 
 4. In the previous code, replace `http://localhost:53161/NorthwindCustomers.svc` with the URL from the `Form1_Load` event handler.
 

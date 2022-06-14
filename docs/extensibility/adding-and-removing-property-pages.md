@@ -33,6 +33,7 @@ A project subtype frequently needs to display additional property pages in the P
 
 1. Override the `GetProperty(uint itemId, int propId, out object property)` method to filter property pages and obtain a `clsids` list.
 
+    ### [C#](#tab/csharp)
     ```vb
     Protected Overrides int GetProperty(uint itemId, int propId, out object property)
     Protected Overrides Function GetProperty(ByVal itemId As UInteger, ByVal propId As Integer, ByRef [property] As Object) As Integer
@@ -53,6 +54,7 @@ A project subtype frequently needs to display additional property pages in the P
 
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     protected override int GetProperty(uint itemId, int propId, out object property)
     {
@@ -75,9 +77,11 @@ A project subtype frequently needs to display additional property pages in the P
         return base.GetProperty(itemId, propId, out property);
     }
     ```
+    ---
 
 2. Remove the **Build Events** page from obtained `clsids` list.
 
+    ### [C#](#tab/csharp)
     ```vb
     Private buildEventsPageGuid As String = "{1E78F8DB-6C07-4D61-A18F-7514010ABD56}"
     Private index As Integer = propertyPagesList.IndexOf(buildEventsPageGuid)
@@ -94,6 +98,7 @@ A project subtype frequently needs to display additional property pages in the P
     property = propertyPagesList
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     string buildEventsPageGuid = "{1E78F8DB-6C07-4D61-A18F-7514010ABD56}";
     int index = propertyPagesList.IndexOf(buildEventsPageGuid);
@@ -109,11 +114,13 @@ A project subtype frequently needs to display additional property pages in the P
     //New property value
     property = propertyPagesList;
     ```
+    ---
 
 ### Add a property page
 
 1. Create a property page you want to add.
 
+    ### [C#](#tab/csharp)
     ```vb
     Class DeployPropertyPage
             Inherits Form
@@ -136,6 +143,7 @@ A project subtype frequently needs to display additional property pages in the P
     End Class
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     class DeployPropertyPage : Form, Microsoft.VisualStudio.OLE.Interop.IPropertyPage
     {
@@ -156,19 +164,24 @@ A project subtype frequently needs to display additional property pages in the P
         }
     }
     ```
+    ---
 
 2. Register your new property page.
 
+    ### [C#](#tab/csharp)
     ```vb
     <MSVSIP.ProvideObject(GetType(DeployPropertyPage), RegisterUsing = RegistrationMethod.CodeBase)>
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     [MSVSIP.ProvideObject(typeof(DeployPropertyPage), RegisterUsing = RegistrationMethod.CodeBase)]
     ```
+    ---
 
 3. Override the `GetProperty(uint itemId, int propId, out object property)` method to filter property pages, obtain a `clsids` list and add a new property page.
 
+    ### [C#](#tab/csharp)
     ```vb
     Protected Overrides Function GetProperty(ByVal itemId As UInteger, ByVal propId As Integer, ByRef [property] As Object) As Integer
         'Use propId to filter configuration-dependent property pages.
@@ -185,6 +198,7 @@ A project subtype frequently needs to display additional property pages in the P
     End Function
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     protected override int GetProperty(uint itemId, int propId, out object property)
     {
@@ -204,6 +218,7 @@ A project subtype frequently needs to display additional property pages in the P
         return base.GetProperty(itemId, propId, out property);
     }
     ```
+    ---
 
 ## See also
 

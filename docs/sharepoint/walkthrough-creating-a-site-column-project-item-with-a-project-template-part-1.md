@@ -242,13 +242,16 @@ ms.workload:
 
 1. In the SiteColumnProjectTemplate project, open the *AssemblyInfo.cs* or *AssemblyInfo.vb* file, and then add the following statement to the top of it:
 
+    ### [C#](#tab/csharp)
     ```vb
     Imports System.Security
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     using System.Security;
     ```
+    ---
 
      When the **Sandboxed Solution** property of a SharePoint project is set to **True**, Visual Studio adds the <xref:System.Security.AllowPartiallyTrustedCallersAttribute> to the AssemblyInfo code file. However, the AssemblyInfo code file in the project template doesn't import the <xref:System.Security> namespace by default. You must add this **using** or **Imports** statement to prevent compile errors.
 

@@ -34,6 +34,7 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
 
 1. Get the number of items in the list of symbols by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2.GetItemCount%2A> method. The following example demonstrates how the object manager obtains the information on the number of items in the list.
 
+    ### [C#](#tab/csharp)
     ```vb
     Protected m_Methods As System.Collections.Generic.SortedList(Of String, Method) = New System.Collections.Generic.SortedList(Of String, Method)()
 
@@ -43,6 +44,7 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
     End Function
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     protected System.Collections.Generic.SortedList<string, Method> m_Methods = new System.Collections.Generic.SortedList<string, Method>();
 
@@ -53,9 +55,11 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
     }
 
     ```
+    ---
 
 2. Get information about the categories and the attributes of a given list item by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2.GetCategoryField2%2A> method. The item categories are specified in the <xref:Microsoft.VisualStudio.Shell.Interop.LIB_CATEGORY> enumeration. The following example demonstrates how the object manager obtains attributes of items for a given category.
 
+    ### [C#](#tab/csharp)
     ```vb
     Public Function GetCategoryField2(ByVal index As UInteger, ByVal Category As Integer, ByRef pfCatField As UInteger) As Integer
         pfCatField = 0
@@ -93,6 +97,7 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
     End Function
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     public int GetCategoryField2(uint index, int Category, out uint pfCatField)
     {
@@ -148,9 +153,11 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
     }
 
     ```
+    ---
 
 3. Get the text representation of a given list item by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2.GetTextWithOwnership%2A> method. The following example demonstrates how to obtain a full name of a given item.
 
+    ### [C#](#tab/csharp)
     ```vb
     Public Function GetTextWithOwnership(<System.Runtime.InteropServices.ComAliasNameAttribute("Microsoft.VisualStudio.OLE.Interop.ULONG")> ByVal index As UInteger, <System.Runtime.InteropServices.ComAliasNameAttribute("Microsoft.VisualStudio.Shell.Interop.VSTREETEXTOPTIONS")> ByVal tto As Microsoft.VisualStudio.Shell.Interop.VSTREETEXTOPTIONS, <System.Runtime.InteropServices.ComAliasNameAttribute("Microsoft.VisualStudio.OLE.Interop.WCHAR")> ByRef ppszText As String) As Integer
         ppszText = m_Methods.Values(CInt(Fix(index))).FullName
@@ -158,6 +165,7 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
     End Function
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     public int GetTextWithOwnership([System.Runtime.InteropServices.ComAliasNameAttribute("Microsoft.VisualStudio.OLE.Interop.ULONG")] uint index, [System.Runtime.InteropServices.ComAliasNameAttribute("Microsoft.VisualStudio.Shell.Interop.VSTREETEXTOPTIONS")] Microsoft.VisualStudio.Shell.Interop.VSTREETEXTOPTIONS tto, [System.Runtime.InteropServices.ComAliasNameAttribute("Microsoft.VisualStudio.OLE.Interop.WCHAR")] out string ppszText)
     {
@@ -166,9 +174,11 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
     }
 
     ```
+    ---
 
 4. Get the icon information for a given list item by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2.GetDisplayData%2A> method. The icon represents the type (class, method, and so on), and accessibility (private, public, and so on) of a list item. The following example demonstrates how to obtain the icon information based on a given item attributes.
 
+    ### [C#](#tab/csharp)
     ```vb
     Public Overridable Function GetDisplayData(ByVal index As UInteger, ByVal pData As Microsoft.VisualStudio.Shell.Interop.VSTREEDISPLAYDATA()) As Integer
         If pData Is Nothing Then
@@ -203,6 +213,7 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
     End Function
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     public virtual int GetDisplayData(uint index, Microsoft.VisualStudio.Shell.Interop.VSTREEDISPLAYDATA[] pData)
     {
@@ -248,9 +259,11 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
     }
 
     ```
+    ---
 
 5. Get the information on whether a given list item is expandable by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2.GetExpandable3%2A> method. The following example demonstrates how to obtain the information on whether a given item can be expanded.
 
+    ### [C#](#tab/csharp)
     ```vb
     Public Function GetExpandable(ByVal index As UInteger, ByRef pfExpandable As Integer) As Integer
         pfExpandable = Microsoft.VisualStudio.VSIP.Samples.CallBrowser.Constants.TRUE
@@ -262,6 +275,7 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
     End Function
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     public int GetExpandable(uint index, out int pfExpandable)
     {
@@ -275,9 +289,11 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
     }
 
     ```
+    ---
 
 6. Get a child list of symbols of a given list item by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2.GetList2%2A> method. The following example demonstrates how to obtain a child list of symbols of a given item for **Call** or **Callers** graphs.
 
+    ### [C#](#tab/csharp)
     ```vb
     ' Call graph list.
     Public Class CallsList
@@ -363,6 +379,7 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
     End Function
     ```
 
+    ### [VB](#tab/vb)
     ```csharp
     // Call graph list.
     public class CallsList :
@@ -462,6 +479,7 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
     }
 
     ```
+    ---
 
 ## See also
 - [Support symbol-browsing tools](../../extensibility/internals/supporting-symbol-browsing-tools.md)
