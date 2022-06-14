@@ -41,7 +41,7 @@ Eligible Visual Studio subscriptions include subscriptions to DataCamp.  With Da
 
 6. Based on the path and options you've selected, you'll see a selection of Career Tracks.  Select the **Enroll** button for the track of your choice.
    > [!div class="mx-imgBorder"]
-   > ![DataCamp Career Track](_img/vs-datacamp/vs-datacamp-all-tracks.png "Screenshot of Career Tracks dialog.")
+   > ![DataCamp Career Track](_img/vs-datacamp/vs-datacamp-all-tracks.png "Screenshot of Career Tracks dialog showing recommended tracks based on selected learning path.")
 
 7. After you've enrolled in your track, the first course in that track will open.  You'll see a tutorial explaining how to interact with the course, including navigation and completing the course exercises.
 
