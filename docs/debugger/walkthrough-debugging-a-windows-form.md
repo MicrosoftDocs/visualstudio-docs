@@ -72,14 +72,18 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
 
 10. In the function `button1_Click`., add the following code:
 
-    ```vb
-    textBox1.Text = "Button was clicked!"
-    ```
 
+    ### [C#](#tab/csharp)
     ```csharp
     textBox1.Text = "Button was clicked!";
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    textBox1.Text = "Button was clicked!"
+    ```
+
+    ### [C++](#tab/cpp)
     ```cpp
     textBox1->Text = "Button was clicked!";
     ```
@@ -95,14 +99,17 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
 
 1. In the source window, click the left margin on the same line as the text you added:
 
-     ```vb
-    textBox1.Text = "Button was clicked!"
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     textBox1.Text = "Button was clicked!";
     ```
 
+     ### [VB](#tab/vb)
+     ```vb
+    textBox1.Text = "Button was clicked!"
+    ```
+
+    ### [C++](#tab/cpp)
     ```cpp
     textBox1->Text = "Button was clicked!";
     ```
@@ -153,14 +160,17 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
 
 1. In the project you created above, click in the left margin to once again set a breakpoint at the line you added:
 
-     ```vb
+    ### [VB](#tab/vb)
+    ```vb
     textBox1.Text = "Button was clicked!"
     ```
 
+    ### [C#](#tab/csharp)
     ```csharp
     textBox1.Text = "Button was clicked!";
     ```
 
+    ### [C++](#tab/C++)
     ```cpp
     textBox1->Text = "Button was clicked!";
     ```

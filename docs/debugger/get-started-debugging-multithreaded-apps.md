@@ -61,6 +61,7 @@ You'll first need a multithreaded application project. An example follows.
 
 1. Delete the code that appears in the source file and replace it with the appropriate example code listing below.
 
+    ### [C#](#tab/csharp)
     ```csharp
     using System;
     using System.Threading;
@@ -108,6 +109,7 @@ You'll first need a multithreaded application project. An example follows.
     }
     ```
 
+    ### [C++](#tab/cpp)
     ```C++
     // #include "pch.h" // Use with pre-compiled header
     #include <thread>
@@ -145,6 +147,7 @@ You'll first need a multithreaded application project. An example follows.
     }
     ```
 
+    ### [VB](#tab/vb)
     ```VB
     Imports System.Threading
 
@@ -204,19 +207,22 @@ You'll first need a multithreaded application project. An example follows.
 
 1. In the source code editor, look for one of the following code snippets:
 
+    ### [C#](#tab/csharp)
     ```csharp
     Thread.Sleep(3000);
     Console.WriteLine();
     ```
 
-    ```C++
-    std::this_thread::sleep_for(std::chrono::seconds(3));
-    std::cout << "The function called by the worker thread has ended." << std::endl;
-    ```
-
+    ### [VB](#tab/vb)
     ```VB
     Thread.Sleep(3000)
     Console.WriteLine()
+    ```
+
+    ### [C++](#tab/cpp)
+    ```C++
+    std::this_thread::sleep_for(std::chrono::seconds(3));
+    std::cout << "The function called by the worker thread has ended." << std::endl;
     ```
 
 1. Left-click in the left gutter of the `Thread.Sleep` or `std::this_thread::sleep_for` statement to insert a new breakpoint.
