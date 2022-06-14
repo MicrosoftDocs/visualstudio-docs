@@ -246,6 +246,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
 // After setting exclusions, restore the previous managed/unmanaged state:
 #pragma managed(pop)
 ```
+---
 
 Use the following macros:
 

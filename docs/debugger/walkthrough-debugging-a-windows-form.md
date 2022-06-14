@@ -87,6 +87,7 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
     ```cpp
     textBox1->Text = "Button was clicked!";
     ```
+    ---
 
 11. On the **Build** menu, select **Build Solution**.
 
@@ -113,6 +114,7 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
     ```cpp
     textBox1->Text = "Button was clicked!";
     ```
+    ---
 
      A red dot appears and the text on the line is highlighted in red. The red dot represents a breakpoint. For more information, see [Breakpoints](/previous-versions/ktf38f66(v=vs.100)). When you run the application under the debugger, the debugger will break execution at that location when the code is hit. You can then view the state of your application and debug it.
 
@@ -174,6 +176,7 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
     ```cpp
     textBox1->Text = "Button was clicked!";
     ```
+    ---
 
 2. On the **Debug** menu, select **Start Without Debugging**.
 
