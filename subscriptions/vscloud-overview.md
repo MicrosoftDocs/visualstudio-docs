@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: af1f7888-6942-4515-9475-0928ecf49dab
-ms.date: 06/10/2022
+ms.date: 06/14/2022
 ms.topic: overview
 description:  Rent Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
 ---
@@ -34,11 +34,11 @@ You'll need to be a contributor or higher for an Azure subscription that was cre
 
 3. Select the Azure subscription to use for billing. You can create a new Azure subscription if you don't have one.
     > [!div class="mx-imgBorder"]
-    > ![Select Azure subscription for billing](_img/buy-vs-subscriptions/buy-vs-sub-Azure-sub.png "Screenshot of the monthly subscription purchase dialog.  The Billing blade is selected, and the top entry in the list of available subscriptions is highlighted.")
+    > ![Select Azure subscription for billing](_img/buy-vs-subscriptions/buy-vs-sub-Azure-sub.png "Screenshot of the monthly subscription purchase dialog.  The Billing blade is selected.")
 
 4. Select the number of subscriptions to buy.
     > [!div class="mx-imgBorder"]
-    > ![Select number of subscriptions](_img/buy-vs-subscriptions/buy-vs-sub-users.png "Screenshot of the monthly subscription purchase dialog.  The Quantity blade is selected, the Paid users quantity is set at 1 and the Continue button is highlighted.")
+    > ![Select number of subscriptions](_img/buy-vs-subscriptions/buy-vs-sub-users.png "Screenshot of the monthly subscription purchase dialog.  The Continue button is highlighted.")
 
     If you don't want subscriptions assigned to yourself, clear **Assign this subscription to me**.
 
@@ -46,7 +46,7 @@ You'll need to be a contributor or higher for an Azure subscription that was cre
 to start downloading software and using other subscriber benefits.
 
 > [!div class="mx-imgBorder"]
-> ![Finish purchase successfully](_img/buy-vs-subscriptions/buy-vs-sub-success.png "Screenshot of a monthly subscription purchase confirmation dialog showing the purchase of one subscription.  A View my subscription button is available.")
+> ![Finish purchase successfully](_img/buy-vs-subscriptions/buy-vs-sub-success.png "Screenshot of a monthly subscription purchase confirmation dialog showing the purchase of one subscription.")
 
 6. Select **View my subscription** to open the subscriber portal and begin using your subscription.
 
@@ -54,7 +54,7 @@ If you purchased more than one subscription, you can proceed to the
     [Visual Studio Subscriptions Admin portal](https://manage.visualstudio.com) to assign subscriptions to others.  You may need to [add your new subscriptions](add-monthly-subs.md) to the Admin Portal if this purchase is your first.
 
 > [!div class="mx-imgBorder"]
-> ![Assign subscriptions to others](_img/buy-vs-subscriptions/buy-vs-sub-success-many.png "Screenshot of a monthly subscription purchase dialog showing the purchase of three subscriptions.  'Assign to users' button is highlighted.")
+> ![Assign subscriptions to others](_img/buy-vs-subscriptions/buy-vs-sub-success-many.png "Screenshot of a monthly subscription purchase dialog. 'Assign to users' button is highlighted.")
 
 
 > [!div class="mx-imgBorder"]
@@ -67,7 +67,7 @@ To cancel subscriptions, you just need to set the number of subscriptions for yo
 1. If you have more than one agreement, choose the desired agreement from the drop-down list.
 1. Select the **Overview** icon at the top left to display information about your subscriptions.  
 > [!div class="mx-imgBorder"]
-> ![Display subscription overview](_img/buy-vs-subscriptions/overview-button.png "Screenshot showing the Visual Studio subscriptions management portal.  The Overview button at the top left is highlighted. Select the overview button to display subscription details.")
+> ![Display subscription overview](_img/buy-vs-subscriptions/overview-button.png "Screenshot showing the Visual Studio subscriptions management portal.  The Overview button at the top left is highlighted.")
 
 4. Locate the entry for the subscriptions you wish to cancel, and select **Change quantity**.
 1. Set the quantity to zero (0). 
