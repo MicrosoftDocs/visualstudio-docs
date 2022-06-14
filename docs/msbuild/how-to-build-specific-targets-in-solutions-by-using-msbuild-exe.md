@@ -36,10 +36,6 @@ msbuild SlnFolders.sln -target:NotInSlnfolder:Rebuild;NewFolder\InSolutionFolder
 
 Building a specific target also triggers other dependent targets to build.
 
-## Find available targets
-
-To find the targets that you can build in a project, use the command line `MSBuild.exe -targets <ProjectFile.proj>`. The `-targets` (or `-ts`) option doesn't work with solution files.
-
 ## Troubleshooting
 
 If you would like to examine the solution project, you can use a debugging option provided by MSBuild to do so. Set the environment variable `MSBUILDEMITSOLUTION=1` and build your solution. This will produce an MSBuild file named *\<SolutionName>.sln.metaproj* that shows MSBuild's internal view of the solution at build time. You can inspect this view to determine what targets are available to build, and other configuration details.
