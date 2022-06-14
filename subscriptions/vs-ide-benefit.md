@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: c4b13464-76be-40f1-ad60-ed79ee264b12
-ms.date: 06/13/2022
+ms.date: 06/14/2022
 ms.topic: how-to
 description: In this article, you learn how to download and install the Visual Studio IDE that's included in your Visual Studio subscription.
 ---
@@ -21,7 +21,7 @@ Here's how to download and install the IDE for your version of Visual Studio. We
 
 1. Select the **Tools** tab, look for the Visual Studio IDE tile, and then select the **Download** button below it. You can also download the IDE from the [Downloads](https://my.visualstudio.com/downloads?wt.mc_id=o~msft~docs) page.
 
-   ![Screenshot of the Visual Studio Enterprise tile and accompanying 'Download' button.](_img/vs-ide-experience/vs-ide-tile.png)
+   ![Screenshot of the Visual Studio Enterprise tile and accompanying 'Download' button.](_img/vs-ide-experience/vs-ide-tile.png "Screenshot of the Visual Studio Enterprise tile and accompanying 'Download' button")
 
    You’re redirected to the **Downloads** page for Visual Studio, where you can download the IDE and obtain a product key to activate it. Alternatively, you can claim a product key by selecting **Get Key**, or you can claim a key later on the [Your Product Keys](https://my.visualstudio.com/productkeys) page.
 
@@ -31,7 +31,7 @@ Here's how to download and install the IDE for your version of Visual Studio. We
    b. Select your language preference.  
    c. Select **Download**.
 
-   ![Screenshot of the download details pane for Visual Studio Enterprise.](_img/vs-ide-experience/vs-ide-download-details.png)
+   ![Screenshot of the download details pane for Visual Studio Enterprise.](_img/vs-ide-experience/vs-ide-download-details.png "Screenshot of the download details pane for Visual Studio Enterprise.")
 
 1. Select the downloaded installer package and then, at the prompt, select **Run**.
 
@@ -41,7 +41,7 @@ Here's how to download and install the IDE for your version of Visual Studio. We
 
 1. When the installer starts, select the **Workloads**, **Individual components**, and **Language packs** tabs to choose your customization options.
 
-   ![Screenshot showing the available customization options on the "Workloads" tab for Visual Studio Enterprise.](_img/vs-ide-experience/vs-ide-customize-install-cropped.png)
+   ![Screenshot showing the available customization options on the "Workloads" tab for Visual Studio Enterprise.](_img/vs-ide-experience/vs-ide-customize-install-cropped.png "Screenshot showing the available customization options on the 'Workloads' tab for Visual Studio Enterprise.")
 
 1. Select **Install**.
 
@@ -49,7 +49,7 @@ Here's how to download and install the IDE for your version of Visual Studio. We
 
 1. To start Visual Studio, select **Launch**. If multiple versions are installed, they're listed on the **Visual Studio Installer** pane.
 
-   ![Screenshot of the Visual Studio Installer pane, listing the installed version or versions.](_img/vs-ide-experience/vs-ide-versions.png)
+   ![Screenshot of the Visual Studio Installer pane, listing the installed version or versions.](_img/vs-ide-experience/vs-ide-versions.png "Screenshot of the Visual Studio Installer pane, listing the installed version or versions")
 
 1. Sign in with the account that's associated with your Visual Studio subscription.
 
@@ -57,7 +57,7 @@ Here's how to download and install the IDE for your version of Visual Studio. We
 
    Visual Studio opens. You're ready to start using it right away!
 
-   ![Screenshot of the options for getting started with using the newly installed Visual Studio.](_img/vs-ide-experience/vs-ide-start-cropped.png)
+   ![Screenshot of the options for getting started with using the newly installed Visual Studio.](_img/vs-ide-experience/vs-ide-start-cropped.png "Screenshot of the options for getting started with using the newly installed Visual Studio.")
 
 
 ## Eligibility
