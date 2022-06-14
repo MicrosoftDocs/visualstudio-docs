@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: e5768153-2758-46d3-a323-3272def213ee
-ms.date: 06/10/2022
+ms.date: 06/14/2022
 ms.topic: how-to
 description:  Learn about the CODE Magazine benefit included in your Visual Studio subscription.
 ---
@@ -20,10 +20,10 @@ The process to set up your CODE Magazine subscription is simple.  Just follow th
 1. Visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)
 2. Locate the CODE Magazine tile in the Professional Development or Education section of your portal, and select **Get Code**.
    > [!div class="mx-imgBorder"]
-   > ![CODE Magazine Tile](_img/vs-code-magazine/vs-code-magazine-tile.png "CODE Magazine tile")
+   > ![CODE Magazine Tile](_img/vs-code-magazine/vs-code-magazine-tile.png "Screenshot of the CODE Magazine tile.  Get code button is highlighted.")
 3. You'll see a message that your code has been retrieved.  Select **Activate** to continue.  (If you're not ready to activate, that's okay.  You can always go back to the tile to activate.  The "Get Code" link will read "Activate" after you retrieve your code.)
    > [!div class="mx-imgBorder"]
-   > ![CODE Magazine code retrieved](_img/vs-code-magazine/vs-code-magazine-success.png "Code retrieved successfully")
+   > ![CODE Magazine code retrieved](_img/vs-code-magazine/vs-code-magazine-success.png "Screenshot of Code retrieval confirmation dialog.  Activate button is highlighted.")
 4. You'll be redirected to the CODE Magazine landing page. Select your country/region and choose how you'd like to receive the magazine. 
    > [!NOTE]
    > Visual Studio Dev Essentials members have access to the digital subscription only. 
@@ -33,12 +33,12 @@ The process to set up your CODE Magazine subscription is simple.  Just follow th
    > - Subscribers outside the United States may incur shipping charges. 
    > - Please allow several weeks for the delivery of your first printed edition.
       > [!div class="mx-imgBorder"]
-      > ![CODE Magazine subscription details](_img/vs-code-magazine/vs-code-magazine-details.png "Subscription details and price")
+      > ![CODE Magazine subscription details](_img/vs-code-magazine/vs-code-magazine-details.png "Screenshot of Choose Your Subscription Details dialog.  Available options for subscriptions are displayed, and include Print only, Print & digital, and Digital only. The price is listed as 'free'.")
 6. Next, you'll need to provide your subscriber information and a delivery address.  (The delivery address is required even for digital subscriptions, as it supports fulfillment, offer selection, and digital access processes.)
 7. If you live outside of the United States and chose to receive a printed magazine subscription, you may be asked to provide a billing address and payment information to cover the costs of shipping. 
 8. You can opt in to CODE HTML Newsletter by selecting the check box.
    > [!div class="mx-imgBorder"]
-   > ![CODE Magazine subscriber information](_img/vs-code-magazine/vs-code-magazine-subscriber-info.png "Subscriber information and deliver address")
+   > ![CODE Magazine subscriber information](_img/vs-code-magazine/vs-code-magazine-subscriber-info.png "Screenshot of Subscriber information and delivery address dialog.")
 9. Select **Place Order** to complete your subscription.  
 After you complete your subscription order, you'll see a confirmation page, including a link you can use to see which issues you've received: https://codemag.com/my/fulfillment. 
 
