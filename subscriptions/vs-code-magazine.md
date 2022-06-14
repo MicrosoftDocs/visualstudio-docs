@@ -33,7 +33,7 @@ The process to set up your CODE Magazine subscription is simple.  Just follow th
    > - Subscribers outside the United States may incur shipping charges. 
    > - Please allow several weeks for the delivery of your first printed edition.
       > [!div class="mx-imgBorder"]
-      > ![CODE Magazine subscription details](_img/vs-code-magazine/vs-code-magazine-details.png "Screenshot of Choose Your Subscription Details dialog.  Available options for subscriptions are displayed, and include Print only, Print & digital, and Digital only. The price is listed as 'free'.")
+      > ![CODE Magazine subscription details](_img/vs-code-magazine/vs-code-magazine-details.png "Screenshot of Choose Your Subscription Details dialog.  Available options for subscriptions are displayed. The price is listed as 'free'.")
 6. Next, you'll need to provide your subscriber information and a delivery address.  (The delivery address is required even for digital subscriptions, as it supports fulfillment, offer selection, and digital access processes.)
 7. If you live outside of the United States and chose to receive a printed magazine subscription, you may be asked to provide a billing address and payment information to cover the costs of shipping. 
 8. You can opt in to CODE HTML Newsletter by selecting the check box.
