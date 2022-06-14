@@ -407,8 +407,12 @@ To modify custom properties, you create a program that removes the document-leve
 
 9. Replace the contents of the entire file with the following code.
 
-:::code language="vb" source="../vsto/codesnippet/VisualBasic/setexceldocumentproperties/module1.vb" id="Snippet1":::
+### [C#](#tab/csharp)
 :::code language="csharp" source="../vsto/codesnippet/CSharp/setexceldocumentproperties/program.cs" id="Snippet1":::
+
+### [VB](#tab/vb)
+:::code language="vb" source="../vsto/codesnippet/VisualBasic/setexceldocumentproperties/module1.vb" id="Snippet1":::
+---
 
 10. Compile the project.
 

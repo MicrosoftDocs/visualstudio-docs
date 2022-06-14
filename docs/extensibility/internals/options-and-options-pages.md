@@ -33,6 +33,7 @@ Clicking **Options** on the **Tools** menu opens the **Options** dialog box. The
 ## Options Page Registry Path
  By default, the registry path of the properties managed by an options page is determined by combining <xref:Microsoft.VisualStudio.Shell.Package.UserRegistryRoot%2A>, the word DialogPage, and the type name of the options page class. For example, an options page class might be defined as follows.
 
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VSSDK/vssdksupportforoptionspages/cs/vssdksupportforoptionspagespackage.cs" id="Snippet1":::
  :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VSSDK/vssdksupportforoptionspages/vb/vssdksupportforoptionspagespackage.vb" id="Snippet1":::
 
@@ -44,7 +45,10 @@ Clicking **Options** on the **Tools** menu opens the **Options** dialog box. The
  The <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> attribute determines the grouping of custom options pages into categories in the navigation tree of the **Options** dialog box. The <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> attribute associates an options page with the VSPackage that provides the interface. Consider the following code fragment:
 
 :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VSSDK/vssdksupportforoptionspages/cs/vssdksupportforoptionspagespackage.cs" id="Snippet2":::
-:::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VSSDK/vssdksupportforoptionspages/vb/vssdksupportforoptionspagespackage.vb" id="Snippet2":::
+
+ ### [VB](#tab/vb)
+ :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VSSDK/vssdksupportforoptionspages/vb/vssdksupportforoptionspagespackage.vb" id="Snippet2":::
+ ---
 
  This declares that MyPackage provides two options pages, OptionsPageGeneral and OptionsPageCustom. In the **Options** dialog box, both options pages appear in the **My Option Pages** category as **General** and **Custom**, respectively.
 

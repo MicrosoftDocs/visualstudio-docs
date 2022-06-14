@@ -167,8 +167,12 @@ Double-click the three buttons on the Navigation form to create empty event hand
 
 In the code page for the Navigation form, complete the method bodies for the three button click event handlers as shown in the following code.
 
+### [C#](#tab/csharp)
 :::code language="csharp" source="../data-tools/codesnippet/CSharp/SimpleDataApp/Navigation.cs" id="Snippet1":::
+
+### [VB](#tab/vb)
 :::code language="vb" source="../data-tools/codesnippet/VisualBasic/SimpleDataApp/Navigation.vb" id="Snippet1":::
+---
 
 > [!NOTE]
 > The code for this tutorial is available in C# and Visual Basic. To switch the code language on this page between C# and Visual Basic, use the code language switcher at the top of the page on the right side.

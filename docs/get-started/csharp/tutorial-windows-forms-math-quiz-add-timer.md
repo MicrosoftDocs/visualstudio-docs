@@ -55,8 +55,12 @@ Because the timer raises a Tick event every second, it makes sense to check the 
 
 Before you write that event handler, add a method called `CheckTheAnswer()` to determine whether the answers to the math problems are correct. This method should be in line with the other methods, such as `StartTheQuiz()`. Your code should look like the following sample.
 
-:::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step7/vb/form1.vb" id="Snippet17":::
+### [C#](#tab/csharp)
 :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step7/cs/form1.cs" id="Snippet17":::
+
+### [VB](#tab/vb)
+:::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step7/vb/form1.vb" id="Snippet17":::
+---
 
 This method determines the answers to the math problems and compares the results to the values in the <xref:System.Windows.Forms.NumericUpDown> controls. In this code:
 
@@ -96,8 +100,12 @@ Now that you have a way to check the answers, you can write the code for the Tic
 
 To start the timer when the quiz starts, add three lines to the end of the `StartTheQuiz()` method, as the following sample shows.
 
-:::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step3/vb/form1.vb" id="Snippet7":::
+### [C#](#tab/csharp)
 :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step3/cs/form1.cs" id="Snippet7":::
+
+### [VB](#tab/vb)
+:::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step3/vb/form1.vb" id="Snippet7":::
+---
 
 When your quiz starts, this code sets the **timeLeft** variable to 30 and the **Text** property of the **timeLabel** control to 30 seconds. Then the <xref:System.Windows.Forms.Timer.Start> method of the Timer control starts the countdown.
 

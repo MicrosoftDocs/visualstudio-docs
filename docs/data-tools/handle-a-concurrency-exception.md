@@ -156,6 +156,7 @@ When you attempt to perform an update and an exception is raised, you generally 
 
 1. Add the following code below the `Form1_Load` method:
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataConcurrency/CS/Form1.cs" id="Snippet1":::
    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConcurrency/VB/Form1.vb" id="Snippet1":::
 
@@ -171,7 +172,10 @@ The code you just wrote calls the `CreateMessage` procedure to display error inf
 Create the message by adding the following code to the **Code Editor**. Enter this code below the `UpdateDatabase` method:
 
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataConcurrency/CS/Form1.cs" id="Snippet4":::
-:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConcurrency/VB/Form1.vb" id="Snippet4":::
+
+   ### [VB](#tab/vb)
+   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConcurrency/VB/Form1.vb" id="Snippet4":::
+   ---
 
 ### Process the user's response
 
@@ -179,8 +183,12 @@ You also need code to process the user's response to the message box. The option
 
 Add the following code below the code that was added in the previous section:
 
+### [C#](#tab/csharp)
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataConcurrency/CS/Form1.cs" id="Snippet3":::
+
+### [VB](#tab/vb)
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConcurrency/VB/Form1.vb" id="Snippet3":::
+---
 
 ## Test the form behavior
 

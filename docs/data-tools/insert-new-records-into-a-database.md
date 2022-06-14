@@ -66,8 +66,12 @@ The following procedure demonstrates using the `TableAdapter.Insert` method to i
 > [!NOTE]
 > If you do not have an instance available, instantiate the TableAdapter you want to use.
 
-:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet15":::
+### [C#](#tab/csharp)
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs" id="Snippet15":::
+
+### [VB](#tab/vb)
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet15":::
+---
 
 ## Insert new records by using command objects
 
@@ -79,8 +83,12 @@ You can insert new records directly into a database using command objects.
 
 The following example demonstrates inserting records into a database using command object. It inserts data into the `Region` table in the Northwind database.
 
-:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet16":::
+### [C#](#tab/csharp)
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs" id="Snippet16":::
+
+### [VB](#tab/vb)
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet16":::
+---
 
 ## .NET security
 

@@ -86,8 +86,12 @@ WHERE (ShippedDate = @ShippedDate) OR (ShippedDate IS NULL)
 
 If this were a query on a TableAdapter, you could query for all orders that have not been shipped with the following code:
 
+### [C#](#tab/csharp)
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataTableAdapters/CS/Form2.cs" id="Snippet8":::
+
+### [VB](#tab/vb)
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataTableAdapters/VB/Form2.vb" id="Snippet8":::
+---
 
 To enable a query to accept null values:
 

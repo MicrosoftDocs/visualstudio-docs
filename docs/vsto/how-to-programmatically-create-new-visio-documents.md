@@ -28,6 +28,7 @@ ms.workload:
 
 - Use the `Microsoft.Office.Interop.Visio.Documents.Add` method to create a new blank document that is not based on a template.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs" id="Snippet1":::
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb" id="Snippet1":::
 
@@ -39,7 +40,10 @@ ms.workload:
 - Call the `Microsoft.Office.Interop.Visio.Documents.Add` method and specify the path of the Visio diagram.
 
 :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs" id="Snippet2":::
-:::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb" id="Snippet2":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb" id="Snippet2":::
+     ---
 
 ## Create stencils copied from existing stencils
  The [Microsoft.Office.Interop.Visio.Documents.Add](/office/vba/api/Visio.Documents.Add) method can create a new stencil that is a copy of an existing Visio stencil. You must supply the file name and fully qualified path of the stencil.

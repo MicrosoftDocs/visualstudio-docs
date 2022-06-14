@@ -41,8 +41,12 @@ Resources in a managed package are selected by resource ID. An exception is the 
 
 You can use the <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> attribute to indicate to [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] that managed resources are available.
 
+### [C#](#tab/csharp)
 :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VSSDK/vssdkresources/cs/vssdkresourcespackage.cs" id="Snippet1":::
+
+### [VB](#tab/vb)
 :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VSSDK/vssdkresources/vb/vssdkresourcespackage.vb" id="Snippet1":::
+---
 
 Setting <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> in this manner indicates that [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] should ignore unmanaged satellite DLLs when it searches for resources, for example, by using <xref:Microsoft.VisualStudio.Shell.Interop.IVsShell.LoadPackageString%2A>. If [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] encounters two or more resources that have the same resource ID, it uses the first resource it finds.
 
