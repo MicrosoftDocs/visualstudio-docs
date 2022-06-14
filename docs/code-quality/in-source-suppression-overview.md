@@ -115,14 +115,17 @@ When you select **Suppress** from the context or right-click menu of a code anal
 
 The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute has the following format:
 
+### [VB](#tab/vb)
 ```vb
 <Scope:SuppressMessage("Rule Category", "Rule Id", Justification = "Justification", MessageId = "MessageId", Scope = "Scope", Target = "Target")>
 ```
 
+### [C#](#tab/csharp)
 ```csharp
 [Scope:SuppressMessage("Rule Category", "Rule Id", Justification = "Justification", MessageId = "MessageId", Scope = "Scope", Target = "Target")]
 ```
 
+### [C++](#tab/cpp)
 ```cpp
 CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification", MessageId = "MessageId", Scope = "Scope", Target = "Target")
 ```
