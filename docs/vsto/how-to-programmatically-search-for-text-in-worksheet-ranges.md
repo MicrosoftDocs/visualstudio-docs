@@ -99,8 +99,12 @@ ms.workload:
    The following example shows the complete method.
 
 ## Example
- ### [C#](#tab/csharp) :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet57":::
- ### [VB](#tab/vb) :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet57"::: ---
+
+ ### [C#](#tab/csharp)
+ :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet57":::
+
+ ### [VB](#tab/vb)
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet57"::: ---
 
 ## See also
 - [Work with ranges](../vsto/working-with-ranges.md)

@@ -184,7 +184,7 @@ ms.workload:
         End Sub
       End Class
     End Namespace
-    ```
+  ```
   ---
 
 This example uses the SharePoint project service to write the message to the **Output** window and **Error List** window. For more information, see [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md).
