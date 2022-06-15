@@ -5,7 +5,7 @@ description: A list of released versions and build numbers for Visual Studio, so
 author: rjmolyneaux
 ms.author: rmolyneaux
 manager: jmartens
-ms.date: 05/31/2022
+ms.date: 06/14/2022
 ms.custom: vs-acquisition
 ms.topic: reference
 ms.workload:
@@ -26,6 +26,9 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 17.3.0  | Preview 2 | June 14, 2022 | 17.3.32611.02 |
+| 17.2.4  | Release | June 14, 2022 | 17.2.32602.215 |
+| 17.0.11 | Release | June 14, 2022 | 17.0.32602.201 |
 | 17.2.3  | Release | May 31, 2022 | 17.2.32526.322 |
 | 17.2.2  | Release | May 24, 2022 | 17.2.32519.379 |
 | 17.3.0  | Preview 1.1 | May 23, 2022 | 17.3.32519.111 |
@@ -89,6 +92,8 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.11.16 | Release | June 14, 2022 | 16.11.32602.291 |
+| 16.9.22 | Release | June 14, 2022 | 16.9.32602.290 |
 | 16.11.15 | Release | May 17, 2022 | 16.11.32510.428 |
 | 16.11.14 | Release | May 10, 2022 | 16.11.32428.217 |
 | 16.9.21 | Release | May 10, 2022 | 16.9.32428.249 |
@@ -340,7 +345,6 @@ The following table lists the build numbers and release dates for Visual Studio 
 >To view data for the *next* version, see [Visual Studio 2022 build numbers and release dates](visual-studio-build-numbers-and-release-dates.md?view=vs-2022&preserve-view=true).
 
 ::: moniker-end
-
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
