@@ -25,17 +25,19 @@ Retrieves a list of all the threads running in the process.
 
 ## Syntax
 
-```cpp
-HRESULT EnumThreads(
-   IEnumDebugThreads2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumThreads(
    out IEnumDebugThreads2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumThreads(
+   IEnumDebugThreads2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

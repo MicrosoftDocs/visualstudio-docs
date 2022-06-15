@@ -25,17 +25,19 @@ Gets the GUID for this process.
 
 ## Syntax
 
-```cpp
-HRESULT GetProcessId(
-   GUID* pguidProcessId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProcessId(
    out Guid pguidProcessId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProcessId(
+   GUID* pguidProcessId
+);
+```
+---
 
 ## Parameters
 `pguidProcessId`\

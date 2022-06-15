@@ -25,14 +25,7 @@ Called by an event handler to retrieve results about a symbol load process.
 
 ## Syntax
 
-```cpp
-HRESULT GetSymbolSearchInfo(
-   IDebugModule3**    pModule,
-   BSTR*              pbstrDebugMessage,
-   MODULE_INFO_FLAGS* pdwModuleInfoFlags
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSymbolSearchInfo(
    IDebugModule3              pModule,
@@ -40,6 +33,15 @@ int GetSymbolSearchInfo(
    out enum_MODULE_INFO_FLAGS pdwModuleInfoFlags
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSymbolSearchInfo(
+   IDebugModule3**    pModule,
+   BSTR*              pbstrDebugMessage,
+   MODULE_INFO_FLAGS* pdwModuleInfoFlags
+);
+```
+---
 
 ## Parameters
 `pModule`\

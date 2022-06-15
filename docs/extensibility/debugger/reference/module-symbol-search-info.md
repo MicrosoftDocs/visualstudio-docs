@@ -26,6 +26,14 @@ Contains status information about symbol search paths that have been searched.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public struct MODULE_SYMBOL_SEARCH_INFO {
+    public uint   dwValidFields;
+    public string bstrVerboseSearchInfo;
+}
+```
+### [C++](#tab/cpp)
 ```cpp
 typedef struct _tagSYMBOL_SEARCH_INFO
 {
@@ -33,13 +41,7 @@ typedef struct _tagSYMBOL_SEARCH_INFO
     BSTR                      bstrVerboseSearchInfo;
 } MODULE_SYMBOL_SEARCH_INFO;
 ```
-
-```csharp
-public struct MODULE_SYMBOL_SEARCH_INFO {
-    public uint   dwValidFields;
-    public string bstrVerboseSearchInfo;
-}
-```
+---
 
 ## Members
 

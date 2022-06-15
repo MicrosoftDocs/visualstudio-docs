@@ -25,17 +25,19 @@ Creates an enumerator for the classes nested in this class.
 
 ## Syntax
 
-```cpp
-HRESULT EnumNestedClasses(
-    IEnumDebugFields** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumNestedClasses(
     out IEnumDebugFields ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumNestedClasses(
+    IEnumDebugFields** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

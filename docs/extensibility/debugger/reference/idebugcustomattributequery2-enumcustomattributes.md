@@ -25,17 +25,19 @@ Gets an enumerator for all custom attributes attached to this field.
 
 ## Syntax
 
-```cpp
-HRESULT EnumCustomAttributes( 
-   IEnumDebugCustomAttributes** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumCustomAttributes(
    out IEnumDebugCustomAttributes ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumCustomAttributes( 
+   IEnumDebugCustomAttributes** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

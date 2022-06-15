@@ -25,14 +25,7 @@ Gets a description of the stack frame.
 
 ## Syntax
 
-```cpp
-HRESULT GetInfo ( 
-   FRAMEINFO_FLAGS dwFieldSpec,
-   UINT            nRadix,
-   FRAMEINFO*      pFrameInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetInfo ( 
    enum_FRAMEINFO_FLAGS dwFieldSpec,
@@ -40,6 +33,15 @@ int GetInfo ( 
    FRAMEINFO[]          pFrameInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetInfo ( 
+   FRAMEINFO_FLAGS dwFieldSpec,
+   UINT            nRadix,
+   FRAMEINFO*      pFrameInfo
+);
+```
+---
 
 ## Parameters
 `dwFieldSpec`\

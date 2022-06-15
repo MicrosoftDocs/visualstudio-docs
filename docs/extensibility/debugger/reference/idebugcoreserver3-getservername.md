@@ -25,17 +25,19 @@ Retrieves the name of the server.
 
 ## Syntax
 
-```cpp
-HRESULT GetServerName(
-   BSTR* pbstrName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetServerName(
    out string pbstrName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetServerName(
+   BSTR* pbstrName
+);
+```
+---
 
 ## Parameters
 `pbstrName`\

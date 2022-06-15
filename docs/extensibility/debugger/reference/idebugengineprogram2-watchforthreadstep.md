@@ -25,15 +25,7 @@ Watches for execution (or stops watching for execution) to occur on the given th
 
 ## Syntax
 
-```cpp
-HRESULT WatchForThreadStep( 
-   IDebugProgram2* pOriginatingProgram,
-   DWORD           dwTid,
-   BOOL            fWatch,
-   DWORD           dwFrame
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int WatchForThreadStep( 
    IDebugProgram2 pOriginatingProgram,
@@ -42,6 +34,16 @@ int WatchForThreadStep( 
    uint           dwFrame
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT WatchForThreadStep( 
+   IDebugProgram2* pOriginatingProgram,
+   DWORD           dwTid,
+   BOOL            fWatch,
+   DWORD           dwFrame
+);
+```
+---
 
 ## Parameters
 `pOriginatingProgram`\

@@ -24,17 +24,19 @@ Determines if the object is a transparent proxy.
 
 ## Syntax
 
-```cpp
-HRESULT IsProxy (
-   BOOL* pfIsProxy
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsProxy (
    out bool pfIsProxy
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsProxy (
+   BOOL* pfIsProxy
+);
+```
+---
 
 ## Parameters
 `pfIsProxy`\

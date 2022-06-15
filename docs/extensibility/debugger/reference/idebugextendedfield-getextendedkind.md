@@ -24,17 +24,19 @@ Retrieves the specified extended field kind.
 
 ## Syntax
 
-```cpp
-HRESULT GetExtendedKind(
-   FIELD_KIND_EX* pdwKind
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetExtendedKind(
    ref enum_FIELD_KIND_EX pdwKind
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetExtendedKind(
+   FIELD_KIND_EX* pdwKind
+);
+```
+---
 
 ## Parameters
 `pdwKind`\

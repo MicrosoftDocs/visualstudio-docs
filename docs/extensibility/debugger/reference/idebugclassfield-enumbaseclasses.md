@@ -25,17 +25,19 @@ Creates an enumerator for the base classes of this class.
 
 ## Syntax
 
-```cpp
-HRESULT EnumBaseClasses( 
-   IEnumDebugFields** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumBaseClasses(
    out IEnumDebugFields ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumBaseClasses( 
+   IEnumDebugFields** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

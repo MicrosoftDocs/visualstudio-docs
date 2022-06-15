@@ -24,19 +24,21 @@ Determines if the debug symbols are loaded for the specified module given the ap
 
 ## Syntax
 
-```cpp
-HRESULT AreSymbolsLoaded (
-    ULONG32 ulAppDomainID,
-    GUID    guidModule
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int AreSymbolsLoaded (
     uint ulAppDomainID,
     Guid guidModule
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT AreSymbolsLoaded (
+    ULONG32 ulAppDomainID,
+    GUID    guidModule
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

@@ -25,16 +25,7 @@ This method gets a property object that contains the locals, arguments, and othe
 
 ## Syntax
 
-```cpp
-HRESULT GetMethodProperty( 
-   IDebugSymbolProvider* pSymbolProvider,
-   IDebugAddress*        pAddress,
-   IDebugBinder*         pBinder,
-   BOOL                  fIncludeHiddenLocals,
-   IDebugProperty2**     ppProperty
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMethodProperty(
    IDebugSymbolProvider pSymbolProvider,
@@ -44,6 +35,17 @@ int GetMethodProperty(
    out IDebugProperty2  ppProperty
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMethodProperty( 
+   IDebugSymbolProvider* pSymbolProvider,
+   IDebugAddress*        pAddress,
+   IDebugBinder*         pBinder,
+   BOOL                  fIncludeHiddenLocals,
+   IDebugProperty2**     ppProperty
+);
+```
+---
 
 ## Parameters
 `pSymbolProvider`\

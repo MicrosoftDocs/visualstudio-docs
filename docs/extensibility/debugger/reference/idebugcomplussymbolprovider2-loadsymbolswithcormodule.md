@@ -24,18 +24,7 @@ Loads debug symbols given the **ICorDebugModule** object.
 
 ## Syntax
 
-```cpp
-HRESULT LoadSymbolsWithCorModule(
-    ULONG32   ulAppDomainID,
-    GUID      guidModule,
-    ULONGLONG baseAddress,
-    IUnknown* pUnkMetadataImport,
-    IUnknown* pUnkCorDebugModule,
-    BSTR      bstrModuleName,
-    BSTR      bstrSymSearchPath
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int LoadSymbolsWithCorModule(
     uint   ulAppDomainID,
@@ -47,6 +36,19 @@ int LoadSymbolsWithCorModule(
     string bstrSymSearchPath
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT LoadSymbolsWithCorModule(
+    ULONG32   ulAppDomainID,
+    GUID      guidModule,
+    ULONGLONG baseAddress,
+    IUnknown* pUnkMetadataImport,
+    IUnknown* pUnkCorDebugModule,
+    BSTR      bstrModuleName,
+    BSTR      bstrSymSearchPath
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

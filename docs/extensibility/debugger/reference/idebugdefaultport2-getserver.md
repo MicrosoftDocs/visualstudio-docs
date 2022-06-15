@@ -25,17 +25,19 @@ This method obtains an interface to the server that this port is on.
 
 ## Syntax
 
-```cpp
-HRESULT GetServer(
-   IDebugCoreServer3** ppServer
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetServer(
    out IDebugCoreServer3 ppServer
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetServer(
+   IDebugCoreServer3** ppServer
+);
+```
+---
 
 ## Parameters
 `ppServer`\

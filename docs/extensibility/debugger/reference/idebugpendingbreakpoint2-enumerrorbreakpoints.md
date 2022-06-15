@@ -26,19 +26,21 @@ Gets a list of all error breakpoints that resulted from this pending breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT EnumErrorBreakpoints( 
-   BP_ERROR_TYPE                 bpErrorType,
-   IEnumDebugErrorBreakpoints2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumErrorBreakpoints( 
    enum_BP_ERROR_TYPE              bpErrorType,
    out IEnumDebugErrorBreakpoints2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumErrorBreakpoints( 
+   BP_ERROR_TYPE                 bpErrorType,
+   IEnumDebugErrorBreakpoints2** ppEnum
+);
+```
+---
 
 ## Parameters
 `bpErrorType`\

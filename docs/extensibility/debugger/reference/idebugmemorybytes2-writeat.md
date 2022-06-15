@@ -26,14 +26,7 @@ Writes the specified number of bytes of memory, starting at the specified addres
 
 ## Syntax
 
-```cpp
-HRESULT WriteAt( 
-   IDebugMemoryContext2* pStartContext,
-   DWORD                 dwCount,
-   BYTE*                 rgbMemory
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int WriteAt(
    IDebugMemoryContext2 pStartContext,
@@ -41,6 +34,15 @@ int WriteAt(
    byte[]               rgbMemory
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT WriteAt( 
+   IDebugMemoryContext2* pStartContext,
+   DWORD                 dwCount,
+   BYTE*                 rgbMemory
+);
+```
+---
 
 ## Parameters
 `pStartContext`\

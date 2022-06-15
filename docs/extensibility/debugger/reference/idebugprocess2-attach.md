@@ -25,15 +25,7 @@ Attaches the session debug manager (SDM) to the process.
 
 ## Syntax
 
-```cpp
-HRESULT Attach( 
-   IDebugEventCallback2* pCallback,
-   GUID*                 rgguidSpecificEngines,
-   DWORD                 celtSpecificEngines,
-   HRESULT*              rghrEngineAttach
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Attach( 
    IDebugEventCallback2 pCallback,
@@ -42,6 +34,16 @@ int Attach( 
    int[]                rghrEngineAttach
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Attach( 
+   IDebugEventCallback2* pCallback,
+   GUID*                 rgguidSpecificEngines,
+   DWORD                 celtSpecificEngines,
+   HRESULT*              rghrEngineAttach
+);
+```
+---
 
 ## Parameters
 `pCallback`\

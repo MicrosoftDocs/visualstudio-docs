@@ -24,17 +24,19 @@ Enables a debug engine to pass a callback to the expression evaluator during ini
 
 ## Syntax
 
-```cpp
-HRESULT SetIDebugIDECallback (
-   IDebugIDECallback * pCallback
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetIDebugIDECallback (
    IDebugIDECallback pCallback
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetIDebugIDECallback (
+   IDebugIDECallback * pCallback
+);
+```
+---
 
 ## Parameters
 `pCallback`\

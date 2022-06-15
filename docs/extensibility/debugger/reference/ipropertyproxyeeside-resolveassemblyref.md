@@ -25,16 +25,7 @@ Determines the location of the specified managed assembly reference.
 
 ## Syntax
 
-```cpp
-HRESULT ResolveAssemblyRef(
-   BSTR*                  assemName,
-   IEEDataStorage**       assemBytes,
-   IEEDataStorage**       assemPdb,
-   BSTR*                  assemLocation,
-   ASSEMBLYLOCRESOLUTION* alr
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ResolveAssemblyRef(
    ref string                     assemName,
@@ -44,6 +35,17 @@ int ResolveAssemblyRef(
    out enum_ASSEMBLYLOCRESOLUTION alr
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ResolveAssemblyRef(
+   BSTR*                  assemName,
+   IEEDataStorage**       assemBytes,
+   IEEDataStorage**       assemPdb,
+   BSTR*                  assemLocation,
+   ASSEMBLYLOCRESOLUTION* alr
+);
+```
+---
 
 ## Parameters
 `assemName`\

@@ -25,19 +25,21 @@ Compares an object with this object.
 
 ## Syntax
 
-```cpp
-HRESULT IsEqual( 
-   IDebugObject* pObject,
-   BOOL*         pfIsEqual
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsEqual(
    IDebugObject pObject,
    out int      pfIsEqual
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsEqual( 
+   IDebugObject* pObject,
+   BOOL*         pfIsEqual
+);
+```
+---
 
 ## Parameters
 `pObject`\

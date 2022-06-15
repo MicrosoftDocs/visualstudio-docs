@@ -26,17 +26,19 @@ Retrieves the user-displayable name for this context.
 
 ## Syntax
 
-```cpp
-HRESULT GetName( 
-   BSTR* pbstrName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetName(
    out string pbstrName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetName( 
+   BSTR* pbstrName
+);
+```
+---
 
 ## Parameters
 `pbstrName`\

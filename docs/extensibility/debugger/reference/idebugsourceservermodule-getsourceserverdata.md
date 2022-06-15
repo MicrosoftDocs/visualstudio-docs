@@ -23,19 +23,21 @@ Retrieves an array of source server information.
 
 ## Syntax
 
-```cpp
-HRESULT GetSourceServerData(
-    ULONG* pDataByteCount,
-    BYTE** ppData
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int GetSourceServerData(
     out uint  pDataByteCount,
     out int[] ppData
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSourceServerData(
+    ULONG* pDataByteCount,
+    BYTE** ppData
+);
+```
+---
 
 ## Parameters
 `pDataByteCount`\

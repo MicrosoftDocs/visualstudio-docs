@@ -25,17 +25,19 @@ Returns a structure describing an object and its location within its scope or co
 
 ## Syntax
 
-```cpp
-HRESULT GetAddress (
-   DEBUG_ADDRESS * pAddress
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAddress(
    DEBUG_ADDRESS[] pAddress
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAddress (
+   DEBUG_ADDRESS * pAddress
+);
+```
+---
 
 ## Parameters
 `pAddress`\

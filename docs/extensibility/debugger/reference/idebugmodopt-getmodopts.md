@@ -24,14 +24,7 @@ Retrieves a list of optional modifiers.
 
 ## Syntax
 
-```cpp
-HRESULT GetModOpts(
-   ULONG  celt,
-   BSTR*  rgelt,
-   ULONG* pceltFetched
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetModOpts(
    uint         celt,
@@ -39,6 +32,15 @@ int GetModOpts(
    ref uint     pceltFetched
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetModOpts(
+   ULONG  celt,
+   BSTR*  rgelt,
+   ULONG* pceltFetched
+);
+```
+---
 
 ## Parameters
 `celt`\

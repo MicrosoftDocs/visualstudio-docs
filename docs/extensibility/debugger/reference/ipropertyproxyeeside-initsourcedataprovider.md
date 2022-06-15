@@ -25,17 +25,19 @@ Initializes the source data for this object and returns an object containing the
 
 ## Syntax
 
-```cpp
-HRESULT InitSourceDataProvider(
-   IEEDataStorage** dataOut
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int InitSourceDataProvider(
    out IEEDataStorage dataOut
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT InitSourceDataProvider(
+   IEEDataStorage** dataOut
+);
+```
+---
 
 ## Parameters
 `dataOut`\

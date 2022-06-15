@@ -25,18 +25,7 @@ Retrieves a list of the children of the property.
 
 ## Syntax
 
-```cpp
-HRESULT EnumChildren ( 
-   DEBUGPROP_INFO_FLAGS      dwFields,
-   DWORD                     dwRadix,
-   REFGUID                   guidFilter,
-   DBG_ATTRIB_FLAGS          dwAttribFilter,
-   LPCOLESTR                 pszNameFilter,
-   DWORD                     dwTimeout,
-   IEnumDebugPropertyInfo2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumChildren ( 
    enum_DEBUGPROP_INFO_FLAGS   dwFields,
@@ -48,6 +37,19 @@ int EnumChildren ( 
    out IEnumDebugPropertyInfo2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumChildren ( 
+   DEBUGPROP_INFO_FLAGS      dwFields,
+   DWORD                     dwRadix,
+   REFGUID                   guidFilter,
+   DBG_ATTRIB_FLAGS          dwAttribFilter,
+   LPCOLESTR                 pszNameFilter,
+   DWORD                     dwTimeout,
+   IEnumDebugPropertyInfo2** ppEnum
+);
+```
+---
 
 ## Parameters
 `dwFields`\

@@ -24,14 +24,7 @@ Retrieves the symbol reader to be used by unmanaged code.
 
 ## Syntax
 
-```cpp
-HRESULT GetSymUnmanagedReader(
-    ULONG32    ulAppDomainID,
-    GUID       guidModule,
-    IUnknown** ppSymUnmanagedReader
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSymUnmanagedReader(
     uint       ulAppDomainID,
@@ -39,6 +32,15 @@ int GetSymUnmanagedReader(
     out object ppSymUnmanagedReader
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSymUnmanagedReader(
+    ULONG32    ulAppDomainID,
+    GUID       guidModule,
+    IUnknown** ppSymUnmanagedReader
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

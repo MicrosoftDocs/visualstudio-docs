@@ -25,17 +25,19 @@ Sets the value of the instance of the value class object from the instance of th
 
 ## Syntax
 
-```cpp
-HRESULT SetFromManagedObject( 
-   IUnknown* pManagedObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetFromManagedObject(
    object pManagedObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetFromManagedObject( 
+   IUnknown* pManagedObject
+);
+```
+---
 
 ## Parameters
 `pManagedObject`\

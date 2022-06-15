@@ -25,17 +25,19 @@ Retrieves information on whether the module represents user code or not.
 
 ## Syntax
 
-```cpp
-HRESULT IsUserCode(
-   BOOL* pfUser
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsUserCode(
    out int pfUser
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsUserCode(
+   BOOL* pfUser
+);
+```
+---
 
 ## Parameters
 `pfUser`\

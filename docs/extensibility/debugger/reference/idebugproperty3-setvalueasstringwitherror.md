@@ -25,15 +25,7 @@ Sets the value of this property and returns an error message, if necessary.
 
 ## Syntax
 
-```cpp
-HRESULT SetValueAsStringWithError(
-    LPCOLESTR pszValue,
-    DWORD     dwRadix,
-    DWORD     dwTimeout,
-    BSTR*     errorString
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetValueAsStringWithError(
     string     pszValue,
@@ -42,6 +34,16 @@ int SetValueAsStringWithError(
     out string errorString
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetValueAsStringWithError(
+    LPCOLESTR pszValue,
+    DWORD     dwRadix,
+    DWORD     dwTimeout,
+    BSTR*     errorString
+);
+```
+---
 
 ## Parameters
 `pszValue`\

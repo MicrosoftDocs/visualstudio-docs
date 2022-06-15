@@ -25,17 +25,19 @@ Gets the memory context that represents the address of the value of the object.
 
 ## Syntax
 
-```cpp
-HRESULT GetMemoryContext( 
-   IDebugMemoryContext2** pContext
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMemoryContext(
    ref IDebugMemoryContext2 pContext
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMemoryContext( 
+   IDebugMemoryContext2** pContext
+);
+```
+---
 
 ## Parameters
 `pContext`\

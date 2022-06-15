@@ -25,17 +25,19 @@ Gets an evaluation context for expression evaluation within the current context 
 
 ## Syntax
 
-```cpp
-HRESULT GetExpressionContext ( 
-   IDebugExpressionContext2** ppExprCxt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetExpressionContext ( 
    out IDebugExpressionContext2 ppExprCxt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetExpressionContext ( 
+   IDebugExpressionContext2** ppExprCxt
+);
+```
+---
 
 ## Parameters
 `ppExprCxt`\

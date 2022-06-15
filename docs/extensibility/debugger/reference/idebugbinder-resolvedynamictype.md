@@ -25,19 +25,21 @@ This method returns the exact type of a variable.
 
 ## Syntax
 
-```cpp
-HRESULT ResolveDynamicType (
-   IDebugDynamicField *pDynamic,
-   IDebugField       **ppResolved
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ResolveDynamicType(
    IDebugDynamicField pDynamic,
    out IDebugField    ppResolved
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ResolveDynamicType (
+   IDebugDynamicField *pDynamic,
+   IDebugField       **ppResolved
+);
+```
+---
 
 ## Parameters
 `pDynamic`\
