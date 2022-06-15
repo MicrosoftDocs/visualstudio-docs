@@ -71,13 +71,13 @@ The dialog boxes and menu commands you see might differ from those described in 
 12. In the `Button1_Click` function, add the following code:
 
     ### [C#](#tab/csharp)
-    ```vb
-    TextBox1.Text = "Button was clicked!"
+    ```csharp
+    TextBox1.Text = "Button was clicked!";
     ```
 
     ### [VB](#tab/vb)
-    ```csharp
-    TextBox1.Text = "Button was clicked!";
+    ```vb
+    TextBox1.Text = "Button was clicked!"
     ```
     ---
 
@@ -92,13 +92,13 @@ The dialog boxes and menu commands you see might differ from those described in 
 1. In the Default.aspx.cs or Default.aspx.vb window, click the left margin on the same line as the text you added:
 
    ### [C#](#tab/csharp)
-   ```vb
-   TextBox1.Text = "Button was clicked!"
+   ```csharp
+   textBox1.Text = "Button was clicked!";
    ```
 
    ### [VB](#tab/vb)
-   ```csharp
-   textBox1.Text = "Button was clicked!";
+   ```vb
+   TextBox1.Text = "Button was clicked!"
    ```
    ---
 
@@ -147,13 +147,13 @@ The dialog boxes and menu commands you see might differ from those described in 
 2. In the Default.aspx.cs or Default.aspx.vb window, click in the left margin to again set a breakpoint at the line you added:
 
    ### [C#](#tab/csharp)
-   ```vb
-   TextBox1.Text = "Button was clicked!"
+   ```csharp
+   textBox1.Text = "Button was clicked!";
    ```
 
    ### [VB](#tab/vb)
-   ```csharp
-   textBox1.Text = "Button was clicked!";
+   ```vb
+   TextBox1.Text = "Button was clicked!"
    ```
    ---
 

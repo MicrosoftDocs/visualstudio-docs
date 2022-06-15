@@ -88,26 +88,26 @@ ms.workload:
  The following code example shows how to use the Word object model to save the document that is part of a document-level customization for Word. This example is intended to be run from the `ThisDocument` class.
 
 ### [C#](#tab/csharp)
-```vb
-Me.Save()
+```csharp
+this.Save();
 ```
 
 ### [VB](#tab/vb)
-```csharp
-this.Save();
+```vb
+Me.Save()
 ```
 ---
 
  To do the same thing from outside the `ThisDocument` class, use the `Globals` object to access the `ThisDocument` class. For example, you can add this code to an actions pane code file if you want to include a **Save** button in the actions pane UI.
 
 ### [C#](#tab/csharp)
-```vb
-Globals.ThisDocument.Save()
+```csharp
+Globals.ThisDocument.Save();
 ```
 
 ### [VB](#tab/vb)
-```csharp
-Globals.ThisDocument.Save();
+```vb
+Globals.ThisDocument.Save()
 ```
 ---
 

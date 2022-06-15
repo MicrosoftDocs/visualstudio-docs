@@ -83,18 +83,6 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
 2. Open the *Program.vb* or *Program.cs* file for editing and add the following code.
 
     ### [C#](#tab/csharp)
-    ```vb
-    Dim key As Microsoft.Win32.RegistryKey
-    key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager\PromptingLevel")
-    key.SetValue("MyComputer", "Enabled")
-    key.SetValue("LocalIntranet", "Enabled")
-    key.SetValue("Internet", "Enabled")
-    key.SetValue("TrustedSites", "Enabled")
-    key.SetValue("UntrustedSites", "Disabled")
-    key.Close()
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     Microsoft.Win32.RegistryKey key;
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\\MICROSOFT\\.NETFramework\\Security\\TrustManager\\PromptingLevel");
@@ -104,6 +92,18 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
     key.SetValue("TrustedSites", "Enabled");
     key.SetValue("UntrustedSites", "Disabled");
     key.Close();
+    ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Dim key As Microsoft.Win32.RegistryKey
+    key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager\PromptingLevel")
+    key.SetValue("MyComputer", "Enabled")
+    key.SetValue("LocalIntranet", "Enabled")
+    key.SetValue("Internet", "Enabled")
+    key.SetValue("TrustedSites", "Enabled")
+    key.SetValue("UntrustedSites", "Disabled")
+    key.Close()
     ```
     ---
 
@@ -143,18 +143,6 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
 2. Open the *Program.vb* or *Program.cs* file for editing and add the following code.
 
     ### [C#](#tab/csharp)
-    ```vb
-    Dim key As Microsoft.Win32.RegistryKey
-    key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager\PromptingLevel")
-    key.SetValue("MyComputer", "AuthenticodeRequired")
-    key.SetValue("LocalIntranet", "AuthenticodeRequired")
-    key.SetValue("Internet", "AuthenticodeRequired")
-    key.SetValue("TrustedSites", "AuthenticodeRequired")
-    key.SetValue("UntrustedSites", "Disabled")
-    key.Close()
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     Microsoft.Win32.RegistryKey key;
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\\MICROSOFT\\.NETFramework\\Security\\TrustManager\\PromptingLevel");
@@ -164,6 +152,18 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
     key.SetValue("TrustedSites", "AuthenticodeRequired");
     key.SetValue("UntrustedSites", "Disabled");
     key.Close();
+    ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Dim key As Microsoft.Win32.RegistryKey
+    key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager\PromptingLevel")
+    key.SetValue("MyComputer", "AuthenticodeRequired")
+    key.SetValue("LocalIntranet", "AuthenticodeRequired")
+    key.SetValue("Internet", "AuthenticodeRequired")
+    key.SetValue("TrustedSites", "AuthenticodeRequired")
+    key.SetValue("UntrustedSites", "Disabled")
+    key.Close()
     ```
     ---
 
@@ -203,18 +203,6 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
 2. Open the *Program.vb* or *Program.cs* file for editing and add the following code.
 
     ### [C#](#tab/csharp)
-    ```vb
-    Dim key As Microsoft.Win32.RegistryKey
-    key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager\PromptingLevel")
-    key.SetValue("MyComputer", "Disabled")
-    key.SetValue("LocalIntranet", "Disabled")
-    key.SetValue("Internet", "Disabled")
-    key.SetValue("TrustedSites", "Disabled")
-    key.SetValue("UntrustedSites", "Disabled")
-    key.Close()
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     Microsoft.Win32.RegistryKey key;
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\\MICROSOFT\\.NETFramework\\Security\\TrustManager\\PromptingLevel");
@@ -225,6 +213,18 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
     key.SetValue("UntrustedSites", "Disabled");
     key.Close();
 
+    ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Dim key As Microsoft.Win32.RegistryKey
+    key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager\PromptingLevel")
+    key.SetValue("MyComputer", "Disabled")
+    key.SetValue("LocalIntranet", "Disabled")
+    key.SetValue("Internet", "Disabled")
+    key.SetValue("TrustedSites", "Disabled")
+    key.SetValue("UntrustedSites", "Disabled")
+    key.Close()
     ```
     ---
 

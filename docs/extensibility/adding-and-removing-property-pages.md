@@ -34,27 +34,6 @@ A project subtype frequently needs to display additional property pages in the P
 1. Override the `GetProperty(uint itemId, int propId, out object property)` method to filter property pages and obtain a `clsids` list.
 
     ### [C#](#tab/csharp)
-    ```vb
-    Protected Overrides int GetProperty(uint itemId, int propId, out object property)
-    Protected Overrides Function GetProperty(ByVal itemId As UInteger, ByVal propId As Integer, ByRef [property] As Object) As Integer
-        'Use propId to filter configuration-independent property pages.
-        Select Case propId
-            ....
-            Case CInt(Fix(__VSHPROPID2.VSHPROPID_PropertyPagesCLSIDList))
-                'Get a semicolon-delimited list of clsids of the configuration-independent property pages
-                ErrorHandler.ThrowOnFailure(MyBase.GetProperty(itemId, propId, [property]))
-                   Dim propertyPagesList As String = ((String)[property]).ToUpper(CultureInfo.InvariantCulture)
-                'Remove the property page here
-                   ....
-            ....
-        End Select
-            ....
-        Return MyBase.GetProperty(itemId, propId, [property])
-    End Function
-
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     protected override int GetProperty(uint itemId, int propId, out object property)
     {
@@ -77,28 +56,32 @@ A project subtype frequently needs to display additional property pages in the P
         return base.GetProperty(itemId, propId, out property);
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Protected Overrides int GetProperty(uint itemId, int propId, out object property)
+    Protected Overrides Function GetProperty(ByVal itemId As UInteger, ByVal propId As Integer, ByRef [property] As Object) As Integer
+        'Use propId to filter configuration-independent property pages.
+        Select Case propId
+            ....
+            Case CInt(Fix(__VSHPROPID2.VSHPROPID_PropertyPagesCLSIDList))
+                'Get a semicolon-delimited list of clsids of the configuration-independent property pages
+                ErrorHandler.ThrowOnFailure(MyBase.GetProperty(itemId, propId, [property]))
+                   Dim propertyPagesList As String = ((String)[property]).ToUpper(CultureInfo.InvariantCulture)
+                'Remove the property page here
+                   ....
+            ....
+        End Select
+            ....
+        Return MyBase.GetProperty(itemId, propId, [property])
+    End Function
+
+    ```
     ---
 
 2. Remove the **Build Events** page from obtained `clsids` list.
 
     ### [C#](#tab/csharp)
-    ```vb
-    Private buildEventsPageGuid As String = "{1E78F8DB-6C07-4D61-A18F-7514010ABD56}"
-    Private index As Integer = propertyPagesList.IndexOf(buildEventsPageGuid)
-    If index <> -1 Then
-        ' GUIDs are separated by ';' so if you remove the last GUID, also remove the last ';'
-        Dim index2 As Integer = index + buildEventsPageGuid.Length + 1
-        If index2 >= propertyPagesList.Length Then
-            propertyPagesList = propertyPagesList.Substring(0, index).TrimEnd(";"c)
-        Else
-            propertyPagesList = propertyPagesList.Substring(0, index) + propertyPagesList.Substring(index2)
-        End If
-    End If
-    'New property value
-    property = propertyPagesList
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     string buildEventsPageGuid = "{1E78F8DB-6C07-4D61-A18F-7514010ABD56}";
     int index = propertyPagesList.IndexOf(buildEventsPageGuid);
@@ -114,6 +97,23 @@ A project subtype frequently needs to display additional property pages in the P
     //New property value
     property = propertyPagesList;
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Private buildEventsPageGuid As String = "{1E78F8DB-6C07-4D61-A18F-7514010ABD56}"
+    Private index As Integer = propertyPagesList.IndexOf(buildEventsPageGuid)
+    If index <> -1 Then
+        ' GUIDs are separated by ';' so if you remove the last GUID, also remove the last ';'
+        Dim index2 As Integer = index + buildEventsPageGuid.Length + 1
+        If index2 >= propertyPagesList.Length Then
+            propertyPagesList = propertyPagesList.Substring(0, index).TrimEnd(";"c)
+        Else
+            propertyPagesList = propertyPagesList.Substring(0, index) + propertyPagesList.Substring(index2)
+        End If
+    End If
+    'New property value
+    property = propertyPagesList
+    ```
     ---
 
 ### Add a property page
@@ -121,6 +121,28 @@ A project subtype frequently needs to display additional property pages in the P
 1. Create a property page you want to add.
 
     ### [C#](#tab/csharp)
+    ```csharp
+    class DeployPropertyPage : Form, Microsoft.VisualStudio.OLE.Interop.IPropertyPage
+    {
+        . . . .
+        //Summary: Return a stucture describing your property page.
+        public void GetPageInfo(Microsoft.VisualStudio.OLE.Interop.PROPPAGEINFO[] pPageInfo)
+        {
+            PROPPAGEINFO info = new PROPPAGEINFO();
+            info.cb = (uint)Marshal.SizeOf(typeof(PROPPAGEINFO));
+            info.dwHelpContext = 0;
+            info.pszDocString = null;
+            info.pszHelpFile = null;
+            info.pszTitle = "Deployment";  //Assign tab name
+            info.SIZE.cx = this.Size.Width;
+            info.SIZE.cy = this.Size.Height;
+            if (pPageInfo != null && pPageInfo.Length > 0)
+                pPageInfo[0] = info;
+        }
+    }
+    ```
+
+    ### [VB](#tab/vb)
     ```vb
     Class DeployPropertyPage
             Inherits Form
@@ -142,63 +164,24 @@ A project subtype frequently needs to display additional property pages in the P
         End Sub
     End Class
     ```
-
-    ### [VB](#tab/vb)
-    ```csharp
-    class DeployPropertyPage : Form, Microsoft.VisualStudio.OLE.Interop.IPropertyPage
-    {
-        . . . .
-        //Summary: Return a stucture describing your property page.
-        public void GetPageInfo(Microsoft.VisualStudio.OLE.Interop.PROPPAGEINFO[] pPageInfo)
-        {
-            PROPPAGEINFO info = new PROPPAGEINFO();
-            info.cb = (uint)Marshal.SizeOf(typeof(PROPPAGEINFO));
-            info.dwHelpContext = 0;
-            info.pszDocString = null;
-            info.pszHelpFile = null;
-            info.pszTitle = "Deployment";  //Assign tab name
-            info.SIZE.cx = this.Size.Width;
-            info.SIZE.cy = this.Size.Height;
-            if (pPageInfo != null && pPageInfo.Length > 0)
-                pPageInfo[0] = info;
-        }
-    }
-    ```
     ---
 
 2. Register your new property page.
 
     ### [C#](#tab/csharp)
-    ```vb
-    <MSVSIP.ProvideObject(GetType(DeployPropertyPage), RegisterUsing = RegistrationMethod.CodeBase)>
+    ```csharp
+    [MSVSIP.ProvideObject(typeof(DeployPropertyPage), RegisterUsing = RegistrationMethod.CodeBase)]
     ```
 
     ### [VB](#tab/vb)
-    ```csharp
-    [MSVSIP.ProvideObject(typeof(DeployPropertyPage), RegisterUsing = RegistrationMethod.CodeBase)]
+    ```vb
+    <MSVSIP.ProvideObject(GetType(DeployPropertyPage), RegisterUsing = RegistrationMethod.CodeBase)>
     ```
     ---
 
 3. Override the `GetProperty(uint itemId, int propId, out object property)` method to filter property pages, obtain a `clsids` list and add a new property page.
 
     ### [C#](#tab/csharp)
-    ```vb
-    Protected Overrides Function GetProperty(ByVal itemId As UInteger, ByVal propId As Integer, ByRef [property] As Object) As Integer
-        'Use propId to filter configuration-dependent property pages.
-        Select Case propId
-            ....
-            case CInt(Fix(__VSHPROPID2.VSHPROPID_CfgPropertyPagesCLSIDList)):
-                'Get a semicolon-delimited list of clsids of the configuration-dependent property pages.
-                ErrorHandler.ThrowOnFailure(MyBase.GetProperty(itemId, propId, [property]))
-                'Add the Deployment property page.
-                [property] &= ";"c + GetType(DeployPropertyPage).GUID.ToString("B")
-        End Select
-            ....
-            Return MyBase.GetProperty(itemId, propId, [property])
-    End Function
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     protected override int GetProperty(uint itemId, int propId, out object property)
     {
@@ -217,6 +200,23 @@ A project subtype frequently needs to display additional property pages in the P
             . . . .
         return base.GetProperty(itemId, propId, out property);
     }
+    ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Protected Overrides Function GetProperty(ByVal itemId As UInteger, ByVal propId As Integer, ByRef [property] As Object) As Integer
+        'Use propId to filter configuration-dependent property pages.
+        Select Case propId
+            ....
+            case CInt(Fix(__VSHPROPID2.VSHPROPID_CfgPropertyPagesCLSIDList)):
+                'Get a semicolon-delimited list of clsids of the configuration-dependent property pages.
+                ErrorHandler.ThrowOnFailure(MyBase.GetProperty(itemId, propId, [property]))
+                'Add the Deployment property page.
+                [property] &= ";"c + GetType(DeployPropertyPage).GUID.ToString("B")
+        End Select
+            ....
+            Return MyBase.GetProperty(itemId, propId, [property])
+    End Function
     ```
     ---
 

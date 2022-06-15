@@ -50,13 +50,13 @@ ms.workload:
 3. Locate the <xref:System.Security.SecurityTransparentAttribute> and either remove it from the file or comment it out.
 
     ### [C#](#tab/csharp)
-    ```vb
-    <Assembly: SecurityTransparent()>
+    ```csharp
+    [assembly: SecurityTransparent()]
     ```
 
     ### [VB](#tab/vb)
-    ```csharp
-    [assembly: SecurityTransparent()]
+    ```vb
+    <Assembly: SecurityTransparent()>
     ```
     ---
 

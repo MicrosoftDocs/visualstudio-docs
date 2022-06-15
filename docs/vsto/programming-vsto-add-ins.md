@@ -71,26 +71,26 @@ ms.workload:
  The following code example shows how to use the `Application` field to create a new workbook in a VSTO Add-in for Microsoft Office Excel. This example is intended to be run from the `ThisAddIn` class.
 
 ### [C#](#tab/csharp)
-```vb
-Dim newWorkbook As Excel.Workbook = Me.Application.Workbooks.Add()
+```csharp
+Excel.Workbook newWorkbook = this.Application.Workbooks.Add(System.Type.Missing);
 ```
 
 ### [VB](#tab/vb)
-```csharp
-Excel.Workbook newWorkbook = this.Application.Workbooks.Add(System.Type.Missing);
+```vb
+Dim newWorkbook As Excel.Workbook = Me.Application.Workbooks.Add()
 ```
 ---
 
  To do the same thing from outside the `ThisAddIn` class, use the `Globals` object to access the `ThisAddIn` class. For more information about the `Globals` object, see [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md).
 
 ### [C#](#tab/csharp)
-```vb
-Dim newWorkbook As Excel.Workbook = Globals.ThisAddIn.Application.Workbooks.Add()
+```csharp
+Excel.Workbook newWorkbook = Globals.ThisAddIn.Application.Workbooks.Add(System.Type.Missing);
 ```
 
 ### [VB](#tab/vb)
-```csharp
-Excel.Workbook newWorkbook = Globals.ThisAddIn.Application.Workbooks.Add(System.Type.Missing);
+```vb
+Dim newWorkbook As Excel.Workbook = Globals.ThisAddIn.Application.Workbooks.Add()
 ```
 ---
 

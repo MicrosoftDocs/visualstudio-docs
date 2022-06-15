@@ -134,19 +134,19 @@ End Sub
  In a non-VBA solution, you must cast the COMAddIn.Object property value to the interface it implements, and then you can call the exposed methods on the interface object. The following code example demonstrates how to call the `ImportData` method from a different VSTO Add-in that was created by using the Office developer tools in Visual Studio.
 
 ### [C#](#tab/csharp)
-```vb
-Dim addIn As Office.COMAddIn = Globals.ThisAddIn.Application.COMAddIns.Item("ExcelImportData")
-Dim utilities As ExcelImportData.IAddInUtilities = TryCast( _
-    addIn.Object, ExcelImportData.IAddInUtilities)
-utilities.ImportData()
-```
-
-### [VB](#tab/vb)
 ```csharp
 object addInName = "ExcelImportData";
 Office.COMAddIn addIn = Globals.ThisAddIn.Application.COMAddIns.Item(ref addInName);
 ExcelImportData.IAddInUtilities utilities = (ExcelImportData.IAddInUtilities)addIn.Object;
 utilities.ImportData();
+```
+
+### [VB](#tab/vb)
+```vb
+Dim addIn As Office.COMAddIn = Globals.ThisAddIn.Application.COMAddIns.Item("ExcelImportData")
+Dim utilities As ExcelImportData.IAddInUtilities = TryCast( _
+    addIn.Object, ExcelImportData.IAddInUtilities)
+utilities.ImportData()
 ```
 ---
 

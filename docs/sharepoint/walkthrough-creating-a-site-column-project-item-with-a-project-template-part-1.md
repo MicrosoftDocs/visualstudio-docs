@@ -247,13 +247,13 @@ ms.workload:
 1. In the SiteColumnProjectTemplate project, open the *AssemblyInfo.cs* or *AssemblyInfo.vb* file, and then add the following statement to the top of it:
 
     ### [C#](#tab/csharp)
-    ```vb
-    Imports System.Security
+    ```csharp
+    using System.Security;
     ```
 
     ### [VB](#tab/vb)
-    ```csharp
-    using System.Security;
+    ```vb
+    Imports System.Security
     ```
     ---
 

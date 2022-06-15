@@ -140,16 +140,6 @@ ms.workload:
 5. Replace the `GetAssociationData` method with:
 
     ### [C#](#tab/csharp)
-    ```vb
-    Private Function GetAssociationData() As String
-        ' TODO: Return a string that contains the association data that
-        ' will be passed to the workflow. Typically, this is in XML
-        ' format.
-        Return Me.AutoApproveLimit.Text
-    End Function
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     private string GetAssociationData()
     {
@@ -158,6 +148,16 @@ ms.workload:
         // format.
         return this.AutoApproveLimit.Text;
     }
+    ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Private Function GetAssociationData() As String
+        ' TODO: Return a string that contains the association data that
+        ' will be passed to the workflow. Typically, this is in XML
+        ' format.
+        Return Me.AutoApproveLimit.Text
+    End Function
     ```
     ---
 
@@ -205,17 +205,6 @@ ms.workload:
 5. Replace the `Page_Load` method with the following example:
 
     ### [C#](#tab/csharp)
-    ```vb
-    Protected Sub Page_Load(ByVal sender As Object, ByVal e As
-      EventArgs) Handles Me.Load
-        InitializeParams()
-        Me.AutoApproveLimit.Text = workflowList.WorkflowAssociations(New
-          Guid(associationGuid)).AssociationData
-        ' Optionally, add code here to pre-populate your form fields.
-    End Sub
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -225,23 +214,22 @@ ms.workload:
           Guid(associationGuid)].AssociationData;
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As
+      EventArgs) Handles Me.Load
+        InitializeParams()
+        Me.AutoApproveLimit.Text = workflowList.WorkflowAssociations(New
+          Guid(associationGuid)).AssociationData
+        ' Optionally, add code here to pre-populate your form fields.
+    End Sub
+    ```
     ---
 
 6. Replace the `GetInitiationData` method with the following example:
 
     ### [C#](#tab/csharp)
-    ```vb
-    ' This method is called when the user clicks the button to start the workflow.
-    Private Function GetInitiationData() As String
-        Return Me.ExpenseTotal.Text
-        ' TODO: Return a string that contains the initiation data that
-        ' will be passed to the workflow. Typically, this is in XML
-        ' format.
-        Return String.Empty
-    End Function
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     // This method is called when the user clicks the button to start the workflow.
     private string GetInitiationData()
@@ -251,6 +239,18 @@ ms.workload:
         // format.
         return this.ExpenseTotal.Text;
     }
+    ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    ' This method is called when the user clicks the button to start the workflow.
+    Private Function GetInitiationData() As String
+        Return Me.ExpenseTotal.Text
+        ' TODO: Return a string that contains the initiation data that
+        ' will be passed to the workflow. Typically, this is in XML
+        ' format.
+        Return String.Empty
+    End Function
     ```
     ---
 
@@ -309,19 +309,6 @@ ms.workload:
 2. Add the following method:
 
     ### [C#](#tab/csharp)
-    ```vb
-    Private Sub createTask1_MethodInvoking(ByVal sender As
-      System.Object, ByVal e As System.EventArgs)
-        createTask1_TaskId1 = Guid.NewGuid
-        createTask1_TaskProperties1.AssignedTo = "somedomain\\someuser"
-        createTask1_TaskProperties1.Description = "Please approve the
-          expense report"
-        createTask1_TaskProperties1.Title = "Expense Report Approval
-          Needed"
-    End Sub
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     private void createTask1_MethodInvoking(object sender, EventArgs e)
     {
@@ -333,6 +320,19 @@ ms.workload:
           Needed";
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Private Sub createTask1_MethodInvoking(ByVal sender As
+      System.Object, ByVal e As System.EventArgs)
+        createTask1_TaskId1 = Guid.NewGuid
+        createTask1_TaskProperties1.AssignedTo = "somedomain\\someuser"
+        createTask1_TaskProperties1.Description = "Please approve the
+          expense report"
+        createTask1_TaskProperties1.Title = "Expense Report Approval
+          Needed"
+    End Sub
+    ```
     ---
 
     > [!NOTE]
@@ -341,19 +341,6 @@ ms.workload:
 3. Below the `MethodInvoking` method, add the following example:
 
     ### [C#](#tab/csharp)
-    ```vb
-    Private Sub checkApprovalNeeded(ByVal sender As Object, ByVal e As
-      ConditionalEventArgs)
-        Dim approval As Boolean = False
-        If (Convert.ToInt32(workflowProperties.InitiationData) >
-          Convert.ToInt32(workflowProperties.AssociationData)) Then
-            approval = True
-        End If
-        e.Result = approval
-    End Sub
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     private void checkApprovalNeeded(object sender, ConditionalEventArgs
       e)
@@ -366,6 +353,19 @@ ms.workload:
         }
         e.Result = approval;
     }
+    ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Private Sub checkApprovalNeeded(ByVal sender As Object, ByVal e As
+      ConditionalEventArgs)
+        Dim approval As Boolean = False
+        If (Convert.ToInt32(workflowProperties.InitiationData) >
+          Convert.ToInt32(workflowProperties.AssociationData)) Then
+            approval = True
+        End If
+        e.Result = approval
+    End Sub
     ```
     ---
 
@@ -380,15 +380,6 @@ ms.workload:
 8. Replace the `MethodInvoking` code with the following:
 
     ### [C#](#tab/csharp)
-    ```vb
-    Private Sub logToHistoryListActivity1_MethodInvoking(ByVal sender As
-      System.Object, ByVal e As System.EventArgs)
-        Me.logToHistoryListActivity1.HistoryOutcome = ("Expense was auto
-          approved for " + workflowProperties.InitiationData)
-    End Sub
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     private void logToHistoryListActivity1_MethodInvoking(object sender,
       EventArgs e)
@@ -396,6 +387,15 @@ ms.workload:
         this.logToHistoryListActivity1.HistoryOutcome = "Expense was
           auto approved for " + workflowProperties.InitiationData;
     }
+    ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Private Sub logToHistoryListActivity1_MethodInvoking(ByVal sender As
+      System.Object, ByVal e As System.EventArgs)
+        Me.logToHistoryListActivity1.HistoryOutcome = ("Expense was auto
+          approved for " + workflowProperties.InitiationData)
+    End Sub
     ```
     ---
 

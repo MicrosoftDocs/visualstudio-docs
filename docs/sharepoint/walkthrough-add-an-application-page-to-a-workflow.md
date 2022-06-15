@@ -55,15 +55,15 @@ ms.workload:
 3. To the bottom of the `createTask1_MethodInvoking` method, add the following code:
 
     ### [C#](#tab/csharp)
-    ```vb
-    createTask1_TaskProperties1.ExtendedProperties("Outcome") =
-      workflowProperties.InitiationData
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     createTask1_TaskProperties1.ExtendedProperties["Outcome"] =
       workflowProperties.InitiationData;
+    ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    createTask1_TaskProperties1.ExtendedProperties("Outcome") =
+      workflowProperties.InitiationData
     ```
     ---
 
@@ -108,20 +108,6 @@ ms.workload:
 2. Replace the **using** or **Import** statements (depending on your programming language) at the top of the class with the following:
 
     ### [C#](#tab/csharp)
-    ```vb
-    Imports System
-    Imports Microsoft.SharePoint
-    Imports Microsoft.SharePoint.WebControls
-    Imports System.Collections
-    Imports System.Data
-    Imports System.Web.UI
-    Imports System.Web.UI.WebControls
-    Imports System.Web.UI.WebControls.WebParts
-    Imports System.Drawing
-    Imports Microsoft.SharePoint.Navigation
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     using System;
     using Microsoft.SharePoint;
@@ -134,82 +120,25 @@ ms.workload:
     using System.Drawing;
     using Microsoft.SharePoint.Navigation;
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Imports System
+    Imports Microsoft.SharePoint
+    Imports Microsoft.SharePoint.WebControls
+    Imports System.Collections
+    Imports System.Data
+    Imports System.Web.UI
+    Imports System.Web.UI.WebControls
+    Imports System.Web.UI.WebControls.WebParts
+    Imports System.Drawing
+    Imports Microsoft.SharePoint.Navigation
+    ```
     ---
 
 3. Add the following code to the `Page_Load` method:
 
     ### [C#](#tab/csharp)
-    ```vb
-    Try
-        ' Reference the Tasks list on the SharePoint site.
-        ' Replace "TestServer" with a valid SharePoint server name.
-        Dim site As SPSite = New SPSite("http://TestServer")
-        Dim list As SPList = site.AllWebs(0).Lists("Tasks")
-        ' string text = "";
-        Dim sum As Integer = 0
-        Table1.Rows.Clear()
-        ' Add table headers.
-        Dim hr As TableHeaderRow = New TableHeaderRow
-        hr.BackColor = Color.LightBlue
-        Dim hc1 As TableHeaderCell = New TableHeaderCell
-        Dim hc2 As TableHeaderCell = New TableHeaderCell
-        hc1.Text = "Expense Report Name"
-        hc2.Text = "Amount Exceeded"
-        hr.Cells.Add(hc1)
-        hr.Cells.Add(hc2)
-        ' Add the TableHeaderRow as the first item
-        ' in the Rows collection of the table.
-        Table1.Rows.AddAt(0, hr)
-        ' Iterate through the tasks in the Task list and collect those
-        ' that have values in the "Related Content" and "Outcome" fields
-        ' - the fields written to when expense approval is required.
-        For Each item As SPListItem In list.Items
-            Dim s_relContent As String = ""
-            Dim s_outcome As String = ""
-            Try
-                ' Task has the fields - treat as expense report.
-                s_relContent = item.GetFormattedValue("Related Content")
-                s_outcome = item.GetFormattedValue("Outcome")
-            Catch erx As System.Exception
-                ' Task does not have fields - skip it.
-                Continue For
-            End Try
-            ' Convert amount to an int and keep a running total.
-            If (Not String.IsNullOrEmpty(s_relContent) And Not
-              String.IsNullOrEmpty(s_outcome)) Then
-                sum = (sum + Convert.ToInt32(s_outcome))
-                Dim relContent As TableCell = New TableCell
-                relContent.Text = s_relContent
-                Dim outcome As TableCell = New TableCell
-                outcome.Text = ("$" + s_outcome)
-                Dim dataRow2 As TableRow = New TableRow
-                dataRow2.Cells.Add(relContent)
-                dataRow2.Cells.Add(outcome)
-                Table1.Rows.Add(dataRow2)
-            End If
-        Next
-        ' Report the sum of the reports in the table footer.
-        Dim tfr As TableFooterRow = New TableFooterRow
-        tfr.BackColor = Color.LightGreen
-        ' Create a TableCell object to contain the
-        ' text for the footer.
-        Dim ftc1 As TableCell = New TableCell
-        Dim ftc2 As TableCell = New TableCell
-        ftc1.Text = "TOTAL: "
-        ftc2.Text = ("$" + Convert.ToString(sum))
-        ' Add the TableCell object to the Cells
-        ' collection of the TableFooterRow.
-        tfr.Cells.Add(ftc1)
-        tfr.Cells.Add(ftc2)
-        ' Add the TableFooterRow to the Rows
-        ' collection of the table.
-        Table1.Rows.Add(tfr)
-    Catch errx As Exception
-        System.Diagnostics.Debug.WriteLine(("Error: " + errx.ToString))
-    End Try
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     try
     {
@@ -299,6 +228,77 @@ ms.workload:
     {
         System.Diagnostics.Debug.WriteLine("Error: " + errx.ToString());
     }
+    ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Try
+        ' Reference the Tasks list on the SharePoint site.
+        ' Replace "TestServer" with a valid SharePoint server name.
+        Dim site As SPSite = New SPSite("http://TestServer")
+        Dim list As SPList = site.AllWebs(0).Lists("Tasks")
+        ' string text = "";
+        Dim sum As Integer = 0
+        Table1.Rows.Clear()
+        ' Add table headers.
+        Dim hr As TableHeaderRow = New TableHeaderRow
+        hr.BackColor = Color.LightBlue
+        Dim hc1 As TableHeaderCell = New TableHeaderCell
+        Dim hc2 As TableHeaderCell = New TableHeaderCell
+        hc1.Text = "Expense Report Name"
+        hc2.Text = "Amount Exceeded"
+        hr.Cells.Add(hc1)
+        hr.Cells.Add(hc2)
+        ' Add the TableHeaderRow as the first item
+        ' in the Rows collection of the table.
+        Table1.Rows.AddAt(0, hr)
+        ' Iterate through the tasks in the Task list and collect those
+        ' that have values in the "Related Content" and "Outcome" fields
+        ' - the fields written to when expense approval is required.
+        For Each item As SPListItem In list.Items
+            Dim s_relContent As String = ""
+            Dim s_outcome As String = ""
+            Try
+                ' Task has the fields - treat as expense report.
+                s_relContent = item.GetFormattedValue("Related Content")
+                s_outcome = item.GetFormattedValue("Outcome")
+            Catch erx As System.Exception
+                ' Task does not have fields - skip it.
+                Continue For
+            End Try
+            ' Convert amount to an int and keep a running total.
+            If (Not String.IsNullOrEmpty(s_relContent) And Not
+              String.IsNullOrEmpty(s_outcome)) Then
+                sum = (sum + Convert.ToInt32(s_outcome))
+                Dim relContent As TableCell = New TableCell
+                relContent.Text = s_relContent
+                Dim outcome As TableCell = New TableCell
+                outcome.Text = ("$" + s_outcome)
+                Dim dataRow2 As TableRow = New TableRow
+                dataRow2.Cells.Add(relContent)
+                dataRow2.Cells.Add(outcome)
+                Table1.Rows.Add(dataRow2)
+            End If
+        Next
+        ' Report the sum of the reports in the table footer.
+        Dim tfr As TableFooterRow = New TableFooterRow
+        tfr.BackColor = Color.LightGreen
+        ' Create a TableCell object to contain the
+        ' text for the footer.
+        Dim ftc1 As TableCell = New TableCell
+        Dim ftc2 As TableCell = New TableCell
+        ftc1.Text = "TOTAL: "
+        ftc2.Text = ("$" + Convert.ToString(sum))
+        ' Add the TableCell object to the Cells
+        ' collection of the TableFooterRow.
+        tfr.Cells.Add(ftc1)
+        tfr.Cells.Add(ftc2)
+        ' Add the TableFooterRow to the Rows
+        ' collection of the table.
+        Table1.Rows.Add(tfr)
+    Catch errx As Exception
+        System.Diagnostics.Debug.WriteLine(("Error: " + errx.ToString))
+    End Try
     ```
     ---
 

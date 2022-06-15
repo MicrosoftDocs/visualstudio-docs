@@ -40,13 +40,13 @@ A service is a contract between two VSPackages. One VSPackage provides a specifi
 - After you obtain a service, use [QueryInterface](/cpp/atl/queryinterface) (unmanaged code) or casting (managed code) to get the desired interface, for example:
 
   ### [C#](#tab/csharp)
-  ```vb
-  TryCast(GetService(GetType(SVsActivityLog)), IVsActivityLog)
+  ```csharp
+  GetService(typeof(SVsActivityLog)) as IVsActivityLog;
   ```
 
   ### [VB](#tab/vb)
-  ```csharp
-  GetService(typeof(SVsActivityLog)) as IVsActivityLog;
+  ```vb
+  TryCast(GetService(GetType(SVsActivityLog)), IVsActivityLog)
   ```
   ---
 

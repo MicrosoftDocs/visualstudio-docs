@@ -126,13 +126,13 @@ ms.workload:
  In projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], code that references a class that is defined in an Office PIA will not compile by default. Classes in the PIAs use the naming convention *objectname*Class, such as <xref:Microsoft.Office.Interop.Word.DocumentClass> and <xref:Microsoft.Office.Interop.Excel.WorkbookClass>. For example, the following code from a Word VSTO Add-in project will not compile.
 
 ### [C#](#tab/csharp)
-```vb
-Dim document As Word.DocumentClass = Globals.ThisAddIn.Application.ActiveDocument
+```csharp
+Word.DocumentClass document = (Word.DocumentClass) Globals.ThisAddIn.Application.ActiveDocument;
 ```
 
 ### [VB](#tab/vb)
-```csharp
-Word.DocumentClass document = (Word.DocumentClass) Globals.ThisAddIn.Application.ActiveDocument;
+```vb
+Dim document As Word.DocumentClass = Globals.ThisAddIn.Application.ActiveDocument
 ```
 ---
 
@@ -145,13 +145,13 @@ Word.DocumentClass document = (Word.DocumentClass) Globals.ThisAddIn.Application
   To resolve this error, modify the code to reference the corresponding interface instead. For example, rather than reference a <xref:Microsoft.Office.Interop.Word.DocumentClass> object, reference an instance of the <xref:Microsoft.Office.Interop.Word.Document> interface instead.
 
 ### [C#](#tab/csharp)
-```vb
-Dim document As Word.Document = Globals.ThisAddIn.Application.ActiveDocument
+```csharp
+Word.Document document = Globals.ThisAddIn.Application.ActiveDocument;
 ```
 
 ### [VB](#tab/vb)
-```csharp
-Word.Document document = Globals.ThisAddIn.Application.ActiveDocument;
+```vb
+Dim document As Word.Document = Globals.ThisAddIn.Application.ActiveDocument
 ```
 ---
 

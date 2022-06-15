@@ -56,17 +56,17 @@ ms.workload:
   The following code example shows how to call a macro named `MyMacro` from a document-level project for Excel. This example assumes that `MyMacro` is defined in `Sheet1`.
 
 ### [C#](#tab/csharp)
-```vb
-Globals.Sheet1.Application.Run("MyMacro")
-```
-
-### [VB](#tab/vb)
 ```csharp
 Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
     missing, missing, missing, missing, missing, missing, missing,
     missing, missing, missing, missing, missing, missing, missing,
     missing, missing, missing, missing, missing, missing, missing,
     missing, missing, missing, missing, missing, missing);
+```
+
+### [VB](#tab/vb)
+```vb
+Globals.Sheet1.Application.Run("MyMacro")
 ```
 ---
 

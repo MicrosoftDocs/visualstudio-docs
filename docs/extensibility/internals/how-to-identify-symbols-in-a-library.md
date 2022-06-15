@@ -56,15 +56,6 @@ N1
      The object manager calls this method to obtain the list of nodes contained in the canonical path of the symbol.
 
     ### [C#](#tab/csharp)
-    ```vb
-    Public Function EnumCanonicalNodes(ByRef ppEnum As Microsoft.VisualStudio.Shell.Interop.IVsEnumNavInfoNodes) As Integer
-        Dim EnumNavInfoNodes As CallBrowserEnumNavInfoNodes = _New CallBrowserEnumNavInfoNodes(m_strMethod)
-        ppEnum = CType(EnumNavInfoNodes, IVsEnumNavInfoNodes)
-        Return 0
-    End Function
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     public int EnumCanonicalNodes(out Microsoft.VisualStudio.Shell.Interop.IVsEnumNavInfoNodes ppEnum)
     {
@@ -74,6 +65,15 @@ N1
         return 0;
     }
 
+    ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Public Function EnumCanonicalNodes(ByRef ppEnum As Microsoft.VisualStudio.Shell.Interop.IVsEnumNavInfoNodes) As Integer
+        Dim EnumNavInfoNodes As CallBrowserEnumNavInfoNodes = _New CallBrowserEnumNavInfoNodes(m_strMethod)
+        ppEnum = CType(EnumNavInfoNodes, IVsEnumNavInfoNodes)
+        Return 0
+    End Function
     ```
     ---
 

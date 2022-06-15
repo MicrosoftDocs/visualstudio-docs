@@ -37,14 +37,6 @@ ms.workload:
      The following code example shows the constructor of a form region class in a project that targets the .NET Framework 3.5.
 
     ### [C#](#tab/csharp)
-    ```vb
-    Public Sub New(ByVal formRegion As Microsoft.Office.Interop.Outlook.FormRegion)
-        MyBase.New(formRegion)
-        Me.InitializeComponent()
-    End Sub
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     public FormRegion1(Microsoft.Office.Interop.Outlook.FormRegion formRegion)
         : base(formRegion)
@@ -52,25 +44,33 @@ ms.workload:
         this.InitializeComponent();
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Public Sub New(ByVal formRegion As Microsoft.Office.Interop.Outlook.FormRegion)
+        MyBase.New(formRegion)
+        Me.InitializeComponent()
+    End Sub
+    ```
     ---
 
      The following code example shows the constructor of a form region class in a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)].
 
     ### [C#](#tab/csharp)
-    ```vb
-    Public Sub New(ByVal formRegion As Microsoft.Office.Interop.Outlook.FormRegion)
-        MyBase.New(Globals.Factory, formRegion)
-        Me.InitializeComponent()
-    End Sub
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     public FormRegion1(Microsoft.Office.Interop.Outlook.FormRegion formRegion)
         : base(Globals.Factory, formRegion)
     {
         this.InitializeComponent();
     }
+    ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Public Sub New(ByVal formRegion As Microsoft.Office.Interop.Outlook.FormRegion)
+        MyBase.New(Globals.Factory, formRegion)
+        Me.InitializeComponent()
+    End Sub
     ```
     ---
 
@@ -79,40 +79,40 @@ ms.workload:
      The following code example shows the signature of the `InitializeManifest` method in a project that targets the .NET Framework 3.5.
 
     ### [C#](#tab/csharp)
-    ```vb
-    Private Shared Sub InitializeManifest(ByVal manifest As Microsoft.Office.Tools.Outlook.FormRegionManifest)
-
-        ' Do not change code in this method.
-    End Sub
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     private static void InitializeManifest(Microsoft.Office.Tools.Outlook.FormRegionManifest manifest)
     {
         // Do not change code in this method.
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Private Shared Sub InitializeManifest(ByVal manifest As Microsoft.Office.Tools.Outlook.FormRegionManifest)
+
+        ' Do not change code in this method.
+    End Sub
+    ```
     ---
 
      The following code example shows the signature `InitializeManifest` method in a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)].
 
     ### [C#](#tab/csharp)
-    ```vb
-    Private Shared Sub InitializeManifest(ByVal manifest As Microsoft.Office.Tools.Outlook.FormRegionManifest,
-        ByVal factory As Microsoft.Office.Tools.Outlook.Factory)
-
-        ' Do not change code in this method.
-    End Sub
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     private static void InitializeManifest(Microsoft.Office.Tools.Outlook.FormRegionManifest manifest,
         Microsoft.Office.Tools.Outlook.Factory factory)
     {
         // Do not change code in this method.
     }
+    ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Private Shared Sub InitializeManifest(ByVal manifest As Microsoft.Office.Tools.Outlook.FormRegionManifest,
+        ByVal factory As Microsoft.Office.Tools.Outlook.Factory)
+
+        ' Do not change code in this method.
+    End Sub
     ```
     ---
 
@@ -135,13 +135,6 @@ ms.workload:
      The following code example shows the constructor of a form region class in a project that targets the .NET Framework 3.5.
 
     ### [C#](#tab/csharp)
-    ```vb
-    Public Sub New(ByVal formRegion As Microsoft.Office.Interop.Outlook.FormRegion)
-        MyBase.New(formRegion)
-    End Sub
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     public ImportedFormRegion1(Microsoft.Office.Interop.Outlook.FormRegion formRegion)
         : base(formRegion)
@@ -150,18 +143,18 @@ ms.workload:
         this.FormRegionClosed += new System.EventHandler(this.TaskFormRegion_FormRegionClosed);
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Public Sub New(ByVal formRegion As Microsoft.Office.Interop.Outlook.FormRegion)
+        MyBase.New(formRegion)
+    End Sub
+    ```
     ---
 
      The following code example shows the signature of the constructor of a form region class in a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)].
 
     ### [C#](#tab/csharp)
-    ```vb
-    Public Sub New(ByVal formRegion As Microsoft.Office.Interop.Outlook.FormRegion)
-        MyBase.New(Globals.Factory, formRegion)
-    End Sub
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     public ImportedFormRegion1(Microsoft.Office.Interop.Outlook.FormRegion formRegion)
         : base(Globals.Factory, formRegion)
@@ -170,6 +163,13 @@ ms.workload:
         this.FormRegionClosed += new System.EventHandler(this.TaskFormRegion_FormRegionClosed);
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Public Sub New(ByVal formRegion As Microsoft.Office.Interop.Outlook.FormRegion)
+        MyBase.New(Globals.Factory, formRegion)
+    End Sub
+    ```
     ---
 
 4. For each line of code in the `InitializeControls` method that initializes a control in the form region class, modify the code as shown below.
@@ -177,26 +177,26 @@ ms.workload:
      The following code example shows how to initialize a control in a project that targets the .NET Framework 3.5. In this code, the `GetFormRegionControl` method has a type parameter that specifies the type of the control that is returned.
 
     ### [C#](#tab/csharp)
-    ```vb
-    Me.olkTextBox1 = Me.GetFormRegionControl(Of Microsoft.Office.Interop.Outlook.OlkTextBox)("OlkTextBox1")
+    ```csharp
+    this.olkTextBox1 = this.GetFormRegionControl<Microsoft.Office.Interop.Outlook.OlkTextBox>("OlkTextBox1");
     ```
 
     ### [VB](#tab/vb)
-    ```csharp
-    this.olkTextBox1 = this.GetFormRegionControl<Microsoft.Office.Interop.Outlook.OlkTextBox>("OlkTextBox1");
+    ```vb
+    Me.olkTextBox1 = Me.GetFormRegionControl(Of Microsoft.Office.Interop.Outlook.OlkTextBox)("OlkTextBox1")
     ```
     ---
 
      The following code example shows how to initialize a control in a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]. In this code, the <xref:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase.GetFormRegionControl%2A> method does not have a type parameter. You must cast the return value to the type of the control that you are initializing.
 
     ### [C#](#tab/csharp)
-    ```vb
-    Me.olkTextBox1 = CType(GetFormRegionControl("OlkTextBox1"), Microsoft.Office.Interop.Outlook.OlkTextBox)
+    ```csharp
+    this.olkTextBox1 = (Microsoft.Office.Interop.Outlook.OlkTextBox)GetFormRegionControl("OlkTextBox1");
     ```
 
     ### [VB](#tab/vb)
-    ```csharp
-    this.olkTextBox1 = (Microsoft.Office.Interop.Outlook.OlkTextBox)GetFormRegionControl("OlkTextBox1");
+    ```vb
+    Me.olkTextBox1 = CType(GetFormRegionControl("OlkTextBox1"), Microsoft.Office.Interop.Outlook.OlkTextBox)
     ```
     ---
 

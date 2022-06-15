@@ -50,20 +50,20 @@ By default, after you separate the dataset and TableAdapter code, the result is 
 5. The following example shows where to add code to the `CustomersTableAdapter` in the `NorthwindDataSet`:
 
     ### [C#](#tab/csharp)
-    ```vb
-    Partial Public Class CustomersTableAdapter
-        ' Add code here to add functionality
-        ' to the CustomersTableAdapter.
-    End Class
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     public partial class CustomersTableAdapter
     {
         // Add code here to add functionality
         // to the CustomersTableAdapter.
     }
+    ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Partial Public Class CustomersTableAdapter
+        ' Add code here to add functionality
+        ' to the CustomersTableAdapter.
+    End Class
     ```
     ---
 

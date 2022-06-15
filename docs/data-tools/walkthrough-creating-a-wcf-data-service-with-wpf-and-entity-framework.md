@@ -271,6 +271,20 @@ In this step, you customize the application to filter the data by the customer's
 3. Open the shortcut menu for the <xref:System.Windows.Forms.Button> control, choose **View Code**, and then add the following code in the `Button1_Click` event handler:
 
     ### [C#](#tab/csharp)
+    ```csharp
+    private void Button1_Click(object sender, EventArgs e)
+    {
+    ServiceReference1.northwindModel.northwindEntities proxy = new northwindEntities(new Uri("http://localhost:53161/NorthwindCustomers.svc"));
+    string city = TextBox1.Text;
+
+    if (!string.IsNullOrEmpty(city)) {
+    this.CustomersBindingSource.DataSource = from c in proxy.Customers where c.City == city;
+    }
+
+    }
+    ```
+
+    ### [VB](#tab/vb)
     ```vb
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
             Dim proxy As New northwindEntities _
@@ -283,20 +297,6 @@ In this step, you customize the application to filter the data by the customer's
             End If
 
         End Sub
-    ```
-
-    ### [VB](#tab/vb)
-    ```csharp
-    private void Button1_Click(object sender, EventArgs e)
-    {
-    ServiceReference1.northwindModel.northwindEntities proxy = new northwindEntities(new Uri("http://localhost:53161/NorthwindCustomers.svc"));
-    string city = TextBox1.Text;
-
-    if (!string.IsNullOrEmpty(city)) {
-    this.CustomersBindingSource.DataSource = from c in proxy.Customers where c.City == city;
-    }
-
-    }
     ```
     ---
 
