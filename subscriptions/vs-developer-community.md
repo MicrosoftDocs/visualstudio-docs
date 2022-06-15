@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 44a790d1-f37e-4be0-9023-af1b3fdfcd35
-ms.date: 05/03/2022
+ms.date: 06/14/2022
 ms.topic: how-to
 ms.custom: kr2b-contr-experiment
 description:  Learn about the Developer Community Support benefit included in selected Visual Studio subscriptions.
@@ -23,16 +23,16 @@ Connecting to the Developer Community is simple.
 (You can also point your browser directly to <https://developercommunity.visualstudio.com/>.)
 
    > [!div class="mx-imgBorder"]
-   > ![Developer Community Tile](_img/vs-developer-community/vs-developer-community-tile.png "Click 'Get help' to connect to the Developer Community")
+   > ![Developer Community Tile](_img/vs-developer-community/vs-developer-community-tile.png "Screenshot of Developer Community tile.  Get help button is highlighted.")
 
 You can search for answers, or view content in product areas such as:
 
-- Visual Studio
-- Visual Studio for Mac
-- .NET
-- C++
-- Azure DevOps
-- Azure DevOps Server (TFS)
++ Visual Studio
++ Visual Studio for Mac
++ .NET
++ C++
++ Azure DevOps
++ Azure DevOps Server (TFS)
 
 Within each area, you'll find updates, problem reports, discussion of new features, and more. You can also report problems and request new features.  
 
@@ -42,21 +42,21 @@ The Developer Community is freely available.  No subscription is required.
 
 ## Support Resources
 
-- Need assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions?  Contact [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp).
-- Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
++ Need assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions?  Contact [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp).
++ Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## See also
 
-- [Visual Studio documentation](/visualstudio/)
-- [Azure DevOps documentation](/azure/devops/)
-- [Azure documentation](/azure/)
-- [Microsoft 365 documentation](/microsoft-365/)
++ [Visual Studio documentation](/visualstudio/)
++ [Azure DevOps documentation](/azure/devops/)
++ [Azure documentation](/azure/)
++ [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 
 Check out the other support resources available, including:
 
-- [Concierge Chat](vs-concierge-chat.md)
-- [Microsoft Q&A](vs-microsoft-qa.md)
-- [Microsoft Tech Community](vs-microsoft-tech-community.md)
-- [Azure Community](vs-azure-community.md)
++ [Concierge Chat](vs-concierge-chat.md)
++ [Microsoft Q&A](vs-microsoft-qa.md)
++ [Microsoft Tech Community](vs-microsoft-tech-community.md)
++ [Azure Community](vs-azure-community.md)
