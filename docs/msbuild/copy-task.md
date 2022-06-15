@@ -42,7 +42,8 @@ The following table describes the parameters of the `Copy` task.
 |`RetryDelayMilliseconds`|Optional `Int32` parameter.<br /><br /> Specifies the delay between any necessary retries. Defaults to the RetryDelayMillisecondsDefault argument, which is passed to the CopyTask constructor.|
 |`SkipUnchangedFiles`|Optional `Boolean` parameter.<br /><br /> If `true`, skips the copying of files that are unchanged between the source and destination. The `Copy` task considers files to be unchanged if they have the same size and the same last modified time. <br /><br /> **Note:**  If you set this parameter to `true`, you should not use dependency analysis on the containing target, because that only runs the task if the last-modified times of the source files are newer than the last-modified times of the destination files.|
 |`SourceFiles`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the files to copy.|
-|`UseHardlinksIfPossible`|Optional `Boolean` parameter.<br /><br /> If `true`, creates Hard Links for the copied files instead of copying the files.|
+|`UseHardlinksIfPossible`|Optional `Boolean` parameter.<br /><br /> If `true`, creates hard links for the copied files instead of copying the files.|
+|`UseSymbolicLinksIfPossible`|Optional `Boolean` parameter.<br /><br />If `true`, creates symbolic links for the copied files rather than copy the files, if it's possible to do so.|
 
 ## Warnings
 
