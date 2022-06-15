@@ -125,11 +125,6 @@ The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute ha
 ```vb
 <Scope:SuppressMessage("Rule Category", "Rule Id", Justification = "Justification", MessageId = "MessageId", Scope = "Scope", Target = "Target")>
 ```
-
-### [C++](#tab/cpp)
-```cpp
-CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification", MessageId = "MessageId", Scope = "Scope", Target = "Target")
-```
 ---
 
 The properties of the attribute include:
