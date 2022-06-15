@@ -19,7 +19,7 @@ Eligible Visual Studio subscriptions include subscriptions to DataCamp.  With Da
 
 2. Locate the DataCamp benefit tile in the "Professional Development" category, and select on **Activate**.
    > [!div class="mx-imgBorder"]
-   > ![DataCamp Benefit Tile](_img/vs-datacamp/vs-datacamp-tile-2.png "Screenshot of the DataCamp tile.  The Activate button is highlighted.")
+   > ![DataCamp Benefit Tile](_img/vs-datacamp/vs-datacamp-tile-2.png "Screenshot of the Data Camp tile.  The Activate button is highlighted.")
 
 3. On the DataCamp page, you can create a new account.  You can choose to enter an email address and password, or sign in using existing accounts from Facebook, LinkedIn, or Google.  Provide your sign-in information and select **Get Started**.
 
@@ -37,7 +37,7 @@ Eligible Visual Studio subscriptions include subscriptions to DataCamp.  With Da
 
 5. After you've selected your path, you can further refine your learning path by selecting a goal.  For example, if you chose the "Develop your Data Science Skillset" path, you'll see the following options. Choose an option, or select **I am not sure.  Show me all career paths** to create a broader path.
    > [!div class="mx-imgBorder"]
-   > ![DataCamp Data Science Skillset](_img/vs-datacamp/vs-datacamp-datascience.png "Screenshot of Develop your Data Science Skillset dialog. 'I am not sure.  Show me all career paths' option is selected.")
+   > ![DataCamp Data Science Skillset](_img/vs-datacamp/vs-datacamp-datascience.png "Screenshot of Develop your Data Science Skill set dialog. I am not sure.  Show me all career paths option is selected.")
 
 6. Based on the path and options you've selected, you'll see a selection of Career Tracks.  Select the **Enroll** button for the track of your choice.
    > [!div class="mx-imgBorder"]
@@ -46,7 +46,7 @@ Eligible Visual Studio subscriptions include subscriptions to DataCamp.  With Da
 7. After you've enrolled in your track, the first course in that track will open.  You'll see a tutorial explaining how to interact with the course, including navigation and completing the course exercises.
 
    > [!div class="mx-imgBorder"]
-   > ![DataCamp Getting Started](_img/vs-datacamp/vs-datacamp-getting-started.png "Screenshot of 'How it works' course introduction.  A dismissable bubble with directions to get started is displayed.")
+   > ![DataCamp Getting Started](_img/vs-datacamp/vs-datacamp-getting-started.png "Screenshot of How it works course introduction.  A dismissable bubble with directions to get started is displayed.")
 
 You can stop at any point, and resume your training in your next session.  Just visit [https://www.datacamp.com](https://www.datacamp.com), and sign in.  You'll see your dashboard and can resume your training right where you paused. Simply select **Continue Track**.
 
