@@ -33,7 +33,7 @@ Eligible Visual Studio subscriptions include subscriptions to DataCamp.  With Da
 
    Just select your chosen path to get started.
    > [!div class="mx-imgBorder"]
-   > ![DataCamp Choose Path](_img/vs-datacamp/vs-datacamp-choose-path.png "Screenshot of Welcome to DataCamp screen showing available learning paths.")
+   > ![DataCamp Choose Path](_img/vs-datacamp/vs-datacamp-choose-path.png "Screenshot of Welcome to Data Camp screen showing available learning paths.")
 
 5. After you've selected your path, you can further refine your learning path by selecting a goal.  For example, if you chose the "Develop your Data Science Skillset" path, you'll see the following options. Choose an option, or select **I am not sure.  Show me all career paths** to create a broader path.
    > [!div class="mx-imgBorder"]
