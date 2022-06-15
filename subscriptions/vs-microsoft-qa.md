@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 16af82df-380a-4864-9f4e-6c3442cc7da2
-ms.date: 05/03/2022
+ms.date: 06/15/2022
 ms.topic: how-to
 ms.custom: kr2b-contr-experiment
 description:  Learn about the Microsoft Q&A forum support benefit included in selected Visual Studio subscriptions.
@@ -16,21 +16,21 @@ Have a technical product question? Find it on Microsoft Q&A – the home for tec
 
 You can search questions and answers on a wide range of supported products, including:
 
-- .NET
-- Azure
-- BizTalk Server
-- C++
-- Enterprise Mobility + Security
-- Microsoft 365
-- Microsoft Advertising
-- Microsoft Edge
-- Open Specifications
-- Small Basic
-- SQL Server
-- System Center
-- Visual Studio
-- Windows
-- Windows Sysinternals
++ .NET
++ Azure
++ BizTalk Server
++ C++
++ Enterprise Mobility + Security
++ Microsoft 365
++ Microsoft Advertising
++ Microsoft Edge
++ Open Specifications
++ Small Basic
++ SQL Server
++ System Center
++ Visual Studio
++ Windows
++ Windows Sysinternals
 
 You'll also find "how-to" guides to help you ask great questions and craft quality answers for other users.
 
@@ -50,21 +50,21 @@ The Microsoft Q&A forum is freely available.  No subscription is required.
 
 ## Support Resources
 
-- Need assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions?  Contact [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp).
-- Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
++ Need assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions?  Contact [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp).
++ Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## See also
 
-- [Visual Studio documentation](/visualstudio/)
-- [Azure DevOps documentation](/azure/devops/)
-- [Azure documentation](/azure/)
-- [Microsoft 365 documentation](/microsoft-365/)
++ [Visual Studio documentation](/visualstudio/)
++ [Azure DevOps documentation](/azure/devops/)
++ [Azure documentation](/azure/)
++ [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 
 Check out the other support resources available, including:
 
-- [Concierge Chat](vs-concierge-chat.md)
-- [Developer Community](vs-developer-community.md)
-- [Microsoft Tech Community](vs-microsoft-tech-community.md)
-- [Azure Community](vs-azure-community.md)
++ [Concierge Chat](vs-concierge-chat.md)
++ [Developer Community](vs-developer-community.md)
++ [Microsoft Tech Community](vs-microsoft-tech-community.md)
++ [Azure Community](vs-azure-community.md)
