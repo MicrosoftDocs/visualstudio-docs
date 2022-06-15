@@ -24,7 +24,7 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 
 0. Locate the LinkedIn Learning tile in the Education category, and select the **Get code** link.
    > [!div class="mx-imgBorder"]
-   > ![LinkedIn Learning Benefit Tile](_img/vs-linkedin/vs-linkedin-6-month-tile.png "Screenshot of LinkedIn Learning tile. 'Get code' button is highlighted.")
+   > ![LinkedIn Learning Benefit Tile](_img/vs-linkedin/vs-linkedin-6-month-tile.png "Screenshot of Linked In Learning tile. Get code button is highlighted.")
 
 0. If you already have a LinkedIn account, enter your username and password, and then select **Sign in**.  Skip to [this step](#activate-your-offer) to activate your offer.  If you don't have an account, follow the steps in the next section to create one. 
 
@@ -56,15 +56,15 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 
 1. Now that you’ve either signed in to your LinkedIn account or created a new one, you’re ready to activate your Premium subscription. Select **Activate your offer**.
    > [!div class="mx-imgBorder"]
-   > ![LinkedIn Learning Activate](_img/vs-linkedin/vs-linkedin-Activate1.png "Screenshot of offering description page.  'Activate your offer' button is highlighted.")
+   > ![LinkedIn Learning Activate](_img/vs-linkedin/vs-linkedin-Activate1.png "Screenshot of offering description page.  Activate your offer button is highlighted.")
 
 0. You can begin exploring skills that interest you.  Choose from the list of recommendations, search for other skills, or select **Skip** to continue without choosing skills.
    > [!div class="mx-imgBorder"]
-   > ![LinkedIn Learning Skills](_img/vs-linkedin/vs-linkedin-skills.png "Screenshot of skill area selection page.  'Skip' button is highlighted.")
+   > ![LinkedIn Learning Skills](_img/vs-linkedin/vs-linkedin-skills.png "Screenshot of skill area selection page.  Skip button is highlighted.")
 
 0. You’ve successfully activated your Premium subscription offer and can now begin using LinkedIn Learning and all the other benefits of Premium!
    > [!div class="mx-imgBorder"]
-   > ![LinkedIn Learning Home](_img/vs-linkedin/vs-linkedin-learning-home.png "Screenshot of welcome page for LinkedIn Premium.")
+   > ![LinkedIn Learning Home](_img/vs-linkedin/vs-linkedin-learning-home.png "Screenshot of welcome page for Linked In Premium.")
 
 > [!NOTE]
 > This offer is not included in Visual Studio Dev Essentials memberships.
