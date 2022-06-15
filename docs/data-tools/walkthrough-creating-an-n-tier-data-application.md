@@ -253,21 +253,21 @@ Now that the data access tier contains the methods to return data, create method
 2. Add the following code under the **Add your service operations here** comment:
 
     ### [C#](#tab/csharp)
-    ```vb
-    <OperationContract()> _
-    Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable
-
-    <OperationContract()> _
-    Function GetOrders() As DataEntityTier.NorthwindDataSet.OrdersDataTable
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     [OperationContract]
     DataEntityTier.NorthwindDataSet.CustomersDataTable GetCustomers();
 
     [OperationContract]
     DataEntityTier.NorthwindDataSet.OrdersDataTable GetOrders();
+    ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    <OperationContract()> _
+    Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable
+
+    <OperationContract()> _
+    Function GetOrders() As DataEntityTier.NorthwindDataSet.OrdersDataTable
     ```
     ---
 
@@ -279,19 +279,6 @@ Now that the data access tier contains the methods to return data, create method
 4. Add the following code to the **Service1** class:
 
     ### [C#](#tab/csharp)
-    ```vb
-    Public Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable Implements IService1.GetCustomers
-        Dim CustomersTableAdapter1 As New DataAccessTier.NorthwindDataSetTableAdapters.CustomersTableAdapter
-        Return CustomersTableAdapter1.GetCustomers()
-    End Function
-
-    Public Function GetOrders() As DataEntityTier.NorthwindDataSet.OrdersDataTable Implements IService1.GetOrders
-        Dim OrdersTableAdapter1 As New DataAccessTier.NorthwindDataSetTableAdapters.OrdersTableAdapter
-        Return OrdersTableAdapter1.GetOrders()
-    End Function
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     public DataEntityTier.NorthwindDataSet.CustomersDataTable GetCustomers()
     {
@@ -307,6 +294,19 @@ Now that the data access tier contains the methods to return data, create method
             = new DataAccessTier.NorthwindDataSetTableAdapters.OrdersTableAdapter();
         return OrdersTableAdapter1.GetOrders();
     }
+    ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Public Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable Implements IService1.GetCustomers
+        Dim CustomersTableAdapter1 As New DataAccessTier.NorthwindDataSetTableAdapters.CustomersTableAdapter
+        Return CustomersTableAdapter1.GetCustomers()
+    End Function
+
+    Public Function GetOrders() As DataEntityTier.NorthwindDataSet.OrdersDataTable Implements IService1.GetOrders
+        Dim OrdersTableAdapter1 As New DataAccessTier.NorthwindDataSetTableAdapters.OrdersTableAdapter
+        Return OrdersTableAdapter1.GetOrders()
+    End Function
     ```
     ---
 
@@ -374,18 +374,18 @@ After you add the service reference to the data service, the **Data Sources** wi
 7. Add the following code to the `Form1_Load` event handler.
 
     ### [C#](#tab/csharp)
-    ```vb
-    Dim DataSvc As New ServiceReference1.Service1Client
-    NorthwindDataSet.Customers.Merge(DataSvc.GetCustomers)
-    NorthwindDataSet.Orders.Merge(DataSvc.GetOrders)
-    ```
-
-    ### [VB](#tab/vb)
     ```csharp
     ServiceReference1.Service1Client DataSvc =
         new ServiceReference1.Service1Client();
     northwindDataSet.Customers.Merge(DataSvc.GetCustomers());
     northwindDataSet.Orders.Merge(DataSvc.GetOrders());
+    ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Dim DataSvc As New ServiceReference1.Service1Client
+    NorthwindDataSet.Customers.Merge(DataSvc.GetCustomers)
+    NorthwindDataSet.Orders.Merge(DataSvc.GetOrders)
     ```
     ---
 

@@ -40,8 +40,12 @@ To keep track of time during the quiz, you use a timer component. You also need 
 
 1. Add an integer variable that's named **timeLeft** in the same way that you declared variables in previous tutorials. Put the **timeLeft** declaration right after the other declarations. Your code should look like the following sample.
 
-   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step7/vb/form1.vb" id="Snippet15":::
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step7/cs/form1.cs" id="Snippet15":::
+
+   ### [VB](#tab/vb)
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step7/vb/form1.vb" id="Snippet15":::
+   ---
 
    [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
 
@@ -80,8 +84,12 @@ Now that you have a way to check the answers, you can write the code for the Tic
 
 1. Add the following statements to the new event handler method.
 
-   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step3/vb/form1.vb" id="Snippet6":::
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step3/cs/form1.cs" id="Snippet6":::
+
+   ### [VB](#tab/vb)
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step3/vb/form1.vb" id="Snippet6":::
+   ---
 
    Each second of the quiz, this method runs. The code first checks the value that `CheckTheAnswer()` returns.
 

@@ -204,13 +204,21 @@ To complete the NewCustomer form logic, follow these steps.
 
 2. Add some variables and helper methods to the class as shown in the following code.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../data-tools/codesnippet/CSharp/SimpleDataApp/NewCustomer.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../data-tools/codesnippet/VisualBasic/SimpleDataApp/NewCustomer.vb" id="Snippet1":::
+     ---
 
 3. Complete the method bodies for the four button click event handlers as shown in the following code.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../data-tools/codesnippet/CSharp/SimpleDataApp/NewCustomer.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../data-tools/codesnippet/VisualBasic/SimpleDataApp/NewCustomer.vb" id="Snippet2":::
+     ---
 
 ### FillOrCancel form
 
@@ -241,13 +249,21 @@ To complete the FillOrCancel form logic, follow these steps.
 
 2. Add a variable and helper method to the class as shown in the following code.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../data-tools/codesnippet/CSharp/SimpleDataApp/FillOrCancel.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../data-tools/codesnippet/VisualBasic/SimpleDataApp/FillOrCancel.vb" id="Snippet1":::
+     ---
 
 3. Complete the method bodies for the four button click event handlers as shown in the following code.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../data-tools/codesnippet/CSharp/SimpleDataApp/FillOrCancel.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../data-tools/codesnippet/VisualBasic/SimpleDataApp/FillOrCancel.vb" id="Snippet2":::
+     ---
 
 ## Test your application
 

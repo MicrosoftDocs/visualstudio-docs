@@ -83,9 +83,12 @@ Your application calls an event handler when an action takes place, such as sele
 
    The following snippet shows the new code that you see in the code editor.
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial1step6/cs/form1.cs" id="Snippet2":::
 
+   ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial1step6/vb/form1.vb" id="Snippet2":::
+   ---
 
 Methods, including event handlers, can have any name that you want.
 When you add an event handler with the IDE, it creates a name based on the control's name and the event being handled.
@@ -158,13 +161,21 @@ As you type, IntelliSense suggests possible code.
    You can copy and paste or use IntelliSense to add it.
    Your final `showButton_Click()` method should look similar to the following code.
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial1step8/cs/form1.cs" id="Snippet1":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial1step8/vb/form1.vb" id="Snippet1":::
+   ---
 
 1. Add the following comment to your code.
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial1step9_10/cs/form1.cs" id="Snippet1":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial1step9_10/vb/form1.vb" id="Snippet1":::
+   ---
 
    It's the best practice to always comment your code.
    Code comments make it easier to understand and maintain your code in the future.

@@ -53,8 +53,12 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
 
 5. Using Notepad or another text editor, define a class named `DynamicClass` with a single property named `Message`.
 
-    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_Winforms/ClickOnceLibrary/VB/Class1.vb" id="Snippet1":::
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../snippets/csharp/VS_Snippets_Winforms/ClickOnceLibrary/CS/Class1.cs" id="Snippet1":::
+
+    ### [VB](#tab/vb)
+    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_Winforms/ClickOnceLibrary/VB/Class1.vb" id="Snippet1":::
+    ---
 
 6. Save the text as a file named *ClickOnceLibrary.cs* or *ClickOnceLibrary.vb*, depending on the language you use, to the *ClickOnceOnDemand* directory.
 
@@ -79,8 +83,12 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
 
 9. Create a new file using your text editor and enter the following code. This code creates a Windows Forms application that downloads the ClickOnceLibrary assembly when it is required.
 
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../snippets/csharp/VS_Snippets_Winforms/ClickOnceOnDemandCmdLine/CS/Form1.cs" id="Snippet1":::
+
+    ### [VB](#tab/vb)
     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_Winforms/ClickOnceOnDemandCmdLine/VB/Form1.vb" id="Snippet1":::
+    ---
 
 10. In the code, locate the call to <xref:System.Reflection.Assembly.LoadFile%2A>.
 

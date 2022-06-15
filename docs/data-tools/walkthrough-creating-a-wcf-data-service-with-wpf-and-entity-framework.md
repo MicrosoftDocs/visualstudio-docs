@@ -126,13 +126,21 @@ In the next step, you create and test the data service.
 
 4. In the **Code Editor**, locate the first `TODO:` comment and replace the code with the following:
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfdataservicewalkthrough/vb/northwindcustomers.svc.vb" id="Snippet1":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfdataservicewalkthrough/cs/northwindcustomers.svc.cs" id="Snippet1":::
 
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfdataservicewalkthrough/vb/northwindcustomers.svc.vb" id="Snippet1":::
+    ---
+     
 5. Replace the comments in the `InitializeService` event handler with the following code:
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfdataservicewalkthrough/vb/northwindcustomers.svc.vb" id="Snippet2":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfdataservicewalkthrough/cs/northwindcustomers.svc.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfdataservicewalkthrough/vb/northwindcustomers.svc.vb" id="Snippet2":::
+     ---
 
 
 6. On the menu bar, choose **Debug** > **Start Without Debugging** to run the service. A browser window opens and the XML schema for the service displays.
@@ -208,34 +216,34 @@ In the next step, you create the user interface that displays the data from the 
 4. In **Solution Explorer**, open the shortcut menu for the **Form1** node and choose **View Code** to open the Code Editor, and add the following `Imports` or `Using` statement at the top of the file:
 
    ### [C#](#tab/csharp)
-   ```vb
-   Imports NorthwindClient.ServiceReference1
+   ```csharp
+   using NorthwindClient.ServiceReference1;
    ```
 
    ### [VB](#tab/vb)
-   ```csharp
-   using NorthwindClient.ServiceReference1;
+   ```vb
+   Imports NorthwindClient.ServiceReference1
    ```
    ---
 
 5. Add the following code to the `Form1_Load` event handler:
 
    ### [C#](#tab/csharp)
-   ```vb
-   Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-           Dim proxy As New NorthwindEntities _
-   (New Uri("http://localhost:53161/NorthwindCustomers.svc/"))
-           Me.CustomersBindingSource.DataSource = proxy.Customers
-       End Sub
-   ```
-
-   ### [VB](#tab/vb)
    ```csharp
    private void Form1_Load(object sender, EventArgs e)
    {
    NorthwindEntities proxy = new NorthwindEntities(new Uri("http://localhost:53161/NorthwindCustomers.svc/"));
    this.CustomersBindingSource.DataSource = proxy.Customers;
    }
+   ```
+
+   ### [VB](#tab/vb)
+   ```vb
+   Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+           Dim proxy As New NorthwindEntities _
+   (New Uri("http://localhost:53161/NorthwindCustomers.svc/"))
+           Me.CustomersBindingSource.DataSource = proxy.Customers
+       End Sub
    ```
    ---
 

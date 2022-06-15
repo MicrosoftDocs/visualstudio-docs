@@ -41,8 +41,12 @@ ms.workload:
     > [!NOTE]
     > The `Microsoft.Office.Interop.Visio.Document.Save` method throws an exception if a new Visio document has not yet been saved.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs" id="Snippet11":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb" id="Snippet11":::
+     ---
 
 ## Save a document with a new name
  Use the `Microsoft.Office.Interop.Visio.Document.SaveAs` method to save a new document, or a document that has a new name. This method requires that you specify the new file name.
@@ -53,8 +57,12 @@ ms.workload:
 
      To use this code example, run it from the `ThisAddIn` class in your project.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs" id="Snippet10":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb" id="Snippet10":::
+     ---
 
 ## Save a document with a new name and specified arguments
  Use the `Microsoft.Office.Interop.Visio.Document.SaveAsEx` method to save a document with a new name, and specify any applicable arguments to apply to the document.
@@ -65,8 +73,12 @@ ms.workload:
 
      The following code example saves the active document with a new name, marks the document as read-only, and shows the document in the Most Recently Used list of documents. To use this code example, run it from the `ThisAddIn` class in your project.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs" id="Snippet12":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb" id="Snippet12":::
+     ---
 
 ## Compile the code
  This code example requires the following:

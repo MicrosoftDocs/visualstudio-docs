@@ -29,8 +29,8 @@ ms.workload:
 - Use the `Microsoft.Office.Interop.Visio.Documents.Add` method to create a new blank document that is not based on a template.
 
      ### [C#](#tab/csharp)
-     :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs" id="Snippet1":::
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb" id="Snippet1":::
+     ### [C#](#tab/csharp)     :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs" id="Snippet1":::
+     ### [VB](#tab/vb)     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb" id="Snippet1":::     ---
 
 ## Create documents copied from existing documents
  The `Microsoft.Office.Interop.Visio.Documents.Add` method can create a new document that is a copy of an existing Visio document. You must supply the file name and fully qualified path of the diagram.
@@ -52,8 +52,12 @@ ms.workload:
 
 - Call the `Microsoft.Office.Interop.Visio.Documents.Add` method and specify the path of the stencil.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb" id="Snippet3":::
+     ---
 
 ## Create documents based on existing templates
  The `Microsoft.Office.Interop.Visio.Documents.Add` method can create a new document (a *.vsd* file) that is based on an existing Visio template (a *.vst* file). This method copies the stencils, styles, and settings that are part of the template workspace. You must supply the file name and fully qualified path of the template.
@@ -62,8 +66,12 @@ ms.workload:
 
 - Call the `Microsoft.Office.Interop.Visio.Documents.Add` method and specify the path of the template.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs" id="Snippet4":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb" id="Snippet4":::
+     ---
 
 ## Compile the code
  This code example requires the following:
