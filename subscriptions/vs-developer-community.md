@@ -23,7 +23,7 @@ Connecting to the Developer Community is simple.
 (You can also point your browser directly to <https://developercommunity.visualstudio.com/>.)
 
    > [!div class="mx-imgBorder"]
-   > ![Developer Community Tile](_img/vs-developer-community/vs-developer-community-tile.png "Screenshot of Developer Community tile.  'Get help' button is highlighted.")
+   > ![Developer Community Tile](_img/vs-developer-community/vs-developer-community-tile.png "Screenshot of Developer Community tile.  Get help button is highlighted.")
 
 You can search for answers, or view content in product areas such as:
 
