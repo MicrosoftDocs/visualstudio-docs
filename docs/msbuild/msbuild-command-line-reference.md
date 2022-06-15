@@ -43,7 +43,7 @@ MSBuild.exe [Switches] [ProjectFile]
 
 |Switch|Short form|Description|
 |------------|----------------|-----------------|
-|-detailedSummary[:`true` or `false`]|-ds[:`true` or `false`]|If `true`, show detailed information at the end of the build log about the configurations that were built and how they were scheduled to nodes.|
+|-detailedSummary[:`True` or `False`]|-ds[:`True` or `False`]|If `True`, show detailed information at the end of the build log about the configurations that were built and how they were scheduled to nodes.|
 |-graphBuild[:`True` or `False`]|-graph[:`True` or `False`]|Causes MSBuild to construct and build a project graph. Constructing a graph involves identifying project references to form dependencies. Building that graph involves attempting to build project references prior to the projects that reference them, differing from traditional MSBuild scheduling. Requires MSBuild 16 or later.|
 |-help|/? or -h|Display usage information. The following command is an example:<br /><br /> `msbuild.exe -?`|
 |-ignoreProjectExtensions: `extensions`|-ignore: `extensions`|Ignore the specified extensions when determining which project file to build. Use a semicolon or a comma to separate multiple extensions, as the following example shows:<br /><br /> `-ignoreprojectextensions:.vcproj,.sln`|
