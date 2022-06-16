@@ -76,7 +76,7 @@ By default, [CodeLens](../find-code-changes-and-other-history-with-codelens.md) 
 
 ## Use box selection
 
-Selected by default, toggle to disable the new [multi-caret selection](../finding-and-replacing-text.md?view=vs-2022&preserve-view=true#multi-caret-selection) behavior that's new in Visual Studio 2022:
+Select this option to disable the new [multi-caret selection](../finding-and-replacing-text.md?view=vs-2022&preserve-view=true#multi-caret-selection) behavior that's new in Visual Studio 2022:
 
 - Adapts "block selection" similarly as does the multi-caret functionality in [VS Code](https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor).
 - Supports copying and pasting a different section of text with each caret, instead of just a single block-shaped section of text.
