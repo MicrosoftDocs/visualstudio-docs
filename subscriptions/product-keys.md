@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 89e3fcf9-fe5d-4266-8dd7-5567d05fe869
-ms.date: 05/24/2022
+ms.date: 06/16/2022
 ms.topic: conceptual
 description:  Learn how to obtain and manage your product keys in Visual Studio subscriptions.
 ---
@@ -73,9 +73,9 @@ Various key types are available, depending on the product.
 |  Custom Key  |  Custom keys provide special actions or information to activate or install the product. |
 |  VA 1.0  |  These are multiple activation keys, similar to a MAK. |
 |  OEM Key |  These are Original Equipment Manufacturer keys that allow multiple activations on OEM hardware. |
-|  DreamSpark Retail Key |  These retail keys are for DreamSpark and allow one activation. DreamSpark Retail keys are issued in batches and are primarily intended for student consumption. |
-|  DreamSpark Lab Key |  These lab use keys are for DreamSpark programs and allow multiple activations. DreamSpark Lab Keys are intended for use in university computer lab scenarios. |
-|  DreamSpark MAK Key |  These are MAK keys for DreamSpark program customers. |
+|  Azure Dev Tools for Teaching Retail Key |  These retail keys are for Azure Dev Tools for Teaching and allow one activation. These keys are primarily intended for student consumption. |
+|  Azure Dev Tools for Teaching Lab Key |  These lab use keys are for Azure Dev Tools for Teaching programs and allow multiple activations. They are intended for use in university computer lab scenarios. |
+|  Azure Dev Tools for Teaching MAK Key |  These are MAK keys for Azure Dev Tools for Teaching program customers. |
 |
 
 You can claim a key from the download page for the product, or you can search for the key you need on the [Product Keys](https://my.visualstudio.com/productkeys) page.
