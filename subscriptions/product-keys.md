@@ -40,7 +40,8 @@ Microsoft is committed to protecting the value of the software and benefits that
 
 The daily key claim limit is 10 keys for all Visual Studio subscriptions, including those offered through MPN, BizSpark, MCT Software & Services, and MCT. Visual Studio Professional (MPN) has a daily key claim limit of seven keys.
 
-Note: Key claim limits are subject to change. We'll update this article to reflect any changes in limits.
+> [!NOTE]
+> Key claim limits are subject to change. We'll update this article to reflect any changes in limits.
 
 If you've claimed the maximum number of keys available for your subscription within a 24-hour period, you'll see an error telling you that your limit has been reached. The limit resets every 24 hours, starting at 12:01 AM Pacific Time.
 
