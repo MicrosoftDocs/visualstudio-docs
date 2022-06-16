@@ -2,7 +2,7 @@
 title: What is the .NET Project Designer?
 description: Learn how to configure and customize .NET project properties by using the Project Designer.
 ms.custom: SEO-VS-2020
-ms.date: 06/16/2022
+ms.date: 06/17/2022
 ms.topic: reference
 helpviewer_keywords:
 - user interface [Visual Studio], projects
@@ -27,11 +27,11 @@ The Project Designer appears after you select a [project node](../use-solution-e
 
 The following screenshot shows an example of the .NET project properties for a C# console project in the Project Designer. Note that .NET 6.0 appears as the target framework.
 
-:::image type="content" source="media/vs-2022/project-properties-designer.png" alt-text="Screenshot of the .NET Project Designer in Visual Studio 2022 where .NET 6.0 appears as the target framework.":::
+:::image type="content" source="media/vs-2022/project-properties-designer-csharp-console.png" alt-text="Screenshot of the .NET Project Designer in Visual Studio 2022 where .NET 6.0 appears as the target framework.":::
 
 The following screenshot shows an example of the .NET project properties for a Visual Basic console project in the Project Designer. Note that .NET Framework 4.7.2 appears as the target framework.
 
-:::image type="content" source="media/vs-2022/project-properties-designer.png" alt-text="Screenshot of the .NET Project Designer in Visual Studio 2022 where .NET Framework 4.7.2 appears as the target framework.":::
+:::image type="content" source="media/vs-2022/project-properties-designer-visual-basic-console.png" alt-text="Screenshot of the .NET Project Designer in Visual Studio 2022 where .NET Framework 4.7.2 appears as the target framework.":::
 
 ::: moniker-end
 
@@ -46,14 +46,14 @@ The following screenshot shows an example of the .NET project properties for a V
 
 ::: moniker range="vs-2022"
 
-|Page name       |Language/platform      |Description                                                              |
+|Property name       |Language/platform      |Description                                                              |
 |----------------|-----------------------|-------------------------------------------------------------------------|
 |Application     | [C#](application-page-project-designer-csharp.md), [Visual Basic](application-page-project-designer-visual-basic.md), [UWP](application-page-project-designer-uwp.md), WPF  | Specify application settings and properties for a project. |
 |Build           | [C#](build-page-project-designer-csharp.md), WPF |  Specify build configuration properties for a project. |
 |Build Events    | [C#](build-events-page-project-designer-csharp.md), Visual Basic, WPF | Specify build configuration instructions. |
 |[Code Analysis](code-analysis-project-designer.md)  | C#, Visual Basic, WPF  | Configure the code analysis tool. |
 |Compile         | [Visual Basic](compile-page-project-designer-visual-basic.md) | Specify compilation properties for a project. |
-|[Debug Page](debug-page-project-designer.md) | C#, Visual Basic, WPF | Specify debugging properties for a project. |
+|[Debug](debug-page-project-designer.md) | C#, Visual Basic, WPF | Specify debugging properties for a project. |
 |Package | C#, Visual Basic | Generate a NuGet package on build. |
 |[Publish](publish-page-project-designer.md) | WPF | Configure properties for [!INCLUDE[ndptecclick](../../deployment/includes/ndptecclick_md.md)].|
 |References      | [Visual Basic](references-page-project-designer-visual-basic.md) | Manage the references used by a project. |
