@@ -9,7 +9,7 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms. custom: devdivchpfy22
+ms.custom: devdivchpfy22
 ms.workload:
   - "multiple"
 ---
