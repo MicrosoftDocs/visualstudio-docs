@@ -40,11 +40,11 @@ The following screenshot shows an example of the .NET project properties for a V
 
 ::: moniker range="vs-2019"
 
-The following screenshot shows an example of the .NET project properties for a C# console project in the Project Designer. Notice that .NET 6.0 appears as the target framework.
+The following Visual Studio 2019 screenshot shows an example of the .NET project properties for a C# console project in the Project Designer. Notice that .NET 6.0 appears as the target framework.
 
 :::image type="content" source="media/vs-2019/project-properties-designer-csharp-console.png" alt-text="Screenshot of the Project Designer in Visual Studio 2019 with .NET 5.0 as the target framework.":::
 
-The following screenshot shows an example of the .NET project properties for a Visual Basic console project in the Project Designer. Notice that .NET Framework 4.7.2 appears as the target framework.
+The following Visual Studio 2019 screenshot shows an example of the .NET project properties for a Visual Basic console project in the Project Designer. Notice that .NET Framework 4.7.2 appears as the target framework.
 
 :::image type="content" source="media/vs-2019/project-properties-designer-visual-basic-console.png" alt-text="Screenshot of the Project Designer in Visual Studio 2019 with .NET 5.0 as the target framework.":::
 
