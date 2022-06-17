@@ -91,7 +91,7 @@ ms.workload:
  You can customize your ClickOnce installer to install third-party components along with your application. You must have the redistributable package (.exe or .msi file) and describe the package with a language-neutral product manifest and a language-specific package manifest. For more information, see [Creating bootstrapper packages](../deployment/creating-bootstrapper-packages.md).
 
 ## ClickOnce tools
- The following table shows the tools that you can use to generate, edit, sign, and re-sign the application and deployment manifests. For .NET Core and .NET 5+, MSBuild options are set using the Publish profile.
+ The following table shows the tools that you can use to generate, edit, sign, and re-sign the application and deployment manifests. For .NET Core and .NET 5+, options similar to MSBuild attributes are set using the Publish profile.
 
 |Tool|Description|
 |----------|-----------------|
