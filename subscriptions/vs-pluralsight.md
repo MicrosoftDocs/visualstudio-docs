@@ -16,7 +16,7 @@ Advance your skills with expert-authored courses, learning paths, adaptive skill
 
 The table below details what Pluralsight subscription benefits are available to each Visual Studio subscription type.  Some subscribers will also be able to take advantage of limited courses after their full catalog access subscription expires. Pluralsight will guide you through that process when your full catalog subscription expires.
 
-Not all subscribers who have previously used a Pluralsight subscription provided through a Visual Studio subscription will be able to redeem new Pluralsight benefit offers. If you are not eligible to redeem more Pluralsight training benefits, you'll receive a notification when you attempt to activate the benefit on the Pluralsight website.
+Not all subscribers who have previously used a Pluralsight subscription provided through a Visual Studio subscription will be able to redeem new Pluralsight benefit offers. If you aren't eligible to redeem more Pluralsight training benefits, you'll receive a notification when you attempt to activate the benefit on the Pluralsight website.
 
 ## Activate your Pluralsight subscription
 
@@ -59,6 +59,7 @@ At the bottom of the tile, you'll see text showing both the activation date and 
    :::image type="content" source="_img/vs-pluralsight/vs-pluralsight-activated.png" alt-text="Screenshot showing Pluralsight Benefit Tile in the Visual Studio Subscription under Benefits tab after activation, the tile will display the number of days remaining on your subscription, along with the expiration date and a link to the Pluralsight portal.":::
 
 ### When your subscription expires
+
 When your Pluralsight subscription expires, the status will change to "0 days remaining" and the link to the Pluralsight portal will be removed. You will still be able to see the date that you activated the subscription, as well as the date it expired.  
    :::image type="content" source="_img/vs-pluralsight/vs-pluralsight-expired.png" alt-text="Pluralsight tile after expiration, the link to Pluralsight will be removed and the dates the subscription was active will appear at the bottom of the tile.":::
 
@@ -92,7 +93,6 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 A: Not all Visual Studio Enterprise subscriptions include the Pluralsight benefit.  Check the [eligibility table](#eligibility) to see whether your subscription is eligible.
 
-
 ### Q: Can I use the Pluralsight benefit more than once?
 
 A:  The Pluralsight benefit in selected Visual Studio subscriptions renews when your subscription renews. For example, if you have an annual subscription that you renew each year, the benefit is available to you each year when you renew. If you have a multi-year subscription, the Pluralsight benefit is available to you once during the term of the subscription.  If you renew a multi-year subscription, the benefit will be available again following the renewal.  To find your renewal date, visit <https://my.visualstudio.com/subscriptions> and click *Support Information* and locate the "Valid through:" date.
@@ -104,7 +104,6 @@ A: Yes. As a Visual Studio subscriber you get access to featured roles, learning
 ### Q: The Pluralsight tile doesn't have an "Activate" link. How can I activate the benefit?
 
 A:  If you have already activated your Pluralsight benefit, the "Activate" link will be replaced by a link that takes you to the sign-in page for Pluralsight.  You will also see the date you activated the benefit as well as information about how much time remains on your subscription.  If you've already used a subscription, you won't be able to activate another one.
-
 
 ### Q: What happens when my Pluralsight subscription runs out?
 
@@ -125,6 +124,6 @@ A:  At the end of your free Pluralsight subscription, you may choose to purchase
 
 ## Next steps
 
-Once you've created your account, you're ready to start training.  Visit [https://www.pluralsight.com](https://www.pluralsight.com) and tap **log in** at the top right corner of the page to start a new course, or return to a course already in progress.
+Once you've created your account, you're ready to start training.  Visit [https://www.pluralsight.com](https://www.pluralsight.com) and tap **log in** at the top-right corner of the page to start a new course, or return to a course already in progress.
 
 Take advantage of your own development sandbox by activating your [Azure DevTest individual credit](/azure/devtest/offer/quickstart-individual-credit).
