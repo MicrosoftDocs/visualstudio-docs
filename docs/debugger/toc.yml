@@ -264,6 +264,8 @@
           href: how-to-test-and-debug-a-visualizer.md
         - name: Visualizer security considerations
           href: visualizer-security-considerations.md
+        - name: Advanced visualizer scenarios
+          href: visualizer-advanced-scenarios.md
         - name: Visualizer API reference
           href: visualizer-api-reference.md
     - name: restore hidden debugger commands
