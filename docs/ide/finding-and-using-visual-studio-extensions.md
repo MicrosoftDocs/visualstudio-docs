@@ -2,7 +2,7 @@
 title: Find and install extensions
 description: Learn about extensions in Visual Studio and how to manage them so you have the controls, samples, templates, tools, and other components you need.
 ms.custom: SEO-VS-2020
-ms.date: 11/23/2021
+ms.date: 06/17/2022
 ms.topic: conceptual
 f1_keywords:
 - vs.ExtensionManager
@@ -168,5 +168,5 @@ You can use the **Extensions** > **Manage Extensions** dialog box to perform the
 
 ## See also
 
-- [Visual Studio Marketplace](https://marketplace.visualstudio.com)
+- [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs)
 - [Visual Studio SDK](../extensibility/visual-studio-sdk.md)
