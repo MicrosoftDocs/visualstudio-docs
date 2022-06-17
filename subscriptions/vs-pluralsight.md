@@ -23,7 +23,7 @@ Not all subscribers who have previously used a Pluralsight subscription provided
 1. To activate your subscription, connect to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the **Activate** link on the Pluralsight benefit tile.  To narrow the list of tiles displayed, you can choose a group filter.  Pluralsight is located in the Professional Development benefits group.
    :::image type="content" source="_img/vs-pluralsight/vs-pluralsight-tile.png" alt-text="Screenshot showing Pluralsight Benefit Tile in the Visual Studio Subscription under Benefits page with Activate button highlighted.":::
 
-   (The tile above is an example of what a Visual Studio Enterprise subscriber will see.  If you are using a different Visual Studio subscription, the duration of your Pluralsight benefit will vary. See the [eligibility table](#eligibility) for details.)
+   (The tile above is an example of what a Visual Studio Enterprise subscriber will see.  If you're using a different Visual Studio subscription, the duration of your Pluralsight benefit will vary. See the [eligibility table](#eligibility) for details.)
 1. You'll be redirected to the Pluralsight page for the benefit that's included with your Visual Studio subscription.
    - Provide the contact information requested on the form
    - Click the checkbox to accept the terms of use
