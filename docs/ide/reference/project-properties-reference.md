@@ -19,34 +19,42 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The Project Designer in Visual Studio is a dialog box that you can use to specify applications settings and properties for a .NET project. The Project Designer includes several different project properties pages to interact with. What you see depends on your .NET project type, platform, or programming language.
+The Project Designer in Visual Studio is a dialog box that you can use to specify applications settings and properties for a .NET project. The Project Designer includes several different project properties pages to interact with. What you see depends on your .NET project type, platform, and programming language.
 
 The Project Designer appears after you select a [project node](../use-solution-explorer.md#tool-window) in **Solution Explorer** and then use the right-click context menu to select **Properties**.
-
-::: moniker range="vs-2022"
-
-The following screenshot shows an example of the .NET project properties for a C# console project in the Project Designer. Note that .NET 6.0 appears as the target framework.
-
-:::image type="content" source="media/vs-2022/project-properties-designer-csharp-console.png" alt-text="Screenshot of the .NET Project Designer in Visual Studio 2022 where .NET 6.0 appears as the target framework.":::
-
-The following screenshot shows an example of the .NET project properties for a Visual Basic console project in the Project Designer. Note that .NET Framework 4.7.2 appears as the target framework.
-
-:::image type="content" source="media/vs-2022/project-properties-designer-visual-basic-console.png" alt-text="Screenshot of the .NET Project Designer in Visual Studio 2022 where .NET Framework 4.7.2 appears as the target framework.":::
-
-::: moniker-end
-
-::: moniker range="vs-2019"
-:::image type="content" source="media/vs-2019/project-properties-designer.png" alt-text="Screenshot of the Project Designer in Visual Studio 2019.":::
-::: moniker-end
 
 > [!IMPORTANT]
 > The project properties that you can access by using the .NET Project Designer differ from the properties you can access by using the [Properties window](properties-window.md) in Solution Explorer.
 
-## Project properties pages in Project Designer
+::: moniker range="vs-2022"
+
+The following screenshot shows an example of the .NET project properties for a C# console project in the Project Designer. Notice that .NET 6.0 appears as the target framework.
+
+:::image type="content" source="media/vs-2022/project-properties-designer-csharp-console.png" alt-text="Screenshot of the .NET Project Designer in Visual Studio 2022 with .NET 6.0 as the target framework.":::
+
+The following screenshot shows an example of the .NET project properties for a Visual Basic console project in the Project Designer. Notice that .NET Framework 4.7.2 appears as the target framework.
+
+:::image type="content" source="media/vs-2022/project-properties-designer-visual-basic-console.png" alt-text="Screenshot of the .NET Project Designer in Visual Studio 2022 with .NET Framework 4.7.2 as the target framework.":::
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+The following screenshot shows an example of the .NET project properties for a C# console project in the Project Designer. Notice that .NET 6.0 appears as the target framework.
+
+:::image type="content" source="media/vs-2019/project-properties-designer-csharp-console.png" alt-text="Screenshot of the Project Designer in Visual Studio 2019 with .NET 5.0 as the target framework.":::
+
+The following screenshot shows an example of the .NET project properties for a Visual Basic console project in the Project Designer. Notice that .NET Framework 4.7.2 appears as the target framework.
+
+:::image type="content" source="media/vs-2019/project-properties-designer-visual-basic-console.png" alt-text="Screenshot of the Project Designer in Visual Studio 2019 with .NET 5.0 as the target framework.":::
+
+::: moniker-end
+
+## Project properties in the .NET Project Designer
 
 ::: moniker range="vs-2022"
 
-|Property name       |Language/platform      |Description                                                              |
+|Property       |Language/platform      |Description                                                              |
 |----------------|-----------------------|-------------------------------------------------------------------------|
 |Application     | [C#](application-page-project-designer-csharp.md), [Visual Basic](application-page-project-designer-visual-basic.md), [UWP](application-page-project-designer-uwp.md), WPF  | Specify application settings and properties for a project. |
 |Build           | [C#](build-page-project-designer-csharp.md), WPF |  Specify build configuration properties for a project. |
