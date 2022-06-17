@@ -18,7 +18,7 @@ Before a new version of Visual Studio for Mac is officially released, it's avail
 
 Preview releases of Visual Studio for Mac are distributed as an update, rather than through a separate download. Visual Studio for Mac has two updater channels, as described in the [update](update.md) article: **Stable** and **Preview**.
 
-Most preview releases will be available through both the **Preview** channel, but always check the [Preview Release Notes](/visualstudio/releasenotes/vs2019-mac-preview-relnotes) for the most accurate information.
+Most preview releases will be available through both the **Preview** channel, but always check the [Preview Release Notes](/visualstudio/releases/2022/mac-release-notes-preview) for the most accurate information.
 
 To install the preview of Visual Studio for Mac, use the following steps:
 
