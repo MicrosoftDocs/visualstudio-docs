@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 8fccb5f6-ff61-488f-a91e-447faeda798d
-ms.date: 05/03/2022
+ms.date: 06/15/2022
 ms.topic: how-to
 ms.custom: kr2b-contr-experiment
 description:  Learn about the Microsoft Tech Community forum support benefit included in selected Visual Studio subscriptions.
@@ -22,7 +22,7 @@ Accessing the community forum is simple.
 0. Locate the **Microsoft Tech Community** tile and select **Get help**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot shows the Microsoft Tech Community tile with Get help highlighted.](_img/vs-tech-community/vs-tech-community-tile.png "Select 'Get help' on the Microsoft Tech Community tile")
+    > ![Screenshot shows the Microsoft Tech Community tile with Get help highlighted.](_img/vs-tech-community/vs-tech-community-tile.png "Screenshot of Microsoft Tech Community tile.  Get help button is hightlighted.")
 
 0. If you haven't previously registered for the community, select **Get Started**.
 0. In the **Step 1: Setup your profile** section:
@@ -30,7 +30,7 @@ Accessing the community forum is simple.
    + Enter your work email address
    + Create your profile name 
 0. For **Step 2: Code of Conduct**, please read the Code of Conduct and then select the checkbox to indicate your acceptance of the Code of Conduct and Terms of Service.
-0. Click **Register** to finish setting up your profile.
+0. Select **Register** to finish setting up your profile.
 
 That's all there is to it.  You're now ready to use the community portal.  The home page has news about the community.  To see content specific to the communities you joined, select the **Community Hubs** drop-down at the top of the page and choose a community from your list.  You can always add communities to the list by selecting **Browse All Community Hubs**, selecting on the hub of your choice, and then selecting **Join**.
 

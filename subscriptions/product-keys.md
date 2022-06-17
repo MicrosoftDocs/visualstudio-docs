@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 89e3fcf9-fe5d-4266-8dd7-5567d05fe869
-ms.date: 05/24/2022
+ms.date: 06/16/2022
 ms.topic: conceptual
 description:  Learn how to obtain and manage your product keys in Visual Studio subscriptions.
 ---
@@ -15,16 +15,16 @@ Visual Studio subscriptions provide access to a wide range of Microsoft products
 
 Visual Studio subscriptions typically include five product keys for current versions of Windows and Office products, and three keys for older versions.
 
-Most product keys also allow multiple activations of the product for each key.  Many products also allow you to install and use the product for 30 days or more without activation.  For most subscribers, more than enough activations to meet their needs are available.  However, if you have exhausted the available activations for a product, you can submit a request for more keys through Visual Studio [Subscriptions Customer Service](https://visualstudio.microsoft.com/subscriptions/support/).
+Most product keys also allow multiple activations of the product for each key.  Many products also allow you to install and use the product for 30 days or more without activation.  For most subscribers, more than enough activations to meet their needs are available.  However, if you've exhausted the available activations for a product, you can submit a request for more keys through Visual Studio [Subscriptions Customer Service](https://visualstudio.microsoft.com/subscriptions/support/).
 
 Learn how to [find and claim product keys](find-keys.md). 
 
 > [!NOTE]
-> If your subscription is provided to you by your work or school, your subscription admin controls whether you have access to software downloads.  If access to downloads is disabled for your subscription, access to product keys is also disabled.  If you need downloads and/or product keys, [contact your admin](contact-my-admin.md).
+> If your subscription is provided to you by your work or school, your subscription admin controls whether you get access to software downloads.  If access to downloads is disabled for your subscription, access to product keys is also disabled.  If you need downloads and/or product keys, [contact your admin](contact-my-admin.md).
 
 ## Activating a product
 
-Activation is required for certain products.  Generally, in Visual Studio subscriptions this requirement applies to Windows, Windows Server, Microsoft Office client applications, and Expression Studio. When activation is required, many products — including Windows and Office — allow you to install and use the product without activation for 30 days or more. If you re-image your computers frequently (at least once every 30 days), consider NOT activating the product. Product keys supplied as part of your Visual Studio subscription do not allow unlimited activations of a product.
+Activation is required for certain products.  Generally, in Visual Studio subscriptions this requirement applies to Windows, Windows Server, Microsoft Office client applications, and Expression Studio. When activation is required many products, including Windows and Office, allow you to install and use the product without activation for 30 days or more. If you reimage your computers frequently (at least once every 30 days), consider NOT activating the product. Product keys supplied as part of your Visual Studio subscription don't allow unlimited activations of a product.
 
 If you’ve claimed all the available product keys under your subscription and have used up all the available activations, you can request more keys by contacting your local Visual Studio Subscription [Customer Service Center](https://visualstudio.microsoft.com/subscriptions/support/). Requests will be considered on a case-by-case basis. If approved, product keys will be accessible in [Downloads](https://my.visualstudio.com/downloads).
 
@@ -40,9 +40,10 @@ Microsoft is committed to protecting the value of the software and benefits that
 
 The daily key claim limit is 10 keys for all Visual Studio subscriptions, including those offered through MPN, BizSpark, MCT Software & Services, and MCT. Visual Studio Professional (MPN) has a daily key claim limit of seven keys.
 
-Note: Key claim limits are subject to change. We will update this article to reflect any changes in limits.
+> [!NOTE]
+> Key claim limits are subject to change. We'll update this article to reflect any changes in limits.
 
-If you have claimed the maximum number of keys available for your subscription within a 24-hour period, you will see an error telling you that your limit has been reached. The limit resets every 24 hours, starting at 12:01 AM Pacific Time.
+If you've claimed the maximum number of keys available for your subscription within a 24-hour period, you'll see an error telling you that your limit has been reached. The limit resets every 24 hours, starting at 12:01 AM Pacific Time.
 
 Our research shows that most subscribers are covered by the number of product keys included in their subscription. If you need more keys, you can submit a request through Visual Studio Subscription [Customer Service](https://visualstudio.microsoft.com/subscriptions/support/) and it will be considered for approval on a case-by-case basis.
 
@@ -69,13 +70,13 @@ Various key types are available, depending on the product.
 |  Not Applicable  |  No key is needed to install this product. |
 |  Retail |  Retail keys allow multiple activations and are used for retail builds of the product. In many cases, 10 activations are allowed per key, though often more are allowed on the same machine. |
 |  Multiple Activation |  A Multiple Activation Key (MAK) enables you to activate multiple installations of a product with the same key. MAKs are most often used with Volume Licensing versions of products. Typically, only one MAK key is provided per subscription. |
-|  Static Activation Key |  Static activation keys are provided for products that do not require activation. They can be used for any number of installations. |
+|  Static Activation Key |  Static activation keys are provided for products that don't require activation. They can be used for any number of installations. |
 |  Custom Key  |  Custom keys provide special actions or information to activate or install the product. |
-|  VA 1.0  |  These are multiple activation keys, similar to a MAK. |
-|  OEM Key |  These are Original Equipment Manufacturer keys that allow multiple activations on OEM hardware. |
-|  DreamSpark Retail Key |  These retail keys are for DreamSpark and allow one activation. DreamSpark Retail keys are issued in batches and are primarily intended for student consumption. |
-|  DreamSpark Lab Key |  These lab use keys are for DreamSpark programs and allow multiple activations. DreamSpark Lab Keys are intended for use in university computer lab scenarios. |
-|  DreamSpark MAK Key |  These are MAK keys for DreamSpark program customers. |
+|  VA 1.0  |  These keys are multiple activation keys, similar to a MAK. |
+|  OEM Key |  These keys are Original Equipment Manufacturer keys that allow multiple activations on OEM hardware. |
+|  Azure Dev Tools for Teaching Retail Key |  These retail keys are for Azure Dev Tools for Teaching and allow one activation. These keys are primarily intended for student consumption. |
+|  Azure Dev Tools for Teaching Lab Key |  These lab use keys are for Azure Dev Tools for Teaching programs and allow multiple activations. They're intended for use in university computer lab scenarios. |
+|  Azure Dev Tools for Teaching MAK Key |  These keys are MAK keys for Azure Dev Tools for Teaching program customers. |
 |
 
 You can claim a key from the download page for the product, or you can search for the key you need on the [Product Keys](https://my.visualstudio.com/productkeys) page.
