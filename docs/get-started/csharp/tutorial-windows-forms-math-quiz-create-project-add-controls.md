@@ -12,8 +12,9 @@ ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
-
 # Tutorial: Create a math quiz WinForms app
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this series of four tutorials, you'll build a math quiz. The quiz contains four random math problems that a quiz taker tries to answer within a specified time.
 
@@ -35,24 +36,6 @@ You need Visual Studio to complete this tutorial. Visit the [Visual Studio downl
 
 When you create a math quiz, the first step is to create a Windows Forms App project.
 
-::: moniker range="vs-2017"
-
-1. Open Visual Studio.
-
-1. On the menu bar, select **File** > **New** > **Project**.
-
-1. On the left side of the **New Project** dialog box, select either **Visual C#** or **Visual Basic**, and then select **Windows Desktop**.
-
-1. In the project templates list, select **Windows Forms App (.NET Framework)**. Name the new form **MathQuiz**, and then select **OK**.
-
-   > [!NOTE]
-   > If you don't see the **Windows Forms App (.NET Framework)** template, use Visual Studio Installer to install the **.NET desktop development** workload.
-   >
-   > :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/install-dot-net-desktop-env.png" alt-text="Screenshot that shows the dot NET desktop development workload in Visual Studio Installer.":::
-   >
-   > For more information, see [Install Visual Studio](../../install/install-visual-studio.md).
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

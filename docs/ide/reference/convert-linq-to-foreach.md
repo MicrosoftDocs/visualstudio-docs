@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Refactoring to convert LINQ to a foreach statement
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Use this refactoring to convert [LINQ query syntax](/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq) to a [foreach](/dotnet/csharp/language-reference/keywords/foreach-in) statement.
 
 This refactoring applies to:

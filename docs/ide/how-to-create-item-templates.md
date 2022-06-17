@@ -13,6 +13,8 @@ ms.technology: vs-ide-general
 ---
 # How to: Create item templates
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This article shows you how to create an item template by using the **Export Template Wizard**. If your template will consist of multiple files, see [How to: Create multi-file item templates](../ide/how-to-create-multi-file-item-templates.md).
 
 ## Add an item template to the Add New Item dialog box
@@ -118,11 +120,6 @@ In some cases you may want to create an item template manually, from scratch.
 
 7. In **Windows Explorer**, select the files you want to include in your template. Right-click the selection, and choose **Send to** > **Compressed (zipped) folder**. The files that you selected are compressed into a *.zip* file.
 
-::: moniker range="vs-2017"
-
-8. Copy the *.zip* file and paste it in the user item template location. The default directory is *%USERPROFILE%\Documents\Visual Studio 2017\Templates\ItemTemplates*. For more information, see [How to: Locate and organize project and item templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

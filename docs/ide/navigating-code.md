@@ -23,6 +23,8 @@ ms.workload:
 ---
 # Navigate code
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio provides numerous ways to navigate code in the editor. This topic summarizes the different ways you can navigate your code, and provides links to topics that go into more detail.
 
 ## Navigate Backward and Navigate Forward commands

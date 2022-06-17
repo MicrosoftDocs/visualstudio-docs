@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugSourceServerModule::GetSourceServerData
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an array of source server information.
 
 ## Syntax

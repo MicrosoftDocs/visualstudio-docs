@@ -12,8 +12,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Python Environments window tabs reference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To open the **Python Environments** window:
 
@@ -22,9 +23,6 @@ To open the **Python Environments** window:
 
 If you expand the **Python Environments** window wide enough, these options are shown as tabs, which you may find more convenient to work with. For clarity, the tabs in this article are shown in the expanded view.
 
-::: moniker range="vs-2017"
-![Python Environments window expanded view](media/environments/environments-expanded-view.png)
-::: moniker-end
 ::: moniker range=">=vs-2019"
 ![Python Environments window expanded view](media/environments/environments-expanded-view-2019.png)
 ::: moniker-end
@@ -33,9 +31,6 @@ If you expand the **Python Environments** window wide enough, these options are 
 
 Provides basic information and commands for the environment:
 
-::: moniker range="vs-2017"
-![Python Environments overview tab](media/environments/environments-overview-tab.png)
-::: moniker-end
 ::: moniker range=">=vs-2019"
 ![Python Environments overview tab](media/environments/environments-overview-tab-2019.png)
 ::: moniker-end
@@ -64,9 +59,6 @@ Startup scripts contain code that the **Interactive** window loads and runs auto
 
 If available, the **Configure** tab contains details as described in the table below. If this tab isn't present, it means that Visual Studio is managing all the details automatically.
 
-::: moniker range="vs-2017"
-![Python Environments configure tab](media/environments/environments-configure-tab.png)
-::: moniker-end
 ::: moniker range=">=vs-2019"
 ![Python Environments configure tab](media/environments/environments-configure-tab-2019.png)
 ::: moniker-end
@@ -94,27 +86,18 @@ Packages that are already installed appear with controls to update (an up arrow)
 
 Entering a search term filters the list of installed packages as well as packages that can be installed from PyPI.
 
-::: moniker range="vs-2017"
-![Python environments packages tab with a search on "num"](media/environments/environments-pip-tab.png)
-::: moniker-end
 ::: moniker range=">=vs-2019"
 ![Python environments packages tab with a search on "num"](media/environments/environments-pip-tab-2019.png)
 ::: moniker-end
 
 As you can see in the image above, the search results show a number of packages that match the search term; the first entry in the list, however, is a command to run **pip install \<name>** directly. If you're on the **Packages (Conda)** tab, you instead see **conda install \<name>**:
 
-::: moniker range="vs-2017"
-![Conda packages tab showing a conda install command](media/environments/environments-conda-tab-install.png)
-::: moniker-end
 ::: moniker range=">=vs-2019"
 ![Conda packages tab showing a conda install command](media/environments/environments-conda-tab-install-2019.png)
 ::: moniker-end
 
 In both cases, you can customize the install by adding arguments in the search box after the name of the package. When you include arguments, the search results shows **pip install** or **conda install** followed by the contents of the search box:
 
-::: moniker range="vs-2017"
-![Using arguments on pip and conda install commands](media/environments/environments-pip-tab-arguments.png)
-::: moniker-end
 ::: moniker range=">=vs-2019"
 ![Using arguments on pip and conda install commands](media/environments/environments-pip-tab-arguments-2019.png)
 ::: moniker-end
@@ -145,21 +128,6 @@ It may be possible to download the appropriate *get-pip.py* for a package from [
 
 The recommendation, however, is to simply upgrade to a recent version of Python, in which case the warning does not appear.
 
-::: moniker range="vs-2017"
-## IntelliSense tab
-
-Shows the current status of the IntelliSense completion database:
-
-![Python Environments IntelliSense tab](media/environments/environments-intellisense-tab.png)
-
-- In Visual Studio 2017 version 15.5 and earlier, IntelliSense completions depend on a database that's been compiled for that library. Building the database is done in the background when a library is installed, but can take some time and may not be complete when you start writing code.
-- Visual Studio 2017 version 15.6 and later uses a faster method to provide completions that do not depend on the database by default. For this reason the tab is labeled **IntelliSense [database disabled]**. You can enable the database by clearing the option  **Tools** > **Options** > **Python** > **Experimental** > **Use new style IntelliSense for environments**.
-
-When Visual Studio detects a new environment (or you add one), it automatically begins to compile the database by analyzing the library source files. This process can take anywhere from a minute to an hour or more depending on what's installed. (Anaconda, for example, comes with many libraries and takes some time to compile the database.) Once complete, you get detailed IntelliSense and don't need to refresh the database again (with the **Refresh DB** button) until you install more libraries.
-
-Libraries for which data haven't been compiled are marked with a **!**; if an environment's database isn't complete, a **!** also appears next to it in the main environment list.
-
-::: moniker-end
 
 ## See also
 

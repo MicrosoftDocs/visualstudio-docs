@@ -28,6 +28,8 @@ ms.workload:
 ---
 # Build and clean projects and solutions in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 By using the procedures in this topic, you can build, rebuild, or clean all or some of the projects or project items in a solution. For a step-by-step tutorial, see [Walkthrough: Building an application](../ide/walkthrough-building-an-application.md).
 
 > [!NOTE]
@@ -71,13 +73,11 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
 
 3. Select the  **Only build startup projects and dependencies on Run** check box.
 
-     When this check box is selected, only the current startup project and its dependencies are built when you perform either of the following steps:
+     When this check box is selected, only the current startup project and its dependencies are built when you choose **Debug** > **Start** (**F5**) or **Debug** > **Start Without Debugging** (**Ctrl**+**F5**).
 
-    - On the menu bar, choose **Debug** > **Start** (**F5**).
+    When you choose **Build** > **Build Solution** (**Ctrl**+**Shift**+**B**), the entire solution is built.
 
-    - On the menu bar, choose **Build** > **Build Solution** (**Ctrl**+**Shift**+**B**).
-
-    When this check box is cleared, all projects, their dependencies, and the solution files are built when you run either of the preceding commands.
+    When this check box is cleared, all projects, their dependencies, and the solution files are built when you run any of the preceding commands.
 
 ## To build only the selected Visual C++ project
 

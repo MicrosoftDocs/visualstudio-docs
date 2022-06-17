@@ -16,13 +16,10 @@ ms.workload:
 ---
 # Create a Windows Forms app in Visual Studio with C\#
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this short introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# application that has a Windows-based user interface (UI).
 
-::: moniker range="vs-2017"
-
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -43,19 +40,6 @@ If you haven't already installed Visual Studio, go to the [Visual Studio 2022 do
 
 First, you'll create a C# application project. The project type comes with all the template files you'll need, before you've even added anything.
 
-::: moniker range="vs-2017"
-
-1. Open Visual Studio 2017.
-
-1. From the top menu bar, choose **File** > **New** > **Project**.
-
-1. In the **New Project** dialog box in the left pane, expand **Visual C#**, and then choose **Windows Desktop**. In the middle pane, choose **Windows Forms App (.NET Framework)**. Then name the file `HelloWorld`.
-
-     If you don't see the **Windows Forms App (.NET Framework)** project template, cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the **.NET desktop development** workload, then choose **Modify**.
-
-     ![.NET Core workload in the Visual Studio Installer](../ide/media/install-dot-net-desktop-env.png)
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

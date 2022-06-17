@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Make code work in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio provides a powerful integrated set of project build and debugging tools. In this article, find out how Visual Studio can help you find problems in your code using build output, code analysis, debugging tools, and unit tests.
 
 You've figured out the editor and created some code. Now, you want to make sure the code works properly. In Visual Studio, as with most IDEs, there are two phases to making code work: building the code to catch and resolve project and compiler errors, and running the code to find run-time and dynamic errors.
@@ -29,11 +31,6 @@ The easiest way to build your project is to press **F7**, but you can also start
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-![Screenshot of the Visual Studio build project menu selection.](../ide/media/vs_ide_gs_debug_build_menu_item.png)
-
-::: moniker-end
 
 You can observe the build process in the **Output** window at the bottom of the Visual Studio UI. Errors, warnings, and build operations are displayed here. If you have errors (or if you have warnings above a configured level), your build fails. You can click on the errors and warnings to go to the line where they occurred. Rebuild your project by either pressing **F7** again (to recompile only the files with errors) or **Ctrl**+**Alt**+**F7** (for a clean and complete rebuild).
 

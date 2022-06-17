@@ -21,6 +21,8 @@ ms.workload:
 ---
 # Debug at design time in Visual Studio (C#, C++/CLI, Visual Basic, F#)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 To debug code at design time instead of while an app is running, you can use the **Immediate** window.
 
 To debug XAML code behind an app from the XAML designer, such as declarative data binding scenarios, you can use **Debug** > **Attach to Process**.

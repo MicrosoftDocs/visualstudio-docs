@@ -18,6 +18,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpressionEvaluator2::GetService
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a service object given its unique identifier.
 
 ## Syntax

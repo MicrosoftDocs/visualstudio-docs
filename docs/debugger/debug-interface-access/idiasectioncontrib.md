@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSectionContrib
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves data describing a section contribution, that is, a contiguous block of memory contributed to the image by a compiland.
 
 ## Syntax

@@ -2,7 +2,7 @@
 title: Display custom info using DebuggerDisplay | Microsoft Docs
 description: Use an instance of DebuggerDisplayAttribute to control how an object, property, or field is displayed in the debugger variable windows.
 ms.custom: SEO-VS-2020
-ms.date: 01/09/2019
+ms.date: 04/22/2022
 ms.topic: how-to
 helpviewer_keywords: 
   - attributes, debugger
@@ -17,6 +17,8 @@ ms.workload:
   - multiple
 ---
 # Tell the debugger what to show using the DebuggerDisplay Attribute (C#, Visual Basic, F#, C++/CLI)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The <xref:System.Diagnostics.DebuggerDisplayAttribute> controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types, delegates, properties, fields, and assemblies. If applied to a base type, the attribute also applies to a subclass.
 

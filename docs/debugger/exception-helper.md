@@ -23,6 +23,8 @@ ms.workload:
 ---
 # Inspect an exception using the Exception Helper 
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Dealing with exceptions is a common problem, no matter your technology or level of expertise. It can be a frustrating experience figuring out why exceptions are causing problems in your code. When you're debugging an exception in Visual Studio, we want to lessen that frustration by providing you with relevant exception information to help you debug your issue faster.
 
 ![Exception Helper](media/debugger-exception-helper-default.png)

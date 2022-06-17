@@ -15,8 +15,9 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-
 # Control updates to network-based Visual Studio deployments
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 > [!WARNING]
 > THIS CONTENT IS INTENDED TO BE DEPRECATED AS IT'S BEEN MERGED INTO OTHER PAGES. This page has been removed from the TOC.
 

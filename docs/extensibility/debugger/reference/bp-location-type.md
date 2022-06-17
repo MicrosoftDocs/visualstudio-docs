@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # BP_LOCATION_TYPE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the location type of the breakpoint for a breakpoint request.
 
 ## Syntax

@@ -14,6 +14,8 @@ ms.technology: vs-ide-test
 ---
 # How to: Select the active run setting for a load test
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 After you create your load test with the **New Load Test Wizard**, you can use the **Load Test Editor** to change the scenarios properties to meet your testing needs and goals.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]

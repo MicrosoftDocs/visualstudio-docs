@@ -20,6 +20,8 @@ ms.workload:
 ---
 # Walkthrough: Create your first document-level customization for Word
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
   This introductory walkthrough shows you how to create a document-level customization for Microsoft Office Word. The features that you create in this kind of solution are available only when a specific document is open. You cannot use a document-level customization to make application-wide changes, for example, displaying a new Ribbon tab when any document is open.
 
  [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]
@@ -53,19 +55,7 @@ ms.workload:
 1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
 2. On the **File** menu, point to **New**, and then click **Project**.
-::: moniker range="vs-2017"
-3. In the templates pane, expand **Visual C#** or **Visual Basic**, and then expand **Office/SharePoint**.
 
-4. Under the expanded **Office/SharePoint** node, select the **VSTO Add-ins** node.
-
-5. In the list of project templates, select a Word VSTO document project.
-
-6. In the **Name** box, type **FirstDocumentCustomization**.
-
-7. Click **OK**.
-
-8. Select **Create a new document** from the **Visual Studio Tools for Office Project Wizard**, and click **OK**.
-::: moniker-end
 ::: moniker range=">=vs-2019"
 3. On the **Create a New Project** dialog select the **Word VSTO Document** project.
 

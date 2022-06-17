@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # BP_RESOLUTION_CODE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the location of a code breakpoint.
 
 ## Syntax

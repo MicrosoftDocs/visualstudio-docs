@@ -21,6 +21,8 @@ ms.workload:
 ---
 # Design-Time Code Generation by using T4 Text Templates
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Design-time T4 text templates let you generate program code and other files in your Visual Studio project. Typically, you write the templates so that they vary the code that they generate according to data from a *model*. A model is a file or database that contains key information about your application's requirements.
 
 For example, you could have a model that defines a workflow, either as a table or a diagram. From the model, you can generate the software that executes the workflow. When your users' requirements change, it is easy to discuss the new workflow with the users. Regenerating the code from the workflow is more reliable than updating the code by hand.
@@ -299,17 +301,6 @@ If you have installed the Visual Studio Modeling SDK, you can have all the templ
 > The Text Template Transformation SDK and the Visual Studio Modeling SDK are installed automatically when you install specific features of Visual Studio. For more details, see
 [this blog post](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/).
 
-::: moniker range="vs-2017"
-
-```xml
-<Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v15.0\TextTemplating\Microsoft.TextTemplating.targets" />
-<PropertyGroup>
-   <TransformOnBuild>true</TransformOnBuild>
-   <!-- Other properties can be inserted here -->
-</PropertyGroup>
-```
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

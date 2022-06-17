@@ -24,6 +24,8 @@ ms.workload:
 ---
 # How to: Configure legacy analysis for managed code
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In Visual Studio, you can choose from a list of code analysis [rule sets](../code-quality/rule-set-reference.md) to apply to a managed code project. By default, the **Microsoft Minimum Recommended Rules** rule set is selected, but you can apply a different rule set if desired. Rule sets can be applied to one or multiple projects in a solution.
 
 > [!NOTE]
@@ -39,11 +41,6 @@ In Visual Studio, you can choose from a list of code analysis [rule sets](../cod
 
 2. In the **Configuration** and **Platform** lists, choose the build configuration and target platform.
 
-::: moniker range="vs-2017"
-
-3. To run code analysis every time the project is built using the selected configuration, select **Enable Code Analysis on Build**. You can also run code analysis manually by selecting **Analyze** > **Run Code Analysis** > **Run Code Analysis on \<projectname>**.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -56,11 +53,6 @@ In Visual Studio, you can choose from a list of code analysis [rule sets](../cod
     > [!NOTE]
     > This option does not suppress code analysis errors and warnings from generated code when the errors and warnings appear in forms and templates. You can both view and maintain the source code for a form or a template, and it won't be overwritten.
 
-::: moniker range="vs-2017"
-
-5. In the **Run this rule set** list, do one of the following:
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

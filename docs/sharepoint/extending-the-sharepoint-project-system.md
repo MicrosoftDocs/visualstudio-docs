@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Extend the SharePoint project system
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can create SharePoint solutions by using a set of project templates and item templates in Visual Studio. These templates meet the requirements of many development scenarios, but you might discover some cases where they don't provide functionality that you require. In these cases, you can extend the SharePoint project system.
 
 ## Overview of the SharePoint project system

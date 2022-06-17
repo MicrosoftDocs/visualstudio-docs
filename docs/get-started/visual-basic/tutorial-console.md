@@ -18,20 +18,8 @@ ms.workload:
 ---
 # Tutorial: Create a simple Visual Basic (VB) console app
 
-::: moniker range="vs-2017"
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-This article shows how you'll use Visual Studio to create a simple Visual Basic application, a *console app*. In this app, you ask the user for their name, and then display it back with the current time. You'll also explore some features of the [Visual Studio integrated development environment (IDE)](visual-studio-ide.md). Visual Basic is a type-safe programming language that's designed to be easy to learn. A console app takes input and displays output in a command-line window, also known as a console.
-
-In this tutorial, you learn how to:
-
-> [!div class="checklist"]
-> - Create a Visual Studio project
-> - Run the default application
-> - Add code to ask for user input
-> - Extra credit: Add two numbers
-> - Clean up resources
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -51,11 +39,6 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-::: moniker range="vs-2017"
-
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -74,37 +57,6 @@ First, you'll create a Visual Basic app project. The default project template in
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-1. Open Visual Studio 2017.
-
-2. From the top menu bar, choose **File** > **New** > **Project**.
-
-3. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the project *WhatIsYourName*.
-
-   :::image type="content" source="media/new-project-vb-dotnetcore-whatisyourname-console-app.png" alt-text="Console App (.NET Core) project template in the New Project dialog box in the Visual Studio IDE":::
-
-### Add a workload (optional)
-
-If you don't see the **Console App (.NET Core)** project template, you can get it by adding the **.NET Core cross-platform development** workload. You can add this workload in one of the two following ways, depending on which Visual Studio 2017 updates are installed on your machine.
-
-#### Option 1: Use the New Project dialog box
-
-1. Select the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
-
-   :::image type="content" source="../media/vs-open-visual-studio-installer-generic.png" alt-text="Select the Open Visual Studio Installer link from the New Project dialog box":::
-
-1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
-
-   > :::image type="content" source="media/dot-net-core-xplat-dev-workload.png" alt-text="Screenshot showing the .NET Core cross-platform development workload in the Visual Studio Installer.":::
-
-#### Option 2: Use the Tools menu bar
-
-1. Cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features**.
-
-1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -188,19 +140,6 @@ There are two ways to run this code, inside Visual Studio in *debug mode*, and f
 
 ### Run the app in debug mode
 
-::: moniker range="vs-2017"
-
-   :::image type="content" source="media/overview-ide-console-app.png" alt-text="Screenshot showing the default 'Hello World!' code in the Visual Basic project template.":::
-
-1. Select the **WhatIsYourName** button or press **F5** to build and run the default "WhatIsYourName" code in Debug mode.
-
-    :::image type="content" source="media/vb-ide-whatisyourname-button.png" alt-text="Screenshot showing the 'What Is Your Name' button highlighted in the Visual Studio toolbar.":::
-
-1. When the app runs in the Microsoft Visual Studio Debug Console, "Hello World!" displays. Press any key to close the debug console window and end the app:
-
-    :::image type="content" source="media/vb-console-hello-world-debug-dark.png" alt-text="Screenshot showing 'Hello World!' and the 'Press any key to close this window' messages.":::
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -234,17 +173,6 @@ There are two ways to run this code, inside Visual Studio in *debug mode*, and f
 
 To see the output outside of Visual Studio, in a system console window, build and run the executable (.exe file). 
 
-::: moniker range="vs-2017"
-
-1. In the **Build** menu, choose **Build Solution**.
-
-1. In **Solution Explorer**, right-click on **WhatIsYourName** and choose **Open File in File Explorer**.
-
-1. In **File Explorer**, navigate to the **bin\Debug\netcoreapp3.1** directory and run **WhatIsYourName.exe**.
-
-1. The `Main` procedure terminates after its single statement executes and the console window closes immediately. To keep the console visible until the user presses a key, see the next section.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -274,35 +202,6 @@ To see the output outside of Visual Studio, in a system console window, build an
 
 Next, you'll add Visual Basic code that prompts you for your name and then displays it along with the current date and time. In addition, you'll add code that pauses the console window until the user presses a key.
 
-::: moniker range="vs-2017"
-
-1. Enter the following Visual Basic code after the `Sub Main(args As String())` line and before the `End Sub` line, replacing the <xref:System.Console.WriteLine%2A> line:
-
-     ```vb
-     Console.Write("Please enter your name: ")
-     Dim name = Console.ReadLine()
-     Dim currentDate = DateTime.Now
-     Console.WriteLine($"Hello, {name}, on {currentDate:d} at {currentDate:t}")
-     Console.Write("Press any key to continue...")
-     Console.ReadKey(True)
-     ```
-
-   - <xref:System.Console.Write%2A> and <xref:System.Console.WriteLine%2A> write a string to the console. 
-   - <xref:System.Console.ReadLine%2A> reads input from the console, in this case a string. 
-   - <xref:System.DateTime> represents a datetime, and <xref:System.DateTime.Now> returns the current time. 
-   - <xref:System.Console.ReadKey> pauses the app and waits for a keypress.
-
-   :::image type="content" source="media/vb-code-window-whatisyourname-dark.png" alt-text="Screenshot showing the code for the 'Program.vb' file in the 'WhatIsYourName' project loaded in the Visual Basic code editor.":::
-
-1. Select the **WhatIsYourName** button or press **F5** to build and run your first app in Debug mode.
-
-1. When the debug console window opens, enter your name. Your console window should look similar to the following screenshot:
-
-   :::image type="content" source="media/vs-2019/vb-console-enter-your-name.png" alt-text="Screenshot showing the debug console window with 'Please enter your name', the date and time, and 'Press any key to continue' messages.":::
-
-1. Press any key to end the app, and then press any key to close the debug console window.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

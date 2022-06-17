@@ -24,6 +24,8 @@ ms.workload:
 ---
 # Microsoft Help Viewer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can install and view content for various products and technologies on your local computer by using Microsoft Help Viewer. These products include Visual Studio, .NET, language reference, SQL Server, and Windows Development. Help Viewer enables you to:
 
 - Download sets of content, which are also referred to as books. This can be useful if you need to work "offline" and still have access to documentation.

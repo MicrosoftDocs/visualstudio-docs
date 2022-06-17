@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Best practices for using code snippets
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The code in a code snippet shows only the most basic way to do something. For most applications, the code must be modified to suit the application.
 
 ## Handling exceptions

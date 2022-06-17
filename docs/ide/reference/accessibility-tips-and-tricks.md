@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Accessibility tips and tricks for Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. Whether you want to use keyboard shortcuts to navigate the IDE, or use high-contrast themes to improve visibility, you'll find several tips & tricks on this page about how to do so.
 
 We also cover how to use annotations to reveal useful information about your code, and how to set sound cues for build and breakpoint events.
@@ -137,12 +139,6 @@ Here's how to add sounds to program events in either Windows 11 or Windows 10.
 
 1. Click **OK**.
 
-::: moniker range="vs-2017"
-
-> [!TIP]
-> To learn more about accessibility updates, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
-
-::: moniker-end
 
 ## See also
 

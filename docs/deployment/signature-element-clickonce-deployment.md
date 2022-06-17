@@ -19,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;Signature&gt; element (ClickOnce deployment)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains the necessary information to digitally sign this deployment manifest.
 
 ## Syntax

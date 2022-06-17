@@ -23,6 +23,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;entryPoint&gt; element (ClickOnce application)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Identifies the assembly that should be executed when this [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is run on a client computer.
 
 ## Syntax

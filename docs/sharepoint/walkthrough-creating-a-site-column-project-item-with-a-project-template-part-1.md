@@ -21,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Create a site column project item with a project template, Part 1
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   SharePoint projects are containers for one or more SharePoint project items. You can extend the SharePoint project system in Visual Studio by creating your own SharePoint project item types and then associating them with a project template. In this walkthrough, you will define a project item type for creating a site column, and then you will create a project template that can be used to create a new project that contains a site column project item.
 
  This walkthrough demonstrates the following tasks:

@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Display files by using the Open With command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A project can ask the IDE to display the **Open With** dialog box. This request prompts the user to open a file that has a selection of standard editors. The following steps describe this process:
 
 1. The project calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A>, specifying a value of `OSE_UseOpenWithDialog` for the `OSEOpenDocEditor` parameter.

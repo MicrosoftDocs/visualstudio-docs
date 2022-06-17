@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Source Control Runtime Details
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A project is added to source control when the user adds a file in the project to source control, or through an automation controller, such as a wizard. A project does not specify for itself that it is under source control; it supports source control, but must be added to it manually.
 
 ## Registering with a Source Control Package

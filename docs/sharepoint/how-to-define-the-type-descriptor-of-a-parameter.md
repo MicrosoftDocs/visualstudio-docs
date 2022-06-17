@@ -20,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # How to: Define the type descriptor of a parameter
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   A type descriptor contains properties that describe the data type of a parameter. A type descriptor can define a field, an entity, or a collection of entities. For more information, see [TypeDescriptor](/previous-versions/office/developer/sharepoint-2007/ms543392\(v\=office.12\)).
 
 ### To define the type descriptor of a parameter

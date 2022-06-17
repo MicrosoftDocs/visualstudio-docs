@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # AsyncTaskMethodBuilder&lt;TResult&gt;.m_task field
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents the lazily initialized built task.
 
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>

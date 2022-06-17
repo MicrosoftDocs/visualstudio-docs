@@ -18,6 +18,8 @@ ms.technology: vs-installation
 ---
 # Programmatically configure default settings using a response file
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Visual Studio response file is a [JSON](http://json-schema.org/) file whose contents mirror the command-line parameters and arguments. The response file is used to initialize client settings during the initial installation of the product onto the client. 
 
 ## Automate installation
@@ -50,19 +52,6 @@ When Visual Studio setup is run from a layout folder, the setup will _automatica
 
 The base `response.json` file in a layout should look similar to the following example, except that it would include the value for the product and channel that you want to install:
 
-::: moniker range="vs-2017"
-
-```Default response.json
-{
-  "installChannelUri": ".\\ChannelManifest.json",
-  "channelUri": "https://aka.ms/vs/15/release/channel",
-  "installCatalogUri": ".\\Catalog.json",
-  "channelId": "VisualStudio.15.Release",
-  "productId": "Microsoft.VisualStudio.Product.Enterprise"
-}
-```
-
-::: moniker-end
 
 ::: moniker range="=vs-2019"
 
@@ -106,42 +95,6 @@ When you create or update a layout, a response.template.json file is also create
 
 ## Example customized layout response file content
 
-::: moniker range="vs-2017"
-
-The following `response.json` file example will initialize a Visual Studio Enterprise client install to include several common workloads and components, to include both the English and French UI languages, and to have the update location configured to point back to the layout. Note that for Visual Studio 2017, once the update location (channelURI) is set on the client, it cannot be changed later.
-
-```Example response.json
-{
-  "installChannelUri": ".\\ChannelManifest.json",
-  "channelUri": "\\\\server\\share\\layoutdirectory\\ChannelManifest.json",
-  "installCatalogUri": ".\\Catalog.json",
-  "channelId": "VisualStudio.15.Release",
-  "productId": "Microsoft.VisualStudio.Product.Enterprise",
-
-  "installPath": "C:\\VS2017",
-  "quiet": false,
-  "passive": false,
-  "includeRecommended": true,
-  "norestart": false,
-
-  "addProductLang": [
-    "en-US",
-    "fr-FR"
-    ],
-
-    "add": [
-        "Microsoft.VisualStudio.Workload.ManagedDesktop",
-        "Microsoft.VisualStudio.Workload.Data",
-        "Microsoft.VisualStudio.Workload.NativeDesktop",
-        "Microsoft.VisualStudio.Workload.NetWeb",
-        "Microsoft.VisualStudio.Workload.Office",
-        "Microsoft.VisualStudio.Workload.Universal",
-        "Component.GitHub.VisualStudio"
-    ]
-}
-```
-
-::: moniker-end
 
 ::: moniker range="=vs-2019"
 

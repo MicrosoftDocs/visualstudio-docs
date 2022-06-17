@@ -20,6 +20,8 @@ ms.workload:
 ---
 # LocationFieldMRUPrefix element (Visual Studio Templates)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Specifies the most recently used (MRU) paths in the **New Project** and **Add New Item** dialog box.
 
 ## Syntax

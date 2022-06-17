@@ -7,9 +7,9 @@ metadata:
   description: "Visual Studio subscriptions offer a comprehensive set of resources for you to create, deploy, and manage applications on your preferred platforms and devices, including Windows, iOS, Android, and Linux. Benefits include access to developer tools, cloud services and software, training, and support for your development and testing needs."
   ms.topic: hub-page
   author: evanwindom
-  ms.author: lank
-  manager: lank
-  ms.date: 10/09/2021
+  ms.author: amast
+  manager: shve
+  ms.date: 05/02/2022
 
 highlightedContent:
   items:

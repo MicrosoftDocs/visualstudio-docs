@@ -14,6 +14,8 @@ ms.workload:
 ---
 # How to: Edit XML files
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The XML editor is the new editor for XML files. It can be used on a stand-alone XML file, or on a file associated with a Visual Studio project. The XML editor is associated with the following file extensions: *.config*, *.dtd*, *.xml*, *.xsd*, *.xdr*, *.xsl*, *.xslt*, and *.vssettings*. The XML editor is also associated with any other file type that has no specific editor registered, and that contains XML or DTD content.
 
 > [!NOTE]
@@ -51,17 +53,6 @@ To edit an XML file, open the file you want to edit.
 
 ## Create an empty project for XML files
 
-::: moniker range="vs-2017"
-
-1. From the **File** menu, select **New** > **Project**.
-
-   The **New Project** dialog box appears.
-
-2. Select the code language of your choice, and then select the **Empty Project (.NET Framework)** template.
-
-3. Select **OK**.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

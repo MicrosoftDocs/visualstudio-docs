@@ -18,6 +18,8 @@ ms.workload:
 ---
 # How to: Distribute code snippets
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can give your code snippets to your friends and have them install the snippets on their own computers by using **Code Snippets Manager**. However, if you have several snippets to distribute or would like to distribute them more widely, you can include your snippet files in a Visual Studio extension. Visual Studio users can then install the extension to obtain the snippets.
 
 ## Prerequisites
@@ -68,11 +70,6 @@ In this procedure, you'll use the same Hello World code snippet that's created i
 
 ### Add the .pkgdef file
 
-::: moniker range="vs-2017"
-
-1. Add a text file to the *HelloWorldVB* folder and name it *HelloWorldVB.pkgdef*. This file is used to add certain keys to the registry. In this case, it adds a new subkey to the **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\15.0\Languages\CodeExpansions\Basic** key.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

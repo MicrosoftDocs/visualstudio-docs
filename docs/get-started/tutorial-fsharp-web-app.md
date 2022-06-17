@@ -13,8 +13,9 @@ ms.workload:
   - "aspnet"
   - "dotnetcore"
 ---
-
 # Tutorial: Create an ASP.NET Core web service in F#
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio Integrated Development Environment (IDE) supports F# for several product types.
 You can easily create a full web services app.
@@ -31,10 +32,6 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-::: moniker range="vs-2017"
-You need Visual Studio to complete this tutorial.
-Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) for a free version.
-::: moniker-end
 ::: moniker range="vs-2019"
 You need Visual Studio to complete this tutorial.
 Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
@@ -59,40 +56,6 @@ Be sure you have the necessary components installed:
 In this section, you'll create an ASP.NET Core Web API project.
 The project type comes with template files that constitute a functional web service, before you've even added anything.
 
-::: moniker range="vs-2017"
-1. Start Visual Studio 2017. From the top menu bar, choose **File** > **New** > **Project**.
-
-1. In the **New Project** dialog box, in the left pane, expand **Visual F#**, then choose **Web**. In the middle pane, select **ASP.NET Core Web Application**.
-
-1. For **Name**, type *FSharpTutorial*, and then select **OK**.
-
-1. In the **New ASP.NET Core Web Application** dialog box, select the default version.
-
-   > [!NOTE]
-   > ASP.NET Core 2.1 is no longer supported.
-   > We don't recommend using unsupported options for production environments.
-
-1. In **Solution Explorer**, expand the **Controllers** folder, then choose **ValuesController.fs** to open it in the editor.
-
-   ![Screenshot showing the Solution Explorer with the Values Controller expanded in an F# Web API project.](./media/tutorial-fsharp-web-app/values-controller-fsharp-solution-explorer.png)
-
-1. Next, modify the existing `Get()` member example to match the following code:
-
-   ```fsharp
-   [<HttpGet>]
-   member this.Get() =
-       let values = [|"Hello"; "World"; "First F#/ASP.NET Core web API!"|]
-       ActionResult<string[]>(values)
-   ```
-
-   This code contains an F# array of values that are is bound to the `values` name.
-   It passes the values to the ASP.NET Core model-view-controller framework as an `ActionResult`.
-   ASP.NET Core takes care of the rest for you.
-
-1. Select the **F5** key to run your project.
-   A browser window opens to display your Hello World message.
-
-::: moniker-end
 ::: moniker range=">=vs-2019"
 1. Start Visual Studio.
 

@@ -19,8 +19,9 @@ ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---
-
 # Deploy your app to a folder, IIS, Azure, or another destination
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By deploying an application, service, or component, you distribute it for installation on other computers, devices, servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need.
 
@@ -56,14 +57,7 @@ From within Visual Studio, applications can be published directly to the followi
 - [Web server(IIS)](#web-server-iis)
 - [Import profile](#import-profile)
 ::: moniker-end
-::: moniker range="vs-2017"
-- [App Service](#azure-app-service)
-- [App Service Linux](#azure-app-service)
-- [IIS (choose IIS, FTP, etc.)](#web-server-iis)
-- [FTP/FTPS (choose IIS, FTP, etc.)](#ftpftps-server)
-- [Folder](#folder)
-- [Import profile](#import-profile)
-::: moniker-end
+
 
 The preceding options appear as shown in the following illustration when you create a new publish profile.
 
@@ -73,9 +67,7 @@ The preceding options appear as shown in the following illustration when you cre
 ::: moniker range="vs-2019"
 ![Screenshot of Choose a publishing option.](../deployment/media/quickstart-publish-dialog.png)
 ::: moniker-end
-::: moniker range="vs-2017"
-![Screenshot of Choose a publishing option.](../deployment/media/quickstart-publish-dialog-vs-2017.png)
-::: moniker-end
+
 
 For a quick tour of more general application deployment options, see [First look at deployment](../deployment/deploying-applications-services-and-components.md).
 

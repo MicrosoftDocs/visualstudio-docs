@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSession::findAcceleratorInlineesByName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns an enumeration of symbols for inline frames corresponding to the specified inline function name.
 
 ## Syntax

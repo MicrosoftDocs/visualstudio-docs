@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugMethodField
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface describes a method.
 
 ## Syntax

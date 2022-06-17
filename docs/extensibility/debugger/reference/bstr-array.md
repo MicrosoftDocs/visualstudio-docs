@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # BSTR_ARRAY
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A structure that describes an array of strings.
 
 ## Syntax

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugDisassemblyStream2::Seek
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Moves the read pointer in the disassembly stream a given number of instructions relative to a specified position.
 
 ## Syntax

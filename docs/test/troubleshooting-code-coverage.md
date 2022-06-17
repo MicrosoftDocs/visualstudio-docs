@@ -13,6 +13,8 @@ author: mikejo5000
 ---
 # Troubleshoot code coverage
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The code coverage analysis tool in Visual Studio collects data for native and managed assemblies (*.dll* or *.exe* files). However, in some cases, the **Code Coverage Results** window displays an error similar to "Empty results generated: ...." There are several reasons why you can get empty results. This article helps you resolve those issues.
 
 ## What you should see
@@ -22,9 +24,7 @@ If you choose an **Analyze Code Coverage** command on the **Test** menu, and if 
 ::: moniker range=">=vs-2019"
 ![Code coverage results with coloring](../test/media/vs-2019/codecoverage1.png)
 ::: moniker-end
-::: moniker range="vs-2017"
-![Code coverage results with coloring](../test/media/codecoverage1.png)
-::: moniker-end
+
 
 For more information, see [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 

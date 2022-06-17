@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically create appointments
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example creates an appointment and adds recipients to the appointment meeting request.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

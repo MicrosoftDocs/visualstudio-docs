@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Overview
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Each Roslyn analyzer *diagnostic* or rule has a default severity and suppression state that can be overwritten and customized for your project. This article covers setting analyzer severities and suppressing analyzer violations.
 
 ## Configure severity levels
@@ -27,11 +29,6 @@ Starting in Visual Studio 2019 version 16.3, you can configure the severity of a
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-You can configure the severity of analyzer rules, or *diagnostics*, if you [install the analyzers](../code-quality/install-roslyn-analyzers.md) as a NuGet package. You can change the severity of a rule [from Solution Explorer](#set-rule-severity-from-solution-explorer) or [in a rule set file](#set-rule-severity-in-the-rule-set-file).
-
-::: moniker-end
 
 The following table shows the different severity options:
 
@@ -269,11 +266,6 @@ dotnet_diagnostic.CA2231.severity = warning
    > If you don't already have an EditorConfig file or ruleset file in the project, Visual Studio creates a new EditorConfig file for you.
 ::: moniker-end
 
-::: moniker range="vs-2017"
-3. Right-click the rule and select **Set Rule Set Severity**. In the context menu, choose one of the severity options.
-
-   The severity for the rule is saved in the active rule set file.
-::: moniker-end
 
 ### Set rule severity in the rule set file
 

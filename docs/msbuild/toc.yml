@@ -13,7 +13,7 @@ items:
   - name: MSBuild concepts
     items:
     - name: Overview
-      displayName: "msbuild concepts"
+      displayName: msbuild concepts
       href: msbuild-concepts.md
     - name: How MSBuild builds projects
       href: build-process-overview.md
@@ -83,7 +83,7 @@ items:
         items:
         - name: MSBuild inline tasks
           href: msbuild-inline-tasks.md
-        - name: "Walkthrough: Creating an inline task"
+        - name: 'Walkthrough: Creating an inline task'
           href: walkthrough-creating-an-inline-task.md
       - name: MSBuild inline tasks with RoslynCodeTaskFactory
         href: msbuild-roslyncodetaskfactory.md
@@ -156,7 +156,7 @@ items:
     - name: File tracking
       items:
       - name: Overview
-        displayName: "file tracking"
+        displayName: file tracking
         href: file-tracking.md
       - name: EndTrackingContext
         href: endtrackingcontext.md
@@ -195,19 +195,19 @@ items:
       href: writing-multi-processor-aware-loggers.md
     - name: Creating forwarding loggers
       href: creating-forwarding-loggers.md
-  - name: "Walkthrough: Using MSBuild"
+  - name: 'Walkthrough: Using MSBuild'
     href: walkthrough-using-msbuild.md
-  - name: "Walkthrough: Creating an MSBuild project file from scratch"
+  - name: 'Walkthrough: Creating an MSBuild project file from scratch'
     href: walkthrough-creating-an-msbuild-project-file-from-scratch.md
   - name: MSBuild reference
     items:
     - name: Overview
-      displayName: "msbuild reference"
+      displayName: msbuild reference
       href: msbuild-reference.md
     - name: MSBuild project file schema reference
       items:
       - name: Overview
-        displayName: "Project File Schema Reference"
+        displayName: Project File Schema Reference
         href: msbuild-project-file-schema-reference.md
       - name: Choose element
         href: choose-element-msbuild.md
@@ -256,12 +256,12 @@ items:
     - name: Task reference
       items:
       - name: Overview
-        displayName: "task reference"
+        displayName: task reference
         href: msbuild-task-reference.md
       - name: Tasks specific to C++
         items:
         - name: Overview
-          displayName: "C++ tasks"
+          displayName: C++ tasks
           href: msbuild-tasks-specific-to-visual-cpp.md
         - name: BscMake task
           href: bscmake-task.md
@@ -466,14 +466,14 @@ items:
     - name: WPF reference
       items:
       - name: Overview
-        displayName: "WPF MSBuild reference"
+        displayName: WPF MSBuild reference
         href: wpf-msbuild-reference.md
       - name: WPF .targets files
         href: wpf-dot-targets-files.md
       - name: WPF task reference
         items:
         - name: Overview
-          displayName: "WPF MSBuild task reference"
+          displayName: WPF MSBuild task reference
           href: wpf-msbuild-task-reference.md
         - name: FileClassifier task
           href: fileclassifier-task.md
@@ -509,6 +509,10 @@ items:
         href: errors/msb3190.md
       - name: MSB3270
         href: errors/msb3270.md
+      - name: MSB3721
+        href: errors/msb3271.md
+      - name: MSB3273
+        href: errors/msb3273.md
       - name: MSB3274
         href: errors/msb3274.md
       - name: MSB3275
@@ -658,7 +662,7 @@ items:
   - name: Use MSBuild programmatically
     items:
     - name: Overview
-      displayName: "Use MSBuild programmatically"
+      displayName: Use MSBuild programmatically
       href: msbuild-api.md
     - name: Update to MSBuild 15
       href: updating-an-existing-application.md

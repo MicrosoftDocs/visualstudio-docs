@@ -13,6 +13,8 @@ author: mikejo5000
 ---
 # Create a unit test project
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Unit tests often mirror the structure of the code under test. For example, a unit test project would be created for each code project in the product. The test project can be in the same solution as the production code, or it can be in a separate solution. You can have multiple unit test projects in a solution.
 
 > [!NOTE]
@@ -22,15 +24,6 @@ Unit tests often mirror the structure of the code under test. For example, a uni
 
 1. On the **File** menu, select **New** > **Project**, or press **Ctrl**+**Shift**+**N**.
 
-::: moniker range="vs-2017"
-
-2. In the **New Project** dialog box, expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.
-
-3. Select the project template for the test framework that you want to use, for example **MSTest Test Project** or **NUnit Test Project**. Name the project, and then choose **OK**.
-
-   ![Test project templates in Visual Studio 2017](media/test-project-templates.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

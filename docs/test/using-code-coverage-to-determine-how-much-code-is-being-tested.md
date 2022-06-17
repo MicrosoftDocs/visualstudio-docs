@@ -1,8 +1,7 @@
 ---
 title: Code coverage testing
 description: Learn how to use the code coverage feature of Visual Studio to determine what proportion of your project code is being tested by coded tests.
-ms.custom: SEO-VS-2020
-ms.date: 07/23/2019
+ms.date: 05/24/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - code coverage
@@ -17,17 +16,14 @@ ms.technology: vs-ide-test
 ---
 # Use code coverage to determine how much code is being tested
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 To determine what proportion of your project's code is actually being tested by coded tests such as unit tests, you can use the code coverage feature of Visual Studio. To guard effectively against bugs, your tests should exercise or 'cover' a large proportion of your code.
 
 Code coverage analysis can be applied to both managed (CLI) and unmanaged (native) code.
 
 Code coverage is an option when you run test methods using Test Explorer. The results table shows the percentage of the code that was run in each assembly, class, and method. In addition, the source editor shows you which code has been tested.
 
-::: moniker range="vs-2017"
-
-![Code coverage results with coloring](../test/media/codecoverage1.png)
-
-::: moniker-end
 
 ## Requirements
 
@@ -35,17 +31,22 @@ The code coverage feature is available only in Visual Studio Enterprise edition.
 
 ## Analyze code coverage
 
-::: moniker range="vs-2017"
 
-1. On the **Test** menu, choose **Analyze Code Coverage**.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 1. On the **Test** menu, select **Analyze Code Coverage for All Tests**.
 
    ![Analyze code coverage menu in VS 2019](../test/media/vs-2019/analyze-code-coverage.png)
+
+   You can also run code coverage from the Test Explorer tool window.
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+1. On the **Test** menu, select **Analyze Code Coverage for All Tests**.
+
+   ![Analyze code coverage menu in VS 2019](../test/media/vs-2022/analyze-code-coverage.png)
 
    You can also run code coverage from the Test Explorer tool window.
 
@@ -68,6 +69,11 @@ The code coverage feature is available only in Visual Studio Enterprise edition.
 If you don't get the results you expect, see [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md).
 
 Don't forget to run code coverage again after updating your code. Coverage results and code coloring are not automatically updated after you modify your code or when you run tests.
+
+::: moniker range=">=vs-2022"
+> [!TIP]
+> Starting in Visual Studio 2022 Update 2, you can enable faster code coverage test results by selecting **Tools > Options > Environment > Preview Features**, then selecting **Code coverage experience improvements**, and then restarting Visual Studio.
+::: moniker-end
 
 ## Report in blocks or lines
 
@@ -277,11 +283,6 @@ To run tests from the command line, use *vstest.console.exe*. Code coverage is a
 
 1. Launch the Developer Command Prompt for Visual Studio:
 
-   ::: moniker range="vs-2017"
-
-   In the Windows **Start** menu, choose **Visual Studio 2017** > **Developer Command Prompt for VS 2017**.
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2019"
 

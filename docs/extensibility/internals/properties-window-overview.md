@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Properties Window Overview
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Properties** window is used to display properties for objects selected in the two main types of windows available in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). These two types of windows are:
 
 - Tool windows such as Solution Explorer, Class View, and Object browser

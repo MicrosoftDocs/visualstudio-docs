@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Debug session
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In terms of the debugger architecture, a *session*:
 
 - Is the set of all processes, related or unrelated, that have been launched or attached to from a single instance of the IDE.

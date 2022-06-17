@@ -14,6 +14,8 @@ ms.technology: vs-ide-test
 ---
 # How to: Create a recorder plug-in
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRecorderPlugin> lets you modify a recorded web performance test. The modification occurs after you choose **Stop** in the **Web Performance Test Recorder** toolbar but prior to the test being saved and presented in the Web Performance Test Editor.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]

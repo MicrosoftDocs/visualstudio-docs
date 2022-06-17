@@ -13,15 +13,12 @@ ms.technology: vs-ide-general
 ---
 # How to: Troubleshoot templates
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 If a template fails to load in the development environment, there are several ways to locate the problem.
 
 ## Validate the vstemplate file
 
-::: moniker range="vs-2017"
-
-If the *vstemplate* file in a template doesn't adhere to the Visual Studio template schema, the template may not appear in the **New Project** dialog box.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

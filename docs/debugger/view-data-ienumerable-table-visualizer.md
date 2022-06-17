@@ -18,8 +18,9 @@ monikerRange: '>= vs-2022'
 ms.workload:
   - "multiple"
 ---
-
 # View IEnumerables in a table visualizer in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Starting in Visual Studio 2022 Update 2 Preview 1, you can view IEnumerable collections in a tabular view.
 

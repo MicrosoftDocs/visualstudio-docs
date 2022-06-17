@@ -17,6 +17,8 @@ dev_langs:
 - CSharp
 ---
 # BP_FLAGS90
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates valid values for optional flags. The optional flags may be used to specify additional information when you set a breakpoint. This enumeration extends the [BP_FLAGS](../../../extensibility/debugger/reference/bp-flags.md) enumeration.
 
 ## Syntax

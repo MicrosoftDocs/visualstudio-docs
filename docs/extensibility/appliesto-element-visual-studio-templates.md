@@ -14,6 +14,8 @@ ms.workload:
 ---
 # AppliesTo element (Visual Studio templates)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Specifies an optional expression to match one or more capabilities (see <xref:Microsoft.VisualStudio.Shell.Interop.VsProjectCapabilityExpressionMatcher>). Capabilities are exposed by project types via the hierarchy as a property [__VSHPROPID5.VSHPROPID_ProjectCapabilities](<xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID5.VSHPROPID_ProjectCapabilities>). In this way, the template can be shared by multiple project types that have common applicable capabilities.
 
 This element is optional. There can be a maximum of one instance in a template file. This element only enables an item template to opt-in as applicable, based on the capabilities of the currently selected active project. It cannot be used to make an item template not applicable. If `AppliesTo` is absent or the expression does not successfully opt in, then `TemplateID` or `TemplateGroupID` is used to make the template applicable, as with previous versions of the product.
