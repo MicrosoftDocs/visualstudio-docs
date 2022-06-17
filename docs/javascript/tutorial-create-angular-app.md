@@ -44,7 +44,7 @@ Make sure to have the following installed:
 
    When you get to the Additional information window, be sure NOT to check the **Add integration for Empty ASP.NET Web API Project** option. This option adds files to your Angular template so that it can be hooked up with the ASP.NET Core project, if an ASP.NET Core project is added.
 
-   :::image type="content" source="media/vs-2022/angular-additional-info.png" alt-text="Additional information":::
+   :::image type="content" source="media/vs-2022/angular-additional-info-no-integration.png" alt-text="Additional information":::
 
 ## Set the project properties
 

@@ -43,7 +43,7 @@ Make sure to have the following installed:
 
    If you previously selected Standalone JavaScript React Template, when you get to the Additional information window be sure NOT to check the **Add integration for Empty ASP.NET Web API Project** option. This option adds files to your React template so that it can be hooked up with the ASP.NET Core project, if an ASP.NET Core project is added.
 
-   :::image type="content" source="media/vs-2022/react-additional-info.png" alt-text="Additional information":::
+   :::image type="content" source="media/vs-2022/react-additional-info-no-integration.png" alt-text="Additional information":::
 
    Please note that creation of the React project takes a moment because the create-react-app command that runs at this time also runs the npm install command
 

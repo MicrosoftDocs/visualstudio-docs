@@ -40,7 +40,7 @@ Make sure to have the following installed:
 
    :::image type="content" source="media/vs-2022/vue-choose-template.png" alt-text="Choose a template":::
 
-1. Give your project and solution a name. 
+1. Give your project and solution a name.
 
 ## Set the project properties
 
