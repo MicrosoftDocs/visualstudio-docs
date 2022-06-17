@@ -65,7 +65,7 @@ Make sure to install the following:
 
 ## Create the backend app
 
-1. In the solution explorer, right-click the solution name, hover over **Add**, and then select **New Project**. 
+1. In Solution Explorer, right-click the solution name, hover over **Add**, and then select **New Project**. 
 
    :::image type="content" source="media/vs-2022/asp-net-core-add-project.png" alt-text="Add a new project":::
 
@@ -81,7 +81,7 @@ Make sure to install the following:
 
 ## Set the project properties
 
-1. Right-click the ASP.NET Core project and choose **Properties**.
+1. In Solution Explorer, right-click the ASP.NET Core project and choose **Properties**.
 
    :::image type="content" source="media/vs-2022/asp-net-core-project-properties.png" alt-text="Open project properties"::: 
  
