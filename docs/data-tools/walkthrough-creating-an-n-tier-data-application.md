@@ -252,14 +252,7 @@ Now that the data access tier contains the methods to return data, create method
 
 2. Add the following code under the **Add your service operations here** comment:
 
-    ```vb
-    <OperationContract()> _
-    Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable
-
-    <OperationContract()> _
-    Function GetOrders() As DataEntityTier.NorthwindDataSet.OrdersDataTable
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     [OperationContract]
     DataEntityTier.NorthwindDataSet.CustomersDataTable GetCustomers();
@@ -268,6 +261,16 @@ Now that the data access tier contains the methods to return data, create method
     DataEntityTier.NorthwindDataSet.OrdersDataTable GetOrders();
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    <OperationContract()> _
+    Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable
+
+    <OperationContract()> _
+    Function GetOrders() As DataEntityTier.NorthwindDataSet.OrdersDataTable
+    ```
+    ---
+
    > [!NOTE]
    > The code for this tutorial is available in C# and Visual Basic. To switch the code language on this page between C# and Visual Basic, use the code language switcher at the top of the page on the right side.
 
@@ -275,18 +278,7 @@ Now that the data access tier contains the methods to return data, create method
 
 4. Add the following code to the **Service1** class:
 
-    ```vb
-    Public Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable Implements IService1.GetCustomers
-        Dim CustomersTableAdapter1 As New DataAccessTier.NorthwindDataSetTableAdapters.CustomersTableAdapter
-        Return CustomersTableAdapter1.GetCustomers()
-    End Function
-
-    Public Function GetOrders() As DataEntityTier.NorthwindDataSet.OrdersDataTable Implements IService1.GetOrders
-        Dim OrdersTableAdapter1 As New DataAccessTier.NorthwindDataSetTableAdapters.OrdersTableAdapter
-        Return OrdersTableAdapter1.GetOrders()
-    End Function
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     public DataEntityTier.NorthwindDataSet.CustomersDataTable GetCustomers()
     {
@@ -303,6 +295,20 @@ Now that the data access tier contains the methods to return data, create method
         return OrdersTableAdapter1.GetOrders();
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Public Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable Implements IService1.GetCustomers
+        Dim CustomersTableAdapter1 As New DataAccessTier.NorthwindDataSetTableAdapters.CustomersTableAdapter
+        Return CustomersTableAdapter1.GetCustomers()
+    End Function
+
+    Public Function GetOrders() As DataEntityTier.NorthwindDataSet.OrdersDataTable Implements IService1.GetOrders
+        Dim OrdersTableAdapter1 As New DataAccessTier.NorthwindDataSetTableAdapters.OrdersTableAdapter
+        Return OrdersTableAdapter1.GetOrders()
+    End Function
+    ```
+    ---
 
 5. On the **Build** menu, click **Build Solution**.
 
@@ -367,18 +373,21 @@ After you add the service reference to the data service, the **Data Sources** wi
 
 7. Add the following code to the `Form1_Load` event handler.
 
-    ```vb
-    Dim DataSvc As New ServiceReference1.Service1Client
-    NorthwindDataSet.Customers.Merge(DataSvc.GetCustomers)
-    NorthwindDataSet.Orders.Merge(DataSvc.GetOrders)
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     ServiceReference1.Service1Client DataSvc =
         new ServiceReference1.Service1Client();
     northwindDataSet.Customers.Merge(DataSvc.GetCustomers());
     northwindDataSet.Orders.Merge(DataSvc.GetOrders());
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Dim DataSvc As New ServiceReference1.Service1Client
+    NorthwindDataSet.Customers.Merge(DataSvc.GetCustomers)
+    NorthwindDataSet.Orders.Merge(DataSvc.GetOrders)
+    ```
+    ---
 
 ## Increase the maximum message size allowed by the service
 The default value for `maxReceivedMessageSize` is not large enough to hold the data retrieved from the `Customers` and `Orders` tables. In the following steps, you'll increase the value to 6553600. You change the value on the client, which automatically updates the service reference.

@@ -28,15 +28,17 @@ Continues running this program from a stopped state. Any previous execution stat
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Execute();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Execute(
    void
 );
 ```
-
-```csharp
-int Execute();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

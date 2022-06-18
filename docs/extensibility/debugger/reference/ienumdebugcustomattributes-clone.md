@@ -25,17 +25,19 @@ Creates an enumerator that contains the same enumeration state as the current en
 
 ## Syntax
 
-```cpp
-HRESULT Clone ( 
-   IEnumCustomAttributes** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Clone(
    out IEnumDebugCustomAttributes ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Clone ( 
+   IEnumCustomAttributes** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

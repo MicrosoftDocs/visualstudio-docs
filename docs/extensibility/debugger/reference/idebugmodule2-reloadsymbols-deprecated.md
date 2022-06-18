@@ -25,19 +25,21 @@ OBSOLETE. DO NOT USE. Reloads the symbols for this module.
 
 ## Syntax
 
-```cpp
-HRESULT ReloadSymbols( 
-   LPCOLESTR pszUrlToSymbols,
-   BSTR*     pbstrDebugMessage
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ReloadSymbols( 
    string     pszUrlToSymbols,
    out string pbstrDebugMessage
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ReloadSymbols( 
+   LPCOLESTR pszUrlToSymbols,
+   BSTR*     pbstrDebugMessage
+);
+```
+---
 
 ## Parameters
 `pszUrlToSymbols`\

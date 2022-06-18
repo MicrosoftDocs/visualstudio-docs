@@ -25,15 +25,7 @@ Describes the bound breakpoint information for either a code breakpoint or a dat
 
 ## Syntax
 
-```cpp
-typedef struct _BP_RESOLUTION_INFO {
-    BPRESI_FIELDS          dwFields;
-    BP_RESOLUTION_LOCATION bpResLocation;
-    IDebugProgram2*        pProgram;
-    IDebugThread2*         pThread;
-} BP_RESOLUTION_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct BP_RESOLUTION_INFO {
     public uint                   dwFields;
@@ -42,6 +34,16 @@ public struct BP_RESOLUTION_INFO {
     public IDebugThread2          pThread;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _BP_RESOLUTION_INFO {
+    BPRESI_FIELDS          dwFields;
+    BP_RESOLUTION_LOCATION bpResLocation;
+    IDebugProgram2*        pProgram;
+    IDebugThread2*         pThread;
+} BP_RESOLUTION_INFO;
+```
+---
 
 ## Members
 `dwFields`\

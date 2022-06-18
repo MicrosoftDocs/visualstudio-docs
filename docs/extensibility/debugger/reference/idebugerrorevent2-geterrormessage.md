@@ -25,17 +25,7 @@ Returns information that allows construction of a human-readable error message.
 
 ## Syntax
 
-```cpp
-HRESULT GetErrorMessage(
-   MESSAGETYPE* pMessageType,
-   BSTR*        pbstrErrorFormat,
-   HRESULT*     hrErrorReason,
-   DWORD*       pdwType,
-   BSTR*        pbstrHelpFileName,
-   DWORD*       pdwHelpId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetErrorMessage(
    out enum_MESSAGETYPE   pMessageType,
@@ -46,6 +36,18 @@ int GetErrorMessage(
    out uint               pdwHelpId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetErrorMessage(
+   MESSAGETYPE* pMessageType,
+   BSTR*        pbstrErrorFormat,
+   HRESULT*     hrErrorReason,
+   DWORD*       pdwType,
+   BSTR*        pbstrHelpFileName,
+   DWORD*       pdwHelpId
+);
+```
+---
 
 ## Parameters
 `pMessageType`\

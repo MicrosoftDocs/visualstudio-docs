@@ -167,8 +167,12 @@ Double-click the three buttons on the Navigation form to create empty event hand
 
 In the code page for the Navigation form, complete the method bodies for the three button click event handlers as shown in the following code.
 
+### [C#](#tab/csharp)
 :::code language="csharp" source="../data-tools/codesnippet/CSharp/SimpleDataApp/Navigation.cs" id="Snippet1":::
+
+### [VB](#tab/vb)
 :::code language="vb" source="../data-tools/codesnippet/VisualBasic/SimpleDataApp/Navigation.vb" id="Snippet1":::
+---
 
 > [!NOTE]
 > The code for this tutorial is available in C# and Visual Basic. To switch the code language on this page between C# and Visual Basic, use the code language switcher at the top of the page on the right side.
@@ -187,23 +191,34 @@ To complete the NewCustomer form logic, follow these steps.
 
 1. Bring the `System.Data.SqlClient` namespace into scope so that you don't have to fully qualify the names of its members.
 
+     ### [C#](#tab/csharp)
      ```csharp
      using System.Data.SqlClient;
      ```
 
+     ### [VB](#tab/vb)
      ```vb
      Imports System.Data.SqlClient
      ```
+     ---
 
 2. Add some variables and helper methods to the class as shown in the following code.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../data-tools/codesnippet/CSharp/SimpleDataApp/NewCustomer.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../data-tools/codesnippet/VisualBasic/SimpleDataApp/NewCustomer.vb" id="Snippet1":::
+     ---
 
 3. Complete the method bodies for the four button click event handlers as shown in the following code.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../data-tools/codesnippet/CSharp/SimpleDataApp/NewCustomer.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../data-tools/codesnippet/VisualBasic/SimpleDataApp/NewCustomer.vb" id="Snippet2":::
+     ---
 
 ### FillOrCancel form
 
@@ -219,25 +234,36 @@ To complete the FillOrCancel form logic, follow these steps.
 
 1. Bring the following two namespaces into scope so that you don't have to fully qualify the names of their members.
 
+     ### [C#](#tab/csharp)
      ```csharp
      using System.Data.SqlClient;
      using System.Text.RegularExpressions;
      ```
 
+     ### [VB](#tab/vb)
      ```vb
      Imports System.Data.SqlClient
      Imports System.Text.RegularExpressions
      ```
+     ---
 
 2. Add a variable and helper method to the class as shown in the following code.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../data-tools/codesnippet/CSharp/SimpleDataApp/FillOrCancel.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../data-tools/codesnippet/VisualBasic/SimpleDataApp/FillOrCancel.vb" id="Snippet1":::
+     ---
 
 3. Complete the method bodies for the four button click event handlers as shown in the following code.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../data-tools/codesnippet/CSharp/SimpleDataApp/FillOrCancel.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../data-tools/codesnippet/VisualBasic/SimpleDataApp/FillOrCancel.vb" id="Snippet2":::
+     ---
 
 ## Test your application
 

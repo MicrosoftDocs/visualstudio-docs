@@ -79,45 +79,24 @@ ms.workload:
 
 3. In the event receiver class, add the following variable declarations.
 
-    ```vb
-    ' SharePoint site/subsite.
-    Private siteUrl As String = "http://localhost"
-    Private webUrl As String = "/"
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     // SharePoint site/subsite.
     private string siteUrl = "http://localhost";
     private string webUrl = "/";
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    ' SharePoint site/subsite.
+    Private siteUrl As String = "http://localhost"
+    Private webUrl As String = "/"
+    ```
+    ---
+
 4. Replace the `FeatureActivated` procedure with the following code.
 
-    ```vb
-    Public Overrides Sub FeatureActivated(properties As SPFeatureReceiverProperties)
-        Try
-            Using site As New SPSite(siteUrl)
-                Using web As SPWeb = site.OpenWeb(webUrl)
-                    ' Reference the lists.
-                    Dim announcementsList As SPList = web.Lists("Announcements")
-
-                    ' Add a new announcement to the Announcements list.
-                    Dim listItem As SPListItem = announcementsList.Items.Add()
-                    listItem("Title") = "Activated Feature: " & Convert.ToString(properties.Definition.DisplayName)
-                    listItem("Body") = Convert.ToString(properties.Definition.DisplayName) & " was activated on: " & DateTime.Now.ToString()
-                    ' Waste some time.
-                    TimeCounter()
-                    ' Update the list.
-                    listItem.Update()
-                End Using
-            End Using
-
-        Catch e As Exception
-            Console.WriteLine("Error: " & e.ToString())
-        End Try
-    End Sub
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     public override void FeatureActivated(SPFeatureReceiverProperties properties)
     {
@@ -150,20 +129,36 @@ ms.workload:
     }
     ```
 
-5. Add the following procedure below the `FeatureActivated`procedure.
-
+    ### [VB](#tab/vb)
     ```vb
+    Public Overrides Sub FeatureActivated(properties As SPFeatureReceiverProperties)
+        Try
+            Using site As New SPSite(siteUrl)
+                Using web As SPWeb = site.OpenWeb(webUrl)
+                    ' Reference the lists.
+                    Dim announcementsList As SPList = web.Lists("Announcements")
 
-    Public Sub TimeCounter()
-        Dim result As Integer
-        For i As Integer = 0 To 99999
-            For j As Integer = 0 To 9999
-                result = i * j
-            Next j
-        Next i
+                    ' Add a new announcement to the Announcements list.
+                    Dim listItem As SPListItem = announcementsList.Items.Add()
+                    listItem("Title") = "Activated Feature: " & Convert.ToString(properties.Definition.DisplayName)
+                    listItem("Body") = Convert.ToString(properties.Definition.DisplayName) & " was activated on: " & DateTime.Now.ToString()
+                    ' Waste some time.
+                    TimeCounter()
+                    ' Update the list.
+                    listItem.Update()
+                End Using
+            End Using
+
+        Catch e As Exception
+            Console.WriteLine("Error: " & e.ToString())
+        End Try
     End Sub
     ```
+    ---
 
+5. Add the following procedure below the `FeatureActivated`procedure.
+
+    ### [C#](#tab/csharp)
     ```csharp
     public void TimeCounter()
     {
@@ -176,6 +171,20 @@ ms.workload:
         }
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+
+    Public Sub TimeCounter()
+        Dim result As Integer
+        For i As Integer = 0 To 99999
+            For j As Integer = 0 To 9999
+                result = i * j
+            Next j
+        Next i
+    End Sub
+    ```
+    ---
 
 6. In **Solution Explorer**, open the shortcut menu for the project (**ProfileTest**), and then choose **Properties**.
 

@@ -25,17 +25,19 @@ Makes a program node available for use by debug engines (DEs) and the session de
 
 ## Syntax
 
-```cpp
-HRESULT PublishProgramNode(
-   IDebugProgramNode2 *pProgramNode
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int PublishProgramNode(
    IDebugProgramNode2 pProgramNode
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT PublishProgramNode(
+   IDebugProgramNode2 *pProgramNode
+);
+```
+---
 
 ## Parameters
 `pProgramNode`\

@@ -110,8 +110,12 @@ ms.workload:
 
 1. Paste the following code into the CustomProperty code file.
 
-     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/projectextension/customproperty.vb" id="Snippet1":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/projectextension/customproperty.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/projectextension/customproperty.vb" id="Snippet1":::
+     ---
 
 ## Build the solution
  Next, build the solution to make sure that it compiles without errors.

@@ -25,19 +25,21 @@ This method locates an alias, given a name. This will search all aliases in the 
 
 ## Syntax
 
-```cpp
-HRESULT FindAlias(
-   LPCOLESTR     pcstrName,
-   IDebugAlias** ppAlias
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int FindAlias(
    string          pcstrName,
    out IDebugAlias ppAlias
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT FindAlias(
+   LPCOLESTR     pcstrName,
+   IDebugAlias** ppAlias
+);
+```
+---
 
 ## Parameters
 `pcstrName`\

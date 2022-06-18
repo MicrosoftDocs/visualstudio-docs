@@ -129,6 +129,7 @@ You might want to exclude specific elements in your code from the coverage score
 
 For example:
 
+### [C#](#tab/csharp)
 ```csharp
 using System.Diagnostics.CodeAnalysis;
 ...
@@ -159,6 +160,7 @@ public class ExampleClass1
 class ExampleClass2 { ... }
 ```
 
+### [VB](#tab/vb)
 ```vb
 Imports System.Diagnostics.CodeAnalysis
 
@@ -192,6 +194,7 @@ Class ExampleClass2
 End Class
 ```
 
+### [C++](#tab/cpp)
 ```cpp
 // A .cpp file compiled as managed (CLI) code.
 using namespace System::Diagnostics::CodeAnalysis;
@@ -243,6 +246,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
 // After setting exclusions, restore the previous managed/unmanaged state:
 #pragma managed(pop)
 ```
+---
 
 Use the following macros:
 

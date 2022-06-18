@@ -25,15 +25,17 @@ Detaches the debugger from this process by detaching all of the programs in the 
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Detach();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Detach( 
    void 
 );
 ```
-
-```csharp
-int Detach();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

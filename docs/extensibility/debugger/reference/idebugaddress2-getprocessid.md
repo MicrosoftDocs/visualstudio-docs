@@ -25,17 +25,19 @@ Retrieves the ID of the process that owns the object represented by this [IDebug
 
 ## Syntax
 
-```cpp
-HRESULT GetProcessID (
-   DWORD* pProcID
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProcessID (
    out uint pProcID
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProcessID (
+   DWORD* pProcID
+);
+```
+---
 
 ## Parameters
 `pProcID`\

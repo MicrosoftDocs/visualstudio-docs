@@ -87,9 +87,15 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 1. Paste the following code for your chosen language into the empty code file.
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../snippets/csharp/VS_Snippets_Misc/debugger/cs/s.cs" id="Snippet1":::
-   :::code language="cpp" source="../snippets/cpp/VS_Snippets_Misc/debugger/cpp/beta2_native.cpp" id="Snippet1":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_Misc/debugger/vb/module1.vb" id="Snippet1":::
+
+   ### [C++](#tab/cpp)
+   :::code language="cpp" source="../snippets/cpp/VS_Snippets_Misc/debugger/cpp/beta2_native.cpp" id="Snippet1":::
+   ---
 
 1. On the **File** menu, click **Save All**.
 

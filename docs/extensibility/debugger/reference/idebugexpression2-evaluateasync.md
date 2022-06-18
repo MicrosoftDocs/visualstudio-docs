@@ -25,19 +25,21 @@ This method evaluates the expression asynchronously.
 
 ## Syntax
 
-```cpp
-HRESULT EvaluateAsync (
-    EVALFLAGS             dwFlags,
-    IDebugEventCallback2* pExprCallback
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EvaluateAsync(
     enum_EVALFLAGS       dwFlags,
     IDebugEventCallback2 pExprCallback
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EvaluateAsync (
+    EVALFLAGS             dwFlags,
+    IDebugEventCallback2* pExprCallback
+);
+```
+---
 
 ## Parameters
 `dwFlags`\

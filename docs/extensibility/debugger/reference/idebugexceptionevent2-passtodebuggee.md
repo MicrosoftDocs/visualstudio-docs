@@ -25,17 +25,19 @@ Specifies whether the exception should be passed on to the program being debugge
 
 ## Syntax
 
-```cpp
-HRESULT PassToDebuggee(
-   BOOL fPass
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int PassToDebuggee(
    int fPass
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT PassToDebuggee(
+   BOOL fPass
+);
+```
+---
 
 ## Parameters
 `fPass`\

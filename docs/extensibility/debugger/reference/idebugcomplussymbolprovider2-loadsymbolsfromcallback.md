@@ -24,18 +24,7 @@ Loads debug symbols using the specified callback method.
 
 ## Syntax
 
-```cpp
-HRESULT LoadSymbolsFromCallback(
-    ULONG32   ulAppDomainID,
-    GUID      guidModule,
-    IUnknown* pUnkMetadataImport,
-    IUnknown* pUnkCorDebugModule,
-    BSTR      bstrModuleName,
-    BSTR      bstrSymSearchPath,
-    IUnknown* pCallback
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int LoadSymbolsFromCallback(
     uint   ulAppDomainID,
@@ -47,6 +36,19 @@ int LoadSymbolsFromCallback(
     object pCallback
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT LoadSymbolsFromCallback(
+    ULONG32   ulAppDomainID,
+    GUID      guidModule,
+    IUnknown* pUnkMetadataImport,
+    IUnknown* pUnkCorDebugModule,
+    BSTR      bstrModuleName,
+    BSTR      bstrSymSearchPath,
+    IUnknown* pCallback
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

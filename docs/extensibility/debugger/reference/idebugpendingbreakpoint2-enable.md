@@ -26,17 +26,19 @@ Toggles the enabled state of the pending breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT Enable(
-    BOOL fEnable
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Enable(
     int fEnable
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Enable(
+    BOOL fEnable
+);
+```
+---
 
 ## Parameters
 `fEnable`\

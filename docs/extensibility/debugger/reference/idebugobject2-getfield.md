@@ -25,17 +25,19 @@ Gets the type of this object.
 
 ## Syntax
 
-```cpp
-HRESULT GetField(
- IDebugField** ppField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetField(
    out IDebugField ppField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetField(
+ IDebugField** ppField
+);
+```
+---
 
 ## Parameters
 `ppField`\

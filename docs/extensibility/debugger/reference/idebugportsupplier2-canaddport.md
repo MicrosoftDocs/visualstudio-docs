@@ -25,15 +25,17 @@ Verifies that a port supplier can add new ports.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int CanAddPort();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT CanAddPort( 
    void 
 );
 ```
-
-```csharp
-int CanAddPort();
-```
+---
 
 ## Return Value
  If the port can be added, returns `S_OK`; otherwise, returns `S_FALSE` to indicate no ports can be added to this port supplier.

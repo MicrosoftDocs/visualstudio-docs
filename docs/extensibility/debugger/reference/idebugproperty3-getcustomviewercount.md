@@ -25,17 +25,19 @@ Gets the number of custom viewers that might be available for this property.
 
 ## Syntax
 
-```cpp
-HRESULT GetCustomViewerCount(
-    ULONG* pcelt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCustomViewerCount(
     out uint pcelt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCustomViewerCount(
+    ULONG* pcelt
+);
+```
+---
 
 ## Parameters
 `pcelt`\

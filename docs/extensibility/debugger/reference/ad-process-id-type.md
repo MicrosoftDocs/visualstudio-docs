@@ -25,6 +25,14 @@ Specifies how to interpret a process ID in the [AD_PROCESS_ID](../../../extensib
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_AD_PROCESS_ID {
+    AD_PROCESS_ID_SYSTEM = 0,
+    AD_PROCESS_ID_GUID   = 1
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_AD_PROCESS_ID {
     AD_PROCESS_ID_SYSTEM = 0,
@@ -32,13 +40,7 @@ enum enum_AD_PROCESS_ID {
 };
 typedef DWORD AD_PROCESS_ID_TYPE;
 ```
-
-```csharp
-public enum enum_AD_PROCESS_ID {
-    AD_PROCESS_ID_SYSTEM = 0,
-    AD_PROCESS_ID_GUID   = 1
-};
-```
+---
 
 ## Fields
 `AD_PROCESS_ID_SYSTEM`\

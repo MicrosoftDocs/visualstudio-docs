@@ -25,17 +25,19 @@ Sets the locale of the debug engine (DE).
 
 ## Syntax
 
-```cpp
-HRESULT SetLocale( 
-   WORD wLangID
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetLocale( 
    ushort wLangID
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetLocale( 
+   WORD wLangID
+);
+```
+---
 
 ## Parameters
 `wLangID`\

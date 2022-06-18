@@ -25,17 +25,19 @@ Removes a port.
 
 ## Syntax
 
-```cpp
-HRESULT RemovePort( 
-   IDebugPort2* pPort
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int RemovePort( 
    IDebugPort2 pPort
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT RemovePort( 
+   IDebugPort2* pPort
+);
+```
+---
 
 ## Parameters
 `pPort`\
