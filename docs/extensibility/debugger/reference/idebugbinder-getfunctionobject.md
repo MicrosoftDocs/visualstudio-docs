@@ -25,17 +25,19 @@ This method gets an [IDebugFunctionObject](../../../extensibility/debugger/refer
 
 ## Syntax
 
-```cpp
-HRESULT GetFunctionObject( 
-   IDebugFunctionObject **ppFunction
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetFunctionObject(
    out IDebugFunctionObject ppFunction
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetFunctionObject( 
+   IDebugFunctionObject **ppFunction
+);
+```
+---
 
 ## Parameters
 `ppFunction`\

@@ -24,19 +24,21 @@ Retrieves the application domain identifier given the debug address.
 
 ## Syntax
 
-```cpp
-HRESULT GetAppIDFromAddress(
-   IDebugAddress* pAddress,
-   DWORD*         pAppID
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAppIDFromAddress(
    IDebugAddress pAddress,
    out uint      pAppID
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAppIDFromAddress(
+   IDebugAddress* pAddress,
+   DWORD*         pAppID
+);
+```
+---
 
 ## Parameters
 `pAddress`\

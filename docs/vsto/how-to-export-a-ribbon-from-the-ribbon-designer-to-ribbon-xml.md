@@ -51,8 +51,12 @@ ms.workload:
 
      After you uncomment the code, it should resemble the following example. In this example, the Ribbon class is called `MyRibbon`.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.vb" id="Snippet1":::
+     ---
 
 6. Switch to the Ribbon XML code file and find the `Ribbon Callbacks` region.
 

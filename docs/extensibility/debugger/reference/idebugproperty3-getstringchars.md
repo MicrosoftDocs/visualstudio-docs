@@ -25,14 +25,7 @@ Retrieves the string associated with this property and stores it in a user-suppl
 
 ## Syntax
 
-```cpp
-HRESULT GetStringChars(
-    ULONG  buflen,
-    WCHAR* rgString,
-    ULONG* pceltFetched
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetStringChars(
     uint       buflen,
@@ -40,6 +33,15 @@ int GetStringChars(
     out uint   pceltFetched
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetStringChars(
+    ULONG  buflen,
+    WCHAR* rgString,
+    ULONG* pceltFetched
+);
+```
+---
 
 ## Parameters
 `buflen`\

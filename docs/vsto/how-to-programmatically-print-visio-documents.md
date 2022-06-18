@@ -32,8 +32,12 @@ ms.workload:
 
      The following code example prints the active document. To use this example, run the code from the `ThisAddIn` class in your project.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs" id="Snippet8":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb" id="Snippet8":::
+     ---
 
 ## Print a page of a Visio document
 
@@ -43,8 +47,12 @@ ms.workload:
 
      The following code example prints the first page of the active document. To use this example, run the code from the `ThisAddIn` class in your project.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs" id="Snippet9":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb" id="Snippet9":::
+     ---
 
 ## See also
 - [Visio solutions](../vsto/visio-solutions.md)

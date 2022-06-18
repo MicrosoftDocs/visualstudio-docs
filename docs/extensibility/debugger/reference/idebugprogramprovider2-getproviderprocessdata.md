@@ -25,16 +25,7 @@ Retrieves a list of running programs from a specified process.
 
 ## Syntax
 
-```cpp
-HRESULT GetProviderProcessData(
-   PROVIDER_FLAGS         Flags,
-   IDebugDefaultPort2*    pPort,
-   AD_PROCESS_ID          processId,
-   CONST_GUID_ARRAY       EngineFilter,
-   PROVIDER_PROCESS_DATA* pProcess
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProviderProcessData(
    enum_PROVIDER_FLAGS     Flags,
@@ -44,6 +35,17 @@ int GetProviderProcessData(
    PROVIDER_PROCESS_DATA[] pProcess
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProviderProcessData(
+   PROVIDER_FLAGS         Flags,
+   IDebugDefaultPort2*    pPort,
+   AD_PROCESS_ID          processId,
+   CONST_GUID_ARRAY       EngineFilter,
+   PROVIDER_PROCESS_DATA* pProcess
+);
+```
+---
 
 ## Parameters
 `Flags`\

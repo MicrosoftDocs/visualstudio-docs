@@ -25,17 +25,19 @@ This method gets a new object for the visualizer. This method will always create
 
 ## Syntax
 
-```cpp
-HRESULT GetNewObjectForVisualizer(
-   IDebugObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetNewObjectForVisualizer(
    out IDebugObject ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetNewObjectForVisualizer(
+   IDebugObject** ppObject
+);
+```
+---
 
 ## Parameters
 `ppObject`\

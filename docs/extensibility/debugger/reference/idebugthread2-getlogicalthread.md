@@ -25,19 +25,21 @@ Debug engines do not implement this method.
 
 ## Syntax
 
-```cpp
-HRESULT GetLogicalThread( 
-   IDebugStackFrame2*     pStackFrame,
-   IDebugLogicalThread2** ppLogicalThread
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetLogicalThread( 
    IDebugStackFrame2        pStackFrame,
    out IDebugLogicalThread2 ppLogicalThread
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetLogicalThread( 
+   IDebugStackFrame2*     pStackFrame,
+   IDebugLogicalThread2** ppLogicalThread
+);
+```
+---
 
 ## Parameters
 `pStackFrame`\

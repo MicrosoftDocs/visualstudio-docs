@@ -56,6 +56,7 @@ In this walkthrough, you create a custom host in an executable application that 
 
 3. Replace the code in the Program.cs or Module1.vb file with the following code:
 
+   ### [C#](#tab/csharp)
    ```csharp
    using System;
    using System.IO;
@@ -406,6 +407,7 @@ In this walkthrough, you create a custom host in an executable application that 
    }
    ```
 
+   ### [VB](#tab/vb)
    ```vb
    Imports System
    Imports System.IO
@@ -712,6 +714,7 @@ In this walkthrough, you create a custom host in an executable application that 
        End Class 'Program
    End Namespace
    ```
+   ---
 
 4. For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] only, open the **Project** menu, and click **CustomHost Properties**. In the **Startup object** list, click **CustomHost.Program**.
 
@@ -734,6 +737,7 @@ To test the custom host, you write a text template, then you run the custom host
     > [!NOTE]
     > The programming language of the text template does not have to match that of the custom host.
 
+    ### [C#](#tab/csharp)
     ```csharp
     Text Template Host Test
 
@@ -752,6 +756,7 @@ To test the custom host, you write a text template, then you run the custom host
     #>
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     Text Template Host Test
 
@@ -771,6 +776,7 @@ To test the custom host, you write a text template, then you run the custom host
     #>
 
     ```
+    ---
 
 3. Save and close the file.
 

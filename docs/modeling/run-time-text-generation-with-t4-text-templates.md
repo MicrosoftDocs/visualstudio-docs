@@ -120,6 +120,7 @@ This report is Company Confidential.
 
 You can insert program code between `<#` and `#>`. For example:
 
+### [C#](#tab/csharp)
 ```csharp
 <table>
     <# for (int i = 1; i <= 10; i++)
@@ -130,6 +131,7 @@ You can insert program code between `<#` and `#>`. For example:
  </table>
 ```
 
+### [VB](#tab/vb)
 ```vb
 <table>
 <#
@@ -142,6 +144,7 @@ You can insert program code between `<#` and `#>`. For example:
 #>
 </table>
 ```
+---
 
 Notice that statements are inserted between `<# ... #>` and expressions are inserted between `<#= ... #>`. For more information, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).
 
@@ -157,17 +160,20 @@ Notice that the subsidiary file contains a partial class that contains a method 
 
 In your application code, you can generate the content of your template using a call like this:
 
+### [C#](#tab/csharp)
 ```csharp
 MyWebPage page = new MyWebPage();
 String pageContent = page.TransformText();
 System.IO.File.WriteAllText("outputPage.html", pageContent);
 ```
 
+### [VB](#tab/vb)
 ```vb
 Dim page = New My.Templates.MyWebPage
 Dim pageContent = page.TransformText()
 System.IO.File.WriteAllText("outputPage.html", pageContent)
 ```
+---
 
 To place the generated class in a particular namespace, set the **Custom Tool Namespace** property of the text template file.
 

@@ -25,14 +25,7 @@ Describes a particular machine.
 
 ## Syntax
 
-```cpp
-typedef struct tagMACHINE_INFO { 
-   MACHINE_INFO_FIELDS Fields;
-   BSTR                bstrName;
-   MACHINE_INFO_FLAGS  Flags;
-} MACHINE_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct MACHINE_INFO { 
    public uint   Fields;
@@ -40,6 +33,15 @@ public struct MACHINE_INFO { 
    public uint   Flags;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagMACHINE_INFO { 
+   MACHINE_INFO_FIELDS Fields;
+   BSTR                bstrName;
+   MACHINE_INFO_FLAGS  Flags;
+} MACHINE_INFO;
+```
+---
 
 ## Members
  `Fields`\

@@ -63,6 +63,7 @@ For more information about nullable types in C#, see [Nullable Types](/dotnet/cs
 
 2. In the .cs or .vb file for the new class, add one or more nullable types in the new class to the class declaration.
 
+    ### [C#](#tab/csharp)
     ```csharp
     // Declare a nullable type in Visual C#:
     class Test
@@ -71,12 +72,14 @@ For more information about nullable types in C#, see [Nullable Types](/dotnet/cs
     }
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     ' Declare a nullable type in Visual Basic:
     Class Test
        Dim buildingNumber As Nullable(Of Integer) = 5
     End Class
     ```
+    ---
 
 3. From Class View, drag the new class icon to the Class Designer design surface. A class shape appears in the class diagram.
 

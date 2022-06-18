@@ -25,17 +25,19 @@ Gets the name of the default indexer.
 
 ## Syntax
 
-```cpp
-HRESULT GetDefaultIndexer( 
-   BSTR* pbstrIndexer
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDefaultIndexer(
    out string pbstrIndexer
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDefaultIndexer( 
+   BSTR* pbstrIndexer
+);
+```
+---
 
 ## Parameters
 `pbstrIndexer`

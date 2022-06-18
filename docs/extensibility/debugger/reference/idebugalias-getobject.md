@@ -25,17 +25,19 @@ Gets the object that this alias is for.
 
 ## Syntax
 
-```cpp
-HRESULT GetObject(
-   IDebugObject2** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetObject(
    Out IDebugObject2 ppObject
 )
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetObject(
+   IDebugObject2** ppObject
+);
+```
+---
 
 ## Parameters
 `ppObject`\

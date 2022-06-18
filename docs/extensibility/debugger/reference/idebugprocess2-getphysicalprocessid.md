@@ -25,17 +25,19 @@ Gets the system process identifier.
 
 ## Syntax
 
-```cpp
-HRESULT GetPhysicalProcessId(
-   AD_PROCESS_ID* pdwProcessId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPhysicalProcessId(
    AD_PROCESS_ID[] pdwProcessId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPhysicalProcessId(
+   AD_PROCESS_ID* pdwProcessId
+);
+```
+---
 
 ## Parameters
 `pdwProcessId`\

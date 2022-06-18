@@ -25,19 +25,21 @@ Retrieves the property proxy interface for the specified proxy ID.
 
 ## Syntax
 
-```cpp
-HRESULT GetPropertyProxy(
-   DWORD                  dwID,
-   IPropertyProxyEESide** proxy
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPropertyProxy(
    uint                     dwID,
    out IPropertyProxyEESide proxy
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPropertyProxy(
+   DWORD                  dwID,
+   IPropertyProxyEESide** proxy
+);
+```
+---
 
 ## Parameters
 `dwID`\

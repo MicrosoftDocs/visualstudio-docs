@@ -25,17 +25,19 @@ Gets the file name of the source file that contains the document position.
 
 ## Syntax
 
-```cpp
-HRESULT GetFileName( 
-   BSTR* pbstrFileName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetFileName( 
    out string pbstrFileName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetFileName( 
+   BSTR* pbstrFileName
+);
+```
+---
 
 ## Parameters
 `pbstrFileName`\

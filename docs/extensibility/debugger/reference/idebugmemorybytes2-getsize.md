@@ -26,17 +26,19 @@ Retrieves the size, in bytes, of the memory represented by this [IDebugMemoryByt
 
 ## Syntax
 
-```cpp
-HRESULT GetSize( 
-   UINT64* pqwSize
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSize(
    out ulong pqwSize
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSize( 
+   UINT64* pqwSize
+);
+```
+---
 
 ## Parameters
 `pqwSize`\

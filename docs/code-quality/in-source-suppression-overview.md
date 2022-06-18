@@ -115,17 +115,17 @@ When you select **Suppress** from the context or right-click menu of a code anal
 
 The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute has the following format:
 
-```vb
-<Scope:SuppressMessage("Rule Category", "Rule Id", Justification = "Justification", MessageId = "MessageId", Scope = "Scope", Target = "Target")>
-```
 
+### [C#](#tab/csharp)
 ```csharp
 [Scope:SuppressMessage("Rule Category", "Rule Id", Justification = "Justification", MessageId = "MessageId", Scope = "Scope", Target = "Target")]
 ```
 
-```cpp
-CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification", MessageId = "MessageId", Scope = "Scope", Target = "Target")
+### [VB](#tab/vb)
+```vb
+<Scope:SuppressMessage("Rule Category", "Rule Id", Justification = "Justification", MessageId = "MessageId", Scope = "Scope", Target = "Target")>
 ```
+---
 
 The properties of the attribute include:
 
@@ -177,22 +177,7 @@ In some cases, you might want to suppress a particular instance of the violation
 
 To suppress a particular symbol violation of a rule, specify the symbol name for the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. The following example shows code with two violations of [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500.md)&mdash;one for the `name` variable and one for the `age` variable. Only the violation for the `age` symbol is suppressed.
 
-```vb
-Public Class Animal
-    Dim age As Integer
-    Dim name As String
-
-    <CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1500:VariableNamesShouldNotMatchFieldNames", MessageId:="age")>
-    Sub PrintInfo()
-        Dim age As Integer = 5
-        Dim name As String = "Charlie"
-
-        Console.WriteLine("Age {0}, Name {1}", age, name)
-    End Sub
-
-End Class
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public class Animal
 {
@@ -209,6 +194,24 @@ public class Animal
     }
 }
 ```
+
+### [VB](#tab/vb)
+```vb
+Public Class Animal
+    Dim age As Integer
+    Dim name As String
+
+    <CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1500:VariableNamesShouldNotMatchFieldNames", MessageId:="age")>
+    Sub PrintInfo()
+        Dim age As Integer = 5
+        Dim name As String = "Charlie"
+
+        Console.WriteLine("Age {0}, Name {1}", age, name)
+    End Sub
+
+End Class
+```
+---
 
 ### Global-level suppressions
 

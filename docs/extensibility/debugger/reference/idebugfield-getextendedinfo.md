@@ -25,14 +25,7 @@ This method gets extended information about a field.
 
 ## Syntax
 
-```cpp
-HRESULT GetExtendedInfo( 
-   REFGUID guidExtendedInfo,
-   BYTE**  prgBuffer,
-   DWORD*  pdwLen
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetExtendedInfo(
    ref Guid guidExtendedInfo,
@@ -40,6 +33,15 @@ int GetExtendedInfo(
    ref uint pdwLen
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetExtendedInfo( 
+   REFGUID guidExtendedInfo,
+   BYTE**  prgBuffer,
+   DWORD*  pdwLen
+);
+```
+---
 
 ## Parameters
 `guidExtendedInfo`\

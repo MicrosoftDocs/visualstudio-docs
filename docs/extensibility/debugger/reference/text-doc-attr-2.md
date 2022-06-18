@@ -25,14 +25,16 @@ Describes the attributes of a document.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public const uint TEXT_DOC_ATTR_READONLY_2 = 0x00000001;
+```
+### [C++](#tab/cpp)
 ```cpp
 typedef DWORD TEXT_DOC_ATTR_2;
 const TEXT_DOC_ATTR_2 TEXT_DOC_ATTR_READONLY_2 = 0x00000001;
 ```
-
-```csharp
-public const uint TEXT_DOC_ATTR_READONLY_2 = 0x00000001;
-```
+---
 
 ## Members
  `TEXT_DOC_ATTR_READONLY_2`\

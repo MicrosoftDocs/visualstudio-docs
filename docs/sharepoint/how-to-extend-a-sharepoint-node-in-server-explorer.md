@@ -61,8 +61,12 @@ ms.workload:
 
 - An extension that adds a custom property named **ContosoExampleProperty** to each node that represents a field named **Body**.
 
+  ### [C#](#tab/csharp)
   :::code language="csharp" source="../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/serverexplorerextension.cs" id="Snippet9":::
+
+  ### [VB](#tab/vb)
   :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/serverexplorerextension.vb" id="Snippet9":::
+  ---
 
   This extension adds an editable string property to nodes. You can also create custom properties that display read-only data from the SharePoint server. For an example that demonstrates how to do this, see [Walkthrough: Extend Server Explorer to display web parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md).
 

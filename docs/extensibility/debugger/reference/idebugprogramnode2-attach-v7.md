@@ -27,14 +27,7 @@ dev_langs:
 
 ## Syntax
 
-```cpp
-HRESULT Attach_V7 (
-   IDebugProgram2*       pMDMProgram,
-   IDebugEventCallback2* pCallback,
-   DWORD                 dwReason
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Attach_V7 (
    IDebugProgram2       pMDMProgram,
@@ -42,6 +35,15 @@ int Attach_V7 (
    uint                 dwReason
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Attach_V7 (
+   IDebugProgram2*       pMDMProgram,
+   IDebugEventCallback2* pCallback,
+   DWORD                 dwReason
+);
+```
+---
 
 ## Parameters
 

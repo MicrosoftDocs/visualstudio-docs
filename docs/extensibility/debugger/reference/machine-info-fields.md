@@ -25,6 +25,15 @@ Specifies what kind of information to retrieve for a particular machine.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_MACHINE_INFO_FIELDS { 
+   MCIF_NAME  = 0x00000001,
+   MCIF_FLAGS = 0x00000002,
+   MCIF_ALL   = 0x00000003
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_MACHINE_INFO_FIELDS { 
    MCIF_NAME  = 0x00000001,
@@ -33,14 +42,7 @@ enum enum_MACHINE_INFO_FIELDS { 
 };
 typedef DWORD MACHINE_INFO_FIELDS;
 ```
-
-```csharp
-public enum enum_MACHINE_INFO_FIELDS { 
-   MCIF_NAME  = 0x00000001,
-   MCIF_FLAGS = 0x00000002,
-   MCIF_ALL   = 0x00000003
-};
-```
+---
 
 ## Fields
  `MCIF_NAME`\

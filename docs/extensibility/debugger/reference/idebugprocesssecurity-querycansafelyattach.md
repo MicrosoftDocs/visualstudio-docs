@@ -23,13 +23,15 @@ This method allows the port supplier to display a warning before the user attach
 
 ## Syntax
 
-```cpp
-HRESULT QueryCanSafelyAttach();
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int QueryCanSafelyAttach();
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT QueryCanSafelyAttach();
+```
+---
 
 ## Return Value
  The return values are as follows:

@@ -26,14 +26,7 @@ This structure represents the address of a local variable within a scope (usuall
 
 ## Syntax
 
-```cpp
-typedef struct _tagMETADATA_ADDRESS_LOCAL {
-    _mdToken  tokMethod;
-    IUnknown* pLocal;
-    DWORD     dwIndex;
-} METADATA_ADDRESS_LOCAL;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct METADATA_ADDRESS_LOCAL {
     public int    tokMethod;
@@ -41,6 +34,15 @@ public struct METADATA_ADDRESS_LOCAL {
     public uint   dwIndex;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagMETADATA_ADDRESS_LOCAL {
+    _mdToken  tokMethod;
+    IUnknown* pLocal;
+    DWORD     dwIndex;
+} METADATA_ADDRESS_LOCAL;
+```
+---
 
 ## Members
 

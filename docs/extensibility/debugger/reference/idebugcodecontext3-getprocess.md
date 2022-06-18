@@ -23,17 +23,19 @@ Retrieves a reference to the interface of the debug process.
 
 ## Syntax
 
-```cpp
-HRESULT GetProcess(
-    IDebugProcess2 **ppProcess
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int GetProcess(
     out IDebugProcess2 ppProcess
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProcess(
+    IDebugProcess2 **ppProcess
+);
+```
+---
 
 ## Parameters
 `ppProcess`\
