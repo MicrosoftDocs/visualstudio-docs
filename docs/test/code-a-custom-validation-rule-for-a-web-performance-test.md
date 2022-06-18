@@ -62,6 +62,7 @@ The following code shows an implementation of a custom validation rule. This val
 > [!WARNING]
 > Public properties in the code for a custom validator cannot have null values.
 
+### [C#](#tab/csharp)
 ```csharp
 using System;
 using System.Diagnostics;
@@ -149,6 +150,7 @@ namespace SampleWebTestRules
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 Imports System
 Imports System.Diagnostics
@@ -241,6 +243,7 @@ Namespace SampleWebTestRules
     End Class
 End Namespace
 ```
+---
 
 ## See also
 

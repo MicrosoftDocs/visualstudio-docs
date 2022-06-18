@@ -25,17 +25,19 @@ Retrieves a friendly name for the server.
 
 ## Syntax
 
-```cpp
-HRESULT GetServerFriendlyName(
-   BSTR* pbstrName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetServerFriendlyName(
    out string pbstrName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetServerFriendlyName(
+   BSTR* pbstrName
+);
+```
+---
 
 ## Parameters
 `pbstrName`\

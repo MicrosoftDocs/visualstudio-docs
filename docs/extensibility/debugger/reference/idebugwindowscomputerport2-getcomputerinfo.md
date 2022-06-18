@@ -24,17 +24,19 @@ Retrieves information about the computer on which the debugger in running.
 
 ## Syntax
 
-```cpp
-HRESULT GetComputerInfo(
-   COMPUTER_INFO * pInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int GetComputerInfo(
    out COMPUTER_INFO[] pInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetComputerInfo(
+   COMPUTER_INFO * pInfo
+);
+```
+---
 
 ## Parameters
 `pInfo`\

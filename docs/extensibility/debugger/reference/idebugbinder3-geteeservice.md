@@ -25,15 +25,7 @@ This method returns a requested service.
 
 ## Syntax
 
-```cpp
-HRESULT GetEEService(
-   [in] GUID        vendor,
-   [in] GUID        language,
-   [in] GUID        iid,
-   [out] IUnknown** ppService
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 Int GetEEService(
    Guid       vendor,
@@ -42,6 +34,16 @@ Int GetEEService(
    out object ppService
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEEService(
+   [in] GUID        vendor,
+   [in] GUID        language,
+   [in] GUID        iid,
+   [out] IUnknown** ppService
+);
+```
+---
 
 ## Parameters
 `vendor`\

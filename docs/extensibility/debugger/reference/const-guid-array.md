@@ -25,19 +25,21 @@ A structure that holds a list of `GUID`s.
 
 ## Syntax
 
-```cpp
-typedef struct tagCONST_GUID_ARRAY {
-    DWORD       dwCount;
-    CONST GUID* Members;
-} CONST_GUID_ARRAY;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct CONST_GUID_ARRAY {
     public uint   dwCount;
     public Guid[] Members;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagCONST_GUID_ARRAY {
+    DWORD       dwCount;
+    CONST GUID* Members;
+} CONST_GUID_ARRAY;
+```
+---
 
 ## Members
 `dwCount`\

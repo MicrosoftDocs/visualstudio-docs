@@ -25,17 +25,19 @@ Gets the code context for this stack frame.
 
 ## Syntax
 
-```cpp
-HRESULT GetCodeContext ( 
-   IDebugCodeContext2** ppCodeCxt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCodeContext ( 
    out IDebugCodeContext2 ppCodeCxt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCodeContext ( 
+   IDebugCodeContext2** ppCodeCxt
+);
+```
+---
 
 ## Parameters
 `ppCodeCxt`\

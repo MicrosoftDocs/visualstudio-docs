@@ -63,15 +63,18 @@ Create the following multithreaded app project to use in this tutorial:
 
 1. Find the following lines in the source code:
 
+   ### [C#](#tab/csharp)
    ```csharp
    Thread.Sleep(3000);
    Console.WriteLine();
    ```
 
-   ```C++
+   ### [C++](#tab/cpp)
+   ```cpp
    Thread::Sleep(3000);
    Console.WriteLine();
    ```
+   ---
 
 1. Set a breakpoint on the `Console.WriteLine();` line by clicking in the left gutter, or selecting the line and pressing **F9**.
 

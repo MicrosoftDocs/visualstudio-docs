@@ -25,17 +25,19 @@ This method gets the size of a field, in bytes.
 
 ## Syntax
 
-```cpp
-HRESULT GetSize( 
-   DWORD* pdwSize
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSize(
    out uint pdwSize
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSize( 
+   DWORD* pdwSize
+);
+```
+---
 
 ## Parameters
 `pdwSize`\

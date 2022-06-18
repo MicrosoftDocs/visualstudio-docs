@@ -25,17 +25,19 @@ Retrieves a list of the modules that this program has loaded and is executing.
 
 ## Syntax
 
-```cpp
-HRESULT EnumModules( 
-   IEnumDebugModules2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumModules( 
    out IEnumDebugModules2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumModules( 
+   IEnumDebugModules2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

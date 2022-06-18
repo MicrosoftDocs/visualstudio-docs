@@ -26,19 +26,21 @@ Adds the specified value to the current context and returns a new context.
 
 ## Syntax
 
-```cpp
-HRESULT Add( 
-   UINT64                 dwCount,
-   IDebugMemoryContext2** ppMemCxt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Add(
    ulong                    dwCount,
    out IDebugMemoryContext2 ppMemCxt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Add( 
+   UINT64                 dwCount,
+   IDebugMemoryContext2** ppMemCxt
+);
+```
+---
 
 ## Parameters
 `dwCount`\

@@ -25,17 +25,7 @@ Retrieves a list of the code paths for a given position in a source file.
 
 ## Syntax
 
-```cpp
-HRESULT EnumCodePaths( 
-   LPCOLESTR            pszHint,
-   IDebugCodeContext2*  pStart,
-   IDebugStackFrame2*   pFrame,
-   BOOL                 fSource,
-   IEnumCodePaths2**    ppEnum,
-   IDebugCodeContext2** ppSafety
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumCodePaths( 
    string                 pszHint,
@@ -46,6 +36,18 @@ int EnumCodePaths( 
    out IDebugCodeContext2 ppSafety
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumCodePaths( 
+   LPCOLESTR            pszHint,
+   IDebugCodeContext2*  pStart,
+   IDebugStackFrame2*   pFrame,
+   BOOL                 fSource,
+   IEnumCodePaths2**    ppEnum,
+   IDebugCodeContext2** ppSafety
+);
+```
+---
 
 ## Parameters
 `pszHint`\

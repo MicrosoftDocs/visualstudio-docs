@@ -25,15 +25,7 @@ Creates an object using a constructor.
 
 ## Syntax
 
-```cpp
-HRESULT CreateObject( 
-   IDebugFunctionObject* pConstructor,
-   DWORD                 dwArgs,
-   IDebugObject*         pArgs[],
-   IDebugObject**        ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateObject(
    IDebugFunctionObject pConstructor,
@@ -42,6 +34,16 @@ int CreateObject(
    out IDebugObject     ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateObject( 
+   IDebugFunctionObject* pConstructor,
+   DWORD                 dwArgs,
+   IDebugObject*         pArgs[],
+   IDebugObject**        ppObject
+);
+```
+---
 
 ## Parameters
 `pConstructor`\

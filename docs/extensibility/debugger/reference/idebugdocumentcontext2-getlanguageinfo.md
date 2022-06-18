@@ -25,19 +25,21 @@ Gets the language associated with this document context.
 
 ## Syntax
 
-```cpp
-HRESULT GetLanguageInfo(
-    BSTR* pbstrLanguage,
-    GUID* pguidLanguage
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetLanguageInfo(
     out string pbstrLanguage,
     out Guid   pguidLanguage
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetLanguageInfo(
+    BSTR* pbstrLanguage,
+    GUID* pguidLanguage
+);
+```
+---
 
 ## Parameters
 `pbstrLanguage`\

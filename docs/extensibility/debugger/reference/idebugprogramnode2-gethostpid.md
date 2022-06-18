@@ -25,17 +25,19 @@ Gets the system process identifier for the process hosting the program.
 
 ## Syntax
 
-```cpp
-HRESULT GetHostPid ( 
-   AD_PROCESS_ID * pdwHostPid
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetHostPid ( 
    out AD_PROCESS_ID pdwHostPid
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetHostPid ( 
+   AD_PROCESS_ID * pdwHostPid
+);
+```
+---
 
 ## Parameters
 `pdwHostPid`\

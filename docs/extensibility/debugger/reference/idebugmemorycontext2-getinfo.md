@@ -26,19 +26,21 @@ Retrieves a [CONTEXT_INFO](../../../extensibility/debugger/reference/context-inf
 
 ## Syntax
 
-```cpp
-HRESULT GetInfo( 
-   CONTEXT_INFO_FIELDS dwFields,
-   CONTEXT_INFO*       pInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetInfo(
    enum_CONTEXT_INFO_FIELDS dwFields,
    CONTEXT_INFO[]           pinfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetInfo( 
+   CONTEXT_INFO_FIELDS dwFields,
+   CONTEXT_INFO*       pInfo
+);
+```
+---
 
 ## Parameters
 `dwFields`\

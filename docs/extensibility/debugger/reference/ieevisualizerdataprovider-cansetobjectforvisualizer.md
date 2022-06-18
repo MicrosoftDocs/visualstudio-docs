@@ -25,17 +25,19 @@ This method determines whether the visualizer can have the data object it repres
 
 ## Syntax
 
-```cpp
-HRESULT CanSetObjectForVisualizer(
-   BOOL* b
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CanSetObjectForVisualizer(
    out int b
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CanSetObjectForVisualizer(
+   BOOL* b
+);
+```
+---
 
 ## Parameters
 `b`\

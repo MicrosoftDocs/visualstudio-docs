@@ -25,15 +25,17 @@ Creates a unique ID for this property to ensure that it is unique among all othe
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int CreateObjectID();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT CreateObjectID(
    void
 );
 ```
-
-```csharp
-int CreateObjectID();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

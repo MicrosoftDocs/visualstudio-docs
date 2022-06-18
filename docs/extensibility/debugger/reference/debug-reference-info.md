@@ -25,18 +25,7 @@ Describes a reference.
 
 ## Syntax
 
-```cpp
-typedef struct tagDEBUG_REFERENCE_INFO {
-    DEBUGREF_INFO_FLAGS dwFields;
-    BSTR                bstrName;
-    BSTR                bstrType;
-    BSTR                bstrValue;
-    DBG_ATTRIB_FLAGS    dwAttrib;
-    REFERENCE_TYPE.     dwRefType;
-    IDebugReference2*   m_pReference;
-} DEBUG_REFERENCE_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct DEBUG_REFERENCE_INFO {
     public uint             dwFields;
@@ -48,6 +37,19 @@ public struct DEBUG_REFERENCE_INFO {
     public IDebugReference2 m_pReference;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagDEBUG_REFERENCE_INFO {
+    DEBUGREF_INFO_FLAGS dwFields;
+    BSTR                bstrName;
+    BSTR                bstrType;
+    BSTR                bstrValue;
+    DBG_ATTRIB_FLAGS    dwAttrib;
+    REFERENCE_TYPE.     dwRefType;
+    IDebugReference2*   m_pReference;
+} DEBUG_REFERENCE_INFO;
+```
+---
 
 ## Members
 `dwFields`\

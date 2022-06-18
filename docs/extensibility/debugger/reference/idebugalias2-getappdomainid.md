@@ -24,17 +24,19 @@ Retrieves the identifier for the application domain.
 
 ## Syntax
 
-```cpp
-HRESULT GetAppDomainId (
-   ULONG32* pappDomainId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAppDomainId (
    out uint pappDomainId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAppDomainId (
+   ULONG32* pappDomainId
+);
+```
+---
 
 ## Parameters
 `pappDomainId`\

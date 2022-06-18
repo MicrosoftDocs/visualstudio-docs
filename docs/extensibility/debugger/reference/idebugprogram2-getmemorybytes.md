@@ -25,17 +25,19 @@ Retrieves the memory bytes occupied by the program.
 
 ## Syntax
 
-```cpp
-HRESULT GetMemoryBytes( 
-   IDebugMemoryBytes2** ppMemoryBytes
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMemoryBytes( 
    out IDebugMemoryBytes2 ppMemoryBytes
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMemoryBytes( 
+   IDebugMemoryBytes2** ppMemoryBytes
+);
+```
+---
 
 ## Parameters
 `ppMemoryBytes`\

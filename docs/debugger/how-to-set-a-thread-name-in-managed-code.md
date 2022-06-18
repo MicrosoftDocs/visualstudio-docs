@@ -31,6 +31,7 @@ Thread naming is possible in any edition of Visual Studio. Thread naming is usef
 
 ## Example
 
+### [C#](#tab/csharp)
 ```csharp
 public class Needle
 {
@@ -54,6 +55,7 @@ public void Main()
 }
 ```
 
+### [VB](#tab/vb)
 ```VB
 Public Class Needle
     ' This method will be called when the thread is started.
@@ -73,6 +75,7 @@ Sub Main()
     oThread.Start()
 End Sub
 ```
+---
 
 ## See also
 - [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)

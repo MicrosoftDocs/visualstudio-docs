@@ -25,17 +25,19 @@ Attempts to determine why an auto-attach failed.
 
 ## Syntax
 
-```cpp
-HRESULT DiagnoseWebDebuggingError(
-   LPCWSTR pszUrl
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int DiagnoseWebDebuggingError(
    string pszUrl
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT DiagnoseWebDebuggingError(
+   LPCWSTR pszUrl
+);
+```
+---
 
 ## Parameters
 `pszUrl`\

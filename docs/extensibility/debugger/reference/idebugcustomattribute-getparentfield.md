@@ -25,17 +25,19 @@ Gets the field to which the custom attribute is attached.
 
 ## Syntax
 
-```cpp
-HRESULT GetParentField( 
-   IDebugField** ppField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetParentField(
    out IDebugField ppField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetParentField( 
+   IDebugField** ppField
+);
+```
+---
 
 ## Parameters
 `ppField`\

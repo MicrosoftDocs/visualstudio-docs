@@ -25,17 +25,19 @@ This method returns the number of argument types associated with this object.
 
 ## Syntax
 
-```cpp
-HRESULT GetTypeArgumentCount(
-   UINT* uCount
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetTypeArgumentCount(
    out uint uCount
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetTypeArgumentCount(
+   UINT* uCount
+);
+```
+---
 
 ## Parameters
 `uCount`\
