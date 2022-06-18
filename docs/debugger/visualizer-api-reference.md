@@ -31,13 +31,21 @@ The Visualizer APIs are provided for users who want to write a visualizer for th
 
 - <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer?displayProperty=fullName>
 
+- <xref:Microsoft.VisualStudio.DebuggerVisualizers.IAsyncVisualizerObjectProvider?displayProperty=fullName>
+
+- <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDeserializableObject?displayProperty=fullName>
+
 - <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDialogVisualizerService?displayProperty=fullName>
 
 - <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider?displayProperty=fullName>
 
+- <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider2?displayProperty=fullName>
+
 - <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerDevelopmentHost?displayProperty=fullName>
 
 - <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource?displayProperty=fullName>
+
+- <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSourceException?displayProperty=fullName>
 
 ## See also
 
