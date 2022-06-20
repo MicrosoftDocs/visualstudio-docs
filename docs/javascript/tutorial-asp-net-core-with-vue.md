@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: In this tutorial, you create an app using ASP.NET Core and Vue
-ms.date: 03/15/2022
+ms.date: 06/17/2022
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -32,7 +32,7 @@ Starting in Visual Studio 2022 Preview 2, you can use the method described in th
 
 ## Prerequisites
 
-Make sure to have the following installed:
+Make sure to install the following:
 
 - Visual Studio 2022 Preview 2 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
@@ -41,7 +41,7 @@ Make sure to have the following installed:
 
 ## Create the frontend app
 
-1. In the New Project Dialog, select **Create a new project**. 
+1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**. 
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Create a new project":::
 
@@ -62,9 +62,9 @@ Once the project is created, you see some new and modified files:
 
 ## Create the backend app
 
-1. In Solution Explorer, right-click the solution name, hover over **Add**, and then select **New Project**. 
+1. In Solution Explorer, right-click the solution name, hover over **Add**, and then select **New Project**.
 
-   :::image type="content" source="media/vs-2022/asp-net-core-add-project.png" alt-text="Add a new project":::
+   :::image type="content" source="media/vs-2022/asp-net-core-with-vue-add-project.png" alt-text="Add a new project":::
 
 1. Search and select the ASP.NET Core Web API project.
  
@@ -106,7 +106,7 @@ Once the project is created, you see some new and modified files:
 
 ## Set the startup project
 
-1. Right-click the solution and select **Set Startup Project**. Change the startup project from Single startup project to **Multiple startup projects**. Select **Start** for each project’s action.
+1. In Solution Explorer, right-click the solution name and select **Set Startup Project**. Change the startup project from Single startup project to **Multiple startup projects**. Select **Start** for each project’s action.
   
 1. Next, select the backend project and move it above the frontend, so that it starts up first.
 
