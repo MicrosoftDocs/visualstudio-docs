@@ -41,7 +41,7 @@ You can use the Advanced dialog box to change global settings for the Visual Stu
 The **Whole line** option is selected by default. The options you can choose from allow you to customize the highlighting and outlining that's displayed in the Difference viewer when you add, remove, or modify lines of text. Specifically, the options provide the following viewing experiences:
 
 - **Whole line**: Line differences should be displayed so that they take up the entire width of the viewport.
-- **Code count**: Line differences should be displayed only to the last character on each line.
+- **Code contour**: Line differences should be displayed only to the last character on each line.
 - **Block outline**: Line and word differences are shown as outlined rectangles.
 - **Mixed outline**: Line differences are shown as outlined rectangles and word differences are shown as colored rectangles.
 

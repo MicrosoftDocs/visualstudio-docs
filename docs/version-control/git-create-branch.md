@@ -26,6 +26,9 @@ Here's how.
 
 1. In the **Create a new branch** dialog box, enter a branch name.
 
+    > [!TIP]
+    > For branch naming details, see [Special characters in branch and tag names](https://docs.github.com/en/get-started/using-git/dealing-with-special-characters-in-branch-and-tag-names).
+ 
     :::image type="content" source="media/vs-2022/git-create-new-branch-dialog.png" alt-text="Screenshot of the Create a New Branch dialog box.":::
 
 1. In the **Based on** section, use the drop-down list to choose whether you want to base your new branch off an existing local branch or a remote branch.
