@@ -28,17 +28,19 @@ Continues running this process from a stopped state. Any previous execution stat
 
 ## Syntax
 
-```cpp
-HRESULT Execute(
-   IDebugThread2* pThread
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Execute(
    IDebugThread2 pThread
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Execute(
+   IDebugThread2* pThread
+);
+```
+---
 
 ## Parameters
 `pThread`\

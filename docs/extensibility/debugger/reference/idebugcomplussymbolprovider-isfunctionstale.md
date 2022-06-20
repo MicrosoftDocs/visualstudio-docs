@@ -23,17 +23,19 @@ Determines if the function at the specified debug address is considered stale.
 
 ## Syntax
 
-```cpp
-HRESULT IsFunctionStale(
-    IDebugAddress* pAddress
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsFunctionStale(
     IDebugAddress pAddress
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsFunctionStale(
+    IDebugAddress* pAddress
+);
+```
+---
 
 ## Parameters
 `pAddress`\

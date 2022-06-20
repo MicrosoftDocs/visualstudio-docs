@@ -25,19 +25,21 @@ A structure that describes an array of strings.
 
 ## Syntax
 
-```cpp
-typedef struct tagBSTR_ARRAY {
-    DWORD dwCount;
-    BSTR* Members;
-} BSTR_ARRAY;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 struct BSTR_ARRAY {
     DWORD    dwCount;
     string[] Members;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagBSTR_ARRAY {
+    DWORD dwCount;
+    BSTR* Members;
+} BSTR_ARRAY;
+```
+---
 
 ## Members
 `dwCount`\

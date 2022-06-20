@@ -25,15 +25,7 @@ Calls the function and returns the resulting value as an object.
 
 ## Syntax
 
-```cpp
-HRESULT Evaluate( 
-   IDebugObject** ppParams,
-   DWORD          dwParams,
-   DWORD          dwTimeout,
-   IDebugObject** ppResult
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Evaluate(
    IDebugObject[]   ppParams,
@@ -42,6 +34,16 @@ int Evaluate(
    out IDebugObject ppResult
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Evaluate( 
+   IDebugObject** ppParams,
+   DWORD          dwParams,
+   DWORD          dwTimeout,
+   IDebugObject** ppResult
+);
+```
+---
 
 ## Parameters
 `ppParams`\

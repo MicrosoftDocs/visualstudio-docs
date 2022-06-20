@@ -25,14 +25,7 @@ This method retrieves a memory object that represents the memory that this objec
 
 ## Syntax
 
-```cpp
-HRESULT GetMemoryObject(
-   IDebugField*   pField,
-   UINT64         uConstant,
-   IDebugObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMemoryObject(
    IDebugField      pField,
@@ -40,6 +33,15 @@ int GetMemoryObject(
    out IDebugObject ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMemoryObject(
+   IDebugField*   pField,
+   UINT64         uConstant,
+   IDebugObject** ppObject
+);
+```
+---
 
 ## Parameters
 `pField`\

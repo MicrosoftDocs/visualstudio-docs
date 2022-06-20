@@ -24,14 +24,7 @@ Retrieves the application entry point.
 
 ## Syntax
 
-```cpp
-HRESULT GetEntryPoint(
-    ULONG32         ulAppDomainID,
-    GUID            guidModule,
-    IDebugAddress** ppAddress
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetEntryPoint(
     uint              ulAppDomainID,
@@ -39,6 +32,15 @@ int GetEntryPoint(
     out IDebugAddress ppAddress
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEntryPoint(
+    ULONG32         ulAppDomainID,
+    GUID            guidModule,
+    IDebugAddress** ppAddress
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

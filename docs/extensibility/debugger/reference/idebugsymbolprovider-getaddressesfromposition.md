@@ -25,15 +25,7 @@ This method maps a document position into an array of debug addresses.
 
 ## Syntax
 
-```cpp
-HRESULT GetAddressesFromPosition( 
-   IDebugDocumentPosition2* pDocPos,
-   BOOL                     fStatmentOnly,
-   IEnumDebugAddresses**    ppEnumBegAddresses,
-   IEnumDebugAddresses**    ppEnumEndAddresses
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAddressesFromPosition( 
    IDebugDocumentPosition2  pDocPos,
@@ -42,6 +34,16 @@ int GetAddressesFromPosition( 
    out IEnumDebugAddresses  ppEnumEndAddresses
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAddressesFromPosition( 
+   IDebugDocumentPosition2* pDocPos,
+   BOOL                     fStatmentOnly,
+   IEnumDebugAddresses**    ppEnumBegAddresses,
+   IEnumDebugAddresses**    ppEnumEndAddresses
+);
+```
+---
 
 ## Parameters
 `pDocPos`\

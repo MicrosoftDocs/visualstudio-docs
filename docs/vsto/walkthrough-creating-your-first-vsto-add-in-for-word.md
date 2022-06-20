@@ -78,8 +78,12 @@ ms.workload:
 
     When the user saves a document, the event handler adds new text at the start of the document.
 
-    :::code language="vb" source="../vsto/codesnippet/VisualBasic/FirstWordAddIn/ThisAddIn.vb" id="Snippet1":::
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../vsto/codesnippet/CSharp/FirstWordAddIn/ThisAddIn.cs" id="Snippet1":::
+
+    ### [VB](#tab/vb)
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/FirstWordAddIn/ThisAddIn.vb" id="Snippet1":::
+    ---
 
    > [!NOTE]
    > This code uses an index value of 1 to access the first paragraph in the <xref:Microsoft.Office.Interop.Word._Document.Paragraphs%2A> collection. Although Visual Basic and Visual C# use 0-based arrays, the lower array bounds of most collections in the Word object model is 1. For more information, see [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md).

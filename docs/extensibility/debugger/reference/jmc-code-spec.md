@@ -25,19 +25,21 @@ This structure is used to set the JustMyCode information for a module.
 
 ## Syntax
 
-```cpp
-typedef struct _JMC_CODE_SPEC {
-    BOOL fIsUserCode;
-    BSTR bstrModuleName;
-} JMC_CODE_SPEC;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct JMC_CODE_SPEC {
     public int    fIsUserCode;
     public string bstrModuleName;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _JMC_CODE_SPEC {
+    BOOL fIsUserCode;
+    BSTR bstrModuleName;
+} JMC_CODE_SPEC;
+```
+---
 
 ## Members
 `fIsUserCode`\

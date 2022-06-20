@@ -25,17 +25,19 @@ This method returns an [IDebugField](../../../extensibility/debugger/reference/i
 
 ## Syntax
 
-```cpp
-HRESULT GetUnderlyingSymbol(
-   IDebugField** ppField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetUnderlyingSymbol(
    out IDebugField ppField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetUnderlyingSymbol(
+   IDebugField** ppField
+);
+```
+---
 
 ## Parameters
 `ppField`\

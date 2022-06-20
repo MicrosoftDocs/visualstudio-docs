@@ -25,19 +25,21 @@ Contains an array of objects that describe programs of interest.
 
 ## Syntax
 
-```cpp
-typedef struct tagPROGRAM_NODE_ARRAY {
-   DWORD                dwCount;
-   IDebugProgramNode2** Members;
-} PROGRAM_NODE_ARRAY;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct tagPROGRAM_NODE_ARRAY {
    public uint                 dwCount;
    public IDebugProgramNode2[] Members;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagPROGRAM_NODE_ARRAY {
+   DWORD                dwCount;
+   IDebugProgramNode2** Members;
+} PROGRAM_NODE_ARRAY;
+```
+---
 
 ## Members
  `dwCount`\

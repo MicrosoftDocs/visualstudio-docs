@@ -26,17 +26,19 @@ Sets or changes the pass count associated with the pending breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT SetPassCount( 
-   BP_PASSCOUNT bpPassCount
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetPassCount( 
    BP_PASSCOUNT bpPassCount
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetPassCount( 
+   BP_PASSCOUNT bpPassCount
+);
+```
+---
 
 ## Parameters
 `bpPassCount`\

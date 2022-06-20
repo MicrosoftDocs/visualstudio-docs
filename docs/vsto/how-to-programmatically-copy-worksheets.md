@@ -31,15 +31,23 @@ ms.workload:
 
 1. Use the <xref:Microsoft.Office.Interop.Excel.Worksheets.Copy%2A> method to copy the first worksheet in the current workbook and place the copy after the third sheet.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet16":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet16":::
+     ---
 
 ## To add a copied worksheet to a workbook in a VSTO Add-in
 
 1. Use the <xref:Microsoft.Office.Interop.Excel.Worksheets.Copy%2A> method to copy the first worksheet in the current workbook and place the copy after the third sheet.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs" id="Snippet12":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb" id="Snippet12":::
+     ---
 
 ## See also
 - [Work with worksheets](../vsto/working-with-worksheets.md)

@@ -37,14 +37,22 @@ ms.workload:
 ## Example in Excel
  The <xref:Microsoft.Office.Tools.Excel.Worksheet.CheckSpelling%2A> method has many optional parameters. You can specify values for some parameters and accept the default value of others as shown in the following code example. This example requires a document-level project with a worksheet class named `Sheet1`.
 
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/excelworkbook1/Sheet1.cs" id="Snippet1":::
+
+ ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/excelworkbook1/Sheet1.vb" id="Snippet1":::
+ ---
 
 ## Example in Word
  The <xref:Microsoft.Office.Interop.Word.Find.Execute%2A> method has many optional parameters. You can specify values for some parameters and accept the default value of others as shown in the following code example.
 
- :::code language="vb" source="../vsto/codesnippet/VisualBasic/worddocument1/ThisDocument.vb" id="Snippet1":::
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/worddocument1/ThisDocument.cs" id="Snippet1":::
+
+ ### [VB](#tab/vb)
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/worddocument1/ThisDocument.vb" id="Snippet1":::
+ ---
 
 ## Use optional parameters of methods in the ThisDocument class in Visual C# document-level projects for Word
  The Word object model contains many methods with optional **ref** parameters that accept <xref:System.Object> values. However, you cannot omit optional **ref** parameters of methods of the generated `ThisDocument` class in Visual C# document-level projects for Word. Visual C# enables you to omit optional **ref** parameters only for methods of interfaces, not classes. For example, the following code example does not compile, because you cannot omit optional **ref** parameters of the <xref:Microsoft.Office.Tools.Word.DocumentBase.CheckSpelling%2A> method of the `ThisDocument` class.

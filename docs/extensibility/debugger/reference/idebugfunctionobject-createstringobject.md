@@ -25,19 +25,21 @@ Creates a string object.
 
 ## Syntax
 
-```cpp
-HRESULT CreateStringObject( 
-   LPCOLESTR      pcstrString,
-   IDebugObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateStringObject(
    string      pcstrString,
    out IDebugObject ppOjbect
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateStringObject( 
+   LPCOLESTR      pcstrString,
+   IDebugObject** ppObject
+);
+```
+---
 
 ## Parameters
 `pcstrString`\

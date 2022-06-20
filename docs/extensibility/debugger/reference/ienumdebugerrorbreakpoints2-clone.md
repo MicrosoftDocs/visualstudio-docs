@@ -25,17 +25,19 @@ Returns a copy of the current enumeration as a separate object.
 
 ## Syntax
 
-```cpp
-HRESULT Clone(
-   IEnumDebugErrorBreakpoints2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Clone(
    out IEnumDebugErrorBreakpoints2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Clone(
+   IEnumDebugErrorBreakpoints2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

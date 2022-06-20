@@ -25,17 +25,19 @@ Gets the document context for this stack frame.
 
 ## Syntax
 
-```cpp
-HRESULT GetDocumentContext ( 
-   IDebugDocumentContext2** ppCxt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocumentContext ( 
    out IDebugDocumentContext2 ppCxt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocumentContext ( 
+   IDebugDocumentContext2** ppCxt
+);
+```
+---
 
 ## Parameters
 `ppCxt`\

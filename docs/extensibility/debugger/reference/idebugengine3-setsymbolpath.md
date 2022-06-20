@@ -25,14 +25,7 @@ Sets the path or paths that are searched for debugging symbols.
 
 ## Syntax
 
-```cpp
-HRESULT SetSymbolPath (
-   LPOLESTR            szSymbolSearchPath,
-   LPOLESTR            szSymbolCachePath,
-   LOAD_SYMBOLS_FLAGS  Flags
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetSymbolPath(
    string                    szSymbolSearchPath,
@@ -40,6 +33,15 @@ int SetSymbolPath(
    enum_LOAD_SYMBOLS_FLAGS   Flags
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetSymbolPath (
+   LPOLESTR            szSymbolSearchPath,
+   LPOLESTR            szSymbolCachePath,
+   LOAD_SYMBOLS_FLAGS  Flags
+);
+```
+---
 
 ## Parameters
 

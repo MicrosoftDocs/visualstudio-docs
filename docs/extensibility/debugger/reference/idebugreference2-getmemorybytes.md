@@ -25,17 +25,19 @@ Gets the memory bytes that physically contain the value of a reference. Reserved
 
 ## Syntax
 
-```cpp
-HRESULT GetMemoryBytes ( 
-   IDebugMemoryBytes2** ppMemoryBytes
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMemoryBytes ( 
    out IDebugMemoryBytes2 ppMemoryBytes
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMemoryBytes ( 
+   IDebugMemoryBytes2** ppMemoryBytes
+);
+```
+---
 
 ## Parameters
 `ppMemoryBytes`\

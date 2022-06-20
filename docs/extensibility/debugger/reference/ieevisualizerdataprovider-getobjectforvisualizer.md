@@ -25,17 +25,19 @@ This method gets the object that this visualizer represents.
 
 ## Syntax
 
-```cpp
-HRESULT GetObjectForVisualizer(
-   IDebugObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetObjectForVisualizer(
    out IDebugObject ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetObjectForVisualizer(
+   IDebugObject** ppObject
+);
+```
+---
 
 ## Parameters
 `ppObject`\

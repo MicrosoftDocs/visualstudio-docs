@@ -25,17 +25,19 @@ Gets the thread associated with a stack frame.
 
 ## Syntax
 
-```cpp
-HRESULT GetThread ( 
-   IDebugThread2** ppThread
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetThread ( 
    out IDebugThread2 ppThread
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetThread ( 
+   IDebugThread2** ppThread
+);
+```
+---
 
 ## Parameters
 `ppThread`\

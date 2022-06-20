@@ -30,8 +30,13 @@ ms.workload:
  The following example demonstrates how to add a custom property in a document-level customization for Excel and assign it a value.
 
 ## Example
- :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingExcelVB/ThisWorkbook.vb" id="Snippet6":::
+
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingExcelCS/ThisWorkbook.cs" id="Snippet6":::
+
+ ### [VB](#tab/vb)
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreProgrammingExcelVB/ThisWorkbook.vb" id="Snippet6":::
+ ---
 
 ## Robust programming
  Attempting to access the `Value` property for undefined properties raises an exception.

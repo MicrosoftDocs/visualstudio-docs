@@ -25,6 +25,19 @@ dev_langs:
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum EncUnavailableReason {
+    ENCUN_NONE,
+    ENCUN_INTEROP,
+    ENCUN_SQLCLR,
+    ENCUN_MINIDUMP,
+    ENCUN_EMBEDDED,
+    ENCUN_ATTACH,
+    ENCUN_WIN64
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum tagEncUnavailableReason {
     ENCUN_NONE,
@@ -37,18 +50,7 @@ enum tagEncUnavailableReason {
 };
 typedef enum tagEncUnavailableReason EncUnavailableReason;
 ```
-
-```csharp
-public enum EncUnavailableReason {
-    ENCUN_NONE,
-    ENCUN_INTEROP,
-    ENCUN_SQLCLR,
-    ENCUN_MINIDUMP,
-    ENCUN_EMBEDDED,
-    ENCUN_ATTACH,
-    ENCUN_WIN64
-};
-```
+---
 
 ## Fields
 `ENCUN_NONE`\

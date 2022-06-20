@@ -25,17 +25,19 @@ Gets an enumerator of all elements of the array.
 
 ## Syntax
 
-```cpp
-HRESULT GetElements( 
-   IEnumDebugObjects** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetElements(
    out IEnumDebugObjects ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetElements( 
+   IEnumDebugObjects** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

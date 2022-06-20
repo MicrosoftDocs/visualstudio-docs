@@ -25,17 +25,19 @@ This method gets the Edit and Continue (ENC) update for this program. A custom d
 
 ## Syntax
 
-```cpp
-HRESULT GetENCUpdate( 
-   IUnknown** ppUpdate
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetENCUpdate(
    out object ppUpdate
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetENCUpdate( 
+   IUnknown** ppUpdate
+);
+```
+---
 
 ## Parameters
 `ppUpdate`\

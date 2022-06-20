@@ -25,15 +25,7 @@ Gets the value pointed to as a series of consecutive bytes.
 
 ## Syntax
 
-```cpp
-HRESULT GetBytes( 
-   DWORD  dwStart,
-   DWORD  dwCount,
-   BYTE*  pBytes,
-   DWORD* pdwBytes
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetBytes(
    uint       dwStart,
@@ -42,6 +34,16 @@ int GetBytes(
    out uint   pdwBytes
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetBytes( 
+   DWORD  dwStart,
+   DWORD  dwCount,
+   BYTE*  pBytes,
+   DWORD* pdwBytes
+);
+```
+---
 
 ## Parameters
 `dwStart`\

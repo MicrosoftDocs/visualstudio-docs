@@ -25,6 +25,43 @@ Specifies the information to retrieve about a stack frame object.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_FRAMEINFO_FLAGS {
+    FIF_FUNCNAME              = 0x00000001,
+    FIF_RETURNTYPE            = 0x00000002,
+    FIF_ARGS                  = 0x00000004,
+    FIF_LANGUAGE              = 0x00000008,
+    FIF_MODULE                = 0x00000010,
+    FIF_STACKRANGE            = 0x00000020,
+    FIF_FRAME                 = 0x00000040,
+    FIF_DEBUGINFO             = 0x00000080,
+    FIF_STALECODE             = 0x00000100,
+    FIF_ANNOTATEDFRAME        = 0x00000200,
+    FIF_DEBUG_MODULEP         = 0x00000400,
+    FIF_FUNCNAME_FORMAT       = 0x00001000,
+    FIF_FUNCNAME_RETURNTYPE   = 0x00002000,
+    FIF_FUNCNAME_ARGS         = 0x00004000,
+    FIF_FUNCNAME_LANGUAGE     = 0x00008000,
+    FIF_FUNCNAME_MODULE       = 0x00010000,
+    FIF_FUNCNAME_LINES        = 0x00020000,
+    FIF_FUNCNAME_OFFSET       = 0x00040000,
+    FIF_FUNCNAME_ARGS_TYPES   = 0x00100000,
+    FIF_FUNCNAME_ARGS_NAMES   = 0x00200000,
+    FIF_FUNCNAME_ARGS_VALUES  = 0x00400000,
+    FIF_FUNCNAME_ARGS_ALL     = 0x00700000,
+    FIF_ARGS_TYPES            = 0x01000000,
+    FIF_ARGS_NAMES            = 0x02000000,
+    FIF_ARGS_VALUES           = 0x04000000,
+    FIF_ARGS_ALL              = 0x07000000,
+    FIF_ARGS_NOFORMAT         = 0x08000000,
+    FIF_ARGS_NO_FUNC_EVAL     = 0x10000000,
+    FIF_FILTER_NON_USER_CODE  = 0x20000000,
+    FIF_ARGS_NO_TOSTRING      = 0x40000000,
+    FIF_DESIGN_TIME_EXPR_EVAL = 0x80000000
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_FRAMEINFO_FLAGS {
     FIF_FUNCNAME              = 0x00000001,
@@ -61,42 +98,7 @@ enum enum_FRAMEINFO_FLAGS {
 };
 typedef DWORD FRAMEINFO_FLAGS;
 ```
-
-```csharp
-public enum enum_FRAMEINFO_FLAGS {
-    FIF_FUNCNAME              = 0x00000001,
-    FIF_RETURNTYPE            = 0x00000002,
-    FIF_ARGS                  = 0x00000004,
-    FIF_LANGUAGE              = 0x00000008,
-    FIF_MODULE                = 0x00000010,
-    FIF_STACKRANGE            = 0x00000020,
-    FIF_FRAME                 = 0x00000040,
-    FIF_DEBUGINFO             = 0x00000080,
-    FIF_STALECODE             = 0x00000100,
-    FIF_ANNOTATEDFRAME        = 0x00000200,
-    FIF_DEBUG_MODULEP         = 0x00000400,
-    FIF_FUNCNAME_FORMAT       = 0x00001000,
-    FIF_FUNCNAME_RETURNTYPE   = 0x00002000,
-    FIF_FUNCNAME_ARGS         = 0x00004000,
-    FIF_FUNCNAME_LANGUAGE     = 0x00008000,
-    FIF_FUNCNAME_MODULE       = 0x00010000,
-    FIF_FUNCNAME_LINES        = 0x00020000,
-    FIF_FUNCNAME_OFFSET       = 0x00040000,
-    FIF_FUNCNAME_ARGS_TYPES   = 0x00100000,
-    FIF_FUNCNAME_ARGS_NAMES   = 0x00200000,
-    FIF_FUNCNAME_ARGS_VALUES  = 0x00400000,
-    FIF_FUNCNAME_ARGS_ALL     = 0x00700000,
-    FIF_ARGS_TYPES            = 0x01000000,
-    FIF_ARGS_NAMES            = 0x02000000,
-    FIF_ARGS_VALUES           = 0x04000000,
-    FIF_ARGS_ALL              = 0x07000000,
-    FIF_ARGS_NOFORMAT         = 0x08000000,
-    FIF_ARGS_NO_FUNC_EVAL     = 0x10000000,
-    FIF_FILTER_NON_USER_CODE  = 0x20000000,
-    FIF_ARGS_NO_TOSTRING      = 0x40000000,
-    FIF_DESIGN_TIME_EXPR_EVAL = 0x80000000
-};
-```
+---
 
 ## Fields
 `FIF_FUNCNAME`\
