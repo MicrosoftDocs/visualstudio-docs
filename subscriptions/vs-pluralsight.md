@@ -60,7 +60,7 @@ At the bottom of the tile, you'll see text showing both the activation date and 
 
 ### When your subscription expires
 
-When your Pluralsight subscription expires, the status will change to "0 days remaining" and the link to the Pluralsight portal will be removed. You will still be able to see the date that you activated the subscription, as well as the date it expired.  
+When your Pluralsight subscription expires, the status will change to "0 days remaining" and the link to the Pluralsight portal will be removed. You'll still be able to see the date that you activated the subscription, as well as the date it expired.  
    :::image type="content" source="_img/vs-pluralsight/vs-pluralsight-expired.png" alt-text="Pluralsight tile after expiration, the link to Pluralsight will be removed and the dates the subscription was active will appear at the bottom of the tile.":::
 
 ## Eligibility
@@ -103,11 +103,11 @@ A: Yes. As a Visual Studio subscriber you get access to featured roles, learning
 
 ### Q: The Pluralsight tile doesn't have an "Activate" link. How can I activate the benefit?
 
-A:  If you have already activated your Pluralsight benefit, the "Activate" link will be replaced by a link that takes you to the sign-in page for Pluralsight.  You will also see the date you activated the benefit as well as information about how much time remains on your subscription.  If you've already used a subscription, you won't be able to activate another one.
+A:  If you've already activated your Pluralsight benefit, the "Activate" link will be replaced by a link that takes you to the sign-in page for Pluralsight.  You'll also see the date you activated the benefit and information about how much time remains on your subscription.  If you've already used a subscription, you won't be able to activate another one.
 
 ### Q: What happens when my Pluralsight subscription runs out?
 
-A:  At the end of your free Pluralsight subscription, you may choose to purchase a subscription directly from Pluralsight.  Please contact [Pluralsight](https://www.pluralsight.com) for full details.
+A:  At the end of your free Pluralsight subscription, you may choose to purchase a subscription directly from Pluralsight.  Contact [Pluralsight](https://www.pluralsight.com) for full details.
 
 ## Support resources
 
