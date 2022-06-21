@@ -13,7 +13,7 @@ ms.topic: how-to
 
 You can customize your container images by editing the Dockerfile that Visual Studio generates when you add Docker support to your project. Whether you're building a customized container from the Visual Studio IDE, or setting up a command-line build, you need to know how Visual Studio uses the Dockerfile to build your projects. You need to know such details because, for performance reasons, Visual Studio follows a special process for building and running containerized apps that isn't obvious from the Dockerfile.
 
-Suppose you want to make a change in the Dockerfile and see the results in both debugging and in production containers. In that case, you can add commands in the Dockerfile to modify the base stage. See [Modify the container image for debugging and production](#modify-the-container-image-for-debugging-and-production). But, if you want to make a change only when debugging, but not production, then you should create another stage, and use the `DockerfileFastModeStage` build setting to tell Visual Studio to use that stage for debug builds. See [Modify the container image only for debugging](#modify-the-container-only-for-debugging).
+Suppose you want to make a change in the Dockerfile and see the results in both debugging and in production containers. In that case, you can add commands in the Dockerfile to modify the base stage. See [Modify the container image for debugging and production](#modify-container-image-for-debugging-and-production). But, if you want to make a change only when debugging, but not production, then you should create another stage, and use the `DockerfileFastModeStage` build setting to tell Visual Studio to use that stage for debug builds. See [Modify the container image only for debugging](#modify-container-image-only-for-debugging).
 
 This article explains the Visual Studio build process for containerized apps in some detail, then it contains information on how to modify the Dockerfile to affect both debugging and production builds, or just for debugging.
 
@@ -72,7 +72,7 @@ To build a containerized solution from the command line, you can usually use the
 docker build -f Dockerfile ..
 ```
 
-### Command line builds with MSBuild
+### MSBuild
 
 Dockerfiles created by Visual Studio for .NET Framework projects (and for .NET Core projects created with versions of Visual Studio prior to Visual Studio 2017 Update 4) are not multistage Dockerfiles.  The steps in these Dockerfiles do not compile your code.  Instead, when Visual Studio builds a .NET Framework Dockerfile, it first compiles your project using MSBuild.  When that succeeds, Visual Studio then builds the Dockerfile, which simply copies the build output from MSBuild into the resulting Docker image.  Because the steps to compile your code aren't included in the Dockerfile, you can't build .NET Framework Dockerfiles using `docker build` from the command line. You should use MSBuild to build these projects.
 
@@ -146,7 +146,7 @@ The process of running the debugger depends on the type of project and container
 
 For information on `vsdbg.exe`, see [Offroad debugging of .NET Core on Linux and OSX from Visual Studio](https://github.com/Microsoft/MIEngine/wiki/Offroad-Debugging-of-.NET-Core-on-Linux---OSX-from-Visual-Studio).
 
-## Modify the container for debugging and production
+## Modify container image for debugging and production
 
 To modify the container image for both debugging and production, modify the `base` stage. Add your customizations to the Dockerfile in the base stage section, usually the first section in the Dockerfile. Refer to the [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) in the Docker documentation for information about Dockerfile commands.
 
@@ -174,7 +174,7 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "WebApplication3.dll"]
 ```
 
-## Modify the container only for debugging
+## Modify container image only for debugging
 
 This scenario applies when you want to do something with your containers to help you in the debugging process, such as installing something for diagnostic purposes, but you don't want that installed in production builds.
 
