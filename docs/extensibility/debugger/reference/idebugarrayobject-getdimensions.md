@@ -22,19 +22,21 @@ Gets the dimensions of the array.
 
 ## Syntax
 
-```cpp
-HRESULT GetDimensions( 
-   DWORD dwCount,
-   DWORD dwDimensions[]
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDimensions(
    [In] uint    dwCount,
    [Out] uint[] dwDimensions
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDimensions( 
+   DWORD dwCount,
+   DWORD dwDimensions[]
+);
+```
+---
 
 ## Parameters
 `dwCount`\

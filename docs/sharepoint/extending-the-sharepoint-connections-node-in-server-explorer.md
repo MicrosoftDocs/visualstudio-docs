@@ -47,8 +47,12 @@ ms.workload:
 
  The following code example demonstrates how to get the data object for a list node. To see this example in the context of a larger example, see [How to: Get data for a built-in SharePoint node in Server Explorer](../sharepoint/how-to-get-data-for-a-built-in-sharepoint-node-in-server-explorer.md).
 
- :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/serverexplorerextensionnodeinfo.vb" id="Snippet11":::
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/serverexplorerextensionnodeinfo.cs" id="Snippet11":::
+
+ ### [VB](#tab/vb)
+ :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/serverexplorerextensionnodeinfo.vb" id="Snippet11":::
+ ---
 
  The following table lists the data object types for each built-in node type.
 

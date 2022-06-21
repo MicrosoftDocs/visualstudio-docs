@@ -25,6 +25,14 @@ Specifies the pending breakpoint state flags.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_PENDING_BP_STATE_FLAGS { 
+   PBPSF_NONE        = 0x0000,
+   PBPSF_VIRTUALIZED = 0x0001
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_PENDING_BP_STATE_FLAGS { 
    PBPSF_NONE        = 0x0000,
@@ -32,13 +40,7 @@ enum enum_PENDING_BP_STATE_FLAGS { 
 };
 typedef DWORD PENDING_BP_STATE_FLAGS;
 ```
-
-```csharp
-public enum enum_PENDING_BP_STATE_FLAGS { 
-   PBPSF_NONE        = 0x0000,
-   PBPSF_VIRTUALIZED = 0x0001
-};
-```
+---
 
 ## Fields
  `PBPSF_NONE`

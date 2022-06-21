@@ -25,19 +25,21 @@ Sets the value of the object from a consecutive series of bytes.
 
 ## Syntax
 
-```cpp
-HRESULT SetValue( 
-   BYTE* pValue,
-   UINT  nSize
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetValue(
    byte[] pValue,
    uint   nSize
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetValue( 
+   BYTE* pValue,
+   UINT  nSize
+);
+```
+---
 
 ## Parameters
 `pValue`\

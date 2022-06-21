@@ -25,19 +25,21 @@ Compares one reference to another. Reserved for future use.
 
 ## Syntax
 
-```cpp
-HRESULT Compare ( 
-   REFERENCE_COMPARE dwCompare,
-   IDebugReference2* pReference
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Compare ( 
    enum_REFERENCE_COMPARE dwCompare,
    IDebugReference2       pReference
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Compare ( 
+   REFERENCE_COMPARE dwCompare,
+   IDebugReference2* pReference
+);
+```
+---
 
 ## Parameters
 `dwCompare`\

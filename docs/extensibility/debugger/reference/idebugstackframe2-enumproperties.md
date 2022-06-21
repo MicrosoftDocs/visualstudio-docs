@@ -25,17 +25,7 @@ Creates an enumerator for properties associated with the stack frame, such as lo
 
 ## Syntax
 
-```cpp
-HRESULT EnumProperties ( 
-   DEBUGPROP_INFO_FLAGS      dwFieldSpec,
-   UINT                      nRadix,
-   REFIID                    refiid,
-   DWORD                     dwTimeout,
-   ULONG*                    pcelt,
-   IEnumDebugPropertyInfo2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumProperties ( 
    enum_DEBUGPROP_INFO_FLAGS   dwFieldSpec,
@@ -46,6 +36,18 @@ int EnumProperties ( 
    out IEnumDebugPropertyInfo2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumProperties ( 
+   DEBUGPROP_INFO_FLAGS      dwFieldSpec,
+   UINT                      nRadix,
+   REFIID                    refiid,
+   DWORD                     dwTimeout,
+   ULONG*                    pcelt,
+   IEnumDebugPropertyInfo2** ppEnum
+);
+```
+---
 
 ## Parameters
 `dwFieldSpec`\

@@ -25,17 +25,19 @@ This method gets the current Edit and Continue state of the process. A custom po
 
 ## Syntax
 
-```cpp
-HRESULT GetENCAvailableState(
-   EncUnavailableReason* pReason
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetENCAvailableState(
    EncUnavailableReason[] pReason
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetENCAvailableState(
+   EncUnavailableReason* pReason
+);
+```
+---
 
 ## Parameters
 `pReason`\

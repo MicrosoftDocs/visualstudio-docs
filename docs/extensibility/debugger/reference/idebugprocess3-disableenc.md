@@ -25,16 +25,18 @@ This method explicitly disables Edit and Continue on this process (and all progr
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+   EncUnavailableReason reason
+);
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT DisableENC(
    EncUnavailableReason reason
 );
 ```
-
-```csharp
-   EncUnavailableReason reason
-);
-```
+---
 
 ## Parameters
 `reason`\

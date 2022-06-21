@@ -25,17 +25,19 @@ Gets the description of a port that was previously used to create the port (if a
 
 ## Syntax
 
-```cpp
-HRESULT GetPortRequest( 
-   IDebugPortRequest2** ppRequest
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPortRequest( 
    out IDebugPortRequest2 ppRequest
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPortRequest( 
+   IDebugPortRequest2** ppRequest
+);
+```
+---
 
 ## Parameters
 `ppRequest`\

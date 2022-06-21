@@ -37,8 +37,12 @@ ms.workload:
 ## Example
  The following code example demonstrates how to add a context menu item to a custom project item type. When the user opens the shortcut menu from the project item in **Solution Explorer** and chooses the **Write Message to Output Window** menu item, Visual Studio displays a message in the **Output** window.
 
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../sharepoint/codesnippet/CSharp/projectitemmenuandproperty/extension/projectitemtypemenu.cs" id="Snippet4":::
+
+ ### [VB](#tab/vb)
  :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/projectitemmenuandproperty/extension/projectitemtypemenu.vb" id="Snippet4":::
+ ---
 
  This example uses the SharePoint project service to write the message to the **Output** window. For more information, see [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md).
 

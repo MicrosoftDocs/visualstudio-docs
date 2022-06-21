@@ -25,17 +25,19 @@ Marks the module as being user code or not.
 
 ## Syntax
 
-```cpp
-HRESULT SetJustMyCodeState(
-   BOOL fIsUserCode
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetJustMyCodeState(
    int fIsUserCode
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetJustMyCodeState(
+   BOOL fIsUserCode
+);
+```
+---
 
 ## Parameters
 `fIsUserCode`\

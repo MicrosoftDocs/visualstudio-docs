@@ -25,6 +25,16 @@ Specifies the information to be retrieved about the successful resolution of a b
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_BPRESI_FIELDS {
+    BPRESI_BPRESLOCATION = 0x0001,
+    BPRESI_PROGRAM       = 0x0002,
+    BPRESI_THREAD        = 0x0004,
+    BPRESI_ALLFIELDS     = 0xffffffff
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_BPRESI_FIELDS {
     BPRESI_BPRESLOCATION = 0x0001,
@@ -34,15 +44,7 @@ enum enum_BPRESI_FIELDS {
 };
 typedef DWORD BPRESI_FIELDS;
 ```
-
-```csharp
-public enum enum_BPRESI_FIELDS {
-    BPRESI_BPRESLOCATION = 0x0001,
-    BPRESI_PROGRAM       = 0x0002,
-    BPRESI_THREAD        = 0x0004,
-    BPRESI_ALLFIELDS     = 0xffffffff
-};
-```
+---
 
 ## Fields
 `BPRESI_BPRESLOCATION`\

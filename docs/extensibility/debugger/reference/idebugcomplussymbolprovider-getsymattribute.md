@@ -24,18 +24,7 @@ Retrieves the debug symbols with the given parent attribute for the specified mo
 
 ## Syntax
 
-```cpp
-HRESULT GetSymAttribute (
-    ULONG32  ulAppDomainID,
-    GUID     guidModule,
-    _mdToken tokParent,
-    LPOLESTR pstrName,
-    ULONG32  cBuffer,
-    ULONG32* pcBuffer,
-    BYTE*    buffer
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSymAttribute (
     uint      ulAppDomainID,
@@ -47,6 +36,19 @@ int GetSymAttribute (
     out int[] buffer
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSymAttribute (
+    ULONG32  ulAppDomainID,
+    GUID     guidModule,
+    _mdToken tokParent,
+    LPOLESTR pstrName,
+    ULONG32  cBuffer,
+    ULONG32* pcBuffer,
+    BYTE*    buffer
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

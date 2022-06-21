@@ -24,19 +24,21 @@ Retrieves a type given its primitive type.
 
 ## Syntax
 
-```cpp
-HRESULT GetTypeFromPrimitive(
-   DWORD         dwCorElementType,
-   IDebugField** ppType
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetTypeFromPrimitive(
    uint            dwCorElementType,
    out IDebugField ppType
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetTypeFromPrimitive(
+   DWORD         dwCorElementType,
+   IDebugField** ppType
+);
+```
+---
 
 ## Parameters
 `dwCorElementType`\

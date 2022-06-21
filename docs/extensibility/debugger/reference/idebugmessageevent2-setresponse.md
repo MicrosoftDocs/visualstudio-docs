@@ -26,17 +26,19 @@ Sets the response, if any, from the message box.
 
 ## Syntax
 
-```cpp
-HRESULT SetResponse( 
-   DWORD dwResponse
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetResponse( 
    uint dwResponse
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetResponse( 
+   DWORD dwResponse
+);
+```
+---
 
 ## Parameters
 `dwResponse`\

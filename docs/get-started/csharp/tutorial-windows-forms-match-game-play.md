@@ -42,8 +42,12 @@ Those labels continue to be displayed.
 1. Add the following `if` statement to the `label_Click()` event handler method.
    Put it near the end of the code just above the statement where you start the timer.
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step7/cs/form1.cs" id="Snippet9":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step7/vb/form1.vb" id="Snippet9":::
+   ---
 
    [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
 
@@ -72,8 +76,12 @@ This section adds a method to verify whether the player won.
 
 1. Add a `CheckForWinner()` method to the bottom of your code, below the `timer1_Tick()` event handler.
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step8/cs/form1.cs" id="Snippet10":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step8/vb/form1.vb" id="Snippet10":::
+   ---
 
    The method uses another `foreach` loop in C# or `For Each` loop in Visual Basic to go through each label in the <xref:System.Windows.Forms.TableLayoutPanel>.
    It checks each label's icon color to verify whether it matches the background.
@@ -85,8 +93,12 @@ This section adds a method to verify whether the player won.
 
    Have the label's <xref:System.Windows.Forms.Control.Click> event handler call the new `CheckForWinner()` method.
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step8/cs/form1.cs" id="Snippet11":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step8/vb/form1.vb" id="Snippet11":::
+   ---
 
    Be sure that your program checks for a winner immediately after it shows the second icon that the player chooses. Look for the line where you set the second chosen icon's color, and then call the `CheckForWinner()` method right after that line.
 

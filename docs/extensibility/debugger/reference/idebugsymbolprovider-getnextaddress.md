@@ -25,14 +25,7 @@ Gets the debug address that follows a given debug address in a method.
 
 ## Syntax
 
-```cpp
-HRESULT GetNextAddress( 
-   IDebugAddress*  pAddress,
-   BOOL            fStatementOnly,
-   IDebugAddress** ppAddress
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetNextAddress( 
    IDebugAddress     pAddress,
@@ -40,6 +33,15 @@ int GetNextAddress( 
    out IDebugAddress ppAddress
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetNextAddress( 
+   IDebugAddress*  pAddress,
+   BOOL            fStatementOnly,
+   IDebugAddress** ppAddress
+);
+```
+---
 
 ## Parameters
 `pAddress`\

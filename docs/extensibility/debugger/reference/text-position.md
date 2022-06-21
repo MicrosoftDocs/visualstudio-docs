@@ -25,19 +25,21 @@ Describes the line and column location in the given text.
 
 ## Syntax
 
-```cpp
-typedef struct _tagTEXT_POSITION { 
-   DWORD dwLine;
-   DWORD dwColumn;
-} TEXT_POSITION;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct TEXT_POSITION { 
    public uint dwLine;
    public uint dwColumn;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagTEXT_POSITION { 
+   DWORD dwLine;
+   DWORD dwColumn;
+} TEXT_POSITION;
+```
+---
 
 ## Members
 

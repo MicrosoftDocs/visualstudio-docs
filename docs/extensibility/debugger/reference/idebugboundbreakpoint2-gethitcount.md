@@ -26,17 +26,19 @@ Gets the current hit count for this bound breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT GetHitCount( 
-   DWORD* pdwHitCount
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetHitCount( 
    out uint pdwHitCount
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetHitCount( 
+   DWORD* pdwHitCount
+);
+```
+---
 
 ## Parameters
 `pdwHitCount`\

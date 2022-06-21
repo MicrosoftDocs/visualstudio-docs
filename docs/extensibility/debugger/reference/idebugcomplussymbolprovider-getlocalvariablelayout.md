@@ -24,16 +24,7 @@ Retrieves the layout of local variables for a set of methods.
 
 ## Syntax
 
-```cpp
-HRESULT GetLocalVariablelayout(
-    ULONG32   ulAppDomainID,
-    GUID      guidModule,
-    ULONG32   cMethods,
-    _mdToken  rgMethodTokens[],
-    IStream** pStreamLayout
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetLocalVariablelayout(
     uint        ulAppDomainID,
@@ -43,6 +34,17 @@ int GetLocalVariablelayout(
     out IStream pStreamLayout
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetLocalVariablelayout(
+    ULONG32   ulAppDomainID,
+    GUID      guidModule,
+    ULONG32   cMethods,
+    _mdToken  rgMethodTokens[],
+    IStream** pStreamLayout
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

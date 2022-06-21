@@ -25,17 +25,19 @@ Gets the breakpoint that became unbound.
 
 ## Syntax
 
-```cpp
-HRESULT GetBreakpoint(
-    IDebugBoundBreakpoint2** ppBP
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetBreakpoint(
     out IDebugBoundBreakpoint2 ppBP
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetBreakpoint(
+    IDebugBoundBreakpoint2** ppBP
+);
+```
+---
 
 ## Parameters
 `ppBP`\

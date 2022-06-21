@@ -25,17 +25,19 @@ Removes the specified exception so it is no longer handled by the debug engine.
 
 ## Syntax
 
-```cpp
-HRESULT RemoveSetException( 
-   EXCEPTION_INFO* pException
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int RemoveSetException( 
    EXCEPTION_INFO[] pException
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT RemoveSetException( 
+   EXCEPTION_INFO* pException
+);
+```
+---
 
 ## Parameters
 `pException`\

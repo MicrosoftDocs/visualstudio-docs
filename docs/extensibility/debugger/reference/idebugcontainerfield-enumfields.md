@@ -25,16 +25,7 @@ Creates an enumerator for the fields of the container.
 
 ## Syntax
 
-```cpp
-HRESULT EnumFields( 
-   FIELD_KIND         dwKindFilter,
-   FIELD_MODIFIERS    dwModifiersFilter,
-   LPCOLESTR          pszNameFilter,
-   NAME_MATCH         nameMatch,
-   IEnumDebugFields** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumFields(
    enum_ FIELD_KIND      dwKindFilter,
@@ -44,6 +35,17 @@ int EnumFields(
    out IEnumDebugFields  ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumFields( 
+   FIELD_KIND         dwKindFilter,
+   FIELD_MODIFIERS    dwModifiersFilter,
+   LPCOLESTR          pszNameFilter,
+   NAME_MATCH         nameMatch,
+   IEnumDebugFields** ppEnum
+);
+```
+---
 
 ## Parameters
 `dwKindFilter`\

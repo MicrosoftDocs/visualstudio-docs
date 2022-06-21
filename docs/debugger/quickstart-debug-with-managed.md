@@ -41,6 +41,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 1. In *Program.cs* or *Module1.vb*, replace the following code
 
+    ### [C#](#tab/csharp)
     ```csharp
     class Program
     {
@@ -50,15 +51,18 @@ The Visual Studio debugger provides many powerful features to help you debug you
     }
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     Module Module1
         Sub Main()
         End Sub
     End Module
     ```
+    ---
 
     with this code:
 
+    ### [C#](#tab/csharp)
     ```csharp
     class Program
     {
@@ -91,6 +95,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
     }
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     Imports System.Collections.Generic
 
@@ -123,6 +128,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
         End Class
     End Namespace
     ```
+    ---
 
     > [!NOTE]
     > In Visual Basic, make sure the startup object is set to `Sub Main` (**Properties > Application > Startup Object**).

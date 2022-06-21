@@ -24,14 +24,7 @@ Retrieves the type parameter arguments for this instance.
 
 ## Syntax
 
-```cpp
-HRESULT GetTypeArguments(
-   ULONG32       cArgs,
-   IDebugField** ppArgs,
-   ULONG32*      pcArgs
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetTypeArguments(
    uint              cArgs,
@@ -39,6 +32,15 @@ int GetTypeArguments(
    ref uint          pcArgs
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetTypeArguments(
+   ULONG32       cArgs,
+   IDebugField** ppArgs,
+   ULONG32*      pcArgs
+);
+```
+---
 
 ## Parameters
 `cArgs`\

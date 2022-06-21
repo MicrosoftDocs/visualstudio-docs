@@ -23,17 +23,19 @@ Retrieves the type or method owner of this generic parameter.
 
 ## Syntax
 
-```cpp
-HRESULT GetOwner(
-    IDebugField** ppOwner
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetOwner(
     out IDebugField ppOwner
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetOwner(
+    IDebugField** ppOwner
+);
+```
+---
 
 ## Parameters
 `ppOwner`\

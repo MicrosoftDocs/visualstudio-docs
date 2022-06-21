@@ -25,17 +25,19 @@ Gets the memory context of the property value.
 
 ## Syntax
 
-```cpp
-HRESULT GetMemoryContext ( 
-   IDebugMemoryContext2** ppMemory
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMemoryContext(
    out IDebugMemoryContext2 ppMemory
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMemoryContext ( 
+   IDebugMemoryContext2** ppMemory
+);
+```
+---
 
 ## Parameters
 `ppMemory`\

@@ -55,8 +55,12 @@ It stores the randomly chosen symbols.
 
 1. In the existing code, add the following code.
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet1":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb" id="Snippet1":::
+   ---
 
    [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
 
@@ -80,8 +84,12 @@ This code uses the keyword `foreach` in C# or `For Each` in Visual Basic.
 
 1. Add the `AssignIconsToSquares()` method.
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet2":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb" id="Snippet2":::
+   ---
 
    You can enter this code just below the code you added in the previous section.
 
@@ -134,8 +142,12 @@ This code uses the keyword `foreach` in C# or `For Each` in Visual Basic.
 
 1. Stop the program. Remove the comment marks for the commented line of code inside the loop.
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet15":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb" id="Snippet15":::
+   ---
 
 If you run the program again, the icons seem to have disappeared.
 Only a blue background appears.
@@ -164,8 +176,12 @@ To get your game to work this way, add a <xref:System.Windows.Forms.Control.Clic
 
 1. Fill in the rest of the code.
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet4":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb" id="Snippet4":::
+   ---
 
    > [!NOTE]
    > If you copy and paste the `label1_Click()` code block rather than entering the code manually, be sure to replace the existing `label1_Click()` code.

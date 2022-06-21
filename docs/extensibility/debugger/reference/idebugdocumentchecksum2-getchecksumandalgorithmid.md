@@ -24,15 +24,7 @@ Retrieves the document checksum and algorithm identifier given the maximum numbe
 
 ## Syntax
 
-```cpp
-HRESULT GetChecksumAndAlgorithmId(
-    GUID  *pRetVal,
-    ULONG cMaxBytes,
-    BYTE  *pChecksum,
-    ULONG *pcNumBytes
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int GetChecksumAndAlgorithmId(
     out Guid pRetVal,
@@ -41,6 +33,16 @@ public int GetChecksumAndAlgorithmId(
     out uint pcNumBytes
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetChecksumAndAlgorithmId(
+    GUID  *pRetVal,
+    ULONG cMaxBytes,
+    BYTE  *pChecksum,
+    ULONG *pcNumBytes
+);
+```
+---
 
 ## Parameters
 `pRetVal`\

@@ -23,19 +23,21 @@ Retrieves the range for the current document position.
 
 ## Syntax
 
-```cpp
-HRESULT GetRange(
-   DWORD* pdwBegOffset,
-   DWORD* pdwEndOffset
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int GetRange(
    ref uint pdwBegOffset,
    ref uint pdwEndOffset
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetRange(
+   DWORD* pdwBegOffset,
+   DWORD* pdwEndOffset
+);
+```
+---
 
 ## Parameters
 `pdwBegOffset`\
