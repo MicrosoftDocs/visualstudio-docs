@@ -1,9 +1,9 @@
 ---
-title: Visual Studio Container Tools build and debug overview
+title: How to customize Docker containers in Visual Studio
 author: ghogen
-description: Overview of the Container Tools build and debugging process
+description: Information about the Visual Studio build process for containers, called fast mode, which is necessary to understand how to modify the Dockerfile to customize your container images for both debug and production builds.
 ms.author: ghogen
-ms.date: 03/15/2021
+ms.date: 06/25/2022
 ms.technology: vs-container-tools
 ms.topic: how-to
 ---
@@ -72,11 +72,11 @@ To build a containerized solution from the command line, you can usually use the
 docker build -f Dockerfile ..
 ```
 
-### MSBuild
+### Command line builds with MSBuild
 
 Dockerfiles created by Visual Studio for .NET Framework projects (and for .NET Core projects created with versions of Visual Studio prior to Visual Studio 2017 Update 4) are not multistage Dockerfiles.  The steps in these Dockerfiles do not compile your code.  Instead, when Visual Studio builds a .NET Framework Dockerfile, it first compiles your project using MSBuild.  When that succeeds, Visual Studio then builds the Dockerfile, which simply copies the build output from MSBuild into the resulting Docker image.  Because the steps to compile your code aren't included in the Dockerfile, you can't build .NET Framework Dockerfiles using `docker build` from the command line. You should use MSBuild to build these projects.
 
-To build an image for single docker container project you can use MSBuild with the `/t:ContainerBuild` command option. For example:
+To build an image for single docker container project you can use MSBuild with the `/t:ContainerBuild` command option. This tells MSBuild to build the target `ContainerBuild` rather than the default target `Build`. For example:
 
 ```cmd
 MSBuild MyProject.csproj /t:ContainerBuild /p:Configuration=Release
@@ -115,36 +115,6 @@ Here are the volumes that are mounted in your container:
 | **NuGet packages folders** | Contains the NuGet packages and fallback folders that is read from the *obj\{project}.csproj.nuget.g.props* file in the project. |
 
 For ASP.NET core web apps, there might be two additional folders for the SSL certificate and the user secrets, which is explained in more detail in the next section.
-
-## SSL-enabled ASP.NET Core apps
-
-Container tools in Visual Studio support debugging an SSL-enabled ASP.NET core app with a dev certificate, the same way you'd expect it to work without containers. To make that happen, Visual Studio adds a couple of more steps to export the certificate and make it available to the container. Here is the flow that Visual Studio handles for you when debugging in the container:
-
-1. Ensures the local development certificate is present and trusted on the host machine through the `dev-certs` tool.
-2. Exports the certificate to %APPDATA%\ASP.NET\Https with a secure password that is stored in the user secrets store for this particular app.
-3. Volume-mounts the following directories:
-
-   - *%APPDATA%\Microsoft\UserSecrets*
-   - *%APPDATA%\ASP.NET\Https*
-
-ASP.NET Core looks for a certificate that matches the assembly name under the *Https* folder, which is why it is mapped to the container in that path. The certificate path and password can alternatively be defined using environment variables (that is, `ASPNETCORE_Kestrel__Certificates__Default__Path` and `ASPNETCORE_Kestrel__Certificates__Default__Password`) or in the user secrets json file, for example:
-
-```json
-{
-  "Kestrel": {
-    "Certificates": {
-      "Default": {
-        "Path": "c:\\app\\mycert.pfx",
-        "Password": "strongpassword"
-      }
-    }
-  }
-}
-```
-
-If your configuration supports both containerized and non-containerized builds, you should use the environment variables, because the paths are specific to the container environment.
-
-For more information about using SSL with ASP.NET Core apps in containers, see [Hosting ASP.NET Core images with Docker over HTTPS](/aspnet/core/security/docker-https)).
 
 ## Debugging
 
@@ -248,6 +218,8 @@ In the project file, add this setting to tell Visual Studio to use your custom s
   </PropertyGroup>
 ```
 
+The next sections contain information that may be useful in certain cases, such as when you want to specify a different entry point, or if your app is SSL-enabled and you're changing something that might affect how the SSL certificates are handled.
+
 ## Container entry point
 
 Visual Studio uses a custom container entry point depending on the project type and the container operating system, here are the different combinations:
@@ -258,6 +230,36 @@ Visual Studio uses a custom container entry point depending on the project type 
 | **Windows containers**| The entry point is something like `C:\remote_debugger\x64\msvsmon.exe /noauth /anyuser /silent /nostatus` which runs the debugger, so it is listening for connections. This method applies when the debugger runs the app. When launched without debugging, a `docker exec` command is used. For .NET Framework web apps, the entry point is slightly different where `ServiceMonitor` is added to the command.|
 
 The container entry point can only be modified in docker-compose projects, not in single-container projects.
+
+## SSL-enabled ASP.NET Core apps
+
+Container tools in Visual Studio support debugging an SSL-enabled ASP.NET core app with a dev certificate, the same way you'd expect it to work without containers. To make that happen, Visual Studio adds a couple of more steps to export the certificate and make it available to the container. Here is the flow that Visual Studio handles for you when debugging in the container:
+
+1. Ensures the local development certificate is present and trusted on the host machine through the `dev-certs` tool.
+2. Exports the certificate to %APPDATA%\ASP.NET\Https with a secure password that is stored in the user secrets store for this particular app.
+3. Volume-mounts the following directories:
+
+   - *%APPDATA%\Microsoft\UserSecrets*
+   - *%APPDATA%\ASP.NET\Https*
+
+ASP.NET Core looks for a certificate that matches the assembly name under the *Https* folder, which is why it is mapped to the container in that path. The certificate path and password can alternatively be defined using environment variables (that is, `ASPNETCORE_Kestrel__Certificates__Default__Path` and `ASPNETCORE_Kestrel__Certificates__Default__Password`) or in the user secrets json file, for example:
+
+```json
+{
+  "Kestrel": {
+    "Certificates": {
+      "Default": {
+        "Path": "c:\\app\\mycert.pfx",
+        "Password": "strongpassword"
+      }
+    }
+  }
+}
+```
+
+If your configuration supports both containerized and non-containerized builds, you should use the environment variables, because the paths are specific to the container environment.
+
+For more information about using SSL with ASP.NET Core apps in containers, see [Hosting ASP.NET Core images with Docker over HTTPS](/aspnet/core/security/docker-https)).
 
 ## Next steps
 
