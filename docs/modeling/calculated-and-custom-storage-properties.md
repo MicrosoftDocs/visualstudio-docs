@@ -63,24 +63,29 @@ If you set the kind of a domain property to *calculated* or *custom storage*, yo
 
 1. In the class file, write a partial implementation of the domain class. In the class, write a definition for the missing `Get` method that resembles the following example:
 
-    ```text
+    ```csharp
     namespace Company.FamilyTree
-    {  public partial class Person
-       {  int GetAgeValue()
-          { return System.DateTime.Today.Year - this.BirthYear; }
-    }  }
+    {  
+      public partial class Person
+      {
+        int GetAgeValue()
+        {
+          return System.DateTime.Today.Year - this.BirthYear;
+        }
+      }
+    }
     ```
 
 1. If you set **Kind** to **Custom Storage**, you also have to provide a `Set` method. For example:
 
-    ```text
+    ```csharp
     void SetAgeValue(int value)
-    { if (!Store.InUndoRedoOrRollback)
-        this.BirthYear =
-            System.DateTime.Today.Year - value; }
+    {
+      if (!Store.InUndoRedoOrRollback) this.BirthYear = System.DateTime.Today.Year - value;
+    }
     ```
 
-     Your code shouldn't set values in the store when `Store.InUndoRedoOrRollback` is true. See [Transactions and Custom Setters](#setters).
+    Your code shouldn't set values in the store when `Store.InUndoRedoOrRollback` is true. See [Transactions and Custom Setters](#setters).
 
 1. Build and run the solution.
 
@@ -98,7 +103,7 @@ However, the `set` method might also be called if the user invokes **Undo** or *
 
   For example:
 
-  ```text
+  ```csharp
   void SetAgeValue(int value)
   {
     // If we are in Undo, no changes to Store objects:

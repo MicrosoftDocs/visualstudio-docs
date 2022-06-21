@@ -40,7 +40,7 @@ There are several contexts in which you can write code that works with a DSL:
 
 Instances of the classes that you define in *DslDefinition.dsl* are kept in a data structure called the *In-Memory Store* (IMS) or *Store*. The classes you define in a DSL always take a Store as an argument to the constructor. For example, if your DSL defines a class called `Example`:
 
-```text
+```csharp
 Example element = new Example (theStore);
 ```
 
@@ -48,11 +48,10 @@ Keeping objects in the Store, instead of just as ordinary objects, provides seve
 
 - **Transactions**. You can group a series of related changes into a transaction:
 
-  ```text
+  ```csharp
   using (Transaction t = store.TransactionManager.BeginTransaction("updates"))
   {
     // make several changes to Store elements here
-
     t.Commit();
   }
   ```
