@@ -17,7 +17,11 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can use the Solution Explorer tool window to create & manage your solutions and projects and to view & interact with your code. In this article, we'll detail the user interface (UI) options that help you do so.
+You can use the Solution Explorer tool window to create & manage your solutions and projects and to view & interact with your code. In this article, we'll cover how to open Solution Explorer. We'll also describe the user interface in detail.
+
+## Open Solution Explorer
+
+By default, the Solution Explorer tool window appears as a pane in the upper-right side of the [Visual Studio IDE](../get-started/visual-studio-ide.md). If you don't see the Solution Explorer tool window, you can open it from the Visual Studio menu bar by using **View** > **Solution Explorer**, or by pressing **Ctrl**+**Alt**+**L**.
 
 ## Tool window
 
@@ -25,19 +29,21 @@ To start, let's take a look at the Solution Explorer tool window in the [Visual 
 
 [![An annotated screenshot of the Solution Explorer tool window in Visual Studio.](media/solution-explorer-tool-window.png)](media/solution-explorer-tool-window.png#lightbox)
 
-The tool window contains the following UI (user interface) elements:
+The tool window contains the following UI (user interface) elements.
 
-- **Menu bar**, where you can control how your files appear
-- **Search bar**, where you can search for specific files and file types
-- **Main window**, where you can view and manage your files, projects, & solutions
-- **[Solution node](#solution-node-context-menu-options)**, where you can manage your solution(s)
-- **[Project node](#project-node-context-menu-options)**, where you can manage your project(s)
-- **Dependencies node**, where you can manage your solution & project dependencies
-- **Program node**, where you can view, edit, and manage your program or application (app)
-- **[Git changes tab](../version-control/git-with-visual-studio.md?view=vs-2019&preserve-view=true#git-changes-window-in-visual-studio-2019)**, where you can use Git & GitHub within Visual Studio to collaborate on projects with your team
+|UI element  |Action  |
+|----------------------|---------|
+|Menu bar | Control how your files appear |
+|Search bar | Search for specific files and file types |
+|Main window | View and manage your files, projects, & solutions |
+|[Solution node](#solution-node-context-menu-options) | Manage your solution(s) |
+|[Project node](#project-node-context-menu-options) | Manage your project(s) |
+|Dependencies node | Manage your solution & project dependencies |
+|Program node |  View, edit, and manage your program or application (app) |
+|[Git Changes tab](../version-control/git-with-visual-studio.md) |  Use Git & GitHub within Visual Studio to collaborate on projects with your team |
 
 > [!TIP]
-> If you don't see the Solution Explorer tool window, you can open it from the Visual Studio menu bar by using **View** > **Solution Explorer**, or by pressing **Ctrl**+**Alt**+**L**.
+>
 
 ## Menu bar
 
@@ -96,5 +102,5 @@ For a tutorial that walks you through how to add items and projects by using the
 ## See also
 
 - [What are solutions and projects in Visual Studio?](solutions-and-projects-in-visual-studio.md)
-- [What is the Project Designer?](reference/project-properties-reference.md)
+- [What is the .NET Project Designer?](reference/project-properties-reference.md)
 - [Customize window layouts in Visual Studio](customizing-window-layouts-in-visual-studio.md)
