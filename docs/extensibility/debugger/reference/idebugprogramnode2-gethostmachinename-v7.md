@@ -27,17 +27,19 @@ dev_langs:
 
 ## Syntax
 
-```cpp
-HRESULT GetHostMachineName_V7 (
-   BSTR* pbstrHostMachineName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetHostMachineName_V7 (
    out string pbstrHostMachineName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetHostMachineName_V7 (
+   BSTR* pbstrHostMachineName
+);
+```
+---
 
 ## Parameters
 

@@ -25,19 +25,21 @@ Retrieves a specific port supplier.
 
 ## Syntax
 
-```cpp
-HRESULT GetPortSupplier( 
-   REFGUID               guidPortSupplier,
-   IDebugPortSupplier2** ppPortSupplier
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPortSupplier( 
    ref Guid                guidPortSupplier,
    out IDebugPortSupplier2 ppPortSupplier
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPortSupplier( 
+   REFGUID               guidPortSupplier,
+   IDebugPortSupplier2** ppPortSupplier
+);
+```
+---
 
 ## Parameters
 `guidPortSupplier`\

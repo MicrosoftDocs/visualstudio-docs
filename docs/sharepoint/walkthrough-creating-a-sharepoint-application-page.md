@@ -104,23 +104,39 @@ Handle controls in an application page just as you would any ASP.NET page. In th
 
 2. Add the following method to the `SearchItems` class. This code handles the <xref:System.Web.UI.WebControls.ListControl.SelectedIndexChanged> event of the <xref:System.Web.UI.WebControls.DropDownList> by calling a method that you will create later in this walkthrough.
 
-     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.vb" id="Snippet5":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.cs" id="Snippet5":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.vb" id="Snippet5":::
+     ---
 
 3. Add the following statements to the top of the application page code file.
 
-     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.vb" id="Snippet1":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.vb" id="Snippet1":::
+     ---
 
 4. Add the following method to the `SearchItems` class. This method iterates through all sites on the server farm and searches for items created or modified by the current user.
 
-     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.vb" id="Snippet2":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.vb" id="Snippet2":::
+     ---
 
 5. Add the following method to the `SearchItems` class. This method displays items created or modified by the current user in the table.
 
-     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.vb" id="Snippet3":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.vb" id="Snippet3":::
+     ---
 
 ## Test the application page
 

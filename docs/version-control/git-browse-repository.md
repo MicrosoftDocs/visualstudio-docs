@@ -8,6 +8,7 @@ ms.author: tglee
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
+ms.custom: version-control
 ---
 # Browse Git repositories and compare branches in Visual Studio
 
@@ -32,6 +33,8 @@ The **Git Repository** window contains three main sections, as numbered in the p
    - **Outgoing** shows your local commits that you still haven't pushed.
    - **Local History** shows the rest of commits tracked by your local repository.
 1. **Commit**: Selecting any commit in the **Graph** section opens its details. You can check the changes that a commit has introduced by selecting them, which shows a difference. For example, the previous screenshot shows the changes that one commit introduced to the *Files.csproj* file.
+
+The Alt+Up arrow key or Alt+Down arrow keyboard shortcuts allow you to jump between these sections.
 
 You can browse though any local or remote branch without having to switch your branch. When you find a commit that you want to focus on, select the **Open in New Tab** button to open the commit on a different tab.
 

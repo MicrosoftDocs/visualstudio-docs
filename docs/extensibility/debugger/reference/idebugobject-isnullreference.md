@@ -25,17 +25,19 @@ Tests whether this object is a null reference.
 
 ## Syntax
 
-```cpp
-HRESULT IsNullReference( 
-   BOOL* pfIsNull
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsNullReference(
    out int pfIsNull
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsNullReference( 
+   BOOL* pfIsNull
+);
+```
+---
 
 ## Parameters
 `pfIsNull`\

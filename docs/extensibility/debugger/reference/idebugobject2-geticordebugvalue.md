@@ -25,17 +25,19 @@ Gets a managed code object representing the value associated with this object.
 
 ## Syntax
 
-```cpp
-HRESULT GetICorDebugValue(
-   IUnknown** ppUnk
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetICorDebugValue(
    out object ppUnk
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetICorDebugValue(
+   IUnknown** ppUnk
+);
+```
+---
 
 ## Parameters
 `ppUnk`\

@@ -25,19 +25,21 @@ Gets the program associated with a program node.
 
 ## Syntax
 
-```cpp
-HRESULT GetProgram( 
-   IDebugProgramNode2* pProgramNode,
-   IDebugProgram2**    ppProgram
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProgram( 
    IDebugProgramNode2 pProgramNode,
    out IDebugProgram2 ppProgram
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProgram( 
+   IDebugProgramNode2* pProgramNode,
+   IDebugProgram2**    ppProgram
+);
+```
+---
 
 ## Parameters
 `pProgramNode`

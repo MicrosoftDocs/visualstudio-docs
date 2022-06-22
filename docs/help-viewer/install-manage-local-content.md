@@ -130,3 +130,4 @@ You can save disk space by moving installed content from your local computer to 
 ## See also
 
 - [Microsoft Help Viewer](../help-viewer/overview.md)
+- [Override Help Viewer defaults](../help-viewer/behavior-overrides.md)

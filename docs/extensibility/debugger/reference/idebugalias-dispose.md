@@ -25,13 +25,15 @@ Marks this alias for removal.
 
 ## Syntax
 
-```cpp
-HRESULT Dispose();
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Dispose();
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Dispose();
+```
+---
 
 ## Parameters
  None.

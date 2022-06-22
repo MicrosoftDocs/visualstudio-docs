@@ -86,9 +86,9 @@ If you require a more complex installation of a desktop application than ClickOn
 
 - An MSI-based installer package can be created by using the [WiX Toolset Visual Studio 2017 Extension](https://marketplace.visualstudio.com/items?itemName=RobMensching.WixToolsetVisualStudio2017Extension). This is a command-line toolset.
 
-- An MSI or EXE installer package can be created by using a Setup project (vdproj). To use this option, see [Visual Studio Installer Projects Extension and .NET Core 3.1 and .NET 5.0](../deployment/installer-projects-net-core.md) or, go directly to the [Visual Studio Installer Projects extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects#overview).
+- An MSI or EXE installer package can be created by using a Setup project (vdproj). To use this option, see [Visual Studio Installer Projects Extension and .NET 6.0](../deployment/installer-projects-net-core.md) or, go directly to the [Visual Studio Installer Projects extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects#overview).
 
-- An MSI or EXE installer package can be created by using [InstallShield](https://www.flexerasoftware.com/producer/products/software-installation/installshield-software-installer/tab/requirements) from Flexera Software. InstallShield may be used with Visual Studio 2017 and later versions. Community Edition isn't supported.
+- An MSI or EXE installer package can be created by using [InstallShield](https://www.revenera.com/install/products/installshield/installshield-requirements) from Flexera Software. InstallShield may be used with Visual Studio 2017 and later versions. Community Edition isn't supported.
 
   > [!NOTE]
   > InstallShield Limited Edition is no longer included with Visual Studio and isn't supported in Visual Studio 2017 and later versions. Check with Flexera Software about future availability.

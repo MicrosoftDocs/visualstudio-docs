@@ -47,9 +47,6 @@ Each Python project has one assigned start-up file, shown in boldface in **Solut
 >
 > If you want to keep the output window open for any reason, right-click your project, select **Properties**, select the **Debug** tab, then add `-i` to the **Interpreter Arguments** field. This argument causes the interpreter to go into interactive mode after a program completes, thereby keeping the window open until you enter **Ctrl**+**Z** > **Enter** to exit.
 
-::: moniker range="vs-2017"
-A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click the **Python Environments** node in the project, select **Add/Remove Python Environments**, and select the ones you want.
-::: moniker-end
 ::: moniker range=">=vs-2019"
 A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click the **Python Environments** node in the project, select **Add Environment..**, and select the ones you want. You can also use the environments drop-down control on the toolbar to select and environment or add another one to the project.
 
@@ -68,21 +65,6 @@ Visual Studio gives you a number of ways to set up a Python project, either from
 
 ![New project dialog with Python templates](media/projects-new-project-dialog.png)
 
-::: moniker range="<=vs-2017"
-
-The following table summarizes the templates available in Visual Studio 2017 (not all templates are available in all previous versions):
-
-| Template | Description |
-| --- | --- |
-| [**From existing Python code**](#create-project-from-existing-files) | Creates a Visual Studio project from existing Python code in a folder structure.  |
-| **Python Application** | A basic project structure for a new Python application with a single, empty source file. By default, the project runs in the console interpreter of the default global environment, which you can change by [assigning a different environment](selecting-a-python-environment-for-a-project.md). |
-| [**Web projects**](python-web-application-project-templates.md) | Projects for web apps based on various frameworks including Bottle, Django, and Flask. |
-| **IronPython Application** | Similar to the Python Application template, but uses IronPython by default enabling .NET interop and mixed-mode debugging with .NET languages. |
-| **IronPython Silverlight Web Page** | An IronPython project that runs in a browser using Silverlight. The application's Python code is included in the web page as script. A boilerplate script tag pulls down some JavaScript code that initializes IronPython running inside of Silverlight, from which your Python code can interact with the DOM. |
-| **IronPython Windows Forms Application** | A project structure using IronPython with UI created using code with Windows Forms. The application runs without displaying a console. |
-| **Background Application (IoT)** | Supports deploying Python projects to run as background services on devices. Visit the [Windows IoT Dev Center](https://dev.windows.com/en-us/iot) for more information. |
-| **Python Extension Module** | This template appears under Visual C++ if you've installed the **Python native development tools** with the Python workload in Visual Studio 2017 or later (see [Installation](installing-python-support-in-visual-studio.md)). It provides the core structure for a C++ extension DLL, similar to what's described on [Create a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md). |
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

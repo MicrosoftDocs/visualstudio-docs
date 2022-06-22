@@ -22,17 +22,6 @@ ms.workload:
 
 Flask is called a "micro" framework because it doesn't directly provide features like form validation, database abstraction, authentication, and so on. Such features are instead provided by special Python packages called Flask *extensions*. The extensions integrate seamlessly with Flask so that they appear as if they're part of Flask itself. For example, Flask itself doesn't provide a page template engine. Templating is provided by extensions such as Jinja and Jade, as demonstrated in this tutorial.
 
-::: moniker range="vs-2017"
-In this tutorial, you learn how to:
-
-- Create a basic Flask project in a Git repository using the "Blank Flask Web Project" template (step 1).
-- Create a Flask app with one page and render that page using a template (step 2).
-- Serve static files, add pages, and use template inheritance (step 3).
-- Use the Flask Web Project template to create an app with multiple pages and responsive design (step 4).
-- Use the Polls Flask Web Project template to create a polling app that uses various storage options (Azure storage, MongoDB, or memory).
-
-Over the course of these steps you create a single Visual Studio solution that contains three separate projects. You create the project using different Flask project templates that are included with Visual Studio. By keeping the projects in the same solution, you can easily switch back and forth between different files for comparison.
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

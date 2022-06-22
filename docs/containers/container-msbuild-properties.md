@@ -60,7 +60,7 @@ The following project file shows examples of some of these settings.
          set to the same folder as the Dockerfile. -->
     <DockerfileContext>.</DockerfileContext>
     <!-- Set `docker run` arguments to mount a volume -->
-    <DockerfileRunArguments>-v $(pwd)/host-folder:/container-folder:ro</DockerfileRunArguments>
+    <DockerfileRunArguments>-v $(MSBuildProjectDirectory)/host-folder:/container-folder:ro</DockerfileRunArguments>
     <!-- Set `docker build` arguments to add a custom tag -->
     <DockerfileBuildArguments>-t contoso/front-end:v2.0</DockerfileBuildArguments>
   </PropertyGroup>

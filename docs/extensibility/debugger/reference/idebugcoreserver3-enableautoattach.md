@@ -25,15 +25,7 @@ Enables automatic attaching for the specified debug engines.
 
 ## Syntax
 
-```cpp
-HRESULT EnableAutoAttach(
-   GUID*     rgguidSpecificEngines,
-   DWORD     celtSpecificEngines,
-   LPCOLESTR pszStartPageUrl,
-   BSTR*     pbstrSessionId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnableAutoAttach(
    Guid[]     rgguidSpecificEngines,
@@ -42,6 +34,16 @@ int EnableAutoAttach(
    out string pbstrSessionId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnableAutoAttach(
+   GUID*     rgguidSpecificEngines,
+   DWORD     celtSpecificEngines,
+   LPCOLESTR pszStartPageUrl,
+   BSTR*     pbstrSessionId
+);
+```
+---
 
 ## Parameters
 `rgguidSpecificEngines`\

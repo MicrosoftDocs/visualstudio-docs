@@ -25,18 +25,20 @@ Specifies the state of symbols for a module.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_MODULE_INFO_FLAGS {
+   MIF_SYMBOLS_LOADED = 0x0001
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_MODULE_INFO_FLAGS {
    MIF_SYMBOLS_LOADED = 0x0001
 };
 typedef DWORD MODULE_INFO_FLAGS;
 ```
-
-```csharp
-public enum enum_MODULE_INFO_FLAGS {
-   MIF_SYMBOLS_LOADED = 0x0001
-};
-```
+---
 
 ## Fields
  `MIF_SYMBOLS_LOADED`\

@@ -71,16 +71,19 @@ For a more detailed description, see [Use stubs to isolate parts of your applica
 
      Instead, you can define an interface that can be implemented by the other component, and can also be implemented by a stub for test purposes:
 
+    ### [C#](#tab/csharp)
     ```csharp
     public int GetContosoPrice(IStockFeed feed) => feed.GetSharePrice("COOO");
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     Public Function GetContosoPrice(feed As IStockFeed) As Integer
      Return feed.GetSharePrice("COOO")
     End Function
 
     ```
+    ---
 
 2. **Add Fakes Assembly**
 
@@ -96,6 +99,7 @@ For a more detailed description, see [Use stubs to isolate parts of your applica
 
 3. In your tests, construct instances of the stub and provide code for its methods:
 
+    ### [C#](#tab/csharp)
     ```csharp
     [TestClass]
     class TestStockAnalyzer
@@ -127,6 +131,7 @@ For a more detailed description, see [Use stubs to isolate parts of your applica
     }
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     <TestClass()> _
     Class TestStockAnalyzer
@@ -151,6 +156,7 @@ For a more detailed description, see [Use stubs to isolate parts of your applica
     End Class
 
     ```
+    ---
 
     The special piece of magic here is the class `StubIStockFeed`. For every interface in the referenced assembly, the Microsoft Fakes mechanism generates a stub class. The name of the stub class is derived from the name of the interface, with "`Fakes.Stub`" as a prefix, and the parameter type names appended.
 
@@ -182,6 +188,7 @@ To use shims, you don't have to modify the application code or write it in a par
 
 2. **Insert a shim in a ShimsContext**
 
+    ### [C#](#tab/csharp)
     ```csharp
     [TestClass]
     public class TestClass1
@@ -214,6 +221,7 @@ To use shims, you don't have to modify the application code or write it in a par
     }
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     <TestClass()> _
     Public Class TestClass1
@@ -239,6 +247,7 @@ To use shims, you don't have to modify the application code or write it in a par
         End Sub
     End Class
     ```
+    ---
 
     Shim class names are made up by prefixing `Fakes.Shim` to the original type name. Parameter names are appended to the method name. (You don't have to add any assembly reference to System.Fakes.)
 

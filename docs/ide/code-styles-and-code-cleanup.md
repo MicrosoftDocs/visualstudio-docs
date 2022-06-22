@@ -2,7 +2,7 @@
 title: Code style options and code cleanup
 description: Learn how to configure Visual Studio to apply code style preferences using the Code Cleanup (Visual Studio 2019) and Format Document (Visual Studio 2017) commands.
 ms.custom: SEO-VS-2020
-ms.date: 03/28/2022
+ms.date: 05/20/2022
 ms.topic: conceptual
 author: mikejo5000
 ms.author: mikejo
@@ -37,7 +37,7 @@ You can manually populate your EditorConfig file, or you can automatically gener
 
 ::: moniker range=">=vs-2022"
 
-You can manually populate your EditorConfig file, or you can automatically generate the file based on the code style settings you've chosen in the Visual Studio **Options** dialog box. This options page is available at **Tools** > **Options** > **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**. Click **Generate .editorconfig file from settings** to automatically generate a coding style *.editorconfig* file based on the settings on this **Options** page.
+You can manually populate your EditorConfig file, or you can automatically generate the file based on the code style settings you've chosen in the Visual Studio **Options** dialog box. This options page is available at **Tools** > **Options** > **Text Editor** > [**C#** or  **Visual Basic**] > **Code Style** > **General**. Click **Generate .editorconfig file from settings** to automatically generate a coding style *.editorconfig* file based on the settings on this **Options** page.
 
 ![Screenshot of Generate editorconfig file from settings.](media/vs-2022/generate-editorconfig-file-small.png)
 
@@ -45,15 +45,20 @@ You can manually populate your EditorConfig file, or you can automatically gener
 
 ## Code styles in the Options dialog box
 
+::: moniker range="vs-2022"
+
+Code style preferences can be set for all of your C# and Visual Basic projects by opening the **Options** dialog box from the **Tools** menu. In the **Options** dialog box, select **Text Editor** > [**C#** or  **Visual Basic**] > **Code Style** > **General**.
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
+
 Code style preferences can be set for all of your C# and Visual Basic projects by opening the **Options** dialog box from the **Tools** menu. In the **Options** dialog box, select **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**.
+
+::: moniker-end
 
 Each item in the list shows a preview of the preference when selected:
 
-::: moniker range="vs-2017"
-
-![Screenshot of code style options.](media/code-style-quick-actions-dialog.png)
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -83,23 +88,6 @@ Starting in Visual Studio 2019 version 16.8, which includes the .NET 5.0 RC2 SDK
 
 ## Apply code styles
 
-::: moniker range="vs-2017"
-
-You can configure the **Format Document** command (**Edit** > **Advanced** > **Format Document**) to apply your code style settings (from an EditorConfig file or **Code Style** options) along with the regular formatting that it does (such as indentation). If an *.editorconfig* file exists for the project, those settings take precedence.
-
-> [!NOTE]
-> Applying code styles by using the **Format Document** command is only available for C# code files. This is an experimental feature.
-
-Configure which settings you want **Format Document** to apply on the [Formatting options page](reference/options-text-editor-csharp-formatting.md#format-document-settings).
-
-![Screenshot of code style settings for format document.](media/format-document-settings-experiment.png)
-
-> [!TIP]
-> Rules configured with a severity of **None** don't participate in code cleanup but can be individually applied via the **Quick Actions and Refactorings** menu.
-
-The first time you trigger the **Format Document** command, a yellow info bar prompts you to configure your code cleanup settings.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -136,6 +124,55 @@ First, configure which code styles you want to apply (in one of two profiles) in
 After you've configured code cleanup, you can either click on the broom icon or press **Ctrl**+**K**, **Ctrl**+**E** to run code cleanup. You can also run code cleanup across your entire project or solution. Right-click on the project or solution name in **Solution Explorer**, select **Analyze and Code Cleanup**, and then select **Run Code Cleanup**.
 
 ![Screenshot of Run Code Cleanup across entire project or solution.](media/vs-2022/run-code-cleanup-project-solution.png)
+
+## Code cleanup settings
+
+Most of the code cleanup settings map to one or more .NET code styles supported in *.editorconfig*. For examples that show the effects of the settings, use the links in the following table.
+
+|Setting|Rule ID or style option|
+|-|-|
+|Remove unnecessary Imports or usings|[IDE0005](/dotnet/fundamentals/code-analysis/style-rules/ide0005)|
+|Apply file header preferences|[file_header_template](/dotnet/fundamentals/code-analysis/style-rules/ide0073#file_header_template)|
+|Remove unused variables|[IDE0051](/dotnet/fundamentals/code-analysis/style-rules/ide0051)|
+|Apply object creation preferences|[visual_basic_style_prefer_simplified_object_creation](/dotnet/fundamentals/code-analysis/style-rules/ide0140#visual_basic_style_prefer_simplified_object_creation)|
+|Apply IsNot preferences|[visual_basic_style_prefer_isnot_expression](/dotnet/fundamentals/code-analysis/style-rules/ide0084#visual_basic_style_prefer_isnot_expression)|
+|Add 'this' or 'Me' qualification|[IDE0003-IDE0009](/dotnet/fundamentals/code-analysis/style-rules/ide0003-ide0009)|
+|Add accessibility modifiers|[dotnet_style_require_accessibility_modifiers](/dotnet/fundamentals/code-analysis/style-rules/ide0040#dotnet_style_require_accessibility_modifiers)|
+|Order modifiers|[IDE0036](/dotnet/fundamentals/code-analysis/style-rules/ide0036)|
+|Make field readonly|[dotnet_style_readonly_field](/dotnet/fundamentals/code-analysis/style-rules/ide0044#dotnet_style_readonly_field)|
+|Remove unnecessary casts|[IDE0004](/dotnet/fundamentals/code-analysis/style-rules/ide0004)|
+|Apply object/collection initialization parameters)|[dotnet_style_object_initializer](/dotnet/fundamentals/code-analysis/style-rules/ide0017#dotnet_style_object_initializer)|
+|Apply using directive placement preferences|[csharp_using_directive_placement](/dotnet/fundamentals/code-analysis/style-rules/ide0065#csharp_using_directive_placement)|
+|Apply parentheses preferences|[IDE0047-IDE0048](/dotnet/fundamentals/code-analysis/style-rules/ide0047-ide0048)|
+|Apply unused value preferences|[IDE0058](/dotnet/fundamentals/code-analysis/style-rules/ide0058)|
+|Apply language/framework type preferences|[IDE0049](/dotnet/fundamentals/code-analysis/style-rules/ide0049)|
+|Remove unused suppressions|[dotnet_remove_unnecessary_suppression_exclusions](/dotnet/fundamentals/code-analysis/style-rules/ide0079#dotnet_remove_unnecessary_suppression_exclusions)|
+|Apply simplify boolean expression preferences|[dotnet_style_prefer_simplified_boolean_expressions](/dotnet/fundamentals/code-analysis/style-rules/ide0075#dotnet_style_prefer_simplified_boolean_expressions)|
+|Apply string interpolation preferences|[dotnet_style_prefer_simplified_interpolation](/dotnet/fundamentals/code-analysis/style-rules/ide0071#dotnet_style_prefer_simplified_interpolation)|
+|Remove unused parameters|[dotnet_code_quality_unused_parameters](/dotnet/fundamentals/code-analysis/style-rules/ide0060#dotnet_code_quality_unused_parameters)|
+|Apply auto property preferences|[dotnet_style_prefer_auto_properties](/dotnet/fundamentals/code-analysis/style-rules/ide0032#dotnet_style_prefer_auto_properties)|
+|Apply compound assignment preferences|[dotnet_style_prefer_compound_assignment](/dotnet/fundamentals/code-analysis/style-rules/ide0054-ide0074#dotnet_style_prefer_compound_assignment)|
+|Apply coalesce expression preferences|[dotnet_style_coalesce_expression](/dotnet/fundamentals/code-analysis/style-rules/ide0029-ide0030#dotnet_style_coalesce_expression)|
+|Apply conditional expression preferences|[dotnet_style_prefer_conditional_expression_over_assignment](/dotnet/fundamentals/code-analysis/style-rules/ide0045#dotnet_style_prefer_conditional_expression_over_assignment)</br>[dotnet_style_prefer_conditional_expression_over_return](/dotnet/fundamentals/code-analysis/style-rules/ide0046#dotnet_style_prefer_conditional_expression_over_return)|
+|Apply tuple name preferences|[dotnet_style_explicit_tuple_names](/dotnet/fundamentals/code-analysis/style-rules/ide0033#dotnet_style_explicit_tuple_names)</br>[dotnet_style_prefer_inferred_tuple_names](/dotnet/fundamentals/code-analysis/style-rules/ide0037#dotnet_style_prefer_inferred_tuple_names)|
+|Apply inferred anonymous type member names preferences|[dotnet_style_prefer_inferred_anonymous_type_member_names](/dotnet/fundamentals/code-analysis/style-rules/ide003#dotnet_style_prefer_inferred_anonymous_type_member_names)|
+|Apply null checking preferences|[dotnet_style_prefer_is_null_check_over_reference_equality_method](/dotnet/fundamentals/code-analysis/style-rules/ide0041#dotnet_style_prefer_is_null_check_over_reference_equality_method)|
+|Apply null propagation preferences|[dotnet_style_null_propagation](/dotnet/fundamentals/code-analysis/style-rules/ide0031#dotnet_style_null_propagation)|
+|Apply 'var' preferences|[IDE0007-IDE0008](/dotnet/fundamentals/code-analysis/style-rules/ide0007-ide0008)|
+|Add required braces for single-line control statements|[csharp_prefer_braces](/dotnet/fundamentals/code-analysis/style-rules/ide0011#csharp_prefer_braces)|
+|Apply expression/block body preferences|[Expression-bodied members](/dotnet/fundamentals/code-analysis/style-rules/expression-bodied-members)|
+|Apply inline 'out' variables preferences|[csharp_style_inlined_variable_declaration](/dotnet/fundamentals/code-analysis/style-rules/ide0018#csharp_style_inlined_variable_declaration)|
+|Apply pattern matching preferences|[Pattern-matching preferences](/dotnet/fundamentals/code-analysis/style-rules/pattern-matching-preferences)|
+|Apply conditional delegate call preferences|[csharp_style_conditional_delegate_call](/dotnet/fundamentals/code-analysis/style-rules/ide1005#csharp_style_conditional_delegate_call)|
+|Apply static local function preferences|[csharp_prefer_static_local_function](/dotnet/fundamentals/code-analysis/style-rules/ide0062#csharp_prefer_static_local_function)|
+|Apply deconstruct preferences|[csharp_style_deconstructed_variable_declaration](/dotnet/fundamentals/code-analysis/style-rules/ide0042#csharp_style_deconstructed_variable_declaration)|
+|Apply default(T) preferences|[csharp_prefer_simple_default_expression](/dotnet/fundamentals/code-analysis/style-rules/ide0034#csharp_prefer_simple_default_expression)|
+|Apply new() preferences|[csharp_style_implicit_object_creation_when_type_is_apparent](/dotnet/fundamentals/code-analysis/style-rules/ide0090#csharp_style_implicit_object_creation_when_type_is_apparent)|
+|Apply range preferences|[csharp_style_prefer_range_operator](/dotnet/fundamentals/code-analysis/style-rules/ide0057#csharp_style_prefer_range_operator)|
+|Apply local over anonymous function preferences|[csharp_style_pattern_local_over_anonymous_function](/dotnet/fundamentals/code-analysis/style-rules/ide0039#csharp_style_pattern_local_over_anonymous_function)|
+|Apply parameter null preferences|[Null-checking preferences](/dotnet/fundamentals/code-analysis/style-rules/null-checking-preferences)|
+|Apply using statement preferences|[csharp_prefer_simple_using_statement](/dotnet/fundamentals/code-analysis/style-rules/ide0063#csharp_prefer_simple_using_statement)|
+|Apply throw expression preferences|[csharp_style_throw_expression](/dotnet/fundamentals/code-analysis/style-rules/ide0016#csharp_style_throw_expression)|
 
 ::: moniker-end
 

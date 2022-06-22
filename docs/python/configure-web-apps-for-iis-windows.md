@@ -1,7 +1,7 @@
 ---
 title: Configure Python web apps for IIS
 description: How to configure Python web apps to run with Internet Information Services from a Windows virtual machine.
-ms.date: 01/12/2022
+ms.date: 05/25/2022
 ms.topic: how-to
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -17,7 +17,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-When using Internet Information Services (IIS) as a web server on a Windows computer (including [Windows virtual machines on Azure](/azure/architecture/reference-architectures/n-tier/windows-vm), Python apps must include specific settings in their *web.config* files so that IIS can properly process Python code. The computer itself must also have Python installed along with any packages the web app requires.
+When using Internet Information Services (IIS) as a web server on a Windows computer (including [Windows virtual machines on Azure](/azure/architecture/reference-architectures/n-tier/windows-vm)), Python apps must include specific settings in their *web.config* files so that IIS can properly process Python code. The computer itself must also have Python installed along with any packages the web app requires.
 
 > [!Note]
 > The previous article, is still available on [Managing App Service on Windows with the Python extensions](managing-python-on-azure-app-service.md).
@@ -67,7 +67,10 @@ The `HTTP_PLATFORM_PORT` environment variable shown here contains the port that 
 
 FastCGI is an interface that works at the request level. IIS receives incoming connections and forwards each request to a WSGI app running in one or more persistent Python processes.
 
-To use it, first install and configure the wfastcgi package as described on [pypi.org/project/wfastcgi/](https://pypi.io/project/wfastcgi).
+> [!Note]
+> We recommend using **HttpPlatform** to configure your apps, as the [WFastCGI](https://pypi.org/project/wfastcgi/) project is no longer maintained. 
+
+To use FastCGI, first install and configure the wfastcgi package as described on [pypi.org/project/wfastcgi/](https://pypi.io/project/wfastcgi).
 
 Next, modify your app's *web.config* file to include the full paths to *python.exe* and *wfastcgi.py* in the `PythonHandler` key. The steps below assume that Python is installed in *c:\python36-32* and that your app code is in *c:\home\site\wwwroot*; adjust for your paths accordingly:
 

@@ -50,7 +50,7 @@ To turn off source code analysis for analyzers, add one or more of the following
 | - | - | - |
 | `RunAnalyzersDuringBuild` | Controls whether analyzers run at build time. | `true` |
 | `RunAnalyzersDuringLiveAnalysis` | Controls whether analyzers analyze code live at design time. | `true` |
-| `RunAnalyzers` | Disables analyzers at both build and design time. This property takes precedence over `RunAnalyzersDuringBuild` and `RunAnalyzersDuringLiveAnalysis`. | `true` |
+| `RunAnalyzers` | `false` disables analyzers at both build and design time. This property takes precedence over `RunAnalyzersDuringBuild` and `RunAnalyzersDuringLiveAnalysis`. | `true` |
 
 Examples:
 
@@ -108,19 +108,6 @@ Examples:
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-## Source analysis
-
-You can't turn off [source analysis](roslyn-analyzers-overview.md) in Visual Studio 2017. If you want to clear analyzer errors from the **Error List**, you can suppress all the current violations by selecting **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar. For more information, see [Suppress violations](use-roslyn-analyzers.md#suppress-violations).
-
-Starting in Visual Studio 2019 version 16.3, you can turn off source code analysis or execute it on demand. Consider upgrading to Visual Studio 2019.
-
-## Legacy analysis
-
-You can disable legacy, build-time analysis on the **Code Analysis** properties page. For more information, see [How to: Enable and disable legacy code analysis](how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md).
-
-::: moniker-end
 
 ## See also
 

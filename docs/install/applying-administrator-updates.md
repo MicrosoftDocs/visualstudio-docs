@@ -44,13 +44,6 @@ There are three types of administrator updates to Visual Studio:
 
 The title of each administrator update describes both the applicable version range and the resultant version of the update. For example,
 
-::: moniker range="vs-2017"
-
-* **Visual Studio 2017 version 15.9.0 to 15.9.35 update** classified as a “Security Update” will apply to any Visual Studio 2017 edition on the client between versions 15.9.0 through 15.9.35, and it will update those client editions to 15.9.35.
-* **Visual Studio 2017 version 15.0.0 to 15.9.0 update** classified as a “Feature Pack” will apply to Visual Studio 2017 editions licensed for enterprise use on the client between the entire product version range of 15.0.0 through 15.9.0, and it will update those client editions to 15.9.0. Applying this feature pack basically enables the clients to then receive security updates. 
-* **Visual Studio 2017 version 15.9.0 to 15.9.37 update** classified as simply “Updates” will apply to Visual Studio 2017 editions licensed for enterprise use on the client between versions 15.9.0 through 15.9.37, and it will update those client editions to 15.9.37.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

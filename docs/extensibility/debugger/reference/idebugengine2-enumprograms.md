@@ -25,17 +25,19 @@ Retrieves a list of all programs being debugged by a debug engine (DE).
 
 ## Syntax
 
-```cpp
-HRESULT EnumPrograms( 
-   IEnumDebugPrograms2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumPrograms( 
    out IEnumDebugPrograms2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumPrograms( 
+   IEnumDebugPrograms2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

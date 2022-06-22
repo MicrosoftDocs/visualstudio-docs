@@ -25,17 +25,19 @@ Creates a copy of the managed object in the address space of the debug engine.
 
 ## Syntax
 
-```cpp
-HRESULT GetManagedDebugObject( 
-   IDebugManagedObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetManagedDebugObject(
    out IDebugManagedObject ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetManagedDebugObject( 
+   IDebugManagedObject** ppObject
+);
+```
+---
 
 ## Parameters
 `ppObject`\

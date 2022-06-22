@@ -25,6 +25,19 @@ Specifies the event attributes.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_EVENTATTRIBUTES {
+    EVENT_ASYNCHRONOUS          = 0x0000,
+    EVENT_SYNCHRONOUS           = 0x0001,
+    EVENT_STOPPING              = 0x0002,
+    EVENT_ASYNC_STOP            = 0x0002,
+    EVENT_SYNC_STOP             = 0x0003,
+    EVENT_IMMEDIATE             = 0x0004,
+    EVENT_EXPRESSION_EVALUATION = 0x0008
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_EVENTATTRIBUTES {
     EVENT_ASYNCHRONOUS          = 0x0000,
@@ -37,18 +50,7 @@ enum enum_EVENTATTRIBUTES {
 };
 typedef DWORD EVENTATTRIBUTES;
 ```
-
-```csharp
-public enum enum_EVENTATTRIBUTES {
-    EVENT_ASYNCHRONOUS          = 0x0000,
-    EVENT_SYNCHRONOUS           = 0x0001,
-    EVENT_STOPPING              = 0x0002,
-    EVENT_ASYNC_STOP            = 0x0002,
-    EVENT_SYNC_STOP             = 0x0003,
-    EVENT_IMMEDIATE             = 0x0004,
-    EVENT_EXPRESSION_EVALUATION = 0x0008
-};
-```
+---
 
 ## Fields
 `EVENT_ASYNCHRONOUS`\

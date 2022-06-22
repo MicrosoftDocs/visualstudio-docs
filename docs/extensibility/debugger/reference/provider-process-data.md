@@ -25,14 +25,7 @@ This structure provides information about processes running on a machine.
 
 ## Syntax
 
-```cpp
-typedef struct tagPROVIDER_PROCESS_DATA {
-   PROVIDER_FIELDS    Fields;
-   PROGRAM_NODE_ARRAY ProgramNodes;
-   BOOL               fIsDebuggerPresent;
-} PROVIDER_PROCESS_DATA;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct PROVIDER_PROCESS_DATA {
    public uint               Fields;
@@ -40,6 +33,15 @@ public struct PROVIDER_PROCESS_DATA {
    public int                fIsDebuggerPresent;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagPROVIDER_PROCESS_DATA {
+   PROVIDER_FIELDS    Fields;
+   PROGRAM_NODE_ARRAY ProgramNodes;
+   BOOL               fIsDebuggerPresent;
+} PROVIDER_PROCESS_DATA;
+```
+---
 
 ## Members
  `Fields`\

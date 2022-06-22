@@ -2,7 +2,7 @@
 title: "Tutorial: Debug C# code"
 description: Learn features of the Visual Studio debugger and how to start the debugger, step through code, and inspect data in a C# application.
 ms.custom: "debug-experiment, vs-acquisition, get-started"
-ms.date: 09/14/2020
+ms.date: 11/29/2021
 ms.technology: "vs-ide-debug"
 ms.topic: tutorial
 dev_langs:
@@ -46,17 +46,7 @@ You must have Visual Studio 2019 installed and the **.NET Core cross-platform de
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
 
-You must have Visual Studio 2017 installed and the **.NET Core cross-platform development** workload.
-
-::: moniker-end
-
-::: moniker range="vs-2017"
-
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -80,19 +70,6 @@ If you already have Visual Studio but the **.NET desktop development** workload 
 
 First, you'll create a .NET Core console application project. The project type comes with all the template files you'll need, before you've even added anything!
 
-::: moniker range="vs-2017"
-
-1. Open Visual Studio 2017.
-
-1. From the top menu bar, choose **File** > **New** > **Project**.
-
-1. In the **New Project** dialog box in the left pane, expand **C#**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the project *get-started-debugging*.
-
-     If you don't see the **Console App (.NET Core)** project template, choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
-
-     The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

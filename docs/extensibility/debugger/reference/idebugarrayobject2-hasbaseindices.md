@@ -24,17 +24,19 @@ Determines if the array has base indices (lower bounds) defined.
 
 ## Syntax
 
-```cpp
-HRESULT HasBaseIndices (
-   BOOL* pfHasBaseIndices
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int HasBaseIndices (
    out bool pfHasBaseIndices
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT HasBaseIndices (
+   BOOL* pfHasBaseIndices
+);
+```
+---
 
 ## Parameters
 `pfHasBaseIndices`\

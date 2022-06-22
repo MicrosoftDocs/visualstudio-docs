@@ -56,19 +56,7 @@ ms.workload:
 1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
 2. On the **File** menu, point to **New**, and then click **Project**.
-::: moniker range="vs-2017"
-3. In the templates pane, expand **Visual C#** or **Visual Basic**, and then expand **Office/SharePoint**.
 
-4. Under the expanded **Office/SharePoint** node, select the **VSTO Add-ins** node.
-
-5. In the list of project templates, choose an Excel VSTO Workbook project.
-
-6. In the **Name** box, type **FirstWorkbookCustomization**.
-
-7. Click **OK**.
-
-8. Select **Create a new document** from the **Visual Studio Tools for Office Project Wizard**, and click **OK**.
-::: moniker-end
 ::: moniker range=">=vs-2019"
 3. On the **Create a New Project** dialog select the **Excel VSTO Workbook** project.
 
@@ -137,8 +125,12 @@ ms.workload:
 
 2. Replace the `Sheet1_Startup` event handler with the following code. When Sheet1 is opened, this code adds a second line of text to the worksheet.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_ExcelWorkbookTutorial/Sheet1.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_ExcelWorkbookTutorial/Sheet1.vb" id="Snippet1":::
+     ---
 
 ## Test the project
 

@@ -23,17 +23,19 @@ Determines whether the checksum is enabled for this document.
 
 ## Syntax
 
-```cpp
-HRESULT IsChecksumEnabled(
-   BOOL *pfChecksumEnabled
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int IsChecksumEnabled(
    out int pfChecksumEnabled
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsChecksumEnabled(
+   BOOL *pfChecksumEnabled
+);
+```
+---
 
 ## Parameters
 `pfChecksumEnabled`\

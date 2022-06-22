@@ -25,19 +25,21 @@ Creates a copy of a data object specific to the expression evaluator (EE).
 
 ## Syntax
 
-```cpp
-HRESULT CreateReplacementObject(
-   IEEDataStorage*  dataIn,
-   IEEDataStorage** dataOut
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateReplacementObject(
    IEEDataStorage     dataIn,
    out IEEDataStorage dataOut
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateReplacementObject(
+   IEEDataStorage*  dataIn,
+   IEEDataStorage** dataOut
+);
+```
+---
 
 ## Parameters
 `dataIn`\

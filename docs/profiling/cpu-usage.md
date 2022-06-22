@@ -99,9 +99,7 @@ To view the call tree, select the parent node in the report. The **CPU Usage** p
 ::: moniker range="vs-2019"
 ![Call tree structure](../profiling/media/vs-2019/cpu-use-wt-getmaxnumber-call-tree-annotated.png "Call tree structure")
 ::: moniker-end
-::: moniker range="vs-2017"
-![Call tree structure](../profiling/media/cpu-use-wt-getmaxnumber-call-tree-annotated.png "Call tree structure")
-::: moniker-end
+
 
 |Image|Description|
 |-|-|
@@ -144,9 +142,7 @@ To find a function name you're looking for, use the search box. Hover over the s
 ::: moniker range="vs-2019"
 ![Search for nested external code](../profiling/media/vs-2019/cpu-use-wt-show-external-code-too-wide-found.png "Search for nested external code")
 ::: moniker-end
-::: moniker range="vs-2017"
-![Search for nested external code](../profiling/media/cpu-use-wt-show-external-code-too-wide-found.png "Search for nested external code")
-::: moniker-end
+
 
 ### <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU usage call tree
 

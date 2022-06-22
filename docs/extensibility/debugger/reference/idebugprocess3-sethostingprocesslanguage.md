@@ -25,17 +25,19 @@ This method sets the language that the process will be hosted under. This langua
 
 ## Syntax
 
-```cpp
-HRESULT SetHostingProcessLanguage(
-   REFGUID guidLang
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetHostingProcessLanguage(
    ref Guid guidLang
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetHostingProcessLanguage(
+   REFGUID guidLang
+);
+```
+---
 
 ## Parameters
 `guidLang`\

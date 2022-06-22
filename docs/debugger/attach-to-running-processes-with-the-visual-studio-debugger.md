@@ -2,7 +2,7 @@
 title: "Attach to running processes with the debugger"
 description: Discover how to attach the Visual Studio debugger to a running process on a local or remote computer.
 ms.custom: "SEO-VS-2020"
-ms.date: "12/09/2021"
+ms.date: "05/26/2022"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.processes.attach"
@@ -125,12 +125,7 @@ For more complete instructions for debugging ASP.NET applications that have been
      > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4024 is the default port for the Visual Studio 2019 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).
 
      ::: moniker-end
-     ::: moniker range="vs-2017"
 
-     > [!NOTE]
-     > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4022 is the default port for the Visual Studio 2017 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).
-
-     ::: moniker-end
 
    - Select the **Find** button next to the **Connection target** box to open the **Remote Connections** dialog box. The **Remote Connections** dialog box lists all the devices that are on your local subnet or directly attached to your computer. You may need to [open UDP port 3702](../debugger/remote-debugger-port-assignments.md) on the server to discover remote devices. Select the computer or device you want, and then click **Select**.
 
@@ -175,7 +170,7 @@ If neither of those workarounds is possible, a third option is to attach to the 
 ::: moniker range=">= vs-2022"
 ## Attach to a .NET Core process running on Azure App Service (Windows)
 
-If you're publishing to Azure App Service (Windows), see [Debugging Azure App Services](/azure/vs-azure-tools-debug-cloud-services-virtual-machines#debugging-azure-app-services) for instructions.
+If you're publishing to Azure App Service (Windows), see [Remote debug ASP.NET Core on Azure](/learn/modules/dotnet-debug-visual-studio-azure-web-apps/) or [Debugging Azure App Services](/azure/vs-azure-tools-debug-cloud-services-virtual-machines#debugging-azure-app-services) for instructions.
 ::: moniker-end
 
 ::: moniker range="vs-2019"

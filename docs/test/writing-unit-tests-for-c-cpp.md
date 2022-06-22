@@ -79,19 +79,6 @@ To add a new test project to an existing solution,
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-### Create a test project in Visual Studio 2017
-
-Define and run tests inside one or more test projects. You create the projects in the same solution as the code you want to test.
-To add a new test project,
-
-1. Right-click on the Solution node in **Solution Explorer** and choose **Add** > **New Project**.
-1. In the left pane, choose **Visual C++ Test**. Then, choose one of the project types from the center pane. The following illustration shows the test projects that are available when the **Desktop Development with C++** workload is installed:
-
-   ![C++ Test Projects](media/cpp-new-test-project.png)
-
-::: moniker-end
 
 ### Create references to other projects in the solution
 

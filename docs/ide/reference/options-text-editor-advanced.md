@@ -1,7 +1,7 @@
 ---
 title: Options, Text Editor, Advanced
 description: Learn how to use the Advanced dialog box to change global settings for the Visual Studio text editor.
-ms.date: 03/29/2022
+ms.date: 06/17/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Advanced
@@ -41,7 +41,7 @@ You can use the Advanced dialog box to change global settings for the Visual Stu
 The **Whole line** option is selected by default. The options you can choose from allow you to customize the highlighting and outlining that's displayed in the Difference viewer when you add, remove, or modify lines of text. Specifically, the options provide the following viewing experiences:
 
 - **Whole line**: Line differences should be displayed so that they take up the entire width of the viewport.
-- **Code count**: Line differences should be displayed only to the last character on each line.
+- **Code contour**: Line differences should be displayed only to the last character on each line.
 - **Block outline**: Line and word differences are shown as outlined rectangles.
 - **Mixed outline**: Line differences are shown as outlined rectangles and word differences are shown as colored rectangles.
 
@@ -76,14 +76,14 @@ By default, [CodeLens](../find-code-changes-and-other-history-with-codelens.md) 
 
 ## Use box selection
 
-This option is unselected by default, which provides for the following [multi-caret selection](../finding-and-replacing-text.md?view=vs-2022&preserve-view=true#multi-caret-selection) behavior that's new in Visual Studio 2022:
+Select this option to disable the new [multi-caret selection](../finding-and-replacing-text.md?view=vs-2022&preserve-view=true#multi-caret-selection) behavior in Visual Studio 2022, which includes the following:
 
 - Adapts "block selection" similarly as does the multi-caret functionality in [VS Code](https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor).
 - Supports copying and pasting a different section of text with each caret, instead of just a single block-shaped section of text.
 - Moves each caret when you press the arrow keys, and doesn't dismiss the block selection.
 
 > [!NOTE]
-> When selected, the option applies the box selection behavior that was present in Visual Studio 2019 and earlier versions. Specifically, the option enables you to select a rectangular section of items when you press **Alt** and then drag your mouse to select text (or press the **Shift**+**Alt**+**Left**/**Up**/**Right**/**Down** to select text). This option is limited in that when you press an arrow key, Visual Studio dismisses the box selection and returns to a single caret.
+> When selected, the option applies the box selection behavior that was available in Visual Studio 2019 and earlier versions. Specifically, the option enables you to select a rectangular section of items when you press **Alt** and then drag your mouse to select text (or press the **Shift**+**Alt**+**Left**/**Up**/**Right**/**Down** to select text). This option is limited in that when you press an arrow key, Visual Studio dismisses the box selection and returns to a single caret.
 
 ## Use adaptive formatting
 

@@ -30,10 +30,6 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-::: moniker range="vs-2017"
-You need Visual Studio to complete this tutorial.
-Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) for a free version.
-::: moniker-end
 ::: moniker range="vs-2019"
 You need Visual Studio to complete this tutorial.
 Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
@@ -48,23 +44,6 @@ Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/down
 Create a Visual Basic application project.
 The project type comes with all the template files you'll need, before you've even added anything.
 
-::: moniker range="vs-2017"
-1. Open Visual Studio 2017.
-
-1. From the top menu, select **File** > **New** > **Project**.
-
-1. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then select **Windows Desktop**.
-   In the middle pane, select **Windows Forms App (.NET Framework)**. Then name the file `HelloWorldApp`.
-
-   ![Screenshot shows the .NET Core workload selected in the Visual Studio Installer.](../ide/media/install-dot-net-desktop-env.png)
-
-   > [!NOTE]
-   > If you don't see the **Windows Forms App (.NET Framework)** project template, cancel the **New Project** dialog box.
-   > Select **Tools** > **Get Tools and Features**.
-   > The Visual Studio Installer launches.
-   > Select the **.NET desktop development** workload, then select **Modify**.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 1. Open Visual Studio.

@@ -91,5 +91,5 @@ UpdateAlreadyRunning = 1300 - (Signals that the update didn't run because anothe
 ## See also
 
 - [Help Viewer administrator guide](../help-viewer/administrator-guide.md)
-- [Help Content Manager overrides](../help-viewer/behavior-overrides.md)
+- [Override Help Viewer defaults](../help-viewer/behavior-overrides.md)
 - [Microsoft Help Viewer](../help-viewer/overview.md)

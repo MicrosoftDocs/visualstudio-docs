@@ -25,17 +25,19 @@ Gets the scope of the disassembly stream.
 
 ## Syntax
 
-```cpp
-HRESULT GetScope( 
-   DISASSEMBLY_STREAM_SCOPE* pdwScope
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetScope( 
    out enum_ DISASSEMBLY_STREAM_SCOPE pdwScope
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetScope( 
+   DISASSEMBLY_STREAM_SCOPE* pdwScope
+);
+```
+---
 
 ## Parameters
 `pdwScope`\

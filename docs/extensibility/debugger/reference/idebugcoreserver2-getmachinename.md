@@ -25,17 +25,19 @@ Gets the name of the machine the core server is running on.
 
 ## Syntax
 
-```cpp
-HRESULT GetName( 
-   BSTR* pbstrName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetName( 
    out string pbstrName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetName( 
+   BSTR* pbstrName
+);
+```
+---
 
 ## Parameters
 `pbstrName`\

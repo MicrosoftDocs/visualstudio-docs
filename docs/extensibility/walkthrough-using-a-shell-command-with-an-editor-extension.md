@@ -268,8 +268,12 @@ From a VSPackage, you can add features such as menu commands to the editor. This
 
 3. Declare a class that implements <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener>, and export it with a <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> of "text" and a <xref:Microsoft.VisualStudio.Text.Editor.TextViewRoleAttribute> of <xref:Microsoft.VisualStudio.Text.Editor.PredefinedTextViewRoles.Document>. The content type attribute specifies the kind of content to which the component applies. The text type is the base type for all non-binary file types. Therefore, almost every text view that is created will be of this type. The text view role attribute specifies the kind of text view to which the component applies. Document text view roles generally show text that is composed of lines and is stored in a file.
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VSSDK/vssdkmenucommandtest/vb/commentadornmenttest/connector.vb" id="Snippet11":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VSSDK/vssdkmenucommandtest/cs/commentadornmenttest/connector.cs" id="Snippet11":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VSSDK/vssdkmenucommandtest/vb/commentadornmenttest/connector.vb" id="Snippet11":::
+     ---
 
 4. Implement the <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener.TextViewCreated%2A> method so that it calls the static `Create()` event of the `CommentAdornmentManager`.
 
@@ -386,8 +390,12 @@ From a VSPackage, you can add features such as menu commands to the editor. This
 
 8. Add the `OnBufferChanged` event handler.
 
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VSSDK/vssdkmenucommandtest/cs/commentadornmenttest/commentadornmentprovider.cs" id="Snippet21":::
+
+    ### [VB](#tab/vb)
     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VSSDK/vssdkmenucommandtest/vb/commentadornmenttest/commentadornmentprovider.vb" id="Snippet21":::
+    ---
 
 9. Add a declaration for a `CommentsChanged` event.
 
@@ -597,8 +605,12 @@ From a VSPackage, you can add features such as menu commands to the editor. This
 
 10. Add the private method that draws the comment.
 
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VSSDK/vssdkmenucommandtest/cs/commentadornmenttest/commentadornmentmanager.cs" id="Snippet35":::
+
+    ### [VB](#tab/vb)
     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VSSDK/vssdkmenucommandtest/vb/commentadornmenttest/commentadornmentmanager.vb" id="Snippet35":::
+    ---
 
 ## Use the menu command to add the comment adornment
  You can use the menu command to create a comment adornment by implementing the `MenuItemCallback` method of the VSPackage.

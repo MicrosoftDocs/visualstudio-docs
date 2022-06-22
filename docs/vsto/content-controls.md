@@ -176,13 +176,16 @@ ms.workload:
 
  To bind a content control to an element in a custom XML part, use the **XMLMapping** property of the control. The following code example demonstrates how to bind a <xref:Microsoft.Office.Tools.Word.PlainTextContentControl> to the `Price` element under the `Product` node in a custom XML part that has already been added to the document.
 
-```vb
-plainTextContentControl1.XMLMapping.SetMapping("/Product/Price")
-```
-
+### [C#](#tab/csharp)
 ```csharp
 plainTextContentControl1.XMLMapping.SetMapping("/Product/Price", String.Empty, null);
 ```
+
+### [VB](#tab/vb)
+```vb
+plainTextContentControl1.XMLMapping.SetMapping("/Product/Price")
+```
+---
 
  For a walkthrough that demonstrates how to bind content controls to custom XML parts in more detail, see [Walkthrough: Bind content controls to custom XML parts](../vsto/walkthrough-binding-content-controls-to-custom-xml-parts.md).
 
@@ -230,8 +233,12 @@ plainTextContentControl1.XMLMapping.SetMapping("/Product/Price", String.Empty, n
 ### <a name="checkbox"></a> Check box content controls in Word projects
  Word 2010 introduced a new type of content control that represents a check box. However, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] does not provide a corresponding CheckBoxContentControl type for you to use in Office projects. To create a check box content control in a [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or Word 2010 project, use the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddContentControl%2A> method to create a <xref:Microsoft.Office.Tools.Word.ContentControl> object, and pass the <xref:Microsoft.Office.Interop.Word.WdContentControlType.wdContentControlCheckBox> value to the method to specify a check box content control. The following code example demonstrates how to do this.
 
- :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_contentcontrolreference/checkbox.vb" id="Snippet800":::
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_wordcontentcontrolreference/checkbox.cs" id="Snippet800":::
+
+ ### [VB](#tab/vb)
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_contentcontrolreference/checkbox.vb" id="Snippet800":::
+ ---
 
 ## See also
 - [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)

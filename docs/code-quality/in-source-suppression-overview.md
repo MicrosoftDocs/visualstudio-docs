@@ -42,9 +42,6 @@ You can suppress violations in code using a preprocessor directive, the [#pragma
 
   If you choose **in Source**, you see a preview of the preprocessor directive that will be added to your code.
 
-  ::: moniker range="vs-2017"
-  :::image type="content" source="media/suppress-diagnostic-from-editor.png" alt-text="Suppress diagnostic from quick actions menu":::
-  ::: moniker-end
   ::: moniker range=">=vs-2019"
   :::image type="content" source="media/vs-2019/suppress-diagnostic-from-editor.png" alt-text="Suppress diagnostic from quick actions menu":::
 
@@ -83,10 +80,7 @@ The [global suppression file](#global-level-suppressions) uses the [SuppressMess
 - From the **Analyze** menu, select **Analyze** > **Build and Suppress Active Issues** on the menu bar to suppress all current violations. Suppressing all current violations is sometimes referred to as "baselining".
 
 ::: moniker-end
-::: moniker range="vs-2017"
 
-- From the **Analyze** menu, select **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar to suppress all current violations. Suppressing all current violations is sometimes referred to as "baselining".
-::: moniker-end
 
 ## Suppress violations using project settings
 
@@ -107,14 +101,6 @@ In C++/CLI, use the macros CA\_SUPPRESS\_MESSAGE or CA\_GLOBAL\_SUPPRESS_MESSAGE
 > [!NOTE]
 > You should not use in-source suppressions on release builds, to prevent shipping the in-source suppression metadata accidentally.
 
-::: moniker range="vs-2017"
-
-> [!NOTE]
-> If you migrate a project to Visual Studio 2017, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings, you can suppress all of them by selecting **Analyze** > **Run Code Analysis and Suppress Active Issues**.
->
-> ![Run code analysis and suppress issues in Visual Studio](media/suppress-active-issues.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -129,17 +115,17 @@ When you select **Suppress** from the context or right-click menu of a code anal
 
 The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute has the following format:
 
-```vb
-<Scope:SuppressMessage("Rule Category", "Rule Id", Justification = "Justification", MessageId = "MessageId", Scope = "Scope", Target = "Target")>
-```
 
+### [C#](#tab/csharp)
 ```csharp
 [Scope:SuppressMessage("Rule Category", "Rule Id", Justification = "Justification", MessageId = "MessageId", Scope = "Scope", Target = "Target")]
 ```
 
-```cpp
-CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification", MessageId = "MessageId", Scope = "Scope", Target = "Target")
+### [VB](#tab/vb)
+```vb
+<Scope:SuppressMessage("Rule Category", "Rule Id", Justification = "Justification", MessageId = "MessageId", Scope = "Scope", Target = "Target")>
 ```
+---
 
 The properties of the attribute include:
 
@@ -191,22 +177,7 @@ In some cases, you might want to suppress a particular instance of the violation
 
 To suppress a particular symbol violation of a rule, specify the symbol name for the `MessageId` property of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute. The following example shows code with two violations of [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500.md)&mdash;one for the `name` variable and one for the `age` variable. Only the violation for the `age` symbol is suppressed.
 
-```vb
-Public Class Animal
-    Dim age As Integer
-    Dim name As String
-
-    <CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1500:VariableNamesShouldNotMatchFieldNames", MessageId:="age")>
-    Sub PrintInfo()
-        Dim age As Integer = 5
-        Dim name As String = "Charlie"
-
-        Console.WriteLine("Age {0}, Name {1}", age, name)
-    End Sub
-
-End Class
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public class Animal
 {
@@ -223,6 +194,24 @@ public class Animal
     }
 }
 ```
+
+### [VB](#tab/vb)
+```vb
+Public Class Animal
+    Dim age As Integer
+    Dim name As String
+
+    <CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1500:VariableNamesShouldNotMatchFieldNames", MessageId:="age")>
+    Sub PrintInfo()
+        Dim age As Integer = 5
+        Dim name As String = "Charlie"
+
+        Console.WriteLine("Age {0}, Name {1}", age, name)
+    End Sub
+
+End Class
+```
+---
 
 ### Global-level suppressions
 

@@ -86,13 +86,6 @@ After that line, insert the Text Templating import:
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-```xml
-<Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v15.0\TextTemplating\Microsoft.TextTemplating.targets" />
-```
-
-::: moniker-end
 
 ## Transform templates in a build
 
@@ -250,13 +243,16 @@ The project folder is: <#= ProjectFolder #>
 
 In a directive processor, you can call [ITextTemplatingEngineHost.ResolveParameterValue](/previous-versions/visualstudio/visual-studio-2012/bb126369\(v\=vs.110\)):
 
+### [C#](#tab/csharp)
 ```csharp
 string value = Host.ResolveParameterValue("-", "-", "parameterName");
 ```
 
+### [VB](#tab/vb)
 ```vb
 Dim value = Host.ResolveParameterValue("-", "-", "parameterName")
 ```
+---
 
 > [!NOTE]
 > `ResolveParameterValue` gets data from `T4ParameterValues` only when you use MSBuild. When you transform the template using Visual Studio, the parameters have default values.
@@ -308,11 +304,6 @@ If you update an included file or another file read by the template, Visual Stud
 
 ## See also
 
-::: moniker range="vs-2017"
-
-- There's good guidance in the T4 MSbuild template at `%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\msbuild\Microsoft\VisualStudio\v15.0\TextTemplating\Microsoft.TextTemplating.targets`
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

@@ -25,6 +25,18 @@ Specifies the flags for disassembly.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_DISASSEMBLY_FLAGS {
+    DF_DOCUMENTCHANGE     = 0x00000001,
+    DF_DISABLED           = 0x00000002,
+    DF_INSTRUCTION_ACTIVE = 0x00000004,
+    DF_DATA               = 0x00000008,
+    DF_HASSOURCE          = 0x00000010,
+    DF_DOCUMENT_CHECKSUM  = 0x00000020
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_DISASSEMBLY_FLAGS {
     DF_DOCUMENTCHANGE     = 0x00000001,
@@ -36,17 +48,7 @@ enum enum_DISASSEMBLY_FLAGS {
 };
 typedef DWORD DISASSEMBLY_FLAGS;
 ```
-
-```csharp
-public enum enum_DISASSEMBLY_FLAGS {
-    DF_DOCUMENTCHANGE     = 0x00000001,
-    DF_DISABLED           = 0x00000002,
-    DF_INSTRUCTION_ACTIVE = 0x00000004,
-    DF_DATA               = 0x00000008,
-    DF_HASSOURCE          = 0x00000010,
-    DF_DOCUMENT_CHECKSUM  = 0x00000020
-};
-```
+---
 
 ## Fields
 `DF_DOCUMENTCHANGE`\

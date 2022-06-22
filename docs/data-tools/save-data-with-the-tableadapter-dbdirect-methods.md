@@ -121,8 +121,12 @@ A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:Syste
 
 2. Replace the `InsertButton_Click` event handler with the following code:
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form1.vb" id="Snippet1":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form1.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form1.vb" id="Snippet1":::
+     ---
 
      > [!NOTE]
      > Depending on your Visual Studio version and the project templates you used, the variable names like `regionTableAdapter` or `regionTableAdapter1` used in this code might or might not have a trailing 1 in the generated code. Make any corrections in your code to ensure that the correct name is used everywhere. Visual Studio shows a red squiggle where the name is incorrect.
@@ -133,8 +137,12 @@ A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:Syste
 
 2. Replace the `UpdateButton_Click` event handler with the following code:
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form1.vb" id="Snippet2":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form1.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form1.vb" id="Snippet2":::
+     ---
 
 ### To add code to delete records from the database
 
@@ -142,8 +150,12 @@ A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:Syste
 
 2. Replace the `DeleteButton_Click` event handler with the following code:
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form1.vb" id="Snippet3":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form1.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form1.vb" id="Snippet3":::
+     ---
 
 ## Run the application
 

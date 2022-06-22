@@ -40,9 +40,7 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
     ::: moniker range=">=vs-2019"
     Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **visual basic**, choose **Templates**, then choose **Create a new Class Library (.NET Framework)**. In the dialog box that appears, choose **Create**.
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual Basic**, choose **.NET Standard**, and then in the middle pane choose **Class Library (.NET Standard)**.
-    ::: moniker-end
+
 
 2. Type an appropriate name for the class library, such as `MyFirstVisualizer`, and then click **Create** or **OK**.
 
@@ -174,9 +172,7 @@ In the debugger-side code, you specify the type to visualize (the object source)
     ::: moniker range=">=vs-2019"
     In the Search box, type **visual basic**, choose **Templates**, then choose **Create a new Console App (.NET Framework)**. In the dialog box that appears, choose **Create**.
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
-    ::: moniker-end
+
 
 2. Type an appropriate name for the class library, such as `MyTestConsole`, and then click **Create** or **OK**.
 

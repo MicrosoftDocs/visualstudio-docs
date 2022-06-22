@@ -49,11 +49,6 @@ The quickest method of creating an extension is to use the project template. Thi
 
     [Defining a Gesture Handler](#gesture)
 
-::: moniker range="vs-2017"
-
-5. To install the extension in the main instance of Visual Studio, or on another computer, find the *.vsix* file in the *bin* directory. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, choose **Extensions and Updates** on the **Tools** menu.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

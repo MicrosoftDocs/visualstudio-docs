@@ -26,17 +26,19 @@ Gets the breakpoint request that was used to create this pending breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT GetBreakpointRequest( 
-   IDebugBreakpointRequest2** ppBPRequest
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetBreakpointRequest( 
    out IDebugBreakpointRequest2 ppBPRequest
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetBreakpointRequest( 
+   IDebugBreakpointRequest2** ppBPRequest
+);
+```
+---
 
 ## Parameters
 `ppBPRequest`\

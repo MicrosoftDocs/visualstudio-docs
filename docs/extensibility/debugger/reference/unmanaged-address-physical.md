@@ -25,17 +25,19 @@ This structure represents a physical address.
 
 ## Syntax
 
-```cpp
-typedef struct _tagUNMANAGED_ADDRESS_PHYSICAL {
-   ULONGLONG offset;
-} UNMANAGED_ADDRESS_PHYSICAL;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct UNMANAGED_ADDRESS_PHYSICAL {
    public ulong offset;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagUNMANAGED_ADDRESS_PHYSICAL {
+   ULONGLONG offset;
+} UNMANAGED_ADDRESS_PHYSICAL;
+```
+---
 
 ## Members
  `offset`\

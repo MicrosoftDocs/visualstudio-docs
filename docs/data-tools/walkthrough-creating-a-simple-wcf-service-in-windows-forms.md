@@ -36,17 +36,6 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
 1. Open Visual Studio.
 
-::: moniker range="vs-2017"
-
-2. On the **File** menu, choose **New** > **Project**.
-
-3. In the **New Project** dialog box, expand the **Visual Basic** or **Visual C#** node and choose **WCF**, followed by **WCF Service Library**.
-
-4. Click **OK** to create the project.
-
-   ![The WCF Service Library project](../data-tools/media/wcf1.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -72,13 +61,21 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
    Find the following line:
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/iservice1_2.cs" id="Snippet4":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/iservice1_2.vb" id="Snippet4":::
+   ---
 
    Change the type for the `value` parameter to string:
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/iservice1.cs" id="Snippet1":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/iservice1.vb" id="Snippet1":::
+   ---
 
    In the above code, note the `OperationContract` attribute. This attribute is required for any method exposed by the service.
 
@@ -88,13 +85,21 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
    Find the following line:
 
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/service1_2.vb" id="Snippet5":::
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/service1_2.cs" id="Snippet5":::
+
+   ### [VB](#tab/vb)
+   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/service1_2.vb" id="Snippet5":::
+   ---
 
    Change the type for the `value` parameter to string:
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/service1.cs" id="Snippet2":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/service1.vb" id="Snippet2":::
+   ---
 
 ## Test the service
 
@@ -144,8 +149,12 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
 3. Double-click the `Button`, and add the following code in the `Click` event handler:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/form1.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/form1.vb" id="Snippet3":::
+     ---
 
 4. In **Solution Explorer**, right-click **WindowsApplication1** and click **Set as StartUp Project**.
 

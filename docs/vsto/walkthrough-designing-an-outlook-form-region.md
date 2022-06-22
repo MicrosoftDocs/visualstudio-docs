@@ -123,8 +123,12 @@ ms.workload:
 
 3. Add the following code to the `MapItFactory_FormRegionInitializing` event handler. This event handler is called when the user opens a contact item. The following code determines whether the contact item contains an address. If the contact item does not contain an address, this code sets the <xref:System.ComponentModel.CancelEventArgs.Cancel%2A> property of the <xref:Microsoft.Office.Tools.Outlook.FormRegionInitializingEventArgs> class to **true** and the form region is not displayed. Otherwise, the VSTO Add-in raises the <xref:Microsoft.Office.Tools.Outlook.FormRegionControl.FormRegionShowing> event and displays the form region.
 
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Separate_O12/MapIt.cs" id="Snippet1":::
+
+    ### [VB](#tab/vb)
     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Separate_O12/MapIt.vb" id="Snippet1":::
+    ---
 
 4. Add the following code to the <xref:Microsoft.Office.Tools.Outlook.FormRegionControl.FormRegionShowing> event handler. This code performs the following tasks:
 
@@ -134,8 +138,12 @@ ms.workload:
 
      The Local Search Web site appears in the Map It form region and presents each address in the scratch pad.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Separate_O12/MapIt.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Separate_O12/MapIt.vb" id="Snippet2":::
+     ---
 
 ## Test the Outlook form region
  When you run the project, Visual Studio opens Outlook. Open a contact item to view the Map It form region. The Map It form region appears as a page in the form of any contact item that contains an address.
