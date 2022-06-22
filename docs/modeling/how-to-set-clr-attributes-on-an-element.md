@@ -4,7 +4,7 @@ description: Learn how to add any attribute that inherits from System.Attribute.
 ms.custom:
 - SEO-VS-2020
 - kr2b-contr-experiment
-ms.date: 11/04/2016
+ms.date: 06/24/2022
 ms.topic: how-to
 f1_keywords:
   - "vs.dsltools.EditAttributesDialog"

@@ -4,7 +4,7 @@ description: Learn how to intercept a click on a shape or an icon decorator, and
 ms.custom: 
 - SEO-VS-2020
 - kr2b-contr-experiment
-ms.date: 11/04/2016
+ms.date: 06/24/2022
 ms.topic: how-to
 helpviewer_keywords:
 - Domain-Specific Language, programming domain models

@@ -4,7 +4,7 @@ description: Learn how you can control the visibility of an icon or decorator de
 ms.custom:
 - SEO-VS-2020
 - kr2b-contr-experiment
-ms.date: 11/04/2016
+ms.date: 06/24/2022
 ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
