@@ -1,9 +1,9 @@
 ---
 title: Learn about Solution Explorer
 description: Learn how you can use the Solution Explorer tool window in Visual Studio to create & manage your files, projects, and solutions.
-ms.date: 06/22/2022
+ms.date: 06/24/2022
 ms.topic: conceptual
-ms.custom: contperf-fy22q1
+ms.custom: contperf-fy22q4
 helpviewer_keywords:
 - solution explorer [Visual Studio]
 author: TerryGLee
@@ -17,7 +17,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can use the Solution Explorer tool window to create & manage your solutions and projects and to view & interact with your code. In this article, we'll cover how to open Solution Explorer. We'll also describe the user interface in detail.
+You can use Solution Explorer to create & manage your solutions and projects and to view & interact with your code. In this article, we'll cover how to open Solution Explorer. Then, we'll also describe its user interface in detail.
 
 ## Open Solution Explorer
 
@@ -25,25 +25,22 @@ By default, the Solution Explorer tool window appears as a pane in the upper-rig
 
 ## Tool window
 
-To start, let's take a look at the Solution Explorer tool window in the [Visual Studio IDE](../get-started/visual-studio-ide.md), with an open C# console solution that has two projects.
+Let's take a look at the Solution Explorer tool window and its UI (user interface). We'll start with an annotated screenshot of an open C# console solution that has two projects.
 
 [![An annotated screenshot of the Solution Explorer tool window in Visual Studio.](media/solution-explorer-tool-window.png)](media/solution-explorer-tool-window.png#lightbox)
 
-The tool window contains the following UI (user interface) elements.
+The following table is a text-equivalent of the annotated screenshot, but with a few handy links you can use to learn more.
 
 |UI element  |Action  |
 |----------------------|---------|
-|Menu bar | Control how your files appear |
-|Search bar | Search for specific files and file types |
-|Main window | View and manage your files, projects, & solutions |
-|[Solution node](#solution-node-context-menu-options) | Manage your solution(s) |
-|[Project node](#project-node-context-menu-options) | Manage your project(s) |
-|Dependencies node | Manage your solution & project dependencies |
-|Program node |  View, edit, and manage your program or application (app) |
-|[Git Changes tab](../version-control/git-with-visual-studio.md) |  Use Git & GitHub within Visual Studio to collaborate on projects with your team |
-
-> [!TIP]
->
+|**Menu** bar | Control how your files appear |
+|**Search** bar | Search for specific files and file types |
+|**Main** window | View and manage your files, projects, & solutions |
+|[**Solution** node](#solution-node-context-menu-options) | Manage your solution(s) |
+|[**Project** node](#project-node-context-menu-options) | Manage your project(s) |
+|**Dependencies** node | Manage your solution & project dependencies |
+|**Program** node |  View, edit, and manage your program or application (app) |
+|[**Git Changes** tab](../version-control/git-with-visual-studio.md) |  Use Git & GitHub within Visual Studio to collaborate on projects with your team |
 
 ## Menu bar
 
@@ -53,17 +50,19 @@ To continue, let's take a closer look at the Solution Explorer menu bar.
 
 The menu bar contains the following UI elements, from left to right:
 
-- **Back** button, to toggle between search results
-- **Forward** button, to toggle between search results
-- **Home** button, to return to the default view
-- **Switch Views** button, to switch between solutions and available views
-- **Pending Changes Filter** button & drop-down menu, to view open files or files with pending changes
-- **Sync with Active Document** button, to locate a file from the code editor
-- **Refresh** button, which appears only when you select a dependency, such as a function or a package
-- **Collapse All** button, to collapse the file view in the main window
-- **Show All Files** button, to view all files, including [unloaded projects](filtered-solutions.md#toggle-unloaded-project-visibility)
-- **Properties** button, to view and change settings for specific files and components
-- **Preview Selected Items** button, to view a selected file or component in the code editor
+|UI element  |Action |
+|---------|---------|
+|**Back** button | Toggle between search results |
+|**Forward** button | Toggle between search results |
+|**Home** button |  Return to the default view |
+|**Switch Views** button |  Switch between solutions and available views |
+|**Pending Changes Filter** button & drop-down menu |  View open files or files with pending changes |
+|**Sync with Active Document** button | Locate a file from the code editor |
+|**Refresh** button | Appears only when you select a dependency, such as a function or a package |
+|**Collapse All** button | Collapse the file view in the main window |
+|**Show All Files** button | View all files, including [unloaded projects](filtered-solutions.md#toggle-unloaded-project-visibility) |
+|**Properties** button | View and change settings for specific files and components |
+|**Preview Selected Items** button |  View a selected file or component in the code editor |
 
 ## Context menu
 
