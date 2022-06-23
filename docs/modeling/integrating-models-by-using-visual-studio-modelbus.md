@@ -22,7 +22,7 @@ Visual Studio ModelBus provides a method for creating links between models and f
 
 > [!WARNING]
 >
-> Visual Studio ModelBus, described in this article, is no longer available for download. However, these instructions still work for those users who already have this extension installed.
+> The Visual Studio ModelBus Extension, described in this article, is no longer available for download. However, these instructions still work for those users who already have this extension installed.
 
 ModelBus lets you create a unique reference to a model or to a specific element inside a model. This reference can be stored outside the model, for example, in an element in another model. When, on a later occasion, a tool wants to obtain access to the element, the ModelBus infrastructure loads the appropriate model and return the element. If you want, you can display the model to the user. If the file can't be accessed in its previous location, ModelBus asks the user to find it. If the user finds the file, ModelBus updates all the references to that file.
 
@@ -57,7 +57,7 @@ Before you can create ModelBus references to a model or its elements, define a M
 
       `[Microsoft.VisualStudio.Modeling.Integration.HostSpecific(HostName)]`
 
-   3. In the **References** of `ModelBusAdapter` project, add `Microsoft.VisualStudio.TextTemplating.Modeling.11.0`.
+   3. In the **References** of `ModelBusAdapter` project, add a NuGet PackageReference to `Microsoft.VisualStudio.TextTemplating.Modeling`.
 
       If you want to access the DSL both from text templates and from other code, you need two adapters, one modified and one unmodified.
 
@@ -108,8 +108,8 @@ To enable a DSL to use references to another DSL, you should first make it a *co
 
 4. Add the following .NET assemblies to the project references of the consuming DSL project.
 
-    - *Microsoft.VisualStudio.Modeling.Sdk.Integration.11.0.dll*
-    - *Microsoft.VisualStudio.Modeling.Sdk.Integration.Shell.11.0.dll*
+    - *Microsoft.VisualStudio.Modeling.Sdk.Integration.dll*
+    - *Microsoft.VisualStudio.Modeling.Sdk.Integration.Shell.dll*
 
 ### To store a ModelBusReference in a domain property
 
@@ -178,8 +178,8 @@ For example, suppose that you want to store ModelBus references in elements of a
 
 - *Fabrikam.FamilyTree.Dsl.dll*. The exposed DSL.
 - *Fabrikam.FamilyTree.ModelBusAdapters.dll* The ModelBus adapter of the exposed DSL.
-- *Microsoft.VisualStudio.Modeling.Sdk.Integration.11.0*
-- *Microsoft.VisualStudio.Modeling.Sdk.Integration.Shell.11.0*
+- *Microsoft.VisualStudio.Modeling.Sdk.Integration*
+- *Microsoft.VisualStudio.Modeling.Sdk.Integration.Shell*
 
   These assemblies can be found in the `ModelBusAdapters` project of the exposed DSL, under *bin\\**.
 
@@ -472,8 +472,8 @@ public void ValidateModelBusReferences(ValidationContext context)
                  ConvertToInvariantString(reference)),
          "Reference",
          element);
-      });
-}}
+    });
+}
 private const string INVALID_REF_FORMAT =
     "The '{0}' domain property of ths ReferenceState instance "
   + "named '{1}' contains reference value '{2}' which is invalid";
@@ -487,7 +487,7 @@ The ModelBus Extension makes the following changes in your DSL solution.
 
 When you right-click the DSL Definition diagram, select **Enable Modelbus**, and then select **Enable this DSL to Consume the ModelBus**:
 
-- In the DSL project, a reference is added to *Microsoft.VisualStudio.Modeling.Sdk.Integration.11.0.dll*.
+- In the DSL project, a reference should be added to *Microsoft.VisualStudio.Modeling.Sdk.Integration.dll*.
 
 - In the DSL Definition, an External Type reference is added: `Microsoft.VisualStudio.Modeling.Integration.ModelBusReference`.
 

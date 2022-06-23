@@ -306,7 +306,7 @@ namespace Company.CompartmentDrag
   /// <param name="e"></param>
   void compartment_MouseUp(object sender, DiagramMouseEventArgs e)
   {
-    dragStartElement = null;
+   dragStartElement = null;
   }
 
   /// <summary>

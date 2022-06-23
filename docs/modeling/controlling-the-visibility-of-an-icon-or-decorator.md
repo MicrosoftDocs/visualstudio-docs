@@ -91,13 +91,17 @@ Frequently, you want visibility to be controlled by a more complex formula than 
 
 7. In a separate code file, write a partial class definition that contains the missing method. For example:
 
-   ```text
+   ```csharp
    namespace Company.FamilyTree
-   { partial class Person
-     { bool GetDecoratorControlValue()
+   {
+     partial class Person
+     {
+       bool GetDecoratorControlValue()
        {
          return this.Children.Count > 0;
-   } } }
+       }
+     }
+   }
    ```
 
    For more information about customizing the model with program code, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).
