@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: b331c837-3524-42b7-820e-b4fdd5e12793
-ms.date: 05/18/2022
+ms.date: 06/24/2022
 ms.topic: conceptual
 description:  Learn about managing Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA)
 ---
@@ -21,39 +21,57 @@ There are two types of tenants - managed tenants and unmanaged tenants. A manage
 
 An unmanaged tenant is a tenant without any admins assigned and is not usable for Online Services such as Office 365. Unmanaged tenants are also created when registering to the Business Center with an email that is not a work account. If you created a password when you registered on the Business Center, your email was not a work account and an unmanaged tenant was created.
 
-Here are a few requirements/steps to become a Visual Studio Subscriptions admin prior to completing the tenant association.
+Prerequisites to become a Visual Studio Subscriptions administrator
 
-## Pre-tenant association (managed tenant)
+## Managed tenant
 
-+ You must be a registered user to the Business Center.
-+ You must be a User Admin (at minimum) or Global Admin within the tenant that you're part of. (This applies if your company already uses Cloud Services). Either role is needed to be a Visual Studio subscriptions admin.
-+ You must be a Global Admin in the tenant that you're part of to be able to associate your Purchasing Account to your tenant.
-+ You must be an Account Admin or Account Manager in Business Center.
-+ The “Country or Region” field within your user profile (and any other user) in [Azure](https://portal.azure.com/) needs to be populated appropriately depending on your region (such as US, CA, etc.). 
+Follow these steps to set up a managed tenant:
+
+1. First, the Purchasing Account must be associated to your company domain/tenant. The association is performed in the Business Center Portal. If not yet associated, to do the association, you must be a registered user in the Business Center Portal with an Account Administrator or Account Manager role, as well as a Global Administrator (Company Administrator) or a Billing Administrator in the tenant where you would like to link your Purchasing Account to. After you have ensured you have these roles assigned to the same work account, follow the below steps to perform the association:
+
+   1. Log in to Business Center.
+   2. Select the **Account** tab and choose **Associate Domains**.
+   3. Select your **Purchasing Account** (if you have more than one).
+   4. Select your **tenant** (example: contoso.onmicrosoft.com).
+   5. Select Associate Domain.
+For a more detailed explanation for this process, you may use the Quick Start guides. Download the guide named "Set up and Use Your Online Services".
+If you are experiencing issues with the domain association or require guidance, contact Business Center support.
+
+
+
+
+
+
+
+
+   For a more detailed explanation for this process, you may use the Quick Start guides. Download the guide named "Set up and Use Your Online Services".
+
+   If you are experiencing issues with the domain association or require guidance, contact Business Center support.
+
+2. After the Purchasing Account has been associated to your domain, to administer Visual Studio subscriptions on the Visual Studio Subscriptions Administration Portal, you must have at least one of the below roles in either of the user directories/portals. Having more than one of these roles across the two portals is also possible. However, just one is enough, regardless in which portal it is:
+
+   Qualifying roles on the Business Center Portal:
+
+   + Account Administrator
+   + Account Manager 
+   
+   Qualifying roles in the tenant Azure Active Directory where the Purchasing Account is associated:
+   
+   + Global administrator (Company administrator)
+   + User Administrator
 
 > [!NOTE]
-> Any users that you want to make Visual Studio subscriptions admins are not required to be users in the Business Center, as they only need to meet criteria 2 and 5.
+> For the Azure Active Directory roles, ensure that the “Country or Region” and “Postal code” fields within your user profile in Azure are populated appropriately depending on your region (i.e. US, CA, etc.).
 
-After you've met the criteria above, you may proceed to associate your Purchasing Account to your tenant following the steps below.
-1. Log in to [Business Center](https://businessaccount.microsoft.com/Customer).
-2. Select the **Account** tab and choose **Associate Domains**.
-3. Select your **Purchasing Account** (if you have more than one).
-4. Select your **tenant** (example: contoso.onmicrosoft.com).
-5. Select **Associate Domain**.
+After the domain association, if you have the correct permissions listed above, you'll be able to access the Visual Studio Subscriptions Administration Portal within 24 hours. If this takes longer than 24 hours, contact Business Center support.
 
-Upon association, all users meeting the criteria will typically provision as Visual Studio subscriptions admins within minutes. However, at times it may take up to 24 hours. After your tenant is provisioned, you'll be able to access the Visual Studio Subscriptions Administration Portal. If this takes longer than 24 hours,  contact [Business Center support](https://businessaccount.microsoft.com/Customer/ContactUs).
+## Unmanaged tenant
 
-> [!NOTE]
-> If there are new users that meet the criteria in steps 2 and 5 (after association) you must contact MPSA Support. MPSA Support will provide assistance to provision the new Visual Studio Subscriptions admins.
+If you registered to the Business Center with an email that was not a work account (not registered in the Azure Active Directory “Azure AD”), as explained above, the tenant association will be slightly different. You will need to perform what’s called a "domain take-over". During this process you will make yourself the Global Administrator (Company Administrator) which will change your tenant from unmanaged to managed.
 
-## Tenant association (unmanaged)
+For a more detailed explanation for this process, you may use the Quick Start guides. Download the guide named "Setup and Use Your Online Services" that will guide you through a domain take-over (pg. 7-8).
 
-If you registered to the Business Center with an email that was not a work account registered in the Azure Active Directory (Azure AD), the tenant association will be slightly different. You'll need to perform what’s called a "domain take-over". The process will make you a Global Admin and change your tenant from unmanaged to managed.
-
-For a more detailed explanation for this process, you may use the [Quick Start guides](https://www.microsoft.com/Licensing/existing-customer/business-center-training-and-resources.aspx). Download the guide named *"Setup and Use Your Online Services"* that will guide you through a domain take-over. After this is completed, your Purchasing Account will also be associated to your tenant.
-
-> [!NOTE]
-> When you complete the domain take-over process, you must adhere to the criteria from the five steps in the section for Pre Tenant Association (Managed). After the criteria are met, it will only be necessary to contact MPSA Support to provision additional Visual Studio subscriptions admins.
+After you have completed the domain take-over process, you must adhere to the 2 criteria from section “Managed Tenant” to administer Visual Studio subscriptions on the Visual Studio Subscriptions Administration Portal. In case of issues, contact Business Center support.
 
 ## Support resources
 
