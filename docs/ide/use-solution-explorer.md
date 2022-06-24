@@ -1,7 +1,7 @@
 ---
 title: Learn about Solution Explorer
 description: Learn how you can use the Solution Explorer tool window in Visual Studio to create & manage your files, projects, and solutions.
-ms.date: 06/24/2022
+ms.date: 06/27/2022
 ms.topic: conceptual
 ms.custom: contperf-fy22q4
 helpviewer_keywords:
@@ -60,7 +60,7 @@ The menu bar contains the following UI elements, from left to right:
 |**Switch Views** button |  Switch between solutions and available views |
 |**Pending Changes Filter** button & drop-down menu |  View open files or files with pending changes |
 |**Sync with Active Document** button | Locate a file from the code editor |
-|**Refresh** button | Appears only when you select a dependency, such as a function or a package |
+|**Refresh** button (conditional) | Appears only when you select a dependency, such as a function or a package |
 |**Collapse All** button | Collapse the file view in the main window |
 |**Show All Files** button | View all files, including [unloaded projects](filtered-solutions.md#toggle-unloaded-project-visibility) |
 |**Properties** button | View and change settings for specific files and components |
