@@ -3,7 +3,7 @@ title: Code coverage testing
 description: Learn how to use the code coverage feature of Visual Studio to determine what proportion of your project code is being tested by coded tests.
 
 ms.custom: SEO-VS-2020, devdivchpfy22
-ms.date: 06/13/2022
+ms.date: 06/26/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - code coverage
@@ -37,11 +37,11 @@ The code coverage feature is available only in Visual Studio Enterprise edition.
     > You can also run code coverage from the Test Explorer tool window.
 
 1. After the tests have run, to see which lines have been run, choose ![Screenshot of Analyze code coverage menu in Visual Studio](../test/media/codecoverage-showcoloringicon.png) **Show Code Coverage Coloring** in the **Code Coverage Results** window. By default, code that is covered by tests is highlighted in light blue.
-    :::image type="content" source="media/vs-2022/code-coverage-highlight.png" alt-text="Screenshot showing code coverage highlighted":::
+    :::image type="content" source="media/vs-2022/code-coverage-highlight.png" alt-text="Screenshot showing code coverage highlighted.":::
 
 1. To change the colors or to use bold face, choose **Tools** > **Options** > **Environment** > **Fonts and Colors** > **Show settings for: Text Editor**. Under **Display items**, adjust settings for the "Coverage" items, for example, **Coverage Not Touched Area**.
     :::moniker range="=vs-2019"
-    :::image type="content" source="media/vs-2019/coverage-fonts-and-colors.png" alt-text="Screenshot showing code coverage fonts and colors":::
+    :::image type="content" source="media/vs-2019/coverage-fonts-and-colors.png" alt-text="Screenshot showing code coverage fonts and colors.":::
     :::moniker-end
 
     :::moniker range="=vs-2022"
@@ -87,7 +87,7 @@ You can merge the results of several runs, for example from runs that use differ
 
    The coverage coloring might be incorrect if the source code has changed since the *.coverage* file was generated.
 
-- **To make results readable as text**, choose **Export Code Coverage Results**. This generates a readable.coveragexml* file, which you could process with other tools or send easily in mail.
+- **To make results readable as text**, choose **Export Code Coverage Results**. This generates a readable *.coveragexml* file, which you could process with other tools or send easily in mail.
 
 - **To send results to someone else**, send either a *.coverage* file or an exported *.coveragexml* file. They can then import the file. If they have the same version of the source code, they can see coverage coloring.
 
@@ -251,7 +251,7 @@ Use the following macros:
 
 - *FunctionName* is a fully qualified function name. It may contain wildcards. For example, to exclude all the functions of a class, write `MyNamespace::MyClass::*`
 
-- *SourceFilePath* is the local or UNC path of a .cpp file. It may contain wildcards. The following example excludes all files in a particular directory: ```\\MyComputer\Source\UnitTests\*.cpp```
+- *SourceFilePath* is the local or UNC path of a *.cpp* file. It may contain wildcards. The following example excludes all files in a particular directory: ```\\MyComputer\Source\UnitTests\*.cpp```
 
 - `#include <CodeCoverage\CodeCoverage.h>`
 
@@ -276,7 +276,7 @@ When you check in your code, your tests run on the build server along with tests
 
 ## Analyze code coverage from the command line
 
-To run tests from the command line, use *vstest.console.exe*. Code coverage is an option of the *vstest.console.exe* utility invoked by ```/EnableCodeCoverage``` option.
+To run tests from the command line, use *vstest.console.exe* utility. Code coverage is an option of the *vstest.console.exe* utility invoked by ```/EnableCodeCoverage``` option.
 
 1. Launch the Developer Command Prompt for Visual Studio:
 

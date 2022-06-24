@@ -60,7 +60,7 @@ By questioning your assumptions, you may reduce the time it takes to find a prob
 
 When you normally run an app, you see errors and incorrect results only after the code has run. A program might also terminate unexpectedly without telling you why.
 
-Running an app within a debugger, also called *debugging mode*, means that the debugger actively monitors everything that’s happening as the program runs. It also allows you to pause the app at any point to examine its state and to then step through your code line by line to watch every detail as it happens.
+Running an app within a debugger, also called *debugging mode*, means that the debugger actively monitors everything that’s happening as the program runs. It also allows you to pause the app at any point to examine its state and then step through your code line by line to watch every detail as it happens.
 
 In Visual Studio, you enter debugging mode by using **F5** (or the **Debug** > **Start Debugging** menu command or the **Start Debugging** button :::image type="content" source="/media/dbg-tour-start-debugging.png" alt-text="Icon showing Start Debugging button."::: in the Debug Toolbar). If any exceptions occur, Visual Studio’s Exception Helper takes you to the exact point where the exception occurred and provides other helpful information. For more information on how to handle exceptions in your code, see [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md).
 
@@ -74,7 +74,7 @@ To help illustrate these concepts, we take you through some example code that al
 
 Next, we'll create an application that has a few bugs.
 
-1. You must have Visual Studio installed and the **.NET Core cross platform development** workload installed.
+1. You must have Visual Studio installed, and the **.NET Core cross platform development** workload installed.
 
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
 
@@ -85,11 +85,12 @@ Next, we'll create an application that has a few bugs.
     On the start window, choose **Create a new project**. Type **console** in the search box, select either **C#** or **Visual Basic** as the language, and then choose **Console App** for .NET Core. Choose **Next**. Type a project name like **ConsoleApp_FirstApp** and click **Next**.
 
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
+
     ::: moniker-end
 
     If you don't see the **Console App** project template for .NET Core, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET Core cross platform development** workload, then choose **Modify**.
 
-    Visual Studio creates the console project, which appears in Solution Explorer in the right pane.
+    Visual Studio creates the console project, which appears in **Solution Explorer** in the right pane.
 
 1. In *Program.cs* (or *Program.vb*), replace all the default code with the following code. (Select the correct language tab first, either C# or Visual Basic.)
 
@@ -283,9 +284,9 @@ Next, we'll create an application that has a few bugs.
 
 ### Run the app
 
-1. Press **F5** or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Icon showing Start Debugging button.") in the Debug Toolbar, located above the code editor.
+Press **F5** or the **Start Debugging** button :::image type="content" source="/media/dbg-tour-start-debugging.png" alt-text="Icon showing Start Debugging button."::: in the Debug Toolbar, located above the code editor.
 
-    The app starts and there are no exceptions shown to us by the debugger. However, the output you see in the console window isn't what you expect. Here's the expected output:
+The app starts and there are no exceptions shown to us by the debugger. However, the output you see in the console window isn't what you expect. Here's the expected output:
 
     ```
     Tadpole  400,  Spiral
@@ -307,7 +308,7 @@ Next, we'll create an application that has a few bugs.
     Maffei 1, 11,  ConsoleApp_FirstApp.GType
     ```
 
-    Looking at the output and at our code, we know that `GType` is the name of the class that stores the galaxy type. We're trying to show the actual galaxy type (such as "Spiral"), not the class name!
+    Looking at the output and our code, we know that `GType` is the name of the class that stores the galaxy type. We're trying to show the actual galaxy type (such as "Spiral"), not the class name!
 
 ### Debug the app
 
@@ -336,9 +337,9 @@ Next, we'll create an application that has a few bugs.
 
     As we see a problem in the output, we'll start debugging by looking at the preceding code that sets the output in the debugger.
 
-1. Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "Icon showing RestartApp button in Debug toolbar.") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**).
+1. Click the **Restart** :::image type="content" source="/media/dbg-tour-restart.png" alt-text="Icon showing RestartApp button in Debug toolbar."::: button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**).
 
-    The app pauses at the breakpoint that you set. The yellow highlighting indicates where the debugger is paused (the yellow line of code hasn't yet executed).
+    The app pauses at the breakpoint that you set. The yellow highlighting indicates where the debugger is paused (the yellow line of code hasn't yet been executed).
 
 1. Hover over the `GalaxyType` variable on the right, and then, to the left of the wrench icon, expand `theGalaxy.GalaxyType`. You see that `GalaxyType` contains a property `MyGType`, and the property value is set to `Spiral`.
 
@@ -348,14 +349,14 @@ Next, we'll create an application that has a few bugs.
 
 1. In the same code, while still debugging, put your cursor at the end of `theGalaxy.GalaxyType` and change it to `theGalaxy.GalaxyType.MyGType`. Although you can make this change, the code editor shows you an error indicating it can't compile this code. (In Visual Basic, you won't see the error, and this section of code works)
 
-    ![Screenshot of the Visual Studio Debugger with a line of code highlighted in red and an Edit and Continue message box with the Edit button selected.](../debugger/media/beginners-edit.png)
+    :::image type="content" source="/media/beginners-edit.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and an Edit and Continue message box with the Edit button selected.":::
 
    > [!NOTE]
-   > For debugging the Visual Basic example code, skip the next few steps until you're instructed to click the **Restart** ![Icon showingRestart App](../debugger/media/dbg-tour-restart.png "Icon showing Restart app button in Debug toolbar.") button.
+   > For debugging the Visual Basic example code, skip the next few steps until you're instructed to click the **Restart** :::image type="content" source="/media/dbg-tour-restart.png" alt-text="Icon showing Restart app button in Debug toolbar."::: button.
 
 1. Click **Edit** in the **Edit and Continue** message box. You see an error message now in the **Error List** window. The error indicates that the `'object'` doesn't contain a definition for `MyGType`.
 
-    ![Screenshot of the Visual Studio Debugger with a line of code highlighted in red and an Error List window with two errors listed.](../debugger/media/beginners-no-definition.png)
+    :::image type="content" source="/media/beginners-no-definition.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and an Error List window with two errors listed.":::
 
     Even though we set each galaxy with an object of type `GType` (which has the `MyGType` property), the debugger doesn't recognize the `theGalaxy` object as an object of type `GType`. What's going on? You want to look through any code that sets the galaxy type. When you do this, you see that the `GType` class definitely has a property of `MyGType`, but something isn't right. The error message about `object` turns out to be the clue; to the language interpreter, the type appears to be an object of type `object` instead of an object of type `GType`.
 
@@ -371,7 +372,7 @@ Next, we'll create an application that has a few bugs.
     public GType GalaxyType { get; set; }
     ```
 
-1. Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "Icon showing Restart app button in Debug toolbar.") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**) to recompile code and restart.
+1. Click the **Restart** :::image type="content" source="/media/dbg-tour-restart.png" alt-text="Icon showing Restart app button in Debug toolbar."::: button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**) to recompile code and restart.
 
     Now, when the debugger pauses on `Console.WriteLine`, you can hover over `theGalaxy.GalaxyType.MyGType`, and see that the value is properly set.
 
@@ -388,7 +389,7 @@ Next, we'll create an application that has a few bugs.
     Maffei 1,  Elliptical
     ```
 
-1. Set a breakpoint on this line of code before the switch statement (before the Select statement in Visual Basic).
+1. Set a breakpoint on this line of code before the `switch` statement (before the `Select` statement in Visual Basic).
 
     #### [C#](#tab/csharp)
 
@@ -406,11 +407,11 @@ Next, we'll create an application that has a few bugs.
 
     This code is where the galaxy type is set, so we want to take a closer look at it.
 
-1. Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "Icon showing Restart app button in Debug toolbar.") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**) to restart.
+1. Click the **Restart** :::image type="content" source="/media/dbg-tour-restart.png" alt-text="Icon showing Restart app button in Debug toolbar."::: button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**) to restart.
 
     The debugger pauses on the line of code where you set the breakpoint.
 
-1. Hover over the `type` variable. You see a value of `S` (following the character code). You're interested in a value of `I`, since you know that is an Irregular galaxy type.
+1. Hover over the `type` variable. You see a value of `S` (following the character code). You're interested in a value of `I`, as you know that is an Irregular galaxy type.
 
 1. Press **F5** and hover over the `type` variable again. Repeat this step until you see a value of `I` in the `type` variable.
 
@@ -445,7 +446,7 @@ When you find the region of code with the problem, use the debugger to investiga
 
 * [Inspect variables](../debugger/view-data-values-in-data-tips-in-the-code-editor.md) and check whether they contain the type of values that they should contain. If you find a bad value, find out where the bad value was set (to find where the value was set, you might need to either restart the debugger, look at the [call stack](../debugger/how-to-use-the-call-stack-window.md), or both).
 
-* Check whether your application is executing the code that you expect. (For example, in the sample application, we expected the code for the switch statement to set the galaxy type to Irregular, but the app skipped the code due to the typo.)
+* Check whether your application is executing the code that you expect. (For example, in the sample application, we expected the code for the `switch` statement to set the galaxy type to Irregular, but the app skipped the code due to the typo.)
 
 > [!TIP]
 > You use a debugger to help you find bugs. A debugging tool can find bugs *for you* only if it knows the intent of your code. A tool can only know the intent of your code if you, the developer, express that intent. Writing [unit tests](../test/improve-code-quality.md) is how you do that.

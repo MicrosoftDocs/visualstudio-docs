@@ -2,7 +2,7 @@
 title: View the call stack in the debugger | Microsoft Docs
 description: Use the Call Stack window to view the function or procedure calls that are currently on the stack in Visual Studio.
 
-ms.date: 06/15/2022
+ms.date: 06/25/2022
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.callstack
@@ -41,17 +41,14 @@ By using the **Call Stack** window, you can view the function or procedure calls
 
 When [debugging symbols](#bkmk_symbols) are not available for part of a call stack, the **Call Stack** window might not be able to display correct information for that part of the call stack, displaying instead:
 
-`[Frames below may be incorrect and/or missing, no symbols loaded for name.dll]`
+```[Frames below may be incorrect and/or missing, no symbols loaded for name.dll]```
 
 > [!NOTE]
-> The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
-
-> [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described here, depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu.  See [Reset settings](../ide/environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described here, depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu.  See [Reset settings](../ide/environment-settings.md#reset-settings). The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
 
 ## View the call stack while in the debugger
 
-- While debugging, in the **Debug** menu, select **Windows > Call Stack** or press `ctrl`+`alt`+`C`.
+While debugging, in the **Debug** menu, select **Windows > Call Stack** or press `ctrl`+`alt`+`C`.
 
   :::image type="content" source="../debugger/media/dbg_basics_callstack_window.png" alt-text="Screenshot showing the Call Stack Window.":::
 
