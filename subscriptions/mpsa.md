@@ -63,7 +63,7 @@ After the domain association, if you have the correct permissions listed above, 
 
 ## Unmanaged tenant
 
-If you registered to the Business Center with an email that wasn't a work account (not registered in the Azure Active Directory “Azure AD”), as explained above, the tenant association will be slightly different. You'll need to perform what’s called a "domain take-over". During this process, you'll make yourself the Global Administrator (Company Administrator) which will change your tenant from "unmanaged" to "managed".
+If you registered to the Business Center with an email that wasn't a work account (not registered in the Azure Active Directory “Azure AD”), as explained above, the tenant association will be slightly different. You'll need to perform what’s called a "domain take-over". During this process, you'll make yourself the Global Administrator (Company Administrator) which will change your tenant from "unmanaged" to "managed."
 
 For a more detailed explanation for this process, you may use the Quick Start guides. Download the guide named "Setup and Use Your Online Services" that will guide you through a domain take-over (pg. 7-8).
 
