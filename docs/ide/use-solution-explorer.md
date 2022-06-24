@@ -17,11 +17,13 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can use Solution Explorer to create & manage your solutions and projects and to view & interact with your code. In this article, we'll cover how to open Solution Explorer. Then, we'll also describe its user interface in detail.
+You can use Solution Explorer to create & manage your solutions and projects and to view & interact with your code. In this article, we'll cover how to open Solution Explorer if you inadvertently closed it. Then, we'll describe the Solution Explorer user interface(UI) in detail.
 
 ## Open Solution Explorer
 
 By default, the Solution Explorer tool window appears as a pane in the upper-right side of the [Visual Studio IDE](../get-started/visual-studio-ide.md). If you don't see the Solution Explorer tool window, you can open it from the Visual Studio menu bar by using **View** > **Solution Explorer**, or by pressing **Ctrl**+**Alt**+**L**.
+
+[![An annotated screenshot of the Visual Studio IDE that shows where Solution Explorer is positioned.](media/solution-explorer-tool-window.png)](media/solution-explorer-integrated-development-environment.png#lightbox)
 
 ## Tool window
 
@@ -46,7 +48,7 @@ The following table is a text-equivalent of the annotated screenshot, but with a
 
 To continue, let's take a closer look at the Solution Explorer menu bar.
 
-![An annotated screenshot of the Solution Explorer menu bar in Visual Studio.](media/solution-explorer-menu-bar.png)
+![Screenshot of the Solution Explorer menu bar in Visual Studio.](media/solution-explorer-menu-bar.png)
 
 The menu bar contains the following UI elements, from left to right:
 
