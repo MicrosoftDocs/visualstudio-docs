@@ -13,13 +13,13 @@ description:  Learn about managing Visual Studio subscriptions in a Microsoft Pr
 
 If you've purchased Visual Studio Subscriptions through the MPSA program, there are a few things to be aware of before you can become a Visual Studio subscriptions admin and assign subscriptions to your users. If you've already been set up as an admin, you can go directly to the Visual Studio subscriptions [Administration Portal](https://manage.visualstudio.com/).
 
-MPSA customers manage assets purchased through MPSA in a portal called the [Business Center](https://businessaccount.microsoft.com/Customer) that supports functionalities similar to the Volume Licensing Service Center (VLSC). These include viewing your License Summary, Orders, Downloads, Keys, Users, etc. However, Visual Studio subscriptions in MPSA behave much like Cloud Services. The Business Center also uses work accounts to sign in, instead of Microsoft Accounts (MSA). If you access services like Azure Active Directory or Office 365, your email is already a work account. This will allow you to register to Business Center with your existing password. If your organization is not using cloud services and your email is not a work account, you may use it to register to the Business Center.
+MPSA customers manage assets purchased through MPSA in a portal called the [Business Center](https://businessaccount.microsoft.com/Customer) that supports functionalities similar to the Volume Licensing Service Center (VLSC). These include viewing your License Summary, Orders, Downloads, Keys, Users, etc. However, Visual Studio subscriptions in MPSA behave much like Cloud Services. The Business Center also uses work accounts to sign in, instead of Microsoft Accounts (MSA). If you access services like Azure Active Directory or Office 365, your email is already a work account. This will allow you to register to Business Center with your existing password. If your organization isn't using cloud services and your email isn't a work account, you may use it to register to the Business Center.
 
 The Visual Studio subscriptions [Administration Portal](https://manage.visualstudio.com/) is where you'll assign subscriptions after you become a Visual Studio subscriptions admin. In MPSA, Visual Studio subscriptions must be provisioned to their respective management portal, which is the Visual Studio Subscriptions Administration Portal. To do that, you need to associate your Purchasing Account to a tenant (example: contoso.onmicrosoft.com).
 
 There are two types of tenants - managed tenants and unmanaged tenants. A managed tenant refers to a tenant that is already being managed by admins within the organization.
 
-An unmanaged tenant is a tenant without any admins assigned and is not usable for Online Services such as Office 365. Unmanaged tenants are also created when registering to the Business Center with an email that is not a work account. If you created a password when you registered on the Business Center, your email was not a work account. So an unmanaged tenant was created.
+An unmanaged tenant is a tenant without any admins assigned and isn't usable for Online Services such as Office 365. Unmanaged tenants are also created when registering to the Business Center with an email that isn't a work account. If you created a password when you registered on the Business Center, your email wasn't a work account. So an unmanaged tenant was created.
 
 Prerequisites to become a Visual Studio Subscriptions administrator
 
@@ -63,7 +63,7 @@ After the domain association, if you have the correct permissions listed above, 
 
 ## Unmanaged tenant
 
-If you registered to the Business Center with an email that was not a work account (not registered in the Azure Active Directory “Azure AD”), as explained above, the tenant association will be slightly different. You'll need to perform what’s called a "domain take-over". During this process, you'll make yourself the Global Administrator (Company Administrator) which will change your tenant from "unmanaged" to "managed".
+If you registered to the Business Center with an email that wasn't a work account (not registered in the Azure Active Directory “Azure AD”), as explained above, the tenant association will be slightly different. You'll need to perform what’s called a "domain take-over". During this process, you'll make yourself the Global Administrator (Company Administrator) which will change your tenant from "unmanaged" to "managed".
 
 For a more detailed explanation for this process, you may use the Quick Start guides. Download the guide named "Setup and Use Your Online Services" that will guide you through a domain take-over (pg. 7-8).
 
