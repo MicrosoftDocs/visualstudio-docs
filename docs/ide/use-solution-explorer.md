@@ -17,19 +17,19 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can use Solution Explorer to create & manage your solutions and projects and to view & interact with your code. In this article, we'll cover how to open Solution Explorer if you inadvertently closed it. Then, we'll describe the Solution Explorer user interface(UI) in detail.
+You can use Solution Explorer to create & manage your solutions and projects and to view & interact with your code. In this article, we'll cover how to open Solution Explorer if you inadvertently closed it. Then, we'll describe the Solution Explorer user interface (UI) in detail.
 
 ## Open Solution Explorer
 
-By default, the Solution Explorer tool window appears as a pane in the upper-right side of the [Visual Studio IDE](../get-started/visual-studio-ide.md). If you don't see the Solution Explorer tool window, you can open it from the Visual Studio menu bar by using **View** > **Solution Explorer**, or by pressing **Ctrl**+**Alt**+**L**.
+By default, the Solution Explorer tool window appears as a pane in the upper-right side of the [Visual Studio integrated development environment](../get-started/visual-studio-ide.md) (IDE). If you don't see the Solution Explorer tool window, you can open it from the Visual Studio menu bar by using **View** > **Solution Explorer**, or by pressing **Ctrl**+**Alt**+**L**.
 
-[![An annotated screenshot of the Visual Studio IDE that shows where Solution Explorer is positioned.](media/solution-explorer-tool-window.png)](media/solution-explorer-integrated-development-environment.png#lightbox)
+:::image type="content" source="media/visual-studio-integrated-development-environment.png" alt-text="Screenshot of the Visual Studio IDE that shows where Solution Explorer is positioned." lightbox="media/visual-studio-integrated-development-environment.png":::
 
 ## Tool window
 
 Let's take a look at the Solution Explorer tool window and its UI (user interface). We'll start with an annotated screenshot of an open C# console solution that has two projects.
 
-[![An annotated screenshot of the Solution Explorer tool window in Visual Studio.](media/solution-explorer-tool-window.png)](media/solution-explorer-tool-window.png#lightbox)
+:::image type="content" source="media/solution-explorer-tool-window.png" alt-text="An annotated screenshot of the Solution Explorer tool window in Visual Studio." lightbox="media/media/solution-explorer-tool-window.png":::
 
 The following table is a text-equivalent of the annotated screenshot, but with a few handy links you can use to learn more.
 
