@@ -107,8 +107,12 @@ For lookup controls that support data binding, you can implement the <xref:Syste
 
 2. Replace the code in the `LookupBox` with the following:
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/LookupBox.vb" id="Snippet5":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/LookupBox.cs" id="Snippet5":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/LookupBox.vb" id="Snippet5":::
+     ---
 
 3. From the **Build** menu, choose **Build Solution**.
 

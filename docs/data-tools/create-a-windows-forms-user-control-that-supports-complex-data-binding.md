@@ -94,8 +94,12 @@ For complex controls that support data binding, you can implement the <xref:Syst
 
 1. Replace the code in the `ComplexDataGridView` with the following:
 
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/ComplexDataGridView.cs" id="Snippet4":::
+
+    ### [VB](#tab/vb)
     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/ComplexDataGridView.vb" id="Snippet4":::
+    ---
 
 1. From the **Build** menu, choose **Build Solution**.
 

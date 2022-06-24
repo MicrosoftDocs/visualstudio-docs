@@ -26,17 +26,19 @@ This structure represents a native address.
 
 ## Syntax
 
-```cpp
-typedef struct _tagNATIVE_ADDRESS {
-    DWORD unknown;
-} NATIVE_ADDRESS;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct NATIVE_ADDRESS {
     public uint unknown;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagNATIVE_ADDRESS {
+    DWORD unknown;
+} NATIVE_ADDRESS;
+```
+---
 
 ## Members
 

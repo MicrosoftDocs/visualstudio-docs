@@ -25,19 +25,21 @@ Creates a primitive data object, such as a simple integer.
 
 ## Syntax
 
-```cpp
-HRESULT CreatePrimitiveObject( 
-   OBJECT_TYPE    ot,
-   IDebugObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreatePrimitiveObject(
    enum_OBJECT_TYPE ot,
    out IDebugObject ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreatePrimitiveObject( 
+   OBJECT_TYPE    ot,
+   IDebugObject** ppObject
+);
+```
+---
 
 ## Parameters
 `ot`\

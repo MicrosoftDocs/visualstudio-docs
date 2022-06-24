@@ -25,19 +25,21 @@ Gets the source code range of this document context.
 
 ## Syntax
 
-```cpp
-HRESULT GetSourceRange( 
-   TEXT_POSITION* pBegPosition,
-   TEXT_POSITION* pEndPosition
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSourceRange( 
    TEXT_POSITION[] pBegPosition,
    TEXT_POSITION[] pEndPosition
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSourceRange( 
+   TEXT_POSITION* pBegPosition,
+   TEXT_POSITION* pEndPosition
+);
+```
+---
 
 ## Parameters
 `pBegPosition`\

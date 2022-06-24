@@ -25,17 +25,19 @@ Sets the registry root for the debug engine (DE).
 
 ## Syntax
 
-```cpp
-HRESULT SetRegistryRoot( 
-   LPCOLESTR pszRegistryRoot
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetRegistryRoot( 
    string pszRegistryRoot
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetRegistryRoot( 
+   LPCOLESTR pszRegistryRoot
+);
+```
+---
 
 ## Parameters
 `pszRegistryRoot`\

@@ -25,19 +25,21 @@ Gets an element of the array.
 
 ## Syntax
 
-```cpp
-HRESULT GetElement( 
-   DWORD          dwIndex,
-   IDebugObject** ppElement
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetElement(
    [In] uint dwIndex,
    out IDebugObject ppElement
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetElement( 
+   DWORD          dwIndex,
+   IDebugObject** ppElement
+);
+```
+---
 
 ## Parameters
 `dwIndex`\

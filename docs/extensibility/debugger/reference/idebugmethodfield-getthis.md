@@ -25,17 +25,19 @@ Gets the `this` (`Me` in [!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb
 
 ## Syntax
 
-```cpp
-HRESULT GetThis( 
-   IDebugClassField** ppClass
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetThis(
    out IDebugClassField ppClass
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetThis( 
+   IDebugClassField** ppClass
+);
+```
+---
 
 ## Parameters
 `ppClass`\

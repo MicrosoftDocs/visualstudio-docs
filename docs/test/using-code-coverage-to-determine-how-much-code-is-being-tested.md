@@ -118,7 +118,7 @@ You might want to exclude specific elements in your code from the coverage score
 
 For example:
 
-### [C#](#tab/code1)
+### [C#](#tab/csharp)
 
 ```csharp
 using System.Diagnostics.CodeAnalysis;
@@ -150,7 +150,8 @@ public class ExampleClass1
 class ExampleClass2 { ... }
 ```
 
-### [Visual Basic](#tab/code2)
+
+### [VB](#tab/vb)
 
 ```vb
 Imports System.Diagnostics.CodeAnalysis
@@ -185,7 +186,7 @@ Class ExampleClass2
 End Class
 ```
 
-### [C++](#tab/code3)
+### [C++](#tab/cpp)
 
 ```cpp
 // A .cpp file compiled as managed (CLI) code.
@@ -238,6 +239,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
 // After setting exclusions, restore the previous managed/unmanaged state:
 #pragma managed(pop)
 ```
+---
 
 Use the following macros:
 

@@ -133,8 +133,12 @@ ms.workload:
     > [!NOTE]
     > After you add this code, the project will have some compile errors. These errors will go away when you add code in later steps.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/generateexternaldatalists/bdcprojectitemextension/projectitemextension.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/generateexternaldatalists/bdcprojectitemextension/projectitemextension.vb" id="Snippet1":::
+     ---
 
 ## Create the external data lists
  Add a partial definition of the `GenerateExternalDataListsExtension` class that creates an external data list for each entity in the BDC model. To create the external data list, this code first reads the entity data in the BDC model by parsing the XML data in the BDC model file. Then, it creates a list instance that is based on the BDC model and adds this list instance to the project.
@@ -143,8 +147,12 @@ ms.workload:
 
 1. Paste the following code into the GenerateExternalDataLists code file.
 
-     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/generateexternaldatalists/bdcprojectitemextension/generateexternaldatalists.vb" id="Snippet2":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/generateexternaldatalists/bdcprojectitemextension/generateexternaldatalists.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/generateexternaldatalists/bdcprojectitemextension/generateexternaldatalists.vb" id="Snippet2":::
+     ---
 
 ## Checkpoint
  At this point in the walkthrough, all the code for the project item extension is now in the project. Build the solution to make sure that the project compiles without errors.

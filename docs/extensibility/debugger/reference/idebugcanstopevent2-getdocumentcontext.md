@@ -25,17 +25,19 @@ Gets the document context that describes the location of this event.
 
 ## Syntax
 
-```cpp
-HRESULT GetDocumentContext ( 
-   IDebugDocumentContext2** ppDocCxt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocumentContext ( 
    out IDebugDocumentContext2 ppDocCxt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocumentContext ( 
+   IDebugDocumentContext2** ppDocCxt
+);
+```
+---
 
 ## Parameters
 `ppDocCxt`\

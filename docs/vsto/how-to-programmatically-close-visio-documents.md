@@ -32,8 +32,12 @@ ms.workload:
 
      To use the following code example, run it in the `ThisAddIn` class in a VSTO Add-in project for Visio.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs" id="Snippet7":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb" id="Snippet7":::
+     ---
 
 ## See also
 - [Visio solutions](../vsto/visio-solutions.md)

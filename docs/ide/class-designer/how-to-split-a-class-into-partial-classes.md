@@ -43,6 +43,7 @@ For more information about partial types in Visual Basic, see [Partial](/dotnet/
 
 To split a class definition, use the `partial` keyword (`Partial` in Visual Basic), as shown in the following example:
 
+### [C#](#tab/csharp)
 ```csharp
 // First part of class definition.
 public partial class Employee
@@ -61,6 +62,7 @@ public partial class Employee
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 ' First part of class definition.
 Partial Public Class Employee
@@ -74,6 +76,7 @@ Partial Public Class Employee
     End Sub
 End Class
 ```
+---
 
 ## See also
 

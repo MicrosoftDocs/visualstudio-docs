@@ -25,19 +25,21 @@ Gets the source document associated with this input stream.
 
 ## Syntax
 
-```cpp
-HRESULT GetDocument( 
-   BSTR              bstrDocumentUrl,
-   IDebugDocument2** ppDocument
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocument( 
    string              bstrDocumentUrl,
    out IDebugDocument2 ppDocument
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocument( 
+   BSTR              bstrDocumentUrl,
+   IDebugDocument2** ppDocument
+);
+```
+---
 
 ## Parameters
 `bstrDocumentUrl`\

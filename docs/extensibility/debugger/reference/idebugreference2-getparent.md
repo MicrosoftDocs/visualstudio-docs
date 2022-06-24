@@ -25,17 +25,19 @@ Gets the parent reference of a reference. Reserved for future use.
 
 ## Syntax
 
-```cpp
-HRESULT GetParent ( 
-   IDebugReference2** ppParent
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetParent ( 
    out IDebugReference2 ppParent
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetParent ( 
+   IDebugReference2** ppParent
+);
+```
+---
 
 ## Parameters
 `ppParent`\

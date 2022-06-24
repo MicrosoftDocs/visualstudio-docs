@@ -25,19 +25,21 @@ Notifies the debug package that text attributes have been updated in the documen
 
 ## Syntax
 
-```cpp
-HRESULT onUpdateTextAttributes( 
-   TEXT_POSITION pos,
-   DWORD         dwNumToUpdate
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int onUpdateTextAttributes( 
    enum_TEXT_POSITION pos,
    uint               dwNumToUpdate
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT onUpdateTextAttributes( 
+   TEXT_POSITION pos,
+   DWORD         dwNumToUpdate
+);
+```
+---
 
 ## Parameters
 `pos`\

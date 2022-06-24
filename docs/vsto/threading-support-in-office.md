@@ -62,8 +62,12 @@ ms.workload:
 ## Start the thread correctly
  When you create a new STA thread, set the apartment state to STA before you start the thread. The following code example demonstrates how to do this.
 
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/ThisWorkbook.cs" id="Snippet5":::
+
+ ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/ThisWorkbook.vb" id="Snippet5":::
+ ---
 
  For more information, see [Managed threading best practices](/dotnet/standard/threading/managed-threading-best-practices).
 

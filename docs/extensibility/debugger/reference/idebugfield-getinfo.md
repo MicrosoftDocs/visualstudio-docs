@@ -25,19 +25,21 @@ This method gets displayable information about the field.
 
 ## Syntax
 
-```cpp
-HRESULT GetInfo( 
-   FIELD_INFO_FIELDS dwFields,
-   FIELD_INFO* pFieldInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetInfo(
    enum_FIELD_INFO_FIELDS dwFields,
    FIELD_INFO[] pFieldInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetInfo( 
+   FIELD_INFO_FIELDS dwFields,
+   FIELD_INFO* pFieldInfo
+);
+```
+---
 
 ## Parameters
 `dwFields`\

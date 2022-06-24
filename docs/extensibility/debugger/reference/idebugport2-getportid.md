@@ -25,17 +25,19 @@ Gets the port identifier.
 
 ## Syntax
 
-```cpp
-HRESULT GetPortId( 
-   GUID* pguidPort
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPortId( 
    out Guid pguidPort
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPortId( 
+   GUID* pguidPort
+);
+```
+---
 
 ## Parameters
 `pguidPort`\

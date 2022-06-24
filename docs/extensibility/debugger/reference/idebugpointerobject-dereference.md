@@ -25,19 +25,21 @@ Gets the object pointed to.
 
 ## Syntax
 
-```cpp
-HRESULT DeReference( 
-   DWORD          dwIndex,
-   IDebugObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Dereference(
    uint             dwIndex,
    out IDebugObject ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT DeReference( 
+   DWORD          dwIndex,
+   IDebugObject** ppObject
+);
+```
+---
 
 ## Parameters
 `dwIndex`\

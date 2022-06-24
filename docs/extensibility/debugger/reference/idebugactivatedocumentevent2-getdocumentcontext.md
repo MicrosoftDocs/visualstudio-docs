@@ -26,17 +26,19 @@ Gets the document context that describes the position in the document that is to
 
 ## Syntax
 
-```cpp
-HRESULT GetDocumentContext ( 
-   IDebugDocumentContext2** ppDocContext
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocumentContext ( 
    out IDebugDocumentContext2 ppDocContext
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocumentContext ( 
+   IDebugDocumentContext2** ppDocContext
+);
+```
+---
 
 ## Parameters
 `ppDocContext`\

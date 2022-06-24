@@ -25,18 +25,7 @@ Contains information about a debug property.
 
 ## Syntax
 
-```cpp
-typedef struct tagDEBUG_PROPERTY_INFO {
-    DEBUGPROP_INFO_FLAGS dwValidFields;
-    BSTR                 bstrFullName;
-    BSTR                 bstrName;
-    BSTR                 bstrType;
-    BSTR                 bstrValue;
-    IDebugProperty2*     pProperty;
-    DBG_ATTRIB_FLAGS     dwAttrib;
-} DEBUG_PROPERTY_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct DEBUG_PROPERTY_INFO {
     public uint            dwValidFields;
@@ -48,6 +37,19 @@ public struct DEBUG_PROPERTY_INFO {
     public ulong           dwAttrib;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagDEBUG_PROPERTY_INFO {
+    DEBUGPROP_INFO_FLAGS dwValidFields;
+    BSTR                 bstrFullName;
+    BSTR                 bstrName;
+    BSTR                 bstrType;
+    BSTR                 bstrValue;
+    IDebugProperty2*     pProperty;
+    DBG_ATTRIB_FLAGS     dwAttrib;
+} DEBUG_PROPERTY_INFO;
+```
+---
 
 ## Members
 `dwValidFields`\

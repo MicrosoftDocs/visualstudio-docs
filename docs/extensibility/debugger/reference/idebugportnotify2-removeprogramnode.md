@@ -25,17 +25,19 @@ Unregisters a program that can be debugged from the port it is running on.
 
 ## Syntax
 
-```cpp
-HRESULT RemoveProgramNode( 
-   IDebugProgramNode2* pProgramNode
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int RemoveProgramNode( 
    IDebugProgramNode2 pProgramNode
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT RemoveProgramNode( 
+   IDebugProgramNode2* pProgramNode
+);
+```
+---
 
 ## Parameters
 `pProgramNode`\

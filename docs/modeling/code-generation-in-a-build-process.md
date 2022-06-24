@@ -243,13 +243,16 @@ The project folder is: <#= ProjectFolder #>
 
 In a directive processor, you can call [ITextTemplatingEngineHost.ResolveParameterValue](/previous-versions/visualstudio/visual-studio-2012/bb126369\(v\=vs.110\)):
 
+### [C#](#tab/csharp)
 ```csharp
 string value = Host.ResolveParameterValue("-", "-", "parameterName");
 ```
 
+### [VB](#tab/vb)
 ```vb
 Dim value = Host.ResolveParameterValue("-", "-", "parameterName")
 ```
+---
 
 > [!NOTE]
 > `ResolveParameterValue` gets data from `T4ParameterValues` only when you use MSBuild. When you transform the template using Visual Studio, the parameters have default values.

@@ -25,17 +25,19 @@ Returns a value indicating the protocol that is being used to communicate betwee
 
 ## Syntax
 
-```cpp
-HRESULT GetConnectionProtocol(
-   CONNECTION_PROTOCOL* pProtocol
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetConnectionProtocol(
    CONNECTION_PROTOCOL[] pProtocol
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetConnectionProtocol(
+   CONNECTION_PROTOCOL* pProtocol
+);
+```
+---
 
 ## Parameters
 `pProtocol`\

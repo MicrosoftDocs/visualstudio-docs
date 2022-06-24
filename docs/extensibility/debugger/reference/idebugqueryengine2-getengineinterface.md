@@ -25,17 +25,19 @@ Gets a custom debug engine (DE) interface.
 
 ## Syntax
 
-```cpp
-HRESULT GetEngineInterface( 
-   IUnknown** ppUnk
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetEngineInterface( 
    out object ppUnk
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEngineInterface( 
+   IUnknown** ppUnk
+);
+```
+---
 
 ## Parameters
 `ppUnk`\

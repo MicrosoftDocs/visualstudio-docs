@@ -25,17 +25,19 @@ Skips over the specified number of elements.
 
 ## Syntax
 
-```cpp
-HRESULT Skip(
-   ULONG celt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Skip(
    uint celt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Skip(
+   ULONG celt
+);
+```
+---
 
 ## Parameters
 `celt`\

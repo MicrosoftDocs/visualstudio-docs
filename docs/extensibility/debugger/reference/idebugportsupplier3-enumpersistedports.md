@@ -25,19 +25,21 @@ This method retrieves an object that allows enumeration of the list of persisted
 
 ## Syntax
 
-```cpp
-HRESULT EnumPersistedPorts(
-   BSTR_ARRAY         PortNames,
-   IEnumDebugPorts2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumPersistedPorts(
    BSTR_ARRAY           PortNames,
    out IEnumDebugPorts2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumPersistedPorts(
+   BSTR_ARRAY         PortNames,
+   IEnumDebugPorts2** ppEnum
+);
+```
+---
 
 ## Parameters
 `PortNames`\

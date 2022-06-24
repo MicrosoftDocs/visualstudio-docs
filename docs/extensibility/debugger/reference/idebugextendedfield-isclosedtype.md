@@ -24,15 +24,17 @@ Determines if the field represents a closed type.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int IsClosedType();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT IsClosedType(
    void
 );
 ```
-
-```csharp
-int IsClosedType();
-```
+---
 
 ## Return Value
  If the field is a closed type, returns `S_OK`; otherwise, returns `S_FALSE`.

@@ -25,17 +25,19 @@ Gets a GUID for this program.
 
 ## Syntax
 
-```cpp
-HRESULT GetProgramId( 
-   GUID* pguidProgramId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProgramId( 
    out Guid pguidProgramId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProgramId( 
+   GUID* pguidProgramId
+);
+```
+---
 
 ## Parameters
 `pguidProgramId`\

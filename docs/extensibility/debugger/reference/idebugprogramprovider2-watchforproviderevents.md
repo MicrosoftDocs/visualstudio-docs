@@ -25,17 +25,7 @@ Allows the process to be notified of port events.
 
 ## Syntax
 
-```cpp
-HRESULT WatchForProviderEvents(
-   PROVIDER_FLAGS       Flags,
-   IDebugDefaultPort2*  pPort,
-   AD_PROCESS_ID        processId,
-   CONST_GUID_ARRAY     EngineFilter,
-   REFGUID              guidLaunchingEngine,
-   IDebugPortNotify2*   pEventCallback
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int WatchForProviderEvents(
    enum_PROVIDER_FLAGS   Flags,
@@ -46,6 +36,18 @@ int WatchForProviderEvents(
    IDebugPortNotify2     pEventCallback
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT WatchForProviderEvents(
+   PROVIDER_FLAGS       Flags,
+   IDebugDefaultPort2*  pPort,
+   AD_PROCESS_ID        processId,
+   CONST_GUID_ARRAY     EngineFilter,
+   REFGUID              guidLaunchingEngine,
+   IDebugPortNotify2*   pEventCallback
+);
+```
+---
 
 ## Parameters
 `Flags`\

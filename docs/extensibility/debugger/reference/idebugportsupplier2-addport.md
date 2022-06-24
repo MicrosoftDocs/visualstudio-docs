@@ -25,19 +25,21 @@ Adds a port.
 
 ## Syntax
 
-```cpp
-HRESULT AddPort( 
-   IDebugPortRequest2* pRequest,
-   IDebugPort2**       ppPort
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int AddPort( 
    IDebugPortRequest2 pRequest,
    out IDebugPort2    ppPort
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT AddPort( 
+   IDebugPortRequest2* pRequest,
+   IDebugPort2**       ppPort
+);
+```
+---
 
 ## Parameters
 `pRequest`\

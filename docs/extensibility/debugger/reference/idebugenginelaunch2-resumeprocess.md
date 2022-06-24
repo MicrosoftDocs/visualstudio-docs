@@ -25,17 +25,19 @@ Resumes process execution.
 
 ## Syntax
 
-```cpp
-HRESULT ResumeProcess ( 
-   IDebugProcess2* pProcess
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ResumeProcess ( 
    IDebugProcess2 pProcess
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ResumeProcess ( 
+   IDebugProcess2* pProcess
+);
+```
+---
 
 ## Parameters
 `pProcess`\

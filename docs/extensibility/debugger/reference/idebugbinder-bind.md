@@ -25,14 +25,7 @@ This method gets the memory context or object that contains the symbol's current
 
 ## Syntax
 
-```cpp
-HRESULT Bind( 
-   IDebugObject*  pContainer,
-   IDebugField*   pField,
-   IDebugObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Bind(
    IDebugObject     pContainer,
@@ -40,6 +33,15 @@ int Bind(
    out IDebugObject ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Bind( 
+   IDebugObject*  pContainer,
+   IDebugField*   pField,
+   IDebugObject** ppObject
+);
+```
+---
 
 ## Parameters
 `pContainer`\

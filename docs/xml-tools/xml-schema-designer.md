@@ -25,3 +25,6 @@ The XML Schema Designer (XSD Designer) is a graphical tool that allows you to vi
 - The [Graph View](../xml-tools/graph-view.md), which enables you to see an overview of a schema set and the relationships between the schema nodes.
 
 - The [Content Model View](../xml-tools/content-model-view.md), which provides a graphical representation of the details of local and global schema nodes, including simple and complex types, elements, groups, attributes, and attribute groups.
+
+> [!NOTE]
+> XSD Designer components support XML Schema Definition Language (XSD) 1.0.

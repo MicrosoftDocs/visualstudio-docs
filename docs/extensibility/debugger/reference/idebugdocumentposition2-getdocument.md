@@ -25,17 +25,19 @@ Gets the containing document.
 
 ## Syntax
 
-```cpp
-HRESULT GetDocument( 
-   IDebugDocument2** ppDoc
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocument( 
    out IDebugDocument2 ppDoc
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocument( 
+   IDebugDocument2** ppDoc
+);
+```
+---
 
 ## Parameters
 `ppDoc`\

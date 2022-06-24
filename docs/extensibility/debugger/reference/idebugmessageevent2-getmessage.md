@@ -26,16 +26,7 @@ Gets the message to be displayed.
 
 ## Syntax
 
-```cpp
-HRESULT GetMessage( 
-   MESSAGETYPE* pMessageType,
-   BSTR*        pbstrMessage,
-   DWORD*       pdwType,
-   BSTR*        pbstrHelpFileName,
-   DWORD*       pdwHelpId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMessage( 
    out enum_MESSAGETYPE pMessageType,
@@ -45,6 +36,17 @@ int GetMessage( 
    out uint             dwHelpId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMessage( 
+   MESSAGETYPE* pMessageType,
+   BSTR*        pbstrMessage,
+   DWORD*       pdwType,
+   BSTR*        pbstrHelpFileName,
+   DWORD*       pdwHelpId
+);
+```
+---
 
 ## Parameters
 `pMessageType`\

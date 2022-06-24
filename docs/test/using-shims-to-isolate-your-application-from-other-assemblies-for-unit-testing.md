@@ -96,6 +96,7 @@ It's critical to properly dispose each shim context. As a rule of thumb, call th
 
 In your test code, insert a *detour* for the method you want to fake. For example:
 
+### [C#](#tab/csharp)
 ```csharp
 [TestClass]
 public class TestClass1
@@ -127,6 +128,7 @@ public class TestClass1
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 <TestClass()> _
 Public Class TestClass1
@@ -152,6 +154,7 @@ Public Class TestClass1
     End Sub
 End Class
 ```
+---
 
 Shim class names are made up by prefixing `Fakes.Shim` to the original type name.
 

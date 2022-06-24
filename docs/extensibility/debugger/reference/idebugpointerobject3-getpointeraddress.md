@@ -24,17 +24,19 @@ Retrieves the address of the pointer.
 
 ## Syntax
 
-```cpp
-HRESULT GetPointerAddress (
-   UINT64* puAddress
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPointerAddress (
    out ulong puAddress
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPointerAddress (
+   UINT64* puAddress
+);
+```
+---
 
 ## Parameters
 `puAddress`
