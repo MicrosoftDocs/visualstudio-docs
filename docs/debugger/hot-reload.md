@@ -109,7 +109,7 @@ If you target .NET 6, you continue to get improvements in upcoming Visual Studio
 
 ## Supported ASP.NET Core Scenarios
 
-The basic Hot Reload experience is supported for many ASP.NET scenarios. The most widely available feature is the ability to change code-behind and other .NET class files for most types of web applications. This feature works while using the Visual Studio debugger and is present anywhere Edit and Continue was previously available.
+The basic Hot Reload experience is supported for many ASP.NET scenarios. The most widely available feature is the ability to change code-behind and other .NET class files for most types of web applications. This feature works while using the Visual Studio debugger and is present anywhere Edit and Continue was previously available. For more specific guidance, see [.NET Hot Reload support for ASP.NET Core](/aspnet/core/test/hot-reload).
 
 For ASP.NET Core developers who are targeting .NET 6, there are additional capabilities not available for lower versions of .NET. These capabilities include:
 
