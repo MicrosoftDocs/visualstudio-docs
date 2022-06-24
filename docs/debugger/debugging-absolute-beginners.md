@@ -288,27 +288,27 @@ Press **F5** or the **Start Debugging** button :::image type="content" source="/
 
 The app starts and there are no exceptions shown to us by the debugger. However, the output you see in the console window isn't what you expect. Here's the expected output:
 
-    ```
-    Tadpole  400,  Spiral
-    Pinwheel  25,  Spiral
-    Cartwheel, 500,  Lenticular
-    Small Magellanic Cloud .2,  Irregular
-    Andromeda  3,  Spiral
-    Maffei 1,  Elliptical
-    ```
+```
+Tadpole  400,  Spiral
+Pinwheel  25,  Spiral
+Cartwheel, 500,  Lenticular
+Small Magellanic Cloud .2,  Irregular
+Andromeda  3,  Spiral
+Maffei 1,  Elliptical
+ ```
 
-    But, we see this instead:
+But, we see this instead:
 
-    ```
-    Tadpole  400,  ConsoleApp_FirstApp.GType
-    Pinwheel  25,  ConsoleApp_FirstApp.GType
-    Cartwheel, 500,  ConsoleApp_FirstApp.GType
-    Small Magellanic Cloud .2,  ConsoleApp_FirstApp.GType
-    Andromeda  3,  ConsoleApp_FirstApp.GType
-    Maffei 1, 11,  ConsoleApp_FirstApp.GType
-    ```
+```
+Tadpole  400,  ConsoleApp_FirstApp.GType
+Pinwheel  25,  ConsoleApp_FirstApp.GType
+Cartwheel, 500,  ConsoleApp_FirstApp.GType
+Small Magellanic Cloud .2,  ConsoleApp_FirstApp.GType
+Andromeda  3,  ConsoleApp_FirstApp.GType
+Maffei 1, 11,  ConsoleApp_FirstApp.GType
+```
 
-    Looking at the output and our code, we know that `GType` is the name of the class that stores the galaxy type. We're trying to show the actual galaxy type (such as "Spiral"), not the class name!
+ Looking at the output and our code, we know that `GType` is the name of the class that stores the galaxy type. We're trying to show the actual galaxy type (such as "Spiral"), not the class name!
 
 ### Debug the app
 

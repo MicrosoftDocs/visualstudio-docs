@@ -34,7 +34,7 @@ The code coverage feature is available only in Visual Studio Enterprise edition.
 
     :::image type="content" source="media/vs-2019/analyze-code-coverage.png" alt-text="Screenshot of Test menu with Analyze code coverage highlighted.":::
     > [!TIP]
-    > You can also run code coverage from the Test Explorer tool window.
+    > You can also run code coverage from the **Test Explorer** tool window.
 
 1. After the tests have run, to see which lines have been run, choose ![Screenshot of Analyze code coverage menu in Visual Studio](../test/media/codecoverage-showcoloringicon.png) **Show Code Coverage Coloring** in the **Code Coverage Results** window. By default, code that is covered by tests is highlighted in light blue.
     :::image type="content" source="media/vs-2022/code-coverage-highlight.png" alt-text="Screenshot showing code coverage highlighted.":::
@@ -54,7 +54,7 @@ The code coverage feature is available only in Visual Studio Enterprise edition.
   >
   > - Turn compiler optimization off.
   > - If you're working with unmanaged (native) code, use a debug build.
-  > - Generate .pdb (symbol) files for each assembly.
+  > - Generate *.pdb* (symbol) files for each assembly.
 
 If you don't get the results you expect, see [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md).
 
@@ -77,7 +77,7 @@ You can also have the results displayed for lines by choosing **Add/Remove Colum
 
 The **Code Coverage Results** window usually shows the result of the most recent run. The results will vary if you change your test data, or if you run only some of your tests each time.
 
-The code coverage window can also be used to view previous results, or results obtained on other computers.
+The **Code Coverage Results** window can also be used to view previous results, or results obtained on other computers.
 
 You can merge the results of several runs, for example from runs that use different test data.
 
@@ -95,7 +95,7 @@ You can merge the results of several runs, for example from runs that use differ
 
 In some situations, different blocks in your code will be used depending on the test data. Therefore, you might want to combine the results from different test runs.
 
-For example, suppose that when you run a test with input "2", you find that 50% of a particular function is covered. When you run the test a second time with the input "-2", you see in the coverage coloring view that the other 50% of the function is covered. Now you merge the results from the two test runs, and the report and coverage coloring view show that 100% of the function was covered.
+For example, suppose that when you run a test with input "2", you find that 50% of a particular function is covered. When you run the test a second time with the input "-2", you see in the coverage coloring view that the other 50% of the function is covered. Now you merge the results from the two test runs, and the report and coverage coloring view shows that 100% of the function was covered.
 
 Use ![Icon for Merge button in Code Coverage window.](../test/media/codecoverage-mergeicon.png) **Merge Code Coverage Results** to do this. You can choose any combination of recent runs or imported results. If you want to combine exported results, you must import them first.
 
@@ -238,6 +238,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
 
 // After setting exclusions, restore the previous managed/unmanaged state:
 #pragma managed(pop)
+
 ```
 ---
 
