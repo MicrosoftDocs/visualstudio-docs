@@ -18,7 +18,7 @@ Before a new version of Visual Studio for Mac is officially released, it's avail
 
 Preview releases of Visual Studio for Mac can be installed next to the officially released stable version.
 
-[Download and install the preview release](https://aka.ms/installer/preview) of Visual Studio for Mac, to get started.
+[Download and install the preview release](https://aka.ms/installer/preview) of Visual Studio for Mac to get started.
 
 If you already have a version of the Preview release installed, you can update to the latest preview using the following steps:
 
