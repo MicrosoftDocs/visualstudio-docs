@@ -29,4 +29,4 @@ The following resources might be useful:
 
 - [Update a Visual Studio extension](../migration/update-visual-studio-extension.md)
 - [Breaking API list](../migration/breaking-api-list.md)
-- [Migrated PIA](../migration/migrated-assemblies.md)
+- [Migrated API](../migration/migrated-assemblies.md)
