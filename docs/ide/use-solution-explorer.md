@@ -35,7 +35,7 @@ The following table is a text-equivalent of the annotated screenshot, but with a
 
 |UI element  |Action  |
 |----------------------|---------|
-|**Menu** bar | Control how your files appear |
+|[**Menu** bar](#menu-bar) | Control how your files appear |
 |**Search** bar | Search for specific files and file types |
 |**Main** window | View and manage your files, projects, & solutions |
 |[**Solution** node](#solution-node-context-menu-options) | Manage your solution(s) |
@@ -48,7 +48,7 @@ The following table is a text-equivalent of the annotated screenshot, but with a
 
 To continue, let's take a closer look at the Solution Explorer menu bar.
 
-![Screenshot of the Solution Explorer menu bar in Visual Studio.](media/solution-explorer-menu-bar.png)
+:::image type="content" source="media/solution-explorer-menu-bar.png" alt-text="Screenshot of the Solution Explorer menu bar in Visual Studio." lightbox="media/solution-explorer-menu-bar.png:::
 
 The menu bar contains the following UI elements, from left to right:
 
