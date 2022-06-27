@@ -57,7 +57,7 @@ Before you can create ModelBus references to a model or its elements, define a M
 
       `[Microsoft.VisualStudio.Modeling.Integration.HostSpecific(HostName)]`
 
-   3. In the **References** of `ModelBusAdapter` project, add a NuGet PackageReference to `Microsoft.VisualStudio.TextTemplating.Modeling`.
+   3. In the **NuGet Package Manager** of `ModelBusAdapter` project, add a NuGet PackageReference to `Microsoft.VisualStudio.TextTemplating.Modeling`.
 
       If you want to access the DSL both from text templates and from other code, you need two adapters, one modified and one unmodified.
 
