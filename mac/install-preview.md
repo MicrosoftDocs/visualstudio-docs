@@ -16,7 +16,7 @@ ms.topic: how-to
 
 Before a new version of Visual Studio for Mac is officially released, it's available as a preview. The preview release gives you a chance to try out new features and get the latest bug fixes before they're fully incorporated into the product. You can learn more about what's new in the latest preview release by seeing the [Preview Release notes](https://aka.ms/vsmac-preview-release-notes).
 
-Preview releases of Visual Studio for Mac can be installed next to the officially released stable version.
+Preview releases of Visual Studio for Mac can be installed side-by-side with the officially released stable version.
 
 [Download and install the preview release](https://aka.ms/installer/preview) of Visual Studio for Mac to get started.
 
