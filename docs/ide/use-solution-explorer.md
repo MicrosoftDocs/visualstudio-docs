@@ -17,15 +17,15 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can use Solution Explorer to create & manage your solutions and projects and to view & interact with your code. In this article, we'll cover how to open Solution Explorer if you inadvertently closed it. Then, we'll describe the Solution Explorer user interface (UI) in detail.
+You can use Solution Explorer to create & manage your solutions and projects and to view & interact with your code. In this article, we'll cover how to open Solution Explorer if you inadvertently close it. Then, we'll describe the Solution Explorer user interface (UI) in detail.
 
 ## Open Solution Explorer
 
-By default, the Solution Explorer tool window appears as a pane in the upper-right side of the [Visual Studio integrated development environment](../get-started/visual-studio-ide.md) (IDE). If you don't see the Solution Explorer tool window, you can open it from the Visual Studio menu bar by using **View** > **Solution Explorer**, or by pressing **Ctrl**+**Alt**+**L**.
+By default, the Solution Explorer tool window appears as a pane in the upper-right side of the Visual Studio [integrated development environment](../get-started/visual-studio-ide.md) (IDE). If you don't see the Solution Explorer tool window, you can open it from the Visual Studio menu bar by using **View** > **Solution Explorer**, or by pressing **Ctrl**+**Alt**+**L**.
 
 :::image type="content" source="media/visual-studio-integrated-development-environment.png" alt-text="Screenshot of the Visual Studio IDE that shows where Solution Explorer is positioned." lightbox="media/visual-studio-integrated-development-environment.png":::
 
-## Tool window
+## Solution Explorer tool window
 
 Let's take a look at the Solution Explorer tool window and its UI (user interface). We'll start with an annotated screenshot of an open C# console solution that has two projects.
 
@@ -35,7 +35,7 @@ The following table is a text-equivalent of the annotated screenshot, but with a
 
 |UI element  |Action  |
 |----------------------|---------|
-|[**Menu** bar](#menu-bar) | Control how your files appear |
+|[**Menu** bar](#solution-explorer-menu-bar) | Control how your files appear |
 |**Search** bar | Search for specific files and file types |
 |**Main** window | View and manage your files, projects, & solutions |
 |[**Solution** node](#solution-node-context-menu-options) | Manage your solution(s) |
@@ -44,9 +44,9 @@ The following table is a text-equivalent of the annotated screenshot, but with a
 |**Program** node |  View, edit, and manage your program or application (app) |
 |[**Git Changes** tab](../version-control/git-with-visual-studio.md) |  Use Git & GitHub within Visual Studio to collaborate on projects with your team |
 
-## Menu bar
+## Solution Explorer menu bar
 
-To continue, let's take a closer look at the Solution Explorer menu bar.
+To continue, let's take a closer look at the menu bar in Solution Explorer.
 
 :::image type="content" source="media/solution-explorer-menu-bar.png" alt-text="Screenshot of the Solution Explorer menu bar in Visual Studio." lightbox="media/solution-explorer-menu-bar.png":::
 
@@ -66,7 +66,7 @@ The menu bar contains the following UI elements, from left to right:
 |**Properties** button | View and change settings for specific files and components |
 |**Preview Selected Items** button |  View a selected file or component in the code editor |
 
-## Context menu
+## Solution Explorer context menu
 
 In Solution Explorer, there are several options that you can interact with by using the right-click context menu. The  context-specific options that appear depend on whether you select a **Solution** node or a **Project** node.
 
