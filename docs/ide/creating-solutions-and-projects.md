@@ -2,7 +2,7 @@
 title: "Create projects & solutions"
 description: Learn how to create and use Visual Studio solutions and projects to store artifacts.
 ms.custom: "SEO-VS-2020, contperf-fy21q2"
-ms.date: 06/07/2022
+ms.date: 06/28/2022
 ms.topic: how-to
 f1_keywords:
 - vs.openprojectfromweb
@@ -29,9 +29,9 @@ In this article, you'll learn how to create and use Visual Studio projects from 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Create projects in Visual Studio for Mac](/visualstudio/mac/create-new-projects).
 
-You can view your solutions and projects in a tool window called **Solution Explorer**. The following screenshot shows an example solution in **Solution Explorer** (**BikeSharing.Xamarin-UWP**) that contains two projects: **BikeSharing.Clients.Core** and **BikeSharing.Clients.Windows**. Each project contains multiple files, folders, and references. The project name in bold is the *startup project*; that is, the project that starts when you run the app. You can specify which project is the startup project.
+You can view your solutions and projects in a tool window called **Solution Explorer**. The following screenshot shows an example C# console solution in **Solution Explorer** that contains two projects: **Calculator** and **CalculatorLibrary**. Each project contains multiple files and folders. The project name in bold is the *startup project*; that is, the project that starts when you run the app. You can specify which project is the startup project.
 
-![Screenshot of Solution Explorer with two projects.](./media/vside-solution-explorer-projects.png)
+:::image type="content" source="media/solution-explorer-two-projects-inline.png" alt-text="Screenshot of Solution Explorer with two projects." lightbox="media/solution-explorer-two-projects-expanded.png":::
 
 While you can construct a project yourself by adding the necessary files to it, Visual Studio offers a selection of project templates to give you a head start. Creating a new project from a template gives you a project with the essentials for that project type, and you can rename the files or add new or existing code and other resources to it as needed.
 
@@ -64,7 +64,6 @@ If you have a file that applies to multiple projects, such as a readme file for 
 ## Create a .NET project that targets a specific version of the .NET Framework
 
 When you create a .NET Framework project, you can specify a specific version of the .NET Framework that you want the project to use. (When you create a .NET Core project, you don't specify a framework version.)
-
 
 ::: moniker range=">=vs-2019"
 
