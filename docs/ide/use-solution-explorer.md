@@ -29,7 +29,7 @@ By default, the Solution Explorer tool window appears as a pane in the upper-rig
 
 Let's take a look at the Solution Explorer tool window and its UI (user interface). We'll start with an annotated screenshot of an open C# console solution that has two projects.
 
-:::image type="content" source="media/solution-explorer-tool-window.png" alt-text="An annotated screenshot of the Solution Explorer tool window in Visual Studio." lightbox="media/media/solution-explorer-tool-window.png":::
+:::image type="content" source="media/solution-explorer-tool-window.png" alt-text="An annotated screenshot of the Solution Explorer tool window in Visual Studio." lightbox="media/solution-explorer-tool-window.png":::
 
 The following table is a text-equivalent of the annotated screenshot, but with a few handy links you can use to learn more.
 
@@ -48,7 +48,7 @@ The following table is a text-equivalent of the annotated screenshot, but with a
 
 To continue, let's take a closer look at the Solution Explorer menu bar.
 
-:::image type="content" source="media/solution-explorer-menu-bar.png" alt-text="Screenshot of the Solution Explorer menu bar in Visual Studio." lightbox="media/solution-explorer-menu-bar.png:::
+:::image type="content" source="media/solution-explorer-menu-bar.png" alt-text="Screenshot of the Solution Explorer menu bar in Visual Studio." lightbox="media/solution-explorer-menu-bar.png":::
 
 The menu bar contains the following UI elements, from left to right:
 
@@ -94,7 +94,7 @@ What you see in the context menu from the **Project** node also depends on your 
 
 In the Solution Explorer context menu, one of the most useful options is the **Add** fly-out menu. From it, you can [add another project](../get-started/csharp/tutorial-console-part-2.md#add-another-project) to a solution. You can also add an item to a project, and more.
 
-:::image type="content" source="media/solution-explorer-context-menu-add-flyout.png" alt-text="Screenshot of the Add fly-out menu from the right-click context menu in Solution Explorer." lightbox="media/solution-explorer-context-menu-add-flyout.png:::
+:::image type="content" source="media/solution-explorer-context-menu-add-flyout.png" alt-text="Screenshot of the Add fly-out menu from the right-click context menu in Solution Explorer." lightbox="media/solution-explorer-context-menu-add-flyout.png":::
 
 You can view the **Add** fly-out menu from either the **Solution** node, the **Project** node, or the **Dependencies** node. The options vary, depending on which node you use.
 
