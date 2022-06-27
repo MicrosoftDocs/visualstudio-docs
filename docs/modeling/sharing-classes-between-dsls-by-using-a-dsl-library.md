@@ -14,14 +14,14 @@ ms.workload:
 - multiple
 ---
 
-# Share classes between DSLs by using a DSL Library
+# Share classes between DSLs
 
 [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In the Visual Studio Visualization and Modeling SDK, you can create an incomplete DSL Definition that you can import into another DSL. This approach lets you factor common parts of similar models.
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
-## Create a DSL Library
+## Create a DSL project
 
 1. Create a new DSL project, and choose the DSL Library solution template.
 
@@ -56,8 +56,6 @@ In the Visual Studio Visualization and Modeling SDK, you can create an incomplet
 5. Add to the DSL project a reference to the assembly (DLL) that was built by the DSL Library project.
 
 6. Build the solution.
-
-A DSL Library can import other libraries. When you import a library, its imports also automatically appear in DSL Explorer.
 
 ## See also
 
