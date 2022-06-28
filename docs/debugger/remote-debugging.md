@@ -2,7 +2,7 @@
 title: "Remote debugging"
 description: Debug a Visual Studio application that has been deployed on a different computer by using the Visual Studio remote debugger.
 ms.custom: ['remotedebugging', 'SEO-VS-2020']
-ms.date: 05/27/2022
+ms.date: 06/22/2022
 ms.topic: conceptual
 f1_keywords:
   - "vs.debug.remote.overview"
@@ -58,9 +58,9 @@ You can find the remote debugger (*msvsmon.exe*) on a computer with Visual Studi
 
    ::: moniker range=">=vs-2022"
 
-   *Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Remote Debugger\x64\msvsmon.exe*
+   *Program Files\Microsoft Visual Studio 17.0\Common7\IDE\Remote Debugger\x64\msvsmon.exe*
 
-   *Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Remote Debugger\x86\msvsmon.exe*
+   *Program Files\Microsoft Visual Studio 17.0\Common7\IDE\Remote Debugger\x86\msvsmon.exe*
 
    ::: moniker-end
    ::: moniker range="vs-2019"

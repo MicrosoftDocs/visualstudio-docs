@@ -1,7 +1,7 @@
 ---
 title: Options, Text Editor, Advanced
 description: Learn how to use the Advanced dialog box to change global settings for the Visual Studio text editor.
-ms.date: 06/17/2022
+ms.date: 06/23/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Advanced
@@ -100,7 +100,7 @@ Selected by default, the option copies text that includes colors and ligatures. 
 
 ### Max length
 
-Use this option to increase or decrease the maximum character count of text you copy or cut from your code. The default is set to **10240**.
+Use this option to increase or decrease the maximum character count of rich text you can copy or cut from your code. The default is set to **10240**. (Beyond this limit, text is still copied, but as plain text rather than rich text.)
 
 ### Use accurate classification
 

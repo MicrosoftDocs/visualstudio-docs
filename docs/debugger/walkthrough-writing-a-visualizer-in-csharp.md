@@ -300,7 +300,7 @@ In this section, you switch from the `System.String` data object to a custom dat
    // String myString = "Hello, World";
    CustomDataObject customDataObject = new CustomDataObject();
 
-   DebuggerSide.TestShowVisualizer(customDataObject.MyData);
+   DebuggerSide.TestShowVisualizer(customDataObject);
    ```
 
 1. (.NET console app) Enclose the call to `TestShowVisualizer` in a try-catch statement, since the test harness is unsupported.
@@ -308,7 +308,7 @@ In this section, you switch from the `System.String` data object to a custom dat
    ```csharp
    try
    {
-         DebuggerSide.TestShowVisualizer(customDataObject.MyData);
+         DebuggerSide.TestShowVisualizer(customDataObject);
    }
    catch (Exception) {
    }
