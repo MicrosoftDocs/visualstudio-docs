@@ -1,7 +1,7 @@
 ---
 title: "Debugging code for absolute beginners"
 description: "If you're debugging for the first time, learn a few principles to help you run your app in debugging mode with Visual Studio."
-ms.date: 06/24/2022
+ms.date: 06/28/2022
 ms.topic: tutorial
 helpviewer_keywords:
   - "debugger"
@@ -62,7 +62,7 @@ When you normally run an app, you see errors and incorrect results only after th
 
 Running an app within a debugger, also called *debugging mode*, means that the debugger actively monitors everything that’s happening as the program runs. It also allows you to pause the app at any point to examine its state and then step through your code line by line to watch every detail as it happens.
 
-In Visual Studio, you enter debugging mode by using **F5** (or the **Debug** > **Start Debugging** menu command or the **Start Debugging** button :::image type="content" source="/media/dbg-tour-start-debugging.png" alt-text="Icon showing Start Debugging button."::: in the Debug Toolbar). If any exceptions occur, Visual Studio’s Exception Helper takes you to the exact point where the exception occurred and provides other helpful information. For more information on how to handle exceptions in your code, see [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md).
+In Visual Studio, you enter debugging mode by using **F5** (or the **Debug** > **Start Debugging** menu command or the **Start Debugging** button :::image type="content" source="../debugger/media/dbg-tour-start-debugging.png" alt-text="Icon showing Start Debugging button."::: in the Debug Toolbar). If any exceptions occur, Visual Studio’s Exception Helper takes you to the exact point where the exception occurred and provides other helpful information. For more information on how to handle exceptions in your code, see [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md).
 
 If you didn't get an exception, you probably have a good idea of where to look for the problem in your code. This is where you use *breakpoints* with the debugger to give yourself a chance to examine your code more carefully. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should pause your running code so you can take a look at the values of variables, or the behavior of memory, the sequence in which code runs.
 
@@ -284,7 +284,7 @@ Next, we'll create an application that has a few bugs.
 
 ### Run the app
 
-Press **F5** or the **Start Debugging** button :::image type="content" source="/media/dbg-tour-start-debugging.png" alt-text="Icon showing Start Debugging button."::: in the Debug Toolbar, located above the code editor.
+Press **F5** or the **Start Debugging** button :::image type="content" source="../debugger/media/dbg-tour-start-debugging.png" alt-text="Icon showing Start Debugging button."::: in the Debug Toolbar, located above the code editor.
 
 The app starts and there are no exceptions shown to us by the debugger. However, the output you see in the console window isn't what you expect. Here's the expected output:
 
@@ -337,7 +337,7 @@ Maffei 1, 11,  ConsoleApp_FirstApp.GType
 
     As we see a problem in the output, we'll start debugging by looking at the preceding code that sets the output in the debugger.
 
-1. Click the **Restart** :::image type="content" source="/media/dbg-tour-restart.png" alt-text="Icon showing RestartApp button in Debug toolbar."::: button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**).
+1. Click the **Restart** :::image type="content" source="../debugger/media/dbg-tour-restart.png" alt-text="Icon showing RestartApp button in Debug toolbar."::: button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**).
 
     The app pauses at the breakpoint that you set. The yellow highlighting indicates where the debugger is paused (the yellow line of code hasn't yet been executed).
 
@@ -349,14 +349,14 @@ Maffei 1, 11,  ConsoleApp_FirstApp.GType
 
 1. In the same code, while still debugging, put your cursor at the end of `theGalaxy.GalaxyType` and change it to `theGalaxy.GalaxyType.MyGType`. Although you can make this change, the code editor shows you an error indicating it can't compile this code. (In Visual Basic, you won't see the error, and this section of code works)
 
-    :::image type="content" source="/media/beginners-edit.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and an Edit and Continue message box with the Edit button selected.":::
+    :::image type="content" source="../debugger/media/beginners-edit.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and an Edit and Continue message box with the Edit button selected.":::
 
    > [!NOTE]
-   > For debugging the Visual Basic example code, skip the next few steps until you're instructed to click the **Restart** :::image type="content" source="/media/dbg-tour-restart.png" alt-text="Icon showing Restart app button in Debug toolbar."::: button.
+   > For debugging the Visual Basic example code, skip the next few steps until you're instructed to click the **Restart** :::image type="content" source="../debugger/media/dbg-tour-restart.png" alt-text="Icon showing Restart app button in Debug toolbar."::: button.
 
 1. Click **Edit** in the **Edit and Continue** message box. You see an error message now in the **Error List** window. The error indicates that the `'object'` doesn't contain a definition for `MyGType`.
 
-    :::image type="content" source="/media/beginners-no-definition.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and an Error List window with two errors listed.":::
+    :::image type="content" source="../debugger/media/beginners-no-definition.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and an Error List window with two errors listed.":::
 
     Even though we set each galaxy with an object of type `GType` (which has the `MyGType` property), the debugger doesn't recognize the `theGalaxy` object as an object of type `GType`. What's going on? You want to look through any code that sets the galaxy type. When you do this, you see that the `GType` class definitely has a property of `MyGType`, but something isn't right. The error message about `object` turns out to be the clue; to the language interpreter, the type appears to be an object of type `object` instead of an object of type `GType`.
 
@@ -372,7 +372,7 @@ Maffei 1, 11,  ConsoleApp_FirstApp.GType
     public GType GalaxyType { get; set; }
     ```
 
-1. Click the **Restart** :::image type="content" source="/media/dbg-tour-restart.png" alt-text="Icon showing Restart app button in Debug toolbar."::: button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**) to recompile code and restart.
+1. Click the **Restart** :::image type="content" source="../debugger/media/dbg-tour-restart.png" alt-text="Icon showing Restart app button in Debug toolbar."::: button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**) to recompile code and restart.
 
     Now, when the debugger pauses on `Console.WriteLine`, you can hover over `theGalaxy.GalaxyType.MyGType`, and see that the value is properly set.
 
@@ -407,7 +407,7 @@ Maffei 1, 11,  ConsoleApp_FirstApp.GType
 
     This code is where the galaxy type is set, so we want to take a closer look at it.
 
-1. Click the **Restart** :::image type="content" source="/media/dbg-tour-restart.png" alt-text="Icon showing Restart app button in Debug toolbar."::: button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**) to restart.
+1. Click the **Restart** :::image type="content" source="../debugger/media/dbg-tour-restart.png" alt-text="Icon showing Restart app button in Debug toolbar."::: button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**) to restart.
 
     The debugger pauses on the line of code where you set the breakpoint.
 

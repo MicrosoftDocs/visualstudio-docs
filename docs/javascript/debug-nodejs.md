@@ -1,7 +1,7 @@
 ---
 title: "Debug a JavaScript or TypeScript app"
 description: Visual Studio provides support for debugging JavaScript and TypeScript apps in Visual Studio.
-ms.date: "06/24/2022"
+ms.date: "06/28/2022"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -58,7 +58,7 @@ For help with generating source maps, see [Generate source maps for debugging](#
 
 ### <a name="prepare_the_browser_for_debugging"></a> Prepare the browser for debugging
 
-For this scenario, use either Microsoft Edge (Chromium), currently named **Microsoft Edge Beta** in the IDE, or Chrome.
+For this scenario, use either Microsoft Edge (Chromium) or Chrome.
 
 1. Close all windows for the target browser.
 
