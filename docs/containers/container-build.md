@@ -180,33 +180,34 @@ This scenario applies when you want to do something with your containers to help
 
 To modify the container only for debugging, create a stage and then use the configuration setting `DockerfileFastModeStage` to tell Visual Studio to use your customized stage when debugging. Refer to the [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) in the Docker documentation for information about Dockerfile commands.
 
-In the following example, we install the tool `dotnet-gcdump`, but only in debug mode. The installation of the tool requires the .NET SDK to be installed, so it needs to be based on the `sdk` image, whereas `base` in the default Dockerfile that Visual Studio generates is based on the `aspnet` image which has runtime support only. The stage we use for fast mode debugging is `debug`, a custom stage defined here. The fast mode stage does not need to inherit from the `build` or `publish` stage, it can inherit directly from the `sdk` image from the registry, because Visual Studio will mount a volume that contains everything needed to run the app, as described earlier in this article.
+In the following example, we install the package `procps-ng`, but only in debug mode. This supplies the command `pidof` which the debugger requires, but needs to be installed, because isn't in the Mariner image. The stage we use for fast mode debugging is `debug`, a custom stage defined here. The fast mode stage does not need to inherit from the `build` or `publish` stage, it can inherit directly from the `base` stage, because Visual Studio will mount a volume that contains everything needed to run the app, as described earlier in this article.
 
 ```dockerfile
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+FROM mcr.microsoft.com/dotnet/aspnet:6.0-cbl-mariner2.0 AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+
+FROM base as debug
+RUN tdnf install procps-ng -y
+
+FROM mcr.microsoft.com/dotnet/sdk:6.0-cbl-mariner2.0 AS build
 WORKDIR /src
-COPY ["WebApplication2/WebApplication2.csproj", "WebApplication2/"]
-RUN dotnet restore "WebApplication2/WebApplication2.csproj"
+COPY ["WebApplication38/WebApplication1.csproj", "WebApplication1/"]
+RUN dotnet restore "WebApplication1/WebApplication38.csproj"
 COPY . .
-WORKDIR "/src/WebApplication2"
-RUN dotnet build "WebApplication2.csproj" -c Release -o /app/build
+WORKDIR "/src/WebApplication1"
+RUN dotnet build "WebApplication1.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "WebApplication2.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "WebApplication1.csproj" -c Release -o /app/publish
 
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS debug
-WORKDIR /app
-RUN dotnet tool install --global dotnet-gcdump
-ENV PATH=$PATH:/root/.dotnet/tools
-EXPOSE 80
-EXPOSE 443
-
-FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS final
+FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-EXPOSE 80
-EXPOSE 443
-ENTRYPOINT ["dotnet", "WebApplication2.dll"]
+ENTRYPOINT ["dotnet", "WebApplication1.dll"]
 ```
 
 In the project file, add this setting to tell Visual Studio to use your custom stage `debug` when debugging.
