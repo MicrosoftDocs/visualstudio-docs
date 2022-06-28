@@ -73,7 +73,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
  If you want to create a single app that targets the full breadth of Windows 10 devices, create a universal Windows app. You'll design the app by using a single project and your pages will render properly no matter what device is used to view them.
 
- Start with a Universal Windows Platform (UWP) app project template. Design your pages visually, and then open them in a preview window to see how they appear for various types of devices. If you don't like how a page appears on a device, you can optimize the page to better fit the screen size, resolution, or various orientations such as landscape or portrait mode. You can do all of that by using intuitive tool windows and easily accessible menu options in Visual Studio. When you're ready to run your app and step through your code, you'll find all of the device emulators and simulators for different types of devices together in one drop-down list that is located on the **Standard** toolbar.
+ Start with a Universal Windows Platform (UWP) app project template. Design your pages visually, and then open them in a preview window to see how they appear for various types of devices. If you don't like how a page appears on a device, you can optimize the page to better fit the screen size, resolution, or various orientations such as landscape or portrait mode. You can do all of that by using intuitive tool windows and easily accessible menu options in Visual Studio. When you're ready to run your app, and step through your code, you'll find all of the device emulators and simulators for different types of devices together in one drop-down list that is located on the **Standard** toolbar.
 
 |**Learn more**|
 |--------------------|
@@ -122,7 +122,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
  :::image type="content" source="../cross-platform/media/vstu_overview.png" alt-text="Screenshot showing the overview of Visual Studio Tools for Unity and development environment.":::
 
- With Visual Studio Tools for Unity (VSTU), you can use Visual Studio to write game and editor scripts in C# and then use its powerful debugger to find and fix errors. The latest release of VSTU brings support for Unity 2018.1 and includes syntax coloring for Unity's ShaderLab shader language, better synchronization with Unity, richer debugging, and improved code generation for the MonoBehavior wizard. VSTU also brings your Unity project files, console messages, and the ability to start your game into Visual Studio so you can spend less time switching to and from the Unity Editor while writing code.
+ With Visual Studio Tools for Unity (VSTU), you can use Visual Studio to write game and editor scripts in C# and then use its powerful debugger to find and fix errors. The latest release of VSTU brings support for Unity 2019.4 and includes syntax coloring for Unity's ShaderLab shader language, better synchronization with Unity, richer debugging, and improved code generation for the MonoBehavior wizard. VSTU also brings your Unity project files, console messages, and the ability to start your game into Visual Studio so you can spend less time switching to and from the Unity Editor while writing code.
 
 |**Learn more**|
 |--------------------|
