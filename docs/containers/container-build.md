@@ -180,7 +180,7 @@ This scenario applies when you want to do something with your containers to help
 
 To modify the container only for debugging, create a stage and then use the configuration setting `DockerfileFastModeStage` to tell Visual Studio to use your customized stage when debugging. Refer to the [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) in the Docker documentation for information about Dockerfile commands.
 
-In the following example, we install the package `procps-ng`, but only in debug mode. This supplies the command `pidof` which the debugger requires, but needs to be installed, because isn't in the Mariner image. The stage we use for fast mode debugging is `debug`, a custom stage defined here. The fast mode stage does not need to inherit from the `build` or `publish` stage, it can inherit directly from the `base` stage, because Visual Studio will mount a volume that contains everything needed to run the app, as described earlier in this article.
+In the following example, we install the package `procps-ng`, but only in debug mode. This supplies the command `pidof`, which the debugger requires but isn't in the Mariner image used here. The stage we use for fast mode debugging is `debug`, a custom stage defined here. The fast mode stage does not need to inherit from the `build` or `publish` stage, it can inherit directly from the `base` stage, because Visual Studio will mount a volume that contains everything needed to run the app, as described earlier in this article.
 
 ```dockerfile
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
