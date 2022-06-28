@@ -196,7 +196,7 @@ RUN tdnf install procps-ng -y
 FROM mcr.microsoft.com/dotnet/sdk:6.0-cbl-mariner2.0 AS build
 WORKDIR /src
 COPY ["WebApplication38/WebApplication1.csproj", "WebApplication1/"]
-RUN dotnet restore "WebApplication1/WebApplication38.csproj"
+RUN dotnet restore "WebApplication1/WebApplication1.csproj"
 COPY . .
 WORKDIR "/src/WebApplication1"
 RUN dotnet build "WebApplication1.csproj" -c Release -o /app/build
