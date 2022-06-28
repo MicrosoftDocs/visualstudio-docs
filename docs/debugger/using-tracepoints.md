@@ -1,8 +1,8 @@
 ---
 title: "Log info with tracepoints | Microsoft Docs"
 description: Set tracepoints to log info to Output without modifying or stopping your code. Just specify an output string under the Action checkbox in Breakpoint Settings.
-ms.custom: SEO-VS-2020
-ms.date: "10/28/2019"
+ms.custom: SEO-VS-2020, devdivchpfy22
+ms.date: "06/28/2022"
 ms.topic: "how-to"
 helpviewer_keywords:
   - "tracepoints, about tracepoints"
@@ -23,7 +23,7 @@ code. This feature is supported for both managed languages (C#, Visual Basic, F#
 
 The following example program is a simple `for` loop with a counter variable that increases by one every time the loop runs another iteration.
 
-![Counter Example](../debugger/media/counterexample.png "Counter Example")
+:::image type="content" source="../debugger/media/counterexample.png" alt-text="Screenshot of a sample counter program.":::
 
 ## Set tracepoints in source code
 
@@ -31,26 +31,26 @@ You can set tracepoints by specifying an output string under the **Action** chec
 
 1. To initialize a tracepoint, first click on the gutter to the left of the line number where you want to set the tracepoint.
 
-   ![Breakpoint Initialization](../debugger/media/breakpointinitialization.png "Breakpoint Initialization")
+   :::image type="content" source="../debugger/media/breakpointinitialization.png" alt-text="Screenshot showing the Breakpoint Initialization in the sample code.":::
 
-2. Hover over the red circle and then click the gear icon.
-3. This opens the **Breakpoint Settings** window.
+1. Hover over the red circle and then click the gear icon.
+1. This opens the **Breakpoint Settings** window.
 
-   ![Breakpoint Window](../debugger/media/breakpointwindow.png "Breakpoint Window")
+   :::image type="content" source="../debugger/media/breakpointwindow.png" alt-text="Screenshot showing Breakpoint Window.":::
 
-4. Select the **Action** checkbox.
+1. Select the **Action** checkbox.
 
-   ![Checked Actions Box](../debugger/media/checkedactionsbox.png "Checked Actions Box")
+   :::image type="content" source="../debugger/media/checkedactionsbox.png" alt-text="Screenshot of breakpoint window with Actions Box checked.":::
 
    Notice how the red circle changes to a diamond indicating that you have switched from a breakpoint to tracepoint.
 
-5. Enter the message you want to log into the **Show a message in the Output Window** text box (for details, see later sections in this article).
+1. Enter the message you want to log into the **Show a message in the Output Window** text box (for details, see later sections in this article).
 
    Your tracepoint is now set. Hit the &quot;Close&quot; button if all you want to do is log some information to the Output Window.
 
-6. If you want to add conditions that determine whether your message is displayed, select the **Conditions** checkbox.
+1. If you want to add conditions that determine whether your message is displayed, select the **Conditions** checkbox.
 
-   ![Checked Conditions Box](../debugger/media/checkedconditionsbox.png "Checked Conditions Box")
+   :::image type="content" source="../debugger/media/checkedconditionsbox.png" alt-text="Screenshot of breakpoint window with Conditions Box checked.":::
 
    You have three choices for conditions: **Conditional Expression**, **Filter**, and **Hit Count**.
 
@@ -60,11 +60,11 @@ This menu allows you to log a message to the Output window. Type the strings you
 
 For example, if you want to display the value of the `counter` variable in the output console, type {counter} in the message text box.
 
-![Counter Output Message](../debugger/media/counteroutputmessage.png "Counter Output Message")
+:::image type="content" source="../debugger/media/counteroutputmessage.png" alt-text="Screenshot showing Counter Output Message.":::
 
 If you click **Close** and then debug the program (**F5**), you see the following output in the Output window.
 
-![Actions Message In Output Window](../debugger/media/actionsmessageinoutputwindow.png "Actions Message In Output Window")
+:::image type="content" source="../debugger/media/actionsmessageinoutputwindow.png" alt-text="Screenshot showing Actions Message In Output Window.":::
 
 You can also use special keywords to display more specific information. Enter the keyword exactly as shown below (use a "$" in front of each keyword and all caps for the keyword itself).
 
@@ -85,15 +85,16 @@ You can also use special keywords to display more specific information. Enter th
 Conditions allow you to filter your output messages, so they display only under certain scenarios. There are three main kinds of conditions available to you.
 
 ### Conditional expression
+
 For a conditional expression, an output message displays only when certain conditions are met.
 
 For conditional expressions, you can either set the tracepoint to output a message when a certain condition is true or when it has changed. For example, if you only want to display the value of counter during even iterations of the `for` loop, you could select the **Is true** option and then type `i%2 == 0` in the message text box.
 
-![Conditional Expression Is True](../debugger/media/conditionalexpressionistrue.png "Conditional Expression Is True")
+:::image type="content" source="../debugger/media/conditionalexpressionistrue.png" alt-text="Screenshot showing Conditional Expression Is True.":::
 
 If you want to print the value of counter when the iteration of the `for` loop changes, select the **When changed** option and type `i` in the message text box.
 
-![Conditional Expression When Changed](../debugger/media/conditionalexpressionwhenchanged.png "Conditional Expression When Changed")
+:::image type="content" source="../debugger/media/conditionalexpressionwhenchanged.png" alt-text="Screenshot showing when Conditional Expression is Changed.":::
 
 The behavior of the  **When changed**  option is different for different programming languages.
 
@@ -103,16 +104,18 @@ The behavior of the  **When changed**  option is different for different program
 For a more comprehensive look at valid expressions you can use while setting conditions, see [Expressions in the debugger](expressions-in-the-debugger.md).
 
 ### Hit count
+
 A hit count condition allows you to send output only after the line of code where the tracepoint is set has executed a specified number of times.
 
 For hit count, you can choose to output a message when the line of code where the tracepoint is set has executed a number of times that is equal to, is a multiple of, or is greater than or equal to the specified hit count value. Choose the option that best suits your needs and type an integer value in the field (for example, 5) that represents that iteration of interest.
 
-![Conditional Expression Hit Count](../debugger/media/conditionalexpressionhitcount.png "Conditional Expression Hit Count")
+:::image type="content" source="../debugger/media/conditionalexpressionhitcount.png" alt-text="Screenshot showing Conditional Expression Hit Count.":::
 
 ### Filter
+
 For a filter condition, specify which devices, processes, or threads output is shown for.
 
-![Conditional Expression Filter](../debugger/media/conditionalexpressionfilter.png "Conditional Expression Filter")
+:::image type="content" source="../debugger/media/conditionalexpressionfilter.png" alt-text="Screenshot showing Conditional Expression Filter.":::
 
 List of filter expressions:
 
