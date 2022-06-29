@@ -1,8 +1,8 @@
 ---
 title: "Quickstart: Install & configure Visual Studio Tools for Unity"
 description: "Quickstart: Learn how to connect Unity and Visual Studio for cross-platform development. Visual Studio Tools for Unity offers support for writing and debugging."
-ms.date: "06/15/2022"
-ms.custom: kr2b-contr-experiment
+ms.date: "06/22/2022"
+ms.custom: kr2b-contr-experiment, devdivchpfy22
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
 ms.topic: quickstart
@@ -32,7 +32,7 @@ In this quickstart, you learn how to install the Visual Studio Tools for Unity e
 1. If Unity isn't already installed, select **Unity Hub** under **Optional**.
 1. Select **Modify** or **Install** to complete the installation.
 
-   ![Screenshot of the game development with Unity workload checkbox in the installer.](../media/vs/unity-workload.png)
+   :::image type="content" source="../media/vs/unity-workload.png" alt-text="Screenshot of the game development with Unity workload checkbox in the installer.":::
 
 When Visual Studio completes the installation process, you're ready to set up Unity.
 

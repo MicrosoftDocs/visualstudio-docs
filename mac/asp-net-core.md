@@ -4,7 +4,7 @@ description: "This article describes how to get started with ASP.NET in Visual S
 author: jmatthiesen
 ms.author: jomatthi
 manager: dominicn
-ms.date: 05/02/2022
+ms.date: 06/29/2022
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 ms.custom: video, devdivchpfy22
 no-loc: [Blazor, "Blazor WebAssembly"]
@@ -18,12 +18,14 @@ monikerRange: ">=vsmac-2019"
 Visual Studio for Mac makes it easy to develop your app's service with its support for the latest ASP.NET Core Web development platform. ASP.NET Core runs on the latest evolution of the .NET platform and runtime. It's been tuned for fast performance, factored for small install sizes, and reimagined to run on Linux and macOS, as well as Windows.
 
 ::: moniker range="vsmac-2019"
+
 ## Installing .NET Core
 
 .NET Core 3.1 is automatically installed when you install Visual Studio for Mac. For more information about versions of .NET Core supported in Visual Studio for Mac, see [Supported versions of .NET](./supported-versions-net.md).
 ::: moniker-end
 
 ::: moniker range="vsmac-2022"
+
 ## Installing .NET 6
 
 .NET 6 is automatically installed when you install Visual Studio for Mac. For more information about versions of .NET supported in Visual Studio for Mac, see [Supported versions of .NET](./supported-versions-net.md).
@@ -37,7 +39,7 @@ Open Visual Studio for Mac. On the Start Screen, select **New Project...**
 
 The **New Project** dialog is shown. It lets you select a template to create your application.
 
-There are many projects that'll provide you with a pre-built template to start building your ASP.NET Core Application. They are:
+There are many projects that will provide you with a pre-built template to start building your ASP.NET Core Application. They are:
 
 - **.NET Core > Empty**
 - **.NET Core > API**
@@ -52,7 +54,7 @@ Select the **ASP.NET Core Empty Web Application** and select **Next**. Give the 
 
 :::image type="content" source="media/asp-net-core-2019-empty-project.png" alt-text="This screenshot shows new ASP.NET Core Empty Project view while creating an ASP.NET Core app." lightbox="media/asp-net-core-2019-empty-project.png":::
 
-The ASP.NET Core Empty template creates a web application with two default files: **Program.cs** and **Startup.cs**, that are explained here. It also creates a **Dependencies** folder, which contains your project's NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
+The ASP.NET Core Empty template creates a web application with two default files: **Program.cs** and **Startup.cs** that are explained here. It also creates a **Dependencies** folder, which contains your project's NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
 
 ![This is a screenshot of Solution window displaying dependencies.](media/asp-net-core-2019-solution-dependencies.png)
 
@@ -237,7 +239,7 @@ To add a controller, follow these steps:
 ::: moniker-end
 
 ::: moniker range="vsmac-2022"
-Open and inspect the **Program.cs** file in your project. Notice that several things are happening. The first is that there is not a `Main` method. By default the Empty template is configured to use the minimal Web API type projects introduced in .NET 6.
+Open and inspect the **Program.cs** file in your project. Notice that several things are happening. The first is that there isn't a `Main` method. By default the Empty template is configured to use the minimal Web API type projects introduced in .NET 6.
 
 ```csharp
 var builder = WebApplication.CreateBuilder(args);
@@ -278,7 +280,7 @@ Once the project is running, your default web browser should launch and connect 
 
 ## Troubleshooting
 
-If you need to install .NET Core manually on macOS 10.12 (Sierra) and higher, follow these steps:
+If you need to install .NET Core manually on macOS 10.12 (Sierra) and higher follow these steps:
 
 1. Before you start installing .NET Core, ensure that you've updated all OS updates to the latest stable version. You can check by going to the App Store application, and selecting the **Updates** tab.
 
@@ -297,4 +299,4 @@ For more information on the next steps from here, see the following guides:
 
 ## Related Video
 
-> [!Video https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Build-Your-First-App/player]
+>[!Video https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Build-Your-First-App/player]
