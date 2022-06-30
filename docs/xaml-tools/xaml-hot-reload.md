@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "xaml edit and continue"
   - "xaml hot reload"
-author: TerryGLee
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.custom: "contperf-fy22q1"
 ms.technology: vs-xaml-tools
