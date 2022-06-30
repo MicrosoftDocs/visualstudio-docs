@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "xaml data binding"
   - "xaml diagnostics"
-author: spadapet
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
 ms.workload:
