@@ -42,28 +42,7 @@ To resolve the error, make sure that your application targets a .NET version tha
 
 ### Updating references in app.config
 
- To work around application settings, open **Solution Explorer**, choose **Show All Files**, and then edit the *app.config* file in the XML editor of Visual Studio. Change the version in the settings to match the appropriate version of .NET. For example, you can change the version setting from 4.0.0.0 to 2.0.0.0. Similarly, for an application that has added resources, open **Solution Explorer**, choose the **Show All Files** button, expand **My Project** (Visual Basic) or **Properties** (C#), and then edit the *Resources.resx* file in the XML editor of Visual Studio. Change the version setting from 4.0.0.0 to 2.0.0.0.
-
-### Updating references in runtimeconfig.json
-
-If your app uses *[appname].runtimeconfig.json* for configuration, update the .NET version in the `framework.version` element.
-
-```json
-{
-  "runtimeOptions": {
-    "tfm": "netcoreapp3.1",
-    "framework": {
-      "name": "Microsoft.NETCore.App",
-      "version": "3.1.0"
-    },
-    "configProperties": {
-      "System.GC.Concurrent": false,
-      "System.Threading.ThreadPool.MinThreads": 4,
-      "System.Threading.ThreadPool.MaxThreads": 25
-    }
-  }
-}
-```
+ To work around application settings in .NET Framework applications, open **Solution Explorer**, choose **Show All Files**, and then edit the *app.config* file in the XML editor of Visual Studio. Change the version in the settings to match the appropriate version of .NET. For example, you can change the version setting from 4.0.0.0 to 2.0.0.0. Similarly, for an application that has added resources, open **Solution Explorer**, choose the **Show All Files** button, expand **My Project** (Visual Basic) or **Properties** (C#), and then edit the *Resources.resx* file in the XML editor of Visual Studio. Change the version setting from 4.0.0.0 to 2.0.0.0.
 
 ### Updating resources
 
