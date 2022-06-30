@@ -25,7 +25,7 @@ This topic describes MSBuild errors that might occur because of reference issues
 
 ## You have referenced a project or assembly that targets a different version of .NET
 
- You can create applications that reference projects or assemblies that target different versions of .NET. For example, you can create an application that targets .NET 6 but references an assembly that targets the .NET 3.1. However, if you create a project that targets an earlier version of .NET, you can't set a reference in that project to a project or assembly that targets .NET 6.  Here's an example of the error you might see in this case:
+ You can create applications that reference projects or assemblies that target different versions of .NET. For example, you can create an application that targets .NET 6 but references an assembly that targets .NET Core 3.1. However, if you create a project that targets an earlier version of .NET, you can't set a reference in that project to a project or assembly that targets .NET 6.  Here's an example of the error you might see in this case:
 
  ```output
  error NU1201: Project ClassLibrary-NET6 is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project ClassLibrary-NET6 supports: net6.0 (.NETCoreApp,Version=v6.0)
@@ -36,7 +36,7 @@ To resolve the error, make sure that your application targets a .NET version tha
 
 ## You have re-targeted a project to a different version of .NET
 
- If you change the target version of .NET for your application, Visual Studio changes some of the references, but you might have to update some references manually. For example, one of the previously mentioned errors might occur if you change an application to target .NET 3.1 and that application has resources or settings that rely on .NET 6.
+ If you change the target version of .NET for your application, Visual Studio changes some of the references, but you might have to update some references manually. For example, one of the previously mentioned errors might occur if you change an application to target .NET Core 3.1 and that application has references, resources, or settings that rely on .NET 6.
 
 ![Screenshot showing changing the target framework in Visual Studio.](media/vs-2022/change-target-framework.png)
 
