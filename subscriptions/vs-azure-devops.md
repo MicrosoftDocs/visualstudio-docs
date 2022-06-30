@@ -4,13 +4,13 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: fe826200-9600-4b29-a64e-0d66ba3caf3d
-ms.date: 06/06/2022
+ms.date: 06/30/2022
 ms.topic: conceptual
 description:  Understand how you can use Azure DevOps as a Visual Studio subscriber.
 ---
 # Azure DevOps for Visual Studio subscribers
 
-As an active Visual Studio subscriber, you can use a range of features in Azure DevOps that are included with your subscription. You'll be able to use these same features in each Azure DevOps organization in which you are a member, whether you created the organization or were added by someone else.
+As an active Visual Studio subscriber, you can use a range of features in Azure DevOps that are included with your subscription. You'll be able to use these same features in each Azure DevOps organization in which you're a member, whether you created the organization or were added by someone else.
 
 ## Sign in
 
