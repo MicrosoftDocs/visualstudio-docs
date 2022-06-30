@@ -7,8 +7,8 @@ ms.topic: reference
 f1_keywords:
   - "System.ServiceModel.Activities.InitializeCorrelation.UI"
 ms.assetid: 4c54f34c-ee84-42a6-abb0-ec260c1ccb76
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
