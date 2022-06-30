@@ -38,9 +38,9 @@ Product level descriptions: Expand **Unavailable support plans**. If you see **S
 ## How to activate the benefit
 
 > [!NOTE]
-> The following steps apply to activation of the benefit in **English** only.  For other languages, visit <https://visualstudio.microsoft.com/subscriptions/support>, scroll to the bottom, and click on **Account, Subscription and Billing Support** and then select your country from the drop-down list.
+> The following steps apply to activation of the benefit in **English** only.  For other languages, visit <https://visualstudio.microsoft.com/subscriptions/support>, scroll to the bottom, and select **Account, Subscription and Billing Support** and then select your country from the drop-down list.
 
-1. Go to <https://my.visualstudio.com/Benefits>, scroll down to the Support section and on the Technical Support tile click **Chat to activate**.
+1. Go to <https://my.visualstudio.com/Benefits>, scroll down to the Support section and on the Technical Support tile select **Chat to activate**.
     > [!div class="mx-imgBorder"]
     > ![Technical Support Benefit Tile](_img/vs-tech-support/vs-tech-support-tile.png "Screenshot of the Technical Support tile. The chat to activate button is highlighted.")
 2. This will initiate a chat session with a representative who can create your **Contract ID** and **Access ID** and provide those to you via email so you'll have them for your records.
@@ -70,27 +70,27 @@ You can submit incidents online, over the phone, or from the Azure portal.
 To submit an incident via the Support for business portal, follow these steps:
 
   > [!NOTE]
-  > You may receive a notice that you need to confirm your email address.  Click the **Send email** link in the notice to send the confirmation to the email address listed in your profile. 
+  > You may receive a notice that you need to confirm your email address.  Select the **Send email** link in the notice to send the confirmation to the email address listed in your profile. 
 
 1. Sign in to <https://support.microsoft.com/en-us/supportforbusiness/productselection>
 
-0. In the **Step 1** section, select the appropriate entries from the drop-down lists to indicate your product, version, issue, etc. Complete the text fields for the summary of the issue and to describe the issue in more detail. Then click **Next**.
+0. In the **Step 1** section, select the appropriate entries from the drop-down lists to indicate your product, version, issue, etc. Complete the text fields for the summary of the issue and to describe the issue in more detail. Then select **Next**.
    > [!div class="mx-imgBorder"]
    > ![Create a new support request](_img/vs-tech-support/vs-tech-support-create-new.png "Screenshot of the new support request dialog.") 
 0. In the **Step 2** section, supply your location and time zone.
-0. Click **Add contract**.
-0. Enter the **Access ID** and **Contract ID** you received in your confirmation email when you activated your support benefit. Click **Add**.
+0. Select **Add contract**.
+0. Enter the **Access ID** and **Contract ID** you received in your confirmation email when you activated your support benefit. Select **Add**.
    > [!div class="mx-imgBorder"]
    > ![Add a Contract ID](_img/vs-tech-support/vs-tech-support-add-contract-id.png "Screenshot of the dialog to add a new contract ID.") 
 0. Your new support contract will appear in the **Step 2**.  Select it.
 0. Please indicate the severity of your issue.  "Important" is the default. 
 0. Choose when you would like to receive support. "Only during business hours" is selected by default. The option for "24/7 support" is only available if you selected "Critical" as the severity.
-0. Click **Next** to continue. 
+0. Select **Next** to continue. 
 0. For **Step 3**, provide the contact information you would like your support agent to use to contact you. 
    > [!div class="mx-imgBorder"]
    > ![Verify your contact information](_img/vs-tech-support/vs-tech-support-contact-info.png "Screenshot of primary contact information dialog.") 
-0. In **Step 4**, you have the option to share this support request information with others on your team.  Enter the email addresses of those with whom you would like to share the request. Click **Next** to move to the next step.
-0. **Step 5** summarizes all of the information you've provided for the incident.  If you're satisfied that everything is correct and you're ready to proceed, click **Submit**. 
+0. In **Step 4**, you have the option to share this support request information with others on your team.  Enter the email addresses of those with whom you would like to share the request. Select **Next** to move to the next step.
+0. **Step 5** summarizes all of the information you've provided for the incident.  If you're satisfied that everything is correct and you're ready to proceed, select **Submit**. 
  
 ### Submit an incident by phone
 
@@ -101,8 +101,8 @@ If you would like to create a support incident over the phone, please locate the
 To use your Visual Studio subscription technical support benefit for issues relating to Azure, you'll need to link your Contract ID and Access ID to your Azure subscription.
 
 1. Visit https://portal.azure.com and sign in
-0. From the left-hand navigation click **Help + Support**
-0. Under “Support” click **New Support Request**
+0. From the left-hand navigation select **Help + Support**
+0. Under “Support” select **New Support Request**
 
 ## Eligibility
 

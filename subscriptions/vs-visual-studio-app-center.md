@@ -26,7 +26,7 @@ Getting started with Visual Studio App Center is easy.
     > [!div class="mx-imgBorder"]
     > ![VS App Center Tile](_img/vs-app-center/vs-app-center-tile.png "Screenshot of the Visual Studio App Center tile.  Get started button is highlighted.")
 
-3. Next, create an account.  You can use existing accounts for Microsoft, Google, GitHub or Facebook to log in, or create a new account by providing your username, email, and password.  Click **Create account** to continue.
+3. Next, create an account.  You can use existing accounts for Microsoft, Google, GitHub or Facebook to log in, or create a new account by providing your username, email, and password.  Select **Create account** to continue.
     > [!div class="mx-imgBorder"]
     > ![VS App Center Create Account](_img/vs-app-center/vs-app-center-create-account.png "Screenshot of the new account creation dialog showing choices for sign in methods.")
 
