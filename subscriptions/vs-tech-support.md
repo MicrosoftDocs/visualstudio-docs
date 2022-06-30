@@ -10,7 +10,7 @@ description: Learn how to activate the technical support benefit included with y
 ---
 # Activate and use the Technical Support benefit in Visual Studio subscriptions
 
-The Technical Support benefit in Visual Studio subscriptions is for resolving break-fix issues in **non-production environments** for products that are still in the mainstream support phase of the [support lifecycle](https://support.microsoft.com/lifecycle/search). Visual Studio Enterprise standard and annual cloud subscriptions receive four incidents, while Visual Studio Professional standard and annual cloud subscriptions receive two incidents, for up to 1 year from benefit activation. Benefit activation must occur while the subscription is current.
+The Technical Support benefit in Visual Studio subscriptions is for resolving break-fix issues in **non-production environments** for products that are still in the mainstream support phase of the [support lifecycle](https://support.microsoft.com/lifecycle/search). Visual Studio Enterprise standard and annual cloud subscriptions receive four incidents, while Visual Studio Professional standard and annual cloud subscriptions receive two incidents, for up to one year from benefit activation. Benefit activation must occur while the subscription is current.
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to <https://visualstudio.microsoft.com/vs/pricing/> to explore different options to purchase Visual Studio subscriptions.
@@ -22,9 +22,9 @@ The Technical Support benefit in Visual Studio subscriptions is for resolving br
 
 Developer Tools such as the Visual Studio IDE and Azure DevOps Server will receive both mainstream and extended support through Visual Studio subscriptions.
 
-Non-developer products (such as SQL, Windows, SharePoint) downloaded from Visual Studio subscriptions are eligible only for mainstream support. These products are only licensed for development environments to design, develop, test, or demonstrate applications. These products are not licensed for production environments.
+Non-developer products (such as SQL, Windows, SharePoint) downloaded from Visual Studio subscriptions are eligible only for mainstream support. These products are only licensed for development environments to design, develop, test, or demonstrate applications. These products aren't licensed for production environments.
 
-Product level descriptions: Expand **Unavailable support plans**. If you see **Support plan cannot be used for support on the specified product (Code: 8)**, your support contract cannot be used for the product version you selected.
+Product level descriptions: Expand **Unavailable support plans**. If you see **Support plan cannot be used for support on the specified product (Code: 8)**, your support contract can't be used for the product version you selected.
 
 > [!IMPORTANT]
 > The support incidents provided are for break-fix support.  They may not be used for assistance with coding/development issues involving the following products:
@@ -43,7 +43,7 @@ Product level descriptions: Expand **Unavailable support plans**. If you see **S
 1. Go to <https://my.visualstudio.com/Benefits>, scroll down to the Support section and on the Technical Support tile select **Chat to activate**.
     > [!div class="mx-imgBorder"]
     > ![Technical Support Benefit Tile](_img/vs-tech-support/vs-tech-support-tile.png "Screenshot of the Technical Support tile. The chat to activate button is highlighted.")
-2. This will initiate a chat session with a representative who can create your **Contract ID** and **Access ID** and provide those to you via email so you'll have them for your records.
+2. You will join a chat session with a representative who can create your **Contract ID** and **Access ID** and provide those numbers to you via email so you'll have them for your records.
 
 3. To complete the process, you'll need to provide the representative with:
    + Your country/region
@@ -89,20 +89,20 @@ To submit an incident via the Support for business portal, follow these steps:
 0. For **Step 3**, provide the contact information you would like your support agent to use to contact you. 
    > [!div class="mx-imgBorder"]
    > ![Verify your contact information](_img/vs-tech-support/vs-tech-support-contact-info.png "Screenshot of primary contact information dialog.") 
-0. In **Step 4**, you have the option to share this support request information with others on your team.  Enter the email addresses of those with whom you would like to share the request. Select **Next** to move to the next step.
+0. In **Step 4**, you can share this support request information with others on your team.  Enter the email addresses of the people with whom you would like to share the request. Select **Next** to move to the next step.
 0. **Step 5** summarizes all of the information you've provided for the incident.  If you're satisfied that everything is correct and you're ready to proceed, select **Submit**. 
  
 ### Submit an incident by phone
 
-If you would like to create a support incident over the phone, please locate the [Customer Service](https://support.microsoft.com/help/13948/global-customer-service-phone-numbers) phone number for your country/region. Ensure you have your Contract ID and Access ID available when you call.
+If you would like to create a support incident over the phone, locate the [Customer Service](https://support.microsoft.com/help/13948/global-customer-service-phone-numbers) phone number for your country/region. Ensure you have your Contract ID and Access ID available when you call.
 
 ### Submit an incident in the Azure portal
 
 To use your Visual Studio subscription technical support benefit for issues relating to Azure, you'll need to link your Contract ID and Access ID to your Azure subscription.
 
 1. Visit https://portal.azure.com and sign in
-0. From the left-hand navigation select **Help + Support**
-0. Under “Support” select **New Support Request**
+0. From the left-hand navigation, select **Help + Support**
+0. Under “Support”, select **New Support Request**
 
 ## Eligibility
 
