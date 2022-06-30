@@ -7,8 +7,8 @@ ms.topic: reference
 f1_keywords:
 - System.Activities.Statements.ForEach`1.UI
 ms.assetid: 67097b3a-fcf5-4a72-beb1-2c7784151a86
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:

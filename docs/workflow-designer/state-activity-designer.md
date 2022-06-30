@@ -1,18 +1,18 @@
 ---
 title: Workflow Designer - State Activity Designer
-description: Learn about the StateMachine activity and how you can use the State activity designer to add a state to a workflow. 
+description: Learn about the StateMachine activity and how you can use the State activity designer to add a state to a workflow.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - System.Activities.Statements.State.UI
 ms.assetid: 9455ab37-93a0-4c46-9eb8-b6611ca23167
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
 - multiple
-author: TerryGLee
 ---
 # State Activity Designer
 
