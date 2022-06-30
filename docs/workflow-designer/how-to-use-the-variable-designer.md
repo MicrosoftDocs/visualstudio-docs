@@ -7,8 +7,8 @@ ms.topic: how-to
 f1_keywords:
 - System.Activities.Presentation.View.DesignTimeVariable.UI
 ms.assetid: 0318dfb0-bf8f-4f92-9b86-ae4c1b2161ad
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:

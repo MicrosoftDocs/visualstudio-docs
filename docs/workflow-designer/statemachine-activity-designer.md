@@ -1,6 +1,6 @@
 ---
 title: Workflow Designer - StateMachine Activity Designer
-description: Learn how the StateMachine activity contains a collection of states and models workflows using the familiar state machine paradigm. 
+description: Learn how the StateMachine activity contains a collection of states and models workflows using the familiar state machine paradigm.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
@@ -8,12 +8,12 @@ f1_keywords:
 - StateMachine Designer
 - System.Activities.Statements.StateMachine.UI
 ms.assetid: 474d5fb3-1049-4b3f-bc6b-7524dbbe1672
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
 - multiple
-author: TerryGLee
 ---
 # StateMachine Activity Designer
 

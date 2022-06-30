@@ -7,8 +7,8 @@ ms.topic: reference
 f1_keywords:
   - "System.ServiceModel.Activities.CorrelationScope.UI"
 ms.assetid: 75f20664-9042-464d-8e2b-148d365a2286
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:

@@ -7,8 +7,8 @@ ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.Delay.UI"
 ms.assetid: f51742a8-2c9a-47d1-8a23-18459d03ae19
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:

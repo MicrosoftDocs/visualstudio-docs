@@ -8,8 +8,8 @@ helpviewer_keywords:
 - Workflow Designer, creating a workflow project
 - creating a workflow project
 ms.assetid: 235a125e-ebe7-4a98-bf77-86c8558728fb
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:

@@ -7,8 +7,8 @@ ms.topic: reference
 f1_keywords:
 - System.Activities.Statements.TransactionScope.UI
 ms.assetid: 8d7ebfc6-7478-4888-b3b0-b14f296096af
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
