@@ -29,7 +29,7 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
 6. Next, select the Azure DevOps organization you want to use and select **Install**.  (If you have not yet set up Azure DevOps Services, visit the [Benefits](https://my.visualstudio.com/benefits) page and activate your Azure DevOps Services benefit.)
 
 7. Select **Proceed to organization**.
-8. Once you've successfully installed WhiteSource Bolt, return to the [activate page](https://bolt.whitesourcesoftware.com/whitesource-bolt-azure-devops#activate), and view the video to see how to configure it. 
+8. After you've successfully installed WhiteSource Bolt, return to the [activate page](https://bolt.whitesourcesoftware.com/whitesource-bolt-azure-devops#activate), and view the video to see how to configure it. 
 9. For more information, visit the WhiteSource Bolt [FAQ page](https://bolt.whitesourcesoftware.com/azure/faq/). 
 
 ## Eligibility
@@ -38,11 +38,11 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
 |--------------------|-----------|---------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR* | 6 months | Yes |
 | Visual Studio Enterprise subscription with GitHub Enterprise | VL | 6 months | Yes |
-| Visual Studio Professional (Standard) | VL, Azure, Retail | Not available | NA |
-| Visual Studio Professional subscription with GitHub Enterprise | VL | Not available | NA |
-| Visual Studio Test Professional (Standard) | VL, Retail | Not available | NA |
-| MSDN Platforms (Standard) | VL, Retail | Not available | NA |
-| Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | NA |
+| Visual Studio Professional (Standard) | VL, Azure, Retail | Not available | N/A |
+| Visual Studio Professional subscription with GitHub Enterprise | VL | Not available | N/A |
+| Visual Studio Test Professional (Standard) | VL, Retail | Not available | N/A |
+| MSDN Platforms (Standard) | VL, Retail | Not available | N/A |
+| Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
 ||
 
 \*  *Includes: Microsoft Partner Network (Enterprise).  Excludes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD).  MCT Software & Services, NFR Basic.*
