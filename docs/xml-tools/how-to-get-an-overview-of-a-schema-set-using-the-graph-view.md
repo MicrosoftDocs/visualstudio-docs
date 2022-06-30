@@ -5,8 +5,8 @@ ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: c0df4b0d-52ef-4a6c-9676-1d8311aad7c7
-author: TerryGLee
-ms.author: tglee
+author: dzsquared
+ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
 ms.workload:
