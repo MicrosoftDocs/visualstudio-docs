@@ -7,8 +7,8 @@ ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.Confirm.UI"
 ms.assetid: c753b67b-b0e7-462a-bb4e-ba8db04a078d
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:

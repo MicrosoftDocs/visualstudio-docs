@@ -9,8 +9,8 @@ f1_keywords:
 - System.Activities.Statements.FlowStep.UI
 - System.Activities.Core.Presentation.FlowStart.UI
 ms.assetid: d5af2276-5215-4138-880a-cf2b90bbf3a0
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:

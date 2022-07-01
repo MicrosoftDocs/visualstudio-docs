@@ -6,8 +6,8 @@ ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: c3ab14c6-a320-46db-a6b3-7fd1ca261587
-author: TerryGLee
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
 ms.workload:

@@ -4,8 +4,8 @@ description: Learn basic information about XAML and the XAML code editor and XAM
 ms.custom: SEO-VS-2020
 ms.date: 06/23/2020
 ms.topic: overview
-author: TerryGLee
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
 ---

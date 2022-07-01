@@ -5,8 +5,8 @@ ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: ec1395e0-d03c-4130-810d-f2db656937bd
-author: TerryGLee
-ms.author: tglee
+author: dzsquared
+ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
 ms.workload:

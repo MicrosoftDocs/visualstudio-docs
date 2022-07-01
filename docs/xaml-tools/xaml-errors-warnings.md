@@ -5,8 +5,8 @@ ms.custom: SEO-VS-2020
 ms.date: 03/06/2018
 ms.topic: error-reference
 ms.assetid: 34eac8a0-7ec5-4c40-b97a-0126ed367931
-author: TerryGLee
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
 ms.workload:
@@ -25,7 +25,7 @@ Behind the scenes, multiple tools analyze the XAML in parallel. XAML errors are 
 |**Error detected by**|**Error code format**|**Visual Studio Version**|
 | - |-----------------| - |
 |XAML Language Service (XAML editor)|XLSxxxx| All Versions |
-|XAML Designer|XDGxxxx| All Versions | 
+|XAML Designer|XDGxxxx| All Versions |
 |XAML Edit & Continue|XECxxxx| Visual Studio 2019 version 16.1 or earlier |
 |XAML Hot Reload | XHRxxxx | Visual Studio 2019 version 16.2 or later |
 
