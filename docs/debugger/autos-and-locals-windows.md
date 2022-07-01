@@ -88,13 +88,13 @@ To make your search more or less thorough, use the **Search Deeper** dropdown at
 
 You can quickly inspect objects by their properties in the Autos and Locals windows with the **Pinnable Properties** tool.  To use this tool, hover over a property and select the pin icon that appears or right-click and select the **Pin Member as Favorite** option in the resulting context menu.  This bubbles up that property to the top of the object’s property list, and the property name and value is displayed in the **Value** column.  To unpin a property, select the pin icon again or select the **Unpin Member as Favorite** option in the context menu.
 
-![Screenshot of Pin properties in the Locals window](../debugger/media/basic-pin.gif "Pin properties in the Locals window")
+![Screenshot of Pin properties in the Locals window.](../debugger/media/basic-pin.gif "Pin properties in the Locals window")
 
 You can also toggle property names and filter out non-pinned properties when viewing the object’s property list in the Autos or Locals windows.  You can access each option by selecting the buttons in the toolbar above the Autos or Locals windows.
 
-![Screenshot of Filter favorite properties](../debugger/media/filter-pinned-properties-locals.png "Filter favorite properties")
+![Screenshot of Filter favorite properties.](../debugger/media/filter-pinned-properties-locals.png "Filter favorite properties")
 
-![Screenshot of Toggle property names](../debugger/media/toggle-property-names.gif "Toggle property names")
+![Screenshot of Toggle property names.](../debugger/media/toggle-property-names.gif "Toggle property names")
 
 ## Change the context for the Autos or Locals window
 
@@ -105,10 +105,10 @@ To enable the **Debug Location** toolbar, click in an empty part of the toolbar 
 Set a breakpoint and start debugging. When the breakpoint is hit, execution pauses and you can see the location in the **Debug Location** toolbar.
 
 ::: moniker range=">= vs-2022"
-![Screenshot of Debug Location toolbar](../debugger/media/vs-2022/debug-location-toolbar.png "Debug Location toolbar")
+![Screenshot of Debug Location toolbar.](../debugger/media/vs-2022/debug-location-toolbar.png "Debug Location toolbar")
 ::: moniker-end
 ::: moniker range="vs-2019"
-![Screenshot of Debug Location toolbar](../debugger/media/debuglocationtoolbar.png "Debug Location toolbar")
+![Screenshot of Debug Location toolbar.](../debugger/media/debuglocationtoolbar.png "Debug Location toolbar")
 ::: moniker-end
 
 ## <a name="bkmk_whatvariables"></a> Variables in the Autos window (C#, C++, Visual Basic, Python)
