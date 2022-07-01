@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 176c7f11-b19d-49e9-a6dd-b2e5da5e8480
-ms.date: 05/24/2022
+ms.date: 07/01/2022
 ms.topic: conceptual
 description:  Learn about issues that may arise when signing in to Visual Studio subscriptions
 ---
@@ -40,10 +40,14 @@ However, if you try to sign up for a Microsoft app that supports personal and wo
 
 ### Are existing accounts affected?
 
-The sign-up block described here only prevents the creation of new accounts. It has no impact on users who already have a Microsoft Account with a work/school email address. If you are already in this situation, we've made making it easier to rename a personal Microsoft account. This [support article](https://windows.microsoft.com/en-US/Windows/rename-personal-microsoft-account) provides simple step-by-step guidance. Renaming your personal Microsoft account means changing the username, and does not impact your work email or how you sign in to business services such as Microsoft 365. It also doesn't impact your personal stuff—it just changes the way you sign in to it. You can use another (personal) email address, get a new @outlook.com email address from Microsoft, or use your phone number as a new username.
+The sign-up block described here only prevents the creation of new accounts. It has no impact on users who already have a Microsoft Account with a work/school email address. If you are already in this situation, we've made making it easier to rename a personal Microsoft account. This [support article](https://windows.microsoft.com/Windows/rename-personal-microsoft-account) provides simple step-by-step guidance. Renaming your personal Microsoft account means changing the username, and does not impact your work email or how you sign in to business services such as Microsoft 365. It also doesn't impact your personal stuff—it just changes the way you sign in to it. You can use another (personal) email address, get a new @outlook.com email address from Microsoft, or use your phone number as a new username.
 
 > [!NOTE]
 > If your IT department asked you to create a personal Microsoft account with your work/school email, for example to access Microsoft business services like Premier Support, then talk to your admin team before renaming your account.
+
+## Signing in will fail when using GCC High tenants
+
+Visual Studio Subscriptions [subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) do not support [GCC High tenants](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/).  
 
 ## Deleting a sign-in address may prevent access to a subscription
 
