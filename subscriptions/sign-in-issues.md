@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 176c7f11-b19d-49e9-a6dd-b2e5da5e8480
-ms.date: 05/24/2022
+ms.date: 07/01/2022
 ms.topic: conceptual
 description:  Learn about issues that may arise when signing in to Visual Studio subscriptions
 ---
@@ -44,6 +44,10 @@ The sign-up block described here only prevents the creation of new accounts. It 
 
 > [!NOTE]
 > If your IT department asked you to create a personal Microsoft account with your work/school email, for example to access Microsoft business services like Premier Support, then talk to your admin team before renaming your account.
+
+## Signing in will fail when using GCC High tenants
+
+Visual Studio Subscriptions [subscriber portal](https://my.visualstudio.com) and [admin portal](https://manage.visualstudio.com) do not support [GCC High tenants](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/).  
 
 ## Deleting a sign-in address may prevent access to a subscription
 
