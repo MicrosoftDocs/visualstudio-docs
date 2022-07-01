@@ -2,7 +2,7 @@
 title: Troubleshoot broken references
 description: Learn how to troubleshoot broken references that might be caused by something other than your application's inability to find the referenced component.
 ms.custom: SEO-VS-2020
-ms.date: 06/29/2022
+ms.date: 07/01/2022
 ms.topic: troubleshooting
 helpviewer_keywords:
 - C# projects, references
@@ -86,3 +86,4 @@ If a user adds a reference to a COM component and a second user tries to run the
 ## See also
 
 - [References Page, Project Designer (Visual Basic)](../ide/reference/references-page-project-designer-visual-basic.md)
+- [MSB3274: The primary reference 'name' could not be resolved because it was built against the 'version' framework](../msbuild/errors/msb3274.md)
