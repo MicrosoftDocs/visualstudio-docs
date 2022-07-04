@@ -35,7 +35,7 @@ Visual Studio for Mac makes it easy to develop your app's service with its suppo
 
 Open Visual Studio for Mac. On the Start Screen, select **New Project...**
 
-![This screenshot shows the New Project Dialog while creating an ASP.NET Core app in Visual Studio for Mac ](media/asp-net-core-2019-new-asp-core.png)
+:::image type="content" source="media/asp-net-core-2019-new-asp-core.png" alt-text="This screenshot shows the New Project Dialog while creating an ASP.NET Core app in Visual Studio for Mac.":::
 
 The **New Project** dialog is shown. It lets you select a template to create your application.
 
@@ -56,7 +56,7 @@ Select the **ASP.NET Core Empty Web Application** and select **Next**. Give the 
 
 The ASP.NET Core Empty template creates a web application with two default files: **Program.cs** and **Startup.cs** that are explained here. It also creates a **Dependencies** folder, which contains your project's NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
 
-![This is a screenshot of Solution window displaying dependencies.](media/asp-net-core-2019-solution-dependencies.png)
+:::image type="content" source="media/asp-net-core-2019-solution-dependencies.png" alt-text="This is a screenshot of Solution window displaying dependencies.":::
 
 ### Program.cs
 
@@ -134,15 +134,15 @@ The `Configure` method of the pre-built template is built to do a few things. Fi
 
 This simple Hello, World project can run now without any additional code being added. To run the app, you can either select which browser you want to run app the app in using the dropdown right of the **Play** button. Or, you can hit the **Play** (triangular) button to use your default browser:
 
-![Browser Run where you can either select which browser you want to run app the app in using the dropdown right of the Play button. Or, you can hit the Play (triangular) button to use your default browser.](media/asp-net-web-picker.png)
+:::image type="content" source="media/asp-net-web-picker.png" alt-text="Browser Run where you can either select which browser you want to run app the app in using the dropdown right of the Play button. Or, you can hit the Play (triangular) button to use your default browser.":::
 
 Visual Studio for Mac uses a random port to launch your web project. To find out what port this is, open the Application Output, which is listed under the **View > Other Windows** menu. You should find output similar as the following:
 
-![This is an illustration of the Application Output displaying listening port.](media/asp-net-core-image6.png)
+:::image type="content" source="media/asp-net-core-image6.png" alt-text="This is an illustration of the Application Output displaying listening port.":::
 
 Once the project is running, your default web browser should launch and connect to the URL listed in the Application Output. Alternatively, you can open any browser of your choice, and enter `http://localhost:5000/`, replacing the `5000` with the port that Visual Studio output in the Application Output. You should see the text `Hello World!`:
 
-![This is a screenshot of a browser showing text.](media/asp-net-core-image7.png)
+:::image type="content" source="media/asp-net-core-image7.png" alt-text="This is a screenshot of a browser showing text.":::
 
 ### Adding a Controller
 
@@ -158,7 +158,7 @@ To add a controller, follow these steps:
 
 1. Right-click on the **Project** name and select **Add > New Files**. Select **General > Empty Class**, and enter a controller name:
 
-    ![This is a screenshot of a New File dialog while adding a controller.](media/asp-net-core-image8.png)
+    :::image type="content" source="media/asp-net-core-image8.png" alt-text="This is a screenshot of a New File dialog while adding a controller.":::
 
 2. Add the following code to the new controller:
 
@@ -187,7 +187,7 @@ To add a controller, follow these steps:
 
 4. Use the Search box to browse the NuGet library for `Microsoft.AspNetCore.Mvc`, and select **Add Package**. It may take a few minutes to install and you may be prompted to accept various licenses for the required dependencies:
 
-    ![This is a screenshot of Add Nuget while adding a controller.](media/asp-net-core-image9.png)
+    :::image type="content" source="media/asp-net-core-image9.png" alt-text="This is a screenshot of Add Nuget while adding a controller.":::
 
 5. In the Startup class, remove the `app.Run` lambda and set the URL routing logic used by MVC to determine which code it should invoke to the following:
 
@@ -230,11 +230,11 @@ To add a controller, follow these steps:
 
 8. If you run the app now, it should automatically open your browser:
 
-    ![Screenshot of running app in browser while adding a controller.](media/asp-net-core-image13.png)
+    :::image type="content" source="media/asp-net-core-image13.png" alt-text="Screenshot of running app in browser while adding a controller.":::
 
 9. Try to browse to `http://localhost:xxxx/HelloWorld/Xamarin?name=Amy` (replacing `xxxx` with the correct port), you should see the following page:
 
-    ![Screenshot of running app in browser with arguments while adding a controller.](media/asp-net-core-image10.png)
+    :::image type="content" source="media/asp-net-core-image10.png" alt-text="Screenshot of running app in browser with arguments while adding a controller.":::
 
 ::: moniker-end
 
@@ -271,16 +271,16 @@ This simple Hello, World project can run now without any additional code being a
 
 Visual Studio for Mac uses a random port to launch your web project. To find out what port this is, open the Application Output, which is listed under the **View > Other Windows** menu. You should find output similar to that shown below:
 
-![Application Output displaying listening port](media/asp-net-core-image6.png)
+:::image type="content" source="media/asp-net-core-image6.png" alt-text="Screenshot showing application output displaying listening port":::
 
 Once the project is running, your default web browser should launch and connect to the URL listed in the Application Output. Alternatively, you can open any browser of your choice, and enter `http://localhost:5000/`, replacing the `5000` with the port that Visual Studio output in the Application Output. You should see the text `Hello World!`:
 
-![browser showing text](media/asp-net-core-image7.png)
+:::image type="content" source="media/asp-net-core-image7.png" alt-text="Screenshot of browser showing text.":::
 ::: moniker-end
 
 ## Troubleshooting
 
-If you need to install .NET Core manually on macOS 10.12 (Sierra) and higher follow these steps:
+If you need to install .NET Core manually on macOS 10.12 (Sierra) and higher, follow these steps:
 
 1. Before you start installing .NET Core, ensure that you've updated all OS updates to the latest stable version. You can check by going to the App Store application, and selecting the **Updates** tab.
 

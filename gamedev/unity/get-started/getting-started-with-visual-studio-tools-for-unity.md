@@ -59,7 +59,7 @@ The Unity Hub continues installing Unity in the background. When it's complete, 
 
 Visual Studio for Mac Tools for Unity is included with the installation of Visual Studio for Mac. It requires no separate installation steps. You can verify the installation in the **Visual Studio for Mac** > **Extensions** > **Game Development** menu. **Visual Studio for Mac Tools for Unity** should be enabled.
 
-![Screenshot of the Extension Manager view showing Visual Studio for Mac Tools for Unity enabled.](../media/vsm/unity-workload.png)
+:::image type="content" source="media/vsm/unity-workload.png" alt-text="Screenshot of the Extension Manager view showing Visual Studio for Mac Tools for Unity enabled.":::
 
 :::zone-end
 
@@ -72,7 +72,7 @@ By default, Unity should already be configured to use Visual Studio or Visual St
 1. In the Unity Editor, select the **Edit > Preferences** menu.
 1. On the left, select the **External Tools** tab.
 
-   ![Screenshot of the External Tools preference menu in the Unity Editor on Windows.](../media/vs/preferences-external-tools.png)
+   :::image type="content" source="../media/vs/preferences-external-tools.png" alt-text="Screenshot of the External Tools preference menu in the Unity Editor on Windows.":::
 
 ### Add a version of Visual Studio that isn't listed
 
@@ -90,7 +90,7 @@ It's possible to select other versions of Visual Studio that are unlisted and in
 1. On the left, select the **External Tools** tab.
 1. Use the **External Script Editor** dropdown list to choose different installations of Visual Studio for Mac.
 
-   ![Screenshot of the External Tools preference menu in the Unity Editor on mac O S.](../media/vsm/preferences-external-tools.png)
+   :::image type="content" source="../media/vsm/preferences-external-tools.png" alt-text="Screenshot of the External Tools preference menu in the Unity Editor on mac OS.":::
 
 1. Close the **Preferences** dialog to complete the configuration process.
 
@@ -104,7 +104,7 @@ In Unity versions 2020 and later, a separate Unity Package is required for the b
 1. Select the **Visual Studio Editor** package.
 1. If a new version is available, select **Update**.
 
-  ![Screenshot of the Package Manager window in the Unity Editor on Windows.](../media/vs/unity-package-manager.png)
+  :::image type="content" source="../media/vs/unity-package-manager.png" alt-text="Screenshot of the Package Manager window in the Unity Editor on Windows.":::
 
 ## Check for updates
 
@@ -114,7 +114,7 @@ We recommend that you keep Visual Studio and Visual Studio for Mac updated for t
 
 1. Select the **Help** > **Check for Updates** menu.
 
-   ![Screenshot of the Check for Updates menu in Visual Studio 2019.](../media/vs/check-for-updates.png)
+   :::image type="content" source="../media/vs/check-for-updates.png" alt-text="Screenshot of the Check for Updates menu in Visual Studio 2019.":::
 
 2. If an update is available, the Visual Studio Installer shows a new version. Select **Update**.
 
