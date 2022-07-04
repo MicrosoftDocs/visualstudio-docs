@@ -4,8 +4,8 @@ description: Learn how to debug XSLT code in Visual Studio using the XSLT debugg
 ms.custom: SEO-VS-2020
 ms.date: 03/05/2019
 ms.topic: overview
-author: TerryGLee
-ms.author: tglee
+author: dzsquared
+ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
 dev_langs:

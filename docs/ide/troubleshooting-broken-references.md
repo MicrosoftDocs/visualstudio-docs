@@ -2,7 +2,7 @@
 title: Troubleshoot broken references
 description: Learn how to troubleshoot broken references that might be caused by something other than your application's inability to find the referenced component.
 ms.custom: SEO-VS-2020
-ms.date: 06/29/2022
+ms.date: 07/01/2022
 ms.topic: troubleshooting
 helpviewer_keywords:
 - C# projects, references
@@ -36,7 +36,7 @@ If your application attempts to use a broken reference, an exception error is ge
 The following are remedies to these problems.
 
 > [!NOTE]
-> Files in assemblies are referenced with absolute paths in the project file. Therefore, users who work in a multi-developer environment might find that they're missing a referenced assembly in their local environment. To avoid these errors, it's better to add project-to-project references. For more information, see [Programming with assemblies](/dotnet/framework/app-domains/programming-with-assemblies).
+> Files in assemblies are referenced with absolute paths in the project file. Therefore, users who work in a multi-developer environment might find that they're missing a referenced assembly in their local environment. To avoid these errors, it's better to add project-to-project references. For more information, see [Assemblies in .NET](/dotnet/standard/assembly/).
 
 ## Reference path is incorrect
 
@@ -86,3 +86,4 @@ If a user adds a reference to a COM component and a second user tries to run the
 ## See also
 
 - [References Page, Project Designer (Visual Basic)](../ide/reference/references-page-project-designer-visual-basic.md)
+- [What is the .NET Project Designer?](reference/project-properties-reference.md)

@@ -1,7 +1,7 @@
 ---
 title: "Accessibility tips and tricks for Visual Studio"
 description: "Learn more about tips and tricks that can help make the Visual Studio integrated development environment (IDE) more accessible for everyone to use, including people with disabilities."
-ms.date: 04/04/2022
+ms.date: 07/01/2022
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
@@ -99,7 +99,10 @@ You can use the Sound dialog box in Windows to assign a sound to Visual Studio p
 * Build failed
 * Build succeeded
 
-Here's how to add sounds to program events in either Windows 11 or Windows 10.
+> [!TIP]
+> To learn more about new audio cues available in [Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/), see the [**Listen Up, Visual Studio has a new feature you need to hear about!**](https://devblogs.microsoft.com/visualstudio/audio-cues-in-visual-studio-2022-17-3-preview-2/) blog post.
+
+Here's how to add sounds to program events by using either Windows 11 or Windows 10.
 
 ### Windows 11
 

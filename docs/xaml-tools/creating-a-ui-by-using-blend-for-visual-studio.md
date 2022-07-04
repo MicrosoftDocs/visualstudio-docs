@@ -7,8 +7,8 @@ ms.date: 07/31/2019
 ms.topic: overview
 f1_keywords:
 - Blend.Start.Dev12
-author: TerryGLee
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
 ms.workload:
