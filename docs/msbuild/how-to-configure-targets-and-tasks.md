@@ -73,7 +73,7 @@ Before MSBuild runs a task, it looks for a matching `UsingTask` that has the sam
 ```
 
 ## Overriding default UsingTasks
-By default, MSBuild handles UsingTask's as "first one wins." To override this behavior, add the `Override` parameter to the relevant UsingTask like so:
+By default, MSBuild handles UsingTask's as "first one wins." Starting in 17.2, MSBuild supports overriding this behavior via the `Override` parameter. A UsingTask with the parameter `Override` set to `true` will take priority over any other UsingTask of the same TaskName.
 
 ```xml
 <UsingTask TaskName="MyTool"
