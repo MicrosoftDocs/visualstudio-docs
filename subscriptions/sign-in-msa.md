@@ -20,7 +20,7 @@ This article will provide the steps for signing in with your Microsoft Account (
 
 ## Signing in with your Microsoft Account (MSA)
 
-1. Please visit [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
+1. Visit [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
 2. Enter the email address you provided when you set up or purchased your Visual Studio subscription.
 
    > [!NOTE]
@@ -34,12 +34,12 @@ This article will provide the steps for signing in with your Microsoft Account (
 
 ### Q:  I'm unable to sign in using my MSA.  
 
-A:  The most common cause of sign in problems is attempting to sign in with an MSA that's different from the one associated with the subscription.  If you use several different email addresses, it's possible that you're trying to sign in with the wrong one.  Try signing in with another address.  If that's unsuccessful, you can reach out to our [subscriptions support](https://visualstudio.microsoft.com/subscriptions/support/) team for assistance.  
+A:  The most common cause of sign-in problems is attempting to sign in with an MSA that's different from the one associated with the subscription.  If you use several different email addresses, it's possible that you're trying to sign in with the wrong one.  Try signing in with another address.  If that's unsuccessful, you can reach out to our [subscriptions support](https://visualstudio.microsoft.com/subscriptions/support/) team for assistance.  
 
 ### Q:  I can't see my subscription. Where is it?
 
-A:  Many users have more than one subscription.  If you're able to sign in to the subscriptions portal at https://my.visualstudio.com but cannot see your subscription, there are two common causes:
-+ You're logged in with a different Microsoft Account.  It's possible that you have multiple subscriptions, such as a Professional or Enterprise subscription and a Visual Studio Dev Essentials membership, and they're associated with different email addresses. To see the other subscriptions, sign out and sign back in using the other MSA.
+A:  Many users have more than one subscription.  If you're able to sign in to the subscriptions portal at https://my.visualstudio.com, but can't see your subscription, there are two common causes:
++ You're logged in with a different Microsoft Account.  It's possible that you have multiple subscriptions and they're associated with different email addresses. To see the other subscriptions, sign out and sign back in using the other MSA.
 + You have multiple subscriptions associated with the same MSA.  To see all of the subscriptions associated with your MSA, visit https://my.visualstudio.com/subscriptions and choose the subscription you wish to use. There is also a drop-down list on the [Benefits page](https://my.visualstudio.com/benefits) you can use to switch between subscriptions that are associated with the same sign-in email address.
 
 ## Resources 
