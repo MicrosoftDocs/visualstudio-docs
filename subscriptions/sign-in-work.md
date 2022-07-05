@@ -31,7 +31,7 @@ This article will provide the steps for signing in with an email address provide
 
 You can now see the type of subscription you're using displayed in the blue bar across the top of the portal.
 
-You can also see your currently selected subscription in the upper right corner, under your username.  It will say "Showing: ", followed by the subscription.  If you have more than one subscription, you can select on the drop down arrow and select the subscription you would like to use.
+You can also see your currently selected subscription in the upper right corner, under your username.  It will say "Showing: ", followed by the subscription.  If you have more than one subscription, you can select on the drop-down arrow and select the subscription you would like to use.
 
 > [!NOTE]
 > Visual Studio Subscriptions [subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) do not support [GCC High tenants](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
@@ -62,7 +62,7 @@ You can also see your currently selected subscription in the upper right corner,
 
 ### Q:  I'm unable to sign in using my work or school email address. 
 
-A:  The most common cause of sign in problems is attempting to sign in with an account that's different from the one associated with the subscription.  If you use several different email addresses, it's possible that you're trying to sign in with the wrong one.  Try signing in with another address.  If that's unsuccessful, you can reach out to our [subscriptions support](https://visualstudio.microsoft.com/subscriptions/support/) team for assistance.  
+A:  The most common cause of sign-in problems is attempting to sign in with an account that's different from the one associated with the subscription.  If you use several different email addresses, it's possible that you're trying to sign in with the wrong one.  Try signing in with another address.  If that's unsuccessful, you can reach out to our [subscriptions support](https://visualstudio.microsoft.com/subscriptions/support/) team for assistance.  
 
 ### Q:  I can't see my subscription. Where is it?
 
