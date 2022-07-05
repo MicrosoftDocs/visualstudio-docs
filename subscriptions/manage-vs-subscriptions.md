@@ -23,14 +23,14 @@ The Visual Studio subscriptions portal brings together all your Visual Studio su
 
 On the Benefits page, the subscription in use will be prominently displayed in the blue banner. It's also displayed in the upper-right of the page.
 > [!div class="mx-imgBorder"]
-> ![The active subscription](_img/manage-vs-subscriptions/current-subscription-cropped.png "Your current subscription is displayed at the top of the page and in the subscriptions drop-down list.")
+> ![The active subscription](_img/manage-vs-subscriptions/current-subscription-cropped.png "Screenshot of the benefits page of the portal.  Subscription picker is open.")
 
 ### To switch between subscriptions, you can:
 
 + Select the drop-down in the top right and choose the subscription from the list
 + Select the Subscriptions tab and then select the desired subscription
   > [!div class="mx-imgBorder"]
-  > ![Switching subscriptions](_img/manage-vs-subscriptions/change-subscription-resized.png "Select the Subscriptions tab to see detailed information about all of your subscriptions, and to switch between them.")
+  > ![Switching subscriptions](_img/manage-vs-subscriptions/change-subscription-resized.png "Screenshot of the subscriptions portal.  The subscriptions tab is highlighted.")
 
 ### If your subscription is not visible...
 
@@ -76,7 +76,7 @@ You can easily change the contact information and preferences in your profile.
 To receive periodic updates and newsletters about your subscription and benefits, [update your preferences](https://app.vsaex.visualstudio.com/me?workflowID=devprogram&tab=edit) and check the box for Visual Studio Subscriptions in your Visual Studio profile. You can change these preferences and unsubscribe at any time. 
 
    > [!div class="mx-imgBorder"]
-   > ![Setting Preferences](_img/manage-vs-subscriptions/change-prefs.png "Select the Visual Studio subscriptions program emails checkbox to receive updates.")
+   > ![Setting Preferences](_img/manage-vs-subscriptions/change-prefs.png "Screenshot of profile editing dialog.  The option to receive Visual Studio subscriptions emails is highlighted. ")
    
 ### Linking my subscription to existing Azure DevOps Services or Azure subscriptions
 
