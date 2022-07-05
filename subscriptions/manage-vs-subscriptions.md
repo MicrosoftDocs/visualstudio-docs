@@ -9,28 +9,33 @@ ms.topic: conceptual
 description: Learn how to get the most out of your Visual Studio subscriptions
 ---
 # Managing subscriptions
+
 The Visual Studio [Subscriber Portal](https://my.visualstudio.com) gives you the ability to manage all your subscriptions and program memberships in a single place. You can make changes to your profile, use all of the benefits included with your subscriptions, and switch between subscriptions quickly and easily.
 
 > [!NOTE]
 > Visual Studio Subscriptions [subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) do not support [GCC High tenants](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
 
 ## Managing multiple subscriptions
+
 The Visual Studio subscriptions portal brings together all your Visual Studio subscriptions and programs in a single improved portal experience. For example, you might have one subscription through work, and another subscription or Visual Studio Dev Essentials membership you use at home.
 
 ### Which subscription am I using?
+
 On the Benefits page, the subscription in use will be prominently displayed in the blue banner. It's also displayed in the upper-right of the page.
 > [!div class="mx-imgBorder"]
 > ![The active subscription](_img/manage-vs-subscriptions/current-subscription-cropped.png "Your current subscription is displayed at the top of the page and in the subscriptions drop-down list.")
 
 ### To switch between subscriptions, you can:
+
 + Select the drop-down in the top right and choose the subscription from the list
 + Select the Subscriptions tab and then select the desired subscription
   > [!div class="mx-imgBorder"]
   > ![Switching subscriptions](_img/manage-vs-subscriptions/change-subscription-resized.png "Select the Subscriptions tab to see detailed information about all of your subscriptions, and to switch between them.")
 
 ### If your subscription is not visible...
+
 + It may be expired. Only active subscriptions are displayed in the Subscriber Portal.
-+ It may be associated with a different email address. If you have more than one subscription, and they are assigned to different email addresses, you will only see one at a time.  To switch to a different subscription, sign out of the portal and sign in with the email associated with the desired subscription.  
++ It may be associated with a different email address. If you have more than one subscription, and they are assigned to different email addresses, you'll only see one at a time.  To switch to a different subscription, sign out of the portal and sign in with the email associated with the desired subscription.  
 + If your company buys subscriptions through a Volume License, your admin may not have assigned a subscription to you or may have reassigned your subscription to another user.
 
 ## Renewing my subscriptions
@@ -48,13 +53,16 @@ On the Benefits page, the subscription in use will be prominently displayed in t
 + [Microsoft Certified Trainer](https://www.microsoft.com/learning/mct-certification.aspx)
 
 ## Transferring subscriptions
+
 If your subscription was purchased through Microsoft Volume Licensing and you need to re-assign it to someone else within the organization, your admin can do this for you.
 Retail subscriptions can be transferred to another user by contacting Customer Service. Complimentary or “Not For Resale” subscriptions cannot be transferred.
 
 ## Managing my profile
+
 The subscriptions portal lets you create and manage a profile, making subscriptions management easy. You can make changes to your identity information, and you can associate your subscriptions with other sign-in identities from existing Azure accounts or Azure DevOps organizations using alternate identities.
 
 ### Changing profile information
+
 You can easily change the contact information and preferences in your profile.
 
 1. Select your name in the upper right corner of the Subscriber Portal.
@@ -83,7 +91,7 @@ To add an alternate account:
 3. Under **Related Links**, choose **Add alternate account**.
 4. Enter your work/school account email address and select **Add**.
 
-Once you have added an alternate account, you can update or remove it at any time by selecting the **Subscriptions** tab and choosing the appropriate option in the **Related Links** section.
+After you've added an alternate account, you can update or remove it at any time by selecting the **Subscriptions** tab and choosing the appropriate option in the **Related Links** section.
 
 ## Frequently asked questions
 
