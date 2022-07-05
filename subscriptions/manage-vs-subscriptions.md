@@ -32,11 +32,11 @@ On the Benefits page, the subscription in use will be prominently displayed in t
   > [!div class="mx-imgBorder"]
   > ![Switching subscriptions](_img/manage-vs-subscriptions/change-subscription-resized.png "Screenshot of the subscriptions portal.  The subscriptions tab is highlighted.")
 
-### If your subscription is not visible...
+### If your subscription isn't visible...
 
 + It may be expired. Only active subscriptions are displayed in the Subscriber Portal.
-+ It may be associated with a different email address. If you have more than one subscription, and they are assigned to different email addresses, you'll only see one at a time.  To switch to a different subscription, sign out of the portal and sign in with the email associated with the desired subscription.  
-+ If your company buys subscriptions through a Volume License, your admin may not have assigned a subscription to you or may have reassigned your subscription to another user.
++ It may be associated with a different email address. If you have multiple subscriptions and they are assigned to different email addresses, you'll only see one at a time.  To switch to a different subscription, sign out of the portal and sign in with the email associated with the desired subscription.  
++ If your company buys subscriptions through a Volume License, your admin may not have assigned a subscription to you, or may have reassigned your subscription to another user.
 
 ## Renewing my subscriptions
 
@@ -54,7 +54,7 @@ On the Benefits page, the subscription in use will be prominently displayed in t
 
 ## Transferring subscriptions
 
-If your subscription was purchased through Microsoft Volume Licensing and you need to re-assign it to someone else within the organization, your admin can do this for you.
+If your subscription was purchased through Microsoft Volume Licensing and you need to reassign it to someone else within the organization, your admin can help you.
 Retail subscriptions can be transferred to another user by contacting Customer Service. Complimentary or “Not For Resale” subscriptions cannot be transferred.
 
 ## Managing my profile
@@ -80,7 +80,7 @@ To receive periodic updates and newsletters about your subscription and benefits
    
 ### Linking my subscription to existing Azure DevOps Services or Azure subscriptions
 
-If you sign in to your subscription using a personal Microsoft account (MSA) and have a subscription that includes Azure DevOps Services or Microsoft Azure using a work or school account managed by Azure, you can link the two subscriptions. This is called an "alternate account" and allows you to keep using your MSA to sign in to your subscription while having access to existing Azure, Azure DevOps Services or IDE resources that are associated with your school or work accounts.
+If you sign in to your subscription using a personal Microsoft account (MSA) and have a subscription that includes Azure DevOps Services or Microsoft Azure using a work or school account managed by Azure, you can link the two subscriptions. Using an "alternate account" allows you to keep using your MSA to sign in to your subscription while having access to existing Azure, Azure DevOps Services or IDE resources that are associated with your school or work accounts.
 
 Even if both accounts use the same email address, you need to add your work/school account as an alternate to use your benefits across both accounts.
 
@@ -101,12 +101,12 @@ A: Depending on the purchasing channel, Microsoft maintains customer data for di
 
 | Channel | Duration (days) |
 |---------|-----------------|
-| Retail (e.g. through Microsoft Store) | 360 |
+| Retail (for example, through Microsoft Store) | 360 |
 | Volume Licensing Service Center (VLSC) | 180 |
 | Microsoft Products and Services Agreement (MPSA) | 180 |
 | Visual Studio Cloud Subscriptions | 180 |
-| Program (e.g. MCT, MPN, Imagine) | 180 |
-| Not For Resale (e.g. MVP, MSP) | 180 |
+| Program (for example, MCT, MPN, Imagine) | 180 |
+| Not For Resale (for example, MVP, MSP) | 180 |
 | DevEssentials | 30 |
 
 > [!NOTE]
