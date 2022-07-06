@@ -72,6 +72,20 @@ Before MSBuild runs a task, it looks for a matching `UsingTask` that has the sam
 
 ```
 
+## Overriding default UsingTasks
+By default, MSBuild handles UsingTask's as "first one wins." Starting in 17.2, MSBuild supports overriding this behavior via the `Override` parameter. A UsingTask with the parameter `Override` set to `true` will take priority over any other UsingTask of the same TaskName.
+
+```xml
+<UsingTask TaskName="MyTool"
+    Runtime="CLR4"
+    Architecture="x86"
+    Override="true"
+    AssemblyFile="$(MyToolsPath)\MyTool.4.0.dll" />
+```
+
+> [!WARNING]
+> This can only be done **once per task**. Builds that attempt to add multiple overrides for the same task will receive MSBuild error `MSB4275`.
+
 ## Task factories
 
 Before it runs a task, MSBuild checks to see whether it is designated to run in the current software context. If the task is so designated, MSBuild passes it to the AssemblyTaskFactory, which runs it in the current process; otherwise, MSBuild passes the task to the TaskHostFactory, which runs the task in a process that matches the target context. Even if the current context and the target context match, you can force a task to run out-of-process (for isolation, security, or other reasons) by setting `TaskFactory` to `TaskHostFactory`.
