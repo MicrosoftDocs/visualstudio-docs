@@ -1,5 +1,5 @@
 ---
-title: Azure for Visual Studio subscribers
+title: Azure Monthly Credit
 description: FAQs list for subscribers using Azure
 ms.topic: conceptual
 ms.assetid: 1d2c7d71-478b-4221-85c2-1c238a22e9a2
