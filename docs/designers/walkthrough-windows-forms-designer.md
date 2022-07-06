@@ -2,7 +2,7 @@
 title: Windows Forms Designer tutorial
 description: Learn how to build an app using the various tools provided by Windows Forms Designer. The app is a custom control that uses many available layout features.
 ms.custom: SEO-VS-2020
-ms.date: 01/31/2022
+ms.date: 07/06/2022
 ms.topic: tutorial
 helpviewer_keywords:
 - Windows Forms Designer, get started
@@ -29,6 +29,9 @@ The Windows Forms Designer provides many tools for building Windows Forms applic
 When you're finished, you'll have a custom control that's been assembled using many of the layout features available in the Windows Forms Designer. This control implements the user interface (UI) for a simple calculator. The following image shows the general layout of the calculator control:
 
 ![Guided Tour Calculator UI](media/calculator-ui.gif)
+
+> [!TIP]
+> If you're a C++ developer and are looking for a tutorial to help you create a Windows app that includes forms and controls, see [Creating a forms-based MFC application](/cpp/mfc/reference/creating-a-forms-based-mfc-application?view=msvc-170). And for more generalized info, see [Overview of Windows programming in C++](/cpp/windows/overview-of-windows-programming-in-cpp?view=msvc-170)
 
 ## Create the custom control project
 
