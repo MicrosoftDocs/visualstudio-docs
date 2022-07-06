@@ -31,7 +31,7 @@ When you're finished, you'll have a custom control that's been assembled using m
 ![Guided Tour Calculator UI](media/calculator-ui.gif)
 
 > [!TIP]
-> If you're a C++ developer and are looking for a tutorial to help you create a Windows app that includes forms and controls, see [Creating a forms-based MFC application](/cpp/mfc/reference/creating-a-forms-based-mfc-application?view=msvc-170). And for more generalized info, see [Overview of Windows programming in C++](/cpp/windows/overview-of-windows-programming-in-cpp?view=msvc-170)
+> If you're a C++ developer and are looking for a tutorial to help you create a Windows app that includes forms and controls, see [Creating a forms-based MFC application](/cpp/mfc/reference/creating-a-forms-based-mfc-application?view=msvc-170&preserve-view=true). And for more generalized info, see [Overview of Windows programming in C++](/cpp/windows/overview-of-windows-programming-in-cpp?view=msvc-170&preserve-view=true)
 
 ## Create the custom control project
 
