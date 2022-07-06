@@ -7,8 +7,8 @@ ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.ParallelForEach`1.UI"
 ms.assetid: e93a4843-aef2-4d3e-9a0a-a2d3d1411aa7
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:

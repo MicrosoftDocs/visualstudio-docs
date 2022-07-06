@@ -7,8 +7,8 @@ ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.Sequence.UI"
 ms.assetid: 51c8d3cb-4d43-458f-9631-b63755f9ac94
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:

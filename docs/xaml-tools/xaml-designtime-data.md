@@ -3,8 +3,8 @@ title: Use Design Time Data with the XAML Designer in Visual Studio
 description: Learn how to use design-time data in XAML.
 ms.date: 09/30/2021
 ms.topic: overview
-author: alihamie
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
 monikerRange: ">=vs-2019"

@@ -2,7 +2,7 @@
 title: Customize window layouts
 description: Learn how to customize the windows in Visual Studio to create layouts that work best for your development workflows.
 ms.custom: SEO-VS-2020
-ms.date: 02/22/2022
+ms.date: 07/01/2022
 ms.topic: conceptual
 f1_keywords:
 - vs.windows
@@ -95,6 +95,9 @@ Here are our updates, to date:
     The following screenshot shows an example of how to personalize the color scheme of tabs:
 
     :::image type="content" source="media/vs-2022/color-tabs-personalize-schemes.png" alt-text="Screenshot of the Set Tab Option that you can use to personalize the colors of tabs.":::
+
+> [!TIP]
+> To learn more about the latest tabs updates in Visual Studio 2022, see the [**Improved doc management personalization**](https://devblogs.microsoft.com/visualstudio/doc-management-personalization/) blog post.
 
 ::: moniker-end
 
