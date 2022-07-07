@@ -35,20 +35,20 @@ Let's explore each of the available preferences, and their effects.
 
 ### Agreement
 
-If you have multiple agreements for which you're a super admin, you'll be able to choose the desired agreement in the drop-down to the right of the expanded settings panel.  The preferences you set will apply only to that agreement.  Individual admins can override some of these preferences on a case-by-case basis when assigning subscriptions. 
+If you're a super admin on several agreements, you'll be able to choose the desired agreement in the drop-down on the menu bar.  The preferences you set will apply only to that agreement.  Individual admins can override some of these preferences on a case-by-case basis when assigning subscriptions. 
 
-If there is only one agreement associated with the email address you used to sign in, it will be displayed to the right of the expanded settings panel and the drop-down will be disabled. 
+If there is only one agreement for you email address, it will be displayed and the drop-down will be disabled. 
 
 ### Contact email address
 
-This preference provides a way for your subscribers to reach out to admins through the use of the **Contact my Admin** button on the [subscriptions page](https://my.visualstudio.com/subscriptions) of the subscriber portal.  If this preference is left blank, subscriber messages will be forwarded to all admins and super admins on the agreement.  We recommend using a group email alias or security group to tailor your audience for this contact email. You can also choose to input an individual’s email address if you prefer.
+This preference provides a way for your subscribers to reach out to admins by using the **Contact my Admin** button on the [subscriptions page](https://my.visualstudio.com/subscriptions) of the subscriber portal.  If this preference is left blank, subscriber messages will be forwarded to all admins and super admins on the agreement.  We recommend using a group email alias or security group to tailor your audience for this contact email. You can also choose to input an individual’s email address if you prefer.
 
 > [!NOTE]
 > The email address you list here **won't** be provided to subscribers.  When a subscriber submits a **Contact my Admin** request in the subscriber portal, the message will be forwarded to the alias without exposing it to the subscriber. 
 
 ### Default subscription level
 
-You can use this setting to determine which of the subscription levels included in your agreement is selected by default when a subscription is assigned to a user.  Admins can change the setting to any subscription level in your agreement -- this just prevents having to repeatedly make your most common choice. 
+You can use this setting to set which subscription levels included in your agreement is selected by default when a subscription is assigned to a user.  Admins can change the setting to any subscription level in your agreement -- this option just prevents having to repeatedly make the most common choice. 
 
 ### Default communication preferences
 
@@ -56,7 +56,7 @@ Setting a default communication language and locale can streamline the process o
 
 ### Default external subscribers setting
 
-This preference allows you to decide whether admins can add subscribers from outside your organization's tenant/directory.  If you turn this off, no outside subscribers will be allowed.  If you enable it and an admin attempts to add an outside subscriber, they will be asked to confirm their choice, and will be allowed to assign the subscription. Admins can't override this setting. 
+This preference allows you to decide whether admins can add subscribers from outside your organization's tenant/directory.  If you turn this option off, no outside subscribers will be allowed.  If you enable it and an admin attempts to add an outside subscriber, they will be asked to confirm their choice, and will be allowed to assign the subscription. Admins can't override this setting. 
 
 ### Default downloads setting
 
