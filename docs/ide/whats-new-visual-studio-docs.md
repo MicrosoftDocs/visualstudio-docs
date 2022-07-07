@@ -46,15 +46,16 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 - [How to debug for absolute beginners](../debugger/debugging-absolute-beginners.md) - Review and update Visual Studio docs for debug & deployment
 - [View the call stack and use the Call Stack window in the debugger](../debugger/how-to-use-the-call-stack-window.md) - Review and update Visual Studio docs for debug & deployment
-- [About Microsoft Spy++](../debugger/about-microsoft-spy-increment.md) - Revise and redirect
-- [Spy++ menu commands](../debugger/menu-commands.md) - Revise and redirect
-- [Message Options dialog box](../debugger/message-options-dialog-box.md) - Revise and redirect
-- [Message Properties dialog box](../debugger/message-properties-dialog-box.md) - Revise and redirect
-- [Process Properties dialog box](../debugger/process-properties-dialog-box.md) - Revise and redirect
-- [Search tools for Spy++ views](../debugger/search-tools-for-spy-increment-views.md) - Revise and redirect
-- [Spy++ reference overview](../debugger/spy-increment-reference.md) - Revise and redirect
-- [Thread Properties dialog box](../debugger/thread-properties-dialog-box.md) - Revise and redirect pages
-- [Window Properties dialog box](../debugger/window-properties-dialog-box.md) - Revise and redirect
+- Revise and redirect the following pages: 
+    - [About Microsoft Spy++](../debugger/about-microsoft-spy-increment.md) 
+    - [Spy++ menu commands](../debugger/menu-commands.md) 
+    - [Message Options dialog box](../debugger/message-options-dialog-box.md) 
+    - [Message Properties dialog box](../debugger/message-properties-dialog-box.md) 
+    - [Process Properties dialog box](../debugger/process-properties-dialog-box.md)
+    - [Search tools for Spy++ views](../debugger/search-tools-for-spy-increment-views.md) 
+    - [Spy++ reference overview](../debugger/spy-increment-reference.md)
+    - [Thread Properties dialog box](../debugger/thread-properties-dialog-box.md)
+    - [Window Properties dialog box](../debugger/window-properties-dialog-box.md) 
 - [Use time travel debugging to record and replay ASP.NET apps on Azure VMs](../debugger/debug-live-azure-virtual-machines-time-travel-debugging.md) - DevEdit Time Travel Debugging live ASP.NET on Azure VM
 - [Remote Debug ASP.NET Core on IIS using an Azure VM from Visual Studio](../debugger/remote-debugging-azure.md) - Search engine optimization and discovery work for debugging ASP.NET Core on Azure App Service
 
@@ -98,16 +99,17 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 **Updated articles**
 
-- [Add extensions to DSL definitions](../modeling/adding-extensions-to-dsl-definitions.md) - Edits to improve search engine optimization and usability
-- [Calculated and custom storage properties](../modeling/calculated-and-custom-storage-properties.md) - Edits to improve search engine optimization and usability
-- [Create a WPF-Based domain-specific language](../modeling/creating-a-wpf-based-domain-specific-language.md) - Edits to improve search engine optimization and usability
-- [Define a locking policy to create read-only segments](../modeling/defining-a-locking-policy-to-create-read-only-segments.md) - Edits to improve search engine optimization and usability
-- [Write code to customize a domain-specific language](../modeling/writing-code-to-customise-a-domain-specific-language.md) - Edits to improve search engine optimization and usability
-- [Control the visibility of an icon or decorator](../modeling/controlling-the-visibility-of-an-icon-or-decorator.md) - Edits to improve search engine optimization and usability
-- [How to: Intercept a click on a shape or decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md) - Edits to improve search engine optimization and usability
-- [How to: Set CLR attributes on an element](../modeling/how-to-set-clr-attributes-on-an-element.md) - Edits to improve search engine optimization and usability
-- [Integrate models by using Visual Studio ModelBus](../modeling/integrating-models-by-using-visual-studio-modelbus.md) - Edits to improve search engine optimization and usability
-- [Share classes between DSLs](../modeling/sharing-classes-between-dsls-by-using-a-dsl-library.md) - Edits to improve search engine optimization and usability
+Edits to improve search engine optimization and usability for the following pages:
+    - [Add extensions to DSL definitions](../modeling/adding-extensions-to-dsl-definitions.md) 
+    - [Calculated and custom storage properties](../modeling/calculated-and-custom-storage-properties.md) 
+    - [Create a WPF-Based domain-specific language](../modeling/creating-a-wpf-based-domain-specific-language.md) 
+    - [Define a locking policy to create read-only segments](../modeling/defining-a-locking-policy-to-create-read-only-segments.md) 
+    - [Write code to customize a domain-specific language](../modeling/writing-code-to-customise-a-domain-specific-language.md) 
+    - [Control the visibility of an icon or decorator](../modeling/controlling-the-visibility-of-an-icon-or-decorator.md) 
+    - [How to: Intercept a click on a shape or decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md) 
+    - [How to: Set CLR attributes on an element](../modeling/how-to-set-clr-attributes-on-an-element.md) 
+    - [Integrate models by using Visual Studio ModelBus](../modeling/integrating-models-by-using-visual-studio-modelbus.md) 
+    - [Share classes between DSLs](../modeling/sharing-classes-between-dsls-by-using-a-dsl-library.md) 
 
 ### MSBuild
 
