@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 7/5/2022
+ms.date: 7/8/2022
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -27,10 +27,8 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 **Updated articles**
 
+- [Container Tools launch settings](../containers/container-launch-settings.md) - Update docs for DockerfileRunArguments
 - [How to customize Docker containers in Visual Studio](../containers/container-build.md) - Change container build and debug overview into "how to customize containers"
-- [Container Tools launch settings](../containers/container-launch-settings.md)
-  - Confirm merge from repo_sync_working_branch to main to sync with https://github.com/MicrosoftDocs/visualstudio-docs (branch main)
-  - Update docs for DockerfileRunArguments
 
 ### Data tools
 
@@ -46,19 +44,19 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 **Updated articles**
 
-- [How to debug for absolute beginners](../debugger/debugging-absolute-beginners.md) - Refresh Visual Studio docs for debug & deployment
-- [View the call stack and use the Call Stack window in the debugger](../debugger/how-to-use-the-call-stack-window.md) - Refresh Visual Studio docs for debug & deployment
-- [About Microsoft Spy++](../debugger/about-microsoft-spy-increment.md) - Delete and combine low-view pages
-- [Spy++ menu commands](../debugger/menu-commands.md) - Delete and combine low-view pages
-- [Message Options dialog box](../debugger/message-options-dialog-box.md) - Delete and combine low-view pages
-- [Message Properties dialog box](../debugger/message-properties-dialog-box.md) - Delete and combine low-view pages
-- [Process Properties dialog box](../debugger/process-properties-dialog-box.md) - Delete and combine low-view pages
-- [Search tools for Spy++ views](../debugger/search-tools-for-spy-increment-views.md) - Delete and combine low-view pages
-- [Spy++ reference overview](../debugger/spy-increment-reference.md) - Delete and combine low-view pages
-- [Thread Properties dialog box](../debugger/thread-properties-dialog-box.md) - Delete and combine low-view pages
-- [Window Properties dialog box](../debugger/window-properties-dialog-box.md) - Delete and combine low-view pages
+- [How to debug for absolute beginners](../debugger/debugging-absolute-beginners.md) - Review and update Visual Studio docs for debug & deployment
+- [View the call stack and use the Call Stack window in the debugger](../debugger/how-to-use-the-call-stack-window.md) - Review and update Visual Studio docs for debug & deployment
+- [About Microsoft Spy++](../debugger/about-microsoft-spy-increment.md) - Revise and redirect
+- [Spy++ menu commands](../debugger/menu-commands.md) - Revise and redirect
+- [Message Options dialog box](../debugger/message-options-dialog-box.md) - Revise and redirect
+- [Message Properties dialog box](../debugger/message-properties-dialog-box.md) - Revise and redirect
+- [Process Properties dialog box](../debugger/process-properties-dialog-box.md) - Revise and redirect
+- [Search tools for Spy++ views](../debugger/search-tools-for-spy-increment-views.md) - Revise and redirect
+- [Spy++ reference overview](../debugger/spy-increment-reference.md) - Revise and redirect
+- [Thread Properties dialog box](../debugger/thread-properties-dialog-box.md) - Revise and redirect pages
+- [Window Properties dialog box](../debugger/window-properties-dialog-box.md) - Revise and redirect
 - [Use time travel debugging to record and replay ASP.NET apps on Azure VMs](../debugger/debug-live-azure-virtual-machines-time-travel-debugging.md) - DevEdit Time Travel Debugging live ASP.NET on Azure VM
-- [Remote Debug ASP.NET Core on IIS using an Azure VM from Visual Studio](../debugger/remote-debugging-azure.md) - SEO and discovery work for debugging ASP.NET Core on Azure App Service
+- [Remote Debug ASP.NET Core on IIS using an Azure VM from Visual Studio](../debugger/remote-debugging-azure.md) - Search engine optimization and discovery work for debugging ASP.NET Core on Azure App Service
 
 ### Deployment
 
@@ -70,7 +68,7 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 **Updated articles**
 
-- [Migrate 64-bit debugger COM class registration](../extensibility/migrate-debugger-com-registration.md) - Edits to improve SEO and usability
+- [Migrate 64-bit debugger COM class registration](../extensibility/migrate-debugger-com-registration.md) - Edits to improve search engine optimization and usability
 
 ### IDE
 
@@ -80,15 +78,9 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 - [Learn about Solution Explorer](./use-solution-explorer.md) - add/update screenshots & revise text
 - [Manage project and solution properties](./managing-project-and-solution-properties.md) - add Visual Basic screenshot and text edits
 - [What is the .NET Project Designer?](./reference/project-properties-reference.md) - update terminology & screenshots
-- [How to: Change the build output directory](./how-to-change-the-build-output-directory.md) - How to update the build output path: update for Visual Studio 2022
-- [How to: Suppress compiler warnings](./how-to-suppress-compiler-warnings.md) - Suppress warnings: updates for Visual Studio 2022
-- [Oops! No `F1` help match was found](./not-in-toc/default.md)
-  - add MSBuild F1 error codes
-  - Add NETSDK error codes for tracking
 - [Create, work with, and delete Visual Studio projects and solutions](./creating-solutions-and-projects.md) - update 'Create Project for .NET Framework' section
 - [Code style preferences](./code-styles-and-code-cleanup.md) - Add mapping of code cleanup settings to code style rule IDs and options
 - [Keyboard shortcuts in Visual Studio](./default-keyboard-shortcuts-in-visual-studio.md) - add missing Command IDs
-- [How to: Create and edit configurations](./how-to-create-and-edit-configurations.md) - How to Edit Configurations: updates for Visual Studio 2022
 
 ### Install
 
@@ -100,22 +92,22 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 **Updated articles**
 
-- [Debug a JavaScript or TypeScript app in Visual Studio](../javascript/debug-nodejs.md) - Refresh Visual Studio docs for debug & deployment
+- [Debug a JavaScript or TypeScript app in Visual Studio](../javascript/debug-nodejs.md) - Review and update Visual Studio docs for debug & deployment
 
 ### Modeling
 
 **Updated articles**
 
-- [Add extensions to DSL definitions](../modeling/adding-extensions-to-dsl-definitions.md) - Edits to improve SEO and usability
-- [Calculated and custom storage properties](../modeling/calculated-and-custom-storage-properties.md) - Edits to improve SEO and usability
-- [Create a WPF-Based domain-specific language](../modeling/creating-a-wpf-based-domain-specific-language.md) - Edits to improve SEO and usability
-- [Define a locking policy to create read-only segments](../modeling/defining-a-locking-policy-to-create-read-only-segments.md) - Edits to improve SEO and usability
-- [Write code to customize a domain-specific language](../modeling/writing-code-to-customise-a-domain-specific-language.md) - Edits to improve SEO and usability
-- [Control the visibility of an icon or decorator](../modeling/controlling-the-visibility-of-an-icon-or-decorator.md) - Edits to improve SEO and usability
-- [How to: Intercept a click on a shape or decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md) - Edits to improve SEO and usability
-- [How to: Set CLR attributes on an element](../modeling/how-to-set-clr-attributes-on-an-element.md) - Edits to improve SEO and usability
-- [Integrate models by using Visual Studio ModelBus](../modeling/integrating-models-by-using-visual-studio-modelbus.md) - Edits to improve SEO and usability
-- [Share classes between DSLs](../modeling/sharing-classes-between-dsls-by-using-a-dsl-library.md) - Edits to improve SEO and usability
+- [Add extensions to DSL definitions](../modeling/adding-extensions-to-dsl-definitions.md) - Edits to improve search engine optimization and usability
+- [Calculated and custom storage properties](../modeling/calculated-and-custom-storage-properties.md) - Edits to improve search engine optimization and usability
+- [Create a WPF-Based domain-specific language](../modeling/creating-a-wpf-based-domain-specific-language.md) - Edits to improve search engine optimization and usability
+- [Define a locking policy to create read-only segments](../modeling/defining-a-locking-policy-to-create-read-only-segments.md) - Edits to improve search engine optimization and usability
+- [Write code to customize a domain-specific language](../modeling/writing-code-to-customise-a-domain-specific-language.md) - Edits to improve search engine optimization and usability
+- [Control the visibility of an icon or decorator](../modeling/controlling-the-visibility-of-an-icon-or-decorator.md) - Edits to improve search engine optimization and usability
+- [How to: Intercept a click on a shape or decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md) - Edits to improve search engine optimization and usability
+- [How to: Set CLR attributes on an element](../modeling/how-to-set-clr-attributes-on-an-element.md) - Edits to improve search engine optimization and usability
+- [Integrate models by using Visual Studio ModelBus](../modeling/integrating-models-by-using-visual-studio-modelbus.md) - Edits to improve search engine optimization and usability
+- [Share classes between DSLs](../modeling/sharing-classes-between-dsls-by-using-a-dsl-library.md) - Edits to improve search engine optimization and usability
 
 ### MSBuild
 
@@ -124,11 +116,11 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 - [Move task](../msbuild/move-task.md) - Add examples for Move task
 - [ResolveAssemblyReference task](../msbuild/resolveassemblyreference-task.md) - ResolveAssemblyReference: add missing parameters
 - [Logging in MSBuild](../msbuild/logging-in-msbuild.md)
-  - Confirm merge from repo_sync_working_branch to main to sync with https://github.com/MicrosoftDocs/visualstudio-docs (branch main)
   - Indenting link descriptions
-- [Target build order](../msbuild/target-build-order.md)
-  - Confirm merge from repo_sync_working_branch to main to sync with https://github.com/MicrosoftDocs/visualstudio-docs (branch main)
-  - MSBuild: don't use both Before and AfterTargets
+- [Target build order](../msbuild/target-build-order.md) - MSBuild: don't use both Before and AfterTargets
+- [How to: Change the build output directory](./how-to-change-the-build-output-directory.md) - How to update the build output path: update for Visual Studio 2022
+- [How to: Suppress compiler warnings](./how-to-suppress-compiler-warnings.md) - Suppress warnings: updates for Visual Studio 2022
+- [How to: Create and edit configurations](./how-to-create-and-edit-configurations.md) - How to Edit Configurations: updates for Visual Studio 2022
 
 ### Python
 
@@ -136,10 +128,10 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 - [How to set up a Python environment on Azure App Service (Windows)](../python/managing-python-on-azure-app-service.md) - adding fastcgi content and note
 - [Configure Python web apps for IIS](../python/configure-web-apps-for-iis-windows.md) - adding wfastcgi content and note
-- [Use PyLint to check Python code](../python/linting-python-code.md) - Refresh top articles by PV - Visual Studio - Python final refresh docs
-- [Profile Python code](../python/profiling-python-code-in-visual-studio.md) - Refresh top articles by PV - Visual Studio - Python final refresh docs
-- [Work with the Python Interactive window](../python/python-interactive-repl-in-visual-studio.md) - Refresh top articles by PV - Visual Studio - Python final refresh docs
-- [Refactor Python code](../python/refactoring-python-code.md) - Refresh top articles by PV - Visual Studio - Python final refresh docs
+- [Use PyLint to check Python code](../python/linting-python-code.md) - Review and update Visual Studio articles for using PyLint to check Python code
+- [Profile Python code](../python/profiling-python-code-in-visual-studio.md) - Review and update Visual Studio articles for profiling Python code
+- [Work with the Python Interactive window](../python/python-interactive-repl-in-visual-studio.md) - Review and update Visual Studio articles for Python Interactive window
+- [Refactor Python code](../python/refactoring-python-code.md) - Review and update Visual Studio articles for refactoring Python code
 
 ### Test
 
@@ -149,7 +141,7 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 **Updated articles**
 
-- [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) - Refresh Visual Studio docs for debug & deployment
+- [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) - Review and update Visual Studio docs for debug & deployment
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md) - Static instrumentation doc
 
 ### Community contributors
@@ -188,16 +180,16 @@ The following people contributed to the Visual Studio docs during this period. T
 
 **Updated articles**
 
-- [Visual Studio SDK error messages](../extensibility/vssdk-messages/index.md) - Edits to improve SEO and usability
-- [Visual Studio SDK analyzer error VsixCompatibility1001](../extensibility/vssdk-messages/vsixcompatibility1001.md) - Edits to improve SEO and usability
+- [Visual Studio SDK error messages](../extensibility/vssdk-messages/index.md) - Edits to improve search engine optimization and usability
+- [Visual Studio SDK analyzer error VsixCompatibility1001](../extensibility/vssdk-messages/vsixcompatibility1001.md) - Edits to improve search engine optimization and usability
 
 ### Help viewer
 
 **Updated articles**
 
-- [Accessibility features of the Help Viewer](../help-viewer/accessibility-features.md) - 603085 | Refresh Help Viewer accessibility article
-- [Override Help Viewer defaults](../help-viewer/behavior-overrides.md) - 603085 | Refresh Help Viewer articles
-- [How to: Search for topics in Help Viewer](../help-viewer/find-topics.md) - 603085 | Refresh Help Viewer articles
+- [Accessibility features of the Help Viewer](../help-viewer/accessibility-features.md) - 603085 | Update Help Viewer accessibility article
+- [Override Help Viewer defaults](../help-viewer/behavior-overrides.md) - 603085 | Update Help Viewer articles
+- [How to: Search for topics in Help Viewer](../help-viewer/find-topics.md) - 603085 | Update Help Viewer articles
 
 ### IDE
 
@@ -307,7 +299,7 @@ The following people contributed to the Visual Studio docs during this period. T
 - [Options dialog box: Text Editor \> C# \> Code Style \> Formatting](./reference/options-text-editor-csharp-formatting.md) - add New Lines info & brace formatting info
 - [Optimize Visual Studio performance](./optimize-visual-studio-performance.md) - update outdated information
 - [How to: Locate and organize project and item templates](./how-to-locate-and-organize-project-and-item-templates.md) - update template locale info for Visual Studio 2022
-- [Work with GitHub accounts in Visual Studio](./work-with-github-accounts.md) - Refresh top articles for Visual Studio Acquisition
+- [Work with GitHub accounts in Visual Studio](./work-with-github-accounts.md) - Update top articles for Visual Studio Acquisition
 - [How to: Change fonts, colors, and themes in Visual Studio](./how-to-change-fonts-and-colors-in-visual-studio.md) - revise, merge, and redirect duplicative content
 - [Make code work in Visual Studio](./find-and-fix-code-errors.md) - review content, revise screenshot in intro section, and revise all alt text to standard
 - [Manage project and solution properties](./managing-project-and-solution-properties.md) - updates to Project Designer and Properties-related pages
@@ -318,9 +310,9 @@ The following people contributed to the Visual Studio docs during this period. T
 
 **Updated articles**
 
-- [Disable or move the package cache](../install/disable-or-move-the-package-cache.md) - Refresh top articles for Visual Studio Acquisition
-- [Import or export installation configurations](../install/import-export-installation-configurations.md) - Refresh top articles for Visual Studio Acquisition
-- [Troubleshoot network-related errors when you install or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md) - Refresh top articles for Visual Studio Acquisition
+- [Disable or move the package cache](../install/disable-or-move-the-package-cache.md) - Review and update top articles for Visual Studio Acquisition
+- [Import or export installation configurations](../install/import-export-installation-configurations.md) - Review and update top articles for Visual Studio Acquisition
+- [Troubleshoot network-related errors when you install or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md) - Review and update top articles for Visual Studio Acquisition
 - [Applying administrator updates that use Microsoft Endpoint Configuration Manager](../install/applying-administrator-updates.md) - Clarify SYSTEM account requirements for Visual Studio Administrator Updates
 
 ### Modeling
@@ -360,13 +352,13 @@ The following people contributed to the Visual Studio docs during this period. T
 - [Analyze CPU usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)](../profiling/cpu-usage.md)
   - Versioning updates for CPU Usage article for Visual Studio 2019 and Visual Studio 2022
   - Added additional content for using the cpu usage tool, how it's helpful
-- [Measure memory usage in Visual Studio (C#, Visual Basic, C++, F#)](../profiling/memory-usage.md) - refresh profiling memory usage for Visual Studio 2022
+- [Measure memory usage in Visual Studio (C#, Visual Basic, C++, F#)](../profiling/memory-usage.md) - Update profiling memory usage for Visual Studio 2022
 
 ### Test
 
 **Updated articles**
 
-- [Generate unit tests for fuzz testing by using IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md) - refresh test generate unit for Visual Studio 2022
+- [Generate unit tests for fuzz testing by using IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md) - Review and update test generate unit for Visual Studio 2022
 
 ### Community contributors
 
