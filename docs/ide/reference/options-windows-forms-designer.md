@@ -22,11 +22,15 @@ The Windows Forms Designer options page lets you set preferences for the grids a
 
 ## .NET Core
 
+::: moniker range="vs-2022"
+
 **Connection timeout (sec)**\
-Controls the Windows Forms out-of-process designer connection timeout in seconds. The minimum value is 120 seconds.
+Controls the Windows Forms out-of-process designer connection timeout, as measured in seconds. The minimum value is 120 seconds.
+
+::: moniker-end
 
 **Logging Level**\
-Controls the logging level for the Windows Forms out-of-process designer. The default is Warnings. Other options include None, Informational, Errors, and Verbose.
+Controls the logging level for the Windows Forms out-of-process designer. The options include None, Informational, Warnings, Errors, and Verbose.
 
 ## Code Generation Settings
 
