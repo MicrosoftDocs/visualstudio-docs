@@ -46,7 +46,7 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 - [How to debug for absolute beginners](../debugger/debugging-absolute-beginners.md) - Review and update Visual Studio docs for debug & deployment
 - [View the call stack and use the Call Stack window in the debugger](../debugger/how-to-use-the-call-stack-window.md) - Review and update Visual Studio docs for debug & deployment
-- Revise and redirect the following pages: 
+- Consolidate the following Spy++ reference pages: 
     - [About Microsoft Spy++](../debugger/about-microsoft-spy-increment.md) 
     - [Spy++ menu commands](../debugger/menu-commands.md) 
     - [Message Options dialog box](../debugger/message-options-dialog-box.md) 
