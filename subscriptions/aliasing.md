@@ -34,7 +34,7 @@ A UPN mismatch can be encountered when a company has an Active Directory set up 
 2. Select your name in the upper right corner of the page.  This will open your profile.  Verify that the sign-in email address listed in your profile matches the address you used to sign in.  If it does not, your UPN is mismatched and you won't be able to view your subscription. 
 
 > [!div class="mx-imgBorder"]
-> ![Sign in email address](_img//aliasing/sign-in-email.png "Screenshot of the subscriber portal header.  The username currently signed in is highlighted.")
+> ![Sign in email address](_img//aliasing/sign-in-email.png "Screenshot of the subscriber portal header. The username currently signed in is highlighted.")
 
 #### How to fix a UPN mismatch
 
@@ -67,7 +67,7 @@ The Visual Studio platform prioritizes the primary alias to show subscription de
 2. Under Account aliases, select **Make primary** next to the email address used to assign the subscription. 
 
 > [!div class="mx-imgBorder"]
-> ![Set the primary email address](_img//aliasing/account-aliases.png "Screenshot of the account aliases dialog.  The pointer is hovering over the make primary option.")
+> ![Set the primary email address](_img//aliasing/account-aliases.png "Screenshot of the account aliases dialog. The pointer is hovering over the make primary option.")
 
 3. Sign out of the Visual Studio Subscriptions portal (https://my.visualstudio.com) 
 

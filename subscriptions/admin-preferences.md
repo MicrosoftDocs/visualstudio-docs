@@ -21,13 +21,13 @@ To set your preferences:
 1. Sign in to the admin portal with an ID that has super admin privileges.
 2. Select the setting icon in the left pane.
    > [!div class="mx-imgBorder"]
-   > ![Admin Preferences button](_img/admin-preferences/admin-preferences-button.png "Screenshot of the Manage subscribers page.  The settings icon is highlighted.")
+   > ![Admin Preferences button](_img/admin-preferences/admin-preferences-button.png "Screenshot of the Manage subscribers page. The settings icon is highlighted.")
 
 3. Select **Agreement Preferences**.
 A panel will open on the left and your available preferences will be displayed. 
 
    > [!div class="mx-imgBorder"]
-   > ![Admin Preferences flyout dialog](_img/admin-preferences/admin-preferences-flyout-2.png "Screenshot of the agreement preferences dialog.  The overallocation email notification is selected.")
+   > ![Admin Preferences flyout dialog](_img/admin-preferences/admin-preferences-flyout-2.png "Screenshot of the agreement preferences dialog. The overallocation email notification is selected.")
 
 ## Set your preferences
 
