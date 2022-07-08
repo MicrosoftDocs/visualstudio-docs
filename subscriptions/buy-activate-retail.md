@@ -4,15 +4,17 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 76654645-08ee-445d-b9ee-123126d1f0fb
-ms.date: 04/26/2022
+ms.date: 07/08/2022
 ms.topic: how-to
 description:  Learn how to purchase Visual Studio subscriptions in the Microsoft Store and activate them in the Visual Studio subscriptions portal.
 ---
 
 # Visual Studio subscriptions are available through the Microsoft Store
+
 Visual Studio subscriptions are available through various channels. Choose from [Volume Licensing](https://www.microsoft.com/licensing/default), Cloud Solution Providers, the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions), and Microsoft Store.  This article will explore purchasing and activating subscriptions through the [Microsoft Store](https://www.microsoft.com/store/collections/visualstudio).  
 
 ## How to buy subscriptions
+
 Need help with deciding which subscription is right for you?  Check out our [subscription benefits page](https://visualstudio.microsoft.com/vs/benefits/).  
 
 Visual Studio subscriptions available through the Microsoft Store include:
@@ -26,6 +28,7 @@ Each of these subscriptions offers the option to make an initial purchase or to 
 > To qualify to renew subscriptions at the discounted renewal price, subscriptions should be renewed before they expire.  
 
 ## How to activate subscriptions
+
 After you purchase a Visual Studio subscription through the Microsoft Store, you can begin the activation process from the payment "Confirmation Page" or "Confirmation Email" you received after your purchase.
 
 1. Select the **Click here to sign in** link in the confirmation email or on the purchase confirmation page.
@@ -40,18 +43,22 @@ After you purchase a Visual Studio subscription through the Microsoft Store, you
 8. The subscription should now be visible on the [Subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) page and you should have access to all your subscription benefits.
 
 ## Support for Microsoft Store
+
 If you have any questions about purchasing through the Microsoft Store, help is available.  Contact [Microsoft Store Support](https://support.microsoft.com/help/28808/microsoft-store-contact-support?ocid=MSCOMStoreFooter-ContactUs).
 
-## Resources 
+## Resources
+
 [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp)
 
 ## See also
+
 + [Visual Studio documentation](/visualstudio/)
 + [Azure DevOps documentation](/azure/devops/)
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
+
 Once you've activated your subscription, visit the [Benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) page to see all the tools, services, training, and support benefits included in your subscription.  We recommend setting up these benefits to get started:
 + [Visual Studio](vs-ide-benefit.md)
 + [Azure DevOps](vs-azure-devops.md)
