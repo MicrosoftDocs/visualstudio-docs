@@ -80,7 +80,7 @@ If you need to track the deleted files, set `TaskParameter` to `DeletedFiles` wi
 
 Instead of directly using wildcards in the `Delete` task, create an `ItemGroup` of files to delete and run the `Delete` task on that. But, be sure to place the `ItemGroup` carefully. If you put an `ItemGroup` at the top level in a project file, it gets evaluated early on, before the build starts, so it won't include any files that were built as part of the build process. So, put the `ItemGroup` that creates the list of items to delete in a target close to the `Delete` task. You can also specify a condition to check that the property is not empty, so that you won't create an item list with a path that starts at the root of the drive.
 
-The following example, all files with the extension `.orig` are deleted.
+The following example, all files with the extension `.orig` in a particular folder are deleted.
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -95,7 +95,7 @@ The following example, all files with the extension `.orig` are deleted.
           TaskParameter="DeletedFiles"
           ItemName="FilesDeleted"/>
      </Delete>
-     <Message Text="@(FilesDeleted)"/>
+     <Message Text="Files deleted: @(FilesDeleted)"/>
   </Target>
 </Project>
 ```
