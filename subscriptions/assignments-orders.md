@@ -11,7 +11,7 @@ description:  Learn about admins' responsibility to track user assignments and p
 
 # Track user assignment and process orders
 
-Visual Studio subscriptions admin are expected to track Visual Studio usage and process orders for any increases in usage on the schedule in their Volume Licensing agreement or Microsoft Products and Services Agreement. The new Visual Studio Subscriptions Administration portal has made this simple with a helpful tracker showing your available and used licenses.
+Visual Studio subscriptions admins should track Visual Studio usage and process orders for any increases in usage on the schedule in their Volume Licensing agreement or Microsoft Products and Services Agreement. The new Visual Studio Subscriptions Administration portal has made this task simple with a helpful tracker showing your available and used licenses.
 
 ## Maximum usage
 
