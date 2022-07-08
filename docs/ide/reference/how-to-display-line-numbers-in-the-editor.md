@@ -2,7 +2,7 @@
 title: Display line numbers for code
 description: Learn how to show or hide line numbering in your code.
 ms.custom: SEO-VS-2020
-ms.date: 07/05/2022
+ms.date: 07/08/2022
 ms.topic: how-to
 helpviewer_keywords:
 - line numbers, displaying
