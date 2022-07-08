@@ -41,7 +41,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
     + Remove spaces before and after values in form fields.
     + Make sure user's names do not contain extra spaces between two-part first or last names. For example, if a person has a two-part first name such as "Maggie May", it should be typed as "MaggieMay" because the system won't trim the extra space.
     + Make sure all required fields are completed. 
-    + Check the **Error message** column.  If any errors are listed, resolve those before attempting to upload the file. 
+    + Check the **Error message** column.  If any errors are listed, resolve them before attempting to upload the file. 
 
 1. Return to the Visual Studio Subscriptions Administration portal. In the **Upload Multiple Subscribers** dialog box, select **Browse**.
    > [!div class="mx-imgBorder"]
@@ -62,7 +62,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
    0. Return to the Administration Portal and dismiss the error message.
    0. Choose **Add**.
    0. Select **Bulk add**.
-   0. Since you already have the Excel file saved, you do not need to download the template.  Select **Browse**, locate the file you just saved, and select **Open**.
+   0. Since you already have the Excel file saved, you do not need to download the template.  Select **Browse**, locate the file you saved, and select **Open**.
    0. Select **OK**.
 
 
@@ -101,7 +101,7 @@ Watch this video or read on to learn more about adding subscribers using the Azu
 
 4. A fly-out window will appear on the right.  Begin to enter the name of the Azure AD group that you'd like to add into the form field. The system will search the available Azure AD groups within your organization for a match. 
 
-5. When you select the group, the field will automatically populate with the group name. You'll have the option to view the users in that group before you add them. Next, you can choose the subscription level, download rights, and communication preferences for the group. You can add details into the reference field if you wish. 
+5. When you select the group, the field will automatically populate with the group name. You'll be able to view the users in that group before you add them. Next, you can choose the subscription level, download rights, and communication preferences for the group. You can add details into the reference field if you wish. 
 
    > [!div class="mx-imgBorder"]
    > ![Choose your Azure AD group](_img/assign-license-bulk/bulk-add-aad-details.png "Screenshot of the Add group dialog. Search results are displayed.")
@@ -129,15 +129,15 @@ A: The feature is currently only available to organizations with trusted agreeme
 
 ### Q: I added users to my Azure Active Directory group, but they don’t have subscriptions yet. Why? 
 
-A: If the changes were made directly in Azure Active Directory the subscriptions should be assigned very quickly.  If the changes were made in an on-premises Active Directory it'll first need to be synced to Azure Active Directory. Depending how your on-prem Active Directory is configured, the changes could take up to 24 hours to be reflected. If it has been longer than 24 hours, our [support team can help troubleshoot any issues](https://aka.ms/vsadminhelp). 
+A: If the changes were made directly in Azure Active Directory the subscriptions should be assigned quickly.  If the changes were made in an on-premises Active Directory it'll first need to be synced to Azure Active Directory. Depending how your on-prem Active Directory is configured, the changes could take up to 24 hours to be reflected. If it has been longer than 24 hours, our [support team can help troubleshoot any issues](https://aka.ms/vsadminhelp). 
 
 ### Q: Can I choose multiple subscription levels to be assigned within an Azure Active Directory group?
 
-A: No -- Everyone in the group receives the same subscription level.
+A: No--Everyone in the group receives the same subscription level.
 
 ### Q: Can I edit subscriber details of individuals added in an Azure Active Directory group?
 
-A: No -- To modify information for an individual subscriber, remove them from the Azure Active Directory security group and assign them a subscription individually.
+A: No--To modify information for an individual subscriber, remove them from the Azure Active Directory security group and assign them a subscription individually.
 
 ### Q: Can I add separate notification email addresses for members of an Azure Active Directory group?
 
