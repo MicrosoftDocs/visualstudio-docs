@@ -13,7 +13,7 @@ description:  Learn how admins can  assign specific subscription GUID to subscri
 
 Admins can now use the Visual Studio Subscriptions Administration Portal to assign specific subscriptions to individual subscribers.  This can be useful in situations where the organization has temporary staff or vendors that need access to a subscription for a short period.  Admins can assign a subscription that has already been partially used, leaving their new subscriptions for longer term use.  
 
-Watch the video or read on to learn how assign specific subscriptions GUIDs to users. 
+Watch the video or read on to learn how to assign specific subscriptions GUIDs to users. 
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4t4cl]

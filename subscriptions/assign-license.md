@@ -34,7 +34,7 @@ Watch the video or read on to learn how to assign a Visual Studio subscription t
    > ![Add a single subscriber](_img/assign-license-add/add-subscriber-individual.png "Screenshot of the subscriber list in the manage portal. Individual subscriber in the add menu is highlighted.")
 3. A fly-out panel will appear to the right.  Enter the information into the form fields for the new subscriber. 
    + If your organization is using Azure Active Directory, typing the name of the subscriber in the **Search Azure Active Directory** box will return the names of any Azure AD group members matching your criteria.  After you select that person, sign-in email and notification email will automatically populate.  
-   + If the subscribewon't found in your organization, you can enter the subscriber's name in the **Name** field.  
+   + If the subscriber wasn't found in your organization, you can enter the subscriber's name in the **Name** field.  
    + Enter the email address you want your subscriber to use to sign in.  You can also select the **Add a different notification email for receiving communication** link and specify a different notification email address so subscribers and admins receive important subscription-related emails from Microsoft.
       > [!div class="mx-imgBorder"]
       > ![Subscriber details](_img/assign-license-add/subscriber-details.png "Screenshot of the Add subsriber dialog showing fields for subscriber details.")

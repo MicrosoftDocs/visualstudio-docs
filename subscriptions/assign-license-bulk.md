@@ -129,7 +129,7 @@ A: The feature is currently only available to organizations with trusted agreeme
 
 ### Q: I added users to my Azure Active Directory group, but they don’t have subscriptions yet. Why? 
 
-A: If the changes were made directly in Azure Active Directory the subscriptions should be assigned very quickly.  If the changes were made in an on-prem Active Directory it'll first need to be synced to Azure Active Directory. Depending how your on-prem Active Directory is configured, the changes could take up to 24 hours to be reflected. If it has been longer than 24 hours, our [support team can help troubleshoot any issues](https://aka.ms/vsadminhelp). 
+A: If the changes were made directly in Azure Active Directory the subscriptions should be assigned very quickly.  If the changes were made in an on-premises Active Directory it'll first need to be synced to Azure Active Directory. Depending how your on-prem Active Directory is configured, the changes could take up to 24 hours to be reflected. If it has been longer than 24 hours, our [support team can help troubleshoot any issues](https://aka.ms/vsadminhelp). 
 
 ### Q: Can I choose multiple subscription levels to be assigned within an Azure Active Directory group?
 
