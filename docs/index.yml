@@ -40,7 +40,7 @@ productDirectory:
           text: Visual Studio 2019 for Mac
         - url: /previous-versions/visualstudio/mac/
           text: Previous versions
-        - url: /visualstudio/releasenotes/releases/2022/mac-release-notes
+        - url: /visualstudio/releases/2022/mac-release-notes
           text: Release notes
         - url: https://visualstudio.microsoft.com/vs/mac/
           text: Product page
