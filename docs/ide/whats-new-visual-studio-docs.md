@@ -100,16 +100,16 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 **Updated articles**
 
 Edits to improve search engine optimization and usability for the following pages:
-    - [Add extensions to DSL definitions](../modeling/adding-extensions-to-dsl-definitions.md) 
-    - [Calculated and custom storage properties](../modeling/calculated-and-custom-storage-properties.md) 
-    - [Create a WPF-Based domain-specific language](../modeling/creating-a-wpf-based-domain-specific-language.md) 
-    - [Define a locking policy to create read-only segments](../modeling/defining-a-locking-policy-to-create-read-only-segments.md) 
-    - [Write code to customize a domain-specific language](../modeling/writing-code-to-customise-a-domain-specific-language.md) 
-    - [Control the visibility of an icon or decorator](../modeling/controlling-the-visibility-of-an-icon-or-decorator.md) 
-    - [How to: Intercept a click on a shape or decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md) 
-    - [How to: Set CLR attributes on an element](../modeling/how-to-set-clr-attributes-on-an-element.md) 
-    - [Integrate models by using Visual Studio ModelBus](../modeling/integrating-models-by-using-visual-studio-modelbus.md) 
-    - [Share classes between DSLs](../modeling/sharing-classes-between-dsls-by-using-a-dsl-library.md) 
+  - [Add extensions to DSL definitions](../modeling/adding-extensions-to-dsl-definitions.md) 
+  - [Calculated and custom storage properties](../modeling/calculated-and-custom-storage-properties.md) 
+  - [Create a WPF-Based domain-specific language](../modeling/creating-a-wpf-based-domain-specific-language.md) 
+  - [Define a locking policy to create read-only segments](../modeling/defining-a-locking-policy-to-create-read-only-segments.md) 
+  - [Write code to customize a domain-specific language](../modeling/writing-code-to-customise-a-domain-specific-language.md) 
+  - [Control the visibility of an icon or decorator](../modeling/controlling-the-visibility-of-an-icon-or-decorator.md) 
+  - [How to: Intercept a click on a shape or decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md) 
+  - [How to: Set CLR attributes on an element](../modeling/how-to-set-clr-attributes-on-an-element.md) 
+  - [Integrate models by using Visual Studio ModelBus](../modeling/integrating-models-by-using-visual-studio-modelbus.md) 
+  - [Share classes between DSLs](../modeling/sharing-classes-between-dsls-by-using-a-dsl-library.md) 
 
 ### MSBuild
 
