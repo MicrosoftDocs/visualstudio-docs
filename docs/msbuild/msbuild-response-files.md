@@ -35,7 +35,7 @@ In version 15.6 and above, MSBuild will search parent directories of the project
 
 ## Disabling response files
 
-To disable reading response files in a particular build, use the command-line option `-noAutoResponse`. See [MSBuild command line reference](msbuild-command-line-reference.md).
+To disable automatically processing the default response files *MSBuild.rsp* and *Directory.Build.rsp* in a particular invocation of MSBuild, use the command-line option `-noAutoResponse`. Any response files referenced explicitly using the @-syntax on the command-line are still processed. See [MSBuild command line reference](msbuild-command-line-reference.md). 
 
 ## See also
 
