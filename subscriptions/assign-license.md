@@ -58,10 +58,10 @@ Watch the video or read on to learn how to assign a Visual Studio subscription t
 
 Some organizations set up their email services to block incoming emails from other domains.  Blocking incoming emails means that subscribers and admins will miss important communications:
   + Subscribers won't receive a notification that a subscription has been assigned to them.  This will also prevent them from activating some of the included benefits.  
-  + Subscribers who have been assigned Visual Studio subscriptions with GitHub Enterprise won't receive the invitation to join your GitHub organization, meaning they will be unable to accept the invitation. They **must accept the emailed invitation** in order to gain access to your GitHub organization. 
-  + Admins won't be notified when they are added to an agreement, receive monthly admin statements or notifications of feature changes that affect the way they manage subscriptions.
+  + Subscribers who have been assigned Visual Studio subscriptions with GitHub Enterprise won't receive the invitation to join your GitHub organization, meaning they'll be unable to accept the invitation. They **must accept the emailed invitation** in order to gain access to your GitHub organization. 
+  + Admins won't be notified when they're added to an agreement, receive monthly admin statements or notifications of feature changes that affect the way they manage subscriptions.
 
-Using a notification email address provides you with the option to allow your subscribers to receive important communications about their subscriptions without changing the functionality of their sign-in email addresses.  
+Using a notification email address lets you allow your subscribers to receive important communications about their subscriptions without changing their sign-in email addresses.  
 
 ## Resend assignment emails
 
@@ -81,4 +81,4 @@ Need help?  Contact [Subscriptions Support](https://aka.ms/vsadminhelp).
 
 ## Next steps
 
-Have a lot of users to add?  Learn how to assign subscriptions to [multiple subscribers](assign-license-bulk.md).
+Have lots of users to add?  Learn how to assign subscriptions to [multiple subscribers](assign-license-bulk.md).
