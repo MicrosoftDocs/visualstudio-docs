@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2022."
-ms.date: 05/10/2022
+ms.date: 07/07/2022
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -43,8 +43,10 @@ In [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studi
 
 :::image type="content" source="media/vs-2022/find-files-faster.gif" alt-text="Animation of the Find in Files feature as it searches a large C# solution three times faster than the previous version of Visual Studio.":::
 
-> [!NOTE]
-> **New in 17.1**: With new indexed searching, Find in Files is even faster! For more information, see the [Code search in Visual Studio 2022 is about to get much faster](https://devblogs.microsoft.com/visualstudio/code-search-in-visual-studio-is-about-to-get-much-faster/) blog post.
+**New in 17.1**: With new indexed searching, Find in Files is even faster! For more information, see the [Code search in Visual Studio 2022 is about to get much faster](https://devblogs.microsoft.com/visualstudio/code-search-in-visual-studio-is-about-to-get-much-faster/) blog post.
+
+> [!TIP]
+> To learn more about current and upcoming changes to the search experience in Visual Studio 2022, see the [Sneak Peek and Edit Your Code While You Search](https://devblogs.microsoft.com/visualstudio/sneak-peek-and-edit-your-code-while-you-search/) blog post.
 
 ## Build modern apps
 
@@ -93,9 +95,12 @@ From new iconography to subtle color contrast ratio adjustments and a new [Casca
 
 One of our key focus areas is to make Visual Studio more personalized and flexible so that you can make the IDE your own. For example, [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/) offers you the ability to sync with your Windows theme. So, if you've enabled the "night light" feature there, Visual Studio uses it, too. For more info, see the [**Personalize your Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/personalize-your-visual-studio-2022/) blog post.
 
+> [!TIP]
+> To learn more about the latest tabs updates in Visual Studio 2022, see the [**Improved doc management personalization**](https://devblogs.microsoft.com/visualstudio/doc-management-personalization/) blog post.
+
 ## What's next
 
-Want to know more about what we're planning for Visual Studio 2022? See the [**Roadmap**](/visualstudio/productinfo/vs-roadmap/) page and the [**Visual Studio 2022 17.3 Preview**](/visualstudio/releases/2022/release-notes-preview/) release notes for details.
+Want to know more about what we're planning for Visual Studio 2022? See the [**Roadmap**](/visualstudio/productinfo/vs-roadmap/) page, the [**Preview**](/visualstudio/releases/2022/release-notes-preview/) release notes, and the Visual Studio [**Blog**](https://devblogs.microsoft.com/VisualStudio/) for details.
 
 ## Give us feedback
 
@@ -108,4 +113,5 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 ## See also
 
 * [Visual Studio 2022 17.2 is now available](https://aka.ms/vs-2022-17-2-release)
+* [Visual Studio 2022 17.1 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-1-is-now-available/)
 * [Visual Studio 2022 GA is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-now-available/)
