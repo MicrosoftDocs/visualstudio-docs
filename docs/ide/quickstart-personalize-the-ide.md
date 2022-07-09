@@ -127,7 +127,7 @@ We explored just a couple ways of customizing the colors in Visual Studio. We ho
 ::: moniker range="vs-2022"
 
 > [!TIP]
-> Looking for info on how to download and import VS Code color themes into Visual Studio? Check out the [Introducing a Collection of New Visual Studio Themes](https://devblogs.microsoft.com/visualstudio/custom-themes/) blog post for all the details.
+> Looking for info on how to download VS Code color themes and then import them into Visual Studio? Check out the [Introducing a Collection of New Visual Studio Themes](https://devblogs.microsoft.com/visualstudio/custom-themes/) blog post for all the details.
 
 ::: moniker-end
 
