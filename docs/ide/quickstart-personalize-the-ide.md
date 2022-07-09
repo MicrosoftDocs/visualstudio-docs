@@ -125,7 +125,7 @@ Now we'll customize some text colors for the editor. First, let's create a new X
 We explored just a couple ways of customizing the colors in Visual Studio. We hope that you'll explore the other customization options in the [**Options**](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) dialog box, to truly make Visual Studio your own.
 
 > [!TIP]
-> Looking for info on how to download and import new color themes? Check out the [Introducing Collection of New Visual Studio Themes!](https://devblogs.microsoft.com/visualstudio/custom-themes/) blog post.
+> Looking for info on how to download and import new color themes? Check out the [Introducing Collection of New Visual Studio Themes](https://devblogs.microsoft.com/visualstudio/custom-themes/) blog post.
 
 ## See also
 
