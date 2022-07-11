@@ -68,4 +68,4 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
 
 ## Next steps
 
-Subscribers and Program Admins should work directly with the Microsoft Partner Network support team to resolve any problems with subscribers accessing subscriptions. Visit the [Support for Partners](https://partner.microsoft.com/support) page for assistance. (Your MPN sign in credentials will be required.)
+Subscribers and Program Admins should work directly with the Microsoft Partner Network support team to resolve any problems with subscribers accessing subscriptions. Visit the [Support for Partners](https://partner.microsoft.com/support) page for assistance. (Your MPN sign-in credentials will be required.)
