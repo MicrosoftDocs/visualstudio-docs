@@ -50,7 +50,7 @@ Watch this video or read on to learn how to edit multiple subscribers using bulk
    > [!div class="mx-imgBorder"]
    > ![Editing a License - Bulk Edits File Upload](_img/edit-license/edit-license-bulk-file-upload1.png "Screenshot of the Edit multiple subscribers dialog.  The name of the completed template is highlighted.")
 
-5. Once you’ve uploaded the file, you'll see a notification letting you know it was successful. At this point, your edits will be reflected in the subscriber information.
+5. After you’ve uploaded the file, you'll see a notification letting you know it was successful. At this point, your edits will be reflected in the subscriber information.
 
 ## Resources
 
