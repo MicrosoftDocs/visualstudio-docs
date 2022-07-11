@@ -31,7 +31,7 @@ Watch this video or read on to learn how to delete assignments.
    > [!NOTE]
    > Bulk delete using a template is not available. 
    >
-   > If you added subscription assignments through Azure Active Directory Security Groups, it may take up to 24 hours for the deletion to be updated in the admin portal.  See [our article](assign-license-bulk.md#use-azure-active-directory-groups-to-assign-subscriptions) for more information about using Azure Active Directory groups to manage subscriptions. 
+   > If you added subscription assignments through Azure Active Directory Security Groups, it may take up to 24 hours for the deletion to be updated in the admin portal. For more information about using Azure Active Directory groups to manage subscriptions, see [this topic](assign-license-bulk.md#use-azure-active-directory-groups-to-assign-subscriptions) in the **Add multiple users** article. 
 
 ## Resources
 
@@ -47,5 +47,5 @@ Watch this video or read on to learn how to delete assignments.
 ## Next steps
 
 + Need to change a subscription without deleting it?  Learn how to [edit subscriptions](edit-license.md)
-+ For help finding a particular subscription, check out [search for a subscription](search-license.md).
++ To find a particular subscription, check out [search for a subscription](search-license.md).
 + Need to create a list of all your subscriptions?  See [export subscriptions](exporting-subscriptions.md).
