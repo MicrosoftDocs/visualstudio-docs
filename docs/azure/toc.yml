@@ -39,7 +39,7 @@
   - name: Add Azure App Configuration
     href: vs-azure-tools-connected-services-app-configuration.md
   expanded: false
-- name: GitHub actions
+- name: GitHub Actions
   href: overview-github-actions.md
 - name: How to
   items:
