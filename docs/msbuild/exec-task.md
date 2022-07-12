@@ -10,7 +10,6 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - Exec task [MSBuild]
 - MSBuild, Exec task
@@ -78,3 +77,4 @@ The following example uses the `Exec` task to run a command.
 
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)
+- [MSBuild and Visual Studio formats for diagnostic messages](./msbuild-diagnostic-format-for-tasks.md)
