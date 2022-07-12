@@ -83,7 +83,7 @@ Instead of directly using wildcards in the `Delete` task, create an `ItemGroup` 
 The following example, all files with the extension `.orig` in a particular folder are deleted.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
   <ItemGroup>
     <FilesToDelete Include="source\*.orig"/>
   </ItemGroup>
