@@ -89,6 +89,13 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 - [Visual Studio on Arm-powered devices](../install/visual-studio-on-arm-devices.md) - Arm64 updates for Visual Studio 17.3 Preview 2
 
+Monday, July 4
+Tuesday, July 5
+Wednesday, July 6
+Thursday, July 7
+Friday, July 8
+
+Settings
 ### JavaScript
 
 **Updated articles**
