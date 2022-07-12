@@ -5,7 +5,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jmartens
 ms.technology: vs-ide-general
-ms.date: 02/24/2021
+ms.date: 07/13/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - editor
@@ -19,7 +19,6 @@ ms.workload:
 Learn how Visual Studio makes developers more productive than ever. Take advantage of our performance and productivity improvements like navigation to decompiled assemblies, variable name suggestions as you type, a hierarchy-view in **Test Explorer**, Go To All (**Ctrl**+**T**) to navigate to file/type/member/symbol declarations, an intelligent **Exception Helper**, code style configuration and enforcement, and many refactorings and code fixes.
 
 ## I'm used to keyboard shortcuts from a different editor
-
 
 If you're coming from another IDE or coding environment, you can change your keyboard scheme to *Visual Studio Code* or *ReSharper (Visual Studio)*:
 
@@ -135,7 +134,6 @@ You can [install FxCop analyzers](../code-quality/install-net-analyzers.md) to f
 
 Several community members have written free extensions that add additional code inspections:
 
-
 ::: moniker range=">=vs-2019"
 
 - [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2019)
@@ -192,12 +190,11 @@ Some of Visual Studio's debugging capabilities include:
 
 ::: moniker-end
 
-
 ![Exception Helper in Visual Studio](../ide/media/VSGuide_Debugging.png)
 
 ## Version control
 
-You can use git or TFVC to store and update your code in Visual Studio.
+You can use [Git](../version-control/git-with-visual-studio.md) or TFVC to store and update your code in Visual Studio.
 
 ::: moniker range=">=vs-2019"
 
