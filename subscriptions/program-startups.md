@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 71af88da-b9fa-4d12-999c-7d461f3df0ec
-ms.date: 05/24/2022
+ms.date: 07/12/2022
 ms.topic: conceptual
 description:  Details on subscriptions offered through the Microsoft for Startups program.
 ---
@@ -20,7 +20,7 @@ These subscriptions are the same as the subscriptions offered through the Azure 
 > [!NOTE]
 > With all Visual Studio cloud subscriptions, the licensed user must sign in to Visual Studio using the same identity/login that was used to activate the Visual Studio subscription.
 
-Product keys aren't offered to unlock the product; sign-in is the only option for running Visual Studio. The Visual Studio subscriber can operate offline for up to 30 days before Visual Studio stops working. When users are working online, Visual Studio silently refreshes the user's license status periodically to ensure the subscription is still valid.
+Product keys aren't offered to unlock the product. Signing in is the only option for running Visual Studio. The Visual Studio subscriber can operate offline for up to 30 days before Visual Studio stops working. When users are working online, Visual Studio silently refreshes the user's license status periodically to ensure the subscription is still valid.
 
 ## Frequently asked questions
 
