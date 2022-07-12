@@ -22,7 +22,7 @@ The process is:
 
 This scenario applies to new partners who have already placed new Open License orders, but who haven’t registered on the [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx) and go directly to the [Visual Studio Subscriptions Administration Portal](https://manage.visualstudio.com).  Follow these steps:
 1. Visit <https://manage.visualstudio.com>.
-1. You receive an notification that you're not a recognized user.
+1. You receive a notification that you're not a recognized user.
 1. Select the **OLP Partners** registration option
 1. Enter the authorization number, license number, customer email address used on the order 
 1. Select the checkbox
