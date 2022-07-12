@@ -2,7 +2,7 @@
 title: Delete Task | Microsoft Docs
 description: Learn about parameters and considerations for using the MSBuild Delete task to delete specified files.
 ms.custom: SEO-VS-2020
-ms.date: 06/11/2020
+ms.date: 07/08/2022
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#Delete
@@ -10,7 +10,6 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - Delete task [MSBuild]
 - MSBuild, Delete task
@@ -43,7 +42,7 @@ In addition to the parameters listed above, this task inherits parameters from t
 > [!WARNING]
 > Be careful when you use wildcards with the `Delete` task. You can easily delete the wrong files with expressions like `$(SomeProperty)\**\*.*` or `$(SomeProperty)/**/*.*`, especially if the property evaluates to an empty string, in which case the `Files` parameter can evaluate to the root of your drive and delete much more than you wanted to delete.
 
-## Example
+## Examples
 
 The following example deletes the file *ConsoleApp1.pdb* when you build the `DeleteDebugSymbolFile` target.
 
@@ -80,6 +79,28 @@ If you need to track the deleted files, set `TaskParameter` to `DeletedFiles` wi
 ```
 
 Instead of directly using wildcards in the `Delete` task, create an `ItemGroup` of files to delete and run the `Delete` task on that. But, be sure to place the `ItemGroup` carefully. If you put an `ItemGroup` at the top level in a project file, it gets evaluated early on, before the build starts, so it won't include any files that were built as part of the build process. So, put the `ItemGroup` that creates the list of items to delete in a target close to the `Delete` task. You can also specify a condition to check that the property is not empty, so that you won't create an item list with a path that starts at the root of the drive.
+
+The following example, all files with the extension `.orig` in a particular folder are deleted.
+
+```xml
+<Project>
+  <Target Name="DeleteFiles" AfterTargets="Build">
+     <ItemGroup>
+       <FilesToDelete Include="source\*.orig"/>
+     </ItemGroup>
+     <Message Text="Deleting Files @(FilesToDelete)"/>
+     <Delete Files="@(FilesToDelete)">
+       <Output 
+          TaskParameter="DeletedFiles"
+          ItemName="FilesDeleted"/>
+     </Delete>
+     <Message Text="Files deleted: @(FilesDeleted)"/>
+  </Target>
+</Project>
+```
+
+> [!NOTE]
+> When using wildcards for deletion of files generated during the build process, be aware of when in the build process the wildcard expansion occurs. In the previous example, the `ItemGroup` with the wildcard expansion is in the same target as the deletion, which ensures that any file built prior to that target is included in the deletion list. Item groups at the top level are expanded at evaluation time, which would miss any files generated later in the build process.
 
 The `Delete` task is intended for deleting files. If you want to delete a directory, use [RemoveDir](removedir-task.md).
 
