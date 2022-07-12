@@ -2,13 +2,12 @@
 title: MSBuild Response Files | Microsoft Docs
 description: Learn about MSBuild response or .rsp files, text files that contain MSBuild.exe command-line switches.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 07/08/2022
 ms.topic: reference
 dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - response files, MSBuild
 - MSBuild, response files
@@ -33,6 +32,10 @@ The autoresponse file is a special *.rsp* file that *MSBuild.exe* automatically 
 ## Directory.Build.rsp
 
 In version 15.6 and above, MSBuild will search parent directories of the project for a file named *Directory.Build.rsp*.  This can be helpful in a source code repository to provide default arguments during command-line builds.  It can also be used to specify the command-line arguments of hosted builds.
+
+## Disabling response files
+
+To disable automatically processing the default response files *MSBuild.rsp* and *Directory.Build.rsp* in a particular invocation of MSBuild, use the command-line option `-noAutoResponse`. Any response files referenced explicitly using the @-syntax on the command-line are still processed. See [MSBuild command line reference](msbuild-command-line-reference.md). 
 
 ## See also
 
