@@ -78,13 +78,9 @@ You can use an EditorConfig file to codify coding conventions and have them trav
 
    ![EditorConfig item templates in Visual Studio](media/editorconfig-item-templates.png)
 
-::: moniker range=">=vs-2019"
-
 - Automatically create an *.editorconfig* file based on your code style settings in **Tools** > **Options** > **Text Editor** > **C#** > **Code Style**.
 
    ![Generate .editorconfig file from settings in VS 2019](media/vs-2019/generate-editorconfig-file.png)
-
-::: moniker-end
 
 - The [code inference feature](/visualstudio/intellicode/code-style-inference) of IntelliCode for Visual Studio infers your code styles from existing code. It then creates a non-empty EditorConfig file with your code-style preferences already defined.
 
@@ -93,8 +89,6 @@ You can use an EditorConfig file to codify coding conventions and have them trav
    ![Configure the severity level of a code style rule directly in the editor](../ide/media/configure-severity-level.png)
 
 Check out the [.NET coding convention options](/dotnet/fundamentals/code-analysis/code-style-rule-options) documentation, which also contains an example of a complete EditorConfig file.
-
-::: moniker range=">=vs-2019"
 
 ## Code Cleanup
 
@@ -107,8 +101,6 @@ You can also run code cleanup across your entire project or solution. Right-clic
 ![Run Code Cleanup Across Entire Project or Solution](media/vs-2019/run-code-cleanup-project-solution.png)
 
 In addition to formatting your file for spaces, indents, et cetera, **Code Cleanup** also applies selected code styles. Your preferences for each code style are read from the [EditorConfig file](code-styles-and-code-cleanup.md#code-styles-in-editorconfig-files), if you have one for the project, or from the [code style settings](code-styles-and-code-cleanup.md#code-styles-in-the-options-dialog-box) in the **Options** dialog box.
-
-::: moniker-end
 
 ## Refactorings and code fixes
 
@@ -134,14 +126,10 @@ You can [install FxCop analyzers](../code-quality/install-net-analyzers.md) to f
 
 Several community members have written free extensions that add additional code inspections:
 
-::: moniker range=">=vs-2019"
-
 - [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2019)
 - [SonarLint for Visual Studio](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio2019)
 - [StyleCopAnalyzers](https://www.nuget.org/packages/stylecop.analyzers/)
 - [CodeCracker](https://www.nuget.org/packages/codecracker.CSharp/)
-
-::: moniker-end
 
 ![Refactorings in Visual Studio](../ide/media/VSGuide_CodeAnalysis.png)
 
@@ -180,15 +168,11 @@ Starting in Visual Studio 2017, there are numerous improvements to the testing e
 
 Some of Visual Studio's debugging capabilities include:
 
-::: moniker range=">=vs-2019"
-
 - The ability to search for a string within the **Watch**, **Autos**, and **Locals** windows.
 - *Run to click*, which lets you hover next to a line of code, hit the green 'play' icon that appears, and run your program until it reaches that line.
 - The **Exception Helper**, which puts the most important information at the top level in the dialog, for example, which variable is `null` in a `NullReferenceException`.
 - [Step back debugging](../debugger/view-historical-application-state.md), which lets you go back to previous breakpoints or steps and view the state of the application as it was in the past.
 - [Snapshot debugging](/azure/application-insights/app-insights-snapshot-debugger), which lets you investigate the state of a live web application at the moment an exception was thrown (must be on Azure).
-
-::: moniker-end
 
 ![Exception Helper in Visual Studio](../ide/media/VSGuide_Debugging.png)
 
@@ -196,11 +180,7 @@ Some of Visual Studio's debugging capabilities include:
 
 You can use [Git](../version-control/git-with-visual-studio.md) or TFVC to store and update your code in Visual Studio.
 
-::: moniker range=">=vs-2019"
-
 - Install the [Pull requests for Visual Studio](https://marketplace.visualstudio.com/items?itemName=vsideversioncontrolmsft.pr4vs) to create, review, check out, and run pull requests without leaving Visual Studio.
-
-::: moniker-end
 
 - Organize your local changes in [Team Explorer](reference/team-explorer-reference.md) and use the status bar to track pending commits and changes.
 
