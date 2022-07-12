@@ -100,7 +100,7 @@ The following example, all files with the extension `.orig` in a particular fold
 ```
 
 > [!NOTE]
-> When using wildcards for deletion of files generated during the build process, be aware of when in the build process the wildcard expansion occurs. In the previous example, the `ItemGroup` with the wildcard expansion is in the same target as the deletion, which ensures that anything build prior to that target is included in the deletion list. Item groups at the top level are expanded at evaluation time, which would miss any files generated later in the build process.
+> When using wildcards for deletion of files generated during the build process, be aware of when in the build process the wildcard expansion occurs. In the previous example, the `ItemGroup` with the wildcard expansion is in the same target as the deletion, which ensures that any file built prior to that target is included in the deletion list. Item groups at the top level are expanded at evaluation time, which would miss any files generated later in the build process.
 
 The `Delete` task is intended for deleting files. If you want to delete a directory, use [RemoveDir](removedir-task.md).
 
