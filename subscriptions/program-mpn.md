@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 7f4399d8-41da-41e5-a666-acc34958b8c0
-ms.date: 05/24/2022
+ms.date: 07/12/2022
 ms.topic: conceptual
 description:  Details on what subscriptions are offered, what rules apply, and how many subscriptions are offered in MPN.
 ---
@@ -14,7 +14,7 @@ Partners who earn a competency or who purchase the Action Pack in MPN are eligib
 
 ## Subscriptions for partners with an MPN competency
 
-When a partner earns a competency--either at the silver or gold level--partners earn a core number of Visual Studio Enterprise subscriptions. This core benefit changes if the partner earns at least one gold competency. The Visual Studio Enterprise subscription is a custom offering that is roughly equivalent to the [Visual Studio Enterprise Standard subscription](https://visualstudio.microsoft.com/vs/pricing/), but with certain benefits removed.  Many of these benefits are available separately to partners as general MPN benefits rather than as part of the Visual Studio Enterprise subscriptions.
+When a partner earns a competency--either at the silver or gold level--they earn a core number of Visual Studio Enterprise subscriptions. This core benefit changes if the partner earns at least one gold competency. The Visual Studio Enterprise subscription is a custom offering that is roughly equivalent to the [Visual Studio Enterprise Standard subscription](https://visualstudio.microsoft.com/vs/pricing/), but with certain benefits removed.  Many of these benefits are available separately to partners as general MPN benefits rather than as part of the Visual Studio Enterprise subscriptions.
 
 ### Core Visual Studio benefit for earning at least one competency of any kind
 
