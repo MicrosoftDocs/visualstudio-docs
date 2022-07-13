@@ -30,7 +30,7 @@ Keep these points in mind when you use the Visual Studio Subscriptions Admin Por
 
 ## The Subscribers page
 
-Once you’ve assigned subscriptions, the Manage subscribers tab provides detailed information about your subscribers, including:
+After you’ve assigned subscriptions, the Manage subscribers tab provides detailed information about your subscribers, including:
 + The first and last name of each subscriber.
 + The email address for this user.
 + The subscription level assigned to them.
