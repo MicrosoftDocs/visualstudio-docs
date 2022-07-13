@@ -11,7 +11,7 @@ description: Learn what happens when your Visual Studio subscription expires
 
 # What happens when your subscription expires
 
-Visual Studio subscriptions've specific durations, and unless they're renewed, they will expire.  When a subscription expires, the benefits provided by the subscription are impacted in different ways.  This article will explain how expiration affects various aspects of a Visual Studio subscription. 
+Visual Studio subscriptions have specific durations, and unless they're renewed, they will expire.  When a subscription expires, the benefits provided by the subscription are impacted in different ways.  This article will explain how expiration affects various aspects of a Visual Studio subscription. 
 
 If you would like to purchase a new subscription, you can explore purchasing options on our [pricing page](https://visualstudio.microsoft.com/vs/pricing).
 
