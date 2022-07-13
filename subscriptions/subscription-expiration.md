@@ -11,7 +11,7 @@ description: Learn what happens when your Visual Studio subscription expires
 
 # What happens when your subscription expires
 
-Visual Studio subscriptions've specific durations, and unless they are renewed, they will expire.  When a subscription expires, the benefits provided by the subscription are impacted in different ways.  This article will explain how expiration affects various aspects of a Visual Studio subscription. 
+Visual Studio subscriptions've specific durations, and unless they're renewed, they will expire.  When a subscription expires, the benefits provided by the subscription are impacted in different ways.  This article will explain how expiration affects various aspects of a Visual Studio subscription. 
 
 If you would like to purchase a new subscription, you can explore purchasing options on our [pricing page](https://visualstudio.microsoft.com/vs/pricing).
 
@@ -31,7 +31,7 @@ Not all benefits are impacted in the same way when a subscription expires.  No b
 
 ### Visual Studio IDE
 
-Most subscriptions provide perpetual licenses for the Visual Studio IDE. Download the Visual Studio [Licensing White Paper](https://aka.ms/vslicensing) to determine if your subscription is eligible for perpetual use rights.  If your subscription is eligible, you'll continue to've access to your **current version** of the IDE but won't receive updates to future versions. To continue using the IDE after expiration, you'll need to go to the [product key page](https://my.visualstudio.com/productkeys) and download the product key **before your subscription expires**.  After claiming the key, you'll need to [enter it](/visualstudio/ide/how-to-unlock-visual-studio#enter-a-product-key) to activate your IDE installation.  
+Most subscriptions provide perpetual licenses for the Visual Studio IDE. Download the Visual Studio [Licensing White Paper](https://aka.ms/vslicensing) to determine if your subscription is eligible for perpetual use rights.  If your subscription is eligible, you'll continue to have access to your **current version** of the IDE but won't receive updates to future versions. To continue using the IDE after expiration, go to the [product key page](https://my.visualstudio.com/productkeys) and download the product key **before your subscription expires**.  After claiming the key, [enter it](/visualstudio/ide/how-to-unlock-visual-studio#enter-a-product-key) to activate your IDE installation.  
 
 ### Azure DevOps
 
@@ -43,7 +43,7 @@ Monthly Azure credit allotments will continue for a limited time following expir
 
 ### Other benefits
 
-Many of the benefits included in Visual Studio subscriptions've specific durations.  Benefits provided by Microsoft's partners such as Pluralsight, DataCamp, or WhiteSource've time limits once they are activated.  Benefits you've previously activated will continue to be available to you for the remainder of their terms.  For example, if you've activated a six-month LinkedIn Learning subscription and it still has four months remaining when your Visual Studio subscription expires, you will still've four months of access to the LinkedIn Learning subscription.  
+Many of the benefits included in Visual Studio subscriptions have specific durations.  Benefits provided by Microsoft's partners such as Pluralsight, DataCamp, or WhiteSource have time limits after they're activated.  Benefits you've previously activated will continue to be available to you for the remainder of their terms.  For example, if you've activated a six-month LinkedIn Learning subscription and it still has four months remaining when your Visual Studio subscription expires, you'll be able to access it for those four months.  
 
 ## Resources
 
