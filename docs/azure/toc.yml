@@ -7,14 +7,16 @@
   items:
   - name: Deploy an ASP.NET Core app to Azure
     href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?view=aspnetcore-2.1&preserve-view=true
-  - name: Deploy a .NET TODO List Web App to Azure
+  - name: Deploy a .NET TODO List web app to Azure
     href: /dotnet/azure/dotnet-quickstart-vs?view=azure-dotnet&preserve-view=true
   - name: Continuous deployment to Azure with Visual Studio and Git with ASP.NET Core
     href: /azure/app-service/deploy-continuous-deployment
   - name: Continuous deployment to Azure with Azure Pipelines
     href: /azure/devops/pipelines/get-started-yaml?view=vsts&preserve-view=true
-  - name: Deploy an ASP.NET Web App to an Azure VM
+  - name: Deploy an ASP.NET web app to an Azure VM
     href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
+  - name: Deploy an ASP.NET Core web app to Azure Container Apps
+    href: /azure/container-apps/deploy-visual-studio?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
   expanded: true
 - name: Connect to Azure services
   items:
