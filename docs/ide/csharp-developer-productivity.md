@@ -55,18 +55,24 @@ The following are popular Visual Studio shortcuts:
 > [!NOTE]
 > Some extensions unbind the default Visual Studio keybindings. You can restore your keybindings to their defaults by going to **Tools** > **Import and Export Settings** > **Reset all settings** or **Tools** > **Options** > **Keyboard** > **Reset**.
 
-For more information about keyboard shortcuts and commands, see [Productivity shortcuts](../ide/productivity-shortcuts.md). Or, see [Popular keyboard shortcuts](default-keyboard-shortcuts-in-visual-studio.md) for a comprehensive list along with a downloadable cheat sheet.
+For more information about keyboard shortcuts and commands, see [Productivity shortcuts](../ide/productivity-shortcuts.md). Or, see [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md) for a comprehensive list along with a downloadable cheat sheet.
 
 ## Navigate quickly to files or types
 
-Visual Studio has a feature called **Go To All** (**Ctrl**+**T**). **Go To All** enables you to quickly jump to any file, type, member, or symbol declaration.
+Visual Studio has a feature called **Go To All** that you can use to quickly jump to any file, type, member, or symbol declaration. To open it from the menu bar, select **Edit** > **Go To** > **Go To All**. Or, you can open it by using the **Ctrl**+**T** keyboard shortcut.
 
-- Change the location of this search bar or turn off the live navigation preview by using the **gear** icon.
-- Filter results using syntax such as `t mytype`.
+A small window is displayed at the top right of your code editor.
+
+![Screenshot of the Go To All window.](media/go-to-all.png)
+
+You can use this feature to perform the following actions:
+
+- Change the location of its search bar or turn off the live navigation preview by using the **gear** icon.
+- Filter results by using syntax such as `t mytype`.
 - Scope your search to just the current document.
 - Camel case matching is supported.
 
-![Go To All in Visual Studio](../ide/media/VS2017Guide-go-to-all.png)
+For more information about **Go To All**, see [Find code by using Go To commands](go-to.md).
 
 ## Enforce code style rules
 
@@ -80,7 +86,7 @@ You can use an EditorConfig file to codify coding conventions and have them trav
 
 - Automatically create an *.editorconfig* file based on your code style settings in **Tools** > **Options** > **Text Editor** > **C#** > **Code Style**.
 
-   ![Generate .editorconfig file from settings in VS 2019](media/vs-2019/generate-editorconfig-file.png)
+   ![Generate .editorconfig file from settings in Visual Studio](media/vs-2019/generate-editorconfig-file.png)
 
 - The [code inference feature](/visualstudio/intellicode/code-style-inference) of IntelliCode for Visual Studio infers your code styles from existing code. It then creates a non-empty EditorConfig file with your code-style preferences already defined.
 
@@ -88,7 +94,7 @@ You can use an EditorConfig file to codify coding conventions and have them trav
 
    ![Configure the severity level of a code style rule directly in the editor](../ide/media/configure-severity-level.png)
 
-Check out the [.NET coding convention options](/dotnet/fundamentals/code-analysis/code-style-rule-options) documentation, which also contains an example of a complete EditorConfig file.
+Check out the [Screenshot of the .NET coding convention options.](/dotnet/fundamentals/code-analysis/code-style-rule-options) documentation, which also contains an example of a complete EditorConfig file.
 
 ## Code Cleanup
 
@@ -98,7 +104,7 @@ Visual Studio provides on-demand formatting of your code file, including code st
 
 You can also run code cleanup across your entire project or solution. Right-click on the project or solution name in **Solution Explorer**, select **Analyze and Code Cleanup**, and then select **Run Code Cleanup**.
 
-![Run Code Cleanup Across Entire Project or Solution](media/vs-2019/run-code-cleanup-project-solution.png)
+![Screenshot of how to run Code Cleanup across an entire project or solution.](media/vs-2019/run-code-cleanup-project-solution.png)
 
 In addition to formatting your file for spaces, indents, et cetera, **Code Cleanup** also applies selected code styles. Your preferences for each code style are read from the [EditorConfig file](code-styles-and-code-cleanup.md#code-styles-in-editorconfig-files), if you have one for the project, or from the [code style settings](code-styles-and-code-cleanup.md#code-styles-in-the-options-dialog-box) in the **Options** dialog box.
 
@@ -150,11 +156,11 @@ Visual Studio has many features to help you search and [navigate your code](../i
 
 ## Improved IntelliSense
 
-Use IntelliCode for Visual Studio to get [context-aware code completions](/visualstudio/intellicode/intellicode-visual-studio) instead of just an alphabetical list. You can also train a [custom IntelliSense model](/visualstudio/intellicode/custom-model-faq) based on your own domain-specific libraries.
+Use [IntelliCode](/visualstudio/intellicode/overview/) for Visual Studio to get [context-aware code completions](/visualstudio/intellicode/intellicode-visual-studio) instead of just an alphabetical list. You can also train a [custom IntelliSense model](/visualstudio/intellicode/custom-model-faq) based on your own domain-specific libraries.
 
 ## Unit testing
 
-Starting in Visual Studio 2017, there are numerous improvements to the testing experience. You can test with the MSTest v1, MSTest v2, NUnit, or XUnit test frameworks.
+We've made numerous improvements to the testing experience. You can test with the MSTest v1, MSTest v2, NUnit, or XUnit test frameworks.
 
 - **Test Explorer** test discovery is fast.
 
@@ -166,7 +172,7 @@ Starting in Visual Studio 2017, there are numerous improvements to the testing e
 
 ## Debugging
 
-Some of Visual Studio's debugging capabilities include:
+Some of Visual Studio's debugging capabilities include the following:
 
 - The ability to search for a string within the **Watch**, **Autos**, and **Locals** windows.
 - *Run to click*, which lets you hover next to a line of code, hit the green 'play' icon that appears, and run your program until it reaches that line.
@@ -180,7 +186,9 @@ Some of Visual Studio's debugging capabilities include:
 
 You can use [Git](../version-control/git-with-visual-studio.md) or TFVC to store and update your code in Visual Studio.
 
-- Install the [Pull requests for Visual Studio](https://marketplace.visualstudio.com/items?itemName=vsideversioncontrolmsft.pr4vs) to create, review, check out, and run pull requests without leaving Visual Studio.
+- In Visual Studio 2022 and in Visual Studio 2019 Use Git from directly within Visual Studio to create, review, check out, and run pull requests.
+
+- In Visual Studio 2019 version 15.6 and earlier, Install the [Pull requests for Visual Studio](https://marketplace.visualstudio.com/items?itemName=vsideversioncontrolmsft.pr4vs) to create, review, check out, and run pull requests without leaving Visual Studio.
 
 - Organize your local changes in [Team Explorer](reference/team-explorer-reference.md) and use the status bar to track pending commits and changes.
 
