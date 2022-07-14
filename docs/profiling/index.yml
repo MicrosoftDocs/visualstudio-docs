@@ -63,6 +63,8 @@ landingContent:
             url: dotnet-alloc-tool.md
           - text: .NET Async
             url: analyze-async.md
+          - text: File I/O
+            url: use-file-io.md
           - text: .NET Counters
             url: dotnet-counters-tool.md  
           - text: GPU Usage (Direct3D)
