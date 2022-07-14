@@ -66,9 +66,9 @@ With the Visual Studio 17.3 Preview 2 release, you can access the new native Arm
 
 | **Host architecture (platform the compiler is running on)** | **Target architecture (platform the compiler is generating binaries for)** | **Installation path** |
 | ----------- | ------ | --------------- |
-| Arm64 | Arm64 | <Install location>\VC\Tools\MSVC\<version>\bin\HostARM64\ARM64 |
-| Arm64 | X64 | <Install location>\VC\Tools\MSVC\<version>\bin\HostARM64\x64 |
-| Arm64 | X86 | <Install location>\VC\Tools\MSVC\<version>\bin\HostARM64\x86 |
+| Arm64 | Arm64 | \<Install location\>\VC\Tools\MSVC\<version>\bin\HostARM64\ARM64 |
+| Arm64 | X64 | \<Install location\>\VC\Tools\MSVC\\<version\>\bin\HostARM64\x64 |
+| Arm64 | X86 | \<Install location\>\VC\Tools\MSVC\\<version\>\bin\HostARM64\x86 |
 
 Many C++ libraries are already available on Arm64. Vcpkg also runs natively on Arm64, and while some dependent 3rd party tools may still run emulated, you can successfully build and consume 1700+ C++ libraries directly in your native Arm64 build environment.
 
