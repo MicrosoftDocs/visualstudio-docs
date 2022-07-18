@@ -16750,6 +16750,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "subscriptions/vs-cast.md",
+      "redirect_url": "/visualstudio/subscriptions",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/quickstart-aspnet-core.md",
       "redirect_url": "/visualstudio/get-started/csharp/tutorial-aspnet-core",
       "redirect_document_id": false
