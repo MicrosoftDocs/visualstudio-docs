@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 8fda431f-9227-4dca-b060-a278feaedba5
-ms.date: 07/13/2022
+ms.date: 07/18/2022
 ms.topic: conceptual
 description:  Learn how you can take advantage of Microsoft Dev Box via your Visual Studio subscription 
 ---
@@ -21,7 +21,13 @@ Dev Box bridges the gap between development teams and IT, bringing control of pr
 
 ## Learn more about Dev Box
 
-Dev Box includes key capabilities specifically designed to meet the needs of DevCenter Owners, Project Admins, and Dev Box Users.  For more information about these capabilities, see [What is Microsoft Dev Box](https://review.docs.microsoft.com/en-us/azure/dev-box/overview-what-is-microsoft-dev-box?branch=pr-en-us-203750).
+Dev Box includes key capabilities specifically designed to meet the needs of DevCenter Owners, Project Admins, and Dev Box Users.  For more information about these capabilities, see [What is Microsoft Dev Box](https://review.docs.microsoft.com/azure/dev-box/overview-what-is-microsoft-dev-box?branch=pr-en-us-203750).
+
+## License requirements to use Dev Box
+
+To use Microsoft Dev Box, each user must be licensed for Windows 11 Enterprise or Windows 10 Enterprise, Microsoft Endpoint Manager, and Azure Active Directory P1. 
+In addition to being available independently, these licenses are included in Microsoft 365 F3, Microsoft 365 E3, Microsoft 365 E5, Microsoft 365 A3, Microsoft 365 A5, Microsoft 365 Business Premium, and Microsoft 365 Education Student Use Benefit subscriptions.
+
 
 ## Use Dev Box with Azure 
 
