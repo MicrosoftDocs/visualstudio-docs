@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: b331c837-3524-42b7-820e-b4fdd5e12793
-ms.date: 06/24/2022
+ms.date: 07/11/2022
 ms.topic: conceptual
 description:  Learn about managing Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA)
 ---
@@ -29,8 +29,8 @@ Follow these steps to set up a managed tenant:
 
 1. First, the Purchasing Account must be associated with your company domain/tenant. The association is performed in the Business Center Portal. 
 To associate your account, you must
-   - Be a registered user in the Business Center Portal with an Account Administrator or Account Manager role
-   - Be a Global Administrator (Company Administrator) or a Billing Administrator in the tenant to which you'd like to link your Purchasing Account.
+   + Be a registered user in the Business Center Portal with an Account Administrator or Account Manager role
+   + Be a Global Administrator (Company Administrator) or a Billing Administrator in the tenant to which you'd like to link your Purchasing Account.
 
    After you've ensured you have these roles assigned to the same work account, follow the below steps to perform the association:
 

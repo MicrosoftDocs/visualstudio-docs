@@ -55,7 +55,6 @@ When the 64-bit version of the remote debugger is started, it uses the main port
 When the 64-bit version of the remote debugger is started, it uses the main port (4024) by default.  If you debug a 32-bit process, the 64-bit version of the remote debugger starts a 32-bit version of the remote debugger on port 4025 (the main port number incremented by 1). If you run the 32-bit remote debugger, it uses 4024, and 4025 is not used.
 ::: moniker-end
 
-
 This port is configurable from the command line: **Msvsmon /wow64port \<port number>**.
 
 ## Remote Debugger Ports on Microsoft Azure App Service

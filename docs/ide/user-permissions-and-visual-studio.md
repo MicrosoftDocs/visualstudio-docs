@@ -41,6 +41,7 @@ You can do nearly everything in the Visual Studio IDE as a typical user. You nee
 |Performance tools|Attaching to an elevated application.|[Beginners guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md)|
 ||Use the GPU Profiler.|[GPU profiling](../profiling/gpu-usage.md)|
 |Deployment|Deploy a web application to Internet Information Services (IIS) on a local computer.|[Deploy an ASP.NET web app using Visual Studio](/aspnet/web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-provider/)|
+|Development|Developing SharePoint Solutions.|[Create SharePoint solutions](../sharepoint/create-sharepoint-solutions.md)|
 
 ## Run Visual Studio as an administrator
 

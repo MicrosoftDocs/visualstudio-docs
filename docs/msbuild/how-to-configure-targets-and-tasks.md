@@ -49,7 +49,7 @@ You can also use the `MSBuildRuntime` and `MSBuildArchitecture` parameters to se
 Before MSBuild runs a task, it looks for a matching `UsingTask` that has the same target context. Parameters that are specified in the `UsingTask` but not in the corresponding task are considered to be matched. Parameters that specified in the task but not in the corresponding `UsingTask` are also considered to be matched. If parameter values are not specified in either the `UsingTask` or the task, the values default to `*` (any parameter).
 
 > [!WARNING]
-> If more than one `UsingTask` exists and all have matching `TaskName`, `Runtime`, and `Architecture` attributes, the last one to be evaluated replaces the others.
+> If more than one `UsingTask` exists and all have matching `TaskName`, `Runtime`, and `Architecture` attributes, the **first** one to be evaluated replaces the others. This is different from behavior of `Property` and `Target` elements.
 
  If parameters are set on the task, MSBuild attempts to find a `UsingTask` that matches these parameters or, at least, is not in conflict with them. More than one `UsingTask` can specify the target context of the same task. For example, a task that has different executables for different target environments might resemble this one:
 
