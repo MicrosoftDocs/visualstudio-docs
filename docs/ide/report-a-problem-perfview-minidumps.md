@@ -56,7 +56,7 @@ In some cases, Microsoft might ask for a minidump of a running Visual Studio pro
 1. Choose **Select**, and then select the relevant **Managed** and **Native** check boxes and choose **OK**.
 
    ::: moniker range=">= vs-2022"
-   ![Screenshot showing the codes types selected in the Attach To Process dialog.](../ide/media/vs-2022/attach-to-process.png)
+   :::image type="content" source="../ide/media/vs-2022/attach-to-process.png" alt-text="Screenshot showing the codes types selected in the Attach To Process dialog.":::
    ::: moniker-end
    ::: moniker range="vs-2019"
    ![Screenshot showing the codes types selected in the Attach To Process dialog.](../ide/media/attach-to-process.png)
