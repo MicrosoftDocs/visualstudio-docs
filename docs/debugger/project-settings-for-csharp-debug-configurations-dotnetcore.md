@@ -2,7 +2,7 @@
 title: "Project Settings for a .NET C# debug config | Microsoft Docs"
 description: Understand how to change the project settings for a C# .NET 5+ or .NET Core debug configuration in Visual Studio, using the Debug tab and Build tab of the project property pages.
 
-ms.date: "02/22/2022"
+ms.date: "07/15/2022"
 ms.topic: "reference"
 dev_langs:
   - "CSharp"
@@ -73,6 +73,8 @@ Visual Studio provides an IIS Express profile by default, and you can create add
 |**App SSL URL**|For IIS Express, the **App SSL URL** is typically http://localhost:44334.|
 
 ## Build tab
+
+The following table shows build settings that are useful for debugging. For a complete explanation of build settings, see [Build Page, Project Designer](../ide/reference/build-page-project-designer-csharp.md).
 
 |Setting|Description|
 |-------------|-----------------|

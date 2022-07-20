@@ -69,6 +69,8 @@ items:
         href: msbuild-tasks.md
       - name: Task writing
         href: task-writing.md
+      - name: Formats for errors and warnings
+        href: msbuild-diagnostic-format-for-tasks.md
       - name: Ignore errors in tasks
         href: how-to-ignore-errors-in-tasks.md
       - name: Build a project that has resources

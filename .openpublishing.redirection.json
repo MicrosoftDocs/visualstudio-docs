@@ -6536,6 +6536,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/vsto/deploying-an-office-solution-by-using-windows-installer.md",
+      "redirect_url": "/visualstudio/vsto/deploying-a-vsto-solution-by-using-windows-installer",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/welcome-to-visual-studio-2015.md",
       "redirect_url": "/visualstudio/welcome-to-visual-studio-2015?view=vs-2015",
       "redirect_document_id": false
@@ -16747,6 +16752,11 @@
     {
       "source_path": "subscriptions/assign-azure-ad.md",
       "redirect_url": "/visualstudio/subscriptions/assign-license-bulk",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "subscriptions/vs-cast.md",
+      "redirect_url": "/visualstudio/subscriptions",
       "redirect_document_id": false
     },
     {

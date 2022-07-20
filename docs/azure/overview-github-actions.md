@@ -17,7 +17,7 @@ monikerRange: ">=vs-2019"
 
 [GitHub Actions](https://github.com/features/actions) is the Continuous Integration / Continuous Delivery (CI/CD) solution offered by GitHub. You can host your code for free on GitHub.com and you can use GitHub Actions to automatically build, test and deploy your application when code changes are made.
 
-## Visual Studio generates working GitHub Action workflows for you
+## Visual Studio generates working GitHub Actions workflows for you
 
 If your codebase is hosted on GitHub.com and your deployment target is an Azure hosting service that Visual Studio supports, you will automatically be offered to configure GitHub Actions for your repo.
 

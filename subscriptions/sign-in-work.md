@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: f39a2672-c283-4755-93d3-31c7c7a032d0
-ms.date: 07/05/2022
+ms.date: 07/12/2022
 ms.topic: how-to
 description:  Learn how to sign in to your Visual Studio subscription(s) with your work or school account. 
 ---
@@ -46,13 +46,13 @@ You can also see your currently selected subscription in the upper right corner,
 
 3. Select **Continue**.
 4. You'll be redirected to a decision page.
-    - Select **Work or school account** if the subscription is associated with a "Work or School" account associated with an Azure Active Directory tenant.
-    - Select **Personal** if the subscription is associated with a "Corporate" email address, but has also been converted to a "Personal" Microsoft Account (MSA).
+    + Select **Work or school account** if the subscription is associated with a "Work or School" account associated with an Azure Active Directory tenant.
+    + Select **Personal** if the subscription is associated with a "Corporate" email address, but has also been converted to a "Personal" Microsoft Account (MSA).
 
         > [!NOTE]
         > This will be the case for many subscribers who have used Visual Studio subscriptions (formerly MSDN) in the past.
 
-    - If one pathway fails, try the other.  Subscription admins may have modified your subscription.
+    + If one pathway fails, try the other.  Subscription admins may have modified your subscription.
 
 5. Enter your password.
 6. Select **Sign in**.
@@ -66,7 +66,7 @@ A:  The most common cause of sign-in problems is attempting to sign in with an a
 
 ### Q:  I can't see my subscription. Where is it?
 
-A:  Many users have more than one subscription.  If you're able to sign in to the subscriptions portal at https://my.visualstudio.com but cannot see your subscription, there are two common causes:
+A:  Many users have more than one subscription.  If you're able to sign in to the subscriptions portal at https://my.visualstudio.com but can't see your subscription, there are two common causes:
 + You're logged in with a different Microsoft Account.  It's possible that you have multiple subscriptions, such as a Professional or Enterprise subscription and a Visual Studio Dev Essentials membership, and they're associated with different email addresses. To see the other subscriptions, sign out and sign back in using the other MSA.
 + You have multiple subscriptions associated with the same email address.  To see all of the subscriptions associated with your email address, visit https://my.visualstudio.com/subscriptions and choose the subscription you wish to use. 
 

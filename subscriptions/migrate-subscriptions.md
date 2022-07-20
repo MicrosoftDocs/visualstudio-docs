@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 80e3b300-f2fc-40d4-bbb2-c831a2fa5d34
-ms.date: 05/18/2022
+ms.date: 07/11/2022
 ms.topic: how-to
 description:  This article describes how admins can migrate assigned subscriptions from one agreement to another.
 ---
@@ -78,25 +78,24 @@ Take these steps to open your exported subscriptions list and move the relevant 
  
    Not all the fields in the exported CSV file are needed in the file that's used to upload your subscriptions to the new agreement. The fields appearing in **bold** in the previous list will appear in the template used to upload your list. 
 
-
-
 2. Download the Excel template that you'll use to upload your subscriptions.  
    1. Sign in to the [admin portal](https://manage.visualstudio.com).
    1. On the **Manage Subscribers** tab, select your new agreement in the dropdown list:
       > [!div class="mx-imgBorder"]
-      > ![Choose agreement](_img/migrate-subscriptions/choose-agreement.png "Screenshot that shows the dropdown list for selecting the new agreement.")
+      > ![Choose agreement](_img/migrate-subscriptions/choose-agreement.png "Screenshot of part of the Manage subscribers tab.  The agreement drop-down list is highlighted.")
    1. Select **Add** and then select **Bulk add**.
    1. The **Upload multiple subscribers** dialog appears.  
    1. Under step 2, select the **Download** link to download the template. 
       > [!div class="mx-imgBorder"]
-      > ![Download bulk add template](_img/migrate-subscriptions/download-template.png "Screenshot that shows the Download button.")
+      > ![Download bulk add template](_img/migrate-subscriptions/download-template.png "Screenshot of the Upload multiple subscribers dialog. The download link is highlighted.")
    
       The template will appear in your Downloads folder.  
    1. Open the template.
 
 3. Open both the exported subscriber list and the empty bulk add template. Manually copy your subscription data from the exported list and paste it into the template. 
 
-    Note that the order of the columns in the exported subscriber list is different from the order in the template. The names of the columns also differ slightly. The following table shows the names of the fields that are common to both spreadsheets:
+   > [!NOTE]
+   > The order of the columns in the exported subscriber list is different from the order in the template. The names of the columns also differ slightly. The following table shows the names of the fields that are common to both spreadsheets:
 
    | Export list                | Bulk add template  |
    |----------------------------|--------------------|
@@ -124,7 +123,7 @@ Take these steps to open your exported subscriptions list and move the relevant 
 
 1.  In the [admin portal](https://manage.visualstudio.com), if the **Upload multiple subscribers** dialog is still open, select the **Browse** button. Go to the location where you saved your subscription list, select it, and then select **Open**. (If the dialog is not open, choose **Add**, and then select **Bulk add**.)
     > [!div class="mx-imgBorder"]
-    > ![Browse template](_img/migrate-subscriptions/browse-template.png "Screenshot that shows the Browse button in the Upload multiple subscribers dialog.")
+    > ![Browse template](_img/migrate-subscriptions/browse-template.png "Screenshot of the Upload multiple subscribers dialog. The Browse button is highlighted.")
 0. The name of your subscription list will appear in the **Upload multiple subscribers** dialog. Select **OK** to upload the file.    In the admin portal, you might briefly see a status message stating that a file is being uploaded. When the upload is complete, you'll see the message **Subscribers updated successfully**.
 The migration of your subscribers from your old agreement to your new one is complete.  
   > [!NOTE]
