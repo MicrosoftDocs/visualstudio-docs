@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # BP_RESOLUTION_CODE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the location of a code breakpoint.
 
 ## Syntax
 
-```cpp
-typedef struct _BP_RESOLUTION_CODE {
-    IDebugCodeContext2* pCodeContext;
-} BP_RESOLUTION_CODE;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct BP_RESOLUTION_CODE {
     public IDebugCodeContext2 pCodeContext;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _BP_RESOLUTION_CODE {
+    IDebugCodeContext2* pCodeContext;
+} BP_RESOLUTION_CODE;
+```
+---
 
 ## Members
 `pCodeContext`\

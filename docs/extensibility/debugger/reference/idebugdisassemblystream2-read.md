@@ -19,19 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugDisassemblyStream2::Read
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Reads instructions starting from the current position in the disassembly stream.
 
 ## Syntax
 
-```cpp
-HRESULT Read( 
-   DWORD                     dwInstructions,
-   DISASSEMBLY_STREAM_FIELDS dwFields,
-   DWORD*                    pdwInstructionsRead,
-   DisassemblyData*          prgDisassembly
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Read( 
    uint                           dwInstructions,
@@ -40,6 +34,16 @@ int Read( 
    DisassemblyData[]              prgDisassembly
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Read( 
+   DWORD                     dwInstructions,
+   DISASSEMBLY_STREAM_FIELDS dwFields,
+   DWORD*                    pdwInstructionsRead,
+   DisassemblyData*          prgDisassembly
+);
+```
+---
 
 ## Parameters
 `dwInstructions`\

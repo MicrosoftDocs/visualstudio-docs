@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugReference2::GetMemoryBytes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the memory bytes that physically contain the value of a reference. Reserved for future use.
 
 ## Syntax
 
-```cpp
-HRESULT GetMemoryBytes ( 
-   IDebugMemoryBytes2** ppMemoryBytes
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMemoryBytes ( 
    out IDebugMemoryBytes2 ppMemoryBytes
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMemoryBytes ( 
+   IDebugMemoryBytes2** ppMemoryBytes
+);
+```
+---
 
 ## Parameters
 `ppMemoryBytes`\

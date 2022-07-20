@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # &lt;vstoRuntime&gt; element (Office development in Visual Studio)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The `vstoRuntime` element of the `vstav3` namespace contains a supported version of the Visual Studio Tools for Office runtime for a specific Office solution.
 
 ## Syntax

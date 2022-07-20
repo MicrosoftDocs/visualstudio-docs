@@ -20,20 +20,24 @@ dev_langs:
 ---
 # IDebugProgramNode2::DetachDebugger_V7
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 > [!Note]
 > DEPRECATED. DO NOT USE.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int DetachDebugger_V7 ();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT DetachDebugger_V7 (
    void 
 );
 ```
-
-```csharp
-int DetachDebugger_V7 ();
-```
+---
 
 ## Return Value
 

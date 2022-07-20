@@ -17,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # ProjectItemFile element
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Represents a SharePoint file, such as Feature element file, to include with the project item when it is deployed to SharePoint.
 
 ## Syntax

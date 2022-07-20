@@ -2,7 +2,7 @@
 title: Inspect variables - Autos and Locals windows | Microsoft Docs
 description: Inspect variables in the Autos and Locals windows while debugging in Visual Studio. The Autos and Locals windows show variable values while you are debugging.
 
-ms.date: 10/18/2018
+ms.date: 07/01/2022
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.autos
@@ -19,6 +19,8 @@ ms.workload:
   - multiple
 ---
 # Inspect variables in the Autos and Locals windows
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Autos** and **Locals** windows show variable values while you are debugging. The windows are only available during a debugging session. The **Autos** window shows variables used around the current breakpoint. The **Locals** window shows variables defined in the local scope, which is usually the current function or method.
 
@@ -38,7 +40,12 @@ To open the **Locals** window, while debugging, select **Debug** > **Windows** >
 
 Arrays and objects show in the **Autos** and **Locals** windows as tree controls. Select the arrow to the left of a variable name to expand the view to show fields and properties. Here is an example of a <xref:System.IO.FileStream?displayProperty=fullName> object in the **Locals** window:
 
+::: moniker range=">= vs-2022" 
+![Screenshot of the Locals window, with file set to a System.IO.FileStream value.](../debugger/media/vs-2022/locals-filestream.png)
+::: moniker-end
+::: moniker range="vs-2019"
 ![Screenshot of the Locals window, with file set to a System.IO.FileStream value.](../debugger/media/locals-filestream.png)
+::: moniker-end
 
 A red value in the **Locals** or **Autos** window means the value has changed since the last evaluation. The change could be from a previous debugging session, or because you have changed the value in the window.
 
@@ -59,16 +66,20 @@ In native C++ code, you might have to qualify the context of a variable name. Fo
 >
 >- Editing floating-point values can result in minor inaccuracies because of decimal-to-binary conversion of fractional components. Even a seemingly harmless edit can result in changes to some of the bits in the floating-point variable.
 
-::: moniker range=">= vs-2019" 
 ## Search in the Autos or Locals window
 
 You can search for keywords in the Name, Value, and Type columns of the **Autos** or **Locals** window using the search bar above each window. Hit ENTER or select one of the arrows to execute a search. To cancel an ongoing search, select the "x" icon in the search bar.
 
 Use the left and right arrows (Shift+F3 and F3, respectively) to navigate between found matches.
 
-![Search in Locals Window](../debugger/media/ee-search-locals.png "Search in Locals Window")
+::: moniker range=">= vs-2022"
+![Screenshot of Search in Locals Window](../debugger/media/vs-2022/ee-search-locals.png "Search in Locals Window")
+::: moniker-end
+::: moniker range="vs-2019"
+![Screenshot of Search in Locals Window](../debugger/media/ee-search-locals.png "Search in Locals Window")
+::: moniker-end
 
-To make your search more or less thorough, use the **Search Deeper** dropdown at the top of the **Autos** or **Locals** window to select how many levels deep you want to search into nested objects. 
+To make your search more or less thorough, use the **Search Deeper** dropdown at the top of the **Autos** or **Locals** window to select how many levels deep you want to search into nested objects.
 
 ## Pin properties in the Autos or Locals window
 
@@ -77,14 +88,13 @@ To make your search more or less thorough, use the **Search Deeper** dropdown at
 
 You can quickly inspect objects by their properties in the Autos and Locals windows with the **Pinnable Properties** tool.  To use this tool, hover over a property and select the pin icon that appears or right-click and select the **Pin Member as Favorite** option in the resulting context menu.  This bubbles up that property to the top of the object’s property list, and the property name and value is displayed in the **Value** column.  To unpin a property, select the pin icon again or select the **Unpin Member as Favorite** option in the context menu.
 
-![Pin properties in the Locals window](../debugger/media/basic-pin.gif "Pin properties in the Locals window")
+![Screenshot of Pin properties in the Locals window.](../debugger/media/basic-pin.gif "Pin properties in the Locals window")
 
 You can also toggle property names and filter out non-pinned properties when viewing the object’s property list in the Autos or Locals windows.  You can access each option by selecting the buttons in the toolbar above the Autos or Locals windows.
 
-![Filter favorite properties](../debugger/media/filter-pinned-properties-locals.png "Filter favorite properties")
-![Toggle property names](../debugger/media/toggle-property-names.gif "Toggle property names")
+![Screenshot of Filter favorite properties.](../debugger/media/filter-pinned-properties-locals.png "Filter favorite properties")
 
-::: moniker-end
+![Screenshot of Toggle property names.](../debugger/media/toggle-property-names.gif "Toggle property names")
 
 ## Change the context for the Autos or Locals window
 
@@ -94,7 +104,12 @@ To enable the **Debug Location** toolbar, click in an empty part of the toolbar 
 
 Set a breakpoint and start debugging. When the breakpoint is hit, execution pauses and you can see the location in the **Debug Location** toolbar.
 
-![Debug Location toolbar](../debugger/media/debuglocationtoolbar.png "Debug Location toolbar")
+::: moniker range=">= vs-2022"
+![Screenshot of Debug Location toolbar.](../debugger/media/vs-2022/debug-location-toolbar.png "Debug Location toolbar")
+::: moniker-end
+::: moniker range="vs-2019"
+![Screenshot of Debug Location toolbar.](../debugger/media/debuglocationtoolbar.png "Debug Location toolbar")
+::: moniker-end
 
 ## <a name="bkmk_whatvariables"></a> Variables in the Autos window (C#, C++, Visual Basic, Python)
 
@@ -115,7 +130,12 @@ Different code languages display different variables in the **Autos** window.
 
    Set a breakpoint on the line `c = 3;`, and start the debugger. When execution pauses, the **Autos** window will display:
 
+   ::: moniker range=">= vs-2022"
+   ![Screenshot of the Autos window, with the value of c set to 0.](../debugger/media/vs-2022/autos-csharp.png)
+   ::: moniker-end
+   ::: moniker range="vs-2019"
    ![Screenshot of the Autos window, with the value of c set to 0.](../debugger/media/autos-csharp.png)
+   ::: moniker-end
 
    The value of `c` is 0, because the line `c = 3` has not yet been executed.
 
@@ -135,7 +155,12 @@ Different code languages display different variables in the **Autos** window.
 
     Set a breakpoint on the line `e = 5;` and run the debugger. When execution stops, the **Autos** window will display:
 
+    ::: moniker range=">= vs-2022"
+    ![Screenshot of the Autos window, with the line highlighted that shows the int c with a value of 3.](../debugger/media/vs-2022/autos-cplus.png)
+    ::: moniker-end
+    ::: moniker range="vs-2019"
     ![Screenshot of the Autos window, with the line highlighted that shows the int c with a value of 3.](../debugger/media/autos-cplus.png)
+    ::: moniker-end
 
     The variable `e` is uninitialized, because the line `e = 5` has not yet been executed.
 
@@ -172,7 +197,12 @@ To see the return values of the `sumVars()` and `subtractVars()` method calls in
 
 1. Start debugging, and when execution pauses at the breakpoint, select **Step Over** or press **F10**. You should see the following return values in the **Autos** window:
 
-  ![Autos return value C#](../debugger/media/autosreturnvaluecsharp2.png "Autos return value C#")
+   ::: moniker range=">= vs-2022"
+   ![Screenshot of Autos return value C#.](../debugger/media/vs-2022/autos-return-value-csharp-2.png "Autos return value C#")
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   ![Screenshot of Autos return value C#.](../debugger/media/autosreturnvaluecsharp2.png "Autos return value C#")
+   ::: moniker-end
 
 ## See also
 

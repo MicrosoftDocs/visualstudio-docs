@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngine2::SetMetric
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method sets a registry value known as a metric.
 
 ## Syntax
 
-```cpp
-HRESULT SetMetric(
-   LPCOLESTR pszMetric,
-   VARIANT   varValue
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetMetric(
    string pszMetric,
    object varValue
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetMetric(
+   LPCOLESTR pszMetric,
+   VARIANT   varValue
+);
+```
+---
 
 ## Parameters
 `pszMetric`\

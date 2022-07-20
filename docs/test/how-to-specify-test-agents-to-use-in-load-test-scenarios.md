@@ -18,6 +18,8 @@ ms.technology: vs-ide-test
 ---
 # How to: Specify test agents to use in load test scenarios
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 After you create your load test by using the **New Load Test Wizard**, you can use the **Load Test Editor** to change the scenarios properties to meet your testing needs and goals.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]

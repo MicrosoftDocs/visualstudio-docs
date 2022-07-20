@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugBinder::GetFunctionObject
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets an [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) object used to create function parameters.
 
 ## Syntax
 
-```cpp
-HRESULT GetFunctionObject( 
-   IDebugFunctionObject **ppFunction
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetFunctionObject(
    out IDebugFunctionObject ppFunction
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetFunctionObject( 
+   IDebugFunctionObject **ppFunction
+);
+```
+---
 
 ## Parameters
 `ppFunction`\

@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Install test agents and test controllers
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 For test scenarios that use Visual Studio and Azure Test Plans or Team Foundation Server (TFS), you don't need a test controller. Agents for Visual Studio handle orchestration by communicating with Azure Test Plans or TFS. A scenario could be that you run continuous tests for build and release workflows in Azure Test Plans or TFS.
 
 You might also consider if it's better to use [build or release management](use-build-or-rm-instead-of-lab-management.md) instead of lab management.
@@ -25,8 +27,8 @@ The following table shows the system requirements for installing the test agent 
 
 | Item | Requirements |
 | ---- | ------------ |
-| **Agent** | Windows 10<br />Windows 8, Windows 8.1<br />Windows 7 Service Pack 1<br />Windows Server 2016 Standard and Datacenter<br />Windows Server 2012 R2 |
-| **Controller** | Windows 10<br />Windows 8, Windows 8.1<br />Windows 7 Service Pack 1<br />Windows Server 2016 Standard and Datacenter<br />Windows Server 2012 R2 |
+| **Agent** | Windows 11<br />Windows 10<br />Windows 8, Windows 8.1<br />Windows 7 Service Pack 1<br />Windows Server 2016 Standard and Datacenter<br />Windows Server 2012 R2 |
+| **Controller** | Windows 11<br />Windows 10<br />Windows 8, Windows 8.1<br />Windows 7 Service Pack 1<br />Windows Server 2016 Standard and Datacenter<br />Windows Server 2012 R2 |
 | **.NET Framework** | .NET Framework 4.5 |
 
 ## Install the test controller and test agents
@@ -37,21 +39,6 @@ You can download agents for Visual Studio 2017, Visual Studio 2015, and Visual S
 
 These installers are available as ISO files for easy installation on virtual machines.
 
-::: moniker range="vs-2017"
-## Compatible versions of TFS, Microsoft Test Manager, the test controller, and test agent
-
-You can mix different versions of TFS, Microsoft Test Manager, the test controller, and the test agent, according to the following table:
-
-| TFS | Microsoft Test Manager with Lab Center | Controller | Agent |
-| --- | -------------------------------------- | ---------- | ----- |
-| 2017: upgrade from 2015 or new install | 2017 | 2017 | 2017 |
-| 2017: upgrade from 2015 or new install | 2017 | 2013 Update 5 | 2013 Update 5 |
-| 2017: upgrade from 2015 or new install | 2015 | 2013 Update 5 | 2013 Update 5 |
-| 2015: upgrade from 2013 | 2013 | 2013 |2013 |
-| 2015: new install | 2013 | 2013 | 2013 |
-| 2015: upgrade from 2013 or new install | 2015 | 2013 | 2013 |
-| 2013 | 2015 | 2013 | 2013 |
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 ## Compatible versions of TFS, the test controller, and test agent

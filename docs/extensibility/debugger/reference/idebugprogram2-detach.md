@@ -19,19 +19,23 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram2::Detach
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Detaches a debug engine from the program.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Detach();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Detach( 
    void 
 );
 ```
-
-```csharp
-int Detach();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

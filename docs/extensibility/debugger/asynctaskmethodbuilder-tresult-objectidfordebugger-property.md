@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # AsyncTaskMethodBuilder&lt;TResult&gt;.ObjectIdForDebugger property
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets an object that may be used to uniquely identify this builder to the debugger.
 
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>

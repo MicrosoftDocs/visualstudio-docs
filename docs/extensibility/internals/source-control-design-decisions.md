@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Source Control Design Decisions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following design decisions should be considered for projects when implementing source control.
 
 ## Will information be shared or private?

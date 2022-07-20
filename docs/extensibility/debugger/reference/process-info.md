@@ -19,24 +19,13 @@ dev_langs:
 - CSharp
 ---
 # PROCESS_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains information about a process.
 
 ## Syntax
 
-```cpp
-typedef struct tagPROCESS_INFO { 
-   PROCESS_INFO_FIELDS Fields;
-   BSTR                bstrFileName;
-   BSTR                bstrBaseName;
-   BSTR                bstrTitle;
-   AD_PROCESS_ID       ProcessId;
-   DWORD               dwSessionId;
-   BSTR                bstrAttachedSessionName;
-   FILETIME            CreationTime;
-   PROCESS_INFO_FLAGS  Flags;
-} PROCESS_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct PROCESS_INFO { 
    public uint          Fields;
@@ -50,6 +39,21 @@ public struct PROCESS_INFO { 
    public uint          Flags;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagPROCESS_INFO { 
+   PROCESS_INFO_FIELDS Fields;
+   BSTR                bstrFileName;
+   BSTR                bstrBaseName;
+   BSTR                bstrTitle;
+   AD_PROCESS_ID       ProcessId;
+   DWORD               dwSessionId;
+   BSTR                bstrAttachedSessionName;
+   FILETIME            CreationTime;
+   PROCESS_INFO_FLAGS  Flags;
+} PROCESS_INFO;
+```
+---
 
 ## Members
  `Fields`\

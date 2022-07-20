@@ -3,8 +3,8 @@ title: Getting an error while trying to activate my Azure monthly credit
 description: I'm getting an error while trying to activate my Azure monthly credit included with my Visual Studio subscription.
 ms.topic: include
 ms.assetid: eed8114a-651a-47e2-bb24-130acd2a76d0
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 4/16/2021
 user.type: subscriber
 tags: benefit, azure

@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentContext2::GetSourceRange
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the source code range of this document context.
 
 ## Syntax
 
-```cpp
-HRESULT GetSourceRange( 
-   TEXT_POSITION* pBegPosition,
-   TEXT_POSITION* pEndPosition
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSourceRange( 
    TEXT_POSITION[] pBegPosition,
    TEXT_POSITION[] pEndPosition
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSourceRange( 
+   TEXT_POSITION* pBegPosition,
+   TEXT_POSITION* pEndPosition
+);
+```
+---
 
 ## Parameters
 `pBegPosition`\

@@ -18,20 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::LoadSymbolsFromStream
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Loads debug symbols given the data stream.
 
 ## Syntax
 
-```cpp
-HRESULT LoadSymbolsFromStream(
-    ULONG32   ulAppDomainID,
-    GUID      guidModule,
-    ULONGLONG baseAddress,
-    IUnknown* pUnkMetadataImport,
-    IStream*  pStream
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int LoadSymbolsFromStream(
     uint    ulAppDomainID,
@@ -41,6 +34,17 @@ int LoadSymbolsFromStream(
     IStream pStream
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT LoadSymbolsFromStream(
+    ULONG32   ulAppDomainID,
+    GUID      guidModule,
+    ULONGLONG baseAddress,
+    IUnknown* pUnkMetadataImport,
+    IStream*  pStream
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

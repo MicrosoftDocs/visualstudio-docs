@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramEngines2::EnumPossibleEngines
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the GUIDs for all the possible debug engines (DE) that can debug this program.
 
 ## Syntax
 
-```cpp
-HRESULT EnumPossibleEngines( 
-   DWORD  celtBuffer,
-   GUID*  rgguidEngines,
-   DWORD* pceltEngines
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumPossibleEngines( 
    uint      celtBuffer,
@@ -38,6 +33,15 @@ int EnumPossibleEngines( 
    ref DWORD pceltEngines
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumPossibleEngines( 
+   DWORD  celtBuffer,
+   GUID*  rgguidEngines,
+   DWORD* pceltEngines
+);
+```
+---
 
 ## Parameters
 `celtBuffer`\

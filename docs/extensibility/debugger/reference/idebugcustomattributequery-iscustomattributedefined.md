@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugCustomAttributeQuery::IsCustomAttributeDefined
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the specified custom attribute is defined.
 
 ## Syntax
 
-```cpp
-HRESULT IsCustomAttributeDefined(
-    LPCOLESTR pszCustomAttributeName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsCustomAttributeDefined(
     string pszCustomAttributeName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsCustomAttributeDefined(
+    LPCOLESTR pszCustomAttributeName
+);
+```
+---
 
 ## Parameters
 `pszCustomAttributeName`\

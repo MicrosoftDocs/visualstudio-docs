@@ -2,7 +2,7 @@
 title: Unit test tools
 description: Learn how Visual Studio testing tools can help you and your team develop and sustain high standards of code excellence.
 ms.custom: SEO-VS-2020
-ms.date: 08/19/2021
+ms.date: 03/18/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - testing tools [Visual Studio]
@@ -16,6 +16,8 @@ author: mikejo5000
 ---
 # First look at testing tools in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio testing tools can help you and your team develop and sustain high standards of code excellence.
 
 > [!NOTE]
@@ -25,9 +27,6 @@ Visual Studio testing tools can help you and your team develop and sustain high 
 
 The **Test Explorer** window helps developers create, manage, and run unit tests. You can use the Microsoft unit test framework or one of several third-party and open source frameworks.
 
-::: moniker range="vs-2017"
-![Visual Studio Test Explorer](media/devtest-testexplorer.png)
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 ![Visual Studio Test Explorer 16.2](media/vs-2019/test-explorer-16-2.PNG)
@@ -77,6 +76,7 @@ Code coverage is an option when you run test methods using Test Explorer. The re
 * [Use code coverage to determine how much code is being tested](using-code-coverage-to-determine-how-much-code-is-being-tested.md)
 * [Unit testing, code coverage and code clone analysis with Visual Studio (Lab)](https://azuredevopslabs.com/labs/devopsserver/liveunittesting)
 * [Customize code coverage analysis](customizing-code-coverage-analysis.md)
+* [Microsoft.CodeCoverage.Console tool](microsoft-code-coverage-console-tool.md)
 
 ## Microsoft Fakes
 
@@ -85,6 +85,14 @@ Code coverage is an option when you run test methods using Test Explorer. The re
 > [!NOTE]
 > Microsoft Fakes are available in Enterprise edition only and is supported only for .NET code.
 
+::: moniker range=">=vs-2022"
+## User interface testing with Playwright
+
+[Playwright](https://playwright.dev/) is recommended for generic browser-based UI testing.
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
 ## User interface testing with Coded UI and Selenium
 
 Coded UI tests provide a way to create fully automated tests to validate the functionality and behavior of your application’s user interface. They can automate UI testing across a variety of technologies, including XAML-based UWP apps, browser apps, and SharePoint apps.
@@ -92,18 +100,16 @@ Coded UI tests provide a way to create fully automated tests to validate the fun
 > [!NOTE]
 > Coded UI is a deprecated feature.
 
-Whether you choose best-of-breed Coded UI Tests or generic browser-based UI testing with Selenium, Visual Studio provides all the tools you need.
-
-![UI testing with coded UI](media/devtest-codeduitest.png)
+Whether you choose best-of-breed Coded UI Tests or generic browser-based UI testing with [Playwright](https://playwright.dev/), Visual Studio provides all the tools you need.
 
 * [Use UI automation to test your code](use-ui-automation-to-test-your-code.md)
 * [Get started creating, editing, and maintaining a coded UI test](walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
 * [Test UWP apps with coded UI tests](test-uwp-app-with-coded-ui-test.md)
 * [Introduction to coded UI tests with Visual Studio Enterprise (Lab)](https://azuredevopslabs.com/labs/tfs/codedui)
+::: moniker-end
 
 ## Related scenarios
 
 * [Exploratory & manual testing (Azure Test Plans)](/azure/devops/test/index?view=vsts&preserve-view=true)
-* [Load testing (Azure Test Plans)](/azure/devops/test/load-test/index?view=vsts&preserve-view=true)
-* [Continuous testing (Azure Test Plans)](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts&preserve-view=true)
+* [Load testing (Azure Test Plans)](/azure/load-testing/)
 * [Code analysis tools](../code-quality/code-analysis-for-managed-code-overview.md)

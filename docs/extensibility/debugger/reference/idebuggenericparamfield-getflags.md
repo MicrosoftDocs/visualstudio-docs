@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugGenericParamField::GetFlags
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the flags for this generic parameter.
 
 ## Syntax
 
-```cpp
-HRESULT GetFlags(
-    DWORD* pdwFlags
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetFlags(
     ref uint pdwFlags
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetFlags(
+    DWORD* pdwFlags
+);
+```
+---
 
 ## Parameters
 `pdwFlags`\

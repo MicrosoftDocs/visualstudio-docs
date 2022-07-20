@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProvider::GetContainerField
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the field that contains the debug address.
 
 ## Syntax
 
-```cpp
-HRESULT GetContainerField( 
-   IDebugAddress*         pAddress,
-   IDebugContainerField** ppContainerField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetContainerField(
    IDebugAddress            pAddress,
    out IDebugContainerField ppContainerField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetContainerField( 
+   IDebugAddress*         pAddress,
+   IDebugContainerField** ppContainerField
+);
+```
+---
 
 ## Parameters
 `pAddress`\

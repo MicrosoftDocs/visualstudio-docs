@@ -20,19 +20,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetAttributedClassesinModule
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the classes with the specified attribute in a given module.
 
 ## Syntax
 
-```cpp
-HRESULT GetAttributedClassesinModule (
-    ULONG32            ulAppDomainID,
-    GUID               guidModule,
-    LPOLESTR           pstrAttribute,
-    IEnumDebugFields** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAttributedClassesinModule (
     uint                 ulAppDomainID,
@@ -41,6 +35,16 @@ int GetAttributedClassesinModule (
     out IEnumDebugFields ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAttributedClassesinModule (
+    ULONG32            ulAppDomainID,
+    GUID               guidModule,
+    LPOLESTR           pstrAttribute,
+    IEnumDebugFields** ppEnum
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

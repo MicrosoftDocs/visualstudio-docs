@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Create custom project and item templates
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Visual Studio SDK includes project templates that create a custom project template and a custom item template. These templates include some common parameter substitutions, and build as zip files. They are not automatically deployed, and they are not available in the experimental instance. You must copy the generated zip file to the user template directory.
 
 The template creation templates let you include templates in larger extensions. This lets you implement version control on the source files and build a group of template projects into one VSIX package.

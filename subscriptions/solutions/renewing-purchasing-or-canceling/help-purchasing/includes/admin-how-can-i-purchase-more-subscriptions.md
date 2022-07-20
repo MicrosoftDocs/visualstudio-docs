@@ -2,8 +2,8 @@
 title: How can I purchase more subscriptions?
 description: The super admin/ admin would like more information on how to purchase more subscriptions
 ms.assetid: 26fc654f-f76d-4c12-9d42-a827a5be5bdd  
-author: CaityBuschlen 
-ms.author: cabuschl 
+author: evanwindom 
+ms.author: amast 
 ms.date: 09/29/2021 
 user.type: admin 
 tags: purchasing 

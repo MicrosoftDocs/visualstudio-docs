@@ -17,6 +17,8 @@ ms.workload:
 ---
 # How to: Create or Update Standard Code Analysis Check-in Policies
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can require that code analysis be run on all code projects in an Azure DevOps project by using the code analysis check-in policy. Requiring code analysis can improve the quality of the code that is checked into the code base.
 
 > [!NOTE]

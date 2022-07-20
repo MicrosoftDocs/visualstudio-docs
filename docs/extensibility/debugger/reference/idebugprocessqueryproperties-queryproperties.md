@@ -17,23 +17,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcessQueryProperties::QueryProperties
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method queries for a specified property values of the debugging process.
 
 ## Syntax
 
-```cpp
-HRESULT QueryProperties(
-   ULONG                  celt,
-   PROCESS_PROPERTY_TYPE *rgdwPropTypes,
-   VARIANT               *rgtPropValues);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int QueryProperties(
    uint                       celt,
    enum_PROCESS_PROPERTY_TYPE rgdwPropTypes,
    out object[ ]              rgtPropValues);
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT QueryProperties(
+   ULONG                  celt,
+   PROCESS_PROPERTY_TYPE *rgdwPropTypes,
+   VARIANT               *rgtPropValues);
+```
+---
 
 ## Parameters
 `celt`\

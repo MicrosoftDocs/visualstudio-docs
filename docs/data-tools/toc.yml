@@ -120,7 +120,7 @@
         items:
         - name: Save data by using a transaction
           href: save-data-by-using-a-transaction.md
-        - name: "Walkthrough: Save data in a transaction"
+        - name: 'Walkthrough: Save data in a transaction'
           href: save-data-in-a-transaction.md
       - name: Save data to a database (multiple tables)
         href: save-data-to-a-database-multiple-tables.md

@@ -2,7 +2,7 @@
 title: "Remote Debug a C++ Project | Microsoft Docs"
 description: Learn how to debug a Visual Studio C++ application from a remote computer by following these step-by-step instructions.
 ms.custom: "remotedebugging"
-ms.date: "08/14/2018"
+ms.date: "11/11/2021"
 ms.topic: "conceptual"
 dev_langs:
   - "C++"
@@ -21,6 +21,9 @@ ms.workload:
   - "cplusplus"
 ---
 # Remote Debugging a C++ Project in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 To debug a Visual Studio application on a different computer, install and run the remote tools on the computer where you will deploy your app, configure your project to connect to the remote computer from Visual Studio, and then deploy and run your app.
 
 ![Remote debugger components](../debugger/media/remote-debugger-client-apps.png "Remote_debugger_components")
@@ -29,14 +32,14 @@ For information about remote debugging Universal Windows Apps (UWP), see [Debug 
 
 ## Requirements
 
-The remote debugger is supported on Windows 7 and newer (not phone) and versions of Windows Server starting with Windows Server 2008 Service Pack 2. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
+The remote debugger is supported on Windows 7 and newer and versions of Windows Server starting with Windows Server 2008 Service Pack 2. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
 
 > [!NOTE]
 > Debugging between two computers connected through a proxy is not supported. Debugging over a high latency or low bandwidth connection, such as dialup Internet, or over the Internet across countries is not recommended and may fail or be unacceptably slow.
 
 ## Download and Install the remote tools
 
-[!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
+[!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download-cpp.md)]
 
 > [!TIP]
 > In some scenarios, it can be most efficient to run the remote debugger from a file share. For more information, see [Run the remote debugger from a file share](../debugger/remote-debugging.md#fileshare_msvsmon).

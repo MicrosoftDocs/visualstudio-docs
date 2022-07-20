@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty3::GetStringChars
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the string associated with this property and stores it in a user-supplied buffer.
 
 ## Syntax
 
-```cpp
-HRESULT GetStringChars(
-    ULONG  buflen,
-    WCHAR* rgString,
-    ULONG* pceltFetched
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetStringChars(
     uint       buflen,
@@ -38,6 +33,15 @@ int GetStringChars(
     out uint   pceltFetched
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetStringChars(
+    ULONG  buflen,
+    WCHAR* rgString,
+    ULONG* pceltFetched
+);
+```
+---
 
 ## Parameters
 `buflen`\

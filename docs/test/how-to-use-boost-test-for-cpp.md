@@ -11,6 +11,8 @@ ms.workload:
 ---
 # How to use Boost.Test for C++ in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In Visual Studio 2017 and later, the Boost.Test test adapter is integrated into the Visual Studio IDE. It's a component of the **Desktop development with C++** workload.
 
 ![Test Adapter for Boost.Test](media/cpp-boost-component.png)
@@ -131,7 +133,7 @@ The following example is sufficient for the test to be discoverable in **Test Ex
 
 ```cpp
 #define BOOST_TEST_MODULE MyTest
-#include <boost/test/included/unit_test.hpp\> //single-header
+#include <boost/test/included/unit_test.hpp> //single-header
 #include "../MyProgram/MyClass.h" // project being tested
 #include <string>
 

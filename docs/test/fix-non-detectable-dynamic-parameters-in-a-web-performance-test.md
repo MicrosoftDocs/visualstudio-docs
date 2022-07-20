@@ -16,6 +16,8 @@ ms.technology: vs-ide-test
 ---
 # Fix non-detectable dynamic parameters in a web performance test
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Some websites use dynamic parameters to process some of their web requests. A dynamic parameter is a parameter whose value is regenerated every time that a user runs the application. An example of a dynamic parameter is a session ID. The session ID usually changes every 5 to 30 minutes. The web performance test recorder and playback engine automatically handles the most common types of dynamic parameters:
 
 - Dynamic parameter values that are set in a cookie value. The web performance test engine automatically handles these during playback.

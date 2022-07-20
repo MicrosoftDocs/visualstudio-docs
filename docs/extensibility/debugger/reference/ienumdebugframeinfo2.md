@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IEnumDebugFrameInfo2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface enumerates [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md) structures.
 
 ## Syntax

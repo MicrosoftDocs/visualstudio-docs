@@ -1,7 +1,7 @@
 ---
 title: Fix program errors and improve code
 description: This article describes some basic ways Visual Studio can help you find and fix problems in your code, including build errors, code analysis, debugging tools, and unit tests.
-ms.date: 05/02/2018
+ms.date: 03/31/2022
 ms.topic: conceptual
 ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
 author: TerryGLee
@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Make code work in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio provides a powerful integrated set of project build and debugging tools. In this article, find out how Visual Studio can help you find problems in your code using build output, code analysis, debugging tools, and unit tests.
 
 You've figured out the editor and created some code. Now, you want to make sure the code works properly. In Visual Studio, as with most IDEs, there are two phases to making code work: building the code to catch and resolve project and compiler errors, and running the code to find run-time and dynamic errors.
@@ -23,7 +25,12 @@ There are two basic types of build configuration: **Debug** and **Release**. The
 
 The easiest way to build your project is to press **F7**, but you can also start the build by selecting **Build** > **Build Solution** from the main menu.
 
-![Visual Studio build project menu selection](../ide/media/vs_ide_gs_debug_build_menu_item.png)
+::: moniker range=">=vs-2019"
+
+:::image type="content" source="media/debug-build-solution-menu-item.png" alt-text="Screenshot of the Build menu in the Visual Studio IDE.":::
+
+::: moniker-end
+
 
 You can observe the build process in the **Output** window at the bottom of the Visual Studio UI. Errors, warnings, and build operations are displayed here. If you have errors (or if you have warnings above a configured level), your build fails. You can click on the errors and warnings to go to the line where they occurred. Rebuild your project by either pressing **F7** again (to recompile only the files with errors) or **Ctrl**+**Alt**+**F7** (for a clean and complete rebuild).
 
@@ -31,35 +38,35 @@ There are two tabbed windows in the results window below the editor: the **Outpu
 
 When build succeeds, you see results like this in the **Output** window:
 
-![Visual Studio successful build output](../ide/media/vs_ide_gs_debug_success_build.png)
+![Screenshot of a Visual Studio successful build output.](../ide/media/vs_ide_gs_debug_success_build.png)
 
 ## Review the Error List
 
 Unless you've made no modifications to code you've previously and successfully compiled, you probably have an error. If you're new to coding, you probably have lots of them. Errors are sometimes obvious, such as a simple syntax error or incorrect variable name, and sometimes they are difficult to understand, with only a cryptic code to guide you. For a cleaner view of the issues, navigate to the bottom of the build **Output** window, and click the **Error List** tab. This takes you to a more organized view of the errors and warnings for your project, and gives you some extra options as well.
 
-![Visual Studio Output and Error List](../ide/media/vs_ide_gs_debug_bad_build_error_list.png)
+![Screenshot of the Visual Studio Output and Error List.](../ide/media/vs_ide_gs_debug_bad_build_error_list.png)
 
 Click on the error line in the **Error List** window to jump to the line the error occurs in. (Or turn on line numbers by pressing **Ctrl**+**Q**, typing **line numbers**, and then choosing **Turn line numbers on or off** from the results. This is the fastest way to get to the **Options** dialog where you can turn on line numbers.)
 
-![Visual Studio editor with line numbers](../ide/media/vs_ide_gs_debug_line_numbers.png)
+![Screenshot of the Visual Studio editor with line numbers.](../ide/media/vs_ide_gs_debug_line_numbers.png)
 
-![Visual Studio line numbers option](../ide/media/vs_ide_gs_debug_options_line_numbers.png)
+![Screenshot of the Visual Studio line numbers option.](../ide/media/vs_ide_gs_debug_options_line_numbers.png)
 
 Press **Ctrl**+**G** to quickly jump to the line number where the error occurred.
 
 The error is identified by a red "squiggle" underscore. Hover over it for additional details. Make the fix and it will go away, although you may introduce a new error with the correction. (This is called a "regression".)
 
-![Visual Studio error hover](../ide/media/vs_ide_gs_debug_error_hover1.png)
+![Screenshot of the Visual Studio error hover action.](../ide/media/vs_ide_gs_debug_error_hover1.png)
 
 Walk through the error list and address all the errors in your code.
 
-![Visual Studio Debug errors window](../ide/media/vs_ide_gs_debug_error_list.png)
+![Screenshot of the Visual Studio Debug errors window.](../ide/media/vs_ide_gs_debug_error_list.png)
 
 ### Review errors in detail
 
 Many errors may make no sense to you, phrased as they are in the terms of the compiler. In those cases, you'll need additional information. From the **Error List** window, you can do an automatic Bing search for more information on the error or warning. Right-click on the corresponding entry line and select **Show Error Help** from the context menu, or click on the hyperlinked error code value in the **Code** column of the **Error List**.
 
-![Visual Studio error list Bing search](../ide/media/vs_ide_gs_debug_error_list_error_help.png)
+![Screenshot of the Visual Studio error list Bing search.](../ide/media/vs_ide_gs_debug_error_list_error_help.png)
 
 Depending on your settings, either your web browser displays the search results for the error code and text, or a tab opens inside Visual Studio and shows the results of the Bing search. The results are from many different sources on the Internet, and not all may be helpful.
 
@@ -77,21 +84,21 @@ To analyze C++ code, run [static code analysis](/cpp/code-quality/quick-start-co
 
 Press **Alt**+**F11** (or select **Analyze** > **Run Code Analysis on Solution** from the top menu) to start static code analysis.
 
-![Visual Studio Code Analysis menu item](../ide/media/vs_ide_gs_debug_run_code_analysis.png)
+![Screenshot of the Visual Studio Code Analysis menu item.](../ide/media/vs_ide_gs_debug_run_code_analysis.png)
 
 Any new or updated warnings appear in the **Error List** tab at the bottom of the IDE. Click on the warnings to jump to them in code.
 
-![Visual Studio Error List with Warnings](../ide/media/cpp-code-analysis-warning.png)
+![Screenshot of the Visual Studio Error List with Warnings.](../ide/media/cpp-code-analysis-warning.png)
 
 ## Use Quick Actions to fix or refactor code
 
 [Quick Actions](../ide/quick-actions.md), available from the light bulb or screwdriver icon, let you refactor code inline. They are an easy way to fix common warnings quickly and effectively in C#, C++, and Visual Basic code. To access them, right-click on a warning squiggle and select **Quick Actions and refactorings**. Or, when your cursor is on the line with the colored squiggle, press **Ctrl**+**.** or select the light bulb, error light bulb, or screwdriver icon in the margin. You'll see a list of possible fixes or refactorings you can apply to that line of code.
 
-![Visual Studio light bulb preview](../ide/media/quick-actions-options.png)
+![Screenshot of the Visual Studio light bulb preview.](../ide/media/quick-actions-options.png)
 
 Quick Actions can be used wherever code analyzers determine there's an opportunity to fix, refactor, or improve your code. Click on any line of code, right-click to open the context menu, and select **Quick Actions and refactorings**. If refactoring or improvement options are available, they are displayed. Otherwise, the message **No quick actions available here** displays in the lower-left corner of the IDE.
 
-![No quick actions available text](../ide/media/vs_ide_gs_debug_light_bulb_no_options.png)
+![Screenshot of the 'No quick actions available' text.](../ide/media/vs_ide_gs_debug_light_bulb_no_options.png)
 
 With experience, you can quickly use the arrow keys and **Ctrl**+**.** to check for easy refactoring opportunities and clean up your code!
 
@@ -101,7 +108,7 @@ With experience, you can quickly use the arrow keys and **Ctrl**+**.** to check 
 
 Visual Studio provides [on-demand formatting of your C# code file](code-styles-and-code-cleanup.md#apply-code-styles), including code style preferences, through the **Code Cleanup** button at the bottom of the editor.
 
-![Code Cleanup button in Visual Studio 2019](media/execute-code-cleanup.png)
+![Screenshot of Code Cleanup button.](media/vs-2019/execute-code-cleanup.png)
 
 In addition to formatting your file for spaces, indents, et cetera, **Code Cleanup** also applies a set of code style conventions that you define. Your preferences for each code style are read from the [EditorConfig file](code-styles-and-code-cleanup.md#code-styles-in-editorconfig-files), if you have one for the project, or from the [code style settings](code-styles-and-code-cleanup.md#code-styles-in-the-options-dialog-box) in the **Options** dialog box.
 
@@ -111,7 +118,7 @@ In addition to formatting your file for spaces, indents, et cetera, **Code Clean
 
 Now that you've successfully built your code and performed a little clean up, run it by pressing **F5** or selecting **Debug** > **Start Debugging**. This starts your app in a debug environment so you can observe its behavior in detail. The Visual Studio IDE changes while your app is running: the **Output** window is replaced by two new ones (in the default window configuration), the **Autos/Locals/Watch** tabbed window and the **Call Stack/Breakpoints/Exception Settings/Output** tabbed window. These windows have multiple tabs that allow you to inspect and evaluate your app's variables, threads, call stacks, and various other behaviors as it runs.
 
-![Visual Studio Autos and Call Stack Windows](../ide/media/vs_ide_gs_debug_autos_and_call_stack.png)
+![Screenshot of the Visual Studio Autos and Call Stack windows.](../ide/media/vs_ide_gs_debug_autos_and_call_stack.png)
 
 Stop your app by pressing **Shift**+**F5** or by clicking the **Stop** button. Or, you can just close the app's main window (or command-line dialog).
 
@@ -123,7 +130,7 @@ If your code ran perfectly and exactly as expected, congratulations! However, if
 
 Set a breakpoint by clicking in the far margin of the line where you want the break to occur, or press **F9** to set a breakpoint on the current line of code. When you run your code, it will pause (or *break*) before the instructions for this line of code are executed.
 
-![Visual Studio breakpoint](../ide/media/vs_ide_gs_debug_breakpoint1.png)
+![Screenshot of a Visual Studio breakpoint.](../ide/media/vs_ide_gs_debug_breakpoint1.png)
 
 Common uses for breakpoints include:
 

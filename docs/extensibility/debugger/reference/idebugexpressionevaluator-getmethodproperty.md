@@ -19,20 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpressionEvaluator::GetMethodProperty
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets a property object that contains the locals, arguments, and other properties of a method.
 
 ## Syntax
 
-```cpp
-HRESULT GetMethodProperty( 
-   IDebugSymbolProvider* pSymbolProvider,
-   IDebugAddress*        pAddress,
-   IDebugBinder*         pBinder,
-   BOOL                  fIncludeHiddenLocals,
-   IDebugProperty2**     ppProperty
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMethodProperty(
    IDebugSymbolProvider pSymbolProvider,
@@ -42,6 +35,17 @@ int GetMethodProperty(
    out IDebugProperty2  ppProperty
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMethodProperty( 
+   IDebugSymbolProvider* pSymbolProvider,
+   IDebugAddress*        pAddress,
+   IDebugBinder*         pBinder,
+   BOOL                  fIncludeHiddenLocals,
+   IDebugProperty2**     ppProperty
+);
+```
+---
 
 ## Parameters
 `pSymbolProvider`\

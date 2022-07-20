@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Calling into the SharePoint client object model in a Server Explorer extension
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates how to call the SharePoint client object model from an extension for the **SharePoint Connections** node in **Server Explorer**. For more information about how to use the SharePoint client object model, see [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md).
 
  This walkthrough demonstrates the following tasks:
@@ -161,8 +163,12 @@ Knowledge of the following concepts is helpful, but not required, to complete th
     > [!NOTE]
     > After you add this code, the project will have some compile errors. These errors will go away when you add code in later steps.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/webpartnode/webpartnodeextension/sitenodeextension.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnode.webpartnode/webpartnodeextension/sitenodeextension.vb" id="Snippet1":::
+     ---
 
 ## Define a node type that represents a web part
  Create a class that defines a new type of node that represents a Web Part. Visual Studio uses this new node type to display child nodes under the **Web Part Gallery** node. Each of these child nodes represents a single Web Part on the SharePoint site.
@@ -173,8 +179,12 @@ Knowledge of the following concepts is helpful, but not required, to complete th
 
 1. Paste the following code into the **WebPartNodeTypeProvider** code file for the **WebPartNodeExtension** project.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/webpartnode/webpartnodeextension/webpartnodetypeprovider.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnode.webpartnode/webpartnodeextension/webpartnodetypeprovider.vb" id="Snippet2":::
+     ---
 
 ## Checkpoint
  At this point in the walkthrough, all the code for the **Web Part Gallery** node is now in the project. Build the **WebPartNodeExtension** project to make sure that it compiles without errors.

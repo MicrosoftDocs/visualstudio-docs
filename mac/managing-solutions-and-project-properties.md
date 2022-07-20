@@ -1,12 +1,16 @@
 ---
 title: "Managing Project and Solution Properties"
 description: "This article describes how to manage the properties of projects and solutions in Visual Studio for Mac"
-author: heiligerdankgesang
-ms.author: dominicn
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 11/09/2020
+ms.topic: how-to
 ms.assetid: 75247EB8-323A-4AFD-A451-6703A03D5D1F
 ---
 # Managing Project and Solution Properties
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 ## Project options
 

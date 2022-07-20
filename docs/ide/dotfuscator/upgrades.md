@@ -28,6 +28,8 @@ ms.technology: vs-ide-general
 ---
 # Upgrade Dotfuscator Community
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Dotfuscator Community offers many application protection and hardening features immediately to all developers using Microsoft Visual Studio.
 However, there are more features available to users who upgrade their version of Dotfuscator.
 

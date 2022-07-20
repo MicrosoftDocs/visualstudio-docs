@@ -18,6 +18,8 @@ ms.workload:
 - vssdk
 ---
 # Commands and menus that use Interop assemblies
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A VSPackage that implements menu and toolbar commands by using Interop assemblies must:
 
 - Inform the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) about the commands it supports and whether they are currently enabled.

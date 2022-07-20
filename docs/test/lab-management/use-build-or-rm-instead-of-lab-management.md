@@ -15,6 +15,8 @@ author: mikejo5000
 ---
 # Use Azure Test Plans instead of Lab Management for automated testing
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 If you use Microsoft Test Manager and Lab Management for automated testing or for build-deploy-test automation, this topic explains how you can achieve the same goals using the [build and release](/azure/devops/pipelines/index?view=vsts&preserve-view=true) features in Azure Pipelines and Team Foundation Server (TFS).
 
 > [!NOTE]
@@ -43,7 +45,7 @@ Some of the benefits of using Azure Pipelines or TFS for this scenario are:
 
 ## Self-service management of SCVMM environments
 
-The [Test Center in Microsoft Test Manager](/azure/devops/test/mtm/guidance-mtm-usage?view=vsts&preserve-view=true) supports the ability to manage a library of environment templates as well as provision environments on demand using an [SCVMM server](/system-center/vmm/overview?view=sc-vmm-1801&preserve-view=true).
+The [Test Center in Microsoft Test Manager](/azure/devops/test/reference-tcm) supports the ability to manage a library of environment templates as well as provision environments on demand using an [SCVMM server](/system-center/vmm/overview?view=sc-vmm-1801&preserve-view=true).
 
 The self-service provisioning features of Lab Center have two distinct goals:
 

@@ -18,6 +18,8 @@ ms.workload:
 - vssdk
 ---
 # Feedback to the user
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE), visual feedback regarding available functionality is based on the user's current selection and global selection context. The following table lists the functionality that is available in different selection contexts.
 
 |Selection context|Available functionality|

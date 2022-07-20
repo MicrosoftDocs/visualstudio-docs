@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentTextEvents2::onUpdateTextAttributes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Notifies the debug package that text attributes have been updated in the document.
 
 ## Syntax
 
-```cpp
-HRESULT onUpdateTextAttributes( 
-   TEXT_POSITION pos,
-   DWORD         dwNumToUpdate
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int onUpdateTextAttributes( 
    enum_TEXT_POSITION pos,
    uint               dwNumToUpdate
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT onUpdateTextAttributes( 
+   TEXT_POSITION pos,
+   DWORD         dwNumToUpdate
+);
+```
+---
 
 ## Parameters
 `pos`\

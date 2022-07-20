@@ -21,6 +21,8 @@ ms.workload:
 ---
 # Extend the functionality of a TableAdapter
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can extend the functionality of a TableAdapter by adding code to the TableAdapter's partial class file.
 
 The code that defines a TableAdapter is regenerated when any changes are made to the TableAdapter in the **Dataset Designer**, or when a wizard  modifies the configuration of a TableAdapter. To prevent your code from being deleted during the regeneration of a TableAdapter, add code to the TableAdapter's partial class file.
@@ -43,8 +45,12 @@ The following example assumes a TableAdapter named `CustomersTableAdapter`is in 
 
 4. Replace the code with the correct namespace and partial class name for your project as follows:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataTableAdapters/CS/CustomersTableAdapterExtended.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataTableAdapters/VB/CustomersTableAdapterExtended.vb" id="Snippet2":::
+     ---
 
 ## See also
 

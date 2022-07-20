@@ -19,21 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugStackFrame2::EnumProperties
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator for properties associated with the stack frame, such as local variables.
 
 ## Syntax
 
-```cpp
-HRESULT EnumProperties ( 
-   DEBUGPROP_INFO_FLAGS      dwFieldSpec,
-   UINT                      nRadix,
-   REFIID                    refiid,
-   DWORD                     dwTimeout,
-   ULONG*                    pcelt,
-   IEnumDebugPropertyInfo2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumProperties ( 
    enum_DEBUGPROP_INFO_FLAGS   dwFieldSpec,
@@ -44,6 +36,18 @@ int EnumProperties ( 
    out IEnumDebugPropertyInfo2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumProperties ( 
+   DEBUGPROP_INFO_FLAGS      dwFieldSpec,
+   UINT                      nRadix,
+   REFIID                    refiid,
+   DWORD                     dwTimeout,
+   ULONG*                    pcelt,
+   IEnumDebugPropertyInfo2** ppEnum
+);
+```
+---
 
 ## Parameters
 `dwFieldSpec`\

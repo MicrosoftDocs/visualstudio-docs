@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # Graphics Log Document
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Graphics Log document is the record of graphics events that occurred while your app was running under a graphics diagnostics session. After being recorded, you can examine the log in Visual Studio Graphics Analyzer to diagnose rendering and performance problems.
 
  This is what a graphics log document looks like in the Graphics Analyzer:

@@ -40,15 +40,15 @@ ms.workload:
 ---
 # Start a debugging session for a UWP app
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This article describes how to start a Visual Studio debugging session for a Universal Windows Platform (UWP) app. UWP apps can be written in XAML and C++, XAML and C#/Visual Basic. To start debugging a UWP app, configure the debugging session and choose the way to start the app.
 
 ::: moniker range=">=vs-2019"
 > [!NOTE]
 > Starting in Visual Studio 2019, UWP apps for HTML and JavaScript are no longer supported.
 ::: moniker-end
-::: moniker range="vs-2017"
-In Visual Studio 2017, Most of the commands and options shown in this article also apply to UWP apps for HTML and JavaScript. Where commands are different between managed and C++ apps, JavaScript apps typically are the same as commands for C++ UWP apps.
-::: moniker-end
+
 
 ## <a name="BKMK_The_easy_way_to_start_debugging"></a>Start debugging from the Visual Studio toolbar
 
@@ -136,7 +136,7 @@ In C++ apps, Visual Studio debugs native code by default. You can choose to debu
 
 By default, you must supply Windows credentials to run the remote debugger when you select **Remote Machine** as the deployment target. You can change the authentication requirement.
 
-The **Universal (Unencrypted Protocol)** authentication mode is for IoT, Xbox, and HoloLens devices, and Creator's Update or later Windows 10 PCs.
+The **Universal (Unencrypted Protocol)** authentication mode is for IoT, Xbox, and HoloLens devices, Widows 11 PCs, and Creator's Update or later Windows 10 PCs.
 
 **To change authentication method:**
 
@@ -205,12 +205,6 @@ To attach the debugger to a [!INCLUDE[win8_appname_long](../debugger/includes/wi
 
  Visual Studio attaches the debugger to the process. Execution continues until a breakpoint is reached, you manually suspend execution, an unhandled exception occurs, or the app ends.
 
-::: moniker range="vs-2017"
-> [!NOTE]
-> JavaScript apps run in an instance of the *wwahost.exe* process. If more than one JavaScript app is running, you will need to know the numeric process id (PID) of your app's *wwahost.exe* process to attach to it.
->
-> The easiest way to attach to your JavaScript app is to close all the other JavaScript apps. Or, you can note the PIDs of running *wwahost.exe* processes in Windows Task Manager before you start your app. When you start your app, its *wwahost.exe* PID will be the one that is different from those you previously noted.
-::: moniker-end
 
 ## See also
 

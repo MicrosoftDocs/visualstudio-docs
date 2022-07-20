@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Source Control Plug-in API Functions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Source Control Plug-in API provides the following functions, which must be implemented by the source control plug-in in accordance with this API. The signatures of each function and the semantics associated with the bit flags and other parameters are described in detail in this reference.
 
 ## Initialization and Housekeeping Functions

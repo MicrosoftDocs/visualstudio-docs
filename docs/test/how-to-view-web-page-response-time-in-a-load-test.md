@@ -16,6 +16,8 @@ ms.technology: vs-ide-test
 ---
 # How to: View web page response time in a load test using the Load Test Analyzer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The time it takes for each web page to load is known as *response time*. When you create a web performance test, you can set a response time goal for each web page request in your web performance test.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]

@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Glyph control (source control VSPackage)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Part of the deep integration available to source control VSPackages is the ability to display their own glyphs to indicate the status of items under source control.
 
 ## Levels of glyph control

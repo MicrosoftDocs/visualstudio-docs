@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugArrayField
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface describes an array symbol or type.
 
 ## Syntax

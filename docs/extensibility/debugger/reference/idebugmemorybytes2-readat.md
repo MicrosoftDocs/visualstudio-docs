@@ -20,20 +20,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugMemoryBytes2::ReadAt
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Reads a sequence of bytes, starting at a given location.
 
 ## Syntax
 
-```cpp
-HRESULT ReadAt( 
-   IDebugMemoryContext2* pStartContext,
-   DWORD                 dwCount,
-   BYTE*                 rgbMemory,
-   DWORD*                pdwRead,
-   DWORD*                pdwUnreadable
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ReadAt(
    IDebugMemoryContext2 pStartContext,
@@ -43,6 +36,17 @@ int ReadAt(
    ref uint             pdwUnreadable
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ReadAt( 
+   IDebugMemoryContext2* pStartContext,
+   DWORD                 dwCount,
+   BYTE*                 rgbMemory,
+   DWORD*                pdwRead,
+   DWORD*                pdwUnreadable
+);
+```
+---
 
 ## Parameters
 `pStartContext`\

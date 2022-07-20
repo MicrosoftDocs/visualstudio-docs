@@ -3,8 +3,8 @@ title: Unable to find or claim a product key
 description: I'm unable to find or claim a product key, included with my Visual Studio subscription.
 ms.topic: include
 ms.assetid: 83a4f1ed-c77c-4b9c-b02d-bd929bd31072
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 08/14/2020
 user.type: subscriber
 tags: download, activate, product-key

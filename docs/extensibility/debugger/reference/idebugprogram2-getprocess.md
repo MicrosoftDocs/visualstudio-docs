@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram2::GetProcess
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Get the process that this program is running in.
 
 ## Syntax
 
-```cpp
-HRESULT GetProcess(
-   IDebugProcess2** ppProcess
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProcess(
    out IDebugProcess2 ppProcess
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProcess(
+   IDebugProcess2** ppProcess
+);
+```
+---
 
 ## Parameters
 `ppProcess`\

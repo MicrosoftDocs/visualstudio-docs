@@ -21,6 +21,8 @@ ms.workload:
   - "multiple"
 ---
 # Choose a ClickOnce update strategy
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] can provide automatic application updates. A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application periodically reads its deployment manifest file to see whether updates to the application are available. If available, the new version of the application is downloaded and run. For efficiency, only those files that have changed are downloaded.
 
  When designing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, you have to determine which strategy the application will use to check for available updates. There are three basic strategies that you can use: checking for updates on application startup, checking for updates after application startup (running in a background thread), or providing a user interface for updates.

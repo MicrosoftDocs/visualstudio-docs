@@ -1,20 +1,22 @@
 ---
 title: "Workflow Designer - PickBranch Activity Designer"
-description: Learn how the PickBranch activity designer provides an event-based path of execution within a Pick activity that can be triggered by an incoming event. 
+description: Learn how the PickBranch activity designer provides an event-based path of execution within a Pick activity that can be triggered by an incoming event.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.PickBranch.UI"
 ms.assetid: f523ad47-bbc0-4cda-a35c-41e67c4ba081
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
   - "multiple"
 ---
 # PickBranch Activity Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The <xref:System.Activities.Statements.PickBranch> provides an event-based path of execution within a <xref:System.Activities.Statements.Pick> activity that can be triggered by an incoming event.
 

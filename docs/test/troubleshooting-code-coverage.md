@@ -2,7 +2,7 @@
 title: Troubleshooting Code Coverage
 description: Learn how to resolve erroneous empty results messages when you expect Visual Studio to collect data for native and managed assemblies.
 ms.custom: SEO-VS-2020
-ms.date: 03/31/2020
+ms.date: 02/23/2022
 ms.topic: troubleshooting
 ms.author: mikejo
 manager: jmartens
@@ -13,6 +13,8 @@ author: mikejo5000
 ---
 # Troubleshoot code coverage
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The code coverage analysis tool in Visual Studio collects data for native and managed assemblies (*.dll* or *.exe* files). However, in some cases, the **Code Coverage Results** window displays an error similar to "Empty results generated: ...." There are several reasons why you can get empty results. This article helps you resolve those issues.
 
 ## What you should see
@@ -22,9 +24,7 @@ If you choose an **Analyze Code Coverage** command on the **Test** menu, and if 
 ::: moniker range=">=vs-2019"
 ![Code coverage results with coloring](../test/media/vs-2019/codecoverage1.png)
 ::: moniker-end
-::: moniker range="vs-2017"
-![Code coverage results with coloring](../test/media/codecoverage1.png)
-::: moniker-end
+
 
 For more information, see [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
@@ -33,6 +33,10 @@ For more information, see [Use code coverage to determine how much code is being
 ### Do you have the right edition of Visual Studio?
 
 You need Visual Studio Enterprise.
+
+### Are you running code coverage for native(c++) module on ARM64 version of Visual Studio?
+
+Code coverage for native module is not supported on ARM64 version of Visual Studio.
 
 ### No tests were executed
 
@@ -58,9 +62,15 @@ Explanation&mdash;The code coverage engine requires that every assembly has its 
 
 The *.pdb* file must be generated from the same build as the *.dll* or *.exe* files.
 
-Resolution&mdash;Make sure that your build settings generate the *.pdb* file. If the *.pdb* files are not updated when the project is built, then open the project properties, select the **Build** page, choose **Advanced**, and inspect **Debug Info**.
+Resolution&mdash;Make sure that your build settings generate the *.pdb* file.
 
-For C++ projects, ensure that the generated .pdb files have full debug information. Open the project properties and verify that **Linker** > **Debugging** > **Generate Debug Info** is set to **Generate Debug Information optimized for sharing and publishing (/DEBUG:FULL)**.
+- If the *.pdb* files are not updated when the project is built, then open the project properties, select the **Build** page, choose **Advanced**, and inspect **Debug Info**.
+
+::: moniker range=">=vs-2022"
+- For C# projects targeting .NET Core or .NET 5+, open the project properties, select the **Build** tab, choose **General**, and inspect **Debug symbols**.
+::: moniker-end
+
+- For C++ projects, ensure that the generated .pdb files have full debug information. Open the project properties and verify that **Linker** > **Debugging** > **Generate Debug Info** is set to **Generate Debug Information optimized for sharing and publishing (/DEBUG:FULL)**.
 
 If the *.pdb* and *.dll* or *.exe* files are in different places, copy the *.pdb* file to the same directory. It is also possible to configure code coverage engine to search for *.pdb* files in another location. For more information, see [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md).
 

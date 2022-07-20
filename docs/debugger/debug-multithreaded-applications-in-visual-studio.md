@@ -26,6 +26,8 @@ ms.workload:
   - "multiple"
 ---
 # Debug multithreaded applications in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A thread is a sequence of instructions to which the operating system grants processor time. Every process that is running in the operating system consists of at least one thread. Processes that have more than one thread are called multithreaded.
 
 Computers with multiple processors, multi-core processors, or hyperthreading processes can run several simultaneous threads. Parallel processing using many threads can greatly improve program performance, but it may also make debugging more difficult because you're tracking many threads.

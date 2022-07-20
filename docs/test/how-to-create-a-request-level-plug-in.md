@@ -15,6 +15,8 @@ ms.technology: vs-ide-test
 ---
 # How to: Create a request-level plug-in
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 *Requests* are the declarative statements that constitute web performance tests. Web performance test plug-ins enable you to isolate and reuse code outside the main declarative statements in your web performance test. You can create plug-ins and add them to an individual request as well as to the web performance test that contains it. A customized  *request plug-in* offers you a way to call code as a particular request is run in a web performance test.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]

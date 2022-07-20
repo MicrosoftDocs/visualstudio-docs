@@ -1,59 +1,89 @@
 ### YamlMime:Landing
 
-title: Visual Studio version control documentation # < 60 chars
+title: Visual Studio version control docs # < 60 chars
 summary: Share your code from within Visual Studio by using source control technologies such as Git and GitHub. # < 160 chars
 
 metadata:
-  title: Version control & source control with Git in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
+  title: Version control & source control with Git docs # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Use version / source control technologies in Visual Studio. You can share, integrate, and manage your code releases in Git & GitHub without leaving your codebase.
   ms.topic: landing-page
-  ms.date: 09/07/2021
+  ms.date: 07/11/2022
   author: TerryGLee
   ms.author: tglee
   manager: jmartens
   ms.prod: visual-studio-windows
   ms.technology: vs-ide-general
+  ms.custom: version-control
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
 
 landingContent:
   # Card
-  - title: Overview
+  - title: Get started
     linkLists:
       - linkListType: overview
         links:
-          - text: Git experience in Visual Studio
+          - text: Git & Visual Studio for source control
             url: git-with-visual-studio.md
-          - text: Git settings and preferences
-            url: git-settings.md
-      - linkListType: concept
-        links:
-          - text: How Visual Studio makes source control easy
-            url:  git-visual-studio-source-control.md
-
-  # Card
-  - title: Get started
-    linkLists:
-      - linkListType: learn
-        links:
-          - text: Get started with Git and GitHub in Visual Studio
-            url: /learn/modules/visual-studio-github-push/
       - linkListType: how-to-guide
         links:
-          - text: Compare Git and Team Explorer side-by-side
-            url: git-team-explorer-feature-comparison.md
+          - text: Clone an existing repo
+            url: git-clone-repository.md
+          - text: Create a new repo
+            url: git-create-repository.md
 
   # Card
-  - title: What's new
+  - title: Innerloop dev workflow
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Create a new branch
+            url: git-create-branch.md
+          - text: Make a commit
+            url: git-make-commit.md
+          - text: Push to remote
+            url: git-push-remote.md
+          - text: Fetch, pull, and sync
+            url: git-fetch-pull-sync.md
+
+# Card
+  - title: Repo management
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Browse repos & compare branches
+            url:  git-browse-repository.md
+          - text: Manage repos
+            url:  git-manage-repository.md
+          - text: Resolve merge conflicts
+            url:  git-resolve-conflicts.md
+          - text: Git settings & preferences
+            url: git-settings.md
+
+  # Card
+  - title: Reference
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Compare Git & Team Explorer
+            url: git-team-explorer-feature-comparison.md
+          - text: Become a master at Git & open source (blog)
+            url: https://devblogs.microsoft.com/visualstudio/become-a-master-at-git-and-open-source/
+
+  # Card
+  - title: Resources
     linkLists:
       - linkListType: whats-new
         links:
-          - text: Multi-repo support in Visual Studio 2022 (Preview)
-            url: https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/
-          - text: Visual Studio 2022 (Preview) release notes
-            url: /visualstudio/releases/2022/release-notes-preview/
-          - text: Enhanced productivity with Git in Visual Studio 2019
-            url: https://devblogs.microsoft.com/visualstudio/enhanced-productivity-with-git-in-visual-studio/
-          - text: Visual Studio 2019 release notes
-            url: /visualstudio/releases/2019/release-notes/
+          - text: Performance Enhancement - Git branch switching (blog)
+            url: https://devblogs.microsoft.com/visualstudio/vs2022-performance-enhancements-git-branch-switching/
+          - text: Supercharge your Git experience (blog)
+            url: https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/
+          - text: Line-staging support (blog)
+            url: https://devblogs.microsoft.com/visualstudio/line-staging-interactive-staging/
+          - text: Release notes
+            url: /visualstudio/releases/2022/release-notes-preview
+          - text: Videos and more...
+            url: https://visualstudio.microsoft.com/vs/github/
+
 

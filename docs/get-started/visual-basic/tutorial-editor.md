@@ -15,14 +15,10 @@ ms.workload:
 ---
 # Learn to use the code editor with Visual Basic
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this 10-minute introduction to the code editor in Visual Studio, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding Visual Basic code easier.
 
-::: moniker range="vs-2017"
-
-> [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -31,7 +27,7 @@ In this 10-minute introduction to the code editor in Visual Studio, we'll add co
 
 ::: moniker-end
 
-This article assumes you're already familiar with Visual Basic. If you aren't, we suggest you look at a tutorial such as [Get started with Visual Basic in Visual Studio](../../get-started/visual-basic/tutorial-console.md) first.
+This article assumes you're already familiar with Visual Basic. If you aren't, we suggest you look at a tutorial such as [Create a simple Visual Basic (VB) console app](tutorial-console.md) first.
 
 > [!TIP]
 > To follow along with this article, make sure you have the Visual Basic settings selected for Visual Studio. For information about selecting settings for the integrated development environment (IDE), see [Select environment settings](visual-studio-ide.md#select-environment-settings).
@@ -40,19 +36,6 @@ This article assumes you're already familiar with Visual Basic. If you aren't, w
 
 Start by creating a new file and adding some code to it.
 
-::: moniker range="vs-2017"
-
-1. Open Visual Studio.
- 
-1. From the **File** menu on the menu bar, choose **New File**.
-
-1. In the **New File** dialog box, under the **General** category, choose **Visual Basic Class**, and then choose **Open**.
-
-   A new file opens in the editor with the skeleton of a Visual Basic class. (You can already notice that you don't have to create a full Visual Studio project to gain some of the benefits that the code editor offers, such as syntax highlighting. All you need is a code file!)
-
-   ![Visual Basic code file in Visual Studio](media/tutorial-editor.png)
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

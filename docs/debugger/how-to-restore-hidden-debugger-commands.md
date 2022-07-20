@@ -23,6 +23,8 @@ ms.workload:
   - multiple
 ---
 # How to: Restore Hidden Debugger Commands
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you set up Visual Studio, you are asked to choose a set of default IDE settings for your primary programming language. Default IDE settings for some languages may hide certain debugger commands.
 
  If you want to use a debugger feature that is hidden by your default IDE settings, you can add the command back to the menu using the following procedure.

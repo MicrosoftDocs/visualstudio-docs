@@ -19,10 +19,22 @@ dev_langs:
 - CSharp
 ---
 # STEPKIND
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the step kind for stepping.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_STEPKIND { 
+   STEP_INTO      = 0,
+   STEP_OVER      = 1,
+   STEP_OUT       = 2,
+   STEP_BACKWARDS = 3
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_STEPKIND { 
    STEP_INTO      = 0,
@@ -32,15 +44,7 @@ enum enum_STEPKIND { 
 };
 typedef DWORD STEPKIND;
 ```
-
-```csharp
-public enum enum_STEPKIND { 
-   STEP_INTO      = 0,
-   STEP_OVER      = 1,
-   STEP_OUT       = 2,
-   STEP_BACKWARDS = 3
-};
-```
+---
 
 ## Fields
  `STEP_INTO`\

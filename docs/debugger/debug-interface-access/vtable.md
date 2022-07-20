@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # VTable
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The virtual table is identified by the `SymTagVTable` symbol.
 
 ## Properties

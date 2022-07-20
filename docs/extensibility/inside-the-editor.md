@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Inside the editor
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The editor is composed of several different subsystems, which are designed to keep the editor text model separate from the text view and the user interface.
 
 These sections describe different aspects of the editor:

@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Move a type to a matching file refactoring
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This refactoring applies to:
 
 - C#
@@ -31,13 +33,16 @@ This refactoring applies to:
 
 1. Place the cursor inside the name of the type where it is defined. For example:
 
+   ### [C#](#tab/csharp)
    ```csharp
    class Person
    ```
 
+   ### [VB](#tab/vb)
    ```vb
    Class Person
    ```
+   ---
 
 2. Next, do one of the following:
 

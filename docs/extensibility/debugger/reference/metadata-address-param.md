@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # METADATA_ADDRESS_PARAM
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure represents a parameter of a method or function.
 
 ## Syntax
 
-```cpp
-typedef struct _tagMETADATA_ADDRESS_PARAM {
-   _mdToken tokMethod;
-   _mdToken tokParam;
-   DWORD    dwIndex;
-} METADATA_ADDRESS_PARAM;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct METADATA_ADDRESS_PARAM {
    public int  tokMethod;
@@ -38,6 +33,15 @@ public struct METADATA_ADDRESS_PARAM {
    public uint dwIndex;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagMETADATA_ADDRESS_PARAM {
+   _mdToken tokMethod;
+   _mdToken tokParam;
+   DWORD    dwIndex;
+} METADATA_ADDRESS_PARAM;
+```
+---
 
 ## Members
  `tokMethod`\

@@ -18,18 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IEEVisualizerService::GetValueDisplayStringCount
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the number of value strings to display for the specified property or field.
 
 ## Syntax
 
-```cpp
-HRESULT GetValueDisplayStringCount (
-   DWORD         displayKind,
-   IDebugField * propertyOrField,
-   ULONG *       pcelt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetValueDisplayStringCount (
    uint        displayKind,
@@ -37,6 +32,15 @@ int GetValueDisplayStringCount (
    out ulong   pcelt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetValueDisplayStringCount (
+   DWORD         displayKind,
+   IDebugField * propertyOrField,
+   ULONG *       pcelt
+);
+```
+---
 
 ## Parameters
 `displayKind`\

@@ -3,17 +3,19 @@ title: Draw shapes and paths
 description: Use the features of the XAML Designer in Blend for Visual Studio to draw paths and shapes, modify them, and combine them.
 ms.custom: SEO-VS-2020
 titleSuffix: Blend for Visual Studio
-ms.date: 09/22/2020
+ms.date: 07/11/2022
 ms.topic: conceptual
 ms.assetid: d5378c59-e2e5-49f0-91f1-aa82d984a33c
-author: TerryGLee
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
 ms.workload:
 - multiple
 ---
 # Draw shapes and paths
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In XAML Designer, a *shape* is exactly what you'd expect. For example: a rectangle, circle, or ellipse. A *path* is a more flexible version of a shape. You can do things like reshape them or combine them together to form new shapes.
 
@@ -85,8 +87,6 @@ Use the **Selection** tool to select the path. Use the **Pen** tool to click any
 
 To modify a shape in the same ways that you modify a path, convert the shape to a path. Select the shape, and then select **Format** > **Path** > **Convert to Path**.
 
-**Watch a short video:** ![Configure installed features](../designers/media/bldadminconsoleinitialconfigicon.png) [Working with paths: Convert a shape to a path](https://www.youtube.com/watch?v=Io5bC0-nH6Q#t=147).
-
 > [!NOTE]
 > **Convert to Path** is not currently available for UWP apps that have a minimum `TargetPlatformVersion` of 10.0.16299.0 or later.
 
@@ -105,8 +105,6 @@ You can combine paths and shapes into a single path.
 |![Exclude overlap](../designers/media/b1_5.png)|Exclude Overlap|
 |![Subtract](../designers/media/b1_6.png)|Subtract|
 
-**Watch a short video:** ![Configure installed features](../designers/media/bldadminconsoleinitialconfigicon.png) [Working with paths: Combine paths](https://www.youtube.com/watch?v=Io5bC0-nH6Q#t=195).
-
 ## Create a compound path
 
 When you create a compound path, any intersecting parts of the paths are subtracted from the result, and the resulting path takes on the visual properties of the bottommost path.
@@ -115,12 +113,8 @@ You can break apart a compound path any time after you create it.
 
 ![Break a compound path](../designers/media/2157a8aa-d9a7-4de4-8de5-b10d28f08a84.png)
 
-**Watch a short video:** ![Configure installed features](../designers/media/bldadminconsoleinitialconfigicon.png) [Working with paths: Create a compound path](https://www.youtube.com/watch?v=Io5bC0-nH6Q).
-
 ## Create a clipping path
 
 A clipping path is a path or shape that is applied to another object, hiding the parts of the masked object that fall outside the clipping path.
 
 ![Clipping path](../designers/media/22471e98-a841-4f39-a3ef-36090cf5a625.png)
-
-**Watch a short video:** ![Configure installed features](../designers/media/bldadminconsoleinitialconfigicon.png) [Working with paths: Create a clipping path](https://www.youtube.com/watch?v=Io5bC0-nH6Q#t=232).

@@ -19,19 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProvider::GetAddressesFromContext
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method maps a document context into an array of debug addresses.
 
 ## Syntax
 
-```cpp
-HRESULT GetAddressesFromContext( 
-   IDebugDocumentContext2* pDocContext,
-   BOOL                    fStatmentOnly,
-   IEnumDebugAddresses**   ppEnumBegAddresses,
-   IEnumDebugAddresses**   ppEnumEndAddresses
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAddressesFromContext(
    IDebugDocumentContext2  pDocContext,
@@ -40,6 +34,16 @@ int GetAddressesFromContext(
    out IEnumDebugAddresses ppEnumEndAddresses
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAddressesFromContext( 
+   IDebugDocumentContext2* pDocContext,
+   BOOL                    fStatmentOnly,
+   IEnumDebugAddresses**   ppEnumBegAddresses,
+   IEnumDebugAddresses**   ppEnumEndAddresses
+);
+```
+---
 
 ## Parameters
 `pDocContext`\

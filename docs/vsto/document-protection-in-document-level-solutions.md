@@ -21,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # Document protection in document-level solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can use the protection features of Microsoft Office Word and Microsoft Office Excel in document-level projects. These features block unauthorized users from making changes to protected parts of a document.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]

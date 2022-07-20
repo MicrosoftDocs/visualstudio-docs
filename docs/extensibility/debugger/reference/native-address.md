@@ -20,21 +20,25 @@ dev_langs:
 ---
 # NATIVE_ADDRESS
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This structure represents a native address.
 
 ## Syntax
 
-```cpp
-typedef struct _tagNATIVE_ADDRESS {
-    DWORD unknown;
-} NATIVE_ADDRESS;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct NATIVE_ADDRESS {
     public uint unknown;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagNATIVE_ADDRESS {
+    DWORD unknown;
+} NATIVE_ADDRESS;
+```
+---
 
 ## Members
 

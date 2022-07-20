@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # &lt;addin&gt; element (Office development in Visual Studio)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The **addin** element of the `vstav3` namespace contains information that is specific to Microsoft Office VSTO Add-ins and document-level customizations developed with Visual Studio.
 
 ## Syntax

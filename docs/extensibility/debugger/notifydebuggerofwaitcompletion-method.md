@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # NotifyDebuggerOfWaitCompletion method
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Placeholder method used as a breakpoint target by the debugger. This method must not be inlined or optimized.
 
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

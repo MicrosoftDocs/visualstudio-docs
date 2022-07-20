@@ -27,6 +27,8 @@ ms.technology: vs-ide-test
 ---
 # Analyze load test results and errors in the Tables view of the Load Test Analyzer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 When you view the results of a load test run, you can display different panes that provide you with different ways to analyze the data. You can view the data as a graph, to see how it changes over time, or you can view the data as detailed tables.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]

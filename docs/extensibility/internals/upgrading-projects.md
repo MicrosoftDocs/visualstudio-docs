@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Upgrading Projects
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Changes to the project model from one version of Visual Studio to the next may require that projects and solutions be upgraded so that they can run on the newer version. The [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] provides interfaces that can be used to implement upgrade support in your own projects.
 
 ## Upgrade Strategies

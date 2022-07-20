@@ -13,6 +13,8 @@ ms.workload:
 ---
 # NuGet versus SDK as a project reference
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This article is designed to help developers choose whether to package their software as a NuGet package or as a software development kit (SDK). Specifically, it discusses differences between the two when they're referenced in a Visual Studio project.
 
 - [NuGet](/nuget) is an open-source package-management system that simplifies the process of incorporating libraries into a project. For .NET (including .NET Core), NuGet is the Microsoft-supported mechanism for sharing code. NuGet defines how packages for .NET are created, hosted, and consumed, and provides the tools for each of those roles. In Visual Studio, you add NuGet packages to a project by using the [Package Manager](/nuget/consume-packages/install-use-packages-visual-studio) user interface.

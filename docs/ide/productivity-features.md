@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Productivity guide for Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 If you want to save time while you're writing code, you're in the right place. This productivity guide includes tips that can help you get started with Visual Studio, write code, debug code, handle errors, and use keyboard shortcuts&mdash;all on one page.
 
 For information about helpful keyboard shortcuts, see [Productivity shortcuts](../ide/productivity-shortcuts.md). For a complete list of command shortcuts, see [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
@@ -93,13 +95,6 @@ You can search across the IDE for commands, files, and options, in addition to f
 
 - **Find dialog boxes, menu commands, options, and more**. In the search box, enter keywords or phrases for the items that you're trying to find. For example, the following options appear if you enter **new project**:
 
-   ::: moniker range="vs-2017"
-
-   ![Quick Launch Results for 'new project'](../ide/media/productivity_quicklaunch.png)
-
-   **Quick Launch** displays links to create a new project, to add a new item to a project, and to the **Projects and Solutions** page in the **Options** dialog box, among others. Search results can also include project files and tool windows.
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2019"
 
@@ -145,11 +140,6 @@ Debugging can consume a lot of time, but the following tips can help you speed u
 
 You can quickly access the Developer Command Prompt, or another Visual Studio tool, if you pin it to the Start menu or the taskbar.
 
-::: moniker range="vs-2017"
-
-1. In Windows Explorer, browse to *%ProgramData%\Microsoft\Windows\Start Menu\Programs\Visual Studio 2017\Visual Studio Tools*.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -176,7 +166,7 @@ At any one time, you may be working in multiple code files and moving among seve
 ## See also
 
 - [Visual Studio tips and tricks blog post](https://devblogs.microsoft.com/visualstudio/visual-studio-tips-and-tricks/)
-- [Default keyboard shortcuts for frequently used commands](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)
+- [Default keyboard shortcuts for frequently used commands](default-keyboard-shortcuts-in-visual-studio.md)
 - [How to: Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
 - [Walkthrough: Create a simple application](../get-started/csharp/tutorial-wpf.md)
 - [Accessibility tips and tricks](../ide/reference/accessibility-tips-and-tricks.md)

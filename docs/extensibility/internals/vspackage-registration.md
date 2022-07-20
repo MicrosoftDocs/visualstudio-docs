@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # VSPackage Registration
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 VSPackages must advise [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] that they are installed and should be loaded. This process is accomplished by writing information in the registry. That is a typical job of an installer.
 
 > [!NOTE]

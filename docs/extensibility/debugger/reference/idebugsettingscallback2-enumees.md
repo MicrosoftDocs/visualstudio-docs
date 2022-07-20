@@ -17,19 +17,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugSettingsCallback2::EnumEEs
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates the available expression evaluators given the language and vendor identifiers.
 
 ## Syntax
 
-```cpp
-HRESULT EnumEEs(
-   DWORD  celtBuffer,
-   GUID*  rgguidLang,
-   GUID*  rgguidVendor,
-   DWORD* pceltEEs
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int EnumEEs(
    uint       celtBuffer,
@@ -38,6 +32,16 @@ public int EnumEEs(
    ref uint[] pceltEEs
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumEEs(
+   DWORD  celtBuffer,
+   GUID*  rgguidLang,
+   GUID*  rgguidVendor,
+   DWORD* pceltEEs
+);
+```
+---
 
 ## Parameters
 `celtBuffer`\

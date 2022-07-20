@@ -19,19 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty2::SetValueAsReference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the value of this property to the value of the given reference.
 
 ## Syntax
 
-```cpp
-HRESULT SetValueAsReference(
-   IDebugReference2** rgpArgs,
-   DWORD              dwArgCount,
-   IDebugReference2*  pValue,
-   DWORD              dwTimeout
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetValueAsReference(
    IDebugReference2[] rgpArgs,
@@ -40,6 +34,16 @@ int SetValueAsReference(
    uint               dwTimeout
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetValueAsReference(
+   IDebugReference2** rgpArgs,
+   DWORD              dwArgCount,
+   IDebugReference2*  pValue,
+   DWORD              dwTimeout
+);
+```
+---
 
 ## Parameters
 `rgpArgs`\

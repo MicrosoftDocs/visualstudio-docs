@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IEnumDebugCodeContexts2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface enumerates the code contexts associated with the debug session, or with a particular program or document.
 
 ## Syntax

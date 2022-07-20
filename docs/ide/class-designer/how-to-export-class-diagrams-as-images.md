@@ -18,6 +18,8 @@ ms.workload:
 ---
 # How to: Export class diagrams as images
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 To export a class diagram that you created from code in a project, save the diagram as an image. If you want to export UML class diagrams instead, see [Export diagrams as images](../../modeling/export-diagrams-as-images.md).
 
 ## Export a diagram

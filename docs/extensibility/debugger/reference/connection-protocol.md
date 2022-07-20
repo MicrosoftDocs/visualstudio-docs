@@ -19,22 +19,13 @@ dev_langs:
 - CSharp
 ---
 # CONNECTION_PROTOCOL
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Indicates the protocol being used to communicate between a debug server and the debug package (DE).
 
 ## Syntax
 
-```cpp
-typedef enum tagCONNECTION_PROTOCOL {
-    CONNECTION_NONE    = 0,
-    CONNECTION_UNKNOWN = 1,
-    CONNECTION_LOCAL   = 2,
-    CONNECTION_PIPE    = 3,
-    CONNECTION_TCPIP   = 4,
-    CONNECTION_HTTP    = 5,
-    CONNECTION_OTHER   = 6
-} CONNECTION_PROTOCOL;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public enum CONNECTION_PROTOCOL {
     CONNECTION_NONE    = 0,
@@ -46,6 +37,19 @@ public enum CONNECTION_PROTOCOL {
     CONNECTION_OTHER   = 6
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef enum tagCONNECTION_PROTOCOL {
+    CONNECTION_NONE    = 0,
+    CONNECTION_UNKNOWN = 1,
+    CONNECTION_LOCAL   = 2,
+    CONNECTION_PIPE    = 3,
+    CONNECTION_TCPIP   = 4,
+    CONNECTION_HTTP    = 5,
+    CONNECTION_OTHER   = 6
+} CONNECTION_PROTOCOL;
+```
+---
 
 ## Fields
 `CONNECTION_NONE`\

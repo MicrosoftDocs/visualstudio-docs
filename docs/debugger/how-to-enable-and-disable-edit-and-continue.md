@@ -2,7 +2,7 @@
 title: Enable and disable Edit and Continue | Microsoft Docs
 description: Learn how to disable and enable Edit and Continue in Visual Studio Options at design time. Edit and Continue works only in debug builds.
 
-ms.date: 10/04/2018
+ms.date: 01/12/2022
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -28,8 +28,11 @@ ms.technology: vs-ide-debug
 ms.workload: 
   - dotnet
   - cplusplus
+ms.custom: devdivchpfy22
 ---
 # How to: Enable and disable Edit and Continue (C#, VB, C++)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can disable or enable **Edit and Continue** in the Visual Studio **Options** dialog box at design time. **Edit and Continue** works only in debug builds. For more information, see [Edit and Continue](../debugger/edit-and-continue.md).
 
@@ -44,7 +47,7 @@ For native C++, **Edit and Continue** requires using the `/INCREMENTAL` option. 
     > [!NOTE]
     > If IntelliTrace is enabled and you collect both IntelliTrace events and call information, Edit and Continue is disabled. For more information, see [IntelliTrace](../debugger/intellitrace.md).
 
-1. For C++ code, make sure **Enable Native Edit and Continue** is selected, and set the additional options:
+1. For C++ code, make sure **Enable Native Edit and Continue** is selected, and set the other options:
     - **Apply changes on continue (Native only)**
 
       If selected, Visual Studio automatically compiles and applies code changes when you continue debugging from a break state. Otherwise, you can choose to apply changes using **Debug** > **Apply Code Changes**.
@@ -53,4 +56,4 @@ For native C++, **Edit and Continue** requires using the `/INCREMENTAL` option. 
 
       If selected, gives warnings about stale code.
 
-1. Click **OK**.
+1. Select **OK**.

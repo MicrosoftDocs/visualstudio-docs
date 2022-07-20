@@ -18,23 +18,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugTypeFieldBuilder::CreatePointerToType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates a pointer to the specified type.
 
 ## Syntax
 
-```cpp
-HRESULT CreatePointerToType(
-   IDebugField*  pTypeField,
-   IDebugField** pPtrToTypeField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreatePointerToType(
    IDebugField     pTypeField,
    out IDebugField pPtrToTypeField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreatePointerToType(
+   IDebugField*  pTypeField,
+   IDebugField** pPtrToTypeField
+);
+```
+---
 
 ## Parameters
 `pTypeField`\

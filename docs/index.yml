@@ -7,13 +7,13 @@ metadata:
   description: Explore documentation for the Visual Studio family of products, including Visual Studio IDEs for Windows and Mac, Visual Studio Code, Visual Studio App Center, GitHub Codespaces, and Visual Studio Subscriptions.
   ms.topic: hub-page
   ms.custom: "contperf-fy21q1, contperf-fy21q3"
-  ms.date: 08/23/2021
+  ms.date: 06/13/2022
   searchScope: []
   titleSuffix: ""
   ms.author: ghogen
   author: ghogen
   ms.manager: jmartens
-  monikerRange: ">=vs-2017"
+  monikerRange: ">=vs-2019"
   hide_bc: true
 
 productDirectory:
@@ -22,25 +22,25 @@ productDirectory:
       imageSrc: ./media/vs-ide-2019.svg
       links:
         - url: ./windows/index.yml?view=vs-2022&preserve-view=true
-          text: Visual Studio 2022 (preview)
+          text: Visual Studio 2022 (current)
         - url: ./windows/index.yml?view=vs-2019&preserve-view=true
-          text: Visual Studio 2019 (current)
-        - url: ./windows/index.yml?view=vs-2017&preserve-view=true
-          text: Visual Studio 2017
+          text: Visual Studio 2019
         - url: /previous-versions/visualstudio/
           text: Previous versions
-        - url: /visualstudio/releases/2019/release-notes
+        - url: /visualstudio/releases/2022/release-notes
           text: Release notes
         - url: https://visualstudio.microsoft.com/
           text: Product page
     - title: Visual Studio for Mac
       imageSrc: ./media/vs-mac-2019.svg
       links:
-        - url: /visualstudio/mac
-          text: Visual Studio 2019 for Mac (current)
-        - url: /visualstudio/mac/?view=vsmac-2017&preserve-view=true
-          text: Visual Studio 2017 for Mac
-        - url: /visualstudio/releasenotes/vs2019-mac-relnotes
+        - url: /visualstudio/mac/?view=vsmac-2022&preserve-view=true
+          text: Visual Studio 2022 for Mac (current)
+        - url: /visualstudio/mac/?view=vsmac-2019&preserve-view=true
+          text: Visual Studio 2019 for Mac
+        - url: /previous-versions/visualstudio/mac/
+          text: Previous versions
+        - url: /visualstudio/releases/2022/mac-release-notes
           text: Release notes
         - url: https://visualstudio.microsoft.com/vs/mac/
           text: Product page

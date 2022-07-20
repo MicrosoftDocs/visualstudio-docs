@@ -1,8 +1,8 @@
 ---
 title: Debug an installed UWP app package | Microsoft Docs
-description: Debug an installed Universal Windows Platform (UWP) app package in Visual Studio on Windows 10 computers, Xbox, and Internet of Things (IoT) devices.
+description: Debug an installed Universal Windows Platform (UWP) app package in Visual Studio on Windows 10 and newer computers, Xbox, and Internet of Things (IoT) devices.
 ms.custom: SEO-VS-2020
-ms.date: 11/07/2018
+ms.date: 02/22/2022
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.installedapppackagelauncher
@@ -25,7 +25,9 @@ ms.workload:
 ---
 # Debug an installed UWP app package in Visual Studio
 
-Visual Studio can debug installed Universal Windows Platform (UWP) app packages on Windows 10 computers and Xbox, HoloLens, and IoT devices.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+Visual Studio can debug installed Universal Windows Platform (UWP) app packages on Windows 10 and newer computers and Xbox, HoloLens, and IoT devices.
 
 >[!NOTE]
 >Visual Studio debugging for installed UWP apps is not supported on phones.
@@ -52,7 +54,7 @@ For more information about debugging UWP apps, see the blog posts on [debugging 
 
 ## <a name="remote"></a> Debug an installed UWP app on a remote computer or device
 
-The first time Visual Studio debugs an installed UWP app on a Windows 10 device or a remote post-Creator's Update Windows 10 computer, it installs the remote debugging tools on the target device.
+The first time Visual Studio debugs an installed UWP app on a Windows 10 or newer device or a remote post-Creator's Update Windows 10 computer, it installs the remote debugging tools on the target device.
 
 1. [Enable developer mode](/windows/uwp/get-started/enable-your-device-for-development) on the Visual Studio computer and the remote device or computer.
 
@@ -62,7 +64,7 @@ The first time Visual Studio debugs an installed UWP app on a Windows 10 device 
 
 1. In the **Debug Installed App Package** dialog, under **Connection Type**, select **Remote Machine** or **Device**.
 
-   If you select **Device**, your computer must be physically connected to a Windows 10 device.
+   If you select **Device**, your computer must be physically connected to a Windows 10 or newer device.
 
    For a remote machine, if the computer address doesn't appear next to **Address**, select **Change**.
 

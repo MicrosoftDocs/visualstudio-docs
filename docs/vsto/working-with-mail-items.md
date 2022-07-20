@@ -20,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # Work with mail items
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Interop.Outlook.MailItem> class contains the methods and properties you use to perform tasks with email messages.
 
 |Task|Procedure|

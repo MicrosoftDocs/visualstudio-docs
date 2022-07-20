@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Devenv command-line switches
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Devenv lets you set various options for the IDE, build projects, debug projects, and deploy projects from the command line. Use these switches to run the IDE from a script or a .bat file (such as a nightly build script), or to start the IDE in a particular configuration.
 
 > [!NOTE]
@@ -73,6 +75,7 @@ The following command-line switches display the IDE and do the described task.
 |[/Run or /R](run-devenv-exe.md)|Compiles and runs the specified solution.<br /><br /> `devenv /run mysln.sln`|
 |[/RunExit](runexit-devenv-exe.md)|Compiles and runs the specified solution, minimizes the IDE when the solution is run, and closes the IDE after the solution has finished running.<br /><br /> `devenv /runexit mysln.sln`|
 |[/SafeMode](safemode-devenv-exe.md)|Starts Visual Studio in safe mode. This switch loads only the default environment, the default services, and the shipped versions of third-party packages.<br /><br /> This switch takes no arguments.|
+|/TfsLink|Opens Team Explorer and launches a viewer for the provided artifact URI if one is registered.|
 |[/UseEnv](useenv-devenv-exe.md)|Causes the IDE to use PATH, INCLUDE, LIBPATH, and LIB environment variables for C++ compilation. This switch is installed with the **Desktop development with C++** workload. For more information, see [Setting the Path and Environment Variables for Command-Line Builds](/cpp/build/setting-the-path-and-environment-variables-for-command-line-builds).|
 
 The following command-line switches don't display the IDE.

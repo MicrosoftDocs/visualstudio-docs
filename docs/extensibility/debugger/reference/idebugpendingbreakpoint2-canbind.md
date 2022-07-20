@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPendingBreakpoint2::CanBind
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines whether this pending breakpoint can bind to a code location.
 
 ## Syntax
 
-```cpp
-HRESULT CanBind ( 
-   IEnumDebugErrorBreakpoints2** ppErrorEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CanBind ( 
    out IEnumDebugErrorBreakpoints2 ppErrorEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CanBind ( 
+   IEnumDebugErrorBreakpoints2** ppErrorEnum
+);
+```
+---
 
 ## Parameters
 `ppErrorEnum`\

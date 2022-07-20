@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram2::Continue
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Continues running this program from a stopped state. Any previous execution state (such as a step) is preserved, and the program starts executing again.
 
 > [!NOTE]
@@ -26,17 +28,19 @@ Continues running this program from a stopped state. Any previous execution stat
 
 ## Syntax
 
-```cpp
-HRESULT Continue( 
-   IDebugThread2* pThread
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Continue( 
    IDebugThread2 pThread
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Continue( 
+   IDebugThread2* pThread
+);
+```
+---
 
 ## Parameters
 `pThread`

@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugExceptionEvent2::GetException
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a detailed description of the exception that fired this event.
 
 ## Syntax
 
-```cpp
-HRESULT GetException( 
-   EXCEPTION_INFO* pExceptionInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetException( 
    EXCEPTION_INFO[] pExceptionInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetException( 
+   EXCEPTION_INFO* pExceptionInfo
+);
+```
+---
 
 ## Parameters
 `pExceptionInfo`\

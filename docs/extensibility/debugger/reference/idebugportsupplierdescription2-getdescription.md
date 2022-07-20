@@ -17,23 +17,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortSupplierDescription2::GetDescription
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the description and description metadata for the port supplier.
 
 ## Syntax
 
-```cpp
-HRESULT GetDescription(
-   PORT_SUPPLIER_DESCRIPTION_FLAGS *pdwFlags,
-   BSTR *pbstrText
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int GetDescription(
    out enum_PORT_SUPPLIER_DESCRIPTION_FLAGS pdwFlags,
    out string pbstrText
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDescription(
+   PORT_SUPPLIER_DESCRIPTION_FLAGS *pdwFlags,
+   BSTR *pbstrText
+);
+```
+---
 
 ## Parameters
 `pdwFlags`\

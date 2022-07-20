@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugGenericParamField::GetNameOfFormalParam
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the name of this generic parameter.
 
 ## Syntax
 
-```cpp
-HRESULT GetNameOfFormalParam (
-    BSTR* pbstrName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetNameOfFormalParam (
     string pbstrName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetNameOfFormalParam (
+    BSTR* pbstrName
+);
+```
+---
 
 ## Parameters
 `pbstrName`\

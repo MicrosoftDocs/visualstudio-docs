@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Create an options page
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This walkthrough creates a simple Tools/Options page that uses a property grid to examine and set properties.
 
  To save these properties to and restore them from a settings file, follow these steps, and then see [Create a settings category](../extensibility/creating-a-settings-category.md).

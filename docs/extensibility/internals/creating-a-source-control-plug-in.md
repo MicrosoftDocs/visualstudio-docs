@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Create a source control plug-in
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Visual Studio SDK provides resources that enable you to add source control capability to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). It lets you use any plug-in DLL that complies with the Source Control Plug-in API outlined in this documentation.
 
 ## In this section

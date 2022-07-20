@@ -25,6 +25,8 @@ ms.workload:
   - "cplusplus"
 ---
 # Debugging Native Code FAQs
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following topics contain answers to some frequently asked questions:
 
 - [How Can I Debug Access Violations When Running My Program Standalone?](../debugger/how-can-i-debug-access-violations-when-running-my-program-outside-the-debugger-q.md)
@@ -40,10 +42,6 @@ The following topics contain answers to some frequently asked questions:
 - [Where Can I Look Up Win32 Error Codes?](../debugger/where-can-i-look-up-win32-error-codes-q.md)
 
 - [How Can I Keep Focus When Stepping Through My Program?](../debugger/how-can-i-keep-focus-when-stepping-through-my-program-q.md)
-
-- [How Can I Use Debugger Windows While Debugging a Foreground Program?](../debugger/how-can-i-use-debugger-windows-while-debugging-a-foreground-program-q.md)
-
-- [If Halted in MFC, How Can I Get Back to the Function That Called MFC?](../debugger/how-to-get-back-to-the-function-that-called-mfc-if-halted.md)
 
 ## See also
 - [Debugger Security](../debugger/debugger-security.md)

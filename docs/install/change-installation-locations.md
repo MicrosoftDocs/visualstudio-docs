@@ -19,6 +19,8 @@ ms.technology: vs-installation
 ---
 # Select the installation locations in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 ::: moniker range=">=vs-2022"
 
 You can reduce the installation footprint of Visual Studio on your system drive by changing the location of some of its files. Specifically, you can use a different location for the **download cache** and **shared components, tools, and SDKs**.
@@ -31,11 +33,6 @@ You can reduce the installation footprint of Visual Studio on your system drive 
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-**New in version 15.7**: You can reduce the installation footprint of Visual Studio on your system drive by changing the location for some of its files. Specifically, you can use a different location for the download cache, shared components, SDKs, and tools files.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -46,39 +43,6 @@ You can reduce the installation footprint of Visual Studio on your system drive 
 
 Ready to get started? Here's how.
 
-::: moniker range="vs-2017"
-
-1. When you install Visual Studio, choose the **Installation locations** tab.
-
-   ![Screenshot showing the Installation locations tab of the Visual Studio Installer.](media/vs-installation-locations.png "Select the installation location.")
-
-1. In the **Visual Studio IDE** section, accept the default. Visual Studio installs the core product and includes files that are specific to this version of Visual Studio.
-
-   ![Screenshot of the Visual Studio IDE section of the Installation locations tab of the Visual Studio Installer.](media/vs-installation-locations-ide.png "Accept the default for the Visual Studio IDE section of the Installations Location tab.")
-
-   > [!TIP]
-   > If your system drive is a solid-state drive (SSD), we recommend that you accept the default location on your system drive. The reason? When you develop with Visual Studio, you read from and write to a lot of files, which increases the disk I/O activity. It's best to choose your fastest drive to handle the load.
-
-1. In the **Download cache** section, decide if you want to keep the download cache, and then decide where you want to store its files.
-
-     ![Screenshot of the Download cache section of the Installation locations tab of the Visual Studio Installer.](media/vs-installation-locations-cache.png "Choose whether to keep the download cache after installation, and then specify the drive where you want to store files.")
-
-    1. Check or uncheck **Keep download cache after the installation**.
-
-       If you decide not to keep the download cache, the location is used only temporarily. This action won't affect or delete files from previous installations.
-
-    1. Specify the drive where you want to store installation files and manifests from the download cache.
-
-        For example, if you select the "Desktop development with C++" workload, the temporarily required size is 1.58 GB on your system drive, which is then freed as soon as the installation completes.
-
-       > [!IMPORTANT]
-       > This location is set with your first installation and cannot be changed later from the installer UI. Instead, you must [use command-line parameters](use-command-line-parameters-to-install-visual-studio.md) to move the download cache.
-
-1. In the **Shared components, tools, and SDKs** section, specify the drive where you want to store the files that are shared by side-by-side Visual Studio installations. SDKs and tools are also stored in this directory.
-
-   ![Screenshot of the shared components, tools, and SDKs section of the Installation locations tab of the Visual Studio Installer.](media/vs-installation-locations-shared.png "Specify the location where you want to store shared components, tools, and SDKs.")
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -112,7 +76,7 @@ Ready to get started? Here's how.
 
 1. When you install Visual Studio, choose the **Installation locations** tab.
 
-   :::image type="content" source="media/vs-2022/vs-installer-installation-locations-cplusplus-workload.png" border="false" alt-text="Screenshot showing the Installation locations tab of the Visual Studio Installer.":::
+   :::image type="content" source="media/vs-2022/vs-installer-installation-locations-tab.png" border="false" alt-text="Screenshot showing the Installation locations tab of the Visual Studio Installer.":::
 
 1. In the **Visual Studio IDE** section, accept the default path. Visual Studio installs the core product, and includes files that are specific to this version of Visual Studio.
 

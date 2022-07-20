@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Supporting Multiple Document Views
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can provide more than one view of a document by creating separate document data and document view objects for your editor. Some cases in which an additional document view would be useful are:
 
 - New window support: You want your editor to provide two or more views of the same type, so that a user who already has a window open in the editor can open a new window by selecting the **New Window** command from the **Window** menu.

@@ -7,14 +7,16 @@ ms.topic: reference
 f1_keywords:
 - AddParameters.UI
 ms.assetid: a21fb4fe-134b-40b0-8497-86b842940ca1
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
 - multiple
-author: TerryGLee
 ---
 # Add Parameters and Add Arguments Dialog Boxes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The following table describes the user interface (UI) elements of the **Add Parameters** dialog box used by the <xref:System.Activities.Statements.InvokeMethod> designer:
 

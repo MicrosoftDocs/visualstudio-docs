@@ -13,6 +13,8 @@ ms.workload:
 - vssdk
 ---
 # Menus and Commands for Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## Command usage
 
 ### Overview
@@ -282,6 +284,6 @@ ms.workload:
 
   There is not a simple way to check shortcut availability. If you want to add a shortcut, follow these steps:
 
-1. Check the list of [Visual Studio 2013 shortcuts](/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio) to determine if there are similar commands to group yours with.
+1. Check the list of [Visual Studio 2013 shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md) to determine if there are similar commands to group yours with.
 
 2. Go to **Tools > Options > Environment > Keyboard** and test your shortcut. Check each keyboard mapping scheme listed under "Apply the following additional keyboard mapping scheme." Check General, C#, VB, and C++ profiles, as those share unique shortcuts. Your shortcut is available if it's not mapped in any of those places.

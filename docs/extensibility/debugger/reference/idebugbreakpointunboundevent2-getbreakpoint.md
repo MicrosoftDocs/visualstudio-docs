@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugBreakpointUnboundEvent2::GetBreakpoint
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the breakpoint that became unbound.
 
 ## Syntax
 
-```cpp
-HRESULT GetBreakpoint(
-    IDebugBoundBreakpoint2** ppBP
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetBreakpoint(
     out IDebugBoundBreakpoint2 ppBP
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetBreakpoint(
+    IDebugBoundBreakpoint2** ppBP
+);
+```
+---
 
 ## Parameters
 `ppBP`\

@@ -1,18 +1,20 @@
 ---
 title: Context Menus in XML Schema Explorer
-description: Learn about the Context Menus in XML Schema Explorer that contain items for performing schema-specific searches and other operations. 
+description: Learn about the Context Menus in XML Schema Explorer that contain items for performing schema-specific searches and other operations.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 42ab17ca-b8c1-40d7-beda-d033f66fe874
-author: TerryGLee
-ms.author: tglee
+author: dzsquared
+ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
 ms.workload:
 - multiple
 ---
 # Context menus (XML Schema Explorer)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A context menu is the menu that appears when you right-click on something. The following context menu items are used to perform schema-specific searches and other operations.
 

@@ -14,6 +14,8 @@ ms.workload:
 ---
 # How to: Model 3D terrain
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This article demonstrates how to use the Model Editor to create a 3D terrain model.
 
 ## Create a 3D terrain model

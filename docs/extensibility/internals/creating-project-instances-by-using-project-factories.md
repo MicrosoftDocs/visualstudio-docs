@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Create project instances by using project factories
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Project types in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] use a *project factory* to create instances of project objects. A project factory is similar to a standard class factory for cocreatable COM objects. However, project objects are not cocreatable; they can only be created by using a project factory.
 
  The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE calls the project factory implemented in your VSPackage when a user loads an existing project or creates a new project in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. The new project object provides the IDE with enough information to populate **Solution Explorer**. The new project object also provides the required interfaces for supporting all relevant UI actions initiated by the IDE.

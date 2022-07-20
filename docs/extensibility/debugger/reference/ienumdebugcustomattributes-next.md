@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugCustomAttributes::Next
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a specified number of custom attributes in an enumeration sequence.
 
 ## Syntax
 
-```cpp
-HRESULT Next ( 
-   ULONG      celt,
-   CODE_PATH* rgelt,
-   ULONG*     pceltFetched
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Next(
    uint                        celt,
@@ -38,6 +33,15 @@ int Next(
    ref uint                    pceltFetched
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Next ( 
+   ULONG      celt,
+   CODE_PATH* rgelt,
+   ULONG*     pceltFetched
+);
+```
+---
 
 ## Parameters
 `celt`\

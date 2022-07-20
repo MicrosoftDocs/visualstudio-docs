@@ -21,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # Application and deployment manifests in Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   An application manifest is an XML file that provides information that is used by an Office solution to locate and update its assemblies. An application manifest can be used with a deployment manifest, which is an XML file stored on the server that provides the information needed to locate the most current version of the application manifest and assemblies.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Graphics Pixel History
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Graphics Pixel History window in Visual Studio Graphics Analyzer helps you understand how a specific pixel is affected by the Direct3D events that occur during a frame of your game or app.
 
  This is the Pixel History window:

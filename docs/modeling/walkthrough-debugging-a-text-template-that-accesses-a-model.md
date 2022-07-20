@@ -12,6 +12,8 @@ ms.workload:
 - multiple
 ---
 # Walkthrough: Debugging a Text Template that Accesses a Model
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you modify or add text templates in a domain-specific language solution, you may get errors when the engine transforms the template to source code or when it compiles the generated code. The following walkthrough demonstrates some of the things you can do to debug a text template.
 
 > [!NOTE]
@@ -53,6 +55,7 @@ When you modify or add text templates in a domain-specific language solution, yo
     > [!NOTE]
     > The code contains an error. You are introducing the error in order to debug it.
 
+    ### [C#](#tab/csharp)
     ```csharp
     <#@ template language="C#" inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation"#>
     <#@ output extension=".txt" #>
@@ -69,6 +72,7 @@ When you modify or add text templates in a domain-specific language solution, yo
     #>
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     <#@ template language="VB" inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation"#>
     <#@ output extension=".txt" #>
@@ -83,6 +87,7 @@ When you modify or add text templates in a domain-specific language solution, yo
     Next
     #>
     ```
+    ---
 
 2. In **Solution Explorer**, right-click DebugTest.tt, and then click **Run Custom Tool**.
 
@@ -98,13 +103,16 @@ When you modify or add text templates in a domain-specific language solution, yo
 
      The change is highlighted.
 
+    ### [C#](#tab/csharp)
     ```csharp
     <#@ DebuggingTestLanguage processor="DebuggingTestLanguageDirectiveProcessor" requires="fileName='Sample.ddd'" provides="ExampleModel=ExampleModel" #>
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     <#@ DebuggingTestLanguage processor="DebuggingTestLanguageDirectiveProcessor" requires="fileName='Sample.ddd'" provides="ExampleModel=ExampleModel" #>
     ```
+    ---
 
 5. In **Solution Explorer**, right-click DebugTest.tt, and then click **Run Custom Tool**.
 
@@ -117,6 +125,7 @@ When you modify or add text templates in a domain-specific language solution, yo
     > [!NOTE]
     > The code contains an error. You are introducing the error in order to debug it.
 
+    ### [C#](#tab/csharp)
     ```csharp
     <#@ template language="C#" inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation"#>
     <#@ output extension=".txt" #>
@@ -133,6 +142,7 @@ When you modify or add text templates in a domain-specific language solution, yo
     #>
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     <#@ template language="VB" inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation"#>
     <#@ output extension=".txt" #>
@@ -147,6 +157,7 @@ When you modify or add text templates in a domain-specific language solution, yo
     Next
     #>
     ```
+    ---
 
 2. In **Solution Explorer**, right-click DebugTest.tt, and then click **Run Custom Tool**.
 
@@ -172,6 +183,7 @@ When you modify or add text templates in a domain-specific language solution, yo
 
      The changes are highlighted.
 
+    ### [C#](#tab/csharp)
     ```csharp
     <#@ template language="C#" inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation"#>
     <#@ output extension=".txt" #>
@@ -188,6 +200,7 @@ When you modify or add text templates in a domain-specific language solution, yo
     #>
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     <#@ template language="VB" inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation"#>
     <#@ output extension=".txt" #>
@@ -202,6 +215,7 @@ When you modify or add text templates in a domain-specific language solution, yo
     Next
     #>
     ```
+    ---
 
 5. In **Solution Explorer**, right-click DebugTest.tt, and then click **Run Custom Tool**.
 

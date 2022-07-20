@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugGenericFieldInstance::TypeArgumentCount
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the number of type parameter arguments for this instance.
 
 ## Syntax
 
-```cpp
-HRESULT TypeArgumentCount(
-   ULONG32* pcArgs
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int TypeArgumentCount(
    ref uint pcArgs
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT TypeArgumentCount(
+   ULONG32* pcArgs
+);
+```
+---
 
 ## Parameters
 `pcArgs`\

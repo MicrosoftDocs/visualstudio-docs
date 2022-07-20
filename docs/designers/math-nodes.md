@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Math nodes
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In the Shader Designer, math nodes perform algebraic, logic, trigonometric, and other mathematical operations.
 
 > [!NOTE]

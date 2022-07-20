@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugGenericParamField::ConstraintCount
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the number of constraints that are associated with this generic parameter.
 
 ## Syntax
 
-```cpp
-HRESULT ConstraintCount(
-    ULONG32* pcConst
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ConstraintCount(
     ref uint pcConst
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ConstraintCount(
+    ULONG32* pcConst
+);
+```
+---
 
 ## Parameters
 `pcConst`\

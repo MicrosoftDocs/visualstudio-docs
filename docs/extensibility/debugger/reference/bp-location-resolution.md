@@ -18,6 +18,8 @@ dev_langs:
 - CPP
 ---
 # BP_LOCATION_RESOLUTION
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the resolution of a breakpoint at a specific location.
 
 ## Syntax

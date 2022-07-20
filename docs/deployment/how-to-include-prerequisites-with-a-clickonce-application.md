@@ -13,6 +13,8 @@ ms.workload:
   - multiple
 ---
 # How to: Include prerequisites with a ClickOnce application
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, you must first download the installer packages for those prerequisites to your development computer. When you publish an application and choose **Download prerequisites from the same location as my application**, an error will occur if the installer packages aren't in the **Packages** folder.
 
 > [!NOTE]
@@ -25,7 +27,7 @@ Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](..
     By default, the path is `%ProgramFiles(x86)%\Microsoft SDKs\ClickOnce Bootstrapper\Packages\`.
 
 >[!NOTE]
-> Starting with the Visual Studio 2019 Update 7 release bootstrapper packages will also be discovered under the path *<VS Install Path>\MSBuild\Microsoft\VisualStudio\BootstrapperPackages*.
+> Starting with the Visual Studio 2019 Update 7 release bootstrapper packages will also be discovered under the path `<VS Install Path>\MSBuild\Microsoft\VisualStudio\BootstrapperPackages`.
 
 2. Open the folder for the prerequisite that you want to add, and then open the language folder for your installed version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (for example, **en** for English).
 

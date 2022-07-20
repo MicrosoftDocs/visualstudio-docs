@@ -35,7 +35,7 @@ Sets the access and modification times of files.
 |`AlwaysCreate`|Optional `Boolean` parameter.<br /><br /> If `true`, creates any files that do not already exist.|
 |`Files`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the collection of files to touch.|
 |`ForceTouch`|Optional `Boolean` parameter.<br /><br /> If `true`, forces a file touch even if the files are read-only.|
-|`Time`|Optional `String` parameter.<br /><br /> Specifies a time other than the current time. The format must be a format that is acceptable to the <xref:System.DateTime.Parse%2A> method.|
+|`Time`|Optional `String` parameter.<br /><br /> Specifies a time. Defaults to the current time (`Now`). The format must be parseable by the <xref:System.DateTime.Parse%2A> method using `DateTimeFormatInfo.InvariantInfo`.|
 |`TouchedFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the collection of items that were successfully touched.|
 
 ## Remarks

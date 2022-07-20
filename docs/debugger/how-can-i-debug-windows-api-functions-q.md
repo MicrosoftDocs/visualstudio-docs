@@ -26,6 +26,8 @@ ms.workload:
   - multiple
 ---
 # How Can I Debug Windows API Functions?
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If you want to debug a Windows API function that has NT symbols loaded, you must do the following.
 
 ### To set a breakpoint on a Windows API function with NT symbols loaded

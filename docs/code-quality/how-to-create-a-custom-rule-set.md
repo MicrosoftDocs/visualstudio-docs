@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Customize a rule set
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can create a custom rule set to meet specific project needs for code analysis.
 
 ## Create a custom rule set from an existing rule set
@@ -27,11 +29,6 @@ To create a custom rule set, you can open a built-in rule set in the **rule set 
 
 2. On the **Properties** pages, select the **Code Analysis** tab.
 
-::: moniker range="vs-2017"
-
-3. In the **Run this rule set** drop-down list, do one of the following:
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -71,11 +68,6 @@ You can create a new rule set file from the **New File** dialog:
 
 2. On the **Properties** pages, select the **Code Analysis** tab.
 
-::: moniker range="vs-2017"
-
-3. Select **\<Choose multiple rule sets>** from **Run this rule set**.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

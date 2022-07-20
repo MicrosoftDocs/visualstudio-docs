@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Verify subtypes of a project at run time
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A VSPackage that depends on a custom project subtype should include logic to look for that subtype so that it can fail gracefully if the subtype is not present. The following procedure shows how to verify the presence of a specified subtype.
 
 ### To verify the presence of a subtype

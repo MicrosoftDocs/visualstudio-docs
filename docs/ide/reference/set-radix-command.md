@@ -18,6 +18,8 @@ ms.workload:
   - "multiple"
 ---
 # Set Radix Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets or returns the numeric base used to display integer values.
 
 ## Syntax

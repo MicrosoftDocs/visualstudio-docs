@@ -17,19 +17,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugSettingsCallback2::GetEEMetricString
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the value string of an expression evaluator metric given its name.
 
 ## Syntax
 
-```cpp
-HRESULT GetEEMetricString(
-   REFGUID guidLang,
-   REFGUID guidVendor,
-   LPCWSTR pszMetric,
-   BSTR*   pbstrValue
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 private int GetEEMetricString(
    ref Guid   guidLang,
@@ -38,6 +32,16 @@ private int GetEEMetricString(
    out string pbstrValue
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEEMetricString(
+   REFGUID guidLang,
+   REFGUID guidVendor,
+   LPCWSTR pszMetric,
+   BSTR*   pbstrValue
+);
+```
+---
 
 ## Parameters
 `guidLang`\

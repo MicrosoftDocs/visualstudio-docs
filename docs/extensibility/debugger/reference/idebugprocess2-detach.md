@@ -19,19 +19,23 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess2::Detach
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Detaches the debugger from this process by detaching all of the programs in the process.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Detach();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Detach( 
    void 
 );
 ```
-
-```csharp
-int Detach();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

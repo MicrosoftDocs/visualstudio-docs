@@ -3,8 +3,8 @@ title: Where can I find my super admin?
 description: An admin does not know where to locate the super admin
 ms.topic: include
 ms.assetid: 7e79bec2-927b-479a-b2df-dfd0773a68c6
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date:  3/23/2021
 user.type: admin
 tags: manage, super

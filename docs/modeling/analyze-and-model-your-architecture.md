@@ -23,6 +23,8 @@ ms.workload:
 ---
 # Analyze and model your architecture
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Make sure your app meets architectural requirements by using Visual Studio architecture and modeling tools to design and model your app.
 
 1. Understand existing program code better by [visualizing the code](visualize-code.md) structure, behavior, and relationships with code maps and dependency diagrams.

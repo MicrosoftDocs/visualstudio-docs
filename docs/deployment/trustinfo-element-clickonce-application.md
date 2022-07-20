@@ -27,6 +27,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;trustInfo&gt; element (ClickOnce application)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the minimum security permissions required for the application to run on the client computer.
 
 ## Syntax

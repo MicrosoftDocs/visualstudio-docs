@@ -12,6 +12,8 @@ monikerRange: ">= vs-2019"
 ---
 # Add Azure SignalR by using Visual Studio Connected Services
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 With Visual Studio, you can connect any of the following to Azure SignalR service by using the **Connected Services** feature:
 
 - .NET Framework console app

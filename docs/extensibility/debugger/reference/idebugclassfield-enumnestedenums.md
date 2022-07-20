@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugClassField::EnumNestedEnums
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator for the nested enumerators of this class.
 
 ## Syntax
 
-```cpp
-HRESULT EnumNestedEnums(
-    IEnumDebugFields** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumNestedEnums(
     out IEnumDebugFields ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumNestedEnums(
+    IEnumDebugFields** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

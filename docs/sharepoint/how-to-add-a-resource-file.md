@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Add a resource file
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The commands for adding resource files is on the shortcut menu of the solution node and feature nodes in Solution Explorer. For more information, see [Localizing SharePoint solutions](../sharepoint/localizing-sharepoint-solutions.md).
 
 ### To add a global resource file to a SharePoint solution

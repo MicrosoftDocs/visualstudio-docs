@@ -26,6 +26,8 @@ ms.technology: vs-ide-general
 ---
 # Install Dotfuscator Community
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Dotfuscator Community is an optional component of Visual Studio.
 These instructions explain how to install it.
 
@@ -54,22 +56,6 @@ You can install Dotfuscator Community from the Visual Studio IDE:
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-You can install Dotfuscator Community from the Visual Studio IDE:
-
-1. In the **Quick Launch** (Ctrl+Q) search bar, type `dotfuscator`. <br/> <br/> ![Quick Launch](media/install_from_vs_12.png) <br/> <br/>
-
-2. In the Quick Launch results shown, under the *Install* heading, select **PreEmptive Protection - Dotfuscator (Individual Component)**.
-   * If you instead see, under the *Menus* heading, **Tools - PreEmptive Protection - Dotfuscator**, then Dotfuscator CE is already installed. Select that option to [get started][get-started].
-
-3. A Visual Studio Installer window will launch, pre-configured to install Dotfuscator CE.
-   > [!NOTE]
-   > You may be required to provide administrator credentials to continue.
-
-4. In the Visual Studio Installer window, click *Install*. <br/> <br/> ![Click Install](media/install_from_vs_345.png) <br/> <br/>
-
-::: moniker-end
 
 Once the installation is complete, you can [start using Dotfuscator Community][get-started].
 
@@ -84,11 +70,6 @@ When run, it will display installation options for the selected Visual Studio ed
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-![Install options](media/install_ui_17.png)
-
-::: moniker-end
 
 You can then install Dotfuscator Community as an individual component of Visual Studio:
 

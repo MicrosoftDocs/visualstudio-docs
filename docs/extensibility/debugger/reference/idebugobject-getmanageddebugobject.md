@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject::GetManagedDebugObject
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates a copy of the managed object in the address space of the debug engine.
 
 ## Syntax
 
-```cpp
-HRESULT GetManagedDebugObject( 
-   IDebugManagedObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetManagedDebugObject(
    out IDebugManagedObject ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetManagedDebugObject( 
+   IDebugManagedObject** ppObject
+);
+```
+---
 
 ## Parameters
 `ppObject`\

@@ -21,6 +21,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;assemblyIdentity&gt; element (ClickOnce deployment)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Identifies the primary assembly of the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.
 
 ## Syntax

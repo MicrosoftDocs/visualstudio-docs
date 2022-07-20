@@ -20,6 +20,8 @@ ms.workload:
 - vssdk
 ---
 # Session debug manager
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The session debug manager (SDM) manages any number of debug engines (DE) that are debugging any number of programs in multiple processes across any number of machines. In addition to being a debug engine multiplexer, the SDM provides a unified view of the debug session to the IDE.
 
 ## Session debug manager operation

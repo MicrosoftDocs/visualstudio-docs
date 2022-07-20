@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # &lt;appAddin&gt; element (Office development in Visual Studio)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The **appAddin** element of the `vstov4` namespace stores customization-specific information for VSTO Add-ins.
 
 ## Syntax

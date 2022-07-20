@@ -13,6 +13,8 @@ ms.workload:
 - vssdk
 ---
 # Address DPI issues
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 An increasing number of devices are shipping with "high-resolution" screens. These screens typically have over 200 pixels per inch (ppi). Working with an application on these computers will require content to be scaled up to meet the needs of viewing the content at a normal viewing distance for the device. As of 2014, the primary target for high-density displays is mobile computing devices (tablets, clamshell laptops, and phones).
 
 Windows 8.1 and higher contains several features to enable these machines to work with displays and environments where the machine is attached to both high-density and standard-density displays at the same time.
@@ -50,13 +52,16 @@ This section is primarily for developers extending Visual Studio 2013. For Visua
 ## Scaling up images that are too small
 Images that are too small can be scaled up and rendered on GDI and WPF using some common methods. Managed DPI helper classes are available to internal and external Visual Studio integrators to address scaling icons, bitmaps, imagestrips, and imagelists. Win32-based native C/C++helpers are available for scaling HICON, HBITMAP, HIMAGELIST, and VsUI::GdiplusImage. Scaling of a bitmap typically only requires a one-line change after including a reference to the helper library. For example:
 
-```cpp
-(Unmanaged) VsUI::DpiHelper::LogicalToDeviceUnits(&hBitmap);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 (WinForms) DpiHelper.LogicalToDeviceUnits(ref image);
 ```
+
+### [C++](#tab/cpp)
+```cpp
+(Unmanaged) VsUI::DpiHelper::LogicalToDeviceUnits(&hBitmap);
+```
+---
 
 Scaling an imagelist depends on whether the imagelist is complete at load time, or is appended at run time. If complete at load time, call `LogicalToDeviceUnits()` with the imagelist as you would a bitmap. When the code needs to load an individual bitmap before composing the imagelist, make sure to scale the image size of the imagelist:
 

@@ -1,8 +1,8 @@
 ---
 title: How do I change my sign-in email for my Visual Studio retail subscription?
 description:  Learn how to request a change of your Visual Studio sign-in address for subscriptions acquired through the Microsoft Store
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 06/02/2021
 ms.assetid: 8fc5fb35-5c57-4560-9aa3-0db38b3e7120
 ms.topic: include

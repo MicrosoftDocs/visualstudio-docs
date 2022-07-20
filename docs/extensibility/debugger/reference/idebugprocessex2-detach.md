@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcessEx2::Detach
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method informs the process that a session is no longer debugging the process.
 
 ## Syntax
 
-```cpp
-HRESULT Detach( 
-   IDebugSession2* pSession
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Detach(
    IDebugSession2 pSession
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Detach( 
+   IDebugSession2* pSession
+);
+```
+---
 
 ## Parameters
 `pSession`\

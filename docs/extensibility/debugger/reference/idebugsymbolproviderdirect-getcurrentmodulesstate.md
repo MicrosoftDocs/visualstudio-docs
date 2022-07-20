@@ -18,23 +18,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProviderDirect::GetCurrentModulesState
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves information about the symbol group of which the symbol provider is a member.
 
 ## Syntax
 
-```cpp
-HRESULT GetCurrentModulesState(
-    DWORD*          pState,
-    unsigned long * count
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCurrentModulesState(
     out uint pState,
     out uint count
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCurrentModulesState(
+    DWORD*          pState,
+    unsigned long * count
+);
+```
+---
 
 ## Parameters
 `pState`\

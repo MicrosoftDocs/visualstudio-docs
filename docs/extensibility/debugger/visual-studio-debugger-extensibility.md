@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Visual Studio debugger extensibility
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Visual Studio includes a fully interactive source code debugger, providing a powerful and easy-to-use tool for tracking down bugs in your program. The debugger has complete support for Visual Basic, C#, C/C++, and JavaScript. However, with the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)], that is available from the [Microsoft Download Center](https://dotnet.microsoft.com/download/visual-studio-sdks), other programming languages can be supported in the debugger with the same rich features.
 
  The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugger is the common front end (that is, the user interface) to the debugging components that are, in turn, specific to the language being debugged. For new languages, all that is necessary for support by the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugger is to create the necessary back-end components, such as a debug engine (DE). This point is where the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] comes in.

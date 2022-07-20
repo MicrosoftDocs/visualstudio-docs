@@ -15,6 +15,8 @@ ms.technology: vs-ide-test
 ---
 # How to: Specify the timing details storage property for a load test run setting
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 After you create your load test with the **New Load Test Wizard**, you can use the **Load Test Editor** to change the settings to meet your testing needs and goals.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
@@ -59,4 +61,3 @@ You can edit a run setting's **Timing Details Storage** property's value in the 
 ## See also
 
 - [Analyze virtual user activity in the Details view](../test/analyze-load-test-virtual-user-activity-in-the-details-view.md)
-- [Walkthrough: Using the Virtual User Activity Chart to isolate issues](../test/walkthrough-use-the-virtual-user-activity-chart-to-isolate-issues.md)

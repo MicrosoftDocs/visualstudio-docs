@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpressionEvaluationCompleteEvent2::GetResult
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the result of expression evaluation.
 
 ## Syntax
 
-```cpp
-HRESULT GetResult( 
-   IDebugProperty2** ppResult
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetResult( 
    out IDebugProperty2 ppResult
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetResult( 
+   IDebugProperty2** ppResult
+);
+```
+---
 
 ## Parameters
 `ppResult`

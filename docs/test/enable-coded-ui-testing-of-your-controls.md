@@ -13,6 +13,8 @@ author: mikejo5000
 ---
 # Enable coded UI testing of your controls
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Implement support for the coded UI testing framework to make your control more testable. You can add increasing levels of support incrementally. Start by supporting record and playback and property validation. Then, build on that to enable the coded UI test builder to recognize your control's custom properties. Provide custom classes to access those properties from generated code. You can also help the coded UI test builder capture actions in a way that is closer to the intent of the action being recorded.
 
 !Diagram showing how classes in ChartControl are extended through the CreateAccessabilityInstance class to classes in ChartControlExtensionPackage.](../test/media/cuit_full.png)

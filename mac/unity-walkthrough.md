@@ -1,15 +1,18 @@
 ---
 title: "Getting started building games with Unity"
 description: "Getting started with Unity and Visual Studio for Mac"
-author: heiligerdankgesang
-ms.author: dominicn
-ms.date: 11/09/2020
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
+ms.date: 03/01/2022
+ms.custom: devdivchpfy22
 ms.technology: vs-ide-general
 ms.assetid: D07FA43B-9D18-4DFA-8343-CD538FAD84DB
 ms.topic: how-to
 ---
-
 # Getting started building games with Unity in Visual Studio for Mac
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 Unity is a game engine that enables you to develop games in C#. This walkthrough shows how to get started developing and debugging Unity games using Visual Studio for Mac and the Visual Studio for Mac Tools for Unity extension alongside the Unity environment.
 
@@ -25,23 +28,23 @@ Visual Studio for Mac Tools for Unity is a free extension, installed with Visual
 - Visual Studio for Mac ([https://www.visualstudio.com/vs/mac](https://www.visualstudio.com/vs/visual-studio-mac))
 - Unity 5.6.1 Personal Edition or higher ([https://store.unity.com](https://store.unity.com/), requires a unity.com account to run)
 
-## Intended Audience
+## Intended audience
 
-This lab is intended for developers who are familiar with C#, although deep experience is not required.
+This lab is intended for developers who are familiar with C#, although deep experience isn't required.
 
 ## Task 1: Creating a basic Unity project
 
 1. Launch **Unity**. Sign in if requested.
 
-2. Click **New**.
+2. Select **New**.
 
     ![New button in unity](media/unity-image1.png)
 
-3. Set the **Project name** to **"UnityLab"** and select **3D**. Click **Create project**.
+3. Set the **Project name** to **"UnityLab"** and select **3D**. Select **Create project**.
 
     ![create new project screen](media/unity-image2.png)
 
-4. You're now looking at the default Unity interface. It has the scene hierarchy with game objects on the left, a 3D view of the blank scene shown in the middle, a project files pane on the bottom, and inspector and services on the right. Of course, there's a lot more to it than that, but those are few of the more important components.
+4. You're now looking at the default Unity interface. It has the scene hierarchy with game objects on the left, a 3D view of the blank scene shown in the middle, a project files pane on the bottom, and **Inspector** and **Services** on the right. There's a lot more to it than that, but those are few of the more important components.
 
     ![blank unity interface](media/unity-image3.png)
 
@@ -65,11 +68,11 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![looking at properties in inspector pane](media/unity-image7.png)
 
-11. It is important to point out that projects in Unity are a little different from their Visual Studio for Mac counterparts. In the **Project** tab on the bottom, right-click the **Assets** folder and select **Reveal in Finder**.
+11. It's important to point out that projects in Unity are a little different from their Visual Studio for Mac counterparts. In the **Project** tab on the bottom, right-click the **Assets** folder and select **Reveal in Finder**.
 
     ![reveal in finder context action](media/unity-image8.png)
 
-12. Projects contain **Assets**, **Library**, **ProjectSettings**, and **Temp** folders as you can see. However, the only one that shows up in the interface is the **Assets** folder. The **Library** folder is the local cache for imported assets; it holds all metadata for assets. The **ProjectSettings** folder stores settings you can configure. The **Temp** folder is used for temporary files from Mono and Unity during the build process. There is also a solution file that you can open in Visual Studio for Mac (**UnityLab.sln** here).
+12. Projects contain **Assets**, **Library**, **ProjectSettings**, and **Temp** folders as you can see. However, the only one that shows up in the interface is the **Assets** folder. The **Library** folder is the local cache for imported assets; it holds all metadata for assets. The **ProjectSettings** folder stores settings you can configure. The **Temp** folder is used for temporary files from Mono and Unity during the build process. There's also a solution file that you can open in Visual Studio for Mac (**UnityLab.sln** here).
 
     ![assets in finder](media/unity-image9.png)
 
@@ -181,21 +184,21 @@ This lab is intended for developers who are familiar with C#, although deep expe
     }
     ```
 
-8. Take a quick look at the simple enemy behavior that is defined here. In the **Start** method, we get a reference to the player object (by its tag), as well as its **transform**. In the **Update** method, which is called every frame, the enemy will move towards the player object. The keywords and names use color coding to make it easier to understand the codebase in Visual Studio for Mac.
+8. Take a quick look at the simple enemy behavior that is defined here. In the **Start** method, we get a reference to the player object (by its tag), and its **transform**. In the **Update** method, which is called every frame, the enemy will move towards the player object. The keywords and names use color coding to make it easier to understand the codebase in Visual Studio for Mac.
 
 9. Save the changes to the enemy script in **Visual Studio for Mac**.
 
 ## Task 3: Debugging the Unity project
 
-1. Set a breakpoint on the first line of code in the **Start** method. You can either click in the editor margin at the target line or place cursor on the line and press **F9**.
+1. Set a breakpoint on the first line of code in the **Start** method. You can either click in the editor margin at the target line or place cursor on the line, and then press **F9**.
 
     ![setting breakpoint in Visual Studio for Mac](media/unity-image25.png)
 
-2. Click the **Start Debugging** button or press **F5**. This will build the project and attach it to Unity for debugging.
+2. Select the **Start Debugging** button or press **F5**. This will build the project and attach it to Unity for debugging.
 
     ![start button in Visual Studio for Mac](media/unity-image26.png)
 
-3. Return to **Unity** and click the **Run** button to start the game.
+3. Return to **Unity** and select the **Run** button to start the game.
 
     ![run button in unity](media/unity-image27.png)
 
@@ -207,9 +210,9 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![The Locals window in Visual Studio for Mac](media/unity-image29.png)
 
-6. Remove the breakpoint from the **Start** method the same way it was added-by either clicking it in the margin or selecting the line and press **F9**.
+6. Remove the breakpoint from the **Start** method the same way it was added, either by selecting it in the editor margin or by selecting the line, and then pressing **F9**.
 
-    ![Removing a breakpoint in Visual Studio for Mac by clicking on it](media/unity-image30.png)
+    ![Removing a breakpoint in Visual Studio for Mac by selecting it](media/unity-image30.png)
 
 7. Press **F10** to step over the first line of code that finds the **Player** game object using a tag as parameter.
 

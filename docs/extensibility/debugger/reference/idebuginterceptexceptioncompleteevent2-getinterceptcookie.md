@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Called when the processing of an intercepted exception has completed.
 
 ## Syntax
 
-```cpp
-HRESULT GetInterceptCookie(
-   UINT64* pqwCookie
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetInterceptCookie(
    out ulong pqwCookie
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetInterceptCookie(
+   UINT64* pqwCookie
+);
+```
+---
 
 ## Parameters
 `pqwCookie`\

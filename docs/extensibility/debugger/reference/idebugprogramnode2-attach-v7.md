@@ -20,19 +20,14 @@ dev_langs:
 ---
 # IDebugProgramNode2::Attach_V7
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 > [!Note]
 > DEPRECATED. DO NOT USE.
 
 ## Syntax
 
-```cpp
-HRESULT Attach_V7 (
-   IDebugProgram2*       pMDMProgram,
-   IDebugEventCallback2* pCallback,
-   DWORD                 dwReason
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Attach_V7 (
    IDebugProgram2       pMDMProgram,
@@ -40,6 +35,15 @@ int Attach_V7 (
    uint                 dwReason
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Attach_V7 (
+   IDebugProgram2*       pMDMProgram,
+   IDebugEventCallback2* pCallback,
+   DWORD                 dwReason
+);
+```
+---
 
 ## Parameters
 

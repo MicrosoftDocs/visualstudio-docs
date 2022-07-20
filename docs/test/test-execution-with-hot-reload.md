@@ -11,8 +11,9 @@ ms.workload:
   - VB
   - CSharp
 ---
-
 # Test Execution with Hot Reload
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Test runs in Visual Studio involve building the project to update the binaries on disk before using [Test Platform](https://github.com/microsoft/vstest/) to execute your tests. The build time inside Visual Studio can vary depending on the [kind of changes](https://github.com/dotnet/roslyn/blob/296e0fada42f241d338b169c3c6c6189101ef0b7/docs/wiki/EnC-Supported-Edits.md) made to the code. For larger solutions, builds can be the most expensive part of the test run. 
 In Visual Studio 2022 and later, test execution with hot reload can be enabled to speed up test execution by skipping builds for supported scenarios.
@@ -24,7 +25,7 @@ In Visual Studio 2022 and later, test execution with hot reload can be enabled t
 
 ## Enable Test Execution with Hot Reload
 Enable this feature by choosing **Test** > **Options** > **"(Experimental) Enable Hot Reloaded Test Runs for C# and VB test projects targeting .NET 6 and higher"**.
-![Screenshot of the  Enable Hot Reloaded Test Runs button on the Visul Studio Test Options page. When this is selected, tests execution will use hot reload for supported scenarios](./media/test-execution-hot-reload-option.png)
+![Screenshot of the Enable Hot Reloaded Test Runs button on the Visual Studio Test Options page. When this is selected, tests execution will use hot reload for supported scenarios](./media/test-execution-hot-reload-option.png)
 
 ## Why is it Experimental?
 This is a new way of test execution where we change a widely used path of validating code. We also expect the user experience around this feature to change as we receive more feedback from users. For these two reasons, we have currently labeled this feature as "experimental".
@@ -35,7 +36,7 @@ Once the option is enabled, Test Explorer will automatically use test execution 
 Under the hood, we are using the same [Edit and Continue](../debugger/edit-and-continue.md) infrastructure that exists in the newly released [Hot Reload experience for editing C#/VB code at runtime](https://devblogs.microsoft.com/dotnet/introducing-net-hot-reload/) to determine the changes made. For this reason, we hot reload only when there are no "rude edits", in which case we fall back to building your tests before executing them. For more details on supported edits, read the [Edit and Continue documentation](https://github.com/dotnet/roslyn/blob/296e0fada42f241d338b169c3c6c6189101ef0b7/docs/wiki/EnC-Supported-Edits.md)
 
 ## How much faster will the test execution be?
-There are a many variables that come into play when estimating how much time this feature will save you. For example:
+There are many variables that come into play when estimating how much time this feature will save you. For example:
 - How long the project build takes.
 - What kind of edit was made.
 - How large the file is where the edit was made.

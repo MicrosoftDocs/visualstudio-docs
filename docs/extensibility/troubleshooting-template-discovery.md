@@ -13,13 +13,10 @@ ms.workload:
 ---
 # Troubleshooting template installation
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 If you run into problems deploying your project or item templates, you can enable diagnostic logging.
 
-::: moniker range="vs-2017"
-
-1. Create a pkgdef file in the *Common7\IDE\CommonExtensions* folder for your installation. For example, *C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\EnablePkgDefLogging.pkgdef*.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -36,13 +33,6 @@ If you run into problems deploying your project or item templates, you can enabl
 
 3. Open a [Developer Command Prompt](../ide/reference/command-prompt-powershell.md) for your installation and run `devenv /updateConfiguration`.
 
-::: moniker range="vs-2017"
-
-4. Open Visual Studio and launch the New Project and New Item dialog boxes to initialize both template trees.
-
-   The template log now appears in **%LOCALAPPDATA%\Microsoft\VisualStudio\15.0_[instanceid]\VsTemplateDiagnosticsList.csv** (instanceid corresponds to the installation ID of your instance of Visual Studio). Each template tree initialization appends entries to this log.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

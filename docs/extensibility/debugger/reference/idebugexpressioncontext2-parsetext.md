@@ -19,21 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpressionContext2::ParseText
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Parses an expression in text form for later evaluation.
 
 ## Syntax
 
-```cpp
-HRESULT ParseText(
-    LPCOLESTR           pszCode,
-    PARSEFLAGS          dwFlags,
-    UINT                nRadix,
-    IDebugExpression2** ppExpr,
-    BSTR*               pbstrError,
-    UINT*               pichError
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ParseText(
     string                pszCode,
@@ -44,6 +36,18 @@ int ParseText(
     out uint              pichError
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ParseText(
+    LPCOLESTR           pszCode,
+    PARSEFLAGS          dwFlags,
+    UINT                nRadix,
+    IDebugExpression2** ppExpr,
+    BSTR*               pbstrError,
+    UINT*               pichError
+);
+```
+---
 
 ## Parameters
 `pszCode`\

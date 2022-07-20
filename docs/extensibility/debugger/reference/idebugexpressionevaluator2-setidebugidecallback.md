@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpressionEvaluator2::SetIDebugIDECallback
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enables a debug engine to pass a callback to the expression evaluator during initialization.
 
 ## Syntax
 
-```cpp
-HRESULT SetIDebugIDECallback (
-   IDebugIDECallback * pCallback
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetIDebugIDECallback (
    IDebugIDECallback pCallback
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetIDebugIDECallback (
+   IDebugIDECallback * pCallback
+);
+```
+---
 
 ## Parameters
 `pCallback`\

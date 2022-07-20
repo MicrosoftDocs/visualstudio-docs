@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_liveRangeStartRelativeVirtualAddress
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the beginning of the address range in which the local symbol is valid.
 
 ## Syntax

@@ -2,7 +2,7 @@
 title: Add new data sources
 description: Add new data sources in Visual Studio. A data source is a .NET object that connects to a data store and make the data available to a .NET application.
 ms.custom: SEO-VS-2020
-ms.date: 11/21/2018
+ms.date: 04/12/2022
 ms.topic: how-to
 f1_keywords:
 - vs.datasource.datasourcefieldspicker
@@ -18,6 +18,8 @@ ms.workload:
 - data-storage
 ---
 # Add new data sources
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 :::moniker range=">=vs-2019"
 > [!NOTE]
@@ -50,11 +52,16 @@ After you create a data source, it appears in the **Data Sources** tool window.
 > [!TIP]
 > To open the **Data Sources** window, make sure your project is open, and then press **Shift**+**Alt**+**D** or choose **View** > **Other Windows** > **Data Sources**.
 
-You can drag a data source from the **Data Sources** window onto a form design surface or control. This causes boilerplate code to be generated that displays the data from the data store.
+In a Windows Forms project targeting the .NET Framework (not .NET Core or .NET 5 or later), you can drag a data source from the **Data Sources** window onto a form design surface or control. If you drag a table, you get a [BindingNavigator](/dotnet/desktop/winforms/controls/bindingnavigator-control-overview-windows-forms) and a [DataGridView](/dotnet/desktop/winforms/controls/datagridview-control-windows-forms) for the table. If you drag an individual column, you get a BindingNavigator and a [Label](/dotnet/desktop/winforms/controls/label-control-windows-forms) and a [TextBox](/dotnet/desktop/winforms/controls/textbox-control-windows-forms) for that column. Drag the columns to get a complete data viewing form for a table. These actions cause boilerplate code to be generated that displays the data from the data store.
 
 The following illustration shows a dataset that has been dropped onto a Windows form. If you select **F5** on the application, the data from the underlying database appears in the form's controls.
 
-![Data Source drag operation](../data-tools/media/raddata-data-source-drag-operation.png)
+:::moniker range="<=vs-2019"
+![Screenshot showing Data Source drag operation.](../data-tools/media/raddata-data-source-drag-operation.png)
+:::moniker-end
+:::moniker range=">=vs-2022"
+![Screenshot showing Data Source drag operation.](../data-tools/media/vs-2022/data-sources-drag-operation.png)
+:::moniker-end
 
 ## Data source for a database or a database file
 
@@ -82,7 +89,7 @@ To create an Entity Framework model as a data source:
 
 ## Data source for a service
 
-To create a data source from a service, run the **Data Source Configuration Wizard** and choose the **Service** data-source type. This is just a shortcut to the **Add Service Reference** dialog box, which you can also access by right-clicking the project in **Solution Explorer** and selecting **Add service reference**.
+To create a data source from a service, run the **Data Source Configuration Wizard** and choose the **Service** data-source type. This action is just a shortcut to the **Add Service Reference** dialog box, which you can also access by right-clicking the project in **Solution Explorer** and selecting **Add service reference**.
 
 When you create a data source from a service, Visual Studio adds a service reference to your project. Visual Studio also creates proxy objects that correspond to the objects that the service returns. For example, a service that returns a dataset is represented in your project as a dataset; a service that returns a specific type is represented in your project as the type returned.
 
@@ -113,7 +120,7 @@ If you want to bind to an object in an assembly or project that does not appear 
 
 ## Data source for a SharePoint list
 
-You can create a data source from a SharePoint list by running the **Data Source Configuration Wizard** and selecting the **SharePoint** data-source type. SharePoint exposes data through WCF Data Services, so creating a SharePoint data source is the same as creating a data source from a service. Selecting the **SharePoint** item in the **Data Source Configuration Wizard** opens the **Add Service Reference** dialog box, where you connect to the SharePoint data service by pointing to the SharePoint server. This requires the SharePoint SDK.
+You can create a data source from a SharePoint list by running the **Data Source Configuration Wizard** and selecting the **SharePoint** data-source type. SharePoint exposes data through WCF Data Services, so creating a SharePoint data source is the same as creating a data source from a service. Selecting the **SharePoint** item in the **Data Source Configuration Wizard** opens the **Add Service Reference** dialog box, where you connect to the SharePoint data service by pointing to the SharePoint server. This action requires the SharePoint SDK.
 
 ## See also
 

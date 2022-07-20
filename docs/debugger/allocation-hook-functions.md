@@ -27,6 +27,8 @@ ms.workload:
   - "multiple"
 ---
 # Allocation Hook Functions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 An allocation hook function, installed using [_CrtSetAllocHook](/cpp/c-runtime-library/reference/crtsetallochook), is called every time memory is allocated, reallocated, or freed. You can use this type of hook for many different purposes. Use it to test how an application handles insufficient memory situations, such as to examine allocation patterns, or log allocation information for later analysis.
 
 > [!NOTE]

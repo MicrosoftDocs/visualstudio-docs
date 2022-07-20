@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpressionEvaluator2::SetCorPath
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the path to the common language runtime (CLR) loaded in the debugger.
 
 ## Syntax
 
-```cpp
-HRESULT SetCorPath(
-   LPCOLESTR pcstrCorPath
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetCorPath(
    string pcstrCorPath
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetCorPath(
+   LPCOLESTR pcstrCorPath
+);
+```
+---
 
 ## Parameters
 `pcstrCorPath`\

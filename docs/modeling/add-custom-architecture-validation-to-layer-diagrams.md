@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Add custom architecture validation to dependency diagrams
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In Visual Studio, users can validate the source code in a project against a layer model so that they can verify that the source code conforms to the dependencies on a dependency diagram. There is a standard validation algorithm, but you can define your own validation extensions.
 
 When the user selects the **Validate Architecture** command on a dependency diagram, the standard validation method is invoked, followed by any validation extensions that have been installed.
@@ -55,11 +57,6 @@ The quickest method of creating a validator is to use the project template. This
    > [!NOTE]
    > Your method will be called only in specific circumstances, and breakpoints will not work automatically. For more information, see [Debugging Layer Validation](#debugging).
 
-::: moniker range="vs-2017"
-
-4. To install the extension in the main instance of Visual Studio, or on another computer, find the *.vsix* file in the *bin* directory. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, choose **Extensions and Updates** on the **Tools** menu.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

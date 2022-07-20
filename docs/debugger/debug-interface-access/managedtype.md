@@ -18,6 +18,8 @@ ms.workload:
   - "dotnet"
 ---
 # ManagedType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A managed type (any symbol defined by metadata, or native to the memory and resource management functionality of languages such as C#) is identified by a `SymTagManagedType` symbol.
 
 ## Properties

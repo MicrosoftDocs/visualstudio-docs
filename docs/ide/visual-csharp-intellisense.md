@@ -16,6 +16,8 @@ ms.workload:
 ---
 # C# IntelliSense
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 C# IntelliSense is available when coding in the editor, and while debugging in the [Immediate mode](../ide/reference/immediate-window.md) command window.
 
 ## Completion lists
@@ -99,7 +101,7 @@ Click the error light bulb icon, and then choose **using System.Xml;** to automa
 
 ### Add missing using directives on paste
 
-IntelliSense can automatically add missing `using` directives to your code when you paste a type to your code file. This feature saves you time by automating the task of adding missing using directives when pasting a type to a file. Enable this feature in **Tools** > **Options** > **Text Editor** > **C#** or **Basic** > **Advanced** and select **Add missing using directives on paste**.
+IntelliSense can automatically add missing `using` directives to your code when you paste a type to your code file. This feature saves you time by automating the task of adding missing using directives when pasting a type to a file. Enable this feature in **Tools** > **Options** > **Text Editor** > **C#** (or **Visual Basic**) > **Advanced** and select **Add missing using directives on paste**.
 
 ### Remove and sort usings
 

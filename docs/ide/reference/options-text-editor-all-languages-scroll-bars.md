@@ -37,6 +37,8 @@ ms.workload:
 - multiple
 ---
 # Options, Text Editor, All Languages, Scroll Bars
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This dialog box lets you change the default behavior of the code editor scroll bar. To display these options, select **Options** from the **Tools** menu. Within the **Text Editor** folder, expand the **All Languages** subfolder, and then choose **Scroll Bars**.
 
 > [!CAUTION]

@@ -17,6 +17,8 @@ ms.workload:
 ---
 # List of Available Services
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and the Visual Studio SDK support the following services. Some packages offer their own services which are not listed here—for example, language services do not have a single service GUID. You must use the name of the language to find the GUID of the language service in the registry.
 
 Use the service GUIDs listed here or obtained from some other source (for example, language services) to obtain the primary interface or interfaces shown with each service.

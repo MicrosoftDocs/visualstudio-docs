@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentContext2::EnumCodeContexts
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of all code contexts associated with this document context.
 
 ## Syntax
 
-```cpp
-HRESULT EnumCodeContexts(
-    IEnumDebugCodeContexts2** ppEnumCodeCxts
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumCodeContexts(
     out IEnumDebugCodeContexts2 ppEnumCodeCxts
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumCodeContexts(
+    IEnumDebugCodeContexts2** ppEnumCodeCxts
+);
+```
+---
 
 ## Parameters
 `ppEnumCodeCxts`\

@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram2::GetDisassemblyStream
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the disassembly stream for this program or a part of this program.
 
 ## Syntax
 
-```cpp
-HRESULT GetDisassemblyStream( 
-   DISASSEMBLY_STREAM_SCOPE   dwScope,
-   IDebugCodeContext2*        pCodeContext,
-   IDebugDisassemblyStream2** ppDisassemblyStream
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDisassemblyStream( 
    enum_DISASSEMBLY_STREAM_SCOPE  dwScope,
@@ -38,6 +33,15 @@ int GetDisassemblyStream( 
    out IDebugDisassemblyStream2   ppDisassemblyStream
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDisassemblyStream( 
+   DISASSEMBLY_STREAM_SCOPE   dwScope,
+   IDebugCodeContext2*        pCodeContext,
+   IDebugDisassemblyStream2** ppDisassemblyStream
+);
+```
+---
 
 ## Parameters
 `dwScope`\

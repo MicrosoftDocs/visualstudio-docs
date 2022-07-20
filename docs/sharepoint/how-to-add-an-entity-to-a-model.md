@@ -22,6 +22,8 @@ ms.workload:
   - "office"
 ---
 # How to: Add an entity to a model
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   To create an entity, add an entity control from the Visual Studio **Toolbox** onto the Business Data Connectivity (BDC) designer.
 
 ### To add an entity to the model
@@ -41,8 +43,12 @@ ms.workload:
 
 4. Define the fields of the entity in a class. You can either add a new class to the project or use an existing class created by using other tools such as the Object Relational Designer (O/R Designer). The following example shows an entity class named Contact.
 
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sp_bdc_entity_data_class/bdcmodel1/contact.cs" id="Snippet1":::
+
+    ### [VB](#tab/vb)
     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc_entity_data_class/bdcmodel1/contact.vb" id="Snippet1":::
+    ---
 
 ## See also
 - [How to: Add a Creator method](../sharepoint/how-to-add-a-creator-method.md)

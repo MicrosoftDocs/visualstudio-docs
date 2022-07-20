@@ -17,19 +17,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugSettingsCallback2::GetEELocalObject
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a expression evaluator local object given the metric name.
 
 ## Syntax
 
-```cpp
-HRESULT GetEELocalObject(
-   REFGUID     guidLang,
-   REFGUID     guidVendor,
-   LPCWSTR     pszMetric,
-   IUnknown ** ppUnk
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 private int GetEELocalObject(
    ref Guid          guidLang,
@@ -38,6 +32,16 @@ private int GetEELocalObject(
    out System.Object ppUnk
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEELocalObject(
+   REFGUID     guidLang,
+   REFGUID     guidVendor,
+   LPCWSTR     pszMetric,
+   IUnknown ** ppUnk
+);
+```
+---
 
 ## Parameters
 `guidLang`\

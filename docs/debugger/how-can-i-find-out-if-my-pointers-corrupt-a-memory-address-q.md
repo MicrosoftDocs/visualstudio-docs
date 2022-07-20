@@ -25,6 +25,8 @@ ms.workload:
   - multiple
 ---
 # How Can I Find Out If My Pointers Corrupt a Memory Address?
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## Problem Description
  I think that one of my pointers may be corrupting memory at address 0x00408000. How can I find out what is happening there?
 

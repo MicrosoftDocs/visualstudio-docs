@@ -4,8 +4,6 @@ description: Learn how to find the inheritance relationship between a base type 
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-f1_keywords:
-- vs.classdesigner.AssociationTypeNotFoundError
 helpviewer_keywords:
 - types [Visual Studio], inheritance
 - types [Visual Studio], base
@@ -19,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # How to: View inheritance between types in Class Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can find the inheritance relationship, if it exists, between a base type and its derived types on a class diagram in **Class Designer**. To create an inheritance relationship, if none exist, between two types, see [How to: Create inheritance between types](how-to-create-inheritance-between-types.md).
 

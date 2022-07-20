@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpressionEvaluator2::SetCallback
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enables the expression evaluator (EE) to specify the callback interface that the debugger engine (DE) will use to read metric settings.
 
 ## Syntax
 
-```cpp
-HRESULT SetCallback (
-    IDebugSettingsCallback2* pCallback
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetCallback (
     IDebugSettingsCallback2 pCallback
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetCallback (
+    IDebugSettingsCallback2* pCallback
+);
+```
+---
 
 ## Parameters
 `pCallback`\

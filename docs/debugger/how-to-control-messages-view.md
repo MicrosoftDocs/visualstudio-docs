@@ -16,6 +16,8 @@ ms.workload:
   - multiple
 ---
 # How to: Control Messages View
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 With Spy++, you have considerable control over the content of a [Messages View](../debugger/messages-view.md) window. You can [start and stop](../debugger/how-to-start-and-stop-the-message-log-display.md) displaying the messages at any time, and you can specify:
 
 - Which message types you want to see.

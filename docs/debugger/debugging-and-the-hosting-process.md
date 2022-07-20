@@ -21,6 +21,8 @@ ms.workload:
   - "multiple"
 ---
 # Debugging and the Hosting Process
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Visual Studio hosting process improves debugger performance and enables new debugger features, such as partial-trust debugging and design-time expression evaluation. You can disable the hosting process if you need to. The following sections describe some differences between debugging with and without the hosting process.
 
 > [!NOTE]

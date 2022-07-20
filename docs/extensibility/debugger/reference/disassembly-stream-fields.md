@@ -19,10 +19,31 @@ dev_langs:
 - CSharp
 ---
 # DISASSEMBLY_STREAM_FIELDS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies what information to retrieve about a disassembly field.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_DISASSEMBLY_STREAM_FIELDS {
+    DSF_ADDRESS          = 0x00000001,
+    DSF_ADDRESSOFFSET    = 0x00000002,
+    DSF_CODEBYTES        = 0x00000004,
+    DSF_OPCODE           = 0x00000008,
+    DSF_OPERANDS         = 0x00000010,
+    DSF_SYMBOL           = 0x00000020,
+    DSF_CODELOCATIONID   = 0x00000040,
+    DSF_POSITION         = 0x00000080,
+    DSF_DOCUMENTURL      = 0x00000100,
+    DSF_BYTEOFFSET       = 0x00000200,
+    DSF_FLAGS            = 0x00000400,
+    DSF_OPERANDS_SYMBOLS = 0x00010000,
+    DSF_ALL              = 0x000107ff
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_DISASSEMBLY_STREAM_FIELDS {
     DSF_ADDRESS          = 0x00000001,
@@ -41,24 +62,7 @@ enum enum_DISASSEMBLY_STREAM_FIELDS {
 };
 typedef DWORD DISASSEMBLY_STREAM_FIELDS;
 ```
-
-```csharp
-public enum enum_DISASSEMBLY_STREAM_FIELDS {
-    DSF_ADDRESS          = 0x00000001,
-    DSF_ADDRESSOFFSET    = 0x00000002,
-    DSF_CODEBYTES        = 0x00000004,
-    DSF_OPCODE           = 0x00000008,
-    DSF_OPERANDS         = 0x00000010,
-    DSF_SYMBOL           = 0x00000020,
-    DSF_CODELOCATIONID   = 0x00000040,
-    DSF_POSITION         = 0x00000080,
-    DSF_DOCUMENTURL      = 0x00000100,
-    DSF_BYTEOFFSET       = 0x00000200,
-    DSF_FLAGS            = 0x00000400,
-    DSF_OPERANDS_SYMBOLS = 0x00010000,
-    DSF_ALL              = 0x000107ff
-};
-```
+---
 
 ## Fields
 `DSF_ADDRESS`\

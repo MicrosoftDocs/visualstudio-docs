@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaAddressMap::set_addressMap
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Provides an address map to support image layout translations.
 
 ## Syntax

@@ -31,6 +31,8 @@ ms.workload:
   - "office"
 ---
 # Visual Studio Tools for Office runtime overview
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   To run solutions that are created by using the Microsoft Office developer tools in Visual Studio, the Visual Studio 2010 Tools for Office runtime must be installed on end-user computers. For more information, see [How to: Install the Visual Studio Tools for Office runtime redistributable](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md). The Visual Studio 2010 Tools for Office runtime consists of two main components:
 
 - The Office extensions for the .NET Framework. These components are managed assemblies that provide the communication layer between your solution and the Microsoft Office application. For more information, see [Understand the Office extensions for the .NET Framework](#officeextensions).

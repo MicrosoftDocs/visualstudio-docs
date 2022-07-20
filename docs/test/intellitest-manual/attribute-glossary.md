@@ -15,6 +15,8 @@ author: mikejo5000
 ---
 # Attribute glossary
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 ## Attributes by namespace
 
 * **Microsoft.Pex.Framework**

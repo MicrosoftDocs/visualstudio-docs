@@ -18,23 +18,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugTypeFieldBuilder::CreatePrimitive
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an object that represents a primitive type.
 
 ## Syntax
 
-```cpp
-HRESULT CreatePrimitive (
-   DWORD          dwElementType,
-   IDebugField ** pTypeField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreatePrimitive (
    uint            dwElementType,
    out IDebugField pTypeField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreatePrimitive (
+   DWORD          dwElementType,
+   IDebugField ** pTypeField
+);
+```
+---
 
 ## Parameters
 `dwElementType`\

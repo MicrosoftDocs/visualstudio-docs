@@ -17,23 +17,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpressionEvaluator3::Parse2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Converts an expression string to a parsed expression given the symbol provider and the address of the evaluating frame.
 
 ## Syntax
 
-```cpp
-HRESULT Parse2 (
-    LPCOLESTR                upstrExpression,
-    PARSEFLAGS               dwFlags,
-    UINT                     nRadix,
-    IDebugSymbolProvider*    pSymbolProvider,
-    IDebugAddress*           pAddress,
-    BSTR*                    pbstrError,
-    UINT*                    pichError,
-    IDebugParsedExpression** ppParsedExpression
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 HRESULT Parse2 (
     string                     upstrExpression,
@@ -46,6 +36,20 @@ HRESULT Parse2 (
     out IDebugParsedExpression ppParsedExpression
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Parse2 (
+    LPCOLESTR                upstrExpression,
+    PARSEFLAGS               dwFlags,
+    UINT                     nRadix,
+    IDebugSymbolProvider*    pSymbolProvider,
+    IDebugAddress*           pAddress,
+    BSTR*                    pbstrError,
+    UINT*                    pichError,
+    IDebugParsedExpression** ppParsedExpression
+);
+```
+---
 
 ## Parameters
 `upstrExpression`\

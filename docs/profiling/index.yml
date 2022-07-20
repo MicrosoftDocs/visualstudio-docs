@@ -7,6 +7,7 @@ metadata:
   title: Measure performance in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Learn how to use Visual Studio to measure performance using profiling tools.
   ms.topic: landing-page
+  ms.technology: vs-ide-debug
   author: mikejo5000
   ms.author: mikejo
   manager: jmartens
@@ -62,6 +63,8 @@ landingContent:
             url: dotnet-alloc-tool.md
           - text: .NET Async
             url: analyze-async.md
+          - text: File I/O
+            url: use-file-io.md
           - text: .NET Counters
             url: dotnet-counters-tool.md  
           - text: GPU Usage (Direct3D)

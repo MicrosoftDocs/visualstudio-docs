@@ -1,7 +1,7 @@
 ---
 title: "Publish to Azure by importing publish settings"
-description: "Create and import a publishing profile to deploy an application from Visual Studio to Azure App Service"
-ms.date: 08/27/2021
+description: "Create and import publish settings to deploy an application from Visual Studio to Azure App Service"
+ms.date: 10/22/2021
 ms.topic: tutorial
 helpviewer_keywords:
   - "deployment, publish settings"
@@ -12,23 +12,14 @@ ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---
-# Publish an application to Azure App Service by importing publish settings in Visual Studio
+# Get publish settings from Azure and import into Visual Studio
 
-You can use the **Publish** tool to import publish settings and then deploy your app. In this article, we use publish settings for Azure App Service, but you can use similar steps to import publish settings from [IIS](../deployment/tutorial-import-publish-settings-iis.md). In some scenarios, use of a publish settings profile can be faster than manually configuring deployment to the service for each installation of Visual Studio.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-These steps apply to ASP.NET, ASP.NET Core, and .NET Core apps in Visual Studio. You can also import publish settings for [Python](../python/publishing-python-web-applications-to-azure-from-visual-studio.md) apps.
-
-In this tutorial, you will:
-
-> [!div class="checklist"]
-> * Generate a publish settings file from Azure App Service
-> * Import the publish settings file into Visual Studio
-> * Deploy the app to Azure App Service
-
-A publish settings file (*\*.publishsettings*) is different than a publishing profile (*\*.pubxml*) created in Visual Studio. A publish settings file is created by Azure App Service, and then it can be imported into Visual Studio.
+You can use the **Publish** tool to import publish settings and then deploy your app. In this article, we use publish settings for Azure App Service. These steps apply to ASP.NET and ASP.NET Core web apps. 
 
 > [!NOTE]
-> If you just need to copy a Visual Studio publishing profile (*\*.pubxml* file) from one installation of Visual Studio to another, you can find the publishing profile, *\<profilename\>.pubxml*, in the *\\<projectname\>\Properties\PublishProfiles* folder for managed project types. For websites, look under the *\App_Data* folder. The publishing profiles are MSBuild XML files.
+> A publish settings file (*\*.publishsettings*) is different than a publishing profile (*\*.pubxml*) created in Visual Studio. A publish settings file is created by Azure App Service, and then it can be imported into Visual Studio.
 
 ## Prerequisites
 
@@ -39,12 +30,6 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-* You must have Visual Studio 2017 installed and the **ASP.NET and web development** workload.
-
-    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
-::: moniker-end
 
 * Create an Azure App Service. For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
 

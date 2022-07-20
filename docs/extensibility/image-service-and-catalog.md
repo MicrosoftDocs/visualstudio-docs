@@ -13,6 +13,8 @@ ms.workload:
 - vssdk
 ---
 # Image service and catalog
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This cookbook contains guidance and best practices for adopting the Visual Studio Image Service and Image Catalog introduced in Visual Studio 2015.
 
  The image service introduced in Visual Studio 2015 lets developers get the best images for the device and the user's chosen theme to display the image, including correct theming for the context in which they are displayed. Adopting the image service will help eliminate major pain points related to asset maintenance, HDPI scaling, and theming.
@@ -262,12 +264,6 @@ A \<Source> element can have exactly one of the following optional subelements:
 
   - Do not use this header if the image service can handle your image theming.
 
-::: moniker range="vs-2017"
-- **VSUIDPIHelper.h**
-
-  - Required if you use the DPI helpers to get the current DPI.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 - **VsDpiAwareness.h**
@@ -336,27 +332,6 @@ CGlobalServiceProvider::HrQueryService(SID_SVsImageService, &spImgSvc);
 
  **Requesting the image**
 
-::: moniker range="vs-2017"
-
-```cpp
-ImageAttributes attr = { 0 };
-attr.StructSize      = sizeof(attributes);
-attr.Format          = DF_Win32;
-// IT_Bitmap for HBITMAP, IT_Icon for HICON, IT_ImageList for HIMAGELIST
-attr.ImageType       = IT_Bitmap;
-attr.LogicalWidth    = 16;
-attr.LogicalHeight   = 16;
-attr.Dpi             = VsUI::DpiHelper::GetDeviceDpiX();
-// Desired RGBA color, if you don't use this, don't set IAF_Background below
-attr.Background      = 0xFFFFFFFF;
-attr.Flags           = IAF_RequiredFlags | IAF_Background;
-
-CComPtr<IVsUIObject> spImg;
-// Replace this KnownMoniker with your desired ImageMoniker
-spImgSvc->GetImage(KnownMonikers::Blank, attributes, &spImg);
-```
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -403,31 +378,6 @@ IVsImageService2 imageService = (IVsImageService2)Package.GetGlobalService(typeo
 
  **Request the image**
 
-::: moniker range="vs-2017"
-
-```csharp
-ImageAttributes attributes = new ImageAttributes
-{
-    StructSize    = Marshal.SizeOf(typeof(ImageAttributes)),
-    // IT_Bitmap for Bitmap, IT_Icon for Icon, IT_ImageList for ImageList
-    ImageType     = (uint)_UIImageType.IT_Bitmap,
-    Format        = (uint)_UIDataFormat.DF_WinForms,
-    LogicalWidth  = 16,
-    LogicalHeight = 16,
-    Dpi           = (int)DpiHelper.DeviceDpiX;
-    // Desired RGBA color, if you don't use this, don't set IAF_Background below
-    Background    = 0xFFFFFFFF,
-    Flags         = unchecked((uint)_ImageAttributesFlags.IAF_RequiredFlags | _ImageAttributesFlags.IAF_Background),
-};
-
-// Replace this KnownMoniker with your desired ImageMoniker
-IVsUIObject uIObj = imageService.GetImage(KnownMonikers.Blank, attributes);
-
-Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you need a bitmap
-// Icon icon = (Icon)GelUtilities.GetObjectData(uiObj);    // Use this if you need an icon
-```
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

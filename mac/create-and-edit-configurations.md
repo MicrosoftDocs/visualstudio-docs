@@ -1,15 +1,17 @@
 ---
 title: "Creating and Editing Build Configurations"
 description: "This article describes creating build configurations in Visual Studio for Mac"
-author: heiligerdankgesang
-ms.author: dominicn
-ms.date: 09/18/2019
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
+ms.date: 03/03/2022
 ms.assetid: CC1B72D6-12FF-4CCC-A9D4-00F2DC14589F
-ms.custom: video
+ms.custom: video, devdivchpfy22
 ms.topic: how-to
 ---
-
 # Creating and editing build configurations
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 Build configurations give you precise control over a build allowing you to create configurations to cater to different testing and distribution situations. You can create build configurations for individual projects or on a solution-wide basis.
 
@@ -60,11 +62,11 @@ Select the **Rename** button.
 
 ![rename dialog](media/create-and-edit-configurations-image5.png)
 
-Then click **OK** to confirm.
+Then select **OK** to confirm.
 
-## Related Video
+## Related video
 
-> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Launch-Multiple-Projects/player]
+> [!Video https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Launch-Multiple-Projects/player]
 
 ## See also
 

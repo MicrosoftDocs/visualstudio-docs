@@ -1,7 +1,7 @@
 ---
 title: "Deploy to Azure using GitHub Actions"
 description: "Learn to deploy your application to Azure using GitHub Actions workflows created by Visual Studio"
-ms.date: 09/03/2021
+ms.date: 12/06/2021
 ms.topic: how-to
 helpviewer_keywords:
   - "deployment, GitHub Actions"
@@ -14,8 +14,9 @@ monikerRange: '>= vs-2019'
 ms.workload:
   - "multiple"
 ---
-
 # Deploy your application to Azure using GitHub Actions workflows created by Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Starting in Visual Studio 2019 version 16.11, you can create new GitHub Action workflows for .NET projects hosted on GitHub.com.
 
@@ -41,13 +42,13 @@ Visual Studio generates a new GitHub Actions workflow and asks you to commit it 
 
 ![commit and push](./media/summary-commit-and-push.png)
 
-If you complete this step using the [built-in Git tooling](../version-control/git-with-visual-studio.md#git-changes-window), Visual Studio will detect the execution of the workflow.
+If you complete this step by using the [built-in Git tooling](../version-control/git-with-visual-studio.md?view=vs-2019&preserve-view=true#git-changes-window-in-visual-studio-2019), Visual Studio will detect the execution of the workflow.
 
 ![workflow is running](./media/summary-workflow-running.png)
 
 ## Setting the GitHub secrets
 
-For the generated workflow to successfully deploy to Azure, it may require access to a [publish profile](/azure/app-service/deploy-github-actions?tabs=applevel#configure-the-github-secret) 
+For the generated workflow to successfully deploy to Azure, it may require access to a [publish profile](/azure/app-service/deploy-github-actions?tabs=applevel#configure-the-github-secret).
 
 ![one github secret](./media/summary-one-github-secret.png)
 

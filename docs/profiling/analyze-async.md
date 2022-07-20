@@ -6,14 +6,15 @@ ms.date: "5/5/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "asynchronous, async, profiling"
-author: "esteban-herrera"
-ms.author: "esherrer"
-manager: AndSter
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
-
 # Analyze performance of .NET asynchronous code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the .NET Async tool to analyze the performance of asynchronous code in your app.
 

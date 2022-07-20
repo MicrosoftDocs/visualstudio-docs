@@ -22,6 +22,8 @@ ms.workload:
 ---
 # Use Coded UI tests to test your code
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Coded UI tests (CUITs) drive your application through its user interface (UI). These tests include functional testing of the UI controls. They let you verify that the whole application, including its user interface, is functioning correctly. Coded UI tests are useful where there is validation or other logic in the user interface, for example in a web page. They are also frequently used to automate an existing manual test.
 
 Creating a Coded UI test in Visual Studio is easy. You simply perform the test manually while **Coded UI Test Builder** runs in the background. You can also specify what values should appear in specific fields. **Coded UI Test Builder** records your actions and generates code from them. After the test is created, you can edit it in a specialized editor that lets you modify the sequence of actions.
@@ -58,11 +60,6 @@ To access the Coded UI test tools and templates, install the **Coded UI test** c
 
    Coded UI tests must be contained in a Coded UI test project. If you don't already have a Coded UI test project, create one. Choose **File** > **New** > **Project**. Search for and select the **Coded UI Test Project** project template.
 
-   ::: moniker range="vs-2017"
-
-   ![Coded UI test project template in New Project dialog](media/coded-ui-test-project-template.png)
-
-   ::: moniker-end
 
    > [!NOTE]
    > If you don't see the **Coded UI Test Project** template, you need to [install the Coded UI test component](../test/use-ui-automation-to-test-your-code.md#install-the-coded-ui-test-component).
@@ -435,16 +432,11 @@ You can analyze Coded UI tests using Coded UI test logs. Coded UI test logs filt
 
 ## What's next?
 
-::: moniker range="vs-2017"
-**Additional options for running Coded UI tests:** You can run Coded UI tests directly from Visual Studio, as described earlier in this topic. Additionally, you can run automated UI tests from Microsoft Test Manager, or using Azure Pipelines. When Coded UI tests are automated, they have to interact with the desktop when you run them, unlike other automated tests.
-::: moniker-end
 ::: moniker range=">=vs-2019"
 **Additional options for running Coded UI tests:** You can run Coded UI tests directly from Visual Studio, as described earlier in this topic. Additionally, you can run automated UI tests using Azure Pipelines. When Coded UI tests are automated, they have to interact with the desktop when you run them, unlike other automated tests.
 ::: moniker-end
 
 - [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
-
-- [Run tests in your build process](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts&preserve-view=true)
 
 - [How to: Set up your test agent to run tests that interact with the desktop](/previous-versions/ee291332(v=vs.140))
 
@@ -458,7 +450,7 @@ Coded UI tests are often used to automate manual tests. For more information abo
 
 ## See also
 
-- [Record and play back manual tests](/azure/devops/test/mtm/record-play-back-manual-tests?view=vsts&preserve-view=true)
+- [Record and play back manual tests](/previous-versions/azure/devops/test/mtm/record-play-back-manual-tests)
 - [Xamarin.UITest](/appcenter/test-cloud/uitest/)
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert>
 - [Walkthrough: Create, edit, and maintain a Coded UI test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)

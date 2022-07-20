@@ -18,6 +18,9 @@ ms.workload:
 
 Programming languages that target the .NET Framework use MSBuild project files to describe and control the application build process. When you use Visual Studio to create an MSBuild project file, the appropriate XML is added to the file automatically. However, you may find it helpful to understand how the XML is organized and how you can change it to control a build.
 
+> [!NOTE]
+> This tutorial works only with .NET Framework 4.x and earlier, not .NET Core or .NET 5 and later.
+
  For information about creating a project file for a C++ project, see [MSBuild (C++)](/cpp/build/msbuild-visual-cpp).
 
  This walkthrough shows how to create a basic project file incrementally, by using only a text editor. The walkthrough follows these steps:
@@ -102,7 +105,7 @@ Before you can use MSBuild, you must extend the PATH environment variable to inc
 
 ### To create a minimal MSBuild project file
 
-1. In the text editor, replace the existing text by using these two lines:
+1. In the text editor, create a new file and enter these two lines:
 
     ```xml
     <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">

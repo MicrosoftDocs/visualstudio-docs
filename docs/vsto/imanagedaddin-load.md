@@ -2,7 +2,7 @@
 title: "IManagedAddin::Load"
 description: "Called when a managed VSTO Add-in is loaded."
 ms.date: "02/02/2017"
-ms.topic: "interface"
+ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -15,6 +15,8 @@ ms.workload:
   - "office"
 ---
 # IManagedAddin::Load
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Called when a managed VSTO Add-in is loaded.
 
 ## Syntax

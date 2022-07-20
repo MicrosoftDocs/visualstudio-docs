@@ -20,6 +20,8 @@ ms.workload:
   - multiple
 ---
 # How to: Set custom permissions for a ClickOnce application
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can deploy a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application that uses default permissions for the Internet or Local Intranet zones. Alternatively, you can create a custom zone for the specific permissions that the application needs. You can do this by customizing the security permissions on the **Security** page of the **Project Designer**.
 
 ### To customize a permission

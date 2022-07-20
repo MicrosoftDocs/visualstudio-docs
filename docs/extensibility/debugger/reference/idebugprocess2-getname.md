@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess2::GetName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the title, friendly name, or file name of the process.
 
 ## Syntax
 
-```cpp
-HRESULT GetName( 
-   GETNAME_TYPE  gnType,
-   BSTR*         pbstrName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetName( 
    enum_GETNAME_TYPE  gnType,
    out string         pbstrName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetName( 
+   GETNAME_TYPE  gnType,
+   BSTR*         pbstrName
+);
+```
+---
 
 ## Parameters
 `gnType`\

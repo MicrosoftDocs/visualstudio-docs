@@ -25,6 +25,8 @@ ms.workload:
 ---
 # How to: Verify IIS Property Settings
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can set the properties for a Web application using the IIS administration tool. These properties must be set correctly for the application to run, so verifying these settings is often a necessary step in troubleshooting.
 
 > [!NOTE]

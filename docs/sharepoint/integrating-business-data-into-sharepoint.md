@@ -24,6 +24,8 @@ ms.workload:
   - "office"
 ---
 # Integrate business data into SharePoint
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can integrate business data into SharePoint. Business data can come from back-end server applications, such as [!INCLUDE[TLA#tla_sqlsvr](../sharepoint/includes/tlasharptla-sqlsvr-md.md)], Siebel, and SAP, or a Web service. Users can view, add, update, or delete business data by using external lists or Business Data Web Parts in SharePoint.  Users can also access this data offline in a Microsoft Office application such as Microsoft Outlook. For more information, see [Where Can You Show External Data](/previous-versions/office/developer/sharepoint-2010/ee558737(v=office.14)).
 
  To integrate data into SharePoint, create a model for the Business Data Connectivity (BDC) service. The BDC service is an application in SharePoint that stores information about data in business applications. For more information, see [Business Data Connectivity (BDC) Service](/previous-versions/office/developer/sharepoint-2010/ee556407(v=office.14)).

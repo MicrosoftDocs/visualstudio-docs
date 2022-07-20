@@ -19,10 +19,34 @@ dev_langs:
 - CSharp
 ---
 # DEBUGPROP_INFO_FLAGS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies what information to retrieve about a debug property object.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_DEBUGPROP_INFO_FLAGS {
+    DEBUGPROP_INFO_FULLNAME          = 0x00000001,
+    DEBUGPROP_INFO_NAME              = 0x00000002,
+    DEBUGPROP_INFO_TYPE              = 0x00000004,
+    DEBUGPROP_INFO_VALUE             = 0x00000008,
+    DEBUGPROP_INFO_ATTRIB            = 0x00000010,
+    DEBUGPROP_INFO_PROP              = 0x00000020,
+    DEBUGPROP_INFO_VALUE_AUTOEXPAND  = 0x00010000,
+    DEBUGPROP_INFO_VALUE_NOFUNCEVAL  = 0x00020000,
+    DEBUGPROP_INFO_VALUE_RAW         = 0x00040000,
+    DEBUGPROP_INFO_VALUE_NO_TOSTRING = 0x00080000
+    DEBUGPROP_INFO_NONE              = 0x00000000,
+    DEBUGPROP_INFO_STANDARD          = DEBUGPROP_INFO_ATTRIB |
+                                        DEBUGPROP_INFO_NAME |
+                                        DEBUGPROP_INFO_TYPE |
+                                        DEBUGPROP_INFO_VALUE,
+    DEBUGPROP_INFO_ALL               = 0xffffffff
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_DEBUGPROP_INFO_FLAGS {
     DEBUGPROP_INFO_FULLNAME          = 0x00000001,
@@ -44,27 +68,7 @@ enum enum_DEBUGPROP_INFO_FLAGS {
 };
 typedef DWORD DEBUGPROP_INFO_FLAGS;
 ```
-
-```csharp
-public enum enum_DEBUGPROP_INFO_FLAGS {
-    DEBUGPROP_INFO_FULLNAME          = 0x00000001,
-    DEBUGPROP_INFO_NAME              = 0x00000002,
-    DEBUGPROP_INFO_TYPE              = 0x00000004,
-    DEBUGPROP_INFO_VALUE             = 0x00000008,
-    DEBUGPROP_INFO_ATTRIB            = 0x00000010,
-    DEBUGPROP_INFO_PROP              = 0x00000020,
-    DEBUGPROP_INFO_VALUE_AUTOEXPAND  = 0x00010000,
-    DEBUGPROP_INFO_VALUE_NOFUNCEVAL  = 0x00020000,
-    DEBUGPROP_INFO_VALUE_RAW         = 0x00040000,
-    DEBUGPROP_INFO_VALUE_NO_TOSTRING = 0x00080000
-    DEBUGPROP_INFO_NONE              = 0x00000000,
-    DEBUGPROP_INFO_STANDARD          = DEBUGPROP_INFO_ATTRIB |
-                                        DEBUGPROP_INFO_NAME |
-                                        DEBUGPROP_INFO_TYPE |
-                                        DEBUGPROP_INFO_VALUE,
-    DEBUGPROP_INFO_ALL               = 0xffffffff
-};
-```
+---
 
 ## Fields
 `DEBUGPROP_INFO_FULLNAME`\

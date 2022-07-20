@@ -19,17 +19,21 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugAddresses::Reset
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method resets the enumeration to the first element.
 
 ## Syntax
 
-```cpp
-HRESULT Reset(void);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Reset();
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Reset(void);
+```
+---
 
 ## Parameters
  None

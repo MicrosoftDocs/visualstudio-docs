@@ -27,6 +27,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;file&gt; element (ClickOnce application)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Identifies all nonassembly files downloaded and used by the application.
 
 ## Syntax

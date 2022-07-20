@@ -2,18 +2,12 @@
   href: index.yml
 - name: Overview
   items:
-  - name: JavaScript in Visual Studio 2022
-    href: javascript-in-vs-2022.md
-  - name: JavaScript in Visual Studio 2019
-    href: javascript-in-vs-2019.md
-  - name: JavaScript in Visual Studio 2017
-    href: javascript-in-vs-2017.md
+  - name: JavaScript in Visual Studio
+    href: javascript-in-visual-studio.md
 - name: Quickstarts
   items:
   - name: First look at the Visual Studio IDE
     href: quickstart-ide-orientation-js.md
-  - name: Create a Node.js project
-    href: ../ide/quickstart-nodejs.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json
   - name: Create a Vue.js project
     href: quickstart-vuejs-with-nodejs.md
   - name: Create a React app

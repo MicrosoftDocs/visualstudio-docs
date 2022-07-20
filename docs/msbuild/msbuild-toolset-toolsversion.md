@@ -32,14 +32,6 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
- Specify the Toolset in the `ToolsVersion` attribute on the [Project](../msbuild/project-element-msbuild.md) element in the project file. The following example specifies that the project should be built by using the MSBuild 15.0 Toolset.
-
-```xml
-<Project ToolsVersion="15.0" ... </Project>
-```
-
-::: moniker-end
 
 > [!NOTE]
 > Some project types use the `sdk` attribute instead of `ToolsVersion`. For more information, see [Additions to the csproj format for .NET Core](/dotnet/core/tools/csproj).

@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty2::GetParent
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the parent property of a property.
 
 ## Syntax
 
-```cpp
-HRESULT GetParent ( 
-   IDebugProperty2** ppParent
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetParent ( 
    out IDebugProperty2 ppParent
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetParent ( 
+   IDebugProperty2** ppParent
+);
+```
+---
 
 ## Parameters
 `ppParent`\

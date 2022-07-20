@@ -36,7 +36,7 @@
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [
-        ">= vs-2017"
+        ">= vs-2019"
       ],
       "xref_query_tags": [
         "/dotnet",
@@ -76,7 +76,8 @@
       "monikers": [],
       "moniker_ranges": [
         "vsmac-2017",
-        "vsmac-2019"
+        ">=vsmac-2019",
+        ">=vsmac-2022"
       ],
       "open_to_public_contributors": true,
       "type_mapping": {
@@ -126,7 +127,7 @@
   ],
   "branches_to_filter": [],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/visualstudio-docs",
-  "git_repository_branch_open_to_public_contributors": "master",
+  "git_repository_branch_open_to_public_contributors": "main",
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
   "need_pr_comments": true,
@@ -135,13 +136,13 @@
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {}
     },
     {
       "path_to_root": "_themes.pdf",
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {}
     }
   ],
@@ -166,6 +167,10 @@
   "enable_pull_request_custom_validation": true,
   "redirection_files": [
     ".openpublishing.redirection.json",
+    ".openpublishing.redirection.mac.json",
+    ".openpublishing.redirection.subscriptions.json",
+    ".openpublishing.redirection.vs2017.json",
+    ".openpublishing.redirection.vs2015.json",
     "docs/containers/.openpublishing.redirection.containers.json"
-]
+  ]
 }

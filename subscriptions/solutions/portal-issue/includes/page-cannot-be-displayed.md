@@ -3,8 +3,8 @@ title: Page cannot be displayed
 description: Page cannot be displayed in the subscriptions portal.
 ms.topic: include
 ms.assetid: aef07dc7-29cc-406e-9373-0b808facb35b
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 08/14/2020
 user.type: subscriber, admin
 tags: portal-error

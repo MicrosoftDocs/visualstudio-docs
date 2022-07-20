@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Legacy Language Service Overview
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A language service provides editor support that lets you implement certain [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] features. The Managed Package Framework (MPF) language service classes provide full support for frequently-used features and partial support for other features.
 
 ## Fully Supported Features in the MPF

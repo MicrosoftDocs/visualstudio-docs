@@ -2,7 +2,7 @@
 title: Use config file to define data source
 description: Learn how to use a data source defined in an app.config file for unit testing, starting with creating an app.config file that defines a data source.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 03/18/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - configuration files [Visual Studio ALM], defining data sources
@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Walkthrough: Using a configuration file to define a data source
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This walkthrough illustrates how to use a data source defined in an *app.config* file for unit testing. You will learn how to create an *app.config* file that defines a data source that can be used by the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> class. Tasks presented in this walkthrough include the following:
 
 - Creating an *app.config* file.
@@ -28,6 +30,9 @@ This walkthrough illustrates how to use a data source defined in an *app.config*
 - Defining the data sources.
 
 - Accessing the data sources using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> class.
+
+>[!NOTE]
+> DataSourceAttribute is currently supported only on .NET Framework.
 
 ## Prerequisites
 

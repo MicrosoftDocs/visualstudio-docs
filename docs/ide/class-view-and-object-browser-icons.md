@@ -22,6 +22,8 @@ ms.workload:
 ---
 # Class View and Object Browser icons
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 **Class View** and the **Object Browser** display icons that represent code entities, for example, namespaces, classes, functions, and variables. The following table illustrates and describes the icons.
 
 |Icon|Description|Icon|Description|

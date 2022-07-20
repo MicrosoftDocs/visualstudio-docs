@@ -22,6 +22,8 @@ ms.workload:
 ---
 # IDE constants
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The <xref:Microsoft.VisualStudio.VSConstants> class provides constants that are specific to the integrated development environment (IDE) and that were previously defined only in header files.
 
 ## Logical and physical views

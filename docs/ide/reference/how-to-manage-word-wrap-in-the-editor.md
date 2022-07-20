@@ -2,7 +2,7 @@
 title: Word wrap
 description: Learn how to turn the word wrap option on and off in the code editor.
 ms.custom: SEO-VS-2020
-ms.date: 11/07/2018
+ms.date: 12/06/2021
 ms.topic: how-to
 helpviewer_keywords:
 - word wrap
@@ -18,6 +18,8 @@ ms.workload:
 ---
 # How to: Manage word wrap in the editor
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can set and clear the **Word wrap** option. When this option is set, the portion of a long line that extends beyond the current width of the Code Editor window is displayed on the next line. When this option is cleared, for example, to facilitate the use of line numbering, you can scroll to the right to see the ends of long lines.
 
 > [!NOTE]
@@ -25,7 +27,9 @@ You can set and clear the **Word wrap** option. When this option is set, the por
 
 ## To set word wrap preferences
 
-1. On the **Tools** menu, select **Options**.
+1. On the Visual Studio menu bar, select **Tools**, and then select **Options**.
+
+    :::image type="content" source="media/vs-2022/tools-options-menu-bar.png" alt-text="Screenshot of the menu bar in Visual Studio with Tools and Options selected.":::
 
 2. In the **Text Editor** folder, choose the **General** options in the **All Languages** subfolder to set this option globally.
 
@@ -37,17 +41,15 @@ You can set and clear the **Word wrap** option. When this option is set, the por
 
      When the **Word wrap** option is selected, the **Show visual glyphs for word wrap** option is enabled.
 
-4. Select the **Show visual glyphs for Word Wrap** option if you prefer to display a return-arrow indicator where a long line wraps onto a second line. Clear this option if you prefer not to display indicator arrows.
-
     > [!NOTE]
-    > These reminder arrows are not added to your code; they are for display purposes only.
+    > The **Show visual glyphs for Word Wrap** option displays a return-arrow indicator where a long line wraps onto a second line. These reminder arrows are not added to your code; they are for display purposes only.
 
 ## Known issues
 
 If you're familiar with word wrap in Notepad++, Sublime Text, or Visual Studio Code, be aware of the following issues where Visual Studio behaves differently to other editors:
 
-* [Triple click doesn't select whole line](https://developercommunity.visualstudio.com/content/problem/268989/triple-click-doesnt-select-whole-line-when-word-wr.html)
-* [Pressing End key twice does not move cursor to end of line](https://developercommunity.visualstudio.com/content/problem/138274/pressing-end-key-twice-should-move-cursor-to-end-o.html)
+* [Triple click doesn't select whole line](https://developercommunity.visualstudio.com/t/fix-known-issues-in-word-wrap/351760)
+* [Pressing End key twice does not move cursor to end of line](https://developercommunity.visualstudio.com/t/fix-known-issues-in-word-wrap/351760)
 
 ## See also
 

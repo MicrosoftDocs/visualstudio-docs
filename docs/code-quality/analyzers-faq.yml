@@ -4,7 +4,7 @@ metadata:
   ms.date: 10/05/2021
   description: Learn about .NET Compiler Platform-based code analysis in Visual Studio. See answers to questions about EditorConfig files, rule sets, and other topics.
   ms.custom: SEO-VS-2020
-  ms.topic: conceptual
+  ms.topic: faq
   helpviewer_keywords:
   - analyzers, faq
   author: mikejo5000
@@ -12,7 +12,6 @@ metadata:
   manager: jmartens
   ms.workload:
   - multiple
-    
 title: FAQ for code analysis in Visual Studio
 summary: This page contains answers to some frequently asked questions about .NET Compiler Platform-based code analysis in Visual Studio.
 

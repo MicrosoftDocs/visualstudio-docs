@@ -2,10 +2,8 @@
 title: "Format specifiers in the debugger (C++) | Microsoft Docs"
 description: Use a format specifier to change the format in which a value is displayed in a Watch, Autos, or Locals window. This article provides usage details.
 ms.custom: SEO-VS-2020
-ms.date: "3/11/2019"
+ms.date: 05/17/2022
 ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -29,6 +27,8 @@ ms.workload:
   - "cplusplus"
 ---
 # Format specifiers for C++ in the Visual Studio debugger
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can change the format in which a value is displayed in the **Watch**, **Autos**, and **Locals** windows by using format specifiers.
 
@@ -103,36 +103,6 @@ The following tables describe the format specifiers that you can use in Visual S
 
 ::: moniker-end
 
-::: moniker range="vs-2017" 
-
-|Specifier|Format|Original Watch Value|Value Displayed|
-|---------------|------------|--------------------------|---------------------|
-|d|decimal integer|0x00000066|102|
-|o|unsigned octal integer|0x00000066|000000000146|
-|x<br /><br /> **h**|hexadecimal integer|102|0xcccccccc|
-|X<br /><br /> **H**|hexadecimal integer|102|0xCCCCCCCC|
-|c|single character|0x0065, c|101 'e'|
-|s|const char* string (with quotation marks)|\<location> "hello world"|"hello world"|
-|**sb**|const char* string (no quotation marks)|\<location> "hello world"|hello world|
-|s8|UTF-8 string|\<location> "This is a UTF-8 coffee cup â˜•"|"This is a UTF-8 coffee cup ☕"|
-|**s8b**|UTF-8 string (no quotation marks)|\<location> "hello world"|hello world|
-|su|Unicode (UTF-16 encoding) string (with quotation marks)|\<location> L"hello world"|L"hello world"<br /><br /> u"hello world"|
-|sub|Unicode (UTF-16 encoding) string (no quotation marks)|\<location> L"hello world"|hello world|
-|bstr|BSTR binary string (with quotation marks)|\<location> L"hello world"|L"hello world"|
-|env|Environment block (double-null terminated string)|\<location> L"=::=::\\\\"|L"=::=::\\\\\\0=C:=C:\\\\windows\\\\system32\\0ALLUSERSPROFILE=...|
-|**s32**|UTF-32 string (with quotation marks)|\<location> U"hello world"|U"hello world"|
-|**s32b**|UTF-32 string (no quotation marks)|\<location> U"hello world"|hello world|
-|**en**|enum|Saturday(6)|Saturday|
-|**hv**|Pointer type - indicates that the pointer value being inspected is the result of the heap allocation of an array, for example, `new int[3]`.|\<location>{\<first member>}|\<location>{\<first member>, \<second member>, ...}|
-|**na**|Suppresses the memory address of a pointer to an object.|\<location>, {member=value...}|{member=value...}|
-|**nd**|Displays only the base class information, ignoring derived classes|`(Shape*) square` includes base class and derived class information|Displays only base class information|
-|hr|HRESULT or Win32 error code. This specifier is no longer needed for HRESULTs as the debugger decodes them automatically.|S_OK|S_OK|
-|wc|Window class flag|0x0010|WC_DEFAULTCHAR|
-|wm|Windows message numbers|16|WM_CLOSE|
-|!|raw format, ignoring any data type views customizations|\<customized representation>|4|
-
-::: moniker-end
-
 > [!NOTE]
 > When the **hv** format specifier is present, the debugger attempts to determine the length of the buffer and display that number of elements. Because it is not always possible for the debugger to find the exact buffer size of an array, you should use a size specifier `(pBuffer,[bufferSize])` whenever possible. The **hv** format specifier is useful when the buffer size is not readily available.
 
@@ -148,7 +118,29 @@ If you have a pointer to an object you want to view as an array, you can use an 
 
 ## <a name="BKMK_Format_specifiers_for_interop_debugging_and_C___edit_and_continue"></a> Format specifiers for interop debugging with C++/CLI
 
-Specifiers in **bold** are supported only for debugging native and C++/CLI code. This requires the legacy debugger, specified using [Managed Compatibility Mode](../debugger/general-debugging-options-dialog-box.md).
+::: moniker range=">= vs-2022" 
+
+| Specifier | Format | Original Watch Value | Value Displayed |
+|--|--|--|--|
+| o | unsigned octal integer | 0xF065 | 0170145 |
+| x<br /><br />X | Hexadecimal integer | 61541 | 0x0000f065 |
+| c | single character | \<location> | 101 'e' |
+| s | const char* (with quotation marks) | \<location> | "hello world" |
+| su | const wchar_t*<br /><br /> const char16_t\* (with quotation marks) | \<location> | L"hello world" |
+| sub | const wchar_t*<br /><br /> const char16_t\* | \<location> | hello world |
+| s8 | const char* (with quotation marks) | \<location> | "hello world" |
+| hr | HRESULT or Win32 error code.<br/>This specifier is no longer needed for HRESULTs as the debugger decodes them automatically. | S_OK | S_OK |
+| wc | Window class flag | 0x00000040, | WC_DEFAULTCHAR |
+| wm | Windows message numbers | 0x0010 | WM_CLOSE |
+| ! | raw format, ignoring any data type view customizations | \<customized representation> | 4 |
+
+The d, e, f, g, h, i, l, m, ma, mb, md, mq, mu, mw, and u specifiers for native and C++/CLI code required the legacy debugger, which isn't supported in Visual Studio 2022 or later versions.
+
+::: moniker-end
+
+::: moniker range="<vs-2022" 
+
+Specifiers in **bold** are supported only for debugging native and C++/CLI code. These specifiers require the legacy debugger, specified using [Managed Compatibility Mode](../debugger/general-debugging-options-dialog-box.md).
 
 |Specifier|Format|Original Watch Value|Value Displayed|
 |---------------|------------|--------------------------|---------------------|
@@ -185,6 +177,8 @@ Specifiers in **bold** are supported only for debugging native and C++/CLI code.
 |**md**|4 doublewords|0x0012ffac|0x0012ffac 00CB34B3 80943084 308A22FF 00002657|
 |**mq**|2 quadwords|0x0012ffac|0x0012ffac 7ffdf00000000000 5f441a790012fdd4|
 |**mu**|2-byte characters (Unicode)|0x0012ffac|0x0012ffac 8478 77f4 ffff ffff 0000 0000 0000 0000|
+
+::: moniker-end
 
 ### <a name="BKMK_Size_specifier_for_pointers_as_arrays_in_interop_debugging_and_C___edit_and_continue"></a> Size specifier for pointers as arrays in interop debugging with C++/CLI
 

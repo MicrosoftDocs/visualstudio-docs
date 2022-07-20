@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Cannot create an association &lt;association name&gt; - property listed twice
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Cannot create an association \<association name>. The same property is listed more than once: \<property name>.
 
 Associations are defined by the selected **Association Properties** in the **Association Editor** dialog box. Properties can be listed only one time for each class in the association.

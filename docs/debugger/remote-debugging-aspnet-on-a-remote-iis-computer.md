@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Remote Debug ASP.NET Core on a Remote IIS Computer in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 To debug an ASP.NET Core application that has been deployed to IIS, install and run the remote tools on the computer where you deployed your app, and then attach to your running app from Visual Studio.
 
 ![Remote debugger components](../debugger/media/remote-debugger-aspnet.png "Remote_debugger_components")
@@ -26,9 +28,7 @@ This guide explains how to set up and configure a Visual Studio ASP.NET Core, de
 ::: moniker range=">=vs-2019"
 Visual Studio 2019 is required to follow the steps shown in this article.
 ::: moniker-end
-::: moniker range="vs-2017"
-Visual Studio 2017 is required to follow the steps shown in this article.
-::: moniker-end
+
 
 These procedures have been tested on these server configurations:
 * Windows Server 2012 R2 and IIS 8
@@ -56,9 +56,7 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    In Visual Studio 2017, choose **File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application**. In the ASP.NET Core templates section, select **Web Application (Model-View-Controller)**. Make sure that ASP.NET Core 2.1 is selected, that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.
-    ::: moniker-end
+
 
 4. Open the About.cshtml.cs file and set a breakpoint in the `OnGet` method (in older templates, open HomeController.cs instead and set the breakpoint in the `About()` method).
 
@@ -129,9 +127,7 @@ After the app deploys successfully, it should start automatically. If the app do
    ::: moniker range=">=vs-2019"
    Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
    ::: moniker-end
-   ::: moniker range="vs-2017"
-   In the **Settings** dialog box, enable debugging by clicking **Next**, choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
-   ::: moniker-end
+
 
    > [!IMPORTANT]
    > If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.
@@ -201,9 +197,7 @@ For information on running the remote debugger as a service, see [Run the remote
     ::: moniker range="vs-2019"
     On Visual Studio 2019, you should see **\<remote computer name>:4024**
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    On Visual Studio 2017, you should see **\<remote computer name>:4022**
-    ::: moniker-end
+
     The port is required. If you don't see the port number, add it manually.
 
 4. Click **Refresh**.
@@ -226,9 +220,7 @@ For information on running the remote debugger as a service, see [Run the remote
     ::: moniker range=">=vs-2019"
     ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
-    ::: moniker-end
+
 
 7. Click **Attach**.
 
@@ -266,9 +258,7 @@ Required ports:
 ::: moniker range="vs-2019"
 * 4024 - Required for remote debugging from Visual Studio 2019 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
 ::: moniker-end
-::: moniker range="vs-2017"
-* 4022 - Required for remote debugging from Visual Studio 2017 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
-::: moniker-end
+
 * UDP 3702 - (Optional) Discovery port enables you to use the **Find** button when attaching to the remote debugger in Visual Studio.
 
 1. To open a port on Windows Server, open the **Start** menu, search for **Windows Firewall with Advanced Security**.

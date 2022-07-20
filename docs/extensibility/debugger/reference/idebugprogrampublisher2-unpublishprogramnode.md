@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramPublisher2::UnpublishProgramNode
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Removes a specified program node from availability to debug engines (DEs) and the session debug manager (SDM).
 
 ## Syntax
 
-```cpp
-HRESULT UnpublishProgramNode(
-   IDebugProgramNode2* pProgramNode
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int UnpublishProgramNode(
    IDebugProgramNode2 pProgramNode
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT UnpublishProgramNode(
+   IDebugProgramNode2* pProgramNode
+);
+```
+---
 
 ## Parameters
 `pProgramNode`\

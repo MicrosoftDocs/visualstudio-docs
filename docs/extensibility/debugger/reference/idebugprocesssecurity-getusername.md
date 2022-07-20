@@ -17,21 +17,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcessSecurity::GetUserName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the user name from the port supplier.
 
 ## Syntax
 
-```cpp
-HRESULT GetUserName(
-    BSTR *pbstrUserName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetUserName (
     string pbstrUserName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetUserName(
+    BSTR *pbstrUserName
+);
+```
+---
 
 ## Parameters
 `pbstrUserName`\

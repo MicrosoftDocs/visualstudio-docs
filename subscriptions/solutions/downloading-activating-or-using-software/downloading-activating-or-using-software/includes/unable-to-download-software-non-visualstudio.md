@@ -3,8 +3,8 @@ title: Unable to download or activate software (excluding Visual Studio family)
 description: I'm unable to download or activate software (excluding Visual Studio family), included with my Visual Studio subscription.
 ms.topic: include
 ms.assetid: 4e67a935-40f9-4c26-b836-e06aa8582bad
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 08/14/2020
 user.type: subscriber
 tags: download, activate

@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IPropertyProxyEESide::GetInitialData
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the initial data for this object.
 
 ## Syntax
 
-```cpp
-HRESULT GetInitialData(
-   IEEDataStorage** dataOut
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetInitialData(
    out IEEDataStorage dataOut
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetInitialData(
+   IEEDataStorage** dataOut
+);
+```
+---
 
 ## Parameters
 `dataOut`\

@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugPortSupplier3
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface allows a caller to determine whether a port supplier can preserve ports (by writing them to disk) between invocations of the debugger and then get a list of those preserved ports.
 
 ## Syntax

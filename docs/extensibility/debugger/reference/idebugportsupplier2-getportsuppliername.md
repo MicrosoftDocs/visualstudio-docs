@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortSupplier2::GetPortSupplierName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the port supplier name.
 
 ## Syntax
 
-```cpp
-HRESULT GetPortSupplierName( 
-   BSTR* pbstrName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPortSupplierName( 
    out string pbstrName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPortSupplierName( 
+   BSTR* pbstrName
+);
+```
+---
 
 ## Parameters
 `pbstrName`\

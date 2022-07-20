@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IEnumDebugThreads2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface enumerates the threads running in the current debug session.
 
 ## Syntax

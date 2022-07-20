@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Type visualizer and custom viewer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A type visualizer is a component that displays a piece of data in a specific format. The format is entirely up to who implements the visualizer, be it the end user or a third-party supplier of visualizers.
 
  A custom viewer is the part of a custom expression evaluator that displays a piece of data in a specific format. This format is entirely up to the implementer of the custom viewer, which means that the format is up to the implementer of the expression evaluator (EE).

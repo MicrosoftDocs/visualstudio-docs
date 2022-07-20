@@ -1,27 +1,31 @@
 ---
-title: 'Walkthrough: Build an application'
+title: 'Tutorial: Build an application'
 description: Become more familiar with several options that you can configure when you build applications with Visual Studio.
 ms.custom: SEO-VS-2020
-ms.date: 09/25/2017
+ms.date: 05/10/2022
 ms.technology: vs-ide-compile
-ms.topic: conceptual
+ms.topic: tutorial
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.workload:
 - multiple
 ---
-# Walkthrough: Build an application
+# Tutorial: Build an application
 
-By completing this walkthrough, you'll become more familiar with several options that you can configure when you build applications with Visual Studio. You'll create a custom build configuration, hide certain warning messages, and increase build output information for a sample application.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+In this article, you'll become more familiar with several options that you can configure when you build applications with Visual Studio. You'll create a custom build configuration, hide certain warning messages, and increase build output information for a sample application.
 
 ## Install the sample application
 
-Download the [Introduction to building WPF applications](https://code.msdn.microsoft.com/Introduction-to-Building-b8d16419) sample. Choose either C# or Visual Basic. After the *.zip* file has downloaded, extract it and open the *ExpenseItIntro.sln* file using Visual Studio.
+
+:::moniker range=">=vs-2019"
+ The sample code used in this tutorial is found at [WPF samples](https://github.com/microsoft/wpf-samples). To clone the repo, use GitHub's green **Clone** button, and choose **Clone in Visual Studio**. You can choose the location on the local hard drive to create a copy of the contents of the repo. The repo contains many solutions. If Visual Studio opens one of the solutions, close the solution and then choose **Open project or solution**, and browse to the location where you cloned the repo, and under that, look for *GettingStarted/WalkthroughFirstWPFApp/csharp/ExpenseItIntro.sln* to work in C#, or *GettingStarted/WalkthroughFirstWPFApp/vb/ExpenseItIntro2.sln* to work in Visual Basic.
+:::moniker-end
 
 ## Create a custom build configuration
 
-When you create a solution, debug and release build configurations and their default platform targets are defined for the solution automatically. You can then customize these configurations or create your own. Build configurations specify the build type. Build platforms specify the operating system that an application targets for that configuration. For more information, see [Understand build configurations](../ide/understanding-build-configurations.md), [Understand build platforms](../ide/understanding-build-platforms.md), and [How to: Set debug and release configurations](../debugger/how-to-set-debug-and-release-configurations.md).
+When you create a solution, Debug and Release build configurations and their default platform targets are defined for the solution automatically. You can then customize these configurations or create your own. Build configurations specify the build type. Build platforms specify the operating system that an application targets for that configuration. For more information, see [Understand build configurations](../ide/understanding-build-configurations.md), [Understand build platforms](../ide/understanding-build-platforms.md), and [How to: Set debug and release configurations](../debugger/how-to-set-debug-and-release-configurations.md).
 
 You can change or create configurations and platform settings by using the **Configuration Manager** dialog box. In this procedure, you'll create a build configuration for testing.
 
@@ -29,31 +33,56 @@ You can change or create configurations and platform settings by using the **Con
 
 1. Open the **Configuration Manager** dialog box.
 
-   ![Build menu, Configuration Manager command](../ide/media/buildwalk_configurationmanagerdialogbox.png)
+   :::moniker range="<=vs-2019"
+   ![Screenshot of the Build menu, Configuration Manager command.](../ide/media/buildwalk_configurationmanagerdialogbox.png)
+   :::moniker-end
+   :::moniker range=">=vs-2022"
+   ![Screenshot of the Build menu Configuration Manager command.](media/vs-2022/build-tutorial-configuration-manager-menu.png)
+   :::moniker-end
 
 1. In the **Active solution configuration** list, choose **\<New...\>**.
 
 1. In the **New Solution Configuration** dialog box, name the new configuration `Test`, copy settings from the existing **Debug** configuration, and then choose the **OK** button.
 
-   ![New Solution Configuration Dialog Box](../ide/media/buildwalk_newsolutionconfigdlgbox.png)
+   :::moniker range="<=vs-2019"
+   ![Screenshot of the New Solution Configuration Dialog Box](../ide/media/buildwalk_newsolutionconfigdlgbox.png)
+   :::moniker-end
+   :::moniker range=">=vs-2022"
+   ![Screenshot showing creating a Test configuration in the New Solution Configuration dialog box.](media/vs-2022/build-tutorial-create-test-configuration.png)
+   :::moniker-end
 
 1. In the **Active solution platform** list, choose **\<New...\>**.
 
 1. In the **New Solution Platform** dialog box, choose **x64**, and don't copy settings from the x86 platform.
 
-   ![New Solution Platform Dialog Box](../ide/media/buildwalk_newsolutionplatform.png)
+   :::moniker range="<=vs-2019"
+   ![Screenshot of New solution platform dialog box.](../ide/media/buildwalk_newsolutionplatform.png)
+   :::moniker-end
+   :::moniker range=">=vs-2022"
+   ![Screenshot of New solution platform dialog box.](media/vs-2022/build-tutorial-new-solution-platform.png)
+   :::moniker-end
 
 1. Choose the **OK** button.
 
    The active solution configuration has been changed to **Test** with the active solution platform set to x64.
 
-   ![Configuration Manager with Test configuration](../ide/media/buildwalk_configmanagertestconfig.png)
+   :::moniker range="<=vs-2019"
+   ![Screenshot of Configuration Manager with Test configuration.](../ide/media/buildwalk_configmanagertestconfig.png)
+   :::moniker-end
+   :::moniker range=">=vs-2022"
+   ![Screenshot of Configuration Manager with Test configuration.](media/vs-2022/build-tutorial-configuration-manager.png)
+   :::moniker-end
 
 1. Choose **Close**.
 
 You can quickly verify or change the active solution configuration by using the **Solution Configurations** list on the **Standard** toolbar.
 
-![Solution Configuration option Standard Toolbar](../ide/media/buildwalk_standardtoolbarsolutioncongfig.png)
+:::moniker range="<=vs-2019"
+![Screenshot of Solution Configurations dropdown list on the Standard toolbar.](../ide/media/buildwalk_standardtoolbarsolutioncongfig.png)
+:::moniker-end
+:::moniker range=">=vs-2022"
+![Screenshot of Solution Configurations dropdown list on the Standard toolbar.](media/vs-2022/build-tutorial-configuration-dropdown.png)
+:::moniker-end
 
 ## Build the application
 
@@ -79,9 +108,16 @@ Next we'll introduce some code that causes a warning to be generated by the comp
 
 The **Output** window displays the results of the build. The build succeeded, but warnings were generated:
 
-![Output Window Visual Basic](../ide/media/buildwalk_vbbuildoutputwnd.png)
+:::moniker range="<=vs-2019"
+![Screenshot of build warning in Output Window for Visual Basic.](../ide/media/buildwalk_vbbuildoutputwnd.png)
 
-![Output Window Visual C&#35;](../ide/media/buildwalk_csharpbuildoutputwnd.png)
+![Screenshot of build warning in Output Window for C#.](../ide/media/buildwalk_csharpbuildoutputwnd.png)
+:::moniker-end
+:::moniker range=">=vs-2022"
+![Screenshot of build warnings in Output window for C#.](media/vs-2022/build-tutorial-build-warning-csharp.png)
+
+![Screenshot of build warnings in Output window for Visual Basic.](media/vs-2022/build-tutorial-build-warning-vb.png)
+:::Moniker-end
 
 You can temporarily hide certain warning messages during a build rather than have them clutter up the build output.
 
@@ -93,17 +129,27 @@ You can temporarily hide certain warning messages during a build rather than hav
 
      The **Project Designer** opens.
 
-1. Choose the **Build** page and then, in the **Suppress warnings** box, specify the warning number **0168**.
+1. Choose the **Build** tab or section and then, in the **Suppress warnings** box, specify the warning number **0168**. If other warnings are already listed, use a semicolon as a separator.
 
-     ![Build page, Project Designer](../ide/media/buildwalk_csharpsuppresswarnings.png)
+    :::moniker range="<=vs-2019"
+    ![Screenshot of Build page, Project Designer.](../ide/media/buildwalk_csharpsuppresswarnings.png)
+    :::moniker-end
+    :::moniker range=">=vs-2022"
+    ![Screenshot of Build section in Project Properties.](media/vs-2022/build-tutorial-disable-warning-0168.png)
+    :::moniker-end
 
-     For more information, see [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).
+    For more information, see [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).
 
-1. Build the solution.
+1. Build the solution using **Build > Rebuild Solution**.
 
-     The **Output** window displays only summary information for the build.
+    The **Output** window displays only summary information for the build (no warnings).
 
-     ![Output Window, Visual C&#35; Build Warnings](../ide/media/buildwalk_visualcsharpbuildwarnings.png)
+    :::moniker range="<=vs-2019"
+    ![Screenshot of Output Window for C# with no build warnings](../ide/media/buildwalk_visualcsharpbuildwarnings.png)
+    :::moniker-end
+    :::moniker range=">=vs-2022"
+    ![Screenshot of Output window for C# with no build warnings](media/vs-2022/build-tutorial-output-csharp-no-warning.png)
+    :::moniker-end
 
 ### Suppress all Visual Basic build warnings
 
@@ -115,15 +161,25 @@ You can temporarily hide certain warning messages during a build rather than hav
 
 3. On the **Compile** page, select the **Disable all warnings** check box.
 
+     :::moniker range="<=vs-2019"
      ![Compile page, Project Designer](../ide/media/buildwalk_vbsuppresswarnings.png)
+     :::moniker-end
+     :::moniker range=">=vs-2022"
+     ![Screenshot of disabling warnings in the Compile tab of the Project Designer](media/vs-2022/build-tutorial-disable-warnings-vb.png)
+     :::moniker-end
 
      For more information, see [Configure warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).
 
-4. Build the solution.
+4. Build the solution. If it doesn't rebuild, build the solution using **Build > Rebuild Solution**.
 
-   The **Output** window displays only summary information for the build.
+   The **Output** window displays only summary information for the build (no warnings).
 
-   ![Output Window, Visual Basic Build Warnings](../ide/media/buildwalk_visualbasicbuildwarnings.png)
+   :::moniker range="<=vs-2019"
+   ![Screenshot of Output Window for Visual Basic with no build warnings](../ide/media/buildwalk_visualbasicbuildwarnings.png)
+   :::moniker-end
+   :::moniker range=">=vs-2022"
+   ![Screenshot of Output window for Visual Basic with no build warnings](media/vs-2022/build-tutorial-build-output-vb-no-warning.png)
+   :::moniker-end
 
    For more information, see [How to: Suppress compiler warnings](../ide/how-to-suppress-compiler-warnings.md).
 
@@ -138,7 +194,12 @@ You can change how much information about the build process appears in the **Out
 
 1. Open the **Options** dialog box.
 
-     ![Options command on the Tools menu](../ide/media/exploreide-toolsoptionsmenu.png)
+     :::moniker range="<=vs-2019"
+     ![Screenshot of Options command on the Tools menu.](../ide/media/exploreide-toolsoptionsmenu.png)
+     :::moniker-end
+     :::moniker range=">=vs-2022"
+     ![Screenshot of Tools, Options menu item.](media/vs-2022/build-tutorial-tools-options-menu-item.png)
+     :::moniker-end
 
 1. Choose the **Projects and Solutions** category, and then choose the **Build and Run** page.
 
@@ -167,9 +228,14 @@ For more information, see [How to: Change the build output directory](../ide/how
 
 ### Specify a release build for Visual Basic
 
-1. Open the **Project Designer**.
+1. To open the **Project Designer**, select the project node in **Solution Explorer** by right-clicking and choose **Properties** (or press **Alt**+**Enter**), or on the **View** menu, choose **Property Pages**:
 
-     ![View menu, Property Pages command](../ide/media/buildwalk_viewpropertypages.png)
+    :::moniker range="<=vs-2019"
+    ![Screenshot of View, Property Pages menu item.](../ide/media/buildwalk_viewpropertypages.png)
+    :::moniker-end
+    :::moniker range=">=vs-2022"
+    ![Screenshot of View, Property Pages menu item.](media/vs-2022/build-tutorial-property-pages-menu-item.png)
+    :::moniker-end
 
 1. Choose the **Compile** page.
 
@@ -186,13 +252,23 @@ For more information, see [How to: Change the build output directory](../ide/how
 
 1. Build the application.
 
-     ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png)
+    :::moniker range="<=vs-2019"
+    ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png)
+    :::moniker-end
+    :::moniker range=">=vs-2022"
+    ![Screenshot of Build Solution command on the Build menu](media/vs-2022/build-tutorial-build-menu.png)
+    :::moniker-end
 
 ### Specify a release build for C\#
 
 1. Open the **Project Designer**.
 
-     ![View menu, Property Pages command](../ide/media/buildwalk_viewpropertypages.png)
+    :::moniker range="<=vs-2019"
+    ![Screenshot of View, Property Pages menu item.](../ide/media/buildwalk_viewpropertypages.png)
+    :::moniker-end
+    :::moniker range=">=vs-2022"
+    ![Screenshot of View, Property Pages menu item.](media/vs-2022/build-tutorial-property-pages-menu-item.png)
+    :::moniker-end
 
 1. Choose the **Build** page.
 
@@ -211,11 +287,16 @@ For more information, see [How to: Change the build output directory](../ide/how
 
 1. Build the application.
 
-     ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png)
+    :::moniker range="<=vs-2019"
+    ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png)
+    :::moniker-end
+    :::moniker range=">=vs-2022"
+    ![Screenshot of Build Solution command on the Build menu](media/vs-2022/build-tutorial-build-menu.png)
+    :::moniker-end
 
    The executable file is copied to the network path that you specified. Its path would be `\\myserver\builds\\FileName.exe`.
 
-Congratulations! You've successfully completed this walkthrough.
+Congratulations! You've successfully completed this tutorial.
 
 ## See also
 

@@ -17,20 +17,24 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram3::ExecuteOnThread
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Executes the debugger program. The thread is returned to give the debugger information on which thread the user is viewing when executing the program.
 
 ## Syntax
 
-```cpp
-HRESULT ExecuteOnThread(
-   [in] IDebugThread2* pThread)
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ExecuteOnThread(
    IDebugThread2 pThread
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ExecuteOnThread(
+   [in] IDebugThread2* pThread)
+```
+---
 
 ## Parameters
 `pThread`\

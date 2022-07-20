@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Extended Correctness Rules rule set for managed code
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Microsoft Extended Correctness Rules rule set maximizes the logic and framework usage errors that are reported by code analysis. Extra emphasis is placed on specific scenarios such as COM interoperability and mobile applications. You should consider including this rule set if one of these scenarios applies to your project or to find additional problems in your project.
 
 The Microsoft Extended Correctness Rules rule set includes the rules that are in the [Basic Correctness Rules](../code-quality/basic-correctness-rules-rule-set-for-managed-code.md) rule set, which contains the rules that are in the [Managed Recommended Rules](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md) rule set.

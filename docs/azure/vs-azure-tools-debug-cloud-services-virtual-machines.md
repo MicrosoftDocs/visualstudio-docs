@@ -5,11 +5,13 @@ author: mikejo5000
 manager: jmartens
 ms.topic: how-to
 ms.workload: azure-vs
-ms.date: 11/11/2016
+ms.date: 2/8/2022
 ms.author: mikejo
 ms.technology: vs-ide-debug
 ---
 # Debugging an Azure cloud service or virtual machine in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio gives you different options for debugging Azure cloud services and virtual machines.
 
@@ -90,6 +92,40 @@ From Azure SDK 2.3, remote debugging has the following limitations:
   * Error validating the .cscfg file against the .csdef file.
     The reserved port range 'range' for endpoint Microsoft.WindowsAzure.Plugins.RemoteDebugger.Connector of role 'role' overlaps with an already defined port or range.
   * Allocation failed. Please retry later, try reducing the VM size or number of role instances, or try deploying to a different region.
+
+::: moniker range=">=vs-2022"
+
+## Debugging Azure App Services
+
+You can debug programs that run in Azure App Services by using the Attach to Process dialog in Visual Studio. 
+
+> [!NOTE]
+> This is only available for Windows Azure App Services starting in Visual Studio 2022 17.1. 
+
+### To debug a Windows Azure App Service
+
+1. Under **Debug**, select **Attach to Process**.
+
+2. Change **Connection type** to **Microsoft Azure App Services**, then select **Find..**.
+
+3. In the dialog box that opens, select the **Subscription name**.
+
+    ![Screenshot of Select Azure App Service Dialog, showing a list of App Services to select.](./media/vs-azure-tools-debug-cloud-services-virtual-machines/select-app-service.png)
+
+> [!NOTE]
+> You need to be logged into a Microsoft Account with access to the subscription that contains your Azure App Service.
+
+4. Filter the view by either Resource Group or Resource Type, or search by name.
+
+5. Next, select the App Service you want to debug then select **Ok**.
+
+    This enables remote debugging on your App Service and shows you a list of available processes to attach to. 
+
+    ![Screenshot of the Attach to Process Window, showing the processes running on the selected App Service.](./media/vs-azure-tools-debug-cloud-services-virtual-machines/attach-to-process.png)
+
+6. Select the process you want to attach to and then choose **Attach** to start debugging. 
+
+::: moniker-end
 
 ## Debugging Azure virtual machines
 

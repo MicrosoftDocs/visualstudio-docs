@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Generate files with the TextTransform utility
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 TextTransform.exe is a command-line tool that you can use to transform a text template. When you call TextTransform.exe, you specify the name of a text template file as an argument. TextTransform.exe calls the text transformation engine and processes the text template. TextTransform.exe is usually called from scripts. However, it is not usually required, because you can perform text transformation either in Visual Studio or in the build process.
 
 > [!NOTE]
@@ -35,23 +37,6 @@ for Enterprise edition.
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-**\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE**
-
-for Professional edition, or
-
-**\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE**
-
-for Enterprise edition.
-
-In previous versions of Visual Studio, the file is found in the following location:
-
-**\Program Files (x86)\Common Files\Microsoft Shared\TextTemplating\{version}**
-
-where {version} depends on which previous version is installed.
-
-::: moniker-end
 
 ## Syntax
 

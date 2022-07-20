@@ -20,6 +20,8 @@ ms.workload:
 - vssdk
 ---
 # Default command, group, and toolbar placement
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 For product uniformity and stability, the UI displays certain command groups by default, and [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] provides definitions for commands and command groups. VSPackages can also use the standard commands and command groups.
 
  The default command groups fall into three categories: IDE commands, product commands, and editor commands.

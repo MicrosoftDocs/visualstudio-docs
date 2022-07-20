@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Properties display grid
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The **Properties** window displays fields within a grid. The left column contains the property names; the right column contains the property values.
 
 ## Work with the grid

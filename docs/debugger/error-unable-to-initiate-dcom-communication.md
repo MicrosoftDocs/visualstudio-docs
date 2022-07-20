@@ -18,6 +18,8 @@ ms.workload:
   - "multiple"
 ---
 # Error: Unable to initiate DCOM communication
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A DCOM error occurred when the local machine tried to communicate with the remote machine. This is caused by a firewall on the remote server or broken Windows authentication on the remote machine.
 
 ### To correct this error

@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Groups element
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains entries that define the command groups of a VSPackage.
 
 ## Syntax

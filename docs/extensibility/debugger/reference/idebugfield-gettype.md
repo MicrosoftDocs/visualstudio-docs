@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugField::GetType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the type of field.
 
 ## Syntax
 
-```cpp
-HRESULT GetType( 
-   IDebugField** ppType
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetType(
    out IDebugField ppType
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetType( 
+   IDebugField** ppType
+);
+```
+---
 
 ## Parameters
 `ppType`\

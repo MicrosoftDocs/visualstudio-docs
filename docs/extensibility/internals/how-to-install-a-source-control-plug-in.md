@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # How to: Install a source control plug-in
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creating a source-control plug-in involves three steps:
 
 1. Create a DLL with the functions defined in the Source Control Plug-in API reference section of this documentation.

@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # VSCT XML schema conditional attributes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can apply conditional attributes to all lists and items. Logical operators and symbol expansion expressions evaluate to true or false. If true, the associated list or item is included in the resulting output.
 
  You can test token expansions against other token expansions or constants. The function `Defined()` tests whether a particular name has been defined, even if it has no value.

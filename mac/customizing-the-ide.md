@@ -1,13 +1,16 @@
 ---
 title: Customizing the IDE
-description: Visual Studio for Mac can be customized in a variety of ways, allowing users to develop apps in an environment that meets both their efficiency and aesthetic needs. This article explores the variety of ways Visual Studio for Mac can be adapted to suit your needs.
-author: heiligerdankgesang
-ms.author: dominicn
-ms.date: 11/06/2020
-ms.assetid: F7C2A28C-0759-4E0D-A28E-B72D5AB73DB6
-ms.custom: video
+description: Visual Studio for Mac can be customized in different ways, allowing users to develop apps in an environment that meets both their efficiency and aesthetic needs. This article explores the different ways Visual Studio for Mac can be adapted to suit your needs.
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
+ms.date: 03/03/2022
+ms.custom: devdivchpfy22
+ms.topic: how-to
 ---
 # Customizing the IDE
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 Visual Studio for Mac can be customized, allowing users to develop apps in an environment that meets their needs for both efficiency and aesthetics. This article explores the variety of ways that Visual Studio for Mac can be adapted to suit your needs.
 
@@ -44,7 +47,7 @@ To change the language displayed by Visual Studio for Mac, browse to  **Visual S
 
 ## Author information
 
-The author information panel allows you to add relevant information about yourself such as your name, email address, the copyright owner for your work, your company, and trademark:
+The author information panel lets you add relevant information about yourself such as your name, email address, the copyright owner for your work, your company, and trademark:
 
 ![Edit Author Information section](media/customizing-the-ide-image9a.png)
 
@@ -70,7 +73,7 @@ These bindings can also be set during the initial setup of Visual Studio for Mac
 
 ## Workspace layout
 
-Visual Studio for Mac's workspace consists of a main document area (normally the editor, designer surface, or options file), surrounded by complimentary *tool windows* that contain useful information for accessing and managing application files, testing, and debugging.
+Visual Studio for Mac's workspace consists of a main document area (normally the editor, designer surface, or options file), surrounded by complementary *tool windows* that contain useful information for accessing and managing application files, testing, and debugging.
 
  ![Workspace layout](media/customizing-the-ide-image1a.png)
 
@@ -84,9 +87,9 @@ Visual Studio for Mac provides tool windows containing additional information, t
 
 ![Select new tool window](media/customizing-the-ide-image3a.png)
 
-Tool Windows may also be opened automatically by various commands, such as the **Find in Files** (Shift + Cmd + F) command, which opens a detached window of search results.
+Tool Windows may also be opened automatically by different commands, such as the **Find in Files** (Shift + Cmd + F) command, which opens a detached window of search results.
 
-Tool Windows can be moved and arranged throughout your workflow in whatever way is most useful to you. For example, they can be docked on any side of the document editor, adjacent to another tool window, above or below another window, or as a set of tabbed windows enabling you to quickly switch between them.
+Tool Windows can be moved and arranged throughout your workflow in whatever way is most useful to you. For example, they can be docked on any side of the document editor, next to another tool window, above or below another window, or as a set of tabbed windows enabling you to quickly switch between them.
 
 For frequently used tool windows, you can also completely detach them from the Visual Studio for Mac window and into their own new window.
 
@@ -94,17 +97,17 @@ Tool Windows can be pinned and closed by the controls in the top-right corner of
 
 :::image type="content" source="media/customizing-the-ide-image5a.png" alt-text="Using controls to pin or close tool windows":::
 
-Pinned windows are docked to the sides of the workspace and remain open for quicker access when you need them. Unpinned windows are docked, but not shown until you hover over the tab for the window with a mouse or focus with the keyboard; they can be hidden when the mouse and keyboard focus leaves them.
+Pinned windows are docked to the sides of the workspace and remain open for quicker access when you need them. Unpinned windows are docked, but not shown until you hover over the tab for the window with a mouse or focus with the keyboard. They can be hidden when the mouse and keyboard focus leaves them.
 
 ### Organizing layouts
 
-The tool windows that are displayed at any time are dependent on the current context. For example, when using the visual designer, the toolbox and property grid windows are most important; when debugging, it is useful to have the debugger windows for viewing the stack and locals.
+The tool windows that are displayed at any time are dependent on the current context. For example, when using the visual designer, the toolbox and property grid windows are most important. When debugging, it's useful to have the debugger windows for viewing the stack and locals.
 
-The state of the open tool windows is represented by a *layout*. The layouts can be switched manually through the View menu, as illustrated in the following image, or it is switched automatically when you carry out an action, such as debugging, or opening a Storyboard:
+The state of the open tool windows is represented by a *layout*. You can switch the layouts manually through the View menu, as illustrated in the following image. It's also switched automatically when you carry out an action, such as debugging, or opening a Storyboard:
 
 ![Selecting new Layouts](media/customizing-the-ide-image6b.png)
 
-It is possible to create a new layout by using the **View > Layout > Save Current Layout...** menu item. This command will add your current layout to the menu so that you can select it at any time:
+It's possible to create a new layout by using the **View > Layout > Save Current Layout...** menu item. This command will add your current layout to the menu so that you can select it at any time:
 
 ![Save Current Layout](media/customizing-the-ide-image6a.png)
 
@@ -126,7 +129,7 @@ To revert to a single open editor, select **View > Editor Columns > 1 column**.
 
 ## Related Video
 
-> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Customize-the-Look-and-Feel/player]
+> [!Video https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Customize-the-Look-and-Feel/player]
 
 ## See also
 

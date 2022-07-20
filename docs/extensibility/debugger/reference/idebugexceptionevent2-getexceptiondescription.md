@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugExceptionEvent2::GetExceptionDescription
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a displayable description of the exception.
 
 ## Syntax
 
-```cpp
-HRESULT GetExceptionDescription( 
-   BSTR* pbstrDescription
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetExceptionDescription( 
    out string pbstrDescription
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetExceptionDescription( 
+   BSTR* pbstrDescription
+);
+```
+---
 
 ## Parameters
 `pbstrDescription`\

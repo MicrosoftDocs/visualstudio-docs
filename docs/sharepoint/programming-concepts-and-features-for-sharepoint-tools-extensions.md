@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Programming concepts and features for SharePoint tools extensions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   There are several important programming concepts and features that are related to the SharePoint tools in Visual Studio. These concepts and features play an important role in most SharePoint tools extensions.
 
 ## In this section

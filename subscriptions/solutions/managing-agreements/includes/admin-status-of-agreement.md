@@ -2,8 +2,8 @@
 title: Where can I find out the status of a new or existing agreement?
 description: The super admin or admin is trying to locate the status of a new agreement
 ms.assetid: b1bca6ef-1f5f-40df-bef1-13054d3cbb3a  
-author: CaityBuschlen 
-ms.author: cabuschl 
+author: evanwindom 
+ms.author: amast 
 ms.date: 09/29/2021
 user.type: admin 
 tags: agreement, status

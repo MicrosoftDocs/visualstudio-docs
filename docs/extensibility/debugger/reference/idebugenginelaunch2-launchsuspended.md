@@ -19,28 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngineLaunch2::LaunchSuspended
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method launches a process by means of the debug engine (DE).
 
 ## Syntax
 
-```cpp
-HRESULT LaunchSuspended ( 
-   LPCOLESTR             pszMachine,
-   IDebugPort2*          pPort,
-   LPCOLESTR             pszExe,
-   LPCOLESTR             pszArgs,
-   LPCOLESTR             pszDir,
-   BSTR                  bstrEnv,
-   LPCOLESTR             pszOptions,
-   LAUNCH_FLAGS          dwLaunchFlags,
-   DWORD                 hStdInput,
-   DWORD                 hStdOutput,
-   DWORD                 hStdError,
-   IDebugEventCallback2* pCallback,
-   IDebugProcess2**      ppDebugProcess
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int LaunchSuspended(
    string               pszServer,
@@ -58,6 +43,25 @@ int LaunchSuspended(
    out IDebugProcess2   ppProcess
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT LaunchSuspended ( 
+   LPCOLESTR             pszMachine,
+   IDebugPort2*          pPort,
+   LPCOLESTR             pszExe,
+   LPCOLESTR             pszArgs,
+   LPCOLESTR             pszDir,
+   BSTR                  bstrEnv,
+   LPCOLESTR             pszOptions,
+   LAUNCH_FLAGS          dwLaunchFlags,
+   DWORD                 hStdInput,
+   DWORD                 hStdOutput,
+   DWORD                 hStdError,
+   IDebugEventCallback2* pCallback,
+   IDebugProcess2**      ppDebugProcess
+);
+```
+---
 
 ## Parameters
 `pszMachine`\

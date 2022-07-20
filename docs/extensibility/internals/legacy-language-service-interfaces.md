@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Legacy Language Service Interfaces
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 For any particular programming language, there can be only one instance of a language service at a time. However, a single language service can serve more than one editor.
 
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] does not associate a language service with any particular editor. Therefore, when you request a language service operation, you must identify the appropriate editor as a parameter.

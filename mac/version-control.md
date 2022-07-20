@@ -4,11 +4,13 @@ description: Using Git and Subversion in Visual Studio for Mac.
 ms.topic: overview
 author: jmatthiesen
 ms.author: jomatthi
+manager: dominicn
 ms.date: 05/06/2018
 ms.assetid: 49917483-28AA-4598-A847-71F1F2E0DCB5
 ---
-
 # Version control
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 Version control is a system for managing files over many different versions, and - in software development - is generally contributed to by many developers. The principal purpose of any version control system (_VCS_) is to find a solution that enables all users to work on the codebase at the same time.
 

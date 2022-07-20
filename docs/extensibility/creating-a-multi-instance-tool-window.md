@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Create a multi-instance tool window
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can program a tool window so that multiple instances of it can be open simultaneously. By default, tool windows can have only one instance open.
 
 When you use a multi-instance tool window, you can show several related sources of information at the same time. For example, you could put a multi-line <xref:System.Windows.Forms.TextBox> control in a multi-instance tool window so that several code snippets are simultaneously available during a programming session. Also, for example, you could put a <xref:System.Windows.Forms.DataGrid> control and a drop-down list box in a multi-instance tool window so that several real-time data sources can be tracked simultaneously.

@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugBoundBreakpoint2::Enable
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enables or disables the breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT Enable(
-    BOOL fEnable
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Enable( 
     int fEnable
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Enable(
+    BOOL fEnable
+);
+```
+---
 
 ## Parameters
 `fEnable`\

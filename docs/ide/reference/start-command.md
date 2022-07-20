@@ -18,6 +18,8 @@ ms.workload:
 - multiple
 ---
 # Start Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Begins debugging the startup project.
 
 ## Syntax

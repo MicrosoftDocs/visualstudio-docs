@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Visual Studio template schema reference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section contains information about XML elements in *.vstemplate* files, which are files that store metadata for project templates, item templates, and Starter Kits.
 
  You can use *vstemplate.xsd* to validate custom *.vstemplate* files. This file is available at *..\\\<Visual Studio installation folder>\Xml\Schemas\1033\vstemplate.xsd*.

@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Guidelines for Writing T4 Text Templates
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 These general guidelines might be helpful if you are generating program code or other application resources in Visual Studio. They are not fixed rules.
 
 ## Guidelines for Design-Time T4 Templates

@@ -21,6 +21,8 @@ ms.workload:
 ---
 # Walkthrough: Debug a multithreaded app using the Threads window (C#, Visual Basic, C++)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Several Visual Studio user interface elements help you debug multithreaded apps. This article introduces multithreaded debugging features in the code editor window, **Debug Location** toolbar, and **Threads** window. For information about other tools for debugging multithreaded apps, see [Get started debugging multithreaded apps](../debugger/get-started-debugging-multithreaded-apps.md).
 
 Completing this tutorial takes only a few minutes, and familiarizes you with the basics of debugging multithreaded apps.
@@ -49,18 +51,7 @@ Create the following multithreaded app project to use in this tutorial:
    For .NET Core, choose either the recommended target framework or .NET 6, and then choose **Create**.
 
    ::: moniker-end
-   ::: moniker range="vs-2017"
-   From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, choose the following:
 
-   - For a C# app, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
-   - For a C++ app, under **Visual C++**, choose **Windows Desktop**,, and then choose **Windows Console Application**.
-
-   If you don't see the **Console App (.NET Framework)** or, for C++, the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
-
-   Then, type a name like *MyThreadWalkthroughApp* and click **OK**.
-
-   Select **OK**.
-   ::: moniker-end
 
    A new console project appears. After the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called *Program.cs*, *MyThreadWalkthroughApp.cpp*, or *Module1.vb*.
 
@@ -72,15 +63,18 @@ Create the following multithreaded app project to use in this tutorial:
 
 1. Find the following lines in the source code:
 
+   ### [C#](#tab/csharp)
    ```csharp
    Thread.Sleep(3000);
    Console.WriteLine();
    ```
 
-   ```C++
+   ### [C++](#tab/cpp)
+   ```cpp
    Thread::Sleep(3000);
    Console.WriteLine();
    ```
+   ---
 
 1. Set a breakpoint on the `Console.WriteLine();` line by clicking in the left gutter, or selecting the line and pressing **F9**.
 

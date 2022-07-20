@@ -19,10 +19,20 @@ dev_langs:
 - CSharp
 ---
 # REFERENCE_TYPE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the reference type.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_REFERENCE_TYPE { 
+   REF_TYPE_WEAK   = 0x0001,
+   REF_TYPE_STRONG = 0x0002
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_REFERENCE_TYPE { 
    REF_TYPE_WEAK   = 0x0001,
@@ -30,13 +40,7 @@ enum enum_REFERENCE_TYPE { 
 };
 typedef DWORD REFERENCE_TYPE;
 ```
-
-```csharp
-public enum enum_REFERENCE_TYPE { 
-   REF_TYPE_WEAK   = 0x0001,
-   REF_TYPE_STRONG = 0x0002
-};
-```
+---
 
 ## Fields
  `REF_TYPE_WEAK`\

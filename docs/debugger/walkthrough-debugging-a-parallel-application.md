@@ -26,6 +26,8 @@ ms.workload:
 ---
 # Walkthrough: Debugging a Parallel Application in Visual Studio (C#, Visual Basic, C++)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks** windows to debug a parallel application. These windows help you understand and verify the run-time behavior of code that uses the [Task Parallel Library (TPL)](/dotnet/standard/parallel-programming/task-parallel-library-tpl) or the [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime). This walkthrough provides sample code that has built-in breakpoints. After the code breaks, the walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks** windows to examine it.
 
  This walkthrough teaches these tasks:
@@ -77,19 +79,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
    For .NET Core, choose either the recommended target framework or .NET 6, and then choose **Create**.
 
    ::: moniker-end
-   ::: moniker range="vs-2017"
-   From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, choose the following:
 
-   - For a C# app, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
-   - For a Visual Basic app, under **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
-   - For a C++ app, under **Visual C++**, choose **Windows Desktop**,, and then choose **Windows Console Application**.
-
-   If you don't see the **Console App (.NET Core)** or, for C++, the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
-
-   Then, type a name or use the default name and click **OK**.
-
-   Select **OK**.
-   ::: moniker-end
 
    A new console project appears. After the project has been created, a source file appears.
 
@@ -97,9 +87,15 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 1. Paste the following code for your chosen language into the empty code file.
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../snippets/csharp/VS_Snippets_Misc/debugger/cs/s.cs" id="Snippet1":::
-   :::code language="cpp" source="../snippets/cpp/VS_Snippets_Misc/debugger/cpp/beta2_native.cpp" id="Snippet1":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_Misc/debugger/vb/module1.vb" id="Snippet1":::
+
+   ### [C++](#tab/cpp)
+   :::code language="cpp" source="../snippets/cpp/VS_Snippets_Misc/debugger/cpp/beta2_native.cpp" id="Snippet1":::
+   ---
 
 1. On the **File** menu, click **Save All**.
 

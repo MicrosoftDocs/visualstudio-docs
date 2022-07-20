@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugMethodField::EnumLocals
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator for selected local variables of the method.
 
 ## Syntax
 
-```cpp
-HRESULT EnumLocals(
-    IDebugAddress*     pAddress,
-    IEnumDebugFields** ppLocals
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumLocals(
     IDebugAddress        pAddress,
     out IEnumDebugFields ppLocals
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumLocals(
+    IDebugAddress*     pAddress,
+    IEnumDebugFields** ppLocals
+);
+```
+---
 
 ## Parameters
 `pAddress`\

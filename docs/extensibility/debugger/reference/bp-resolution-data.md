@@ -19,19 +19,13 @@ dev_langs:
 - CSharp
 ---
 # BP_RESOLUTION_DATA
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the result of binding a data breakpoint.
 
 ## Syntax
 
-```cpp
-typedef struct _BP_RESOLUTION_DATA {
-    BSTR              bstrDataExpr;
-    BSTR              bstrFunc;
-    BSTR              bstrImage;
-    BP_RES_DATA_FLAGS dwFlags;
-} BP_RESOLUTION_DATA;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct BP_RESOLUTION_DATA {
     public string bstrDataExpr;
@@ -40,6 +34,16 @@ public struct BP_RESOLUTION_DATA {
     public uint   dwFlags;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _BP_RESOLUTION_DATA {
+    BSTR              bstrDataExpr;
+    BSTR              bstrFunc;
+    BSTR              bstrImage;
+    BP_RES_DATA_FLAGS dwFlags;
+} BP_RESOLUTION_DATA;
+```
+---
 
 ## Members
 `bstrDataExpr`\

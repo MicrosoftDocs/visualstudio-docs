@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Registering a Project Type
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you create a new project type, you must create registry entries that enable [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to recognize and work with your project type. You typically create these registry entries by using a registry script (.rgs) file.
 
  In the example below, the statements from the registry provide default paths and data where applicable, followed by a table that contains entries from the registry script for each statement. The tables provide the script entries and additional information about the statements.

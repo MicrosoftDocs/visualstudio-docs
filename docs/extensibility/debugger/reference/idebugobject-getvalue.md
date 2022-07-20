@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject::GetValue
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the value of the object as a consecutive series of bytes.
 
 ## Syntax
 
-```cpp
-HRESULT GetValue( 
-   BYTE* pValue,
-   UINT  nSize
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetValue(
    ref byte[] pValue,
    uint nSize
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetValue( 
+   BYTE* pValue,
+   UINT  nSize
+);
+```
+---
 
 ## Parameters
 `pValue`\

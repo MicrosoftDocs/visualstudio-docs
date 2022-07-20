@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugField::GetContainer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the container of a field.
 
 ## Syntax
 
-```cpp
-HRESULT GetContainer( 
-   IDebugContainerField** ppContainerField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetContainer(
    out IDebugContainerField ppContainerField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetContainer( 
+   IDebugContainerField** ppContainerField
+);
+```
+---
 
 ## Parameters
 `ppContainerField`\

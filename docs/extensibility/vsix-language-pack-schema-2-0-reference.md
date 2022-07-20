@@ -17,6 +17,8 @@ ms.technology: vs-ide-sdk
 ---
 # VSIX language pack schema 2.0 reference
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The VSIX Language Pack schema provides localized installation information for VSIX packages. Version 2.0 of this schema supports additional localization elements.
 
 ## Language pack schema

@@ -18,18 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProviderDirect::GetSymUnmanagedReader
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a symbol reader for unmanaged code.
 
 ## Syntax
 
-```cpp
-HRESULT GetSymUnmanagedReader (
-   ULONG32    ulAppDomainID,
-   GUID       guidModule,
-   IUnknown** ppSymUnmanagedReader
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSymUnmanagedReader (
    uint       ulAppDomainID,
@@ -37,6 +32,15 @@ int GetSymUnmanagedReader (
    out object ppSymUnmanagedReader
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSymUnmanagedReader (
+   ULONG32    ulAppDomainID,
+   GUID       guidModule,
+   IUnknown** ppSymUnmanagedReader
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

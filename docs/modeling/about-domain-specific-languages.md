@@ -15,6 +15,8 @@ ms.workload:
 ---
 # About Domain-Specific Languages
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Unlike a general-purpose language such as C# or UML, a domain-specific language (DSL) is designed to express statements in a particular problem space, or domain.
 
 Well-known DSLs include regular expressions and SQL. Each DSL is much better than a general-purpose language for describing operations on text strings or a database, but much worse for describing ideas that are outside its own scope. Individual industries also have their own DSLs. For example, in the telecommunications industry, call description languages are widely used to specify the sequence of states in a telephone call, and in the air travel industry a standard DSL is used to describe flight bookings.

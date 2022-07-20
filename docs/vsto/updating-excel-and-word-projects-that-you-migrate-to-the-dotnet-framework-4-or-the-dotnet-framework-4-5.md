@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Update Excel and Word projects that You migrate to the .NET Framework 4.5
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   If you have an Excel or Word project that uses any of the following features, you must modify your code if the target framework is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later:
 
 - [GetVstoObject and HasVstoObject methods](#GetVstoObject)
@@ -50,13 +52,16 @@ ms.workload:
 
 3. Locate the `Microsoft.Office.Tools.Excel.ExcelLocale1033Attribute` and either remove it from the file or comment it out.
 
-    ```vb
-    <Assembly: ExcelLocale1033Proxy(True)>
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     [assembly: ExcelLocale1033Proxy(true)]
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    <Assembly: ExcelLocale1033Proxy(True)>
+    ```
+    ---
 
 ## Remove a reference to the ExcelLocal1033Proxy class
  Projects that were created by using Microsoft Visual Studio 2005 Tools for the Microsoft Office System instantiate the Excel <xref:Microsoft.Office.Interop.Excel.Application> object by using the `Microsoft.Office.Tools.Excel.ExcelLocale1033Proxy` class. This class has been removed from the portion of the Visual Studio 2010 Tools for Office runtime that's used for solutions that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later. Therefore, you must remove or comment out the line of code that references this class.
@@ -69,54 +74,66 @@ ms.workload:
 
 3. In the Code Editor, in the `VSTO generated code` region, remove or comment out the following line of code.
 
-    ```vb
-    Me.Application = CType(Microsoft.Office.Tools.Excel.ExcelLocale1033Proxy.Wrap(GetType(Excel.Application), Me.Application), Excel.Application)
-
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     this.Application = (Excel.Application)Microsoft.Office.Tools.Excel.ExcelLocale1033Proxy.Wrap(typeof(Excel.Application), this.Application);
 
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    Me.Application = CType(Microsoft.Office.Tools.Excel.ExcelLocale1033Proxy.Wrap(GetType(Excel.Application), Me.Application), Excel.Application)
+
+    ```
+    ---
+
 ## <a name="GetVstoObject"></a> Update code that uses the GetVstoObject and HasVstoObject methods
  In projects that target the .NET Framework 3.5, the `GetVstoObject` or `HasVstoObject` methods are available as extension methods on one of the following native objects in your project: <xref:Microsoft.Office.Interop.Word.Document>, <xref:Microsoft.Office.Interop.Excel.Workbook>, <xref:Microsoft.Office.Interop.Excel.Worksheet>, or <xref:Microsoft.Office.Interop.Excel.ListObject>. When you call these methods, you do not need to pass a parameter. The following code example demonstrates how to use the GetVstoObject method in a Word VSTO Add-in that targets the .NET Framework 3.5.
 
-```vb
-Dim vstoDocument as Microsoft.Office.Tools.Word.Document = _
-    Globals.ThisAddIn.Application.ActiveDocument.GetVstoObject()
-```
-
+### [C#](#tab/csharp)
 ```csharp
 Microsoft.Office.Tools.Word.Document vstoDocument =
     Globals.ThisAddIn.Application.ActiveDocument.GetVstoObject();
 ```
 
+### [VB](#tab/vb)
+```vb
+Dim vstoDocument as Microsoft.Office.Tools.Word.Document = _
+    Globals.ThisAddIn.Application.ActiveDocument.GetVstoObject()
+```
+---
+
  In projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must modify your code to access these methods in one of the following ways:
 
 - You can still access these methods as extension methods on <xref:Microsoft.Office.Interop.Word.Document>, <xref:Microsoft.Office.Interop.Excel.Workbook>, <xref:Microsoft.Office.Interop.Excel.Worksheet>, or <xref:Microsoft.Office.Interop.Excel.ListObject> objects. However, you must now pass the object returned by the `Globals.Factory` property to these methods.
 
-  ```vb
-  Dim vstoDocument as Microsoft.Office.Tools.Word.Document = _
-      Globals.ThisAddIn.Application.ActiveDocument.GetVstoObject(Globals.Factory)
-  ```
-
+  ### [C#](#tab/csharp)
   ```csharp
   Microsoft.Office.Tools.Word.Document vstoDocument =
       Globals.ThisAddIn.Application.ActiveDocument.GetVstoObject(Globals.Factory);
   ```
 
-- You can alternatively access these methods on the object that is returned by the `Globals.Factory` property. When you access these methods in this way, you must pass the native object that you want to extend to the method.
-
+  ### [VB](#tab/vb)
   ```vb
   Dim vstoDocument as Microsoft.Office.Tools.Word.Document = _
-      Globals.Factory.GetVstoObject(Globals.ThisAddIn.Application.ActiveDocument)
+      Globals.ThisAddIn.Application.ActiveDocument.GetVstoObject(Globals.Factory)
   ```
+  ---
 
+- You can alternatively access these methods on the object that is returned by the `Globals.Factory` property. When you access these methods in this way, you must pass the native object that you want to extend to the method.
+
+  ### [C#](#tab/csharp)
   ```csharp
   Microsoft.Office.Tools.Word.Document vstoDocument =
       Globals.Factory.GetVstoObject(Globals.ThisAddIn.Application.ActiveDocument);
   ```
+
+  ### [VB](#tab/vb)
+  ```vb
+  Dim vstoDocument as Microsoft.Office.Tools.Word.Document = _
+      Globals.Factory.GetVstoObject(Globals.ThisAddIn.Application.ActiveDocument)
+  ```
+  ---
 
   For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
 
@@ -145,12 +162,7 @@ Microsoft.Office.Tools.Word.Document vstoDocument =
 
   For example, in an Excel Workbook project that targets the .NET Framework 3.5, you might have a helper method that performs some work on instances of the generated `Sheet`*n* classes in your project.
 
-```vb
-Private Sub DoSomethingToSheet(ByVal worksheet As Microsoft.Office.Tools.Excel.Worksheet)
-    ' Do something to the worksheet object.
-End Sub
-```
-
+### [C#](#tab/csharp)
 ```csharp
 private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet)
 {
@@ -158,32 +170,46 @@ private void DoSomethingToSheet(Microsoft.Office.Tools.Excel.Worksheet worksheet
 }
 ```
 
+### [VB](#tab/vb)
+```vb
+Private Sub DoSomethingToSheet(ByVal worksheet As Microsoft.Office.Tools.Excel.Worksheet)
+    ' Do something to the worksheet object.
+End Sub
+```
+---
+
  If you retarget the project to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must make one of the following changes to your code:
 
 - Modify any code that calls the `DoSomethingToSheet` method to pass the <xref:Microsoft.Office.Tools.Excel.WorksheetBase.Base%2A> property of a <xref:Microsoft.Office.Tools.Excel.WorksheetBase> object in your project. This property returns a <xref:Microsoft.Office.Tools.Excel.Worksheet> object.
 
-    ```vb
-    DoSomethingToSheet(Globals.Sheet1.Base)
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     DoSomethingToSheet(Globals.Sheet1.Base);
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    DoSomethingToSheet(Globals.Sheet1.Base)
+    ```
+    ---
+
 - Modify the `DoSomethingToSheet` method parameter to expect a <xref:Microsoft.Office.Tools.Excel.WorksheetBase> object instead.
 
-    ```vb
-    Private Sub DoSomethingToSheet(ByVal worksheet As Microsoft.Office.Tools.Excel.WorksheetBase)
-        ' Do something to the worksheet object.
-    End Sub
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     private void DoSomethingToSheet (Microsoft.Office.Tools.Excel.WorksheetBase worksheet)
     {
         // Do something to the worksheet object.
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Private Sub DoSomethingToSheet(ByVal worksheet As Microsoft.Office.Tools.Excel.WorksheetBase)
+        ' Do something to the worksheet object.
+    End Sub
+    ```
+    ---
 
 ## <a name="winforms"></a> Update code that uses Windows Forms controls on documents
  You must add a **using** (C#) or **Imports** (Visual Basic) statement for the <xref:Microsoft.Office.Tools.Excel> or <xref:Microsoft.Office.Tools.Word> namespace to the top of any code file that uses the Controls property to add Windows Forms controls to the document or worksheet programmatically.

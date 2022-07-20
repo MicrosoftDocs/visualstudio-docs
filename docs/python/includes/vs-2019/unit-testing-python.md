@@ -1,7 +1,7 @@
 ---
 title: Unit test Python code
 description: Setting up unit testing for Python code in Visual Studio takes full advantage of Test Explorer features to discover, run, and debug tests.
-ms.date: 09/18/2019
+ms.date: 04/01/2022
 ms.topic: how-to
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -99,7 +99,7 @@ By default, Visual Studio identifies **unittest** and **pytest** tests as method
 
 1. You can also enter text in the **Search** field to filter tests by name.
 
-For more information on the `unittest` module and writing tests, see the [Python 2.7 documentation](https://docs.python.org/2/library/unittest.html) or the [Python 3.7 documentation](https://docs.python.org/3/library/unittest.html) (python.org).
+For more information on the `unittest` module and writing tests, see the [Python 3.10 documentation](https://docs.python.org/3.10/library/unittest.html).
 
 ## Run tests
 

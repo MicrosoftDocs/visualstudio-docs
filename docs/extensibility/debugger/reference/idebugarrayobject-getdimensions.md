@@ -16,23 +16,27 @@ ms.workload:
 - vssdk
 ---
 # IDebugArrayObject::GetDimensions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the dimensions of the array.
 
 ## Syntax
 
-```cpp
-HRESULT GetDimensions( 
-   DWORD dwCount,
-   DWORD dwDimensions[]
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDimensions(
    [In] uint    dwCount,
    [Out] uint[] dwDimensions
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDimensions( 
+   DWORD dwCount,
+   DWORD dwDimensions[]
+);
+```
+---
 
 ## Parameters
 `dwCount`\

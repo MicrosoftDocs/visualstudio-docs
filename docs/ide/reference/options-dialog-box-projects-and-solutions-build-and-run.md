@@ -20,6 +20,8 @@ ms.workload:
 ---
 # Options dialog box: Projects and Solutions \> Build and Run
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this dialog box, you can specify the maximum number of C++ or C# projects that can build at the same time, certain default build behaviors, and some build log settings. To access these options, select **Tools** > **Options** expand **Projects and Solutions**, and then select **Build and Run**.
 
 **Maximum number of parallel project builds**

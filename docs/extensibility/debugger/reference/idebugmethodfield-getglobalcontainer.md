@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugMethodField::GetGlobalContainer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the global container of the method.
 
 ## Syntax
 
-```cpp
-HRESULT GetGlobalContainer(
-   IDebugClassField** ppClass
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetGlobalContainer(
    out IDebugClassField ppClass
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetGlobalContainer(
+   IDebugClassField** ppClass
+);
+```
+---
 
 ## Parameters
 `ppClass`\

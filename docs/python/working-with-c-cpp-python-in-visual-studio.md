@@ -1,7 +1,8 @@
 ---
 title: Write C++ extensions for Python
 description: This article walks you through how to create a C++ extension for Python by using Visual Studio, CPython, and PyBind11, including mixed-mode debugging.
-ms.date: 05/11/2021
+ms.custom: devdivchpfy22
+ms.date: 02/25/2022
 ms.topic: how-to
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -12,10 +13,11 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Create a C++ extension for Python
 
-Modules that are written in C++ (or C) are commonly used to extend the capabilities of a Python interpreter. They're also used to enable access to low-level operating system capabilities. 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+Commonly, modules written in C++ (or C) are used to extend the capabilities of a Python interpreter. You can also use them to enable access to low-level operating system capabilities.
 
 Modules come in three primary types:
 
@@ -28,7 +30,7 @@ This article walks you through building a C++ extension module for `CPython` tha
 The article also demonstrates two ways to make the C++ extension available to Python:
 
 - Use the standard `CPython` extensions, as described in the [Python documentation](https://docs.python.org/3/c-api/).
-- Use [PyBind11](https://github.com/pybind/pybind11), which we recommend for C++11 because of its simplicity.
+- Use [PyBind11](https://github.com/pybind/pybind11), which we recommend for C++11 because of its simplicity. To ensure compatibility, make sure that you are working with one of the more recent versions of Python. 
 
 You'll find the completed sample from this walkthrough on GitHub at [python-samples-vs-cpp-extension](https://github.com/Microsoft/python-sample-vs-cpp-extension).
 
@@ -45,7 +47,9 @@ For more information about the installation options, see [Install Python support
 
 ## Create the Python application
 
-1. Create a new Python project in Visual Studio by selecting **File** > **New** > **Project**. Search for **Python**, select the **Python Application** template, enter a name and location, and then select **OK**.
+1. Create a new Python project in Visual Studio by selecting **File** > **New** > **Project**. 
+
+1. Search for **Python**, select the **Python Application** template, enter a name and location, and then select **OK**.
 
 1. In the project's *.py* file, paste the following code. To experience some of the [Python editing features](editing-python-code-in-visual-studio.md), try entering the code manually.  
 
@@ -88,9 +92,9 @@ For more information about the installation options, see [Install Python support
         test(lambda d: [tanh(x) for x in d], '[tanh(x) for x in d] (Python implementation)')
     ```
 
-1. To view the results, run the program by selecting **Debug** > **Start without Debugging** or by selecting Ctrl+F5. 
+1. To view the results, run the program by selecting **Debug** > **Start without Debugging** or by selecting **Ctrl+F5**.
 
-   You can adjust the `COUNT` variable to change how long the benchmark takes to run. For the purpose of this walkthrough, set the count so that the benchmark takes about two seconds.
+   You can adjust the `COUNT` variable to change how long the benchmark runs. For this walkthrough, set the count so that the benchmark takes about two seconds.
 
    > [!TIP]
    > When you run benchmarks, always use **Debug** > **Start without Debugging**. This helps avoid the overhead that you incur when you run the code within the Visual Studio debugger.
@@ -115,7 +119,7 @@ Follow the instructions in this section to create two identical C++ projects, *s
     > [!Important]
     > A file with the *.cpp* extension is necessary to turn on the C++ property pages in the steps that follow.
 
-1. On the main toolbar, use the dropdown menu to do either of the following:
+1. On the main toolbar, use the dropdown menu to select either of the following configurations:
 
    * For a 64-bit Python runtime, activate the **x64** configuration. 
    * For a 32-bit Python runtime, activate the **Win32** configuration.
@@ -135,7 +139,6 @@ Follow the instructions in this section to create two identical C++ projects, *s
     | Tab | Property | Value |
     | --- | --- | --- |
     | **General** | **Target Name** | Specify the name of the module to refer to it from Python in `from...import` statements. You use this same name in the C++ code when you define the module for Python. To use the name of the project as the module name, leave the default value of **$\<ProjectName>**.  For `python_d.exe`, add `_d` to the end of the name. |
-    | | **Configuration Type** | **Dynamic Library (.dll)** |
     | | **Advanced** > **Target File Extension** | **.pyd** |
     | | **Project Defaults** > **Configuration Type** | **Dynamic Library (.dll)** |
     | **C/C++** > **General** | **Additional Include Directories** | Add the Python *include* folder as appropriate for your installation (for example, `c:\Python36\include`).  |
@@ -146,23 +149,9 @@ Follow the instructions in this section to create two identical C++ projects, *s
 
     ::: moniker-end
 
-    ::: moniker range="=vs-2017"
-
-    | Tab | Property | Value |
-    | --- | --- | --- |
-    | **General** | **General** > **Target Name** | Specify the name of the module to refer to it from Python in `from...import` statements. You use this same name in the C++ code when you define the module for Python. To use the name of the project as the module name, leave the default value of **$\<ProjectName>**. For `python_d.exe`, add `_d` to the end of the name. |
-    | | **General** > **Target Extension** | **.pyd** |
-    | | **Project Defaults** > **Configuration Type** | **Dynamic Library (.dll)** |
-    | **C/C++** > **General** | **Additional Include Directories** | Add the Python *include* folder, as appropriate for your installation (for example, *c:\Python36\include*).  |
-    | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | If it's present, change the **_DEBUG** value to **NDEBUG** to match the non-debug version of `CPython`. When you're using `python_d.exe`, leave this value unchanged. |
-    | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** to match the non-debug version of `CPython`. When you're using `python_d.exe`, leave this value unchanged. |
-    | **Linker** > **General** | **Additional Library Directories** | Add the Python *libs* folder that contains *.lib* files, as appropriate for your installation (for example, *c:\Python36\libs*). Be sure to point to the *libs* folder that contains *.lib* files, and *not* the *Lib* folder that contains *.py* files. |
-    | | |
-
-    ::: moniker-end
     
     > [!NOTE]
-    > If the **C/C++** tab isn't displayed in the project properties, the project contains no files that it identifies as C/C++ source files. This condition can occur if you create a source file without a *.c* or *.cpp* file extension. 
+    > If the **C/C++** tab isn't displayed in the project properties, the project contains no files that identifies as C/C++ source files. This condition can occur if you create a source file without a *.c* or *.cpp* file extension. 
     > 
     > For example, if you accidentally entered *module.coo* instead of *module.cpp* earlier in the new item dialog, Visual Studio creates the file but doesn't set the file type to *C/C+ Code*, which activates the C/C++ properties tab. Such misidentification remains even if you rename the file with a *.cpp* file extension. 
     > 
@@ -201,7 +190,7 @@ Follow the instructions in this section to create two identical C++ projects, *s
 
 ## Convert the C++ projects to extensions for Python
 
-To make the C++ DLL an extension for Python, you first modify the exported methods to interact with Python types. You then add a function that exports the module, along with definitions of the module's methods.
+To make the C++ DLL an extension for Python, first modify the exported methods to interact with Python types. Then, add a function that exports the module, along with definitions of the module's methods.
 
 The sections that follow explain how you perform these steps by using both the CPython extensions and PyBind11.
 
@@ -263,11 +252,11 @@ For more background on the code shown in this section, see the [Python/C API Ref
     }
     ```
 
-1. Build the C++ project again to verify your code. If you encounter errors, see the ["Troubleshooting"](#troubleshoot-compiling-failures) section.
+1. Build the C++ project again to verify your code. If you come across errors, see the ["Troubleshooting"](#troubleshoot-compiling-failures) section.
 
 ### Use PyBind11
 
-If you completed the steps in the previous section, you certainly noticed that you used lots of boilerplate code to create the necessary module structures for the C++ code. PyBind11 simplifies the process through macros in a C++ header file that accomplish the same result, but with much less code. 
+If you've completed the steps in the previous section, you likely noticed that you used lots of boilerplate codes to create the necessary module structures for the C++ code. PyBind11 simplifies the process through macros in a C++ header file that accomplishes the same result, but with much less code. 
 
 For more information about the code in this section, see [PyBind11 basics](https://github.com/pybind/pybind11/blob/master/docs/basics.rst).
 
@@ -277,7 +266,7 @@ For more information about the code in this section, see [PyBind11 basics](https
 
 1. In the same terminal, run `python -m pybind11 --includes` or `py -m pybind11 --includes`. 
 
-   This prints a list of paths that you should add to your project's **C/C++** > **General** > **Additional Include Directories** property. Be sure to remove the `-I` prefix, if it's present.
+   This action prints a list of paths that you should add to your project's **C/C++** > **General** > **Additional Include Directories** property. Be sure to remove the `-I` prefix, if it's present.
 
 1. At the top of a fresh *module.cpp* that doesn't include any of the changes from the previous section, include *pybind11.h*:
 
@@ -311,11 +300,11 @@ The C++ module might fail to compile for the following reasons:
 
 - Error: Unable to locate *Python.h* (**E1696: cannot open source file "Python.h"** and/or **C1083: Cannot open include file: "Python.h": No such file or directory**) 
 
-  Solution: Verify that the path in **C/C++** > **General** > **Additional Include Directories** in the project properties points to your Python installation's *include* folder. See step 6 under [Create the core C++ project](#create-the-core-c-projects).
+  Solution: Verify that the path **C/C++** > **General** > **Additional Include Directories** in the project properties points to your Python installation's *include* folder. See step 6 under [Create the core C++ project](#create-the-core-c-projects).
 
 - Error: Unable to locate Python libraries 
  
-   Solution: Verify that the path in **Linker** > **General** > **Additional Library Directories** in the project properties points to your Python installation's *libs* folder. See step 6 under [Create the core C++ project](#create-the-core-c-projects).
+   Solution: Verify that the path: **Linker** > **General** > **Additional Library Directories** in the project properties points to your Python installation's *libs* folder. See step 6 under [Create the core C++ project](#create-the-core-c-projects).
 
 - Linker errors related to target architecture
    
@@ -400,7 +389,7 @@ You can make the DLL available to Python in any of several ways. Here are two ap
         > [!Tip]
         > If you've already installed the package, you'll see it listed here. Before you continue, click the **X** to uninstall it.
     
-    1. In the search box, paste the copied path, delete *pyproject.toml* from the end, and then select Enter to install the module from that directory.
+    1. In the search box, paste the copied path, delete *pyproject.toml* from the end, and then select **Enter** to install the module from that directory.
     
         > [!Tip]
         > If the installation fails because of a permission error, add *--user* to the end, and try the command again.
@@ -425,7 +414,7 @@ After you've made the DLL available to Python, as described in the preceding sec
     > [!NOTE]
     > If the **Start Without Debugging** command is disabled, in **Solution Explorer**, right-click the Python project, and then select **Set as Startup Project**.  
 
-    Observe that the C++ routines run approximately five to twenty times faster than the Python implementation. Typical output appears as follows:
+    Observe that the C++ routines run approximately five to 20 times faster than the Python implementation. Typical output appears as follows:
 
     ```output
     Running benchmarks with COUNT = 500000
@@ -440,9 +429,9 @@ After you've made the DLL available to Python, as described in the preceding sec
 
     A *debug* build of the C++ module also runs slower than a *release* build, because the debug build is less optimized and contains various error checks. Feel free to switch between those configurations for comparison, but remember to go back and update the properties that you set earlier for the release configuration.
 
-In the output, you might see that the PyBind11 extension isn't as fast as the CPython extension, though it should be significantly faster than the pure Python implementation. This difference is largely because you used the `METH_O` call, which doesn't support multiple parameters, parameter names, or keywords arguments. PyBind11 generates slightly more complex code to provide a more Python-like interface to callers. But, because the test code calls the function 500,000 times, the results might greatly amplify that overhead!
+In the output, you might see that the PyBind11 extension isn't as fast as the CPython extension, though it should be faster than the pure Python implementation. This difference is largely because you used the `METH_O` call, which doesn't support multiple parameters, parameter names, or keywords arguments. PyBind11 generates slightly more complex code to provide a more Python-like interface to callers. But, because the test code calls the function 500,000 times, the results might greatly amplify that overhead!
 
-You could reduce the overhead further by moving the `for` loop into the native code. This approach would involve using the [iterator protocol](https://docs.python.org/c-api/iter.html) (or the PyBind11 `py::iterable` type for [the function parameter](https://pybind11.readthedocs.io/en/stable/advanced/functions.html#python-objects-as-args)) to process each element. Removing the repeated transitions between Python and C++ is an effective way to reduce the time it takes to process the sequence.
+You could reduce the overhead further by moving the `for` loop into the native code. This approach involves using the [iterator protocol](https://docs.python.org/c-api/iter.html) (or the PyBind11 `py::iterable` type for [the function parameter](https://pybind11.readthedocs.io/en/stable/advanced/functions.html#python-objects-as-args)) to process each element. Removing the repeated transitions between Python and C++ is an effective way to reduce the time it takes to process the sequence.
 
 ### Troubleshoot importing errors
 
@@ -463,7 +452,7 @@ Visual Studio supports debugging Python and C++ code together. In this section, 
     > [!Tip]
     > When you enable native code debugging, the Python output window might close immediately after the program has finished without giving you the usual **Press any key to continue** pause. 
     >
-    > Solution: To force a pause after you've enabled native code debugging, add the `-i` option to the **Run** > **Interpreter Arguments** field on the **Debug** tab. This argument puts the Python interpreter into interactive mode after the code has run, at which point it waits for you to select Ctrl+Z and then Enter to close the window. 
+    > Solution: To force a pause after you've enabled native code debugging, add `-i` option to the **Run** > **Interpreter Arguments** field on the **Debug** tab. This argument puts the Python interpreter into interactive mode after the code has run, at which point it waits for you to select Ctrl+Z and then Enter to close the window. 
     >
     > Alternatively, if you don't mind modifying your Python code, you can add `import os` and `os.system("pause")` statements at the end of your program. This code duplicates the original pause prompt.
 
@@ -485,7 +474,7 @@ Visual Studio supports debugging Python and C++ code together. In this section, 
 
 ## Alternative approaches
 
-You can create Python extensions in a variety of ways, as described in the following table. The first two rows, `CPython` and `PyBind11`, are discussed in this article.
+You can create Python extensions in various ways, as described in the following table. The first two rows, `CPython` and `PyBind11`, are discussed in this article.
 
 | Approach | Vintage | Representative users | 
 | --- | --- | --- |

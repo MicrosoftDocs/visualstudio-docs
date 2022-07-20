@@ -1,8 +1,8 @@
 ---
 title: Extend a trial version or update a license
 description: Learn how to extend a free trial of Visual Studio, use an online subscription or product key to unlock Visual Studio, and update a stale or expired license.
-ms.date: 12/18/2019
-ms.topic: conceptual
+ms.date: 04/28/2022
+ms.topic: how-to
 ms.assetid: ffb580a1-8b5d-48f5-b811-87f8036f50ea
 author: anandmeg
 ms.author: meghaanand
@@ -13,13 +13,15 @@ ms.workload:
 ---
 # Extend a trial version or update a license
 
-You can evaluate a free trial of [Visual Studio Professional or Visual Studio Enterprise](https://visualstudio.microsoft.com/vs/compare/) for 30 days. And if you sign in, you can extend the trial period to 90 days. (Visual Studio Community is free without a trial period. However, you must [sign in](signing-in-to-visual-studio.md) periodically to keep your [license up to date](#update-a-stale-license).)
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+You can evaluate a free trial of [Visual Studio Professional or Visual Studio Enterprise](https://visualstudio.microsoft.com/vs/compare/) for 30 days. And if you sign in, you can extend the trial period to 90 days. (Visual Studio Community doesn't require you to sign-in. However, if the installation prompts you to sign-in periodically, [sign in](signing-in-to-visual-studio.md) to continue using Visual Studio Community without interruptions.)
 
 To continue using Visual Studio after a trial period ends, unlock it with an [online subscription](#use-an-online-subscription) or a [product key](#enter-a-product-key).
 
 ## Use an online subscription
 
-1. Choose the **Sign in** button in the upper-right corner of the IDE (or go to **File** > **Account Settings** to open the **Account Settings** dialog, and then choose the **Sign in** button).
+1. Choose the **Sign in** button in the upper-right corner of the IDE (or go to **File** > **Account Settings...** to open the **Account Settings** dialog, and then choose the **Sign in** button).
 
 1. Enter the credentials for either a Microsoft account or a work or school account. Visual Studio finds a Visual Studio subscription or an Azure DevOps organization associated with your account.
 

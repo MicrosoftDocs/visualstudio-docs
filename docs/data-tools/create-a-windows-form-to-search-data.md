@@ -20,6 +20,8 @@ ms.workload:
 ---
 # Create a Windows Form to search data
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 A common application scenario is to display selected data on a form. For example, you might want to display the orders for a specific customer or the details of a specific order. In this scenario, a user enters information into a form, and then a query is executed with the user's input as a parameter; that is, the data is selected based on a parameterized query. The query returns only the data that satisfies the criteria entered by the user. This walkthrough shows how to create a query that returns customers in a specific city, and modify the user interface so that users can enter a city's name and press a button to execute the query.
 
 Using parameterized queries helps make your application efficient by letting the database do the work it is best at — quickly filtering records. In contrast, if you request an entire database table, transfer it over the network, and then use application logic to find the records you want, your application can become slow and inefficient.
@@ -57,7 +59,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
        A query editor window opens.
 
-    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/master/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
+    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
@@ -65,37 +67,6 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create the Windows Forms application
 
-:::moniker range="vs-2017"
-
-Create a new **Windows Forms App (.NET Framework)** project for either C# or Visual Basic. Name the project **WindowsSearchForm**.
-
-## Create the data source
-
-This step creates a data source from a database using the **Data Source Configuration** wizard:
-
-1. To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
-
-2. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
-
-3. Select **Database** on the **Choose a Data Source Type** page, and then click **Next**.
-
-4. On the **Choose your Data Connection** page do one of the following:
-
-    - If a data connection to the Northwind sample database is available in the drop-down list, select it.
-
-    - Select **New Connection** to launch the **Add/Modify Connection** dialog box.
-
-5. If your database requires a password, select the option to include sensitive data, and then click **Next**.
-
-6. On the **Save connection string to the Application Configuration file** page, click **Next**.
-
-7. On the **Choose your Database Objects** page, expand the **Tables** node.
-
-8. Select the **Customers** table, and then click **Finish**.
-
-     The **NorthwindDataSet** is added to your project, and the **Customers** table appears in the **Data Sources** window.
-
-:::moniker-end
 
 :::moniker range=">=vs-2019"
 

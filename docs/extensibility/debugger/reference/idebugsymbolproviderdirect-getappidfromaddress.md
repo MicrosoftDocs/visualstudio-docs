@@ -18,23 +18,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProviderDirect::GetAppIDFromAddress
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the application domain identifier given the debug address.
 
 ## Syntax
 
-```cpp
-HRESULT GetAppIDFromAddress(
-   IDebugAddress* pAddress,
-   DWORD*         pAppID
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAppIDFromAddress(
    IDebugAddress pAddress,
    out uint      pAppID
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAppIDFromAddress(
+   IDebugAddress* pAddress,
+   DWORD*         pAppID
+);
+```
+---
 
 ## Parameters
 `pAddress`\

@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramPublisher2::SetDebuggerPresent
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Tells the program publisher that a debugger is present and running.
 
 ## Syntax
 
-```cpp
-HRESULT SetDebuggerPresent(
-   BOOL fDebuggerPresent
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetDebuggerPresent(
    int fDebuggerPresent
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetDebuggerPresent(
+   BOOL fDebuggerPresent
+);
+```
+---
 
 ## Parameters
 `fDebuggerPresent`\

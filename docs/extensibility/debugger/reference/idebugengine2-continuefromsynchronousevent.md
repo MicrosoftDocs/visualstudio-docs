@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngine2::ContinueFromSynchronousEvent
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Called by the session debug manager (SDM) to indicate that a synchronous debug event, previously sent by the debug engine (DE) to the SDM, was received and processed.
 
 ## Syntax
 
-```cpp
-HRESULT ContinueFromSynchronousEvent(
-    IDebugEvent2* pEvent
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 HRESULT ContinueFromSynchronousEvent(
     IDebugEvent2 pEvent
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ContinueFromSynchronousEvent(
+    IDebugEvent2* pEvent
+);
+```
+---
 
 ## Parameters
 `pEvent`\

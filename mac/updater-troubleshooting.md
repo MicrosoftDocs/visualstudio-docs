@@ -2,14 +2,16 @@
 title: "Updater has errors retrieving information"
 description: "Instructions on how to fix when you see the error 'Error retrieving update information'. in Visual Studio 2019 for Mac"
 ms.topic: troubleshooting
-author: heiligerdankgesang
-ms.author: dominicn
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 04/13/2019
 ms.technology: vs-ide-install
 ms.assetid: 31AF914A-C66B-4CD3-9429-39695E0E94AE
 ---
-
 # Troubleshooting: Updater has errors retrieving information
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 On a rare occasion, you may see the error message "Error retrieving update information" displayed when you try to [update Visual Studio for Mac](update.md). If this happens, try the following steps to fix it:
 

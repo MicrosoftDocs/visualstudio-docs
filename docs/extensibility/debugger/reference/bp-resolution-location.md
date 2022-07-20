@@ -19,10 +19,23 @@ dev_langs:
 - CSharp
 ---
 # BP_RESOLUTION_LOCATION
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the structure of the breakpoint resolution location.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public struct BP_RESOLUTION_LOCATION {
+    public uint   bpType;
+    public IntPtr unionmember1;
+    public IntPtr unionmember2;
+    public IntPtr unionmember3;
+    public uint   unionmember4;
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 struct _BP_RESOLUTION_LOCATION {
     BP_TYPE bpType;
@@ -33,16 +46,7 @@ struct _BP_RESOLUTION_LOCATION {
     } bpResLocation;
 } BP_RESOLUTION_LOCATION;
 ```
-
-```csharp
-public struct BP_RESOLUTION_LOCATION {
-    public uint   bpType;
-    public IntPtr unionmember1;
-    public IntPtr unionmember2;
-    public IntPtr unionmember3;
-    public uint   unionmember4;
-};
-```
+---
 
 ## Members
 `bpType`\

@@ -17,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # API reference (SharePoint tools extensibility)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This section contains API reference documentation for extending the SharePoint tools in Visual Studio.
 
 ## In this section

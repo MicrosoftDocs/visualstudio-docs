@@ -1,5 +1,5 @@
 ---
-title: "Using KubernetesLocalProcessConfig.yaml for additional configuration with for Bridge to Kubernetes"
+title: "Configure Bridge to Kubernetes"
 ms.date: 07/28/2020
 ms.topic: "conceptual"
 description: "Describes the additional configuration options for Bridge to Kubernetes using KubernetesLocalProcessConfig.yaml"
@@ -11,7 +11,7 @@ ms.technology: bridge
 ms.custom: "contperf-fy22q1"
 ---
 
-# Configure Bridge to Kubernetes
+# Configure Bridge to Kubernetes (KubernetesLocalProcessConfig.yaml)
 
 The `KubernetesLocalProcessConfig.yaml` file allows you to replicate environment variables and mounted files available to your pods in your cluster. You can specify the following actions in a `KubernetesLocalProcessConfig.yaml` file:
 

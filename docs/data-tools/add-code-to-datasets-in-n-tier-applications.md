@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Add code to DataSets in n-tier applications
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can extend the functionality of a dataset by creating a partial class file for the dataset and adding code to it (instead of adding code to the *DatasetName*.Dataset.Designer file). Partial classes enable code for a specific class to be divided among multiple physical files. For more information, see [Partial](/dotnet/visual-basic/language-reference/modifiers/partial) or [Partial classes and methods](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods).
 
 The code that defines a dataset is generated every time changes are made to the dataset definition (in the typed dataset). This code is also generated when you make changes during the running of any wizard that modifies the configuration of a dataset. To prevent your code from being deleted during the regeneration of a dataset, add code to the dataset's partial class file.
@@ -45,13 +47,7 @@ By default, after you separate the dataset and TableAdapter code, the result is 
 
      The following example shows where to add code to the CustomersDataTable in the NorthwindDataSet:
 
-    ```vb
-    Partial Public Class CustomersDataTable
-        ' Add code here to add functionality
-        ' to the CustomersDataTable.
-    End Class
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     partial class CustomersDataTable
     {
@@ -59,6 +55,15 @@ By default, after you separate the dataset and TableAdapter code, the result is 
         // to the CustomersDataTable.
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Partial Public Class CustomersDataTable
+        ' Add code here to add functionality
+        ' to the CustomersDataTable.
+    End Class
+    ```
+    ---
 
 ## See also
 

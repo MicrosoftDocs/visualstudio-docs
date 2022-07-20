@@ -23,6 +23,8 @@ ms.workload:
 ---
 # Run solutions in different versions of Microsoft Office
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 ## Run Office solutions created by using Visual Studio 2010 and above
 
 |Version of Office targeted by the project template|Target .NET Framework of the project<sup>1</sup>|Versions of Office that can run the solution|Required runtime on end-user computer|

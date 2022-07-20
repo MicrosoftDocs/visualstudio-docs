@@ -21,6 +21,8 @@ ms.workload:
   - "dotnet"
 ---
 # Supported code changes (C# and Visual Basic)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Edit and Continue handles most types of code changes within method bodies. Most changes outside method bodies, and a few changes within method bodies, cannot be applied during debugging, however. To apply those unsupported changes, you must stop debugging and restart with a fresh version of the code.
 
 ## Supported changes to code
@@ -80,10 +82,10 @@ The table below shows the changes that may be made to C# and Visual Basic code d
 
 ## Unsupported app scenarios
 
-Unsupported apps and platforms include Silverlight 5 and Windows 8.1. Unsupported scenarios in ASP.NET and ASP.NET Core include editing _.aspx_, _.ascx_, _.cshtml_, and _.razor_ files.
+Unsupported apps and platforms include Silverlight 5 and Windows 8.1. Unsupported scenarios in ASP.NET and ASP.NET Core include editing _.aspx_, _.ascx_, _.cshtml_, and _.razor_ files. Editing _.cshtml_, and _.razor_ files is supported in .NET 6 and later apps.
 
 > [!NOTE]
-> Apps that are supported include UWP in Windows 10, and x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only).
+> Apps that are supported include UWP in Windows 10 or Windows 11, and x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only).
 
 ## Unsupported scenarios
  Edit and Continue is not available in the following debugging scenarios:

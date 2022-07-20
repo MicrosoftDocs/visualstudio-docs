@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # VSSDK Utilities
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The topics in this section describe the tools that ship with the VSSDK.
 
 ## In This Section

@@ -2,7 +2,7 @@
 title: MSBuild Properties | Microsoft Docs
 description: Learn how MSBuild name-value property pairs can pass values to tasks, evaluate conditions, and store values.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 06/13/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, properties
@@ -28,7 +28,9 @@ Properties are name-value pairs that can be used to configure builds. Properties
 </PropertyGroup>
 ```
 
- Throughout the project file, properties are referenced by using the syntax $(\<PropertyName>). For example, the property in the previous example is referenced by using $(BuildDir).
+Valid property names begin with an uppercase or lowercase letter or underscore (`_`); valid subsequent characters include alphanumeric characters (letters or digits), underscore, and hyphen (`-`).
+
+ Throughout the project file, properties are referenced by using the syntax `$(<PropertyName>)`. For example, the property in the previous example is referenced by using `$(BuildDir)`.
 
  Property values can be changed by redefining the property. The `BuildDir` property can be given a new value by using this XML:
 
@@ -83,6 +85,9 @@ $(registry:Hive\MyKey\MySubKey)
 <PropertyGroup>
 ```
 
+> [!WARNING]
+> In the .NET SDK version of MSBuild (`dotnet build`), registry properties are not supported.
+
 ## Global properties
 
  MSBuild lets you set properties on the command line by using the **-property** (or **-p**) switch. These global property values override property values that are set in the project file. This includes environment properties, but does not include reserved properties, which cannot be changed.
@@ -117,7 +122,7 @@ msbuild.exe MyProj.proj -p:Configuration=DEBUG
 
 - A property can be emitted by the [CreateProperty](../msbuild/createproperty-task.md) task. This usage is deprecated.
 
-- Starting in the .NET Framework 3.5, `Target` elements may contain `PropertyGroup` elements that may contain property declarations.
+- `Target` elements may contain `PropertyGroup` elements that may contain property declarations.
 
 ## Store XML in properties
 

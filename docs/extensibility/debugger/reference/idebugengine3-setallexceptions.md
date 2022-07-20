@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngine3::SetAllExceptions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method sets the state of all outstanding exceptions.
 
 ## Syntax
 
-```cpp
-HRESULT SetAllExceptions(
-   EXCEPTION_STATE dwState
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetAllExceptions(
    enum_EXCEPTION_STATE dwState
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetAllExceptions(
+   EXCEPTION_STATE dwState
+);
+```
+---
 
 ## Parameters
 `dwState`\

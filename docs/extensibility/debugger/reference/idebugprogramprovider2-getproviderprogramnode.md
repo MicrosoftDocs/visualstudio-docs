@@ -19,21 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramProvider2::GetProviderProgramNode
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the program node for a specific program.
 
 ## Syntax
 
-```cpp
-HRESULT GetProviderProgramNode(
-   PROVIDER_FLAGS       Flags,
-   IDebugDefaultPort2*  pPort,
-   AD_PROCESS_ID        processId,
-   REFGUID              guidEngine,
-   UINT64               programId,
-   IDebugProgramNode2** ppProgramNode
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProviderProgramNode(
    enum_PROVIDER_FLAGS    Flags,
@@ -44,6 +36,18 @@ int GetProviderProgramNode(
    out IDebugProgramNode2 ppProgramNode
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProviderProgramNode(
+   PROVIDER_FLAGS       Flags,
+   IDebugDefaultPort2*  pPort,
+   AD_PROCESS_ID        processId,
+   REFGUID              guidEngine,
+   UINT64               programId,
+   IDebugProgramNode2** ppProgramNode
+);
+```
+---
 
 ## Parameters
 `Flags`\

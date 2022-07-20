@@ -75,7 +75,7 @@ Properties that are set in *Directory.Build.props* can be overridden elsewhere i
 When you need to set a property or define a target for an individual project that overrides any prior settings, put that logic in the project file after the final import. In order to do this in an SDK-style project, you first have to replace the SDK-style attribute with the equivalent imports. See [How to use MSBuild project SDKs](how-to-use-project-sdk.md).
 
 > [!NOTE]
-> The MSBuild engine reads in all imported files during evaluation, before starting build execution for any project (including any `PreBuildEvent`), so these files are not expected to be modified by the `PreBuildEvent` or any other part of the build process. Any modifications do not take effect until the next invocation of *MSBuild.exe* or the next Visual Studio build.
+> The MSBuild engine reads in all imported files during evaluation, before starting build execution for a project (including any `PreBuildEvent`), so these files are not expected to be modified by the `PreBuildEvent` or any other part of the build process. Any modifications do not take effect until the next invocation of *MSBuild.exe* or the next Visual Studio build. Also, if your build process contains many project builds (as with multitargeting or building dependent projects), then imported files, including *Directory.build.props* are read when evaluation occurs for each individual project build.
 
 ### Use case: multi-level merging
 
@@ -174,6 +174,22 @@ afterward. This convention allows installed SDKs to augment the build logic of c
 
 The same directory structure is searched in `$(MSBuildUserExtensionsPath)`, which is the per-user folder *%LOCALAPPDATA%\Microsoft\MSBuild*. Files placed in that folder will be imported for all builds of the corresponding project type run under that user's credentials. You can disable the user extensions by setting properties named after the importing file in the pattern `ImportUserLocationsByWildcardBefore{ImportingFileNameWithNoDots}`. For example, setting `ImportUserLocationsByWildcardBeforeMicrosoftCommonProps` to `false` would prevent importing `$(MSBuildUserExtensionsPath)\$(MSBuildToolsVersion)\Imports\Microsoft.Common.props\ImportBefore\*`.
 
+## Custom configuration based on project language
+
+If you need different behaviors depending on the .NET language (C#, Visual Basic, or F#), you can add property groups with conditions that depend on the project file extension in `$(MSBuildProjectExtension)` to define language-specific properties and their values.
+
+```xml
+<PropertyGroup Condition="'$(MSBuildProjectExtension)' == '.vbproj'">
+   <!-- Put VB-only property definitions here -->
+</PropertyGroup>
+<PropertyGroup Condition="'$(MSBuildProjectExtension)' == '.fsproj'">
+   <!-- Put F#-only property definitions here -->
+</PropertyGroup>
+<PropertyGroup Condition="'$(MSBuildProjectExtension)' == '.csproj'">
+   <!-- Put C#-only property definitions here -->
+</PropertyGroup>
+```
+
 ## Customize the solution build
 
 > [!IMPORTANT]
@@ -192,6 +208,10 @@ For example, you could define a new target to write a custom log message after b
 ```
 
 The solution build is separate from the project builds, so settings here do not affect project builds.
+
+When you have many solution files that you want to extend in the same way, but you don't want to write to the `$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\` folder (which usually requires elevated permissions), you can create the files *Directory.Solution.props* and *Directory.Solution.targets* and place them in the root path above the solution files you want to extend. *Directory.Solution.props* is imported at the beginning of the solution build, and *Directory.Solution.targets* is imported at the end of the solution build. When you build a solution file, *Directory.Build.props* and *Directory.Build.targets* are not imported, so you must use *Directory.Solution.props* and *Directory.Solution.targets* instead. They do not implicitly import each other.
+
+When you have *Directory.Solution.props* or *Directory.Solution.targets* in a root folder, but you have a solution under that folder that you don't want to import them, you can use the solution-specific files mentioned previously `before.{solutionname}.sln.targets` and `after.{solutionname}.sln.targets` to set the properties `$(ImportDirectorySolutionProps)` and `$(ImportDirectorySolutionTargets)` to false. Or, you can use the properties `$(DirectorySolutionPropsPath)` and `$(DirectorySolutionTargetsPath)` to specify a different location for those files. This could be helpful if you have various subsets of your solutions that require certain property values or targets common to the subsets.
 
 ## Customize all .NET builds
 
@@ -239,7 +259,7 @@ To customize the default values of properties for all C++ builds, create another
 
 ```xml
 <PropertyGroup>
-  <ForceImportAfterCppProps>$(MsbuildThisFileDirectory)\MyProps.props<ForceImportAfterCppProps>
+  <ForceImportAfterCppProps>$(MsbuildThisFileDirectory)\MyProps.props</ForceImportAfterCppProps>
 </PropertyGroup>
 ```
 

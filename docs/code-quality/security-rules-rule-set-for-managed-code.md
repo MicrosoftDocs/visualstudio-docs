@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Security Rules rule set for managed code
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Use the Microsoft Security Rules rule set for legacy code analysis to maximize the number of potential security issues that are reported.
 
 |Rule|Description|

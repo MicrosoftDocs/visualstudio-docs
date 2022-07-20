@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Contribute to the Add New Item dialog box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A project subtype can provide a complete new directory of items for the **Add New Item** dialog box by registering **Add Item** templates under the **Projects** registry subkey.
 
 ## Register Add New Item templates

@@ -20,10 +20,20 @@ dev_langs:
 - CSharp
 ---
 # INTERCEPT_EXCEPTION_ACTION
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies what actions to take when intercepting exceptions.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_INTERCEPT_EXCEPTION_ACTION
+{
+    IEA_INTERCEPT = 0x0001
+}
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_INTERCEPT_EXCEPTION_ACTION
 {
@@ -31,13 +41,7 @@ enum enum_INTERCEPT_EXCEPTION_ACTION
 }
 typedef DWORD INTERCEPT_EXCEPTION_ACTION;
 ```
-
-```csharp
-public enum enum_INTERCEPT_EXCEPTION_ACTION
-{
-    IEA_INTERCEPT = 0x0001
-}
-```
+---
 
 ## Parameters
 

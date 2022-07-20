@@ -24,6 +24,8 @@ ms.workload:
   - multiple
 ---
 # Troubleshoot specific errors in ClickOnce deployments
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This article lists the following common errors that can occur when you deploy a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, and provides steps to resolve each problem.
 
 ## General errors

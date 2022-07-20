@@ -24,6 +24,8 @@ ms.workload:
   - "multiple"
 ---
 # CRT Debugging Techniques
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If you are debugging a program that uses the C run-time library, these debugging techniques might be useful.
 
 ## In This Section

@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # SccGetEvents function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function retrieves a queued status event.
 
 ## Syntax

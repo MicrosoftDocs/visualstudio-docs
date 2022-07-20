@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Expose project objects
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Custom project types can provide automation objects in order to allow access to the project using automation interfaces. Every project type is expected to provide the standard <xref:EnvDTE.Project> automation object that is accessed from <xref:EnvDTE.Solution>, which contains a collection of all projects that are open in the IDE. Each item in the project is expected to be exposed by a <xref:EnvDTE.ProjectItem> object accessed with `Project.ProjectItems`. In addition to these standard automation objects, projects can choose to offer project-specific automation objects.
 
 You can create custom root-level automation objects that you can access late-bound from the root DTE object using `DTE.<customObjectName>` or `DTE.GetObject("<customObjectName>")`. For example, Visual C++ creates a C++ project-specific project collection called *VCProjects* that you can access using `DTE.VCProjects` or `DTE.GetObject("VCProjects")`. You can also create a `Project.Object`, which is unique for the project type, a `Project.CodeModel`, which can be queried for its most-derived object, and a `ProjectItem`, which exposes `ProjectItem.Object` and a `ProjectItem.FileCodeModel`.

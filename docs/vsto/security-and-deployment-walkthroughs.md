@@ -20,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # Security and deployment walkthroughs
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The following topics demonstrate how you can set security policy to allow your solution to run, and how you can deploy your Office solution.
 
 ## Security topics

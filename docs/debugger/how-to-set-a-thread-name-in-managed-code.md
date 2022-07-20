@@ -23,12 +23,15 @@ ms.workload:
   - dotnet
 ---
 # How to: Set a Thread Name in Managed Code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Thread naming is possible in any edition of Visual Studio. Thread naming is useful for keeping track of threads in the **Threads** window.
 
  To set a thread name in managed code, use the <xref:System.Threading.Thread.Name%2A> property.
 
 ## Example
 
+### [C#](#tab/csharp)
 ```csharp
 public class Needle
 {
@@ -52,6 +55,7 @@ public void Main()
 }
 ```
 
+### [VB](#tab/vb)
 ```VB
 Public Class Needle
     ' This method will be called when the thread is started.
@@ -71,6 +75,7 @@ Sub Main()
     oThread.Start()
 End Sub
 ```
+---
 
 ## See also
 - [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)

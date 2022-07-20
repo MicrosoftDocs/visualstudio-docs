@@ -19,22 +19,13 @@ dev_langs:
 - CSharp
 ---
 # CONTEXT_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure describes a memory context or code context.
 
 ## Syntax
 
-```cpp
-typedef struct _tagCONTEXT_INFO {
-    CONTEXT_INFO_FIELDS dwFields;
-    BSTR                bstrModuleUrl;
-    BSTR                bstrFunction;
-    TEXT_POSITION       posFunctionOffset;
-    BSTR                bstrAddress;
-    BSTR                bstrAddressOffset;
-    BSTR                bstrAddressAbsolute;
-} CONTEXT_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct CONTEXT_INFO {
     public uint          dwFields;
@@ -46,6 +37,19 @@ public struct CONTEXT_INFO {
     public string        bstrAddressAbsolute;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagCONTEXT_INFO {
+    CONTEXT_INFO_FIELDS dwFields;
+    BSTR                bstrModuleUrl;
+    BSTR                bstrFunction;
+    TEXT_POSITION       posFunctionOffset;
+    BSTR                bstrAddress;
+    BSTR                bstrAddressOffset;
+    BSTR                bstrAddressAbsolute;
+} CONTEXT_INFO;
+```
+---
 
 ## Members
 `dwFields`\

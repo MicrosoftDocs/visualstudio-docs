@@ -19,10 +19,20 @@ dev_langs:
 - CSharp
 ---
 # TYPE_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure specifies various kinds of information about a field's type.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public struct TYPE_INFO {
+   public uint   dwKind;
+   public IntPtr unionmember;
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 struct _tagTYPE_INFO_UNION {
    dwTYPE_KIND dwKind;
@@ -34,13 +44,7 @@ struct _tagTYPE_INFO_UNION {
    } type;
 } TYPE_INFO;
 ```
-
-```csharp
-public struct TYPE_INFO {
-   public uint   dwKind;
-   public IntPtr unionmember;
-};
-```
+---
 
 ## Members
  `dwKind`\

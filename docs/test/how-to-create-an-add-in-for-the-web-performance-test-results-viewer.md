@@ -15,6 +15,8 @@ ms.technology: vs-ide-test
 ---
 # How to: Create an add-in for the Web Performance Test Results Viewer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can extend the UI for the **Web Performance Test Results Viewer** by using the following namespaces:
 
 - <xref:Microsoft.VisualStudio.TestTools.LoadTesting>

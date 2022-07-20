@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Project Subtypes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Project subtypes let you customize or flavor the behavior of the project systems of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. Customizations include saving additional data in the project file, adding or filtering items in the **Add New Item** dialog box, controlling how assemblies are debugged and deployed, and extending the project **Property Pages** dialog box. VSPackages implement project subtypes using COM aggregation.
 
 > [!NOTE]

@@ -16,7 +16,9 @@ translation.priority.ht:
 ---
 ### Supported Operating Systems  
 
-The remote computer must be running one of the following operating systems:  
+The remote computer must be running one of the following operating systems: 
+
+- Windows 11
   
 - Windows 10 (not phone)
   
@@ -47,4 +49,4 @@ The remote computer must be running one of the following operating systems:
   
 ### Network configuration  
 
-The remote computer and the Visual Studio computer must be connected over a network, workgroup, or homegroup, or else connected directly through an Ethernet cable. Debugging between two computers connected through a proxy is not supported. Debugging over a high latency or low bandwidth connection, such as dialup Internet, or over the Internet across countries is not recommended and may fail or be unacceptably slow.
+The remote computer and the Visual Studio computer must be connected over a network, workgroup, or homegroup, or else connected directly through an Ethernet cable. Debugging between two computers connected through a proxy isn't supported. Debugging over a high latency or low bandwidth connection, such as dialup Internet, or over the Internet across countries isn't recommended and may fail or be unacceptably slow.

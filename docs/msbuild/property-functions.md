@@ -2,7 +2,7 @@
 title: Property Functions | Microsoft Docs
 description: Learn how to use property functions, which are calls to .NET Framework methods that appear in MSBuild property definitions.
 ms.custom: SEO-VS-2020
-ms.date: 02/21/2017
+ms.date: 10/20/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, property functions
@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Property functions
 
-Property functions are calls to .NET Framework methods that appear in MSBuild property definitions. Unlike tasks, property functions can be used outside of targets, and are evaluated before any target runs.
+Property functions are calls to .NET Framework methods that appear in MSBuild property definitions. Unlike tasks, property functions can be used outside of targets. Property functions are evaluated whenever the properties or items get expanded, which is before any target runs for properties and items outside of any targets, or when the target is evaluated, for property groups and item groups inside targets.
 
 Without using MSBuild tasks, you can read the system time, compare strings, match regular expressions, and perform other actions in your build script. MSBuild will try to convert string to number and number to string, and make other conversions as required.
 
@@ -184,7 +184,13 @@ You can combine property functions to form more complex functions, as the follow
 $([MSBuild]::BitwiseAnd(32, $([System.IO.File]::GetAttributes(tempFile))))
 ```
 
-This example returns the value of the <xref:System.IO.FileAttributes>`Archive` bit (32 or 0) of the file given by the path `tempFile`. Notice that enumerated data values cannot appear by name within property functions. The numeric value (32) must be used instead.
+This example returns the value of the <xref:System.IO.FileAttributes>.`Archive` bit (32 or 0) of the file given by the path `tempFile`. Notice that enumerated data values cannot appear by name in some contexts. In the previous example, the numeric value (32) must be used instead. In other cases, depending on the expectations of the method called, the enum data value must be used. In the following example, the enum value <xref:System.Text.RegularExpressions.RegexOptions>.`ECMAScript` must be used because a numeric value cannot be converted as this method expects.
+
+```xml
+<PropertyGroup>
+    <GitVersionHeightWithOffset>$([System.Text.RegularExpressions.Regex]::Replace("$(PrereleaseVersion)", "^.*?(\d+)$", "$1", "System.Text.RegularExpressions.RegexOptions.ECMAScript"))</GitVersionHeightWithOffset>
+</PropertyGroup>
+```
 
 Metadata may also appear in nested property functions. For more information, see [Batching](../msbuild/msbuild-batching.md).
 
@@ -237,7 +243,7 @@ The MSBuild `GetPathOfFileAbove` property function searches upward for a directo
 This property function has the following syntax:
 
 ```
-$([MSBuild]::GetDirectoryNameOfFileAbove(string file, [string startingDirectory]))
+$([MSBuild]::GetPathOfFileAbove(string file, [string startingDirectory]))
 ```
 
 where `file` is the name of the file to search for and `startingDirectory` is an optional directory to start the search in. By default, the search will start in the current file's own directory.
@@ -278,6 +284,9 @@ $([MSBuild]::GetRegistryValue(`HKEY_CURRENT_USER\Software\Microsoft\VisualStudio
 $([MSBuild]::GetRegistryValue(`HKEY_LOCAL_MACHINE\SOFTWARE\(SampleName)`, `(SampleValue)`))             // parens in name and value
 ```
 
+> [!WARNING]
+> In the .NET SDK version of MSBuild (`dotnet build`), this function is not supported.
+
 ## MSBuild GetRegistryValueFromView
 
 The MSBuild `GetRegistryValueFromView` property function gets system registry data given the registry key, value, and one or more ordered registry views. The key and value are searched in each registry view in order until they are found.
@@ -307,6 +316,9 @@ $([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Mic
 ```
 
 gets the **SLRuntimeInstallPath** data of the **ReferenceAssemblies** key, looking first in the 64-bit registry view and then in the 32-bit registry view.
+
+> [!WARNING]
+> In the .NET SDK version of MSBuild (`dotnet build`), this function is not supported.
 
 ## MSBuild MakeRelative
 
@@ -374,10 +386,12 @@ MSBuild 16.7 and higher define several functions for handling [TargetFramework a
 |Function signature|Description|
 |------------------------|-----------------|
 |GetTargetFrameworkIdentifier(string targetFramework)|Parse the TargetFrameworkIdentifier from the TargetFramework.|
-|GetTargetFrameworkVersion(string targetFramework)|Parse the TargetFrameworkVersion from the TargetFramework.|
+|GetTargetFrameworkVersion(string targetFramework, int versionPartCount)|Parse the TargetFrameworkVersion from the TargetFramework.|
 |GetTargetPlatformIdentifier(string targetFramework)|Parse the TargetPlatformIdentifier from the TargetFramework.|
-|GetTargetPlatformVersion(string targetFramework)|Parse the TargetPlatformVersion from the TargetFramework.|
+|GetTargetPlatformVersion(string targetFramework, int versionPartCount)|Parse the TargetPlatformVersion from the TargetFramework.|
 |IsTargetFrameworkCompatible(string targetFrameworkTarget, string targetFrameworkCandidate)|Return 'True' if the candidate target framework is compatible with this target framework and false otherwise.|
+
+The `versionPartCount` parameter of `GetTargetFrameworkVersion` and `GetTargetPlatformVersion` has a default value of 2.
 
 The following example shows how these functions are used. 
 

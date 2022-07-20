@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Work with textures and images
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can use the Image Editor in Visual Studio to create and modify textures and images. The Image Editor supports rich texture and image formats like those that are used in DirectX app development.
 
 > [!NOTE]

@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Managed Extensibility Framework in the editor
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The editor is built by using Managed Extensibility Framework (MEF) components. You can build your own MEF components to extend the editor, and your code can consume editor components as well.
 
 ## Overview of the Managed Extensibility Framework

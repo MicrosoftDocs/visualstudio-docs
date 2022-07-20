@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Removal of source control information from .proj and .sln files
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In version 1.2 of the Source Control Plug-in API the SCC information is stored in a MSSCCPRJ.SCC file. The advantage of the MSSCCPRJ.SCC file is that the SCC information is not source-controlled, like it is in .proj and .sln files.
 
 ## Version 1.2 Changes

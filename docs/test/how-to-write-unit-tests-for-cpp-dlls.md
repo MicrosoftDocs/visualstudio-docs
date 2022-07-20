@@ -12,6 +12,8 @@ author: corob-msft
 ---
 # Write unit tests for C++ DLLs in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 There are several ways to test DLL code, depending on whether it exports the functions that you want to test. Choose one of the following ways:
 
 **The unit tests call only functions that are exported from the DLL:**
@@ -62,11 +64,6 @@ Go to the procedure [To add unit tests in the same project](#sameProject).
 
       ::: moniker-end
 
-      ::: moniker range="vs-2017"
-
-      1. On the **File** menu, choose **New** > **Project** > **Visual C++** > **Test** > **C++ Unit Test Project**.
-
-      ::: moniker-end
 
   1. In **Solution Explorer**, right-click on the test project, then choose **Add** > **Reference**.
 
@@ -94,11 +91,6 @@ Go to the procedure [To add unit tests in the same project](#sameProject).
 
       ::: moniker-end
 
-      ::: moniker range="vs-2017"
-
-      1. On the **File** menu, choose **New** > **Project** > **Visual C++** > **Test** > **C++ Unit Test Project**.
-
-      ::: moniker-end
 
   1. In **Solution Explorer**, on the shortcut menu of the test project, choose **Properties**.
 

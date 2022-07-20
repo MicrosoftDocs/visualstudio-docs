@@ -18,6 +18,8 @@ ms.workload:
 - vssdk
 ---
 # Miscellaneous Files Project
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When a user opens project items, the IDE assigns to the Miscellaneous Files project any items that are not members of any projects in a solution.
 
  Projects play a significant role in determining which editor is used when a user opens a project item. A project can be designed to open certain files by using a project-specific editor or a standard editor.

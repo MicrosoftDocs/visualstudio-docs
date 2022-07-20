@@ -13,6 +13,8 @@ ms.workload:
 - vssdk
 ---
 # Visual Studio User Experience Guidelines
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Follow the Visual Studio User Experience Guidelines if you design new features for Visual Studio. These guidelines contain information about common user models and interaction patterns so that designers of new user interfaces (UI) can create user experiences that are seamless and consistent within the development environment.
 
 If you develop software for Microsoft products, learn to use these resources:

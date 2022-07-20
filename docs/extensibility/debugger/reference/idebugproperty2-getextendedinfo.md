@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty2::GetExtendedInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets extended information for the property.
 
 ## Syntax
 
-```cpp
-HRESULT GetExtendedInfo ( 
-   REFGUID* guidExtendedInfo,
-   VARIANT* pExtendedInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetExtendedInfo ( 
    ref Guid guidExtendedInfo,
    out object pExtendedInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetExtendedInfo ( 
+   REFGUID* guidExtendedInfo,
+   VARIANT* pExtendedInfo
+);
+```
+---
 
 ## Parameters
 `guidExtendedInfo`\

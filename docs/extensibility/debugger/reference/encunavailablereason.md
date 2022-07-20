@@ -19,10 +19,25 @@ dev_langs:
 - CSharp
 ---
 # EncUnavailableReason
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 `This is for internal use only!` Represents the reasons that **Edit and Continue** is not available.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum EncUnavailableReason {
+    ENCUN_NONE,
+    ENCUN_INTEROP,
+    ENCUN_SQLCLR,
+    ENCUN_MINIDUMP,
+    ENCUN_EMBEDDED,
+    ENCUN_ATTACH,
+    ENCUN_WIN64
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum tagEncUnavailableReason {
     ENCUN_NONE,
@@ -35,18 +50,7 @@ enum tagEncUnavailableReason {
 };
 typedef enum tagEncUnavailableReason EncUnavailableReason;
 ```
-
-```csharp
-public enum EncUnavailableReason {
-    ENCUN_NONE,
-    ENCUN_INTEROP,
-    ENCUN_SQLCLR,
-    ENCUN_MINIDUMP,
-    ENCUN_EMBEDDED,
-    ENCUN_ATTACH,
-    ENCUN_WIN64
-};
-```
+---
 
 ## Fields
 `ENCUN_NONE`\

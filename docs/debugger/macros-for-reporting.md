@@ -27,6 +27,8 @@ ms.workload:
   - "multiple"
 ---
 # Macros for Reporting
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 For debugging, you can use the **_RPTn** and **_RPTFn** macros, defined in CRTDBG.H, to replace the use of `printf` statements. You don't need to inclose them in **#ifdef**s, because they automatically disappear in your release build when **_DEBUG** isn't defined.
 
 |Macro|Description|

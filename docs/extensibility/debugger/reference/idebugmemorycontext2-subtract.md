@@ -20,23 +20,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugMemoryContext2::Subtract
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Subtracts the specified value from the current context and returns a new context.
 
 ## Syntax
 
-```cpp
-HRESULT Subtract( 
-   UINT64                 dwCount,
-   IDebugMemoryContext2** ppMemCxt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Subtract(
    ulong                    dwCount,
    out IDebugMemoryContext2 ppMemCxt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Subtract( 
+   UINT64                 dwCount,
+   IDebugMemoryContext2** ppMemCxt
+);
+```
+---
 
 ## Parameters
 `dwCount`\

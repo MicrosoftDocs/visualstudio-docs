@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugStackFrame3::GetUnwindCodeContext
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the code context representing a location if a stack unwind operation occurred.
 
 ## Syntax
 
-```cpp
-HRESULT GetUnwindCodeContext(
-   IDebugCodeContext2 **ppCodeContext
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetUnwindCodeContext(
    out IDebugCodeContext2 ppCodeContext
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetUnwindCodeContext(
+   IDebugCodeContext2 **ppCodeContext
+);
+```
+---
 
 ## Parameters
 `ppCodeContext`\

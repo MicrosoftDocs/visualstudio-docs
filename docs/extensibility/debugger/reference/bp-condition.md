@@ -19,20 +19,13 @@ dev_langs:
 - CSharp
 ---
 # BP_CONDITION
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the conditions under which a breakpoint fires.
 
 ## Syntax
 
-```cpp
-typedef struct _BP_CONDITION {
-    IDebugThread2* pThread;
-    BP_COND_STYLE  styleCondition;
-    BSTR           bstrContext;
-    BSTR           bstrCondition;
-    UINT           nRadix;
-} BP_CONDITION;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct BP_CONDITION {
     public IDebugThread2 pThread;
@@ -42,6 +35,17 @@ public struct BP_CONDITION {
     public uint          nRadix;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _BP_CONDITION {
+    IDebugThread2* pThread;
+    BP_COND_STYLE  styleCondition;
+    BSTR           bstrContext;
+    BSTR           bstrCondition;
+    UINT           nRadix;
+} BP_CONDITION;
+```
+---
 
 ## Members
 `pThread`\

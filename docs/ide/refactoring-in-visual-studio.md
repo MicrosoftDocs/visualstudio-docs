@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Refactor code
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Refactoring is the process of modifying code in order to make it easier to maintain, understand, and extend, but without changing its behavior.
 
 ## Programming languages

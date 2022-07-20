@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugBoundBreakpoint2::SetCondition
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets or changes the condition associated with this bound breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT SetCondition( 
-   BP_CONDITION bpCondition
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetCondition( 
    enum_BP_CONDITION bpCondition
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetCondition( 
+   BP_CONDITION bpCondition
+);
+```
+---
 
 ## Parameters
 `bpCondition`\

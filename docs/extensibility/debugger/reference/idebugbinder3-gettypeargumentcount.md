@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugBinder3::GetTypeArgumentCount
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns the number of argument types associated with this object.
 
 ## Syntax
 
-```cpp
-HRESULT GetTypeArgumentCount(
-   UINT* uCount
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetTypeArgumentCount(
    out uint uCount
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetTypeArgumentCount(
+   UINT* uCount
+);
+```
+---
 
 ## Parameters
 `uCount`\

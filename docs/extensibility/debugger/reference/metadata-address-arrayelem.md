@@ -20,23 +20,27 @@ dev_langs:
 ---
 # METADATA_ADDRESS_ARRAYELEM
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This structure represents an array element within an array.
 
 ## Syntax
 
-```cpp
-typedef struct _tagMETADATA_ADDRESS_ARRAYELEM {
-    _mdToken tokMethod;
-    DWORD    dwIndex;
-} METADATA_ADDRESS_ARRAYELEM;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct METADATA_ADDRESS_ARRAYELEM {
     public int  tokMethod;
     public uint dwIndex;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagMETADATA_ADDRESS_ARRAYELEM {
+    _mdToken tokMethod;
+    DWORD    dwIndex;
+} METADATA_ADDRESS_ARRAYELEM;
+```
+---
 
 ## Members
 

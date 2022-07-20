@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess3::GetEngineFilter
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an array of unique identifiers for available debug engines.
 
 ## Syntax
 
-```cpp
-HRESULT GetEngineFilter(
-   GUID_ARRAY *pEngineArray
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int GetEngineFilter(
    out GUID_ARRAY[] pEngineArray
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEngineFilter(
+   GUID_ARRAY *pEngineArray
+);
+```
+---
 
 ## Parameters
 `pEngineArray`\

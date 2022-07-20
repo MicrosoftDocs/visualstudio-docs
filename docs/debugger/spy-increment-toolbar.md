@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Spy++ Toolbar
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The toolbar appears under the menu bar in Spy++. To display or hide the toolbar, on the **View** menu, click **Toolbar**.
 
  The following controls are available on the toolbar.

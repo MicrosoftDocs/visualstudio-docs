@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Import items from an existing SharePoint site
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates how to import items from an existing SharePoint site into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project.
 
  This walkthrough demonstrates the following tasks:

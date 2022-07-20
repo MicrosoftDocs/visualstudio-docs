@@ -18,6 +18,8 @@ ms.workload:
 - multiple
 ---
 # Watch Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates and opens a specified instance of a **Watch** window. You can use a **Watch** window to calculate the values of variables, expressions, and registers, to edit these values, and to save the results.
 
 ## Syntax

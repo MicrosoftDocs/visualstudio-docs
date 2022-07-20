@@ -14,6 +14,8 @@ ms.technology: vs-ide-test
 ---
 # How to: Include recordings of the screen and voice during tests using test settings
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 From the configuration editor in Visual Studio, you can configure the diagnostic data adapter that records the screen and voice of the user who’s running the test. This diagnostic data adapter saves a screen and voice recording of the desktop session during the test. The recording is saved with the test result or it can be attached to a bug. Other team members can use the recording to isolate application defects that are difficult to reproduce.
 
 > [!WARNING]
@@ -55,10 +57,6 @@ The screen and voice recorder can be used with either manual or automated tests.
 
 7. Choose **OK**. The diagnostic trace collector settings are now configured and saved for your test settings.
 
-    ::: moniker range="vs-2017"
-    > [!TIP]
-    > To reset the configuration for this diagnostic data adapter, choose **Reset to default configuration** for Visual Studio and **Reset to default** for Microsoft Test Manager.
-    ::: moniker-end
     ::: moniker range=">=vs-2019"
     > [!TIP]
     > To reset the configuration for this diagnostic data adapter, choose **Reset to default configuration** in Visual Studio.
@@ -67,6 +65,6 @@ The screen and voice recorder can be used with either manual or automated tests.
 ## See also
 
 - [Collect diagnostic data while testing (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data?view=vsts&preserve-view=true)
-- [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts&preserve-view=true)
+- [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data)
 - [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md)
 - [Run manual tests (Azure Test Plans)](/azure/devops/test/run-manual-tests?view=vsts&preserve-view=true)

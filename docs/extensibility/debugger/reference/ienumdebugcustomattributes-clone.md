@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugCustomAttributes::Clone
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator that contains the same enumeration state as the current enumerator.
 
 ## Syntax
 
-```cpp
-HRESULT Clone ( 
-   IEnumCustomAttributes** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Clone(
    out IEnumDebugCustomAttributes ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Clone ( 
+   IEnumCustomAttributes** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

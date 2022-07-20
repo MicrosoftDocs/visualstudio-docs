@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject2::GetAlias
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the alias associated with this object, if any.
 
 ## Syntax
 
-```cpp
-HRESULT GetAlias(
-   IDebugAlias** ppAlias
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAlias(
    out IDebugAlias ppAlias
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAlias(
+   IDebugAlias** ppAlias
+);
+```
+---
 
 ## Parameters
 `ppAlias`\

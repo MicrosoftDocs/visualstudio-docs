@@ -19,19 +19,23 @@ dev_langs:
 - CSharp
 ---
 # IDebugExceptionEvent2::CanPassToDebuggee
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines whether or not the debug engine (DE) supports the option of passing this exception to the program being debugged when execution resumes.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int CanPassToDebuggee();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT CanPassToDebuggee(
    void
 );
 ```
-
-```csharp
-int CanPassToDebuggee();
-```
+---
 
 ## Return Value
  Returns either `S_OK` (the exception can be passed to the program) or `S_FALSE` (the exception cannot be passed on).

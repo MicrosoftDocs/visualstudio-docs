@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugProcessEx2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface lets the session debug manager (SDM) notify a process that it is attaching to or detaching from the process.
 
 ## Syntax

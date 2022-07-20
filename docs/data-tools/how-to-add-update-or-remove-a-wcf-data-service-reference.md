@@ -1,7 +1,7 @@
 ---
 title: Add, update, or remove a WCF data service reference
 description: Review how to add, update, or remove a Windows Communication Foundation (WCF) data service reference.
-ms.date: 11/04/2016
+ms.date: 11/22/2021
 ms.custom: SEO-VS-2020
 ms.topic: how-to
 helpviewer_keywords:
@@ -20,26 +20,29 @@ ms.workload:
 ---
 # How to: Add, update, or remove a WCF data service reference
 
-::: moniker range="vs-2017"
-A *service reference* enables a project to access one or more [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)]. Use the **Add Service Reference** dialog box to search for [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] in the current solution, locally, on a local area network, or on the Internet.
-::: moniker-end
-::: moniker range=">=vs-2019"
-You can use the **Connected Services** node in **Solution Explorer** to access the **Microsoft WCF Web Service Reference Provider**, which lets you manage Windows Communication Foundation (WCF) data service references.
-::: moniker-end
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+For .NET Framework projects, *service reference* enables a project to access one or more [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)]. Use the **Add Service Reference** dialog box to search for [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] in the current solution, locally, on a local area network, or on the Internet.
+
+:::moniker range=">=vs-2019"
+For .NET Core projects, you can use the **Connected Services** node in **Solution Explorer** to access the **Microsoft WCF Web Service Reference Provider**, which lets you manage Windows Communication Foundation (WCF) data service references.
+:::moniker-end
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 
+## Prerequisites
+
+The WCF tools are not installed with the .NET workload; use the Visual Studio Installer to modify your installation. In the installer, choose **Windows Communication Foundation** under Individual Components. See [Modify Visual Studio](../install/modify-visual-studio.md).
+
 ## Add a WCF service reference
 
-### To add a reference to an external service
-
-::: moniker range="vs-2017"
+### To add a reference to an external service (.NET Framework projects)
 
 1. In **Solution Explorer**, right-click the name of the project to which you want to add the service, and then click **Add Service Reference**.
 
    The **Add Service Reference** dialog box appears.
 
-1. In the **Address** box, enter the URL for the service, and then click **Go** to search for the service. If the service implements user name and password security, you may be prompted for a user name and password.
+1. In the **Address** box, enter the URL for the service, and then click **Go** to search for the service. If the service implements user name and password security, you may be prompted for a user name and password. You can also choose a service in your own solution. Choose the **Discover** button, and then choose **Services in Solution**.
 
     > [!NOTE]
     > You should only reference services from a trusted source. Adding references from an untrusted source may compromise security.
@@ -55,8 +58,10 @@ You can use the **Connected Services** node in **Solution Explorer** to access t
 1. Click **OK** to add the reference to the project.
 
      A service client (proxy) is generated, and metadata that describes the service is added to the *app.config* file.
-::: moniker-end
-::: moniker range=">=vs-2019"
+
+:::moniker range=">=vs-2019"
+### To add a reference to an external service (.NET Core projects, including .NET 5 and later)
+
 1. In **Solution Explorer**, double-click or tap the **Connected Services** node.
 
    The **Configure Services** tab opens.
@@ -66,7 +71,6 @@ You can use the **Connected Services** node in **Solution Explorer** to access t
    The **Configure WCF Web Service Reference** dialog appears.
 
    ![Screenshot of WCF Web Service Provider dialog box](media/vs-2019/configure-wcf-web-service-reference-dialog.png)
-
 
 1. In the **URI** box, enter the URL for the service, and then click **Go** to search for the service. If the service implements user name and password security, you may be prompted for a user name and password.
 
@@ -84,12 +88,9 @@ You can use the **Connected Services** node in **Solution Explorer** to access t
 1. Click **Finish** to add the reference to the project.
 
      A service client (proxy) is generated, and metadata that describes the service is added to the *app.config* file.
+:::moniker-end
 
-::: moniker-end
-
-### To add a reference to a service in the current solution
-
-::: moniker range="vs-2017"
+### To add a reference to a service in the current solution (.NET Framework projects)
 
 1. In **Solution Explorer**, right-click the name of the project to which you want to add the service, and then click **Add Service Reference**.
 
@@ -106,8 +107,11 @@ You can use the **Connected Services** node in **Solution Explorer** to access t
 1. Click **OK** to add the reference to the project.
 
     A service client (proxy) generates, and metadata that describes the service is added to the *app.config* file.
-::: moniker-end
-::: moniker range=">=vs-2019"
+
+:::moniker range=">=vs-2019"
+
+### To add a reference to a service in the current solution (.NET Core projects)
+
 1. In **Solution Explorer**, double-click or tap the **Connected Services** node. 
 
    The **Configure Services** tab opens.
@@ -128,7 +132,7 @@ You can use the **Connected Services** node in **Solution Explorer** to access t
 
     A service client (proxy) generates, and metadata that describes the service is added to the *app.config* file.
 
-::: moniker-end
+:::moniker-end
 
 ## Update a service reference
 
@@ -136,9 +140,16 @@ The Entity Data Model for a [!INCLUDE[ssAstoria](../data-tools/includes/ssastori
 
 ### To update a service reference
 
+:::moniker range="<=vs-2019"
 - In **Solution Explorer**, right-click the service reference and then click **Update Service Reference**.
 
      A progress dialog box displays while the reference is updated from its original location, and the service client is regenerated to reflect any changes in the metadata.
+:::moniker-end
+:::moniker range=">=vs-2022"
+- In **Solution Explorer**, expand the **Connected Services** node, right-click the service reference, and then click **Update Service Reference**.
+
+     A progress dialog box displays while the reference is updated from its original location, and the service client is regenerated to reflect any changes in the metadata.
+:::moniker-end
 
 ## Remove a service reference
 

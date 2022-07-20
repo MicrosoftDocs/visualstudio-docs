@@ -19,6 +19,8 @@ ms.technology: vs-ide-test
 ---
 # Configure ports for test controllers and test agents
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can change the default incoming ports used by the test controller, the test agent, and the client. This might be necessary if you are trying to use the test controller, the test agent, or the client together with some other software that conflicts with the port settings. Another reason to change the ports is due to the firewall restriction between the test controller and the client. In this case you might want to manually configure the port to accommodate enabling it for a firewall so that the test controller can send results to the client.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]

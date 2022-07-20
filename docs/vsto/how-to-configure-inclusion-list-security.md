@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Configure inclusion list security
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   If you have Administrator permissions, you can configure the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] trust prompt to control whether end users are given the option of installing Office solutions by saving a trust decision to the inclusion list. For information about inclusion lists, see [Trust Office solutions by using inclusion lists](../vsto/trusting-office-solutions-by-using-inclusion-lists.md).
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
@@ -65,17 +67,7 @@ ms.workload:
 
 2. Open the *Program.vb* or *Program.cs* file for editing and add the following code.
 
-    ```vb
-    Dim key As Microsoft.Win32.RegistryKey
-    key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager\PromptingLevel")
-    key.SetValue("MyComputer", "Enabled")
-    key.SetValue("LocalIntranet", "Enabled")
-    key.SetValue("Internet", "AuthenticodeRequired")
-    key.SetValue("TrustedSites", "Enabled")
-    key.SetValue("UntrustedSites", "Disabled")
-    key.Close()
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     Microsoft.Win32.RegistryKey key;
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\\MICROSOFT\\.NETFramework\\Security\\TrustManager\\PromptingLevel");
@@ -86,6 +78,19 @@ ms.workload:
     key.SetValue("UntrustedSites", "Disabled");
     key.Close();
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Dim key As Microsoft.Win32.RegistryKey
+    key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager\PromptingLevel")
+    key.SetValue("MyComputer", "Enabled")
+    key.SetValue("LocalIntranet", "Enabled")
+    key.SetValue("Internet", "AuthenticodeRequired")
+    key.SetValue("TrustedSites", "Enabled")
+    key.SetValue("UntrustedSites", "Disabled")
+    key.Close()
+    ```
+    ---
 
 3. Build and run the application.
 
@@ -124,17 +129,7 @@ ms.workload:
 
 2. Open the *Program.vb* or *Program.cs* file for editing and add the following code.
 
-    ```vb
-    Dim key As Microsoft.Win32.RegistryKey
-    key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager\PromptingLevel")
-    key.SetValue("MyComputer", "AuthenticodeRequired")
-    key.SetValue("LocalIntranet", "AuthenticodeRequired")
-    key.SetValue("Internet", "AuthenticodeRequired")
-    key.SetValue("TrustedSites", "AuthenticodeRequired")
-    key.SetValue("UntrustedSites", "Disabled")
-    key.Close()
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     Microsoft.Win32.RegistryKey key;
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\\MICROSOFT\\.NETFramework\\Security\\TrustManager\\PromptingLevel");
@@ -145,6 +140,19 @@ ms.workload:
     key.SetValue("UntrustedSites", "Disabled");
     key.Close();
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Dim key As Microsoft.Win32.RegistryKey
+    key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager\PromptingLevel")
+    key.SetValue("MyComputer", "AuthenticodeRequired")
+    key.SetValue("LocalIntranet", "AuthenticodeRequired")
+    key.SetValue("Internet", "AuthenticodeRequired")
+    key.SetValue("TrustedSites", "AuthenticodeRequired")
+    key.SetValue("UntrustedSites", "Disabled")
+    key.Close()
+    ```
+    ---
 
 3. Build and run the application.
 
@@ -179,17 +187,7 @@ ms.workload:
 
 2. Open the *Program.vb* or *Program.cs* file for editing and add the following code.
 
-    ```vb
-    Dim key As Microsoft.Win32.RegistryKey
-    key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager\PromptingLevel")
-    key.SetValue("MyComputer", "Disabled")
-    key.SetValue("LocalIntranet", "Disabled")
-    key.SetValue("Internet", "Disabled")
-    key.SetValue("TrustedSites", "Disabled")
-    key.SetValue("UntrustedSites", "Disabled")
-    key.Close()
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     Microsoft.Win32.RegistryKey key;
     key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\\MICROSOFT\\.NETFramework\\Security\\TrustManager\\PromptingLevel");
@@ -201,6 +199,19 @@ ms.workload:
     key.Close();
 
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Dim key As Microsoft.Win32.RegistryKey
+    key = Microsoft.Win32.Registry.LocalMachine.CreateSubKey("SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager\PromptingLevel")
+    key.SetValue("MyComputer", "Disabled")
+    key.SetValue("LocalIntranet", "Disabled")
+    key.SetValue("Internet", "Disabled")
+    key.SetValue("TrustedSites", "Disabled")
+    key.SetValue("UntrustedSites", "Disabled")
+    key.Close()
+    ```
+    ---
 
 3. Build and run the application.
 

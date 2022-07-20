@@ -19,10 +19,20 @@ dev_langs:
 - CSharp
 ---
 # GETHOSTNAME_TYPE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the type of host name.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_GETHOSTNAME_TYPE {
+    GHN_FRIENDLY_NAME = 0,
+    GHN_FILE_NAME     = 1
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_GETHOSTNAME_TYPE {
     GHN_FRIENDLY_NAME = 0,
@@ -30,13 +40,7 @@ enum enum_GETHOSTNAME_TYPE {
 };
 typedef DWORD GETHOSTNAME_TYPE;
 ```
-
-```csharp
-public enum enum_GETHOSTNAME_TYPE {
-    GHN_FRIENDLY_NAME = 0,
-    GHN_FILE_NAME     = 1
-};
-```
+---
 
 ## Fields
 `GHN_FRIENDLY_NAME`\

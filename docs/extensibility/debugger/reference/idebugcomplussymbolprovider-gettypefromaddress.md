@@ -18,23 +18,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetTypeFromAddress
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves to a symbol type given its debug address.
 
 ## Syntax
 
-```cpp
-HRESULT GetTypeFromAddress(
-    IDebugAddress* pAddress,
-    IDebugField**  ppField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetTypeFromAddress(
     IDebugAddress   pAddress,
     out IDebugField ppField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetTypeFromAddress(
+    IDebugAddress* pAddress,
+    IDebugField**  ppField
+);
+```
+---
 
 ## Parameters
 `pAddress`\

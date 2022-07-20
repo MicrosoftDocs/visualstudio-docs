@@ -17,6 +17,8 @@ ms.technology: vs-ide-test
 ---
 # How to: Add a threshold rule using the load test editor
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Threshold rules in load tests compare a performance counter value with either a constant value or another performance counter value.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]

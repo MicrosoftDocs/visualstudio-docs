@@ -1,14 +1,16 @@
 ---
 title: "Keyboard navigation in Visual Studio for Mac"
 description: "Using Visual Studio for Mac with keyboard commands"
-author: heiligerdankgesang
-ms.author: dominicn
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 09/23/2019
 ms.assetid: EF574E49-0465-4973-BE67-286DA20B8836
 ms.topic: how-to
 ---
-
 # Keyboard navigation in Visual Studio for Mac
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 Visual Studio for Mac is accessible by keyboard users using most common macOS keyboard shortcuts, as well as many that are specific to Visual Studio for Mac. Here, you learn about some basic keyboard commands for both, and how to set up Visual Studio for Mac keyboard shortcuts.
 

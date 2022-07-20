@@ -21,6 +21,8 @@ ms.workload:
 ---
 # How to: Flag and Unflag Threads (C#, Visual Basic, C++)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can flag a thread that you want to give special attention by marking it with an icon in the **Threads**, **Parallel Stacks** (thread view), **Parallel Watch**, and **GPU Threads** windows. This icon can help you and others distinguish flagged threads from other threads.
 
 Flagged threads also receive special treatment in the **Thread** list on the **Debug Location** toolbar and in the other multithreaded debugging windows. You can show all threads or only flagged threads in the **Thread** list or in the other windows.

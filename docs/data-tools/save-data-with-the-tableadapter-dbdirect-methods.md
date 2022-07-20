@@ -1,6 +1,6 @@
 ---
 title: Save data with the TableAdapter DBDirect methods
-description: In this walkthrough, run SQL statements directly against a database by using the DBDirect methods of a TableAdapter.
+description: In this tutorial, run SQL statements directly against a database by using the DBDirect methods of a TableAdapter.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -8,9 +8,9 @@ dev_langs:
 - VB
 - CSharp
 helpviewer_keywords:
-- TableAdapters, walkthroughs
+- TableAdapters, tutorials
 - data [Visual Studio], saving
-- saving data, walkthroughs
+- saving data, tutorials
 - data [Visual Studio], TableAdapter
 ms.assetid: 74a6773b-37e1-4d96-a39c-63ee0abf49b1
 author: ghogen
@@ -22,11 +22,11 @@ ms.workload:
 ---
 # Save data with the TableAdapter DBDirect methods
 
-This walkthrough provides detailed instructions for running SQL statements directly against a database by using the DBDirect methods of a TableAdapter. The DBDirect methods of a TableAdapter provide a fine level of control over your database updates. You can use them to run specific SQL statements and stored procedures by calling the individual `Insert`, `Update`, and `Delete` methods as needed by your application (as opposed to the overloaded `Update` method that performs the UPDATE, INSERT, and DELETE statements all in one call).
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-During this walkthrough, you will learn how to:
+This tutorial provides detailed instructions for running SQL statements directly against a database by using the DBDirect methods of a TableAdapter. The DBDirect methods of a TableAdapter provide a fine level of control over your database updates. You can use them to run specific SQL statements and stored procedures by calling the individual `Insert`, `Update`, and `Delete` methods as needed by your application (as opposed to the overloaded `Update` method that performs the UPDATE, INSERT, and DELETE statements all in one call).
 
-- Create a new **Windows Forms Application**.
+During this tutorial, you will learn how to:
 
 - Create and configure a dataset with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).
 
@@ -38,7 +38,9 @@ During this walkthrough, you will learn how to:
 
 ## Prerequisites
 
-This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
+The steps in this tutorial work with .NET Framework Windows Forms Applications.
+
+This tutorial uses SQL Server Express LocalDB and the Northwind sample database.
 
 1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
 
@@ -48,7 +50,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
        A query editor window opens.
 
-    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/master/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
+    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
@@ -56,17 +58,10 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create a Windows Forms application
 
-The first step is to create a **Windows Forms Application**.
+The first step is to create a **Windows Forms Application**. Create a project using the **Windows Forms App** project type, using C# or Visual Basic.
 
-1. In Visual Studio, on the **File** menu, select **New** > **Project**.
-
-2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
-
-3. In the middle pane, select the **Windows Forms App** project type.
-
-4. Name the project **TableAdapterDbDirectMethodsWalkthrough**, and then choose **OK**.
-
-     The **TableAdapterDbDirectMethodsWalkthrough** project is created and added to **Solution Explorer**.
+> [!NOTE]
+> The code for this tutorial is available in C# and Visual Basic. To switch the code language on this page between C# and Visual Basic, use the code language switcher at the top of the page on the right side.
 
 ## Create a data source from your database
 
@@ -126,8 +121,15 @@ A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:Syste
 
 2. Replace the `InsertButton_Click` event handler with the following code:
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form1.vb" id="Snippet1":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form1.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form1.vb" id="Snippet1":::
+     ---
+
+     > [!NOTE]
+     > Depending on your Visual Studio version and the project templates you used, the variable names like `regionTableAdapter` or `regionTableAdapter1` used in this code might or might not have a trailing 1 in the generated code. Make any corrections in your code to ensure that the correct name is used everywhere. Visual Studio shows a red squiggle where the name is incorrect.
 
 ### To add code to update records in the database
 
@@ -135,8 +137,12 @@ A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:Syste
 
 2. Replace the `UpdateButton_Click` event handler with the following code:
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form1.vb" id="Snippet2":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form1.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form1.vb" id="Snippet2":::
+     ---
 
 ### To add code to delete records from the database
 
@@ -144,8 +150,12 @@ A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:Syste
 
 2. Replace the `DeleteButton_Click` event handler with the following code:
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form1.vb" id="Snippet3":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form1.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form1.vb" id="Snippet3":::
+     ---
 
 ## Run the application
 
@@ -159,7 +169,7 @@ A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:Syste
 
 ## Next steps
 
-Depending on your application requirements, there are several steps you might want to perform after creating a data-bound form. Some enhancements you could make to this walkthrough include:
+Depending on your application requirements, there are several steps you might want to perform after creating a data-bound form. Some enhancements you could make to this tutorial include:
 
 - Adding search functionality to the form.
 

@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Convert a foreach loop to LINQ
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This refactoring applies to:
 
 - C#

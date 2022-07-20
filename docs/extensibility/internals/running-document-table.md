@@ -19,6 +19,8 @@ ms.workload:
 - vssdk
 ---
 # Running Document Table
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The IDE maintains the list of all currently open documents in an internal structure called the running document table (RDT). This list includes all open documents in memory, regardless of whether these documents are currently being edited. A document is any item that is persisted, including files in a project or the main project file (for example, a .vcxproj file).
 
 ## Elements of the Running Document Table

@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Walkthrough: Missing Objects Due to Device State
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics to investigate an object that is missing due to misconfigured device state.
 
  This walkthrough demonstrates how to:

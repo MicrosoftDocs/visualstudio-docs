@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess2::GetPort
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the port that the process is running on.
 
 ## Syntax
 
-```cpp
-HRESULT GetPort( 
-   IDebugPort2** ppPort
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPort( 
    out IDebugPort2 ppPort
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPort( 
+   IDebugPort2** ppPort
+);
+```
+---
 
 ## Parameters
 `ppPort`\

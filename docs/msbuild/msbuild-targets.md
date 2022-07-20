@@ -2,7 +2,7 @@
 title: MSBuild Targets | Microsoft Docs
 description: Learn how MSBuild uses targets to group tasks together and allow the build process to be factored into smaller units.
 ms.custom: SEO-VS-2020
-ms.date: 09/21/2021
+ms.date: 04/18/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, targets
@@ -113,7 +113,7 @@ Reference: 4.0
 
 ## Default build targets
 
-The following lists the public targets in Microsoft.Common.CurrentVersion.Targets.
+The following lists the public targets in Microsoft.Common.CurrentVersion.Targets. To get all targets available for a project file, use the `-targets` or `-ts` command-line option. See [MSBuild command line reference](msbuild-command-line-reference.md).
 
 ```xml
 ===================================================

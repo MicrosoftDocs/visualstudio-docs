@@ -3,8 +3,8 @@ title: Should I sign in using my work email or my personal email?
 description: To access a subscription, you should sign in with the email address to which the subscription is assigned. In most cases the...
 ms.topic: include
 ms.assetid: 68d39644-b5ce-4824-bd24-dd5bb27198dc
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 4/3/2020
 ms.faqid: q1_1
 ---

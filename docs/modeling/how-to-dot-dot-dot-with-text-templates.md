@@ -12,6 +12,8 @@ ms.workload:
 - multiple
 ---
 # How to ... with Text Templates
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Text templates in Visual Studio provide a useful way of generating text of any kind. You can use text templates to generate text at run time as part of your application and at design time to generate some of your project code. This topic summarizes the most frequently asked "How do I ...?" questions.
 
  In this topic, multiple answers that are preceded by bullets are alternative suggestions.

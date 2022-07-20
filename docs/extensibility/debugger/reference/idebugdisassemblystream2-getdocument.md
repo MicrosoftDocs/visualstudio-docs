@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugDisassemblyStream2::GetDocument
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the source document associated with this input stream.
 
 ## Syntax
 
-```cpp
-HRESULT GetDocument( 
-   BSTR              bstrDocumentUrl,
-   IDebugDocument2** ppDocument
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocument( 
    string              bstrDocumentUrl,
    out IDebugDocument2 ppDocument
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocument( 
+   BSTR              bstrDocumentUrl,
+   IDebugDocument2** ppDocument
+);
+```
+---
 
 ## Parameters
 `bstrDocumentUrl`\

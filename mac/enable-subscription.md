@@ -1,13 +1,16 @@
 ---
 title: "Enable Subscription"
 description: This article describes how to use your Microsoft account to enable your subscription and unlock features in Visual Studio for Mac
-author: heiligerdankgesang
-ms.author: dominicn
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 01/21/2020
+ms.topic: how-to
 ms.assetid: 898DFEB8-5757-4CCE-8AD2-8BC7706F5855
 ---
-
 # Enable Subscription
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 Visual Studio for Mac provides you with three different subscription levels to choose from, all accessible from one download:
 

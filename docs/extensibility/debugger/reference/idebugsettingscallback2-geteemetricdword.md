@@ -17,19 +17,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugSettingsCallback2::GetEEMetricDword
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a value that corresponds to the specified metric of the expression evaluator.
 
 ## Syntax
 
-```cpp
-HRESULT GetEEMetricDword(
-   REFGUID guidLang,
-   REFGUID guidVendor,
-   LPCWSTR pszMetric,
-   DWORD*  pdwValue
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 private int GetEEMetricDword(
    ref Guid guidLang,
@@ -38,6 +32,16 @@ private int GetEEMetricDword(
    out uint pdwValue
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEEMetricDword(
+   REFGUID guidLang,
+   REFGUID guidVendor,
+   LPCWSTR pszMetric,
+   DWORD*  pdwValue
+);
+```
+---
 
 ## Parameters
 `guidLang`\

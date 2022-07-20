@@ -20,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # Call into the SharePoint object models
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you create extensions for the SharePoint tools in Visual Studio, you might have to call SharePoint APIs to perform certain tasks. For example, if you create a custom deployment step for SharePoint projects, you might have to call SharePoint APIs to perform some of the tasks to deploy solutions.
 
  [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] and [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)] provide two different object models that you can use in SharePoint tools extensions: a server object model and a client object model. Each object model has benefits and drawbacks in the context of SharePoint tools extensions.

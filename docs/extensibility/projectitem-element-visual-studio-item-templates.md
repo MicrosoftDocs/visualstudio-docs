@@ -18,6 +18,8 @@ ms.workload:
 - vssdk
 ---
 # ProjectItem element (Visual Studio item templates)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies a file that is included in the item template.
 
 > [!NOTE]

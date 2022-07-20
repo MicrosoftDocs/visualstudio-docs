@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject::SetValue
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the value of the object from a consecutive series of bytes.
 
 ## Syntax
 
-```cpp
-HRESULT SetValue( 
-   BYTE* pValue,
-   UINT  nSize
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetValue(
    byte[] pValue,
    uint   nSize
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetValue( 
+   BYTE* pValue,
+   UINT  nSize
+);
+```
+---
 
 ## Parameters
 `pValue`\

@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaDataSource::loadDataForExe
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Opens and prepares the debug data associated with the .exe/.dll file.
 
 ## Syntax

@@ -18,18 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider2::GetTypesByName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a type given its name.
 
 ## Syntax
 
-```cpp
-HRESULT GetTypesByName(
-    LPCOLESTR          pszClassName,
-    NAME_MATCH         nameMatch,
-    IEnumDebugFields** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetTypesByName(
     string               pszClassName,
@@ -37,6 +32,15 @@ int GetTypesByName(
     out IEnumDebugFields ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetTypesByName(
+    LPCOLESTR          pszClassName,
+    NAME_MATCH         nameMatch,
+    IEnumDebugFields** ppEnum
+);
+```
+---
 
 ## Parameters
 `pszClassName`\

@@ -17,6 +17,8 @@ ms.workload:
   - multiple
 ---
 # CvReleaseMarkerSeries function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Releases marker series. Do not use marker series object after releasing otherwise the application might crash. Failure to release marker series causes a memory leak.
 
 ## Syntax

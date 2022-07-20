@@ -19,6 +19,8 @@ ms.workload:
 - vssdk
 ---
 # Assembly element (Visual Studio templates)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies information about an assembly, which the template uses to add a reference of that assembly to projects.
 
  \<VSTemplate>

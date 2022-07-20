@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Source Control VSPackage Design Elements
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The topics in this section outline the structure the source control VSPackage must implement for deep integration. It also lists the interfaces and services that the source control VSPackage can implement, and the interfaces and services the source control VSPackage can use from other [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] components to support its source control model and functionality.
 
 ## In This Section

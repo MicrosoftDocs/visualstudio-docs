@@ -14,6 +14,8 @@ ms.technology: vs-ide-test
 ---
 # How to: Configure network emulation using test settings in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can configure the diagnostic data adapter to test your application under various network environments from Visual Studio. It can also be configured to test an artificial network load, or bottleneck, when you run your tests.
 
 > [!WARNING]
@@ -21,9 +23,6 @@ You can configure the diagnostic data adapter to test your application under var
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
-::: moniker range="vs-2017"
-The following procedure describes how to configure network emulation from the configuration editor. These steps apply to both the configuration editor in Microsoft Test Manager and Visual Studio.
-::: moniker-end
 ::: moniker range=">=vs-2019"
 The following procedure describes how to configure network emulation from the configuration editor. These steps apply to the configuration editor in Visual Studio.
 ::: moniker-end
@@ -31,9 +30,6 @@ The following procedure describes how to configure network emulation from the co
 > [!NOTE]
 > The network emulation diagnostic data adapter is only applicable to Visual Studio test settings. It is not used for test settings in Microsoft Test Manager (deprecated in Visual Studio 2017).
 
-::: moniker range="vs-2017"
-An account that has administrator privileges must be used for network emulation. If you have selected network emulation for a local role that runs manual tests, you must start Microsoft Test Manager by using administrator privileges. If you have selected network emulation for any other role, you must verify that the test agent on the machine for that role uses a user account that is a member of the administrators group. For more information about how to set up the account for your test agent, see [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).
-::: moniker-end
 
 > [!NOTE]
 > The Network Service account, which is the default account for the test agent, is not a member of the administrators group.

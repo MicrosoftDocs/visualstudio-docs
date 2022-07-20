@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Invoke text transformation in the build process
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 [Text transformation](../modeling/code-generation-and-t4-text-templates.md) can be invoked as part of the [build process](/azure/devops/pipelines/index) of a Visual Studio solution. There are build tasks that are specialized for text transformation. The T4 build tasks run design-time text templates, and they also compile run-time (preprocessed) text templates.
 
 There are some differences in what the build tasks can do, depending on which build engine you use. When you build the solution in Visual Studio, a text template can access the Visual Studio API (EnvDTE) if the [hostspecific="true"](../modeling/t4-template-directive.md) attribute is set. But that isn't true when you build the solution from the command line or when you initiate a server build through Visual Studio. In those cases, the build is performed by MSBuild and a different T4 host is used. This means that you can't access things like project file names in the same way when you build a text template using MSBuild. However, you can [pass environment information into text templates and directive processors by using build parameters](#parameters).
@@ -68,7 +70,15 @@ In the .vbproj or .csproj file, find a line like this:
 
 After that line, insert the Text Templating import:
 
-::: moniker range=">=vs-2019"
+::: moniker range=">=vs-2022"
+
+```xml
+<Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v17.0\TextTemplating\Microsoft.TextTemplating.targets" />
+```
+
+::: moniker-end
+
+::: moniker range="vs-2019"
 
 ```xml
 <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v16.0\TextTemplating\Microsoft.TextTemplating.targets" />
@@ -76,13 +86,6 @@ After that line, insert the Text Templating import:
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-```xml
-<Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v15.0\TextTemplating\Microsoft.TextTemplating.targets" />
-```
-
-::: moniker-end
 
 ## Transform templates in a build
 
@@ -240,13 +243,16 @@ The project folder is: <#= ProjectFolder #>
 
 In a directive processor, you can call [ITextTemplatingEngineHost.ResolveParameterValue](/previous-versions/visualstudio/visual-studio-2012/bb126369\(v\=vs.110\)):
 
+### [C#](#tab/csharp)
 ```csharp
 string value = Host.ResolveParameterValue("-", "-", "parameterName");
 ```
 
+### [VB](#tab/vb)
 ```vb
 Dim value = Host.ResolveParameterValue("-", "-", "parameterName")
 ```
+---
 
 > [!NOTE]
 > `ResolveParameterValue` gets data from `T4ParameterValues` only when you use MSBuild. When you transform the template using Visual Studio, the parameters have default values.
@@ -298,11 +304,6 @@ If you update an included file or another file read by the template, Visual Stud
 
 ## See also
 
-::: moniker range="vs-2017"
-
-- There's good guidance in the T4 MSbuild template at `%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\msbuild\Microsoft\VisualStudio\v15.0\TextTemplating\Microsoft.TextTemplating.targets`
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

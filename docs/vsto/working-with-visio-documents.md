@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Work with Visio documents
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The topics in this section provide step-by-step procedures and code examples for using the object model of Microsoft Office Visio to work with documents in Office projects.
 
 |Task|Procedure|

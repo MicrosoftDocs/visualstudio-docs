@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Add explicit cast
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This code generation applies to:
 
 - C#

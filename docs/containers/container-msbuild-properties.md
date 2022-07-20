@@ -9,6 +9,8 @@ ms.topic: reference
 ---
 # Container Tools build properties
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can customize how Visual Studio builds your container projects by setting the properties that MSBuild uses to build your project. For example, you can change the name of the Dockerfile, specify tags and labels for your images, provide additional arguments passed to Docker commands, and control whether Visual Studio does certain performance optimizations such as building outside of the container environment. You can also set debugging properties such as the name of the executable to launch, and the command line arguments to provide.
 
 To set the value of a property, edit the project file. For example, suppose your Dockerfile is named *MyDockerfile*. You can set the `DockerfileFile` property in the project file as follows.
@@ -58,7 +60,7 @@ The following project file shows examples of some of these settings.
          set to the same folder as the Dockerfile. -->
     <DockerfileContext>.</DockerfileContext>
     <!-- Set `docker run` arguments to mount a volume -->
-    <DockerfileRunArguments>-v $(pwd)/host-folder:/container-folder:ro</DockerfileRunArguments>
+    <DockerfileRunArguments>-v $(MSBuildProjectDirectory)/host-folder:/container-folder:ro</DockerfileRunArguments>
     <!-- Set `docker build` arguments to add a custom tag -->
     <DockerfileBuildArguments>-t contoso/front-end:v2.0</DockerfileBuildArguments>
   </PropertyGroup>

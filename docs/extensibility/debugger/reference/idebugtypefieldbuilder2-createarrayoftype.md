@@ -18,18 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugTypeFieldBuilder2::CreateArrayOfType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an array of the specified type and size.
 
 ## Syntax
 
-```cpp
-HRESULT CreateArrayOfType (
-   IDebugField*  pTypeField,
-   DWORD         rank,
-   IDebugField** pArrayOfTypeField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateArrayOfType (
    IDebugField     pTypeField,
@@ -37,6 +32,15 @@ int CreateArrayOfType (
    out IDebugField pArrayOfTypeField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateArrayOfType (
+   IDebugField*  pTypeField,
+   DWORD         rank,
+   IDebugField** pArrayOfTypeField
+);
+```
+---
 
 ## Parameters
 `pTypeField`\

@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortEx2::CanTerminateProcess
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines whether a process can be terminated.
 
 ## Syntax
 
-```cpp
-HRESULT CanTerminateProcess( 
-   IDebugProcess2* pPortProcess
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 HRESULT CanTerminateProcess( 
    IDebugProcess2 pPortProcess
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CanTerminateProcess( 
+   IDebugProcess2* pPortProcess
+);
+```
+---
 
 ## Parameters
 `pPortProcess`\

@@ -17,8 +17,9 @@ ms.workload:
   - multiple
 monikerRange: '>= vs-2019'
 ---
-
 # Generate source code from .NET assemblies while debugging
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When debugging a .NET application, you may find that you want to view source code that you don't have. For example, breaking on an exception or using the call stack to navigate to a source location.
 
@@ -63,11 +64,17 @@ Extracted source files appear in the miscellaneous files in **Solution Explorer*
 
 ![Screenshot of solution explorer with miscellaneous files.](media/decompilation-solution-explorer.png)
 
+## SourceLink
+
+For .NET libraries or for NuGet packages enabled for SourceLink, you can also step into source code, set breakpoints, and use all the debugger’s features. For more information, see [Improving debug-time productivity with SourceLink](https://devblogs.microsoft.com/dotnet/improving-debug-time-productivity-with-source-link/).
+
 ## Known limitations
 
+::: moniker range="<= vs-2019"
 ### Requires break mode
 
 Generating source code using decompilation is only possible when the debugger is in break mode and the application is paused. For example, Visual Studio enters break mode when it hits a breakpoint or an exception. You can easily trigger Visual Studio to break the next time your code runs by using the **Break All** command (![Break all icon](media/decompilation-break-all.png)).
+::: moniker-end
 
 ### Decompilation limitations
 

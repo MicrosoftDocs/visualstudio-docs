@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugErrorBreakpointResolution2::GetBreakpointType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the breakpoint type.
 
 ## Syntax
 
-```cpp
-HRESULT GetBreakpointType(
-    BP_TYPE* pBPType
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetBreakpointType(
     out enum_BP_TYPE pBPType
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetBreakpointType(
+    BP_TYPE* pBPType
+);
+```
+---
 
 ## Parameters
 `pBPType`\

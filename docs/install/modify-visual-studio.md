@@ -21,17 +21,14 @@ ms.technology: vs-installation
 ---
 # Modify Visual Studio workloads, components, and language packs
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 ::: moniker range=">=vs-2019"
 
 It's easy to modify Visual Studio so that it includes only what you want, when you want it. To do so, open the Visual Studio Installer, and then add or remove workloads, components, and language packs.
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-Not only have we made it easier for you to personalize Visual Studio to match the tasks you want to accomplish, we've also made it easier to customize Visual Studio, too. To do so, open the new Visual Studio Installer and make the changes you want.
-
-::: moniker-end
 
 ## Prerequisites
 
@@ -45,27 +42,6 @@ Not only have we made it easier for you to personalize Visual Studio to match th
 
 To modify your Visual Studio installation, you first need to launch the Visual Studio Installer, and then select a Visual Studio installation to modify.
 
-::: moniker range="vs-2017"
-
-1. Find the Visual Studio Installer on your computer.
-
-     For example, on a computer running Windows 10 or later, select **Start**, and then scroll to the letter **V**, where it's listed as **Visual Studio Installer**.
-
-     ![Screenshot showing the Visual Studio Installer entry in the Windows 10 Start menu.](media/locate-the-visual-studio-installer.png "Locate the Microsoft Visual Studio Installer")
-
-     >[!TIP]
-     >On some computers, the Visual Studio Installer might be listed under the letter **"M"** as the **Microsoft Visual Studio Installer**.<br/><br/> Alternatively, you can find the Visual Studio Installer in the following location: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
-
-1. Open the installer, and then choose **Modify**.
-
-     ![Screenshot showing the Modify button in the Visual Studio Installer.](media/modify-visual-studio.png "Modify Visual Studio 2017")
-
-     > [!IMPORTANT]
-     > If you have an update pending, the Modify button is in a different place. This way, you can modify Visual Studio without updating it, should you choose to do so. Click **More**, and then choose **Modify**.
-     >
-     > ![Screenshot showing the Modify button in the Visual Studio Installer, which is located in the More dropdown menu when an update is pending.](media/modify-or-update-visual-studio.png "Update or modify Visual Studio 2017")
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -117,29 +93,6 @@ To modify your Visual Studio installation, you first need to launch the Visual S
 
 ## Change workloads or individual components
 
-::: moniker range="vs-2017"
-
- [Workloads](https://visualstudio.microsoft.com/vs/support/selecting-workloads-visual-studio-2017/) contain the features you need for the programming language or platform that you're using. Use workloads to modify Visual Studio so that it supports the work you want to do, when you want to do it.
-
-1. In the Visual Studio Installer, choose the **Workloads** tab, and then select or deselect the workloads that you want.
-
-   Alternately, if you don't want to use workloads to customize your Visual Studio installation, choose the **Individual Components** tab and  select the components you want, and then follow the prompts.
-
-    ![Screenshot showing the Workloads tab of the Visual Studio Installer.](media/modify-workloads.png "Choose a workload in Visual Studio 2017")
-
-1. Choose whether you want to accept the default **Install while downloading** option or the **Download all, then install** option.
-
-    ![Screenshot showing the download and install options in the Visual Studio Installer.](media/vs-2019/vs-installer-choose-install-or-download.png "Choose to install while downloading or to download first and install later")
-
-    The "Download all, then install" option is handy if you want to download first and then install later.
-
-1. Choose **Modify**.
-
-1. If desired, choose the **Workloads** tab, and then select or deselect the workloads that you want.
-
-1. After the new workloads are installed, choose **Launch** from the Visual Studio Installer to open Visual Studio.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -185,7 +138,7 @@ Workloads contain the components you need for the programming language or platfo
 
 1. Choose **Modify**.
 
-1. After the modified workloads or components are installed, choose **Launch** from the Visual Studio Installer to open Visual Studio 2022 RC.
+1. After the modified workloads or components are installed, choose **Launch** from the Visual Studio Installer to open Visual Studio 2022.
 
 ::: moniker-end
 

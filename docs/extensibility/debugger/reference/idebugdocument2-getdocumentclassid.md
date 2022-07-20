@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocument2::GetDocumentClassID
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the class identifier of the document.
 
 ## Syntax
 
-```cpp
-HRESULT GetDocumentClassID( 
-   CLSID* pclsid
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocumentClassID( 
    out Guid pclsid
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocumentClassID( 
+   CLSID* pclsid
+);
+```
+---
 
 ## Parameters
 `pclsid`

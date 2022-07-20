@@ -3,11 +3,14 @@ title: Setting Up a Subversion Repository
 description: Learn how to install and set up Subversion as a centralized version control system in Visual Studio for Mac.
 author: jmatthiesen
 ms.author: jomatthi
+manager: dominicn
 ms.date: 05/06/2018
 ms.assetid: 0D58FB37-530E-495B-BED6-FD499477A9B6
 ms.topic: how-to
 ---
 # Set up a Subversion repository
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 Subversion is a centralized _version control system_, meaning that there's a single server that contains all files and revisions, from which users can check out any version of any file. When files are checked out from a remote Subversion repository, the user gets a snapshot of the repository at that point in time.
 

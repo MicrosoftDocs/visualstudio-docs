@@ -6,14 +6,16 @@ ms.topic: how-to
 helpviewer_keywords:
   - "installing Help Viewer"
   - "Help Viewer, installing"
-author: ghogen
-ms.author: ghogen
+author: jasonchlus
+ms.author: jasonchlus
 manager: jmartens
 ms.technology: vs-help-viewer
 ms.workload:
   - "multiple"
 ---
 # Microsoft Help Viewer installation
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Several products can display Help content in Microsoft Help Viewer, including Visual Studio and SQL Server.
 

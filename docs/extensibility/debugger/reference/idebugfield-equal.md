@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugField::Equal
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method compares this field with the specified field for equality.
 
 ## Syntax
 
-```cpp
-HRESULT Equal( 
-   IDebugField* pField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Equal(
    IDebugField pField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Equal( 
+   IDebugField* pField
+);
+```
+---
 
 ## Parameters
 `pField`\

@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Build and debug SharePoint solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   In general, building and debugging SharePoint solutions is the same as building and debugging other types of projects in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. The topics in this section explain the differences that do exist.
 
 ## Project output for SharePoint solutions

@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaLoadCallback2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Receives callbacks from the DIA symbol locating procedure, allowing restrictions to be imposed on the locating process.
 
 ## Syntax

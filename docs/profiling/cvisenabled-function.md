@@ -19,6 +19,8 @@ ms.workload:
   - multiple
 ---
 # CvIsEnabled function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines whether any session has enabled the specified ETW provider.
 
 ## Syntax

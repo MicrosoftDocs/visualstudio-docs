@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugFunctionObject::CreateObjectNoConstructor
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an object with no constructor.
 
 ## Syntax
 
-```cpp
-HRESULT CreateObjectNoConstructor( 
-   IDebugField*   pClassObject,
-   IDebugObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateObjectNoConstructor(
    IDebugField      pClassField,
    out IDebugObject ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateObjectNoConstructor( 
+   IDebugField*   pClassObject,
+   IDebugObject** ppObject
+);
+```
+---
 
 ## Parameters
 `pClassObject`\

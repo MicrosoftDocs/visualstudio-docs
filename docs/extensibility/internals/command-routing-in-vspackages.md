@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Command routing in VSPackages
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A command is routed in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] based on the context in which it is executed. It is routed from the initial context outward to the global context.
 
 ## In this section

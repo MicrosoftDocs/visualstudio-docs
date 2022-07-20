@@ -20,23 +20,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugModule3::GetSymbolInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of paths that are searched for symbols as well as the results of searching each path.
 
 ## Syntax
 
-```cpp
-HRESULT GetSymbolInfo(
-    SYMBOL_SEARCH_INFO_FIELDS  dwFields,
-    MODULE_SYMBOL_SEARCH_INFO* pInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSymbolInfo(
     enum_SYMBOL_SEARCH_INFO_FIELDS dwFields,
     MODULE_SYMBOL_SEARCH_INFO[]    pinfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSymbolInfo(
+    SYMBOL_SEARCH_INFO_FIELDS  dwFields,
+    MODULE_SYMBOL_SEARCH_INFO* pInfo
+);
+```
+---
 
 ## Parameters
 `dwFields`\

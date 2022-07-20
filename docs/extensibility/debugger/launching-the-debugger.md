@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Launch the debugger
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Launching the debugger requires sending the correct sequence of methods and events with their proper attributes.
 
 ## Sequences of methods and events

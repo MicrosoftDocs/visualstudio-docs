@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugErrorBreakpointResolution2::GetResolutionInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the breakpoint error resolution information.
 
 ## Syntax
 
-```cpp
-HRESULT GetResolutionInfo( 
-    BPERESI_FIELDS            dwFields,
-    BP_ERROR_RESOLUTION_INFO* pErrorResolutionInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetResolutionInfo( 
     enum_BPERESI_FIELDS        dwFields,
     BP_ERROR_RESOLUTION_INFO[] pErrorResolutionInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetResolutionInfo( 
+    BPERESI_FIELDS            dwFields,
+    BP_ERROR_RESOLUTION_INFO* pErrorResolutionInfo
+);
+```
+---
 
 ## Parameters
 `dwFields`\

@@ -15,6 +15,8 @@ ms.technology: vs-ide-test
 ---
 # Use the Graphs view legend to analyze load tests
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Load Test Analyzer's Graphs view includes a legend panel that displays information for each performance counter that is associated with the currently selected graph.
 
 ![Graphs view legend](../test/media/load_viewlegend.png)

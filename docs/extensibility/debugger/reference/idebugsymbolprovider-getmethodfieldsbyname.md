@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProvider::GetMethodFieldsByName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the field representing a fully qualified method name.
 
 ## Syntax
 
-```cpp
-HRESULT GetMethodFieldsByName( 
-   LPCOLESTR          pszFullName,
-   NAME_MATCH         nameMatch,
-   IEnumDebugFields** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMethodFieldsByName(
    string               pszFullName,
@@ -38,6 +33,15 @@ int GetMethodFieldsByName(
    out IEnumDebugFields ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMethodFieldsByName( 
+   LPCOLESTR          pszFullName,
+   NAME_MATCH         nameMatch,
+   IEnumDebugFields** ppEnum
+);
+```
+---
 
 ## Parameters
 `pszFullName`\

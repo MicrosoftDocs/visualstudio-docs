@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugProgramNameChangedEvent2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sent from the debug engine (DE) to the session debug manager (SDM) when the name of a program changes.
 
 ## Syntax

@@ -15,6 +15,8 @@ author: mikejo5000
 ---
 # Overview of Microsoft IntelliTest
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 IntelliTest enables you to find bugs early, and
 reduces test maintenance costs. Using an automated
 and transparent testing approach, IntelliTest can
@@ -128,7 +130,6 @@ public void HelloWorldThrowsException167()
 It's that easy!
 
 Additional resources:
-  * Watch the [Channel 9 video](https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Intellitest)
   * Read this [overview on MSDN Magazine](/archive/msdn-magazine/2015/february/visual-studio-2015-build-better-software-with-smart-unit-tests)
 
 ## Important attributes

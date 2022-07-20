@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortEx2::TerminateProcess
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Terminates a process.
 
 ## Syntax
 
-```cpp
-HRESULT TerminateProcess( 
-   IDebugProcess2* pPortProcess
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int TerminateProcess( 
    IDebugProcess2 pPortProcess
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT TerminateProcess( 
+   IDebugProcess2* pPortProcess
+);
+```
+---
 
 ## Parameters
 `pPortProcess`\

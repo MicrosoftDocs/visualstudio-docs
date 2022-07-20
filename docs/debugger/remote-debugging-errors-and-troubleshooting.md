@@ -26,6 +26,8 @@ ms.workload:
 ---
 # Remote Debugging Errors and Troubleshooting
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You may come across the following errors when attempting to debug remotely.
 
 - [Error: Unable to Automatically Step Into the Server](../debugger/error-unable-to-automatically-step-into-the-server.md)

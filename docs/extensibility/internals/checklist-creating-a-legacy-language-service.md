@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Checklist: Create a legacy language service
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following checklist summarizes the basic steps you must take in order to create a language service for the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] core editor. To integrate your language service into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], you must create a debug expression evaluator. For more information, see [Write a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md) in the [Visual Studio debugger extensibility](../../extensibility/debugger/visual-studio-debugger-extensibility.md).
 
 ## Steps to create a language service

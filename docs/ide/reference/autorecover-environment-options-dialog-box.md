@@ -23,6 +23,8 @@ ms.workload:
 ---
 # AutoRecover, Environment, Options dialog box
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Use this page in the **Options** dialog box to specify whether to automatically back up files or not. You can also specify if you want to restore modified files if Visual Studio shuts down unexpectedly.
 
 To access this dialog box, go to **Tools** > **Options** > **Environment** > **AutoRecover**.
@@ -46,11 +48,6 @@ Use this option to customize how often a file is automatically saved in the edit
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-Use this option to customize how often a file is automatically saved in the editor. For previously saved files, Visual Studio 2017 saves a copy of the file in *%USERPROFILE%\Documents\Visual Studio [version]\Backup Files\\[projectname]*. If the file is new and you haven't saved it yet, Visual Studio autosaves it by using a randomly generated file name.
-
-::: moniker-end
 
 **Keep AutoRecover information for [n] days**
 

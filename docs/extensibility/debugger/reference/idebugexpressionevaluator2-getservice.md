@@ -18,23 +18,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpressionEvaluator2::GetService
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a service object given its unique identifier.
 
 ## Syntax
 
-```cpp
-HRESULT GetService (
-   GUID        uid,
-   IUnknown ** ppService
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetService (
    Guid       uid,
    out object ppService
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetService (
+   GUID        uid,
+   IUnknown ** ppService
+);
+```
+---
 
 ## Parameters
 `uid`\

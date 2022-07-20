@@ -1,7 +1,7 @@
 ---
 title: Create custom views of C++ objects
 description: Use the Natvis framework to customize the way that Visual Studio displays native types in the debugger
-ms.date: 03/02/2020
+ms.date: 04/21/2022
 ms.topic: how-to
 f1_keywords: 
   - natvis
@@ -16,6 +16,8 @@ ms.workload:
   - cplusplus
 ---
 # Create custom views of C++ objects in the debugger using the Natvis framework
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio *Natvis* framework customizes the way native types appear in debugger variable windows, such as the **Locals** and **Watch** windows, and in **DataTips**. Natvis visualizations can help make the types you create more visible during debugging.
 
@@ -40,7 +42,7 @@ The same `TextBox` looks much simpler in the variable window when Natvis custom 
 
 ## <a name="BKMK_Using_Natvis_files"></a>Use .natvis files in C++ projects
 
-Natvis uses *.natvis* files to specify visualization rules. A *.natvis* file is an XML file with a *.natvis* extension. The Natvis schema is defined in *%VSINSTALLDIR%\Xml\Schemas\natvis.xsd*.
+Natvis uses *.natvis* files to specify visualization rules. A *.natvis* file is an XML file with a *.natvis* extension. The Natvis schema is defined in *\<VS Installation Folder\>\Xml\Schemas\1033\natvis.xsd*.
 
 The basic structure of a *.natvis* file is one or more `Type` elements representing visualization entries. The fully qualified name of each `Type` element is specified in its `Name` attribute.
 
@@ -59,7 +61,7 @@ The basic structure of a *.natvis* file is one or more `Type` elements represent
 </AutoVisualizer>
 ```
 
-Visual Studio provides some *.natvis* files in the *%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers* folder. These files have visualization rules for many common types, and can serve as examples for writing visualizations for new types.
+Visual Studio provides some *.natvis* files in the *\<VS Installation Folder\>\Common7\Packages\Debugger\Visualizers* folder. These files have visualization rules for many common types, and can serve as examples for writing visualizations for new types.
 
 ### Add a .natvis file to a C++ project
 
@@ -127,19 +129,20 @@ The *.natvis* files are evaluated in the following order:
 
 3. Any *.natvis* files installed and registered via a VSIX package.
 
-::: moniker range="vs-2017"
+::: moniker range=">= vs-2022"
 
-4. The user-specific Natvis directory (for example, *%USERPROFILE%\Documents\Visual Studio 2017\Visualizers*).
+4. The user-specific Natvis directory (for example, *%USERPROFILE%\Documents\Visual Studio 2022\Visualizers*).
 
 ::: moniker-end
 
-::: moniker range=">= vs-2019"
+::: moniker range="vs-2019"
 
 4. The user-specific Natvis directory (for example, *%USERPROFILE%\Documents\Visual Studio 2019\Visualizers*).
 
 ::: moniker-end
 
-5. The system-wide Natvis directory (*%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers*). This directory has the *.natvis* files that are installed with Visual Studio. If you have administrator permissions, you can add files to this directory.
+
+5. The system-wide Natvis directory (*\<VS Installation Folder\>\Common7\Packages\Debugger\Visualizers*). This directory has the *.natvis* files that are installed with Visual Studio. If you have administrator permissions, you can add files to this directory.
 
 ## Modify .natvis files while debugging
 
@@ -154,6 +157,7 @@ If you modify the *.natvis* file outside of Visual Studio, the changes don't tak
 Also use the **.natvisreload** command to upgrade the *.natvis* file to a newer version. For example, the *.natvis* file may be checked into source control, and you want to pick up recent changes that somebody else made.
 
 ## <a name="BKMK_Expressions_and_formatting"></a> Expressions and formatting
+
 Natvis visualizations use C++ expressions to specify the data items to display. In addition to the enhancements and limitations of C++ expressions in the debugger, which are described in [Context operator (C++)](../debugger/context-operator-cpp.md), be aware of the following:
 
 - Natvis expressions are evaluated in the context of the object being visualized, not the current stack frame. For example, `x` in a Natvis expression refers to the field named **x** in the object being visualized, not to a local variable named **x** in the current function. You can't access local variables in Natvis expressions, although you can access global variables.
@@ -237,6 +241,7 @@ A basic `Type` looks like this example:
 3. What the members of the type should look like when the user expands the type in a variable window (the `Expand` node).
 
 #### Templated classes
+
 The `Name` attribute of the `Type` element accepts an asterisk `*` as a wildcard character that can be used for templated class names.
 
 In the following example, the same visualization is used whether the object is a `CAtlArray<int>` or a `CAtlArray<float>`. If there's a specific visualization entry for a `CAtlArray<float>`, then it takes precedence over the generic one.
@@ -250,9 +255,11 @@ In the following example, the same visualization is used whether the object is a
 You can reference template parameters in the visualization entry by using macros $T1, $T2, and so forth. To find examples of these macros, see the *.natvis* files shipped with Visual Studio.
 
 #### <a name="BKMK_Visualizer_type_matching"></a> Visualizer type matching
+
 If a visualization entry fails to validate, the next available visualization is used.
 
 #### Inheritable attribute
+
 The optional `Inheritable` attribute specifies whether a visualization applies only to a base type, or to a base type and all derived types. The default value of `Inheritable` is `true`.
 
 In the following example, the visualization applies only to the `BaseClass` type:
@@ -288,6 +295,7 @@ The following example first parses the entry that matches the 2015 STL. If that 
 ```
 
 ### Optional attribute
+
 You can put an `Optional` attribute on any node. If a subexpression inside an optional node fails to parse, the debugger ignores that node, but applies the rest of the `Type` rules. In the following type, `[State]` is non-optional, but `[Exception]` is optional.  If `MyNamespace::MyClass` has a field named _`M_exceptionHolder`, both the `[State]` node and the `[Exception]` node appear, but if there's no `_M_exceptionHolder` field, only the `[State]` node appears.
 
 ```xml
@@ -336,6 +344,7 @@ The `IncludeView` and `ExcludeView` attributes specify elements to display or no
 You can use the `IncludeView` and `ExcludeView` attributes on types and on individual members.
 
 ### <a name="BKMK_Versioning"></a> Version element
+
 The `Version` element scopes a visualization entry to a specific module and version. The `Version` element helps avoid name collisions, reduces inadvertent mismatches, and allows different visualizations for different type versions.
 
 If a common header file that is used by different modules defines a type, the versioned visualization appears only when the type is in the specified module version.
@@ -437,6 +446,7 @@ The debugger automatically creates the **[Raw View]** node for every custom expa
 > If the expression of the item element points to a complex type, the **Item** node itself is expandable.
 
 #### <a name="BKMK_ArrayItems_expansion"></a> ArrayItems expansion
+
 Use the `ArrayItems` node to have the Visual Studio debugger interpret the type as an array and display its individual elements. The visualization for `std::vector` is a good example:
 
 ```xml
@@ -633,6 +643,7 @@ The following example shows how to aggregate properties from the base class in a
 The **nd** format specifier, which turns off visualization matching for the derived class, is necessary here. Otherwise, the expression `*(CFrameworkElement*)this` would cause the `CPanel` visualization to be applied again, because the default visualization type matching rules consider it the most appropriate one. Use the **nd** format specifier to instruct the debugger to use the base class visualization, or the default expansion if the base class has no visualization.
 
 #### <a name="BKMK_Synthetic_Item_expansion"></a> Synthetic item expansion
+
  While the `ExpandedItem` element provides a flatter view of data by eliminating hierarchies, the `Synthetic` node does the opposite. It allows you to create an artificial child element that isn't a result of an expression. The artificial element can have child elements of its own. In the following example, the visualization for the `Concurrency::array` type uses a `Synthetic` node to show a diagnostic message to the user:
 
 ```xml
@@ -699,6 +710,7 @@ Each type defined in the *.natvis* file must explicitly list any UI visualizers 
  You can see an example of a `UIVisualizer` in the [Image Watch](https://marketplace.visualstudio.com/search?term=%22Image%20Watch%22&target=VS&category=All%20categories&vsVersion=&sortBy=Relevance) extension used to view in-memory bitmaps.
 
 ### <a name="BKMK_CustomVisualizer"></a>CustomVisualizer element
+
  `CustomVisualizer` is an extensibility point that specifies a VSIX extension that you write to control visualizations in Visual Studio code. For more information about writing VSIX extensions, see the [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
 
 It's a lot more work to write a custom visualizer than an XML Natvis definition, but you're free from constraints about what Natvis does or doesn't support. Custom visualizers have access to the full set of debugger extensibility APIs, which can query and modify the debuggee process or communicate with other parts of Visual Studio.

@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngineCreateEvent2::GetEngine
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the object that represents the newly created debug engine (DE).
 
 ## Syntax
 
-```cpp
-HRESULT GetEngine( 
-   IDebugEngine2** pEngine
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetEngine( 
    out IDebugEngine2 pEngine
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEngine( 
+   IDebugEngine2** pEngine
+);
+```
+---
 
 ## Parameters
 `pEngine`\

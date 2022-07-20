@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram2::EnumThreads
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of the threads that are running in the program.
 
 ## Syntax
 
-```cpp
-HRESULT EnumThreads( 
-   IEnumDebugThreads2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumThreads( 
    out IEnumDebugThreads2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumThreads( 
+   IEnumDebugThreads2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

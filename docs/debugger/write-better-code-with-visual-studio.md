@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Debugging techniques and tools to help you write better code
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Fixing bugs and errors in your code can be a time-consuming--and sometimes frustrating--task. It takes time to learn how to debug effectively, but a powerful IDE like Visual Studio can make your job a lot easier. An IDE can help you fix errors and debug your code more quickly, and not just that, but it can also help you write better code with fewer bugs. Our aim in this article is to give you a holistic view of the "bug-fixing" process, so you will know when to use the code analyzer, when to use the debugger, how to fix exceptions, and how to code for intent. If you already know you need to use the debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 In this article, we talk about leveraging the IDE to make your coding sessions more productive. We touch on several tasks, such as:
@@ -50,11 +52,7 @@ To create the app:
 
     If you don't see the **Console App** for .NET Core project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET Core cross platform development** workload, then choose **Modify**.
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Console App**, and then in the middle pane choose **Console App (.NET Core)**. Type a name like **Console_Parse_JSON** and click **OK**.
 
-    If you don't see the **Console App (.NET Core)** project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET Core cross platform development** workload, then choose **Modify**.
-    ::: moniker-end
 
     Visual Studio creates the console project, which appears in Solution Explorer in the right pane.
 

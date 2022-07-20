@@ -3,8 +3,8 @@ title: Visual Studio subscription benefits
 description: FAQs list for Activating Subscription Benefits.
 ms.topic: conceptual
 ms.assetid: bc1a67a8-25b3-40a1-a355-6de2e658113e
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 04/20/2020
 ms.faqid: Section3
 ---

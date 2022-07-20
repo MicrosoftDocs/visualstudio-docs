@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugAddress::GetAddress
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a structure describing an object and its location within its scope or container.
 
 ## Syntax
 
-```cpp
-HRESULT GetAddress (
-   DEBUG_ADDRESS * pAddress
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAddress(
    DEBUG_ADDRESS[] pAddress
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAddress (
+   DEBUG_ADDRESS * pAddress
+);
+```
+---
 
 ## Parameters
 `pAddress`\

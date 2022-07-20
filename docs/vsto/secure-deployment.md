@@ -20,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # Secure deployment
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you create an Office solution, your development computer is updated automatically to allow the code in your project to run. However, when you deploy your solution, you must provide evidence on which to base a trust decision by signing the solution with a certificate, or using the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] trust prompt key. For more information, see [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md).
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

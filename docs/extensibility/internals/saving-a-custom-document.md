@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Saving a Custom Document
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The environment handles the **Save**, **Save As**, and **Save All** commands. When a user clicks **Save**, **Save As**, **or Save All** on the **File** menu or closes the solution, resulting in a Save All, the following process occurs.
 
  ![Customer Editor Save](../../extensibility/internals/media/private.gif "Private")

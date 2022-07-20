@@ -21,6 +21,8 @@ ms.workload:
   - multiple
 ---
 # How to: Specify a Start menu name for a ClickOnce application
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is installed for both online and offline use, an entry is added to the **Start** menu and the **Add or Remove Programs** list. By default, the display name is the same as the name of the application assembly, but you can change the display name by setting **Product name** in the **Publish Options** dialog box.
 
  **Product name** will be displayed on the *publish.htm* page; for an installed offline application, it will be the name of the entry in the **Start** menu, and it will also be the name that shows in **Add or Remove Programs**.

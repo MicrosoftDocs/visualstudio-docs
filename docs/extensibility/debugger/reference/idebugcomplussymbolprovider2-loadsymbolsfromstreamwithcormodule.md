@@ -20,21 +20,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Load debug symbols from a data stream given the **ICorDebugModule** object.
 
 ## Syntax
 
-```cpp
-HRESULT LoadSymbolsFromStreamWithCorModule(
-    ULONG32   ulAppDomainID,
-    GUID      guidModule,
-    ULONGLONG baseAddress,
-    IUnknown* pUnkMetadataImport,
-    IUnknown* pUnkCorDebugModule,
-    IStream*  pStream
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int LoadSymbolsFromStreamWithCorModule(
     uint    ulAppDomainID,
@@ -45,6 +37,18 @@ int LoadSymbolsFromStreamWithCorModule(
     IStream pStream
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT LoadSymbolsFromStreamWithCorModule(
+    ULONG32   ulAppDomainID,
+    GUID      guidModule,
+    ULONGLONG baseAddress,
+    IUnknown* pUnkMetadataImport,
+    IUnknown* pUnkCorDebugModule,
+    IStream*  pStream
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

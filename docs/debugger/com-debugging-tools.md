@@ -4,8 +4,6 @@ description: Get descriptions of debugging tools that can help you test and insp
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.com"
 dev_langs:
   - "CSharp"
   - "VB"
@@ -26,6 +24,8 @@ ms.workload:
   - "multiple"
 ---
 # COM Debugging Tools
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic lists tools that can help you test and inspect COM programs.
 

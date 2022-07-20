@@ -20,6 +20,8 @@ ms.workload:
 ---
 # Upgrade .mdf files
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This topic describes the options for upgrading a database file (*.mdf*) after you install a newer version of Visual Studio. It includes instructions for the following tasks:
 
 - Upgrade a database file to use a newer version of SQL Server Express LocalDB

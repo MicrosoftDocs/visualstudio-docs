@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugSymbolProviderDirect
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents a symbol provider that has direct access to metadata and core symbol interfaces.
 
 ## Syntax

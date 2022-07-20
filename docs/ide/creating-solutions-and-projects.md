@@ -1,8 +1,8 @@
 ---
 title: "Create projects & solutions"
-description: Learn how to create and use Visual Studio solutions and projects to store artifacts. 
+description: Learn how to create and use Visual Studio solutions and projects to store artifacts.
 ms.custom: "SEO-VS-2020, contperf-fy21q2"
-ms.date: 06/14/2021
+ms.date: 06/28/2022
 ms.topic: how-to
 f1_keywords:
 - vs.openprojectfromweb
@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Create, work with, and delete Visual Studio projects and solutions
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this article, you'll learn how to create and use Visual Studio projects from scratch to store the artifacts you need to build your apps.  If you aren't familiar with projects in Visual Studio, see this overview of [Projects and Solutions](solutions-and-projects-in-visual-studio.md).  To learn how to quickly create a project from a template, see [Create a project from a template](create-new-project.md).
 
 *Projects* hold the items needed to build your app in Visual Studio, such as source code files, bitmaps, icons, and component and service references. When you create a new project, Visual Studio creates a *solution* to contain the project. You can then add other new or existing projects to the solution if you want. You can also create [blank or empty solutions](#create-empty-solutions). Solutions can also contain files that aren't connected to any specific project.
@@ -27,9 +29,9 @@ In this article, you'll learn how to create and use Visual Studio projects from 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Create projects in Visual Studio for Mac](/visualstudio/mac/create-new-projects).
 
-You can view your solutions and projects in a tool window called **Solution Explorer**. The following screenshot shows an example solution in **Solution Explorer** (**BikeSharing.Xamarin-UWP**) that contains two projects: **BikeSharing.Clients.Core** and **BikeSharing.Clients.Windows**. Each project contains multiple files, folders, and references. The project name in bold is the *startup project*; that is, the project that starts when you run the app. You can specify which project is the startup project.
+You can view your solutions and projects in a tool window called **Solution Explorer**. The following screenshot shows an example C# console solution in **Solution Explorer** that contains two projects: **Calculator** and **CalculatorLibrary**. Each project contains multiple files and folders. The project name in bold is the *startup project*; that is, the project that starts when you run the app. You can specify which project is the startup project.
 
-![Screenshot of Solution Explorer with two projects.](./media/vside-solution-explorer-projects.png)
+:::image type="content" source="media/solution-explorer-two-projects-inline.png" alt-text="Screenshot of Solution Explorer with two projects." lightbox="media/solution-explorer-two-projects-expanded.png":::
 
 While you can construct a project yourself by adding the necessary files to it, Visual Studio offers a selection of project templates to give you a head start. Creating a new project from a template gives you a project with the essentials for that project type, and you can rename the files or add new or existing code and other resources to it as needed.
 
@@ -63,22 +65,21 @@ If you have a file that applies to multiple projects, such as a readme file for 
 
 When you create a .NET Framework project, you can specify a specific version of the .NET Framework that you want the project to use. (When you create a .NET Core project, you don't specify a framework version.)
 
-::: moniker range="vs-2017"
+::: moniker range=">=vs-2019"
 
-To specify a .NET Framework version, select the **Framework** drop-down menu in the **New Project** dialog box.
-
-![Screenshot of the Framework drop-down in New Project dialog box.](./media/vside-newproject-framework.png)
-
-> [!NOTE]
-> You must have .NET Framework 3.5 installed on your system to access .NET Framework versions earlier than .NET Framework 4.
+To specify a .NET Framework version, select the **Framework** drop-down menu on the **Configure your new project** page.
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
-To specify a .NET Framework version, select the **Framework** drop-down menu on the **Create a new project** page.
+![Screenshot of the Framework selector in the 'Configure new project' dialog box in Visual Studio 2019.](media/vs-2019/configure-new-project-framework.png)
 
-![Screenshot of the Framework selector in the 'Configure new project' dialog box.](media/vs-2019/configure-new-project-framework.png)
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/configure-new-project-framework.png" alt-text="Screenshot of the Framework selector in the 'Configure new project' dialog box.":::
 
 ::: moniker-end
 
@@ -90,41 +91,15 @@ You can also create empty solutions that have no projects. This might be prefera
 
 1. On the menu bar, select **File** > **New** > **Project**.
 
-::: moniker range="vs-2017"
-
-2. In the left (**Templates**) pane, select **Other Project Types** > **Visual Studio Solutions** in the expanded list.
-
-3. In the middle pane, select **Blank Solution**.
-
-4. Enter **Name** and **Location** values for your solution, and then select **OK**.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 2. On the **Create a new project** page, type **solution** into the search box.
 
 3. Select the **Blank Solution** template, and then click **Next**.
 
 4. Enter **Name** and **Location** values for your solution, and then select **Create**.
 
-::: moniker-end
-
 After you create an empty solution, you can add new or existing projects or items to it by choosing **Add New Item** or **Add Existing Item** on the **Project** menu.
 
 As mentioned earlier, you can also open code files without needing a project or solution. To learn about developing code in this way, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
-
-::: moniker range="vs-2017"
-
-## Create a temporary project
-
-(C# and Visual Basic only)
-
-If you create a .NET-based project without specifying a disk location, it is a temporary project. Temporary projects enable you to experiment with .NET projects. At any time while you are working with a temporary project, you can choose to save it or discard it.
-
-To create a temporary project, first go to **Tools** > **Options** > **Projects and Solutions** > **General**, and uncheck the **Save new projects when created** checkbox. Then open the **New Project** dialog box as usual.
-
-::: moniker-end
 
 ## Delete a solution, project, or item
 
@@ -151,5 +126,4 @@ You can access File Explorer in Windows by using Solution Explorer in Visual Stu
 - [Manage project and solution properties](managing-project-and-solution-properties.md)
 - [Filtered solutions in Visual Studio](filtered-solutions.md)
 - [Microsoft's open source repositories on GitHub](https://github.com/Microsoft)
-- [Developer code samples](https://code.msdn.microsoft.com/)
-- [Resources for troubleshooting Visual Studio IDE errors](./reference/resources-for-troubleshooting-integrated-development-environment-errors.md)
+- [Developer code samples](/samples/browse/)

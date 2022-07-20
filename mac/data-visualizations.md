@@ -3,12 +3,15 @@ title: Debugging - Data Visualizations
 description: Debugging is a common, and necessary, part of programming. Visual Studio for Mac contains a whole suite of features to make debugging easy. This article looks at the different data visualizations that can be viewed when inspecting objects in the debugger.
 author: jmatthiesen
 ms.author: jomatthi
+manager: dominicn
 ms.date: 11/09/2020
 ms.technology: vs-ide-debug
+ms.topic: conceptual
 ms.assetid: 527E6BEC-EF15-4002-ACB5-62AE1C16F6B7
 ---
-
 # Data visualizations
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 Visual Studio for Mac includes UI support for the debugger, allowing visualizations of the values of a variable, field, or property while debugging. These data visualizers show an extended version of the data and allow developers to inspect known structures, for example showing the color of a color struct.
 

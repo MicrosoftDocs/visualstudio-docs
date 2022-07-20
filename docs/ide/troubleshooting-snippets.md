@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Troubleshoot snippets
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Problems with IntelliSense code snippets are typically caused by two problems: a corrupt snippet file or bad content in the snippet file.
 
 ## The snippet cannot be dragged from File Explorer to a Visual Studio source file

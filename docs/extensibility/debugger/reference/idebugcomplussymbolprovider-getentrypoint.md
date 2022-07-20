@@ -18,18 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetEntryPoint
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the application entry point.
 
 ## Syntax
 
-```cpp
-HRESULT GetEntryPoint(
-    ULONG32         ulAppDomainID,
-    GUID            guidModule,
-    IDebugAddress** ppAddress
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetEntryPoint(
     uint              ulAppDomainID,
@@ -37,6 +32,15 @@ int GetEntryPoint(
     out IDebugAddress ppAddress
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEntryPoint(
+    ULONG32         ulAppDomainID,
+    GUID            guidModule,
+    IDebugAddress** ppAddress
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

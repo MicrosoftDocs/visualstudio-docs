@@ -20,27 +20,22 @@ Logging provides a way for you to monitor the progress of a build. Logging captu
 
 ## In this section
 
-- [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md)
+- [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md)  
+    Describes the various aspects of logging in MSBuild.
 
- Describes the various aspects of logging in MSBuild.
+- [Build loggers](../msbuild/build-loggers.md)  
+    Outlines the steps required to create a single-processor logger.
 
-- [Build loggers](../msbuild/build-loggers.md)
+- [Logging in a multi-processor environment](../msbuild/logging-in-a-multi-processor-environment.md)  
+    Describes how logging works in a multi-processor environment and the two multi-processor logging models.
 
- Outlines the steps required to create a single-processor logger.
+- [Write multi-processor-aware loggers](../msbuild/writing-multi-processor-aware-loggers.md)  
+    Outlines how to create multi-processor-aware loggers and how to use the ConfigurableForwardingLogger.
 
-- [Logging in a multi-processor environment](../msbuild/logging-in-a-multi-processor-environment.md)
-
- Describes how logging works in a multi-processor environment and the two multi-processor logging models.
-
-- [Write multi-processor-aware loggers](../msbuild/writing-multi-processor-aware-loggers.md)
-
- Outlines how to create multi-processor-aware loggers and how to use the ConfigurableForwardingLogger.
-
-- [Create forwarding loggers](../msbuild/creating-forwarding-loggers.md)
-
- Outlines how to create custom forwarding loggers.
+- [Create forwarding loggers](../msbuild/creating-forwarding-loggers.md)  
+    Outlines how to create custom forwarding loggers.
 
 ## See also
 
-- [Build multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)
- Describes how to build multiple projects faster by running them in parallel.
+- [Build multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)  
+    Describes how to build multiple projects faster by running them in parallel.

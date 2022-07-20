@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically move worksheets within workbooks
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can programmatically change the position of worksheets relative to other worksheets in a workbook. If you do not specify a location for the moved sheet, Excel creates a new workbook to contain it.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -27,15 +29,23 @@ ms.workload:
 
 1. Assign the total number of sheets in the workbook to a variable and then move the first worksheet so that it becomes the last one.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet24":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet24":::
+     ---
 
 ## To move a worksheet in a VSTO Add-in
 
 1. Assign the total number of sheets in the workbook to a variable and then move the first worksheet so that it becomes the last one.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs" id="Snippet16":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb" id="Snippet16":::
+     ---
 
 ## See also
 - [Work with worksheets](../vsto/working-with-worksheets.md)

@@ -19,20 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugCoreServer3::CreateInstanceInServer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an instance of a debug engine on the server.
 
 ## Syntax
 
-```cpp
-HRESULT CreateInstanceInServer(
-   LPCWSTR  szDll,
-   WORD     wLangId,
-   REFCLSID clsidObject,
-   REFIID   riid,
-   void**   ppvObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateInstanceInServer(
    string     szDll,
@@ -42,6 +35,17 @@ int CreateInstanceInServer(
    out IntPtr ppvObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateInstanceInServer(
+   LPCWSTR  szDll,
+   WORD     wLangId,
+   REFCLSID clsidObject,
+   REFIID   riid,
+   void**   ppvObject
+);
+```
+---
 
 ## Parameters
 `szDll`\

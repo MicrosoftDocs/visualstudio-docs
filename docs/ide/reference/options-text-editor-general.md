@@ -2,11 +2,10 @@
 title: Options, Text Editor, General
 description: Learn how to use the General page to change global settings for the Visual Studio code and text editor.
 ms.custom: SEO-VS-2020
-ms.date: 01/18/2019
+ms.date: 06/09/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor
-- vs.toolsoptionspages.text_editor
 - VS.ToolsOptionsPages.Text_Editor.Advanced
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining
@@ -40,13 +39,37 @@ ms.workload:
 ---
 # Options dialog box: Text Editor \> General
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This dialog box lets you change global settings for the Visual Studio code and text editor. To display this dialog box, select **Options** on the **Tools** menu, expand the **Text Editor** folder, and then select **General**.
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/tools-options-text-editor-general.png" alt-text="Screenshot of the text editor's general settings in the Options dialog box.":::
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+:::image type="content" source="media/vs-2019/tools-options-text-editor-general.png" alt-text="Screenshot of the text editor's general settings in the Options dialog box.":::
+
+::: moniker-end
 
 ## Settings
 
+The Settings section of **Tools** > **Options** > **Text Editor** > **General** includes the following options.
+
 ### Drag and drop text editing
 
-When selected, enables you to move text by selecting it and dragging it with the mouse to another location within the current document or any other open document.
+When selected, this setting enables you to move text by selecting and then dragging it with the mouse to another location within the current document or any other open document.
+
+::: moniker range="vs-2022"
+
+### Select subword on double click
+
+When you toggle this setting, a double-click selects only a subword instead of a whole word. (This can be helpful when you're using medial capitals, as an example.)
+
+::: moniker-end
 
 ### Automatic delimiter highlighting
 
@@ -58,19 +81,43 @@ When the code editor is selected, a vertical yellow line appears in the selectio
 
 ### Auto-detect UTF-8 encoding without signature
 
-By default, the editor detects encoding by searching for byte order marks or charset tags. If neither is found in the current document, the code editor tries to autodetect UTF-8 encoding by scanning byte sequences. To disable the autodetection of encoding, clear this option.
+By default, the editor detects encoding by searching for byte order marks or charset tags. If neither is found in the current document, the code editor tries to auto-detect UTF-8 encoding by scanning byte sequences. To disable the auto-detection of encoding, clear this option.
 
 ### Follow project coding conventions
 
-When selected, the project's specified coding conventions override any coding conventions you use on your personal projects.
+When selected, the project's specified [coding conventions](../create-portable-custom-editor-options.md#code-consistency) override any coding conventions you use on your personal projects.
 
-### Enable mouse-click to perform Go to Definition
+> [!TIP]
+> To learn more about coding conventions and how they are applied, see the [Create portable, custom editor settings with EditorConfig](../create-portable-custom-editor-options.md) page.
+
+### Enable mouse click to perform Go to Definition
 
 When selected, you can press **Ctrl** and hover over an element while clicking the mouse. Doing so takes you to the definition of the selected element. You can also choose either **Alt** or **Ctrl** + **Alt** from the **Use modifier key** drop-down.
 
-Select the **Open definition in peek view** check box to display the element's definition in a window without navigating away from your current location in the code editor.
+#### Open definition in peek view
+
+Select this check box to display the element's definition in a window without navigating away from your current location in the code editor. For more information, see [How to: View and edit code by using Peek Definition](../how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
 
 ## Display
+
+The Display section of **Tools** > **Options** > **Text Editor** > **General** includes the following options.
+
+::: moniker range=">=vs-2019"
+
+### View whitespace
+
+When selected, you can visualize spaces and tabs.
+
+### Show bidirectional text control characters
+
+When selected, all bidirectional text control characters will be rendered as placeholders in the code editor.
+
+> [!CAUTION]
+> This option is selected by default to prevent a potentially malicious exploit that allows code to be misrepresented.
+>
+> First introduced in [Visual Studio 2019 version 16.11.8](/visualstudio/releases/2019/release-notes#release-notes-icon-visual-studio-2019-version-16118), this option makes sure that the Visual Studio editor no longer allows bidirectional text control characters to manipulate the order of characters in the code editor. The bidirectional text control characters are still present in the code.
+
+::: moniker-end
 
 ### Selection margin
 
@@ -92,9 +139,31 @@ When selected, displays a gray box around the line of code in which the cursor i
 
 When selected, vertical lines appear in the editor that line up with structured code blocks, which lets you easily identify the individual blocks of code.
 
+::: moniker range=">=vs-2019"
+
+### Show error squiggles
+
+When selected, different-colored wavy underlines, known as squiggles, appear in your code. (Red squiggles denote syntax errors, blue denotes compiler errors, green denotes warnings, and purple denotes other types of errors.)
+
 ### Show file health indicator
 
-When selected, a file health indicator status (errors, warnings) bar, with code cleanup options, will be displayed in the lower left corner of the editor.
+When selected, a file health indicator status (errors, warnings) bar, with code cleanup options, is displayed in the lower-left corner of the editor.
+
+### Line spacing
+
+Use this control to change the default line spacing of 1.0 to the increment you want, to include 1.15, 1.5, 2.0, 2.5, and 3.0.
+
+### Show editing context in the editor
+
+Use this control to toggle the editing context settings altogether, or personalize to your preference by selecting from the following settings:
+
+- Line/Col
+- Selections
+- Insert/Overwrite
+- Tab/Space
+- Line endings
+
+::: moniker-end
 
 ## See also
 

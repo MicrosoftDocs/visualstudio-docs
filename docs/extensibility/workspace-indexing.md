@@ -12,6 +12,8 @@ ms.workload:
 ---
 # Workspace indexing
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In a solution, project systems are responsible for providing functionality for build, debug, **GoTo** symbol searching, and more. Project systems can do this work because they understand the relation and capabilities of files within a project. An [Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) workspace needs the same insight to provide rich IDE features as well. The collection and persistent storage of this data is a process called workspace indexing. This indexed data can be queried through a set of asynchronous APIs. Extenders can participate in the indexing process by providing <xref:Microsoft.VisualStudio.Workspace.Indexing.IFileScanner>s that know how to handle certain types of files.
 
 ## Types of indexed data

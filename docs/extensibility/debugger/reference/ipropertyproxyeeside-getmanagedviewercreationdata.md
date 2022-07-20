@@ -19,21 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IPropertyProxyEESide::GetManagedViewerCreationData
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves information about the viewer for this property type in order to instantiate that viewer.
 
 ## Syntax
 
-```cpp
-HRESULT GetManagedViewerCreationData(
-   BSTR*                  assemName,
-   IEEDataStorage**       assemBytes,
-   IEEDataStorage**       assemPdb,
-   BSTR*                  className,
-   ASSEMBLYLOCRESOLUTION* alr,
-   BOOL*                  replacementOk
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetManagedViewerCreationData(
    out string                     assemName,
@@ -44,6 +36,18 @@ int GetManagedViewerCreationData(
    out int                        replacementOk
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetManagedViewerCreationData(
+   BSTR*                  assemName,
+   IEEDataStorage**       assemBytes,
+   IEEDataStorage**       assemPdb,
+   BSTR*                  className,
+   ASSEMBLYLOCRESOLUTION* alr,
+   BOOL*                  replacementOk
+);
+```
+---
 
 ## Parameters
 `assemName`\

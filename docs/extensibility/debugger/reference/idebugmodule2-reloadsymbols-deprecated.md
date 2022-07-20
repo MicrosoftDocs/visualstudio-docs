@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugModule2::ReloadSymbols_Deprecated
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 OBSOLETE. DO NOT USE. Reloads the symbols for this module.
 
 ## Syntax
 
-```cpp
-HRESULT ReloadSymbols( 
-   LPCOLESTR pszUrlToSymbols,
-   BSTR*     pbstrDebugMessage
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ReloadSymbols( 
    string     pszUrlToSymbols,
    out string pbstrDebugMessage
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ReloadSymbols( 
+   LPCOLESTR pszUrlToSymbols,
+   BSTR*     pbstrDebugMessage
+);
+```
+---
 
 ## Parameters
 `pszUrlToSymbols`\

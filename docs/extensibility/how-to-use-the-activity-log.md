@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # How to: Use the activity log
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 VSPackages can write messages to the activity log. This feature is especially useful for debugging VSPackages in retail environments.
 
 > [!TIP]

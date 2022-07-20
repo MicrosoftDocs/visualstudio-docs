@@ -3,8 +3,8 @@ title: Unable to locate a product
 description: I'm unable to locate a product to download with my Visual Studio subscription.
 ms.topic: include
 ms.assetid: a3635d25-8f9d-4cf8-a9c3-db41d155f989
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 08/14/2020
 user.type: subscriber
 tags: download, activate

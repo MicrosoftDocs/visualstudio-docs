@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Create a breakpoint
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following describes the process of creating a breakpoint.
 
 ## Methods in breakpoint creation

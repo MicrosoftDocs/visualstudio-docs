@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugCustomAttribute::GetName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name of the custom attribute.
 
 ## Syntax
 
-```cpp
-HRESULT GetName( 
-   BSTR* bstrName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetName(
    out string bstrName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetName( 
+   BSTR* bstrName
+);
+```
+---
 
 ## Parameters
 `bstrName`\

@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramNode2::GetHostPid
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the system process identifier for the process hosting the program.
 
 ## Syntax
 
-```cpp
-HRESULT GetHostPid ( 
-   AD_PROCESS_ID * pdwHostPid
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetHostPid ( 
    out AD_PROCESS_ID pdwHostPid
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetHostPid ( 
+   AD_PROCESS_ID * pdwHostPid
+);
+```
+---
 
 ## Parameters
 `pdwHostPid`\

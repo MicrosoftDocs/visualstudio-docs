@@ -2,8 +2,8 @@
 title: How do I renew subscriptions?
 description: The super admin is looking for more information on how to renew
 ms.assetid:  6500f968-8f30-43ca-8538-072bd642873e
-author: CaityBuschlen 
-ms.author: cabuschl 
+author: evanwindom 
+ms.author: amast 
 ms.date: 09/29/2021
 user.type: admin 
 tags: renew  

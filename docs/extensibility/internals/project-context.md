@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Project Context
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When the user adds or works with projects and project items, the IDE uses the notion of project context to determine how various operations should be performed.
 
  Typically, files are the standard project objects that the user explicitly creates by selecting the **New Project** command or makes available by selecting the **Open Project** command on the **File** menu. In these cases, files are created and opened in the context of a project and the project type defines the context for editing the document.

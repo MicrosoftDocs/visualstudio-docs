@@ -13,6 +13,8 @@ ms.workload:
 - vssdk
 ---
 # SDKReference Element (Visual Studio Templates)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies that the item template uses an SDK reference.
 
 ## Syntax

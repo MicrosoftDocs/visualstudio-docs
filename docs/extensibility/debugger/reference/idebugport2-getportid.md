@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPort2::GetPortId
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the port identifier.
 
 ## Syntax
 
-```cpp
-HRESULT GetPortId( 
-   GUID* pguidPort
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPortId( 
    out Guid pguidPort
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPortId( 
+   GUID* pguidPort
+);
+```
+---
 
 ## Parameters
 `pguidPort`\

@@ -2,7 +2,7 @@
 title: "Remote Debug a C# or VB project | Microsoft Docs"
 description: Learn how to debug a Visual Studio C# or Visual Basic application from a remote computer by following these step-by-step instructions.
 ms.custom: ['remotedebugging"=']
-ms.date: "08/14/2018"
+ms.date: "02/23/2022"
 ms.topic: "conceptual"
 dev_langs:
   - "C++"
@@ -21,6 +21,8 @@ ms.workload:
   - "dotnet"
 ---
 # Remote Debugging a C# or Visual Basic project in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To debug a Visual Studio application that has been deployed on a different computer, install and run the remote tools on the computer where you deployed your app, configure your project to connect to the remote computer from Visual Studio, and then run your app.
 
 ![Remote debugger components](../debugger/media/remote-debugger-client-apps.png "Remote_debugger_components")
@@ -61,22 +63,28 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 
 4. On the **Properties** page, choose the **Debug** tab.
 
-    ![Screenshot of the Debug tab in the Visual Studio Solution Explorer Properties. The Use remote machine property is set to 'MJO-DL:4022'.](../debugger/media/remotedebuggercsharp.png)
+    ::: moniker range="vs-2022"
+    For C# projects targeting .NET Core or .NET 5 and later, starting in Visual Studio 2022, choose the **Debug launch profiles UI** from the **Debug** tab to configure settings for remote debugging.
+
+    ![Screenshot of the Debug launch profile UI in the Visual Studio Project Properties for C# and .NET.](../debugger/media/vs-2022/remote-debugger-csharp.png)
+
+    Otherwise, you change remote debug settings directly in the **Debug** tab.
+    ::: moniker-end
+
+    ![Screenshot of the Debug tab in the Visual Studio Project Properties. The Use remote machine property is set to 'MJO-DL:4022'.](../debugger/media/remotedebuggercsharp.png)
 
 5. Make sure the **Working directory** text box is empty.
 
 6. Choose **Use remote machine**, and type **yourmachinename:port** in the text box. (The port number is shown in the remote debugger window. The port number increments 2 in each version of Visual Studio).
 
     In this example, use:
-	::: moniker range="vs-2022"
-    **MJO-DL:4026** on Visual Studio 2019
+    ::: moniker range="vs-2022"
+    **MJO-DL:4026** on Visual Studio 2022
     ::: moniker-end
     ::: moniker range="vs-2019"
     **MJO-DL:4024** on Visual Studio 2019
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    **MJO-DL:4022** on Visual Studio 2017
-    ::: moniker-end
+
 
 7. Make sure that **Enable native code debugging** is not selected.
 

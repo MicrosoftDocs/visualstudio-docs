@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPropertyField::GetPropertySetter
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the method that sets the property.
 
 ## Syntax
 
-```cpp
-HRESULT GetPropertySetter( 
-   IDebugMethodField** ppField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPropertySetter(
    out IDebugMethodField ppField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPropertySetter( 
+   IDebugMethodField** ppField
+);
+```
+---
 
 ## Parameters
 `ppField`\

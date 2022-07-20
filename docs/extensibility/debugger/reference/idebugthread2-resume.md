@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugThread2::Resume
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Resumes execution of a thread.
 
 ## Syntax
 
-```cpp
-HRESULT Resume ( 
-   DWORD *pdwSuspendCount
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Resume ( 
    out uint pdwSuspendCount
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Resume ( 
+   DWORD *pdwSuspendCount
+);
+```
+---
 
 ## Parameters
 `pdwSuspendCount`\

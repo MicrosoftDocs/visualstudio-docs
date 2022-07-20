@@ -1,6 +1,7 @@
 ---
 title: Developer Community guidelines
-description: "Describes the guidelines for working with the Visual Studio Developer Community."
+description: Learn how to properly submit issues and suggestions, what to expect after submitting issues, and how best to interact with the Visual Studio Developer Community.
+ms.custom: kr2b-contr-experiment
 ms.date: 6/30/2020
 ms.topic: conceptual
 author: madskristensen
@@ -11,6 +12,8 @@ ms.workload:
   - "multiple"
 ---
 # Developer Community guidelines
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Developer Community tracks issues and feature suggestions for Visual Studio.
 

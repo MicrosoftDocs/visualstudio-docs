@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Walkthrough: Creating a Legacy Language Service
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Using the managed package framework (MPF) language classes to implement a language service in [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] is straightforward. You need a VSPackage to host the language service, the language service itself, and a parser for your language.
 
 ## Prerequisites
@@ -69,13 +71,21 @@ Using the managed package framework (MPF) language classes to implement a langua
 
 6. In the MyLanguageService.cs file, add the following `using` directives.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VSSDK/creatingalanguageservice(managedpackageframework)/cs/mylanguageservice.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VSSDK/creatingalanguageservice(managedpackageframework)/vb/mylanguageservice.vb" id="Snippet1":::
+     ---
 
 7. Modify the `MyLanguageService` class to derive from the <xref:Microsoft.VisualStudio.Package.LanguageService> class:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VSSDK/creatingalanguageservice(managedpackageframework)/cs/mylanguageservice.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VSSDK/creatingalanguageservice(managedpackageframework)/vb/mylanguageservice.vb" id="Snippet2":::
+     ---
 
 8. Position the cursor on "LanguageService" and from the **Edit**, **IntelliSense** menu, select **Implement Abstract Class**. This adds the minimum necessary methods to implement a language service class.
 
@@ -85,8 +95,12 @@ Using the managed package framework (MPF) language classes to implement a langua
 
 1. Open the MyLanguagePackagePackage.cs file and add the following `using` directives:
 
-     :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VSSDK/creatingalanguageservice(managedpackageframework)/vb/mylanguagepackagepackage.vb" id="Snippet3":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VSSDK/creatingalanguageservice(managedpackageframework)/cs/mylanguagepackagepackage.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VSSDK/creatingalanguageservice(managedpackageframework)/vb/mylanguagepackagepackage.vb" id="Snippet3":::
+     ---
 
 2. Register your language service class as described in [Registering a Legacy Language Service](../../extensibility/internals/registering-a-legacy-language-service1.md). This includes the ProvideXX attributes and "Proffering the Language Service" sections. Use MyLanguageService where this topic uses TestLanguageService.
 
@@ -109,8 +123,12 @@ Using the managed package framework (MPF) language classes to implement a langua
 
 3. In the new class file, add the following `using` directives.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VSSDK/creatingalanguageservice(managedpackageframework)/cs/mysource.cs" id="Snippet4":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VSSDK/creatingalanguageservice(managedpackageframework)/vb/mysource.vb" id="Snippet4":::
+     ---
 
 4. Modify the class to derive from the desired MPF class.
 
@@ -118,8 +136,12 @@ Using the managed package framework (MPF) language classes to implement a langua
 
      For example, the constructor for a class derived from the <xref:Microsoft.VisualStudio.Package.Source> class might look like the following:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VSSDK/creatingalanguageservice(managedpackageframework)/cs/mysource.cs" id="Snippet5":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VSSDK/creatingalanguageservice(managedpackageframework)/vb/mysource.vb" id="Snippet5":::
+     ---
 
 6. From the **Edit**, **IntelliSense** menu, select **Implement Abstract Class** if the base class has any abstract methods that must be implemented.
 

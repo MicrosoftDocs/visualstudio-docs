@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugModule3
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a module that supports alternate locations of symbols and JustMyCode states.
 
 ## Syntax

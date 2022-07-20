@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugBreakpointRequest2::GetRequestInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the breakpoint request information that describes this breakpoint request.
 
 ## Syntax
 
-```cpp
-HRESULT GetRequestInfo( 
-   BPREQI_FIELDS    dwFields,
-   BP_REQUEST_INFO* pBPRequestInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetRequestInfo( 
    eunm_BPREQI_FIELDS  dwFields,
    BP_REQUEST_INFO[]   pBPRequestInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetRequestInfo( 
+   BPREQI_FIELDS    dwFields,
+   BP_REQUEST_INFO* pBPRequestInfo
+);
+```
+---
 
 ## Parameters
 `dwFields`\

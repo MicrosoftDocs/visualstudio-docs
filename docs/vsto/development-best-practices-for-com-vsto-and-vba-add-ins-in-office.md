@@ -17,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # Development best practices for COM, VSTO, and VBA add-ins in Office
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   If you are developing COM, VSTO or VBA add-ins for Office, follow the development best practices described in this article.   This will help ensure:
 
 - Compatibility of your add-ins across different versions and deployments of Office.

@@ -1,8 +1,8 @@
 ---
 title: How do I change my sign-in email for my Visual Studio subscription provided by my company?
 description: How to request a change of your Visual Studio sign-in address for subscriptions acquired through Volume Licensing
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 06/02/2021
 ms.assetid: 522e5fc5-037b-4723-a7d7-decc9c42c377
 ms.topic: include

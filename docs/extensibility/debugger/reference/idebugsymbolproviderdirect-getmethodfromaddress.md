@@ -18,22 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProviderDirect::GetMethodFromAddress
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves information about the method at the specified debug address.
 
 ## Syntax
 
-```cpp
-HRESULT GetMethodFromAddress(
-   IDebugAddress* pAddress,
-   GUID*          pGuid,
-   DWORD*         pAppID,
-   _mdToken*      pTokenClass,
-   _mdToken*      pTokenMethod,
-   DWORD*         pdwOffset,
-   DWORD*         pdwVersion
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMethodFromAddress(
    IDebugAddress pAddress,
@@ -45,6 +36,19 @@ int GetMethodFromAddress(
    out uint      pdwVersion
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMethodFromAddress(
+   IDebugAddress* pAddress,
+   GUID*          pGuid,
+   DWORD*         pAppID,
+   _mdToken*      pTokenClass,
+   _mdToken*      pTokenMethod,
+   DWORD*         pdwOffset,
+   DWORD*         pdwVersion
+);
+```
+---
 
 ## Parameters
 `pAddress`\

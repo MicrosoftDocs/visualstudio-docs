@@ -9,8 +9,9 @@ ms.topic: conceptual
 ms.date: 8/31/2017
 ms.author: ghogen
 ---
-
 # Accessing Azure Virtual Machines from Server Explorer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range=">=vs-2022"
 > [!Important]
@@ -18,7 +19,7 @@ ms.author: ghogen
 >
 > Also, [Microsoft Azure Storage Explorer](/azure/vs-azure-tools-storage-manage-with-storage-explorer) is a free, standalone app from Microsoft. You can use it to work visually with Azure Storage data on Windows, macOS, and Linux.
 >
-> For more information about Visual Studio 2022, see our [release notes](/visualstudio/releases/2022/release-notes-preview/).
+> For more information about Visual Studio 2022, see our [release notes](/visualstudio/releases/2022/release-notes/).
 
 ::: moniker-end
 

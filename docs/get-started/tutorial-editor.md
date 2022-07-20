@@ -1,7 +1,7 @@
 ---
 title: Introduction to editing in the code editor
 description: Learn how to use the code editor in Visual Studio to add code to a file, and also how to write code, navigate to it, and refactor it.
-ms.date: 09/14/2021
+ms.date: 06/02/2022
 ms.technology: vs-ide-general
 ms.custom: [vs-acquisition,  get-started, SEO-VS-2020]
 ms.topic: tutorial
@@ -15,14 +15,10 @@ ms.workload:
 ---
 # Learn to use the code editor
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this 10-minute introduction to the code editor in Visual Studio, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
 
-::: moniker range="vs-2017"
-
-> [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -37,7 +33,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker-end
 
-This article assumes you're already familiar with a programming language. If you aren't, we suggest you look at one of the programming quickstarts first, such as create a web app with [Python](../ide/quickstart-python.md) or [C#](../get-started/csharp/tutorial-aspnet-core.md), or create a console app with [Visual Basic](../ide/quickstart-visual-basic-console.md) or [C++](/cpp/get-started/tutorial-console-cpp).
+This article assumes you're already familiar with a programming language. If you aren't, we suggest you look at one of the programming quickstarts first, such as create a web app with [Python](../ide/quickstart-python.md) or [C#](../get-started/csharp/tutorial-aspnet-core.md), or create a console app with [Visual Basic](visual-basic/tutorial-console.md) or [C++](/cpp/get-started/tutorial-console-cpp).
 
 ::: moniker range=">=vs-2022"
 
@@ -50,19 +46,6 @@ This article assumes you're already familiar with a programming language. If you
 
 Start by creating a new file and adding some code to it.
 
-::: moniker range="vs-2017"
-
-1. Open Visual Studio.
-
-1. From the **File** menu on the menu bar, choose **New** > **File**.
-
-1. In the **New File** dialog box, under the **General** category, choose **Visual C# Class**, and then choose **Open**.
-
-   A new file opens in the editor with the skeleton of a C# class. (Notice that we don't have to create a full Visual Studio project to gain some of the benefits that the code editor offers; all you need is a code file!)
-
-   ![Screenshot of a C# code file in Visual Studio.](media/tutorial-editor.png)
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -209,15 +192,15 @@ Let's comment out some code.
                                 select word;
     ```
 
-1. We're not using the `moreWords` variable, but we might use it later so we don't want to delete it. Instead, we'll comment out those lines. Select the entire definition of `moreWords` down to the closing semicolon, and then choose the **Comment out the selected lines** button on the Text Editor toolbar. If you prefer to use the keyboard, select **Ctrl**+**E**, **C**.
+1. We're not using the `moreWords` variable, but we might use it later so we don't want to delete it. Instead, we'll comment out those lines. Select the entire definition of `moreWords` down to the closing semicolon, and then choose the **Comment out the selected lines** button on the Text Editor toolbar. If you prefer to use the keyboard, select **Ctrl**+**K**, **Ctrl**+**C**.
 
    :::image type="content" source="media/vs-2022/tutorial-comment-out.png" alt-text="Screenshot of the Comment out button in the Text Editor toolbar in Visual Studio 2022.":::
 
    The C# comment characters `//` are added to the beginning of each selected line to comment out the code.
 
-When you want to uncomment lines, you can select them, and then choose the **Uncomment the selected lines** button on the Text Editor toolbar. If you prefer to use the keyboard, select **Ctrl**+**E**, **U**.
+   When you want to uncomment lines, you can select them, and then choose the **Uncomment the selected lines** button on the Text Editor toolbar. If you prefer to use the keyboard, select **Ctrl**+**K**, **Ctrl**+**U**.
 
-:::image type="content" source="media/vs-2022/tutorial-uncomment.png" alt-text="Screenshot of the Uncomment button in the Text Editor toolbar in Visual Studio 2022.":::
+   :::image type="content" source="media/vs-2022/tutorial-uncomment.png" alt-text="Screenshot of the Uncomment button in the Text Editor toolbar in Visual Studio 2022.":::
 
 ::: moniker-end
 

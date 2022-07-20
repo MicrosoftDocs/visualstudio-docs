@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject2::IsUserData
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines whether the object represents user data.
 
 ## Syntax
 
-```cpp
-HRESULT IsUserData(
-   BOOL* pfUser
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsUserData(
    out int pfUser
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsUserData(
+   BOOL* pfUser
+);
+```
+---
 
 ## Parameters
 `pfUser`\

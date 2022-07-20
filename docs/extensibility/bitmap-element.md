@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Bitmap element
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Defines a bitmap. The bitmap is loaded either from a resource or from a file.
 
 ## Syntax

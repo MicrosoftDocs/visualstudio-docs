@@ -4,8 +4,6 @@ description: Learn the various ways  to inspect and modify program state in Visu
 ms.custom: SEO-VS-2020
 ms.date: "01/09/2019"
 ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug"
 dev_langs:
   - "CSharp"
   - "VB"
@@ -24,6 +22,8 @@ ms.workload:
   - "multiple"
 ---
 # Create custom views of data in the Visual Studio debugger (C#, Visual Basic, C++)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger provides many tools for inspecting and modifying the state of your program. Most of these tools function only in break mode.
 

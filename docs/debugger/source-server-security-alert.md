@@ -20,6 +20,8 @@ ms.workload:
   - "multiple"
 ---
 # Source Server Security Alert
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When using Source Server, only use symbol files that are from a known and trusted location.
 
  This warning appears when you enable Source Server support. Source Server commands are embedded in debug symbol files (**\*.pdb** files). Make sure you know where your PDB files come from.

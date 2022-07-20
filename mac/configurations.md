@@ -1,13 +1,16 @@
 ---
 title: "Understanding Build Configurations"
 description: "This article describes the various build configurations in Visual Studio for Mac"
-author: heiligerdankgesang
-ms.author: dominicn
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 09/18/2019
+ms.topic: conceptual
 ms.assetid: 78107CFA-9308-4293-A92A-9B552A259E15
 ---
-
 # Understanding build configurations
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 You can store different configurations of solution and project properties to use in different kinds of builds during the development process. Projects created by Visual Studio for Mac using a template will typically include Debug and Release configurations that support debugging of an app and deployment of an app, respectively. 
 
@@ -21,8 +24,6 @@ If you'd like to create custom configurations, see [Creating and editing build c
 Solution configurations are used to specify configurations for all projects in a solution. By using the **Configuration Mappings** tab under the **Build > Configurations** item, you can assign a target configuration for each item in the opened solution. This is demonstrated in the following image:
 
 ![Configuration Mapping Options](media/projects-and-solutions-image3.png)
-
-For more information about configurations, see the [Configuration Manager](https://www.youtube.com/watch?v=tjSdkqYh5Vg) video by James Montemagno.
 
 ## Project build configurations
 

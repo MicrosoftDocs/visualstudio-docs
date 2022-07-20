@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugBoundBreakpoint2::SetHitCount
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the hit count for the bound breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT SetHitCount( 
-   DWORD dwHitCount
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetHitCount( 
    uint dwHitCount
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetHitCount( 
+   DWORD dwHitCount
+);
+```
+---
 
 ## Parameters
 `dwHitCount`\

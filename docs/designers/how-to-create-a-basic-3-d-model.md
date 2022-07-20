@@ -14,6 +14,8 @@ ms.workload:
 ---
 # How to: Create a basic 3D model
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This article demonstrates how to use the Model Editor to create a basic 3D model. The following activities are covered:
 
 - Adding objects to a scene

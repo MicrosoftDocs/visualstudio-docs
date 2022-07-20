@@ -23,6 +23,8 @@ ms.workload:
   - "multiple"
 ---
 # Cannot Change Value Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## Error
  `The value of this variable cannot be changed` &#124; `The name` *name* `does not exist in the current context` &#124; *various other messages*
 

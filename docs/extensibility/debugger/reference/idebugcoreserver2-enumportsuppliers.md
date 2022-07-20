@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugCoreServer2::EnumPortSuppliers
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of all available port suppliers.
 
 ## Syntax
 
-```cpp
-HRESULT EnumPortSuppliers(
-   IEnumDebugPortSuppliers2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumPortSuppliers(
    out IEnumDebugPortSuppliers2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumPortSuppliers(
+   IEnumDebugPortSuppliers2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

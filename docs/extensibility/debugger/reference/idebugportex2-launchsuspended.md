@@ -19,23 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortEx2::LaunchSuspended
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Launches an executable file.
 
 ## Syntax
 
-```cpp
-HRESULT LaunchSuspended( 
-   LPCOLESTR        pszExe,
-   LPCOLESTR        pszArgs,
-   LPCOLESTR        pszDir,
-   BSTR             bstrEnv,
-   DWORD            hStdInput,
-   DWORD            hStdOutput,
-   DWORD            hStdError,
-   IDebugProcess2** ppPortProcess
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int LaunchSuspended( 
    string             pszExe,
@@ -48,6 +38,20 @@ int LaunchSuspended( 
    out IDebugProcess2 ppPortProcess
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT LaunchSuspended( 
+   LPCOLESTR        pszExe,
+   LPCOLESTR        pszArgs,
+   LPCOLESTR        pszDir,
+   BSTR             bstrEnv,
+   DWORD            hStdInput,
+   DWORD            hStdOutput,
+   DWORD            hStdError,
+   IDebugProcess2** ppPortProcess
+);
+```
+---
 
 ## Parameters
 `pszExe`\

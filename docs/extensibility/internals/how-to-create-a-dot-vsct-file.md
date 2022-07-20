@@ -16,6 +16,8 @@ ms.workload:
 ---
 # How to: Create a .vsct file
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 There are several ways to create an XML-based Visual Studio command table configuration (*.vsct*) file.
 
 - You can create a new VSPackage in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] package template.

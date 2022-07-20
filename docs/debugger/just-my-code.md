@@ -2,7 +2,7 @@
 title: Debug user code with Just My Code | Microsoft Docs
 description: Just My Code is a debugging feature that automatically steps over calls to non-user code. Learn how to enable, disable, and use this feature.
 ms.custom: SEO-VS-2020
-ms.date: 02/13/2019
+ms.date: 04/01/2022
 ms.topic: how-to
 ms.assetid: 0f0df097-bbaf-46ad-9ad1-ef5f40435079
 author: mikejo5000
@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Debug only user code with Just My Code
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 *Just My Code* is a Visual Studio debugging feature that automatically steps over calls to system, framework, and other non-user code. In the **Call Stack** window, Just My Code collapses these calls into **[External Code]** frames.
 
 Just My Code works differently in .NET, C++, and JavaScript projects.
@@ -24,7 +26,17 @@ For most programming languages, Just My Code is enabled by default.
 
 - To enable or disable Just My Code in Visual Studio, under **Tools** > **Options** (or **Debug** > **Options**) > **Debugging** > **General**, select or deselect **Enable Just My Code**.
 
-![Enable Just My Code in the Options dialog box](../debugger/media/dbg_justmycode_options.png "Enable Just My Code")
+::: moniker range="<=vs-2019"
+
+![Screenshot of Enable Just My Code in the Options dialog box.](../debugger/media/vs-2019/dbg-just-my-code-options.png "Enable Just My Code")
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+![Screenshot of Enable Just My Code in the Options dialog box.](../debugger/media/vs-2022/dbg-just-my-code-options.png "Enable Just My Code")
+
+::: moniker-end
 
 > [!NOTE]
 > **Enable Just My Code** is a global setting that applies to all Visual Studio projects in all languages.
@@ -33,11 +45,31 @@ For most programming languages, Just My Code is enabled by default.
 
 During a debugging session, the **Modules** window shows which code modules the debugger is treating as My Code (user code), along with their symbol loading status. For more information, see [Get more familiar with how the debugger attaches to your app](../debugger/debugger-tips-and-tricks.md#modules_window).
 
-![User code in the Modules window](../debugger/media/dbg_justmycode_module.png "User code in the Modules window")
+::: moniker range="<=vs-2019"
+
+![Screenshot of user code in the Modules window.](../debugger/media/vs-2019/dbg-just-my-code-module.png "User code in the Modules window")
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+![Screenshot of user code in the Modules window.](../debugger/media/vs-2022/dbg-just-my-code-module.png "User code in the Modules window")
+
+::: moniker-end
 
 In the **Call Stack** or **Tasks** window, Just My Code collapses non-user code into a grayed-out annotated code frame labeled `[External Code]`.
 
-![External Code frame in the Call Stack window](../debugger/media/dbg_justmycode_externalcode.png "External Code frame")
+::: moniker range="<=vs-2019"
+
+![Screenshot of External Code in the Call Stack window.](../debugger/media/vs-2019/dbg-just-my-code-external-code.png "External Code frame")
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+![Screenshot of External Code in the Call Stack window.](../debugger/media/vs-2022/dbg-just-my-code-external-code.png "External Code frame")
+
+::: moniker-end
 
 >[!TIP]
 >To open the **Modules**, **Call Stack**, **Tasks**, or most other debugging windows, you must be in a debugging session. While debugging, under **Debug** > **Windows**, select the windows you want to open.
@@ -45,7 +77,17 @@ In the **Call Stack** or **Tasks** window, Just My Code collapses non-user code 
 <a name="BKMK_Override_call_stack_filtering"></a>
 To view the code in a collapsed **[External Code]** frame, right-click in the **Call Stack** or **Task** window, and select **Show External Code** from the context menu. The expanded external code lines replace the **[External Code**] frame.
 
-![Show External Code in the Call Stack window](../debugger/media/dbg_justmycode_showexternalcode.png "Show External Code")
+::: moniker range="<=vs-2019"
+
+![Screenshot of Show External Code in the Call Stack window.](../debugger/media/vs-2019/dbg-just-my-code-show-external-code.png "Show External Code")
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+![Screenshot of Show External Code in the Call Stack window.](../debugger/media/vs-2022/dbg-just-my-code-show-external-code.png "Show External Code")
+
+::: moniker-end
 
 > [!NOTE]
 > **Show External Code** is a current user profiler setting that applies to all projects in all languages that are opened by the user.
@@ -93,11 +135,11 @@ For call stack behavior, such as in the **Call Stack** window, Just My Code in C
 
 For code stepping behavior, Just My Code in C++ considers only these functions to be *non-user code*:
 
-- Functions for the which the corresponding PDB file has not been loaded in the debugger.
+- Functions for which the corresponding PDB file has not been loaded in the debugger.
 - Functions specified in *\*.natjmc* files in the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.
 
 > [!NOTE]
-> For code stepping support in Just My Code, C++ code must be compiled using the MSVC compilers in Visual Studio 15.8 Preview 3 or later, and the /JMC compiler switch must be enabled (it is enabled by default). For additional details, see [Customize C++ call stack and code stepping behavior](#BKMK_CPP_Customize_call_stack_behavior)) and this [blog post](https://devblogs.microsoft.com/cppblog/announcing-jmc-stepping-in-visual-studio/). For code compiled using an older compiler, *.natstepfilter* files are the only way to customize code stepping, which is independent of Just My Code. See [Customize C++ stepping behavior](#BKMK_CPP_Customize_stepping_behavior).
+> For code stepping support in Just My Code, C++ code must be compiled using the MSVC compilers in Visual Studio 15.8 Preview 3 or later, and the /JMC compiler switch must be enabled (it is enabled by default). For additional details, see [Customize C++ call stack and code stepping behavior](#BKMK_CPP_Customize_call_stack_behavior) and this [blog post](https://devblogs.microsoft.com/cppblog/announcing-jmc-stepping-in-visual-studio/). For code compiled using an older compiler, *.natstepfilter* files are the only way to customize code stepping, which is independent of Just My Code. See [Customize C++ stepping behavior](#BKMK_CPP_Customize_stepping_behavior).
 
 <a name="BKMK_CPP_Stepping_behavior"></a>
 During C++ debugging:

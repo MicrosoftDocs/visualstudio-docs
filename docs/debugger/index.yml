@@ -4,7 +4,8 @@ title: Visual Studio debugger documentation # < 60 chars
 summary: The Visual Studio debugger helps you observe the run-time behavior of your program and find problems. # < 160 chars
 
 metadata:
-  title: Debugging in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
+  title: Debugging in Visual Studio (Windows) # Required; page title displayed in search results. Include the brand. < 60 chars.
+  titleSuffix: ""
   description: Learn how to use Visual Studio to debug applications and code.
   ms.topic: landing-page
   ms.technology: vs-ide-debug
@@ -19,24 +20,10 @@ landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
   # Card (optional)
-  - title: About debugging
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: What is debugging?
-            url: what-is-debugging.md
-          - text: First look at the debugger
-            url: debugger-feature-tour.md
-          - text: FAQ - Find your debugging feature
-            url: find-your-debugging-task.yml
-
-  # Card (optional)
   - title: Get started
     linkLists:
       - linkListType: tutorial
         links:
-          - text: Debugging for absolute beginners
-            url: debugging-absolute-beginners.md
           - text: Learn to debug C#
             url: ../get-started/csharp/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
           - text: Learn to debug C++
@@ -45,18 +32,36 @@ landingContent:
             url: ../get-started/visual-basic/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
           - text: Run Python code in the debugger >>
             url: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
+      - linkListType: how-to-guide
+        links:
+          - text: Debugging for absolute beginners
+            url: debugging-absolute-beginners.md
+
+  # Card (optional)
+  - title: Fundamentals
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: First look at the debugger
+            url: debugger-feature-tour.md
+          - text: What is debugging?
+            url: what-is-debugging.md
+          - text: FAQ - Find your debugging feature
+            url: find-your-debugging-task.yml
 
   # Card
-  - title: Pause and navigate code
+  - title: Use the debugger
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Navigate through code with the debugger
+          - text: Code stepping
             url: navigating-through-code-with-the-debugger.md
-          - text: Use breakpoints
+          - text: Breakpoints
             url: using-breakpoints.md
           - text: Edit code and continue debugging
             url: edit-and-continue.md
+          - text: Call stack
+            url: how-to-use-the-call-stack-window.md
 
   # Card
   - title: Inspect data
@@ -67,8 +72,6 @@ landingContent:
             url: autos-and-locals-windows.md
           - text: Set a watch on variables
             url: watch-and-quickwatch-windows.md
-          - text: View the call stack
-            url: how-to-use-the-call-stack-window.md
 
     # Card
   - title: Go deeper with the debugger

@@ -1,8 +1,8 @@
 ---
 title: Security
 description: Learn about some security concepts and the security features that can help you effectively develop secure applications.
-ms.custom: SEO-VS-2020
-ms.date: 06/01/2018
+ms.custom: SEO-VS-2021
+ms.date: 10/26/2018
 ms.topic: conceptual
 helpviewer_keywords:
 - security [Visual Studio], applications
@@ -16,6 +16,8 @@ ms.workload:
 - multiple
 ---
 # Secure applications
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You should consider security in all aspects of your application development, from design to deployment. Start by running Visual Studio as securely as possible. See [User permissions](../ide/user-permissions-and-visual-studio.md).
 
@@ -40,6 +42,7 @@ Security is also an important consideration in the build process. A few addition
 - [Security in .NET](/dotnet/standard/security/index)
 - [Azure security](/azure/security/)
 - [Windows 10 Mobile security guide](/windows/security/threat-protection/windows-10-mobile-security-guide)
+- [Windows security](/windows/security/)
 - [Apache Cordova platform security features](/previous-versions/visualstudio/cross-platform/tools-for-cordova/security/best-practices?view=toolsforcordova-2017&preserve-view=true)
 - [ASP.NET Core security](/aspnet/core/security/?view=aspnetcore-2.1&preserve-view=true)
 - [Windows Forms security](/dotnet/framework/winforms/windows-forms-security)

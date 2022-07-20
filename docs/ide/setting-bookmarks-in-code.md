@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Set bookmarks in code
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can use bookmarks to mark lines in your code so that you can quickly return to a specific location, or jump back and forth between locations. Bookmark commands and icons are available in two places: the **Bookmark Window** (**View** > **Bookmark Window**) and the text editor toolbar.
 
 ![Bookmark toolbar](media/bookmark-toolbar.png)

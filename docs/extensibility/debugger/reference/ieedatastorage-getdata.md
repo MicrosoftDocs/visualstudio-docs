@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IEEDataStorage::GetData
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the specified number of bytes from the object.
 
 ## Syntax
 
-```cpp
-HRESULT GetData(
-   ULONG  dataSize,
-   ULONG* sizeGotten,
-   BYTE*  data
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetData(
    uint     dataSize,
@@ -38,6 +33,15 @@ int GetData(
    byte[]   data
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetData(
+   ULONG  dataSize,
+   ULONG* sizeGotten,
+   BYTE*  data
+);
+```
+---
 
 ## Parameters
 `dataSize`\

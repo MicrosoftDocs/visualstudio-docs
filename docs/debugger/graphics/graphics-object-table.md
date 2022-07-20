@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # Graphics Object Table
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Graphics Object Table in Visual Studio Graphics Analysis helps you understand the Direct3D objects that support a frame of your game or app.
 
  This is the Object Table:

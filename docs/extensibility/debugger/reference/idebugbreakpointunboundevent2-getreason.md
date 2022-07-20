@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugBreakpointUnboundEvent2::GetReason
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the reason the breakpoint was unbound.
 
 ## Syntax
 
-```cpp
-HRESULT GetReason(
-    BP_UNBOUND_REASON* pdwUnboundReason
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetReason(
     out enum_ BP_UNBOUND_REASON pdwUnboundReason
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetReason(
+    BP_UNBOUND_REASON* pdwUnboundReason
+);
+```
+---
 
 ## Parameters
 `pdwUnboundReason`\

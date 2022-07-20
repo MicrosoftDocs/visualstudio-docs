@@ -19,10 +19,25 @@ dev_langs:
 - CSharp
 ---
 # EVALFLAGS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies flags that control expression evaluation.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_EVALFLAGS {
+    EVAL_RETURNVALUE = 0x0002,
+    EVAL_NOSIDEEFFECTS = 0x0004,
+    EVAL_ALLOWBPS = 0x0008,
+    EVAL_ALLOWERRORREPORT = 0x0010,
+    EVAL_FUNCTION_AS_ADDRESS = 0x0040,
+    EVAL_NOFUNCEVAL = 0x0080,
+    EVAL_NOEVENTS = 0x1000
+}
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_EVALFLAGS {
     EVAL_RETURNVALUE = 0x0002,
@@ -35,18 +50,7 @@ enum enum_EVALFLAGS {
 };
 typedef DWORD EVALFLAGS;
 ```
-
-```csharp
-public enum enum_EVALFLAGS {
-    EVAL_RETURNVALUE = 0x0002,
-    EVAL_NOSIDEEFFECTS = 0x0004,
-    EVAL_ALLOWBPS = 0x0008,
-    EVAL_ALLOWERRORREPORT = 0x0010,
-    EVAL_FUNCTION_AS_ADDRESS = 0x0040,
-    EVAL_NOFUNCEVAL = 0x0080,
-    EVAL_NOEVENTS = 0x1000
-}
-```
+---
 
 ## Fields
 `EVAL_RETURNVALUE`\

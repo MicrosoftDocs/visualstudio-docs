@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Document position
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging, a *document position*:
 
 - Provides an abstraction of a position in a source file as known to the IDE. For most languages today, a document position can be thought of as a position in a source file.

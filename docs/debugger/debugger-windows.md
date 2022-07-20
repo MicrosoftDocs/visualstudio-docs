@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Inspect data using debugger windows in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can open most debugger windows while you are debugging your program. To see a list of debugger windows, set a breakpoint and start debugging. When you hit the breakpoint and execution stops, click **Debug > Windows**.
 
 |Window|Hotkey|See topic|

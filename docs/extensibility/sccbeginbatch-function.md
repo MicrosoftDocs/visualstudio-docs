@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # SccBeginBatch function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function starts a batch sequence of source control operations. The [SccEndBatch](../extensibility/sccendbatch-function.md) will be called to end the batch. These batches may not be nested.
 
 ## Syntax

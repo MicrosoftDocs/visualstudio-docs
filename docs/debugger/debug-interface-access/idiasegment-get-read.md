@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSegment::get_read
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag that indicates whether the segment can be read.
 
 ## Syntax

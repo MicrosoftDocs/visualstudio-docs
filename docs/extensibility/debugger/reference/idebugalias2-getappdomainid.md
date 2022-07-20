@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugAlias2::GetAppDomainId
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the identifier for the application domain.
 
 ## Syntax
 
-```cpp
-HRESULT GetAppDomainId (
-   ULONG32* pappDomainId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAppDomainId (
    out uint pappDomainId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAppDomainId (
+   ULONG32* pappDomainId
+);
+```
+---
 
 ## Parameters
 `pappDomainId`\

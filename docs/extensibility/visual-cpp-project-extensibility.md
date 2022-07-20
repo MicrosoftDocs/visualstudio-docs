@@ -13,6 +13,8 @@ ms.workload: ["vssdk"]
 ---
 # Visual Studio C++ Project system extensibility and toolset integration
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Visual C++ project system is used for .vcxproj files. It's based on the [Visual Studio Common Project System (CPS)](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/Index.md) and provides additional, C++ specific extensibility points for easy integration of new toolsets, build architectures, and target platforms.
 
 ## C++ MSBuild targets structure
@@ -401,11 +403,6 @@ Make sure to use `Condition ="'$(DesignTimeBuild)' != 'true'"` in all operations
 
 If `GeneratorTarget` metadata is defined for a project item, the target is run automatically both when the project is loaded and when the source file is changed.
 
-::: moniker range="vs-2017"
-
-For instance, to automatically generate .cpp or .h files from .xaml files, the `$(VSInstallDir)`\\*MSBuild*\\*Microsoft*\\*WindowsXaml*\\*v15.0*\\\*\\*Microsoft.Windows.UI.Xaml.CPP.Targets* files define these entities:
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

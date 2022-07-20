@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Component management
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Units of tasks in the Windows Installer are referred to as Windows Installer components (sometimes called WICs or just components). A GUID identifies each WIC, which is the basic unit of installation and reference counting for setups that use Windows Installer.
 
  Although you can use several products to create your VSPackage installer, this discussion assumes the use of Windows Installer (*.msi*) files. When creating your installer, you must correctly manage file deployment so that the correct reference counting happens at all times. Consequently, different versions of your product will not interfere with or break each other in a mix of install and uninstall scenarios.

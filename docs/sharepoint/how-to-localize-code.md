@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Localize code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Unlocalized code uses hard-coded string values. To localize code strings, replace them with calls to <xref:System.Web.HttpContext.GetGlobalResourceObject%2A>, which is a method that references localized resources.
 
 ## Localize code

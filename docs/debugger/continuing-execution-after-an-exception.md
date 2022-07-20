@@ -30,6 +30,8 @@ ms.workload:
   - multiple
 ---
 # Continuing Execution After an Exception
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When the debugger breaks execution because of an exception, you will see the **Exception Helper**, by default. If you have disabled the **Exception Helper** in the **Options** dialog box, you will see the **Exception Assistant** (C# or Visual Basic) or the **Exception** dialog box (C++).
 
  When the **Exception Helper** appears, you can try to fix the problem that caused the exception.

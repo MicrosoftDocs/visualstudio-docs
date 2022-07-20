@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugClassField::EnumConstructors
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator for the constructors for this class.
 
 ## Syntax
 
-```cpp
-HRESULT EnumConstructors( 
-   CONSTRUCTOR_ENUM   cMatch,
-   IEnumDebugFields** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumConstructors(
    CONSTRUCTOR_ENUM     cMatch,
    out IEnumDebugFields ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumConstructors( 
+   CONSTRUCTOR_ENUM   cMatch,
+   IEnumDebugFields** ppEnum
+);
+```
+---
 
 ## Parameters
 `cMatch`\

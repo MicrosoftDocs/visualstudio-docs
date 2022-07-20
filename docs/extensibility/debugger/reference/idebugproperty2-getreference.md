@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty2::GetReference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a reference to the property's value.
 
 ## Syntax
 
-```cpp
-HRESULT GetReference(
-   IDebugReference2** ppReference
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetReference(
    out IDebugReference2 ppReference
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetReference(
+   IDebugReference2** ppReference
+);
+```
+---
 
 ## Parameters
 `ppRererence`\

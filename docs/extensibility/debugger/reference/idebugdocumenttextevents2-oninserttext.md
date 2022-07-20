@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentTextEvents2::onInsertText
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Notifies the debug package that text has been inserted into the document.
 
 ## Syntax
 
-```cpp
-HRESULT onInsert( 
-   TEXT_POSITION pos,
-   DWORD         dwNumToInsert
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int onInsert( 
    enum_TEXT_POSITION pos,
    uint               dwNumToInsert
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT onInsert( 
+   TEXT_POSITION pos,
+   DWORD         dwNumToInsert
+);
+```
+---
 
 ## Parameters
 `pos`\

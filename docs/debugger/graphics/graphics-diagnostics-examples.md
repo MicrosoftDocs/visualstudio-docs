@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Graphics Diagnostics Examples
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 These examples show how to debug rendering problems in DirectX-based apps by using [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics.
 
 ## Capturing graphics information

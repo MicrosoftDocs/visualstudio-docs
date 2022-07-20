@@ -19,19 +19,23 @@ dev_langs:
 - CSharp
 ---
 # IDebugModule3::LoadSymbols
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Loads the symbols for the current module.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int LoadSymbols();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT LoadSymbols(
    void
 );
 ```
-
-```csharp
-int LoadSymbols();
-```
+---
 
 ## Return Value
  If the method succeeds, it returns `S_OK`. If it fails, it returns an error code.

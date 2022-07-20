@@ -2,7 +2,7 @@
 title: Use breakpoints in the debugger | Microsoft Docs
 description: Learn about breakpoints, one of the most important debugging techniques. The article covers breakpoint actions, tracepoints, conditions, and much more.
 ms.custom: SEO-VS-2020
-ms.date: 12/21/2020
+ms.date: 12/08/2021
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.breakpointswin
@@ -10,7 +10,6 @@ f1_keywords:
   - vs.debug.sourcewin.edit
   - vs.debug.file
   - vs.debug.breakpt.new
-  - vs.debug.whenbreakpointishit
   - vs.debug.breakpt.location.address
   - vs.debug.breakpt.constraints
   - vs.debug.breakpoints.delete
@@ -39,6 +38,8 @@ ms.workload:
 ---
 # Use breakpoints in the Visual Studio debugger
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Breakpoints are one of the most important debugging techniques in your developer's toolbox. You set breakpoints wherever you want to pause debugger execution. For example, you may want to see the state of code variables or look at the call stack at a certain breakpoint.  If you are trying to resolve a warning or issue while using breakpoints, see [Troubleshoot breakpoints in the Visual Studio debugger](../debugger/troubleshooting-breakpoints.md).
 
 > [!NOTE]
@@ -52,13 +53,26 @@ To set a breakpoint in source code, click in the far left margin next to a line 
 
 For most languages including C#, breakpoint and current execution lines are automatically highlighted. For C++ code, you can turn on highlighting of breakpoint and current lines by selecting **Tools** (or **Debug**) > **Options** > **Debugging** >  **Highlight entire source line for breakpoints and current statement (C++ only)**.
 
+::: moniker range=">= vs-2022"
+![Set a breakpoint](../debugger/media/vs-2022/basic-breakpoint.png "Basic breakpoint")
+::: moniker-end
+::: moniker range="<= vs-2019"
 ![Set a breakpoint](../debugger/media/basicbreakpoint.png "Basic breakpoint")
+::: moniker-end
 
 When you debug, execution pauses at the breakpoint, before the code on that line is executed. The breakpoint symbol shows a yellow arrow.
 
+::: moniker range=">= vs-2022"
+At the breakpoint in the following example, the value of `testInt` is still 3. So, the value hasn't changed since the variable was initialized (set to a value of 3) because the statement in yellow hasn't yet executed.
+
+![Breakpoint execution stopped](../debugger/media/vs-2022/breakpoint-execution.png "Breakpoint execution")
+::: moniker-end
+
+::: moniker range="<= vs-2019"
 At the breakpoint in the following example, the value of `testInt` is still 1. So, the value hasn't changed since the variable was initialized (set to a value of 1) because the statement in yellow hasn't yet executed.
 
 ![Breakpoint execution stopped](../debugger/media/breakpointexecution.png "Breakpoint execution")
+::: moniker-end
 
 When the debugger stops at the breakpoint, you can look at the current state of the app, including [variable values](../debugger/debugger-feature-tour.md#inspect-variables-with-data-tips) and the [call stack](../debugger/how-to-use-the-call-stack-window.md).
 
@@ -82,13 +96,18 @@ You can control when and where a breakpoint executes by setting conditions. The 
 
 1. Right-click the breakpoint symbol and select **Conditions** (or press **Alt** + **F9**, **C**). Or hover over the breakpoint symbol, select the **Settings** icon, and then select **Conditions** in the **Breakpoint Settings** window.
 
-::: moniker range=">= vs-2022"
-You can also right-click in the far left margin next to a line of code and select **Insert Conditional Breakpoint**  from the context menu to set a new conditional breakpoint. 
-::: moniker-end
+   ::: moniker range=">= vs-2022"
+   You can also right-click in the far left margin next to a line of code and select **Insert Conditional Breakpoint**  from the context menu to set a new conditional breakpoint. 
+   ::: moniker-end
 
-You can also set conditions in the **Breakpoints** window by right-clicking a breakpoint and selecting **Settings**, and then selecting **Conditions**
+   You can also set conditions in the **Breakpoints** window by right-clicking a breakpoint and selecting **Settings**, and then selecting **Conditions**
 
+   ::: moniker range=">= vs-2022"
+   ![Breakpoint settings](../debugger/media/vs-2022/breakpoint-settings.png "BreakpointSettings")
+   ::: moniker-end
+   ::: moniker range="<= vs-2019"
    ![Breakpoint settings](../debugger/media/breakpointsettings.png "BreakpointSettings")
+   ::: moniker-end
 
 2. In the dropdown, select **Conditional Expression**, **Hit Count**, or **Filter**, and set the value accordingly.
 
@@ -103,19 +122,28 @@ When you select **Conditional Expression**, you can choose between two condition
 
 In the following example, the breakpoint is hit only when the value of `testInt` is **4**:
 
+::: moniker range=">= vs-2022"
+![Breakpoint condition is true](../debugger/media/vs-2022/breakpoint-condition-is-true.png "Breakpoint Is true")
+::: moniker-end
+::: moniker range="<= vs-2019"
 ![Breakpoint condition is true](../debugger/media/breakpointconditionistrue.png "Breakpoint Is true")
+::: moniker-end
 
 In the following example, the breakpoint is hit only when the value of `testInt` changes:
 
+::: moniker range=">= vs-2022"
+![Breakpoint When changed](../debugger/media/vs-2022/breakpoint-when-changed.png "Breakpoint When changed")
+::: moniker-end
+::: moniker range="<= vs-2019"
 ![Breakpoint When changed](../debugger/media/breakpointwhenchanged.png "Breakpoint When changed")
+::: moniker-end
 
 If you set a breakpoint condition with invalid syntax, a warning message appears. If you specify a breakpoint condition with valid syntax but invalid semantics, a warning message appears the first time the breakpoint is hit. In either case, the debugger breaks when it hits the invalid breakpoint. The breakpoint is skipped only if the condition is valid and evaluates to `false`.
 
 >[!NOTE]
 > For the **When changed** field, the debugger doesn't consider the first evaluation of the condition to be a change, so doesn't hit the breakpoint on the first evaluation.
 
-<a name="using-object-ids-in-breakpoint-conditions-c-and-f"></a>
-### Use Object IDs in conditional expressions (C# and F# only)
+### <a name="using-object-ids-in-breakpoint-conditions-c-and-f"></a> Use Object IDs in conditional expressions (C# and F# only)
 
  There are times when you want to observe the behavior of a specific object. For example, you might want to find out why an object was inserted into a collection more than once. In C# and F#, you can create object IDs for specific instances of [reference types](/dotnet/csharp/language-reference/keywords/reference-types), and use them in breakpoint conditions. The object ID is generated by the common language runtime (CLR) debugging services and associated with the object.
 
@@ -146,7 +174,12 @@ If you suspect that a loop in your code starts misbehaving after a certain numbe
 
 Under **Conditions** in the **Breakpoint Settings** window, select **Hit Count**, and then specify the number of iterations. In the following example, the breakpoint is set to hit on every other iteration:
 
+::: moniker range=">= vs-2022"
+![Breakpoint hit count](../debugger/media/vs-2022/breakpoint-hit-count.png "BreakpointHitCount")
+::: moniker-end
+::: moniker range="<= vs-2019"
 ![Breakpoint hit count](../debugger/media/breakpointhitcount.png "BreakpointHitCount")
+::: moniker-end
 
 ### Set a filter condition
 
@@ -199,6 +232,7 @@ You can break execution when a function is called. This is useful, for example, 
 1. Select **OK**.
 
 ### Set a function breakpoint using a memory address (native C++ only)
+
  You can use the address of an object to set a function breakpoint on a method called by a specific instance of a class.  For example, given an addressable object of type `my_class`, you can set a function breakpoint on the `my_method` method that instance calls.
 
 1. Set a breakpoint somewhere after the instance of the class is instantiated.
@@ -215,7 +249,7 @@ You can break execution when a function is called. This is useful, for example, 
 
 ::: moniker range=">= vs-2019"
 
-## <a name="BKMK_set_a_data_breakpoint_managed"></a>Set data breakpoints (.NET Core 3.0 or higher)
+## <a name="BKMK_set_a_data_breakpoint_managed"></a>Set data breakpoints (.NET Core 3.x or .NET 5+)
 
 Data breakpoints break execution when a specific object's property changes.
 
@@ -310,17 +344,24 @@ In the **Breakpoints** window, you can search, sort, filter, enable/disable, or 
 
 To open the **Breakpoints** window, select **Debug** > **Windows** > **Breakpoints**, or press **Ctrl**+**Alt**+**B**.
 
+::: moniker range=">= vs-2022"
+![Breakpoints window](../debugger/media/vs-2022/breakpoints-window.png "Breakpoints window")
+::: moniker-end
+::: moniker range="<= vs-2019"
 ![Breakpoints window](../debugger/media/breakpointswindow.png "Breakpoints window")
+::: moniker-end
 
 To select the columns to display in the **Breakpoints** window, select **Show Columns**. Select a column header to sort the breakpoints list by that column.
 
 ### <a name="BKMK_Set_a_breakpoint_at_a_function_return_in_the_Call_Stack_window"></a> Breakpoint labels
+
 You can use labels to sort and filter the list of breakpoints in the **Breakpoints** window.
 
 1. To add a label to a breakpoint, right-click the breakpoint in the source code or the **Breakpoints** window, and then select **Edit labels**. Add a new label or choose an existing one, and then select **OK**.
 2. Sort the breakpoint list in the **Breakpoints** window by selecting the **Labels**, **Conditions**, or other column headers. You can select the columns to display by selecting **Show Columns** in the toolbar.
 
 ### Export and import breakpoints
+
  To save or share the state and location of your breakpoints, you can export or import them.
 
 - To export a single breakpoint to an XML file, right-click the breakpoint in the source code or **Breakpoints** window, and select **Export** or **Export selected**. Select an export location, and then select **Save**. The default location is the solution folder.

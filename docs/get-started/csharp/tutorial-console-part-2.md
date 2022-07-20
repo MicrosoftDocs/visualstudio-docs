@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In part 2 of this tutorial series, you dive a little deeper into the Visual Studio build and debug features you need for daily development. These features include managing multiple projects, debugging, and referencing third-party packages. You run the C# console app you created in [Part 1 of this tutorial](tutorial-console.md), and explore some features of the Visual Studio integrated development environment (IDE). This tutorial is part 2 of a two-part tutorial series.
 
 In this tutorial, you:
@@ -134,7 +136,7 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
 
    Adding the `using` directive should let you remove the `CalculatorLibrary` namespace from the call site, but now there's an ambiguity. Is `Calculator` the class in `CalculatorLibrary`, or is `Calculator` the namespace?
    
-   To resolve the ambiguity, rename the namespace from `Calculator` to `CalculatorProgram` in both *Program.cs* and *CalculatorLibrary.cs*.
+   To resolve the ambiguity, rename the namespace from `Calculator` to `CalculatorProgram` in *Program.cs*.
 
    ```csharp
    namespace CalculatorProgram
@@ -243,7 +245,7 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
 
 ## Reference .NET libraries: Write to a log
 
-You can use the .NET `Trace` class to add a log of all operations, and write it to a text file. The `Trace` class is also useful for basic print debugging techniques. The `Trace` class is in `System.Diagnostics`, and uses `System.IO` classes like `StreamWriter`.
+You can use the .NET [Trace](xref:System.Diagnostics.Trace) class to add a log of all operations, and write it to a text file. The `Trace` class is also useful for basic print debugging techniques. The `Trace` class is in `System.Diagnostics`, and uses `System.IO` classes like `StreamWriter`.
 
 1. Start by adding the `using` directives at the top of *CalculatorLibrary.cs*:
 
@@ -564,8 +566,8 @@ To output operations in JSON, a popular and portable format for storing object d
                     if (num2 != 0)
                     {
                         result = num1 / num2;
-                        writer.WriteValue("Divide");
                     }
+                    writer.WriteValue("Divide");
                     break;
                 // Return text for an incorrect option entry.
                 default:
@@ -786,8 +788,8 @@ namespace CalculatorLibrary
                     if (num2 != 0)
                     {
                         result = num1 / num2;
-                        writer.WriteValue("Divide");
                     }
+                    writer.WriteValue("Divide");
                     break;
                 // Return text for an incorrect option entry.
                 default:
@@ -902,9 +904,10 @@ namespace CalculatorProgram
 Congratulations on completing this tutorial! To learn more, continue with the following content:
 
 - [Continue with more C# tutorials](/dotnet/csharp/tutorials/).
-- [Quickstart: Create a ASP.NET Core web app](../../ide/quickstart-aspnet-core.md).
+- [Quickstart: Create an ASP.NET Core web app](../../ide/quickstart-aspnet-core.md).
 - [Learn to debug C# code in Visual Studio](tutorial-debugger.md).
 - [Walk through how to create and run unit tests](../../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md).
 - [Run a C# program](run-program.md).
 - [Learn about C# IntelliSense](../../ide/visual-csharp-intellisense.md).
 - [Continue with the Visual Studio IDE overview](visual-studio-ide.md).
+- [Logging and tracing](/dotnet/core/diagnostics/logging-tracing)

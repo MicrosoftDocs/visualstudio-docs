@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugStackFrame2::GetPhysicalStackRange
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a machine-dependent representation of the range of physical addresses associated with a stack frame.
 
 ## Syntax
 
-```cpp
-HRESULT GetPhysicalStackRange ( 
-   UINT64* paddrMin,
-   UINT64* paddrMax
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPhysicalStackRange ( 
    out ulong paddrMin,
    out ulong paddrMax
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPhysicalStackRange ( 
+   UINT64* paddrMin,
+   UINT64* paddrMax
+);
+```
+---
 
 ## Parameters
 `paddrMin`\

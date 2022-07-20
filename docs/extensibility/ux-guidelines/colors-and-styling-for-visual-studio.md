@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Colors and Styling for Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 ## Use color in Visual Studio
 
 In Visual Studio, color is used primarily as a communication tool, not just as decoration. Use color minimally and reserve it for situations where you want to:

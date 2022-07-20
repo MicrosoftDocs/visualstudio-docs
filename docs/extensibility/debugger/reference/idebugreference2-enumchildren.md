@@ -19,21 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugReference2::EnumChildren
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Get a list of selected children of a reference. Reserved for future use.
 
 ## Syntax
 
-```cpp
-HRESULT EnumChildren ( 
-   DEBUGREF_INFO_FLAGS        dwFields,
-   DWORD                      dwRadix,
-   DBG_ATTRIB_FLAGS           dwAttribFilter,
-   LPCOLESTR                  pszNameFilter,
-   DWORD                      dwTimeout,
-   IEnumDebugReferenceInfo2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumChildren ( 
    enum_DEBUGREF_INFO_FLAGS     dwFields,
@@ -44,6 +36,18 @@ int EnumChildren ( 
    out IEnumDebugReferenceInfo2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumChildren ( 
+   DEBUGREF_INFO_FLAGS        dwFields,
+   DWORD                      dwRadix,
+   DBG_ATTRIB_FLAGS           dwAttribFilter,
+   LPCOLESTR                  pszNameFilter,
+   DWORD                      dwTimeout,
+   IEnumDebugReferenceInfo2** ppEnum
+);
+```
+---
 
 ## Parameters
 `dwFields`\

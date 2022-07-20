@@ -3,8 +3,8 @@ title: How do I assign subscribers in bulk?
 description: Super admin or admin would like more details on how to use the bulk feature.
 ms.topic: include
 ms.assetid: 3b450a79-47d2-4434-899d-bea29a0271e1
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 06/01/2021
 user.type: admin
 tags: bulk

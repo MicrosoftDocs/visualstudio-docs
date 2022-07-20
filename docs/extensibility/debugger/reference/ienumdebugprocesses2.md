@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IEnumDebugProcesses2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface enumerates the processes running on a debug port.
 
 ## Syntax

@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # METADATA_ADDRESS_METHOD
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure represents the address of a method of a class.
 
 ## Syntax
 
-```cpp
-typedef struct _tagMETADATA_ADDRESS_METHOD {
-   _mdToken tokMethod;
-   DWORD    dwOffset;
-   DWORD    dwVersion;
-} METADATA_ADDRESS_METHOD;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct METADATA_ADDRESS_METHOD {
    public int  tokMethod;
@@ -38,6 +33,15 @@ public struct METADATA_ADDRESS_METHOD {
    public uint dwVersion;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagMETADATA_ADDRESS_METHOD {
+   _mdToken tokMethod;
+   DWORD    dwOffset;
+   DWORD    dwVersion;
+} METADATA_ADDRESS_METHOD;
+```
+---
 
 ## Members
  `tokMethod`\

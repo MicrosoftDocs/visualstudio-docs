@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugProgramHost2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface provides host (process) information about a program.
 
 ## Syntax

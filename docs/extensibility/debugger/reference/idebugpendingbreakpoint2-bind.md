@@ -20,19 +20,23 @@ dev_langs:
 - CSharp
 ---
 # IDebugPendingBreakpoint2::Bind
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Binds this pending breakpoint to one or more code locations.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Bind();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Bind( 
    void 
 );
 ```
-
-```csharp
-int Bind();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_BP_DELETED` if the breakpoint has been deleted.

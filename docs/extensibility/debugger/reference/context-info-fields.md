@@ -19,10 +19,25 @@ dev_langs:
 - CSharp
 ---
 # CONTEXT_INFO_FIELDS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies what information to retrieve about a memory context.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_CONTEXT_INFO_FIELDS {
+    CIF_MODULEURL =       0x00000001,
+    CIF_FUNCTION =        0x00000002,
+    CIF_FUNCTIONOFFSET =  0x00000004,
+    CIF_ADDRESS =         0x00000008,
+    CIF_ADDRESSOFFSET =   0x00000010,
+    CIF_ADDRESSABSOLUTE = 0x00000020,
+    CIF_ALLFIELDS =       0x0000003f
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_CONTEXT_INFO_FIELDS {
     CIF_MODULEURL =       0x00000001,
@@ -35,18 +50,7 @@ enum enum_CONTEXT_INFO_FIELDS {
 };
 typedef DWORD CONTEXT_INFO_FIELDS;
 ```
-
-```csharp
-public enum enum_CONTEXT_INFO_FIELDS {
-    CIF_MODULEURL =       0x00000001,
-    CIF_FUNCTION =        0x00000002,
-    CIF_FUNCTIONOFFSET =  0x00000004,
-    CIF_ADDRESS =         0x00000008,
-    CIF_ADDRESSOFFSET =   0x00000010,
-    CIF_ADDRESSABSOLUTE = 0x00000020,
-    CIF_ALLFIELDS =       0x0000003f
-};
-```
+---
 
 ## Fields
 `CIF_MODULEURL`\

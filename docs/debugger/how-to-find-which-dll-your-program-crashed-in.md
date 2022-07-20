@@ -28,6 +28,8 @@ ms.workload:
 ---
 # How to: Find Which DLL Your Program Crashed In (C#, C++, Visual Basic, F#)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
  If your application crashes during a call to a system DLL or someone else's code, you need to find out which DLL was active when the crash occurred. If you experience a crash in a DLL outside your own program, you can identify the location using the **Modules** window.
 
 ### To find where a crash occurred using the Modules window

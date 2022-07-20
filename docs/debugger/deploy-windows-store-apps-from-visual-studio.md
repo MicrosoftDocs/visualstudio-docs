@@ -2,7 +2,7 @@
 title: "Deploy UWP apps | Microsoft Docs"
 description: Deploy Universal Windows Platform (UWP) apps from Visual Studio. Specify a local or remote target device for deployment. Understand deployment options.
 
-ms.date: "01/16/2018"
+ms.date: "02/22/2022"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -17,6 +17,8 @@ ms.workload:
   - "uwp"
 ---
 # Deploy UWP apps from Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio deployment functionality builds and registers UWP apps that are created with Visual Studio on a target device. Exactly how the app is registered depends on whether the target device is local or remote:
 
@@ -47,7 +49,7 @@ Deployment is automatic when you debug your app from Visual Studio by using the 
 
 **Prerequisites**
 
-On a Windows 10 remote device, you must enable [developer mode](/windows/uwp/get-started/enable-your-device-for-development). On Windows 10 devices running Creator's Update or later, the remote tools are automatically installed when you deploy your app. For more information, see [Debug an installed app package](../debugger/debug-installed-app-package.md).
+On a Windows 10 or newer remote device, you must enable [developer mode](/windows/uwp/get-started/enable-your-device-for-development). On Windows 10 devices running Creator's Update or later, or Windows 11 devices, the remote tools are automatically installed when you deploy your app. For more information, see [Debug an installed app package](../debugger/debug-installed-app-package.md).
 
 > [!NOTE]
 > On pre-Creator's Update versions of Windows 10, the Remote Tools for Visual Studio must be installed on the remote device, and the remote debugger must be running.

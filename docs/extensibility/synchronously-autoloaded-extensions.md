@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Synchronously autoloaded extensions
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Synchronously autoloaded extensions have a negative impact on the performance of Visual Studio and should be converted to use asynchronous autoload instead. By default, Visual Studio 2019 blocks synchronously autoloaded packages from any extension and notifies the user.
 
 ![extension compatibility warning](media/extension-compatibility-warning-16-1.png.png)

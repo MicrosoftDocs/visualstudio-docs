@@ -23,6 +23,8 @@ ms.workload:
 ---
 # How to: Automatically increment the ClickOnce publish version
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, changing the `Publish Version` property causes the application to be published as an update. By default, Visual Studio automatically increments the `Revision` number of the `Publish Version` each time you publish the application.
 
 You can disable this behavior on the **Publish** page of the **Project Designer**.

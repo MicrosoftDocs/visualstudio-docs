@@ -25,6 +25,8 @@ ms.workload:
   - "office"
 ---
 # Troubleshoot errors in Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You might encounter issues when you perform the following tasks while you develop Office solutions in Visual Studio:
 
 - [Create, upgrade, and open projects](#creating)
@@ -123,13 +125,16 @@ ms.workload:
 ### Cannot reference Office PIA classes in projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]
  In projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], code that references a class that is defined in an Office PIA will not compile by default. Classes in the PIAs use the naming convention *objectname*Class, such as <xref:Microsoft.Office.Interop.Word.DocumentClass> and <xref:Microsoft.Office.Interop.Excel.WorkbookClass>. For example, the following code from a Word VSTO Add-in project will not compile.
 
-```vb
-Dim document As Word.DocumentClass = Globals.ThisAddIn.Application.ActiveDocument
-```
-
+### [C#](#tab/csharp)
 ```csharp
 Word.DocumentClass document = (Word.DocumentClass) Globals.ThisAddIn.Application.ActiveDocument;
 ```
+
+### [VB](#tab/vb)
+```vb
+Dim document As Word.DocumentClass = Globals.ThisAddIn.Application.ActiveDocument
+```
+---
 
  This code results in the following compile errors:
 
@@ -139,31 +144,46 @@ Word.DocumentClass document = (Word.DocumentClass) Globals.ThisAddIn.Application
 
   To resolve this error, modify the code to reference the corresponding interface instead. For example, rather than reference a <xref:Microsoft.Office.Interop.Word.DocumentClass> object, reference an instance of the <xref:Microsoft.Office.Interop.Word.Document> interface instead.
 
-```vb
-Dim document As Word.Document = Globals.ThisAddIn.Application.ActiveDocument
-```
-
+### [C#](#tab/csharp)
 ```csharp
 Word.Document document = Globals.ThisAddIn.Application.ActiveDocument;
 ```
+
+### [VB](#tab/vb)
+```vb
+Dim document As Word.Document = Globals.ThisAddIn.Application.ActiveDocument
+```
+---
 
  Projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], automatically embed all interop types from the Office PIAs by default. This compile error occurs because the embedded interop types feature only works with interfaces, not classes. For more information about interfaces and classes in the Office PIAs, see [Overview of classes and interfaces in the Office primary interop assemblies](/previous-versions/office/office-12/ms247299(v=office.12)). For more information about the embedded interop types feature in Office projects, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).
 
 ### References to Office classes are not recognized
  Some class names, for example Application, are in multiple namespaces such as <xref:Microsoft.Office.Interop.Word> and <xref:System.Windows.Forms>. For this reason, the **Imports**/**using** statement at the top of the project templates includes a shorthand qualifying constant, for example:
 
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreTroubleshootingWordCS/ThisDocument.cs" id="Snippet2":::
+
+ ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreTroubleshootingWordVB/ThisDocument.vb" id="Snippet2":::
+ ---
 
  This usage of the **Imports**/**using** statement requires that you differentiate references to Office classes with the Word or Excel qualifier, for example:
 
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreTroubleshootingWordCS/ThisDocument.cs" id="Snippet3":::
+
+ ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreTroubleshootingWordVB/ThisDocument.vb" id="Snippet3":::
+ ---
 
  You will get errors if you use an unqualified declaration, for example:
 
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreTroubleshootingWordCS/ThisDocument.cs" id="Snippet4":::
+
+ ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreTroubleshootingWordVB/ThisDocument.vb" id="Snippet4":::
+ ---
 
  Even though you have imported the Word or Excel namespace and have access to all the classes inside it, you must fully qualify all the types with Word or Excel to remove namespace ambiguity.
 

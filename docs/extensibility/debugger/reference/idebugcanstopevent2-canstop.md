@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugCanStopEvent2::CanStop
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Notifies the debug engine (DE) whether or not to stop at the current code location or just continue execution.
 
 ## Syntax
 
-```cpp
-HRESULT CanStop ( 
-   BOOL fCanStop
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CanStop ( 
    int fCanStop
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CanStop ( 
+   BOOL fCanStop
+);
+```
+---
 
 ## Parameters
 `fCanStop`\

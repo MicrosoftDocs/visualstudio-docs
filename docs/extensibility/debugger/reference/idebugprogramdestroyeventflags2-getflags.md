@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramDestroyEventFlags2::GetFlags
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the program destroy flags.
 
 ## Syntax
 
-```cpp
-HRESULT GetFlags(
-   PROGRAM_DESTROY_FLAGS* pdwFlags
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int GetFlags(
    out enum_PROGRAM_DESTROY_FLAGS pdwFlags
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetFlags(
+   PROGRAM_DESTROY_FLAGS* pdwFlags
+);
+```
+---
 
 ## Parameters
 `pdwFlags`\

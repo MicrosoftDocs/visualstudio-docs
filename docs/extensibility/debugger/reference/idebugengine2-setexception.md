@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngine2::SetException
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies how the debug engine (DE) should handle a given exception.
 
 ## Syntax
 
-```cpp
-HRESULT SetException( 
-   EXCEPTION_INFO* pException
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetException( 
    EXCEPTION_INFO[] pException
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetException( 
+   EXCEPTION_INFO* pException
+);
+```
+---
 
 ## Parameters
 `pException`\

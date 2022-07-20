@@ -19,21 +19,13 @@ dev_langs:
 - CSharp
 ---
 # DEBUG_CUSTOM_VIEWER
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A structure that identifies a custom viewer or type visualizer.
 
 ## Syntax
 
-```cpp
-typedef struct tagDEBUG_CUSTOM_VIEWER {
-    DWORD dwID;
-    BSTR  bstrMenuName;
-    BSTR  bstrDescription;
-    GUID  guidLang;
-    GUID  guidVendor;
-    BSTR  bstrMetric;
-} DEBUG_CUSTOM_VIEWER;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct DEBUG_CUSTOM_VIEWER {
     public uint   dwID;
@@ -44,6 +36,18 @@ public struct DEBUG_CUSTOM_VIEWER {
     public string bstrMetric;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagDEBUG_CUSTOM_VIEWER {
+    DWORD dwID;
+    BSTR  bstrMenuName;
+    BSTR  bstrDescription;
+    GUID  guidLang;
+    GUID  guidVendor;
+    BSTR  bstrMetric;
+} DEBUG_CUSTOM_VIEWER;
+```
+---
 
 ## Members
 `dwID`\

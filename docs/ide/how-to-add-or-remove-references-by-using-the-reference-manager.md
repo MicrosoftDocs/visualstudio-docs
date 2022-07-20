@@ -27,6 +27,8 @@ ms.workload:
 ---
 # How to: Add or remove references by using the Reference Manager
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can use the Reference Manager dialog box to add and manage references to components that you, Microsoft, or another company developed. If you're developing a Universal Windows app, your project automatically references all of the correct Windows SDK DLLs. If you are developing a .NET application, your project automatically references *mscorlib.dll*. Some .NET APIs are exposed in components that you have to add manually. References to COM components or custom components have to be added manually.
 
 ## Reference Manager dialog box
@@ -50,15 +52,6 @@ The Reference Manager dialog box shows different categories on the left side, de
 
 ## Add a reference
 
-::: moniker range="vs-2017"
-
-1. In **Solution Explorer**, right-click on the **References** or **Dependencies** node and choose **Add Reference**. You can also right-click on the project node and select **Add** > **Reference**.
-
-   **Reference Manager** opens and lists the available references by group.
-
-2. Specify the references to add, and then select **OK**.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

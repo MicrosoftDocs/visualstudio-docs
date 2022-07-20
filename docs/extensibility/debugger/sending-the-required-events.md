@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Send the required events
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Use this procedure for sending required events.
 
 ## Process for sending required events

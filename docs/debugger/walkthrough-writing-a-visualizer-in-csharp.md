@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Walkthrough: Writing a Visualizer in C\#
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This walkthrough shows how to write a simple visualizer by using C#. The visualizer you will create in this walkthrough displays the contents of a string using a Windows Form. This simple string visualizer is not especially useful in itself, but it shows the basic steps that you must follow to create more useful visualizers for other data types.
 
 > [!NOTE]
@@ -39,11 +41,7 @@ Follow the tasks below to create a visualizer.
 
     For the visualizer project, make sure you select a .NET Framework class library and not .NET. Although the visualizer needs to be .NET Framework, the calling app can be .NET.
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **.NET Framework**, and then in the middle pane choose **Class Library (.NET Framework)**.
 
-    Type an appropriate name for the class library, such as `MyFirstVisualizer`, and then click **Create** or **OK**.
-    ::: moniker-end
 
    After you have created the class library, you must add a reference to Microsoft.VisualStudio.DebuggerVisualizers.DLL so that you can use the classes defined there. Before you add the reference, however, you must rename some classes so that they have meaningful names.
 
@@ -177,11 +175,7 @@ In the debugger-side code, you specify the type to visualize (the object source)
     > [!NOTE]
     > If you want to easily test the visualizer using a test harness, create a .NET Framework console app. You can create a .NET console app instead, but the test harness described later is not yet supported for .NET, so you will need to install the visualizer to test it. For a .NET console app, first create the console app here, add the required DLL and project references, and then follow steps described in [Add a debuggee-side data object](#add-a-debuggee-side-data-object). For ASP.NET Core scenarios, see [Special debugger side considerations for .NET 5.0+](../debugger/create-custom-visualizers-of-data.md#special-debugger-side-considerations-for-net-50).
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
 
-    Type an appropriate name for the class library, such as `MyTestConsole`, and then click **OK**.
-    ::: moniker-end
 
    Now, you must add the necessary references so MyTestConsole can call MyFirstVisualizer.
 
@@ -306,7 +300,7 @@ In this section, you switch from the `System.String` data object to a custom dat
    // String myString = "Hello, World";
    CustomDataObject customDataObject = new CustomDataObject();
 
-   DebuggerSide.TestShowVisualizer(customDataObject.MyData);
+   DebuggerSide.TestShowVisualizer(customDataObject);
    ```
 
 1. (.NET console app) Enclose the call to `TestShowVisualizer` in a try-catch statement, since the test harness is unsupported.
@@ -314,7 +308,7 @@ In this section, you switch from the `System.String` data object to a custom dat
    ```csharp
    try
    {
-         DebuggerSide.TestShowVisualizer(customDataObject.MyData);
+         DebuggerSide.TestShowVisualizer(customDataObject);
    }
    catch (Exception) {
    }
@@ -338,42 +332,6 @@ In this section, you switch from the `System.String` data object to a custom dat
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-## Create a visualizer using the Visualizer item template
-
-So far, this walkthrough has shown you how to create a visualizer manually. This was done as a learning exercise. Now that you know how a simple visualizer works, there is an easier way to create one: using the visualizer item template.
-
-First, you have to create a new class library project.
-
-### To create a new class library
-
-1. On the **File** menu, choose **New > Project**.
-
-2. In the **New Project** dialog box, under **Visual C#**, select **.NET Framework**.
-
-3. In the middle pane, choose **Class Library**.
-
-4. In the **Name** box, type an appropriate name for the class library, such as MySecondVisualizer.
-
-5. Click **OK**.
-
-   Now, you can add a visualizer item to it:
-
-### To add a visualizer item
-
-1. In **Solution Explorer**, right-click MySecondVisualizer.
-
-2. On the shortcut menu, choose **Add** and then click **New Item**.
-
-3. In the **Add New Item** dialog box, under **Visual C# Items**, select **Debugger Visualizer**.
-
-4. In the **Name** box, type an appropriate name, such as SecondVisualizer.cs.
-
-5. Click **Add**.
-
-   That is all there is to it. Look at the file SecondVisualizer.cs and view the code that the template added for you. Go ahead and experiment with the code. Now that you know the basics, you are on your way to creating more complex and useful visualizers of your own.
-::: moniker-end
 
 ## See also
 

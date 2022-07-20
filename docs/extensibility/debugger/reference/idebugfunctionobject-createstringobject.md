@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugFunctionObject::CreateStringObject
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates a string object.
 
 ## Syntax
 
-```cpp
-HRESULT CreateStringObject( 
-   LPCOLESTR      pcstrString,
-   IDebugObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateStringObject(
    string      pcstrString,
    out IDebugObject ppOjbect
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateStringObject( 
+   LPCOLESTR      pcstrString,
+   IDebugObject** ppObject
+);
+```
+---
 
 ## Parameters
 `pcstrString`\

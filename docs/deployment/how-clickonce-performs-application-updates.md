@@ -21,6 +21,8 @@ ms.workload:
   - "multiple"
 ---
 # How ClickOnce performs application updates
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ClickOnce uses the file version information specified in an application's deployment manifest to decide whether to update the application's files. After an update begins, ClickOnce uses a technique called *file patching* to avoid redundant downloading of application files.
 
 ## File patching

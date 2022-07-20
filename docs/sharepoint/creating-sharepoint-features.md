@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Create SharePoint features
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can use a SharePoint Feature to group related SharePoint project items for easier deployment. You can create Features, set scopes, and mark other Features as dependencies by using the SharePoint Feature Designer. The designer also generates a manifest, which is an XML file that describes each Feature.
 
 ## Add features to the SharePoint solution

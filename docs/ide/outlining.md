@@ -1,8 +1,8 @@
 ---
 title: Collapse and expand regions of code
-description: Learn how you can use the expand and collapse commands to work in outline mode in Visual Studio
+description: Learn how you can use the expand and collapse commands to work in outline mode in Visual Studio.
 ms.custom: SEO-VS-2020
-ms.date: 10/15/2020
+ms.date: 05/26/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - outlining
@@ -21,10 +21,14 @@ ms.workload:
 ---
 # Outlining
 
-You can choose to hide some code from view by collapsing a region of code so that it appears under a plus sign (**+**). You expand a collapsed region by clicking the plus sign. If you are a keyboard user, you can choose **Ctrl**+**M**+**M** to collapse and expand. You can also collapse an outlining region by double-clicking any line in the region on the outlining margin, which appears just to the left of the code. You can see the contents of a collapsed region as a tooltip when you hover over the collapsed region.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Source editor (Visual Studio for Mac)](/visualstudio/mac/source-editor).
+To hide a region of code from view, you can collapse it so that it appears under a plus sign (**+**) in the text editor. Then, to expand a collapsed region, click the plus sign.
+
+> [!TIP]
+> If you are a keyboard user, you can choose **Ctrl**+**M**+**M** to collapse and expand.
+
+To collapse an outlining region, double-click any line in the region on the outlining margin, which appears just to the left of the code. You can see the contents of a collapsed region as a tooltip when you hover over the collapsed region.
 
 Regions in the outlining margin are also highlighted when you hover over the margin with the mouse. The default highlighting color may seem rather faint in some color configurations. You can change it in **Tools** > **Options** > **Environment** > **Fonts and Colors** > **Collapsible Region**.
 
@@ -47,6 +51,9 @@ The following commands can be found on the **Edit** > **Outlining** submenu.
 |Collapse to Definitions|(**Ctrl**+**M**, **Ctrl**+**O**) - Collapses the members of all types.|
 |Collapse Block:\<logical boundary>|(C++) Collapses a region in the function containing the insertion point. For example, if the insertion point lies inside a loop, the loop is hidden.|
 |Collapse All in: \<logical structures>|(C++) Collapses all the structures inside the function.|
+
+> [!TIP]
+> For more information on how to use the keyboard exclusively, see [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md).
 
 You can also use the Visual Studio SDK to define the text regions you want to expand or collapse. See [Walkthrough: Outlining](../extensibility/walkthrough-outlining.md).
 

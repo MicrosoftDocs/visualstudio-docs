@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Event sources (Visual Studio SDK)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 There are two sources of events: the debug engine (DE) and the Session Debug Manager (SDM). Events sent from a DE have a non-NULL engine, while events sent from the SDM have a NULL engine.
 
 ## Example

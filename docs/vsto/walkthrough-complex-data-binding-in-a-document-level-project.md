@@ -21,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Complex data binding in a document-level project
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates the basics of complex data binding in a document-level project. You can bind multiple cells in a Microsoft Office Excel worksheet to fields in the Northwind SQL Server database.
 
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]
@@ -116,8 +118,12 @@ ms.workload:
 
 2. Add the following code to the `Sheet1_Startup` method to set the text for the b`utton`.
 
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet3.cs" id="Snippet8":::
+
+    ### [VB](#tab/vb)
     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet3.vb" id="Snippet8":::
+    ---
 
 3. For C# only, add an event handler for the <xref:System.Windows.Forms.Control.Click> event to the `Sheet1_Startup` method.
 
@@ -132,8 +138,12 @@ ms.workload:
 
 1. Add an event handler for the <xref:System.Windows.Forms.Control.Click> event of the `button`, and add the following code to commit all changes that have been made in the dataset back to the database.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet3.cs" id="Snippet10":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet3.vb" id="Snippet10":::
+     ---
 
 ## Test the application
  Now you can test your workbook to verify that the data appears as expected, and that you can manipulate the data in the list object.

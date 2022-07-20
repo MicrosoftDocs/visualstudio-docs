@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Create reusable groups of buttons
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A command group is a collection of commands that always appear together on a menu or toolbar. Any command group can be re-used by assigning it to different parent menus in the CommandPlacements section of the *.vsct* file.
 
  Command groups typically contain buttons, but they can also contain other menus or combo boxes.

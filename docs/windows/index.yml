@@ -8,10 +8,10 @@ metadata:
    description: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for any platform or device.
    ms.topic: hub-page
    ms.custom: contperf-fy21q1
-   ms.date: 07/16/2021
+   ms.date: 11/08/2021
    ms.author: jmartens
    author: j-martens
-   monikerRange: ">=vs-2017"
+   monikerRange: ">=vs-2019"
    f1_keywords:
      - MSDNSTART
      - vs.about
@@ -24,9 +24,9 @@ highlightedContent:
    - title: Welcome to the Visual Studio IDE
      itemType: overview
      url: ../get-started/visual-studio-ide.md
-   - title: Visual Studio 2022 RC
+   - title: Visual Studio 2022
      itemType: whats-new
-     url: /visualstudio/releases/2022/release-notes-preview
+     url: ../ide/whats-new-visual-studio-2022.md
    - title: Improve your Visual Studio skills
      itemType: learn
      url: /learn/browse/?products=vs

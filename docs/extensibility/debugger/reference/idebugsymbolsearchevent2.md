@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugSymbolSearchEvent2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is sent by the debug engine (DE) to indicate that the debugging symbols for a module being debugged have been loaded.
 
 ## Syntax

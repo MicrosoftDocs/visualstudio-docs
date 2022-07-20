@@ -31,10 +31,6 @@ landingContent:
         links:
           - text: Start a guided tour 
             url: visual-studio-ide.md
-      - linkListType: quickstart
-        links:
-          - text: Create a "Hello World" console app
-            url: ../../ide/quickstart-visual-basic-console.md
 
   # Card
   - title: Create Visual Basic apps

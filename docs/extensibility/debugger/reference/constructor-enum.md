@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # CONSTRUCTOR_ENUM
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Selects different types of constructors.
 
 ## Syntax
 
-```cpp
-typedef enum ConstructorMatchOptions {
-    crAll       = 0,
-    crNonStatic = 1,
-    crStatic    = 2
-} CONSTRUCTOR_ENUM;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public enum ConstructorMatchOptions {
     crAll       = 0,
@@ -38,6 +33,15 @@ public enum ConstructorMatchOptions {
     crStatic    = 2
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef enum ConstructorMatchOptions {
+    crAll       = 0,
+    crNonStatic = 1,
+    crStatic    = 2
+} CONSTRUCTOR_ENUM;
+```
+---
 
 ## Fields
 `crAll`\

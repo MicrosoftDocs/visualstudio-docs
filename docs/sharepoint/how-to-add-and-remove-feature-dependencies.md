@@ -20,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # How to: Add and remove feature dependencies
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Your SharePoint Feature may depend on other Features for functionality or data. In these cases, you can mark these other Features as dependencies for your Feature. This way, the SharePoint server ensures that dependent Features are activated before your Feature is activated.
 
 ## Add dependencies
@@ -33,7 +35,7 @@ ms.workload:
 
      You can add more than one feature by choosing multiple titles while choosing the **Ctrl** key.
 
-## Addi custom dependencies
+## Add custom dependencies
  You can add Features that are already deployed on a SharePoint server as a dependency. This way, the SharePoint activation process checks to make sure that all dependent Features are activated before your Feature is installed.
 
 #### To add a dependency by the feature ID

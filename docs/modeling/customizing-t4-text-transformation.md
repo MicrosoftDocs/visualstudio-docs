@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Customize T4 Text Transformation
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Text templates are a feature of Visual Studio that allow you to generate program code or other text files through a transformation process. Using [!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)], you can extend the default template transformation process by customizing the text template directive processor or the text template host.
 
 ## In This Section

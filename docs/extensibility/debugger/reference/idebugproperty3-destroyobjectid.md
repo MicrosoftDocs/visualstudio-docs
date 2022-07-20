@@ -19,19 +19,23 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty3::DestroyObjectID
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Destroys the unique ID associated with this property, indicating that the caller no longer cares to identify this property uniquely from all other properties.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int DestroyObjectID();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT DestroyObjectID(
    void
 );
 ```
-
-```csharp
-int DestroyObjectID();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

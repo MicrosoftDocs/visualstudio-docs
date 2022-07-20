@@ -20,6 +20,8 @@ ms.workload:
   - "multiple"
 ---
 # ClickOnce application manifest
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest is an XML file that describes an application that is deployed using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)].
 
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifests have the following elements and attributes.

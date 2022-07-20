@@ -41,6 +41,8 @@ ms.workload:
 ---
 # Windows Communication Foundation Services and WCF Data Services in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio provides tools for working with Windows Communication Foundation (WCF) and WCF Data Services, Microsoft technologies for creating distributed applications. This topic provides an introduction to services from a Visual Studio perspective. For the full documentation, see [WCF Data Services 4.5](/dotnet/framework/data/wcf/index).
 
 ## What Is WCF?
@@ -59,13 +61,21 @@ The WCF programming model is based on communication between two entities: a WCF 
 
 A WCF service is based on an interface that defines a contract between the service and the client. It is marked with a <xref:System.ServiceModel.ServiceContractAttribute> attribute, as shown in the following code:
 
+### [C#](#tab/csharp)
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/iservice1.cs" id="Snippet6":::
+
+### [VB](#tab/vb)
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/iservice1.vb" id="Snippet6":::
+---
 
 You define functions or methods that are exposed by a WCF service by marking them with a <xref:System.ServiceModel.OperationContractAttribute> attribute.
 
+### [C#](#tab/csharp)
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/iservice1.cs" id="Snippet1":::
+
+### [VB](#tab/vb)
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/iservice1.vb" id="Snippet1":::
+---
 
 In addition, you can expose serialized data by marking a composite type with a <xref:System.Runtime.Serialization.DataContractAttribute> attribute. This enables data binding in a client.
 
@@ -83,8 +93,12 @@ A WCF client consists of a *proxy* that enables an application to communicate wi
 
 After a WCF client has been created, you reference the service in your code just as you would any other object. For example, to call the `GetData` method shown earlier, you would write code that resembles the following:
 
+### [C#](#tab/csharp)
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/form1.cs" id="Snippet3":::
+
+### [VB](#tab/vb)
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/form1.vb" id="Snippet3":::
+---
 
 ## WCF tools in Visual Studio
 
@@ -140,13 +154,16 @@ In such a case, you can specify the `endpointConfigurationName` as a parameter t
 
 2. In the Code Editor, add a constructor for the service reference:
 
-    ```vb
-    Dim proxy As New ServiceReference.Service1Client(
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     ServiceReference.Service1Client proxy = new ServiceReference.Service1Client(
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Dim proxy As New ServiceReference.Service1Client(
+    ```
+    ---
 
     > [!NOTE]
     > Replace *ServiceReference* with the namespace for the service reference and replace *Service1Client* with the name of the service.

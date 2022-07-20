@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # BeginCapture
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Begins a capture interval that will end with `EndCapture`.
 
 ## Syntax

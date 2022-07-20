@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramNode2::GetHostName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name of the process hosting the program.
 
 ## Syntax
 
-```cpp
-HRESULT GetHostName (
-    GETHOSTNAME_TYPE dwHostNameType,
-    BSTR*            pbstrHostName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetHostName (
     enum_GETHOSTNAME_TYPE dwHostNameType,
     out string            pbstrHostName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetHostName (
+    GETHOSTNAME_TYPE dwHostNameType,
+    BSTR*            pbstrHostName
+);
+```
+---
 
 ## Parameters
 `dwHostNameType`\

@@ -1,7 +1,7 @@
 ---
 title: Accessibility products and services from Microsoft
 description: "Learn more about the products and services from Microsoft that can help make our operating systems, programs, and applications more accessible for everyone to use, including people with disabilities."
-ms.date: 08/23/2019
+ms.date: 02/28/2022
 ms.topic: conceptual
 helpviewer_keywords:
   - "TTY/TDD services"
@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "TT/TDD services"
   - "recorded documentation"
 ms.assetid: ef3c6247-9f59-4ef4-aa8b-a8922b3e0943
-author: anandmeg
-ms.author: meghaanand
+author: TerryGLee
+ms.author: tglee
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
@@ -23,12 +23,14 @@ ms.workload:
 ---
 # Accessibility products and services from Microsoft
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Microsoft is committed to making its products and services easier for everyone to use. This page provides information about the features, products, and services that make Microsoft Windows more accessible for people with disabilities.
 
 > [!IMPORTANT]
 > The information on this page might apply only to users who license Microsoft products in the United States. If you obtained this product outside of the United States, visit the [Microsoft Accessibility](https://www.microsoft.com/accessibility/) website for a list of Microsoft support services telephone numbers and addresses. You can contact your subsidiary to find out whether the type of products and services described on this page are available in your area. Information about accessibility is available in other languages.
 
-## <a name="windows"></a> Accessibility features of Windows
+## Accessibility features of Windows
 
 The Windows operating system has many built-in accessibility features that are useful for individuals who have difficulty typing or using a mouse, are blind or have low vision, or who are deaf or hard-of-hearing. The features are installed during Setup. For more information about these features, see Help in Windows and the [Microsoft Accessibility](https://www.microsoft.com/accessibility/) website.
 
@@ -44,7 +46,7 @@ A wide variety of assistive technology products are available to make computers 
 
 If you use assistive technology, be sure to contact your assistive technology vendor before you upgrade your software or hardware to check for possible compatibility issues.
 
-## <a name="altfortmats"></a> Documentation in alternative formats
+## Documentation in alternative formats
 
 If you have difficulty reading or handling printed materials, you can obtain the documentation for many Microsoft products in more accessible formats. You can view an index of accessible product documentation on the [Microsoft Accessibility](https://www.microsoft.com/accessibility/) website.
 
@@ -55,7 +57,7 @@ In addition, you can obtain additional Microsoft publications from Learning Ally
 
 Web addresses can change, so you might be unable to connect to the website or sites mentioned here.
 
-## <a name="hearing"></a> Customer service for people with hearing impairments
+## Customer service for people with hearing impairments
 
 If you are deaf or hard-of-hearing, complete access to Microsoft product and customer services is available through a text telephone (TTY/TDD) service:
 
@@ -65,16 +67,10 @@ If you are deaf or hard-of-hearing, complete access to Microsoft product and cus
 
 Microsoft Support Services are subject to the prices, terms, and conditions in place at the time the service is used.
 
-## <a name="moreinfo"></a> For more information
+## For more information
 
 For more information about how accessible technology for computers helps to improve the lives of people with disabilities, see the [Microsoft Accessibility](https://www.microsoft.com/accessibility/) website.
 
-::: moniker range="vs-2017"
-
-> [!TIP]
-> To learn more about recent accessibility updates to Visual Studio, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
-
-::: moniker-end
 
 ## See also
 

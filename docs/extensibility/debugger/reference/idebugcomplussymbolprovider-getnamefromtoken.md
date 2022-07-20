@@ -18,18 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetNameFromToken
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the name associated with the specified token given its metadata object.
 
 ## Syntax
 
-```cpp
-HRESULT GetNameFromToken (
-    IUnknown* pMetadataImport,
-    DWORD     dwToken,
-    BSTR*     pbstrName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetNameFromToken (
     object     pMetadataImport,
@@ -37,6 +32,15 @@ int GetNameFromToken (
     out string pbstrName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetNameFromToken (
+    IUnknown* pMetadataImport,
+    DWORD     dwToken,
+    BSTR*     pbstrName
+);
+```
+---
 
 ## Parameters
 `pMetadataImport`\

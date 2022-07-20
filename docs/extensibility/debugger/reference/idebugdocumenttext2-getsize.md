@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentText2::GetSize
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the size of the text at this position in the document.
 
 ## Syntax
 
-```cpp
-HRESULT GetSize( 
-   ULONG* pcNumLines,
-   ULONG* pcNumChars
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSize( 
    ref uint pcNumLines,
    ref uint pcNumChars
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSize( 
+   ULONG* pcNumLines,
+   ULONG* pcNumChars
+);
+```
+---
 
 ## Parameters
 `pcNumLines`\

@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramNodeAttach2::OnAttach
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Attaches to the associated program or defers the attach process to the [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md) method.
 
 ## Syntax
 
-```cpp
-HRESULT OnAttach(
-   [in] REFGUID guidProgramId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int OnAttach(
    ref Guid guidProgramId
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT OnAttach(
+   [in] REFGUID guidProgramId
+);
+```
+---
 
 ## Parameters
 `guidProgramId`\

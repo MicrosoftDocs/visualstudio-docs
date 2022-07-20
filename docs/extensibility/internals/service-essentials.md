@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Service Essentials
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A service is a contract between two VSPackages. One VSPackage provides a specific set of interfaces for another VSPackage to consume. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is itself a collection of VSPackages that provides services to other VSPackages.
 
  For example, you can use the SVsActivityLog service to obtain an IVsActivityLog interface, which you can use to write to the activity log. For more information, see [How to: Use the Activity Log](../../extensibility/how-to-use-the-activity-log.md).
@@ -37,13 +39,16 @@ A service is a contract between two VSPackages. One VSPackage provides a specifi
 
 - After you obtain a service, use [QueryInterface](/cpp/atl/queryinterface) (unmanaged code) or casting (managed code) to get the desired interface, for example:
 
-  ```vb
-  TryCast(GetService(GetType(SVsActivityLog)), IVsActivityLog)
-  ```
-
+  ### [C#](#tab/csharp)
   ```csharp
   GetService(typeof(SVsActivityLog)) as IVsActivityLog;
   ```
+
+  ### [VB](#tab/vb)
+  ```vb
+  TryCast(GetService(GetType(SVsActivityLog)), IVsActivityLog)
+  ```
+  ---
 
 - Managed code refers to a service by its type, whereas unmanaged code refers to a service by its GUID.
 
@@ -75,17 +80,20 @@ Fortunately, <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> wor
 
 - Insert this code in the constructor, tool window, or control container:
 
+    ### [C#](#tab/csharp)
     ```csharp
     IVsActivityLog log = Package.GetGlobalService(typeof(SVsActivityLog)) as IVsActivityLog;
         if (log == null) return;
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     Dim log As IVsActivityLog = TryCast(Package.GetGlobalService(GetType(SVsActivityLog)), IVsActivityLog)
     If log Is Nothing Then
         Return
     End If
     ```
+    ---
 
     This code obtains an SVsActivityLog service and casts it to an IVsActivityLog interface, which can be used to write to the activity log. For an example, see [How to: Use the Activity Log](../../extensibility/how-to-use-the-activity-log.md).
 

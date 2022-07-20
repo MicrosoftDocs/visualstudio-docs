@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Command routing algorithm
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In Visual Studio commands are handled by a number of different components. Commands are routed from the innermost context, which is based on the current selection, to the outermost (also known as global) context. For more information, see [Command availability](../../extensibility/internals/command-availability.md).
 
 ## Order of command resolution

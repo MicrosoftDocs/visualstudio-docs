@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPendingBreakpoint2::EnumBoundBreakpoints
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates all breakpoints bound from this pending breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT EnumBoundBreakpoints( 
-   IEnumDebugBoundBreakpoints2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumBoundBreakpoints( 
    out IEnumDebugBoundBreakpoints2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumBoundBreakpoints( 
+   IEnumDebugBoundBreakpoints2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

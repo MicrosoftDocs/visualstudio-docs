@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IEEVisualizerService::GetCustomViewerCount
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the number of type visualizers available from this service.
 
 ## Syntax
 
-```cpp
-HRESULT GetCustomViewerCount(
-   ULONG* pcelt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCustomViewerCount(
    out uint pcelt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCustomViewerCount(
+   ULONG* pcelt
+);
+```
+---
 
 ## Parameters
 `pcelt`\

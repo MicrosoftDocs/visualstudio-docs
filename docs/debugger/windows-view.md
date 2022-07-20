@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # Windows View
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you first open Spy++, Windows view displays a tree of all windows and controls in the system. The window handle and class name are shown. The current desktop window is at the top of the tree. All other windows are children of the desktop, and are listed according to the standard window hierarchy. Sibling windows appear in expansible lists indented below their parents.
 
  The figure below shows a typical Spy++ Windows view with the top node expanded.

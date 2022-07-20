@@ -18,20 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProviderDirect::GetCurrentModulesInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves information about the modules in the symbol group.
 
 ## Syntax
 
-```cpp
-HRESULT GetCurrentModulesInfo(
-   unsigned long * pCount,
-   GUID *          ppGuids,
-   DWORD *         pADIds,
-   DWORD *         pCurrentState,
-   IUnknown **     ppCDModItfs
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCurrentModulesInfo(
    uint       pCount,
@@ -41,6 +34,17 @@ int GetCurrentModulesInfo(
    out object ppCDModItfs
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCurrentModulesInfo(
+   unsigned long * pCount,
+   GUID *          ppGuids,
+   DWORD *         pADIds,
+   DWORD *         pCurrentState,
+   IUnknown **     ppCDModItfs
+);
+```
+---
 
 ## Parameters
 `pCount`\

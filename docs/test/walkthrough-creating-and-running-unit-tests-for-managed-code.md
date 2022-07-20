@@ -2,7 +2,7 @@
 title: C# unit test tutorial
 description: Learn how to create, run, and customize a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio Test Explorer.
 ms.custom: SEO-VS-2020
-ms.date: 08/17/2021
+ms.date: 12/01/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - unit tests, walkthrough
@@ -19,28 +19,12 @@ author: mikejo5000
 ---
 # Walkthrough: Create and run unit tests for managed code
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This article steps you through creating, running, and customizing a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio **Test Explorer**. You start with a C# project that is under development, create tests that exercise its code, run the tests, and examine the results. Then you change the project code and rerun the tests. If you would like a conceptual overview of these tasks before going through these steps, see [Unit test basics](../test/unit-test-basics.md).
 
 ## Create a project to test
 
-::: moniker range="vs-2017"
-
-1. Open Visual Studio.
-
-2. On the **File** menu, select **New** > **Project**.
-
-   The **New Project** dialog box appears.
-
-3. Under the **Visual C#** > **.NET Core** category, choose the **Console App (.NET Core)** project template.
-
-4. Name the project **Bank**, and then click **OK**.
-
-   The Bank project is created and displayed in **Solution Explorer** with the *Program.cs* file open in the code editor.
-
-   > [!NOTE]
-   > If *Program.cs* is not open in the editor, double-click the file *Program.cs* in **Solution Explorer** to open it.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -147,24 +131,13 @@ You now have a project with methods you can test. In this article, the tests foc
    > [!TIP]
    > You can also right-click on the solution in **Solution Explorer** and choose **Add** > **New Project**.
 
-::: moniker range="vs-2017"
-
-2. In the **New Project** dialog box, expand **Installed**, expand **Visual C#**, and then choose **Test**.
-
-3. From the list of templates, select **MSTest Test Project (.NET Core)**.
-
-4. In the **Name** box, enter `BankTests`, and then select **OK**.
-
-   The **BankTests** project is added to the **Bank** solution.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-2. Type **test** in the search box, select **C#** as the language, and then select the C# **Unit Test Project** for .NET Core template, and then click **Next**.
+2. Type **test** in the search box, select **C#** as the language, and then select the C# **MSTest Unit Test Project (.NET Core)** for .NET Core template, and then click **Next**.
 
    > [!NOTE]
-   > Starting in Visual Studio 2019 version 16.9, the MSTest project template name changed from **MSTest Unit Test Project (.NET Core)** to **Unit Test Project**.
+   > In Visual Studio 2019 version 16.9, the MSTest project template is **Unit Test Project**.
 
 3. Name the project **BankTests** and click **Next**.
 
@@ -176,7 +149,7 @@ You now have a project with methods you can test. In this article, the tests foc
 
 5. In the **BankTests** project, add a reference to the **Bank** project.
 
-   In **Solution Explorer**, select **Dependencies** under the **BankTests** project and then choose **Add Reference** from the right-click menu.
+   In **Solution Explorer**, select **Dependencies** under the **BankTests** project and then choose **Add Reference** (or **Add Project Reference**) from the right-click menu.
 
 6. In the **Reference Manager** dialog box, expand **Projects**, select **Solution**, and then check the **Bank** item.
 
@@ -190,11 +163,6 @@ Create a test class to verify the `BankAccount` class. You can use the *UnitTest
 
 1. To rename the file, in **Solution Explorer**, select the *UnitTest1.cs* file in the BankTests project. From the right-click menu, choose **Rename** (or press **F2**), and then rename the file to *BankAccountTests.cs*.
 
-::: moniker range="vs-2017"
-
-2. To rename the class, choose **Yes** in the dialog box that pops up and asks whether you want to also rename references to the code element.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -326,7 +294,12 @@ m_balance -= amount;
 
 In **Test Explorer**, choose **Run All** to rerun the test (or press **Ctrl** + **R**, **V**). The red/green bar turns green to indicate that the test passed.
 
+::: moniker range="<=vs-2019"
 ![Test Explorer in Visual Studio 2019 showing passed test](media/test-explorer-banktests-passed.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Test Explorer in Visual Studio 2019 showing passed test](media/vs-2022/test-explorer-banktests-passed.png)
+::: moniker-end
 
 ## Use unit tests to improve your code
 
@@ -367,7 +340,7 @@ To test the case when the amount withdrawn is greater than the balance, do the f
 
 3. Set the `debitAmount` to a number greater than the balance.
 
-Running the two tests and verify that they pass.
+Run the two tests and verify that they pass.
 
 ### Continue the analysis
 

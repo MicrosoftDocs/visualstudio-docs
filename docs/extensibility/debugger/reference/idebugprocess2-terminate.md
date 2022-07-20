@@ -19,19 +19,23 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess2::Terminate
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Terminates the process.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Terminate();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Terminate( 
    void 
 );
 ```
-
-```csharp
-int Terminate();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

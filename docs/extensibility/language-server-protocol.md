@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Language Server Protocol
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 ## What is the Language Server Protocol?
 
 Supporting rich editing features like source code auto-completions or **Go to Definition** for a programming language in an editor or IDE is traditionally very challenging and time consuming. Usually it requires writing a domain model (a scanner, a parser, a type checker, a builder and more) in the programming language of the editor or IDE. For example, the Eclipse CDT plugin, which provides support for C/C++ in the Eclipse IDE is written in Java since the Eclipse IDE itself is written in Java. Following this approach, it would mean implementing a C/C++ domain model in TypeScript for Visual Studio Code, and a separate domain model in C# for Visual Studio.

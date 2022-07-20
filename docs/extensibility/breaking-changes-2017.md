@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Changes in Visual Studio 2017 extensibility
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio 2017 provides a [faster, lighter-weight Visual Studio installation experience](https://devblogs.microsoft.com/visualstudio/faster-leaner-visual-studio-installer) that reduces the impact of Visual Studio on user systems while giving users greater choice over the workloads and features that are installed. To support these improvements, we've made changes to the extensibility model, including some breaking changes. This article describes the technical details of these changes and what can be done to address them.
 
 > [!NOTE]

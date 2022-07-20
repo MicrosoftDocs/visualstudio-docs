@@ -1,8 +1,8 @@
 ---
 title: Troubleshoot network or proxy errors
 description: Find solutions for network- or proxy-related errors that you might encounter when you install or use Visual Studio behind a firewall or a proxy server.
-ms.date: 10/29/2019
-ms.topic: troubleshooting
+ms.date: 04/28/2022
+ms.topic: troubleshooting 
 helpviewer_keywords:
 - network installation, Visual Studio
 - administrator guide, Visual Studio
@@ -20,17 +20,19 @@ ms.technology: vs-installation
 ---
 # Troubleshoot network-related errors when you install or use Visual Studio
 
-We've got solutions for the most typical network- or proxy-related errors that you might encounter when you install or use Visual Studio behind a firewall or a proxy server.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+We've got solutions for the most typical network- or proxy-related errors. You might encounter these errors when you install or use Visual Studio behind a firewall or a proxy server.
 
 ## Error: “Proxy authorization required”
 
-This error generally occurs when users are connected to the internet through a proxy server, and the proxy server blocks the calls that Visual Studio makes to some network resources.
+This error generally occurs when users connect to the internet through a proxy server. The proxy server then blocks the calls that Visual Studio makes to some network resources.
 
 ### To fix this proxy error
 
-- Restart Visual Studio. A proxy authentication dialog box should appear. Enter your credentials when prompted in the dialog.
+- Restart Visual Studio. A proxy authentication dialog should appear. Enter your credentials when prompted in the dialog.
 
-- If restarting Visual Studio does not solve the problem, it might be that your proxy server does not prompt for credentials for http:&#47;&#47;go.microsoft.com addresses but does so for &#42;.visualStudio.microsoft.com addresses. For these servers, consider adding the following URLs to an allow list to unblock all sign-in scenarios in Visual Studio:
+- If restarting Visual Studio doesn't solve the problem, it might be because your proxy server doesn't prompt for credentials for http:&#47;&#47;go.microsoft.com addresses, but it does so for &#42;.visualStudio.microsoft.com addresses. For these servers, add the following URLs to an allowlist to unblock all sign-in scenarios in Visual Studio:
 
   - &#42;.windows.net
 
@@ -42,17 +44,18 @@ This error generally occurs when users are connected to the internet through a p
 
   - &#42;.live.com
 
-- You can otherwise remove the http:&#47;&#47;go.microsoft.com address from the allow list so that the proxy authentication dialog shows up for both the http:&#47;&#47;go.microsoft.com address and the server endpoints when Visual Studio is restarted.
+- We recommend that you remove the http:&#47;&#47;go.microsoft.com address from the allowlist. Removing the address allows the proxy authentication dialog to show up for both the http:&#47;&#47;go.microsoft.com address and the server endpoints when Visual Studio restarts.
 
   -OR-
 
 - If you want to use your default credentials with your proxy, you can perform the following actions:
 
-::: moniker range="vs-2017"
 
-  1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE**.
+::: moniker range="vs-2019"
 
-  2. In the configuration file, find the `<system.net>` block, and then add this code:
+  1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE**.
+
+  1. In the configuration file, find the `<system.net>` block, and then add this code:
 
       ```xml
       <defaultProxy enabled="true" useDefaultCredentials="true">
@@ -67,11 +70,11 @@ This error generally occurs when users are connected to the internet through a p
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2022"
 
-  1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE**.
+ 1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2022\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2022\Enterprise\Common7\IDE**.
 
-  2. In the configuration file, find the `<system.net>` block, and then add this code:
+ 1. In the configuration file, find the `<system.net>` block, and then add this code:
 
       ```xml
       <defaultProxy enabled="true" useDefaultCredentials="true">
@@ -88,13 +91,13 @@ This error generally occurs when users are connected to the internet through a p
 
 ## Error: “Disconnected from Visual Studio” when attempting to report a problem
 
-This error generally occurs when a user is connected to the internet through a proxy server, and the proxy server blocks the calls that Visual Studio makes to some network resources.
+This error generally occurs when a user connects to the internet through a proxy server. The proxy server then blocks the calls that Visual Studio makes to some network resources.
 
 ### To fix this proxy error
 
 1. Find **feedback.exe.config** (the feedback.exe configuration file) in: **%ProgramFiles(x86)%\Microsoft Visual Studio\Installer** or **%ProgramFiles%\Microsoft Visual Studio\Installer**.
 
-2. In the configuration file, check whether the following code is present; if the code isn't present, add it before the last `</configuration>` line.
+1. In the configuration file, check whether the following code is present; if the code isn't present, add it before the last `</configuration>` line.
 
    ```xml
    <system.net>
@@ -103,8 +106,8 @@ This error generally occurs when a user is connected to the internet through a p
    ```
 
 ## Error: “The underlying connection was closed”
+If you're using Visual Studio in a private network that has a firewall, Visual Studio might not be able to connect to some network resources. These resources can include Azure DevOps Services for sign-in and licensing, NuGet, and Azure services. If Visual Studio fails to connect to one of these resources, you might see the following error message:
 
-If you are using Visual Studio in a private network that has a firewall, Visual Studio might not be able to connect to some network resources. These resources can include Azure DevOps Services for sign-in and licensing, NuGet, and Azure services. If Visual Studio fails to connect to one of these resources, you might see the following error message:
 
   **The underlying connection was closed: An unexpected error occurred on send**
 
@@ -147,13 +150,13 @@ Enable connections for the following URLs:
 
 You might encounter this error message when you use a Visual Studio bootstrapper and a response.json file on a network drive. The error's source is the User Account Control (UAC) in Windows.
 
-Here's why this error can happen: A mapped network drive or [UNC](/dotnet/standard/io/file-path-formats#unc-paths) share is linked to a user's access token. When UAC is enabled, two user [access tokens](/windows/win32/secauthz/access-tokens) are created: One *with* administrator access, and one *without* administrator access. When a network drive or share is created, the user's current access token is linked to it. Because the bootstrapper must be run as administrator, it won't be able to access the network drive or share if either the drive or the share isn't linked to a user access token that has administrator access.
+Here's why this error can happen: A mapped network drive or [UNC](/dotnet/standard/io/file-path-formats#unc-paths) share is linked to a user's access token. When UAC is enabled, two user [access tokens](/windows/win32/secauthz/access-tokens) are created: One *with* administrator access, and one *without* administrator access. When a network drive or share is created, the user's current access token is linked to it. Because the bootstrapper must be run as administrator, it won't be able to access the network drive or share if either the drive or the share isn't linked to a user-access token that has administrator access.
 
 ### To fix this error
 
-You can use the `net use` command or you can change the UAC Group Policy setting. For more information about these workarounds and how to implement them, see the following Microsoft support articles:
+You can use the `net use` command or you can change the **UAC Group Policy** setting. For more information about these workarounds and how to implement them, see the following Microsoft support articles:
 
-* [Mapped drives are not available from an elevated prompt when UAC is configured to "Prompt for credentials" in Windows](https://support.microsoft.com/help/3035277/mapped-drives-are-not-available-from-an-elevated-prompt-when-uac-is-co)
+* [Mapped drives aren't available from an elevated prompt when UAC is configured to "Prompt for credentials" in Windows](https://support.microsoft.com/help/3035277/mapped-drives-are-not-available-from-an-elevated-prompt-when-uac-is-co)
 * [Programs may be unable to access some network locations after you turn on User Account Control in Windows operating systems](https://support.microsoft.com/en-us/help/937624/programs-may-be-unable-to-access-some-network-locations-after-you-turn)
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]

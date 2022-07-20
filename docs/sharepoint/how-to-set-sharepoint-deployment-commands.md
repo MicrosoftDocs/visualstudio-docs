@@ -17,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # How to: Set SharePoint deployment commands
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can customize the deployment process by setting pre-deployment and post-deployment commands. These commands run before and after other deployment actions when you debug SharePoint solutions from Visual Studio.
 
 ### To add a pre-deployment command

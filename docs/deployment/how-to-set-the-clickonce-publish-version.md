@@ -21,6 +21,8 @@ ms.workload:
   - multiple
 ---
 # How to: Set the ClickOnce publish version
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] `Publish Version` property determines whether or not the application that you are publishing will be treated as an update. Each time version is incremented, the application will be published as an update.
 
  The `Publish Version` property can be set on the **Publish** page of the **Project Designer**.

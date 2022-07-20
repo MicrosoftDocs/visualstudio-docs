@@ -26,6 +26,8 @@ ms.workload:
   - "office"
 ---
 # Create an association between entities
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can define relationships between entities in your Business Data Connectivity (BDC) model by creating associations. Visual Studio generates methods that provide consumers of the model with information about each association. These methods can be consumed by SharePoint web parts, lists, or custom applications to display data relationships in a user interface (UI).
 
 ## Create an association
@@ -48,13 +50,21 @@ ms.workload:
 
  Add code to the Association Navigator method of the source entity that returns a collection of destination entities. The following example returns the sales orders for a contact.
 
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs" id="Snippet7":::
+
+ ### [VB](#tab/vb)
  :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb" id="Snippet7":::
+ ---
 
  Add code to the Association Navigator method of the destination entity that returns a source entity. The following example returns the contact that is related to the sales order.
 
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/salesorderservice.cs" id="Snippet8":::
+
+ ### [VB](#tab/vb)
  :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderservice.vb" id="Snippet8":::
+ ---
 
 ### Foreign keyless association
  You can create an association without mapping identifiers to field type descriptors. Create this kind of association when the source entity does not have a direct relationship with the destination entity. For example, a `SalesOrderDetail` table does not have a foreign key that maps to a primary key in a `Contact` table.
@@ -65,13 +75,21 @@ ms.workload:
 
  The following example returns details of all sales orders by joining tables.
 
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs" id="Snippet9":::
+
+ ### [VB](#tab/vb)
  :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb" id="Snippet9":::
+ ---
 
  In the Association Navigation method of the `SalesOrderDetail` entity, return the related `Contact`. The following example demonstrates this.
                                                                             
+ ### [C#](#tab/csharp)                                                                            
  :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/salesorderdetailservice.cs" id="Snippet10":::
- :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderdetailservice.vb" id="Snippet10":::
+                                                                            
+ ### [VB](#tab/vb)                                                                            
+ :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderdetailservice.vb" id="Snippet10":::                                                                            
+ ---
 
 ## See also
 - [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)

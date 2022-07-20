@@ -19,10 +19,22 @@ dev_langs:
 - CSharp
 ---
 # ASSEMBLYLOCRESOLUTION
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies where an assembly is located.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_ASSEMBLYLOCRESOLUTION {
+    ALR_NAME      = 0x0,
+    ALR_USERDIR   = 0x1,
+    ALR_SHAREDDIR = 0x2,
+    ALR_REMOTEDIR = 0x4,
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_ASSEMBLYLOCRESOLUTION {
     ALR_NAME      = 0x0,
@@ -32,15 +44,7 @@ enum enum_ASSEMBLYLOCRESOLUTION {
 };
 typedef DWORD ASSEMBLYLOCRESOLUTION;
 ```
-
-```csharp
-public enum enum_ASSEMBLYLOCRESOLUTION {
-    ALR_NAME      = 0x0,
-    ALR_USERDIR   = 0x1,
-    ALR_SHAREDDIR = 0x2,
-    ALR_REMOTEDIR = 0x4,
-};
-```
+---
 
 ## Fields
 `ALR_NAME`\

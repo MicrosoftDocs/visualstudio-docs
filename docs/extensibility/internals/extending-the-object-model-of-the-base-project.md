@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Extend the object model of the base project
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 A project subtype may extend the automation object model of the base project in the following places:
 
 - Project.Extender("\<ProjectSubtypeName>"): This allows a project subtype to offer an object with custom methods from the <xref:EnvDTE.Project> object. A project subtype can use Automation Extenders to expose the `Project` object. The <xref:EnvDTE80.IInternalExtenderProvider> interface implemented on the main project subtype aggregator should offer its object for the `VSHPROPID_ExtObjectCATID` from <xref:Microsoft.VisualStudio.Shell.Interop.__VSSPROPID2> (corresponding to an `itemid` value of [VSITEMID.Root](<xref:Microsoft.VisualStudio.VSConstants.VSITEMID.Root>)) CATID.

@@ -2,7 +2,7 @@
 title: Customizing Code Coverage Analysis
 description: Learn how to use the ExcludeFromCodeCoverageAttribute attribute to exclude test code from coverage results. You can include assemblies outside your solution.
 ms.custom: SEO-VS-2020
-ms.date: 08/21/2019
+ms.date: 05/27/2022
 ms.topic: conceptual
 ms.author: mikejo
 manager: jmartens
@@ -12,6 +12,8 @@ ms.workload:
 author: mikejo5000
 ---
 # Customize code coverage analysis
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By default, code coverage analyzes all solution assemblies that are loaded during unit tests. We recommend that you use this default behavior, because it works well most of the time. For more information, see [Use code coverage to determine how much code is tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
@@ -29,11 +31,6 @@ To customize code coverage, follow these steps:
 
 2. Add the content from the example file at the end of this article, and then customize it to your needs as described in the sections that follow.
 
-::: moniker range="vs-2017"
-
-3. To select the run settings file, on the **Test** menu, choose **Test Settings** > **Select Test Settings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file-from-the-command-line).
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -46,13 +43,6 @@ To customize code coverage, follow these steps:
    > [!TIP]
    > Any previous code coverage results and code coloring aren't automatically hidden when you run tests or update your code.
 
-::: moniker range="vs-2017"
-
-To turn the custom settings off and on, deselect or select the file in the **Test** > **Test Settings** menu.
-
-![Test settings menu with custom settings file in Visual Studio 2017](../test/media/codecoverage-settingsfile.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -110,6 +100,40 @@ The following table shows the various ways that assemblies and members can be ma
 | Source | Matches elements by the path name of the source file in which they're defined. |
 | Attribute | Matches elements that have the specified attribute. Specify the full name of the attribute, for example `<Attribute>^System\.Diagnostics\.DebuggerHiddenAttribute$</Attribute>`.<br/><br/>If you exclude the <xref:System.Runtime.CompilerServices.CompilerGeneratedAttribute> attribute, code that uses language features such as `async`, `await`, `yield return`, and auto-implemented properties is excluded from code coverage analysis. To exclude truly generated code, only exclude the <xref:System.CodeDom.Compiler.GeneratedCodeAttribute> attribute. |
 | Function | Matches procedures, functions, or methods by fully qualified name, including the parameter list. You can also match part of the name by using a [regular expression](#regular-expressions).<br/><br/>Examples:<br/><br/>`Fabrikam.Math.LocalMath.SquareRoot(double);` (C#)<br/><br/>`Fabrikam::Math::LocalMath::SquareRoot(double)` (C++) |
+
+::: moniker range=">=vs-2022"
+### Code coverage formats
+By default code coverage is collected and saved in a `.coverage` file. You can also collect coverage using other formats including Xml and Cobertura. Different formats may be useful across different editors and pipelines. You can enable this in runsettings by adding `<Format>Cobertura</Format>` or `<Format>Xml</Format>` in the [DataCollector configuration section in your runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#codecoverage-data-collector). This format can be viewed in the code coverage results window in Visual Studio Enterprise.
+
+You can also specify different formats from the command-line by either specifying it in the runsettings file or specifying it in a parameter. For example, the dotnet command-line use `dotnet test --collect:"Code Coverage;Format=Cobertura"`. For vstest use `vstest.console.exe /collect:"Code Coverage;Format=Cobertura"`. The collect parameter will override the format specified in runsettings.
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+### Static and dynamic native instrumentation
+In Visual Studio 2022 version 17.2, we added the option to instrument native binary statically (on disk). In previous versions, we supported only dynamic instrumentation, which was often not able to instrument methods. Static native instrumentation is more stable and it is recommended. Static native instrumentation requires enabling the [/PROFILE](/cpp/build/reference/profile-performance-tools-profiler?view=msvc-170) link option for all native projects for which you need code coverage collection. 
+
+You can enable native static instrumentation by enabling the preview feature **Code Coverage native static instrumentation** in  **Tools > Options > Environment > Preview Features**.
+
+You can also enable native static instrumentation in runsettings by adding `<EnableStaticNativeInstrumentation>True</EnableStaticNativeInstrumentation>` under `<CodeCoverage>` tag. Use this method for command line scenarios.
+
+By default, dynamic native instrumentation is always enabled. If both static and dynamic instrumentation is enabled, Visual Studio tries to instrument your C++ code statically, but if this is not possible (for example, when the `/PROFILE` link option is not enabled), dynamic instrumentation will be used. You can fully disable dynamic native instrumentation in runsettings by adding `<EnableDynamicNativeInstrumentation>False</EnableDynamicNativeInstrumentation>` under `<CodeCoverage>`.
+
+When static native instrumentation is enabled, native binaries will be instrumented and replaced on disk before test execution. Original binaries will be restored after test execution. You can disable restoring original files in runsettings by adding `<EnableStaticNativeInstrumentationRestore>False</EnableStaticNativeInstrumentationRestore>` under the `<CodeCoverage>` tag. This can be especially useful in CI scenarios.
+
+When static native instrumentation is enabled, Visual Studio will search and instrument all native binaries in directory where test binary is located. You can specify additional directories where binaries should be searched. The following example specifies that all native binaries from `C:\temp` and its subdirectories should be instrumented except files ending with `Fabrikam.Math.dll`.
+
+```xml
+<ModulePaths>
+  <IncludeDirectories>
+    <Directory Recursive="true">C:\temp</Directory>
+  </IncludeDirectories>
+  <Exclude>
+    <ModulePath>.*Fabrikam.Math.dll</ModulePath>
+  </Exclude>
+</ModulePaths>
+```
+
+::: moniker-end
 
 ### Regular expressions
 
@@ -208,6 +232,10 @@ Included items must then not match any entries in the exclude list to remain inc
               <Exclude>
                 <ModulePath>.*CPPUnitTestFramework.*</ModulePath>
               </Exclude>
+              <!-- Specifies additional list of directories where binaries static native instrumentation should be searched. -->
+              <IncludeDirectories>
+                <Directory Recursive="true">C:\b59fb11c-1611-4562-9a2b-c35719da65d3</Directory>
+              </IncludeDirectories>
             </ModulePaths>
 
             <!-- Match fully qualified names of functions: -->
@@ -276,6 +304,12 @@ Included items must then not match any entries in the exclude list to remain inc
             <CollectFromChildProcesses>True</CollectFromChildProcesses>
             <!-- When set to True, restarts the IIS process and collects coverage information from it. -->
             <CollectAspDotNet>False</CollectAspDotNet>
+            <!-- When set to True, static native instrumentation will be enabled. -->
+            <EnableStaticNativeInstrumentation>True</EnableStaticNativeInstrumentation>
+            <!-- When set to True, dynamic native instrumentation will be enabled. -->
+            <EnableDynamicNativeInstrumentation>True</EnableDynamicNativeInstrumentation>
+            <!-- When set to True, instrumented binaries on disk are removed and original files are restored. -->
+            <EnableStaticNativeInstrumentationRestore>True</EnableStaticNativeInstrumentationRestore>
 
           </CodeCoverage>
         </Configuration>

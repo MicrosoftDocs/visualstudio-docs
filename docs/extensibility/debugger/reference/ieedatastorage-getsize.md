@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IEEDataStorage::GetSize
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the number of bytes contained in this object.
 
 ## Syntax
 
-```cpp
-HRESULT GetSize(
-   ULONG* size
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSize(
    out uint size
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSize(
+   ULONG* size
+);
+```
+---
 
 ## Parameters
 `size`\

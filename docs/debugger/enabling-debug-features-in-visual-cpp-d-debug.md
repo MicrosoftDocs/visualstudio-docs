@@ -4,8 +4,6 @@ description: In Visual C++ you enable debugging features by defining _DEBUG. Lea
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug"
 dev_langs:
   - "CSharp"
   - "VB"
@@ -29,6 +27,8 @@ ms.workload:
   - "cplusplus"
 ---
 # Enabling Debug Features in C++ projects (/D_DEBUG)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], debugging features such as assertions are enabled when you compile your program with the symbol **_DEBUG** defined. You can define **_DEBUG** in one of two ways:
 
 - Specify **#define _DEBUG** in your source code, or

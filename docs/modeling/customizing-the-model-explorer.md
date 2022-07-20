@@ -16,6 +16,8 @@ ms.workload:
 - multiple
 ---
 # Customizing the Model Explorer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can change the appearance and behavior of the explorer for your domain-specific language designer as follows:
 
 - Change the window title.

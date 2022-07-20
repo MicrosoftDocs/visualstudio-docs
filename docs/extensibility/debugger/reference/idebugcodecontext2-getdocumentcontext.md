@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugCodeContext2::GetDocumentContext
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the document context that corresponds to this code context. The document context represents a position in the source file that corresponds to the source code that generated this instruction.
 
 ## Syntax
 
-```cpp
-HRESULT GetDocumentContext( 
-   IDebugDocumentContext2** ppSrcCxt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocumentContext( 
    out IDebugDocumentContext2 ppSrcCxt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocumentContext( 
+   IDebugDocumentContext2** ppSrcCxt
+);
+```
+---
 
 ## Parameters
 `ppSrcCxt`\

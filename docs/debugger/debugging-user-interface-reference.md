@@ -23,6 +23,8 @@ ms.workload:
   - "multiple"
 ---
 # Debugging User Interface Reference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You may encounter the following dialog boxes as you debug your application.
 
  You can automate many debugger features by using the Visual Studio extensibility model. For more information, see the Visual Studio Debugging SDK.

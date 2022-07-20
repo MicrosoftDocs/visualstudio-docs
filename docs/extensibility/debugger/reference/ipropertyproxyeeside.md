@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IPropertyProxyEESide
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface provides methods to view data on the associated object. This interface is part of the support for type visualizers.
 
 ## Syntax

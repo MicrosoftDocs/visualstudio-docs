@@ -3,11 +3,14 @@ title: Working with Subversion
 description: Learn how to work with Subversion as the centralized version control system in Visual Studio for Mac.
 author: jmatthiesen
 ms.author: jomatthi
+manager: dominicn
 ms.date: 05/06/2018
+ms.topic: how-to
 ms.assetid: 2400ED9C-6236-4C0A-A3AB-9D7CBE1F0CF4
 ---
-
 # Working with Subversion
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 Subversion is the centralized version control system that enables you to check out a single main copy of the centralized data. In contrast to Git, checking out a Subversion repository does not clone the entire repository, it only takes a snapshot at that point in time.
 

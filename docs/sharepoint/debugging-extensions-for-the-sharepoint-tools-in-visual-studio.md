@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Debug extensions for the SharePoint tools in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can debug SharePoint tools extensions in the experimental instance or the regular instance of Visual Studio. If you need to troubleshoot the behavior of an extension, you can also modify registry values to display additional error information and to configure how Visual Studio executes SharePoint commands.
 
 ## Debug extensions in the experimental instance of Visual Studio

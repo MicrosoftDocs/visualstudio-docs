@@ -22,6 +22,8 @@ ms.workload:
 ---
 # Add Visual Studio editor support for other languages
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Learn about how the Visual Studio editor supports reading and navigating through different computer languages and how you can add Visual Studio editor support for other languages.
 
 ## Syntax colorization, statement completion, and Navigate To support

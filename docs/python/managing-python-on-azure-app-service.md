@@ -1,7 +1,7 @@
 ---
 title: Configure Python on Azure App Service (Windows)
 description: How to install a Python interpreter and libraries on Azure App Service, and configuring web applications to properly refer to that interpreter.
-ms.date: 01/07/2019
+ms.date: 05/25/2022
 ms.topic: how-to
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -13,20 +13,14 @@ ms.workload:
   - data-science
   - azure
 ---
-
 # How to set up a Python environment on Azure App Service (Windows)
 
-> [!Important]
-> Microsoft has deprecated the Python extensions for App Service on Windows as described in this article in favor of a direct deployment to [App Service on Linux](publishing-python-web-applications-to-azure-from-visual-studio.md).
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [Azure App Service](https://azure.microsoft.com/services/app-service/) is a platform-as-a-service offering for web apps, whether they are sites accessed through a browser, REST APIs used by your own clients, or event-triggered processing. App Service fully supports using Python to implement apps.
 
 Customizable Python support for Azure App Service is provided as a set of App Service *site extensions* that each contain a specific version of the Python runtime. You can then install any desired packages directly into that environment, as described in this article. By customizing the environment in the App Service itself, you don't need to maintain packages in your web app projects or upload them with the app code.
 
-::: moniker range="<=vs-2017"
-> [!Tip]
-> Although App Service by default has Python 2.7 and Python 3.4 installed in root folders on the server, you cannot customize or install packages in these environments, nor should you depend on their presence. You should instead rely on a site extension that you control, as described in this article.
-::: moniker-end
 
 ## Choose a Python version through the Azure portal
 
@@ -74,7 +68,10 @@ For example, after adding a reference to `python361x64` (Python 3.6.1 x64), your
 
 ## Set web.config to point to the Python interpreter
 
-After installing the site extension (through either the portal or an Azure Resource Manager template), you next point your app's *web.config* file to the Python interpreter. The *web.config* file instructs the IIS (7+) web server running on App Service about how it should handle Python requests through either HttpPlatform (recommended) or FastCGI.
+After installing the site extension (through either the portal or an Azure Resource Manager template), you next point your app's *web.config* file to the Python interpreter. The *web.config* file instructs the IIS (7+) web server running on App Service about how it should handle Python requests through HttpPlatform.
+
+> [!Note]
+> We recommend using **HttpPlatform** to configure your apps, as the [WFastCGI](https://pypi.org/project/wfastcgi/) project is no longer maintained. 
 
 Begin by finding the full path to the site extension's *python.exe*, then create and modify the appropriate *web.config* file.
 
@@ -153,6 +150,7 @@ The `<appSettings>` defined here are available to your app as environment variab
 - `WSGI_LOG` is optional but recommended for debugging your app.
 
 See [Publish to Azure](publishing-python-web-applications-to-azure-from-visual-studio.md) for additional details on *web.config* contents for Bottle, Flask, and Django web apps.
+
 
 ## Install packages
 

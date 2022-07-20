@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Walkthrough: Debugging Rendering Errors Due to Shading
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics to investigate an object that is colored incorrectly because of a shader bug.
 
  This walkthrough demonstrates how to:

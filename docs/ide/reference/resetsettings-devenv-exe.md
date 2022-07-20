@@ -19,6 +19,8 @@ ms.workload:
 ---
 # /ResetSettings (devenv.exe)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Restores Visual Studio default settings and automatically launches the Visual Studio IDE. This switch optionally resets the settings to a specified settings file (`*.vssettings`).
 
 The default settings come from the profile that was selected when Visual Studio was first launched.

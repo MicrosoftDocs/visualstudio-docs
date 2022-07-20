@@ -20,6 +20,8 @@ ms.workload:
 ---
 # SupportsLanguageDropDown Element (Visual Studio Templates)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Specifies whether the Web item template is identical for multiple languages, and whether the **Language** option is enabled on the **Add New Item** dialog box.
 
  \<VSTemplate>

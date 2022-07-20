@@ -3,8 +3,8 @@ title: What is the Visual Studio subscriptions with GitHub Enterprise setup proc
 description: Understand the process for activating your GitHub Enterprise subscription 
 ms.topic: include
 ms.assetid: 6f9aa66b-111f-45a0-a168-e0e5ff21aa46
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 12/03/2020
 ms.faqid: q3_3
 ---

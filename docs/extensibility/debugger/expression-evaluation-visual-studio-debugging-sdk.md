@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Expression evaluation (Visual Studio Debugging SDK)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 During break mode, the IDE must evaluate simple expressions involving several program variables. To accomplish its evaluation, the debug engine (DE) must parse and evaluate an expression that's entered into one of the windows of the IDE.
 
  Expressions are created with the [IDebugExpressionContext2::ParseText](../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md) method and represented by the resulting [IDebugExpression2](../../extensibility/debugger/reference/idebugexpression2.md) interface.

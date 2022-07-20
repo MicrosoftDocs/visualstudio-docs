@@ -26,6 +26,8 @@ ms.workload:
 ---
 # /ProjectConfig (devenv.exe)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Specifies a project build configuration to be applied when you build, clean, rebuild, or deploy the project named in the `/Project` argument.
 
 ## Syntax

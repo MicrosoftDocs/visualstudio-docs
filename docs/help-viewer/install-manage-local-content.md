@@ -19,14 +19,16 @@ helpviewer_keywords:
   - "Help Viewer, installing local content"
   - "Help Viewer, downloading content"
 ms.assetid: efd9df4c-2e69-4c50-992c-9678a8d8cf19
-author: ghogen
-ms.author: ghogen
+author: jasonchlus
+ms.author: jasonchlus
 manager: jmartens
 ms.technology: vs-help-viewer
 ms.workload:
   - "multiple"
 ---
 # Install and manage local content
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By using the Microsoft Help Viewer, you can add, remove, update, and move the Help content that is installed on your computer to fit your software development needs.
 
@@ -128,3 +130,4 @@ You can save disk space by moving installed content from your local computer to 
 ## See also
 
 - [Microsoft Help Viewer](../help-viewer/overview.md)
+- [Override Help Viewer defaults](../help-viewer/behavior-overrides.md)

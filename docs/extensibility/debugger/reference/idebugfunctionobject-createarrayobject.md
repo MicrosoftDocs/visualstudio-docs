@@ -19,21 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugFunctionObject::CreateArrayObject
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an array object. This array can contain either primitive or object instance values.
 
 ## Syntax
 
-```cpp
-HRESULT CreateArrayObject( 
-   OBJECT_TYPE    ot,
-   IDebugField*   pClassField,
-   DWORD          dwRank,
-   DWORD          dwDims[],
-   DWORD          dwLowBounds[],
-   IDebugObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateArrayObject(
    enum_OBJECT_TYPE ot,
@@ -44,6 +36,18 @@ int CreateArrayObject(
    out IDebugObject ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateArrayObject( 
+   OBJECT_TYPE    ot,
+   IDebugField*   pClassField,
+   DWORD          dwRank,
+   DWORD          dwDims[],
+   DWORD          dwLowBounds[],
+   IDebugObject** ppObject
+);
+```
+---
 
 ## Parameters
 `ot`\

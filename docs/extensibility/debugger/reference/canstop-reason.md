@@ -19,10 +19,20 @@ dev_langs:
 - CSharp
 ---
 # CANSTOP_REASON
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Used to determine if a program can stop execution after reaching a particular point in the execution.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_CANSTOP_REASON {
+    CANSTOP_ENTRYPOINT = 0x0000,
+    CANSTOP_STEPIN     = 0x0001
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_CANSTOP_REASON {
     CANSTOP_ENTRYPOINT = 0x0000,
@@ -30,13 +40,7 @@ enum enum_CANSTOP_REASON {
 };
 typedef DWORD CANSTOP_REASON;
 ```
-
-```csharp
-public enum enum_CANSTOP_REASON {
-    CANSTOP_ENTRYPOINT = 0x0000,
-    CANSTOP_STEPIN     = 0x0001
-};
-```
+---
 
 ## Fields
 `CANSTOP_ENTRYPOINT`\

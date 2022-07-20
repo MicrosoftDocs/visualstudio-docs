@@ -20,6 +20,8 @@ ms.workload:
 ---
 # BuildOnLoad attribute and element
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Specifies whether to build the project immediately after it's created. **BuildOnLoad** is both an attribute and an element.
 
 Element hierarchy:

@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Extract base class
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This refactoring applies to:
 
 - C#

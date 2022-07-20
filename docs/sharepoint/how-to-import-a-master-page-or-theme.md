@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Import a master page or theme
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can give pages on your SharePoint site a consistent appearance by creating and using master pages and themes. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] doesn't provide templates for these elements, but you can create them in SharePoint Designer and then import them into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information, see [Building Block: Pages and User Interface](/previous-versions/office/developer/sharepoint-2010/ee539040(v=office.14)) on the Microsoft website.
 
 ### To import a master page or theme

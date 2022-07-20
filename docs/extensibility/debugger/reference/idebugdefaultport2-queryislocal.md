@@ -16,19 +16,23 @@ ms.workload:
 - vssdk
 ---
 # IDebugDefaultPort2::QueryIsLocal
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method determines whether this port is on the local machine.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int QueryIsLocal();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT QueryIsLocal(
    void
 );
 ```
-
-```csharp
-int QueryIsLocal();
-```
+---
 
 ## Return Value
  Returns `S_OK` if this port is local (on the same machine as the caller) or `S_FALSE` if the port is on another machine.

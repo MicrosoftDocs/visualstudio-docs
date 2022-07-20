@@ -18,6 +18,8 @@ dev_langs:
 - CPP
 ---
 # BP_LOCATION_DATA_STRING
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Used for setting data breakpoints that are based on a string that the user can enter from the integrated development environment (IDE).
 
 ## Syntax

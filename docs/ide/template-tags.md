@@ -17,6 +17,8 @@ helpviewer_keywords:
 ---
 # Add tags to project templates
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Starting in [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) version 16.1 Preview 2, you can add language, platform, and project type tags to your project templates. 
 
 Tags are used in two places in the **New Project** dialog box:

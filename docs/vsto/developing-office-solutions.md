@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Develop Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   After you design a project by using the Office developer tools in Visual Studio and set up the project files, you can begin to concentrate on implementing the code and custom user interface (UI).
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

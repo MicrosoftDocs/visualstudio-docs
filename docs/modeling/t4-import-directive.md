@@ -13,6 +13,8 @@ ms.workload:
 ---
 # T4 Import Directive
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In the code blocks of a Visual Studio T4 text template, the `import` directive allows you to refer to elements in another namespace without providing a fully qualified name. It is the equivalent of `using` in C# or `imports` in [!INCLUDE[vb_current_short](../debugger/includes/vb_current_short_md.md)].
 
 For a general overview of writing T4 text templates, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).

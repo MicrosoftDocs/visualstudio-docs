@@ -18,6 +18,8 @@ ms.workload:
 - vssdk
 ---
 # CreatePkgDef utility
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Takes a .dll file for a Visual Studio extension as a parameter and creates a *.pkgdef* file to accompany the *.dll* file. The *.pkgdef* file contains all the information that would otherwise be written to the system registry when the extension is installed.
 
 > [!NOTE]
@@ -62,22 +64,6 @@ If the installation folder is *%vsinstalldir%\Common7\IDE\Extensions\\*, the ext
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-The *.pkgdef* files must be installed in one of the following locations:
-
-- *%localappdata%\Microsoft\Visual Studio\15.0\Extensions\\*
-
-- *%vsinstalldir%\Common7\IDE\Extensions\\*
-
-If the installation folder is *%localappdata%\Microsoft\Visual Studio\15.0\Extensions\\*, the extension is recognized by Visual Studio but is disabled by default. The user can enable the extension by using **Extensions and Updates**.
-
-If the installation folder is *%vsinstalldir%\Common7\IDE\Extensions\\*, the extension is enabled by default.
-
-> [!NOTE]
-> The **Extensions and Updates** tool cannot be used to access an extension unless it is installed as part of a VSIX package.
-
-::: moniker-end
 
 ## See also
 - [CreateExpInstance utility](../../extensibility/internals/createexpinstance-utility.md)

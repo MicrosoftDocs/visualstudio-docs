@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Work with workbooks
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Tools.Excel.Workbook> and <xref:Microsoft.Office.Interop.Excel.Workbooks> class contains the methods and properties you use to perform tasks with workbooks.
 
 |Task|Procedure|

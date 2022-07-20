@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugCoreServer2::GetMachineInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a description of the machine the core server is running on.
 
 ## Syntax
 
-```cpp
-HRESULT GetMachineInfo( 
-   MACHINE_INFO_FIELDS Fields,
-   MACHINE_INFO*       pMachineInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMachineInfo( 
    enum_ MACHINE_INFO_FIELDS  Fields,
    MACHINE_INFO[]             pMachineInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMachineInfo( 
+   MACHINE_INFO_FIELDS Fields,
+   MACHINE_INFO*       pMachineInfo
+);
+```
+---
 
 ## Parameters
 `Fields`\

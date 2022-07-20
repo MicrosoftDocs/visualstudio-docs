@@ -17,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # Microsoft Office is not installed on the computer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Visual Studio cannot find the Microsoft Office application that corresponds to the project type. If you are developing a VSTO Add-in project, it means that you cannot debug or run the project. If you are trying to create a document-level project, this means that you cannot create the project.
 
 ## To correct the error

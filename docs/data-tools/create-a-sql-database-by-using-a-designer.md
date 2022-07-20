@@ -1,7 +1,7 @@
 ---
-title: Create a database file and use table designer
+title: Create a database and add tables
 description: Tutorial that describes how to add tables and foreign keys to a database by using Table Designer in Visual Studio. It also shows how to add data through the graphical interface.
-ms.date: 09/19/2019
+ms.date: 03/30/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - database tables, creating
@@ -16,6 +16,8 @@ ms.workload:
 - data-storage
 ---
 # Create a database and add tables in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use Visual Studio to create and update a local database file in SQL Server Express LocalDB. You can also create a database by executing Transact-SQL statements in the **SQL Server Object Explorer** tool window in Visual Studio. In this topic, we'll create an *.mdf* file and add tables and keys by using the Table Designer.
 
@@ -34,7 +36,12 @@ To complete this walkthrough, you'll need the **.NET desktop development** and *
 
 3. In the list of item templates, scroll down and select **Service-based Database**.
 
-   ![Item Templates dialog box](../data-tools/media/raddata-vsitemtemplates.png)
+   :::moniker range=">=vs-2022"
+   ![Add New item > Service-based database](media/vs-2022/visual-studio-add-service-database.png)
+   :::moniker-end
+   :::moniker range="<=vs-2019"
+   ![Add New item > Service-based database](media/raddata-vsitemtemplates.png)
+   :::moniker-end
 
 4. Name the database **SampleDatabase**, and then click **Add**.
 
@@ -44,7 +51,12 @@ To complete this walkthrough, you'll need the **.NET desktop development** and *
 
 1. In the **Data Sources** window, select **Add New Data Source**.
 
+   :::moniker range=">=vs-2022"
+   ![Add new data source in Visual Studio](media/vs-2022/add-new-data-source.png)
+   :::moniker-end
+   :::moniker range="<=vs-2019"
    ![Add new data source in Visual Studio](media/add-new-data-source.png)
+   :::moniker-end
 
    The **Data Source Configuration Wizard** opens.
 
@@ -102,13 +114,24 @@ In this section, you'll create two tables, a primary key in each table, and a fe
    CREATE TABLE [dbo].[Customers]
    ```
 
+7. Add an index constraint to the Customers table. Add a comma at the end of the `Phone` line, then add the following sample before the closing parenthesis:
+
+   ```sql
+   CONSTRAINT [PK_Customers] PRIMARY KEY ([CustomerID])
+   ```
+
    You should see something like this:
 
-   ![Table Designer](../data-tools/media/table-designer.png)
+   :::moniker range=">=vs-2022"
+   ![Table Designer with Customers table](media/vs-2022/table-designer.png)
+   :::moniker-end
+   :::moniker range="<=vs-2019"
+   ![Table Designer with Customers table](media/table-designer.png)
+   :::moniker-end
 
-7. In the upper-left corner of **Table Designer**, select **Update**.
+8. In the upper-left corner of **Table Designer**, select **Update**, or press **Shift**+**Alt**+**U**.
 
-8. In the **Preview Database Updates** dialog box, select **Update Database**.
+9. In the **Preview Database Updates** dialog box, select **Update Database**.
 
    The Customers table is created in the local database file.
 
@@ -131,19 +154,37 @@ In this section, you'll create two tables, a primary key in each table, and a fe
    CREATE TABLE [dbo].[Orders]
    ```
 
-4. In the upper-left corner of the **Table Designer**, select **Update**.
+4. Add an index constraint to the Customers table. Add a comma at the end of the `OrderQuantity` line, then add the following sample before the closing parenthesis:
 
-5. In the **Preview Database Updates** dialog box, select **Update Database**.
+   ```sql
+   CONSTRAINT [PK_Orders] PRIMARY KEY ([OrderId])
+   ```
+
+5. In the upper-left corner of the **Table Designer**, select **Update**, or press **Shift**+**Alt**+**U**..
+
+6. In the **Preview Database Updates** dialog box, select **Update Database**.
 
    The Orders table is created in the local database file. If you expand the **Tables** node in Server Explorer, you see the two tables:
 
+   :::moniker range=">=vs-2022"
+   ![Tables node expanded in Server Explorer](media/vs-2022/server-explorer-tables-node.png)
+   :::moniker-end
+   :::moniker range="<=vs-2019"
    ![Tables node expanded in Server Explorer](media/server-explorer-tables-node.png)
+   :::moniker-end
+
+   If you don't see it, hit the **Refresh** toolbar button.
 
 ### Create a foreign key
 
 1. In the context pane on the right side of the Table Designer grid for the Orders table, right-click on **Foreign Keys** and select **Add New Foreign Key**.
 
+   :::moniker range=">=vs-2022"
+   ![Add a foreign key in Table Designer in Visual Studio](media/vs-2022/add-foreign-key.png)
+   :::moniker-end
+   :::moniker range="<=vs-2019"
    ![Add a foreign key in Table Designer in Visual Studio](../data-tools/media/add-foreign-key.png)
+   :::moniker-end
 
 2. In the text box that appears, replace the text **ToTable** with **Customers**.
 
@@ -153,7 +194,7 @@ In this section, you'll create two tables, a primary key in each table, and a fe
    CONSTRAINT [FK_Orders_Customers] FOREIGN KEY ([CustomerID]) REFERENCES [Customers]([CustomerID])
    ```
 
-4. In the upper-left corner of the **Table Designer**, select **Update**.
+4. In the upper-left corner of the **Table Designer**, select **Update** (**Shift**+**Alt**+**U**).
 
 5. In the **Preview Database Updates** dialog box, select **Update Database**.
 
@@ -165,20 +206,20 @@ In this section, you'll create two tables, a primary key in each table, and a fe
 
 2. Open the shortcut menu for the **Tables** node, select **Refresh**, and then expand the **Tables** node.
 
-3. Open the shortcut menu for the Customers table, and then select **Show Table Data**.
+3. Open the shortcut menu for the Customers table, and then select **Show Table Data** or **View Data**.
 
 4. Add whatever data you want for some customers.
 
     You can specify any five characters you want as the customer IDs, but choose at least one that you can remember for use later in this procedure.
 
-5. Open the shortcut menu for the Orders table, and then select **Show Table Data**.
+5. Open the shortcut menu for the Orders table, and then select **Show Table Data** or **View Data**.
 
-6. Add data for some orders.
+6. Add data for some orders. As you enter each row, it is saved in the database.
 
     > [!IMPORTANT]
     > Make sure that all order IDs and order quantities are integers and that each customer ID matches a value that you specified in the **CustomerID** column of the Customers table.
 
-7. On the menu bar, select **File** > **Save All**.
+Congratulations! You now know how to create tables, link them with a foreign key, and add data.
 
 ## See also
 

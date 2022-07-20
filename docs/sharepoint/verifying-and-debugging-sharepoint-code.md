@@ -20,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # Verify and debug SharePoint code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 By using IntelliTrace and unit testing, you can more easily debug your SharePoint solutions and ensure that each method in them works correctly. You can use these features for SharePoint projects in Visual Studio by following the same procedures as for other types of projects.
 
 ## Intellitrace

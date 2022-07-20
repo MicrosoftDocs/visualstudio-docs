@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugEnumField::GetValueFromStringCaseInsensitive
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method uses a case-insensitive search to return the value associated with the name of an enumeration constant.
 
 ## Syntax
 
-```cpp
-HRESULT GetValueFromStringCaseInsensitive(
-   LPCOLESTR  pszValue,
-   ULONGLONG* pvalue
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetValueFromStringCaseInsensitive(
    string    pszValue,
    out ulong pValue
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetValueFromStringCaseInsensitive(
+   LPCOLESTR  pszValue,
+   ULONGLONG* pvalue
+);
+```
+---
 
 ## Parameters
 `pszValue`\

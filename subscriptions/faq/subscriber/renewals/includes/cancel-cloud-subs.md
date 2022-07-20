@@ -4,8 +4,8 @@ description: When you cancel a Visual Studio cloud subscription, you are canceli
 ms.faqid: q4_6
 ms.topic: include
 ms.assetid: 2c83cd19-2692-4aef-9cd7-b7842639cbce
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 01/29/2021
 ---
 

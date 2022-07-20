@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Shipping Visual Studio Extensions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 After you've finished developing your extension, you can install it on other machines, share it with your friends and coworkers, or publish it on the Visual Studio Marketplace. In this section we explain all the things you need to do in order to publish and maintain your extension: working with .vsix files, publishing, localizing, and updating.
 
 ## Working with VSIX Extensions

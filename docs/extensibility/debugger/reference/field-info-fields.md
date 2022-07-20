@@ -19,10 +19,24 @@ dev_langs:
 - CSharp
 ---
 # FIELD_INFO_FIELDS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies what information to retrieve about an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_FIELD_INFO_FIELDS {
+    FIF_FULLNAME  = 0x0001,
+    FIF_NAME      = 0x0002,
+    FIF_TYPE      = 0x0004,
+    FIF_MODIFIERS = 0x0008,
+    FIF_ALL       = 0xffffffff,
+    FIF_NONE      = 0x0000
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_FIELD_INFO_FIELDS { 
     FIF_FULLNAME  = 0x0001,
@@ -34,17 +48,7 @@ enum enum_FIELD_INFO_FIELDS { 
 };
 typedef DWORD FIELD_INFO_FIELDS;
 ```
-
-```csharp
-public enum enum_FIELD_INFO_FIELDS {
-    FIF_FULLNAME  = 0x0001,
-    FIF_NAME      = 0x0002,
-    FIF_TYPE      = 0x0004,
-    FIF_MODIFIERS = 0x0008,
-    FIF_ALL       = 0xffffffff,
-    FIF_NONE      = 0x0000
-};
-```
+---
 
 ## Fields
 `FIF_FULLNAME`\

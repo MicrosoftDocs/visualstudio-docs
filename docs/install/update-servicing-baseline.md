@@ -1,8 +1,7 @@
 ---
 title: Update Visual Studio while on a servicing baseline
-description: Learn how to update Visual Studio while staying on a servicing baseline.
-ms.date: 07/17/2019
-
+description: Learn how to configure and update Visual Studio to stay on a servicing baseline.
+ms.date: 2/4/2022
 ms.topic: conceptual
 ms.assetid: 
 author: anandmeg
@@ -14,50 +13,33 @@ ms.prod: visual-studio-windows
 ms.technology: vs-installation
 monikerRange: ">=vs-2019"
 ---
-# Update Visual Studio while on a servicing baseline
+# Visual Studio and servicing baselines
 
-We update Visual Studio often during its product lifecycle. There are two types of updates:
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-* **Minor release updates**&mdash;for example, 16.0 to 16.1&mdash;that include new features and components.  
-* **Servicing updates**—for example, 16.0.4 to 16.0.5—that include only targeted fixes for critical issues.
+Visual Studio is updated frequently during its product lifecycle. There are two main types of updates: feature updates and servicing updates. Feature updates are indicated by a change in the minor version number, such as 16.4 to 16.5, and they contain significant product updates. Servicing updates consist of critical quality or security fixes and they are denoted by a change in the servicing version number, such as 16.7.8 to 16.7.9. 
 
-Enterprise administrators can choose to keep their clients on a servicing baseline. A servicing baseline is supported with servicing updates for a year past the release of the next servicing baseline.
+A servicing baseline, also referred to as a Long-Term Servicing Channel (LTSC) is a particular minor version that is supported and kept secure for about a year longer than other minor versions. The purpose of servicing baselines is to give Enterprise and Professional customers a way to adopt and stay on a very stable product and minimize compatibility risk while also staying secure. Refer to the [Visual Studio support lifecycle](/visualstudio/productinfo/vs-servicing) documentation for information about support for secure baselines.
 
-The servicing baseline option gives developers and administrators more flexibility to adopt the new features, bug fixes, or components included in new minor updates. The first servicing baseline is 16.0.x. For more information, see [Support options for enterprise and professional customers](/visualstudio/releases/2019/servicing#support-options-for-enterprise-and-professional-customers).
+## How to configure your client machine to stay on a servicing baseline
 
-## How to get onto a servicing baseline
+In Visual Studio 2019, it was a challenge to stay on a servicing baseline. You had to use the specific minor version bootstrapper available on either [My.VisualStudio.Com](https://my.visualstudio.com/Downloads) or the [Visual Studio 2019 release history page](/visualstudio/releases/2019/history) to update your client or your layout with the specific version you wanted. You also sometimes needed to perform additional customizations to fine tune the experience.  
 
-To start using a servicing baseline, download a fixed-version Visual Studio installer bootstrapper from [My.VisualStudio.com](https://my.visualstudio.com/Downloads?q=visual%20studio%202019%20version%2016.0). The bootstrappers have links to the product configurations, workloads, and components for that specific version.
+In Visual Studio 2022, we vastly improved the experience of easily configuring a client machine to stay on a servicing baseline. Using the Visual Studio 2022 installer, which can also be used by older versions of Visual Studio such as Visual Studio 2019, you can now [configure where your clients will get their updates from](/visualstudio/install/update-visual-studio?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1) using the **Update settings** dialog or the `modifySettings` command. These update source locations are called "channels", and you can find more information about channel purpose and availability in the [Visual Studio Release Rhythm](/visualstudio/productinfo/release-rhythm) documentation. Microsoft makes both the Current and the Preview channels available to everyone, and the Long-Term Servicing Channels (LTSCs) are available to Enterprise and Professional customers. IT Administrators can also configure network layouts as valid update source locations that the clients could have access to. 
 
-> [!NOTE]
-> Be careful to distinguish between the fixed-version bootstrapper and the standard bootstrappers. The standard bootstrappers are configured to use the latest available release of Visual Studio. The standard boostrappers have a number in the file name (for example, vs_enterprise__123456789-123456789.exe) when they're downloaded from My.VisualStudio.com.
-
-During installation, enterprise administrators must configure their clients to prevent the clients from updating to the latest release. There are several ways to do this:
-- [Change the `channelUri` setting in the response configuration file](update-servicing-baseline.md#install-a-servicing-baseline-on-a-network) to use a channel manifest in the layout or local folder.
-- [Modify the channelUri through command-line execution](update-servicing-baseline.md#install-a-servicing-baseline-via-the-internet) to use a nonexistent file.
-- [Set policies on the client system to disable updates](update-servicing-baseline.md#use-policy-settings-to-disable-clients-from-updating), to prevent clients from self-updating.
-
-### Install a servicing baseline on a network
-
-Administrators who use a network layout installation should modify the `channelUri` value in the *response.json* file in the layout to use the *channelmanifest.json* file that's in the same folder. For the steps to take, see [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md). Changing the `channelUri` value enables clients to look for updates in the layout location.
-
-### Install a servicing baseline via the internet
-
-For an internet-based installation, add `--channelUri` with a non-existent channel manifest to the command-line used to launch setup. This disables Visual Studio from using the latest available release for an update. Here's an example:
-
+Under the covers, the update source location and corresponding notification flag is governed by the client's `--channelUri` value. 
+   - For client machines that are attached to network layouts, this value is typically passed in via the `channelUri` value in the layout's customized response.json file. For more information, refer to [configuring client defaults when installing from a network layout](/visualstudio/install/create-a-network-installation-of-visual-studio?#configure-initial-client-installation-defaults-for-this-layout).
+   - For client machines that have installed the product using a bootstrapper from the internet, you can disable both the update notifications and the ability for Visual Studio to update from the internet by passing in a non-existent channelURI when the product is originally installed (example below). This approach will prevent you from receiving notifications about security updates, so while it's possible to do, we don't recommend it.
+   
 ```shell
 vs_enterprise.exe --channelUri c:\doesnotexist.chman
 ```
-
-### Use policy settings to disable clients from updating
-
-Another option to control updates on a client is to [turn off update notifications](controlling-updates-to-visual-studio-deployments.md). Use this option if the channelUri value was not changed on installation. It will disable the client from receiving links to the latest available release. A fixed-version bootstrapper is still necessary to update to a specific version on the client.
 
 ## How to stay on a servicing baseline
 
 When an update for a servicing baseline is available, fixed-version bootstrapper files are made available for the servicing update at [My.VisualStudio.com](https://my.visualstudio.com/Downloads?q=visual%20studio%202019%20version%2016.0).
 
-For administrators who deploy by using a network layout install, the administrator should update the [layout location](update-a-network-installation-of-visual-studio.md). Clients that installed from the location will receive update notifications. If the update must be deployed to clients, follow [these instructions](update-a-network-installation-of-visual-studio.md#deploy-an-update-to-client-machines). When you modify the 'response.json' for an update, do not add additional workloads, components, or languages. Managing these settings must be done as a 'modify' deployment after the product has been updated.
+For administrators who deploy by using a network layout install, the administrator should update the [layout location](create-a-network-installation-of-visual-studio.md#update-or-modify-your-layout). Clients that installed from the location will receive update notifications. If the update must be deployed to clients, follow [these instructions](update-a-network-installation-of-visual-studio.md). When you modify the 'response.json' for an update, do not add additional workloads, components, or languages. Managing these settings must be done as a 'modify' deployment after the product has been updated.
 
 For an internet-based installation, run the new fixed version bootstrapper with the `--channelUri` parameter pointing to a non-existent channel manifest on the client. If the update is deployed in quiet or passive mode, use two separate commands:
 

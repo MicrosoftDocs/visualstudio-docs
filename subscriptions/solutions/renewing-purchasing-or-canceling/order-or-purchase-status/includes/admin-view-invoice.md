@@ -2,8 +2,8 @@
 title: Where can I view my invoice?
 description: The super admin or admin would like to view the invoice for their agreement
 ms.assetid: feecb0a9-e03d-4747-aba3-efc66ade4421
-author: CaityBuschlen 
-ms.author: cabuschl 
+author: evanwindom 
+ms.author: amast 
 ms.date: 09/29/2021
 user.type: admin 
 tags: invoice, billing

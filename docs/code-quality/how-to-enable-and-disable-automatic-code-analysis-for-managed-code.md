@@ -11,6 +11,8 @@ ms.technology: vs-ide-code-analysis
 ---
 # How to: Enable and disable binary code analysis for managed code
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can configure legacy code analysis (binary analysis) to run after each build of a managed code project. You can also have different settings for each build configuration, for example, debug and release.
 
 > [!NOTE]
@@ -24,11 +26,6 @@ To enable or disable legacy code analysis:
 
 3. Specify the build type in **Configuration** and the target platform in **Platform**. (Non-.NET Core/.NET Standard projects only.)
 
-::: moniker range="vs-2017"
-
-4. To enable or disable automatic code analysis, select or clear the **Enable Code Analysis on Build** check box.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

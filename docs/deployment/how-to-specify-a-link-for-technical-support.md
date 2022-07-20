@@ -25,6 +25,8 @@ ms.workload:
   - multiple
 ---
 # How to: Specify a link for Technical Support
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, the **Support URL** property identifies a Web page or file share where users can go to get information about the application. This property is optional; if provided, the URL will be displayed in the application's entry **Add or Remove Programs** dialog box.
 
  The **Support URL** property can be set on the **Publish** page of the **Project Designer**.

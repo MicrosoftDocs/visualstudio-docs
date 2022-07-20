@@ -16,7 +16,7 @@
     href: organize-objects-into-layout-containers-in-xaml-designer.md
   - name: Create and apply a resource
     href: how-to-create-and-apply-a-resource.md
-  - name: "Walkthrough: Bind to data"
+  - name: 'Walkthrough: Bind to data'
     href: walkthrough-binding-to-data-in-xaml-designer.md
   - name: Debug or disable project code
     href: debugging-or-disabling-project-code-in-xaml-designer.md
@@ -60,6 +60,10 @@
       href: xaml-hot-reload.md
     - name: Troubleshoot
       href: xaml-hot-reload-troubleshooting.md
+  - name: XAML data binding diagnostics
+    href: xaml-data-binding-diagnostics.md
+  - name: XAML Live Preview
+    href: xaml-live-preview.md
   - name: Debug XAML in Blend
     href: debug-xaml-in-blend.md
   - name: Debug UWP apps >>

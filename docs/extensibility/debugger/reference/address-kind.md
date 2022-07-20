@@ -19,10 +19,27 @@ dev_langs:
 - CSharp
 ---
 # ADDRESS_KIND
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the kinds of addresses.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_ADDRESS_KIND {
+    ADDRESS_KIND_NATIVE                  = 0x0001,
+    ADDRESS_KIND_UNMANAGED_THIS_RELATIVE = 0x0002,
+    ADDRESS_KIND_UNMANAGED_PHYSICAL      = 0x0005,
+    ADDRESS_KIND_METADATA_METHOD         = 0x0010,
+    ADDRESS_KIND_METADATA_FIELD          = 0x0011,
+    ADDRESS_KIND_METADATA_LOCAL          = 0x0012,
+    ADDRESS_KIND_METADATA_PARAM          = 0x0013,
+    ADDRESS_KIND_METADATA_ARRAYELEM      = 0x0014,
+    ADDRESS_KIND_METADATA_RETVAL         = 0x0015,
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_ADDRESS_KIND {
     ADDRESS_KIND_NATIVE                  = 0x0001,
@@ -37,20 +54,7 @@ enum enum_ADDRESS_KIND {
 };
 typedef DWORD ADDRESS_KIND;
 ```
-
-```csharp
-public enum enum_ADDRESS_KIND {
-    ADDRESS_KIND_NATIVE                  = 0x0001,
-    ADDRESS_KIND_UNMANAGED_THIS_RELATIVE = 0x0002,
-    ADDRESS_KIND_UNMANAGED_PHYSICAL      = 0x0005,
-    ADDRESS_KIND_METADATA_METHOD         = 0x0010,
-    ADDRESS_KIND_METADATA_FIELD          = 0x0011,
-    ADDRESS_KIND_METADATA_LOCAL          = 0x0012,
-    ADDRESS_KIND_METADATA_PARAM          = 0x0013,
-    ADDRESS_KIND_METADATA_ARRAYELEM      = 0x0014,
-    ADDRESS_KIND_METADATA_RETVAL         = 0x0015,
-};
-```
+---
 
 ## Fields
 `ADDRESS_KIND_NATIVE`\

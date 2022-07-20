@@ -14,6 +14,8 @@ ms.workload:
 - vssdk
 ---
 # TASK_STATE_RAN_TO_COMPLETION field
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The task completed execution successfully.
 
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

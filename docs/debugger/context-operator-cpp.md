@@ -27,6 +27,8 @@ ms.workload:
   - "cplusplus"
 ---
 # Context Operator in the Visual Studio Debugger (C++)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can use the context operator in C++ to qualify a breakpoint location, variable name, or expression. The context operator is useful for specifying a name from an outer scope that is otherwise hidden by a local name.
 
 ## <a name="BKMK_Using_context_operators_to_specify_a_symbol"></a> Syntax

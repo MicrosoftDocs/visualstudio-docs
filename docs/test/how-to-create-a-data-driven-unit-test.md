@@ -20,6 +20,8 @@ author: mikejo5000
 ---
 # How to: Create a data-driven unit test
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can use the Microsoft unit test framework for managed code to set up a unit test method to retrieve values from a data source. The method is run successively for each row in the data source, which makes it easy to test a variety of input by using a single method.
 
 Creating a data-driven unit test involves the following steps:
@@ -167,6 +169,22 @@ The test results bar at the top of **Test Explorer** is animated as your test ru
 If you ran the `AddIntegers_FromDataSourceTest` method in our example, the results bar turns red and the test method is moved to the **Failed Tests**. A data-driven test fails if any of the iterated methods from the data source fails. When you choose a failed data-driven test in the **Test Explorer** window, the details pane displays the results of each iteration that is identified by the data row index. In our example, it appears that the `AddIntegers` algorithm does not handle negative values correctly.
 
 When the method under test is corrected and the test rerun, the results bar turns green and the test method is moved to the **Passed Test** group.
+
+## Run an inline data-driven test
+
+For inline tests, MSTest uses `DataRow` to retrieve values from a data source. The test in this example runs successively for each data row.
+
+```csharp
+[DataTestMethod]
+[DataRow(1, 1, 2)]
+[DataRow(2, 2, 4)]
+[DataRow(3, 3, 6)]
+[DataRow(0, 0, 1)] // The test run with this row fails
+public void AddTests(int x, int y, int expected)
+{
+  Assert.AreEqual(expected, x + y);
+}
+```
 
 ## See also
 

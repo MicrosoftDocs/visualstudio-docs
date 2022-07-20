@@ -13,6 +13,8 @@ ms.workload:
 ---
 # T4 Include Directive
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In a text template in Visual Studio, you can include text from another file by using an `<#@include#>` directive. You can place `include` directives anywhere in a text template before the first class feature block `<#+ ... #>`. The included files can also contain `include` directives, and other directives. This allows you to share template code and boilerplate text between templates.
 
 ## Using Include Directives

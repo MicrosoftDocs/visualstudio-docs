@@ -31,6 +31,8 @@ ms.workload:
 ---
 # Fonts and Colors, Environment, Options Dialog Box
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The **Fonts and Colors** page of the **Options** dialog box lets you establish a custom font and color scheme for various user interface elements in the integrated development environment (IDE). You can access this dialog box by clicking **Tools** > **Options**, and then selecting **Environment** > **Fonts and Colors**.
 
 Color scheme changes do not take effect during the session in which you make them. You can evaluate color changes by opening another instance of Visual Studio and producing the conditions under which you expect your changes to apply.
@@ -62,11 +64,6 @@ Lists all of the user interface elements for which you can change font and color
 
      Changes the font style and size for all IDE user interface elements that do not already have a separate option in **Show settings for**.
 
-     ::: moniker range="vs-2017"
-
-     For example, this option applies to the **Start Page** but does not affect the **Output** window.
-
-     ::: moniker-end
 
 - **[All Text Tool Windows]**
 

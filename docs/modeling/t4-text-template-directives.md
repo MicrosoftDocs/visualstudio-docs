@@ -20,6 +20,8 @@ ms.workload:
 ---
 # T4 Text Template Directives
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Directives provide instructions to the text template transformation engine.
 
 The syntax of directives is as follows:

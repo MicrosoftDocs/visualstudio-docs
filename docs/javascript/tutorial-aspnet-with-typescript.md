@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with TypeScript"
 description: In this tutorial, you create an app using ASP.NET Core and TypeScript
-ms.date: 03/25/2021
+ms.date: 06/7/2022
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Tutorial: Create an ASP.NET Core app with TypeScript in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this tutorial for Visual Studio development ASP.NET Core and TypeScript, you create a simple web application, add some TypeScript code, and then run the app.
 
 ::: moniker range=">=vs-2022"
@@ -25,11 +27,6 @@ Starting in Visual Studio 2022, if you want to use Angular or Vue with ASP.NET C
 ::: moniker range="vs-2019"
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
-
-::: moniker-end
-::: moniker range="vs-2017"
-
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
 
 ::: moniker-end
 
@@ -45,11 +42,11 @@ In this tutorial, you learn how to:
 
 * You must have Visual Studio installed and the ASP.NET web development workload.
 
+    ::: moniker range=">=vs-2022"
+    If you haven't already installed Visual Studio 2022, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+    ::: moniker-end
     ::: moniker range="vs-2019"
     If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    If you haven't already installed Visual Studio 2017, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
     ::: moniker-end
 
     If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
@@ -67,19 +64,18 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
 1. Create a new project.
 
+    ::: moniker range=">=vs-2022"
+    In Visual Studio 2022, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project, and then choose **Next**.
+
+    Choose either the recommended target framework or .NET 6, and then choose **Create**.
+    ::: moniker-end
     ::: moniker range="vs-2019"
     In Visual Studio 2019, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project, and then choose **Next**.
 
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **Visual C#**, then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application - C#**, then choose **OK**.
 
-    In the dialog box that appears, select **Web Application (Model-View-Controller)** in the dialog box, and then choose **Create** (or **OK**).
-
-    ![Choose the MVC template](../javascript/media/aspnet-core-ts-mvc-template.png)
-    ::: moniker-end
-    If you don't see the **ASP.NET Core Web Application** project template, you must add the **ASP.NET and web development** workload. For detailed instructions, see the [Prerequisites](#prerequisites).
+    If you don't see the **ASP.NET Core Web App** project template, you must add the **ASP.NET and web development** workload. For detailed instructions, see the [Prerequisites](#prerequisites).
 
     Visual Studio creates the new solution and opens your project in the right pane.
 
@@ -286,10 +282,10 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
 ## Next steps
 
-You may want to learn more details about using TypeScript with ASP.NET Core. If you are interested in AngularJS programming in Visual Studio, you can use the [AngularJS language service extension](https://devblogs.microsoft.com/visualstudio/angular-language-service-for-visual-studio) for Visual Studio.
+You may want to learn more details about using TypeScript with ASP.NET Core. If you are interested in Angular programming in Visual Studio, you can use the [Angular language service extension](https://devblogs.microsoft.com/visualstudio/angular-language-service-for-visual-studio) for Visual Studio.
 
 > [!div class="nextstepaction"]
 > [ASP.NET Core and TypeScript](https://www.typescriptlang.org/docs/handbook/asp-net-core.html)
 
 > [!div class="nextstepaction"]
-> [AngularJS language service extension](https://devblogs.microsoft.com/visualstudio/angular-language-service-for-visual-studio)
+> [Angular language service extension](https://devblogs.microsoft.com/visualstudio/angular-language-service-for-visual-studio)

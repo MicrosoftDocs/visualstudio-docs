@@ -17,6 +17,8 @@ ms.workload:
 ---
 # View call hierarchy
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 By viewing the call hierarchy for your code, you can navigate all calls to, and sometimes from, a selected method, property, or constructor. This enables you to better understand how code flows, and to evaluate the effects of changes to code. You can examine several levels of code to view complex chains of method calls and additional entry points to the code. This enables you to explore all possible execution paths.
 
 In Visual Studio, you can view a call hierarchy at design time. This means you don't have to set a breakpoint and start the debugger to view the run-time call stack.

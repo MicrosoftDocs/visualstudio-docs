@@ -23,6 +23,8 @@ ms.workload:
 ---
 # Debugging Preparation: Console Projects (C#, C++, Visual Basic, F#)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Preparing to debug a Console project is similar to preparing to debug a Windows project, with some additional considerations such as setting command-line arguments and how to pause the app for debugging. For more information, see [Debugging preparation for a Windows Form apps](../debugger/debugging-preparation-windows-forms-applications.md). Because of the similarity of all console applications, this topic covers the following project types:
 
 - C#, Visual Basic, and F# Console Application

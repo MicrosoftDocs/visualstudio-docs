@@ -20,7 +20,6 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.HTML.General
 - VS.ToolsOptionsPages.Text_Editor.HTML_(Web_Forms).General
 - VS.ToolsOptionsPages.Text_Editor.JavaScript.General
-- VS.ToolsOptionsPages.Text_Editor.TypeScript.General
 - VS.ToolsOptionsPages.Text_Editor.JSON.General
 - VS.ToolsOptionsPages.Text_Editor.LESS.General
 - VS.ToolsOptionsPages.Text_Editor.Plain_Text.General
@@ -47,6 +46,8 @@ ms.workload:
 - multiple
 ---
 # Options dialog box: Text Editor \> All Languages
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This dialog box allows you to change the default behavior of the Code Editor. These settings also apply to other editors based upon the Code Editor, such as the HTML Designer's Source view. To open this dialog box, select **Options** from the **Tools** menu. Within the **Text Editor** folder, expand the **All Languages** subfolder and then choose **General**.
 

@@ -3,7 +3,6 @@ title: Using Visual Studio on an Azure Virtual Machine
 titleSuffix: ''
 description: Learn how to use Visual Studio on an Azure Virtual Machine
 ms.date: 11/17/2020
-
 ms.topic: conceptual
 helpviewer_keywords:
 - azure services
@@ -19,6 +18,8 @@ ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
 # Visual Studio images on Azure
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Using Visual Studio in a preconfigured Azure virtual machine (VM) is a quick, easy way to go from nothing to an up-and-running development environment. System images with different Visual Studio configurations are available in the [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/category/compute?filters=virtual-machine-images%3Bmicrosoft%3Bwindows&page=1&subcategories=application-infrastructure).
 

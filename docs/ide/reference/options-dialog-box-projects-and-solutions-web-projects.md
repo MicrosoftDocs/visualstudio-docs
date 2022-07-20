@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Options Dialog Box, Projects and Solutions, Web Projects
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Sets the web server that web projects will use for development within [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. To access these options, select **Tools > Options** expand **Projects and Solutions**, and select **Web Projects**.
 
 By default, running a web project in Visual Studio uses the Visual Studio Development Server. For more information, see [Web Servers in Visual Studio for ASP.NET Web Projects](/previous-versions/aspnet/58wxa9w5\(v\=vs.120\)).

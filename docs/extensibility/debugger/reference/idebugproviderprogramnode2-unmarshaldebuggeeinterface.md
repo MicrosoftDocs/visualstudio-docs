@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugProviderProgramNode2::UnmarshalDebuggeeInterface
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Obtains a specified interface across process boundaries.
 
 ## Syntax
 
-```cpp
-HRESULT UnmarshalDebuggeeInterface(
-   REFIID riid,
-   void** ppvObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int UnmarshalDebuggeeInterface(
    ref Guid   riid,
    out IntPtr ppvObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT UnmarshalDebuggeeInterface(
+   REFIID riid,
+   void** ppvObject
+);
+```
+---
 
 ## Parameters
 `riid`\

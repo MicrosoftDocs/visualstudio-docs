@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Launch-based attachment
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Launch-based attachment to a program is automatic. When the process hosting the program is launched by the SDM, launch-based attachment follows a path similar to that of the manual attachment method. For information, see [Attach to the program](../../extensibility/debugger/attaching-to-the-program.md).
 
 ## The attaching process

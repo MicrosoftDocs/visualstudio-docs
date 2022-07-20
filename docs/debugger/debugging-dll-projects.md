@@ -2,7 +2,7 @@
 title: "Debug DLL projects | Microsoft Docs"
 description: Debug dynamic-link library (DLL) files in Visual Studio. Use Visual Studio to create, build, configure, and debug DLLs.
 ms.custom: SEO-VS-2020
-ms.date: "11/06/2018"
+ms.date: "04/18/2022"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -23,6 +23,8 @@ ms.workload:
   - "multiple"
 ---
 # Debug DLLs in Visual Studio (C#, C++, Visual Basic, F#)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A DLL (dynamic-link library) is a library that contains code and data that can be used by more than one app. You can use Visual Studio to create, build, configure, and debug DLLs.
 
@@ -45,6 +47,7 @@ You usually call a DLL from another project. When you debug the calling project,
 When you use a Visual Studio project template to create an app, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically creates required settings for Debug and Release build configurations. You can change these settings if necessary. For more information, see the following articles:
 
 - [Project settings for a C++ debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
+- [Project settings for .NET C# debug configurations](../debugger/project-settings-for-csharp-debug-configurations-dotnetcore.md)
 - [Project settings for C# debug configurations](../debugger/project-settings-for-csharp-debug-configurations.md)
 - [Project settings for a Visual Basic debug configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
 - [How to: Set Debug and Release configurations](../debugger/how-to-set-debug-and-release-configurations.md)
@@ -162,6 +165,7 @@ You can also debug a native DLL from a managed calling project. For more informa
 - [Prepare to debug C++ projects](../debugger/debugging-preparation-visual-cpp-project-types.md)
 - [C#, F#, and Visual Basic project types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
 - [Project settings for a C++ Debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
+- [Project settings for .NET C# debug configurations](../debugger/project-settings-for-csharp-debug-configurations-dotnetcore.md)
 - [Project settings for  C# Debug configurations](../debugger/project-settings-for-csharp-debug-configurations.md)
 - [Project settings for a Visual Basic Debug configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
 - [Debugger security](../debugger/debugger-security.md)

@@ -17,8 +17,9 @@ ms.technology: office-development
 ms.workload:
   - "office"
 ---
-
 # Visual Studio Tools for Office Runtime
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio 2010 Tools for Office Runtime (VSTO Runtime) ships with various versions of Visual Studio and Microsoft Office and follows the support lifecycle of the parent product.
 

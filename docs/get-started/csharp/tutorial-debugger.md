@@ -2,7 +2,7 @@
 title: "Tutorial: Debug C# code"
 description: Learn features of the Visual Studio debugger and how to start the debugger, step through code, and inspect data in a C# application.
 ms.custom: "debug-experiment, vs-acquisition, get-started"
-ms.date: 09/14/2020
+ms.date: 11/29/2021
 ms.technology: "vs-ide-debug"
 ms.topic: tutorial
 dev_langs:
@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # Tutorial: Learn to debug C# code using Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article introduces the features of the Visual Studio debugger in a step-by-step walkthrough. If you want a higher-level view of the debugger features, see [First look at the debugger](../../debugger/debugger-feature-tour.md). When you *debug your app*, it usually means that you are running your application with the debugger attached. When you do this, the debugger provides many ways to see what your code is doing while it runs. You can step through your code and look at the values stored in variables, you can set watches on variables to see when values change, you can examine the execution path of your code, see whether a branch of code is running, and so on. If this is the first time that you've tried to debug code, you might want to read [Debugging for absolute beginners](../../debugger/debugging-absolute-beginners.md) before going through this article.
 
@@ -34,7 +36,7 @@ In this tutorial, you will:
 
 ::: moniker range=">=vs-2022"
 
-You must have Visual Studio 2022 RC installed and the **.NET desktop development** workload.
+You must have Visual Studio 2022 installed and the **.NET desktop development** workload.
 
 ::: moniker-end
 
@@ -44,17 +46,7 @@ You must have Visual Studio 2019 installed and the **.NET Core cross-platform de
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
 
-You must have Visual Studio 2017 installed and the **.NET Core cross-platform development** workload.
-
-::: moniker-end
-
-::: moniker range="vs-2017"
-
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -78,19 +70,6 @@ If you already have Visual Studio but the **.NET desktop development** workload 
 
 First, you'll create a .NET Core console application project. The project type comes with all the template files you'll need, before you've even added anything!
 
-::: moniker range="vs-2017"
-
-1. Open Visual Studio 2017.
-
-1. From the top menu bar, choose **File** > **New** > **Project**.
-
-1. In the **New Project** dialog box in the left pane, expand **C#**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the project *get-started-debugging*.
-
-     If you don't see the **Console App (.NET Core)** project template, choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
-
-     The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -102,7 +81,7 @@ First, you'll create a .NET Core console application project. The project type c
 
 1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list. 
 
-   After you apply the language and platform filters, choose the **Console App** template for .NET Core, and then choose **Next**.
+   After you apply the language and platform filters, choose the **Console Application** template for .NET Core, and then choose **Next**.
 
    ![Screenshot of the C# template for the Console App.](../csharp/media/vs-2019/get-started-create-console-project.png)
 
@@ -111,7 +90,7 @@ First, you'll create a .NET Core console application project. The project type c
 
 1. In the **Configure your new project** window, type or enter *GetStartedDebugging* in the **Project name** box. Then, choose **Next**.
 
-1. Choose either the recommended target framework (.NET Core 3.1) or .NET 5, and then choose **Create**.
+1. Choose either the recommended target framework (.NET Core 3.1 (Long-term support)) or .NET 5.0 (Current) , and then choose **Create**.
 
    Visual Studio opens your new project.
 
@@ -136,7 +115,7 @@ First, you'll create a .NET Core console application project. The project type c
 
 1. In the **Configure your new project** window, type or enter *GetStartedDebugging* in the **Project name** box. Then, choose **Next**.
 
-1. In the **Additional information** window, ensure that **.NET 6.0 (Preview)** is selected in the **Framework** dropdown menu, and then choose **Create**.
+1. In the **Additional information** window, ensure that **.NET 6.0 (Long-term support)** is selected in the **Framework** dropdown menu, and then choose **Create**.
 
     Visual Studio opens your new project.
 

@@ -3,8 +3,8 @@ title: Page not loading
 description: Page not loading in the subscriptions portal.
 ms.topic: include
 ms.assetid: 287eceba-5891-4e20-95aa-5ad34e23110e
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 08/14/2020
 user.type: subscriber, admin
 tags: portal-error

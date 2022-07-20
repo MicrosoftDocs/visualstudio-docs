@@ -1,16 +1,20 @@
 ---
-title: Multi-Container App with Docker Compose
+title: "VS for Mac: Multi-Container App with Docker Compose"
 description: Learn how to manage more than one container and communicate between them in Visual Studio for Mac
 ms.custom: SEO-VS-2020
-author: heiligerdankgesang
-ms.author: dominicn
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 07/03/2020
-ms.topic: tutorial
+ms.topic: how-to
 ---
+# Create a Multi-Container App with Docker Compose for Visual Studio for Mac
 
-# Create a Multi-Container App with Docker Compose
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 In this tutorial, you'll learn how to manage more than one container and communicate between them when using Docker Compose in Visual Studio for Mac.
+
+Looking for steps on the Windows version of Visual Studio, read [Tutorial: Create a multi-container app with Docker Compose with Visual Studio for Windows](/visualstudio/containers/tutorial-multicontainer).
 
 ## Prerequisites
 

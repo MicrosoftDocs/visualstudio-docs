@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # BP_PASSCOUNT
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the count and conditions upon which a conditional breakpoint is fired.
 
 ## Syntax
 
-```cpp
-typedef struct _BP_PASSCOUNT {
-    DWORD              dwPassCount;
-    BP_PASSCOUNT_STYLE stylePassCount;
-} BP_PASSCOUNT;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct BP_PASSCOUNT {
     public uint dwPassCount;
     public uint stylePassCount;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _BP_PASSCOUNT {
+    DWORD              dwPassCount;
+    BP_PASSCOUNT_STYLE stylePassCount;
+} BP_PASSCOUNT;
+```
+---
 
 ## Members
 `dwPassCount`\

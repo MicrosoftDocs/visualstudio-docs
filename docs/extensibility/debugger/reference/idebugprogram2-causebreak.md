@@ -19,19 +19,23 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram2::CauseBreak
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Requests that the program stop execution the next time one of its threads attempts to run.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int CauseBreak();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT CauseBreak( 
    void 
 );
 ```
-
-```csharp
-int CauseBreak();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -20,19 +20,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugMemoryContext2::Compare
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Compares the memory context to each context in the given array in the manner indicated by compare flags, returning an index of the first context that matches.
 
 ## Syntax
 
-```cpp
-HRESULT Compare( 
-   CONTEXT_COMPARE        compare,
-   IDebugMemoryContext2** rgpMemoryContextSet,
-   DWORD                  dwMemoryContextSetLen,
-   DWORD*                 pdwMemoryContext
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Compare(
    enum_CONTEXT_COMPARE   compare,
@@ -41,6 +35,16 @@ int Compare(
    out uint               pdwMemoryContext
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Compare( 
+   CONTEXT_COMPARE        compare,
+   IDebugMemoryContext2** rgpMemoryContextSet,
+   DWORD                  dwMemoryContextSetLen,
+   DWORD*                 pdwMemoryContext
+);
+```
+---
 
 ## Parameters
 `compare`\

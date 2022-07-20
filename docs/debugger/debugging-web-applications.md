@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Debugging Web Applications
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This article provides links to help you debug different types of web applications.
 
 - Debug ASP.NET applications

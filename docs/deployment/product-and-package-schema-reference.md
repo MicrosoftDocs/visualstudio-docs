@@ -30,6 +30,8 @@ ms.workload:
   - "multiple"
 ---
 # Product and package schema reference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A *product file* is an XML manifest that describes all of the external dependencies required by a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. Examples of external dependencies include the .NET Framework and the Microsoft Data Access Components (MDAC). A package file is similar to a product file but is used to install the culture-dependent components of a dependency, such as localized assemblies, license agreements, and documentation.
 
  The product and packages file consists of either a top-level `Product` or `Package` element, each of which contains the following elements.

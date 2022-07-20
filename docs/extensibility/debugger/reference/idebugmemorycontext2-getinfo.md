@@ -20,23 +20,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugMemoryContext2::GetInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md) structure that describes the context.
 
 ## Syntax
 
-```cpp
-HRESULT GetInfo( 
-   CONTEXT_INFO_FIELDS dwFields,
-   CONTEXT_INFO*       pInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetInfo(
    enum_CONTEXT_INFO_FIELDS dwFields,
    CONTEXT_INFO[]           pinfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetInfo( 
+   CONTEXT_INFO_FIELDS dwFields,
+   CONTEXT_INFO*       pInfo
+);
+```
+---
 
 ## Parameters
 `dwFields`\

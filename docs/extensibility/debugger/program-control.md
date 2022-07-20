@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Program control
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In Visual Studio debugging, all of the following stepping and continuing routines occur at the program level:
 
 - Setting the next statement, that is, setting your computer to the next instruction to be executed in a particular frame environment

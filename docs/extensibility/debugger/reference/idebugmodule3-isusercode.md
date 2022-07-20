@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugModule3::IsUserCode
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves information on whether the module represents user code or not.
 
 ## Syntax
 
-```cpp
-HRESULT IsUserCode(
-   BOOL* pfUser
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsUserCode(
    out int pfUser
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsUserCode(
+   BOOL* pfUser
+);
+```
+---
 
 ## Parameters
 `pfUser`\

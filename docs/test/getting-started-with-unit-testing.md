@@ -2,7 +2,7 @@
 title: Get started with unit testing
 description: Use Visual Studio to define and run unit tests to maintain code health, and to find errors and faults before your customers do.
 ms.custom: SEO-VS-2020
-ms.date: 08/10/2021
+ms.date: 12/16/2021
 ms.topic: tutorial
 helpviewer_keywords:
 - unit testing, create unit test plans
@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Get started with unit testing
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Use Visual Studio to define and run unit tests to maintain code health, ensure code coverage, and find errors and faults before your customers do. Run your unit tests frequently to make sure your code is working properly.
 
 In this article, the code uses C# and C++, illustrations are in C#, but the concepts and features apply to .NET languages, C++, Python, JavaScript, and TypeScript.
@@ -25,12 +27,12 @@ This section describes how to create a unit test project.
 
 1. Open the project that you want to test in Visual Studio.
 
-   For the purposes of demonstrating an example unit test, this article tests a simple "Hello World" C# or C++ Console project named **HelloWorld** (**HelloWorldCore** in C#). The sample code for such a project is as follows:
+   For the purposes of demonstrating an example unit test, this article tests a simple "Hello World" C# or C++ Console project named **HelloWorld**. The sample code for such a project is as follows:
 
    ### [.NET](#tab/dotnet)
    ```csharp
-   namespace HelloWorldCore
-
+   namespace HelloWorld
+   {
       public class Program
       {
          public static void Main()
@@ -38,6 +40,7 @@ This section describes how to create a unit test project.
             Console.WriteLine("Hello World!");
          }
       }
+   }
    ```
 
    ### [C++](#tab/cpp)
@@ -56,20 +59,25 @@ This section describes how to create a unit test project.
 1. In the new project dialog box, find the unit test project to use.
 
    ::: moniker range=">=vs-2019"
-   Type **test** in the search box to find a unit test project template for the test framework you want to use, such as MSTest (C#) or the **Native Unit Test** project (C++), and select it.
+   Type **test** in the search box to find a unit test project template for the test framework you want to use, such as **MSTest** (C#) or the **Native Unit Test** project (C++), and select it.
    ::: moniker-end
-   ::: moniker range="vs-2017"
-   Expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.
-   ::: moniker-end
+
 
    Starting in Visual Studio 2017 version 14.8, the .NET languages include built-in templates for NUnit and xUnit. For C++, in this example select the **Native Unit Test** project, which uses Microsoft Native Unit Test Framework. (To use a different C++ test framework, see [Writing unit tests for C/C++](../test/writing-unit-tests-for-c-cpp.md)). For Python, see [Set up unit testing in Python code](../python/unit-testing-python-in-visual-studio.md) to set up your test project.
 
    > [!TIP]
-   > For C# only, you can create unit test projects from code using a faster method. For more information, see [Create unit test projects and test methods](../test/unit-test-basics.md#create-unit-test-projects-and-test-methods-c). To use this method with .NET Core or .NET Standard, Visual Studio 2019 is required.
+   > For C# only, you can create unit test projects from code using a faster method. For more information, see [Create unit test projects and test methods](../test/unit-test-basics.md#create-unit-test-projects-and-test-methods-c). To use this method with .NET Core or .NET Standard, Visual Studio 2019 or later is required.
 
    The following illustration shows an MSTest unit test, which is supported in .NET.
 
-   ::: moniker range=">=vs-2019"
+   ::: moniker range=">=vs-2022"
+
+   ![Unit test project template in Visual Studio 2022](media/vs-2022/add-new-test-project.png)
+
+   Click **Next**, choose a name for the test project, and then click **Create**.
+
+   ::: moniker-end
+   ::: moniker range="vs-2019"
 
    ![Unit test project template in Visual Studio 2019](media/vs-2019/add-new-test-project.png)
 
@@ -77,23 +85,26 @@ This section describes how to create a unit test project.
 
    ::: moniker-end
 
-   ::: moniker range="vs-2017"
-
-   ![Unit test project template in Visual Studio 2019](media/mstest-test-project-template.png)
-
-   Choose a name for the test project, such as HelloWorldTests, and then click **OK**.
-
-   ::: moniker-end
 
    The project is added to your solution.
 
+   ::: moniker range=">=vs-2022"
+   ![Unit test project in Solution Explorer](media/vs-2022/solution-explorer.png)
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
    ![Unit test project in Solution Explorer](media/vs-2019/solution-explorer.png)
+   ::: moniker-end
 
 1. In the unit test project, add a reference to the project you want to test by right-clicking on **References** or **Dependencies** and then choosing **Add Reference** or **Add Project Reference**.
 
 1. Select the project that contains the code you'll test and click **OK**.
 
+   ::: moniker range=">=vs-2022"
+   ![Add project reference in Visual Studio](media/vs-2022/reference-manager.png)
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
    ![Add project reference in Visual Studio](media/vs-2019/reference-manager.png)
+   ::: moniker-end
 
 1. Add code to the unit test method.
 
@@ -118,7 +129,7 @@ This section describes how to create a unit test project.
             using (var sw = new StringWriter())
             {
                Console.SetOut(sw);
-               HelloWorldCore.Program.Main();
+               HelloWorld.Program.Main();
 
                var result = sw.ToString().Trim();
                Assert.AreEqual(Expected, result);
@@ -151,7 +162,7 @@ This section describes how to create a unit test project.
             using (var sw = new StringWriter())
             {
                Console.SetOut(sw);
-               HelloWorldCore.Program.Main();
+               HelloWorld.Program.Main();
 
                var result = sw.ToString().Trim();
                Assert.AreEqual(Expected, result);
@@ -179,7 +190,7 @@ This section describes how to create a unit test project.
                 using (var sw = new StringWriter())
                 {
                     Console.SetOut(sw);
-                    HelloWorldCore.Program.Main();
+                    HelloWorld.Program.Main();
     
                     var result = sw.ToString().Trim();
                     Assert.Equal(Expected, result);
@@ -236,17 +247,25 @@ This section describes how to create a unit test project.
    ::: moniker range=">=vs-2019"
    To open Test Explorer, choose **Test** > **Test Explorer** from the top menu bar (or press **Ctrl** + **E**, **T**).
    ::: moniker-end
-   ::: moniker range="vs-2017"
-   To open Test Explorer, choose **Test** > **Windows** > **Test Explorer** from the top menu bar.
-   ::: moniker-end
+
 
 1. Run your unit tests by clicking **Run All** (or press **Ctrl** + **R**, **V**).
 
+   ::: moniker range=">=vs-2022"
+   ![Run unit tests in Test Explorer](media/vs-2022/test-explorer-run-all.png)
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
    ![Run unit tests in Test Explorer](media/vs-2019/test-explorer-run-all.png)
+   ::: moniker-end
 
    After the tests have completed, a green check mark indicates that a test passed. A red "x" icon indicates that a test failed.
 
+   ::: moniker range=">=vs-2022"
+   ![Review unit test results in Test Explorer](media/vs-2022/unit-test-passed.png)
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
    ![Review unit test results in Test Explorer](media/vs-2019/unit-test-passed.png)
+   ::: moniker-end
 
 > [!TIP]
 > You can use [Test Explorer](../test/run-unit-tests-with-test-explorer.md) to run unit tests from the built-in test framework (MSTest) or from third-party test frameworks. You can group tests into categories, filter the test list, and create, save, and run playlists of tests. You can also debug tests and analyze test performance and code coverage.
@@ -260,25 +279,36 @@ If you are using the MSTest, xUnit, or NUnit testing framework in Visual Studio 
 
 1. Turn live unit testing from the **Test** menu by choosing **Test** > **Live Unit Testing** > **Start**.
 
-   ::: moniker range="vs-2017"
 
-   ![Turn on live unit testing](media/live-test-results-start.png)
-
-   ::: moniker-end
-
-   ::: moniker range=">=vs-2019"
+   ::: moniker range="vs-2019"
 
    ![Start live unit testing in Visual Studio 2019](media/vs-2019/start-live-unit-testing.png)
 
    ::: moniker-end
 
+   ::: moniker range=">=vs-2022"
+
+   ![Start live unit testing in Visual Studio 2022](media/vs-2022/start-live-unit-testing.png)
+
+   ::: moniker-end
+
 1. View the results of the tests within the code editor window as you write and edit code.
 
+   ::: moniker range="<=vs-2019"
    ![View the results of the tests](media/vs-2019/live-unit-testing-results.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![View the results of the tests](media/vs-2022/live-unit-testing-results.png)
+   ::: moniker-end
 
 1. Click a test result indicator to see more information, such as the names of the tests that cover that method.
 
+   ::: moniker range="<=vs-2019"
    ![Choose the test result indicators](media/vs-2019/live-unit-testing-details.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![Choose the test result indicators](media/vs-2022/live-unit-testing-details.png)
+   ::: moniker-end
 
 For more information about live unit testing, see [Live unit testing](../test/live-unit-testing-intro.md).
 
@@ -302,23 +332,25 @@ To add a unit test project:
 
    In this example, select [NUnit](https://nunit.org/)
 
-   ::: moniker range=">=vs-2019"
+   ::: moniker range=">=vs-2022"
+   ![NUnit test project template in Visual Studio 2022](media/vs-2022/nunit-test-project-template.png)
+   ::: moniker-end
 
+   ::: moniker range="vs-2019"
    ![NUnit test project template in Visual Studio 2019](media/vs-2019/nunit-test-project-template.png)
 
    Click **Next**, name the project, and then click **Create**.
-
    ::: moniker-end
 
-   ::: moniker range="vs-2017"
-
-   Name the project, and then click **OK** to create it.
-
-   ::: moniker-end
 
    The project template includes NuGet references to NUnit and NUnit3TestAdapter.
 
+   ::: moniker range=">=vs-2022"
+   ![NUnit NuGet dependencies in Solution Explorer](media/vs-2022/nunit-nuget-dependencies.png)
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
    ![NUnit NuGet dependencies in Solution Explorer](media/vs-2019/nunit-nuget-dependencies.png)
+   ::: moniker-end
 
 4. Add a reference from the test project to the project that contains the code you want to test.
 
@@ -326,7 +358,12 @@ To add a unit test project:
 
 5. Add code to your test method.
 
+   ::: moniker range=">=vs-2022"
+   ![Add code to your unit test code file](media/vs-2022/unit-test-method.png)
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
    ![Add code to your unit test code file](media/vs-2019/unit-test-method.png)
+   ::: moniker-end
 
 6. Run the test from **Test Explorer** or by right-clicking on the test code and choosing **Run Test(s)** (or **Ctrl** + **R**, **T**).
 

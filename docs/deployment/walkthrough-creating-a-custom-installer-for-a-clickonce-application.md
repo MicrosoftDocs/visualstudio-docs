@@ -23,6 +23,8 @@ ms.workload:
   - "multiple"
 ---
 # Walkthrough: Create a custom installer for a ClickOnce application
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Any ClickOnce application based on an *.exe* file can be silently installed and updated by a custom installer. A custom installer can implement custom user experience during installation, including custom dialog boxes for security and maintenance operations. To perform installation operations, the custom installer uses the <xref:System.Deployment.Application.InPlaceHostingManager> class. This walkthrough demonstrates how to create a custom installer that silently installs a ClickOnce application.
 
 ## Prerequisites
@@ -35,15 +37,18 @@ Any ClickOnce application based on an *.exe* file can be silently installed and 
 
 3. Add the following `Imports` or `using` directives to the top of your new class.
 
-    ```vb
-    Imports System.Deployment.Application
-    Imports System.Windows.Forms
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     using System.Deployment.Application;
     using System.Windows.Forms;
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Imports System.Deployment.Application
+    Imports System.Windows.Forms
+    ```
+    ---
 
 4. Add the following methods to your class.
 
@@ -52,22 +57,29 @@ Any ClickOnce application based on an *.exe* file can be silently installed and 
     > [!NOTE]
     > Permissions assigned by pre-trusting cannot exceed the permissions of the custom installer code.
 
-    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_Winforms/System.Deployment.Application.InPlaceHostingManager/VB/Form1.vb" id="Snippet1":::
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../snippets/csharp/VS_Snippets_Winforms/System.Deployment.Application.InPlaceHostingManager/CS/Form1.cs" id="Snippet1":::
+
+    ### [VB](#tab/vb)
+    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_Winforms/System.Deployment.Application.InPlaceHostingManager/VB/Form1.vb" id="Snippet1":::
+    ---
 
 5. To attempt installation from your code, call the `InstallApplication` method. For example, if you named your class `MyInstaller`, you might call `InstallApplication` in the following way.
 
-    ```vb
-    Dim installer As New MyInstaller()
-    installer.InstallApplication("\\myServer\myShare\myApp.application")
-    MessageBox.Show("Installer object created.")
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     MyInstaller installer = new MyInstaller();
     installer.InstallApplication(@"\\myServer\myShare\myApp.application");
     MessageBox.Show("Installer object created.");
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Dim installer As New MyInstaller()
+    installer.InstallApplication("\\myServer\myShare\myApp.application")
+    MessageBox.Show("Installer object created.")
+    ```
+    ---
 
 ## Next steps
  A ClickOnce application can also add custom update logic, including a custom user interface to show during the update process. For more information, see <xref:System.Deployment.Application.UpdateCheckInfo>. A ClickOnce application can also suppress the standard Start menu entry, shortcut, and Add or Remove Programs entry by using a `<customUX>` element. For more information, see [\<entryPoint> element](../deployment/entrypoint-element-clickonce-application.md) and <xref:System.Deployment.Application.DownloadApplicationCompletedEventArgs.ShortcutAppId%2A>.

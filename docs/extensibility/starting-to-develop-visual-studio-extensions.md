@@ -1,6 +1,6 @@
 ---
-title: Starting to Develop Visual Studio Extensions | Microsoft Docs
-description: Learn about some of the common questions that you may have the first time you start to write a Visual Studio extension.
+title: Start developing Visual Studio extensions | Microsoft Docs
+description: Get answers to some of the common questions that you may have the first time you start to write a Visual Studio extension.
 ms.custom: SEO-VS-2020
 ms.date: 09/18/2017
 ms.topic: conceptual
@@ -15,12 +15,14 @@ ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
-# Starting to Develop Visual Studio Extensions
+# Start developing extensions in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you've never written a Visual Studio extension before, you probably have some questions. We've listed some of the most common ones here. If you don't see the information you're looking for, use the feedback buttons (**Is this page helpful?** in the upper right of the screen) to ask for what you want.
 
 > [!NOTE]
-> This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Extending Visual Studio for Mac](/visualstudio/mac/extending-visual-studio-mac). For Visual Studio Code, see [Visual Studio Code Extension API](https://code.visualstudio.com/api).
+> This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Extending Visual Studio for Mac](/previous-versions/visualstudio/mac/extending-visual-studio-mac-walkthrough). For Visual Studio Code, see [Visual Studio Code Extension API](https://code.visualstudio.com/api).
 
 ## What software do I need to develop Visual Studio extensions?
 
@@ -92,5 +94,5 @@ In practice, we have found that the features most people want to extend are comm
 
 ## See also
 
-- [Extending Visual Studio for Mac](/visualstudio/mac/extending-visual-studio-mac)
+- [Extending Visual Studio for Mac](/previous-versions/visualstudio/mac/extending-visual-studio-mac-walkthrough)
 - [Extending Visual Studio Code](https://code.visualstudio.com/api)

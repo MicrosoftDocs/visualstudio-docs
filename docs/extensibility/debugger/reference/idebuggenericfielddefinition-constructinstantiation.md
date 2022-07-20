@@ -18,18 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugGenericFieldDefinition::ConstructInstantiation
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Constructs a field instance given an array of type arguments.
 
 ## Syntax
 
-```cpp
-HRESULT ConstructInstantiation(
-   ULONG32       cArgs,
-   IDebugField** ppArgs,
-   IDebugField** ppConstructedField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ConstructInstantiation(
    uint            cArgs,
@@ -37,6 +32,15 @@ int ConstructInstantiation(
    out IDebugField ppConstructedField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ConstructInstantiation(
+   ULONG32       cArgs,
+   IDebugField** ppArgs,
+   IDebugField** ppConstructedField
+);
+```
+---
 
 ## Parameters
 `cArgs`\

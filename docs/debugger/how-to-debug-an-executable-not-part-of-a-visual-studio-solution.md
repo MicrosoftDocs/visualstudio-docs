@@ -25,6 +25,8 @@ ms.workload:
 ---
 # Debug an app that isn't part of a Visual Studio solution (C++, C#, Visual Basic, F#)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You may want to debug an app (*.exe* file) that isn't part of a Visual Studio solution. It may be an [open folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) project, or you or someone else may have created the app outside of Visual Studio, or you got the app from somewhere else.
 
 - For an open folder project in Visual Studio (which has no project or solution file), see [Run and debug your code](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md#run-and-debug-your-code) or, for C++, [Configure debugging parameters with launch.vs.json](/cpp/build/open-folder-projects-cpp#configure-debugging-parameters-with-launchvsjson).

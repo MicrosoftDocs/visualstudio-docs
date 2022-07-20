@@ -13,6 +13,8 @@ ms.workload:
 - vssdk
 ---
 # Add commands to toolbars
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A toolbar is a horizontal or vertical strip that contains buttons bound to commands. You can add your own commands to toolbars on many different windows in Visual Studio: the main Visual Studio window, the Solution Explorer, and your own custom tool windows.
 
  This section shows a number of things you can do with commands on toolbars.

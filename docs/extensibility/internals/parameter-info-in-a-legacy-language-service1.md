@@ -19,6 +19,8 @@ ms.workload:
 - vssdk
 ---
 # Parameter Info in a legacy language service 1
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The IntelliSense Parameter Info tooltip provides users with hints about where they are in a language construct.
 
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more, see [Extending the Editor and Language Services](../../extensibility/extending-the-editor-and-language-services.md).

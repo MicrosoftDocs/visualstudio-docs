@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramNode2::GetProgramName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name of the program.
 
 ## Syntax
 
-```cpp
-HRESULT GetProgramName (
-    BSTR* pbstrProgramName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProgramName (
     out string pbstrProgramName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProgramName (
+    BSTR* pbstrProgramName
+);
+```
+---
 
 ## Parameters
 `pbstrProgramName`\

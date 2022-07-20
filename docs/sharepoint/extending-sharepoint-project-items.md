@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Extend SharePoint project items
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Create a project item extension when you want to add functionality to a type of SharePoint project item that is already installed in Visual Studio. For example, you can create an extension for the built-in **Event Receiver** or **List Definition** project items in Visual Studio, or you can create an extension for a custom project item type. You can also create an extension for all types of SharePoint project items.
 
 ## Tasks for extending SharePoint project items

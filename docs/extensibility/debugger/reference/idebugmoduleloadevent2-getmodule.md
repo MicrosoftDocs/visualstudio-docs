@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugModuleLoadEvent2::GetModule
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the module that is being loaded or unloaded.
 
 ## Syntax
 
-```cpp
-HRESULT GetModule( 
-   IDebugModule2** pModule,
-   BSTR*           pbstrDebugMessage,
-   BOOL*           pbLoad
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetModule( 
    out IDebugModule2 pModule,
@@ -38,6 +33,15 @@ int GetModule( 
    ref int           pbLoad
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetModule( 
+   IDebugModule2** pModule,
+   BSTR*           pbstrDebugMessage,
+   BOOL*           pbLoad
+);
+```
+---
 
 ## Parameters
 `pModule`\

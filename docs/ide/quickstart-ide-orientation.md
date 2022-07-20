@@ -1,26 +1,23 @@
 ---
-title: "Quickstart: Tour of the Visual Studio IDE"
+title: "Tutorial: Tour of the Visual Studio IDE"
 description: Learn about some of the windows, menus, and other UI features of the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
 titleSuffix: ''
 ms.date: 09/14/2021
-ms.topic: quickstart
-author: TerryGLee
-ms.author: tglee
+ms.topic: tutorial
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
-# Quickstart: First look at the Visual Studio IDE
+# Tutorial: First look at the Visual Studio IDE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), we'll take a tour of some of the windows, menus, and other UI features.
 
-::: moniker range="vs-2017"
-
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -28,19 +25,6 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-## Start Page
-
-The first thing you'll see after you open Visual Studio is most likely the **Start Page**. The **Start Page** is designed as a "hub" to help you find the commands and project files you need faster. The **Recent** section displays projects and folders you've worked on recently. Under **New project**, you can click a link to bring up the **New Project** dialog box, or under **Open**, you can open an existing code project or folder. On the right is a feed of the latest developer news.
-
-![Screenshot of the Start Page in Visual Studio 2017.](media/start-page.png)
-
-If you close the **Start Page** and want to see it again, you can reopen it from the **File** menu.
-
-![Screenshot of the File menu in Visual Studio 2017.](media/quickstart-IDE-file-menu-large.png)
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -78,21 +62,6 @@ The **Continue without code** option opens the Visual Studio development environ
 
 To continue exploring Visual Studio's features, let's create a new project.
 
-::: moniker range="vs-2017"
-
-1. On the **Start Page**, in the search box under **New project**, type in **console** to filter the list of project types to those that contain "console" in their name.
-
-   ![Screenshot showing a list of project templates on the Start Page in Visual Studio 2017.](media/start-page-search-templates.png)
-
-   Visual Studio provides various kinds of project templates that help you get started coding quickly. Choose a C# **Console App (.NET Core)** project template. (Alternatively, if you're a Visual Basic, C++, JavaScript, or other language developer, feel free to create a project in one of those languages. The UI we'll be looking at is similar for all programming languages.)
-
-1. In the **New Project** dialog box that appears, accept the default project name and choose **OK**.
-
-The project is created and a file named *Program.cs* opens in the **Editor** window. The **Editor** shows the contents of files and is where you'll do most of your coding work in Visual Studio.
-
-![Screenshot showing the Editor in Visual Studio 2017.](media/editor.png)
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -144,7 +113,7 @@ The project is created and a file named *Program.cs* opens in the **Editor** win
 
     :::image type="content" source="media/vs-2022/quickstart-configure-new-project-console.png" alt-text="Screenshot of the 'Configure a new project' window in Visual Studio 2022, where you enter the name of the project.":::
 
-1. In the **Additional information** window, ensure that **.NET 6.0 (Preview)** appears in the **Framework** dropdown menu, and then choose **Create**.
+1. In the **Additional information** window, ensure that **.NET 6.0** appears in the **Framework** dropdown menu, and then choose **Create**.
 
     :::image type="content" source="media/vs-2022/create-project-additional-info.png" alt-text="Screenshot of the 'Additional information' window in Visual Studio 2022, where you select the version of the .NET that you want.":::
 
@@ -180,11 +149,6 @@ The file *Program.cs* opens in the **Editor** window. The **Editor** shows the c
 
 The menu bar along the top of Visual Studio groups commands into categories. For example, the **Project** menu contains commands related to the project you're working in. On the **Tools** menu, you can customize how Visual Studio behaves by selecting **Options**, or add features to your installation by selecting **Get Tools and Features**.
 
-::: moniker range="vs-2017"
-
-![Screenshot showing the Menu bar in Visual Studio 2017.](media/quickstart-IDE-menu-bar.png)
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -238,25 +202,6 @@ Let's build the project to see some build output. From the **Build** menu, choos
 
 The search box is a quick and easy way to find just about anything in Visual Studio. You can enter some text related to what you want to do, and it will show you a list of options that are relevant to the text. For example, imagine you want to increase the verbosity of the build output to display more details about what the build is doing. Here's how you might do that:
 
-::: moniker range="vs-2017"
-
-1. Locate the **Quick Launch** search box in the upper right of the IDE. (Alternatively, press **Ctrl**+**Q** to access it.)
-
-1. Type **verbosity** into the search box. From the displayed results, choose **Projects and Solutions --> Build and Run** under the **Options** category.
-
-   ![Screenshot of the Quick launch search box in Visual Studio 2017.](media/quickstart-IDE-quick-launch.png)
-
-   The **Options** dialog box opens to the **Build and Run** options page.
-
-1. Under **MSBuild project build output verbosity**, choose **Normal**, and then click **OK**.
-
-1. Build the project again by right-clicking on the **ConsoleApp1** project in **Solution Explorer** and choosing **Rebuild** from the context menu.
-
-   This time the **Output** window shows more verbose logging from the build process, including which files were copied where.
-
-   ![Screenshot of a more detailed build log within the Output window in Visual Studio 2017.](media/build-output-verbose.png)
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -300,13 +245,6 @@ The search box is a quick and easy way to find just about anything in Visual Stu
 
 ## Send Feedback menu
 
-::: moniker range="vs-2017"
-
-Should you encounter any problems while you're using Visual Studio, or if you have suggestions for how to improve the product, you can use the **Send Feedback** menu near the top of the Visual Studio window.
-
-![Screenshot of the Send Feedback menu in Visual Studio 2017.](media/quickstart-IDE-send-feedback.png)
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

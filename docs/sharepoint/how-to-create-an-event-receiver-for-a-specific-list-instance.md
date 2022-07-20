@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # How to: Create an event receiver for a specific list instance
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   A list instance event receiver responds to events that occur in any instance of a list definition. Although the event receiver template does not enable the targeting of a specific list instance, you can modify an event receiver that is scoped to a list definition to respond to events in a specific list instance.
 
  To target a specific list instance, in the *Elements.xml* for the event receiver, replace `ListTemplateId` with `ListUrl` and add the URL of the list instance.

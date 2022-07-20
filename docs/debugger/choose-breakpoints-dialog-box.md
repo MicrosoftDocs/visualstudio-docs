@@ -26,6 +26,8 @@ ms.workload:
   - "multiple"
 ---
 # Choose Breakpoints Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Choose Breakpoints** dialog box opens when you try to set a breakpoint from ambiguous input in the **New Breakpoint** dialog box. A common example of ambiguous input is an overloaded function name.
 
  **Breakpoints**

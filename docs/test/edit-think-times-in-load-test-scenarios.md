@@ -16,6 +16,8 @@ ms.technology: vs-ide-test
 ---
 # Edit think times to simulate website human interaction delays in load tests scenarios
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Think times are used to simulate human behavior that causes people to wait between interactions with a website. Think times occur between requests in a web performance test and between test iterations in a load test scenario. Using think times in a load test can be useful in creating more accurate load simulations. You can change whether think times are used or ignored in load tests. You change whether think times are used in your load tests in the **Load Test Editor**.
 
 The *think profile* is a setting that applies to a scenario in a load test. The setting determines whether the think times that are saved in the individual web performance tests are used during the load test. If you want to use think times in some web performance tests but not in others, you must place them in different scenarios. For more information about scenarios, see [Edit load test scenarios](../test/edit-load-test-scenarios.md).

@@ -19,14 +19,12 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Options for Python in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To view Python options, use the **Tools** > **Options** menu command, make sure **Show all settings** is selected, and then navigate to **Python**:
 
-::: moniker range="vs-2017"
-![Python options dialog, General tab](media/options-general.png)
-::: moniker-end
 ::: moniker range=">=vs-2019"
 ![Python options dialog, General tab](media/options-general-2019.png)
 ::: moniker-end
@@ -55,9 +53,6 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 | **Check for survey/news** | **Once a week** | *Visual Studio 2017 and earlier.* Sets the frequency at which you allow Visual Studio to open a window containing a web page with Python-related surveys and news items, if available. Options are **Never**, **Once a day**, **Once a week**, and **Once a month**. |
 | **Reset all permanently hidden dialogs** button | n/a | Different dialog boxes provide options such as **Don't show me this again**. Use this button to clear those options and cause the dialogs to reappear. |
 
-::: moniker range="vs-2017"
-![Python options dialog, General tab](media/options-general.png)
-::: moniker-end
 ::: moniker range=">=vs-2019"
 ![Python options dialog, General tab](media/options-general-2019.png)
 ::: moniker-end
@@ -89,9 +84,6 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 | **Show function return value** | On | *Visual Studio 2019 only.* Displays function return values in the **Locals** window then stepping over a function call in the debugger (F10) |
 | **Use legacy debugger** | Off | *Visual Studio 2019 only.* Instructs Visual Studio to use the legacy debugger by default. For more information, see [Debugging - Use the legacy debugger](debugging-python-in-visual-studio.md#use-the-legacy-debugger). |
 
-::: moniker range="vs-2017"
-![Python options dialog, Debugging tab](media/options-debugging.png)
-::: moniker-end
 ::: moniker range=">=vs-2019"
 ![Python options dialog, Debugging tab](media/options-debugging-2019.png)
 ::: moniker-end

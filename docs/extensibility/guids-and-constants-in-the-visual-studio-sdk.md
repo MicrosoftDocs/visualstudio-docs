@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # GUIDs and constants in the Visual Studio SDK
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The <xref:Microsoft.VisualStudio.VSConstants> class provides access to a selection of environment GUIDs and constants.
 
 ## In this section

@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Extend menus and commands
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Commands are the way you add actions and processes to Visual Studio. In most cases commands are displayed on menus or toolbars. The VSPackage project template shows how to implement a very basic command. For a slightly longer but still basic implementation, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).
 
  For more information about Visual Studio commands, menus, and toolbars, see [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md).

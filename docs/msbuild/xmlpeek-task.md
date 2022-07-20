@@ -115,3 +115,4 @@ The output includes the following from the `TestPeek` target:
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)
 - [XPath query syntax](https://wikipedia.org/wiki/XPath)
+- [XPath Queries and Namespaces](/dotnet/standard/data/xml/xpath-queries-and-namespaces)

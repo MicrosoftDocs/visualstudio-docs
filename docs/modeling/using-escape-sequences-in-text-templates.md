@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Use escape sequences in text templates
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can use escape sequences in text templates to generate text template tags and (in C# code only) to escape control characters and quotation marks.
 
 To print open and close tags for a standard code block to the output file, escape the tags as follows:

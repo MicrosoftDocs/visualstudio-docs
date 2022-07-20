@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # About file name extensions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you register a file extension of a VSPackage, you associate it with a version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. This is important if more than one version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is installed on a computer.
 
  File extensions for VSPackages are registered under **HKEY_CLASSES_ROOT** key with a default value that points to the associated programmatic identifier (ProgID).

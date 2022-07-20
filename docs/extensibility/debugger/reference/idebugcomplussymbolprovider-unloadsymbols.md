@@ -18,23 +18,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::UnloadSymbols
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Unloads the debug symbols for the specified module from memory.
 
 ## Syntax
 
-```cpp
-HRESULT UnloadSymbols(
-    ULONG32 ulAppDomainID,
-    GUID    guidModule
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int UnloadSymbols(
     uint ulAppDomainID,
     Guid guidModule
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT UnloadSymbols(
+    ULONG32 ulAppDomainID,
+    GUID    guidModule
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

@@ -25,6 +25,8 @@ ms.workload:
 ---
 # Walkthrough: Create an external list in SharePoint by using business data
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Business Data Connectivity (BDC) service enables SharePoint to display business data from back-end server applications, Web services, and databases.
 
 This walkthrough shows you how to create a model for the BDC service that returns information about contacts in a sample database. You will then create an external list in SharePoint by using this model.
@@ -203,8 +205,12 @@ Add a Specific Finder method to the Contact entity by using the **BDC Method Det
     > [!NOTE]
     > Replace the value of the `ServerName` field with the name of your server.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb" id="Snippet3":::
+     ---
 
 ## Add a finder method
 
@@ -231,8 +237,12 @@ To enable the BDC service to display the contacts in a list, you must add a Find
      > [!NOTE]
      > Replace the value of the `ServerName` field with the name of your server.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb" id="Snippet2":::
+     ---
 
 ## Test the project
 

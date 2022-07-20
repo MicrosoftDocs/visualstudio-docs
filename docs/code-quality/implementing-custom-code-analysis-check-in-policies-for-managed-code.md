@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Implement Custom Code Analysis Check-in Policies for Managed Code
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 A code analysis check-in policy specifies a set of rules that members of an Azure DevOps project must run on source code before it is checked in to version control. Microsoft provides a set of standard *rule sets* that group code analysis rules into functional areas. *Custom check-in policy rule sets* specify a set of code analysis rules that are specific to a project. A rule set is stored in a .ruleset file.
 
 Check-in policies are set at the Azure DevOps project level and specified by the location of a .ruleset file in the version control tree. There are no restrictions on the version control location of the team policy custom rule set.
@@ -55,7 +57,7 @@ To create a custom rule set for an Azure DevOps project, you first create a spec
 
 1. In **Source Control Explorer**, right-click the new folder, and then click **Add Items to Folder**.
 
-     For more information, see [Git and Azure Repos](/azure/devops/repos/git/overview?view=vsts&preserve-view=true).
+     For more information, see [Git and Azure Repos](/azure/devops/repos/git).
 
 2. Click the rule set file that you created, and then click **Finish**.
 
@@ -107,11 +109,6 @@ You specify a project check-in policy rule set as the code analysis rule set of 
 
 4. If necessary, click the appropriate options in the **Configuration** and **Platform** lists.
 
-::: moniker range="vs-2017"
-
-5. To run code analysis every time that the code project is built using the specified configuration, select **Enable Code Analysis on Build**.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

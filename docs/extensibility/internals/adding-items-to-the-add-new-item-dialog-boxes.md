@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Add items to the Add New Item dialog box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The process for adding items to the **Add New Item** dialog box starts with the registry keys. As shown in the following registry entries, the **AddItemTemplates** section contains the path and name of the directory in which items made available in the **Add New Item** dialog box are put.
 
 > [!NOTE]

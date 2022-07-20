@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngineLaunch2::CanTerminateProcess
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if a process can be terminated.
 
 ## Syntax
 
-```cpp
-HRESULT CanTerminateProcess ( 
-   IDebugProcess2* pProcess
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CanTerminateProcess ( 
    IDebugProcess2 pProcess
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CanTerminateProcess ( 
+   IDebugProcess2* pProcess
+);
+```
+---
 
 ## Parameters
 `pProcess`\

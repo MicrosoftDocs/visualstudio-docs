@@ -20,6 +20,8 @@ ms.workload:
 ---
 # How to: Manage build configurations with Visual Basic developer settings applied
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 By default, all advanced build configuration options are hidden when Visual Basic developer settings are applied. This article explains how to manually enable these build settings.
 
 ## Enable advanced build configurations

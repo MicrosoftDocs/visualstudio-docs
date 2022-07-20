@@ -2,16 +2,19 @@
 title: Git settings in Visual Studio
 titleSuffix: ""
 description: Learn how Visual Studio uses .gitconfig files and Git settings to manage your preferences
-ms.date: 06/08/2021
+ms.date: 05/19/2022
 ms.topic: conceptual
-ms.author: prnadago
-author: prnadago
+author: Taysser-Gherfal
+ms.author: tglee
+ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.manager: jmartens
 monikerRange: ">=vs-2019"
+ms.custom: version-control
 ---
 # Git settings and preferences in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In Visual Studio, you can configure and view common Git settings and preferences, such as your name and email address, your preferred diff and merge tools, and more. These settings and preferences can be viewed and configured in the **Options dialog box** on either the **Git Global Settings** page (applies to all your repositories) or the **Git Repository Settings** page (applies to the current repository).
 
@@ -57,7 +60,7 @@ The name and email that you provide will be used as the committer information fo
 
 1. From the Git menu, go to **Settings**. To set your user name and email at the global level, go to **Git Global Settings**; to set your user name and email at the repository level, go to **Git Repository Settings**.
 
-2. Provide your user name and email, then choose **OK** to save. 
+2. Provide your user name and email, then choose **OK** to save.
 
    :::image type="content" source="media/user-email-setting.png" alt-text="Git Global settings pane in Options dialog box with a callout to username an email.":::
 
@@ -67,31 +70,38 @@ Pruning removes remote-tracking branches that no longer exist on the remote and 
 
 We recommend setting this option to **True** at the global level. Valid settings are, as follows:
 
-- True (recommended)
-- False
-- Unset (default)
+- **True** (recommended)
+- **False**
+- **Unset** (default)
+
+Here's how to change the settings:
 
 1. From the Git menu, go to **Settings**. Go to **Git Global Settings** to configure this option at the global level; go to **Git Repository Settings** to configure this option at the repo level.
 
 2. Set **Prune remote branches during fetch** to **True** (recommended). Select **Ok** to save.
 
-:::image type="content" source="media/prune-setting.png" alt-text="Screenshot that shows 'Prune remote branches during fetch' highlighted and with 'True' selected from the drop-down.":::    
+    :::image type="content" source="media/prune-setting.png" alt-text="Screenshot that shows 'Prune remote branches during fetch' highlighted and with 'True' selected from the drop-down.":::
 
 ### Rebase local branch when pulling
 
 Rebasing sets aside the changes made by commits in the current branch that are not in the upstream branch, resets the current branch to the upstream branch, then applies the changes that were set aside. This setting is available at both global and repository scopes, and corresponds to the `git config` [pull.rebase](https://git-scm.com/docs/git-config#Documentation/git-config.txt-pullrebase) setting. Valid settings are, as follows:
 
-- True: Rebase current branch on top of upstream branch after fetch.
-- False: Merge the current branch into the upstream branch.
-- Unset (default): Unless specified in other configuration files, merge the current branch into the upstream branch.
-- Interactive: Rebase in interactive mode.
-- Preserve: Rebase without flattening locally created merge commits.
+- **True**: Rebase current branch on top of upstream branch after fetch.
+- **False**: Merge the current branch into the upstream branch.
+- **Unset** (default): Unless specified in other configuration files, merge the current branch into the upstream branch.
+- **Interactive**: Rebase in interactive mode.
+- **Merges**: Rebase without flattening locally created merge commits.
+
+  > [!NOTE]
+  > In Visual Studio 2022 [version 17.2](/visualstudio/releases/2022/release-notes), we changed the "Preserve" setting to "Merges" to match a recent update from Git. So, if you're using an earlier version of Visual Studio with Git tooling, your user interface might say "Preserve" instead of "Merges". The functionality remains the same, however.
+
+Here's how to change the settings:
 
 1. From the Git menu, go to **Settings**. Go to **Git Global Settings** to configure this option at the global level; go to **Git Repository Settings** to configure this option at the repo level.
 
 2. Set **Rebase local branch when pulling** to the desired setting, and select **OK** to save.
 
-    :::image type="content" source="media/rebase-setting.png" alt-text="Screenshot that shows 'Rebase local branch when pulling' highlighted and 'True' selected from the drop-down.":::
+    :::image type="content" source="media/rebase-setting.png" alt-text="Screenshot that shows 'Rebase local branch when pulling' highlighted and 'Merges' selected from the drop-down.":::
 
 It's not possible to configure `pull.rebase` to **Interactive** in Visual Studio. Visual Studio doesn't have interactive rebase support.
 To configure `pull.rebase` to use interactive mode, use the command line.
@@ -100,9 +110,11 @@ To configure `pull.rebase` to use interactive mode, use the command line.
 
 Cryptographic network provider is a Git configuration setting at global scope that configures which TLS/SSL backend to use at runtime, and corresponds to the `git config` [http.sslBackend](https://git-scm.com/docs/git-config#Documentation/git-config.txt-httpsslBackend) setting. The values are, as follows:
 
-- OpenSSL: Use [OpenSSL](https://www.openssl.org/) for TLS and SSL protocols.
-- Secure Channel: Use [Secure Channel (schannel)](/windows/win32/secauthn/secure-channel) for TLS and SSL protocols. Schannel is the native Windows solution, accessing the Windows Credential Store, thereby allowing for enterprise-wide management of certificates.
-- Unset (default): If this setting is unset, OpenSSL is the default.
+- **OpenSSL**: Use [OpenSSL](https://www.openssl.org/) for TLS and SSL protocols.
+- **Secure Channel**: Use [Secure Channel (schannel)](/windows/win32/secauthn/secure-channel) for TLS and SSL protocols. Schannel is the native Windows solution, accessing the Windows Credential Store, thereby allowing for enterprise-wide management of certificates.
+- **Unset** (default): If this setting is unset, OpenSSL is the default.
+
+Here's how to change the settings:
 
 1. From the Git menu, go to **Settings**. Go to **Git Global Settings** to configure this setting.
 
@@ -114,15 +126,17 @@ Cryptographic network provider is a Git configuration setting at global scope th
 
 When Visual Studio performs a remote Git operation, the remote endpoint might reject the request because it requires credentials to be provided with the request. At that time, Git invokes a credential helper, which will return the credentials needed to perform the operation, and then will try the request again. The credential helper used corresponds to the `git config` [credential.helper](https://git-scm.com/docs/gitcredentials) setting. It is available at the global scope with the following values:
 
-- GCM for Windows: Use [Git Credential Manager for Windows](https://github.com/microsoft/Git-Credential-Manager-for-Windows) as the helper.
-- GCM Core: Use [Git Credential Manager Core](https://github.com/microsoft/Git-Credential-Manager-Core) as the helper.
-- Unset (default): If this setting is unset, the credential helper set in the system config is used. As of Git for Windows 2.29, the default credential helper is GCM Core.
+- **GCM for Windows**: Use [Git Credential Manager for Windows](https://github.com/microsoft/Git-Credential-Manager-for-Windows) as the helper.
+- **GCM Core**: Use [Git Credential Manager Core](https://github.com/microsoft/Git-Credential-Manager-Core) as the helper.
+- **Unset** (default): If this setting is unset, the credential helper set in the system config is used. As of Git for Windows 2.29, the default credential helper is GCM Core.
+
+Here's how to change the settings:
 
 1. From the Git menu, go to **Settings**. Go to **Git Global Settings** to configure this setting.
 
 2. Set **Credential helper** to the desired value, and select **OK** to save.
 
-:::image type="content" source="media/credential-helper-setting.png" alt-text="Screenshot showing the credential helper setting in the Options dialog box.":::
+    :::image type="content" source="media/credential-helper-setting.png" alt-text="Screenshot showing the credential helper setting in the Options dialog box.":::
 
 ### Diff & merge tools
 
@@ -169,12 +183,11 @@ The following settings manage Git-related preferences in Visual Studio, and are 
 
 By default, Visual Studio closes any open solution or folder when you switch to another repository. When it does so, it might also load the solution or folder of the new repository based on if you choose to [Open folder in Solution Explorer when opening a Git repository](#open-folder-in-solution-explorer-when-opening-a-git-repository) and [Automatically load the solution when opening a Git repository](#automatically-load-the-solution-when-opening-a-git-repository). This maintains the consistency between the open code and open repository. However, if your solution is not in the same folder root as your repository, you may want to keep the solution open when you switch to its repository. You can do that with this setting. The values are, as follows:
 
-- Yes: When a repository is opened, the currently open solution is always closed
-- No: When a repository is opened, Visual Studio performs a check as to whether the current solution is under Git. If it is not, then the solution remains open.
-- Always ask (default): When this is set, you can make a choice through a dialog box per repository open, whether you want to keep the current solution open or close it.
+- **Yes**: When a repository is opened, the currently open solution is always closed
+- **No**: When a repository is opened, Visual Studio performs a check as to whether the current solution is under Git. If it is not, then the solution remains open.
+- **Always ask** (default): When this is set, you can make a choice through a dialog box per repository open, whether you want to keep the current solution open or close it.
 
-:::image type="content" source="media/close-sln-setting.png" alt-text="Screenshot showing the close solution setting in the Options dialog box.":::
-
+    :::image type="content" source="media/close-sln-setting.png" alt-text="Screenshot showing the close solution setting in the Options dialog box.":::
 
 ### Enable download of author images from third-party sources
 
@@ -205,7 +218,7 @@ When enabled, this setting allows you to `push --force-with-lease` from within V
 For more information, see [push --force-with-lease](https://git-scm.com/docs/git-push#Documentation/git-push.txt---no-force-with-lease).
 
 ### Open folder in Solution Explorer when opening a Git repository
-<!-- todo: write section -->
+
 When you use Visual Studio to open or switch to a Git repository, Visual Studio loads the Git content so that you can view changes, commits, branches, and manage your repository from within the IDE. In addition, Visual Studio will also load the code of the repository in Solution Explorer. Visual Studio will scan the repository folder for solutions, CMakeLists.txt, or any other view files that it recognizes and display them as a list in Solution Explorer. From there, you can select a solution to load or the folder to view the directory contents. When you turn off this checkbox, then Visual Studio will not open the repository folder in Solution Explorer. This will essentially allow you to open Visual Studio as a Git repository manager only. This setting is on by default.
 
 :::image type="content" source="media/open-folder-setting.png" alt-text="Screenshot showing the checkbox to open folder when opening a Git repository in the Options dialog box.":::
@@ -218,10 +231,9 @@ This setting is applicable only when the [Open folder in Solution Explorer when 
 
 ### Automatically check out branches with double-click or the Enter key
 
-The Git Repository window has a list of branches displayed in a tree structure. Single selecting a branch will switch the commit history pane to display the commits for the selected branch. To check out a branch, you can right-click to open the context menu and select **Checkout**. If you turn on this setting, then double-clicking or pressing the Enter key will check out the branch and display its commits. 
-  
-:::image type="content" source="media/checkout-branch-setting.png" alt-text="Screenshot showing the checkbox to check out branches with double-click or Enter key in the Options dialog box.":::
+The Git Repository window has a list of branches displayed in a tree structure. Single selecting a branch will switch the commit history pane to display the commits for the selected branch. To check out a branch, you can right-click to open the context menu and select **Checkout**. If you turn on this setting, then double-clicking or pressing the Enter key will check out the branch and display its commits.
 
+:::image type="content" source="media/checkout-branch-setting.png" alt-text="Screenshot showing the checkbox to check out branches with double-click or Enter key in the Options dialog box.":::
 
 ## See also
 

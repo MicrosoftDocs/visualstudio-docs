@@ -22,6 +22,8 @@ ms.workload:
 ---
 # /Project (devenv.exe)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Identifies a single project within the specified solution configuration to build, clean, rebuild, or deploy.
 
 ## Syntax

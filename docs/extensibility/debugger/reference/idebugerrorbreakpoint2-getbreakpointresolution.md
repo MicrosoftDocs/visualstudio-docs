@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugErrorBreakpoint2::GetBreakpointResolution
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the breakpoint error resolution that describes the error.
 
 ## Syntax
 
-```cpp
-HRESULT GetBreakpointResolution( 
-   IDebugErrorBreakpointResolution2** ppErrorResolution
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetBreakpointResolution( 
    out IDebugErrorBreakpointResolution2 ppErrorResolution
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetBreakpointResolution( 
+   IDebugErrorBreakpointResolution2** ppErrorResolution
+);
+```
+---
 
 ## Parameters
 `ppErrorResolution`\

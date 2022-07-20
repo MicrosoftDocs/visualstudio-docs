@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # CV_CPU_TYPE_e
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the target processor.
 
 > [!NOTE]

@@ -14,6 +14,8 @@ ms.workload:
 ---
 # The objects you are adding to the designer use a different data connection than the designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The objects you are adding to the designer use a different data connection than the designer is currently using. Do you want to replace the connection used by the designer?
 
 When you add items to the **Object Relational Designer** (**O/R Designer**), all items use one shared data connection. (The design surface represents the <xref:System.Data.Linq.DataContext>, which uses a single connection for all objects on the surface.) If you add an object to the designer that uses a data connection that differs from the data connection currently being used by the designer, this message appears. To resolve this error, you can choose to maintain the existing connection. If you make this choice, the selected object will not be added. Alternatively, you can choose to add the object and reset the <xref:System.Data.Linq.DataContext> connection to the new connection.

@@ -20,22 +20,26 @@ dev_langs:
 ---
 # IDebugProgramNode2::GetHostMachineName_V7
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 > [!Note]
 > DEPRECATED. DO NOT USE.
 
 ## Syntax
 
-```cpp
-HRESULT GetHostMachineName_V7 (
-   BSTR* pbstrHostMachineName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetHostMachineName_V7 (
    out string pbstrHostMachineName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetHostMachineName_V7 (
+   BSTR* pbstrHostMachineName
+);
+```
+---
 
 ## Parameters
 

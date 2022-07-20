@@ -21,6 +21,8 @@ ms.technology: vs-ide-general
 ---
 # Dotfuscator Community
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 ***PreEmptive Protection - Dotfuscator*** provides comprehensive .NET application protection that easily fits into your secure software development lifecycle.
 Use it to harden, protect, and prune desktop, mobile, server, and embedded applications to help secure trade secrets and other intellectual property (IP), reduce piracy and counterfeiting, and protect against tampering and unauthorized debugging.
 Dotfuscator works on compiled assemblies without the need for additional programming or even access to source code.
@@ -74,14 +76,6 @@ To begin using Dotfuscator Community from Visual Studio, type `dotfuscator` into
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
-To begin using Dotfuscator Community from Visual Studio, type `dotfuscator` into the **Quick Launch** (Ctrl+Q) search bar.
-
-* If Dotfuscator Community is already installed, **Quick Launch** brings up the *Menu* option to start the Dotfuscator Community user interface. For details, see [the Getting Started page of the full Dotfuscator Community User Guide][get-started].
-* If Dotfuscator Community is not yet installed, **Quick Launch** brings up the relevant *Install* option. See the [Installation page][install] for details.
-
-::: moniker-end
 
 You can also get the **latest version** of Dotfuscator Community from [the Dotfuscator Downloads page on preemptive.com][download].
 

@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPendingBreakpoint2::GetState
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the state of the pending breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT GetState( 
-   PENDING_BP_STATE_INFO* pState
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetState( 
    PENDING_BP_STATE_INFO[] pState
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetState( 
+   PENDING_BP_STATE_INFO* pState
+);
+```
+---
 
 ## Parameters
 `pState`\

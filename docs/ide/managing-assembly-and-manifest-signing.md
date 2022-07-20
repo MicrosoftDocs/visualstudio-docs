@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Manage assembly and manifest signing
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Strong-name signing gives a software component a globally unique identity. Strong names are used to guarantee that the assembly cannot be spoofed by someone else, and to make sure that component dependencies and configuration statements map to the correct component and component version.
 
 A strong name consists of the assembly's identity (simple text name, version number, and culture information), plus a public key token and a digital signature.

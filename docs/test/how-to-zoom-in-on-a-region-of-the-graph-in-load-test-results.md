@@ -17,6 +17,8 @@ ms.technology: vs-ide-test
 ---
 # How to: Zoom in on a region of the graph in load test results
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 After a load test has finished, you can use zoom bars to zoom in and scroll to a region of the graph. By zooming in, you can examine the data that was generated during a load test run in finer detail.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]

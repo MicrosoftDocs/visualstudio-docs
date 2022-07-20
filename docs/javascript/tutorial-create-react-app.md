@@ -1,7 +1,7 @@
 ---
 title: "Create a React app"
 description: In this tutorial, learn how to create a simple React application in Visual Studio.
-ms.date: 07/30/2021
+ms.date: 06/17/2022
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
@@ -17,19 +17,21 @@ monikerRange: '>= vs-2022'
 ---
 # Create a React app
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you create and run a simple React frontend web application.
 
 ## Prerequisites
 
-Make sure to have the following installed:
+Make sure to install the following:
 
-- Visual Studio 2022 Preview 2 or later. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
-- npm ([https://www.npmjs.com/](https://www.npmjs.com/)) 
+- Visual Studio 2022 or later. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+- npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
 - npx ([https://www.npmjs.com/package/npx](https://www.npmjs.com/package/npx))
 
 ## Create your app
 
-1. In the New Project Dialog, select **Create a new project**.
+1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Create a new project":::
 
@@ -41,7 +43,7 @@ Make sure to have the following installed:
 
    If you previously selected Standalone JavaScript React Template, when you get to the Additional information window be sure NOT to check the **Add integration for Empty ASP.NET Web API Project** option. This option adds files to your React template so that it can be hooked up with the ASP.NET Core project, if an ASP.NET Core project is added.
 
-   :::image type="content" source="media/vs-2022/react-additional-info.png" alt-text="Additional information":::
+   :::image type="content" source="media/vs-2022/react-additional-info-no-integration.png" alt-text="Additional information":::
 
    Please note that creation of the React project takes a moment because the create-react-app command that runs at this time also runs the npm install command
 
@@ -59,8 +61,18 @@ Choose **Build** > **Build Solution**  to build the project.
 
 ## Start Your Project
 
-Press **F5** or select the **Start** button at the top of the window. You see a command prompt appear:
+Press **F5** or select the **Start** button at the top of the window, and you'll see a command prompt:
 
 - npm running the react-scripts start command
 
+>[!NOTE]
+> Check console output for messages, such as a message instructing you to update your version of Node.js.
+
 Next, you should see the base React app appear!
+
+## Next steps
+
+For ASP.NET Core integration:
+
+> [!div class="nextstepaction"]
+> [Create an ASP.NET Core app with React](tutorial-asp-net-core-with-react.md)

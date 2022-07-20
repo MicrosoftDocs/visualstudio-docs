@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Hierarchies and selection
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you customize [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], you should understand how [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] handles hierarchies such as projects and how it uses selection context to determine what is displayed to the user. This section discusses the concepts of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] hierarchies and selection.
 
 ## In this section

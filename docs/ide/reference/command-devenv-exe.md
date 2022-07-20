@@ -18,6 +18,8 @@ ms.workload:
 ---
 # /Command (devenv.exe)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Executes the specified command after launching the Visual Studio IDE.
 
 ## Syntax
@@ -36,11 +38,6 @@ Required. The complete name of a Visual Studio command or its alias, enclosed in
 
 After startup is complete, the IDE executes the named command.
 
-::: moniker range="vs-2017"
-
-If you use this switch, the IDE doesn't display the Start Page on startup.
-
-::: moniker-end
 
 If an add-in exposes a command, you can use this switch to launch the add-in from the command line. For more information, see [How to: Control add-ins by using the add-in manager](/previous-versions/xwdatdwh(v=vs.140)).
 

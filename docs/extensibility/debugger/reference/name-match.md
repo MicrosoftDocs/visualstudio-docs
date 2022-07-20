@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # NAME_MATCH
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Selects the case option for matching names.
 
 ## Syntax
 
-```cpp
-typedef enum { 
-   nmNone            = 0,
-   nmCaseSensitive   = 1,
-   nmCaseInsensitive = 2
-} NAME_MATCH;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public enum NameMatchOptions { 
    nmNone            = 0,
@@ -38,6 +33,15 @@ public enum NameMatchOptions { 
    nmCaseInsensitive = 2
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef enum { 
+   nmNone            = 0,
+   nmCaseSensitive   = 1,
+   nmCaseInsensitive = 2
+} NAME_MATCH;
+```
+---
 
 ## Fields
  `nmNone`\

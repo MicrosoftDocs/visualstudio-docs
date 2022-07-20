@@ -23,6 +23,8 @@ ms.workload:
   - "office"
 ---
 # Properties in Office projects
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   There are several important properties that are available to Office projects in Visual Studio. These properties can be accessed in the **Properties** window.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

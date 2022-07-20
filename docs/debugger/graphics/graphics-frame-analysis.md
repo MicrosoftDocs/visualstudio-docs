@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # Graphics Frame Analysis
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and optimize the rendering performance of your Direct3D game or app.
 
 ## Frame analysis
@@ -28,8 +30,6 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
   In addition to these advantages, frame analysis can also make changes to how the frame is rendered during playback so that it can present information about how those changes might impact the rendering performance of an app. You can use this information to decide among potential optimization strategies without having to implement them all and then capture and compare all of the results yourself.
 
   Although frame analysis is primarily intended to help you achieve faster rendering performance, it can equally help you achieve better visual quality for a given performance target or reduce GPU power consumption.
-
-  To see a demonstration of what Frame Analysis can do for your app, you can watch the [Visual Studio Graphics Frame Analysis](https://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-25-Offline-Analysis-Graphics-Tool) video on Channel 9.
 
 ## Using Frame Analysis
  Before you can use Frame Analysis, you have to capture graphics information from your app as it runs, just as you would when you use any of the other Graphics Analyzer tools. Then, in the graphics log document (.vsglog) window, choose the **Frame Analysis** tab.

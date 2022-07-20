@@ -2,7 +2,7 @@
 title: Settings Page, Project Designer
 description: Learn how to use the Settings page of the Project Designer to specify a project's application settings.
 ms.custom: SEO-VS-2020
-ms.date: 06/14/2018
+ms.date: 04/25/2022
 ms.topic: reference
 f1_keywords:
 - ApplicationSettingsOverview
@@ -18,9 +18,28 @@ ms.workload:
 ---
 # Settings page, Project Designer
 
-Use the **Settings** page of the Project Designer to specify a project's application settings. Application settings enable you to store and retrieve property settings and other information for your application dynamically. They also enable you to maintain custom application and user preferences on a client computer. For more information, see [Manage application settings](../managing-application-settings-dotnet.md).
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-To access the **Settings** page, select a project node in **Solution Explorer**, and then select **Project** > **Properties**. When the Project Designer appears, select the **Settings** tab.
+Use the **Settings** page of the [Project Designer](project-properties-reference.md) to specify a project's application settings. Application settings enable you to store and retrieve property settings and other information for your application dynamically. They also enable you to maintain custom application and user preferences on a client computer. For more information, see [Manage application settings](../managing-application-settings-dotnet.md).
+
+To access the **Settings** page, select a [project node](../use-solution-explorer.md#tool-window) in **Solution Explorer**, and then use the right-click context menu to select **Properties**. When the Project Designer appears, select the **Settings** tab.
+
+::: moniker range="vs-2022"
+
+In **Settings** tab, you'll see a **Create or open application settings** link.
+
+:::image type="content" source="media/vs-2022/project-properties-designer-settings-create-dialog.png" alt-text="Screenshot of the Settings tab in the Project Designer for a WPF project in Visual Studio 2022, where you click a link to dynamically generate the Settings dialog.":::
+
+Select the **Create or open application settings** link to open a Settings page in the Project Designer.
+
+:::image type="content" source="media/vs-2022/project-properties-designer-settings.png" alt-text="Screenshot of the Settings tab in the Project Designer for a WPF project in Visual Studio 2022.":::
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+:::image type="content" source="media/vs-2019/project-properties-designer-settings.png" alt-text="Screenshot of the Settings tab in the Project Designer for a WPF project in Visual Studio 2019.":::
+::: moniker-end
+
 
 ## Header bar
 

@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Walkthrough: Create a realistic 3D billiard ball
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This walkthrough demonstrates how to create a realistic 3D billiard ball by using the Shader Designer and Image Editor in Visual Studio. The 3D appearance of the billiard ball is achieved by combining several shader techniques with appropriate texture resources.
 
 ## Prerequisites

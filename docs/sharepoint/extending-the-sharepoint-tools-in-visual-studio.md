@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Extend the SharePoint tools in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The SharePoint tools in Visual Studio meet the requirements of many application development scenarios. However, you might discover cases where they do not provide functionality that you or other developers require. In these cases, you can extend the SharePoint tools to create the functionality that you need.
 
 ## How to extend the SharePoint tools

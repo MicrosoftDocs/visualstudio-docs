@@ -18,6 +18,8 @@ ms.technology: vs-ide-test
 ---
 # Assign roles to a test controller and test agent
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This article demonstrates how to create and configure a test setting that uses a test controller and test agent to distribute testing across several machines using Visual Studio. It also demonstrates how to add diagnostic and data adapters to the test setting.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
@@ -92,11 +94,6 @@ This article demonstrates how to create and configure a test setting that uses a
 
 7. Choose **Close**.
 
-::: moniker range="vs-2017"
-
-8. On the **Test** menu, select **Test Settings** > **Select Test Settings File** and then choose the *TestSettingDistributedTestWalkthrough.testsettings* file.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram2::Execute
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Continues running this program from a stopped state. Any previous execution state (such as a step) is cleared, and the program starts executing again.
 
 > [!NOTE]
@@ -26,15 +28,17 @@ Continues running this program from a stopped state. Any previous execution stat
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Execute();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Execute(
    void
 );
 ```
-
-```csharp
-int Execute();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugBreakpointEvent2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The debug engine (DE) sends this interface to the session debug manager (SDM) when a program stops at a breakpoint.
 
 ## Syntax

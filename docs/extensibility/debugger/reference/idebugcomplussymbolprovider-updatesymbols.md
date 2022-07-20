@@ -18,18 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::UpdateSymbols
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Updates the debug symbols in memory with those from the specified data stream.
 
 ## Syntax
 
-```cpp
-HRESULT UpdateSymbols (
-    ULONG32  ulAppDomainID,
-    GUID     guidModule,
-    IStream* pUpdateStream
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int UpdateSymbols (
     uint    ulAppDomainID,
@@ -37,6 +32,15 @@ int UpdateSymbols (
     IStream pUpdateStream
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT UpdateSymbols (
+    ULONG32  ulAppDomainID,
+    GUID     guidModule,
+    IStream* pUpdateStream
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

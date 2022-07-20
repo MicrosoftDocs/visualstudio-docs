@@ -28,6 +28,8 @@ ms.workload:
   - "dotnet"
 ---
 # Create custom views of managed objects (C#, Visual Basic, F#, C++/CLI)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can customize the way Visual Studio displays data types in debugger variable windows.
 
 ## Attributes

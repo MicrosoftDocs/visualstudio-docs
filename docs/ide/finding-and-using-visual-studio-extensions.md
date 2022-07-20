@@ -2,7 +2,7 @@
 title: Find and install extensions
 description: Learn about extensions in Visual Studio and how to manage them so you have the controls, samples, templates, tools, and other components you need.
 ms.custom: SEO-VS-2020
-ms.date: 08/30/2021
+ms.date: 06/17/2022
 ms.topic: conceptual
 f1_keywords:
 - vs.ExtensionManager
@@ -20,19 +20,22 @@ ms.workload:
 ---
 # Manage extensions for Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Extensions are code packages that run inside Visual Studio and provide new or improved features. Extensions may be controls, samples, templates, tools, or other components that add functionality to Visual Studio, for example, [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs) or [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.VSIntelliCode).
+
+::: moniker range="vs-2022"
+
+For information about creating Visual Studio extensions, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md). For information about using extensions, see the individual extension page on [Visual Studio Marketplace](https://marketplace.visualstudio.com). And for information about finding extensions, see the [Where Are My Favorite Extensions in Visual Studio 2022?](https://devblogs.microsoft.com/visualstudio/where-are-my-favorite-extensions-in-visual-studio-2022/) blog post.
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
 
 For information about creating Visual Studio extensions, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md). For information about using extensions, see the individual extension page on [Visual Studio Marketplace](https://marketplace.visualstudio.com).
 
-::: moniker range="vs-2017"
-
-## Extensions and Updates dialog box
-
-Use the **Extensions and Updates** dialog box to install and manage Visual Studio extensions. To open the **Extensions and Updates** dialog, choose **Tools** > **Extensions and Updates**, or type **Extensions** in the **Quick Launch** search box.
-
-![Extensions window in Visual Studio](media/finding-using-visual-studio-extensions/extensions-and-updates.png)
-
 ::: moniker-end
+
 
 ::: moniker range=">=vs-2019"
 
@@ -48,29 +51,6 @@ The pane on the left categorizes extensions by those that are installed, those a
 
 ## Find and install extensions
 
-::: moniker range="vs-2017"
-
-You can install extensions from [Visual Studio Marketplace](https://marketplace.visualstudio.com) or the Extensions and Updates dialog box in Visual Studio.
-
-To install extensions from within Visual Studio:
-
-1. From **Tools** > **Extensions and Updates**, find the extension you want to install. If you know the name or part of the name of the extension, you can search in the **Search** window.
-
-2. Select **Download**.
-
-   The extension is scheduled for install. Your extension will be installed after all instances of Visual Studio have been closed.
-
-If you try to install an extension that has dependencies, the installer verifies whether they're already installed. If they aren't installed, the **Extensions and Updates** dialog box lists the dependencies that must be installed before you can install the extension.
-
-### Install without using the Extensions and Updates dialog box
-
-Extensions that have been packaged in *.vsix* files may be available in locations other than Visual Studio Marketplace. The **Tools** > **Extensions and Updates** dialog box can't detect these files, but you can install a *.vsix* file by double-clicking the file or selecting the file and pressing **Enter**. After that, just follow the instructions. When the extension is installed, you can use the **Extensions and Updates** dialog box to enable it, disable it, or uninstall it.
-
-> [!NOTE]
-> - Visual Studio Marketplace contains both VSIX and MSI extensions. The Extensions and Updates dialog box can't enable or disable MSI-based extensions.
-> - If an MSI-based extension includes an *extension.vsixmanifest* file, the extension appears in the **Extensions and Updates** dialog box.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -123,13 +103,6 @@ Extensions are updated automatically when a new version is available on Visual S
 
 If you wish to disable automatic updates, you can disable the feature for all extensions or only for specific extensions.
 
-::: moniker range="vs-2017"
-
-- To disable automatic updates for all extensions, choose the **Change your Extensions and Updates settings** link in the **Tools** > **Extensions and Updates** dialog box. In the **Options** dialog, uncheck **Automatically update extensions**.
-
-- To disable automatic updates for a specific extension, uncheck the **Automatically update this extension** option in the extension's details pane on the right side of the **Extensions and Updates** dialog.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -147,11 +120,6 @@ Visual Studio also notifies you if it suspects an extension is causing the UI to
 
 When these notifications are shown, you can ignore the notification or take one of the following actions:
 
-::: moniker range="vs-2017"
-
-- Choose **Disable this extension**. Visual Studio disables the extension and lets you know whether you need to restart your system for the disabling to take effect. You can re-enable the extension in the **Tools** > **Extensions and Updates** dialog box if you want.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -179,11 +147,6 @@ When you install an online sample, the solution is stored in two locations:
 
 - A separate master copy is stored on your computer.
 
-::: moniker range="vs-2017"
-
-You can use the **Tools** > **Extensions and Updates** dialog box to perform these samples-related tasks:
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -205,5 +168,5 @@ You can use the **Extensions** > **Manage Extensions** dialog box to perform the
 
 ## See also
 
-- [Visual Studio Marketplace](https://marketplace.visualstudio.com)
+- [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs)
 - [Visual Studio SDK](../extensibility/visual-studio-sdk.md)

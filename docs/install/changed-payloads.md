@@ -13,6 +13,8 @@ ms.technology: vs-installation
 ---
 # Package payload changes
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Some package payloads are allowed to change after a release has already shipped. When you or someone else creates a layout, this behavior might result in different layout content, depending on when a layout was created.
 
 ## Verify that a layout includes package payload changes

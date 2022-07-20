@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject::SetReferenceValue
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the reference value of this object.
 
 ## Syntax
 
-```cpp
-HRESULT SetReferenceValue( 
-   IDebugObject* pObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetReferenceValue(
    [In] IDebugObject pObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetReferenceValue( 
+   IDebugObject* pObject
+);
+```
+---
 
 ## Parameters
 `pObject`\

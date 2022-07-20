@@ -17,32 +17,22 @@ ms.workload:
 ---
 # Tutorial: Create a simple application with C\#
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 By completing this tutorial, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment ([IDE](visual-studio-ide.md)).
 
 ## Prerequisites
 
-::: moniker range="vs-2017"
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?) page to install it for free.
-::: moniker-end
 ::: moniker range=">=vs-2019"
 
 - If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+- Make sure the **.NET desktop development** workload is installed. You can verify this in the Visual Studio Installer. 
 - You can use either .NET Framework or .NET Core for this tutorial. .NET Core is the newer, more modern framework. .NET Core requires Visual Studio 2019 version 16.3 or later.
+
 ::: moniker-end
 
 ## Configure the IDE
 
-::: moniker range="vs-2017"
-
-When you open Visual Studio for the first time, you'll be prompted to sign in. This step is optional for this tutorial. Next you may be shown a dialog box that asks you to choose your development settings and color theme. Keep the defaults and choose **Start Visual Studio**.
-
-![Choose settings dialog box](../media/exploreide-settings.png)
-
-After Visual Studio launches, you'll see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window, with **Quick Launch**, the menu bar, and the standard toolbar at the top. In the center of the application window is the **Start Page**. When you load a solution or project, editors and designers appear in the space where the **Start Page** is. When you develop an application, you'll spend most of your time in this central area.
-
-![Visual Studio 2017 IDE with General Settings applied](../media/exploreide-idewithgeneralsettings.png "Screenshot of the Visual Studio 2017 IDE with General Settings applied")
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -54,17 +44,6 @@ When you launch Visual Studio, the start window opens first. Select **Continue w
 
 When you create an application in Visual Studio, you first create a project and a solution. For this example, you'll create a Windows Presentation Foundation (WPF) project.
 
-::: moniker range="vs-2017"
-
-1. Create a new project. On the menu bar, select **File** > **New** > **Project**.
-
-     ![On the menu bar, choose File, New, Project](../media/exploreide-filenewproject.png "Screenshot showing the Visual Studio menu bar where you choose File, New, Project.")
-
-1. In the **New Project** dialog, select the **Installed** > **Visual C#** > **Windows Desktop** category, and then select the **WPF App (.NET Framework)** template. Name the project **HelloWPFApp**, and select **OK**.
-
-     ![WPF app template in Visual Studio New Project dialog](media/exploreide-newprojectcsharp.png "Screenshot of the WPF App template in the New Project dialog.")
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -72,7 +51,7 @@ When you create an application in Visual Studio, you first create a project and 
 
 1. On the start window, choose **Create new project**.
 
-   ![View the 'Create a new project' window](../../get-started/media/vs-2019/start-window-create-new-project.png "Screenshot of the start window in Visual Studio 2022 with the 'Create a new project' option highlighted.")
+   ![View the 'Create a new project' window](../../get-started/media/vs-2019/start-window-create-new-project.png "Screenshot of the start window in Visual Studio 2019 with the 'Create a new project' option highlighted.")
 
 1. On the **Create a new project** screen, search for "WPF," choose **WPF Application**, and then choose **Next**.
 
@@ -115,9 +94,9 @@ After you create the project, you can customize it. To do so, choose **Propertie
 
    :::image type="content" source="media/vs-2022/explore-ide-name-project.png" alt-text="Screenshot of the 'Configure your new project' dialog with 'HelloWPFApp' entered in the Project name field.":::
 
-1. In the **Additional information** window, **.NET 6.0** should already be selected for your target framework. If not, select **.NET 6.0**. Then, choose **Create**.
+1. In the **Additional information** window, **.NET 6.0 (Long-term support)** should already be selected for your target framework. If not, select **.NET 6.0 (Long-term support)**. Then, choose **Create**.
 
-   :::image type="content" source="media/vs-2022/wpf-target-framework.png" alt-text="In the 'Screenshot of the Additional information window with '.NET 6.0' selected in the Framework field.":::
+   :::image type="content" source="media/vs-2022/wpf-target-framework.png" alt-text="In the 'Screenshot of the Additional information window with '.NET 6.0 (Long-term support)' selected in the Framework field.":::
 
 Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view.
 
@@ -132,19 +111,15 @@ After you create the project, you can customize it. To do so, choose **Propertie
 
 ::: moniker-end
 
-### Change the name of MainWindow.xaml
-
-Let's give MainWindow a more specific name. In **Solution Explorer**, right-click on *MainWindow.xaml* and choose **Rename**. Rename the file to *Greetings.xaml*.
-
 ## Design the user interface (UI)
 
-If the designer is not open, select *Greetings.xaml* and press **Shift**+**F7** to open the designer.
+If the designer is not open, select *MainWindow.xaml* and press **Shift**+**F7** to open the designer.
 
 We'll add three types of controls to this application: a <xref:System.Windows.Controls.TextBlock> control, two <xref:System.Windows.Controls.RadioButton> controls, and a <xref:System.Windows.Controls.Button> control.
 
 ### Add a TextBlock control
 
-::: moniker range="vs-2019"
+::: moniker range="<=vs-2019"
 
 1. Press **Ctrl**+**Q** to activate the search box and type **Toolbox**. Choose **View > Toolbox** from the results list.
 
@@ -156,7 +131,7 @@ We'll add three types of controls to this application: a <xref:System.Windows.Co
 
     Your window should resemble the following illustration:
 
-    ![TextBlock control on the Greetings form](../media/exploreide-greetingswithtextblockonly.png "Screenshot of the TextBlock control on the design surface of the Greetings form.")
+    ![TextBlock control on the MainWindow form](media/explore-ide-window-with-textblock-only.png "Screenshot of the TextBlock control on the design surface of the MainWindow form.")
 
    The XAML markup should look something like the following example:
 
@@ -210,7 +185,7 @@ Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) c
 
 ### Add radio buttons
 
-::: moniker range="vs-2019"
+::: moniker range="<=vs-2019"
 
 1. In the **Toolbox**, find the **RadioButton** control.
 
@@ -220,7 +195,7 @@ Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) c
 
    Your window should look like this:
 
-   ![Greetings form with TextBlock and two radio buttons](../media/exploreide-greetingswithradiobuttons.png "Screenshot of the Design window for Greetings.xaml, showing a TextBlock control and two RadioButton controls positioned on the design surface.")
+   ![MainWindow form with TextBlock and two radio buttons](media/explore-ide-window-with-radio-buttons.png "Screenshot of the Design window for MainWindow.xaml, showing a TextBlock control and two RadioButton controls positioned on the design surface.")
 
 1. In the **Properties** window for the left RadioButton control, change the **Name** property (the property at the top of the **Properties** window) to `HelloButton`.
 
@@ -288,7 +263,7 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
 
 ### Add the button control
 
-::: moniker range="vs-2019"
+::: moniker range="<=vs-2019"
 
 1. In the **Toolbox**, find the **Button** control, and then add it to the design surface under the RadioButton controls by dragging it to the form in the design view. If you're using Visual Studio 2019 or later, a red line helps you center the control.
 
@@ -296,7 +271,7 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
 
      Your window should resemble the following illustration.
 
-     ![Greetings form with control labels](media/exploreide-greetingswithcontrollabels-cs.png "Screenshot of the Design window for Greetings.xaml showing a TextBlock control, two RadioButton controls labeled 'Hello' and 'Goodbye', and a button labeled 'Display'.")
+     ![MainWindow form with control labels](media/explore-ide-window-with-control-labels-cs.png "Screenshot of the Design window for MainWindow.xaml showing a TextBlock control, two RadioButton controls labeled 'Hello' and 'Goodbye', and a button labeled 'Display'.")
 
    The XAML markup should now look similar to the following example:
 
@@ -336,13 +311,13 @@ The final UI element that you'll add is a [Button](/dotnet/framework/wpf/control
 
 ### Add code to the display button
 
-::: moniker range="vs-2019"
+::: moniker range="<=vs-2019"
 
-When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the `Button_Click` event in *Greetings.xaml.cs*.
+When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the `Button_Click` event in *MainWindow.xaml.cs*.
 
 1. On the design surface, double-click the **Display** button.
 
-     *Greetings.xaml.cs* opens, with the cursor in the `Button_Click` event.
+     *MainWindow.xaml.cs* opens, with the cursor in the `Button_Click` event.
 
     ```csharp
     private void Button_Click(object sender, RoutedEventArgs e)
@@ -370,11 +345,11 @@ When this application runs, a message box appears after a user chooses a radio b
 
 ::: moniker range=">=vs-2022"
 
-When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the `Button_Click` event in *Greetings.xaml.cs*.
+When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box will appear for Hello, and another will appear for Goodbye. To create this behavior, you'll add code to the `Button_Click` event in *MainWindow.xaml.cs*.
 
 1. On the design surface, double-click the **Display** button.
 
-     *Greetings.xaml.cs* opens, with the cursor in the `Button_Click` event.
+     *MainWindow.xaml.cs* opens, with the cursor in the `Button_Click` event.
 
     ```csharp
     private void Button_Click(object sender, RoutedEventArgs e)
@@ -404,13 +379,16 @@ When this application runs, a message box appears after a user chooses a radio b
 
 Next, you'll debug the application to look for errors and test that both message boxes appear correctly. The following instructions tell you how to build and launch the debugger, but later you might read [Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf) and [Debug WPF](../../debugger/debugging-wpf.md) for more information.
 
+### Change the name of MainWindow.xaml
+Let's give MainWindow a more specific name. In **Solution Explorer**, right-click on *MainWindow.xaml* and choose **Rename**. Rename the file to *Greetings.xaml*.
+
 ### Find and fix errors
 
 In this step, you'll find the error that we caused earlier by changing the name of the *MainWindow.xaml* file.
 
 #### Start debugging and find the error
 
-::: moniker range="vs-2019"
+::: moniker range="<=vs-2019"
 
 1. Start the debugger by pressing **F5** or selecting **Debug**, then **Start Debugging**.
 
@@ -420,7 +398,7 @@ In this step, you'll find the error that we caused earlier by changing the name 
 
 1. Stop the debugger by choosing **Debug** > **Stop Debugging**.
 
-We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this tutorial, but the code still refers to *MainWindow.xaml* as the startup URI for the application, so the project can't start.
+We renamed *MainWindow.xaml* to *Greetings.xaml*, but the code still refers to *MainWindow.xaml* as the startup URI for the application, so the project can't start.
 
 ::: moniker-end
 
@@ -437,6 +415,7 @@ We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this tutorial, 
 We renamed *MainWindow.xaml* to *Greetings.xaml* at the start of this tutorial, but the code still refers to *MainWindow.xaml* as the startup URI for the application, so the project can't start.
 
 ::: moniker-end
+
 #### Specify Greetings.xaml as the startup URI
 
 1. In **Solution Explorer**, open the *App.xaml* file.
@@ -451,9 +430,6 @@ As an optional step, it will avoid confusion to change the title of your applica
 
 Start the debugger again (press **F5**). You should now see the **Greetings** window of your application.
 
-::: moniker range="vs-2017"
-![Screenshot of running app](media/exploreide-wpf-running-app.png "Screenshot of the Greetings window with the TextBlock, RadioButtons, and Button controls visible. The 'Hello' radio button is selected.")
-::: moniker-end
 ::: moniker range="vs-2019"
 ![Screenshot of running app](media/vs-2019/exploreide-wpf-running-app.png "Screenshot of the Greetings window with the TextBlock, RadioButtons, and Button controls visible. The 'Hello' radio button is selected.")
 ::: moniker-end

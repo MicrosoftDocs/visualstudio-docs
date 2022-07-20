@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: In this tutorial, you create an app using ASP.NET Core and Vue
-ms.date: 09/28/2021
+ms.date: 06/17/2022
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -16,6 +16,8 @@ monikerRange: '>= vs-2022'
 ---
 # Tutorial: Create an ASP.NET Core app with Vue in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this article, you learn how to build an ASP.NET Core project to act as an API backend and a Vue project to act as the UI.
 
 Currently, Visual Studio includes ASP.NET Core Single Page Application (SPA) templates that support Angular, React, and Vue. The templates provide a built in Client App folder in your ASP.NET Core projects that contains the base files and folders of each framework.
@@ -25,18 +27,21 @@ Starting in Visual Studio 2022 Preview 2, you can use the method described in th
 - Put the client app in a separate project, outside from the ASP.NET Core project
 - Create the client project based on the framework CLI installed on your computer
 
+> [!NOTE]
+> Currently, the front-end project must be published manually (not currently supported with the Publish tool). For additional information, see [https://github.com/MicrosoftDocs/visualstudio-docs/issues/7135](https://github.com/MicrosoftDocs/visualstudio-docs/issues/7135).
+
 ## Prerequisites
 
-Make sure to have the following installed:
+Make sure to install the following:
 
 - Visual Studio 2022 Preview 2 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
-- npm ([https://www.npmjs.com/](https://www.npmjs.com/)) 
+- npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
 - Vue CLI ([https://cli.vuejs.org/](https://cli.vuejs.org/))  
 
 ## Create the frontend app
 
-1. In the New Project Dialog, select **Create a new project**. 
+1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**. 
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Create a new project":::
 
@@ -57,9 +62,9 @@ Once the project is created, you see some new and modified files:
 
 ## Create the backend app
 
-1. In Solution Explorer, right-click the solution name, hover over **Add**, and then select **New Project**. 
+1. In Solution Explorer, right-click the solution name, hover over **Add**, and then select **New Project**.
 
-   :::image type="content" source="media/vs-2022/asp-net-core-add-project.png" alt-text="Add a new project":::
+   :::image type="content" source="media/vs-2022/asp-net-core-with-vue-add-project.png" alt-text="Add a new project":::
 
 1. Search and select the ASP.NET Core Web API project.
  
@@ -96,13 +101,12 @@ Once the project is created, you see some new and modified files:
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-vue-deselect-launch-browser.png" alt-text="Open debug launch profiles UI"::: 
 
-1. Next, right-click the Vue project and select the **Properties** menu and go the **Debugging** section. Change the Debugger to launch to the **launch.json** option.
- 
-   :::image type="content" source="media/vs-2022/asp-net-core-with-vue-choose-debugger.png" alt-text="Choose the debugger (launch.json)":::
+   >[!NOTE]
+   > Currently, *launch.json* must be located under the *.vscode* folder.
 
 ## Set the startup project
 
-1. Right-click the solution and select **Set Startup Project**. Change the startup project from Single startup project to **Multiple startup projects**. Select **Start** for each project’s action.
+1. In Solution Explorer, right-click the solution name and select **Set Startup Project**. Change the startup project from Single startup project to **Multiple startup projects**. Select **Start** for each project’s action.
   
 1. Next, select the backend project and move it above the frontend, so that it starts up first.
 
@@ -110,14 +114,29 @@ Once the project is created, you see some new and modified files:
 
 ## Start the project
 
-Press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
+1. Before you start the project, make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
 
-- The ASP.NET Core API project running
-- The Vue CLI running the vue-cli-service serve command
+   If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It should look similar to `https://localhost:5001`.
 
-You should see an Vue app appear, that is populated via the API.
+1. Then, go to the *vue.config.js* file for your Vue project. Update the target property to match the `applicationUrl` property in  *launchSettings.json*. When you update it, that value should look similar to this:
+
+   ```js
+   target: 'https://localhost:5001',
+   ```
+
+1. To start the project, press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
+
+   - The ASP.NET Core API project running
+   - The Vue CLI running the vue-cli-service serve command
+
+   >[!NOTE]
+   > Check console output for messages, such as a message instructing you to update your version of Node.js.
+
+You should see the Vue app appear, that is populated via the API.
 
 ## Troubleshooting
+
+### Proxy error
 
 You may see the following error:
 
@@ -126,3 +145,26 @@ You may see the following error:
 ```
 
 If you see this issue, most likely the frontend started before the backend. Once you see the backend command prompt up and running, just refresh the Vue app in the browser.
+
+Otherwise, if the port is in use, try 5002 in *launchSettings.json* and *vue.config.js*.
+
+### Outdated version of Vue
+
+If you see the console message **Could not find the file 'C:\Users\Me\source\repos\vueprojectname\package.json'** when you create the project, you may need to update your version of the Vue CLI. After you update the Vue CLI, you may also need to delete the *.vuerc* file in *C:\Users\\[yourprofilename\]*.
+
+### Docker
+
+If you enable Docker support while creating the web API project, the backend may start up using the Docker profile and not listen on the configured port 5001. To resolve:
+
+Edit the Docker profile in the launchSettings.json by adding the following properties:
+
+```json
+"httpPort": 5003, 
+"sslPort": 5001  
+```
+
+Alternatively, reset using the following method:
+
+1. In the Solution properties, set your backend app as the startup project.
+1. In the Debug menu, switch the profile using the **Start** button drop-down menu to the profile for your backend app.
+1. Next, in the Solution properties, reset to multiple startup projects.

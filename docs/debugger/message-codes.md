@@ -15,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Message Codes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Each message line shown in [Messages View](../debugger/messages-view.md) contains a 'P,' 'S,' 's,' or 'R' code. These codes have the following meanings:
 
 |Code|Meaning|

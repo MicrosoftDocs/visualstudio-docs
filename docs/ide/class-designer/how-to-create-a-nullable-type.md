@@ -20,6 +20,8 @@ ms.workload:
 ---
 # How to: Create a nullable type in Class Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Certain value types do not always have (or need) a defined value. This is common practice in databases, where some fields might not be assigned any value. For example, you might assign a null value to a database field to signify that it has not yet been assigned a value.
 
 A *nullable type* is a value type that you extend so that it takes the typical range of values for that type and also a null value. For example, a nullable of `Int32`, also denoted as Nullable\<Int32>, can be assigned any value from -2147483648 to 2147483647, or it can be assigned a null value. A Nullable\<bool> can be assigned the values `True`, `False`, or null (no value at all).
@@ -61,6 +63,7 @@ For more information about nullable types in C#, see [Nullable Types](/dotnet/cs
 
 2. In the .cs or .vb file for the new class, add one or more nullable types in the new class to the class declaration.
 
+    ### [C#](#tab/csharp)
     ```csharp
     // Declare a nullable type in Visual C#:
     class Test
@@ -69,12 +72,14 @@ For more information about nullable types in C#, see [Nullable Types](/dotnet/cs
     }
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     ' Declare a nullable type in Visual Basic:
     Class Test
        Dim buildingNumber As Nullable(Of Integer) = 5
     End Class
     ```
+    ---
 
 3. From Class View, drag the new class icon to the Class Designer design surface. A class shape appears in the class diagram.
 

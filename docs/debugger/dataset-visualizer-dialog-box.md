@@ -24,6 +24,8 @@ ms.workload:
   - "multiple"
 ---
 # Dataset Visualizer Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The DataSet Visualizer allows you to view the contents of a DataSet, DataTable, DataView, or DataViewManager object. You can access this visualizer by clicking on the magnifying glass icon that appears next to the Value for one of those objects in a debugger variables window or in a DataTip.
 
  You can make changes to the objects in this visualizer. Changes will be saved as soon as you commit a row.

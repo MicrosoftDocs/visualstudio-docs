@@ -16,6 +16,8 @@ ms.technology: vs-ide-general
 ---
 # Project and item templates
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Project and item templates provide reusable stubs that give users some basic code and structure, that they can customize for their own purposes.
 
 ## Visual Studio templates
@@ -32,11 +34,6 @@ All project and item templates, whether installed with Visual Studio or created 
 
 - The files to be created when the template is used. These files include source code files, embedded resources, project files, and so on.
 
-::: moniker range="vs-2017"
-
-- A *.vstemplate* file, which contains the metadata needed to create a project or item from the template and to display the template in the **New Project** and **Add New Item** windows.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -48,11 +45,6 @@ All project and item templates, whether installed with Visual Studio or created 
 
 When these files are compressed into a *.zip* file and put in the correct folder, Visual Studio automatically displays them in the following places:
 
-::: moniker range="vs-2017"
-
-- Project templates appear in the **New Project** window.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

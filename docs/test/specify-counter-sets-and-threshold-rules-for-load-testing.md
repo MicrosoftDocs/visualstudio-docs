@@ -19,6 +19,8 @@ ms.technology: vs-ide-test
 ---
 # Specify counter sets and threshold rules for computers in a load test
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Load tests provide named counter sets that are useful when you analyze performance counter data. The counter sets are organized by technology and include Application, ASP.NET, .NET Application, IIS, and SQL. When you create a load test by using the **New Load Test Wizard**, you add an initial set of counters. These offer you a set of predefined and important counter sets for your load test. You manage your counters in the **Load Test Editor**.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]

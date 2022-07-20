@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugBreakpointRequest2::GetLocationType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the breakpoint location type of this breakpoint request.
 
 ## Syntax
 
-```cpp
-HRESULT GetLocationType(
-    BP_LOCATION_TYPE* pBPLocationType
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetLocationType(
     out enum_BP_LOCATION_TYPE pBPLocationType
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetLocationType(
+    BP_LOCATION_TYPE* pBPLocationType
+);
+```
+---
 
 ## Parameters
 `pBPLocationType`\

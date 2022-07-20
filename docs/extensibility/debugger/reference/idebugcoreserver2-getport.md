@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugCoreServer2::GetPort
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a specific port.
 
 ## Syntax
 
-```cpp
-HRESULT GetPort( 
-   REFGUID       guidPort,
-   IDebugPort2** ppPort
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPort( 
    ref Guid        guidPort,
    out IDebugPort2 ppPort
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPort( 
+   REFGUID       guidPort,
+   IDebugPort2** ppPort
+);
+```
+---
 
 ## Parameters
 `guidPort`\

@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngine2::CreatePendingBreakpoint
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates a pending breakpoint in the debug engine (DE).
 
 ## Syntax
 
-```cpp
-HRESULT CreatePendingBreakpoint(
-    IDebugBreakpointRequest2*  pBPRequest,
-    IDebugPendingBreakpoint2** ppPendingBP
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreatePendingBreakpoint(
     IDebugBreakpointRequest2     pBPRequest,
     out IDebugPendingBreakpoint2 ppPendingBP
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreatePendingBreakpoint(
+    IDebugBreakpointRequest2*  pBPRequest,
+    IDebugPendingBreakpoint2** ppPendingBP
+);
+```
+---
 
 ## Parameters
 `pBPRequest`\

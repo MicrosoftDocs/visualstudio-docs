@@ -4,8 +4,6 @@ description: Learn about COM server and container debugging. Debug a COM server 
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.com"
 dev_langs:
   - "CSharp"
   - "VB"
@@ -26,6 +24,8 @@ ms.workload:
   - "multiple"
 ---
 # COM Server and Container Debugging
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 COM applications perform a number of tasks outside of the programmer's direct control. Communication between DLLs, usage counts on objects, and Clipboard operations are just a few of the areas where you might encounter unexpected behavior. When this happens, your first step is to track down the source of the problem.
 
  The Visual Studio debugger supports stepping across and into containers and servers. This includes the ability to step across remote procedure calls (RPC).

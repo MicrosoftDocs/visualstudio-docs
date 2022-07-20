@@ -17,21 +17,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugCodeContext3::GetModule
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a reference to the interface of the debug module.
 
 ## Syntax
 
-```cpp
-HRESULT GetModule(
-    IDebugModule2 **ppModule
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int GetModule(
     out IDebugModule2 ppModule
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetModule(
+    IDebugModule2 **ppModule
+);
+```
+---
 
 ## Parameters
 `ppModule`\

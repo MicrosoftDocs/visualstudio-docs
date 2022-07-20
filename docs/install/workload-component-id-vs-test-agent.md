@@ -6,7 +6,7 @@ keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.date: 10/12/2021
+ms.date: 05/10/2022
 ms.topic: reference
 helpviewer_keywords:
 - workload ID, Visual Studio
@@ -19,15 +19,10 @@ open_to_public_contributors: false
 ---
 # Visual Studio Test Agent component directory
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 [!INCLUDE[workloads-components-universal-header_md](includes/workloads-components-universal-header_md.md)]
 
-::: moniker range="vs-2017"
-
-[!INCLUDE[workloads-components-header-2017_md](includes/workloads-components-header-2017_md.md)]
-
-[!include[Visual Studio Test Agent 2017](includes/vs-2017/workload-component-id-vs-test-agent.md)]
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

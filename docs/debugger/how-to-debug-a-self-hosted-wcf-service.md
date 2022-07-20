@@ -22,6 +22,8 @@ ms.workload:
   - multiple
 ---
 # How to: Debug a Self-Hosted WCF Service
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A *self-hosted service* is a WCF service that does not run inside IIS, the WCF Service Host, or the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Development Server. The easiest way to debug a self-hosted WCF is to configure [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to launch both client and server when you choose **Start Debugging** on the **Debug** menu.
 
  If the WCF service is self-hosting inside or a process that cannot be launched in this manner, such as NT service, you cannot use this method. Instead, you can do one of the following:

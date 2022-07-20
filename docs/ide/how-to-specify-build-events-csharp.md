@@ -2,7 +2,7 @@
 title: 'How to: Specify build events (C#)'
 description: Learn how to use build events to specify commands that run before the build starts or after the build finishes.
 ms.custom: SEO-VS-2020
-ms.date: 03/21/2019
+ms.date: 03/04/2022
 ms.technology: vs-ide-compile
 ms.topic: how-to
 helpviewer_keywords:
@@ -20,11 +20,15 @@ ms.workload:
 ---
 # How to: Specify build events (C#)
 
-Use build events to specify commands that run before the build starts or after the build finishes. Build events execute only if the build successfully reaches those points in the build process.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+Use build events to specify commands that run before the build starts or after the build finishes.
 
 When a project is built, pre-build events are added to a file named *PreBuildEvent.bat* and post-build events are added to a file named *PostBuildEvent.bat*. If you want to ensure error checking, add your own error-checking commands to the build steps.
 
 ## Specify a build event
+
+:::moniker range="<=vs-2019"
 
 1. In **Solution Explorer**, select the project for which you want to specify the build event.
 
@@ -47,10 +51,77 @@ When a project is built, pre-build events are added to a file named *PreBuildEve
    > [!NOTE]
    > To add lengthy syntax, or to select any build macros from the [Pre-build event/post-build event command line dialog box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md), click the ellipsis button (**...**) to display an edit box.
 
-   The build event syntax can include any command that is valid at a command prompt or in a *.bat* file. The name of a batch file should be preceded by `call` to ensure that all subsequent commands are executed.
+:::moniker-end
+:::moniker range=">=vs-2022"
+
+1. In **Solution Explorer**, select the project for which you want to specify the build event.
+
+2. On the **Project** menu, click **Properties** (or from **Solution Explorer**, press **Alt**+**Enter**).
+
+3. Select **Build > Events**.
+
+   ![Screenshot showing the Build Events settings.](media/vs-2022/build-events.png)
+
+4. In the **Pre-build event** section, specify the syntax of the build event.
 
    > [!NOTE]
-   > If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0), which indicates a successful action.
+   > Pre-build events do not run if the project is up to date and no build is triggered.
+
+5. In the **Post-build event** section, specify the syntax of the build event.
+
+   > [!NOTE]
+   > Add a `call` statement before all post-build commands that run *.bat* files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.
+
+6. In the **When to run the post-build event** section, specify under what conditions to run the post-build event.
+
+:::moniker-end
+
+The build event syntax can include any command that is valid at a command prompt or in a *.bat* file. The name of a batch file should be preceded by `call` to ensure that all subsequent commands are executed.
+
+> [!NOTE]
+> If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0), which indicates a successful action.
+
+## Macros
+
+Commonly available "macros" (actually MSBuild properties) are listed at [MSBuild common properties](../msbuild/common-msbuild-project-properties.md). For .NET SDK projects (.NET Core or .NET 5 and later), additional properties are listed at [MSBuild properties for Microsoft.NET.Sdk](/dotnet/core/project-sdk/msbuild-props).
+
+In your scripts for build events, you might want to reference the values of some project-level variables such as the name of the project or the location of the output folder. In prior versions of Visual Studio, these were called *macros*. The equivalent to macros in recent versions of Visual Studio are MSBuild properties. MSBuild is the build engine that Visual Studio uses to process your project file when it performs a build. A build event in the IDE results in an MSBuild [target](../msbuild/msbuild-targets.md) in the project file. You can use any MSBuild property that is available in the target in your project file (for example, `$(OutDir)` or `$(Configuration)`) . The MSBuild properties that are available to you in these events depend on the files implicitly or explicitly imported in a project file, such `.props` and `.targets` files, and properties set in your project file, such as in `PropertyGroup` elements. Be careful to use the exact spelling of each property. No error is reported if you misspell a property; instead, an undefined property evaluates to an empty string.
+
+For example, suppose you specify a pre-build event as follows:
+
+![Screenshot showing pre-build event example.](./media/vs-2022/pre-build-event-example.png)
+
+That pre-build event results in the following entry, called a `Target` in your project file:
+
+```xml
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="echo Configuration: $(Configuration)&#xD;&#xA;echo DevEnvDir: $(DevEnvDir)&#xD;&#xA;echo OutDir: $(OutDir)&#xD;&#xA;echo ProjectDir: $(ProjectDir)&#xD;&#xA;echo VisualStudioVersion: $(VisualStudioVersion)&#xD;&#xA;echo AssemblySearchPaths: $(AssemblySearchPaths)&#xD;&#xA;echo AssemblyName: $(AssemblyName)&#xD;&#xA;echo BaseIntermediateOutputPath: $(BaseIntermediateOutputPath)&#xD;&#xA;echo CscToolPath: $(CscToolPath)" />
+  </Target>
+```
+
+The build event appears as a target that includes the [Exec task](../msbuild/exec-task.md) with the input you specified as the `Command`. Newlines are encoded in the XML.
+
+When you build the project in this example, the pre-build event prints the values of some properties. In this example, `$(CscToolPath)` doesn't produce any output, because it's not defined. It is an optional property that you can define in your project file to give the path to a customized instance of the C# compiler (for example, if you were testing a different version of *csc.exe*, or an experimental compiler).
+
+Output from your build events is written to the build output, which can be found in the **Output** window. In the **Show output from** dropdown, choose **Build**.
+
+```output
+Build started...
+1>------ Build started: Project: ConsoleApp4, Configuration: Debug Any CPU ------
+1>You are using a preview version of .NET. See: https://aka.ms/dotnet-core-preview
+1>Configuration: Debug
+1>DevEnvDir: C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\
+1>OutDir: bin\Debug\net6.0\
+1>ProjectDir: C:\source\repos\ConsoleApp4\ConsoleApp4\
+1>VisualStudioVersion: 17.0
+1>ALToolsPath:
+1>AssemblySearchPaths: {CandidateAssemblyFiles};{HintPathFromItem};{TargetFrameworkDirectory};{RawFileName}
+1>AssemblyName: ConsoleApp4
+1>BaseIntermediateOutputPath: obj\
+1>CscToolsPath:
+1>Skipping analyzers to speed up the build. You can execute 'Build' or 'Rebuild' command to run analyzers.
+1>ConsoleApp4 -> C:\Users\ghogen\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\net6.0\ConsoleApp4.dll
+```
 
 ## Example
 
@@ -152,9 +223,9 @@ Next, invoke this command in a post-build event to modify the application manife
    <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
    ```
 
-5. Back in the **Project Designer**, click the **Build Events** tab and then click **Edit Post-build**.
+5. Back in the **Project Designer**, click the **Build Events** tab.
 
-6. In the **Post-build Event Command Line** box, enter the following command:
+6. In the **Post-build event** section, enter the following command:
 
    `C:\TEMP\ChangeOSVersionCS.exe "$(TargetPath).manifest" 5.1.2600.0`
 
@@ -169,6 +240,9 @@ Next, invoke this command in a post-build event to modify the application manife
    ```xml
    <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
    ```
+
+> [!NOTE]
+> Some scenarios may require more intelligent build actions than the build events are capable of. For example, for many common code-generation scenarios, you need to handle clean and rebuild operations, and you might want to enable incremental build for code-generation steps, so that the step only runs if the output is out-of-date with respect to the inputs. For such scenarios, consider creating a [custom target](../msbuild/target-build-order.md) that specifies `AfterTargets` or `BeforeTargets` to run during a specific point in the build process, and for further control in advanced scenarios, consider creating a [custom task](../msbuild/task-writing.md).
 
 ## See also
 

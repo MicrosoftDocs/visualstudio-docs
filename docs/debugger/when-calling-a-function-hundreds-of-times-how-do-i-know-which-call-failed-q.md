@@ -32,6 +32,8 @@ ms.workload:
   - "multiple"
 ---
 # When Calling a Function Hundreds of Times, How Do I know Which Call Failed?
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## Problem Description
  My program fails on a call to a certain function, `CnvtV`. The program probably calls that function a couple hundred times before it fails. If I set a location breakpoint on `CnvtV`, the program stops on every call to that function, and I do not want that. I do not know what conditions cause the call to fail, so I cannot set a conditional breakpoint. What can I do?
 

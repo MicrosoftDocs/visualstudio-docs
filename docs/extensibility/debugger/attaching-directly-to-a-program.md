@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Attach directly to a program
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Users who want to debug programs in a process that is already running typically follow this process:
 
 1. In the IDE, choose the **Debug Processes** command from the **Tools** menu.

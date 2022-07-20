@@ -21,6 +21,8 @@ ms.workload:
 ---
 # Using saved IntelliTrace data (C#, Visual Basic, C++)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Go to specific points in your application's execution when you start debugging from an IntelliTrace log (.iTrace) file. This file can contain performance events, exceptions, threads, test steps, modules, and other system info that IntelliTrace records while your app runs.
 
  Make sure that you have:
@@ -256,7 +258,7 @@ Go to specific points in your application's execution when you start debugging f
 
  [IntelliTrace Features](../debugger/intellitrace-features.md)
 
- [Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts&preserve-view=true)
+ [Collect more diagnostic data in manual tests](/azure/devops/test/collect-diagnostic-data)
 
  [IntelliTrace](../debugger/intellitrace.md)
 

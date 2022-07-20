@@ -26,6 +26,8 @@ manager: jmartens
 ---
 # Register Dotfuscator Community
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This article describes how to register the free copy of Dotfuscator Community that's included in Visual Studio and the advantages of registering Dotfuscator Community.
 
 ## Why register?

@@ -6,20 +6,28 @@ manager: jmartens
 ms.technology: vs-container-tools
 ms.devlang: dotnet
 ms.topic: how-to
-ms.date: 05/10/2021
+ms.date: 10/08/2021
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
 # Launch a subset of Compose services
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 If you have an application that consists of multiple services and uses Docker Compose, you can configure which services run and debug by creating or editing an existing launch profile in Docker Compose launch settings. Launch profiles allow you to dynamically run only the services that matter to your current scenario. You can create and select from launch profiles in order to customize your debugging experience and set specific launch actions such as `Browser Launch URL`. You will also have the option of either choosing each service individually or by choosing a Docker Compose profile, which also looks at your Compose file to determine the group of services to run.
 
 For information about Docker Compose profiles, see [Using profiles with Compose](https://docs.docker.com/compose/profiles/).
- 
+
 ## Prerequisites
 
+:::moniker range="vs-2019"
 - [Visual Studio 2019 version 16.10](https://visualstudio.microsoft.com/vs/) or later
 - A .NET solution with [Container Orchestration with Docker Compose](tutorial-multicontainer.md)
+:::moniker-end
+:::moniker range=">=vs-2022"
+- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads) or [Visual Studio 2019 version 16.10](https://visualstudio.microsoft.com/vs/) or later
+- A .NET solution with [Container Orchestration with Docker Compose](tutorial-multicontainer.md)
+:::moniker-end
 
 ## Manage launch settings
 
@@ -61,13 +69,23 @@ services:
 There are a few options to open the Docker Compose launch settings dialog:
 - In Visual Studio, choose **Debug** > **Manage Docker Compose Launch Settings**:
 
+    :::moniker range="<=vs-2019"
     ![Screenshot of Debug Manage Compose Settings menu item](media/launch-settings/debug-dropdown-manage-compose.png)
+    :::moniker-end
+    :::moniker range=">=vs-2022"
+    ![Screenshot of Debug Manage Compose Settings menu item](media/tutorial-multicontainer/vs-2022/debug-dropdown-manage-compose.png)
+    :::moniker-end
 
 - Right-click on the Visual Studio `docker-compose` project and select **Manage Docker Compose Launch Settings**
 
+    :::moniker range="<=vs-2019"
     ![Screenshot of the context menu item](media/launch-settings/launch-settings-context-menu.png)
+    :::moniker-end
+    :::moniker range=">=vs-2022"
+    ![Screenshot of the context menu item](media/launch-settings/vs-2022/launch-settings-context-menu.png)
+    :::moniker-end
 
-- Use the Quick Launch (**Ctrl**+**Q**) and search for **Docker Compose** to find the aforementioned command.
+- Use the Quick Launch (**Ctrl**+**Q**) and search for **Docker Compose** to find the same command.
 
 In the example below, the `web1` Compose profile is selected, which filters the **Services** list to only the three out of five included in that profile:
 

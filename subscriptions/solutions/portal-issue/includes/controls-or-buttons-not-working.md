@@ -3,8 +3,8 @@ title: Controls or buttons aren't working
 description: Controls or buttons aren't working in the subscriptions portal.
 ms.topic: include
 ms.assetid: 33b1aa45-b2fc-4c00-9862-3d1281d28fa2
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 08/14/2020
 user.type: subscriber, admin
 tags: portal-error

@@ -20,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # Security for SharePoint solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] incorporates the following features to help enhance the security of SharePoint applications.
 
 ## Safe control entries

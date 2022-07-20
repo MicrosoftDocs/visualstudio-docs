@@ -19,19 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentContext2::Compare
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Compares this document context to a given array of document contexts.
 
 ## Syntax
 
-```cpp
-HRESULT Compare( 
-   DOCCONTEXT_COMPARE       compare,
-   IDebugDocumentContext2** rgpDocContextSet,
-   DWORD                    dwDocContextSetLen,
-   DWORD*                   pdwDocContext
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Compare( 
    enum_ DOCCONTEXT_COMPARE compare,
@@ -40,6 +34,16 @@ int Compare( 
    out uint                 pdwDocContext
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Compare( 
+   DOCCONTEXT_COMPARE       compare,
+   IDebugDocumentContext2** rgpDocContextSet,
+   DWORD                    dwDocContextSetLen,
+   DWORD*                   pdwDocContext
+);
+```
+---
 
 ## Parameters
 `compare`\

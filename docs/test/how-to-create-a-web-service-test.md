@@ -16,6 +16,8 @@ ms.technology: vs-ide-test
 ---
 # How to: Create a web service test
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can use a web performance test to test web services. By using the **Insert Request** and **Insert Web Service Request** options, you can customize the individual requests in the **Web Performance Test Editor** to locate web service pages. Typically, you do not display these pages in the web application. Therefore, you must customize the request to gain access to these pages.
 
 >[!NOTE]
@@ -23,7 +25,11 @@ You can use a web performance test to test web services. By using the **Insert R
 
 **Requirements**
 
-Visual Studio Enterprise
+* Visual Studio Enterprise
+* Internet Explorer
+
+>[!NOTE]
+> Web performance and load test functionality only supports Internet Explorer which is not available on Windows 11 and some versions of Windows 10. Read more on [Internet Explorer Lifecycle policy](/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-).
 
 ## To create a simple web service
 
@@ -60,23 +66,6 @@ If you don't already have the web performance and load testing tools component i
 
 A web test requires the Web Performance and Load Test Project project template. In this section, we'll create a C# load test project. You can also create a Visual Basic load test project, if you prefer.
 
-::: moniker range="vs-2017"
-
-1. Open Visual Studio.
-
-   If you are using the sample Web Service (ASMX) template, you can add the web test project to the same solution.
-
-2. Choose **File** > **New** > **Project** from the menu bar.
-
-   The **New Project** dialog box opens.
-
-3. In the **New Project** dialog box, expand **Installed** and **Visual C#**, and then select the **Test** category. Choose the **Web Performance and Load Test Project** template.
-
-   ![Web performance and load test project template](media/web-perf-load-test-project-template.png)
-
-4. Enter a name for the project if you don't want to use the default name, and then choose **OK**.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

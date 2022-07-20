@@ -20,6 +20,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;Commands&gt; element (bootstrapper)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `Commands` element implements tests described by the elements underneath the `InstallChecks` element, and declares which package the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] bootstrapper should install if the test fails.
 
 ## Syntax

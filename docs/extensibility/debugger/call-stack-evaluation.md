@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Call stack evaluation
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In order to view the stack frames of the call stack during break mode, you must implement the [EnumFrameInfo](../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md) method.
 
 ## Methods for evaluation

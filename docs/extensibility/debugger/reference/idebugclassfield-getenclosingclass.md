@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugClassField::GetEnclosingClass
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the class that encloses this class.
 
 ## Syntax
 
-```cpp
-HRESULT GetEnclosingClass(
-    IDebugClassField** ppClassField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetEnclosingClass(
     out IDebugClassField ppClassField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEnclosingClass(
+    IDebugClassField** ppClassField
+);
+```
+---
 
 ## Parameters
 `ppClassField`\

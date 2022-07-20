@@ -15,6 +15,8 @@ ms.workload:
 ---
 # m_parent field
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The backing field for the task's parent <xref:System.Threading.Tasks.Task>.
 
 **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

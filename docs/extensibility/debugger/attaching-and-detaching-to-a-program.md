@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Attaching and detaching to a program
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Attaching the debugger requires sending the correct sequence of methods and events with the proper attributes.
 
 ## Sequence of methods and events

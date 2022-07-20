@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess3::Execute
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Continues running this process from a stopped state. Any previous execution state (such as a step) is cleared and the process starts executing again.
 
 > [!NOTE]
@@ -26,17 +28,19 @@ Continues running this process from a stopped state. Any previous execution stat
 
 ## Syntax
 
-```cpp
-HRESULT Execute(
-   IDebugThread2* pThread
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Execute(
    IDebugThread2 pThread
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Execute(
+   IDebugThread2* pThread
+);
+```
+---
 
 ## Parameters
 `pThread`\

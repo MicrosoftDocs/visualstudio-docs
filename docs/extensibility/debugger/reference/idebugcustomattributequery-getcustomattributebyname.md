@@ -18,18 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugCustomAttributeQuery::GetCustomAttributeByName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a custom attribute given its name.
 
 ## Syntax
 
-```cpp
-HRESULT GetCustomAttributeByName(
-    LPCOLESTR pszCustomAttributeName,
-    BYTE*     ppBlob,
-    DWORD*    pdwLen
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCustomAttributeByName(
     string    pszCustomAttributeName,
@@ -37,6 +32,15 @@ int GetCustomAttributeByName(
     out uint  pdwLen
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCustomAttributeByName(
+    LPCOLESTR pszCustomAttributeName,
+    BYTE*     ppBlob,
+    DWORD*    pdwLen
+);
+```
+---
 
 ## Parameters
 `pszCustomAttributeName`\

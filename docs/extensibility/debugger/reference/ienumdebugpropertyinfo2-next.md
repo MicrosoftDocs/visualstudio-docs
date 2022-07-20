@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugPropertyInfo2::Next
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the next set of elements from the enumeration.
 
 ## Syntax
 
-```cpp
-HRESULT Next(
-   ULONG                 celt,
-   DEBUG_PROPERTY_INFO** rgelt,
-   ULONG*                pceltFetched
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Next(
    uint                  celt,
@@ -38,6 +33,15 @@ int Next(
    ref uint              pceltFetched
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Next(
+   ULONG                 celt,
+   DEBUG_PROPERTY_INFO** rgelt,
+   ULONG*                pceltFetched
+);
+```
+---
 
 ## Parameters
 `celt`\

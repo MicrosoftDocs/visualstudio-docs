@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Application Page, Project Designer (Visual Basic)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Use the **Application** page of the Project Designer to specify a project's application settings and properties.
 
 To access the **Application** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project** > **Properties** on the menu bar. When the **Project Designer** appears, select the **Application** tab.

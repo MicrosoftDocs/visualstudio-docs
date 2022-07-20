@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugObjects::Skip
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method skips over the specified number of elements.
 
 ## Syntax
 
-```cpp
-HRESULT Skip(
-   [in] ULONG celt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Skip(
    [In] uint celt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Skip(
+   [in] ULONG celt
+);
+```
+---
 
 ## Parameters
 `celt`\

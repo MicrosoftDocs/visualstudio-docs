@@ -1,8 +1,8 @@
 ---
 title: Customize window layouts
-description: Learn how to customize the characteristics that windows exhibit to create layouts that work best for various development workflows.
+description: Learn how to customize the windows in Visual Studio to create layouts that work best for your development workflows.
 ms.custom: SEO-VS-2020
-ms.date: 03/02/2021
+ms.date: 07/01/2022
 ms.topic: conceptual
 f1_keywords:
 - vs.windows
@@ -28,6 +28,8 @@ ms.workload:
 - multiple
 ---
 # Customize window layouts in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In Visual Studio, you can customize the position, size, and behavior of windows to create window layouts that work best for various development workflows. When you customize the layout, the IDE remembers it. For example, if you change the docking location of **Solution Explorer** and then close Visual Studio, the next time that you open Visual Studio, even if you're working on another computer, **Solution Explorer** will be docked in that same location.
 
@@ -55,7 +57,7 @@ In the **Preview** tab, you can view files in the editor without opening them. Y
 
 #### Vertical document tabs
 
-**[New in version 16.4](/visualstudio/releases/2019/release-notes-v16.4/)**: We added one of the top feature requests, [vertical document tabs](https://developercommunity.visualstudio.com/idea/467369/vertical-group-tab.html), in the Visual Studio 2019 version 16.4 release. Now, you can manage your document tabs in a vertical list on either the left or right side of your editor.
+**[New in Visual Studio 2019 version 16.4 and later](/visualstudio/releases/2019/release-notes-v16.4/)**: We added one of the top feature requests, [vertical document tabs](https://developercommunity.visualstudio.com/idea/467369/vertical-group-tab.html). Now, you can manage your document tabs in a vertical list on either the left or right side of your editor.
 
 You can apply vertical document tabs in the following ways:
 
@@ -64,6 +66,38 @@ You can apply vertical document tabs in the following ways:
 - Right-click a tab, choose **Set Tab Layout**, and then choose either **Left** or **Right**. (To return the tabs to their default position, choose **Top**.)
 
     :::image type="content" source="./media/vs-2019/vertical-tabs.gif" alt-text="An animation that shows vertical document tabs in action":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+#### Color document tabs
+
+Visual Studio 2022 includes new personalization options you can use to help you code more efficiently. We added another top feature request, [color document tabs](https://devblogs.microsoft.com/visualstudio/personalize-docs/). Now, you color file tabs by project so that you don't have to hunt for your open files.
+
+> [!NOTE]
+> To use color tabs, navigate to **Tools** > **Options** > **Environment** > **Tabs and Windows**, and then select **Colorize document tabs by project**.
+
+Here are our updates, to date:
+
+- **[New in Visual Studio 2022 version 17.0 and later](/visualstudio/releases/2022/release-notes-v17.0)**: You can now colorize tabs in both vertical and horizontal views in the Editor.
+
+    The following screenshot shows an example of color tabs in the vertical view:
+
+    :::image type="content" source="media/vs-2022/color-tabs-vertical.png" alt-text="Screenshot of color tabs in the vertical view.":::
+
+    The following screenshot shows an example of color tabs in the horizontal view:
+
+    :::image type="content" source="media/vs-2022/color-tabs-horizontal.png" alt-text="Screenshot of color tabs in the horizontal view.":::
+
+- **[New in Visual Studio 2022 version 17.1 and later](/visualstudio/releases/2022/release-notes)**: You can also choose your own tab colors. To do so, right-click on a tab and select **Set Tab Color** to pick from the palette.
+
+    The following screenshot shows an example of how to personalize the color scheme of tabs:
+
+    :::image type="content" source="media/vs-2022/color-tabs-personalize-schemes.png" alt-text="Screenshot of the Set Tab Option that you can use to personalize the colors of tabs.":::
+
+> [!TIP]
+> To learn more about the latest tabs updates in Visual Studio 2022, see the [**Improved doc management personalization**](https://devblogs.microsoft.com/visualstudio/doc-management-personalization/) blog post.
 
 ::: moniker-end
 
@@ -158,11 +192,6 @@ First, create a test solution that has two projects, each with a different optim
 
 #### Create a UI project and customize the layout
 
-::: moniker range="vs-2017"
-
-1. Create a new C# **WPF App** project. Imagine that in this project, you'll be developing a user interface. You want to maximize the space for the designer window and move other tool windows out of the way.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

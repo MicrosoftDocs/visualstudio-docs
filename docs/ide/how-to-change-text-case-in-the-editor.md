@@ -17,6 +17,8 @@ ms.workload:
 ---
 # How to: Change text case in the editor
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can use menu commands or keyboard shortcuts to convert the case of selected text to all upper case or to all lower case.
 
 > [!NOTE]

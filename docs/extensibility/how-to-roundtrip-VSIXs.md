@@ -13,6 +13,8 @@ ms.workload:
 ---
 # How to: Make extensions compatible with Visual Studio 2019/2017 and Visual Studio 2015
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This document explains how to make extensibility projects round-trip between Visual Studio 2015 and Visual Studio 2019 or Visual Studio 2017. After completing this upgrade, a project will be able to open, build, install, and run in both Visual Studio 2015 and Visual Studio 2019 or 2017. As a reference, some extensions that can round-trip between Visual Studio 2015 and Visual Studio 2019 or 2017 can be found in the [VS SDK extensibility samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples).
 
 If you only intend to build in Visual Studio 2019/2017, but want the output VSIX to run in both Visual Studio 2015 and Visual Studio 2019/2017, then refer to the [Extension migration document](how-to-migrate-extensibility-projects-to-visual-studio-2017.md).

@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Deleting a breakpoint
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following describes the process when deleting a pending breakpoint:
 
 ## Deletion process

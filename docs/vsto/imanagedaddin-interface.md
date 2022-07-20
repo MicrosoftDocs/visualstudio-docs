@@ -2,7 +2,7 @@
 title: "IManagedAddin interface"
 description: "Implement the IManagedAddin interface to create a component that loads managed VSTO Add-ins."
 ms.date: "02/02/2017"
-ms.topic: "interface"
+ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -16,6 +16,8 @@ ms.workload:
   - "office"
 ---
 # IManagedAddin interface
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Implement the IManagedAddin interface to create a component that loads managed VSTO Add-ins. This interface was added in the 2007 Microsoft Office system.
 
 ## Syntax

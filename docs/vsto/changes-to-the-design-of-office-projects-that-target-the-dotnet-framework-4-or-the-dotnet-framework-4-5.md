@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Changes to the design of Office projects that target the .NET Framework 4 or the .NET Framework 4.5
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Starting in [!INCLUDE[vs_dev10_long](../sharepoint/includes/vs-dev10-long-md.md)], Visual Studio introduced some changes to the design of Office projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later. If you are familiar with Office projects in previous versions of Visual Studio, you should be aware of these changes before you develop Office projects that target those versions of the .NET Framework 4.0 or later. By default, all projects that you create by using Visual Studio 2013 or later target the .NET Framework 4.0 or later.
 
  The following sections describe these Office project design changes.

@@ -23,6 +23,8 @@ ms.workload:
   - "office"
 ---
 # Outlook object model overview
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   To develop VSTO Add-ins for Microsoft Office Outlook, you can interact with the objects that are provided by the Outlook object model. The Outlook object model provides classes and interfaces that represent items in the user interface. For example, the <xref:Microsoft.Office.Interop.Outlook.Application> object represents the entire application, the <xref:Microsoft.Office.Interop.Outlook.Folder> object represents a folder that contains e-mail messages or other items, and the <xref:Microsoft.Office.Interop.Outlook.MailItem> object represents an e-mail message.
 
  This topic provides a brief overview of some of the main objects in the Outlook object model. For resources where you can learn more about the entire Outlook object model, see [Use the Outlook object model documentation](#refdoc).

@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Folder element (Visual Studio project templates)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies a folder that will be added to the project.
 
  \<VSTemplate>

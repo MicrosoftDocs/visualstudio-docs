@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentContext2::GetStatementRange
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the file statement range of the document context.
 
 ## Syntax
 
-```cpp
-HRESULT GetStatementRange(
-    TEXT_POSITION* pBegPosition,
-    TEXT_POSITION* pEndPosition
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetStatementRange(
     TEXT_POSITION[] pBegPosition,
     TEXT_POSITION[] pEndPosition
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetStatementRange(
+    TEXT_POSITION* pBegPosition,
+    TEXT_POSITION* pEndPosition
+);
+```
+---
 
 ## Parameters
 `pBegPosition`\

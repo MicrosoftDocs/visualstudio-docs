@@ -25,6 +25,8 @@ ms.workload:
 ---
 # How to: Page Up or Down in Memory
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 When you view memory contents in a **Memory** window or the **Disassembly** window, you can use the vertical scrollbar to move up or down in the memory space.
 
 ### To page up or down in memory

@@ -19,6 +19,8 @@ ms.workload:
 - vssdk
 ---
 # How to: Register a library with the object manager
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Browser** and **Find Symbol Results**, enable you to view symbols in your project or in external components. The symbols include namespaces, classes, interfaces, methods, and other language elements. The libraries track these symbols and expose them to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] object manager that populates the tools with the data.
 
  The object manager keeps track of all available libraries. Each library must register with the object manager before providing symbols for the symbol-browsing tools.
@@ -37,13 +39,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
 
 1. Create a library.
 
-    ```vb
-    Private m_CallBrowserLibrary As CallBrowser.Library = Nothing
-    Private m_nLibraryCookie As UInteger = 0
-    ' Create Library.
-    m_CallBrowserLibrary = New CallBrowser.Library()
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     private CallBrowser.Library m_CallBrowserLibrary = null;
     private uint m_nLibraryCookie = 0;
@@ -52,31 +48,18 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
 
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    Private m_CallBrowserLibrary As CallBrowser.Library = Nothing
+    Private m_nLibraryCookie As UInteger = 0
+    ' Create Library.
+    m_CallBrowserLibrary = New CallBrowser.Library()
+    ```
+    ---
+
 2. Obtain a reference to an object of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2> type and call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.RegisterSimpleLibrary%2A> method.
 
-    ```vb
-    Private Sub RegisterLibrary()
-        If m_nLibraryCookie <> 0 Then
-            Throw New Exception("Library already registered with Object Manager")
-        End If
-
-        ' Obtain a reference to IVsObjectManager2 type object.
-        Dim objManager As IVsObjectManager2 = TryCast(GetService(GetType(SVsObjectManager)), IVsObjectManager2)
-        If objManager Is Nothing Then
-            Throw New NullReferenceException("GetService failed for SVsObjectManager")
-        End If
-
-        Try
-            Dim hr As Integer = objManager.RegisterSimpleLibrary(m_CallBrowserLibrary, m_nLibraryCookie)
-            Microsoft.VisualStudio.ErrorHandler.ThrowOnFailure(hr)
-        Catch e As Exception
-            ' Code to handle any CLS-compliant exception.
-            Trace.WriteLine(e.Message)
-            Throw
-        End Try
-    End Sub
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     private void RegisterLibrary()
     {
@@ -106,32 +89,36 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
 
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    Private Sub RegisterLibrary()
+        If m_nLibraryCookie <> 0 Then
+            Throw New Exception("Library already registered with Object Manager")
+        End If
+
+        ' Obtain a reference to IVsObjectManager2 type object.
+        Dim objManager As IVsObjectManager2 = TryCast(GetService(GetType(SVsObjectManager)), IVsObjectManager2)
+        If objManager Is Nothing Then
+            Throw New NullReferenceException("GetService failed for SVsObjectManager")
+        End If
+
+        Try
+            Dim hr As Integer = objManager.RegisterSimpleLibrary(m_CallBrowserLibrary, m_nLibraryCookie)
+            Microsoft.VisualStudio.ErrorHandler.ThrowOnFailure(hr)
+        Catch e As Exception
+            ' Code to handle any CLS-compliant exception.
+            Trace.WriteLine(e.Message)
+            Throw
+        End Try
+    End Sub
+    ```
+    ---
+
 ### To unregister a library with the object manager
 
 1. Obtain a reference to an object of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2> type and call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.UnregisterLibrary%2A> method.
 
-    ```vb
-    Private Sub UnregisterLibrary()
-        If m_nLibraryCookie <> 0 Then
-            ' Obtain a reference to IVsObjectManager2 type object.
-            Dim objManager As IVsObjectManager2 = TryCast(GetService(GetType(SVsObjectManager)), IVsObjectManager2)
-            If objManager Is Nothing Then
-                Throw New NullReferenceException("GetService failed for SVsObjectManager")
-            End If
-
-            Try
-                objManager.UnregisterLibrary(m_nLibraryCookie)
-            Catch e As Exception
-                ' Code to handle any CLS-compliant exception.
-                Trace.WriteLine(e.Message)
-                Throw
-            Finally
-                m_nLibraryCookie = 0
-            End Try
-        End If
-    End Sub
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     private void UnregisterLibrary()
     {
@@ -160,6 +147,30 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
     }
 
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Private Sub UnregisterLibrary()
+        If m_nLibraryCookie <> 0 Then
+            ' Obtain a reference to IVsObjectManager2 type object.
+            Dim objManager As IVsObjectManager2 = TryCast(GetService(GetType(SVsObjectManager)), IVsObjectManager2)
+            If objManager Is Nothing Then
+                Throw New NullReferenceException("GetService failed for SVsObjectManager")
+            End If
+
+            Try
+                objManager.UnregisterLibrary(m_nLibraryCookie)
+            Catch e As Exception
+                ' Code to handle any CLS-compliant exception.
+                Trace.WriteLine(e.Message)
+                Throw
+            Finally
+                m_nLibraryCookie = 0
+            End Try
+        End If
+    End Sub
+    ```
+    ---
 
 ## See also
 - [Legacy language service extensibility](../../extensibility/internals/legacy-language-service-extensibility.md)

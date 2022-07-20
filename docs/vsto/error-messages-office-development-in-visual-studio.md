@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Error messages (Office development in Visual Studio)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Each error message topic provides information on possible causes for an error and potential solutions or workarounds to solve the problem.
 
  You can get to information about an error message in the following ways.

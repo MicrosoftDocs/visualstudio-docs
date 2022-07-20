@@ -19,10 +19,24 @@ dev_langs:
 - CSharp
 ---
 # BPERESI_FIELDS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the information to be retrieved about a failed resolution of a breakpoint.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_BPERESI_FIELDS {
+    PERESI_BPRESLOCATION = 0x0001,
+    BPERESI_PROGRAM      = 0x0002,
+    BPERESI_THREAD       = 0x0004,
+    BPERESI_MESSAGE      = 0x0008,
+    BPERESI_TYPE         = 0x0010,
+    BPERESI_ALLFIELDS    = 0xffffffff
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_BPERESI_FIELDS {
     PERESI_BPRESLOCATION = 0x0001,
@@ -34,17 +48,7 @@ enum enum_BPERESI_FIELDS {
 };
 typedef DWORD BPERESI_FIELDS;
 ```
-
-```csharp
-public enum enum_BPERESI_FIELDS {
-    PERESI_BPRESLOCATION = 0x0001,
-    BPERESI_PROGRAM      = 0x0002,
-    BPERESI_THREAD       = 0x0004,
-    BPERESI_MESSAGE      = 0x0008,
-    BPERESI_TYPE         = 0x0010,
-    BPERESI_ALLFIELDS    = 0xffffffff
-};
-```
+---
 
 ## Fields
 `PERESI_BPRESLOCATION`\

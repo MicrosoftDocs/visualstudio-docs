@@ -18,19 +18,23 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpressionEvaluator2::Terminate
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Stops and cleans up the expression evaluator.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Terminate ();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Terminate (
     void
 );
 ```
-
-```csharp
-int Terminate ();
-```
+---
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

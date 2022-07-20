@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Extend a SharePoint node in Server Explorer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can extend nodes under the **SharePoint Connections** node in **Server Explorer**. This is useful when you want to add new child nodes, shortcut menu items, or properties to an existing node. For more information, see [Extend the SharePoint connections node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md).
 
 ### To extend a SharePoint node in Server Explorer
@@ -59,8 +61,12 @@ ms.workload:
 
 - An extension that adds a custom property named **ContosoExampleProperty** to each node that represents a field named **Body**.
 
+  ### [C#](#tab/csharp)
   :::code language="csharp" source="../sharepoint/codesnippet/CSharp/projectsystemexamples/extension/serverexplorerextension.cs" id="Snippet9":::
+
+  ### [VB](#tab/vb)
   :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/projectsystemexamples/extension/serverexplorerextension.vb" id="Snippet9":::
+  ---
 
   This extension adds an editable string property to nodes. You can also create custom properties that display read-only data from the SharePoint server. For an example that demonstrates how to do this, see [Walkthrough: Extend Server Explorer to display web parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md).
 

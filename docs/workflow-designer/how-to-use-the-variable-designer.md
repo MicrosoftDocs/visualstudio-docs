@@ -7,14 +7,16 @@ ms.topic: how-to
 f1_keywords:
 - System.Activities.Presentation.View.DesignTimeVariable.UI
 ms.assetid: 0318dfb0-bf8f-4f92-9b86-ae4c1b2161ad
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
 - multiple
 ---
 # How to: Use the Variable Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The variable designer is used to create variables for use in data-binding scenarios and conditional statements. The designer is accessed by clicking the **Variables** button in the lower-left corner of the design canvas. The designer contains a list of variables that appear in a tabular form and can be sorted by each of the column headers, except for the **Default** column. Each variable contains a name, variable type, scope, and default value (if any). The name and default value are editable text fields, and the type and scope are drop-downs. The scope is the activity that was selected when the variable designer was invoked. If a variable cannot be created within the scope of the selection, then the scope will default to the nearest ancestor activity of the selection that allows for variables to be created in its scope. For more information, see [Variables and arguments (.NET)](/dotnet/framework/windows-workflow-foundation/variables-and-arguments).
 

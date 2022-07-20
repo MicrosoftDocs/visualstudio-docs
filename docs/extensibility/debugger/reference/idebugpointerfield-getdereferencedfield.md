@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPointerField::GetDereferencedField
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns the type of object to which this pointer object points.
 
 ## Syntax
 
-```cpp
-HRESULT GetDereferencedField(
-   IDebugField** ppField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDereferencedField(
    out IDebugField ppField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDereferencedField(
+   IDebugField** ppField
+);
+```
+---
 
 ## Parameters
 `ppField`\

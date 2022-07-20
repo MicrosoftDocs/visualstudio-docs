@@ -14,9 +14,11 @@ ms.workload:
 ---
 # Inspect previous app states using IntelliTrace step-back in Visual Studio (Visual Studio Enterprise)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 IntelliTrace step-back automatically takes a snapshot of your application at every breakpoint and debugger step event. The recorded snapshots enable you to go back to previous breakpoints or steps and view the state of the application as it was in the past. IntelliTrace step-back can save you time when you want to see the previous application state but don't want to restart debugging or recreate the desired app state.
 
-IntelliTrace step-back is available starting in Visual Studio Enterprise 2017 version 15.5 and higher, and it requires Windows 10 Anniversary Update or above. The feature is currently supported for debugging ASP.NET, WinForms, WPF, managed console apps, and managed class libraries. Starting with Visual Studio 2017 Enterprise version 15.7, the feature is also supported for ASP.NET Core and .NET Core. Starting with Visual Studio 2017 Enterprise version 15.9 Preview 2, the feature is also supported for native apps targeting Windows. Debugging UWP applications is not currently supported.
+IntelliTrace step-back is available starting in Visual Studio Enterprise 2017 version 15.5 and higher, and it requires Windows 11 or Windows 10 Anniversary Update or above. The feature is currently supported for debugging ASP.NET, WinForms, WPF, managed console apps, and managed class libraries. Starting with Visual Studio 2017 Enterprise version 15.7, the feature is also supported for ASP.NET Core and .NET Core. Starting with Visual Studio 2017 Enterprise version 15.9 Preview 2, the feature is also supported for native apps targeting Windows. Debugging UWP applications is not currently supported.
 
 In this tutorial, you will:
 
@@ -41,7 +43,7 @@ In this tutorial, you will:
 
     ![Configure behavior for snapshots on exceptions](../debugger/media/intellitrace-enable-snapshots-on-exceptions.png)
 
-    When you enable events and snapshots, taking snapshots on exceptions is also enabled by default. You can disable snapshots on exceptions by deselecting **Collect snapshots on exception events**. When this feature is enabled, snapshots are taken for unhandled exceptions. For handled exceptions, snapshots are taken only if the exception is thrown and if it is not a re-throw of an previously-thrown exception. You can set a maximum number of snapshots on exceptions by selecting a value from the drop-down list. The maximum applies for each time that your app enters break mode (such as when your app hits a breakpoint).
+    When you enable events and snapshots, taking snapshots on exceptions is also enabled by default. You can disable snapshots on exceptions by deselecting **Collect snapshots on exception events**. When this feature is enabled, snapshots are taken for unhandled exceptions. For handled exceptions, snapshots are taken only if the exception is thrown and if it is not a re-throw of a previously-thrown exception. You can set a maximum number of snapshots on exceptions by selecting a value from the drop-down list. The maximum applies for each time that your app enters break mode (such as when your app hits a breakpoint).
 
     > [!NOTE]
     > Snapshots are taken only for exception events that IntelliTrace records. For managed code, you can specify what events IntelliTrace records by selecting **Tools** > **Options** > **IntelliTrace Events**.
@@ -102,7 +104,7 @@ The impact on overall stepping performance depends on your application. The over
     Workarounds:
   * If you are on the Windows 10 Anniversary Update (RS1) and below version 10.0.14393.2273, [install KB4103720](https://support.microsoft.com/help/4103720/windows-10-update-kb4103720).
   * If you are on the Windows 10 Creators Update (RS2) and below version 10.0.15063.1112, [install KB4103722](https://support.microsoft.com/help/4103722/windows-10-update-4103722).
-  * Install or upgrade to Windows 10 Fall Creators Update (RS3).
+  * Install or upgrade to Windows 11 or Windows 10 Fall Creators Update (RS3).
   * Alternatively:
     1. Install the VC++ 2015.3 v140 toolset for desktop (x86, x64) component from the Visual Studio installer.
     2. Build the target application.

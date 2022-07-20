@@ -12,6 +12,8 @@ monikerRange: ">= vs-2019"
 ---
 # Add a connection to Azure SQL Database
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 With Visual Studio, you can connect any of the following to Azure SQL Database by using the **Connected Services** feature:
 
 - .NET Framework console app

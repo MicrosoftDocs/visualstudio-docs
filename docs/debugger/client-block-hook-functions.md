@@ -4,8 +4,6 @@ description: Write a client block hook function to validate or report the conten
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.hooks"
 dev_langs:
   - "CSharp"
   - "VB"
@@ -26,6 +24,8 @@ ms.workload:
   - "multiple"
 ---
 # Client Block Hook Functions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If you want to validate or report the contents of the data stored in `_CLIENT_BLOCK` blocks, you can write a function specifically for this purpose. The function that you write must have a prototype similar to the following, as defined in CRTDBG.H:
 
 ```cpp

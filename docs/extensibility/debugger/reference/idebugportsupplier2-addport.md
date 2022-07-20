@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortSupplier2::AddPort
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Adds a port.
 
 ## Syntax
 
-```cpp
-HRESULT AddPort( 
-   IDebugPortRequest2* pRequest,
-   IDebugPort2**       ppPort
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int AddPort( 
    IDebugPortRequest2 pRequest,
    out IDebugPort2    ppPort
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT AddPort( 
+   IDebugPortRequest2* pRequest,
+   IDebugPort2**       ppPort
+);
+```
+---
 
 ## Parameters
 `pRequest`\

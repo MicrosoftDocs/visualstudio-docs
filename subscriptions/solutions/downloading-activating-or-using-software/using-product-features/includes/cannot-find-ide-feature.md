@@ -4,7 +4,7 @@ description: If you can't find the IDE feature you want to use, you may be using
 ms.topic: include
 ms.assetid: 986a4c63-610b-4d33-8b22-48452964da8b
 author: evanwindom
-ms.author: cabuschl
+ms.author: amast
 ms.date: 05/11/2020
 user.type: subscriber
 tags: download, activate, licensing

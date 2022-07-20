@@ -21,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # Architecture of VSTO Add-ins
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   VSTO Add-ins created by using the Office developer tools in Visual Studio have architectural features that emphasize stability and security, and enable them to work closely with Microsoft Office. This topic describes the following aspects of VSTO Add-ins:
 
 - [Understand VSTO Add-ins](#UnderstandingAddIns)

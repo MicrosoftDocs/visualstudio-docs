@@ -14,8 +14,9 @@ monikerRange: '>= vs-2019'
 ms.workload:
   - "multiple"
 ---
-
 # Attach to a process running on a Docker container 
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can debug apps running in either a Windows Docker Container or a Linux .NET Core Docker container using Visual Studio.
 
@@ -100,5 +101,3 @@ You can attach the Visual Studio debugger to a process running in a Windows Dock
 4. Choose the corresponding container process from the list of **Available processes** and select **Attach** to start debugging your C# container process.
 
     ![Screenshot of the Attach to Process dialog in Visual Studio. Connection type is set to Docker (Windows Container) and the dotnet.exe process is selected.](../debugger/media/docker-attach-complete-windows.png "Completed Windows Docker Attach Menu")
-
-5. Choose the corresponding container process from the list of available processes and choose **Attach** to start debugging your C# container process.

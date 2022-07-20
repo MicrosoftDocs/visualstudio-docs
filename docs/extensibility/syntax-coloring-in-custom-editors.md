@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Syntax Coloring in Custom Editors
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Visual Studio Environment SDK editors, including the core editor, use language services to identify specific syntactical items and display them with specified colors for a given document view.
 
 ## Colorization Requirements

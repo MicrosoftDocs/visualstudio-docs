@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Define custom SharePoint project item types
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Define a new SharePoint project item type when you want to create a new kind of SharePoint project item. For example, Visual Studio does not include SharePoint project items for adding fields or custom actions to a SharePoint site. You can define your own types of SharePoint project items for creating fields, custom actions, or other types of SharePoint components.
 
 ## Tasks for defining SharePoint project item types

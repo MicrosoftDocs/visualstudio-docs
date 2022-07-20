@@ -3,8 +3,8 @@ title: How do I activate my monthly Azure credit?
 description: How do I activate the monthly Azure credit included with my Visual Studio subscription? 
 ms.topic: include
 ms.assetid: aa53b1d3-8e88-4d8c-8385-23f15a7b660b
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 4/16/2021
 user.type: subscriber
 tags: benefit, azure

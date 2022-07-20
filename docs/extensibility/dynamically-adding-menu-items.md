@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Dynamically add menu items
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can add menu items at run time by specifying the `DynamicItemStart` command flag on a placeholder button definition in the Visual Studio command-table (*.vsct*) file, then defining (in code) the number of menu items to display and handling the command(s). When the VSPackage is loaded, the placeholder is replaced with the dynamic menu items.
 
  Visual Studio uses dynamic lists in the **Most Recently Used** (MRU) list, which displays the names of documents that have been opened recently, and the **Windows** list, which displays the names of windows that are currently open.   The `DynamicItemStart` flag on a command definition specifies that the command is a placeholder until the VSPackage is opened. When the VSPackage is opened, the placeholder is replaced with 0 or more commands that are created at run time and added to the dynamic list. You may not be able to see the position on the menu where the dynamic list appears until the VSPackage is opened.  To populate the dynamic list, Visual Studio asks the VSPackage to look for a command with an ID whose first characters are the same as the ID of the placeholder. When Visual Studio finds a matching command, it adds the name of the command  to the dynamic list. Then it increments the ID and looks for another matching command to add to the dynamic list until there are no more dynamic commands.
@@ -245,15 +247,18 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
         if (commandService != null)
         {
             // Add the DynamicItemMenuCommand for the expansion of the root item into N items at run time.
-            CommandID dynamicItemRootId = new CommandID(new Guid(DynamicMenuPackageGuids.guidDynamicMenuPackageCmdSet), (int)DynamicMenuPackageGuids.cmdidMyCommand);
-            DynamicItemMenuCommand dynamicMenuCommand = new DynamicItemMenuCommand(dynamicItemRootId,
+            CommandID dynamicItemRootId = new CommandID(
+                new Guid(DynamicMenuPackageGuids.guidDynamicMenuPackageCmdSet),
+                (int)DynamicMenuPackageGuids.cmdidMyCommand);
+            DynamicItemMenuCommand dynamicMenuCommand = new DynamicItemMenuCommand(
+                dynamicItemRootId,
                 IsValidDynamicItem,
                 OnInvokedDynamicItem,
                 OnBeforeQueryStatusDynamicItem);
                 commandService.AddCommand(dynamicMenuCommand);
-                }
+        }
 
-        dte2 = (DTE2)this.ServiceProvider.GetService(typeof(DTE));
+        this.dte2 = (DTE2)this.ServiceProvider.GetService(typeof(DTE));
     }
     ```
 

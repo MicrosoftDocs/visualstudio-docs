@@ -3,8 +3,8 @@ title: Where are my product keys?
 description: Find the product keys that are available with your Visual Studio subscription
 ms.topic: include
 ms.assetid: 57a80ba7-ecda-4bea-810f-add74a215d83
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 01/29/2021
 ms.faqid: q2_5
 ---

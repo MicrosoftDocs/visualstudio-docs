@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugBeforeSymbolSearchEvent2::GetModuleName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the name of the module currently being debugged.
 
 ## Syntax
 
-```cpp
-HRESULT GetModuleName(
-    BSTR *pbstrModuleName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int GetModuleName (
     string pbstrModuleName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetModuleName(
+    BSTR *pbstrModuleName
+);
+```
+---
 
 ## Parameters
 `pbstrModuleName`\

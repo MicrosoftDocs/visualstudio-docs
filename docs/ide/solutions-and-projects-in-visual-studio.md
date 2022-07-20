@@ -23,6 +23,8 @@ ms.workload:
 ---
 # What are solutions and projects in Visual Studio?
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this article, you'll learn what  a *project* and a *solution* is in Visual Studio. It also briefly covers the Solution Explorer tool window and how to create a new project.
 
 > [!NOTE]
@@ -76,13 +78,6 @@ A "solution folder" is a virtual folder that's only in **Solution Explorer**, wh
 
 After you create a new project, you can use **[Solution Explorer](use-solution-explorer.md)** to view and manage the project and solution and their associated items. The following illustration shows **Solution Explorer** with a C# solution that contains two projects:
 
-::: moniker range="vs-2017"
-
-![Screenshot of Solution Explorer with two projects.](../ide/media/vs2015_solution_explorer.png)
-
-The toolbar across the top of **Solution Explorer** has buttons to switch from a solution view to a folder view, show hidden files, collapse all nodes, and more.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -108,5 +103,4 @@ For ASP.NET Core projects, you can customize how files are nested in **Solution 
 - [Manage project and solution properties](managing-project-and-solution-properties.md)
 - [Filtered solutions in Visual Studio](filtered-solutions.md)
 - [Port, migrate, and upgrade projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)
-- [Resources for troubleshooting Visual Studio IDE errors](./reference/resources-for-troubleshooting-integrated-development-environment-errors.md)
 - [Projects and solutions (Visual Studio for Mac)](/visualstudio/mac/projects-and-solutions)

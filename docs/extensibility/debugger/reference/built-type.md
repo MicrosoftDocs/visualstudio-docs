@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # BUILT_TYPE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure specifies information about a field type taken from metadata.
 
 ## Syntax
 
-```cpp
-typedef struct _tagTYPE_BUILT {
-    ULONG32      ulAppDomainID;
-    GUID         guidModule;
-    IDebugField* pUnderlyingField;
-} BUILT_TYPE;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct BUILT_TYPE {
     public uint        ulAppDomainID;
@@ -38,6 +33,15 @@ public struct BUILT_TYPE {
     public IDebugField pUnderlyingField;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagTYPE_BUILT {
+    ULONG32      ulAppDomainID;
+    GUID         guidModule;
+    IDebugField* pUnderlyingField;
+} BUILT_TYPE;
+```
+---
 
 ## Members
 `ulAppDomainID`\

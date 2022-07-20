@@ -2,7 +2,7 @@
 title: "Property settings for Web projects | Microsoft Docs"
 description: Know how to change the property settings for a web site debug configuration in the Property Pages dialog box of Visual Studio.
 
-ms.date: "11/04/2016"
+ms.date: "01/14/2022"
 ms.topic: "reference"
 dev_langs:
   - "CSharp"
@@ -25,7 +25,15 @@ ms.workload:
   - "multiple"
 ---
 # Property Pages Settings for Web Projects
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can change the property settings for a web site debug configuration in the **Property Pages** dialog box, as discussed in [Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** dialog box.
+
+::: moniker range=">=vs-2022"
+>[!IMPORTANT]
+>Some of these settings don't apply to ASP.NET Core. To configure debug settings for ASP.NET Core, see [Project settings for C# debug configurations (.NET 5+, .NET Core)](../debugger/project-settings-for-csharp-debug-configurations-dotnetcore.md).
+::: moniker-end
 
 ### Start Options category
 

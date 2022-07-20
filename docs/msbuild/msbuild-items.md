@@ -21,7 +21,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
 
 ## Create items in a project file
 
- You declare items in the project file as child elements of an [ItemGroup](../msbuild/itemgroup-element-msbuild.md) element. The name of the child element is the type of the item. The `Include` attribute of the element specifies the items (files) to be included with that item type. For example, the following XML creates an item type that's named `Compile`, which includes two files.
+ You declare items in the project file as child elements of an [ItemGroup](../msbuild/itemgroup-element-msbuild.md) element. Valid item names begin with an uppercase or lowercase letter or underscore (`_`); valid subsequent characters include alphanumeric characters (letters or digits), underscore, and hyphen (`-`). The name of the child element is the type of the item. The `Include` attribute of the element specifies the items (files) to be included with that item type. For example, the following XML creates an item type that's named `Compile`, which includes two files.
 
 ```xml
 <ItemGroup>
@@ -160,7 +160,7 @@ For more information about wildcard characters, see [How to: Select the files to
 </Target>
 ```
 
- For more information, see [Transforms](../msbuild/msbuild-transforms.md).
+For more operations on items, see [MSBuild item functions](item-functions.md) and [Transforms](../msbuild/msbuild-transforms.md).
 
 ## Item definitions
 
@@ -199,6 +199,61 @@ For more information about wildcard characters, see [How to: Select the files to
     </ItemGroup>
 </Target>
 ```
+
+#### MatchOnMetadata attribute
+
+The `MatchOnMetadata` attribute is applicable only to `Remove` attributes that reference other items (for example, `Remove="@(Compile);@(Content)"`) and instructs the Remove operation to match items based on the values of specified metadata names, instead of matching based on the item values.
+
+Matching rule for `B Remove="@(A)" MatchOnMetadata="M"`: remove all items from `B` that have metadata `M`, whose metadata value `V` for `M` matches any item from `A` with metadata `M` of value `V`.
+
+```xml
+<Project>
+  <ItemGroup>
+    <A Include='a1' M1='1' M2='a' M3="e"/>
+    <A Include='b1' M1='2' M2='x' M3="f"/>
+    <A Include='c1' M1='3' M2='y' M3="g"/>
+    <A Include='d1' M1='4' M2='b' M3="h"/>
+
+    <B Include='a2' M1='x' m2='c' M3="m"/>
+    <B Include='b2' M1='2' m2='x' M3="n"/>
+    <B Include='c2' M1='2' m2='x' M3="o"/>
+    <B Include='d2' M1='3' m2='y' M3="p"/>
+    <B Include='e2' M1='3' m2='Y' M3="p"/>
+    <B Include='f2' M1='4'        M3="r"/>
+    <B Include='g2'               M3="s"/>
+
+    <B Remove='@(A)' MatchOnMetadata='M1;M2'/>
+  </ItemGroup>
+
+  <Target Name="PrintEvaluation">
+    <Message Text="%(B.Identity) M1='%(B.M1)' M2='%(B.M2)' M3='%(B.M3)'" />
+  </Target>
+</Project>
+```
+
+In the above example, item values `b2`, `c2`, and `d2` are removed from item `B` because:
+ - `b2` and `c2` from `B` match against `b1` from `A` on `M1=2` and `M2=x`
+ - `d2` from `B` matches against `c1` from `A` on `M1=3` and `M2=y`
+
+The `Message` task outputs the following:
+```
+  a2 M1='x' M2='c' M3='m'
+  e2 M1='3' M2='Y' M3='p'
+  f2 M1='4' M2='' M3='r'
+  g2 M1='' M2='' M3='s'
+```
+
+Example usage of `MatchOnMetadata` from the [msbuild common sdk](https://github.com/dotnet/msbuild/blob/808b2ae2a176679d15f8c3299e551a63cb55b799/src/Tasks/Microsoft.Common.CurrentVersion.targets#L5019):
+```xml
+      <_TransitiveItemsToCopyToOutputDirectory Remove="@(_ThisProjectItemsToCopyToOutputDirectory)" MatchOnMetadata="TargetPath" MatchOnMetadataOptions="PathLike" />
+```
+The above line removes items from `_TransitiveItemsToCopyToOutputDirectory` that have the same `TargetPath` metadata values from items in `_ThisProjectItemsToCopyToOutputDirectory`
+
+#### MatchOnMetadataOptions attribute
+
+Specifies the string matching strategy used by `MatchOnMetadata` for matching the metadata values between items (metadata names are always matched case insensitive). Possible values are `CaseSensitive`, `CaseInsensitive`, or `PathLike`. The default value is `CaseSensitive`.
+
+`PathLike` applies path aware normalization to the values like normalizing slash orientations, ignoring trailing slashes, eliminating `.` and `..`, and making all relative paths absolute against the current directory.
 
 ### <a name="BKMK_KeepMetadata"></a> KeepMetadata attribute
 
@@ -292,6 +347,8 @@ Output:
     Material:
 -->
 ```
+
+For more operations on items, see [MSBuild item functions](item-functions.md).
 
 ### <a name="BKMK_KeepDuplicates"></a> KeepDuplicates attribute
 

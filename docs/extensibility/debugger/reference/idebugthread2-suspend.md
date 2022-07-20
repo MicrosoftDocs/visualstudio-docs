@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugThread2::Suspend
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Suspends a thread.
 
 ## Syntax
 
-```cpp
-HRESULT Suspend ( 
-   DWORD *pdwSuspendCount
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 HRESULT Suspend ( 
    out uint pdwSuspendCount
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Suspend ( 
+   DWORD *pdwSuspendCount
+);
+```
+---
 
 ## Parameters
 `pdwSuspendCount`\

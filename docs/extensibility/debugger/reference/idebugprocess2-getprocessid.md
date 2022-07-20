@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess2::GetProcessId
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the GUID for this process.
 
 ## Syntax
 
-```cpp
-HRESULT GetProcessId(
-   GUID* pguidProcessId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProcessId(
    out Guid pguidProcessId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProcessId(
+   GUID* pguidProcessId
+);
+```
+---
 
 ## Parameters
 `pguidProcessId`\

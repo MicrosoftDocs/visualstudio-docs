@@ -19,21 +19,13 @@ dev_langs:
 - CSharp
 ---
 # EXCEPTION_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes an exception or run-time error thrown by the program being debugged.
 
 ## Syntax
 
-```cpp
-typedef struct tagEXCEPTION_INFO {
-    IDebugProgram2* pProgram;
-    BSTR            bstrProgramName;
-    BSTR            bstrExceptionName;
-    DWORD           dwCode;
-    EXCEPTION_STATE dwState;
-    GUID            guidType;
-} EXCEPTION_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct EXCEPTION_INFO {
     public IDebugProgram2 pProgram;
@@ -44,6 +36,18 @@ public struct EXCEPTION_INFO {
     public Guid           guidType;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagEXCEPTION_INFO {
+    IDebugProgram2* pProgram;
+    BSTR            bstrProgramName;
+    BSTR            bstrExceptionName;
+    DWORD           dwCode;
+    EXCEPTION_STATE dwState;
+    GUID            guidType;
+} EXCEPTION_INFO;
+```
+---
 
 ## Members
 `pProgram`\

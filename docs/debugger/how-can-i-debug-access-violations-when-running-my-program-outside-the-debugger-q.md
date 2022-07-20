@@ -5,8 +5,6 @@ description: Use the Just-in-Time Debugger to debug an access violation that occ
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-f1_keywords: 
-  - vs.debug.access
 dev_langs: 
   - CSharp
   - VB
@@ -24,6 +22,8 @@ ms.workload:
   - multiple
 ---
 # How Can I Debug Access Violations When Running My Program Outside the Debugger?
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Problem Description
  My program runs fine in the Visual Studio environment, but when I run it stand-alone with the Windows operating system, it produces an access violation. How can I debug this problem?

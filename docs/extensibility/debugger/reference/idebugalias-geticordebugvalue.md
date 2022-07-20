@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugAlias::GetICorDebugValue
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a managed code interface that represents the value associated with this alias.
 
 ## Syntax
 
-```cpp
-HRESULT GetICorDebugValue(
-   IUnknown** ppUnk
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetICorDebugValue(
    out object ppUnk
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetICorDebugValue(
+   IUnknown** ppUnk
+);
+```
+---
 
 ## Parameters
 `ppUnk`\

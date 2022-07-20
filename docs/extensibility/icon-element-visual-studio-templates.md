@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Icon element (Visual Studio templates)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the path and the filename of the image file that serves as the icon, which appears in either the **New Project** or the **Add New Item** dialog box, for the template.
 
  \<VSTemplate>

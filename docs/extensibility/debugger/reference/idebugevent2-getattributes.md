@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugEvent2::GetAttributes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the attributes for this debug event.
 
 ## Syntax
 
-```cpp
-HRESULT GetAttribute( 
-   DWORD* pdwAttrib
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAttribute( 
    out uint pdwAttrib
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAttribute( 
+   DWORD* pdwAttrib
+);
+```
+---
 
 ## Parameters
 `pdwAttrib`\

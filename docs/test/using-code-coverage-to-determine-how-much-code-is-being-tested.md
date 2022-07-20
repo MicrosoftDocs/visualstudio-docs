@@ -1,8 +1,9 @@
 ---
 title: Code coverage testing
 description: Learn how to use the code coverage feature of Visual Studio to determine what proportion of your project code is being tested by coded tests.
-ms.custom: SEO-VS-2020
-ms.date: 07/23/2019
+
+ms.custom: SEO-VS-2020, devdivchpfy22
+ms.date: 06/26/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - code coverage
@@ -17,17 +18,11 @@ ms.technology: vs-ide-test
 ---
 # Use code coverage to determine how much code is being tested
 
-To determine what proportion of your project's code is actually being tested by coded tests such as unit tests, you can use the code coverage feature of Visual Studio. To guard effectively against bugs, your tests should exercise or 'cover' a large proportion of your code.
+To determine what proportion of your project's code is being tested by coded tests such as unit tests, you can use the code coverage feature of Visual Studio. To effectively guard against bugs, your tests should exercise or 'cover' a large proportion of your code.
 
-Code coverage analysis can be applied to both managed (CLI) and unmanaged (native) code.
+Code coverage analysis is possible for both managed (CLI) and unmanaged (native) code.
 
-Code coverage is an option when you run test methods using Test Explorer. The results table shows the percentage of the code that was run in each assembly, class, and method. In addition, the source editor shows you which code has been tested.
-
-::: moniker range="vs-2017"
-
-![Code coverage results with coloring](../test/media/codecoverage1.png)
-
-::: moniker-end
+Code coverage option is available under the Test menu when you run test methods using Test Explorer. The results table shows the percentage of the code executed in each assembly, class, and procedure. The source editor highlights the tested code.
 
 ## Requirements
 
@@ -35,46 +30,46 @@ The code coverage feature is available only in Visual Studio Enterprise edition.
 
 ## Analyze code coverage
 
-::: moniker range="vs-2017"
-
-1. On the **Test** menu, choose **Analyze Code Coverage**.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 1. On the **Test** menu, select **Analyze Code Coverage for All Tests**.
 
-   ![Analyze code coverage menu in VS 2019](../test/media/vs-2019/analyze-code-coverage.png)
+    :::image type="content" source="media/vs-2019/analyze-code-coverage.png" alt-text="Screenshot of Test menu with Analyze code coverage highlighted.":::
+    > [!TIP]
+    > You can also run code coverage from the **Test Explorer** tool window.
 
-   You can also run code coverage from the Test Explorer tool window.
+1. After the tests have run, to see which lines have been run, choose ![Screenshot of Analyze code coverage menu in Visual Studio](../test/media/codecoverage-showcoloringicon.png) **Show Code Coverage Coloring** in the **Code Coverage Results** window. By default, code that is covered by tests is highlighted in light blue.
+    :::image type="content" source="media/vs-2022/code-coverage-highlight.png" alt-text="Screenshot showing code coverage highlighted.":::
 
-::: moniker-end
+1. To change the colors or to use bold face, choose **Tools** > **Options** > **Environment** > **Fonts and Colors** > **Show settings for: Text Editor**. Under **Display items**, adjust settings for the "Coverage" items, for example, **Coverage Not Touched Area**.
+    :::moniker range="=vs-2019"
+    :::image type="content" source="media/vs-2019/coverage-fonts-and-colors.png" alt-text="Screenshot showing code coverage fonts and colors.":::
+    :::moniker-end
 
-2. After the tests have run, to see which lines have been run, choose ![Show Code Coverage Coloring icon](../test/media/codecoverage-showcoloringicon.png) **Show Code Coverage Coloring** in the **Code Coverage Results** window. By default, code that is covered by tests is highlighted in light blue.
+    :::moniker range="=vs-2022"
+    :::image type="content" source="media/vs-2022/coverage-fonts-and-colors.png" alt-text="Screenshot showing code coverage fonts and colors":::
+    :::moniker-end
+1. If the results show low coverage, investigate which parts of the code aren't being exercised, and write more tests to cover them. Development teams typically aim for about 80% code coverage. In some situations, lower coverage is acceptable. For example, lower coverage is acceptable where some code is generated from a standard template.
 
-   > [!TIP]
-   > To change the colors or to use bold face, choose **Tools** > **Options** > **Environment** > **Fonts and Colors** > **Show settings for: Text Editor**. Under **Display items**, adjust settings for the "Coverage" items, for example, **Coverage Not Touched Area**.
-   >
-   > ![Code coverage fonts and colors](media/vs-2019/coverage-fonts-and-colors.png)
-
-3. If the results show low coverage, investigate which parts of the code are not being exercised, and write more tests to cover them. Development teams typically aim for about 80% code coverage. In some situations, lower coverage is acceptable. For example, lower coverage is acceptable where some code is generated from a standard template.
-
-> [!TIP]
-> - Turn compiler optimization off
-> - If you're working with unmanaged (native) code, use a debug build
-> - Generate .pdb (symbol) files for each assembly
+  > [!TIP]
+  > To optimize code coverage:
+  >
+  > - Turn compiler optimization off.
+  > - If you're working with unmanaged (native) code, use a debug build.
+  > - Generate *.pdb* (symbol) files for each assembly.
 
 If you don't get the results you expect, see [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md).
 
-Don't forget to run code coverage again after updating your code. Coverage results and code coloring are not automatically updated after you modify your code or when you run tests.
+Don't forget to run code coverage again after updating your code. Coverage results and code coloring aren't automatically updated after you modify your code or when you run tests.
+
+::: moniker range=">=vs-2022"
+> [!TIP]
+> Starting in Visual Studio 2022 Update 2, you can enable faster code coverage test results by selecting **Tools > Options > Environment > Preview Features**, then selecting **Code coverage experience improvements**, and then restarting Visual Studio.
+::: moniker-end
 
 ## Report in blocks or lines
 
-Code coverage is counted in *blocks*. A block is a piece of code with exactly one entry and exit point.  If the program's control flow passes through a block during a test run, that block is counted as covered. The number of times the block is used has no effect on the result.
+Code coverage is counted in *blocks*. Block is a part of code with exactly one entry and exit point. If the program's control flow passes through a block during a test run, that block is counted as covered. The number of times the block is used doesn't affect the result.
 
-You can also have the results displayed in terms of lines by choosing **Add/Remove Columns** in the table header. Some users prefer a count of lines because the percentages correspond more closely to the size of the fragments that you see in the source code. A long block of calculation would count as a single block even if it occupies many lines.
-
+You can also have the results displayed for lines by choosing **Add/Remove Columns** in the table header. Some users prefer a count of lines because the percentages correspond more closely to the size of the fragments that you see in the source code. A long block of calculation would count as a single block even if it occupies many lines.
 > [!TIP]
 > A line of code can contain more than one code block. If this is the case, and the test run exercises all the code blocks in the line, it is counted as one line. If some but not all code blocks in the line are exercised, it is counted as a partial line.
 
@@ -82,7 +77,7 @@ You can also have the results displayed in terms of lines by choosing **Add/Remo
 
 The **Code Coverage Results** window usually shows the result of the most recent run. The results will vary if you change your test data, or if you run only some of your tests each time.
 
-The code coverage window can also be used to view previous results, or results obtained on other computers.
+The **Code Coverage Results** window can also be used to view previous results, or results obtained on other computers.
 
 You can merge the results of several runs, for example from runs that use different test data.
 
@@ -100,19 +95,19 @@ You can merge the results of several runs, for example from runs that use differ
 
 In some situations, different blocks in your code will be used depending on the test data. Therefore, you might want to combine the results from different test runs.
 
-For example, suppose that when you run a test with input "2", you find that 50% of a particular function is covered. When you run the test a second time with the input "-2", you see in the coverage coloring view that the other 50% of the function is covered. Now you merge the results from the two test runs, and the report and coverage coloring view show that 100% of the function was covered.
+For example, suppose that when you run a test with input "2", you find that 50% of a particular function is covered. When you run the test a second time with the input "-2", you see in the coverage coloring view that the other 50% of the function is covered. Now you merge the results from the two test runs, and the report and coverage coloring view shows that 100% of the function was covered.
 
-Use ![Icon for Merge button in Code Coverage window](../test/media/codecoverage-mergeicon.png) **Merge Code Coverage Results** to do this. You can choose any combination of recent runs or imported results. If you want to combine exported results, you must import them first.
+Use ![Icon for Merge button in Code Coverage window.](../test/media/codecoverage-mergeicon.png) **Merge Code Coverage Results** to do this. You can choose any combination of recent runs or imported results. If you want to combine exported results, you must import them first.
 
 Use **Export Code Coverage Results** to save the results of a merge operation.
 
 ### Limitations in merging
 
-- If you merge coverage data from different versions of the code, the results are shown separately, but they are not combined. To get fully combined results, use the same build of the code, changing only the test data.
+- If you merge coverage data from different versions of the code, the results are shown separately, but they aren't combined. To get fully combined results, use the same build of the code, changing only the test data.
 
 - If you merge a results file that has been exported and then imported, you can only view the results by lines, not by blocks. Use the **Add/Remove Columns** command to show the line data.
 
-- If you merge results from tests of an ASP.NET project, the results for the separate tests are displayed, but not combined. This applies only to the ASP.NET artifacts themselves: results for any other assemblies will be combined.
+- If you merge results from tests of an ASP.NET project, the results for the separate tests are displayed, but not combined. This behavior applies only to the ASP.NET artifacts themselves: results for any other assemblies will be combined.
 
 ## Exclude elements from the code coverage results
 
@@ -122,6 +117,8 @@ You might want to exclude specific elements in your code from the coverage score
 > Excluding a class does not exclude its derived classes.
 
 For example:
+
+### [C#](#tab/csharp)
 
 ```csharp
 using System.Diagnostics.CodeAnalysis;
@@ -152,6 +149,9 @@ public class ExampleClass1
 [ExcludeFromCodeCoverage]
 class ExampleClass2 { ... }
 ```
+
+
+### [VB](#tab/vb)
 
 ```vb
 Imports System.Diagnostics.CodeAnalysis
@@ -185,6 +185,8 @@ Class ExampleClass2
 ...
 End Class
 ```
+
+### [C++](#tab/cpp)
 
 ```cpp
 // A .cpp file compiled as managed (CLI) code.
@@ -236,7 +238,9 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
 
 // After setting exclusions, restore the previous managed/unmanaged state:
 #pragma managed(pop)
+
 ```
+---
 
 Use the following macros:
 
@@ -248,7 +252,7 @@ Use the following macros:
 
 - *FunctionName* is a fully qualified function name. It may contain wildcards. For example, to exclude all the functions of a class, write `MyNamespace::MyClass::*`
 
-- *SourceFilePath* is the local or UNC path of a .cpp file. It may contain wildcards. The following example excludes all files in a particular directory: `\\MyComputer\Source\UnitTests\*.cpp`
+- *SourceFilePath* is the local or UNC path of a *.cpp* file. It may contain wildcards. The following example excludes all files in a particular directory: ```\\MyComputer\Source\UnitTests\*.cpp```
 
 - `#include <CodeCoverage\CodeCoverage.h>`
 
@@ -269,37 +273,28 @@ You can exercise more control over which assemblies and elements are selected fo
 
 ## Analyze code coverage in Azure Pipelines
 
-When you check in your code, your tests run on the build server along with tests from other team members. It's useful to analyze code coverage in Azure Pipelines to get the most up-to-date and comprehensive picture of coverage in the whole project. It also includes automated system tests and other coded tests that you don't usually run on the development machines. For more information, see [Run unit tests with your builds](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts&preserve-view=true).
+When you check in your code, your tests run on the build server along with tests from other team members. It's useful to analyze code coverage in Azure Pipelines to get the most up-to-date and comprehensive picture of coverage in the whole project. Code coverage in Azure Pipelines also includes automated system tests and other coded tests that you don't usually run on the development machines.
 
 ## Analyze code coverage from the command line
 
-To run tests from the command line, use *vstest.console.exe*. Code coverage is an option of the *vstest.console.exe* utility.
+To run tests from the command line, use *vstest.console.exe* utility. Code coverage is an option of the *vstest.console.exe* utility invoked by ```/EnableCodeCoverage``` option.
 
 1. Launch the Developer Command Prompt for Visual Studio:
 
-   ::: moniker range="vs-2017"
+   In the Windows **Start** menu, search ```Developer Command Prompt for VS``` and select the App result that's associated with your search text.
 
-   In the Windows **Start** menu, choose **Visual Studio 2017** > **Developer Command Prompt for VS 2017**.
-
-   ::: moniker-end
-
-   ::: moniker range=">=vs-2019"
-
-   In the Windows **Start** menu, choose **Visual Studio 2019** > **Developer Command Prompt for VS 2019**.
-
-   ::: moniker-end
-
-2. At the command prompt, run the following command:
+1. At the command prompt, run the following command:
 
    ```shell
    vstest.console.exe MyTestAssembly.dll /EnableCodeCoverage
    ```
 
-For more information, see [VSTest.Console.exe command-line options](vstest-console-options.md).
+    > [!TIP]
+    >For Developer PowerShell, the starting directory of the shell is the Visual Studio Project Location. Replace *MyTestAssembly.dll* with path and test file name. For more information, see [VSTest.Console.exe command-line options](vstest-console-options.md).
 
 ## Troubleshoot
 
-If you do not see code coverage results, the [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md) article might help you.
+If you don't see code coverage results, the [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md) article might help you.
 
 ## See also
 

@@ -2,8 +2,8 @@
 title: How do I cancel monthly or annual subscriptions?
 description: More information is needed on how to cancel a monthly or annual subscription
 ms.assetid: 93d4b42a-d59c-4206-a562-44f9adc73bce  
-author: CaityBuschlen 
-ms.author: cabuschl 
+author: evanwindom 
+ms.author: amast 
 ms.date: 09/29/2021 
 user.type: admin 
 tags: cancel, cloud, monthly, annual 

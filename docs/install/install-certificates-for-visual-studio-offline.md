@@ -1,8 +1,7 @@
 ---
 title: Install certificates for an offline installation
 description: Learn how to install certificates for a Visual Studio offline installation.
-ms.date: 03/29/2021
-
+ms.date: 3/3/2022
 ms.topic: how-to
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -18,6 +17,8 @@ ms.technology: vs-installation
 ---
 # Install certificates required for Visual Studio offline installation
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio is primarily designed to be installed on an internet-connected machine, since many components are updated regularly. However, with some extra steps, it's possible to deploy Visual Studio in an environment where a working internet connection is unavailable.
 
 The Visual Studio setup engine installs only content that is trusted. It does this by checking Authenticode signatures of the content being downloaded and verifying that all content is trusted before installing it. This keeps your environment safe from attacks where the download location is compromised. Visual Studio setup therefore requires that several standard Microsoft root and intermediate certificates are installed and up-to-date on a user's machine. If the machine has been kept up to date with Windows Update, signing certificates usually are up to date. If the machine is connected to the internet, during installation Visual Studio may refresh certificates as necessary to verify file signatures. If the machine is offline, the certificates must be refreshed another way.
@@ -28,13 +29,6 @@ There are three options for installing or updating certificates in an offline en
 
 ### Option 1 - Manually install certificates from a layout folder
 
-::: moniker range="vs-2017"
-
-When you create a [network layout](../install/create-a-network-installation-of-visual-studio.md) or a [local offline cache](../install/create-an-offline-installation-of-visual-studio.md), the necessary certificates are downloaded to the Certificates folder. You can then manually install the certificates by double-clicking each of the certificate files, and then clicking through the Certificate Manager wizard. If asked for a password, leave it blank.
-
-**Update**: For Visual Studio 2017 version 15.8 Preview 2 or later, you can manually install the certificates by right-clicking each of the certificate files, selecting Install Certificate, and then clicking through the Certificate Manager wizard.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -112,7 +106,7 @@ If the certificates names were not in the **Issued To** columns, they must be in
 
 ## Install Visual Studio
 
-After you install the certificates on the client machine, then you are ready to [install Visual Studio from the local cache](../install/create-an-offline-installation-of-visual-studio.md#step-3---install-visual-studio-from-the-local-cache), or [deploy Visual Studio from the network layout share](create-a-network-installation-of-visual-studio.md#deploy-from-a-network-installation) to the client machine.
+After you install the certificates on the client machine, then you are ready to [install Visual Studio from the local layout](../install/create-an-offline-installation-of-visual-studio.md#step-3---install-visual-studio-from-the-local-layout), or [deploy Visual Studio from the network layout share](create-a-network-installation-of-visual-studio.md#install-visual-studio-onto-a-client-machine-from-a-network-installation) to the client machine.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

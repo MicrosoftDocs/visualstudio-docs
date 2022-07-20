@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpressionEvaluator::SetLocale
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method sets the language to use to create printable results.
 
 ## Syntax
 
-```cpp
-HRESULT SetLocale( 
-   WORD wLangID
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetLocale(
    ushort wLangID
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetLocale( 
+   WORD wLangID
+);
+```
+---
 
 ## Parameters
 `wLangID`\

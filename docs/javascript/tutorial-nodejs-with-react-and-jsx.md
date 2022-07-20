@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Tutorial: Create a Node.js and React app in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 With Visual Studio, you can easily create a Node.js project and use IntelliSense and other built-in features that support Node.js. In this tutorial, you create a Node.js web app project from a Visual Studio template. Then, you create a simple app using React.
 
 In this tutorial, you learn how to:
@@ -65,7 +67,7 @@ This tutorial requires the following prerequisites:
      
   1. In the Visual Studio Installer, select the **Node.js development** workload, and select **Install**.
      
-     ![Screenshot showing the Node j s workload selected in the Visual Studio Installer.](media/quickstart-nodejs-workload.png)
+     ![Screenshot showing the Node j s workload selected in the Visual Studio Installer.](media/tutorial-nodejs-workload.png)
   
   If you have Visual Studio installed but need the Node.js workload:
   
@@ -154,29 +156,7 @@ First, create a Node.js web app project.
 
     (5) Project files such as *server.js* show up under the project node. *server.js* is the project startup file and that is why it shows up in **bold**. You can set the startup file by right-clicking a file in the project and selecting **Set as Node.js startup file**.
 ::: moniker-end
-::: moniker range="vs-2017"
-1. Open Visual Studio.
 
-1. Create a new project.
-
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web Application**, type the name **NodejsWebAppBlank**, then choose **OK**.
-
-    If you don't see the **Blank Node.js Web Application** project template, you must add the **Node.js development** workload. For detailed instructions, see the [Prerequisites](#prerequisites).
-
-    Visual Studio creates the new solution and opens your project.
-
-    ![Screenshot showing the Node.js project in Solution Explorer](media/tutorial-nodejs-react-project-structure.png)
-
-    (1) Highlighted in **bold** is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties** (or press **Alt** + **Enter**). You can do round-tripping with other development tools, because the project file does not make custom changes to the Node.js project source.
-
-    (2) At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
-
-    (3) The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box or install and update packages using the settings in *package.json* and right-click options in the npm node.
-
-    (4) *package.json* is a file used by npm to manage package dependencies and package versions for locally installed packages. For more information, see [Manage npm packages](../javascript/npm-package-management.md).
-
-    (5) Project files such as *server.js* show up under the project node. *server.js* is the project startup file and that is why it shows up in **bold**. You can set the startup file by right-clicking a file in the project and selecting **Set as Node.js startup file**.
-::: moniker-end
 
 ## Add npm packages
 
@@ -442,9 +422,7 @@ Visual Studio versions starting with Visual Studio 2019 require a build script. 
     ::: moniker range="=vs-2019"
     ![Screenshot that shows selecting Chrome as the debug target.](media/vs-2019/tutorial-nodejs-react-debug-target.png)
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    ![Screenshot that shows selecting Chrome as the debug target.](media/tutorial-nodejs-react-debug-target.png)
-    ::: moniker-end
+
 
     If you know your preferred debug target is available on your machine, but it doesn't appear as an option, select **Browse With** from the debug target dropdown list. Select your default browser target in the list, and select **Set as Default**.
 
@@ -515,19 +493,6 @@ To start your browser with debugging enabled:
   `chrome.exe --remote-debugging-port=9222`
 ::: moniker-end
 
-::: moniker range="vs-2017"
-For this scenario, use Chrome.
-
-1. Close all Chrome browser windows.
-
-   Other browser instances can prevent the browser from opening with debugging enabled. Browser extensions might prevent full debug mode. You might need to open Task Manager to find all running Chrome instances.
-
-2. Start your browser with debugging enabled.
-
-    Open the **Run** command from the Windows **Start** button (right-click and choose **Run**), and enter the following command:
-
-    `chrome.exe --remote-debugging-port=9222`
-::: moniker-end
 
 The browser starts with debugging enabled. The app isn't running yet, so the browser page is empty.
 
@@ -592,9 +557,7 @@ The browser starts with debugging enabled. The app isn't running yet, so the bro
     ::: moniker range=">=vs-2019"
     Make sure the correct debugger for your target browser, **JavaScript (Chrome)** or **JavaScript (Microsoft Edge - Chromium)**, appears in the **Attach to** field. Type *chrome* or *edge* in the filter box to filter the results.
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    In Visual Studio 2017, choose **Webkit code** in the **Attach to** field. Type **chrome** in the filter box to filter the search results.
-    ::: moniker-end
+
 
 1. Select the browser process with the correct host port, **localhost** in this example. The port number **1337** or **localhost** might also appear in the **Title** field to help you select the correct process.
 
@@ -605,11 +568,7 @@ The browser starts with debugging enabled. The app isn't running yet, so the bro
 
     ![Screenshot showing the Attach to process dialog box.](../javascript/media/tutorial-nodejs-react-attach-to-process-edge.png)
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    ![Screenshot showing the Attach to process dialog box.](../javascript/media/tutorial-nodejs-react-attach-to-process.png)
 
-    When the debugger attaches correctly, the DOM Explorer and the JavaScript Console open in Visual Studio. These debugging tools are similar to Chrome Developer Tools and F12 Tools for Microsoft Edge.
-    ::: moniker-end
 
     > [!TIP]
     > If the debugger doesn't attach and you see the message **Unable to attach to the process. An operation is not legal in the current state.**, use Task Manager to close all instances of the target browser before starting the browser in debugging mode. Browser extensions may be running and preventing full debug mode.

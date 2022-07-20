@@ -19,10 +19,20 @@ dev_langs:
 - CSharp
 ---
 # DUMPTYPE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies how much of a program's state (such as running threads, stack frames, and current instruction address) to dump.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_DUMPTYPE {
+    DUMP_MINIDUMP = 0,
+    DUMP_FULLDUMP = 1
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_DUMPTYPE {
     DUMP_MINIDUMP = 0,
@@ -30,13 +40,7 @@ enum enum_DUMPTYPE {
 };
 typedef DWORD DUMPTYPE;
 ```
-
-```csharp
-public enum enum_DUMPTYPE {
-    DUMP_MINIDUMP = 0,
-    DUMP_FULLDUMP = 1
-};
-```
+---
 
 ## Fields
 `DUMP_MINIDUMP`\

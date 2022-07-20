@@ -1,7 +1,8 @@
 ---
-title: Manage package dependencies with requirements.txt
-description: A requirements.txt file describes a project's dependencies. If you receive a project that contains a requirements.txt file, you can easily install those dependencies in one step.
-ms.date: 03/18/2019
+title: Manage Python package dependencies
+description: Use pip freeze > requirements.txt and manage python package dependencies in Visual Studio. 
+ms.date: 12/11/2021
+ms.custom: devdivchpfy22
 ms.topic: how-to
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -12,8 +13,9 @@ ms.workload:
   - python
   - data-science
 ---
+# Manage required Python packages with requirements.txt
 
-# Manage required packages with requirements.txt
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you share a project with others, use a build system, or plan to copy the project to any other location where you need to restore an environment, you need to specify the external packages that the project requires. The recommended approach is to use a [requirements.txt file](https://pip.readthedocs.org/en/latest/user_guide.html#requirements-files) (readthedocs.org) that contains a list of commands for pip that installs the required versions of dependent packages. The most common command is `pip freeze > requirements.txt`, which records an environment's current package list into *requirements.txt*.
 
@@ -21,11 +23,21 @@ Technically, any filename may be used to track requirements (by using `-r <full 
 
 - If you've loaded a project that contains *requirements.txt* and wish to install all the packages listed in that file, expand the **Python Environments** node in **Solution Explorer**, then right-click an environment node and select **Install from requirements.txt**:
 
-    ![Install from requirements.txt](media/environments/environments-requirements-txt-install.png)
+    :::moniker range=">=vs-2019"
+    ![Install from requirements.txt-2019](media/environments/environments-requirements-txt-install.png)
+    :::moniker-end
 
 - If you want to install the dependencies in a virtual environment, create and activate that environment first, then use the **Install from requirements.txt** command. For more information on creating a virtual environment, see [Use virtual environments](selecting-a-python-environment-for-a-project.md#use-virtual-environments).
 
 - If you already have all the necessary packages installed in an environment, you can right-click that environment in **Solution Explorer** and select **Generate requirements.txt** to create the necessary file. If the file already exists, a prompt appears for how to update it:
+
+    :::moniker range=">=vs-2022"
+    ![Generate requirements.txt](media/environments/environments-requirements-txt-install-2022.png)
+    :::moniker-end
+
+    :::moniker range="<=vs-2019"
+    ![Generate requirements.txt](media/environments/environments-requirements-txt-install.png)
+    :::moniker-end
 
     ![Update requirements.txt options](media/environments/environments-requirements-txt-replace.png)
 
@@ -33,9 +45,9 @@ Technically, any filename may be used to track requirements (by using `-r <full 
   - **Refresh existing entries** detects package requirements and updates the version specifiers to match the version you currently have installed.
   - **Update and add entries** refreshes any requirements that are found, and adds all other packages to the end of the file.
 
-Because *requirements.txt* files are intended to freeze the requirements of an environment, all installed packages are written with precise versions. Using precise versions ensures that you can easily reproduce your environment on another computer. Packages are included even if they were installed with a version range, as a dependency of another package, or with an installer other than pip.
+The *requirements.txt* files contain precise versions of all installed packages, and you can use these files to freeze the requirements of an environment. Using precise versions, you can easily reproduce your environment on another computer. The requirements files include packages even if they were installed with a version range, as a dependency of another package, or with an installer other than pip.
 
-If a package cannot be installed by pip and it appears in a *requirements.txt* file, the entire installation fails. In this case, manually edit the file to exclude this package or to use [pip's options](https://pip.readthedocs.org/en/latest/reference/pip_install.html#requirements-file-format) to refer to an installable version of the package. For example, you may prefer to use [`pip wheel`](https://pip.readthedocs.org/en/latest/reference/pip_wheel.html) to compile a dependency and add the `--find-links <path>` option to your *requirements.txt*:
+If pip doesn't install a package, and the package appears in a *requirements.txt* file, the entire installation fails. In this case, manually edit the file to exclude this package or to use [pip's options](https://pip.readthedocs.org/en/latest/reference/pip_install.html#requirements-file-format) to refer to an installable version of the package. For example, you may prefer to use [`pip wheel`](https://pip.readthedocs.org/en/latest/reference/pip_wheel.html) to compile a dependency and add the `--find-links <path>` option to your *requirements.txt*:
 
 ```output
 C:\Project>pip wheel azure

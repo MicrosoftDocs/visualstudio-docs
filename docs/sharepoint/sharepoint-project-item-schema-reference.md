@@ -28,6 +28,8 @@ ms.workload:
   - "office"
 ---
 # SharePoint project item schema reference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Visual Studio uses the SharePoint project item schema to validate the contents of *.spdata* files. An *.spdata* file specifies the contents and behavior of a SharePoint project item. For more information about the contents of SharePoint project items, see [Create item templates and project templates for SharePoint project items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).
 
  The SharePoint project item schema is named ProjectItemModelSchema.xsd and is installed by default in %Program Files (x86)%\Microsoft Visual Studio 11.0\Xml\Schemas.

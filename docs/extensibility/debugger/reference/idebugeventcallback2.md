@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugEventCallback2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is used by the debug engine (DE) to send debug events to the session debug manager (SDM).
 
 ## Syntax

@@ -2,7 +2,7 @@
 title: Understand build configurations
 description: Learn how you need build configurations when you need to build your projects with different settings in Visual Studio.
 ms.custom: SEO-VS-2020
-ms.date: 01/20/2020
+ms.date: 12/06/2021
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 f1_keywords:
@@ -31,9 +31,16 @@ ms.workload:
 ---
 # Understand build configurations
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You need build configurations when you need to build your projects with different settings. For example, **Debug** and **Release** are configurations and different compiler options are used accordingly when building them.  One configuration is active and is indicated in the command bar at the top of the IDE.
 
-![Active configuration](media/understanding-build-configurations/active-config.png)
+:::moniker range="<=vs-2019"
+![Screenshot showing the active configuration in the main Visual Studio toolbar.](media/understanding-build-configurations/active-config.png)
+:::moniker-end
+:::moniker range=">=vs-2022"
+![Screenshot showing the active configuration in the main Visual Studio toolbar.](media/vs-2022/build-configurations-active-config.png)
+:::moniker-end
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Build configurations in Visual Studio for Mac](/visualstudio/mac/configurations).
@@ -44,10 +51,10 @@ You can create your own build configurations at the solution and project level. 
 
 To create, select, modify, or delete a configuration, you can use the **Configuration Manager**. To open it, on the menu bar, choose **Build** > **Configuration Manager**, or just type **Configuration** in the search box. You can also use the **Solution Configurations** list on the **Standard** toolbar to select a configuration or open the **Configuration Manager**.
 
-![Configuration Manager](media/understanding-build-configurations/config-manager.png)
+![Screenshot of Configuration Manager dialog.](media/understanding-build-configurations/config-manager.png)
 
 > [!NOTE]
-> If you can't find solution configuration settings on the toolbar and can't access the **Configuration Manager**, [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] development settings may be applied. For more information, see [How to: Manage configurations with Visual Basic developer settings applied](../ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md).
+> If you can't find solution configuration settings on the toolbar and can't access the **Configuration Manager**, it might be because you're using [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] development settings. For more information, see [How to: Manage configurations with Visual Basic developer settings applied](../ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md).
 
 By default, **Debug** and **Release** configurations are included in projects that are created by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] templates. A **Debug** configuration supports the debugging of an app, and a **Release** configuration builds a version of the app that can be deployed. For more information, see [How to: Set debug and release configurations](../debugger/how-to-set-debug-and-release-configurations.md). You can also create custom solution configurations and project configurations. For more information, see [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md).
 
@@ -65,7 +72,12 @@ The active solution configuration also provides context to the IDE. For example,
 
 The configuration and platform that a project targets are used together to specify the build settings and compiler options to use when it's built. A project can have different settings for each combination of configuration and platform. To modify the properties of a project, open the shortcut menu for the project in **Solution Explorer**, and then choose **Properties**.  At the top of the **Build** tab of the project designer, choose an active configuration to edit its build settings.
 
-![Project designer configurations](media/understanding-build-configurations/project-designer-configuration.png)
+:::moniker range="<=vs-2019"
+![Screenshot of project designer configurations.](media/understanding-build-configurations/project-designer-configuration.png)
+:::moniker-end
+:::moniker range=">=vs-2022"
+![Screenshot of project designer configurations.](media/vs-2022/build-configuration-project-designer-configuration.png)
+:::moniker-end
 
 ## Building multiple configurations
 

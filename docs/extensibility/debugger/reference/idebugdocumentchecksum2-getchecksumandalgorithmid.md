@@ -18,19 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentChecksum2::GetChecksumAndAlgorithmId
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the document checksum and algorithm identifier given the maximum number of bytes to use.
 
 ## Syntax
 
-```cpp
-HRESULT GetChecksumAndAlgorithmId(
-    GUID  *pRetVal,
-    ULONG cMaxBytes,
-    BYTE  *pChecksum,
-    ULONG *pcNumBytes
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int GetChecksumAndAlgorithmId(
     out Guid pRetVal,
@@ -39,6 +33,16 @@ public int GetChecksumAndAlgorithmId(
     out uint pcNumBytes
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetChecksumAndAlgorithmId(
+    GUID  *pRetVal,
+    ULONG cMaxBytes,
+    BYTE  *pChecksum,
+    ULONG *pcNumBytes
+);
+```
+---
 
 ## Parameters
 `pRetVal`\

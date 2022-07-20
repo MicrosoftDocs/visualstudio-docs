@@ -8,7 +8,7 @@ metadata:
   description: Create C# apps by using Visual Studio.
   ms.custom: vs-acquisition
   ms.topic: landing-page
-  ms.date: 06/19/2021
+  ms.date: 10/25/2021
   author: ghogen
   ms.author: ghogen  
   manager: jmartens
@@ -32,9 +32,7 @@ landingContent:
           - text: Start a guided tour 
             url: visual-studio-ide.md
       - linkListType: quickstart
-        links:
-          - text: Create a "Hello World" console app
-            url: ../../ide/quickstart-csharp-console.md        
+        links: 
           - text: Create a "Hello World" web app
             url: ../../ide/quickstart-aspnet-core.md
 

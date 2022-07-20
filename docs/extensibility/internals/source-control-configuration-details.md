@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Source Control Configuration Details
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In order to implement source control, you need to properly configure your project system or editor to do the following:
 
 - Request permission to transition to changed state

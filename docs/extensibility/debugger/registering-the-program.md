@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Register the program
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 After the debug engine has acquired a port, represented by an [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md) interface, the next step in enabling the program to be debugged is to register it with the port. Once registered, the program is available for debugging by one of the following means:
 
 - The process of attaching, which allows the debugger to gain complete debugging control of a running application.

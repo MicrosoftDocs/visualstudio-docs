@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IEEDataStorage
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents an array of bytes.
 
 ## Syntax

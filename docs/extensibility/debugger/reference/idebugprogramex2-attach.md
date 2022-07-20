@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramEx2::Attach
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Attach a session to a program.
 
 ## Syntax
 
-```cpp
-HRESULT Attach( 
-   IDebugEventCallback2* pCallback,
-   DWORD                 dwReason,
-   IDebugSession2*       pSession
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Attach( 
    IDebugEventCallback2 pCallback,
@@ -38,6 +33,15 @@ int Attach( 
    IDebugSession2       pSession
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Attach( 
+   IDebugEventCallback2* pCallback,
+   DWORD                 dwReason,
+   IDebugSession2*       pSession
+);
+```
+---
 
 ## Parameters
 `pCallback`\

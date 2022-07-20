@@ -9,10 +9,12 @@ ms.assetid: 346f70b9-7b52-4688-a8e8-8f53869618d3
 ms.devlang: dotnet
 ms.topic: troubleshooting
 ms.workload: multiple
-ms.date: 01/27/2020
+ms.date: 11/12/2021
 ms.author: ghogen
 ---
 # Troubleshoot Visual Studio development with Docker
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you're working with Visual Studio Container Tools, you may encounter issues while building or debugging your application. Below are some common troubleshooting steps.
 
@@ -23,10 +25,10 @@ File sharing only needs to be managed if you are using Hyper-V with Docker. If y
 1. Right-click **Docker for Windows** in the notification area, and then select **Settings**.
 1. Select **Resources** > **File Sharing** and share the folder that needs to be accessed. Sharing your entire system drive is possible but not recommended.
 
-    :::image type="content" source="media//troubleshooting-docker-errors/docker-settings-image.png" alt-text="Shared drives":::
+    ![Shared drives](media/troubleshooting-docker-errors/docker-settings-image.png)
 
 > [!TIP]
-> Visual Studio versions later than Visual Studio 2017 version 15.6 will  prompt when **Shared Drives** aren't configured.
+> Visual Studio versions later than Visual Studio 2017 version 15.6 will prompt when **Shared Drives** aren't configured.
 
 ## Unable to start debugging
 
@@ -53,7 +55,7 @@ The current user must be in the 'docker-users' group to use Docker Desktop.
 Add yourself to the 'docker-users' group and then log out of Windows.
 ```
 
-You must be a member of the 'docker-users' group in order to have permissions to work with Docker containers.  To add yourself to the group in Windows 10, follow these steps:
+You must be a member of the 'docker-users' group in order to have permissions to work with Docker containers.  To add yourself to the group in Windows 10 or later, follow these steps:
 
 1. From the Start menu, open **Computer Management**.
 1. Expand **Local Users and Groups**, and choose **Groups**.
@@ -81,7 +83,8 @@ By default, Docker stores images in the *%ProgramData%/Docker/* folder, which is
     "graph": "D:\\mypath\\images"
 ```
 
-:::image type="content" source="media/troubleshooting-docker-errors/docker-daemon-settings.png" alt-text="Screenshot of Docker File Sharing":::
+  ![Screenshot of Docker File Sharing](media/troubleshooting-docker-errors/docker-daemon-settings.png)
+
 
 Click **Apply & Restart**. These steps modify the configuration file at *%ProgramData%\docker\config\daemon.json*. Previously built images are not moved.
 
@@ -89,7 +92,7 @@ Click **Apply & Restart**. These steps modify the configuration file at *%Progra
 
 When adding Docker support to a project, you choose either a Windows or a Linux container. If the Docker Server host is not configured to run the same container type as the project target, you will likely see an error similar to the one below:
 
-:::image type="content" source="media/troubleshooting-docker-errors/docker-host-config-change-linux-to-windows.png" alt-text="Screenshot of Docker Host and Project Mismatch":::
+  ![Screenshot of Docker Host and Project Mismatch](media/troubleshooting-docker-errors/docker-host-config-change-linux-to-windows.png)
 
 To resolve this issue:
 

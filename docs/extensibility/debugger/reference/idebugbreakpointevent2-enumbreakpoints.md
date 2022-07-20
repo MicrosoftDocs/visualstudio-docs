@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugBreakpointEvent2::EnumBreakpoints
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator for all the breakpoints that fired at the current code location.
 
 ## Syntax
 
-```cpp
-HRESULT EnumBreakpoints(
-  IEnumDebugBoundBreakpoints2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumBreakpoints(
   out IEnumDebugBoundBreakpoints2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumBreakpoints(
+  IEnumDebugBoundBreakpoints2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

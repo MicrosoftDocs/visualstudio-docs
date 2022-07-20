@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortSupplier2::RemovePort
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Removes a port.
 
 ## Syntax
 
-```cpp
-HRESULT RemovePort( 
-   IDebugPort2* pPort
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int RemovePort( 
    IDebugPort2 pPort
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT RemovePort( 
+   IDebugPort2* pPort
+);
+```
+---
 
 ## Parameters
 `pPort`\

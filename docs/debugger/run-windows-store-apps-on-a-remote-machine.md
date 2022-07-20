@@ -19,6 +19,8 @@ ms.workload:
 ---
 # Debug UWP apps on remote machines from Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can use Visual Studio to run, debug, profile, and test a Universal Windows Platform (UWP) app on another computer or device. Running the UWP app on a remote machine is especially helpful when the Visual Studio computer does not support UWP-specific functionality like touch, geo-location, or physical orientation.
 
 ## <a name="BKMK_Prerequisites"></a> Prerequisites
@@ -29,7 +31,7 @@ To debug a UWP app on a remote device from Visual Studio:
 - The remote machine and the Visual Studio computer must be connected over a network, or connected directly through a USB or Ethernet cable. Debugging over the internet is not supported.
 - You must [turn on developer mode](/windows/uwp/get-started/enable-your-device-for-development) on both the Visual Studio computer and the remote machine.
 - Remote computers must be running the Remote Tools for Visual Studio.
-  - Some Windows 10 versions start and run the remote tools automatically. Otherwise, [install and run the Remote Tools for Visual Studio](#BKMK_download).
+  - Some Windows 10 and later versions start and run the remote tools automatically. Otherwise, [install and run the Remote Tools for Visual Studio](#BKMK_download).
   - Windows Mobile 10 devices don't require or support the remote tools.
 
 ## <a name="BKMK_ConnectVS"></a> Configure a Visual Studio project for remote debugging
@@ -37,7 +39,7 @@ To debug a UWP app on a remote device from Visual Studio:
 You use the project **Properties** to specify the remote device to connect to. The settings differ depending on the programming language.
 
 > [!CAUTION]
-> By default, the property page sets **Universal (Unencrypted Protocol)** as the **Authentication Type** for Windows 10 remote connections. You may need to set **No Authentication** to connect to the remote debugger. **Universal (Unencrypted Protocol)** and **No Authentication** protocols have no network security, so data passed between the development and remote machines is vulnerable. Choose these authentication types only for trusted networks that you are sure are not at risk from malicious or hostile traffic.
+> By default, the property page sets **Universal (Unencrypted Protocol)** as the **Authentication Type** for Windows 10 and later remote connections. You may need to set **No Authentication** to connect to the remote debugger. **Universal (Unencrypted Protocol)** and **No Authentication** protocols have no network security, so data passed between the development and remote machines is vulnerable. Choose these authentication types only for trusted networks that you are sure are not at risk from malicious or hostile traffic.
 >
 >If you choose **Windows Authentication** for the **Authentication Type**, you will need to sign in to the remote machine when debugging. The remote debugger must also be running under **Windows Authentication** mode, with the same user account as on the Visual Studio machine.
 
@@ -79,7 +81,7 @@ In the **Remote Connections** dialog box, you can search for a specific remote c
 For Visual Studio to debug apps on a remote computer, the remote computer must be running the Remote Tools for Visual Studio.
 
 - Windows Mobile 10 devices do not require or support the remote tools.
-- Windows 10 PCs running Creator's Update (version 1703) and later, Windows 10 Xbox, IoT, and HoloLens devices install the remote tools automatically when you deploy the app.
+- Windows 11 PCs, and Windows 10 PCs running Creator's Update (version 1703) and later, Windows 10 Xbox, IoT, and HoloLens devices install the remote tools automatically when you deploy the app.
 - On pre-Creator's Update Windows 10 PCs, you must manually download, install, and be running the remote tools on the remote computer before you start debugging.
 
 **To download and install the remote tools:**

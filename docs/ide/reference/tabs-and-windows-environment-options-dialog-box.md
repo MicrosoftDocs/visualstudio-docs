@@ -1,8 +1,8 @@
 ---
 title: Tabs and Windows, Environment, Options Dialog Box
-description: Learn how to use the Tabs and Windows page in the Environment section to set options for how tabbed windows behave in the editor pane and how tool windows behave.
+description: Learn about the personalization options available in the Tabs and Windows dialog box, such as vertical tabs to help keep your workspace organized, and more.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 06/10/2022
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.TabsAndWindows"
@@ -16,4 +16,6 @@ ms.workload:
 ---
 # Options dialog box: Environment \> Tabs and Windows
 
-Use this page to set options for how tabbed windows behave in the editor pane and how tool windows behave. For more information, see [Customize window layouts in Visual Studio](../../ide/customizing-window-layouts-in-visual-studio.md)
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+Use this dialog to set options for [tabs](../customizing-window-layouts-in-visual-studio.md#tabs) and [windows](../customizing-window-layouts-in-visual-studio.md#arrange-and-dock-windows) in the [code editor](../../get-started/tutorial-editor.md). For more information, see [Customize window layouts in Visual Studio](../customizing-window-layouts-in-visual-studio.md).

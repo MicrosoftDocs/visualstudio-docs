@@ -3,8 +3,8 @@ title: Why are my organization’s subscriptions showing expired when they shoul
 description: The subscriptions are reflecting as expired however the agreement is still active
 ms.topic: include
 ms.assetid: 9654f105-ad1f-42f7-ae4d-e3a56dfea508
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 03/23/2021
 user.type: admin
 tags: manage, agreement, expiration

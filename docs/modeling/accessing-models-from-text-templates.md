@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Access models from text templates
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 By using text templates, you can create report files, source code files, and other text files that are based on domain-specific language models. For basic information about text templates, see [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md). The text templates will work in the experimental mode when you are debugging your DSL, and will also work on a computer on which you have deployed the DSL.
 
 > [!NOTE]
@@ -110,6 +112,7 @@ Here is a list of elements in the model:
 
  To access the models in your text template, you can now write code similar to the code in the following example.
 
+### [C#](#tab/csharp)
 ```csharp
 <#
 foreach (ExampleElement element in this.LibraryModel.Elements)
@@ -121,6 +124,7 @@ foreach (ExampleElement element in this.WorkModel.Elements)
 #>
 ```
 
+### [VB](#tab/vb)
 ```vb
 <#
 For Each element As ExampleElement In Me.LibraryModel.Elements
@@ -131,6 +135,7 @@ For Each element As ExampleElement In Me.WorkModel.Elements
 ...
 #>
 ```
+---
 
 ## Loading models dynamically
  If you want to determine at run time which models to load, you can load a model file dynamically in your program code, instead of using the DSL-specific directive.

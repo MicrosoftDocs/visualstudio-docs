@@ -19,28 +19,13 @@ dev_langs:
 - CSharp
 ---
 # BP_REQUEST_INFO2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains the information required to implement a breakpoint, including vendor GUID, constraint and tracepoint.
 
 ## Syntax
 
-```cpp
-typedef struct _BP_REQUEST_INFO2 {
-    BPREQI_FIELDS   dwFields;
-    GUID            guidLanguage;
-    BP_LOCATION     bpLocation;
-    IDebugProgram2* pProgram;
-    BSTR            bstrProgramName;
-    IDebugThread2*  pThread;
-    BSTR            bstrThreadName;
-    BP_CONDITION    bpCondition;
-    BP_PASSCOUNT    bpPassCount;
-    BP_FLAGS        dwFlags;
-    GUID            guidVendor;
-    BSTR            bstrConstraint;
-    BSTR            bstrTracepoint;
-} BP_REQUEST_INFO2;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct BP_REQUEST_INFO2 {
     public uint           dwFields;
@@ -58,6 +43,25 @@ public struct BP_REQUEST_INFO2 {
     public string         bstrTracepoint;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _BP_REQUEST_INFO2 {
+    BPREQI_FIELDS   dwFields;
+    GUID            guidLanguage;
+    BP_LOCATION     bpLocation;
+    IDebugProgram2* pProgram;
+    BSTR            bstrProgramName;
+    IDebugThread2*  pThread;
+    BSTR            bstrThreadName;
+    BP_CONDITION    bpCondition;
+    BP_PASSCOUNT    bpPassCount;
+    BP_FLAGS        dwFlags;
+    GUID            guidVendor;
+    BSTR            bstrConstraint;
+    BSTR            bstrTracepoint;
+} BP_REQUEST_INFO2;
+```
+---
 
 ## Members
 `dwFields`\

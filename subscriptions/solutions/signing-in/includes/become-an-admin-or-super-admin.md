@@ -3,8 +3,8 @@ title: How can I become a Visual Studio subscriptions admin?
 description: Learn how to become a Visual Studio subscriptions admin or super admin
 ms.topic: include
 ms.assetid: a50097ff-4c6f-4d6c-819a-ba0b8b412997
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 08/13/2021
 user.type: subscriber, admin
 tags: portal-error, sign-in

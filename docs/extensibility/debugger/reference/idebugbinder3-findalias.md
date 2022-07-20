@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugBinder3::FindAlias
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method locates an alias, given a name. This will search all aliases in the program.
 
 ## Syntax
 
-```cpp
-HRESULT FindAlias(
-   LPCOLESTR     pcstrName,
-   IDebugAlias** ppAlias
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int FindAlias(
    string          pcstrName,
    out IDebugAlias ppAlias
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT FindAlias(
+   LPCOLESTR     pcstrName,
+   IDebugAlias** ppAlias
+);
+```
+---
 
 ## Parameters
 `pcstrName`\

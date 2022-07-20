@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPointerObject3::GetPointerAddress
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the address of the pointer.
 
 ## Syntax
 
-```cpp
-HRESULT GetPointerAddress (
-   UINT64* puAddress
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPointerAddress (
    out ulong puAddress
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPointerAddress (
+   UINT64* puAddress
+);
+```
+---
 
 ## Parameters
 `puAddress`

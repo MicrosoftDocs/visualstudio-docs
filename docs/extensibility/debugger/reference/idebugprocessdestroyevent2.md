@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugProcessDestroyEvent2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is sent when a process is terminated, exits atypically, or is detached from.
 
 ## Syntax

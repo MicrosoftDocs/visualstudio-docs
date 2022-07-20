@@ -19,19 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IEEVisualizerService::GetCustomViewerList
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns a list of type visualizers that this service knows about.
 
 ## Syntax
 
-```cpp
-HRESULT GetCustomViewerList(
-   ULONG                celtSkip,
-   ULONG                celtRequested,
-   DEBUG_CUSTOM_VIEWER* rgViewers,
-   ULONG*               pceltFetched
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCustomViewerList(
    uint                  celtSkip,
@@ -40,6 +34,16 @@ int GetCustomViewerList(
    out uint              pceltFetched
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCustomViewerList(
+   ULONG                celtSkip,
+   ULONG                celtRequested,
+   DEBUG_CUSTOM_VIEWER* rgViewers,
+   ULONG*               pceltFetched
+);
+```
+---
 
 ## Parameters
 `celtSkip`\

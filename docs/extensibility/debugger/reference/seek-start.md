@@ -19,10 +19,23 @@ dev_langs:
 - CSharp
 ---
 # SEEK_START
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the position from which to start seeking in a disassembly stream.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_SEEK_START { 
+   SEEK_START_BEGIN       = 0x0001,
+   SEEK_START_END         = 0x0002,
+   SEEK_START_CURRENT     = 0x0003,
+   SEEK_START_CODECONTEXT = 0x0004,
+   SEEK_START_CODELOCID   = 0x0005
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_SEEK_START { 
    SEEK_START_BEGIN       = 0x0001,
@@ -33,16 +46,7 @@ enum enum_SEEK_START { 
 };
 typedef DWORD SEEK_START;
 ```
-
-```csharp
-public enum enum_SEEK_START { 
-   SEEK_START_BEGIN       = 0x0001,
-   SEEK_START_END         = 0x0002,
-   SEEK_START_CURRENT     = 0x0003,
-   SEEK_START_CODECONTEXT = 0x0004,
-   SEEK_START_CODELOCID   = 0x0005
-};
-```
+---
 
 ## Fields
  `SEEK_START_BEGIN`\

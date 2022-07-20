@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Model editor
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This document describes how to work with the Visual Studio **Model Editor** to view, create, and modify 3D models.
 
 You can use **Model Editor** to create basic 3D models from scratch, or to view and modify more-complex 3D models that were created by using full-featured 3D modeling tools.

@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentTextEvents2::onRemoveText
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Notifies the debug package that text has been removed from the document.
 
 ## Syntax
 
-```cpp
-HRESULT onRemoveText( 
-   TEXT_POSITION pos,
-   DWORD         dwNumToRemove
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int onRemoveText( 
    enum_TEXT_POSITION pos,
    uint               dwNumToRemove
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT onRemoveText( 
+   TEXT_POSITION pos,
+   DWORD         dwNumToRemove
+);
+```
+---
 
 ## Parameters
 `pos`\

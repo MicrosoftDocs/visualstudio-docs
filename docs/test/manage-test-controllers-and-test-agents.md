@@ -13,13 +13,12 @@ ms.workload:
 ---
 # Manage test controllers and test agents
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 If you want to use Visual Studio to run tests remotely, distribute tests across multiple machines, or run load tests, you must configure a test controller, test agents, and test settings file. This topic describes how to manage test controllers and test agents after you install and configure them for the first time.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
-::: moniker range="vs-2017"
-If you use Microsoft Test Manager to run tests in lab environments, you manage test controllers and their agents by using the **Test Controller Manager** in the **Lab Center** for Microsoft Test Manager. This topic is applicable only if you use Visual Studio to run tests.
-::: moniker-end
 
 For information about how to install and configure test agents and test controllers to run tests in Visual Studio, see [Configure test agents and controllers](../test/configure-test-agents-and-controllers-for-load-tests.md).
 
@@ -89,10 +88,6 @@ You might want to add a test agent to a different test controller or you might h
 
 A test agent must be set to the offline state before it can be removed.
 
-::: moniker range="vs-2017"
-> [!NOTE]
-> You can’t use this procedure to remove agents that are registered to a controller as part of a lab environment. To remove these agents from a controller, you must remove the environment using Microsoft Test Manager.
-::: moniker-end
 ::: moniker range=">=vs-2019"
 > [!NOTE]
 > You can’t use this procedure to remove agents that are registered to a controller as part of a lab environment.
@@ -116,9 +111,6 @@ If the test controller is not registered with a project, follow these steps.
    > [!NOTE]
    > Removing a test agent just disassociates it from the test controller. To completely uninstall the test agent, use the  **Programs and Features** Control Panel on the test agent computer.
 
-::: moniker range="vs-2017"
-If the test controller is registered with a project, remove the agent using Microsoft Test Manager.
-::: moniker-end
 
 ## Change the settings for a test agent
 
@@ -135,10 +127,6 @@ You can change the status and other settings for a test agent using the followin
 
 ### To change the settings of a test agent
 
-::: moniker range="vs-2017"
-> [!NOTE]
-> If the test agent is registered to a test controller that is registered with a project, change the settings in Microsoft Test Manager.
-::: moniker-end
 
 1. To configure and monitor the test controller and any registered agents for a load test, choose the **Load Test** menu in Visual Studio and then choose **Manage Test Controllers**. For any other tests, open the test settings file for your test project in Visual Studio, choose **Role** and choose **Manage Test Controllers** from the drop down for the **Controller** field.
 

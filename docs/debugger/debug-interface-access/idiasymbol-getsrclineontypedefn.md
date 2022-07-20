@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::getSrcLineOnTypeDefn
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the source file and line number that indicate where a specified user-defined type is defined.
 
 ## Syntax

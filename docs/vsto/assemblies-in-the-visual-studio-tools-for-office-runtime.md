@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Assemblies in the Visual Studio Tools for Office runtime
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you create an Office project, Visual Studio automatically adds references to the [!INCLUDE[vsto_runtime](includes/vsto-runtime-md.md)] assemblies that are used for the project type and the target .NET Framework of the project. There are different assemblies in the Office extensions for the .NET Framework 3.5, [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], and [!INCLUDE[net_v45](includes/net-v45-md.md)]. For more information about the Office extensions, see [Visual Studio Tools for Office runtime overview](visual-studio-tools-for-office-runtime-overview.md).
 
 ## Assemblies in the Office extensions for the .NET Framework 4 and the [!INCLUDE[net_v45](includes/net-v45-md.md)]

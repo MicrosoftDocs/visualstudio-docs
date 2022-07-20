@@ -2,7 +2,7 @@
 title: "IManagedAddin::Unload"
 description: "Called just before a managed VSTO Add-in is unloaded."
 ms.date: "02/02/2017"
-ms.topic: "interface"
+ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -16,6 +16,8 @@ ms.workload:
   - "office"
 ---
 # IManagedAddin::Unload
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Called just before a managed VSTO Add-in is unloaded.
 
 ## Syntax

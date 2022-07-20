@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Use the SharePoint project service
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The SharePoint project system includes a project service that you can use to perform tasks related to the project system. The project service is an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> object.
 
  You can access the SharePoint project service in any SharePoint tools extension. You can also access it in other types of Visual Studio extensions, such as add-ins and VSPackages. For more information, see [How to: Retrieve the SharePoint project service](../sharepoint/how-to-retrieve-the-sharepoint-project-service.md).

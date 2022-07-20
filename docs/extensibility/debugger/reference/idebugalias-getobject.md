@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugAlias::GetObject
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the object that this alias is for.
 
 ## Syntax
 
-```cpp
-HRESULT GetObject(
-   IDebugObject2** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetObject(
    Out IDebugObject2 ppObject
 )
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetObject(
+   IDebugObject2** ppObject
+);
+```
+---
 
 ## Parameters
 `ppObject`\

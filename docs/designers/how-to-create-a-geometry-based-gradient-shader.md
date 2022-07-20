@@ -14,6 +14,8 @@ ms.workload:
 ---
 # How to: Create a geometry-based gradient shader
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This article demonstrates how to use the Shader Designer and the Directed Graph Shader Language to create a geometry-based gradient shader. This shader scales a constant RGB color value by the height of each point of an object in world space.
 
 ## Create a geometry-based gradient shader

@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Visualizing and viewing data
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Type visualizers and custom viewers present data in a way that is quickly meaningful to a developer. The expression evaluator (EE) can support third-party type visualizers as well as supply its own custom viewers.
 
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] determines how many type visualizers and custom viewers are associated with the object's type by calling the [GetCustomViewerCount](../../extensibility/debugger/reference/idebugproperty3-getcustomviewercount.md) method. If there is at least one type visualizer or custom viewer available, Visual Studio calls the [GetCustomViewerList](../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md) method to retrieve a list of those visualizers and viewers (actually, a list of s that implements the visualizers and viewers) and presents them to the user.

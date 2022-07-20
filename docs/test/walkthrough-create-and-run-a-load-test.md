@@ -16,6 +16,8 @@ ms.technology: vs-ide-test
 ---
 # Walkthrough: Create and run a load test that contains unit tests
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this walkthrough you create a load test that contains unit tests.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]

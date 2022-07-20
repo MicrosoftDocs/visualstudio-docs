@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Source Control Plug-ins
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Source Control Plug-in SDK reference section contains the complete interface specification that enables source control systems to be integrated with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. It specifies the syntax and semantics of the various functions and data types that the source control plug-in must implement to interface with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE).
 
 ## In This Section
@@ -28,7 +30,7 @@ The Source Control Plug-in SDK reference section contains the complete interface
  Lists the enumerator data types in the Source Control Plug-in API that the source control plug-in must know about.
 
 - [Capability Flags](../extensibility/capability-flags.md)
- Describes the `SCC_CAP_xxx` flags, which are indicate a provider's capabilities.
+ Describes the `SCC_CAP_xxx` flags, which indicate a provider's capabilities.
 
 - [Bitflags Used by Specific Commands](../extensibility/bitflags-used-by-specific-commands.md)
  Lists flags that are useful in the context of particular commands.

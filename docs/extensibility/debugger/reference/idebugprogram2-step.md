@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram2::Step
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Performs a step.
 
 > [!NOTE]
@@ -26,14 +28,7 @@ Performs a step.
 
 ## Syntax
 
-```cpp
-HRESULT Step( 
-   IDebugThread2*  pThread,
-   STEPKIND        sk,
-   STEPUNIT        step
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Step( 
    IDebugThread2  pThread,
@@ -41,6 +36,15 @@ int Step( 
    enum_STEPUNIT  step
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Step( 
+   IDebugThread2*  pThread,
+   STEPKIND        sk,
+   STEPUNIT        step
+);
+```
+---
 
 ## Parameters
 `pThread`\

@@ -15,6 +15,8 @@ ms.technology: vs-ide-test
 ---
 # How to: Create custom graphs in load test results
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can design graphs that display specific information about load test results. You design a custom graph by specifying the load test counters that the graph will display.
 
 You can perform the following procedure either while a load test is running or after it has finished running.

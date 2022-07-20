@@ -82,7 +82,7 @@ In this phase, [item definitions](item-definitions.md) are interpreted and an in
 
 ### Evaluate items
 
-Items defined inside a target are handled differently from items outside any target. In this phase, items outside any target, and their associated metadata, are processed.  Metadata set by item definitions is overridden by metadata setting on items. Because items are processed in the order that they appear, you can reference items that have been defined earlier, but not ones that appear later. Because the items pass is after the properties pass, items can access any property if defined outside any targets, regardless of whether the property definition appears later.
+Items defined inside a target are handled differently from items outside any target. In this phase, items outside any target, and their associated metadata, are processed.  Metadata set by item definitions is overridden by metadata set on items. Because items are processed in the order that they appear, you can reference items that have been defined earlier, but not ones that appear later. Because the items pass is after the properties pass, items can access any property if defined outside any targets, regardless of whether the property definition appears later.
 
 ### Evaluate `UsingTask` elements
 

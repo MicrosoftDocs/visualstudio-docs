@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # IDebugProgramNode2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a program that can be debugged.
 
 ## Syntax

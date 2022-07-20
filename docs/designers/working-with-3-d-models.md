@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Work with 3D models
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can use the Model Editor in Visual Studio to create 3D models. You can use the models in your DirectX-based game or app.
 
 ## 3D models

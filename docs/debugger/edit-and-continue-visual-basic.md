@@ -2,7 +2,7 @@
 title: "Edit and Continue (Visual Basic) | Microsoft Docs"
 description: Edit and Continue is available for Visual Basic projects. Learn what edits are supported, and how to can control whether, and when, your edits are applied.
 ms.custom: SEO-VS-2020
-ms.date: "10/11/2017"
+ms.date: "02/22/2022"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -24,6 +24,8 @@ ms.workload:
   - "multiple"
 ---
 # Edit and Continue (Visual Basic)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Edit and Continue is a feature for [!INCLUDE [vbprvb](../code-quality/includes/vbprvb_md.md)] debugging that enables you to change your code while it is executing in Break mode. After code edits have been applied, you can resume code execution with the new edits in place and see the effect.
 
  You can use the Edit and Continue feature whenever you enter Break mode. In Break mode, the instruction pointer, a yellow arrowhead in the source window, points to the line containing an executable statement in a method or property body that will be executed next.
@@ -32,7 +34,7 @@ Edit and Continue is a feature for [!INCLUDE [vbprvb](../code-quality/includes/v
 
  When you make an unauthorized edit, the change is marked with a purple wavy underline and a task is displayed in the Task List. You must undo an unauthorized edit if you want to continue to use Edit and Continue. Certain unauthorized edits may be permitted if done outside Edit and Continue. If you want to retain the results of such an unauthorized edit, you must stop debugging and restart your application.
 
- Edit and Continue is supported in UWP apps for Windows 10, and x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only).
+ Edit and Continue is supported in UWP apps for Windows 10 or later, and x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only).
 
  > [!NOTE]
  > Unsupported apps and platforms include ASP.NET 5, Silverlight 5, and Windows 8.1.

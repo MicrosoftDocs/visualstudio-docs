@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugBoundBreakpoints2::Clone
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a copy of the current enumeration as a separate object.
 
 ## Syntax
 
-```cpp
-HRESULT Clone(
-   IEnumDebugBoundBreakpoints2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Clone(
    out IEnumDebugBoundBreakpoints2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Clone(
+   IEnumDebugBoundBreakpoints2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

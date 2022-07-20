@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This walkthrough demonstrates how to use the Visual Studio Graphics Diagnostics tools to investigate a compute shader that generates incorrect results.
 
  This walkthrough illustrates these tasks:

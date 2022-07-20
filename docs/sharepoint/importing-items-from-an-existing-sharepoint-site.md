@@ -23,6 +23,8 @@ ms.workload:
   - "office"
 ---
 # Import items from an existing SharePoint site
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The Import SharePoint Solution Package project template lets you reuse elements such as content types and fields from existing SharePoint sites in a new [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint solution. Although you can run most imported solutions without modification, there are certain restrictions and issues to consider, especially if you modify any items after importing them.
 
 > [!NOTE]
@@ -95,7 +97,7 @@ ms.workload:
 ## Import fields and property bags
  When you import a solution that has multiple fields, all of the separate field definitions are merged into a single *Elements.xml* file under a node in **Solution Explorer** called **Fields**. Similarly, all property bag entries are merged into an *Elements.xml* file under a node called **PropertyBags**.
 
- Fields in SharePoint are columns of a specified data type, such as a text, Boolean, or lookup. For more information, see [Building Block: Columns and Field Types](/previous-versions/office/developer/sharepoint-2010/ee535893(v=office.14)). Property bags enable you to add properties to objects in SharePoint, everything from a farm to a list on a SharePoint site. Property bags are implemented as a hash table of property names and values. For more information, see [Managing SharePoint Configuration](/previous-versions/msp-n-p/ff647766(v=pandp.10)) or [SharePoint Property Bag Settings](https://archive.codeplex.com/?p=pbs).
+ Fields in SharePoint are columns of a specified data type, such as a text, Boolean, or lookup. For more information, see [Building Block: Columns and Field Types](/previous-versions/office/developer/sharepoint-2010/ee535893(v=office.14)). Property bags enable you to add properties to objects in SharePoint, everything from a farm to a list on a SharePoint site. Property bags are implemented as a hash table of property names and values. For more information, see [Managing SharePoint Configuration](/previous-versions/msp-n-p/ff647766(v=pandp.10)) or [SharePoint Property Bag Settings](https://www.codeproject.com/articles/43601/sharepoint-property-bag).
 
 ## Delete items in the project
  Most items in SharePoint solutions have one or more dependent items. For example, list instances depend on content types and content types depend on fields. After you import a SharePoint solution, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] does not notify you of any reference problems if you delete an item in the solution, but not its dependent items, until you attempt to deploy the solution. For example, if an imported solution has a list instance that depends on a content type and you delete that content type, an error might occur on deployment. The error occurs if the dependent item is not present on the SharePoint server. Similarly, if a deleted item also has a related property bag, then delete those property bag entries from the **PropertyBags** *Elements.xml* file. Therefore, if you delete any items from an imported solution and you get deployment errors, check to see if any dependent items need to also be deleted.

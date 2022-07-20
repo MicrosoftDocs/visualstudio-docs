@@ -19,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # Debugger Services Running Out of Memory
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Debugging Services ran out of memory and caused the termination of the debugging session.
 
 ## To investigate this error on Windows

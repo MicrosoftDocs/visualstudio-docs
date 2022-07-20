@@ -14,6 +14,8 @@ ms.workload:
 ---
 # How to: Exclude projects from a build
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can build a solution without building all projects that it contains. For example, you might exclude a project that breaks the build. You could then build the project after you investigate and address the issues.
 
 You can exclude a project by taking the following approaches:

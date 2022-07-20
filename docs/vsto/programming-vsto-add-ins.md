@@ -37,6 +37,8 @@ ms.workload:
   - "office"
 ---
 # Program VSTO Add-ins
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you extend a Microsoft Office application by creating a VSTO Add-in, you write code directly against the `ThisAddIn` class in your project. You can use this class to perform tasks such as accessing the object model of the Microsoft Office host application, customizing the user interface (UI) of the application, and exposing objects in your VSTO Add-in to other Office solutions.
 
  [!INCLUDE[appliesto_allapp](../vsto/includes/appliesto-allapp-md.md)]
@@ -68,23 +70,29 @@ ms.workload:
 
  The following code example shows how to use the `Application` field to create a new workbook in a VSTO Add-in for Microsoft Office Excel. This example is intended to be run from the `ThisAddIn` class.
 
-```vb
-Dim newWorkbook As Excel.Workbook = Me.Application.Workbooks.Add()
-```
-
+### [C#](#tab/csharp)
 ```csharp
 Excel.Workbook newWorkbook = this.Application.Workbooks.Add(System.Type.Missing);
 ```
 
+### [VB](#tab/vb)
+```vb
+Dim newWorkbook As Excel.Workbook = Me.Application.Workbooks.Add()
+```
+---
+
  To do the same thing from outside the `ThisAddIn` class, use the `Globals` object to access the `ThisAddIn` class. For more information about the `Globals` object, see [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md).
 
-```vb
-Dim newWorkbook As Excel.Workbook = Globals.ThisAddIn.Application.Workbooks.Add()
-```
-
+### [C#](#tab/csharp)
 ```csharp
 Excel.Workbook newWorkbook = Globals.ThisAddIn.Application.Workbooks.Add(System.Type.Missing);
 ```
+
+### [VB](#tab/vb)
+```vb
+Dim newWorkbook As Excel.Workbook = Globals.ThisAddIn.Application.Workbooks.Add()
+```
+---
 
  For more information about the object models of specific Microsoft Office applications, see the following topics:
 
@@ -107,8 +115,12 @@ Excel.Workbook newWorkbook = Globals.ThisAddIn.Application.Workbooks.Add(System.
 
  The following code example works with a document in Word only when the user creates a document or opens an existing document.
 
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_wordaddin_menus.cs/thisaddin.cs" id="Snippet3":::
+
+ ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddin_menus.vb/thisaddin.vb" id="Snippet3":::
+ ---
 
 ### ThisAddIn members to use for other tasks
  The following table describes other common tasks and shows which members of the `ThisAddIn` class you can use to perform the tasks.

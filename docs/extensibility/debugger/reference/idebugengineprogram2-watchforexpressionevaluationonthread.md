@@ -21,20 +21,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Allows (or disallows) expression evaluation to occur on the given thread, even if the program has stopped.
 
 ## Syntax
 
-```cpp
-HRESULT WatchForExpressionEvaluationOnThread( 
-   IDebugProgram2*       pOriginatingProgram,
-   DWORD                 dwTid,
-   DWORD                 dwEvalFlags,
-   IDebugEventCallback2* pExprCallback,
-   BOOL                  fWatch
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int WatchForExpressionEvaluationOnThread( 
    IDebugProgram2       pOriginatingProgram,
@@ -44,6 +37,17 @@ int WatchForExpressionEvaluationOnThread( 
    int                   fWatch
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT WatchForExpressionEvaluationOnThread( 
+   IDebugProgram2*       pOriginatingProgram,
+   DWORD                 dwTid,
+   DWORD                 dwEvalFlags,
+   IDebugEventCallback2* pExprCallback,
+   BOOL                  fWatch
+);
+```
+---
 
 ## Parameters
 `pOriginatingProgram`\

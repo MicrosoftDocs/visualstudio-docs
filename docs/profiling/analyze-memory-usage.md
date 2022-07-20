@@ -1,8 +1,8 @@
 ---
-title: "Analyze memory usage"
+title: "Choose a memory analysis tool"
 description: Learn about the tools you can use to find memory leaks and inefficient memory usage, tools such as the Memory Usage tool and the .NET Object Allocation tool.
 
-ms.date: "10/12/2020"
+ms.date: "02/18/2022"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -11,7 +11,9 @@ ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
-# Analyze memory usage
+# Choose a memory analysis tool in Visual Studio (C#, Visual Basic, C++, F#)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To find memory leaks and inefficient memory usage, you can use tools such as the debugger-integrated Memory Usage diagnostic tool or tools in the Performance Profiler such as the .NET Object Allocation tool and the post-mortem Memory Usage tool.
 

@@ -13,6 +13,8 @@ ms.workload:
 ---
 # How to configure and use Live Unit Testing
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 As you're developing an application, Live Unit Testing automatically runs any impacted unit tests in the background and presents the results and code coverage in real time. As you modify your code, Live Unit Testing provides feedback on how your changes impacted existing tests and whether the new code you've added is covered by one or more existing tests. This gently reminds you to write unit tests as you're making bug fixes or adding new features.
 
 > [!NOTE]
@@ -92,23 +94,43 @@ At any time, you can temporarily pause or completely stop Live Unit Testing. You
 
 After it's enabled, Live Unit Testing updates each line of code in the Visual Studio editor to show you whether the code you're writing is covered by unit tests and whether the tests that cover it are passing. The following image shows lines of code with both passing and failing tests, as well as lines of code that are not covered by tests. Lines decorated with a green "✓" are covered only by passing tests, lines decorated with a red "x" are covered by one or more failing tests, and lines decorated by a blue  "➖" are not covered by any test.
 
+::: moniker range="<=vs-2019"
 ![Code coverage in Visual Studio](./media/lut-codewindow.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Code coverage in Visual Studio](./media/vs-2022/lut-code-window.png)
+::: moniker-end
 
 Live Unit Testing coverage visualization is updated immediately when you modify code in the code editor. While processing the edits, visualization changes to indicate that the data is not up-to-date by adding a round timer image below the passing, failing, and not covered symbols, as the following image shows.
 
+::: moniker range="<=vs-2019"
 ![Code coverage in Visual Studio with timer icon](./media/lut-codeupdating.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Code coverage in Visual Studio with timer icon](./media/vs-2022/lut-code-updating.png)
+::: moniker-end
 
 ## Get information about test status
 
 By hovering over the succeeded or failed symbol in the code window, you can see how many tests are hitting that line. To see the status of the individual tests, select the symbol:
 
+::: moniker range="<=vs-2019"
 ![Test status for a symbol in Visual Studio](./media/lut-failedinfo.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Test status for a symbol in Visual Studio](./media/vs-2022/lut-failed-info.png)
+::: moniker-end
 
 In addition to providing the names and result of tests, the tooltip lets you rerun or debug the set of tests. If you select one or more of the tests in the tooltip, you can also run or debug just those tests. This allows you to debug your tests without having to leave the code window. When debugging, in addition to observing any breakpoints you may have already set, program execution pauses when the debugger executes an <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> method that returns an unexpected result.
 
 When you hover over a failed test in the tooltip, it expands to provide additional info about the failure, as shown in the following image. To navigate directly to a failed test, double-click it in the tooltip.
 
+::: moniker range="<=vs-2019"
 ![Failed test tooltip info in Visual Studio](./media/lut-failedmsg.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Failed test tooltip info in Visual Studio](./media/vs-2022/lut-failed-message.png)
+::: moniker-end
 
 When you navigate to the failed test, Live Unit Testing visually indicates in the method signature the tests that have:
 
@@ -118,7 +140,12 @@ When you navigate to the failed test, Live Unit Testing visually indicates in th
 
 Non-test methods are not decorated with a symbol. The following image illustrates all four types of methods.
 
+::: moniker range="<=vs-2019"
 ![Test methods in Visual Studio with pass or fail symbol](media/lut-testsource.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Test methods in Visual Studio with pass or fail symbol](media/vs-2022/lut-test-source.png)
+::: moniker-end
 
 ## Diagnose and correct test failures
 
@@ -126,26 +153,6 @@ From the failed test, you can easily debug the product code, make edits, and con
 
 For example, the test failure shown in the previous image was caused by an incorrect assumption in the test method that non-alphabetic characters return `true` when passed to the <xref:System.Char.IsLower%2A?displayProperty=fullName> method. After you correct the test method, all the tests should pass. You don't have to pause or stop Live Unit Testing.
 
-::: moniker range="vs-2017"
-## Test Explorer
-
-**Test Explorer** provides an interface that lets you run and debug tests and analyze test results. Live Unit Testing integrates with **Test Explorer**. When Live Unit Testing is not enabled or is stopped, **Test Explorer** displays the status of unit tests the last time a test was run. Source code changes require that you rerun the tests. In contrast, when Live Unit Testing is enabled, the status of unit tests in **Test Explorer** is updated immediately. You don't need to explicitly run the unit tests.
-
-> [!TIP]
-> Open **Live Unit Testing** by selecting **Test** > **Windows** > **Test Explorer** from the top-level Visual Studio menu.
-
-You may notice in the **Test Explorer** window that some tests are faded out. For example, when you enable Live Unit Testing after opening a previously saved project, the **Test Explorer** window had faded out all but the failed test, as the following image shows. In this case, Live Unit Testing has rerun the failed test, but it has not rerun the successful tests. This is because Live Unit Testing's persisted data indicates that there were no changes since the tests were last run successfully.
-
-![Failed test in Test Explorer](media/lut-test-explorer.png)
-
-You can rerun any tests that appear faded by selecting the **Run All** or **Run** options from the **Test Explorer** menu. Or, select one or more tests in the  **Test Explorer** menu, right-click, and then select **Run Selected Tests** or **Debug Selected Tests** from the popup menu. As tests are run, they bubble up the top.
-
-There are some differences between Live Unit Testing automatically running and updating test results and explicitly running tests from **Test Explorer**. These differences include:
-
-- Running or debugging tests from the Test Explorer window runs regular binaries, whereas Live Unit Testing runs instrumented binaries.
-- Live Unit Testing does not create a new application domain to run tests, but rather runs tests from the default domain. Tests run from the **Test Explorer** window do create a new application domain.
-- Live Unit Testing runs tests in each test assembly sequentially. In the **Test Explorer** window, you can choose to run multiple tests in parallel.
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 ## Live Unit Testing window
@@ -156,9 +163,16 @@ There are some differences between Live Unit Testing automatically running and u
 > Start Live Unit Testing by selecting **Test** > **Live Unit Testing** > **Start** from the top-level Visual Studio menu. You can also open the **Live Unit Testing** window using **View** > **Other Windows** > **Live Unit Testing Window**.
 
 You may notice in the **Live Unit Testing** window that some tests are faded out. For example, when you stop and restart Live Unit Testing, the **Live Unit Testing** window fades out all the tests, as the following image shows. Faded-out test results indicate that the test was not a part of the latest Live Unit Test run. Tests only run when a change to the test or the test's dependencies is detected. If there is no change, it avoids unnecessarily running the test. In this case, the grayed out test result is still "up-to-date" though it was not a part of the latest run.
+::: moniker-end
+::: moniker range="vs-2019"
 
 ![Faded out tests in Test Explorer](media/vs-2019/lut-test-explorer.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Faded out tests in Test Explorer](media/vs-2022/lut-test-explorer.png)
 
+::: moniker-end
+::: moniker range=">=vs-2019"
 You can rerun any tests that appear faded by making a code change.
 
 There are some differences between Live Unit Testing automatically running and updating test results and explicitly running tests from **Test Explorer**. These differences include:
@@ -219,4 +233,4 @@ Use the following attributes to exclude an entire assembly of tests from Live Un
 - [Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)
 - [Live Unit Testing blog](https://devblogs.microsoft.com/visualstudio/live-unit-testing-in-visual-studio-2017-enterprise/)
 - [Live Unit Testing FAQ](live-unit-testing-faq.yml)
-- [Channel 9 video: Live Unit Testing in Visual Studio](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105)
+

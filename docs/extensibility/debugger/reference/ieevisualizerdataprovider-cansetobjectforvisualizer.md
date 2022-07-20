@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IEEVisualizerDataProvider::CanSetObjectForVisualizer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method determines whether the visualizer can have the data object it represents updated.
 
 ## Syntax
 
-```cpp
-HRESULT CanSetObjectForVisualizer(
-   BOOL* b
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CanSetObjectForVisualizer(
    out int b
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CanSetObjectForVisualizer(
+   BOOL* b
+);
+```
+---
 
 ## Parameters
 `b`\

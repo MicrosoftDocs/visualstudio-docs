@@ -2,7 +2,7 @@
 title: Debug using the Just-In-Time Debugger | Microsoft Docs
 description: Debug using the Just-In-Time Debugger in Visual Studio. Just-In-Time debugging can launch Visual Studio automatically when an app errors or crashes.
 ms.custom: SEO-VS-2020
-ms.date: 08/24/2021
+ms.date: 12/20/2021
 ms.topic: how-to
 helpviewer_keywords: 
   - debugging [Visual Studio], Just-In-Time
@@ -15,6 +15,8 @@ ms.workload:
   - multiple
 ---
 # Debug using the Just-In-Time Debugger in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Just-In-Time debugging can launch Visual Studio automatically when an app running outside Visual Studio errors or crashes. With Just-In-Time debugging, you can test apps outside of Visual Studio, and open Visual Studio to begin debugging when a problem occurs.
 
@@ -50,23 +52,23 @@ Just-In-Time debugging may still be enabled even if Visual Studio is no longer i
 
 1. From the Windows **Start** menu, run the **Registry Editor** (*regedit.exe*).
 
-2. In the **Registry Editor** window, locate and delete the following registry entries:
-
-    - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\DbgManagedDebugger**
-
-    - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger**
-
-    ![JIT registry key](../debugger/media/dbg-jit-registry.png "JIT registry key")
-
-3. If your computer is running a 64-bit operating system, also delete the following registry entries:
+2. In the **Registry Editor** window for 64-bit computers, locate and delete the following registry entries:
 
     - **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\DbgManagedDebugger**
 
     - **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger**
 
+    :::image type="content" source="../debugger/media/dbg-jit-registry.png" alt-text="JIT registry key" border="true":::
+
+3. If the following registry entries are present, or your computer is running a 32-bit operating system, delete the following entries:
+
+    - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\DbgManagedDebugger**
+
+    - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger**
+
     Make sure not to delete or change any other registry keys.
 
-5. Close the **Registry Editor** window.
+4. Close the **Registry Editor** window.
 
 ## Enable Just-In-Time debugging of a Windows Form
 
@@ -93,6 +95,7 @@ To enable Just-In-Time debugging instead of standard Windows Form error handling
    For more information, see <xref:System.Diagnostics.DebuggableAttribute>.
 
 ## <a name="BKMK_Using_JIT"></a>Use Just-In-Time debugging
+
 This example walks you through Just-In-Time debugging when an app throws an error.
 
 - You must have Visual Studio installed to follow these steps. If you don't have Visual Studio, you can download the free [Visual Studio Community Edition](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15).
@@ -125,7 +128,7 @@ For this example, you'll make a C# console app in Visual Studio that throws a [N
 
    You should see the following command window:
 
-   ![Screenshot of the console for ThrowsNullException.exe, which throws an unhandled null reference exception (System.NullReferenceException).](../debugger/media/throwsnullexceptionconsole.png)
+   ![Screenshot of the console for ThrowsNullException.exe, which throws an unhandled null reference exception (System.NullReferenceException).](../debugger/media/throws-null-exception-console.png)
 
 1. The **Choose Just-In-Time Debugger** dialog opens.
 
@@ -137,7 +140,7 @@ For this example, you'll make a C# console app in Visual Studio that throws a [N
 
    The ThrowsNullException project opens in a new instance of Visual Studio, with execution stopped at the line that threw the exception:
 
-   ![Screenshot of the ThrowsNullException project in Visual Studio, with highlighting of the line of source code that threw the exception.](../debugger/media/nullreferencesecondinstance.png)
+   ![Screenshot of the ThrowsNullException project in Visual Studio, with highlighting of the line of source code that threw the exception.](../debugger/media/null-reference-second-instance.png)
 
 You can start debugging at this point. If you were debugging a real app, you would need to find out why the code is throwing the exception.
 
@@ -152,9 +155,9 @@ If Just-In-Time debugging doesn't start when an app crashes, even though it is e
 
   To fix this issue, use Registry Editor to add a **DWORD Value** of **Disabled**, with **Value data** of **1**, to the following registry keys:
 
-  - **HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Windows Error Reporting**
-
-  - (For 64-bit machines): **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows\Windows Error Reporting**
+  - **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows\Windows Error Reporting**
+  
+  - (For 32-bit machines) **HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Windows Error Reporting**
 
   For more information, see [.WER settings](/windows/desktop/wer/wer-settings).
 
@@ -162,9 +165,9 @@ If Just-In-Time debugging doesn't start when an app crashes, even though it is e
 
   The fix is to add a **DWORD Value** of **Auto**, with **Value data** of **1**, to the following registry keys:
 
-  - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug**
+  - **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug**
 
-  - (For 64-bit machines): **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug**
+  - (For 32-bit machines) **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug**
 
 You might see the following error messages during Just-In-Time debugging:
 

@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Shader Designer nodes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The articles in this section of the documentation contain information about the various Shader Designer nodes that you can use to create graphics effects.
 
 ## Nodes and node types

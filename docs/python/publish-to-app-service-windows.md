@@ -13,11 +13,9 @@ ms.workload:
   - data-science
   - azure
 ---
-
 # Publishing to Azure App Service on Windows
 
-> [!Note]
-> This content and the features described are deprecated but continue to work. Python developers are encouraged to migrate to [App Service on Linux](publishing-python-web-applications-to-azure-from-visual-studio.md) where possible.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio provides the capability to publish a Python web app directly to Azure App Service on Windows. Publishing to Azure App Service on Windows means copying the necessary files to the server and setting up an appropriate `web.config` file that instructs the web server how to launch your app.
 

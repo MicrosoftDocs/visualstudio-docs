@@ -3,12 +3,15 @@ title: "Install and use Visual Studio for Mac with a firewall or proxy server"
 titleSuffix: ""
 description: "This document provides a list of hosts that must be allowed in your firewall to allow Visual Studio for Mac (and its workloads, including Xamarin) to work in a corporate environment."
 ms.assetid: 79C0F1A3-0C13-4E55-A820-1138A4082B77
-author: heiligerdankgesang
-ms.author: dominicn
-ms.date: 09/18/2019
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
+ms.topic: reference
+ms.date: 01/10/2022
 ---
-
 # Install and use Visual Studio for Mac behind a firewall or proxy server
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 If you or your organization uses security measures such as a firewall or a proxy server, then there are domains that you might want to add to an "allow list" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio for Mac and Azure Services.
 
@@ -18,7 +21,7 @@ If you or your organization uses security measures such as a firewall or a proxy
 
 ## Install Visual Studio for Mac
 
-Because the Visual Studio for Mac Installer downloads from a various domains and download servers, here are the domains and URLs that you may want to add as trusted in your configurations.
+Because the Visual Studio for Mac Installer downloads from various domains and download servers, here are the domains and URLs that you may want to add as trusted in your configurations.
 
 ### Microsoft domains
 
@@ -26,6 +29,7 @@ Because the Visual Studio for Mac Installer downloads from a various domains and
 | ----------------------------------- |---------------------------|
 | *.live.com| Credential Management |
 | app.vssps.visualstudio.com| Installer Metadata|
+| nw-umwatson.events.data.microsoft.com | Crash and Error Reporting | 
 | vortex.data.microsoft.com | Crash and Error Reporting |
 | az667904.vo.msecnd.net| Crash and Error Reporting |
 | xamarin.com | Installer Metadata|

@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically print Visio documents
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can print a complete Microsoft Office Visio document or only a specific page.
 
  For details about the print methods, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Document.Print](/office/vba/api/Visio.Document.Print) method and [Microsoft.Office.Interop.Visio.Page.Print](/office/vba/api/Visio.Page.Print) method.
@@ -30,8 +32,12 @@ ms.workload:
 
      The following code example prints the active document. To use this example, run the code from the `ThisAddIn` class in your project.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs" id="Snippet8":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb" id="Snippet8":::
+     ---
 
 ## Print a page of a Visio document
 
@@ -41,8 +47,12 @@ ms.workload:
 
      The following code example prints the first page of the active document. To use this example, run the code from the `ThisAddIn` class in your project.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs" id="Snippet9":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb" id="Snippet9":::
+     ---
 
 ## See also
 - [Visio solutions](../vsto/visio-solutions.md)

@@ -3,8 +3,8 @@ title: Portal outage
 description: Complete outage in the subscriptions portal.
 ms.topic: include
 ms.assetid: 70cbe98d-bfac-4801-be36-7268990d3870
-author: caitybuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 08/14/2020
 user.type: subscriber, admin
 tags: portal-error

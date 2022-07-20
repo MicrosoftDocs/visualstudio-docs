@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Configuration options overview
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Projects in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] can support multiple configurations that can be built, debugged, run, and/or deployed. A configuration is a build type described with a named set of properties, typically compiler switches and file locations. By default, new solutions contain two configurations, *Debug* and *Release*. These configurations can be applied using their default settings, or modified to meet your specific solution and/or project requirements. Some packages can be built in two ways: as an ActiveX editor or as an in-place component. Projects do not need to support multiple configurations, however. If there is only one configuration available, that configuration is mapped into all of the solution configurations.
 
  Configurations typically consist of two parts: the configuration name (such as *Debug* or *Release*) and the platform settings. A configuration's platform name identifies the environment that the configuration targets, such as an API set or operating system platform. Users of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] cannot create a platform; they must choose from the selections a project VSPackage allows. When a user installs a VSPackage, the delivery platform created during development of the package can surface any platform name desired based on any criteria set by the package creator. The user can then select from the list of platforms made available through the VSPackage when the property pages are instantiated.

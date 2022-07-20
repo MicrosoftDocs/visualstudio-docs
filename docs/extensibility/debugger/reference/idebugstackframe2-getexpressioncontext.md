@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugStackFrame2::GetExpressionContext
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets an evaluation context for expression evaluation within the current context of a stack frame and thread.
 
 ## Syntax
 
-```cpp
-HRESULT GetExpressionContext ( 
-   IDebugExpressionContext2** ppExprCxt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetExpressionContext ( 
    out IDebugExpressionContext2 ppExprCxt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetExpressionContext ( 
+   IDebugExpressionContext2** ppExprCxt
+);
+```
+---
 
 ## Parameters
 `ppExprCxt`\

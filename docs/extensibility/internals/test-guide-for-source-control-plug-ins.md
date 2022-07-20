@@ -19,6 +19,8 @@ ms.workload:
 - vssdk
 ---
 # Test Guide for Source Control Plug-ins
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section provides guidance for testing your source control plug-in with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. An extensive overview of the most common testing areas, as well as some of the more intricate areas that may be problematic is provided. This overview is not meant to be an exhaustive list of test cases.
 
 > [!NOTE]

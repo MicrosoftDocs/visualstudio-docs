@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Import a custom master page and site page with an image
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates how to import a SharePoint custom master page and a site page that has an image into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project.
 
  This walkthrough shows how to accomplish the following tasks:

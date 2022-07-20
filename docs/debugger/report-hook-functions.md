@@ -4,8 +4,6 @@ description: Review report hook functions in Visual Studio. A report hook functi
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.hooks"
 dev_langs:
   - "CSharp"
   - "VB"
@@ -28,6 +26,8 @@ ms.workload:
   - "multiple"
 ---
 # Report Hook Functions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A report hook function, installed using [_CrtSetReportHook](/cpp/c-runtime-library/reference/crtsetreporthook), is called every time [_CrtDbgReport](/cpp/c-runtime-library/reference/crtdbgreport-crtdbgreportw) generates a debug report. You can use it, among other things, for filtering reports to focus on specific types of allocations. A report hook function should have a prototype like the following:
 
 ```cpp

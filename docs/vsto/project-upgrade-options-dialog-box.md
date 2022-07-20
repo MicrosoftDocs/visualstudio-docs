@@ -21,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # Project Upgrade, Options dialog box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Use the **Project Upgrade** page to specify whether Visual Studio automatically changes VSTO Add-in projects to target the version of Office that is installed on the development computer.
 
  To access this page, on the **Tools** menu, click **Options**. Expand the **Office Tools** folder, and then click **Project Upgrade**.

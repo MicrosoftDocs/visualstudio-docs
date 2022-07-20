@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugCustomAttributes::Skip
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Skips a specified number of custom attributes in an enumeration sequence.
 
 ## Syntax
 
-```cpp
-HRESULT Skip ( 
-   ULONG celt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Skip(
    uint celt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Skip ( 
+   ULONG celt
+);
+```
+---
 
 ## Parameters
 `celt`\

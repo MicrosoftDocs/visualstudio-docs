@@ -20,6 +20,8 @@ ms.workload:
 ---
 # How to: Specify build events (Visual Basic)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Build events in Visual Basic can be used to run scripts, macros, or other actions as a part of the compilation process. Pre-build events occur before compilation; post-build events occur after compilation.
 
 Build events are specified in the **Build Events** dialog box, available from the **Compile** page of the **Project Designer**.

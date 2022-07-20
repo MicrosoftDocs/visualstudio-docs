@@ -1,8 +1,7 @@
 ---
 title: Update a network-based installation
-description: Learn how to update a network-based Visual Studio installation by using the --layout command
-ms.date: 05/26/2021
-
+description: Learn how to update a Visual Studio client that was installed from a network layout
+ms.date: 02/04/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -16,161 +15,142 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-# Update a network-based installation of Visual Studio
+# Update a Visual Studio client that was installed from a network layout
 
-It's possible to update a network installation layout of Visual Studio with the latest product updates so that it can be used both as an installation point for the latest update of Visual Studio and also to maintain installations that are already deployed to client workstations.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-## How to update a network layout
+You can and should periodically update all Visual Studio clients so that they receive the latest security and functionality fixes. 
 
-> [!IMPORTANT]
-> These instructions assume that you've previously created a network installation layout and made some decisions about how the client is supposed to get the updates. For more information about how to do this, see the [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md) and [Control updates to Visual Studio deployments](../install/controlling-updates-to-visual-studio-deployments.md) page.
+If the Visual Studio client was originally installed via a network layout, then most likely the client machine is part of a "managed environment" meaning that it is governed by a central administrative team and must adhere to organizational policies. To update client machines in a managed environment consider the questions below whose answers will inform how you should approach the update process. 
 
-To refresh your network install share so that it includes the latest updates, run the bootstrapper using the `--layout` parameter to download the updated packages.
+-  Where are the updates coming from: a network layout or Microsoft hosted servers? And if the update is coming from a network layout, is the network layout prepared?
+-  Is the update going to be initiated by the user, or is it an administrator initiated event? Remember that whoever performs the update must have administrator permissions on the client machine.
 
-If you selected a partial layout when you [first created the network layout](create-a-network-installation-of-visual-studio.md), those settings are saved. Any future layout commands use the previous options plus any new options that you specify.
+## Prepare the update source
 
-If you host a layout on a file share, you should update a private copy of the layout (for example, c:\VSLayout) and then, after all of the updated content is downloaded, copy it to your file share (for example, \\server\products\VS). If you don't do this, there is a greater chance that any users who run Setup while you are updating the layout might not be able to get all of the content from the layout because it is not yet completely updated.
+If you are going to update your client from Microsoft hosted servers, then the client will download and install the latest version available from Microsoft on that [channel](/visualstudio/releases/2022/vs2022-release-rhythm). 
 
-Let's walk through a few examples of how to create and then update a layout:
+If you are going to update your client from a network layout, then the first step is to prepare the network layout with the updated product. You can [update your existing layout with the latest product updates](create-a-network-installation-of-visual-studio.md#update-or-modify-your-layout) so both new installations and updates will receive the updated version. Or, you can [create a whole new layout](create-a-network-installation-of-visual-studio.md) in a different directory that you can use for updating the client machines.
 
-* First, here's an example of how to create a layout with one workload for English only:
+## Enable manual user-initiated client-side updates 
+A user on the client machine with sufficient permissions can [manually initiate the Visual Studio update themselves](update-visual-studio.md). The Visual Studio client must be configured properly to look in the right source location for updates so that it can recognize that an update is available. If any files are in use when the update happens, like if Visual Studio is open, then Visual Studio will need to close to complete the update. Occasionally an update will require a reboot.
 
-  ```shell
-  vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.ManagedDesktop --lang en-US
-  ```
+### Manually configure where the Visual Studio client looks for updates
 
-* Here's how to update that same layout to a newer version. You don't have to specify any additional command-line parameters. The previous settings were saved and will be used by any subsequent layout commands in this layout folder.
+When Visual Studio is initially installed on the client machine, it records the location where it should check for updates. If Visual Studio was installed from Microsoft hosted servers, then it will by default look for updates from Microsoft hosted servers. If Visual Studio was installed or updated by invoking a bootstrapper on a network layout, then it will look for updates in the [location specified by the layout](automated-installation-with-response-file.md).  
 
-  ```shell
-  vs_enterprise.exe --layout c:\VSLayout
-  ```
 
-* Here's how to update your layout to a newer version in an unattended manner. The layout operation runs the setup process in a new console window. The window is left open so users can see the final result and a summary of any errors that might have occurred. If you are performing a layout operation in an unattended manner (for example, you have a script that is regularly run to update your layout to the latest version), then use the `--passive` parameter and the process will automatically close the window.
+::: moniker range="vs-2019"
 
-  ```shell
-  vs_enterprise.exe --layout c:\VSLayout --passive
-  ```
+With default Visual Studio 2019 functionality, once the client has installed the product, the client's update location configuration is locked and unchangable. The only way to _reliably_ change the source location for updates is to uninstall and reinstall the product using the correct configuration.
+ 
+However, if the Visual Studio client uses the latest Visual Studio 2022 Installer, then the client's source location for updates can be changed. This is useful if you want to install from one layout but have updates come from another layout. There are two ways to get the Visual Studio 2022 Installer onto a client machine. The easiest is to simply install and use the Visual Studio 2022 product. Alternatively, you can [distribute the Visual Studio 2022 installer via your Visual Studio 2019 layouts](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer).
 
-* Here's how to add an additional workload and localized language.  (This command adds the *Azure development* workload.)  Now both Managed Desktop and Azure are included in this layout.  The language resources for English and German are also included for all these workloads.  And, the layout is updated to the latest available version.
+::: moniker-end
 
-  ```shell
-  vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --lang de-DE
-  ```
+::: moniker range=">=vs-2019"
 
-    > [!IMPORTANT]
-    > An update operation doesn't download or install additional optional components either to the layout or onto the client. If you need to add or change optional components, first remove the old optional components from the `Layout.JSON` [response file](automated-installation-with-response-file.md) and include the new components you need in the "add" section of `Layout.JSON`. Then, when you run the update command on the layout, it will download the newly added components into the layout. 
-    >
-    > To get these new components installed on the client machine, make sure you do these three steps. First, verify that the layout contains the new components as described above. Next, update your client to the latest bits in the layout.  Finally, again on the client, run a modify operation which will install the new components (that were added to the layout) onto the client machine.
+To manually view and configure the update location that the client will look for updates from, bring up the [Update Settings](update-visual-studio.md?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1), make sure it's configured correctly. You can then initiate the update from the client.  
 
-* And finally, here's how to add an additional workload and localized language without updating the version. (This command adds the *ASP.NET and web development* workload.)  Now the Managed Desktop, Azure, and ASP.NET & Web Development workloads are included in this layout. The language resources for English, German, and French are also included for all these workloads.  However, the layout was not updated to the latest available version when this command was run. It remains at the existing version.
+::: moniker-end
 
-  ```shell
-  vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.NetWeb --lang fr-FR --keepLayoutVersion
-  ```
+### Update notifications
 
-## Deploy an update to client machines
+If there is an update available in the location that the client is looking for updates, then the client will [pop a message or a notification flag](update-visual-studio.md?#use-the-message-box-in-the-ide-1).  
 
-Depending on how your network environment is configured, an update can either be deployed by an enterprise administrator or initiated from a client machine.
+For details on how to control when update notifications are presented to users, see [Control updates to network-based Visual Studio deployments](set-defaults-for-enterprise-deployments.md#controlling-notifications-in-the-visual-studio-ide).
 
-* Users can update a Visual Studio instance that was installed from an offline installation folder:
-  * Run the Visual Studio Installer.
-  * Then, click **Update**.
+### Manually initiate the update
 
-::: moniker range="vs-2017"
+Users can [manually update](update-visual-studio.md) a Visual Studio instance by: 
+  * launching the Visual Studio Installer. If an update is available, they can click **Update**.
+  * launching the Visual Studio IDE and responding to the notification flag or message, or choosing Help/Check for updates.  
 
-* Administrators can update client deployments of Visual Studio without any user interaction with two separate commands:
-  * First, update the Visual Studio installer: <br>```vs_enterprise.exe --quiet --update```
-  * Then, update the Visual Studio application itself: <br>```vs_enterprise.exe update --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" --quiet --wait --norestart```
+## Programatically update the client machines
+Administrators can programmatically update the client installations of Visual Studio by either issuing the commands to the client-side installer, or by invoking a bootstrapper in the layout.
+
+### Programatically update Visual Studio by using the Visual Studio Installer
+
+
+::: moniker range=">=vs-2019"
+
+You can initiate an update to Visual Studio by programmatically invoking the client's installer and issuing the update command. This command will update Visual Studio based on the updated product available in the [source location for updates](update-visual-studio.md#configure-source-location-of-updates-1). If you want to change the update source location on the client, you can do that programatically by passing in the --channelURI parameter. For example:  
+
+You can change the channel to a network layout _and_ execute an update command on the client like this:
+
+```shell
+c:\program files (x86)\microsoft\visual studio\installer\>setup.exe update --installPath "C:\Program Files\Microsoft Visual Studio\2019\Enterprise" --channelURI "\\\\server\\share\\newlayoutdir\\channelmanifest.json"
+```
+or like this, which sets the source of updates to a Microsoft hosted location:
+
+```shell
+c:\program files (x86)\microsoft\visual studio\installer\>setup.exe update --installPath "C:\Program Files\Microsoft Visual Studio\2019\Enterprise" --channelURI "https://aka.ms/vs/16/release/channel"
+```
+
+::: moniker-end
+
+### Programatically update Visual studio by using a bootstrapper.
+
+::: moniker range=">=vs-2019"
+
+You can update Visual Studio by programatically calling a bootstrapper from the same location that you originally installed from. All bootstrappers sourced from Microsoft hosted servers are considered from the same location. If your bootstrapper was on a network layout share, then the [network layout must be updated](create-a-network-installation-of-visual-studio.md#update-or-modify-your-layout) to contain the desired product updates.
+
+```shell
+\\server\share\originalinstallVSdirectory\vs_enterprise.exe update --installPath "C:\clientmachine\installpath" --quiet 
+```
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
-* Administrators can update client deployments of Visual Studio without any user interaction with two separate commands:
-  * First, update the Visual Studio installer: <br>```vs_enterprise.exe --quiet --update```
-  * Then, update the Visual Studio application itself: <br>```vs_enterprise.exe update --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" --quiet --wait --norestart```
+You can also initiate an update your Visual Studio 2019 client by programatically calling a bootstrapper from a _different_ source location that contains the version of the product that you want to update the client to. To do this, you need to get the Visual Studio 2022 installer on the client. The easiest way to enable this is to [ensure your new Visual Studio 2019 layout is using the latest installer](create-a-network-installation-of-visual-studio.md#ensure-your-layout-is-using-the-latest-installer). If you run bootstrapper from a new layout, then the update channel on the client will be set to the [update location specified in the layout](automated-installation-with-response-file.md). For example, you can run this command on the client machine:
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-* Administrators can update client deployments of Visual Studio without any user interaction with two separate commands:
-  * First, update the Visual Studio installer: <br>```vs_enterprise.exe --quiet --update```
-  * Then, update the Visual Studio application itself: <br>```vs_enterprise.exe update --installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" --quiet --wait --norestart```
+You can also initiate an update to your Visual Studio client by programatically calling a bootstrapper from a _different_ source location that contains the version of the product that you want to update the client to. If you run bootstrapper from a new layout, then the update channel on the client will be set to the [update location specified in the layout](automated-installation-with-response-file.md). For example, you can run this command on the client machine:
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+```shell
+   \\server\share\desiredupdatelayoutdir\vs_enterprise.exe update --installPath "C:\clientmachine\installpath" --quiet 
+```
+Whatever the value of the channelURI in the new layout's response.json file will be the location where the client looks for future updates.
 
 ::: moniker-end
 
 > [!NOTE]
 > Use the [vswhere.exe command](tools-for-managing-visual-studio-instances.md) to identify the install path of an existing instance of Visual Studio on a client machine.
->
-> [!TIP]
-> For details on how to control when update notifications are presented to users, see [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md).
 
-## Verify a layout
+### Programatically update a client that doesn't have internet access
 
-Use `--verify` to perform verification on the offline cache supplied. It checks if packages files are either missing or invalid. At the end of the verification, it prints the list of missing files and invalid files.
+If your client machine doesn't have internet access, then it _must_ acquire the updates from a network layout. Remember that there are two parts that need to get updated whenever Visual Studio is updated. The first is the installer and the second is the Visual Studio product itself. You can instruct Visual Studio to _explicitly_ look for _both_ of these components from the network layout by running these commands on the client machine. The first command forces the installer to come from the layout, and the second command prevents any packages from being downloaded from Microsoft hosted servers on the internet.
 
-```shell
-vs_enterprise.exe --layout <layoutDir> --verify
-```
+ ```shell
+    \\server\share\VSlayoutdirectory\vs_enterprise.exe --quiet --update
+    \\server\share\VSlayoutdirectory\vs_enterprise.exe update --installPath "C:\clientmachine\installpath" --noWeb --wait --quiet --norestart
+ ```
+    
+Another way to ensure that the client gets its updates from the network layout is to pass in the `--noweb` and `--noUpdateInstaller` options in a single command to the bootstrapper on the network layout. The former prevents downloading updated workloads, components from the internet, and the latter prevents the installer from self-updating. This option, while available, is generally not recommended because you should always be using the latest and greatest installer.
 
-The vs_enterprise.exe can be invoked inside the layoutDir.
+> [!IMPORTANT]
+> The `--noWeb` option does not stop Visual Studio setup on an internet-connected computer from _checking_ for updates. Rather, it prevents the client from downloading the product packages. 
 
-> [!NOTE]
-> Some important metadata files that are needed by the `--verify` option must be in the layout offline cache. If these metadata files are missing, "--verify" cannot run and Setup gives you an error. If you experience this error, re-create a new offline layout to a different folder (or to the same offline cache folder. To so do, run the same layout command that you used to create the initial offline layout. For example, `vs_enterprise.exe --layout <layoutDir>`.
+## Get support for your network layout
 
-Microsoft ships updates to Visual Studio periodically, so the new layout that you create might not be the same version as the initial layout.
+If you experience a problem with your network layout, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE. If you're an IT Administrator and don't have Visual Studio installed, you can submit [**IT Admin feedback here**](https://aka.ms/vs/admin/guide). When you use this tool, it would be very helpful if you could send the [logs from the VS Collect tool](https://aka.ms/vscollect) which can help us diagnose and fix the problem.
 
-> [!NOTE]
-> Verification works only for the latest version of a specific minor version of Visual Studio. As soon as a new version is released, verification won't work for earlier patch level releases of the same minor version.
+We also offer an [**installation chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 
-## Fix a layout
+We have other support options available, too. See our [Visual Studio Developer Community](https://developercommunity.visualstudio.com/home).
 
-Use `--fix` to perform the same verification as `--verify` and also try to fix the identified issues. The `--fix` process needs an internet connection, so make sure your machine is connected to the internet before you invoke `--fix`.
-
-```shell
-vs_enterprise.exe --layout <layoutDir> --fix
-```
-
-The vs_enterprise.exe can be invoked inside the layoutDir.
-
-## Remove older versions from a layout
-
-After you perform layout updates to an offline cache, the layout cache folder may have some obsolete packages that are no longer needed by the latest Visual Studio installation. You can use the `--clean` option to remove obsolete packages from an offline cache folder.
-
-To do this, you'll need the file path(s) to catalog manifest(s) that contain those obsolete packages. You can find the catalog manifests in an "Archive" folder in the offline layout cache. They are saved there when you update a layout. In the "Archive" folder, there is one or more "GUID" named folders, each of which contains an obsolete catalog manifest. The number of "GUID" folders should be the same as the number of updates made to your offline cache.
-
-A few files are saved inside each "GUID" folder. The two files of most interest are a "catalog.json" file and a "version.txt" file. The "catalog.json" file is the obsolete catalog manifest you'll need to pass to the `--clean` option. The other version.txt file contains the version of this obsolete catalog manifest. Based on the version number, you can decide whether you want to remove obsolete packages from this catalog manifest. You can do the same as you go through the other "GUID" folders. After you make the decision on the catalog(s) you want to clean, run the `--clean` command by supplying the files paths to these catalogs.
-
-Here are a few examples of how to use the --clean option:
-
-```shell
-vs_enterprise.exe --layout <layoutDir> --clean <file-path-of-catalog1> <file-path-of-catalog2> …
-```
-
-```shell
-vs_enterprise.exe --layout <layoutDir> --clean <file-path-of-catalog1> --clean <file-path-of-catalog2> …
-```
-
-You can also invoke vs_enterprise.exe inside the &lt;layoutDir&gt;. Here's an example:
-
-```shell
-c:\VSLayout\vs_enterprise.exe --layout c:\VSLayout --clean c:\VSLayout\Archive\1cd70189-fc55-4583-8ad8-a2711e928325\Catalog.json --clean c:\VS2017Layout\Archive\d420889f-6aad-4ba4-99e4-ed7833795a10\Catalog.json
-```
-
-When you execute this command, Setup analyzes your offline cache folder to find the list of files that it will remove. You will then have a chance to review the files that are going to be deleted and confirm the deletions.
-
-## Get support for your offline installer
-
-If you experience a problem with your offline installation, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool. When you use this tool, you can send us the telemetry and logs we need to help us diagnose and fix the problem.
-
-We also offer a [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
-
-We have other support options available, too. See our [Developer Community](https://developercommunity.visualstudio.com/home).
 
 ## See also
 
-* [Install Visual Studio](install-visual-studio.md)
+* [Create and maintain a network layout](create-a-network-installation-of-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)

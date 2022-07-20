@@ -20,6 +20,8 @@ ms.workload:
 ---
 # /Build (devenv.exe)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Builds a solution or project using a specified solution configuration file.
 
 ## Syntax
@@ -32,7 +34,7 @@ devenv SolutionName /Build [SolnConfigName [/Project ProjName [/ProjectConfig Pr
 
 - *SolutionName*
 
-  Required. The full path and name of the solution file.
+  Required. The path and name of the solution file, relative to the solution's directory.
 
 - *SolnConfigName*
 

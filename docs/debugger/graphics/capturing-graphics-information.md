@@ -17,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # Capturing Graphics Information
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Capture graphics information from your Direct3D app so that you can use Visual Studio Graphics Analyzer to diagnose rendering problems and performance problems.
 
 ## Capturing graphics information

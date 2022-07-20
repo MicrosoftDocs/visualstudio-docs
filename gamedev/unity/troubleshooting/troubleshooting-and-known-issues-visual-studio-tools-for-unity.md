@@ -2,7 +2,7 @@
 title: "Troubleshooting and known issues (VS Tools for Unity)"
 description: Read about troubleshooting in Visual Studio Tools for Unity. See descriptions of known issues, and learn about solutions to those issues.
 
-ms.date: "04/15/2021"
+ms.date: "04/04/2022"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
 ms.topic: troubleshooting
@@ -57,6 +57,8 @@ This should fix your issue. In case you are still experiencing the problem, run 
 Several Unity plugins like Parse, FMOD, UMP (Universal Media Player), ZFBrowser, or Embedded Browser are using native threads. It’s an issue when a plugin ends up attaching a native thread to the runtime, which then does blocking calls to the OS. This means Unity can't interrupt that thread for the debugger (or domain reload) and stop responding.
 
 For FMOD, there is a workaround, you can pass `FMOD_STUDIO_INIT_SYNCHRONOUS_UPDATE` initialization [flag](https://www.fmod.com/resources/documentation-studio?version=2.0&page=https://fmod.com/resources/documentation-api?version=2.0&page=studio-api-system.html#fmod_studio_initflags) to disable asynchronous processing and perform all processing on the main thread.
+
+If you are developping your own native plugin, We recommend using *asynchronous procedure calls* ([APC](/windows/win32/sync/asynchronous-procedure-calls)) and especially `SleepEx`, `SignalObjectAndWait`, `MsgWaitForMultipleObjectsEx`, `WaitForMultipleObjectsEx`, or `WaitForSingleObjectEx` functions to properly cooperate with Unity and Mono when the debugger needs to suspend threads.
 
 ## Incompatible project in Visual Studio
 

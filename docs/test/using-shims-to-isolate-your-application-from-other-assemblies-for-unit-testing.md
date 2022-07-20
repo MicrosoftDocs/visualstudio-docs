@@ -14,6 +14,8 @@ dev_langs:
 ---
 # Use shims to isolate your app for unit testing
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 **Shim types** are one of two technologies that the Microsoft Fakes Framework uses to let you isolate components under test from the environment. Shims divert calls to specific methods to code that you write as part of your test. Many methods return different results dependent on external conditions, but a shim is under the control of your test and can return consistent results at every call. This makes it easier to write the tests.
 
 Use *shims* to isolate your code from assemblies that are not part of your solution. To isolate components of your solution from each other, use *stubs*.
@@ -25,7 +27,7 @@ For an overview and "quick start" guidance, see [Isolate code under test with Mi
 - Visual Studio Enterprise
 - A .NET Framework project
 ::: moniker range=">=vs-2019"
-- .NET Core, .NET 5.0, and SDK-style project support previewed in Visual Studio 2019 Update 6, and is enabled by default in Update 8. For more information, see [Microsoft Fakes for .NET Core and SDK-style projects](/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects).
+- .NET Core, .NET 5.0 or later, and SDK-style project support previewed in Visual Studio 2019 Update 6, and is enabled by default in Update 8. For more information, see [Microsoft Fakes for .NET Core and SDK-style projects](/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects).
 ::: moniker-end
 
 ## Example: The Y2K bug
@@ -66,7 +68,7 @@ First, add a Fakes assembly:
 1. In **Solution Explorer**, 
     - For an older .NET Framework Project (non-SDK style), expand your unit test project's **References** node.
     ::: moniker range=">=vs-2019"
-    - For an SDK-style project targeting .NET Framework, .NET Core, or .NET 5.0, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies**, **Projects**, or **Packages**.
+    - For an SDK-style project targeting .NET Framework, .NET Core, or .NET 5.0 or later, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies**, **Projects**, or **Packages**.
     ::: moniker-end
     - If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar to see the **References** node.
 
@@ -94,6 +96,7 @@ It's critical to properly dispose each shim context. As a rule of thumb, call th
 
 In your test code, insert a *detour* for the method you want to fake. For example:
 
+### [C#](#tab/csharp)
 ```csharp
 [TestClass]
 public class TestClass1
@@ -125,6 +128,7 @@ public class TestClass1
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 <TestClass()> _
 Public Class TestClass1
@@ -150,6 +154,7 @@ Public Class TestClass1
     End Sub
 End Class
 ```
+---
 
 Shim class names are made up by prefixing `Fakes.Shim` to the original type name.
 
@@ -519,10 +524,9 @@ System.Fakes.ShimEnvironment.GetCommandLineArgsGet = ...
 
 ## Limitations
 
-Shims cannot be used on all types from the .NET base class library **mscorlib** and **System** in .NET Framework, and in **System.Runtime** in .NET Core or .NET 5.0.
+Shims cannot be used on all types from the .NET base class library **mscorlib** and **System** in .NET Framework, and in **System.Runtime** in .NET Core or .NET 5.0 and later.
 
 ## See also
 
 - [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)
 - [Peter Provost's blog: Visual Studio 2012 shims](http://www.peterprovost.org/blog/2012/04/25/visual-studio-11-fakes-part-2)
-- [Video (1h16): Testing untestable code with fakes in Visual Studio 2012](https://channel9.msdn.com/Events/TechEd/Europe/2012/DEV411)

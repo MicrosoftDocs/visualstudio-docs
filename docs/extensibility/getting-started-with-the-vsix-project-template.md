@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Get started with the VSIX Project template
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can use the VSIX Project template to create an extension or to package an existing extension for deployment. The VSIX Project template has both Visual Basic and Visual C# versions, and is installed as part of the Visual Studio SDK.
 
  The VSIX Project template just consists of a *source.extension.vsixmanifest* file, which contains information about the extension and the assets it ships.
@@ -62,11 +64,6 @@ You can use the VSIX Project template to create an extension or to package an ex
 
 9. Close Visual Studio and then reopen it.
 
-::: moniker range="vs-2017"
-
-10. Select **Extensions and Updates** (on the **Tools** menu) and select the **Templates** category. One of the available extensions should be **My Project Template**.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 

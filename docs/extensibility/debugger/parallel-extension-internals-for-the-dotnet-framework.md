@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Parallel extension internals for the .NET Framework
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section describes the internal types, methods, and fields of classes that help you implement a custom debugger for the parallel extensions to the .NET Framework.
 
 ## In this section

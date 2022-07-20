@@ -19,21 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortEvents2::Event
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method sends events that signify the creation and destruction of processes and programs on a port.
 
 ## Syntax
 
-```cpp
-HRESULT Event(
-   IDebugCoreServer2* pServer,
-   IDebugPort2*       pPort,
-   IDebugProcess2*    pProcess,
-   IDebugProgram2*    pProgram,
-   IDebugEvent2*      pEvent,
-   REFIID             riidEvent
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Event(
    IDebugCoreServer2 pServer,
@@ -44,6 +36,18 @@ int Event(
    ref Guid          riidEvent
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Event(
+   IDebugCoreServer2* pServer,
+   IDebugPort2*       pPort,
+   IDebugProcess2*    pProcess,
+   IDebugProgram2*    pProgram,
+   IDebugEvent2*      pEvent,
+   REFIID             riidEvent
+);
+```
+---
 
 ## Parameters
 `pMachine`\

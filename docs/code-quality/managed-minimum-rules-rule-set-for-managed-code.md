@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Managed Minimum Rules rule set for managed code
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Managed Minimum rules focus on the most critical problems in your code, including potential security holes, application crashes, and other important logic and design errors. Include this rule set in any custom rule set you create for your projects.
 
 |Rule|Description|

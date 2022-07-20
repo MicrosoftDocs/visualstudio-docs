@@ -13,6 +13,8 @@ ms.workload:
 ---
 # Share code maps
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can save code maps as part of a Visual Studio project, as an image, or as an XPS file.
 
 ## Share a code map with other Visual Studio users

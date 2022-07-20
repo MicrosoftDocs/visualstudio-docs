@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramEx2::GetProgramNode
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the program node associated with a program.
 
 ## Syntax
 
-```cpp
-HRESULT GetProgramNode( 
-   IDebugProgramNode2** ppProgramNode
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProgramNode( 
    out IDebugProgramNode2 ppProgramNode
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProgramNode( 
+   IDebugProgramNode2** ppProgramNode
+);
+```
+---
 
 ## Parameters
 `ppProgramNode`\

@@ -17,6 +17,8 @@ ms.workload:
 ---
 # Go To Line dialog box
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The **Go To Line** dialog box lets you move to a specific line in the active document. To access this dialog box, open a document for editing, and then select **Edit** > **Go To** > **Go To Line** or press **Ctrl**+**G**.
 
 ![Go To Line dialog box in Visual Studio](media/go-to-line-dialog-box.png)

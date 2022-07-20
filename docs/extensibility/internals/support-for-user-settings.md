@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # Support for User Settings
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A VSPackage may define one or more settings categories, which are groups of state variables that persist when a user chooses the **Import/Export Settings** command on the **Tools** menu. To enable this persistence, you use the settings APIs in the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)].
 
  A registry entry that is referred to as a Custom Settings Point and a GUID defines a VSPackage's settings category. A VSPackage can support multiple settings categories, each defined by a Custom Settings Point.

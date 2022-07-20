@@ -6,15 +6,15 @@ ms.date: "10/28/2019"
 ms.topic: "how-to"
 helpviewer_keywords:
   - "tracepoints, about tracepoints"
-author: "Sagar-S-S"
-ms.author: "sashe"
+author: MikeJo5000
+ms.author: mikejo
 manager: AndSter
 ms.workload:
   - "multiple"
 ---
-
-
 # Log info to the Output window using tracepoints in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Tracepoints allow you to log information to the Output window under configurable conditions without modifying or stopping your
 code. This feature is supported for both managed languages (C#, Visual Basic, F#) and native code as well as languages such as JavaScript and Python.

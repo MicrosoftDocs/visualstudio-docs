@@ -22,6 +22,8 @@ ms.workload:
 ---
 # The Visual Studio image library
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Visual Studio Image Library contains application images that appear in Microsoft Visual Studio, Microsoft Windows, the Office system and other Microsoft software. This set of over 1,000 images can be used to create applications that look visually consistent with Microsoft software.
 
 [Download the Visual Studio image library](https://www.microsoft.com/download/details.aspx?id=35825)

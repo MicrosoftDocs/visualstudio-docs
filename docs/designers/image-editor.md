@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Image editor
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This article describes how to work with the Visual Studio **Image Editor** to view and modify texture and image resources.
 
 You can use the **Image Editor** to work with the kinds of rich texture and image formats that are used in DirectX app development. This includes support for popular image file formats and color encodings, features such as alpha-channels and MIP-mapping, and many of the highly compressed, hardware-accelerated texture formats that DirectX supports.

@@ -2,7 +2,7 @@
 title: "Use dump files in the debugger | Microsoft Docs"
 description: A dump file is a snapshot of an executing app and loaded modules. Consider creating a dump file for situations where you don't have debug access to the app.
 
-ms.date: "11/05/2018"
+ms.date: "06/28/2022"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.crashdump"
@@ -22,10 +22,13 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
+ms.custom: devdivchpfy22
 ms.workload:
   - "multiple"
 ---
 # Dump files in the Visual Studio debugger
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 <a name="BKMK_What_is_a_dump_file_"></a>
 A *dump file* is a snapshot that shows the process that was executing and modules that were loaded for an app at a point in time. A dump with heap information also includes a snapshot of the app's memory at that point.
@@ -39,17 +42,10 @@ The Visual Studio debugger can save dump files for managed or native code. It ca
 ## <a name="BKMK_Requirements_and_limitations"></a> Requirements and limitations
 
 - To debug dump files from 64-bit machines, Visual Studio must be running on a 64-bit machine.
-
-::: moniker range=">= vs-2019"
-- Visual Studio can debug dump files of managed apps from Linux OS. 
-::: moniker-end
-
+- Visual Studio can debug dump files of managed apps from Linux OS.
 - Visual Studio can debug dump files of native apps from ARM devices. It can also debug dumps of managed apps from ARM devices, but only in the native debugger.
-
 - To debug [kernel-mode](/windows-hardware/drivers/debugger/kernel-mode-dump-files) dump files or use the [SOS.dll](/dotnet/framework/tools/sos-dll-sos-debugging-extension) debugging extension in Visual Studio, download the debugging tools for Windows in the [Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk).
-
 - Visual Studio can't debug dump files saved in the older, [full user-mode dump](/windows/desktop/wer/collecting-user-mode-dumps) format. A full user-mode dump is not the same as a dump with heap.
-
 - Debugging dump files of optimized code can be confusing. For example, compiler inlining of functions can result in unexpected call stacks, and other optimizations might change the lifetime of variables.
 
 ## <a name="BKMK_Dump_files__with_or_without_heaps"></a> Dump files with or without heaps
@@ -62,7 +58,7 @@ Dump files may or may not have heap information.
 
 ## <a name="BKMK_Create_a_dump_file"></a> Create a dump file
 
-While you are debugging a process in Visual Studio, you can save a dump when the debugger has stopped at an exception or breakpoint.
+While you're debugging a process in Visual Studio, you can save a dump file when the debugger has stopped at an exception or breakpoint.
 
 With [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studio.md) enabled, you can attach the Visual Studio debugger to a crashed process outside of Visual Studio, and then save a dump file from the debugger. See [Attach to running processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
 
@@ -70,7 +66,7 @@ With [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studi
 
 1. While stopped at an error or breakpoint during debugging, select **Debug** > **Save Dump As**.
 
-1. In the **Save Dump As** dialog box, under **Save as type**, select **Minidump** or **Minidump with Heap** (the default).
+1. In the **Save Dump As** dialog, under **Save as type**, select **Minidump** or **Minidump with Heap** (the default).
 
 1. Browse to a path and select a name for the dump file, and then select **Save**.
 
@@ -81,11 +77,11 @@ With [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studi
 
 1. In Visual Studio, select **File** > **Open** > **File**.
 
-1. In the **Open File** dialog box, locate and select the dump file. It will usually have a *.dmp* extension. Select **OK**.
+1. In the **Open File** dialog, locate and select the dump file. It will usually have a *.dmp* extension. Select **OK**.
 
    The **Minidump File Summary** window shows summary and module information for the dump file, and actions you can take.
 
-   ![Minidump summary page](../debugger/media/dbg_dump_summarypage.png "Minidump summary page")
+   :::image type="content" source="../debugger/media/dbg_dump_summarypage.png" alt-text="Screenshot showing Minidump summary page.":::
 
 1. Under **Actions**:
    - To set symbol loading locations, select **Set symbol paths**.
@@ -95,7 +91,7 @@ With [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studi
 
 To use full debugging features on a dump file, Visual Studio needs:
 
-- The *.exe* file the dump was created for, and other binaries (DLLs, etc.) that the dump process used.
+- The *.exe* file the dump was created for, and other binaries (such as DLLs) that the dump process used.
 - Symbol (*.pdb*) files for the *.exe* and other binaries.
 - The *.exe* and *.pdb* files that exactly match the version and build of the files at dump creation.
 - Source files for the relevant modules. You can use the disassembly of the modules if you can't find the source files.

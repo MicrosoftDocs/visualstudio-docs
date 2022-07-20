@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPropertyDestroyEvent2::GetDebugProperty
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the property to be destroyed.
 
 ## Syntax
 
-```cpp
-HRESULT GetDebugProperty ( 
-   IDebugProperty2** ppProperty
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDebugProperty ( 
    out IDebugProperty2 ppProperty
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDebugProperty ( 
+   IDebugProperty2** ppProperty
+);
+```
+---
 
 ## Parameters
 `ppProperty`\

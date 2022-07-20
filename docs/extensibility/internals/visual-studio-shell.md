@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # Visual Studio Shell
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] shell is the primary agent of integration in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. The shell provides necessary functionality to enable VSPackages to share common services. Because the architectural goal of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is to vest primary functionality in the VSPackages, the shell is a framework to provide basic functionality and support cross-communication among its component VSPackages.
 
 ## Shell Responsibilities

@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramDestroyEvent2::GetExitCode
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the program's exit code.
 
 ## Syntax
 
-```cpp
-HRESULT GetExitCode( 
-   DWORD* pdwExit
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetExitCode( 
    out uint pdwExit
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetExitCode( 
+   DWORD* pdwExit
+);
+```
+---
 
 ## Parameters
 `pdwExit`\

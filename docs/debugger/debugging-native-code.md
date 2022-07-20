@@ -4,8 +4,6 @@ description: Learn about common debugging problems and high-level techniques for
 ms.custom: SEO-VS-2020
 ms.date: "04/11/2017"
 ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug"
 dev_langs:
   - "CSharp"
   - "VB"
@@ -25,7 +23,9 @@ ms.workload:
   - "cplusplus"
 ---
 # Debugging Native Code
-The section covers some common debugging problems and techniques for native applications. The techniques covered in this section are high-level techniques. For the mechanics of using the Visual Studio debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md)).
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+The section covers some common debugging problems and techniques for native applications. The techniques covered in this section are high-level techniques. For the mechanics of using the Visual Studio debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 ## In This Section
  [How to: Debug Optimized Code](../debugger/how-to-debug-optimized-code.md)

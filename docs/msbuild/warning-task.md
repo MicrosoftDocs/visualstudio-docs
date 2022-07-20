@@ -34,7 +34,8 @@ Logs a warning during a build based on an evaluated conditional statement.
 |---------------| - |
 | `Code` | Optional `String` parameter.<br /><br /> The warning code to associate with the warning. |
 | `File` | Optional `String` parameter.<br /><br /> Specifies the relevant file, if any. If no file is provided, the file containing the Warning task is used. |
-| `HelpKeyword` | Optional `String` parameter.<br /><br /> The Help keyword to associate with the warning. |
+| `HelpKeyword` | Optional `String` parameter.<br /><br /> The Help keyword to associate with the warning. For internal use only. |
+| `HelpLink` | Optional `String` parameter.<br/><br /> A link to more information about the warning. |
 | `Text` | Optional `String` parameter.<br /><br /> The warning text that MSBuild logs if the `Condition` parameter evaluates to `true`. |
 
 ## Remarks
@@ -44,6 +45,8 @@ Logs a warning during a build based on an evaluated conditional statement.
  If the `Condition` parameter of the `Warning` task evaluates to `true`, the value of the `Text` parameter is logged and the build continues to execute. If a `Condition` parameter does not exist, the warning text is logged. For more information on logging, see [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md).
 
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
+
+`HelpKeyword` is used by Visual Studio to support the contextual help feature (F1). You can use `HelpLink` to associate an online help page with an error message.
 
 ## Example
 

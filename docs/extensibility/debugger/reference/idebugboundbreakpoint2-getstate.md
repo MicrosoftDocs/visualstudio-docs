@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugBoundBreakpoint2::GetState
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the state of this bound breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT GetState( 
-    BP_STATE* pState
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetState( 
     out enum_BP_STATE pState
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetState( 
+    BP_STATE* pState
+);
+```
+---
 
 ## Parameters
 `pState`\

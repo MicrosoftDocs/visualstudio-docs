@@ -18,6 +18,8 @@ ms.workload:
 - vssdk
 ---
 # Legacy Language Service Essentials
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You must provide a language service to integrate a programming language into Visual Studio. This topic explains the features available in legacy language services.
 
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more about the new way to implement a language service, see [Editor and Language Service Extensions](../../extensibility/editor-and-language-service-extensions.md).

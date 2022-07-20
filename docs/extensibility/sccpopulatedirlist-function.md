@@ -16,6 +16,8 @@ ms.workload:
 - vssdk
 ---
 # SccPopulateDirList Function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This function determines which directories and (optionally) files are stored in source control, given a list of directories to examine.
 
 ## Syntax

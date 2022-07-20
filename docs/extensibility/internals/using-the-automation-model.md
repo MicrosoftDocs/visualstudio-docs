@@ -15,6 +15,8 @@ ms.workload:
 - vssdk
 ---
 # Using the Automation Model
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 After you have connected your VSPackage to automation, you can obtain the properties and methods by calling the <xref:EnvDTE.DTEClass.GetObject%2A> method on the <xref:EnvDTE._DTE> object, passing a string representing the object you wish to retrieve.
 
 ## Obtaining Project Objects

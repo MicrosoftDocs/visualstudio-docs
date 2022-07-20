@@ -19,19 +19,23 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess2::CanDetach
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the session debug manager (SDM) can detach the process.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int CanDetach();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT CanDetach(
    void
 );
 ```
-
-```csharp
-int CanDetach();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK.` Returns `S_FALSE` if the debugger cannot detach from the process. Otherwise, returns an error code.

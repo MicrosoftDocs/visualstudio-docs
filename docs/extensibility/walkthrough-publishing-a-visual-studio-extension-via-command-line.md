@@ -17,9 +17,11 @@ ms.workload:
 ---
 # Walkthrough: Publishing a Visual Studio extension via command line
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This walkthrough shows you how to publish a Visual Studio extension to the Visual Studio Marketplace using the command line. When you add your extension to the Marketplace, developers can use the [**Extensions and Updates**](../ide/finding-and-using-visual-studio-extensions.md) dialog to browse there for new and updated extensions.
 
-VsixPublisher.exe is the command line tool for publishing Visual Studio extensions to the Marketplace. It can be accessed from ${VSInstallDir}\VSSDK\VisualStudioIntegration\Tools\Bin\VsixPublisher.exe. Commands available on this tool are: **publish**, **createPublisher**, **deletePublisher**, **deleteExtension**, **login**, **logout**.
+VsixPublisher.exe is the command line tool for publishing Visual Studio extensions to the Marketplace. It can be accessed from ${VSInstallDir}\VSSDK\VisualStudioIntegration\Tools\Bin\VsixPublisher.exe. Commands available on this tool are: **publish**, **deletePublisher**, **deleteExtension**, **login**, **logout**.
 
 ## Commands
 
@@ -36,22 +38,6 @@ Publishes an extension to the Marketplace. The extension can be a vsix, an exe/m
 
 ```
 VsixPublisher.exe publish -payload "{path to vsix}" -publishManifest "{path to vs-publish.json}" -ignoreWarnings "VSIXValidatorWarning01,VSIXValidatorWarning02"
-```
-
-### createPublisher
-
-Creates a publisher on the Marketplace. Also logs the publisher into the machine for future actions (for example, deleting/publishing an extension).
-
-|Command Options |Description |
-|---------|---------|
-|displayName (required) | Display name of the publisher. |
-|publisherName (required) | The name of the publisher (for example, the identifier). |
-|personalAccessToken (required) | Personal Access Token that is used to authenticate the publisher. |
-|shortDescription | A short description of the publisher (not a file). |
-|longDescription | A long description of the publisher (not a file). |
-
-```
-VsixPublisher.exe createPublisher -publisherName "{Publisher Name}" -displayName "{Publisher Display Name}" -personalAccessToken "{Personal Access Token}"
 ```
 
 ### deletePublisher
@@ -107,6 +93,10 @@ Logs a publisher out of the machine.
 ```
 VsixPublisher.exe logout -publisherName "{Publisher Name}"
 ```
+
+### createPublisher
+> [!Caution]
+> This command is no longer available. You can create a new publisher by navigating to [Visual Studio Marketplace](https://marketplace.visualstudio.com/manage/publishers).
 
 ## publishManifest file
 
@@ -227,33 +217,19 @@ In this case, we will use a default VSPackage extension, but the same steps are 
 
 3. Open command line and navigate to ${VSInstallDir}\VSSDK\VisualStudioIntegration\Tools\Bin\ directory.
 
-4. To create a new publisher, use the following command:
+4. To publish a new extension, use the following command:
 
    ```
-   VsixPublisher.exe createPublisher -publisherName "TestVSIXPublisher" -displayName "Test VSIX Publisher" -personalAccessToken "{Personal Access Token that is used to authenticate the publisher. If not provided, the pat is acquired from the logged-in users.}"
+   VsixPublisher.exe publish -payload "{Path to vsix file}"  -publishManifest "{path to publishManifest file}"  -personalAccessToken "{Personal Access Token that is used to authenticate the publisher. If not provided, the pat is acquired from the logged-in users.}"
    ```
 
-5. On successful creation of publisher, you will see the following command line message:
-
-   ```
-   Added 'Test VSIX Publisher' as a publisher on the Marketplace.
-   ```
-
-6. You can verify the new publisher you created by navigating to [Visual Studio Marketplace](https://marketplace.visualstudio.com/manage/publishers)
-
-7. To publish a new extension, use the following command:
-
-   ```
-   VsixPublisher.exe publish -payload "{Path to vsix file}"  -publishManifest "{path to publishManifest file}"
-   ```
-
-8. On successful creation of publisher, you will see the following command line message:
+5. On successful publishing of extension, you will see the following command line message:
 
    ```
    Uploaded 'MyVsixExtension' to the Marketplace.
    ```
 
-9. You can verify the new extension you published by navigating to [Visual Studio Marketplace](https://marketplace.visualstudio.com/)
+6. You can verify the new extension you published by navigating to [Visual Studio Marketplace](https://marketplace.visualstudio.com/)
 
 ### Install the extension from the Visual Studio Marketplace
 

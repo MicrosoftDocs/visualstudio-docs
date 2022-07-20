@@ -1,5 +1,5 @@
 ---
-title: Solution (.Sln) file
+title: Solution (.sln) file
 description: Learn about the .sln file, which is one of the files that maintains state information for a project in Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 03/15/2019
@@ -18,13 +18,15 @@ ms.workload:
 ---
 # Solution (.sln) file
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 A solution is a structure for organizing projects in Visual Studio. The solution maintains the state information for projects in two files:
 
 - .sln file (text-based, shared)
 
 - .suo file (binary, user-specific solution options)
 
-For more information about .suo files, see [Solution User Options (.Suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md).
+For more information about .suo files, see [Solution User Options (.suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md).
 
 If your VSPackage is loaded as a result of being referenced in the .sln file, the environment calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.ReadSolutionProps%2A> to read in the .sln file.
 
@@ -36,30 +38,6 @@ Each project's file contains additional information read by the environment to p
 
 The header of a .sln file looks like this:
 
-::: moniker range="vs-2017"
-
-```
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
-MinimumVisualStudioVersion = 10.0.40219.1
-```
-
-### Definitions
-
-`Microsoft Visual Studio Solution File, Format Version 12.00`\
-Standard header that defines the file format version.
-
-`# Visual Studio 15`\
-The major version of Visual Studio that (most recently) saved this solution file. This information controls the version number in the solution icon.
-
-`VisualStudioVersion = 15.0.26730.15`\
-The full version of Visual Studio that (most recently) saved the solution file. If the solution file is saved by a newer version of Visual Studio that has the same major version, this value is not updated so as to lessen churn in solution files.
-
-`MinimumVisualStudioVersion = 10.0.40219.1`\
-The minimum (oldest) version of Visual Studio that can open this solution file.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
@@ -160,5 +138,5 @@ Only the .sln file contains entries in the `preSolution` and `postSolution` sect
 ## See also
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps>
-- [Solution User Options (.Suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md)
+- [Solution User Options (.suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md)
 - [Solutions](../../extensibility/internals/solutions-overview.md)

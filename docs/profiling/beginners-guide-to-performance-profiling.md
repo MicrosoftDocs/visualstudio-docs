@@ -2,10 +2,8 @@
 title: "Measure CPU usage in your apps"
 description: "Analyze CPU performance issues in your application using the debugger-integrated diagnostics tools."
 
-ms.date: 04/03/2021
+ms.date: 04/28/2022
 ms.topic: tutorial
-f1_keywords:
-  - "vs.performance.wizard.intropage"
 helpviewer_keywords:
   - "Profiling Tools, quick start"
   - "Diagnostics Tools, CPU Usage"
@@ -19,7 +17,9 @@ ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
-# Measure application performance by analyzing CPU usage
+# Measure application performance by analyzing CPU usage (C#, Visual Basic, C++, F#)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Find performance issues while you're debugging with the debugger-integrated **CPU Usage** diagnostic tool.  You can also analyze CPU usage without a debugger attached or by targeting a running app. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
@@ -36,7 +36,7 @@ In this tutorial, you will:
 
 If **CPU Usage** does not give you the data that you need, other profiling tools in the [Performance Profiler](../profiling/profiling-feature-tour.md#post_mortem) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time.
 
-## Step 1: Collect profiling data
+## Step 1: Collect CPU usage data
 
 1. Open the project you want to debug in Visual Studio and set a breakpoint in your app at the point where you want to examine CPU usage.
 
@@ -121,9 +121,7 @@ We recommend that you begin analyzing your data by examining the list of functio
     ::: moniker range=">=vs-2019"
     ![Diagnostics Tools Call Tree](../profiling/media/vs-2019/diag-tools-call-tree.png "DiagToolsCallTree")
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    ![Diagnostics Tools Call Tree](../profiling/media/diag-tools-call-tree.png "DiagToolsCallTree")
-    ::: moniker-end
+
 
     |Image|Description|
     |-|-|

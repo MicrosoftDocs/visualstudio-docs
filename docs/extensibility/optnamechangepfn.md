@@ -17,6 +17,8 @@ ms.workload:
 - vssdk
 ---
 # OPTNAMECHANGEPFN
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This is a callback function specified in a call to the [SccSetOption](../extensibility/sccsetoption-function.md) (using option `SCC_OPT_NAMECHANGEPFN`) and is used to communicate name changes made by the source control plug-in back to the IDE.
 
 ## Signature

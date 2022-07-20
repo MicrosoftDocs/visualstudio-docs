@@ -1,14 +1,16 @@
 ---
-title: "Connected Services"
+title: "Visual Studio for Mac & Connected Azure Services"
 description: Learn how to add Azure data storage, authentication, and push notifications from within Visual Studio for Mac to a cross-platform application.
 ms.assetid: 41CB62FF-0F39-4CE8-8917-6A77F058719F
-author: sayedihashimi
-ms.author: sayedha
+author: jmatthiesen
+ms.author: jomatthi
+manager: dominicn
 ms.date: 11/06/2018
 ms.topic: how-to
 ---
+# Connected Services walkthrough in Visual Studio for Mac
 
-# Connected Services walkthrough
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 The Connected Services workflow brings the Azure portal workflow into Visual Studio for Mac, so you don’t have to leave your project to add services.
 
