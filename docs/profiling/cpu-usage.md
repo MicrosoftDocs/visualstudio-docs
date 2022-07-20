@@ -20,7 +20,7 @@ A good way to start investigating performance issues in your app is to understan
 
 The tool is also helpful for DevOps scenarios, such as when a customer reports that some requests or orders are not getting through to the retail website during peak season. Often, the issues are in production, and it is challenging to debug at that moment, but this tool can help you capture enough information and evidence of the issue. After collecting a trace file, the analysis can quickly help you understand potential causes and give suggestions within the context of your code so that you can take the next steps to fix the issue.
 
-The **CPU Usage** tool is helpful for both local trace sessions and production. It can also be initiated by using the keyboard shortcut, **Alt+F2**, and then **CPU Usage** or by opening an already collected trace using a tool like dotnet-trace or dotnet-monitor.
+The **CPU Usage** tool is helpful for both local trace sessions and production. The CPU Usage tool can also be initiated by using the keyboard shortcut, **Alt+F2**, and then choosing **CPU Usage** or by opening an already collected trace using a tool like [dotnet-trace](/dotnet/core/diagnostics/dotnet-trace) or [dotnet-monitor](/dotnet/core/diagnostics/dotnet-monitor). (For .NET production code, this is most likely how you would collect traces.)
 
 The CPU Usage tool can run on an open Visual Studio project, on an installed Microsoft Store app, or attached to a running app or process. You can run the CPU Usage tool with or without debugging. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
