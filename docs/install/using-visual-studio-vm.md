@@ -100,7 +100,7 @@ The spectrum of development environments is huge, and there’s real cost associ
 
 A quick summary: Use the System Preparation tool (Sysprep) and shut down the running VM, and then capture *(Figure 1)* the VM as an image through the UI in the Azure portal. Azure saves the `.vhd` file that contains the image in the storage account of your choosing. The new image then shows up as an Image resource in your subscription’s list of resources.
 
-![Capture an image through the Azure portal’s UI](media/capture-vm.png)
+![Capture an image through the Azure portal’s UI](media/vs-2022/capture-vm.png)
 
 *(Figure 1) Capture an image through the Azure portal’s UI.*
 
