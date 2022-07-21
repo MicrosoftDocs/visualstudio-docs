@@ -2,7 +2,7 @@
 title: Using Visual Studio on an Azure Virtual Machine
 titleSuffix: ''
 description: Learn how to use Visual Studio on an Azure Virtual Machine
-ms.date: 11/17/2020
+ms.date: 07/23/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - azure services
@@ -27,10 +27,11 @@ New to Azure? [Create a free Azure account](https://azure.microsoft.com/free).
 
 ## What configurations and versions are available?
 
-Images for the most recent major versions, Visual Studio 2019, Visual Studio 2017 and Visual Studio 2015, can be found in the Azure Marketplace.  Each of these versions offers the Visual Studio Enterprise and the Visual Studio Community editions.  These images are updated at least every month to include the latest Visual Studio and Windows updates.  While the names of the images remain the same, each image's description includes the installed product version and the image's "as of" date.
+Images for the most recent major versions, Visual Studio 2022, Visual Studio 2019, Visual Studio 2017 and Visual Studio 2015, can be found in the Azure Marketplace.  Each of these versions offers the Visual Studio Enterprise and the Visual Studio Community editions.  These images are updated at least every month to include the latest Visual Studio and Windows updates.  While the names of the images remain the same, each image's description includes the installed product version and the images "as of" date.
 
 | Release version                                                                                                                                                | Editions              | Product version       |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|-----------------------|
+| [Visual Studio 2022](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2022?tab=Overview) | Enterprise, Community | Version 17.2        |
 | [Visual Studio 2019: Latest (Version 16.11)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2019latest?tab=Overview) | Enterprise, Community | Version 16.11        |
 | [Visual Studio 2017: Latest (Version 15.9)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio?tab=Overview)           | Enterprise, Community | Version 15.9      |
 | [Visual Studio 2015: Latest (Update 3)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio?tab=Overview)               | Enterprise, Community | Version 14.0.25431.01 |
@@ -45,7 +46,7 @@ For more information, see the [Visual Studio Servicing Policy](/visualstudio/pro
 Each image contains the recommended feature set for that Visual Studio edition. Generally, the installation includes:
 
 * All available workloads, including each workload’s recommended optional components
-* .NET 4.6.2 and .NET 4.7 SDKs, Targeting Packs, and Developer Tools
+* .NET 4.6.2, .NET 4.7 and .NET 4.8 SDKs, Targeting Packs, and Developer Tools
 * Visual F#
 * GitHub Extension for Visual Studio
 * LINQ to SQL Tools
@@ -54,17 +55,19 @@ We use the following command line to install Visual Studio when building the ima
 
 ```shell
     vs_enterprise.exe --allWorkloads --includeRecommended --passive ^
-       --add Microsoft.Net.Component.4.7.SDK ^
-       --add Microsoft.Net.Component.4.7.TargetingPack ^
+       --add Microsoft.Net.Component.4.8.SDK ^
+       --add Microsoft.Net.Component.4.7.2.SDK ^
+       --add Microsoft.Net.Component.4.7.2.TargetingPack ^
        --add Microsoft.Net.Component.4.6.2.SDK ^
        --add Microsoft.Net.Component.4.6.2.TargetingPack ^
-       --add Microsoft.Net.ComponentGroup.4.7.DeveloperTools ^
+       --add Microsoft.Net.ComponentGroup.4.8.DeveloperTools ^
+       --add Microsoft.Net.ComponentGroup.4.7.2.DeveloperTools ^
        --add Microsoft.VisualStudio.Component.FSharp ^
        --add Component.GitHub.VisualStudio ^
        --add Microsoft.VisualStudio.Component.LinqToSql
 ```
 
-If the images don't include a Visual Studio feature that you require, provide feedback through the feedback tool in the upper-right corner of the page.
+If the images don't include a Visual Studio feature that you require, please provide feedback through the feedback tool in the upper-right corner of the page.
 
 ## What size VM should I choose?
 
