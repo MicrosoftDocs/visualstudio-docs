@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 86f2856c-8adf-4085-9962-f4136679e5ed
-ms.date: 05/27/2022
+ms.date: 07/21/2022
 ms.topic: conceptual
 description:  Learn how to add an alternate identity for your Visual Studio subscription to use for Azure DevOps and Azure
 ---
@@ -25,7 +25,7 @@ Within the [Visual Studio subscriber portal](https://my.visualstudio.com?wt.mc_i
 Adding an alternate account to your Visual Studio subscription allows you to access certain subscription benefits with a different identity than that to which the subscription is assigned. These benefits include things like Azure DevOps and Azure, and the Visual Studio IDE.  In the past, this was possible only if your Visual Studio subscription used a Microsoft Account (MSA). We've extended this functionality for work or school accounts in Azure Active Directory (Azure AD).
 
 > [!NOTE]
-> An alternate ID only allows you to use that second ID to activate Azure credits and Azure DevOps, and to sign in to the Visual Studio IDE.  It cannot be used to sign in to the subscription portal at <https://my.visualstudio.com>.  You still need to use the ID to which the subscription is assigned to sign in to the portal. 
+> An alternate ID only allows you to use that second ID to activate Azure credits and Azure DevOps, and to sign in to the Visual Studio IDE.  It can't be used to sign in to the subscription portal at <https://my.visualstudio.com>.  You still need to use the ID to which the subscription is assigned to sign in to the portal. 
 
 ### Add the alternate account
 
@@ -34,7 +34,7 @@ Adding an alternate account to your Visual Studio subscription allows you to acc
 3. Choose **Add alternate account**.
 4. Add your work or school account.
     > [!div class="mx-imgBorder"]
-    > ![Add work or school account](_img/vs-alternate-identity/enter-alternate-account-my-visual-studio-com-portal.png "Adding a work or school account as an alternate account on your subscription.")
+    > ![Add work or school account](_img/vs-alternate-identity/enter-alternate-account-my-visual-studio-com-portal.png "Screenshot of the View alternate account dialog used to enter or update alternate an ID.")
 
 5. Use your work or school account to sign in to Azure DevOps (https://{youraccount}.visualstudio.com).
 
