@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: d2ab13ed-ef79-4ef0-8736-eccd04bc6020
-ms.date: 06/10/2022
+ms.date: 07/21/2022
 ms.topic: conceptual
 description:  Information for Cloud Solution Providers on how to buy and manage Visual Studio cloud subscriptions for your customers.
 ---
@@ -46,7 +46,7 @@ Anyone with [owner or contributor access](https://na01.safelinks.protection.outl
 > You'll need to follow these steps every time you purchase Visual Studio subscriptions as a CSP. At this time, there is no API
 > for automation of purchasing.
 
-Once you confirm the purchase, you can choose **Manage** to assign subscriptions to your customer's end users.  You can
+After you confirm the purchase, you can choose **Manage** to assign subscriptions to your customer's end users.  You can
 also access the Subscription Admin portal from the Partner Center by choosing **Service management** to see the steps or video below.
 
 ## How to manage Visual Studio cloud subscriptions for your customer
@@ -65,7 +65,8 @@ To reassign a Visual Studio subscription to a different user, you can delete the
 If a subscriber hasn't activated their Visual Studio subscription, it may be because they missed the invitation email.  You can request that we resend the activation invitation to the user from within the Visual Studio admin portal too.
 
 ## View Visual Studio pricing for CSP partners
-To view Visual Studio pricing for CSP partners, log into the [Partner Center](https://partnercenter.microsoft.com).  Choose **Pricing and offers** from the left nav.  Choose the current month pricing file under **usage-based services** in the upper right. Once the Excel spreadsheet downloads, go to the **Azure Price List** sheet, and filter the **Meter Category** column to **Visual Studio**.
+
+To view Visual Studio pricing for CSP partners, log into the [Partner Center](https://partnercenter.microsoft.com).  Choose **Pricing and offers** from the left nav.  Choose the current month pricing file under **usage-based services** in the upper right. After the Excel spreadsheet downloads, go to the **Azure Price List** sheet, and filter the **Meter Category** column to **Visual Studio**.
 
 Here's how to interpret what you see on this spreadsheet:
 
