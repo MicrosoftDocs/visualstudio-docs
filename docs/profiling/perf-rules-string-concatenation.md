@@ -25,4 +25,4 @@ The StringBuilder class is a mutable object, and, unlike System.String, most of 
 
 ## How to investigate a warning
 
-Clicking "View source code" will take you to the [call tree](..profiling/cpu-usage#BKMK_Call_tree_structure) and source line highlighting view showing where the most amount of time is being spent in string concatenations. If the problem is occurring in multiple locations within the application navigating to the caller/callee view will show each call location.
+Clicking "View source code" will take you to the [call tree](../profiling/cpu-usage#BKMK_Call_tree_structure) and source line highlighting view showing where the most amount of time is being spent in string concatenations. If the problem is occurring in multiple locations within the application navigating to the caller/callee view will show each call location.

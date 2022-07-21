@@ -32,8 +32,14 @@
     href: analyze-database.md
   - name: Events Viewer
     href: events-viewer.md
-  - name: CPU usage
-    href: cpu-usage.md
+  - name: CPU Usage
+    items:
+    - name: CPU usage
+      href: cpu-usage.md
+    - name: Performance rules
+      items:
+      - name: String concatenation
+        href: perf-rules-string-concatenation.md
   - name: File IO
     href: use-file-io.md    
   - name: Memory usage
