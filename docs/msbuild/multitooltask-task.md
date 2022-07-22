@@ -22,7 +22,7 @@ ms.workload:
 ---
 # MultiToolTask task
 
-No description.
+Experimental task that enables parallel execution of MIDL, CL, Clang, and FXC (hlsl).
 
 ## Parameters
 
