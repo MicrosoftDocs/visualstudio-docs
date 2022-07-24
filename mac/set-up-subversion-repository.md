@@ -7,6 +7,8 @@ manager: dominicn
 ms.date: 05/06/2018
 ms.assetid: 0D58FB37-530E-495B-BED6-FD499477A9B6
 ms.topic: how-to
+monikerRange: 'vsmac-2019'
+
 ---
 # Set up a Subversion repository
 
