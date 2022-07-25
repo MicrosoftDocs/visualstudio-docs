@@ -4,7 +4,7 @@ description: Connecting to a Git repository using Visual Studio for Mac.
 author: jmatthiesen
 ms.author: jomatthi
 manager: dominicn
-ms.date: 12/03/2020
+ms.date: 06/30/2022
 ms.assetid: E992FA1D-B2AD-4A28-ADC6-47E4FC471060
 ms.topic: how-to
 ---
@@ -38,6 +38,7 @@ To set up a Git repository, execute the following steps:
 
    You'll need the HTTPS address to point Visual Studio for Mac to this repo.
 
+::: moniker range="vsmac-2019"
 ## Publishing an existing project
 
 If you have an existing project that _is not_ already in version control, use the following steps to set it up in Git:
@@ -127,11 +128,33 @@ Follow the steps below to push your new local repository to a new GitHub reposit
 Visual Studio for Mac will now push the changes to your remote GitHub repository:
 
 ![Push operation successfully completed confirmation](media/version-control-git11.png)
+::: moniker-end
 
 ## Clone an existing repository
+Visual Studio for Mac makes it easy to clone a repository right from the IDE. You can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps.
 
-It's likely that you'll have to work with a GitHub repo that exists only on the remote, not on your local machine. Visual Studio for Mac allows you to clone this repo quickly. Follow the steps below to clone it to your machine:
+::: moniker range=">=vsmac-2022"
 
+To clone a repository from GitHub:
+1. On the home page of the GitHub repo, click the **Code** button and choose the **Open with Visual Studio** option.
+:::image type="content" source="media/set-up-git-repository/version-control-git-14-2022.png" alt-text="Clone menu on GitHub, with cursor over the Open in Visual Studio link.":::
+1. When prompted in the browser to open Visual Studio, click the **Open** button.
+1. Visual Studio for Mac will launch with the Clone Git Repository dialog open with the URL of the GitHub repo.
+1. Choose a target folder path, then click **Clone**.
+
+To clone a repo hosted on a different remote service:
+
+1. Copy the URL of the repo you want to clone.
+1. In the Visual Studio for Mac menu bar, select the **Git > Clone Repository...** menu.
+1. Paste the URL for the repo into the **URL** field of the **Clone Git Repository** dialog, choose a target folder path, then click **Clone**.
+
+:::image type="content" source="media/set-up-git-repository/version-control-git-clone.png" alt-text="Clone dialog shown in Visual Studio for Mac, with a URL field set to the URL of the Git repo. A Target Folder path includes a file path. Cancel and Clone buttons are shown, with the Clone button set as the default button.":::
+
+After clicking the **Clone** button, Visual Studio for Mac will clone the repository and open the first solution file (.sln) file found.
+
+::: moniker-end
+
+::: moniker range="vsmac-2019"
 1. In the Menu bar, select **Version Control > Clone Repository**:
 
 2. This displays the **Connect with Url** tab:
@@ -162,6 +185,7 @@ If you have issues with initializing your project with an empty remote repositor
 1. On the solution Window, select your solution node.
 1. Browse to the Version Control menu and choose **Publish in Version Control**.
 1. Follow the steps of the above tutorial starting from the step 6.
+::: moniker-end
 
 ## See also
 
