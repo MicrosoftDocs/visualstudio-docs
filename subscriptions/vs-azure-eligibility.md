@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 3a8f9439-90e7-4a8a-a5a1-d0d6dcd1ba49
-ms.date: 05/27/2022
+ms.date: 07/21/2022
 ms.topic: conceptual
 description:  Learn whether your Visual Studio subscription includes Azure Dev/Test credits
 ---
@@ -61,3 +61,4 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 + [Learn more](https://docs.microsoft.com/azure/devtest/offer/overview-what-is-devtest-offer-visual-studio) about Azure Dev/Test credits
 + [Get started with Azure Dev/Test credits](https://docs.microsoft.com/azure/devtest/offer/quickstart-individual-credit)
++ See how you can use Azure Dev/Test credits with [Windows Virtual Desktop](vs-windows-virtual-desktop.md)
