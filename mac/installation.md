@@ -34,7 +34,7 @@ Learn more about the changes in the [release notes](/visualstudio/releases/2022/
 
 ::: moniker-end
 
-## Requirements
+## Prerequisites
 
 ::: moniker range="vsmac-2019"
 
@@ -44,7 +44,7 @@ Learn more about the changes in the [release notes](/visualstudio/releases/2022/
 
 ::: moniker range="vsmac-2022"
 
-- A Mac with macOS Mojave 10.14 or above.
+- See [Visual Studio 2022 for Mac System Requirements](/visualstudio/releases/2022/mac-system-requirements) for supported operating systems, hardware, supported languages, and additional requirements and guidance.
 
 ::: moniker-end
 
