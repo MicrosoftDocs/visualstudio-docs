@@ -2,7 +2,7 @@
 title: Options, Text Editor, General
 description: Learn how to use the General page to change global settings for the Visual Studio code and text editor.
 ms.custom: SEO-VS-2020
-ms.date: 06/09/2022
+ms.date: 07/25/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor
@@ -121,12 +121,20 @@ When selected, all bidirectional text control characters will be rendered as pla
 
 ### Show bidirectional text control characters
 
-When selected, all bidirectional text control characters will be rendered as placeholders in the code editor.
+When selected, all bidirectional text control characters are rendered as placeholders in the code editor.
 
 > [!CAUTION]
 > This option is selected by default to prevent a potentially malicious exploit that allows code to be misrepresented.
 >
 > First introduced in [Visual Studio 2019 version 16.11.8](/visualstudio/releases/2019/release-notes#release-notes-icon-visual-studio-2019-version-16118), this option makes sure that the Visual Studio editor no longer allows bidirectional text control characters to manipulate the order of characters in the code editor. The bidirectional text control characters are still present in the code.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+### View zero-width characters
+
+When selected, zero-width characters such as non-printable Unicode characters are rendered in the code editor.
 
 ::: moniker-end
 
