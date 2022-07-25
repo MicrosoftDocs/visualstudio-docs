@@ -27,7 +27,7 @@ New to Azure? [Create a free Azure account](https://azure.microsoft.com/free).
 
 ## What configurations and versions are available?
 
-Images for the most recent major versions, Visual Studio 2022, Visual Studio 2019, Visual Studio 2017 and Visual Studio 2015, can be found in the Azure Marketplace.  Each of these versions offers the Visual Studio Enterprise and the Visual Studio Community editions.  These images are updated at least every month to include the latest Visual Studio and Windows updates.  While the names of the images remain the same, each image's description includes the installed product version and the images "as of" date.
+Images for the most recent major versions, Visual Studio 2022, Visual Studio 2019, Visual Studio 2017 and Visual Studio 2015, can be found in the Azure Marketplace.  Each of these versions offers the Visual Studio Enterprise and the Visual Studio Community editions.  These images are updated at least every month to include the latest Visual Studio and Windows updates.  While the names of the images remain the same, each image's description includes the installed product version and the image's "as of" date.
 
 | Release version                                                                                                                                                | Editions              | Product version       |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|-----------------------|
@@ -46,7 +46,7 @@ For more information, see the [Visual Studio Servicing Policy](/visualstudio/pro
 Each image contains the recommended feature set for that Visual Studio edition. Generally, the installation includes:
 
 * All available workloads, including each workload’s recommended optional components
-* .NET 4.6.2, .NET 4.7 and .NET 4.8 SDKs, Targeting Packs, and Developer Tools
+* .NET 4.6.2, .NET 4.7, and .NET 4.8 SDKs, Targeting Packs, and Developer Tools
 * Visual F#
 * GitHub Extension for Visual Studio
 * LINQ to SQL Tools
