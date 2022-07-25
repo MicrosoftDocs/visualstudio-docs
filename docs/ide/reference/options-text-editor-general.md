@@ -102,11 +102,22 @@ Select this check box to display the element's definition in a window without na
 
 The Display section of **Tools** > **Options** > **Text Editor** > **General** includes the following options.
 
-::: moniker range=">=vs-2019"
-
 ### View whitespace
 
 When selected, you can visualize spaces and tabs.
+
+::: moniker range="vs-2022"
+
+### View bidirectional text control characters
+
+When selected, all bidirectional text control characters will be rendered as placeholders in the code editor.
+
+> [!CAUTION]
+> This option is selected by default to prevent a potentially malicious exploit that allows code to be misrepresented. When selected, Visual Studio editor no longer allows bidirectional text control characters to manipulate the order of characters in the code editor. The bidirectional text control characters are still present in the code.
+
+::: moniker-end
+
+::: moniker range="=vs-2019"
 
 ### Show bidirectional text control characters
 
