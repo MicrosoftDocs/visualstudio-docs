@@ -280,7 +280,7 @@ The following people contributed to the Visual Studio docs during this period. T
 
 **New articles**
 
-- [View IEnumerables in a table visualizer in Visual Studio](../debugger/view-data-ienumerable-table-visualizer.md)
+- [View .NET collections with the IEnumerable visualizer](../debugger/view-data-in-ienumerable-visualizer.md)
 
 **Updated articles**
 
