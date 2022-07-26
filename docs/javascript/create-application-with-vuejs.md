@@ -13,7 +13,7 @@ dev_langs:
   - JavaScript
 ms.workload:
   - "nodejs"
-monikerRange: '<= vs-2019'
+monikerRange: 'vs-2019'
 ---
 # Create a Vue.js application using Node.js Tools for Visual Studio
 
@@ -26,6 +26,9 @@ The following new features support Vue.js application development in Visual Stud
 * Support for Script, Style, and Template blocks in *.vue* files
 * Recognition of the `lang` attribute on *.vue* files
 * Vue.js project and file templates
+
+> [!IMPORTANT]
+> Starting in Visual Studio 2022, you can alternatively [create a Vue project](../javascript/tutorial-create-vue-app.md) using the new [CLI-based project type](https://devblogs.microsoft.com/visualstudio/the-new-javascript-typescript-experience-in-vs-2022-preview-3/). The information in this article applies only to the Node.js project type (.njsproj).
 
 ## Prerequisites
 
