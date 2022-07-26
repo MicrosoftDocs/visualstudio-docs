@@ -13,9 +13,8 @@ ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-javascript
 monikerRange: '>= vs-2022'
-ms.workload:
-  - "dotnet"
 ---
+
 # Property pages for React, Angular, and Vue projects in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
@@ -30,7 +29,30 @@ The following pages and options appear in the **Property Pages**.
 
 ## Build tab
 
+Under the General tab, the following properties are available.
+
+**Build Command**
+
+Specifies the command to run when you build the project. (**Build > Build Solution**, or when you run the project.) If used, this is typically an npm command.
+
+**Clean Command**
+
+Specifies the command to run when you clean the project. (**Build > Clean Solution**) If used, this is typically an npm command.
+
+**Working Directory**
+
+Specifies the working directory for the build command. This is the project root, by default.
+
 ## Debug tab
 
+**Startup Command**
 
+Specifies the command to execute when you start the project. For example, an Angular project uses `npm start` by default.
 
+**Working Directory**
+
+Specifies the working directory for the startup command. By default, this is the project root. Relative paths are relative to the project root.
+
+## See also
+
+[JavaScript and TypeScript in Visual Studio](../../javascript/)
