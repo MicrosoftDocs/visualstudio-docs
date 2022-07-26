@@ -2,7 +2,7 @@
 title: 'How to: Configure projects to target platforms'
 description: Learn how Visual Studio enables you to set up your applications to target different platforms, including 64-bit platforms. 
 ms.custom: SEO-VS-2020
-ms.date: 09/13/2021
+ms.date: 07/27/2022
 ms.technology: vs-ide-compile
 ms.topic: how-to
 helpviewer_keywords:
@@ -25,7 +25,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Visual Studio enables you to set up your application builds to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in Visual Studio, see [64-bit applications](/dotnet/framework/64-bit-apps).
+Visual Studio enables you to set up your application builds to target different platforms (processor architectures), including 64-bit platforms. For more information on 64-bit platform support in Visual Studio, see [64-bit applications](/dotnet/framework/64-bit-apps).
 
 ::: moniker range="vs-2022"
 > [!NOTE]
@@ -40,24 +40,34 @@ Visual Studio enables you to set up your application builds to target different 
 
 The **Configuration Manager** provides a way for you to quickly add a new platform to target with your project. If you select one of the platforms included with Visual Studio, the properties for your project are modified to build your project for the selected platform.
 
+:::moniker range=">=vs-2022"
+To target a some platforms in a native C++ project, you need to install the build tools for the platform. C++ build tools for 32-bit ARM, x86, and x64 platforms are installed with the default C++ workload. If you're targeting another processor architecture, like ARM64, you'll need to use the Visual Studio Installer to install the build tools for the platform before continuing. You don't need to run Visual Studio on an AMD64 device to target AMD64. For AMD64, you can install ARM64 or [ARM64EC](/windows/arm/arm64ec) build tools; see [ARM64 Visual Studio](https://devblogs.microsoft.com/visualstudio/arm64-visual-studio/).
+
+For .NET development, .NET 6 is required to target the AMD64 platform.
+:::moniker-end
+
 ### To configure a project to target a 64-bit platform
 
 1. On the menu bar, choose **Build** > **Configuration Manager**.
 
-2. In the **Active solution platform** list, choose a 64-bit platform for the solution to target, and then choose the **Close** button.
+1. In the **Active solution platform** list, choose a 64-bit platform for the solution to target, and then choose the **Close** button.
 
-    1. If the platform that you want doesn't appear in the **Active solution platform** list, choose **New**.
+    1. If the platform that you want doesn't appear in the **Active solution platform** list, choose **New**. A platform you haven't used before might not appear in the list, even if you installed the build tools for it.
 
          The **New Solution Platform** dialog box appears.
 
-    2. In the **Type or select the new platform** list, choose **x64**.
+    1. In the **Type or select the new platform** list, choose the desired platform (processor architecture); for example, `x64`.
+
+        ![Screenshot showing choosing a new platform.](./media/vs-2022/choose-arm64-platform.png)
 
         > [!NOTE]
         > If you give your configuration a new name, you may have to modify the settings in the **Project Designer** to target the correct platform.
 
-    3. If you want to copy the settings from a current platform configuration, choose it, and then choose the **OK** button.
+    1. If you want to copy the settings from a current platform configuration, choose it, and then choose the **OK** button.
 
-The properties for all projects in your solution that target the 64-bit platform are updated, and the next build of the project will be optimized for 64-bit platforms.
+The properties for all projects in your solution that target the 64-bit platform are updated, and the next build of the project will be optimized for 64-bit platform.
+
+![Screenshot showing the new solution platform and project platform](./media/vs-2022/created-arm64-platform-configuration.png)
 
 > [!NOTE]
 > The **Win32** platform name is used for C++ projects, and it means **x86**. Visual Studio considers both project-level platforms and solution-level platforms, and the project platforms come from the language-specific project systems. C++ projects use **Win32** and **x64**, but the solution platforms use **x86** and **x64**. When you choose **x86** as the solution configuration, Visual Studio selects the **Win32** platform for C++ projects. To see both project-level platform and solution-level platform settings, open **Configuration Manager** and note the two platform settings. The solution-level platform is shown in the **Active solution platform** dropdown, and the table shows the project-level platform for each project.
