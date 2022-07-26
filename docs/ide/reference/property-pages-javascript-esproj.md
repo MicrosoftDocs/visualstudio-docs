@@ -55,4 +55,4 @@ Specifies the working directory for the startup command. By default, this is the
 
 ## See also
 
-[JavaScript and TypeScript in Visual Studio](../../javascript/)
+[JavaScript and TypeScript in Visual Studio](../../javascript/javascript-in-visual-studio.md)

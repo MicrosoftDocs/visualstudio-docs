@@ -22,7 +22,7 @@ monikerRange: 'vs-2019'
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create and run a simple Vue.js web application.
 
 > [!IMPORTANT]
-> This article requires the Vue.js template, which is available starting in Visual Studio 2017 version 15.8.
+> Starting in Visual Studio 2022, you can alternatively [create a Vue project](../javascript/tutorial-create-vue-app.md) using the new [CLI-based project type](https://devblogs.microsoft.com/visualstudio/the-new-javascript-typescript-experience-in-vs-2022-preview-3/). The information in this article applies only to the Node.js project type (.njsproj).
 
 ## Prerequisites
 
