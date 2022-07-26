@@ -8,14 +8,14 @@
   items:
   - name: First look at the Visual Studio IDE
     href: quickstart-ide-orientation-js.md
-  - name: Create a Vue.js project
-    href: quickstart-vuejs-with-nodejs.md
   - name: Create a React app
     href: tutorial-create-react-app.md
   - name: Create an Angular app
     href: tutorial-create-angular-app.md
   - name: Create a Vue.js app
     href: tutorial-create-vue-app.md
+  - name: Create a Vue.js project
+    href: quickstart-vuejs-with-nodejs.md
 - name: Tutorials
   items:
   - name: Create a Node.js app with Express
@@ -42,7 +42,7 @@
       href: ../ide/javascript-intellisense.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json
   - name: Build
     items:
-    - name: Compile TypeScript code using tsc
+    - name: Compile TypeScript code using npm
       href: compile-typescript-code-npm.md
     - name: Compile TypeScript code using NuGet
       href: compile-typescript-code-nuget.md
@@ -58,6 +58,10 @@
     href: debug-nodejs.md
   - name: Unit testing
     href: unit-testing-javascript-with-visual-studio.md
+- name: Reference
+  items:
+  - name: Properties, React, Angular, Vue
+    href: ../ide/reference/property-pages-javascript-esproj.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json
 - name: Resources
   items:
   - name: package.json configuration

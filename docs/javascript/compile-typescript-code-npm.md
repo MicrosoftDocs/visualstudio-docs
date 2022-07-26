@@ -17,7 +17,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can add TypeScript support to your projects using the TypeScript SDK or by using the npm. The TypeScript SDK is available by default in the Visual Studio installer.
+You can add TypeScript support to your projects using the TypeScript SDK or by using npm. The TypeScript SDK is available by default in the Visual Studio installer.
 
 For projects developed in Visual Studio 2019, we encourage you to use the TypeScript npm package for greater portability across different platforms and environments.
 
@@ -123,3 +123,7 @@ You can use Task Runner Explorer in Visual Studio to help automate tasks for thi
 
 - [NPM Task Runner](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.NPMTaskRunner) - Adds support for npm scripts defined in *package.json*. Supports yarn.
 - [Webpack Task Runner](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebPackTaskRunner) - Adds support for webpack.
+
+## See also
+
+[Properties, React, Angular, Vue](../ide/reference/property-pages-javascript-esproj.md)
