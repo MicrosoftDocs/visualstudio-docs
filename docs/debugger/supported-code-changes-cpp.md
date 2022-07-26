@@ -34,8 +34,7 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 ## <a name="BKMK_Requirements"></a> Requirements
 ### Build settings (Project > Properties):
   1. **C/C++ > General > Debug Information Format**: Program Database for Edit and Continue (`/ZI`)
-  2. **C/C++ > Code Generation > Enable Minimal Rebuild**: Yes (`/Gm`)
-  3. **Linker > General > Enable Incremental Linking**: Yes (`/INCREMENTAL`)
+  1. **Linker > General > Enable Incremental Linking**: Yes (`/INCREMENTAL`)
 
      Any incompatible linker settings (such as `/SAFESEH`, or `/OPT:`...) should cause warning _LNK4075_ during build.  
      Example: `LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification`
@@ -105,8 +104,6 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 - Debugging an old version of your code after a new version failed to build because of build errors.
 
 - Using a custom compiler (*cl.exe*) path. For security reasons, for recompilation of a file during Edit and Continue, Visual Studio always uses the installed compiler. If you are using a custom compiler path (for example, through a custom `$(ExecutablePath)` variable in your `*.props` file), a warning is displayed and Visual Studio falls back to using the installed compiler of the same version/architecture.
-
-- FASTBuild build system. FASTBuild is currently not compatible with the “Enable Minimal Rebuild (`/Gm`)” compiler switch and so Edit and Continue is not supported.
 
 - Legacy Architectures/VC Toolsets. With the VC 140 toolset, the default debugger supports Edit and Continue with both X86 and X64 applications. Legacy toolsets support only X86 applications. Toolsets older than VC 120 should use the legacy debugger by checking “_Debug > Options > General >_ Use Native Compatibility Mode” in order to use Edit and Continue.
 

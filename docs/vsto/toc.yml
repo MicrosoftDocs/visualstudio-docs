@@ -794,8 +794,6 @@
         href: deploying-an-office-solution.md
       - name: Deploying an Office Solution by Using ClickOnce
         href: deploying-an-office-solution-by-using-clickonce.md
-      - name: Deploying an Office Solution by Using Windows Installer
-        href: deploying-an-office-solution-by-using-windows-installer.md
       - name: Deploying an Office Solution by Using Visual Studio Setup Projects
         href: deploying-a-vsto-solution-by-using-windows-installer.md
       - name: Troubleshooting Office Solution Deployment

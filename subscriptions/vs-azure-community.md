@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: c15f7e18-b280-4902-a60d-2c2598653207
-ms.date: 05/27/2022
+ms.date: 07/21/2022
 ms.topic: conceptual
 description:  Learn about the Azure Community Support benefit included in selected Visual Studio subscriptions.
 ---
@@ -52,15 +52,15 @@ Getting started with Azure Community is easy.
 
 2. Locate the Azure Community tile in the Support section, and select the **Get Help** link.
     > [!div class="mx-imgBorder"]
-    >![Azure Community Tile](_img/vs-azure-community/vs-azure-community-tile.png "Select the 'Get Help' button on the Azure Community tile to get started.")
+    >![Azure Community Tile](_img/vs-azure-community/vs-azure-community-tile.png "Screenshot of the Azure Community Forum Support tile.  The Get help button is highlighted.")
 
 3. You'll see a list of the available forums.  Select the forum of your choice.
     > [!div class="mx-imgBorder"]
-    > ![Azure Community Forums](_img/vs-azure-community/vs-azure-community-forums.png "On the Azure Community Support page, select your choice of forums.")
+    > ![Azure Community Forums](_img/vs-azure-community/vs-azure-community-forums.png "Screenshot of the Azure Community Support forum page showing options for searching and filtering topics.")
 
 4. Within the forum, you can view topics and responses, search for answers to your question, or post a new question.
     > [!div class="mx-imgBorder"]
-    > ![Azure Community Example](_img/vs-azure-community/vs-azure-community-example.png "In the forum, you can view topics, search for answers, or post new questions.")
+    > ![Azure Community Example](_img/vs-azure-community/vs-azure-community-example.png "Screenshot of the content on one forum showing a variety of questions and their statuses.")
 
 ## Eligibility
 

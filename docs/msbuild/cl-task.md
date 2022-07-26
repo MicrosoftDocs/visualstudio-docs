@@ -419,7 +419,7 @@ Wraps the Microsoft C++ compiler tool, *cl.exe*. The compiler produces executabl
 
 - **MinimalRebuild**
 
-   Optional `Boolean` parameter.
+   Optional `Boolean` parameter. This option is deprecated.
 
    If `true`, enables minimal rebuild, which determines whether C++ source files that include changed C++ class definitions (stored in header (.h) files) must be recompiled.
 
