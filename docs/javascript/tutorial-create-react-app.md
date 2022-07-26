@@ -1,7 +1,7 @@
 ---
 title: "Create a React app"
 description: In this tutorial, learn how to create a simple React application in Visual Studio.
-ms.date: 06/17/2022
+ms.date: 07/26/2022
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
@@ -47,13 +47,12 @@ Make sure to install the following:
 
    Please note that creation of the React project takes a moment because the create-react-app command that runs at this time also runs the npm install command
 
-## Set the project properties
+## View the project properties
 
-1. In Solution Explorer, right-click the React project, select **Properties**, and then go the **Debugging** section.
+The default project settings allow you to build and debug the project. But, if you need to change settings, right-click the project in Solution Explorer, select **Properties**, and then go the **Build** or **Debugging** section.
 
-1. Change the Debugger to launch to the **launch.json** option.
- 
-   :::image type="content" source="media/vs-2022/react-choose-debugger.png" alt-text="Choose the debugger (launch.json)":::
+>[!NOTE]
+> *launch.json* stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, *launch.json* must be located under the *.vscode* folder.
 
 ## Build Your Project
 
