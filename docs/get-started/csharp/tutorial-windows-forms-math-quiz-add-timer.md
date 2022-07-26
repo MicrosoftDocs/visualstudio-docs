@@ -49,9 +49,9 @@ To keep track of time during the quiz, you use a timer component. You also need 
 
    [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
 
-1. In **Windows Forms Designer**, move a <xref:System.Windows.Forms.Timer> control from the **Components** category of the **Toolbox** to your form. The control appears in the gray area at the bottom of the design window.
+2. In **Windows Forms Designer**, move a <xref:System.Windows.Forms.Timer> control from the **Components** category of the **Toolbox** to your form. The control appears in the gray area at the bottom of the design window.
 
-1. On the form, select the **timer1** icon that you just added, and set its **Interval** property to **1000**. Because this interval is in milliseconds, a value of 1000 causes the timer to raise a <xref:System.Windows.Forms.Timer.Tick> event every second.
+3. On the form, select the **timer1** icon that you just added, and set its **Interval** property to **1000**. Because this interval is in milliseconds, a value of 1000 causes the timer to raise a <xref:System.Windows.Forms.Timer.Tick> event every second.
 
 ## Check the answers
 
