@@ -120,30 +120,33 @@ When selected, you can visualize spaces and tabs.
 
 When selected, all bidirectional text control characters are rendered as placeholders in the code editor.
 
+> [!CAUTION]
+> This option is selected by default to prevent a potentially malicious exploit that allows code to be misrepresented.
+
 See the following code snippet for an example of bidirectional control characters:
 
 ```csharp
 /// <summary>
-       /// Bidirectional control characters can invert text direction,
-        /// which can be exploited to craft malicious code that looks benign.
-        /// </summary>
-        /// <example>
-        /// transferBalance(5678,6776, 4321, "USD");
-        /// </example>
-        internal readonly ImmutableArray<char> BiDiControlCharacters = ImmutableArray.CreateRange(new[] {
-            '\u061c', // ALM: Arabic letter mark
-            '\u200e', // LRM: Left-to-right mark
-            '\u200f', // RLM: Right-to-left mark
-            '\u202a', // LRE: Left-to-right embedding
-            '\u202b', // RLE: Right-to-left embedding
-            '\u202c', // PDF: Pop directional formatting
-            '\u202d', // LRO: Left-to-right override
-            '\u202e', // RLO: Right-to-left override
-            '\u2066', // LRI: Left-to-right isolate
-            '\u2067', // RLI: Right-to-left isolate
-            '\u2068', // FSI: First strong isolate
-            '\u2069', // PDI: Pop directional isolate
-        });
+/// Bidirectional control characters can invert text direction,
+/// which can be exploited to craft malicious code that looks benign.
+/// </summary>
+/// <example>
+/// transferBalance(5678,6776, 4321, "USD");
+/// </example>
+internal readonly ImmutableArray<char> BiDiControlCharacters = ImmutableArray.CreateRange(new[] {
+   '\u061c', // ALM: Arabic letter mark
+   '\u200e', // LRM: Left-to-right mark
+   '\u200f', // RLM: Right-to-left mark
+   '\u202a', // LRE: Left-to-right embedding
+   '\u202b', // RLE: Right-to-left embedding
+   '\u202c', // PDF: Pop directional formatting
+   '\u202d', // LRO: Left-to-right override
+   '\u202e', // RLO: Right-to-left override
+   '\u2066', // LRI: Left-to-right isolate
+   '\u2067', // RLI: Right-to-left isolate
+   '\u2068', // FSI: First strong isolate
+   '\u2069', // PDI: Pop directional isolate
+});
 ```
 
 ::: moniker range="vs-2022"
@@ -155,21 +158,21 @@ When selected, zero-width characters are rendered in the code editor.
 See the following code snippet for an example of zero-width characters:
 
 ```csharp
-//// <summary>
-        /// Zero-width characters can be exploited to craft identifiers
-        /// that look like other identifiers, but are in fact distinct.
-        /// </summary>
-        /// <example>
-        /// ab‌c‍d⁠e⁯fg
-        /// </example>
-        internal readonly ImmutableArray<char> ZeroWidthCharacters = ImmutableArray.CreateRange(new[] {
-            '\u200b', // ZWSP: Zero width space
-            '\u200c', // ZWNJ: Zero width non-joiner
-            '\u200d', // ZWJ: Zero width joiner
-            '\u2060', // WJ: Word joiner
-            '\u206f', // Nominal Digit Shapes
-            '\ufeff', // BOM: Zero width no-break space
-        });
+/// <summary>
+/// Zero-width characters can be exploited to craft identifiers
+/// that look like other identifiers, but are in fact distinct.
+/// </summary>
+/// <example>
+/// ab‌c‍d⁠e⁯fg
+/// </example>
+internal readonly ImmutableArray<char> ZeroWidthCharacters = ImmutableArray.CreateRange(new[] {
+  '\u200b', // ZWSP: Zero width space
+  '\u200c', // ZWNJ: Zero width non-joiner
+  '\u200d', // ZWJ: Zero width joiner
+  '\u2060', // WJ: Word joiner
+  '\u206f', // Nominal Digit Shapes
+  '\ufeff', // BOM: Zero width no-break space
+});
 ```
 
 ::: moniker-end
