@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 7/8/2022
+ms.date: 7/26/2022
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -89,13 +89,6 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 - [Visual Studio on Arm-powered devices](../install/visual-studio-on-arm-devices.md) - Arm64 updates for Visual Studio 17.3 Preview 2
 
-Monday, July 4
-Tuesday, July 5
-Wednesday, July 6
-Thursday, July 7
-Friday, July 8
-
-Settings
 ### JavaScript
 
 **Updated articles**
