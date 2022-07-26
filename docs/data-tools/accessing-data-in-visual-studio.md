@@ -2,7 +2,7 @@
 title: Work with data in Visual Studio
 description: Work with data in Visual Studio. Create apps that connect to data in other database products or services over local machines, LANs, or public or private clouds.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 07/26/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - data [Visual Studio]
@@ -24,9 +24,8 @@ In Visual Studio, you can create applications that connect to data in virtually 
 
 For applications in JavaScript, Python, PHP, Ruby, or C++, you connect to data like you do anything else, by obtaining libraries and writing code. For .NET applications, Visual Studio provides tools that you can use to explore data sources, create object models to store and manipulate data in memory, and bind data to the user interface. Microsoft Azure provides SDKs for .NET, Java, Node.js, PHP, Python, Ruby, and mobile apps, and tools in Visual Studio for connecting to Azure Storage.
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 The following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/) offerings are data services that include all provisioning and administration of the underlying data store. The **Azure development** workload in [Visual Studio](https://visualstudio.microsoft.com/downloads) enables you to work with Azure data stores directly from Visual Studio.
-::: moniker-end
 
 ![Azure development workload](media/azure-development-workload.png)
 
@@ -64,12 +63,63 @@ Most of the other SQL and NoSQL database products that are listed here can be ho
 - VelocityDB
 - And more...
 
-
-::: moniker range=">=vs-2019"
-
 Many database vendors and third parties support Visual Studio integration by NuGet packages. You can explore the offerings on nuget.org or through the NuGet Package Manager in Visual Studio (**Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution**). Other database products integrate with Visual Studio as an extension. You can browse these offerings in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) or by navigating to **Extensions** > **Manage Extensions** and then selecting **Online** in the left pane of the dialog box. For more information, see [Compatible database systems for Visual Studio](../data-tools/installing-database-systems-tools-and-samples.md).
 
 ::: moniker-end
+
+:::moniker range=">=vs-2022"
+
+By using [Visual Studio Connected Services](../azure/overview-connected-services.md), you can simplify the process of adding database support to your projects.
+
+For SQL Server scenarios we support through Connected Services:
+
+- SQL Server on premises. In this scenario, you install SQL Server somewhere on your local network and connect to it.
+- SQL Server on your local machine. In this scenario, you install SQL Server on your local machine and connect to it.
+- SQL Server Express LocalDB. You don't install anything other than Visual Studio; you just connect to it.
+- SQL Server Express LocalDB on Container. LocalDB as in the previous option, but inside a local container.
+- Azure SQL Server DB. Connect to the service running live in Azure.
+
+For other data-related technologies, Visual Studio 2022 supports the following:
+
+- Azure storage (both local and remote)
+- Azure Cosmos DB (both local and remote)
+- SQLite (local-only option)
+- PostgreSQL on container (local-only option)
+- MongoDB on container (local-only option)
+
+Apart from Connected Services, the following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/) offerings are data services that include all provisioning and administration of the underlying data store. The **Azure development** workload in [Visual Studio](https://visualstudio.microsoft.com/downloads) enables you to work with Azure data stores directly from Visual Studio.
+
+![Azure development workload](media/azure-development-workload.png)
+
+Most of the other SQL and NoSQL database products that are listed here can be hosted on a local machine, on a local network, or in Microsoft Azure on a virtual machine. If you host the database in a Microsoft Azure virtual machine, you're responsible for managing the database itself.
+
+**Microsoft Azure**
+
+- SQL Data Warehouse
+- SQL Server Stretch Database
+- StorSimple
+- And more...
+
+**SQL**
+
+- Firebird
+- MariaDB
+- MySQL
+- Oracle
+- And more...
+
+**NoSQL**
+
+- Apache Cassandra
+- CouchDB
+- MongoDB
+- NDatabase
+- OrientDB|
+- RavenDB
+- VelocityDB
+- And more...
+
+:::moniker-end
 
 > [!NOTE]
 > Extended support for SQL Server 2005 ended on April 12, 2016. There is no guarantee that data tools in Visual Studio 2015 and later will continue to work with SQL Server 2005. For more information, see the [end-of-support announcement for SQL Server 2005](https://www.microsoft.com/sql-server/sql-server-2005).
