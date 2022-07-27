@@ -15,7 +15,7 @@ ms.workload:
 - multiple
 ---
 
-# MSBuild and Visual Studio format for diagnostic message
+# MSBuild and Visual Studio format for diagnostic messages
 
 When a tool is executed that outputs some text, MSBuild examines the text for errors and warnings. Many tools use a known format to report these messages. By default, MSBuild examines the text and reports errors and/or warnings based on the output. This behavior can be changed or disabled by using these parameters on the `Exec` task: `IgnoreStandardErrorWarningFormat`, `CustomErrorRegularExpression`, and `CustomWarningRegularExpression`.
 
