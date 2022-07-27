@@ -1,6 +1,6 @@
 ---
 title: Analyzer configuration
-ms.date: 01/24/2022
+ms.date: 07/27/2022
 description: Learn how to customize Roslyn analyzer rules. See how to adjust analyzer severities, suppress violations, and designate files as generated code.
 ms.custom: SEO-VS-2020, devdivchpfy22
 ms.topic: conceptual
@@ -125,15 +125,31 @@ In the preceding example, all three entries apply to CA1822. However, using the 
 
 Visual Studio provides a convenient way to configure a rule's severity from the [Quick Actions](../ide/quick-actions.md) light bulb menu.
 
-1. After a violation occurs, hover over the violation squiggle in the editor and open the light bulb menu. Or, put your cursor on the line and press **Ctrl**+**.** (period).
+1. After a violation occurs, hover over the violation squiggle in the editor and choose **Show potential fixes** to open the light bulb menu. Or, put your cursor on the line and press **Ctrl**+**.** (period).
 
-2. From the light bulb menu, select **Configure or Suppress issues** > **Configure \<rule ID> severity**.
+2. From the light bulb menu, select an option to configure severity:
 
+   - **Configure \<rule ID> severity** - Provides options to set the [severity](#configure-severity-levels) for the specific rule.
+   - **Configure severity for all \<style> analyzers** - Provides options to set the severity for all rules in the specific [rule category](/dotnet/fundamentals/code-analysis/categories).
+   - **Configure severity for all analyzers** - Provides options to set the severity for all categories of analyzer rules.
+
+   In the following example, choose **Configure or Suppress issues** > **Configure \<rule ID> severity**.
+
+   ::: moniker range=">=vs-2022"
+   ![Configure rule severity from light bulb menu in Visual Studio](media/vs-2022/configure-rule-severity.png)
+   ::: moniker-end
+   ::: moniker range="vs-2019"
    ![Configure rule severity from light bulb menu in Visual Studio](media/configure-rule-severity.png)
+   ::: moniker-end
 
 3. From there, choose one of the severity options.
 
+   ::: moniker range=">=vs-2022"
+   ![Configure rule severity as Suggestion](media/vs-2022/configure-rule-severity-suggestion.png)
+   ::: moniker-end
+   ::: moniker range="vs-2019"
    ![Configure rule severity as Suggestion](media/configure-rule-severity-suggestion.png)
+   ::: moniker-end
 
    Visual Studio adds an entry to the EditorConfig file to configure the rule to the requested level, as shown in the preview box.
 
