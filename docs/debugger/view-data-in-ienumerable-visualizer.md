@@ -37,13 +37,13 @@ To open the IEnumerable visualizer, you must be paused during debugging.
 
 1. Select the icon to open the IEnumerable visualizer.
 
-:::image type="content" source="../debugger/media/vs-2022/dbg-open-IEnumerable-visualizer.png" alt-text="Open a IEnumerable visualizer":::
+:::image type="content" source="../debugger/media/vs-2022/dbg-open-ienumerable-visualizer.png" alt-text="Diagram of Open a IEnumerable visualizer.":::
 
 ## View IEnumerable visualizer data
 
 The visualizer shows the IEnumerable data in a  format.
 
-:::image type="content" source="../debugger/media/vs-2022/dbg-IEnumerable-visualizer.png" alt-text="View the visualizer data":::
+:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer.png" alt-text="Diagram of View the visualizer data.":::
 
 You can use the right-click context menu to customize the view:
 
@@ -59,7 +59,7 @@ You can use the right-click context menu to customize the view:
 - You also can filter visualizer data based desired filter string. Enter the string in the filter box on the upper right corner and hit enter. The Visualizer will return all the rows that contain a value that matches the filter string.
 - You can also export the filtered and sorted results in CSV/Excel format.
 
-:::image type="content" source="../debugger/media/vs-2022/dbg-IEnumerable-visualizer-filter.gif" alt-text="View the visualizer data filter":::
+:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-filter.gif" alt-text="Diagram of View the visualizer data filter.":::
 
 ## See also
 
