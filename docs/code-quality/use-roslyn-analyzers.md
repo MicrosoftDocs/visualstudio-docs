@@ -120,7 +120,7 @@ Visual Studio provides a convenient way to configure a rule's severity from the 
 
 1. After a violation occurs, hover over the violation squiggle in the editor and choose **Show potential fixes** to open the light bulb menu. Or, put your cursor on the line and press **Ctrl**+**.** (period).
 
-2. From the light bulb menu, select an option to configure severity:
+2. From the light bulb menu, hover over a severity level to get a preview of the change, and then select an option to configure severity:
 
    - **Configure \<rule ID> severity** - Set the [severity](#configure-severity-levels) for the specific rule.
    - **Configure severity for all \<style> analyzers** - Set the severity for all rules in the specific [rule category](/dotnet/fundamentals/code-analysis/categories).
