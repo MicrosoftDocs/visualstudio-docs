@@ -122,9 +122,9 @@ Visual Studio provides a convenient way to configure a rule's severity from the 
 
 2. From the light bulb menu, select an option to configure severity:
 
-   - **Configure \<rule ID> severity** - Provides options to set the [severity](#configure-severity-levels) for the specific rule.
-   - **Configure severity for all \<style> analyzers** - Provides options to set the severity for all rules in the specific [rule category](/dotnet/fundamentals/code-analysis/categories).
-   - **Configure severity for all analyzers** - Provides options to set the severity for all categories of analyzer rules.
+   - **Configure \<rule ID> severity** - Set the [severity](#configure-severity-levels) for the specific rule.
+   - **Configure severity for all \<style> analyzers** - Set the severity for all rules in the specific [rule category](/dotnet/fundamentals/code-analysis/categories).
+   - **Configure severity for all analyzers** - Set the severity for all categories of analyzer rules.
 
    In the following example, choose **Configure or Suppress issues** > **Configure \<rule ID> severity**.
 
