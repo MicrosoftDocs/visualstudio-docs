@@ -38,10 +38,10 @@ Visual Studio enables you to set up your application builds to target different 
 
 ## Target platforms with the Configuration Manager
 
-The **Configuration Manager** provides a way for you to quickly add a new platform to target with your project. If you select one of the platforms included with Visual Studio, the properties for your project are modified to build your project for the selected platform.
+The **Configuration Manager** provides a way for you to quickly add a new platform to target with your project. If you select one of the platforms included with Visual Studio, a configuration is set up to build your project for the selected platform.
 
 :::moniker range=">=vs-2022"
-To target some platforms in a native C++ project, you need to install the build tools for the platform. C++ build tools for 32-bit ARM, x86, and x64 platforms are installed with the default C++ workload. If you're targeting another processor architecture, like ARM64, you'll need to use the Visual Studio Installer to install the build tools for the platform before continuing. See [Modify Visual Studio](../install/modify-visual-studio.md). You don't need to run Visual Studio on an ARM64 device to target ARM64. For ARM64, you can install ARM64 build tools or [ARM64EC](/windows/arm/arm64ec) build tools; see [ARM64 Visual Studio](https://devblogs.microsoft.com/visualstudio/arm64-visual-studio/).
+To target some platforms in a native C++ project, you need to install the build tools for the platform. C++ build tools for x86, and x64 platforms are installed with the default C++ workload. If you're targeting another processor architecture, like ARM64, you'll need to use the Visual Studio Installer to install the build tools for the platform before continuing. See [Modify Visual Studio](../install/modify-visual-studio.md). You don't need to run Visual Studio on an ARM64 device to target ARM64. For ARM64, you can install ARM64 build tools or [ARM64EC](/windows/arm/arm64ec) build tools; see [ARM64 Visual Studio](https://devblogs.microsoft.com/visualstudio/arm64-visual-studio/).
 
 For .NET development, .NET 6 is required to target the ARM64 platform. See [.NET Support for macOS 11 and Windows 11 for Arm64 and x64](https://github.com/dotnet/sdk/issues/22380).
 :::moniker-end
@@ -52,7 +52,7 @@ For .NET development, .NET 6 is required to target the ARM64 platform. See [.NET
 
 1. In the **Active solution platform** list, choose a 64-bit platform for the solution to target, and then choose the **Close** button.
 
-    1. If the platform that you want doesn't appear in the **Active solution platform** list, choose **New**. A platform you haven't used before might not appear in the list, even if you installed the build tools for it.
+    1. If the platform that you want doesn't appear in the **Active solution platform** list, choose **New**. After you install the tools for a particular platform, you'll be able to add the new solution and project configurations targeting that platform.
 
          The **New Solution Platform** dialog box appears.
 
@@ -66,8 +66,6 @@ For .NET development, .NET 6 is required to target the ARM64 platform. See [.NET
         > If you give your configuration a new name, you may have to modify the settings in the **Project Designer** to target the correct platform.
 
     1. If you want to copy the settings from a current platform configuration, choose it, and then choose the **OK** button.
-
-The properties for all projects in your solution that target the 64-bit platform are updated, and the next build of the project will be optimized for 64-bit platform.
 
 :::moniker range=">=vs-2022"
 ![Screenshot showing the new solution platform and project platform](./media/vs-2022/created-arm64-platform-configuration.png)
