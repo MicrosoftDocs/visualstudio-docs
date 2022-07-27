@@ -27,6 +27,11 @@ There are some differences when you publish to Cloud Services (extended support)
 
 Before publishing a classic Azure Cloud Service to Cloud Services (extended support), check the storage accounts your project uses and make sure they are Storage V1 or Storage V2 accounts. The classic storage account types will fail with an error message at deploy time. Be sure to check the storage account used by diagnostics. To check the diagnostics storage account, see [Set up diagnostics for Azure Cloud Services and virtual machines](vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md). If your service uses a classic storage account, you can upgrade it; see [Upgrade to a general-purpose v2 storage account](/azure/storage/common/storage-account-upgrade?tabs=azure-portal).  For general information on the types of storage accounts, see [Storage account overview](/azure/storage/common/storage-account-overview).
 
+:::moniker range="vs-2022"
+> [!NOTE]
+> If you are targeting .NET 4.8 with Visual Studio 2022, be sure to open the *ServiceConfiguration.Cloud.cscfg* file and check the value of the `osFamily` attribute on the `ServiceConfiguration` element when publishing Cloud Services (extended support). For a .NET 4.8 project, use the value `osFamily="7"`.
+:::moniker-end
+
 ### To publish a classic Azure Cloud Service project to Cloud Services (extended support)
 
 1. Right-click on the project node in your Azure Cloud Service (classic) project and choose **Publish (extended support)...**. The **Publish wizard** opens at the first screen.
