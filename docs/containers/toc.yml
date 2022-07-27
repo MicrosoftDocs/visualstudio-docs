@@ -44,4 +44,6 @@
       href: docker-compose-properties.md
     - name: Launch settings
       href: container-launch-settings.md
+    - name: Error messages
+      href: container-tools-error-messages.md
   expanded: true
