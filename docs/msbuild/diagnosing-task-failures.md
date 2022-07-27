@@ -2,7 +2,7 @@
 title: Diagnosing task failures | Microsoft Docs
 description: Learn how to diagnose MSBuild task failures by identifying the failing task, tool name, and other information.
 ms.custom: SEO-VS-2020
-ms.date: 09/25/2019
+ms.date: 07/26/2022
 ms.topic: troubleshooting
 f1_keywords:
 - MSBuild.ToolTask.ToolCommandFailed
@@ -57,6 +57,9 @@ The same information is available in the Visual Studio error list in the columns
 This error is emitted when the task did not log a specific error. The failure to log an error is often because the task is not configured to understand the error format emitted by the tool it calls.
 
 Well-behaved tools generally emit some contextual or error information to their standard output or error stream, and tasks capture and log this information by default. Look in the log entries before the error occurred for additional information. Rerunning the build with a higher log level may be required to preserve this information.
+
+> [!NOTE]
+> MSBuild recognizes a specific diagnostic output format. The details of this format are documented at [MSBuild and Visual Studio format for diagnostic messages](msbuild-diagnostic-format-for-tasks.md).
 
 ## Next steps
 
