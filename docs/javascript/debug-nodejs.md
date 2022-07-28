@@ -234,3 +234,7 @@ However, you can't automatically hit breakpoints on files generated with Razor s
   * For Microsoft Edge (Chromium), use the same procedure as Chrome.
 
 For more information, see [Client-side debugging of ASP.NET projects in Google Chrome](https://devblogs.microsoft.com/aspnet/client-side-debugging-of-asp-net-projects-in-google-chrome/).
+
+## See also
+
+[Properties, React, Angular, Vue](../ide/reference/property-pages-javascript-esproj.md)
