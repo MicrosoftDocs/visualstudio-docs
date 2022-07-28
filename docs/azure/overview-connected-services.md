@@ -66,7 +66,7 @@ Visual Studio makes it easier to develop Azure applications locally by easing th
 
 | Name | Description |
 | - | - |
-| [Azure CosmosDB Emulator on container](/azure/cosmos-db/introduction) | Azure CosmosDB emulator running in a local container. |
+| [Azure Cosmos DB Emulator on container](/azure/cosmos-db/introduction) | Azure Cosmos DB emulator running in a local container. |
 | [Azure Storage Emulator](/azure/storage/common/storage-use-azurite?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&tabs=visual-studio) | Azurite is an Azure Storage emulator that runs on your local machine. |
 | [Application Insights SDK](/azure/azure-monitor/app/app-insights-overview) | Local mode for the Application Insights service.  |
 | [RabbitMQ on container](/azure/azure-functions/functions-bindings-rabbitmq) | RabbitMQ is an open-source multi-protocol message broker. This option makes it available in a local container. |
@@ -80,8 +80,8 @@ Visual Studio provides options to connect to on-premises databases, locally emul
 
 | Name | Description |
 | - | - |
-| [Azure CosmosDB Emulator on container](/azure/cosmos-db/introduction) | Azure CosmosDB emulator running in a local container. |
-| [MongoDB on container](/azure/cosmos-db/introduction) | MongoDB document databases provides high reliability and easy scalability. This options makes it available in a local container. |
+| [Azure Cosmos DB Emulator on container](/azure/cosmos-db/introduction) | Azure Cosmos DB emulator running in a local container. |
+| [MongoDB on container](/azure/cosmos-db/introduction) | MongoDB document databases provides high reliability and easy scalability. This option makes it available in a local container. |
 | [PostgreSQL on container](/azure/postgresql/overview) | PostgreSQL is an object-relational database system that provides reliability and data integrity. This option makes it available in a local container. |
 | [SQLite](/ef/core/providers/sqlite/?tabs=dotnet-core-cli) | SQLite is an in-process library that provides a self-contained, transactional SQL database engine with no configuration. |
 | [SQL Server Database](/sql/sql-server/) | On-premises SQL Server Database. |
