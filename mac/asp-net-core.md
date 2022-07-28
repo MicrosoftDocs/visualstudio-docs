@@ -4,7 +4,7 @@ description: "This article describes how to get started with ASP.NET in Visual S
 author: jmatthiesen
 ms.author: jomatthi
 manager: dominicn
-ms.date: 06/29/2022
+ms.date: 07/29/2022
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 ms.custom: video, devdivchpfy22
 no-loc: [Blazor, "Blazor WebAssembly"]
@@ -15,7 +15,7 @@ monikerRange: ">=vsmac-2019"
 
  [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
-Visual Studio for Mac makes it easy to develop your app's service with its support for the latest ASP.NET Core Web development platform. ASP.NET Core runs on the latest evolution of the .NET platform and runtime. It's been tuned for fast performance, factored for small install sizes, and reimagined to run on Linux and macOS, as well as Windows.
+Visual Studio for Mac makes it easy to develop your app's service with its support for the latest ASP.NET Core Web development platform. ASP.NET Core runs on the latest evolution of the .NET platform and runtime. It's been tuned for fast performance, factored for small install sizes, and re-imagined to run on Linux and macOS, as well as Windows.
 
 ::: moniker range="vsmac-2019"
 
@@ -187,7 +187,7 @@ To add a controller, follow these steps:
 
 4. Use the Search box to browse the NuGet library for `Microsoft.AspNetCore.Mvc`, and select **Add Package**. It may take a few minutes to install and you may be prompted to accept various licenses for the required dependencies:
 
-    :::image type="content" source="media/asp-net-core-image9.png" alt-text="This is a screenshot of Add Nuget while adding a controller.":::
+    :::image type="content" source="media/asp-net-core-image9.png" alt-text="This is a screenshot of Add NuGet while adding a controller.":::
 
 5. In the Startup class, remove the `app.Run` lambda and set the URL routing logic used by MVC to determine which code it should invoke to the following:
 
@@ -257,7 +257,7 @@ var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 ```
 
-The following code creates and HTTP GET endpoint `/` which returns `Hello World!`:
+The following code creates and HTTP GET endpoint `/` that returns `Hello World!`:
 
 ```csharp
 app.MapGet("/", () => "Hello World!");
@@ -269,7 +269,7 @@ This simple Hello, World project can run now without any additional code being a
 
 ![Browser Run](media/asp-net-web-picker.png)
 
-Visual Studio for Mac uses a random port to launch your web project. To find out what port this is, open the Application Output, which is listed under the **View > Other Windows** menu. You should find output similar to that shown below:
+Visual Studio for Mac uses a random port to launch your web project. To find out what port this is, open the Application Output, which is listed under the **View > Other Windows** menu. You should find output similar shown below:
 
 :::image type="content" source="media/asp-net-core-image6.png" alt-text="Screenshot showing application output displaying listening port":::
 
@@ -299,4 +299,4 @@ For more information on the next steps from here, see the following guides:
 
 ## Related Video
 
->[!Video https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Build-Your-First-App/player]
+>[!Video <https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Build-Your-First-App/player>]
