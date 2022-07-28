@@ -12,6 +12,8 @@ helpviewer_keywords:
 - projects [Visual Studio], targeting platforms
 - 64-bit [Visual Studio]
 - 64-bit programming [Visual Studio]
+- Arm64 [Visual Studio]
+- Arm64 targeting [Visual Studio]
 - CPUs, targeting specific
 - 64-bit applications [Visual Studio]
 ms.assetid: 845302fc-273d-4f81-820a-7296ce91bd76
