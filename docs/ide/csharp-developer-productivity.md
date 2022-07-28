@@ -5,7 +5,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jmartens
 ms.technology: vs-ide-general
-ms.date: 07/13/2022
+ms.date: 07/27/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - editor
@@ -22,7 +22,11 @@ Learn how Visual Studio makes [.NET](/dotnet/fundamentals/) developers who use [
 
 If you're coming from another IDE or coding environment, you can change your keyboard scheme to *Visual Studio Code* or *ReSharper (Visual Studio)*:
 
+::: moniker range="vs-2019"
+
 ![Keyboard Schemes in Visual Studio](../ide/media/VS2017Guide-Keyboard.png)
+
+::: moniker-end
 
 Some extensions also offer keyboard schemes:
 
@@ -63,7 +67,17 @@ Visual Studio has a feature called **Go To All** that you can use to quickly jum
 
 A small window is displayed at the top right of your code editor.
 
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/go-to-all.png" alt-text="Screenshot of the Go To All window in Visual Studio.":::
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
 ![Screenshot of the Go To All window.](media/go-to-all.png)
+
+::: moniker-end
 
 You can use this feature to perform the following actions:
 
@@ -78,23 +92,47 @@ For more information about **Go To All**, see [Find code by using Go To commands
 
 You can use an EditorConfig file to codify coding conventions and have them travel with your source.
 
+::: moniker range="vs-2019"
+
 ![Code style enforcement in Visual Studio](../ide/media/VSGuide_CodeStyle.png)
 
-- Add a default or .NET-style EditorConfig file to your project by choosing **Add** > **New Item**. In the **Add New Item** dialog box, search for "editorconfig". Select either of the **editorconfig File** item templates and then choose **Add**.
+::: moniker-end
 
-   ![EditorConfig item templates in Visual Studio](media/editorconfig-item-templates.png)
+- Add a default or .NET-style EditorConfig file to your project by choosing **Add** > **New Item** from the [Add context menu fly-out](use-solution-explorer.md#the-add-context-menu-fly-out) in Solution Explorer. Then, in the **Add New Item** dialog box, search for "editorconfig". Select either of the **editorconfig File** item templates and then choose **Add**.
+
+::: moniker range="vs-2022"
+
+   :::image type="content" source="media/vs-2022/editorconfig-item-templates-csharp.png" alt-text="Screenshot of the EditorConfig file templates for C# in Visual Studio.":::
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+   ![Screenshot of the EditorConfig item templates in Visual Studio.](media/editorconfig-item-templates.png)
+
+::: moniker-end
 
 - Automatically create an *.editorconfig* file based on your code style settings in **Tools** > **Options** > **Text Editor** > **C#** > **Code Style**.
 
-   ![Generate .editorconfig file from settings in Visual Studio](media/vs-2019/generate-editorconfig-file.png)
+::: moniker range="vs-2022"
 
-- The [code inference feature](/visualstudio/intellicode/code-style-inference) of IntelliCode for Visual Studio infers your code styles from existing code. It then creates a non-empty EditorConfig file with your code-style preferences already defined.
+   :::image type="content" source="media/vs-2022/generate-editorconfig-file-csharp.png" alt-text="Screenshot that shows how to generate an .editorconfig file from settings in Visual Studio.":::
 
-- Configure the severity level of a code style rule directly through the editor. If you currently do not have an .editorconfig file, one will be generated for you. Place your cursor on the error, warning, or suggestion and type **Ctrl**+**.** to open the Quick Actions and Refactorings menu. Select **Configure or Suppress issues**. Then select the rule and choose the severity level you would like to configure for that rule. This will update your existing EditorConfig with the rule’s new severity.
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+   ![Screenshot that shows how to generate an .editorconfig file from Visual Studio settings.](media/vs-2019/generate-editorconfig-file.png)
+
+::: moniker-end
+
+- The [**code inference feature**](/visualstudio/intellicode/code-style-inference) of [IntelliCode](/visualstudio/intellicode/overview) for Visual Studio infers your code styles from existing code. It then creates a non-empty EditorConfig file with your code-style preferences already defined.
+
+- Configure the severity level of a code style rule directly through the editor. If you currently do not have an .editorconfig file, Visual Studio generates one for you. Place your cursor on the error, warning, or suggestion and type **Ctrl**+**.** to open the **Quick Actions and Refactorings** menu. Select **Configure or Suppress issues**. Then select the rule and choose the severity level you would like to configure for that rule. This will update your existing EditorConfig with the rule’s new severity.
 
    ![Configure the severity level of a code style rule directly in the editor](../ide/media/configure-severity-level.png)
 
-Check out the [Screenshot of the .NET coding convention options.](/dotnet/fundamentals/code-analysis/code-style-rule-options) documentation, which also contains an example of a complete EditorConfig file.
+Check out the [.NET code-style rule options](/dotnet/fundamentals/code-analysis/code-style-rule-options) documentation, which also includes an example of a complete EditorConfig file.
 
 ## Code Cleanup
 
@@ -184,17 +222,27 @@ Some of Visual Studio's debugging capabilities include the following:
 
 ## Version control
 
+::: moniker range="vs-2022"
+
+In Visual Studio 2022, you can use Git directly from the IDE to create, review, check out, and run pull requests. To learn more, see [How Visual Studio makes version control easy with Git](../version-control/git-with-visual-studio.md?view=vs-2022&preserve-view=true).
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
 You can use [Git](../version-control/git-with-visual-studio.md) or TFVC to store and update your code in Visual Studio.
 
-- In Visual Studio 2022 and in Visual Studio 2019 Use Git from directly within Visual Studio to create, review, check out, and run pull requests.
+- In Visual Studio 2019 version 16.8 and later, you can use [Git](../version-control/git-team-explorer-feature-comparison.md) from directly within the IDE to create, review, check out, and run pull requests.
 
-- In Visual Studio 2019 version 15.6 and earlier, Install the [Pull requests for Visual Studio](https://marketplace.visualstudio.com/items?itemName=vsideversioncontrolmsft.pr4vs) to create, review, check out, and run pull requests without leaving Visual Studio.
+- In Visual Studio 2019 version 16.7 and earlier, install the [Pull requests for Visual Studio](https://marketplace.visualstudio.com/items?itemName=vsideversioncontrolmsft.pr4vs) extension to create, review, check out, and run pull requests without leaving Visual Studio.
 
-- Organize your local changes in [Team Explorer](reference/team-explorer-reference.md) and use the status bar to track pending commits and changes.
+    - Organize your local changes in [Team Explorer](reference/team-explorer-reference.md) and use the status bar to track pending commits and changes.
 
-- Set up continuous integration and delivery for your ASP.NET projects inside of Visual Studio with the [Continuous delivery tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) extension.
+    - Set up continuous integration and delivery for your ASP.NET projects inside of Visual Studio with the [Continuous delivery tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) extension.
 
-![Source control in Visual Studio](../ide/media/VSIDE_Productivity_SourceControl.png)
+    ![Source control in Visual Studio](../ide/media/VSIDE_Productivity_SourceControl.png)
+
+::: moniker-end
 
 ## What other features should I know about?
 
