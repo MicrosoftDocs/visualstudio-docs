@@ -74,8 +74,8 @@
       href: view-data-values-in-data-tips-in-the-code-editor.md
     - name: View string values in a visualizer
       href: view-strings-visualizer.md
-    - name: View collections in a table visualizer
-      href: view-data-ienumerable-table-visualizer.md
+    - name: View .NET collections with the IEnumerable visualizer
+      href: view-data-in-ienumerable-visualizer.md
     - name: Disassembly code
       items:
       - name: View disassembly code
