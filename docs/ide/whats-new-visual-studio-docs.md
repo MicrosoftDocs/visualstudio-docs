@@ -205,7 +205,7 @@ The following people contributed to the Visual Studio docs during this period. T
   - Updates for background code analysis scope
 - [Set language-specific editor options](./reference/setting-language-specific-editor-options.md) - update Basic to Visual Basic in Tools>Options>Text Editor topics
 - [Synchronize Visual Studio settings across multiple computers](./synchronized-settings-in-visual-studio.md) - update 'Turn off synchronized settings on a particular computer' section
-- [Options dialog box: Environment \> Documents](./reference/documents-environment-options-dialog-box.md) - add new Auto Save All Files option
+- [Options dialog box: Environment \> Documents](./reference/documents-environment-options-dialog-box.md) - add new AutoSave All Files option
 - [Options, Text Editor, C#, Advanced](./reference/options-text-editor-csharp-advanced.md) - Updates for background code analysis scope
 - [What is the Project Designer?](./reference/project-properties-reference.md) - revise Project Designer reference links for Visual Studio 2022
 - [Sign in to Visual Studio on Windows](./signing-in-to-visual-studio.md) - Update the sign in docs
@@ -273,7 +273,7 @@ The following people contributed to the Visual Studio docs during this period. T
 
 **New articles**
 
-- [View IEnumerables in a table visualizer in Visual Studio](../debugger/view-data-ienumerable-table-visualizer.md)
+- [View .NET collections with the IEnumerable visualizer](../debugger/view-data-in-ienumerable-visualizer.md)
 
 **Updated articles**
 
