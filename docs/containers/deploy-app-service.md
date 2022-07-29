@@ -96,10 +96,10 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 
    ![Screenshot of Publish wizard.](media/deploy-app-service/vs-2022/publish-choices.png)
 
-1. On the **Specific target** tab, choose the appropriate deployment target, such as **App Service (Windows)** or **App Service (Linux)**, depending on your container type.
+1. On the **Specific target** tab, choose the appropriate deployment target, such as **Azure App Service Container**. **App Service (Linux)**, or **App Service (Windows)**, depending on your container type. Choose **Azure App Service Container** if you want to deploy your image to Azure Container Registry (ACR).
 
-   ![Screenshot of Specific target tab of Publish wizard.](media/deploy-app-service/vs-2022/publish-app-service-linux.png)
-   
+   ![Screenshot of Specific target tab of Publish wizard.](media/deploy-app-service/vs-2022/publish-app-service-container.png)
+
 1. If you are not signed in to the right Azure account with the subscription you want to use, sign in by using the button at the top left of the **Publish** window.
 
 1. You can use an existing app service or create a new one by clicking on the **Create new Azure App Service** link. Find your existing app service in the treeview by expanding its resource group, or change the **View** setting to **Resource type** to sort by type.
@@ -116,9 +116,13 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 
    You can view the details about these options at [Azure App Service plan overview](/azure/app-service/overview-hosting-plans).
 
+1. If you chose the **Azure App Service Container** option, specify whether to use an existing registry or create one. If you create one, a screen appears with settings for the new registry. For the description of the options for **SKU**, see [Azure Container Registry service tiers](/azure/container-registry/container-registry-skus).
+
+   ![Screenshot showing Azure Container Registry options.](media/deploy-app-service/vs-2022/azure-container-registry-create-new.png)
+
 1. Once you're done selecting or creating these resources, choose **Finish**. Your container is deployed to Azure in the resource group and app service you selected. This process takes a bit of time. When it's completed, the **Publish** tab shows information about what was published, including the site URL.
 
-   :::image type="content" source="media/deploy-app-service/vs-2022/publish-succeeded-linux.png" alt-text="Screenshot of publish tab." lightbox="media/deploy-app-service/vs-2022/publish-succeeded-linux.png":::
+   :::image type="content" source="media/deploy-app-service/vs-2022/publish-succeeded-app-service-container.png" alt-text="Screenshot of publish tab." lightbox="media/deploy-app-service/vs-2022/publish-succeeded-app-service-container.png":::
 
 1. Click on the site link to verify your app works as expected in Azure.
 
