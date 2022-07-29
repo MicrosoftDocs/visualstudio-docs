@@ -22,7 +22,7 @@ ms.workload:
 ---
 # MultiToolTask task
 
-Experimental task that enables parallel execution of MIDL, CL, Clang, and FXC (hlsl).
+Experimental task that enables parallel execution of MIDL, CL, Clang, and FXC (hlsl). See [Improve parallelism in MSBuild](https://devblogs.microsoft.com/cppblog/improved-parallelism-in-msbuild/).
 
 ## Parameters
 
