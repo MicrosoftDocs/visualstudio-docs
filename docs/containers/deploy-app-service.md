@@ -124,11 +124,11 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 
    :::image type="content" source="media/deploy-app-service/vs-2022/publish-succeeded-app-service-container.png" alt-text="Screenshot of publish tab." lightbox="media/deploy-app-service/vs-2022/publish-succeeded-app-service-container.png":::
 
+1. The publishing profile is saved with all the details you selected, such as the resource group and app service. If you chose **Azure App Service Container**, you might be asked to enable the Admin user on the container registry instance.
+
 1. Click on the site link to verify your app works as expected in Azure.
 
    ![Screenshot of web application.](media/deploy-app-service/web-application-running2.png)
-
-1. The publishing profile is saved with all the details you selected, such as the resource group and app service.
 
 1. To deploy again with the same publishing profile, use the **Publish** button, the **Publish** button on the **Web Publish Activity** window, or right-click on the project in **Solution Explorer** and choose the **Publish** item on the context-menu.
 
