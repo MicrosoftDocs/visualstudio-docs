@@ -36,8 +36,8 @@ The *debugger-side* will comprise a WPF window that might contain an indetermina
             <ProgressBar IsIndeterminate="True" Width="200" Height="10"/>
             <Label HorizontalAlignment="Center">Loading...</Label>
         </StackPanel>
-        <Label x:Name="DataLabel" Visibility="Collapsed" />
-        <Label x:Name="ErrorLabel" Visibility="Collapsed" />
+        <Label x:Name="DataLabel" Visibility="Collapsed" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <Label x:Name="ErrorLabel" Visibility="Collapsed" HorizontalAlignment="Center" VerticalAlignment="Center" />
     </Grid>
 
 </Window>
@@ -67,7 +67,7 @@ public partial class VisualizerDialog : Window
 The *debugger-side* has a view model called `AdvancedVisualizerViewModel` to handle the visualizer's logic for fetching its data from the *debuggee-side*. This changes depending on each example, so it is shown separately in each section. Finally, the visualizer entry point appears as follows:
 
 ```csharp
-[assembly: DebuggerVisualizer(typeof(AdvancedVisualizer), typeof(AdvancedVisualizer.DebuggeeSide.CustomVisualizerObjectSource), Target = typeof(SomeObject), Description = "Advanced Visualizer")]
+[assembly: DebuggerVisualizer(typeof(AdvancedVisualizer.DebuggerSide.AdvancedVisualizer), typeof(AdvancedVisualizer.DebuggeeSide.CustomVisualizerObjectSource), Target = typeof(VerySlowObject), Description = "Very Slow Object Visualizer")]
 namespace AdvancedVisualizer.DebuggerSide
 {
     public class AdvancedVisualizer : DialogDebuggerVisualizer
@@ -98,6 +98,9 @@ For compatibility reasons, the `Show` method that gets overwritten by your `Dial
 
 There are some cases when calling the default <xref:Microsoft.VisualStudio.DebuggerVisualizers.IAsyncVisualizerObjectProvider.GetDeserializableObjectAsync%2A> method on the <xref:Microsoft.VisualStudio.DebuggerVisualizers.IAsyncVisualizerObjectProvider> will result in a Timeout Exception being thrown by the visualizer. Custom data visualizer operations are allowed only a maximum of five seconds to guarantee that Visual Studio remains responsive. That is, every call to <xref:Microsoft.VisualStudio.DebuggerVisualizers.IAsyncVisualizerObjectProvider.GetDeserializableObjectAsync%2A>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.IAsyncVisualizerObjectProvider.ReplaceDataAsync%2A>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.IAsyncVisualizerObjectProvider.TransferDeserializableObjectAsync%2A>, etc., must finish execution before the time limit is reached or VS will throw an exception. Because there is no plan to provide support for changing this time constraint, visualizer implementations must handle cases where an object takes longer than five seconds to be serialized. To handle this scenario correctly, it is recommended that the visualizer handles passing data from the *debuggee-side* component to the *debugger-side* component by chunks or pieces.
 
+  > [!NOTE]
+  > The projects from where these code snippets were obtained can be downloaded from the [VSSDK-Extensibility-Samples](https://github.com/microsoft/VSSDK-Extensibility-Samples/tree/master/Advanced_Visualizer_Scenarios/EvaluationTimeoutSample) repository.
+
 For example, imagine that you have a complex object called `VerySlowObject` that has many fields and properties that must be processed and copied over to the *debugger-side* visualizer component. Among those properties, you have `VeryLongList` which, depending on the instance of `VerySlowObject`, might be serialized within the five seconds or take a little more.
 
 ```csharp
@@ -127,6 +130,7 @@ public class CustomVisualizerObjectSource : VisualizerObjectSource
 At this point you have two alternatives; you either add custom 'Command' and 'Response' types that let the visualizer coordinate between both components on the state of the data transfer; or you let the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> handle it by itself. If your object had only a simple collection of the same types (and you wanted to send every element to the UI), the latter would be suggested since the *debuggee-side* would just return segments of the collection until the end was reached. In the case where you have several different parts or you might just want to return part of the whole object, the former might be easier. Considering that you decided on the second approach, you would have created the following classes on your *debugee-side* project.
 
 ```csharp
+[Serializable]
 public class GetVeryLongListCommand
 {
     public int StartOffset { get; }
@@ -134,6 +138,7 @@ public class GetVeryLongListCommand
     // Constructor...
 }
 
+[Serializable]
 public class GetVeryLongListResponse
 {
     public string[] Values { get; }
@@ -148,36 +153,29 @@ With your helper classes in place, your view model can have an async method to f
 ```csharp
 public async Task<string> GetDataAsync()
 {
-    using (Stream commandStream = new MemoryStream())
+    List<string> verySlowObjectList = new List<string>();
+
+    // Consider the possibility that we might timeout when fetching the data.
+    bool isRequestComplete;
+
+    do
     {
-        List<string> verySlowObjectList = new List<string>();
+        // Send the command requesting more elements from the collection and process the response.
+        IDeserializableObject deserializableObject = await m_asyncObjectProvider.TransferDeserializableObjectAsync(new GetVeryLongListCommand(verySlowObjectList.Count), CancellationToken.None);
+        GetVeryLongListResponse response = deserializableObject.ToObject<GetVeryLongListResponse>();
 
-        // Consider the possibility that we might timeout when fetching the data.
-        bool isRequestComplete;
+        // Check if a timeout occurred, if it did we will try fetching more data again.
+        isRequestComplete = response.IsComplete;
 
-        do
-        {
-            // Send the command requesting more elements from the collection.
-            m_asyncObjectProvider.Serialize(new GetVeryLongListCommand(verySlowObjectList.Count), commandStream);
-
-            // Process the response
-            IDeserializableObject deserializableObject = await m_asyncObjectProvider.TransferDeserializableObjectAsync(commandStream, CancellationToken.None);
-            GetVeryLongListResponse response = deserializableObject.ToObject<GetVeryLongListResponse>();
-            commandStream.SetLength(0);
-
-            // Check if a timeout occurred, if it did we will try fetching more data again.
-            isRequestComplete = response.IsComplete;
-
-            // If no timeout occurred and we did not get all the elements we asked for, then we reached the end
-            // of the collection and we can safely exit the loop.
-            verySlowObjectList.AddRange(response.Values);
-        }
-        while (isRequestComplete);
-
-        // Do some processing of the data before showing it to the user.
-        string valuesToBeShown = ProcessList(verySlowObjectList);
-        return valuesToBeShown;
+        // If no timeout occurred and we did not get all the elements we asked for, then we reached the end
+        // of the collection and we can safely exit the loop.
+        verySlowObjectList.AddRange(response.Values);
     }
+    while (!isRequestComplete);
+
+    // Do some processing of the data before showing it to the user.
+    string valuesToBeShown = ProcessList(verySlowObjectList);
+    return valuesToBeShown;
 }
 
 private string ProcessList(List<string> verySlowObjectList)
@@ -196,32 +194,37 @@ public override void TransferData(object obj, Stream fromVisualizer, Stream toVi
     // Start the timer so that we can stop processing the request if it is are taking too long.
     long startTime = Environment.TickCount;
 
-    var slowObject = obj as VerySlowObject;
-
-    bool isComplete = true;
-
-    // Read the supplied command
-    fromVisualizer.Seek(0, SeekOrigin.Begin);
-    IDeserializableObject deserializableObject = GetDeserializableObject(fromVisualizer);
-    GetVeryLongListCommand command = deserializableObject.ToObject<GetVeryLongListCommand>();
-
-    List<string> returnValues = new List<string>();
-
-    for (int i = (int)command.StartOffset; i < slowObject.VeryLongList.Count; i++)
+    if (obj is VerySlowObject slowObject)
     {
-        // If the call takes more than 3 seconds, just return what we have received so far and fetch the remaining data on a posterior call.
-        if ((Environment.TickCount - startTime) > 3_000)
+        bool isComplete = true;
+
+        // Read the supplied command
+        fromVisualizer.Seek(0, SeekOrigin.Begin);
+        IDeserializableObject deserializableObject = GetDeserializableObject(fromVisualizer);
+        GetVeryLongListCommand command = deserializableObject.ToObject<GetVeryLongListCommand>();
+
+        List<string> returnValues = new List<string>();
+
+        for (int i = (int)command.StartOffset; i < slowObject.VeryLongList?.Count; i++)
         {
-            isComplete = false;
-            break;
+            // If the call takes more than 3 seconds, just return what we have received so far and fetch the remaining data on a posterior call.
+            if ((Environment.TickCount - startTime) > 3_000)
+            {
+                isComplete = false;
+                break;
+            }
+
+            // This call takes a considerable amount of time...
+            returnValues.Add(slowObject.VeryLongList[i].ToString());
         }
 
-        // This call takes a considerable amount of time...
-        returnValues.Add(slowObject.VeryLongList[i].ToString());
+        GetVeryLongListResponse response = new GetVeryLongListResponse(returnValues.ToArray(), isComplete);
+        Serialize(toVisualizer, response);
     }
-
-    GetVeryLongListResponse response = new GetVeryLongListResponse(returnValues.ToArray(), isComplete);
-    Serialize(toVisualizer, response);
+    else
+    {
+        // Handle failure case...
+    }
 }
 ```
 
