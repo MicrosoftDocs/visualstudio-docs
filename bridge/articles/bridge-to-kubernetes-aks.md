@@ -142,7 +142,7 @@ Press play and let the request continue complete transparently.
 
 ## Clean up
 
-When you stop the debugger all changes to the cluster are reverted. Note, if you were running with isolation on, the routing manager pod will be left there to spedite the start of teh debugger next time around.
+When you stop the debugger all changes to the cluster are reverted. Note, if you were running with isolation on, the routing manager pod will be left there to expedite the start of the debugger the next time around.
 
 You can leave your AKS cluster on for future debugging or you can delete it with below command.
 
