@@ -95,7 +95,7 @@ These commands apply only to the C++ project that you chose, without building, r
 
 ## To compile multiple C++ project items
 
-In **Solution Explorer**, choose multiple files that have can be compiled actions, open the shortcut menu for one of those files, and then choose **Compile**, or press **Ctrl**+**F7**.
+In **Solution Explorer**, choose multiple files that can be compiled, open the shortcut menu for one of those files, and then choose **Compile**, or press **Ctrl**+**F7**.
 
 If the files have dependencies, the files will be compiled in dependency order. The compile operation will fail if the files require a precompiled header that isn't available when you compile. The compile operation uses the current active solution configuration.
 
