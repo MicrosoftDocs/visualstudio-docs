@@ -7,7 +7,7 @@ ms.topic: how-to
 helpviewer_keywords: 
   - memory allocation, memory usage
 author: Sagar-S-S
-ms.author: sashe
+ms.author: ghogen
 manager: AndSter
 ms.workload: 
   - multiple

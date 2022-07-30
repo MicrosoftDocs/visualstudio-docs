@@ -5,7 +5,7 @@ ms.custom: SEO-VS-2020
 ms.date: 02/15/2019
 ms.topic: reference
 author: kendrahavens
-ms.author: kehavens
+ms.author: ghogen 
 manager: jmartens
 ms.technology: vs-ide-general
 dev_langs:

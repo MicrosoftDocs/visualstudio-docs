@@ -6,7 +6,7 @@ ms.topic: how-to
 helpviewer_keywords: 
   - Profiler, improve performance
 author: Sagar-S-S
-ms.author: sashe
+ms.author: ghogen 
 manager: AndSter
 ms.workload: 
   - multiple

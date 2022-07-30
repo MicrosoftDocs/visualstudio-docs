@@ -7,7 +7,7 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "dotnet, counters, profiling"
 author: "sagar-shetty"
-ms.author: "sashe"
+ms.author: "ghogen "
 manager: AndSter
 ms.workload:
   - "multiple"

@@ -7,7 +7,7 @@ ms.topic: how-to
 helpviewer_keywords: 
   - Profiler, Events Viewer
 author: Sagar-S-S
-ms.author: sashe
+ms.author: ghogen 
 manager: AndSter
 ms.workload: 
   - multiple
