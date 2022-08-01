@@ -15,7 +15,7 @@ ms.custom: version-control
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The core part of any Git workflow is modifying files and committing the changes in those files.  While this article references GitHub repositories, you can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps. Or, you can work locally with no provider at all.  
+The core part of any Git workflow is modifying files and committing the changes in those files.  While this article references GitHub repositories, you can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps. Or, you can work locally with no provider at all.
 
 Git tracks file changes in your repo as you work, and separates the files in your repo into three categories. These changes are equivalent to what you would see when you enter the `git status` command in the command line:
 
@@ -47,7 +47,7 @@ When you double-click a **Commit**, Visual Studio opens its details in a separat
 
 ## Next steps
 
-To continue your journey, visit the [Push to remote](git-push-remote.md) page.
+To continue your journey, visit the [Stage lines of code](git-line-staging.md) page.
 
 ## See also
 
