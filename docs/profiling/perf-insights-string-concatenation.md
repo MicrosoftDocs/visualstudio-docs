@@ -13,11 +13,13 @@ ms.workload:
 
 # Use StringBuilder for concatenations
 
+This article describes performance insights for string concatenations.
+
 ## Cause
 
 Calls to System.String.Concat are a significant proportion of the profiling data. Consider using the <xref:System.Text.StringBuilder> class to construct strings from multiple segments.
 
-## Insight description
+## Performance insight description
 
 A <xref:System.String> object is immutable. Therefore, any modification to the string creates a new string object and the garbage collection of the original. This behavior is the same whether you call String.Concat explicitly or use the string concatenation operators such as + or +=. Program performance can decrease if these methods are frequently called, such as when characters are added to a string in a tight loop.
 
