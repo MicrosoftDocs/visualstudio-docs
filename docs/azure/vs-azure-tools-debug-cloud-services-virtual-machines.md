@@ -38,14 +38,165 @@ The emulator simulates the Azure Compute service and runs in your local environm
 
 ## Debug a cloud service in Azure
 
-To debug a cloud service from a remote machine, you must enable that functionality explicitly when you deploy your cloud service so that required services (msvsmon.exe, for example) are installed on the virtual machines that run your role instances. If you didn't enable remote debugging when you published the service, you have to republish the service with remote debugging enabled.
+:::moniker range="vs-2019"
+The debug procedures depend on whether you are using [Cloud Services (extended support)](cloud-services-extended-support.md) or the classic cloud services model. For Cloud Services (extended support), continue reading. For the classic model, see [Debug a cloud service in Azure (classic model)](#debug-a-cloud-service-in-azure-classic-model).
+:::moniker-end
+
+If you enable remote debugging for a cloud service using the procedure in this section, it doesn't exhibit degraded performance or incur additional charges. Don't use remote debugging on a production service, because clients who use the service might be adversely affected.
+
+> [!NOTE]
+> When you publish a cloud service from Visual Studio, you can enable **IntelliTrace** for any roles in that service that target the .NET Framework 4 or the .NET Framework 4.x. By using **IntelliTrace**, you can examine events that occurred in a role instance in the past and reproduce the context from that time. See [Debugging a published cloud service with IntelliTrace and Visual Studio](vs-azure-tools-IntelliTrace-debug-published-cloud-services.md) and [Using IntelliTrace](../debugger/intellitrace.md).
+
+:::moniker range="<=vs-2019"
+
+### To enable remote debugging for a cloud service (extended support)
+
+1. Add an Endpoint to the *ServiceDefinition.csdef* for the default msvsmon port. For Visual Studio 2019, it's 4024.
+
+    ```xml
+    <Endpoints>
+       <InputEndpoint name="RemoteDebug" protocol="tcp" port="4024" localPort="4024" />
+    </Endpoints>
+    ```
+
+   > [!NOTE]
+   > Other versions of Visual Studio have different ports [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md).
+
+1. Open the shortcut menu for the Azure project, and then select **Publish**.
+
+1. Select the **Staging** environment and the **Debug** configuration.
+
+    This is only a guideline. You can opt to run your test environments in a Production environment. However, you may adversely affect users if you enable remote debugging on the Production environment. You can choose the Release configuration, but the Debug configuration makes debugging easier.
+
+    ![Choose the Debug configuration.](./media/vs-2022/cloud-services-extended-support-publish.png)
+
+1. Follow the usual steps described at [Cloud Services (extended support)](cloud-services-extended-support.md#publish-to-cloud-services-extended-support), but select the **Enable Remote Desktop for all roles** check box.
+
+    You'll be asked to create a username and password for the remote desktop user, which you'll need later to sign into that virtual machine.
+
+1. Advance to the next screen, review your settings, and when ready, click **Publish** and wait for the deployment to finish.
+
+1. Sign in to [Azure portal](https://portal.azure.com) and navigate to the Cloud Service (extended support) that you want to debug.
+
+1. Choose **Roles and Instances** in the left hand pane, then choose the role that you are interested in debugging remotely.
+
+1. Click **Connect** in the **Role Instance** popout on the right and choose the **Connect** button to download a remote desktop file that will let you sign in to the virtual machine. Sign in using the credentials you created when you enabled remote desktop in a previous step.
+
+   ![Screenshot showing the role instance popout with the Connect option.](./media/vs-2022/connect-to-virtual-machine.png)
+
+1. On the Remote Azure virtual machine, install the Visual Studio 2019 Remote tools as described at [Remote debugging](../debugger/remote-debugging.md).
+
+1. From the desktop on the virtual machine, execute the command *D:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Remote Debugger\x64\msvsmon.exe*. Be sure to run as Administrator.
+
+1. Accept prompts to allow access through the firewall. You should see a message indicating that *msvsmon.exe* has started listening for connections.
+
+1. In the Azure Portal, open the resource group and get the public IP Address for the Cloud Service (extended support).
+
+   ![Screenshot showing where to find the public IP address for the cloud service.](./media/vs-2022/azure-resource-group-ip-address.png)
+
+### To attach the debugger to a cloud service (extended support) in Azure
+
+> [!NOTE]
+> Whenever possible, you should debug with the **Debug** configuration chosen in the **Publish** process, but if you are debugging a **Release** configuration, then in Visual Studio, use **Ctrl**+**Q** to search for "Just My Code" and uncheck **Enable Just My Code** in **Tools** > **Options** > **Debugger** > **General**. Release builds are optimized and thus are not considered "my code."
+
+1. Choose **Debug** > **Attach to Process** (or press **Ctrl**+**Alt**+**P**).
+
+1. Keep connection type at **Default**.
+
+1. Enter the connection target, using your IP address and port: `{ipaddress}:4024`.
+
+1. Set **Attach To** to **Automatic**.
+
+1. Sign in using the same credentials as remote desktop user.
+
+1. Select **Show process for all users**. If you're debugging a worker role, attach to *WaWorkerHost.exe*; if you're debugging a web role, attach to the *w3wp.exe* process; for a Web API role, it's *WaIISHost.exe*.
+
+1. Set breakpoints (navigate to the line, and press **F9**), access the site's public URL, and reproduce the scenario to debug.
+
+:::moniker-end
+:::moniker range=">=vs-2022"
+
+### To enable remote debugging for a cloud service (extended support)
+
+1. Add an Endpoint to the *ServiceDefinition.csdef* for the default msvsmon port. For Visual Studio 2022, that's 4026; for Visual Studio 2019, it's 4024.
+
+    ```xml
+    <Endpoints>
+       <InputEndpoint name="RemoteDebug" protocol="tcp" port="4026" localPort="4026" />
+    </Endpoints>
+    ```
+
+   > [!NOTE]
+   > Other versions of Visual Studio have different ports [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md).
+
+1. If you are targeting .NET 4.8, be sure to open the *ServiceConfiguration.Cloud.cscfg* file and check the value of the `osFamily` attribute on the `ServiceConfiguration` element when publishing Cloud Services (extended support). For a .NET 4.8 project, use `osFamily="7"`.
+
+1. Open the shortcut menu for the Azure project, and then select **Publish**.
+
+1. Select the **Staging** environment and the **Debug** configuration.
+
+    This is only a guideline. You can opt to run your test environments in a Production environment. However, you may adversely affect users if you enable remote debugging on the Production environment. You can choose the Release configuration, but the Debug configuration makes debugging easier.
+
+    ![Choose the Debug configuration](./media/vs-2022/cloud-services-extended-support-publish.png)
+
+1. Follow the usual steps described at [Cloud Services (extended support)](cloud-services-extended-support.md#publish-to-cloud-services-extended-support), but select the **Enable Remote Desktop for all roles** check box.
+
+    You'll be asked to create a username and password for the remote desktop user, which you'll need later to sign into that virtual machine.
+
+1. Advance to the next screen, review your settings, and when ready, click **Publish** and wait for the deployment to finish.
+
+1. Sign in to [Azure portal](https://portal.azure.com) and navigate to the Cloud Service (extended support) that you want to debug.
+
+1. Choose **Roles and Instances** in the left hand pane, then choose the role that you are interested in debugging remotely.
+
+1. Click **Connect** in the **Role Instance** popout on the right and choose the **Connect** button to download a remote desktop file that will let you sign in to the virtual machine. Sign in using the credentials you created when you enabled remote desktop in a previous step.
+
+   ![Screenshot showing the role instance popout with the Connect option.](./media/vs-2022/connect-to-virtual-machine.png)
+
+1. On the Remote Azure virtual machine, install the Visual Studio 2022 Remote tools as described at [Remote debugging](../debugger/remote-debugging.md).
+
+1. From the desktop on the virtual machine, execute the command *D:\Program Files\Microsoft Visual Studio 17.0\Common7\IDE\Remote Debugger\x64\msvsmon.exe*. Be sure to run as Administrator.
+
+1. Accept prompts to allow access through the firewall. You should see a message indicating that *msvsmon.exe* has started listening for connections.
+
+   ![Screenshot showing that msvsmon.exe is listening for connections.](./media/vs-2022/msvsmon-started-a-new-server.png)
+
+1. In the Azure Portal, open the resource group and get the public IP Address for the Cloud Service (extended support).
+
+   :::image type="content" alt-text="Screenshot showing where to find the public IP address for the cloud service." source="./media/vs-2022/azure-resource-group-ip-address.png" lightbox="./media/vs-2022/azure-resource-group-ip-address.png":::
+
+### To attach the debugger to a cloud service (extended support) in Azure
+
+> [!NOTE]
+> Whenever possible, you should debug with the **Debug** configuration chosen in the **Publish** process, but if you are debugging a **Release** configuration, then in Visual Studio, use **Ctrl**+**Q** to search for "Just My Code" and uncheck **Enable Just My Code** in **Tools** > **Options** > **Debugger** > **General**. Release builds are optimized and thus are not considered "my code."
+
+1. Choose **Debug** > **Attach to Process** (or press **Ctrl**+**Alt**+**P**).
+
+1. Keep connection type at **Default**.
+
+1. Enter the connection target, using your IP address and port: `{ipaddress}:4026`.
+
+1. Set **Attach To** to **Automatic**.
+
+1. Sign in using the same credentials as remote desktop user.
+
+1. Select **Show process for all users**. If you're debugging a worker role, attach to *WaWorkerHost.exe*; if you're debugging a web role, attach to the *w3wp.exe* process; for a Web API role, it's *WaIISHost.exe*.
+
+1. Set breakpoints (navigate to the line, and press **F9**), access the site's public URL, and reproduce the scenario to debug.
+
+:::moniker-end
+:::moniker range="<=vs-2019"
+
+## Debug a cloud service in Azure (classic model)
+
+To debug a cloud service from a remote machine, you must enable that functionality explicitly when you deploy your cloud service so that required services (*msvsmon.exe*, for example) are installed on the virtual machines that run your role instances. If you didn't enable remote debugging when you published the service, you have to republish the service with remote debugging enabled.
 
 If you enable remote debugging for a cloud service, it doesn't exhibit degraded performance or incur additional charges. Don't use remote debugging on a production service, because clients who use the service might be adversely affected.
 
 > [!NOTE]
 > When you publish a cloud service from Visual Studio, you can enable **IntelliTrace** for any roles in that service that target the .NET Framework 4 or the .NET Framework 4.5. By using **IntelliTrace**, you can examine events that occurred in a role instance in the past and reproduce the context from that time. See [Debugging a published cloud service with IntelliTrace and Visual Studio](vs-azure-tools-IntelliTrace-debug-published-cloud-services.md) and [Using IntelliTrace](../debugger/intellitrace.md).
 
-### To enable remote debugging for a cloud service
+### To enable remote debugging for a cloud service (classic model)
 
 1. Open the shortcut menu for the Azure project, and then select **Publish**.
 
@@ -59,7 +210,7 @@ If you enable remote debugging for a cloud service, it doesn't exhibit degraded 
 
     ![Debug Configuration](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC746718.gif)
 
-### To attach the debugger to a cloud service in Azure
+### To attach the debugger to a cloud service in Azure (classic model)
 
 1. In Server Explorer, expand the node for your cloud service.
 
@@ -82,9 +233,11 @@ If you enable remote debugging for a cloud service, it doesn't exhibit degraded 
 
 To detach the debugger from all processes in your instance or role, open the shortcut menu for the role or instance that you're debugging, and then select **Detach Debugger**.
 
+:::moniker-end
+
 ## Limitations of remote debugging in Azure
 
-From Azure SDK 2.3, remote debugging has the following limitations:
+Remote debugging has the following limitations:
 
 * With remote debugging enabled, you can't publish a cloud service in which any role has more than 25 instances.
 * The debugger uses ports 30400 to 30424, 31400 to 31424 and 32400 to 32424. If you try to use any of these ports, you won't be able to publish your service, and one of the following error messages will appear in the activity log for Azure:
