@@ -5,7 +5,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jmartens
 ms.technology: vs-ide-general
-ms.date: 07/27/2022
+ms.date: 07/31/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - editor
@@ -21,6 +21,12 @@ Learn how Visual Studio makes [.NET](/dotnet/fundamentals/) developers who use [
 ## Use keyboard shortcuts from a different editor
 
 If you're coming from another IDE or coding environment, you can change your keyboard scheme to *Visual Studio Code* or *ReSharper (Visual Studio)*:
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/keyboard-schemes.png" alt-text="Screenshot of the keyboard schemes in Visual Studio 2022.":::
+
+::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -130,7 +136,17 @@ You can use an EditorConfig file to codify coding conventions and have them trav
 
 - Configure the severity level of a code style rule directly through the editor. If you currently do not have an .editorconfig file, Visual Studio generates one for you. Place your cursor on the error, warning, or suggestion and type **Ctrl**+**.** to open the **Quick Actions and Refactorings** menu. Select **Configure or Suppress issues**. Then select the rule and choose the severity level you would like to configure for that rule. This will update your existing EditorConfig with the rule’s new severity.
 
+::: moniker range="vs-2022"
+
+   :::image type="content" source="media/vs-2022/configure-severity-level.png" alt-text="Screenshot of how to configure the severity of a code style rule from within the editor." lightbox="media/vs-2022/configure-severity-level.png":::
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
    ![Configure the severity level of a code style rule directly in the editor](../ide/media/configure-severity-level.png)
+
+::: moniker-end
 
 Check out the [.NET code-style rule options](/dotnet/fundamentals/code-analysis/code-style-rule-options) documentation, which also includes an example of a complete EditorConfig file.
 
@@ -138,11 +154,31 @@ Check out the [.NET code-style rule options](/dotnet/fundamentals/code-analysis/
 
 Visual Studio provides on-demand formatting of your code file, including code style preferences, through the **Code Cleanup** feature. To run Code Cleanup, click the broom icon at the bottom of the editor or press **Ctrl**+**K**, **Ctrl**+**E**.
 
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/run-code-cleanup.png" alt-text="Screenshot of the Code Cleanup button and options.":::
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
 ![Screenshot of Code Cleanup button.](media/vs-2019/execute-code-cleanup.png)
+
+::: moniker-end
 
 You can also run code cleanup across your entire project or solution. Right-click on the project or solution name in **Solution Explorer**, select **Analyze and Code Cleanup**, and then select **Run Code Cleanup**.
 
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/run-analyze-code-cleanup-project-solution.png" alt-text="Screenshot of  how to run Analyze and Code Cleanup across an entire project or solution.":::
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
 ![Screenshot of how to run Code Cleanup across an entire project or solution.](media/vs-2019/run-code-cleanup-project-solution.png)
+
+::: moniker-end
 
 In addition to formatting your file for spaces, indents, et cetera, **Code Cleanup** also applies selected code styles. Your preferences for each code style are read from the [EditorConfig file](code-styles-and-code-cleanup.md#code-styles-in-editorconfig-files), if you have one for the project, or from the [code style settings](code-styles-and-code-cleanup.md#code-styles-in-the-options-dialog-box) in the **Options** dialog box.
 
@@ -175,7 +211,11 @@ Several community members have written free extensions that add additional code 
 - [StyleCopAnalyzers](https://www.nuget.org/packages/stylecop.analyzers/)
 - [CodeCracker](https://www.nuget.org/packages/codecracker.CSharp/)
 
+::: moniker range="vs-2019"
+
 ![Refactorings in Visual Studio](../ide/media/VSGuide_CodeAnalysis.png)
+
+::: moniker-end
 
 ## Find Usages, Go To Implementation, and Navigate To Decompiled Assemblies
 
@@ -190,7 +230,11 @@ Visual Studio has many features to help you search and [navigate your code](../i
 | Structure Visualizer | Gray, dotted-lines between braces | Hover to see your code structure |
 | Navigation to decompiled assemblies | **F12** or **Ctrl**+**Click** | Navigate to external source (decompiled with ILSpy) by enabling the feature: **Tools** > **Options** > **Text Editor** > **C#** > **Advanced** > **Enable navigation to decompiled sources**. |
 
+::: moniker range="vs-2019"
+
 ![Go To All and Find All References](../ide/media/VSIDE_Productivity_Navigation.png)
+
+::: moniker-end
 
 ## Improved IntelliSense
 
@@ -198,15 +242,21 @@ Use [IntelliCode](/visualstudio/intellicode/overview/) for Visual Studio to get 
 
 ## Unit testing
 
-We've made numerous improvements to the testing experience. You can test with the MSTest v1, MSTest v2, NUnit, or XUnit test frameworks.
+We've made numerous improvements to the testing experience. You can test with the [MSTest](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) (MSTest v1 or MSTest v2), [NUnit](../test/getting-started-with-unit-testing.md), and [XUnit](../test/getting-started-with-unit-testing.md) test frameworks.
 
 - **Test Explorer** test discovery is fast.
 
 - Organize your tests in **Test Explorer** with *hierarchical sorting*.
 
+::: moniker range="vs-2019"
+
    ![Hierarchy view for Text Explorer in Visual Studio](../ide/media/VSGuide_Testing.png)
 
+::: moniker-end
+
 - [Live unit testing](../test/live-unit-testing.md) continuously runs tests impacted by your code changes and updates inline editor icons to let you know the status of your tests. Include or exclude specific tests or test projects from your live test set. (Visual Studio Enterprise edition only.)
+
+For more information, see [Unit test basics](../test/unit-test-basics.md).
 
 ## Debugging
 
@@ -214,11 +264,21 @@ Some of Visual Studio's debugging capabilities include the following:
 
 - The ability to search for a string within the **Watch**, **Autos**, and **Locals** windows.
 - *Run to click*, which lets you hover next to a line of code, hit the green 'play' icon that appears, and run your program until it reaches that line.
-- The **Exception Helper**, which puts the most important information at the top level in the dialog, for example, which variable is `null` in a `NullReferenceException`.
+- The [**Exception Helper**](../debugger/exception-helper.md), which puts the most important information at the top level in the dialog, for example, which variable is `null` in a `NullReferenceException`.
 - [Step back debugging](../debugger/view-historical-application-state.md), which lets you go back to previous breakpoints or steps and view the state of the application as it was in the past.
 - [Snapshot debugging](/azure/application-insights/app-insights-snapshot-debugger), which lets you investigate the state of a live web application at the moment an exception was thrown (must be on Azure).
 
+::: moniker range="vs-2022"
+
+:::image type="content" source="../debugger/media/debugger-exception-helper-locerror.png" alt-text="Screenshot of the Exception Helper next to a line of code.":::
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
 ![Exception Helper in Visual Studio](../ide/media/VSGuide_Debugging.png)
+
+::: moniker-end
 
 ## Version control
 
@@ -236,9 +296,9 @@ You can use [Git](../version-control/git-with-visual-studio.md) or TFVC to store
 
 - In Visual Studio 2019 version 16.7 and earlier, install the [Pull requests for Visual Studio](https://marketplace.visualstudio.com/items?itemName=vsideversioncontrolmsft.pr4vs) extension to create, review, check out, and run pull requests without leaving Visual Studio.
 
-    - Organize your local changes in [Team Explorer](reference/team-explorer-reference.md) and use the status bar to track pending commits and changes.
+   - Organize your local changes in [Team Explorer](reference/team-explorer-reference.md) and use the status bar to track pending commits and changes.
 
-    - Set up continuous integration and delivery for your ASP.NET projects inside of Visual Studio with the [Continuous delivery tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) extension.
+   - Set up continuous integration and delivery for your ASP.NET projects inside of Visual Studio with the [Continuous delivery tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) extension.
 
     ![Source control in Visual Studio](../ide/media/VSIDE_Productivity_SourceControl.png)
 
@@ -246,7 +306,7 @@ You can use [Git](../version-control/git-with-visual-studio.md) or TFVC to store
 
 ## What other features should I know about?
 
-Here is a list of editor and productivity features to make writing code more efficient. Some features may need to be enabled because they are off by default (they may index things on your machine, are controversial, or are currently experimental).
+Here's a list of editor and productivity features to make writing code more efficient. Some features might need to be enabled because they are off by default.
 
 | Feature | Details | How to enable |
 |-|-|-|
