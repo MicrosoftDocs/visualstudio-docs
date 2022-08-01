@@ -36,10 +36,10 @@
     items:
     - name: CPU usage
       href: cpu-usage.md
-    - name: Performance rules
+    - name: Performance insights
       items:
       - name: String concatenation
-        href: perf-rules-string-concatenation.md
+        href: perf-insights-string-concatenation.md
   - name: File IO
     href: use-file-io.md    
   - name: Memory usage

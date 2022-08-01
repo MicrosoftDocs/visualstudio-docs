@@ -1,5 +1,5 @@
 ---
-title: Performance tips for string concatenations
+title: Performance insights for string concatenations
 description: Learn how to improve performance for string concatenations.
 ms.date: 7/20/2022
 ms.topic: reference
@@ -17,7 +17,7 @@ ms.workload:
 
 Calls to System.String.Concat are a significant proportion of the profiling data. Consider using the <xref:System.Text.StringBuilder> class to construct strings from multiple segments.
 
-## Rule description
+## Insight description
 
 A <xref:System.String> object is immutable. Therefore, any modification to the string creates a new string object and the garbage collection of the original. This behavior is the same whether you call String.Concat explicitly or use the string concatenation operators such as + or +=. Program performance can decrease if these methods are frequently called, such as when characters are added to a string in a tight loop.
 
