@@ -202,16 +202,23 @@ Popular quick fixes and refactorings include:
 
 For more information, see [code generation features](code-generation-in-visual-studio.md).
 
-You can [install FxCop analyzers](../code-quality/install-net-analyzers.md) to flag code issues. Or, write your own refactoring or code fix with [Roslyn analyzers](https://github.com/dotnet/roslyn/blob/master/docs/wiki/Getting-Started-Writing-a-Custom-Analyzer-&-Code-Fix.md).
+You can [install .NET analyzers](../code-quality/install-net-analyzers.md) to flag code issues. Or, write your own refactoring or code fix with [Roslyn analyzers](../code-quality/install-roslyn-analyzers.md).
 
 Several community members have written free extensions that add additional code inspections:
+
+::: moniker range="vs-2022"
+
+- [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2022)
+- [SonarLint for Visual Studio](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio2022)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
 
 - [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2019)
 - [SonarLint for Visual Studio](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio2019)
 - [StyleCopAnalyzers](https://www.nuget.org/packages/stylecop.analyzers/)
 - [CodeCracker](https://www.nuget.org/packages/codecracker.CSharp/)
-
-::: moniker range="vs-2019"
 
 ![Refactorings in Visual Studio](../ide/media/VSGuide_CodeAnalysis.png)
 
@@ -306,7 +313,7 @@ You can use [Git](../version-control/git-with-visual-studio.md) or TFVC to store
 
 ## What other features should I know about?
 
-Here's a list of editor and productivity features to make writing code more efficient. Some features might need to be enabled because they are off by default.
+Here's a list of editor and productivity features to make writing code more efficient. Some features might need to be enabled because they're off by default.
 
 | Feature | Details | How to enable |
 |-|-|-|
@@ -314,7 +321,7 @@ Here's a list of editor and productivity features to make writing code more effi
 | Add usings for types in reference assemblies and NuGet packages | Shows an error light bulb with a code fix to install a NuGet package for an unreferenced type | **Tools** > **Options** > **Text Editor** > **C#** > **Advanced** > **Suggest usings for types in reference assemblies** and **Suggest usings for types in NuGet packages** |
 | Enable full solution analysis | See all errors in your solution in the **Error List** | **Tools** > **Options** > **Text Editor** > **C#** > **Advanced** > **Enable full solution analysis** |
 | Enable navigation to decompiled sources | Allow Go To Definition on types/members from external sources and use the ILSpy decompiler to show method bodies | **Tools** > **Options** > **Text Editor** > **C#** > **Advanced** > **Enable navigation to decompiled sources** |
-| Completion/Suggestion Mode | Changes the completion behavior in IntelliSense. Developers with IntelliJ backgrounds tend to use a non-default setting here. | **Menu** > **Edit** > **IntelliSense** > **Toggle Completion Mode** |
+| Completion/Suggestion Mode | Changes the completion behavior in [IntelliSense](using-intellisense.md). Developers with IntelliJ backgrounds tend to use a non-default setting here. | **Menu** > **Edit** > **IntelliSense** > **Toggle Completion Mode** |
 | [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) | Displays code reference information and change history in the editor. (Source control CodeLens indicators aren't available in Visual Studio Community edition.) | **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens** |
 | [Code snippets](../ide/visual-csharp-code-snippets.md) | Help stub out common boilerplate code | Type a snippet name and press **Tab** twice. |
 
