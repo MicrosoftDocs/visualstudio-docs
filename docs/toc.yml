@@ -1197,6 +1197,8 @@
         href: ide/reference/signing-page-project-designer.md
     - name: Property Pages, JavaScript
       href: ide/reference/property-pages-javascript.md
+    - name: Property Pages, React, Angular, and Vue
+      href: ide/reference/property-pages-javascript-esproj.md
     - name: Properties window
       href: ide/reference/properties-window.md
     - name: Team Explorer reference
