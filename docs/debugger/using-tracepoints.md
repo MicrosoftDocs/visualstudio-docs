@@ -21,13 +21,16 @@ code. This feature is supported for both managed languages (C#, Visual Basic, F#
 
 ## Let&#39;s take an example
 
+::: moniker range="vs-2019"
+
 The following example program is a simple `for` loop with a counter variable that increases by one every time the loop runs another iteration.
 
-::: moniker range="vsmac-2019"
 :::image type="content" source="../debugger/media/counterexample.png" alt-text="Screenshot of a sample counter program.":::
 ::: moniker-end
 
-::: moniker range="vsmac-2022"
+::: moniker range="vs-2022"
+
+The following example program is a simple `for` loop with a counter variable that increases by one every time the loop runs another iteration.
 
 ```csharp
 
@@ -52,6 +55,8 @@ namespace Tracepoints
 ::: moniker-end
 
 ## Set tracepoints in source code
+
+::: moniker range="vs-2019"
 
 You can set tracepoints by specifying an output string under the **Action** checkbox in the **Breakpoint Settings** window.
 
@@ -79,8 +84,41 @@ You can set tracepoints by specifying an output string under the **Action** chec
    :::image type="content" source="../debugger/media/checkedconditionsbox.png" alt-text="Screenshot of breakpoint window with Conditions Box checked.":::
 
    You have three choices for conditions: **Conditional Expression**, **Filter**, and **Hit Count**.
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+You can set tracepoints by specifying an output string under the **Action** checkbox in the **Breakpoint Settings** window.
+
+1. To initialize a tracepoint, first click on the gutter to the left of the line number where you want to set the tracepoint.
+
+   :::image type="content" source="../debugger/media/vs-2022/breakpointinitialization.png" alt-text="Screenshot showing the Breakpoint Initialization in the sample code.":::
+
+1. Hover over the red circle and click the gear icon to opens the **Breakpoint Settings** window.
+
+   :::image type="content" source="../debugger/media/vs-2022/breakpointwindow.png" alt-text="Screenshot showing Breakpoint Window.":::
+
+1. Select the **Action** checkbox.
+
+   :::image type="content" source="../debugger/media/vs-2022/checkedactionsbox.png" alt-text="Screenshot of breakpoint window with Actions Box checked.":::
+
+   Notice how the red circle changes to a diamond indicating that you've switched from a breakpoint to tracepoint.
+
+1. Enter the message you want to log into the **Show a message in the Output Window** text box (for details, see later sections in this article).
+
+   Your tracepoint is now set. Hit the &quot;Close&quot; button if all you want to do is log some information to the Output Window.
+
+1. If you want to add conditions that determine whether your message is displayed, select the **Conditions** checkbox.
+
+   :::image type="content" source="../debugger/media/vs-2022/checkedconditionsbox.png" alt-text="Screenshot of breakpoint window with Conditions Box checked.":::
+
+   You have three choices for conditions: **Conditional Expression**, **Filter**, and **Hit Count**.
+
+::: moniker-end
 
 ## Actions menu
+
+::: moniker range="vs-2019"
 
 This menu allows you to log a message to the Output window. Type the strings you want to output into the message box (no quotes necessary). If you want to display values of variables, make sure you enclose it in curly braces.
 
@@ -106,11 +144,43 @@ You can also use special keywords to display more specific information. Enter th
 | $TNAME   | Thread name |
 | $TICK | Tick count (from Windows GetTickCount) |
 
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+This menu allows you to log a message to the Output window. Type the strings you want to output into the message box (no quotes necessary). If you want to display values of variables, make sure you enclose it in curly braces.
+
+For example, if you want to display the value of the `counter` variable in the output console, type `{counter}` in the message text box.
+
+:::image type="content" source="../debugger/media/vs-2022/counteroutputmessage.png" alt-text="Screenshot showing Counter Output Message.":::
+  
+If you click **Close** and then debug the program (**F5**), you see the following output in the Output window.
+
+:::image type="content" source="../debugger/media/actionsmessageinoutputwindow.png" alt-text="Screenshot showing Actions Message In Output Window.":::
+
+You can also use special keywords to display more specific information. Enter the keyword exactly as shown below (use a "$" in front of each keyword and all caps for the keyword itself).
+
+| Keyword | What is Displayed |
+| --- | --- |
+| `$ADDRESS` | Current instruction |
+| `$CALLER` | Calling function name |
+| `$CALLSTACK` | Call stack |
+| `$FUNCTION` | Current function name |
+| `$PID` | Process ID |
+| `$PNAME` | Process name |
+| `$TID` | Thread ID |
+| `$TNAME`   | Thread name |
+| `$TICK` | Tick count (from Windows GetTickCount) |
+
+::: moniker-end
+
 ## Conditions menu
 
 Conditions allow you to filter your output messages, so they display only under certain scenarios. There are three main kinds of conditions available to you.
 
 ### Conditional expression
+
+::: moniker range="vs-2019"
 
 For a conditional expression, an output message displays only when certain conditions are met.
 
@@ -129,7 +199,36 @@ The behavior of the  **When changed**  option is different for different program
 
 For a more comprehensive look at valid expressions you can use while setting conditions, see [Expressions in the debugger](expressions-in-the-debugger.md).
 
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+For a conditional expression, an output message displays only when certain conditions are met.
+
+For conditional expressions, you can either set the tracepoint to output a message when a certain condition is true or when it has changed. For example, if you only want to display the value of counter during even iterations of the `for` loop, you could select the **Is true** option and then type `i%2 == 0` in the message text box.
+
+:::image type="content" source="../debugger/media/vs-2022/conditionalexpressionistrue.png" alt-text="Screenshot showing Conditional Expression Is True.":::
+
+If you want to print the value of counter when the iteration of the `for` loop changes, select the **When changed** option and type `i` in the message text box.
+
+:::image type="content" source="../debugger/media/vs-2022/conditionalexpressionwhenchanged.png" alt-text="Screenshot showing when Conditional Expression is Changed.":::
+
+The behavior of the  **When changed**  option is different for different programming languages.
+
+- For native code, the debugger doesn't consider the first evaluation of the condition to be a change, so doesn't hit the tracepoint on the first evaluation.
+- For managed code, the debugger hits the tracepoint on the first evaluation after **When changed**  is selected.
+
+You can also set the condition when the tracepoint can be enabled by inserting a Breakpoint to any particular section of the code and selecting the checkbox **Only enable when the following breakpoint is hit:** option in the **Breakpoint Settings** menu. You can choose any breakpoint from the list of choices.
+
+:::image type="content" source="../debugger/media/vs-2022/enableatbreakpoint.png" alt-text="Screenshot showing enable when a breakpoint is hit checked.":::
+
+For a more comprehensive look at valid expressions you can use while setting conditions, see [Expressions in the debugger](expressions-in-the-debugger.md).
+
+::: moniker-end
+
 ### Hit count
+
+::: moniker range="vs-2019"
 
 A hit count condition allows you to send output only after the line of code where the tracepoint is set has executed a specified number of times.
 
@@ -137,7 +236,25 @@ For hit count, you can choose to output a message when the line of code where th
 
 :::image type="content" source="../debugger/media/conditionalexpressionhitcount.png" alt-text="Screenshot showing Conditional Expression Hit Count.":::
 
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+A hit count condition allows you to send output only after the line of code where the tracepoint is set has executed a specified number of times.
+
+For hit count, you can choose to output a message when the line of code where the tracepoint is set has been executed a particular number of times. Based on requirement it can be equal to, or is a multiple of, or is greater than or equal to the specified hit count value. Choose the option that best suits your needs and type an integer value in the field (for example, 5) that represents that iteration of interest.
+
+:::image type="content" source="../debugger/media/vs-2022/conditionalexpressionhitcount.png" alt-text="Screenshot showing Conditional Expression Hit Count.":::
+
+You can also remove the breakpoint on the first hit by enabling the checkbox **Remove breakpoint once hit**.
+
+:::image type="content" source="../debugger/media/vs-2022/removebreakpointonhit.png" alt-text="Screenshot showing Remove breakpoint on first hit.":::
+
+::: moniker-end
+
 ### Filter
+
+::: moniker range="vs-2019"
 
 For a filter condition, specify which devices, processes, or threads output is shown for.
 
@@ -152,6 +269,26 @@ List of filter expressions:
 - ThreadName = "name"
 
 Enclose strings (such as names) in double quotes. Values can be entered without quotes. You can combine clauses using `&` (`AND`), `||` (`OR`), `!` (`NOT`), and parentheses.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+For a filter condition, specify which devices, processes, or threads output is shown for.
+
+:::image type="content" source="../debugger/media/vs-2022/conditionalexpressionfilter.png" alt-text="Screenshot showing Conditional Expression Filter.":::
+
+List of filter expressions:
+
+- `MachineName` = "name"
+- `ProcessId` = value
+- `ProcessName` = "name"
+- `ThreadId` = value
+- `ThreadName` = "name"
+
+Enclose strings (such as names) in double quotes. Values can be entered without quotes. You can combine clauses using `&` (`AND`), `||` (`OR`), `!` (`NOT`), and parentheses.
+
+::: moniker-end
 
 ## Considerations
 

@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: bc8b526c-2fed-4ac8-aaa2-73d2495256fd
-ms.date: 6/16/2022
+ms.date: 08/03/2022
 ms.topic: how-to
 ms.custom: devdivchpfy22
 description: Learn about the Pluralsight training subscription included with selected Visual Studio subscriptions.
@@ -25,8 +25,8 @@ Not all subscribers who have previously used a Pluralsight subscription provided
    (The tile above is an example of what a Visual Studio Enterprise subscriber will see. If you're using a different Visual Studio subscription, the duration of your Pluralsight benefit will vary. See the [eligibility table](#eligibility) for details.)
 1. You'll be redirected to the Pluralsight page for the benefit that's included with your Visual Studio subscription.
 
-   - Provide the contact information requested on the form
-   - Click the checkbox to accept the terms of use
+   - Provide the contact information requested on the form.
+   - Click the checkbox to accept the terms of use.
    - Click **REDEEM**.
    :::image type="content" source="_img/vs-pluralsight/vs-pluralsight-registration.png" alt-text="Screenshot of Pluralsight Registration form, click the checkbox to accept the terms, and click Redeem.":::
 
@@ -60,7 +60,7 @@ At the bottom of the tile, you'll see text showing both the activation date and 
 
 ### When your subscription expires
 
-When your Pluralsight subscription expires, the status will change to "0 days remaining" and the link to the Pluralsight portal will be removed. You'll still be able to see the date that you activated the subscription, as well as the date it expired.
+When your Pluralsight subscription expires, the status will change to "0 days remaining" and the link to the Pluralsight portal will be removed. You'll still be able to see the date that you activated the subscription, and the date it expired.
    :::image type="content" source="_img/vs-pluralsight/vs-pluralsight-expired.png" alt-text="Pluralsight tile after expiration, the link to Pluralsight will be removed and the dates the subscription was active will appear at the bottom of the tile.":::
 
 ## Eligibility

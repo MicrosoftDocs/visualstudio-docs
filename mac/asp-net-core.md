@@ -54,7 +54,7 @@ There are many projects that will provide you with a pre-built template to start
 
 Select the **ASP.NET Core Empty Web Application** and select **Next**. Give the Project a name and select **Create**. These steps create a new ASP.NET Core app. In the **Solution** window's left pane, expand the second arrow and then select **Startup.cs**. It should look similar to the following image:
 
-:::image type="content" source="media/asp-net-core-2019-empty-project.png" alt-text="Screenshot shows new ASP.NET Core Empty Project view while creating an ASP.NET Core app." lightbox="media/asp-net-core-2022-create-empty-project.png":::
+:::image type="content" source="media/asp-net-core-2019-empty-project.png" alt-text="Screenshot shows new ASP.NET Core Empty Project view while creating an ASP.NET Core app.":::
 
 The ASP.NET Core Empty template creates a web application with two default files: **Program.cs** and **Startup.cs** that are explained here. It also creates a **Dependencies** folder, which contains your project's NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
 
@@ -65,7 +65,7 @@ The ASP.NET Core Empty template creates a web application with two default files
 
 Open Visual Studio for Mac. On the Start Screen, select **New**
 
-:::image type="content" source="media/vsmac-2022/ide-tour-new-project.png" alt-text="Screenshot shows the New Project Dialog while creating an ASP.NET Core app in Visual Studio for Mac.":::
+:::image type="content" source="media/vsmac-2022/ide-start-new-project.png" alt-text="Screenshot shows the New Project Dialog while creating an ASP.NET Core app in Visual Studio for Mac.":::
 
 The **New Project** dialog is shown. It lets you select a template to create your application.
 
@@ -83,11 +83,11 @@ There are many projects that will provide you with a pre-built template to start
 - **React.js**
 - **React.js and Redux**
 
-:::image type="content" source="media/vsmac-2022/asp-net-core-2022-new-asp-core.png" alt-text="This screenshot shows new ASP.NET Core Empty Project view while creating an ASP.NET Core app.":::
+:::image type="content" source="media/vsmac-2022/asp-net-core-2022-new-asp-core.png" alt-text="Screenshot shows new Project on Visual Studio start window.":::
 
 Select the **ASP.NET Core Empty Web Application** and select **Continue**. Give the Project a name and select **Continue**. These steps create a new ASP.NET Core app. In the **Solution** window's left pane, expand the second arrow and then select **Startup.cs**. It should look similar to the following image:
 
-:::image type="content" source="media/vsmac-2022/asp-net-core-2022-empty-project.png" alt-text="This screenshot shows new ASP.NET Core Empty Project view while creating an ASP.NET Core app.":::
+:::image type="content" source="media/vsmac-2022/asp-net-core-2022-empty-project.png" alt-text="Screenshot shows new ASP.NET Core Empty Project view while creating an ASP.NET Core app.":::
 
 The ASP.NET Core Empty template creates a web application with default files like **Program.cs** that is explained here.  It also creates a **Dependencies** folder, which contains your project's NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
 
