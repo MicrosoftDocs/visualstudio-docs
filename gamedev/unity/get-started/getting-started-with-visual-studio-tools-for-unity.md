@@ -52,6 +52,7 @@ The Unity Hub continues installing Unity in the background. When it's complete, 
 > Projects are created using the Unity Editor and not Visual Studio.
 
 :::zone-end
+
 :::zone pivot="macos"
 
 > [!NOTE]
@@ -59,7 +60,7 @@ The Unity Hub continues installing Unity in the background. When it's complete, 
 
 Visual Studio for Mac Tools for Unity is included with the installation of Visual Studio for Mac. It requires no separate installation steps. You can verify the installation in the **Visual Studio for Mac** > **Extensions** > **Game Development** menu. **Visual Studio for Mac Tools for Unity** should be enabled.
 
-   :::image type="content" source="../media/vsm/unity-workload.png" alt-text="Screenshot of the Extension Manager view showing Visual Studio for Mac Tools for Unity enabled.":::
+:::image type="content" source="../media/vsm/unity-workload.png" alt-text="Screenshot of the Extension Manager view showing Visual Studio for Mac Tools for Unity enabled.":::
 
 :::zone-end
 
