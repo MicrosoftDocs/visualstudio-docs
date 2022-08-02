@@ -59,7 +59,7 @@ The Unity Hub continues installing Unity in the background. When it's complete, 
 
 Visual Studio for Mac Tools for Unity is included with the installation of Visual Studio for Mac. It requires no separate installation steps. You can verify the installation in the **Visual Studio for Mac** > **Extensions** > **Game Development** menu. **Visual Studio for Mac Tools for Unity** should be enabled.
 
-:::image type="content" source="../gamedev/unity/media/vsm/unity-workload.png" alt-text="Screenshot of the Extension Manager view showing Visual Studio for Mac Tools for Unity enabled.":::
+   :::image type="content" source="../media/vsm/unity-workload.png" alt-text="Screenshot of the Extension Manager view showing Visual Studio for Mac Tools for Unity enabled.":::
 
 :::zone-end
 
@@ -84,13 +84,14 @@ It's possible to select other versions of Visual Studio that are unlisted and in
 1. Close the **Preferences** dialog to complete the configuration process.
 
 :::zone-end
+
 :::zone pivot="macos"
 
 1. In the Unity Editor, select the **Unity** > **Preferences** menu.
 1. On the left, select the **External Tools** tab.
 1. Use the **External Script Editor** dropdown list to choose different installations of Visual Studio for Mac.
 
-   :::image type="content" source="../media/vsm/preferences-external-tools.png" alt-text="Screenshot of the External Tools preference menu in the Unity Editor on mac OS.":::
+   :::image type="content" source="../media/vsm/preferences-external-tools.png" alt-text="Screenshot of the External Tools preference menu in the Unity Editor on macOS.":::
 
 1. Close the **Preferences** dialog to complete the configuration process.
 
@@ -104,7 +105,17 @@ In Unity versions 2020 and later, a separate Unity Package is required for the b
 1. Select the **Visual Studio Editor** package.
 1. If a new version is available, select **Update**.
 
-  :::image type="content" source="../media/vs/unity-package-manager.png" alt-text="Screenshot of the Package Manager window in the Unity Editor on Windows.":::
+   :::image type="content" source="../media/vs/unity-package-manager.png" alt-text="Screenshot of the Package Manager window in the Unity Editor on Windows.":::
+
+:::zone pivot="macos"
+In Unity versions 2020 and later, a separate Unity Package is required for the best experience working with IDEs like Visual Studio and Visual Studio for Mac. This package should be included by default, but updates are released to this package that you can install to at any time.
+
+1. In the Unity Editor, select the **Windows** > **Package Manager** menu.
+1. Select the **Visual Studio Editor** package.
+1. If a new version is available, select **Update**.
+
+   :::image type="content" source="../media/vsm/unity-package-manager.png" alt-text="Screenshot of the Package Manager window in the Unity Editor on Mac.":::
+:::zone-end
 
 ## Check for updates
 
@@ -114,15 +125,23 @@ We recommend that you keep Visual Studio and Visual Studio for Mac updated for t
 
 1. Select the **Help** > **Check for Updates** menu.
 
-   :::image type="content" source="../media/vs/check-for-updates.png" alt-text="Screenshot of the Check for Updates menu in Visual Studio 2019.":::
+   :::image type="content" source="../media/vs/check-for-updates.png" alt-text="Screenshot of the Check for Updates menu in Visual Studio Help menu.":::
 
-2. If an update is available, the Visual Studio Installer shows a new version. Select **Update**.
+1. If an update is available, the Visual Studio Installer shows a new version. Select **Update**.
+
+   :::image type="content" source="../media/vs/click-to-update.png" alt-text="Screenshot of Visual Studio Installer with the Updates.":::
 
 :::zone-end
+
 :::zone pivot="macos"
 
 1. Select the **Visual Studio for Mac** > **Check for Updates...** menu to open the **Visual Studio Update** dialog.
-2. If an update is available, select **Install**.
+
+   :::image type="content" source="../media/vsm/check-for-updates.png" alt-text="Screenshot of the Check for Updates menu in Visual Studio Help menu.":::
+
+1. If an update is available, Visual Studio Update shows a new version, select **Restart and Install Updates**.
+
+   :::image type="content" source="../media/vsm/restart-and-install-updates.png" alt-text="Screenshot of Visual Studio Updates with the Updates.":::
 
 :::zone-end
 

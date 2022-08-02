@@ -2,7 +2,7 @@
 title: Start developing Visual Studio extensions | Microsoft Docs
 description: Get answers to some of the common questions that you may have the first time you start to write a Visual Studio extension.
 ms.custom: SEO-VS-2020, devdivchpfy22
-ms.date: 06/24/2022
+ms.date: 08/03/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - getting started, Visual Studio integration
@@ -34,7 +34,7 @@ The sky's the limit when it comes to imagining different Visual Studio extension
 
 - Support for languages that aren't included in Visual Studio, with syntax coloring, IntelliSense, and compiler and debug support.
 
-- Productivity tools that extend the core IDE experience with additional templates, code refactoring, new dialogs or tool windows.
+- Productivity tools that extend the core IDE experience with more templates, code refactoring, new dialogs or tool windows.
 
 - Domain-specific designers for scenarios like data design or cloud support.
 
@@ -62,7 +62,7 @@ In practice, we have found that the features most people want to extend are comm
 
 - [Visual Studio Isolated Shell](https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/)
 
-## <a name="BKMK_ProjectTemplate"></a> What project templates are provided by the VSSDK?
+## What project templates are provided by the VSSDK?
 
  The two main types of extensions are VSPackages and MEF extensions. In general, VSPackage extensions are used for extensions that use or extend commands, tool windows, and projects. MEF extensions are used to extend or customize the Visual Studio editor.
 

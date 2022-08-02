@@ -2,7 +2,7 @@
 title: Project Solution (.sln) file
 description: Learn about the .sln file, which is one of the files that maintains state information for a project in Visual Studio.
 ms.custom: SEO-VS-2020, devdivchpfy22
-ms.date: 03/15/2022
+ms.date: 08/03/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - sln files, VSPackages
@@ -77,6 +77,7 @@ The minimum (oldest) version of Visual Studio that can open this solution file.
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
+
 `Microsoft Visual Studio Solution File, Format Version 12.00`\
 Standard header that defines the file format version.
 
