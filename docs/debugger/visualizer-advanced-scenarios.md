@@ -23,9 +23,9 @@ ms.workload:
 
 This article provides information that might be useful if you're writing your own custom data visualizers, particularly if the object that is being visualized or the visualizer UI itself is complex.
 
-The following examples are based on a Visual Studio solution that has two projects. The first corresponds to a .NET Framework 4.7.2 project that will be the *debugger-side* component for the UI logic. The second is a .NET Standard 2.0 project that will be the *debuggee-side* component so that it can be used in .NET Core applications.
+The following examples are based on a Visual Studio solution that has two projects. The first corresponds to a .NET Framework 4.7.2 project that is the *debugger-side* component for the UI logic. The second is a .NET Standard 2.0 project that is the *debuggee-side* component so that it can be used in .NET Core applications.
 
-The *debugger-side* will comprise a WPF window that might contain an indeterminate `ProgressBar` control that is visible on load and two labels called `DataLabel` and `ErrorLabel`, both collapsed on load. Once it finishes fetching the data from the object it is trying to visualize, the progress bar will be collapsed and the visualizer will show the data label with the relevant information. In the case of an error, the progress bar is also hidden, but it will show an error message using the error label. A simplified example is shown below:
+The *debugger-side* will comprise a WPF window that might contain an indeterminate `ProgressBar` control that's visible on load and two labels called `DataLabel` and `ErrorLabel`, both collapsed on load. Once it finishes fetching the data from the object it's trying to visualize, the progress bar will be collapsed and the visualizer will show the data label with the relevant information. In the case of an error, the progress bar is also hidden, but it will show an error message using the error label. A simplified example is shown below:
 
 ```xml
 <Window x:Class="AdvancedVisualizer.DebuggerSide.VisualizerDialog"
@@ -64,7 +64,7 @@ public partial class VisualizerDialog : Window
 }
 ```
 
-The *debugger-side* has a view model called `AdvancedVisualizerViewModel` to handle the visualizer's logic for fetching its data from the *debuggee-side*. This changes depending on each example, so it is shown separately in each section. Finally, the visualizer entry point appears as follows:
+The *debugger-side* has a view model called `AdvancedVisualizerViewModel` to handle the visualizer's logic for fetching its data from the *debuggee-side*. This changes depending on each example, so it's shown separately in each section. Finally, the visualizer entry point appears as follows:
 
 ```csharp
 [assembly: DebuggerVisualizer(typeof(AdvancedVisualizer.DebuggerSide.AdvancedVisualizer), typeof(AdvancedVisualizer.DebuggeeSide.CustomVisualizerObjectSource), Target = typeof(VerySlowObject), Description = "Very Slow Object Visualizer")]
@@ -88,15 +88,15 @@ namespace AdvancedVisualizer.DebuggerSide
   > [!NOTE]
   > The avid reader will have noticed that in the code above we are performing a cast on the `objectProvider`. The reasoning behind this cast is explained in the [Using the new Async API](#using-the-new-async-api) section.
 
-The *debugee-side* varies depending on the example, so it is shown separately in each section.
+The *debugee-side* varies depending on the example, so it's shown separately in each section.
 
 ## Using the new Async API
 
-For compatibility reasons, the `Show` method that gets overwritten by your `DialogDebuggerVisualizer` still receives an object provider instance of type `IVisualizerObjectProvider`. However, this type also implements the `IAsyncVisualizerObjectProvider` interface. Therefore, it is safe to cast it when using VS 2022 17.2 onward. That provider adds an async implementation of the methods present in `IVisualizerObjectProvider2`.
+For compatibility reasons, the `Show` method that gets overwritten by your `DialogDebuggerVisualizer` still receives an object provider instance of type `IVisualizerObjectProvider`. However, this type also implements the `IAsyncVisualizerObjectProvider` interface. Therefore, it's safe to cast it when using VS 2022 17.2 onward. That provider adds an async implementation of the methods present in `IVisualizerObjectProvider2`.
 
 ## Handling long serialization time
 
-There are some cases when calling the default <xref:Microsoft.VisualStudio.DebuggerVisualizers.IAsyncVisualizerObjectProvider.GetDeserializableObjectAsync%2A> method on the <xref:Microsoft.VisualStudio.DebuggerVisualizers.IAsyncVisualizerObjectProvider> will result in a Timeout Exception being thrown by the visualizer. Custom data visualizer operations are allowed only a maximum of five seconds to guarantee that Visual Studio remains responsive. That is, every call to <xref:Microsoft.VisualStudio.DebuggerVisualizers.IAsyncVisualizerObjectProvider.GetDeserializableObjectAsync%2A>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.IAsyncVisualizerObjectProvider.ReplaceDataAsync%2A>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.IAsyncVisualizerObjectProvider.TransferDeserializableObjectAsync%2A>, etc., must finish execution before the time limit is reached or VS will throw an exception. Because there is no plan to provide support for changing this time constraint, visualizer implementations must handle cases where an object takes longer than five seconds to be serialized. To handle this scenario correctly, it is recommended that the visualizer handles passing data from the *debuggee-side* component to the *debugger-side* component by chunks or pieces.
+There are some cases when calling the default <xref:Microsoft.VisualStudio.DebuggerVisualizers.IAsyncVisualizerObjectProvider.GetDeserializableObjectAsync%2A> method on the <xref:Microsoft.VisualStudio.DebuggerVisualizers.IAsyncVisualizerObjectProvider> will result in a Timeout Exception being thrown by the visualizer. Custom data visualizer operations are allowed only a maximum of five seconds to guarantee that Visual Studio remains responsive. That is, every call to <xref:Microsoft.VisualStudio.DebuggerVisualizers.IAsyncVisualizerObjectProvider.GetDeserializableObjectAsync%2A>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.IAsyncVisualizerObjectProvider.ReplaceDataAsync%2A>, <xref:Microsoft.VisualStudio.DebuggerVisualizers.IAsyncVisualizerObjectProvider.TransferDeserializableObjectAsync%2A>, etc., must finish execution before the time limit is reached or VS will throw an exception. Because there's no plan to provide support for changing this time constraint, visualizer implementations must handle cases where an object takes longer than five seconds to be serialized. To handle this scenario correctly, it's recommended that the visualizer handles passing data from the *debuggee-side* component to the *debugger-side* component by chunks or pieces.
 
   > [!NOTE]
   > The projects from where these code snippets were obtained can be downloaded from the [VSSDK-Extensibility-Samples](https://github.com/microsoft/VSSDK-Extensibility-Samples/tree/master/Advanced_Visualizer_Scenarios/EvaluationTimeoutSample) repository.
@@ -115,7 +115,7 @@ public class VerySlowObject
 }
 ```
 
-That is why you need to create our own *debugee-side* component, which is a class that derives from <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> and overrides the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A> method.
+That's why you need to create our own *debugee-side* component, which is a class that derives from <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> and overrides the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A> method.
 
 ```csharp
 public class CustomVisualizerObjectSource : VisualizerObjectSource
@@ -127,7 +127,7 @@ public class CustomVisualizerObjectSource : VisualizerObjectSource
 }
 ```
 
-At this point you have two alternatives; you either add custom 'Command' and 'Response' types that let the visualizer coordinate between both components on the state of the data transfer; or you let the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> handle it by itself. If your object had only a simple collection of the same types (and you wanted to send every element to the UI), the latter would be suggested since the *debuggee-side* would just return segments of the collection until the end was reached. In the case where you have several different parts or you might just want to return part of the whole object, the former might be easier. Considering that you decided on the second approach, you would have created the following classes on your *debugee-side* project.
+At this point, you have two alternatives; you either add custom 'Command' and 'Response' types that let the visualizer coordinate between both components on the state of the data transfer; or you let the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> handle it by itself. If your object had only a simple collection of the same types (and you wanted to send every element to the UI), the latter would be suggested since the *debuggee-side* would just return segments of the collection until the end was reached. In the case where you have several different parts or you might just want to return part of the whole object, the former might be easier. Considering that you decided on the second approach, you would have created the following classes on your *debugee-side* project.
 
 ```csharp
 [Serializable]
@@ -164,7 +164,7 @@ public async Task<string> GetDataAsync()
         IDeserializableObject deserializableObject = await m_asyncObjectProvider.TransferDeserializableObjectAsync(new GetVeryLongListCommand(verySlowObjectList.Count), CancellationToken.None);
         GetVeryLongListResponse response = deserializableObject.ToObject<GetVeryLongListResponse>();
 
-        // Check if a timeout occurred, if it did we will try fetching more data again.
+        // Check if a timeout occurred. If it did we will try fetching more data again.
         isRequestComplete = response.IsComplete;
 
         // If no timeout occurred and we did not get all the elements we asked for, then we reached the end
@@ -191,7 +191,7 @@ public override void TransferData(object obj, Stream fromVisualizer, Stream toVi
 {
     // Serialize `obj` into the `toVisualizer` stream...
 
-    // Start the timer so that we can stop processing the request if it is are taking too long.
+    // Start the timer so that we can stop processing the request if it's are taking too long.
     long startTime = Environment.TickCount;
 
     if (obj is VerySlowObject slowObject)
@@ -254,7 +254,7 @@ public void VisualizerLoaded(object sender, RoutedEventArgs e)
 }
 ```
   > [!NOTE]
-  > It is important to handle errors that might happen with the request and to inform the user of them here.
+  > It's important to handle errors that might happen with the request and to inform the user of them here.
 
 With these changes, your visualizer should be able to handle objects that take a long time to serialize from the *debuggee-side* to the *debugger-side*.
 
