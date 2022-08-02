@@ -23,7 +23,33 @@ code. This feature is supported for both managed languages (C#, Visual Basic, F#
 
 The following example program is a simple `for` loop with a counter variable that increases by one every time the loop runs another iteration.
 
+::: moniker range="vsmac-2019"
 :::image type="content" source="../debugger/media/counterexample.png" alt-text="Screenshot of a sample counter program.":::
+::: moniker-end
+
+::: moniker range="vsmac-2022"
+
+```csharp
+
+using System.Diagnostics;
+
+namespace Tracepoints
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            int counter = 0;
+            for (int i=0; i<=10; i++)
+            {
+                counter +=1;
+            }
+        }
+    }
+}
+```
+
+::: moniker-end
 
 ## Set tracepoints in source code
 
@@ -34,7 +60,7 @@ You can set tracepoints by specifying an output string under the **Action** chec
    :::image type="content" source="../debugger/media/breakpointinitialization.png" alt-text="Screenshot showing the Breakpoint Initialization in the sample code.":::
 
 1. Hover over the red circle and then click the gear icon.
-1. This opens the **Breakpoint Settings** window.
+1. This action opens the **Breakpoint Settings** window.
 
    :::image type="content" source="../debugger/media/breakpointwindow.png" alt-text="Screenshot showing Breakpoint Window.":::
 
@@ -107,7 +133,7 @@ For a more comprehensive look at valid expressions you can use while setting con
 
 A hit count condition allows you to send output only after the line of code where the tracepoint is set has executed a specified number of times.
 
-For hit count, you can choose to output a message when the line of code where the tracepoint is set has executed a number of times that is equal to, or is a multiple of, or is greater than or equal to the specified hit count value. Choose the option that best suits your needs and type an integer value in the field (for example, 5) that represents that iteration of interest.
+For hit count, you can choose to output a message when the line of code where the tracepoint is set has been executed a particular number of times. Based on requirement it can be equal to, or is a multiple of, or is greater than or equal to the specified hit count value. Choose the option that best suits your needs and type an integer value in the field (for example, 5) that represents that iteration of interest.
 
 :::image type="content" source="../debugger/media/conditionalexpressionhitcount.png" alt-text="Screenshot showing Conditional Expression Hit Count.":::
 
@@ -129,13 +155,13 @@ Enclose strings (such as names) in double quotes. Values can be entered without 
 
 ## Considerations
 
-While tracepoints are intended to make debugging a cleaner, and smoother experience, there are some considerations you should be aware of when it comes to using them.
+While tracepoints are intended to make debugging a cleaner, and smoother experience. There are some considerations you should be aware of when it comes to using them.
 
 Sometimes when you inspect a property or attribute of an object, its value can change. If the value changes during inspection, it's not a bug caused by the tracepoint feature itself. However, using tracepoints to inspect objects doesn't avoid these accidental modifications.
 
 The way that expressions are evaluated in the **Action** message box may be different than the language you're currently using for development. For example, to output a string you don't need to wrap a message in quotes even if you normally would while using `Debug.WriteLine()` or `console.log()`. Also, the curly brace syntax (`{ }`) to output expressions may also be different than the convention for outputting values in your development language. (However, the contents within the curly braces (`{ }`) should still be written using your development language’s syntax).
 
-If you're trying to debug a live application, and looking for a similar feature, check out our log point feature in the Snapshot Debugger. The snapshot debugger is a tool used to investigate issues in production applications. Logpoints also allow you to send messages to the Output Window without having to modify source code and don't impact your running application. For more information, see [Debug live Azure application](../debugger/debug-live-azure-applications.md).
+If you're trying to debug a live application, and looking for a similar feature, check out our log point feature in the Snapshot Debugger. The snapshot debugger is a tool used to investigate issues in production applications. Logpoints also allow you to send messages to the Output Window without having to modify source code and don't affect your running application. For more information, see [Debug live Azure application](../debugger/debug-live-azure-applications.md).
 
 ## See also
 
