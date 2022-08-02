@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 7/26/2022
+ms.date: 8/3/2022
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -20,6 +20,90 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Welcome to what's new in the Visual Studio docs. The following sections provide the previous three months of what's new in the Visual Studio docs.
+
+## July 2022
+
+### Azure
+
+**Updated articles**
+
+- [Overview: Connected Services](../azure/overview-connected-services.md) - Data Access in VS: Add connected services to applications
+- [Debugging an Azure cloud service or virtual machine in Visual Studio](../azure/vs-azure-tools-debug-cloud-services-virtual-machines.md) - Update remote debugging steps for cloud services (extended support)
+
+### Code quality
+
+**Updated articles**
+
+- [Overview](../code-quality/use-roslyn-analyzers.md) - Add more descriptions for light bulb severity options
+
+### Containers
+
+**New articles**
+
+- [Error codes for Visual Studio Container Tools](../containers/container-tools-error-messages.md) - Information and troubleshooting suggestions for the error codes and error messages used by Visual Studio Container Tools
+
+### Data tools
+
+**Updated articles**
+
+- [Work with data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md) - Data Access in VS: add Connected Services
+
+### Debugger
+
+**New articles**
+
+- [Title not found in: #10222](../debugger/view-data-in-ienumerable-visualizer.md)
+
+**Updated articles**
+
+- [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) - Correct remote debugger ports for Azure App Service
+- [Inspect variables in the Autos and Locals windows](../debugger/autos-and-locals-windows.md) - Update for VS 2022
+
+### IDE
+
+**New articles**
+
+- [Project Settings for React, Angular, and Vue](../ide/reference/property-pages-javascript-esproj.md)
+
+**Updated articles**
+
+- [How to: Configure projects to target platforms](../ide/how-to-configure-projects-to-target-platforms.md) - Add ARM64 targeting
+- [Options dialog box: Text Editor \> General](../ide/reference/options-text-editor-general.md) - update with new Visual Studio 2022 info
+- [Collect an ETL trace with PerfView and create minidumps with all call stacks](../ide/report-a-problem-perfview-minidumps.md) - Update steps for creating a minidump
+
+### Install
+
+### Updated articles
+
+- [Visual Studio images on Azure](../install/using-visual-studio-vm.md) - Updates for Visual Studio 2022
+
+### Modeling
+
+**Updated articles**
+
+- [Generate files with the TextTransform utility](../modeling/generating-files-with-the-texttransform-utility.md) - visualstudio-docs/issues/8305 -- update paths for VS 2022
+
+### MSBuild
+
+**New articles**
+
+- [MSBuild and Visual Studio format for diagnostic message](../msbuild/msbuild-diagnostic-format-for-tasks.md)
+
+**Updated articles**
+
+- [MSBuild targets](../msbuild/msbuild-targets.md) - discuss AfterBuild and SDK-style projects
+- [Delete task](../msbuild/delete-task.md) - MSBuild: add example of deleting files in an ItemGroup
+- [How to: Configure targets and tasks](../msbuild/how-to-configure-targets-and-tasks.md)
+  - Confirm merge from repo_sync_working_branch to main to sync with https://github.com/MicrosoftDocs/visualstudio-docs (branch main)
+  - Add section on overriding usingtasks
+- [Troubleshoot .NET Framework targeting errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md) - Update .NET targeting to latest .NET terminology
+
+### Community contributors
+
+The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
+
+- [hyoshioka0128](https://github.com/hyoshioka0128) - Hiroshi Yoshioka (3)
+- [naveensrinivasan](https://github.com/naveensrinivasan) - Naveen (1)
 
 ## June 2022
 
@@ -260,114 +344,3 @@ The following people contributed to the Visual Studio docs during this period. T
 - [softwarepronto](https://github.com/softwarepronto) (2)
 - [matei-tm](https://github.com/matei-tm) - Mircea-Tiberiu Matei (1)
 - [xparadoxical](https://github.com/xparadoxical) (1)
-
-## April 2022
-
-### Data tools
-
-**Updated articles**
-
-- [Add new data sources](../data-tools/add-new-data-sources.md) - Update for Visual Studio 2022
-
-### Debugger
-
-**New articles**
-
-- [View IEnumerables in a table visualizer in Visual Studio](../debugger/view-data-ienumerable-table-visualizer.md)
-
-**Updated articles**
-
-- [View data values in DataTips in the code editor](../debugger/view-data-values-in-data-tips-in-the-code-editor.md) - Add content for sticky data tips
-- [Create custom views of C++ objects in the debugger using the Natvis framework](../debugger/create-custom-views-of-native-objects.md) - Version updates and file path updates for Visual Studio 2022 to Natvis custom visualizer doc
-- [How to: Debug from a DLL project in Visual Studio (C#, C++, Visual Basic, F#)](../debugger/how-to-debug-from-a-dll-project.md) - .NET updates for debugging from a DLL
-- [How to: Debug in mixed mode (C#, C++, Visual Basic)](../debugger/how-to-debug-in-mixed-mode.md) - Update Project Designer information for mixed mode debugging
-- [Tutorial: Debug C# and C++ in the same debugging session](../debugger/how-to-debug-managed-and-native-code.md) - Update Project Designer information for mixed mode debugging
-- [Debug only user code with Just My Code](../debugger/just-my-code.md) - debugger just code
-- [Watch variables with Watch windows and QuickWatch](../debugger/watch-and-quickwatch-windows.md) - debugger quickwatch
-- [Navigate through code by using the Visual Studio debugger](../debugger/navigating-through-code-with-the-debugger.md) - debugger navigating
-
-### Deployment
-
-**New articles**
-
-- [Error: The application which this project type is based on was not found (Windows Installer or ClickOnce)](../deployment/error-project-type-not-found.md)
-
-### IDE
-
-**Updated articles**
-
-- [Develop code in Visual Studio without projects or solutions](./develop-code-in-visual-studio-without-projects-or-solutions.md) - add Git experience info
-- [Learn about Solution Explorer](./use-solution-explorer.md) - add Solution node and Project node info
-- [Options dialog box: Text Editor \> C# \> Code Style \> Formatting](./reference/options-text-editor-csharp-formatting.md) - add New Lines info & brace formatting info
-- [Optimize Visual Studio performance](./optimize-visual-studio-performance.md) - update outdated information
-- [How to: Locate and organize project and item templates](./how-to-locate-and-organize-project-and-item-templates.md) - update template locale info for Visual Studio 2022
-- [Work with GitHub accounts in Visual Studio](./work-with-github-accounts.md) - Update top articles for Visual Studio Acquisition
-- [How to: Change fonts, colors, and themes in Visual Studio](./how-to-change-fonts-and-colors-in-visual-studio.md) - revise, merge, and redirect duplicative content
-- [Make code work in Visual Studio](./find-and-fix-code-errors.md) - review content, revise screenshot in intro section, and revise all alt text to standard
-- [Manage project and solution properties](./managing-project-and-solution-properties.md) - updates to Project Designer and Properties-related pages
-- [What is the Project Designer?](./reference/project-properties-reference.md) - updates to Project Designer and Properties-related pages
-- [Settings page, Project Designer](./reference/settings-page-project-designer.md) - updates to Project Designer and Properties-related pages
-
-### Install
-
-**Updated articles**
-
-- [Disable or move the package cache](../install/disable-or-move-the-package-cache.md) - Review and update top articles for Visual Studio Acquisition
-- [Import or export installation configurations](../install/import-export-installation-configurations.md) - Review and update top articles for Visual Studio Acquisition
-- [Troubleshoot network-related errors when you install or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md) - Review and update top articles for Visual Studio Acquisition
-- [Applying administrator updates that use Microsoft Endpoint Configuration Manager](../install/applying-administrator-updates.md) - Clarify SYSTEM account requirements for Visual Studio Administrator Updates
-
-### Modeling
-
-**Updated articles**
-
-- [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md)
-
-### MSBuild
-
-**New articles**
-
-- [MSBuild error MSB3271](../msbuild/errors/msb3271.md)
-- [MSBuild error MSB3273](../msbuild/errors/msb3273.md)
-- [Tutorial: Create a custom task for code generation](../msbuild/tutorial-custom-task-code-generation.md)
-- [MSBuild error MSB8053](../msbuild/errors/msb8053.md)
-- [MSBuild error MSB8054](../msbuild/errors/msb8054.md)
-- [MSBuild error MSB8055](../msbuild/errors/msb8055.md)
-- [MSBuild error MSB8056](../msbuild/errors/msb8056.md)
-- [MSBuild error MSB8057](../msbuild/errors/msb8057.md)
-- [MSBuild error MSB8058](../msbuild/errors/msb8058.md)
-- [MSBuild error MSB8059](../msbuild/errors/msb8059.md)
-- [Tutorial: Generate a REST API client](../msbuild/tutorial-rest-api-client-msbuild.md)
-- [Tutorial: Test a custom task](../msbuild/tutorial-test-custom-task.md)
-
-**Updated articles**
-
-- [How to: Specify build events (C#)](./how-to-specify-build-events-csharp.md) - Add info on MSBuild target and properties
-- [Tutorial: Create a custom task for code generation](../msbuild/tutorial-custom-task-code-generation.md)
-  - Document MSBuild task authoring guidance changes
-  - Add new MSBuild tutorials
-
-### Profiling
-
-**Updated articles**
-
-- [Analyze CPU usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)](../profiling/cpu-usage.md)
-  - Versioning updates for CPU Usage article for Visual Studio 2019 and Visual Studio 2022
-  - Added additional content for using the cpu usage tool, how it's helpful
-- [Measure memory usage in Visual Studio (C#, Visual Basic, C++, F#)](../profiling/memory-usage.md) - Update profiling memory usage for Visual Studio 2022
-
-### Test
-
-**Updated articles**
-
-- [Generate unit tests for fuzz testing by using IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md) - Review and update test generate unit for Visual Studio 2022
-
-### Community contributors
-
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
-
-- [nick1941](https://github.com/nick1941) - Nicholas Piazza (1)
-- [Nightblade](https://github.com/Nightblade) - Nightblade (1)
-- [realenginerd](https://github.com/realenginerd) (1)
-- [StingyJack](https://github.com/StingyJack) - Andrew Stanton (1)
-- [Zhu-Panda](https://github.com/Zhu-Panda) (1)
