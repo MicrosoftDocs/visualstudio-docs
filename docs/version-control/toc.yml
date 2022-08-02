@@ -17,6 +17,8 @@
     href: git-create-branch.md
   - name: Make a commit
     href: git-make-commit.md
+  - name: Stage lines of code
+    href: git-line-staging.md
   - name: Push to remote
     href: git-push-remote.md
   - name: Fetch, pull, and sync
