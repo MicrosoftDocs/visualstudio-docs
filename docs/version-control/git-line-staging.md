@@ -22,16 +22,16 @@ Line-staging support, also known as interactive staging, is now available in Vis
 
 ## Color margin support
 
-The first thing you might notice about line-staging support is how the Editor visualizes Git changes on both the scroll bar and in the margin.
+The first thing you might notice about line-staging support is how the editor visualizes Git changes on both the scroll bar and in the margin.
 
-:::image type="content" source="media/vs-2022/git-color-margins.png " alt-text="Screenshot of the color margins in Visual Studio 2022." lightbox="media/vs-2022/git-color-margins.png":::
+:::image type="content" source="media/vs-2022/git-color-margins.png " alt-text="Screenshot of the color margins in the Visual Studio 2022 editor." lightbox="media/vs-2022/git-color-margins.png":::
 
 The colors and annotations make it easy to differentiate between saved and unsaved changes that you've added, deleted, or modified.
 
 :::image type="content" source="media/vs-2022/git-color-margins-differentiated.png " alt-text="Screenshot of differentiated and annotated color margin examples in Visual Studio 2022." lightbox="media/vs-2022/git-color-margins-differentiated.png":::
 
 > [!TIP]
-> You can change the colors that Visual Studio displays to help you manage changes. Go to **Tools** > **Options** > **Fonts and Colors** and then choose from the following options:
+> You can change the colors that Visual Studio displays to help you manage changes. Go to **Tools** > **Options** > **Environment** > **Fonts and Colors** and then choose from the following options:
 > - Track additions in documents under source control
 > - Track deletions in documents under source control
 > - Track modifications in documents under source control
@@ -40,9 +40,22 @@ The colors and annotations make it easy to differentiate between saved and unsav
 
 ## Peek Difference support
 
+Color margins are interactive. When you click to select a color margin, Visual Studio opens the Peek Difference user interface (UI) where you can view your changes in the editor without switching context. The Peek Difference UI summarizes the number of added and removed lines and makes it easy to navigate between changes by using the Up and Down arrows.
 
+:::image type="content" source="media/vs-2022/git-peek-difference.png" alt-text="Screenshot of the Peek Difference user interface in Visual Studio as it relates to source control." lightbox="media/vs-2022/git-peek-difference.png":::
+
+You can also access Peek Difference when you right-click a line with changes. A context menu appears where you can select **Peek Difference** from it. Or, you can use the **Alt**+**F8** keyboard shortcut.
+
+:::image type="content" source="media/vs-2022/git-peek-difference-context-menu-inline.png" alt-text="Screenshot of the right-click context menu in Visual Studio where you can select Peek Difference." lightbox="media/vs-2022/git-peek-difference-context-menu-expanded.png":::
+
+> [!TIP]
+> If you prefer an inline difference view, you can use the **Settings** control in the top-right corner of the Diff window to switch to **Inline mode**.
+>
+> :::image type="content" source="media/vs-2022/git-diff-inline-mode.png" alt-text="Screenshot of the Diff options available from the gear icon, where you can select the 'Inline mode' option." lightbox="media/vs-2022/git-diff-inline-mode.png":::
 
 ## Stage chunks of code
+
+You can stage any chunk of code by using Peek Difference. To do so, hover over the change you'd like to stage and select **Stage Change**. Alternatively, you can use the global **Stage** button if you would like to stage *all* the changes you made to a document.
 
 ## Commit staged changes
 
