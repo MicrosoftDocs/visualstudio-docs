@@ -36,12 +36,6 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 - [Overview](../code-quality/use-roslyn-analyzers.md) - Add more descriptions for light bulb severity options
 
-### Containers
-
-**New articles**
-
-- [Error codes for Visual Studio Container Tools](../containers/container-tools-error-messages.md) - Information and troubleshooting suggestions for the error codes and error messages used by Visual Studio Container Tools
-
 ### Data tools
 
 **Updated articles**
@@ -50,30 +44,22 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 ### Debugger
 
-**New articles**
-
-- [Title not found in: #10222](../debugger/view-data-in-ienumerable-visualizer.md)
-
 **Updated articles**
 
 - [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) - Correct remote debugger ports for Azure App Service
-- [Inspect variables in the Autos and Locals windows](../debugger/autos-and-locals-windows.md) - Update for VS 2022
+- [Inspect variables in the Autos and Locals windows](../debugger/autos-and-locals-windows.md) - Update for Visual Studio 2022
 
 ### IDE
 
-**New articles**
-
-- [Project Settings for React, Angular, and Vue](../ide/reference/property-pages-javascript-esproj.md)
-
 **Updated articles**
 
-- [How to: Configure projects to target platforms](../ide/how-to-configure-projects-to-target-platforms.md) - Add ARM64 targeting
-- [Options dialog box: Text Editor \> General](../ide/reference/options-text-editor-general.md) - update with new Visual Studio 2022 info
-- [Collect an ETL trace with PerfView and create minidumps with all call stacks](../ide/report-a-problem-perfview-minidumps.md) - Update steps for creating a minidump
+- [How to: Configure projects to target platforms](./how-to-configure-projects-to-target-platforms.md) - Add ARM64 targeting
+- [Options dialog box: Text Editor \> General](./reference/options-text-editor-general.md) - Update with new Visual Studio 2022 information
+- [Collect an ETL trace with PerfView and create minidumps with all call stacks](./report-a-problem-perfview-minidumps.md) - Update steps for creating a minidump 
 
 ### Install
 
-### Updated articles
+**Updated articles**
 
 - [Visual Studio images on Azure](../install/using-visual-studio-vm.md) - Updates for Visual Studio 2022
 
@@ -81,28 +67,25 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 **Updated articles**
 
-- [Generate files with the TextTransform utility](../modeling/generating-files-with-the-texttransform-utility.md) - visualstudio-docs/issues/8305 -- update paths for VS 2022
+- [Generate files with the TextTransform utility](../modeling/generating-files-with-the-texttransform-utility.md) - Update paths for Visual Studio 2022
 
 ### MSBuild
 
 **New articles**
 
-- [MSBuild and Visual Studio format for diagnostic message](../msbuild/msbuild-diagnostic-format-for-tasks.md)
+- [MSBuild and Visual Studio format for diagnostic message](../msbuild/msbuild-diagnostic-format-for-tasks.md) 
 
 **Updated articles**
 
-- [MSBuild targets](../msbuild/msbuild-targets.md) - discuss AfterBuild and SDK-style projects
-- [Delete task](../msbuild/delete-task.md) - MSBuild: add example of deleting files in an ItemGroup
-- [How to: Configure targets and tasks](../msbuild/how-to-configure-targets-and-tasks.md)
-  - Confirm merge from repo_sync_working_branch to main to sync with https://github.com/MicrosoftDocs/visualstudio-docs (branch main)
-  - Add section on overriding usingtasks
+- [MSBuild targets](../msbuild/msbuild-targets.md) - Discuss AfterBuild and SDK-style projects
+- [Delete task](../msbuild/delete-task.md) - Add example of deleting files in an ItemGroup
+- [How to: Configure targets and tasks](../msbuild/how-to-configure-targets-and-tasks.md) - Add section on overriding usingtasks
 - [Troubleshoot .NET Framework targeting errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md) - Update .NET targeting to latest .NET terminology
 
 ### Community contributors
 
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
+The following person contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
-- [hyoshioka0128](https://github.com/hyoshioka0128) - Hiroshi Yoshioka (3)
 - [naveensrinivasan](https://github.com/naveensrinivasan) - Naveen (1)
 
 ## June 2022
