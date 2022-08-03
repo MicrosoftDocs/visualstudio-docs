@@ -48,7 +48,7 @@ Download the code and install dependencies
 ```azurecli-interactive
 git clone https://github.com/Microsoft/mindaro
 cd mindaro/samples/todo-app
-npm install stats-api/package.json
+npm install stats-api\
 ```
 
 ## Connect to your cluster and deploy the app
