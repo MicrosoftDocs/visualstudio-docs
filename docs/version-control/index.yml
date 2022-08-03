@@ -81,8 +81,6 @@ landingContent:
             url: https://devblogs.microsoft.com/visualstudio/vs2022-performance-enhancements-git-branch-switching/
           - text: Supercharge your Git experience (blog)
             url: https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/
-          - text: Line-staging support (blog)
-            url: https://devblogs.microsoft.com/visualstudio/line-staging-interactive-staging/
           - text: Release notes
             url: /visualstudio/releases/2022/release-notes-preview
           - text: Videos and more...
