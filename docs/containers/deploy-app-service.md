@@ -116,7 +116,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 
    You can view the details about these options at [Azure App Service plan overview](/azure/app-service/overview-hosting-plans).
 
-1. If you chose the **Azure App Service Container** option, specify whether to use an existing registry or create one. If you create one, a screen appears with settings for the new registry. For the description of the options for **SKU**, see [Azure Container Registry service tiers](/azure/container-registry/container-registry-skus).
+1. If you chose the **Azure App Service Container** option, specify whether to use an existing registry or create a new one. If you create a new one, a screen appears with settings for the new registry. For the description of the options for **SKU**, see [Azure Container Registry service tiers](/azure/container-registry/container-registry-skus).
 
    ![Screenshot showing Azure Container Registry options.](media/deploy-app-service/vs-2022/azure-container-registry-create-new.png)
 
