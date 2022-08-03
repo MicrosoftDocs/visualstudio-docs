@@ -41,13 +41,19 @@
       - name: String concatenation
         href: perf-insights-string-concatenation.md
   - name: File IO
-    href: use-file-io.md    
+    href: use-file-io.md
   - name: Memory usage
     items:
     - name: Choose a memory analysis tool
       href: analyze-memory-usage.md
-    - name: Analyze memory usage for .NET objects
-      href: dotnet-alloc-tool.md
+    - name: .NET object allocation
+      items:
+      - name: Analyze memory usage for .NET objects
+        href: dotnet-alloc-tool.md
+      - name: Performance insights
+        items:
+        - name: LOH allocations
+          href: perf-insights-loh-allocations.md
     - name: Analyze memory usage without the debugger
       href: memory-usage-without-debugging2.md
     - name: Custom native ETW heap events
