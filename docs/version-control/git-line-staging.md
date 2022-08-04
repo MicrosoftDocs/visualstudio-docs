@@ -40,24 +40,34 @@ The colors and annotations make it easy to differentiate between saved and unsav
 
 ## Peek Difference support
 
-Color margins are interactive. When you click to select a color margin, Visual Studio opens the Peek Difference user interface (UI) where you can view your changes in the editor without switching context. The Peek Difference UI summarizes the number of added and removed lines and makes it easy to navigate between changes by using the Up and Down arrows.
+Color margins are interactive. When you select a color margin, Visual Studio opens the **Peek Difference** user interface (UI) where you can view your changes in the editor without switching context. The Peek Difference UI summarizes the number of added and removed lines and makes it easy to navigate between changes by using the Up and Down arrows.
 
 :::image type="content" source="media/vs-2022/git-peek-difference.png" alt-text="Screenshot of the Peek Difference user interface in Visual Studio as it relates to source control." lightbox="media/vs-2022/git-peek-difference.png":::
 
-You can also access Peek Difference when you right-click a line with changes. A context menu appears where you can select **Peek Difference** from it. Or, you can use the **Alt**+**F8** keyboard shortcut.
+You can also access Peek Difference when you right-click a line that includes changes. A context menu appears where you can select **Peek Difference** from it. Or, you can use the **Alt**+**F8** keyboard shortcut.
 
 :::image type="content" source="media/vs-2022/git-peek-difference-context-menu-inline.png" alt-text="Screenshot of the right-click context menu in Visual Studio where you can select Peek Difference." lightbox="media/vs-2022/git-peek-difference-context-menu-expanded.png":::
 
 > [!TIP]
-> If you prefer an inline difference view, you can use the **Settings** control in the top-right corner of the Diff window to switch to **Inline mode**.
+> If you prefer an inline difference view, you can use the **Settings** control in the top-right corner of the **Diff** window to switch to **Inline mode**.
 >
 > :::image type="content" source="media/vs-2022/git-diff-inline-mode.png" alt-text="Screenshot of the Diff options available from the gear icon, where you can select the 'Inline mode' option." lightbox="media/vs-2022/git-diff-inline-mode.png":::
 
 ## Stage chunks of code
 
-You can stage any chunk of code by using Peek Difference. To do so, hover over the change you'd like to stage and select **Stage Change**. Alternatively, you can use the global **Stage** button if you would like to stage *all* the changes you made to a document.
+You can stage any chunk of code by using the Peek Difference user interface (UI). To do so, hover over the change you want to stage and select **Stage Change**. Alternatively, use the global **Stage** button if you want to stage *all* the changes you made to a document.
+
+:::image type="content" source="media/vs-2022/git-stage-change.png" alt-text="Screenshot of the Stage Change option in Visual Studio 2022." lightbox="media/vs-2022/git-stage-change.png":::
+
+If you prefer a full-screen Difference view, you can switch to the Difference editor. Here's how: select the **Promote to Document** option on the top-right corner of the [**Peek Difference** UI](#peek-difference-support). Or, you can use the **Ctrl**+**Alt**+**Home** keyboard shortcut. All the features that the Peek Difference UI provides are also available in the Difference editor.
+
+:::image type="content" source="media/vs-2022/git-stage-change-difference.png" alt-text="Screenshot of the Stage Change option in Visual Studio 2022." lightbox="media/vs-2022/git-stage-change-difference.png":::
 
 ## Commit staged changes
+
+After you've prepared your commit by reviewing and staging the changes you want to include, you can create your commit by using the **Git Changes** window. All you need do next is provide a commit message and then select **Commit Staged**.
+
+:::image type="content" source="media/vs-2022/git-commit-staged-changes.png" alt-text="Screenshot of the Stage Change option in Visual Studio 2022." lightbox="media/vs-2022/git-commit-staged-changes.png":::
 
 ## Next steps
 
