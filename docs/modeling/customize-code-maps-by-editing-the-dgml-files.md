@@ -67,10 +67,10 @@ Edit the code map's .dgml file in a text or XML editor. If the map is part of yo
 
    ```xml
    <Links>
-      <Link Category="Contains" Source="MyFirstNewGroup" Target="FirstGroupChildOne" />
-      <Link Category ="Contains" Source="MyFirstNewGroup" Target="FirstGroupChildTwo" />
-      <Link Category ="Contains" Source="MySecondNewGroup" Target="SecondGroupChildOne" />
-      <Link Category="Contains" Source="MySecondNewGroup" Target="SecondGroupChildTwo" />
+      <Link Category="Contains" Source="MyFirstGroup" Target="FirstGroupChildOne" />
+      <Link Category ="Contains" Source="MyFirstGroup" Target="FirstGroupChildTwo" />
+      <Link Category ="Contains" Source="MySecondGroup" Target="SecondGroupChildOne" />
+      <Link Category="Contains" Source="MySecondGroup" Target="SecondGroupChildTwo" />
    </Links>
    ```
 
