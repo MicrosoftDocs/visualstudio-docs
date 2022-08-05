@@ -481,10 +481,10 @@ In this section, you'll wire up the task implementation in `.props` and `.target
 	<!--defining properties interesting for my task-->
 	<PropertyGroup>
 		<!--default directory where the .dll was published inside a nuget package-->
-		<taskForldername>tasks</taskForldername>
+		<taskFoldername>tasks</taskFoldername>
 		<taskFramework>netstandard2.0</taskFramework>
 		<!--The folder where the custom task will be present. It points to inside the nuget package. -->
-		<CustomTasksFolder>$(MSBuildThisFileDirectory)..\$(taskForldername)\$(taskFramework)</CustomTasksFolder>
+		<CustomTasksFolder>$(MSBuildThisFileDirectory)..\$(taskFoldername)\$(taskFramework)</CustomTasksFolder>
 		<!--Reference to the assembly which contains the MSBuild Task-->
 		<CustomTasksAssembly>$(CustomTasksFolder)\$(MSBuildThisFileName).dll</CustomTasksAssembly>
 	</PropertyGroup>
@@ -553,6 +553,39 @@ dotnet pack -o .
 Congratulations! You've generated a NuGet package named *\AppSettingStronglyTyped\AppSettingStronglyTyped\AppSettingStronglyTyped.1.0.0.nupkg*.
 
 The package has an extension `.nupkg` and is a compressed zip file. You can open it with a zip tool. The `.target` and `.props` files are in the `build` folder. The `.dll` file is in the `lib\netstandard2.0\` folder. The `AppSettingStronglyTyped.nuspec` file is at the root level.
+
+## (Optional) Support multitargeting
+
+You should consider supporting both `Full` (.NET Framework) and `Core` (including .NET 5 and later) MSBuild distributions to support the broadest possible user base.
+
+For 'normal' .NET SDK projects, multitargeting means setting multiple TargetFrameworks in your project file. When you do this, builds will be triggered for both TargetFrameworkMonikers, and the overall results can be packaged as a single artifact.
+
+That's not the full story for MSBuild. MSBuild has two primary shipping vehicles: Visual Studio and the .NET SDK. These are very different runtime environments; one runs on the .NET Framework runtime, and other runs on the CoreCLR. What this means is that while your code can target netstandard2.0, your task logic may have differences based on what MSBuild runtime type is currently in use. Practically, since there are so many new APIs in .NET 5.0 and up, it makes sense to both multitarget your MSBuild task source code for multiple TargetFrameworkMonikers as well as multitarget your MSBuild target logic for multiple MSBuild runtime types.
+
+### Changes required to multitarget
+
+To target multiple TargetFrameworkMonikers (TFM):
+
+1. Change your project file to use the `net472` and `net6.0` TFMs (the latter may change based on which SDK level you want to target). You might want to target `netcoreapp3.1` until .NET Core 3.1 goes out of support. When you do this, the package folder structure changes from `tasks/` to `tasks/<TFM>/`.
+
+   ```xml
+   <TargetFrameworks>net472;net6.0</TargetFrameworks>
+   ```
+
+2. Update your `.targets` files to use the correct TFM to load your tasks. The TFM required will change based on what .NET TFM you chose above, but for a project targeting `net472` and `net6.0`, you would have a property like:
+
+```xml
+<AppSettingStronglyTyped_TFM Condition=" '$(MSBuildRuntimeType)' != 'Core' ">net472</AppSettingStronglyTyped_TFM>
+<AppSettingStronglyTyped_TFM Condition=" '$(MSBuildRuntimeType)' == 'Core' ">net6.0</AppSettingStronglyTyped_TFM>
+```
+
+This code uses the `MSBuildRuntimeType` property as a proxy for the active hosting environment. Once this property is set, you can use it in the `UsingTask` to load the correct `AssemblyFile`:
+
+```xml
+<UsingTask
+    AssemblyFile="$(MSBuildThisFileDirectory)../tasks/$(AppSettingStronglyTyped_TFM)/AppSettingStronglyTyped.dll"
+    TaskName="AppSettingStrongTyped.AppSettingStronglyTyped" />
+```
 
 ## Next steps
 
