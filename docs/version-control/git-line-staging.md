@@ -65,7 +65,7 @@ If you prefer a full-screen Difference view, you can switch to the Difference ed
 
 ## Commit staged changes
 
-After you've prepared your commit by reviewing and staging the changes you want to include, you can create your commit by using the **Git Changes** window. All you need do next is provide a commit message and then select **Commit Staged**.
+After you've prepared your commit by reviewing and staging the changes you want to include, you can create your commit by using the **Git Changes** window. Next, enter a commit message and then select **Commit Staged**.
 
 :::image type="content" source="media/vs-2022/git-commit-staged-changes-inline.png" alt-text="Screenshot of the Git Changes dialog in Visual Studio 2022." lightbox="media/vs-2022/git-commit-staged-changes-expanded.png":::
 
