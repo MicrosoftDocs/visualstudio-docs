@@ -38,7 +38,7 @@ You can also configure future updates of this instance of Visual Studio to respe
 
 ## Use the command line to create a local layout
 
-Download the bootstrapper for the edition of Visual Studio you want and copy it into the directory that you want to serve as the source location of your local layout. Once the layout is created, you can use it to install Visual Studio. The bootstrapper is the executable that you use to create, update, and perform other Visual Stusio installation operations. You must have an internet connection to complete this.
+Download the bootstrapper for the edition of Visual Studio you want and copy it into the directory that you want to serve as the source location of your local layout. Once the layout is created, you can use it to install Visual Studio. The bootstrapper is the executable that you use to create, update, and perform other Visual Studio installation operations. You must have an internet connection to complete this.
 
 ### Step 1 - Download the Visual Studio bootstrapper
 
