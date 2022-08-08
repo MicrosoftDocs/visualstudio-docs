@@ -216,9 +216,11 @@ So far, although you've written the tests for the StringLibrary class library, y
 
 1. Optionally, select the code editor window that contains the code for StringLibrary. This is either *Class1.cs* for a C# project or *Class1.vb* for a Visual Basic project. (This step lets you visually inspect the result of your tests and the extent of your code coverage once you enable Live Unit Testing.)
 
-1. Select **Test** > **Live Unit Testing** > **Start** from the top-level Visual Studio menu.
+2. Select **Test** > **Live Unit Testing** > **Start** from the top-level Visual Studio menu.
 
-1. Visual Studio starts Live Unit Test, which automatically runs all of your tests.
+3. Verify the configuration for Live Unit Testing by ensuring the Repository Root includes the path to the source files for both the utility project and the test project. Select **Next** and then **Finish**.
+
+4. Visual Studio will rebuild the project and start Live Unit Test, which automatically runs all of your tests.
 
 ::: moniker range=">=vs-2019"
 When it finishes running your tests, **Live Unit Testing** displays both the overall results and the result of individual tests. In addition, the code editor window graphically displays both your test code coverage and the result for your tests. As the following illustration shows, all three tests have executed successfully. It also shows that our tests have covered all code paths in the `StartsWithUpper` method, and those tests all executed successfully (which is indicated by the green check mark, "✓"). Finally, it shows that none of the other methods in StringLibrary have code coverage (which is indicated by a blue line, "➖").
