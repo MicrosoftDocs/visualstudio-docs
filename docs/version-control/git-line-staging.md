@@ -56,7 +56,7 @@ You can also access Peek Difference when you right-click a line that includes ch
 > [!TIP]
 > You can modify how Visual Studio interacts with code changes in the Peek Difference UI by using the **Click to peek in margin** option from  **Tools** > **Options** > **Text Editor** > **Advanced**.
 > :::image type="content" source="media/vs-2022/text-editor-option-peek-in-margin.png" alt-text="Screenshot of the 'Click to peek in margin' setting.":::
-> For example, you can change the default **Single click** setting to **Double click**, or you can change the setting to **None** if you prefer to hover over a code change to view it.
+> For example, you can change the default **Single click** setting to **Double click**, or you can select **None** to turn off the Peek Difference UI.
 
 ## Stage chunks of code
 
