@@ -53,6 +53,14 @@ Selected by default, this option adds a margin view next to the scrollbar that s
 
 Selected by default, toggle to turn off auto-complete mode.
 
+::: moniker range="vs-2022"
+
+## Click to peek in margin
+
+The **Single click** setting is selected by default. The settings you choose from allow you to customize how Peek Definition works when you use it to display the differences between Git commits. You can change the default **Single click** setting to **Double click**, or you can select **None** to turn off the [Peek Difference UI](../../version-control/git-line-staging.md#peek-difference-support).
+
+::: moniker-end
+
 ## Word Based Suggestions in files handled by TextMate grammars
 
 Visual Studio provides alternate programming language support and colorization in the editor by using [TextMate grammars](https://macromates.com/manual/en/language_grammars). When enabled, the Visual Studio auto-complete functionality is based on words typed rather than code. Toggle to turn off.
