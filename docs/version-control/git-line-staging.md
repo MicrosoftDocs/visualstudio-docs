@@ -16,7 +16,7 @@ monikerRange: vs-2022
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Line-staging support, also known as interactive staging, is now available in Visual Studio 2022 [version 17.3](/visualstudio/releases/2022/release-notes/) and later. Now, you can stage chunks of changes in your files right from the editor. Line staging can also be helpful when you want to split changes across different commits.
+Line-staging support, also known as [interactive staging](https://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging), is now available in Visual Studio 2022 [version 17.3](/visualstudio/releases/2022/release-notes/). Line-staging lets you stage chunks of changes in your files right from the code editor. Line staging can also be helpful when you want to split changes across different commits.
 
 :::image type="content" source="media/vs-2022/git-line-staging.png" alt-text="Screenshot of an example of line-staging support in Visual Studio 2022." lightbox="media/vs-2022/git-line-staging.png":::
 
@@ -49,9 +49,14 @@ You can also access Peek Difference when you right-click a line that includes ch
 :::image type="content" source="media/vs-2022/git-peek-difference-context-menu-inline.png" alt-text="Screenshot of the right-click context menu in Visual Studio where you can select Peek Difference." lightbox="media/vs-2022/git-peek-difference-context-menu-expanded.png":::
 
 > [!TIP]
-> If you prefer an inline difference view, you can use the **Settings** control in the top-right corner of the **Diff** window to switch to **Inline mode**.
+> If you prefer an inline difference view, you can use the **Settings** control in the top-right corner of the **Diff** editor to switch to **Inline mode**.
 >
 > :::image type="content" source="media/vs-2022/git-diff-inline-mode.png" alt-text="Screenshot of the Diff options available from the gear icon, where you can select the 'Inline mode' option." lightbox="media/vs-2022/git-diff-inline-mode.png":::
+
+> [!NOTE]
+> You can modify how Visual Studio interacts with code changes in the Peek Difference UI by using the **Click to peek in margin** option from  **Tools** > **Options** > **Text Editor** > **Advanced**.
+> :::image type="content" source="media/vs-2022/text-editor-option-peek-in-margin.png" alt-text="Screenshot of the .":::
+> For example, you can change the default **Single click** setting to **Double click**, or you can change it to **None** if you prefer to hover over a change to view it.
 
 ## Stage chunks of code
 
@@ -59,7 +64,7 @@ You can stage any chunk of code by using the Peek Difference user interface (UI)
 
 :::image type="content" source="media/vs-2022/git-stage-change.png" alt-text="Screenshot of the Stage Change option in Visual Studio 2022." lightbox="media/vs-2022/git-stage-change.png":::
 
-If you prefer a full-screen difference view, you can switch to the **Diff** editor. Here's how: select the **Promote to Document** button :::image type="icon" source="media/vs-2022/promote-document-button.png" border="false"::: on the top-right corner of the [**Peek Difference** UI](#peek-difference-support). Or, you can use the **Ctrl**+**Alt**+**Home** keyboard shortcut. All the features that the Peek Difference UI provides are also available in the **Diff** editor.
+If you prefer a full-screen difference view, you can switch to the **Diff** editor. Here's how: select the **Promote to Document** button on the top-right corner of the [**Peek Difference** UI](#peek-difference-support). Or, you can use the **Ctrl**+**Alt**+**Home** keyboard shortcut. All the features that the Peek Difference UI provides are also available in the **Diff** editor.
 
 :::image type="content" source="media/vs-2022/git-stage-change-difference.png" alt-text="Screenshot of the Stage Change difference view in Visual Studio 2022." lightbox="media/vs-2022/git-stage-change-difference.png":::
 
