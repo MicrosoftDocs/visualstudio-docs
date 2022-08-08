@@ -480,13 +480,10 @@ In this section, you'll wire up the task implementation in `.props` and `.target
 	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<!--defining properties interesting for my task-->
 	<PropertyGroup>
-		<!--default directory where the .dll was published inside a nuget package-->
-		<taskFoldername>tasks</taskFoldername>
-		<taskFramework>netstandard2.0</taskFramework>
 		<!--The folder where the custom task will be present. It points to inside the nuget package. -->
-		<CustomTasksFolder>$(MSBuildThisFileDirectory)..\$(taskFoldername)\$(taskFramework)</CustomTasksFolder>
+		<_AppSettingsStronglyTyped_TaskFolder>$(MSBuildThisFileDirectory)..\tasks\netstandard2.0</_AppSettingsStronglyTyped_TaskFolder>
 		<!--Reference to the assembly which contains the MSBuild Task-->
-		<CustomTasksAssembly>$(CustomTasksFolder)\$(MSBuildThisFileName).dll</CustomTasksAssembly>
+		<CustomTasksAssembly>$(_AppSettingsStronglyTyped_TaskFolder)\$(MSBuildThisFileName).dll</CustomTasksAssembly>
 	</PropertyGroup>
 
 	<!--Register our custom task-->
