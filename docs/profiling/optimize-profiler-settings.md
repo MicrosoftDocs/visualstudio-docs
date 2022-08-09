@@ -5,9 +5,9 @@ ms.date: 4/29/2020
 ms.topic: how-to
 helpviewer_keywords: 
   - Profiler, improve performance
-author: Sagar-S-S
+author: MikeJo5000
 ms.author: ghogen 
-manager: AndSter
+manager: mikejo
 ms.workload: 
   - multiple
 ---
