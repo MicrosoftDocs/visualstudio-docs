@@ -5,7 +5,7 @@ ms.custom: SEO-VS-2020
 ms.date: 02/19/2019
 ms.topic: reference
 author: TerryGLee
-ms.author: ghogen 
+ms.author: tglee
 manager: jmartens
 ms.technology: vs-ide-general
 dev_langs:
