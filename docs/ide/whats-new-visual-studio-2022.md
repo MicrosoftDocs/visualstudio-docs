@@ -103,7 +103,7 @@ One of our key focus areas is to make Visual Studio more personalized and flexib
 
 ## What's next
 
-Want to know more about what we're planning for Visual Studio 2022? See the [**Roadmap**](/visualstudio/productinfo/vs-roadmap/) page, the [**Preview**](/visualstudio/releases/2022/release-notes-preview/) release notes, and the Visual Studio [**Blog**](https://devblogs.microsoft.com/VisualStudio/) for details.
+Want to know more about what we're planning for Visual Studio 2022? See the [**Roadmap**](/visualstudio/productinfo/vs-roadmap/) page, the [**Preview**](/visualstudio/releases/2022/release-notes-preview/) release notes, and the Visual Studio [**Blog**](https://devblogs.microsoft.com/visualstudio/) for details.
 
 ## Give us feedback
 
@@ -115,6 +115,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 ## See also
 
-* [Visual Studio 2022 17.2 is now available](https://aka.ms/vs-2022-17-2-release)
+* [Visual Studio 2022 17.3 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-3-is-now-available/)
+* [Visual Studio 2022 17.2 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-2-is-now-available/)
 * [Visual Studio 2022 17.1 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-1-is-now-available/)
 * [Visual Studio 2022 GA is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-now-available/)
