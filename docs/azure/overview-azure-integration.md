@@ -31,6 +31,10 @@ This is a typical Visual Studio dialog where you can browse and search existing 
 > [!NOTE]
 > This example shows instances of Azure App Service, but a similar dialog exists for all Azure services that Visual Studio supports.
 
+:::moniker range=">=vs-2022"
+You can use **Quick Launch** to find the Visual Studio IDE feature to connect to supported services. To use this feature, open Quick Launch (press **Ctrl**+**Q**), enter a service (for example, `Azure Storage`) to find the Connected Services features and immediately start connecting to the service.
+:::moniker-end
+
 ## Browse and search existing Azure resources
 
 The following screenshot shows a typical Visual Studio dialog where you can browse and search existing Azure resources.
