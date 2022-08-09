@@ -48,7 +48,7 @@ In [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studi
 > [!TIP]
 > To learn more about current and upcoming changes to the search experience in Visual Studio 2022, see the [Sneak Peek and Edit Your Code While You Search](https://devblogs.microsoft.com/visualstudio/sneak-peek-and-edit-your-code-while-you-search/) blog post.
 
-## Git tooling is faster
+### Git tooling is faster
 
 **New in 17.2**: We've integrated a relatively new Git feature called the [commit graph](https://devblogs.microsoft.com/devops/supercharging-the-git-commit-graph/), which helps to improve both the performance of your Git operations and the performance of Visual Studio itself. For the latest info, see the [Supercharge your Git experience in Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/) blog post.
 
