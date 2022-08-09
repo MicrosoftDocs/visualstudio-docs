@@ -3,7 +3,7 @@ title: "Cross-Platform Mobile Development in Visual Studio | Microsoft Docs"
 description: In this article, learn how you can build apps for Android, iOS, and Windows devices by using Visual Studio.
 titleSuffix: ""
 ms.custom: SEO-VS-2020, devdivchpfy22
-ms.date: "08/03/2022"
+ms.date: "08/10/2022"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 ms.assetid: 8202717a-e990-45cf-b092-438651ccb38a
@@ -99,7 +99,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
  You can share C++ code between Android, iOS, and Windows by creating a static or dynamic shared library.
 
- :::image type="content" source="../cross-platform/media/cross_plat_cpp_libraries.png" alt-text="Screesnhot showing static and dynamic shared libraries.":::
+ :::image type="content" source="../cross-platform/media/cross_plat_cpp_libraries.png" alt-text="Screenshot showing static and dynamic shared libraries.":::
 
  You can consume that library in a Windows, iOS, or Android project, like the ones described earlier in this article. You can also consume it in an app that you build by using Xamarin, Java, or any language that lets you invoke functions in an unmanaged DLL.
 
