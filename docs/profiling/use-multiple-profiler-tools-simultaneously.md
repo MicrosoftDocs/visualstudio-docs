@@ -5,8 +5,8 @@ ms.date: 4/29/2020
 ms.topic: how-to
 helpviewer_keywords: 
   - Profiler, multiple tools
-author: Sagar-S-S
-ms.author: ghogen 
+author: MikeJo5000
+ms.author: mikejo 
 manager: AndSter
 ms.workload: 
   - multiple
