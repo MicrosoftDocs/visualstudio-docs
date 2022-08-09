@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords: 
   - Profiler, improve performance
 author: MikeJo5000
-ms.author: ghogen 
-manager: mikejo
+ms.author: mikejo 
+manager: AndSter
 ms.workload: 
   - multiple
 ---
