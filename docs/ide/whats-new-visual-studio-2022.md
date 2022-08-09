@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2022."
-ms.date: 07/07/2022
+ms.date: 08/09/2022
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -19,7 +19,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-**Updated for the 17.2 release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
+**Updated for the 17.3 release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
 
 >[!div class="button"]
 >[Download Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
@@ -48,6 +48,10 @@ In [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studi
 > [!TIP]
 > To learn more about current and upcoming changes to the search experience in Visual Studio 2022, see the [Sneak Peek and Edit Your Code While You Search](https://devblogs.microsoft.com/visualstudio/sneak-peek-and-edit-your-code-while-you-search/) blog post.
 
+### Git tooling is faster
+
+**New in 17.2**: We've integrated a relatively new Git feature called the [commit graph](https://devblogs.microsoft.com/devops/supercharging-the-git-commit-graph/), which helps to improve both the performance of your Git operations and the performance of Visual Studio itself. For the latest info, see the [Supercharge your Git experience in Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/) blog post.
+
 ## Build modern apps
 
 Visual Studio 2022 makes it quick and easy to build modern, cloud-based applications with Azure. As well, our new version also has full support for [.NET 6](https://devblogs.microsoft.com/dotnet/announcing-net-6/) and its unified framework for web, client, and mobile apps for both Windows and Mac developers. And, Visual Studio 2022 includes robust support for the C++ workload with new productivity features, C++20 tooling, and [IntelliSense](using-intellisense.md).
@@ -68,12 +72,11 @@ As well, we're updating **Hot Reload** so that you can edit either C++ or .NET p
 
 From real-time & asynchronous collaboration tools to improved insights and productivity tools that seamlessly integrate with your daily workflow, Visual Studio 2022 has this and more.
 
-### Multi-repo support with Git in the IDE
+### Git multi-repo support and line-staging support
 
 If you've worked with projects hosted on different Git repositories, you might have used external tools or multiple instances of Visual Studio to connect to them. In [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/), you can work with a single solution that has projects in multiple repositories and contribute to them all from a single instance of Visual Studio. To learn more, see the [**Multi-repo support in Visual Studio**](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
 
-> [!NOTE]
-> **New in 17.2**: We're continuing to add even more functionality to the Git feature set. For the latest info, see the [Supercharge your Git experience in Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/) blog post.
+**New in 17.3**: We continue to add even more functionality to the Git feature set. We've recently added line-staging support, also known as [interactive staging](https://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging). Now, you can stage chunks of changes in your files right from the code editor, or split changes across different commits. For more information, see the [**Stage lines of code in Visual Studio**](../version-control/git-line-staging.md) page.
 
 ### IntelliCode improvements
 
