@@ -76,7 +76,7 @@ Specifies a possible block of code for the `Choose` element to select.
 
 ## Example
 
- The following project uses the `Choose` element to select which set of property values in the `When` elements to set. If the `Condition` attributes of both `When` elements evaluate to `false`, the property values in the `Otherwise` element are set. When running the example, try passing in various property settings from the command line `msbuild myproj.proj -p:Configuration=Test;Platform=x86` and see what the output path looks like. The example supposes the requirement is to set certain properties for debug and release builds, including the output folder based on the bitness of the platform rather than the actual platform name, and also support the 'Test' and 'Retail' configurations, but treat 'Retail' as 'Release'.
+ The following project uses the `Choose` element to select which set of property values in the `When` elements to set. If the `Condition` attributes of both `When` elements evaluate to `false`, the property values in the `Otherwise` element are set. When running the example, try passing in various property settings from the command line, such as `msbuild myproj.proj -p:Configuration=Test;Platform=x86`, and see what the output path looks like. The example supposes the requirement is to set certain properties for debug and release builds, including the output folder based on the bitness of the platform rather than the actual platform name, and also support the 'Test' and 'Retail' configurations, but treat 'Retail' as 'Release'.
 
 ```xml
 <Project>
