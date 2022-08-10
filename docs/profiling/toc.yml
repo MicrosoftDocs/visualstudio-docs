@@ -40,6 +40,8 @@
       items:
       - name: String concatenation
         href: perf-insights-string-concatenation.md
+      - name: Regex
+        href: perf-insights-regex.md
   - name: File IO
     href: use-file-io.md
   - name: Memory usage
