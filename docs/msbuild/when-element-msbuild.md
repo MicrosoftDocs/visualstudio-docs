@@ -94,22 +94,22 @@ Specifies a possible block of code for the `Choose` element to select.
             <DefineConstants>DEBUG;TRACE</DefineConstants>
         </PropertyGroup>
         <Choose>
-        <When Condition="$(Platform)=='x86' Or $(Platform) == 'ARM32'">
-           <PropertyGroup>
+          <When Condition="$(Platform)=='x86' Or $(Platform) == 'ARM32'">
+            <PropertyGroup>
                 <OutputPath>.\bin\Test\32-bit\</OutputPath>
-           </PropertyGroup>
-        </When>
-        <When Condition="$(Platform)=='x64' Or $(Platform) == 'ARM64'">
-           <PropertyGroup>
+            </PropertyGroup>
+          </When>
+          <When Condition="$(Platform)=='x64' Or $(Platform) == 'ARM64'">
+            <PropertyGroup>
                 <OutputPath>.\bin\Test\64-bit\</OutputPath>
-           </PropertyGroup>
-        </When>
-        <!-- For any other platform, use the platform name -->
-        <Otherwise>
+            </PropertyGroup>
+          </When>
+          <!-- For any other platform, use the platform name -->
+          <Otherwise>
             <PropertyGroup>
               <OutputPath>.\bin\Test\$(Platform)\</OutputPath>
             </PropertyGroup>
-        </Otherwise>
+          </Otherwise>
         </Choose>
       </When>
       <When Condition="$(Configuration)=='Retail' Or $(Configuration)=='Release'">
@@ -134,7 +134,7 @@ Specifies a possible block of code for the `Choose` element to select.
             <PropertyGroup>
                 <OutputPath>.\bin\Release\$(Platform)\</OutputPath>
             </PropertyGroup>
-        </Otherwise>
+          </Otherwise>
         </Choose>
       </When>
       <!-- For any other configuration, use debug properties-->
