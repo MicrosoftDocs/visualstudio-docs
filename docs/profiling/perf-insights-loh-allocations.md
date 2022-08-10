@@ -27,4 +27,4 @@ When this assumption is not true and an application frequently allocates tempora
 
 ## How to investigate a warning
 
-Clicking on the "investigate" link will take you to the [Allocation](https://docs.microsoft.com/visualstudio/profiling/dotnet-alloc-tool?#allocation) view showing allocations grouped by heap type. Objects under the Large Object Heap node are contributing to the frequent GCs, consider reducing these allocations through reuse or pooling techniques.
+Clicking on the "investigate" link will take you to the [Allocation](../profiling/dotnet-alloc-tool.md?#allocation) view showing allocations grouped by heap type. Objects under the Large Object Heap node are contributing to the frequent GCs, consider reducing these allocations through reuse or pooling techniques.
