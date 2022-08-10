@@ -2,7 +2,7 @@
 title: When Element (MSBuild) | Microsoft Docs
 description: Learn about the MSBuild When element, which specifies a possible block of code for the Choose element to select.
 ms.custom: SEO-VS-2020
-ms.date: 03/13/2017
+ms.date: 08/10/2022
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#When
