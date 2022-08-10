@@ -87,92 +87,84 @@ Specifies a possible block of code for the `Choose` element to select.
 
   <Choose>
      <When Condition="$(Configuration)=='Test'">
+        <PropertyGroup>
+            <DebugSymbols>true</DebugSymbols>
+            <DebugType>full</DebugType>
+            <Optimize>false</Optimize>
+            <DefineConstants>DEBUG;TRACE</DefineConstants>
+        </PropertyGroup>
         <Choose>
-          <When Condition="$(Platform)=='x86' Or $(Platform) == 'ARM32'">
+        <When Condition="$(Platform)=='x86' Or $(Platform) == 'ARM32'">
            <PropertyGroup>
-                <DebugSymbols>true</DebugSymbols>
-                <DebugType>full</DebugType>
-                <Optimize>false</Optimize>
                 <OutputPath>.\bin\Test\32-bit\</OutputPath>
-                <DefineConstants>DEBUG;TRACE</DefineConstants>
            </PropertyGroup>
-          </When>
-          <When Condition="$(Platform)=='x64' Or $(Platform) == 'ARM64'">
+        </When>
+        <When Condition="$(Platform)=='x64' Or $(Platform) == 'ARM64'">
            <PropertyGroup>
-                <DebugSymbols>true</DebugSymbols>
-                <DebugType>full</DebugType>
-                <Optimize>false</Optimize>
                 <OutputPath>.\bin\Test\64-bit\</OutputPath>
-                <DefineConstants>DEBUG;TRACE</DefineConstants>
            </PropertyGroup>
-          </When>
-          <!-- For any other platform, use the platform name -->
-          <Otherwise>
+        </When>
+        <!-- For any other platform, use the platform name -->
+        <Otherwise>
             <PropertyGroup>
-                <DebugSymbols>true</DebugSymbols>
-                <DebugType>full</DebugType>
-                <Optimize>false</Optimize>
-                <OutputPath>.\bin\Test\$(Platform)\</OutputPath>
-                <DefineConstants>DEBUG;TRACE</DefineConstants>
+              <OutputPath>.\bin\Test\$(Platform)\</OutputPath>
             </PropertyGroup>
-          </Otherwise>
+        </Otherwise>
         </Choose>
       </When>
       <When Condition="$(Configuration)=='Retail' Or $(Configuration)=='Release'">
+        <PropertyGroup>
+            <DebugSymbols>false</DebugSymbols>
+            <Optimize>true</Optimize>
+            <DefineConstants>TRACE</DefineConstants>
+        </PropertyGroup>
         <Choose>
           <When Condition="$(Platform)=='x86' Or $(Platform) == 'ARM32'">
              <PropertyGroup>
-                <DebugSymbols>true</DebugSymbols>
-                <DebugType>full</DebugType>
-                <Optimize>true</Optimize>
                 <OutputPath>.\bin\Release\32-bit\</OutputPath>
-                <DefineConstants>TRACE</DefineConstants>
              </PropertyGroup>
           </When>
           <When Condition="$(Platform)=='x64' Or $(Platform) == 'ARM64'">
              <PropertyGroup>
-                <DebugSymbols>false</DebugSymbols>
-                <Optimize>true</Optimize>
                 <OutputPath>.\bin\Release\64-bit\</OutputPath>
-                <DefineConstants>TRACE</DefineConstants>
              </PropertyGroup>
           </When>
           <!-- For any other platform, use the platform name -->
           <Otherwise>
             <PropertyGroup>
-                <DebugSymbols>false</DebugSymbols>
-                <Optimize>true</Optimize>
                 <OutputPath>.\bin\Release\$(Platform)\</OutputPath>
-                <DefineConstants>TRACE</DefineConstants>
             </PropertyGroup>
-          </Otherwise>
+        </Otherwise>
         </Choose>
       </When>
       <!-- For any other configuration, use debug properties-->
       <Otherwise>
-         <Choose>
-           <When Condition="$(Platform)=='x86' Or $(Platform)=='ARM32'">
-             <PropertyGroup>
-              <DebugSymbols>true</DebugSymbols>
-              <Optimize>false</Optimize>
+        <PropertyGroup>
+            <DebugSymbols>true</DebugSymbols>
+            <DebugType>full</DebugType>
+            <Optimize>false</Optimize>
+            <DefineConstants>DEBUG;TRACE</DefineConstants>
+        </PropertyGroup>
+        <Choose>
+          <When Condition="$(Platform)=='x86' Or $(Platform)=='ARM32'">
+            <PropertyGroup>
               <OutputPath>.\bin\$(Configuration)\32-bit\</OutputPath>
-              <DefineConstants>DEBUG;TRACE</DefineConstants>
-             </PropertyGroup>
-           </When>
-           <When Condition="$(Platform)=='x64' Or $(Platform)=='ARM64'">
-             <PropertyGroup>
-              <DebugSymbols>true</DebugSymbols>
-              <Optimize>false</Optimize>
+            </PropertyGroup>
+          </When>
+          <When Condition="$(Platform)=='x64' Or $(Platform)=='ARM64'">
+            <PropertyGroup>
               <OutputPath>.\bin\$(Configuration)\64-bit\</OutputPath>
-              <DefineConstants>DEBUG;TRACE</DefineConstants>
-             </PropertyGroup>
-           </When>
-         </Choose>
+            </PropertyGroup>
+          </When>
+        </Choose>
        </Otherwise>
   </Choose>
 
-  <Target Name="ShowOutputPath">
-     <Message Text="OutputPath: $(OutputPath)"/>
+  <Target Name="ShowProperties">
+    <Message Text="DebugSymbols: $(DebugSymbols)"/>
+    <Message Text="Optimize: $(Optimize)"/>
+    <Message Text="DefineConstants: $(DefineConstants)"/>
+    <Message Text="OutputPath: $(OutputPath)"/>
   </Target>
 </Project>
 ```
