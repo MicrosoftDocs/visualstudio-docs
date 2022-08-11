@@ -19,7 +19,7 @@ Regex performance has been significantly improved in .NET 5 and above. Applicati
 
 ## Performance insight description
 
-Significant improvements to the [.NET Regex](/dotnet/api/system.text.regularexpressions.regex) implementation has been completed in .NET 5+. Detailed descriptions of the improvements can be found on the following .NET blogs.
+Significant improvements to the [.NET Regex](/dotnet/api/system.text.regularexpressions.regex) implementation have been completed in .NET 5+. Detailed descriptions of the improvements can be found on the following .NET blogs.
 
 - [Regex improvements in .NET 5](https://devblogs.microsoft.com/dotnet/regex-performance-improvements-in-net-5/)
 - [Regex improvements in .NET 7](https://devblogs.microsoft.com/dotnet/regular-expression-improvements-in-dotnet-7/)
