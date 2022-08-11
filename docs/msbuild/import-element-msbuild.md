@@ -46,6 +46,7 @@ Imports the contents of one project file into another project file.
 |---------------|-----------------|
 |`Project`|Required attribute.<br /><br /> The path of the project file to import. The path can include wildcards. The matching files are imported in sorted order. By using this feature, you can add code to a project just by adding the code file to a directory.|
 |`Condition`|Optional attribute.<br /><br /> A condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|
+|`Label`|Optional attribute.<br /><br /> Applies an identifier to this import element.|
 |`Sdk`| Optional attribute.<br /><br /> References a project SDK.|
 
 ### Child elements
