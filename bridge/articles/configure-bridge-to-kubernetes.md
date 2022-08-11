@@ -1,6 +1,6 @@
 ---
 title: "Configure Bridge to Kubernetes"
-ms.date: 07/28/2020
+ms.date: 08/11/2022
 ms.topic: "conceptual"
 description: "Describes the additional configuration options for Bridge to Kubernetes using KubernetesLocalProcessConfig.yaml"
 keywords: "Bridge to Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, containers"
