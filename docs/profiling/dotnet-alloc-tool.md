@@ -6,8 +6,8 @@ ms.date: 12/9/2019
 ms.topic: how-to
 helpviewer_keywords: 
   - memory allocation, memory usage
-author: MikeJo5000
-ms.author: mikejo
+author: mikadumont
+ms.author: midumont
 manager: AndSter
 ms.workload: 
   - multiple
