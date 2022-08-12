@@ -129,7 +129,7 @@ Once the project is created, you see some new and modified files:
    >[!NOTE]
    > Check console output for messages, such as a message instructing you to update your version of Node.js.
 
-You should see the Vue app appear, that is populated via the API.
+You should see the Vue app appear, that is populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
 
 ## Publish the project
 
