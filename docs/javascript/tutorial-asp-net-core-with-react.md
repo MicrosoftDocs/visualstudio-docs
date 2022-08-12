@@ -143,6 +143,8 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
    </ProjectReference>
    ```
 
+1. Right.click the ASP.NET Core project and choose **Reload Project**.
+
 1. To publish, right click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, et al.
 
    The publish process may take slightly longer than it does for just an ASP.NET Core project, since the `npm run build command` gets invoked when publishing.
