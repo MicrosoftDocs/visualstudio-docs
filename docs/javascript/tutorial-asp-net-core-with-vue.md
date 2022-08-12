@@ -135,6 +135,9 @@ You should see the Vue app appear, that is populated via the API.
 
 Starting in Visual Studio 2022 version 17.3, you can publish the integrated solution using the Visual Studio Publish tool.
 
+>[!NOTE]
+> To use publish, create your JavaScript project using Visual Studio 2022 version 17.3 or later.
+
 1. In Solution Explorer, right-click the ASP.NET Core project and choose **Add** > **Project Reference**.
 
 1. Select the Vue project and choose **OK**.
