@@ -294,6 +294,8 @@
       href: configure-the-windows-firewall-for-remote-debugging.md
     - name: Unblock the download on Windows Server
       href: remote-debugging-unblock-file-download.md
+    - name: Troubleshoot remote debugging
+      href: troubleshooting-remote-debugging.md
     - name: Remote debugging error reference
       items:
       - name: Remote debugging errors and troubleshooting
