@@ -61,7 +61,7 @@ Some scenarios require you to manually attach to the correct process. If you are
 
 ## You are not attaching to the correct process
 
-If you are using attach to process, make sure you are attaching to the correct process. For more information, see [Common debugging scenarios](../debugger/attach-to-running-processes-with-the-visual-studio-debugger?view=vs-2022.md#common-debugging-scenarios).
+If you are using attach to process, make sure you are attaching to the correct process. For more information, see [Common debugging scenarios](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md#common-debugging-scenarios).
 
 ## A required port is not open
 
