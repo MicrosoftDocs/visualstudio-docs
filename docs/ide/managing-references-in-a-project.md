@@ -2,7 +2,7 @@
 title: Manage references in a project
 description: Learn how to manage references to external components and connected services in a project.
 ms.custom: SEO-VS-2020
-ms.date: 08/12/2022
+ms.date: 08/15/2022
 ms.topic: conceptual
 f1_keywords:
 - vs.ProjectPropertiesReferencePaths
@@ -33,11 +33,11 @@ Before you write code against an external component or connected service, your p
 
 How you add a reference depends on the project type for the code you're working on:
 
-- If you see a **Dependencies** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to choose **Add Project Reference**. You can also right-click on the project node and select **Add** > **Project Reference**.
+- If you see a **Dependencies** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to choose **Add Project Reference**. You can also right-click the project node and select **Add** > **Project Reference**.
 
   :::image type="content" source="media/add-project-reference.png" alt-text="Screenshot of the Add Project Reference option from the right-click context menu.":::
 
-- If you see a **References** node in **Solution Explorer**,  you can use the right-click context menu to choose **Add Reference**. Or, right-click on the project node and select **Add** > **Reference**.
+- If you see a **References** node in **Solution Explorer**, you can use the right-click context menu to choose **Add Reference**. Or, right-click the project node and select **Add** > **Reference**.
 
   :::image type="content" source="media/add-reference.png" alt-text="Screenshot of the Add Reference option from the right-click context menu.":::
 
