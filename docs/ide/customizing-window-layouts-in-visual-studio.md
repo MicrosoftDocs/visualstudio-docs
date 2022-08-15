@@ -43,7 +43,7 @@ You can also name and save a custom layout and then switch between layouts with 
 
 The IDE has two basic window types, *tool windows* and *document windows*. Tool windows include **[Solution Explorer](use-solution-explorer.md)**, **Server Explorer**, **Output Window**, **Error List**, the designers, the debugger windows, and so on. Document windows contain source code files, arbitrary text files, config files, and so on. Tool windows can be resized and dragged by their title bar. Document windows can be dragged by their tab. Right-click on the tab or title bar to set other options on the window.
 
-The **Window** menu shows options for docking, floating, and hiding windows in the IDE. Right click on a window tab or title bar to see additional options for that specific window. You can display more than one instance of certain tool windows at a time. For example, you can display more than one web browser window, and you can create additional instances of some tool windows by choosing **New Window** on the **Window** menu.
+The **Window** menu shows options for docking, floating, and hiding windows in the IDE. Right click on a window tab or title bar to see more options for that specific window. You can display more than one instance of certain tool windows at a time. For example, you can display more than one web browser window, and you can create additional instances of some tool windows by choosing **New Window** on the **Window** menu.
 
 #### Split windows
 
@@ -81,7 +81,7 @@ To arrange tool and document windows, you can place your cursor on the title bar
 
 #### Dock windows
 
-When you click and drag the title bar of a tool window, or the tab of document window, a guide diamond appears. During the drag operation, when the mouse cursor is over one of the arrows in the diamond, a shaded area will appear that shows you where the window will be docked if you release the mouse button now.
+When you click and drag the title bar of a tool window or the tab of document window, a guide diamond appears. During the drag operation, when the mouse cursor is over one of the arrows in the diamond, a shaded area appears that shows you where the window will be docked if you release the mouse button.
 
 To move a dockable window without snapping it into place, press the **Ctrl** key while you drag the window.
 
@@ -101,12 +101,12 @@ The following illustration shows **Solution Explorer** being docked in a new loc
 
 ### Close and auto-hide tool windows
 
-You can close a tool window by clicking the **X** in the upper right of the title bar. To reopen the window, use its keyboard shortcut or menu command. Tool windows support a feature named *auto hide*, which causes a window to slide out of the way when you use a different window. When a window is autohidden, its name appears on a tab at the edge of the IDE. To use the window again, point to the tab so that the window slides back into view.
+You can close a tool window by clicking the **X** in the upper right of the title bar. To reopen the window, use its keyboard shortcut or menu command. Tool windows support a feature named *auto hide*, which causes a window to slide out of the way when you use a different window. When a window is auto hidden, its name appears on a tab at the edge of the IDE. To use the window again, point to the tab so that the window slides back into view.
 
 ![Auto hide](../ide/media/vs2015_auto_hide.png)
 
 > [!NOTE]
-> To set whether auto hide operates on tool windows individually or as docked groups, select or clear **Auto Hide button affects active tool windows only** in the **Options** dialog box. For more information, see [General, Environment, Options dialog box](../ide/reference/general-environment-options-dialog-box.md).
+> To set whether auto hide operates on tool windows individually or as docked groups, select or clear **Auto Hide button affects active tool window only** in the **Options** dialog box. For more information, see [General, Environment, Options dialog box](../ide/reference/general-environment-options-dialog-box.md).
 
 > [!NOTE]
 > Tool windows that have auto hide enabled may temporarily slide into view when the window has focus. To hide the window again, select an item outside of the current window. When the window loses focus, it slides back out of view.
@@ -116,7 +116,7 @@ You can close a tool window by clicking the **X** in the upper right of the titl
 If you have a second monitor and your operating system supports it, you can choose which monitor displays a window. You can even group multiple windows together in *rafts* on other monitors.
 
 > [!TIP]
-> You can create multiple instances of **[Solution Explorer](use-solution-explorer.md)** and move them to another monitor. Right-click the window and choose **New Solution Explorer View**. You can return all windows back to the original monitor by double-clicking while choosing the **Ctrl** key.
+> You can create multiple instances of **Solution Explorer** and move them to another monitor. Right-click the window and choose **New Solution Explorer View**. You can return all windows back to the original monitor by double-clicking while choosing the **Ctrl** key.
 
 #### Reset, name, and switch between window layouts
 
@@ -164,7 +164,7 @@ To switch between layouts, use the keyboard shortcuts, or from the main menu cho
 
 After applying the UI layout, note how the layout is preserved both in editing mode and in debug mode.
 
-If you have a multi monitor setup at work and a single monitor laptop at home, you can create layouts that are optimized for each machine.
+If you have a multi-monitor setup at work and a single monitor laptop at home, you can create layouts that are optimized for each machine.
 
 > [!NOTE]
 > If you apply a multi-monitor layout on a single-monitor system, the floating windows that you placed on the second monitor will now be hidden behind the Visual Studio window. You can bring these windows to the front by pressing **Alt + Tab**. If you later open Visual Studio with multiple monitors, you can restore the windows to their specified positions by re-applying the layout.
@@ -177,7 +177,7 @@ You can remove, rename, or reorder your custom layout by choosing **Window** > *
 
 To remind yourself which keyboard shortcut is assigned to which layout, choose **Window** > **Apply Window Layout**.
 
-These layouts automatically roam between Visual Studio editions, and also between Blend instances on separate machines, and from any Express edition to any other Express organization. However, layouts do not roam across Visual Studio, Blend, and Express.
+These layouts automatically roam between Visual Studio editions, and also between Blend instances on separate machines, and from any Express edition to any other Express organization. However, layouts don't roam across Visual Studio, Blend, and Express.
 
 ## Personalize tabs
 
@@ -199,6 +199,8 @@ You can manage your document tabs in a vertical list on either the left or right
 
 **[New in Visual Studio 2019 version 16.4 and later](/visualstudio/releases/2019/release-notes-v16.4/)**: We added one of the top feature requests, [vertical document tabs](https://developercommunity.visualstudio.com/idea/467369/vertical-group-tab.html). Now, you can manage your document tabs in a vertical list on either the left or right side of your editor.
 
+:::image type="content" source="./media/vs-2019/vertical-tabs.gif" alt-text="An animation that shows vertical document tabs in action":::
+
 ::: moniker-end
 
 You can apply vertical document tabs in the following ways:
@@ -206,12 +208,6 @@ You can apply vertical document tabs in the following ways:
 - Choose **Tools** > **Options** > **Environment** > **Tabs and Windows** from the menu bar. Then, from the **Set tab layout** control, choose either **Top**, **Left**, or **Right** from the drop-down list.
 
 - Right-click a tab, choose **Set Tab Layout**, and then choose either **Left** or **Right**. (To return the tabs to their default position, choose **Top**.)
-
-::: moniker range="vs-2019"
-
-    :::image type="content" source="./media/vs-2019/vertical-tabs.gif" alt-text="An animation that shows vertical document tabs in action":::
-
-::: moniker-end
 
 ::: moniker range="vs-2022"
 
