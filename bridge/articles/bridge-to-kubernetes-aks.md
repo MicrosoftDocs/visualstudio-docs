@@ -6,7 +6,7 @@ manager: jmartens
 ms.technology: bridge
 ms.custom: "contperf-fy22q1"
 title: Use Bridge to Kubernetes to run and debug locally with Kubernetes with AKS in Azure
-ms.date: 11/12/2020
+ms.date: 08/15/2022
 description: Learn how to use Bridge to Kubernetes to connect your development computer to an AKS Kubernetes cluster
 ---
 
@@ -85,7 +85,7 @@ First, place a breakpoint on line 17 of `server.js`.
 
 Then, make sure todo-app namespace in MYAKS cluster is set as default (if it has * next to it). If it is not set as default, right-click the **todo-app** node, and choose **Use Namespace**.
 
-<img width="499" alt="Screen Shot 2022-07-29 at 1 29 52 PM" src="https://user-images.githubusercontent.com/4663400/181812916-ba82442d-4dbf-4941-bf66-4fcbe66ce5b0.png">
+![Bridge to Kubernetes: Namespace](media/bridge-to-kubernetes-sample/bridge-to-kubernetes-namespace.png)
 
 Next, configure bridge: open the Command Palette (**CTRL**+**SHIFT**+**P** or **Cmd**+**Shift**+**P** on a Mac) and type Bridge to Kubernetes. Select the **Bridge to Kubernetes: Configure** option.
 
