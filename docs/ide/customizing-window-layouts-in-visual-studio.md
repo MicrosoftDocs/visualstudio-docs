@@ -1,5 +1,5 @@
 ---
-title: Customize window layouts and tabs
+title: Customize window layouts and personalize document tabs
 description: Learn how to customize tabs and windows in Visual Studio to create layouts that work best for your development workflows.
 ms.custom: SEO-VS-2020
 ms.date: 08/18/2022
@@ -27,13 +27,13 @@ ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
-# Customize window layouts and tabs in Visual Studio
+# Customize window layouts and personalize tabs
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In Visual Studio, you can customize the position, size, and behavior of windows to create window layouts that work best for various development workflows. You can also customize how you use tabs to interact with your code.
+In Visual Studio, you can customize the position, size, and behavior of windows to create window layouts that work best for various development workflows. You can also personalize how you use tabs to interact with your code.
 
-## Window layouts
+## Customize window layouts
 
 When you customize a window layout, the IDE remembers it. For example, if you change the docking location of **Solution Explorer** and then close Visual Studio, the next time that you open Visual Studio, even if you're working on another computer, **Solution Explorer** will be docked in that same location.
 
@@ -41,7 +41,7 @@ You can also name and save a custom layout and then switch between layouts with 
 
 ### Tool and document windows
 
-The IDE has two basic window types, *tool windows* and *document windows*. Tool windows include **Solution Explorer**, **Server Explorer**, **Output Window**, **Error List**, the designers, the debugger windows, and so on. Document windows contain source code files, arbitrary text files, config files, and so on. Tool windows can be resized and dragged by their title bar. Document windows can be dragged by their tab. Right-click on the tab or title bar to set other options on the window.
+The IDE has two basic window types, *tool windows* and *document windows*. Tool windows include **[Solution Explorer](use-solution-explorer.md)**, **Server Explorer**, **Output Window**, **Error List**, the designers, the debugger windows, and so on. Document windows contain source code files, arbitrary text files, config files, and so on. Tool windows can be resized and dragged by their title bar. Document windows can be dragged by their tab. Right-click on the tab or title bar to set other options on the window.
 
 The **Window** menu shows options for docking, floating, and hiding windows in the IDE. Right click on a window tab or title bar to see additional options for that specific window. You can display more than one instance of certain tool windows at a time. For example, you can display more than one web browser window, and you can create additional instances of some tool windows by choosing **New Window** on the **Window** menu.
 
@@ -116,7 +116,7 @@ You can close a tool window by clicking the **X** in the upper right of the titl
 If you have a second monitor and your operating system supports it, you can choose which monitor displays a window. You can even group multiple windows together in *rafts* on other monitors.
 
 > [!TIP]
-> You can create multiple instances of **Solution Explorer** and move them to another monitor. Right-click the window and choose **New Solution Explorer View**. You can return all windows back to the original monitor by double-clicking while choosing the **Ctrl** key.
+> You can create multiple instances of **[Solution Explorer](use-solution-explorer.md)** and move them to another monitor. Right-click the window and choose **New Solution Explorer View**. You can return all windows back to the original monitor by double-clicking while choosing the **Ctrl** key.
 
 #### Reset, name, and switch between window layouts
 
@@ -136,19 +136,15 @@ First, create a test solution that has two projects, each with a different optim
 
 ##### Create a UI project and customize the layout
 
-::: moniker range=">=vs-2019"
-
 1. Create a new C# **WPF Application** project. Imagine that in this project, you'll be developing a user interface. You want to maximize the space for the designer window and move other tool windows out of the way.
 
-::: moniker-end
+1. If you have multiple monitors, pull over the **Solution Explorer** window and the **Properties** window to your second monitor. On a single monitor system, try closing all the windows except the designer.
 
-2. If you have multiple monitors, pull over the **Solution Explorer** window and the **Properties** window to your second monitor. On a single monitor system, try closing all the windows except the designer.
+1. Press **Ctrl**+**Alt**+**X** to display the **Toolbox** window. If the window is docked, drag it so that it floats somewhere where you'd like to position it.
 
-3. Press **Ctrl**+**Alt**+**X** to display the **Toolbox** window. If the window is docked, drag it so that it floats somewhere where you'd like to position it.
+1. Press **F5** to put Visual Studio into debugging mode. Adjust the position of the **Autos**, **Call Stack**, and **Output** debugging windows the way you want them. The layout you're about to create will apply to both editing mode and debugging mode.
 
-4. Press **F5** to put Visual Studio into debugging mode. Adjust the position of the **Autos**, **Call Stack**, and **Output** debugging windows the way you want them. The layout you're about to create will apply to both editing mode and debugging mode.
-
-5. When your layouts in both debugging mode and editing mode are how you want them, choose **Window** > **Save Window Layout**. Call this layout "Designer."
+1. When your layouts in both debugging mode and editing mode are how you want them, choose **Window** > **Save Window Layout**. Call this layout "Designer."
 
      Notice that your new layout is assigned the next keyboard shortcut from the reserved list of **Ctrl**+**Alt**+**1...0**.
 
@@ -156,9 +152,9 @@ First, create a test solution that has two projects, each with a different optim
 
 1. Add a new **SQL Server Database** project to the solution.
 
-2. Right-click on the new project in **Solution Explorer** and choose **View in Object Explorer**. This displays the **SQL Server Object Explorer** window, which enables you to access tables, views and other objects in your database. You can either float this window or leave it docked. Adjust the other tool windows the way you want them. For added realism, you can add an actual database, but it's not necessary for this walkthrough.
+1. Right-click on the new project in **Solution Explorer** and choose **View in Object Explorer**. This displays the **SQL Server Object Explorer** window, which enables you to access tables, views and other objects in your database. You can either float this window or leave it docked. Adjust the other tool windows the way you want them. For added realism, you can add an actual database, but it's not necessary for this walkthrough.
 
-3. When your layout is how you want it, from the main menu choose **Window** > **Save Window Layout**. Call this layout "DB Project." (We won't bother with a debug mode layout for this project.)
+1. When your layout is how you want it, from the main menu choose **Window** > **Save Window Layout**. Call this layout "DB Project." (We won't bother with a debug mode layout for this project.)
 
 ##### Switch between the layouts
 
@@ -183,25 +179,35 @@ To remind yourself which keyboard shortcut is assigned to which layout, choose *
 
 These layouts automatically roam between Visual Studio editions, and also between Blend instances on separate machines, and from any Express edition to any other Express organization. However, layouts do not roam across Visual Studio, Blend, and Express.
 
-## Tabs
+## Personalize tabs
 
-You can use tabs to arrange your layout in several different ways. For example, you can view a preview of a file in the editor without opening the file, you can group your tabs, and more.
+You can personalize tabs to interact with document windows in several different ways. For example, you can view a preview of a file in the editor without opening the file, you can group your tabs, and more.
 
-### Preview tab (document windows)
+### Preview tab
 
 In the **Preview** tab, you can view files in the editor without opening them. You can preview files by choosing them in **Solution Explorer**, during debugging when you step into files, with **Go to Definition**, and when you browse through results of a search. Preview files appear in a tab on the right side of the document tab well. The file opens for editing if you modify it or choose  **Open**.
 
-::: moniker range=">=vs-2019"
-
 ### Vertical document tabs
 
+::: moniker range="vs-2022"
+
+You can manage your document tabs in a vertical list on either the left or right side of your editor.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
 **[New in Visual Studio 2019 version 16.4 and later](/visualstudio/releases/2019/release-notes-v16.4/)**: We added one of the top feature requests, [vertical document tabs](https://developercommunity.visualstudio.com/idea/467369/vertical-group-tab.html). Now, you can manage your document tabs in a vertical list on either the left or right side of your editor.
+
+::: moniker-end
 
 You can apply vertical document tabs in the following ways:
 
 - Choose **Tools** > **Options** > **Environment** > **Tabs and Windows** from the menu bar. Then, from the **Set tab layout** control, choose either **Top**, **Left**, or **Right** from the drop-down list.
 
 - Right-click a tab, choose **Set Tab Layout**, and then choose either **Left** or **Right**. (To return the tabs to their default position, choose **Top**.)
+
+::: moniker range="vs-2019"
 
     :::image type="content" source="./media/vs-2019/vertical-tabs.gif" alt-text="An animation that shows vertical document tabs in action":::
 
