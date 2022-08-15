@@ -6,7 +6,7 @@ manager: jmartens
 ms.technology: bridge
 ms.custom: "contperf-fy22q1"
 title: Use Bridge to Kubernetes to run and debug locally with Kubernetes with AKS in Azure
-ms.date: 11/12/2020
+ms.date: 08/11/2022
 description: Learn how to use Bridge to Kubernetes to connect your development computer to an AKS Kubernetes cluster
 ---
 
