@@ -2,7 +2,7 @@
 title: Manage references in a project
 description: Learn how to manage references to external components and connected services in a project.
 ms.custom: SEO-VS-2020
-ms.date: 08/11/2022
+ms.date: 08/15/2022
 ms.topic: conceptual
 f1_keywords:
 - vs.ProjectPropertiesReferencePaths
@@ -31,9 +31,17 @@ ms.workload:
 
 Before you write code against an external component or connected service, your project must first contain a reference to it. A reference is essentially an entry in a project file that contains the information that Visual Studio needs to locate the component or the service.
 
-To add a reference, right-click on the **References** or **Dependencies** node in **Solution Explorer** and choose **Add Project Reference**. You can also right-click on the project node and select **Add** > **Project Reference**. For more information, see [How to: Add or remove references](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md).
+How you add a reference depends on the project type for the code you're working on:
 
-:::image type="content" source="media/add-project-reference.png" alt-text="Screenshot of the Add Project Reference option from the right-click context menu.":::
+- If you see a **Dependencies** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to choose **Add Project Reference**. You can also right-click the project node and select **Add** > **Project Reference**.
+
+  :::image type="content" source="media/add-project-reference.png" alt-text="Screenshot of the Add Project Reference option from the right-click context menu.":::
+
+- If you see a **References** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to choose **Add Reference**. Or, right-click the project node and select **Add** > **Reference**.
+
+  :::image type="content" source="media/add-reference.png" alt-text="Screenshot of the Add Reference option from the right-click context menu.":::
+
+    For more information, see [How to: Add or remove references](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md).
 
 You can add a reference to the following types of components and services:
 
