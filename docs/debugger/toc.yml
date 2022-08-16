@@ -186,6 +186,8 @@
           href: how-to-write-a-run-time-error-reporting-function.md
     - name: Specify symbol (.pdb) and source files in the debugger
       href: specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md
+    - name: Enable debugging and diagnostics with Source Link
+      href: how-to-improve-diagnostics-debugging-with-sourcelink.md
     - name: Debug user code
       href: just-my-code.md
     - name: Debugger settings
@@ -294,6 +296,8 @@
       href: configure-the-windows-firewall-for-remote-debugging.md
     - name: Unblock the download on Windows Server
       href: remote-debugging-unblock-file-download.md
+    - name: Troubleshoot remote debugging
+      href: troubleshooting-remote-debugging.md
     - name: Remote debugging error reference
       items:
       - name: Remote debugging errors and troubleshooting
