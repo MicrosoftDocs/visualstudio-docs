@@ -85,32 +85,32 @@ First, place a breakpoint on line 17 of `server.js`.
 
 Then, make sure todo-app namespace in MYAKS cluster is set as default (if it has * next to it). If it is not set as default, right-click the **todo-app** node, and choose **Use Namespace**.
 
-![Screen shot showing the Bridge to Kubernetes Namespace](media/bridge-to-kubernetes-sample/bridge-to-kubernetes-namespace.png)
+![Screenshot showing the Bridge to Kubernetes Namespace.](media/bridge-to-kubernetes-sample/bridge-to-kubernetes-namespace.png)
 
 Next, configure bridge: open the Command Palette (**CTRL**+**SHIFT**+**P** or **Cmd**+**Shift**+**P** on a Mac) and type Bridge to Kubernetes. Select the **Bridge to Kubernetes: Configure** option.
 
-![Screen shot showing the Bridge to Kubernetes Configure command window](media/bridge-to-kubernetes-sample/bridge-configure.png)
+![Screenshot showing the Bridge to Kubernetes Configure command window.](media/bridge-to-kubernetes-sample/bridge-configure.png)
 
 You are prompted to configure the service you want to replace, the port to forward from your development computer, and the launch task to use.
 
 Choose the `stats-api` service.
 
-![Screen shot showing the select the service to connect to window](media/bridge-to-kubernetes-sample/select-service.png)
+![Screenshot showing the select the service to connect to window.](media/bridge-to-kubernetes-sample/select-service.png)
 
 > [!IMPORTANT]
 > You can only redirect services that have a single pod.
 
 After you select your service, you are prompted to enter the TCP port for your local application. For this example, enter 3001.
 
-![Screen shot showing the enter the port number window](media/bridge-to-kubernetes-sample/enter-port.png)
+![Screenshot showing the enter the port number window.](media/bridge-to-kubernetes-sample/enter-port.png)
 
 Choose **Run Script: dev** as the launch task.
 
-![Screen shot showing the choose the debugger launch task window](media/bridge-to-kubernetes-sample/launch-task.png)
+![Screenshot showing the choose the debugger launch task window.](media/bridge-to-kubernetes-sample/launch-task.png)
 
 You have the option of running isolated or not isolated. If you run isolated, only your requests are routed to your local process; other developers can use the cluster without being affected. If you don't run isolated, all traffic is redirected to your local process. For more information on this option, see [Using routing capabilities for developing in isolation](overview-bridge-to-kubernetes.md#using-routing-capabilities-for-developing-in-isolation). For this example, we will proceed with non-isolated. If you chose isolation, task.json will have the prefix you should use to route request to your machine.
 
-![Screen shot showing the choose isolation option window](media/bridge-to-kubernetes-sample/isolation.png)
+![Screenshot showing the choose isolation option window.](media/bridge-to-kubernetes-sample/isolation.png)
 
 > [!NOTE]
 > On subsequent launches, you will just click the debug icon without going through this set up and being prompted for the service name, port, launch task, or whether to run isolated. These values are saved in `.vscode/tasks.json`. To change these settings later, open the Command Palette (**CTRL**+**SHIFT**+**P** or **Cmd**+**Shift**+**P** on a Mac), and run the command **Bridge to Kubernetes: Configure**.
@@ -119,20 +119,20 @@ The Bridge to Kubernetes debugging profile has been successfully configured.
 
 To start debugging, select the Debug icon on the left and select **Run Script: dev with Kubernetes**. Click the start button next to **Run Script: dev with Kubernetes**.
 
-![Screen shot showing the choose the choose debug launch profile window](media/bridge-to-kubernetes-sample/debug-profile.png)
+![Screenshot showing the choose the choose debug launch profile window.](media/bridge-to-kubernetes-sample/debug-profile.png)
 
 > [!NOTE]
 > You will be prompted to allow the EndpointManager to run elevated and modify your hosts file.
 
 Your development computer is connected when the VS Code status bar turns orange and the Kubernetes extension shows you are connected. Once your development computer is connected, traffic starts redirecting to your development computer for the stats-api you are replacing.
 
-![Screen shot showing the choose the debugging with Bridge to Kubernetes window](media/bridge-to-kubernetes-sample/debugging.png)
+![Screenshot showing the choose the debugging with Bridge to Kubernetes window.](media/bridge-to-kubernetes-sample/debugging.png)
 
 Navigate to the frontend entry point of your todo-app. Using that external IP you found earlier (your external IP from get services command).nip.io. Note, if you selected isolation mode, you will need to use (your prefix - can be found in task.json).(your external IP from get services command).nip.io.
 
 Make a request to the stats-api by choosing the **stats** link.
 
-![Screen shot showing the choose the running web site - choose the status link](media/bridge-to-kubernetes-sample/stats.png)
+![Screenshot showing the choose the running web site - choose the status link.](media/bridge-to-kubernetes-sample/stats.png)
 
 Notice the traffic that initially started in your cluster was redirected to your locally running version (outside of the cluster) where the breakpoint was triggered.
 
