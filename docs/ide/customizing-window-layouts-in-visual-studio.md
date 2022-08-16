@@ -101,7 +101,7 @@ The following illustration shows **Solution Explorer** being docked in a new loc
 
 ### Close and auto-hide tool windows
 
-You can close a tool window by clicking the **X** in the upper right of the title bar. To reopen the window, use its keyboard shortcut or menu command. Tool windows support a feature named *auto hide*, which causes a window to slide out of the way when you use a different window. When a window is auto hidden, its name appears on a tab at the edge of the IDE. To use the window again, point to the tab so that the window slides back into view.
+You can close a tool window by clicking the **X** in the upper right of the title bar. To reopen the window, use its [keyboard shortcut](default-keyboard-shortcuts-in-visual-studio.md) or menu command. Tool windows support a feature named *auto hide*, which causes a window to slide out of the way when you use a different window. When a window is auto hidden, its name appears on a tab at the edge of the IDE. To use the window again, point to the tab so that the window slides back into view.
 
 ![Auto hide](../ide/media/vs2015_auto_hide.png)
 
