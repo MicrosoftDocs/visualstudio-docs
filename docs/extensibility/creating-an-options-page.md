@@ -267,11 +267,11 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
 
 ## Open options page
 
-In this section, you will add you will add a Command and an event for the button to open the options page
+In this section, you'll add a Command and an event for the button to open the options page
 
-1. First add a Comman called OpenpageCommand.cs. 
+1. First add a file called OpenPageCommand.cs. 
 
-3. Then open OpenpageCommand.cs and change your Execute method.
+3. Then, open *OpenPageCommand.cs* and change your Execute method.
 
      ```csharp
      private void Execute(object sender, EventArgs e)
@@ -282,11 +282,11 @@ In this section, you will add you will add a Command and an event for the button
      }
     ```
 
-3. Run the project, then click the Invoke XXX button (it is under the Tool option by default), then you can see your options page is opened
+3. Run the project, then click the Invoke button (it is under the Tool option by default), then you can see your options page is opened.
 
 5. More details about opening options page can refer to the following documents
 
-- [Opening an Options Page](https://docs.microsoft.com/en-us/previous-versions/cc826083(v=vs.140))
+- [Opening an Options Page](/previous-versions/cc826083(v=vs.140))
 
 ## See also
 
