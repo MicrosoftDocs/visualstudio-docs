@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: e49242bc-e9f2-49e8-8caa-f574d508aba6
-ms.date: 08/15/2022
+ms.date: 08/17/2022
 ms.topic: how-to
 description:  Learn how admins can delete subscription assignments in the Visual Studio Subscriptions Administration Portal
 ---
@@ -69,6 +69,7 @@ admin on the agreement through which the subscriptions were purchased.
    > [!div class="mx-imgBorder"]
    > ![Duplicates highlighted](_img/delete-license/duplicates-highlighted.png "Screenshot of bulk edit template showing the columns for all users and the users to be deleted selected.  The user names to be deleted are highlighted.")
 
+0. Select a cell in the spreadsheet.  This will de-select the two columns.  
 0. On the **Data** tab, choose **Filter**.
 0. Select the filter drop-down in column "B", choose **Sort by color**, and select the color that was applied to the duplicate cells.  You should now see only the users that will be deleted.  
 0. In the **Reference** column for each user, enter a word or phrase that you can use to filter on to find only the users you want to delete.  Use the same term for all of the users.  In our example, we'll use "DELETE USER".  You can use the "fill down" feature in Excel to replicate the phrase for all of the users.  Your template show now look like this:
@@ -79,12 +80,12 @@ admin on the agreement through which the subscriptions were purchased.
 0. Switch back to the admin portal.  The **Edit multiple subscribers** dialog should still be open.  (If it's not, just select the **Bulk edit** option again.) 
 0. Select the **Browse** button, select the file you just saved, and select **Open**.  The name of your file will now be displayed in the dialog.
 0. Select **OK**.
-0. You should now see your subscriber list.  The subscribers you want to delete should have the phrase you defined listed in the **Reference** column.
+0. You should now see your subscriber list.  The subscribers you want to delete should have the phrase you defined listed in the **Reference** column. If it's not visible and you want to display it, select the **Edit columns** menu option and add the column.
    > [!div class="mx-imgBorder"]
    > ![List Showing Reference](_img/delete-license/reference-list.png "Screenshot of subscriber list in the admin portal showing the addition of the reference term marking users to be deleted.")
 
-0. In the **Filter by name, email or reference** field, enter the word or phrase you used to mark the users to be deleted.  
-0. You should now see only the users you need to delete.  You can select one users, then use CTRL+A to select them all, and choose **Delete**.
+0. In the **Filter by name, email or reference** field, enter the word or phrase you used to mark the users to be deleted. The filter will be applied even if the **Reference** column is not displayed.
+0. You should now see only the users you need to delete.  You can select one user, then use CTRL+A to select them all, and choose **Delete**.
 0. Clear the filter field to display your updated subscriber list.  
 
 
