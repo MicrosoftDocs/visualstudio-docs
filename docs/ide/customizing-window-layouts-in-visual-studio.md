@@ -35,29 +35,29 @@ In Visual Studio, you can customize the position, size, and behavior of windows 
 
 ## Customize window layouts
 
-When you customize a window layout, the IDE remembers it. For example, if you change the docking location of **Solution Explorer** and then close Visual Studio, the next time that you open Visual Studio, even if you're working on another computer, **Solution Explorer** will be docked in that same location.
+When you customize a window layout, the Visual Studio [integrated development environment](../get-started/visual-studio-ide.md) (IDE) remembers it. For example, if you change the docking location of **[Solution Explorer](use-solution-explorer.md)** and then close Visual Studio, the next time that you open Visual Studio, **Solution Explorer** will be docked in that same location. The Visual Studio IDE remembers the docking location even if you're working on another computer.
 
 You can also name and save a custom layout and then switch between layouts with a single command. For example, you could create a layout for editing and a layout for debugging, and switch between them by using the **Window** > **Apply Window Layout** menu command.
 
 ### Tool and document windows
 
-The IDE has two basic window types, *tool windows* and *document windows*. Tool windows include **[Solution Explorer](use-solution-explorer.md)**, **Server Explorer**, **Output Window**, **Error List**, the designers, the debugger windows, and so on. Document windows contain source code files, arbitrary text files, config files, and so on. Tool windows can be resized and dragged by their title bar. Document windows can be dragged by their tab. Right-click on the tab or title bar to set other options on the window.
+The IDE has two basic window types, *tool windows* and *document windows*. Tool windows include **Solution Explorer**, **Server Explorer**, **Output Window**, **Error List**, the designers, the debugger windows, and so on. Document windows contain source code files, arbitrary text files, config files, and so on. Tool windows can be resized and dragged by their title bar. Document windows can be dragged by their tab. Right-click on the tab or title bar to set other options on the window.
 
 The **Window** menu shows options for docking, floating, and hiding windows in the IDE. Right click on a window tab or title bar to see more options for that specific window. You can display more than one instance of certain tool windows at a time. For example, you can display more than one web browser window, and you can create additional instances of some tool windows by choosing **New Window** on the **Window** menu.
 
 #### Split windows
 
-When you have to view or edit two locations at once in a document, you can split windows. To divide your document into two independently scrolling sections, click **Split** on the **Window** menu. Click **Remove Split** on the **Window** menu to restore the single view.
+When you have to view or edit two locations at once in a document, you can split windows. To divide your document into two independently scrolling sections, select **Split** on the **Window** menu. Select **Remove Split** on the **Window** menu to restore the single view.
 
 #### Toolbars
 
-You can arrange toolbars by dragging them to where you want them, or by using the **Customize** dialog box. For more information about how to position and customize toolbars, see [How to: Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md).
+You can arrange toolbars by dragging them to where you want them, or by using the **Customize** dialog box. For more information about how to position and customize toolbars, see [How to: Customize menus and toolbars](how-to-customize-menus-and-toolbars-in-visual-studio.md).
 
 ### Arrange and dock windows
 
 A document window or tool window can be *docked*, so that it has a position and size within the IDE window frame. You can also position it as a separate floating window that's outside of the IDE.
 
-You can dock a tool window anywhere inside the IDE frame. You can also dock some tool windows as tabbed windows in the editor frame. And, you can dock document windows within the editor frame, and you can pin them to their current position in the tab order.
+You can dock a tool window anywhere inside the IDE frame. You can also dock some tool windows as tabbed windows in the editor frame. And, you can dock document windows within the editor frame, or pin them to their current position in the [tab](#personalize-tabs) order.
 
 You can also dock multiple windows to float together in a *raft* over or outside of the IDE. Tool windows can also be hidden or minimized.
 
@@ -101,12 +101,14 @@ The following illustration shows **Solution Explorer** being docked in a new loc
 
 ### Close and auto-hide tool windows
 
-You can close a tool window by clicking the **X** in the upper right of the title bar. To reopen the window, use its [keyboard shortcut](default-keyboard-shortcuts-in-visual-studio.md) or menu command. Tool windows support a feature named *auto hide*, which causes a window to slide out of the way when you use a different window. When a window is auto hidden, its name appears on a tab at the edge of the IDE. To use the window again, point to the tab so that the window slides back into view.
+You can close a tool window by clicking the **X** in the upper right of the title bar. To reopen the window, select the tool windows you want by using **View** on the menu bar, or by using its associated keyboard shortcut.
 
-![Auto hide](../ide/media/vs2015_auto_hide.png)
+Tool windows support a feature named **Auto Hide**, which causes a window to slide out of the way when you use a different window. When a window is automatically hidden, its name appears on a tab at the edge of the IDE. To use the window again, select the tab so that the window slides back into view.
 
-> [!NOTE]
-> To set whether auto hide operates on tool windows individually or as docked groups, select or clear **Auto Hide button affects active tool window only** in the **Options** dialog box. For more information, see [General, Environment, Options dialog box](../ide/reference/general-environment-options-dialog-box.md).
+:::image type="content" source="media/auto-hide.png" alt-text="Set of two screenshots that show the Auto Hide menu item and an associated set of tabbed tool windows when Auto Hide is selected." lightbox="media/auto-hide.png":::
+
+> [!TIP]
+> To set whether auto hide operates on tool windows individually or as docked groups, select or clear **Auto Hide button affects active tool window only** in the **Options** dialog box. For more information, see the [Options dialog box: Environment /> General](reference/general-environment-options-dialog-box.md) page.
 
 > [!NOTE]
 > Tool windows that have auto hide enabled may temporarily slide into view when the window has focus. To hide the window again, select an item outside of the current window. When the window loses focus, it slides back out of view.
