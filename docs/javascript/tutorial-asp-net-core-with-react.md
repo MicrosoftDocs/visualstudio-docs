@@ -119,7 +119,7 @@ Make sure to install the following:
    >[!NOTE]
    > Check console output for messages, such as a message instructing you to update your version of Node.js.
 
-You should see an React app appear, that is populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
+You should see a React app appear, that is populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
 
 ## Publish the project
 
