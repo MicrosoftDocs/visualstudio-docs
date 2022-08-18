@@ -107,10 +107,10 @@ Take these steps to open your exported subscriptions list and move the relevant 
    | Downloads                  | Downloads          |
    | Country                    | Country            |
    | Language                   | Language           |
-   | Subscription GUID          | Subscription GUID  |
+ 
 
    > [!IMPORTANT] 
-   > Do not copy data from the **Subscription GUID** column into the bulk add template.  Including the GUIDs will cause the upload to fail.
+   > Do not copy data from the **Subscription GUID** column into the bulk add template.  Leave that column blank in the Bulk add template.  Including the GUIDs will cause the upload to fail.
 
    > [!TIP]
    > If you have a lot of subscribers, you might find it helpful to use keyboard shortcuts when you're copying and pasting data. 
