@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 80e3b300-f2fc-40d4-bbb2-c831a2fa5d34
-ms.date: 07/11/2022
+ms.date: 08/18/2022
 ms.topic: how-to
 description:  This article describes how admins can migrate assigned subscriptions from one agreement to another.
 ---
@@ -110,7 +110,7 @@ Take these steps to open your exported subscriptions list and move the relevant 
    | Subscription GUID          | Subscription GUID  |
 
    > [!IMPORTANT] 
-   > Do not copy date from the **Subscription GUID** column into the bulk add template.  Including the GUIDs will cause the upload to fail.
+   > Do not copy data from the **Subscription GUID** column into the bulk add template.  Including the GUIDs will cause the upload to fail.
 
    > [!TIP]
    > If you have a lot of subscribers, you might find it helpful to use keyboard shortcuts when you're copying and pasting data. 
