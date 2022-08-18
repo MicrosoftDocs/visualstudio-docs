@@ -114,7 +114,7 @@ Take these steps to open your exported subscriptions list and move the relevant 
 
    > [!TIP]
    > If you have a lot of subscribers, you might find it helpful to use keyboard shortcuts when you're copying and pasting data. 
-   > To select all the entries in a column like Subscriber Name, select the first entry in the column (not the column heading), select and hold **Ctrl+Shift**, and then select the Down arrow key. This will select all the data in that column. 
+   > To select all the entries in a column like "Subscriber Name", select the first entry in the column (not the column heading), select and hold **Ctrl+Shift**, and then select the Down arrow key. This will select all the data in that column. 
 
 
 4. When all your data is moved to the bulk add template, save the template and close it. This list is the subscription list that you'll upload to your new agreement.
