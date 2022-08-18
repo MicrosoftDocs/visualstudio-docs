@@ -119,7 +119,11 @@ Make sure to install the following:
    >[!NOTE]
    > Check console output for messages, such as a message instructing you to update your version of Node.js.
 
+<<<<<<< HEAD
 You should see an React app appear, that is populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
+=======
+You should see a React app appear, that is populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
+>>>>>>> e544f53505bc3ae40a8373f51b01c45500805bfa
 
 ## Publish the project
 
@@ -146,7 +150,11 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
    </ProjectReference>
    ```
 
+<<<<<<< HEAD
 1. Right.click the ASP.NET Core project and choose **Reload Project**.
+=======
+1. Right-click the ASP.NET Core project and choose **Reload Project**.
+>>>>>>> e544f53505bc3ae40a8373f51b01c45500805bfa
 
 1. To publish, right click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, et al.
 

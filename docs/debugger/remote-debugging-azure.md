@@ -230,6 +230,8 @@ Download the version of the remote tools that matches your version of Visual Stu
 
     The breakpoint should be hit in Visual Studio.
 
+    If you are unable to attach or hit the breakpoint, see [Troubleshoot remote debugging](../debugger/troubleshooting-remote-debugging.md).
+
 ## Troubleshooting IIS deployment
 
 - If you can't connect to the host using the host name, try the IP address instead.
