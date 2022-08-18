@@ -184,7 +184,6 @@ The tool shows each async operation in a list view. You can see information such
 
 ![.NET Async Tool Stopped](../profiling/media/vs-2022/prof-tour-async-tool.png ".NET Async Tool Stopped")
 ::: moniker-end
-
 ::: moniker range="vs-2019"
 ## Analyze asynchronous code (.NET)
 
@@ -194,8 +193,6 @@ The tool shows each async operation in a list view. You can see information such
 
 ![.NET Async Tool Stopped](../profiling/media/async-tool-opened.png ".NET Async Tool Stopped")
 ::: moniker-end
-
-::: moniker range=">=vs-2019"
 
 ## Examine application events
 
@@ -232,8 +229,6 @@ Starting in Visual Studio 2019 version 16.7, you can use the [.NET Counters tool
 The tool shows live values for each counter in a list view.
 
 :::image type="content" source="../profiling/media/dotnet-counters-tool-collecting.png" alt-text=".NET Counter tool collecting.":::
-
-::: moniker-end
 
 ## Analyze resource consumption (XAML)
 
