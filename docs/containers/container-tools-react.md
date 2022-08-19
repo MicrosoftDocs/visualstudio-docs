@@ -312,11 +312,13 @@ The project uses the SPA Proxy during debugging. See [Improved single-age app (S
 
    ![Screenshot of Debug Launch Profile settings for client debugging.](./media/container-tools-react/vs-2022/launch-profiles-debugging.png)
 
-   This action changes the Docker entry in the *launchSettings.json* file and launches the correct URL for the local proxy running on the host. Find the *launchSettings.json* file in **Solution Explorer** under **Properties**. You should see something like the following code:
+   This action changes the Docker entry in the *launchSettings.json* file and launches the correct URL for the local proxy running on the host. Find the *launchSettings.json* file in **Solution Explorer** under **Properties**.
+
+1. You should see something like the following code:
 
    ```json
    "profiles": {
-       "Project3 SPA": {
+       "Docker": {
          "commandName": "Docker",
          "launchBrowser": true,
          "launchUrl": "https://localhost:44407",
@@ -327,6 +329,9 @@ The project uses the SPA Proxy during debugging. See [Improved single-age app (S
       }
    }
    ```
+
+   > [!IMPORTANT]
+   > Do not set the launch settings option `publishAllPorts` to `true` if you are using a proxy. That option publishes all exposed ports to a random port, which won't work when you set a specific port in the SPA proxy.
 
 1. Open the file *ClientApp/src/setupProxy.js* and change the line that sets the target to use the localhost address and port on the container. You can find the port on the **Ports** tab of the **Containers** window.
 
