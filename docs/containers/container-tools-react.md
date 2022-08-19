@@ -307,6 +307,12 @@ The project uses the SPA Proxy during debugging. See [Improved single-age app (S
    Note the local URL. You'll need to provide this in a debug launch profile, which is stored in your *launchSettings.json* file.
 
 1. Open the dropdown that contains debug profiles (next to the green triangle icon or **Start** button), and choose **{ProjectName} Debug Properties**, and choose the **Docker** profile.
+1. Check the **Environment variables** section and add the following environment variables if not already present:
+
+   ```
+   ASPNETCORE_ENVIRONMENT=Development,ASPNETCORE_HOSTINGSTARTUPASSEMBLIES=Microsoft.AspNetCore.SpaProxy
+   ```
+
 
 1. Set the **URL** to `https://localhost:{proxy-port}` where `{proxy-port}` is the port from the proxy server (from step 1).
 
@@ -318,14 +324,15 @@ The project uses the SPA Proxy during debugging. See [Improved single-age app (S
 
    ```json
    "profiles": {
-       "Docker": {
+      "Docker": {
          "commandName": "Docker",
          "launchBrowser": true,
-         "launchUrl": "https://localhost:44407",
          "environmentVariables": {
            "ASPNETCORE_ENVIRONMENT": "Development",
            "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy"
-         }
+         },
+         "launchUrl": "https://localhost:44445",
+         "useSSL": true
       }
    }
    ```
@@ -344,6 +351,8 @@ The project uses the SPA Proxy during debugging. See [Improved single-age app (S
 1. Launch the app with debugging (**F5**).
 
    ![Screenshot of running app.](media/container-tools-react/vs-2022/client-app-page.png)
+
+   If you get a build error trying to write the output assemblies, you might have to stop a previously running container to unlock the files.
 
 1. Verify that you can hit a breakpoint in client-side JavaScript code by setting a breakpoint in **ClientApp/src/components/Counter.js** in the **incrementCounter** function, and then try hitting the breakpoint by clicking the **Increment** button on the Counters page.
 
