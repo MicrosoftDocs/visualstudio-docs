@@ -353,6 +353,8 @@ The project uses the SPA Proxy during debugging. See [Improved single-age app (S
 
    ![Debugging server-side ASP.NET Core code](./media/container-tools-react/vs-2022/debugging-aspnet-core.png)
 
+1. If the container port changes, which can happen if you make a significant change, such as updating *launchSettings.json* or updating the debug launch profile in the IDE, you'll need to update the port in *setupProxy.js* and also restart the proxy. Terminate the current proxy (**Ctrl**+**C** in the command window), and then restart it using the same command `npm run start`.
+
 :::moniker-end
 
 :::moniker range="vs-2019"
