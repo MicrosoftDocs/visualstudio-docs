@@ -52,7 +52,7 @@ The remote debugger is supported on Windows 7 and newer and versions of Windows 
 > If you need to add permissions for additional users, change the authentication mode, or port number for the remote debugger, see [Configure the remote debugger](../debugger/remote-debugging.md#configure_msvsmon).
 
 ## <a name="remote_cplusplus"></a> Remote debug a C++ project
- In the following procedure, the name and path of the project is C:\remotetemp\MyMfc, and the name of the remote computer is **MySurface**.
+ In the following procedure, the path of the project is C:\remotetemp, and the name of the remote computer is **MySurface**.
 
 1. Create a C++ Console application named **CppConsoleApp**
 
@@ -78,6 +78,8 @@ The remote debugger is supported on Windows 7 and newer and versions of Windows 
 
     If you deploy additional folders, and want all the files in a folder deployed to the same folder, specify a folder name.
 
+   For more information on the properties, see [Project settings for a C++ Debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).
+
 6. In Solution Explorer, right-click the solution and choose **Configuration Manager**.
 
 7. For the **Debug** configuration, select the **Deploy** check box.
@@ -95,7 +97,7 @@ The remote debugger is supported on Windows 7 and newer and versions of Windows 
 11. On the Visual Studio computer, you should see that execution is stopped at the breakpoint.
 
     > [!TIP]
-    > Alternatively, you can deploy the files as a separate step. In the **Solution Explorer,** right-click the **mymfc** node and then choose **Deploy**.
+    > Alternatively, you can deploy the files as a separate step. In the **Solution Explorer,** right-click the project node and then choose **Deploy**.
 
     If you have non-code files that are required by the application, you can specify them in a semicolon delimited list in **Additional Files to Deploy** on the **Remote Windows Debugger** page.
 
