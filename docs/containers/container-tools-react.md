@@ -243,38 +243,38 @@ Update the Dockerfile by adding the following lines. This will copy node and npm
       :::moniker-end
       :::moniker range=">=vs-2022"
       ```Dockerfile
-      # escape=`
+      #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images   for faster debugging.
+
       #Depending on the operating system of the host machines(s) that will build or run the containers, the image specified in the FROM statement may need to be changed.
       #For more information, please see https://aka.ms/containercompat
-      FROM mcr.microsoft.com/powershell AS downloadnodejs
+      # escape=`
+      FROM mcr.microsoft.com/powershell:nanoserver-1809 AS downloadnodejs
       ENV NODE_VERSION=14.16.0
       SHELL ["pwsh", "-Command", "$ErrorActionPreference = 'Stop';$ProgressPreference='silentlyContinue';"]
-      RUN Invoke-WebRequest -OutFile nodejs.zip -UseBasicParsing "https://nodejs.org/dist/v$($env:NODE_VERSION)/node-v$($env:NODE_VERSION)-win-x64.zip"; \
-          Expand-Archive nodejs.zip -DestinationPath C:\; \
-          Rename-Item "C:\node-v$($env:NODE_VERSION)-win-x64" c:\nodejs
+      RUN Invoke-WebRequest -OutFile nodejs.zip -UseBasicParsing "https://nodejs.org/dist/v$($env:NODE_VERSION)/node-v$($env:NODE_VERSION)-win-x64.zip"; Expand-Archive nodejs.zip -DestinationPath C:\; Rename-Item "C:\node-v$($env:NODE_VERSION)-win-x64" c:\nodejs
 
-      FROM mcr.microsoft.com/dotnet/core/aspnet:6.0 AS base
+      FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
       WORKDIR /app
       EXPOSE 80
       EXPOSE 443
-      COPY --from=downloadnodejs C:\nodejs\ C:\Windows\system32\
+      COPY --from=downloadnodejs C:\\nodejs\\ C:\\Windows\\system32\\
 
-      FROM mcr.microsoft.com/dotnet/core/sdk:6.0 AS build
-      COPY --from=downloadnodejs C:\nodejs\ C:\Windows\system32\
+      FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+      COPY --from=downloadnodejs C:\\nodejs\\ C:\\Windows\\system32\\
       WORKDIR /src
-      COPY ["WebApplicationReact1/WebApplicationReact1.csproj", "WebApplicationReact1/"]
-      RUN dotnet restore "WebApplicationReact1/WebApplicationReact1.csproj"
+      COPY ["Project1-SPA-Windows/Project1-SPA-Windows.csproj", "Project1-SPA-Windows/"]
+      RUN dotnet restore "Project1-SPA-Windows/Project1-SPA-Windows.csproj"
       COPY . .
-      WORKDIR "/src/WebApplicationReact1"
-      RUN dotnet build "WebApplicationReact1.csproj" -c Release -o /app/build
+      WORKDIR "/src/Project1-SPA-Windows"
+      RUN dotnet build "Project1-SPA-Windows.csproj" -c Release -o /app/build
 
       FROM build AS publish
-      RUN dotnet publish "WebApplicationReact1.csproj" -c Release -o /app/publish
+      RUN dotnet publish "Project1-SPA-Windows.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
       FROM base AS final
       WORKDIR /app
       COPY --from=publish /app/publish .
-      ENTRYPOINT ["dotnet", "WebApplicationReact1.dll"]
+      ENTRYPOINT ["dotnet", "Project1-SPA-Windows.dll"]
       ```
 
       ::: moniker-end
