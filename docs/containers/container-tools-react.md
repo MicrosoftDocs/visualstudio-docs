@@ -330,7 +330,7 @@ The project uses the SPA Proxy during debugging. See [Improved single-age app (S
            "ASPNETCORE_ENVIRONMENT": "Development",
            "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy"
          },
-         "launchUrl": "https://localhost:44445",
+         "launchUrl": "https://localhost:44407",
          "useSSL": true
       }
    }
