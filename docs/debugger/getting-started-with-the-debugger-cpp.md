@@ -2,7 +2,7 @@
 title: "Tutorial: Debug C++ code"
 description: Learn features of the Visual Studio debugger and how to start the debugger, step through code, and inspect data in a C++ application.
 ms.custom: "debug-experiment,  vs-acquisition, get-started"
-ms.date: 02/04/2020
+ms.date: 08/18/2022
 ms.technology: vs-ide-debug
 ms.topic: tutorial
 dev_langs:
@@ -53,9 +53,6 @@ If you need to install the workload but already have Visual Studio, go to **Tool
 
 First, you'll create a C++ console application project. The project type comes with all the template files you'll need, before you've even added anything!
 
-
-::: moniker range=">=vs-2019"
-
 1. Open Visual Studio.
 
    If the start window is not open, choose **File** > **Start Window**.
@@ -66,7 +63,12 @@ First, you'll create a C++ console application project. The project type comes w
 
    After you apply the language and platform filters, choose the **Console App** template, and then choose **Next**.
 
+   ::: moniker range=">= vs-2022"
+   ![Choose the C++ template for the Console App](../debugger/media/vs-2022/get-started-create-console-project-cpp.png)
+   ::: moniker-end
+   ::: moniker range="vs-2019"
    ![Choose the C++ template for the Console App](../debugger/media/vs-2019/get-started-create-console-project-cpp.png)
+   ::: moniker-end
 
    > [!NOTE]
    > If you do not see the **Console App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **Desktop development with C++** workload.
@@ -74,8 +76,6 @@ First, you'll create a C++ console application project. The project type comes w
 1. In the **Configure your new project** window, type or enter *get-started-debugging* in the **Project name** box. Then, choose **Create**.
 
    Visual Studio opens your new project.
-
-::: moniker-end
 
 ## Create the application
 
