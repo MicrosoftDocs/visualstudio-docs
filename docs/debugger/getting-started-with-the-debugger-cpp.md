@@ -243,9 +243,14 @@ Features that allow you to inspect variables are one of the most useful features
 
 1. Expand the `letters` variable to show the elements that it contains.
 
-     ![Inspect variables in the Locals Window](../debugger/media/get-started-locals-window-cpp.png "Locals Window")
+   ::: moniker range=">= vs-2022"
+   ![Inspect variables in the Locals Window](../debugger/media/vs-2022/get-started-locals-window-cpp.png "Locals Window")
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   ![Inspect variables in the Locals Window](../debugger/media/get-started-locals-window-cpp.png "Locals Window")
+   ::: moniker-end
 
-    The **Locals** window shows you the variables that are in the current [scope](https://www.wikipedia.org/wiki/Scope_(computer_science)), that is, the current execution context.
+   The **Locals** window shows you the variables that are in the current [scope](https://www.wikipedia.org/wiki/Scope_(computer_science)), that is, the current execution context.
 
 ## Set a watch
 
@@ -263,7 +268,12 @@ Features that allow you to inspect variables are one of the most useful features
 
 2. Click **F11** a few times until you see the debugger pause in the `SendMessage` method. Look at the **Call Stack** window.
 
+    ::: moniker range=">= vs-2022"
+    ![Examine the call stack](../debugger/media/vs-2022/get-started-call-stack-cpp.png "ExamineCallStack")
+    ::: moniker-end
+    ::: moniker range="vs-2019"
     ![Examine the call stack](../debugger/media/get-started-call-stack-cpp.png "ExamineCallStack")
+    ::: moniker-end
 
     The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `SendMessage` method in this app). The second line shows that `SendMessage` was called from the `main` method, and so on.
 
