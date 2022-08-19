@@ -74,9 +74,9 @@ The remote debugger is supported on Windows 7 and newer and versions of Windows 
    |Connection|Remote with Windows Authentication|
    |Debugger Type|Native Only|
    |Deployment Directory|C:\remotetemp|
-   |Additional Files to Deploy|$(ProjectDir)\data\mydata.txt|
+   |Additional Files to Deploy|$(ProjectDir)\data|
 
-    If you deploy additional files (optional), the folder must exist on both machines.
+    If you deploy additional folders, and want all the files in a folder deployed to the same folder, specify a folder name.
 
 6. In Solution Explorer, right-click the solution and choose **Configuration Manager**.
 
