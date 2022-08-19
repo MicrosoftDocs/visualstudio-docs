@@ -62,7 +62,7 @@ The remote debugger is supported on Windows 7 and newer and versions of Windows 
 
 4. Set the **Debugger to launch** to **Remote Windows Debugger**.
 
-    ![Screenshot of the Debugging tab in the Visual Studio Solution Explorer Properties. The Debugger to launch property is set to Remote Windows Debugger.](../debugger/media/remotedebuggingcplus.png)
+    ![Screenshot of the Debugging tab in the Visual Studio Solution Explorer Properties. The Debugger to launch property is set to Remote Windows Debugger.](../debugger/media/remote-debugging-cpp.png)
 
 5. Make the following changes to the properties:
 
@@ -73,8 +73,8 @@ The remote debugger is supported on Windows 7 and newer and versions of Windows 
    |Remote Server Name|MJO-DL:*portnumber*|
    |Connection|Remote with Windows Authentication|
    |Debugger Type|Native Only|
-   |Deployment Directory|C:\remotetemp.|
-   |Additional Files to Deploy|C:\data\mymfcdata.txt.|
+   |Deployment Directory|C:\remotetemp|
+   |Additional Files to Deploy|C:\data\mymfcdata.txt|
 
     If you deploy additional files (optional), the folder must exist on both machines.
 
@@ -82,7 +82,7 @@ The remote debugger is supported on Windows 7 and newer and versions of Windows 
 
 7. For the **Debug** configuration, select the **Deploy** check box.
 
-    ![Screenshot of the Configuration Manager in the Visual Studio Solution Explorer. The Debug configuration is selected, and Deploy is checked.](../debugger/media/remotedebugcplusdeploy.png)
+    ![Screenshot of the Configuration Manager in the Visual Studio Solution Explorer. The Debug configuration is selected, and Deploy is checked.](../debugger/media/remote-debug-cpp-deploy.png)
 
 8. Start debugging (**Debug > Start Debugging**, or **F5**).
 
