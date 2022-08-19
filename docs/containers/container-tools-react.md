@@ -284,75 +284,86 @@ Update the Dockerfile by adding the following lines. This will copy node and npm
 ## Debug
 
 :::moniker range=">=vs-2022"
-Set the launch properties for debugging. You can use the dropdown menu next to the Start button, and choose **Debug properties**. In the **Launch profile** dialog comes up, choose **Docker**.
+The project uses the SPA Proxy during debugging. See [Improved single-age app (SPA) templates](https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-net-6-preview-4/#improved-single-page-app-spa-templates). When debugging, the JavaScript client runs on the host machine, but the ASP.NET Core server code runs in the container. When published, the proxy is not run, and the client code runs on the same server as the ASP.NET Core code.  You already have a Debug profile **Docker* that you can use to debug the server code. To debug the JavaScript client code, you can create an additional debug profile for debugging the JavaScript client code. You'll also need to start the proxy manually from a command prompt when debugging JavaScript. You can leave it running through many debug sessions.
 
-Set **Environment variables** to the following. Your SSL port number should match the HTTPS **Host Port** from the **Ports** tab of the **Containers** window.
+1. Build the project, if not already built.
 
+1. Open a Visual Studio dev command prompt, go to the ClientApp folder in your project, and then give the command, `npm run start`. You should see something like this:
+
+   ```output
+   Compiled successfully!
+
+   You can now view project3_spa in the browser.
+
+     Local:            https://localhost:44407
+     On Your Network:  https://192.168.1.5:44407
+
+   Note that the development build is not optimized.
+   To create a production build, use npm run build.
+   
+   webpack compiled successfully
    ```
-   ASPNETCORE_ENVIRONMENT=Development,ASPNETCORE_HOSTINGSTARTUPASSEMBLIES=Microsoft.AspNetCore.SpaProxy,ASPNETCORE_HTTPS_PORT=<your SSL port>,ASPNETCORE_URLS=https:////+:443;http:////+:80
+
+   Note the local URL. You'll need to provide this in a debug launch profile, which is stored in your *launchSettings.json* file.
+
+1. Open the dropdown that contains debug profiles (next to the green triangle icon or **Start** button), and choose **{ProjectName} Debug Properties**, and choose the **Docker** profile.
+
+1. Set the **URL** to `https://localhost:{proxy-port}` where `{proxy-port}` is the port from the proxy server (from step 1).
+
+   ![Screenshot of Debug Launch Profile settings for client debugging.](./media/container-tools-react/vs-2022/launch-profiles-debugging.png)
+
+   This action changes the Docker entry in the *launchSettings.json* file and launches the correct URL for the local proxy running on the host. Find the *launchSettings.json* file in **Solution Explorer** under **Properties**. You should see something like the following code:
+
+   ```json
+   "profiles": {
+       "Project3 SPA": {
+         "commandName": "Docker",
+         "launchBrowser": true,
+         "launchUrl": "https://localhost:44407",
+         "environmentVariables": {
+           "ASPNETCORE_ENVIRONMENT": "Development",
+           "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy"
+         }
+      }
+   }
    ```
 
-This action changes the Docker entry in the *launchSettings.json* file and enables the SPA Proxy to work correctly. Find the *launchSettings.json* file in **Solution Explorer** under **Properties**. You should see something like this, but with your app's assigned port numbers:
+1. Open the file *ClientApp/src/setupProxy.js* and change the line that sets the target to use the localhost address and port on the container. You can find the port on the **Ports** tab of the **Containers** window.
 
-```json
-    "Docker": {
-      "commandName": "Docker",
-      "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
-      "environmentVariables": {
-        "ASPNETCORE_URLS": "https://+:443;http://+:80",
-        "ASPNETCORE_HTTPS_PORT": "7136",
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy"
-      },
-      "publishAllPorts": true,
-      "useSSL": true,
-      "httpPort": 5136,
-      "sslPort":  7136
-    }
-```
+   ```JavaScript
+   const target =  'https://localhost:{container-port}';
+   ```
+
+   If you're using HTTPS, be sure to choose the right port for HTTPS.
+
+1. Launch the app with debugging (**F5**).
+
+   ![Screenshot of running app.](media/container-tools-react/vs-2022/client-app-page.png)
+
+1. Verify that you can hit a breakpoint in client-side JavaScript code by setting a breakpoint in **ClientApp/src/components/Counter.js** in the **incrementCounter** function, and then try hitting the breakpoint by clicking the **Increment** button on the Counters page.
+
+   ![Debugging client-side JavaScript](./media/container-tools-react/vs-2022/debugging-client-javascript.png)
+
+1. Next, try hitting a breakpoint in the server-side ASP.NET Core code. Set a breakpoint in *WeatherController.cs* in the `Get` method and try appending `/weatherforecast` to the base localhost and port URL to activate that code.
+
+   ![Debugging server-side ASP.NET Core code](./media/container-tools-react/vs-2022/debugging-aspnet-core.png)
+
 :::moniker-end
 
-Select **Docker** from the debug drop-down in the toolbar, and start debugging the app. You might see a message with a prompt about trusting a certificate; choose to trust the certificate to continue.  The first time you build, docker downloads the base images, so it might take a bit longer.
+:::moniker range="vs-2019"
 
-:::moniker range=">=vs-2022"
-The project uses the SPA Proxy. If the browser loads the front page before the proxy is ready, you might see a page that says you will automatically redirected when the proxy is ready.
-
-If the page never redirects, check that you are able to run the proxy. Open a Visual Studio dev command prompt, go to the ClientApp folder in your project, and then give the command, `npm run start`. You should see something like this:
-
-```
-> projectspa1@0.1.0 prestart
-> node aspnetcore-https && node aspnetcore-react
-
-
-> projectspa1@0.1.0 start
-> rimraf ./build && react-scripts start
-
-[HPM] Proxy created: [ '/weatherforecast' ]  ->  http://localhost:30449
-i ｢wds｣: Project is running at https://0.0.0.0:44445/
-i ｢wds｣: webpack output is served from
-i ｢wds｣: Content not from webpack is served from c:\Users\ghogen\source\repos\ProjectSpa1\ProjectSpa1\ClientApp\public
-i ｢wds｣: 404s will fallback to /
-Starting the development server...
-Compiled successfully!
-```
-
-If that succeeds, try starting the app again in the browser. If it doesn't succeed, check again that everything is correct in your *launchSettings.json* file.
-:::moniker-end
+Select **Docker** from the debug drop-down in the toolbar, and start debugging the app. You might see a message with a prompt about trusting a certificate; choose to trust the certificate to continue.  The first time you build, Docker downloads the base images, so it might take a bit longer.
 
 The **Container Tools** option in the **Output** window shows what actions are taking place. You should see the installation steps associated with *npm.exe*.
 
 The browser shows the app's home page.
 
-   ::: moniker range="vs-2019"
-   ![Screenshot of running app.](media/container-tools-react/vs-2019/running-app.png)
-   ::: moniker-end
-   ::: moniker range=">=vs-2022"
-   ![Screenshot of running app.](media/container-tools-react/vs-2022/client-app-page.png)
-   ::: moniker-end
-
+![Screenshot of running app.](media/container-tools-react/vs-2019/running-app.png)
+:::moniker-end
 
 :::moniker range=">=vs-2019"
+
+## Containers window
 
 Open the **Containers** tool window. You can find it on the menu under **View** > **Other Windows** > **Containers**, or press **Ctrl**+**Q** and start typing `containers` in the search box, then choose **Containers** window from the results. When the window comes up, dock it on the bottom under the editor pane.
 
