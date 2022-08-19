@@ -5,7 +5,7 @@ ms.custom: SEO-VS-2020
 author: ghogen
 description: Learn how to create a containerized React SPA app with Visual Studio Container Tools and Docker 
 ms.author: ghogen
-ms.date: 10/25/2021
+ms.date: 08/25/2022
 ms.technology: vs-container-tools
 ms.topic: quickstart
 ---
@@ -39,7 +39,6 @@ With Visual Studio, you can easily build, debug, and run containerized ASP.NET C
 For Docker installation, first review the information at [Docker Desktop for Windows: What to know before you install](https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install). Next, install [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows).
 
 ## Create a project and add Docker support
-
 
 ::: moniker range="vs-2019"
 
@@ -114,19 +113,19 @@ RUN apt-get install -y libpng-dev libjpeg-dev curl libxi6 build-essential libgl1
 RUN curl -sL https://deb.nodesource.com/setup_lts.x | bash -
 RUN apt-get install -y nodejs
 WORKDIR /src
-COPY ["ReactSPA/ReactSPA.csproj", "ReactSPA/"]
-RUN dotnet restore "ReactSPA/ReactSPA.csproj"
+COPY ["ProjectSPA1/ProjectSPA1.csproj", "ProjectSPA1/"]
+RUN dotnet restore "ProjectSPA1/ProjectSPA1.csproj"
 COPY . .
-WORKDIR "/src/ReactSPA"
-RUN dotnet build "ReactSPA.csproj" -c Release -o /app/build
+WORKDIR "/src/ProjectSPA1"
+RUN dotnet build "ProjectSPA1.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "ReactSPA.csproj" -c Release -o /app/publish
+RUN dotnet publish "ProjectSPA1.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "ReactSPA.dll"]
+ENTRYPOINT ["dotnet", "ProjectSPA1.dll"]
 ```
 
 :::moniker-end
@@ -152,19 +151,19 @@ RUN apt-get install -y libpng-dev libjpeg-dev curl libxi6 build-essential libgl1
 RUN curl -sL https://deb.nodesource.com/setup_lts.x | bash -
 RUN apt-get install -y nodejs
 WORKDIR /src
-COPY ["ReactSPA/ReactSPA.csproj", "ReactSPA/"]
-RUN dotnet restore "ReactSPA/ReactSPA.csproj"
+COPY ["ProjectSPA1/ProjectSPA1.csproj", "ProjectSPA1/"]
+RUN dotnet restore "ProjectSPA1/ProjectSPA1.csproj"
 COPY . .
-WORKDIR "/src/ReactSPA"
-RUN dotnet build "ReactSPA.csproj" -c Release -o /app/build
+WORKDIR "/src/ProjectSPA1"
+RUN dotnet build "ProjectSPA1.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "ReactSPA.csproj" -c Release -o /app/publish
+RUN dotnet publish "ProjectSPA1.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "ReactSPA.dll"]
+ENTRYPOINT ["dotnet", "ProjectSPA1.dll"]
 ```
 
 :::moniker-end
@@ -225,19 +224,19 @@ Update the Dockerfile by adding the following lines. This will copy node and npm
       FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
       COPY --from=downloadnodejs C:\nodejs\ C:\Windows\system32\
       WORKDIR /src
-      COPY ["WebApplicationReact1/WebApplicationReact1.csproj", "WebApplicationReact1/"]
-      RUN dotnet restore "WebApplicationReact1/WebApplicationReact1.csproj"
+      COPY ["ProjectSPA1/ProjectSPA1.csproj", "ProjectSPA1/"]
+      RUN dotnet restore "ProjectSPA1/ProjectSPA1.csproj"
       COPY . .
-      WORKDIR "/src/WebApplicationReact1"
-      RUN dotnet build "WebApplicationReact1.csproj" -c Release -o /app/build
+      WORKDIR "/src/ProjectSPA1"
+      RUN dotnet build "ProjectSPA1.csproj" -c Release -o /app/build
 
       FROM build AS publish
-      RUN dotnet publish "WebApplicationReact1.csproj" -c Release -o /app/publish
+      RUN dotnet publish "ProjectSPA1.csproj" -c Release -o /app/publish
 
       FROM base AS final
       WORKDIR /app
       COPY --from=publish /app/publish .
-      ENTRYPOINT ["dotnet", "WebApplicationReact1.dll"]
+      ENTRYPOINT ["dotnet", "ProjectSPA1.dll"]
       ```
 
       :::moniker-end
@@ -401,7 +400,6 @@ You can also view the images and inspect information about them. Choose the **Im
 ## Publish Docker images
 
 Once the develop and debug cycle of the app is completed, you can create a production image of the app.
-
 
 :::moniker range="vs-2019"
 
