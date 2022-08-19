@@ -43,7 +43,7 @@ You can also name and save a custom layout and then switch between layouts with 
 
 The IDE has two basic window types, *tool windows* and *document windows*. Tool windows include **Solution Explorer**, **Server Explorer**, **Output Window**, **Error List**, the designers, the debugger windows, and so on. Document windows contain source code files, arbitrary text files, config files, and so on. Tool windows can be resized and dragged by their title bar. Document windows can be dragged by their tab. Right-click on the tab or title bar to set other options on the window.
 
-The **Window** menu shows options for docking, floating, and hiding windows in the IDE. Right click on a window tab or title bar to see more options for that specific window. You can display more than one instance of certain tool windows at a time. For example, you can display more than one web browser window, and you can create additional instances of some tool windows by choosing **New Window** on the **Window** menu.
+The **Window** menu shows options for docking, floating, and hiding windows in the IDE. Right-click on a window tab or title bar to see more options for that specific window. You can display more than one instance of certain tool windows at a time. For example, you can display more than one web browser window, and you can create extra instances of some tool windows by choosing **New Window** on the **Window** menu.
 
 #### Split windows
 
@@ -64,24 +64,18 @@ You can also dock multiple windows to float together in a *raft* over or outside
 You can arrange windows in the following ways:
 
 - Pin document windows to the left of the tab well.
-
 - Tab-dock windows to the editing frame.
-
 - Dock tool windows to the edge of a frame in the IDE.
-
 - Float document or tool windows over or outside the IDE.
-
 - Hide tool windows along the edge of the IDE.
-
 - Display windows on different monitors.
-
 - Reset window placement to the default layout or to a saved custom layout.
 
 To arrange tool and document windows, you can place your cursor on the title bar of a window and then drag it to where you want it. Alternatively, you can right-click the title bar of the window to use its context menu, or you can use the commands on the **Window** menu.
 
 #### Dock windows
 
-When you click and drag the title bar of a tool window or the tab of document window, a guide diamond appears. During the drag operation, when the mouse cursor is over one of the arrows in the diamond, a shaded area appears that shows you where the window will be docked if you release the mouse button.
+When you select and drag the title bar of a tool window or the tab of document window, a guide diamond appears. During the drag operation, when the mouse cursor is over one of the arrows in the diamond, a shaded area appears that shows you where the window will be docked if you release the mouse button.
 
 To move a dockable window without snapping it into place, press the **Ctrl** key while you drag the window.
 
@@ -89,26 +83,26 @@ To return a tool window or document window to its most recent docked location, p
 
 The following illustration shows the guide diamond for document windows, which can only be docked within the editing frame:
 
-![Document window guide diamond](../ide/media/documentwindowguidediamonds.png)
+:::image type="content" source="media/document-window-guide-diamond.png" alt-text="Screenshot of the Document window guide diamond.":::
 
 Tool windows can be fastened to one side of a frame in the IDE or within the editing frame. A guide diamond appears when you drag a tool window to another location to help you to easily redock the window.
 
-![Tool Window Guide Diamonds](../ide/media/vs10guidediamond.png)
+:::image type="content" source="media/tool-window-guide-diamond.png" alt-text="Screenshot of the Tool window guide diamond.":::
 
-The following illustration shows **Solution Explorer** being docked in a new location that's demarcated by the blue shaded area:
+The following illustration shows **Solution Explorer** being docked in a new location that's demarcated by a purple shaded area:
 
-![Docking Solution Explorer in a new position](../ide/media/vs2015_dock_diamond.png)
+:::image type="content" source="media/docked-diamond-solution-explorer-example.png" alt-text="Screenshot of what appears in the IDE when you want to dock Solution Explorer in a new position.":::
 
 ### Close and auto-hide tool windows
 
-You can close a tool window by clicking the **X** in the upper right of the title bar. To reopen the window, select the tool windows you want by using **View** on the menu bar, or by using its associated keyboard shortcut.
+You can close a tool window by selecting the **X** in the upper right of the title bar. To reopen the window, select the tool windows you want by using **View** on the menu bar, or by using its associated keyboard shortcut.
 
 Tool windows support a feature named **Auto Hide**, which causes a window to slide out of the way when you use a different window. When a window is automatically hidden, its name appears on a tab at the edge of the IDE. To use the window again, select the tab so that the window slides back into view.
 
 :::image type="content" source="media/auto-hide.png" alt-text="Set of two screenshots that show the Auto Hide menu item and an associated set of tabbed tool windows when Auto Hide is selected." lightbox="media/auto-hide.png":::
 
 > [!TIP]
-> To set whether auto hide operates on tool windows individually or as docked groups, select or clear **Auto Hide button affects active tool window only** in the **Options** dialog box. For more information, see the [Options dialog box: Environment /> General](reference/general-environment-options-dialog-box.md) page.
+> To set whether auto hide operates on tool windows individually or as docked groups, select or clear **Auto Hide button affects active tool window only** in the **Options** dialog box. For more information, see the [Options dialog box: Environment > General](reference/general-environment-options-dialog-box.md) page.
 
 > [!NOTE]
 > Tool windows that have auto hide enabled may temporarily slide into view when the window has focus. To hide the window again, select an item outside of the current window. When the window loses focus, it slides back out of view.
@@ -118,11 +112,11 @@ Tool windows support a feature named **Auto Hide**, which causes a window to sli
 If you have a second monitor and your operating system supports it, you can choose which monitor displays a window. You can even group multiple windows together in *rafts* on other monitors.
 
 > [!TIP]
-> You can create multiple instances of **Solution Explorer** and move them to another monitor. Right-click the window and choose **New Solution Explorer View**. You can return all windows back to the original monitor by double-clicking while choosing the **Ctrl** key.
+> You can create multiple instances of **Solution Explorer** and move them to another monitor. Right-click the [Solution node](use-solution-explorer.md#solution-node-context-menu-options) and choose **New Solution Explorer View**. To close the extra instances, double-click each one while pressing the **Ctrl** key.
 
 #### Reset, name, and switch between window layouts
 
-You can return the IDE to the original window layout for your settings collection by using the **Reset Window Layout** command. When you run this command, the following actions occur:
+You can return the IDE to the original window layout for your settings collection by selecting **Windows** > **Reset Window Layout** from the menu bar. When you run this command, the following actions occur:
 
 - All windows are moved to their default positions.
 
@@ -154,7 +148,7 @@ First, create a test solution that has two projects, each with a different optim
 
 1. Add a new **SQL Server Database** project to the solution.
 
-1. Right-click on the new project in **Solution Explorer** and choose **View in Object Explorer**. This displays the **SQL Server Object Explorer** window, which enables you to access tables, views and other objects in your database. You can either float this window or leave it docked. Adjust the other tool windows the way you want them. For added realism, you can add an actual database, but it's not necessary for this walkthrough.
+1. Right-click on the new project in **Solution Explorer** and choose **View in Object Explorer**. When you do so, Visual Studio displays the **SQL Server Object Explorer** window, which enables you to access tables, views and other objects in your database. You can either float this window or leave it docked. Adjust the other tool windows the way you want them. For added realism, you can add an actual database, but it's not necessary for this walkthrough.
 
 1. When your layout is how you want it, from the main menu choose **Window** > **Save Window Layout**. Call this layout "DB Project." (We won't bother with a debug mode layout for this project.)
 
