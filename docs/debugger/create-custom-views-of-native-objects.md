@@ -490,7 +490,7 @@ You can also specify multi-dimensional arrays. In that case, the debugger needs 
 - The `Size` element accepts the implicit `$i` parameter, which it substitutes with the dimension index to find the length of the array in that dimension.
   - In the previous example, the expression `_M_extent.M_base[0]` should give the length of the 0th dimension, `_M_extent._M_base[1]` the 1st, and so on.
 - The `LowerBound` specifies the lower bound of each dimension of the array. For multi-dimensional arrays, you can specify an expression that uses the implicit `$i` parameter. The `$i` parameter will be substituted with the dimension index to find the lower bound of the array in that dimension.
-  - In the previous example, all dimensions will start at 0. However, if you had `($i == 1) ? 1000 : 100` as the lower bound. The 0th dimension will start at 100, and the 1st dimension will start at 1000.
+  - In the previous example, all dimensions will start at 0. However, if you had `($i == 1) ? 1000 : 100` as the lower bound, the 0th dimension will start at 100, and the 1st dimension will start at 1000.
     - E.g. `[100, 1000], [100, 1001], [100, 1002], ... [101, 1000], [101, 1001],...`
 
 Here's how a two-dimensional `Concurrency::array` object looks in the debugger window:
