@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: e49242bc-e9f2-49e8-8caa-f574d508aba6
-ms.date: 08/17/2022
+ms.date: 08/22/2022
 ms.topic: how-to
 description:  Learn how admins can delete subscription assignments in the Visual Studio Subscriptions Administration Portal
 ---
