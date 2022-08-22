@@ -64,10 +64,10 @@ First, you'll create a C++ console application project. The project type comes w
    After you apply the language and platform filters, choose the **Console App** template, and then choose **Next**.
 
    ::: moniker range=">= vs-2022"
-   ![Screenshot of choosing the C++ template for the Console App](../debugger/media/vs-2022/get-started-create-console-project-cpp.png)
+   ![Screenshot of choosing the C++ template for the Console App.](../debugger/media/vs-2022/get-started-create-console-project-cpp.png)
    ::: moniker-end
    ::: moniker range="vs-2019"
-   ![Screenshot of choosing the C++ template for the Console App](../debugger/media/vs-2019/get-started-create-console-project-cpp.png)
+   ![Screenshot of choosing the C++ template for the Console App.](../debugger/media/vs-2019/get-started-create-console-project-cpp.png)
    ::: moniker-end
 
    > [!NOTE]
@@ -146,7 +146,7 @@ First, you'll create a C++ console application project. The project type comes w
 
 2. Press **F5** or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging"), the app starts, and the debugger runs to the line of code where you set the breakpoint.
 
-    ![Screenshot of setting and hitting a breakpoint](../debugger/media/get-started-set-breakpoint-cpp.png)
+    ![Screenshot of setting and hitting a breakpoint.](../debugger/media/get-started-set-breakpoint-cpp.png)
 
     The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point (this statement has not yet executed).
 
@@ -168,7 +168,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
      The yellow pointer advances into the `SendMessage` method.
 
-     ![Screenshot of  using F11 to Step Into code](../debugger/media/get-started-f11-cpp.png "F10 Step Into")
+     ![Screenshot of  using F11 to Step Into code.](../debugger/media/get-started-f11-cpp.png "F10 Step Into")
 
      F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. (To move faster through code, we show you some other options also.) By default, the debugger skips over non-user code (if you want more details, see [Just My Code](../debugger/just-my-code.md)).
 
@@ -184,7 +184,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
 1. While paused at the method call, press **F10** (or choose **Debug > Step Over**) once.
 
-     ![Screenshot of using F10 to Step Over code](../debugger/media/get-started-step-over-cpp.png "F10 Step Over")
+     ![Screenshot of using F10 to Step Over code.](../debugger/media/get-started-step-over-cpp.png "F10 Step Over")
 
      Notice this time that the debugger does not step into the `SendMessage` method. **F10** advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing **F10** on the `SendMessage` method call (instead of **F11**), we skipped over the implementation code for `SendMessage` (which maybe we're not interested in right now). For more information on different ways to move through your code, see [Navigate code in the debugger](../debugger/navigating-through-code-with-the-debugger.md).
 
@@ -194,7 +194,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
 1. In the code editor, scroll down and hover over the `std::wcout` function in the `SendMessage` method until the green **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left. The tooltip for the button shows "Run execution to here".
 
-     ![Screenshot of using the Run to Click feature](../debugger/media/get-started-run-to-click-cpp.png "Run to Click")
+     ![Screenshot of using the Run to Click feature.](../debugger/media/get-started-run-to-click-cpp.png "Run to Click")
 
    > [!NOTE]
    > The **Run to Click** button is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]. (If you don't see the green arrow button, use **F11** in this example instead to advance the debugger to the right place.)
@@ -225,7 +225,7 @@ Features that allow you to inspect variables are one of the most useful features
 
 1. Press **F5** (or **Debug** > **Continue**) a few times to iterate several times through the `for` loop, pausing again at the breakpoint, and hovering over the `name` variable each time to check its value.
 
-     ![Screenshot of viewing a data tip](../debugger/media/get-started-data-tip-cpp.png "View a Data Tip")
+     ![Screenshot of viewing a data tip.](../debugger/media/get-started-data-tip-cpp.png "View a Data Tip")
 
      The value of the variable changes with each iteration of the `for` loop, showing values of `f`, then `fr`, then `fre`, and so on.
 
@@ -244,10 +244,10 @@ Features that allow you to inspect variables are one of the most useful features
 1. Expand the `letters` variable to show the elements that it contains.
 
    ::: moniker range=">= vs-2022"
-   ![Screenshot of inspecting variables in the Locals Window](../debugger/media/vs-2022/get-started-locals-window-cpp.png "Locals Window")
+   ![Screenshot of inspecting variables in the Locals Window.](../debugger/media/vs-2022/get-started-locals-window-cpp.png "Locals Window")
    ::: moniker-end
    ::: moniker range="vs-2019"
-   ![Screenshot of inspecting variables in the Locals Window](../debugger/media/get-started-locals-window-cpp.png "Locals Window")
+   ![Screenshot of inspecting variables in the Locals Window.](../debugger/media/get-started-locals-window-cpp.png "Locals Window")
    ::: moniker-end
 
    The **Locals** window shows you the variables that are in the current [scope](https://www.wikipedia.org/wiki/Scope_(computer_science)), that is, the current execution context.
@@ -269,10 +269,10 @@ Features that allow you to inspect variables are one of the most useful features
 2. Click **F11** a few times until you see the debugger pause in the `SendMessage` method. Look at the **Call Stack** window.
 
     ::: moniker range=">= vs-2022"
-    ![Screenshot of examining the call stack](../debugger/media/vs-2022/get-started-call-stack-cpp.png "ExamineCallStack")
+    ![Screenshot of examining the call stack.](../debugger/media/vs-2022/get-started-call-stack-cpp.png "ExamineCallStack")
     ::: moniker-end
     ::: moniker range="vs-2019"
-    ![Screenshot of examining the call stack](../debugger/media/get-started-call-stack-cpp.png "ExamineCallStack")
+    ![Screenshot of examining the call stack.](../debugger/media/get-started-call-stack-cpp.png "ExamineCallStack")
     ::: moniker-end
 
     The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `SendMessage` method in this app). The second line shows that `SendMessage` was called from the `main` method, and so on.
