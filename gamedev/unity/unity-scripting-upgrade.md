@@ -343,5 +343,4 @@ The sample contains examples of several .NET 4.x features. You can download the 
 * [History of C#](/dotnet/csharp/whats-new/csharp-version-history)
 * [What's New in C# 6](/dotnet/csharp/whats-new/csharp-6)
 * [Asynchronous programming in Unity, Using Coroutine and TAP](/archive/blogs/appconsult/unity-coroutine-tap-en-us)
-* [Async-Await Instead of Coroutines in Unity 2017](http://www.stevevermeulen.com/index.php/2017/09/using-async-await-in-unity3d-2017/)
 * [Unity Forum - Experimental Scripting Previews](https://forum.unity.com/forums/experimental-scripting-previews.107/)
