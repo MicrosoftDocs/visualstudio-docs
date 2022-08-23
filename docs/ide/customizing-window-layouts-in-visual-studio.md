@@ -132,7 +132,7 @@ First, create a test solution that has two projects, each with a different optim
 
 ##### Create a UI project and customize the layout
 
-1. Create a new C# **WPF Application** project. Imagine that in this project, you'll be developing a user interface. You want to maximize the space for the designer window and move other tool windows out of the way.
+1. Create a new C# **Windows Forms App** project. Imagine that in this project, you'll be developing a user interface. You want to maximize the space for the designer window and move other tool windows out of the way.
 
 1. If you have multiple monitors, pull over the **Solution Explorer** window and the **Properties** window to your second monitor. On a single monitor system, try closing all the windows except the designer.
 
@@ -146,24 +146,28 @@ First, create a test solution that has two projects, each with a different optim
 
 ##### Create a database project and layout
 
-1. Add a new **SQL Server Database** project to the solution.
+Next, we'll add a new SQL Server database project to the solution. Here's how.
 
-1. Right-click on the new project in **Solution Explorer** and choose **View in Object Explorer**. When you do so, Visual Studio displays the **SQL Server Object Explorer** window, which enables you to access tables, views and other objects in your database. You can either float this window or leave it docked. Adjust the other tool windows the way you want them. For added realism, you can add an actual database, but it's not necessary for this walkthrough.
+1. Right-click the solution node in **Solution Explorer** to open its context menu, select **Add**, and then select **New Project**.
 
-1. When your layout is how you want it, from the main menu choose **Window** > **Save Window Layout**. Call this layout "DB Project." (We won't bother with a debug mode layout for this project.)
+1. In the **Add a new project** dialog, select **SQL** from the **All project types** drop-down list, and then select **SQL Server Database Project**. (You can also use search to find the template by pressing **Alt**+**S** and then entering `SQL` in the search box.)
+
+1. Right-click the new database project in **Solution Explorer**, and then select **View in Object Explorer**.
+
+   When you do so, Visual Studio displays the **SQL Server Object Explorer** window, which enables you to access tables, views and other objects in your database. You can either float this window or leave it docked. Adjust the other tool windows the way you want them. For added realism, you can add an actual database, but it's not necessary for this walkthrough.
+
+1. When your layout is how you want it, select **Window** from the menu bar, and then select **Save Window Layout**. Name this layout "DB Project." (We won't bother with a debug mode layout for this project.)
 
 ##### Switch between the layouts
 
-To switch between layouts, use the keyboard shortcuts, or from the main menu choose **Window** > **Apply Window Layout**.
+To switch between layouts, use the keyboard shortcuts, or from the main menu, select **Window** > **Apply Window Layout**.
 
 ![Apply window layout menu](../ide/media/vs2015_applywindowlayout.png)
-
-After applying the UI layout, note how the layout is preserved both in editing mode and in debug mode.
 
 If you have a multi-monitor setup at work and a single monitor laptop at home, you can create layouts that are optimized for each machine.
 
 > [!NOTE]
-> If you apply a multi-monitor layout on a single-monitor system, the floating windows that you placed on the second monitor will now be hidden behind the Visual Studio window. You can bring these windows to the front by pressing **Alt + Tab**. If you later open Visual Studio with multiple monitors, you can restore the windows to their specified positions by re-applying the layout.
+> If you apply a multi-monitor layout on a single-monitor system, the floating windows that you placed on the second monitor will now be hidden behind the Visual Studio window. You can bring these windows to the front by pressing **Alt + Tab**. If you later open Visual Studio with multiple monitors, you can restore the windows to their specified positions by reapplying the layout.
 
 #### Manage and roam your layouts
 
