@@ -39,6 +39,7 @@ The **File IO** tool provides file read and write information with files read du
 ![Screenshot showing File IO tool stopped.](./media/vs-2022/file-io-after.png "File IO tool stopped")
 
 ## Analyze the File IO report
+
 Select **File Reads** to view all the File Reads on one page and select **File Writes** for writes. If you right-click on one of the rows, you can go to the source in your code. If an aggregate row was read multiple times, expand it to see the individual read operations for that file with its frequency, if they were read multiple times.
 
 ![Screenshot showing File Reads selected.](./media/vs-2022/file-io-reads.png "File Reads selected")
