@@ -83,15 +83,15 @@ To return a tool window or document window to its most recent docked location, p
 
 The following illustration shows the guide diamond for document windows, which can only be docked within the editing frame:
 
-:::image type="content" source="media/document-window-guide-diamond.png" alt-text="Screenshot of the Document window guide diamond.":::
+:::image type="content" source="media/document-window-guide-diamond-sml.png" alt-text="Screenshot of the Document window guide diamond." lightbox="media/document-window-guide-diamond-lrg.png":::
 
 Tool windows can be fastened to one side of a frame in the IDE or within the editing frame. A guide diamond appears when you drag a tool window to another location to help you to easily redock the window.
 
-:::image type="content" source="media/tool-window-guide-diamond.png" alt-text="Screenshot of the Tool window guide diamond.":::
+:::image type="content" source="media/tool-window-guide-diamond-sml.png" alt-text="Screenshot of the Tool window guide diamond." lightbox="media/tool-window-guide-diamond-lrg.png":::
 
 The following illustration shows **Solution Explorer** being docked in a new location that's demarcated by a purple shaded area:
 
-:::image type="content" source="media/docked-diamond-solution-explorer-example.png" alt-text="Screenshot of what appears in the IDE when you want to dock Solution Explorer in a new position.":::
+:::image type="content" source="media/docked-diamond-solution-explorer-example-sml.png" alt-text="Screenshot of what appears in the IDE when you want to dock Solution Explorer in a new position." lightbox="media/docked-diamond-solution-explorer-example-lrg.png":::
 
 ### Close and auto-hide tool windows
 
@@ -99,7 +99,7 @@ You can close a tool window by selecting the **X** in the upper right of the tit
 
 Tool windows support a feature named **Auto Hide**, which causes a window to slide out of the way when you use a different window. When a window is automatically hidden, its name appears on a tab at the edge of the IDE. To use the window again, select the tab so that the window slides back into view.
 
-:::image type="content" source="media/auto-hide.png" alt-text="Set of two screenshots that show the Auto Hide menu item and an associated set of tabbed tool windows when Auto Hide is selected." lightbox="media/auto-hide.png":::
+:::image type="content" source="media/auto-hide-sml.png" alt-text="Set of two screenshots that show the Auto Hide menu item and an associated set of tabbed tool windows when Auto Hide is selected." lightbox="media/auto-hide-lrg.png":::
 
 > [!TIP]
 > To set whether auto hide operates on tool windows individually or as docked groups, select or clear **Auto Hide button affects active tool window only** in the **Options** dialog box. For more information, see the [Options dialog box: Environment > General](reference/general-environment-options-dialog-box.md) page.
@@ -112,7 +112,7 @@ Tool windows support a feature named **Auto Hide**, which causes a window to sli
 If you have a second monitor and your operating system supports it, you can choose which monitor displays a window. You can even group multiple windows together in *rafts* on other monitors.
 
 > [!TIP]
-> You can create multiple instances of **Solution Explorer** and move them to another monitor. Right-click the [Solution node](use-solution-explorer.md#solution-node-context-menu-options) and choose **New Solution Explorer View**. To close the extra instances, double-click each one while pressing the **Ctrl** key.
+> You can create multiple instances of **Solution Explorer** and move them to another monitor. Right-click the [**Solution** node](use-solution-explorer.md#solution-node-context-menu-options) and choose **New Solution Explorer View**. To close the extra instances, double-click each one while pressing the **Ctrl** key.
 
 #### Reset, name, and switch between window layouts
 
@@ -132,15 +132,15 @@ First, create a test solution that has two projects, each with a different optim
 
 ##### Create a UI project and customize the layout
 
-1. Create a new C# **Windows Forms App** project. Imagine that in this project, you'll be developing a user interface. You want to maximize the space for the designer window and move other tool windows out of the way.
+1. Create a new C# **WPF Application** project. Imagine that in this project, you'll be developing a user interface. You want to maximize the space for the designer window and move other tool windows out of the way.
 
-1. If you have multiple monitors, pull over the **Solution Explorer** window and the **Properties** window to your second monitor. On a single monitor system, try closing all the windows except the designer.
+1. If you have multiple monitors, pull over the **Solution Explorer** window and the **Properties** window to your second monitor.
+
+   If you're using a single monitor only, try closing all the windows except the designer.
 
 1. Press **Ctrl**+**Alt**+**X** to display the **Toolbox** window. If the window is docked, drag it so that it floats somewhere where you'd like to position it.
 
-1. Press **F5** to put Visual Studio into debugging mode. Adjust the position of the **Autos**, **Call Stack**, and **Output** debugging windows the way you want them. The layout you're about to create will apply to both editing mode and debugging mode.
-
-1. When your layouts in both debugging mode and editing mode are how you want them, choose **Window** > **Save Window Layout**. Call this layout "Designer."
+1. When your layout is how you want them, choose **Window** > **Save Window Layout**. Call this layout "Designer".
 
      Notice that your new layout is assigned the next keyboard shortcut from the reserved list of **Ctrl**+**Alt**+**1...0**.
 
@@ -148,9 +148,9 @@ First, create a test solution that has two projects, each with a different optim
 
 Next, we'll add a new SQL Server database project to the solution. Here's how.
 
-1. Right-click the solution node in **Solution Explorer** to open its context menu, select **Add**, and then select **New Project**.
+1. Right-click the **Solution** node in **Solution Explorer** to open its context menu, select **Add**, and then select **New Project**.
 
-1. In the **Add a new project** dialog, select **SQL** from the **All project types** drop-down list, and then select **SQL Server Database Project**. (You can also use search to find the template by pressing **Alt**+**S** and then entering `SQL` in the search box.)
+1. In the **Add a new project** dialog, select **SQL** from the **All project types** drop-down list, and then select **SQL Server Database Project**. (You can also use the Search box to find the template. To do so, enter 'SQL' as a search string in the box that includes the following text: **Search for templates (Alt+S)**.)
 
 1. Right-click the new database project in **Solution Explorer**, and then select **View in Object Explorer**.
 
@@ -162,7 +162,7 @@ Next, we'll add a new SQL Server database project to the solution. Here's how.
 
 To switch between layouts, use the keyboard shortcuts, or from the main menu, select **Window** > **Apply Window Layout**.
 
-![Apply window layout menu](../ide/media/vs2015_applywindowlayout.png)
+:::image type="content" source="media/apply-window-layout-sml.png" alt-text="Screenshot of the 'Apply window layout' menu." lightbox="media/apply-window-layout-lrg.png":::
 
 If you have a multi-monitor setup at work and a single monitor laptop at home, you can create layouts that are optimized for each machine.
 
@@ -173,7 +173,7 @@ If you have a multi-monitor setup at work and a single monitor laptop at home, y
 
 You can remove, rename, or reorder your custom layout by choosing **Window** > **Manage Window Layouts**. If you move a layout, the key binding is automatically adjusted to reflect the new position in the list. The bindings can't be otherwise modified, and so you can store a maximum of 10 layouts at a time.
 
-![Manage window layouts](../ide/media/managewindowlayouts.png)
+:::image type="content" source="media/manage-window-layouts-sml.png" alt-text="Screenshot of the 'Manage Window Layouts' dialog." lightbox="media/apply-window-layout-lrg.png":::
 
 To remind yourself which keyboard shortcut is assigned to which layout, choose **Window** > **Apply Window Layout**.
 
