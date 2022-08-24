@@ -18,4 +18,4 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Use this dialog to set options for [tabs](../customizing-window-layouts-in-visual-studio.md#tabs) and [windows](../customizing-window-layouts-in-visual-studio.md#arrange-and-dock-windows) in the [code editor](../../get-started/tutorial-editor.md). For more information, see [Customize window layouts in Visual Studio](../customizing-window-layouts-in-visual-studio.md).
+Use this dialog to set options for [tabs](../customizing-window-layouts-in-visual-studio.md#personalize-tabs) and [windows](../customizing-window-layouts-in-visual-studio.md#arrange-and-dock-windows) in the [code editor](../../get-started/tutorial-editor.md). For more information, see [Customize window layouts in Visual Studio](../customizing-window-layouts-in-visual-studio.md).
