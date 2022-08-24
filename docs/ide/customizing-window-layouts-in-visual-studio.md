@@ -2,7 +2,7 @@
 title: Customize window layouts and personalize document tabs
 description: Learn how to customize tabs and windows in Visual Studio to create layouts that work best for your development workflows.
 ms.custom: SEO-VS-2020
-ms.date: 08/18/2022
+ms.date: 08/24/2022
 ms.topic: conceptual
 f1_keywords:
 - vs.windows
@@ -177,7 +177,7 @@ If you have a multi-monitor setup at work and a single monitor laptop at home, y
 
 You can remove, rename, or reorder your custom layout by selecting **Window** > **Manage Window Layouts**. If you move a layout, the key binding is automatically adjusted to reflect the new position in the list. The key bindings themselves can't be modified, but you can store up to 10 layouts at a time.
 
-:::image type="content" source="media/manage-window-layouts-sml.png" alt-text="Screenshot of the 'Manage Window Layouts' dialog." lightbox="media/manage-window-layout-lrg.png":::
+:::image type="content" source="media/manage-window-layouts-sml.png" alt-text="Screenshot of the 'Manage Window Layouts' dialog." lightbox="media/manage-window-layouts-lrg.png":::
 
 To remind yourself which keyboard shortcut is assigned to which layout, select **Window** > **Apply Window Layout**.
 
