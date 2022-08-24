@@ -6106,6 +6106,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/test/lab-management/use-build-or-rm-instead-of-lab-management.md",
+      "redirect_url": "/visualstudio/test/lab-management/using-a-lab-environment-for-your-application-lifecycle",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/lab-management/install-configure-test-agents.md",
+      "redirect_url": "/visualstudio/test/lab-management/using-a-lab-environment-for-your-application-lifecycle",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/test/live-unit-testing-whats-new.md",
       "redirect_url": "/visualstudio/test/live-unit-testing-intro",
       "redirect_document_id": false

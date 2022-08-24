@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: af1f7888-6942-4515-9475-0928ecf49dab
-ms.date: 06/14/2022
+ms.date: 08/24/2022
 ms.topic: overview
 description:  Rent Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
 ---
@@ -76,11 +76,13 @@ Your subscriptions will remain in place until their scheduled billing date, but 
 
 ## Frequently asked questions
 
+This section discusses questions related to the fact that Microsoft is no longer offering annual cloud subscriptions. 
+
 ### For new customers:
 
 #### Q:  I was considering the Annual Cloud subscription, and now I can’t find it.  What should I do?
 
-A: Please go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) for other purchasing options.
+A: Microsoft is no longer offering annual cloud subscriptions. Please go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) for other purchasing options.
 
 #### Q: What purchasing options are available to me?
 
@@ -94,7 +96,7 @@ A:  You'll receive perpetual license rights for the Visual Studio IDE that came 
 
 ### For existing annual cloud subscribers
 
-#### Q:  How will this change impact me?
+#### Q:  How will the end of annual cloud subscription sales impact me?
 
 A:  This change won't impact existing subscribers.
 
