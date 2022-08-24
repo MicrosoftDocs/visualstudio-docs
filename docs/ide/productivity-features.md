@@ -151,7 +151,7 @@ At any one time, you may be working in multiple code files and moving among seve
 
    To pin a file, choose the file's tab, and then choose the **Toggle Pin Status** button.
 
-- **Move documents and windows to other monitors**. If you use more than one monitor when you develop applications, you can work on portions of your application more easily by moving files that are open in the editor to another monitor. You can also move tool windows, such as debugger windows, to another monitor and tab dock document and tool windows together to create "rafts." For more information, see [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md).
+- **Move documents and windows to other monitors**. If you use more than one monitor when you develop applications, you can work on portions of your application more easily by moving files that are open in the editor to another monitor. You can also move tool windows, such as debugger windows, to another monitor and tab dock document and tool windows together to create "rafts." For more information, see [Customize window layouts and personalize tabs in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md).
 
    You can also manage files more easily by creating another instance of **Solution Explorer** and moving it to another monitor. To create another instance of **Solution Explorer**, open a shortcut menu in **Solution Explorer**, and then choose **New Solution Explorer View**.
 
