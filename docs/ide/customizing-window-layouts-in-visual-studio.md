@@ -183,7 +183,7 @@ These layouts automatically roam between Visual Studio [editions](https://visual
 
 ## Personalize tabs
 
-You can personalize tabs to interact with document windows in several different ways. For example, you can view a preview of a file in the editor without opening the file, you can group your tabs, and more.
+You can personalize tabs to interact with document windows in several different ways.  For example, you can view a preview of a file in the editor without opening the file, you can group your tabs, arrange them in multiple rows, and more.
 
 ### Preview tab
 
@@ -232,20 +232,40 @@ Here are our updates, to date:
 
     :::image type="content" source="media/vs-2022/color-tabs-horizontal.png" alt-text="Screenshot of color tabs in the horizontal view.":::
 
-- **[New in Visual Studio 2022 version 17.1 and later](/visualstudio/releases/2022/release-notes)**: You can also select your own tab colors. To do so, right-click on a tab and select **Set Tab Color** to pick from the palette.
+- **[New in Visual Studio 2022 version 17.1 and later](/visualstudio/releases/2022/release-notes-v17.1)**: You can also select your own tab colors. To do so, right-click on a tab and select **Set Tab Color** to pick from the palette.
 
     The following screenshot shows an example of how to personalize the color scheme of tabs:
 
     :::image type="content" source="media/vs-2022/color-tabs-personalize-schemes.png" alt-text="Screenshot of the Set Tab Option that you can use to personalize the colors of tabs.":::
 
-> [!TIP]
-> To learn more about the latest tabs updates in Visual Studio 2022, see the [**Improved doc management personalization**](https://devblogs.microsoft.com/visualstudio/doc-management-personalization/) blog post.
+### Multiple rows of tabs
+
+**[New in Visual Studio 2022 version 17.3 and later](/visualstudio/releases/2022/release-notes)**: We’ve added the capability to wrap tabs into multiple rows so you can have more horizontal tabs open at a time. Pinned tabs will show in a separate row from unpinned tabs.
+
+:::image type="content" source="media/vs-2022/tabs-multiple-rows-sml.png" alt-text="Screenshot of an example of tabs arranged in multiple rows." lightbox="media/vs-2022/tabs-multiple-rows-lrg.png":::
+
+To change these options, navigate to **Tools** > **Options** > **Environment** > **Tabs and Windows** > **Show tabs in multiple rows**.
 
 ::: moniker-end
 
 ### Tab groups
 
 Tab groups extend your ability to manage limited workspace while you're working with two or more open documents in the IDE. You can organize multiple document windows and tool windows into either vertical or horizontal tab groups and shuffle documents from one tab group to another.
+
+::: moniker range="vs-2022"
+
+### Custom organization system
+
+We’ve added additional options to bold your current active tab, change your tab width, and add an extra close button at the top of the document.
+
+:::image type="content" source="media/vs-2022/custom-tab-organization-sml.png" alt-text="Screenshot of the new custom organization options for tabs in Visual Studio." lightbox="media/vs-2022/custom-tab-organization-lrg.png":::
+
+To change these options, navigate to **Tools** > **Options** > **Environment** > **Tabs and Windows**.
+
+> [!TIP]
+> To learn more about the latest tabs updates in Visual Studio 2022, see the [**Improved doc management personalization**](https://devblogs.microsoft.com/visualstudio/doc-management-personalization/) blog post.
+
+::: moniker-end
 
 ## See also
 
