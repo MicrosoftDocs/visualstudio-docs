@@ -396,9 +396,5 @@
   items:
   - name: Use a lab environment
     href: lab-management/using-a-lab-environment-for-your-application-lifecycle.md
-  - name: Use build or release management for automated testing
-    href: lab-management/use-build-or-rm-instead-of-lab-management.md
-  - name: Install test agents and test controllers
-    href: lab-management/install-configure-test-agents.md
 - name: Remote testing in Visual Studio
   href: remote-testing.md
