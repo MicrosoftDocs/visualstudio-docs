@@ -837,7 +837,7 @@
     href: ide/how-to-change-fonts-and-colors-in-visual-studio.md
   - name: Menus and toolbars
     href: ide/how-to-customize-menus-and-toolbars-in-visual-studio.md
-  - name: Window layouts
+  - name: Window layouts & tabs
     href: ide/customizing-window-layouts-in-visual-studio.md
   - name: File nesting in Solution Explorer
     href: ide/file-nesting-solution-explorer.md

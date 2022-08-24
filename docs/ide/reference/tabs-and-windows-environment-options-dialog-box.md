@@ -2,7 +2,7 @@
 title: Tabs and Windows, Environment, Options Dialog Box
 description: Learn about the personalization options available in the Tabs and Windows dialog box, such as vertical tabs to help keep your workspace organized, and more.
 ms.custom: SEO-VS-2020
-ms.date: 08/16/2022
+ms.date: 08/24/2022
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.TabsAndWindows"
@@ -18,7 +18,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Use this dialog to set options for [tabs](../customizing-window-layouts-in-visual-studio.md#tabs) and [windows](../customizing-window-layouts-in-visual-studio.md#arrange-and-dock-windows) in the [code editor](../../get-started/tutorial-editor.md). For more information, see [Customize window layouts in Visual Studio](../customizing-window-layouts-in-visual-studio.md).
+Use this dialog to set options for [tabs](../customizing-window-layouts-in-visual-studio.md#personalize-tabs) and [windows](../customizing-window-layouts-in-visual-studio.md#arrange-and-dock-windows) in the [code editor](../../get-started/tutorial-editor.md). For more information, see [Customize window layouts and personalize tabs in Visual Studio](../customizing-window-layouts-in-visual-studio.md).
 
 ::: moniker range="vs-2022"
 
@@ -34,4 +34,4 @@ Use this dialog to set options for [tabs](../customizing-window-layouts-in-visua
 
 ## See also
 
-- [Customize window layouts and tabs](../customizing-window-layouts-in-visual-studio.md)
+- [Customize window layouts and personalize tabs](../customizing-window-layouts-in-visual-studio.md)
