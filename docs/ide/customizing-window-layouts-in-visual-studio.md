@@ -225,7 +225,7 @@ To use color tabs, navigate to **Tools** > **Options** > **Environment** > **Tab
 
 #### Colorize tabs in different views
 
-You can also colorize tabs in both vertical and horizontal views in the Editor.
+You can colorize tabs in both vertical and horizontal views in the Editor.
 
 The following screenshot shows an example of color tabs in the vertical view:
 
@@ -245,7 +245,7 @@ The following screenshot shows an example of how to personalize the color scheme
 
 ### Multiple rows of tabs
 
-**[New in Visual Studio 2022 version 17.3 and later](/visualstudio/releases/2022/release-notes)**: We’ve added the capability to wrap tabs into multiple rows so you can have more horizontal tabs open at a time. Pinned tabs will show in a separate row from unpinned tabs.
+We’ve added the capability to wrap tabs into multiple rows so you can have more horizontal tabs open at a time. Pinned tabs will show in a separate row from unpinned tabs.
 
 :::image type="content" source="media/vs-2022/tabs-multiple-rows-sml.png" alt-text="Screenshot of an example of tabs arranged in multiple rows." lightbox="media/vs-2022/tabs-multiple-rows-lrg.png":::
 
@@ -274,6 +274,12 @@ You can show the names of docs that are not visible in italics.
 :::image type="content" source="media/vs-2022/tabs-italics-invisible.png" alt-text="Screenshot of invisible tabs listed in italics.":::
 
 To give this a try, enable **Tools** > **Options** > **Environment** > **Tabs and Windows** > **Show invisible tabs in italic in tab dropdown menu**.
+
+### Restore closed tabs
+
+We’ve made it easier to restore documents that you’ve last opened, similar to a browser’s behavior. You can now re-open the last tab you closed by right-clicking on a tab, by using the **Ctrl**+**K**, **Ctrl**+**Z** keyboard shortcut, or by navigating to the menu item under **Window** > **Restore Closed Tab**. This way, if you accidentally closed a tab, you can retrieve it quickly.
+
+:::image type="content" source="media/vs-2022/tabs-restore-recent-documents.png" alt-text="Screenshot of the Restore Closed Tab feature.":::
 
 ::: moniker-end
 
