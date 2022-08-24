@@ -189,7 +189,11 @@ You can personalize tabs to interact with document windows in several different 
 
 In the **Preview** tab, you can view files in the editor without opening them. You can preview files by selecting them in **Solution Explorer**, during debugging when you step into files, with **Go to Definition**, and when you browse through results of a search. Preview files appear in a tab on the right side of the document tab well. The file opens for editing if you modify it or select  **Open**.
 
-### Vertical document tabs
+### Tab groups
+
+Tab groups extend your ability to manage limited workspace while you're working with two or more open documents in the IDE. You can organize multiple document windows and tool windows into either vertical or horizontal tab groups and shuffle documents from one tab group to another.
+
+#### Vertical document tabs
 
 ::: moniker range="vs-2022"
 
@@ -215,28 +219,29 @@ You can apply vertical document tabs in the following ways:
 
 ### Color document tabs
 
-Visual Studio 2022 includes new personalization options you can use to help you code more efficiently. We added another top feature request, [color document tabs](https://devblogs.microsoft.com/visualstudio/personalize-docs/). Now, you can color file tabs by project so that you don't have to hunt for your open files.
+Visual Studio 2022 includes new personalization options you can use to help you code more efficiently. Now, you can color file tabs by project so that you don't have to hunt for your open files.
 
-> [!NOTE]
-> To use color tabs, navigate to **Tools** > **Options** > **Environment** > **Tabs and Windows**, and then select **Colorize document tabs by project**.
+To use color tabs, navigate to **Tools** > **Options** > **Environment** > **Tabs and Windows**, and then select **Colorize document tabs by project**.
 
-Here are our updates, to date:
+#### Colorize tabs in different views
 
-- **[New in Visual Studio 2022 version 17.0 and later](/visualstudio/releases/2022/release-notes-v17.0)**: You can now colorize tabs in both vertical and horizontal views in the Editor.
+You can also colorize tabs in both vertical and horizontal views in the Editor.
 
-    The following screenshot shows an example of color tabs in the vertical view:
+The following screenshot shows an example of color tabs in the vertical view:
 
-    :::image type="content" source="media/vs-2022/color-tabs-vertical.png" alt-text="Screenshot of color tabs in the vertical view.":::
+:::image type="content" source="media/vs-2022/color-tabs-vertical.png" alt-text="Screenshot of color tabs in the vertical view.":::
 
-    The following screenshot shows an example of color tabs in the horizontal view:
+The following screenshot shows an example of color tabs in the horizontal view:
 
-    :::image type="content" source="media/vs-2022/color-tabs-horizontal.png" alt-text="Screenshot of color tabs in the horizontal view.":::
+:::image type="content" source="media/vs-2022/color-tabs-horizontal.png" alt-text="Screenshot of color tabs in the horizontal view.":::
 
-- **[New in Visual Studio 2022 version 17.1 and later](/visualstudio/releases/2022/release-notes-v17.1)**: You can also select your own tab colors. To do so, right-click on a tab and select **Set Tab Color** to pick from the palette.
+#### Select your own colors
 
-    The following screenshot shows an example of how to personalize the color scheme of tabs:
+You can also select your own tab colors. To do so, right-click on a tab and select **Set Tab Color** to pick from the palette.
 
-    :::image type="content" source="media/vs-2022/color-tabs-personalize-schemes.png" alt-text="Screenshot of the Set Tab Option that you can use to personalize the colors of tabs.":::
+The following screenshot shows an example of how to personalize the color scheme of tabs:
+
+:::image type="content" source="media/vs-2022/color-tabs-personalize-schemes.png" alt-text="Screenshot of the Set Tab Option that you can use to personalize the colors of tabs.":::
 
 ### Multiple rows of tabs
 
@@ -245,14 +250,6 @@ Here are our updates, to date:
 :::image type="content" source="media/vs-2022/tabs-multiple-rows-sml.png" alt-text="Screenshot of an example of tabs arranged in multiple rows." lightbox="media/vs-2022/tabs-multiple-rows-lrg.png":::
 
 To change these options, navigate to **Tools** > **Options** > **Environment** > **Tabs and Windows** > **Show tabs in multiple rows**.
-
-::: moniker-end
-
-### Tab groups
-
-Tab groups extend your ability to manage limited workspace while you're working with two or more open documents in the IDE. You can organize multiple document windows and tool windows into either vertical or horizontal tab groups and shuffle documents from one tab group to another.
-
-::: moniker range="vs-2022"
 
 ### Custom organization system
 
@@ -268,10 +265,15 @@ We’ve changed the indicator for documents with unsaved changes to a larger, an
 
 :::image type="content" source="media/vs-2022/tabs-modify-asterisk.png" alt-text="Screenshot of tabs asterisk changed to large dot for accessibility.":::
 
-You can revert to the familiar asterisk via **Tools** > **Options** > **Environment** > **Tabs and Windows** > **Modify Dirty Indicator**.
+You can revert to the familiar asterisk by using **Tools** > **Options** > **Environment** > **Tabs and Windows** > **Modify Dirty Indicator**.
 
-> [!TIP]
-> To learn more about the latest tabs updates in Visual Studio 2022, see the [**Improved doc management personalization**](https://devblogs.microsoft.com/visualstudio/doc-management-personalization/) blog post.
+### Show names in italics
+
+You can show the names of docs that are not visible in italics.
+
+:::image type="content" source="media/vs-2022/tabs-italics-invisible.png" alt-text="Screenshot of invisible tabs listed in italics.":::
+
+To give this a try, enable **Tools** > **Options** > **Environment** > **Tabs and Windows** > **Show invisible tabs in italic in tab dropdown menu**.
 
 ::: moniker-end
 
