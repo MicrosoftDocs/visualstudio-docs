@@ -83,7 +83,7 @@ To return a tool window or document window to its most recent docked location, p
 
 The following screenshot shows the guide diamond for document windows, which can only be docked within the editing frame:
 
-:::image type="content" source="media/document-window-guide-diamond-sml.png" alt-text="Screenshot of the Document window guide diamond." lightbox="media/document-window-guide-diamond-lrg.png":::
+:::image type="content" source="media/document-window-guide-diamond.png" alt-text="Screenshot of the Document window guide diamond.":::
 
 Tool windows can be fastened to one side of a frame in the IDE or within the editing frame. A guide diamond appears when you drag a tool window to another location to help you to easily redock the window.
 
@@ -253,7 +253,7 @@ To change these options, navigate to **Tools** > **Options** > **Environment** >
 
 ### Custom organization system
 
-We’ve added additional options to bold your current active tab, change your tab width, and add an extra close button at the top of the document.
+We’ve added extra options to bold your current active tab, change your tab width, and add an extra close button at the top of the document.
 
 :::image type="content" source="media/vs-2022/custom-tab-organization-sml.png" alt-text="Screenshot of the new custom organization options for tabs in Visual Studio." lightbox="media/vs-2022/custom-tab-organization-lrg.png":::
 
@@ -269,15 +269,15 @@ You can revert to the familiar asterisk by using **Tools** > **Options** > **Env
 
 ### Show names in italics
 
-You can show the names of docs that are not visible in italics.
+You can show the names of docs that aren't visible in italics.
 
 :::image type="content" source="media/vs-2022/tabs-italics-invisible.png" alt-text="Screenshot of invisible tabs listed in italics.":::
 
-To give this a try, enable **Tools** > **Options** > **Environment** > **Tabs and Windows** > **Show invisible tabs in italic in tab dropdown menu**.
+To enable this option, go to **Tools** > **Options** > **Environment** > **Tabs and Windows** > **Show invisible tabs in italic in tab dropdown menu**.
 
 ### Restore closed tabs
 
-We’ve made it easier to restore documents that you’ve last opened, similar to a browser’s behavior. You can now re-open the last tab you closed by right-clicking on a tab, by using the **Ctrl**+**K**, **Ctrl**+**Z** keyboard shortcut, or by navigating to the menu item under **Window** > **Restore Closed Tab**. This way, if you accidentally closed a tab, you can retrieve it quickly.
+We’ve made it easier to restore documents that you’ve last opened, similar to a browser’s behavior. You can now reopen the last tab you closed by right-clicking on a tab, by using the **Ctrl**+**K**, **Ctrl**+**Z** keyboard shortcut, or by navigating to the menu item under **Window** > **Restore Closed Tab**.
 
 :::image type="content" source="media/vs-2022/tabs-restore-recent-documents.png" alt-text="Screenshot of the Restore Closed Tab feature.":::
 
