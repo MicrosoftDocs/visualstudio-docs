@@ -262,6 +262,14 @@ We’ve added additional options to bold your current active tab, change your ta
 
 To change these options, navigate to **Tools** > **Options** > **Environment** > **Tabs and Windows**.
 
+### Improved accessibility
+
+We’ve changed the indicator for documents with unsaved changes to a larger, and more visible dot.
+
+:::image type="content" source="media/vs-2022/tabs-modify-asterisk.png" alt-text="Screenshot of tabs asterisk changed to large dot for accessibility.":::
+
+You can revert to the familiar asterisk via **Tools** > **Options** > **Environment** > **Tabs and Windows** > **Modify Dirty Indicator**.
+
 > [!TIP]
 > To learn more about the latest tabs updates in Visual Studio 2022, see the [**Improved doc management personalization**](https://devblogs.microsoft.com/visualstudio/doc-management-personalization/) blog post.
 
