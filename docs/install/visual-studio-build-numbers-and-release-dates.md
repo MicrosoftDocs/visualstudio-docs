@@ -5,7 +5,7 @@ description: A list of released versions and build numbers for Visual Studio, so
 author: rjmolyneaux
 ms.author: rmolyneaux
 manager: jmartens
-ms.date: 8/16/2022
+ms.date: 8/23/2022
 ms.custom: vs-acquisition
 ms.topic: reference
 ms.workload:
@@ -26,6 +26,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 17.3.2  | Release | August 23, 2022 | 17.3.32819.101 |
 | 17.3.1  | Release | August 16, 2022 | 17.3.32811.315 |
 | 17.3.0  | Release | August 9, 2022 | 17.3.32804.467 |
 | 17.4.0  | Preview 1 | August 9, 2022 | 17.4.32804.182 |

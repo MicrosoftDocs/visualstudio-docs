@@ -1,7 +1,7 @@
 ---
 title: Learn about Solution Explorer
 description: Learn how you can use the Solution Explorer tool window in Visual Studio to create & manage your files, projects, and solutions.
-ms.date: 06/27/2022
+ms.date: 08/24/2022
 ms.topic: conceptual
 ms.custom: contperf-fy22q4
 helpviewer_keywords:
@@ -104,4 +104,4 @@ For a tutorial that walks you through how to add items and projects by using the
 
 - [What are solutions and projects in Visual Studio?](solutions-and-projects-in-visual-studio.md)
 - [What is the .NET Project Designer?](reference/project-properties-reference.md)
-- [Customize window layouts in Visual Studio](customizing-window-layouts-in-visual-studio.md)
+- [Customize window layouts and personalize tabs in Visual Studio](customizing-window-layouts-in-visual-studio.md)

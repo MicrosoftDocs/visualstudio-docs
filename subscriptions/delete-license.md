@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: e49242bc-e9f2-49e8-8caa-f574d508aba6
-ms.date: 08/22/2022
+ms.date: 08/23/2022
 ms.topic: how-to
 description:  Learn how admins can delete subscription assignments in the Visual Studio Subscriptions Administration Portal
 ---
@@ -37,6 +37,9 @@ If you need to delete a large number of subscription assignments, you can use a 
 
   > [!IMPORTANT]
   > Before making large changes to your subscriber list, we recommend creating a backup of your current list.  This can be done very easily by selecting the **Export** option.  This will place an Excel copy of your current list in your downloads folder. 
+
+  > [!IMPORTANT]
+  > Don't use this approach to manage cloud subscriptions.  While you can download and complete the bulk edit template, you won't be able to upload the template with your changes.  
 
 1. Sign in to <https://manage.visualstudio.com> using an email address that's assigned as a super 
 admin on the agreement through which the subscriptions were purchased.
