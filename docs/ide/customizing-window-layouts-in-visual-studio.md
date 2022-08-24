@@ -31,7 +31,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In Visual Studio, you can customize the position, size, and behavior of windows to create window layouts that work best for various development workflows. You can also personalize how you use tabs to interact with your code.
+In Visual Studio, you can customize the position, size, and behavior of windows to create window layouts that work best for various development workflows. You can also personalize how you use [tab](#personalize-tabs) to interact with your code.
 
 ## Customize window layouts
 
@@ -81,7 +81,7 @@ To move a dockable window without snapping it into place, press the **Ctrl** key
 
 To return a tool window or document window to its most recent docked location, press **Ctrl** while you double-click the title bar or tab of the window.
 
-The following illustration shows the guide diamond for document windows, which can only be docked within the editing frame:
+The following screenshot shows the guide diamond for document windows, which can only be docked within the editing frame:
 
 :::image type="content" source="media/document-window-guide-diamond-sml.png" alt-text="Screenshot of the Document window guide diamond." lightbox="media/document-window-guide-diamond-lrg.png":::
 
@@ -89,7 +89,7 @@ Tool windows can be fastened to one side of a frame in the IDE or within the edi
 
 :::image type="content" source="media/tool-window-guide-diamond-sml.png" alt-text="Screenshot of the Tool window guide diamond." lightbox="media/tool-window-guide-diamond-lrg.png":::
 
-The following illustration shows **Solution Explorer** being docked in a new location that's demarcated by a purple shaded area:
+The following screenshot shows **Solution Explorer** being docked in a new location that's demarcated by a purple shaded area:
 
 :::image type="content" source="media/docked-diamond-solution-explorer-example-sml.png" alt-text="Screenshot of what appears in the IDE when you want to dock Solution Explorer in a new position." lightbox="media/docked-diamond-solution-explorer-example-lrg.png":::
 
@@ -126,9 +126,7 @@ You can return the IDE to the original window layout for your settings collectio
 
 #### Create and save custom layouts
 
-Visual Studio enables you to save up to 10 custom window layouts and quickly switch between them. The following steps show how to create, save, invoke, and manage custom layouts that take advantage of multiple monitors with both docked and floating tool windows.
-
-First, create a test solution that has two projects, each with a different optimal layout.
+Visual Studio enables you to save up to 10 custom window layouts and quickly switch between them. The following steps show how to create, save, invoke, and manage two custom layouts that take advantage of multiple monitors with both docked and floating tool windows.
 
 ##### Create a project and customize the layout
 
@@ -142,7 +140,7 @@ First, we'll create a user interface (UI) project. The idea is to maximize the s
 
 1. Press **Ctrl**+**Alt**+**X** to display the **Toolbox** window. If the window is docked, drag it so that it floats somewhere where you'd like to position it.
 
-1. When your layout is how you want it, select **Window** > **Save Window Layout**. Call this layout "Designer".
+1. When your layout is how you want it, select **Window** > **Save Window Layout**. Name this layout "Designer".
 
      Notice that your new layout is assigned the next keyboard shortcut from the reserved list of **Ctrl**+**Alt**+**1...0**.
 
@@ -158,7 +156,7 @@ Next, we'll add a new SQL Server database project to the solution.
 
 1. Right-click the new database project in **Solution Explorer**, and then select **View in Object Explorer**.
 
-   When you do so, Visual Studio displays the **SQL Server Object Explorer** window, which enables you to access tables, views and other objects in your database. You can either float this window or leave it docked. Adjust the other tool windows the way you want them. For added realism, you can add an actual database, but it's not necessary for this walkthrough.
+   When you do so, Visual Studio displays the **SQL Server Object Explorer** window, which enables you to access tables, views and other objects in your database. You can either float this window or leave it docked. Adjust the other tool windows the way you want them. For added realism, you can add an actual database, but it's not necessary for this walk-through.
 
 1. When your layout is how you want it, select **Window** from the menu bar, and then select **Save Window Layout**. Name this layout "DB Project". (We won't bother with a debug mode layout for this project.)
 
@@ -181,7 +179,7 @@ You can remove, rename, or reorder your custom layout by selecting **Window** > 
 
 To remind yourself which keyboard shortcut is assigned to which layout, select **Window** > **Apply Window Layout**.
 
-These layouts automatically roam between Visual Studio editions, and also between Blend instances on separate machines, and from any Express edition to any other Express organization. However, layouts don't roam across Visual Studio, Blend, and Express.
+These layouts automatically roam between Visual Studio [editions](https://visualstudio.microsoft.com/vs/compare/) and [Blend](../xaml-tools/creating-a-ui-by-using-blend-for-visual-studio.md) instances on separate machines.
 
 ## Personalize tabs
 
