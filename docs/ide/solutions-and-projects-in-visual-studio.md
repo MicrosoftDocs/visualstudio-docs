@@ -76,15 +76,15 @@ A "solution folder" is a virtual folder that's only in **Solution Explorer**, wh
 
 ## Solution Explorer
 
-After you create a new project, you can use **[Solution Explorer](use-solution-explorer.md)** to view and manage the project and solution and their associated items. The following illustration shows **Solution Explorer** with a C# solution that contains two projects:
+After you create a new project, you can use **[Solution Explorer](use-solution-explorer.md)** to view and manage the project and solution and their associated items. The following screenshot shows **Solution Explorer** with a C# solution that contains two projects:
 
 ![Screenshot of Solution Explorer with two projects in Visual Studio.](../ide/media/solution-explorer.png)
 
 The toolbar across the top of **Solution Explorer** has buttons to switch from a solution view to a folder view, filter pending changes, show all files, collapse all nodes, view [properties](managing-project-and-solution-properties.md) pages, preview code in the [code editor](writing-code-in-the-code-and-text-editor.md), and more.
 
-Many menu commands are available from the right-click context menu on various items in **Solution Explorer**. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few. For more information, see [How to use Solution Explorer](use-solution-explorer.md).
+Many menu commands are available from the [right-click context menu](use-solution-explorer.md#solution-node-context-menu-options) on various items in **Solution Explorer**. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few. For more information, see [Learn about Solution Explorer](use-solution-explorer.md).
 
-For ASP.NET Core projects, you can customize how files are nested in **Solution Explorer**. For more information, see [Customize file nesting in Solution Explorer](file-nesting-solution-explorer.md).
+For ASP.NET Core projects, you can customize how files are nested in **Solution Explorer**. For more information, see [File nesting in Solution Explorer](file-nesting-solution-explorer.md).
 
 > [!TIP]
 > If you've closed Solution Explorer and you want to open it again, choose **View** > **Solution Explorer** from the menu bar, or press **Ctrl**+**Alt**+**L**. And, if you've closed side tabs and you want to restore them to their default locations, choose **Window** > **Reset Window Layout** from the menu bar.
@@ -94,8 +94,6 @@ For ASP.NET Core projects, you can customize how files are nested in **Solution 
 
 ## See also
 
-- [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md)
 - [Manage project and solution properties](managing-project-and-solution-properties.md)
 - [Filtered solutions in Visual Studio](filtered-solutions.md)
-- [Port, migrate, and upgrade projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)
-- [Projects and solutions (Visual Studio for Mac)](/visualstudio/mac/projects-and-solutions)
+- [Project migration and upgrade reference for Visual Studio](../porting/port-migrate-and-upgrade-visual-studio-projects.md)
