@@ -87,6 +87,9 @@ The following image is the DSL definition used in this walkthrough.
 
     - `Animal` - In the Properties window, set **Inheritance Modifier** to **Abstract**.
 
+    > [!NOTE]
+    > The **Named Domain Class** tool and the other tools mentioned in this section are found in the **Toolbox** tool window. You can open or hide this window with **View** > **Toolbox**.
+
 5. Use the **Domain Class** tool to create the following classes:
 
     - `Sheep`
