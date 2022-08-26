@@ -8,7 +8,7 @@ ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 ms.assetid: 8202717a-e990-45cf-b092-438651ccb38a
 author: corob
-ms.author: colrob
+ms.author: crdun
 manager: crdun
 ms.workload:
   - "multiple"
