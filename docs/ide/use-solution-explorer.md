@@ -48,7 +48,7 @@ The following table is a text-equivalent of the annotated screenshot, but with a
 
 To continue, let's take a closer look at the toolbar in Solution Explorer.
 
-:::image type="content" source="media/solution-explorer-toolbar.png" alt-text="Screenshot of the Solution Explorer toolbar in Visual Studio." lightbox="media/solution-explorer-toolbar.png":::
+:::image type="content" source="media/solution-explorer-toolbar.png" alt-text="Screenshot of the Solution Explorer toolbar in Visual Studio.":::
 
 The toolbar contains the following UI elements, from left to right:
 
