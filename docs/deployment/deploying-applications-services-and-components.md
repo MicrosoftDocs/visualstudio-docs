@@ -113,7 +113,7 @@ If you're deploying a UWP app for testing on a device, see [Run UWP apps on a re
 
 ## Deploy to a test lab
 
-You can enable more sophisticated development and testing by deploying your applications into virtual environments. For more information, see [Test on a lab environment](../test/lab-management/using-a-lab-environment-for-your-application-lifecycle.md).
+You can enable more sophisticated development and testing by deploying your applications into virtual environments. For more information, see [Azure DevTest Labs](/azure/devtest-labs/devtest-lab-overview).
 
 ## Continuous deployment
 
