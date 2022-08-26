@@ -2,7 +2,7 @@
 title: 'What are Visual Studio solutions & projects?'
 description: Learn about Visual Studio projects and solutions, how to create new projects from a template, and how to view & manage projects in Solution Explorer.
 ms.custom: "SEO-VS-2020, contperf-fy21q2"
-ms.date: 08/25/2022
+ms.date: 08/26/2022
 ms.topic: conceptual
 f1_keywords:
 - vs.openproject
@@ -80,7 +80,7 @@ After you create a new project, you can use **[Solution Explorer](use-solution-e
 
 ![Screenshot of Solution Explorer with two projects in Visual Studio.](../ide/media/solution-explorer.png)
 
-The toolbar across the top of **Solution Explorer** has buttons to switch from a solution view to a folder view, filter pending changes, show all files, collapse all nodes, view [properties](managing-project-and-solution-properties.md) pages, preview code in the [code editor](writing-code-in-the-code-and-text-editor.md), and more.
+The [toolbar](use-solution-explorer.md#solution-explorer-toolbar) across the top of **Solution Explorer** has buttons to switch from a solution view to a folder view, filter pending changes, show all files, collapse all nodes, view [properties](managing-project-and-solution-properties.md) pages, preview code in the [code editor](writing-code-in-the-code-and-text-editor.md), and more.
 
 Many menu commands are available from the [right-click context menu](use-solution-explorer.md#solution-node-context-menu-options) on various items in **Solution Explorer**. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few. For more information, see [Learn about Solution Explorer](use-solution-explorer.md).
 
