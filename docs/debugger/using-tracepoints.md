@@ -84,6 +84,7 @@ You can set tracepoints by specifying an output string under the **Action** chec
    :::image type="content" source="../debugger/media/checkedconditionsbox.png" alt-text="Screenshot of breakpoint window with Conditions Box checked.":::
 
    You have three choices for conditions: **Conditional Expression**, **Filter**, and **Hit Count**.
+
 ::: moniker-end
 
 ::: moniker range="vs-2022"

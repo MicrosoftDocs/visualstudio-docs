@@ -22,6 +22,7 @@ Visual Studio for Mac makes it easy to develop your app's service with its suppo
 ## Installing .NET Core
 
 .NET Core 3.1 is automatically installed when you install Visual Studio for Mac. For more information about versions of .NET Core supported in Visual Studio for Mac, see [Supported versions of .NET](./supported-versions-net.md).
+
 ::: moniker-end
 
 ::: moniker range="vsmac-2022"
@@ -29,6 +30,7 @@ Visual Studio for Mac makes it easy to develop your app's service with its suppo
 ## Installing .NET 6
 
 .NET 6 is automatically installed when you install Visual Studio for Mac. For more information about versions of .NET supported in Visual Studio for Mac, see [Supported versions of .NET](./supported-versions-net.md).
+
 ::: moniker-end
 
 ## Creating an ASP.NET Core app in Visual Studio for Mac
@@ -85,7 +87,7 @@ There are many projects that'll provide you with a pre-built template to start b
 
 :::image type="content" source="media/vsmac-2022/asp-net-core-2022-new-asp-core.png" alt-text="Screenshot shows new Project on Visual Studio start window.":::
 
-Select the **ASP.NET Core Empty Web Application** and select **Continue**. Give the Project a name and select **Continue**. These steps create a new ASP.NET Core app. In the **Solution** window's left pane, expand the second arrow and then select **Startup.cs**. It should look similar to the following image:
+Select the **ASP.NET Core Empty Web Application** and select **Continue**. Give the Project a name and select **Continue**. These steps create a new ASP.NET Core app. In the **Solution** window's left pane, expand the second arrow and then select **Program.cs**. It should look similar to the following image:
 
 :::image type="content" source="media/vsmac-2022/asp-net-core-2022-empty-project.png" alt-text="Screenshot shows new ASP.NET Core Empty Project view while creating an ASP.NET Core app.":::
 
