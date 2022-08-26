@@ -29,7 +29,7 @@ For information about MSBuild for C++, see [MSBuild (C++)](/cpp/build/msbuild-vi
 
 The following examples illustrate when you might run builds by invoking MSBuild from the command line instead of the Visual Studio IDE.
 
-- Visual Studio isn't installed. ([Download MSBuild without Visual Studio](https://visualstudio.microsoft.com/downloads/?q=build+tools).)
+- Visual Studio isn't installed. To install MSBuild on a system that doesn't have Visual Studio, go to Build Tools for Visual Studio 2022 on the [downloads page](https://visualstudio.microsoft.com/downloads/). Another way of getting MSBuild is to install the [.NET SDK](/dotnet/core/sdk#acquiring-the-net-sdk).
 
 - You want to use the 64-bit version of MSBuild, and you're using Visual Studio 2019 or earlier. This version of MSBuild is usually unnecessary, but it allows MSBuild to access more memory.
 
