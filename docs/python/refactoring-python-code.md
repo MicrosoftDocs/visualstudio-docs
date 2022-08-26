@@ -44,29 +44,6 @@ Visual Studio provides several commands for automatically transforming and clean
 :::image type="content" source="media/vs-2022/code-refactor-rename-1.png" alt-text="Screenshot of Rename prompt for new identifer name.":::
 ::: moniker-end
 
-## Extract method
-
-::: moniker range="<=vs-2019"
-
-1. Select the lines of code or the expression to extract into a separate method.
-1. Select the **Edit** > **Refactor** > **Extract method** menu command or press **Ctrl**+**R** > **M**.
-1. In the dialog that appears, enter a new method name, indicate where to extract it to, and select any closure variables. Variables not selected for closure are turned into method arguments:
-:::image type="content" source="media/code-refactor-extract-method-1.png" alt-text="Screenshot of Extract method dialog.":::
-
-1. Select **OK**, and the code is modified.
-:::image type="content" source="media/code-refactor-extract-method-2.png" alt-text="Screenshot showing the effect of extracting a method.":::
-::: moniker-end
-::: moniker range=">=vs-2022"
-
-1. Select the lines of code or the expression to extract into a separate method.
-1. When you place the caret on code sample, Visual Studio provides a smart tag (the wrench icon to the left of the code).
-1. In the dialog that appears, select **Extract** for closure to be turned into method arguments:
-:::image type="content" source="media/vs-2022/code-refactor-extract-method-1.png" alt-text="Screenshot of Extract method dialog.":::
-
-1. Select **OK** and the code is modified.
-:::image type="content" source="media/vs-2022/code-refactor-extract-method-2.png" alt-text="Screenshot of Effects of extracting a method.":::
-::: moniker-end
-
 ## Add import
 
 When you place the caret on an identifier that lacks type information, Visual Studio provides a smart tag (the light bulb icon to the left of the code) whose commands add the necessary `import` or `from ... import` statement.
