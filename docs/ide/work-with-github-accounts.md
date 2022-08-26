@@ -79,5 +79,15 @@ By default, Visual Studio only has public GitHub accounts enabled.
 
 1. After you enter your GitHub Enterprise server address, select **Sign in with your browser**. There, you can sign in using your GitHub Enterprise credentials.
 
+## Troubleshooting sign in issues
+If you're experiencing issues when adding or re-authenticating GitHub accounts, try the following steps:
+
+1. Verify that HSTS is not enabled for localhost on yours system's default web browser
+    - On Micrsoft Edge, you can type: edge://net-internals/#hsts and enter "localhost" under the "Delete domain security policies" section
+    - On Google Chrome, type: chrome://net-internals/#hsts and enter "localhost" under the "Delete domain security policies" section
+
+> [!NOTE]
+> Please [report a problem](https://developercommunity.visualstudio.com/report?space=8&entry=problem) if you are still having sign in issues.
+
 ## See also
 - [Sign in to Visual Studio](signing-in-to-visual-studio.md)
