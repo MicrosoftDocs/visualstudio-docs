@@ -4,7 +4,7 @@ description: "This article describes how to get started with ASP.NET in Visual S
 author: jmatthiesen
 ms.author: jomatthi
 manager: dominicn
-ms.date: 07/29/2022
+ms.date: 08/26/2022
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 ms.custom: video, devdivchpfy22
 no-loc: [Blazor, "Blazor WebAssembly"]
@@ -69,7 +69,7 @@ Open Visual Studio for Mac. On the Start Screen, select **New**
 
 The **New Project** dialog is shown. It lets you select a template to create your application.
 
-There are many projects that will provide you with a pre-built template to start building your ASP.NET Core Application. They are:
+There are many projects that'll provide you with a pre-built template to start building your ASP.NET Core Application. They are:
 
 - **.NET Core > Empty**
 - **.NET Core > API**
@@ -168,7 +168,7 @@ You can configure delegates by using the `Run`,`Map`, and `Use` methods on `IApp
 
 The `Configure` method of the pre-built template is built to do a few things. First, it configures an exception handling page for use during development. Then, it sends a response to the requesting web page with a simple "Hello World".
 
-This simple Hello, World project can run now without any extra code being added. To run the app, you can either select which browser you want to run app the app in using the dropdown right of the Play button, or simply hit the Play (triangular) button to use your default browser:
+This simple Hello, World project can run now without any extra code being added. To run the app, you can either select which browser you want to run app the app in using the dropdown right of the Play button, or simply hit the **Play** (triangular) button to use your default browser:
 
 :::image type="content" source="media/asp-net-web-picker.png" alt-text="Screenshot showing the Run from browser menu.":::
 
@@ -194,7 +194,7 @@ var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 ```
 
-The following code creates and HTTP GET endpoint `/` that returns `Hello World!`:
+The following code creates an HTTP GET endpoint `/` that returns `Hello World!`:
 
 ```csharp
 app.MapGet("/", () => "Hello World!");
@@ -202,7 +202,7 @@ app.MapGet("/", () => "Hello World!");
 
 `app.Run();` runs the app.
 
-This simple Hello, World project can run now without any extra code being added. To run the app, you can either select which browser you want to run app the app in using the dropdown right of the **Play** button. Or, you can hit the **Play** (triangular) button to use your default browser:
+This simple Hello, World project can run now without any extra code being added. To run the app, you can either select which browser you want to run app in using the dropdown right of the **Play** button. Or, you can hit the **Play** (triangular) button to use your default browser:
 
 :::image type="content" source="media/vsmac-2022/asp-net-web-picker.png" alt-text="Browser Run where you can either select which browser you want to run app the app in using the dropdown right of the Play button. Or, you can hit the Play (triangular) button to use your default browser.":::
 
@@ -215,6 +215,8 @@ Visual Studio for Mac uses a random port to launch your web project. To find out
 Once the project is running, your default web browser should launch and connect to the URL listed in the Application Output. Alternatively, you can open any browser of your choice, and enter `http://localhost:5000/`, replacing the `5000` with the port that Visual Studio output in the Application Output. You should see the text `Hello World!`:
 
 :::image type="content" source="media/asp-net-core-image7.png" alt-text="Screenshot of a web browser showing text.":::
+
+::: moniker range="vsmac-2019"
 
 ### Adding a Controller
 
@@ -308,9 +310,11 @@ To add a controller, follow these steps:
 
     :::image type="content" source="media/asp-net-core-image10.png" alt-text="Screenshot of running app in browser with arguments while adding a controller.":::
 
+::: moniker-end
+
 ## Troubleshooting
 
-If you need to install .NET Core manually on macOS 10.12 (Sierra) and higher, follow these steps:
+If you need to install .NET Core manually on macOS 10.15 (Catalina) and higher, follow these steps:
 
 1. Before you start installing .NET Core, ensure that you've updated all OS updates to the latest stable version. You can check by going to the App Store application, and selecting the **Updates** tab.
 

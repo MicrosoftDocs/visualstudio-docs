@@ -3,7 +3,7 @@ title: Pluralsight benefit in Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 08/03/2022
+ms.date: 08/26/2022
 ms.topic: how-to
 ms.custom: devdivchpfy22
 description: Learn about the Pluralsight training benefit that's included with select Visual Studio subscriptions.

@@ -3,12 +3,12 @@ title: "Cross-Platform Mobile Development in Visual Studio | Microsoft Docs"
 description: In this article, learn how you can build apps for Android, iOS, and Windows devices by using Visual Studio.
 titleSuffix: ""
 ms.custom: SEO-VS-2020, devdivchpfy22
-ms.date: "08/17/2022"
+ms.date: 08/26/2022
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 ms.assetid: 8202717a-e990-45cf-b092-438651ccb38a
-author: conceptdev
-ms.author: crdun
+author: therealjohn
+ms.author: johmil
 manager: crdun
 ms.workload:
   - "multiple"
