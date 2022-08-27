@@ -1,7 +1,7 @@
 ---
 title: Refactor Python code
 description: Visual Studio makes it easy to refactor Python code by renaming identifiers, extracting methods, adding imports, and removing unused imports.
-ms.date: 02/06/2022
+ms.date: 08/26/2022
 ms.topic: how-to
 author: rjmolyneaux
 ms.author: rmolyneaux
@@ -19,7 +19,6 @@ ms.workload:
 Visual Studio provides several commands for automatically transforming and cleaning up your Python source code:
 
 - [Rename](#rename) renames a selected class, method, or variable name.
-- [Extract method](#extract-method) creates a new method from the selected code.
 - [Add import](#add-import) provides a smart tag to add a missing import.
 - [Remove unused imports](#remove-unused-imports) removes unused imports.
 
