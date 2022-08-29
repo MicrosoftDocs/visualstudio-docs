@@ -63,7 +63,7 @@ To see potential fixes, select either the down arrow next to the light bulb or t
 ![Light bulb expanded](../ide/media/vs2015_lightbulb_hover_expanded.png)
 
 > [!TIP]
-> To learn about how you can turn off some of the Quick Actions, see [Disable source code analysis for .NET](../code-quality/disable-code-analysis.md).
+> To learn how to turn off some of the code fix Quick Actions, see [Disable source code analysis for .NET](../code-quality/disable-code-analysis.md).
 
 ## See also
 
