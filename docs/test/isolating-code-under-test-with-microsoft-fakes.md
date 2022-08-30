@@ -32,9 +32,7 @@ Fakes come in two flavors:
 
 - Visual Studio Enterprise
 - A .NET Framework project
-
 - .NET Core, .NET 5.0 or later, and SDK-style project support previewed in Visual Studio 2019 Update 6, and is enabled by default in Update 8. For more information, see [Microsoft Fakes for .NET Core and SDK-style projects](/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects).
-
 
 > [!NOTE]
 > Profiling with Visual Studio isn't available for tests that use Microsoft Fakes.
@@ -279,7 +277,6 @@ Since Microsoft Fakes requires Visual Studio Enterprise, the generation of Fakes
 ```
 
 This reference is required to be added manually, specifically to SDK-style projects (.NET Core, .NET 5.0, and .NET Framework) because we've moved to implicitly adding assembly references to your test project. If you follow this method, you need to ensure the fakes assembly is updated when the parent assembly changes.
-
 
 ### Running Microsoft Fakes tests
 

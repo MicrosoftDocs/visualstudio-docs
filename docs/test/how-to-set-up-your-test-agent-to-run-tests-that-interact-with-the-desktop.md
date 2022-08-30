@@ -18,7 +18,6 @@ ms.technology: vs-ide-test
 
 If you want to run automated tests that interact with the desktop, you must set up your agent to run as a process instead of a service. For example, if you want to run a coded UI test remotely using a test controller and test agent, or you want to run a test and capture a video recording when you run it, you must set up your agent to run as a process. When you assign agents to roles in your test settings using Visual Studio, you must change the setup for any agents assigned to roles that have to interact with the desktop.
 
-
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 

@@ -42,7 +42,6 @@ ms.workload:
 3. In the **Name** box, enter **TestProject1**
 4. Then choose the **Create** button.
 
-
 5. In the **SharePoint Customization Wizard**, choose the **Finish** button to retain the default settings.
 
 6. In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project** > **Add SharePoint "Images" Mapped Folder**.

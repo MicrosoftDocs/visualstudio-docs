@@ -111,7 +111,6 @@ To specify a run settings file in the IDE, select **Test** > **Select Settings F
 
 The file appears on the Test menu, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
 
-
 ## Specify a run settings file from the command line
 
 To run tests from the command line, use *vstest.console.exe*, and specify the settings file by using the **/Settings** parameter.

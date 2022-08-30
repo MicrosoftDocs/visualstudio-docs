@@ -22,7 +22,6 @@ The **Create Unit Tests** command creates unit test method stubs. This feature a
 > [!NOTE]
 > The **Create Unit Tests** menu command is only available for C# code. To use this method with .NET Core or .NET Standard, Visual Studio 2019 or later is required.
 
-
 The **Create Unit Tests** menu command is extensible and can be used to generate tests for MSTest, MSTest V2, NUnit, and xUnit.
 
 ## Get started
