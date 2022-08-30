@@ -2,7 +2,7 @@
 title: "Remote debug ASP.NET on an IIS computer"
 description: Learn how to set up and configure a Visual Studio ASP.NET MVC 4.5.2 application, deploy it to IIS, and attach the remote debugger from Visual Studio. 
 ms.custom: ['remotedebugging']
-ms.date: 08/31/2021
+ms.date: 08/29/2022
 ms.topic: "conceptual"
 ms.assetid: 9cb339b5-3caf-4755-aad1-4a5da54b2a23
 author: "mikejo5000"
@@ -82,7 +82,7 @@ If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Us
 
 1. In the left pane of Server Manager, select **IIS**. Right-click the server and select **Internet Information Services (IIS) Manager**.
 
-1. Use the Web Platform Installer (WebPI) to install ASP.NET 4.5 (from the Server node in Windows Server 2012 R2, choose **Get New Web Platform Components** and then search for ASP.NET)
+1. Use the Web Platform Installer (WebPI) to install ASP.NET 4.5. (Select the Server node in the left **Connections** pane, choose **Get New Web Platform Components** and then search for ASP.NET)
 
     ![Screenshot of the Web Platform Installer 5.0 showing the search results for asp.net with the web platform component IIS: ASP.NET 4.5 circled in red.](../debugger/media/remotedbg_iis_aspnet_45.png)
 
