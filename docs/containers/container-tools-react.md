@@ -355,11 +355,11 @@ The project uses the SPA Proxy during debugging. See [Improved single-age app (S
 
 1. Verify that you can hit a breakpoint in client-side JavaScript code by setting a breakpoint in **ClientApp/src/components/Counter.js** in the **incrementCounter** function, and then try hitting the breakpoint by clicking the **Increment** button on the Counters page.
 
-   ![Debugging client-side JavaScript](./media/container-tools-react/vs-2022/debugging-client-javascript.png)
+   ![Screenshot showing ebugging client-side JavaScript.](./media/container-tools-react/vs-2022/debugging-client-javascript.png)
 
 1. Next, try hitting a breakpoint in the server-side ASP.NET Core code. Set a breakpoint in *WeatherController.cs* in the `Get` method and try appending `/weatherforecast` to the base localhost and port URL to activate that code.
 
-   ![Debugging server-side ASP.NET Core code](./media/container-tools-react/vs-2022/debugging-aspnet-core.png)
+   ![Screenshot showing debugging server-side ASP.NET Core code.](./media/container-tools-react/vs-2022/debugging-aspnet-core.png)
 
 1. If the container port changes, which can happen if you make a significant change, such as updating *launchSettings.json* or updating the debug launch profile in the IDE, you'll need to update the port in *setupProxy.js* and also restart the proxy. Terminate the current proxy (**Ctrl**+**C** in the command window where it's running), and then restart it using the same command `npm run start`.
 
