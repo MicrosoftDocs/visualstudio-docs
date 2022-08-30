@@ -53,7 +53,6 @@ If you need to install the workload but already have Visual Studio, go to **Tool
 
 First, you'll create a C++ console application project. The project type comes with all the template files you'll need, before you've even added anything!
 
-
 1. Open Visual Studio.
 
    If the start window is not open, choose **File** > **Start Window**.
@@ -77,7 +76,6 @@ First, you'll create a C++ console application project. The project type comes w
 1. In the **Configure your new project** window, type or enter *get-started-debugging* in the **Project name** box. Then, choose **Create**.
 
    Visual Studio opens your new project.
-
 
 ## Create the application
 

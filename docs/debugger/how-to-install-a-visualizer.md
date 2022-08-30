@@ -65,7 +65,6 @@ After you have created a visualizer, you must install the visualizer so that it 
 > The procedure is different in Visual Studio 2017 and older. See the [previous version](how-to-install-a-visualizer.md?view=vs-2017&preserve-view=true) of this article.
 
 
-
 ## See also
 - [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)
 - [How to: Write a Visualizer](create-custom-visualizers-of-data.md)

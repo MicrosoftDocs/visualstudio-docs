@@ -27,7 +27,6 @@ The Visual Studio debugger provides many powerful features to help you debug you
     Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **asp.net**, choose **Templates**, then choose **Create new ASP.NET Core Web Application**. In the dialog box that appears, choose **Create**.
 
 
-
     If you don't see the **ASP.NET Core Web Application** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 
     Visual Studio creates the project.
