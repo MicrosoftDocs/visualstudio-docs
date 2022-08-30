@@ -2,7 +2,7 @@
 title: General, Environment, Options Dialog Box
 description: Learn how to use the General page in the Environment section to change color themes, status bar settings, file extension associations, and more for the IDE.
 ms.custom: SEO-VS-2020
-ms.date: 03/30/2022
+ms.date: 08/24/2022
 ms.topic: reference
 f1_keywords:
 - VS.Environment.General
@@ -108,4 +108,4 @@ Specifies that when the **Auto Hide** button is clicked, only the tool window th
 
 ## See also
 
-- [Customize window layouts](../../ide/customizing-window-layouts-in-visual-studio.md)
+- [Customize window layouts and personalize tabs](../../ide/customizing-window-layouts-in-visual-studio.md)

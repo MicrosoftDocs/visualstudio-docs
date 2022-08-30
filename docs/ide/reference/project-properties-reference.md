@@ -56,19 +56,19 @@ The following Visual Studio 2019 screenshot shows an example of the .NET project
 
 |Property       |Language/platform      |Description                                                              |
 |---------------|-----------------------|-------------------------------------------------------------------------|
-|Application     | [C#](application-page-project-designer-csharp.md), [Visual Basic](application-page-project-designer-visual-basic.md), [UWP](application-page-project-designer-uwp.md), WPF  | Specify application settings and properties for a project. |
-|Build           | [C#](build-page-project-designer-csharp.md), WPF |  Specify build configuration properties for a project. |
+|Application     | [C#](application-page-project-designer-csharp.md), F#, [Visual Basic](application-page-project-designer-visual-basic.md), [UWP](application-page-project-designer-uwp.md), WPF  | Specify application settings and properties for a project. |
+|Build           | [C#](build-page-project-designer-csharp.md), F#, WPF |  Specify build configuration properties for a project. |
 |Build Events    | [C#](build-events-page-project-designer-csharp.md), Visual Basic, WPF | Specify build configuration instructions. |
-|[Code Analysis](code-analysis-project-designer.md)  | C#, Visual Basic, WPF  | Configure the code analysis tool. |
+|[Code Analysis](code-analysis-project-designer.md)  | C#, F#, Visual Basic, WPF  | Configure the code analysis tool. |
 |Compile         | [Visual Basic](compile-page-project-designer-visual-basic.md) | Specify compilation properties |
 |My Extensions | Visual Basic | Manage [My Namespace](/dotnet/visual-basic/developing-apps/customizing-extending-my/) extensions. |
-|Package | C#, Visual Basic | Generate a NuGet package on build. |
+|Package | C#, F#, Visual Basic | Generate a NuGet package on build. |
 |[Publish](publish-page-project-designer.md) | Visual Basic, WPF | Configure properties for [!INCLUDE[ndptecclick](../../deployment/includes/ndptecclick_md.md)].|
 |References      | [Visual Basic](references-page-project-designer-visual-basic.md) | Manage the references used by a project. |
 |Reference Paths | WPF                   | Manage reference paths for a project. |
-|Resources       | C#, Visual Basic, WPF |  Access the RESX file from Solution Explorer for a C# project, create a default resources file for a Visual Basic project, or add resources to a WPF project. |
+|Resources       | C#, F#, Visual Basic, WPF |  Access the RESX file from Solution Explorer for a C# project, create a default resources file for a Visual Basic project, or add resources to a WPF project. |
 |[Services](services-page-project-designer.md) | Visual Basic, WPF, Windows Forms | Enable client application services. |
-|[Settings](settings-page-project-designer.md) | C#, Visual Basic, WPF | Specify a project's application settings. |
+|[Settings](settings-page-project-designer.md) | C#, F#, Visual Basic, WPF | Specify a project's application settings. |
 |[Signing](signing-page-project-designer.md) |  Visual Basic, WPF | Sign application and deployment manifests, and sign the assembly. (For a Visual Basic project, the [!INCLUDE[ndptecclick](../../deployment/includes/ndptecclick_md.md)] manifest signing for .NET projects is now under **Build** > **Publish**.) |
 |Security |  Visual Basic, [WPF](security-page-project-designer.md) | Configure code access security settings for applications that are deployed by using [!INCLUDE[ndptecclick](../../deployment/includes/ndptecclick_md.md)] deployment.
 

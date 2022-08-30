@@ -33,10 +33,6 @@ For more information, see [Use code coverage to determine how much code is being
 
 You need Visual Studio Enterprise.
 
-### Are you running code coverage for native(c++) module on ARM64 version of Visual Studio?
-
-Code coverage for native module is not supported on ARM64 version of Visual Studio.
-
 ### No tests were executed
 
 Analysis&mdash;Check your output window. In the **Show Output from** drop-down list, choose **Tests**. See if there are any warnings or errors logged.

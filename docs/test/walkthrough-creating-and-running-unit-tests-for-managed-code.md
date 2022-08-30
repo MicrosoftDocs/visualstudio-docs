@@ -263,7 +263,7 @@ A test method must meet the following requirements:
 
 ## Fix your code and rerun your tests
 
-The test result contains a message that describes the failure. For the `AreEqual` method, the message displays what was expected and what was actually received. You expected the balance to decrease, but instead it increased by the amount of the withdrawal.
+The test result contains a message that describes the failure. You may need to drill down to see this message. For the `AreEqual` method, the message displays what was expected and what was actually received. You expected the balance to decrease, but instead it increased by the amount of the withdrawal.
 
 The unit test has uncovered a bug: the amount of the withdrawal is *added* to the account balance when it should be *subtracted*.
 

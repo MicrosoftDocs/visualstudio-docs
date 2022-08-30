@@ -23,12 +23,11 @@ To debug an ASP.NET application that has been deployed to IIS, install and run t
 This guide explains how to set up and configure a Visual Studio ASP.NET MVC 4.5.2 application, deploy it to IIS, and attach the remote debugger from Visual Studio.
 
 > [!NOTE]
-> To remote debug ASP.NET Core instead, see [Remote Debug ASP.NET Core on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md). For Azure App Service, you can easily deploy and debug on a preconfigured instance of IIS using either the [Snapshot Debugger](../debugger/debug-live-azure-applications.md) (.NET 4.6.1 required) or by [attaching the debugger from Server Explorer](../debugger/remote-debugging-azure.md).
+> To remote debug ASP.NET Core instead, see [Remote Debug ASP.NET Core on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md). For Azure App Service, see [Remote debug ASP.NET Core on Azure](/learn/modules/dotnet-debug-visual-studio-azure-web-apps/) or, for Visual Studio Enterprise, use the [Snapshot Debugger](../debugger/debug-live-azure-applications.md) (.NET 4.6.1 required).
 
 ## Prerequisites
 
 Visual Studio 2019 is required to follow the steps shown in this article.
-
 
 
 These procedures have been tested on these server configurations:
@@ -231,9 +230,12 @@ For information on running the remote debugger as a service, see [Run the remote
 8. Open the remote computer's website. In a browser, go to **http://\<remote computer name>**.
 
     You should see the ASP.NET web page.
+
 9. In the running ASP.NET application, click the link to the **About** page.
 
     The breakpoint should be hit in Visual Studio.
+
+    If you are unable to attach or hit the breakpoint, see [Troubleshoot remote debugging](../debugger/troubleshooting-remote-debugging.md).
 
 ## Troubleshooting IIS deployment
 

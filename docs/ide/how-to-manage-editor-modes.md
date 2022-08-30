@@ -2,7 +2,7 @@
 title: Full screen and virtual space mode
 description: Learn how to manage the Visual Studio editor modes to display all of the tools and windows in a way that works best for you.
 ms.custom: SEO-VS-2020
-ms.date: 05/20/2022
+ms.date: 08/24/2022
 ms.topic: how-to
 helpviewer_keywords:
 - word wrap
@@ -77,5 +77,5 @@ In **Virtual Space** mode, spaces are inserted at the end of each line of code. 
 
 ## See also
 
-- [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md)
+- [Customize window layouts and personalize tabs](../ide/customizing-window-layouts-in-visual-studio.md)
 - [Fonts and Colors, Environment, Options dialog box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md)

@@ -27,7 +27,7 @@ MSBuild provides a set of predefined properties that store information about the
 
 ## Reserved and well-known properties
 
-The table in this section shows the MSBuild predefined properties. The example column in the table relates to the following example project file, assumed to be located at `C:\Source\Repos\ConsoleApp1\ConsoleApp1`, and shows the values of these properties have when accessed in the project file, when MSBuild is invoked with no special command-line options, with a preview build of Visual Studio 2019 version 16.7 installed.
+The table in this section shows the MSBuild predefined properties. The example column in the table relates to the following example project file, assumed to be located at `C:\Source\Repos\ConsoleApp1\ConsoleApp1`, and shows the values these properties have when accessed in the project file, when MSBuild is invoked with no special command-line options, with a preview build of Visual Studio 2019 version 16.7 installed.
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">

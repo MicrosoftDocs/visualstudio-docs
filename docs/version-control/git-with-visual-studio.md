@@ -81,7 +81,7 @@ Conflicts can occur during a merge if two developers modify the same lines in a 
 ### Personalize your Git settings
 
 To personalize your Git settings at a repository level as well as at a global level:
-1. Go to either **Git** > **Settings** on the menu bar
+1. Go to either **Git** > **Settings** on the menu bar or **Tools** > **Options** > **Source Control** > **Git Global Settings**
 2. Choose the [options](git-settings.md) you want.
 
 :::image type="content" source="media/git-options-settings.png" alt-text="The Options dialog box where you can choose personalization and customization settings in Visual Studio IDE.":::

@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Angular"
 description: In this tutorial, you create an app using ASP.NET Core and Angular
-ms.date: 06/17/2022
+ms.date: 08/17/2022
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -26,9 +26,6 @@ Starting in Visual Studio 2022 Preview 2, you can use the method described in th
 
 - Put the client app in a separate project, outside from the ASP.NET Core project
 - Create the client project based on the framework CLI installed on your computer
-
->[!NOTE]
-> Currently, the front-end project must be published manually (not currently supported with the Publish tool). For additional information, see [https://github.com/MicrosoftDocs/visualstudio-docs/issues/7135](https://github.com/MicrosoftDocs/visualstudio-docs/issues/7135).
 
 ## Prerequisites
 
@@ -124,7 +121,40 @@ Before you start the project, make sure that the port numbers match.
    >[!NOTE]
    > Check console output for messages, such as a message instructing you to update your version of Node.js.
 
-You should see an Angular app appear, that is populated via the API.
+You should see an Angular app appear, that is populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
+
+## Publish the project
+
+Starting in Visual Studio 2022 version 17.3, you can publish the integrated solution using the Visual Studio Publish tool.
+
+>[!NOTE]
+> To use publish, create your JavaScript project using Visual Studio 2022 version 17.3 or later.
+
+1. In Solution Explorer, right-click the ASP.NET Core project and choose **Add** > **Project Reference**.
+
+1. Select the Angular project and choose **OK**.
+
+1. Right-click the ASP.NET Core project in Solution Explorer and choose **Unload Project**.
+
+   This opens the *.csproj* file for the project.
+
+1. In the *.csproj* file, update the project reference and add `<ReferenceOutputAssembly>` with the value set to `false`.
+
+   When you've updated the reference, it should look like this (substituting your own project folder and project name).
+
+   ```xml
+   <ProjectReference Include="..\angularprojectfolder\angularprojectname.esproj">
+       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+   </ProjectReference>
+   ```
+
+1. Right.click the ASP.NET Core project and choose **Reload Project**.
+
+1. To publish, right click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, et al.
+
+   The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run build command` gets invoked when publishing.
+
+   You can modify the `npm run build` command using the **Production Build Command** in the Angular project properties. To modify it, right-click the Angular project in Solution Explorer and choose **Properties**.
 
 ## Troubleshooting
 
