@@ -23,7 +23,6 @@ In this introduction to the Visual Studio integrated development environment (ID
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
-
 ## Create a project
 
 First, create a Universal Windows Platform project. The project type comes with all the template files you need, before you've even added anything!

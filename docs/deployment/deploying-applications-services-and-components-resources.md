@@ -57,7 +57,6 @@ From within Visual Studio, applications can be published directly to the followi
 - [Import profile](#import-profile)
 
 
-
 The preceding options appear as shown in the following illustration when you create a new publish profile.
 
 ::: moniker range=">=vs-2022"
