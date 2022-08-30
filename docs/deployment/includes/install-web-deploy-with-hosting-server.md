@@ -1,7 +1,7 @@
 Web Deploy provides additional configuration features that enable the creation of the publish settings file from the UI.
 
 > [!NOTE]
-> The Web Platform Installer reached End-of-Life on 7/1/22. For more information, see [Web Platform Installer - End of support and sunsetting the product/application feed](https://blogs.iis.net/iisteam/web-platform-installer-end-of-support-feed). We recommend Web Deploy 4.0 to create the publish settings file.
+> The Web Platform Installer reached End-of-Life on 7/1/22. For more information, see [Web Platform Installer - End of support and sunsetting the product/application feed](https://blogs.iis.net/iisteam/web-platform-installer-end-of-support-feed). You can directly install Web Deploy 4.0 to create the publish settings file.
 
 1. If you did not already install **IIS Management Scripts and Tools**, install it now.
 

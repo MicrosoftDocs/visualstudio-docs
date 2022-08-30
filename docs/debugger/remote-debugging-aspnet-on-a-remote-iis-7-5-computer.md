@@ -79,7 +79,7 @@ When you download the software, you may get requests to grant permission to load
 If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
 
 > [!NOTE]
-> The Web Platform Installer reached End-of-Life on 7/1/22. For more information, see [Web Platform Installer - End of support and sunsetting the product/application feed](https://blogs.iis.net/iisteam/web-platform-installer-end-of-support-feed). We recommend Web Deploy 4.0 to create the publish settings file.
+> The Web Platform Installer reached End-of-Life on 7/1/22. For more information, see [Web Platform Installer - End of support and sunsetting the product/application feed](https://blogs.iis.net/iisteam/web-platform-installer-end-of-support-feed). You can directly install ASP.NET 4.8 from IIS.
 
 1. In the left pane of Server Manager, select **IIS**. Right-click the server and select **Add Roles and Features**.
 
