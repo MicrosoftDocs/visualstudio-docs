@@ -62,15 +62,15 @@ Imports the contents of one project file into another project file.
 
 ## Remarks
 
- By using the `Import` element, you can reuse code that is common to many project files. This makes it easier to maintain the code because any updates you make to the shared code get propagated to all the projects that import it.
+ By using the `Import` element, you can reuse code that is common to many project files. Using imports makes it easier to maintain the code, because any updates you make to the shared code get propagated to all the projects that import it.
 
- By convention, shared imported project files are saved as *.targets* files, but they are standard MSBuild project files. MSBuild does not prevent you from importing a project that has a different file name extension, but we recommend that you use the *.targets* extension for consistency.
+ By convention, shared imported project files are saved as `.targets` files, but they are standard MSBuild project files. MSBuild does not prevent you from importing a project that has a different file name extension, but we recommend that you use the `.targets` extension for consistency.
 
  Relative paths in imported projects are interpreted relative to the directory of the importing project (with a few exceptions described later in this paragraph). Therefore, if a project file is imported into several project files in different locations, the relative paths in the imported project file will be interpreted differently for each imported project. There are two exceptions. One exception is that in `Import` elements, the path is always interpreted relative to the project that contains the `Import` element. Another exception is that the `UsingTask` always interprets the relative path for the `AssemblyFile` attribute relative to the file that contains the `UsingTask` element.
 
- All MSBuild reserved properties that relate to the project file, for example, `MSBuildProjectDirectory` and `MSBuildProjectFile`, that are referenced in an imported project are assigned values based on the importing project file.
+ All MSBuild reserved properties that relate to the project file that are referenced in an imported project (for example, `MSBuildProjectDirectory` and `MSBuildProjectFile`) are assigned values based on the importing project file.
 
- If the imported project does not have a `DefaultTargets` attribute, imported projects are inspected in the order that they are imported, and the value of the first discovered `DefaultTargets` attribute is used. For example, if ProjectA imports ProjectB and ProjectC (in that order), and ProjectB imports ProjectD, MSBuild first looks for `DefaultTargets` specified on ProjectA, then ProjectB, then ProjectD, and finally ProjectC.
+ If the imported project doesn't have a `DefaultTargets` attribute, imported projects are inspected in the order that they are imported, and the value of the first discovered `DefaultTargets` attribute is used. For example, if ProjectA imports ProjectB and ProjectC (in that order), and ProjectB imports ProjectD, MSBuild first looks for `DefaultTargets` specified on ProjectA, then ProjectB, then ProjectD, and finally ProjectC.
 
  The schema of an imported project is identical to that of a standard project. Although MSBuild may be able to build an imported project, it is unlikely because an imported project typically does not contain information about which properties to set or the order in which to run targets. The imported project depends on the project into which it is imported to provide that information.
 
