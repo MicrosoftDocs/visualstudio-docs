@@ -32,16 +32,13 @@ For an Azure VM, you must deploy your app from Visual Studio to Azure and you al
 
 These procedures have been tested on these server configurations:
 
-* Windows Server 2012 R2 and IIS 8
-* Windows Server 2016 and IIS 10
+* Windows Server 2022 and IIS 10
 * Windows Server 2019 and IIS 10
+* Windows Server 2016 and IIS 10
 
 ## Prerequisites
 
-::: moniker range=">=vs-2019"
 Visual Studio 2019 or later versions is required to follow the steps shown in this article.
-::: moniker-end
-
 
 ### Network requirements
 

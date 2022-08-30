@@ -1,6 +1,6 @@
 ---
 title: "Remote debug ASP.NET on an IIS computer"
-description: Learn how to set up and configure a Visual Studio ASP.NET MVC 4.5.2 application, deploy it to IIS, and attach the remote debugger from Visual Studio. 
+description: Learn how to set up and configure a Visual Studio ASP.NET MVC 4.8 application, deploy it to IIS, and attach the remote debugger from Visual Studio. 
 ms.custom: ['remotedebugging']
 ms.date: 08/29/2022
 ms.topic: "conceptual"
@@ -20,16 +20,14 @@ To debug an ASP.NET application that has been deployed to IIS, install and run t
 
 ![Remote debugger components](../debugger/media/remote-debugger-aspnet.png "Remote_debugger_components")
 
-This guide explains how to set up and configure a Visual Studio ASP.NET MVC 4.5.2 application, deploy it to IIS, and attach the remote debugger from Visual Studio.
+This guide explains how to set up and configure a Visual Studio ASP.NET MVC 4.8 application, deploy it to IIS, and attach the remote debugger from Visual Studio.
 
 > [!NOTE]
 > To remote debug ASP.NET Core instead, see [Remote Debug ASP.NET Core on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md). For Azure App Service, see [Remote debug ASP.NET Core on Azure](/learn/modules/dotnet-debug-visual-studio-azure-web-apps/) or, for Visual Studio Enterprise, use the [Snapshot Debugger](../debugger/debug-live-azure-applications.md) (.NET 4.6.1 required).
 
 ## Prerequisites
 
-::: moniker range=">=vs-2019"
-Visual Studio 2019 is required to follow the steps shown in this article.
-::: moniker-end
+Visual Studio 2019 or a later version is required to follow the steps shown in this article.
 
 These procedures have been tested on these server configurations:
 
@@ -76,15 +74,18 @@ If Enhanced Security Configuration is enabled in Internet Explorer (it is enable
 
 When you download the software, you may get requests to grant permission to load various web site scripts and resources. Some of these resources are not required, but to simplify the process, click **Add** when prompted.
 
-## <a name="BKMK_deploy_asp_net"></a> Install ASP.NET 4.5 on Windows Server
+## <a name="BKMK_deploy_asp_net"></a> Install ASP.NET 4.8 on Windows Server
 
 If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
 
-1. In the left pane of Server Manager, select **IIS**. Right-click the server and select **Internet Information Services (IIS) Manager**.
+> [!NOTE]
+> The Web Platform Installer reached End-of-Life on 7/1/22. For more information, see [Web Platform Installer - End of support and sunsetting the product/application feed](https://blogs.iis.net/iisteam/web-platform-installer-end-of-support-feed). We recommend Web Deploy 4.0 to create the publish settings file.
 
-1. Use the Web Platform Installer (WebPI) to install ASP.NET 4.5. (Select the Server node in the left **Connections** pane, choose **Get New Web Platform Components** and then search for ASP.NET)
+1. In the left pane of Server Manager, select **IIS**. Right-click the server and select **Add Roles and Features**.
 
-    ![Screenshot of the Web Platform Installer 5.0 showing the search results for asp.net with the web platform component IIS: ASP.NET 4.5 circled in red.](../debugger/media/remotedbg_iis_aspnet_45.png)
+1. In the wizard, advance to the **Features** section and install ASP.NET 4.8.
+
+    ![Screenshot of IIS Add roles and features for IIS: ASP.NET 4.8 selected.](../debugger/media/remote-debug-iis-asp-dotnet-48.png)
 
     > [!NOTE]
     > If you are using Windows Server 2008 R2, install ASP.NET 4 instead using this command:
@@ -106,9 +107,9 @@ If you need help to deploy the app to IIS, consider these options:
 You can use this option create a publish settings file and import it into Visual Studio.
 
 > [!NOTE]
-> This deployment method uses Web Deploy, which must be installed on the server. If you want to configure Web Deploy manually instead of importing the settings, you can install Web Deploy 3.6 instead of Web Deploy 3.6 for Hosting Servers. However, if you configure Web Deploy manually, you will need to make sure that an app folder on the server is configured with the correct values and permissions (see [Configure ASP.NET Web site](#BKMK_deploy_asp_net)).
+> If you want to configure Web Deploy manually instead of importing the publish settings, you will need to make sure that an app folder on the server is configured with the correct values and permissions (see [Configure ASP.NET Web site](#BKMK_deploy_asp_net)).
 
-### Install and configure Web Deploy for Hosting Servers on Windows Server
+### Install and configure Web Deploy on Windows Server
 
 [!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/install-web-deploy-with-hosting-server.md)]
 
@@ -124,7 +125,11 @@ After the app deploys successfully, it should start automatically. If the app do
 
 1. Switch to a debug configuration.
 
-   ::: moniker range=">=vs-2019"
+   ::: moniker range=">=vs-2022"
+   Choose **More Options** > **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
+   ::: moniker-end
+
+   ::: moniker range="vs-2019"
    Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
    ::: moniker-end
 

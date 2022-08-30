@@ -94,7 +94,7 @@ If you need help to deploy the app to IIS, consider these options:
 You can use this option create a publish settings file and import it into Visual Studio.
 
 > [!NOTE]
-> This deployment method uses Web Deploy, which must be installed on the server. If you want to configure Web Deploy manually instead of importing the settings, you can install Web Deploy 3.6 instead of Web Deploy 3.6 for Hosting Servers. However, if you configure Web Deploy manually, you will need to make sure that an app folder on the server is configured with the correct values and permissions (see [Configure ASP.NET Web site](#BKMK_deploy_asp_net)).
+> If you want to configure Web Deploy manually instead of importing the publish settings, you will need to make sure that an app folder on the server is configured with the correct values and permissions (see [Configure ASP.NET Web site](#BKMK_deploy_asp_net)).
 
 ### Configure the ASP.NET Core web site
 
@@ -118,7 +118,11 @@ After the app deploys successfully, it should start automatically. If the app do
 
 1. Switch to a debug configuration.
 
-   ::: moniker range=">=vs-2019"
+   ::: moniker range=">=vs-2022"
+   Choose **More Options** > **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
+   ::: moniker-end
+
+   ::: moniker range="vs-2019"
    Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
    ::: moniker-end
 
