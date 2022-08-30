@@ -113,7 +113,6 @@ When selected, inserts parameter name hints for literals, casted literals, and o
 
 ![Inline Parameter Name Hints for Visual Basic](media/inline-parameter-name-hints-visualbasic.png)
 
-
 **Pretty Listing (reformatting) of code**
 The text editor reformats your code as appropriate. When this option is selected, the code editor will:
 

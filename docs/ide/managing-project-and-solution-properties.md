@@ -31,7 +31,6 @@ You access project properties by right-clicking the project node in **Solution E
 
 :::image type="content" source="media/vs-2022/properties-node-solution-explorer.png" alt-text="Screenshot of Solution Explorer with a Properties node showing.":::
 
-
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Managing solution and project properties (Visual Studio for Mac)](/visualstudio/mac/managing-solutions-and-project-properties).
 
@@ -73,7 +72,6 @@ For more information about each of the **Project Designer** properties, see [Wha
 C++ and JavaScript projects have a different user interface for managing project properties. The following screenshot shows a C++ project property page (JavaScript pages are similar):
 
 :::image type="content" source="media/vs-2022/properties-page-cpp-console.png" alt-text="Screenshot of the C++ project properties page.":::
-
 
 For information about C++ project properties, see [Work with project properties (C++)](/cpp/build/working-with-project-properties). For more information about JavaScript properties, see [Property pages, JavaScript](../ide/reference/property-pages-javascript.md).
 

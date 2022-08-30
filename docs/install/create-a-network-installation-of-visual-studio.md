@@ -163,7 +163,6 @@ Here are a few examples of how to create a custom partial layout.
     vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --includeOptional
     ```
 
-
 ### Ensure your layout is using the latest installer
 
 We recommend that you always use the latest Visual Studio installer in your layout and distribute it to your clients. That way you will have access to the new features and functionality we make available in subsequent versions of the product. For example, if you distribute the Visual Studio 2022 Installer in your Visual Studio 2019 layouts, then your Visual Studio 2019 clients based off of that layout will have the ability to change source location for updates. The scenario where this functionality would be useful is if you want to install from one layout but have updates come from another layout. Further details, including how to turn _off_ using the latest installer, are [described below](#configure-the-layout-to-always-include-and-provide-the-latest-installer)
