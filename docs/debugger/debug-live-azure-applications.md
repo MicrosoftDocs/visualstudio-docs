@@ -36,7 +36,6 @@ In this tutorial, you will:
 
    If it's not already installed, install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads). If you're updating from a previous Visual Studio installation, run the Visual Studio Installer and check the Snapshot Debugger component in the **ASP.NET and web development workload**.
 
-
 * Basic or higher Azure App Service plan.
 
 * Snapshot collection is available for the following web apps running in Azure App Service:
@@ -50,13 +49,11 @@ In this tutorial, you will:
    > [!IMPORTANT]
    > To snapshot debug, you need to open the *same version of source code* that is published to your Azure App Service.
 
-
 2. Choose **Debug > Attach Snapshot Debugger...**. Select the Azure App Service your project is deployed to and an Azure storage account, and then click **Attach**. Snapshot Debugger also supports [Azure Kubernetes Service](debug-live-azure-kubernetes.md) and [Azure Virtual Machines (VM) & Virtual Machine Scale Sets](debug-live-azure-virtual-machines.md).
 
    ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
 
    ![Select Azure Resource](../debugger/media/snapshot-select-azure-resource-appservices.png)
-
 
    > [!IMPORTANT]
    > The first time you select **Attach Snapshot Debugger**, you're prompted to install the Snapshot Debugger site extension on your Azure App Service. This installation requires a restart of your Azure App Service.

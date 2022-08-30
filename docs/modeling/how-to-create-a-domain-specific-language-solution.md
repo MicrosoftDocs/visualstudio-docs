@@ -39,7 +39,6 @@ Before you can start this procedure, install these components:
    > [!NOTE]
    > Preferably, the name that you choose for the project should be a valid Visual C# identifier because it might be used to generate code.
 
-
 2. Choose a DSL template.
 
     On the **Select Domain-Specific Language Options** page, select one of the solution templates such as **Minimal Language**. Choose a template that is similar to the DSL that you want to create.

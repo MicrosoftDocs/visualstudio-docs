@@ -50,7 +50,6 @@ This error generally occurs when users connect to the internet through a proxy s
 
 - If you want to use your default credentials with your proxy, you can perform the following actions:
 
-
 ::: moniker range="vs-2019"
 
   1. Find **devenv.exe.config** (the devenv.exe configuration file) in: **%ProgramFiles%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE** or **%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE**.
@@ -107,7 +106,6 @@ This error generally occurs when a user connects to the internet through a proxy
 
 ## Error: “The underlying connection was closed”
 If you're using Visual Studio in a private network that has a firewall, Visual Studio might not be able to connect to some network resources. These resources can include Azure DevOps Services for sign-in and licensing, NuGet, and Azure services. If Visual Studio fails to connect to one of these resources, you might see the following error message:
-
 
   **The underlying connection was closed: An unexpected error occurred on send**
 

@@ -13,7 +13,6 @@ monikerRange: "<=vs-2019"
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-
 ::: moniker range="vs-2019"
 
 Team Explorer connects Visual Studio 2019 and earlier to Team Foundation version control (TFVC) repositories, and to projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops) or an on-premises [Azure DevOps Server](/azure/devops/user-guide/about-azure-devops-services-tfs?view=azure-devops&preserve-view=true) (formerly known as TFS). You can manage source code, work items, and builds.
@@ -90,7 +89,6 @@ How you use Team Explorer to connect to a project depends on the version of Visu
    If you do not have a solution file in your repo, a 'No Solutions Found' message appears. However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
 
 ::: moniker-end
-
 
 ## See also
 

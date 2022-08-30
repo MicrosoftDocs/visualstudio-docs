@@ -43,7 +43,6 @@ ms.workload:
 
 ::: moniker-end
 
-
 ## How to display Find in Files
 
 Use the following steps to open the **Find and Replace** dialog box, or press **Ctrl**+**Shift**+**F**.
@@ -65,7 +64,6 @@ To cancel a Find operation, press **Ctrl**+**Break**.
 
 > [!NOTE]
 > The **Find and Replace** tool does not search directories with the `Hidden` or `System` attribute.
-
 
 ::: moniker range=">=vs-2022"
 
@@ -150,7 +148,6 @@ You can search for multiple file types by separating them with a semicolon (`;`)
 Use this option to append the results from the current search to previous search results.
 
 ::: moniker-end
-
 
 
 ## Search results

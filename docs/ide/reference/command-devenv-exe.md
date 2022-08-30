@@ -38,7 +38,6 @@ Required. The complete name of a Visual Studio command or its alias, enclosed in
 
 After startup is complete, the IDE executes the named command.
 
-
 If an add-in exposes a command, you can use this switch to launch the add-in from the command line. For more information, see [How to: Control add-ins by using the add-in manager](/previous-versions/xwdatdwh(v=vs.140)).
 
 ## Example

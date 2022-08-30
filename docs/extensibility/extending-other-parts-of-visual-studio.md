@@ -36,7 +36,6 @@ Learn how to add new controls and other items to the Toolbox and how to use Tool
 
 Learn how to read and write to the status bar and the progress bar, and how to provide animations and other UI: [Extend the status bar](../extensibility/extending-the-status-bar.md).
 
-
 ## Write to the Activity log
 
 Learn how to write to the Activity Log: [How to: Use the Activity log](../extensibility/how-to-use-the-activity-log.md).

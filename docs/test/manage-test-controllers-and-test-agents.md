@@ -19,7 +19,6 @@ If you want to use Visual Studio to run tests remotely, distribute tests across 
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
-
 For information about how to install and configure test agents and test controllers to run tests in Visual Studio, see [Configure test agents and controllers](../test/configure-test-agents-and-controllers-for-load-tests.md).
 
 To configure and monitor the test controller and any registered agents, you must have a test settings file in your test project that contains the tests you want to run. Open the test settings file, choose **Role** and choose **Manage Test Controllers** from the drop down for the **Controller** field.
@@ -108,7 +107,6 @@ If the test controller is not registered with a project, follow these steps.
    > [!NOTE]
    > Removing a test agent just disassociates it from the test controller. To completely uninstall the test agent, use the  **Programs and Features** Control Panel on the test agent computer.
 
-
 ## Change the settings for a test agent
 
 The status of the test agent can be any one of the following values:
@@ -123,7 +121,6 @@ The status of the test agent can be any one of the following values:
 You can change the status and other settings for a test agent using the following procedures.
 
 ### To change the settings of a test agent
-
 
 1. To configure and monitor the test controller and any registered agents for a load test, choose the **Load Test** menu in Visual Studio and then choose **Manage Test Controllers**. For any other tests, open the test settings file for your test project in Visual Studio, choose **Role** and choose **Manage Test Controllers** from the drop down for the **Controller** field.
 

@@ -42,7 +42,6 @@ Download the bootstrapper for the edition of Visual Studio you want and copy it 
 
 ### Step 1 - Download the Visual Studio bootstrapper
 
-
 ::: moniker range="vs-2019"
 
 The bootstrappers listed below will always install the latest most secure version of Visual Studio 2019, no matter when you run them. Alternatively, if you want to install a specific version of Visual Studio 2019, go to the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page that has links to the fixed version bootstrappers for each servicing release, and download the one you want. Copy it into the directory that you want to serve as the location of your local layout.
@@ -125,7 +124,6 @@ Open a command prompt with administrator privileges, navigate to the directory w
     vs_enterprise.exe --layout c:\localVSlayout --lang en-US
     ```
 
-
 ::: moniker range="vs-2019"
 
    > [!NOTE]
@@ -178,7 +176,6 @@ c:\localVSlayout\vs_enterprise.exe --noweb --add Microsoft.VisualStudio.Workload
 
 > [!NOTE]
 > If you get an error that a signature is invalid, you must [install updated certificates](install-certificates-for-visual-studio-offline.md). Open the Certificates folder in your local layout. Double-click each of the certificate files, and then click through the Certificate Manager wizard. If you're asked for a password, leave it blank.
-
 
 ### List of language locales
 

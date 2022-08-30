@@ -24,7 +24,6 @@ As an educational exercise to understand the concept of a project, you'll constr
 > [!NOTE]
 > Developing apps in Visual Studio doesn't require solutions and projects. You can just open a folder that contains code and start coding, building, and debugging. For example, a cloned [GitHub](https://github.com/) repo might not contain Visual Studio projects and solutions. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
-
 ::: moniker range="vs-2019"
 
 If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
@@ -44,7 +43,6 @@ In Visual Studio, a solution isn't an "answer". A solution is simply a container
 ### Create a solution
 
 Start your exploration by creating an empty solution. After you get to know Visual Studio, you probably won't create empty solutions very often. When you create a new project, Visual Studio automatically creates a solution for the project unless a solution is already open.
-
 
 ::: moniker range="vs-2019"
 
@@ -85,7 +83,6 @@ Start your exploration by creating an empty solution. After you get to know Visu
 ### Add a project
 
 Now add your first project to the solution. Start with an empty project, and add the items you need.
-
 
 ::: moniker range="vs-2019"
 
@@ -175,7 +172,6 @@ Solutions commonly contain more than one project, and these projects often refer
 
 To add a unit test project to your solution, start from a project template so you don't have to add another code file to the project.
 
-
 ::: moniker range="vs-2019"
 
 1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, select **Add** > **New Project**.
@@ -216,7 +212,6 @@ To add a unit test project to your solution, start from a project template so yo
 ## Add a project reference
 
 You'll use the new unit test project to test your method in the **QuickDate** project, so you need to add a reference to **QuickDate** to the **QuickTest** project. Adding the reference creates a *build dependency* between the two projects, meaning that when you build the solution, **QuickDate** builds before **QuickTest**.
-
 
 ::: moniker range="vs-2019"
 
@@ -292,9 +287,7 @@ You'll use the new unit test project to test your method in the **QuickDate** pr
 
 ### Run the unit test
 
-
 To check that your unit test is working, choose **Test** > **Run All Tests** from the menu bar. The **Test Explorer** window opens, and you should see that the **TestGetCurrentDate** test passes.
-
 
 ::: moniker range="<=vs-2019"
 
@@ -308,10 +301,8 @@ To check that your unit test is working, choose **Test** > **Run All Tests** fro
 
 ::: moniker-end
 
-
 > [!TIP]
 > If **Test Explorer** doesn't open automatically, open it by choosing **Test** > **Test Explorer** from the menu bar.
-
 
 ## Project properties
 

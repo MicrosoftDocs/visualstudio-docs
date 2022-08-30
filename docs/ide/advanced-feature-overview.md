@@ -21,9 +21,7 @@ This article describes features for experienced developers, or developers who ar
 
 In Visual Studio's modular installer, you choose and install the *workloads* you want. Workloads are groups of features that programming languages or platforms need to work. This modular strategy helps keep the Visual Studio installation footprint smaller, so it installs and updates faster.
 
-
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
-
 
 To learn more about setting up Visual Studio on your system, see [Install Visual Studio](../install/install-visual-studio.md).
 
@@ -42,7 +40,6 @@ Visual Studio has a suite of tools to easily create Microsoft Azure cloud-enable
 :::image type="content" source="media/vs-2022/azure-development-workload.png" alt-text="Screenshot of the Azure development workload selected in the Visual Studio Installer." border="false":::
 
 ::: moniker-end
-
 
 ::: moniker range="vs-2019"
 
@@ -156,7 +153,6 @@ How you open a project from a GitHub repo by using Visual Studio 2019 depends on
 And, for a step-by-step tutorial on how to connect to a Git or Azure DevOps repository by using Visual Studio, see the [Open a project from a repo](../get-started/tutorial-open-project-from-repo.md?view=vs-2019&preserve-view=true) page.
 
 ::: moniker-end
-
 
 ## Next steps
 

@@ -157,7 +157,6 @@ First, create a Node.js web app project.
     (5) Project files such as *server.js* show up under the project node. *server.js* is the project startup file and that is why it shows up in **bold**. You can set the startup file by right-clicking a file in the project and selecting **Set as Node.js startup file**.
 ::: moniker-end
 
-
 ## Add npm packages
 
 This app requires the following npm modules to run correctly:
@@ -423,7 +422,6 @@ Visual Studio versions starting with Visual Studio 2019 require a build script. 
     ![Screenshot that shows selecting Chrome as the debug target.](media/vs-2019/tutorial-nodejs-react-debug-target.png)
     ::: moniker-end
 
-
     If you know your preferred debug target is available on your machine, but it doesn't appear as an option, select **Browse With** from the debug target dropdown list. Select your default browser target in the list, and select **Set as Default**.
 
 1. To run the app, press **F5**, select the green arrow button, or select **Debug** > **Start Debugging**.
@@ -491,7 +489,6 @@ To start your browser with debugging enabled:
   
   `chrome.exe --remote-debugging-port=9222`
 
-
 The browser starts with debugging enabled. The app isn't running yet, so the browser page is empty.
 
 ### Attach the debugger to client-side script
@@ -552,7 +549,6 @@ The browser starts with debugging enabled. The app isn't running yet, so the bro
 
     Make sure the correct debugger for your target browser, **JavaScript (Chrome)** or **JavaScript (Microsoft Edge - Chromium)**, appears in the **Attach to** field. Type *chrome* or *edge* in the filter box to filter the results.
 
-
 1. Select the browser process with the correct host port, **localhost** in this example. The port number **1337** or **localhost** might also appear in the **Title** field to help you select the correct process.
 
 1. Select **Attach**.
@@ -560,7 +556,6 @@ The browser starts with debugging enabled. The app isn't running yet, so the bro
     The following example shows an **Attach to Process** window for the Microsoft Edge browser.
 
     ![Screenshot showing the Attach to process dialog box.](../javascript/media/tutorial-nodejs-react-attach-to-process-edge.png)
-
 
     > [!TIP]
     > If the debugger doesn't attach and you see the message **Unable to attach to the process. An operation is not legal in the current state.**, use Task Manager to close all instances of the target browser before starting the browser in debugging mode. Browser extensions may be running and preventing full debug mode.

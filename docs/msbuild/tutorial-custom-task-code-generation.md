@@ -156,7 +156,6 @@ Project "S:\work\msbuild-examples\custom-task-code-generation\AppSettingStrongly
 S:\work\msbuild-examples\custom-task-code-generation\AppSettingStronglyTyped\AppSettingStronglyTyped.Test\bin\Debug\net6.0\Resources\error-prop.setting(1): error APPS0001: Incorrect line format. Valid format prop:type:defaultvalue [S:\work\msbuild-examples\custom-task-code-generation\AppSettingStronglyTyped\AppSettingStronglyTyped.Test\bin\Debug\net6.0\Resources\testscript-fail.msbuild]
 Done Building Project "S:\work\msbuild-examples\custom-task-code-generation\AppSettingStronglyTyped\AppSettingStronglyTyped.Test\bin\Debug\net6.0\Resources\testscript-fail.msbuild" (default targets) -- FAILED.
 
-
 Build FAILED.
 
 "S:\work\msbuild-examples\custom-task-code-generation\AppSettingStronglyTyped\AppSettingStronglyTyped.Test\bin\Debug\net6.0\Resources\testscript-fail.msbuild" (default target) (1) ->

@@ -89,7 +89,6 @@ The project type comes with template files that constitute a functional web serv
 1. Select the **F5** key to run your project.
    A browser window opens to display your Hello World message.
 
-
 > [!NOTE]
 > If you get a message that asks if you want to accept an IIS SSL Express certificate, choose **Yes** to view the code in a web browser, and then choose **Yes** if you receive a follow-up security warning message.
 

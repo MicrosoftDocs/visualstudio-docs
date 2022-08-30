@@ -67,7 +67,6 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create the Windows Forms application
 
-
 Create a new **Windows Forms App (.NET Framework)** project for either C# or Visual Basic. Name the project **WindowsSearchForm**.
 
 ## Create the data source
@@ -95,7 +94,6 @@ This step creates a data source from a database using the **Data Source Configur
 1. Select the **Customers** table, and then click **Finish**.
 
      The **NorthwindDataSet** is added to your project, and the **Customers** table appears in the **Data Sources** window.
-
 
 ## Create the form
 

@@ -54,7 +54,6 @@ This article includes steps on setting up a basic configuration of IIS on Window
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
     ::: moniker-end
 
-
 4. Open the About.cshtml.cs file and set a breakpoint in the `OnGet` method (in older templates, open HomeController.cs instead and set the breakpoint in the `About()` method).
 
 ## <a name="bkmk_configureIIS"></a> Install and Configure IIS on Windows Server
@@ -124,7 +123,6 @@ After the app deploys successfully, it should start automatically. If the app do
    ::: moniker range=">=vs-2019"
    Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
    ::: moniker-end
-
 
    > [!IMPORTANT]
    > If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.

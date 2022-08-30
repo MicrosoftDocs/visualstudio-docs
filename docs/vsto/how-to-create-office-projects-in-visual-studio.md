@@ -83,7 +83,6 @@ ms.workload:
 
 7. Choose the **OK** button.
 
-
 ### To create a document-level customization project
 
 1. On the **File** menu, choose **New** > **Project**. If your IDE is set to use Visual Basic development settings, on the **File** menu, choose **New** > **Project**.

@@ -140,7 +140,6 @@ If you choose to use a custom layout as the update channel, then be aware of the
 
 ## Using --remove
 
-
 ::: moniker range="vs-2019"
 
 * Remove the Profiling Tools component from the default installed Visual Studio instance:

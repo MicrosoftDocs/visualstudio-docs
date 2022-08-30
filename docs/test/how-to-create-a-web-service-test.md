@@ -66,7 +66,6 @@ If you don't already have the web performance and load testing tools component i
 
 A web test requires the Web Performance and Load Test Project project template. In this section, we'll create a C# load test project. You can also create a Visual Basic load test project, if you prefer.
 
-
 1. Open Visual Studio.
 
    If you are using the sample Web Service (ASMX) template, you can add the web test project to the same solution.
@@ -76,7 +75,6 @@ A web test requires the Web Performance and Load Test Project project template. 
 3. On the **Create a new project** page, type **web test** into the search box, and then select the **Web Performance and Load Test Project \[Deprecated]** template for C#. Choose **Next**.
 
 4. Enter a name for the project if you don't want to use the default name, and then choose **Create**.
-
 
    Visual Studio creates the project and displays the files in **Solution Explorer**. The project initially contains one web test file named *WebTest1.webtest*.
 

@@ -18,9 +18,7 @@ ms.workload:
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), we'll take a tour of some of the windows, menus, and other UI features.
 
-
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
-
 
 
 ## Start window
@@ -36,11 +34,9 @@ If you work with non-MSBuild based codebases, you'll use the **Open a local fold
 The **Continue without code** option simply opens the Visual Studio development environment without any specific project or code loaded. You might choose this option to join a [Live Share](/visualstudio/liveshare/) session or attach to a process for debugging. You can also press **Esc** to close the start window and open the IDE.
 
 
-
 ## Create a project
 
 To continue exploring Visual Studio's features, let's create a new project.
-
 
 1. On the start window, select **Create a new project**, and then in the search box type in **javascript** to filter the list of project types to those that contain "javascript" in their name or language type.
 
@@ -51,7 +47,6 @@ To continue exploring Visual Studio's features, let's create a new project.
 1. Choose a **Blank Node.js Web Application** project template and click **Next**.
 
 1. In the **Configure your new project** dialog box that appears, accept the default project name and choose **Create**.
-
 
 
    The project is created and a file named *server.js* opens in the **Editor** window. The **Editor** shows the contents of files, and is where you'll do most of your coding work in Visual Studio.

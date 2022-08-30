@@ -63,7 +63,6 @@ Visual Studio looks for installed global environments using the registry (follow
 
 When you select an environment in the list, Visual Studio displays various properties and commands for that environment on the **Overview** tab.
 
-
 :::moniker range="vs-2019"
  For example, you can see in the image above that the interpreter's location is **C:\Python36-32**. The four commands at the bottom of the **Overview** tab each open a command prompt with the interpreter running. For more information, see [Python Environments window tab reference 2019- Overview](python-environments-window-tab-reference.md#overview-tab).
 :::moniker-end
@@ -77,7 +76,6 @@ Use the drop-down list below the list of environments to switch to different tab
 Selecting an environment doesn't change its relation to any projects. The default environment, shown in boldface in the list, is the one that Visual Studio uses for any new projects. To use a different environment with new projects, use the **Make this the default environment for new projects** command. Within the context of a project, you can always select a specific environment. For more information, see [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
 
 To the right of each listed environment, is a control that opens an **Interactive** window for that environment. (In Visual Studio 2017 15.5 and earlier, another control appears that refreshes the IntelliSense database for that environment. See [Environments window tab reference](python-environments-window-tab-reference.md) for details about the database.)
-
 
 ::: moniker range="vs-2019"
 > [!Tip]
@@ -99,7 +97,6 @@ To the right of each listed environment, is a control that opens an **Interactiv
 If no environments appear, it means Visual Studio failed to detect any Python installations in standard locations. For example, you might have installed Visual Studio 2017 or later but cleared all the interpreter options in the installer options for the Python workload. Similarly, you might have installed Visual Studio 2015 or earlier but didn't install an interpreter manually (see [Install Python interpreters](installing-python-interpreters.md)).
 
 If you know you have a Python interpreter on your computer but Visual Studio (any version) didn't detect it, then use the **+ Custom** command to specify its location manually. See the next section, [Manually identify an existing environment](#manually-identify-an-existing-environment).
-
 
 ### Types of environments
 
@@ -135,7 +132,6 @@ Visual Studio also provides a command to generate a *requirements.txt* file from
 #### Conda environments
 
 A conda environment is one you create using the `conda` tool, or with integrated conda management in Visual Studio 2017 version 15.7 and higher. (Requires Anaconda or Miniconda, which are available through the Visual Studio installer, see [Install Visual Studio 2017](installing-python-support-in-visual-studio.md#visual-studio-2017)
-
 
 ::: moniker range="vs-2019"
 
@@ -231,7 +227,6 @@ Visual Studio 2017 version 15.7 and later detects conda environments automatical
 ## Manually identify an existing environment
 
 Use the following steps to identify an environment that's installed in a non-standard location:
-
 
 ::: moniker range="vs-2019"
 

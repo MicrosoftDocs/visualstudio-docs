@@ -18,5 +18,4 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-
 Use this page to set a different default action when Visual Studio starts up. In the **On startup, open** list, choose from **Start window** (which lets you open a new or existing project), **Most recent solution**, or **Empty environment**.

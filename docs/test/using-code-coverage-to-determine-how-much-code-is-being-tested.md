@@ -150,7 +150,6 @@ public class ExampleClass1
 class ExampleClass2 { ... }
 ```
 
-
 ### [VB](#tab/vb)
 
 ```vb

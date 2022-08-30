@@ -108,7 +108,6 @@ Examples:
 
 ::: moniker-end
 
-
 ## See also
 
 - [Suppress violations](use-roslyn-analyzers.md#suppress-violations)

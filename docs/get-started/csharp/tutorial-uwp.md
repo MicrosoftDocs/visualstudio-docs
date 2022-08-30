@@ -27,7 +27,6 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 First, create a Universal Windows Platform project. The project type comes with all the template files you need, before you've even added anything!
 
-
 ::: moniker range="vs-2019"
 1. Open Visual Studio, and on the start window, choose **Create a new project**.
 
@@ -76,7 +75,6 @@ First, create a Universal Windows Platform project. The project type comes with 
 It's time to start developing. You'll add a button control, add an action to the button, and then start the "Hello World" app to see what it looks like.
 
 ### Add a button to the Design canvas
-
 
 ::: moniker range="vs-2019"
 

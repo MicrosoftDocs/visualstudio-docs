@@ -49,7 +49,6 @@ for Enterprise edition.
 
 ::: moniker-end
 
-
 ## Syntax
 
 ```

@@ -16,9 +16,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-
 The .NET Counters tool allows you to visualize [dotnet counters](/dotnet/core/diagnostics/dotnet-counters) over time right from within the Visual Studio profiler.
-
 
 > [!NOTE]
 > The .NET Counters tool requires Visual Studio 2019 version 16.7 or later and targets .NET Core 3.0+.
@@ -35,7 +33,6 @@ The .NET Counters tool allows you to visualize [dotnet counters](/dotnet/core/di
 
 For more information on how to optimize tool performance, see [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md).
 
-
 ## Understand your data
 
 While the tool is initially collecting data, you can see the live values of [dotnet counters](/dotnet/core/diagnostics/dotnet-counters).
@@ -44,9 +41,7 @@ While the tool is initially collecting data, you can see the live values of [dot
 
 You can also view graphs of the counters by selecting the checkbox next to the counter names. You can display the graphs of multiple counters at a time.
 
-
 Once you are done exercising your app and collecting data, you can stop collection for an even more detailed report. To do this, press the **Stop Collection** button.
-
 
 Once the report loads, you should see a finalized report similar to the one shown below.
 
@@ -67,7 +62,6 @@ You can also view graphs in the detailed report by selecting the checkboxes next
 :::image type="content" source="../profiling/media/dotnet-counters-tool-time-filtering.png" alt-text=".NET Counters tool time filtering.":::
 
 The table updates to relevant values for the time selected in the graphs. Use the **Clear Selection** button to reset the selected time range to the entire trace.
-
 
 ## See also
 

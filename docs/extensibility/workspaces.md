@@ -175,9 +175,7 @@ A UI context can be used to auto-load your package. The value is `4646B819-1AE0-
 
 Workspace extensibility is heavily MEF-based, and composition errors will cause the package hosting Open Folder to fail to load. For example, if an extension exports a type with `ExportFileContextProviderAttribute`, but the type only implements `IWorkspaceProviderFactory<IFileContextActionProvider>`, an error will occur when trying to open a folder in Visual Studio.
 
-
 Error details can be found in _%LOCALAPPDATA%\Microsoft\VisualStudio\16.0_id\ComponentModelCache\Microsoft.VisualStudio.Default.err_. Resolve any errors for types implemented by your extension.
-
 
 ## Next steps
 

@@ -312,7 +312,6 @@ The project uses the SPA Proxy during debugging. See [Improved single-page app (
    ASPNETCORE_ENVIRONMENT=Development,ASPNETCORE_HOSTINGSTARTUPASSEMBLIES=Microsoft.AspNetCore.SpaProxy
    ```
 
-
 1. Set the **URL** to `https://localhost:{proxy-port}` where `{proxy-port}` is the port from the proxy server (from step 1).
 
    ![Screenshot of Debug Launch Profile settings for client debugging.](./media/container-tools-react/vs-2022/launch-profiles-debugging.png)
@@ -392,7 +391,6 @@ You can also view the images and inspect information about them. Choose the **Im
 
 > [!NOTE]
 > The **dev** image does not contain the app binaries and other content, as **Debug** configurations use volume mounting to provide the iterative edit and debug experience. To create a production image containing all contents, use the **Release** configuration.
-
 
 ## Publish Docker images
 

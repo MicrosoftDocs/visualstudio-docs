@@ -19,7 +19,6 @@ ms.workload:
 
 In this 10-minute introduction to the code editor in Visual Studio, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
 
-
 ::: moniker range="vs-2019"
 
 > [!TIP]
@@ -45,7 +44,6 @@ This article assumes you're already familiar with a programming language. If you
 ## Create a new code file
 
 Start by creating a new file and adding some code to it.
-
 
 ::: moniker range="vs-2019"
 
