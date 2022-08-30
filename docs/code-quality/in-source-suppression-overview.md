@@ -46,7 +46,6 @@ You can suppress violations in code using a preprocessor directive, the [#pragma
 
   :::image type="content" source="media/vs-2019/suppress-diagnostic-from-editor-attribute.png" alt-text="Suppress diagnostic from quick actions menu using attribute":::
 
-
 - From the **Error List**
 
   Select the rules you want to suppress, and then right-click and select **Suppress** > **In Source**.

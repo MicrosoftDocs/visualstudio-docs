@@ -111,7 +111,6 @@ In the debugger side code, edit the <xref:System.Diagnostics.DebuggerVisualizerA
 
 The debuggee side code contains the object source that gets visualized. The data object can override methods of <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>. A debuggee side DLL is necessary if you want to create a standalone visualizer.
 
-
 In the debuggee-side code:
 
 - To let the visualizer edit data objects, the object source must inherit from from <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> and override the `TransferData` or `CreateReplacementObject` methods.

@@ -26,7 +26,6 @@ For .NET Framework projects, *service reference* enables a project to access one
 
 For .NET Core projects, you can use the **Connected Services** node in **Solution Explorer** to access the **Microsoft WCF Web Service Reference Provider**, which lets you manage Windows Communication Foundation (WCF) data service references.
 
-
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 
 ## Prerequisites
@@ -86,7 +85,6 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 1. Click **Finish** to add the reference to the project.
 
      A service client (proxy) is generated, and metadata that describes the service is added to the *app.config* file.
-
 
 ### To add a reference to a service in the current solution (.NET Framework projects)
 
