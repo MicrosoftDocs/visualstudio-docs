@@ -28,7 +28,6 @@ In this tutorial, you learn how to:
 - Use the Django Web Project template to create an app with multiple pages and responsive design (step 4).
 - Authenticate users (step 5).
 
-
 ## Prerequisites
 
 ::: moniker range="<=vs-2019"

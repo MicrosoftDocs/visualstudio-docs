@@ -26,7 +26,6 @@ You can also manually install any of the interpreters listed in the table below 
 > [!Note]
 > Visual Studio supports Python version 3.7. While it is possible to use Visual Studio to edit code written in other versions of Python, those versions are not officially supported and features such as IntelliSense and debugging might not work.
 
-
 For **Visual Studio 2015 and earlier**, you must manually install one of the interpreters.
 
 > [!Note]

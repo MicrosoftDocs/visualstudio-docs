@@ -121,7 +121,6 @@ We recommend that you begin analyzing your data by examining the list of functio
     ![Diagnostics Tools Call Tree](../profiling/media/vs-2019/diag-tools-call-tree.png "DiagToolsCallTree")
 
 
-
     |Image|Description|
     |-|-|
     |![Step 1](../profiling/media/ProcGuid_1.png "ProcGuid_1")|The top-level node in CPU Usage call trees is a pseudo-node|
@@ -140,7 +139,6 @@ We recommend that you begin analyzing your data by examining the list of functio
     To see the function calls that use the highest percentage of the CPU in the call tree view, click **Expand Hot Path**.
 
     ![Diagnostics Tools Hot Path](../profiling/media/vs-2019/diag-tools-hot-path.png "DiagToolsHotPath")
-
 
     > [!NOTE]
     > If you see code in the call tree marked as "broken" code or "unwalkable stack", this indicates that Event Tracing for Windows (ETW) events were likely dropped. Try collecting the same trace a second time to resolve the issue.

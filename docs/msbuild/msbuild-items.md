@@ -557,7 +557,6 @@ Remarks:
   - Metadata conditions
 - Metadata name matching is case insensitive.
 
-
 ## Updating metadata on items in an ItemGroup of a Target
 
 Metadata can be modified inside targets too, by a less expressive syntax than `Update`:

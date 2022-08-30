@@ -80,7 +80,6 @@ The diagnostic report is sorted by **Total CPU**, from highest to lowest. Change
 
 Starting in Visual Studio 2019, you can click the **Expand Hot Path** and **Show Hot Path** buttons to see the function calls that use the highest percentage of the CPU in the call tree view.
 
-
 ### <a name="BKMK_Call_tree_data_columns"></a> CPU Usage data columns
 
 |Name|Description|

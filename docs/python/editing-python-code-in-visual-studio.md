@@ -113,7 +113,6 @@ Using the **Run Mypy** command on this code generates the following error:
 >
 > At present, Visual Studio doesn't support type hints in comments.
 
-
 ### Signature help
 
 When writing code that calls a function, signature help appears when you type the opening `(` and displays available documentation and parameter information. You can also make it appear with **Ctrl**+**Shift**+**Space** inside a function call. The information displayed depends on the documentation strings in the function's source code, but includes any default values.

@@ -27,7 +27,6 @@ The Data Science and Analytical Applications workload, which you select and inst
 
 Python is a primary scripting language used for data science. Python is easy to learn and is supported by a rich ecosystem of packages. Those packages address a wide range of scenarios such as data acquisition, cleaning, model training, deployment, and plotting. F# is also a powerful functional-first .NET language that's suited for a wide variety of data processing tasks.)
 
-
 <!--Note link on the image because this one is large -->
 [![Screenshots of Visual Studio with R, Python, and F#](media/workload/data-science-workload-screens.png)](media/workload/data-science-workload-screens.png#lightbox)
 
@@ -45,7 +44,6 @@ By default, the workload installs the following options, which you can modify in
 ## SQL Server integration
 
 SQL Server supports using Python to do advanced analytics directly inside SQL Server. Python support is available in SQL Server 2017 CTP 2.0 and later.
-
 
 You enjoy the following advantages by running your code where your data already lives:
 

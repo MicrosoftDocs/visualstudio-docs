@@ -63,7 +63,6 @@ Using either method, create an app with the name "HelloDjangoApp". Now, the "Hel
 | **tests.py** | A Python file that contains the basic structure of unit tests. |
 | **views.py** | Views are similar to web pages, which take an HTTP request and returns an HTTP response. Usually, views render as HTML and the web browsers know how to display, but a view doesn't necessarily have to be visible (like an intermediate form). A view is defined by a Python function whose responsibility is to render the HTML to the browser. The *views.py* file is a default place where you create your views. Initially, the *views.py* file contains only the statement, `from django.shortcuts import render`. |
 
-
 When you use the name "HelloDjangoApp," the contents of the *apps.py* file appears as:
 
 ```python
