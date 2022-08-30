@@ -25,13 +25,11 @@ If you expand the **Python Environments** window wide enough, these options are 
 
 ![Python Environments window expanded view](media/environments/environments-expanded-view-2019.png)
 
-
 ## Overview tab
 
 Provides basic information and commands for the environment:
 
 ![Python Environments overview tab](media/environments/environments-overview-tab-2019.png)
-
 
 | Command | Description |
 | --- | --- |
@@ -59,7 +57,6 @@ If available, the **Configure** tab contains details as described in the table b
 
 ![Python Environments configure tab](media/environments/environments-configure-tab-2019.png)
 
-
 | Field | Description |
 | --- | --- |
 | **Description** | The name to give the environment. |
@@ -85,16 +82,13 @@ Entering a search term filters the list of installed packages as well as package
 
 ![Python environments packages tab with a search on "num"](media/environments/environments-pip-tab-2019.png)
 
-
 As you can see in the image above, the search results show a number of packages that match the search term; the first entry in the list, however, is a command to run **pip install \<name>** directly. If you're on the **Packages (Conda)** tab, you instead see **conda install \<name>**:
 
 ![Conda packages tab showing a conda install command](media/environments/environments-conda-tab-install-2019.png)
 
-
 In both cases, you can customize the install by adding arguments in the search box after the name of the package. When you include arguments, the search results shows **pip install** or **conda install** followed by the contents of the search box:
 
 ![Using arguments on pip and conda install commands](media/environments/environments-pip-tab-arguments-2019.png)
-
 
 Installing a package creates subfolders within the environment's *Lib* folder on the file system. For example, if you have Python 3.6 installed in *c:\Python36*, packages are installed in *c:\Python36\Lib*; if you have Anaconda3 installed in *c:\Program Files\Anaconda3* then packages are installed in *c:\Program Files\Anaconda3\Lib*. For conda environments, packages are installed in that environment's folder.
 

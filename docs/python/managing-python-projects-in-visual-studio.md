@@ -49,7 +49,6 @@ A new project is always associated with the default global Python environment. T
 
 ![Add Environment command on the Python toolbar](media/environments/environments-toolbar-2019.png)
 
-
 To change the active environment, right-click the desired environment in **Solution Explorer** and select **Activate Environment** as shown below. For more information, see [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
 
 ![Activating an environment for a Python project](media/projects-activate-environment.png)
@@ -76,7 +75,6 @@ The following table summarizes the templates available in Visual Studio 2019 (no
 | **IronPython Windows Forms Application** | A project structure using IronPython with UI created using code with Windows Forms. The application runs without displaying a console. |
 | **Background Application (IoT)** | Supports deploying Python projects to run as background services on devices. Visit the [Windows IoT Dev Center](https://dev.windows.com/en-us/iot) for more information. |
 | **Python Extension Module** | This template appears under Visual C++ if you've installed the **Python native development tools** with the Python workload in Visual Studio 2017 or later (see [Installation](installing-python-support-in-visual-studio.md)). It provides the core structure for a C++ extension DLL, similar to what's described on [Create a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md). |
-
 
 > [!Note]
 > Because Python is an interpreted language, Python projects in Visual Studio don't produce a stand-alone executable like other compiled language projects (C#, for example). For more information, see [questions and answers](overview-of-python-tools-for-visual-studio.md#questions-and-answers).

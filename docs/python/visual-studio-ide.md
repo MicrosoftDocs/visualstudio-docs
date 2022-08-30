@@ -29,7 +29,6 @@ This image shows Visual Studio with an open Python project and several key tool 
 
   - You can also open and run Python code in a folder without creating Visual Studio project and solution files. For more information, see [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md).
 
-
 - The [editor window](../ide/writing-code-in-the-code-and-text-editor.md) (center), where you'll likely spend a majority of your time, displays file contents. This is where you [edit Python code](editing-python-code-in-visual-studio.md), navigate within your code structure, and set breakpoints during debugging sessions. With Python, you can also select code and press Ctrl+Enter to run that code in an [interactive REPL window](python-interactive-repl-in-visual-studio.md).
 
 - The [Output window](../ide/reference/output-window.md) (bottom center) is where Visual Studio sends notifications such as debugging and error messages, warnings, publishing status messages, and more. Each message source has its own tab.
@@ -88,7 +87,6 @@ Some of the popular features in Visual Studio that help you to be more productiv
 - [Run code without a project](quickstart-05-python-visual-studio-open-folder.md)
 
     Starting in Visual Studio 2019, you can open a folder containing Python code to enjoy features like IntelliSense and debugging without having to create a Visual Studio project for the code.
-
 
 - [Collaborate using Visual Studio](/visualstudio/liveshare/)
 
