@@ -104,7 +104,7 @@ You can also specify different formats from the command-line by either specifyin
 
 ::: moniker range=">=vs-2022"
 ### Static and dynamic native instrumentation
-In Visual Studio 2022 version 17.2, we added the option to instrument native binary statically (on disk). In previous versions, we supported only dynamic instrumentation, which was often not able to instrument methods. Static native instrumentation is more stable and it is recommended. Static native instrumentation requires enabling the [/PROFILE](/cpp/build/reference/profile-performance-tools-profiler?view=msvc-170) link option for all native projects for which you need code coverage collection. 
+In Visual Studio 2022 version 17.2, we added the option to instrument native binary statically (on disk). In previous versions, we supported only dynamic instrumentation, which was often not able to instrument methods. Static native instrumentation is more stable and it is recommended. Static native instrumentation requires enabling the [/PROFILE](/cpp/build/reference/profile-performance-tools-profiler) link option for all native projects for which you need code coverage collection. 
 
 You can enable native static instrumentation by enabling the preview feature **Code Coverage native static instrumentation** in  **Tools > Options > Environment > Preview Features**.
 
