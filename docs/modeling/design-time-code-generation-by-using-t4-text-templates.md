@@ -314,8 +314,6 @@ If you have installed the Visual Studio Modeling SDK, you can have all the templ
 [this blog post](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/).
 
 
-::: moniker range=">=vs-2019"
-
 ```xml
 <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v16.0\TextTemplating\Microsoft.TextTemplating.targets" />
 <PropertyGroup>
@@ -324,7 +322,6 @@ If you have installed the Visual Studio Modeling SDK, you can have all the templ
 </PropertyGroup>
 ```
 
-::: moniker-end
 
 For more information, see [Code Generation in a Build Process](../modeling/code-generation-in-a-build-process.md).
 

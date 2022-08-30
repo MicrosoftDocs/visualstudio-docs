@@ -53,7 +53,9 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
 1. Create a new MVC ASP.NET application.
 
-    In Visual Studio, choose **File** > **Start window** to open the Start window, and then choose **Create a new project**. In the search box, type **asp.net framework**, and then choose **ASP.NET Web Application (.NET Framework)**. In the dialog box that appears, name the project **MyASPApp**, choose **ASP.NET Framework 4.8**, and then choose **Create**.
+    ::: moniker range=">=vs-2019"
+    In Visual Studio 2019, type **Ctrl + Q** to open the search box, type **asp.net**, choose **Templates**, then choose **Create new ASP.NET Web Application (.NET Framework)**. In the dialog box that appears, name the project **MyASPApp**, and then choose **Create**. Select **MVC** and choose **Create**.
+    ::: moniker-end
 
     Select **MVC** and choose **Create**.
 
@@ -81,11 +83,9 @@ If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Us
 > [!NOTE]
 > The Web Platform Installer reached End-of-Life on 7/1/22. For more information, see [Web Platform Installer - End of support and sunsetting the product/application feed](https://blogs.iis.net/iisteam/web-platform-installer-end-of-support-feed). You can directly install ASP.NET 4.8 from IIS.
 
-1. In the left pane of Server Manager, select **IIS**. Right-click the server and select **Add Roles and Features**.
+1. Use the Web Platform Installer (WebPI) to install ASP.NET 4.5 (from the Server node in Windows Server 2012 R2, choose **Get New Web Platform Components** and then search for ASP.NET)
 
-1. In the wizard, advance to the **Features** section and install ASP.NET 4.8.
-
-    ![Screenshot of IIS Add roles and features for IIS: ASP.NET 4.8 selected.](../debugger/media/remote-debug-iis-asp-dotnet-48.png)
+    ![Screenshot of the Web Platform Installer 5.0 showing the search results for asp.net with the web platform component IIS: ASP.NET 4.5 circled in red.](../debugger/media/remotedbg_iis_aspnet_45.png)
 
     > [!NOTE]
     > If you are using Windows Server 2008 R2, install ASP.NET 4 instead using this command:
@@ -125,13 +125,10 @@ After the app deploys successfully, it should start automatically. If the app do
 
 1. Switch to a debug configuration.
 
-   ::: moniker range=">=vs-2022"
-   Choose **More Options** > **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
-   ::: moniker-end
-
-   ::: moniker range="vs-2019"
+   ::: moniker range=">=vs-2019"
    Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
    ::: moniker-end
+
 
    > [!IMPORTANT]
    > If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.
@@ -228,9 +225,7 @@ For information on running the remote debugger as a service, see [Run the remote
 
     If you have multiple processes showing **w3wp.exe**, check the **User Name** column. In some scenarios, the **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. If you see the App Pool, an easy way to identify the correct process is to create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
 
-    ::: moniker range=">=vs-2019"
     ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess.png "RemoteDBG_AttachToProcess")
-    ::: moniker-end
 
 7. Click **Attach**
 
@@ -266,9 +261,8 @@ Required ports:
 ::: moniker range=">=vs-2022"
 * 4026 - Required for remote debugging from Visual Studio 2022 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
 ::: moniker-end
-::: moniker range=">=vs-2019"
+
 * 4024 - Required for remote debugging from Visual Studio 2019 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
-::: moniker-end
 
 * UDP 3702 - (Optional) Discovery port enables you to the **Find** button when attaching to the remote debugger in Visual Studio.
 

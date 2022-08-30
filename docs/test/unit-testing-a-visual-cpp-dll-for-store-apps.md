@@ -23,13 +23,11 @@ This topic also creates a single Visual Studio solution and separate projects fo
 
 ## <a name="Create_the_solution_and_the_unit_test_project"></a> Create the solution and the unit test project
 
-::: moniker range=">=vs-2019"
 
 Start by creating a new test project. On the **File** menu, choose **New** > **Project**. In the **Create a New Project** dialog, type "test" into the search box and then set **Language** to C++. Then choose **Unit Test App (Universal Windows)** from the list of project templates.
 
    ![Create a new UWP test project](media/vs-2019/cpp-new-uwp-test-project-vs2019.png)
 
-::: moniker-end
 
 
 1. In the New Project dialog, expand **Installed** > **Visual C++** and choose **Windows Universal**. Then choose **Unit Test App (Universal Windows)** from the list of project templates.
@@ -73,13 +71,11 @@ Start by creating a new test project. On the **File** menu, choose **New** > **P
 
 ## <a name="Add_the_DLL_project_to_the_solution"></a> Add the DLL project to the solution
 
-::: moniker range=">=vs-2019"
 
 In **Solution Explorer**, choose the solution name. From the shortcut menu, choose **Add**, and then **New Project**. In the **Add a New Project** dialog, set **Language** to C++ and type "DLL" into the search box. From the results list, choose **Unit Test App (Universal Windows - C++/CX)**.
 
 ![Create the RooterLib project](../test/media/vs-2019/cpp-new-uwp-test-project-vs2019.png)
 
-::: moniker-end
 
 
 1. In the **Add New Project** dialog box, choose **DLL (UWP apps)**.

@@ -167,7 +167,6 @@ Create the unit test project:
 
 The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> class provides several static methods that you can use to verify results in test methods.
 
-::: moniker range=">=vs-2019"
 
 1. In **Solution Explorer**, select the *UnitTest.cs* file in the **RooterTests** project.
 
@@ -185,7 +184,6 @@ The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> class provides se
 
 1. The test project builds and runs, and the test appears under **Passed Tests**. The **Group Summary** pane on the right provides details about the test.
 
-::: moniker-end
 
 
 ### Add a class to the app project

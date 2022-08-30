@@ -39,11 +39,9 @@ The first step is to create the DemoCalculator control project.
 
 1. Open Visual Studio and create a new **Windows Forms Control Library** project. Name the project **DemoCalculatorLib**.
 
-   ::: moniker range=">=vs-2019"
 
    ![Windows Forms Control Library template in Visual Studio 2019](media/windows-forms-control-library-template.png)
 
-   ::: moniker-end
 
 2. To rename the file, in **Solution Explorer**, right-click **UserControl1.vb** or **UserControl1.cs**, select **Rename**, and change the file name to DemoCalculator.vb or DemoCalculator.cs. Select **Yes** when you are asked if you want to rename all references to the code element "UserControl1".
 

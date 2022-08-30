@@ -197,7 +197,6 @@ When selected, displays a gray box around the line of code in which the cursor i
 
 When selected, vertical lines appear in the editor that line up with structured code blocks, which lets you easily identify the individual blocks of code.
 
-::: moniker range=">=vs-2019"
 
 ### Show error squiggles
 
@@ -221,7 +220,6 @@ Use this control to toggle the editing context settings altogether, or personali
 - Tab/Space
 - Line endings
 
-::: moniker-end
 
 ## See also
 

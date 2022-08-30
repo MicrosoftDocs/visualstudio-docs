@@ -61,7 +61,6 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 1. Open Visual Studio and create a new project.
 
-   ::: moniker range=">=vs-2019"
 
    If the start window is not open, choose **File** > **Start Window**.
 
@@ -78,7 +77,6 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
    For .NET Core, choose either the recommended target framework or .NET 6, and then choose **Create**.
 
-   ::: moniker-end
 
 
    A new console project appears. After the project has been created, a source file appears.

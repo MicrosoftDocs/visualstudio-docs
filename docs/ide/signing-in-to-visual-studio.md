@@ -89,7 +89,6 @@ After you add multiple accounts on one machine, that set of accounts roams with 
 > [!NOTE]
 > Although the account names roam, the credentials do not. You'll be prompted to enter credentials for those other accounts the first time you attempt to use their resources on a new machine.
 
-::: moniker range=">=vs-2019"
 
 ### Add an additional account to Visual Studio
 
@@ -102,10 +101,8 @@ To add an additional account to Visual Studio:
 1. On the **Sign in to your account** page, select the account or choose **Use another account**. Follow the prompts to enter the new account credentials.
 
 (Optional) Now you can go to **Server Explorer** and see the Azure services associated with the account you just added. In **Server Explorer**, right-click on the **Azure** node and choose **Manage and Filter Subscriptions**. Choose the new account by clicking the drop-down arrow next to the current account, and then choose which subscriptions you want to display in **Server Explorer**. You should see all the services associated with the specified subscription. Even though you're not currently signed into Visual Studio with the second account, you are signed in to that account's services and resources. The same is true for **Project** > **Add Connected Service**.
-::: moniker-end
 
 
-::: moniker range=">=vs-2019"
 
 ### Add a GitHub account to Visual Studio
 
@@ -119,7 +116,6 @@ In the 16.6 release, we added new capabilities to Visual Studio 2019 that stream
 
 For detailed instructions, see [Work with accounts that require multi-factor authentication (MFA)](work-with-multi-factor-authentication.md)
 
-::: moniker-end
 
 <a name="access"></a>
 ## Access multiple accounts associated with the Visual Studio sign-in account

@@ -31,11 +31,9 @@ If you aren't working in the designer and don't need to adjust the layout of you
 
 When you open a form in the **Windows Forms Designer** on an HDPI monitor, Visual Studio displays an informational bar.
 
-::: moniker range=">=vs-2019"
 
 :::image type="content" source="media/scaling-gold-bar-message-1.png" alt-text="Screenshot of the informational bar in Visual Studio to restart in DPI-unaware mode.":::
 
-::: moniker-end
 
 
 
