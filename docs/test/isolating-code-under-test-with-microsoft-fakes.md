@@ -32,9 +32,7 @@ Fakes come in two flavors:
 
 - Visual Studio Enterprise
 - A .NET Framework project
-
 - .NET Core, .NET 5.0 or later, and SDK-style project support previewed in Visual Studio 2019 Update 6, and is enabled by default in Update 8. For more information, see [Microsoft Fakes for .NET Core and SDK-style projects](/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects).
-
 
 > [!NOTE]
 > Profiling with Visual Studio isn't available for tests that use Microsoft Fakes.
@@ -280,13 +278,11 @@ Since Microsoft Fakes requires Visual Studio Enterprise, the generation of Fakes
 
 This reference is required to be added manually, specifically to SDK-style projects (.NET Core, .NET 5.0, and .NET Framework) because we've moved to implicitly adding assembly references to your test project. If you follow this method, you need to ensure the fakes assembly is updated when the parent assembly changes.
 
-
 ### Running Microsoft Fakes tests
 
 As long as Microsoft Fakes assemblies are present in the configured `FakesAssemblies` directory (The default being `$(ProjectDir)FakesAssemblies`), you can run tests using the [vstest task](/azure/devops/pipelines/tasks/test/vstest?view=azure-devops&preserve-view=true).
 
 Distributed testing with the [vstest task](/azure/devops/pipelines/tasks/test/vstest?view=azure-devops&preserve-view=true) .NET Core and .NET 5.0 or later projects using Microsoft Fakes requires Visual Studio 2019 Update 9 Preview `20201020-06` and higher.
-
 
 
 ## Transitioning your .NET Framework test projects that use Microsoft Fakes to SDK-style .NET Framework, .NET Core, or .NET 5.0 projects or later projects
@@ -303,7 +299,6 @@ You'll need minimal changes in your .NET Framework set up for Microsoft Fakes to
   If this reference is required by your code, you may get compilation errors.
   ```
   This warning is because of necessary changes made in Fakes generation and can be ignored. It can be avoided by removing the assembly reference from the project file, because we now implicitly add them during the build.
-
 
 ## Microsoft Fakes support 
 ### Microsoft Fakes in older projects targeting .NET Framework (non-SDK style).

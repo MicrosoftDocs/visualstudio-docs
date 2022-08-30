@@ -492,7 +492,6 @@ To start your browser with debugging enabled:
   `chrome.exe --remote-debugging-port=9222`
 
 
-
 The browser starts with debugging enabled. The app isn't running yet, so the browser page is empty.
 
 ### Attach the debugger to client-side script
@@ -542,7 +541,6 @@ The browser starts with debugging enabled. The app isn't running yet, so the bro
 
     If you created a debugging-enabled browser configuration with a friendly name, choose that browser as your debug target.
 
-
     The app opens in a new browser tab.
 
 1. Select **Debug** > **Attach to Process**, or press **Ctrl**+**Alt**+**P**.
@@ -555,7 +553,6 @@ The browser starts with debugging enabled. The app isn't running yet, so the bro
     Make sure the correct debugger for your target browser, **JavaScript (Chrome)** or **JavaScript (Microsoft Edge - Chromium)**, appears in the **Attach to** field. Type *chrome* or *edge* in the filter box to filter the results.
 
 
-
 1. Select the browser process with the correct host port, **localhost** in this example. The port number **1337** or **localhost** might also appear in the **Title** field to help you select the correct process.
 
 1. Select **Attach**.
@@ -563,7 +560,6 @@ The browser starts with debugging enabled. The app isn't running yet, so the bro
     The following example shows an **Attach to Process** window for the Microsoft Edge browser.
 
     ![Screenshot showing the Attach to process dialog box.](../javascript/media/tutorial-nodejs-react-attach-to-process-edge.png)
-
 
 
     > [!TIP]

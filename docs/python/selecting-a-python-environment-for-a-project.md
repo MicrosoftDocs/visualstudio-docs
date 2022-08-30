@@ -32,7 +32,6 @@ If you already added an environment other than the global default to a project, 
 
 ![Activating and removing a project environment](media/environments/environments-project-add-remove-2019.png)
 
-
 ## Use virtual environments
 
 A virtual environment is a unique combination of a specific Python interpreter and a specific set of libraries that is different from other global and conda environments. A virtual environment is specific to a project and is maintained in a project folder. That folder contains the environment's installed libraries along with a *pyvenv.cfg* file that specifies the path to the environment's *base interpreter* elsewhere on the file system. (That is, a virtual environment doesn't contain a copy of the interpreter, only a link to it.)
@@ -80,7 +79,6 @@ If you've already created a virtual environment elsewhere, you can activate it f
 
 1. After a few moments, the virtual environment appears under the **Python Environments** node in **Solution Explorer**. The virtual environment is not activated by default, so right-click it and select **Activate Environment**.
 
-
 ### Remove a virtual environment
 
 1. In **Solution Explorer**, right-click the virtual environment and select **Remove**.
@@ -94,7 +92,6 @@ In Solution Explorer, expand any specific environment's node to quickly view the
 ![Python packages for an environment in Solution Explorer](media/environments/environments-installed-packages.png)
 
 To install new packages, right-click the environment and select **Manage Python Packages** (or use the package button on the Python toolbar) to switch to the appropriate **Packages** tab in the **Python Environments** window. Once in the **Packages** tab, enter a search term (usually the package name) and Visual Studio displays matching packages.
-
 
 Within Visual Studio, packages (and dependencies) for most environments are downloaded from the [Python Package Index (PyPI)](https://pypi.org), where you can also search for available packages. Visual Studio's status bar and output window show information about the install. To uninstall a package, right-click it and select **Remove**.
 

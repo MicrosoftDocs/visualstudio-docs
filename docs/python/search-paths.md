@@ -30,7 +30,6 @@ To add a search path, go to **Solution Explorer**, expand your project node, rig
 
 ![Add Folder to Search Path command on Search Paths in Solution Explorer](media/search-paths-command-2019.png)
 
-
 This command displays a browser in which you then select the folder to include.
 
 If your `PYTHONPATH` environment variable already includes the folder(s) you want, use the **Add PYTHONPATH to Search Paths** as a convenient shortcut.

@@ -25,7 +25,6 @@ Technically, any filename may be used to track requirements (by using `-r <full 
 
     ![Install from requirements.txt-2019](media/environments/environments-requirements-txt-install.png)
 
-
 - If you want to install the dependencies in a virtual environment, create and activate that environment first, then use the **Install from requirements.txt** command. For more information on creating a virtual environment, see [Use virtual environments](selecting-a-python-environment-for-a-project.md#use-virtual-environments).
 
 - If you already have all the necessary packages installed in an environment, you can right-click that environment in **Solution Explorer** and select **Generate requirements.txt** to create the necessary file. If the file already exists, a prompt appears for how to update it:

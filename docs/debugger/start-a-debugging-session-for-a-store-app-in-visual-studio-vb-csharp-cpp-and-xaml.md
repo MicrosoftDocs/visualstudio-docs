@@ -48,7 +48,6 @@ This article describes how to start a Visual Studio debugging session for a Univ
 > Starting in Visual Studio 2019, UWP apps for HTML and JavaScript are no longer supported.
 
 
-
 ## <a name="BKMK_The_easy_way_to_start_debugging"></a>Start debugging from the Visual Studio toolbar
 
 The easiest way to configure and start debugging is from the standard Visual Studio toolbar.

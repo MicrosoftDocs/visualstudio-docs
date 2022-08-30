@@ -30,7 +30,6 @@ By completing this walkthrough, you can create a menu named **Test Menu** that c
 > [!NOTE]
 > Starting in Visual Studio 2019, top level menus contributed by extensions are placed under the **Extensions** menu.
 
-
 ## Prerequisites
 
 Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).

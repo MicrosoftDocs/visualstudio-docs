@@ -61,7 +61,6 @@ This section describes how to create a unit test project.
    Type **test** in the search box to find a unit test project template for the test framework you want to use, such as **MSTest** (C#) or the **Native Unit Test** project (C++), and select it.
 
 
-
    Starting in Visual Studio 2017 version 14.8, the .NET languages include built-in templates for NUnit and xUnit. For C++, in this example select the **Native Unit Test** project, which uses Microsoft Native Unit Test Framework. (To use a different C++ test framework, see [Writing unit tests for C/C++](../test/writing-unit-tests-for-c-cpp.md)). For Python, see [Set up unit testing in Python code](../python/unit-testing-python-in-visual-studio.md) to set up your test project.
 
    > [!TIP]
@@ -244,7 +243,6 @@ This section describes how to create a unit test project.
 1. Open [Test Explorer](../test/run-unit-tests-with-test-explorer.md).
 
    To open Test Explorer, choose **Test** > **Test Explorer** from the top menu bar (or press **Ctrl** + **E**, **T**).
-
 
 
 1. Run your unit tests by clicking **Run All** (or press **Ctrl** + **R**, **V**).

@@ -28,7 +28,6 @@ This guide explains how to set up and configure a Visual Studio ASP.NET Core, de
 Visual Studio 2019 is required to follow the steps shown in this article.
 
 
-
 These procedures have been tested on these server configurations:
 * Windows Server 2012 R2 and IIS 8
 * Windows Server 2016 and IIS 10
@@ -53,7 +52,6 @@ This article includes steps on setting up a basic configuration of IIS on Window
     In Visual Studio 2019, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project **MyASPApp**, and then choose **Next**.
 
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
-
 
 
 4. Open the About.cshtml.cs file and set a breakpoint in the `OnGet` method (in older templates, open HomeController.cs instead and set the breakpoint in the `About()` method).
@@ -123,7 +121,6 @@ After the app deploys successfully, it should start automatically. If the app do
 1. Switch to a debug configuration.
 
    Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
-
 
 
    > [!IMPORTANT]
@@ -215,7 +212,6 @@ For information on running the remote debugger as a service, see [Run the remote
     If you have multiple processes showing *w3wp.exe* or *dotnet.exe*, check the **User Name** column. In some scenarios, the **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. If you see the App Pool, but it's not unique, create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
 
     ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
-
 
 
 7. Click **Attach**.

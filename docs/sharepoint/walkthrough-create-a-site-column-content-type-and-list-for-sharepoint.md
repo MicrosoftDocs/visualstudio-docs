@@ -68,7 +68,6 @@ ms.workload:
 
 6. Choose the **Finish** button. The project is now listed in **Solution Explorer**.
 
-
 #### To add site columns
 
 1. Add a new site column. To do this, in **Solution Explorer**, right-click on the **Clinic** project, and then choose **Add** > **New Item**.

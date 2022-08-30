@@ -24,7 +24,6 @@ This article discusses options and issues in Fakes code generation and compilati
 
 - .NET Core, .NET 5.0 or later, and SDK-style project support previewed in Visual Studio 2019 Update 6, and is enabled by default in Update 8. For more information, see [Microsoft Fakes for .NET Core and SDK-style projects](/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects).
 
-
 ## Code generation and compilation
 
 ### Configure code generation of stubs

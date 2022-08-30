@@ -60,7 +60,6 @@ The screen and voice recorder can be used with either manual or automated tests.
     > [!TIP]
     > To reset the configuration for this diagnostic data adapter, choose **Reset to default configuration** in Visual Studio.
 
-
 ## See also
 
 - [Collect diagnostic data while testing (Azure Test Plans)](/azure/devops/test/collect-diagnostic-data?view=vsts&preserve-view=true)

@@ -179,7 +179,6 @@ There are some differences between Live Unit Testing automatically running and u
 - Live Unit Testing does not create a new application domain to run tests, but rather runs tests from the default domain. Tests run from the **Test Explorer** window do create a new application domain.
 - Live Unit Testing runs tests in each test assembly sequentially. In the **Test Explorer** window, you can choose to run multiple tests in parallel.
 
-
 ## Large solutions
 
 If your solution has 10 or more projects, Visual Studio displays the following dialog when you:

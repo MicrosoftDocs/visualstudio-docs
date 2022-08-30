@@ -29,7 +29,6 @@ This guide explains how to set up and configure a Visual Studio ASP.NET MVC 4.5.
 
 Visual Studio 2019 is required to follow the steps shown in this article.
 
-
 These procedures have been tested on these server configurations:
 
 * Windows Server 2012 R2 and IIS 8 (For Windows Server 2008 R2, the server steps are different)
@@ -54,7 +53,6 @@ This article includes steps on setting up a basic configuration of IIS on Window
 1. Create a new MVC ASP.NET application.
 
     In Visual Studio 2019, type **Ctrl + Q** to open the search box, type **asp.net**, choose **Templates**, then choose **Create new ASP.NET Web Application (.NET Framework)**. In the dialog box that appears, name the project **MyASPApp**, and then choose **Create**. Select **MVC** and choose **Create**.
-
 
 
 2. Open the  *HomeController.cs* file, and set a breakpoint in the `About()` method.
@@ -123,7 +121,6 @@ After the app deploys successfully, it should start automatically. If the app do
 1. Switch to a debug configuration.
 
    Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
-
 
 
    > [!IMPORTANT]
@@ -224,7 +221,6 @@ For information on running the remote debugger as a service, see [Run the remote
     ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess.png "RemoteDBG_AttachToProcess")
 
 
-
 7. Click **Attach**
 
 8. Open the remote computer's website. In a browser, go to **http://\<remote computer name>**.
@@ -261,7 +257,6 @@ Required ports:
 ::: moniker-end
 
 * 4024 - Required for remote debugging from Visual Studio 2019 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
-
 
 * UDP 3702 - (Optional) Discovery port enables you to the **Find** button when attaching to the remote debugger in Visual Studio.
 

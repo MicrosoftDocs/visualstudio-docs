@@ -27,7 +27,6 @@ To view Python options, use the **Tools** > **Options** menu command, make sure 
 
 ![Python options dialog, General tab](media/options-general-2019.png)
 
-
 There are also additional Python-specific options on the **Text Editor** > **Python** > **Advanced** tab, and on the **Environment** > **Fonts and Colors** tab within the **Text Editor** group.
 
 > [!Note]
@@ -53,7 +52,6 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 | **Reset all permanently hidden dialogs** button | n/a | Different dialog boxes provide options such as **Don't show me this again**. Use this button to clear those options and cause the dialogs to reappear. |
 
 ![Python options dialog, General tab](media/options-general-2019.png)
-
 
 ## Conda options
 
@@ -81,7 +79,6 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 | **Use legacy debugger** | Off | *Visual Studio 2019 only.* Instructs Visual Studio to use the legacy debugger by default. For more information, see [Debugging - Use the legacy debugger](debugging-python-in-visual-studio.md#use-the-legacy-debugger). |
 
 ![Python options dialog, Debugging tab](media/options-debugging-2019.png)
-
 
 ## Diagnostics options
 

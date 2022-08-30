@@ -21,7 +21,6 @@ You might want to create your own diagnostic data adapter to collect data when y
 
 You can provide default input to your custom diagnostic data adapter using a configuration settings file. For example, you can provide information about the location of the file you want to collect and attach to your test results, or how much disk space you want to be left on the system. This data can be configured for each test settings that you create. You can create your own user control to use as an editor. Any changes that are made to the adapter configuration in your editor are stored with your test settings.
 
-
 If you are running your tests from Visual Studio, you must set these test settings to be active. For more information about test settings, see [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md).
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]

@@ -22,7 +22,6 @@ ms.workload:
 
 The "Django Web Project" template includes a basic authentication flow, as authentication is a common need for web apps. When you use any of the Django project templates, Visual Studio includes all the necessary modules for authentication in the Django project's *settings.py* file.
 
-
 In this step, you learn:
 
 > [!div class="checklist"]

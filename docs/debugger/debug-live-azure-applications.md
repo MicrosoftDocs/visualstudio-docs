@@ -37,7 +37,6 @@ In this tutorial, you will:
    If it's not already installed, install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads). If you're updating from a previous Visual Studio installation, run the Visual Studio Installer and check the Snapshot Debugger component in the **ASP.NET and web development workload**.
 
 
-
 * Basic or higher Azure App Service plan.
 
 * Snapshot collection is available for the following web apps running in Azure App Service:
@@ -64,7 +63,6 @@ In this tutorial, you will:
 
    > [!NOTE]
    > (Visual Studio 2019 version 16.2 and above) Snapshot Debugger has enabled Azure cloud support. Make sure that both the Azure resource and Azure Storage account you select are from the same cloud. Please contact your Azure administrator if you have questions about your enterprise's [Azure compliance](https://azure.microsoft.com/overview/trusted-cloud/) configurations.
-
 
    Visual Studio is now in snapshot debugging mode.
    ![Snapshot debugging mode](../debugger/media/snapshot-message.png)

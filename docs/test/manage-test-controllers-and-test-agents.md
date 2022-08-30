@@ -91,7 +91,6 @@ A test agent must be set to the offline state before it can be removed.
 > [!NOTE]
 > You can’t use this procedure to remove agents that are registered to a controller as part of a lab environment.
 
-
 ### To remove a test agent from a test controller
 
 In Visual Studio 2019, you can't remove a test agent if the test controller is registered with a project.

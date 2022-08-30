@@ -35,7 +35,6 @@ The Visual Studio debugger provides many powerful features to help you debug you
     If you don't see the **Console App** project template for .NET Core, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET Core cross-platform development** workload, then choose **Modify**.
 
 
-
     Visual Studio creates the project.
 
 1. In *Program.cs* or *Module1.vb*, replace the following code

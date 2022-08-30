@@ -62,7 +62,6 @@ To install MSBuild on a system that doesn't have Visual Studio, go to Build Tool
     In the **Project name** box, type `BuildApp`. Enter a **Location** for the solution, for example, *D:\\*.
 
 
-
 1. Click **OK** or **Create** to create the project file.
 
 ## Examine the project file
