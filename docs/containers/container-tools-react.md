@@ -5,7 +5,7 @@ ms.custom: SEO-VS-2020
 author: ghogen
 description: Learn how to create a containerized React SPA app with Visual Studio Container Tools and Docker 
 ms.author: ghogen
-ms.date: 10/25/2021
+ms.date: 08/25/2022
 ms.technology: vs-container-tools
 ms.topic: quickstart
 ---
@@ -39,7 +39,6 @@ With Visual Studio, you can easily build, debug, and run containerized ASP.NET C
 For Docker installation, first review the information at [Docker Desktop for Windows: What to know before you install](https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install). Next, install [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows).
 
 ## Create a project and add Docker support
-
 
 ::: moniker range="vs-2019"
 
@@ -114,19 +113,19 @@ RUN apt-get install -y libpng-dev libjpeg-dev curl libxi6 build-essential libgl1
 RUN curl -sL https://deb.nodesource.com/setup_lts.x | bash -
 RUN apt-get install -y nodejs
 WORKDIR /src
-COPY ["ReactSPA/ReactSPA.csproj", "ReactSPA/"]
-RUN dotnet restore "ReactSPA/ReactSPA.csproj"
+COPY ["ProjectSPA1/ProjectSPA1.csproj", "ProjectSPA1/"]
+RUN dotnet restore "ProjectSPA1/ProjectSPA1.csproj"
 COPY . .
-WORKDIR "/src/ReactSPA"
-RUN dotnet build "ReactSPA.csproj" -c Release -o /app/build
+WORKDIR "/src/ProjectSPA1"
+RUN dotnet build "ProjectSPA1.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "ReactSPA.csproj" -c Release -o /app/publish
+RUN dotnet publish "ProjectSPA1.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "ReactSPA.dll"]
+ENTRYPOINT ["dotnet", "ProjectSPA1.dll"]
 ```
 
 :::moniker-end
@@ -152,19 +151,19 @@ RUN apt-get install -y libpng-dev libjpeg-dev curl libxi6 build-essential libgl1
 RUN curl -sL https://deb.nodesource.com/setup_lts.x | bash -
 RUN apt-get install -y nodejs
 WORKDIR /src
-COPY ["ReactSPA/ReactSPA.csproj", "ReactSPA/"]
-RUN dotnet restore "ReactSPA/ReactSPA.csproj"
+COPY ["ProjectSPA1/ProjectSPA1.csproj", "ProjectSPA1/"]
+RUN dotnet restore "ProjectSPA1/ProjectSPA1.csproj"
 COPY . .
-WORKDIR "/src/ReactSPA"
-RUN dotnet build "ReactSPA.csproj" -c Release -o /app/build
+WORKDIR "/src/ProjectSPA1"
+RUN dotnet build "ProjectSPA1.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "ReactSPA.csproj" -c Release -o /app/publish
+RUN dotnet publish "ProjectSPA1.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "ReactSPA.dll"]
+ENTRYPOINT ["dotnet", "ProjectSPA1.dll"]
 ```
 
 :::moniker-end
@@ -225,56 +224,56 @@ Update the Dockerfile by adding the following lines. This will copy node and npm
       FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
       COPY --from=downloadnodejs C:\nodejs\ C:\Windows\system32\
       WORKDIR /src
-      COPY ["WebApplicationReact1/WebApplicationReact1.csproj", "WebApplicationReact1/"]
-      RUN dotnet restore "WebApplicationReact1/WebApplicationReact1.csproj"
+      COPY ["ProjectSPA1/ProjectSPA1.csproj", "ProjectSPA1/"]
+      RUN dotnet restore "ProjectSPA1/ProjectSPA1.csproj"
       COPY . .
-      WORKDIR "/src/WebApplicationReact1"
-      RUN dotnet build "WebApplicationReact1.csproj" -c Release -o /app/build
+      WORKDIR "/src/ProjectSPA1"
+      RUN dotnet build "ProjectSPA1.csproj" -c Release -o /app/build
 
       FROM build AS publish
-      RUN dotnet publish "WebApplicationReact1.csproj" -c Release -o /app/publish
+      RUN dotnet publish "ProjectSPA1.csproj" -c Release -o /app/publish
 
       FROM base AS final
       WORKDIR /app
       COPY --from=publish /app/publish .
-      ENTRYPOINT ["dotnet", "WebApplicationReact1.dll"]
+      ENTRYPOINT ["dotnet", "ProjectSPA1.dll"]
       ```
 
       :::moniker-end
       :::moniker range=">=vs-2022"
       ```Dockerfile
-      # escape=`
+      #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images   for faster debugging.
+
       #Depending on the operating system of the host machines(s) that will build or run the containers, the image specified in the FROM statement may need to be changed.
       #For more information, please see https://aka.ms/containercompat
-      FROM mcr.microsoft.com/powershell AS downloadnodejs
+      # escape=`
+      FROM mcr.microsoft.com/powershell:nanoserver-1809 AS downloadnodejs
       ENV NODE_VERSION=14.16.0
       SHELL ["pwsh", "-Command", "$ErrorActionPreference = 'Stop';$ProgressPreference='silentlyContinue';"]
-      RUN Invoke-WebRequest -OutFile nodejs.zip -UseBasicParsing "https://nodejs.org/dist/v$($env:NODE_VERSION)/node-v$($env:NODE_VERSION)-win-x64.zip"; \
-          Expand-Archive nodejs.zip -DestinationPath C:\; \
-          Rename-Item "C:\node-v$($env:NODE_VERSION)-win-x64" c:\nodejs
+      RUN Invoke-WebRequest -OutFile nodejs.zip -UseBasicParsing "https://nodejs.org/dist/v$($env:NODE_VERSION)/node-v$($env:NODE_VERSION)-win-x64.zip"; Expand-Archive nodejs.zip -DestinationPath C:\; Rename-Item "C:\node-v$($env:NODE_VERSION)-win-x64" c:\nodejs
 
-      FROM mcr.microsoft.com/dotnet/core/aspnet:6.0 AS base
+      FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
       WORKDIR /app
       EXPOSE 80
       EXPOSE 443
-      COPY --from=downloadnodejs C:\nodejs\ C:\Windows\system32\
+      COPY --from=downloadnodejs C:\\nodejs\\ C:\\Windows\\system32\\
 
-      FROM mcr.microsoft.com/dotnet/core/sdk:6.0 AS build
-      COPY --from=downloadnodejs C:\nodejs\ C:\Windows\system32\
+      FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+      COPY --from=downloadnodejs C:\\nodejs\\ C:\\Windows\\system32\\
       WORKDIR /src
-      COPY ["WebApplicationReact1/WebApplicationReact1.csproj", "WebApplicationReact1/"]
-      RUN dotnet restore "WebApplicationReact1/WebApplicationReact1.csproj"
+      COPY ["Project1-SPA-Windows/Project1-SPA-Windows.csproj", "Project1-SPA-Windows/"]
+      RUN dotnet restore "Project1-SPA-Windows/Project1-SPA-Windows.csproj"
       COPY . .
-      WORKDIR "/src/WebApplicationReact1"
-      RUN dotnet build "WebApplicationReact1.csproj" -c Release -o /app/build
+      WORKDIR "/src/Project1-SPA-Windows"
+      RUN dotnet build "Project1-SPA-Windows.csproj" -c Release -o /app/build
 
       FROM build AS publish
-      RUN dotnet publish "WebApplicationReact1.csproj" -c Release -o /app/publish
+      RUN dotnet publish "Project1-SPA-Windows.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
       FROM base AS final
       WORKDIR /app
       COPY --from=publish /app/publish .
-      ENTRYPOINT ["dotnet", "WebApplicationReact1.dll"]
+      ENTRYPOINT ["dotnet", "Project1-SPA-Windows.dll"]
       ```
 
       ::: moniker-end
@@ -284,75 +283,102 @@ Update the Dockerfile by adding the following lines. This will copy node and npm
 ## Debug
 
 :::moniker range=">=vs-2022"
-Set the launch properties for debugging. You can use the dropdown menu next to the Start button, and choose **Debug properties**. In the **Launch profile** dialog comes up, choose **Docker**.
+The project uses the SPA Proxy during debugging. See [Improved single-page app (SPA) templates](https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-net-6-preview-4/#improved-single-page-app-spa-templates). When debugging, the JavaScript client runs on the host machine, but the ASP.NET Core server code runs in the container. When published, the proxy is not run, and the client code runs on the same server as the ASP.NET Core code.  You already have a Debug profile **Docker* that you can use to debug the server code. To debug the JavaScript client code, you can create an additional debug profile. You'll also need to start the proxy manually from a command prompt when debugging JavaScript. You can leave it running through multiple debug sessions.
 
-Set **Environment variables** to the following. Your SSL port number should match the HTTPS **Host Port** from the **Ports** tab of the **Containers** window.
+1. Build the project, if not already built.
+
+1. Open a Visual Studio dev command prompt, go to the ClientApp folder in your project, and then give the command, `npm run start`. You should see something like this:
+
+   ```output
+   Compiled successfully!
+
+   You can now view project3_spa in the browser.
+
+     Local:            https://localhost:44407
+     On Your Network:  https://192.168.1.5:44407
+
+   Note that the development build is not optimized.
+   To create a production build, use npm run build.
+   
+   webpack compiled successfully
+   ```
+
+   Note the local URL. You'll need to provide this in a debug launch profile, which is stored in your *launchSettings.json* file.
+
+1. Open the dropdown that contains debug profiles (next to the green triangle icon or **Start** button), and choose **{ProjectName} Debug Properties**, and choose the **Docker** profile.
+1. Check the **Environment variables** section and add the following environment variables if not already present:
 
    ```
-   ASPNETCORE_ENVIRONMENT=Development,ASPNETCORE_HOSTINGSTARTUPASSEMBLIES=Microsoft.AspNetCore.SpaProxy,ASPNETCORE_HTTPS_PORT=<your SSL port>,ASPNETCORE_URLS=https:////+:443;http:////+:80
+   ASPNETCORE_ENVIRONMENT=Development,ASPNETCORE_HOSTINGSTARTUPASSEMBLIES=Microsoft.AspNetCore.SpaProxy
    ```
 
-This action changes the Docker entry in the *launchSettings.json* file and enables the SPA Proxy to work correctly. Find the *launchSettings.json* file in **Solution Explorer** under **Properties**. You should see something like this, but with your app's assigned port numbers:
 
-```json
-    "Docker": {
-      "commandName": "Docker",
-      "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
-      "environmentVariables": {
-        "ASPNETCORE_URLS": "https://+:443;http://+:80",
-        "ASPNETCORE_HTTPS_PORT": "7136",
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy"
-      },
-      "publishAllPorts": true,
-      "useSSL": true,
-      "httpPort": 5136,
-      "sslPort":  7136
-    }
-```
+1. Set the **URL** to `https://localhost:{proxy-port}` where `{proxy-port}` is the port from the proxy server (from step 1).
+
+   ![Screenshot of Debug Launch Profile settings for client debugging.](./media/container-tools-react/vs-2022/launch-profiles-debugging.png)
+
+   This action changes the Docker entry in the *launchSettings.json* file and launches the correct URL for the local proxy running on the host. Find the *launchSettings.json* file in **Solution Explorer** under **Properties**.
+
+1. You should see something like the following code:
+
+   ```json
+   "profiles": {
+      "Docker": {
+         "commandName": "Docker",
+         "launchBrowser": true,
+         "environmentVariables": {
+           "ASPNETCORE_ENVIRONMENT": "Development",
+           "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy"
+         },
+         "launchUrl": "https://localhost:44407",
+         "useSSL": true
+      }
+   }
+   ```
+
+   > [!IMPORTANT]
+   > Do not set the launch settings option `publishAllPorts` to `true` if you are using a proxy. That option publishes all exposed ports to a random port, which won't work when you set a specific port in the SPA proxy.
+
+1. Open the file *ClientApp/src/setupProxy.js* and change the line that sets the target to use the localhost address and port on the container. You can find the port on the **Ports** tab of the **Containers** window.
+
+   ```JavaScript
+   const target =  'https://localhost:{container-port}';
+   ```
+
+   If you're using HTTPS, be sure to choose the right port for HTTPS.
+
+1. Launch the app with debugging (**F5**).
+
+   ![Screenshot of running app.](media/container-tools-react/vs-2022/client-app-page.png)
+
+   If you get a build error trying to write the output assemblies, you might have to stop a previously running container to unlock the files.
+
+1. Verify that you can hit a breakpoint in client-side JavaScript code by setting a breakpoint in **ClientApp/src/components/Counter.js** in the **incrementCounter** function, and then try hitting the breakpoint by clicking the **Increment** button on the Counters page.
+
+   ![Screenshot showing ebugging client-side JavaScript.](./media/container-tools-react/vs-2022/debugging-client-javascript.png)
+
+1. Next, try hitting a breakpoint in the server-side ASP.NET Core code. Set a breakpoint in *WeatherController.cs* in the `Get` method and try appending `/weatherforecast` to the base localhost and port URL to activate that code.
+
+   ![Screenshot showing debugging server-side ASP.NET Core code.](./media/container-tools-react/vs-2022/debugging-aspnet-core.png)
+
+1. If the container port changes, which can happen if you make a significant change, such as updating *launchSettings.json* or updating the debug launch profile in the IDE, you'll need to update the port in *setupProxy.js* and also restart the proxy. Terminate the current proxy (**Ctrl**+**C** in the command window where it's running), and then restart it using the same command `npm run start`.
+
 :::moniker-end
 
-Select **Docker** from the debug drop-down in the toolbar, and start debugging the app. You might see a message with a prompt about trusting a certificate; choose to trust the certificate to continue.  The first time you build, docker downloads the base images, so it might take a bit longer.
+:::moniker range="vs-2019"
 
-:::moniker range=">=vs-2022"
-The project uses the SPA Proxy. If the browser loads the front page before the proxy is ready, you might see a page that says you will automatically redirected when the proxy is ready.
-
-If the page never redirects, check that you are able to run the proxy. Open a Visual Studio dev command prompt, go to the ClientApp folder in your project, and then give the command, `npm run start`. You should see something like this:
-
-```
-> projectspa1@0.1.0 prestart
-> node aspnetcore-https && node aspnetcore-react
-
-
-> projectspa1@0.1.0 start
-> rimraf ./build && react-scripts start
-
-[HPM] Proxy created: [ '/weatherforecast' ]  ->  http://localhost:30449
-i ｢wds｣: Project is running at https://0.0.0.0:44445/
-i ｢wds｣: webpack output is served from
-i ｢wds｣: Content not from webpack is served from c:\Users\ghogen\source\repos\ProjectSpa1\ProjectSpa1\ClientApp\public
-i ｢wds｣: 404s will fallback to /
-Starting the development server...
-Compiled successfully!
-```
-
-If that succeeds, try starting the app again in the browser. If it doesn't succeed, check again that everything is correct in your *launchSettings.json* file.
-:::moniker-end
+Select **Docker** from the debug drop-down in the toolbar, and start debugging the app. You might see a message with a prompt about trusting a certificate; choose to trust the certificate to continue.  The first time you build, Docker downloads the base images, so it might take a bit longer.
 
 The **Container Tools** option in the **Output** window shows what actions are taking place. You should see the installation steps associated with *npm.exe*.
 
 The browser shows the app's home page.
 
-   ::: moniker range="vs-2019"
-   ![Screenshot of running app.](media/container-tools-react/vs-2019/running-app.png)
-   ::: moniker-end
-   ::: moniker range=">=vs-2022"
-   ![Screenshot of running app.](media/container-tools-react/vs-2022/client-app-page.png)
-   ::: moniker-end
-
+![Screenshot of running app.](media/container-tools-react/vs-2019/running-app.png)
+:::moniker-end
 
 :::moniker range=">=vs-2019"
+
+## Containers window
 
 Open the **Containers** tool window. You can find it on the menu under **View** > **Other Windows** > **Containers**, or press **Ctrl**+**Q** and start typing `containers` in the search box, then choose **Containers** window from the results. When the window comes up, dock it on the bottom under the editor pane.
 
@@ -374,7 +400,6 @@ You can also view the images and inspect information about them. Choose the **Im
 ## Publish Docker images
 
 Once the develop and debug cycle of the app is completed, you can create a production image of the app.
-
 
 :::moniker range="vs-2019"
 
