@@ -33,6 +33,7 @@ Visual Studio 2019 is required to follow the steps shown in this article.
 
 These procedures have been tested on these server configurations:
 
+* Windows Server 2022 and IIS 10
 * Windows Server 2012 R2 and IIS 8 (For Windows Server 2008 R2, the server steps are different)
 
 ## Network requirements
@@ -50,14 +51,13 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
 * If you want help to make sure that your app is set up, deployed, and running correctly in IIS so that you can debug, follow all the steps in this topic.
 
-## Create the ASP.NET 4.5.2 application on the Visual Studio computer
+## Create the ASP.NET 4.8 application on the Visual Studio computer
 
 1. Create a new MVC ASP.NET application.
 
-    ::: moniker range=">=vs-2019"
-    In Visual Studio 2019, type **Ctrl + Q** to open the search box, type **asp.net**, choose **Templates**, then choose **Create new ASP.NET Web Application (.NET Framework)**. In the dialog box that appears, name the project **MyASPApp**, and then choose **Create**. Select **MVC** and choose **Create**.
-    ::: moniker-end
+    In Visual Studio, choose **File** > **Start window** to open the Start window, and then choose **Create a new project**. In the search box, type **asp.net framework**, and then choose **ASP.NET Web Application (.NET Framework)**. In the dialog box that appears, name the project **MyASPApp**, choose **ASP.NET Framework 4.8**, and then choose **Create**.
 
+    Select **MVC** and choose **Create**.
 
 2. Open the  *HomeController.cs* file, and set a breakpoint in the `About()` method.
 
@@ -128,7 +128,6 @@ After the app deploys successfully, it should start automatically. If the app do
    Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
    ::: moniker-end
 
-
    > [!IMPORTANT]
    > If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.
 
@@ -164,8 +163,8 @@ You can also publish and deploy the app using the file system or other tools.
 
     ```xml
     <system.web>
-      <compilation debug="true" targetFramework="4.5.2" />
-      <httpRuntime targetFramework="4.5.2" />
+      <compilation debug="true" targetFramework="4.8" />
+      <httpRuntime targetFramework="4.8" />
       <httpModules>
         <add name="ApplicationInsightsWebTracking" type="Microsoft.ApplicationInsights.Web.ApplicationInsightsHttpModule, Microsoft.AI.Web" />
       </httpModules>
@@ -173,7 +172,7 @@ You can also publish and deploy the app using the file system or other tools.
 
     ```
 
-    For example, the version should be 4.0 if you install ASP.NET 4 instead of 4.5.2.
+    For example, the version should be 4.0 if you install ASP.NET 4 instead of 4.8.
 
 [!INCLUDE [remote-debugger-deploy-app-local](../debugger/includes/remote-debugger-deploy-app-local.md)]
 

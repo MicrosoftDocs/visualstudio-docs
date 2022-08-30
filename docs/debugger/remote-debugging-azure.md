@@ -2,9 +2,8 @@
 title: "Remote Debug ASP.NET Core on IIS and an Azure VM | Microsoft Docs"
 description: Learn how to set up and configure a Visual Studio ASP.NET Core app, deploy it to IIS using an Azure VM, and attach the remote debugger from Visual Studio. 
 ms.custom: "remotedebugging"
-ms.date: 05/27/2022
+ms.date: 08/30/2022
 ms.topic: "conceptual"
-ms.assetid: a6c04b53-d1b9-4552-a8fd-3ed6f4902ce6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
@@ -117,7 +116,7 @@ You can use this option create a publish settings file and import it into Visual
 
 2. Stop and restart the DefaultAppPool.
 
-### Install and configure Web Deploy for Hosting Servers on Windows Server
+### Install and configure Web Deploy on Windows Server
 
 [!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/install-web-deploy-with-hosting-server.md)]
 
