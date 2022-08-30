@@ -283,7 +283,7 @@ Update the Dockerfile by adding the following lines. This will copy node and npm
 ## Debug
 
 :::moniker range=">=vs-2022"
-The project uses the SPA Proxy during debugging. See [Improved single-age app (SPA) templates](https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-net-6-preview-4/#improved-single-page-app-spa-templates). When debugging, the JavaScript client runs on the host machine, but the ASP.NET Core server code runs in the container. When published, the proxy is not run, and the client code runs on the same server as the ASP.NET Core code.  You already have a Debug profile **Docker* that you can use to debug the server code. To debug the JavaScript client code, you can create an additional debug profile for debugging the JavaScript client code. You'll also need to start the proxy manually from a command prompt when debugging JavaScript. You can leave it running through many debug sessions.
+The project uses the SPA Proxy during debugging. See [Improved single-page app (SPA) templates](https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-net-6-preview-4/#improved-single-page-app-spa-templates). When debugging, the JavaScript client runs on the host machine, but the ASP.NET Core server code runs in the container. When published, the proxy is not run, and the client code runs on the same server as the ASP.NET Core code.  You already have a Debug profile **Docker* that you can use to debug the server code. To debug the JavaScript client code, you can create an additional debug profile. You'll also need to start the proxy manually from a command prompt when debugging JavaScript. You can leave it running through multiple debug sessions.
 
 1. Build the project, if not already built.
 
