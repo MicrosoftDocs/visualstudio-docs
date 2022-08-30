@@ -232,7 +232,6 @@ For information on running the remote debugger as a service, see [Run the remote
     ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess.png "RemoteDBG_AttachToProcess")
     ::: moniker-end
 
-
 7. Click **Attach**
 
 8. Open the remote computer's website. In a browser, go to **http://\<remote computer name>**.

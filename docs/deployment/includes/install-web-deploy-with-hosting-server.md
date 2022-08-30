@@ -17,7 +17,7 @@ Web Deploy provides additional configuration features that enable the creation o
 
 1. Run the Web Deploy installation program, and make sure you select **Complete** installation instead of a typical installation.
 
-   With a complete installation, you get the components you need to generate a publish settings file.
+   With a complete installation, you get the components you need to generate a publish settings file. (If you choose **Custom** instead, you can see the list of components, as shown in the following illustration.)
 
     ![Screenshot showing Web Deploy 4.0 components](../../deployment/media/tutorial-iis-web-deploy-40-setup.png)
 
