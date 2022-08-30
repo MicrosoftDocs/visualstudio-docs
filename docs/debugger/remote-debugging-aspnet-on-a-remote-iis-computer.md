@@ -2,7 +2,7 @@
 title: "Remote Debug ASP.NET Core on a Remote IIS Computer | Microsoft Docs"
 description: Debug an ASP.NET Core application that has been deployed to a remote Internet Information Services (IIS) computer using the Visual Studio remote debugger.
 ms.custom: "remotedebugging, SEO-VS-2020"
-ms.date: 08/27/2021
+ms.date: 08/29/2022
 ms.topic: "conceptual"
 ms.assetid: 573a3fc5-6901-41f1-bc87-557aa45d8858
 author: "mikejo5000"
@@ -21,19 +21,16 @@ To debug an ASP.NET Core application that has been deployed to IIS, install and 
 
 ![Remote debugger components](../debugger/media/remote-debugger-aspnet.png "Remote_debugger_components")
 
-This guide explains how to set up and configure a Visual Studio ASP.NET Core, deploy it to IIS, and attach the remote debugger from Visual Studio. To remote debug ASP.NET 4.5.2, see [Remote Debug ASP.NET on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md). You can also deploy and debug on IIS using Azure. For Azure App Service, see [Remote debug ASP.NET Core on Azure](/learn/modules/dotnet-debug-visual-studio-azure-web-apps/) or, for Visual Studio Enterprise, use the [Snapshot Debugger](../debugger/debug-live-azure-applications.md) (.NET 4.6.1 required).
+This guide explains how to set up and configure a Visual Studio ASP.NET Core, deploy it to IIS, and attach the remote debugger from Visual Studio. To remote debug ASP.NET 4.8, see [Remote Debug ASP.NET on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md). You can also deploy and debug on IIS using Azure. For Azure App Service, see [Remote debug ASP.NET Core on Azure](/learn/modules/dotnet-debug-visual-studio-azure-web-apps/) or, for Visual Studio Enterprise, use the [Snapshot Debugger](../debugger/debug-live-azure-applications.md) (.NET 4.6.1 required).
 
 ## Prerequisites
 
-::: moniker range=">=vs-2019"
-Visual Studio 2019 is required to follow the steps shown in this article.
-::: moniker-end
-
+Visual Studio 2019 or a later version is required to follow the steps shown in this article.
 
 These procedures have been tested on these server configurations:
-* Windows Server 2012 R2 and IIS 8
-* Windows Server 2016 and IIS 10
+* Windows Server 2022 and IIS 10
 * Windows Server 2019 and IIS 10
+* Windows Server 2016 and IIS 10
 
 ## Network requirements
 
@@ -51,14 +48,11 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
 1. Create a new ASP.NET Core web application.
 
-    ::: moniker range=">=vs-2019"
-    In Visual Studio 2019, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project **MyASPApp**, and then choose **Next**.
+    In Visual Studio, choose **File** > **Start window** to open the Start window, and then choose **Create a new project**. In the search box, type **web app**, then choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project **MyASPApp**, and then choose **Next**.
 
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
-    ::: moniker-end
 
-
-4. Open the About.cshtml.cs file and set a breakpoint in the `OnGet` method (in older templates, open HomeController.cs instead and set the breakpoint in the `About()` method).
+2. Open the About.cshtml.cs file and set a breakpoint in the `OnGet` method (in older templates, open HomeController.cs instead and set the breakpoint in the `About()` method).
 
 ## <a name="bkmk_configureIIS"></a> Install and Configure IIS on Windows Server
 
@@ -66,7 +60,7 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
 ## Update browser security settings on Windows Server
 
-If Enhanced Security Configuration is enabled in Internet Explorer (it is enabled by default), then you may need to add some domains as trusted sites to enable you to download some of the web server components. Add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. Add the following domains.
+If you are using Internet Explorer in an older version of Windows Server, the Enhanced Security Configuration is enabled by default. You may need to add some domains as trusted sites to enable you to download some of the web server components. Add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. Add the following domains.
 
 - microsoft.com
 - go.microsoft.com
@@ -100,7 +94,7 @@ If you need help to deploy the app to IIS, consider these options:
 You can use this option create a publish settings file and import it into Visual Studio.
 
 > [!NOTE]
-> This deployment method uses Web Deploy, which must be installed on the server. If you want to configure Web Deploy manually instead of importing the settings, you can install Web Deploy 3.6 instead of Web Deploy 3.6 for Hosting Servers. However, if you configure Web Deploy manually, you will need to make sure that an app folder on the server is configured with the correct values and permissions (see [Configure ASP.NET Web site](#BKMK_deploy_asp_net)).
+> If you want to configure Web Deploy manually instead of importing the publish settings, you will need to make sure that an app folder on the server is configured with the correct values and permissions (see [Configure ASP.NET Web site](#BKMK_deploy_asp_net)).
 
 ### Configure the ASP.NET Core web site
 
@@ -108,7 +102,7 @@ You can use this option create a publish settings file and import it into Visual
 
 2. Stop and restart the DefaultAppPool.
 
-### Install and configure Web Deploy for Hosting Servers on Windows Server
+### Install and configure Web Deploy on Windows Server
 
 [!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/install-web-deploy-with-hosting-server.md)]
 
@@ -124,10 +118,13 @@ After the app deploys successfully, it should start automatically. If the app do
 
 1. Switch to a debug configuration.
 
-   ::: moniker range=">=vs-2019"
-   Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
+   ::: moniker range=">=vs-2022"
+   Choose **More Options** > **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
    ::: moniker-end
 
+   ::: moniker range="vs-2019"
+   Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
+   ::: moniker-end
 
    > [!IMPORTANT]
    > If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.
@@ -221,7 +218,6 @@ For information on running the remote debugger as a service, see [Run the remote
     ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
     ::: moniker-end
 
-
 7. Click **Attach**.
 
 8. Open the remote computer's website. In a browser, go to **http://\<remote computer name>**.
@@ -262,6 +258,9 @@ Required ports:
 ::: moniker-end
 
 * UDP 3702 - (Optional) Discovery port enables you to use the **Find** button when attaching to the remote debugger in Visual Studio.
+
+In addition, these ports should already be opened by the ASP.NET installation:
+- 8172 - (Optional) Required for Web Deploy to deploy the app from Visual Studio
 
 1. To open a port on Windows Server, open the **Start** menu, search for **Windows Firewall with Advanced Security**.
 
