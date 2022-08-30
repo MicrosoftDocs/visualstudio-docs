@@ -22,7 +22,11 @@ For Windows Server operating systems, use the **Add Roles and Features** wizard 
 
 (Windows Server 2022) In the dialog box that appears, choose **Add Features** to add the IIS Management Console.
 
-On the **Role services** step, select the IIS role services you desire or accept the default role services provided. If you want to enable deployment using publish settings and Web Deploy, make sure that **IIS Management Scripts and Tools** is selected.
+On the **Role services** step, select the IIS role services you desire or accept the default role services provided. If you want to enable deployment using publish settings and Web Deploy, make sure that the following features are selected:
+
+- **IIS Management Scripts and Tools**
+- **Management Service**
+- **IIS Management Console**
 
 ![Screenshot showing IIS Management scripts and tools selected.](../media/remotedbg-server-config-add-scripts-and-tools.png)
 
