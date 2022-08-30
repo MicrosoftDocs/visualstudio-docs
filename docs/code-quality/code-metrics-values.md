@@ -41,12 +41,11 @@ The following list shows the code metrics results that Visual Studio calculates:
 
 - **Class Coupling** - Measures the coupling to unique classes through parameters, local variables, return types, method calls, generic or template instantiations, base classes, interface implementations, fields defined on external types, and attribute decoration. Good software design dictates that types and methods should have high cohesion and low coupling. High coupling indicates a design that is difficult to reuse and maintain because of its many interdependencies on other types. For more information, see [Class coupling](code-metrics-class-coupling.md).
 
-::: moniker range=">=vs-2019"
 
 - **Lines of Source code** - Indicates the exact number of source code lines that are present in your source file, including blank lines. This metric is available starting in Visual Studio 2019 version 16.4 and Microsoft.CodeAnalysis.Metrics (2.9.5).
 
 - **Lines of Executable code** - Indicates the approximate number of executable code lines or operations. This is a count of number of operations in executable code. This metric is available starting in Visual Studio 2019 version 16.4 and Microsoft.CodeAnalysis.Metrics (2.9.5). The value is typically a close match to the previous metric, **Lines of Code**, which is the MSIL-instruction-based metric used in legacy mode.
-::: moniker-end
+
 
 
 ## Anonymous methods

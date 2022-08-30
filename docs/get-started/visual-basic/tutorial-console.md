@@ -21,8 +21,6 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 
-::: moniker range=">=vs-2019"
-
 This article shows how you'll use Visual Studio to create a simple Visual Basic application, a *console app*. In this app, you ask the user for their name, and then display it back with the current time. You'll also explore some features of the [Visual Studio integrated development environment (IDE)](visual-studio-ide.md), including [source control in Git](/visualstudio/version-control). Visual Basic is a type-safe programming language that's designed to be easy to learn. A console app takes input and displays output in a command-line window, also known as a console.
 
 In this tutorial, you learn how to:
@@ -35,16 +33,12 @@ In this tutorial, you learn how to:
 > - Add Git source control
 > - Clean up resources
 
-::: moniker-end
 
 ## Prerequisites
 
 
-::: moniker range=">=vs-2019"
-
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
-::: moniker-end
 
 ## Create a project
 

@@ -381,8 +381,6 @@ You can create a build environment that can be deployed to various computers and
     ```
 
 
-::: moniker range=">=vs-2019"
-
 6. Change the command-line environment as follows:
 
     - Set Depot=*location of the Depot directory that you created in step 1*
@@ -391,7 +389,6 @@ You can create a build environment that can be deployed to various computers and
 
        For native 64-bit building, point to the 64-bit version of MSBuild.
 
-::: moniker-end
 
 ## See also
 

@@ -352,8 +352,6 @@ The browser shows the app's home page.
    ::: moniker-end
 
 
-:::moniker range=">=vs-2019"
-
 Open the **Containers** tool window. You can find it on the menu under **View** > **Other Windows** > **Containers**, or press **Ctrl**+**Q** and start typing `containers` in the search box, then choose **Containers** window from the results. When the window comes up, dock it on the bottom under the editor pane.
 
 The **Containers** window shows the running containers and lets you view information about them. You can view the environment variables, labels, ports, volumes, the file system, and logs. The toolbar buttons let you create a terminal (shell prompt) inside the container, attach the debugger, or prune unused containers. See [Use the Containers window](view-and-diagnose-containers.md).
@@ -369,7 +367,6 @@ You can also view the images and inspect information about them. Choose the **Im
 > [!NOTE]
 > The **dev** image does not contain the app binaries and other content, as **Debug** configurations use volume mounting to provide the iterative edit and debug experience. To create a production image containing all contents, use the **Release** configuration.
 
-:::moniker-end
 
 ## Publish Docker images
 

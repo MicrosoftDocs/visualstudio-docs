@@ -26,9 +26,8 @@ ms.technology: vs-ide-test
 
 **Test Explorer is not discovering my tests that are dynamically defined. (For example, theories, custom adapters, custom traits, #ifdefs, etc.) How can I discover these tests?**
 
-::: moniker range=">=vs-2019"
 Build your project to run assembly-based discovery.
-::: moniker-end
+
 
 [Real-time test discovery](https://devblogs.microsoft.com/dotnet/real-time-test-discovery/) is source-based test discovery. It can’t discover tests that use theories, custom adapters, custom traits, `#ifdef` statements, and more because they're defined at run time. A build is required for those tests to be accurately found. In Visual Studio 2017 version 15.6 and later, assembly-based discovery (the traditional discoverer) runs only after builds. This setting means real-time test discovery finds as many tests as it can while you're editing, and assembly-based discovery allows dynamically defined tests to appear after a build. Real-time test discovery improves responsiveness, but still allows you to get complete and precise results after a build.
 
@@ -123,11 +122,11 @@ To fix this error:
 ```XML
 <SDKReference Include="TestPlatform.Universal, Version=$(UnitTestPlatformVersion)" />
 ```
-::: moniker range=">=vs-2019"
+
 ## Using preview features
 
 In Visual Studio 2019, you can opt into preview features in **Tools > Options > Environment > Preview Features**.
-::: moniker-end
+
 
 ## See also
 

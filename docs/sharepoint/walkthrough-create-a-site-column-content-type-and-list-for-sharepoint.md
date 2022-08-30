@@ -55,7 +55,6 @@ ms.workload:
 
 1. On the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] **File** menu, choose **New** > **Project**.
 
-::: moniker range=">=vs-2019"
 2.  On the **Create a New Project** dialog select the **SharePoint Empty Project** for the particular version of SharePoint you have installed. For example, if you have SharePoint 2016 install select the **SharePoint 2016 - Empty Project** template.
     [!INCLUDE[new-project-dialog-search](../sharepoint/includes/new-project-dialog-search-md.md)]
 
@@ -68,7 +67,7 @@ ms.workload:
      For more information about sandboxed and farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).
 
 6. Choose the **Finish** button. The project is now listed in **Solution Explorer**.
-::: moniker-end
+
 
 #### To add site columns
 

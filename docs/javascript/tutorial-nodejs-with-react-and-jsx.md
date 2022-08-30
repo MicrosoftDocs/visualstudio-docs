@@ -465,7 +465,6 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 
 ### Enable the browser for debugging
 
-::: moniker range=">=vs-2019"
 You can use either Microsoft Edge or Google Chrome. Close all windows for the target browser. For Microsoft Edge, also shut down all instances of Chrome. Because both browsers share the Chromium code base, shutting down both browsers gives the best results.
 
 Other browser instances can prevent the browser from opening with debugging enabled. Browser extensions might prevent full debug mode. You might need to use Task Manager to find and end all running Chrome instances.
@@ -491,7 +490,7 @@ To start your browser with debugging enabled:
   or
   
   `chrome.exe --remote-debugging-port=9222`
-::: moniker-end
+
 
 
 The browser starts with debugging enabled. The app isn't running yet, so the browser page is empty.
@@ -541,9 +540,8 @@ The browser starts with debugging enabled. The app isn't running yet, so the bro
 
 1. Select your target browser as the debug target in Visual Studio, and then press **Ctrl**+**F5**, or select **Debug** > **Start Without Debugging**, to run the app in the browser.
 
-    ::: moniker range=">=vs-2019"
     If you created a debugging-enabled browser configuration with a friendly name, choose that browser as your debug target.
-    ::: moniker-end
+
 
     The app opens in a new browser tab.
 
@@ -554,20 +552,18 @@ The browser starts with debugging enabled. The app isn't running yet, so the bro
 
 1. In the **Attach to Process** dialog box, get a filtered list of browser instances that you can attach to.
 
-    ::: moniker range=">=vs-2019"
     Make sure the correct debugger for your target browser, **JavaScript (Chrome)** or **JavaScript (Microsoft Edge - Chromium)**, appears in the **Attach to** field. Type *chrome* or *edge* in the filter box to filter the results.
-    ::: moniker-end
+
 
 
 1. Select the browser process with the correct host port, **localhost** in this example. The port number **1337** or **localhost** might also appear in the **Title** field to help you select the correct process.
 
 1. Select **Attach**.
 
-    ::: moniker range=">=vs-2019"
     The following example shows an **Attach to Process** window for the Microsoft Edge browser.
 
     ![Screenshot showing the Attach to process dialog box.](../javascript/media/tutorial-nodejs-react-attach-to-process-edge.png)
-    ::: moniker-end
+
 
 
     > [!TIP]

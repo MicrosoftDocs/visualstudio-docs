@@ -212,7 +212,6 @@ The tool shows each async operation in a list view. You can see information such
 ![.NET Async Tool Stopped](../profiling/media/async-tool-opened.png ".NET Async Tool Stopped")
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
 
 ## Examine application events
 
@@ -238,7 +237,6 @@ The tool shows live values for each counter in a list view.
 
 :::image type="content" source="../profiling/media/dotnet-counters-tool-collecting.png" alt-text=".NET Counter tool collecting.":::
 
-::: moniker-end
 
 ## Examine UI performance and accessibility events (UWP)
 
@@ -270,10 +268,8 @@ You can also use the graphs to determine whether there are CPU bound or GPU boun
 
 ## Analyze performance (legacy tools)
 
-
-::: moniker range=">=vs-2019"
 In Visual Studio 2019,  the legacy Performance Explorer and related profiling tools such as the Performance Wizard were folded into the Performance Profiler, which you can open using **Debug** > **Performance Profiler**. In the Performance Profiler, the available diagnostics tools depend on the target chosen and the current, open startup project. The CPU Usage tool provides the sampling capability previously supported in the Performance Wizard. The Instrumentation tool provides the instrumented profiling capability (for precise call counts and durations) that was in the Performance Wizard. Additional memory tools also appear in the Performance Profiler.
-::: moniker-end
+
 
 ![Performance Explorer tool](../profiling/media/prof-tour-performance-explorer.png "Performance Explorer")
 
@@ -281,7 +277,6 @@ In Visual Studio 2019,  the legacy Performance Explorer and related profiling to
 
 Here is a table that lists the different tools Visual Studio offers and the different project types you can use them with:
 
-::: moniker range=">=vs-2019"
 |Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core|
 |----------------------|---------------------|-------------|-------------|
 |[PerfTips](../profiling/perftips.md)|yes|yes|yes|
@@ -296,7 +291,7 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |[Database](../profiling/analyze-database.md)|yes (.NET Core only)|no|yes (ASP.NET Core only)|
 |[Performance Explorer](#analyze-performance-legacy-tools)|no|no|no|
 |[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
-::: moniker-end
+
 
 
 

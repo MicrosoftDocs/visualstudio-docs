@@ -54,8 +54,6 @@ If you need to install the workload but already have Visual Studio, go to **Tool
 First, you'll create a C++ console application project. The project type comes with all the template files you'll need, before you've even added anything!
 
 
-::: moniker range=">=vs-2019"
-
 1. Open Visual Studio.
 
    If the start window is not open, choose **File** > **Start Window**.
@@ -75,7 +73,6 @@ First, you'll create a C++ console application project. The project type comes w
 
    Visual Studio opens your new project.
 
-::: moniker-end
 
 ## Create the application
 

@@ -27,9 +27,8 @@ This guide explains how to set up and configure a Visual Studio ASP.NET MVC 4.5.
 
 ## Prerequisites
 
-::: moniker range=">=vs-2019"
 Visual Studio 2019 is required to follow the steps shown in this article.
-::: moniker-end
+
 
 
 These procedures have been tested on these server configurations:
@@ -55,9 +54,8 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
 1. Create a new MVC ASP.NET application.
 
-    ::: moniker range=">=vs-2019"
     In Visual Studio 2019, type **Ctrl + Q** to open the search box, type **asp.net**, choose **Templates**, then choose **Create new ASP.NET Web Application (.NET Framework)**. In the dialog box that appears, name the project **MyASPApp**, and then choose **Create**. Select **MVC** and choose **Create**.
-    ::: moniker-end
+
 
 
 2. Open the  *HomeController.cs* file, and set a breakpoint in the `About()` method.
@@ -125,9 +123,8 @@ After the app deploys successfully, it should start automatically. If the app do
 
 1. Switch to a debug configuration.
 
-   ::: moniker range=">=vs-2019"
    Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
-   ::: moniker-end
+
 
 
    > [!IMPORTANT]
@@ -225,9 +222,8 @@ For information on running the remote debugger as a service, see [Run the remote
 
     If you have multiple processes showing **w3wp.exe**, check the **User Name** column. In some scenarios, the **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. If you see the App Pool, an easy way to identify the correct process is to create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
 
-    ::: moniker range=">=vs-2019"
     ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess.png "RemoteDBG_AttachToProcess")
-    ::: moniker-end
+
 
 
 7. Click **Attach**
@@ -261,9 +257,9 @@ Required ports:
 ::: moniker range=">=vs-2022"
 * 4026 - Required for remote debugging from Visual Studio 2022 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
 ::: moniker-end
-::: moniker range=">=vs-2019"
+
 * 4024 - Required for remote debugging from Visual Studio 2019 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
-::: moniker-end
+
 
 * UDP 3702 - (Optional) Discovery port enables you to the **Find** button when attaching to the remote debugger in Visual Studio.
 

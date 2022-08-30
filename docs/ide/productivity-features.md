@@ -96,11 +96,8 @@ You can search across the IDE for commands, files, and options, in addition to f
 - **Find dialog boxes, menu commands, options, and more**. In the search box, enter keywords or phrases for the items that you're trying to find. For example, the following options appear if you enter **new project**:
 
 
-   ::: moniker range=">=vs-2019"
-
    ![Search results for 'new project'](../ide/media/vs-2019/productivity-quick-launch-new-project.png)
 
-   ::: moniker-end
 
    Press **Ctrl**+**Q** to jump straight to the search box.
 
@@ -141,11 +138,8 @@ Debugging can consume a lot of time, but the following tips can help you speed u
 You can quickly access the Developer Command Prompt, or another Visual Studio tool, if you pin it to the Start menu or the taskbar.
 
 
-::: moniker range=">=vs-2019"
-
 1. In Windows Explorer, browse to *%ProgramData%\Microsoft\Windows\Start Menu\Programs\Visual Studio 2019\Visual Studio Tools*.
 
-::: moniker-end
 
 2. Right-click or open the context menu for **Developer Command Prompt**, and then choose **Pin to Start** or **Pin to taskbar**.
 

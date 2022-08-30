@@ -35,22 +35,16 @@ All project and item templates, whether installed with Visual Studio or created 
 - The files to be created when the template is used. These files include source code files, embedded resources, project files, and so on.
 
 
-::: moniker range=">=vs-2019"
-
 - A *.vstemplate* file, which contains the metadata needed to create a project or item from the template and to display the template on the **Create a new project** page or in the **Add New Item** dialog box.
 
-::: moniker-end
 
    For more information about *.vstemplate* files, see [Template tags](template-tags.md) and [Template parameters](../ide/template-parameters.md).
 
 When these files are compressed into a *.zip* file and put in the correct folder, Visual Studio automatically displays them in the following places:
 
 
-::: moniker range=">=vs-2019"
-
 - Project templates appear on the **Create a new project** page.
 
-::: moniker-end
 
 - Item templates appear in the **Add New Item** window.
 

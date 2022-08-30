@@ -130,13 +130,10 @@ A unit test project usually mirrors the structure of a single code project. In t
 1. In **Solution Explorer**, right-click on the solution and choose **Add** > **New** **Project**.
 
 
-::: moniker range=">=vs-2019"
-
 2. Type **test** in the project template search box to find a unit test project template for the test framework that you want to use. (In the examples in this topic, we use MSTest.)
 
 3. On the next page, name the project. To test the `Accounts` project of our example, you could name the project `AccountsTests`.
 
-::: moniker-end
 
 4. In your unit test project, add a reference to the code project under test, in our example to the Accounts project.
 
@@ -253,20 +250,14 @@ The **Test Explorer** toolbar helps you discover, organize, and run the tests th
 You can choose **Run All** to run all your tests (or press **Ctrl** + **R**, **V**), or choose **Run** to choose a subset of tests to run (**Ctrl** + **R**, **T**). Select a test to view the details of that test in the test details pane. Choose **Open Test** from the right-click menu (Keyboard: **F12**) to display the source code for the selected test.
 
 
-::: moniker range=">=vs-2019"
-
 If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution in the settings menu of the toolbar. This can noticeably reduce the time taken to run all the tests.
 
-::: moniker-end
 
 ### Run tests after every build
 
 
-::: moniker range=">=vs-2019"
-
 To run your unit tests after each local build, open the settings icon in the Test Explorer toolbar and select **Run Tests After Build**.
 
-::: moniker-end
 
 ### Filter and group the test list
 

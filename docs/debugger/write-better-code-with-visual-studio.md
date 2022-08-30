@@ -45,13 +45,12 @@ To create the app:
 
 1. Open Visual Studio.
 
-    ::: moniker range=">=vs-2019"
     On the start window, choose **Create a new project**. Type **console** in the search box and then choose either **Console App** for .NET Core. Choose **Next**. Type a project name like **Console_Parse_JSON** and click **Next** or **Create**, whichever option is available.
 
     For .NET Core, choose either the recommended target framework or .NET 6, and then choose **Create**.
 
     If you don't see the **Console App** for .NET Core project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET Core cross platform development** workload, then choose **Modify**.
-    ::: moniker-end
+
 
 
     Visual Studio creates the console project, which appears in Solution Explorer in the right pane.

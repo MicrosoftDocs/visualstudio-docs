@@ -78,9 +78,8 @@ Usually, the local machine best replicates installed app execution. To collect d
 
 The diagnostic report is sorted by **Total CPU**, from highest to lowest. Change the sort order or sort column by selecting the column headers. Use the **Filter** dropdown to select or deselect threads to display, and use the **Search** box to search for a specific thread or node.
 
-::: moniker range=">=vs-2019"
 Starting in Visual Studio 2019, you can click the **Expand Hot Path** and **Show Hot Path** buttons to see the function calls that use the highest percentage of the CPU in the call tree view.
-::: moniker-end
+
 
 ### <a name="BKMK_Call_tree_data_columns"></a> CPU Usage data columns
 

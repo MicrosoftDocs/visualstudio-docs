@@ -39,9 +39,8 @@ These procedures have been tested on these server configurations:
 
 ## Prerequisites
 
-::: moniker range=">=vs-2019"
 Visual Studio 2019 or later versions is required to follow the steps shown in this article.
-::: moniker-end
+
 
 
 ### Network requirements
@@ -64,11 +63,10 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
 1. Create a new ASP.NET Core web application.
 
-    ::: moniker range=">=vs-2019"
     In Visual Studio 2019, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project **MyASPApp**, and then choose **Next**.
 
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
-    ::: moniker-end
+
 
 
 1. Open the About.cshtml.cs file and set a breakpoint in the `OnGet` method (in older templates, open HomeController.cs instead and set the breakpoint in the `About()` method).
@@ -216,9 +214,8 @@ Download the version of the remote tools that matches your version of Visual Stu
 
     If you have multiple processes showing *w3wp.exe* or *dotnet.exe*, check the **User Name** column. In some scenarios, the **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. If you see the App Pool, but it's not unique, create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
 
-    ::: moniker range=">=vs-2019"
     ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
-    ::: moniker-end
+
 
 
 7. Click **Attach**.

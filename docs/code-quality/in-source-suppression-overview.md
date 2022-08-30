@@ -24,13 +24,11 @@ ms.workload:
 
 It is often useful to indicate that a warning is not applicable. Suppressing code analysis violations indicates team members the code was reviewed, and the warning can be suppressed. The following sections describe the different ways to suppress code analysis violations using the Visual Studio IDE.
 
-::: moniker range=">=vs-2019"
 
 ## Suppress violations using the EditorConfig file
 
 In an **EditorConfig file**, set the severity to `none`, for example, `dotnet_diagnostic.CA1822.severity = none`. To add an EditorConfig file, see [Add an EditorConfig file to a project](../ide/create-portable-custom-editor-options.md#add-and-remove-editorconfig-files).
 
-::: moniker-end
 
 ## Suppress violations in source code
 
@@ -42,13 +40,12 @@ You can suppress violations in code using a preprocessor directive, the [#pragma
 
   If you choose **in Source**, you see a preview of the preprocessor directive that will be added to your code.
 
-  ::: moniker range=">=vs-2019"
   :::image type="content" source="media/vs-2019/suppress-diagnostic-from-editor.png" alt-text="Suppress diagnostic from quick actions menu":::
 
   If you choose **in Source (attribute)**, you see a preview of the [SuppressMessage attribute](#in-source-suppression-and-the-suppressmessage-attribute) that will be added to your code.
 
   :::image type="content" source="media/vs-2019/suppress-diagnostic-from-editor-attribute.png" alt-text="Suppress diagnostic from quick actions menu using attribute":::
-  ::: moniker-end
+
 
 - From the **Error List**
 
@@ -75,11 +72,9 @@ The [global suppression file](#global-level-suppressions) uses the [SuppressMess
 
 - From the **code editor**, place the cursor in the line of code with the violation and press **Quick actions and refactorings** (or press **Ctrl**+**Period (.)**) to open the **Quick Actions** menu. Select **Suppress CAXXXX**, and then choose **in Suppression File**. You see a preview of the [global suppression file](#global-level-suppressions) that will be created or modified.
 
-::: moniker range=">=vs-2019"
 
 - From the **Analyze** menu, select **Analyze** > **Build and Suppress Active Issues** on the menu bar to suppress all current violations. Suppressing all current violations is sometimes referred to as "baselining".
 
-::: moniker-end
 
 
 ## Suppress violations using project settings
@@ -102,12 +97,9 @@ In C++/CLI, use the macros CA\_SUPPRESS\_MESSAGE or CA\_GLOBAL\_SUPPRESS_MESSAGE
 > You should not use in-source suppressions on release builds, to prevent shipping the in-source suppression metadata accidentally.
 
 
-::: moniker range=">=vs-2019"
-
 > [!NOTE]
 > If you migrate a project to Visual Studio 2019, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings, you can suppress all of them by selecting **Analyze** > **Build and Suppress Active Issues**.
 
-::: moniker-end
 
 ### SuppressMessage attribute
 

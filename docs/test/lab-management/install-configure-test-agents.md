@@ -39,8 +39,6 @@ You can download agents for Visual Studio 2017, Visual Studio 2015, and Visual S
 
 These installers are available as ISO files for easy installation on virtual machines.
 
-
-::: moniker range=">=vs-2019"
 ## Compatible versions of TFS, the test controller, and test agent
 
 You can mix different versions of TFS, the test controller, and the test agent, according to the following table:
@@ -54,7 +52,7 @@ You can mix different versions of TFS, the test controller, and the test agent, 
 | 2015: new install | 2013 | 2013 |
 | 2015: upgrade from 2013 or new install | 2013 | 2013 |
 | 2013 | 2013 | 2013 |
-::: moniker-end
+
 
 > [!NOTE]
 > Lab management scenarios in TFS 2018 and Azure DevOps Services are deprecated. For more information see [TFS 2018 Release Notes](/visualstudio/releasenotes/tfs2018-relnotes#--removing-support-for-lab-center-and-automated-testing-flows-in-microsoft-test-manager).

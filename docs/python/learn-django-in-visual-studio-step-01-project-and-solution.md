@@ -22,14 +22,12 @@ ms.workload:
 
 In this tutorial, you learn how to:
 
-
-::: moniker range=">=vs-2019"
 - Create a basic Django project in a Git repository using the "Blank Django Web Project" template (step 1).
 - Create a Django app with one page and render that page using a template (step 2).
 - Serve static files, add pages, and use template inheritance (step 3).
 - Use the Django Web Project template to create an app with multiple pages and responsive design (step 4).
 - Authenticate users (step 5).
-::: moniker-end
+
 
 ## Prerequisites
 

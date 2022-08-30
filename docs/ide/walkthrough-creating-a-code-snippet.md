@@ -94,12 +94,9 @@ The following XML is the basic snippet template:
 5. The snippet is copied to one of the following locations, depending on the code language:
 
 
-   ::: moniker range=">=vs-2019"
-
    *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets*
    *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual Basic\My Code Snippets*
 
-   ::: moniker-end
 
 6. Test your snippet by opening a C# or Visual Basic project. With a code file open in the editor, choose **Snippets** > **Insert Snippet** from the right-click menu, then **My Code Snippets**. You should see a snippet named **Square Root**. Double-click it.
 
@@ -108,11 +105,8 @@ The following XML is the basic snippet template:
 ## Description and shortcut fields
 
 
-::: moniker range=">=vs-2019"
-
 1. Description fields give more information about your code snippet when viewed in the Code Snippets Manager. The shortcut is a tag that users can type in order to insert your snippet. Edit the snippet you have added by opening the file *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\\[Visual C# or Visual Basic]\My Code Snippet\SquareRoot.snippet*.
 
-::: moniker-end
 
    > [!TIP]
    > Since you're editing the file in the directory where Visual Studio placed it, you don't need to reimport it to Visual Studio.

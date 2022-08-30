@@ -118,9 +118,8 @@ We recommend that you begin analyzing your data by examining the list of functio
 
     Each numbered area in the figure relates to a step in the procedure.
 
-    ::: moniker range=">=vs-2019"
     ![Diagnostics Tools Call Tree](../profiling/media/vs-2019/diag-tools-call-tree.png "DiagToolsCallTree")
-    ::: moniker-end
+
 
 
     |Image|Description|
@@ -138,11 +137,10 @@ We recommend that you begin analyzing your data by examining the list of functio
 
     - **Modules** The name of the module containing the function, or the number of modules containing the functions in an [External Code] node.
 
-    ::: moniker range=">=vs-2019"
     To see the function calls that use the highest percentage of the CPU in the call tree view, click **Expand Hot Path**.
 
     ![Diagnostics Tools Hot Path](../profiling/media/vs-2019/diag-tools-hot-path.png "DiagToolsHotPath")
-    ::: moniker-end
+
 
     > [!NOTE]
     > If you see code in the call tree marked as "broken" code or "unwalkable stack", this indicates that Event Tracing for Windows (ETW) events were likely dropped. Try collecting the same trace a second time to resolve the issue.

@@ -195,9 +195,8 @@ If you work with a large number of services, you can save time and computing res
 
 With Service Fabric tools in Visual Studio, you can develop and debug for Azure Service Fabric, run and debug locally, and deploy to Azure.
 
-::: moniker range=">=vs-2019"
 Visual Studio 2019 and later support developing containerized microservices using Windows containers and Service Fabric orchestration.
-::: moniker-end
+
 
 For a detailed tutorial, see
 [Tutorial: Deploy a .NET application in a Windows container to Azure Service Fabric](/azure/service-fabric/service-fabric-host-app-in-a-container).

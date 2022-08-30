@@ -54,15 +54,12 @@ To edit an XML file, open the file you want to edit.
 ## Create an empty project for XML files
 
 
-::: moniker range=">=vs-2019"
-
 1. From the **File** menu, select **New** > **Project**.
 
 2. Enter **Empty Project** in the template search box, select the **Empty Project (.NET Framework)** template, and then select **Next**.
 
 3. Select **Create**.
 
-::: moniker-end
 
 4. Add XML files to the project.
 
