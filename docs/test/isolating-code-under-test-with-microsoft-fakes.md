@@ -285,7 +285,6 @@ As long as Microsoft Fakes assemblies are present in the configured `FakesAssemb
 Distributed testing with the [vstest task](/azure/devops/pipelines/tasks/test/vstest?view=azure-devops&preserve-view=true) .NET Core and .NET 5.0 or later projects using Microsoft Fakes requires Visual Studio 2019 Update 9 Preview `20201020-06` and higher.
 
 
-
 ## Transitioning your .NET Framework test projects that use Microsoft Fakes to SDK-style .NET Framework, .NET Core, or .NET 5.0 projects or later projects
 
 You'll need minimal changes in your .NET Framework set up for Microsoft Fakes to transition to .NET Core or .NET 5.0. The cases that you would have to consider are:
@@ -300,7 +299,6 @@ You'll need minimal changes in your .NET Framework set up for Microsoft Fakes to
   If this reference is required by your code, you may get compilation errors.
   ```
   This warning is because of necessary changes made in Fakes generation and can be ignored. It can be avoided by removing the assembly reference from the project file, because we now implicitly add them during the build.
-
 
 ## Microsoft Fakes support 
 ### Microsoft Fakes in older projects targeting .NET Framework (non-SDK style).

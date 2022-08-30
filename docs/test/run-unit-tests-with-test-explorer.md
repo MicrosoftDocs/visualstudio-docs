@@ -40,7 +40,6 @@ When you build the test project, the tests appear in Test Explorer. If Test Expl
 
 As you run, write, and rerun your tests, the Test Explorer displays the results in a default grouping of **Project**, **Namespace**, and **Class**. You can change the way the Test Explorer groups your tests.
 
-
 You can perform much of the work of finding, organizing and running tests from the **Test Explorer** toolbar.
 
 ::: moniker range="vs-2019"
@@ -62,11 +61,9 @@ You can run all the tests in the solution, all the tests in a group, or a set of
 
 - If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution in the settings menu of the toolbar. This can noticeably reduce the time taken to run all the tests.
 
-
 ### Run tests after every build
 
 To run your unit tests after each local build, open the settings icon in the Test Explorer toolbar and select **Run Tests After Build**.
-
 
 ## View test results
 
@@ -136,7 +133,6 @@ You can define your own levels of the hierarchy and group by **State** and then 
 |**Namespace**|Groups tests by the containing namespace.|
 |**Project**|Groups tests by the containing project.|
 |**Class**|Groups tests by the containing class.|
-
 
 ### Traits
 
@@ -333,7 +329,6 @@ To filter by a different criteria:
 |**Target Framework**|Searches the Test Explorer category names for matches: **Failed Tests**, **Skipped Tests**, **Passed Tests**.|
 |**Namespace**|Searches the test namespaces for matches.|
 |**Class**|Searches the test classes names for matches.|
-
 
 To exclude a subset of the results of a filter, use the following syntax:
 

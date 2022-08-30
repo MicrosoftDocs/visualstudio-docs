@@ -218,7 +218,6 @@ So far, although you've written the tests for the StringLibrary class library, y
 
 When it finishes running your tests, **Live Unit Testing** displays both the overall results and the result of individual tests. In addition, the code editor window graphically displays both your test code coverage and the result for your tests. As the following illustration shows, all three tests have executed successfully. It also shows that our tests have covered all code paths in the `StartsWithUpper` method, and those tests all executed successfully (which is indicated by the green check mark, "✓"). Finally, it shows that none of the other methods in StringLibrary have code coverage (which is indicated by a blue line, "➖").
 
-
 ::: moniker range="vs-2019"
 ![The Live Test Explorer and code editor window after starting Live Unit testing](media/lut-start/vs-2019/lut-results-cs.png)
 ::: moniker-end
