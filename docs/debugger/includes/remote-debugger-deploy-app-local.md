@@ -36,7 +36,7 @@
 
 1. Click **Publish**.
 
-    ![Screenshot of the Settings tab in the Publish dialog box. Configuration is set to Debug and the Publish button is selected.](../media/remote-debg-publish-debug-config.png)
+    ![Screenshot of the Settings tab in the Publish dialog box. Configuration is set to Debug and the Publish button is selected.](../media/remote-debug-publish-debug-config.png)
 
     The application publishes a **Debug** configuration of the project to the local folder. Progress shows in the Output window.
 
