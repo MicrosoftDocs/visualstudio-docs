@@ -2,9 +2,8 @@
 title: "Remote Debug ASP.NET Core on IIS and an Azure VM | Microsoft Docs"
 description: Learn how to set up and configure a Visual Studio ASP.NET Core app, deploy it to IIS using an Azure VM, and attach the remote debugger from Visual Studio. 
 ms.custom: "remotedebugging"
-ms.date: 05/27/2022
+ms.date: 08/30/2022
 ms.topic: "conceptual"
-ms.assetid: a6c04b53-d1b9-4552-a8fd-3ed6f4902ce6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
@@ -33,14 +32,13 @@ For an Azure VM, you must deploy your app from Visual Studio to Azure and you al
 
 These procedures have been tested on these server configurations:
 
-* Windows Server 2012 R2 and IIS 8
-* Windows Server 2016 and IIS 10
+* Windows Server 2022 and IIS 10
 * Windows Server 2019 and IIS 10
+* Windows Server 2016 and IIS 10
 
 ## Prerequisites
 
 Visual Studio 2019 or later versions is required to follow the steps shown in this article.
-
 
 ### Network requirements
 
@@ -62,16 +60,18 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
 1. Create a new ASP.NET Core web application.
 
+    ::: moniker range=">=vs-2019"
     In Visual Studio 2019, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project **MyASPApp**, and then choose **Next**.
 
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
+    ::: moniker-end
 
 
 1. Open the About.cshtml.cs file and set a breakpoint in the `OnGet` method (in older templates, open HomeController.cs instead and set the breakpoint in the `About()` method).
 
 ## Update browser security settings on Windows Server
 
-If Enhanced Security Configuration is enabled in Internet Explorer (it is enabled by default), then you may need to add some domains as trusted sites to enable you to download some of the web server components. Add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. Add the following domains.
+If you are using Internet Explorer in an older version of Windows Server, the Enhanced Security Configuration is enabled by default. You may need to add some domains as trusted sites to enable you to download some of the web server components. Add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. Add the following domains.
 
 - microsoft.com
 - go.microsoft.com
@@ -113,7 +113,7 @@ You can use this option create a publish settings file and import it into Visual
 
 2. Stop and restart the DefaultAppPool.
 
-### Install and configure Web Deploy for Hosting Servers on Windows Server
+### Install and configure Web Deploy on Windows Server
 
 [!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/install-web-deploy-with-hosting-server.md)]
 
