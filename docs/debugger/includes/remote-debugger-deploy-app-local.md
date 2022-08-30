@@ -35,13 +35,12 @@
 
    Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
 
+    ![Screenshot of the Settings tab in the Publish dialog box. Configuration is set to Debug and the Publish button is selected.](../media/remote-debug-publish-debug-config.png)
 
    > [!NOTE]
    > If you use a Release build, you disable debugging in the *web.config* file when you publish.
 
 1. Click **Publish**.
-
-    ![Screenshot of the Settings tab in the Publish dialog box. Configuration is set to Debug and the Publish button is selected.](../media/remote-debug-publish-debug-config.png)
 
     The application publishes a **Debug** configuration of the project to the local folder. Progress shows in the Output window.
 
