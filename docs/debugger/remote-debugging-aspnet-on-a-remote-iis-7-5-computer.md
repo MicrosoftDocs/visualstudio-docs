@@ -65,7 +65,7 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
 ## Update browser security settings on Windows Server
 
-If Enhanced Security Configuration is enabled in Internet Explorer (it is enabled by default), then you may need to add some domains as trusted sites to enable you to download some of the web server components. Add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. Add the following domains.
+If you are using Internet Explorer in an older version of Windows Server, the Enhanced Security Configuration is enabled by default. You may need to add some domains as trusted sites to enable you to download some of the web server components. Add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. Add the following domains.
 
 - microsoft.com
 - go.microsoft.com
@@ -164,7 +164,7 @@ You can use this option to deploy your app if you want to copy the app to IIS us
 
 You can also publish and deploy the app using the file system or other tools.
 
-1. (ASP.NET 4.5.2) Make sure that the web.config file lists the correct version of .NET.  For example, if you are targeting ASP.NET 4.5.2, make sure this version is listed in web.config.
+1. (ASP.NET 4.8) Make sure that the web.config file lists the correct version of .NET.  For example, if you are targeting ASP.NET 4.8, make sure this version is listed in web.config.
 
     ```xml
     <system.web>
@@ -253,7 +253,7 @@ For information on running the remote debugger as a service, see [Run the remote
 - If the app tried to open, but you see a certificate warning, choose to trust the site. If you already closed the warning, you can edit the publishing profile, a *.pubxml file, in your project and add the following element (for test only): `<AllowUntrustedCertificate>true</AllowUntrustedCertificate>`
 - If the app does not start from Visual Studio, start the app in IIS to test that it deployed correctly.
 - Check the Output window in Visual Studio for status information, and check your error messages.
-- 
+
 ## <a name="bkmk_openports"></a> Open required ports on Windows Server
 
 In most setups, required ports are opened by the installation of ASP.NET and the remote debugger. However, you may need to verify that ports are open.
@@ -272,6 +272,9 @@ Required ports:
 ::: moniker-end
 
 * UDP 3702 - (Optional) Discovery port enables you to the **Find** button when attaching to the remote debugger in Visual Studio.
+
+In addition, these ports should already be opened by the ASP.NET installation:
+- 8172 - (Optional) Required for Web Deploy to deploy the app from Visual Studio
 
 1. To open a port on Windows Server, open the **Start** menu, search for **Windows Firewall with Advanced Security**.
 
