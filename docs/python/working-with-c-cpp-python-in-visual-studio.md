@@ -134,7 +134,6 @@ Follow the instructions in this section to create two identical C++ projects, *s
 
 1. Set the properties as described in the following table:
 
-    ::: moniker range=">=vs-2019"
 
     | Tab | Property | Value |
     | --- | --- | --- |
@@ -147,7 +146,6 @@ Follow the instructions in this section to create two identical C++ projects, *s
     | **Linker** > **General** | **Additional Library Directories** | Add the Python *libs* folder that contains *.lib* files, as appropriate for your installation (for example, *c:\Python36\libs*). Be sure to point to the *libs* folder that contains *.lib* files, and *not* the *Lib* folder that contains *.py* files. |
     | | |
 
-    ::: moniker-end
 
     
     > [!NOTE]

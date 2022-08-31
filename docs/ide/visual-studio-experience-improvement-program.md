@@ -28,8 +28,6 @@ Given the purpose of the data we collect and the constraints on its access and r
 The VSCEIP is turned on by default. You can turn it off, or back on again, by following these instructions:
 
 
-::: moniker range=">=vs-2019"
-
 1. In Visual Studio, choose **Help** > **Privacy** > **Privacy Settings**.
 
    The **Visual Studio Experience Improvement Program** dialog box opens.
@@ -38,7 +36,6 @@ The VSCEIP is turned on by default. You can turn it off, or back on again, by fo
 
    ![Visual Studio Experience Improvement Program dialog](media/vs-2022/experience-improvement-program.png)
 
-::: moniker-end
 
 #### Registry settings
 

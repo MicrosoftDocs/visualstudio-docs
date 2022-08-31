@@ -68,11 +68,8 @@ The Extension Pack item template creates an Extension Pack with set of extension
 Now that the extension is published, install it in Visual Studio and test it there.
 
 
-::: moniker range=">=vs-2019"
-
 1. In Visual Studio, on the **Extensions** menu, click **Managed Extensions**.
 
-::: moniker-end
 
 2. Click **Online** and then search for "Test Extension Pack".
 
@@ -89,11 +86,8 @@ Now that the extension is published, install it in Visual Studio and test it the
 To remove the extension from your computer:
 
 
-::: moniker range=">=vs-2019"
-
 1. In Visual Studio, on the **Extensions** menu, click **Managed Extensions**.
 
-::: moniker-end
 
 2. Select **Test Extension Pack** and then click **Uninstall**. The extension and its list of extensions included in the Extension Pack will then be scheduled for uninstall.
 

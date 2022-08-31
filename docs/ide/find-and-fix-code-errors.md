@@ -25,11 +25,9 @@ There are two basic types of build configuration: **Debug** and **Release**. The
 
 The easiest way to build your project is to press **F7**, but you can also start the build by selecting **Build** > **Build Solution** from the main menu.
 
-::: moniker range=">=vs-2019"
 
 :::image type="content" source="media/debug-build-solution-menu-item.png" alt-text="Screenshot of the Build menu in the Visual Studio IDE.":::
 
-::: moniker-end
 
 
 You can observe the build process in the **Output** window at the bottom of the Visual Studio UI. Errors, warnings, and build operations are displayed here. If you have errors (or if you have warnings above a configured level), your build fails. You can click on the errors and warnings to go to the line where they occurred. Rebuild your project by either pressing **F7** again (to recompile only the files with errors) or **Ctrl**+**Alt**+**F7** (for a clean and complete rebuild).
@@ -102,7 +100,6 @@ Quick Actions can be used wherever code analyzers determine there's an opportuni
 
 With experience, you can quickly use the arrow keys and **Ctrl**+**.** to check for easy refactoring opportunities and clean up your code!
 
-::: moniker range=">=vs-2019"
 
 ## Run Code Cleanup
 
@@ -112,7 +109,6 @@ Visual Studio provides [on-demand formatting of your C# code file](code-styles-a
 
 In addition to formatting your file for spaces, indents, et cetera, **Code Cleanup** also applies a set of code style conventions that you define. Your preferences for each code style are read from the [EditorConfig file](code-styles-and-code-cleanup.md#code-styles-in-editorconfig-files), if you have one for the project, or from the [code style settings](code-styles-and-code-cleanup.md#code-styles-in-the-options-dialog-box) in the **Options** dialog box.
 
-::: moniker-end
 
 ## Debug your running code
 

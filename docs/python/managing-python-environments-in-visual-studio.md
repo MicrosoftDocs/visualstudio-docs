@@ -33,11 +33,8 @@ If you're new to Python in Visual Studio, the following articles also provide fr
 - [Work with Python in Visual Studio](overview-of-python-tools-for-visual-studio.md)
 - [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md)
 
-
-::: moniker range=">=vs-2019"
 > [!Note]
 > You can manage environments for Python code that is opened as a folder using the **File** > **Open** > **Folder** command. The Python toolbar allows you switch between all detected environments, and also add a new environment. The environment information is stored in the PythonSettings.json file in the Workspace .vs folder.
-::: moniker-end
 
 ## The Python Environments window
 
@@ -295,10 +292,7 @@ You can also review and modify details of the environment at any time in the **P
 
 If Visual Studio finds registry entries for an environment, but the path to the interpreter is invalid, then the **Python Environments** window shows the name with a strikeout font:
 
-
-::: moniker range=">=vs-2019"
   ![The Python Environments window showing an invalid environment-2019-2022](media/environments/environments-invalid-entry-2019.png)
-::: moniker-end
 
 To correct an environment you wish to keep, first try using its installer's **Repair** process. The installers for standard Python 3.x, for example, include that option.
 
