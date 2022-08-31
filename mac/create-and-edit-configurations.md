@@ -66,7 +66,7 @@ Then select **OK** to confirm.
 
 ## Related video
 
-> [![here](/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Launch-Multiple-Projects/player)]
+> [!VIDEO http://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Launch-Multiple-Projects/player]
 
 ## See also
 
