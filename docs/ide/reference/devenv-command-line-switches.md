@@ -70,7 +70,7 @@ The following command-line switches display the IDE and do the described task.
 |[/Edit](edit-devenv-exe.md)|Opens the specified files in a running instance of this application. If there are no running instances, it starts a new instance with a simplified window layout.<br /><br /> `devenv /edit File1 File2`|
 |[/LCID or /L](lcid-devenv-exe.md)|Sets the default language for the IDE. If the specified language isn't included in your installation of Visual Studio, this setting is ignored.<br /><br /> `devenv /l 1033`|
 |[/Log](log-devenv-exe.md)|Starts Visual Studio and logs all activity to the log file.<br /><br /> `devenv /log mylogfile.xml`|
-|/noScale| Opens the IDE in a [DPI-disabled mode](../../designers/disable-dpi-awareness.md) that allows for a more accurate layout in the Windows Forms Designer. |
+|/NoScale| Opens the IDE in a [DPI-disabled mode](../../designers/disable-dpi-awareness.md) that allows for a more accurate layout in the Windows Forms Designer. |
 |[/NoSplash](nosplash-devenv-exe.md)|Opens the IDE without showing the splash screen.<br /><br /> `devenv /nosplash File1 File2`|
 |[/ResetSettings](resetsettings-devenv-exe.md)|Restores Visual Studio default settings. Optionally resets the settings to the specified `.vssettings` file.<br /><br /> `devenv /resetsettings mysettings.vssettings`|
 |[/Run or /R](run-devenv-exe.md)|Compiles and runs the specified solution.<br /><br /> `devenv /run mysln.sln`|
