@@ -6,9 +6,9 @@ ms.date: "12/7/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "dotnet, counters, profiling"
-author: "sagar-shetty"
+author: MikeJo5000
 ms.author: mikejo
-manager: MikeJo5000
+manager: AndSter
 ms.workload:
   - "multiple"
 ---
