@@ -25,17 +25,19 @@ This method gets the kind of field.
 
 ## Syntax
 
-```cpp
-HRESULT GetKind( 
-   FIELD_KIND* pdwKind
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetKind(
    out enum_FIELD_KIND pdwKind
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetKind( 
+   FIELD_KIND* pdwKind
+);
+```
+---
 
 ## Parameters
 `pdwKind`\

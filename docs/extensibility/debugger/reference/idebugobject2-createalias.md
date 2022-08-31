@@ -25,17 +25,19 @@ Creates a unique ID or alias for this object or returns an existing alias.
 
 ## Syntax
 
-```cpp
-HRESULT CreateAlias(
-   IDebugAlias** ppAlias
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateAlias(
    out IDebugAlias ppAlias
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateAlias(
+   IDebugAlias** ppAlias
+);
+```
+---
 
 ## Parameters
 `ppAlias`\

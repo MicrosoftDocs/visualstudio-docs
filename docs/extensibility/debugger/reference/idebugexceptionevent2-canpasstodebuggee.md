@@ -25,15 +25,17 @@ Determines whether or not the debug engine (DE) supports the option of passing t
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int CanPassToDebuggee();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT CanPassToDebuggee(
    void
 );
 ```
-
-```csharp
-int CanPassToDebuggee();
-```
+---
 
 ## Return Value
  Returns either `S_OK` (the exception can be passed to the program) or `S_FALSE` (the exception cannot be passed on).

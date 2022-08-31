@@ -28,17 +28,19 @@ This method gets the machine utilities for a server.
 
 ## Syntax
 
-```cpp
-HRESULT GetMachineUtilities_V7(
-   IDebugMDMUtil2_V7** ppUtil
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMachineUtilities_V7(
    out IDebugMDMUtil2_V7 ppUtil
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMachineUtilities_V7(
+   IDebugMDMUtil2_V7** ppUtil
+);
+```
+---
 
 ## Parameters
 `ppUtil`\

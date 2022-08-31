@@ -23,15 +23,7 @@ Retrieves a value that corresponds to the specified metric of the expression eva
 
 ## Syntax
 
-```cpp
-HRESULT GetEEMetricDword(
-   REFGUID guidLang,
-   REFGUID guidVendor,
-   LPCWSTR pszMetric,
-   DWORD*  pdwValue
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 private int GetEEMetricDword(
    ref Guid guidLang,
@@ -40,6 +32,16 @@ private int GetEEMetricDword(
    out uint pdwValue
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEEMetricDword(
+   REFGUID guidLang,
+   REFGUID guidVendor,
+   LPCWSTR pszMetric,
+   DWORD*  pdwValue
+);
+```
+---
 
 ## Parameters
 `guidLang`\

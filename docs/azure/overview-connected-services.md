@@ -7,7 +7,7 @@ ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: overview
-ms.date: 02/15/2022
+ms.date: 08/01/2022
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
@@ -21,6 +21,7 @@ Connected Services is a collection of tools in Visual Studio that help you conne
 * OpenAPI endpoints
 * gRPC (Remote Procedure Call) endpoints
 * Windows Communication Foundation (WCF) endpoints
+* Databases and data providers
 
 Get started by right-clicking on the **Connected Services** node in Solution Explorer and select **Manage Connected Services**.
 
@@ -65,17 +66,25 @@ Visual Studio makes it easier to develop Azure applications locally by easing th
 
 | Name | Description |
 | - | - |
-| [Azure CosmosDB Emulator on container](/azure/cosmos-db/introduction) | Azure CosmosDB emulator running in a local container. |
+| [Azure Cosmos DB Emulator on container](/azure/cosmos-db/introduction) | Azure Cosmos DB emulator running in a local container. |
 | [Azure Storage Emulator](/azure/storage/common/storage-use-azurite?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&tabs=visual-studio) | Azurite is an Azure Storage emulator that runs on your local machine. |
 | [Application Insights SDK](/azure/azure-monitor/app/app-insights-overview) | Local mode for the Application Insights service.  |
-| [MongoDB on container](/azure/cosmos-db/introduction) | MongoDB document databases provides high reliability and easy scalability. This options makes it available in a local container. |
-| [PostgreSQL on container](/azure/postgresql/overview) | PostgreSQL is an object-relational database system that provides reliability and data integrity. This option makes it available in a local container. |
 | [RabbitMQ on container](/azure/azure-functions/functions-bindings-rabbitmq) | RabbitMQ is an open-source multi-protocol message broker. This option makes it available in a local container. |
 | [Redis Cache on container](/azure/azure-cache-for-redis/cache-overview) | Redis cache hosted in a local container. |
+| [Secrets.json](/aspnet/core/security/app-secrets?tabs=windows) | Local alternative for Key Vault. |
+| [SQL Server Express LocalDB](/sql/database-engine/configure-windows/sql-server-express-localdb) | Local alternative to Azure SQL Database. |
+
+## Databases and data providers
+
+Visual Studio provides options to connect to on-premises databases, locally emulated versions of data providers, as well as Azure database services.
+
+| Name | Description |
+| - | - |
+| [Azure Cosmos DB Emulator on container](/azure/cosmos-db/introduction) | Azure Cosmos DB emulator running in a local container. |
+| [MongoDB on container](/azure/cosmos-db/introduction) | MongoDB document databases provides high reliability and easy scalability. This option makes it available in a local container. |
+| [PostgreSQL on container](/azure/postgresql/overview) | PostgreSQL is an object-relational database system that provides reliability and data integrity. This option makes it available in a local container. |
 | [SQLite](/ef/core/providers/sqlite/?tabs=dotnet-core-cli) | SQLite is an in-process library that provides a self-contained, transactional SQL database engine with no configuration. |
 | [SQL Server Database](/sql/sql-server/) | On-premises SQL Server Database. |
-| [SQL Server Express LocalDB](/sql/database-engine/configure-windows/sql-server-express-localdb) | Local alternative to Azure SQL Database. |
-| [Secrets.json](/aspnet/core/security/app-secrets?tabs=windows) | Local alternative for Key Vault. |
 
 ## How it works
 

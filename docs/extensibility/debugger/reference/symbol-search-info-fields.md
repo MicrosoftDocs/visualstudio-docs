@@ -25,15 +25,7 @@ Specifies the kind of symbol information to retrieve.
 
 ## Syntax
 
-```cpp
-enum enum_SYMBOL_SEARCH_INFO_FIELDS
-{
-   SSIF_NONE                = 0x00000000,
-   SSIF_VERBOSE_SEARCH_INFO = 0x00000001
-};
-typedef DWORD SYMBOL_SEARCH_INFO_FIELDS;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public enum enum_SYMBOL_SEARCH_INFO_FIELDS
 {
@@ -42,6 +34,16 @@ public enum enum_SYMBOL_SEARCH_INFO_FIELDS
 };
 
 ```
+### [C++](#tab/cpp)
+```cpp
+enum enum_SYMBOL_SEARCH_INFO_FIELDS
+{
+   SSIF_NONE                = 0x00000000,
+   SSIF_VERBOSE_SEARCH_INFO = 0x00000001
+};
+typedef DWORD SYMBOL_SEARCH_INFO_FIELDS;
+```
+---
 
 ## Fields
  `SSIF_NONE`\

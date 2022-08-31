@@ -36,11 +36,9 @@ Follow the tasks below to create a visualizer.
 
 * Create a new class library project.
 
-    ::: moniker range=">=vs-2019"
     Choose **File** > **New** > **Project**. In the language drop-down, choose **C#**. In the search box, type **class library**, and then choose **Class Library (.NET Framework)**. Click **Next**. In the dialog box that appears, type the name `MyFirstVisualizer`, and then click **Create**.
 
     For the visualizer project, make sure you select a .NET Framework class library and not .NET. Although the visualizer needs to be .NET Framework, the calling app can be .NET.
-    ::: moniker-end
 
 
    After you have created the class library, you must add a reference to Microsoft.VisualStudio.DebuggerVisualizers.DLL so that you can use the classes defined there. Before you add the reference, however, you must rename some classes so that they have meaningful names.
@@ -168,13 +166,11 @@ In the debugger-side code, you specify the type to visualize (the object source)
 
 1. In Solution Explorer, right-click the solution, choose **Add**, and then click **New Project**.
 
-    ::: moniker range=">=vs-2019"
 
     Choose **File** > **New** > **Project**. In the language drop-down, choose **C#**. In the search box, type **console app**, and then choose either **Console App (.NET Framework)** or **Console Application** for .NET. Click **Next**. In the dialog box that appears, type the name `MyTestConsole`, and then click **Create**.
 
     > [!NOTE]
     > If you want to easily test the visualizer using a test harness, create a .NET Framework console app. You can create a .NET console app instead, but the test harness described later is not yet supported for .NET, so you will need to install the visualizer to test it. For a .NET console app, first create the console app here, add the required DLL and project references, and then follow steps described in [Add a debuggee-side data object](#add-a-debuggee-side-data-object). For ASP.NET Core scenarios, see [Special debugger side considerations for .NET 5.0+](../debugger/create-custom-visualizers-of-data.md#special-debugger-side-considerations-for-net-50).
-    ::: moniker-end
 
 
    Now, you must add the necessary references so MyTestConsole can call MyFirstVisualizer.
@@ -231,7 +227,6 @@ In the debugger-side code, you specify the type to visualize (the object source)
 
    If you want to use your visualizer in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] rather than just calling it from the test harness, you have to install it. For more information, see [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).
 
-::: moniker range=">=vs-2019"
 ## Add a debuggee-side data object
 
 In this section, you switch from the `System.String` data object to a custom data object.  
@@ -300,7 +295,7 @@ In this section, you switch from the `System.String` data object to a custom dat
    // String myString = "Hello, World";
    CustomDataObject customDataObject = new CustomDataObject();
 
-   DebuggerSide.TestShowVisualizer(customDataObject.MyData);
+   DebuggerSide.TestShowVisualizer(customDataObject);
    ```
 
 1. (.NET console app) Enclose the call to `TestShowVisualizer` in a try-catch statement, since the test harness is unsupported.
@@ -308,7 +303,7 @@ In this section, you switch from the `System.String` data object to a custom dat
    ```csharp
    try
    {
-         DebuggerSide.TestShowVisualizer(customDataObject.MyData);
+         DebuggerSide.TestShowVisualizer(customDataObject);
    }
    catch (Exception) {
    }
@@ -330,7 +325,6 @@ In this section, you switch from the `System.String` data object to a custom dat
 
    ![Visualizer showing a Windows Form](../debugger/media/vs-2019/visualizer-csharp-windows-form.png)
 
-::: moniker-end
 
 
 ## See also

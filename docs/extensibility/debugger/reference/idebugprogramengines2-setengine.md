@@ -25,17 +25,19 @@ Tells the program or program node which debug engine (DE) to use to debug this p
 
 ## Syntax
 
-```cpp
-HRESULT SetEngine( 
-   REFGUID guidEngine
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetEngine( 
    ref Guid guidEngine
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetEngine( 
+   REFGUID guidEngine
+);
+```
+---
 
 ## Parameters
 `guidEngine`\

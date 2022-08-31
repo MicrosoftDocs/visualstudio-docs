@@ -4,14 +4,14 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: bda8772c-cc0b-4949-8419-1084331cc54b
-ms.date: 04/25/2022
+ms.date: 07/08/2022
 ms.topic: how-to
 description:  Learn what to do if your email domain changes to ensure uninterrupted access to the admin portal and subscriptions. 
 ---
 
 # What happens when your organization’s name or email domain changes
 
-In today's fast moving business climate, organizations can undergo important changes.  Mergers, acquisitions, spin-offs, and rebranding can all cause the names of organizations and their tenants and domains to change.  Changes to email addresses can impact the ability of both subscribers and admins to access Visual Studio subscriptions.  For instance, if you're an admin and your email address changes, you won't be able to log into the admin portal with your new address.  Follow the steps in this article to ensure you have continued access to your subscriptions.
+In today's fast moving business climate, organizations can undergo important changes.  Mergers, acquisitions, spin-offs, and rebranding can all cause the names of organizations and their tenants and domains to change.  Changes to email addresses can impact the ability of both subscribers and admins to access Visual Studio subscriptions.  For instance, if you're an admin and your email address changes, you won't be able to log into the admin portal with your new address.  Follow the steps in this article to ensure you have continued access to your subscriptions when organization name changes occur. 
 
 ## What to do if your organization's email addresses change
 

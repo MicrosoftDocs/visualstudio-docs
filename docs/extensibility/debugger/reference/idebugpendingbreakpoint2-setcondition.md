@@ -26,17 +26,19 @@ Sets or changes the condition associated with the pending breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT SetCondition( 
-   BP_CONDITION bpCondition
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetCondition( 
    BP_CONDITION bpCondition
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetCondition( 
+   BP_CONDITION bpCondition
+);
+```
+---
 
 ## Parameters
 `bpCondition`\

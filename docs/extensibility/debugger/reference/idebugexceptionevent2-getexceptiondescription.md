@@ -25,17 +25,19 @@ Gets a displayable description of the exception.
 
 ## Syntax
 
-```cpp
-HRESULT GetExceptionDescription( 
-   BSTR* pbstrDescription
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetExceptionDescription( 
    out string pbstrDescription
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetExceptionDescription( 
+   BSTR* pbstrDescription
+);
+```
+---
 
 ## Parameters
 `pbstrDescription`\

@@ -24,7 +24,6 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 1. Open Visual Studio and create a new project.
 
-    ::: moniker range=">=vs-2019"
     If the start window is not open, choose **File** > **Start Window**. On the start window, choose **Create a new project**.
 
     On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list.
@@ -34,13 +33,13 @@ The Visual Studio debugger provides many powerful features to help you debug you
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
 
     If you don't see the **Console App** project template for .NET Core, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET Core cross-platform development** workload, then choose **Modify**.
-    ::: moniker-end
 
 
     Visual Studio creates the project.
 
 1. In *Program.cs* or *Module1.vb*, replace the following code
 
+    ### [C#](#tab/csharp)
     ```csharp
     class Program
     {
@@ -50,15 +49,18 @@ The Visual Studio debugger provides many powerful features to help you debug you
     }
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     Module Module1
         Sub Main()
         End Sub
     End Module
     ```
+    ---
 
     with this code:
 
+    ### [C#](#tab/csharp)
     ```csharp
     class Program
     {
@@ -91,6 +93,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
     }
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     Imports System.Collections.Generic
 
@@ -123,6 +126,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
         End Class
     End Namespace
     ```
+    ---
 
     > [!NOTE]
     > In Visual Basic, make sure the startup object is set to `Sub Main` (**Properties > Application > Startup Object**).

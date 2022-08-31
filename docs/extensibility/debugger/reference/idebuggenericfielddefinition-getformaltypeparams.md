@@ -24,14 +24,7 @@ Retrieves the type parameters given the number of parameters.
 
 ## Syntax
 
-```cpp
-HRESULT GetFormalTypeParams(
-   ULONG32                   cParams,
-   IDebugGenericParamField** ppParams,
-   ULONG32*                  pcParams
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetFormalTypeParams(
    uint                          cParams,
@@ -39,6 +32,15 @@ int GetFormalTypeParams(
    ref uint                      pcParams
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetFormalTypeParams(
+   ULONG32                   cParams,
+   IDebugGenericParamField** ppParams,
+   ULONG32*                  pcParams
+);
+```
+---
 
 ## Parameters
 `cParams`\

@@ -29,6 +29,9 @@ ms.workload:
 ## Example
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OL_HTMLFolder/thisaddin.cs" id="Snippet1":::
 
+>[!NOTE]
+>The Outlook Home Page feature was disabled by default to limit security vulnerabilities. For more information please see https://support.microsoft.com/en-us/topic/outlook-home-page-feature-is-missing-in-folder-properties-d207edb7-aa02-46c5-b608-5d9dbed9bd04.
+
 ## See also
 - [Work with folders](../vsto/working-with-folders.md)
 - [How to: Programmatically retrieve a folder by name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)

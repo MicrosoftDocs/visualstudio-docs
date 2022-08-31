@@ -25,17 +25,19 @@ Gets the attributes for this debug event.
 
 ## Syntax
 
-```cpp
-HRESULT GetAttribute( 
-   DWORD* pdwAttrib
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAttribute( 
    out uint pdwAttrib
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAttribute( 
+   DWORD* pdwAttrib
+);
+```
+---
 
 ## Parameters
 `pdwAttrib`\

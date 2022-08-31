@@ -52,8 +52,12 @@ If your application uses datasets to store data, you can simply add new records 
 
    The following code shows how to add a new record to a <xref:System.Data.DataTable> and then call the `TableAdapter.Update` method to save the new row to the database. (This example uses the `Region` table in the Northwind database.)
 
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form5.vb" id="Snippet14":::
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form5.cs" id="Snippet14":::
+
+   ### [VB](#tab/vb)
+   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form5.vb" id="Snippet14":::
+   ---
 
 ### To insert new records into a database by using the TableAdapter.Insert method
 
@@ -66,8 +70,12 @@ The following procedure demonstrates using the `TableAdapter.Insert` method to i
 > [!NOTE]
 > If you do not have an instance available, instantiate the TableAdapter you want to use.
 
-:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet15":::
+### [C#](#tab/csharp)
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs" id="Snippet15":::
+
+### [VB](#tab/vb)
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet15":::
+---
 
 ## Insert new records by using command objects
 
@@ -79,8 +87,12 @@ You can insert new records directly into a database using command objects.
 
 The following example demonstrates inserting records into a database using command object. It inserts data into the `Region` table in the Northwind database.
 
-:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet16":::
+### [C#](#tab/csharp)
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs" id="Snippet16":::
+
+### [VB](#tab/vb)
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet16":::
+---
 
 ## .NET security
 

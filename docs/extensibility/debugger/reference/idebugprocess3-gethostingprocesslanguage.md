@@ -25,17 +25,19 @@ This method returns a `GUID` representing the language of this process as set by
 
 ## Syntax
 
-```cpp
-HRESULT GetHostingProcessLanguage(
-   GUID* pguidLang
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetHostingProcessLanguage(
    out Guid pguidLang
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetHostingProcessLanguage(
+   GUID* pguidLang
+);
+```
+---
 
 ## Parameters
 `pguidLang`\

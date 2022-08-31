@@ -95,13 +95,7 @@ ms.workload:
 
 9. In the MainPage.xaml code file (*MainPage.xaml.cs* for Visual C# or *MainPage.xaml.vb* for Visual Basic), add the following namespace references.
 
-    ```vb
-    ' Add the following three Imports statements.
-    Imports SLApplication.ServiceReference1
-    Imports System.Windows.Data
-    Imports System.Data.Services.Client
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     // Add the following three using directives.
     using SLApplication.ServiceReference1;
@@ -109,38 +103,35 @@ ms.workload:
     using System.Data.Services.Client;
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    ' Add the following three Imports statements.
+    Imports SLApplication.ServiceReference1
+    Imports System.Windows.Data
+    Imports System.Data.Services.Client
+    ```
+    ---
+
 10. Add the following variable declarations at the top of the class.
 
-    ```vb
-    Private context As TeamSiteDataContext
-    Private myCollectionViewSource As CollectionViewSource
-    Private announcements As New DataServiceCollection(Of AnnouncementsItem)()
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     private TeamSiteDataContext context;
     private CollectionViewSource myCollectionViewSource;
     DataServiceCollection<AnnouncementsItem> announcements = new DataServiceCollection<AnnouncementsItem>();
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    Private context As TeamSiteDataContext
+    Private myCollectionViewSource As CollectionViewSource
+    Private announcements As New DataServiceCollection(Of AnnouncementsItem)()
+    ```
+    ---
+
 11. Replace the `UserControl_Loaded` procedure with the following.
 
-    ```vb
-    Private Sub UserControl_Loaded_1(sender As Object, e As RoutedEventArgs)
-        ' The URL for the OData service.
-        ' Replace <server name> in the next line with the name of your SharePoint server.
-        context = New TeamSiteDataContext(New Uri("http://<server name>/_vti_bin/ListData.svc"))
-
-        ' Do not load your data at design time.
-        If Not System.ComponentModel.DesignerProperties.GetIsInDesignMode(Me) Then
-            'Load your data here and assign the results to the CollectionViewSource.
-            myCollectionViewSource =   DirectCast(Me.Resources("announcementsViewSource"), System.Windows.Data.CollectionViewSource)
-            announcements.LoadCompleted += New EventHandler(Of LoadCompletedEventArgs)(AddressOf announcements_LoadCompleted)
-            announcements.LoadAsync(context.Announcements)
-        End If
-    End Sub
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     private void UserControl_Loaded_1(object sender, RoutedEventArgs e)
     {
@@ -160,22 +151,29 @@ ms.workload:
     }
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    Private Sub UserControl_Loaded_1(sender As Object, e As RoutedEventArgs)
+        ' The URL for the OData service.
+        ' Replace <server name> in the next line with the name of your SharePoint server.
+        context = New TeamSiteDataContext(New Uri("http://<server name>/_vti_bin/ListData.svc"))
+
+        ' Do not load your data at design time.
+        If Not System.ComponentModel.DesignerProperties.GetIsInDesignMode(Me) Then
+            'Load your data here and assign the results to the CollectionViewSource.
+            myCollectionViewSource =   DirectCast(Me.Resources("announcementsViewSource"), System.Windows.Data.CollectionViewSource)
+            announcements.LoadCompleted += New EventHandler(Of LoadCompletedEventArgs)(AddressOf announcements_LoadCompleted)
+            announcements.LoadAsync(context.Announcements)
+        End If
+    End Sub
+    ```
+    ---
+
      Be sure to replace the *ServerName* placeholder with the name of your server that's running SharePoint.
 
 12. Add the following error-handling procedure.
 
-    ```vb
-    Private Sub announcements_LoadCompleted(sender As Object, e As LoadCompletedEventArgs)
-        ' Handle any errors.
-        If e.[Error] Is Nothing Then
-            myCollectionViewSource.Source = announcements
-        Else
-            MessageBox.Show(String.Format("ERROR: {0}", e.[Error].Message))
-        End If
-    End Sub
-
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     void announcements_LoadCompleted(object sender, LoadCompletedEventArgs e)
     {
@@ -190,6 +188,20 @@ ms.workload:
         }
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Private Sub announcements_LoadCompleted(sender As Object, e As LoadCompletedEventArgs)
+        ' Handle any errors.
+        If e.[Error] Is Nothing Then
+            myCollectionViewSource.Source = announcements
+        Else
+            MessageBox.Show(String.Format("ERROR: {0}", e.[Error].Message))
+        End If
+    End Sub
+
+    ```
+    ---
 
 ## Modify the Silverlight web part
  Change a property in the Silverlight web part project to enable Silverlight debugging.

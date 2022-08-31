@@ -25,17 +25,19 @@ Gets the rank or number of dimensions of the array.
 
 ## Syntax
 
-```cpp
-HRESULT GetRank( 
-   DWORD* pdwRank
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetRank(
    out uint pdwRank
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetRank( 
+   DWORD* pdwRank
+);
+```
+---
 
 ## Parameters
 `pdwRank`\

@@ -25,17 +25,19 @@ Gets the type of element in the array.
 
 ## Syntax
 
-```cpp
-HRESULT GetElementType( 
-   IDebugField** ppType
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetElementType(
    out IDebugField ppType
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetElementType( 
+   IDebugField** ppType
+);
+```
+---
 
 ## Parameters
 `ppType`\

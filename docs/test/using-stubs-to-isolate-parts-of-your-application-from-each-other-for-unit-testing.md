@@ -38,6 +38,7 @@ To use stubs, your application has to be designed so that the different componen
 
 Let's start this discussion with a motivating example, the one in the diagram. The class StockAnalyzer reads share prices and generates some interesting results. It has some public methods, which we want to test. To keep things simple, let's just look at one of those methods, a very simple one that reports the current price of a particular share. We want to write a unit test of that method. Here's the first draft of a test:
 
+### [C#](#tab/csharp)
 ```csharp
 [TestMethod]
 public void TestMethod1()
@@ -51,6 +52,7 @@ public void TestMethod1()
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 <TestMethod()> Public Sub TestMethod1()
     ' Arrange:
@@ -61,11 +63,13 @@ public void TestMethod1()
     Assert.AreEqual(123, result) ' Why 123?
 End Sub
 ```
+---
 
 One problem with this test is immediately obvious: share prices vary, and so the assertion will usually fail.
 
 Another problem might be that the StockFeed component, which is used by the StockAnalyzer, is still under development. Here's the first draft of the code of the method under test:
 
+### [C#](#tab/csharp)
 ```csharp
 public int GetContosoPrice()
 {
@@ -74,12 +78,14 @@ public int GetContosoPrice()
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 Public Function GetContosoPrice()
     Dim stockFeed = New StockFeed() ' NOT RECOMMENDED
     Return stockFeed.GetSharePrice("COOO")
 End Function
 ```
+---
 
 As it stands, this method might not compile or might throw an exception because work on the StockFeed class is not yet complete. Interface injection addresses both of these problems. Interface injection applies the following rule:
 
@@ -91,6 +97,7 @@ The code of any component of your application should never explicitly refer to a
 
 You can decouple the StockAnalyzer code from the StockFeed by using an interface like this:
 
+### [C#](#tab/csharp)
 ```csharp
 public interface IStockFeed
 {
@@ -111,6 +118,7 @@ public class StockAnalyzer
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 Public Interface IStockFeed
     Function GetSharePrice(company As String) As Integer
@@ -127,6 +135,7 @@ Public Class StockAnalyzer
     End Function
 End Class
 ```
+---
 
 In this example, StockAnalyzer is passed an implementation of an IStockFeed when it is constructed. In the completed application, the initialization code would perform the connection:
 
@@ -148,9 +157,9 @@ To use stubs, you must first generate stub types from the interface definitions.
 
 1. In **Solution Explorer**, 
     - For an older .NET Framework Project (non-SDK style), expand your unit test project's **References** node.
-    ::: moniker range=">=vs-2019"
+
     - For an SDK-style project targeting .NET Framework, .NET Core, or .NET 5.0 and later, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies**, **Projects**, or **Packages**.
-    ::: moniker-end
+
     - If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar to see the **References** node.
 
 2. Select the assembly that contains the class definitions for which you want to create shims. For example, if you want to shim **DateTime**, select **System.dll**.
@@ -159,6 +168,7 @@ To use stubs, you must first generate stub types from the interface definitions.
 
 ### Write your test with stubs
 
+### [C#](#tab/csharp)
 ```csharp
 [TestClass]
 class TestStockAnalyzer
@@ -190,6 +200,7 @@ class TestStockAnalyzer
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 <TestClass()> _
 Class TestStockAnalyzer
@@ -213,6 +224,7 @@ Class TestStockAnalyzer
     End Sub
 End Class
 ```
+---
 
 The special piece of magic here is the class `StubIStockFeed`. For every public type in the referenced assembly, the Microsoft Fakes mechanism generates a stub class. The name of the stub class is the derived from the name of the interface, with "`Fakes.Stub`" as a prefix, and the parameter type names appended.
 
@@ -222,6 +234,7 @@ Stubs are also generated for the getters and setters of properties, for events, 
 
 You can verify that when your component makes a call to another component, it passes the correct values. You can either place an assertion in the stub, or you can store the value and verify it in the main body of the test. For example:
 
+### [C#](#tab/csharp)
 ```csharp
 [TestClass]
 class TestMyComponent
@@ -257,6 +270,7 @@ class TestMyComponent
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 <TestClass()> _
 Class TestMyComponent
@@ -291,6 +305,7 @@ Class TestMyComponent
 ...
 End Class
 ```
+---
 
 ## Stubs for different kinds of type members
 

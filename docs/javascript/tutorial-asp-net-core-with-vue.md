@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: In this tutorial, you create an app using ASP.NET Core and Vue
-ms.date: 03/15/2022
+ms.date: 08/17/2022
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -27,12 +27,9 @@ Starting in Visual Studio 2022 Preview 2, you can use the method described in th
 - Put the client app in a separate project, outside from the ASP.NET Core project
 - Create the client project based on the framework CLI installed on your computer
 
-> [!NOTE]
-> Currently, the front-end project must be published manually (not currently supported with the Publish tool). For additional information, see [https://github.com/MicrosoftDocs/visualstudio-docs/issues/7135](https://github.com/MicrosoftDocs/visualstudio-docs/issues/7135).
-
 ## Prerequisites
 
-Make sure to have the following installed:
+Make sure to install the following:
 
 - Visual Studio 2022 Preview 2 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
@@ -41,7 +38,7 @@ Make sure to have the following installed:
 
 ## Create the frontend app
 
-1. In the New Project Dialog, select **Create a new project**. 
+1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**. 
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Create a new project":::
 
@@ -62,9 +59,9 @@ Once the project is created, you see some new and modified files:
 
 ## Create the backend app
 
-1. In Solution Explorer, right-click the solution name, hover over **Add**, and then select **New Project**. 
+1. In Solution Explorer, right-click the solution name, hover over **Add**, and then select **New Project**.
 
-   :::image type="content" source="media/vs-2022/asp-net-core-add-project.png" alt-text="Add a new project":::
+   :::image type="content" source="media/vs-2022/asp-net-core-with-vue-add-project.png" alt-text="Add a new project":::
 
 1. Search and select the ASP.NET Core Web API project.
  
@@ -106,7 +103,7 @@ Once the project is created, you see some new and modified files:
 
 ## Set the startup project
 
-1. Right-click the solution and select **Set Startup Project**. Change the startup project from Single startup project to **Multiple startup projects**. Select **Start** for each project’s action.
+1. In Solution Explorer, right-click the solution name and select **Set Startup Project**. Change the startup project from Single startup project to **Multiple startup projects**. Select **Start** for each project’s action.
   
 1. Next, select the backend project and move it above the frontend, so that it starts up first.
 
@@ -132,7 +129,40 @@ Once the project is created, you see some new and modified files:
    >[!NOTE]
    > Check console output for messages, such as a message instructing you to update your version of Node.js.
 
-You should see the Vue app appear, that is populated via the API.
+You should see the Vue app appear, that is populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
+
+## Publish the project
+
+Starting in Visual Studio 2022 version 17.3, you can publish the integrated solution using the Visual Studio Publish tool.
+
+>[!NOTE]
+> To use publish, create your JavaScript project using Visual Studio 2022 version 17.3 or later.
+
+1. In Solution Explorer, right-click the ASP.NET Core project and choose **Add** > **Project Reference**.
+
+1. Select the Vue project and choose **OK**.
+
+1. Right-click the ASP.NET Core project in Solution Explorer and choose **Unload project**.
+
+   This opens the *.csproj* file for the project.
+
+1. In the *.csproj* file, update the project reference and add `<ReferenceOutputAssembly>` with the value set to `false`.
+
+   When you've updated the reference, it should look like this (substituting your own project folder and project name).
+
+   ```xml
+   <ProjectReference Include="..\vueprojectfolder\vueprojectname.esproj">
+       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+   </ProjectReference>
+   ```
+
+1. Right-click the ASP.NET Core project and choose **Reload Project**.
+
+1. To publish, right click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, et al.
+
+   The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run build` command gets invoked when publishing.
+
+   You can modify the `npm run build` command using the **Production Build Command** in the Vue project properties. To modify it, right-click the Vue project in Solution Explorer and choose **Properties**.
 
 ## Troubleshooting
 

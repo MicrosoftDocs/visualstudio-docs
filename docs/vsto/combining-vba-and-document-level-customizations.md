@@ -55,10 +55,7 @@ ms.workload:
 
   The following code example shows how to call a macro named `MyMacro` from a document-level project for Excel. This example assumes that `MyMacro` is defined in `Sheet1`.
 
-```vb
-Globals.Sheet1.Application.Run("MyMacro")
-```
-
+### [C#](#tab/csharp)
 ```csharp
 Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
     missing, missing, missing, missing, missing, missing, missing,
@@ -66,6 +63,12 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
     missing, missing, missing, missing, missing, missing, missing,
     missing, missing, missing, missing, missing, missing);
 ```
+
+### [VB](#tab/vb)
+```vb
+Globals.Sheet1.Application.Run("MyMacro")
+```
+---
 
 > [!NOTE]
 > For information about using the global `missing` variable in place of optional parameters in Visual C#, see [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md).

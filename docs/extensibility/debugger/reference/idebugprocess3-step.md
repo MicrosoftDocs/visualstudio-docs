@@ -28,14 +28,7 @@ Causes the process to step one instruction or statement.
 
 ## Syntax
 
-```cpp
-HRESULT Step(
-   IDebugThread2* pThread,
-   STEPKIND       sk,
-   STEPUNIT       step,
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Step(
    IDebugThread2 pThread,
@@ -43,6 +36,15 @@ int Step(
    enum_STEPUNIT step
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Step(
+   IDebugThread2* pThread,
+   STEPKIND       sk,
+   STEPUNIT       step,
+);
+```
+---
 
 ## Parameters
 `pThread`\

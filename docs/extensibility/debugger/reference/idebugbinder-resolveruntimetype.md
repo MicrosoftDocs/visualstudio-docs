@@ -25,19 +25,21 @@ This method determines the run-time type of an object.
 
 ## Syntax
 
-```cpp
-HRESULT ResolveRuntimeType( 
-   IDebugObject* pObject,
-   IDebugField** ppResolved
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ResolveRuntimeType(
    IDebugObject     pObject,
    out IDebugField  ppResolved
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ResolveRuntimeType( 
+   IDebugObject* pObject,
+   IDebugField** ppResolved
+);
+```
+---
 
 ## Parameters
 `pObject`\

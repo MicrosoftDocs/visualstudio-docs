@@ -25,15 +25,17 @@ Requests that all programs being debugged by this debug engine (DE) to stop exec
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int CauseBreak();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT CauseBreak( 
    void 
 );
 ```
-
-```csharp
-int CauseBreak();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

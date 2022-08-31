@@ -25,15 +25,7 @@ This structure represents a return value from a method or function.
 
 ## Syntax
 
-```cpp
-typedef struct _tagMETADATA_ADDRESS_RETVAL {
-   _mdToken tokMethod;
-   DWORD    dwCorType;
-   DWORD    dwSigSize;
-   BYTE     rgSig[10];
-} METADATA_ADDRESS_RETVAL;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct METADATA_ADDRESS_RETVAL {
    public int    tokMethod;
@@ -42,6 +34,16 @@ public struct METADATA_ADDRESS_RETVAL {
    public byte[] rgSig;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagMETADATA_ADDRESS_RETVAL {
+   _mdToken tokMethod;
+   DWORD    dwCorType;
+   DWORD    dwSigSize;
+   BYTE     rgSig[10];
+} METADATA_ADDRESS_RETVAL;
+```
+---
 
 ## Members
  `tokMethod`\

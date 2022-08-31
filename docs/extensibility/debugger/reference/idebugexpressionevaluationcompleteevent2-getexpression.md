@@ -27,17 +27,19 @@ Gets the original expression.
 
 ## Syntax
 
-```cpp
-HRESULT GetExpression( 
-   IDebugExpression2** ppExpr
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetExpression( 
    out IDebugExpression2 ppExpr
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetExpression( 
+   IDebugExpression2** ppExpr
+);
+```
+---
 
 ## Parameters
 `ppExpr`\

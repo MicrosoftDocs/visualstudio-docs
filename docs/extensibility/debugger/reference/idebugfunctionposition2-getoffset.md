@@ -25,17 +25,19 @@ Retrieves the position of the function in the source document.
 
 ## Syntax
 
-```cpp
-HRESULT GetOffset( 
-   TEXT_POSITION* pPosition
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetOffset(
    TEXT_POSITION[] pPosition
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetOffset( 
+   TEXT_POSITION* pPosition
+);
+```
+---
 
 ## Parameters
 `pPosition`\

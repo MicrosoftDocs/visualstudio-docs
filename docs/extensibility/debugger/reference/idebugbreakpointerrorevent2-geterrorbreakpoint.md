@@ -25,17 +25,19 @@ Gets an [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebu
 
 ## Syntax
 
-```cpp
-HRESULT GetErrorBreakpoint( 
-    IDebugErrorBreakpoint2** ppErrorBP
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetErrorBreakpoint( 
     out IDebugErrorBreakpoint2 ppErrorBP
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetErrorBreakpoint( 
+    IDebugErrorBreakpoint2** ppErrorBP
+);
+```
+---
 
 ## Parameters
 `ppErrorBP`\

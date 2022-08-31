@@ -26,17 +26,19 @@ Gets the breakpoint resolution that describes this breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT GetBreakpointResolution( 
-    IDebugBreakpointResolution2** ppBPResolution
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetBreakpointResolution( 
     out IDebugBreakpointResolution2 ppBPResolution
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetBreakpointResolution( 
+    IDebugBreakpointResolution2** ppBPResolution
+);
+```
+---
 
 ## Parameters
 `ppBPResolution`\

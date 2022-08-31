@@ -162,8 +162,6 @@ Here are a few examples of how to create a custom partial layout.
     ```shell
     vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --includeOptional
     ```
-    
-::: moniker range=">=vs-2019"
 
 ### Ensure your layout is using the latest installer
 
@@ -177,7 +175,6 @@ We recommend that you always use the latest Visual Studio installer in your layo
     vs_enterprise.exe --layout C:\VSLayout --useLatestInstaller
     ```
 
-::: moniker-end
 
 ### Copy the layout to a network share
 
@@ -278,13 +275,11 @@ vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.Net
  >
  > To get these new components installed on the client machine, make sure you do these three steps. First, verify that the layout contains the new components as described above. Next, update your client to the latest bits in the layout. Finally, again on the client, run a modify operation which will install the new components (that were added to the layout) onto the client machine.
 
-::: moniker range=">=vs-2019"
 
 ### Configure the layout to always include and provide the latest installer
 
 You can configure your layout to _always_ include and provide the latest installer to your clients, even if the installer is considered a part of a more recent version of Visual Studio. Thus, when your client updates from this layout, the client will acquire the latest installer that's included and provided by this layout. The benefit is that once the latest installer is on your client, your client installations will be able to take advantage of the bug fixes and new functionality that we continue to add to the installer. 
 
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -293,7 +288,6 @@ You can configure your layout to _always_ include and provide the latest install
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
 
 There are two ways to enable your layout to include and provide the latest installer:
 
@@ -323,7 +317,6 @@ There is no way to programmatically remove this setting in the layout.json file,
 
 Note that you may find this `"UseLatestInstaller": true` setting in the layout's response.json file too, but it is ignored there. The [response.json file is used to set default configuration options on the _client_ when the client installs or updates from a layout](automated-installation-with-response-file.md). This particular `"useLatestInstaller": true` setting is used to ensure that the contents of the _layout_ contain the latest installer, so that the client machines can then acquire the latest installer from the layout.
 
-::: moniker-end
 
 ### Verify a layout
 
@@ -392,11 +385,9 @@ When you install from a layout, the content that is installed will default to be
 > [!IMPORTANT]
 > The `--noWeb` option does not stop the Visual Studio installer on an internet-connected client machine from _checking_ for updates if the client has been configured to look at Microsoft hosted servers for updates. Rather, `--noWeb` simply prevents the client from downloading the product packages. For more information, see the [Update a Visual Studio client that was installed from a network layout](update-a-network-installation-of-visual-studio.md) page.
 
-::: moniker range=">=vs-2019"
 
 If you get an error message that says "A product matching the following parameters cannot be found", make sure that you are using the `--noweb` switch.
 
-::: moniker-end
 
 ### Configure initial client installation defaults for this layout
 
@@ -409,7 +400,6 @@ For more information about how to customize and configure the default client set
 
 ### Configure enterprise deployment behavior
 
-::: moniker range=">=vs-2019"
 
 You can also control other enterprise deployment behavior, such as:
 
@@ -421,7 +411,6 @@ You can also control other enterprise deployment behavior, such as:
 
 Refer to [Set defaults for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md) for additional details.
 
-::: moniker-end
 
 
 ### Error codes

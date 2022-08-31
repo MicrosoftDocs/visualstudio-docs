@@ -25,14 +25,7 @@ This method maps a symbol name to a symbol type.
 
 ## Syntax
 
-```cpp
-HRESULT GetTypeByName( 
-   LPCOLESTR     pszClassName,
-   NAME_MATCH    nameMatch,
-   IDebugField** ppField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetTypeByName(
    string          pszClassName,
@@ -40,6 +33,15 @@ int GetTypeByName(
    out IDebugField ppField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetTypeByName( 
+   LPCOLESTR     pszClassName,
+   NAME_MATCH    nameMatch,
+   IDebugField** ppField
+);
+```
+---
 
 ## Parameters
 `pszClassName`\

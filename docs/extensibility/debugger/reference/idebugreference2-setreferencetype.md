@@ -25,17 +25,19 @@ Sets the reference type. Reserved for future use.
 
 ## Syntax
 
-```cpp
-HRESULT SetReferenceType ( 
-   REFERENCE_TYPE dwRefType
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetReferenceType ( 
    enum_REFERENCE_TYPE dwRefType
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetReferenceType ( 
+   REFERENCE_TYPE dwRefType
+);
+```
+---
 
 ## Parameters
 `dwRefType`\

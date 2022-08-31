@@ -23,14 +23,7 @@ Describes an array of unique identifiers for available debug engines.
 
 ## Syntax
 
-```cpp
-typedef struct tagGUID_ARRAY
-{
-    DWORD dwCount;
-    GUID *Members;
-} GUID_ARRAY;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct GUID_ARRAY
 {
@@ -38,6 +31,15 @@ public struct GUID_ARRAY
     public Guid Members;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagGUID_ARRAY
+{
+    DWORD dwCount;
+    GUID *Members;
+} GUID_ARRAY;
+```
+---
 
 ## Members
 `dwCount`\

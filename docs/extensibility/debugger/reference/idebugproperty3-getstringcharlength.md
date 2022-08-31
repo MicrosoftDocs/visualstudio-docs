@@ -25,17 +25,19 @@ Returns the number of characters in the associated property's string.
 
 ## Syntax
 
-```cpp
-HRESULT GetStringCharLength(
-    ULONG *pLen
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetStringCharLength(
     out uint pLen
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetStringCharLength(
+    ULONG *pLen
+);
+```
+---
 
 ## Parameters
 

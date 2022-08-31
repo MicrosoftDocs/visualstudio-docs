@@ -25,17 +25,19 @@ Gets the size, in bytes, of the property value.
 
 ## Syntax
 
-```cpp
-HRESULT GetSize ( 
-   DWORD* pdwSize
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSize ( 
    out uint pdwSize
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSize ( 
+   DWORD* pdwSize
+);
+```
+---
 
 ## Parameters
 `pdwSize`\

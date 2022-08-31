@@ -25,17 +25,19 @@ This method sets the debug engine's (DE) `GUID`.
 
 ## Syntax
 
-```cpp
-HRESULT SetEngineGuid(
-   GUID* guidEngine
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetEngineGuid(
    ref Guid guidEngine
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetEngineGuid(
+   GUID* guidEngine
+);
+```
+---
 
 ## Parameters
 `guidEngine`\

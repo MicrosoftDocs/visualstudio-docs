@@ -44,8 +44,12 @@ This tutorial builds on a previous tutorial, [Create a math quiz WinForms app](t
 
 1. Create a <xref:System.Random> object by adding a `new` statement near the top of the code.
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs" id="Snippet1":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb" id="Snippet1":::
+   ---
 
    [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
 
@@ -62,20 +66,32 @@ This tutorial builds on a previous tutorial, [Create a math quiz WinForms app](t
 
    You use similar syntax to add an integer variable as you did to add the Random object, as the following code shows.
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs" id="Snippet2":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb" id="Snippet2":::
+   ---
 
 1. Add a method that's named `StartTheQuiz()`. This method uses the Random object's <xref:System.Random.Next> method to generate random numbers for the labels. `StartTheQuiz()` will eventually fill in all the problems and then start the timer, so add this information to the summary comment. The function should look like the following code.
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs" id="Snippet3":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb" id="Snippet3":::
+   ---
 
    When you use the `Next()` method with a Random object, such as when you call `randomizer.Next(51)`, you get a random number that's less than 51, or between 0 and 50. This code calls `randomizer.Next(51)` so that the two random numbers add up to an answer that's between 0 and 100.
 
    Take a closer look at these statements.
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs" id="Snippet18":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb" id="Snippet18":::
+   ---
 
    These statements set the **Text** properties of **plusLeftLabel** and **plusRightLabel** so that they display the two random numbers. Label controls display values in text format, and in programming, strings hold text. Each integer's `ToString()` method converts the integer into text that a label can display.
 
@@ -85,13 +101,21 @@ The next step is to declare variables and provide random values for the other ma
 
 1. Add integer variables for the remaining math problems to your form, after the addition problem variables. The code should look like the following sample.
 
-   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step7/vb/form1.vb" range="2-27":::
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step7/cs/form1.cs" range="14-38":::
+
+   ### [VB](#tab/vb)
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step7/vb/form1.vb" range="2-27":::
+   ---
 
 1. Modify the `StartTheQuiz()` method by adding the following code, starting with the "Fill in the subtraction problem" comment.
 
-   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step7/vb/form1.vb" range="35-79":::
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step7/cs/form1.cs" range="51-94":::
+
+   ### [VB](#tab/vb)
+   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step7/vb/form1.vb" range="35-79":::
+   ---
 
    This code uses the <xref:System.Random.Next> method of the <xref:System.Random> class a little differently from how the addition problem does. When you give the `Next()` method two values, it picks a random number that's greater than or equal to the first value and less than the second one.
 
@@ -107,8 +131,12 @@ In this section, you add code to start the quiz when the start button is selecte
 
 1. Add the following two statements so that the event handler starts the quiz.
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs" id="Snippet4":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb" id="Snippet4":::
+   ---
 
    The first statement calls the new `StartTheQuiz()` method. The second statement sets the **Enabled** property of the **startButton** control to `false` so that the quiz taker can't select the button during a quiz.
 

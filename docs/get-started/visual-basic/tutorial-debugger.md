@@ -34,11 +34,9 @@ In this tutorial, you will:
 
 ## Prerequisites
 
-::: moniker range=">=vs-2019"
 
 You must have Visual Studio 2019 installed and the **.NET Core cross-platform development** workload.
 
-::: moniker-end
 
 
 

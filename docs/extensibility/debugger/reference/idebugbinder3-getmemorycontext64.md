@@ -24,14 +24,7 @@ Converts either an object location or a 64-bit memory address to a memory contex
 
 ## Syntax
 
-```cpp
-HRESULT GetMemoryContext64 (
-    IDebugField*           pField,
-    UINT64                 uConstant,
-    IDebugMemoryContext2** ppMemCxt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMemoryContext64 (
     IDebugField              pField,
@@ -39,6 +32,15 @@ int GetMemoryContext64 (
     out IDebugMemoryContext2 ppMemCxt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMemoryContext64 (
+    IDebugField*           pField,
+    UINT64                 uConstant,
+    IDebugMemoryContext2** ppMemCxt
+);
+```
+---
 
 ## Parameters
 `pField`\

@@ -26,15 +26,17 @@ Deletes this pending breakpoint and all breakpoints bound from it.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Delete();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Delete(
     void
 );
 ```
-
-```csharp
-int Delete();
-```
+---
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_BP_DELETED` if the breakpoint has been deleted.

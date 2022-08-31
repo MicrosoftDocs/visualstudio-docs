@@ -25,19 +25,21 @@ Gets the name and GUID of the debug engine (DE) running this program.
 
 ## Syntax
 
-```cpp
-HRESULT GetEngineInfo( 
-   BSTR* pbstrEngine,
-   GUID* pguidEngine
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetEngineInfo( 
    out string pbstrEngine,
    out GUID   pguidEngine
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEngineInfo( 
+   BSTR* pbstrEngine,
+   GUID* pguidEngine
+);
+```
+---
 
 ## Parameters
 `pbstrEngine`\

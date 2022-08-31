@@ -25,17 +25,19 @@ Removes a specified program node from availability to debug engines (DEs) and th
 
 ## Syntax
 
-```cpp
-HRESULT UnpublishProgramNode(
-   IDebugProgramNode2* pProgramNode
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int UnpublishProgramNode(
    IDebugProgramNode2 pProgramNode
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT UnpublishProgramNode(
+   IDebugProgramNode2* pProgramNode
+);
+```
+---
 
 ## Parameters
 `pProgramNode`\

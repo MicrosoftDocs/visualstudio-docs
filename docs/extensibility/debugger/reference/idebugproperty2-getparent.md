@@ -25,17 +25,19 @@ Gets the parent property of a property.
 
 ## Syntax
 
-```cpp
-HRESULT GetParent ( 
-   IDebugProperty2** ppParent
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetParent ( 
    out IDebugProperty2 ppParent
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetParent ( 
+   IDebugProperty2** ppParent
+);
+```
+---
 
 ## Parameters
 `ppParent`\

@@ -88,8 +88,12 @@ ms.workload:
 
 3. Replace all of the code in Class1 with the following:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/announcementbackup/class1.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/announcementbackupvb/class1.vb" id="Snippet1":::
+     ---
 
 4. Save the project, and then, on the menu bar, choose **Build** > **Build Solution**.
 

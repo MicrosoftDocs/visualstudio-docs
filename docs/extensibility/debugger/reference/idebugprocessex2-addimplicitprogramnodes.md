@@ -25,14 +25,7 @@ This method adds a program node for each debug engine (DE) specified.
 
 ## Syntax
 
-```cpp
-HRESULT AddImplicitProgramNodes(
-   REFGUID guidLaunchingEngine,
-   GUID*   rgguidSpecificEngines,
-   DWORD   celtSpecificEngines
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int AddImplicitProgramNodes(
    ref Guid guidLaunchingEngine,
@@ -40,6 +33,15 @@ int AddImplicitProgramNodes(
    uint     celtSpecificEngines
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT AddImplicitProgramNodes(
+   REFGUID guidLaunchingEngine,
+   GUID*   rgguidSpecificEngines,
+   DWORD   celtSpecificEngines
+);
+```
+---
 
 ## Parameters
 `guidLaunchingEngine`\

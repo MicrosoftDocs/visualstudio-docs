@@ -13,7 +13,6 @@ ms.topic: reference
 
 In the *Properties* folder in an ASP.NET Core project, you can find the launchSettings.json file, which contains settings that control how your web app is started on your development machine. For detailed information on how this file is used in ASP.NET development, see [Use multiple environments in ASP.NET Core](/aspnet/core/fundamentals/environments?view=aspnetcore-2.2&preserve-view=true). In *launchSettings.json*, the settings in the **Docker** section are related to how Visual Studio handles containerized apps.
 
-::: moniker range=">=vs-2019"
 
 ```json
     "Docker": {
@@ -31,7 +30,6 @@ In the *Properties* folder in an ASP.NET Core project, you can find the launchSe
     }
 ```
 
-::: moniker-end
 
 The commandName setting identifies that this section applies to Container Tools. The following table shows the properties that can be set in this section:
 
@@ -66,6 +64,7 @@ The commandName setting identifies that this section applies to Container Tools.
 | launchBrowser        | "launchBrowser": true                                 | Indicates whether to launch the browser after successfully launching the project.                                       |
 | launchBrowserTimeout | "launchBrowserTimeout": 1                             | The maximum amount of time (in seconds) to wait for the app to be ready before launching the browser. |
 | launchUrl            | "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}" | This URL is used when launching the browser. Supported replacement tokens for this string are: <br/><br/> - {Scheme} - Replaced with either "http" or "https" depending on whether SSL is used. <br/><br/> - {ServiceHost} - Usually replaced with "localhost". <br/> When targeting Windows containers on Windows 10 RS3 or older, though, it is replaced with the container's IP. <br/><br/> - {ServicePort} - Usually replaced with either sslPort or httpPort, depending on whether SSL is used. <br/> When targeting Windows containers on Windows 10 RS3 or older, though, it is replaced with either "443" or "80", depending on whether SSL is used. |
+| publishAllPorts    | "publishAllPorts": true                                 | If true, pass `-P` to `docker run` which will publish all exposed ports to a random port. See [Docker documentation](https://docs.docker.com/engine/reference/commandline/run/). However, when you specify `sslPort`, Visual Studio still passes `-p 5002:443`, so your service should still be listening on port 5002.|
 | sslPort              | "sslPort": 44381                                      | This port on the host is mapped to the container's port 443 when launching the container. |
 | useSSL               | "useSSL": true                                        | Indicates whether to use SSL when launching the project. If useSSL is not specified, then SSL is used when sslPort > 0. |
 

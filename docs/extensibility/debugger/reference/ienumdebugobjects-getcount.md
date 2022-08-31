@@ -25,17 +25,19 @@ This method returns the number of elements in the enumeration.
 
 ## Syntax
 
-```cpp
-HRESULT GetCount(
-   [out] ULONG* pcelt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCount(
    out uint pcelt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCount(
+   [out] ULONG* pcelt
+);
+```
+---
 
 ## Parameters
 `pcelt`\

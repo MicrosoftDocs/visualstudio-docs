@@ -25,19 +25,21 @@ This method returns the value associated with the name of an enumeration constan
 
 ## Syntax
 
-```cpp
-HRESULT GetValueFromString(
-   LPCOLESTR  pszValue,
-   ULONGLONG* pvalue
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetValueFromString(
    string    pszValue,
    out ulong pValue
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetValueFromString(
+   LPCOLESTR  pszValue,
+   ULONGLONG* pvalue
+);
+```
+---
 
 ## Parameters
 `pszValue`\

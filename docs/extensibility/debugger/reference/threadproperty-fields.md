@@ -25,6 +25,19 @@ Specifies what information about a thread is to be retrieved.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_THREADPROPERTY_FIELDS { 
+   TPF_ID           = 0x0001,
+   TPF_SUSPENDCOUNT = 0x0002,
+   TPF_STATE        = 0x0004,
+   TPF_PRIORITY     = 0x0008,
+   TPF_NAME         = 0x0010,
+   TPF_LOCATION     = 0x0020,
+   TPF_ALLFIELDS    = 0xffffffff
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_THREADPROPERTY_FIELDS { 
    TPF_ID           = 0x0001,
@@ -37,18 +50,7 @@ enum enum_THREADPROPERTY_FIELDS { 
 };
 typedef DWORD THREADPROPERTY_FIELDS;
 ```
-
-```csharp
-public enum enum_THREADPROPERTY_FIELDS { 
-   TPF_ID           = 0x0001,
-   TPF_SUSPENDCOUNT = 0x0002,
-   TPF_STATE        = 0x0004,
-   TPF_PRIORITY     = 0x0008,
-   TPF_NAME         = 0x0010,
-   TPF_LOCATION     = 0x0020,
-   TPF_ALLFIELDS    = 0xffffffff
-};
-```
+---
 
 ## Fields
  `TPF_ID`\

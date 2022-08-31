@@ -40,7 +40,7 @@ The CommandPlacement element enables buttons, groups, and menus to be included i
 |guid|Required. The guid of the command set, as defined in the [Symbols element](../extensibility/symbols-element.md).|
 |id|Required. The id of the menu, group, or command to be placed, as defined in the `Symbols Element`.|
 |priority|Required. Determines the visual position of the item in its parent element.|
-|Condition|Optional. See [Conditional Aattributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|
+|Condition|Optional. See [Conditional Attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|
 
 ### Child elements
 

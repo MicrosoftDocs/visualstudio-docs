@@ -23,15 +23,7 @@ Describes the computer on which the debugger is running.
 
 ## Syntax
 
-```cpp
-typedef struct tagCOMPUTER_INFO
-{
-    WORD wProcessorArchitecture;
-    WORD wSuiteMask;
-    DWORD dwOperatingSystemVersion;
-} COMPUTER_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct COMPUTER_INFO
 {
@@ -40,6 +32,16 @@ public struct COMPUTER_INFO
     public uint dwOperatingSystemVersion;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagCOMPUTER_INFO
+{
+    WORD wProcessorArchitecture;
+    WORD wSuiteMask;
+    DWORD dwOperatingSystemVersion;
+} COMPUTER_INFO;
+```
+---
 
 ## Members
 `wProcessorArchitecture`\

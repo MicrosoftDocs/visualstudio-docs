@@ -25,17 +25,7 @@ Retrieves information about the viewer for this property type in order to instan
 
 ## Syntax
 
-```cpp
-HRESULT GetManagedViewerCreationData(
-   BSTR*                  assemName,
-   IEEDataStorage**       assemBytes,
-   IEEDataStorage**       assemPdb,
-   BSTR*                  className,
-   ASSEMBLYLOCRESOLUTION* alr,
-   BOOL*                  replacementOk
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetManagedViewerCreationData(
    out string                     assemName,
@@ -46,6 +36,18 @@ int GetManagedViewerCreationData(
    out int                        replacementOk
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetManagedViewerCreationData(
+   BSTR*                  assemName,
+   IEEDataStorage**       assemBytes,
+   IEEDataStorage**       assemPdb,
+   BSTR*                  className,
+   ASSEMBLYLOCRESOLUTION* alr,
+   BOOL*                  replacementOk
+);
+```
+---
 
 ## Parameters
 `assemName`\

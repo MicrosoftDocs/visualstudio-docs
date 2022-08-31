@@ -25,19 +25,21 @@ Updates the object's data with the given data object and returns a new data obje
 
 ## Syntax
 
-```cpp
-HRESULT InPlaceUpdateObject(
-   [in] IEEDataStorage*   dataIn,
-   [out] IEEDataStorage** dataOut
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int InPlaceUpdateObject(
    IEEDataStorage     dataIn,
    out IEEDataStorage dataOut
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT InPlaceUpdateObject(
+   [in] IEEDataStorage*   dataIn,
+   [out] IEEDataStorage** dataOut
+);
+```
+---
 
 ## Parameters
 `dataIn`\

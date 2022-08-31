@@ -47,13 +47,7 @@ By default, after you separate the dataset and TableAdapter code, the result is 
 
      The following example shows where to add code to the CustomersDataTable in the NorthwindDataSet:
 
-    ```vb
-    Partial Public Class CustomersDataTable
-        ' Add code here to add functionality
-        ' to the CustomersDataTable.
-    End Class
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     partial class CustomersDataTable
     {
@@ -61,6 +55,15 @@ By default, after you separate the dataset and TableAdapter code, the result is 
         // to the CustomersDataTable.
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Partial Public Class CustomersDataTable
+        ' Add code here to add functionality
+        ' to the CustomersDataTable.
+    End Class
+    ```
+    ---
 
 ## See also
 

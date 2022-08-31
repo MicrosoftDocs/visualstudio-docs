@@ -27,15 +27,17 @@ dev_langs:
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int DetachDebugger_V7 ();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT DetachDebugger_V7 (
    void 
 );
 ```
-
-```csharp
-int DetachDebugger_V7 ();
-```
+---
 
 ## Return Value
 

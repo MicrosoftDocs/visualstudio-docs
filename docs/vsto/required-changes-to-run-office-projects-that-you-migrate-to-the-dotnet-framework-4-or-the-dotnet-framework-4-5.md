@@ -49,13 +49,16 @@ ms.workload:
 
 3. Locate the <xref:System.Security.SecurityTransparentAttribute> and either remove it from the file or comment it out.
 
-    ```vb
-    <Assembly: SecurityTransparent()>
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     [assembly: SecurityTransparent()]
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    <Assembly: SecurityTransparent()>
+    ```
+    ---
 
 ## Perform the clean command to debug or run a project on the development computer
  If an Office project was built before the target framework of the project is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must perform a **Clean** command and then rebuild the project after the target framework is changed. If do not perform a **Clean** command, you will receive a <xref:System.Runtime.InteropServices.COMException> when you try to debug or run the retargeted project.

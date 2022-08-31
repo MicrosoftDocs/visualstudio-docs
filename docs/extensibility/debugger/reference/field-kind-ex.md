@@ -23,6 +23,16 @@ Enumerates additional kinds of fields that an [IDebugField](../../../extensibili
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_FIELD_KIND_EX
+{
+    FIELD_KIND_EX_NONE = 0,
+    FIELD_TYPE_EX_METHODVAR = 0x1,
+    FIELD_TYPE_EX_CLASSVAR = 0x2
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_FIELD_KIND_EX
 {
@@ -32,15 +42,7 @@ enum enum_FIELD_KIND_EX
 };
 typedef DWORD FIELD_KIND_EX;
 ```
-
-```csharp
-public enum enum_FIELD_KIND_EX
-{
-    FIELD_KIND_EX_NONE = 0,
-    FIELD_TYPE_EX_METHODVAR = 0x1,
-    FIELD_TYPE_EX_CLASSVAR = 0x2
-};
-```
+---
 
 ## Fields
 `FIELD_KIND_EX_NONE`\

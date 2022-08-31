@@ -25,17 +25,19 @@ This method compares this field with the specified field for equality.
 
 ## Syntax
 
-```cpp
-HRESULT Equal( 
-   IDebugField* pField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Equal(
    IDebugField pField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Equal( 
+   IDebugField* pField
+);
+```
+---
 
 ## Parameters
 `pField`\

@@ -23,17 +23,19 @@ This method queries for a specified property value of the debugging process.
 
 ## Syntax
 
-```cpp
-HRESULT QueryProperty(
-   PROCESS_PROPERTY_TYPE  dwPropType,
-   VARIANT               *pvarPropValue);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int QueryProperty(
    enum_PROCESS_PROPERTY_TYPE dwPropType,
    out object                 pvarPropValue);
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT QueryProperty(
+   PROCESS_PROPERTY_TYPE  dwPropType,
+   VARIANT               *pvarPropValue);
+```
+---
 
 ## Parameters
 `dwPropType`\

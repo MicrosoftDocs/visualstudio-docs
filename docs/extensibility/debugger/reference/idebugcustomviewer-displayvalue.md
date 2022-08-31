@@ -25,15 +25,7 @@ This method is called to display the specified value.
 
 ## Syntax
 
-```cpp
-HRESULT DisplayValue(
-   HWND             hwnd,
-   DWORD            dwID,
-   IUnknown *       pHostServices,
-   IDebugProperty3* pDebugProperty);
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int DisplayValue(
    IntPtr          hwnd,
@@ -42,6 +34,16 @@ int DisplayValue(
    IDebugProperty3 pDebugProperty
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT DisplayValue(
+   HWND             hwnd,
+   DWORD            dwID,
+   IUnknown *       pHostServices,
+   IDebugProperty3* pDebugProperty);
+);
+```
+---
 
 ## Parameters
 `hwnd`\

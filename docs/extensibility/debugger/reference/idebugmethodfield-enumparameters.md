@@ -25,17 +25,19 @@ Creates an enumerator for the parameters of the method.
 
 ## Syntax
 
-```cpp
-HRESULT EnumParameters( 
-   IEnumDebugFields** ppParams
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumParameters(
    out IEnumDebugFields ppParams
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumParameters( 
+   IEnumDebugFields** ppParams
+);
+```
+---
 
 ## Parameters
 `ppParams`\

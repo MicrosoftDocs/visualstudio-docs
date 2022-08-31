@@ -23,17 +23,19 @@ Sends the specified message string to the debugger's output window.
 
 ## Syntax
 
-```cpp
-HRESULT DisplayMessage (
-   LPCOLESTR szMessage
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int DisplayMessage (
    string szMessage
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT DisplayMessage (
+   LPCOLESTR szMessage
+);
+```
+---
 
 ## Parameters
 `szMessage`\

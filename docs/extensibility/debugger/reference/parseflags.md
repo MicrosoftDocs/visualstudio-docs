@@ -25,6 +25,15 @@ Specifies how to parse an expression.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_PARSEFLAGS { 
+   PARSE_EXPRESSION            = 0x0001,
+   PARSE_FUNCTION_AS_ADDRESS   = 0x0002,
+   PARSE_DESIGN_TIME_EXPR_EVAL = 0x1000
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_PARSEFLAGS { 
    PARSE_EXPRESSION            = 0x0001,
@@ -33,14 +42,7 @@ enum enum_PARSEFLAGS { 
 };
 typedef DWORD PARSEFLAGS;
 ```
-
-```csharp
-public enum enum_PARSEFLAGS { 
-   PARSE_EXPRESSION            = 0x0001,
-   PARSE_FUNCTION_AS_ADDRESS   = 0x0002,
-   PARSE_DESIGN_TIME_EXPR_EVAL = 0x1000
-};
-```
+---
 
 ## Fields
  `PARSE_EXPRESSION`\

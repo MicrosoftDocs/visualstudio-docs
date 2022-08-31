@@ -25,16 +25,7 @@ This method creates a visualizer service.
 
 ## Syntax
 
-```cpp
-HRESULT CreateVisualizerService(
-   IDebugBinder*              binder,
-   IDebugSymbolProvider*      pSymProv,
-   IDebugAddress*             pAddress,
-   IEEVisualizerDataProvider* dataProvider,
-   IEEVisualizerService**     ppService
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateVisualizerService(
    IDebugBinder binder,
@@ -44,6 +35,17 @@ int CreateVisualizerService(
    out IEEVisualizerService  ppService
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateVisualizerService(
+   IDebugBinder*              binder,
+   IDebugSymbolProvider*      pSymProv,
+   IDebugAddress*             pAddress,
+   IEEVisualizerDataProvider* dataProvider,
+   IEEVisualizerService**     ppService
+);
+```
+---
 
 ## Parameters
 `binder`\

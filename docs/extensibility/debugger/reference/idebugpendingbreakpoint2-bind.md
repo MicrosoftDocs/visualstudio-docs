@@ -26,15 +26,17 @@ Binds this pending breakpoint to one or more code locations.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Bind();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Bind( 
    void 
 );
 ```
-
-```csharp
-int Bind();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_BP_DELETED` if the breakpoint has been deleted.

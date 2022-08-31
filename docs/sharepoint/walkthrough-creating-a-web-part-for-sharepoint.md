@@ -85,8 +85,12 @@ You can specify which controls you want to appear in the Web Part by adding them
 
 2. Add the following directives to the top of the Web Part code file.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb" id="Snippet1":::
+     ---
 
 3. Add the following code to the `WebPart1` class. This code declares the following fields:
 
@@ -98,13 +102,21 @@ You can specify which controls you want to appear in the Web Part by adding them
 
    - A string that contains the path of the employee data file.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb" id="Snippet2":::
+     ---
 
 4. Add the following code to the `WebPart1` class. This code adds a custom property named `DataFilePath` to the Web Part. A custom property is a property that can be set in SharePoint by the user. This property gets and sets the location of a XML data file that is used to populate the data grid.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb" id="Snippet3":::
+     ---
 
 5. Replace the `CreateChildControls` method with the following code. This code performs the following tasks:
 
@@ -112,8 +124,12 @@ You can specify which controls you want to appear in the Web Part by adding them
 
    - Binds the data grid to an XML file that contains employee data.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs" id="Snippet4":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb" id="Snippet4":::
+     ---
 
 6. Add the following method to the `WebPart1` class. This code performs the following tasks:
 
@@ -121,8 +137,12 @@ You can specify which controls you want to appear in the Web Part by adding them
 
    - Handles the event that is raised when the user chooses the verb in the verbs menu. This code filters the list of employees that appears in the data grid.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs" id="Snippet5":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb" id="Snippet5":::
+     ---
 
 ## Test the web part
 

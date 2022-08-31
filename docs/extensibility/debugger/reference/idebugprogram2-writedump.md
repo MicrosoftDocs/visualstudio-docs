@@ -25,19 +25,21 @@ Writes a dump to a file.
 
 ## Syntax
 
-```cpp
-HRESULT WriteDump( 
-   DUMPTYPE  DumpType,
-   LPCOLESTR pszDumpUrl
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int WriteDump( 
    enum_DUMPTYPE  DumpType,
    string         pszDumpUrl
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT WriteDump( 
+   DUMPTYPE  DumpType,
+   LPCOLESTR pszDumpUrl
+);
+```
+---
 
 ## Parameters
 `DumpType`\

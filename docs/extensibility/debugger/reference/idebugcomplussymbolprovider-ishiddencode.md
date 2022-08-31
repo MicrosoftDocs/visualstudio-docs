@@ -23,17 +23,19 @@ Determines if the code at the specified debugger address is hidden.
 
 ## Syntax
 
-```cpp
-HRESULT IsHiddenCode(
-    IDebugAddress* pAddress
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsHiddenCode(
     IDebugAddress pAddress
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsHiddenCode(
+    IDebugAddress* pAddress
+);
+```
+---
 
 ## Parameters
 `pAddress`\

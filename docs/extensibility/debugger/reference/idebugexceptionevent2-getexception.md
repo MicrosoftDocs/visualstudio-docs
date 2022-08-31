@@ -25,17 +25,19 @@ Gets a detailed description of the exception that fired this event.
 
 ## Syntax
 
-```cpp
-HRESULT GetException( 
-   EXCEPTION_INFO* pExceptionInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetException( 
    EXCEPTION_INFO[] pExceptionInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetException( 
+   EXCEPTION_INFO* pExceptionInfo
+);
+```
+---
 
 ## Parameters
 `pExceptionInfo`\

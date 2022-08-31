@@ -25,17 +25,19 @@ Gets the global container of the method.
 
 ## Syntax
 
-```cpp
-HRESULT GetGlobalContainer(
-   IDebugClassField** ppClass
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetGlobalContainer(
    out IDebugClassField ppClass
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetGlobalContainer(
+   IDebugClassField** ppClass
+);
+```
+---
 
 ## Parameters
 `ppClass`\

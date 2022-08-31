@@ -25,6 +25,14 @@ Describes different kinds of addresses.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public struct DEBUG_ADDRESS_UNION {
+   public ADDRESS_KIND dwKind;
+   public IntPtr       unionmember;
+}
+```
+### [C++](#tab/cpp)
 ```cpp
 typedef struct _tagDEBUG_ADDRESS_UNION {
    ADDRESS_KIND dwKind;
@@ -42,13 +50,7 @@ typedef struct _tagDEBUG_ADDRESS_UNION {
    } addr;
 } DEBUG_ADDRESS_UNION;
 ```
-
-```csharp
-public struct DEBUG_ADDRESS_UNION {
-   public ADDRESS_KIND dwKind;
-   public IntPtr       unionmember;
-}
-```
+---
 
 ## Members
 `dwKind`\

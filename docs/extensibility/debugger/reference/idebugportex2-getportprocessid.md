@@ -25,17 +25,19 @@ Gets the process ID of the port itself.
 
 ## Syntax
 
-```cpp
-HRESULT GetPortProcessId ( 
-   DWORD* pdwProcessId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPortProcessId ( 
    out uint pdwProcessId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPortProcessId ( 
+   DWORD* pdwProcessId
+);
+```
+---
 
 ## Parameters
 `pdwProcessId`\

@@ -24,17 +24,19 @@ Determines if the specified debug address is a sequence point.
 
 ## Syntax
 
-```cpp
-HRESULT IsAddressSequencePoint(
-    IDebugAddress* pAddress
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsAddressSequencePoint(
     IDebugAddress pAddress
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsAddressSequencePoint(
+    IDebugAddress* pAddress
+);
+```
+---
 
 ## Parameters
 `pAddress`\

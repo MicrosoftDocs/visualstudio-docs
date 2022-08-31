@@ -25,17 +25,19 @@ Gets the server that this process is running on.
 
 ## Syntax
 
-```cpp
-HRESULT GetServer( 
-   IDebugCoreServer2** ppServer
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetServer( 
    out IDebugCoreServer2 ppServer
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetServer( 
+   IDebugCoreServer2** ppServer
+);
+```
+---
 
 ## Parameters
 `ppServer`\

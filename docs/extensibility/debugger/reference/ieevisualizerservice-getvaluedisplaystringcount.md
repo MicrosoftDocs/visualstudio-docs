@@ -24,14 +24,7 @@ Retrieves the number of value strings to display for the specified property or f
 
 ## Syntax
 
-```cpp
-HRESULT GetValueDisplayStringCount (
-   DWORD         displayKind,
-   IDebugField * propertyOrField,
-   ULONG *       pcelt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetValueDisplayStringCount (
    uint        displayKind,
@@ -39,6 +32,15 @@ int GetValueDisplayStringCount (
    out ulong   pcelt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetValueDisplayStringCount (
+   DWORD         displayKind,
+   IDebugField * propertyOrField,
+   ULONG *       pcelt
+);
+```
+---
 
 ## Parameters
 `displayKind`\

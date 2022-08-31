@@ -25,19 +25,21 @@ This method uses a case-insensitive search to return the value associated with t
 
 ## Syntax
 
-```cpp
-HRESULT GetValueFromStringCaseInsensitive(
-   LPCOLESTR  pszValue,
-   ULONGLONG* pvalue
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetValueFromStringCaseInsensitive(
    string    pszValue,
    out ulong pValue
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetValueFromStringCaseInsensitive(
+   LPCOLESTR  pszValue,
+   ULONGLONG* pvalue
+);
+```
+---
 
 ## Parameters
 `pszValue`\

@@ -25,15 +25,17 @@ Determines if a debug engine (DE) can detach from the program.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int CanDetach();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT CanDetach(
    void
 );
 ```
-
-```csharp
-int CanDetach();
-```
+---
 
 ## Return Value
  If can detach, returns `S_OK`; otherwise, returns an error code. Returns `S_FALSE` if the DE cannot detach from the program.

@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 4c099fe8-883e-4789-9468-387ce5697dfe
-ms.date: 05/26/2022
+ms.date: 07/05/2022
 ms.topic: overview
 description: Learn how to get started managing your organization's Visual Studio subscriptions with the Subscriptions Admin Portal.
 ---
@@ -25,9 +25,12 @@ Keep these points in mind when you use the Visual Studio Subscriptions Admin Por
 + **A subscriber’s subscription level will need to be updated** when the subscription is upgraded (after the purchase of a “step-up” license) or renewed at a lower level.
 + **Do not share subscriptions between subscribers.** Subscriptions must be assigned to named individuals.  Assignment of subscriptions to teams is not permitted.  You must assign a subscription to anyone who uses all or part of the subscription benefits (software for development and testing, Microsoft Azure, e-learning, etc.).
 
+> [!NOTE]
+> Visual Studio Subscriptions [subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) do not support [GCC High tenants](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
+
 ## The Subscribers page
 
-Once you’ve assigned subscriptions, the Manage subscribers tab provides detailed information about your subscribers, including:
+After you’ve assigned subscriptions, the Manage subscribers tab provides detailed information about your subscribers, including:
 + The first and last name of each subscriber.
 + The email address for this user.
 + The subscription level assigned to them.
@@ -41,15 +44,15 @@ Once you’ve assigned subscriptions, the Manage subscribers tab provides detail
 
 On the top left side of the page there are several icons you can select to reveal a subscription assignment overview, the agreement details and the maximum usage report.
 
-To see additional information about the number of subscription licenses purchased, assigned, and still available in your organization for each agreement, click the top icon to enable the slide-out panel.
+To see additional information about the number of subscription licenses purchased, assigned, and still available in your organization for each agreement, select the top icon to enable the slide-out panel.
 > [!div class="mx-imgBorder"]
-> ![Visual Studio Subscriptions Admin Portal Subscribers Page](_img/using-admin-portal/subscribers-page.png "The subscribers page shows subscription counts by type.")
+> ![Visual Studio Subscriptions Admin Portal Subscribers Page](_img/using-admin-portal/subscribers-page.png "Screenshot of the agreement overview dialog.  The overview icon is highlighted.")
 
 ## The Details page
 
-For more information about the agreement you are viewing, select the second icon to see the Agreement Details tab. The slide-out panel shows the agreement status, purchase account, org details, super-admins and other pertinent information.
+For more information about the agreement you're viewing, select the second icon to see the Agreement Details tab. The slide-out panel shows the agreement status, purchase account, org details, super-admins and other pertinent information.
 > [!div class="mx-imgBorder"]
-> ![Visual Studio Subscriptions Admin Portal Details Page](_img/using-admin-portal/details-page.png "The details page displays information about your agreement, including the names of your super admins.")
+> ![Visual Studio Subscriptions Admin Portal Details Page](_img/using-admin-portal/details-page.png "Screenshot of the agreement details dialog.  The agreement details button is highlighted.")
 
 ## Resources
 

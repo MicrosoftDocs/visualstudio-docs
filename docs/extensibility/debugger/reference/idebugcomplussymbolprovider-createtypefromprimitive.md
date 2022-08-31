@@ -24,14 +24,7 @@ Creates a type from the specified primitive type.
 
 ## Syntax
 
-```cpp
-HRESULT CreateTypeFromPrimitive(
-    DWORD          dwPrimType,
-    IDebugAddress* pAddress,
-    IDebugField**  ppType
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateTypeFromPrimitive(
     uint          dwPrimType,
@@ -39,6 +32,15 @@ int CreateTypeFromPrimitive(
     IDebugField   ppType
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateTypeFromPrimitive(
+    DWORD          dwPrimType,
+    IDebugAddress* pAddress,
+    IDebugField**  ppType
+);
+```
+---
 
 ## Parameters
 `dwPrimType`\

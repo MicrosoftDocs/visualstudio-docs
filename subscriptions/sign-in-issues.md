@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 176c7f11-b19d-49e9-a6dd-b2e5da5e8480
-ms.date: 05/24/2022
+ms.date: 07/12/2022
 ms.topic: conceptual
 description:  Learn about issues that may arise when signing in to Visual Studio subscriptions
 ---
@@ -13,7 +13,7 @@ description:  Learn about issues that may arise when signing in to Visual Studio
 
 To use your Visual Studio subscription, you must first sign in.  Depending on your subscription, you may have set it up with either a Microsoft account (MSA) or an Azure Active Directory (Azure AD) identity.  This article discusses some of the issues you may encounter while signing in to your subscription.
 
-## Microsoft Accounts (MSA) cannot be created using work/school email addresses
+## Microsoft Accounts (MSA) can't be created using work/school email addresses
 
 Creating a new personal Microsoft Account (MSA) using a work/school email address is no longer allowed when the email domain is configured in Azure AD. What does this mean? If your organization uses Microsoft 365 or other business services from Microsoft that rely on Azure AD, and if you've added a domain name to your Azure AD tenant, users will no longer be able to create a new personal Microsoft account using an email address in your domain.
 
@@ -31,19 +31,23 @@ The situation is confusing for users who have two accounts with the same email a
 If you try to sign up for a Microsoft consumer app with a work or school email address, you'll see the message below.
 
    > [!div class="mx-imgBorder"]
-   > ![Can't create an account with work email](_img/sign-in-issues/cannot-use-work-email.png "Provide a username and password to create your account.")
+   > ![Can't create an account with work email](_img/sign-in-issues/cannot-use-work-email.png "Screenshot of the Create account dialog showing the error message.")
 
 However, if you try to sign up for a Microsoft app that supports personal and work/school accounts, you should see this message:
 
    > [!div class="mx-imgBorder"]
-   > ![Work/school accounts supported](_img/sign-in-issues/existing-account.png "You can't sign up here with a work or school email address...")
+   > ![Work/school accounts supported](_img/sign-in-issues/existing-account.png "Screenshot showing the error message for existing work accounts.")
 
 ### Are existing accounts affected?
 
-The sign-up block described here only prevents the creation of new accounts. It has no impact on users who already have a Microsoft Account with a work/school email address. If you are already in this situation, we've made making it easier to rename a personal Microsoft account. This [support article](https://windows.microsoft.com/en-US/Windows/rename-personal-microsoft-account) provides simple step-by-step guidance. Renaming your personal Microsoft account means changing the username, and does not impact your work email or how you sign in to business services such as Microsoft 365. It also doesn't impact your personal stuff—it just changes the way you sign in to it. You can use another (personal) email address, get a new @outlook.com email address from Microsoft, or use your phone number as a new username.
+The sign-up block described here only prevents the creation of new accounts. It has no impact on users who already have a Microsoft Account with a work/school email address. If you're already in this situation, we've made making it easier to rename a personal Microsoft account. This [support article](https://windows.microsoft.com/Windows/rename-personal-microsoft-account) provides simple step-by-step guidance. Renaming your personal Microsoft account means changing the username, and does not impact your work email or how you sign in to business services such as Microsoft 365. It also doesn't impact your personal stuff—it just changes the way you sign in to it. You can use another (personal) email address, get a new @outlook.com email address from Microsoft, or use your phone number as a new username.
 
 > [!NOTE]
 > If your IT department asked you to create a personal Microsoft account with your work/school email, for example to access Microsoft business services like Premier Support, then talk to your admin team before renaming your account.
+
+## Signing in will fail when using GCC High tenants
+
+Visual Studio Subscriptions [subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) do not support [GCC High tenants](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/).  
 
 ## Deleting a sign-in address may prevent access to a subscription
 

@@ -25,17 +25,7 @@ This method converts an expression string to a parsed expression.
 
 ## Syntax
 
-```cpp
-HRESULT Parse( 
-   LPCOLESTR                upstrExpression,
-   PARSEFLAGS               dwFlags,
-   UINT                     nRadix,
-   BSTR*                    pbstrError,
-   UINT*                    pichError,
-   IDebugParsedExpression** ppParsedExpression
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Parse(
    string                     upstrExpression,
@@ -46,6 +36,18 @@ int Parse(
    out IDebugParsedExpression ppParsedExpression
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Parse( 
+   LPCOLESTR                upstrExpression,
+   PARSEFLAGS               dwFlags,
+   UINT                     nRadix,
+   BSTR*                    pbstrError,
+   UINT*                    pichError,
+   IDebugParsedExpression** ppParsedExpression
+);
+```
+---
 
 ## Parameters
 `upstrExpression`\

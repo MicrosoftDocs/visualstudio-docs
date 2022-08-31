@@ -45,6 +45,7 @@ The custom directive processor adds the variable and the property to the generat
 
 The code that the directive creates looks like the following:
 
+### [C#](#tab/csharp)
 ```csharp
 private System.Xml.XmlDocument document0Value;
 
@@ -61,6 +62,7 @@ public virtual System.Xml.XmlDocument Document0
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 Private document0Value As System.Xml.XmlDocument
 
@@ -73,6 +75,7 @@ Public Overridable ReadOnly Property Document0() As System.Xml.XmlDocument
     End Get
 End Property
 ```
+---
 
 ### To create a custom directive processor
 
@@ -89,6 +92,7 @@ End Property
 
 3. Replace the code in **Class1** with the following code. This code defines a CustomDirectiveProcessor class that inherits from the <xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> class and implements the necessary methods.
 
+    ### [C#](#tab/csharp)
     ```csharp
     using System;
     using System.CodeDom;
@@ -347,6 +351,7 @@ End Property
     }
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     Imports System
     Imports System.CodeDom
@@ -597,6 +602,7 @@ End Property
 
     End Namespace
     ```
+    ---
 
 4. For Visual Basic only, open the **Project** menu, and click **CustomDP Properties**. On the **Application** tab, in **Root namespace**, delete the default value, `CustomDP`.
 
@@ -740,6 +746,7 @@ In this example, the text template calls the directive and passes in the name of
 
     The language of the text template does not have to match the language of the directive processor.
 
+    ### [C#](#tab/csharp)
     ```csharp
     <#@ assembly name="System.Xml" #>
     <#@ template debug="true" #>
@@ -780,6 +787,7 @@ In this example, the text template calls the directive and passes in the name of
     #>
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     <#@ assembly name="System.Xml" #>
     <#@ template debug="true" language="vb" #>
@@ -821,6 +829,7 @@ In this example, the text template calls the directive and passes in the name of
         ' ...
     #>
     ```
+    ---
 
     > [!NOTE]
     > In this example, the value of the `Processor` parameter is `CustomDirectiveProcessor`. The value of the `Processor` parameter must match the name of the processor's registry key.
@@ -878,6 +887,7 @@ After you test your custom directive processor, you might want to add some HTML 
     > [!NOTE]
     > Additional open \<# and close #> tags separate the statement code from the HTML tags.
 
+    ### [C#](#tab/csharp)
     ```csharp
     <#@ assembly name="System.Xml" #>
     <#@ template debug="true" #>
@@ -918,6 +928,7 @@ After you test your custom directive processor, you might want to add some HTML 
     </body></html>
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     <#@ assembly name="System.Xml" #>
     <#@ template debug="true" language="vb" #>
@@ -957,6 +968,7 @@ After you test your custom directive processor, you might want to add some HTML 
     #>
     </body></html>
     ```
+    ---
 
 2. On the **File** menu, click **Save TestDP.txt**.
 

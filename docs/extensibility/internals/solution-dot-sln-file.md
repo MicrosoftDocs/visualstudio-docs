@@ -37,7 +37,6 @@ Each project's file contains additional information read by the environment to p
 ## File header
 
 The header of an .sln* file looks like this:
-
 ::: moniker range="=vs-2019"
 
 ```
@@ -90,7 +89,6 @@ The full version of Visual Studio that (most recently) saved the solution file. 
 `MinimumVisualStudioVersion = 10.0.40219.1`\
 The minimum (oldest) version of Visual Studio that can open this solution file.
 
-::: moniker-end
 
 ## File body
 

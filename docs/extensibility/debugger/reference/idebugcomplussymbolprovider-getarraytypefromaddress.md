@@ -24,15 +24,7 @@ Retrieves type information about the specified array given its debug address.
 
 ## Syntax
 
-```cpp
-HRESULT GetArrayTypeFromAddress(
-    IDebugAddress* pAddress,
-    BYTE*          pSig,
-    DWORD          dwSigLength,
-    IDebugField**  ppField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetArrayTypeFromAddress(
     IDebugAddress   pAddress,
@@ -41,6 +33,16 @@ int GetArrayTypeFromAddress(
     out IDebugField ppField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetArrayTypeFromAddress(
+    IDebugAddress* pAddress,
+    BYTE*          pSig,
+    DWORD          dwSigLength,
+    IDebugField**  ppField
+);
+```
+---
 
 ## Parameters
 `pAddress`\

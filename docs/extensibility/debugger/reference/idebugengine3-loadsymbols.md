@@ -25,13 +25,15 @@ Loads (as necessary) symbols for all modules being debugged by this debugging en
 
 ## Syntax
 
-```cpp
-HRESULT LoadSymbols();
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int LoadSymbols();
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT LoadSymbols();
+```
+---
 
 ## Parameters
  None.

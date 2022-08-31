@@ -25,15 +25,17 @@ This method cancels asynchronous expression evaluation as started by a call to t
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Abort();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Abort(
    void
 );
 ```
-
-```csharp
-int Abort();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

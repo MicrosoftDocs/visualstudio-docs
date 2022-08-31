@@ -25,17 +25,19 @@ This method gets type-independent information about the symbol or type.
 
 ## Syntax
 
-```cpp
-HRESULT GetTypeInfo( 
-   TYPE_INFO* pTypeInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetTypeInfo(
    TYPE_INFO[] pTypeInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetTypeInfo( 
+   TYPE_INFO* pTypeInfo
+);
+```
+---
 
 ## Parameters
 `pTypeInfo`\

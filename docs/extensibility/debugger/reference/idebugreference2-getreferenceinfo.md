@@ -25,17 +25,7 @@ Gets the [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-
 
 ## Syntax
 
-```cpp
-HRESULT GetReferenceInfo ( 
-   DEBUGREF_INFO_FLAGS   dwFields,
-   DWORD                 nRadix,
-   DWORD                 dwTimeout,
-   IDebugReference2**    rgpArgs,
-   DWORD                 dwArgCount,
-   DEBUG_REFERENCE_INFO* pReferenceInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetReferenceInfo ( 
    enum_DEBUGREF_INFO_FLAGS  dwFields,
@@ -46,6 +36,18 @@ int GetReferenceInfo ( 
    DEBUG_REFERENCE_INFO[]    pReferenceInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetReferenceInfo ( 
+   DEBUGREF_INFO_FLAGS   dwFields,
+   DWORD                 nRadix,
+   DWORD                 dwTimeout,
+   IDebugReference2**    rgpArgs,
+   DWORD                 dwArgCount,
+   DEBUG_REFERENCE_INFO* pReferenceInfo
+);
+```
+---
 
 ## Parameters
 `dwFields`\

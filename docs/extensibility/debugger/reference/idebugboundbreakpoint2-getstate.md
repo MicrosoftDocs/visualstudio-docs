@@ -26,17 +26,19 @@ Gets the state of this bound breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT GetState( 
-    BP_STATE* pState
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetState( 
     out enum_BP_STATE pState
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetState( 
+    BP_STATE* pState
+);
+```
+---
 
 ## Parameters
 `pState`\

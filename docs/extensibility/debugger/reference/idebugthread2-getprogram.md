@@ -25,17 +25,19 @@ Gets the program in which a thread is running.
 
 ## Syntax
 
-```cpp
-HRESULT GetProgram ( 
-   IDebugProgram2** ppProgram
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProgram ( 
    out IDebugProgram2 ppProgram
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProgram ( 
+   IDebugProgram2** ppProgram
+);
+```
+---
 
 ## Parameters
 `ppProgram`\

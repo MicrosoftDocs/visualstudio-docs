@@ -25,18 +25,7 @@ This method evaluates the parsed expression and optionally casts the result to a
 
 ## Syntax
 
-```cpp
-HRESULT EvaluateSync( 
-   DWORD                 dwEvalFlags,
-   DWORD                 dwTimeout,
-   IDebugSymbolProvider* pSymbolProvider,
-   IDebugAddress*        pAddress,
-   IDebugBinder*         pBinder,
-   BSTR                  bstrResultType,
-   IDebugProperty2**     ppResult
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EvaluateSync(
    uint                 dwEvalFlags,
@@ -48,6 +37,19 @@ int EvaluateSync(
    out IDebugProperty2  ppResult
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EvaluateSync( 
+   DWORD                 dwEvalFlags,
+   DWORD                 dwTimeout,
+   IDebugSymbolProvider* pSymbolProvider,
+   IDebugAddress*        pAddress,
+   IDebugBinder*         pBinder,
+   BSTR                  bstrResultType,
+   IDebugProperty2**     ppResult
+);
+```
+---
 
 ## Parameters
 `dwEvalFlags`\

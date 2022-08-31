@@ -25,17 +25,19 @@ Get the process that this program is running in.
 
 ## Syntax
 
-```cpp
-HRESULT GetProcess(
-   IDebugProcess2** ppProcess
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProcess(
    out IDebugProcess2 ppProcess
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProcess(
+   IDebugProcess2** ppProcess
+);
+```
+---
 
 ## Parameters
 `ppProcess`\

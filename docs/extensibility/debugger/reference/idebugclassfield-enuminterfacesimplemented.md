@@ -25,17 +25,19 @@ Creates an enumerator for the interfaces implemented by this class.
 
 ## Syntax
 
-```cpp
-HRESULT EnumInterfacesImplemented( 
-   IEnumDebugFields** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumInterfacesImplemented(
    out IEnumDebugFields ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumInterfacesImplemented( 
+   IEnumDebugFields** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

@@ -88,16 +88,13 @@ You might want to add a test agent to a different test controller or you might h
 
 A test agent must be set to the offline state before it can be removed.
 
-::: moniker range=">=vs-2019"
 > [!NOTE]
 > You can’t use this procedure to remove agents that are registered to a controller as part of a lab environment.
-::: moniker-end
 
 ### To remove a test agent from a test controller
 
-::: moniker range=">=vs-2019"
 In Visual Studio 2019, you can't remove a test agent if the test controller is registered with a project.
-::: moniker-end
+
 If the test controller is not registered with a project, follow these steps.
 
 1. From Visual Studio open the test settings file for your test project, choose **Role** and choose **Manage Test Controllers** from the drop down for the **Controller** field.

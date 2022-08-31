@@ -2,7 +2,7 @@
 title: Windows Forms Designer tutorial
 description: Learn how to build an app using the various tools provided by Windows Forms Designer. The app is a custom control that uses many available layout features.
 ms.custom: SEO-VS-2020
-ms.date: 01/31/2022
+ms.date: 07/06/2022
 ms.topic: tutorial
 helpviewer_keywords:
 - Windows Forms Designer, get started
@@ -30,17 +30,18 @@ When you're finished, you'll have a custom control that's been assembled using m
 
 ![Guided Tour Calculator UI](media/calculator-ui.gif)
 
+> [!TIP]
+> If you're a C++ developer and are looking for a tutorial to help you create a Windows app that includes forms and controls, see [Creating a forms-based MFC application](/cpp/mfc/reference/creating-a-forms-based-mfc-application?view=msvc-170&preserve-view=true). For more generalized info, see [Overview of Windows programming in C++](/cpp/windows/overview-of-windows-programming-in-cpp?view=msvc-170&preserve-view=true).
+
 ## Create the custom control project
 
 The first step is to create the DemoCalculator control project.
 
 1. Open Visual Studio and create a new **Windows Forms Control Library** project. Name the project **DemoCalculatorLib**.
 
-   ::: moniker range=">=vs-2019"
 
    ![Windows Forms Control Library template in Visual Studio 2019](media/windows-forms-control-library-template.png)
 
-   ::: moniker-end
 
 2. To rename the file, in **Solution Explorer**, right-click **UserControl1.vb** or **UserControl1.cs**, select **Rename**, and change the file name to DemoCalculator.vb or DemoCalculator.cs. Select **Yes** when you are asked if you want to rename all references to the code element "UserControl1".
 

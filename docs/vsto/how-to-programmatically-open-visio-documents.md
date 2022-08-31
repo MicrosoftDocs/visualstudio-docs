@@ -30,8 +30,12 @@ ms.workload:
 
 - Call the `Microsoft.Office.Interop.Visio.Documents.Open` method and supply the fully qualified path of the Visio document.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs" id="Snippet5":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb" id="Snippet5":::
+     ---
 
 ## Open a Visio document with specified arguments
 
@@ -39,8 +43,12 @@ ms.workload:
 
 - Call the `Microsoft.Office.Interop.Visio.Documents.OpenEx` method, supply the fully qualified path of the Visio document, and include the arguments you want to use—in this case, Docked and Read-only.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs" id="Snippet6":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb" id="Snippet6":::
+     ---
 
 ## Compile the code
  This code example requires the following:

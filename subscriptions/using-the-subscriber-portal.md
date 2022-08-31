@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 8470f035-2a82-4052-9a12-6f24ce796861
-ms.date: 05/26/2022
+ms.date: 07/13/2022
 ms.topic: overview
 description: Learn about the full range of benefits available to you on the Visual Studio subscriptions portal
 ---
@@ -13,7 +13,10 @@ description: Learn about the full range of benefits available to you on the Visu
 
 The Visual Studio Subscriptions Portal, [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs), is your all-in-one resource to take advantage of the full range of benefits provided through your Visual Studio subscription.
 
-Using the portal requires that you sign in with the identity associated with your subscription(s).  This may be your Microsoft Account (MSA) or an email address provided to you by an organization, such as your employer or school.  You can now also sign in with your GitHub credentials.
+Sign in to the portal with the identity associated with your subscription(s).  This may be your Microsoft Account (MSA) or an email address provided to you by an organization, such as your employer or school.  You can now also sign in with your GitHub credentials.
+
+> [!NOTE]
+> Visual Studio Subscriptions [subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) do not support [GCC High tenants](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
 
 Learn how to:
 + [Sign in with your MSA](sign-in-msa.md)
@@ -24,7 +27,7 @@ The portal is organized in six pages.  Each page provides you with access to dif
 
 ## [Benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)
 
-The tools and services and partner offers included with your subscription are displayed as "tiles" on the Benefits page.  Not all benefits are included with all subscriptions. The tiles are grouped into three categories:  Tools, Professional Development, and Support.  
+The tools, services and partner offers included with your subscription are displayed as "tiles" on the Benefits page.  Not all benefits are included with all subscriptions. The tiles are grouped into three categories:  Tools, Professional Development, and Support.  
 
 ### Tools
 
@@ -46,7 +49,7 @@ To make it easy for users with multiple subscriptions assigned to the same email
 
 ## [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs)
 
-Visit the Product Keys page to obtain keys to install and activate products, and to see what keys you have already claimed.  You can even export a list of all of your keys for safekeeping.
+Visit the Product Keys page to obtain keys to install and activate products, and to see what keys you've already claimed.  You can even export a list of all of your keys for safekeeping.
 
 ## [Subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs)
 

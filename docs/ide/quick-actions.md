@@ -2,7 +2,7 @@
 title: Quick Actions, light bulbs, and screwdrivers
 description: Learn how to use a single Quick Action to refactor, generate, or otherwise modify your code.
 ms.custom: SEO-VS-2020
-ms.date: 09/15/2021
+ms.date: 08/29/2022
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -24,11 +24,9 @@ Quick Actions can be used to:
 
 - Apply a code fix for a [code analyzer](../code-quality/roslyn-analyzers-overview.md) rule violation
 
-::: moniker range=">=vs-2019"
 
 - [Suppress](../code-quality/use-roslyn-analyzers.md#suppress-violations) a code analyzer rule violation or [configure](../code-quality/use-roslyn-analyzers.md#set-rule-severity-from-the-light-bulb-menu) its severity
 
-::: moniker-end
 
 
 - Apply a refactoring (for example, [inline a temporary variable](../ide/reference/inline-temporary-variable.md))
@@ -62,11 +60,12 @@ To see potential fixes, select either the down arrow next to the light bulb or t
 
 ![Light bulb expanded](../ide/media/vs2015_lightbulb_hover_expanded.png)
 
+> [!TIP]
+> To learn how to turn off some of the code fix Quick Actions, see [Disable source code analysis for .NET](../code-quality/disable-code-analysis.md).
+
 ## See also
 
-- [Visual Studio IntelliCode](/visualstudio/intellicode/intellicode-visual-studio)
-- [Code generation in Visual Studio](../ide/code-generation-in-visual-studio.md)
 - [Common Quick Actions](../ide/common-quick-actions.md)
 - [Code styles and Quick Actions](../ide/code-styles-and-code-cleanup.md)
+- [Visual Studio IntelliCode](/visualstudio/intellicode/intellicode-visual-studio)
 - [Write and refactor code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)
-- [Refactoring (Visual Studio for Mac)](/visualstudio/mac/refactoring)

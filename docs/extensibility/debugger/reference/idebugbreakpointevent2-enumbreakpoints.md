@@ -25,17 +25,19 @@ Creates an enumerator for all the breakpoints that fired at the current code loc
 
 ## Syntax
 
-```cpp
-HRESULT EnumBreakpoints(
-  IEnumDebugBoundBreakpoints2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumBreakpoints(
   out IEnumDebugBoundBreakpoints2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumBreakpoints(
+  IEnumDebugBoundBreakpoints2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

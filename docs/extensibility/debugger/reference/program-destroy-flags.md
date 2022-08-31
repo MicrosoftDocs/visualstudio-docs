@@ -23,6 +23,14 @@ Enumerates the valid values of the program destroy flags.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_PPROGRAM_DESTROY_FLAGS
+{
+   PROGRAM_DESTROY_CONTINUE_DEBUGGING = 0x1
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_PPROGRAM_DESTROY_FLAGS
 {
@@ -30,13 +38,7 @@ enum enum_PPROGRAM_DESTROY_FLAGS
 };
 typedef DWORD PROGRAM_DESTROY_FLAGS;
 ```
-
-```csharp
-public enum enum_PPROGRAM_DESTROY_FLAGS
-{
-   PROGRAM_DESTROY_CONTINUE_DEBUGGING = 0x1
-};
-```
+---
 
 ## Fields
  `PROGRAM_DESTROY_CONTINUE_DEBUGGING`\

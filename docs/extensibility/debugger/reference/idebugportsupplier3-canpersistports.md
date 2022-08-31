@@ -25,13 +25,15 @@ This method determines whether the port supplier can persist ports (by writing t
 
 ## Syntax
 
-```cpp
-HRESULT CanPersistPorts();
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CanPersistPorts();
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CanPersistPorts();
+```
+---
 
 ## Parameters
  None.

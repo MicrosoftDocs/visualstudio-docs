@@ -43,15 +43,23 @@ ms.workload:
 
 1. Use the <xref:Microsoft.Office.Interop.Word.Rows.Add%2A> method to add a row to the table.
 
-     :::code language="vb" source="codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet95":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs" id="Snippet95":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet95":::
+     ---
 
 ### To add a column to a table
 
 1. Use the <xref:Microsoft.Office.Interop.Word.Columns.Add%2A> method, and then use the <xref:Microsoft.Office.Interop.Word.Columns.DistributeWidth%2A> method to make all the columns the same width.
 
-     :::code language="vb" source="codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet96":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs" id="Snippet96":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet96":::
+     ---
 
 ## VSTO Add-in examples
  The following code examples can be used in a VSTO Add-in. To use the examples, run them from the `ThisAddIn` class in your project. These examples assume that the active document already has at least one table.
@@ -65,15 +73,23 @@ ms.workload:
 
 1. Use the <xref:Microsoft.Office.Interop.Word.Rows.Add%2A> method to add a row to the table.
 
-     :::code language="vb" source="codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb" id="Snippet95":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs" id="Snippet95":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb" id="Snippet95":::
+     ---
 
 ### To add a column to a table
 
 1. Use the <xref:Microsoft.Office.Interop.Word.Columns.Add%2A> method, and then use the <xref:Microsoft.Office.Interop.Word.Columns.DistributeWidth%2A> method to make all the columns the same width.
 
-     :::code language="vb" source="codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb" id="Snippet96":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs" id="Snippet96":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb" id="Snippet96":::
+     ---
 
 ## See also
 - [How to: Programmatically create Word tables](how-to-programmatically-create-word-tables.md)

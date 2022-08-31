@@ -25,17 +25,19 @@ Gets the port supplier for this port.
 
 ## Syntax
 
-```cpp
-HRESULT GetPortSupplier( 
-   IDebugPortSupplier2** ppSupplier
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPortSupplier( 
    out IDebugPortSupplier2 ppSupplier
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPortSupplier( 
+   IDebugPortSupplier2** ppSupplier
+);
+```
+---
 
 ## Parameters
 `ppSupplier`\

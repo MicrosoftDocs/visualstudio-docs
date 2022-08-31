@@ -95,11 +95,8 @@ This article demonstrates how to create and configure a test setting that uses a
 7. Choose **Close**.
 
 
-::: moniker range=">=vs-2019"
-
 8. On the **Test** menu, choose **Select Settings File**. Browse to and select the *TestSettingDistributedTestWalkthrough.testsettings* file.
 
-::: moniker-end
 
 9. Run your test as usual.
 

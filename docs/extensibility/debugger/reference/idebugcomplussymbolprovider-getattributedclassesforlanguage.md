@@ -26,14 +26,7 @@ Retrieves the classes with the specified attribute that are implemented in the s
 
 ## Syntax
 
-```cpp
-HRESULT GetAttributedClassesForLanguage (
-    GUID               guidLanguage,
-    LPOLESTR           pstrAttribute,
-    IEnumDebugFields** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAttributedClassesForLanguage (
     Guid                 guidLanguage,
@@ -41,6 +34,15 @@ int GetAttributedClassesForLanguage (
     out IEnumDebugFields ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAttributedClassesForLanguage (
+    GUID               guidLanguage,
+    LPOLESTR           pstrAttribute,
+    IEnumDebugFields** ppEnum
+);
+```
+---
 
 ## Parameters
 `guidLanguage`\

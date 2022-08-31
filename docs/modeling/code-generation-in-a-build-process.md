@@ -243,13 +243,16 @@ The project folder is: <#= ProjectFolder #>
 
 In a directive processor, you can call [ITextTemplatingEngineHost.ResolveParameterValue](/previous-versions/visualstudio/visual-studio-2012/bb126369\(v\=vs.110\)):
 
+### [C#](#tab/csharp)
 ```csharp
 string value = Host.ResolveParameterValue("-", "-", "parameterName");
 ```
 
+### [VB](#tab/vb)
 ```vb
 Dim value = Host.ResolveParameterValue("-", "-", "parameterName")
 ```
+---
 
 > [!NOTE]
 > `ResolveParameterValue` gets data from `T4ParameterValues` only when you use MSBuild. When you transform the template using Visual Studio, the parameters have default values.
@@ -302,10 +305,15 @@ If you update an included file or another file read by the template, Visual Stud
 ## See also
 
 
-::: moniker range=">=vs-2019"
+::: moniker range=">=vs-2022"
 
-- There's good guidance in the T4 MSbuild template at `%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Enterprise\msbuild\Microsoft\VisualStudio\v16.0\TextTemplating\Microsoft.TextTemplating.targets`
+- There's good guidance in the T4 MSbuild template at `%ProgramFiles%\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VisualStudio\v17.0\TextTemplating\Microsoft.TextTemplating.targets`
 
 ::: moniker-end
+
+::: moniker range="vs-2019"
+
+- There's good guidance in the T4 MSbuild template at `%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Enterprise\msbuild\Microsoft\VisualStudio\v16.0\TextTemplating\Microsoft.TextTemplating.targets`
+:::moniker-end
 
 - [Write a T4 text template](../modeling/writing-a-t4-text-template.md)

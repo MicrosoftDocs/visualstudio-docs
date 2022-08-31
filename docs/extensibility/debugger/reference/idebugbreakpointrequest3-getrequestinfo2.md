@@ -25,19 +25,21 @@ This method gets the breakpoint request information that describes this breakpoi
 
 ## Syntax
 
-```cpp
-HRESULT GetRequestInfo2(
-   BPREQI_FIELDS      dwFields,
-   BP_REQUEST_INFO2*  bBPRequestInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetRequestInfo2(
    enum_BPREQI_FIELDS  dwFields,
    BP_REQUEST_INFO2[]  bBPRequestInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetRequestInfo2(
+   BPREQI_FIELDS      dwFields,
+   BP_REQUEST_INFO2*  bBPRequestInfo
+);
+```
+---
 
 ## Parameters
 `dwFields`\

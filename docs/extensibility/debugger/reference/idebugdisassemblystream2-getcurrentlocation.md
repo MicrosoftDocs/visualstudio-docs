@@ -25,17 +25,19 @@ Returns a code location identifier that represents the current code location.
 
 ## Syntax
 
-```cpp
-HRESULT GetCurrentLocation( 
-   UINT64* puCodeLocationId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCurrentLocation( 
    out ulong puCodeLocationId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCurrentLocation( 
+   UINT64* puCodeLocationId
+);
+```
+---
 
 ## Parameters
 `puCodeLocationId`\

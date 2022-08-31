@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 34eaceda-f5db-41d6-bc23-ecf55fe1768e
-ms.date: 05/26/2022
+ms.date: 07/13/2022
 ms.topic: troubleshooting
 ms.custom: kr2b-contr-experiment
 description: Learn what happens when your admin removes your Visual Studio subscription. This information includes how your benefits change and support resources.
@@ -35,7 +35,7 @@ To avoid losing your assets, make sure to do one of the following if your subscr
 + Move your assets to another Azure subscription if one is available to you.  For example, if you have an Azure subscription as part of a different Visual Studio subscription.  Instructions for [moving resources to a new subscription](/azure/devtest/offer/how-to-change-directory-tenants-visual-studio-azure) are included in Azure's documentation.  
 
   > [!IMPORTANT]
-  > It is important that you move your Azure assets to another Azure subscription or change the existing Azure subscription to pay-as-you-go to avoid loss of your existing Azure assets. 
+  > It's important that you move your Azure assets to another Azure subscription or change the existing Azure subscription to pay-as-you-go to avoid loss of your existing Azure assets. 
 
 ### Software downloads and product keys
 
@@ -51,11 +51,11 @@ The effects of having a subscription removed will vary.
 
 + Benefits with a fixed length
 
-  Many of the benefits provided by our partners are offers that have a fixed length.  If you have activated them prior to the removal of your subscription, many of them will be unaffected and will remain available to you until the end of their normal term.  If you've been accessing those benefits through the subscriber portal, you'll need to access them directly on the partner site.  For example, let's say you received a Pluralsight subscription as part of a Visual Studio subscription.  If your Visual Studio subscription is removed, you'll still have any remaining time on the training subscription but you'll need to sign in to Pluralsight's website directly.
+  Many of the benefits provided by our partners are offers that have a fixed length.  If you've activated them prior to the removal of your subscription, many of them will be unaffected and will remain available to you until the end of their normal term.  If you've been accessing those benefits through the subscriber portal, you'll need to access them directly on the partner site.  For example, let's say you received a Pluralsight subscription as part of a Visual Studio subscription.  If your Visual Studio subscription is removed, you'll still have any remaining time on the training subscription but you'll need to sign in to Pluralsight's website directly.
 
 + Benefits that require authentication
 
-  If you're using a benefit that's authenticated every time you sign in to Visual Studio, it will not be available if your subscription is removed.
+  If you're using a benefit that's authenticated every time you sign in to Visual Studio, it won't be available if your subscription is removed.
 
 + Benefits not previously activated
 

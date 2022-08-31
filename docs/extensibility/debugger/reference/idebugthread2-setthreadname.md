@@ -25,17 +25,19 @@ Sets the name of the thread.
 
 ## Syntax
 
-```cpp
-HRESULT SetThreadName ( 
-   LPCOLESTR pszName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetThreadName ( 
    string pszName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetThreadName ( 
+   LPCOLESTR pszName
+);
+```
+---
 
 ## Parameters
 `pszName`\

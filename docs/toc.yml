@@ -837,7 +837,7 @@
     href: ide/how-to-change-fonts-and-colors-in-visual-studio.md
   - name: Menus and toolbars
     href: ide/how-to-customize-menus-and-toolbars-in-visual-studio.md
-  - name: Window layouts
+  - name: Window layouts & tabs
     href: ide/customizing-window-layouts-in-visual-studio.md
   - name: File nesting in Solution Explorer
     href: ide/file-nesting-solution-explorer.md
@@ -1197,6 +1197,8 @@
         href: ide/reference/signing-page-project-designer.md
     - name: Property Pages, JavaScript
       href: ide/reference/property-pages-javascript.md
+    - name: Property Pages, React, Angular, and Vue
+      href: ide/reference/property-pages-javascript-esproj.md
     - name: Properties window
       href: ide/reference/properties-window.md
     - name: Team Explorer reference

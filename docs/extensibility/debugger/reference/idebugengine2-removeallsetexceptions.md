@@ -25,17 +25,19 @@ Removes the list of exceptions the IDE has set for a particular run-time archite
 
 ## Syntax
 
-```cpp
-HRESULT RemoveAllSetExceptions( 
-   REFGUID guidType
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int RemoveAllSetExceptions( 
    ref Guid guidType
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT RemoveAllSetExceptions( 
+   REFGUID guidType
+);
+```
+---
 
 ## Parameters
 `guidType`\

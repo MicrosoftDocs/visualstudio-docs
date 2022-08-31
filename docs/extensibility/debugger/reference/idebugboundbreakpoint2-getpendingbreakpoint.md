@@ -26,17 +26,19 @@ Gets the pending breakpoint from which the specified bound breakpoint was create
 
 ## Syntax
 
-```cpp
-HRESULT GetPendingBreakpoint( 
-    IDebugPendingBreakpoint2** ppPendingBreakpoint
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPendingBreakpoint( 
     out IDebugPendingBreakpoint2 ppPendingBreakpoint
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPendingBreakpoint( 
+    IDebugPendingBreakpoint2** ppPendingBreakpoint
+);
+```
+---
 
 ## Parameters
 `ppPendingBreakpoint`\

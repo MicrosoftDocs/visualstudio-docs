@@ -25,24 +25,7 @@ Describes one disassembly instruction for the integrated development environment
 
 ## Syntax
 
-```cpp
-typedef struct tagDisassemblyData {
-    DISASSEMBLY_STREAM_FIELDS dwFields;
-    BSTR                      bstrAddress;
-    BSTR                      bstrAddressOffset;
-    BSTR                      bstrCodeBytes;
-    BSTR                      bstrOpcode;
-    BSTR                      bstrOperands;
-    BSTR                      bstrSymbol;
-    UINT64                    uCodeLocationId;
-    TEXT_POSITION             posBeg;
-    TEXT_POSITION             posEnd;
-    BSTR                      bstrDocumentUrl;
-    DWORD                     dwByteOffset;
-    DISASSEMBLY_FLAGS         dwFlags;
-} DisassemblyData;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct DisassemblyData { 
     public uint          dwFields;
@@ -60,6 +43,25 @@ public struct DisassemblyData { 
     public uint          dwFlags;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagDisassemblyData {
+    DISASSEMBLY_STREAM_FIELDS dwFields;
+    BSTR                      bstrAddress;
+    BSTR                      bstrAddressOffset;
+    BSTR                      bstrCodeBytes;
+    BSTR                      bstrOpcode;
+    BSTR                      bstrOperands;
+    BSTR                      bstrSymbol;
+    UINT64                    uCodeLocationId;
+    TEXT_POSITION             posBeg;
+    TEXT_POSITION             posEnd;
+    BSTR                      bstrDocumentUrl;
+    DWORD                     dwByteOffset;
+    DISASSEMBLY_FLAGS         dwFlags;
+} DisassemblyData;
+```
+---
 
 ## Members
 `dwFields`\

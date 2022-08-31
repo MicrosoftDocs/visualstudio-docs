@@ -24,17 +24,19 @@ Retrieves the primitive type that is associated with this field.
 
 ## Syntax
 
-```cpp
-HRESULT GetPrimitiveType (
-   DWORD* pdwType
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPrimitiveType (
    out uint pdwType
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPrimitiveType (
+   DWORD* pdwType
+);
+```
+---
 
 ## Parameters
 `pdwType`\

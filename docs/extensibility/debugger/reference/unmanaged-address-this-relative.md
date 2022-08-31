@@ -25,14 +25,7 @@ This structure represents an address that is relative to a `this` pointer (`Me` 
 
 ## Syntax
 
-```cpp
-typedef struct _tagUNMANAGED_THIS_RELATIVE {
-   DWORD dwOffset;
-   DWORD dwBitOffset;
-   DWORD dwBitLength;
-} UNMANAGED_ADDRESS_THIS_RELATIVE;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct UNMANAGED_THIS_RELATIVE {
    public uint dwOffset;
@@ -40,6 +33,15 @@ public struct UNMANAGED_THIS_RELATIVE {
    public uint dwBitLength;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagUNMANAGED_THIS_RELATIVE {
+   DWORD dwOffset;
+   DWORD dwBitOffset;
+   DWORD dwBitLength;
+} UNMANAGED_ADDRESS_THIS_RELATIVE;
+```
+---
 
 ## Members
  `dwOffset`\

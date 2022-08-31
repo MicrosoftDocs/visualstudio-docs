@@ -25,19 +25,21 @@ Retrieves a list of the code contexts for a given position in a source file.
 
 ## Syntax
 
-```cpp
-HRESULT EnumCodeContexts( 
-   IDebugDocumentPosition2*  pDocPos,
-   IEnumDebugCodeContexts2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumCodeContexts( 
    IDebugDocumentPosition2     pDocPos,
    out IEnumDebugCodeContexts2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumCodeContexts( 
+   IDebugDocumentPosition2*  pDocPos,
+   IEnumDebugCodeContexts2** ppEnum
+);
+```
+---
 
 ## Parameters
 `pDocPos`\

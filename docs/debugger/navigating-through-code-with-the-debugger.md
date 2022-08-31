@@ -65,17 +65,20 @@ To stop on each statement when you're debugging, use **Debug** > **Step Into**, 
 
 The debugger steps through code statements, not physical lines. For example, an `if` clause can be written on one line:
 
+  ### [C#](#tab/csharp)
   ```csharp
   int x = 42;
   string s = "Not answered";
   if( int x == 42) s = "Answered!";
   ```
 
+  ### [VB](#tab/vb)
   ```vb
   Dim x As Integer = 42
   Dim s As String = "Not answered"
   If x = 42 Then s = "Answered!"
   ```
+  ---
 
 But when you step into this line, the debugger treats the condition as one step and the consequence as another. In the preceding example, the condition is true.
 

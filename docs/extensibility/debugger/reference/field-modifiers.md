@@ -25,6 +25,45 @@ Specifies modifiers for a field type.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_FIELD_MODIFIERS {
+    FIELD_MOD_NONE             = 0x00000000,
+
+    // Modifier of the field
+    FIELD_MOD_ACCESS_NONE      = 0x00000001,
+    FIELD_MOD_ACCESS_PUBLIC    = 0x00000002,
+    FIELD_MOD_ACCESS_PROTECTED = 0x00000004,
+    FIELD_MOD_ACCESS_PRIVATE   = 0x00000008,
+
+    // Storage modifier of the field
+    FIELD_MOD_NOMODIFIERS      = 0x00000010,
+    FIELD_MOD_STATIC           = 0x00000020,
+    FIELD_MOD_CONSTANT         = 0x00000040,
+    FIELD_MOD_TRANSIENT        = 0x00000080,
+    FIELD_MOD_VOLATILE         = 0x00000100,
+    FIELD_MOD_ABSTRACT         = 0x00000200,
+    FIELD_MOD_NATIVE           = 0x00000400,
+    FIELD_MOD_SYNCHRONIZED     = 0x00000800,
+    FIELD_MOD_VIRTUAL          = 0x00001000,
+    FIELD_MOD_INTERFACE        = 0x00002000,
+    FIELD_MOD_FINAL            = 0x00004000,
+    FIELD_MOD_SENTINEL         = 0x00008000,
+    FIELD_MOD_INNERCLASS       = 0x00010000,
+    FIELD_TYPE_OPTIONAL        = 0x00020000,
+    FIELD_MOD_BYREF            = 0x00040000,
+    FIELD_MOD_HIDDEN           = 0x00080000,
+    FIELD_MOD_MARSHALASOBJECT  = 0x00100000,
+    FIELD_MOD_SPECIAL_NAME     = 0x00200000,
+    FIELD_MOD_HIDEBYSIG        = 0x00400000,
+
+    FIELD_MOD_WRITEONLY        = 0x80000000,
+    FIELD_MOD_ACCESS_MASK      = 0x000000ff,
+    FIELD_MOD_MASK             = 0xffffff00,
+    FIELD_MOD_ALL              = 0x7fffffff
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_FIELD_MODIFIERS {
     FIELD_MOD_NONE             = 0x00000000,
@@ -63,44 +102,7 @@ enum enum_FIELD_MODIFIERS {
 };
 typedef DWORD FIELD_MODIFIERS;
 ```
-
-```csharp
-public enum enum_FIELD_MODIFIERS {
-    FIELD_MOD_NONE             = 0x00000000,
-
-    // Modifier of the field
-    FIELD_MOD_ACCESS_NONE      = 0x00000001,
-    FIELD_MOD_ACCESS_PUBLIC    = 0x00000002,
-    FIELD_MOD_ACCESS_PROTECTED = 0x00000004,
-    FIELD_MOD_ACCESS_PRIVATE   = 0x00000008,
-
-    // Storage modifier of the field
-    FIELD_MOD_NOMODIFIERS      = 0x00000010,
-    FIELD_MOD_STATIC           = 0x00000020,
-    FIELD_MOD_CONSTANT         = 0x00000040,
-    FIELD_MOD_TRANSIENT        = 0x00000080,
-    FIELD_MOD_VOLATILE         = 0x00000100,
-    FIELD_MOD_ABSTRACT         = 0x00000200,
-    FIELD_MOD_NATIVE           = 0x00000400,
-    FIELD_MOD_SYNCHRONIZED     = 0x00000800,
-    FIELD_MOD_VIRTUAL          = 0x00001000,
-    FIELD_MOD_INTERFACE        = 0x00002000,
-    FIELD_MOD_FINAL            = 0x00004000,
-    FIELD_MOD_SENTINEL         = 0x00008000,
-    FIELD_MOD_INNERCLASS       = 0x00010000,
-    FIELD_TYPE_OPTIONAL        = 0x00020000,
-    FIELD_MOD_BYREF            = 0x00040000,
-    FIELD_MOD_HIDDEN           = 0x00080000,
-    FIELD_MOD_MARSHALASOBJECT  = 0x00100000,
-    FIELD_MOD_SPECIAL_NAME     = 0x00200000,
-    FIELD_MOD_HIDEBYSIG        = 0x00400000,
-
-    FIELD_MOD_WRITEONLY        = 0x80000000,
-    FIELD_MOD_ACCESS_MASK      = 0x000000ff,
-    FIELD_MOD_MASK             = 0xffffff00,
-    FIELD_MOD_ALL              = 0x7fffffff
-};
-```
+---
 
 ## Fields
 `FIELD_MOD_ACCESS_TYPE`\

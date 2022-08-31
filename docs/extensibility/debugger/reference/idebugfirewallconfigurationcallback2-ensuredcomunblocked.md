@@ -27,15 +27,17 @@ Requests that the firewall not block remote debugging.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public int EnsureDCOMUnblocked();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT EnsureDCOMUnblocked(
     Void
 );
 ```
-
-```csharp
-public int EnsureDCOMUnblocked();
-```
+---
 
 ## Return Value
 

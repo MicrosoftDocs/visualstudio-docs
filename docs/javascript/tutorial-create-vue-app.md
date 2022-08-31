@@ -1,7 +1,7 @@
 ---
 title: "Create a Vue.js app"
 description: In this tutorial, learn how to create a simple Vue.js application in Visual Studio.
-ms.date: 01/28/2022
+ms.date: 07/26/2022
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
@@ -23,7 +23,7 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
 ## Prerequisites
 
-Make sure to have the following installed:
+Make sure to install the following:
 
 - Visual Studio 2022 Preview 2 or later. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
 - npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
@@ -32,7 +32,7 @@ Make sure to have the following installed:
 
 ## Create your app
 
-1. In the New Project Dialog, select **Create a new project**.
+1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Create a new project":::
 
@@ -40,15 +40,14 @@ Make sure to have the following installed:
 
    :::image type="content" source="media/vs-2022/vue-choose-template.png" alt-text="Choose a template":::
 
-1. Give your project and solution a name. 
+1. Give your project and solution a name.
 
-## Set the project properties
+## View the project properties
 
-1. In Solution Explorer, right-click the Vue.js project, select **Properties**, and then go the **Debugging** section.
+The default project settings allow you to build and debug the project. But, if you need to change settings, right-click the project in Solution Explorer, select **Properties**, and then go the **Build** or **Debugging** section.
 
-1. Change the Debugger to launch to the **launch.json** option.
- 
-   :::image type="content" source="media/vs-2022/vue-choose-debugger.png" alt-text="Choose the debugger (launch.json)":::
+>[!NOTE]
+> *launch.json* stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, *launch.json* must be located under the *.vscode* folder.
 
 ## Build Your Project
 

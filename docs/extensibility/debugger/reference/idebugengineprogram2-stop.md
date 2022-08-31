@@ -25,15 +25,17 @@ Stops all threads running in this program.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Stop();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Stop( 
    void 
 );
 ```
-
-```csharp
-int Stop();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

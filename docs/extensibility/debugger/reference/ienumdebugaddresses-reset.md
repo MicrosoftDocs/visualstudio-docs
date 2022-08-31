@@ -25,13 +25,15 @@ This method resets the enumeration to the first element.
 
 ## Syntax
 
-```cpp
-HRESULT Reset(void);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Reset();
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Reset(void);
+```
+---
 
 ## Parameters
  None

@@ -25,17 +25,19 @@ Retrieves a list of all the ports supplied by a port supplier.
 
 ## Syntax
 
-```cpp
-HRESULT EnumPorts( 
-   IEnumDebugPorts2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumPorts( 
    out IEnumDebugPorts2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumPorts( 
+   IEnumDebugPorts2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

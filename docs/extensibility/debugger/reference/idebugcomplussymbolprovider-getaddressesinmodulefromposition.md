@@ -26,17 +26,7 @@ Maps a document position in the specified module to an array of debug addresses.
 
 ## Syntax
 
-```cpp
-HRESULT GetAddressesInModuleFromPosition(
-   ULONG32                  ulAppDomainID,
-   GUID                     guidModule,
-   IDebugDocumentPosition2* pDocPos,
-   BOOL                     fStatmentOnly,
-   IEnumDebugAddresses**    ppEnumBegAddresses,
-   IEnumDebugAddresses**    ppEnumEndAddresses
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAddressesInModuleFromPosition(
    uint                    ulAppDomainID,
@@ -47,6 +37,18 @@ int GetAddressesInModuleFromPosition(
    out IEnumDebugAddresses ppEnumEndAddresses
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAddressesInModuleFromPosition(
+   ULONG32                  ulAppDomainID,
+   GUID                     guidModule,
+   IDebugDocumentPosition2* pDocPos,
+   BOOL                     fStatmentOnly,
+   IEnumDebugAddresses**    ppEnumBegAddresses,
+   IEnumDebugAddresses**    ppEnumEndAddresses
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

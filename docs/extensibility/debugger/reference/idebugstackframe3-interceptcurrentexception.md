@@ -25,19 +25,21 @@ Called by the debugger on the current stack frame when it wants to intercept the
 
 ## Syntax
 
-```cpp
-HRESULT InterceptCurrentException(
-   INTERCEPT_EXCEPTION_ACTION dwFlags,
-   UINT64*                    pqwCookie
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int InterceptCurrentException(
    uint dwFlags,
    out  ulong pqwCookie
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT InterceptCurrentException(
+   INTERCEPT_EXCEPTION_ACTION dwFlags,
+   UINT64*                    pqwCookie
+);
+```
+---
 
 ## Parameters
 `dwFlags`\

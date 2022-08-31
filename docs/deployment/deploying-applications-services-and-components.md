@@ -52,7 +52,7 @@ Deployment to a local folder is typically used for testing or to begin a staged 
 
   - For continuous (or automated) deployment of apps, use Azure DevOps with [Azure Pipelines](/azure/devops/pipelines/tasks/build/visual-studio-build).
   - For one-time (or manual) deployment of apps, use the [Publish](publish-overview.md) tool in Visual Studio. See [Deploy an ASP.NET Web app](/azure/app-service/quickstart-dotnetcore).
-  - To create GitHub Action workflows for ASP.NET and Azure Function projects hosted on GitHub.com, see [Deploy to Azure using GitHub Actions](../deployment/azure-deployment-using-github-actions.md).
+  - To create GitHub Actions workflows for ASP.NET and Azure Function projects hosted on GitHub.com, see [Deploy to Azure using GitHub Actions](../deployment/azure-deployment-using-github-actions.md).
   - For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](/azure/app-service/deploy-continuous-deployment).
 
   To use the **Publish** tool, right-click the project in Solution Explorer and select **Publish**. (If you've previously configured any publishing profiles, you must then select **Create new profile**.) In the **Publish** dialog box, select either **App Service** or, if you customize your own server, **Azure Virtual Machines**, and then follow the configuration steps.
@@ -113,7 +113,7 @@ If you're deploying a UWP app for testing on a device, see [Run UWP apps on a re
 
 ## Deploy to a test lab
 
-You can enable more sophisticated development and testing by deploying your applications into virtual environments. For more information, see [Test on a lab environment](../test/lab-management/using-a-lab-environment-for-your-application-lifecycle.md).
+You can enable more sophisticated development and testing by deploying your applications into virtual environments. For more information, see [Azure DevTest Labs](/azure/devtest-labs/devtest-lab-overview).
 
 ## Continuous deployment
 

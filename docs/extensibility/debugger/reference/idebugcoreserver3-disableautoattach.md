@@ -25,15 +25,17 @@ Disables automatic attaching for all debug engines associated with this server.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int DisableAutoAttach();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT DisableAutoAttach(
    void
 );
 ```
-
-```csharp
-int DisableAutoAttach();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.

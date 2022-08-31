@@ -25,17 +25,19 @@ This method returns the reason that the process was launched for debugging.
 
 ## Syntax
 
-```cpp
-HRESULT GetDebugReason(
-   DEBUG_REASON* pReason
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDebugReason(
    out enum_DEBUG_REASON pReason
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDebugReason(
+   DEBUG_REASON* pReason
+);
+```
+---
 
 ## Parameters
 `pReason`\

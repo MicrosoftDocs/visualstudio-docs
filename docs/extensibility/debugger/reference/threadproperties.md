@@ -25,18 +25,7 @@ Describes the properties of a thread.
 
 ## Syntax
 
-```cpp
-typedef struct _tagTHREADPROPERTIES { 
-   THREADPROPERTY_FIELDS dwFields;
-   DWORD                 dwThreadId;
-   DWORD                 dwSuspendCount;
-   DWORD                 dwThreadState;
-   BSTR                  bstrPriority;
-   BSTR                  bstrName;
-   BSTR                  bstrLocation;
-} THREADPROPERTIES;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct THREADPROPERTIES { 
    public uint   dwFields;
@@ -48,6 +37,19 @@ public struct THREADPROPERTIES { 
    public string bstrLocation;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagTHREADPROPERTIES { 
+   THREADPROPERTY_FIELDS dwFields;
+   DWORD                 dwThreadId;
+   DWORD                 dwSuspendCount;
+   DWORD                 dwThreadState;
+   BSTR                  bstrPriority;
+   BSTR                  bstrName;
+   BSTR                  bstrLocation;
+} THREADPROPERTIES;
+```
+---
 
 ## Members
  `dwFields`\

@@ -25,17 +25,19 @@ Gets the system thread identifier.
 
 ## Syntax
 
-```cpp
-HRESULT GetThreadId (
-    DWORD* pdwThreadId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetThreadId (
     out uint pdwThreadId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetThreadId (
+    DWORD* pdwThreadId
+);
+```
+---
 
 ## Parameters
 `pdwThreadId`\

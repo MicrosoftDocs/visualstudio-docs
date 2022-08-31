@@ -25,17 +25,19 @@ Notifies receiver of the event that the document attributes have been updated.
 
 ## Syntax
 
-```cpp
-HRESULT onUpdateDocumentAttributes( 
-   TEXT_DOC_ATTR_2 textdocattr
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int onUpdateDocumentAttributes( 
    enum_TEXT_DOC_ATTR_2 textdocattr
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT onUpdateDocumentAttributes( 
+   TEXT_DOC_ATTR_2 textdocattr
+);
+```
+---
 
 ## Parameters
 `textdocattr`\

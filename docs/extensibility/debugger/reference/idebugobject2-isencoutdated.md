@@ -25,17 +25,19 @@ This method determines whether the Edit and Continue status of this object or of
 
 ## Syntax
 
-```cpp
-HRESULT IsEncOutdated(
-   BOOL* pfEncOutdated
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsEncOutdated(
    out int pfEncOutdated
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsEncOutdated(
+   BOOL* pfEncOutdated
+);
+```
+---
 
 ## Parameters
 `pfEncOutdated`\

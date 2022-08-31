@@ -25,15 +25,7 @@ Moves the read pointer in the disassembly stream a given number of instructions 
 
 ## Syntax
 
-```cpp
-HRESULT Seek( 
-   SEEK_START          dwSeekStart,
-   IDebugCodeContext2* pCodeContext,
-   UINT64              uCodeLocationId,
-   INT64               iInstructions
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Seek( 
    enum_SEEK_START    dwSeekStart,
@@ -42,6 +34,16 @@ int Seek( 
    long               iInstructions
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Seek( 
+   SEEK_START          dwSeekStart,
+   IDebugCodeContext2* pCodeContext,
+   UINT64              uCodeLocationId,
+   INT64               iInstructions
+);
+```
+---
 
 ## Parameters
 `dwSeekStart`\

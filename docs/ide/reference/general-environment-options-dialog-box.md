@@ -2,7 +2,7 @@
 title: General, Environment, Options Dialog Box
 description: Learn how to use the General page in the Environment section to change color themes, status bar settings, file extension associations, and more for the IDE.
 ms.custom: SEO-VS-2020
-ms.date: 03/30/2022
+ms.date: 08/24/2022
 ms.topic: reference
 f1_keywords:
 - VS.Environment.General
@@ -61,7 +61,6 @@ After you install this tool, additional color themes appear in the **Color Theme
 
 Menus use title case styling by default. Uncheck this option to use all uppercase styling instead.
 
-::: moniker range=">=vs-2019"
 
 **Optimize rendering for screens with different pixel densities (requires restart)**
 
@@ -71,7 +70,6 @@ This option enables or disables per-monitor dots per inch (DPI) awareness (or *P
 > - Windows 10 has a setting that says **Let Windows try to fix apps so they're not blurry**. Turning that Windows setting **on** has negligible effect if you have the **Optimize rendering for screens with different pixel densities** option checked. (This setting is not available in Windows 11. For more information about Windows 11, see [Windows 11 overview](/windows/whats-new/windows-11-overview).)
 > - Windows 10 also includes a **Program Compatibility Troubleshooter**. We don't recommend trying to fix the appearance of Visual Studio by using that troubleshooter. (This feature is not available in Windows 11. For more information about Windows 11, see [Windows 11 overview](/windows/whats-new/windows-11-overview).)
 
-::: moniker-end
 
 **Automatically adjust visual experience based on client performance**
 
@@ -110,4 +108,4 @@ Specifies that when the **Auto Hide** button is clicked, only the tool window th
 
 ## See also
 
-- [Customize window layouts](../../ide/customizing-window-layouts-in-visual-studio.md)
+- [Customize window layouts and personalize tabs](../../ide/customizing-window-layouts-in-visual-studio.md)

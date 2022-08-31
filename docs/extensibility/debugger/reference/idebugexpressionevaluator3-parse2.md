@@ -23,19 +23,7 @@ Converts an expression string to a parsed expression given the symbol provider a
 
 ## Syntax
 
-```cpp
-HRESULT Parse2 (
-    LPCOLESTR                upstrExpression,
-    PARSEFLAGS               dwFlags,
-    UINT                     nRadix,
-    IDebugSymbolProvider*    pSymbolProvider,
-    IDebugAddress*           pAddress,
-    BSTR*                    pbstrError,
-    UINT*                    pichError,
-    IDebugParsedExpression** ppParsedExpression
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 HRESULT Parse2 (
     string                     upstrExpression,
@@ -48,6 +36,20 @@ HRESULT Parse2 (
     out IDebugParsedExpression ppParsedExpression
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Parse2 (
+    LPCOLESTR                upstrExpression,
+    PARSEFLAGS               dwFlags,
+    UINT                     nRadix,
+    IDebugSymbolProvider*    pSymbolProvider,
+    IDebugAddress*           pAddress,
+    BSTR*                    pbstrError,
+    UINT*                    pichError,
+    IDebugParsedExpression** ppParsedExpression
+);
+```
+---
 
 ## Parameters
 `upstrExpression`\

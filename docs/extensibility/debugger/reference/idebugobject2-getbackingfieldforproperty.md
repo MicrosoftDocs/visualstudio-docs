@@ -25,17 +25,19 @@ Gets the field or variable (if any) that may be backing the property represented
 
 ## Syntax
 
-```cpp
-HRESULT GetBackingFieldForProperty(
-   IDebugObject2** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetBackingFieldForProperty(
    out IDebugObject2 ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetBackingFieldForProperty(
+   IDebugObject2** ppObject
+);
+```
+---
 
 ## Parameters
 `ppObject`\

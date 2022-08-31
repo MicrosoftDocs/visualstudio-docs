@@ -25,6 +25,17 @@ Specifies the state of the thread.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_THREADSTATE { 
+   THREADSTATE_RUNNING = 0x0001,
+   THREADSTATE_STOPPED = 0x0002,
+   THREADSTATE_FRESH   = 0x0003,
+   THREADSTATE_DEAD    = 0x0004,
+   THREADSTATE_FROZEN  = 0x0005
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_THREADSTATE { 
    THREADSTATE_RUNNING = 0x0001,
@@ -35,16 +46,7 @@ enum enum_THREADSTATE { 
 };
 typedef DWORD THREADSTATE;
 ```
-
-```csharp
-public enum enum_THREADSTATE { 
-   THREADSTATE_RUNNING = 0x0001,
-   THREADSTATE_STOPPED = 0x0002,
-   THREADSTATE_FRESH   = 0x0003,
-   THREADSTATE_DEAD    = 0x0004,
-   THREADSTATE_FROZEN  = 0x0005
-};
-```
+---
 
 ## Fields
  `THREADSTATE_RUNNING`\

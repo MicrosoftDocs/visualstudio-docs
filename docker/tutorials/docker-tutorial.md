@@ -217,7 +217,7 @@ Now, let's make a few changes and learn about managing your containers.
     Save your change.
 
 1. Stop and remove the current version of the container.
-   More than one contain can't use the same port.
+   More than one container can't use the same port.
 
    Right-click the **getting-started** container and select **Remove**.
 

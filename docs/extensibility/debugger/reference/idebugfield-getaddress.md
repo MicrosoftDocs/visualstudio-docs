@@ -25,17 +25,19 @@ This method gets the debug address of a field.
 
 ## Syntax
 
-```cpp
-HRESULT GetAddress( 
-   IDebugAddress** ppAddress
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAddress(
    out IDebugAddress ppAddress
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAddress( 
+   IDebugAddress** ppAddress
+);
+```
+---
 
 ## Parameters
 `ppAddress`\

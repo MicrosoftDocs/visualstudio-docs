@@ -25,17 +25,19 @@ Gets the port that the process is running on.
 
 ## Syntax
 
-```cpp
-HRESULT GetPort( 
-   IDebugPort2** ppPort
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPort( 
    out IDebugPort2 ppPort
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPort( 
+   IDebugPort2** ppPort
+);
+```
+---
 
 ## Parameters
 `ppPort`\

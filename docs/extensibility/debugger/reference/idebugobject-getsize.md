@@ -25,17 +25,19 @@ Gets the size of the object in bytes.
 
 ## Syntax
 
-```cpp
-HRESULT GetSize( 
-   UINT* pnSize
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSize(
    out uint pnSize
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSize( 
+   UINT* pnSize
+);
+```
+---
 
 ## Parameters
 `pnSize`\

@@ -39,8 +39,12 @@ If there were no mechanism to allow temporary constraint suspension, an error wo
 
 - The following example shows how to temporarily turn off constraint checking in a dataset:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs" id="Snippet10":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb" id="Snippet10":::
+     ---
 
 ## To suspend update constraints using the Dataset Designer
 

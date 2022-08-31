@@ -69,6 +69,8 @@ items:
         href: msbuild-tasks.md
       - name: Task writing
         href: task-writing.md
+      - name: Formats for errors and warnings
+        href: msbuild-diagnostic-format-for-tasks.md
       - name: Ignore errors in tasks
         href: how-to-ignore-errors-in-tasks.md
       - name: Build a project that has resources
@@ -497,40 +499,78 @@ items:
       href: special-characters-to-escape.md
     - name: Error messages
       items:
+      - name: MSB3021
+        href: errors/msb3021.md
+      - name: MSB3026
+        href: errors/msb3026.md
       - name: MSB3027
         href: errors/msb3027.md
+      - name: MSB3030
+        href: errors/msb3030.md
+      - name: MSB3041
+        href: errors/msb3041.md
+      - name: MSB3061
+        href: errors/msb3061.md
+      - name: MSB3073
+        href: errors/msb3073.md
       - name: MSB3075
         href: errors/msb3075.md
       - name: MSB3086
         href: errors/msb3086.md
+      - name: MSB3101
+        href: errors/msb3101.md
       - name: MSB3103
         href: errors/msb3103.md
       - name: MSB3190
         href: errors/msb3190.md
+      - name: MSB3191
+        href: errors/msb3191.md
+      - name: MSB3202
+        href: errors/msb3202.md
+      - name: MSB3243
+        href: errors/msb3243.md
+      - name: MSB3245
+        href: errors/msb3245.md
       - name: MSB3270
         href: errors/msb3270.md
       - name: MSB3721
         href: errors/msb3271.md
+      - name: MSB3231
+        href: errors/msb3231.md
       - name: MSB3273
         href: errors/msb3273.md
       - name: MSB3274
         href: errors/msb3274.md
       - name: MSB3275
         href: errors/msb3275.md
+      - name: MSB3276
+        href: errors/msb3276.md
       - name: MSB3277
         href: errors/msb3277.md
+      - name: MSB3284
+        href: errors/msb3284.md
+      - name: MSB3290
+        href: errors/msb3290.md
       - name: MSB3303
         href: errors/msb3303.md
       - name: MSB3304
         href: errors/msb3304.md
       - name: MSB3305
         href: errors/msb3305.md
+      - name: MSB3323
+        href: errors/msb3323.md
       - name: MSB3325
         href: errors/msb3325.md
       - name: MSB3326
         href: errors/msb3326.md
       - name: MSB3327
         href: errors/msb3327.md
+      - name: MSB3482
+        href: errors/msb3482.md
+      - name: MSB3491
+        href: errors/msb3491.md
+      - name: MSB3541
+        href: errors/msb3541.md
       - name: MSB3552
         href: errors/msb3552.md
       - name: MSB3553
@@ -545,6 +585,8 @@ items:
         href: errors/msb3645.md
       - name: MSB3721
         href: errors/msb3721.md
+      - name: MSB3774
+        href: errors/msb3774.md
       - name: MSB3821
         href: errors/msb3821.md
       - name: MSB3822
@@ -555,10 +597,28 @@ items:
         href: errors/msb3884.md
       - name: MSB3971
         href: errors/msb3971.md
+      - name: MSB4011
+        href: errors/msb4011.md
       - name: MSB4018
         href: errors/msb4018.md
+      - name: MSB4019
+        href: errors/msb4019.md
+      - name: MSB4024
+        href: errors/msb4024.md
+      - name: MSB4025
+        href: errors/msb4025.md
+      - name: MSB4030
+        href: errors/msb4030.md
+      - name: MSB4044
+        href: errors/msb4044.md
+      - name: MSB4057
+        href: errors/msb4057.md
       - name: MSB4062
         href: errors/msb4062.md
+      - name: MSB4064
+        href: errors/msb4064.md
+      - name: MSB4067
+        href: errors/msb4067.md
       - name: MSB4086
         href: errors/msb4086.md
       - name: MSB4094
@@ -571,12 +631,16 @@ items:
         href: errors/msb4175.md
       - name: MSB4181
         href: errors/msb4181.md
+      - name: MSB4184
+        href: errors/msb4184.md
       - name: MSB6001
         href: errors/msb6001.md
       - name: MSB6003
         href: errors/msb6003.md
       - name: MSB6004
         href: errors/msb6004.md
+      - name: MSB6006
+        href: errors/msb6006.md
       - name: MSB6011
         href: errors/msb6011.md
       - name: MSB8000

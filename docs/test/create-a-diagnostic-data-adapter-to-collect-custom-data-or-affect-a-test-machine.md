@@ -19,10 +19,7 @@ ms.technology: vs-ide-test
 
 You might want to create your own diagnostic data adapter to collect data when you run a test, or you might want to affect the test machine as part of your test. For example, you might want to collect log files that are created by your application under test and attach them to your test results, or you might want to run your tests when there is limited disk space left on your computer. Using APIs provided within Visual Studio Enterprise, you can write code to perform tasks at specific points in your test run. For example, you can perform tasks when a test run starts, before and after each individual test is run, and when the test run finishes.
 
-
-::: moniker range=">=vs-2019"
 You can provide default input to your custom diagnostic data adapter using a configuration settings file. For example, you can provide information about the location of the file you want to collect and attach to your test results, or how much disk space you want to be left on the system. This data can be configured for each test settings that you create. You can create your own user control to use as an editor. Any changes that are made to the adapter configuration in your editor are stored with your test settings.
-::: moniker-end
 
 If you are running your tests from Visual Studio, you must set these test settings to be active. For more information about test settings, see [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md).
 

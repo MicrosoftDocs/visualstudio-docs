@@ -23,17 +23,19 @@ Sets the locale for the port supplier.
 
 ## Syntax
 
-```cpp
-HRESULT SetLocale(
-   WORD wLangID
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetLocale(
    ushort wLangID
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetLocale(
+   WORD wLangID
+);
+```
+---
 
 ## Parameters
 `wLangID`\

@@ -25,15 +25,7 @@ Retrieves the text from the specified position in the document.
 
 ## Syntax
 
-```cpp
-HRESULT GetText(
-    TEXT_POSITION pos,
-    ULONG         cMaxChars,
-    WCHAR*        pText,
-    ULONG*        pcNumChars
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetText(
     eumn_TEXT_POSITION pos,
@@ -42,6 +34,16 @@ int GetText(
     out uint           pcNumChars
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetText(
+    TEXT_POSITION pos,
+    ULONG         cMaxChars,
+    WCHAR*        pText,
+    ULONG*        pcNumChars
+);
+```
+---
 
 ## Parameters
 `pos`\

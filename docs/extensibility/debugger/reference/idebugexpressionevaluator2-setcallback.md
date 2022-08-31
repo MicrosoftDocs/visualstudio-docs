@@ -24,17 +24,19 @@ Enables the expression evaluator (EE) to specify the callback interface that the
 
 ## Syntax
 
-```cpp
-HRESULT SetCallback (
-    IDebugSettingsCallback2* pCallback
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetCallback (
     IDebugSettingsCallback2 pCallback
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetCallback (
+    IDebugSettingsCallback2* pCallback
+);
+```
+---
 
 ## Parameters
 `pCallback`\

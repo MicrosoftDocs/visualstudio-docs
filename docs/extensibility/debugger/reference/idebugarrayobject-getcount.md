@@ -25,17 +25,19 @@ Gets the count of elements in the array.
 
 ## Syntax
 
-```cpp
-HRESULT GetCount( 
-   DWORD* pdwElements
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCount(
    out uint pdwElements
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCount( 
+   DWORD* pdwElements
+);
+```
+---
 
 ## Parameters
 `pdwElements`\

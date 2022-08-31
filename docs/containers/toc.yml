@@ -31,11 +31,9 @@
       href: deploy-app-service.md
     - name: Deploy to Docker Hub
       href: deploy-docker-hub.md
-    expanded: true
-  - name: Concepts
-    items:
-    - name: How Visual Studio builds containerized apps
+    - name: Customize container builds
       href: container-build.md
+    expanded: true
   - name: Troubleshooting
     href: troubleshooting-docker-errors.md
   - name: Reference
@@ -46,4 +44,6 @@
       href: docker-compose-properties.md
     - name: Launch settings
       href: container-launch-settings.md
+    - name: Error messages
+      href: container-tools-error-messages.md
   expanded: true

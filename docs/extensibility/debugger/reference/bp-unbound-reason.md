@@ -25,6 +25,16 @@ Gives the reason a breakpoint was unbound.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_BP_UNBOUND_REASON {
+    BPUR_UNKNOWN           = 0x0000,
+    BPUR_CODE_UNLOADED     = 0x0002,
+    BPUR_BREAKPOINT_REBIND = 0x0003,
+    BPUR_BREAKPOINT_ERROR  = 0x0004
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_BP_UNBOUND_REASON {
     BPUR_UNKNOWN           = 0x0000,
@@ -34,15 +44,7 @@ enum enum_BP_UNBOUND_REASON {
 };
 typedef DWORD BP_UNBOUND_REASON;
 ```
-
-```csharp
-public enum enum_BP_UNBOUND_REASON {
-    BPUR_UNKNOWN           = 0x0000,
-    BPUR_CODE_UNLOADED     = 0x0002,
-    BPUR_BREAKPOINT_REBIND = 0x0003,
-    BPUR_BREAKPOINT_ERROR  = 0x0004
-};
-```
+---
 
 ## Fields
 `BPUR_UNKNOWN`\

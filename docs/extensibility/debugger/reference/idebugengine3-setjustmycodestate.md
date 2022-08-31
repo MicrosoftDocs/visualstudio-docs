@@ -25,14 +25,7 @@ This method tells the debug engine about the JustMyCode state information.
 
 ## Syntax
 
-```cpp
-HRESULT SetJustMyCodeState(
-   BOOL           fUpdate,
-   DWORD          dwModules,
-   JMC_CODE_SPEC* rgJMCSpec
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetJustMyCodeState(
    int             fUpdate,
@@ -40,6 +33,15 @@ int SetJustMyCodeState(
    JMC_CODE_SPEC[] rgJMCSpec
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetJustMyCodeState(
+   BOOL           fUpdate,
+   DWORD          dwModules,
+   JMC_CODE_SPEC* rgJMCSpec
+);
+```
+---
 
 ## Parameters
 `fUpdate`\

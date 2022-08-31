@@ -25,19 +25,21 @@ Describes a method or function call.
 
 ## Syntax
 
-```cpp
-typedef struct tagCODE_PATH { 
-    BSTR                bstrName;
-    IDebugCodeContext2* pCode;
-} CODE_PATH;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct CODE_PATH {
     public string            bstrName;
     public IDebugCodeContext pCode;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagCODE_PATH { 
+    BSTR                bstrName;
+    IDebugCodeContext2* pCode;
+} CODE_PATH;
+```
+---
 
 ## Members
 `bstrName`\

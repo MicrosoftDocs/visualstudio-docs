@@ -23,6 +23,16 @@ Enumerates the valid values that represent the kinds of information to take from
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_DisplayKind
+{
+    DisplayKind_Value = 0x1,
+    DisplayKind_Name = 0x2,
+    DisplayKind_Type = 0x3,
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_DisplayKind
 {
@@ -32,15 +42,7 @@ enum enum_DisplayKind
 };
 typedef DWORD DisplayKind;
 ```
-
-```csharp
-public enum enum_DisplayKind
-{
-    DisplayKind_Value = 0x1,
-    DisplayKind_Name = 0x2,
-    DisplayKind_Type = 0x3,
-};
-```
+---
 
 ## Fields
 `DisplayKind_Value`\

@@ -25,15 +25,17 @@ Requests that the program stop execution the next time one of its threads attemp
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int CauseBreak();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT CauseBreak( 
    void 
 );
 ```
-
-```csharp
-int CauseBreak();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

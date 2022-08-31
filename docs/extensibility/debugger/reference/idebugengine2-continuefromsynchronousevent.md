@@ -25,17 +25,19 @@ Called by the session debug manager (SDM) to indicate that a synchronous debug e
 
 ## Syntax
 
-```cpp
-HRESULT ContinueFromSynchronousEvent(
-    IDebugEvent2* pEvent
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 HRESULT ContinueFromSynchronousEvent(
     IDebugEvent2 pEvent
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ContinueFromSynchronousEvent(
+    IDebugEvent2* pEvent
+);
+```
+---
 
 ## Parameters
 `pEvent`\

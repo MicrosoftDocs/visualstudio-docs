@@ -25,14 +25,7 @@ This method makes a program available for debug engines (DEs) and the session de
 
 ## Syntax
 
-```cpp
-HRESULT PublishProgram(
-   CONST_GUID_ARRAY Engines,
-   LPCOLESTR        szFriendlyName,
-   IUnknown*        pDebuggeeInterface
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int PublishProgram(
    CONST_GUID_ARRAY Engines,
@@ -40,6 +33,15 @@ int PublishProgram(
    object           pDebuggeeInterface
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT PublishProgram(
+   CONST_GUID_ARRAY Engines,
+   LPCOLESTR        szFriendlyName,
+   IUnknown*        pDebuggeeInterface
+);
+```
+---
 
 ## Parameters
 `Engines`\

@@ -34,6 +34,8 @@ The **Git Repository** window contains three main sections, as numbered in the p
    - **Local History** shows the rest of commits tracked by your local repository.
 1. **Commit**: Selecting any commit in the **Graph** section opens its details. You can check the changes that a commit has introduced by selecting them, which shows a difference. For example, the previous screenshot shows the changes that one commit introduced to the *Files.csproj* file.
 
+The Alt+Up arrow key or Alt+Down arrow keyboard shortcuts allow you to jump between these sections.
+
 You can browse though any local or remote branch without having to switch your branch. When you find a commit that you want to focus on, select the **Open in New Tab** button to open the commit on a different tab.
 
 :::image type="content" source="media/vs-2022/git-repository-open-new-tab.png" alt-text="Screenshot of how to open a commit on a new tab." lightbox="media/vs-2022/git-repository-open-new-tab.png":::

@@ -25,19 +25,21 @@ This method retrieves the exception associated with an object, if any.
 
 ## Syntax
 
-```cpp
-HRESULT GetExceptionObjectAndType(
-   IDebugObject** ppException,
-   IDebugField**  ppField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetExceptionObjectAndType(
    out IDebugObject ppException,
    out IDebugField  ppField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetExceptionObjectAndType(
+   IDebugObject** ppException,
+   IDebugField**  ppField
+);
+```
+---
 
 ## Parameters
 `ppException`\

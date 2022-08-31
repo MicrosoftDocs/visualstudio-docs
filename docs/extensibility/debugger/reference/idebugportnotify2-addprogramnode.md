@@ -25,17 +25,19 @@ Registers a program that can be debugged with the port it is running on.
 
 ## Syntax
 
-```cpp
-HRESULT AddProgramNode( 
-   IDebugProgramNode2* pProgramNode
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int AddProgramNode( 
    IDebugProgramNode2 pProgramNode
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT AddProgramNode( 
+   IDebugProgramNode2* pProgramNode
+);
+```
+---
 
 ## Parameters
 `pProgramNode`\

@@ -25,17 +25,19 @@ Returns the initial data for this object.
 
 ## Syntax
 
-```cpp
-HRESULT GetInitialData(
-   IEEDataStorage** dataOut
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetInitialData(
    out IEEDataStorage dataOut
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetInitialData(
+   IEEDataStorage** dataOut
+);
+```
+---
 
 ## Parameters
 `dataOut`\

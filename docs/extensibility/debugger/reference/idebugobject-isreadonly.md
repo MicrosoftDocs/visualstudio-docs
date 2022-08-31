@@ -25,17 +25,19 @@ Determines if this object is read-only.
 
 ## Syntax
 
-```cpp
-HRESULT IsReadOnly( 
-   BOOL* pfIsReadOnly
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsReadOnly(
    out int pfIsReadOnly
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsReadOnly( 
+   BOOL* pfIsReadOnly
+);
+```
+---
 
 ## Parameters
 `pfIsReadOnly`\

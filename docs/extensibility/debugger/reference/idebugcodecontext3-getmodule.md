@@ -23,17 +23,19 @@ Retrieves a reference to the interface of the debug module.
 
 ## Syntax
 
-```cpp
-HRESULT GetModule(
-    IDebugModule2 **ppModule
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int GetModule(
     out IDebugModule2 ppModule
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetModule(
+    IDebugModule2 **ppModule
+);
+```
+---
 
 ## Parameters
 `ppModule`\

@@ -25,16 +25,7 @@ Attaches a debug engine (DE) to a program or programs. Called by the session deb
 
 ## Syntax
 
-```cpp
-HRESULT Attach( 
-   IDebugProgram2**      pProgram,
-   IDebugProgramNode2**  rgpProgramNodes,
-   DWORD                 celtPrograms,
-   IDebugEventCallback2* pCallback,
-   ATTACH_REASON         dwReason
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Attach( 
    IDebugProgram2[]     pProgram,
@@ -44,6 +35,17 @@ int Attach( 
    Enum_ATTACH_REASON   dwReason
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Attach( 
+   IDebugProgram2**      pProgram,
+   IDebugProgramNode2**  rgpProgramNodes,
+   DWORD                 celtPrograms,
+   IDebugEventCallback2* pCallback,
+   ATTACH_REASON         dwReason
+);
+```
+---
 
 ## Parameters
 `pProgram`\

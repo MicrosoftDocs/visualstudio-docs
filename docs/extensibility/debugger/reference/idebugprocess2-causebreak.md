@@ -25,15 +25,17 @@ Requests that the next program that is running code in this process halt and sen
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int CauseBreak();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT CauseBreak( 
    void
 );
 ```
-
-```csharp
-int CauseBreak();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

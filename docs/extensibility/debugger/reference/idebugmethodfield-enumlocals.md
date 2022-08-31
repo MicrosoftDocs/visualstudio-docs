@@ -25,19 +25,21 @@ Creates an enumerator for selected local variables of the method.
 
 ## Syntax
 
-```cpp
-HRESULT EnumLocals(
-    IDebugAddress*     pAddress,
-    IEnumDebugFields** ppLocals
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumLocals(
     IDebugAddress        pAddress,
     out IEnumDebugFields ppLocals
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumLocals(
+    IDebugAddress*     pAddress,
+    IEnumDebugFields** ppLocals
+);
+```
+---
 
 ## Parameters
 `pAddress`\

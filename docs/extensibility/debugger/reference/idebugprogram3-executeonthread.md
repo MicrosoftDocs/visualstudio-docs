@@ -23,16 +23,18 @@ Executes the debugger program. The thread is returned to give the debugger infor
 
 ## Syntax
 
-```cpp
-HRESULT ExecuteOnThread(
-   [in] IDebugThread2* pThread)
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ExecuteOnThread(
    IDebugThread2 pThread
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ExecuteOnThread(
+   [in] IDebugThread2* pThread)
+```
+---
 
 ## Parameters
 `pThread`\

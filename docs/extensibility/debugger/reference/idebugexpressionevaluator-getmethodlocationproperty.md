@@ -25,16 +25,7 @@ This method converts a method location and offset into a memory address.
 
 ## Syntax
 
-```cpp
-HRESULT GetMethodLocationProperty( 
-   LPCOLESTR             upstrFullyQualifiedMethodPlusOffset,
-   IDebugSymbolProvider* pSymbolProvider,
-   IDebugAddress*        pAddress,
-   IDebugBinder*         pBinder,
-   IDebugProperty2**     ppProperty
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMethodLocationProperty(
    string               upstrFullyQualifiedMethodPlusOffset,
@@ -44,6 +35,17 @@ int GetMethodLocationProperty(
    out IDebugProperty2  ppProperty
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMethodLocationProperty( 
+   LPCOLESTR             upstrFullyQualifiedMethodPlusOffset,
+   IDebugSymbolProvider* pSymbolProvider,
+   IDebugAddress*        pAddress,
+   IDebugBinder*         pBinder,
+   IDebugProperty2**     ppProperty
+);
+```
+---
 
 ## Parameters
 `upstrFullyQualifiedMethodPlusOffset`\

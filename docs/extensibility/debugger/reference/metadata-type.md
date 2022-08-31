@@ -25,14 +25,7 @@ This structure specifies information about a field type taken from metadata.
 
 ## Syntax
 
-```cpp
-typedef struct _tagTYPE_METADATA {
-   ULONG32  ulAppDomainID;
-   GUID     guidModule;
-   _mdToken tokClass;
-} METADATA_TYPE;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct METADATA_TYPE {
    public uint ulAppDomainID;
@@ -40,6 +33,15 @@ public struct METADATA_TYPE {
    public int  tokClass;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagTYPE_METADATA {
+   ULONG32  ulAppDomainID;
+   GUID     guidModule;
+   _mdToken tokClass;
+} METADATA_TYPE;
+```
+---
 
 ## Parameters
  `ulAppDomainID`\

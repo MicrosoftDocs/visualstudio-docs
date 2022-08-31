@@ -74,8 +74,8 @@
       href: view-data-values-in-data-tips-in-the-code-editor.md
     - name: View string values in a visualizer
       href: view-strings-visualizer.md
-    - name: View collections in a table visualizer
-      href: view-data-ienumerable-table-visualizer.md
+    - name: View .NET collections with the IEnumerable visualizer
+      href: view-data-in-ienumerable-visualizer.md
     - name: Disassembly code
       items:
       - name: View disassembly code
@@ -186,6 +186,8 @@
           href: how-to-write-a-run-time-error-reporting-function.md
     - name: Specify symbol (.pdb) and source files in the debugger
       href: specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md
+    - name: Enable debugging and diagnostics with Source Link
+      href: how-to-improve-diagnostics-debugging-with-sourcelink.md
     - name: Debug user code
       href: just-my-code.md
     - name: Debugger settings
@@ -264,6 +266,8 @@
           href: how-to-test-and-debug-a-visualizer.md
         - name: Visualizer security considerations
           href: visualizer-security-considerations.md
+        - name: Advanced visualizer scenarios
+          href: visualizer-advanced-scenarios.md
         - name: Visualizer API reference
           href: visualizer-api-reference.md
     - name: restore hidden debugger commands
@@ -292,6 +296,8 @@
       href: configure-the-windows-firewall-for-remote-debugging.md
     - name: Unblock the download on Windows Server
       href: remote-debugging-unblock-file-download.md
+    - name: Troubleshoot remote debugging
+      href: troubleshooting-remote-debugging.md
     - name: Remote debugging error reference
       items:
       - name: Remote debugging errors and troubleshooting

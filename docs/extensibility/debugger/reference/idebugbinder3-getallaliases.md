@@ -25,14 +25,7 @@ This method retrieves a list of aliases from the program.
 
 ## Syntax
 
-```cpp
-HRESULT GetAllAliases(
-   UINT          uRequest,
-   IDebugAlias** ppAliases,
-   UINT*         puFetched
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAllAliases(
    uint          uRequest,
@@ -40,6 +33,15 @@ int GetAllAliases(
    out uint      puFetched
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAllAliases(
+   UINT          uRequest,
+   IDebugAlias** ppAliases,
+   UINT*         puFetched
+);
+```
+---
 
 ## Parameters
 `uRequest`\

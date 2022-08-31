@@ -27,11 +27,8 @@ You create a project from a template using **File** > **New** > **Project**. To 
 ![New project dialog for web apps](media/projects-new-project-dialog-web.png)
 
 
-::: moniker range=">=vs-2019"
-
 The generic **Web Project** template, mentioned earlier, provides only an empty Visual Studio project with no code and no assumptions other than being a Python project.
 
-::: moniker-end
 
 All the other templates are based on the Bottle, Flask, or Django web frameworks, and fall into three general groups as described in the following sections. The apps created by any of these templates contain sufficient code to run and debug the app locally. Each one also provides the necessary [WSGI app object](https://www.python.org/dev/peps/pep-3333/) (python.org) for use with production web servers.
 
@@ -64,7 +61,7 @@ When creating a project from a framework-specific template, a dialog appears to 
 
 If you're using source control, you typically omit the virtual environment folder as that environment can be recreated using only *requirements.txt*. The best way to exclude the folder is to first select the **I will install them myself** in the prompt shown above, then disable auto-commit before creating the virtual environment. For details, see [Learn Django Tutorial - Steps 1-2 and 1-3](learn-django-in-visual-studio-step-01-project-and-solution.md#step-1-2-examine-the-git-controls-and-publish-to-a-remote-repository) and [Learn Flask Tutorial - Steps 1-2 and 1-3](learn-flask-visual-studio-step-01-project-solution.md#step-1-2-examine-the-git-controls-and-publish-to-a-remote-repository).
 
-When deploying to Microsoft Azure App Service, select a version of Python as a [site extension](./managing-python-on-azure-app-service.md?view=vs-2019&preserve-view=true) and manually install packages. Also, because Azure App Service does **not** automatically install packages from a *requirements.txt* file when deployed from Visual Studio, follow the configuration details on [aka.ms/PythonOnAppService](managing-python-on-azure-app-service.md).
+When deploying to Microsoft Azure App Service, select a version of Python as a [site extension](/azure/app-service/quickstart-python) and manually install packages. Also, because Azure App Service does **not** automatically install packages from a *requirements.txt* file when deployed from Visual Studio, follow the configuration details on [aka.ms/PythonOnAppService](/azure/app-service/quickstart-python).
 
 ## Debugging
 

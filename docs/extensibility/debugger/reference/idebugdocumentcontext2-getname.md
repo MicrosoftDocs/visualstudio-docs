@@ -25,19 +25,21 @@ Gets the displayable name of the document that contains this document context.
 
 ## Syntax
 
-```cpp
-HRESULT GetName(
-    GETNAME_TYPE gnType,
-    BSTR*        pbstrFileName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetName(
     enum_GETNAME_TYPE  gnType,
     out string         pbstrFileName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetName(
+    GETNAME_TYPE gnType,
+    BSTR*        pbstrFileName
+);
+```
+---
 
 ## Parameters
 `gnType`\

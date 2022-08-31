@@ -109,13 +109,16 @@ After you generate the directive processor, you connect the directive processor 
 
 4. At the top of Program.cs or Module1.vb, add the following line of code:
 
+    ### [C#](#tab/csharp)
     ```csharp
     using Microsoft.Win32;
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     Imports Microsoft.Win32
     ```
+    ---
 
 5. Locate the code for the property `StandardAssemblyReferences`, and replace it with the following code:
 
@@ -244,6 +247,7 @@ To test the custom text template host, first you must write a text template that
     > [!NOTE]
     > The programming language of the text template does not need to match that of the custom host.
 
+    ### [C#](#tab/csharp)
     ```csharp
     Text Template Host Test
 
@@ -276,6 +280,7 @@ To test the custom text template host, first you must write a text template that
     #>
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     Text Template Host Test
 
@@ -310,6 +315,7 @@ To test the custom text template host, first you must write a text template that
        Next
     #>
     ```
+    ---
 
 3. In the code, replace \<YOUR PATH> with the path of the Sample.min file from the design-specific language you created in the first procedure.
 

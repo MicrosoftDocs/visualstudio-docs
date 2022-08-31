@@ -25,15 +25,7 @@ This method evaluates the expression synchronously.
 
 ## Syntax
 
-```cpp
-HRESULT EvaluateSync(
-    EVALFLAGS             dwFlags,
-    DWORD                 dwTimeout,
-    IDebugEventCallback2* pExprCallback,
-    IDebugProperty2**     ppResult
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EvaluateSync(
     enum_EVALFLAGS       dwFlags,
@@ -42,6 +34,16 @@ int EvaluateSync(
     out IDebugProperty2  ppResult
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EvaluateSync(
+    EVALFLAGS             dwFlags,
+    DWORD                 dwTimeout,
+    IDebugEventCallback2* pExprCallback,
+    IDebugProperty2**     ppResult
+);
+```
+---
 
 ## Parameters
 `dwFlags`\

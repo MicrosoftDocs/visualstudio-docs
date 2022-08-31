@@ -25,17 +25,19 @@ Gets the displayable message.
 
 ## Syntax
 
-```cpp
-HRESULT GetString( 
-   BSTR* pbstrString
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetString( 
    out string pbstrString
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetString( 
+   BSTR* pbstrString
+);
+```
+---
 
 ## Parameters
 `pbstrString`\

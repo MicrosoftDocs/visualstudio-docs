@@ -25,17 +25,19 @@ Returns the code context representing a location if a stack unwind operation occ
 
 ## Syntax
 
-```cpp
-HRESULT GetUnwindCodeContext(
-   IDebugCodeContext2 **ppCodeContext
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetUnwindCodeContext(
    out IDebugCodeContext2 ppCodeContext
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetUnwindCodeContext(
+   IDebugCodeContext2 **ppCodeContext
+);
+```
+---
 
 ## Parameters
 `ppCodeContext`\

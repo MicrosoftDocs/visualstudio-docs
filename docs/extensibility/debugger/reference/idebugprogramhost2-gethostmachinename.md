@@ -25,17 +25,19 @@ Gets the name of the machine that the process hosting this program is running on
 
 ## Syntax
 
-```cpp
-HRESULT GetHostMachineName( 
-   BSTR* pbstrHostMachineName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetHostMachineName( 
    out string pbstrHostMachineName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetHostMachineName( 
+   BSTR* pbstrHostMachineName
+);
+```
+---
 
 ## Parameters
 `pbstrHostMachineName`\

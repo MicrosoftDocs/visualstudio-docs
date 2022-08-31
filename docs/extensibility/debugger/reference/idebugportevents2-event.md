@@ -25,17 +25,7 @@ This method sends events that signify the creation and destruction of processes 
 
 ## Syntax
 
-```cpp
-HRESULT Event(
-   IDebugCoreServer2* pServer,
-   IDebugPort2*       pPort,
-   IDebugProcess2*    pProcess,
-   IDebugProgram2*    pProgram,
-   IDebugEvent2*      pEvent,
-   REFIID             riidEvent
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Event(
    IDebugCoreServer2 pServer,
@@ -46,6 +36,18 @@ int Event(
    ref Guid          riidEvent
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Event(
+   IDebugCoreServer2* pServer,
+   IDebugPort2*       pPort,
+   IDebugProcess2*    pProcess,
+   IDebugProgram2*    pProgram,
+   IDebugEvent2*      pEvent,
+   REFIID             riidEvent
+);
+```
+---
 
 ## Parameters
 `pMachine`\

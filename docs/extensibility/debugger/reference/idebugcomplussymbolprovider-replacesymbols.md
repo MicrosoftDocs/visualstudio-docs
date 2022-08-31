@@ -24,14 +24,7 @@ Replaces the current debug symbols with those in the specified data stream.
 
 ## Syntax
 
-```cpp
-HRESULT ReplaceSymbols(
-    ULONG32  ulAppDomainID,
-    GUID     guidModule,
-    IStream* pStream
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ReplaceSymbols(
     uint    ulAppDomainID,
@@ -39,6 +32,15 @@ int ReplaceSymbols(
     IStream pStream
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ReplaceSymbols(
+    ULONG32  ulAppDomainID,
+    GUID     guidModule,
+    IStream* pStream
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

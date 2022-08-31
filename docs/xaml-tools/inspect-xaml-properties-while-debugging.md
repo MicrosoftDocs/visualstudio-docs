@@ -5,8 +5,8 @@ ms.custom: SEO-VS-2020
 ms.date: 10/26/2021
 ms.topic: how-to
 ms.assetid: 390edde4-7b8d-4c89-8d69-55106b7e6b11
-author: TerryGLee
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
 ms.workload:
@@ -31,11 +31,9 @@ Let's get started with a very simple WPF application that has a list view and a 
 
 ### Create the project
 
-::: moniker range=">=vs-2019"
 
 1. Create a new C# WPF application (**File** > **New** > **Project**, type "C# WPF", choose the **WPF Application** project template, name the project **TestXAML**, and then verify that the correct .NET version appears in the **Target Framework** drop-down.
 
-::: moniker-end
 
 
 2. Change MainWindow.xaml to the following:

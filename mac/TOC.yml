@@ -136,6 +136,8 @@
       href: set-up-git-repository.md
     - name: Working with Git
       href: working-with-git.md
+    - name: Working with Git
+      href: working-with-git-2019.md
     - name: Setting Up a Subversion Repository
       href: set-up-subversion-repository.md
     - name: Working with Subversion

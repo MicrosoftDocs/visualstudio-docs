@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "xaml edit"
   - "xaml live preview"
-author: TerryGLee
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
 ms.workload:
@@ -101,8 +101,8 @@ The initial release of Visual Studio 2022 supports the following platforms and d
 |---------|---------|---------|
 |WPF      |Yes         |Yes         |
 |UWP      |Yes         |Yes         |
-|WinUI3 desktop     |No         |Yes         |
-|MAUI (Android Emulator)     |No         |Yes (px*)         |
+|WinUI3 desktop     |Yes        |Yes         |
+|.NET MAUI|Yes         |Yes     |
 |Xamarin 5.0+ (Android Emulator)     |No          |Yes (px*)         |
 
 > [!NOTE]

@@ -26,15 +26,7 @@ Compares the memory context to each context in the given array in the manner ind
 
 ## Syntax
 
-```cpp
-HRESULT Compare( 
-   CONTEXT_COMPARE        compare,
-   IDebugMemoryContext2** rgpMemoryContextSet,
-   DWORD                  dwMemoryContextSetLen,
-   DWORD*                 pdwMemoryContext
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Compare(
    enum_CONTEXT_COMPARE   compare,
@@ -43,6 +35,16 @@ int Compare(
    out uint               pdwMemoryContext
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Compare( 
+   CONTEXT_COMPARE        compare,
+   IDebugMemoryContext2** rgpMemoryContextSet,
+   DWORD                  dwMemoryContextSetLen,
+   DWORD*                 pdwMemoryContext
+);
+```
+---
 
 ## Parameters
 `compare`\

@@ -27,7 +27,7 @@ See [Visual Studio 2019 System Requirements](/visualstudio/releases/2019/system-
 
 ::: moniker range="vs-2022"
 
-Visual Studio 2022 17.3 Preview2 is now available as a native Arm64 application on [Windows 11 Arm 64](https://blogs.windows.com/windowsdeveloper/?p=56439). This will be the first version of Visual Studio that will natively support building and debugging Arm64 apps on Arm-based processors. This latest version of Visual Studio significantly reduces the dependence on x64 emulation. 
+[Visual Studio 2022 17.3 Preview 2 is now available as a native Arm64 application](https://devblogs.microsoft.com/visualstudio/arm64-visual-studio/) on Windows 11 Arm 64. This will be the first version of Visual Studio that will natively support building and debugging Arm64 apps on Arm-based processors. This latest version of Visual Studio significantly reduces the dependence on x64 emulation. 
 
 ## Get started with Arm64 Visual Studio
 
@@ -35,7 +35,7 @@ To get started with the native Arm64 Visual Studio experience you'll need the fo
 
 - Ensure you have an Arm64 device with Windows 11.
 - Uninstall any prior versions of Visual Studio 2022 from your Arm64 device.
-- Download and install Visual Studio 2022 17.3 Preview 2.
+- Download and install [Visual Studio 2022 17.3 Preview 2](https://visualstudio.microsoft.com/vs/preview/).
 
 ## Installing Arm64 Visual Studio
 
@@ -66,9 +66,9 @@ With the Visual Studio 17.3 Preview 2 release, you can access the new native Arm
 
 | **Host architecture (platform the compiler is running on)** | **Target architecture (platform the compiler is generating binaries for)** | **Installation path** |
 | ----------- | ------ | --------------- |
-| Arm64 | Arm64 | <'Visual Studio install'>\VC\Tools\MSVC\14.33.31424\bin\HostARM64\ARM64 |
-| Arm64 | X64 | <'Visual Studio install'>\VC\Tools\MSVC\14.33.31424\bin\HostARM64\x64 |
-| Arm64 | X86 | <'Visual Studio install'>\VC\Tools\MSVC\14.33.31424\bin\HostARM64\x86 |
+| Arm64 | Arm64 | \<Install location\>\VC\Tools\MSVC\<version>\bin\HostARM64\ARM64 |
+| Arm64 | X64 | \<Install location\>\VC\Tools\MSVC\\<version\>\bin\HostARM64\x64 |
+| Arm64 | X86 | \<Install location\>\VC\Tools\MSVC\\<version\>\bin\HostARM64\x86 |
 
 Many C++ libraries are already available on Arm64. Vcpkg also runs natively on Arm64, and while some dependent 3rd party tools may still run emulated, you can successfully build and consume 1700+ C++ libraries directly in your native Arm64 build environment.
 

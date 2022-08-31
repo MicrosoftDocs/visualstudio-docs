@@ -147,8 +147,12 @@ ms.workload:
 
 1. In the **SiteColumnProjectItemTypeProvider** code file, replace the default code with the following code, and then save the file.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projectitemtypedefinition/sitecolumnprojectitemtypeprovider.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projectitemtypedefinition/sitecolumnprojectitemtypeprovider.vb" id="Snippet1":::
+     ---
 
 ## Create a Visual Studio project template
  By creating a project template, you enable other developers to create SharePoint projects that contain site column project items. A SharePoint project template includes files that are required for all projects in Visual Studio, such as *.csproj* or *.vbproj* and *.vstemplate* files, and files that are specific to SharePoint projects. For more information, see [Create item templates and project templates for SharePoint project items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).
@@ -242,13 +246,16 @@ ms.workload:
 
 1. In the SiteColumnProjectTemplate project, open the *AssemblyInfo.cs* or *AssemblyInfo.vb* file, and then add the following statement to the top of it:
 
-    ```vb
-    Imports System.Security
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     using System.Security;
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Imports System.Security
+    ```
+    ---
 
      When the **Sandboxed Solution** property of a SharePoint project is set to **True**, Visual Studio adds the <xref:System.Security.AllowPartiallyTrustedCallersAttribute> to the AssemblyInfo code file. However, the AssemblyInfo code file in the project template doesn't import the <xref:System.Security> namespace by default. You must add this **using** or **Imports** statement to prevent compile errors.
 

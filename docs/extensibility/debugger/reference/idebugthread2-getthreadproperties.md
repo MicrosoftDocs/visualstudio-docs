@@ -25,19 +25,21 @@ Gets the properties that describe this thread.
 
 ## Syntax
 
-```cpp
-HRESULT GetThreadProperties (
-    THREADPROPERTY_FIELDS dwFields,
-    THREADPROPERTIES*     ptp
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetThreadProperties (
     enum_THREADPROPERTY_FIELDS dwFields,
     THREADPROPERTIES[]         ptp
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetThreadProperties (
+    THREADPROPERTY_FIELDS dwFields,
+    THREADPROPERTIES*     ptp
+);
+```
+---
 
 ## Parameters
 `dwFields`\

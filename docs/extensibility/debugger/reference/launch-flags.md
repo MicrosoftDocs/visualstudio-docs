@@ -25,6 +25,16 @@ Specifies the debug launch flags.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_LAUNCH_FLAGS {
+    LAUNCH_DEBUG      = 0x0000,
+    LAUNCH_NODEBUG    = 0x0001,
+    LAUNCH_ENABLE_ENC = 0x0002,
+    LAUNCH_MERGE_ENV  = 0x0004
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_LAUNCH_FLAGS {
     LAUNCH_DEBUG      = 0x0000,
@@ -34,15 +44,7 @@ enum enum_LAUNCH_FLAGS {
 };
 typedef DWORD LAUNCH_FLAGS;
 ```
-
-```csharp
-public enum enum_LAUNCH_FLAGS {
-    LAUNCH_DEBUG      = 0x0000,
-    LAUNCH_NODEBUG    = 0x0001,
-    LAUNCH_ENABLE_ENC = 0x0002,
-    LAUNCH_MERGE_ENV  = 0x0004
-};
-```
+---
 
 ## Fields
 `LAUNCH_DEBUG`\

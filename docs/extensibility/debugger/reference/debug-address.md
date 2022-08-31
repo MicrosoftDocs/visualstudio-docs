@@ -25,15 +25,7 @@ This structure represents an address.
 
 ## Syntax
 
-```cpp
-typedef struct _tagDEBUG_ADDRESS {
-    ULONG32             ulAppDomainID;
-    GUID                guidModule;
-    _mdToken            tokClass;
-    DEBUG_ADDRESS_UNION addr;
-} DEBUG_ADDRESS;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct DEBUG_ADDRESS {
     public uint                ulAppDomainID;
@@ -42,6 +34,16 @@ public struct DEBUG_ADDRESS {
     public DEBUG_ADDRESS_UNION addr;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagDEBUG_ADDRESS {
+    ULONG32             ulAppDomainID;
+    GUID                guidModule;
+    _mdToken            tokClass;
+    DEBUG_ADDRESS_UNION addr;
+} DEBUG_ADDRESS;
+```
+---
 
 ## Members
 `ulAppDomainID`\

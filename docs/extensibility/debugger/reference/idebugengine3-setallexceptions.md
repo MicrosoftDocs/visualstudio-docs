@@ -25,17 +25,19 @@ This method sets the state of all outstanding exceptions.
 
 ## Syntax
 
-```cpp
-HRESULT SetAllExceptions(
-   EXCEPTION_STATE dwState
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetAllExceptions(
    enum_EXCEPTION_STATE dwState
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetAllExceptions(
+   EXCEPTION_STATE dwState
+);
+```
+---
 
 ## Parameters
 `dwState`\

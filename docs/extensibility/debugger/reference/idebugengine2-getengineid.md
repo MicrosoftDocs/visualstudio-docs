@@ -25,17 +25,19 @@ Gets the GUID of the debug engine (DE).
 
 ## Syntax
 
-```cpp
-HRESULT GetEngineID(
-    GUID* pguidEngine
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetEngineID(
     out Guid pguidEngine
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEngineID(
+    GUID* pguidEngine
+);
+```
+---
 
 ## Parameters
 `pguidEngine`\

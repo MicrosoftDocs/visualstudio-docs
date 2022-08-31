@@ -25,15 +25,7 @@ Sets the value pointed to from a series of consecutive bytes.
 
 ## Syntax
 
-```cpp
-HRESULT SetBytes( 
-   DWORD  dwStart,
-   DWORD  dwCount,
-   BYTE*  pBytes,
-   DWORD* pdwBytes
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetBytes(
    uint     dwStart,
@@ -42,6 +34,16 @@ int SetBytes(
    out uint pdwBytes
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetBytes( 
+   DWORD  dwStart,
+   DWORD  dwCount,
+   BYTE*  pBytes,
+   DWORD* pdwBytes
+);
+```
+---
 
 ## Parameters
 `dwStart`\

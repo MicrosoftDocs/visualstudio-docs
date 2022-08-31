@@ -1,7 +1,7 @@
 ---
 title: "Create a React app"
 description: In this tutorial, learn how to create a simple React application in Visual Studio.
-ms.date: 01/28/2022
+ms.date: 07/26/2022
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
@@ -23,7 +23,7 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
 ## Prerequisites
 
-Make sure to have the following installed:
+Make sure to install the following:
 
 - Visual Studio 2022 or later. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
 - npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
@@ -31,7 +31,7 @@ Make sure to have the following installed:
 
 ## Create your app
 
-1. In the New Project Dialog, select **Create a new project**.
+1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Create a new project":::
 
@@ -43,17 +43,16 @@ Make sure to have the following installed:
 
    If you previously selected Standalone JavaScript React Template, when you get to the Additional information window be sure NOT to check the **Add integration for Empty ASP.NET Web API Project** option. This option adds files to your React template so that it can be hooked up with the ASP.NET Core project, if an ASP.NET Core project is added.
 
-   :::image type="content" source="media/vs-2022/react-additional-info.png" alt-text="Additional information":::
+   :::image type="content" source="media/vs-2022/react-additional-info-no-integration.png" alt-text="Additional information":::
 
    Please note that creation of the React project takes a moment because the create-react-app command that runs at this time also runs the npm install command
 
-## Set the project properties
+## View the project properties
 
-1. In Solution Explorer, right-click the React project, select **Properties**, and then go the **Debugging** section.
+The default project settings allow you to build and debug the project. But, if you need to change settings, right-click the project in Solution Explorer, select **Properties**, and then go the **Build** or **Debugging** section.
 
-1. Change the Debugger to launch to the **launch.json** option.
- 
-   :::image type="content" source="media/vs-2022/react-choose-debugger.png" alt-text="Choose the debugger (launch.json)":::
+>[!NOTE]
+> *launch.json* stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, *launch.json* must be located under the *.vscode* folder.
 
 ## Build Your Project
 

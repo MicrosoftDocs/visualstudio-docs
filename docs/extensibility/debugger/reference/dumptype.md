@@ -25,6 +25,14 @@ Specifies how much of a program's state (such as running threads, stack frames, 
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_DUMPTYPE {
+    DUMP_MINIDUMP = 0,
+    DUMP_FULLDUMP = 1
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_DUMPTYPE {
     DUMP_MINIDUMP = 0,
@@ -32,13 +40,7 @@ enum enum_DUMPTYPE {
 };
 typedef DWORD DUMPTYPE;
 ```
-
-```csharp
-public enum enum_DUMPTYPE {
-    DUMP_MINIDUMP = 0,
-    DUMP_FULLDUMP = 1
-};
-```
+---
 
 ## Fields
 `DUMP_MINIDUMP`\

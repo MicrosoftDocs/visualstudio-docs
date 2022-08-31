@@ -25,15 +25,17 @@ Indicates that the entire document has been destroyed.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int onDestroy();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT onDestroy( 
    void 
 );
 ```
-
-```csharp
-int onDestroy();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

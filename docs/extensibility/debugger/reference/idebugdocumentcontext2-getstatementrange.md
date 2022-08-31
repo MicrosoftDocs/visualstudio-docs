@@ -25,19 +25,21 @@ Gets the file statement range of the document context.
 
 ## Syntax
 
-```cpp
-HRESULT GetStatementRange(
-    TEXT_POSITION* pBegPosition,
-    TEXT_POSITION* pEndPosition
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetStatementRange(
     TEXT_POSITION[] pBegPosition,
     TEXT_POSITION[] pEndPosition
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetStatementRange(
+    TEXT_POSITION* pBegPosition,
+    TEXT_POSITION* pEndPosition
+);
+```
+---
 
 ## Parameters
 `pBegPosition`\

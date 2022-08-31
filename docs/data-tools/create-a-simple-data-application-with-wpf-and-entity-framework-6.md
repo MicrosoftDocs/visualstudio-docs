@@ -2,7 +2,7 @@
 title: Simple data app with WPF and Entity Framework 6
 description: In this walkthrough, see how to create a simple forms-over-data app in Visual Studio with Windows Presentation Foundation (WPF) and Entity Framework 6.
 ms.custom: SEO-VS-2020
-ms.date: 08/22/2017
+ms.date: 07/19/2022
 ms.topic: conceptual
 dev_langs:
 - CSharp
@@ -19,18 +19,20 @@ ms.workload:
 
 ::: moniker range="vs-2022"
 > [!WARNING]
-> The scenario in this tutorial is currently blocked due to an issue with Visual Studio 2022 that is scheduled to be fixed in a future update. It should work with Visual Studio 2019 or earlier.
+> If you're using Visual Studio 2022, you should use Visual Studio 2022 version 17.3 Preview 3 or later for this tutorial.
 ::: moniker-end
 
 This walkthrough shows how to create a basic "forms over data" application in Visual Studio. The app uses SQL Server LocalDB, the Northwind database, Entity Framework 6 (not Entity Framework Core), and Windows Presentation Foundation for .NET Framework (not .NET Core or .NET 5 or later). It shows how to do basic databinding with a master-detail view, and it also has a custom Binding Navigator with buttons for **Move Next**, **Move Previous**, **Move to beginning**, **Move to end**, **Update** and **Delete**.
 
 This article focuses on using data tools in Visual Studio, and does not attempt to explain the underlying technologies in any depth. It assumes that you have a basic familiarity with XAML, Entity Framework, and SQL. This example also does not demonstrate Model-View-ViewModel (MVVM) architecture, which is standard for WPF applications. However, you can copy this code into your own MVVM application with few modifications.
 
+The final code for this tutorial may be found in GitHub at [VS Tutorial Samples - EF6](https://github.com/MicrosoftDocs/vs-tutorial-samples/tree/master/ef6).
+
 ## Install and connect to Northwind
 
 This example uses SQL Server Express LocalDB and the Northwind sample database. If the ADO.NET data provider for that product supports Entity Framework, it should work with other SQL database products just as well.
 
-1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **.NET desktop development** workload or as an individual component.
+1. If you don't have SQL Server Express LocalDB, install it through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and Processing** workload, or as an individual component.
 
 2. Install the Northwind sample database by following these steps:
 
@@ -48,41 +50,60 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
 
 ## Configure the project
 
-1. In Visual Studio, create a new C# **WPF App** project.
+1. In Visual Studio, create a new C# **WPF App (.NET Framework)** project.
 
-2. Add the NuGet package for Entity Framework 6. In **Solution Explorer**, select the project node. In the main menu, choose **Project** > **Manage NuGet Packages**.
+1. Add the NuGet package for Entity Framework 6. In **Solution Explorer**, select the project node. In the main menu, choose **Project** > **Manage NuGet Packages**.
 
-     ![Manage NuGet Packages menu item](../data-tools/media/raddata_vs2015_manage_nuget_packages.png)
+1. In the **NuGet Package Manager**, click on the **Browse** link. Entity Framework is probably the top package in the list. Click **Install** in the right pane and follow the prompts. The Output window tells you when the install is finished.
 
-3. In the **NuGet Package Manager**, click on the **Browse** link. Entity Framework is probably the top package in the list. Click **Install** in the right pane and follow the prompts. The Output window tells you when the install is finished.
+    :::moniker range="<=vs-2019"
+     ![Screenshot of Entity Framework NuGet Package NuGet package.](../data-tools/media/nuget-entity-framework.png)
+    :::moniker-end
+    :::moniker range=">=vs-2022"
+     ![Screenshot showing Entity Framework NuGet Package.](../data-tools/media/vs-2022/nuget-entity-framework-6.png)
+    :::moniker-end
 
-     ![Entity Framework NuGet Package](../data-tools/media/raddata_vs2015_nuget_ef.png)
-
-4. Now you can use Visual Studio to create a model based on the Northwind database.
+1. Now you can use Visual Studio to create a model based on the Northwind database.
 
 ## Create the model
 
 1. Right-click on the project node in **Solution Explorer** and choose **Add** > **New Item**. In the left pane, under the C# node, choose **Data** and in the middle pane, choose **ADO.NET Entity Data Model**.
 
-   ![Entity Framework Model New Item](../data-tools/media/raddata-ef-new-project-item.png)
+   :::moniker range="<=vs-2019"
+   ![Screenshot of Entity Framework Model New Item.](../data-tools/media/entity-framework-new-project-item.png)
+   :::moniker-end
+   :::moniker range=">=vs-2022"
+   ![Screenshot of Entity Framework Model New Item.](media/vs-2022/entity-framework-new-project-item.png)
+   :::moniker-end
 
-2. Call the model `Northwind_model` and choose **OK**. The **Entity Data Model Wizard** opens. Choose **EF Designer from database** and then click **Next**.
+1. Call the model `Northwind_model` and choose **Add**. The **Entity Data Model Wizard** opens. Choose **EF Designer from database** and then click **Next**.
 
-   ![EF Model from Database](../data-tools/media/raddata-ef-model-from-database.png)
+   ![Screenshot of EF Model from Database.](../data-tools/media/entity-framework-model-from-database.png)
 
-3. In the next screen, enter or choose your LocalDB Northwind connection (for example, (localdb)\MSSQLLocalDB), specify the Northwind database, and click **Next**.
+1. In the next screen, choose your LocalDB Northwind connection (for example, (localdb)\MSSQLLocalDB), specify the Northwind database, and click **Next**.
 
-4. In the next page of the wizard, choose which tables, stored procedures, and other database objects to include in the Entity Framework model. Expand the dbo node in the tree view and choose **Customers**, **Orders**, and **Order Details**. Leave the defaults checked and click **Finish**.
+   If you don't see a connection, choose **New Connection**, then in the **Choose Data Source** dialog box, choose **Microsoft SQL Server**, choose **Continue** and in the **Connection Properties** dialog box, enter `(localdb)\MSSQLLocalDB` and under **Select or enter a database name**, choose **Northwind**, then press **OK**.
 
-    ![Choose database Objects for the model](../data-tools/media/raddata-choose-ef-objects.png)
+1. If prompted, choose the version of Entity Framework you are using.
 
-5. The wizard generates the C# classes that represent the Entity Framework model. The classes are plain old C# classes and they are what we databind to the WPF user interface. The *.edmx* file describes the relationships and other metadata that associates the classes with objects in the database. The *.tt* files are T4 templates that generate the code that operates on the model and saves changes to the database. You can see all these files in **Solution Explorer** under the Northwind_model node:
+   ![Screenshot showing the version choices.](media/vs-2022/entity-framework-choose-version.png)
 
-      ![Solution Explorer EF model files](../data-tools/media/raddata-solution-explorer-ef-model-files.png)
+1. In the next page of the wizard, choose which tables, stored procedures, and other database objects to include in the Entity Framework model. Expand the dbo node in the tree view and choose **Customers**, **Orders**, and **Order Details**. Leave the defaults checked and click **Finish**.
+
+    ![Screenshot of choosing database Objects for the model.](../data-tools/media/vs-2022/choose-entity-framework-objects.png)
+
+1. The wizard generates the C# classes that represent the Entity Framework model. The classes are plain old C# classes and they are what we databind to the WPF user interface. The *.edmx* file describes the relationships and other metadata that associates the classes with objects in the database. The *.tt* files are T4 templates that generate the code that operates on the model and saves changes to the database. You can see all these files in **Solution Explorer** under the Northwind_model node:
+
+      :::moniker range="<=vs-2019"
+      ![Screenshot showing Solution Explorer Entity Framework model files.](../data-tools/media/solution-explorer-entity-framework-model-files.png)
+      :::moniker-end
+      :::moniker range=">=vs-2022"
+      ![Screenshot showing Solution Explorer Entity Framework model files](media/vs-2022/solution-explorer-entity-framework-model-files.png)
+      :::moniker-end
 
     The designer surface for the *.edmx* file enables you to modify some properties and relationships in the model. We are not going to use the designer in this walkthrough.
 
-6. The *.tt* files are general purpose and you need to tweak one of them to work with WPF databinding, which requires ObservableCollections. In **Solution Explorer**, expand the Northwind_model node until you find *Northwind_model.tt*. (Make sure you are not in the *.Context.tt* file, which is directly below the *.edmx* file.)
+1. The *.tt* files are general purpose and you need to tweak one of them to work with WPF databinding, which requires ObservableCollections. In **Solution Explorer**, expand the Northwind_model node until you find *Northwind_model.tt*. (Make sure you are not in the *.Context.tt* file, which is directly below the *.edmx* file.)
 
    - Replace the two occurrences of <xref:System.Collections.ICollection> with <xref:System.Collections.ObjectModel.ObservableCollection%601>.
 
@@ -90,7 +111,7 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
 
    - Replace the only occurrence of <xref:System.Collections.Generic> (around line 431) with <xref:System.Collections.ObjectModel>.
 
-7. Press **F5** or **Ctrl**+**F5** to build and run the project. When the application first runs, the model classes are visible to the data sources wizard.
+1. Press **F5** or **Ctrl**+**F5** to build and run the project. When the application first runs, the model classes are visible to the data sources wizard.
 
 Now you are ready to hook up this model to the XAML page so that you can view, navigate, and modify the data.
 
@@ -100,15 +121,20 @@ It is possible to write your own databinding code, but it is much easier to let 
 
 1. From the main menu, choose **Project** > **Add new data source** to bring up the **Data Source Configuration Wizard**. Choose **Object** because you are binding to the model classes, not to the database:
 
-     ![Data Source Configuration Wizard with Object Source](../data-tools/media/raddata-data-source-configuration-wizard-with-object-source.png)
+     ![Screenshot of Data Source Configuration Wizard with Object Source.](../data-tools/media/data-source-configuration-wizard-with-object-source.png)
 
-2. Expand the node for your project, and select **Customer**. (Sources for Orders are automatically generated from the Orders navigation property in Customer.)
+1. Expand the node for your project, and select **Customer**. (Sources for Orders are automatically generated from the Orders navigation property in Customer.)
 
-     ![Add entity classes as data sources](../data-tools/media/raddata-add-entity-classes-as-data-sources.png)
+     :::moniker range="<=vs-2019"
+     ![Screenshot showing adding entity classes as data sources.](../data-tools/media/raddata-add-entity-classes-as-data-sources.png)
+     :::moniker-end
+     :::moniker range=">=vs-2022"
+     ![Screenshot showing adding entity classes as data sources.](media/vs-2022/add-entity-classes-as-data-sources.png)
+     :::moniker-end
 
-3. Click **Finish**.
+1. Click **Finish**.
 
-4. Navigate to *MainWindow.xaml* in Code View. We're keeping the XAML simple for the purposes of this example. Change the title of MainWindow to something more descriptive, and increase its Height and Width to 600 x 800 for now. You can always change it later. Now add these three row definitions to the main grid, one row for the navigation buttons, one for the customer's details, and one for the grid that shows their orders:
+1. Navigate to *MainWindow.xaml* in Code View. We're keeping the XAML simple for the purposes of this example. Change the title of MainWindow to something more descriptive, and increase its Height and Width to 600 x 800 for now. You can always change it later. Now add these three row definitions to the main grid, one row for the navigation buttons, one for the customer's details, and one for the grid that shows their orders:
 
     ```xaml
         <Grid.RowDefinitions>
@@ -118,25 +144,35 @@ It is possible to write your own databinding code, but it is much easier to let 
         </Grid.RowDefinitions>
     ```
 
-5. Now open *MainWindow.xaml* so that you're viewing it in the designer. This causes the **Data Sources** window to appear as an option in the Visual Studio window margin next to the **Toolbox**. Click on the tab to open the window, or else press **Shift**+**Alt**+**D** or choose **View** > **Other Windows** > **Data Sources**. We are going to display each property in the Customers class in its own individual text box. First, click on the arrow in the **Customers** combo box and choose **Details**. Then, drag the node onto the middle part of the design surface so that the designer knows you want it to go in the middle row. If you misplace it, you can specify the row manually later in the XAML. By default, the controls are placed vertically in a grid element, but at this point, you can arrange them however you like on the form. For example, it might make sense to put the **Name** text box on top, above the address. The sample application for this article reorders the fields and rearranges them into two columns.
+1. Now open *MainWindow.xaml* so that you're viewing it in the designer. This causes the **Data Sources** window to appear as an option in the Visual Studio window margin next to the **Toolbox**. Click on the tab to open the window, or else press **Shift**+**Alt**+**D** or choose **View** > **Other Windows** > **Data Sources**. We are going to display each property in the Customers class in its own individual text box. First, click on the arrow in the **Customers** combo box and choose **Details**. Then, drag the node onto the middle part of the design surface so that the designer knows you want it to go in the middle row. If you misplace it, you can specify the row manually later in the XAML (`Grid.Row="1"`). By default, the controls are placed vertically in a grid element, but at this point, you can arrange them however you like on the form. For example, it might make sense to put the **Name** text box on top, above the address. The sample application for this article reorders the fields and rearranges them into two columns.
 
-     ![Customers data source binding to individual controls](../data-tools/media/raddata-customers-data-source-binding-to-individual-controls.png)
+     :::moniker range="<=vs-2019"
+     ![Screenshot showing Customers data source binding to individual controls.](../data-tools/media/raddata-customers-data-source-binding-to-individual-controls.png)
+     ::: moniker-end
+     :::moniker range=">=vs-2022"
+     ![Screenshot showing Customers data source binding to individual controls.](media/vs-2022/customers-data-source-binding-to-individual-controls.png)
+     :::moniker-end
 
-     In the code view, you can now see a new `Grid` element in row 1 (the middle row) of the parent Grid. The parent Grid has a `DataContext` attribute that refers to a CollectionViewSource that's been added to the `Windows.Resources` element. Given that data context, when the first text box binds to **Address**, that name is mapped to the `Address` property in the current `Customer` object in the CollectionViewSource.
+     In the XAML view, you can now see a new `Grid` element in row 1 (the middle row) of the parent Grid. The parent Grid has a `DataContext` attribute that refers to a <xref:System.Windows.Data.CollectionViewSource> that's been added to the `Windows.Resources` element. Given that data context, when the first text box binds to **Address**, that name is mapped to the `Address` property in the current `Customer` object in the `CollectionViewSource`.
 
     ```xaml
     <Grid DataContext="{StaticResource customerViewSource}">
     ```
 
-6. When a customer is visible in the top half of the window, you want to see their orders in the bottom half. You show the orders in a single grid view control. For master-detail databinding to work as expected, it is important that you bind to the Orders property in the Customers class, not to the separate Orders node. Drag the Orders property of the Customers class to the lower half of the form, so that the designer puts it in row 2:
+1. When a customer is visible in the top half of the window, you want to see their orders in the bottom half. You show the orders in a single grid view control. For master-detail databinding to work as expected, it is important that you bind to the Orders property in the Customers class, not to the separate Orders node. Drag the Orders property of the Customers class to the lower half of the form, so that the designer puts it in row 2:
 
-     ![Drag Orders classes as grid](../data-tools/media/raddata-drag-orders-classes-as-grid.png)
+     :::moniker range="vs-2019"
+     ![Screenshot showing Orders classes dragged and dropped as a grid.](../data-tools/media/drag-orders-classes-as-grid.png)
+     :::moniker-end
+     :::moniker range=">=vs-2022"
+     ![Screenshot showing Orders classes dragged and dropped as a grid.](media/vs-2022/drag-orders-classes-as-grid.png)
+     :::moniker-end
 
-7. Visual Studio has generated all the binding code that connects the UI controls to events in the model. All you need to do, in order to see some data, is to write some code to populate the model. First, navigate to *MainWindow.xaml.cs* and add a data member to the MainWindow class for the data context. This object, which has been generated for you, acts something like a control that tracks changes and events in the model. You'll also add CollectionViewSource data members for customers and orders, and the associated constructor initialization logic. The top of the class should look like this:
+1. Visual Studio has generated all the binding code that connects the UI controls to events in the model. All you need to do, in order to see some data, is to write some code to populate the model. First, navigate to *MainWindow.xaml.cs* and add a data member to the MainWindow class for the data context. This object, which has been generated for you, acts something like a control that tracks changes and events in the model. You'll also add CollectionViewSource data members for customers and orders, and the associated constructor initialization logic to the existing constructor `MainWindow()`. The top of the class should look like this:
 
      :::code language="csharp" source="../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs" id="Snippet1":::
 
-     Add a `using` directive for System.Data.Entity to bring the Load extension method into scope:
+     If it's not there already, add a `using` directive for System.Data.Entity to bring the `Load` extension method into scope:
 
      ```csharp
      using System.Data.Entity;
@@ -146,7 +182,7 @@ It is possible to write your own databinding code, but it is much easier to let 
 
      :::code language="csharp" source="../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs" id="Snippet2":::
 
-8. Press **F5**. You should see the details for the first customer that was retrieved into the CollectionViewSource. You should also see their orders in the data grid. The formatting isn't great, so let's fix that up. You can also create a way to view the other records and do basic CRUD operations.
+1. Press **F5**. You should see the details for the first customer that was retrieved into the CollectionViewSource. You should also see their orders in the data grid. The formatting isn't great, so let's fix that up. You can also create a way to view the other records and do basic CRUD operations.
 
 ## Adjust the page design and add grids for new customers and orders
 
@@ -375,7 +411,7 @@ There are four parts to the command logic: (1) the commands, (2) the bindings, (
     <RoutedUICommand x:Key="CancelCommand" Text="Cancel"/>
     ```
 
-2. A CommandBinding maps a `RoutedUICommand` event to a method in the code behind. Add this `CommandBindings` element after the `Windows.Resources` closing tag:
+1. A CommandBinding maps a `RoutedUICommand` event to a method in the code behind. Add this `CommandBindings` element after the `Windows.Resources` closing tag:
 
     ```xaml
     <Window.CommandBindings>
@@ -391,7 +427,7 @@ There are four parts to the command logic: (1) the commands, (2) the bindings, (
     </Window.CommandBindings>
     ```
 
-3. Now, add the `StackPanel` with the navigation, add, delete, and update buttons. First, add this style to `Windows.Resources`:
+1. Now, add the `StackPanel` with the navigation, add, delete, and update buttons. First, add this style to `Windows.Resources`:
 
     ```xaml
     <Style x:Key="NavButton" TargetType="{x:Type Button}" BasedOn="{x:Null}">
@@ -426,7 +462,6 @@ The code-behind is minimal except for the add and delete methods. Navigation is 
 Add these handler methods to the MainWindow class in *MainWindow.xaml.cs*. If your CollectionViewSource for the Customers table has a different name, then you need to adjust the name in each of these methods:
 
 :::code language="csharp" source="../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs" id="Snippet3":::
-
 
 ## Run the application
 

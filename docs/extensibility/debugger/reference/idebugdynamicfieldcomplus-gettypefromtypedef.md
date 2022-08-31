@@ -24,15 +24,7 @@ Retrieves a type given its token.
 
 ## Syntax
 
-```cpp
-HRESULT GetTypeFromTypeDef(
-   ULONG32       ulAppDomainID,
-   GUID          guidModule,
-   _mdToken      tokClass,
-   IDebugField** ppType
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetTypeFromTypeDef(
    uint            ulAppDomainID,
@@ -41,6 +33,16 @@ int GetTypeFromTypeDef(
    out IDebugField ppType
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetTypeFromTypeDef(
+   ULONG32       ulAppDomainID,
+   GUID          guidModule,
+   _mdToken      tokClass,
+   IDebugField** ppType
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

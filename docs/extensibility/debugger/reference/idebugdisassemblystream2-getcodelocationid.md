@@ -25,19 +25,21 @@ Returns a code location identifier for a particular code context.
 
 ## Syntax
 
-```cpp
-HRESULT GetCodeLocationId( 
-   IDebugCodeContext2* pCodeContext,
-   UINT64*             puCodeLocationId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCodeLocationId( 
    IDebugCodeContext2 pCodeContext,
    out ulong          puCodeLocationId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCodeLocationId( 
+   IDebugCodeContext2* pCodeContext,
+   UINT64*             puCodeLocationId
+);
+```
+---
 
 ## Parameters
 `pCodeContext`\

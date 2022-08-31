@@ -41,6 +41,7 @@ You can do nearly everything in the Visual Studio IDE as a typical user. You nee
 |Performance tools|Attaching to an elevated application.|[Beginners guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md)|
 ||Use the GPU Profiler.|[GPU profiling](../profiling/gpu-usage.md)|
 |Deployment|Deploy a web application to Internet Information Services (IIS) on a local computer.|[Deploy an ASP.NET web app using Visual Studio](/aspnet/web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-provider/)|
+|Development|Developing SharePoint Solutions.|[Create SharePoint solutions](../sharepoint/create-sharepoint-solutions.md)|
 
 ## Run Visual Studio as an administrator
 
@@ -50,15 +51,12 @@ If you need to run Visual Studio as an administrator, follow these steps to open
 > These instructions are for Windows 10. They are similar for other versions of Windows.
 
 
-::: moniker range=">=vs-2019"
-
 1. Open the **Start** menu, and scroll to Visual Studio.
 
 1. From the right-click or context menu of **Visual Studio 2019** or **Visual Studio 2022**, select **More** > **Run as administrator**.
 
    When Visual Studio starts, **(Administrator)** appears after the product name in the title bar.
 
-::: moniker-end
 
 You can also modify the application shortcut to always run with administrative permissions:
 

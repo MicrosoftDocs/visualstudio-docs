@@ -25,17 +25,19 @@ This method gets the type of field.
 
 ## Syntax
 
-```cpp
-HRESULT GetType( 
-   IDebugField** ppType
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetType(
    out IDebugField ppType
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetType( 
+   IDebugField** ppType
+);
+```
+---
 
 ## Parameters
 `ppType`\

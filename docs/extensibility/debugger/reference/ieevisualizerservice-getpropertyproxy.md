@@ -25,19 +25,21 @@ This method returns a proxy for a property object.
 
 ## Syntax
 
-```cpp
-HRESULT GetPropertyProxy(
-   DWORD                  dwID,
-   IPropertyProxyEESide** proxy
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPropertyProxy(
    uint                     dwID,
    out IPropertyProxyEESide proxy
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPropertyProxy(
+   DWORD                  dwID,
+   IPropertyProxyEESide** proxy
+);
+```
+---
 
 ## Parameters
 `dwID`\

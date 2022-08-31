@@ -2,7 +2,7 @@
 title: Manage project and solution properties
 description: Learn how to manage both the project properties and the solution properties in Visual Studio.
 ms.custom: SEO-VS-2020
-ms.date: 05/23/2022
+ms.date: 06/21/2022
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -27,13 +27,9 @@ You access project properties by right-clicking the project node in **Solution E
 :::image type="content" source="media/vs-2019/properties-from-solution-explorer-context-menu.png" alt-text="Screenshot of the Solution Explorer context menu with the Properties option highlighted.":::
 ::: moniker-end
 
-
 .NET projects might also have a properties node in the project tree itself.
 
-::: moniker range=">=vs-2019"
 :::image type="content" source="media/vs-2022/properties-node-solution-explorer.png" alt-text="Screenshot of Solution Explorer with a Properties node showing.":::
-::: moniker-end
-
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Managing solution and project properties (Visual Studio for Mac)](/visualstudio/mac/managing-solutions-and-project-properties).
@@ -44,32 +40,38 @@ Project properties are organized into groups, and each group has its own propert
 
 ### C#, Visual Basic, and F# projects
 
-In C#, Visual Basic, and F# projects, properties are exposed in the [**Project Designer**](reference/project-properties-reference.md).
+In C#, Visual Basic, and F# projects, properties are exposed in the [.NET **Project Designer**](reference/project-properties-reference.md).
 
-The following screenshot shows the **Build** property page in the Project Designer for a console project in C#:
+The following screenshot shows the **Build** property page in the .NET Project Designer for a console project in C#:
 
 ::: moniker range="vs-2022"
-:::image type="content" source="reference/media/vs-2022/project-properties-designer-build.png" alt-text="Screenshot of the Project Designer, with the Build tab selected.":::
+:::image type="content" source="reference/media/vs-2022/project-properties-designer-build-csharp.png" alt-text="Screenshot of the Project Designer, with the Build tab selected.":::
 ::: moniker-end
 
 ::: moniker range="vs-2019"
-:::image type="content" source="reference/media/vs-2019/project-properties-designer-build.png" alt-text="Screenshot of the Project Designer, with the Build tab selected.":::
+:::image type="content" source="reference/media/vs-2019/project-properties-designer-build-csharp.png" alt-text="Screenshot of the Project Designer, with the Build tab selected.":::
 ::: moniker-end
 
+The following screenshot shows the **Compile** property page in the .NET Project Designer for a console project in Visual Basic:
 
-For more information about each of the property pages in **Project Designer**, see [What is the Project Designer](reference/project-properties-reference.md).
+::: moniker range="vs-2022"
+:::image type="content" source="reference/media/vs-2022/project-properties-designer-compile-visual-basic.png" alt-text="Screenshot of the Project Designer, with the Compile tab selected.":::
+::: moniker-end
+
+::: moniker range="vs-2019"
+:::image type="content" source="reference/media/vs-2019/project-properties-designer-compile-visual-basic.png" alt-text="Screenshot of the Project Designer, with the Compile tab selected.":::
+::: moniker-end
+
+For more information about each of the **Project Designer** properties, see [What is the .NET Project Designer](reference/project-properties-reference.md).
 
 > [!TIP]
-> Solutions have a few properties, and so do project items; these properties are accessed in the [**Properties window**](reference/properties-window.md), not the [Project Designer](reference/project-properties-reference.md).
+> Solutions have a few properties, and so do project items; these properties are accessed in the [**Properties window**](reference/properties-window.md), not the [.NET Project Designer](reference/project-properties-reference.md).
 
 ### C++ and JavaScript projects
 
-C++ and JavaScript projects have a different user interface for managing project properties. This screenshot shows a C++ project property page (JavaScript pages are similar):
+C++ and JavaScript projects have a different user interface for managing project properties. The following screenshot shows a C++ project property page (JavaScript pages are similar):
 
-::: moniker range=">=vs-2019"
 :::image type="content" source="media/vs-2022/properties-page-cpp-console.png" alt-text="Screenshot of the C++ project properties page.":::
-::: moniker-end
-
 
 For information about C++ project properties, see [Work with project properties (C++)](/cpp/build/working-with-project-properties). For more information about JavaScript properties, see [Property pages, JavaScript](../ide/reference/property-pages-javascript.md).
 

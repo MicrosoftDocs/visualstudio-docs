@@ -24,14 +24,7 @@ Retrieves the constraints that are associated with this generic parameter.
 
 ## Syntax
 
-```cpp
-HRESULT GetConstraints(
-    ULONG32       cConstraints,
-    IDebugField** ppConstraints,
-    ULONG32*      pcConstraints
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetConstraints(
     uint              cConstraints,
@@ -39,6 +32,15 @@ int GetConstraints(
     ref uint          pcConstraints
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetConstraints(
+    ULONG32       cConstraints,
+    IDebugField** ppConstraints,
+    ULONG32*      pcConstraints
+);
+```
+---
 
 ## Parameters
 `cConstraints`\

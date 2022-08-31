@@ -28,30 +28,20 @@ Targets group tasks together in a particular order and allow the build process t
 </Target>
 ```
 
- Like MSBuild properties, targets can be redefined. For example,
+Like MSBuild properties, targets can be redefined. For example,
 
 ```xml
-<Target Name="AfterBuild" >
+<Target Name="MyTarget" >
     <Message Text="First occurrence" />
 </Target>
-<Target Name="AfterBuild" >
+<Target Name="MyTarget" >
     <Message Text="Second occurrence" />
 </Target>
 ```
 
-If `AfterBuild` executes, it displays only "Second occurrence", because the second definition of `AfterBuild` hides the first.
+If `MyTarget` executes, it displays only "Second occurrence", because the second definition of `MyTarget` hides the first.
 
-MSBuild is import-order dependent, and the last definition of a target is the definition used. If you try to redefine a target, it won't take effect if the built-in target is defined later. In the case of projects that use an SDK, the order of definition is not necessarily obvious, since the imports for the targets are implicitly added after the end of your project file.
-
-Therefore, to extend the behavior of an existing target, create new target and specify `BeforeTargets` (or `AfterTargets` as appropriate) as follows:
-
-```xml
-<Target Name="MessageBeforePublish" BeforeTargets="BeforePublish">
-  <Message Text="BeforePublish" Importance="high" />
-</Target>
-```
-
-Give your target a descriptive name, as you would name a function in code.
+MSBuild is import-order dependent, and the last definition of a target is the definition used. If you try to redefine a target, it won't take effect if the built-in target is defined later.
 
 ## Target build order
 
@@ -72,6 +62,20 @@ Give your target a descriptive name, as you would name a function in code.
 A target never runs twice during a single build, even if a subsequent target in the build depends on it. Once a target runs, its contribution to the build is complete.
 
 For details and more information about the target build order, see [Target build order](../msbuild/target-build-order.md).
+
+## SDK-style projects
+
+Many newer projects use an SDK, meaning they use the `Sdk` attribute on the root `Project` element; for example,`<Project Sdk="Microsoft.NET.Sdk">`. See [Reference a Project SDK](how-to-use-project-sdk.md#reference-a-project-sdk). In that case, the order of definition of some targets is not necessarily obvious, since the imports for the targets are implicitly added after the end of your project file. In older versions of MSBuild, or in projects that don't use the `Sdk` attribute, it was a common practice to extend the behavior of a target like `Build` by overriding the target `AfterBuild` or `BeforeBuild`. However, that doesn't work in projects that use an SDK, because `AfterBuild` is defined in an implicit import after all other code in your project file. Therefore, to extend the behavior of an existing target, create new target and specify `BeforeTargets` (or `AfterTargets` as appropriate) as follows:
+
+```xml
+<Target Name="MessageBeforePublish" BeforeTargets="BeforePublish">
+  <Message Text="BeforePublish" Importance="high" />
+</Target>
+```
+
+Give your target a descriptive name, as you would name a function in code.
+
+In some cases, such as when working with older build scripts that use `AfterBuild`, you can avoid using the `Sdk` attribute and instead change to explicit imports. To convert an SDK-style project to use explicit imports, remove the `Sdk="{SdkName}"` attribute, and add two imports as follows: `<import Project="{SdkName}.props">` near the beginning of the project file, and `<import Project="{Sdkname}.targets">` near the end. Once you make that change, you can redefine `AfterBuild` after the import element that imports the `{Sdkname}.targets` file.
 
 ## Target batching
 

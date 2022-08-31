@@ -21,7 +21,7 @@ highlightedContent:
       url: ~/ide-tour.md
     - title: Visual Studio for Mac Release Notes
       itemType: whats-new
-      url: /visualstudio/releasenotes/vs2019-mac-relnotes
+      url: /visualstudio/releases/2022/mac-release-notes
     - title: Improve your development skills
       itemType: learn
       url: /learn/

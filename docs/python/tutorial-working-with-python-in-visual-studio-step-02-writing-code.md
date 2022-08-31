@@ -65,7 +65,7 @@ Although **Solution Explorer** is where you manage project files, the *editor* w
 
     ![IntellSense showing module members](media/vs-getting-started-python-10-import3.png)
 
-1. Finish by importing the `sin`, `cos`, and `radians` members, noticing the autocompletions available for each. When you're done, your code should appear as follows:
+1. Finish by importing the `cos` and `radians` members, noticing the autocompletions available for each. When you're done, your code should appear as follows:
 
     ```python
     import sys

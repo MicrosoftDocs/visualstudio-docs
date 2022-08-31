@@ -25,17 +25,19 @@ Gets a description of the properties of a stack frame.
 
 ## Syntax
 
-```cpp
-HRESULT GetDebugProperty ( 
-   IDebugProperty2** ppDebugProp
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDebugProperty ( 
    out IDebugProperty2 ppDebugProp
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDebugProperty ( 
+   IDebugProperty2** ppDebugProp
+);
+```
+---
 
 ## Parameters
 `ppDebugProp`\

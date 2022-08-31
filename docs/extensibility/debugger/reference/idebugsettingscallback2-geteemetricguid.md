@@ -23,15 +23,7 @@ Retrieves the unique identifier for a expression evaluator metric given its name
 
 ## Syntax
 
-```cpp
-HRESULT GetEEMetricGuid(
-   REFGUID guidLang,
-   REFGUID guidVendor,
-   LPCWSTR pszMetric,
-   GUID*   pguidValue
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 HRESULT GetEEMetricGuid(
    ref Guid guidLang,
@@ -40,6 +32,16 @@ HRESULT GetEEMetricGuid(
    out Guid pguidValue
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEEMetricGuid(
+   REFGUID guidLang,
+   REFGUID guidVendor,
+   LPCWSTR pszMetric,
+   GUID*   pguidValue
+);
+```
+---
 
 ## Parameters
 `guidLang`\

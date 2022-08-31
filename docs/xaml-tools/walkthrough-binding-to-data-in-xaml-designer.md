@@ -9,8 +9,8 @@ f1_keywords:
 dev_langs:
 - CSharp
 - VB
-author: TerryGLee
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
 ---
@@ -30,6 +30,7 @@ In XAML Designer, you can set data binding properties by using the artboard and 
 
 1. Open the **MainWindow.xaml.cs** (or **MainWindow.xaml.vb**) file and add the following code. In C#, add the code in the `BindingTest` namespace (before the final closing parenthesis in the file). In Visual Basic, just add the new class.
 
+   ### [C#](#tab/csharp)
    ```csharp
    public class ShoppingCart : DependencyObject
    {
@@ -45,6 +46,7 @@ In XAML Designer, you can set data binding properties by using the artboard and 
    }
    ```
 
+   ### [VB](#tab/vb)
    ```vb
    Public Class ShoppingCart
        Inherits DependencyObject
@@ -61,6 +63,7 @@ In XAML Designer, you can set data binding properties by using the artboard and 
        End Property
    End Class
    ```
+   ---
 
    This code sets a value of 0 as the default item count by using the [PropertyMetadata](xref:Windows.UI.Xaml.PropertyMetadata) object.
 

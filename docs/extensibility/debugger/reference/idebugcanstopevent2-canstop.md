@@ -25,17 +25,19 @@ Notifies the debug engine (DE) whether or not to stop at the current code locati
 
 ## Syntax
 
-```cpp
-HRESULT CanStop ( 
-   BOOL fCanStop
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CanStop ( 
    int fCanStop
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CanStop ( 
+   BOOL fCanStop
+);
+```
+---
 
 ## Parameters
 `fCanStop`\

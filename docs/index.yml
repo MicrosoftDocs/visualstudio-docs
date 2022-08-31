@@ -39,8 +39,8 @@ productDirectory:
         - url: /visualstudio/mac/?view=vsmac-2019&preserve-view=true
           text: Visual Studio 2019 for Mac
         - url: /previous-versions/visualstudio/mac/
-          text: Visual Studio 2017 for Mac
-        - url: /visualstudio/releasenotes/vs2019-mac-relnotes
+          text: Previous versions
+        - url: /visualstudio/releases/2022/mac-release-notes
           text: Release notes
         - url: https://visualstudio.microsoft.com/vs/mac/
           text: Product page

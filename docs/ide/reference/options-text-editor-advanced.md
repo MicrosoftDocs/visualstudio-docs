@@ -1,7 +1,7 @@
 ---
 title: Options, Text Editor, Advanced
 description: Learn how to use the Advanced dialog box to change global settings for the Visual Studio text editor.
-ms.date: 06/16/2022
+ms.date: 08/09/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Advanced
@@ -41,7 +41,7 @@ You can use the Advanced dialog box to change global settings for the Visual Stu
 The **Whole line** option is selected by default. The options you can choose from allow you to customize the highlighting and outlining that's displayed in the Difference viewer when you add, remove, or modify lines of text. Specifically, the options provide the following viewing experiences:
 
 - **Whole line**: Line differences should be displayed so that they take up the entire width of the viewport.
-- **Code count**: Line differences should be displayed only to the last character on each line.
+- **Code contour**: Line differences should be displayed only to the last character on each line.
 - **Block outline**: Line and word differences are shown as outlined rectangles.
 - **Mixed outline**: Line differences are shown as outlined rectangles and word differences are shown as colored rectangles.
 
@@ -52,6 +52,14 @@ Selected by default, this option adds a margin view next to the scrollbar that s
 ## Responsive code completion
 
 Selected by default, toggle to turn off auto-complete mode.
+
+::: moniker range="vs-2022"
+
+## Click to peek in margin
+
+The **Single click** setting is selected by default. The settings you choose from allow you to customize how Peek Definition works when you use it to display the differences between Git commits. You can change the default **Single click** setting to **Double click**, or you can select **None** to turn off the [Peek Difference UI](../../version-control/git-line-staging.md#peek-difference-support).
+
+::: moniker-end
 
 ## Word Based Suggestions in files handled by TextMate grammars
 
@@ -76,7 +84,7 @@ By default, [CodeLens](../find-code-changes-and-other-history-with-codelens.md) 
 
 ## Use box selection
 
-Select this option to disable the new [multi-caret selection](../finding-and-replacing-text.md?view=vs-2022&preserve-view=true#multi-caret-selection) behavior in Visual Studio 2022:
+Select this option to disable the new [multi-caret selection](../finding-and-replacing-text.md?view=vs-2022&preserve-view=true#multi-caret-selection) behavior in Visual Studio 2022, which includes the following:
 
 - Adapts "block selection" similarly as does the multi-caret functionality in [VS Code](https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor).
 - Supports copying and pasting a different section of text with each caret, instead of just a single block-shaped section of text.
@@ -89,6 +97,10 @@ Select this option to disable the new [multi-caret selection](../finding-and-rep
 
 Based on your most recently updated file, Visual Studio recognizes whether you prefer to use tabs or spaces for code indentation. The adaptive formatting option is selected by default. When unselected, Visual Studio uses the settings in **Tools** > **Options** > **Text Editor** > **All Languages** > **[Tabs](options-text-editor-all-languages-tabs.md)** instead.
 
+## Fallback support for C#, C++, Java, and TypeScript GoTo symbol navigation
+
+Select this option to disable TextMate fallback support for symbol search, which can help improve system performance.
+
 ::: moniker-end
 
 ## Copy rich text on copy/cut
@@ -100,7 +112,7 @@ Selected by default, the option copies text that includes colors and ligatures. 
 
 ### Max length
 
-Use this option to increase or decrease the maximum character count of text you copy or cut from your code. The default is set to **10240**.
+Use this option to increase or decrease the maximum character count of rich text you can copy or cut from your code. The default is set to **10240**. (Beyond this limit, text is still copied, but as plain text rather than rich text.)
 
 ### Use accurate classification
 

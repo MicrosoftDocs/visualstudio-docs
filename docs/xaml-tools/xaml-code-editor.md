@@ -7,8 +7,8 @@ f1_keywords:
 - VS.XamlEditor
 monikerRange: ">=vs-2019"
 ms.custom: contperf-fy21q4
-author: TerryGLee
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
 ---

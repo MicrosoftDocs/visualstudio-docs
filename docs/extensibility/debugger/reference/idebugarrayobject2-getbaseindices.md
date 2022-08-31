@@ -24,19 +24,21 @@ Retrieves the base indices (lower bounds) for each index given the number of dim
 
 ## Syntax
 
-```cpp
-HRESULT GetBaseIndices (
-   DWORD  dwRank,
-   DWORD* dwIndices
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetBaseIndices (
    uint       dwRank,
    out uint[] dwIndices
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetBaseIndices (
+   DWORD  dwRank,
+   DWORD* dwIndices
+);
+```
+---
 
 ## Parameters
 `dwRank`\

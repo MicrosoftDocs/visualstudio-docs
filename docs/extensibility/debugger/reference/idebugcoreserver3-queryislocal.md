@@ -25,15 +25,17 @@ Determines if the server is local to the caller.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int QueryIsLocal();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT QueryIsLocal(
    void
 );
 ```
-
-```csharp
-int QueryIsLocal();
-```
+---
 
 ## Return Value
  Returns `S_OK` to indicate the server is local. Returns `S_FALSE` if the server is running from an instance of msvsmon.exe, which is typically used for remote debugging.

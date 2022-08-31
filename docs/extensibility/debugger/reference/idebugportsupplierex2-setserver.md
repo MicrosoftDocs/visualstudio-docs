@@ -23,17 +23,19 @@ Sets the core server for the port supplier.
 
 ## Syntax
 
-```cpp
-HRESULT SetServer(
-   IDebugCoreServer2* pServer
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetServer(
    IDebugCoreServer2 pServer
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetServer(
+   IDebugCoreServer2* pServer
+);
+```
+---
 
 ## Parameters
 `pServer`\

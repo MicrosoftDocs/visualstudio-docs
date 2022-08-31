@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "docs/python/managing-python-on-azure-app-service.md",
+      "redirect_url": "/azure/app-service/quickstart-python",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/how-to-build-to-a-common-output-directory.md",
       "redirect_url": "/visualstudio/ide/how-to-change-the-build-output-directory#build-to-a-common-outputdirectory",
       "redirect_document_id": false
@@ -6106,6 +6111,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/test/lab-management/use-build-or-rm-instead-of-lab-management.md",
+      "redirect_url": "/visualstudio/test/lab-management/using-a-lab-environment-for-your-application-lifecycle",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/lab-management/install-configure-test-agents.md",
+      "redirect_url": "/visualstudio/test/lab-management/using-a-lab-environment-for-your-application-lifecycle",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/test/live-unit-testing-whats-new.md",
       "redirect_url": "/visualstudio/test/live-unit-testing-intro",
       "redirect_document_id": false
@@ -6533,6 +6548,11 @@
     {
       "source_path": "docs/vsto/you-must-explicitly-enable-access-to-the-microsoft-office-visual-basic-for-applications-project-system-before-you-can-create-or-open-a-----for-the-microsoft-office-system-project.md",
       "redirect_url": "/visualstudio/vsto/enable-access-to-vba-to-create-or-open-a-visual-studio-tools-for-office-system-project",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/vsto/deploying-an-office-solution-by-using-windows-installer.md",
+      "redirect_url": "/visualstudio/vsto/deploying-a-vsto-solution-by-using-windows-installer",
       "redirect_document_id": false
     },
     {
@@ -16750,9 +16770,19 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "subscriptions/vs-cast.md",
+      "redirect_url": "/visualstudio/subscriptions",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/quickstart-aspnet-core.md",
       "redirect_url": "/visualstudio/get-started/csharp/tutorial-aspnet-core",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/view-data-ienumerable-table-visualizer.md",
+      "redirect_url": "/visualstudio/debugger/view-data-in-ienumerable-visualizer",
+      "redirect_document_id": true
     }
   ]
 }

@@ -24,6 +24,14 @@ Defines the metadata that can be retrieved about a port supplier.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS
+{
+    PSDFLAG_SHOW_WARNING_ICON = 0x1
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS
 {
@@ -31,13 +39,7 @@ enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS
 };
 typedef DWORD PORT_SUPPLIER_DESCRIPTION_FLAGS;
 ```
-
-```csharp
-public enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS
-{
-    PSDFLAG_SHOW_WARNING_ICON = 0x1
-};
-```
+---
 
 ## Fields
 

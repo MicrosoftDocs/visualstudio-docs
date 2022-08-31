@@ -26,17 +26,19 @@ Sets the hit count for the bound breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT SetHitCount( 
-   DWORD dwHitCount
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetHitCount( 
    uint dwHitCount
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetHitCount( 
+   DWORD dwHitCount
+);
+```
+---
 
 ## Parameters
 `dwHitCount`\

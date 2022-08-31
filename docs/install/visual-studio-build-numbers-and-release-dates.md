@@ -5,7 +5,7 @@ description: A list of released versions and build numbers for Visual Studio, so
 author: rjmolyneaux
 ms.author: rmolyneaux
 manager: jmartens
-ms.date: 06/14/2022
+ms.date: 08/30/2022
 ms.custom: vs-acquisition
 ms.topic: reference
 ms.workload:
@@ -26,6 +26,20 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 17.3.3  | Release | August 30, 2022 | 17.3.32825.248 |
+| 17.3.2  | Release | August 23, 2022 | 17.3.32819.101 |
+| 17.3.1  | Release | August 16, 2022 | 17.3.32811.315 |
+| 17.3.0  | Release | August 9, 2022 | 17.3.32804.467 |
+| 17.4.0  | Preview 1 | August 9, 2022 | 17.4.32804.182 |
+| 17.2.7  | Release | August 9, 2022 | 17.2.32802.462 |
+| 17.0.13 | Release | August 9, 2022 | 17.0.32802.463 |
+| 17.3.0  | Preview 6 | August 2, 2022 | 17.3.32728.150 |
+| 17.3.0  | Preview 5 | July 26, 2022 | 17.3.32721.290 |
+| 17.3.0  | Preview 4 | July 19, 2022 | 17.3.32714.290 |
+| 17.2.6  | Release | July 12, 2022 | 17.2.32630.192 |
+| 17.3.0  | Preview 3 | July 12, 2022 | 17.3.32708.82 |
+| 17.0.12 | Release | July 12, 2022 | 17.0.32630.193 |
+| 17.2.5  | Release | June 22, 2022 | 17.2.32616.157 |
 | 17.3.0  | Preview 2 | June 14, 2022 | 17.3.32611.02 |
 | 17.2.4  | Release | June 14, 2022 | 17.2.32602.215 |
 | 17.0.11 | Release | June 14, 2022 | 17.0.32602.201 |
@@ -92,6 +106,10 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.11.18 | Release | August 9, 2022 | 16.11.32802.440 |
+| 16.9.24  | Release | August 9, 2022 | 16.9.32802.399 |
+| 16.11.17 | Release | July 14, 2022 | 16.11.32630.194 |
+| 16.9.23  | Release | July 12, 2022 | 16.9.32630.195  |
 | 16.11.16 | Release | June 14, 2022 | 16.11.32602.291 |
 | 16.9.22 | Release | June 14, 2022 | 16.9.32602.290 |
 | 16.11.15 | Release | May 17, 2022 | 16.11.32510.428 |

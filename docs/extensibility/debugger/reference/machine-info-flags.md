@@ -25,18 +25,20 @@ Used to describe a machine.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_MACHINE_INFO_FLAGS { 
+   MCIFLAG_TERMINAL_SERVICES_AVAILABLE = 0x00000001
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_MACHINE_INFO_FLAGS { 
    MCIFLAG_TERMINAL_SERVICES_AVAILABLE = 0x00000001
 };
 typedef DWORD MACHINE_INFO_FLAGS;
 ```
-
-```csharp
-public enum enum_MACHINE_INFO_FLAGS { 
-   MCIFLAG_TERMINAL_SERVICES_AVAILABLE = 0x00000001
-};
-```
+---
 
 ## Fields
  `MCIFLAG_TERMINAL_SERVICES_AVAILABLE`\

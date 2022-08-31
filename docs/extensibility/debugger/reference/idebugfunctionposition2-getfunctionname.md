@@ -25,17 +25,19 @@ Gets the name of the function to which this position points.
 
 ## Syntax
 
-```cpp
-HRESULT GetFunctionName( 
-   BSTR* pbstrFunctionName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetFunctionName(
    out string pbstrFunctionName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetFunctionName( 
+   BSTR* pbstrFunctionName
+);
+```
+---
 
 ## Parameters
 `pbstrFunctionName`\

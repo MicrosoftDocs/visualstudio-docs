@@ -25,6 +25,15 @@ Specifies the breakpoint condition style for pending and bound breakpoints.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_BP_COND_STYLE {
+    BP_COND_NONE         = 0x0000,
+    BP_COND_WHEN_TRUE    = 0x0001,
+    BP_COND_WHEN_CHANGED = 0x0002
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_BP_COND_STYLE {
     BP_COND_NONE         = 0x0000,
@@ -33,14 +42,7 @@ enum enum_BP_COND_STYLE {
 };
 typedef DWORD BP_COND_STYLE;
 ```
-
-```csharp
-public enum enum_BP_COND_STYLE {
-    BP_COND_NONE         = 0x0000,
-    BP_COND_WHEN_TRUE    = 0x0001,
-    BP_COND_WHEN_CHANGED = 0x0002
-};
-```
+---
 
 ## Fields
 `BP_COND_NONE`\

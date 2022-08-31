@@ -25,17 +25,19 @@ Suspends a thread.
 
 ## Syntax
 
-```cpp
-HRESULT Suspend ( 
-   DWORD *pdwSuspendCount
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 HRESULT Suspend ( 
    out uint pdwSuspendCount
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Suspend ( 
+   DWORD *pdwSuspendCount
+);
+```
+---
 
 ## Parameters
 `pdwSuspendCount`\

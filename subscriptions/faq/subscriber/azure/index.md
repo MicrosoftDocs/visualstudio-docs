@@ -1,12 +1,12 @@
 ---
-title: Visual Studio subscription benefits for subscribers
+title: Azure Monthly Credit
 description: FAQs list for subscribers using Azure
 ms.topic: conceptual
 ms.assetid: 1d2c7d71-478b-4221-85c2-1c238a22e9a2
 author: evanwindom
 ms.author: amast
-ms.date: 04/20/2022
-ms.faqid: Section3
+ms.date: 07/06/2022
+ms.faqid: Section5
 ---
 
 # Azure for Visual Studio subscribers

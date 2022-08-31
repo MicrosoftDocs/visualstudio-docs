@@ -25,19 +25,21 @@ Gets a description of the process.
 
 ## Syntax
 
-```cpp
-HRESULT GetInfo(
-   PROCESS_INFO_FIELDS  Fields,
-   PROCESS_INFO*        pProcessInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetInfo(
    enum_PROCESS_INFO_FIELDS  Fields,
    PROCESS_INFO[]            pProcessInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetInfo(
+   PROCESS_INFO_FIELDS  Fields,
+   PROCESS_INFO*        pProcessInfo
+);
+```
+---
 
 ## Parameters
 `Fields`\

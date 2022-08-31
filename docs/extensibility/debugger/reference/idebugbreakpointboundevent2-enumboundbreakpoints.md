@@ -25,17 +25,19 @@ Creates an enumerator of breakpoints that were bound on this event.
 
 ## Syntax
 
-```cpp
-HRESULT EnumBoundBreakpoints( 
-    IEnumDebugBoundBreakpoints2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumBoundBreakpoints( 
     out IEnumDebugBoundBreakpoints2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumBoundBreakpoints( 
+    IEnumDebugBoundBreakpoints2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\
