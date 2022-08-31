@@ -22,11 +22,8 @@ This article describes features for experienced developers, or developers who ar
 In Visual Studio's modular installer, you choose and install the *workloads* you want. Workloads are groups of features that programming languages or platforms need to work. This modular strategy helps keep the Visual Studio installation footprint smaller, so it installs and updates faster.
 
 
-::: moniker range=">=vs-2019"
-
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
-::: moniker-end
 
 To learn more about setting up Visual Studio on your system, see [Install Visual Studio](../install/install-visual-studio.md).
 

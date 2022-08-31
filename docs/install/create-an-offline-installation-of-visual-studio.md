@@ -38,7 +38,7 @@ You can also configure future updates of this instance of Visual Studio to respe
 
 ## Use the command line to create a local layout
 
-Download the bootstrapper for the edition of Visual Studio you want and copy it into the directory that you want to serve as the source location of your local layout. Once the layout is created, you can use it to install Visual Studio. The bootstrapper is the executable that you use to create, update, and perform other Visual Stusio installation operations. You must have an internet connection to complete this.
+Download the bootstrapper for the edition of Visual Studio you want and copy it into the directory that you want to serve as the source location of your local layout. Once the layout is created, you can use it to install Visual Studio. The bootstrapper is the executable that you use to create, update, and perform other Visual Studio installation operations. You must have an internet connection to complete this.
 
 ### Step 1 - Download the Visual Studio bootstrapper
 
@@ -184,20 +184,20 @@ c:\localVSlayout\vs_enterprise.exe --noweb --add Microsoft.VisualStudio.Workload
 
 | **Language-locale** | **Language**          |
 |---------------------|-----------------------|
-| cs-CZ               | Czech                 |
-| de-DE               | German                |
-| en-US               | English               |
-| es-ES               | Spanish               |
-| fr-FR               | French                |
-| it-IT               | Italian               |
-| ja-JP               | Japanese              |
-| ko-KR               | Korean                |
-| pl-PL               | Polish                |
-| pt-BR               | Portuguese - Brazil   |
-| ru-RU               | Russian               |
-| tr-TR               | Turkish               |
-| zh-CN               | Chinese - Simplified  |
-| zh-TW               | Chinese - Traditional |
+|:::no-loc text="cs-CZ":::                | Czech                 |
+|:::no-loc text="de-DE":::                | German                |
+|:::no-loc text="en-US":::                | English               |
+|:::no-loc text="es-ES":::                | Spanish               |
+|:::no-loc text="fr-FR":::                | French                |
+|:::no-loc text="it-IT":::                | Italian               |
+|:::no-loc text="ja-JP":::                | Japanese              |
+|:::no-loc text="ko-KR":::                | Korean                |
+|:::no-loc text="pl-PL":::                | Polish                |
+|:::no-loc text="pt-BR":::                | Portuguese - Brazil   |
+|:::no-loc text="ru-RU":::                | Russian               |
+|:::no-loc text="tr-TR":::                | Turkish               |
+|:::no-loc text="zh-CN":::                | Chinese - Simplified  |
+|:::no-loc text="zh-TW ":::               | Chinese - Traditional |
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

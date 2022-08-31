@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2022."
-ms.date: 07/07/2022
+ms.date: 08/11/2022
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -19,7 +19,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-**Updated for the 17.2 release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
+**Updated for the 17.3 release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
 
 >[!div class="button"]
 >[Download Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
@@ -43,10 +43,14 @@ In [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studi
 
 :::image type="content" source="media/vs-2022/find-files-faster.gif" alt-text="Animation of the Find in Files feature as it searches a large C# solution three times faster than the previous version of Visual Studio.":::
 
-**New in 17.1**: With new indexed searching, Find in Files is even faster! For more information, see the [Code search in Visual Studio 2022 is about to get much faster](https://devblogs.microsoft.com/visualstudio/code-search-in-visual-studio-is-about-to-get-much-faster/) blog post.
+**New in [17.1](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-1-is-now-available/)**: With new indexed searching, Find in Files is even faster! For more information, see the [**Code search in Visual Studio 2022 is about to get much faster**](https://devblogs.microsoft.com/visualstudio/code-search-in-visual-studio-is-about-to-get-much-faster/) blog post.
 
 > [!TIP]
 > To learn more about current and upcoming changes to the search experience in Visual Studio 2022, see the [Sneak Peek and Edit Your Code While You Search](https://devblogs.microsoft.com/visualstudio/sneak-peek-and-edit-your-code-while-you-search/) blog post.
+
+### Git tooling is faster
+
+**New in [17.2](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-2-is-now-available/)**: We've integrated a relatively new Git feature called the [commit graph](https://devblogs.microsoft.com/devops/supercharging-the-git-commit-graph/), which helps to improve both the performance of your Git operations and the performance of Visual Studio itself. For the latest info, see the [Supercharge your Git experience in Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/) blog post.
 
 ## Build modern apps
 
@@ -68,18 +72,17 @@ As well, we're updating **Hot Reload** so that you can edit either C++ or .NET p
 
 From real-time & asynchronous collaboration tools to improved insights and productivity tools that seamlessly integrate with your daily workflow, Visual Studio 2022 has this and more.
 
-### Multi-repo support with Git in the IDE
+### Git multi-repo support and line-staging support
 
 If you've worked with projects hosted on different Git repositories, you might have used external tools or multiple instances of Visual Studio to connect to them. In [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/), you can work with a single solution that has projects in multiple repositories and contribute to them all from a single instance of Visual Studio. To learn more, see the [**Multi-repo support in Visual Studio**](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post.
 
-> [!NOTE]
-> **New in 17.2**: We're continuing to add even more functionality to the Git feature set. For the latest info, see the [Supercharge your Git experience in Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/) blog post.
+**New in [17.3](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-3-is-now-available/)**: We recently added line-staging support, also known as [interactive staging](https://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging). Now, you can stage chunks of changes in your files right from the code editor, or split changes across different commits. For more information, see the [**Stage lines of code in Visual Studio**](../version-control/git-line-staging.md) page.
 
 ### IntelliCode improvements
 
 * **Whole line completion**: In Visual Studio 2022, the [IntelliCode](/visualstudio/intellicode/) feature can now automatically complete code up to a whole line at a time. For details, see the [**Type less, code more with IntelliCode completions**](https://devblogs.microsoft.com/visualstudio/type-less-code-more-with-intellicode-completions/) blog post.
 
-* **Quick Actions recommendations**: New in [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-4-is-now-available/), IntelliCode can now spot when you’re performing a common task and recommend the right [Quick Action](quick-actions.md), completing it right as you’re typing. To learn more, see the [**Discover quick actions for common tasks as you type, with IntelliCode**](https://devblogs.microsoft.com/visualstudio/discover-quick-action-intellicode/) blog post.
+* **Quick Actions recommendations**: [IntelliCode](/visualstudio/intellicode/) can now spot when you’re performing a common task and recommend the right [Quick Action](quick-actions.md), completing it right as you’re typing. To learn more, see the [**Discover quick actions for common tasks as you type, with IntelliCode**](https://devblogs.microsoft.com/visualstudio/discover-quick-action-intellicode/) blog post.
 
 ## Designing for everyone
 
@@ -96,11 +99,11 @@ From new iconography to subtle color contrast ratio adjustments and a new [Casca
 One of our key focus areas is to make Visual Studio more personalized and flexible so that you can make the IDE your own. For example, [Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/) offers you the ability to sync with your Windows theme. So, if you've enabled the "night light" feature there, Visual Studio uses it, too. For more info, see the [**Personalize your Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/personalize-your-visual-studio-2022/) blog post.
 
 > [!TIP]
-> To learn more about the latest tabs updates in Visual Studio 2022, see the [**Improved doc management personalization**](https://devblogs.microsoft.com/visualstudio/doc-management-personalization/) blog post.
+> To learn more about the latest tabs and docs updates in Visual Studio 2022, see the [**Improved doc management personalization**](https://devblogs.microsoft.com/visualstudio/doc-management-personalization/) blog post.
 
 ## What's next
 
-Want to know more about what we're planning for Visual Studio 2022? See the [**Roadmap**](/visualstudio/productinfo/vs-roadmap/) page, the [**Preview**](/visualstudio/releases/2022/release-notes-preview/) release notes, and the Visual Studio [**Blog**](https://devblogs.microsoft.com/VisualStudio/) for details.
+Want to know more about what we're planning for Visual Studio 2022? See the [**Roadmap**](/visualstudio/productinfo/vs-roadmap/) page, the [**Preview**](/visualstudio/releases/2022/release-notes-preview/) release notes, and the Visual Studio [**Blog**](https://devblogs.microsoft.com/visualstudio/) for details.
 
 ## Give us feedback
 
@@ -112,6 +115,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 ## See also
 
-* [Visual Studio 2022 17.2 is now available](https://aka.ms/vs-2022-17-2-release)
+* [Visual Studio 2022 17.3 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-3-is-now-available/)
+* [Visual Studio 2022 17.2 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-2-is-now-available/)
 * [Visual Studio 2022 17.1 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-1-is-now-available/)
 * [Visual Studio 2022 GA is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-now-available/)

@@ -1,7 +1,7 @@
 ---
 title: "First look at profiling tools"
 description: "Take a brief look at the different diagnostic tools available in Visual Studio."
-ms.date: 12/22/2021
+ms.date: 08/18/2022
 ms.topic: conceptual
 f1_keywords:
   - vs.diagnosticshub.overview
@@ -175,23 +175,6 @@ When you select one of the arrow links, you are given a differential view of the
 
 If you click the link on the left instead in the **Memory Usage** view, the heap view is organized by object count; the objects of a particular type that increased the most in number are shown at the top (sorted by **Count Diff** column).
 
-## Analyze resource consumption (XAML)
-
-In XAML apps, such as Windows desktop WPF apps and UWP apps, you can analyze resource consumption using the Application Timeline tool. For example, you can analyze the time spent by your application preparing UI frames (layout and render), servicing network and disk requests, and in scenarios like application startup, page load, and Window resize. To use the tool, choose **Application Timeline** in the Performance Profiler, and then choose **Start**. In your app, go through the scenario with a suspected resource consumption issue, and then choose **Stop collection** to generate the report.
-
-Low framerates in the **Visual throughput** graph may correspond to visual problems that you see when running your app. Similarly, high numbers in the **UI thread utilization** graph may also correspond to UI responsiveness issues. In the report, you can select a time period with a suspected performance issue, and then examine the detailed UI thread activities in the Timeline details view (lower pane).
-
-::: moniker range=">=vs-2022"
-![Application Timeline profiling tool](../profiling/media/vs-2022/prof-tour-application-timeline.png "Profiling Tour Application Timeline")
-::: moniker-end
-::: moniker range="<=vs-2019"
-![Application Timeline profiling tool](../profiling/media/prof-tour-application-timeline.gif "Profiling Tour Application Timeline")
-::: moniker-end
-
-In the Timeline details view, you can find information such as the type of activity (or the UI element involved) along with the duration of the activity. For example, in the illustration, a **Layout** event for a Grid control takes 57.53 ms.
-
-For more information, see [Application Timeline](../profiling/application-timeline.md).
-
 ::: moniker range=">=vs-2022"
 ## Analyze asynchronous code (.NET)
 
@@ -201,7 +184,6 @@ The tool shows each async operation in a list view. You can see information such
 
 ![.NET Async Tool Stopped](../profiling/media/vs-2022/prof-tour-async-tool.png ".NET Async Tool Stopped")
 ::: moniker-end
-
 ::: moniker range="vs-2019"
 ## Analyze asynchronous code (.NET)
 
@@ -212,8 +194,6 @@ The tool shows each async operation in a list view. You can see information such
 ![.NET Async Tool Stopped](../profiling/media/async-tool-opened.png ".NET Async Tool Stopped")
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
-
 ## Examine application events
 
 The generic [events viewer](../profiling/events-viewer.md) allows you to view the activity of your application through a list of events, such as module load, thread start, and system configurations, to help better diagnose how your application is performing right within the Visual Studio profiler. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
@@ -221,6 +201,18 @@ The generic [events viewer](../profiling/events-viewer.md) allows you to view th
 The tool shows each event in a list view. Columns provide information about each event, such as the event name, timestamp, and process ID.
 
 ![Event Viewer Trace](../profiling/media/prof-tour-events-viewer.png "Event Viewer Trace")
+
+::: moniker range=">= vs-2022"
+
+## Examine File I/O
+
+The [File I/O tool](../profiling/use-file-io.md) helps you understand how you can optimize your File I/O operations to improve performance in your apps. If you’re trying to investigate and diagnose slow loading times, the new File IO tool can help you understand how the I/O operations impact your spent time. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing Debug > Performance Profiler (or Alt + F2).
+
+The tool shows file read and file write operations in a tabbed list view.
+
+![Screenshot showing File IO tool stopped.](./media/vs-2022/file-io-after.png "File IO tool stopped")
+
+::: moniker-end
 
 ## Analyze database performance (.NET Core)
 
@@ -237,9 +229,22 @@ Starting in Visual Studio 2019 version 16.7, you can use the [.NET Counters tool
 The tool shows live values for each counter in a list view.
 
 :::image type="content" source="../profiling/media/dotnet-counters-tool-collecting.png" alt-text=".NET Counter tool collecting.":::
+## Analyze resource consumption (XAML)
 
+In XAML apps, such as Windows desktop WPF apps and UWP apps, you can analyze resource consumption using the Application Timeline tool. For example, you can analyze the time spent by your application preparing UI frames (layout and render), servicing network and disk requests, and in scenarios like application startup, page load, and Window resize. To use the tool, choose **Application Timeline** in the Performance Profiler, and then choose **Start**. In your app, go through the scenario with a suspected resource consumption issue, and then choose **Stop collection** to generate the report.
+
+Low framerates in the **Visual throughput** graph may correspond to visual problems that you see when running your app. Similarly, high numbers in the **UI thread utilization** graph may also correspond to UI responsiveness issues. In the report, you can select a time period with a suspected performance issue, and then examine the detailed UI thread activities in the Timeline details view (lower pane).
+
+::: moniker range=">=vs-2022"
+![Application Timeline profiling tool](../profiling/media/vs-2022/prof-tour-application-timeline.png "Profiling Tour Application Timeline")
+::: moniker-end
+::: moniker range="vs-2019"
+![Application Timeline profiling tool](../profiling/media/prof-tour-application-timeline.gif "Profiling Tour Application Timeline")
 ::: moniker-end
 
+In the Timeline details view, you can find information such as the type of activity (or the UI element involved) along with the duration of the activity. For example, in the illustration, a **Layout** event for a Grid control takes 57.53 ms.
+
+For more information, see [Application Timeline](../profiling/application-timeline.md).
 ## Examine UI performance and accessibility events (UWP)
 
 In your UWP apps, you can enable **UI Analysis** in the **Diagnostic Tools** window. The tool searches for common performance or accessibility issues and displays them in the **Events** view while you are debugging. The event descriptions provide information that can help resolve issues.
@@ -266,14 +271,9 @@ When you select a time period in the graphs and choose **view details**, a detai
 
 You can also use the graphs to determine whether there are CPU bound or GPU bound performance bottlenecks.
 
-
-
 ## Analyze performance (legacy tools)
 
-
-::: moniker range=">=vs-2019"
 In Visual Studio 2019,  the legacy Performance Explorer and related profiling tools such as the Performance Wizard were folded into the Performance Profiler, which you can open using **Debug** > **Performance Profiler**. In the Performance Profiler, the available diagnostics tools depend on the target chosen and the current, open startup project. The CPU Usage tool provides the sampling capability previously supported in the Performance Wizard. The Instrumentation tool provides the instrumented profiling capability (for precise call counts and durations) that was in the Performance Wizard. Additional memory tools also appear in the Performance Profiler.
-::: moniker-end
 
 ![Performance Explorer tool](../profiling/media/prof-tour-performance-explorer.png "Performance Explorer")
 
@@ -281,7 +281,6 @@ In Visual Studio 2019,  the legacy Performance Explorer and related profiling to
 
 Here is a table that lists the different tools Visual Studio offers and the different project types you can use them with:
 
-::: moniker range=">=vs-2019"
 |Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core|
 |----------------------|---------------------|-------------|-------------|
 |[PerfTips](../profiling/perftips.md)|yes|yes|yes|
@@ -296,7 +295,6 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |[Database](../profiling/analyze-database.md)|yes (.NET Core only)|no|yes (ASP.NET Core only)|
 |[Performance Explorer](#analyze-performance-legacy-tools)|no|no|no|
 |[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
-::: moniker-end
 
 
 

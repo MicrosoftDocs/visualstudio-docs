@@ -24,9 +24,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 1. Open Visual Studio and create a project.
 
-    ::: moniker range=">=vs-2019"
     Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **c++**, choose **Templates**, then choose **Create new Console App project**. In the dialog box that appears, choose **Create**.
-    ::: moniker-end
 
 
     If you don't see the **Windows Console Application** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.

@@ -87,7 +87,6 @@ The registry settings in this section control if and how administrator updates a
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
 
 ## Configuring source location for updates 
 
@@ -138,18 +137,14 @@ Windows Registry Editor Version 5.00
 "channelUri"="https://aka.ms/vs/16/pre/channel"
 ```
 
-::: moniker-end
 
 ## Controlling notifications in the Visual Studio IDE
 
-
-::: moniker range=">=vs-2019"
 
 As described earlier, Visual Studio checks the location from which it has been installed, such as a network share or the internet, to see whether any updates are available. When an update is available, Visual Studio notifies the user with a notification icon in the lower right-hand corner of the window.
 
    ![The notification icon in the Visual Studio IDE](media/vs-2019/notification-bar.png "The notification icon in the Visual Studio IDE")
 
-::: moniker-end
 
 You can disable the notifications if you don't want end users to be notified of updates. (For example, you might want to disable notifications if you deliver updates through a central software distribution mechanism.)
 

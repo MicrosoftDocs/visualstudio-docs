@@ -8,7 +8,7 @@ manager: jmartens
 ms.technology: bridge
 ms.custom: "contperf-fy22q1"
 ms.topic: tutorial 
-ms.date: 02/22/2022
+ms.date: 08/11/2022
 ---
 
 # Tutorial: Run and debug locally with Bridge to Kubernetes on Visual Studio

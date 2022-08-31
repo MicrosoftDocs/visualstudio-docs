@@ -31,9 +31,6 @@ You can customize the startup experience for Visual Studio in several different 
 2. Expand **Environment**, and then choose **Startup**.
 
 
-::: moniker range=">=vs-2019"
-
 3. In the **On startup, open** list, choose what you want to happen after Visual Studio launches. You can choose from **Start window** (which lets you open a new or existing project), **Most recent solution**, or **Empty environment**.
 
-::: moniker-end
 

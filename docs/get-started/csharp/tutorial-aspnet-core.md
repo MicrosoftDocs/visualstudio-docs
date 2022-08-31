@@ -35,12 +35,9 @@ This tutorial will show you how to:
 ## Prerequisites
 
 
-   ::: moniker range=">=vs-2019"
-
    You need Visual Studio to complete this tutorial.
    Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs) for a free version.
 
-   ::: moniker-end
 
 - For more information about upgrading to the latest Visual Studio release, see [Visual Studio updates](../../install/update-visual-studio.md).
 

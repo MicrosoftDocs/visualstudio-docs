@@ -21,7 +21,7 @@ ms.topic: include
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
-Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 17.2.32408.312 | Required
+Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 17.3.32708.82 | Required
 
 ## Unaffiliated components
 
@@ -29,4 +29,4 @@ These are components that are not included with any workload, but may be selecte
 
 Component ID | Name | Version
 --- | --- | ---
-Component.Microsoft.Windows.CppWinRT | C++/WinRT | 2.0.210806.1
+n/a | n/a | n/a

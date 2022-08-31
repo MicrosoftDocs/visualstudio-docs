@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "docs/python/managing-python-on-azure-app-service.md",
+      "redirect_url": "/azure/app-service/quickstart-python",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/how-to-build-to-a-common-output-directory.md",
       "redirect_url": "/visualstudio/ide/how-to-change-the-build-output-directory#build-to-a-common-outputdirectory",
       "redirect_document_id": false
@@ -6103,6 +6108,16 @@
     {
       "source_path": "docs/sharepoint/requirements-for-developing-sharepoint-solutions.md",
       "redirect_url": "/visualstudio/sharepoint/getting-started-sharepoint-development-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/lab-management/use-build-or-rm-instead-of-lab-management.md",
+      "redirect_url": "/visualstudio/test/lab-management/using-a-lab-environment-for-your-application-lifecycle",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/lab-management/install-configure-test-agents.md",
+      "redirect_url": "/visualstudio/test/lab-management/using-a-lab-environment-for-your-application-lifecycle",
       "redirect_document_id": false
     },
     {

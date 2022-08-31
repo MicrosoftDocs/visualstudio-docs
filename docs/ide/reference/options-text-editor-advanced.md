@@ -1,7 +1,7 @@
 ---
 title: Options, Text Editor, Advanced
 description: Learn how to use the Advanced dialog box to change global settings for the Visual Studio text editor.
-ms.date: 06/28/2022
+ms.date: 08/09/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Advanced
@@ -52,6 +52,14 @@ Selected by default, this option adds a margin view next to the scrollbar that s
 ## Responsive code completion
 
 Selected by default, toggle to turn off auto-complete mode.
+
+::: moniker range="vs-2022"
+
+## Click to peek in margin
+
+The **Single click** setting is selected by default. The settings you choose from allow you to customize how Peek Definition works when you use it to display the differences between Git commits. You can change the default **Single click** setting to **Double click**, or you can select **None** to turn off the [Peek Difference UI](../../version-control/git-line-staging.md#peek-difference-support).
+
+::: moniker-end
 
 ## Word Based Suggestions in files handled by TextMate grammars
 

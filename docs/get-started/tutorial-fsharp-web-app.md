@@ -56,7 +56,6 @@ Be sure you have the necessary components installed:
 In this section, you'll create an ASP.NET Core Web API project.
 The project type comes with template files that constitute a functional web service, before you've even added anything.
 
-::: moniker range=">=vs-2019"
 1. Start Visual Studio.
 
 1. In the start window, select **Create a new project**.
@@ -90,7 +89,6 @@ The project type comes with template files that constitute a functional web serv
 1. Select the **F5** key to run your project.
    A browser window opens to display your Hello World message.
 
-::: moniker-end
 
 > [!NOTE]
 > If you get a message that asks if you want to accept an IIS SSL Express certificate, choose **Yes** to view the code in a web browser, and then choose **Yes** if you receive a follow-up security warning message.

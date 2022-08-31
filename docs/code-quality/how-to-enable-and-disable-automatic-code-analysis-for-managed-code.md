@@ -27,8 +27,6 @@ To enable or disable legacy code analysis:
 3. Specify the build type in **Configuration** and the target platform in **Platform**. (Non-.NET Core/.NET Standard projects only.)
 
 
-::: moniker range=">=vs-2019"
-
 4. To enable or disable automatic code analysis, select or clear the **Run on build** check box in the **Binary analyzers** section.
 
    ![Run binary code analysis on build option in Visual Studio](media/run-on-build-binary-analyzers.png)
@@ -37,7 +35,6 @@ To enable or disable legacy code analysis:
 
    `<RunCodeAnalysis>false</RunCodeAnalysis>`
 
-::: moniker-end
 
 > [!NOTE]
 > Disabling binary code analysis on build does not affect [.NET Compiler Platform-based code analyzers](roslyn-analyzers-overview.md), which always execute at build if you installed them as a NuGet package. For information about disabling analysis from these analyzers, see [How to disable source code analysis](disable-code-analysis.md).

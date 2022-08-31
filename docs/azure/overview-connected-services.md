@@ -7,7 +7,7 @@ ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: overview
-ms.date: 02/15/2022
+ms.date: 08/01/2022
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---

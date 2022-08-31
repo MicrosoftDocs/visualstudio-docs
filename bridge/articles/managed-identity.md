@@ -2,7 +2,7 @@
 title: "How to use managed identity with Bridge to Kubernetes"
 ms.technology: bridge
 ms.custom: "contperf-fy22q1"
-ms.date: 04/28/2021
+ms.date: 08/11/2022
 ms.topic: "conceptual"
 description: "Learn how to use Azure Active Directory (Azure AD) managed identity in an AKS cluster with Bridge to Kubernetes"
 manager: jmartens

@@ -1,7 +1,7 @@
 ---
 title: Learn about Solution Explorer
 description: Learn how you can use the Solution Explorer tool window in Visual Studio to create & manage your files, projects, and solutions.
-ms.date: 06/27/2022
+ms.date: 08/26/2022
 ms.topic: conceptual
 ms.custom: contperf-fy22q4
 helpviewer_keywords:
@@ -29,13 +29,13 @@ By default, the Solution Explorer tool window appears as a pane in the upper-rig
 
 Let's take a look at the Solution Explorer tool window and its UI (user interface). We'll start with an annotated screenshot of an open C# console solution that has two projects.
 
-:::image type="content" source="media/solution-explorer-tool-window.png" alt-text="An annotated screenshot of the Solution Explorer tool window in Visual Studio." lightbox="media/solution-explorer-tool-window.png":::
+:::image type="content" source="media/solution-explorer-tool-window-sml.png" alt-text="An annotated screenshot of the Solution Explorer tool window in Visual Studio." lightbox="media/solution-explorer-tool-window-lrg.png":::
 
 The following table is a text-equivalent of the annotated screenshot, but with a few handy links you can use to learn more.
 
 |UI element  |Action  |
 |----------------------|---------|
-|[**Menu** bar](#solution-explorer-menu-bar) | Control how your files appear |
+|[**Toolbar**](#solution-explorer-toolbar) | Control how your files appear |
 |**Search** bar | Search for specific files and file types |
 |**Main** window | View and manage your files, projects, & solutions |
 |[**Solution** node](#solution-node-context-menu-options) | Manage your solution(s) |
@@ -44,13 +44,13 @@ The following table is a text-equivalent of the annotated screenshot, but with a
 |**Program** node |  View, edit, and manage your program or application (app) |
 |[**Git Changes** tab](../version-control/git-with-visual-studio.md) |  Use Git & GitHub within Visual Studio to collaborate on projects with your team |
 
-## Solution Explorer menu bar
+## Solution Explorer toolbar
 
-To continue, let's take a closer look at the menu bar in Solution Explorer.
+To continue, let's take a closer look at the toolbar in Solution Explorer.
 
-:::image type="content" source="media/solution-explorer-menu-bar.png" alt-text="Screenshot of the Solution Explorer menu bar in Visual Studio." lightbox="media/solution-explorer-menu-bar.png":::
+:::image type="content" source="media/solution-explorer-toolbar.png" alt-text="Screenshot of the Solution Explorer toolbar in Visual Studio.":::
 
-The menu bar contains the following UI elements, from left to right:
+The toolbar contains the following UI elements, from left to right:
 
 |UI element  |Action |
 |---------|---------|
@@ -104,4 +104,4 @@ For a tutorial that walks you through how to add items and projects by using the
 
 - [What are solutions and projects in Visual Studio?](solutions-and-projects-in-visual-studio.md)
 - [What is the .NET Project Designer?](reference/project-properties-reference.md)
-- [Customize window layouts in Visual Studio](customizing-window-layouts-in-visual-studio.md)
+- [Customize window layouts and personalize tabs in Visual Studio](customizing-window-layouts-in-visual-studio.md)

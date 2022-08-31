@@ -2,7 +2,7 @@
 title: "Remote Debug a C++ Project | Microsoft Docs"
 description: Learn how to debug a Visual Studio C++ application from a remote computer by following these step-by-step instructions.
 ms.custom: "remotedebugging"
-ms.date: "11/11/2021"
+ms.date: "08/19/2022"
 ms.topic: "conceptual"
 dev_langs:
   - "C++"
@@ -52,37 +52,39 @@ The remote debugger is supported on Windows 7 and newer and versions of Windows 
 > If you need to add permissions for additional users, change the authentication mode, or port number for the remote debugger, see [Configure the remote debugger](../debugger/remote-debugging.md#configure_msvsmon).
 
 ## <a name="remote_cplusplus"></a> Remote debug a C++ project
- In the following procedure, the name and path of the project is C:\remotetemp\MyMfc, and the name of the remote computer is **MJO-DL**.
+ In the following procedure, the path of the project is C:\remotetemp, and the name of the remote computer is **MySurface**.
 
-1. Create an MFC application named **mymfc.**
+1. Create a C++ Console application named **CppConsoleApp**
 
-2. Set a breakpoint somewhere in the application that is easily reached, for example in **MainFrm.cpp**, at the start of `CMainFrame::OnCreate`.
+2. Set a breakpoint somewhere in the application that is easily reached, for example in **CppConsoleApp.cpp**, in the `main` function.
 
 3. In Solution Explorer, right-click on the project and select **Properties**. Open the **Debugging** tab.
 
 4. Set the **Debugger to launch** to **Remote Windows Debugger**.
 
-    ![Screenshot of the Debugging tab in the Visual Studio Solution Explorer Properties. The Debugger to launch property is set to Remote Windows Debugger.](../debugger/media/remotedebuggingcplus.png)
+    ![Screenshot of the Debugging tab in the Visual Studio Solution Explorer Properties. The Debugger to launch property is set to Remote Windows Debugger.](../debugger/media/remote-debugging-cpp.png)
 
 5. Make the following changes to the properties:
 
    |Setting|Value|
    |-|-|
-   |Remote Command|C:\remotetemp\mymfc.exe|
+   |Remote Command|C:\remotetemp\CppConsoleApp.exe|
    |Working Directory|C:\remotetemp|
-   |Remote Server Name|MJO-DL:*portnumber*|
+   |Remote Server Name|MySurface:*portnumber*|
    |Connection|Remote with Windows Authentication|
    |Debugger Type|Native Only|
-   |Deployment Directory|C:\remotetemp.|
-   |Additional Files to Deploy|C:\data\mymfcdata.txt.|
+   |Deployment Directory|C:\remotetemp|
+   |Additional Files to Deploy|$(ProjectDir)\data|
 
-    If you deploy additional files (optional), the folder must exist on both machines.
+    If you deploy additional folders, and want all the files in a folder deployed to the same folder, specify a folder name.
+
+   For more information on the properties, see [Project settings for a C++ Debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).
 
 6. In Solution Explorer, right-click the solution and choose **Configuration Manager**.
 
 7. For the **Debug** configuration, select the **Deploy** check box.
 
-    ![Screenshot of the Configuration Manager in the Visual Studio Solution Explorer. The Debug configuration is selected, and Deploy is checked.](../debugger/media/remotedebugcplusdeploy.png)
+    ![Screenshot of the Configuration Manager in the Visual Studio Solution Explorer. The Debug configuration is selected, and Deploy is checked.](../debugger/media/remote-debug-cpp-deploy.png)
 
 8. Start debugging (**Debug > Start Debugging**, or **F5**).
 
@@ -90,12 +92,12 @@ The remote debugger is supported on Windows 7 and newer and versions of Windows 
 
 10. If prompted, enter network credentials to connect to the remote machine.
 
-     The required credentials are specific to your network's security configuration. For example, on a domain computer, you might choose a security certificate or enter your domain name and password. On a non-domain machine, you might enter the machine name and a valid user account name, like <strong>MJO-DL\name@something.com</strong>, along with the correct password.
+     The required credentials are specific to your network's security configuration. For example, on a domain computer, you might choose a security certificate or enter your domain name and password. On a non-domain machine, you might enter the machine name and a valid user account name, like <strong>MySurface\name@something.com</strong>, along with the correct password.
 
 11. On the Visual Studio computer, you should see that execution is stopped at the breakpoint.
 
     > [!TIP]
-    > Alternatively, you can deploy the files as a separate step. In the **Solution Explorer,** right-click the **mymfc** node and then choose **Deploy**.
+    > Alternatively, you can deploy the files as a separate step. In the **Solution Explorer,** right-click the project node and then choose **Deploy**.
 
     If you have non-code files that are required by the application, you can specify them in a semicolon delimited list in **Additional Files to Deploy** on the **Remote Windows Debugger** page.
 
