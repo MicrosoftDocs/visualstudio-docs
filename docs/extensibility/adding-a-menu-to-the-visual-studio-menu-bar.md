@@ -27,10 +27,8 @@ Menus are declared in the *.vsct* file of the project. For more information abou
 
 By completing this walkthrough, you can create a menu named **Test Menu** that contains one command.
 
-:::moniker range=">=vs-2019"
 > [!NOTE]
 > Starting in Visual Studio 2019, top level menus contributed by extensions are placed under the **Extensions** menu.
-:::moniker-end
 
 ## Prerequisites
 
@@ -41,16 +39,11 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 1. Create a VSIX project named `TopLevelMenu`. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".  For more information, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).
 
 
-::: moniker range=">=vs-2019"
-
 2. When the project opens, add a custom command item template named **TestCommand**. In the **Solution Explorer**, right-click the project node and select **Add** >  **New Item**. In the **Add New Item** dialog, go to **Visual C# / Extensibility** and select **Command**. In the **Name** field at the bottom of the window, change the command file name to *TestCommand.cs*.
 
-::: moniker-end
 
 ## Create a menu on the IDE menu bar
 
-
-::: moniker range=">=vs-2019"
 
 1. In **Solution Explorer**, open *TopLevelMenuPackage.vsct*.
 
@@ -92,7 +85,6 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
     This makes the group part of the new menu.
 
-::: moniker-end
 
 4. In the `<Buttons>` section, find the `<Button>` node. Then, in the `<Strings>` node, change the `<ButtonText>` element to `Test Command`.
 
@@ -103,11 +95,8 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 1. Build the project and start debugging. An instance of the experimental instance should appear.
 
 
-::: moniker range=">=vs-2019"
-
 2. The **Extensions** menu in the experimental instance should contain a **Test Menu** menu.
 
-::: moniker-end
 
 3. On the **Test Menu** menu, select **Test Command**.
 

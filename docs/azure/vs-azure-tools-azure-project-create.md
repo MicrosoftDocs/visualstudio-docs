@@ -18,7 +18,6 @@ Visual Studio provides a project template that lets you create an [Azure cloud s
 ## Steps to create an Azure cloud service project in Visual Studio
 This section walks you through creating an Azure cloud service project in Visual Studio with one or more web roles.
 
-::: moniker range=">=vs-2019"
 1. From the start window, choose **Create a new project**.
 
 1. In the search box, type in *Cloud*, and then choose **Azure Cloud Service**.
@@ -28,8 +27,6 @@ This section walks you through creating an Azure cloud service project in Visual
 1. Give the project a name and choose **Create**.
 
    ![Give the project a name](./media/vs-azure-tools-azure-project-create/vs-2019/new-project-cloud-service-2.png)
-::: moniker-end
-
 1. In the **New Microsoft Azure Cloud Service** dialog, select the roles that you want to add, and choose the right arrow button to add them to your solution.
 
     ![Select new Azure cloud service roles](./media/vs-azure-tools-azure-project-create/new-cloud-service.png)

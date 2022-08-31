@@ -71,11 +71,8 @@ In this procedure, you'll use the same Hello World code snippet that's created i
 ### Add the .pkgdef file
 
 
-::: moniker range=">=vs-2019"
-
 1. Add a text file to the *HelloWorldVB* folder and name it *HelloWorldVB.pkgdef*. This file is used to add certain keys to the registry. In this case, it adds a new subkey to the **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\16.0\Languages\CodeExpansions\Basic** key.
 
-::: moniker-end
 
 2. Add the following lines to the file.
 

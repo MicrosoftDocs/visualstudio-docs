@@ -50,7 +50,6 @@ If the Visual Studio development environment is already open, you can create a n
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
 
 ## Select a template type
 
@@ -58,7 +57,6 @@ On the **Create a new project** dialog, a list of your recently selected templat
 
 If you're not selecting from the recently used templates, you can filter all available project templates by **Language** (for example, C# or C++), **Platform** (for example, Windows or Azure), and **Project type** (for example, Desktop or Web). You can also enter search text into the search box to further filter the templates, for example, **asp.net**.
 
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

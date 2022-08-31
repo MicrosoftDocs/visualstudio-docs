@@ -103,11 +103,8 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
     Extensions are additional software components added to Visual Studio that provide new functionality or extend existing functionality. Extensions can often be a source of memory resource issues. If you’re experiencing memory resource problems, try disabling extensions one at a time to see how it impacts the scenario or workflow.
 
 
-   ::: moniker range=">=vs-2019"
-
     To disable extensions, go to **Extensions** > **Manage Extensions**, and disable a particular extension.
 
-   ::: moniker-end
 
 - **Disable map mode**
 

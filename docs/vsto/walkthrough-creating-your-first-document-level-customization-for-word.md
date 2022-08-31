@@ -56,7 +56,6 @@ ms.workload:
 
 2. On the **File** menu, point to **New**, and then click **Project**.
 
-::: moniker range=">=vs-2019"
 3. On the **Create a New Project** dialog select the **Word VSTO Document** project.
 
      [!INCLUDE[new-project-dialog-search](../vsto/includes/new-project-dialog-search-md.md)]
@@ -66,7 +65,7 @@ ms.workload:
 5. Type **FirstWorkbookCustomization** in the **Name** box on the **Configure your new project** dialog and click **Create**.
 
 6. Select **Create a new document** from the **Visual Studio Tools for Office Project Wizard**, and click **OK**.
-::: moniker-end
+
    - [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstDocumentCustomization** project, and adds the **FirstDocumentCustomization** document and ThisDocument code file to the project. The **FirstDocumentCustomization** document is opened automatically in the designer.
 
 ## Close and reopen the document in the designer
