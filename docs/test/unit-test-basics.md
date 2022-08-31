@@ -47,7 +47,7 @@ In this article, we use the development of a fictional application called `MyBan
 
 Our first attempt at a design for the `MyBank` application includes an accounts component that represents an individual account and its transactions with the bank, and a database component that represents the functionality to aggregate and manage the individual accounts.
 
-We create a `MyBank` solution that contains two projects:
+We create a `Bank` solution that contains two projects:
 
 - `Accounts`
 
@@ -123,7 +123,7 @@ For C#, it is often quicker to generate the unit test project and unit test stub
 
 ### Create the unit test project and unit tests manually
 
-A unit test project usually mirrors the structure of a single code project. In the MyBank example, you add two unit test projects named `AccountsTests` and `BankDbTests` to the `MyBanks` solution. The test project names are arbitrary, but adopting a standard naming convention is a good idea.
+A unit test project usually mirrors the structure of a single code project. In the MyBank example, you add two unit test projects named `AccountsTests` and `BankDbTests` to the `Bank` solution. The test project names are arbitrary, but adopting a standard naming convention is a good idea.
 
 **To add a unit test project to a solution:**
 
