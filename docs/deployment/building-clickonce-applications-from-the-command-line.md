@@ -79,7 +79,6 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
 > [!NOTE]
 > The MSBuild system uses the **PublishDir** option to specify the location for output, for example `msbuild /t:publish /p:PublishDir="<specific location>"`.
 
-::: moniker range=">=vs-2019"
 
 ## Build .NET ClickOnce applications from the command line
 
@@ -90,7 +89,6 @@ Once you have the publish profile created, you can provide the pubxml file as a 
 ```cmd
     msbuild /t:publish /p:PublishProfile=<pubxml file> /p:PublishDir="<specific location>"
 ```
-::: moniker-end
 
 ## Publish properties
 
@@ -124,30 +122,25 @@ Once you have the publish profile created, you can provide the pubxml file as a 
 msbuild /target:publish /property:BootstrapperEnabled=false
  ```
 
-::: moniker range=">=vs-2019"
 For .NET Core 3.1, or later, projects these settings are provided in the pubxml file.
 
  Publishing properties are controlled in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] from the **Publish**, **Security**, and **Signing** property pages of the **Project Designer**. Below is a description of the publishing properties, along with an indication of how each is set in the various property pages of the application designer:
 
 > [!NOTE]
 > For .NET Windows desktop projects, these settings are now found in the Publish Wizard
-::: moniker-end
 
 - `AssemblyOriginatorKeyFile` determines the key file used to sign your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifests. This same key may also be used to assign a strong name to your assemblies. This property is set on the **Signing** page of the **Project Designer**.
-::: moniker range=">=vs-2019"
+
 For .NET windows applications, this setting remains in the project file
-::: moniker-end
 
   The following properties are set on the **Security** page:
 
 - **Enable ClickOnce Security Settings** determines whether [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests are generated. When a project is initially created, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifest generation is off by default. The wizard will automatically turn this flag on when you publish for the first time.
 
 - **TargetZone** determines the level of trust to be emitted into your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. Possible values are "Internet", "LocalIntranet", and "Custom". Internet and LocalIntranet will cause a default permission set to be emitted into your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. LocalIntranet is the default, and it basically means full trust. Custom specifies that only the permissions explicitly specified in the base *app.manifest* file are to be emitted into the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. The *app.manifest* file is a partial manifest file that contains just the trust information definitions. It is a hidden file, automatically added to your project when you configure permissions on the **Security** page.
--
-::: moniker range=">=vs-2019"
+
 > [!NOTE]
 > For .NET Core 3.1, or later, Windows desktop projects, these Security settings are not supported.
-::: moniker-end
 
   The following properties are set on the **Publish** page:
 
@@ -168,18 +161,18 @@ For .NET windows applications, this setting remains in the project file
 - `UpdateEnabled` indicates whether the application should check for updates.
 
 - `UpdateMode` specifies either Foreground updates or Background updates.
-::: moniker range=">=vs-2019"
+
    For .NET Core 3.1, or later, projects, Background is not supported.  
-::: moniker-end
+
 - `UpdateInterval` specifies how frequently the application should check for updates.
-::: moniker range=">=vs-2019"
+
    For .NET Core 3.1, or later, this setting is not supported.
-::: moniker-end
+
 
 - `UpdateIntervalUnits` specifies whether the `UpdateInterval` value is in units of hours, days, or weeks.
-::: moniker range=">=vs-2019"
+
    For .NET Core 3.1, or later, this setting is not supported.
-::: moniker-end
+
 
 - `UpdateUrl` (not shown) is the location from which the application will receive updates. If specified, this value is inserted into the application manifest.
 

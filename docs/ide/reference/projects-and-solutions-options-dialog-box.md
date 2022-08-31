@@ -66,7 +66,6 @@ When selected, documents that were left open the previous time the solution was 
 
 Reopening certain types of files or designers can delay solution load. Uncheck this option to [improve solution load performance](../../ide/visual-studio-performance-tips-and-tricks.md#disable-automatic-file-restore) if you don't want to restore the solution's previous context.
 
-::: moniker range=">=vs-2019"
 
 ## Restore Solution Explorer project hierarchy state on solution load
 
@@ -86,7 +85,6 @@ If you don't have this option selected and you want to edit an SDK-style project
 > [!TIP]
 > An *SDK-style project*, or [project SDK](../../msbuild/how-to-use-project-sdk.md), has a newer, more streamlined project file format that was introduced with MSBuild 15.0. An SDK-style project contains an `Sdk` attribute on the `Project` element, for example `<Project Sdk="Microsoft.NET.Sdk">`. Visual Studio creates an SDK-style project when you create a new .NET Core project from one of the Visual Studio templates, for example.
 
-::: moniker-end
 
 ## See also
 

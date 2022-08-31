@@ -65,7 +65,6 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 
 #### Options
 
-::: moniker range=">=vs-2019"
 
 | Options                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                 | Required/Optional               | Example                                                                                                                                                          |
 |-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -79,7 +78,6 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 | --includeRecommended                                | Includes the recommended components for any workloads that are installed, but not the optional components.                                                                                                                                                                                                                                                                                                                                  | Optional                        | For a  specific workload: <br> --add Microsoft.VisualStudio.Workload. ManagedDesktop;includeRecommended <br><br> To apply to all workloads: --includeRecommended |
 | --includeOptional                                   | Includes the optional components for any workloads that are installed, including the recommended components.                                                                                                                                                                                                                                                                                                                                | Optional                        | For a specific workload: <br>--add Microsoft.VisualStudio.Workload. ManagedDesktop;includeOptional <br><br> To apply to all workloads: --includeOptional         |
 
-::: moniker-end
 
 
 ### Generating a minimal layout
@@ -93,7 +91,6 @@ Before creating the layout, you can find out the total size of the download and 
 
 Let's walk through a few examples of how to preview, generate, and regenerate a minimal layout:
 
-::: moniker range=">=vs-2019"
 
 * First, here's an example of how to preview a layout for Visual Studio Enterprise versions 16.4.0 to 16.4.4 for English only.
 
@@ -133,7 +130,6 @@ A few other examples using the **generate** command:
   MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 16.4.0 --targetVersion 16.4.4 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeOptional --languages en-US fr-FR
   ```
 
-::: moniker-end
 
 
 ### How to maintain a minimal layout

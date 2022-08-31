@@ -80,8 +80,11 @@ If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Us
 
 > [!NOTE]
 > The Web Platform Installer reached End-of-Life on 7/1/22. For more information, see [Web Platform Installer - End of support and sunsetting the product/application feed](https://blogs.iis.net/iisteam/web-platform-installer-end-of-support-feed). You can directly install ASP.NET 4.8 from IIS.
+<<<<<<< HEAD
 
 1. In the left pane of Server Manager, select **IIS**. Right-click the server and select **Add Roles and Features**.
+=======
+>>>>>>> a9c87ac4c414b6e2182f91cf5b969bfc83211ebf
 
 1. In the wizard, advance to the **Features** section and install ASP.NET 4.8.
 
@@ -228,9 +231,11 @@ For information on running the remote debugger as a service, see [Run the remote
 
     If you have multiple processes showing **w3wp.exe**, check the **User Name** column. In some scenarios, the **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. If you see the App Pool, an easy way to identify the correct process is to create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
 
-    ::: moniker range=">=vs-2019"
     ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess.png "RemoteDBG_AttachToProcess")
+<<<<<<< HEAD
     ::: moniker-end
+=======
+>>>>>>> a9c87ac4c414b6e2182f91cf5b969bfc83211ebf
 
 7. Click **Attach**
 
@@ -266,9 +271,8 @@ Required ports:
 ::: moniker range=">=vs-2022"
 * 4026 - Required for remote debugging from Visual Studio 2022 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
 ::: moniker-end
-::: moniker range=">=vs-2019"
+
 * 4024 - Required for remote debugging from Visual Studio 2019 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
-::: moniker-end
 
 * UDP 3702 - (Optional) Discovery port enables you to the **Find** button when attaching to the remote debugger in Visual Studio.
 

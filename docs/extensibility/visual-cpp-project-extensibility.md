@@ -404,11 +404,8 @@ Make sure to use `Condition ="'$(DesignTimeBuild)' != 'true'"` in all operations
 If `GeneratorTarget` metadata is defined for a project item, the target is run automatically both when the project is loaded and when the source file is changed.
 
 
-::: moniker range=">=vs-2019"
-
 For instance, to automatically generate .cpp or .h files from .xaml files, the `$(VSInstallDir)`\\*MSBuild*\\*Microsoft*\\*WindowsXaml*\\*v16.0*\\\*\\*Microsoft.Windows.UI.Xaml.CPP.Targets* files define these entities:
 
-::: moniker-end
 
 ```xml
 <ItemDefinitionGroup>

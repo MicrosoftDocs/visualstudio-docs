@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "docs/python/managing-python-on-azure-app-service.md",
+      "redirect_url": "/azure/app-service/quickstart-python",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/how-to-build-to-a-common-output-directory.md",
       "redirect_url": "/visualstudio/ide/how-to-change-the-build-output-directory#build-to-a-common-outputdirectory",
       "redirect_document_id": false

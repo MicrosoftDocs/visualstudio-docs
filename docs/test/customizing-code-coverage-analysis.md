@@ -32,11 +32,8 @@ To customize code coverage, follow these steps:
 2. Add the content from the example file at the end of this article, and then customize it to your needs as described in the sections that follow.
 
 
-::: moniker range=">=vs-2019"
-
 3. To select the run settings file, on the **Test** menu, choose **Select Settings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file-from-the-command-line).
 
-::: moniker-end
 
    When you select **Analyze Code Coverage**, the configuration information is read from the run settings file.
 
@@ -44,11 +41,8 @@ To customize code coverage, follow these steps:
    > Any previous code coverage results and code coloring aren't automatically hidden when you run tests or update your code.
 
 
-::: moniker range=">=vs-2019"
-
 To turn the custom settings off and on, deselect or select the file on the **Test** menu.
 
-::: moniker-end
 
 ## Symbol search paths
 
@@ -110,7 +104,7 @@ You can also specify different formats from the command-line by either specifyin
 
 ::: moniker range=">=vs-2022"
 ### Static and dynamic native instrumentation
-In Visual Studio 2022 version 17.2, we added the option to instrument native binary statically (on disk). In previous versions, we supported only dynamic instrumentation, which was often not able to instrument methods. Static native instrumentation is more stable and it is recommended. Static native instrumentation requires enabling the [/PROFILE](/cpp/build/reference/profile-performance-tools-profiler?view=msvc-170) link option for all native projects for which you need code coverage collection. 
+In Visual Studio 2022 version 17.2, we added the option to instrument native binary statically (on disk). In previous versions, we supported only dynamic instrumentation, which was often not able to instrument methods. Static native instrumentation is more stable and it is recommended. Static native instrumentation requires enabling the [/PROFILE](/cpp/build/reference/profile-performance-tools-profiler) link option for all native projects for which you need code coverage collection. 
 
 You can enable native static instrumentation by enabling the preview feature **Code Coverage native static instrumentation** in  **Tools > Options > Environment > Preview Features**.
 
