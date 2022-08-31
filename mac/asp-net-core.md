@@ -33,7 +33,7 @@ Visual Studio for Mac makes it easy to develop your app's service with its suppo
 
 Open Visual Studio for Mac. On the Start Screen, select **New Project...**
 
-![This screenshot shows the New Project Dialog while creating an ASP.NET Core app in Visual Studio for Mac ](media/asp-net-core-2019-new-asp-core.png)
+![This screenshot shows the New Project Dialog while creating an ASP.NET Core app in Visual Studio for Mac](media/asp-net-core-2019-new-asp-core.png)
 
 The **New Project** dialog is shown. It lets you select a template to create your application.
 
@@ -297,4 +297,4 @@ For more information on the next steps from here, see the following guides:
 
 ## Related Video
 
-> [!Video https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Build-Your-First-App/player]
+> [![here](/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Build-Your-First-App/player)]

@@ -68,4 +68,4 @@ You can use the Publish tool to publish ASP.NET Core apps to Azure App Service.
 
 ## Related Video
 
-> [!Video https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Publish-to-Azure/player]
+> [![here](/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Publish-to-Azure/player)]

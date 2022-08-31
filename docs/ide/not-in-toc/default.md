@@ -1671,7 +1671,7 @@ We're sorry! It looks like we couldn't find what you were looking for.
 
 **Looking for `F1` help on a window, a keyword, or an API name?**
 - **Try your favorite search engine [Recommended]**
-- Use the [docs.microsoft.com](/) toolbar to search 
+- Use [the](/) toolbar to search 
 - Search the [.NET API browser](/dotnet/api/) or read our [text code editor overview](../../ide/writing-code-in-the-code-and-text-editor.md)
 - Browse the Knowledge Base for [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)
 

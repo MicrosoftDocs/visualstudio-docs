@@ -161,7 +161,7 @@ Here's how to use Git in Visual Studio 2019 [**version 16.8**](/visualstudio/rel
 
     Next, Visual Studio automatically loads and opens the solution from the repository.
 
-   ![Screenshot of a project in Git that's open in Solution Explorer in Visual Studio 2019 version 16.8 and later.](../ide/media/vs-2019/git-solution-explorer.png )
+   ![Screenshot of a project in Git that's open in Solution Explorer in Visual Studio 2019 version 16.8 and later.](../ide/media/vs-2019/git-solution-explorer.png)
 
 1. If your repository contains multiple solutions, Solution Explorer displays them. For a list view of the solutions, select the **Switch Views** button in Solution Explorer.
 
