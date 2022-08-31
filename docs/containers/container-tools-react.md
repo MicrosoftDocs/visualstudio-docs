@@ -376,8 +376,6 @@ The browser shows the app's home page.
 ![Screenshot of running app.](media/container-tools-react/vs-2019/running-app.png)
 :::moniker-end
 
-:::moniker range=">=vs-2019"
-
 ## Containers window
 
 Open the **Containers** tool window. You can find it on the menu under **View** > **Other Windows** > **Containers**, or press **Ctrl**+**Q** and start typing `containers` in the search box, then choose **Containers** window from the results. When the window comes up, dock it on the bottom under the editor pane.
@@ -395,7 +393,6 @@ You can also view the images and inspect information about them. Choose the **Im
 > [!NOTE]
 > The **dev** image does not contain the app binaries and other content, as **Debug** configurations use volume mounting to provide the iterative edit and debug experience. To create a production image containing all contents, use the **Release** configuration.
 
-:::moniker-end
 
 ## Publish Docker images
 

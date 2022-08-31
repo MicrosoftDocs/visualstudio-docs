@@ -42,11 +42,8 @@ In Visual Studio, you can choose from a list of code analysis [rule sets](../cod
 2. In the **Configuration** and **Platform** lists, choose the build configuration and target platform.
 
 
-::: moniker range=">=vs-2019"
-
 3. To run code analysis every time the project is built using the selected configuration, select **Run on build** in the **Binary analyzers** section. You can also run legacy code analysis manually, see [How to: Run Legacy Code Analysis Manually for Managed Code](how-to-run-legacy-code-analysis-manually-for-managed-code.md) for more details.
 
-::: moniker-end
 
 4. To view warnings from generated code, clear the **Suppress results from generated code** check box.
 
@@ -54,11 +51,8 @@ In Visual Studio, you can choose from a list of code analysis [rule sets](../cod
     > This option does not suppress code analysis errors and warnings from generated code when the errors and warnings appear in forms and templates. You can both view and maintain the source code for a form or a template, and it won't be overwritten.
 
 
-::: moniker range=">=vs-2019"
-
 5. In the **Active rules** list, do one of the following:
 
-::: moniker-end
 
    - Select the rule set that you want to use.
 

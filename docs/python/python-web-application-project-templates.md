@@ -27,11 +27,8 @@ You create a project from a template using **File** > **New** > **Project**. To 
 ![New project dialog for web apps](media/projects-new-project-dialog-web.png)
 
 
-::: moniker range=">=vs-2019"
-
 The generic **Web Project** template, mentioned earlier, provides only an empty Visual Studio project with no code and no assumptions other than being a Python project.
 
-::: moniker-end
 
 All the other templates are based on the Bottle, Flask, or Django web frameworks, and fall into three general groups as described in the following sections. The apps created by any of these templates contain sufficient code to run and debug the app locally. Each one also provides the necessary [WSGI app object](https://www.python.org/dev/peps/pep-3333/) (python.org) for use with production web servers.
 

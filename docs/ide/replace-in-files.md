@@ -44,7 +44,6 @@ You can use any of the following methods to display **Replace in Files** in the 
 
 ## To display Replace in Files
 
-::: moniker range=">=vs-2019"
 
 1. Press **Ctrl**+**Q** and enter "replace" in the search box at the top of the screen.
 
@@ -52,7 +51,6 @@ You can use any of the following methods to display **Replace in Files** in the 
 
    — or —
 
-::: moniker-end
 
 1. On the **Edit** menu, expand **Find and Replace**.
 
@@ -67,13 +65,11 @@ You can use any of the following methods to display **Replace in Files** in the 
 
 The **Replace in Files** options are identical to those in the **[Find in Files](find-in-files.md)** dialog, with two exceptions: There are additional replace action buttons at the bottom of the dialog. And, there are the following replace options available in the dialog.
 
-::: moniker range=">=vs-2019"
 
 ## Replace textbox
 
 To replace instances of the string in the **Find** textbox with another string, enter the replacement string in the **Replace** textbox. To delete instances of the string in the **Find** textbox, leave this field blank. Open the list to display the strings you most recently searched for. Choose the adjacent **Expression Builder** button if you want to use one or more regular expressions in your replacement string. For more information, see [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
 
-::: moniker-end
 
 
 ## Keep modified files open after Replace All

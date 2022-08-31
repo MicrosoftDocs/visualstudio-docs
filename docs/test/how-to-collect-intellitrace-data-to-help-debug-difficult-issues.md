@@ -39,18 +39,14 @@ The data that is collected in the IntelliTrace file increases debugging producti
 > [!WARNING]
 > The diagnostic data adapter for IntelliTrace works by instrumenting a managed process, which must be performed after the tests for the test run are loaded. If the process that you want to monitor has already started, no IntelliTrace files will be collected because the process is already running. To circumvent this, make sure that the process is stopped before the tests are loaded. Then start the process after the tests are loaded or the first test is started.
 
-::: moniker range=">=vs-2019"
 The following procedure describes how to configure the IntelliTrace data that you want to collect. These steps apply to the Test Settings dialog box in Visual Studio.
-::: moniker-end
 
 > [!NOTE]
 > The user account for the test agent that is used to collect IntelliTrace data must be a member of the administrators group. For more information, see [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).
 
 ## Configure the data to collect with the IntelliTrace diagnostic data adapter
 
-::: moniker range=">=vs-2019"
 Before you perform the steps in this procedure, you must open your test settings from Visual Studio and select the **Data and Diagnostics** page.
-::: moniker-end
 
 ### To configure the data to collect with the IntelliTrace diagnostic data adapter
 
@@ -108,10 +104,8 @@ Before you perform the steps in this procedure, you must open your test settings
 
 12. If you are using Microsoft Test Manager (deprecated in Visual Studio 2017), choose **Save**. If you are using Visual Studio, choose **OK**. The IntelliTrace settings are now configured and saved for your test settings.
 
-    ::: moniker range=">=vs-2019"
     > [!NOTE]
     > To reset the configuration for this diagnostic data adapter, choose **Reset to default configuration** in Visual Studio.
-    ::: moniker-end
 
 ## See also
 

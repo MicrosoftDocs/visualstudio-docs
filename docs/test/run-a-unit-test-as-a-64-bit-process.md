@@ -30,9 +30,7 @@ If you have a 64-bit machine, you can run unit tests and capture code coverage i
 
 2. Set the unit tests to run as a 64-bit process.
 
-   ::: moniker range=">=vs-2019"
    From the Visual Studio menu, choose **Test**, then choose **Processor Architecture for AnyCPU projects**. Choose **x64** to run the tests as a 64-bit process.
-   ::: moniker-end
 
 
    \- or -

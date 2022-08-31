@@ -32,7 +32,6 @@ Visual Studio allows you to specify how more than one project is run when you pr
 
 4. Choose the **Multiple Startup Projects** option and set the appropriate actions.
 
-:::moniker range=">=vs-2019"
 
 ## Example
 
@@ -41,7 +40,6 @@ The following example shows a solution WebFrontEndA with three projects, a front
 ![Screenshot of the Solution Property Pages.](media/vs-2022/startup-projects.png)
 
 In this example and any other Docker Compose scenario, if you choose `docker-compose` as the single startup project, but then you'll use a different way of specifying which projects or services to start. You'll use a Docker Compose launch profile to determine what services to start, and whether or not to attach the debugger, and there's a different dialog in Visual Studio for configuring it. See [Start a subset of services](../containers/launch-profiles.md). The **Solution Property Pages** dialog is only used for non-containerized solutions or when you are *not* using Docker Compose to manage startup.
-:::moniker-end
 
 ## See also
 

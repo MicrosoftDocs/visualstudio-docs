@@ -95,9 +95,7 @@ You can run tests in Visual Studio or from the command line.
 
 ### Run tests in Visual Studio
 
-::: moniker range=">=vs-2019"
 You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by right-clicking and selecting **Debug**.
-::: moniker-end
 
 
 For TypeScript, unit tests are run against the generated JavaScript code.
@@ -254,9 +252,7 @@ Test execution time: 1.5731 Seconds
 
 ## Run tests (ASP.NET Core)
 
-::: moniker range=">=vs-2019"
 You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by right-clicking and selecting **Debug**.
-::: moniker-end
 
 
 For TypeScript, unit tests are run against the generated JavaScript code.

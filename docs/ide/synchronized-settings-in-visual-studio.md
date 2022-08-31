@@ -88,11 +88,8 @@ Settings are synchronized across versions and editions of Visual Studio installe
 ## Side-by-side synchronized settings
 
 
-::: moniker range=">=vs-2019"
-
 Certain settings like tool window layout aren't shared between different side-by-side installations of Visual Studio. For example, the *CurrentSettings.vssettings* file in *%userprofile%\Documents\Visual Studio 2019\Settings* is in an installation-specific folder that is similar to *%localappdata%\Microsoft\VisualStudio\16.0_xxxxxxxx\Settings*.
 
-::: moniker-end
 
 ## Reset synchronized settings
 
