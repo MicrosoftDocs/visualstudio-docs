@@ -19,9 +19,7 @@ Visual Studio Test Explorer can run tests from any unit test framework that has 
 
 A Visual Studio solution can contain unit test projects that use different frameworks and that are targeted at different languages.
 
-::: moniker range=">=vs-2019"
 For .NET, [MSTest, NUnit, and xUnit](getting-started-with-unit-testing.md) are the test frameworks provided by Visual Studio which are installed by default. For C++, a different set of test frameworks are provided, such as CTest.
-::: moniker-end
 
 
 ## Acquire frameworks

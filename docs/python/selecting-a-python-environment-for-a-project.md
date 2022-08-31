@@ -22,8 +22,6 @@ All new Python projects in Visual Studio are initially configured to use the def
 
 ![Global default Python environment shown in Solution Explorer](media/environments/environments-project.png)
 
-
-::: moniker range=">=vs-2019"
 To change the environment for a project, right-click the **Python Environments** node and select **Add Environment**. You can also select **Add Environment** from the environment drop-down in the Python toolbar.
 
 Once in the **Add Environment** dialog box, select the **Existing environment** tab, then select a new environment from the **Environment** drop-down list:
@@ -33,7 +31,6 @@ Once in the **Add Environment** dialog box, select the **Existing environment** 
 If you already added an environment other than the global default to a project, you might need to activate a newly added environment. Right-click that environment under the **Python Environments** node and select **Activate Environment**. To remove an environment from the project, select **Remove**.
 
 ![Activating and removing a project environment](media/environments/environments-project-add-remove-2019.png)
-::: moniker-end
 
 ## Use virtual environments
 
@@ -51,8 +48,6 @@ In Visual Studio, a virtual environment can be activated for a project like any 
 
 Once a virtual environment is added to your project, it appears in the **Python Environments** window. You can then activate it like any other environment, and you can manage its packages.
 
-
-::: moniker range=">=vs-2019"
 ### Create a virtual environment
 
 You can create a new virtual environment directly in Visual Studio as follows:
@@ -83,7 +78,6 @@ If you've already created a virtual environment elsewhere, you can activate it f
 1. In the **Browse** dialog that appears, navigate to and select the folder that contains the virtual environment, and select **OK**. If Visual Studio detects a *requirements.txt* file in that environment, it asks whether to install those packages.
 
 1. After a few moments, the virtual environment appears under the **Python Environments** node in **Solution Explorer**. The virtual environment is not activated by default, so right-click it and select **Activate Environment**.
-::: moniker-end
 
 ### Remove a virtual environment
 
@@ -97,9 +91,7 @@ In Solution Explorer, expand any specific environment's node to quickly view the
 
 ![Python packages for an environment in Solution Explorer](media/environments/environments-installed-packages.png)
 
-::: moniker range=">=vs-2019"
 To install new packages, right-click the environment and select **Manage Python Packages** (or use the package button on the Python toolbar) to switch to the appropriate **Packages** tab in the **Python Environments** window. Once in the **Packages** tab, enter a search term (usually the package name) and Visual Studio displays matching packages.
-::: moniker-end
 
 Within Visual Studio, packages (and dependencies) for most environments are downloaded from the [Python Package Index (PyPI)](https://pypi.org), where you can also search for available packages. Visual Studio's status bar and output window show information about the install. To uninstall a package, right-click it and select **Remove**.
 

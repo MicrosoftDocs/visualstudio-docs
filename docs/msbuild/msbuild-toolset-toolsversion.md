@@ -23,14 +23,12 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
 
 ## ToolsVersion attribute
 
-::: moniker range=">=vs-2019"
  Specify the Toolset in the `ToolsVersion` attribute on the [Project](../msbuild/project-element-msbuild.md) element in the project file. The following example specifies that the project should be built by using the MSBuild "Current" Toolset.
 
 ```xml
 <Project ToolsVersion="Current" ... </Project>
 ```
 
-::: moniker-end
 
 
 > [!NOTE]
