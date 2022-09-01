@@ -34,7 +34,7 @@ For an introduction to unit testing that takes you directly into coding, see one
 
 - [Write unit tests for C/C++ in Visual Studio](../test/writing-unit-tests-for-c-cpp.md)
 
-## The MyBank solution example
+## The Bank solution example
 
 In this article, we use the development of a fictional application called `MyBank` as an example. You don't need the actual code to follow the explanations in this topic. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code. However, the concepts are easily transferred to other languages and frameworks.
 
@@ -51,7 +51,7 @@ We create a `MyBank` solution that contains two projects:
 
 - `Accounts`
 
-- `BankDb`
+- `BankDB`
 
 Our first attempt at designing the `Accounts` project contains a class to hold basic information about an account, an interface that specifies the common functionality of any type of account, like depositing and withdrawing assets from the account, and a class derived from the interface that represents a checking account. We begin the Accounts projects by creating the following source files:
 
@@ -123,7 +123,7 @@ For C#, it is often quicker to generate the unit test project and unit test stub
 
 ### Create the unit test project and unit tests manually
 
-A unit test project usually mirrors the structure of a single code project. In the MyBank example, you add two unit test projects named `AccountsTests` and `BankDbTests` to the `MyBanks` solution. The test project names are arbitrary, but adopting a standard naming convention is a good idea.
+A unit test project usually mirrors the structure of a single code project. In the MyBank example, you add two unit test projects named `AccountsTests` and `BankDbTests` to the `Bank` solution. The test project names are arbitrary, but adopting a standard naming convention is a good idea.
 
 **To add a unit test project to a solution:**
 
