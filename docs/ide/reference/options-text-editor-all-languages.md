@@ -56,6 +56,8 @@ This dialog box allows you to change the default behavior of the Code Editor. Th
 
 A grayed checkmark is displayed when an option has been selected on the General options pages for some programming languages, but not for others.
 
+:::image type="content" source="media/tools-options-text-editor-all-languages-general.png" alt-text="Screenshot of the Options dialog box that shows the General settings for all programming languages in the text editor.":::
+
 ## Statement Completion
 
 **Auto list members**
@@ -121,7 +123,7 @@ This option sets the behavior of the editor when you place the insertion point o
 
 - When this option is cleared, the Cut command removes blank lines. However, the data on the Clipboard is preserved. Therefore, if you then use the Paste command, the content most recently copied onto the Clipboard is pasted. If nothing has been copied previously, nothing is pasted.
 
-This setting has no effect on Copy or Cut when a line is not blank. If nothing is selected, the entire line is copied or cut. If you then Paste, the text of the entire line and its endline character are pasted.
+This setting has no effect on Copy or Cut when a line isn't blank. If nothing is selected, the entire line is copied or cut. If you then Paste, the text of the entire line and its endline character are pasted.
 
 > [!TIP]
 > To display indicators for spaces, tabs, and line ends, and thus distinguish indented lines from lines that are entirely blank, select **Advanced** from the **Edit** menu and choose **View White Space**.
