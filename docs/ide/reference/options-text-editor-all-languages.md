@@ -2,7 +2,7 @@
 title: Options, Text Editor, All Languages
 description: Learn how to use the General page in the All Languages section to change the default behavior of the Code Editor within Visual Studio.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 09/01/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.JavaScript.General
@@ -108,6 +108,10 @@ When selected, the mouse cursor changes to a pointing hand as it passes over a U
 **Navigation bar**
 
 When selected, displays the **Navigation bar** at the top of the code editor. Its dropdown **Objects** and **Members** lists allow you to choose a particular object in your code, select from its members, and navigates to the declaration of the selected member in the Code Editor.
+
+**Automatic brace completion**
+
+When selected, Visual Studio provides a closing parenthesis when an open parenthesis is typed.
 
 **Apply Cut or Copy commands to blank lines when there is no selection**
 
