@@ -7,12 +7,13 @@ ms.date: 08/26/2022
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 ms.assetid: 8202717a-e990-45cf-b092-438651ccb38a
-author: corob
-ms.author: crdun
-manager: crdun
+author: therealjohn
+ms.author: johmil
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
+
 # Cross-platform mobile development in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
@@ -40,7 +41,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
 ### <a name="AndroidHTML"></a> Target Android, iOS, and Windows from a single code base
 
- You can build native apps for Android, iOS, and Windows by using C# or F# (Visual Basic isn't supported at this time).  To get started, install Visual Studio, select the **Mobile Development with .NET** option in the installer.
+ You can build native apps for Android, iOS, and Windows by using C# or F# (Visual Basic isn't supported at this time). To get started, install Visual Studio, select the **Mobile Development with .NET** option in the installer.
 
  If you already have Visual Studio installed, rerun the **Visual Studio Installer** and select the same **Mobile Development with .NET** option for Xamarin (as shown earlier).
 
