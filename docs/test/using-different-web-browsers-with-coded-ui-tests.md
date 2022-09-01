@@ -51,11 +51,9 @@ To play back tests on non-IE web browsers, you must install the **Selenium compo
 
 ### Install Selenium components
 
-
 1. On the **Extensions** menu, choose **Manage Extensions**.
 
 2. In the **Manage Extensions** dialog box, search for `Selenium components for Cross Browser Testing`.
-
 
 3. Highlight the extension and choose **Download**.
 

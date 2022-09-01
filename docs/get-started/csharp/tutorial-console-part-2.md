@@ -31,7 +31,6 @@ In this tutorial, you:
 > * Do more debugging.
 > * Inspect your completed code.
 
-
 ## Prerequisites
 
 To work through this article, you can use either of these Calculator apps:
@@ -339,7 +338,6 @@ At this point, *CalculatorLibrary.cs* should resemble this code:
 using System;
 using System.IO;
 using System.Diagnostics;
-
 
 namespace CalculatorLibrary
 {

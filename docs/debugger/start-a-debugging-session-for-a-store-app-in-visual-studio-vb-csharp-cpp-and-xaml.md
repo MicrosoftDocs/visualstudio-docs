@@ -47,7 +47,6 @@ This article describes how to start a Visual Studio debugging session for a Univ
 > [!NOTE]
 > Starting in Visual Studio 2019, UWP apps for HTML and JavaScript are no longer supported.
 
-
 ## <a name="BKMK_The_easy_way_to_start_debugging"></a>Start debugging from the Visual Studio toolbar
 
 The easiest way to configure and start debugging is from the standard Visual Studio toolbar.
@@ -202,7 +201,6 @@ To attach the debugger to a [!INCLUDE[win8_appname_long](../debugger/includes/wi
 1. Select **Attach**.
 
  Visual Studio attaches the debugger to the process. Execution continues until a breakpoint is reached, you manually suspend execution, an unhandled exception occurs, or the app ends.
-
 
 ## See also
 

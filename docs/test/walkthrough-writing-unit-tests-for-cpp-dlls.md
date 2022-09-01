@@ -82,7 +82,6 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 ## <a name="create_dll_project"></a> Create a DLL project
 
-
 The following steps show how to create a DLL project in Visual Studio 2019.
 
 1. Create a C++ project by using the **Windows Desktop Wizard**: Right-click on the solution name in **Solution Explorer** and choose **Add** > **New Project**. Set the **Language** to C++ and then type "windows" in the search box. Choose **Windows Desktop Wizard** from the results list.
@@ -110,7 +109,6 @@ The following steps show how to create a DLL project in Visual Studio 2019.
             return 0.0;
         }
     ```
-
 
 
 ## <a name="make_functions_visible"></a> Couple the test project to the DLL project
@@ -288,10 +286,8 @@ The following steps show how to create a DLL project in Visual Studio 2019.
 
    ![All tests pass](../test/media/ute_ult_alltestspass.png)
 
-
 > [!TIP]
 > If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution in the settings menu of the toolbar. This can noticeably reduce the time taken to run all the tests.
-
 
 ## <a name="refactor"></a> Refactor the code without changing tests
 

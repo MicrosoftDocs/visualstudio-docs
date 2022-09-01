@@ -34,7 +34,6 @@ There is a lot of information on this webpage, and it's grouped up into the foll
 
 There are a few important things to plan out and be aware of before you get started.  
 
-
 ::: moniker range="vs-2019"
 
 - **Folder Management:** If you have multiple editions of Visual Studio in use within your enterprise (for example, Visual Studio 2019 Professional and Visual Studio 2019 Enterprise), you must create a separate network install point for each edition. Also, the layout path must be fewer than 80 characters, although some organizations have successfully used [symbolic links](/windows/win32/fileio/symbolic-links) to work around the 80-character limitation. 
@@ -57,7 +56,6 @@ There are a few important things to plan out and be aware of before you get star
 ## Download the Visual Studio bootstrapper to create the network layout
 
 Download the bootstrapper for the edition of Visual Studio you want and copy it into the directory that you want to serve as the source location of the layout. Once the layout is created, you can use it to install Visual Studio onto any client machine. The bootstrapper is the executable that you use to create, update, and perform other layout operations. You must have an internet connection to complete this step.
-
 
 ::: moniker range="vs-2019"
 
@@ -84,7 +82,6 @@ The bootstrappers listed below will always install the latest most secure versio
 | Visual Studio 2022 Build Tools   | [vs_buildtools.exe](https://aka.ms/vs/17/release/vs_buildtools.exe)         |
 
 ::: moniker-end
-
 
 ::: moniker range="vs-2019"
 
@@ -174,7 +171,6 @@ We recommend that you always use the latest Visual Studio installer in your layo
     ```shell
     vs_enterprise.exe --layout C:\VSLayout --useLatestInstaller
     ```
-
 
 ### Copy the layout to a network share
 
@@ -275,11 +271,9 @@ vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.Net
  >
  > To get these new components installed on the client machine, make sure you do these three steps. First, verify that the layout contains the new components as described above. Next, update your client to the latest bits in the layout. Finally, again on the client, run a modify operation which will install the new components (that were added to the layout) onto the client machine.
 
-
 ### Configure the layout to always include and provide the latest installer
 
 You can configure your layout to _always_ include and provide the latest installer to your clients, even if the installer is considered a part of a more recent version of Visual Studio. Thus, when your client updates from this layout, the client will acquire the latest installer that's included and provided by this layout. The benefit is that once the latest installer is on your client, your client installations will be able to take advantage of the bug fixes and new functionality that we continue to add to the installer. 
-
 
 ::: moniker range="vs-2019"
 
@@ -288,11 +282,9 @@ You can configure your layout to _always_ include and provide the latest install
 
 ::: moniker-end
 
-
 There are two ways to enable your layout to include and provide the latest installer:
 
 - You can pass in the `--useLatestInstaller` parameter to the bootstrapper when you're creating or updating the layout. This will cause a setting to get set in the layout.json file, which can be found in the root directory of the layout. Here's an example for how to update the layout and configure it to use the latest and greatest installer available.  
-
 
    ```shell
    vs_enterprise.exe --layout C:\VSLayout --useLatestInstaller
@@ -316,7 +308,6 @@ There are two ways to enable your layout to include and provide the latest insta
 There is no way to programmatically remove this setting in the layout.json file, so if you want your layout to _stop_ using the latest installer that Microsoft makes available, and instead use the version of the installer that corresponds to the bootstrapper (which is mostly likely older than the most recent installer), simply edit the layout.json file and remove the `"UseLatestInstaller": true` setting. 
 
 Note that you may find this `"UseLatestInstaller": true` setting in the layout's response.json file too, but it is ignored there. The [response.json file is used to set default configuration options on the _client_ when the client installs or updates from a layout](automated-installation-with-response-file.md). This particular `"useLatestInstaller": true` setting is used to ensure that the contents of the _layout_ contain the latest installer, so that the client machines can then acquire the latest installer from the layout.
-
 
 ### Verify a layout
 
@@ -385,9 +376,7 @@ When you install from a layout, the content that is installed will default to be
 > [!IMPORTANT]
 > The `--noWeb` option does not stop the Visual Studio installer on an internet-connected client machine from _checking_ for updates if the client has been configured to look at Microsoft hosted servers for updates. Rather, `--noWeb` simply prevents the client from downloading the product packages. For more information, see the [Update a Visual Studio client that was installed from a network layout](update-a-network-installation-of-visual-studio.md) page.
 
-
 If you get an error message that says "A product matching the following parameters cannot be found", make sure that you are using the `--noweb` switch.
-
 
 ### Configure initial client installation defaults for this layout
 
@@ -400,7 +389,6 @@ For more information about how to customize and configure the default client set
 
 ### Configure enterprise deployment behavior
 
-
 You can also control other enterprise deployment behavior, such as:
 
 - If administrator updates should be enabled and how they should be applied.
@@ -410,7 +398,6 @@ You can also control other enterprise deployment behavior, such as:
 - How notifications appear or don't appear.
 
 Refer to [Set defaults for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md) for additional details.
-
 
 
 ### Error codes

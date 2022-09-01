@@ -21,4 +21,3 @@ A lab environment is a collection of virtual and physical machines that you can 
 > [!IMPORTANT]
 > Visual Studio no longer supports [Microsoft Test Manager and Lab Management](/previous-versions/azure/devops/test/mtm/reference-tcm?view=tfs-2017&viewFallbackFrom=azure-devops&preserve-view=true) for automated testing. Similarly, [SCVMM](/system-center/vmm/overview?view=sc-vmm-1801&preserve-view=true) and XAML Builds are no longer supported. We recommend [Azure DevTest Labs](/azure/devtest-labs/devtest-lab-overview) instead.
 
-

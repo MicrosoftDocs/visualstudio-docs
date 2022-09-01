@@ -36,7 +36,6 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
 1. Open Visual Studio.
 
-
 2. On the start window, choose **Create a new project**.
 
 3. Type **wcf service library** in the search box on the **Create a new project** page. Select either the C# or Visual Basic template for **WCF Service Library**, and then click **Next**.
@@ -47,7 +46,6 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
    > If you don't see any templates, you may need to install the **Windows Communication Foundation** component of Visual Studio. Choose **Install more tools and features** to open Visual Studio Installer. Choose the **Individual components** tab, scroll down to **Development activities**, and then select **Windows Communication Foundation**. Click **Modify**.
 
 4. On the **Configure your new project** page, click **Create**.
-
 
    > [!NOTE]
    > This creates a working service that can be tested and accessed. The following two steps demonstrate how you might modify the default method to use a different data type. In a real application, you would also add your own functions to the service.

@@ -19,10 +19,8 @@ ms.workload:
 
 In this introductory article, we'll explore what it means to create a *solution* and a *project* in Visual Studio. A solution is a container that's used to organize one or more related code projects, for example a class library project and a corresponding test project. We'll look at the properties of a project and some of the files it can contain. We'll also create a reference from one project to another.
 
-
 > [!TIP]
 > If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
-
 
 We'll construct a solution and project from scratch as an educational exercise to understand the concept of a project. In your general use of Visual Studio, you'll likely use some of the various project *templates* that Visual Studio offers when you create a new project.
 
@@ -36,7 +34,6 @@ Despite its name, a solution is not an "answer". A solution is simply a containe
 ### Create a solution
 
 We'll start our exploration by creating an empty solution. After you get to know Visual Studio, you probably won't find yourself creating empty solutions often. When you create a new project, Visual Studio automatically creates a solution to house the project if there's not a solution already open.
-
 
 ::: moniker range="vs-2019"
 
@@ -73,7 +70,6 @@ We'll start our exploration by creating an empty solution. After you get to know
 ### Add a project
 
 Now let's add our first project to the solution. We'll start with an empty project and add the items we need to the project.
-
 
 ::: moniker range="vs-2019"
 
@@ -152,7 +148,6 @@ It's common for solutions to contain more than one project, and often these proj
 Let's add a unit test project to our solution. This time we'll start from a project template so we don't have to add an additional code file to the project.
 
 1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, choose **Add** > **New Project**.
-
 
 ::: moniker range="vs-2019"
 

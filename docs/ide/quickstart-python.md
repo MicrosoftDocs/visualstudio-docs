@@ -19,7 +19,6 @@ ms.workload:
 
 In this 5-10 minute introduction to Visual Studio as a Python IDE, you create a simple Python web application based on the Flask framework. You create the project through discrete steps that help you learn about Visual Studio's basic features.
 
-
 ::: moniker range="vs-2019"
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free. In the installer, make sure to select the **Python development** workload.
@@ -37,7 +36,6 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 ## Create the project
 
 The following steps create an empty project that serves as a container for the application:
-
 
 ::: moniker range="vs-2019"
 1. Open Visual Studio 2019.

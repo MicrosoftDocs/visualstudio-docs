@@ -20,7 +20,6 @@ If you want to run automated tests that interact with the desktop, you must set 
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
-
 > [!IMPORTANT]
 > The computer that is running an agent on which you want to run coded UI tests cannot be locked or have an active screen saver.
 
@@ -69,7 +68,6 @@ Use the following procedure to set up any agents that are assigned to a role tha
 
    > [!NOTE]
    > There is a notification area icon that runs on the computer for a test agent that is running as a process. It shows the status of the test agent. You can start, stop or restart the agent if it is running as a process using this tool. To start the test agent as a process if it is not running, choose **Start** > **Visual Studio** > **Microsoft Visual Studio Test Agent**.
-
 
 ## See also
 
