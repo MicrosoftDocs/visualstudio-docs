@@ -56,7 +56,6 @@ From within Visual Studio, applications can be published directly to the followi
 - [Web server(IIS)](#web-server-iis)
 - [Import profile](#import-profile)
 
-
 The preceding options appear as shown in the following illustration when you create a new publish profile.
 
 ::: moniker range=">=vs-2022"
@@ -65,7 +64,6 @@ The preceding options appear as shown in the following illustration when you cre
 ::: moniker range="vs-2019"
 ![Screenshot of Choose a publishing option.](../deployment/media/quickstart-publish-dialog.png)
 ::: moniker-end
-
 
 For a quick tour of more general application deployment options, see [First look at deployment](../deployment/deploying-applications-services-and-components.md).
 
@@ -177,7 +175,6 @@ If for any reason (such as machine access) you are not able to use cloud service
 For more information, see [Quickstart - Deploy to a local folder](quickstart-deploy-aspnet-web-app.md).
 
 For more information on deploying a .NET Windows Application using ClickOnce, see [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md).
-
 
 For additional help to choose your settings, see the following:
 

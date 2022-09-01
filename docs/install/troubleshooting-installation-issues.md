@@ -31,7 +31,6 @@ The following steps apply to a typical online installation. For an offline insta
 
 ### Step 1 - Check whether the problem is a known issue
 
-
 ::: moniker range="vs-2019"
 
 There are some known issues with the Visual Studio Installer that Microsoft is working on fixing. To see if there's a workaround for your problem, check the [Known Issues section of our release notes](/visualstudio/releases/2019/release-notes#-known-issues).
@@ -80,7 +79,6 @@ The Visual Studio bootstrapper is a light-weight executable that initiates the i
 ### Step 5 - Report a problem
 
 In some situations, such as when there are corrupted files, issues might require case-by-case troubleshooting. To help us help you, follow these steps:
-
 
 ::: moniker range="vs-2019"
 

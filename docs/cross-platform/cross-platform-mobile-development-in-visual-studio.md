@@ -81,7 +81,6 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |[Create your first app](/windows/uwp/get-started/your-first-app)|
 |[Develop apps for the Universal Windows Platform (UWP)](../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md)|
 
-
 <a name="CPP"></a>
 
 ## Build an app for Android, iOS, and Windows (C++)

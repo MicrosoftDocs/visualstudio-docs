@@ -61,7 +61,6 @@ Visual Studio gives you a number of ways to set up a Python project, either from
 
 ![New project dialog with Python templates](media/projects-new-project-dialog.png)
 
-
 The following table summarizes the templates available in Visual Studio 2019 (not all templates are available in all previous versions):
 
 | Template | Description |

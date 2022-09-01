@@ -20,7 +20,6 @@ The completed sample that you'll create in this tutorial may be found on GitHub 
 
 ## Prerequisites
 
-
 ::: moniker range="vs-2019"
 
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
@@ -37,7 +36,6 @@ The completed sample that you'll create in this tutorial may be found on GitHub 
 ## Create a Web Application project
 
 In Visual Studio, create an **ASP.NET Core Web App** project, named `WebFrontEnd`, to create a web application with Razor pages.
-
 
 ::: moniker range="vs-2019"
 
@@ -147,7 +145,6 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 :::moniker-end
 
 ## Add code to call the Web API
-
 
 ::: moniker range="vs-2019"
 

@@ -25,7 +25,6 @@ open_to_public_contributors: false
 
 Click the edition names in the following table to see the available workload and component IDs you need to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest.
 
-
 ::: moniker range="vs-2019"
 
 **Updated for the [16.11 release](/visualstudio/releases/2019/release-notes/)**

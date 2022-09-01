@@ -39,7 +39,6 @@ You can open code into Visual Studio in the following ways:
     > [!IMPORTANT]
     > Not all code can be opened by using the **Open Folder** link from the Visual Studio start window. For example, if your code file was saved as part of a solution&mdash;in other words, in an .sln file&mdash;you must use one of the other options listed here to open your code.
 
-
 - If you are a keyboard user, press **Ctrl**+**Shift**+**Alt**+**O** in Visual Studio.
 
 - Open code from a cloned GitHub repo.

@@ -79,7 +79,6 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
 > [!NOTE]
 > The MSBuild system uses the **PublishDir** option to specify the location for output, for example `msbuild /t:publish /p:PublishDir="<specific location>"`.
 
-
 ## Build .NET ClickOnce applications from the command line
 
 Building .NET ClickOnce applications from the command line is a similar experience except, you need to provide an additional property for the publish profile on the MSBuild command line. The easiest way to create a publish profile is by using Visual Studio.  See [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md) for more information.
@@ -168,11 +167,9 @@ For .NET windows applications, this setting remains in the project file
 
    For .NET Core 3.1, or later, this setting is not supported.
 
-
 - `UpdateIntervalUnits` specifies whether the `UpdateInterval` value is in units of hours, days, or weeks.
 
    For .NET Core 3.1, or later, this setting is not supported.
-
 
 - `UpdateUrl` (not shown) is the location from which the application will receive updates. If specified, this value is inserted into the application manifest.
 

@@ -79,7 +79,6 @@ To add a new test project to an existing solution,
 
 ::: moniker-end
 
-
 ### Create references to other projects in the solution
 
 To enable access to the functions in the project under test, add a reference to the project in your test project. Right-click on the test project node in **Solution Explorer** for a pop-up menu. Choose **Add** > **Reference**. In the **Add Reference** dialog, choose the project(s) you want to test.

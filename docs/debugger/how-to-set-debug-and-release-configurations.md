@@ -73,7 +73,6 @@ Each project type may have a different way of setting these options.
 ::: moniker range=">=vs-2022"
 ### Generate symbol files for a C# or ASP.NET Core project (.NET Core, .NET 5+ only)
 
-
 For detailed information on project settings for debug configurations in C#, see [Project settings for a C# debug configuration](../debugger/project-settings-for-csharp-debug-configurations.md). (For .NET projects in Visual Basic, symbol files are configured the same as in .NET Framework.)
 
 1. In Solution Explorer, right-click the project and choose **Properties**.

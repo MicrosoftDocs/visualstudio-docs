@@ -25,7 +25,6 @@ This page walks you through uninstalling Visual Studio, our integrated suite of 
 >
 > To change the location for some of your Visual Studio files, it's possible to do so without uninstalling your current instance as described in [Select the installation locations](../install/change-installation-locations.md).
 
-
 ::: moniker range="vs-2019"
 
 1. Find the **Visual Studio Installer** on your computer.

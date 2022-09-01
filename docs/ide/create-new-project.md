@@ -21,7 +21,6 @@ ms.workload:
 
 In this article, we'll show you how to quickly create a new project in Visual Studio from a template.
 
-
 ::: moniker range="vs-2019"
 
 ## Open the "Create a new project" dialog
@@ -50,13 +49,11 @@ If the Visual Studio development environment is already open, you can create a n
 
 ::: moniker-end
 
-
 ## Select a template type
 
 On the **Create a new project** dialog, a list of your recently selected templates appears on the left. The templates are sorted by *most recently used*.
 
 If you're not selecting from the recently used templates, you can filter all available project templates by **Language** (for example, C# or C++), **Platform** (for example, Windows or Azure), and **Project type** (for example, Desktop or Web). You can also enter search text into the search box to further filter the templates, for example, **asp.net**.
-
 
 ::: moniker range="vs-2019"
 

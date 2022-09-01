@@ -86,7 +86,6 @@ To personalize your Git settings at a repository level as well as at a global le
 
 :::image type="content" source="media/git-options-settings.png" alt-text="The Options dialog box where you can choose personalization and customization settings in Visual Studio IDE.":::
 
-
 ## Enhanced experience & feedback
 
 We continue to add new features to enhance the Git experience. For more info about recent features and a feedback survey, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post. If you have a suggestion, let us know! We appreciate the opportunity to engage with you in the [**Developer Community**](https://aka.ms/vs-suggest).

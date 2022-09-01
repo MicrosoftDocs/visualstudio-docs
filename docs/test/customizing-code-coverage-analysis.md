@@ -31,18 +31,14 @@ To customize code coverage, follow these steps:
 
 2. Add the content from the example file at the end of this article, and then customize it to your needs as described in the sections that follow.
 
-
 3. To select the run settings file, on the **Test** menu, choose **Select Settings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file-from-the-command-line).
-
 
    When you select **Analyze Code Coverage**, the configuration information is read from the run settings file.
 
    > [!TIP]
    > Any previous code coverage results and code coloring aren't automatically hidden when you run tests or update your code.
 
-
 To turn the custom settings off and on, deselect or select the file on the **Test** menu.
-
 
 ## Symbol search paths
 

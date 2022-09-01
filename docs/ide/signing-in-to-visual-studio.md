@@ -24,7 +24,6 @@ In this article, you'll learn:
 + How to [sign out](#sign-out-of-account) of an account
 + How to [update](#update-your-account-profile) your profile
 
-
 <a name="benefits"></a>
 ## Benefits: why sign in? 
 
@@ -89,7 +88,6 @@ After you add multiple accounts on one machine, that set of accounts roams with 
 > [!NOTE]
 > Although the account names roam, the credentials do not. You'll be prompted to enter credentials for those other accounts the first time you attempt to use their resources on a new machine.
 
-
 ### Add an additional account to Visual Studio
 
 To add an additional account to Visual Studio:
@@ -103,7 +101,6 @@ To add an additional account to Visual Studio:
 (Optional) Now you can go to **Server Explorer** and see the Azure services associated with the account you just added. In **Server Explorer**, right-click on the **Azure** node and choose **Manage and Filter Subscriptions**. Choose the new account by clicking the drop-down arrow next to the current account, and then choose which subscriptions you want to display in **Server Explorer**. You should see all the services associated with the specified subscription. Even though you're not currently signed into Visual Studio with the second account, you are signed in to that account's services and resources. The same is true for **Project** > **Add Connected Service**.
 
 
-
 ### Add a GitHub account to Visual Studio
 
 Starting with version 16.8, you’ll be able to add both GitHub and GitHub Enterprise accounts to your keychain. You’ll be able to add and leverage them just as you do with Microsoft accounts, which means that you’ll have an easier time accessing your GitHub resources across Visual Studio.
@@ -115,7 +112,6 @@ For detailed instructions, see [Work with GitHub accounts in Visual Studio](work
 In the 16.6 release, we added new capabilities to Visual Studio 2019 that streamline how users can access resources secured via CA policies such as MFA. To use this enhanced workflow, you'll need to opt into using your system's default web browser as the mechanism to add and reauthenticate Visual Studio accounts.
 
 For detailed instructions, see [Work with accounts that require multi-factor authentication (MFA)](work-with-multi-factor-authentication.md)
-
 
 <a name="access"></a>
 ## Access multiple accounts associated with the Visual Studio sign-in account
@@ -157,7 +153,6 @@ The next time you open **Server Explorer**, the resources for that subscription 
 ### Access Azure Active Directory in a Web project
 
 Azure Active Directory (Azure AD) enables support for end-user single sign-in in ASP.NET MVC web apps or AD authentication in web API services. Domain authentication is different from individual user account authentication. Users that have access to your Active Directory domain can use their existing Azure AD accounts to connect to your web applications. Microsoft 365 apps can also use domain authentication.
-
 
 ::: moniker range="vs-2019"
 
