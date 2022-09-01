@@ -293,11 +293,8 @@ You'll use the new unit test project to test your method in the **QuickDate** pr
 ### Run the unit test
 
 
-::: moniker range=">=vs-2019"
-
 To check that your unit test is working, choose **Test** > **Run All Tests** from the menu bar. The **Test Explorer** window opens, and you should see that the **TestGetCurrentDate** test passes.
 
-::: moniker-end
 
 ::: moniker range="<=vs-2019"
 
@@ -312,12 +309,9 @@ To check that your unit test is working, choose **Test** > **Run All Tests** fro
 ::: moniker-end
 
 
-::: moniker range=">=vs-2019"
-
 > [!TIP]
 > If **Test Explorer** doesn't open automatically, open it by choosing **Test** > **Test Explorer** from the menu bar.
 
-::: moniker-end
 
 ## Project properties
 

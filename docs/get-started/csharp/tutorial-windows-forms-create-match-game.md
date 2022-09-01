@@ -44,8 +44,6 @@ Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/)
 
 When you create your matching game, the first step is to create a Windows Forms App project.
 
-
-::: moniker range=">=vs-2019"
 1. Open Visual Studio.
 
 1. On the start window, select **Create a new project**.
@@ -71,7 +69,6 @@ When you create your matching game, the first step is to create a Windows Forms 
 
 1. In the **Configure your new project** window, name your project *MatchingGame*, then select **Create**.
 
-::: moniker-end
 
 Visual Studio creates a solution for your app.
 A solution is a container for all of the projects and files needed by your app.
