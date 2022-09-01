@@ -19,7 +19,6 @@ ms.technology: vs-ide-general
 
 Template files must be placed in a known location in order for them to be shown in the new project and new item dialog boxes..
 
-
 ## Locate templates
 
 Installed templates and user templates are stored in two different locations.
@@ -27,7 +26,6 @@ Installed templates and user templates are stored in two different locations.
 ### Installed templates
 
 By default, templates installed with Visual Studio are located in:
-
 
 ::: moniker range="vs-2019"
 
@@ -57,7 +55,6 @@ For example, the following directory has the Visual Basic item templates for Eng
 
 If you add a compressed (*.zip*) file that includes a *.vstemplate* file to the user template directory, the template appears in the new project and new item dialog boxes. By default, user templates are located in:
 
-
 ::: moniker range="vs-2019"
 
 - *%USERPROFILE%\Documents\Visual Studio 2019\Templates\ProjectTemplates*
@@ -84,7 +81,6 @@ For example, the following directory has user project templates for C#:
 
 > [!TIP]
 > You can change the known location for user templates in **Tools** > **Options** > **Projects and Solutions** > **Locations**.
-
 
 ## See also
 

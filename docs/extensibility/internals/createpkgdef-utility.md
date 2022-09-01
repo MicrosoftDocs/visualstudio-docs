@@ -47,7 +47,6 @@ The path of the *.dll* file from which you want to generate the *.pkgdef*.
 ## Remarks
 Extension deployment by using *.pkgdef* files replaces the registry requirements of earlier versions of Visual Studio.
 
-
 The *.pkgdef* files must be installed in one of the following locations:
 
 - *%localappdata%\Microsoft\Visual Studio\16.0\Extensions\\*
@@ -60,7 +59,6 @@ If the installation folder is *%vsinstalldir%\Common7\IDE\Extensions\\*, the ext
 
 > [!NOTE]
 > The **Manage Extensions** tool cannot be used to access an extension unless it is installed as part of a VSIX package.
-
 
 
 ## See also

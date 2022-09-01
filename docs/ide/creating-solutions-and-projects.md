@@ -65,9 +65,7 @@ If you have a file that applies to multiple projects, such as a readme file for 
 
 When you create a .NET Framework project, you can specify a specific version of the .NET Framework that you want the project to use. (When you create a .NET Core project, you don't specify a framework version.)
 
-
 To specify a .NET Framework version, select the **Framework** drop-down menu on the **Configure your new project** page.
-
 
 ::: moniker range="vs-2019"
 

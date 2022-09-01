@@ -20,7 +20,6 @@ ms.workload:
 
 In this short introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# application that has a Windows-based user interface (UI).
 
-
 ::: moniker range="vs-2019"
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
@@ -39,7 +38,6 @@ If you haven't already installed Visual Studio, go to the [Visual Studio 2022 do
 ## Create a project
 
 First, you'll create a C# application project. The project type comes with all the template files you'll need, before you've even added anything.
-
 
 ::: moniker range="vs-2019"
 

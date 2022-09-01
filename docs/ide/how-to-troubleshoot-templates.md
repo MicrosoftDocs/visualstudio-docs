@@ -19,9 +19,7 @@ If a template fails to load in the development environment, there are several wa
 
 ## Validate the vstemplate file
 
-
 If the *vstemplate* file in a template doesn't adhere to the Visual Studio template schema, the template may not appear in the dialog box where you create new projects.
-
 
 ### To validate the vstemplate file
 

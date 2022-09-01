@@ -149,7 +149,6 @@ For a database to be consumable in ADO.NET, it must have a custom *ADO.NET data 
 >
 >If you plan on converting the project to be a 64-bit process, it’s recommended that you use the 64-bit Microsoft Access Database Engine, also called Access Connectivity Engine (ACE). Please see [OLE DB Provider for Jet and ODBC driver are 32-bit versions only](/office/troubleshoot/access/jet-odbc-driver-available-32-bit-version) for more information.
 
-
 ### Data modeling
 
 In .NET, you have three choices for modeling and manipulating data in memory after you have retrieved it from a data source:

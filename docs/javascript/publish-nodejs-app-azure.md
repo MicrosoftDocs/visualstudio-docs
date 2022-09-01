@@ -39,7 +39,6 @@ In this tutorial, you learn how to:
 
     If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
 
-
     If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **Node.js development** workload, then choose **Modify**.
 
     ![Node.js workload in VS Installer](./media/tutorial-nodejs-workload.png)

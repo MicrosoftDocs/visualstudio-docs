@@ -24,7 +24,6 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 
-
 In this tutorial, you will:
 
 > [!div class="checklist"]
@@ -33,9 +32,7 @@ In this tutorial, you will:
 > * Review the results of the analyzers
 > * Navigating to the problematic code
 
-
 In the example described in this article, the concern is that your app not responding to requests in a timely manner. 
-
 
 ## Opening a memory dump in Visual Studio
 
@@ -46,7 +43,6 @@ In the example described in this article, the concern is that your app not respo
    ![Action - Diagnostics Analysis](../debugger/media/diagnostic-analyzer-dump-summary-actions.png)
 
 1. Select this action to start the debugger and open the new **Diagnostic Analysis** page with a list of available analyzer options, organized by the underlying symptom.
-
 
 ## Select and execute analyzers against the dump
 
@@ -93,7 +89,6 @@ My next job is to find that problematic code.
    To improve the apps responsiveness, it is important to remove blocking synchronous code from all asynchronous contexts.
 
    ![Analyze decompiled code](../debugger/media/diagnostic-analyzer-decompiled-code.png)
-
 
 ## See also
 

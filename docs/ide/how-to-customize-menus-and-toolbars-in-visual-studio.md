@@ -50,7 +50,6 @@ You can customize Visual Studio not only by adding and removing toolbars and men
 
     - To add a menu, choose the **Add New Menu** button, choose the **Modify Selection** button, and then name the menu that you want to add.
 
-
     - To remove a menu, choose it in the **Controls** list, and then choose the **Delete** button.
 
     - To move a menu within the menu bar, choose the menu in the **Controls** list, and then choose the **Move Up** or **Move Down** button.
@@ -64,7 +63,6 @@ You can customize Visual Studio not only by adding and removing toolbars and men
 2. On the **Toolbar** tab, perform one of the following sets of steps:
 
     - To add a toolbar, choose the **New** button, specify a name for the toolbar that you want to add, and then choose the **OK** button.
-
 
     - To remove a custom toolbar, choose it in the **Toolbars** list, and then choose the **Delete** button.
 
@@ -94,7 +92,6 @@ You can customize Visual Studio not only by adding and removing toolbars and men
     - To add a command, choose the **Add Command** button.
 
         In the **Add Command** dialog box, choose an item in the **Categories** list, choose an item in the **Commands** list, and then choose the **OK** button.
-
 
     - To delete a command, choose it in the **Controls** list, and then choose the **Delete** button.
 

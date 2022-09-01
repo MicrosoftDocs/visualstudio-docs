@@ -143,7 +143,6 @@ For more information about managing network connections, see:
 
 [Network information sample](https://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)
 
-
 [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity)
 
 [How to respond to system events with background tasks](/previous-versions/windows/apps/hh977058(v=win.10))

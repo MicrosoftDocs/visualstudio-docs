@@ -39,7 +39,6 @@ A user on the client machine with sufficient permissions can [manually initiate 
 
 When Visual Studio is initially installed on the client machine, it records the location where it should check for updates. If Visual Studio was installed from Microsoft hosted servers, then it will by default look for updates from Microsoft hosted servers. If Visual Studio was installed or updated by invoking a bootstrapper on a network layout, then it will look for updates in the [location specified by the layout](automated-installation-with-response-file.md).  
 
-
 ::: moniker range="vs-2019"
 
 With default Visual Studio 2019 functionality, once the client has installed the product, the client's update location configuration is locked and unchangable. The only way to _reliably_ change the source location for updates is to uninstall and reinstall the product using the correct configuration.
@@ -48,9 +47,7 @@ However, if the Visual Studio client uses the latest Visual Studio 2022 Installe
 
 ::: moniker-end
 
-
 To manually view and configure the update location that the client will look for updates from, bring up the [Update Settings](update-visual-studio.md?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1), make sure it's configured correctly. You can then initiate the update from the client.  
-
 
 ### Update notifications
 
@@ -69,7 +66,6 @@ Administrators can programmatically update the client installations of Visual St
 
 ### Programatically update Visual Studio by using the Visual Studio Installer
 
-
 You can initiate an update to Visual Studio by programmatically invoking the client's installer and issuing the update command. This command will update Visual Studio based on the updated product available in the [source location for updates](update-visual-studio.md#configure-source-location-of-updates-1). If you want to change the update source location on the client, you can do that programatically by passing in the --channelURI parameter. For example:  
 
 You can change the channel to a network layout _and_ execute an update command on the client like this:
@@ -83,16 +79,13 @@ or like this, which sets the source of updates to a Microsoft hosted location:
 c:\program files (x86)\microsoft\visual studio\installer\>setup.exe update --installPath "C:\Program Files\Microsoft Visual Studio\2019\Enterprise" --channelURI "https://aka.ms/vs/16/release/channel"
 ```
 
-
 ### Programatically update Visual studio by using a bootstrapper.
-
 
 You can update Visual Studio by programatically calling a bootstrapper from the same location that you originally installed from. All bootstrappers sourced from Microsoft hosted servers are considered from the same location. If your bootstrapper was on a network layout share, then the [network layout must be updated](create-a-network-installation-of-visual-studio.md#update-or-modify-your-layout) to contain the desired product updates.
 
 ```shell
 \\server\share\originalinstallVSdirectory\vs_enterprise.exe update --installPath "C:\clientmachine\installpath" --quiet 
 ```
-
 
 ::: moniker range="vs-2019"
 
@@ -106,12 +99,10 @@ You can also initiate an update to your Visual Studio client by programatically 
 
 ::: moniker-end
 
-
 ```shell
    \\server\share\desiredupdatelayoutdir\vs_enterprise.exe update --installPath "C:\clientmachine\installpath" --quiet 
 ```
 Whatever the value of the channelURI in the new layout's response.json file will be the location where the client looks for future updates.
-
 
 > [!NOTE]
 > Use the [vswhere.exe command](tools-for-managing-visual-studio-instances.md) to identify the install path of an existing instance of Visual Studio on a client machine.
@@ -137,7 +128,6 @@ If you experience a problem with your network layout, we want to know about it. 
 We also offer an [**installation chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 
 We have other support options available, too. See our [Visual Studio Developer Community](https://developercommunity.visualstudio.com/home).
-
 
 ## See also
 

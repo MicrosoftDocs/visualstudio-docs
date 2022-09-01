@@ -34,7 +34,6 @@ Features in the Visual Studio editor such as syntax colorization, statement comp
 
 Visual Studio currently provides syntax colorization and basic statement completion support for the following languages using [TextMate Grammars](https://manual.macromates.com/en/language_grammars). If your favorite language isn't in the table, though, don't worry&mdash;you can add it.
 
-
 - Bat
 - F#
 - Java

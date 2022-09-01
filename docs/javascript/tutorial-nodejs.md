@@ -161,7 +161,6 @@ In this tutorial, you begin with a simple project that has code for a Node.js an
 
 ::: moniker-end
 
-
 ## Add some code
 
 The application uses Pug for the front-end JavaScript framework. Pug uses simple markup code that compiles to HTML.
@@ -309,7 +308,6 @@ To set a breakpoint, in *index.js*, select the left gutter before the following 
    ::: moniker range="vs-2019"
    :::image type="content" source="../javascript/media/vs-2019/tutorial-nodejs-deploy-target.png" alt-text="Screenshot that shows a drop-down list that appears in the debug target box.":::
    ::: moniker-end
-
 
    If you know your preferred debug target is available on your machine, but it doesn't appear as an option, select **Browse With** from the debug target dropdown list. Select your default browser target in the list, and select **Set as Default**.
 

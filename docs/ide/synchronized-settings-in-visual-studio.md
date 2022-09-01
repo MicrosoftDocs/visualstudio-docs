@@ -71,7 +71,6 @@ Synchronized settings for Visual Studio are turned on by default. You can turn o
 
 ::: moniker-end
 
-
 ::: moniker range="<=vs-2019"
 
 As an example, if you decide not to synchronize the settings in Visual Studio on computer "A", any setting changes made on computer "A" do not appear on computer "B" or computer "C". Computers "B" and "C" will continue to synchronize with each other, but not with computer "A".
@@ -87,9 +86,7 @@ Settings are synchronized across versions and editions of Visual Studio installe
 
 ## Side-by-side synchronized settings
 
-
 Certain settings like tool window layout aren't shared between different side-by-side installations of Visual Studio. For example, the *CurrentSettings.vssettings* file in *%userprofile%\Documents\Visual Studio 2019\Settings* is in an installation-specific folder that is similar to *%localappdata%\Microsoft\VisualStudio\16.0_xxxxxxxx\Settings*.
-
 
 ## Reset synchronized settings
 

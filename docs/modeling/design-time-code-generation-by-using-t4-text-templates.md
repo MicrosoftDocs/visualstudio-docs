@@ -313,7 +313,6 @@ If you have installed the Visual Studio Modeling SDK, you can have all the templ
 > The Text Template Transformation SDK and the Visual Studio Modeling SDK are installed automatically when you install specific features of Visual Studio. For more details, see
 [this blog post](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/).
 
-
 ```xml
 <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v16.0\TextTemplating\Microsoft.TextTemplating.targets" />
 <PropertyGroup>
@@ -321,7 +320,6 @@ If you have installed the Visual Studio Modeling SDK, you can have all the templ
    <!-- Other properties can be inserted here -->
 </PropertyGroup>
 ```
-
 
 For more information, see [Code Generation in a Build Process](../modeling/code-generation-in-a-build-process.md).
 

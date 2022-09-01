@@ -63,7 +63,6 @@ When you work on a project that targets an earlier framework version, Visual Stu
 
 When you create a .NET Framework project, you can select the target .NET Framework version after you select a project template. The list of available frameworks includes the installed framework versions that are applicable to the selected template type. For non-.NET Framework project templates, for example .NET Core templates, the **Framework** drop-down list doesn't appear.
 
-
 ::: moniker range="vs-2019"
 
 ![Framework dropdown in VS 2019](media/vs-2019/configure-new-project-framework.png)

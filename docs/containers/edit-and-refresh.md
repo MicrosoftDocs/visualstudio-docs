@@ -25,7 +25,6 @@ If you already have a project of a supported type, Visual Studio can create a Do
 
 To debug apps in a local Docker container, the following tools must be installed:
 
-
 ::: moniker range="vs-2019"
 
 * [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) with the Web Development workload installed

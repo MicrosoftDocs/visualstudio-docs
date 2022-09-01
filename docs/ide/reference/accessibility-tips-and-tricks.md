@@ -142,7 +142,6 @@ Here's how to add sounds to program events by using either Windows 11 or Windows
 
 1. Click **OK**.
 
-
 ## See also
 
 * [Set accessibility options](../how-to-change-fonts-and-colors-in-visual-studio.md#set-accessibility-options)

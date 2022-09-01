@@ -50,13 +50,11 @@ If you need to run Visual Studio as an administrator, follow these steps to open
 > [!NOTE]
 > These instructions are for Windows 10. They are similar for other versions of Windows.
 
-
 1. Open the **Start** menu, and scroll to Visual Studio.
 
 1. From the right-click or context menu of **Visual Studio 2019** or **Visual Studio 2022**, select **More** > **Run as administrator**.
 
    When Visual Studio starts, **(Administrator)** appears after the product name in the title bar.
-
 
 You can also modify the application shortcut to always run with administrative permissions:
 

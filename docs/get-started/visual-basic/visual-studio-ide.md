@@ -19,7 +19,6 @@ ms.workload:
 
 An *integrated development environment* (IDE) is a feature-rich program that supports many aspects of software development. The Visual Studio IDE is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to enhance the software development process.
 
-
 ::: moniker range="vs-2019"
 
 [![Screenshot of the Visual Studio 2019 IDE with Visual Basic code.](media/vs-2019/ide-overview.png)](media/vs-2019/ide-overview.png#lightbox)
@@ -37,7 +36,6 @@ The preceding image shows Visual Studio with an open Visual Basic project that s
 - In [Solution Explorer](../../ide/solutions-and-projects-in-visual-studio.md), at upper right, you can view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](tutorial-projects-solutions.md).
 
 - The central [editor window](../../ide/writing-code-in-the-code-and-text-editor.md), where you'll probably spend most of your time, displays file contents. In the editor window, you can edit code or design a user interface such as a window with buttons and text boxes.
-
 
 ::: moniker range="<=vs-2019"
 - In [Team Explorer](/azure/devops/user-guide/work-team-explorer?view=vsts&preserve-view=true), at lower right, you can track work items and share code using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview?view=vsts&preserve-view=true).
@@ -61,7 +59,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 
   Squiggles are wavy underlines that alert you to errors or potential problems in your code as you type. These visual clues help you fix problems immediately, without waiting to discover errors during build or runtime. If you hover over a squiggle, you see more information about the error. A lightbulb might also appear in the left margin showing *Quick Actions* you can take to fix the error.
 
-
    ::: moniker range="vs-2019"
 
    ![Screenshot of a squiggle underline in Visual Studio.](media/vs-2019/squiggles-error.png)
@@ -77,7 +74,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 - [Refactoring](../../ide/refactoring-in-visual-studio.md)
 
    Refactoring includes operations such as intelligent renaming of variables, extracting one or more lines of code into a new method, and changing the order of method parameters.
-
 
    ::: moniker range="vs-2019"
 
@@ -96,7 +92,6 @@ Some popular features in Visual Studio that improve your productivity when devel
    IntelliSense is a set of features that display information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, so you don't have to look up type information elsewhere.
 
    The following illustration shows how IntelliSense displays a member list for a type:
-
 
    ::: moniker range="vs-2019"
 
@@ -118,7 +113,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 
    When you start typing the name of something you're looking for, Visual Studio lists results that take you where you need to go. If you need to add functionality, for example another programming language, you can open the Visual Studio Installer from the search box results to install the workload or component.
 
-
    ::: moniker range="vs-2019"
 
    ![Screenshot that shows the Quick Launch search box in Visual Studio 2019.](../media/vs-2019/quick-launch-nuget.png)
@@ -139,7 +133,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 
    The **Call Hierarchy** window shows the methods that call a selected method. This information can be useful when you're thinking about changing or removing the method, or when you're trying to track down a bug.
 
-
    ::: moniker range="vs-2019"
 
    ![Screenshot that shows the Call Hierarchy window in Visual Studio.](media/vs-2019/call-hierarchy.png)
@@ -155,7 +148,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 - [CodeLens](../../ide/find-code-changes-and-other-history-with-codelens.md)
 
    CodeLens helps you find code references, code changes, linked bugs, work items, code reviews, and unit tests, without leaving the editor.
-
 
    ::: moniker range="vs-2019"
 
@@ -173,7 +165,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 
    The **Go To Definition** feature takes you directly to the location of a function or type definition.
 
-
    ::: moniker range="vs-2019"
 
    ![Screenshot that shows Go to Definition in Visual Studio 2019.](media/vs-2019/go-to-definition-menu.png)
@@ -190,7 +181,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 
    The **Peek Definition** window shows a method or type definition without opening a separate file.
 
-
    ::: moniker range="vs-2019"
 
    ![Screenshot that shows Peek Definition in Visual Studio.](media/vs-2019/peek-definition.png)
@@ -206,7 +196,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 ## Install Visual Studio
 
 In this section, you create a simple project to try out some of the things you can do with Visual Studio. You learn how to change the color theme, use [IntelliSense](../../ide/using-intellisense.md) as a coding aid, and debug an app to see a variable value during app execution.
-
 
 ::: moniker range="vs-2019"
 
@@ -233,7 +222,6 @@ You can personalize the Visual Studio user interface, including changing the def
 ### Change the color theme
 
 To change the color theme:
-
 
 ::: moniker range="vs-2019"
 
@@ -290,7 +278,6 @@ To learn about other ways you can personalize the IDE, see [Personalize Visual S
 ## Create a program
 
 Dive in and create a simple program.
-
 
 ::: moniker range="vs-2019"
 
