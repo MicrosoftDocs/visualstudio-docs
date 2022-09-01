@@ -31,10 +31,10 @@ Targets group tasks together in a particular order and allow the build process t
 Like MSBuild properties, targets can be redefined. For example,
 
 ```xml
-<Target Name="MyTarget" >
+<Target Name="MyTarget">
     <Message Text="First occurrence" />
 </Target>
-<Target Name="MyTarget" >
+<Target Name="MyTarget">
     <Message Text="Second occurrence" />
 </Target>
 ```
