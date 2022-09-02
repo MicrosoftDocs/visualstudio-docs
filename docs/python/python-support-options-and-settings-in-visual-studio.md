@@ -63,7 +63,6 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 
 ![Screenshot of the Visual Studio Tools Options dialog with Conda selected in the Python options and the Conda executable path field shown in the right pane.](media/options-conda.png)
 
-
 ## Debugging options
 
 (**Tools** > **Options** > **Python** > **Debugging** tab.)
@@ -115,7 +114,6 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 | **Custom Typeshed path** | (blank) | If set, Visual Studio uses the Typeshed files at this path instead of its bundled version. Ignore if **Disable completions from Typeshed** is set. |
 
 ![Screenshot of the Visual Studio Tools Options dialog with Language Server selected in the Python options and the Language Server options shown in the right pane.](media/options-language-server.png)
-
 
 ## Advanced Python editor options
 

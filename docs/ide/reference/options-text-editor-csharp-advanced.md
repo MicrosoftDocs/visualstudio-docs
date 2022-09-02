@@ -107,7 +107,6 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
 - Suggest usings for types in .NET Framework assemblies
 
-
 - Suggest usings for types in NuGet packages
 
    When these options are selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
@@ -150,7 +149,6 @@ Select these check boxes to display dotted vertical lines between the curly brac
 
   When selected, inserts the XML elements for XML documentation comments after you type the `///` comment introduction. For more information about XML documentation, see [XML Documentation Comments (C# Programming Guide)](/dotnet/csharp/programming-guide/xmldoc/).
 
-
 ## Inline Hints
 
 - Inline Parameter Name Hints
@@ -170,7 +168,6 @@ Select these check boxes to display dotted vertical lines between the curly brac
 - When selected, adds icons to the margins representing your code's implementations and overrides. Clicking on the inheritance margin icons will display inheritance options that you can select to navigate to.
 
     ![Inheritance Margin](media/inheritance-margin.png)
-
 
 ## See also
 

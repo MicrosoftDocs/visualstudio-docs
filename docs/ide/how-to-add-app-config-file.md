@@ -28,7 +28,6 @@ When you build your project, the development environment automatically copies yo
 
 ## To add an application configuration file to a C# project
 
-
 1. In **Solution Explorer**, right-click the project node, and then select **Add** > **New Item**.
 
      The **Add New Item** dialog box appears.
@@ -40,7 +39,6 @@ When you build your project, the development environment automatically copies yo
 1. Select the **Add** button.
 
      A file named *App.config* is added to your project.
-
 
 ## See also
 

@@ -27,7 +27,6 @@ Combines the specified paths into a single path.
 
  The following table describes the parameters of the [CombinePath task](../msbuild/combinepath-task.md).
 
-
 |Parameter|Description|
 |---------------|-----------------|
 |`BasePath`|Required `String` parameter.<br /><br /> The base path to combine with the other paths. Can be a relative path, absolute path, or blank.|

@@ -51,7 +51,6 @@ To create the app:
 
     If you don't see the **Console App** for .NET Core project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET Core cross platform development** workload, then choose **Modify**.
 
-
     Visual Studio creates the console project, which appears in Solution Explorer in the right pane.
 
 1. Replace the default code in the project's *Program.cs* file with the sample code below.

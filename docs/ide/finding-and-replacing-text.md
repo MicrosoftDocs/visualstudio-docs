@@ -105,7 +105,6 @@ For more detailed information, see the [Find in Files](find-in-files.md) and [Re
 
 ::: moniker-end
 
-
 ### Find Results
 
 When you choose **Find All**, a **Find Results** window opens and lists the matches for your search. Selecting a result in the list displays the associated file and highlights the match. If the file is not already open for editing, it is opened in a preview tab in the right side of the tab well. You can use the **Find** control to search through the **Find Results** list.
@@ -125,7 +124,6 @@ You can define component sets as your search scope by choosing the **Edit Custom
 
 > [!NOTE]
 > This section applies to Visual Studio on Windows. For Visual Studio for Mac, see [Block selection](/visualstudio/mac/block-selection).
-
 
 Use *multi-caret selection* to make the same edit in two or more places at the same time. For example, you can insert the same text or modify existing text in multiple locations at the same time.
 

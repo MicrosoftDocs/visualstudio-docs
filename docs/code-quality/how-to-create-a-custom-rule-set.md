@@ -29,9 +29,7 @@ To create a custom rule set, you can open a built-in rule set in the **rule set 
 
 2. On the **Properties** pages, select the **Code Analysis** tab.
 
-
 3. In the **Active rules** drop-down list, do one of the following:
-
 
    - Choose the rule set that you want to customize.
 
@@ -65,9 +63,7 @@ You can create a new rule set file from the **New File** dialog:
 
 2. On the **Properties** pages, select the **Code Analysis** tab.
 
-
 3. Select **\<Choose multiple rule sets>** from **Active rules**.
-
 
 4. In the **Add or Remove Rule Sets** dialog box, choose the rule sets you want to include in your new rule set.
 

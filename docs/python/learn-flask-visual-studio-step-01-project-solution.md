@@ -22,7 +22,6 @@ ms.workload:
 
 Flask is called a "micro" framework because it doesn't directly provide features like form validation, database abstraction, authentication, and so on. Such features are instead provided by special Python packages called Flask *extensions*. The extensions integrate seamlessly with Flask so that they appear as if they're part of Flask itself. For example, Flask itself doesn't provide a page template engine. Templating is provided by extensions such as Jinja and Jade, as demonstrated in this tutorial.
 
-
 In this tutorial, you learn how to:
 
 - Create a basic Flask project in a Git repository using the "Blank Flask Web Project" template (step 1).
@@ -206,7 +205,6 @@ Now that you've configured source control for your project, you can create the v
 1. In **Solution Explorer**, right-click the **Python Environments** node and select **Add Environment**.
 
     ![Add Virtual environment command in Solution Explorer](media/flask/step-01-add-virtual-environment-command.png)
-
 
 1. Select **Create** to accept the defaults, in the Add Virtual Environment dialog. (You can change the name of the virtual environment if you want, which just changes the name of its subfolder, but `env` is a standard convention.)
 

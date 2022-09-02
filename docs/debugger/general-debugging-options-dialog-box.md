@@ -153,7 +153,6 @@ Replaces the default debugging engine with a legacy version to enable these scen
 > Choosing Managed Compatibility mode disables some features that are implemented only in the default debugging engine. The legacy debugging engine was replaced in Visual Studio 2012.
 ::: moniker-end
 
-
 **Warn when using custom debugger visualizers against potentially unsafe processes (Managed only)**:
 Visual Studio warns you when you are using a custom debugger visualizer that is running code in the debugged process, because it could be running unsafe code.
 

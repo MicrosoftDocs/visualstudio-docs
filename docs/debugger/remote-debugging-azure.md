@@ -66,7 +66,6 @@ This article includes steps on setting up a basic configuration of IIS on Window
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
     ::: moniker-end
 
-
 1. Open the About.cshtml.cs file and set a breakpoint in the `OnGet` method (in older templates, open HomeController.cs instead and set the breakpoint in the `About()` method).
 
 ## Update browser security settings on Windows Server
@@ -213,7 +212,6 @@ Download the version of the remote tools that matches your version of Visual Stu
     If you have multiple processes showing *w3wp.exe* or *dotnet.exe*, check the **User Name** column. In some scenarios, the **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. If you see the App Pool, but it's not unique, create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
 
     ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
-
 
 7. Click **Attach**.
 

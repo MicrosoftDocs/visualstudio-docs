@@ -197,7 +197,6 @@ When selected, displays a gray box around the line of code in which the cursor i
 
 When selected, vertical lines appear in the editor that line up with structured code blocks, which lets you easily identify the individual blocks of code.
 
-
 ### Show error squiggles
 
 When selected, different-colored wavy underlines, known as squiggles, appear in your code. (Red squiggles denote syntax errors, blue denotes compiler errors, green denotes warnings, and purple denotes other types of errors.)
@@ -219,7 +218,6 @@ Use this control to toggle the editing context settings altogether, or personali
 - Insert/Overwrite
 - Tab/Space
 - Line endings
-
 
 ## See also
 

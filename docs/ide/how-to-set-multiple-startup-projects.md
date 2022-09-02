@@ -32,7 +32,6 @@ Visual Studio allows you to specify how more than one project is run when you pr
 
 4. Choose the **Multiple Startup Projects** option and set the appropriate actions.
 
-
 ## Example
 
 The following example shows a solution WebFrontEndA with three projects, a front-end web site, a Web API project, and a Docker Compose project. The following screenshot shows how to start two of the three projects, one with debugging and one without:

@@ -38,7 +38,6 @@ The '+' (plus) symbol indicates that more tests may be discovered after a build 
 
 ![Plus symbol summary line](media/testex-plussymbol.png)
 
-
 ## Real-time test discovery
 
 **Tests now appear in Test Explorer while I type, without having to build my project. What changed?**
@@ -98,7 +97,6 @@ All test projects must include their .NET test adapter NuGet reference in their 
 **Test project {} does not reference any .NET NuGet adapter. Test discovery or execution might not work for this project. It is recommended to reference NuGet test adapters in each .NET test project in the solution.**
 
 Instead of using test adapter extensions, projects are required to use test adapter NuGet packages. This requirement greatly improves performance and causes fewer issues with continuous integration. Read more about .NET Test Adapter Extension deprecation in the [release notes](/visualstudio/releasenotes/vs2017-relnotes-v15.8#testadapterextension).
-
 
 ## UWP TestContainer was not found
 

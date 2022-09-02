@@ -43,7 +43,6 @@ When unselected, the commands on the **Build** menu, such as **Build Solution**,
 
 When selected, the solution and all commands that act on solutions are always shown in the IDE. When cleared, all projects are created as stand-alone projects and you do not see the solution in Solution Explorer or commands that act on solutions in the IDE if the solution contains only one project.
 
-
 ## Warn user when the project location is not trusted
 
 If you attempt to create a new project or open an existing project in a location that is not fully trusted (for example, on a UNC path or an HTTP path), a message is displayed. Use this option to specify whether the message is displayed each time that you attempt to create or open a project in a location that is not fully trusted.
@@ -66,7 +65,6 @@ When selected, documents that were left open the previous time the solution was 
 
 Reopening certain types of files or designers can delay solution load. Uncheck this option to [improve solution load performance](../../ide/visual-studio-performance-tips-and-tricks.md#disable-automatic-file-restore) if you don't want to restore the solution's previous context.
 
-
 ## Restore Solution Explorer project hierarchy state on solution load
 
 When selected, restores the state of nodes in Solution Explorer with respect to whether they were expanded or collapsed the last time the solution was open. Deselect this option to decrease solution load time for large solutions.
@@ -84,7 +82,6 @@ If you don't have this option selected and you want to edit an SDK-style project
 
 > [!TIP]
 > An *SDK-style project*, or [project SDK](../../msbuild/how-to-use-project-sdk.md), has a newer, more streamlined project file format that was introduced with MSBuild 15.0. An SDK-style project contains an `Sdk` attribute on the `Project` element, for example `<Project Sdk="Microsoft.NET.Sdk">`. Visual Studio creates an SDK-style project when you create a new .NET Core project from one of the Visual Studio templates, for example.
-
 
 ## See also
 

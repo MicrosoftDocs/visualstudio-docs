@@ -23,9 +23,7 @@ ms.technology: vs-installation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-
 It's easy to modify Visual Studio so that it includes only what you want, when you want it. To do so, open the Visual Studio Installer, and then add or remove workloads, components, and language packs.
-
 
 
 ## Prerequisites
@@ -39,7 +37,6 @@ It's easy to modify Visual Studio so that it includes only what you want, when y
 ## Launch the installer to modify your installation
 
 To modify your Visual Studio installation, you first need to launch the Visual Studio Installer, and then select a Visual Studio installation to modify.
-
 
 ::: moniker range="vs-2019"
 
@@ -90,7 +87,6 @@ To modify your Visual Studio installation, you first need to launch the Visual S
 ::: moniker-end
 
 ## Change workloads or individual components
-
 
 ::: moniker range="vs-2019"
 

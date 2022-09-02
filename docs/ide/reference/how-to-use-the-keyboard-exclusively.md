@@ -26,7 +26,6 @@ Keyboard shortcuts can make it easier to navigate the Visual Studio IDE and to w
 
 For a full listing of command shortcut keys in Visual Studio, see [Default keyboard shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
-
 > [!NOTE]
 > Depending on your settings or the edition of Visual Studio you use, the dialog boxes and menu commands you see might differ from those described in Help. To change your settings, select **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../environment-settings.md#reset-settings).
 

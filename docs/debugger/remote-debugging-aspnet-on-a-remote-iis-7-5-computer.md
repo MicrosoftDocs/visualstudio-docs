@@ -129,7 +129,6 @@ After the app deploys successfully, it should start automatically. If the app do
    Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
    ::: moniker-end
 
-
    > [!IMPORTANT]
    > If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.
 
