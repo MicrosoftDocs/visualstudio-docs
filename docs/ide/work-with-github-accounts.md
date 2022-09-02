@@ -87,7 +87,7 @@ Verify that HTTP Strict Transport Security (HSTS) is not enabled for localhost o
     - On Google Chrome, type: chrome://net-internals/#hsts and enter "localhost" under the "Delete domain security policies" section
 
 > [!NOTE]
-> Please [report a problem](https://developercommunity.visualstudio.com/report?space=8&entry=problem) if you are still having sign in issues.
+> Please [report a problem](https://developercommunity.visualstudio.com/report?space=8&entry=problem) if you're still experiencing sign in issues.
 
 ## See also
 - [Sign in to Visual Studio](signing-in-to-visual-studio.md)
