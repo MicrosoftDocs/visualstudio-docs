@@ -58,16 +58,6 @@ landingContent:
           - text: Run Python code in the debugger >>
             url: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
 
-  # Card
-  - title: Inspect data
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Inspect variables
-            url: autos-and-locals-windows.md
-          - text: Set a watch on variables
-            url: watch-and-quickwatch-windows.md
-
     # Card
   - title: Go deeper with the debugger
     linkLists:
@@ -90,3 +80,13 @@ landingContent:
         links:
           - text: Write and debug code with Live Share >>
             url: /visualstudio/liveshare/use/vs
+
+  # Card
+  - title: Inspect data
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Inspect variables
+            url: autos-and-locals-windows.md
+          - text: Set a watch on variables
+            url: watch-and-quickwatch-windows.md
