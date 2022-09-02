@@ -247,7 +247,7 @@ attribute of the Assembly element in the .fakes:
 > [!NOTE]
 > - **Getters and setters of indexers** are treated similarly to the property. The default name for an indexer is `Item`.
 > - **Parameter type** names are transformed and concatenated.
-> - **Return type** is ignored unless there's an overload ambiguity. If there's an overload amiguity, the return type is appended at the end of the name.
+> - **Return type** is ignored unless there's an overload ambiguity. If there's an overload ambiguity, the return type is appended at the end of the name.
 
 ### Parameter type naming conventions
 
