@@ -1,10 +1,10 @@
 ### YamlMime:Landing
 
-title: Visual Studio debugger documentation # < 60 chars
+title: Debugger documentation - Visual Studio (Windows) # < 60 chars
 summary: The Visual Studio debugger helps you observe the run-time behavior of your program and find problems. # < 160 chars
 
 metadata:
-  title: Debugging in Visual Studio (Windows) # Required; page title displayed in search results. Include the brand. < 60 chars.
+  title: Debugger documentation - Visual Studio (Windows) # Required; page title displayed in search results. Include the brand. < 60 chars.
   titleSuffix: ""
   description: Learn how to use Visual Studio to debug applications and code.
   ms.topic: landing-page
