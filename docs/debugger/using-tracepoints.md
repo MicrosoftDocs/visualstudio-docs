@@ -187,7 +187,7 @@ For a conditional expression, an output message displays only when certain condi
 
 For conditional expressions, you can either set the tracepoint to output a message when a certain condition is true or when it has changed. For example, if you only want to display the value of counter during even iterations of the `for` loop, you could select the **Is true** option and then type `i%2 == 0` in the message text box.
 
-:::image type="content" source="../debugger/media/conditionalexpressionis-true.png" alt-text="Screenshot showing Conditional Expression Is True.":::
+:::image type="content" source="../debugger/media/conditionalexpressionistrue.png" alt-text="Screenshot showing Conditional Expression Is True.":::
 
 If you want to print the value of counter when the iteration of the `for` loop changes, select the **When changed** option and type `i` in the message text box.
 
@@ -208,7 +208,7 @@ For a conditional expression, an output message displays only when certain condi
 
 For conditional expressions, you can either set the tracepoint to output a message when a certain condition is true or when it has changed. For example, if you only want to display the value of counter during even iterations of the `for` loop, you could select the **Is true** option and then type `i%2 == 0` in the message text box.
 
-:::image type="content" source="../debugger/media/vs-2022/conditional-expression-istrue.png" alt-text="Screenshot showing Conditional Expression Is True.":::
+:::image type="content" source="../debugger/media/vs-2022/conditional-expression-is-true.png" alt-text="Screenshot showing Conditional Expression Is True.":::
 
 If you want to print the value of counter when the iteration of the `for` loop changes, select the **When changed** option and type `i` in the message text box.
 
