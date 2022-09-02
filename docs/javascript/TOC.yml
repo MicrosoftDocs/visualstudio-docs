@@ -66,5 +66,5 @@
   items:
   - name: package.json configuration
     href: configure-packages-with-package-json.md
-  - name: JavaScript and TypeScript docs repo
+  - name: Visual Studio 2017 and Visual Studio 2019 JavaScript and TypeScript docs repo
     href: https://github.com/Microsoft/JSTSdocs
