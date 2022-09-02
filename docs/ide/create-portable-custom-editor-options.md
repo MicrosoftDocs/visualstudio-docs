@@ -35,8 +35,10 @@ Coding conventions you use on your personal projects might differ from those use
 
 Because a file in the codebase contains the settings, they travel along with that codebase. As long as you open the code file in an EditorConfig-compliant editor, the text editor settings are activated. For more information about EditorConfig files, see the [EditorConfig.org](https://editorconfig.org/) website.
 
+::: moniker range="<=vs-2019"
 > [!NOTE]
 > Conventions that you set in an EditorConfig file can't currently be enforced in a CI/CD pipeline as build errors or warnings. Any style deviations appear only in the Visual Studio editor and **Error List**.
+::: moniker-end
 
 ## Supported settings
 
