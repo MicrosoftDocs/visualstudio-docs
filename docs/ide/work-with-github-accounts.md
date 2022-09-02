@@ -83,7 +83,7 @@ By default, Visual Studio only has public GitHub accounts enabled.
 If you're experiencing issues when adding or re-authenticating GitHub accounts, try the following steps:
 
 Verify that HTTP Strict Transport Security (HSTS) is not enabled for localhost on your system's default web browser:
-    - On Micrsoft Edge, you can type: edge://net-internals/#hsts and enter "localhost" under the "Delete domain security policies" section
+    - On Micrsoft Edge, you can type: edge://net-internals/#hsts and enter _localhost_ under the **Delete domain security policies** section.
     - On Google Chrome, type: chrome://net-internals/#hsts and enter "localhost" under the "Delete domain security policies" section
 
 > [!NOTE]
