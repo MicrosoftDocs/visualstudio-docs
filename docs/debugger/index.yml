@@ -22,6 +22,31 @@ landingContent:
   # Card (optional)
   - title: Get started
     linkLists:
+      - linkListType: overview
+        links:
+          - text: First look at the debugger
+            url: debugger-feature-tour.md
+          - text: What is debugging?
+            url: what-is-debugging.md
+      - linkListType: how-to-guide
+        links:
+          - text: Start the debugger
+            url: debugger-feature-tour.md#set-a-breakpoint-and-start-the-debugger
+          - text: Code stepping
+            url: navigating-through-code-with-the-debugger.md
+          - text: Set a breakpoint
+            url: using-breakpoints.md
+          - text: Edit code and continue debugging
+            url: edit-and-continue.md
+          - text: Call stack
+            url: how-to-use-the-call-stack-window.md
+      - linkListType: tutorial
+        links:
+          - text: Debugging for absolute beginners
+            url: debugging-absolute-beginners.md
+
+  - title: Tutorials
+    linkLists:
       - linkListType: tutorial
         links:
           - text: Learn to debug C#
@@ -32,36 +57,6 @@ landingContent:
             url: ../get-started/visual-basic/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
           - text: Run Python code in the debugger >>
             url: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
-      - linkListType: how-to-guide
-        links:
-          - text: Debugging for absolute beginners
-            url: debugging-absolute-beginners.md
-
-  # Card (optional)
-  - title: Fundamentals
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: First look at the debugger
-            url: debugger-feature-tour.md
-          - text: What is debugging?
-            url: what-is-debugging.md
-          - text: FAQ - Find your debugging feature
-            url: find-your-debugging-task.yml
-
-  # Card
-  - title: Use the debugger
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Code stepping
-            url: navigating-through-code-with-the-debugger.md
-          - text: Breakpoints
-            url: using-breakpoints.md
-          - text: Edit code and continue debugging
-            url: edit-and-continue.md
-          - text: Call stack
-            url: how-to-use-the-call-stack-window.md
 
   # Card
   - title: Inspect data
