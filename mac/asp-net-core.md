@@ -206,7 +206,7 @@ app.MapGet("/", () => "Hello World!");
 
 This simple Hello, World project can run now without any extra code being added. To run the app, you can either select which browser you want to run app in using the dropdown right of the **Play** button. Or, you can hit the **Play** (triangular) button to use your default browser:
 
-:::image type="content" source="media/vsmac-2022/asp-net-web-picker.png" alt-text="Browser Run where you can either select which browser you want to run app the app in using the dropdown right of the Play button. Or, you can hit the Play (triangular) button to use your default browser.":::
+:::image type="content" source="media/vsmac-2022/asp-net-web-picker.png" alt-text="Screenshot showing the select the browser to run your code.":::
 
 ::: moniker-end
 
@@ -335,4 +335,4 @@ For more information on the next steps from here, see the following guides:
 
 ## Related Video
 
->[!Video <show-pr/shows/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Build-Your-First-App/player>]
+>[!VIDEO <show-pr/shows/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Build-Your-First-App/player>]

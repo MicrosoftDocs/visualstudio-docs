@@ -25,7 +25,7 @@ If you want to build a game or immersive graphical app, install Visual Studio to
 
 ## Build an app for Android, iOS, and Windows (.NET Framework)
 
-:::image type="content" source="../cross-platform/media/homedevices.png" alt-text="Icons showing different types of home devices.":::
+:::image type="content" source="../cross-platform/media/homedevices.png" alt-text="Screenshot showing different types of home devices.":::
 
 With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows in the same solution, sharing code and even UI.
 
@@ -58,7 +58,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
  If you're not using Xamarin.Forms and choose to design for each platform individually, you can share most of your non-UI code between platform projects (Android, iOS, and Windows). This includes any business logic, cloud integration, database access, or any other code that targets the .NET Framework. The only code that you can't share is code that targets a specific platform.
 
- :::image type="content" source="../cross-platform/media/sharecode.png" alt-text="Logical diagram showing share code between Windows, iOS, and Android UIs.":::
+ :::image type="content" source="../cross-platform/media/sharecode.png" alt-text="Screenshot showing Logical diagram showing share code between Windows, iOS, and Android UIs.":::
 
  You can share your code by using a shared project, a Portable Class Library project, or both. You might find that some code fits best in a shared project, and some code makes more sense inside a Portable Class Library project.
 
@@ -69,7 +69,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
 ### <a name="WindowsHTML"></a> Target Windows 10 devices
 
- :::image type="content" source="../cross-platform/media/windowsdevices.png" alt-text="Different types of Windows devices.":::
+ :::image type="content" source="../cross-platform/media/windowsdevices.png" alt-text="Screenshot of different types of Windows devices.":::
 
  If you want to create a single app that targets the full breadth of Windows 10 devices, create a universal Windows app. You'll design the app by using a single project and your pages will render properly no matter what device is used to view them.
 
@@ -85,7 +85,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
 ## Build an app for Android, iOS, and Windows (C++)
 
-:::image type="content" source="../cross-platform/media/cross_plat_cpp_intro_image.png" alt-text="Use C&#43;&#43; to build for Android, iOS, and Windows":::
+:::image type="content" source="../cross-platform/media/cross_plat_cpp_intro_image.png" alt-text="Screenshot showing the use C&#43;&#43; to build for Android, iOS, and Windows.":::
 
  First, install Visual Studio and the **Mobile Development with C++** workload. Then, you can build a native activity application for Android, or an app that targets Windows or iOS. You can target Android, iOS, and Windows in the same solution if you want, and then share code between them by using a cross-platform static or dynamic shared library.
 

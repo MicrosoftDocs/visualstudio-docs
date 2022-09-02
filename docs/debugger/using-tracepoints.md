@@ -93,15 +93,15 @@ You can set tracepoints by specifying an output string under the **Action** chec
 
 1. To initialize a tracepoint, first click on the gutter to the left of the line number where you want to set the tracepoint.
 
-   :::image type="content" source="../debugger/media/vs-2022/breakpointinitialization.png" alt-text="Screenshot showing the Breakpoint Initialization in the sample code.":::
+   :::image type="content" source="../debugger/media/vs-2022/breakpoint-initialization.png" alt-text="Screenshot showing the Breakpoint Initialization in the sample code.":::
 
-1. Hover over the red circle and click the gear icon to opens the **Breakpoint Settings** window.
+1. Hover over the red circle and click on the gear icon to open the **Breakpoint Settings** window.
 
-   :::image type="content" source="../debugger/media/vs-2022/breakpointwindow.png" alt-text="Screenshot showing Breakpoint Window.":::
+   :::image type="content" source="../debugger/media/vs-2022/breakpoint-window.png" alt-text="Screenshot showing Breakpoint Window.":::
 
 1. Select the **Action** checkbox.
 
-   :::image type="content" source="../debugger/media/vs-2022/checkedactionsbox.png" alt-text="Screenshot of breakpoint window with Actions Box checked.":::
+   :::image type="content" source="../debugger/media/vs-2022/checked-actions-box.png" alt-text="Screenshot of breakpoint window with Actions Box checked.":::
 
    Notice how the red circle changes to a diamond indicating that you've switched from a breakpoint to tracepoint.
 
@@ -111,7 +111,7 @@ You can set tracepoints by specifying an output string under the **Action** chec
 
 1. If you want to add conditions that determine whether your message is displayed, select the **Conditions** checkbox.
 
-   :::image type="content" source="../debugger/media/vs-2022/checkedconditionsbox.png" alt-text="Screenshot of breakpoint window with Conditions Box checked.":::
+   :::image type="content" source="../debugger/media/vs-2022/checked-conditions-box.png" alt-text="Screenshot of breakpoint window with Conditions Box checked.":::
 
    You have three choices for conditions: **Conditional Expression**, **Filter**, and **Hit Count**.
 
@@ -153,7 +153,7 @@ This menu allows you to log a message to the Output window. Type the strings you
 
 For example, if you want to display the value of the `counter` variable in the output console, type `{counter}` in the message text box.
 
-:::image type="content" source="../debugger/media/vs-2022/counteroutputmessage.png" alt-text="Screenshot showing Counter Output Message.":::
+:::image type="content" source="../debugger/media/vs-2022/counter-output-message.png" alt-text="Screenshot showing Counter Output Message.":::
   
 If you click **Close** and then debug the program (**F5**), you see the following output in the Output window.
 
@@ -208,11 +208,11 @@ For a conditional expression, an output message displays only when certain condi
 
 For conditional expressions, you can either set the tracepoint to output a message when a certain condition is true or when it has changed. For example, if you only want to display the value of counter during even iterations of the `for` loop, you could select the **Is true** option and then type `i%2 == 0` in the message text box.
 
-:::image type="content" source="../debugger/media/vs-2022/conditionalexpressionistrue.png" alt-text="Screenshot showing Conditional Expression Is True.":::
+:::image type="content" source="../debugger/media/vs-2022/conditional-expression-istrue.png" alt-text="Screenshot showing Conditional Expression Is True.":::
 
 If you want to print the value of counter when the iteration of the `for` loop changes, select the **When changed** option and type `i` in the message text box.
 
-:::image type="content" source="../debugger/media/vs-2022/conditionalexpressionwhenchanged.png" alt-text="Screenshot showing when Conditional Expression is Changed.":::
+:::image type="content" source="../debugger/media/vs-2022/conditional-expression-when-changed.png" alt-text="Screenshot showing when Conditional Expression is Changed.":::
 
 The behavior of the  **When changed**  option is different for different programming languages.
 
@@ -221,7 +221,7 @@ The behavior of the  **When changed**  option is different for different program
 
 You can also set the condition when the tracepoint can be enabled by inserting a Breakpoint to any particular section of the code and selecting the checkbox **Only enable when the following breakpoint is hit:** option in the **Breakpoint Settings** menu. You can choose any breakpoint from the list of choices.
 
-:::image type="content" source="../debugger/media/vs-2022/enableatbreakpoint.png" alt-text="Screenshot showing enable when a breakpoint is hit checked.":::
+:::image type="content" source="../debugger/media/vs-2022/enable-at-breakpoint.png" alt-text="Screenshot showing enable when a breakpoint is hit checked.":::
 
 For a more comprehensive look at valid expressions you can use while setting conditions, see [Expressions in the debugger](expressions-in-the-debugger.md).
 
@@ -245,11 +245,11 @@ A hit count condition allows you to send output only after the line of code wher
 
 For hit count, you can choose to output a message when the line of code where the tracepoint is set has been executed a particular number of times. Based on requirement it can be equal to, or is a multiple of, or is greater than or equal to the specified hit count value. Choose the option that best suits your needs and type an integer value in the field (for example, 5) that represents that iteration of interest.
 
-:::image type="content" source="../debugger/media/vs-2022/conditionalexpressionhitcount.png" alt-text="Screenshot showing Conditional Expression Hit Count.":::
+:::image type="content" source="../debugger/media/vs-2022/conditional-expression-hit-count.png" alt-text="Screenshot showing Conditional Expression Hit Count.":::
 
 You can also remove the breakpoint on the first hit by enabling the checkbox **Remove breakpoint once hit**.
 
-:::image type="content" source="../debugger/media/vs-2022/removebreakpointonhit.png" alt-text="Screenshot showing Remove breakpoint on first hit.":::
+:::image type="content" source="../debugger/media/vs-2022/remove-breakpoint-on-hit.png" alt-text="Screenshot showing Remove breakpoint on first hit.":::
 
 ::: moniker-end
 
@@ -277,7 +277,7 @@ Enclose strings (such as names) in double quotes. Values can be entered without 
 
 For a filter condition, specify which devices, processes, or threads output is shown for.
 
-:::image type="content" source="../debugger/media/vs-2022/conditionalexpressionfilter.png" alt-text="Screenshot showing Conditional Expression Filter.":::
+:::image type="content" source="../debugger/media/vs-2022/conditional-expression-filter.png" alt-text="Screenshot showing Conditional Expression Filter.":::
 
 List of filter expressions:
 

@@ -77,7 +77,7 @@ If you remove an EditorConfig file from your project or codebase and you want ne
 
    An *.editorconfig* file appears in Solution Explorer, and it opens in the editor.
 
-   :::image type="content" source="media/vs-2022/editorconfig-dotnet-new.png" alt-text="Screenshot showing the .editorconfig file in Solution Explorer and editor":::
+   :::image type="content" source="media/vs-2022/editorconfig-dotnet-new.png" alt-text="Screenshot showing the .editorconfig file in Solution Explorer and editor.":::
 
 1. Edit the file as desired.
 
@@ -153,7 +153,7 @@ If there is an EditorConfig file anywhere in the directory structure at or above
 
 This means that if any editor settings in **Tools** > **Options** > **Text Editor** (such as indent size and style, tab size, or coding conventions) are specified in an EditorConfig file at or above the project in the directory structure, the conventions in the EditorConfig file override the settings in **Options**. You can control this behavior by toggling the **Follow project coding conventions** option in **Tools** > **Options** > **Text Editor**. Unchecking the option turns off EditorConfig support for Visual Studio.
 
-:::image type="content" source="media/vs-2022/coding_conventions_option-new.png" alt-text="Tools Options - follow project coding conventions.":::
+:::image type="content" source="media/vs-2022/coding_conventions_option-new.png" alt-text="Screenshot showing the tools options - follow project coding conventions.":::
 
 You can find any *.editorconfig* files in parent directories by opening a command prompt and running the following command from the root of the disk that contains your project:
 

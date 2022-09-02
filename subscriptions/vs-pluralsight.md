@@ -84,13 +84,13 @@ After you activate your Pluralsight benefit, the **Activate** button is replaced
 
 In Visual Studio Subscriptions, the Pluralsight tile displays the time that remains on your Pluralsight benefit. The tile also shows the activation date and the expiration date of your Pluralsight benefit.
 
-:::image type="content" source="_img/vs-pluralsight/activated.png" alt-text="Screenshot that shows Pluralsight benefit tile in the Visual Studio subscription after activation, with the time remaining on the benefit, the expiration date, and a link to Pluralsight.":::
+:::image type="content" source="_img/vs-pluralsight/activated.png" alt-text="Screenshot that shows Pluralsight benefit tile in the Visual Studio subscription after activation.":::
 
 ### When your Pluralsight benefit ends
 
 When your Pluralsight benefit expires, the benefit status changes to **0 days remaining** and the link to Pluralsight is removed. The date you activated your Pluralsight benefit and the date it expired are still shown on the tile.
 
-:::image type="content" source="_img/vs-pluralsight/expired.png" alt-text="Pluralsight tile after expiration, the link to Pluralsight is removed and the dates the subscription was active appear at the bottom of the tile.":::
+:::image type="content" source="_img/vs-pluralsight/expired.png" alt-text="Screenshot showing Pluralsight tile after expiration, the link to Pluralsight is removed and the dates the subscription was active appear at the bottom of the tile.":::
 
 ## Frequently asked questions
 
