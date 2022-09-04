@@ -17,12 +17,7 @@ ms.technology: vs-installation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-
-::: moniker range=">=vs-2019"
-
 The sample Dockerfile in [Install Build Tools into a container](build-tools-container.md) always uses the [microsoft/dotnet-framework:4.8](https://hub.docker.com/r/microsoft/dotnet-framework) image based on the latest microsoft/windowsservercore image and the latest Visual Studio Build Tools installer. If you publish this image to a [Docker registry](https://azure.microsoft.com/services/container-registry) for others to pull, this image might be okay for many scenarios. However, in practice it's more common to be specific about what base image you use, what binaries you download, and which tool versions you install.
-
-::: moniker-end
 
 The following example Dockerfile uses a specific version tag of the microsoft/dotnet-framework image. Using a specific tag for a base image is commonplace and makes it easy to remember that building or rebuilding images always has the same basis.
 
@@ -57,7 +52,6 @@ exit /b 0
 ## Dockerfile
 
 In the working directory, create the "Dockerfile" with the following content:
-
 
 ::: moniker range="vs-2019"
 
@@ -156,7 +150,6 @@ ENTRYPOINT ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\
 
 Run the following command to build the image in the current working directory:
 
-
 ::: moniker range="vs-2019"
 
 ```shell
@@ -182,7 +175,6 @@ Optionally pass either or both `FROM_IMAGE` or `CHANNEL_URL` arguments using the
 ## Diagnosing install failures
 
 This example downloads specific tools and validates that the hashes match. It also downloads the latest Visual Studio and .NET log collection utility so that if an install failure does occur, you can copy the logs to your host machine to analyze the failure.
-
 
 ::: moniker range="vs-2019"
 

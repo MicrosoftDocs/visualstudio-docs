@@ -22,7 +22,6 @@ ms.workload:
 
 [!INCLUDE[..get-started/includes/git-source-control.md](../get-started/includes/git-source-control.md)]
 
-
 ## Tutorial review
 
 Congratulations on completing this tutorial on Python in Visual Studio. In this tutorial you've learned how to:

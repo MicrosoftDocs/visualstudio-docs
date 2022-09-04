@@ -25,9 +25,6 @@ This article steps you through creating, running, and customizing a series of un
 
 ## Create a project to test
 
-
-::: moniker range=">=vs-2019"
-
 1. Open Visual Studio.
 
 2. On the start window, choose **Create a new project**.
@@ -45,8 +42,6 @@ This article steps you through creating, running, and customizing a series of un
 
    > [!NOTE]
    > If *Program.cs* is not open in the editor, double-click the file *Program.cs* in **Solution Explorer** to open it.
-
-::: moniker-end
 
 5. Replace the contents of *Program.cs* with the following C# code that defines a class, *BankAccount*:
 
@@ -131,9 +126,6 @@ You now have a project with methods you can test. In this article, the tests foc
    > [!TIP]
    > You can also right-click on the solution in **Solution Explorer** and choose **Add** > **New Project**.
 
-
-::: moniker range=">=vs-2019"
-
 2. Type **test** in the search box, select **C#** as the language, and then select the C# **MSTest Unit Test Project (.NET Core)** for .NET Core template, and then click **Next**.
 
    > [!NOTE]
@@ -144,8 +136,6 @@ You now have a project with methods you can test. In this article, the tests foc
 4. Choose either the recommended target framework or .NET 6, and then choose **Create**.
 
    The **BankTests** project is added to the **Bank** solution.
-
-::: moniker-end
 
 5. In the **BankTests** project, add a reference to the **Bank** project.
 
@@ -163,12 +153,7 @@ Create a test class to verify the `BankAccount` class. You can use the *UnitTest
 
 1. To rename the file, in **Solution Explorer**, select the *UnitTest1.cs* file in the BankTests project. From the right-click menu, choose **Rename** (or press **F2**), and then rename the file to *BankAccountTests.cs*.
 
-
-::: moniker range=">=vs-2019"
-
 2. To rename the class, position the cursor on `UnitTest1` in the code editor, right-click, and then choose **Rename** (or press **F2**). Type in **BankAccountTests** and then press **Enter**.
-
-::: moniker-end
 
 The *BankAccountTests.cs* file now contains the following code:
 

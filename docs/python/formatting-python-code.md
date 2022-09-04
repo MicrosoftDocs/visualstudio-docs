@@ -28,7 +28,6 @@ You need to select **Show all settings** for these options to appear:
 
 [Python support in Visual Studio](installing-python-support-in-visual-studio.md) also adds the useful [**Fill Comment Paragraph**](#comment) command to the **Edit** > **Advanced** menu as described in a later section.
 
-
 ## Apply format to selection or file
 
 To format a selection: 
@@ -38,7 +37,6 @@ To format a selection:
 To format the whole file: 
 + Select **Edit** > **Advanced** > **Format Document** 
 + Or, press **Ctrl**+**E** > **D**.
-
 
 ## Spacing examples
 
@@ -121,12 +119,10 @@ The **Statements** options control automatic rewriting of various statements int
 
 **Edit** > **Advanced** > **Fill Comment Paragraph** (**Ctrl**+**E** > **P**) reflows and formats comment text, combining short lines together and breaking up long ones.
 
-
 |Reformat| Example 1 |
 | :- | :- |
 |Before| `# This is a very long long long long long long long long long long long long long long long long long long long comment`|
 |After| `# This is a very long long long long long long long long long long long long`<br/>`# long long long long long long long comment` |
-
 
 |Reformat|Example 2 |
 | :- | :- | 

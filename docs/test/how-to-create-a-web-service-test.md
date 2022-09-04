@@ -21,7 +21,7 @@ ms.technology: vs-ide-test
 You can use a web performance test to test web services. By using the **Insert Request** and **Insert Web Service Request** options, you can customize the individual requests in the **Web Performance Test Editor** to locate web service pages. Typically, you do not display these pages in the web application. Therefore, you must customize the request to gain access to these pages.
 
 >[!NOTE]
-> Web performance and load test functionality is deprecated in Visual Studio 2019. For Application Insights, multi-step web tests depend on Visual Studio webtest files. It was [announced](https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-eol/) that Visual Studio 2019 will be the last version with webtest functionality. It is important to understand that while no new features will be added, webtest functionality in Visual Studio 2019 is still currently supported and will continue to be supported during the support lifecycle of the product. The Azure Monitor product team has addressed questions regarding the future of multi-step availability tests [here](https://github.com/MicrosoftDocs/azure-docs/issues/26050#issuecomment-468814101).
+> Web performance and load test functionality is deprecated in Visual Studio 2019. For Application Insights, multi-step web tests depend on Visual Studio webtest files. It was [announced](https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-eol/) that Visual Studio 2019 will be the last version with webtest functionality. However, support has been extended to Visual Studio 2022. It is important to understand that while no new features will be added, webtest functionality in Visual Studio 2022 is still currently supported and will continue to be supported during the support lifecycle of the product. (You can run existing web/load tests, but the templates to create new ones were removed.) The Azure Monitor product team has addressed questions regarding the future of multi-step availability tests [here](https://github.com/MicrosoftDocs/azure-docs/issues/26050#issuecomment-468814101). We recommend using [Apache JMeter](https://jmeter.apache.org) in [Azure Load Test](https://azure.microsoft.com/services/load-testing/) as an alternative.
 
 **Requirements**
 
@@ -29,7 +29,7 @@ You can use a web performance test to test web services. By using the **Insert R
 * Internet Explorer
 
 >[!NOTE]
-> Web performance and load test functionality only supports Internet Explorer which is not available on Windows 11 and some versions of Windows 10. Read more on [Internet Explorer Lifecycle policy](/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-).
+> Web performance and load test functionality only supports Internet Explorer which is not available on Windows 11 and some versions of Windows 10. The web recorder feature is also deprecated because it requires Internet Explorer. Read more on [Internet Explorer Lifecycle policy](/lifecycle/faq/internet-explorer-microsoft-edge#what-is-the-lifecycle-policy-for-internet-explorer-).
 
 ## To create a simple web service
 
@@ -66,9 +66,6 @@ If you don't already have the web performance and load testing tools component i
 
 A web test requires the Web Performance and Load Test Project project template. In this section, we'll create a C# load test project. You can also create a Visual Basic load test project, if you prefer.
 
-
-::: moniker range=">=vs-2019"
-
 1. Open Visual Studio.
 
    If you are using the sample Web Service (ASMX) template, you can add the web test project to the same solution.
@@ -78,8 +75,6 @@ A web test requires the Web Performance and Load Test Project project template. 
 3. On the **Create a new project** page, type **web test** into the search box, and then select the **Web Performance and Load Test Project \[Deprecated]** template for C#. Choose **Next**.
 
 4. Enter a name for the project if you don't want to use the default name, and then choose **Create**.
-
-::: moniker-end
 
    Visual Studio creates the project and displays the files in **Solution Explorer**. The project initially contains one web test file named *WebTest1.webtest*.
 

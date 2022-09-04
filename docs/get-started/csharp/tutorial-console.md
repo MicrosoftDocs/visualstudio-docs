@@ -37,17 +37,11 @@ In this tutorial, you:
 
 You must have Visual Studio installed.
 
-
-::: moniker range=">=vs-2019"
-
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
-
-::: moniker-end
 
 ## Create a project
 
 To start, create a C# application project. The project type comes with all the template files you need.
-
 
 ::: moniker range="vs-2019"
 
@@ -718,11 +712,8 @@ namespace Calculator
 
 ## Next steps
 
-
-:::moniker range=">=vs-2019"
-
 Continue with the second part of this tutorial:
 
 > [!div class="nextstepaction"]
 > [Tutorial Part 2: Extend and debug your C# console app](tutorial-console-part-2.md)
-:::moniker-end
+

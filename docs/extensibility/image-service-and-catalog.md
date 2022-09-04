@@ -264,13 +264,9 @@ A \<Source> element can have exactly one of the following optional subelements:
 
   - Do not use this header if the image service can handle your image theming.
 
-
-::: moniker range=">=vs-2019"
 - **VsDpiAwareness.h**
 
   - Required if you use the DPI awareness helpers to get the current DPI.
-
-::: moniker-end
 
 ## How do I write new WPF UI?
 
@@ -332,9 +328,6 @@ CGlobalServiceProvider::HrQueryService(SID_SVsImageService, &spImgSvc);
 
  **Requesting the image**
 
-
-::: moniker range=">=vs-2019"
-
 ```cpp
 UINT dpiX, dpiY;
 HWND hwnd = // get the HWND where the image will be displayed
@@ -357,8 +350,6 @@ CComPtr<IVsUIObject> spImg;
 spImgSvc->GetImage(KnownMonikers::Blank, attributes, &spImg);
 ```
 
-::: moniker-end
-
 ## How do I update WinForms UI?
  Add the following to your code wherever appropriate to replace the raw loading of images. Switch values for returning Bitmaps versus Icons as needed.
 
@@ -377,9 +368,6 @@ IVsImageService2 imageService = (IVsImageService2)Package.GetGlobalService(typeo
 ```
 
  **Request the image**
-
-
-::: moniker range=">=vs-2019"
 
 ```csharp
 Control control = // get the control where the image will be displayed
@@ -404,8 +392,6 @@ IVsUIObject uIObj = imageService.GetImage(KnownMonikers.Blank, attributes);
 Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you need a bitmap
 // Icon icon = (Icon)GelUtilities.GetObjectData(uiObj);    // Use this if you need an icon
 ```
-
-::: moniker-end
 
 ## How do I use image monikers in a new tool window?
  The VSIX package project template was updated for Visual Studio 2015. To create a new tool window, right-click on the VSIX project and select **Add** > **New Item** (**Ctrl**+**Shift**+**A**). Under the Extensibility node for the project language, select **Custom Tool Window**, give the tool window a name, and press the **Add** button.

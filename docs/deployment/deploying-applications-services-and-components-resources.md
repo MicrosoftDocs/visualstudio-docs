@@ -49,15 +49,12 @@ Get help for your deployment task:
 
 From within Visual Studio, applications can be published directly to the following targets:
 
-::: moniker range=">=vs-2019"
 - [Azure](#azure)
 - [Docker Container Registry](#docker-container-registry)
 - [Folder](#folder)
 - [FTP/FTPS server](#ftpftps-server)
 - [Web server(IIS)](#web-server-iis)
 - [Import profile](#import-profile)
-::: moniker-end
-
 
 The preceding options appear as shown in the following illustration when you create a new publish profile.
 
@@ -67,7 +64,6 @@ The preceding options appear as shown in the following illustration when you cre
 ::: moniker range="vs-2019"
 ![Screenshot of Choose a publishing option.](../deployment/media/quickstart-publish-dialog.png)
 ::: moniker-end
-
 
 For a quick tour of more general application deployment options, see [First look at deployment](../deployment/deploying-applications-services-and-components.md).
 
@@ -158,11 +154,11 @@ For more information, see the following:
 ## Folder
 
 Deploying to the file system means to copy your application's files to a specific folder on your own computer. Deploying to a folder is most often used for testing purposes, or to deploy the application for use by a limited number of people if the computer is also running a server. If the target folder is shared on a network, then deploying to the file system can make the web application files available to others who might then deploy it to specific servers.
-::: moniker range=">=vs-2019"
+
 Starting with Visual Studio 2019 16.8, the folder target includes the ability to publish a .Net Windows application using ClickOnce.
 
 If you wish to publish a .NET Core 3.1, or newer, Windows application with ClickOnce, see [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md).
-::: moniker-end
+
 Any local machines that are running a server can make your application available through the Internet or an Intranet depending on how it's configured and the networks to which it's connected. (If you do connect a computer directly to the Internet, be especially careful to protect it from external security threats.) Because you manage these machines, you're in complete control of the software and hardware configurations.
 
 If for any reason (such as machine access) you are not able to use cloud services like Azure App Service or Azure Virtual Machines, you can use the [Azure Stack](https://azure.microsoft.com/overview/azure-stack/) in your own datacenter. The Azure Stack allows you to manage and use computing resources through Azure App Service and Azure Virtual Machines while yet keeping everything on-premises.
@@ -170,16 +166,15 @@ If for any reason (such as machine access) you are not able to use cloud service
 ### When to choose file system deployment
 
 - You need only deploy the application to a file share from which others will deploy it to different servers.
-::: moniker range=">=vs-2019"
+
 - You want to deploy a .NET Windows Application using ClickOnce
-::: moniker-end
+
 - You need only a local test deployment.
 - You want to examine and potentially modify the application files independently before sending them onto another deployment target.
 
 For more information, see [Quickstart - Deploy to a local folder](quickstart-deploy-aspnet-web-app.md).
-::: moniker range=">=vs-2019"
+
 For more information on deploying a .NET Windows Application using ClickOnce, see [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md).
-::: moniker-end
 
 For additional help to choose your settings, see the following:
 

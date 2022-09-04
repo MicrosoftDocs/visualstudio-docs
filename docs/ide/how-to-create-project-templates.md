@@ -34,16 +34,11 @@ This topic shows you how to create a template using the **Export Template Wizard
 
 4. On the **Choose Template Type** page, select **Project Template**. Select the project you want to export to a template, and then choose **Next**.
 
-
-::: moniker range=">=vs-2019"
-
 5. On the **Select Template Options** page, enter a name and optional description, icon, and preview image for your template. These items will appear in the dialog box where you create a new project. Choose **Finish**.
 
    The project is exported into a *.zip* file and placed in the specified output location, and, if selected, imported into Visual Studio.
 
 To find your template in the dialog box where you create a new project, search for it by name or scroll through the list. (Filtering based on language or project type is not currently possible for user templates.)
-
-::: moniker-end
 
 ## Other ways to create project templates
 

@@ -28,7 +28,6 @@ You can run MSBuild from Visual Studio, or from the **Command Window**. In this 
 
 ## Install MSBuild
 
-
 ::: moniker range="vs-2019"
 If you have Visual Studio, then you already have MSBuild installed. With Visual Studio 2019 and later, it's installed under the Visual Studio installation folder. For a typical default installation on Windows 10, MSBuild.exe is under the installation folder in *MSBuild\Current\Bin*.
 
@@ -57,12 +56,9 @@ To install MSBuild on a system that doesn't have Visual Studio, go to Build Tool
 
 1. Open Visual Studio and create a project:
 
-    ::: moniker range=">=vs-2019"
     In the search box, type **winforms**, then choose **Create a new Windows Forms App (.NET Framework)**. In the dialog box that appears, choose **Create**.
 
     In the **Project name** box, type `BuildApp`. Enter a **Location** for the solution, for example, *D:\\*.
-    ::: moniker-end
-
 
 1. Click **OK** or **Create** to create the project file.
 
@@ -268,7 +264,6 @@ Use this syntax to examine some of the properties in the project file.
     ```
 
     ::: moniker-end
-
 
 ### Conditional properties
 

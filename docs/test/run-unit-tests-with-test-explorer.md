@@ -38,9 +38,7 @@ When you build the test project, the tests appear in Test Explorer. If Test Expl
 ![Test Explorer](../test/media/vs-2022/test-explorer-17-0.png)
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
 As you run, write, and rerun your tests, the Test Explorer displays the results in a default grouping of **Project**, **Namespace**, and **Class**. You can change the way the Test Explorer groups your tests.
-::: moniker-end
 
 You can perform much of the work of finding, organizing and running tests from the **Test Explorer** toolbar.
 
@@ -53,7 +51,6 @@ You can perform much of the work of finding, organizing and running tests from t
 
 ### Run tests
 
-::: moniker range=">=vs-2019"
 You can run all the tests in the solution, all the tests in a group, or a set of tests that you select. Do one of the following:
 
 - To run all the tests in a solution, choose the **Run All** icon (or press **Ctrl** + **R**, **V**).
@@ -63,13 +60,10 @@ You can run all the tests in the solution, all the tests in a group, or a set of
 - Select the individual tests that you want to run, open the right-click menu for a selected test and then choose **Run Selected Tests** (or press **Ctrl** + **R**, **T**).
 
 - If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution in the settings menu of the toolbar. This can noticeably reduce the time taken to run all the tests.
-::: moniker-end
 
 ### Run tests after every build
 
-::: moniker range=">=vs-2019"
 To run your unit tests after each local build, open the settings icon in the Test Explorer toolbar and select **Run Tests After Build**.
-::: moniker-end
 
 ## View test results
 
@@ -131,7 +125,6 @@ You can define your own levels of the hierarchy and group by **State** and then 
 
 ### Test Explorer groups
 
-::: moniker range=">=vs-2019"
 |Group|Description|
 |-|-----------------|
 |**Duration**|Groups tests by execution time: **Fast**, **Medium**, and **Slow**.|
@@ -140,7 +133,6 @@ You can define your own levels of the hierarchy and group by **State** and then 
 |**Namespace**|Groups tests by the containing namespace.|
 |**Project**|Groups tests by the containing project.|
 |**Class**|Groups tests by the containing class.|
-::: moniker-end
 
 ### Traits
 
@@ -328,7 +320,6 @@ To filter by a different criteria:
 > [!NOTE]
 > Searches are case insensitive and match the specified string to any part of the criteria value.
 
-::: moniker range=">=vs-2019"
 |Qualifier|Description|
 |-|-----------------|
 |**State**|Searches the Test Explorer category names for matches: **Failed Tests**, **Skipped Tests**, **Passed Tests**.|
@@ -338,7 +329,6 @@ To filter by a different criteria:
 |**Target Framework**|Searches the Test Explorer category names for matches: **Failed Tests**, **Skipped Tests**, **Passed Tests**.|
 |**Namespace**|Searches the test namespaces for matches.|
 |**Class**|Searches the test classes names for matches.|
-::: moniker-end
 
 To exclude a subset of the results of a filter, use the following syntax:
 
@@ -354,12 +344,7 @@ You can determine the amount of product code that is actually being tested by yo
 
 To run code coverage for test methods in a solution:
 
-
-::: moniker range=">=vs-2019"
-
 * Right-click in Test Explorer and select **Analyze Code Coverage for Selected tests**
-
-::: moniker-end
 
 The **Code Coverage Results** window displays the percentage of the blocks of product code that were exercised by line, function, class, namespace and module.
 
@@ -379,7 +364,6 @@ Tests can be run from Test Explorer by right-clicking in the code editor on a te
 > [!NOTE]
 > You can't run a test in an abstract class, because tests are only defined in abstract classes and not instantiated. To run tests in abstract classes, create a class that derives from the abstract class.
 
-::: moniker range=">=vs-2019"
 ## Test audio cue
 
 Test Explorer can play a sound when a test run completes. There are two sounds: one sound to indicate the test run succeeded with all passing tests, and a second sound to indicate the test run completed with at least one failing test. You can set up these sounds in the default Windows 11 sound dialog. This feature is available starting in Visual Studio 2019 Update 16.9 Preview 3.
@@ -389,7 +373,6 @@ Test Explorer can play a sound when a test run completes. There are two sounds: 
 3. Find the **Microsoft Visual Studio** category. Choose the **Test Run Succeeded** or **Test Run Failed** sounds to select the preset sounds or browse to your own audio file.  
 ![Windows 11 sound dialog](../test/media/default-windows-11-sound-dialog.png)
 
-::: moniker-end
 ## See also
 
 - [Unit test your code](../test/unit-test-your-code.md)

@@ -58,9 +58,7 @@ The registry settings in this section control how and where the Visual Studio pr
 > If you change the `CachePath` registry policy after any installations, you must move the existing package cache to the new location and make sure it's secured so that `SYSTEM` and `Administrators` have **Full Control** and that `Everyone` has **Read** access.
 > Failure to move the existing cache or securing it might cause problems with future installs.
 
-
 ## Controlling Administrator Updates
-
 
 ::: moniker range="vs-2019"
 
@@ -87,8 +85,6 @@ The registry settings in this section control if and how administrator updates a
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
-
 ## Configuring source location for updates 
 
 The settings in this section allow an administrator to customize and control what update channels are available and how they appear to clients in an enterprise organization. For information about what the update settings even are and how they work, refer to the [configure source location of updates](update-visual-studio.md#configure-source-location-of-updates-1) documentation. 
@@ -103,7 +99,6 @@ The keys in this section only apply to the Computer\HKEY_LOCAL_MACHINE\SOFTWARE\
 | `ChannelURI` | `REG_SZ` |  The channelURI to either add to list of update channel values by adding to the `Channels` hive, or suppress from the list of update channels by adding to the `DisabledChannels` registry hive. For Microsoft hosted channels, the channelURI is "https://aka.ms/vs/16/release/channel" or "https://aka.ms/vs/16/pre/channel".  For layouts, this value needs to point to the layout's ChannelManifest.json. Refer to examples below. |
 | `Description` | `REG_SZ` |  A two-line custom description of the channel. If you've already installed from a layout, then the Update Settings UI defaults to "Private Channel" and you can change it using this Description. |
 
-
 Below are two example registry files that illustrates how an IT Admin may want to customize the [Update Settings UI](/visualstudio/install/update-visual-studio?#configure-source-location-of-updates-1). 
 
 The first registry example can be used in a situation where the client has previously installed from a network layout located at `\\vslayoutserver3\vs\2019_Enterprise`. As mentioned previously, Visual Studio defaults the channel name for this layout to "Private Channel". Here's how you would customize the channel name and description for this layout.
@@ -117,7 +112,6 @@ Windows Registry Editor Version 5.00
 "channelUri"="\\\\vslayoutserver3\\vs\\2019_Enterprise\\ChannelManifest.json"
 "Description"="Dev Tools based on VS 2019 16.9.Spring.2020 servicing baseline"
 ```
-
 
 Here's how to add a few more layout entries for other custom update channels that are available as a source for updates, and also how to suppress the Preview channel from showing up.
 
@@ -138,21 +132,13 @@ Windows Registry Editor Version 5.00
 "channelUri"="https://aka.ms/vs/16/pre/channel"
 ```
 
-::: moniker-end
-
 ## Controlling notifications in the Visual Studio IDE
-
-
-::: moniker range=">=vs-2019"
 
 As described earlier, Visual Studio checks the location from which it has been installed, such as a network share or the internet, to see whether any updates are available. When an update is available, Visual Studio notifies the user with a notification icon in the lower right-hand corner of the window.
 
    ![The notification icon in the Visual Studio IDE](media/vs-2019/notification-bar.png "The notification icon in the Visual Studio IDE")
 
-::: moniker-end
-
 You can disable the notifications if you don't want end users to be notified of updates. (For example, you might want to disable notifications if you deliver updates through a central software distribution mechanism.)
-
 
 ::: moniker range="vs-2019"
 

@@ -55,13 +55,8 @@ Public class MyClass
 
 For more information, see [Suppress warnings](../code-quality/in-source-suppression-overview.md).
 
-
-::: moniker range=">=vs-2019"
-
 > [!NOTE]
 > If you migrate a project to Visual Studio 2019, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings, you can suppress all of them by choosing **Analyze** > **Build and Suppress Active Issues**.
-
-::: moniker-end
 
 ## Run code analysis as part of check-in policy
 

@@ -66,7 +66,7 @@ The files created in one container aren't available in another.
    cat /data.txt
    ```
 
-   The terminal shows a number between 1 and 1000.
+   The terminal shows a number between 1 and 10000.
 
    To use the command line to see this result, get the container ID by using the `docker ps` command, and run the following command.
 

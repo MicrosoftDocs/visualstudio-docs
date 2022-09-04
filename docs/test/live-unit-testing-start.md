@@ -37,15 +37,11 @@ The solution is just a container for one or more projects. To create a blank sol
 
 1. Type **solution** into the template search box, and then select the **Blank Solution** template. Name the project **UtilityLibraries**.
 
-
 1. Finish creating the solution.
 
 Now that you've created the solution, you'll create a class library named StringLibrary that contains a number of extension methods for working with strings.
 
 1. In **Solution Explorer**, right-click on the UtilityLibraries solution and select **Add** > **New Project**.
-
-
-::: moniker range=">=vs-2019"
 
 2. Type **class library** into the template search box, and the select the **Class Library (.NET Standard)** template. Click **Next**.
 
@@ -55,8 +51,6 @@ Now that you've created the solution, you'll create a class library named String
 3. Name the project **StringLibrary**.
 
 4. Click **Create** to create the project.
-
-::: moniker-end
 
 5. Replace all of the existing code in the code editor with the following code:
 
@@ -112,9 +106,6 @@ The next step is to create the unit test project to test the StringLibrary libra
 
 1. In **Solution Explorer**, right-click on the UtilityLibraries solution and select **Add** > **New Project**.
 
-
-::: moniker range=">=vs-2019"
-
 2. Type **unit test** into the template search box, select **C#** as the language, and then select the **Unit Test Project** for .NET Core template. Click **Next**.
 
    > [!NOTE]
@@ -126,8 +117,6 @@ The next step is to create the unit test project to test the StringLibrary libra
 
    > [!NOTE]
    > This getting started tutorial uses Live Unit Testing with the MSTest test framework. You can also use the xUnit and NUnit test frameworks.
-
-::: moniker-end
 
 5. The unit test project can't automatically access the class library that it is testing. You give the test library access by adding a reference to the class library project. To do this, right-click on the `StringLibraryTests` project and select **Add** > **Reference**. In the **Reference Manager** dialog, make sure the **Solution** tab is selected, and select the StringLibrary project, as shown in the following illustration.
 
@@ -222,9 +211,7 @@ So far, although you've written the tests for the StringLibrary class library, y
 
 4. Visual Studio will rebuild the project and start Live Unit Test, which automatically runs all of your tests.
 
-::: moniker range=">=vs-2019"
 When it finishes running your tests, **Live Unit Testing** displays both the overall results and the result of individual tests. In addition, the code editor window graphically displays both your test code coverage and the result for your tests. As the following illustration shows, all three tests have executed successfully. It also shows that our tests have covered all code paths in the `StartsWithUpper` method, and those tests all executed successfully (which is indicated by the green check mark, "✓"). Finally, it shows that none of the other methods in StringLibrary have code coverage (which is indicated by a blue line, "➖").
-::: moniker-end
 
 ::: moniker range="vs-2019"
 ![The Live Test Explorer and code editor window after starting Live Unit testing](media/lut-start/vs-2019/lut-results-cs.png)

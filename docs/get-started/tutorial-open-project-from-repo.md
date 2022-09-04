@@ -295,7 +295,6 @@ But no matter which version you have installed, you can always browse to and clo
 
 ::: moniker-end
 
-
 ## Next steps
 
 Feel free to dive into any of the following language-specific tutorials:

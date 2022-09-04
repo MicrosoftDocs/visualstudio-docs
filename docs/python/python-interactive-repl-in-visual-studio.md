@@ -70,9 +70,6 @@ The exception is when more lines of code are needed to make a complete statement
 <a name="meta-commands"></a>
 The **Interactive** window also supports several meta-commands. All meta-commands start with `$`, and you can type `$help` to get a list of the meta-commands and `$help <command>` to get usage details for a specific command.
 
-
-:::moniker range=">=vs-2019"
-
 | Meta-command | Description |
 | --- | --- |
 | `$$` | Inserts a comment, which is helpful to comment code throughout your session. |
@@ -82,8 +79,6 @@ The **Interactive** window also supports several meta-commands. All meta-command
 | `$mod` | Switches the current scope to the specified module name. |
 | `$reset` | Resets the execution environment to the initial state, but keeps history. |
 | `$wait` | Waits for at least the specified number of milliseconds. |
-
-:::moniker-end
 
 Commands are also extensible by Visual Studio extensions by implementing and exporting `IInteractiveWindowCommand` ([example](https://github.com/Microsoft/PTVS/blob/master/Python/Product/PythonTools/PythonTools/Repl/InteractiveWindowCommands.cs#L85)).
 

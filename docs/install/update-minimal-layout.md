@@ -65,8 +65,6 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 
 #### Options
 
-::: moniker range=">=vs-2019"
-
 | Options                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                 | Required/Optional               | Example                                                                                                                                                          |
 |-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | --targetLocation &lt;dir&gt;                        | Specifies a directory in which to create a minimal offline layout.                                                                                                                                                                                                                                                                                                                                                                          | Required                        | --targetLocation c:\VSLayout\                                                                                                                                    |
@@ -79,8 +77,6 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 | --includeRecommended                                | Includes the recommended components for any workloads that are installed, but not the optional components.                                                                                                                                                                                                                                                                                                                                  | Optional                        | For a  specific workload: <br> --add Microsoft.VisualStudio.Workload. ManagedDesktop;includeRecommended <br><br> To apply to all workloads: --includeRecommended |
 | --includeOptional                                   | Includes the optional components for any workloads that are installed, including the recommended components.                                                                                                                                                                                                                                                                                                                                | Optional                        | For a specific workload: <br>--add Microsoft.VisualStudio.Workload. ManagedDesktop;includeOptional <br><br> To apply to all workloads: --includeOptional         |
 
-::: moniker-end
-
 
 ### Generating a minimal layout
 
@@ -92,8 +88,6 @@ Create a minimal layout using the **generate** command for your specified range 
 Before creating the layout, you can find out the total size of the download and the number of packages included by using the **preview** command. This command takes the same options as the **generate** command, and the details are written to the console.
 
 Let's walk through a few examples of how to preview, generate, and regenerate a minimal layout:
-
-::: moniker range=">=vs-2019"
 
 * First, here's an example of how to preview a layout for Visual Studio Enterprise versions 16.4.0 to 16.4.4 for English only.
 
@@ -133,8 +127,6 @@ A few other examples using the **generate** command:
   MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 16.4.0 --targetVersion 16.4.4 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeOptional --languages en-US fr-FR
   ```
 
-::: moniker-end
-
 
 ### How to maintain a minimal layout
 
@@ -169,7 +161,6 @@ Navigate to the folder and identify the bootstrapper application name. The name 
 | Microsoft.VisualStudio.Product.BuildTools   | vs_buildtools.exe   |
 
 The update is applied to a Visual Studio instance in two steps. Start by updating the Visual Studio Installer, then update Visual Studio.
-
 
 ::: moniker range="vs-2019"
 

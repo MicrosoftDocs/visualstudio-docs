@@ -78,9 +78,7 @@ Usually, the local machine best replicates installed app execution. To collect d
 
 The diagnostic report is sorted by **Total CPU**, from highest to lowest. Change the sort order or sort column by selecting the column headers. Use the **Filter** dropdown to select or deselect threads to display, and use the **Search** box to search for a specific thread or node.
 
-::: moniker range=">=vs-2019"
 Starting in Visual Studio 2019, you can click the **Expand Hot Path** and **Show Hot Path** buttons to see the function calls that use the highest percentage of the CPU in the call tree view.
-::: moniker-end
 
 ### <a name="BKMK_Call_tree_data_columns"></a> CPU Usage data columns
 
@@ -102,7 +100,6 @@ To view the call tree, select the parent node in the report. The **CPU Usage** p
 ::: moniker range="vs-2019"
 ![Call tree structure](../profiling/media/vs-2019/cpu-use-wt-getmaxnumber-call-tree-annotated.png "Call tree structure")
 ::: moniker-end
-
 
 |Image|Description|
 |-|-|
@@ -145,7 +142,6 @@ To find a function name you're looking for, use the search box. Hover over the s
 ::: moniker range="vs-2019"
 ![Search for nested external code](../profiling/media/vs-2019/cpu-use-wt-show-external-code-too-wide-found.png "Search for nested external code")
 ::: moniker-end
-
 
 ### <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU usage call tree
 

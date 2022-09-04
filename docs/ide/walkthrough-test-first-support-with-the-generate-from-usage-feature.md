@@ -39,7 +39,6 @@ The **Generate From Usage** feature can be used with test frameworks that integr
 
 3. Create a new **Unit Test Project (.NET Framework)** project.
 
-
 ### Add a reference to the Class Library project
 
 1. In **Solution Explorer**, under your unit test project, right-click the **References** entry and choose **Add Reference**.

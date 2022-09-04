@@ -37,10 +37,7 @@ The following new features support Vue.js application development in Visual Stud
     > [!IMPORTANT]
     > This article requires features that are only available starting in Visual Studio 2017 version 15.8.
 
-    ::: moniker range=">=vs-2019"
     If a required version is not already installed, install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads).
-    ::: moniker-end
-
 
     If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **Node.js development** workload, then choose **Modify**.
 
@@ -69,12 +66,9 @@ For this example, you use an empty ASP.NET Core Application (C#). However, you c
 
 * Open Visual Studio and create a new project.
 
-    ::: moniker range=">=vs-2019"
     In Visual Studio 2019, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Empty**, and then choose **Next**. On the next screen, name the project **client-app**, and then choose **Next**.
 
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
-    ::: moniker-end
-
 
     If you don't see the **ASP.NET Core Web Application** project template, you must install the **ASP.NET and web development** workload and the .**NET Core** development workload first. To install the workload(s), click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Select the required workloads.
 

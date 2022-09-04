@@ -23,27 +23,17 @@ By completing this tutorial, you'll become familiar with many of the tools, dial
 
 ## Prerequisites
 
-::: moniker range=">=vs-2019"
-
 - If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
 - Make sure the **.NET desktop development** workload is installed. You can verify this in the Visual Studio Installer. 
 - You can use either .NET Framework or .NET Core for this tutorial. .NET Core is the newer, more modern framework. .NET Core requires Visual Studio 2019 version 16.3 or later.
 
-::: moniker-end
-
 ## Configure the IDE
 
-
-::: moniker range=">=vs-2019"
-
 When you launch Visual Studio, the start window opens first. Select **Continue without code** to open the development environment. You'll see tool windows, the menus and toolbars, and the main window space. Tool windows are docked on the left and right sides of the application window. The search box, menu bar, and the standard toolbar are located at the top. When you load a solution or project, editors and designers appear in the central space of the application window. When you develop an application, you'll spend most of your time in this central area.
-
-::: moniker-end
 
 ## Create the project
 
 When you create an application in Visual Studio, you first create a project and a solution. For this example, you'll create a Windows Presentation Foundation (WPF) project.
-
 
 ::: moniker range="vs-2019"
 

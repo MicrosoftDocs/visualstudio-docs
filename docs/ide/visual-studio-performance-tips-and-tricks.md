@@ -86,7 +86,6 @@ Some tools or extensions can be turned off to improve performance.
 
 For information about .NET Compiler Platform ("Roslyn") performance considerations, see [Performance considerations for large solutions](https://github.com/dotnet/roslyn/blob/master/docs/wiki/Performance-considerations-for-large-solutions.md).
 
-
 - **Disable CodeLens**
 
     Visual Studio performs a **Find All References** task on each method as it is displayed. CodeLens provides features such as the inline display of the number of references. The work is performed in a separate process such as *ServiceHub.RoslynCodeAnalysisService32*. In large solutions, or on resource-constrained systems, this feature can have a significant impact on performance. If you’re experiencing memory issues, for example, when loading a large solution on a 4-GB machine, or high CPU usage for this process, you can disable CodeLens to free up resources.
@@ -102,12 +101,7 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
     Extensions are additional software components added to Visual Studio that provide new functionality or extend existing functionality. Extensions can often be a source of memory resource issues. If you’re experiencing memory resource problems, try disabling extensions one at a time to see how it impacts the scenario or workflow.
 
-
-   ::: moniker range=">=vs-2019"
-
     To disable extensions, go to **Extensions** > **Manage Extensions**, and disable a particular extension.
-
-   ::: moniker-end
 
 - **Disable map mode**
 

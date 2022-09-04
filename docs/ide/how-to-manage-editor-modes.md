@@ -64,8 +64,6 @@ In **Virtual Space** mode, spaces are inserted at the end of each line of code. 
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
-
 1. Select **Options** from the **Tools** menu.
 
 2. Expand the **Text Editor** folder, and choose **All Languages** to set this option globally, or choose a specific language folder. For example, to turn on line numbers only in Visual Basic, choose the **Basic** > **Text Editor** node.
@@ -74,8 +72,6 @@ In **Virtual Space** mode, spaces are inserted at the end of each line of code. 
 
     > [!NOTE]
     > **Virtual Space** is enabled in **Column Selection** mode. When **Virtual Space** mode is not enabled, the insertion point moves from the end of one line directly to the first character of the next.
-
-::: moniker-end
 
 ## See also
 

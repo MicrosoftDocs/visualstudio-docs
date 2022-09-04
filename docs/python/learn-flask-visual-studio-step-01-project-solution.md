@@ -22,9 +22,6 @@ ms.workload:
 
 Flask is called a "micro" framework because it doesn't directly provide features like form validation, database abstraction, authentication, and so on. Such features are instead provided by special Python packages called Flask *extensions*. The extensions integrate seamlessly with Flask so that they appear as if they're part of Flask itself. For example, Flask itself doesn't provide a page template engine. Templating is provided by extensions such as Jinja and Jade, as demonstrated in this tutorial.
 
-
-::: moniker range=">=vs-2019"
-
 In this tutorial, you learn how to:
 
 - Create a basic Flask project in a Git repository using the "Blank Flask Web Project" template (step 1).
@@ -33,7 +30,6 @@ In this tutorial, you learn how to:
 - Use the Flask Web Project template to create an app with multiple pages and responsive design (step 4).
 
 Over the course of these steps you create a single Visual Studio solution that contains two separate projects. You create the project using different Flask project templates that are included with Visual Studio. By keeping the projects in the same solution, you can easily switch back and forth between different files for comparison.
-::: moniker-end
 
 > [!Note]
 > This tutorial differs from the [Flask Quickstart](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json) in that you learn more about Flask as well as how to use the different Flask project templates that provide a more extensive starting point for your own projects. For example, the project templates automatically install the Flask package when creating a project, rather than needing you to install the package manually as shown in the Quickstart.
@@ -209,7 +205,6 @@ Now that you've configured source control for your project, you can create the v
 1. In **Solution Explorer**, right-click the **Python Environments** node and select **Add Environment**.
 
     ![Add Virtual environment command in Solution Explorer](media/flask/step-01-add-virtual-environment-command.png)
-
 
 1. Select **Create** to accept the defaults, in the Add Virtual Environment dialog. (You can change the name of the virtual environment if you want, which just changes the name of its subfolder, but `env` is a standard convention.)
 

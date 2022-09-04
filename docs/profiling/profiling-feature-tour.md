@@ -229,7 +229,6 @@ Starting in Visual Studio 2019 version 16.7, you can use the [.NET Counters tool
 The tool shows live values for each counter in a list view.
 
 :::image type="content" source="../profiling/media/dotnet-counters-tool-collecting.png" alt-text=".NET Counter tool collecting.":::
-
 ## Analyze resource consumption (XAML)
 
 In XAML apps, such as Windows desktop WPF apps and UWP apps, you can analyze resource consumption using the Application Timeline tool. For example, you can analyze the time spent by your application preparing UI frames (layout and render), servicing network and disk requests, and in scenarios like application startup, page load, and Window resize. To use the tool, choose **Application Timeline** in the Performance Profiler, and then choose **Start**. In your app, go through the scenario with a suspected resource consumption issue, and then choose **Stop collection** to generate the report.
@@ -239,14 +238,13 @@ Low framerates in the **Visual throughput** graph may correspond to visual probl
 ::: moniker range=">=vs-2022"
 ![Application Timeline profiling tool](../profiling/media/vs-2022/prof-tour-application-timeline.png "Profiling Tour Application Timeline")
 ::: moniker-end
-::: moniker range="<=vs-2019"
+::: moniker range="vs-2019"
 ![Application Timeline profiling tool](../profiling/media/prof-tour-application-timeline.gif "Profiling Tour Application Timeline")
 ::: moniker-end
 
 In the Timeline details view, you can find information such as the type of activity (or the UI element involved) along with the duration of the activity. For example, in the illustration, a **Layout** event for a Grid control takes 57.53 ms.
 
 For more information, see [Application Timeline](../profiling/application-timeline.md).
-
 ## Examine UI performance and accessibility events (UWP)
 
 In your UWP apps, you can enable **UI Analysis** in the **Diagnostic Tools** window. The tool searches for common performance or accessibility issues and displays them in the **Events** view while you are debugging. The event descriptions provide information that can help resolve issues.
@@ -275,9 +273,7 @@ You can also use the graphs to determine whether there are CPU bound or GPU boun
 
 ## Analyze performance (legacy tools)
 
-::: moniker range=">=vs-2019"
-Starting in Visual Studio 2019,  the legacy Performance Explorer and related profiling tools such as the Performance Wizard were folded into the Performance Profiler, which you can open using **Debug** > **Performance Profiler**. In the Performance Profiler, the available diagnostics tools depend on the target chosen and the current, open startup project. The CPU Usage tool provides the sampling capability previously supported in the Performance Wizard. The Instrumentation tool provides the instrumented profiling capability (for precise call counts and durations) that was in the Performance Wizard. Additional memory tools also appear in the Performance Profiler.
-::: moniker-end
+In Visual Studio 2019,  the legacy Performance Explorer and related profiling tools such as the Performance Wizard were folded into the Performance Profiler, which you can open using **Debug** > **Performance Profiler**. In the Performance Profiler, the available diagnostics tools depend on the target chosen and the current, open startup project. The CPU Usage tool provides the sampling capability previously supported in the Performance Wizard. The Instrumentation tool provides the instrumented profiling capability (for precise call counts and durations) that was in the Performance Wizard. Additional memory tools also appear in the Performance Profiler.
 
 ![Performance Explorer tool](../profiling/media/prof-tour-performance-explorer.png "Performance Explorer")
 
@@ -285,7 +281,6 @@ Starting in Visual Studio 2019,  the legacy Performance Explorer and related pro
 
 Here is a table that lists the different tools Visual Studio offers and the different project types you can use them with:
 
-::: moniker range=">=vs-2019"
 |Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core|
 |----------------------|---------------------|-------------|-------------|
 |[PerfTips](../profiling/perftips.md)|yes|yes|yes|
@@ -300,8 +295,6 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |[Database](../profiling/analyze-database.md)|yes (.NET Core only)|no|yes (ASP.NET Core only)|
 |[Performance Explorer](#analyze-performance-legacy-tools)|no|no|no|
 |[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
-::: moniker-end
-
 
 
 ## See also
