@@ -49,4 +49,4 @@ Alternatively, if you've recently opened the solution, you can use the following
 
 ## Related Video
 
-> [![here](/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Work-With-Multiple-Solutions/player)]
+> [!VIDEO https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Work-With-Multiple-Solutions/player]
