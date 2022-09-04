@@ -243,7 +243,7 @@ For more information on using version control in Visual Studio, see the [Version
 
 ## Related Video
 
-> [![here](/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Overview/player)]
+> [!VIDEO https://docs.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Overview/player]
 
 ## See also
 
