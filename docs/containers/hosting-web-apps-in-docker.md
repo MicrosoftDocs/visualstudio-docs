@@ -45,7 +45,6 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 [!INCLUDE [create-aspnet5-app](../azure/includes/vs-2022/create-aspnet5-app-2022.md)]
 ::: moniker-end
 
-
 ::: moniker range="vs-2019"
 ## Publish your container to Azure Container Registry
 1. Right-click your project in **Solution Explorer** and choose **Publish**.
@@ -101,7 +100,6 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 
 6. Choose **Finish** to complete the process.
 ::: moniker-end
-
 
 You can now pull the container from the registry to any host capable of running Docker images, for example [Azure Container Instances](/azure/container-instances/container-instances-tutorial-deploy-app).
 

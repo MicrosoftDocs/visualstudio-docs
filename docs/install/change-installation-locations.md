@@ -33,13 +33,10 @@ You can reduce the installation footprint of Visual Studio on your system drive 
 
 ::: moniker-end
 
-
    > [!NOTE]
    > There are some tools and SDKs that have different rules on where they can be installed. Such tools and SDKs are installed on your system drive even if you choose another location.
 
-
 Ready to get started? Here's how.
-
 
 ::: moniker range="vs-2019"
 

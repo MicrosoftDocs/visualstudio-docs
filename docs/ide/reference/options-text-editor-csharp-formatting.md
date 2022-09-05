@@ -53,7 +53,6 @@ If you previously applied code style settings for C# files using the **Format Do
 
 ::: moniker-end
 
-
 ## Indentation page
 
 The indentation options on this page apply when code is formatted automatically. One example of when code is automatically formatted is when you paste code into the file while **Automatically format on paste** is selected. (The **Automatically format on paste** option is under **Formatting** > **General**.)

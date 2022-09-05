@@ -114,7 +114,6 @@ You can configure ClickOnce applications to automatically update when assemblies
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/consentdialog/vb/form1.vb" id="Snippet2":::
      ---
 
-
 23. In the designer, double-click the **Cancel** button to generate the Click event handler.
 
 24. In the Form1 code file, add the following code for the Click event handler for the **Cancel** button.

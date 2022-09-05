@@ -380,7 +380,6 @@ Public NotInheritable Class MainPage
         operation = If(TypeOf sender Is Button, CType(sender, Button), Nothing).Content.ToString()
     End Sub
 
-
     ''' <summary>
     ''' Calls the SimpleMath SDK to do simple arithmetic
     ''' </summary>

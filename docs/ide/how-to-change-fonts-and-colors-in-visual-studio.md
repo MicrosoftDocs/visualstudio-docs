@@ -236,7 +236,6 @@ You can also customize the default keyboard shortcuts available with Visual Stud
 
 Visual Studio also includes auto-completion for methods and parameters; for more information, see [IntelliSense in Visual Studio](using-intellisense.md).
 
-
 There are more ways to customize Visual Studio to be more accessible to you. For example, you can change the behavior of pop-up windows, text-based tool windows, toolbar buttons, margin indicators, and more.
 
 > [!NOTE]

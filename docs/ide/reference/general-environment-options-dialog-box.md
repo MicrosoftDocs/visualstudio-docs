@@ -61,7 +61,6 @@ After you install this tool, additional color themes appear in the **Color Theme
 
 Menus use title case styling by default. Uncheck this option to use all uppercase styling instead.
 
-
 **Optimize rendering for screens with different pixel densities (requires restart)**
 
 This option enables or disables per-monitor dots per inch (DPI) awareness (or *PMA*). When PMA is enabled, the Visual Studio user interface appears crisp in any monitor display scale factor and DPI configuration, including across multiple monitors. To enable PMA, you need Windows 10 April 2018 Update or later and .NET Framework 4.8 or later. (This option appears greyed out if those two prerequisites are not met.)
@@ -70,11 +69,9 @@ This option enables or disables per-monitor dots per inch (DPI) awareness (or *P
 > - Windows 10 has a setting that says **Let Windows try to fix apps so they're not blurry**. Turning that Windows setting **on** has negligible effect if you have the **Optimize rendering for screens with different pixel densities** option checked. (This setting is not available in Windows 11. For more information about Windows 11, see [Windows 11 overview](/windows/whats-new/windows-11-overview).)
 > - Windows 10 also includes a **Program Compatibility Troubleshooter**. We don't recommend trying to fix the appearance of Visual Studio by using that troubleshooter. (This feature is not available in Windows 11. For more information about Windows 11, see [Windows 11 overview](/windows/whats-new/windows-11-overview).)
 
-
 **Automatically adjust visual experience based on client performance**
 
 Specifies whether Visual Studio sets the adjustment to the visual experience automatically or you set the adjustment explicitly. This adjustment may change the display of colors from gradients to flat colors, or it may restrict the use of animations in menus or popup windows.
-
 
 **Enable rich client experience**
 

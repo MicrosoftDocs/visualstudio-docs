@@ -40,7 +40,6 @@ Follow the tasks below to create a visualizer.
 
     For the visualizer project, make sure you select a .NET Framework class library and not .NET. Although the visualizer needs to be .NET Framework, the calling app can be .NET.
 
-
    After you have created the class library, you must add a reference to Microsoft.VisualStudio.DebuggerVisualizers.DLL so that you can use the classes defined there. Before you add the reference, however, you must rename some classes so that they have meaningful names.
 
 ### To rename Class1.cs and add Microsoft.VisualStudio.DebuggerVisualizers
@@ -166,12 +165,10 @@ In the debugger-side code, you specify the type to visualize (the object source)
 
 1. In Solution Explorer, right-click the solution, choose **Add**, and then click **New Project**.
 
-
     Choose **File** > **New** > **Project**. In the language drop-down, choose **C#**. In the search box, type **console app**, and then choose either **Console App (.NET Framework)** or **Console Application** for .NET. Click **Next**. In the dialog box that appears, type the name `MyTestConsole`, and then click **Create**.
 
     > [!NOTE]
     > If you want to easily test the visualizer using a test harness, create a .NET Framework console app. You can create a .NET console app instead, but the test harness described later is not yet supported for .NET, so you will need to install the visualizer to test it. For a .NET console app, first create the console app here, add the required DLL and project references, and then follow steps described in [Add a debuggee-side data object](#add-a-debuggee-side-data-object). For ASP.NET Core scenarios, see [Special debugger side considerations for .NET 5.0+](../debugger/create-custom-visualizers-of-data.md#special-debugger-side-considerations-for-net-50).
-
 
    Now, you must add the necessary references so MyTestConsole can call MyFirstVisualizer.
 
@@ -324,7 +321,6 @@ In this section, you switch from the `System.String` data object to a custom dat
    When you choose **MyFirstVisualizer** from the magnifying glass, you will see the Form with the data object text in the title.
 
    ![Visualizer showing a Windows Form](../debugger/media/vs-2019/visualizer-csharp-windows-form.png)
-
 
 
 ## See also

@@ -54,7 +54,6 @@ The *query string* is the portion of a URL beginning with a question mark (?) th
     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_Winforms/ClickOnceQueryString/VB/Form1.vb" id="Snippet1":::
     ---
 
-
 2. Call the function defined previously to retrieve a <xref:System.Collections.DictionaryBase.Dictionary%2A> of the query string parameters, indexed by name.
 
 ### To enable query string passing in a ClickOnce application with MageUI.exe

@@ -85,7 +85,6 @@ By default, Docker stores images in the *%ProgramData%/Docker/* folder, which is
 
   ![Screenshot of Docker File Sharing](media/troubleshooting-docker-errors/docker-daemon-settings.png)
 
-
 Click **Apply & Restart**. These steps modify the configuration file at *%ProgramData%\docker\config\daemon.json*. Previously built images are not moved.
 
 ## Container type mismatch
