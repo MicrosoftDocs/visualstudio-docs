@@ -190,6 +190,28 @@ If you need different behaviors depending on the .NET language (C#, Visual Basic
 </PropertyGroup>
 ```
 
+## Handle generated files
+
+## Including Generated Files Into Your Build
+
+In any given build, files that get generated during the build behave differently from static files (such as source files). For this reason, it's important to understand [How MSBuild Builds Projects](https://docs.microsoft.com/visualstudio/msbuild/build-process-overview). Two of the phases are [evaluation phase](build-process-overview.md#evaluation-phase) (MSBuild reads your project, imports everything, creates properties, expands globs for items outside of targets, and sets up the build process), and the [execution phase](build-process-overview#execution-phase) (MSBuild runs targets and tasks with the provided properties and items in order to perform the build).
+
+Files generated during execution don't exist during evaluation, therefore they aren't included in the build process. To solve this problem, manually add generated files into the build process. The recommended way to do this is by adding the new file to the `Content` or `None` items before the `BeforeBuild` target, as in the following example:
+
+```xml
+<Target Name="MyTarget" BeforeTargets="BeforeBuild">
+  
+  <!-- Some logic that generates your file goes here -->
+  <!-- Generated files should be placed in $(IntermediateOutputPath) -->
+
+  <ItemGroup>
+    <None Include="$(IntermediateOutputPath)my-generated-file.xyz" CopyToOutputDirectory="PreserveNewest"/>
+  </ItemGroup>
+</Target>
+```
+
+Adding your generated file to `None` or `Content` is sufficient for the build process to see it. You also want to ensure it gets added at the right time. Ideally, your target runs before `BeforeBuild`. `AssignTargetPaths` is another option, as it is the final opportunity to run before `None` and `Content` items (among others) are transformed into new items. See [Common Item Types](common-msbuild-project-items.md).
+
 ## Customize the solution build
 
 > [!IMPORTANT]
