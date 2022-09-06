@@ -31,7 +31,6 @@ You can connect to an Access database (either an *.mdb* file or an *.accdb* file
 >
 >If you plan on converting the project to be a 64-bit process, it’s recommended that you use the 64-bit Microsoft Access Database Engine, also called Access Connectivity Engine (ACE). Please see [OLE DB Provider for Jet and ODBC driver are 32-bit versions only](/office/troubleshoot/access/jet-odbc-driver-available-32-bit-version) for more information.
 
-
 ## Prerequisites
 
 To use these procedures, you need a Windows Forms or WPF project and either an Access database (*.accdb* file) or an Access 2000-2003 database (*.mdb* file). Follow the procedure that corresponds to your file type.
@@ -157,7 +156,6 @@ Connect to databases created with Microsoft 365, Access 2016, Access 2013, Acces
     The dataset is added to your project, and the tables and views appear in the **Data Sources** window.
 
 :::moniker-end
-
 
 ## Create a dataset for an .mdb file
 

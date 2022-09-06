@@ -44,7 +44,6 @@ There are three types of administrator updates to Visual Studio:
 
 The title of each administrator update describes both the applicable version range and the resultant version of the update. For example,
 
-
 ::: moniker range="vs-2019"
 
 * **Visual Studio 2019 version 16.7.0 to 16.7.12 update** classified as a “Security Update” will apply to any Visual Studio 2019 edition on the client between versions 16.7.0 through 16.7.12, and it will update those client editions to 16.7.12.  
@@ -78,10 +77,8 @@ There are a few configuration options that are can be used to tailor the Visual 
       * The client machine must have, at some point, already run the bootstrapper from that network layout location. Ideally, the original client install would have happened using the bootstrapper from the network layout, but it's also possible to have just installed an update using an updated bootstrapper in that same network location. Either one of these actions would embed, on the client machine, a connection with that particular layout location.
      * The network layout location (where the client is connected to) must be [updated to contain the updated product bits](../install/update-a-network-installation-of-visual-studio.md) that the administrator update wants to deploy.
 
-
 * **Servicing baseline stickiness**: As described above, administrator feature updates advance a Visual Studio installation to a more current minor version of the product. Sometimes, however, Visual Studio users need to remain at a particular stable and secure servicing baseline level, and they want to control when their machines advances to a more current minor version. To configure a client machine to remain on a servicing baseline and ignore undesired administrator feature updates sent to it, you’ll need to create and set the **BaselineStickinessVersions2019** Reg_SZ data value to a string that represents the preferred baseline that the client machine should snap to and stay on. The string can contain an allowable servicing baseline version such as **16.9.0**.  
      If the `BaselineStickinessVersions2019` registry value is malformed, then all administrator feature updates will be blocked from installing on the machine. Make sure you pay attention to the [supported timeframes for Visual Studio feature updates](/visualstudio/productinfo/vs-servicing-vs). Also, regardless of the presence or value of the `BaselineStickinessVersions2019` key, while it is technically possible to apply administrator feature updates that have reached the end of their lifetimes, we don't recommend it because they will be out of support and thus potentially insecure.
-
 
 * **Force the update to occur even if Visual Studio is in use**: Visual Studio must be closed before you install the update. If Visual Studio is open or being used, the update installation will be aborted. An easy way to ensure that Visual Studio is closed is to configure Confirmation Manager to apply the update right after a machine reboot. You can also use the `--force` parameter to force shut down Visual Studio. Forcing Visual Studio to close might cause loss of work, so use it with caution. Running an administrator update in the default system context will ignore the `–-force` flag, so you will need to configure the administrator Update to be run in user context.
 

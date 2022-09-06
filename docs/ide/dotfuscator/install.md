@@ -56,7 +56,6 @@ You can install Dotfuscator Community from the Visual Studio IDE:
 
 ::: moniker-end
 
-
 Once the installation is complete, you can [start using Dotfuscator Community][get-started].
 
 ## During Visual Studio Installation
@@ -69,7 +68,6 @@ When run, it will display installation options for the selected Visual Studio ed
 ![Install options](media/install_ui.png)
 
 ::: moniker-end
-
 
 You can then install Dotfuscator Community as an individual component of Visual Studio:
 

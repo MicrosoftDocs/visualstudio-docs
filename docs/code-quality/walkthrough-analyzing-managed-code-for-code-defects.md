@@ -58,11 +58,9 @@ This article steps you through the process of using legacy analysis to analyze y
 
 3. Choose the **Code Analysis** tab.
 
-
 4. Make sure that **Run on build** is selected in the **Binary analyzers** section.
 
 5. From the **Active rules** drop-down list, select **Microsoft All Rules**.
-
 
 6. On the **File** menu, click **Save Selected Items**, and then close the properties pages.
 

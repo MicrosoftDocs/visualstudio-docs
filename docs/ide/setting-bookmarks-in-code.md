@@ -2,7 +2,7 @@
 title: Set code bookmarks
 description: Learn how to use bookmarks to mark lines in your code so that you can quickly return to a specific location, or jump back and forth between locations.
 ms.custom: SEO-VS-2020
-ms.date: 02/23/2018
+ms.date: 09/02/2022
 ms.topic: conceptual
 f1_keywords:
 - VS.BookmarkWindow
@@ -29,9 +29,6 @@ You can use bookmarks to mark lines in your code so that you can quickly return 
 To add a bookmark, place the cursor on the line you want to bookmark. Choose the **Toggle a bookmark** button, or press **Ctrl**+**K**, **Ctrl**+**K**. This adds the bookmark. If you choose the **Toggle a bookmark** button (or press **Ctrl**+**K**, **Ctrl**+**K**) again, the bookmark is removed.
 
 To know at a glance what a specific bookmark is for, you can rename it in the **Bookmark Window** from the right-click or context menu. You can delete bookmarks by choosing the **Delete** button in the bookmark window.
-
-> [!IMPORTANT]
-> The bookmark is set to the line number, not to the code. If you modify the code, the bookmark is retained at the line number, and does not move with the code.
 
 You can navigate between bookmarks by using the **Next bookmark** and **Previous bookmark** buttons in the bookmark window.
 

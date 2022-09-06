@@ -48,7 +48,6 @@ Environments are specified using `testenvironments.json` in the root of your sol
 | wslDistribution | string | Name of the local WSL distribution in which to run the test environment. <br/> This is required if environment `type` is `wsl`. |
 | remoteUri | string | A uri that specifies the connection to the remote machine. For example, ssh://user@hostname:22. <br/> This is required if environment `type` is `ssh`. |
 
-
 ### Local container connections
 
 To connect to a container running locally, you must have [Docker Desktop](https://www.docker.com/products/docker-desktop) on your local machine. Optionally, [enable WSL2 integration](/windows/wsl/install-win10) for better performance.

@@ -64,7 +64,6 @@ Lists all of the user interface elements for which you can change font and color
 
      Changes the font style and size for all IDE user interface elements that do not already have a separate option in **Show settings for**.
 
-
 - **[All Text Tool Windows]**
 
      Changes to font style, size, and color display settings for this item affect the appearance of text in tool windows that have output panes in the IDE. For example, Output window, Command window, Immediate window, etc.

@@ -57,9 +57,7 @@ The quickest method of creating a validator is to use the project template. This
    > [!NOTE]
    > Your method will be called only in specific circumstances, and breakpoints will not work automatically. For more information, see [Debugging Layer Validation](#debugging).
 
-
 4. To install the extension in the main instance of Visual Studio, or on another computer, find the *.vsix* file in the *bin* directory. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, choose **Manage Extensions** on the **Extensions** menu.
-
 
 ## Adding a Layer Validator to a Separate VSIX
 

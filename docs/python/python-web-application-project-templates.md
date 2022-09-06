@@ -26,9 +26,7 @@ You create a project from a template using **File** > **New** > **Project**. To 
 
 ![New project dialog for web apps](media/projects-new-project-dialog-web.png)
 
-
 The generic **Web Project** template, mentioned earlier, provides only an empty Visual Studio project with no code and no assumptions other than being a Python project.
-
 
 All the other templates are based on the Bottle, Flask, or Django web frameworks, and fall into three general groups as described in the following sections. The apps created by any of these templates contain sufficient code to run and debug the app locally. Each one also provides the necessary [WSGI app object](https://www.python.org/dev/peps/pep-3333/) (python.org) for use with production web servers.
 
@@ -51,7 +49,6 @@ All **\<Framework> Web Project** templates create a starter web app with an iden
 | **Bottle Web Project** | Generates an app whose static files are contained in the *static* folder and handled through code in *app.py*. Routing for the individual pages is contained in *routes.py*, and the *views* folder contains the page templates.|
 | **Django Web Project** | Generates a Django project and a Django app with three pages, authentication support, and a SQLite database (but no data models). For more information, see [Django templates](python-django-web-application-project-template.md) and [Learn Django Step 4](learn-django-in-visual-studio-step-04-full-django-project-template.md). |
 | **Flask Web Project** | Generates an app whose static files are contained in the *static* folder. Code in *views.py* handles routing, with page templates using the Jinja engine contained in the *templates* folder. The *runserver.py* file provides startup code. See 
-
 
 ## Install project requirements
 
@@ -122,7 +119,6 @@ Pyramid apps are currently best created using the `pcreate` command-line tool. O
 ### Other configurations
 
 If you have settings for another framework that you would like to share, or if you'd like to request settings for another framework, open an [issue on GitHub](https://github.com/Microsoft/PTVS/issues).
-
 
 ## See also
 

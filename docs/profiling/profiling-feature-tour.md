@@ -297,6 +297,5 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
 
 
-
 ## See also
 - [Debugging in Visual Studio](../debugger/debugger-feature-tour.md)

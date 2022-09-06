@@ -62,7 +62,6 @@ If you already have your own Direct3D app to explore Graphics Diagnostics with, 
 
 Download a sample from [Direct3D Game Sample](/samples/microsoft/windows-universal-samples/simple3dgamedx/).
 
-
 Make sure you can build and run the app before moving on. Choose **Build** > **Build Solution** to make sure it builds without errors. Then choose **Debug** > **Start without Debugging** (**Ctrl + F5**) to make sure it runs correctly. Depending on what machine you are testing with the tool, you may need to adjust the platform and debugging target for the sample. For example, to test against the x64 platform on your Visual Studio host machine, choose **x64** as the Solution Platform and **Local Machine** as your debugging target. 
 
 ### 2 - Start a Graphics Diagnostics session

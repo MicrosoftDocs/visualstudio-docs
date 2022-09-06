@@ -17,7 +17,6 @@ ms.custom: version-control
 
 Visual Studio makes it easy to clone a repository right from the IDE. You can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps. 
 
-
 ## Prerequisites
 
 To follow this article, you'll need:

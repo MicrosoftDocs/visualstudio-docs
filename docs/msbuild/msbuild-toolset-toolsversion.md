@@ -30,7 +30,6 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
 ```
 
 
-
 > [!NOTE]
 > Some project types use the `sdk` attribute instead of `ToolsVersion`. For more information, see [Additions to the csproj format for .NET Core](/dotnet/core/tools/csproj).
 

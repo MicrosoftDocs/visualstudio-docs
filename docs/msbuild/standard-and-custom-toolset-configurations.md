@@ -35,7 +35,6 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
 
  ::: moniker-end
 
-
 ::: moniker range="vs-2019"
  MSBuild 16.0 includes the following standard Toolsets:
 
@@ -49,7 +48,6 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
  The `ToolsVersion` value determines which Toolset is used by a project that Visual Studio generates. In Visual Studio 2019, the default value is "Current" (no matter what the version specified in the project file), but you can override that attribute by using the **/toolsversion** switch at a command prompt. For information about this attribute and other ways to specify the `ToolsVersion`, see [Overriding ToolsVersion settings](../msbuild/overriding-toolsversion-settings.md).
 
  ::: moniker-end
-
 
 Visual Studio 2017 and later versions do not use a registry key for the path to MSBuild. For versions of MSBuild prior to 15.0 that are installed with Visual Studio 2017, the following registry keys specify the installation path of MSBuild.exe.
 

@@ -37,14 +37,11 @@ In this tutorial, you:
 
 You must have Visual Studio installed.
 
-
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
-
 
 ## Create a project
 
 To start, create a C# application project. The project type comes with all the template files you need.
-
 
 ::: moniker range="vs-2019"
 
@@ -714,7 +711,6 @@ namespace Calculator
 ```
 
 ## Next steps
-
 
 Continue with the second part of this tutorial:
 
