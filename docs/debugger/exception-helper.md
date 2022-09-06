@@ -42,7 +42,6 @@ Starting in Visual Studio 2017, for both .Net and C/C++ code, when you hit a `Nu
 
 ![Exception helper null analysis](media/debugger-exception-helper-default.png)
 
-
 > [!NOTE]
 > Null reference analysis in managed code requires .NET version 4.6.2. Null analysis is currently not supported for Universal Windows Platform (UWP) and any other .NET Core applications. It is only available while debugging code that does not have any Just-In-Time (JIT) code optimizations.
 

@@ -142,7 +142,6 @@ In the next step, you create and test the data service.
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfdataservicewalkthrough/vb/northwindcustomers.svc.vb" id="Snippet2":::
      ---
 
-
 6. On the menu bar, choose **Debug** > **Start Without Debugging** to run the service. A browser window opens and the XML schema for the service displays.
 
 7. In the **Address** bar, enter `Customers` at the end of the URL for **NorthwindCustomers.svc**, and then choose the **Enter** key.

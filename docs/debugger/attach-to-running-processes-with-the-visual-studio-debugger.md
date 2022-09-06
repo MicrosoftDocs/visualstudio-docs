@@ -126,7 +126,6 @@ For more complete instructions for debugging ASP.NET applications that have been
 
      ::: moniker-end
 
-
    - Select the **Find** button next to the **Connection target** box to open the **Remote Connections** dialog box. The **Remote Connections** dialog box lists all the devices that are on your local subnet or directly attached to your computer. You may need to [open UDP port 3702](../debugger/remote-debugger-port-assignments.md) on the server to discover remote devices. Select the computer or device you want, and then click **Select**.
 
    > [!NOTE]

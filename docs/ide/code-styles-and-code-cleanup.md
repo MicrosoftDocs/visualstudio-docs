@@ -59,7 +59,6 @@ Code style preferences can be set for all of your C# and Visual Basic projects b
 
 Each item in the list shows a preview of the preference when selected:
 
-
 ::: moniker range="vs-2019"
 
 ![Screenshot of code style options.](media/vs-2019/code-style-quick-actions-dialog.png)
@@ -78,14 +77,11 @@ Options set in this window are applicable to your Visual Studio personalization 
 
 For each code style setting on this page, you can set the **Preference** and **Severity** values using the drop-downs on each line. Severity can be set to **Refactoring Only**, **Suggestion**, **Warning**, or **Error**. If you want to enable [Quick Actions](../ide/quick-actions.md) for a code style, ensure that the **Severity** setting is set to something other than **Refactoring Only**. The **Quick Actions** light bulb :::image type="icon" source="media/light-bulb-dropdown.png":::, error light bulb :::image type="icon" source="media/error-bulb.png":::, or screwdriver :::image type="icon" source="media/screwdriver.png"::: icon appears when a non-preferred style is used, and you can choose an option on the **Quick Actions** list to automatically rewrite code to the preferred style.
 
-
 ## Enforce code styles on build
 
 Starting in Visual Studio 2019 version 16.8, which includes the .NET 5.0 RC2 SDK, you can [enforce the .NET coding conventions on build](/dotnet/fundamentals/productivity/code-analysis#code-style-analysis) for all .NET projects. At build time, .NET code style violations will appear as warnings or errors with an "IDE" prefix. This enables you to strictly enforce consistent code styles in your codebase.
 
-
 ## Apply code styles
-
 
 ::: moniker range="vs-2019"
 

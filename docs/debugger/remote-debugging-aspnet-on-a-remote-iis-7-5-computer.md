@@ -80,11 +80,8 @@ If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Us
 
 > [!NOTE]
 > The Web Platform Installer reached End-of-Life on 7/1/22. For more information, see [Web Platform Installer - End of support and sunsetting the product/application feed](https://blogs.iis.net/iisteam/web-platform-installer-end-of-support-feed). You can directly install ASP.NET 4.8 from IIS.
-<<<<<<< HEAD
 
 1. In the left pane of Server Manager, select **IIS**. Right-click the server and select **Add Roles and Features**.
-=======
->>>>>>> a9c87ac4c414b6e2182f91cf5b969bfc83211ebf
 
 1. In the wizard, advance to the **Features** section and install ASP.NET 4.8.
 
@@ -95,7 +92,7 @@ If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Us
 
      **C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet_regiis.exe -ir**
 
-2. Restart the system (or execute **net stop was /y** followed by **net start w3svc** from a command prompt to pick up a change to the system PATH).
+1. Restart the system (or execute **net stop was /y** followed by **net start w3svc** from a command prompt to pick up a change to the system PATH).
 
 ## Choose a deployment option
 
@@ -232,10 +229,6 @@ For information on running the remote debugger as a service, see [Run the remote
     If you have multiple processes showing **w3wp.exe**, check the **User Name** column. In some scenarios, the **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. If you see the App Pool, an easy way to identify the correct process is to create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
 
     ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess.png "RemoteDBG_AttachToProcess")
-<<<<<<< HEAD
-    ::: moniker-end
-=======
->>>>>>> a9c87ac4c414b6e2182f91cf5b969bfc83211ebf
 
 7. Click **Attach**
 

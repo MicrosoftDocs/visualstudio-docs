@@ -127,11 +127,9 @@ Examples of navigable list tool windows are the Solution Explorer and the Find R
 
 **Other tool windows**
 
-
 | Tool window | Function |
 | --- | --- |
 | Toolbox | The tool window used to store elements that will be dropped onto design surfaces, providing a consistent drag-source for all designers. |
-
 
 **Debugger tool windows**
 

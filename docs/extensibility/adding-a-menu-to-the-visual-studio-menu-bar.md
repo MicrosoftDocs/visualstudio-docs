@@ -38,12 +38,9 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 1. Create a VSIX project named `TopLevelMenu`. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".  For more information, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).
 
-
 2. When the project opens, add a custom command item template named **TestCommand**. In the **Solution Explorer**, right-click the project node and select **Add** >  **New Item**. In the **Add New Item** dialog, go to **Visual C# / Extensibility** and select **Command**. In the **Name** field at the bottom of the window, change the command file name to *TestCommand.cs*.
 
-
 ## Create a menu on the IDE menu bar
-
 
 1. In **Solution Explorer**, open *TopLevelMenuPackage.vsct*.
 
@@ -85,7 +82,6 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
     This makes the group part of the new menu.
 
-
 4. In the `<Buttons>` section, find the `<Button>` node. Then, in the `<Strings>` node, change the `<ButtonText>` element to `Test Command`.
 
     Notice that the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Package template has generated a `Button` element that has its parent set to `MyMenuGroup`. As a result, this command appears on your menu.
@@ -94,9 +90,7 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 1. Build the project and start debugging. An instance of the experimental instance should appear.
 
-
 2. The **Extensions** menu in the experimental instance should contain a **Test Menu** menu.
-
 
 3. On the **Test Menu** menu, select **Test Command**.
 

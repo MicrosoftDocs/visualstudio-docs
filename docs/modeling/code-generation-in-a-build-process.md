@@ -86,7 +86,6 @@ After that line, insert the Text Templating import:
 
 ::: moniker-end
 
-
 ## Transform templates in a build
 
 There are some properties that you can insert into your project file to control the transformation task:
@@ -303,7 +302,6 @@ If you update an included file or another file read by the template, Visual Stud
 - [Run-time text templates](../modeling/run-time-text-generation-with-t4-text-templates.md) are transformed at run time in your application.
 
 ## See also
-
 
 ::: moniker range=">=vs-2022"
 

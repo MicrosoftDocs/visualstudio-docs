@@ -31,7 +31,6 @@ The command-line options described below can either be used with the setup boots
 
 It is also possible to use the Administrator Update package, which is available to download from the [Microsoft Update Catalog](https://catalog.update.microsoft.com), to programatically update your network layout. More information how to do this can be found in the [Update or modify your layout](create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) documentation.  
 
-
 ::: moniker range="vs-2019"
 
 You can get the Visual Studio 2019 bootstrappers from the table below. Alternatively, if you want a specific version of Visual Studio 2019, you can go to the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page, which has links to the fixed version bootstrappers for your chosen version and edition of Visual Studio.
@@ -56,7 +55,6 @@ To get the latest bootstrappers for Visual Studio 2022 that will always install 
 | Visual Studio 2022 Build Tools   | [vs_buildtools.exe](https://aka.ms/vs/17/release/vs_buildtools.exe)         |
 
 ::: moniker-end
-
 
 ::: moniker range="vs-2019"
 

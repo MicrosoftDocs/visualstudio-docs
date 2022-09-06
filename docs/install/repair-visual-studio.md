@@ -35,7 +35,6 @@ Use repair if you're having issues with:
 
 ## How to repair
 
-
 ::: moniker range="vs-2019"
 
 1. Find the **Visual Studio Installer** on your computer.

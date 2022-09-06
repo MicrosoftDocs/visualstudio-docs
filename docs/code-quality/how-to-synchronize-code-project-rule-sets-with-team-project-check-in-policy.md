@@ -34,9 +34,7 @@ You synchronize the code analysis settings for code projects to the check-in pol
 
 2. Click **Code Analysis**.
 
-
 3. In the **Active rules** list, select the check-in policy rule set.
-
 
 ## To specify a custom check-in policy rule set
 
@@ -46,9 +44,7 @@ You synchronize the code analysis settings for code projects to the check-in pol
 
 3. Click **Code Analysis**.
 
-
 4. In the **Active rules** list, click **\<Browse>**.
-
 
 5. In the **Open** dialog box, specify the check-in policy rule set file.
 

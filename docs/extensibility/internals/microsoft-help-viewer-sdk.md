@@ -339,9 +339,7 @@ A user can then register CustomLibrary as the namespace under the Partners hive,
 
 Add the following registry key and value:
 
-
 **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\16.0\Dynamic Help**
-
 
 Value: Display Debug Output in Retail
 Data: YES

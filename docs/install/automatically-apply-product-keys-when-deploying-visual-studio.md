@@ -18,7 +18,6 @@ ms.technology: vs-installation
 
 You can apply your product key programmatically as part of a script that is used to automate the deployment of Visual Studio. You can set a product key on a device programmatically either during an installation of Visual Studio or after an installation completes.
 
-
 ::: moniker range="vs-2019"
 
 ## Apply the license after installation
@@ -60,7 +59,6 @@ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE
 
 ::: moniker-end
 
-
 ::: moniker range="vs-2022"
 
 The following example shows a command line for applying the license for Visual Studio 2022 Enterprise, which has an MPC of 09660, a product key of `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, and assumes a default installation location:
@@ -81,7 +79,6 @@ The following example shows a command line for applying the license for Visual S
 
 ::: moniker-end
 
-
 ::: moniker range="vs-2022"
 
 | Visual Studio Edition                | MPC   |
@@ -99,7 +96,6 @@ The following example shows a command line for applying the license for Visual S
 | Visual Studio Professional 2019      | 09262 |
 
 ::: moniker-end
-
 
 ::: moniker range="vs-2019"
 

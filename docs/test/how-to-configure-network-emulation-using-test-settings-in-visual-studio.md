@@ -28,7 +28,6 @@ The following procedure describes how to configure network emulation from the co
 > [!NOTE]
 > The network emulation diagnostic data adapter is only applicable to Visual Studio test settings. It is not used for test settings in Microsoft Test Manager (deprecated in Visual Studio 2017).
 
-
 > [!NOTE]
 > The Network Service account, which is the default account for the test agent, is not a member of the administrators group.
 

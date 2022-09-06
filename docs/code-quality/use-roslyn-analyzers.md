@@ -245,7 +245,6 @@ Following is the converted EditorConfig file:
 # Code files
 [*.{cs,vb}]
 
-
 dotnet_diagnostic.CA1001.severity = warning
 
 dotnet_diagnostic.CA1821.severity = warning

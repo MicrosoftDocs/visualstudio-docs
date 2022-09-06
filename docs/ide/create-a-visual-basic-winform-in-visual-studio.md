@@ -44,7 +44,6 @@ Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/down
 Create a Visual Basic application project.
 The project type comes with all the template files you'll need, before you've even added anything.
 
-
 ::: moniker range="vs-2019"
 1. Open Visual Studio.
 

@@ -71,7 +71,6 @@ You can find the remote debugger (*msvsmon.exe*) on a computer with Visual Studi
 
    ::: moniker-end
 
-
 2. Share the **Remote Debugger** folder on the Visual Studio computer.
 
 3. On the remote computer, run *msvsmon.exe* from the shared folder. Follow the [setup instructions](#bkmk_setup).

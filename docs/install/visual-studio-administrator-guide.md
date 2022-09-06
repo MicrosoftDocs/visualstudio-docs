@@ -39,7 +39,6 @@ You will need to make a plan for how you deploy Visual Studio across your organi
 
 ::: moniker-end
 
-
 - Clarify your security and compatibility needs. Do you need to ensure that your organization is always running the latest and most secure software?   
 
 ::: moniker range="=vs-2019"
@@ -84,7 +83,6 @@ The following resources will help you do the initial install of Visual Studio in
 
 - **[Install and use Visual Studio and Azure Services behind a firewall or proxy server](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)**. If your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to add to an "allowlist" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio and Azure Services. 
 
-
 ## Update Visual Studio
 
 The following resources will help you keep your Visual Studio updated, current, and secure.
@@ -103,7 +101,6 @@ The following resources will help you keep your Visual Studio updated, current, 
  
 - **For computers that are not connected to the internet**, you can [update the client programmatically and prevent internet access](update-a-network-installation-of-visual-studio.md#programatically-update-a-client-that-doesnt-have-internet-access) or you can [update Visual Studio using a minimal offline layout](update-minimal-layout.md). 
 
-
 ## Configure Visual Studio
 
 - **[Set registry policies that affect the deployment and behavior of Visual Studio](set-defaults-for-enterprise-deployments.md)** such as where some packages shared with other versions or instances are installed, where and whether packages are cached, if administrator update should be enabled or how they should be applied, which update channels are available and how they're presented to the client, and how notifications appear or don't appear.
@@ -114,7 +111,6 @@ The following resources will help you keep your Visual Studio updated, current, 
 
 * **[Import or export installation configurations](import-export-installation-configurations.md)** to other machines or to layouts.
 
-
 ## Manage, Modify or Repair Visual Studio
 
 - **[Detect, verify, and manage installed Visual Studio instances](tools-for-managing-visual-studio-instances.md)** on client machines.
@@ -122,7 +118,6 @@ The following resources will help you keep your Visual Studio updated, current, 
 - **[Get troubleshooting tips](troubleshooting-installation-issues.md)**. Get help when you’re installing or updating Visual Studio, and learn how to report a problem if you’re blocked. These tips include step-by-step instructions that should resolve most online or offline installation issues. 
 
 - **[Repair Visual Studio](repair-visual-studio.md) to fix update issues**. Sometimes your Visual Studio installation becomes damaged or corrupted. A repair is useful for fixing install-time issues across all install operations, including updates. 
-
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

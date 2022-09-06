@@ -215,10 +215,6 @@ For information on running the remote debugger as a service, see [Run the remote
     If you have multiple processes showing *w3wp.exe* or *dotnet.exe*, check the **User Name** column. In some scenarios, the **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. If you see the App Pool, but it's not unique, create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
 
     ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
-<<<<<<< HEAD
-    ::: moniker-end
-=======
->>>>>>> a9c87ac4c414b6e2182f91cf5b969bfc83211ebf
 
 7. Click **Attach**.
 

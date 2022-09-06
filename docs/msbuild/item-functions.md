@@ -51,7 +51,6 @@ The following example shows how to use these string item functions.
 
 The table below lists the intrinsic functions available for items.
 
-
 |Function|Example|Description|
 |--------------|-------------|-----------------|
 |`Combine`|`@(MyItems->Combine('path'))`|Returns a new set of items with a given relative path appended to all the input items.|

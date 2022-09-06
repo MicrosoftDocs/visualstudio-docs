@@ -69,7 +69,6 @@ When you create your matching game, the first step is to create a Windows Forms 
 
 1. In the **Configure your new project** window, name your project *MatchingGame*, then select **Create**.
 
-
 Visual Studio creates a solution for your app.
 A solution is a container for all of the projects and files needed by your app.
 

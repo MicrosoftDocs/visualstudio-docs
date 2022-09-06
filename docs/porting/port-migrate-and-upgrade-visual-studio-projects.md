@@ -24,7 +24,6 @@ helpviewer_keywords:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-
 ::: moniker range="vs-2019"
 
 Each new version of Visual Studio supports most types of projects, files, and other assets. You can work with them [as you always have](../ide/solutions-and-projects-in-visual-studio.md), provided that you don't depend on newer features.

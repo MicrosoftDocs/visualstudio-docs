@@ -115,9 +115,7 @@ You can share your custom keyboard shortcuts by exporting them to a file and the
 
 5. In the **What do you want to name your settings file** and **Store my settings file in this directory** boxes, either leave the default values or specify different values, and then choose **Finish**.
 
-
 By default, your shortcuts are saved in a file in the *%USERPROFILE%\Documents\Visual Studio 2019\Settings* folder. The name of the file reflects the date when you exported the settings, and the extension is *.vssettings*.
-
 
 ### To import only keyboard shortcuts
 
