@@ -31,7 +31,7 @@ In this tutorial, you learn how to:
 - A Kubernetes cluster. You can create one in the [Azure portal](https://azure.microsoft.com/free/).  If you don't have an Azure subscription, you can [create an account for free](https://azure.microsoft.com/free/).
 - The [kubectl](https://kubernetes.io/docs/reference/kubectl/kubectl/) executable installed on your system.
 - [Visual Studio 2019](https://www.visualstudio.com/vs/) version 16.7 or later running on Windows 10 or later.
-- The [Bridge to Kubernetes extension for Visual Studio](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro2022).
+- The Bridge to Kubernetes extension for [Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro) or [Visual Studio 2022](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro2022).
 - An application to troubleshoot, such as this [TODO App sample application](https://github.com/Microsoft/mindaro).
 
 ## Set up a service
