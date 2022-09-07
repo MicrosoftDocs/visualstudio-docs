@@ -24,7 +24,11 @@ The features described here are applicable to C#, C++, Visual Basic, JavaScript,
 
 Breakpoints are a useful feature when you know the line of code or the section of code that you want to examine in detail at runtime. For more information on the different types of breakpoints, such as conditional breakpoints and function breakpoints, see [Using breakpoints](../debugger/using-breakpoints.md).
 
-To debug, you need to start your app with the debugger attached to the app process. **F5** (**Debug > Start Debugging**) is the most common way to do that. However, right now you may not have set any breakpoints to examine your app code, so we will do that first and then start debugging. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run.
+To debug, you need to start your app with the debugger attached to the app process. To do this:
+
+- Press **F5** (**Debug > Start Debugging**), which is the most common method.
+
+However, right now you may not have set any breakpoints to examine your app code, so we will do that first and then start debugging. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run.
 
 If you have a file open in the code editor, you can set a breakpoint by clicking in the margin to the left of a line of code.
 
