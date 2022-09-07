@@ -89,7 +89,7 @@ Identifies all nonassembly files downloaded and used by the application.
 |---------------|-----------------|
 |`name`|Required. Identifies the name of the file.|
 |`size`|Required. Specifies the size, in bytes, of the file.|
-|`group`|Optional, if the `optional` attribute is not specified or set to `false`; required if `optional` is `true`. The name of the group to which this file belongs. The name can be any Unicode string value chosen by the developer, and is used for downloading files on demand with the <xref:System.Deployment.Application.ApplicationDeployment> class.|
+|`group`|Optional, if the `optional` attribute is not specified or set to `false`; required if `optional` is `true`. The name of the group to which this file belongs. The name can be any Unicode string value chosen by the developer, and is used for downloading files on demand with the <xref:System.Deployment.Application.ApplicationDeployment> class. The ApplicationDeployment class is not currently supported in .NET 5+.|
 |`optional`|Optional. Specifies whether this file must download when the application is first run, or whether the file should reside only on the server until the application requests it on demand. If `false` or undefined, the file is downloaded when the application is first run or installed. If `true`, a `group` must be specified for the application manifest to be valid. `optional` cannot be true if `writeableType` is specified with the value `applicationData`.|
 |`writeableType`|Optional. Specifies that this file is a data file. Currently the only valid value is `applicationData`.|
 
