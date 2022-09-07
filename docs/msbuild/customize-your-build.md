@@ -192,8 +192,6 @@ If you need different behaviors depending on the .NET language (C#, Visual Basic
 
 ## Handle generated files
 
-## Including Generated Files Into Your Build
-
 In any given build, files that get generated during the build behave differently from static files (such as source files). For this reason, it's important to understand [How MSBuild Builds Projects](https://docs.microsoft.com/visualstudio/msbuild/build-process-overview). Two of the phases are [evaluation phase](build-process-overview.md#evaluation-phase) (MSBuild reads your project, imports everything, creates properties, expands globs for items outside of targets, and sets up the build process), and the [execution phase](build-process-overview#execution-phase) (MSBuild runs targets and tasks with the provided properties and items in order to perform the build).
 
 Files generated during execution don't exist during evaluation, therefore they aren't included in the build process. To solve this problem, manually add generated files into the build process. The recommended way to do this is by adding the new file to the `Content` or `None` items before the `BeforeBuild` target, as in the following example:
