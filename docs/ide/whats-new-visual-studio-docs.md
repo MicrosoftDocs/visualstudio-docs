@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 8/3/2022
+ms.date: 09/02/2022
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -20,6 +20,140 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Welcome to what's new in the Visual Studio docs. The following sections provide the previous three months of what's new in the Visual Studio docs.
+
+## August 2022
+
+### Azure
+
+**Updated articles**
+
+- [Adding Azure storage by using Visual Studio Connected Services](../azure/vs-azure-tools-connected-services-storage.md) - Update for Visual Studio 2022 17.3
+
+### Containers
+
+**Updated articles**
+
+- [Quickstart: Use Docker with a React Single-page App in Visual Studio](../containers/container-tools-react.md) - Update debug steps for React with container
+- [Deploy an ASP.NET Core container to Azure App Service using Visual Studio](../containers/deploy-app-service.md) - Add steps for Azure App Service Container option
+
+### Debugger
+
+**New articles**
+
+- [How to: Enable debugging and diagnostics with Source Link](../debugger/how-to-improve-diagnostics-debugging-with-sourcelink.md)
+- [Troubleshoot remote debugging](../debugger/troubleshooting-remote-debugging.md)
+
+**Updated articles**
+
+- [Remote Debug ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) - Migrate remote debugging articles from WebPI
+- [Remote Debug ASP.NET Core on a Remote IIS Computer in Visual Studio](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) - Migrate remote debugging articles from WebPI
+- [Remote Debugging a C++ Project in Visual Studio](../debugger/remote-debugging-cpp.md) - Update remote debugging for C++
+- [Tutorial: Learn to debug C++ code using Visual Studio](../debugger/getting-started-with-the-debugger-cpp.md) - Update debugger get started topics for C++
+- [Advanced visualizer scenarios](../debugger/visualizer-advanced-scenarios.md) - Fix issues with code and link to projects in GitHub
+
+### Extensibility
+
+**Updated articles**
+
+- [.NET compiler platform package version reference](../extensibility/roslyn-version-support.md) - Update Roslyn's Visual Studio version mapping table
+- [VSCT XML schema conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md) - Added guidance for Defined() usage
+
+### IDE
+
+**Updated articles**
+
+- [What are solutions and projects in Visual Studio?](./solutions-and-projects-in-visual-studio.md) - Update content and add/revise links
+- [Options dialog box: Environment \> Tabs and Windows](./reference/tabs-and-windows-environment-options-dialog-box.md) - Add screenshots to Tabs & Windows options dialog page
+- [Customize window layouts in Visual Studio](./customizing-window-layouts-in-visual-studio.md) - Add Tabs & Docs Management personalization info
+- [Manage references in a project](./managing-references-in-a-project.md)
+  - Clarify between Add Reference and Add Project Reference
+  - Update the Add Project Reference screenshot
+- [Visual Studio productivity guide for C# developers](./csharp-developer-productivity.md) - Refresh text and screenshots for Visual Studio 2022
+
+### Install
+
+**Updated articles**
+
+- [Create an offline installation package of Visual Studio for local installation](../install/create-an-offline-installation-of-visual-studio.md) - Update for language locale localization issue
+
+### JavaScript
+
+**Updated articles**
+
+- [Tutorial: Create an ASP.NET Core app with Angular in Visual Studio](../javascript/tutorial-asp-net-core-with-angular.md) - Add Publish experience for ASP.NET Core plus React, Angular, Vue
+- [Tutorial: Create an ASP.NET Core app with React in Visual Studio](../javascript/tutorial-asp-net-core-with-react.md) - Add Publish experience for ASP.NET Core plus React, Angular, Vue
+- [Tutorial: Create an ASP.NET Core app with Vue in Visual Studio](../javascript/tutorial-asp-net-core-with-vue.md) - Add Publish experience for ASP.NET Core plus React, Angular, Vue
+
+### MSBuild
+
+**New articles**
+
+- [MSBuild Error messages: MSB3021](../msbuild/errors/msb3021.md)
+- [MSBuild Error messages: MSB3026](../msbuild/errors/msb3026.md)
+- [MSBuild Error messages: MSB3030](../msbuild/errors/msb3030.md)
+- [MSBuild Error messages: MSB3041](../msbuild/errors/msb3041.md)
+- [MSBuild Error messages: MSB3026](../msbuild/errors/msb3061.md)
+- [MSBuild Error messages: MSB3026](../msbuild/errors/msb3073.md)
+- [MSBuild Error messages: MSB3101](../msbuild/errors/msb3101.md)
+- [MSBuild Error messages: MSB3191](../msbuild/errors/msb3191.md)
+- [MSBuild Error messages: MSB3202](../msbuild/errors/msb3202.md)
+- [MSBuild Error messages: MSB3231](../msbuild/errors/msb3231.md)
+- [MSBuild Error messages: MSB3243](../msbuild/errors/msb3243.md)
+- [MSBuild Error messages: MSB3245](../msbuild/errors/msb3245.md)
+- [MSBuild Error messages: MSB3276](../msbuild/errors/msb3276.md)
+- [MSBuild Error messages: MSB3284](../msbuild/errors/msb3284.md)
+- [MSBuild Error messages: MSB3290](../msbuild/errors/msb3290.md)
+- [MSBuild Error messages: MSB3323](../msbuild/errors/msb3323.md)
+- [MSBuild Error messages: MSB3482](../msbuild/errors/msb3482.md)
+- [MSBuild Error messages: MSB3491](../msbuild/errors/msb3491.md)
+- [MSBuild Error messages: MSB3541](../msbuild/errors/msb3541.md)
+- [MSBuild Error messages: MSB3774](../msbuild/errors/msb3774.md)
+- [MSBuild Error messages: MSB4011](../msbuild/errors/msb4011.md)
+- [MSBuild Error messages: MSB4019](../msbuild/errors/msb4019.md)
+- [MSBuild Error messages: MSB4024](../msbuild/errors/msb4024.md)
+- [MSBuild Error messages: MSB4025](../msbuild/errors/msb4025.md)
+- [MSBuild Error messages: MSB4030](../msbuild/errors/msb4030.md)
+- [MSBuild Error messages: MSB4044](../msbuild/errors/msb4044.md)
+- [MSBuild Error messages: MSB4057](../msbuild/errors/msb4057.md)
+- [MSBuild Error messages: MSB4064](../msbuild/errors/msb4064.md)
+- [MSBuild Error messages: MSB4067](../msbuild/errors/msb4067.md)
+- [MSBuild Error messages: MSB4184](../msbuild/errors/msb4184.md)
+- [MSBuild Error messages: MSB6006](../msbuild/errors/msb6006.md)
+
+**Updated articles**
+
+- [When element (MSBuild)](../msbuild/when-element-msbuild.md) - MSBuild When element: use a more complex example
+- [Tutorial: Create a custom task for code generation](../msbuild/tutorial-custom-task-code-generation.md) - MSBuild Custom task tutorial: add multi-targeting info
+
+### Profiling
+
+**New articles**
+
+- [Excessive LOH allocations triggering Gen2 GCs](../profiling/perf-insights-loh-allocations.md)
+- [Improve regex performance with .NET 5+](../profiling/perf-insights-regex.md)
+- [Use StringBuilder for concatenations](../profiling/perf-insights-string-concatenation.md)
+
+**Updated articles**
+
+- [First look at profiling tools (C#, Visual Basic, C++, F#)](../profiling/profiling-feature-tour.md) - Discoverability update for File I/O tool
+
+### Version control
+
+**New articles**
+
+- [Stage lines of code in Visual Studio](../version-control/git-line-staging.md)
+
+## Community contributors
+
+The following person contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
+
+- [chadbaldwin](https://github.com/chadbaldwin) - Chad Baldwin (1)
+- [grantwinney](https://github.com/grantwinney) - Grant (1)
+- [jmartens](https://github.com/jmartens) - Jonathan Martens (1)
+- [just-ero](https://github.com/just-ero) - Ero (1)
+- [Orange23333](https://github.com/Orange23333) - Orange 233 (1)
+- [paritoshkr](https://github.com/paritoshkr) - PARITOSH KUMAR (1)
+- [psollberger](https://github.com/psollberger) - Patrick Sollberger (1)
 
 ## July 2022
 
@@ -81,12 +215,6 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 - [Delete task](../msbuild/delete-task.md) - Add example of deleting files in an ItemGroup
 - [How to: Configure targets and tasks](../msbuild/how-to-configure-targets-and-tasks.md) - Add section on overriding usingtasks
 - [Troubleshoot .NET Framework targeting errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md) - Update .NET targeting to latest .NET terminology
-
-### Community contributors
-
-The following person contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
-
-- [naveensrinivasan](https://github.com/naveensrinivasan) - Naveen (1)
 
 ## June 2022
 
@@ -212,118 +340,3 @@ Edits to improve search engine optimization and usability for the following page
 
 - [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) - Review and update Visual Studio docs for debug & deployment
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md) - Static instrumentation doc
-
-### Community contributors
-
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
-
-- [Laniusexcubitor](https://github.com/Laniusexcubitor) (1)
-- [naveensrinivasan](https://github.com/naveensrinivasan) - Naveen (1)
-- [reduckted](https://github.com/reduckted) - Dave (1)
-- [softwarepronto](https://github.com/softwarepronto) (1)
-
-## May 2022
-
-### Code quality
-
-**Updated articles**
-
-- [Configure live code analysis for .NET](../code-quality/configure-live-code-analysis-scope-managed-code.md) - Updates for background code analysis scope
-- [Run code analysis manually for .NET](../code-quality/how-to-run-code-analysis-manually-for-managed-code.md) - Updates for background code analysis scope
-
-### Containers
-
-**Updated articles**
-
-- [Tutorial: Create a multi-container app with Docker Compose](../containers/tutorial-multicontainer.md) - use the ComposeSample with Redis cache
-
-### Debugger
-
-**Updated articles**
-
-- [Troubleshooting and known issues for snapshot debugging in Visual Studio](../debugger/debug-live-azure-apps-troubleshooting.md)
-  - Update debug-live-azure-apps-troubleshooting.md
-- [Format specifiers for C++ in the Visual Studio debugger](../debugger/format-specifiers-in-cpp.md) - Address feedback ticket 1074671
-
-### Extensibility
-
-**Updated articles**
-
-- [Visual Studio SDK error messages](../extensibility/vssdk-messages/index.md) - Edits to improve search engine optimization and usability
-- [Visual Studio SDK analyzer error VsixCompatibility1001](../extensibility/vssdk-messages/vsixcompatibility1001.md) - Edits to improve search engine optimization and usability
-
-### Help viewer
-
-**Updated articles**
-
-- [Accessibility features of the Help Viewer](../help-viewer/accessibility-features.md) - 603085 | Update Help Viewer accessibility article
-- [Override Help Viewer defaults](../help-viewer/behavior-overrides.md) - 603085 | Update Help Viewer articles
-- [How to: Search for topics in Help Viewer](../help-viewer/find-topics.md) - 603085 | Update Help Viewer articles
-
-### IDE
-
-**Updated articles**
-
-- [Code style preferences](./code-styles-and-code-cleanup.md) - update Basic to Visual Basic in Tools>Options>Text Editor topics
-- [Common Quick Actions](./common-quick-actions.md) - update Basic to Visual Basic in Tools>Options>Text Editor topics
-- [How to: Manage editor modes](./how-to-manage-editor-modes.md) - update Basic to Visual Basic in Tools>Options>Text Editor topics
-- [Options, Text Editor, Basic (Visual Basic), Advanced](./reference/options-text-editor-basic-visual-basic.md)
-  - update Basic to Visual Basic in Tools>Options>Text Editor topics
-  - Updates for background code analysis scope
-- [Set language-specific editor options](./reference/setting-language-specific-editor-options.md) - update Basic to Visual Basic in Tools>Options>Text Editor topics
-- [Synchronize Visual Studio settings across multiple computers](./synchronized-settings-in-visual-studio.md) - update 'Turn off synchronized settings on a particular computer' section
-- [Options dialog box: Environment \> Documents](./reference/documents-environment-options-dialog-box.md) - add new AutoSave All Files option
-- [Options, Text Editor, C#, Advanced](./reference/options-text-editor-csharp-advanced.md) - Updates for background code analysis scope
-- [What is the Project Designer?](./reference/project-properties-reference.md) - revise Project Designer reference links for Visual Studio 2022
-- [Sign in to Visual Studio on Windows](./signing-in-to-visual-studio.md) - Update the sign in docs
-- [Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)](./work-with-multi-factor-authentication.md) - Update the sign in docs
-
-### MS Build
-
-**Updated articles**
-
-- [Tutorial: Build an application](./walkthrough-building-an-application.md) - Build walkthough: update for Visual Studio 2022
-- [How to: Create and remove project dependencies](./how-to-create-and-remove-project-dependencies.md) - Add screenshots, links and new Build order section
-
-### Profiling
-
-**New articles**
-
-- [Threads view reports in the Concurrency Visualizer](../profiling/threads-view-reports.md)
-- [Threads view timeline reports in the Concurrency Visualizer](../profiling/threads-view-timeline-reports.md)
-- [View file read and write information to help improve performance](../profiling/use-file-io.md)
-
-**Updated articles**
-
-- [Concurrency Visualizer markers](../profiling/concurrency-visualizer-markers.md) - Refactor Concurrency Visualizer
-- [Cores View](../profiling/cores-view.md) - Refactor Concurrency Visualizer
-- [Threads view in the Concurrency Visualizer](../profiling/threads-view-parallel-performance.md) - Refactor Concurrency Visualizer
-- [Utilization view](../profiling/utilization-view.md) - Refactor Concurrency Visualizer
-
-### Python
-
-**Updated articles**
-
-- [Quickstart: Create a Python project from a template in Visual Studio](../python/quickstart-02-python-in-visual-studio-project-from-template.md) - Quickstart: Open and run Python code in a folder
-- [Quickstart: Open and run Python code in a folder](../python/quickstart-05-python-visual-studio-open-folder.md) - Quickstart: Open and run Python code in a folder
-
-### Test
-
-**Updated articles**
-
-- [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) - Updates for 17.2 code coverage feature preview
-
-### Version control
-
-**Updated articles**
-
-- [Git settings and preferences in Visual Studio](../version-control/git-settings.md) - update 'Rebase local branch when pulling' section
-
-### Community contributors
-
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
-
-- [hyoshioka0128](https://github.com/hyoshioka0128) - Hiroshi Yoshioka (6)
-- [softwarepronto](https://github.com/softwarepronto) (2)
-- [matei-tm](https://github.com/matei-tm) - Mircea-Tiberiu Matei (1)
-- [xparadoxical](https://github.com/xparadoxical) (1)
