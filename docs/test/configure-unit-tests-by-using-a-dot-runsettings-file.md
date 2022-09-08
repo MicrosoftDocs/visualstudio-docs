@@ -219,7 +219,7 @@ You can run blame in 3 different modes:
 - Enabling crash dump, to create a dump when testhost crashes.
 - Enabling hang dump, to create a dump when test does not finish before given timeout.
 
-The xml configuration should be placed directly into `<RunSettings>` node:
+The XML configuration should be placed directly into `<RunSettings>` node:
 
 ```xml 
 </RunSettings>
