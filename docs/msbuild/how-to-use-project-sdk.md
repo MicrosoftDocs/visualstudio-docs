@@ -93,6 +93,9 @@ Explicitly including the imports in your project allows you full control over th
 
 When using the `<Import/>` element, you can specify an optional `Version` attribute as well. For example, you can specify `<Import Project="Sdk.props" Sdk="My.Custom.Sdk" Version="1.2.3" />`.
 
+> [!WARNING]
+> If you are changing project to use `<Import/>` elements, make sure you add both `.props` and `.targets` imports and that you remove the SDK from the `<Project/>` element and `<Sdk/>` elements. Failure to do so will result in doubled imports and an `MSB4011` warning.
+
 ## How project SDKs are resolved
 
 When evaluating the import, MSBuild dynamically resolves the path to the project SDK based on the name and version you specified.  MSBuild also has a list of registered SDK resolvers, which are plug-ins that locate project SDKs on your machine. These plug-ins include:
