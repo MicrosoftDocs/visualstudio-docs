@@ -38,6 +38,8 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
 
   The recommended debugging technique is as follows:
 
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
+
 1. Before you start, make sure the symbol (.pdb) and source files are archived.
 
 2. Deploy version 1 of the application.
@@ -74,8 +76,6 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
     For example, assume you are developing a Windows Forms application, and you have an event handler for this method with the update logic in it. To debug this, simply attach before the button is pressed, then set a breakpoint (make sure that you open the appropriate archived file and set the breakpoint there).
 
    Use the <xref:System.Deployment.Application.ApplicationDeployment.IsNetworkDeployed%2A> property to invoke the <xref:System.Deployment.Application> APIs only when the application is deployed; the APIs should not be invoked during debugging in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
-
-    [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
 
 ## See also
 - <xref:System.Deployment.Application>
