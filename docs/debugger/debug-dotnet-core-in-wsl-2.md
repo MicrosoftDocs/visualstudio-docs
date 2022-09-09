@@ -175,7 +175,7 @@ In addition to debugging from app startup using F5, you debug by attaching to a 
 
 1. Choose **Attach**.
 
-   ![WSL launch profile in the launch profile list](media/linux-wsl2-debugging-attach-to-process.png)
+   ![Screenshot of WSL process in the attach to process dialog box](media/linux-wsl2-debugging-attach-to-process.png)
 
 ## WSL settings in the launch profile
 
