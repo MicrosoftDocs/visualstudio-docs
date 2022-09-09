@@ -165,17 +165,17 @@ With these launch profiles, you can easily switch back and forth between your ta
 
 ![Multiple WSL launch profiles in the launch profile list](media/linux-wsl2-debugging-switch-target-distribution.png)
 
-## Attach to process
+## Attach to a running WSL process
 
-In addition to debugging from launch using F5, you can attach to a WSL process using the attach to process feature.
+In addition to debugging from app startup using F5, you debug by attaching to a running WSL process using the attach to process feature.
 
-1. With the app running, choose **Debug** > **Attach to Process**
+1. With the app running, choose **Debug** > **Attach to Process**.
 
 1. For the **Connection type**, choose **Windows Subsystem for Linux (WSL)**, and then choose the Linux distribution for the **Connection target**.
 
 1. Choose **Attach**.
 
-   ![WSL launch profile in the launch profile list](media/linux-wsl2-debugging-select-launch-profile.png)
+   ![WSL launch profile in the launch profile list](media/linux-wsl2-debugging-attach-to-process.png)
 
 ## WSL settings in the launch profile
 
