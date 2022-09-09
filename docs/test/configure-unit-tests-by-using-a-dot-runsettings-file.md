@@ -215,9 +215,9 @@ To customize any other type of diagnostic data adapters, use a [test settings fi
 This option can help you isolate a problematic test that causes a test host crash. Running the collector creates an output file (*Sequence.xml*) in *TestResults*, which captures the order of execution of the test before the crash.
 
 You can run blame in 3 different modes: 
-- Enabling just the sequence file, but not collecting dumps.
-- Enabling crash dump, to create a dump when testhost crashes.
-- Enabling hang dump, to create a dump when test does not finish before given timeout.
+- Enabling just the sequence file, but not collecting dumps
+- Enabling crash dump, to create a dump when testhost crashes
+- Enabling hang dump, to create a dump when test does not finish before given timeout
 
 The XML configuration should be placed directly into `<RunSettings>` node:
 
