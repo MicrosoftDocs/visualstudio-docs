@@ -167,7 +167,7 @@ With these launch profiles, you can easily switch back and forth between your ta
 
 ## Attach to a running WSL process
 
-In addition to debugging from app startup using F5, you debug by attaching to a running WSL process using the attach to process feature.
+In addition to debugging from app startup using F5, you can debug by attaching to a running WSL process using the attach to process feature.
 
 1. With the app running, choose **Debug** > **Attach to Process**.
 
