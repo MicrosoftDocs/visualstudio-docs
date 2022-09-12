@@ -30,6 +30,8 @@ ClickOnce uses the file version information specified in an application's deploy
 
  File patching also works for assemblies that are downloaded on demand using the <xref:System.Deployment.Application.ApplicationDeployment.DownloadFileGroup%2A> and <xref:System.Deployment.Application.ApplicationDeployment.DownloadFileGroupAsync%2A> methods.
 
+  [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
+
  If you use Visual Studio to compile your application, it will generate new hash signatures for all files whenever you rebuild the entire project. In this case, all assemblies will be downloaded to the client, although only a few assemblies may have changed.
 
  File patching does not work for files that are marked as data and stored in the data directory. These are always downloaded regardless of the file's hash signature. For more information on the data directory, see [Access local and remote data in ClickOnce applications](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md).

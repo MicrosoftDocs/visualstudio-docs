@@ -36,6 +36,8 @@ This section contains sample applications, example code, and step-by-step walkth
 |[Download assemblies on demand with the ClickOnce deployment API](../deployment/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api.md)|Demonstrates how to mark certain assemblies in your application as "optional," and how to download them using classes in the <xref:System.Deployment.Application> namespace.|
 |[Download assemblies on demand with the ClickOnce deployment API using the designer](../deployment/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md)|Explains how to download application assemblies only when they are first used by the application.|
 
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
+
 ## See also
 
 - [Visual Studio walkthroughs](/previous-versions/szatc41e(v=vs.110))

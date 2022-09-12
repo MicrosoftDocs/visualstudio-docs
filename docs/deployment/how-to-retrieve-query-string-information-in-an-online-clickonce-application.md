@@ -47,6 +47,8 @@ The *query string* is the portion of a URL beginning with a question mark (?) th
 
 1. Place the following code in your project. In order for this code to function, you will have to have a reference to System.Web and add `using` or `Imports` directives for System.Web, System.Collections.Specialized, and System.Deployment.Application.
 
+    [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
+
     ### [C#](#tab/csharp)
     :::code language="csharp" source="../snippets/csharp/VS_Snippets_Winforms/ClickOnceQueryString/CS/Form1.cs" id="Snippet1":::
 
