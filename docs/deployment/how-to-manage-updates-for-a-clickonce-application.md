@@ -32,6 +32,8 @@ ms.workload:
 
  You can configure the application to check for updates programmatically based on an event such as a user request. The procedure "To check for updates programmatically" in this topic shows how you would write code that uses the <xref:System.Deployment.Application.ApplicationDeployment> class to check for updates based on an event.
 
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
+
  You can also deploy your application from one location and update it from another. See the procedure "To specify a different update location."
 
  For more information, see [Choosing a ClickOnce Update Strategy](../deployment/choosing-a-clickonce-update-strategy.md).
