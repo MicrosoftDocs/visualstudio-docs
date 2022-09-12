@@ -2,7 +2,7 @@
 title: Target Build Order | Microsoft Docs
 description: Learn how to specify the order in which MSBuild targets are run, if the input to one target depends on the output of another target.
 ms.custom: SEO-VS-2020
-ms.date: 05/02/2019
+ms.date: 09/12/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - msbuild, build order
@@ -25,7 +25,7 @@ Targets must be ordered if the input to one target depends on the output of anot
 
 - `DependsOnTargets`. This `Target` attribute specifies targets that must run before this target can run.
 
-- `BeforeTargets` and `AfterTargets`. These `Target` attributes specify that this target should run before or after the specified targets (MSBuild 4.0).
+- `BeforeTargets` and `AfterTargets`. These `Target` attributes specify that this target should run before or after the specified targets.
 
 A target is never run twice during a build, even if a subsequent target in the build depends on it. Once a target has been run, its contribution to the build is complete.
 
@@ -81,7 +81,7 @@ tells MSBuild that the `Serve` target depends on the `Chop` target and the `Cook
 
 ## BeforeTargets and AfterTargets
 
-In MSBuild 4.0 and later, you can specify target order by using the `BeforeTargets` and `AfterTargets` attributes.
+You can specify target order by using the `BeforeTargets` and `AfterTargets` attributes.
 
 Consider the following script.
 
