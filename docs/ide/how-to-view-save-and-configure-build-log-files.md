@@ -2,7 +2,7 @@
 title: 'How to: View, save, and configure build log files | Microsoft Docs'
 description: Learn how you can view, save, and configure build log files. These files provide useful information for tasks like troubleshooting a build failure.
 ms.custom: SEO-VS-2020
-ms.date: 08/28/2019
+ms.date: 09/12/2022
 ms.technology: vs-ide-compile
 ms.topic: how-to
 ms.assetid: 75d38b76-26d6-4f43-bbe7-cbacd7cc81e7
@@ -18,7 +18,7 @@ ms.workload:
 
 After you build a project in the Visual Studio IDE, you can view information about that build in the **Output** window. By using this information, you can, for example, troubleshoot a build failure.
 
-- For C++ projects, you can also view the same information in a log file that's created and saved when you build a project. 
+- For C++ projects, you can also view the same information in a log file that's created and saved when you build a project.
 
 - For managed code projects, you can click in the build output window and press **Ctrl**+**S**. Visual Studio prompts you for a location to save the information from the **Output** window into a log file.
 
@@ -28,7 +28,7 @@ If you build any kind of project by using MSBuild, you can create a log file to 
 
 ## To view the build log file for a C++ project
 
-1. In **Windows Explorer** or **File Explorer**, open the following file (relative to the project root folder): *Release*\\{ProjectName}.Log* or *Debug\\{ProjectName}.log*
+1. In **Windows Explorer** or **File Explorer**, open the following file (relative to the project root folder): *Release\\{ProjectName}.Log* or *Debug\\{ProjectName}.log*
 
 ## To create a build log file for a managed-code project
 
