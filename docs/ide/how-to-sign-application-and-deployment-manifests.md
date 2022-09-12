@@ -79,7 +79,7 @@ To use this method, you must have a certificate signed by a certificate authorit
 
 ## Sign using a test certificate
 
-Test certificates are not signed by a Certificate Authority (CA). You can use test certificates for signing apps that are distributed on a local intranet, but test certificates are not recommended for publicly distributed apps. For details on test certificates, see [How using certificates authorities helps users](../deployment/clickonce-and-authenticode.md#how-using-certificate-authorities-helps-users).
+Test certificates are not signed by a Certificate Authority (CA) and should only be used for testing purposes. For details on test certificates, see [How using certificates authorities helps users](../deployment/clickonce-and-authenticode.md#how-using-certificate-authorities-helps-users).
 
 1. On the **Signing** page, select the **Sign the ClickOnce manifests** check box.
 
