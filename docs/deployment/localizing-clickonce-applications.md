@@ -64,6 +64,8 @@ Localization is the process of making your application appropriate for a specifi
 ## Download satellite assemblies on demand
  If you decide to include all satellite assemblies in a single deployment, you can improve performance by using on-demand downloading, which enables you to mark assemblies as optional. The marked assemblies will not be downloaded when the application is installed or updated. You can install the assemblies when you need them by calling the <xref:System.Deployment.Application.ApplicationDeployment.DownloadFileGroup%2A> method on the <xref:System.Deployment.Application.ApplicationDeployment> class.
 
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
+
  Downloading satellite assemblies on demand differs slightly from downloading other types of assemblies on demand. For more information and code examples on how to enable this scenario using the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] tools for [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)], see [Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API](../deployment/walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md).
 
  You can also enable this scenario in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  Also see [Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API Using the Designer](/previous-versions/visualstudio/visual-studio-2012/ms366788(v=vs.110)) or [Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API Using the Designer](/previous-versions/visualstudio/visual-studio-2013/ms366788(v=vs.120)).
