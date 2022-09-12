@@ -104,6 +104,8 @@ Identifies the attributes used for the deployment of updates and exposure to the
 
  To disable checking for updates, remove the `subscription` element. When you specify in the deployment manifest to never scan for updates, you can still manually check for updates by using the <xref:System.Deployment.Application.ApplicationDeployment.CheckForUpdate%2A> method.
 
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
+
  For more information on how deploymentProvider relates to updates, see [Choosing a ClickOnce Update Strategy](../deployment/choosing-a-clickonce-update-strategy.md).
 
 ## Examples
