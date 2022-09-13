@@ -38,7 +38,6 @@ The Visual Studio SDK for extensions compiled with C++ is available with the ins
 Extensions *must* be compiled specifically against the Visual Studio 2022 SDK and for ARM64.
 
 ## Add a Visual Studio 2022 target: ARM64
-This section assumes that you've completed the steps to [Update a Visual Studio extension for Visual Studio 2022](#update-visual-studio-extension.md).
 
 Add Visual Studio 2022:ARM64 support to your extension by using the following steps. 
 
