@@ -25,6 +25,8 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application are downloaded when the application is first run. However, you may have parts of your application that are used by a small set of your users. In this case, you want to download an assembly only when you create one of its types. The following walkthrough demonstrates how to mark certain assemblies in your application as "optional", and how to download them by using classes in the <xref:System.Deployment.Application> namespace when the common language runtime (CLR) demands them.
 
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
+
 > [!NOTE]
 > Your application will have to run in full trust to use this procedure.
 
