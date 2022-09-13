@@ -9,11 +9,11 @@
     href: get-started/tutorial-editor.md
   - name: About projects and solutions
     href: get-started/tutorial-projects-solutions.md
-  - name: More Visual Studio features
-    href: ide/advanced-feature-overview.md
   - name: Tour the Visual Studio IDE
     displayName: Feature tour
     href: ide/quickstart-ide-orientation.md
+  - name: More Visual Studio features
+    href: ide/advanced-feature-overview.md
   expanded: true
 - name: Installation
   items:
