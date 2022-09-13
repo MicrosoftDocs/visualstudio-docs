@@ -108,7 +108,7 @@ We're sorry! It looks like we couldn't find what you were looking for.
 
 **Looking for `F1` help on an MSBuild error message?**
 - **Try your favorite search engine [Recommended]**
-- Use the [docs.microsoft.com](/) toolbar to search 
+- Use the [Microsoft Docs](/) toolbar to search 
 - Browse the Knowledge Base for [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)
 
 **Didn't mean to click?** [Remap or disable the `F1` help key](../ide/not-in-toc/change-f1-help-key.md)
