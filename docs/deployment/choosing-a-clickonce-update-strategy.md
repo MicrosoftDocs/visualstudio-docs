@@ -99,6 +99,8 @@ ms.workload:
 ## Provide a user interface for updates
  When using this strategy, the application developer provides a user interface that enables the user to choose when or how often the application will check for updates. For example, you might provide a "Check for Updates Now" command, or an "Update Settings" dialog box that has choices for different update intervals. The [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment APIs provide a framework for programming your own update user interface. For more information, see the <xref:System.Deployment.Application> namespace.
 
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
+
  If your application uses deployment APIs to control its own update logic, you should block update checking as described in "Blocking Update Checking" in the following section.
 
  This strategy works best when you need different update strategies for different users.
