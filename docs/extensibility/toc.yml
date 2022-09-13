@@ -25,6 +25,8 @@
       href: migration/removed-api-list.md
     - name: Migrated API
       href: migration/migrated-assemblies.md
+    - name: ARM64 support
+      href: arm64/target-arm64-vs.md
     - name: VS SDK messages
       href: vssdk-messages/index.md
   - name: What's New Visual Studio 2019 SDK
