@@ -1,9 +1,9 @@
 ---
-title: "Tutorial: Tour of the Visual Studio IDE"
+title: "Tour the Visual Studio IDE"
 description: Learn about some of the windows, menus, and other UI features of the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
 titleSuffix: ''
-ms.date: 09/14/2021
+ms.date: 09/13/2022
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
@@ -11,15 +11,16 @@ manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
 - multiple
+f1_keywords:
+- MSDNSTART
 ---
-# Tutorial: First look at the Visual Studio IDE
+# Tour the Visual Studio IDE
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), we'll take a tour of some of the windows, menus, and other UI features.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
-
 
 ::: moniker range="vs-2019"
 
