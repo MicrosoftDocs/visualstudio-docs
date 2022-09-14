@@ -9,5 +9,5 @@ Before creating your pull request, please check your content against these quali
 - Are technical terms and concepts introduced and explained, and are acronyms spelled out on first mention?
 - Should this page be linked to from other pages or Microsoft web sites?
 
-For more information about creating content for docs.microsoft.com, see the contributor guide at https://docs.microsoft.com/contribute/.
+For more information about creating content for learn.microsoft.com, see the contributor guide at https://learn.microsoft.com/contribute/.
 -->

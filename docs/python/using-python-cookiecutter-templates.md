@@ -144,7 +144,7 @@ Example:
     },
     {
         "name": "Cookiecutter.ExternalWebBrowser",
-        "args": "https://docs.microsoft.com"
+        "args": "https://learn.microsoft.com"
     },
     {
         "name": "Python.InstallProjectRequirements",

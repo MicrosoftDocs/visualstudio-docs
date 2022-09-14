@@ -32,7 +32,7 @@ For in-depth instructions on remote debugging, see these topics.
 
 |Scenario|Link|
 |-|-|-|
-|Azure App Service|[Remote debug ASP.NET Core on Azure](/learn/modules/dotnet-debug-visual-studio-azure-web-apps/) or, for Visual Studio Enterprise, the [Snapshot Debugger](../debugger/debug-live-azure-applications.md)|
+|Azure App Service|[Remote debug ASP.NET Core on Azure](/training/modules/dotnet-debug-visual-studio-azure-web-apps/) or, for Visual Studio Enterprise, the [Snapshot Debugger](../debugger/debug-live-azure-applications.md)|
 |Azure VM|[Remote debug ASP.NET on an Azure VM](../debugger/remote-debugging-azure.md)|
 |Azure Service Fabric|[Debug an Azure Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application)|
 |ASP.NET|[Remote debug ASP.NET Core](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) or [Remote Debug ASP.NET](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|

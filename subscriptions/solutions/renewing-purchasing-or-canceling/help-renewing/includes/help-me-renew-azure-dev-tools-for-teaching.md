@@ -18,7 +18,7 @@ You'll need to renew these subscriptions through the [Azure Dev Tools for Teachi
 For inquiries or issues, contact the Azure Dev Tools for Teaching support team by visiting the [subscriptions support page](https://aka.ms/adt4tsupport) and locating your region.
 
 ## More information
-Read more about the [Azure Dev Tools for Teaching program](https://docs.microsoft.com/azure/education-hub/azure-dev-tools-teaching/about-program).
+Read more about the [Azure Dev Tools for Teaching program](https://learn.microsoft.com/azure/education-hub/azure-dev-tools-teaching/about-program).
 
 Find answers to [Azure Dev Tools for Teaching FAQs](https://azure.microsoft.com/education/institutions/dev-tools-for-teaching-faq/).
 
