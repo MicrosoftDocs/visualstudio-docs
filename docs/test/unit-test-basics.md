@@ -47,7 +47,7 @@ In this article, we use the development of a fictional application called `MyBan
 
 Our first attempt at a design for the `MyBank` application includes an accounts component that represents an individual account and its transactions with the bank, and a database component that represents the functionality to aggregate and manage the individual accounts.
 
-We create a `MyBank` solution that contains two projects:
+We create a `Bank` solution that contains two projects:
 
 - `Accounts`
 
