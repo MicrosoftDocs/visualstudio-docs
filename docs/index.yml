@@ -54,7 +54,7 @@ productDirectory:
         - url: https://code.visualstudio.com
           text: Product page
     - title: GitHub Codespaces
-      imageSrc: https://docs.microsoft.com/media/logos/logo_octokitty.svg
+      imageSrc: /media/logos/logo_octokitty.svg
       links:
          - url: https://docs.github.com/github/developing-online-with-codespaces/
            text: Documentation
