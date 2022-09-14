@@ -19,23 +19,26 @@ ms.workload:
 
 This article describes the differences between ClickOnce for .NET 5+ versus and ClickOnce for .NET Framework.
 
-## ClickOnce UI
+## Publish tool
 
-.NET 5+ uses the Publish tool instead of the old Publish Wizard & properties pages. The Publish tool creates a pubxml file.
-For MSBUILD command line, you need to specify the pubxml file (details)
+Starting in Visual Studio 2019, ClickOnce for .NET 5+ uses the Publish tool instead of the Publish Wizard and properties pages. The Publish tool creates a *.pubxml* file. Most of the properties previously available in the wizard are available to configure in the Publish tool. For detailed instructions, see [Deploy a .NET Windows application using ClickOnce](../deployment/quickstart-deploy-using-clickonce-folder.md).
+
+## MSBUILD
+
+For building from the command line using MSBUILD, you need to specify the *.pubxml* file. For more information, see [](../deployment/building-clickonce-applications-from-the-command-line.md#build-net-clickonce-applications-from-the-command-line).
 
 ## ApplicationDeployment class
 
-Not supported in .NET 5+
- 
+In .NET 5+, you don't have programmatic access to the <xref:System.Deployment.Application.ApplicationDeployment> class or to APIs in the <xref:System.Deployment.Application> namespace.
+
 ## Mage.exe
 
-.NET 5+ uses dotnetmage.exe instead
- 
+In .NET 5+, use *dotnetmage.exe* instead of *Mage.exe* to create the ClickOnce deployment.
+
 ## URL rewrites
 
-Not (currently) supported in .NET 5+
- 
+URL rewrites are not currently supported in ClickOnce for .NET 5+.
+
 ## Unsupported Publish properties on .NET 5+
 
 Enable ClickOnce Security Settings (Security setting)
