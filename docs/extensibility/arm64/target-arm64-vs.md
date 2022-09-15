@@ -41,75 +41,66 @@ Extensions *must* be compiled specifically against the Visual Studio 2022 SDK an
 
 Add Visual Studio 2022:ARM64 support to your extension by using the following steps. 
 
-1. Open the VSIX project to your solution. This project will target Visual Studio 2022 :ARM64.
-
-2. Verify that the new VSIX project builds properly. You might need to add references to match your original VSIX project to resolve any compiler errors.
-
-3. For Managed Visual Studio extensions: 
-    - Use the package references 17.x (or earlier) in your Visual Studio 2022-targeted project file. Use the NuGet Package Manager or directly edit the project file.
-    - Consider changing your project from building for **Any CPU** to targeting **ARM64**. Project can be built for **ARM64** as well.
-
-4. For C++ projects:
-    -  Extensions must be compiled for ARM64. 
-    -  Any dependency that your extension might have on a native module will have to be updated to an ARM64 image.
-
-
-5. Edit your *source.extension.vsixmanifest* file to reflect targeting Visual Studio 2022. Set the `<InstallationTarget>` tag to indicate Visual Studio 2022. Set the `ProductArchitecture` element to indicate an ARM64 payload.
-
-   - For Managed Visual Studio extensions: Targets both AMD64 and ARM64  
-      ```xml
+- ### For Managed Visual Studio extensions:
+  1. Open the VSIX project to your solution. This project will target Visual Studio 2022 :ARM64.
+  2. Verify that the VSIX project builds properly. You might need to add references to match your original VSIX project to resolve any compiler errors.
+  3. Use the package references 17.x (or earlier) in your Visual Studio 2022-targeted project file. Use the NuGet Package Manager or directly edit the project file.      
+      - The [Microsoft.VisualStudio.Sdk](https://www.nuget.org/packages/Microsoft.VisualStudio.Sdk/) (17.x versions) metapackage brings in most or all of the reference assemblies that you'll need.
+      - The [Microsoft.VSSDK.BuildTools](https://www.nuget.org/packages/Microsoft.VSSDK.BuildTools/) (17.x versions) package should be referenced from your VSIX project so it can build a Visual Studio 2022-compliant VSIX.
+  4. Consider changing your project from building for **Any CPU** to targeting **ARM64**.
+  5. Edit your *source.extension.vsixmanifest* file to reflect targeting Visual Studio 2022. Set the `<InstallationTarget>` tag to indicate Visual Studio 2022. Set the `ProductArchitecture` element to indicate an ARM64 payload.
+     ```xml
       <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
          <ProductArchitecture>amd64</ProductArchitecture>
       </InstallationTarget>
       <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
          <ProductArchitecture>arm64</ProductArchitecture>
       </InstallationTarget>
-      ```
+      ```    
+      
+    >  A managed Visual Studio extension paylaod can target both Installations arm64 and amd64 when building for AnyCPU.
 
-    - For Managed Visual Studio extensions: Targets ARM64  
+- ### For C++ Visual Studio extensions:
+  1. Open the VSIX project to your solution. This project will target Visual Studio 2022 :ARM64.
+  2. Verify that the VSIX project builds properly. You might need to add references to match your original VSIX project to resolve any compiler errors.
+  3. Change your project from building for targeting **ARM64**. 
+  4. Update dependency - Any dependency that your extension might have on a native module will have to be updated to an ARM64 image.
+  5. Edit your *source.extension.vsixmanifest* file to reflect targeting Visual Studio 2022. Set the `<InstallationTarget>` tag to indicate Visual Studio 2022. Set the `ProductArchitecture` element to indicate an ARM64 payload.
       ```xml
       <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
          <ProductArchitecture>arm64</ProductArchitecture>
       </InstallationTarget>
       ```
 
-   - For C++ Visual Studio extensions: Targets ARM64 
-      ```xml
-      <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
-         <ProductArchitecture>arm64</ProductArchitecture>
-      </InstallationTarget>
-      ```
-
-      >  C++ Visual Studio extension can not target both Installations arm64 and amd64. 
-
-   -  Designer view
-
-      ![Screenshot that shows adding InstallationTarget.](samples/add-arm64-target.png)
-    
+    >  A Single C++ Visual Studio extension payload can not target both Installations arm64 and amd64.
 
 At this point, you have a Visual Studio 2022-targeted extension VSIX. You should build your Visual Studio 2022-targeted VSIX project.
 
-## Sample extension vsixmanifest: targets both AMD64 and ARM64 
+
+### Set the `<InstallationTarget>` tag to indicate Visual Studio 2022 using the Designer view
+   ![Screenshot that shows adding InstallationTarget.](samples/add-arm64-target.png)   
+
+### Sample extension vsixmanifest: targets both AMD64 and ARM64 
    ![Screenshot that shows adding amd64 and arm64 InstallationTarget.](samples/add-amd64-arm64-target.png)
 
-## Compile Managed Visual Studio extensions: targets only ARM64
+### How to compile Managed Visual Studio extensions: targets only ARM64
 
-1. Add ARM64 configuration to your project (.csproj).
-    
-   ![Screenshot that shows adding arm64 configurations.](samples/add-arm64-configs.png)   
-    
-2. Add ARM64 configuration to your project (.csproj).
-    
-   ![Screenshot that shows building arm64 project.](samples/build-arm64-project.png)   
+   1. Add ARM64 configuration to your project (.csproj).
+      
+      ![Screenshot that shows adding arm64 configurations.](samples/add-arm64-configs.png)   
+      
+   2. Add ARM64 configuration to your project (.csproj).
+      
+      ![Screenshot that shows building arm64 project.](samples/build-arm64-project.png)   
     
 
-## Compile C++ Visual Studio extensions: targets only ARM64
+### How to compile C++ Visual Studio extensions: targets only ARM64
 
-1. Select the ARM64 Target platform.
-   ![Screenshot that shows adding arm64 Target platform.](samples/add-arm64-target-native.png)   
+   1. Select the ARM64 Target platform.
+      ![Screenshot that shows adding arm64 Target platform.](samples/add-arm64-target-native.png)   
 
-2. Select the ARM64 library location.
-   
-   Required lib files can be found at : [VSInstallatioPath]\VSSDK\VisualStudioIntegration\common\lib\arm64
-   
-   ![Screenshot that shows adding arm64 lib path](samples/add-arm64-lib.png)   
+   2. Select the ARM64 library location.
+      
+      Required lib files can be found at : `[VSInstallatioPath]\VSSDK\VisualStudioIntegration\common\lib\arm64`
+      
+      ![Screenshot that shows adding arm64 lib path](samples/add-arm64-lib.png)   
