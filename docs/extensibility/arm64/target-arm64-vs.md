@@ -9,7 +9,7 @@ author: ankitvarmait
 ms.author: anva
 manager: tinali
 ms.technology: vs-ide-sdk
-monikerRange: "vs-2022"
+monikerRange: ">=vs-2022"
 ms.workload:
 - vssdk
 feedback_system: GitHub
@@ -42,12 +42,12 @@ Extensions *must* be compiled specifically against the Visual Studio 2022 SDK an
 Add Visual Studio 2022:ARM64 support to your extension by using the following steps. 
 
 - ### For Managed Visual Studio extensions:
-  1. Open the VSIX project to your solution. This project will target Visual Studio 2022 :ARM64.
+  1. Open the VSIX project to your solution. This project will target Visual Studio 2022 ARM64.
   2. Verify that the VSIX project builds properly. You might need to add references to match your original VSIX project to resolve any compiler errors.
   3. Use the package references 17.x (or earlier) in your Visual Studio 2022-targeted project file. Use the NuGet Package Manager or directly edit the project file.      
       - The [Microsoft.VisualStudio.Sdk](https://www.nuget.org/packages/Microsoft.VisualStudio.Sdk/) (17.x versions) metapackage brings in most or all of the reference assemblies that you'll need.
       - The [Microsoft.VSSDK.BuildTools](https://www.nuget.org/packages/Microsoft.VSSDK.BuildTools/) (17.x versions) package should be referenced from your VSIX project so it can build a Visual Studio 2022-compliant VSIX.
-  4. Consider changing your project from building for **Any CPU** to targeting **ARM64**.
+  4. Verify that the project targets **Any CPU** for targeting **ARM64** as well. If you only want to target **ARM64**, change you project to build **ARM64** instead of **Any CPU**.
   5. Edit your *source.extension.vsixmanifest* file to reflect targeting Visual Studio 2022. Set the `<InstallationTarget>` tag to indicate Visual Studio 2022. Set the `ProductArchitecture` element to indicate an ARM64 payload.
      ```xml
       <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
@@ -57,11 +57,11 @@ Add Visual Studio 2022:ARM64 support to your extension by using the following st
          <ProductArchitecture>arm64</ProductArchitecture>
       </InstallationTarget>
       ```    
-      
-    >  A managed Visual Studio extension paylaod can target both Installations arm64 and amd64 when building for AnyCPU.
+    > [!NOTE]  
+    >  A managed Visual Studio extension payload can target both Installations arm64 and amd64 when building for AnyCPU.
 
 - ### For C++ Visual Studio extensions:
-  1. Open the VSIX project to your solution. This project will target Visual Studio 2022 :ARM64.
+  1. Open the VSIX project to your solution. This project will target Visual Studio 2022 ARM64.
   2. Verify that the VSIX project builds properly. You might need to add references to match your original VSIX project to resolve any compiler errors.
   3. Change your project from building for targeting **ARM64**. 
   4. Update dependency - Any dependency that your extension might have on a native module will have to be updated to an ARM64 image.
@@ -72,7 +72,8 @@ Add Visual Studio 2022:ARM64 support to your extension by using the following st
       </InstallationTarget>
       ```
 
-    >  A Single C++ Visual Studio extension payload can not target both Installations arm64 and amd64.
+    > [!NOTE]
+    >  A single C++ Visual Studio extension payload can't target both Installations arm64 and amd64.
 
 At this point, you have a Visual Studio 2022-targeted extension VSIX. You should build your Visual Studio 2022-targeted VSIX project.
 
@@ -87,9 +88,31 @@ At this point, you have a Visual Studio 2022-targeted extension VSIX. You should
 
    1. Add ARM64 configuration to your project (.csproj).
       
-      ![Screenshot that shows adding arm64 configurations.](samples/add-arm64-configs.png)   
+      ```xml
+      <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|arm64' ">
+         <DebugSymbols>true</DebugSymbols>
+         <DebugType>full</DebugType>
+         <Optimize>false</Optimize>
+         <OutputPath>bin\Debug\</OutputPath>
+         <DefineConstants>DEBUG;TRACE</DefineConstants>
+         <ErrorReport>prompt</ErrorReport>
+         <WarningLevel>4</WarningLevel>
+         <PlatformTarget>ARM64</PlatformTarget>
+         <RuntimeIdentifier>win-arm64</RuntimeIdentifier>
+      </PropertyGroup>
+      <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|arm64' ">
+         <DebugType>pdbonly</DebugType>
+         <Optimize>true</Optimize>
+         <OutputPath>bin\Release\</OutputPath>
+         <DefineConstants>TRACE</DefineConstants>
+         <ErrorReport>prompt</ErrorReport>
+         <WarningLevel>4</WarningLevel>
+         <PlatformTarget>arm64</PlatformTarget>
+         <RuntimeIdentifier>win-arm64</RuntimeIdentifier>
+      </PropertyGroup>
+      ```   
       
-   2. Add ARM64 configuration to your project (.csproj).
+   2. Select ARM64 target (.csproj).
       
       ![Screenshot that shows building arm64 project.](samples/build-arm64-project.png)   
     
