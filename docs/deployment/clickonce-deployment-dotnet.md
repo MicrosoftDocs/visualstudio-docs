@@ -13,11 +13,11 @@ monikerRange: '>= vs-2019'
 ms.workload:
   - "multiple"
 ---
-# ClickOnce for .NET 5/6
+# ClickOnce for .NET 5+
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-This article describes the differences between ClickOnce for .NET 5+ versus and ClickOnce for .NET Framework.
+This article describes the differences between ClickOnce for .NET 5+ versus ClickOnce for .NET Framework.
 
 ## Publish tool
 
@@ -25,7 +25,7 @@ Starting in Visual Studio 2019, ClickOnce for .NET 5+ uses the Publish tool inst
 
 ## MSBUILD
 
-For building from the command line using MSBUILD, you need to specify the *.pubxml* file. For more information, see [](../deployment/building-clickonce-applications-from-the-command-line.md#build-net-clickonce-applications-from-the-command-line).
+For building from the command line using MSBUILD, you need to specify the *.pubxml* file. For more information, see [Build .NET ClickOnce applications from the command line](../deployment/building-clickonce-applications-from-the-command-line.md#build-net-clickonce-applications-from-the-command-line).
 
 ## ApplicationDeployment class
 
@@ -33,7 +33,7 @@ In .NET 5+, you don't have programmatic access to the <xref:System.Deployment.Ap
 
 ## Mage.exe
 
-In .NET 5+, use *dotnetmage.exe* instead of *Mage.exe* to create the ClickOnce deployment.
+In .NET 5+, use *dotnetmage.exe* instead of [Mage.exe](../deployment/clickonce-security-and-deployment.md#clickonce-tools) to create the ClickOnce deployment.
 
 ## URL rewrites
 
@@ -41,8 +41,14 @@ URL rewrites are not currently supported in ClickOnce for .NET 5+.
 
 ## Unsupported Publish properties on .NET 5+
 
-Enable ClickOnce Security Settings (Security setting)
-TargetZone (Security setting)
-UpdateMode > Background 
-UpdateInterval
-UpdateIntervalUnits
+For more information about these properties, see [Publish properties](../deployment/building-clickonce-applications-from-the-command-line.md#publish-properties).
+Security settings
+
+- Enable ClickOnce Security Settings
+- TargetZone
+
+Update settings
+
+- UpdateMode > Background 
+- UpdateInterval
+- UpdateIntervalUnits
