@@ -385,8 +385,7 @@ The following example shows a project file that compiles a C# application and lo
 ### Code
 
 ```xml
-<Project DefaultTargets = "Compile"
-    >
+<Project DefaultTargets = "Compile">
 
     <!-- Set the application name as a property -->
     <PropertyGroup>
@@ -398,7 +397,7 @@ The following example shows a project file that compiles a C# application and lo
         <CSFile Include = "*.cs"/>
     </ItemGroup>
 
-    <Target Name = "Compile">
+    <Target Name="Compile">
         <!-- Run the C# compilation using input files of type CSFile -->
         <CSC
             Sources = "@(CSFile)"
@@ -422,7 +421,7 @@ The following example shows a project file that compiles a Visual Basic applicat
 ### Code
 
 ```xml
-<Project DefaultTargets = "Compile"
+<Project DefaultTargets = "Compile">
     >
 
     <!-- Set the application name as a property -->
