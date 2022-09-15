@@ -4,7 +4,7 @@ description: Learn about some of the windows, menus, and other UI features of th
 ms.custom: vs-acquisition
 titleSuffix: ''
 ms.date: 09/13/2022
-ms.topic: tutorial
+ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
@@ -18,7 +18,7 @@ f1_keywords:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), we'll take a tour of some of the windows, menus, and other UI features.
+In this introduction to the Visual Studio integrated development environment (IDE), we'll take a tour of some of the windows, menus, and other UI features.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
