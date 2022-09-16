@@ -17,7 +17,7 @@ This article describes performance insights for excessive induced garbage collec
 
 ## Cause
 
-It's rarely justified to induce GCs because the garbage collector manages its own schedule. The only rare cases are mostly from framework but even that should be very rare. If you are seeing too many induced GCs, it's something to investigate, especially if you're worried about your GC time or if you are surprised by the fact there are induced GCs.
+It's rarely justified inducing GCs because the garbage collector manages its own schedule. The only rare cases are mostly from the framework, but even that should be very rare. If you're seeing too many induced GCs, it's something to investigate, especially if you're worried about your GC time or if you're surprised by the fact there are induced GCs.
 
 ## Rule description
 
