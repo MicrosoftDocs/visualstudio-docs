@@ -42,6 +42,7 @@ URL rewrites are not currently supported in ClickOnce for .NET 5+.
 ## Unsupported Publish properties on .NET 5+
 
 For more information about these properties, see [Publish properties](../deployment/building-clickonce-applications-from-the-command-line.md#publish-properties).
+
 Security settings
 
 - Enable ClickOnce Security Settings
