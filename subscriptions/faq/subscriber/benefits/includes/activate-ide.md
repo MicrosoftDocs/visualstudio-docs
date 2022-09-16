@@ -4,7 +4,7 @@ description: Learn how to download, install, and activate the Visual Studio IDE 
 ms.topic: include
 ms.assetid: 33324c7c-a45e-4125-b146-5e76649601da
 author: evanwindom
-ms.author: v-evwin
+ms.author: v-evanwindom
 ms.date: 04/01/2021
 ms.faqid: q3_4
 ---
