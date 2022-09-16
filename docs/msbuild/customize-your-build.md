@@ -192,9 +192,9 @@ If you need different behaviors depending on the .NET language (C#, Visual Basic
 
 ## Handle generated files
 
-In any given build, files that get generated during the build behave differently from static files (such as source files). For this reason, it's important to understand [How MSBuild Builds Projects](build-process-overview.md). The two phases are [Evaluation phase](build-process-overview.md#evaluation-phase) and [Execution phase](build-process-overview.md#execution-phase). During Evaluation, MSBuild reads your project, imports everything, creates properties, expands globs for items, and sets up the build process. During Execution, MSBuild performs the build by running targets and tasks with the data it parsed during Evaluation.
+In any given build, files that get generated during the build behave differently from static files (such as source files). For this reason, it's important to understand [How MSBuild Builds Projects](build-process-overview.md). The two phases are the [evaluation phase](build-process-overview.md#evaluation-phase) and the [execution phase](build-process-overview.md#execution-phase). During the evaluation phase, MSBuild reads your project, imports everything, creates properties, expands globs for items, and sets up the build process. During the execution phase, MSBuild performs the build by running targets and tasks with the data it parsed during the evaluation phase.
 
-Files generated during execution don't exist during evaluation, therefore they aren't included in the build process. To solve this problem, you must manually add the generated files into the build process. The recommended way to do this is by adding the new file to the `Content` or `None` items before the `BeforeBuild` target, as in the following example:
+Files generated during execution don't exist during the evaluation phase, therefore they aren't included in the build process. To solve this problem, you must manually add the generated files into the build process. The recommended way to do this is by adding the new file to the `Content` or `None` items before the `BeforeBuild` target, as in the following example:
 
 ```xml
 <Target Name="MyTarget" BeforeTargets="BeforeBuild">
