@@ -21,8 +21,8 @@ The [large object heap (LOH)](/dotnet/standard/garbage-collection/large-object-h
 
 ## Rule description
 
-The [.NET Garbage Collector (GC)](/dotnet/standard/garbage-collection/) puts large objects in a specific region of memory known as the [large object heap (LOH)](https://docs.microsoft.com/dotnet/standard/garbage-collection/large-object-heap). Because the LOH is not compacted, sometimes the LOH can be the source of fragmentation.
+The [.NET Garbage Collector (GC)](/dotnet/standard/garbage-collection/) puts large objects in a specific region of memory known as the [large object heap (LOH)](/dotnet/standard/garbage-collection/large-object-heap). Because the LOH is not compacted, sometimes the LOH can be the source of fragmentation.
 
 ## How to investigate a warning
 
-Clicking on the "investigate" link will take you to the [Allocation](../profiling/dotnet-alloc-tool.md#allocation) view showing allocations grouped by heap type. Objects under the Large Object Heap node are contributing to the frequent GCs, consider reducing these allocations through reuse or pooling techniques.
+Click the **Investigate** link to go to the [Allocation](../profiling/dotnet-alloc-tool.md#allocation) view showing allocations grouped by heap type. Objects under the Large Object Heap node are contributing to the frequent GCs. Consider reducing these allocations through reuse or pooling techniques.

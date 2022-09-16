@@ -17,7 +17,7 @@ This article describes performance insights for excessive induced garbage collec
 
 ## Cause
 
-It's rarely justified to induce GCs as GC manages its own schedule. The only rare cases are mostly from framework but even that should be very rare. If you are seeing too many induced GCs it's something to investigate especially if you are worried about your GC time or if you are surprised by the fact there are induced GCs.
+It's rarely justified to induce GCs as the garbage collector manages its own schedule. The only rare cases are mostly from framework but even that should be very rare. If you are seeing too many induced GCs it's something to investigate especially if you are worried about your GC time or if you are surprised by the fact there are induced GCs.
 
 ## Rule description
 
@@ -27,4 +27,4 @@ When an application frequently forces GC collections, it might impact performanc
 
 ## How to investigate a warning
 
-Look for (GC.Collect Method (System) | Microsoft Docs) and check if they are really needed.
+Look for <xref:System.GC.Collect%2A> and check whether the method calls are really needed.
