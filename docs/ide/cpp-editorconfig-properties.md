@@ -4,7 +4,7 @@ titleSuffix: ""
 description: "Learn about how to use EditorConfig to format C++ code in Visual Studio."
 ms.date: 9/14/2020
 author: jureid
-ms.author: jureid
+ms.author: ghogen 
 manager: jmartens
 ms.technology: vs-ide-general
 dev_langs:

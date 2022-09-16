@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "dotnet, counters, profiling"
 author: MikeJo5000
 ms.author: mikejo
-manager: jmartens
+manager: AndSter
 ms.workload:
   - "multiple"
 ---
