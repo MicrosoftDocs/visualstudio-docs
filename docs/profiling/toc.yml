@@ -33,9 +33,11 @@
   - name: Events Viewer
     href: events-viewer.md
   - name: CPU Usage
+    href: cpu-usage.md
+  - name: CPU Insights
     items:
-    - name: CPU usage
-      href: cpu-usage.md
+    - name: CPU Insights  
+      href: cpu-insights.md
     - name: Performance insights
       items:
       - name: String concatenation
