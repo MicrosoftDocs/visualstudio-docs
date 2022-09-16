@@ -126,11 +126,11 @@ For .NET Core 3.1, or later, projects these settings are provided in the pubxml 
  Publishing properties are controlled in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] from the **Publish**, **Security**, and **Signing** property pages of the **Project Designer**. Below is a description of the publishing properties, along with an indication of how each is set in the various property pages of the application designer:
 
 > [!NOTE]
-> For .NET Windows desktop projects, these settings are now found in the Publish Wizard
+> For .NET Windows desktop projects, these settings are now found in the Publish tool.
 
 - `AssemblyOriginatorKeyFile` determines the key file used to sign your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifests. This same key may also be used to assign a strong name to your assemblies. This property is set on the **Signing** page of the **Project Designer**.
 
-For .NET windows applications, this setting remains in the project file
+For .NET windows applications, this setting remains in the project file.
 
   The following properties are set on the **Security** page:
 

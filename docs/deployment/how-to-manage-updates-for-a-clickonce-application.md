@@ -46,6 +46,8 @@ ms.workload:
 
 2. Click the **Publish** tab.
 
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
+
 3. Click the **Updates** button to open the **Application Updates** dialog box.
 
 4. In the **Application Updates** dialog box, make sure that the **The application should check for updates** check box is selected.

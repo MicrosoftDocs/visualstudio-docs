@@ -37,6 +37,8 @@ The `Publish language` property can be set in the **Publish Options** dialog box
 
 2. Click the **Publish** tab.
 
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
+
 3. Click the **Options** button to open the **Publish Options** dialog box.
 
 4. Click **Description**.
