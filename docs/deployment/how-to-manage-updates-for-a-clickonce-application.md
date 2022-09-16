@@ -68,6 +68,8 @@ ms.workload:
 
 6. In the **Specify how frequently the application should check for updates** section, select either **Check every time the application runs** (the default) or **Check every** and enter a number and time interval.
 
+[!INCLUDE[ndptecclick](../deployment/includes/dotnet-unsupported-task.md)]
+
 ### To specify a minimum required version for the application
 
 1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.

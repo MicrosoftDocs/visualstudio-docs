@@ -1,5 +1,5 @@
 ---
-title: ClickOnce for .NET 5+
+title: ClickOnce for .NET 5+ on Windows
 description: "Learn about differences between ClickOnce for .NET 5+ versus ClickOnce for .NET Framework."
 ms.date: 09/14/2022
 ms.topic: how-to
@@ -13,7 +13,7 @@ monikerRange: '>= vs-2019'
 ms.workload:
   - "multiple"
 ---
-# ClickOnce for .NET 5+
+# ClickOnce for .NET 5+ on Windows
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

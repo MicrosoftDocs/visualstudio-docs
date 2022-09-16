@@ -66,6 +66,8 @@ ms.workload:
 
  The deployment manifest describes how the application is deployed. This includes the location of the application manifest, and the version of the application that clients should run.
 
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-dotnetmage-exe.md)]
+
 ### Deploy ClickOnce applications
  After it is created, the deployment manifest is copied to the deployment location. This can be a Web server, network file share, or legacy media such as a CD. The application manifest and all the application files are also copied to a deployment location that is specified in the deployment manifest. This can be the same as the deployment location, or it can be a different location. When using the **Publish Wizard** in Visual Studio, the copy operations are performed automatically.
 
