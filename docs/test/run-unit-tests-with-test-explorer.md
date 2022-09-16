@@ -344,9 +344,7 @@ You can determine the amount of product code that is actually being tested by yo
 
 To run code coverage for test methods in a solution:
 
-
 * Right-click in Test Explorer and select **Analyze Code Coverage for Selected tests**
-
 
 The **Code Coverage Results** window displays the percentage of the blocks of product code that were exercised by line, function, class, namespace and module.
 

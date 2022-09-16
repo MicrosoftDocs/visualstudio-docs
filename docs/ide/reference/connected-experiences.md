@@ -29,7 +29,6 @@ You can also use your organization’s [firewall settings](../../install/install
 
 Finally, the Visual Studio Marketplace offers extensions that may enable first- or third-party connected experiences. Visual Studio Marketplace is subject to the [Visual Studio Marketplace Terms of Use](https://cdn.vsassets.io/v/M146_20190123.39/_content/Microsoft-Visual-Studio-Marketplace-Terms-of-Use.pdf) and the [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement). Each extension requires agreement to particular terms of use and privacy statement associated with that offering.  
 
-
 ## Required service data ##
 
 Required service data can include information related to the operation of the connected experience that is needed to keep the underlying service secure, up to date, and performing as expected. If you choose to use a connected experience that analyzes your content, for example IntelliCode, the code you selected for your model is also sent and processed to provide you the connected experience. Required service data can also include information needed by a connected experience to perform its task, such updating a NuGet package. You can manage required service data by choosing whether or not to use a particular service. If you do not use a service, then no required service data is collected. 

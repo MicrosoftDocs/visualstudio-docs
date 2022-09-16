@@ -52,6 +52,8 @@ The following pages describe the structure of the XML files used to represent Cl
 
  Provides links to reference documentation of the public classes that support ClickOnce within managed code.
 
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
+
  [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
 
  Provides walkthroughs and how-to's that perform ClickOnce tasks.

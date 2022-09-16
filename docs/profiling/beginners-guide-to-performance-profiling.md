@@ -120,7 +120,6 @@ We recommend that you begin analyzing your data by examining the list of functio
 
     ![Diagnostics Tools Call Tree](../profiling/media/vs-2019/diag-tools-call-tree.png "DiagToolsCallTree")
 
-
     |Image|Description|
     |-|-|
     |![Step 1](../profiling/media/ProcGuid_1.png "ProcGuid_1")|The top-level node in CPU Usage call trees is a pseudo-node|

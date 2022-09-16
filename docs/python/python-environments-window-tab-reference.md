@@ -116,7 +116,6 @@ It may be possible to download the appropriate *get-pip.py* for a package from [
 
 The recommendation, however, is to simply upgrade to a recent version of Python, in which case the warning does not appear.
 
-
 ## See also
 
 - [Manage Python environments in Visual Studio](managing-python-environments-in-visual-studio.md)

@@ -19,10 +19,8 @@ ms.workload:
 
 In this 10-minute introduction to the code editor in Visual Studio, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding Visual Basic code easier.
 
-
 > [!TIP]
 > If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
-
 
 This article assumes you're already familiar with Visual Basic. If you aren't, we suggest you look at a tutorial such as [Create a simple Visual Basic (VB) console app](tutorial-console.md) first.
 
@@ -32,7 +30,6 @@ This article assumes you're already familiar with Visual Basic. If you aren't, w
 ## Create a new code file
 
 Start by creating a new file and adding some code to it.
-
 
 ::: moniker range="vs-2019"
 

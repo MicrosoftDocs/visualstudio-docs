@@ -34,7 +34,7 @@ For an introduction to unit testing that takes you directly into coding, see one
 
 - [Write unit tests for C/C++ in Visual Studio](../test/writing-unit-tests-for-c-cpp.md)
 
-## The MyBank solution example
+## The Bank solution example
 
 In this article, we use the development of a fictional application called `MyBank` as an example. You don't need the actual code to follow the explanations in this topic. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code. However, the concepts are easily transferred to other languages and frameworks.
 
@@ -47,11 +47,11 @@ In this article, we use the development of a fictional application called `MyBan
 
 Our first attempt at a design for the `MyBank` application includes an accounts component that represents an individual account and its transactions with the bank, and a database component that represents the functionality to aggregate and manage the individual accounts.
 
-We create a `MyBank` solution that contains two projects:
+We create a `Bank` solution that contains two projects:
 
 - `Accounts`
 
-- `BankDb`
+- `BankDB`
 
 Our first attempt at designing the `Accounts` project contains a class to hold basic information about an account, an interface that specifies the common functionality of any type of account, like depositing and withdrawing assets from the account, and a class derived from the interface that represents a checking account. We begin the Accounts projects by creating the following source files:
 
@@ -123,17 +123,15 @@ For C#, it is often quicker to generate the unit test project and unit test stub
 
 ### Create the unit test project and unit tests manually
 
-A unit test project usually mirrors the structure of a single code project. In the MyBank example, you add two unit test projects named `AccountsTests` and `BankDbTests` to the `MyBanks` solution. The test project names are arbitrary, but adopting a standard naming convention is a good idea.
+A unit test project usually mirrors the structure of a single code project. In the MyBank example, you add two unit test projects named `AccountsTests` and `BankDbTests` to the `Bank` solution. The test project names are arbitrary, but adopting a standard naming convention is a good idea.
 
 **To add a unit test project to a solution:**
 
 1. In **Solution Explorer**, right-click on the solution and choose **Add** > **New** **Project**.
 
-
 2. Type **test** in the project template search box to find a unit test project template for the test framework that you want to use. (In the examples in this topic, we use MSTest.)
 
 3. On the next page, name the project. To test the `Accounts` project of our example, you could name the project `AccountsTests`.
-
 
 4. In your unit test project, add a reference to the code project under test, in our example to the Accounts project.
 
@@ -249,15 +247,11 @@ The **Test Explorer** toolbar helps you discover, organize, and run the tests th
 
 You can choose **Run All** to run all your tests (or press **Ctrl** + **R**, **V**), or choose **Run** to choose a subset of tests to run (**Ctrl** + **R**, **T**). Select a test to view the details of that test in the test details pane. Choose **Open Test** from the right-click menu (Keyboard: **F12**) to display the source code for the selected test.
 
-
 If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution in the settings menu of the toolbar. This can noticeably reduce the time taken to run all the tests.
-
 
 ### Run tests after every build
 
-
 To run your unit tests after each local build, open the settings icon in the Test Explorer toolbar and select **Run Tests After Build**.
-
 
 ### Filter and group the test list
 

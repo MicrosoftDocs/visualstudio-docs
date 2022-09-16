@@ -23,7 +23,6 @@ If you choose an **Analyze Code Coverage** command on the **Test** menu, and if 
 
 ![Code coverage results with coloring](../test/media/vs-2019/codecoverage1.png)
 
-
 For more information, see [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
 ## Possible reasons for seeing no results or old results

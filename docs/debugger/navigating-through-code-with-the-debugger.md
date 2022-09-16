@@ -21,7 +21,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The Visual Studio debugger can help you navigate through code to inspect the state of an app and show its execution flow. You can use keyboard shortcuts, debug commands, breakpoints, and other features to quickly get to the code you want to examine. If you're familiar with debugger navigation commands and shortcuts, you can find and resolve app problems faster and more easily.
+The Visual Studio debugger can help you navigate through code to inspect the state of an app and show its execution flow, which is also known as *code stepping*. You can use keyboard shortcuts, debug commands, breakpoints, and other features to quickly get to the code you want to examine. If you're familiar with debugger navigation commands and shortcuts, you can find and resolve app problems faster and more easily.
 
 > [!NOTE]
 > If you're new to debugging code, you might want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before you read this article.
@@ -140,7 +140,6 @@ You can set the debugger to run until it reaches a specified function. You can s
 
    ::: moniker-end
 
-
 1. Select **OK**.
 
 If the function is overloaded or in more than one namespace, you can choose the one you want in the **Breakpoints** window:
@@ -213,7 +212,6 @@ When the debugger is paused, a yellow arrow in the margin of the source code or 
  ![Animation that shows how to move the pointer.](../debugger/media/vs-2022/dbg-basics-example3.gif)
 
  ::: moniker-end
-
 
 If you want to change the next statement that will run, the debugger must be in break mode. In the source code or **Disassembly** window, drag the yellow arrow to a different line, or right-click the line you want to run next and select **Set Next Statement**.
 

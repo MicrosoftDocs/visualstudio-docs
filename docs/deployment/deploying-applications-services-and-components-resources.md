@@ -56,7 +56,6 @@ From within Visual Studio, applications can be published directly to the followi
 - [Web server(IIS)](#web-server-iis)
 - [Import profile](#import-profile)
 
-
 The preceding options appear as shown in the following illustration when you create a new publish profile.
 
 ::: moniker range=">=vs-2022"
@@ -65,7 +64,6 @@ The preceding options appear as shown in the following illustration when you cre
 ::: moniker range="vs-2019"
 ![Screenshot of Choose a publishing option.](../deployment/media/quickstart-publish-dialog.png)
 ::: moniker-end
-
 
 For a quick tour of more general application deployment options, see [First look at deployment](../deployment/deploying-applications-services-and-components.md).
 
@@ -125,7 +123,7 @@ For more information:
 
 ### Azure Virtual Machine
 
-[Azure Virtual Machines (VMs)](https://azure.microsoft.com/documentation/services/virtual-machines/) lets you create and manage any number of computing resources in the cloud. By assuming responsibility for all software and updates on the VMs, you can customize them as much as desired as required by your application. You can access the virtual machines directly through Remote Desktop, and each one will maintain its assigned IP address as long as desired.
+[Azure Virtual Machines (VMs)](/azure/virtual-machines/) lets you create and manage any number of computing resources in the cloud. By assuming responsibility for all software and updates on the VMs, you can customize them as much as desired as required by your application. You can access the virtual machines directly through Remote Desktop, and each one will maintain its assigned IP address as long as desired.
 
 Scaling an application that's hosted on virtual machines involves spinning up additional VMs according to demand and then deploying the necessary software. This additional level of control lets you scale differently in different global regions. For example, if your application is serving employees in a variety of regional offices, you can scale your VMs according to the number of employees in those regions, potentially reducing costs.
 
@@ -177,7 +175,6 @@ If for any reason (such as machine access) you are not able to use cloud service
 For more information, see [Quickstart - Deploy to a local folder](quickstart-deploy-aspnet-web-app.md).
 
 For more information on deploying a .NET Windows Application using ClickOnce, see [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md).
-
 
 For additional help to choose your settings, see the following:
 

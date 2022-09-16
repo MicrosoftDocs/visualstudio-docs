@@ -25,7 +25,6 @@ ms.technology: vs-installation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-
 ::: moniker range="vs-2019"
 
 Welcome to Visual Studio 2019! In this version, it's easy to choose and install just the features you need. And because of its reduced minimum footprint, it installs quickly and with less system impact.
@@ -40,7 +39,6 @@ Welcome to Visual Studio 2022! In this version, it's easy to choose and install 
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Install Visual Studio for Mac](/visualstudio/mac/installation/).
-
 
 ::: moniker range="vs-2019"
 
@@ -59,7 +57,6 @@ Ready to install? We'll walk you through it, step-by-step.
 ## Step 1 - Make sure your computer is ready for Visual Studio
 
 Before you begin installing Visual Studio:
-
 
 ::: moniker range="vs-2019"
 
@@ -85,7 +82,6 @@ Before you begin installing Visual Studio:
 
 ::: moniker-end
 
-
 ::: moniker range="vs-2019"
 
 For questions about running previous versions of Visual Studio side by side with Visual Studio 2019, see [Visual Studio 2019 Platform Targeting and Compatibility](/visualstudio/releases/2019/compatibility/).
@@ -101,7 +97,6 @@ You can install Visual Studio 2022 side by side with previous versions. For more
 ## Step 2 - Download Visual Studio
 
 Next, download the Visual Studio bootstrapper file.
-
 
 ::: moniker range="vs-2019"
 
@@ -151,7 +146,6 @@ Run the bootstrapper file to install the Visual Studio Installer. This new light
 
 After the installer is installed, you can use it to customize your installation by selecting the feature sets—or workloads—that you want. Here's how.
 
-
 ::: moniker range="vs-2019"
 
 1. Find the workload you want in the **Visual Studio Installer**.
@@ -187,7 +181,6 @@ After the installer is installed, you can use it to customize your installation 
 
 If you don't want to use the Workloads feature to customize your Visual Studio installation, or you want to add more components than a workload installs, you can do so by installing or adding individual components from the **Individual components** tab. Choose what you want, and then follow the prompts.
 
-
 ::: moniker range="vs-2019"
 
   ![Screenshot showing the Individual components tab of the Visual Studio Installer.](media/vs-2019/vs-installer-individual-components.png "Install Visual Studio individual components")
@@ -203,7 +196,6 @@ If you don't want to use the Workloads feature to customize your Visual Studio i
 ## Step 6 - Install language packs (optional)
 
 By default, the installer program tries to match the language of the operating system when it runs for the first time. To install Visual Studio in a language of your choosing, choose the **Language packs** tab from the Visual Studio Installer, and then follow the prompts.
-
 
 ::: moniker range="vs-2019"
 
@@ -233,7 +225,6 @@ Another way that you can change the default language is by running the installer
 
 ## Step 7 - Select the installation location (optional)
 
-
 ::: moniker range="vs-2019"
 
 You can reduce the installation footprint of Visual Studio on your system drive. You can choose to move the download cache, shared components, SDKs, and tools to different drives, and keep Visual Studio on the drive that runs it the fastest.
@@ -256,7 +247,6 @@ You can reduce the installation footprint of Visual Studio on your system drive.
 > If you've installed Visual Studio on your computer before, you won't be able to change the **Shared components, tools, and SDKs** path and it will appear greyed out. This location is shared by all installations of Visual Studio.
 
 ## Step 8 - Start developing
-
 
 ::: moniker range="vs-2019"
 

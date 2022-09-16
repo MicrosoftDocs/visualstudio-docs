@@ -17,7 +17,6 @@ ms.workload:
 
 The Data Science and Analytical Applications workload, which you select and install through the Visual Studio installer, brings together several languages and their respective runtime distributions:
 
-
 ::: moniker range="vs-2019"
 - [Python](../python/overview-of-python-tools-for-visual-studio.md)
 - [F# with the .NET framework](/dotnet/fsharp/)
@@ -38,7 +37,6 @@ By default, the workload installs the following options, which you can modify in
 - Python:
   - Python language support
   - Python web support
-
 
 
 ## SQL Server integration

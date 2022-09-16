@@ -37,13 +37,11 @@ The solution is just a container for one or more projects. To create a blank sol
 
 1. Type **solution** into the template search box, and then select the **Blank Solution** template. Name the project **UtilityLibraries**.
 
-
 1. Finish creating the solution.
 
 Now that you've created the solution, you'll create a class library named StringLibrary that contains a number of extension methods for working with strings.
 
 1. In **Solution Explorer**, right-click on the UtilityLibraries solution and select **Add** > **New Project**.
-
 
 2. Type **class library** into the template search box, and the select the **Class Library (.NET Standard)** template. Click **Next**.
 
@@ -53,7 +51,6 @@ Now that you've created the solution, you'll create a class library named String
 3. Name the project **StringLibrary**.
 
 4. Click **Create** to create the project.
-
 
 5. Replace all of the existing code in the code editor with the following code:
 
@@ -109,7 +106,6 @@ The next step is to create the unit test project to test the StringLibrary libra
 
 1. In **Solution Explorer**, right-click on the UtilityLibraries solution and select **Add** > **New Project**.
 
-
 2. Type **unit test** into the template search box, select **C#** as the language, and then select the **Unit Test Project** for .NET Core template. Click **Next**.
 
    > [!NOTE]
@@ -121,7 +117,6 @@ The next step is to create the unit test project to test the StringLibrary libra
 
    > [!NOTE]
    > This getting started tutorial uses Live Unit Testing with the MSTest test framework. You can also use the xUnit and NUnit test frameworks.
-
 
 5. The unit test project can't automatically access the class library that it is testing. You give the test library access by adding a reference to the class library project. To do this, right-click on the `StringLibraryTests` project and select **Add** > **Reference**. In the **Reference Manager** dialog, make sure the **Solution** tab is selected, and select the StringLibrary project, as shown in the following illustration.
 

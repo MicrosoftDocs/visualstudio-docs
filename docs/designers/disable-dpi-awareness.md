@@ -31,15 +31,12 @@ If you aren't working in the designer and don't need to adjust the layout of you
 
 When you open a form in the **Windows Forms Designer** on an HDPI monitor, Visual Studio displays an informational bar.
 
-
 :::image type="content" source="media/scaling-gold-bar-message-1.png" alt-text="Screenshot of the informational bar in Visual Studio to restart in DPI-unaware mode.":::
-
 
 
 
 > [!TIP]
 > If you've closed the informational bar at the top of the designer, but you still want to replicate the behavior of the link that says **Restart Visual Studio with 100% scaling**, you still can. Select **Tools** > **Command Line** > **Developer Command Prompt** from the Visual Studio menu bar. Then, enter `devenv /noScale`.
-
 
 ## Resolve HDPI display problems
 

@@ -48,7 +48,6 @@ Use this option to customize how often a file is automatically saved in the edit
 
 ::: moniker-end
 
-
 **Keep AutoRecover information for [n] days**
 
 Use this option to specify how long Visual Studio keeps files created for autorecovery.

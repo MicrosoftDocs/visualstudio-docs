@@ -141,7 +141,6 @@ The *.natvis* files are evaluated in the following order:
 
 ::: moniker-end
 
-
 5. The system-wide Natvis directory (*\<VS Installation Folder\>\Common7\Packages\Debugger\Visualizers*). This directory has the *.natvis* files that are installed with Visual Studio. If you have administrator permissions, you can add files to this directory.
 
 ## Modify .natvis files while debugging

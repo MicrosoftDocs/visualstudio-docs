@@ -2,7 +2,7 @@
 
 Thank you for taking the time to contribute to the Visual Studio docs.
 
-This guide covers some general topics around contributing and refers out to the docs.microsoft.com [contributors guide](https://docs.microsoft.com/contribute) for more detailed explanations.
+This guide covers some general topics around contributing and refers to the [Microsoft Docs contributors guide](https://docs.microsoft.com/contribute) for more detailed explanations.
 
 ## Code of conduct
 

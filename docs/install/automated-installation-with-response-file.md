@@ -52,7 +52,6 @@ When Visual Studio setup is run from a layout folder, the setup will _automatica
 
 The base `response.json` file in a layout should look similar to the following example, except that it would include the value for the product and channel that you want to install:
 
-
 ::: moniker range="=vs-2019"
 
 ```Default response.json
@@ -94,7 +93,6 @@ The base `response.json` file in a layout should look similar to the following e
 When you create or update a layout, a response.template.json file is also created.  This file contains all of the workload, component, and language IDs that can be used.  This file is provided as a template for what all could be included in a custom install. Administrators can use this file as a starting point for a custom response file. Just remove the IDs for the things you do not want to install and save it in the `response.json` file or your own response file. Do not customize the response.template.json file or your changes will be lost whenever the layout is updated.
 
 ## Example customized layout response file content
-
 
 ::: moniker range="=vs-2019"
 

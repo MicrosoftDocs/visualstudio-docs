@@ -47,13 +47,14 @@ The *query string* is the portion of a URL beginning with a question mark (?) th
 
 1. Place the following code in your project. In order for this code to function, you will have to have a reference to System.Web and add `using` or `Imports` directives for System.Web, System.Collections.Specialized, and System.Deployment.Application.
 
+    [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
+
     ### [C#](#tab/csharp)
     :::code language="csharp" source="../snippets/csharp/VS_Snippets_Winforms/ClickOnceQueryString/CS/Form1.cs" id="Snippet1":::
 
     ### [VB](#tab/vb)
     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_Winforms/ClickOnceQueryString/VB/Form1.vb" id="Snippet1":::
     ---
-
 
 2. Call the function defined previously to retrieve a <xref:System.Collections.DictionaryBase.Dictionary%2A> of the query string parameters, indexed by name.
 

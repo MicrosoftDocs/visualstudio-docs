@@ -17,7 +17,6 @@ Using Visual Studio settings, you can control some aspects of how Visual Studio 
 
 From the main menu, choose **Tools > Options**, and expand **Container Tools > Settings**. The container tools settings appear.
 
-
 Container Tools **General** settings:
 
 ![Visual Studio Container Tools options, showing: Install Docker Desktop if needed, and Trust ASP.NET Core SSL certificate.](./media/configure-container-tools/tools-options-1.png)
@@ -26,9 +25,7 @@ Container Tools **Single Project** and **Docker Compose** settings:
 
 ![Visual Studio Container Tools options, showing: Kill containers on project close, Pull required Docker images on project open, and Run containers on project open.](./media/configure-container-tools/tools-options-2.png)
 
-
 The following table might help you decide how to set these options.
-
 
 The following table describes **General** settings:
 
@@ -51,7 +48,6 @@ The **Containers Tool Window** settings control the settings that apply to the *
 ![Visual Studio Container Tools Options, showing the settings available for the Containers tool window](media/configure-container-tools/tools-options-3.png)
 
 The following table describes the **Containers** window settings:
-
 
 | Name | Default Setting | Description |
 | -----|:---------------:| ----------- |
