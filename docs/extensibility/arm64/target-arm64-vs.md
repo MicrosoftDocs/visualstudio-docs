@@ -47,7 +47,7 @@ Add Visual Studio 2022:ARM64 support to your extension by using the following st
   3. Use the package references 17.x (or earlier) in your Visual Studio 2022-targeted project file. Use the NuGet Package Manager or directly edit the project file.      
       - The [Microsoft.VisualStudio.Sdk](https://www.nuget.org/packages/Microsoft.VisualStudio.Sdk/) (17.x versions) metapackage brings in most or all of the reference assemblies that you'll need.
       - The [Microsoft.VSSDK.BuildTools](https://www.nuget.org/packages/Microsoft.VSSDK.BuildTools/) (17.x versions) package should be referenced from your VSIX project so it can build a Visual Studio 2022-compliant VSIX.
-  4. Verify that the project targets **Any CPU** for targeting **ARM64** as well. If you only want to target **ARM64**, change you project to build **ARM64** instead of **Any CPU**.
+  4. If your project is already built against **Any CPU**, then you do not need to edit the build configuration as it will build for **ARM64** as well. However, if you want to target only **ARM64**, then change your project to build **ARM64** instead of **Any CPU**.
   5. Edit your *source.extension.vsixmanifest* file to reflect targeting Visual Studio 2022. Set the `<InstallationTarget>` tag to indicate Visual Studio 2022. Set the `ProductArchitecture` element to indicate an ARM64 payload.
      ```xml
       <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
