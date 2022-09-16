@@ -422,7 +422,6 @@ The following example shows a project file that compiles a Visual Basic applicat
 
 ```xml
 <Project DefaultTargets = "Compile">
-    >
 
     <!-- Set the application name as a property -->
     <PropertyGroup>
