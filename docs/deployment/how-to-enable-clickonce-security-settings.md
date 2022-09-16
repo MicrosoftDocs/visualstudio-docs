@@ -29,7 +29,7 @@ Code access security for ClickOnce applications must be enabled in order to publ
 
  ClickOnce security settings can be enabled or disabled on the **Security** page of the **Project Designer**.
 
- [!INCLUDE[ndptecclick](../deployment/includes/dotnet-unsupported-task.md)]
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-task-unsupported.md)]
 
 ### To enable ClickOnce security settings
 

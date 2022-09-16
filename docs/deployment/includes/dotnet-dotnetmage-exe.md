@@ -9,4 +9,4 @@ ms.topic: include
 ---
 
 > [!NOTE]
-> In ClickOnce for .NET 5+, use *dotnetmage.exe* instead of *Mage.exe*. For more information, see [ClickOnce for .NET 5+](../../deployment/clickonce-deployment-dotenet.md).
+> In ClickOnce for .NET 5+, use *dotnetmage.exe* instead of *Mage.exe*. For more information, see [ClickOnce for .NET 5+](../../deployment/clickonce-deployment-dotnet.md).
