@@ -10,4 +10,6 @@ Before creating your pull request, please check your content against these quali
 - Should this page be linked to from other pages or Microsoft web sites?
 
 For more information about creating content for docs.microsoft.com, see the contributor guide at https://docs.microsoft.com/contribute/.
+
+When your PR is complete, add the text #sign-off to submit the PR for review.
 -->
