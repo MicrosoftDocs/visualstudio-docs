@@ -6,8 +6,8 @@ ms.date: 4/30/2020
 ms.topic: how-to
 helpviewer_keywords: 
   - Profiler, Events Viewer
-author: Sagar-S-S
-ms.author: sashe
+author: MikeJo5000
+ms.author: mikejo 
 manager: AndSter
 ms.workload: 
   - multiple
