@@ -52,7 +52,7 @@ Just-In-Time debugging may still be enabled even if Visual Studio is no longer i
 
 1. From the Windows **Start** menu, run the **Registry Editor** (*regedit.exe*).
 
-2. In the **Registry Editor** window for 64-bit computers, locate and delete the following registry entries:
+2. In the **Registry Editor** window, locate and delete the following registry entries if they exist:
 
     - **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\DbgManagedDebugger**
 
@@ -60,7 +60,7 @@ Just-In-Time debugging may still be enabled even if Visual Studio is no longer i
 
     :::image type="content" source="../debugger/media/dbg-jit-registry.png" alt-text="JIT registry key" border="true":::
 
-3. If the following registry entries are present, or your computer is running a 32-bit operating system, delete the following entries:
+3. Also delete the following registry entries if they exist:
 
     - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\DbgManagedDebugger**
 
