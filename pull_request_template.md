@@ -11,5 +11,5 @@ Before creating your pull request, please check your content against these quali
 
 For more information about creating content for docs.microsoft.com, see the contributor guide at https://docs.microsoft.com/contribute/.
 
-When your PR is complete, add the text #sign-off to submit the PR for review.
+When your PR is ready for review, add a comment with the text #sign-off to the Conversation tab.
 -->
