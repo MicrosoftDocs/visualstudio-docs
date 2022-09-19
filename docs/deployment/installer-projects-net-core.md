@@ -20,7 +20,7 @@ ms.workload:
 
 Packaging applications as an MSI is often accomplished using the Visual Studio Installer Projects Extension.
 
-This article applies to apps targeting .NET Core 3.1, .NET 5, and .NET 6.
+This article applies to apps targeting .NET 3.1, .NET 5, and .NET 6.
 
 You can download the extension here:
 
@@ -49,9 +49,9 @@ To learn more about these deployment strategies, see [.NET Core application publ
 
    For more information, see [Setup and Deployment projects](/previous-versions/visualstudio/visual-studio-2010/wx3b589t(v=vs.100)).
 
-### Workflow changes for .NET Core 3.1 and later versions
+### Workflow changes for .NET 3.1 and later versions
 
-1. Select **Publish Items** instead of **Primary Output** to get the correct output for .NET Core 3.1, .NET 5.0, or .NET 6.0 projects.  To bring up this dialog, select **Add** > **Project Output...** from the project's context menu.
+1. Select **Publish Items** instead of **Primary Output** to get the correct output for .NET 3.1, .NET 5.0, or .NET 6.0 projects.  To bring up this dialog, select **Add** > **Project Output...** from the project's context menu.
 
     ![The Publish Items output group in the Add Project Output Group dialog](../deployment/media/installer-projects-net-core-publish-items-output.png "Pick Publish Items")
 
@@ -64,7 +64,7 @@ To learn more about these deployment strategies, see [.NET Core application publ
 
 ### Prerequisites
 
-If you would like your installer to be able to install the necessary runtime for a framework-dependent .NET Core 3.1, .NET 5.0, or .NET 6.0 app, you can do this using [prerequisites](../deployment/application-deployment-prerequisites.md).  From the properties dialog of your installer project, open the **Prerequisites...** dialog and you'll see the following entries:
+If you would like your installer to be able to install the necessary runtime for a framework-dependent .NET 3.1, .NET 5.0, or .NET 6.0 app, you can do this using [prerequisites](../deployment/application-deployment-prerequisites.md).  From the properties dialog of your installer project, open the **Prerequisites...** dialog and you'll see the following entries:
 
 ![.NET Core items in the Prerequisites dialog](../deployment/media/installer-projects-net-core-prerequisites.png ".NET Core Prerequisites")
 
