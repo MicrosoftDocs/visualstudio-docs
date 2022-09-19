@@ -6,7 +6,7 @@ manager: jmartens
 ms.technology: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
-ms.date: 08/17/2020
+ms.date: 09/16/2022
 ms.author: angelpe
 monikerRange: ">= vs-2019"
 ---
@@ -82,6 +82,10 @@ The connected service functionality adds all the needed references and connectio
 1. The connection appears under the **Service Dependencies** section of the **Connected Services** tab.
 
    ![Service dependencies](./media/azure-sql-database-add-connected-service/service-dependencies-after.png)
+
+## Entity Framework migrations
+
+It might be convenient to work with a local data store during early development, but when you're ready to move to the cloud, you can use Visual Studio's support for Entity Framework migration to move your database, or merge changes with a remote data store.
 
 ## See also
 
