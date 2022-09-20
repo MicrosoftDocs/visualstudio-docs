@@ -36,6 +36,8 @@ When you create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 > [!NOTE]
 > In this walkthrough you create deployments manually by using either the command-line tool *Mage.exe* or the graphical tool *MageUI.exe*. For more information about manual deployments, see [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).
 
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-dotnetmage-exe.md)]
+
 ## Prerequisites
  To perform the steps in this walkthrough you need the following:
 
