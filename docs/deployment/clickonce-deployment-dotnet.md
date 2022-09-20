@@ -21,7 +21,7 @@ This article describes the differences between ClickOnce for .NET Core 3.1, .NET
 
 ## Publish tool
 
-Starting in Visual Studio 2019, ClickOnce for .NET Core 3.1 and .NET 5 or later uses the Publish tool instead of the Publish Wizard and properties pages. The Publish tool creates a *.pubxml* file. Most of the properties previously available in the wizard are available to configure in the Publish tool. For detailed instructions, see [Deploy a .NET Windows application using ClickOnce](../deployment/quickstart-deploy-using-clickonce-folder.md).
+Starting in Visual Studio 2019, ClickOnce for .NET Core 3.1 and .NET 5 or later uses the Publish tool instead of the Publish Wizard and properties pages. The Publish tool creates a *.pubxml* file, called a *publish profile*. Most of the properties previously available in the wizard are available to configure in the Publish tool. For detailed instructions, see [Deploy a .NET Windows application using ClickOnce](../deployment/quickstart-deploy-using-clickonce-folder.md).
 
 ## MSBUILD
 
@@ -35,17 +35,15 @@ In .NET Core 3.1 and .NET 5 and later, you don't have programmatic access to the
 
 In .NET Core 3.1 and .NET 5 and later, use *dotnetmage.exe* instead of [Mage.exe](../deployment/clickonce-security-and-deployment.md#clickonce-tools) to create the ClickOnce deployment.
 
-## Unsupported Publish properties on .NET 5+
-
-For more information about these properties, see [Publish properties](../deployment/building-clickonce-applications-from-the-command-line.md#publish-properties).
+## Unsupported Publish properties on .NET Core 3.1 and .NET 5 and later
 
 Security settings
 
-- Enable ClickOnce Security Settings
-- TargetZone
+- [Enable ClickOnce Security Settings](../deployment/code-access-security-for-clickonce-applications) (Code access security)
+- [TargetZone](../deployment/securing-clickonce-applications.md#zones)
 
 Update settings
 
-- UpdateMode > Background 
-- UpdateInterval
-- UpdateIntervalUnits
+- [UpdateInterval](../deployment/choosing-a-clickonce-update-strategy.md#specify-update-intervals)
+- [UpdateIntervalUnits](../deployment/choosing-a-clickonce-update-strategy.md#specify-update-intervals)
+- [UpdateMode > Background](../deployment/building-clickonce-applications-from-the-command-line.md#publish-properties)

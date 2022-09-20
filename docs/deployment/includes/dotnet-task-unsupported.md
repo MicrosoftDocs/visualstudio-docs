@@ -1,7 +1,7 @@
 ---
-title: Visual Studio .NET ClickOnce Publish tool
+title: Visual Studio .NET ClickOnce task support
 author: mikejo5000
-description: Learn about using the Publish tool for .NET Core 3.1, .NET 5 and later ClickOnce applications
+description: Learn about unsupported tasks in ClickOnce for .NET 3.1 and .NET 5 and later
 ms.author: mikejo
 ms.date: 09/14/2022
 ms.technology: vs-ide-deployment
