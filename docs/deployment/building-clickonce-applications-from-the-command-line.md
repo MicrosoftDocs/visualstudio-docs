@@ -126,7 +126,7 @@ For .NET projects (.NET Core 3.1, .NET 5, and later), these settings are provide
  Publishing properties are controlled in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] from the **Publish**, **Security**, and **Signing** property pages of the **Project Designer**. Below is a description of the publishing properties, along with an indication of how each is set in the various property pages of the application designer:
 
 > [!NOTE]
-> For .NET Windows desktop projects, these settings are now found in the Publish tool.
+> For .NET projects, these settings are now found in the Publish tool.
 
 - `AssemblyOriginatorKeyFile` determines the key file used to sign your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifests. This same key may also be used to assign a strong name to your assemblies. This property is set on the **Signing** page of the **Project Designer**.
 
@@ -138,8 +138,8 @@ For .NET windows applications, this setting remains in the project file.
 
 - **TargetZone** determines the level of trust to be emitted into your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. Possible values are "Internet", "LocalIntranet", and "Custom". Internet and LocalIntranet will cause a default permission set to be emitted into your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. LocalIntranet is the default, and it basically means full trust. Custom specifies that only the permissions explicitly specified in the base *app.manifest* file are to be emitted into the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. The *app.manifest* file is a partial manifest file that contains just the trust information definitions. It is a hidden file, automatically added to your project when you configure permissions on the **Security** page.
 
-> [!NOTTE]
-> For .NET projects (.NET Core 3.1, .NET 5, and later), these Security settings are not supported.
+> [!NOTE]
+> For .NET projects, these Security settings are not supported.
 
   The following properties are set on the **Publish** page:
 
@@ -165,11 +165,11 @@ For .NET windows applications, this setting remains in the project file.
 
 - `UpdateInterval` specifies how frequently the application should check for updates.
 
-   For .NET projects (.NET Core 3.1, .NET 5, and later), this setting is not supported.
+   For .NET projects, this setting is not supported.
 
 - `UpdateIntervalUnits` specifies whether the `UpdateInterval` value is in units of hours, days, or weeks.
 
-   For .NET projects (.NET Core 3.1, .NET 5, and later), this setting is not supported.
+   For .NET projects, this setting is not supported.
 
 - `UpdateUrl` (not shown) is the location from which the application will receive updates. If specified, this value is inserted into the application manifest.
 
