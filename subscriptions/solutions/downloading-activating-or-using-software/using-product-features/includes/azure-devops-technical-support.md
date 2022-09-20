@@ -18,7 +18,7 @@ Visual Studio subscriptions support provides assistance with sales, subscription
 
 ## Documentation | Azure DevOps 
 
-Review tutorials, troubleshooting guides, helpful resources, and a range of other topics within [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/?view=azure-devops&preserve-view=true).
+Review tutorials, troubleshooting guides, helpful resources, and a range of other topics within [Azure DevOps documentation](https://learn.microsoft.com/azure/devops/?view=azure-devops&preserve-view=true).
 
 ## Developer community | Azure DevOps
 

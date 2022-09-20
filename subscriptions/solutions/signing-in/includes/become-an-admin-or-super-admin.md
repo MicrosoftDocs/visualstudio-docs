@@ -16,7 +16,7 @@ sap.id: 17a2bf94-0d03-2629-dfd8-e8935f9126ec
 
 Organizations who purchase Visual Studio subscriptions through Volume Licensing use admins and super admins to manage subscriptions. Only super admins can assign administrative rights to users. To become an admin or super admin, contact a super admin in your organization.  
 
-If you have a subscription assigned to you, sign in to the [Subscriptions portal](https://my.visualstudio.com/subscriptions) and click the **Contact my Admin** button. More information is available in our [Contact my Admin](https://docs.microsoft.com/visualstudio/subscriptions/contact-my-admin) article.
+If you have a subscription assigned to you, sign in to the [Subscriptions portal](https://my.visualstudio.com/subscriptions) and click the **Contact my Admin** button. More information is available in our [Contact my Admin](https://learn.microsoft.com/visualstudio/subscriptions/contact-my-admin) article.
 
 ## How to become a super admin for Visual Studio subscriptions agreements managed by partners
 
