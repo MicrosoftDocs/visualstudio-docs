@@ -155,7 +155,7 @@ For more information, see the following:
 
 Deploying to the file system means to copy your application's files to a specific folder on your own computer. Deploying to a folder is most often used for testing purposes, or to deploy the application for use by a limited number of people if the computer is also running a server. If the target folder is shared on a network, then deploying to the file system can make the web application files available to others who might then deploy it to specific servers.
 
-Starting with Visual Studio 2019 16.8, the folder target includes the ability to publish a .Net Windows application using ClickOnce.
+Starting with Visual Studio 2019 16.8, the folder target includes the ability to publish a .NET Windows application using ClickOnce.
 
 If you wish to publish a .NET Windows desktop project (.NET Core 3.1, .NET 5, and later) with ClickOnce, see [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md).
 
