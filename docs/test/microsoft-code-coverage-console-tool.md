@@ -90,7 +90,7 @@ Microsoft.CodeCoverage.Console instrument
 
 ## Static code coverage for C++ code
 
-The Microsoft.CodeCoverage.Console tool can be used to collect code coverage for C++ using static instrumentation. There are three different methods available that you can use. To demonstrate, let's assume we have a simple C++ console application (linked with the option [/PROFILE](/cpp/build/reference/profile-performance-tools-profiler?view=msvc-170)):
+The Microsoft.CodeCoverage.Console tool can be used to collect code coverage for C++ using static instrumentation. There are three different methods available that you can use. To demonstrate, let's assume we have a simple C++ console application (linked with the option [/PROFILE](/cpp/build/reference/profile-performance-tools-profiler)):
 
 ```console
 D:\ConsoleApplication\x64\Debug> .\ConsoleApplication.exe

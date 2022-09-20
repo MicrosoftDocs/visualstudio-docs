@@ -8,12 +8,11 @@ metadata:
    description: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for any platform or device.
    ms.topic: hub-page
    ms.custom: contperf-fy21q1
-   ms.date: 11/08/2021
+   ms.date: 09/13/2022
    ms.author: jmartens
    author: j-martens
    monikerRange: ">=vs-2019"
    f1_keywords:
-     - MSDNSTART
      - vs.about
 
 highlightedContent:
