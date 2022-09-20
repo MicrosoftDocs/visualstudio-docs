@@ -222,7 +222,7 @@ You can run blame in 3 different modes:
 The XML configuration should be placed directly into `<RunSettings>` node:
 
 ```xml 
-</RunSettings>
+<RunSettings>
   <RunConfiguration>
   </RunConfiguration>
   <LoggerRunSettings>
