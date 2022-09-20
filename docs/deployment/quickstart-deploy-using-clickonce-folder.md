@@ -90,5 +90,6 @@ Also in this page, you can also set the Publish version and if the version will 
 
 For .NET apps:
 
-- [Deploy the .NET Framework and applications](/dotnet/framework/deployment/)
+- [ClickOnce for .NET on Windows](clickonce-deployment-dotnet.md)
+- [.NET application publishing overview](/dotnet/core/deploying/)
 - [ClickOnce reference](clickonce-reference.md)
