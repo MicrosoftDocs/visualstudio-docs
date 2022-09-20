@@ -37,7 +37,7 @@ Specifies the command to run when you build the project. (**Build > Build Soluti
 
 **Production Build Command**
 
-Specifies the command to run when the project is integrated with the ASP.NET Core Web API project. Generates production-ready files. By default, this command is `npm run build`.
+Specifies the command to run when you build the project, when the project is integrated with the ASP.NET Core Web API project. Generates production-ready files. By default, this command is `npm run build`.
 
 **Build Output Folder**
 
