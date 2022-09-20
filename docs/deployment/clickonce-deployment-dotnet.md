@@ -39,7 +39,7 @@ In .NET Core 3.1 and .NET 5 and later, use *dotnetmage.exe* instead of [Mage.exe
 
 Security settings
 
-- [Enable ClickOnce Security Settings](../deployment/code-access-security-for-clickonce-applications) (Code access security)
+- [Enable ClickOnce Security Settings](../deployment/code-access-security-for-clickonce-applications.md) (Code access security)
 - [TargetZone](../deployment/securing-clickonce-applications.md#zones)
 
 Update settings
