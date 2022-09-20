@@ -2,7 +2,7 @@
 
 Thank you for taking the time to contribute to the Visual Studio docs.
 
-This guide covers some general topics around contributing and refers to the [Microsoft Docs contributors guide](https://docs.microsoft.com/contribute) for more detailed explanations.
+This guide covers some general topics around contributing and refers to the [Microsoft Docs contributors guide](https://learn.microsoft.com/contribute) for more detailed explanations.
 
 ## Code of conduct
 
@@ -20,11 +20,11 @@ Please use the feedback tool at the bottom of any article to submit bugs and sug
 
 ### Quick edit in GitHub
 
-Follow the guidance for [quick edits to existing documents](https://docs.microsoft.com/contribute/#quick-edits-to-existing-documents) in the contributors guide.
+Follow the guidance for [quick edits to existing documents](https://learn.microsoft.com/contribute/#quick-edits-to-existing-documents) in the contributors guide.
 
 ### Larger edits
 
-Review the guidance for [pull requests](https://docs.microsoft.com/contribute/how-to-write-workflows-major#pull-request-processing) in the contributors guide.
+Review the guidance for [pull requests](https://learn.microsoft.com/contribute/how-to-write-workflows-major#pull-request-processing) in the contributors guide.
 
 **NOTE**
 

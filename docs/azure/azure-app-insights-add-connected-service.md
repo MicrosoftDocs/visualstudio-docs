@@ -8,7 +8,6 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 08/17/2020
 ms.author: angelpe
-monikerRange: ">= vs-2019"
 ---
 # Add Azure Application Insights by using Visual Studio Connected Services
 
