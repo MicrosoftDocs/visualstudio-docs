@@ -41,4 +41,4 @@ Changing the sign-in email can have negative impacts for your subscribers, inclu
 - Sign-in issues with Azure DevOps.
 - Issues with the monthly Azure dev/test individual credit.
 
-[Read more about how changing the sign-in email](https://docs.microsoft.com/visualstudio/subscriptions/subscription-level-changes) can impact subscriber's associated benefits.
+[Read more about how changing the sign-in email](https://learn.microsoft.com/visualstudio/subscriptions/subscription-level-changes) can impact subscriber's associated benefits.

@@ -15,7 +15,7 @@ We update the Subscription benefits package often to make it more useful to you.
 ## 2022 Q1 (January - March)
 
 ### Visual Studio 2022 released
-All Visual Studio subscriptions that include the Visual Studio IDE will now have access to Visual Studio 2022. You can read more about this latest release of Visual Studio in the [Visual Studio release notes](https://docs.microsoft.com/visualstudio/releases/2022/release-notes).
+All Visual Studio subscriptions that include the Visual Studio IDE will now have access to Visual Studio 2022. You can read more about this latest release of Visual Studio in the [Visual Studio release notes](https://learn.microsoft.com/visualstudio/releases/2022/release-notes).
 
 ### Admin access to expired agreements
 Administrators can now view information in their expired agreements.  This will enable them to more easily migrate subscribers to new agreements.  

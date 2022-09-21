@@ -22,4 +22,4 @@ If you still don't have super admin permissions after 48 hours, reach out to sup
 - Agreement number
 - Email address to be assigned
 
-If you were added as a primary contact after the agreement was set up, ask another super admin to [add you as a super admin](https://docs.microsoft.com/visualstudio/subscriptions/admin-roles#assigning-admins).
+If you were added as a primary contact after the agreement was set up, ask another super admin to [add you as a super admin](https://learn.microsoft.com/visualstudio/subscriptions/admin-roles#assigning-admins).

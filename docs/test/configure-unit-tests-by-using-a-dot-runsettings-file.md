@@ -254,7 +254,7 @@ The XML configuration should be placed directly into `<RunSettings>` node:
 ```xml
 <TestRunParameters>
     <Parameter name="webAppUrl" value="http://localhost" />
-    <Parameter name="docsUrl" value="https://docs.microsoft.com" />
+    <Parameter name="docsUrl" value="https://learn.microsoft.com" />
 </TestRunParameters>
 ```
 

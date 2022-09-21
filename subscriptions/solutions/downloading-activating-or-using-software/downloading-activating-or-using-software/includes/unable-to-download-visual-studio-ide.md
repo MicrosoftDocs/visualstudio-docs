@@ -22,7 +22,7 @@ Your subscription level identifies which level of the Visual Studio IDE you have
 1. For the latest release, locate the Visual Studio IDE tile in the Tools section and click on the Download link at the bottom of the benefit tile. 
 1. You’ll be redirected to the Download Results page for Visual Studio, where you’ll have the opportunity to download the IDE.
 1. Follow the download and set up instructions.
-1. Using the email your subscription is assigned to, you’ll be able to immediately sign in to the IDE after installation, no product key is required. [Learn how to claim a product key](https://docs.microsoft.com/visualstudio/subscriptions/find-keys) if you’re in an offline environment. 
+1. Using the email your subscription is assigned to, you’ll be able to immediately sign in to the IDE after installation, no product key is required. [Learn how to claim a product key](https://learn.microsoft.com/visualstudio/subscriptions/find-keys) if you’re in an offline environment. 
 
 ## Find an older version
 

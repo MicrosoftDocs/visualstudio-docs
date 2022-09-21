@@ -57,6 +57,8 @@ Localization is the process of making your application appropriate for a specifi
 
  To use this method in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], set the **Publish Language** property on the **Publish** tab to the desired region. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will automatically include the satellite assembly required for the region you select, and will exclude all other satellite assemblies from the deployment.
 
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
+
  You can accomplish the same thing by using the *MageUI.exe* tool in the Microsoft [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. Use the **Populate** button on the **Files** tab of your application manifest to exclude all other satellite assemblies from the application directory, and then set the **Culture** field on the **Name** tab for your deployment manifest in *MageUI.exe*. These steps not only include the correct satellite assembly, but they also set the `language` attribute on the `assemblyIdentity` element in your deployment manifest to the corresponding culture.
 
  After publishing the application, you must repeat this step for each additional culture your application supports. You must make sure that you publish to a different Web server directory or file share directory every time, because each application manifest will reference a different satellite assembly, and each deployment manifest will have a different value for the `language`attribute.

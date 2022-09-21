@@ -24,4 +24,4 @@ The monthly credit does not apply toward purchase of the following services:
 - Products sold through the [Visual Studio Marketplace](https://marketplace.visualstudio.com/)
 - Products otherwise sold separately from Azure (for example, Azure Active Directory Premium)
 
-To purchase these services, you'll need to remove your [spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit) and provide a credit card for billing.
+To purchase these services, you'll need to remove your [spending limit](https://learn.microsoft.com/azure/billing/billing-spending-limit) and provide a credit card for billing.
