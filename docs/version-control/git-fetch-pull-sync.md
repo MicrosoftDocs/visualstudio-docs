@@ -56,7 +56,7 @@ But, as previously mentioned, always pull before you push. As a safe guard, Visu
 
 ## Sync
 
-Use this operation to both pull and push simultaneously.
+Use this operation to both pull, then push, sequentially.
 
 ## Next steps
 
