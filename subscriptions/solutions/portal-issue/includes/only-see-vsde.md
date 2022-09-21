@@ -24,6 +24,6 @@ If you're not seeing all of your subscriptions, the most common causes are:
     - Go to the [Subscriptions page](https://my.visualstudio.com/subscriptions) to display a list of your subscriptions and click on the one you wish to use. 
     - Click the Subscription picker at the top-right of the [Benefits page](https://my.visualstudio.com/benefits) and choose the desired subscription. 
 
-- **Your subscription has been removed.**  If your subscription was provided to you by your work or school, your admin may have removed it. [Contact your subscriptions admin](https://docs.microsoft.com/visualstudio/subscriptions/contact-my-admin) for assistance.
+- **Your subscription has been removed.**  If your subscription was provided to you by your work or school, your admin may have removed it. [Contact your subscriptions admin](https://learn.microsoft.com/visualstudio/subscriptions/contact-my-admin) for assistance.
 
-- **Your subscription may have expired.** If you purchased your own subscription from Microsoft Store, it may have expired. In that case, you would need to renew it to regain access. Read more information about [purchasing subscriptions](https://docs.microsoft.com/visualstudio/subscriptions/buy-activate-retail). 
+- **Your subscription may have expired.** If you purchased your own subscription from Microsoft Store, it may have expired. In that case, you would need to renew it to regain access. Read more information about [purchasing subscriptions](https://learn.microsoft.com/visualstudio/subscriptions/buy-activate-retail). 

@@ -25,7 +25,7 @@ Complete these steps to move admins and subscribers to new email addresses:
 1. Sign in to the admin portal.
 0. Select **Manage administrators**.
 0. If you have more than one agreement, choose the agreement you want to change. 
-0. Add yourself using your new email address and be sure to select the **Super admin** checkbox.  Learn more about [assigning admins](https://docs.microsoft.com/visualstudio/subscriptions/admin-roles#assigning-admins).
+0. Add yourself using your new email address and be sure to select the **Super admin** checkbox.  Learn more about [assigning admins](/visualstudio/subscriptions/admin-roles#assigning-admins).
 0. Add your other admins using their new email addresses. 
 > [!IMPORTANT]
 > Do not delete your current admin email addresses until your new email addresses are active and the current ones are no longer needed.  This will ensure that your admins have uninterrupted access to the admin portal.

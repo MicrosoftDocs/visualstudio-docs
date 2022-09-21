@@ -21,7 +21,7 @@ Dev Box bridges the gap between development teams and IT, bringing control of pr
 
 ## Learn more about Dev Box
 
-Dev Box includes key capabilities specifically designed to meet the needs of DevCenter Owners, Project Admins, and Dev Box Users.  For more information about these capabilities, see [What is Microsoft Dev Box](https://review.docs.microsoft.com/en-us/azure/dev-box/overview-what-is-microsoft-dev-box?branch=pr-en-us-203750).
+Dev Box includes key capabilities specifically designed to meet the needs of DevCenter Owners, Project Admins, and Dev Box Users.  For more information about these capabilities, see [What is Microsoft Dev Box?](/azure/dev-box/overview-what-is-microsoft-dev-box)
 
 ## Use Dev Box with Azure 
 
@@ -39,5 +39,5 @@ Visual Studio subscribers now have several ways to use Azure subscriptions to pa
 ## Next steps
 
 Start using Microsoft Dev Box.
-+ [Quickstart: Configure the Microsoft Dev Box service](https://review.docs.microsoft.com/en-us/azure/dev-box/quickstart-configure-dev-box-service)
-+ [Quickstart: Create a Dev Box](https://review.docs.microsoft.com/en-us/azure/dev-box/quickstart-create-dev-box)
++ [Quickstart: Configure the Microsoft Dev Box service](/azure/dev-box/quickstart-configure-dev-box-service)
++ [Quickstart: Create a Dev Box](/azure/dev-box/quickstart-create-dev-box)

@@ -38,7 +38,7 @@ sections:
       - question: |
            Where can I view my billing and usage data?
         answer: |
-          Get information on [viewing your invoice and usage](https://docs.microsoft.com/azure/cost-management-billing/manage/download-azure-invoice-daily-usage-date).
+          Get information on [viewing your invoice and usage](https://learn.microsoft.com/azure/cost-management-billing/manage/download-azure-invoice-daily-usage-date).
           
   - name: Enterprise Agreement (EA) customers
     questions:
@@ -148,7 +148,7 @@ sections:
       - question: |
            Where can I find information about Azure invoices?
         answer: |
-          Check out the [Understand your Azure invoice](https://docs.microsoft.com/azure/cost-management-billing/understand/understand-invoice) article in the [Azure documentation](/azure/).
+          Check out the [Understand your Azure invoice](https://learn.microsoft.com/azure/cost-management-billing/understand/understand-invoice) article in the [Azure documentation](/azure/).
 
 additionalContent: |
 

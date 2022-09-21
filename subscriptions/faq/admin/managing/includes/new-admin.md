@@ -11,4 +11,4 @@ ms.date: 3/3/2020
 
 ## I'm a new administrator. Where is everything I need to know?
 
-The [administrator webpage](https://visualstudio.microsoft.com/subscriptions-administration/) has all your updates, videos and important links. Then, written guidance on being an administrator is in our [documentation](https://docs.microsoft.com/visualstudio/subscriptions/admin-responsibilities).
+The [administrator webpage](https://visualstudio.microsoft.com/subscriptions-administration/) has all your updates, videos and important links. Then, written guidance on being an administrator is in our [documentation](https://learn.microsoft.com/visualstudio/subscriptions/admin-responsibilities).

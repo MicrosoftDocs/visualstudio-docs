@@ -1,7 +1,7 @@
 ---
 title: "Debug .NET apps in Linux using WSL"
 description: Learn to run and debug your .NET apps in WSL without leaving Visual Studio.
-ms.date: "09/17/2021"
+ms.date: "09/09/2022"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugging, linux"
@@ -164,6 +164,18 @@ Going one step further, if you are working on an application that needs to run i
 With these launch profiles, you can easily switch back and forth between your target distributions, all without leaving the comfort of Visual Studio.
 
 ![Multiple WSL launch profiles in the launch profile list](media/linux-wsl2-debugging-switch-target-distribution.png)
+
+## Attach to a running WSL process
+
+In addition to debugging from app startup using F5, you can debug by attaching to a running WSL process using the attach to process feature.
+
+1. With the app running, choose **Debug** > **Attach to Process**.
+
+1. For the **Connection type**, choose **Windows Subsystem for Linux (WSL)**, and then choose the Linux distribution for the **Connection target**.
+
+1. Choose **Attach**.
+
+   ![Screenshot of WSL process in the attach to process dialog box](media/linux-wsl2-debugging-attach-to-process.png)
 
 ## WSL settings in the launch profile
 

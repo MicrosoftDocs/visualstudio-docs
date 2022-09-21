@@ -33,9 +33,11 @@
   - name: Events Viewer
     href: events-viewer.md
   - name: CPU Usage
+    href: cpu-usage.md
+  - name: CPU Insights
     items:
-    - name: CPU usage
-      href: cpu-usage.md
+    - name: CPU Insights  
+      href: cpu-insights.md
     - name: Performance insights
       items:
       - name: String concatenation
@@ -56,6 +58,10 @@
         items:
         - name: LOH allocations
           href: perf-insights-loh-allocations.md
+        - name: Excessive induced GCs
+          href: perf-insights-excessive-induced-gcs.md
+        - name: High LOH fragmentation
+          href: perf-insights-high-loh-fragmentation.md
     - name: Analyze memory usage without the debugger
       href: memory-usage-without-debugging2.md
     - name: Custom native ETW heap events
