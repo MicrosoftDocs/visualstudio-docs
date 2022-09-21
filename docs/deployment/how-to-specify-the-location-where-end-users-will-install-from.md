@@ -40,6 +40,8 @@ The `Installation URL` property can be set on the **Publish** page of the **Proj
 
 2. Click the **Publish** tab.
 
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
+
 3. In the Installation URL field, enter the installation location using a fully qualified URL using the format `https://www.contoso.com/ApplicationName`, or a UNC path using the format `\Server\ApplicationName`.
 
 ## See also

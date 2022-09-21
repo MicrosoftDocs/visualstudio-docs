@@ -42,6 +42,8 @@ There are three different strategies for deploying a [!INCLUDE[ndptecclick](../d
 
  To enable this deployment strategy in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], click **From the Web** or **From a UNC path or file share** on the **How Installed** page of the Publish Wizard.
 
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
+
  This is the default deployment strategy.
 
 ## Start the application from the Web or a network share
