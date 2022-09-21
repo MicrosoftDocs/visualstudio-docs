@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
 ms.assetid: 89844796-621B-4EF5-9D76-197084B011CB
-author: ijoosong
-ms.author: joesong
+author: TerryGLee
+ms.author: tglee
 manager: jmartens
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
