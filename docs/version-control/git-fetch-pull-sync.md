@@ -1,7 +1,7 @@
 ---
 title: git fetch, pull, push, & sync
 description: Fetch, pull, push, and sync in Visual Studio by using Git or Azure DevOps.
-ms.date: 02/02/2022
+ms.date: 09/20/2022
 ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
