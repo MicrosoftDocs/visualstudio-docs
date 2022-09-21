@@ -86,11 +86,11 @@ If you have questions about Visual Studio or need technical assistance, check th
 
 For Visual Studio IDE technical issues or questions, contact [Visual Studio technical support](https://visualstudio.microsoft.com/vs/support/). Before you use the limited Visual Studio [technical support incidents](vs-tech-support.md) that might be included with your Visual Studio subscription, we suggest trying some other online resources:
 
-+ For installation problems, see the step-by-step guidance in [Troubleshoot Visual Studio installation and upgrade issues](https://docs.microsoft.com/visualstudio/install/troubleshooting-installation-issues). 
++ For installation problems, see the step-by-step guidance in [Troubleshoot Visual Studio installation and upgrade issues](https://learn.microsoft.com/visualstudio/install/troubleshooting-installation-issues). 
 
    You can also try the [installation chat](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option.
 
-+ Review tutorials, troubleshooting guides, and helpful resources within [Visual Studio IDE documentation](https://docs.microsoft.com/visualstudio/ide/).
++ Review tutorials, troubleshooting guides, and helpful resources within [Visual Studio IDE documentation](https://learn.microsoft.com/visualstudio/ide/).
 
 + Search the online [Developer Community](https://developercommunity.visualstudio.com/), and get expert answers via a community-supported forum. 
    

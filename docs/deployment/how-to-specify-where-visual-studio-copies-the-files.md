@@ -35,6 +35,8 @@ When you publish an application by using ClickOnce, the `Publish Location` prope
 
 2. Click the **Publish** tab.
 
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
+
 3. In the **Publish Location** field, enter the publishing location by using one of the following formats:
 
    - To publish to a file share or disk path, enter the path by using either a UNC path (*\\\Server\ApplicationName*) or a file path (*C:\Deploy\ApplicationName*).

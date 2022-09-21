@@ -28,6 +28,8 @@ Application settings for Windows Forms makes it easy to create, store, and maint
 
  Application settings consumes two files: *\<app>.exe.config* and *user.config*, where *app* is the name of your Windows Forms application. *user.config* is created on the client the first time your application stores user-scoped settings. *\<app>.exe.config*, by contrast, will exist prior to deployment if you define default values for settings. Visual Studio will include this file automatically when you use its **Publish** command. If you create your ClickOnce application using *Mage.exe* or *MageUI.exe*, you must make sure this file is included with your application's other files when you populate your application manifest.
 
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-dotnetmage-exe.md)]
+
  In a Windows Forms application not deployed using ClickOnce, an application's *\<app>.exe.config* file is stored in the application directory, while the *user.config* file is stored in the user's **Documents and Settings** folder. In a ClickOnce application, *\<app>.exe.config* lives in the application directory inside of the ClickOnce application cache, and *user.config* lives in the ClickOnce data directory for that application.
 
  Regardless of how you deploy your application, application settings ensures safe read access to *\<app>.exe.config*, and safe read/write access to *user.config*.

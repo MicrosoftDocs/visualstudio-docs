@@ -32,6 +32,8 @@ After you make changes to deployment properties in the application manifest for 
 ## Re-sign the Application and Deployment Manifests
  This procedure assumes that you have already made changes to your application manifest file (*.manifest*). For more information, see [How to: Change deployment properties](/previous-versions/cc442869(v=vs.110)).
 
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-dotnetmage-exe.md)]
+
 #### To re-sign the application and deployment manifests with Mage.exe
 
 1. Open a **Visual Studio Command Prompt** window.
