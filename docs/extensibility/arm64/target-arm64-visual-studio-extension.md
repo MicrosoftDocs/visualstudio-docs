@@ -126,4 +126,7 @@ At this point, you have a Visual Studio 2022-targeted extension VSIX. You should
       
       Required lib files can be found at : `[VSInstallatioPath]\VSSDK\VisualStudioIntegration\common\lib\arm64`
       
-      ![Screenshot that shows adding arm64 lib path](samples/add-arm64-lib.png)   
+      ![Screenshot that shows adding arm64 lib path](samples/add-arm64-library.png)   
+
+## See also
+- [Update a Visual Studio extension for Visual Studio 2022](../../extensibility/migration/update-visual-studio-extension.md)
