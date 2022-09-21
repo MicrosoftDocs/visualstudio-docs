@@ -50,6 +50,8 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 
 2. Click the **Publish** tab.
 
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
+
 3. Click the **Application Files** button to open the **Application Files** dialog box.
 
 4. In the **Application Files** dialog box, select the file that you wish to exclude.

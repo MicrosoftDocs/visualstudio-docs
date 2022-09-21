@@ -91,7 +91,7 @@ Once you have the publish profile created, you can provide the pubxml file as a 
 
 ## Publish properties
 
- When you publish the application in the above procedures, the following properties are inserted into your project file by the Publish Wizard or in the publish profile file for .NET Core 3.1, or later projects. These properties directly influence how the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is produced.
+ When you publish the application in the above procedures, the following properties are inserted into your project file by the Publish Wizard or in the publish profile file for .NET projects (.NET Core 3.1, .NET 5, and later). These properties directly influence how the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is produced.
 
  In *CmdLineDemo.vbproj* / *CmdLineDemo.csproj*:
 
@@ -121,16 +121,16 @@ Once you have the publish profile created, you can provide the pubxml file as a 
 msbuild /target:publish /property:BootstrapperEnabled=false
  ```
 
-For .NET Core 3.1, or later, projects these settings are provided in the pubxml file.
+For .NET projects (.NET Core 3.1, .NET 5, and later), these settings are provided in the pubxml file.
 
  Publishing properties are controlled in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] from the **Publish**, **Security**, and **Signing** property pages of the **Project Designer**. Below is a description of the publishing properties, along with an indication of how each is set in the various property pages of the application designer:
 
 > [!NOTE]
-> For .NET Windows desktop projects, these settings are now found in the Publish Wizard
+> For .NET projects, these settings are now found in the Publish tool.
 
 - `AssemblyOriginatorKeyFile` determines the key file used to sign your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifests. This same key may also be used to assign a strong name to your assemblies. This property is set on the **Signing** page of the **Project Designer**.
 
-For .NET windows applications, this setting remains in the project file
+For .NET windows applications, this setting remains in the project file.
 
   The following properties are set on the **Security** page:
 
@@ -139,7 +139,7 @@ For .NET windows applications, this setting remains in the project file
 - **TargetZone** determines the level of trust to be emitted into your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. Possible values are "Internet", "LocalIntranet", and "Custom". Internet and LocalIntranet will cause a default permission set to be emitted into your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. LocalIntranet is the default, and it basically means full trust. Custom specifies that only the permissions explicitly specified in the base *app.manifest* file are to be emitted into the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. The *app.manifest* file is a partial manifest file that contains just the trust information definitions. It is a hidden file, automatically added to your project when you configure permissions on the **Security** page.
 
 > [!NOTE]
-> For .NET Core 3.1, or later, Windows desktop projects, these Security settings are not supported.
+> For .NET projects, these Security settings are not supported.
 
   The following properties are set on the **Publish** page:
 
@@ -161,15 +161,15 @@ For .NET windows applications, this setting remains in the project file
 
 - `UpdateMode` specifies either Foreground updates or Background updates.
 
-   For .NET Core 3.1, or later, projects, Background is not supported.  
+   For .NET projects (.NET Core 3.1, .NET 5, and later), Background is not supported.  
 
 - `UpdateInterval` specifies how frequently the application should check for updates.
 
-   For .NET Core 3.1, or later, this setting is not supported.
+   For .NET projects, this setting is not supported.
 
 - `UpdateIntervalUnits` specifies whether the `UpdateInterval` value is in units of hours, days, or weeks.
 
-   For .NET Core 3.1, or later, this setting is not supported.
+   For .NET projects, this setting is not supported.
 
 - `UpdateUrl` (not shown) is the location from which the application will receive updates. If specified, this value is inserted into the application manifest.
 

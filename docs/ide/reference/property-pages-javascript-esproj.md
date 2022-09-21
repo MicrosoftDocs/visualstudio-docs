@@ -1,7 +1,7 @@
 ---
 title: "Project Settings for React, Angular, and Vue projects | Microsoft Docs"
 description: Understand how to change the project settings for a JavaScript project (.esproj) that uses React, Angular, or Vue in Visual Studio, using the Debug tab and Build tab of the project property pages.
-ms.date: "07/26/2022"
+ms.date: "09/20/2022"
 ms.topic: "reference"
 dev_langs:
   - "JavaScript"
@@ -34,6 +34,14 @@ Under the General tab, the following properties are available.
 **Build Command**
 
 Specifies the command to run when you build the project. (**Build > Build Solution**, or when you run the project.) If used, this is typically an npm command.
+
+**Production Build Command**
+
+Specifies the command to run when you build the project, when the project is integrated with the ASP.NET Core Web API project. Generates production-ready files. By default, this command is `npm run build`.
+
+**Build Output Folder**
+
+Specifies the output folder for production build objects when the **Production Build Command** is used.
 
 **Clean Command**
 

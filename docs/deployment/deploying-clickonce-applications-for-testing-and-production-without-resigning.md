@@ -44,6 +44,8 @@ This article describes a feature of ClickOnce introduced in the .NET Framework v
 
  In order to take advantage of this feature, developers of ClickOnce applications must exclude `deploymentProvider` from their deployment manifests. This requirement means that you must exclude the `-providerUrl` argument when you create deployment manifests with Mage.exe. Or, if you are generating deployment manifests with MageUI.exe, you must make sure that the **Launch Location** text box on the **Application Manifest** tab is left blank.
 
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-dotnetmage-exe.md)]
+
 ## deploymentProvider and application updates
  Starting with the .NET Framework 3.5, you no longer have to specify a `deploymentProvider` in your deployment manifest in order to deploy a ClickOnce application for both online and offline usage. This change supports the scenario where you need to package and sign the deployment yourself, but allow other companies to deploy the application over their networks.
 
