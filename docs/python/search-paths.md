@@ -3,8 +3,8 @@ title: How Python search paths are applied
 description: Visual Studio provides a more specific means to specify search paths for environments and projects to avoid using system-wide variables.
 ms.date: 01/18/2022
 ms.topic: how-to
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: ijoosong
+ms.author: joesong
 manager: jmartens
 ms.technology: vs-python
 
