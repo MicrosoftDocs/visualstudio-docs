@@ -28,7 +28,7 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
 
 ## Use MSBuild to reproduce .NET Framework ClickOnce application deployments
 
- When you invoke msbuild /target:publish at the command line, it tells the MSBuild system to build the project and create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application in the publish folder. This is equivalent to selecting the **Publish** command in the IDE.
+ When you invoke msbuild /target:publish at the command line, it tells the MSBuild system to build the project and create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application in the publish folder. This command is equivalent to selecting the **Publish** command in the IDE.
 
  This command executes *msbuild.exe*, which is on the path in the Visual Studio command-prompt environment.
 
@@ -145,9 +145,9 @@ For .NET windows applications, this setting remains in the project file.
 
 - `PublishUrl` is the location where the application will be published to in the IDE. It is inserted into the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest if neither the `InstallUrl` or `UpdateUrl` property is specified.
 
-- `ApplicationVersion` specifies the version of the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. This is a four-digit version number. If the last digit is a "*", then the `ApplicationRevision` is substituted for the value inserted into the manifest at build time.
+- `ApplicationVersion` specifies the version of the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. The version is a four-digit number. If the last digit is a "*", then the `ApplicationRevision` is substituted for the value inserted into the manifest at build time.
 
-- `ApplicationRevision` specifies the revision. This is an integer which increments each time you publish in the IDE. Notice that it is not automatically incremented for builds performed at the command-line.
+- `ApplicationRevision` specifies the revision. This value is an integer which increments each time you publish in the IDE. Notice that it is not automatically incremented for builds performed at the command-line.
 
 - `Install` determines whether the application is an installed application or a run-from-Web application.
 
