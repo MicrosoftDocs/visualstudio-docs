@@ -2,7 +2,7 @@
 title: "First look at the debugger"
 description: "Get started debugging applications using the Visual Studio debugger"
 ms.topic: conceptual
-ms.date: 09/23/2021
+ms.date: 09/22/2022
 helpviewer_keywords:
   - "debugger"
 author: mikejo5000
@@ -261,7 +261,9 @@ Starting in Visual Studio 2022, the **Debug** tab for .NET projects provides a l
 
 ## Debug live ASP.NET apps in Azure App Service
 
-the **Snapshot Debugger** takes a snapshot of your in-production apps when code that you are interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
+To debug in Azure App Service, see [Debug Azure apps](../debugger/debug-azure-apps.md).
+
+For Visual Studio Enterprise (only), the **Snapshot Debugger** takes a snapshot of your in-production apps when code that you are interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
 
 ::: moniker range="<= vs-2019"
 ![Launch the snapshot debugger](../debugger/media/snapshot-launch.png "Launch the snapshot debugger")
