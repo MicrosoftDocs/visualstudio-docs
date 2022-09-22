@@ -45,7 +45,7 @@ For more information, see the [Visual Studio Servicing Policy](/visualstudio/pro
 
 Each image contains the recommended feature set for that Visual Studio edition. Generally, the installation includes:
 
-* All available workloads, including each workload’s recommended optional components
+* All available workloads, including each workload’s recommended optional components. [Learn more about workloads, components, and SDKs included Visual Studio](workload-and-component-ids.md).
 * .NET 4.6.2, .NET 4.7, and .NET 4.8 SDKs, Targeting Packs, and Developer Tools
 * Visual F#
 * GitHub Extension for Visual Studio
