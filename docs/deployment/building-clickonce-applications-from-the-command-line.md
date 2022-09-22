@@ -81,7 +81,7 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
 
 ## Build .NET ClickOnce applications from the command line
 
-Building .NET ClickOnce applications from the command line is a similar experience except, you need to provide an additional property for the publish profile on the MSBuild command line. The easiest way to create a publish profile is by using Visual Studio.  See [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md) for more information.
+For .NET Core 3.1 and .NET 5 and later, building .NET ClickOnce applications from the command line is a similar experience except, you need to provide an additional property for the publish profile on the MSBuild command line. The easiest way to create a publish profile is by using Visual Studio.  See [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md) for more information.
 
 Once you have the publish profile created, you can provide the pubxml file as a property on the msbuild command line. For example:
 
