@@ -95,11 +95,6 @@ The Python developer community has produced thousands of useful packages that yo
 
 1. After the package is installed, it appears in the **Python Environments** window. The **X** to the right of the package uninstalls it.
 
-1. Enter `matplotlib` into the search field to install `matplotlib`.
-
-1. Select the **Run command: pip install matplotlib** option.
-      This option installs `matplotlib`, and any packages it depends on (in this case, that includes `numpy`).
-
    :::moniker range="vs-2022"
     ![Installing matplotlib in the environment-2022 in Packages tab](media/environments/environments-add-matplotlib-2022.png)
    :::moniker-end
