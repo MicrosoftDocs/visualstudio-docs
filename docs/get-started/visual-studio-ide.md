@@ -25,7 +25,7 @@ ms.workload:
 
 Explore Visual Studio further by following along with one of these introductory articles:
 
-- Cover the basics in this Learn module: [Introduction to Visual Studio](/learn/modules/visual-studio-intro/).
+- Cover the basics in this Learn module: [Introduction to Visual Studio](/training/modules/visual-studio-intro/).
 
 - Get acquainted with the code editor in [Learn to use the code editor](tutorial-editor.md).
 

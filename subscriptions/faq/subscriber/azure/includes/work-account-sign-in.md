@@ -11,4 +11,4 @@ ms.faqid: q5_5
 
 ## Can I use my work account to sign in?
 
-You must activate the credits using the email associated with your Visual Studio subscription, or your alternate account (for more information on using alternate identities, check out our [Alternate identities](https://docs.microsoft.com/visualstudio/subscriptions/vs-alternate-identity) article).
+You must activate the credits using the email associated with your Visual Studio subscription, or your alternate account (for more information on using alternate identities, check out our [Alternate identities](https://learn.microsoft.com/visualstudio/subscriptions/vs-alternate-identity) article).

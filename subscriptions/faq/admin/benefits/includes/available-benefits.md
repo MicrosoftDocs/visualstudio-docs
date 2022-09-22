@@ -11,4 +11,4 @@ ms.date: 11/10/2020
 
 ## What benefits and software are available to my subscribers after a Visual Studio subscription has been assigned?
 
-The [Visual Studio Subscription benefits](https://visualstudio.microsoft.com/vs/benefits/) page allows you to see and compare the full list of benefits and [software downloads](https://docs.microsoft.com/visualstudio/subscriptions/software-download-list) included with a Visual Studio Subscription, based on subscription level.
+The [Visual Studio Subscription benefits](https://visualstudio.microsoft.com/vs/benefits/) page allows you to see and compare the full list of benefits and [software downloads](https://learn.microsoft.com/visualstudio/subscriptions/software-download-list) included with a Visual Studio Subscription, based on subscription level.

@@ -9,5 +9,7 @@ Before creating your pull request, please check your content against these quali
 - Are technical terms and concepts introduced and explained, and are acronyms spelled out on first mention?
 - Should this page be linked to from other pages or Microsoft web sites?
 
-For more information about creating content for docs.microsoft.com, see the contributor guide at https://docs.microsoft.com/contribute/.
+For more information about creating content for Microsoft Learn, see the [contributor guide](https://learn.microsoft.com/contribute/).
+
+When your PR is ready for review, add a comment with the text #sign-off to the Conversation tab.
 -->
