@@ -5,7 +5,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jmartens
 ms.technology: vs-ide-general
-ms.date: 09/19/2022
+ms.date: 09/23/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - editor
@@ -324,7 +324,7 @@ Here's a list of editor and productivity features to make writing code more effi
 | Completion/Suggestion Mode | Changes the completion behavior in [IntelliSense](using-intellisense.md). Developers with IntelliJ backgrounds tend to use a non-default setting here. | **Edit** > **IntelliSense** > **Toggle Completion Mode** (or press **Ctrl**+**Alt**+**Space** in the editor) |
 | [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) | Displays code reference information and change history in the editor. (Source control CodeLens indicators aren't available in Visual Studio Community edition.) | **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens** |
 | [Code snippets](../ide/visual-csharp-code-snippets.md) | Help stub out common boilerplate code | Type a snippet name and press **Tab** twice. |
-| Paste JSON as classes | Copy any JSON fragment to the clipboard and paste it as strongly typed .NET classes into any C# code file. | **Edit** > **Paste Special** > **Paste JSON As Classes** |
+| [Paste JSON or XML as classes](reference/paste-json-xml.md) | Copy any JSON or XML text fragment to the clipboard and paste it as strongly typed .NET classes into any C# code file. | **Edit** > **Paste Special** > **Paste JSON As Classes** (or **Paste XML As Classes**) |
 
 ## See also
 
