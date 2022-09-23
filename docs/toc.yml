@@ -979,6 +979,8 @@
       href: ide/reference/go-to-line.md
     - name: Immediate window
       href: ide/reference/immediate-window.md
+    - name: Paste JSON or XML as classes
+      href: ide/reference/paste-json-xml.md
     - name: Miscellaneous files
       href: ide/reference/miscellaneous-files.md
     - name: Options
