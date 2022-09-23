@@ -14,15 +14,15 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In Visual Studio, you can copy text from JSON or XML files and then paste the text as classes in your C# or Visual Basic code. To do so, select **Edit** > **Paste Special** and choose either **Paste JSON As Classes** or **Paste XML As Classes**.
+In Visual Studio, you can copy text from JSON or XML files and then paste the text as classes in your [C#](/dotnet/csharp/) or [Visual Basic](/dotnet/visual-basic/) code. To do so, select **Edit** > **Paste Special** and choose either **Paste JSON As Classes** or **Paste XML As Classes**.
 
-:::image type="content" source="media/paste-json-xml-class-sml.png" alt-text="Screenshot of the Paste Special option from the Edit menu in Visual Studio" lightbox="media/paste-json-xml-class-lrg.png":::
+:::image type="content" source="media/paste-json-xml-class-sml.png" alt-text="Screenshot of the Paste Special option from the Edit menu in Visual Studio." lightbox="media/paste-json-xml-class-lrg.png":::
 
 **JSON** (**J**ava**S**cript **O**bject **N**otation) and **XML** (e**X**tensible **M**arkup **L**anguage) are similar in that they're both used to store and transport data. JSON, however, is less verbose and can use arrays.
 
 ## Examples
 
-Before you use either the **Paste JSON As Classes** command or the **Paste XML As Classes** command in Visual Studio, create a placeholder for your text. For a C# app, you can use an empty namespace declaration to do so, as shown in the following screenshot:
+Before you use either the **Paste JSON As Classes** command or the **Paste XML As Classes** command in Visual Studio, create a placeholder for your text. For a [C#](/dotnet/csharp/) app, you can use an empty [namespace](/dotnet/csharp/language-reference/keywords/namespace) declaration to do so, as shown in the following screenshot:
 
 :::image type="content" source="media/paste-class-placeholder.png" alt-text="Screenshot of an empty namespace declaration in Visual Studio that's used as a placeholder to paste in JSON or XML text.":::
 
