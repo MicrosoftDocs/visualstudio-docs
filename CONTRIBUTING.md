@@ -1,8 +1,8 @@
 # Contribute to Visual Studio documentation
 
-Thank you for taking the time to contribute to the Visual Studio docs.
+Thank you for taking the time to contribute to the Visual Studio documentation.
 
-This guide covers some general topics around contributing and refers to the [Microsoft Docs contributors guide](https://learn.microsoft.com/contribute) for more detailed explanations.
+This guide covers some general topics around contributing and refers to the [Microsoft Docs contributor guide](https://learn.microsoft.com/contribute) for more detailed explanations.
 
 ## Code of conduct
 
