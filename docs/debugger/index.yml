@@ -12,7 +12,7 @@ metadata:
   author: mikejo5000
   ms.author: mikejo
   manager: jmartens
-  ms.date: 09/20/2019
+  ms.date: 09/26/2022
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -21,6 +21,19 @@ landingContent:
 # Start card title with a verb
   # Card (optional)
   - title: Get started
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Learn to debug C#
+            url: ../get-started/csharp/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
+          - text: Learn to debug C++
+            url: getting-started-with-the-debugger-cpp.md
+          - text: Learn to debug Visual Basic
+            url: ../get-started/visual-basic/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
+          - text: Run Python code in the debugger >>
+            url: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
+
+  - title: Fundamentals
     linkLists:
       - linkListType: overview
         links:
@@ -44,19 +57,6 @@ landingContent:
         links:
           - text: Debugging for absolute beginners
             url: debugging-absolute-beginners.md
-
-  - title: Tutorials
-    linkLists:
-      - linkListType: tutorial
-        links:
-          - text: Learn to debug C#
-            url: ../get-started/csharp/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
-          - text: Learn to debug C++
-            url: getting-started-with-the-debugger-cpp.md
-          - text: Learn to debug Visual Basic
-            url: ../get-started/visual-basic/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
-          - text: Run Python code in the debugger >>
-            url: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
 
     # Card
   - title: Go deeper with the debugger
