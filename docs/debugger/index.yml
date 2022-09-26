@@ -32,6 +32,8 @@ landingContent:
             url: ../get-started/visual-basic/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
           - text: Run Python code in the debugger >>
             url: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
+          - text: Debugging for absolute beginners
+            url: debugging-absolute-beginners.md
 
   - title: Fundamentals
     linkLists:
@@ -53,10 +55,6 @@ landingContent:
             url: edit-and-continue.md
           - text: Call stack
             url: how-to-use-the-call-stack-window.md
-      - linkListType: tutorial
-        links:
-          - text: Debugging for absolute beginners
-            url: debugging-absolute-beginners.md
 
     # Card
   - title: Go deeper with the debugger
@@ -73,13 +71,6 @@ landingContent:
             url: using-the-debuggerdisplay-attribute.md
           - text: Debug performance issues >>
             url: ../profiling/profiling-feature-tour.md
-    # Card
-  - title: Collaborate
-    linkLists:
-      - linkListType: tutorial
-        links:
-          - text: Write and debug code with Live Share >>
-            url: /visualstudio/liveshare/use/vs
 
   # Card
   - title: Inspect data
@@ -90,3 +81,11 @@ landingContent:
             url: autos-and-locals-windows.md
           - text: Set a watch on variables
             url: watch-and-quickwatch-windows.md
+
+  # Card
+  - title: Collaborate
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Write and debug code with Live Share >>
+            url: /visualstudio/liveshare/use/vs
