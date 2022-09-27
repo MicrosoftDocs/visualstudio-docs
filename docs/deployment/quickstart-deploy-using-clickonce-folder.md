@@ -62,7 +62,7 @@ Starting in Visual Studio 2019 version 16.8, you can use the **Publish** tool to
    Also in this page, you can also set the Publish version and if the version will automatically increment with each publish.
 
    > [!NOTE]
-   > The Publish version number is unique for each ClickOnce profile. If you plan on having more then one profile, you will need to keep this in mind.
+   > The Publish version number is unique for each ClickOnce profile. If you plan on having more than one profile, you will need to keep this in mind.
 
 10. In the **Sign manifests** page, you can specify if the manifests should be signed and which certificate to use.
 
