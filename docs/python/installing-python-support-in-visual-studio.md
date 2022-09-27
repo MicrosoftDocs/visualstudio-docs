@@ -4,8 +4,8 @@ description: How to install the Python Tools for Visual Studio (PTVS) in Visual 
 ms.date: 12/11/2021
 ms.custom: devdivchpfy22
 ms.topic: how-to
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: ijoosong
+ms.author: joesong
 manager: jmartens
 ms.technology: vs-python
 

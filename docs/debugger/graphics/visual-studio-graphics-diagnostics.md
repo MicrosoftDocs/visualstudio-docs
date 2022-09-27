@@ -19,7 +19,7 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 >[!NOTE]
 > Visual Studio recommends PIX on Windows for DirectX 12 games. [PIX on Windows](https://aka.ms/PIXonWindows) is a performance tuning and debugging tool that fully supports DirectX 12. [Find out more information](visual-studio-graphics-diagnostics-directx-12.md) or [download here](https://aka.ms/downloadPIX).
-> Visual Studio Graphics Diagnostics is not supported on ARM64 Visual Studio
+> Visual Studio Graphics Diagnostics is not supported on ARM64 Visual Studio.
 
 Visual Studio *Graphics Diagnostics* is a set of tools for recording and then analyzing rendering and performance problems in Direct3D apps. Graphics Diagnostics can be used on apps that are running locally on your Windows PC, in a Windows device emulator, or on a remote PC or device.
 
