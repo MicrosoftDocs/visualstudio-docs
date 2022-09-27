@@ -124,7 +124,7 @@ When you use this option, you're asked the database context class and the locati
 
 For convenience, this command lets you jump to the SQL Server Object Explorer, so you can view tables and other database entities, and work directly with your data. See [Object explorer](/sql/ssms/object/object-explorer).
 
-![Screenshot showing SQL Server Object Explorer](./media/vs-2022/sql-server-object-explorer-2.png)
+![Screenshot showing SQL Server Object Explorer.](./media/vs-2022/sql-server-object-explorer-2.png)
 
 :::moniker-end
 
