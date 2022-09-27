@@ -1,5 +1,5 @@
 ---
-title: MSBuild errors | Microsoft Docs
+title: MSBuild errors
 description: This page appears when you request F1 Help support for an MSBuild error, but no page exists for that error.
 ms.date: 09/30/2021
 ms.topic: error-reference
@@ -108,7 +108,7 @@ We're sorry! It looks like we couldn't find what you were looking for.
 
 **Looking for `F1` help on an MSBuild error message?**
 - **Try your favorite search engine [Recommended]**
-- Use the [Microsoft Docs](/) toolbar to search 
+- Use the [Microsoft Learn](/) toolbar to search 
 - Browse the Knowledge Base for [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)
 
 **Didn't mean to click?** [Remap or disable the `F1` help key](../ide/not-in-toc/change-f1-help-key.md)
