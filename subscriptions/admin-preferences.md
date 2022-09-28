@@ -4,18 +4,18 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 0fe9eaa4-f589-429e-a443-13bf86637d5a
-ms.date: 07/07/2022
+ms.date: 09/28/2022
 ms.topic: conceptual
 description: Learn how to set preferences for language, contacts, subscription level and others in the Administration Portal
 ---
 
 # Set preferences for your agreements in the admin portal
 
-Super admins can set certain preferences in the Administration portal (admin portal) that will be applied globally for each agreement.  These preferences will automatically populate subscription details for your admins when they are adding subscribers, and can only be modified globally by super admins.  
+Super admins can set certain preferences in the Administration portal (admin portal) that will be applied globally for each agreement.  These preferences will automatically populate subscription details during assignment, simplifying the process for admins.  Once set, agreement preferences can only be modified globally by super admins.  
 
 ## Access preferences
 
-You must be signed in to the [admin portal](https://manage.visualstudio.com) using a sign-in ID that has super admin rights on the agreement in order to view or modify the preferences.  
+To view or modify preferenes, you must be signed in to the [admin portal](https://manage.visualstudio.com) using a sign-in ID that has super admin rights on the agreement.  
 
 To set your preferences:
 1. Sign in to the admin portal with an ID that has super admin privileges.
@@ -24,20 +24,20 @@ To set your preferences:
    > ![Admin Preferences button](_img/admin-preferences/admin-preferences-button.png "Screenshot of the Manage subscribers page. The settings icon is highlighted.")
 
 3. Select **Agreement Preferences**.
-A panel will open on the left and your available preferences will be displayed. 
+A side panel will open and your available preferences will be displayed. 
 
    > [!div class="mx-imgBorder"]
    > ![Admin Preferences flyout dialog](_img/admin-preferences/admin-preferences-flyout-2.png "Screenshot of the agreement preferences dialog. The overallocation email notification is selected.")
 
 ## Set your preferences
 
-Let's explore each of the available preferences, and their effects. 
+Here are the preferences you can set, and what they do. 
 
 ### Agreement
 
 If you're a super admin on several agreements, you'll be able to choose the desired agreement in the drop-down on the menu bar.  The preferences you set will apply only to that agreement.  Individual admins can override some of these preferences on a case-by-case basis when assigning subscriptions. 
 
-If there is only one agreement for you email address, it will be displayed and the drop-down will be disabled. 
+If there is only one agreement for you email address, the drop-down will be disabled. 
 
 ### Contact email address
 
@@ -48,7 +48,7 @@ This preference provides a way for your subscribers to reach out to admins by us
 
 ### Default subscription level
 
-You can use this setting to set which subscription levels included in your agreement is selected by default when a subscription is assigned to a user.  Admins can change the setting to any subscription level in your agreement -- this option just prevents having to repeatedly make the most common choice. 
+Here you can set which default subscription level from your agreement is assigned to a user.  Admins can change the subscription level to any level from your agreement -- this option just simplifies the assignment process since most admins will assign the same subscription level to the bulk of their subscribers. 
 
 ### Default communication preferences
 
@@ -56,15 +56,15 @@ Setting a default communication language and locale can streamline the process o
 
 ### Default external subscribers setting
 
-This preference allows you to decide whether admins can add subscribers from outside your organization's tenant/directory.  If you turn this option off, no outside subscribers will be allowed.  If you enable it and an admin attempts to add an outside subscriber, they will be asked to confirm their choice, and will be allowed to assign the subscription. Admins can't override this setting. 
+This security feature allows you to restrict admins from adding subscribers outside your organization's tenant/directory.  Turning this option off prevents assignments to external subscribers. When enabled, if an admin attempts to add an outside subscriber, they will be asked to confirm their choice, and will be allowed to assign the subscription. Admins can't override this setting. 
 
 ### Default downloads setting
 
-Enabling this setting, which is on by default, will enable subscribers to access downloads when admins create new subscriptions.  Admins can still disable downloads on an individual subscription basis.  Disabling access to downloads also disables access to product keys.  
+Enabling this setting, which is on by default, will allow subscribers to access downloads when admins create new subscriptions.  Admins can still disable downloads on an individual subscription basis.  Disabling access to downloads also disables access to product keys.  
 
 ### Overallocation notification 
 
-Opt in to receive an email when assignments on your agreement become overallocated. This email notification will be sent to the [Contact e-mail address](admin-preferences.md#contact-email-address), or all admins on your agreement if there is no Contact e-mail address. Use the drop-down menu to configure the threshold at which you'd like to be notified. 
+Opt in here to receive emails when assignments on your agreement become overallocated. This email notification will be sent to the [Contact e-mail address](admin-preferences.md#contact-email-address), or all admins on your agreement if there is no Contact e-mail address. Use the drop-down menu to configure the threshold at which you'd like to be notified. 
 
  
 ## Frequently asked questions
