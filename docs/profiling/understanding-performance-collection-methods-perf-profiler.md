@@ -21,7 +21,16 @@ This document outlines the data collection methods that tools within the Visual 
 
 ## Sampling
 
-Sampling methods for profiling collect statistical data about the work that is performed by an application during a profiling run. Data collection is done by collecting information on the application at a regular interval or sampling frequency such as every millisecond and then analyzing this data to create a model of where time was spent in the application. The sampling method is lightweight and has little effect on the execution of the application being profiled. Tools in the Performance Profiler that utilize the sampling method include the [CPU Usage](../profiling/cpu-usage.md) tool.
+Sampling collects statistical data about the work that is performed by an application during profiling and it’s a good starting place to find areas to speed up your application. At specified intervals, the Sampling method collects information about the functions that are executing in your application. Data collection is done by collecting information on the application at a regular interval or sampling frequency such as every millisecond. The collected data is analyzed to create a model of where the time was spent in the application. If you need accurate measurements of call times or are looking for performance issues in an application for the first time, then you may want to use sampling.
+
+Sampling has less accuracy in the number of calls, but is low cost to the profiler and has little effect on the execution of the application being profiled. Tools in the Performance Profiler that utilize the sampling method include the [CPU Usage](../profiling/cpu-usage.md) tool.
+
+After you finish data collection, the CPU Usage tool analyzes the captured data and displays the report.
+
+## Tracing
+
+Tracing provides better information on how often a method was executed. If you need accurate measures of call numbers, use tracing.
+Tracing can have a larger impact on the performance of your code during collection, but sampling has only a small overhead. Additionally, tracing can be slower to analyze because it takes longer to view the data after collection.
 
 ## Instrumentation
 
