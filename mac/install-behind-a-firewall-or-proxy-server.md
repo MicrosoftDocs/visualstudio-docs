@@ -41,7 +41,6 @@ Because the Visual Studio for Mac Installer downloads from various domains and d
 | dl.xamarin.com | Installer Packages|
 | dc.services.visualstudio.com| Crash Reporting |
 
-
 ### Third party domains
 
 | Domain| Purpose |
@@ -49,7 +48,6 @@ Because the Visual Studio for Mac Installer downloads from various domains and d
 | dl.google.com | Android SDK |
 | download.oracle.com | Java SDK|
 | api.apple-cloudkit.com| Apple Security Services |
-
 
 ## Use Visual Studio for Mac
 
