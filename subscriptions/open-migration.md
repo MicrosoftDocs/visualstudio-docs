@@ -4,19 +4,17 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 6866dfab-c4fa-428e-bb0d-7b202c81f770
-ms.date: 07/12/2022
+ms.date: 09/28/2022
 ms.topic: conceptual
 description:  Learn how partners manage Visual Studio subscriptions for their customers.
 ---
 
 # Partners managing subscriptions on behalf of customers
 
-To manage subscriptions in the Visual Studio [Subscriptions Administration Portal](https://manage.visualstudio.com), there are a few steps partners need to follow. 
+To manage subscriptions in the Visual Studio [Subscriptions Administration Portal](https://manage.visualstudio.com), there are a few steps that partners need to follow. 
 
-The process is:
-+ Partners place a new order on behalf of a customer, entering the customer’s business email address.
-+ The customer receives a notification inviting them to assign admins and access their subscriptions in the [Visual Studio Subscriptions Administration Portal](https://manage.visualstudio.com).
-+ For partners to manage subscriptions on behalf of customers, they will need to register on the admin portal. The various ways to access gain access are listed below (similar to the add-open process).
+After a partner places a new order on behalf of a customer, the customer will receive a notification inviting them to assign admins and access their subscriptions in the [Visual Studio Subscriptions Administration Portal](https://manage.visualstudio.com).
++ For partners to manage subscriptions on behalf of customers, they will need to register on the admin portal. The various ways to gain access are listed below (similar to the add-open process).
 
 ## New partners visiting the Visual Studio Subscriptions Administration Portal directly
 
@@ -25,7 +23,7 @@ This scenario applies to new partners who have already placed new Open License o
 1. You receive a notification that you're not a recognized user.
 1. Select the **OLP Partners** registration option
 1. Enter the authorization number, license number, customer email address used on the order 
-1. Select the checkbox
+1. Check the box, indicating your acknowledgment regarding the permissions listed
 1. Select **Submit**.
 
 > [!NOTE]
@@ -53,7 +51,7 @@ This applies to partners that already have access to the [Visual Studio Subscrip
 Steps for partners to add a new license:
 1. Sign in to <https://manage.visualstudio.com>.
 1. Next to the agreement dropdown, select + Add agreement and choose and scroll to the bottom where there is an option to **New open license**.
-1. In the pop-out panel, enter the authorization number, license number, customer email address that is on the agreement, select the checkbox, and then select **Submit**.
+1. In the pop-out panel, enter the authorization number, license number, customer email address that is on the agreement, check the box if you agree, and then select **Submit**.
 
 > [!NOTE]
 > The customer will receive a notification email informing them that a Partner has been added to the Open License. They can choose to remove the Partner’s access.
