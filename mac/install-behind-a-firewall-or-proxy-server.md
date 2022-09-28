@@ -41,6 +41,7 @@ Because the Visual Studio for Mac Installer downloads from various domains and d
 | dl.xamarin.com | Installer Packages|
 | dc.services.visualstudio.com| Crash Reporting |
 
+
 ### Third party domains
 
 | Domain| Purpose |
@@ -48,6 +49,7 @@ Because the Visual Studio for Mac Installer downloads from various domains and d
 | dl.google.com | Android SDK |
 | download.oracle.com | Java SDK|
 | api.apple-cloudkit.com| Apple Security Services |
+
 
 ## Use Visual Studio for Mac
 
@@ -63,6 +65,8 @@ To make sure that you have access to every feature that you need in Visual Studi
 | addins.monodevelop.com | 80/443| Extension Services |
 | visualstudio-devdiv-c2s.msedge.net | 80/443| Experimental Feature and Notifications |
 | targetednotifications.azurewebsites.net|  80/443| Used to filter a global list of notifications to a list that is applicable only to specific types of machines/usage scenarios|
+| nw-umwatson.events.data.microsoft.com | Crash and Error Reporting | 
+| vortex.data.microsoft.com | Crash and Error Reporting |
 
 ### Identity
 
