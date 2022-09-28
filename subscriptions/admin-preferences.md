@@ -15,7 +15,7 @@ Super admins can set certain preferences in the Administration portal (admin por
 
 ## Access preferences
 
-To view or modify preferenes, you must be signed in to the [admin portal](https://manage.visualstudio.com) using a sign-in ID that has super admin rights on the agreement.  
+To view or modify preferences, you must be signed in to the [admin portal](https://manage.visualstudio.com) using a sign-in ID that has super admin rights on the agreement.  
 
 To set your preferences:
 1. Sign in to the admin portal with an ID that has super admin privileges.
@@ -37,7 +37,7 @@ Here are the preferences you can set, and what they do.
 
 If you're a super admin on several agreements, you'll be able to choose the desired agreement in the drop-down on the menu bar.  The preferences you set will apply only to that agreement.  Individual admins can override some of these preferences on a case-by-case basis when assigning subscriptions. 
 
-If there is only one agreement for you email address, the drop-down will be disabled. 
+If there is only one agreement for your email address, the drop-down will be disabled. 
 
 ### Contact email address
 
