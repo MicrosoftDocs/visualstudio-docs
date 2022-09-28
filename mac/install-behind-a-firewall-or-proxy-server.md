@@ -41,6 +41,12 @@ Because the Visual Studio for Mac Installer downloads from various domains and d
 | dl.xamarin.com | Installer Packages|
 | dc.services.visualstudio.com| Crash Reporting |
 
+### NuGet
+
+| Domain | Port(s)|Purpose|
+| ----------------------|------------------|------------------|
+| api.nuget.org | 80/443|NuGet API|
+
 ### Third party domains
 
 | Domain| Purpose |
