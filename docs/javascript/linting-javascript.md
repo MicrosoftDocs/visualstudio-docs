@@ -37,17 +37,21 @@ Once linting is enabled, the necessary dependencies need to be installed. This i
 
 Depending on the files you want to lint, additional [ESLint plugins](https://eslint.org/docs/latest/user-guide/configuring/plugins) may be needed. For example, you may need [TypeScript ESLint](https://typescript-eslint.io/), which enables ESLint to run on TypeScript code and includes rules that are specific to the extra type information.
 
-When ESLint is enabled but the ESLint `npm` package isn't found, a gold bar is displayed that allows you to install ESLint as a local `npm` development dependency. Similarly, when an *.eslintrc* file isn't found, a gold bar is displayed to run a configuration wizard that will install the plugins applicable to the current project.
+When ESLint is enabled but the ESLint `npm` package isn't found, a gold bar is displayed that allows you to install ESLint as a local `npm` development dependency.
 
 :::image type="content" source="media/vs-2022/no-package-goldbar.png" alt-text="Install ESLint gold bar":::
+
+Similarly, when an *.eslintrc* file isn't found, a gold bar is displayed to run a configuration wizard that will install the plugins applicable to the current project.
 
 :::image type="content" source="media/vs-2022/no-config-goldbar.png" alt-text="Run ESLint wizard gold bar":::
 
 ## Disabling linting rules and auto-fixes
 
-You can disable linting errors on a [specific line or file](https://eslint.org/docs/latest/user-guide/configuring/rules#disabling-rules). You can disable the errors by using the Quick Actions menu:
+You can disable linting errors on a [specific line or file](https://eslint.org/docs/latest/user-guide/configuring/rules#disabling-rules). You can disable the errors by using the Quick Actions lightbulb menu:
 
 :::image type="content" source="media/vs-2022/code-actions.png" alt-text="Linting code actions":::
+
+The following illustration shows the result if you disable a linting error for the selected line of code.
 
 :::image type="content" source="media/vs-2022/disabled-rule.png" alt-text="Disable linting rule":::
 
