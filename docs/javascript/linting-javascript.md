@@ -37,7 +37,7 @@ Once linting is enabled, the necessary dependencies need to be installed. This i
 
 Depending on the files you want to lint, additional [ESLint plugins](https://eslint.org/docs/latest/user-guide/configuring/plugins) may be needed. For example, you may need [TypeScript ESLint](https://typescript-eslint.io/), which enables ESLint to run on TypeScript code and includes rules that are specific to the extra type information.
 
-When ESLint is enabled but the ESLint `npm` package isn't found, a gold bar is displayed that allows you to install ESLint as a local `npm` development dependency. Similarly, when an *.eslintrc* file has not been found, a gold bar is displayed to run a configuration wizard that will install the plugins applicable to the current project.
+When ESLint is enabled but the ESLint `npm` package isn't found, a gold bar is displayed that allows you to install ESLint as a local `npm` development dependency. Similarly, when an *.eslintrc* file isn't found, a gold bar is displayed to run a configuration wizard that will install the plugins applicable to the current project.
 
 ![Install ESLint gold bar](images/vs-2022/no-package-goldbar.png)
 ![Run ESLint wizard gold bar](images/vs-2022/no-config-goldbar.png)
