@@ -33,7 +33,7 @@ You can override these options in some project types, like the [standalone React
 
 ## Installing ESLint dependencies
 
-Once linting is enabled, the necessary dependencies need to be installed. Dependencies include the [ESLint `npm` package](https://www.npmjs.com/package/eslint). This package can be installed locally in each project where you want to enable linting, or you can install it globally using `npm install -g eslint`. However, a global installation isn't recommended because plugins and shareable configs always need to be installed locally.
+Once linting is enabled, the necessary dependencies need to be installed. Dependencies include the [ESLint `npm` package](https://www.npmjs.com/package/eslint) and other plugins applicable to your project. This package can be installed locally in each project where you want to enable linting, or you can install it globally using `npm install -g eslint`. However, a global installation isn't recommended because plugins and shareable configs always need to be installed locally.
 
 Depending on the files you want to lint, other [ESLint plugins](https://eslint.org/docs/latest/user-guide/configuring/plugins) may be needed. For example, you may need [TypeScript ESLint](https://typescript-eslint.io/), which enables ESLint to run on TypeScript code and includes rules that are specific to the extra type information.
 
