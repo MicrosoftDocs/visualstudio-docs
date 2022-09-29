@@ -21,11 +21,11 @@ Linting JavaScript and TypeScript in Visual Studio is powered by [ESLint](https:
 
 ## Enabling linting support
 
-To enable linting IDE support, enable the **Enable ESLint** setting in **Tools > Options > Text Editor > JavaScript/TypeScript > Linting**.
+To enable linting support in Visual Studio 2022 or later versions, enable the **Enable ESLint** setting in **Tools > Options > Text Editor > JavaScript/TypeScript > Linting**.
 
 ![Linting tools options page](./images/vs-2022/linting-tools-options.png)
 
-In the options page, you can also modify the set of files that you want to lint. By default, all lintable file extensions (.js, .jsx, .ts and .tsx) will be linted.
+In the options page, you can also modify the set of files that you want to lint. By default, all lintable file extensions (*.js*, *.jsx*, *.ts*, and *.tsx*) will be linted.
 
 You can override these options in some project types, like the [standalone React project templates](../javascript/tutorial-create-react-app.md). In these projects, you can override the settings from the **Tools > Options** page using project properties:
 
@@ -33,11 +33,11 @@ You can override these options in some project types, like the [standalone React
 
 ## Installing ESLint dependencies
 
-Once linting has been enabled, the necessary dependencies need to be installed. This includes the [ESLint `npm` package](https://www.npmjs.com/package/eslint). This package can be installed locally in each project where you want to enable linting, or you can install it globally using `npm install -g eslint`. However, a global installation isn't recommended as plugins or shareable configs always need to be installed locally).
+Once linting is enabled, the necessary dependencies need to be installed. This includes the [ESLint `npm` package](https://www.npmjs.com/package/eslint). This package can be installed locally in each project where you want to enable linting, or you can install it globally using `npm install -g eslint`. However, a global installation isn't recommended because plugins and shareable configs always need to be installed locally.
 
-Depending on the files you want to lint, additional [ESLint plugins](https://eslint.org/docs/latest/user-guide/configuring/plugins) may be needed; e.g.: [TypeScript ESLint](https://typescript-eslint.io/) enables ESLint to run on TypeScript code, including rules that are specific to the extra type information.
+Depending on the files you want to lint, additional [ESLint plugins](https://eslint.org/docs/latest/user-guide/configuring/plugins) may be needed. For example, you may need [TypeScript ESLint](https://typescript-eslint.io/), which enables ESLint to run on TypeScript code and includes rules that are specific to the extra type information.
 
-When ESLint is enabled but the ESLint `npm` package isn't found, a gold bar is displayed that allows you to install ESLint as a local `npm` development dependency. Similarly, when no `.eslintrc` file has been found, a gold bar is displayed to run a configuration wizard that will install the plugins applicable to the current project.
+When ESLint is enabled but the ESLint `npm` package isn't found, a gold bar is displayed that allows you to install ESLint as a local `npm` development dependency. Similarly, when no *.eslintrc* file has been found, a gold bar is displayed to run a configuration wizard that will install the plugins applicable to the current project.
 
 ![Install ESLint gold bar](./images/vs-2022/no-package-goldbar.png)
 ![Run ESLint wizard gold bar](./images/vs-2022/no-config-goldbar.png)
@@ -53,4 +53,4 @@ In addition, auto-fix code actions allow you to apply an auto-fix to address the
 
 ## Troubleshooting
 
-You can open the ESLint Language Extension pane in the output window to see any error messages or other logs that might explain the problem.
+You can open the **ESLint Language Extension** pane in the Output window to see any error messages or other logs that might explain the problem.
