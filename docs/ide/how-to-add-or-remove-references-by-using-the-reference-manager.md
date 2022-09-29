@@ -213,4 +213,6 @@ The search bar in the Reference Manager dialog box operates over the tab that's 
 
 ## See also
 
-- [Manage references in a project](../ide/managing-references-in-a-project.md)
+- [Manage references in a project](managing-references-in-a-project.md)
+- [Remove unused references](reference/remove-unused-references.md)
+- [Troubleshoot broken references](troubleshooting-broken-references.md)
