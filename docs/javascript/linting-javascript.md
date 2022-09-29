@@ -17,7 +17,7 @@ monikerRange: '>= vs-2022'
 
 # Linting JavaScript in Visual Studio
 
-Linting JavaScript and TypeScript in Visual Studio is powered by [ESLint](https://eslint.org/). If you are new to ESLint, you can begin by checking their [documentation](https://eslint.org/docs/latest/user-guide/getting-started).
+Linting JavaScript and TypeScript in Visual Studio is powered by [ESLint](https://eslint.org/). If you're new to ESLint, you can begin by checking their [documentation](https://eslint.org/docs/latest/user-guide/getting-started).
 
 ## Enabling linting support
 
@@ -33,9 +33,9 @@ You can override these options in some project types, like the [standalone React
 
 ## Installing ESLint dependencies
 
-Once linting is enabled, the necessary dependencies need to be installed. This includes the [ESLint `npm` package](https://www.npmjs.com/package/eslint). This package can be installed locally in each project where you want to enable linting, or you can install it globally using `npm install -g eslint`. However, a global installation isn't recommended because plugins and shareable configs always need to be installed locally.
+Once linting is enabled, the necessary dependencies need to be installed. Dependencies include the [ESLint `npm` package](https://www.npmjs.com/package/eslint). This package can be installed locally in each project where you want to enable linting, or you can install it globally using `npm install -g eslint`. However, a global installation isn't recommended because plugins and shareable configs always need to be installed locally.
 
-Depending on the files you want to lint, additional [ESLint plugins](https://eslint.org/docs/latest/user-guide/configuring/plugins) may be needed. For example, you may need [TypeScript ESLint](https://typescript-eslint.io/), which enables ESLint to run on TypeScript code and includes rules that are specific to the extra type information.
+Depending on the files you want to lint, other [ESLint plugins](https://eslint.org/docs/latest/user-guide/configuring/plugins) may be needed. For example, you may need [TypeScript ESLint](https://typescript-eslint.io/), which enables ESLint to run on TypeScript code and includes rules that are specific to the extra type information.
 
 When ESLint is enabled but the ESLint `npm` package isn't found, a gold bar is displayed that allows you to install ESLint as a local `npm` development dependency.
 
