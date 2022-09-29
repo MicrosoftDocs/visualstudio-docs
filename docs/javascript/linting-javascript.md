@@ -23,13 +23,13 @@ Linting JavaScript and TypeScript in Visual Studio is powered by [ESLint](https:
 
 To enable linting support in Visual Studio 2022 or later versions, enable the **Enable ESLint** setting in **Tools > Options > Text Editor > JavaScript/TypeScript > Linting**.
 
-![Linting tools options page](../images/vs-2022/linting-tools-options.png)
+:::image type="content" source="media/vs-2022/linting-tools-options.png" alt-text="Linting tools options page":::
 
 In the options page, you can also modify the set of files that you want to lint. By default, all file extensions that can be linted (*.js*, *.jsx*, *.ts*, *.tsx*) will be linted.
 
 You can override these options in some project types, like the [standalone React project templates](../javascript/tutorial-create-react-app.md). In these projects, you can override the settings from the **Tools > Options** page using project properties:
 
-![Linting project properties](../images/vs-2022/linting-proj-properties.png)
+:::image type="content" source="media/vs-2022/linting-proj-properties.png" alt-text="Linting project properties":::
 
 ## Installing ESLint dependencies
 
@@ -39,15 +39,17 @@ Depending on the files you want to lint, additional [ESLint plugins](https://esl
 
 When ESLint is enabled but the ESLint `npm` package isn't found, a gold bar is displayed that allows you to install ESLint as a local `npm` development dependency. Similarly, when an *.eslintrc* file isn't found, a gold bar is displayed to run a configuration wizard that will install the plugins applicable to the current project.
 
-![Install ESLint gold bar](../images/vs-2022/no-package-goldbar.png)
-![Run ESLint wizard gold bar](../images/vs-2022/no-config-goldbar.png)
+:::image type="content" source="media/vs-2022/no-package-goldbar.png" alt-text="Install ESLint gold bar":::
+
+:::image type="content" source="media/vs-2022/no-config-goldbar.png" alt-text="Run ESLint wizard gold bar":::
 
 ## Disabling linting rules and auto-fixes
 
 You can disable linting errors on a [specific line or file](https://eslint.org/docs/latest/user-guide/configuring/rules#disabling-rules). You can disable the errors by using the Quick Actions menu:
 
-![Linting code actions](../images/vs-2022/code-actions.png)
-![Disable linting rule](../images/vs-2022/disabled-rule.png)
+:::image type="content" source="media/vs-2022/code-actions.png" alt-text="Linting code actions":::
+
+:::image type="content" source="media/vs-2022/disabled-rule.png" alt-text="Disable linting rule":::
 
 In addition, auto-fix code actions allow you to apply an auto-fix to address the respective linting error.
 
