@@ -1,7 +1,7 @@
 ---
 title: Options, Text Editor, Advanced
 description: Learn how to use the Advanced dialog box to change global settings for the Visual Studio text editor.
-ms.date: 08/09/2022
+ms.date: 09/28/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Advanced
@@ -95,7 +95,10 @@ Select this option to disable the new [multi-caret selection](../finding-and-rep
 
 ## Use adaptive formatting
 
-Based on your most recently updated file, Visual Studio recognizes whether you prefer to use tabs or spaces for code indentation. The adaptive formatting option is selected by default. When unselected, Visual Studio uses the settings in **Tools** > **Options** > **Text Editor** > **All Languages** > **[Tabs](options-text-editor-all-languages-tabs.md)** instead.
+Based on your most recently updated file, Visual Studio recognizes whether you prefer to use tabs or spaces to indent code. The adaptive formatting option is selected by default. When unselected, Visual Studio uses the settings in **Tools** > **Options** > **Text Editor** > **All Languages** > **[Tabs](options-text-editor-all-languages-tabs.md)** instead.
+
+> [!TIP]
+> You can also change how Visual Studio manages your preferred indent style by using an .*editorconfig* file. For more information, see [Create portable, custom editor settings with EditorConfig](../create-portable-custom-editor-options.md).
 
 ## Fallback support for C#, C++, Java, and TypeScript GoTo symbol navigation
 
