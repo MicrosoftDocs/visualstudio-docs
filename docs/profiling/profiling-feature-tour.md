@@ -136,7 +136,10 @@ The **CPU Usage** view shows you a list of functions ordered by longest running,
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-Double-click on a function that you are interested in, and you will see a more detailed "Call tree" view, with the selected function highlighted. The table shows columns with data such as the time spent in the function, including called functions (**Total CPU**), and a second column that shows the time spent in a function, excluding called functions (**Self CPU**). This data can help you evaluate whether the function itself is a performance bottleneck.
+Double-click on a function that you are interested in, and you will see a more detailed **Call tree** view, with the selected function highlighted. The table shows columns with data such as the time spent in the function, including called functions (**Total CPU**), and a second column that shows the time spent in a function, excluding called functions (**Self CPU**). This data can help you evaluate whether the function itself is a performance bottleneck.
+
+> [!TIP]
+> The Visual Studio profiler supports both collecting and viewing traces. The profiler can also view traces that have been collected previously by other tools, such as dotnet-trace. Dotnet-trace produces sampling results, not an instrumented trace. For more information, see [dotnet-trace](/dotnet/core/diagnostics/dotnet-trace).
 
 ![Diagnostic Tools caller callee "butterfly" view](../profiling/media/vs-2022/prof-tour-call-tree-view.png "Diagnostic Tools Caller Callee View")
 ::: moniker-end
