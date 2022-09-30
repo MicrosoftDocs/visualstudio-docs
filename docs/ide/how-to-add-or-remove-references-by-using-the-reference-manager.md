@@ -35,28 +35,30 @@ You can use the Reference Manager dialog box to add and manage references to com
 
 The Reference Manager dialog box shows different categories on the left side, depending on the project type:
 
-- **Assemblies**, with **Framework** and **Extensions** subgroups
+- **[Assemblies](#assemblies-tab)**, with **Framework** and **Extensions** subgroups
 
-- **COM** lists all COM components that are available for referencing
+- **[COM](#com-tab)** lists all COM components that are available for referencing
 
-- **Projects**
+- **[Projects](#projects-tab)**
 
-- **Shared Projects**
+- **[Shared Projects](#shared-projects-tab)**
 
-- **Windows**, with **Core** and **Extensions** subgroups. You can explore the references in the Windows SDK or extension SDKs by using the **Object Browser**.
+- **[Windows](#universal-windows-tab)**, with **Core** and **Extensions** subgroups. You can explore the references in the Windows SDK or extension SDKs by using the **Object Browser**.
 
-- **Browse**, with **Recent** subgroup
+- **[Browse](#browse)**, with **Recent** subgroup
 
     > [!NOTE]
     > You might not see **Browse** in the Reference Manager dialog box if you're developing C++ projects.
 
 ## Add a reference
 
-1. In **Solution Explorer**, right-click on the **References** or **Dependencies** node and choose either **Add Project Reference**, **Add Shared Project Reference**, or **Add COM Reference**. (You can right-click the project node and select **Add** from the fly-out menu to choose from these options, too.)
+1. In **Solution Explorer**, right-click the **References** or **Dependencies** node, and then choose either **Add Project Reference**, **Add Shared Project Reference**, or **Add COM Reference**. (You can right-click the project node and select **Add** from the fly-out menu to choose from these options, too.)
 
    **Reference Manager** opens and lists the available references by group.
 
-2. Specify the references to add, and then select **OK**.
+
+
+2. Browse to or specify the references to add, and then select **OK**.
 
 ## Assemblies tab
 
@@ -223,3 +225,4 @@ For more information, see [Remove unused references](reference/remove-unused-ref
 
 - [Manage references in a project](managing-references-in-a-project.md)
 - [Troubleshoot broken references](troubleshooting-broken-references.md)
+- [NuGet versus SDK as a project reference](../extensibility/nuget-versus-sdk-references.md)
