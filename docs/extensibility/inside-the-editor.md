@@ -317,6 +317,9 @@ IntelliSense supports statement completion, signature help (also known as parame
 
 Statement completion provides pop-up lists of potential completions for method names, XML elements, and other coding or markup elements. In general, a user gesture invokes a completion session. The session displays the list of potential completions, and the user can select one or dismiss the list. The <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionBroker> is responsible for creating and triggering the <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSession>. The <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSource> computes the <xref:Microsoft.VisualStudio.Language.Intellisense.CompletionSet> of completion items for the session.
 
+## Access the MEF Composition Error Log when experiencing Import/Export Issues
+You may experience issues if you try to import something that doesn't exist in the current VS install, or if you incorrectly author your import or export.  The primary way to find and address these issues is to reference the **MEF Composition Error Log**, stored at *%localappdata%\Microsoft\VisualStudio[yourVSVersion]\ComponentModelCache\Microsoft.VisualStudio.Default.err*.
+
 ## See also
 
 - [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)
