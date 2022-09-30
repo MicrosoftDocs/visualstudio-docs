@@ -67,6 +67,8 @@ landingContent:
         links:
           - text: Write and edit code
             url: write-and-edit-code.md
+          - text: Linting JavaScript
+            url: linting-javascript.md
           - text: Compile TypeScript code using tsc
             url: compile-typescript-code-npm.md
           - text: Compile TypeScript code using NuGet
