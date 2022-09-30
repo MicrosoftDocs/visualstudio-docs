@@ -52,13 +52,18 @@ The Reference Manager dialog box shows different categories on the left side, de
 
 ## Add a reference
 
-1. In **Solution Explorer**, right-click the **References** or **Dependencies** node, and then choose either **Add Project Reference**, **Add Shared Project Reference**, or **Add COM Reference**. (You can right-click the project node and select **Add** from the fly-out menu to choose from these options, too.)
+1. In **Solution Explorer**, right-click the **References** or **Dependencies** node, and then choose either **Add Project Reference**, **Add Shared Project Reference**, or **Add COM Reference** from the context menu. (You can right-click the project node and select **Add** from the fly-out menu to choose from these options, too.)
+
+    :::image type="content" source="media/add-reference-options.png" alt-text="Screenshot of the Add Reference dialog from the context menu in Solution Explorer.":::
 
    **Reference Manager** opens and lists the available references by group.
 
+    :::image type="content" source="media/reference-manager.png" alt-text="Screenshot of the Reference Manager dialog box in Visual Studio.":::
 
+2. Select a reference to add, and then select **OK**.
 
-2. Browse to or specify the references to add, and then select **OK**.
+    > [!NOTE]
+    > If you don't see the reference you're looking for, select **Browse** to locate the reference. (If you're developing C++ projects, you might not see a browse option.)
 
 ## Assemblies tab
 
@@ -105,7 +110,7 @@ Some components in the list may not be shown, depending on the framework version
 You should avoid adding file references to outputs of another project in the same solution, because doing this may cause compilation errors. Instead, use the **Projects** tab of the **Add Reference** dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries you create in your projects. For more information, see [Troubleshoot broken references](../ide/troubleshooting-broken-references.md).
 
 > [!NOTE]
-> In Visual Studio 2015 or later, a file reference instead of a project reference is created if the target framework version of one project is .NET Framework 4.5 or later, and the target version of the other project is .NET Framework 2, 3, 3.5, or 4.0.
+> In Visual Studio 2015 or later, a file reference instead of a project reference is created if the target framework version of one project is .NET Framework 4.5 or later, and the target version of the other project is .NET Framework 2, 3, 3.5, or 4.0. For more information about .NET, .NET Framework, and .NET Core, see [What is .NET (and .NET Core)](/dotnet/core/introduction).
 
 ### To display an assembly in the Add Reference dialog box
 
@@ -143,7 +148,7 @@ You should avoid adding file references to outputs of another project in the sam
 
 The **Projects** tab lists all compatible projects within the current solution, in the **Solution** sub-tab.
 
-A project can reference another project that targets a different framework version. For example, you could create a project that targets the .NET Framework 4 but that references an assembly that's been built for the .NET Framework 2. However, the .NET Framework 2 project can't reference a .NET Framework 4 project. For more information, see [Framework targeting overview](../ide/visual-studio-multi-targeting-overview.md).
+A project can reference another project that targets a different framework version. For example, you could create a project that targets the .NET Framework 4 but that references an assembly that's been built for the .NET Framework 2. However, the .NET Framework 2 project can't reference a .NET Framework 4 project. For more information, see [Framework targeting overview](visual-studio-multi-targeting-overview.md).
 
 > [!NOTE]
 > A project that targets the .NET Framework 4 is incompatible with a project that targets the .NET Framework 4 Client Profile.
