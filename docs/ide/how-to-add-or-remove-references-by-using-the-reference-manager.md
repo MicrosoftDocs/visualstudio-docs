@@ -211,8 +211,15 @@ When doing a file reference to a WinMD, the expected layout is that the *\<FileN
 
 The search bar in the Reference Manager dialog box operates over the tab that's in focus. For example, if a user types "System" in the search bar while the **Solution** tab is in focus, the search won't return any results unless the solution consists of a project name that contains "System".
 
+## Remove a reference
+
+You can remove unused references for [SDK style projects](/dotnet/core/project-sdk/overview) in Visual Studio by using the **Remove Unused Reference** menu item.
+
+:::image type="content" source="media/remove-unused-reference.png" alt-text="Screenshot of the Remove Unused Reference dialog from the context menu in Solution Explorer.":::
+
+For more information, see [Remove unused references](reference/remove-unused-references.md).
+
 ## See also
 
 - [Manage references in a project](managing-references-in-a-project.md)
-- [Remove unused references](reference/remove-unused-references.md)
 - [Troubleshoot broken references](troubleshooting-broken-references.md)
