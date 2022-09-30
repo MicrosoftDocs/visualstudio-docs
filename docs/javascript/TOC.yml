@@ -40,6 +40,8 @@
       href: write-and-edit-code.md
     - name: JavaScript IntelliSense
       href: ../ide/javascript-intellisense.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json
+    - name: Linting
+      href: linting-javascript.md
   - name: Build
     items:
     - name: Compile TypeScript code using npm
