@@ -75,6 +75,8 @@ public AdornmentLayerDefinition scarletLayerDefinition;
 [Import]
 internal IClassificationTypeRegistryService ClassificationRegistry;
 ```
+## Access MEF Composition Error Log when experiencing Import/Export Issues
+You may experience issues if you try to import something that doesn't exist in the current VS install, or if you incorrectly author your import or export.  The primary way to find and address these issues is to reference the 'MEF composition error log', stored at *%localappdata%\Microsoft\VisualStudio[yourVSVersion]\ComponentModelCache\Microsoft.VisualStudio.Default.err*.
 
 ## Get editor functionality from a MEF component part
  If your existing code is a MEF component part, you can use MEF metadata to consume editor component parts.
