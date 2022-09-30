@@ -172,7 +172,7 @@ Universal Windows app projects have a reference to the Universal Windows SDK by 
 
 An SDK is a collection of files that Visual Studio treats as a single component. In the **Extensions** tab, SDKs that apply to the project from which the Reference Manager dialog box was invoked are listed as single entries. When added to a project, all of the SDK content is consumed by Visual Studio such that the user doesn't need to take any further actions to leverage the SDK contents in IntelliSense, toolbox, designers, Object Browser, build, deployment, debugging, and packaging.
 
-For information about how to display your SDK in the **Extensions** tab, see [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md).
+For information about how to display your SDK in the **Extensions** tab, see [Create a Software Development Kit](../extensibility/creating-a-software-development-kit.md).
 
 > [!NOTE]
 > If a project references an SDK that depends on another SDK, Visual Studio won't consume the second SDK unless you manually add a reference to the second SDK. When a user chooses an SDK on the **Extensions** tab, the Reference Manager dialog box helps you identify SDK dependencies by listing any dependencies in the details pane.
