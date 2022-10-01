@@ -31,7 +31,7 @@ The **Flame Graph** helps you identify hot paths in your code by visualizing a c
 
 ![Screenshot showing Flame Graph overview displayed.](./media/vs-2022/flame-graph-overview.png "Flame Graph overview displayed")
 
-1. Click **Flip Flame Graph** to switch the call tree from descending to ascending order.
+1. Click **Flip Flame Graph** to switch the call tree nodes from descending to ascending order.
 
 ![Screenshot showing Flip Flame Graph selected.](./media/vs-2022/flame-graph-flip.png "Flip Flame Graph selected")
 
