@@ -2,7 +2,7 @@
 title: Options, Text Editor, All Languages, Tabs
 description: Learn how to use the Tabs page in the All Languages section to change the default behavior of the code editor tabs within Visual Studio.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 09/29/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.All_Languages.Tabs
@@ -89,6 +89,9 @@ When selected, indent operations insert only space characters, not TAB character
 Keep tabs
 
 When selected, indent operations insert as many TAB characters as possible. Each TAB character fills the number of spaces specified in **Tab size**. If the **Indent size** is not an even multiple of the **Tab size**, space characters are added to fill in the difference.
+
+> [!TIP]
+> Adaptive formatting might override your custom tabs settings. You can turn off adaptive formatting by toggling the **[Use adaptive formatting](options-text-editor-advanced.md#use-adaptive-formatting)** option in **Text Editor** > **[Advanced](options-text-editor-advanced.md)**. You can also change how Visual Studio manages your preferred indent style by using an .*[editorconfig](../create-portable-custom-editor-options.md)* file.
 
 ## See also
 
