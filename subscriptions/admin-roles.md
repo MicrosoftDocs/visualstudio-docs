@@ -4,14 +4,14 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 6601c395-f778-48c1-ab76-cf454b9193e4
-ms.date: 07/07/2022
+ms.date: 09/28/2022
 ms.topic: conceptual
 description: Learn about the super admin and admin roles, and how to assign admins. 
 ---
 
 # Super admins and admins for Visual Studio subscription agreements
 
-There are two different roles in the new Visual Studio Subscriptions Administration Portal for Volume Licensing customers. These roles are like the Primary/Notices Contact role and the Subscriptions Manager role that used to exist in the VLSC.
+There are two different roles in the new Visual Studio Subscriptions Administration Portal for Volume Licensing customers, similar to the Primary/Notices Contact and Subscriptions Manager roles that previously existed in the Volume Licensing Service Center (VLSC).
 
 **Super admins:** When an organization is initially set up, the Primary or Notices Contact becomes a super admin by default. The Primary or Notices Contact can choose to assign additional super admins or admins. A super admin can add and remove other admins as well as subscribers. If there are more than two super admins in the system, a super-admin can delete all but the last two for security.
 
@@ -22,7 +22,7 @@ Watch a demonstration about how to manage admins.
 
 ## Assigning admins
 
-To assign new admins (admins):
+To assign new administrators (admins):
 1. Sign in to https://manage.visualstudio.com using an email address that's assigned as a super admin on the agreement through which the subscriptions were purchased.
 0. Select the tab labeled **Manage Administrators**.
 0. Select **Add**.
