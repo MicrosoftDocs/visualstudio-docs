@@ -15,11 +15,11 @@ ms.topic: conceptual
 ms.workload:
   - "multiple"
 ---
-# What's new in Visual Studio docs
+# What's new in Visual Studio content
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Welcome to what's new in the Visual Studio docs. The following sections provide the previous three months of what's new in the Visual Studio docs.
+Welcome to what's new in Visual Studio content. The following sections provide details on the previous three months of new and updated articles.
 
 ## Azure
 
@@ -37,7 +37,8 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 ### Updated articles
 
-- [Debugging in Visual Studio](../debugger/index.yml) - Perform search engine optimization (SEO) work for debugger & code analysis documentation
+- [Debugging in Visual Studio](../debugger/index.yml)
+  - Perform search engine optimization (SEO) work for debugger & code analysis documentation
   - SEO edits for debugger and code analysis landing pages
 - [Debug .NET Apps in WSL with Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md) - Add attach-to-process content for article on debugging Linux using WSL
 - [Remote Debug ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) - Follow-up to Remote Debugging article updates
@@ -47,39 +48,40 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 ### New articles
 
-- [Title not found in: #10409](../deployment/clickonce-deployment-dotnet.md)
+- [ClickOnce for .NET on Windows](../deployment/clickonce-deployment-dotnet.md)
 
 ## Extensibility
 
 ### New articles
 
-- [Title not found in: #10406](../extensibility/arm64/target-arm64-visual-studio-extension.md)
+- [Target Visual Studio 2022 (ARM64) when creating an extension in Visual Studio 2022](../extensibility/arm64/target-arm64-visual-studio-extension.md)
 
 ### Updated articles
 
-- [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md) - Refresh text and screenshots
-- [Solution (.sln) file](../extensibility/internals/solution-dot-sln-file.md) - Refresh text and screenshots
-- [Start developing extensions in Visual Studio](../extensibility/starting-to-develop-visual-studio-extensions.md) - Refresh text and screenshots
+- Refresh text, links, and screenshots for the following:
+
+  - [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md)
+  - [Solution (.sln) file](../extensibility/internals/solution-dot-sln-file.md)
+  - [Start developing extensions in Visual Studio](../extensibility/starting-to-develop-visual-studio-extensions.md)
 
 ## IDE
 
 ### New articles
 
-- [Title not found in: #10443](../ide/reference/paste-json-xml.md)
+- [Paste JSON or XML as classes](../ide/reference/paste-json-xml.md)
 
 ### Updated articles
 
-- [How to: Add or remove references by using the Reference Manager](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md) - Update 'Add References in the Reference Manager'
+- [How to: Add or remove references by using the Reference Manager](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md) - Add screenshots & new Remove References section
 - [How to: Sign application and deployment manifests](../ide/how-to-sign-application-and-deployment-manifests.md) Update & add link for.NET 5+ steps
-- [What's new in Visual Studio docs](../ide/whats-new-visual-studio-docs.md) - Update with August data
 - [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md) - Add troubleshooting section
-- [Create portable, custom editor settings with EditorConfig](../ide/create-portable-custom-editor-options.md) - Refresh text and screenshots
+- [Create portable, custom editor settings with EditorConfig](../ide/create-portable-custom-editor-options.md) - Refresh text, links, and screenshots
 
 ## JavaScript
 
 ### New articles
 
-- [Title not found in: #10466](../javascript/linting-javascript.md)
+- [Linting JavaScript in Visual Studio](../javascript/linting-javascript.md)
 
 ## MSBuild
 
@@ -94,9 +96,9 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 ### New articles
 
-- [Title not found in: #10418](../profiling/perf-insights-excessive-induced-gcs.md)
-- [Title not found in: #10418](../profiling/perf-insights-high-loh-fragmentation.md)
-- [Title not found in: #10202](../profiling/cpu-insights.md)
+- [Excessive induced GCs](../profiling/perf-insights-excessive-induced-gcs.md)
+- [High LOH Fragmentation](../profiling/perf-insights-high-loh-fragmentation.md)
+- [Diagnose high latency with CPU Insights](../profiling/cpu-insights.md)
 
 ### Updated articles
 
@@ -106,11 +108,11 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 ### Updated articles
 
-- [Configure unit tests by using a *.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) - Update blame configuration.
+- [Configure unit tests by using a *.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) - Update blame data collection info
 
 ## Community contributors
 
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" on the [What's New landing page](index.yml).
+The following people contributed to Visual Studio content during this period. Thank you! Learn how to contribute by following the links under "Get involved" on the [What's New landing page](index.yml).
 
 - [BeardInASuit](https://github.com/BeardInASuit) - BeardinaSuit (1)
 - [Chiramisu](https://github.com/Chiramisu) - Matthew (1)
@@ -162,7 +164,7 @@ The following people contributed to the Visual Studio docs during this period. T
 
 - [What are solutions and projects in Visual Studio?](./solutions-and-projects-in-visual-studio.md) - Update content and add/revise links
 - [Options dialog box: Environment \> Tabs and Windows](./reference/tabs-and-windows-environment-options-dialog-box.md) - Add screenshots to Tabs & Windows options dialog page
-- [Customize window layouts in Visual Studio](./customizing-window-layouts-in-visual-studio.md) - Add Tabs & Docs Management personalization info
+- [Customize window layouts and personalize tabs in Visual Studio](./customizing-window-layouts-in-visual-studio.md) - Add Tabs & Docs Management personalization info
 - [Manage references in a project](./managing-references-in-a-project.md)
   - Clarify between Add Reference and Add Project Reference
   - Update the Add Project Reference screenshot
