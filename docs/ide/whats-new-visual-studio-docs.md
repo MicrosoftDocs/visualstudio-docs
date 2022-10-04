@@ -37,9 +37,7 @@ Welcome to what's new in Visual Studio content. The following sections provide d
 
 ### Updated articles
 
-- [Debugging in Visual Studio](../debugger/index.yml)
-  - Perform search engine optimization (SEO) work for debugger & code analysis documentation
-  - SEO edits for debugger and code analysis landing pages
+- [Debugging in Visual Studio](../debugger/index.yml) - Perform search engine optimization (SEO) work for debugger & code analysis documentation
 - [Debug .NET Apps in WSL with Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md) - Add attach-to-process content for article on debugging Linux using WSL
 - [Remote Debug ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) - Follow-up to Remote Debugging article updates
 - [Log info to the Output window using tracepoints in Visual Studio](../debugger/using-tracepoints.md) - Refresh text and screenshots
