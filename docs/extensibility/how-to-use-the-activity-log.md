@@ -54,8 +54,8 @@ VSPackages can write messages to the activity log. This feature is especially us
    ```
    Called for: Company.MyApp.MyAppPackage ...
    ```
-## Access the MEF Composition Error Log when experiencing Import/Export Issues
-You may experience issues if you try to import something that doesn't exist in the current VS install, or if you incorrectly author your import or export.  The primary way to find and address these issues is to reference the **MEF Composition Error Log**, stored at *%localappdata%\Microsoft\VisualStudio[yourVSVersion]\ComponentModelCache\Microsoft.VisualStudio.Default.err*.
+## Troubleshooting Import/Export Issues in Editor Extensions: Access the MEF Composition Error Log
+When writing an editor-based extension, you may experience issues if you try to import something that doesn't exist in the current VS install, or if you incorrectly author your import or export.  The primary way to find and address these issues is to reference the **Managed Extensibility Framework (MEF) Composition Error Log**, stored at *%localappdata%\Microsoft\VisualStudio[yourVSVersion]\ComponentModelCache\Microsoft.VisualStudio.Default.err*.  To learn more about using MEF in your extensions, check out [this documentation](https://learn.microsoft.com/en-us/visualstudio/extensibility/managed-extensibility-framework-in-the-editor?view=vs-2022).
 
 ## Robust programming
 
