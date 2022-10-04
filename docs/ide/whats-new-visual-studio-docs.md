@@ -15,11 +15,11 @@ ms.topic: conceptual
 ms.workload:
   - "multiple"
 ---
-# What's new in Visual Studio content
+# What's new in Visual Studio docs
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Welcome to what's new in Visual Studio content. The following sections provide details on the previous three months of new and updated articles.
+Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
 
 ## Azure
 
