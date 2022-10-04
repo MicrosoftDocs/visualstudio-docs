@@ -110,7 +110,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 ## Community contributors
 
-The following people contributed to Visual Studio content during this period. Thank you! Learn how to contribute by following the links under "Get involved" on the [What's New landing page](index.yml).
+The following people contributed to Visual Studio content during this period. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
 
 - [BeardInASuit](https://github.com/BeardInASuit) - BeardinaSuit (1)
 - [Chiramisu](https://github.com/Chiramisu) - Matthew (1)
