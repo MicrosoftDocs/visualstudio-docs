@@ -93,7 +93,7 @@ The table in this section shows the MSBuild predefined properties. The example c
 
 | Property | Reserved or well-known | Description | Example |
 |----------------------------------|------------------------| - | - |
-| `FrameworkSDKRoot` | Well-known | | `C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\` |
+| `FrameworkSDKRoot` | Well-known | Path to the root folder for .NET Framework tools. | `C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\` |
 | `MSBuildAssemblyVersion` | Reserved | The version of MSBuild assemblies used to build the project. | 17.0 |
 | `MSBuildBinPath` | Reserved | The absolute path of the folder where the MSBuild binaries that are currently being used are located (for example, *C:\Windows\Microsoft.Net\Framework\\\<versionNumber>*). This property is useful if you have to refer to files in the MSBuild directory.<br /><br /> Do not include the final backslash on this property. | `C:\Program Files\Microsoft Visual Studio\2022\MSBuild\Current\Bin\amd64` |
 | `MSBuildExtensionsPath` | Well-known | Introduced in the .NET Framework 4: there is no difference between the default values of `MSBuildExtensionsPath` and `MSBuildExtensionsPath32`. You can set the environment variable `MSBUILDLEGACYEXTENSIONSPATH` to a non-null value to enable the behavior of the default value of `MSBuildExtensionsPath` in earlier versions.<br /><br /> In the .NET Framework 3.5 and earlier, the default value of `MSBuildExtensionsPath` points to the path of the MSBuild subfolder under the *\Program Files\\* or *\Program Files (x86)* folder, depending on the bitness of the current process. For example, for a 32-bit process on a 64-bit machine, this property points to the *\Program Files (x86)* folder. For a 64-bit process on a 64-bit machine, this property points to the *\Program Files* folder.<br /><br /> Do not include the final backslash on this property.<br /><br /> This location is a useful place to put custom target files. For example, your target files could be installed at *\Program Files\MSBuild\MyFiles\Northwind.targets* and then imported in project files by using this XML code:<br /><br /> `<Import Project="$(MSBuildExtensionsPath)\MyFiles\Northwind.targets"/>` | `C:\Program Files\Microsoft Visual Studio\2022\MSBuild`|
@@ -136,7 +136,7 @@ The table in this section shows the MSBuild predefined properties. The example c
 | `SDK35ToolsPath` | Well-known | Path to .NET Framework 3.5 tools. |  |
 | `SDK40ToolsPath` | Well-known | Path to .NET Framework 4.0 tools. |`C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\` |
 | `VsInstallRoot` | Well-known | The Visual Studio installation folder. | `C:\Program Files\Microsoft Visual Studio\2022`|
-| `WindowsSDK80Path` | Well-known | | |
+| `WindowsSDK80Path` | Well-known | Path to the Windows 8 SDK. | |
 :::moniker-end
 
 ## Properties specific to C++ projects
