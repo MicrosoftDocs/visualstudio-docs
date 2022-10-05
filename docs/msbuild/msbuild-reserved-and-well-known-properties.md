@@ -23,7 +23,7 @@ ms.workload:
 
 MSBuild provides a set of predefined properties that store information about the project file and the MSBuild binaries. These properties are evaluated in the same manner as other MSBuild properties. For example, to use the `MSBuildProjectFile` property, you type `$(MSBuildProjectFile)`.
 
- MSBuild uses the values in the following table to predefine reserved and well-known properties. Reserved properties cannot be overridden, but well-known properties can be overridden by using identically named environment properties, global properties, or properties that are declared in the project file.
+ MSBuild uses the values in the following table to predefine reserved and well-known properties. Reserved properties cannot be overridden, and most well-known properties shouldn't be overridden except in advanced scenarios.
 
 ## Reserved and well-known properties
 
