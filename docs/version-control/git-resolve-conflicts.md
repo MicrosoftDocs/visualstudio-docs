@@ -2,7 +2,7 @@
 title: Resolve merge conflicts in Visual Studio
 titleSuffix: ""
 description: Understanding, preventing, and resolving merge conflicts in Visual Studio.
-ms.date: 11/10/2021
+ms.date: 10/05/2022
 ms.topic: how-to
 author: Taysser-Gherfal
 ms.author: tglee
@@ -35,7 +35,7 @@ Git is good at automatically merging file changes in most circumstances, as long
 
 ## Resolve merge conflicts
 
-- If you're collaborating with others in the same branch, you might get merge conflicts when you push your changes.
+- If you're collaborating with others in the same branch, you might see merge conflicts when you push your changes.
 
     :::image type="content" source="media/vs-2022/git-conflicts-push-link.png" alt-text="Screenshot of merge conflict after a push.":::
 
