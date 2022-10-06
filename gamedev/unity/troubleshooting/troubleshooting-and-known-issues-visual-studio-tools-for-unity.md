@@ -91,7 +91,7 @@ In the Exception Settings window (Debug > Windows > Exception Settings), expand 
 
 ## On Windows, Visual Studio asks to download the Unity target framework
 
-When using the legacy Unity runtime (.NET 3.5 equivalent), Visual Studio Tools for Unity requires the .NET framework 3.5, which isn't installed by default on Windows 8 or 10. To fix this issue, follow the instructions to download and install the .NET framework 3.5.
+When using the legacy Unity runtime (.NET 3.5 equivalent), Visual Studio Tools for Unity requires the .NET Framework 3.5, which isn't installed by default on Windows 8 or 10. To fix this issue, follow the instructions to download and install the .NET framework 3.5.
 
 When using the new Unity runtime, .NET targeting packs version 4.6 or 4.7.1 are also required depending on the Unity version. It is possible to use the Visual Studio installer to quickly install them (modify your installation, individual components, .NET category, select all 4.x targeting packs).
 

@@ -78,7 +78,7 @@ The following limitations apply when you re-target your test projects to use ear
 1. Create a new C++ **Unit Test Project** project.
 
    > [!WARNING]
-   > To build C++/CLI unit tests for a previous version of the .NET framework for Visual C++, you must use the corresponding version of Visual Studio.
+   > To build C++/CLI unit tests for a previous version of the .NET Framework for Visual C++, you must use the corresponding version of Visual Studio.
 
 2. In **Solution Explorer**, choose **Unload Project** from your new C++ test project.
 
