@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 09/02/2022
+ms.date: 10/05/2022
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -19,7 +19,105 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Welcome to what's new in the Visual Studio docs. The following sections provide the previous three months of what's new in the Visual Studio docs.
+Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
+
+## Azure
+
+### Updated articles
+
+- [Add a connection to Azure SQL Database](../azure/azure-sql-database-add-connected-service.md) - Add content for Entity Framework migrations support in Visual Studio
+
+## Cross platform
+
+### Updated articles
+
+- [Cross-platform mobile development in Visual Studio](../cross-platform/cross-platform-mobile-development-in-visual-studio.md) - Refresh text and screenshots
+
+## Debugger
+
+### Updated articles
+
+- [Debugging in Visual Studio](../debugger/index.yml) - Perform search engine optimization (SEO) work for debugger & code analysis documentation
+- [Debug .NET Apps in WSL with Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md) - Add attach-to-process content for article on debugging Linux using WSL
+- [Remote Debug ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) - Follow-up to Remote Debugging article updates
+- [Log info to the Output window using tracepoints in Visual Studio](../debugger/using-tracepoints.md) - Refresh text and screenshots
+
+## Deployment
+
+### New articles
+
+- [ClickOnce for .NET on Windows](../deployment/clickonce-deployment-dotnet.md)
+
+## Extensibility
+
+### New articles
+
+- [Target Visual Studio 2022 (ARM64) when creating an extension in Visual Studio 2022](../extensibility/arm64/target-arm64-visual-studio-extension.md)
+
+### Updated articles
+
+- Refresh text, links, and screenshots for the following:
+
+  - [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md)
+  - [Solution (.sln) file](../extensibility/internals/solution-dot-sln-file.md)
+  - [Start developing extensions in Visual Studio](../extensibility/starting-to-develop-visual-studio-extensions.md)
+
+## IDE
+
+### New articles
+
+- [Paste JSON or XML as classes](../ide/reference/paste-json-xml.md)
+
+### Updated articles
+
+- [How to: Add or remove references by using the Reference Manager](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md) - Add screenshots & new Remove References section
+- [How to: Sign application and deployment manifests](../ide/how-to-sign-application-and-deployment-manifests.md) Update & add link for.NET 5+ steps
+- [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md) - Add troubleshooting section
+- [Create portable, custom editor settings with EditorConfig](../ide/create-portable-custom-editor-options.md) - Refresh text, links, and screenshots
+
+## JavaScript
+
+### New articles
+
+- [Linting JavaScript in Visual Studio](../javascript/linting-javascript.md)
+
+## MSBuild
+
+### Updated articles
+
+- [Change waves](../msbuild/change-waves.md) - Update with latest change wave info
+- [How to: Use MSBuild project SDKs](../msbuild/how-to-use-project-sdk.md) - Update SDK reference refactoring
+- [Walkthrough: Create an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md) Update articles for Visual Studio 2022
+- [Customize your build](../msbuild/customize-your-build.md) - Add section for handling generated files
+
+## Profiling
+
+### New articles
+
+- [Excessive induced GCs](../profiling/perf-insights-excessive-induced-gcs.md)
+- [High LOH Fragmentation](../profiling/perf-insights-high-loh-fragmentation.md)
+- [Diagnose high latency with CPU Insights](../profiling/cpu-insights.md)
+
+### Updated articles
+
+- [Understand profiler performance collection methods](../profiling/understanding-performance-collection-methods-perf-profiler.md) - Enhance intro information for profiling tools
+
+## Test
+
+### Updated articles
+
+- [Configure unit tests by using a *.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) - Update blame data collection info
+
+## Community contributors
+
+The following people contributed to Visual Studio content during this period. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
+
+- [BeardInASuit](https://github.com/BeardInASuit) - BeardinaSuit (1)
+- [Chiramisu](https://github.com/Chiramisu) - Matthew (1)
+- [GitHubPang](https://github.com/GitHubPang) (1)
+- [hyoshioka0128](https://github.com/hyoshioka0128) - Hiroshi Yoshioka (1)
+- [jkbsrg](https://github.com/jkbsrg) (1)
+- [rbrightwell](https://github.com/rbrightwell) (1)
 
 ## August 2022
 
@@ -64,7 +162,7 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 - [What are solutions and projects in Visual Studio?](./solutions-and-projects-in-visual-studio.md) - Update content and add/revise links
 - [Options dialog box: Environment \> Tabs and Windows](./reference/tabs-and-windows-environment-options-dialog-box.md) - Add screenshots to Tabs & Windows options dialog page
-- [Customize window layouts in Visual Studio](./customizing-window-layouts-in-visual-studio.md) - Add Tabs & Docs Management personalization info
+- [Customize window layouts and personalize tabs in Visual Studio](./customizing-window-layouts-in-visual-studio.md) - Add Tabs & Docs Management personalization info
 - [Manage references in a project](./managing-references-in-a-project.md)
   - Clarify between Add Reference and Add Project Reference
   - Update the Add Project Reference screenshot
@@ -143,25 +241,13 @@ Welcome to what's new in the Visual Studio docs. The following sections provide 
 
 - [Stage lines of code in Visual Studio](../version-control/git-line-staging.md)
 
-## Community contributors
-
-The following person contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
-
-- [chadbaldwin](https://github.com/chadbaldwin) - Chad Baldwin (1)
-- [grantwinney](https://github.com/grantwinney) - Grant (1)
-- [jmartens](https://github.com/jmartens) - Jonathan Martens (1)
-- [just-ero](https://github.com/just-ero) - Ero (1)
-- [Orange23333](https://github.com/Orange23333) - Orange 233 (1)
-- [paritoshkr](https://github.com/paritoshkr) - PARITOSH KUMAR (1)
-- [psollberger](https://github.com/psollberger) - Patrick Sollberger (1)
-
 ## July 2022
 
 ### Azure
 
 **Updated articles**
 
-- [Overview: Connected Services](../azure/overview-connected-services.md) - Data Access in VS: Add connected services to applications
+- [Overview: Connected Services](../azure/overview-connected-services.md) - Data Access in Visual Studio: Add connected services to applications
 - [Debugging an Azure cloud service or virtual machine in Visual Studio](../azure/vs-azure-tools-debug-cloud-services-virtual-machines.md) - Update remote debugging steps for cloud services (extended support)
 
 ### Code quality
@@ -174,7 +260,7 @@ The following person contributed to the Visual Studio docs during this period. T
 
 **Updated articles**
 
-- [Work with data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md) - Data Access in VS: add Connected Services
+- [Work with data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md) - Data Access in Visual Studio: add Connected Services
 
 ### Debugger
 
@@ -189,7 +275,7 @@ The following person contributed to the Visual Studio docs during this period. T
 
 - [How to: Configure projects to target platforms](./how-to-configure-projects-to-target-platforms.md) - Add ARM64 targeting
 - [Options dialog box: Text Editor \> General](./reference/options-text-editor-general.md) - Update with new Visual Studio 2022 information
-- [Collect an ETL trace with PerfView and create minidumps with all call stacks](./report-a-problem-perfview-minidumps.md) - Update steps for creating a minidump 
+- [Collect an ETL trace with PerfView and create minidumps with all call stacks](./report-a-problem-perfview-minidumps.md) - Update steps for creating a minidump
 
 ### Install
 
@@ -207,7 +293,7 @@ The following person contributed to the Visual Studio docs during this period. T
 
 **New articles**
 
-- [MSBuild and Visual Studio format for diagnostic message](../msbuild/msbuild-diagnostic-format-for-tasks.md) 
+- [MSBuild and Visual Studio format for diagnostic message](../msbuild/msbuild-diagnostic-format-for-tasks.md)
 
 **Updated articles**
 
@@ -215,128 +301,3 @@ The following person contributed to the Visual Studio docs during this period. T
 - [Delete task](../msbuild/delete-task.md) - Add example of deleting files in an ItemGroup
 - [How to: Configure targets and tasks](../msbuild/how-to-configure-targets-and-tasks.md) - Add section on overriding usingtasks
 - [Troubleshoot .NET Framework targeting errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md) - Update .NET targeting to latest .NET terminology
-
-## June 2022
-
-### Containers
-
-**Updated articles**
-
-- [Container Tools launch settings](../containers/container-launch-settings.md) - Update docs for DockerfileRunArguments
-- [How to customize Docker containers in Visual Studio](../containers/container-build.md) - Change container build and debug overview into "how to customize containers"
-
-### Data tools
-
-**Updated articles**
-
-- [Create a simple data application with WPF and Entity Framework 6](../data-tools/create-a-simple-data-application-with-wpf-and-entity-framework-6.md) - EF 6 walkthrough: updates for Visual Studio 2022
-
-### Debugger
-
-**New articles**
-
-- [Advanced visualizer scenarios](../debugger/visualizer-advanced-scenarios.md)
-
-**Updated articles**
-
-- [How to debug for absolute beginners](../debugger/debugging-absolute-beginners.md) - Review and update Visual Studio docs for debug & deployment
-- [View the call stack and use the Call Stack window in the debugger](../debugger/how-to-use-the-call-stack-window.md) - Review and update Visual Studio docs for debug & deployment
-- Consolidate the following Spy++ reference pages: 
-    - [About Microsoft Spy++](../debugger/about-microsoft-spy-increment.md) 
-    - [Spy++ menu commands](../debugger/menu-commands.md) 
-    - [Message Options dialog box](../debugger/message-options-dialog-box.md) 
-    - [Message Properties dialog box](../debugger/message-properties-dialog-box.md) 
-    - [Process Properties dialog box](../debugger/process-properties-dialog-box.md)
-    - [Search tools for Spy++ views](../debugger/search-tools-for-spy-increment-views.md) 
-    - [Spy++ reference overview](../debugger/spy-increment-reference.md)
-    - [Thread Properties dialog box](../debugger/thread-properties-dialog-box.md)
-    - [Window Properties dialog box](../debugger/window-properties-dialog-box.md) 
-- [Use time travel debugging to record and replay ASP.NET apps on Azure VMs](../debugger/debug-live-azure-virtual-machines-time-travel-debugging.md) - DevEdit Time Travel Debugging live ASP.NET on Azure VM
-- [Remote Debug ASP.NET Core on IIS using an Azure VM from Visual Studio](../debugger/remote-debugging-azure.md) - Search engine optimization and discovery work for debugging ASP.NET Core on Azure App Service
-
-### Deployment
-
-**Updated articles**
-
-- [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md) - .NET updates for ClickOnce Security and Deployment
-
-### Extensibility
-
-**Updated articles**
-
-- [Migrate 64-bit debugger COM class registration](../extensibility/migrate-debugger-com-registration.md) - Edits to improve search engine optimization and usability
-
-### IDE
-
-**Updated articles**
-
-- [Troubleshoot broken references](./troubleshooting-broken-references.md) - apply minor text edits
-- [Learn about Solution Explorer](./use-solution-explorer.md) - add/update screenshots & revise text
-- [Manage project and solution properties](./managing-project-and-solution-properties.md) - add Visual Basic screenshot and text edits
-- [What is the .NET Project Designer?](./reference/project-properties-reference.md) - update terminology & screenshots
-- [Create, work with, and delete Visual Studio projects and solutions](./creating-solutions-and-projects.md) - update 'Create Project for .NET Framework' section
-- [Code style preferences](./code-styles-and-code-cleanup.md) - Add mapping of code cleanup settings to code style rule IDs and options
-- [Keyboard shortcuts in Visual Studio](./default-keyboard-shortcuts-in-visual-studio.md) - add missing Command IDs
-
-### Install
-
-**Updated articles**
-
-- [Visual Studio on Arm-powered devices](../install/visual-studio-on-arm-devices.md) - Arm64 updates for Visual Studio 17.3 Preview 2
-
-### JavaScript
-
-**Updated articles**
-
-- [Debug a JavaScript or TypeScript app in Visual Studio](../javascript/debug-nodejs.md) - Review and update Visual Studio docs for debug & deployment
-
-### Modeling
-
-**Updated articles**
-
-Edits to improve search engine optimization and usability for the following pages:
-  - [Add extensions to DSL definitions](../modeling/adding-extensions-to-dsl-definitions.md) 
-  - [Calculated and custom storage properties](../modeling/calculated-and-custom-storage-properties.md) 
-  - [Create a WPF-Based domain-specific language](../modeling/creating-a-wpf-based-domain-specific-language.md) 
-  - [Define a locking policy to create read-only segments](../modeling/defining-a-locking-policy-to-create-read-only-segments.md) 
-  - [Write code to customize a domain-specific language](../modeling/writing-code-to-customise-a-domain-specific-language.md) 
-  - [Control the visibility of an icon or decorator](../modeling/controlling-the-visibility-of-an-icon-or-decorator.md) 
-  - [How to: Intercept a click on a shape or decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md) 
-  - [How to: Set CLR attributes on an element](../modeling/how-to-set-clr-attributes-on-an-element.md) 
-  - [Integrate models by using Visual Studio ModelBus](../modeling/integrating-models-by-using-visual-studio-modelbus.md) 
-  - [Share classes between DSLs](../modeling/sharing-classes-between-dsls-by-using-a-dsl-library.md) 
-
-### MSBuild
-
-**Updated articles**
-
-- [Move task](../msbuild/move-task.md) - Add examples for Move task
-- [ResolveAssemblyReference task](../msbuild/resolveassemblyreference-task.md) - ResolveAssemblyReference: add missing parameters
-- [Logging in MSBuild](../msbuild/logging-in-msbuild.md)
-  - Indenting link descriptions
-- [Target build order](../msbuild/target-build-order.md) - MSBuild: don't use both Before and AfterTargets
-- [How to: Change the build output directory](./how-to-change-the-build-output-directory.md) - How to update the build output path: update for Visual Studio 2022
-- [How to: Suppress compiler warnings](./how-to-suppress-compiler-warnings.md) - Suppress warnings: updates for Visual Studio 2022
-- [How to: Create and edit configurations](./how-to-create-and-edit-configurations.md) - How to Edit Configurations: updates for Visual Studio 2022
-
-### Python
-
-**Updated articles**
-
-- [How to set up a Python environment on Azure App Service (Windows)](../python/managing-python-on-azure-app-service.md) - adding fastcgi content and note
-- [Configure Python web apps for IIS](../python/configure-web-apps-for-iis-windows.md) - adding wfastcgi content and note
-- [Use PyLint to check Python code](../python/linting-python-code.md) - Review and update Visual Studio articles for using PyLint to check Python code
-- [Profile Python code](../python/profiling-python-code-in-visual-studio.md) - Review and update Visual Studio articles for profiling Python code
-- [Work with the Python Interactive window](../python/python-interactive-repl-in-visual-studio.md) - Review and update Visual Studio articles for Python Interactive window
-- [Refactor Python code](../python/refactoring-python-code.md) - Review and update Visual Studio articles for refactoring Python code
-
-### Test
-
-**New articles**
-
-- [Microsoft.CodeCoverage.Console tool](../test/microsoft-code-coverage-console-tool.md)
-
-**Updated articles**
-
-- [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) - Review and update Visual Studio docs for debug & deployment
-- [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md) - Static instrumentation doc
