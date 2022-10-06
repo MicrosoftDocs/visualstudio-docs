@@ -6,8 +6,8 @@ ms.date: 01/31/2018
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, multitargeting
-- targeting a specific .NET framework [MSBuild]
-- MSBuild, targeting a specific .NET framework
+- targeting a specific .NET Framework [MSBuild]
+- MSBuild, targeting a specific .NET Framework
 - multitargeting [MSBuild]
 ms.assetid: 40040ee7-4620-4043-a6d8-ccba921421d1
 author: ghogen
