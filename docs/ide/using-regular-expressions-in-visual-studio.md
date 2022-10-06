@@ -2,7 +2,7 @@
 title: Use regular expressions
 description: Learn about some regular expression characters, operators, constructs, and pattern examples that you can use in Visual Studio.
 ms.custom: SEO-VS-2020
-ms.date: 10/21/2021
+ms.date: 10/07/2022
 ms.topic: conceptual
 f1_keywords:
 - vsregularexpressionhelp
@@ -44,9 +44,9 @@ The following table contains some regular expression characters, operators, cons
 |Anchor the match string to the end of the file|$|`car$` matches "car" only when it appears at the end of the file|
 |Match any single character in a set|[abc]|`b[abc]` matches "ba", "bb", and "bc"|
 |Match any character in a range of characters|[a-f]|`be[n-t]` matches "bet" in "between", "ben" in "beneath", and "bes" in "beside", but finds no matches in "below"|
-|Capture and implicitly number the expression contained within parenthesis|()|`([a-z])X\1` matches "aXa"and "bXb", but not "aXb". "\1" refers to the first expression group "[a-z]". For more information, see [Capture groups and replacement patterns](#capture-groups-and-replacement-patterns). |
+|Capture and implicitly number the expression contained within parenthesis|()|`([a-z])X\1` matches "aXa" and "bXb", but not "aXb". "\1" refers to the first expression group "[a-z]". For more information, see [Capture groups and replacement patterns](#capture-groups-and-replacement-patterns). |
 |Invalidate a match|(?!abc)|`real(?!ity)` matches "real" in "realty" and "really" but not in "reality." It also finds the second "real" (but not the first "real") in "realityreal".|
-|Match any character that is not in a given set of characters. For more information, see [Negative character group](/dotnet/standard/base-types/character-classes-in-regular-expressions#negative-character-group-).|[^abc]|`be[^n-t]` matches "bef" in "before", "beh" in "behind", and "bel" in "below", but finds no matches in "beneath"|
+|Match any character that isn't in a given set of characters. For more information, see [Negative character group](/dotnet/standard/base-types/character-classes-in-regular-expressions#negative-character-group-).|[^abc]|`be[^n-t]` matches "bef" in "before", "beh" in "behind", and "bel" in "below", but finds no matches in "beneath"|
 |Match either the expression before or the one after the symbol|&#124;|`(sponge|mud) bath` matches "sponge bath" and "mud bath"|
 |[Escape the character](/dotnet/standard/base-types/character-escapes-in-regular-expressions) following the backslash| \\ |`\^` matches the character ^|
 |Specify the number of occurrences of the preceding character or group. For more information, see [Match exactly n times](/dotnet/standard/base-types/quantifiers-in-regular-expressions#match-exactly-n-times-n).|{n}, where 'n' is the number of occurrences|`x(ab){2}x` matches "xababx"<br/>`x(ab){2,3}x` matches "xababx" and "xabababx" but not "xababababx"|
