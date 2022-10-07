@@ -567,7 +567,7 @@ To use a custom up-to-date check:
 
 ### Default .vcxproj project upgrader
 
-The default .vcxproj project upgrader changes the `PlatformToolset`, `ApplicationTypeRevision`, MSBuild toolset version and .Net framework. The last two are always changed to the Visual Studio version defaults, but `PlatformToolset` and `ApplicationTypeRevision` can be controlled by special MSBuild properties.
+The default .vcxproj project upgrader changes the `PlatformToolset`, `ApplicationTypeRevision`, MSBuild toolset version and .NET Framework. The last two are always changed to the Visual Studio version defaults, but `PlatformToolset` and `ApplicationTypeRevision` can be controlled by special MSBuild properties.
 
 The upgrader uses these criteria to decide whether a project can be upgraded or not:
 

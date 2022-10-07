@@ -19,7 +19,7 @@ The Data Science and Analytical Applications workload, which you select and inst
 
 ::: moniker range="vs-2019"
 - [Python](../python/overview-of-python-tools-for-visual-studio.md)
-- [F# with the .NET framework](/dotnet/fsharp/)
+- [F# with the .NET Framework](/dotnet/fsharp/)
 ::: moniker-end
 
 ![Data Science and Analytics Applications workload in the Visual Studio installer](media/workload/data-science-workload.png)

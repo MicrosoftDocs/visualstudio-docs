@@ -56,7 +56,7 @@ productDirectory:
     - title: GitHub Codespaces
       imageSrc: /media/logos/logo_octokitty.svg
       links:
-         - url: https://docs.github.com/github/developing-online-with-codespaces/
+         - url: https://docs.github.com/codespaces
            text: Documentation
          - url: https://code.visualstudio.com/docs/remote/codespaces/
            text: Use with Visual Studio Code
