@@ -67,7 +67,7 @@ You can create a typed <xref:System.Data.DataSet> class in Visual Studio at desi
 
 1. You can add new tables or table adapters to the dataset, or add new queries for existing table adapters, or specify new relations between tables by dragging those items from the **Toolbox** tab. This tab appears when the **DataSet Designer** is in focus.
 
-     ![Screenshot showing Dataset Toolbox](../data-tools/media/vs-2022/dataset-designer-toolbox.png)
+     ![Screenshot showing Dataset Toolbox.](../data-tools/media/vs-2022/dataset-designer-toolbox.png)
 
 Next, you might want to specify how to populate the dataset with data. For that, you use the **TableAdapter Configuration Wizard**. For more information, see [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md).
 
