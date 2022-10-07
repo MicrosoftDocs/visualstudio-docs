@@ -1,12 +1,12 @@
 ---
-title: Targeted .NET frameworks
+title: Targeted .NET Frameworks
 description: Learn how to specify the version of the .NET Framework that you want your project to target so the application can only use functionality that's available in the specified version.
 ms.date: 03/23/2022
 ms.topic: overview
 helpviewer_keywords:
 - targeting .NET Framework [Visual Studio]
 - framework targeting [Visual Studio]
-- .NET framework targeting [Visual Studio]
+- .NET Framework targeting [Visual Studio]
 author: TerryGLee
 ms.author: tglee
 manager: jmartens

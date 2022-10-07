@@ -14,7 +14,7 @@ ms.workload:
 ---
 # What's new in MSBuild 15
 
-MSBuild is now available as part of the [.NET Core SDK](https://www.microsoft.com/net/download/core) and can build .NET Core projects on Windows, macOS, and Linux.
+MSBuild is now available as part of the [.NET Core SDK](https://dotnet.microsoft.com/download) and can build .NET Core projects on Windows, macOS, and Linux.
 
 ## Changed path
 
