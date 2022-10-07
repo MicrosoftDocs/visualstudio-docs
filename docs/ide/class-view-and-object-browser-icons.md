@@ -43,9 +43,9 @@ ms.workload:
 |![Type Forwarding Symbol](../ide/media/ob_type_forward.gif)|Type Forwarding|||
 
 > [!TIP]
-> To best view the icons on this page, make sure that your Microsoft Docs theme is set to **Light**. You can toggle this color theme from the control that's located at the bottom left of the page, as shown in the following screenshot:
+> To best view the icons on this page, make sure that your Microsoft Learn theme is set to **Light**. You can toggle this color theme from the control that's located at the bottom left of the page, as shown in the following screenshot:
 >
-> ![Docs theme](../ide/media/toggle-docs-color-theme.png "Toggle the color theme for Microsoft Docs pages")
+> ![Docs theme](../ide/media/toggle-docs-color-theme.png "Toggle the color theme for Microsoft Learn pages")
 
 ## Signal icons
 

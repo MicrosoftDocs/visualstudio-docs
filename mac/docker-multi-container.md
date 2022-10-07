@@ -99,7 +99,7 @@ We now have two ASP.NET projects in our solution and both are configured with Do
 
       <div class="text-center">
           <h1 class="display-4">Welcome</h1>
-          <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+          <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
           <p>@ViewData["Message"]</p>
       </div>
       ```

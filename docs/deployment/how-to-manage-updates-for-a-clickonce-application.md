@@ -46,6 +46,8 @@ ms.workload:
 
 2. Click the **Publish** tab.
 
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
+
 3. Click the **Updates** button to open the **Application Updates** dialog box.
 
 4. In the **Application Updates** dialog box, make sure that the **The application should check for updates** check box is selected.
@@ -65,6 +67,8 @@ ms.workload:
 5. In the **Choose when the application should check for updates section**, select **After the application starts**. The application will start more quickly this way, and then it will check for updates in the background, and only notify the user when an update is available. Once installed, updates will not take effect until the application is restarted.
 
 6. In the **Specify how frequently the application should check for updates** section, select either **Check every time the application runs** (the default) or **Check every** and enter a number and time interval.
+
+[!INCLUDE[ndptecclick](../deployment/includes/dotnet-task-unsupported.md)]
 
 ### To specify a minimum required version for the application
 

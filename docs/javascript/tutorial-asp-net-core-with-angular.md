@@ -70,7 +70,7 @@ Make sure to install the following:
  
    :::image type="content" source="media/vs-2022/asp-net-core-choose-web-api-template.png" alt-text="Choose the Web API template":::
 
-1. Give your project and solution a name. When you get to the **Additional information** window, select **.NET 6.0** as your target framework.
+1. Give your project a name. When you get to the **Additional information** window, select **.NET 6.0** as your target framework.
 
    Once the project is created, Solution Explorer should look like this:
 
@@ -152,7 +152,7 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 
 1. To publish, right click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, et al.
 
-   The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run build command` gets invoked when publishing.
+   The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run build` command gets invoked when publishing.
 
    You can modify the `npm run build` command using the **Production Build Command** in the Angular project properties. To modify it, right-click the Angular project in Solution Explorer and choose **Properties**.
 

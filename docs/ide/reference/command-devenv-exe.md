@@ -44,14 +44,14 @@ If an add-in exposes a command, you can use this switch to launch the add-in fro
 
 The first example launches Visual Studio and automatically runs the macro Open Favorite Files.
 
-The second example opens a web browsing tab within the IDE and navigates to the Microsoft Docs site.
+The second example opens a web browsing tab within the IDE and navigates to the Microsoft Learn site.
 
 The third example creates a new file called `some_file.cs` and opens it in a code editor.
 
 ```shell
 devenv /command "Macros.MyMacros.Module1.OpenFavoriteFiles"
 
-devenv /command "navigate https://docs.microsoft.com/"
+devenv /command "navigate https://learn.microsoft.com/"
 
 devenv /command "nf some_file.cs"
 ```

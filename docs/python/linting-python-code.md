@@ -3,8 +3,8 @@ title: Use PyLint for Python code
 description: Run PyLint in Visual Studio to check issues in Python code, including command-line options to customize linting.
 ms.date: 06/02/2022
 ms.topic: how-to
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: ijoosong
+ms.author: joesong
 manager: jmartens
 ms.technology: vs-python
 ms.custom: devdivchpfy22

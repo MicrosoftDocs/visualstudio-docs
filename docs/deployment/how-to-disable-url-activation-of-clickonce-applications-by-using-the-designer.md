@@ -37,6 +37,8 @@ Typically, a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] a
 
 2. On the **Properties** page, click the **Publish** tab.
 
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
+
 3. Click **Options**.
 
 4. Click **Manifests**.

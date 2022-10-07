@@ -311,8 +311,8 @@ Feel free to dive into any of the following language-specific tutorials:
 
 - [The Git experience in Visual Studio](../version-control/git-with-visual-studio.md)
 - [Compare Git and Team Explorer side-by-side](../version-control/git-team-explorer-feature-comparison.md)
-- [Microsoft Learn: Get started with Git and GitHub in Visual Studio](/learn/modules/visual-studio-github-push/)
-- [Microsoft Learn: Get started with Azure DevOps](/learn/modules/get-started-with-devops/)
+- [Get started with Git and GitHub in Visual Studio](/training/modules/visual-studio-github-push/)
+- [Get started with Azure DevOps](/training/modules/get-started-with-devops/)
 - [Azure DevOps Services: Get started with Azure Repos and Visual Studio](/azure/devops/repos/git/gitquickstart/)
 
 ::: moniker-end

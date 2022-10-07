@@ -190,7 +190,7 @@ Your solution should also include a web performance test that browses through th
 
 6. Select the .NET Framework Data Provider for OLE DB.
 
-     ![Select the .NET framework OLE DB data provider](../test/media/web_test_databinding_adddatasourcecolortext2.png)
+     ![Select the .NET Framework OLE DB data provider](../test/media/web_test_databinding_adddatasourcecolortext2.png)
 
 7. Choose **Advanced**.
 

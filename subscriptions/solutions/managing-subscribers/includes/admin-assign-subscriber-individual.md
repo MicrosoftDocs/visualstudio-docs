@@ -30,5 +30,5 @@ The admin must be a member of the Azure AD tenant to use this method.
 5. After you select the user, the sign-in email and notification email are automatically populated. You can change the values, as needed.
 6. Enter all of the required information, and then select **Add**.
 
-Read documentation with screenshots and a video for more details on [how to add a single user](https://docs.microsoft.com/visualstudio/subscriptions/assign-license).
-If your organization can over assign subscriptions, learn more about [how to automate assignments by using Azure AD groups](https://docs.microsoft.com/visualstudio/subscriptions/assign-license-bulk).
+Read documentation with screenshots and a video for more details on [how to add a single user](https://learn.microsoft.com/visualstudio/subscriptions/assign-license).
+If your organization can over assign subscriptions, learn more about [how to automate assignments by using Azure AD groups](https://learn.microsoft.com/visualstudio/subscriptions/assign-license-bulk).

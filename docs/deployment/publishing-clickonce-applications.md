@@ -31,6 +31,8 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 
  Subsequent changes to publish properties are made on the **Publish** page in the **Project Designer**.
 
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
+
 ## Publish Wizard
  You can use the Publish Wizard to set the basic settings for publishing your application. This includes the following publishing properties:
 

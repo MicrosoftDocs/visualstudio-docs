@@ -63,7 +63,7 @@ The following command-line switches display the IDE and do the described task.
 
 |Command line switch|Description|
 | - |-----------------|
-|[/Command](command-devenv-exe.md)|Starts the IDE and executes the specified command.<br /><br /> `devenv /command "nav https://docs.microsoft.com/"`|
+|[/Command](command-devenv-exe.md)|Starts the IDE and executes the specified command.<br /><br /> `devenv /command "nav https://learn.microsoft.com/"`|
 |[/DebugExe](debugexe-devenv-exe.md)|Loads a C++ executable under the control of the debugger. This switch isn't available for Visual Basic or C# executables. For more information, see [Automatically start a process in the debugger](../../debugger/debug-multiple-processes.md#BKMK_Automatically_start_an_process_in_the_debugger).<br /><br /> `devenv /debugexe mysln.exe`|
 |[/Diff](diff.md)|Compares two files. Takes four parameters: *SourceFile*, *TargetFile*, *SourceDisplayName* (optional), and *TargetDisplayName* (optional).<br /><br /> `devenv /diff File1 File2 Alias1 Alias2`|
 |[/DoNotLoadProjects](donotloadprojects-devenv-exe.md)|Opens the specified solution without loading any projects.<br /><br /> `devenv /donotloadprojects mysln.sln`|

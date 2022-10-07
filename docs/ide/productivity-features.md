@@ -2,7 +2,7 @@
 title: Productivity guide
 description: Learn about the keyboard shortcuts and productivity features in Visual Studio that can help you efficiently write code, debug code, and handle errors.
 ms.custom: SEO-VS-2020
-ms.date: 08/24/2022
+ms.date: 09/23/2022
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -50,6 +50,8 @@ Write code more quickly by using the following features.
 - **Use code snippets**. You can use built-in snippets, or create your own snippets.
 
      To insert a snippet, on the menu bar, choose **Edit** > **IntelliSense** > **Insert Snippet** or **Surround With**, or open the shortcut menu in a file and choose **Snippet** > **Insert Snippet** or **Surround With**. For more information, see [Code Snippets](../ide/code-snippets.md).
+
+- **[Paste JSON or XML as classes](reference/paste-json-xml.md)**. Copy any JSON or XML text fragment to the clipboard and then paste it as strongly typed .NET classes into any C# or Visual Basic code file. To do so, use **Edit** > **Paste Special** > **Paste JSON As Classes** (or **Paste XML As Classes**).
 
 - **Fix code errors inline**. Quick Actions let you easily refactor, generate, or otherwise modify code with a single action. These actions can be applied using the screwdriver ![Screwdriver icon](media/screwdriver-icon.png) or light bulb ![Light bulb icon](media/light-bulb-icon.png) icons, or by pressing **Alt**+**Enter** or **Ctrl**+**.** when your cursor is on the appropriate line of code. See [Quick Actions](quick-actions.md) for more information.
 

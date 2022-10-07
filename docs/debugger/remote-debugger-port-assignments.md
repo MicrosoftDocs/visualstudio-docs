@@ -59,7 +59,7 @@ This port is configurable from the command line: **Msvsmon /wow64port \<port num
 
 ## Remote Debugger Ports on Microsoft Azure App Service
 
-Remote debugger ports are configurable. Currently, Azure App Service does not use the default ports associated with your version of Visual Studio. Azure App Service uses port 4024 (64-bit) and 4025 (for a 32-bit process) for the remote debugger.
+Remote debugger ports are configurable. Currently, Azure App Service does not use the default ports associated with your version of Visual Studio. Azure App Service uses port 4024 for the remote debugger.
 
 ## The Discovery Port
 

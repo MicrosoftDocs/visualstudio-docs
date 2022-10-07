@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Step 5 of a core walkthrough of Python capabilities in Visual Studio. Demonstrates Visual Studio features on how to manage and install packages in a Python environment.
 ms.date: 02/28/2022
 ms.topic: tutorial
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: ijoosong
+ms.author: joesong
 manager: jmartens
 ms.technology: vs-python
 
@@ -94,11 +94,6 @@ The Python developer community has produced thousands of useful packages that yo
 1. Consent to elevation if prompted to do so.
 
 1. After the package is installed, it appears in the **Python Environments** window. The **X** to the right of the package uninstalls it.
-
-1. Enter `matplotlib` into the search field to install `matplotlib`.
-
-1. Select the **Run command: pip install matplotlib** option.
-      This option installs `matplotlib`, and any packages it depends on (in this case, that includes `numpy`).
 
    :::moniker range="vs-2022"
     ![Installing matplotlib in the environment-2022 in Packages tab](media/environments/environments-add-matplotlib-2022.png)

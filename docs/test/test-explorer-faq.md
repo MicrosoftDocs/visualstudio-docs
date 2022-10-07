@@ -11,10 +11,10 @@ helpviewer_keywords:
   - "summary line"
   - "unit tests"
   - "Test Explorer FAQ"
-ms.author: jmartens
+ms.author: mikejo
 ms.workload:
   - "multiple"
-author: jmartens
+author: MikeJo5000
 manager: jmartens
 ms.technology: vs-ide-test
 ---
