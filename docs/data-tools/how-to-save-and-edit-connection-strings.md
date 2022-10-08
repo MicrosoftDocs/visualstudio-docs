@@ -2,7 +2,7 @@
 title: 'How to: Save and Edit Connection Strings'
 description: Know how to save and edit connection strings in Visual Studio applications. Save or edit a connection string directly in application settings.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 10/07/2022
 ms.topic: how-to
 ms.assetid: f8ef3a2c-029c-423b-9d9e-a4f1add4f640
 author: ghogen
@@ -15,11 +15,18 @@ ms.workload:
 # How to: Save and edit connection strings
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-Connection strings in Visual Studio applications are saved in the application configuration file (also referred to as application settings), or hard-coded directly in your application. Saving connection strings in the application configuration file simplifies the task of maintaining your application. If the connection string needs to be changed, you can update it in the application settings file (as opposed to having to change it in the source code and recompile the application).
 
-Storing sensitive information (such as the password) within the connection string can affect the security of your application. Connection strings saved to the application configuration file are not encrypted or obfuscated, so it may be possible for someone to access the file and view its contents. Using Windows integrated security is a more secure way to control access to a database.
+> [!NOTE]
+> This article provides guidance for handling connection strings in Windows applications; for cloud and web applications, more secure techniques are available. You can use [Connected Services](../azure/overview-connected-services.md) to add support for Secrets.json for local development, and then migrate to Azure Key Vault for secrets storage when you deploy to Azure. See [Protect secrets during development.](/aspnet/core/security/app-secrets?tabs=windows).
+
+Properly handling the connection string in a Visual Studio application requires care to avoid presenting security risks. Connection strings in Visual Studio applications are often saved in the application configuration file (also referred to as application settings), or hard-coded directly in your application. Hard-coding directly into the application is not recommended, because the sensitive information in the connection string, such as the database credentials, can be read directly from the unencrypted binaries. Saving connection strings in the application configuration file simplifies the task of maintaining your application. If the connection string needs to be changed, you can update it in the application settings file (as opposed to having to change it in the source code and recompile the application).
+
+Storing sensitive information (such as the password) within the connection string can affect the security of your application. Connection strings saved to the application configuration file are not encrypted or obfuscated, so it may be possible for someone to access the file and view its contents.
+
+For databases that support it, using Windows integrated security is a more secure way to control access to a database.
 
 If you do not choose to use Windows integrated security and your database requires a user name and password, you can omit them from the connection string, but your application will need to provide this information to successfully connect to the database. For example, you can create a dialog box that prompts the user for this information and dynamically builds the connection string at run time. Security can still be an issue if the information is intercepted on the way to the database.
+
 For more information, see [Protecting connection information](/dotnet/framework/data/adonet/protecting-connection-information).
 
 ## To save a connection string from within the Data Source Configuration Wizard
