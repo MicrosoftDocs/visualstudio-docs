@@ -71,7 +71,7 @@ For .NET Core and .NET 5 or later, you typically use `dotnet build` to invoke MS
 
  MSBuild uses an XML-based project file format that's straightforward and extensible. The MSBuild project file format lets developers describe the items that are to be built, and also how they are to be built for different operating systems and configurations. In addition, the project file format lets developers author reusable build rules that can be factored into separate files so that builds can be performed consistently across different projects in the product.
 
- The Visual Studio build system stores project-specific logic in the your project file itself, and uses imported MSBuild XML files with extensions like *.props* and *.targets* to define the standard build logic. The *.props* files define MSBuild properties, and *.targets* files define MSBuild targets. These imports are sometimes visible in the Visual Studio project file, but in newer projects such as .NET Core, .NET 5 and .NET 6 projects, you don't see the imports in the project file; instead, you see an SDK reference, which looks like this:
+ The Visual Studio build system stores project-specific logic in the your project file itself, and uses imported MSBuild XML files with extensions like `.props` and `.targets` to define the standard build logic. The `.props` files define MSBuild properties, and `.targets` files define MSBuild targets. These imports are sometimes visible in the Visual Studio project file, but in newer projects such as .NET Core, .NET 5 and .NET 6 projects, you don't see the imports in the project file; instead, you see an SDK reference, which looks like this:
 
 ```xml
 <Project Sdk="Microsoft.Net.Sdk">
