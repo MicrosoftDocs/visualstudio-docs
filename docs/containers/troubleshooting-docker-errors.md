@@ -4,12 +4,11 @@ description: Troubleshoot problems you encounter when using Visual Studio to cre
 ms.technology: vs-container-tools
 author: ghogen
 manager: jmartens
-
 ms.assetid: 346f70b9-7b52-4688-a8e8-8f53869618d3
 ms.devlang: dotnet
 ms.topic: troubleshooting
 ms.workload: multiple
-ms.date: 11/12/2021
+ms.date: 10/07/2022
 ms.author: ghogen
 ---
 # Troubleshoot Visual Studio development with Docker
@@ -104,3 +103,4 @@ For any other issues you encounter, see  [Microsoft/DockerTools](https://github.
 ## See also
 
 - [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)
+- [Container Tools error messages)(container-tools-error-messages.md)
