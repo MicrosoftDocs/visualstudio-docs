@@ -2,7 +2,7 @@
 title: "How to run a program (C#)"
 description: "Beginner's guide on how to run a C# program in Visual Studio."
 ms.custom: "vs-acquisition, get-started"
-ms.date: 09/14/2021
+ms.date: 10/07/2022
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
