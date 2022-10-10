@@ -60,15 +60,10 @@ In **Solution Explorer**, choose **Unload** from the right-click menu of your pr
 
 ## Import the text transformation targets
 
-In the .vbproj or .csproj file, find a line like this:
+In the .vbproj or .csproj file, find the last `Import Project` line.
 
-`<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />`
+After that line, if it exists, insert the Text Templating import:
 
-\- or -
-
-`<Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />`
-
-After that line, insert the Text Templating import:
 
 ::: moniker range=">=vs-2022"
 

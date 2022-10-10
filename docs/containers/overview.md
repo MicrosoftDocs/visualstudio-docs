@@ -4,7 +4,7 @@ description: Get to know the tools available in Visual Studio for working with D
 author: ghogen
 ms.author: ghogen
 ms.topic: overview
-ms.date: 10/27/2021
+ms.date: 10/07/2022
 ms.technology: vs-container-tools
 ---
 # Visual Studio Container Tools for Docker
