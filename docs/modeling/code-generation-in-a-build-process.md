@@ -62,7 +62,8 @@ In **Solution Explorer**, choose **Unload** from the right-click menu of your pr
 
 In the .vbproj or .csproj file, find the last `Import Project` line.
 
-After that line, insert the Text Templating import:
+After that line, if it exists, insert the Text Templating import:
+
 
 ::: moniker range=">=vs-2022"
 
