@@ -31,9 +31,21 @@ The **Flame Graph** helps you identify hot paths in your code by visualizing a c
 
 ![Screenshot showing Flame Graph overview displayed.](./media/vs-2022/flame-graph-overview.png "Flame Graph overview displayed")
 
-1. Click **Flip Flame Graph** to switch the call tree nodes from descending to ascending order.
+1. By default, the flame graph in the CPU tool is shown upside down or as an "icicle chart," where the y-axis is counting stack depth downwards from zero at the top. You can view the standard flame chart layout by clicking **Flip Flame Graph**.
 
 ![Screenshot showing Flip Flame Graph selected.](./media/vs-2022/flame-graph-flip.png "Flip Flame Graph selected")
+
+## Navigation
+In the Flame Graph view, you can navigate by clicking on a node with a mouse or using the keyboard.
+
+Shortcut command table
+Tab key -> go to any node
+Up/Down arrow key -> go to a node's parent or child
+Left/Right arrow key -> go to a node's left or right sibling
+Zoom -> Enter key
+Zoom out -> Escape key
+
+
 
 ## See also
 - [Diagnose high latency with CPU Insights](../profiling/cpu-insights.md)
