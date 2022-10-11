@@ -113,6 +113,8 @@ items:
         href: item-metadata-in-target-batching.md
     - name: MSBuild transforms
       href: msbuild-transforms.md
+    - name: MSBuild Server
+      href: msbuild-server.md
     - name: Visual Studio integration
       items:
       - name: Visual Studio integration (MSBuild)
