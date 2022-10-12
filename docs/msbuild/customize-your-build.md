@@ -2,7 +2,7 @@
 title: Customize your build | Microsoft Docs
 description: Learn about several extensibility hooks you can use to customize MSBuild projects that use the standard build process. 
 ms.custom: SEO-VS-2020
-ms.date: 09/13/2021
+ms.date: 10/07/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, transforms
