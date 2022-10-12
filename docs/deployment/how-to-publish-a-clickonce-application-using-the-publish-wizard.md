@@ -42,6 +42,8 @@ Before you run the Publish Wizard, you should set the publishing properties appr
 
     The Publish Wizard appears.
 
+    [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
+
 3. In the **Where do you want to publish the application?** page, enter a valid FTP server address or a valid file path using one of the formats shown, and then click **Next**.
 
 4. In the **How will users install the application?** page, select the location where users will go to install the application:

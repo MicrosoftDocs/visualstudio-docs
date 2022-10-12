@@ -2,10 +2,10 @@
 title: Visual Studio build numbers and release dates
 titleSuffix: ''
 description: A list of released versions and build numbers for Visual Studio, sorted by date.
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: TerryGLee
+ms.author: tglee
 manager: jmartens
-ms.date: 08/30/2022
+ms.date: 10/11/2022
 ms.custom: vs-acquisition
 ms.topic: reference
 ms.workload:
@@ -26,6 +26,16 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 17.4.0  | Preview 3 | October 11, 2022 | 17.4.33006.217 |
+| 17.3.6  | Release | October 11, 2022 | 17.3.32929.385 |
+| 17.2.9  | Release | October 11, 2022 | 17.2.32929.388 |
+| 17.0.15 | Release | October 11, 2022 | 17.0.32929.387 |
+| 17.3.5  | Release | September 27, 2022 | 17.3.32922.545 |
+| 17.4.0  | Preview 2.1 | September 20, 2022 | 17.4.32916.344 |
+| 17.4.0  | Preview 2 | September 14, 2022 | 17.4.32912.340 |
+| 17.3.4  | Release | September 13, 2022 | 17.3.32901.215 |
+| 17.2.8  | Release | September 13, 2022 | 17.2.32901.213 |
+| 17.0.14 | Release | September 13, 2022 | 17.0.32901.226 |
 | 17.3.3  | Release | August 30, 2022 | 17.3.32825.248 |
 | 17.3.2  | Release | August 23, 2022 | 17.3.32819.101 |
 | 17.3.1  | Release | August 16, 2022 | 17.3.32811.315 |
@@ -106,6 +116,10 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.11.20 | Release | October 11, 2022 | 16.11.32929.386 |
+| 16.9.26  | Release | October 11, 2022 | 16.9.32930.78 |
+| 16.11.19 | Release | September 13, 2022 | 16.11.32901.82 |
+| 16.9.25  | Release | September 13, 2022 | 16.9.32901.84 |
 | 16.11.18 | Release | August 9, 2022 | 16.11.32802.440 |
 | 16.9.24  | Release | August 9, 2022 | 16.9.32802.399 |
 | 16.11.17 | Release | July 14, 2022 | 16.11.32630.194 |

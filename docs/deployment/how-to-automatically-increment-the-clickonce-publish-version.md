@@ -38,6 +38,8 @@ You can disable this behavior on the **Publish** page of the **Project Designer*
 
 2. Click the **Publish** tab.
 
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
+
 3. In the **Publish Version** section, clear the **Automatically increment revision with each release** check box.
 
 ## See also

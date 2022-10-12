@@ -5,8 +5,8 @@ description: Step 6 of a core walkthrough of Python in Visual Studio, covering V
 ms.date: 02/28/2022
 ms.custom: devdivchpfy22
 ms.topic: tutorial
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: ijoosong
+ms.author: joesong
 manager: jmartens
 ms.technology: vs-python
 

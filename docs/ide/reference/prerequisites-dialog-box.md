@@ -25,6 +25,8 @@ The **Prerequisites** dialog box specifies which prerequisite components are ins
 
 To access the dialog box, select a project node in **Solution Explorer**, and then select **Project** > **Properties**. When the **Project Designer** appears, select the **Publish** tab, and then select **Prerequisites**. For Setup projects, on the **Project** menu, click **Properties**. When the **Property Pages** dialog box appears, click **Prerequisites**.
 
+[!INCLUDE[ndptecclick](../../deployment/includes/dotnet-publish-tool.md)]
+
 ## UIElement list
 
 |Element|Description|

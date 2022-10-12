@@ -214,9 +214,39 @@ To customize any other type of diagnostic data adapters, use a [test settings fi
 
 This option can help you isolate a problematic test that causes a test host crash. Running the collector creates an output file (*Sequence.xml*) in *TestResults*, which captures the order of execution of the test before the crash.
 
-```xml
-<DataCollector friendlyName="blame" enabled="True">
-</DataCollector>
+You can run blame in 3 different modes: 
+- Enabling just the sequence file, but not collecting dumps
+- Enabling crash dump, to create a dump when testhost crashes
+- Enabling hang dump, to create a dump when test does not finish before given timeout
+
+The XML configuration should be placed directly into `<RunSettings>` node:
+
+```xml 
+<RunSettings>
+  <RunConfiguration>
+  </RunConfiguration>
+  <LoggerRunSettings>
+    <Loggers>
+      <Logger friendlyName="blame" enabled="True" />
+    </Loggers>
+  </LoggerRunSettings>
+  <DataCollectionRunSettings>
+    <DataCollectors>
+      <!-- Enables blame -->
+      <DataCollector friendlyName="blame" enabled="True">
+        <Configuration>
+          <!-- Enables crash dump, with dump type "Full" or "Mini".
+          Requires ProcDump in PATH for .NET Framework. -->
+          <CollectDump DumpType="Full" />
+          <!-- Enables hang dump or testhost and its child processes 
+          when a test hangs for more than 10 minutes. 
+          Dump type "Full", "Mini" or "None" (just kill the processes). -->
+          <CollectDumpOnTestSessionHang TestTimeout="10min" HangDumpType="Full" />
+        </Configuration>
+      </DataCollector>
+    </DataCollectors>
+  </DataCollectionRunSettings>
+</RunSettings>
 ```
 
 ## TestRunParameters
@@ -224,7 +254,7 @@ This option can help you isolate a problematic test that causes a test host cras
 ```xml
 <TestRunParameters>
     <Parameter name="webAppUrl" value="http://localhost" />
-    <Parameter name="docsUrl" value="https://docs.microsoft.com" />
+    <Parameter name="docsUrl" value="https://learn.microsoft.com" />
 </TestRunParameters>
 ```
 

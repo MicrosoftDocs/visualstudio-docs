@@ -2,7 +2,7 @@
 title: "How to run a program (C#)"
 description: "Beginner's guide on how to run a C# program in Visual Studio."
 ms.custom: "vs-acquisition, get-started"
-ms.date: 09/14/2021
+ms.date: 10/07/2022
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -141,9 +141,9 @@ If that doesn't solve the issue or Visual Studio can't locate the package, try s
 
 ### Use the right version of .NET
 
-Because different versions of the .NET Framework have some backward compatibility, a newer framework might run code written for an older framework without any changes. But sometimes you need to target a specific .NET framework version. You might need to install a specific version of the .NET Framework or .NET Core. See [Modify Visual Studio](../../install/modify-visual-studio.md).
+Because different versions of the .NET Framework have some backward compatibility, a newer framework might run code written for an older framework without any changes. But sometimes you need to target a specific .NET Framework version. You might need to install a specific version of the .NET Framework or .NET Core. See [Modify Visual Studio](../../install/modify-visual-studio.md).
 
-To change the target .NET framework version, see [Change the target framework](../../ide/visual-studio-multi-targeting-overview.md#select-a-target-framework-version). For more information, see [Troubleshooting .NET Framework targeting errors](../../msbuild/troubleshooting-dotnet-framework-targeting-errors.md).
+To change the target .NET Framework version, see [Change the target framework](../../ide/visual-studio-multi-targeting-overview.md#select-a-target-framework-version). For more information, see [Troubleshooting .NET Framework targeting errors](../../msbuild/troubleshooting-dotnet-framework-targeting-errors.md).
 
 ## Next steps
 

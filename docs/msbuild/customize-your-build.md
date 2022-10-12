@@ -2,7 +2,7 @@
 title: Customize your build | Microsoft Docs
 description: Learn about several extensibility hooks you can use to customize MSBuild projects that use the standard build process. 
 ms.custom: SEO-VS-2020
-ms.date: 09/13/2021
+ms.date: 10/07/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, transforms
@@ -70,7 +70,7 @@ The location of the solution file is irrelevant to *Directory.Build.props*.
 
 Properties that are set in *Directory.Build.props* can be overridden elsewhere in the project file or in imported files, so you should think of the settings in *Directory.Build.props* as specifying the defaults for your projects.
 
-*Directory.Build.targets* is imported from *Microsoft.Common.targets* after importing *.targets* files from NuGet packages. So, it can override properties and targets defined in most of the build logic, or set properties for all your projects regardless of what the individual projects set.
+*Directory.Build.targets* is imported from *Microsoft.Common.targets* after importing `.targets` files from NuGet packages. So, it can override properties and targets defined in most of the build logic, or set properties for all your projects regardless of what the individual projects set.
 
 When you need to set a property or define a target for an individual project that overrides any prior settings, put that logic in the project file after the final import. In order to do this in an SDK-style project, you first have to replace the SDK-style attribute with the equivalent imports. See [How to use MSBuild project SDKs](how-to-use-project-sdk.md).
 
@@ -114,11 +114,11 @@ Or more simply: the first *Directory.Build.props* that doesn't import anything i
 
 MSBuild is import-order dependent, and the last definition of a property (or a `UsingTask` or target) is the definition used.
 
-When using explicit imports, you can import from a *.props* or *.targets* file at any point. Here is the widely used convention:
+When using explicit imports, you can import from a `.props` or `.targets` file at any point. Here is the widely used convention:
 
-- *.props* files are imported early in the import order.
+- `.props` files are imported early in the import order.
 
-- *.targets*  files are imported late in the build order.
+- `.targets`  files are imported late in the build order.
 
 This convention is enforced by `<Project Sdk="SdkName">` imports (that is, the import of *Sdk.props* comes first, before all of the contents of the file, then *Sdk.targets* comes last, after all of the contents of the file).
 
@@ -126,17 +126,17 @@ When deciding where to put the properties, use the following general guidelines:
 
 - For many properties, it doesn't matter where they're defined, because they're not overwritten and will be read only at execution time.
 
-- For behavior that might be customized in an individual project, set defaults in *.props* files.
+- For behavior that might be customized in an individual project, set defaults in `.props` files.
 
-- Avoid setting dependent properties in *.props* files by reading the value of a possibly customized property, because the customization won't happen until MSBuild reads the user's project.
+- Avoid setting dependent properties in `.props` files by reading the value of a possibly customized property, because the customization won't happen until MSBuild reads the user's project.
 
-- Set dependent properties in *.targets* files, because they'll pick up customizations from individual projects.
+- Set dependent properties in `.targets` files, because they'll pick up customizations from individual projects.
 
-- If you need to override properties, do it in a *.targets* file, after all user-project customizations have had a chance to take effect. Be cautious when using derived properties; derived properties may need to be overridden as well.
+- If you need to override properties, do it in a `.targets` file, after all user-project customizations have had a chance to take effect. Be cautious when using derived properties; derived properties may need to be overridden as well.
 
-- Include items in *.props* files (conditioned on a property). All properties are considered before any item, so user-project property customizations get picked up, and this gives the user's project the opportunity to `Remove` or `Update` any item brought in by the import.
+- Include items in `.props` files (conditioned on a property). All properties are considered before any item, so user-project property customizations get picked up, and this gives the user's project the opportunity to `Remove` or `Update` any item brought in by the import.
 
-- Define targets in *.targets* files. However, if the *.targets* file is imported by an SDK, remember that this scenario makes overriding the target more difficult because the user's project doesn't have a place to override it by default.
+- Define targets in `.targets` files. However, if the `.targets` file is imported by an SDK, remember that this scenario makes overriding the target more difficult because the user's project doesn't have a place to override it by default.
 
 - If possible, prefer customizing properties at evaluation time over changing properties inside a target. This guideline makes it easier to load a project and understand what it's doing.
 
@@ -189,6 +189,26 @@ If you need different behaviors depending on the .NET language (C#, Visual Basic
    <!-- Put C#-only property definitions here -->
 </PropertyGroup>
 ```
+
+## Handle generated files
+
+In any given build, files that get generated during the build behave differently from static files (such as source files). For this reason, it's important to understand [How MSBuild Builds Projects](build-process-overview.md). The two phases are the [evaluation phase](build-process-overview.md#evaluation-phase) and the [execution phase](build-process-overview.md#execution-phase). During the evaluation phase, MSBuild reads your project, imports everything, creates properties, expands globs for items, and sets up the build process. During the execution phase, MSBuild performs the build by running targets and tasks with the data it parsed during the evaluation phase.
+
+Files generated during execution don't exist during the evaluation phase, therefore they aren't included in the build process. To solve this problem, you must manually add the generated files into the build process. The recommended way to do this is by adding the new file to the `Content` or `None` items before the `BeforeBuild` target, as in the following example:
+
+```xml
+<Target Name="MyTarget" BeforeTargets="BeforeBuild">
+  
+  <!-- Some logic that generates your file goes here -->
+  <!-- Generated files should be placed in $(IntermediateOutputPath) -->
+
+  <ItemGroup>
+    <None Include="$(IntermediateOutputPath)my-generated-file.xyz" CopyToOutputDirectory="PreserveNewest"/>
+  </ItemGroup>
+</Target>
+```
+
+Adding your generated file to `None` or `Content` is sufficient for the build process to see it. You also want to ensure it gets added at the right time. Ideally, your target runs before `BeforeBuild`. `AssignTargetPaths` is another possible target, as it is the final opportunity to modify `None` and `Content` items (among others) before they are transformed into new items. See [Common Item Types](common-msbuild-project-items.md).
 
 ## Customize the solution build
 
@@ -245,9 +265,9 @@ If you have a dedicated build server and want to ensure that certain targets alw
 
 ## Customize C++ builds
 
-For C++ projects, the previously mentioned custom *.targets* and *.props* files cannot be used in the same way to override default settings. *Directory.Build.props* is imported by *Microsoft.Common.props*, which is imported in `Microsoft.Cpp.Default.props` while most of the defaults are defined in *Microsoft.Cpp.props* and for a number of properties a "if not yet defined" condition cannot be used, as the property is already defined, but the default needs to be different for particular project properties defined in `PropertyGroup` with `Label="Configuration"` (see [.vcxproj and .props file structure](/cpp/build/reference/vcxproj-file-structure)).
+For C++ projects, the previously mentioned custom `.targets` and `.props` files cannot be used in the same way to override default settings. *Directory.Build.props* is imported by *Microsoft.Common.props*, which is imported in `Microsoft.Cpp.Default.props` while most of the defaults are defined in *Microsoft.Cpp.props* and for a number of properties a "if not yet defined" condition cannot be used, as the property is already defined, but the default needs to be different for particular project properties defined in `PropertyGroup` with `Label="Configuration"` (see [.vcxproj and .props file structure](/cpp/build/reference/vcxproj-file-structure)).
 
-But, you can use the following properties to specify *.props* file(s) to be automatically imported before/after *Microsoft.Cpp.\** files:
+But, you can use the following properties to specify `.props` file(s) to be automatically imported before/after *Microsoft.Cpp.\** files:
 
 - ForceImportAfterCppDefaultProps
 - ForceImportBeforeCppProps
@@ -255,7 +275,7 @@ But, you can use the following properties to specify *.props* file(s) to be auto
 - ForceImportBeforeCppTargets
 - ForceImportAfterCppTargets
 
-To customize the default values of properties for all C++ builds, create another *.props* file (say, *MyProps.props*), and define the `ForceImportAfterCppProps` property in `Directory.Build.props` pointing to it:
+To customize the default values of properties for all C++ builds, create another `.props` file (say, *MyProps.props*), and define the `ForceImportAfterCppProps` property in `Directory.Build.props` pointing to it:
 
 ```xml
 <PropertyGroup>

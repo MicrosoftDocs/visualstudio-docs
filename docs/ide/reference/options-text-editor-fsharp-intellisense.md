@@ -6,8 +6,8 @@ ms.date: 01/16/2019
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.FSharp.IntelliSense"
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

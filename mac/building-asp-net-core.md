@@ -37,7 +37,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 2. Select **File > New Solution**.
 
-3. Select the **.NET Core > App** category and the **ASP.NET Core Web App (C#)** template. Click **Next**.
+3. Select the **.NET Core > App** category and the **ASP.NET Core Web App Model-View-Controller (C#)** template. Click **Next**.
 
     ![Screenshot showing how to select a Web Application template for your new project.](media/netcore-image1.png)
 

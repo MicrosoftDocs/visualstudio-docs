@@ -2,7 +2,7 @@
 title: "Navigate code with the debugger"
 description: "Learn how to use the Visual Studio debugger to troubleshoot your code. Topics include entering break mode, stepping through code, and running to a target."
 ms.custom: "SEO-VS-2020"
-ms.date: 09/23/2021
+ms.date: 09/22/2022
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.execution
@@ -21,7 +21,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The Visual Studio debugger can help you navigate through code to inspect the state of an app and show its execution flow. You can use keyboard shortcuts, debug commands, breakpoints, and other features to quickly get to the code you want to examine. If you're familiar with debugger navigation commands and shortcuts, you can find and resolve app problems faster and more easily.
+The Visual Studio debugger can help you navigate through code to inspect the state of an app and show its execution flow, which is also known as *code stepping*. You can use keyboard shortcuts, debug commands, breakpoints, and other features to quickly get to the code you want to examine. If you're familiar with debugger navigation commands and shortcuts, you can find and resolve app problems faster and more easily.
 
 > [!NOTE]
 > If you're new to debugging code, you might want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before you read this article.
@@ -55,11 +55,11 @@ Most debugger windows, like the **Modules** and **Watch** windows, are available
 > [!NOTE]
 > If you break into code that doesn't have source or symbol (.pdb) files loaded, the debugger displays a **Source Files Not Found** or **Symbols Not Found** page that can help you find and load the files. See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md). If you can't load the symbol or source files, you can still debug the assembly instructions in the **Disassembly** window.
 
-## Step through code
+## Code stepping
 
 The debugger step commands help you inspect your app state or find out more about its execution flow.
 
-### <a name="BKMK_Step_into__over__or_out_of_the_code"></a> Step into code line by line
+### <a name="BKMK_Step_into__over__or_out_of_the_code"></a> Step into code
 
 To stop on each statement when you're debugging, use **Debug** > **Step Into**, or select **F11**.
 

@@ -3,56 +3,57 @@ title: "Using .NET 4.x in Unity"
 description: Understand how to use .NET 4.x in Unity. Enable the .NET 4.x scripting runtime. Take advantage of .NET compatibility. Review new syntax and language features.
 author: therealjohn
 ms.author: johmil
-ms.date: "08/29/2018"
+ms.date: 08/26/2022
 ms.topic: how-to
 ms.assetid: E2C9420F-A5D5-4472-9020-2B63FB27A133
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
+ms.custom: devdivchpfy22
 ms.workload:
   - "unity"
 ---
 # Using .NET 4.x in Unity
 
-C# and .NET, the technologies underlying Unity scripting, have continued to receive updates since Microsoft originally released them in 2002. But Unity developers may not be aware of the steady stream of new features added to the C# language and .NET Framework. That's because before Unity 2017.1, Unity has been using a .NET 3.5 equivalent scripting runtime, missing years of updates.
+C# and .NET, the technologies underlying Unity scripting, have continued to receive updates since Microsoft originally released them in 2002. But Unity developers may not be aware of the steady stream of new features added to the C# language and .NET Framework, because before Unity 2017.1, Unity has been using a .NET 3.5 equivalent scripting runtime, missing years of updates.
 
-With the release of Unity 2017.1, Unity introduced an experimental version of its scripting runtime upgraded to a .NET 4.6, C# 6 compatible version. In Unity 2018.1, the .NET 4.x equivalent runtime is no longer considered experimental, while the older .NET 3.5 equivalent runtime is now considered to be the legacy version. And with the release of Unity 2018.3, Unity is projecting to make the upgraded scripting runtime the default selection, and to update even further to C# 7. For more information and the latest updates on this roadmap, read Unity's [blog post](https://blogs.unity3d.com/2018/07/11/scripting-runtime-improvements-in-unity-2018-2/) or visit their [Experimental Scripting Previews forum](https://forum.unity.com/forums/experimental-scripting-previews.107/). In the meantime, check out the sections below to learn more about the new features available now with the .NET 4.x scripting runtime.
+With the release of Unity 2017.1, Unity introduced an experimental version of its scripting runtime upgraded to a .NET 4.6, C# 6.0 compatible version. In Unity 2018.1, the .NET 4.x equivalent runtime is no longer considered experimental, while the older .NET 3.5 equivalent runtime is now considered to be the legacy version. With the release of Unity 2018.3, Unity is projecting to make the upgraded scripting runtime the default selection, and to update even further to C# 7. For more information and the latest updates on this road map, read Unity's [blog post](https://blog.unity.com/technology/unity-and-net-whats-next) or visit their [Experimental Scripting Previews forum](https://forum.unity.com/forums/experimental-scripting-previews.107/). In the meantime, check out the sections below to learn more about the new features available now with the .NET 4.x scripting runtime.
 
 ## Prerequisites
 
-* [Unity 2017.1 or above](https://unity3d.com/) (2018.2 recommended)
-* [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download)
+* [Unity 2022.2 or above](https://unity3d.com/) (2022.1.7 recommended)
+* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)
 
 ## Enabling the .NET 4.x scripting runtime in Unity
 
 To enable the .NET 4.x scripting runtime, take the following steps:
 
-1. Open PlayerSettings in the Unity Inspector by selecting **Edit > Project Settings > Player**.
+1. Open PlayerSettings in the Unity Inspector by selecting **Edit > Project Settings > Player > Other Settings**.
 
-1. Under the **Configuration** heading, click the **Scripting Runtime Version** dropdown and select **.NET 4.x Equivalent**. You will be prompted to restart Unity.
+1. Under the **Configuration** heading, click the **Api compatibility Level** dropdown and select **.NET Framework**. You'll be prompted to restart Unity.
 
-![Select .NET 4.x equivalent](media/vs/vstu-scripting-runtime-version.png)
+:::image type="content" source="media/vs/vstu-scripting-runtime-version.png" alt-text="Screenshot showing the Select .NET 4.x equivalent.":::
 
-## Choosing between .NET 4.x and .NET Standard 2.0 profiles
+## Choosing between .NET 4.x and .NET Standard 2.1 profiles
 
 Once you've switched to the .NET 4.x equivalent scripting runtime, you can specify the **Api Compatibility Level** using the dropdown menu in the PlayerSettings (**Edit > Project Settings > Player**). There are two options:
 
-* **.NET Standard 2.0**. This profile matches the [.NET Standard 2.0 profile](https://github.com/dotnet/standard/blob/release/3.0/docs/versions/netstandard2.0.md) published by the .NET Foundation. Unity recommends .NET Standard 2.0 for new projects. It's smaller than .NET 4.x, which is advantageous for size-constrained platforms. Additionally, Unity has committed to supporting this profile across all platforms that Unity supports.
+* **.NET Standard 2.1**. This profile matches the [.NET Standard 2.1 profile](https://github.com/dotnet/standard/blob/release/3.0/docs/versions/netstandard2.1.md) published by the .NET Foundation. Unity recommends .NET Standard 2.1 for new projects. It's smaller than .NET 4.x, which is advantageous for size-constrained platforms. Additionally, Unity has committed to supporting this profile across all platforms that Unity supports.
 
-* **.NET 4.x**. This profile provides access to the latest .NET 4 API. It includes all of the code available in the .NET Framework class libraries and supports .NET Standard 2.0 profiles as well. Use the .NET 4.x profile if your project requires part of the API not included in the .NET Standard 2.0 profile. However, some parts of this API may not be supported on all of Unity's platforms.
+* **.NET Framework**. This profile provides access to the latest .NET 4 API. It includes all of the code available in the .NET Framework class libraries and supports .NET Standard 2.1 profiles as well. Use the .NET 4.x profile if your project requires part of the API not included in the .NET Standard 2.0 profile. However, some parts of this API may not be supported on all of Unity's platforms.
 
 You can read more about these options in Unity's [blog post](https://blogs.unity3d.com/2018/03/28/updated-scripting-runtime-in-unity-2018-1-what-does-the-future-hold/).
 
 ### Adding assembly references when using the .NET 4.x Api Compatibility Level
 
-When using the .NET Standard 2.0 setting in the **Api Compatibility Level** dropdown, all assemblies in the API profile are referenced and usable. However, when using the larger .NET 4.x profile, some of the assemblies that Unity ships with aren't referenced by default. To use these APIs, you must manually add an assembly reference. You can view the assemblies Unity ships with in the **MonoBleedingEdge/lib/mono** directory of your Unity editor installation:
+When using the .NET Standard 2.1 setting in the **Api Compatibility Level** dropdown, all assemblies in the API profile are referenced and usable. However, when using the larger .NET 4.x profile, some of the assemblies shipped with Unity aren't referenced by default. To use these APIs, you must manually add an assembly reference. You can view the assemblies Unity ships with in the **MonoBleedingEdge/lib/mono** directory of your Unity editor installation:
 
-![MonoBleedingEdge directory](media/vs/vstu-monobleedingedge.png)
+:::image type="content" source="media/vs/vstu-monobleedingedge.png" alt-text="Screenshot showing the MonoBleedingEdge directory.":::
 
 For example, if you're using the .NET 4.x profile and want to use `HttpClient`, you must add an assembly reference for System.Net.Http.dll. Without it, the compiler will complain that you're missing an assembly reference:
 
-![missing assembly reference](media/vs/vstu-missing-reference.png)
+:::image type="content" source="media/vs/vstu-missing-reference.png" alt-text="Screenshot showing the missing assembly reference.":::
 
-Visual Studio regenerates .csproj and .sln files for Unity projects each time they're opened. As a result, you cannot add assembly references directly in Visual Studio because they'll be lost upon reopening the project. Instead, a special text file named **csc.rsp** must be used:
+Visual Studio regenerates *.csproj* and *.sln* files for Unity projects each time they're opened. As a result, you can't add assembly references directly in Visual Studio because they'll be lost upon reopening the project. Instead, a special text file named **csc.rsp** must be used:
 
 1. Create a new text file named **csc.rsp** in your Unity project's root **Assets** directory.
 
@@ -66,23 +67,24 @@ In addition to new C# syntax and language features, the .NET 4.x scripting runti
 
 ### Add packages from NuGet to a Unity project
 
-[NuGet](https://www.nuget.org/) is the package manager for .NET. NuGet is integrated into Visual Studio. However, Unity projects require a special process to add NuGet packages. This is because when you open a project in Unity, its Visual Studio project files are regenerated, undoing necessary configurations. To add a package from NuGet to your Unity project do the following:
+[NuGet](https://www.nuget.org/) is the package manager for .NET. NuGet is integrated into Visual Studio. However, Unity projects require a special process to add NuGet packages because when you open a project in Unity, its Visual Studio project files are regenerated, undoing necessary configurations.
+To add a package from NuGet, to your Unity project:
 
 1. Browse NuGet to locate a compatible package you'd like to add (.NET Standard 2.0 or .NET 4.x). This example will demonstrate adding [Json.NET](https://www.nuget.org/packages/Newtonsoft.Json/), a popular package for working with JSON, to a .NET Standard 2.0 project.
 
 1. Click the **Download** button:
 
-    ![download button](media/vs/vstu-nuget-download.png)
+    :::image type="content" source="media/vs/vstu-nuget-download.png" alt-text="Screenshot showing the download button.":::
 
 1. Locate the downloaded file and change the extension from **.nupkg** to **.zip**.
 
 1. Within the zip file, navigate to the **lib/netstandard2.0** directory and copy the **Newtonsoft.Json.dll** file.
 
-1. In your Unity project's root **Assets** folder, create a new folder named **Plugins**. Plugins is a special folder name in Unity. See the [Unity documentation](https://docs.unity3d.com/Manual/Plugins.html) for more information.
+1. In your Unity project's root **Assets** folder, create a new folder named **Plugins**. Plugins is a special folder name in Unity. For more information, see the [Unity documentation](https://docs.unity3d.com/2022.2/Documentation/Manual/ManagedCodeStripping.html).
 
 1. Paste the **Newtonsoft.Json.dll** file into your Unity project's **Plugins** directory.
 
-1. Create a file named **link.xml** in your Unity project's **Assets** directory and add the following XML.  This will ensure Unity's bytecode stripping process does not remove necessary data when exporting to an IL2CPP platform.  While this step is specific to this library, you may run into problems with other libraries that use Reflection in similar ways.  For more information, please see [Unity's docs](https://docs.unity3d.com/Manual/IL2CPP-BytecodeStripping.html) on this topic.
+1. Create a file named **link.xml** in your Unity project's **Assets** directory and add the following XML, ensuring Unity's bytecode stripping process doesn't remove necessary data when exporting to an IL2CPP platform.  While this step is specific to this library, you may run into problems with other libraries that use Reflection in similar ways. For more information, please see [Unity's docs](https://docs.unity3d.com/Manual/IL2CPP-BytecodeStripping.html) on this article.
 
     ```xml
     <linker>
@@ -122,11 +124,11 @@ public class JSONTest : MonoBehaviour
 }
 ```
 
-This is a simple example of using a library which has no dependencies. When NuGet packages rely on other NuGet packages, you would need to download these dependencies manually and add them to the project in the same way.
+This is a simple example of using a library, which has no dependencies. When NuGet packages rely on other NuGet packages, you would need to download these dependencies manually and add them to the project in the same way.
 
 ## New syntax and language features
 
-Using the updated scripting runtime gives Unity developers access to C# 6 and a host of new language features and syntax.
+Using the updated scripting runtime gives Unity developers access to C# 8 and a host of new language features and syntax.
 
 ### Auto-property initializers
 
@@ -219,7 +221,7 @@ public class AsyncAwaitExample : MonoBehaviour
 }
 ```
 
-TAP is a complex subject, with Unity-specific nuances developers should consider. As a result, TAP isn't a universal replacement for coroutines in Unity; however, it is another tool to leverage. The scope of this feature is beyond this article, but some general best practices and tips are provided below.
+TAP is a complex subject, with Unity-specific nuances developers should consider. As a result, TAP isn't a universal replacement for coroutines in Unity; however, it's another tool to use. The scope of this feature is beyond this article, but some general best practices and tips are provided below.
 
 #### Getting started reference for TAP with Unity
 
@@ -227,7 +229,7 @@ These tips can help you get started with TAP in Unity:
 
 * Asynchronous functions intended to be awaited should have the return type [`Task`](/dotnet/api/system.threading.tasks.task) or [`Task<TResult>`](/dotnet/api/system.threading.tasks.task-1).
 * Asynchronous functions that return a task should have the suffix **"Async"** appended to their names. The "Async" suffix helps indicate that a function should always be awaited.
-* Only use the `async void` return type for functions that fire off async functions from traditional synchronous code. Such functions cannot themselves be awaited and shouldn't have the "Async" suffix in their names.
+* Only use the `async void` return type for functions that fire off async functions from traditional synchronous code. Such functions can't themselves be awaited and shouldn't have the "Async" suffix in their names.
 * Unity uses the UnitySynchronizationContext to ensure async functions run on the main thread by default. The Unity API isn't accessible outside of the main thread.
 * It's possible to run tasks on background threads with methods like [`Task.Run`](/dotnet/api/system.threading.tasks.task.run) and [`Task.ConfigureAwait(false)`](/dotnet/api/system.threading.tasks.task.configureawait). This technique is useful for offloading expensive operations from the main thread to enhance performance. However, using background threads can lead to problems that are difficult to debug, such as [race conditions](https://wikipedia.org/wiki/Race_condition).
 * The Unity API isn't accessible outside the main thread.
@@ -237,13 +239,10 @@ These tips can help you get started with TAP in Unity:
 
 There are some important differences between coroutines and TAP / async-await:
 
-* Coroutines cannot return values, but `Task<TResult>` can.
-* You cannot put a `yield` in a try-catch statement, making error handling difficult with coroutines. However, try-catch works with TAP.
+* Coroutines can't return values, but `Task<TResult>` can.
+* You can't put a `yield` in a try-catch statement, making handling errors difficult with coroutines. However, try-catch works with TAP.
 * Unity's coroutine feature isn't available in classes that don't derive from MonoBehaviour. TAP is great for asynchronous programming in such classes.
 * At this point, Unity doesn't suggest TAP as a wholesale replacement of coroutines. Profiling is the only way to know the specific results of one approach versus the other for any given project.
-
-> [!NOTE]
-> As of Unity 2018.2, debugging async methods with break points isn't fully supported; however, [this functionality is expected in Unity 2018.3](https://twitter.com/jbevain/status/900043560665235456).
 
 ### nameof operator
 
@@ -329,9 +328,9 @@ public class UsingStaticExample: MonoBehaviour
 
 ## IL2CPP Considerations
 
-When exporting your game to platforms like iOS, Unity will use its IL2CPP engine to "transpile" IL to C++ code which is then compiled using the native compiler of the target platform. In this scenario, there are several .NET features which are not supported, such as parts of Reflection, and usage of the `dynamic` keyword. While you can control using these features in your own code, you may run into problems using 3rd party DLLs and SDKs which were not written with Unity and IL2CPP in mind. For more information on this topic, please see the [Scripting Restrictions](https://docs.unity3d.com/Manual/ScriptingRestrictions.html) docs on Unity's site.
+When exporting your game to platforms like iOS, Unity will use its IL2CPP engine to "transpile" IL to C++ code that is then compiled using the native compiler of the target platform. In this scenario, there are several .NET features that aren't supported, such as parts of Reflection, and usage of the `dynamic` keyword. While you can control using these features in your own code, you may run into problems using third party DLLs and SDKs that weren't written with Unity and IL2CPP in mind. For more information on this article, see the [Scripting Restrictions](https://docs.unity3d.com/2022.2/Documentation/Manual/ScriptingRestrictions.html) docs on Unity's site.
 
-Additionally, as mentioned in the Json.NET example above, Unity will attempt to strip out unused code during the IL2CPP export process.  While this typically isn't an issue, with libraries that use Reflection, it can accidentally strip out properties or methods that will be called at run time that can't be determined at export time.  To fix these issues, add a **link.xml** file to your project which contains a list of assemblies and namespaces to not run the stripping process against.  For full details, please see [Unity's docs on bytecode stripping](https://docs.unity3d.com/Manual/IL2CPP-BytecodeStripping.html).
+Additionally, as mentioned in the Json.NET example above, Unity will attempt to strip out unused code during the IL2CPP export process.  While this process typically isn't an issue, with libraries that use Reflection, it can accidentally strip out properties or methods that will be called at run time that can't be determined at export time. To fix these issues, add a **link.xml** file to your project that contains a list of assemblies and namespaces to not run the stripping process against. For more information, see [Unity's docs on bytecode stripping](https://docs.unity3d.com/Manual/IL2CPP-BytecodeStripping.html).
 
 ## .NET 4.x Sample Unity Project
 
