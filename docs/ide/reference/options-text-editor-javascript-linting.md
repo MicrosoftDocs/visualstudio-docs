@@ -2,7 +2,7 @@
 title: Options, Text Editor, JavaScript, Linting
 description: Learn how to use the Linting page of the Options dialog box to set options for analyzing code in the Code Editor.
 ms.custom: SEO-VS-2020
-ms.date: 1/15/2019
+ms.date: 9/30/2022
 ms.technology: vs-javascript
 ms.topic: reference
 f1_keywords:
@@ -20,7 +20,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Use the **Linting** page of the **Options** dialog box to set options for analyzing code in the Code Editor. To access this page, on the menu bar, choose **Tools** > **Options**, and then expand **Text Editor** > **JavaScript/TypeScript** > **Linting**.
+Use the **Linting** page of the **Options** dialog box to set options for analyzing code in the Code Editor (note that you can override these options in some project types, like the [standalone React project templates](../../javascript/tutorial-create-react-app.md)). To access this page, on the menu bar, choose **Tools** > **Options**, and then expand **Text Editor** > **JavaScript/TypeScript** > **Linting**.
 
 ## ESLint Settings
 
@@ -31,12 +31,9 @@ These options let you enable static JavaScript and TypeSCript code analysis, and
 |Option|Description|
 |------------|-----------------|
 |**Enable ESLint**|When this option is selected, the Code Editor allows for static analysis on the code.|
-|**Lint all files included in project, even closed files**|When this option is selected, closed files are analyzed, unless diagnostics are only reported for open files.|
-
-## Global ESLint Config Options
-
-This option lets you copy the location of the global ESLint configuration file. Also, if you previously changed the location, you can reset the file to its default location.
+|**Lint *file extension* files**|These options allow you to configure which file extensions should be linted. For example, if "Lint TypeScript files" is selected, then documents with a *.ts* file extension will be linted.|
 
 ## See also
 
+- [Linting JavaScript in Visual Studio](../../javascript/linting-javascript.md)
 - [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)
