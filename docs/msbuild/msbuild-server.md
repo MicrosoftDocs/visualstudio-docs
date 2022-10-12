@@ -3,10 +3,6 @@ title: MSBuild Server | Microsoft Docs
 description: Learn how MSBuild Server supports frequent build scenarios by cacheing build context over multiple builds.
 ms.date: 10/11/2022
 ms.topic: overview
-dev_langs:
-- VB
-- CSharp
-- C++
 helpviewer_keywords:
 - MSBuild Server
 author: ghogen
@@ -18,7 +14,7 @@ ms.workload:
 ---
 # MSBuild Server
 
-MSBuild server improves the performance of .NET Core MSBuild, which is invoked when you use the `dotnet build` command from the .NET CLI on Windows, Linux, or Mac .NET Core build environments. Instead of starting the build process each time a build is requested, much of the context is cached in a long-running process so it is available to be reused by the next build.  MSBuild Server is not relevant to Visual Studio builds, because Visual Studio acts as a host for MSBuild and already caches all the necessary context.
+MSBuild Server improves the performance of .NET Core builds, which are invoked when you use the `dotnet build` command from the .NET CLI on Windows, Linux, or Mac .NET Core build environments. Instead of starting the build process each time a build is requested, much of the context is cached in a long-running process so it is available to be reused by the next build.  MSBuild Server is not relevant to Visual Studio builds, because Visual Studio acts as a host for MSBuild and already caches all the necessary context.
 
 MSBuild Server is generally not helpful in CI scenarios such as Azure Pipeline builds, because pipelines typically stand up a build environment on demand for each build and then dispose of it when the build is completed.
 
