@@ -31,7 +31,7 @@ landingContent:
             url: git-clone-repository.md
           - text: Create a new repo
             url: git-create-repository.md
-       - linkListType: reference
+      - linkListType: reference
         links:
           - text: Compare Git & Team Explorer
             url: git-team-explorer-feature-comparison.md
