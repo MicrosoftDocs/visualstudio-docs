@@ -31,6 +31,13 @@ landingContent:
             url: git-clone-repository.md
           - text: Create a new repo
             url: git-create-repository.md
+       - linkListType: reference
+        links:
+          - text: Compare Git & Team Explorer
+            url: git-team-explorer-feature-comparison.md
+          - text: Become a master at Git & open source (blog)
+            url: https://devblogs.microsoft.com/visualstudio/become-a-master-at-git-and-open-source/
+
 
   # Card
   - title: Innerloop dev workflow
@@ -61,29 +68,4 @@ landingContent:
             url:  git-resolve-conflicts.md
           - text: Git settings & preferences
             url: git-settings.md
-
-  # Card
-  - title: Reference
-    linkLists:
-      - linkListType: reference
-        links:
-          - text: Compare Git & Team Explorer
-            url: git-team-explorer-feature-comparison.md
-          - text: Become a master at Git & open source (blog)
-            url: https://devblogs.microsoft.com/visualstudio/become-a-master-at-git-and-open-source/
-
-  # Card
-  - title: Resources
-    linkLists:
-      - linkListType: whats-new
-        links:
-          - text: Performance Enhancement - Git branch switching (blog)
-            url: https://devblogs.microsoft.com/visualstudio/vs2022-performance-enhancements-git-branch-switching/
-          - text: Supercharge your Git experience (blog)
-            url: https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/
-          - text: Release notes
-            url: /visualstudio/releases/2022/release-notes-preview
-          - text: Videos and more...
-            url: https://visualstudio.microsoft.com/vs/github/
-
 
