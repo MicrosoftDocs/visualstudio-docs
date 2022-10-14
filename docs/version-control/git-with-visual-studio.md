@@ -86,12 +86,6 @@ To personalize your Git settings at a repository level as well as at a global le
 
 :::image type="content" source="media/git-options-settings.png" alt-text="The Options dialog box where you can choose personalization and customization settings in Visual Studio IDE.":::
 
-## Enhanced experience & feedback
-
-We continue to add new features to enhance the Git experience. For more info about recent features and a feedback survey, see the [Multi-repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) blog post. If you have a suggestion, let us know! We appreciate the opportunity to engage with you in the [**Developer Community**](https://aka.ms/vs-suggest).
-
-To try more recent/preview updates to the Git experience available, download and install from the [Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/) page. Read our [Visual Studio 2022 release notes](/visualstudio/releases/2022/release-notes) for details on each release.
-
 ::: moniker-end
 
 ::: moniker range="<=vs-2019"
@@ -283,11 +277,4 @@ The new Git experience is the default version control system in Visual Studio 20
 
 :::image type="content" source="media/git-opt-new-user-experience.png" alt-text="The Preview Features section of the Options dialog box in Visual Studio ":::
 
-## See also
-
-- [The new Git experience in Visual Studio 2019](git-with-visual-studio.md?view=vs-2019&preserve-view=true)
-- [Compare Git and Team Explorer side-by-side in Visual Studio 2019](git-team-explorer-feature-comparison.md?view=vs-2019&preserve-view=true)
-- [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md)
-- [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes)
-- To learn more about using Git and GitHub in Visual Studio 2019, watch the following YouTube video: [Getting started with Git in Visual Studio](https://www.youtube.com/watch?v=GCZ9x3yqkyc&list=PLReL099Y5nRc-zbaFbf0aNcIamBQujOxP)
 ::: moniker-end
