@@ -12,6 +12,8 @@
     href: git-clone-repository.md
   - name: Create a repo
     href: git-create-repository.md
+  - name: Git settings and preferences
+    href: git-settings.md    
 - name: Innerloop workflow
   expanded: true
   items:
@@ -36,11 +38,7 @@
     href: git-resolve-conflicts.md
 - name: Resources
   items:
-  - name: Git settings and preferences
-    href: git-settings.md
   - name: Create a GitHub account
     href: git-create-github-account.md
   - name: Compare Git and Team Explorer side-by-side
     href: git-team-explorer-feature-comparison.md
-  - name: Release notes
-    href: /visualstudio/releases/2022/release-notes

@@ -186,7 +186,3 @@ If you have issues with initializing your project with an empty remote repositor
 1. Browse to the Version Control menu and choose **Publish in Version Control**.
 1. Follow the steps of the above tutorial starting from the step 6.
 ::: moniker-end
-
-## See also
-
-- [Version control in Visual Studio (on Windows)](/visualstudio/version-control/)
