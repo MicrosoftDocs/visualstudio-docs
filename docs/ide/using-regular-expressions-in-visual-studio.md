@@ -90,7 +90,7 @@ Named capture groups, like numbered capture groups, can be used within the regul
 
 As an example, the following image shows a regular expression `(?<repeated>\w+)\s\k<repeated>` and a replacement string `${repeated}`. Both the regular expression and the replacement pattern reference the capture group named `repeated`. When you choose **Replace all** in the **Quick Replace** dialog box in Visual Studio, repeated words are removed from the text.
 
-![Quick Replace showing a named capture group in Visual Studio](media/named-capture-group.png)
+:::image type="content" source="media/named-capture-group.png" alt-text="Screenshot of Quick Replace showing a named capture group in Visual Studio.":::
 
 > [!TIP]
 > Make sure the **Use Regular Expressions** button is selected in the **Quick Replace** dialog box.
