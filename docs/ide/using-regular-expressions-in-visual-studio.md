@@ -1,7 +1,7 @@
 ---
 title: Use regular expressions
 description: Learn about some regular expression characters, operators, constructs, and pattern examples that you can use in Visual Studio.
-ms.date: 10/11/2022
+ms.date: 10/14/2022
 ms.topic: conceptual
 f1_keywords:
 - vsregularexpressionhelp
@@ -27,7 +27,7 @@ Visual Studio uses [.NET regular expressions](/dotnet/standard/base-types/regula
 
 ## Regular expression examples
 
-The following table contains some regular expression characters, operators, constructs, and pattern examples. For a more complete reference, see [Regular expression language](/dotnet/standard/base-types/regular-expression-language-quick-reference).
+The following table contains some regular expression characters, operators, constructs, and pattern examples. For a more complete reference, see the [Regular expression language](/dotnet/standard/base-types/regular-expression-language-quick-reference) quick reference.
 
 |Purpose|Expression|Example|
 |-------------|----------------|-------------|
@@ -73,7 +73,7 @@ To create a numbered capture group, surround the subexpression with parentheses 
 
 The following image shows a regular expression `(\w+)\s\1` and a replacement string `$1`. Both the regular expression and the replacement pattern reference the first capture group that's automatically numbered 1. When you choose **Replace all** in the **Quick Replace** dialog box in Visual Studio, repeated words are removed from the text.
 
-![Quick Replace showing a numbered capture group in Visual Studio](media/numbered-capture-group.png)
+:::image type="content" source="media/numbered-capture-group.png" alt-text="Screenshot of Quick Replace showing a numbered capture group in Visual Studio.":::
 
 > [!TIP]
 > Make sure the **Use Regular Expressions** button is selected in the **Quick Replace** dialog box.
@@ -99,5 +99,5 @@ For more information about named capture groups, see [Named matched subexpressio
 
 ## See also
 
-- [Regular expression language](/dotnet/standard/base-types/regular-expression-language-quick-reference)
+- [Regular expression language - Quick reference](/dotnet/standard/base-types/regular-expression-language-quick-reference)
 - [Find and replace text](../ide/finding-and-replacing-text.md)
