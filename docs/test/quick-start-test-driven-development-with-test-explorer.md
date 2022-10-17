@@ -157,18 +157,10 @@ To improve our confidence that the code works in all cases, add tests that try a
 
     ```csharp
     [TestMethod]
-    public void RooterTestNegativeInputx()
+    public void RooterTestNegativeInput()
     {
         Rooter rooter = new Rooter();
-        try
-        {
-            rooter.SquareRoot(-10);
-        }
-        catch (System.ArgumentOutOfRangeException)
-        {
-            return;
-        }
-        Assert.Fail();
+        Assert.ThrowsException<ArgumentOutOfRangeException>(() => rooter.SquareRoot(-1));
     }
     ```
 
