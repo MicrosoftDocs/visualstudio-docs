@@ -65,6 +65,27 @@ Launch the project by selecting the **DotNetCoreSqlDb** run button at the top of
 
 When the app loads, verify the database is working correctly by entering a new todo. The todo appears on the main list view on the app home page.
 
+## Explore the app startup configuration
+
+The sample app includes the following code in the `Program.cs` file:
+
+```csharp
+if(builder.Environment.IsDevelopment())
+{
+    builder.Services.AddDbContext<MyDatabaseContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+}
+else
+{
+    builder.Services.AddDbContext<MyDatabaseContext>(options =>
+        options.UseSqlServer(Environment.GetEnvironmentVariable("AZURE_SQL_CONNECTIONSTRING")));
+}
+```
+
+This code applies the following configurations:
+* When the app runs locally, the `localdb` connection string is pulled from the `appsettings.json` file and provided to Entity Framework. This allows the `localdb` connection string to be checked into source control so other developers can easily connect to a local database during development. It also allows Entity Framework migrations to be run locally. By default, Entity Framework will not discover connection strings stored in environment variable when running migrations.
+* When the app runs in GitHub Actions workflows or in Production, the connection string is pulled from environment variables. This prevents production secure connection strings from being checked into source control or being included in config files.
+
 ## Create the Azure services
 
 The app will require the following Azure services to be created for a successful deployment: 
@@ -160,22 +181,14 @@ The connection string is now stored securely in the GitHub repository secrets an
 1. Append the following yaml to the end of the workflow file:
 
     ```yml
-    - name: App Settings Variable Substitution
-      uses: microsoft/variable-substitution@v1
-      with:
-        files: '**/appsettings.json'
-      env:
-        ConnectionStrings.Default: ${{ secrets.DBConnection }}
     - name: Run EF 
       run: | 
         dotnet tool install --global dotnet-ef
         dotnet tool restore
-        dotnet ef database update -p DotNetCoreSqlDb
+        dotnet ef database update -p DotNetCoreSqlDb --connection ${{ secrets.DBConnection }}
     ```
 
-    This code adds two new steps in the GitHub actions workflow:
-        * **App Settings Variable Substitution** Retrieves the connection string stored in GitHub secrets and adds it to the `appsettings.json` file while the worfklow is running.
-        * **Run EF**: Installs the entity framework command line tooling and runs the app migrations.
+    This code installs the entity framework command line tooling and runs the app migrations. When the workflow runs, the code also uses the `connection` parameter of the `database update` command to override the `localdb` connection string stored in the `appsettings.json` file with the value that was added to GitHub secrets.
 
 ### Run the GitHub Actions workflow and test the deployment
 
