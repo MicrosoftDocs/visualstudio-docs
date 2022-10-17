@@ -27,7 +27,7 @@ Visual Studio uses [.NET regular expressions](/dotnet/standard/base-types/regula
 
 ## Regular expression examples
 
-The following table contains some regular expression characters, operators, constructs, and pattern examples. For a more complete reference, see the [Regular expression language](/dotnet/standard/base-types/regular-expression-language-quick-reference) quick reference.
+The following table contains some regular expression characters, operators, constructs, and pattern examples. For a more complete reference, see [Regular expression language](/dotnet/standard/base-types/regular-expression-language-quick-reference).
 
 |Purpose|Expression|Example|
 |-------------|----------------|-------------|
@@ -99,5 +99,5 @@ For more information about named capture groups, see [Named matched subexpressio
 
 ## See also
 
-- [Regular expression language - Quick reference](/dotnet/standard/base-types/regular-expression-language-quick-reference)
+- [Quick reference: Regular expression language](/dotnet/standard/base-types/regular-expression-language-quick-reference)
 - [Find and replace text](../ide/finding-and-replacing-text.md)
