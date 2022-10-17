@@ -1,7 +1,7 @@
 ---
 title: Port, migrate, and upgrade projects
 description: A reference for the support of projects created in current and earlier versions of Visual Studio.
-ms.date: 10/22/2021
+ms.date: 10/19/2022
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -198,7 +198,7 @@ Sometimes, compatibility isn't possible. Then, Visual Studio opens the upgrade w
 
 What renders a project incompatible with previous versions of Visual Studio is not the *Visual Studio* version, but the *MSBuild* version, as determined by `ToolsVersion`. If your version of Visual Studio contains the MSBuild toolchain that matches the `ToolsVersion` in a project, then Visual Studio can invoke that toolchain to build the project.
 
-To maintain compatibility with projects that you created in previous versions, Visual Studio 2019 includes the necessary MSBuild toolchains to support `ToolsVersion` 15, 14, 12, and 4. Projects that use any of these `ToolsVersion` values should result in a successful build. (Subject, again, to whether Visual Studio 2019 supports the project type, as described on [Platform Targeting and Compatibility](/visualstudio/releases/2019/compatibility).)
+To maintain compatibility with projects that you created in previous versions, Visual Studio 2022 includes the necessary MSBuild toolchains to support `ToolsVersion` 15, 14, 12, and 4. Projects that use any of these `ToolsVersion` values should result in a successful build. (Subject, again, to whether Visual Studio 2022 supports the project type, as described on [Platform Targeting and Compatibility](/visualstudio/releases/2022/compatibility).)
 
 You might be tempted to manually update or migrate a project to a newer `ToolsVersion` value. It's unnecessary to make such a change, and would likely generate many errors and warnings that you must fix to get the project to build again. Also, if Visual Studio doesn't support a specific `ToolsVersion` in the future, then the project triggers the project migration process when you open it because its `ToolsVersion` value must be changed.
 
