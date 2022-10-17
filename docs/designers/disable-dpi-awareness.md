@@ -58,7 +58,7 @@ When Visual Studio runs as a DPI-unaware process, the designer layout issues are
 ::: moniker range="<=vs-2019"
 
 > [!NOTE]
-> - If you had undocked tool windows in Visual Studio when you selected the option to restart as a DPI-unaware process, the position of those tool windows may change.
+> - If you have undocked tool windows in Visual Studio when you select the option to restart as a DPI-unaware process, the position of the tool windows might change.
 > - If you use the default Visual Basic profile, or if you have the **Save new projects when created** option deselected in **Tools** > **Options** > **Projects and Solutions**, Visual Studio cannot reopen your project when it restarts as a DPI-unaware process. However, you can open the project by selecting it under **File** > **Recent Projects and Solutions**.
 
 ::: moniker-end
@@ -66,7 +66,7 @@ When Visual Studio runs as a DPI-unaware process, the designer layout issues are
 ::: moniker range=">=vs-2022"
 
 > [!NOTE]
-> - If you had undocked tool windows in Visual Studio when you selected the option to restart as a DPI-unaware process, the position of those tool windows may change.
+> - If you have undocked tool windows in Visual Studio when you select the option to restart as a DPI-unaware process, the position of the tool windows might change.
 > - If you use the default Visual Basic profile, Visual Studio cannot reopen your project when it restarts as a DPI-unaware process. However, you can open the project by selecting it under **File** > **Recent Projects and Solutions**.
 
 ::: moniker-end
