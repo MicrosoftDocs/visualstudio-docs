@@ -44,7 +44,7 @@ As an example, let's assume that you have:
 
 5. A unit test class called `MathsTests` to verify the behavior of the `Maths` class.
 
-We will test a method in `Maths` that adds two integers using a loop:
+We'll test a method in `Maths` that adds two integers using a loop:
 
 ```csharp
 public int AddIntegers(int first, int second)
@@ -112,7 +112,7 @@ public void AddIntegers_FromDynamicDataTest(int x, int y, int expected)
 }
 ```
 
-It is also possible to override the default generated display name, using the `DynamicDataDisplayName` property of the `DynamicData` attribute. The display name method signature must be `publc static string` and accept two parameters; the first of type `MethodInfo` and the second of type `object[]`.
+It is also possible to override the default generated display name, using the `DynamicDataDisplayName` property of the `DynamicData` attribute. The display name method signature must be `publc static string` and accept two parameters, the first of type `MethodInfo` and the second of type `object[]`.
 
 ```csharp
 public static string GetCustomDynamicDataDisplayName(MethodInfo methodInfo, object[] data)
