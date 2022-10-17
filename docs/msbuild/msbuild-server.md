@@ -36,7 +36,7 @@ To disable the feature entirely, you can opt out of the change wave that enabled
 
 ## Determine the current status of the build server
 
-You can view process status on the machine and look for MSBuild server processes. MSBuild server processes are launched with `dotnet.exe` and show a path to MSBuild.dll and the command option `/nodemode:8`, where `8` indicates MSBuild Server ( `/nodemode:1` indicates the normal MSBuild executable).
+You can view process status on the machine and look for MSBuild server processes. MSBuild server processes are launched with `dotnet.exe` and show a path to MSBuild.dll and the command option `/nodemode:8`, where `8` indicates MSBuild Server ( `/nodemode:1` indicates the normal MSBuild worker nodes).
 
 ## See also
 
