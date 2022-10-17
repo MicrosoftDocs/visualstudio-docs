@@ -1,7 +1,7 @@
 ---
 title: Unit testing fundamentals
 description: Learn how Visual Studio Test Explorer provides a flexible and efficient way to run your unit tests and view their results. 
-ms.date: 12/28/2021
+ms.date: 10/17/2021
 ms.topic: conceptual
 f1_keywords:
 - vs.UnitTest.CreateUnitTest
@@ -298,33 +298,9 @@ Learn more details about [debugging unit tests](../debugger/debugger-feature-tou
 
 **Q: Can I create unit tests that take multiple sets of data as input to run the test?**
 
-**A:** Yes. *Data-driven test methods* let you test a range of values with a single unit test method. Use a `DataSource` attribute for the test method that specifies the data source and table that contains the variable values that you want to test.  In the method body, you assign the row values to variables using the `TestContext.DataRow[`*ColumnName*`]` indexer.
+**A:** Yes. *Data-driven test methods* let you test a range of values with a single unit test method. Use a `DataRow`, `DynamicData` or `DataSource` attribute for the test method that specifies the data source that contains the variable values that you want to test.
 
-> [!NOTE]
-> These procedures apply only to test methods that you write by using the Microsoft unit test framework for managed code. If you're using a different framework, consult the framework documentation for equivalent functionality.
-
-For example, assume we add an unnecessary method to the `CheckingAccount` class that is named `AddIntegerHelper`. `AddIntegerHelper` adds two integers.
-
-To create a data-driven test for the `AddIntegerHelper` method, we first create an Access database named *AccountsTest.accdb* and a table named `AddIntegerHelperData`. The `AddIntegerHelperData` table defines columns to specify the first and second operands of the addition and a column to specify the expected result. We fill a number of rows with appropriate values.
-
-```csharp
-[DataSource(
-    @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Projects\MyBank\TestData\AccountsTest.accdb",
-    "AddIntegerHelperData"
-)]
-[TestMethod()]
-public void AddIntegerHelper_DataDrivenValues_AllShouldPass()
-{
-    var target = new CheckingAccount();
-    int x = Convert.ToInt32(TestContext.DataRow["FirstNumber"]);
-    int y = Convert.ToInt32(TestContext.DataRow["SecondNumber"]);
-    int expected = Convert.ToInt32(TestContext.DataRow["Sum"]);
-    int actual = target.AddIntegerHelper(x, y);
-    Assert.AreEqual(expected, actual);
-}
-```
-
-The attributed method runs once for each row in the table. **Test Explorer** reports a test failure for the method if any of the iterations fail. The test results detail pane for the method shows you the pass/fail status method for each row of data.
+The attributed method runs once for each row in the data source. **Test Explorer** reports a test failure for the method if any of the iterations fail. The test results detail pane for the method shows you the pass/fail status method for each row of data.
 
 Learn more about [data-driven unit tests](../test/how-to-create-a-data-driven-unit-test.md).
 
