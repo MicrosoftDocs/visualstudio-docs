@@ -25,7 +25,7 @@ To enable linting support in Visual Studio 2022 or later versions, enable the **
 
 :::image type="content" source="media/vs-2022/linting-tools-options.png" alt-text="Screenshot of linting Tools Options page.":::
 
-In the options page, you can also modify the set of files that you want to lint. By default, all file extensions that can be linted (*.js*, *.jsx*, *.ts*, *.tsx*) will be linted.
+In the options page, you can also modify the set of files that you want to lint. By default, all file extensions that can be linted (*.js*, *.jsx*, *.ts*, *.tsx*, *.vue*, *.html*) will be linted. The HTML LSP-based editor must be enabled for linting Vue and HTML files. The respective setting can be found in **Tools > Options > Environment > Preview Features**.
 
 You can override these options in some project types, like the [standalone React project templates](../javascript/tutorial-create-react-app.md). In these projects, you can override the settings from the **Tools > Options** page using project properties:
 
