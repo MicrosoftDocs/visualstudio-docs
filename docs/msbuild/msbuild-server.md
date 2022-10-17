@@ -30,13 +30,13 @@ There are a few different ways to disable the use of MSBuild server. If you just
 
 To disable the feature for all builds on a machine, you can set the system environment variable `DOTNET_CLI_USE_MSBUILD_SERVER` to `0` or `false`. You could also set this variable on a per-project basis in a tool like VS Code in `launch.json`.
 
-To disable MSBuild Server for a particular invocation of a command-lind build, you can use the option `/nr:false` (or `/node-reuse:false`).
+To disable MSBuild Server for a particular invocation of a command-line build, you can use the option `/nr:false` (or `/node-reuse:false`).
 
 To disable the feature entirely, you can opt out of the change wave that enabled it; `SET MSBuildDisableFeaturesFromVersion="17.4"`. This disabled other features in the same change wave. For more information about change waves, see [MSBuild change waves](change-waves.md).
 
 ## Determine the current status of the build server
 
-You can view process status on the machine and look for MSBuild server processes. MSBuild server processes are launched with `dotnet.exe` and show a path to MSBuild.dll and the command option `/nodemode:{n}`, where `{n}` is the number of nodes available.
+You can view process status on the machine and look for MSBuild server processes. MSBuild server processes are launched with `dotnet.exe` and show a path to MSBuild.dll and the command option `/nodemode:8`, where `8` indicates MSBuild Server ( `/nodemode:1` indicates the normal MSBuild executable).
 
 ## See also
 
