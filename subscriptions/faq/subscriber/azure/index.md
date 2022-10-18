@@ -5,7 +5,7 @@ ms.topic: conceptual
 ms.assetid: 1d2c7d71-478b-4221-85c2-1c238a22e9a2
 author: evanwindom
 ms.author: amast
-ms.date: 07/06/2022
+ms.date: 10/17/2022
 ms.faqid: Section5
 ---
 
@@ -28,3 +28,5 @@ ms.faqid: Section5
 [!INCLUDE [What are the monthly Azure credits?](includes/what-are-credits.md)]
 
 [!INCLUDE [Can I use my work account to sign in?](includes/work-account-sign-in.md)]
+
+[!INCLUDE [What happens to my Azure resources when my subscription expires?](includes/expired-azure.md)]
