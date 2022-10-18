@@ -107,9 +107,9 @@
       href: microsoft-visualstudio-testtools-cppunittestframework-api-reference.md
   - name: Create and run unit tests for UWP apps
     items:
-    - name: Unit test a C++ UWP DLL
+    - name: Test a C++ UWP app
       href: unit-testing-a-visual-cpp-dll-for-store-apps.md
-    - name: Create & run unit tests for UWP apps
+    - name: Test a .NET UWP app
       href: walkthrough-creating-and-running-unit-tests-for-windows-store-apps.md
   - name: Code coverage
     items:
