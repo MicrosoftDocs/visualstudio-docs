@@ -38,14 +38,12 @@ The **Flame Graph** helps you identify hot paths in your code by visualizing a c
 ## Navigation
 In the Flame Graph view, you can navigate by clicking on a node with a mouse or using the keyboard.
 
-Shortcut command table
-Tab key -> go to any node
-Up/Down arrow key -> go to a node's parent or child
-Left/Right arrow key -> go to a node's left or right sibling
-Zoom -> Enter key
-Zoom out -> Escape key
-
-
+|Keyboard shortcut|Command|
+|-|-|
+|Tab|Go to any node|
+|Up/Down arrow|Go to a node's parent or child|
+|Enter|Zoom in|
+|Escape|Zoom out|
 
 ## See also
 - [Diagnose high latency with CPU Insights](../profiling/cpu-insights.md)
