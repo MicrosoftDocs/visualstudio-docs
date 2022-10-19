@@ -77,7 +77,7 @@ This tutorial begins with a simple project containing a single, empty code file.
    
    Python support in Visual Studio includes several project templates, such as web applications in the Bottle, Flask, and Django frameworks. For this tutorial, start with an empty project.
    
-1. Select the **PythonConsoleApp** template, and select **Next**.
+1. Select the **PythonApp** template, and select **Next**.
    
 1. On the **Configure your new project** screen, specify a name and file location for the project, and then select **Create**.
    
