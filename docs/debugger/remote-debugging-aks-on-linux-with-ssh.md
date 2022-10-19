@@ -24,10 +24,10 @@ Starting in Visual Studio 2022, you can attach to an ASP.NET Core process runnin
 
 ## Prepare to debug
 
-1. For AKS, expose the SSH port on the AKS pod, typically using a key/value pair.
+1. For AKS, expose the SSH port on the AKS pod, typically using a key pair.
 
    >[!NOTE]
    > Depending on your security configuration, health probes may detect an unhealthy service and tear down the pod.
 
-2. To debug, follow instructions described in [Debug .NET Core on Linux using SSH by attaching to a process](../debugging/remote-debugging-dotnet-core-linux-with-ssh.md).
+2. To debug, follow instructions described in [Debug .NET Core on Linux using SSH by attaching to a process](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md).
 
