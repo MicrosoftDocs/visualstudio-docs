@@ -1,7 +1,7 @@
 ---
 title: Targeted .NET Frameworks
 description: Learn how to specify the version of the .NET Framework that you want your project to target so the application can only use functionality that's available in the specified version.
-ms.date: 03/23/2022
+ms.date: 10/19/2022
 ms.topic: overview
 helpviewer_keywords:
 - targeting .NET Framework [Visual Studio]
@@ -43,9 +43,9 @@ Framework targeting includes the following features:
 
 When you work on a project that targets an earlier framework version, Visual Studio dynamically changes the development environment, as follows:
 
-- It filters items in the **Add New Item** dialog box, the **Add New Reference** dialog box, and the **Add Service Reference** dialog box to omit choices that are not available in the targeted version.
+- It filters items in the **Add New Item** dialog box, the **Add New Reference** dialog box, and the **Add Service Reference** dialog box to omit choices that aren't available in the targeted version.
 
-- It filters custom controls in the **Toolbox** to remove those that are not available in the targeted version and to show only the most up-to-date controls when multiple controls are available.
+- It filters custom controls in the **Toolbox** to remove those that aren't available in the targeted version and to show only the most up-to-date controls when multiple controls are available.
 
 - It filters **IntelliSense** to omit language features that aren't available in the targeted version.
 
@@ -65,7 +65,7 @@ When you create a .NET Framework project, you can select the target .NET Framewo
 
 ::: moniker range="vs-2019"
 
-![Framework dropdown in VS 2019](media/vs-2019/configure-new-project-framework.png)
+![Framework dropdown in Visual Studio 2019](media/vs-2019/configure-new-project-framework.png)
 
 ::: moniker-end
 
@@ -147,9 +147,9 @@ In an existing Visual Basic, C#, or F# project, you change the target .NET versi
 
 ## Resolve system and user assembly references
 
-To target a .NET version, you must first install the appropriate assembly references. You can download developer packs for different versions of .NET on the [.NET downloads](https://www.microsoft.com/net/download/windows) page.
+To target a .NET version, you must first install the appropriate assembly references. You can download developer packs for different versions of .NET on the [.NET downloads](https://dotnet.microsoft.com/download) page.
 
-For .NET Framework projects, the **Add Reference** dialog box disables system assemblies that do not pertain to the target .NET Framework version so that they cannot be inadvertently added to a project. (System assemblies are *.dll* files that are included in a .NET Framework version.) References that belong to a framework version that's higher than the targeted version will not resolve, and controls that depend on such a reference cannot be added. If you want to enable such a reference, reset the .NET Framework target of the project to one that includes the reference.
+For .NET Framework projects, the **Add Reference** dialog box disables system assemblies that don't pertain to the target .NET Framework version so that they can't be inadvertently added to a project. (System assemblies are *.dll* files that are included in a .NET Framework version.) References that belong to a framework version that's higher than the targeted version won't resolve, and controls that depend on such a reference can't be added. If you want to enable such a reference, reset the .NET Framework target of the project to one that includes the reference.
 
 For more information about assembly references, see [Resolve assemblies at design time](../msbuild/resolving-assemblies-at-design-time.md).
 
