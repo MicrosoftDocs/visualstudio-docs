@@ -2,7 +2,7 @@
 title: Use MSTest in unit tests
 description: Learn about the MSTest framework, which supports unit testing in Visual Studio. Use these classes and members to code unit tests.
 ms.custom: SEO-VS-2020
-ms.date: 03/02/2018
+ms.date: 10/17/2022
 ms.topic: reference
 ms.author: mikejo
 manager: jmartens
@@ -15,66 +15,211 @@ author: mikejo5000
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The [MSTest](<xref:Microsoft.VisualStudio.TestTools.UnitTesting>) framework supports unit testing in Visual Studio. Use the classes and members in the <xref:Microsoft.VisualStudio.TestTools.UnitTesting> namespace when you are coding unit tests. You can also use them when you are refining a unit test that was generated from code.
+The [MSTest](https://github.com/microsoft/testfx) framework supports unit testing in Visual Studio. Use the classes and members in the <xref:Microsoft.VisualStudio.TestTools.UnitTesting> namespace when you are coding unit tests. You can also use them when you are refining a unit test that was generated from code.
 
 ## Framework members
 
 To help provide a clearer overview of the unit testing framework, this section organizes the members of the <xref:Microsoft.VisualStudio.TestTools.UnitTesting> namespace into groups of related functionality.
 
 > [!NOTE]
-> Attribute elements, whose names end with "Attribute", can be used either with or without "Attribute" on the end. For example, the following two code examples function identically:
+> Attribute elements, whose names end with "Attribute", can be used either with or without "Attribute" on the end and for parameterless constructors with or without parenthesis. For example, the following code examples function identically:
 >
 > `[TestClass()]`
 >
 > `[TestClassAttribute()]`
+>
+> `[TestClass]`
+>
+> `[TestClassAttribute]`
 
-### Members used for data-driven testing
-
-Use the following elements to set up data-driven unit tests. For more information, see [Create a data-driven unit test](../test/how-to-create-a-data-driven-unit-test.md) and [Use a configuration file to define a data source](../test/walkthrough-using-a-configuration-file-to-define-a-data-source.md).
-
-- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod>
-
-- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute>
-
-- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElement>
-
-- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection>
-
-## Attributes used to establish a calling order
-
-A code element decorated with one of the following attributes is called at the moment you specify. For more information, see [Anatomy of a unit test](/previous-versions/ms182517(v=vs.110)).
-
-### Attributes for assemblies
-
-AssemblyInitialize and AssemblyCleanup are called right after your assembly is loaded and right before your assembly is unloaded.
-
-- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.AssemblyInitializeAttribute>
-
-- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.AssemblyCleanupAttribute>
-
-### Attributes for classes
-
-ClassInitialize and ClassCleanup are called right after your class is loaded and right before your class is unloaded.
-
-- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.ClassInitializeAttribute>
-
-- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.ClassCleanupAttribute>
-
-### Attributes for test methods
-
-- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute>
-
-- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCleanupAttribute>
-
-## Attributes used to identify test classes and methods
+### Attributes used to identify test classes and methods
 
 Every test class must have the `TestClass` attribute, and every test method must have the `TestMethod` attribute. For more information, see [Anatomy of a unit test](/previous-versions/ms182517(v=vs.110)).
 
-- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute>
+#### TestClassAttribute
 
-- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute>
+The [TestClass](<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute>) attribute marks a class that contains tests and, optionally, initialize or cleanup methods.
 
-## Assert classes and related exceptions
+This attribute can be extended to update or extend the behavior.
+
+Example:
+
+```csharp
+[TestClass]
+public class MyTestClass
+{    
+}
+```
+
+#### TestMethodAttribute
+
+The [TestMethod](<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute>) attribute is used inside a `TestClass` to define the actual test method to run.
+
+The method should be an instance method defined as `public void` or `public Task` (optionally `async`) and be parameterless.
+
+**Example**
+
+```csharp
+[TestClass]
+public class MyTestClass
+{
+    [TestMethod]
+    public void TestMethod()
+    {
+    }
+}
+```
+
+```csharp
+[TestClass]
+public class MyTestClass
+{
+    [TestMethod]
+    public async Task TestMethod()
+    {
+    }
+}
+```
+
+### Attributes used for data-driven testing
+
+Use the following elements to set up data-driven unit tests. For more information, see [Create a data-driven unit test](../test/how-to-create-a-data-driven-unit-test.md) and [Use a configuration file to define a data source](../test/walkthrough-using-a-configuration-file-to-define-a-data-source.md).
+
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataTestMethodAttribute>
+
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataRowAttribute>
+
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DynamicDataAttribute>
+
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute>
+
+### Attributes used to provide initialization and cleanups
+
+A method decorated with one of the following attributes is called at the moment you specify. For more information, see [Anatomy of a unit test](/previous-versions/ms182517(v=vs.110)).
+
+#### Assembly
+
+[AssemblyInitialize](<xref:Microsoft.VisualStudio.TestTools.UnitTesting.AssemblyInitializeAttribute>) is called right after your assembly is loaded and [AssemblyCleanup](<xref:Microsoft.VisualStudio.TestTools.UnitTesting.AssemblyCleanupAttribute>) is called right before your assembly is unloaded.
+
+The methods marked with these attributes should be defined as `static void` or `static Task`, in a `TestClass`, and appear only once. The initialize part requires one argument of type [TestContext](xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext) and the cleanup no argument.
+
+```csharp
+[TestClass]
+public class MyTestClass
+{
+    [AssemblyInitialize]
+    public static void AssemblyInitialize(TestContext testContext)
+    {
+    }
+
+    [AssemblyCleanup]
+    public static void AssemblyCleanup()
+    {
+    }
+}
+```
+
+```csharp
+[TestClass]
+public class MyOtherTestClass
+{
+    [AssemblyInitialize]
+    public static async Task AssemblyInitialize(TestContext testContext)
+    {
+    }
+
+    [AssemblyCleanup]
+    public static async Task AssemblyCleanup()
+    {
+    }
+}
+```
+
+#### Class
+
+[ClassInitialize](<xref:Microsoft.VisualStudio.TestTools.UnitTesting.ClassInitializeAttribute>) is called right before your class is loaded (but after static constructor) and [ClassCleanup](<xref:Microsoft.VisualStudio.TestTools.UnitTesting.ClassCleanupAttribute>) is called right after your class is unloaded.
+
+It is possible to control the inheritance behavior: only for current class using `InheritanceBehavior.None` or for all derived classes using `InheritanceBehavior.BeforeEachDerivedClass`.
+
+It is also possible to configure whether the class cleanup should be run at the end of the class or at the end of the assembly (current default).
+
+The methods marked with these attributes should be defined as `static void` or `static Task`, in a `TestClass`, and appear only once. The initialize part requires one argument of type [TestContext](xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext) and the cleanup no argument.
+
+```csharp
+[TestClass]
+public class MyTestClass
+{
+    [ClassInitialize]
+    public static void ClassInitialize(TestContext testContext)
+    {
+    }
+
+    [ClassCleanup]
+    public static void ClassCleanup()
+    {
+    }
+}
+```
+
+```csharp
+[TestClass]
+public class MyOtherTestClass
+{
+    [ClassInitialize]
+    public static async Task ClassInitialize(TestContext testContext)
+    {
+    }
+
+    [ClassCleanup]
+    public static async Task ClassCleanup()
+    {
+    }
+}
+```
+
+#### Test
+
+[TestInitialize](<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute>) is called right before your test is started and [TestCleanup](<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCleanupAttribute>) is called right after your test is finished.
+
+The `TestInitialize` is similar to the class constructor but is usually more suitable for long or async initializations. Note that the `TestInitialize` is always called after the constructor and called for each test (including each data row of data-driven tests).
+
+The `TestCleanup` is similar to the class `Dispose` (or `DisposeAsync`) but is usually more suitable for long or async cleanups. Note that the `TestCleanup` is always called just before the `DisposeAsync`/`Dispose` and called for each test (including each data row of data-driven tests).
+
+The methods marked with these attributes should be defined as `void` or `Task`, in a `TestClass`, be parameterless, and appear one or multiple times.
+
+```csharp
+[TestClass]
+public class MyTestClass
+{
+    [TestInitialize]
+    public void TestInitialize()
+    {
+    }
+
+    [TestCleanup]
+    public void TestCleanup()
+    {
+    }
+}
+```
+
+```csharp
+[TestClass]
+public class MyOtherTestClass
+{
+    [TestInitialize]
+    public async Task TestInitialize()
+    {
+    }
+
+    [TestCleanup]
+    public async Task TestCleanup()
+    {
+    }
+}
+```
+
+## Assertions and related exceptions
 
 Unit tests can verify specific application behavior by their use of various kinds of assertions, exceptions, and attributes. For more information, see [Using the assert classes](../test/using-the-assert-classes.md).
 
