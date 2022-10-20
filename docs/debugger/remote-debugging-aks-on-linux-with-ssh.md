@@ -16,7 +16,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Starting in Visual Studio 2022, you can attach to an ASP.NET Core process running in Azure Kubernetes Service (AKS) on a remote Linux deployment over SSH.
+Starting in Visual Studio 2017, you can attach to an ASP.NET Core process running in Azure Kubernetes Service (AKS) on a remote Linux deployment over SSH.
 
 ## Prerequisites
 
