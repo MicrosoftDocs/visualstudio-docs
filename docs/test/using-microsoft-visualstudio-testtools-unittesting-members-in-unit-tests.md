@@ -15,7 +15,7 @@ author: mikejo5000
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The [MSTest](https://github.com/microsoft/testfx) framework supports unit testing in Visual Studio. Use the classes and members in the <xref:Microsoft.VisualStudio.TestTools.UnitTesting> namespace when you are coding unit tests. You can also use them when you are refining a unit test that was generated from code.
+The [MSTest](https://github.com/microsoft/testfx) framework supports unit testing in Visual Studio. Use the classes and members in the <xref:Microsoft.VisualStudio.TestTools.UnitTesting> namespace when you're coding unit tests. You can also use them when you're refining a unit test that was generated from code.
 
 ## Framework members
 
@@ -139,9 +139,9 @@ public class MyOtherTestClass
 
 [ClassInitialize](<xref:Microsoft.VisualStudio.TestTools.UnitTesting.ClassInitializeAttribute>) is called right before your class is loaded (but after static constructor) and [ClassCleanup](<xref:Microsoft.VisualStudio.TestTools.UnitTesting.ClassCleanupAttribute>) is called right after your class is unloaded.
 
-It is possible to control the inheritance behavior: only for current class using `InheritanceBehavior.None` or for all derived classes using `InheritanceBehavior.BeforeEachDerivedClass`.
+It's possible to control the inheritance behavior: only for current class using `InheritanceBehavior.None` or for all derived classes using `InheritanceBehavior.BeforeEachDerivedClass`.
 
-It is also possible to configure whether the class cleanup should be run at the end of the class or at the end of the assembly (current default).
+It's also possible to configure whether the class cleanup should be run at the end of the class or at the end of the assembly (current default).
 
 The methods marked with these attributes should be defined as `static void` or `static Task`, in a `TestClass`, and appear only once. The initialize part requires one argument of type [TestContext](xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext) and the cleanup no argument.
 
@@ -181,9 +181,9 @@ public class MyOtherTestClass
 
 [TestInitialize](<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute>) is called right before your test is started and [TestCleanup](<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCleanupAttribute>) is called right after your test is finished.
 
-The `TestInitialize` is similar to the class constructor but is usually more suitable for long or async initializations. Note that the `TestInitialize` is always called after the constructor and called for each test (including each data row of data-driven tests).
+The `TestInitialize` is similar to the class constructor but is usually more suitable for long or async initializations. The `TestInitialize` is always called after the constructor and called for each test (including each data row of data-driven tests).
 
-The `TestCleanup` is similar to the class `Dispose` (or `DisposeAsync`) but is usually more suitable for long or async cleanups. Note that the `TestCleanup` is always called just before the `DisposeAsync`/`Dispose` and called for each test (including each data row of data-driven tests).
+The `TestCleanup` is similar to the class `Dispose` (or `DisposeAsync`) but is usually more suitable for long or async cleanups. The `TestCleanup` is always called just before the `DisposeAsync`/`Dispose` and called for each test (including each data row of data-driven tests).
 
 The methods marked with these attributes should be defined as `void` or `Task`, in a `TestClass`, be parameterless, and appear one or multiple times.
 
@@ -239,7 +239,7 @@ Unit tests can verify specific application behavior by their use of various kind
 
 ## The TestContext class
 
-The following attributes and the values assigned to them appear in the Visual Studio Properties window for a particular test method. These attributes are not meant to be accessed through the code of the unit test. Instead, they affect the ways the unit test is used or run, either by you through the IDE of Visual Studio, or by the Visual Studio test engine. For example, some of these attributes appear as columns in the **Test Manager** window and **Test Results** window, which means that you can use them to group and sort tests and test results. One such attribute is <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute>, which you use to add arbitrary metadata to unit tests. For example, you could use it to store the name of a test pass that this test covers, by marking the unit test with `[TestProperty("TestPass", "Accessibility")]`. Or, you could use it to store an indicator of the kind of test it is with `[TestProperty("TestKind", "Localization")]`. The property you create by using this attribute, and the property value you assign, are both displayed in the Visual Studio **Properties** window under the heading **Test specific**.
+The following attributes and the values assigned to them appear in the Visual Studio Properties window for a particular test method. These attributes aren't meant to be accessed through the code of the unit test. Instead, they affect the ways the unit test is used or run, either by you through the IDE of Visual Studio, or by the Visual Studio test engine. For example, some of these attributes appear as columns in the **Test Manager** window and **Test Results** window, which means that you can use them to group and sort tests and test results. One such attribute is <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute>, which you use to add arbitrary metadata to unit tests. For example, you could use it to store the name of a "test pass" that this test covers, by marking the unit test with `[TestProperty("TestPass", "Accessibility")]`. Or, you could use it to store an indicator of the kind of test It's with `[TestProperty("TestKind", "Localization")]`. The property you create by using this attribute, and the property value you assign, are both displayed in the Visual Studio **Properties** window under the heading **Test specific**.
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute>
 
@@ -263,7 +263,7 @@ The following attributes and the values assigned to them appear in the Visual St
 
 ## Attributes used to generate reports
 
-The attributes in this section relate the test method that they decorate to entities in the project hierarchy of a Team Foundation Server team project.
+The attributes in this section relate the test method that they decorate to entities in the project hierarchy of a `Team Foundation Server` team project.
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.CssIterationAttribute>
 
