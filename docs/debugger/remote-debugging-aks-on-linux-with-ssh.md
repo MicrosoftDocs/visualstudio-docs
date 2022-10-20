@@ -1,6 +1,6 @@
 ---
 title: "Remote debug AKS on Linux using SSH"
-description: Remote debug ASP.NET Core running in AKS on Linux using Secure Shell (SSH) by attaching to a process. Prepare your app for debugging. Build and deploy the app. Attach the debugger.
+description: Remote debug ASP.NET Core running in Azure Kubernetes Service (AKS) on Linux using Secure Shell (SSH) by attaching to a process. Prepare your app for debugging. Build and deploy the app. Attach the debugger.
 ms.date: "10/19/2022"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -16,7 +16,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Starting in Visual Studio 2017, you can attach to an ASP.NET Core process running in Azure Kubernetes Service (AKS) on a remote Linux deployment over SSH.
+Starting in Visual Studio 2017, you can attach to an ASP.NET Core process running in Azure Kubernetes Service (AKS) on a remote Linux deployment over Secure Shell (SSH).
 
 ## Prerequisites
 
