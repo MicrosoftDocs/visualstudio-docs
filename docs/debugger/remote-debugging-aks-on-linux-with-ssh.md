@@ -24,7 +24,7 @@ Starting in Visual Studio 2022, you can attach to an ASP.NET Core process runnin
 
 ## Prepare to debug
 
-1. For AKS, expose the SSH port on the AKS pod, typically using a key pair.
+1. Expose the AKS pod to the SSH port using an SSH key pair.
 
    >[!NOTE]
    > Depending on your security configuration, health probes may detect an unhealthy service and tear down the pod.
