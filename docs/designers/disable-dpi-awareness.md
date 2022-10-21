@@ -1,7 +1,7 @@
 ---
 title: Disable DPI-awareness for scaling in forms
 description: Fix scaling issues with Windows Forms Designer on HDPI monitors.
-ms.date: 04/10/2022
+ms.date: 10/20/2022
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
@@ -51,7 +51,7 @@ There are three options to resolve the display problem:
 
 ### Restart Visual Studio as a DPI-unaware process
 
-The preferred solution to this issue is to restart Visual Studio as a DPI-unaware process. Do so by selecting the option on the yellow informational bar. 
+The preferred solution to this issue is to restart Visual Studio as a DPI-unaware process. Do so by selecting the option on the yellow informational bar.
 
 When Visual Studio runs as a DPI-unaware process, the designer layout issues are resolved, but fonts may appear blurry and you may see issues in other designers such as the **XAML Designer**.. Visual Studio displays a different yellow informational message when it runs as a DPI-unaware process that says **Visual Studio is running as a DPI-unaware process. WPF and XAML designers might not display correctly.** The informational bar also provides an option to **Restart Visual Studio as a DPI-aware process**.
 
