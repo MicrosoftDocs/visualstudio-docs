@@ -49,6 +49,9 @@ When you start debugging in Visual Studio by selecting **Debug** > **Start Debug
 
 The diagnostic session ends when you stop debugging.
 
+>[!NOTE]
+>Use relaunch to skip the launch page and automatically run with your previous settings with **Alt+F2** or by clicking **Debug > Performance Profiler**.
+
 For more information, see:
 
 - [Measure application performance by analyzing CPU usage](../profiling/beginners-guide-to-performance-profiling.md)
