@@ -77,7 +77,10 @@ This tutorial begins with a simple project containing a single, empty code file.
    
    Python web support in Visual Studio includes several project templates, such as web applications in the Bottle, Flask, and Django frameworks. When installing Python with the Visual Studio Installer, check "Python Web Suport" under optional to install these templates. For this tutorial, start with an empty project.
    
+
 1. Select the **Python Application** template, and select **Next**.
+
+
    
 1. On the **Configure your new project** screen, specify a name and file location for the project, and then select **Create**.
    
