@@ -24,17 +24,17 @@ The **Flame Graph** helps you identify hot paths in your code by visualizing a c
 
 1. The Flame Graph view is in the CPU tool details tool window, above the source line highlighting view. After you've stopped your profiling session, you can view the Flame Graph by clicking **Open details**.
 
-![Screenshot showing Open details selected.](./media/vs-2022/flame-graph-open-details.png "Open details view selected")
+   ![Screenshot showing Open details selected.](./media/vs-2022/flame-graph-open-details.png "Open details view selected")
 
 1. Select **Flame Graph** in the Current View dropdown selection.
 
-![Screenshot showing Flame Graph view selected.](./media/vs-2022/flame-graph-view.png "Flame Graph view selected")
+   ![Screenshot showing Flame Graph view selected.](./media/vs-2022/flame-graph-view.png "Flame Graph view selected")
 
-![Screenshot showing Flame Graph overview displayed.](./media/vs-2022/flame-graph-overview.png "Flame Graph overview displayed")
+   ![Screenshot showing Flame Graph overview displayed.](./media/vs-2022/flame-graph-overview.png "Flame Graph overview displayed")
 
 1. By default, the flame graph in the CPU tool is shown upside down or as an "icicle chart," where the y-axis is counting stack depth downwards from zero at the top. You can view the standard flame chart layout by clicking **Flip Flame Graph**.
 
-![Screenshot showing Flip Flame Graph selected.](./media/vs-2022/flame-graph-flip.png "Flip Flame Graph selected")
+   ![Screenshot showing Flip Flame Graph selected.](./media/vs-2022/flame-graph-flip.png "Flip Flame Graph selected")
 
 ## Navigation
 In the Flame Graph view, you can navigate by clicking on a node with a mouse or using the keyboard.
