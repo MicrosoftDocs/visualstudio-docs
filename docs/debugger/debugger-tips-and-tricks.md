@@ -50,7 +50,7 @@ If it is difficult or time-consuming to recreate a particular state in your app,
 
 #### To create a conditional breakpoint
 
-1. Right-click a breakpoint icon (the red ball) and choose **Conditions**.
+1. Right-click a breakpoint icon (the red sphere) and choose **Conditions**.
 
 2. In the **Breakpoint Settings** window, type an expression.
 
