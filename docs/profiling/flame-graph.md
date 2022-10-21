@@ -8,6 +8,7 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
+monikerRange: '>= vs-2022'
 ms.workload: 
   - multiple
 ---
