@@ -36,6 +36,11 @@
     href: cpu-usage.md
   - name: CPU Insights
     items:
+    - name: Flame Graph 
+      href: flame-graph.md
+    - name: Visual overview
+      items:
+    items:
     - name: CPU Insights  
       href: cpu-insights.md
     - name: Performance insights
