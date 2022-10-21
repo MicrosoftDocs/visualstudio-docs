@@ -77,7 +77,7 @@ The Python developer community has produced thousands of useful packages that yo
 
     For example, select **Open interactive window** and an **Interactive window** for that specific environment appears in Visual Studio.
 
-1. The **Packages** tab in the Python Environments window lists all packages that are currently installed in the environment.
+1. Use the drop-down list below the list of environments to switch to the **Packages** tab.The **Packages** tab lists all packages that are currently installed in the environment.
 
 ## Install packages using the Python Environments window
 
