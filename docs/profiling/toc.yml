@@ -32,7 +32,7 @@
     href: analyze-database.md
   - name: Events Viewer
     href: events-viewer.md
-  - CPU Usage
+  - name: CPU Usage
     items:
     - name: CPU Usage
       href: cpu-usage.md
