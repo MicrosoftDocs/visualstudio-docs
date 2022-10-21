@@ -1,7 +1,7 @@
 ---
 title: Disable DPI-awareness for scaling in forms
 description: Fix scaling issues with Windows Forms Designer on HDPI monitors.
-ms.date: 04/10/2022
+ms.date: 10/20/2022
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
@@ -51,13 +51,25 @@ There are three options to resolve the display problem:
 
 ### Restart Visual Studio as a DPI-unaware process
 
-The preferred solution to this issue is to restart Visual Studio as a DPI-unaware process. Do so by selecting the option on the yellow informational bar. 
+The preferred solution to this issue is to restart Visual Studio as a DPI-unaware process. Do so by selecting the option on the yellow informational bar.
 
 When Visual Studio runs as a DPI-unaware process, the designer layout issues are resolved, but fonts may appear blurry and you may see issues in other designers such as the **XAML Designer**.. Visual Studio displays a different yellow informational message when it runs as a DPI-unaware process that says **Visual Studio is running as a DPI-unaware process. WPF and XAML designers might not display correctly.** The informational bar also provides an option to **Restart Visual Studio as a DPI-aware process**.
 
+::: moniker range="<=vs-2019"
+
 > [!NOTE]
-> - If you had undocked tool windows in Visual Studio when you selected the option to restart as a DPI-unaware process, the position of those tool windows may change.
+> - If you have undocked tool windows in Visual Studio when you select the option to restart as a DPI-unaware process, the position of the tool windows might change.
 > - If you use the default Visual Basic profile, or if you have the **Save new projects when created** option deselected in **Tools** > **Options** > **Projects and Solutions**, Visual Studio cannot reopen your project when it restarts as a DPI-unaware process. However, you can open the project by selecting it under **File** > **Recent Projects and Solutions**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+> [!NOTE]
+> - If you have undocked tool windows in Visual Studio when you select the option to restart as a DPI-unaware process, the position of the tool windows might change.
+> - If you use the default Visual Basic profile, Visual Studio cannot reopen your project when it restarts as a DPI-unaware process. However, you can open the project by selecting it under **File** > **Recent Projects and Solutions**.
+
+::: moniker-end
 
 It's important to restart Visual Studio as a DPI-aware process when you're finished working in the **Windows Forms Designer**. If you close and reopen Visual Studio when it's running in DPI-unaware mode, it becomes DPI-aware again. You can also select the **Restart Visual Studio as a DPI-aware process** option in the informational bar.
 
