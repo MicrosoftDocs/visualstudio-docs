@@ -74,7 +74,7 @@ In this tutorial, you:
 
    ![Screenshot that shows setting a snappoint in the code editor.](../debugger/media/time-travel-debugging-set-snappoint-settings.png)
 
-1. Right-click the snappoint hollow ball icon and choose **Actions** to show the **Snapshot Settings** window.
+1. Right-click the snappoint hollow sphere icon and choose **Actions** to show the **Snapshot Settings** window.
 
    ![Screenshot that shows the Snapshot Settings window.](../debugger/media/time-travel-debugging-set-snappoint-new.png)
 

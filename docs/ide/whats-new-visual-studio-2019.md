@@ -251,5 +251,5 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 * [What's new for C# 9.0](/dotnet/csharp/whats-new/csharp-9)
 * [What's new in .NET 5](/dotnet/core/dotnet-five)
 * [What's new in .NET Framework](/dotnet/framework/whats-new/)
-* [Microsoft Build conference](https://www.microsoft.com/build)
-* [Microsoft Ignite conference](https://www.microsoft.com/ignite)
+* [Microsoft Build conference](https://mybuild.microsoft.com/)
+* [Microsoft Ignite conference](https://ignite.microsoft.com/)

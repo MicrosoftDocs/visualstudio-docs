@@ -33,17 +33,21 @@
   - name: Events Viewer
     href: events-viewer.md
   - name: CPU Usage
-    href: cpu-usage.md
-  - name: CPU Insights
     items:
-    - name: CPU Insights  
-      href: cpu-insights.md
-    - name: Performance insights
+    - name: CPU Usage
+      href: cpu-usage.md
+    - name: Flame Graph 
+      href: flame-graph.md
+    - name: CPU Insights
       items:
-      - name: String concatenation
-        href: perf-insights-string-concatenation.md
-      - name: Regex
-        href: perf-insights-regex.md
+      - name: CPU Insights  
+        href: cpu-insights.md
+      - name: Performance insights
+        items:
+        - name: String concatenation
+          href: perf-insights-string-concatenation.md
+        - name: Regex
+          href: perf-insights-regex.md
   - name: File IO
     href: use-file-io.md
   - name: Memory usage
