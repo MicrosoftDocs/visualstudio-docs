@@ -439,7 +439,7 @@
     - name: Debug .NET Core on Linux using SSH
       href: remote-debugging-dotnet-core-linux-with-ssh.md
     - name: Debug .NET Core on AKS >>
-      href: ../bridge/articles/bridge-to-kubernetes-vs.md
+      href: ../../bridge/articles/bridge-to-kubernetes-vs.md
     - name: Debug with Container Tools >>
       href: ../containers/edit-and-refresh.md
   - name: Application types
