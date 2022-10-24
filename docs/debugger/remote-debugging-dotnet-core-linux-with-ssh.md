@@ -2,7 +2,7 @@
 title: "Debug .NET Core on Linux"
 description: Debug .NET Core on Linux using Secure Shell (SSH) by attaching to a process. Prepare your app for debugging. Build and deploy the app. Attach the debugger.
 ms.custom: SEO-VS-2020
-ms.date: "08/24/2021"
+ms.date: "10/24/2022"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "remote debugging, linux"
@@ -18,6 +18,9 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Starting in Visual Studio 2017, you can attach to .NET Core processes running on a local or remote Linux deployment over Secure Shell (SSH). This article describes how to set up debugging and how to debug. For debugging scenarios using Docker containers, see [Attach to a process running on a Docker container](../debugger/attach-to-process-running-in-docker-container.md) and the [container tools](../containers/edit-and-refresh.md) articles instead. To debug Linux on WSL 2 from Visual Studio (no attach to process), see [Debug .NET Core Apps in WSL 2 with Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md).
+
+> [!NOTE]
+> For debugging Linux running on Azure Kubernetes Service (AKS), [Bridge to Kubernetes](../bridge/overview-bridge-to-kubernetes.md) is recommended instead of attach to process.
 
 ## Prerequisites
 
