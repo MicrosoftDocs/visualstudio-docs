@@ -438,6 +438,8 @@
       href: debug-dotnet-core-in-wsl-2.md
     - name: Debug .NET Core on Linux using SSH
       href: remote-debugging-dotnet-core-linux-with-ssh.md
+    - name: Debug .NET Core on AKS >>
+      href: ../bridge/bridge-to-kubernetes-vs.md
     - name: Debug with Container Tools >>
       href: ../containers/edit-and-refresh.md
   - name: Application types
