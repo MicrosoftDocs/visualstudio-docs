@@ -1,7 +1,7 @@
 ---
 title: Port, migrate, and upgrade projects
 description: A reference for the support of projects created in current and earlier versions of Visual Studio.
-ms.date: 10/18/2022
+ms.date: 10/24/2022
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -212,5 +212,6 @@ Refer to the following articles for further discussion:
 ## See also
 
 - [Project migration and upgrade reference for Visual Studio 2019](?view=vs-2019&preserve-view=true)
+- [Support for older versions of Visual Studio](https://devblogs.microsoft.com/visualstudio/support-reminder-for-older-versions-of-visual-studio/)
 
 ::: moniker-end
