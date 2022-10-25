@@ -4,7 +4,7 @@ description: Visual Studio provides a comprehensive template for rapid creation 
 ms.date: 01/19/2022
 ms.topic: conceptual
 author: cwebster-99
-author: cowebster
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 

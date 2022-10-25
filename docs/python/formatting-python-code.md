@@ -4,7 +4,7 @@ description: Automatically format Python code in Visual Studio, including spacin
 ms.date: 03/13/2022
 ms.topic: conceptual
 author: cwebster-99
-author: cowebster
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 

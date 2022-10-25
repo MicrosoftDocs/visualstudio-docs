@@ -4,7 +4,7 @@ description: A reference list of item templates for Python project that are avai
 ms.date: 12/06/2018
 ms.topic: reference
 author: cwebster-99
-author: cowebster
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 

@@ -4,7 +4,7 @@ description: Use Visual Studio to debug Python code running on remote Linux comp
 ms.date: 12/06/2018
 ms.topic: how-to
 author: cwebster-99
-author: cowebster
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 

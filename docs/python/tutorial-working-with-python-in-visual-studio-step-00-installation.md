@@ -5,7 +5,7 @@ description: Step 0 (installation prerequisites) of a core walkthrough of workin
 ms.date: 04/01/2022
 ms.topic: tutorial
 author: cwebster-99
-author: cowebster
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 ms.custom: vs-acquisition, devdivchpfy22

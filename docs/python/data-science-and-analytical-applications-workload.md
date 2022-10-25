@@ -4,7 +4,7 @@ description: This Visual Studio workload brings together Python, F#, and their r
 ms.date: 07/28/2021
 ms.topic: overview
 author: cwebster-99
-author: cowebster
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 ms.workload:

@@ -4,7 +4,7 @@ description: Projects in Visual Studio manage dependencies between files and the
 ms.date: 02/10/2022
 ms.topic: conceptual
 author: cwebster-99
-author: cowebster
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 

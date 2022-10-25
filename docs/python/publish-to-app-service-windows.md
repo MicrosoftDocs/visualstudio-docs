@@ -4,7 +4,7 @@ description: How to publish a Python web application directly to Azure App Servi
 ms.date: 01/07/2019
 ms.topic: how-to
 author: cwebster-99
-author: cowebster
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 

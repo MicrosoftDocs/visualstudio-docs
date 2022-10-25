@@ -4,7 +4,7 @@ description: Run PyLint in Visual Studio to check issues in Python code, includi
 ms.date: 06/02/2022
 ms.topic: how-to
 author: cwebster-99
-author: cowebster
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 ms.custom: devdivchpfy22

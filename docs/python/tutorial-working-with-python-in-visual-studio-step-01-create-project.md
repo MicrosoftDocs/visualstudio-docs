@@ -5,7 +5,7 @@ description: Overview and step 1 of a core walkthrough of Python capabilities in
 ms.date: 02/02/2022
 ms.topic: tutorial
 author: cwebster-99
-author: cowebster
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 ms.custom: vs-acquisition, devdivchpfy22

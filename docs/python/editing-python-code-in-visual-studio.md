@@ -4,7 +4,7 @@ description: For Python, Visual Studio provides rich IntelliSense, code snippets
 ms.date: 01/18/2022
 ms.topic: conceptual
 author: cwebster-99
-author: cowebster
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 

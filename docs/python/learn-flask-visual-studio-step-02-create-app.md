@@ -6,7 +6,7 @@ ms.custom: devdivchpfy22
 ms.date: 02/04/2022
 ms.topic: tutorial
 author: cwebster-99
-author: cowebster
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 

@@ -4,7 +4,7 @@ description: In this quickstart, you open and run Python code from a folder with
 ms.date: 05/12/2022
 ms.topic: quickstart
 author: cwebster-99
-author: cowebster
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 ms.custom: devdivchpfy22
