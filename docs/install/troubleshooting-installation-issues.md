@@ -120,7 +120,7 @@ If none of the previous steps help you successfully install or upgrade Visual St
 
 ### Step 7 - Rollback
 
-If none of the previous steps help you successfully install or upgrade Visual Studio, you can rollback to your previously installed version.
+If none of the previous steps help you successfully install or upgrade Visual Studio, you can try to rollback to your previously installed version.
 
 > [!NOTE]
 > With Visual Studio 2022 17.4, you'll be able to rollback to your previously installed version.
@@ -142,7 +142,7 @@ If none of the previous steps help you successfully install or upgrade Visual St
 
 The `rollback` command is also available programmatically to users who manage updates through scripts or command line.
 
-Below is an example command that you can run to rollback using command line:  
+Below is an example command that you can run to rollback using the command line:  
 
 `“C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" rollback -–installPath“C:\Program Files\Microsoft Visual Studio\2022\Preview”`
 
