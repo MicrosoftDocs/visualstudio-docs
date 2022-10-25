@@ -4,8 +4,8 @@ title: Overview of Visual Studio for Python developers
 titleSuffix: ""
 ms.date: 01/26/2022
 ms.topic: overview
-author: ijoosong
-ms.author: joesong
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 dev_langs:
