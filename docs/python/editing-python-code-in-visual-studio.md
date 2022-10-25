@@ -3,8 +3,8 @@ title: Edit Python code
 description: For Python, Visual Studio provides rich IntelliSense, code snippets, and navigation features, alongside formatting, linting, and refactoring.
 ms.date: 01/18/2022
 ms.topic: conceptual
-author: ijoosong
-ms.author: joesong
+author: cwebster-99
+author: cowebster
 manager: jmartens
 ms.technology: vs-python
 

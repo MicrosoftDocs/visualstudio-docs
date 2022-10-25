@@ -4,8 +4,8 @@ description: Use pip freeze > requirements.txt and manage python package depende
 ms.date: 12/11/2021
 ms.custom: devdivchpfy22
 ms.topic: how-to
-author: ijoosong
-ms.author: joesong
+author: cwebster-99
+author: cowebster
 manager: jmartens
 ms.technology: vs-python
 

@@ -3,8 +3,8 @@ title: Select and install Python interpreters
 description: A complete list of Python interpreters that are supported in Visual Studio with brief instructions on where to find their installers.
 ms.date: 01/15/2022
 ms.topic: how-to
-author: ijoosong
-ms.author: joesong
+author: cwebster-99
+author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
