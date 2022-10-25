@@ -83,6 +83,10 @@ Explanation&mdash;Code coverage analysis in Visual Studio is available only on m
 
 Resolution&mdash;None available.
 
+### Project name includes 'DataCollector'
+
+Projects that use DataCollector in the project name won't be identified by code coverage.
+
 ### Assembly has been installed by NGen
 
 Analysis&mdash;Verify that the assembly is not loaded from the native image cache.
