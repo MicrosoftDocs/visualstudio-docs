@@ -11,8 +11,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Python_Tools.Experimental"
   - "VS.ToolsOptionsPages.Python_Tools.Interactive_Windows"
   - "VS.ToolsOptionsPages.Text_Editor.Python.Advanced"
-author: ijoosong
-ms.author: joesong
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 ms.workload:
