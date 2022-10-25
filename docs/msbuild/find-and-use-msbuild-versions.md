@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Find and use a version of MSBuild
 
-To ensure that programmatic builds from your application match builds done within Visual Studio or *MSBuild.exe*, you might need to load the same version of the MSBuild assemblies that were installed with a specific version of Visual Studio and use the same SDKs that are available within that version of Visual Studio. Or, when you're creating a build application that will be run on machines that might have various installed versions of MSBuild, .NET, and Visual Studio, you might also want to find and use a consistent version of MSBuild. The Microsoft.Build.Locator NuGet package streamlines this process. MSBuild requires binding redirects for certain assemblies (Microsoft.Build assemblies), but if you reference the Microsoft.Build.Locator package, you ensure that your application automatically uses the required binding redirects to version 15.1.0.0. Binding redirects to this version support MSBuild 15.x, 16.x, and 17.x.
+To ensure that programmatic builds from your application match builds done within Visual Studio or *MSBuild.exe*, you might need to load the same version of the MSBuild assemblies that were installed with a specific version of Visual Studio and use the same SDKs that are available within that version of Visual Studio. Or, when you're creating a build application that will be run on machines that might have various installed versions of MSBuild, .NET, and Visual Studio, you might also want to find and use a consistent version of MSBuild. The Microsoft.Build.Locator NuGet package streamlines this process.
 
 ## Use Microsoft.Build.Locator
 
@@ -56,7 +56,7 @@ If you can't use NuGet packages, you can reference MSBuild assemblies that are d
 
 #### Binding redirects
 
-If you're updating from a version earlier than MSBuild 15, reference the Microsoft.Build.Locator package to ensure that your application automatically uses the required binding redirects to version 15.1.0.0. Binding redirects to this version support MSBuild 15 and later.
+MSBuild requires binding redirects for certain assemblies (Microsoft.Build assemblies), but if you reference the Microsoft.Build.Locator package, you ensure that your application automatically uses the required binding redirects to version 15.1.0.0. Binding redirects to this version support MSBuild 15.x, 16.x, and 17.x.
 
 ### Ensure output is clean
 
