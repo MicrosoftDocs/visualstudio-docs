@@ -1,7 +1,7 @@
 ---
 title: Create a branch
 description: Create a branch for source control in Visual Studio with Git.
-ms.date: 03/03/2022
+ms.date: 10/20/2022
 ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
@@ -27,8 +27,8 @@ Here's how.
 1. In the **Create a new branch** dialog box, enter a branch name.
 
     > [!TIP]
-    > For branch naming details, see [Special characters in branch and tag names](https://docs.github.com/en/get-started/using-git/dealing-with-special-characters-in-branch-and-tag-names).
- 
+    > For branch naming details, see [Special characters in branch and tag names](https://docs.github.com/get-started/using-git/dealing-with-special-characters-in-branch-and-tag-names).
+
     :::image type="content" source="media/vs-2022/git-create-new-branch-dialog.png" alt-text="Screenshot of the Create a New Branch dialog box.":::
 
 1. In the **Based on** section, use the drop-down list to choose whether you want to base your new branch off an existing local branch or a remote branch.

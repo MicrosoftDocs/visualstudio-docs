@@ -203,7 +203,14 @@ Files generated during execution don't exist during the evaluation phase, theref
   <!-- Generated files should be placed in $(IntermediateOutputPath) -->
 
   <ItemGroup>
+    <!-- If your generated file was placed in `obj\` -->
     <None Include="$(IntermediateOutputPath)my-generated-file.xyz" CopyToOutputDirectory="PreserveNewest"/>
+    <!-- If you know exactly where that file is going to be, you can hard code the path. -->
+    <None Include="some\specific\path\my-generated-file.xyz" CopyToOutputDirectory="PreserveNewest"/>
+    
+    <!-- If you want to capture "all files of a certain type", you can glob like so. -->
+    <None Include="some\specific\path\*.xyz" CopyToOutputDirectory="PreserveNewest"/>
+    <None Include="some\specific\path\*.*" CopyToOutputDirectory="PreserveNewest"/>
   </ItemGroup>
 </Target>
 ```

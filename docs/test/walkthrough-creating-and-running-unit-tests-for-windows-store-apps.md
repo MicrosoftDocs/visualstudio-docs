@@ -444,7 +444,7 @@ To add the helper method, in *UnitTest.cs*:
    ```csharp
    private double ToleranceHelper(double expected)
    {
-   return expected / 1000;
+       return expected / 1000;
    }
    ```
 
