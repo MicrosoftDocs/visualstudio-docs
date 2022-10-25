@@ -2,7 +2,7 @@
   "redirections": [
     {
       "source_path": "docs/msbuild/updating-an-existing-application.md",
-      "redirect_url": "/visualstudio/msbuild/find-and-use-msbuild-versions.md",
+      "redirect_url": "/visualstudio/msbuild/find-and-use-msbuild-versions",
       "redirect_document_id": true
     },
     {
