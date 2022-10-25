@@ -3021,6 +3021,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/remote-debugging-aks-on-linux-with-ssh.md",
+      "redirect_url": "/visualstudio/debugger/remote-debugging-dotnet-core-linux-with-ssh",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/using-run-time-checks-without-the-c-run-time-library.md",
       "redirect_url": "/visualstudio/debugger/how-to-use-native-run-time-checks",
       "redirect_document_id": false
