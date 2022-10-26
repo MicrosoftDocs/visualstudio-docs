@@ -20,7 +20,7 @@ ms.technology: vs-installation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-> [!IMPORTANT]
+> [!TIP]
 > Having a problem installing? We can help. We offer an [**installation chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option.
 
 This troubleshooting guide includes step-by-step instructions that should resolve most installation issues.
@@ -196,15 +196,3 @@ Two policies control the ability to install WebView2: [Microsoft Edge 'Install (
 
 > [!NOTE]
 > If neither policy is configured, WebView2 installation is allowed by your organization.
-
-## Live help
-
-If the solutions listed in this troubleshooting guide don't help you successfully install or upgrade Visual Studio, use our [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) support option (English only) for further assistance.
-
-## See also
-
-* [Repair Visual Studio](repair-visual-studio.md)
-* [Remove Visual Studio](uninstall-visual-studio.md#remove)
-* [Install and use Visual Studio and Azure Services behind a firewall or proxy server](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)
-* [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
-* [Visual Studio administrator guide](visual-studio-administrator-guide.md)

@@ -265,6 +265,29 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
 
      A message box displays the current value of `OptionInteger`.
 
+## Open options page
+
+In this section, you'll add a Command and an event for the button to open the options page
+
+1. First add a file called OpenPageCommand.cs. 
+
+3. Then, open *OpenPageCommand.cs* and change your Execute method.
+
+     ```csharp
+     private void Execute(object sender, EventArgs e)
+     {
+         ThreadHelper.ThrowIfNotOnUIThread();
+         Type optionsPageType = typeof(OptionPageCustom);
+         Instance.package.ShowOptionPage(optionsPageType);
+     }
+    ```
+
+3. Run the project, then click the Invoke button (it is under the Tool option by default), then you can see your options page is opened.
+
+5. More details about opening options page can refer to the following documents
+
+- [Opening an Options Page](/previous-versions/cc826083(v=vs.140))
+
 ## See also
 
 - [Options and options pages](../extensibility/internals/options-and-options-pages.md)

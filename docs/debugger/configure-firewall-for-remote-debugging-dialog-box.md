@@ -27,10 +27,10 @@ ms.workload:
 # Configure Firewall for Remote Debugging Dialog Box
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-This dialog box appears when the Windows Firewall blocks the debugger from receiving information over the network. To continue remote debugging, you must open a hole in the firewall so the debugger can receive information.
+This dialog box appears when the Windows Firewall blocks the debugger from receiving information over the network. To continue remote debugging, you must open a port in the firewall so the debugger can receive information.
 
 > [!CAUTION]
-> Opening a hole in the Firewall may expose your machine to security threats that the Firewall is designed to block. Opening a hole for remote debugging unblocks ports 4020 and 4021 in Visual Studio 2015. In other versions of Visual Studio, other port numbers are used. For more information, see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md). In addition, it allows the debugger to open additional ports. For more information, see [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md).
+> Opening a port in the Firewall may expose your machine to security threats that the Firewall is designed to block. Opening a port for remote debugging unblocks ports 4020 and 4021 in Visual Studio 2015. In other versions of Visual Studio, other port numbers are used. For more information, see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md). In addition, it allows the debugger to open additional ports. For more information, see [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md).
 
 ## UIElement List
  **Cancel remote debugging**

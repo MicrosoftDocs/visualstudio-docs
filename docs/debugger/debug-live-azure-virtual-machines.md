@@ -114,7 +114,7 @@ If it's difficult to recreate a particular state in your app, consider using a c
 
 #### To create a conditional snappoint
 
-1. Right-click a snappoint icon (the hollow ball) and choose **Settings**.
+1. Right-click a snappoint icon (the hollow sphere) and choose **Settings**.
 
    ![Choose Settings](../debugger/media/snapshot-snappoint-settings.png)
 

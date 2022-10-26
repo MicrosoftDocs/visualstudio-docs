@@ -2,7 +2,7 @@
 title: Compiling building
 description: Learn how you use the Visual Studio IDE build method, the MSBuild command-line tools build method, or Azure Pipelines build method to build an application.
 ms.custom: SEO-VS-2020
-ms.date: 09/14/2021
+ms.date: 10/07/2022
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
@@ -26,7 +26,7 @@ You can use any of the following methods to build an application: the Visual Stu
 | Build Method | Benefits |
 | --- |--- | --- |
 | IDE |- Create builds immediately and test them in a debugger.<br />- Run multi-processor builds for C++ and C# projects.<br />-   Customize different aspects of the build system. |
-| CMake | - Build projects using the CMake tool<br />- Use the same build system across Linux and Windows platforms. |
+| CMake | - Build C++ projects using the CMake tool<br />- Use the same build system across Linux and Windows platforms. |
 | MSBuild command line| - Build projects without installing Visual Studio.<br />- Run multi-processor builds for all project types.<br />-   Customize most areas of the build system.|
 | Azure Pipelines | - Automate your build process as part of a continuous integration/continuous delivery pipeline.<br />- Apply automated tests with every build.<br />- Employ virtually unlimited cloud-based resources for build processes.<br />- Modify the build workflow and create build activities to perform deeply customized tasks.|
 
