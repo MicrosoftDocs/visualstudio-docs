@@ -127,7 +127,9 @@ If none of the previous steps help you successfully upgrade Visual Studio, you c
 > - For the Release channel, you can rollback to your previously installed version if it was either 17.0.10 or higher, or 17.1.7 or higher.  
 > - For the Preview channel, you can rollback to your previously installed version if it was 17.2 Preview 1 or higher. 
 
-**Rollback using the Visual Studio Installer**
+You can rollback to your previously installed version by using the Visual Studio Installer or by using the command line.
+
+#### Rollback using the Visual Studio Installer
 
 1. Launch the **Visual Studio Installer** on your computer.
 1. In the installer, look for the edition of Visual Studio that you installed. Next, choose **More**, and then choose **Rollback to previous version**.
@@ -138,7 +140,7 @@ If none of the previous steps help you successfully upgrade Visual Studio, you c
 
     :::image type="content" source="media/vs-2022/rollback-confirm.png" alt-text="Screenshot of Rollback Visual Studio confirmation dialog.":::
 
-**Rollback using the command line**
+#### Rollback using the command line
 
 The `rollback` command is also available programmatically to users who manage updates through scripts or command line.
 
