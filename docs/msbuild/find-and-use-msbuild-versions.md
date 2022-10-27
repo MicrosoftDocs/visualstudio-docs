@@ -1,5 +1,5 @@
 ---
-title: Find and use a specific version of MSBuild | Microsoft Docs
+title: Find MSBuild and use its API | Microsoft Docs
 description: Learn how to ensure that programmatic builds from your application match builds done within Visual Studio or MSBuild.exe, and learn how to locate and use a consistent version on MSBuild when developing a programmatic build application on different machines.
 ms.custom: SEO-VS-2020
 ms.date: 10/25/2022
@@ -75,37 +75,42 @@ Do not specify `ExcludeAssets=runtime` for the Microsoft.Build.Locator package.
 
 ### Register instance before calling MSBuild
 
-> [!IMPORTANT]
-> You cannot reference any MSBuild types (from the `Microsoft.Build` namespace) in the method that calls MSBuildLocator. For example, you cannot do this:
->
-> ```csharp
-> void ThisWillFail()
-> {
->     // Register the most recent version of MSBuild
->     RegisterInstance(QueryVisualStudioInstances.OrderByDescending(version).First())
->     Project p = new Project(SomePath); // Could be any MSBuild type
->     // Code that uses the MSBuild type
-> }
-> ```
->
-> Instead, you must do this:
->
-> ```csharp
-> void MethodThatDoesNotDirectlyCallMSBuild()
-> {
->     // Register the most recent version of MSBuild
->     RegisterInstance(QueryVisualStudioInstances.OrderByDescending(version).First())
->     MethodThatCallsMSBuild();
-> }
-> 
-> void MethodThatCallsMSBuild()
-> {
->     Project p = new Project(SomePath);
->     // Code that uses the MSBuild type
-> }
-> ```
+When you're creating a build application for general use, you don't know what versions of Visual Studio, .NET, and MSBuild might be installed on a machine your application is being executed on. The purpose of MSBuildLocator is to find an appropriate installation of MSBuild to use on machines with diverse installation environments. MSBuildLocator allows you to specify some logic to determine which MSBuild to use, but you as the developer of your application need to determine what MSBuild version it requires or can accept, or else provide a way for your users to specify a version, and include logic to translate that choice into appropriate calls to the MSBuildLocator API.
 
 The simplest way to add the call to the Locator API is to add a call to `MSBuildLocator.RegisterInstance`
-in your application startup code.
+in your application startup code. One example is to pick the latest version, as shown here, but your application might have it own requirements.
 
-If you would like finer-grained control over the loading of MSBuild, you can select a result of `MSBuildLocator.QueryVisualStudioInstances` to pass to `MSBuildLocator.RegisterInstance` using the custom logic you need. You can also register a specific instance of MSBuild using `MSBuildLocator.RegisterMSBuildPath`.
+You cannot reference any MSBuild types (from the `Microsoft.Build` namespace) in the method that calls MSBuildLocator. For example, you cannot do this:
+
+ ```csharp
+ void ThisWillFail()
+ {
+     // Register the most recent version of MSBuild
+     RegisterInstance(MSBuildLocator.QueryVisualStudioInstances().OrderByDescending(
+        instance => instance.Version).First());
+     Project p = new Project(SomePath); // Could be any MSBuild type
+     // Code that uses the MSBuild type
+ }
+ ```
+
+ Instead, you must do this:
+
+ ```csharp
+ void MethodThatDoesNotDirectlyCallMSBuild()
+ {
+     // Register a specific instance of MSBuild
+     // Your application must determine the logic to locate an instance of MSBuild,
+     // for example, the latest installed version, or the version that would be chosen
+     // in the context of the caller's system environment
+     MSBuildLocator.RegisterInstance(instance);
+     MethodThatCallsMSBuild();
+ }
+ 
+ void MethodThatCallsMSBuild()
+ {
+     Project p = new Project(SomePath);
+     // Code that uses the MSBuild type
+ }
+ ```
+
+To specify an MSBuild instance, you can select a result of `MSBuildLocator.QueryVisualStudioInstances` to pass to `MSBuildLocator.RegisterInstance` using the custom logic you need.
