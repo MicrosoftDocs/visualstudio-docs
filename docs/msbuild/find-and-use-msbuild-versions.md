@@ -17,6 +17,8 @@ To ensure that programmatic builds from your application match builds done withi
 
 ## Use Microsoft.Build.Locator
 
+The Microsoft.Build.Locator package is relevant to situations where your application runs on client machines, virtual machines, or within containers, either where Visual Studio is installed or in environments where only the Visual Studio Build Tools, or just the .NET SDK is installed, such as when builds are requested with the `dotnet build` command line. In any case, your application needs to find the desired version of MSBuild. That could be the version that matches Visual Studio, MSBuild.exe, or `dotnet build`, or a particular consistent version regardless of the varying machine configurations in environments where your application might be used.
+
 If you redistribute *Microsoft.Build.Locator.dll* with your application, you won't need to distribute other MSBuild assemblies.
 
 Using the locator API requires a few changes in your project, described below. To see an example of the changes required to update a project, see [the commits made to an example project in the MSBuildLocator repository](https://github.com/Microsoft/MSBuildLocator/commits/example-updating-to-msbuild-15).
