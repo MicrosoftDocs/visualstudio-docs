@@ -1,7 +1,7 @@
 ---
 title: Disable DPI-awareness for scaling in forms
 description: Fix scaling issues with Windows Forms Designer on HDPI monitors.
-ms.date: 10/20/2022
+ms.date: 10/27/2022
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
@@ -32,8 +32,6 @@ If you aren't working in the designer and don't need to adjust the layout of you
 When you open a form in the **Windows Forms Designer** on an HDPI monitor, Visual Studio displays an informational bar.
 
 :::image type="content" source="media/scaling-gold-bar-message-1.png" alt-text="Screenshot of the informational bar in Visual Studio to restart in DPI-unaware mode.":::
-
-
 
 > [!TIP]
 > If you've closed the informational bar at the top of the designer, but you still want to replicate the behavior of the link that says **Restart Visual Studio with 100% scaling**, you still can. Select **Tools** > **Command Line** > **Developer Command Prompt** from the Visual Studio menu bar. Then, enter `devenv /noScale`.
@@ -73,15 +71,17 @@ When Visual Studio runs as a DPI-unaware process, the designer layout issues are
 
 It's important to restart Visual Studio as a DPI-aware process when you're finished working in the **Windows Forms Designer**. If you close and reopen Visual Studio when it's running in DPI-unaware mode, it becomes DPI-aware again. You can also select the **Restart Visual Studio as a DPI-aware process** option in the informational bar.
 
+::: moniker range="<=vs-2019"
+
 ### Add a registry entry
 
 As option two, you can mark Visual Studio as DPI-unaware by modifying the registry. Open **Registry Editor** and add an entry to the **HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers** subkey:
 
-**Entry**: Depending on whether you're using Visual Studio 2017, 2019, or 2022, use one of these values:
+**Entry**: Depending on whether you're using Visual Studio 2017 or 2019 use one of these values:
 
 - C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\devenv.exe
 - C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
-- C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe
+<!-- - C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe -->
 
 > [!NOTE]
 > If you're using the Professional or Enterprise edition of Visual Studio, replace **Community** with **Professional** or **Enterprise** in the entry. Also replace the drive letter as necessary.
@@ -90,6 +90,8 @@ As option two, you can mark Visual Studio as DPI-unaware by modifying the regist
 **Value**: DPIUNAWARE
 
 Visual Studio remains in DPI-unaware mode until you remove the registry entry.
+
+::: moniker-end
 
 ### Set your display scaling setting to 100%
 
