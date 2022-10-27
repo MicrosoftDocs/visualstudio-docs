@@ -116,14 +116,12 @@ If your client machine doesn't have internet access, then it _must_ acquire the 
     \\server\share\VSlayoutdirectory\vs_enterprise.exe update --installPath "C:\clientmachine\installpath" --noWeb --wait --quiet --norestart
  ```
     
-Another way to ensure that the client gets its updates from the network layout is to pass in the `--noweb` and `--noUpdateInstaller` options in a single command to the bootstrapper on the network layout. The former prevents downloading updated workloads, components from the internet, and the latter prevents the installer from self-updating. This option, while available, is generally not recommended because you should always be using the latest and greatest installer.
-
 > [!IMPORTANT]
 > The `--noWeb` option does not stop Visual Studio setup on an internet-connected computer from _checking_ for updates. Rather, it prevents the client from downloading the product packages. 
 
 ## Get support for your network layout
 
-If you experience a problem with your network layout, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE. If you're an IT Administrator and don't have Visual Studio installed, you can submit [**IT Admin feedback here**](https://aka.ms/vs/admin/guide). When you use this tool, it would be very helpful if you could send the [logs from the VS Collect tool](https://aka.ms/vscollect) which can help us diagnose and fix the problem.
+If you experience a problem with your network layout, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE. If you're an IT Administrator and don't have Visual Studio installed, you can submit [**IT Admin feedback here**](https://aka.ms/vs/admin/feedback). When you use this tool, it would be very helpful if you could send the [logs from the VS Collect tool](https://aka.ms/vscollect) which can help us diagnose and fix the problem.
 
 We also offer an [**installation chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 
