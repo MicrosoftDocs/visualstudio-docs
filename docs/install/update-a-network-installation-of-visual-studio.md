@@ -112,7 +112,7 @@ Whatever the value of the channelURI in the new layout's response.json file will
 If your client machine doesn't have internet access, then it _must_ acquire the updates from a network layout. Remember that there are two parts that need to get updated whenever Visual Studio is updated. The first is the installer and the second is the Visual Studio product itself. You can instruct Visual Studio to _explicitly_ look for _both_ of these components from the network layout by running these commands on the client machine. The first command forces the installer to come from the layout, and the second command prevents any packages from being downloaded from Microsoft hosted servers on the internet.
 
  ```shell
-    \\server\share\VSlayoutdirectory\vs_enterprise.exe --quiet --update
+    \\server\share\VSlayoutdirectory\vs_enterprise.exe --quiet --update --wait --offline
     \\server\share\VSlayoutdirectory\vs_enterprise.exe update --installPath "C:\clientmachine\installpath" --noWeb --wait --quiet --norestart
  ```
     
