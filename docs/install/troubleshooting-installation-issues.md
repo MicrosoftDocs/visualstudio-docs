@@ -138,8 +138,6 @@ You can rollback to your previously installed version by using the Visual Studio
 
 1. Select **OK** to confirm your choice.
 
-    :::image type="content" source="media/vs-2022/rollback-confirm.png" alt-text="Screenshot of Rollback Visual Studio confirmation dialog.":::
-
 #### Rollback using the command line
 
 The `rollback` command is also available programmatically to users who manage updates through scripts or command line.
