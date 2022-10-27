@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot installation or upgrade issues
 description: Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help.
-ms.date: 2/4/2022
+ms.date: 11/08/2022
 ms.custom: vs-acquisition
 ms.topic: troubleshooting
 helpviewer_keywords:
@@ -108,9 +108,49 @@ As a last resort, you can remove all Visual Studio installation files and produc
 1. Rerun the Visual Studio Installer bootstrapper. You might find the bootstrapper in your **Downloads** folder with a file name that matches a `vs_[Visual Studio edition]__*.exe` pattern. Or, you can download the bootstrapper for your edition of Visual Studio from the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page.
 1. Try to reinstall Visual Studio.
 
+::: moniker range="vs-2019"
+
 ### Step 7 - Contact us (optional)
 
 If none of the previous steps help you successfully install or upgrade Visual Studio, contact us by using our [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) support option (English only) for further assistance.
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+### Step 7 - Rollback
+
+If none of the previous steps help you successfully upgrade Visual Studio, you can try to rollback to your previously installed version. Learn more about the [rollback feature in Visual Studio](https://aka.ms/devblog-rollback) before trying to rollback.
+
+> [!NOTE]
+> With Visual Studio 2022 17.4, you'll be able to rollback to your previously installed version.
+> - For the Release channel, you can rollback to your previously installed version if it was either 17.0.10 or higher, or 17.1.7 or higher.  
+> - For the Preview channel, you can rollback to your previously installed version if it was 17.2 Preview 1 or higher. 
+
+You can rollback to your previously installed version by using the Visual Studio Installer or by using the command line.
+
+#### Rollback using the Visual Studio Installer
+
+1. Launch the **Visual Studio Installer** on your computer.
+1. In the installer, look for the edition of Visual Studio that you installed. Next, choose **More**, and then choose **Rollback to previous version**.
+
+    :::image type="content" source="media/vs-2022/rollback-from-previous-version.png" alt-text="Screenshot of the Rollback to previous version option.":::
+
+1. Select **OK** to confirm your choice.
+
+#### Rollback using the command line
+
+The `rollback` command is also available programmatically to users who manage updates through scripts or command line.
+
+Below is an example command that you can run to rollback using the command line:  
+
+`"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" rollback -–installPath "C:\Program Files\Microsoft Visual Studio\2022\Preview"`
+
+### Step 8 - Contact us (optional)
+
+If none of the previous steps help you successfully install or upgrade Visual Studio, contact us by using our [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) support option (English only) for further assistance.
+
+::: moniker-end
 
 ## Offline installations
 
