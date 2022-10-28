@@ -3,8 +3,8 @@ title: Use Visual Studio profiler to measure performance of Python code
 description: Use the Visual Studio profiler to check the performance of Python code when using CPython-based interpreters.
 ms.date: 06/02/2022
 ms.topic: how-to
-author: ijoosong
-ms.author: joesong
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 ms.custom: devdivchpfy22
