@@ -1,7 +1,7 @@
 ---
 title: Disable DPI-awareness for scaling in forms
 description: Fix scaling issues with Windows Forms Designer on HDPI monitors.
-ms.date: 10/28/2022
+ms.date: 10/31/2022
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
@@ -70,28 +70,6 @@ When Visual Studio runs as a DPI-unaware process, the designer layout issues are
 ::: moniker-end
 
 It's important to restart Visual Studio as a DPI-aware process when you're finished working in the **Windows Forms Designer**. If you close and reopen Visual Studio when it's running in DPI-unaware mode, it becomes DPI-aware again. You can also select the **Restart Visual Studio as a DPI-aware process** option in the informational bar.
-
-::: moniker range="<=vs-2019"
-
-### Add a registry entry
-
-As option two, you can mark Visual Studio as DPI-unaware by modifying the registry. Open **Registry Editor** and add an entry to the **HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers** subkey:
-
-**Entry**: Depending on whether you're using Visual Studio 2017 or 2019 use one of these values:
-
-- C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\devenv.exe
-- C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
-<!-- - C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe -->
-
-> [!NOTE]
-> If you're using the Professional or Enterprise edition of Visual Studio, replace **Community** with **Professional** or **Enterprise** in the entry. Also replace the drive letter as necessary.
-
-**Type**: REG_SZ <br>
-**Value**: DPIUNAWARE
-
-Visual Studio remains in DPI-unaware mode until you remove the registry entry.
-
-::: moniker-end
 
 ### Set your display scaling setting to 100%
 
