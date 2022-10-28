@@ -100,10 +100,9 @@ You cannot reference any MSBuild types (from the `Microsoft.Build` namespace) in
  ```csharp
  void MethodThatDoesNotDirectlyCallMSBuild()
  {
+     var instance = ... // select which of the installed instances to use
+     
      // Register a specific instance of MSBuild
-     // Your application must determine the logic to locate an instance of MSBuild,
-     // for example, the latest installed version, or the version that would be chosen
-     // in the context of the caller's system environment
      MSBuildLocator.RegisterInstance(instance);
      MethodThatCallsMSBuild();
  }
