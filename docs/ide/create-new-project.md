@@ -2,7 +2,7 @@
 title: Create a new project
 description: Learn how to create a new project in Visual Studio.
 ms.custom: SEO-VS-2020
-ms.date: 10/24/2022
+ms.date: 10/28/2022
 ms.topic: how-to
 f1_keywords:
 - vs.newproject
@@ -59,7 +59,7 @@ If you're not selecting from the recently used templates, you can filter all ava
 
 :::image type="content" source="media/vs-2019/create-new-project-filters.png" alt-text="Screenshot of the project template filters in Visual Studio 2019.":::
 
-The tags that appear under each template correspond to the three dropdown filters (Language, platform, and project type).
+The tags that appear under each template correspond to the three dropdown filters (language, platform, and project type).
 
 > [!TIP]
 > If you don't see the template you're looking for, you might be missing a workload for Visual Studio. To install additional workloads, for example, **Azure Development** or **Mobile Development with .NET**, select the **Install more tools and features** link to open Visual Studio Installer. From there, select the workloads you want to install, and then select **Modify**. After that, additional project templates will be available to choose from.
@@ -74,7 +74,7 @@ Select a template and then select **Next**.
 
 :::image type="content" source="media/vs-2022/create-new-project-filters.png" alt-text="Screenshot of the project template filters in Visual Studio 2022.":::
 
-The tags that appear under each template correspond to the three dropdown filters (Language, platform, and project type).
+The tags that appear under each template correspond to the three dropdown filters (language, platform, and project type).
 
 > [!TIP]
 > If you don't see the template you're looking for, you might be missing a workload for Visual Studio. To install additional workloads, for example, **Azure Development** or **Mobile Development with .NET**, select the **Install more tools and features** link to open Visual Studio Installer. From there, select the workloads you want to install, and then select **Modify**. After that, additional project templates will be available to choose from.
@@ -118,16 +118,13 @@ Select **Create** to create the new project.
 
 ::: moniker-end
 
-## Add additional projects to a solution
+## Add another project to a solution
 
-If you want to add an additional project to a solution, right-click the solution node in **Solution Explorer** and then select **Add** > **New Project**.
+If you want to add another project to a solution, right-click the solution node in **Solution Explorer** and then select **Add** > **New Project**.
 
 > [!TIP]
 > For an example of a project and solution created from scratch, complete with step-by-step instructions and sample code, see [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md).
 
 ## See also
 
-- [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md)
-- [Work with solutions and projects](creating-solutions-and-projects.md)
-- [Manage project and solution properties](managing-project-and-solution-properties.md)
-- [Create projects (Visual Studio for Mac)](/visualstudio/mac/create-new-projects)
+- [Visual Studio for Mac: Create a new project](/visualstudio/mac/create-new-projects)
