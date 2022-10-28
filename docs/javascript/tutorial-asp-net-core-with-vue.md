@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: In this tutorial, you create an app using ASP.NET Core and Vue
-ms.date: 08/17/2022
+ms.date: 10/27/2022
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -157,6 +157,22 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
    ```
 
 1. Right-click the ASP.NET Core project and choose **Reload Project**.
+
+1. In *Program.cs*, update the check for `Environment.IsDevelopment` so it looks like the following.
+
+   ```csharp
+   // Configure the HTTP request pipeline.
+   if (app.Environment.IsDevelopment())
+   {
+      app.UseSwagger();
+      app.UseSwaggerUI();
+   }
+   else
+   {
+      app.UseDefaultFiles();
+      app.UseStaticFiles();
+   }
+   ```
 
 1. To publish, right click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, et al.
 
