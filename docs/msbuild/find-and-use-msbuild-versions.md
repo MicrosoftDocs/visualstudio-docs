@@ -23,13 +23,13 @@ If you redistribute *Microsoft.Build.Locator.dll* with your application, you won
 
 Using the locator API requires a few changes in your project, described below. To see an example of the changes required to update a project, see [the commits made to an example project in the MSBuildLocator repository](https://github.com/Microsoft/MSBuildLocator/commits/example-updating-to-msbuild-15).
 
-### Change MSBuild references
+## Change MSBuild references
 
 To make sure that MSBuild loads from a central location, you must not distribute its assemblies with your application.
 
 The mechanism for changing your project to avoid loading MSBuild from a central location depends on how you reference MSBuild.
 
-#### Use NuGet packages (preferred)
+### Use NuGet packages (preferred)
 
 These instructions assume that you're using [PackageReference-style NuGet references](/nuget/consume-packages/package-references-in-project-files).
 
@@ -59,11 +59,11 @@ If you can't use NuGet packages, you can reference MSBuild assemblies that are d
 > [!NOTE]
 > If you're updating from a version of MSBuild prior to 15, MSBuild requires binding redirects for certain assemblies (Microsoft.Build assemblies), but if you reference the Microsoft.Build.Locator package, you ensure that your application automatically uses the required binding redirects to version 15.1.0.0. Binding redirects to this version support MSBuild 15.x, 16.x, and 17.x.
 
-### Ensure output is clean
+## Ensure output is clean
 
 Build your project and inspect the output directory to make sure that it doesn't contain any *Microsoft.Build.\*.dll* assemblies other than *Microsoft.Build.Locator.dll*, added in the next step.
 
-### Add package reference for Microsoft.Build.Locator
+## Add package reference for Microsoft.Build.Locator
 
 Add a NuGet package reference for [Microsoft.Build.Locator](https://www.nuget.org/packages/Microsoft.Build.Locator/).
 
@@ -75,7 +75,7 @@ Add a NuGet package reference for [Microsoft.Build.Locator](https://www.nuget.or
 
 Do not specify `ExcludeAssets=runtime` for the Microsoft.Build.Locator package.
 
-### Register instance before calling MSBuild
+## Register instance before calling MSBuild
 
 When you're creating a build application for general use, you don't know what versions of Visual Studio, .NET, and MSBuild might be installed on a machine your application is being executed on. The purpose of MSBuildLocator is to find an appropriate installation of MSBuild to use on machines with diverse installation environments. MSBuildLocator allows you to specify some logic to determine which MSBuild to use, but you as the developer of your application need to determine what MSBuild version it requires or can accept, or else provide a way for your users to specify a version, and include logic to translate that choice into appropriate calls to the MSBuildLocator API.
 
@@ -115,3 +115,14 @@ You cannot reference any MSBuild types (from the `Microsoft.Build` namespace) in
  ```
 
 To specify an MSBuild instance, you can select a result of `MSBuildLocator.QueryVisualStudioInstances` to pass to `MSBuildLocator.RegisterInstance` using the custom logic you need.
+
+## Next steps
+
+Learn about MSBuild APIs by consulting the MSBuild API Reference:
+
+- [Microsoft.Build.Evaluation](/dotnet/api/microsoft.build.evaluation)
+- [Microsoft.Build.Execution](/dotnet/api/microsoft.build.execution)
+- [Microsoft.Build.Framework](/dotnet/api/microsoft.build.framework)
+- [Microsoft.Build.Logging](/dotnet/api/microsoft.build.logging)
+- [Microsoft.Build.Tasks](/dotnet/api/microsoft.build.tasks)
+- [Microsoft.Build.Utilities](/dotnet/api/microsoft.build.utilities)
