@@ -42,7 +42,7 @@ The preceding image shows Visual Studio with an open Visual Basic project that s
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-- In [Git Changes](/visualstudio/version-control/) at lower right, you can track work items and share code with others by using version control technologies like [Git](https://git-scm.com/) and [GitHub](https://docs.github.com/).
+- In [Git Changes](/visualstudio/version-control/) at lower right, you can track work items and share code with others by using version control technologies like [Git](https://git-scm.com/) and [GitHub](https://github.com/).
 ::: moniker-end
 
 ## Editions
