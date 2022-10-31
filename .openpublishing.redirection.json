@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "docs/msbuild/updating-an-existing-application.md",
+      "redirect_url": "/visualstudio/msbuild/find-and-use-msbuild-versions",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "docs/python/managing-python-on-azure-app-service.md",
       "redirect_url": "/azure/app-service/quickstart-python",
       "redirect_document_id": false
