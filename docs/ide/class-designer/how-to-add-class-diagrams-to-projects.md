@@ -54,7 +54,7 @@ If you haven't installed the **Class Designer** component, follow these steps to
 
    The **Add New Item** dialog opens.
 
-2. Expand **Common Items** > **General**, and then select **Class Diagram** from the template list. For Visual C++ projects, look in the **Utility** category to find the **Class Diagram** template.
+2. Expand **General**, and then select **Class Diagram** from the template list. For Visual C++ projects, look in the **Utility** category to find the **Class Diagram** template.
 
    > [!NOTE]
    > If you don't see the **Class Diagram** template, [follow the steps](#install-the-class-designer-component) to install the **Class Designer** component for Visual Studio.
