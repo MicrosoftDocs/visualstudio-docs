@@ -394,7 +394,7 @@ For more information about how to customize and configure the default client set
 
 ### Configure policies for enterprise deployment behavior
 
-You can also control other enterprise deployment behavior, such as installation, update, and download behavior, administrator update behavior, and notification behavior.  
+You can also control other enterprise deployment behavio such as installation, update, and download behavior, administrator update behavior, how layouts appear in the Update Settings dialog, and notification behavior.  
 
 Refer to [Configure policies for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md) for additional details.
 
