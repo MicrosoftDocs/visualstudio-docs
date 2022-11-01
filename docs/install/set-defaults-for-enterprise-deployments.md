@@ -18,17 +18,18 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-# Set defaults for enterprise deployments of Visual Studio
+# Configure policies for enterprise deployments of Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can set registry policies that affect the deployment and update behavior of Visual Studio. These policies are global on the client machine and affect the following:
+You can set policies in the registry that affect the deployment and update behavior of Visual Studio. These policies are global on the client machine and affect the following:
 
 - Where some packages shared with other versions or instances are installed.
 - Where and whether packages are cached.
 - If administrator updates should be enabled and how they should be applied.
 - Which update channels are available and how they're presented to the client.
 - How notifications appear or don't appear.
+- If unsupported components should be removed from the machine
 
 You can set these policies by using [command-line options](use-command-line-parameters-to-install-visual-studio.md) on the client machine, by setting registry values directly on the client machine, or by distributing them using Group Policy across an organization.
 
@@ -44,8 +45,8 @@ Some registry values are set automatically the first time they are used if not s
 
 You can set the following registry values:
 
-## Controlling installation and download behavior
-The registry settings in this section control how and where the Visual Studio product is downloaded onto the client machine.
+## Controlling installation, download, and update behavior
+The registry settings in this section control how and where the Visual Studio product is downloaded and installed onto the client machine.
 
 | **Name**                         | **Type**                    | **Default**                                         | **Description**       |
 |----------------------------------|-----------------------------|-----------------------------------------------------|----------------------------|
@@ -53,6 +54,7 @@ The registry settings in this section control how and where the Visual Studio pr
 | `KeepDownloadedPayloads`         | `REG_DWORD`                 | 1                                                   | Keep package payloads even after they are installed. You can change the value anytime. Disabling the policy removes any cached package payloads for the instance you repair or modify. For more information, see [Disable or move the package cache](disable-or-move-the-package-cache.md) page.   |
 | `SharedInstallationPath`         | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramFiles(x86)%<br>\Microsoft Visual Studio<br>\Shared  | The directory where some packages shared across versions of instances of Visual Studio are installed. You can change the value anytime, but it will only affect future installs. Any products already installed to the old location must not be moved or they might not function correctly. The Visual Studio Installer enforces a 150 character limit for the path.     |
 | `BackgroundDownloadDisabled`     | `REG_DWORD`                 | 0                                                   | Prevent setup from downloading updates automatically for all installed Visual Studio products. You can change the value anytime.    |
+| `removeOos`     | `REG_DWORD`                 | 0                                                   | If set to 1, then during an update the Visual Studio installer will remove all installed components that have transitioned to an out-of-support state. This functionality requires the Visual Studio 2022 version 17.4 installer to be installed on the client machine. |
 
 > [!IMPORTANT]
 > If you change the `CachePath` registry policy after any installations, you must move the existing package cache to the new location and make sure it's secured so that `SYSTEM` and `Administrators` have **Full Control** and that `Everyone` has **Read** access.
@@ -66,10 +68,9 @@ The registry settings in this section control if and how administrator updates a
 
 | **Name**                         | **Type**                    | **Default**                                         | **Description**           |
 |----------------------------------|-----------------------------|-----------------------------------------------------|---------------------------|
-| `AdministratorUpdatesEnabled`    | `REG_DWORD`                 | 0                                                   | Allows administrator updates to be applied to the client computer. If this value is missing or is set to 0, administrator updates will be blocked. This value is for administrative use. For more information, see [Enabling Administrator Updates](enabling-administrator-updates.md). |
-| `AdministratorUpdatesOptOut`     | `REG_DWORD`                 | 0                                                   | Indicates that the user does not want to receive administrator updates to Visual Studio. The absence of the registry value, or a set value of 0, means that the Visual Studio user wants to receive administrator updates to Visual Studio. This is for developer user (if they have admin permissions on the client machine). For more information, see [Applying administrator updates](../install/applying-administrator-updates.md#understanding-configuration-options). |
+| `AdministratorUpdatesEnabled`    | `REG_DWORD`                 | 0                                                   | Allows administrator updates to be applied to the client computer. If this value is missing or is set to 0, administrator updates will be blocked. A value of 1 makes the client available to WSUS and SCCM for Active Directory (AD) joined machines. A value of 2 makes the client available for WSUS/SCCM and Microsoft Endpoint Manager cloud connected Azure Activie Directory (AAD) joined machines. This registry key is for the administrator user. For more information, see [Enabling Administrator Updates](enabling-administrator-updates.md). |
+| `AdministratorUpdatesOptOut`     | `REG_DWORD`                 | 0                                                   | Indicates that the user does not want to receive administrator updates to Visual Studio. The absence of the registry value, or a set value of 0, means that the Visual Studio user wants to receive administrator updates to Visual Studio. This is for the developer user (if they have admin permissions on the client machine). For more information, see [Applying administrator updates](../install/applying-administrator-updates.md#understanding-configuration-options). |
 | `UpdateConfigurationFile`        | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%<br>\Microsoft<br>\VisualStudio<br>\updates.config | The file path for configuring Administrative Updates. For more information, see [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update).   |                        
-| `BaselineStickinessVersions2019` | `REG_SZ` or `REG_EXPAND_SZ` | `16.7.0`                                            | The servicing baseline minor version that the client should remain on. For more information, see [Applying administrator updates](../install/applying-administrator-updates.md#understanding-configuration-options) page. |
 
 ::: moniker-end
 
@@ -79,8 +80,8 @@ The registry settings in this section control if and how administrator updates a
 
 | **Name**                         | **Type**                    | **Default**                                         | **Description**           |
 |----------------------------------|-----------------------------|-----------------------------------------------------|---------------------------|
-| `AdministratorUpdatesEnabled`    | `REG_DWORD`                 | 0                                                   | Allows administrator updates to be applied to the client computer. If this value is missing or is set to 0, administrator updates will be blocked. This value is for administrative use. For more information, see [Enabling Administrator Updates](enabling-administrator-updates.md). |
-| `AdministratorUpdatesOptOut`     | `REG_DWORD`                 | 0                                                   | Indicates that the user does not want to receive administrator updates to Visual Studio. The absence of the registry value, or a set value of 0, means that the Visual Studio user wants to receive administrator updates to Visual Studio. This is for developer user (if they have admin permissions on the client machine). For more information, see [Applying administrator updates](../install/applying-administrator-updates.md#understanding-configuration-options). |
+| `AdministratorUpdatesEnabled`    | `REG_DWORD`                 | 0                                                   | Allows administrator updates to be applied to the client computer. If this value is missing or is set to 0, administrator updates will be blocked. A value of 1 makes the client available to WSUS and SCCM for Active Directory (AD) joined machines. A value of 2 makes the client available for WSUS/SCCM and Microsoft Endpoint Manager cloud connected Azure Activie Directory (AAD) joined machines. This registry key is for the administrator user. For more information, see [Enabling Administrator Updates](enabling-administrator-updates.md). |
+| `AdministratorUpdatesOptOut`     | `REG_DWORD`                 | 0                                                   | Indicates that the user does not want to receive administrator updates to Visual Studio. The absence of the registry value, or a set value of 0, means that the Visual Studio user wants to receive administrator updates to Visual Studio. This is for the developer user (if they have admin permissions on the client machine). For more information, see [Applying administrator updates](../install/applying-administrator-updates.md#understanding-configuration-options). |
 | `UpdateConfigurationFile`        | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%<br>\Microsoft<br>\VisualStudio<br>\updates.config | The file path for configuring Administrative Updates. For more information, see [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update).   |    
 
 ::: moniker-end
