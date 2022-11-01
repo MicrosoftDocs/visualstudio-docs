@@ -71,7 +71,17 @@
     - name: Custom native ETW heap events
       href: custom-native-etw-heap-events.md
   - name: Measure performance from the command-line
-    href: profile-apps-from-command-line.md
+    items:
+    - name: Measure performance from the command-line
+      href: profile-apps-from-command-line.md
+    - name: Collect detailed timing data
+      href: collecting-detailed-timing-data-for-a-stand-alone-application.md
+    - name: Reference
+      items:
+      - name: VSInstr
+        href: vsinstr.md
+      - name: VSPerfCmd
+        href: vsperfcmd.md
   - name: Analyze GPU usage
     href: gpu-usage.md
   - name: Analyze Resource Consumption
