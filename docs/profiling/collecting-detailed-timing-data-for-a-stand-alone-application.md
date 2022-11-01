@@ -26,8 +26,8 @@ Using [VSInstr](../profiling/vsinstr.md), you can instrument DLLs for which you 
 
 |Task|Related content|
 |----------|---------------------|
-|**Profile a .NET Framework application by using instrumentation**|-   [How to: Instrument a .NET component and collect detailed timing data](../profiling/how-to-instrument-a-dotnet-framework-component-and-collect-timing-data.md)|
-|**Profile a C/C++ application by using instrumentation**|-   [How to: Instrument a native component and collect detailed timing data](../profiling/how-to-instrument-a-native-component-and-collect-timing-data.md)|
+|**Profile a .NET Framework application by using instrumentation**|-   [How to: Instrument a .NET component and collect detailed timing data](../profiling/instrument-dotnet-framework-component-and-collect-timing-data.md)|
+|**Profile a C/C++ application by using instrumentation**|-   [How to: Instrument a native component and collect detailed timing data](../profiling/instrument-native-component-and-collect-timing-data.md)|
 |**Add tier-interaction data**|-   [Collect tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|
 
 ## Related tasks
@@ -38,4 +38,6 @@ Using [VSInstr](../profiling/vsinstr.md), you can instrument DLLs for which you 
 |**Profile services**|-   [Collect detailed timing data using instrumentation](../profiling/collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method.md)|
 
 ## Reference
-- [Command-line profiling tools reference](../profiling/command-line-profiling-tools-reference.md)
+
+- [VSIntr](../profiling/vsinstr.md)
+- [VSPerfCmd](../profiling/vsperfcmd.md)

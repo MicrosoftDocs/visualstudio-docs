@@ -76,6 +76,10 @@
       href: profile-apps-from-command-line.md
     - name: Collect detailed timing data
       href: collecting-detailed-timing-data-for-a-stand-alone-application.md
+    - name: Instrument a .NET Framework component and collect timing data
+      href: instrument-dotnet-framework-component-and-collect-timing-data.md
+    - name: Instrument a native component and collect timing data
+      href: instrument-native-component-and-collect-timing-data.md
     - name: Reference
       items:
       - name: VSInstr
