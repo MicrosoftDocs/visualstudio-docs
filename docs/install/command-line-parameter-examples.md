@@ -150,6 +150,7 @@ If you choose to use a custom layout as the update channel, then be aware of the
   ```
 
 ## Using --removeOos
+This command requires using the VS 2022 17.4 or later installer. 
 
 * Modify and installation and remove all components that have transitioned to an out-of-support state from the default installed Visual Studio instance:
 
@@ -163,7 +164,12 @@ If you choose to use a custom layout as the update channel, then be aware of the
 * Adjust the update settings to persistently remove all components that have transitioned to an out-of-support state every time the product updates:
 
   ```shell
-C:\>"C:\Program Files\Microsoft\Visual Studio\2022\Enterprise\vs_enterprise.exe" modifySettings --channelURI https://aka.ms/vs/17/release.LTSC.17.0/channel --productID Microsoft.VisualStudio.Product.Enterprise --newChannelURI \\layoutserver\share\path\channelmanifest.json --removeOos true --quiet  
+  vs_enterprise.exe modifySettings ^
+  --channelURI https://aka.ms/vs/17/release.LTSC.17.0/channel ^
+  --productID Microsoft.VisualStudio.Product.Enterprise ^
+  --newChannelURI \\layoutserver\share\path\channelmanifest.json ^
+  --removeOos true ^
+  --quiet  
   ```
 
 ## Using --path
