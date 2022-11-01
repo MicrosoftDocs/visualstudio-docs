@@ -83,7 +83,7 @@ Syntax example: `vs_enterprise.exe [command] <optional parameters>...`
 | (blank)     | The default command both installs the product, and it is used for all layout maintenance operations.                    |
 | `modify`    | Modifies an installed product.                                                                                          |
 | `update`    | Updates an installed product.                                                                                           |
-| `updateall` | Updates all of the installed products in sequential order. Works with `--quiet` and `--passive` parameters.                 |
+| `updateall` | Updates all of the installed products in sequential order. Works with `--quiet` and `--passive` parameters.             |
 | `repair`    | Repairs an installed product.                                                                                           |
 | `uninstall` | Uninstalls an installed product.                                                                                        |
 | `export`    | Exports installation selection to an installation configuration file. **Note**: Can only be used with vs_installer.exe or setup.exe. |
@@ -112,8 +112,9 @@ Syntax example: `vs_enterprise.exe [command] <optional parameters>...`
 | `--channelURI`                                     | **Optional**: During an update command, you can pass in a new channelURI to change the update settings location.  Recommend to pair with --installPath parameter so that it's very explicit which instance of Visual Studio you're configuring. See [syntax examples of --channelURI](/visualstudio/install/command-line-parameter-examples#using---channelURI) |
 | `--nickname <name>`                                | **Optional**: During an install command, this parameter defines the nickname to assign to an installed product. The nickname can't be longer than 10 characters. |
 | `--productKey`                                     | **Optional**: During an install command, this parameter defines the product key to use for an installed product. It's composed of 25 alphanumeric characters in the format `xxxxxxxxxxxxxxxxxxxxxxxxx`.  |
+| `--removeOos true`                                 | **Optional**: During an install, update, or modify command, this parameter (which must have the word true or false immediately after it) tells the Visual Studio installer to remove (or don't remove) all installed components that have transitioned to an out-of-support state. This behavior is applicable for a single event. If you want to make this behavior persistent, apply this parameter to the modifySettings command which is described below. Useful for helping to keep the machine secure. |
+| `--config <path>'                                  | **Optional**: During an install or modify operation, this determines the workloads and components to add based on a previously saved installation configuration file. This operation is additive and it won't remove any workload or component if they aren't present in the file. Also, items that don't apply to the product won't be added. During an export operation, this determines the location to save the installation configuration file.  |
 | `--help, --?, -h, -?`                              | Displays an offline version of this page.     |
-| `--config <path>`                                  | **Optional**: During an install or modify operation, this determines the workloads and components to add based on a previously saved installation configuration file. This operation is additive and it won't remove any workload or component if they aren't present in the file. Also, items that don't apply to the product won't be added. During an export operation, this determines the location to save the installation configuration file.                           |
 
 ## Layout command and command-line parameters
 
@@ -150,8 +151,14 @@ All layout management operations are run using the bootstrapper exe and they ass
 | `--path shared=<path>`         | **Optional**: Contains shared files for side-by-side Visual Studio installations. Some tools and SDKs install to a location on this drive, while some others might override this setting and install to another drive. Example: `--path shared="C:\VS\shared"` <br/><br/>**Important**: This can be set only once and on the first time that Visual Studio is installed.     |
 | `--path install=<path>`        | **Optional**: Equivalent to `–-installPath`. Specifically, `--installPath "C:\VS"` and `--path install="C:\VS"` are equivalent. Only one of these commands can be used at a time.     |
 
-## Configure source location of updates command and command-line parameters
-You can programmatically configure the source location of updates for a given instance of Visual Studio by using either the installer or the bootstrapper on the client machine, and passing in the desired update channel.  
+## ModifySettings command and command-line parameters
+You can modify the update settings and programmatically configure the source location of updates for a given instance of Visual Studio by using either the installer or the bootstrapper on the client machine, and passing in the modifySettings command and the desired update channel.  
+
+
+| **Command** | **Description**                                                                                                         |
+|-------------|-------------------------------------------------------------------------------------------------------------------------|
+| modifySettings     | Verb used to modify the update settings of a particular instance of Visual Studio.                               |
+
 
 | **modifySettings parameters**                   | **Description**                                        |
 |-------------------------------------------------|----------------------------------------------------------------------|
@@ -159,13 +166,18 @@ You can programmatically configure the source location of updates for a given in
 | `--newChannelUri`                               | **Required**: The URI of the channel manifest. This value specifies where the next [source location of updates](update-visual-studio.md#configure-source-location-of-updates-1) will be. Refer to [syntax examples of --channelURI](/visualstudio/install/command-line-parameter-examples#using---channelURI) for possible values. If updates aren't wanted, `--channelUri` can point to a non-existent file (for example, --channelUri C:\doesntExist.chman). |
 | `--channelUri`                               | The URI of the old channel manifest. Can be used if the --installPath is not known. Must be used in conjunction with productID to identify the right instance to act upon. |
 | `--productId <id>`                           | Must be used if --channelUri is specified and is used to identify the right instance to act upon. The `productID` is something like "Microsoft.VisualStudio.Product.Enterprise". |
-| `--quiet, -q`                                   | **Optional**: This parameter prevents any user interface from being displayed while the command is being executed.    |
+| `--quiet, -q`                                   | **Optional**: This parameter prevents any user interface from being displayed while the command is being executed |
+| `--removeOos true`                              | **Optional**: During a modifySettings command, this parameter (which must have the word true or false immediately after it) tells the Visual Studio installer to _persistently_ remove (or don't remove) all installed components that have transitioned to an out-of-support state. Useful for helping to keep the machine secure. | 
 
 Syntax examples: 
 
-`C:\>"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modifySettings --installPath "C:\Program Files\Microsoft\Visual Studio\2022\Enterprise" --newChannelURI https://aka.ms/vs/17/release.LTSC.17.0/channel`
+  ```shell
+  C:\>"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modifySettings --installPath "C:\Program Files\Microsoft\Visual Studio\2022\Enterprise" --newChannelURI https://aka.ms/vs/17/release.LTSC.17.0/channel --removeOos true
+  ```
 
-`C:\>"C:\Program Files\Microsoft\Visual Studio\2022\Enterprise\vs_enterprise.exe" modifySettings --channelURI https://aka.ms/vs/17/release.LTSC.17.0/channel --productID Microsoft.VisualStudio.Product.Enterprise --newChannelURI \\layoutserver\share\path\channelmanifest.json --quiet`
+  ```shell 
+   C:\>"C:\Program Files\Microsoft\Visual Studio\2022\Enterprise\vs_enterprise.exe" modifySettings --channelURI https://aka.ms/vs/17/release.LTSC.17.0/channel --productID Microsoft.VisualStudio.Product.Enterprise --newChannelURI \\layoutserver\share\path\channelmanifest.json --removeOos true --quiet
+  ``` 
 
 ## Administrator Update command and command-line parameters
 
