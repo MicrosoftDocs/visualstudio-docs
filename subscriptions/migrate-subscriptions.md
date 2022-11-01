@@ -41,7 +41,7 @@ This information includes:
 + Expiration date.
 + Reference field.
 + Whether downloads are enabled.
-+ Country. 
++ Country/region. 
 + Language.
 + Subscription status.
 + Subscription GUID.
