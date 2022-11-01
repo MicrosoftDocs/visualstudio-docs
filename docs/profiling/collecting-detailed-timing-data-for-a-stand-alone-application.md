@@ -30,13 +30,6 @@ Using [VSInstr](../profiling/vsinstr.md), you can instrument DLLs for which you 
 |**Profile a C/C++ application by using instrumentation**|-   [How to: Instrument a native component and collect detailed timing data](../profiling/instrument-native-component-and-collect-timing-data.md)|
 |**Add tier-interaction data**|-   [Collect tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|
 
-## Related tasks
-
-|Task|Related Content|
-|----------|---------------------|
-|**Profile ASP.NET applications**|-   [Collect detailed timing data using instrumentation](../profiling/collecting-detailed-timing-data-aspnet-profiler-instrumentation-method.md)|
-|**Profile services**|-   [Collect detailed timing data using instrumentation](../profiling/collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method.md)|
-
 ## Reference
 
 - [VSIntr](../profiling/vsinstr.md)
