@@ -87,7 +87,7 @@ For lists of the workloads and components that you can install by using the comm
 
 ## Using --layout to create a network layout or a local cache
 
-* Download the Visual Studio core editor (the most minimal Visual Studio configuration). Only include the English language pack:
+* Create a layout that includes only the Visual Studio core editor (the most minimal Visual Studio configuration) and only the English language pack:
 
   ```shell
    vs_professional.exe --layout C:\VS ^
@@ -95,7 +95,7 @@ For lists of the workloads and components that you can install by using the comm
    --add Microsoft.VisualStudio.Workload.CoreEditor
   ```
 
-* Download the .NET desktop and .NET web workloads along with all recommended components. Only include the English language pack:
+* Create a layout that includes the .NET desktop and .NET web workloads, along with all recommended components, English only.
 
   ```shell
    vs_professional.exe --layout C:\VS ^
@@ -140,21 +140,6 @@ If you choose to use a custom layout as the update channel, then be aware of the
 
 ## Using --remove
 
-::: moniker range="vs-2019"
-
-* Remove the Profiling Tools component from the default installed Visual Studio instance:
-
-  ```shell
-   vs_enterprise.exe modify ^
-   --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" ^
-   --remove Microsoft.VisualStudio.Component.DiagnosticTools ^
-   --passive
-  ```
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
-
 * Remove the Profiling Tools component from the default installed Visual Studio instance:
 
   ```shell
@@ -164,7 +149,22 @@ If you choose to use a custom layout as the update channel, then be aware of the
    --passive
   ```
 
-::: moniker-end
+## Using --removeOos
+
+* Modify and installation and remove all components that have transitioned to an out-of-support state from the default installed Visual Studio instance:
+
+  ```shell
+   vs_enterprise.exe modify ^
+   --installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" ^
+   --removeOos true ^
+   --passive
+  ```
+
+* Adjust the update settings to persistently remove all components that have transitioned to an out-of-support state every time the product updates:
+
+  ```shell
+C:\>"C:\Program Files\Microsoft\Visual Studio\2022\Enterprise\vs_enterprise.exe" modifySettings --channelURI https://aka.ms/vs/17/release.LTSC.17.0/channel --productID Microsoft.VisualStudio.Product.Enterprise --newChannelURI \\layoutserver\share\path\channelmanifest.json --removeOos true --quiet  
+  ```
 
 ## Using --path
 
@@ -218,5 +218,5 @@ If you choose to use a custom layout as the update channel, then be aware of the
 
 * [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
-* [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)
+* [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Visual Studio workload and component IDs](workload-and-component-ids.md)
