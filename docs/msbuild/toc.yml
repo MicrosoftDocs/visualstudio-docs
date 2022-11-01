@@ -730,7 +730,7 @@ items:
     - name: Overview
       displayName: Use MSBuild programmatically
       href: msbuild-api.md
-    - name: Update to MSBuild 15
-      href: updating-an-existing-application.md
+    - name: Find and use a version of MSBuild
+      href: find-and-use-msbuild-versions.md
   - name: MSBuild glossary
     href: msbuild-glossary.md
