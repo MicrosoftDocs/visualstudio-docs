@@ -106,7 +106,7 @@ If you're an Enterprise or Professional customer, you can update your instance o
 
 ## Customize update settings
 
-There are several different settings that can be customized to control the update behavior. A few of these settings are native to Visual Studio 2019 and deal with how and when the product bits are downloaded and installed. Other settings, such as the ability to configure the source of the updates, require the presence of the newer Visual Studio 2022 installer.  
+There are several different settings that can be customized to control the update behavior. A few of these settings are native to Visual Studio 2019 and deal with how and when the product bits are downloaded and installed. Other settings, such as the ability to configure the source of the updates, require the presence of the newer Visual Studio 2022 installer.
 
 ### Installation and download behaviors
 
@@ -245,6 +245,23 @@ By choosing the correct value in the **Update channel** dropdown, you can contro
 When an update is available, the update notification UI in the IDE provides a way to defer the update until you voluntarily close Visual Studio. The **Update on Close** button appears in the update notification message box, and it also can be selected in the **Notification** hub. The **Update on Close** command is not a permanent setting; it applies only to the current update. In other words, the **Update on Close** deferral must be chosen each time you acknowledge or dismiss the notification that the update is available.
 
    ![Screenshot showing the Update on Close option in the update notification message box.](media/vs-2022/update-on-close.png)
+
+## Remove out-of-support components
+
+Using the latest Visual Studio 2022 Installer available with the Visual Studio 17.4 release, you can now remove out-of-support components all at once, by using the Visual Studio Installer or [programmatically](./use-command-line-parameters-to-install-visual-studio.md) as follows:
+
+1. Open the Visual Studio Installer, and then select **Modify**.
+1. Select **Remove all out-of-support components**.
+    
+    :::image type="content" source="media/vs-2022/remove-out-of-support-components.png" alt-text="Screenshot of the Remove out-of-support components option.":::
+
+All components with an out-of-support label will be deselected and get uninstalled.
+
+You can also configure a specific Visual Studio instance to remove all components that transition to an out-of-support state, by selecting the option **More**> **Update Settings**> **Remove all out-of-state components during future updates** in the Visual Studio Installer. Once this setting is configured, any component that transitions to an out-of-support state will be removed during the next Visual Studio update for this instance of Visual Studio.
+
+:::image type="content" source="media/vs-2022/remove-all-out-support-components-during-future-updates.png" alt-text="Screenshot of Remove all out-of-state components during future updates option in the Update Settings dialog.":::
+
+Learn more about [removing out-of-support components](https://aka.ms/devblog-RemoveOutOfSupportComponents).
 
 ::: moniker-end
 
