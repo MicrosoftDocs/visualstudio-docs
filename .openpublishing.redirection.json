@@ -3921,6 +3921,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "docs/designers/getting-started-with-wpf.md",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-wpf",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "docs/debugger/debug-xaml-in-blend.md",
       "redirect_url": "/visualstudio/xaml-tools/debug-xaml-in-blend",
       "redirect_document_id": true
