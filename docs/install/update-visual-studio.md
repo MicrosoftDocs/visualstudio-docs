@@ -247,13 +247,13 @@ Using the latest Visual Studio 2022 Installer available with the Visual Studio 1
 1. Open the Visual Studio Installer, and then select **Modify**.
 1. Select **Remove all out-of-support components**.
     
-    :::image type="content" source="media/vs-2022/remove-out-of-state-components.png" alt-text="Screenshot of the Remove out-of-support components option.":::
+    :::image type="content" source="media/vs-2022/remove-out-of-support-components.png" alt-text="Screenshot of the Remove out-of-support components option.":::
 
 All components with an out-of-support label will be deselected and get uninstalled.
 
 You can also configure a specific Visual Studio instance to remove all components that transition to an out-of-support state, by selecting the option **More**> **Update Settings**> **Remove all out-of-state components during future updates** in the Visual Studio Installer. Once this setting is configured, any component that transitions to an out-of-support state will be removed during the next Visual Studio update for this instance of Visual Studio.
 
-    :::image type="content" source="media/vs-2022/remove-all-out-support-components-during-future-updates.png" alt-text="Screenshot of Remove all out-of-state components during future updates option in the Update Settings dialog.":::
+:::image type="content" source="media/vs-2022/remove-all-out-support-components-during-future-updates.png" alt-text="Screenshot of Remove all out-of-state components during future updates option in the Update Settings dialog.":::
 
 Learn more about [removing out-of-support components](https://aka.ms/devblog-RemoveOutOfSupportComponents).
 
