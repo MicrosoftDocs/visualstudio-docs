@@ -24,7 +24,7 @@ To edit a subscriber, select the ellipses (…) that appear next to the subscrib
 > [!div class="mx-imgBorder"]
 > ![Select subscriber to edit](_img/edit-license/select-subscriber.png "Click the ellipses and choose Edit.")
 
-You can update the subscriber’s first name, last name, subscription level, email address, country, language, downloads and reference field. Edit the subscriber’s information, and select **Save**.
+You can update the subscriber’s first name, last name, subscription level, email address, country/region, language, downloads and reference field. Edit the subscriber’s information, and select **Save**.
 
 ## Edit multiple subscribers using bulk edit
 
