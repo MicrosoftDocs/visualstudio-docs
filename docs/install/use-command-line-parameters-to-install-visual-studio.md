@@ -179,6 +179,24 @@ Syntax examples:
    C:\>"C:\Program Files\Microsoft\Visual Studio\2022\Enterprise\vs_enterprise.exe" modifySettings --channelURI https://aka.ms/vs/17/release.LTSC.17.0/channel --productID Microsoft.VisualStudio.Product.Enterprise --newChannelURI \\layoutserver\share\path\channelmanifest.json --removeOos true --quiet
   ``` 
 
+## Rollback command and command-line parameters
+You can rollback the update programmatically by using the installer on the client machine, and passing in the rollback command alongside the installation path instance.  
+
+| **Command** | **Description**                                                                                                         |
+|-------------|-------------------------------------------------------------------------------------------------------------------------|
+| rollback     | Command to rollback a particular instance of Visual Studio to the previously installed update.                         |
+ 
+| **rollback parameters**                   | **Description**                                                                           |
+|-------------------------------------------|-------------------------------------------------------------------------------------------|
+| `--installPath <dir>`                     | **Recommended** to use to specify which instance of Visual Studio to act upon.            |
+ 
+Syntax examples: 
+
+  ```shell
+  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" rollback -–installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise"`
+  ```
+ 
+ 
 ## Administrator Update command and command-line parameters
 
 You can download an **Administrator Update** from the [Microsoft Update Catalog](https://catalog.update.microsoft.com) and use it to update either your client installation or your layout. 
