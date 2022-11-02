@@ -52,7 +52,7 @@ Here you can set which default subscription level from your agreement is assigne
 
 ### Default communication preferences
 
-Setting a default communication language and locale can streamline the process of assigning subscriptions.  For example, if your development team is based in a different country than your admin team, you can set the preferences best suited to the subscribers' location. These settings can still be changed by all admins for individual subscribers. 
+Setting a default communication language and locale can streamline the process of assigning subscriptions.  For example, if your development team is based in a different country/region than your admin team, you can set the preferences best suited to the subscribers' location. These settings can still be changed by all admins for individual subscribers. 
 
 ### Default external subscribers setting
 
