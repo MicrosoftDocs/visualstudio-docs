@@ -27,7 +27,7 @@ This troubleshooting guide includes step-by-step instructions that should resolv
 
 ## Online installations
 
-The following steps apply to a typical online installation. For an network (layout) or offline installation, see [How to troubleshoot an offline installation](#Network-layout-or-offline-installations).
+The following steps apply to a typical online installation. For an network (layout) or offline installation, see [How to troubleshoot an offline installation](#network-layout-or-offline-installations).
 
 ### Step 1 - Check whether the problem is a known issue
 
