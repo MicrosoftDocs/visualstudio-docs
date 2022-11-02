@@ -38,7 +38,7 @@ After you’ve assigned subscriptions, the Manage subscribers tab provides detai
 + The expiration date for their subscription.
 + A reference field for additional notes.
 + Whether subscriber downloads are enabled or disabled.
-+ The country in which they are located.
++ The country/region in which they are located.
 + Their language preference for the assignment communication email from the admin portal.
 + An optional field for a different email address used for communications than sign-in.
 
