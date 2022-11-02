@@ -71,7 +71,7 @@ The registry settings in this section control if and how administrator updates a
 | `UpdateConfigurationFile`        | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%<br>\Microsoft<br>\VisualStudio<br>\updates.config | The file path for configuring Administrative Updates. By default, this policy doesn't exist. If you choose to add this policy to the client machine and define a custom configuration file location, then the Administrator update will look for this file; if the file doesn’t exist, then an exception will be thrown and the update will fail. For more information, see [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update).   |    
 
 > [!IMPORTANT]
-> Cloud connected client machines that are managed by Intune must be configured for [Windows Update for Business](./windows/deployment/update/waas-manage-updates-wufb)  and opted into the [AllowMUUpdateServicePolicy](./windows/client-management/mdm/policy-csp-update#update-allowmuupdateservice) in order to receive Visual Studio  administrator updates through the Windows Update for Business Microsoft Update channel.
+> Cloud connected client machines that are managed by Intune must be configured for [Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb)  and opted into the [AllowMUUpdateServicePolicy](/windows/client-management/mdm/policy-csp-update#update-allowmuupdateservice) in order to receive Visual Studio  administrator updates through the Windows Update for Business Microsoft Update channel.
 
 ## Configuring source location for updates 
 
