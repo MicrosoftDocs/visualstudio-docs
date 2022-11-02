@@ -27,7 +27,7 @@ This troubleshooting guide includes step-by-step instructions that should resolv
 
 ## Online installations
 
-The following steps apply to a typical online installation. For an offline installation, see [How to troubleshoot an offline installation](#offline-installations).
+The following steps apply to a typical online installation. For an network (layout) or offline installation, see [How to troubleshoot an offline installation](#Network-layout-or-offline-installations).
 
 ### Step 1 - Check whether the problem is a known issue
 
@@ -130,15 +130,15 @@ You can rollback to your previously installed version by using the Visual Studio
 
 #### Rollback using the command line
 
-[The `rollback` command is also available programmatically](./install/use-command-line-parameters-to-install-visual-studio.md#rollback-command-and-command-line-parameters) to users who manage updates through scripts or command line. 
+[The `rollback` command is also available programmatically](/install/use-command-line-parameters-to-install-visual-studio.md#rollback-command-and-command-line-parameters) to users who manage updates through scripts or command line. 
 
 ### Step 8 - Contact us (optional)
 
 If none of the previous steps help you successfully install or upgrade Visual Studio, contact us by using our [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) support option (English only) for further assistance.
 
-## Network (layout) or offline installations
+## Network layout or offline installations
 
-To resolve issues with a [network installation](create-a-network-installation-of-visual-studio.md), see [Error Codes](./install/create-a-network-installation-of-visual-studio#error-codes) or [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md).
+To resolve issues with a [network installation](create-a-network-installation-of-visual-studio.md), see [Error Codes](/install/create-a-network-installation-of-visual-studio#error-codes) or [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md).
 
 Other known issues and workarounds that might help you when you create an [offline installation](create-an-offline-installation-of-visual-studio.md) and install from a network or a local layout include.
 
@@ -155,7 +155,7 @@ Administrator updates may not be applied correctly due to a vareity of situation
 
 Setup logs help us troubleshoot most installation issues. When you submit an issue by using [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) in the Visual Studio Installer, the most recent setup log for the Visual Studio Installer is automatically added to your report.
 
-If you contact Microsoft Support, you might be asked to collect setup logs by using the [Microsoft Visual Studio and .NET Framework log collection tool]([https://www.microsoft.com/download/details.aspx?id=12493](https://aka.ms/vscollect)). The log collection tool collects setup logs from all components installed by Visual Studio, including .NET Framework, Windows SDK, and SQL Server. It also collects computer information, a Windows Installer inventory, and Windows event log information for the Visual Studio Installer, Windows Installer, and System Restore.
+If you contact Microsoft Support, you might be asked to collect setup logs by using the [Microsoft Visual Studio and .NET Framework log collection tool](https://aka.ms/vscollect). The log collection tool collects setup logs from all components installed by Visual Studio, including .NET Framework, Windows SDK, and SQL Server. It also collects computer information, a Windows Installer inventory, and Windows event log information for the Visual Studio Installer, Windows Installer, and System Restore.
 
 To collect the logs:
 
