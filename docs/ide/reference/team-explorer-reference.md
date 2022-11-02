@@ -2,7 +2,7 @@
 title: Team Explorer reference
 description: Learn about the various functions in Team Explorer to manage work and coordinate with other team members to develop a project.
 ms.custom: SEO-VS-2020
-ms.date: 12/04/2018
+ms.date: 11/02/2022
 ms.topic: reference
 ms.author: kaelli
 author: KathrynEE
@@ -15,7 +15,7 @@ monikerRange: "<=vs-2019"
 
 This article provides links to Azure DevOps articles about the various functions in **Team Explorer**.
 
-Use the **Team Explorer** tool window to coordinate your code efforts with other team members to develop a project, and to manage work that's assigned to you, your team, or your projects. **Team Explorer** connects Visual Studio to Git and GitHub repositories, Team Foundation version control (TFVC) repositories, and projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops-services) or an on-premises [Azure DevOps Server](/azure/devops/index-all) (formerly known as TFS). You can manage source code, work items, and builds.
+Use the **Team Explorer** tool window to coordinate your code efforts with other team members to develop a project, and to manage work that's assigned to you, your team, or your projects. **Team Explorer** connects Visual Studio to Git and GitHub repositories, Team Foundation version control (TFVC) repositories, and projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops-services) or an on-premises [Azure DevOps Server](/azure/devops/index-all) (formerly known as Team Foundation Server, or TFS). You can manage source code, work items, and builds.
 
 > [!IMPORTANT]
 > Starting with the release of Visual Studio 2019 [**version 16.8**](/visualstudio/releases/2019/release-notes-history), the Git version control experience is the default. If you'd like to learn more about how it compares with Team Explorer, see the [**Side-by-side comparison of Git and Team Explorer**](../../version-control/git-team-explorer-feature-comparison.md) page.
