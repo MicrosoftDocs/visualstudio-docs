@@ -62,29 +62,16 @@ The registry settings in this section control how and where the Visual Studio pr
 
 ## Controlling Administrator Updates
 
-::: moniker range="vs-2019"
-
-The registry settings in this section control if and how administrator updates are applied to the client machine.
-
-| **Name**                         | **Type**                    | **Default**                                         | **Description**           |
-|----------------------------------|-----------------------------|-----------------------------------------------------|---------------------------|
-| `AdministratorUpdatesEnabled`    | `REG_DWORD`                 | 0                                                   | Allows administrator updates to be applied to the client computer. If this value is missing or is set to 0, administrator updates will be blocked. A value of 1 makes the client available to WSUS and SCCM for Active Directory (AD) joined machines. A value of 2 makes the client available for WSUS/SCCM and Microsoft Endpoint Manager cloud connected Azure Activie Directory (AAD) joined machines. This registry key is for the administrator user. For more information, see [Enabling Administrator Updates](enabling-administrator-updates.md). |
-| `AdministratorUpdatesOptOut`     | `REG_DWORD`                 | 0                                                   | Indicates that the user does not want to receive administrator updates to Visual Studio. The absence of the registry value, or a set value of 0, means that the Visual Studio user wants to receive administrator updates to Visual Studio. This is for the developer user (if they have admin permissions on the client machine). For more information, see [Applying administrator updates](../install/applying-administrator-updates.md#understanding-configuration-options). |
-| `UpdateConfigurationFile`        | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%<br>\Microsoft<br>\VisualStudio<br>\updates.config | The file path for configuring Administrative Updates. By default, this policy doesn't exist. If you choose to add this policy to the client machine and define a custom configuration file location, then the Administrator update will look for this file; if the file doesn’t exist, then an exception will be thrown and the update will fail. For more information, see [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update).   |                        
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
-
 The registry settings in this section control if and how administrator updates are applied to the client machine.
 
 | **Name**                         | **Type**                    | **Default**                                         | **Description**           |
 |----------------------------------|-----------------------------|-----------------------------------------------------|---------------------------|
 | `AdministratorUpdatesEnabled`    | `REG_DWORD`                 | 0                                                   | Allows administrator updates to be applied to the client computer. If this value is missing or is set to 0, administrator updates will be blocked. A value of 1 makes the client machine available for updates deployed through the WSUS/SCCM channel and is typically used for Active Directory (AD) joined machines. A value of 2 makes the client machine available for updates deployed through either the WSUS/SCCM channel or the Windows Update for Business/Intune/Microsoft Endpoint manager channel and can be used for either Active Directory (AD) or Azure Active Directory (AAD) joined devices. This registry key is for the administrator user. For more information, see [Enabling Administrator Updates](enabling-administrator-updates.md). |
 | `AdministratorUpdatesOptOut`     | `REG_DWORD`                 | 0                                                   | Indicates that the user does not want to receive administrator updates to Visual Studio. The absence of the registry value, or a set value of 0, means that the Visual Studio user wants to receive administrator updates to Visual Studio. This is for the developer user (if they have admin permissions on the client machine). <br> <br> Note that the AdministratorUpdatesOptOut key for encoding user preference is prioritized over the AdministratorUpdatesEnabled key, which encodes the IT admin intent. If AdministratorUpdatesOptOut is set to 1, the update will be blocked on the client, even if the AdministratorUpdatesEnabled key is also set to 1. This action assumes that IT admins can access and monitor which developers chose to opt out, and that the two parties can then discuss whose needs are more important. IT admins can always change either key whenever they want.|
-| `UpdateConfigurationFile`        | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%<br>\Microsoft<br>\VisualStudio<br>\updates.config | The file path for configuring Administrative Updates. For more information, see [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update).   |    
+| `UpdateConfigurationFile`        | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%<br>\Microsoft<br>\VisualStudio<br>\updates.config | The file path for configuring Administrative Updates. By default, this policy doesn't exist. If you choose to add this policy to the client machine and define a custom configuration file location, then the Administrator update will look for this file; if the file doesn’t exist, then an exception will be thrown and the update will fail. For more information, see [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update).   |    
 
-::: moniker-end
+> [!IMPORTANT]
+> Cloud connected client machines that are managed by Intune must be configured for [Windows Update for Business](./windows/deployment/update/waas-manage-updates-wufb)  and opted into the [AllowMUUpdateServicePolicy](./windows/client-management/mdm/policy-csp-update#update-allowmuupdateservice) in order to receive Visual Studio  administrator updates through the Windows Update for Business Microsoft Update channel.
 
 ## Configuring source location for updates 
 
