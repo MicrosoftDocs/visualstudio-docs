@@ -59,7 +59,7 @@ If your company needs to stay on a feature set longer but still wants to get reg
 
    - How are you licensing and [distributing entitlement subscriptions within your organization](/visualstudio/subscriptions/admin-responsibilities)? Does the installation require [product keys](/visualstudio/subscriptions/product-keys)?
 
-   - What [group policy settings](visualstudio/install/set-defaults-for-enterprise-deployments) need to be configured on your client machines?  
+   - What [group policy settings](/visualstudio/install/set-defaults-for-enterprise-deployments) need to be configured on your client machines?  
 
    - Which [workloads and components](workload-and-component-ids.md) does your company need?  
    
@@ -134,8 +134,8 @@ The following resources will help you keep your Visual Studio updated, current, 
 
 * [Enabling administrator updates](enabling-administrator-updates.md)
 * [Applying administrator updates](applying-administrator-updates.md)
-* [Use command-line paramaters to install, update, and manage Visual Studio](../visualstudio/install/use-command-line-parameters-to-install-visual-studio.md)
-* [Configure policies for enterprise deployments of Visual Studio](../visualstudio/install/set-defaults-for-enterprise-deployments.md)
+* [Use command-line paramaters to install, update, and manage Visual Studio](/visualstudio/install/use-command-line-parameters-to-install-visual-studio.md)
+* [Configure policies for enterprise deployments of Visual Studio](/visualstudio/install/set-defaults-for-enterprise-deployments.md)
 * [Install certificates required for Visual Studio offline installation](install-certificates-for-visual-studio-offline.md)
-* [Visual Studio product lifecycle and servicing](../visualstudio/productinfo/vs-servicing.md)
+* [Visual Studio product lifecycle and servicing](/visualstudio/productinfo/vs-servicing.md)
 * [Synchronous autoload settings](../extensibility/synchronously-autoloaded-extensions.md)
