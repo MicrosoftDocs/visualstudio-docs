@@ -17,7 +17,7 @@ ms.technology: vs-installation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-This document describes different types and characteristics of Visual Studio administrator updates. Below, you will find information about how and when they should be distributed throughout your organization, what configuration options are available, and how to view reports and troubleshoot. For more information about the pre-requisites for using administrator updates, see [Enabling administrator updates](../install/enabling-administrator-updates.md). Remember that Administrator updates are updates, not initial installs. They presume that Visual Studio is already installed on the computer. In other words, applying administrator updates will not initiate a brand new installation.
+This document describes different types and characteristics of Visual Studio administrator updates. Below, you will find information about how and when they should be distributed throughout your organization, what configuration options are available, and how to view reports and troubleshoot. For more information about the pre-requisites for using administrator updates, see [Enabling administrator updates](../install/enabling-administrator-updates.md). Remember that administrator updates are updates, not initial installs. They presume that Visual Studio is already installed on the computer. In other words, applying administrator updates will not initiate a brand new installation.
 
 ## Understanding Visual Studio administrator updates
 
