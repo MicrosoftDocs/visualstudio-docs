@@ -28,9 +28,9 @@ This topic lists solutions to common issues that may occur when you are working 
 
 If you want to update or remove a service reference, see the article "[Add, update, or remove a WCF data service reference](how-to-add-update-or-remove-a-wcf-data-service-reference.md)".
 
-## Please enter the address for a service
+## Error when no service address is provided
 
-When you press the **Go** button with no address, you may see an error message. To resolve this, you need to identify a service's address and enter it. 
+When you press the **Go** button with no address, you may see an error message that says "Please enter the address for a service." To resolve this, you need to identify a service's address and enter it.
 
 - If it's a service in your solution, you can use the **Discover** button to find and select it, and then try the **Go** button again.
 - If it's a service hosted somewhere on the internet, add it by following the instructions at [Add a WCF service reference](how-to-add-update-or-remove-a-wcf-data-service-reference.md#add-a-wcf-service-reference).
