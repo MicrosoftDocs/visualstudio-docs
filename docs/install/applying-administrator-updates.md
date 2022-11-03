@@ -126,6 +126,7 @@ Administrative updates may return the following return codes: 
 | 1009       | The Visual Studio instance is configured to use a layout, but the layout is missing packages to perform the update. |
 | 3010       | The system requires a reboot. The update may or may not have been applied. Reboot the computer and attempt the update again. |
 | 862968     | The update was successful, and a restart is recommended but not required.                                     |
+| 134246512  | Update was cancelled because there's not enough room on disk.                                     |
 | Other      | Error occurred attempting to apply the update. The update is not applied.                                     |
 
 For an exhaustive list of client error codes, see [Use command-line parameters to install Visual Studio](/visualstudio/install/use-command-line-parameters-to-install-visual-studio#error-codes).
