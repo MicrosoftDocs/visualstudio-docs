@@ -128,9 +128,9 @@ You can rollback to your previously installed version by using the Visual Studio
 
 1. Select **OK** to confirm your choice.
 
-#### Rollback using the command line
+> [!Important]
+> Rollback may disabled or your rollback attempt may be undone if you're in an organization that has security compliance or software updating requrements. Contact your IT Administrator for further details. 
 
-[The `rollback` command is also available programmatically](/install/use-command-line-parameters-to-install-visual-studio.md#rollback-command-and-command-line-parameters) to users who manage updates through scripts or command line. 
 
 ### Step 8 - Contact us (optional)
 
