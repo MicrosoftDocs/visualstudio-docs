@@ -886,34 +886,6 @@ Microsoft.VisualStudio.Component.TextTemplating | Text Template Transformation |
 Microsoft.VisualStudio.Component.AppInsights.Tools | Developer Analytics tools | 17.4.33006.217 | Optional
 Microsoft.VisualStudio.Component.DslTools | Modeling SDK | 17.4.33006.217 | Optional
 
-## Visual Studio extension development
-
-**ID:** Microsoft.VisualStudio.Workload.VisualStudioExtension
-
-**Description:** Create add-ons and extensions for Visual Studio, including new commands, code analyzers and tool windows.
-
-### Components included by this workload
-
-Component ID | Name | Version | Dependency type
---- | --- | --- | ---
-Microsoft.Component.MSBuild | MSBuild | 17.4.33006.217 | Required
-Microsoft.Net.Component.4.6.TargetingPack | .NET Framework 4.6 targeting pack | 17.4.33006.217 | Required
-Microsoft.Net.Component.4.7.2.TargetingPack | .NET Framework 4.7.2 targeting pack | 17.4.33006.217 | Required
-Microsoft.Net.Component.4.8.SDK | .NET Framework 4.8 SDK | 17.4.33006.217 | Required
-Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.7.2 development tools | 17.4.33006.217 | Required
-Microsoft.VisualStudio.Component.NuGet | NuGet package manager | 17.4.33006.217 | Required
-Microsoft.VisualStudio.Component.Roslyn.Compiler | C# and Visual Basic Roslyn compilers | 17.4.33006.217 | Required
-Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# and Visual Basic | 17.4.33006.217 | Required
-Microsoft.VisualStudio.Component.VSSDK | Visual Studio SDK | 17.4.33006.217 | Required
-Microsoft.VisualStudio.ComponentGroup.VisualStudioExtension.Prerequisites | Visual Studio extension development prerequisites | 17.4.33006.217 | Required
-Microsoft.Component.CodeAnalysis.SDK | .NET Compiler Platform SDK | 17.4.33006.217 | Recommended
-Microsoft.VisualStudio.Component.DiagnosticTools | .NET profiling tools | 17.4.33006.217 | Recommended
-Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.4.33027.239 | Recommended
-Microsoft.VisualStudio.Component.IntelliTrace.FrontEnd | IntelliTrace | 17.4.33006.217 | Recommended
-Microsoft.VisualStudio.Component.TextTemplating | Text Template Transformation | 17.4.33006.217 | Recommended
-Microsoft.VisualStudio.Component.AppInsights.Tools | Developer Analytics tools | 17.4.33006.217 | Optional
-Microsoft.VisualStudio.Component.DslTools | Modeling SDK | 17.4.33006.217 | Optional
-
 ## Unaffiliated components
 
 These are components that are not included with any workload, but may be selected as an individual component.
