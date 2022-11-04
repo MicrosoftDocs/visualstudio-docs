@@ -1,7 +1,7 @@
 ---
 title: Automate installation with a response file
-description: Learn how to create a JSON response file that helps you automate your Visual Studio installation
-ms.date: 12/7/2021
+description: Learn how to create a response JSON file that helps you automate your Visual Studio installation
+ms.date: 11/3/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - response file
