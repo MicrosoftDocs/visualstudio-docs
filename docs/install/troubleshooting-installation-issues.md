@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot installation or upgrade issues
 description: Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help.
-ms.date: 11/08/2022
+ms.date: 11/3/2022
 ms.custom: vs-acquisition
 ms.topic: troubleshooting
 helpviewer_keywords:
@@ -27,7 +27,7 @@ This troubleshooting guide includes step-by-step instructions that should resolv
 
 ## Online installations
 
-The following steps apply to a typical online installation. For an offline installation, see [How to troubleshoot an offline installation](#offline-installations).
+The following steps apply to a typical online installation. For a network (layout) or offline installation, see [How to troubleshoot an offline installation](#network-layout-or-offline-installations).
 
 ### Step 1 - Check whether the problem is a known issue
 
@@ -108,19 +108,9 @@ As a last resort, you can remove all Visual Studio installation files and produc
 1. Rerun the Visual Studio Installer bootstrapper. You might find the bootstrapper in your **Downloads** folder with a file name that matches a `vs_[Visual Studio edition]__*.exe` pattern. Or, you can download the bootstrapper for your edition of Visual Studio from the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page.
 1. Try to reinstall Visual Studio.
 
-::: moniker range="vs-2019"
-
-### Step 7 - Contact us (optional)
-
-If none of the previous steps help you successfully install or upgrade Visual Studio, contact us by using our [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) support option (English only) for further assistance.
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
-
 ### Step 7 - Rollback
 
-If none of the previous steps help you successfully upgrade Visual Studio, you can try to rollback to your previously installed version. Learn more about the [rollback feature in Visual Studio](https://aka.ms/devblog-rollback) before trying to rollback.
+If none of the previous steps help you successfully upgrade Visual Studio, you can try to rollback to your previously installed version. Learn more about the [rollback feature in Visual Studio](https://aka.ms/vs/rollback) before trying to rollback.
 
 > [!NOTE]
 > With Visual Studio 2022 17.4, you'll be able to rollback to your previously installed version.
@@ -138,44 +128,38 @@ You can rollback to your previously installed version by using the Visual Studio
 
 1. Select **OK** to confirm your choice.
 
-#### Rollback using the command line
+> [!Important]
+> Rollback may disabled or your rollback attempt may be undone if you're in an organization that has security compliance or software updating requrements. Contact your IT Administrator for further details. 
 
-The `rollback` command is also available programmatically to users who manage updates through scripts or command line.
-
-Below is an example command that you can run to rollback using the command line:  
-
-`"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" rollback -–installPath "C:\Program Files\Microsoft Visual Studio\2022\Preview"`
 
 ### Step 8 - Contact us (optional)
 
 If none of the previous steps help you successfully install or upgrade Visual Studio, contact us by using our [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) support option (English only) for further assistance.
 
-::: moniker-end
+## Network layout or offline installations
 
-## Offline installations
+To resolve issues with a [network installation](create-a-network-installation-of-visual-studio.md), see [Error Codes](./create-a-network-installation-of-visual-studio.md#error-codes) or [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md).
 
-Here are some known issues and workarounds that might help you when you create an [offline installation](create-an-offline-installation-of-visual-studio.md) and install from a local layout.
+Other known issues and workarounds that might help you when you create an [offline installation](create-an-offline-installation-of-visual-studio.md) and install from a network or a local layout.
 
 | Issue       | Solution |
 | ----------- | -------- |
 | Users can't access files | Make sure that you adjust the permissions (ACLs) so that they grant **read** access to other users *before* you share the offline install. |
 | New workloads, components, or language packs fail to install | Make sure that you have internet access if you install from a partial layout and if you select workloads, components, or languages that weren't previously downloaded for that partial layout. |
 
-To resolve issues with a [network installation](create-a-network-installation-of-visual-studio.md), see [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md).
-
 ## Administrator Updates
 
-Administrator updates may not be applied correctly due to a vareity of situations. Refer to the [Administrator updates troubleshooting error codes](/visualstudio/install/applying-administrator-updates#verification-reports-and-troubleshooting-error-codes) for further information.
+Administrator updates may not be applied correctly due to a variety of situations. Refer to the [Administrator updates troubleshooting error codes](/visualstudio/install/applying-administrator-updates#verification-reports-and-troubleshooting-error-codes) for further information.
 
 ## Installation logs
 
 Setup logs help us troubleshoot most installation issues. When you submit an issue by using [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) in the Visual Studio Installer, the most recent setup log for the Visual Studio Installer is automatically added to your report.
 
-If you contact Microsoft Support, you might be asked to collect setup logs by using the [Microsoft Visual Studio and .NET Framework log collection tool](https://www.microsoft.com/download/details.aspx?id=12493). The log collection tool collects setup logs from all components installed by Visual Studio, including .NET Framework, Windows SDK, and SQL Server. It also collects computer information, a Windows Installer inventory, and Windows event log information for the Visual Studio Installer, Windows Installer, and System Restore.
+If you contact Microsoft Support, you might be asked to collect setup logs by using the [Microsoft Visual Studio and .NET Framework log collection tool](https://aka.ms/vscollect). The log collection tool collects setup logs from all components installed by Visual Studio, including .NET Framework, Windows SDK, and SQL Server. It also collects computer information, a Windows Installer inventory, and Windows event log information for the Visual Studio Installer, Windows Installer, and System Restore.
 
 To collect the logs:
 
-1. [Download the tool](https://www.microsoft.com/download/details.aspx?id=12493).
+1. [Download the tool](https://aka.ms/vscollect).
 1. Open an administrative command prompt.
 1. Run `Collect.exe` in the folder where you saved the tool.
 1. The tool generates a `vslogs.zip` file in your `%TEMP%` folder, typically at `C:\Users\YourName\AppData\Local\Temp\vslogs.zip`.
