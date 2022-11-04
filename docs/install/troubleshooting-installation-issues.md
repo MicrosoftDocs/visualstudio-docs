@@ -149,7 +149,7 @@ Other known issues and workarounds that might help you when you create an [offli
 
 ## Administrator Updates
 
-Administrator updates may not be applied correctly due to a vareity of situations. Refer to the [Administrator updates troubleshooting error codes](/visualstudio/install/applying-administrator-updates#verification-reports-and-troubleshooting-error-codes) for further information.
+Administrator updates may not be applied correctly due to a variety of situations. Refer to the [Administrator updates troubleshooting error codes](/visualstudio/install/applying-administrator-updates#verification-reports-and-troubleshooting-error-codes) for further information.
 
 ## Installation logs
 
