@@ -312,7 +312,7 @@ Note that you may find this `"UseLatestInstaller": true` setting in the layout's
 
 ### Configure the layout to remove out-of-support components on the client machine.
 
-Some enterprises will want to take advantage of the feature introduced in Visual Studio 2022 version 17.4 that removes components that have transitioned to an out-of-support state. This is relatively easy to set up if you're managing a layout and if your clients are receiving Administrator Updates. First, you will need to configure your layout to have the latest version of the installer as described above. Secondly you'll need to add the line "removeOos": true to the response.json file as illustrated above. If your layout has these two details set properly, then subsequent administrator updates will respsect this setting and will remove out-of-support components from the client machines.
+Some enterprises will want to take advantage of the feature introduced in Visual Studio 2022 version 17.4 that removes components that have transitioned to an out-of-support state. This is relatively easy to set up if you're managing a layout and if your clients are receiving administrator updates. First, you'll need to configure your layout to have the latest version of the installer as described above. Secondly, you'll need to add the line `"removeOos": true` to the response.json file as illustrated above. If your layout has these two details set properly, then subsequent administrator updates will respect this setting and will remove out-of-support components from the client machines.
 
 ### Verify a layout
 
