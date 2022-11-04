@@ -27,7 +27,7 @@ This troubleshooting guide includes step-by-step instructions that should resolv
 
 ## Online installations
 
-The following steps apply to a typical online installation. For an network (layout) or offline installation, see [How to troubleshoot an offline installation](#network-layout-or-offline-installations).
+The following steps apply to a typical online installation. For a network (layout) or offline installation, see [How to troubleshoot an offline installation](#network-layout-or-offline-installations).
 
 ### Step 1 - Check whether the problem is a known issue
 
@@ -138,9 +138,9 @@ If none of the previous steps help you successfully install or upgrade Visual St
 
 ## Network layout or offline installations
 
-To resolve issues with a [network installation](create-a-network-installation-of-visual-studio.md), see [Error Codes](/install/create-a-network-installation-of-visual-studio#error-codes) or [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md).
+To resolve issues with a [network installation](create-a-network-installation-of-visual-studio.md), see [Error Codes](./create-a-network-installation-of-visual-studio.md#error-codes) or [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md).
 
-Other known issues and workarounds that might help you when you create an [offline installation](create-an-offline-installation-of-visual-studio.md) and install from a network or a local layout include.
+Other known issues and workarounds that might help you when you create an [offline installation](create-an-offline-installation-of-visual-studio.md) and install from a network or a local layout.
 
 | Issue       | Solution |
 | ----------- | -------- |

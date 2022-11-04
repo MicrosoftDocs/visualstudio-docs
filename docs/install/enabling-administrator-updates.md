@@ -17,7 +17,7 @@ ms.technology: vs-installation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-When Microsoft releases a new Visual Studio update, Microsoft will simultaneously publish a corresponding Visualt Studio administrator update package to the Microsoft Update servers. An administrator can then distribute the Visual Studio administrator update package via [Windows Server Update Services (WSUS)](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) using [Configuration Manager (SCCM)](/configmgr/core/understand/introduction), or via [Windows Update for Business (WUfB)](/windows/deployment/update/waas-manage-updates-wufb) using [Microsoft Endpoint Manager (Intune)](https://endpoint.microsoft.com).
+When Microsoft releases a new Visual Studio update, Microsoft will simultaneously publish a corresponding Visual Studio administrator update package to the Microsoft Update servers. An administrator can then distribute the Visual Studio administrator update package via [Windows Server Update Services (WSUS)](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) by using the [Configuration Manager (SCCM)](/configmgr/core/understand/introduction), or via [Windows Update for Business (WUfB)](/windows/deployment/update/waas-manage-updates-wufb) by using the [Microsoft Endpoint Manager (Intune)](https://endpoint.microsoft.com).
 
 ## Use Microsoft Endpoint Manager (Intune) to update to cloud connected devices using Visual Studio administrator updates
 
@@ -27,11 +27,11 @@ When Microsoft releases a new Visual Studio update, Microsoft will simultaneousl
 
 Configuration Manager (SCCM) can be set up to synchronize and download the Visual Studio administrator updates from the Windows Server Update Services (WSUS) catalog, and then deploy it to Visual Studio client machines across the organization.  
 
-* First, to run Configuration Manager (SCCM), you will need a current licensed version of Windows Server running Microsoft Endpoint Configuration Manager (current branch) and Windows Server Update Services (WSUS). You can’t use WSUS itself to deploy these updates; it must be used in conjunction with SCCM.
+* First, to run Configuration Manager (SCCM), you'll need a current licensed version of Windows Server running Microsoft Endpoint Configuration Manager (current branch) and Windows Server Update Services (WSUS). You can’t use WSUS itself to deploy these updates; it must be used in conjunction with SCCM.
 
 * SCCM must be configured to receive notifications when Visual Studio administrator update packages are available. To do that, use the following steps, and for more information, see [Introduction to software updates in Microsoft Endpoint Configuration Manager (SCCM)](/mem/configmgr/sum/understand/software-updates-introduction).
 
-  1. In the SCCM console, select **Administration** (bottom-left), then select **Site Configuration** (middle left), then **Sites**, and select your site server.
+  1. In the SCCM console, select **Administration** (bottom-left), then select **Site Configuration** (middle left), then select **Sites**, and select your site server.
 
   2. On the **Home** tab ribbon at the top, in the **Settings** group button, select **Configure Site Components**, and then select **Software Update Point**.
 
@@ -45,7 +45,7 @@ Configuration Manager (SCCM) can be set up to synchronize and download the Visua
 
 Note that only Visual Studio security Administrator updates are published to WSUS by default. If you want to deploy feature or quality administrator updates through SCCM, you'll need to [manually import them from the Microsoft Catalog and then deploy them](/mem/configmgr/sum/get-started/synchronize-software-updates#import-updates-from-the-microsoft-update-catalog).
 
-After you perform these steps, you can use the software update management capabilities of Configuration Manager (SCCM) to deploy the Visual Studio administrator updates. The different types and characteristics of Visual Studio administrator updates are described in [Applying administrator updates](../install/applying-administrator-updates.md), which provides guidance about how and when they should be distributed throughout your organization. For more information about Configuration Manager (SCCM) functionality and options, see [Deploy software updates in Microsoft Endpoint Configuration Manager (SCCM)](/mem/configmgr/sum/deploy-use/deploy-software-updates).
+After you perform these steps, you can use the software update management capabilities of Configuration Manager (SCCM) to deploy the Visual Studio administrator updates. The different types and characteristics of Visual Studio administrator updates are described in [Applying administrator updates](./applying-administrator-updates.md), which provides guidance about how and when they should be distributed throughout your organization. For more information about Configuration Manager (SCCM) functionality and options, see [Deploy software updates in Microsoft Endpoint Configuration Manager (SCCM)](/mem/configmgr/sum/deploy-use/deploy-software-updates).
 
 ## Enable (or disable) client machines' ability to receive Visual Studio administrator updates from Configuration Manager (SCCM)
 
@@ -59,11 +59,11 @@ The [Visual Studio Client Detector Utility](https://support.microsoft.com/help/5
 
 The client computers must be enabled to receive Visual Studio administrator updates. This step is necessary to make sure that the updates are not unintentionally or accidentally pushed out to unsuspecting client computers.
 
-The **AdministratorUpdatesEnabled** policy, implemented via a registry key, is designed for the administrator to encode administrator intent. For details on how to set this policy, refer to [Set Policies for Enterprise Deployments](set-defaults-for-enterprise-deployments.md). Admin access on the client computer is required to create and set the value of this polidy.
+The **AdministratorUpdatesEnabled** policy, implemented via a registry key, is designed for the administrator to encode administrator intent. For details on how to set this policy, refer to [Set Policies for Enterprise Deployments](set-defaults-for-enterprise-deployments.md). Admin access on the client computer is required to create and set the value of this policy.
 
-* AdministratorUpdatesEnabled policy set to 1 configures the client computer to accept Administrator Updates via WSUS/SCCM.
-* AdministratorUpdatesEnabled policy set to 2 configures the client computer to accept Administrator Updates via _either_ WSUS/SCCM or WUfB/Intune.
-* AdministratorUpdatesEnabled policy set to 0 or is absent, then administrator updates will be blocked from applying to the client computer.
+* **AdministratorUpdatesEnabled** policy set to **1** configures the client computer to accept Administrator Updates via WSUS/SCCM.
+* **AdministratorUpdatesEnabled** policy set to **2** configures the client computer to accept Administrator Updates via _either_ WSUS/SCCM or WUfB/Intune.
+* AdministratorUpdatesEnabled policy set to 0 or absent blocks administrator updates from being applied to the client computer.
 
 ### Ensuring the account has the right privileges and permissions
 By default, the client machine's SYSTEM account will be downloading and installing the Visual Studio administrator updates. This means that the SYSTEM account must have administrative privileges to the machine. Additionally, depending on [where the client is configured to obtain the product sources from](/visualstudio/install/update-visual-studio#configure-source-location-of-updates-1), the SYSTEM account must also have access to at least to either the [Visual Studio endpoints](/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server) on the internet or permissions to read from the network layout location in order to download the updated product bits. Note: an easy way to grant permissions to a network share for a collection of client machines' SYSTEM accounts is to grant permissions to the "Domain Computers" AD group.

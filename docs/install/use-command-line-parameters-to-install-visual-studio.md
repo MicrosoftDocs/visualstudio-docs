@@ -156,7 +156,7 @@ You can modify the update settings and programmatically configure the source loc
 
 | **Command** | **Description**                                                                                                         |
 |-------------|-------------------------------------------------------------------------------------------------------------------------|
-| modifySettings     | Verb used to modify the update settings of a particular instance of Visual Studio.                               |
+| `modifySettings`     | Verb used to modify the update settings of a particular instance of Visual Studio.                               |
 
 | **modifySettings parameters**                   | **Description**                                        |
 |-------------------------------------------------|----------------------------------------------------------------------|
@@ -165,7 +165,7 @@ You can modify the update settings and programmatically configure the source loc
 | `--channelUri`                               | The URI of the old channel manifest. Can be used if the --installPath is not known. Must be used in conjunction with productID to identify the right instance to act upon. |
 | `--productId <id>`                           | Must be used if --channelUri is specified and is used to identify the right instance to act upon. The `productID` is something like "Microsoft.VisualStudio.Product.Enterprise". |
 | `--quiet, -q`                                   | **Optional**: This parameter prevents any user interface from being displayed while the command is being executed |
-| `--removeOos true`                              | **Optional**: During a modifySettings command, this parameter (which must have the word true or false immediately after it) tells the Visual Studio installer to _persistently_ remove (or don't remove) all installed components that have transitioned to an out-of-support state. Useful for helping to keep the machine secure. | 
+| `--removeOos true`                              | **Optional**: During a modifySettings command, this parameter (which must have the word true or false immediately after it) tells the Visual Studio installer to _persistently_ remove (or not remove) all installed components that have transitioned to an out-of-support state. Useful for helping to keep the machine secure. | 
 
 Syntax examples: 
 
@@ -182,7 +182,7 @@ You can rollback the update programmatically by using the installer on the clien
 
 | **Command** | **Description**                                                                                                         |
 |-------------|-------------------------------------------------------------------------------------------------------------------------|
-| rollback     | Command to rollback a particular instance of Visual Studio to the previously installed update. This command will not work if the [DisableRollback](set-defaults-for-enterprise-deployments.md) is enabled.   |
+| `rollback`     | Command to rollback a particular instance of Visual Studio to the previously installed update. This command will not work if the [`DisableRollback`](set-defaults-for-enterprise-deployments.md) is enabled.   |
  
 | **rollback parameters**                   | **Description**                                                                           |
 |-------------------------------------------|-------------------------------------------------------------------------------------------|

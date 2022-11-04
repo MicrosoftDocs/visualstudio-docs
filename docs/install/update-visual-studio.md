@@ -248,7 +248,7 @@ When an update is available, the update notification UI in the IDE provides a wa
 
 ## Remove out-of-support components
 
-Using the [latest Visual Studio 2022 Installer](#install-the-latest-and-greatest-installer) available with the Visual Studio 2022 version 17.4 release, you can now remove components that have transitioned to an out-of-support state all at once manually by using the Visual Studio Installer or [programmatically](./use-command-line-parameters-to-install-visual-studio.md). 
+Using the [latest Visual Studio 2022 Installer](#install-the-latest-and-greatest-installer) available with the Visual Studio 2022 version 17.4 release, you can now remove components that have transitioned to an out-of-support state all at once manually by using the installer or [programmatically](./use-command-line-parameters-to-install-visual-studio.md). 
 
 1. Open the Visual Studio Installer, and then select **Modify**.
 1. Select **Remove all out-of-support components**.
@@ -267,7 +267,7 @@ Learn more about [removing out-of-support components](https://aka.ms/vs/removeoo
 
 ## Install the latest and greatest installer
 
-The most current release of the installer in the latest version of Visual Studio typically has the most robust and reliable feature set. This functionality will often seamlessly work on lower versioned products. In order to manually acquire the only latest version of the installer onto a client machine (like if you wanted the functionality of the latest Visual Studio 2022 installer to govern a Visual Studio 2019 installation), you can do one of the following: 
+The most current release of the installer in the latest version of Visual Studio typically has the most robust and reliable feature set. This functionality will often seamlessly work on lower versioned products. In order to manually acquire the latest version of the installer onto a client machine (like if you wanted the functionality of the latest Visual Studio 2022 installer to govern a Visual Studio 2019 installation), you can do one of the following: 
 
 1. [Download any bootstrapper for the latest version of Visual Studio](/visualstudio/install/install-visual-studio#step-2---download-visual-studio) and then either
 

@@ -394,7 +394,7 @@ For more information about how to customize and configure the default client set
 
 ### Configure policies for enterprise deployment behavior
 
-You can also control other enterprise deployment behavio such as installation, update, and download behavior, administrator update behavior, how layouts appear in the Update Settings dialog, and notification behavior.  
+You can also control other enterprise deployment behavior such as installation, update, and download behavior, administrator update behavior, how layouts appear in the **Update Settings** dialog, and notification behavior.  
 
 Refer to [Configure policies for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md) for additional details.
 
@@ -407,7 +407,7 @@ If you used the `--wait` parameter, then depending on the result of the operatio
 
 ### Get support for your network layout
 
-If you experience a problem with your network layout, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE. If you're an IT Administrator and don't have Visual Studio installed, you can submit [**IT Admin feedback here**](https://aka.ms/vs/admin/feedback). When you use this tool, it would be very helpful if you could send the logs from the [VS Collect tool](https://aka.ms/vscollect) which can help us diagnose and fix the problem.
+If you experience a problem with your network layout, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE. If you're an IT Administrator and don't have Visual Studio installed, you can submit [**IT Admin feedback here**](https://aka.ms/vs/admin/feedback). When you use this tool, it would be very helpful if you could send the logs by the [VS Collect tool](https://aka.ms/vscollect) which can help us diagnose and fix the problem.
 
 We also offer an [**installation chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 
