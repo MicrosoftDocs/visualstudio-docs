@@ -24,12 +24,12 @@ ms.technology: vs-installation
 
 You can set policies in the registry that affect the deployment and update behavior of Visual Studio. These policies are global on the client machine and affect the following:
 
-- Where some packages shared with other versions or instances are installed.
-- Where and whether packages are cached.
-- If administrator updates should be enabled and how they should be applied.
-- Which update channels are available and how they're presented to the client.
-- How notifications appear or don't appear.
-- If unsupported components should be removed from the machine.
+- Where some packages shared with other versions or instances are installed
+- Where and whether packages are cached
+- If administrator updates should be enabled and how they should be applied
+- Which update channels are available and how they're presented to the client
+- How notifications appear or don't appear
+- If unsupported components should be removed from the machine
 
 You can set these policies by using [command-line options](use-command-line-parameters-to-install-visual-studio.md) on the client machine, by setting registry values directly on the client machine, or by distributing them using Group Policy across an organization.
 
@@ -67,7 +67,7 @@ The registry settings in this section control if and how administrator updates a
 
 | **Name**                         | **Type**                    | **Default**                                         | **Description**           |
 |----------------------------------|-----------------------------|-----------------------------------------------------|---------------------------|
-| `AdministratorUpdatesEnabled`    | `REG_DWORD`                 | 0                                                   | Allows administrator updates to be applied to the client computer. If this value is missing or is set to 0, administrator updates will be blocked. A value of 1 makes the client machine available for updates deployed through the WSUS/SCCM channel and is typically used for Active Directory (AD) joined machines. A value of 2 makes the client machine available for updates deployed through either the WSUS/SCCM channel or the Windows Update for Business/Intune/Microsoft Endpoint manager channel and can be used for either Active Directory (AD) or Azure Active Directory (AAD) joined devices. This registry key is for the administrator user. For more information, see [Enabling Administrator Updates](enabling-administrator-updates.md). |
+| `AdministratorUpdatesEnabled`    | `REG_DWORD`                 | 0                                                   | Allows administrator updates to be applied to the client computer. If this value is missing or is set to 0, administrator updates will be blocked. A value of 1 makes the client machine available for updates deployed through the WSUS/SCCM channel and is typically used for Active Directory (AD) joined machines. A value of 2 makes the client machine available for updates deployed through either the WSUS/SCCM channel or the Windows Update for Business/Intune/Microsoft Endpoint manager channel and can be used for either Active Directory (AD) or Azure Active Directory (Azure AD) joined devices. This registry key is for the administrator user. For more information, see [Enabling Administrator Updates](enabling-administrator-updates.md). |
 | `AdministratorUpdatesOptOut`     | `REG_DWORD`                 | 0                                                   | Indicates that the user does not want to receive administrator updates to Visual Studio. The absence of the registry value, or a set value of 0, means that the Visual Studio user wants to receive administrator updates to Visual Studio. This is for the developer user (if they have admin permissions on the client machine). <br> <br> Note that the AdministratorUpdatesOptOut key for encoding user preference is prioritized over the AdministratorUpdatesEnabled key, which encodes the IT admin intent. If AdministratorUpdatesOptOut is set to 1, the update will be blocked on the client, even if the AdministratorUpdatesEnabled key is also set to 1. This action assumes that IT admins can access and monitor which developers chose to opt out, and that the two parties can then discuss whose needs are more important. IT admins can always change either key whenever they want.|
 | `UpdateConfigurationFile`        | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%<br>\Microsoft<br>\VisualStudio<br>\updates.config | The file path for configuring Administrative Updates. By default, this policy doesn't exist. If you choose to add this policy to the client machine and define a custom configuration file location, then the Administrator update will look for this file; if the file doesn’t exist, then an exception will be thrown and the update will fail. For more information, see [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update).   |    
 
@@ -88,7 +88,7 @@ The keys in this section only apply to the Computer\HKEY_LOCAL_MACHINE\SOFTWARE\
 | `ChannelURI` | `REG_SZ` |  The channelURI to either add to list of update channel values by adding to the `Channels` hive, or suppress from the list of update channels by adding to the `DisabledChannels` registry hive. For Microsoft hosted channels, the channelURI is "https://aka.ms/vs/16/release/channel" or "https://aka.ms/vs/16/pre/channel".  For layouts, this value needs to point to the layout's ChannelManifest.json. Refer to examples below. |
 | `Description` | `REG_SZ` |  A two-line custom description of the channel. If you've already installed from a layout, then the Update Settings UI defaults to "Private Channel" and you can change it using this Description. |
 
-Below are two example registry files that illustrates how an IT Admin may want to customize the [Update Settings UI](/visualstudio/install/update-visual-studio?#configure-source-location-of-updates-1). 
+Below are some registry file examples that illustrate how an IT Admin may want to customize the [Update Settings UI](/visualstudio/install/update-visual-studio?#configure-source-location-of-updates-1). 
 
 The first registry example can be used in a situation where the client has previously installed from a network layout located at `\\vslayoutserver3\vs\2019_Enterprise`. As mentioned previously, Visual Studio defaults the channel name for this layout to "Private Channel". Here's how you would customize the channel name and description for this layout.
 
