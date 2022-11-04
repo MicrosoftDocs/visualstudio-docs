@@ -2,7 +2,7 @@
 title: "Hello World app with WPF in C#"
 description: Create a simple Windows Desktop .NET app in C# with Visual Studio using the Windows Presentation Foundation (WPF) UI framework.
 ms.custom: "vs-acquisition, get-started"
-ms.date: 09/14/2021
+ms.date: 10/31/2022
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: tutorial
@@ -15,7 +15,7 @@ manager: jmartens
 ms.workload:
   - "dotnet"
 ---
-# Tutorial: Create a simple application with C\#
+# Tutorial: Create a simple WPF application with C\#
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -24,8 +24,14 @@ By completing this tutorial, you'll become familiar with many of the tools, dial
 ## Prerequisites
 
 - If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
-- Make sure the **.NET desktop development** workload is installed. You can verify this in the Visual Studio Installer. 
+- Make sure the **.NET desktop development** workload is installed. You can verify this in the Visual Studio Installer.
 - You can use either .NET Framework or .NET Core for this tutorial. .NET Core is the newer, more modern framework. .NET Core requires Visual Studio 2019 version 16.3 or later.
+
+## What is WPF?
+
+WPF, or Windows Presentation Foundation, is a UI (user interface) framework that creates desktop client applications.  The WPF development platform supports a broad set of application development features, including an application model, resources, controls, graphics, layout, data binding, documents, and security.
+
+WPF is part of .NET, so if you have previously built applications with .NET using ASP.NET or Windows Forms, the programming experience should be familiar. WPF uses the Extensible Application Markup Language [XAML](../../xaml-tools/xaml-overview.md) to provide a declarative model for application programming. For more information, see [WPF .NET overview](/dotnet/desktop/wpf/overview/?view=netdesktop-6.0&preserve-view=true).
 
 ## Configure the IDE
 
@@ -103,7 +109,7 @@ After you create the project, you can customize it. To do so, choose **Propertie
 
 ## Design the user interface (UI)
 
-If the designer is not open, select *MainWindow.xaml* and press **Shift**+**F7** to open the designer.
+If the designer isn't open, select *MainWindow.xaml* and press **Shift**+**F7** to open the designer.
 
 We'll add three types of controls to this application: a <xref:System.Windows.Controls.TextBlock> control, two <xref:System.Windows.Controls.RadioButton> controls, and a <xref:System.Windows.Controls.Button> control.
 
@@ -486,7 +492,7 @@ You can test the code during debugging by adding some breakpoints. You can add b
 1. Press the **F9** key to add a breakpoint, and then press **F5** to start debugging.
 
 1. In the **Greetings** window, choose the **Hello** radio button, and then choose the **Display** button.
-    
+
     The line `MessageBox.Show("Hello.")` is highlighted in yellow. At the bottom of the IDE, the Autos, Locals, and Watch windows are docked together on the left side, and the Call Stack, Breakpoints, Exception Settings, Command, Immediate, and Output windows are docked together on the right side.
 
     :::image type="content" source="media/vs-2022/explore-ide-debug-breakpoint.png" alt-text="Screenshot of a debug session in Visual Studio. The code window for Greetings.xaml.cs shows execution stopped at a breakpoint with a line highlighted in yellow.":::
@@ -518,7 +524,7 @@ In the running app, you should see a widget that appears at the top of your wind
 ::: moniker-end
 ::: moniker range=">=vs-2022"
 
-:::image type="content" source="media/vs-2022/explore-ide-live-visual-tree.png" alt-text="Screenshot of the Live Visual Tree window, showing the tree of visual elements in HelloWPFApp.exe while it is running.":::
+:::image type="content" source="media/vs-2022/explore-ide-live-visual-tree.png" alt-text="Screenshot of the Live Visual Tree window, showing the tree of visual elements in HelloWPFApp.exe while it's running.":::
 
 ::: moniker-end
 ### Build a release version of the application
