@@ -2,7 +2,7 @@
 title: Update Visual Studio
 titleSuffix: ''
 description: Learn how to update Visual Studio to the most recent release, step by step.
-ms.date: 04/06/2022
+ms.date: 11/3/2022
 ms.custom: vs-acquisition
 ms.topic: how-to
 ms.prod: visual-studio-windows
