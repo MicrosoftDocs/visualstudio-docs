@@ -87,6 +87,9 @@ Represents a reference to another project. `ProjectReference` items are transfor
 |SkipGetTargetFrameworkProperties|Optional boolean. If `true`, builds the referenced project without negotiating the most compatible `TargetFramework` value. Defaults to `false`.|
 |Targets|Optional `string[]`. Semicolon separated list of targets in the referenced projects that should be built. Default is the value of `$(ProjectReferenceBuildTargets)` which defaults to empty, indicating the default targets.|
 
+> [!NOTE]
+> There is a difference between how project references work between .NET Framework and .NET Core (including .NET 5 and later). In .NET Framework projects, `ProjectReference` is not transitive. That is, if Project1 references Project2, and Project2 references Project3, you can't code against Project3 from Project1. However, in .NET Core (including .NET 5 and later), project references *are* transitive. You can code against Project3 in Project1.
+
 ## Compile
 
 Represents the source files for the compiler.
