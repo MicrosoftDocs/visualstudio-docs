@@ -55,7 +55,7 @@ The connected service functionality adds all the needed references and connectio
 
     If you need to create a database, go to the next step. Otherwise, skip to step 7.
 
-    ![Add existing Cosmos DB to project](./media/azure-cosmosdb-add-connected-service/created-cosmosdb.png)
+    ![Add existing Azure Cosmos DB to project](./media/azure-cosmosdb-add-connected-service/created-cosmosdb.png)
 
 1. To create an Azure Cosmos DB:
 
