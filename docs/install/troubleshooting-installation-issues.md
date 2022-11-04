@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot installation or upgrade issues
 description: Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help.
-ms.date: 11/08/2022
+ms.date: 11/3/2022
 ms.custom: vs-acquisition
 ms.topic: troubleshooting
 helpviewer_keywords:
