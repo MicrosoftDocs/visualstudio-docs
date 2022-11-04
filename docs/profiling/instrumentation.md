@@ -34,9 +34,9 @@ Dynamic instrumentation is helpful because:
 
 - **.NET Instrumentation** Starting in Visual Studio 2022 version 17.4, the .NET Instrumentation tool provides dynamic instrumentation for .NET Core, .NET 5+, and .NET Framework (not C/C++). This tool provides the best performance for instrumentation scenarios. Access this tool using the Performance Profiler (Alt + F2). For DLLs, you need to use the command-line tool (VSInstr) instead.
 
-- **Instrumentation** Starting in Visual Studio 2019 version 16.9, the Instrumentation tool provides dynamic instrumentation for .NET Framework apps and C/C++ apps. This tool uses a version of VSInstr.exe that supports dynamic instrumentation. Access this tool using the Performance Profiler (Alt + F2).
+- **Instrumentation** Starting in Visual Studio 2019 version 16.9, the Instrumentation tool provides dynamic instrumentation for .NET Core, .NET 5+, and .NET Framework (not C/C++). This tool uses a version of VSInstr.exe that supports dynamic instrumentation. Access this tool using the Performance Profiler (Alt + F2). For DLLs, you need to use the command-line tool (VSInstr) instead.
 
-- **Command-line instrumentation** This tool provides static instrumentation using [VSInstr](../profiling/vsinstr.md) and works for .NET Framework and C/C++ apps. For instrumenting DLLs, the command-line tool is the only option. For more information, see [Collect detailed timing data for a stand-alone application by using the profiler command line](../profiling/collecting-detailed-timing-data-for-a-stand-alone-application.md).
+- **Command-line instrumentation** This tool provides static instrumentation using [VSInstr](../profiling/vsinstr.md) and works for .NET Framework, .NET 5+, and C/C++ apps. For instrumenting DLLs, the command-line tool is the only option. For more information, see [Collect detailed timing data for a stand-alone application by using the profiler command line](../profiling/collecting-detailed-timing-data-for-a-stand-alone-application.md).
 
 ## See Also
 
