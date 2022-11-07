@@ -133,7 +133,7 @@ The following `response.json` file example will initialize a Visual Studio Enter
 
 ::: moniker range="=vs-2022"
 
-The following `response.json` file example will initialize a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, to always remove components that have transitioned to out of support when the client is being updated, and to have the update location configured to look for sources in the layout. 
+The following `response.json` file example will initialize a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, to always remove components that have transitioned to out of support when the client is being updated, and to have the update location configured to look for sources in the layout. See the list of out-of-support components [here](out-of-support-components.md).
 
 ```Example response.json
 {

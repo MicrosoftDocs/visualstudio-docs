@@ -108,9 +108,11 @@ As a last resort, you can remove all Visual Studio installation files and produc
 1. Rerun the Visual Studio Installer bootstrapper. You might find the bootstrapper in your **Downloads** folder with a file name that matches a `vs_[Visual Studio edition]__*.exe` pattern. Or, you can download the bootstrapper for your edition of Visual Studio from the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page.
 1. Try to reinstall Visual Studio.
 
+::: moniker range=">=vs-2022"
+
 ### Step 7 - Rollback
 
-If none of the previous steps help you successfully upgrade Visual Studio, you can try to rollback to your previously installed version. Learn more about the [rollback feature in Visual Studio](https://aka.ms/vs/rollback) before trying to rollback.
+If none of the previous steps help you successfully upgrade Visual Studio, you can try to rollback to your previously installed version. Learn more about the [rollback feature in Visual Studio](/visualstudio/releases/2022/release-notes/) before trying to rollback.
 
 > [!NOTE]
 > With Visual Studio 2022 17.4, you'll be able to rollback to your previously installed version.
@@ -128,13 +130,22 @@ You can rollback to your previously installed version by using the Visual Studio
 
 1. Select **OK** to confirm your choice.
 
-> [!Important]
-> Rollback may disabled or your rollback attempt may be undone if you're in an organization that has security compliance or software updating requrements. Contact your IT Administrator for further details. 
-
+> [!IMPORTANT]
+> Rollback may disabled or your rollback attempt may be undone if you're in an organization that has security compliance or software updating requirements. Contact your IT Administrator for further details. 
 
 ### Step 8 - Contact us (optional)
 
 If none of the previous steps help you successfully install or upgrade Visual Studio, contact us by using our [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) support option (English only) for further assistance.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+### Step 7 - Contact us (optional)
+
+If none of the previous steps help you successfully install or upgrade Visual Studio, contact us by using our [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) support option (English only) for further assistance.
+
+::: moniker-end
 
 ## Network layout or offline installations
 
