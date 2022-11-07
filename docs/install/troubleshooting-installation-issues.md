@@ -131,7 +131,7 @@ You can rollback to your previously installed version by using the Visual Studio
 1. Select **OK** to confirm your choice.
 
 > [!IMPORTANT]
-> Rollback may disabled or your rollback attempt may be undone if you're in an organization that has security compliance or software updating requirements. Contact your IT Administrator for further details. 
+> Rollback may be disabled or your rollback attempt may be undone if you're in an organization that has security compliance or software updating requirements. Contact your IT Administrator for further details. 
 
 ### Step 8 - Contact us (optional)
 
