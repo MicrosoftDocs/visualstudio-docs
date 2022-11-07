@@ -100,6 +100,8 @@ It's possible to select other versions of Visual Studio that are unlisted and in
 
 ### Install or update the Visual Studio Editor package
 
+:::zone pivot="windows"
+
 In Unity versions 2020 and later, a separate Unity Package is required for the best experience working with IDEs like Visual Studio and Visual Studio for Mac. This package should be included by default, but updates are released to this package that you can install to at any time.
 
 1. In the Unity Editor, select the **Windows** > **Package Manager** menu.
@@ -108,7 +110,10 @@ In Unity versions 2020 and later, a separate Unity Package is required for the b
 
    :::image type="content" source="../media/vs/unity-package-manager.png" alt-text="Screenshot of the Package Manager window in the Unity Editor on Windows.":::
 
+:::zone-end
+
 :::zone pivot="macos"
+
 In Unity versions 2020 and later, a separate Unity Package is required for the best experience working with IDEs like Visual Studio and Visual Studio for Mac. This package should be included by default, but updates are released to this package that you can install to at any time.
 
 1. In the Unity Editor, select the **Windows** > **Package Manager** menu.
@@ -116,6 +121,7 @@ In Unity versions 2020 and later, a separate Unity Package is required for the b
 1. If a new version is available, select **Update**.
 
    :::image type="content" source="../media/vsm/unity-package-manager.png" alt-text="Screenshot of the Package Manager window in the Unity Editor on Mac.":::
+
 :::zone-end
 
 ## Check for updates
