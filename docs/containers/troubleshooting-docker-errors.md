@@ -101,5 +101,5 @@ For any other issues you encounter, see  [Microsoft/DockerTools](https://github.
 ## See also
 
 - [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)
-- [Container Tools error messages)(container-tools-error-messages.md)
+- [Container Tools error messages](container-tools-error-messages.md)
 
