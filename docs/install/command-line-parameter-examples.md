@@ -153,7 +153,7 @@ If you choose to use a custom layout as the update channel, then be aware of the
 >[!NOTE]
 >This command requires using the VS 2022 version 17.4 or later installer. Follow the guidance here for [how to acquire the latest installer on your client machine](/install/update-visual-studio.md#install-the-latest-and-greatest-installer).
 
-* Modify an installation and remove all components that have transitioned to an out-of-support state from the default installed Visual Studio instance:
+* Modify an installation and remove all [components that have transitioned to an out-of-support state](out-of-support-components.md) from the default installed Visual Studio instance:
 
   ```shell
    vs_enterprise.exe modify ^
