@@ -54,7 +54,7 @@ Microsoft collects data to help us reproduce and troubleshoot issues you report 
 
 - Your [Developer Community](https://developercommunity.visualstudio.com/) profile information;
 - Preferences and notifications;
-- Attachments and system-generated logs you provided by [reporting a problem in Visual Studio](https://learn.microsoft.com/visualstudio/ide/how-to-report-a-problem-with-visual-studio) or through [Developer Community](https://developercommunity.visualstudio.com/);
+- Attachments and system-generated logs you provided by [reporting a problem in Visual Studio](how-to-report-a-problem-with-visual-studio) or through [Developer Community](https://developercommunity.visualstudio.com/);
 - Your votes.
 
 If **Report a problem** is initiated from Visual Studio Installer, we collect the most recent setup log.
@@ -66,7 +66,7 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
 - PerfWatson files, if Watson collection is enabled
 - LiveShare log files, if they exist
 - Xamarin log files, if they exist
-- Nuget log files, if they exist
+- NuGet log files, if they exist
 - Web debugger log files, if they exist
 - Service Hub logs and MEF error logs, if they exist
 - Python logs, if they exist
@@ -91,9 +91,9 @@ We support [General Data Protection Regulation (GDPR)](https://ec.europa.eu/just
 
 To View your feedback-related data, follow these steps:
 
-1. Sign into [Developer Community](https://developercommunity.visualstudio.com/). From the top-right corner, click on your profile and select Profile and Preferences.
+1. Sign into [Developer Community](https://developercommunity.visualstudio.com/). From the top-right corner, click on your **profile** and select **Profile and Preferences**.
 
-2. Click on any of the Profile, Notifications, Activity, and Attachments tabs to view the data submitted to the feedback systems.
+2. Click on any of the **Profile, Notifications, Activity,** and **Attachments** tabs to view the data submitted to the feedback systems.
 
    - **Profile** refers to your Developer Community profile, including user name, email address, about, etc.
    - **Notifications** are how you control the email notifications you receive.
