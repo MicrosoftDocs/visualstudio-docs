@@ -42,11 +42,11 @@ Mixed-mode debugging features include the following, as explained in this articl
     > [!Tip]
     > When you enable native code debugging, the Python output window may disappear immediately when the program has completed without giving you the usual **Press any key to continue** pause. To force a pause, add the `-i` option to the **Run** > **Interpreter Arguments** field on the **Debug** tab when you enable native code debugging. This argument puts the Python interpreter into interactive mode after the code finishes, at which point it waits for you to press **Ctrl**+**Z** > **Enter** to exit.
 
-1. When attaching the mixed-mode debugger to an existing process (**Debug** > **Attach to Process**), use the **Select** button to open the **Select Code Type** dialog. Then set the **Debug these code types** option and select both **Native** and **Python** in the list:
+1. When attaching the mixed-mode debugger to an existing process (**Debug** > **Attach to Process**), use the **Select** button to open the **Select Code Type** dialog. Then set the **Debug these code types** option and select **Python (native)** from the list:
 
-    ![Selecting the Native and Python code types](media/mixed-mode-debugging-code-type.png)
+    ![Screenshot of choosing the Python (native) code type for mixed-mode debugging.](media/mixed_mode_debugging_attach_type_updated.png)
 
-    The code type settings are persistent, so if you want to disable mixed-mode debugging when attaching to a different process later, clear the **Python** code type.
+    The code type settings are persistent, so if you want to disable mixed-mode debugging when attaching to a different process later, clear the **Python (native)** code type and apply the **Native** code type.
 
     It's possible to select other code types in addition to, or instead of, **Native**. For example, if a managed application hosts CPython, which in turn uses native extension modules, and you want to debug all three, you can check **Python**, **Native**, and **Managed** together for a unified debugging experience including combined call stacks and stepping between all three runtimes.
 
