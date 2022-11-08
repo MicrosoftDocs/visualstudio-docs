@@ -17,7 +17,9 @@ ms.workload:
 ---
 # Override ToolsVersion settings
 
-You can change the Toolset for projects and solutions in one of three ways:
+The `ToolsVersion` attribute on the Project element in Visual Studio and MSBuild project files is considered obsolete in Visual Studio 2019 and later; you can safely delete it. This article describes its use in older versions of MSBuild, or for custom toolsets. See [Standard and custom Toolset configurations](../msbuild/standard-and-custom-toolset-configurations.md).
+
+You can change the toolset for projects and solutions in one of three ways:
 
 1. By using the `-ToolsVersion` switch (or `-tv`, for short) when you build the project or solution from the command line.
 
