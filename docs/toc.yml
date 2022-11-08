@@ -72,7 +72,7 @@
         href: install/automated-installation-with-response-file.md
       - name: Automatically apply product keys when deploying Visual Studio
         href: install/automatically-apply-product-keys-when-deploying-visual-studio.md
-      - name: Set defaults for enterprise deployments of Visual Studio
+      - name: Configure policies for enterprise deployments of Visual Studio
         href: install/set-defaults-for-enterprise-deployments.md
       - name: Deploy Help Viewer
         items:
