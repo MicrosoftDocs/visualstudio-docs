@@ -73,7 +73,7 @@ Icon | Description
 
 If you use [camel casing](https://en.wikipedia.org/wiki/Camel_case) in your code, you can find code elements faster by entering only the capital letters of the code element name. For example, if your code has a type called `CredentialViewModel`, you can narrow down the search by choosing the **Type** filter (**t**) and then entering just the capital letters of the name (`CVM`) in the Go To dialog box. This feature can be helpful if your code has long names.
 
-![Navigate To window - searching with capitals](../ide/media/vside_capitalsearch.png)
+![Navigate To window - searching with uppercase letters](../ide/media/vside_uppercasesearch.png)
 
 ## Settings
 
