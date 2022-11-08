@@ -132,6 +132,7 @@ Represents files that are not compiled into the project, but may be embedded or 
 | IsAssembly | Optional boolean. Specifies whether the file is an assembly. |
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. |
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
+| TargetPath | Optional string. The output path (relative to the configuration- and/or platform-specific output directory) of an item, including the filename. This respects the `Link` metadata, if provided. If TargetPath is not provided, it is computed during the build process. See [AssignTargetPath](assigntargetpath-task.md). |
 
 ## None
 
