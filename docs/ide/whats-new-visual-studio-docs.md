@@ -21,40 +21,48 @@ ms.workload:
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
 
-## Azure
 
-### Updated articles
+## Community contributors
+
+The following people contributed to Visual Studio content during this period. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
+
+
+## September 2022
+
+### Azure
+
+**Updated articles**
 
 - [Add a connection to Azure SQL Database](../azure/azure-sql-database-add-connected-service.md) - Add content for Entity Framework migrations support in Visual Studio
 
-## Cross platform
+### Cross platform
 
-### Updated articles
+**Updated articles**
 
 - [Cross-platform mobile development in Visual Studio](../cross-platform/cross-platform-mobile-development-in-visual-studio.md) - Refresh text and screenshots
 
-## Debugger
+### Debugger
 
-### Updated articles
+**Updated articles**
 
 - [Debugging in Visual Studio](../debugger/index.yml) - Perform search engine optimization (SEO) work for debugger & code analysis documentation
 - [Debug .NET Apps in WSL with Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md) - Add attach-to-process content for article on debugging Linux using WSL
 - [Remote Debug ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) - Follow-up to Remote Debugging article updates
 - [Log info to the Output window using tracepoints in Visual Studio](../debugger/using-tracepoints.md) - Refresh text and screenshots
 
-## Deployment
+### Deployment
 
-### New articles
+**New articles**
 
 - [ClickOnce for .NET on Windows](../deployment/clickonce-deployment-dotnet.md)
 
-## Extensibility
+### Extensibility
 
-### New articles
+**New articles**
 
 - [Target Visual Studio 2022 (ARM64) when creating an extension in Visual Studio 2022](../extensibility/arm64/target-arm64-visual-studio-extension.md)
 
-### Updated articles
+**Updated articles**
 
 - Refresh text, links, and screenshots for the following:
 
@@ -62,62 +70,51 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
   - [Solution (.sln) file](../extensibility/internals/solution-dot-sln-file.md)
   - [Start developing extensions in Visual Studio](../extensibility/starting-to-develop-visual-studio-extensions.md)
 
-## IDE
+### IDE
 
-### New articles
+**New articles**
 
 - [Paste JSON or XML as classes](../ide/reference/paste-json-xml.md)
 
-### Updated articles
+**Updated articles**
 
 - [How to: Add or remove references by using the Reference Manager](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md) - Add screenshots & new Remove References section
 - [How to: Sign application and deployment manifests](../ide/how-to-sign-application-and-deployment-manifests.md) Update & add link for.NET 5+ steps
 - [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md) - Add troubleshooting section
 - [Create portable, custom editor settings with EditorConfig](../ide/create-portable-custom-editor-options.md) - Refresh text, links, and screenshots
 
-## JavaScript
+### JavaScript
 
-### New articles
+**New articles**
 
 - [Linting JavaScript in Visual Studio](../javascript/linting-javascript.md)
 
-## MSBuild
+### MSBuild
 
-### Updated articles
+**Updated articles**
 
 - [Change waves](../msbuild/change-waves.md) - Update with latest change wave info
 - [How to: Use MSBuild project SDKs](../msbuild/how-to-use-project-sdk.md) - Update SDK reference refactoring
 - [Walkthrough: Create an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md) Update articles for Visual Studio 2022
 - [Customize your build](../msbuild/customize-your-build.md) - Add section for handling generated files
 
-## Profiling
+### Profiling
 
-### New articles
+**New articles**
 
 - [Excessive induced GCs](../profiling/perf-insights-excessive-induced-gcs.md)
 - [High LOH Fragmentation](../profiling/perf-insights-high-loh-fragmentation.md)
 - [Diagnose high latency with CPU Insights](../profiling/cpu-insights.md)
 
-### Updated articles
+**Updated articles**
 
 - [Understand profiler performance collection methods](../profiling/understanding-performance-collection-methods-perf-profiler.md) - Enhance intro information for profiling tools
 
-## Test
+### Test
 
-### Updated articles
+**Updated articles**
 
 - [Configure unit tests by using a *.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) - Update blame data collection info
-
-## Community contributors
-
-The following people contributed to Visual Studio content during this period. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
-
-- [BeardInASuit](https://github.com/BeardInASuit) - BeardinaSuit (1)
-- [Chiramisu](https://github.com/Chiramisu) - Matthew (1)
-- [GitHubPang](https://github.com/GitHubPang) (1)
-- [hyoshioka0128](https://github.com/hyoshioka0128) - Hiroshi Yoshioka (1)
-- [jkbsrg](https://github.com/jkbsrg) (1)
-- [rbrightwell](https://github.com/rbrightwell) (1)
 
 ## August 2022
 
