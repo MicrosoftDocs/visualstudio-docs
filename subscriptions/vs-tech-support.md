@@ -38,7 +38,7 @@ Product level descriptions: Expand **Unavailable support plans**. If you see **S
 ## How to activate the benefit
 
 > [!NOTE]
-> The following steps apply to activation of the benefit in **English** only.  For other languages, visit <https://visualstudio.microsoft.com/subscriptions/support>, scroll to the bottom, and select **Account, Subscription and Billing Support** and then select your country from the drop-down list.
+> The following steps apply to activation of the benefit in **English** only.  For other languages, visit <https://visualstudio.microsoft.com/subscriptions/support>, scroll to the bottom, and select **Account, Subscription and Billing Support** and then select your country/region from the drop-down list.
 
 1. Go to <https://my.visualstudio.com/Benefits>, scroll down to the Support section and on the Technical Support tile select **Chat to activate**.
     > [!div class="mx-imgBorder"]
