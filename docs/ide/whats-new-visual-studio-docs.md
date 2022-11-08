@@ -87,7 +87,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Use the MSTest framework in unit tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) - Refresh and complete MSTest documentation
 - [How to: Create a data-driven unit test](../test/how-to-create-a-data-driven-unit-test.md) - Update doc for MSTest data-driven tests
 
-## Community contributors
+### Community contributors
 
 The following people contributed to Visual Studio content in October. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
 
