@@ -21,11 +21,81 @@ ms.workload:
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
 
+## October 2022
+
+### Data tools
+
+**Updated articles**
+
+- [How to: Save and edit connection strings](../data-tools/how-to-save-and-edit-connection-strings.md) - update for Visual Studio 2022
+- [How to: Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md) - update for Visual Studio 2022
+
+### Debugger
+
+**New articles**
+
+- [Title not found in: #10524](../debugger/remote-debugging-aks-on-linux-with-ssh.md)
+
+### Designers
+
+**Updated articles**
+
+- [Disable DPI-awareness to fix HDPI / scaling issues with Windows Forms Designer in Visual Studio](../designers/disable-dpi-awareness.md) - remove the Registry Entry section
+
+### Extensibility
+
+**Updated articles**
+
+- [Create an options page](../extensibility/creating-an-options-page.md) - Added step to open custom options page
+
+### IDE
+
+**Updated articles**
+
+- [Project migration and upgrade reference for Visual Studio](../porting/port-migrate-and-upgrade-visual-studio-projects.md) - refresh text & links
+- [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md) - refresh text, links, & screenshots
+
+### JavaScript
+
+**Updated articles**
+
+- [Tutorial: Create an ASP.NET Core app with Vue in Visual Studio](../javascript/tutorial-asp-net-core-with-vue.md) - Update publishing steps for article on ASP.NET Core and Vue.js
+
+### MSBuild
+
+**New articles**
+
+- [Find and use a version of MSBuild](../msbuild/find-and-use-msbuild-versions.md)
+- [MSBuild Server](../msbuild/msbuild-server.md)
+
+**Updated articles**
+
+- [MSBuild](../msbuild/msbuild.md) - Review and update text and screenshots
+- [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md) - Review and update text and screenshots
+- [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md) - Add undocumented MSBuild properties
+
+### Profiling
+
+**New articles**
+
+- [Identify hot paths with a visualized call tree](../profiling/flame-graph.md)
+
+### Test
+
+**Updated articles**
+
+- [Use the MSTest framework in unit tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) - Refresh and complete MSTest documentation
+- [How to: Create a data-driven unit test](../test/how-to-create-a-data-driven-unit-test.md) - Update doc for MSTest data-driven tests
 
 ## Community contributors
 
-The following people contributed to Visual Studio content during this period. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
+The following people contributed to Visual Studio content in October. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
 
+- [mikeirvingweb](https://github.com/mikeirvingweb) - Mike Irving (2)
+- [abhinav2605](https://github.com/abhinav2605) - abhinav kumar (1)
+- [RicardoJarree](https://github.com/RicardoJarree) - Richard Jarrett (1)
+- [SIGEER2222](https://github.com/SIGEER2222) - Sigeer (1)
+- [xtqqczze](https://github.com/xtqqczze) - xtqqczze (1)
 
 ## September 2022
 
