@@ -1,7 +1,7 @@
 ---
 title: Create a network-based installation
 description: Learn how to create a network install point for deploying Visual Studio within an enterprise.
-ms.date: 3/3/2022
+ms.date: 11/3/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -301,6 +301,7 @@ There are two ways to enable your layout to include and provide the latest insta
      "productId": "Microsoft.VisualStudio.Product.Enterprise",
    
      "useLatestInstaller": true
+     "removeOos": true
      
    }
    ```
@@ -308,6 +309,10 @@ There are two ways to enable your layout to include and provide the latest insta
 There is no way to programmatically remove this setting in the layout.json file, so if you want your layout to _stop_ using the latest installer that Microsoft makes available, and instead use the version of the installer that corresponds to the bootstrapper (which is mostly likely older than the most recent installer), simply edit the layout.json file and remove the `"UseLatestInstaller": true` setting. 
 
 Note that you may find this `"UseLatestInstaller": true` setting in the layout's response.json file too, but it is ignored there. The [response.json file is used to set default configuration options on the _client_ when the client installs or updates from a layout](automated-installation-with-response-file.md). This particular `"useLatestInstaller": true` setting is used to ensure that the contents of the _layout_ contain the latest installer, so that the client machines can then acquire the latest installer from the layout.
+
+### Configure the layout to remove out-of-support components on the client machine.
+
+Some enterprises will want to take advantage of the feature introduced in Visual Studio 2022 version 17.4 that removes components that have transitioned to an out-of-support state. This is relatively easy to set up if you're managing a layout and if your clients are receiving administrator updates. First, you'll need to configure your layout to have the latest version of the installer as described above. Secondly, you'll need to add the line `"removeOos": true` to the response.json file as illustrated above. If your layout has these two details set properly, then subsequent administrator updates will respect this setting and will remove out-of-support components from the client machines.
 
 ### Verify a layout
 
@@ -380,24 +385,18 @@ If you get an error message that says "A product matching the following paramete
 
 ### Configure initial client installation defaults for this layout
 
-You can modify some files in the layout folder to set default values that are used when the product is initially installed on the client machine. Common configuration options include:
+You can modify the response.json file in the layout folder to set default values for when the product is initially installed on the client machine. Common configuration options include:
 
 - Ability to **configure which workloads, components, or languages should be selected by default** during initial install. 
-- Ability to specify **where the client should receive updates from**.  Options are from the admin-controlled network layout location or from Microsoft hosted servers on the internet (which is the default).
+- Ability to specify **where the client should receive updates from**. Examples include the default Microsoft hosted servers on the internet or from an admin-controlled network layout location.
 
 For more information about how to customize and configure the default client settings for the layout, see [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md).  
 
-### Configure enterprise deployment behavior
+### Configure policies for enterprise deployment behavior
 
-You can also control other enterprise deployment behavior, such as:
+You can also control other enterprise deployment behavior such as installation, update, and download behavior, administrator update behavior, how layouts appear in the **Update Settings** dialog, and notification behavior.  
 
-- If administrator updates should be enabled and how they should be applied.
-- Which update channels are available and how network layouts appear to the client machines in the Update Settings dialog.
-- Where shared packages are installed.
-- Where and whether packages are cached.
-- How notifications appear or don't appear.
-
-Refer to [Set defaults for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md) for additional details.
+Refer to [Configure policies for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md) for additional details.
 
 
 ### Error codes
@@ -408,7 +407,7 @@ If you used the `--wait` parameter, then depending on the result of the operatio
 
 ### Get support for your network layout
 
-If you experience a problem with your network layout, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE. If you're an IT Administrator and don't have Visual Studio installed, you can submit [**IT Admin feedback here**](https://aka.ms/vs/admin/guide). When you use this tool, it would be very helpful if you could send the logs from the [VS Collect tool](https://aka.ms/vscollect) which can help us diagnose and fix the problem.
+If you experience a problem with your network layout, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE. If you're an IT Administrator and don't have Visual Studio installed, you can submit [**IT Admin feedback here**](https://aka.ms/vs/admin/feedback). When you use this tool, it would be very helpful if you could send the logs by the [VS Collect tool](https://aka.ms/vscollect) which can help us diagnose and fix the problem.
 
 We also offer an [**installation chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 
@@ -420,8 +419,8 @@ We have other support options available, too. See our [Visual Studio Developer C
 - [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 - [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
 - [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
-- [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
-- [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)
+- [Configure policies for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md) 
+- [Visual Studio product lifecycle and servicing](/visualstudio/productinfo/vs-servicing/)
 - [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 - [Visual Studio workload and component IDs](workload-and-component-ids.md)
 - [Install certificates required for Visual Studio offline installation](install-certificates-for-visual-studio-offline.md)
