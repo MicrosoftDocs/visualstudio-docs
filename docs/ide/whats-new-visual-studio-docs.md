@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 10/05/2022
+ms.date: 11/08/2022
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -240,64 +240,3 @@ The following people contributed to Visual Studio content during this period. Th
 **New articles**
 
 - [Stage lines of code in Visual Studio](../version-control/git-line-staging.md)
-
-## July 2022
-
-### Azure
-
-**Updated articles**
-
-- [Overview: Connected Services](../azure/overview-connected-services.md) - Data Access in Visual Studio: Add connected services to applications
-- [Debugging an Azure cloud service or virtual machine in Visual Studio](../azure/vs-azure-tools-debug-cloud-services-virtual-machines.md) - Update remote debugging steps for cloud services (extended support)
-
-### Code quality
-
-**Updated articles**
-
-- [Overview](../code-quality/use-roslyn-analyzers.md) - Add more descriptions for light bulb severity options
-
-### Data tools
-
-**Updated articles**
-
-- [Work with data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md) - Data Access in Visual Studio: add Connected Services
-
-### Debugger
-
-**Updated articles**
-
-- [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) - Correct remote debugger ports for Azure App Service
-- [Inspect variables in the Autos and Locals windows](../debugger/autos-and-locals-windows.md) - Update for Visual Studio 2022
-
-### IDE
-
-**Updated articles**
-
-- [How to: Configure projects to target platforms](./how-to-configure-projects-to-target-platforms.md) - Add ARM64 targeting
-- [Options dialog box: Text Editor \> General](./reference/options-text-editor-general.md) - Update with new Visual Studio 2022 information
-- [Collect an ETL trace with PerfView and create minidumps with all call stacks](./report-a-problem-perfview-minidumps.md) - Update steps for creating a minidump
-
-### Install
-
-**Updated articles**
-
-- [Visual Studio images on Azure](../install/using-visual-studio-vm.md) - Updates for Visual Studio 2022
-
-### Modeling
-
-**Updated articles**
-
-- [Generate files with the TextTransform utility](../modeling/generating-files-with-the-texttransform-utility.md) - Update paths for Visual Studio 2022
-
-### MSBuild
-
-**New articles**
-
-- [MSBuild and Visual Studio format for diagnostic message](../msbuild/msbuild-diagnostic-format-for-tasks.md)
-
-**Updated articles**
-
-- [MSBuild targets](../msbuild/msbuild-targets.md) - Discuss AfterBuild and SDK-style projects
-- [Delete task](../msbuild/delete-task.md) - Add example of deleting files in an ItemGroup
-- [How to: Configure targets and tasks](../msbuild/how-to-configure-targets-and-tasks.md) - Add section on overriding usingtasks
-- [Troubleshoot .NET Framework targeting errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md) - Update .NET targeting to latest .NET terminology
