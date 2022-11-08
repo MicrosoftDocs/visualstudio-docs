@@ -17,13 +17,13 @@ ms.workload:
 ---
 # Standard and custom Toolset configurations
 
-An MSBuild Toolset contains references to tasks, targets, and tools that you can use to build an application project. MSBuild includes a standard Toolset, but you can also create custom Toolsets.
+An MSBuild toolset contains references to tasks, targets, and tools that you can use to build an application project. MSBuild includes a standard toolset, but you can also create custom toolsets.
 
-## Standard Toolset configurations
+## Standard toolset configurations
 
 MSBuild contains the standard toolset `Current` that references the current version of MSBuild, which is installed to the folder *MSBuild\Current\Bin* under the Visual Studio installation directory.
 
-## Custom Toolset definitions
+## Custom toolset definitions
 
  When a standard Toolset does not fulfill your build requirements, you can create a custom `Toolset`. For example, you may have a build lab scenario in which you must have a separate system for building C++ projects. By using a custom `Toolset`, you can assign custom values to the `ToolsVersion` attribute when run *MSBuild.exe* by using the `/toolsVersion` command-line switch. If you specify the `ToolsVersion` attribute in the project file, it is ignored.
 
