@@ -41,7 +41,7 @@ While you don't have to sign in, there are many advantages to doing so.
 |[Get 'Visual Studio Dev Essentials'](https://visualstudio.microsoft.com/dev-essentials/)|This program includes free software, training, support, and more.|
 
 <a name="sign-in"></a>
-## Sign in with a Microsoft account or an organizational account
+## Sign in with a Microsoft or organizational account
 
 ::: moniker range="<=vs-2019"
 
