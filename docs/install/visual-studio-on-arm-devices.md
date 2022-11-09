@@ -48,13 +48,13 @@ There is a single installer for both x64 and Arm64 Visual Studio. The installer 
 
 The first preview for Arm64 supports the following workloads:
 
-1. .NET desktop development
-1. Desktop development with C++
-1. NET and web development
-1. Universal Windows Platform development
-1. Visual Studio extension development
-1. Game development with C++
-1. Node.js development
+- .NET desktop development
+- Desktop development with C++
+- ASP.NET and web development
+- Universal Windows Platform development
+- Visual Studio extension development
+- Game development with C++
+- Node.js development
 
 ### Managed developers
 
