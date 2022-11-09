@@ -4,7 +4,7 @@ titleSuffix: ""
 description: Learn how Git makes source control in Visual Studio more productive.
 ms.date: 10/13/2022
 ms.topic: overview
-author: Taysser-Gherfal
+author: houghj16
 ms.author: tglee
 ms.manager: jmartens
 ms.prod: visual-studio-windows
@@ -21,7 +21,7 @@ Have you ever wished you could go back to a previously working version of your c
 Git is the most widely used modern version control system. With Git, you can track the code changes you make over time and you can revert to specific versions.  So whether you're a professional developer or if you’re learning how to code, Visual Studio's Git experience can be very useful to you.
 
 >[!Tip]
-> To learn about using Git and GitHub in Visual Studio, sign up for the [Git learning series](https://visualstudio.microsoft.com/vs/github/).
+> To learn about using Git and GitHub in Visual Studio, sign up for the [Git learning series](https://aka.ms/vsgitlearn-1-signup-docs).
 
 ::: moniker range=">=vs-2022"
 
