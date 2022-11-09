@@ -25,6 +25,16 @@ Visual Studio provides a variety of profiling tools to help you diagnose differe
 
 To see profiling tool support for different app types, see [Which tool should I use?](#which-tool-should-i-use)
 
+## Use a profiler to improve performance
+
+If you’re a developer who’s been on-call for your team’s codebase or you’ve written a web app, then you may have asked yourself why is my app receiving slow response times? Often, the issues are in production, and it is challenging to investigate at that moment, but profiling tools can help you capture enough information and evidence of the issue.
+
+There are several ways to diagnose performance issues when you’re working with APIs but using a profiler can help you quickly identify and rule out possible causes so that you have a clear path in resolving your issue.
+
+In software engineering, a profiler is a tool used to help you analyze the performance of your applications to improve poorly performing code. Profiling and diagnostics tools help you diagnose memory and CPU usage and other application-level issues. With these tools, you can collect performance data while you run your application.
+
+A profiler can help you make informative decisions quickly with a visual depiction of execution times and CPU usage for your application. It’s much easier and quicker to understand issues and fix them when you can see a graph of the execution times or the CPU usage.
+
 ## Measure performance while debugging
 
 The profiling tools that you can access during a debugging session are available in the Diagnostic Tools window. The Diagnostic Tools window appears automatically unless you have turned it off. To bring up the window, click **Debug / Windows / Show Diagnostic Tools** (or press **Ctrl** + **Alt** + **F2**). With the window open, you can select tools for which you want to collect data.
