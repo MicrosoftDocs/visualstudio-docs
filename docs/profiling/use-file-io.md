@@ -59,5 +59,7 @@ Double-clicking any file will cause it to be loaded in the **Backtraces** view. 
  > Caching the file read is not the correct fix as the OS already does that. Instead, cache what the file reads are translated into.
 
 ## See also
+
 - [Beginners guide to CPU sampling](../profiling/beginners-guide-to-cpu-sampling.md)
 - [Analyze database](../profiling/analyze-database.md)
+- [Identify hot paths with Flame Graph](../profiling/flame-graph.md)

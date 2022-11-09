@@ -2,10 +2,10 @@
 title: Identify hot paths with the Flame Graph
 description: Find hot paths in your code with a visualized overview
 ms.date: 09/30/2022
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.assetid: 7501a20d-04a1-480f-a69c-201524aa709d
-author: mikejo5000
-ms.author: mikejo
+author: mistymadonna
+ms.author: mihays
 manager: jmartens
 ms.technology: vs-ide-debug
 monikerRange: '>= vs-2022'
@@ -47,5 +47,6 @@ In the Flame Graph view, you can navigate by clicking on a node with a mouse or 
 |Escape|Zoom out|
 
 ## See also
+
 - [Diagnose high latency with CPU Insights](../profiling/cpu-insights.md)
 - [Analyze CPU usage without debugging](../profiling/cpu-usage.md)

@@ -245,4 +245,8 @@
           href: cvwritemessage-function.md
     - name: Concurrency Visualizer Command-Line Utility (CVCollectionCmd)
       href: concurrency-visualizer-command-line-utility-cvcollectioncmd.md
+- name: Reference
+  items:
+  - name: Troubleshoot possible profiler errors
+    href: troubleshoot-profiler-errors.md
 - name: Resources
