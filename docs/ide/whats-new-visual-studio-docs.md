@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 11/08/2022
+ms.date: 11/09/2022
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -29,12 +29,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [How to: Save and edit connection strings](../data-tools/how-to-save-and-edit-connection-strings.md) - update for Visual Studio 2022
 - [How to: Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md) - update for Visual Studio 2022
-
-### Debugger
-
-**New articles**
-
-- [Title not found in: #10524](../debugger/remote-debugging-aks-on-linux-with-ssh.md)
 
 ### Designers
 
