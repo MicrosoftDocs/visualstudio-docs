@@ -53,3 +53,5 @@ If you select a time range on a graph, the query table shows only queries that o
 ## See also
 
 - [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md)
+- [Identify hot paths with Flame Graph](../profiling/flame-graph.md)
+- [Use File IO](../profiling/use-file-io.md)

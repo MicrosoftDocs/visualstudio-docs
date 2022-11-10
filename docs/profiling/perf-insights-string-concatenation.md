@@ -28,3 +28,7 @@ The StringBuilder class is a mutable object, and, unlike System.String, most of 
 ## How to investigate a warning
 
 In the CPU Usage tool, click **View source code** to go to the [call tree](../profiling/cpu-usage.md#BKMK_Call_tree_structure) and source line highlighting view showing where the most amount of time is spent in string concatenations. If the problem is occurring in multiple locations within the application, navigate to the caller/callee view to see each call location.
+
+## See also
+- [Identify hot paths with Flame Graph](../profiling/flame-graph.md)
+- [Diagnose high latency with CPU Insights](../profiling/cpu-insights.md)
