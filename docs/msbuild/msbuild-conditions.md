@@ -71,7 +71,7 @@ MSBuild provides [property functions to compare versions](property-functions.md#
 
 ## Expansions in conditions
 
-Depending on the position in the project file, you can use expansions for properties ($), item lists (@), and item metadata (%).
+Depending on the position in the project file, you can use expansions for properties ($), item lists (@), and item metadata (%). The expansions depend on [how MSBuild processes project files](./build-process-overview.md).
 
 ### Properties
 
