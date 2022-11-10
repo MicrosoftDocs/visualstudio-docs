@@ -73,13 +73,13 @@ MSBuild provides [property functions to compare versions](property-functions.md#
 
 Depending on the position in the project file, you can use expansions for properties ($), item lists (@), and item metadata (%).
 
-### Property expansions in conditions
+### Properties
 
 A condition that contains an expression such as `$(SomeProperty)` is evaluated and converted to the property value during the evaluation of the project file. The value of the property is dependent on the position in the project file after expanding all imports.
 
 A property that is not defined at the point in the expanded project file where the condition expression occurs evaluates to an empty string, without any diagnostic error or warning.
 
-### Item list expansions in conditions
+### Item lists
 
 A condition that contains an @-expression such as `@(SomeItems)` is expanded in items, item groups, and in targets.
 
@@ -87,7 +87,7 @@ Items can depend on any property, and can depend on items that are already defin
 
 The reason is that MSBuild processes project files in several passes. The item evaluation pass occurs after the initial property evaluation and import expansion pass. Therefore, @-expressions are allowed in any condition that is evaluated after items have begun to be defined. That is, in items, item groups, and in targets.
 
-### Metadata expansions in conditions
+### Metadata
 
 A condition that contains a metadata expression such as `%(ItemMetadata)` is expanded in the same contexts as item lists, that is, in items, item groups, and in targets. However, expansion can have different behavior in an item group depending on whether the item group is outside of a target or inside of a target. The value of an %-expression in a target is evaluated at run-time and depends on any state changes during target execution. The execution of the target and the value of any %-expressions contained within it is also dependent on the batching of the target; see [MSBuild batching](msbuild-batching.md).
 
