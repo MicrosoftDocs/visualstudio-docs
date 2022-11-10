@@ -2,7 +2,7 @@
 title: MSBuild Command-Line Reference | Microsoft Docs
 description: Learn how to use MSBuild.exe command line to build a project or solution file, and several switches you can include.
 ms.custom: SEO-VS-2020
-ms.date: 07/08/2022
+ms.date: 11/10/2022
 ms.topic: reference
 dev_langs:
 - VB
@@ -61,7 +61,7 @@ MSBuild.exe [Switches] [ProjectFile]
 |-restoreProperty:`name=value`|-rp:`name=value`|Set or override these project-level properties only during restore and do not use properties specified with the -property argument. `name` is the property name, and `value` is the property value. Use a semicolon or a comma to separate multiple properties, or specify each property separately.|
 |-target:`targets`|-t:`targets`|Build the specified targets in the project. Specify each target separately, or use a semicolon or comma to separate multiple targets, as the following example shows:<br /><br /> `-target:PrepareResources;Compile`<br /><br /> If you specify any targets by using this switch, they are run instead of any targets in the `DefaultTargets` attribute in the project file. For more information, see [Target build order](../msbuild/target-build-order.md) and [How to: Specify which target to build first](../msbuild/how-to-specify-which-target-to-build-first.md).<br /><br /> A target is a group of tasks. For more information, see [Targets](../msbuild/msbuild-targets.md).|
 |-targets[:`file`]|-ts[:`file`]|Write the list of available targets to the specified file (or the output device, if no file is specified), without actually executing the build process.|
-|-toolsVersion:`version`|-tv:`version`|  This option is obsolete. See [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md).|
+|-toolsVersion:`version`|-tv:`version`|  Specifies a custom toolset. A toolset consists of tasks, targets, and tools that are used to build an application. See [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md) and [Standard and custom toolset configurations](./standard-and-custom-toolset-configurations.md).|
 |-validate:[`schema`]|-val[`schema`]|Validate the project file and, if validation succeeds, build the project.<br /><br /> If you don't specify `schema`, the project is validated against the default schema.<br /><br /> If you specify `schema`, the project is validated against the schema that you specify.<br /><br /> The following setting is an example: `-validate:MyExtendedBuildSchema.xsd`|
 |-verbosity:`level`|-v:`level`|Specifies the amount of information to display in the build log. Each logger displays events based on the verbosity level that you set for that logger.<br /><br /> You can specify the following verbosity levels: `q[uiet]`, `m[inimal]`, `n[ormal]` (default), `d[etailed]`, and `diag[nostic]`.<br /><br /> The following setting is an example: `-verbosity:quiet`
 |-version|-ver|Display version information only. The project isn't built.|
