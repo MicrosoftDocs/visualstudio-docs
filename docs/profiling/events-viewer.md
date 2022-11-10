@@ -79,3 +79,9 @@ The event viewer displays up to 20,000 events at a time. To focus on the events 
 The provider filter shows what percentage of the total number of events occurred for each provider. Hover over a single provider to see a similar tooltip with provider name, percentage of total events, and event count.
 
 ![The event viewer provider filter](../profiling/media/eventviewerproviderfilter.png "The event viewer provider filter")
+
+## See also
+- [Identify hot paths with Flame Graph](../profiling/flame-graph.md)
+- [Diagnose high latency with CPU Insights](../profiling/cpu-insights.md)
+- [Analyze CPU usage without debugging](../profiling/cpu-usage.md)
+- [Use File IO](../profiling/use-file-io.md)

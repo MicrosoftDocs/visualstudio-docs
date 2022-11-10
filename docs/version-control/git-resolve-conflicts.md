@@ -4,7 +4,7 @@ titleSuffix: ""
 description: Understanding, preventing, and resolving merge conflicts in Visual Studio.
 ms.date: 10/05/2022
 ms.topic: how-to
-author: Taysser-Gherfal
+author: houghj16
 ms.author: tglee
 ms.manager: jmartens
 ms.prod: visual-studio-windows

@@ -30,3 +30,5 @@ On the summary page under Top Functions, you can find the top functions called w
 
 ## See also
 - [Analyze CPU usage in the Performance Profiler](../profiling/cpu-usage.md)
+- [Identify hot paths with Flame Graph](../profiling/flame-graph.md)
+- [Troubleshoot Profiler errors](../profiling/troubleshoot-profiler-errors.md)
