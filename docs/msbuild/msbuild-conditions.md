@@ -81,7 +81,7 @@ A property that is not defined at the point in the expanded project file where t
 
 ### Item lists
 
-A condition that contains an @-expression such as `@(SomeItems)` is expanded in items, item groups, and in targets.
+A condition that contains an @-expression such as `@(SomeItems)` is expanded in  item groups and in targets.
 
 Items can depend on any property, and can depend on items that are already defined in sequence.
 
