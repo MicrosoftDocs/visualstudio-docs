@@ -4,7 +4,7 @@ titleSuffix: ""
 description: Learn how Visual Studio uses .gitconfig files and Git settings to manage your preferences
 ms.date: 05/19/2022
 ms.topic: conceptual
-author: Taysser-Gherfal
+author: houghj16
 ms.author: tglee
 ms.manager: jmartens
 ms.prod: visual-studio-windows

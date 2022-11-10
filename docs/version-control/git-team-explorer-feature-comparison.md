@@ -4,7 +4,7 @@ titleSuffix: ""
 description: Compare and contrast how to use the Git experience versus Team Explorer in Visual Studio to manage source control.
 ms.date: 11/08/2021
 ms.topic: how-to
-author: Taysser-Gherfal
+author: houghj16
 ms.author: tglee
 ms.manager: jmartens
 ms.prod: visual-studio-windows

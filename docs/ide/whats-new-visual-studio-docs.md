@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 10/05/2022
+ms.date: 11/09/2022
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -21,40 +21,112 @@ ms.workload:
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
 
-## Azure
+## October 2022
 
-### Updated articles
+### Data tools
+
+**Updated articles**
+
+- [How to: Save and edit connection strings](../data-tools/how-to-save-and-edit-connection-strings.md) - update for Visual Studio 2022
+- [How to: Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md) - update for Visual Studio 2022
+
+### Designers
+
+**Updated articles**
+
+- [Disable DPI-awareness to fix HDPI / scaling issues with Windows Forms Designer in Visual Studio](../designers/disable-dpi-awareness.md) - remove the Registry Entry section
+
+### Extensibility
+
+**Updated articles**
+
+- [Create an options page](../extensibility/creating-an-options-page.md) - Added step to open custom options page
+
+### IDE
+
+**Updated articles**
+
+- [Project migration and upgrade reference for Visual Studio](../porting/port-migrate-and-upgrade-visual-studio-projects.md) - refresh text & links
+- [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md) - refresh text, links, & screenshots
+
+### JavaScript
+
+**Updated articles**
+
+- [Tutorial: Create an ASP.NET Core app with Vue in Visual Studio](../javascript/tutorial-asp-net-core-with-vue.md) - Update publishing steps for article on ASP.NET Core and Vue.js
+
+### MSBuild
+
+**New articles**
+
+- [Find and use a version of MSBuild](../msbuild/find-and-use-msbuild-versions.md)
+- [MSBuild Server](../msbuild/msbuild-server.md)
+
+**Updated articles**
+
+- [MSBuild](../msbuild/msbuild.md) - Review and update text and screenshots
+- [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md) - Review and update text and screenshots
+- [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md) - Add undocumented MSBuild properties
+
+### Profiling
+
+**New articles**
+
+- [Identify hot paths with a visualized call tree](../profiling/flame-graph.md)
+
+### Test
+
+**Updated articles**
+
+- [Use the MSTest framework in unit tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) - Refresh and complete MSTest documentation
+- [How to: Create a data-driven unit test](../test/how-to-create-a-data-driven-unit-test.md) - Update doc for MSTest data-driven tests
+
+### Community contributors
+
+The following people contributed to Visual Studio content in October. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
+
+- [mikeirvingweb](https://github.com/mikeirvingweb) - Mike Irving (2)
+- [abhinav2605](https://github.com/abhinav2605) - abhinav kumar (1)
+- [RicardoJarree](https://github.com/RicardoJarree) - Richard Jarrett (1)
+- [SIGEER2222](https://github.com/SIGEER2222) - Sigeer (1)
+- [xtqqczze](https://github.com/xtqqczze) - xtqqczze (1)
+
+## September 2022
+
+### Azure
+
+**Updated articles**
 
 - [Add a connection to Azure SQL Database](../azure/azure-sql-database-add-connected-service.md) - Add content for Entity Framework migrations support in Visual Studio
 
-## Cross platform
+### Cross platform
 
-### Updated articles
+**Updated articles**
 
 - [Cross-platform mobile development in Visual Studio](../cross-platform/cross-platform-mobile-development-in-visual-studio.md) - Refresh text and screenshots
 
-## Debugger
+### Debugger
 
-### Updated articles
+**Updated articles**
 
 - [Debugging in Visual Studio](../debugger/index.yml) - Perform search engine optimization (SEO) work for debugger & code analysis documentation
 - [Debug .NET Apps in WSL with Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md) - Add attach-to-process content for article on debugging Linux using WSL
 - [Remote Debug ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) - Follow-up to Remote Debugging article updates
 - [Log info to the Output window using tracepoints in Visual Studio](../debugger/using-tracepoints.md) - Refresh text and screenshots
 
-## Deployment
+### Deployment
 
-### New articles
+**New articles**
 
 - [ClickOnce for .NET on Windows](../deployment/clickonce-deployment-dotnet.md)
 
-## Extensibility
+### Extensibility
 
-### New articles
+**New articles**
 
 - [Target Visual Studio 2022 (ARM64) when creating an extension in Visual Studio 2022](../extensibility/arm64/target-arm64-visual-studio-extension.md)
 
-### Updated articles
+**Updated articles**
 
 - Refresh text, links, and screenshots for the following:
 
@@ -62,62 +134,51 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
   - [Solution (.sln) file](../extensibility/internals/solution-dot-sln-file.md)
   - [Start developing extensions in Visual Studio](../extensibility/starting-to-develop-visual-studio-extensions.md)
 
-## IDE
+### IDE
 
-### New articles
+**New articles**
 
 - [Paste JSON or XML as classes](../ide/reference/paste-json-xml.md)
 
-### Updated articles
+**Updated articles**
 
 - [How to: Add or remove references by using the Reference Manager](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md) - Add screenshots & new Remove References section
 - [How to: Sign application and deployment manifests](../ide/how-to-sign-application-and-deployment-manifests.md) Update & add link for.NET 5+ steps
 - [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md) - Add troubleshooting section
 - [Create portable, custom editor settings with EditorConfig](../ide/create-portable-custom-editor-options.md) - Refresh text, links, and screenshots
 
-## JavaScript
+### JavaScript
 
-### New articles
+**New articles**
 
 - [Linting JavaScript in Visual Studio](../javascript/linting-javascript.md)
 
-## MSBuild
+### MSBuild
 
-### Updated articles
+**Updated articles**
 
 - [Change waves](../msbuild/change-waves.md) - Update with latest change wave info
 - [How to: Use MSBuild project SDKs](../msbuild/how-to-use-project-sdk.md) - Update SDK reference refactoring
 - [Walkthrough: Create an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md) Update articles for Visual Studio 2022
 - [Customize your build](../msbuild/customize-your-build.md) - Add section for handling generated files
 
-## Profiling
+### Profiling
 
-### New articles
+**New articles**
 
 - [Excessive induced GCs](../profiling/perf-insights-excessive-induced-gcs.md)
 - [High LOH Fragmentation](../profiling/perf-insights-high-loh-fragmentation.md)
 - [Diagnose high latency with CPU Insights](../profiling/cpu-insights.md)
 
-### Updated articles
+**Updated articles**
 
 - [Understand profiler performance collection methods](../profiling/understanding-performance-collection-methods-perf-profiler.md) - Enhance intro information for profiling tools
 
-## Test
+### Test
 
-### Updated articles
+**Updated articles**
 
 - [Configure unit tests by using a *.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) - Update blame data collection info
-
-## Community contributors
-
-The following people contributed to Visual Studio content during this period. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
-
-- [BeardInASuit](https://github.com/BeardInASuit) - BeardinaSuit (1)
-- [Chiramisu](https://github.com/Chiramisu) - Matthew (1)
-- [GitHubPang](https://github.com/GitHubPang) (1)
-- [hyoshioka0128](https://github.com/hyoshioka0128) - Hiroshi Yoshioka (1)
-- [jkbsrg](https://github.com/jkbsrg) (1)
-- [rbrightwell](https://github.com/rbrightwell) (1)
 
 ## August 2022
 
@@ -240,64 +301,3 @@ The following people contributed to Visual Studio content during this period. Th
 **New articles**
 
 - [Stage lines of code in Visual Studio](../version-control/git-line-staging.md)
-
-## July 2022
-
-### Azure
-
-**Updated articles**
-
-- [Overview: Connected Services](../azure/overview-connected-services.md) - Data Access in Visual Studio: Add connected services to applications
-- [Debugging an Azure cloud service or virtual machine in Visual Studio](../azure/vs-azure-tools-debug-cloud-services-virtual-machines.md) - Update remote debugging steps for cloud services (extended support)
-
-### Code quality
-
-**Updated articles**
-
-- [Overview](../code-quality/use-roslyn-analyzers.md) - Add more descriptions for light bulb severity options
-
-### Data tools
-
-**Updated articles**
-
-- [Work with data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md) - Data Access in Visual Studio: add Connected Services
-
-### Debugger
-
-**Updated articles**
-
-- [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) - Correct remote debugger ports for Azure App Service
-- [Inspect variables in the Autos and Locals windows](../debugger/autos-and-locals-windows.md) - Update for Visual Studio 2022
-
-### IDE
-
-**Updated articles**
-
-- [How to: Configure projects to target platforms](./how-to-configure-projects-to-target-platforms.md) - Add ARM64 targeting
-- [Options dialog box: Text Editor \> General](./reference/options-text-editor-general.md) - Update with new Visual Studio 2022 information
-- [Collect an ETL trace with PerfView and create minidumps with all call stacks](./report-a-problem-perfview-minidumps.md) - Update steps for creating a minidump
-
-### Install
-
-**Updated articles**
-
-- [Visual Studio images on Azure](../install/using-visual-studio-vm.md) - Updates for Visual Studio 2022
-
-### Modeling
-
-**Updated articles**
-
-- [Generate files with the TextTransform utility](../modeling/generating-files-with-the-texttransform-utility.md) - Update paths for Visual Studio 2022
-
-### MSBuild
-
-**New articles**
-
-- [MSBuild and Visual Studio format for diagnostic message](../msbuild/msbuild-diagnostic-format-for-tasks.md)
-
-**Updated articles**
-
-- [MSBuild targets](../msbuild/msbuild-targets.md) - Discuss AfterBuild and SDK-style projects
-- [Delete task](../msbuild/delete-task.md) - Add example of deleting files in an ItemGroup
-- [How to: Configure targets and tasks](../msbuild/how-to-configure-targets-and-tasks.md) - Add section on overriding usingtasks
-- [Troubleshoot .NET Framework targeting errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md) - Update .NET targeting to latest .NET terminology
