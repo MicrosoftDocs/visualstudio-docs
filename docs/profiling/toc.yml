@@ -73,6 +73,8 @@
   - name: Instrumentation
     items:
     - name: Instrumentation
+      href: instrumentation-overview.md
+    - name: Analyze instrumentation data
       href: instrumentation.md
   - name: Measure performance from the command-line
     items:

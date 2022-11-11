@@ -1,7 +1,7 @@
 ---
 title: VSPerfCmd | Microsoft Docs
 description: Learn how the VSPerfCmd.exe tool is used to start and stop performance data collection. Also learn about various VSPerfCmd tool options.
-ms.date: 11/01/2022
+ms.date: 11/11/2022
 ms.topic: reference
 helpviewer_keywords: 
   - performance tools, VSPerfCmd tool
@@ -51,46 +51,6 @@ VSPerfCmd [/U] [/options]
 |[ThreadOn and ThreadOff](/previous-versions/visualstudio/visual-studio-2017/profiling/threadon-and-threadoff.md) **:** *tid*|Resumes profiling for the specified process after profiling was paused by a call to **VSPerfCmdThreadOff**. Use **ThreadOn** only when profiling with the instrumentation method.|
 |[ThreadOn and ThreadOff](/previous-versions/visualstudio/visual-studio-2017/profiling/threadon-and-threadoff.md) **:** *tid*|Pauses profiling for the specified thread. Use **ThreadOff** only when profiling with the instrumentation method.|
 |[Mark](/previous-versions/visualstudio/visual-studio-2017/profiling/mark.md) **:** _MarkNum_[**,**_MarkText_**]**|Inserts a mark into the profiling data file, with optional text.|
-
-## Sample method options
-
- The following options are only available when you are using the sampling profiling method.
-
-|Option|Description|
-|------------|-----------------|
-|[Launch](/previous-versions/visualstudio/visual-studio-2017/profiling/launch.md) **:** *Executable*|Starts the specified application and begins profiling.|
-|[Args](/previous-versions/visualstudio/visual-studio-2017/profiling/args.md) **:** *Arguments*|Specifies command line arguments to pass to the launched application.|
-|[Console](/previous-versions/visualstudio/visual-studio-2017/profiling/console.md)|Starts the specified command in a new command prompt window.|
-|[Attach](/previous-versions/visualstudio/visual-studio-2017/profiling/attach.md) **:** *PID*[**,**_PID_]|Begins profiling the specified processes. Processes can be identified by the process ID or by the process name.|
-|[Detach](/previous-versions/visualstudio/visual-studio-2017/profiling/detach.md)[**:**_PID_[,_PID_]]|Stops profiling the specified processes. Processes can be identified by the process ID or by the process name. If no process is specified, profiling is halted for all processes.|
-|[GC](/previous-versions/visualstudio/visual-studio-2017/profiling/gc-vsperfcmd.md)[**:**{**Allocation**`&#124;`**Lifetime**}]|Collects .NET memory allocation and object lifetime data. Use only with the **VSPerfCmdLaunch** option.|
-
-### Sample interval options
-
- The following options specify the type and duration of sampling intervals. The default is **Timer**. You can also specify a CPU counter as the interval by using the **Counter** option. These options can only be specified with **Launch** or with the first **Attach** of a profiling session.
-
-|Option|Description|
-|------------|-----------------|
-|[PF](/previous-versions/visualstudio/visual-studio-2017/profiling/pf.md)[**:**_n_]|Samples on every n-th page fault (default=10).|
-|[Sys](/previous-versions/visualstudio/visual-studio-2017/profiling/sys-vsperfcmd.md)[**:**_n_]|Samples on every n-th system call (default=10).|
-|[Timer](/previous-versions/visualstudio/visual-studio-2017/profiling/timer.md)[**:**_n_]|Samples on every n-th processor cycle (default=10000000).|
-
-## Service component and kernel mode device options
-
- The following Admin options support profiling service components or kernel mode device drivers. The Admin options set profiling permissions and control the profiled service or device driver.
-
- Admin options must be executed at a command prompt that is running with administrative credentials.
-
-|Option|Description|
-|------------|-----------------|
-|**Admin:Security**, \<**ALLOW&#124;DENY**>, *Right*[ *Right*], \<*User*&#124;*Group*>|Allows or denies the specified user or group access to profiling services.<br /><br /> `Right` can be:<br /><br /> CrossSession - gives the user access to the service to do cross session profiling.<br /><br /> SampleProfiling - gives the user access to the driver to enable sampling profiling. Also used to access kernel transition information during trace profiling.<br /><br /> FullAccess - gives the user both CrossSession and SampleProfiling access.|
-|**Admin:Security, List**|Lists the current state of profiling services and lists user permissions.|
-|**Admin:** \<*Service*&#124;*Driver*>\<**START**&#124;**STOP**&#124;**INSTALL**&#124;**UNINSTALL**>|Starts, stops, installs, or uninstalls the profiling service component (service) or kernel mode device driver (driver).|
-|**Admin:** \<*Service*&#124;*Driver*>**AutoStart**\<**ON**&#124;**OFF**>|Enables or disables automatically starting the profiling service (service) or kernel mode device driver (driver) after a restart.|
-
-## VSPerfCmd /Driver
-
- The **VSPerfCmd /Driver** option is obsolete. Use the **VsPerfCmd Admin** options for this functionality.
 
 ## See also
 

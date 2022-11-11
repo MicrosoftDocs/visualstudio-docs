@@ -1,7 +1,7 @@
 ---
 title: VSInstr | Microsoft Docs
 description: Learn how the VSInstr tool is used to instrument binaries and about other various VSInstr tool options.
-ms.date: 11/01/2022
+ms.date: 11/11/2022
 ms.topic: reference
 helpviewer_keywords: 
   - performance tools, instrumentation
