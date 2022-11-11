@@ -50,8 +50,6 @@ You can also generate logs by running MSBuild directly from the command line, us
 
 3. In the **MSBuild project build output verbosity** list, choose one of the values, and then choose the **OK** button.
 
-## Verbosity settings
-
 The following table shows how the log verbosity (column values) affects which types of message (row values) are logged.
 
 | Message type / Verbosity              | Quiet | Minimal | Normal | Detailed | Diagnostic |
