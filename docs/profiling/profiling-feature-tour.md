@@ -29,7 +29,7 @@ To see profiling tool support for different app types, see [Which tool should I 
 
 If you’re a developer who’s been on-call for your team’s codebase or you’ve written a web app, then you may have asked yourself why your app is receiving slow response times? Often, the issues are in production, and it is challenging to investigate at that moment, but profiling tools can help you capture enough information and evidence of the issue.
 
-There are several ways to diagnose performance issues when you’re working with APIs but using a profiler can help you quickly identify and rule out possible causes so that you have a clear path in resolving your issue.
+There are several ways to diagnose performance issues when you’re working with APIs, but using a profiler can help you quickly identify and rule out possible causes so that you have a clear path in resolving your issue.
 
 In software engineering, a profiler is a tool used to help you analyze the performance of your applications to improve poorly performing code. Profiling and diagnostics tools help you diagnose memory and CPU usage and other application-level issues. With these tools, you can collect performance data while you run your application.
 
