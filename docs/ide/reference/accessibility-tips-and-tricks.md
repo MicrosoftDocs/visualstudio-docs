@@ -1,7 +1,7 @@
 ---
 title: "Accessibility tips and tricks for Visual Studio"
 description: "Learn more about tips and tricks that can help make the Visual Studio integrated development environment (IDE) more accessible for everyone to use, including people with disabilities."
-ms.date: 07/01/2022
+ms.date: 11/11/2022
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
@@ -90,17 +90,23 @@ When a notification appears in the IDE, here's how you can access the Notificati
 
 1. Use either the **Tab** key or the arrow keys to select a notification.
 
-## Use the Sound dialog box to set build and breakpoint cues
+## Assign audio cues to Visual Studio program events
 
-You can use the Sound dialog box in Windows to assign a sound to Visual Studio program events. Specifically, you can assign sounds to the following program events:
+::: moniker range="vs-2022"
+
+Starting with [version 17.3](/visualstudio/releases/2022/release-notes-v17.3) and continuing in [version 17.4](/visualstudio/releases/2022/release-notes-v17.4) and later, you can add audio cues for program events directly within Visual Studio. Specifically, you can toggle a setting so that Visual Studio plays an audio cue when the caret in the editor arrives on a line with an error, breakpoint, or warning. When you view a file in the Diff view, Visual Studio also plays a cue when the caret arrives on a line that's been added or removed. To add the audio cue functionality, go to **Tools** > **Options** > **Text Editor** > **General** and select the **Enable audio cues** setting.
+
+> [!TIP]
+> To learn more about the journey to add audio cues within Visual Studio, see the [**Listen Up, Visual Studio has a new feature you need to hear about!**](https://devblogs.microsoft.com/visualstudio/audio-cues-in-visual-studio-2022-17-3-preview-2/) blog post.
+
+::: moniker-end
+
+In Visual Studio 2022 version 17.2 and earlier, you can use the Sound Control Panel in Windows to assign a sound to Visual Studio program events. Specifically, you can assign sounds to the following program events:
 
 * Breakpoint hit
 * Build canceled
 * Build failed
 * Build succeeded
-
-> [!TIP]
-> To learn more about new audio cues available in [Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/), see the [**Listen Up, Visual Studio has a new feature you need to hear about!**](https://devblogs.microsoft.com/visualstudio/audio-cues-in-visual-studio-2022-17-3-preview-2/) blog post.
 
 Here's how to add sounds to program events by using either Windows 11 or Windows 10.
 
