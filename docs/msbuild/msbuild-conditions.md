@@ -2,13 +2,12 @@
 title: MSBuild Conditions | Microsoft Docs
 description: Learn how MSBuild supports a specific set of conditions that can be applied wherever a Condition attribute is allowed.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 11/10/2022
 ms.topic: reference
 dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, conditions
 - conditions [MSBuild]
@@ -69,6 +68,30 @@ The relational operators `<`, `>`, `<=`, and `>=` support versions as parsed by 
 > `System.Version` comparisons can produce surprising results when one or both versions do not specify all four parts. For instance, version 1.1 is older than version 1.1.0.
 
 MSBuild provides [property functions to compare versions](property-functions.md#msbuild-version-comparison-functions) that have a different set of rules compatible with semantic versioning (semver).
+
+## Expansions in conditions
+
+Depending on the position in the project file, you can use expansions for properties ($), item lists (@), and item metadata (%). The expansions depend on [how MSBuild processes project files](./build-process-overview.md).
+
+### Properties
+
+A condition that contains an expression such as `$(SomeProperty)` is evaluated and converted to the property value. If the condition is outside of a target, the expression is evaluated during the evaluation of the project file. The value of the property is dependent on the position in the project file after expanding all imports. If the condition is in a target, then it's evaluated when the target executes, and the value is affected by any changes that occur during execution of the build. 
+
+A property that is not defined at the point in the expanded project file where the condition expression occurs evaluates to an empty string, without any diagnostic error or warning.
+
+### Item lists
+
+A condition that contains an @-expression such as `@(SomeItems)` is expanded in item groups at the top level and in targets.
+
+Items can depend on any property, and can depend on items that are already defined in sequence.
+
+The reason is that MSBuild processes project files in several passes. The item evaluation pass occurs after the initial property evaluation and import expansion pass. Therefore, @-expressions are allowed in any condition that is evaluated after items have begun to be defined. That is, in items, item groups, and in targets.
+
+### Metadata
+
+A condition that contains a metadata expression such as `%(ItemMetadata)` is expanded in the same contexts as item lists, that is, in item groups at the top level and in targets. However, expansion can have different behavior in an item group depending on whether the item group is outside of a target or inside of a target. Also, of the various forms of metadata expressions, `%(ItemName.MetadataName)`, `%(JustTheMetadataName)`, and `@(ItemName->'%(MetadataName)')`, only the item transform (the last one) is allowed outside of a target. The value of an %-expression in a target is evaluated at run-time and depends on any state changes during target execution. The execution of the target and the value of any %-expressions contained within it is also dependent on the batching of the target and can also trigger batching; see [MSBuild batching](msbuild-batching.md).
+
+ 
 
 ## See also
 
