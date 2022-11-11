@@ -27,7 +27,7 @@ To see profiling tool support for different app types, see [Which tool should I 
 
 ## Use a profiler to improve performance
 
-If you’re a developer who’s been on-call for your team’s codebase or you’ve written a web app, then you may have asked yourself why is my app receiving slow response times? Often, the issues are in production, and it is challenging to investigate at that moment, but profiling tools can help you capture enough information and evidence of the issue.
+If you’re a developer who’s been on-call for your team’s codebase or you’ve written a web app, then you may have asked yourself why your app is receiving slow response times? Often, the issues are in production, and it is challenging to investigate at that moment, but profiling tools can help you capture enough information and evidence of the issue.
 
 There are several ways to diagnose performance issues when you’re working with APIs but using a profiler can help you quickly identify and rule out possible causes so that you have a clear path in resolving your issue.
 
