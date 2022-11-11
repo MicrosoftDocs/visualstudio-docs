@@ -70,6 +70,10 @@
       href: memory-usage-without-debugging2.md
     - name: Custom native ETW heap events
       href: custom-native-etw-heap-events.md
+  - name: Instrumentation
+    items:
+    - name: Instrumentation
+      href: instrumentation.md
   - name: Measure performance from the command-line
     items:
     - name: Measure performance from the command-line
