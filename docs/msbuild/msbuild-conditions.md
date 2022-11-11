@@ -81,7 +81,7 @@ A property that is not defined at the point in the expanded project file where t
 
 ### Item lists
 
-A condition that contains an @-expression such as `@(SomeItems)` is expanded in item groups at the top level, and in targets.
+A condition that contains an @-expression such as `@(SomeItems)` is expanded in item groups at the top level and in targets.
 
 Items can depend on any property, and can depend on items that are already defined in sequence.
 
@@ -89,7 +89,7 @@ The reason is that MSBuild processes project files in several passes. The item e
 
 ### Metadata
 
-A condition that contains a metadata expression such as `%(ItemMetadata)` is expanded in the same contexts as item lists, that is, in item groups at the top level, and in targets. However, expansion can have different behavior in an item group depending on whether the item group is outside of a target or inside of a target. Also, of the various forms of metadata expressions, `%(ItemName.MetadataName)`, `%(JustTheMetadataName)`, and `@(ItemName->'%(MetadataName)')`,only the item transform (the last one) works outside of a target. The first two give the The reference to the built-in metadata "FileName" at position 1 is not allowed in this condition "'%(FileName)' == 'MySpecialFileName'". The value of an %-expression in a target is evaluated at run-time and depends on any state changes during target execution. The execution of the target and the value of any %-expressions contained within it is also dependent on the batching of the target and can also trigger batching; see [MSBuild batching](msbuild-batching.md).
+A condition that contains a metadata expression such as `%(ItemMetadata)` is expanded in the same contexts as item lists, that is, in item groups at the top level and in targets. However, expansion can have different behavior in an item group depending on whether the item group is outside of a target or inside of a target. Also, of the various forms of metadata expressions, `%(ItemName.MetadataName)`, `%(JustTheMetadataName)`, and `@(ItemName->'%(MetadataName)')`, only the item transform (the last one) is allowed outside of a target. The value of an %-expression in a target is evaluated at run-time and depends on any state changes during target execution. The execution of the target and the value of any %-expressions contained within it is also dependent on the batching of the target and can also trigger batching; see [MSBuild batching](msbuild-batching.md).
 
  
 
