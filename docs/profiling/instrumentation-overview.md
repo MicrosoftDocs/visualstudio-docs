@@ -40,7 +40,7 @@ The value of sampling is that it has less overheard and for this reasons is more
 
 ::: moniker range=">=vs-2022"
 
-- **.NET Instrumentation** Starting in Visual Studio 2022 version 17.4, the .NET Instrumentation tool provides dynamic instrumentation for .NET Core, .NET 5+, and .NET Framework (not C/C++). This tool provides the best performance for instrumentation scenarios. Access this tool using the Performance Profiler (Alt + F2). For more information, see [Instrument your application](../profiling/instrumentation.md). For DLLs, you need to use the command-line tool (VSInstr) instead.
+- **.NET Instrumentation** Starting in Visual Studio 2022 version 17.5 Preview 1, the .NET Instrumentation tool provides dynamic instrumentation for .NET Core, .NET 5+, and .NET Framework (not C/C++). This tool provides the best performance for instrumentation scenarios. Access this tool using the Performance Profiler (Alt + F2). For more information, see [Instrument your application](../profiling/instrumentation.md). For DLLs, you need to use the command-line tool (VSInstr) instead.
 ::: moniker-end
 
 - **Instrumentation** Starting in Visual Studio 2019 version 16.9, the Instrumentation tool provides dynamic instrumentation for .NET Core, .NET 5+, and .NET Framework (not C/C++). This tool uses a version of VSInstr.exe that supports dynamic instrumentation. Access this tool using the Performance Profiler (Alt + F2). For DLLs, you need to use the command-line tool (VSInstr) instead.
