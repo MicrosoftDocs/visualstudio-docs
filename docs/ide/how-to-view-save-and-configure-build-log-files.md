@@ -48,20 +48,27 @@ You can also generate logs by running MSBuild directly from the command line, us
 
 2. On the **Projects and Solutions** page, choose the **Build and Run** page.
 
-3. In the **MSBuild project build output verbosity** list, choose one of the following values, and then choose the **OK** button.
+3. In the **MSBuild project build output verbosity** list, choose one of the values, and then choose the **OK** button.
 
-    |Verbosity level|Description|
-    | - |-----------------|
-    |**Quiet**|Displays a summary of the build only.|
-    |**Minimal**|Displays a summary of the build and errors, warnings, and messages that are categorized as highly important.|
-    |**Normal**|Displays a summary of the build; errors, warnings, and messages that are categorized as highly important; and the main steps of the build. You'll use this level of detail most frequently.|
-    |**Detailed**|Displays a summary of the build; errors, warnings, and messages that are categorized as highly important; all of the steps of the build, including the exact command lines used for the compiler and other tools; and messages that are categorized as of normal importance.|
-    |**Diagnostic**|Displays all data that's available for the build. You can use this level of detail to help debug issues with custom build scripts and other build issues.|
+## Verbosity settings
 
-     For more information, see [Options dialog box,  Projects and Solutions, Build and Run](../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md) and <xref:Microsoft.Build.Framework.LoggerVerbosity>.
+The following table shows how the log verbosity (column values) affects which types of message (row values) are logged.
 
-    > [!IMPORTANT]
-    > You must rebuild the project for your changes to take effect in the **Output** window (all projects) and the *\<ProjectName>.txt* file (C++ projects only).
+| Message type / Verbosity              | Quiet | Minimal | Normal | Detailed | Diagnostic |
+|---------------------------------------|:-----:|:-------:|:------:|:--------:|:----------:|
+| Errors                                |   ✅   |    ✅    |    ✅   |     ✅    |      ✅     |
+| Warnings                              |   ✅   |    ✅    |    ✅   |     ✅    |      ✅     |
+| High-importance Messages              |       |    ✅    |    ✅   |     ✅    |      ✅     |
+| Normal-importance  Messages           |       |         |    ✅   |     ✅    |      ✅     |
+| Low-importance  Messages              |       |         |        |     ✅    |      ✅     |
+| Additional MSBuild-engine information |       |         |        |          |      ✅     |
+
+If you want to see the command lines used for the compiler and other tools, choose at least the **Detailed** verbosity level.
+
+For more information, see [Options dialog box,  Projects and Solutions, Build and Run](../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md) and <xref:Microsoft.Build.Framework.LoggerVerbosity>.
+
+> [!IMPORTANT]
+> You must rebuild the project for your changes to take effect in the **Output** window (all projects) and the *\<ProjectName>.txt* file (C++ projects only).
 
 ## Use binary logs to make it easier to browse large log files
 
@@ -75,3 +82,4 @@ Binary logs are an optional feature for .NET projects that lets you have a riche
 
 - [Build and clean projects and solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)
 - [Compile and build](../ide/compiling-and-building-in-visual-studio.md)
+- [Obtaining build logs with MSBuild](../msbuild/obtaining-build-logs-with-msbuild.md)
