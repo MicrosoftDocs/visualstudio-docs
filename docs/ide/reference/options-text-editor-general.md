@@ -2,7 +2,7 @@
 title: Options, Text Editor, General
 description: Learn how to use the General page to change global settings for the Visual Studio code and text editor.
 ms.custom: SEO-VS-2020
-ms.date: 07/26/2022
+ms.date: 11/10/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor
@@ -67,7 +67,11 @@ When selected, this setting enables you to move text by selecting and then dragg
 
 ### Select subword on double click
 
-When you toggle this setting, a double-click selects only a subword instead of a whole word. (This can be helpful when you're using medial capitals, as an example.)
+When you select this setting, a double-click selects only a subword instead of a whole word. (This can be helpful when you're using medial capitals, as an example.)
+
+### Cut or Copy the current line without selection
+
+When you select this setting, you can cut or copy the current line where your cursor is positioned without having to first select the text or code on that line.
 
 ::: moniker-end
 
@@ -89,6 +93,17 @@ When selected, the project's specified [coding conventions](../create-portable-c
 
 > [!TIP]
 > To learn more about coding conventions and how they are applied, see the [Create portable, custom editor settings with EditorConfig](../create-portable-custom-editor-options.md) page.
+
+::: moniker range="vs-2022"
+
+### Enable audio cues
+
+When selected, Visual Studio plays an audio cue when the caret in the editor arrives on a line with an error, breakpoint, or warning. When you view a file in the Diff view, Visual Studio also plays a cue when the caret arrives on a line that's been added or removed.
+
+> [!NOTE]
+> You can also individually enable or modify these audio cues by using the Sound Control Panel in Windows.
+
+::: moniker-end
 
 ### Enable mouse click to perform Go to Definition
 
@@ -200,6 +215,14 @@ When selected, vertical lines appear in the editor that line up with structured 
 ### Show error squiggles
 
 When selected, different-colored wavy underlines, known as squiggles, appear in your code. (Red squiggles denote syntax errors, blue denotes compiler errors, green denotes warnings, and purple denotes other types of errors.)
+
+::: moniker range="vs-2022"
+
+### Show selection matches
+
+When selected, Visual Studio automatically highlights matching strings after you select text in the editor. Specifically, anytime a single line of text of 100 characters or less is selected, any matches will immediately be highlighted.
+
+::: moniker-end
 
 ### Show file health indicator
 
