@@ -2,7 +2,7 @@
 title: Find MSBuild and use its API | Microsoft Docs
 description: Learn how to ensure that programmatic builds from your application match builds done within Visual Studio or MSBuild.exe, and learn how to locate and use a consistent version on MSBuild when developing a programmatic build application on different machines.
 ms.custom: SEO-VS-2020
-ms.date: 10/25/2022
+ms.date: 11/11/2022
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Find and use a version of MSBuild
 
-To ensure that programmatic builds from your application match builds done within Visual Studio or *MSBuild.exe*, you might need to load the same version of the MSBuild assemblies that were installed with a specific version of Visual Studio and use the same SDKs that are available within that version of Visual Studio. Or, when you're creating a build application that will be run on machines that might have various installed versions of MSBuild, .NET, and Visual Studio, you might also want to find and use a consistent version of MSBuild. The Microsoft.Build.Locator NuGet package streamlines this process.
+To ensure that programmatic builds from your application match builds done within Visual Studio or *MSBuild.exe*, you might need to load the same version of the MSBuild assemblies that were installed with a specific version of Visual Studio and use the same SDKs that are available within that version of Visual Studio. Or, when you're creating a build application that will be run on machines that might have various installed versions of MSBuild, .NET, and Visual Studio, you might also want to find and use a consistent version of MSBuild. The [Microsoft.Build.Locator](/dotnet/api/microsoft.build.locator) API streamlines this process.
 
 ## Use Microsoft.Build.Locator
 
