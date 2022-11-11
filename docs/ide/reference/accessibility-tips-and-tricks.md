@@ -94,7 +94,9 @@ When a notification appears in the IDE, here's how you can access the Notificati
 
 ::: moniker range="vs-2022"
 
-Starting with [version 17.3](/visualstudio/releases/2022/release-notes-v17.3) and continuing in [version 17.4](/visualstudio/releases/2022/release-notes-v17.4) & later, you can add audio cues for program events directly within Visual Studio. Specifically, you can toggle a setting so that Visual Studio plays an audio cue when the caret in the editor arrives on a line with an error, breakpoint, or warning. When you view a file in the Diff view, Visual Studio can also play an audio cue when the caret arrives on a line that's been added or removed. To add the audio cue functionality, go to **Tools** > **Options** > **Text Editor** > **General** and select the **Enable audio cues** setting.
+Starting with [version 17.3](/visualstudio/releases/2022/release-notes-v17.3) and continuing in [version 17.4](/visualstudio/releases/2022/release-notes-v17.4) & later, you can add audio cues for program events directly within Visual Studio. Specifically, you can toggle a setting so that Visual Studio plays an audio cue when the caret in the editor arrives on a line with an error, breakpoint, or warning. When you view a file in the Diff view, Visual Studio can also play an audio cue when the caret arrives on a line that's been added or removed.
+
+To add the audio cue functionality, go to **Tools** > **Options** > **Text Editor** > **General** and select the **Enable audio cues** setting.
 
 > [!TIP]
 > To learn more about the journey to add audio cues within Visual Studio, see the [**Listen Up, Visual Studio has a new feature you need to hear about!**](https://devblogs.microsoft.com/visualstudio/audio-cues-in-visual-studio-2022-17-3-preview-2/) blog post.
