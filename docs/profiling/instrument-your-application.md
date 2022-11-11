@@ -16,7 +16,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-With the release of Visual Studio 2022 version 17.4, you can use the new dynamic instrumentation tool. This tool shows the exact number of times your functions are called and is faster than the previous version of the tool. This tool supports .NET Core instrumentation without needing PDBs.
+With the release of Visual Studio 2022 version 17.5 Preview 1, you can use the new dynamic instrumentation tool. This tool shows the exact number of times your functions are called and is faster than the previous version of the instrumentation tool. This tool supports .NET Core instrumentation without needing PDBs.
 
 You can access the instrumentation tool by launching the Performance Profiler for a .NET Project in Visual Studio (**Debug > Performance Profiler** or **Alt + F2**). Once you are on the summary page, select the **.NET Instrumentation** checkbox.
 
@@ -48,6 +48,12 @@ You can access the instrumentation tool by launching the Performance Profiler fo
 Your profiling data appears in Visual Studio.
 
 ![Screenshot showing .NET Instrumentation data.](./media/vs-2022/instrumentation-data.png "Instrumentation data")
+
+The Instrumentation data view shows you a list of functions ordered by longest running, with the longest running function at the top under **Top Functions**. The **Hot Path** section shows you the call stack for the functions that are using the most CPU. These lists can help guide you to functions where performance bottlenecks are happening.
+
+Double-click on a function that you are interested in, and you will see a more detailed view.
+
+The information available for the Instrumentation tool is the same as CPU Usage, except it's based on instrumented data instead of sampled data. For detailed information on the views, see [CPU Usage](../profiling.cpu-usage.md).
 
 ## See Also
 
