@@ -53,7 +53,7 @@ The Instrumentation data view shows you a list of functions ordered by longest r
 
 Double-click on a function that you are interested in, and you will see a more detailed view.
 
-The information available for the Instrumentation tool is the same as CPU Usage, except it's based on instrumented data instead of sampled data. For detailed information on the views, see [CPU Usage](../profiling.cpu-usage.md).
+The information available for the Instrumentation tool is the same as CPU Usage, except it's based on instrumented data instead of sampled data. For detailed information on the views, see [CPU Usage](../profiling/cpu-usage.md).
 
 ## See Also
 
