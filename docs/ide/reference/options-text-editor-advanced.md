@@ -1,7 +1,7 @@
 ---
 title: Options, Text Editor, Advanced
 description: Learn how to use the Advanced dialog box to change global settings for the Visual Studio text editor.
-ms.date: 09/28/2022
+ms.date: 11/10/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Advanced
@@ -102,7 +102,7 @@ Based on your most recently updated file, Visual Studio recognizes whether you p
 
 ## Fallback support for C#, C++, Java, and TypeScript GoTo symbol navigation
 
-Select this option to disable TextMate fallback support for symbol search, which can help improve system performance.
+Select this option to disable TextMate fallback support for symbol search, which can help improve system performance. (Available in Visual Studio 2022 version 17.0 through 17.3 only.)
 
 ::: moniker-end
 
