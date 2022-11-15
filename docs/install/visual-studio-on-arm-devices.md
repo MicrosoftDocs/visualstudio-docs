@@ -27,7 +27,7 @@ See [Visual Studio 2019 System Requirements](/visualstudio/releases/2019/system-
 
 ::: moniker range="vs-2022"
 
-[Visual Studio 2022 17.4 GA is now available as a native Arm64 application](https://devblogs.microsoft.com/visualstudio/arm64-visual-studio-is-officially-here/) on Windows 11 Arm 64. This will be the first version of Visual Studio that will natively support building and debugging Arm64 apps on Arm-based processors. This latest version of Visual Studio eliminates the dependence on x64 emulation for most developer workloads. 
+[Visual Studio 2022 17.4 GA is now available as a native Arm64 application](https://devblogs.microsoft.com/visualstudio/arm64-visual-studio-is-officially-here/) on Windows 11 Arm64. This will be the first version of Visual Studio that will natively support building and debugging Arm64 apps on Arm-based processors. This latest version of Visual Studio eliminates the dependence on x64 emulation [for most developer workloads](../install/visual-studio-on-arm-devices#supported-workloads#supported-workloads). 
 
 ## Get started with Arm64 Visual Studio
 
@@ -42,7 +42,7 @@ To get started with the native Arm64 Visual Studio experience you'll need the fo
 There is a single installer for both x64 and Arm64 Visual Studio. The installer detects the system architecture and then downloads and installs the Arm64 version of Visual Studio on your Arm64 device (support is for Windows 11). 
 
 > [!NOTE]
-> For Windows 11 Arm64, you must uninstall all previous versions of Visual Studio (x64,x86) before installing Visual Studio 2022 17.4 GA (or later).
+> For Windows 11 Arm64, you must uninstall all previous versions of Visual Studio (x64, x86) before installing Visual Studio 2022 17.4 GA (or later).
 
 ## Supported workloads
 
@@ -50,7 +50,7 @@ The first preview for Arm64 supports the following workloads:
 
 1. .NET desktop development
 1. Desktop development with C++
-1. NET and web development
+1. ASP.NET and web development
 1. Universal Windows Platform development
 1. Visual Studio extension development
 1. Game development with C++
