@@ -84,7 +84,7 @@ For example, the following directory has user project templates for C#:
 
 ## Next steps
 
-To learn more about templates and their locations, reference the following table of resources.
+To learn more about templates and their locations, reference the following articles.
 
 |Article  |Description  |
 |---------|---------|
