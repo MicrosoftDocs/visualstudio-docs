@@ -2,7 +2,7 @@
 title: Resolve merge conflicts in Visual Studio
 titleSuffix: ""
 description: Understanding, preventing, and resolving merge conflicts in Visual Studio.
-ms.date: 10/05/2022
+ms.date: 11/14/2022
 ms.topic: how-to
 author: houghj16
 ms.author: tglee
@@ -82,7 +82,7 @@ Git is good at automatically merging file changes in most circumstances, as long
     > [!NOTE]
     > If you need to keep all of your changes to a file, you can right-click it in the **Unmerged Changes** section and select **Keep Current (Local)** without having to open Merge Editor.
     >
-    > :::image type="content" source="media/vs-2022/git-conflicts-keep-changes.png" alt-text="Screenshot of the Keep Current and Take Incoming menu options.":::
+    > :::image type="content" source="media/vs-2022/git-conflicts-keep-changes.png" alt-text="Screenshot of the Keep Current menu option.":::
 
 ## Next steps
 
