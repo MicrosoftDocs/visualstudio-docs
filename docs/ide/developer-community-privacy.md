@@ -54,7 +54,7 @@ Microsoft collects data to help us reproduce and troubleshoot issues you report 
 
 - Your [Developer Community](https://developercommunity.visualstudio.com/) profile information;
 - Preferences and notifications;
-- Attachments and system-generated logs you provided by [reporting a problem in Visual Studio](how-to-report-a-problem-with-visual-studio) or through [Developer Community](https://developercommunity.visualstudio.com/);
+- Attachments and system-generated logs you provided by [reporting a problem in Visual Studio](how-to-report-a-problem-with-visual-studio.md) or through [Developer Community](https://developercommunity.visualstudio.com/);
 - Your votes.
 
 If **Report a problem** is initiated from Visual Studio Installer, we collect the most recent setup log.
