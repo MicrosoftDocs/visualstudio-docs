@@ -70,7 +70,7 @@ If your company needs to stay on a feature set longer but still wants to get reg
    - When should the updates happen? Should it be left to the user's discretion to decide when to update, or are there organizational policies that govern timeliness of updates? 
 
 > [!Tip] 
-> We encourage all organizations to [enroll their client machines into Visual Studio Administrator Updates](https://vs/admin/updates/au/blog), a system which delivers security updates on a monthly basis to devices that are enrolled in [Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb).   
+> We encourage all organizations to [enroll their client machines into Visual Studio Administrator Updates](https://aka.ms/vs/admin/updates/au/blog), a system which delivers security updates on a monthly basis to devices that are enrolled in [Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb).   
 
 - Follow [Windows security baselines](/windows/security/threat-protection/windows-security-baselines). Microsoft is dedicated to providing its customers with secure operating systems, such as Windows 10 and Windows Server, and secure apps, such as Microsoft Edge. In addition to the security assurance of its products, Microsoft also enables you to have fine control over your environments by providing various configuration capabilities.
 
