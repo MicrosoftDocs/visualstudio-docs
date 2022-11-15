@@ -136,7 +136,7 @@ Deleting will remove the following information about you from Developer Communit
 > We will not delete, but will anonymize, the following public information: your comments, your solutions, problems that you reported.
 
 > [!IMPORTANT]
-> Delete of an AAD or MSA account triggers the Delete process for Developer Community.
+> Delete of an Azure AD or MSA account triggers the Delete process for Developer Community.
 
 To initiate a Delete, follow these steps:
 
