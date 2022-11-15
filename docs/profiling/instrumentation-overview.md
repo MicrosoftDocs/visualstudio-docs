@@ -32,9 +32,7 @@ Dynamic instrumentation is helpful because:
 
 ## Instrumentation versus sampling
 
-When it comes to profiling, there's two mechanisms of collecting data. Collection using instrumentation or collection using sampling. With instrumentation, every function call in your application is annotated and instrumented so that when it gets invoked it's added to the trace along with information about the caller. With sampling, the current call stack executing is polled from the CPU at an interval and then each frame is added to the trace. The [CPU Usage](../profiling/cpu-usage.md) tool uses sampling.
-
-The value of sampling is that it has less overheard and for this reasons is more likely to be statistically representative of the application running in production. The value of instrumentation profiling is that you can get exact call counts on how many times your functions were called. This gives you much more detailed information than normal sampling, which can distort the time taken in some scenarios. For example, functions that don't do much, but are called frequently, will show up more than they would in a real world scenario.
+When it comes to profiling, there's two mechanisms of collecting data. Collection using instrumentation or collection using sampling. For detailed information, see [Understanding performance collection methods](../profiling/understanding-performance-collection-methods-perf-profiler.md).
 
 ## Instrumentation tools and methods
 

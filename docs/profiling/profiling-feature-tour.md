@@ -1,7 +1,7 @@
 ---
 title: "First look at profiling tools"
 description: "Take a brief look at the different diagnostic tools available in Visual Studio."
-ms.date: 08/18/2022
+ms.date: 11/15/2022
 ms.topic: conceptual
 f1_keywords:
   - vs.diagnosticshub.overview
@@ -139,7 +139,7 @@ The **CPU Usage** view shows you a list of functions ordered by longest running,
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-Double-click on a function that you are interested in, and you will see a more detailed **Call tree** view, with the selected function highlighted. The table shows columns with data such as the time spent in the function, including called functions (**Total CPU**), and a second column that shows the time spent in a function, excluding called functions (**Self CPU**). This data can help you evaluate whether the function itself is a performance bottleneck.
+Click on a function that you are interested in, and you will see a more detailed **Call tree** view, with the selected function highlighted. The table shows columns with data such as the time spent in the function, including called functions (**Total CPU**), and a second column that shows the time spent in a function, excluding called functions (**Self CPU**). This data can help you evaluate whether the function itself is a performance bottleneck.
 
 > [!TIP]
 > The Visual Studio profiler supports both collecting and viewing traces. The profiler can also view traces that have been collected previously by other tools, such as dotnet-trace. Dotnet-trace produces sampling results, not an instrumented trace. For more information, see [dotnet-trace](/dotnet/core/diagnostics/dotnet-trace).
@@ -147,7 +147,7 @@ Double-click on a function that you are interested in, and you will see a more d
 ![Diagnostic Tools caller callee "butterfly" view](../profiling/media/vs-2022/prof-tour-call-tree-view.png "Diagnostic Tools Caller Callee View")
 ::: moniker-end
 ::: moniker range="<=vs-2019"
-Double-click on a function that you are interested in, and you will see a more detailed three-pane "butterfly" view, with the selected function in the middle of the window, the calling function on the left, and called functions on the right. The **Function Body** section shows the total amount of time (and the percentage of time) spent in the function body excluding time spent in calling and called functions. This data can help you evaluate whether the function itself is a performance bottleneck.
+Click on a function that you are interested in, and you will see a more detailed three-pane "butterfly" view, with the selected function in the middle of the window, the calling function on the left, and called functions on the right. The **Function Body** section shows the total amount of time (and the percentage of time) spent in the function body excluding time spent in calling and called functions. This data can help you evaluate whether the function itself is a performance bottleneck.
 
 ![Diagnostic Tools caller callee "butterfly" view](../profiling/media/prof-tour-cpu-usage-caller-callee.png "Diagnostic Tools Caller Callee View")
 ::: moniker-end
@@ -207,6 +207,15 @@ The generic [events viewer](../profiling/events-viewer.md) allows you to view th
 The tool shows each event in a list view. Columns provide information about each event, such as the event name, timestamp, and process ID.
 
 ![Event Viewer Trace](../profiling/media/prof-tour-events-viewer.png "Event Viewer Trace")
+
+## Instrumentation
+
+The Instrumentation tool is similar to the CPU Usage tool, except that it uses instrumentation instead of sampling. The instrumentation method requires more overhead, but you can get exact call counts on how many times your functions were called. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**). For more information, see [Instrumentation](../profiling/instrumentation-overview.md).
+
+::: moniker range=">= vs-2022"
+
+![Screenshot showing .NET Instrumentation data.](./media/vs-2022/instrumentation-data.png "Instrumentation data")
+::: moniker-end
 
 ::: moniker range=">= vs-2022"
 
@@ -293,12 +302,14 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|yes|yes|yes|
 |[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|
 |[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|yes (.NET only)|yes|yes|
-|[GPU Usage](./gpu-usage.md)|yes|yes|no|
-|[Application Timeline](../profiling/application-timeline.md)|yes (XAML)|yes|no|
 |[Events viewer](../profiling/events-viewer.md)|yes|yes|yes|
 |[.NET Async](../profiling/analyze-async.md)|yes (.NET only)|yes|yes|
 |[.NET Counters](../profiling/dotnet-counters-tool.md)|yes (.NET Core only)|no|yes (ASP.NET Core only)|
+|[Instrumentation](../profiling/instrumentation-overview.md)|yes|yes|yes|
+|[File I/O](../profiling/use-file-io.md)|yes|yes|yes|
 |[Database](../profiling/analyze-database.md)|yes (.NET Core only)|no|yes (ASP.NET Core only)|
+|[GPU Usage](./gpu-usage.md)|yes|yes|no|
+|[Application Timeline](../profiling/application-timeline.md)|yes (XAML)|yes|no|
 |[Performance Explorer](#analyze-performance-legacy-tools)|no|no|no|
 |[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
 

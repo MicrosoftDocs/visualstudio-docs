@@ -29,7 +29,7 @@ You can access the Instrumentation tool by launching the Performance Profiler fo
    ![Screenshot showing .NET Instrumentation tool selected.](./media/vs-2022/instrumentation-tool-launch.png ".NET Instrumentation tool selected")
 
    > [!NOTE]
-   > If the tool isn't available for selection, clear every other tool's check box because some tools need to run alone. To learn more about running tools together, see [Screenshot showing how to use profiling tools from the command line.](../profiling/using-the-profiling-tools-from-the-command-line.md).
+   > If the tool isn't available for selection, clear every other tool's check box because some tools need to run alone. To learn more about running tools together, see [Using multiple profiler tools simultaneously](../profiling/use-multiple-profiler-tools-simultaneously.md).
    >
    > If the tool still isn't available, check that your project meets the preceding requirements. Make sure your project is in Release mode to capture the most accurate data.
 
@@ -51,7 +51,7 @@ Your profiling data appears in Visual Studio.
 
 The Instrumentation data view shows you a list of functions ordered by longest running, with the longest running function at the top under **Top Functions**. The **Hot Path** section shows you the call stack for the functions that are using the most CPU. These lists can help guide you to functions where performance bottlenecks are happening.
 
-Double-click on a function that you are interested in, and you will see a more detailed view.
+Click on a function that you are interested in, and you will see a more detailed view.
 
 The information available for the Instrumentation tool is the same as CPU Usage, except it's based on instrumented data instead of sampled data. For detailed information on the views, see [CPU Usage](../profiling/cpu-usage.md).
 

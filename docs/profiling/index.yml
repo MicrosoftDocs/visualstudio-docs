@@ -69,6 +69,8 @@ landingContent:
             url: analyze-async.md
           - text: .NET Counters
             url: dotnet-counters-tool.md  
+          - text: Instrumentation
+            url: instrumentation-overview.md
           - text: Analyze resource consumption (XAML)
             url: application-timeline.md
 
