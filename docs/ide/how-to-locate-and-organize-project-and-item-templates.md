@@ -84,7 +84,7 @@ For example, the following directory has user project templates for C#:
 
 ## Next steps
 
-To learn more about templates and their locations, reference the following articles.
+To learn more about .NET SDK templates and their locations, reference the following articles.
 
 |Article  |Description  |
 |---------|---------|
@@ -93,5 +93,4 @@ To learn more about templates and their locations, reference the following artic
 
 ## See also
 
-- [Customize templates](../ide/customizing-project-and-item-templates.md)
 - [Visual Studio template schema reference (extensibility)](../extensibility/visual-studio-template-schema-reference.md)
