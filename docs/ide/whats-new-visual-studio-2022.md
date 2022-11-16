@@ -31,7 +31,7 @@ Want to see what's new in each updated release from within Visual Studio itself?
 :::image type="content" source="media/vs-2022/whats-new-visual-studio.png" alt-text="Screenshot of the in-product notification of what's new in each updated release of Visual Studio.":::
 
 > [!TIP]
-> For more news + how-to's, check out our Visual Studio 2022 channels on [YouTube](https://www.youtube.com/visualstudio), [Twitch](https://www.twitch.tv/visualstudio), [Twitter](https://twitter.com/VisualStudio), and [TikTok](https://www.tiktok.com/@visualstudio). And for the latest info on current experiments and what's in Preview, be sure to visit the Visual Studio [**Blog**](https://devblogs.microsoft.com/visualstudio/).
+> For more news + how-to's, check out our Visual Studio 2022 channels on [YouTube](https://www.youtube.com/visualstudio), [Twitch](https://www.twitch.tv/visualstudio), [Twitter](https://twitter.com/VisualStudio), and [TikTok](https://www.tiktok.com/@visualstudio). And for the latest info on recent releases, current experiments, and what's in Preview, be sure to visit the Visual Studio [Blog](https://devblogs.microsoft.com/visualstudio/).
 
 ## Performance improvements
 
