@@ -31,7 +31,7 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 1. Create a VSIX project named **FirstMenuCommand**. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".
 
-2. When the project opens, add a custom command item template named **FirstCommand**. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. In the **Add New Item** dialog, go to **Visual C#** > **Extensibility** and select **Command**. In the **Name** field at the bottom of the window, change the command file name to *FirstCommand.cs*.
+2. When the project opens, add a custom command item template named **FirstCommand**. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. In the **Add New Item** dialog, go to **C# Items** > **Extensibility** and select **Command**. In the **Name** field at the bottom of the window, change the command file name to *FirstCommand.cs*.
 
 3. Build the project and start debugging.
 
