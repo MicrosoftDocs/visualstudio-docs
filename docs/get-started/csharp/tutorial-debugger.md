@@ -91,9 +91,7 @@ First, you'll create a .NET Core console application project. The project type c
 
 ::: moniker range=">=vs-2022"
 
-1. Open Visual Studio.
-
-   If the start window isn't open, choose **File** > **Start Window**.
+1. Open Visual Studio.  If the start window isn't open, choose **File** > **Start Window**.
 
 1. On the start window, choose **Create a new project**.
 

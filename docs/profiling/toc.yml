@@ -70,8 +70,28 @@
       href: memory-usage-without-debugging2.md
     - name: Custom native ETW heap events
       href: custom-native-etw-heap-events.md
+  - name: Instrumentation
+    items:
+    - name: Instrumentation
+      href: instrumentation-overview.md
+    - name: Analyze instrumentation data
+      href: instrumentation.md
   - name: Measure performance from the command-line
-    href: profile-apps-from-command-line.md
+    items:
+    - name: Measure performance from the command-line
+      href: profile-apps-from-command-line.md
+    - name: Collect detailed timing data
+      href: collecting-detailed-timing-data-for-a-stand-alone-application.md
+    - name: Instrument a .NET Framework component and collect timing data
+      href: instrument-dotnet-framework-component-and-collect-timing-data.md
+    - name: Instrument a native component and collect timing data
+      href: instrument-native-component-and-collect-timing-data.md
+    - name: Reference
+      items:
+      - name: VSInstr
+        href: vsinstr.md
+      - name: VSPerfCmd
+        href: vsperfcmd.md
   - name: Analyze GPU usage
     href: gpu-usage.md
   - name: Analyze Resource Consumption
