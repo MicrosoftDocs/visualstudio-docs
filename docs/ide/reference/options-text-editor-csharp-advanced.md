@@ -2,7 +2,7 @@
 title: Options, Text Editor, C#, Advanced
 description: Learn how to use the Advanced page in the C# section to modify the settings for editor formatting, code refactoring, and XML documentation comments for C#.
 ms.custom: SEO-VS-2020
-ms.date: 06/01/2021
+ms.date: 10/29/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining
@@ -148,6 +148,76 @@ Select these check boxes to display dotted vertical lines between the curly brac
 - Generate XML documentation comments for ///
 
   When selected, inserts the XML elements for XML documentation comments after you type the `///` comment introduction. For more information about XML documentation, see [XML Documentation Comments (C# Programming Guide)](/dotnet/csharp/programming-guide/xmldoc/).
+
+## Extract Method
+
+- Don't put ref or out on custom struct
+
+   Uncheck this checkbox to avoid potentionally unintended cloning of structs by refencing existing struct objects when extracting an expression into a method call.
+
+   ### Example
+
+   Supposed the following `class` and `struct` exist in your code:
+
+   ```csharp
+   public struct CustomStruct
+   {
+      private int Count;
+
+      public int Bump => ++Count;
+   }
+
+
+   public class CustomClass
+   {
+      public void DoIt()
+      {
+         CustomStruct cs = new CustomStruct();
+         int i = 0;
+
+         i += cs.Bump;   // select this line
+      }
+   }
+   ```
+
+   If the "Don't put ref or out on custom struct" option is **unchecked**, then the "Extract method" feature generates the following:
+
+   ```C#
+   public class CustomClass
+   {
+      public void DoIt()
+      {
+         CustomStruct cs = new CustomStruct();
+         int i = 0;
+
+         NewMethod(ref cs, ref i);
+      }
+
+      private static void NewMethod(ref CustomStruct cs, ref int i)
+         => i += cs.Bump;
+   }
+   ```
+
+   If the "Don't put ref or out on custom struct" option is **checked**, then the "Extract method" feature generates the following:
+
+   ```C#
+   public class CustomClass
+   {
+      public void DoIt()
+      {
+         CustomStruct cs = new CustomStruct();
+         int i = 0;
+
+         i = NewMethod(cs, i);
+      }
+
+      private static int NewMethod(CustomStruct cs, int i)
+      {
+         i += cs.Bump;
+         return i;
+      }
+   }
+   ```
 
 ## Inline Hints
 
