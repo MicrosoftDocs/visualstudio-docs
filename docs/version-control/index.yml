@@ -65,7 +65,7 @@ landingContent:
           - text: Manage repos
             url: git-manage-repository.md
           - text: Work with multiple repos
-          - url:  git-multi-repository-support.md
+            url:  git-multi-repository-support.md
           - text: Resolve merge conflicts
             url:  git-resolve-conflicts.md
           - text: Git settings & preferences

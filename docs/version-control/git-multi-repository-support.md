@@ -35,7 +35,7 @@ Then, as you make changes, the **Git Changes** window tracks your work separated
 
 :::image type="content" source="media/vs-2022/multi-repo-track-changes.png" alt-text="Screenshot of the Git Changes window that tracks changes to your work.":::
 
-You can use the branch pickers in the status bar and the **Git Changes** tool window to switch branches. All you need do is select the branch you’d like to checkout. Also, you can perform inner loop branching operations like merging, rebasing, renaming, deleting, and comparing branches by right-clicking the branch.
+You can use the branch pickers in the status bar and the **Git Changes** tool window to switch branches. All you need do is select the branch you’d like to check-out. Also, you can perform inner loop branching operations like merging, rebasing, renaming, deleting, and comparing branches by right-clicking the branch.
 
 :::image type="content" source="media/vs-2022/multi-repo-branch-picker.png" alt-text="Screenshot of the branch picker functionality in the Git Changes tool window.":::
 
@@ -57,12 +57,12 @@ You can use the **Git Repository Settings** page to specify your options for eac
 
 ## Open folder
 
-Additionally, you can activate multiple repositories from a folder as well as from a solution.
+Additionally, you can activate multiple repositories from either a folder or a solution.
 
 :::image type="content" source="media/vs-2022/multi-repo-open-folder-solution.png" alt-text="Screenshot showing how you can activate multiple repositories from a folder or a solution in Visual Studio.":::
 
 ## Next steps
 
-Want to know more about how we'll develop further Git functionality within Visual Studio 2022, or to share your feedback with us on the multi-repo feature? See the "Building with your feedback", "What's next", and "Let us know what you think" sections of the [Multi-repository Support Released](https://devblogs.microsoft.com/visualstudio/multi-repository-support-released/) blog post.
+Want to know more about how we'll develop further Git functionality within Visual Studio 2022, or to share your feedback with us on the multi-repo feature? See the "Building with your feedback", "What's next", and "Let us know what you think" sections of the [Multi-repository support released](https://devblogs.microsoft.com/visualstudio/multi-repository-support-released/) blog post.
 
 Next, to continue your journey with repo management, see [Resolve merge conflicts in Visual Studio](git-resolve-conflicts.md).
