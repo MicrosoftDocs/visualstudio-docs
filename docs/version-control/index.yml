@@ -61,9 +61,11 @@ landingContent:
       - linkListType: how-to-guide
         links:
           - text: Browse repos & compare branches
-            url:  git-browse-repository.md
+            url: git-browse-repository.md
           - text: Manage repos
-            url:  git-manage-repository.md
+            url: git-manage-repository.md
+          - text: Work with multiple repos
+          - url:  git-multi-repository-support.md
           - text: Resolve merge conflicts
             url:  git-resolve-conflicts.md
           - text: Git settings & preferences
