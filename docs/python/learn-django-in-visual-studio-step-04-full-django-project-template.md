@@ -85,7 +85,7 @@ Nevertheless, to use an existing virtual environment, follow the steps below:
 
 ## Step 4-2: Understand the views and page templates created by the project template
 
-As you observe when you run the project, the app contains three views: Home, About, and Contact. The code for these views is found in the *app/views* folder. Each view function calls `django.shortcuts.render` with the path to a template and a simple dictionary object. For example, the About page is handled by the `about` function:
+As you observe when you run the project, the app contains three views: Home, About, and Contact. The code for these views is found in the *views.py* file. Each view function calls `django.shortcuts.render` with the path to a template and a simple dictionary object. For example, the About page is handled by the `about` function:
 
 ```python
 def about(request):
