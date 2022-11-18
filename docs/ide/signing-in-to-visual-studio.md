@@ -19,10 +19,12 @@ ms.workload:
 In this article, you'll learn:
 + [The benefits to account sign in](#benefits)
 + How to [sign in](#sign-in) with an account
-+ How to [add and switch](#add-and-switch) user accounts
++ How to [add & switch accounts](#add-and-switch)
 + How to [access](#access) multiple user accounts
-+ How to [sign out](#sign-out-of-account) of an account
-+ How to [update](#update-your-account-profile) your profile
++ How to [sign out of your account](#sign-out-of-account)
++ How to [update your profile](#profile)
+
+You can also get [subscription support](https://visualstudio.microsoft.com/subscriptions/support/).
 
 <a name="benefits"></a>
 ## Benefits: why sign in? 
@@ -39,7 +41,7 @@ While you don't have to sign in, there are many advantages to doing so.
 |[Get 'Visual Studio Dev Essentials'](https://visualstudio.microsoft.com/dev-essentials/)|This program includes free software, training, support, and more.|
 
 <a name="sign-in"></a>
-## Sign in with a Microsoft account or an organizational account
+## Sign in with a Microsoft or organizational account
 
 ::: moniker range="<=vs-2019"
 
@@ -78,6 +80,13 @@ While you don't have to sign in, there are many advantages to doing so.
 
 ::: moniker-end
 
+<a name="profile"></a>
+## Update your account profile
+
+1. Go to **File > Account Settings...** and select the **Manage Visual Studio profile** link.
+1. In the browser window, select **Edit profile** and change the settings that you want.
+1. When you're done, select **Save changes**.
+
 <a name="add-and-switch"></a>
 ## Add and switch user accounts
 
@@ -109,9 +118,7 @@ For detailed instructions, see [Work with GitHub accounts in Visual Studio](work
 
 ### Add a multi-factor authentication (MFA) enabled account to Visual Studio
 
-In the 16.6 release, we added new capabilities to Visual Studio 2019 that streamline how users can access resources secured via CA policies such as MFA. To use this enhanced workflow, you'll need to opt into using your system's default web browser as the mechanism to add and reauthenticate Visual Studio accounts.
-
-For detailed instructions, see [Work with accounts that require multi-factor authentication (MFA)](work-with-multi-factor-authentication.md)
+Starting with version 16.6, users can access resources secured via CA policies such as MFA. To use this enhanced workflow, you'll need to opt into using your system's default web browser as the mechanism to add and reauthenticate Visual Studio accounts.  For detailed instructions, see [Work with accounts that require multi-factor authentication (MFA)](work-with-multi-factor-authentication.md)
 
 <a name="access"></a>
 ## Access multiple accounts associated with the Visual Studio sign-in account
@@ -180,14 +187,3 @@ Proxy credentials are stored in the Windows Credential Manager and are used as n
 1. Select the icon with your profile name in the upper-right corner of the Visual Studio environment.
 1. Select **Account settings..**.
 1. Select **Sign out**.
-
-## Update your account profile
-
-1. Go to **File > Account Settings...** and select the **Manage Visual Studio profile** link.
-1. In the browser window, select **Edit profile** and change the settings that you want.
-1. When you're done, select **Save changes**.
-
-## See also
-
-- Troubleshooting: [Subscription support](https://visualstudio.microsoft.com/subscriptions/support/)
-- [Compare Visual Studio 2022 Editions](https://visualstudio.microsoft.com/vs/compare/)

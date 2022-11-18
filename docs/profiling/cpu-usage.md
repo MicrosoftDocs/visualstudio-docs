@@ -23,6 +23,8 @@ The CPU Usage tool can help you:
 
 - Identify performance issues in DevOps scenarios, such as when a customer reports that some requests or orders are not getting through to the retail website during peak season. Often, the issues are in production, and it is challenging to debug at that moment, but this tool can help you capture enough information and evidence of the issue. After collecting a trace file, the analysis can quickly help you understand potential causes and give suggestions within the context of your code so that you can take the next steps to fix the issue.
 
+- If your latency issue isn’t within an API request, then you can check for high CPU utilization and other related issues with the CPU Usage tool. The CPU Usage tool can help you identify bottlenecks so that you can narrow down where to optimize. 
+
 The **CPU Usage** tool is helpful for both local trace sessions and production. The CPU Usage tool can also be initiated by using the keyboard shortcut, **Alt+F2**, and then choosing **CPU Usage**, or by opening an already collected trace using a tool like [dotnet-trace](/dotnet/core/diagnostics/dotnet-trace) or [dotnet-monitor](/dotnet/core/diagnostics/dotnet-monitor). (For .NET production code, this is most likely how you would collect traces.)
 
 The CPU Usage tool can run on an open Visual Studio project, on an installed Microsoft Store app, or attached to a running app or process. You can run the CPU Usage tool with or without debugging. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
@@ -76,7 +78,9 @@ Usually, the local machine best replicates installed app execution. To collect d
 
 ## Analyze the CPU Usage report
 
-The diagnostic report is sorted by **Total CPU**, from highest to lowest. Change the sort order or sort column by selecting the column headers. Use the **Filter** dropdown to select or deselect threads to display, and use the **Search** box to search for a specific thread or node.
+The diagnostic report is sorted by **Total CPU**, from highest to lowest. Change the sort order or sort column by selecting the column headers. Use the **Filter** dropdown to select or deselect threads to display, and use the **Search** box to search for a specific thread or node. You can double-click on a function that you are interested in, and you will see the source for the function as well as highlighting that shows where time is spent in that function. The table shows columns with data such as the time spent in the function, including called functions (Total CPU), and a second column that shows the time spent in a function, excluding called functions (Self CPU). 
+
+This data can help you assess whether the function itself is a performance bottleneck. Determine how much data the method is displaying to see if third-party code or runtime libraries are the reason for your endpoints being slow or resource-consumption heavy.
 
 Starting in Visual Studio 2019, you can click the **Expand Hot Path** and **Show Hot Path** buttons to see the function calls that use the highest percentage of the CPU in the call tree view.
 
@@ -167,3 +171,8 @@ Expand the generated methods to show what's going on:
 - `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` shows you the activity required to schedule and launch the 48 tasks that wrap the call to `GetNumberAsync`.
 
 - `MainPage::<GetNumberAsync>b__b` shows the activity of the tasks that call `GetNumber`.
+
+## See also
+
+- [Troubleshoot Profiler errors](../profiling/troubleshoot-profiler-errors.md)
+- [Identify hot paths with Flame Graph](../profiling/flame-graph.md)

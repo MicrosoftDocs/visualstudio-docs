@@ -267,7 +267,7 @@ public TestContext TestContext { get; set; }
 [TestMethod] // [Test] for NUnit
 public void HomePageTest()
 {
-    string _appURL = TestContext.Properties["webAppUrl"];
+    string _appUrl = TestContext.Properties["webAppUrl"];
 }
 ```
 

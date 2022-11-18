@@ -44,7 +44,9 @@ Mixed-mode debugging features include the following, as explained in this articl
 
 1. When attaching the mixed-mode debugger to an existing process (**Debug** > **Attach to Process**), use the **Select** button to open the **Select Code Type** dialog. Then set the **Debug these code types** option and select **Python (native)** from the list:
 
-    ![Screenshot of selecting the Python (native) code type](media/mixed_mode_debugging_attach_type_updated.png)
+
+    ![Screenshot of user selecting the Python (native) code type](media/mixed_mode_debugging_attach_type_updated.png)
+
 
     The code type settings are persistent, so if you want to disable mixed-mode debugging when attaching to a different process later, clear the **Python (native)** code type and apply the **Native** code type.
 

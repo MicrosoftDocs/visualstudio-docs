@@ -1,7 +1,7 @@
 ---
 title: Update a network-based installation
 description: Learn how to update a Visual Studio client that was installed from a network layout
-ms.date: 02/04/2022
+ms.date: 11/3/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -112,18 +112,16 @@ Whatever the value of the channelURI in the new layout's response.json file will
 If your client machine doesn't have internet access, then it _must_ acquire the updates from a network layout. Remember that there are two parts that need to get updated whenever Visual Studio is updated. The first is the installer and the second is the Visual Studio product itself. You can instruct Visual Studio to _explicitly_ look for _both_ of these components from the network layout by running these commands on the client machine. The first command forces the installer to come from the layout, and the second command prevents any packages from being downloaded from Microsoft hosted servers on the internet.
 
  ```shell
-    \\server\share\VSlayoutdirectory\vs_enterprise.exe --quiet --update
+    \\server\share\VSlayoutdirectory\vs_enterprise.exe --quiet --update --wait --offline
     \\server\share\VSlayoutdirectory\vs_enterprise.exe update --installPath "C:\clientmachine\installpath" --noWeb --wait --quiet --norestart
  ```
     
-Another way to ensure that the client gets its updates from the network layout is to pass in the `--noweb` and `--noUpdateInstaller` options in a single command to the bootstrapper on the network layout. The former prevents downloading updated workloads, components from the internet, and the latter prevents the installer from self-updating. This option, while available, is generally not recommended because you should always be using the latest and greatest installer.
-
 > [!IMPORTANT]
 > The `--noWeb` option does not stop Visual Studio setup on an internet-connected computer from _checking_ for updates. Rather, it prevents the client from downloading the product packages. 
 
 ## Get support for your network layout
 
-If you experience a problem with your network layout, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE. If you're an IT Administrator and don't have Visual Studio installed, you can submit [**IT Admin feedback here**](https://aka.ms/vs/admin/guide). When you use this tool, it would be very helpful if you could send the [logs from the VS Collect tool](https://aka.ms/vscollect) which can help us diagnose and fix the problem.
+If you experience a problem with your network layout, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE. If you're an IT Administrator and don't have Visual Studio installed, you can submit [**IT Admin feedback here**](https://aka.ms/vs/admin/feedback). When you use this tool, it would be very helpful if you could send the [logs from the VS Collect tool](https://aka.ms/vscollect) which can help us diagnose and fix the problem.
 
 We also offer an [**installation chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 

@@ -4,7 +4,6 @@ description: Troubleshoot problems you encounter when using Visual Studio to cre
 ms.technology: vs-container-tools
 author: ghogen
 manager: jmartens
-
 ms.assetid: 346f70b9-7b52-4688-a8e8-8f53869618d3
 ms.devlang: dotnet
 ms.topic: troubleshooting
@@ -97,4 +96,10 @@ To resolve this issue, right-click the Docker for Windows icon in the System Tra
 
 ## Other issues
 
-For any other issues, see the [Microsoft/DockerTools](https://github.com/microsoft/dockertools/issues) repo.
+For any other issues you encounter, see  [Microsoft/DockerTools](https://github.com/microsoft/dockertools/issues) issues.
+
+## See also
+
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)
+- [Container Tools error messages](container-tools-error-messages.md)
+

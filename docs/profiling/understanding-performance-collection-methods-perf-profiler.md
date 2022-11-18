@@ -34,4 +34,10 @@ Tracing can have a larger impact on the performance of your code during collecti
 
 ## Instrumentation
 
-Instrumentation profiling collects detailed information about the work that is performed by an application during a profiling run. Data collection is done by tools that either inject code into a binary file that captures timing information or by using callback hooks to collect and emit exact timing and call count information while an application runs. The instrumentation method has a high overhead when compared to sampling-based approaches. Tools in the Performance Profiler that use instrumentation include the [.NET Object Allocation](../profiling/dotnet-alloc-tool.md) Tool.
+Instrumentation profiling collects detailed information about the work that is performed by an application during a profiling run. Data collection is done by tools that either inject code into a binary file that captures timing information or by using callback hooks to collect and emit exact timing and call count information while an application runs. The instrumentation method has a high overhead when compared to sampling-based approaches. Tools in the Performance Profiler that use instrumentation include the [Instrumentation](../profiling/instrumentation-overview.md) tools and the [.NET Object Allocation](../profiling/dotnet-alloc-tool.md) tool.
+
+## Sampling versus instrumentation
+
+The value of sampling is that it has less overhead and for this reason is more likely to be statistically representative of the application running in production. The value of instrumentation profiling is that you can get exact call counts on how many times your functions were called. This gives you much more detailed information than normal sampling, which can distort the time taken in some scenarios. For example, functions that don't do much, but are called frequently, will show up more than they would in a real world scenario.
+
+With instrumentation, every function call selected in your application is annotated and instrumented so that when it gets invoked it's added to the trace along with information about the caller. With sampling, the current call stack executing is polled from the CPU at an interval and then each frame is added to the trace.

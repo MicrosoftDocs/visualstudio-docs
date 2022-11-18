@@ -55,8 +55,6 @@ landingContent:
             url: cpu-usage.md
           - text: Memory Usage
             url: memory-usage-without-debugging2.md
-          - text: CPU Insights
-            url: cpu-insights.md
           - text: File I/O
             url: use-file-io.md
           - text: Database
@@ -69,6 +67,8 @@ landingContent:
             url: analyze-async.md
           - text: .NET Counters
             url: dotnet-counters-tool.md  
+          - text: Instrumentation
+            url: instrumentation-overview.md
           - text: Analyze resource consumption (XAML)
             url: application-timeline.md
 

@@ -171,10 +171,12 @@ Here is a list of MSBuild property functions:
 |string NormalizePath(params string[] path)|Gets the canonicalized full path of the provided path and ensures it contains the correct directory separator characters for the current operating system.|
 |string NormalizeDirectory(params string[] path)|Gets the canonicalized full path of the provided directory and ensures it contains the correct directory separator characters for the current operating system while ensuring it has a trailing slash.|
 |string EnsureTrailingSlash(string path)|If the given path doesn't have a trailing slash then add one. If the path is an empty string, does not modify it.|
-|string GetPathOfFileAbove(string file, string startingDirectory)|Searches for and returns the full path to a file in the directory structure above the current build file's location, or based on `startingDirectory`, if specified.|
+|string GetPathOfFileAbove(string file, string startingDirectory)|Searches for and returns the full path to a file in the directory structure at and above the current build file's location, or based on `startingDirectory`, if specified.|
 |GetDirectoryNameOfFileAbove(string startingDirectory, string fileName)|Locate and return the directory of a file in either the directory specified or a location in the directory structure above that directory.|
 |string MakeRelative(string basePath, string path)|Makes `path` relative to `basePath`. `basePath` must be an absolute directory. If `path` cannot be made relative, it is returned verbatim. Similar to `Uri.MakeRelativeUri`.|
-|string ValueOrDefault(string conditionValue, string defaultValue)|Return the string in parameter 'defaultValue' only if parameter 'conditionValue' is empty, else, return the value conditionValue.|
+|string ValueOrDefault(string conditionValue, string defaultValue)|Returns the string in parameter `defaultValue` only if parameter `conditionValue` is empty, else, return the value `conditionValue`.|
+|string ConvertToBase64(string toEncode)|Returns the string after converting all bytes to base 64 (alphanumeric characters plus `+` and `/`), ending in one or two `=`.|
+|string ConvertFromBase64(string toDecode)|Returns the string after converting from base 64 (alphanumeric characters plus `+` and `/`), ending in one or two `=`.|
 
 ## Nested property functions
 
