@@ -56,3 +56,5 @@ Additionally, you can activate multiple repositories from a folder as well as fr
 ## Next steps
 
 Want to know more about how we'll develop further Git functionality within Visual Studio 2022, or to share your feedback with us on the multi-repo feature? See the "Building with your feedback", "What's next", and "Let us know what you think" sections of the [Multi-repository Support Released](https://devblogs.microsoft.com/visualstudio/multi-repository-support-released/) blog post.
+
+Next, to continue your journey with repo management, see [Resolve merge conflicts in Visual Studio](git-resolve-conflicts.md).
