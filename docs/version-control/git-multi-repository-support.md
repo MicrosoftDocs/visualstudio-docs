@@ -47,17 +47,19 @@ And, you can perform more advanced repository and branch management operations i
 
 Once you’re ready to commit, the network operations dialog makes it easy to specify the exact branch you’re pushing to and reorder your pushes. This same dialog allows you to exercise more control over other network operations, like [fetch and pull](git-fetch-pull-sync.md).
 
-Screenshot
+:::image type="content" source="media/vs-2022/multi-repo-push-network-operation.png" alt-text="Screenshot showing a push action in the network operations dialog.":::
 
 ## Repository settings
 
 You can use the **Git Repository Settings** page to specify your options for each repository. For example, you can specify whether to prune remote branches during fetch.
 
-Screenshot
+:::image type="content" source="media/vs-2022/multi-repo-git-repository-settings.png" alt-text="Screenshot of the Git Repository Settings option in Visual Studio.":::
 
 ## Open folder
 
 Additionally, you can activate multiple repositories from a folder as well as from a solution.
+
+:::image type="content" source="media/vs-2022/multi-repo-open-folder-solution.png" alt-text="Screenshot showing how you can activate multiple repositories from a folder or a solution in Visual Studio.":::
 
 ## Next steps
 
