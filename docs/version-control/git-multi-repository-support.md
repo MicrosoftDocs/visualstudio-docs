@@ -21,21 +21,27 @@ Now, you can have up to 10 active Git repositories at one time in Visual Studio.
 > [!NOTE]
 > To see multi-repository support in action, view the [Use multiple Git repositories in Visual Studio](https://www.youtube.com/watch?v=ctnlQzX2YwI&t=34s) video on YouTube.
 
-## Branch Management and Tracking Changes
+## Branch management and track changes
 
-Multi-repository support extends the capabilities of the **Git Changes** and **Git Repository** windows. You can manage your multi-repo scenarios the same way as you would in working with a single repository. You can create your branches across several repositories at one time by using the extended branch creation dialog.
+Multi-repository support extends the capabilities of the **Git Changes** and **Git Repository** windows. You can manage your multi-repo scenarios the same way as you would in working with a single repository.
 
 :::image type="content" source="media/vs-2022/multi-repo-new-branch-button.png" alt-text="Screenshot of the New Branch button in Visual Studio.":::
+
+You can create your branches across several repositories at one time by using the extended branch creation dialog.
+
 :::image type="content" source="media/vs-2022/multi-repo-create-new-branch.png" alt-text="Screenshot of the 'Create a new branch' dialog in Visual Studio.":::
 
 Then, as you make changes, the **Git Changes** window tracks your work separated by repository. You can stage and commit as you typically would.
 
-Screenshot
+:::image type="content" source="media/vs-2022/multi-repo-track-changes.png" alt-text="Screenshot of the Git Changes window that tracks changes to your work.":::
 
-You can use the branch pickers in the status bar and the **Git Changes** tool window to switch branches. All you need do is select the branch you’d like to checkout. Also, you can perform innerloop branching operations like merging, rebasing, renaming, deleting, and comparing branches by right-clicking the branch. And, you can perform more advanced repository and branch management operations in the **Git Repository** window.
+You can use the branch pickers in the status bar and the **Git Changes** tool window to switch branches. All you need do is select the branch you’d like to checkout. Also, you can perform inner loop branching operations like merging, rebasing, renaming, deleting, and comparing branches by right-clicking the branch.
 
-Screenshot
-Screenshot
+:::image type="content" source="media/vs-2022/multi-repo-branch-picker.png" alt-text="Screenshot of the branch picker functionality in the Git Changes tool window.":::
+
+And, you can perform more advanced repository and branch management operations in the **Git Repository** window.
+
+:::image type="content" source="media/vs-2022/multi-repo-git-repository-tool-window.png" alt-text="Screenshot of the branch picker functionality in the Git Repository tool window.":::
 
 ## Network operations
 
