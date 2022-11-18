@@ -25,8 +25,8 @@ Now, you can have up to 10 active Git repositories at one time in Visual Studio.
 
 Multi-repository support extends the capabilities of the **Git Changes** and **Git Repository** windows. You can manage your multi-repo scenarios the same way as you would in working with a single repository. You can create your branches across several repositories at one time by using the extended branch creation dialog.
 
-Screenshot
-Screenshot
+:::image type="content" source="media/vs-2022/multi-repo-new-branch-button.png" alt-text="Screenshot of the New Branch button in Visual Studio.":::
+:::image type="content" source="media/vs-2022/multi-repo-create-new-branch.png" alt-text="Screenshot of the 'Create a new branch' dialog in Visual Studio.":::
 
 Then, as you make changes, the **Git Changes** window tracks your work separated by repository. You can stage and commit as you typically would.
 
