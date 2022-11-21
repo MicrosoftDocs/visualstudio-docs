@@ -44,7 +44,8 @@ Mixed-mode debugging features include the following, as explained in this articl
 
 1. When attaching the mixed-mode debugger to an existing process (**Debug** > **Attach to Process**), use the **Select** button to open the **Select Code Type** dialog. Then set the **Debug these code types** option and select **Python (native)** from the list:
 
-    ![Screenshot of choosing the Python (native) code type for mixed-mode debugging.](media/mixed_mode_debugging_attach_type_updated.png)
+    ![Screenshot of user selecting the Python (native) code type](media/mixed_mode_debugging_attach_type_updated.png)
+
 
     The code type settings are persistent, so if you want to disable mixed-mode debugging when attaching to a different process later, clear the **Python (native)** code type and apply the **Native** code type.
 
@@ -53,6 +54,8 @@ Mixed-mode debugging features include the following, as explained in this articl
 1. When you start debugging in mixed mode for the first time, you may see a **Python Symbols Required** dialog (see [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode-c-cpp-python.md)). You need to install symbols only once for any given Python environment. Symbols are automatically included if you install Python support through the Visual Studio installer (Visual Studio 2017 and later).
 
 1. To make the source code for standard Python itself available when debugging, visit [https://www.python.org/downloads/source/](https://www.python.org/downloads/source/), download the archive appropriate for your version, and extract it to a folder. You then point Visual Studio to specific files in that folder at whatever point it prompts you.
+
+Using this method for virtual environments, be aware that Python for Windows uses a stub *python.exe* for venvs that Visual Studio finds and loads as a subprocess. For Python 3.8 onward - when starting a debug session, since mixed-mode doesn't support multi-process debugging, it ends up debugging just that stub process, instead of the actual application. For attach scenarios, the workaround is to attach to the correct *python.exe*. For launch/F5, you can create your virtual environment using the following command `C:\Python310-64\python.exe -m venv venv --symlinks` and inserting your preferred version of Python (by default, only admins can create symlinks on Windows). For Python versions prior to 3.8, mixed mode debugging should work as expected with venvs. Running in a global environment will not cause these issues for any version of Python.
 
 ## Enable mixed-mode debugging in a C/C++ project
 
