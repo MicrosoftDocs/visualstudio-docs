@@ -81,9 +81,9 @@ Next, you should see the base Express app appear!
 
 We will now go through a couple of ways you can debug your app. 
 
-First, if your app is still running, press **Shift + F5** or select the red stop button at the top of the window. You might notice that the browser showing your app closed, but the command prompt running the node process remained. Go ahead and close any lingering command prompts for now -- we will return to this later on.
+First, if your app is still running, press **Shift + F5** or select the red stop button at the top of the window in order to stop the current session. You might notice that stopping the session closes the browser showing your app, but leaves behind the command prompt window running the Node process. For now, go ahead and close any lingering command prompts &mdash; further down, we will go over when you might want to leave the Node process running.
 
-### Breaking in the Node process 
+### Debugging the Node process 
 
 In the dropdown next to the **Start** button, you should see the following start options:
 - localhost (Edge)
