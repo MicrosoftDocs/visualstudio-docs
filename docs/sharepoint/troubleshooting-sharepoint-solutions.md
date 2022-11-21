@@ -26,6 +26,7 @@ ms.workload:
   The following problems or alerts might occur when you debug SharePoint solutions by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger. For more information, see [Debugging SharePoint 2007 Workflow Solutions](/previous-versions/bb386166(v=vs.100)).
 
 ## Token restrictions in sandboxed visual web parts
+
  Visual web parts in sandboxed solutions can't process standard tokens, such as $SPUrl, that the SharePoint runtime supports. As a result, the URL isn't resolved, and you can't preview the content in Design view in the visual web part designer if you refer to it directly in a script element, such as in the following example:
 
 ```xml
@@ -41,12 +42,15 @@ ms.workload:
 ```
 
 ## Character restrictions in names of projects and project items
+
  Names of projects and project items can contain only characters that are valid in a deployment path in SharePoint 2010. No other characters are allowed.
 
 ### Error message
+
  "Invalid characters" error message.
 
 ### Resolution
+
  For names of SharePoint projects and project items, use only the following characters:
 
 - Alphanumeric ASCII characters
@@ -66,12 +70,15 @@ ms.workload:
   When a project is packaged, a validation rule verifies that the deployment-path property for each file you're deploying contains only these valid characters.
 
 ## Errors when creating custom fields
+
  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], custom fields are defined in XML. Errors can occur if a field isn't defined or referenced by using a specific format.
 
 ### Error message
+
  "Invalid characters" error message at packaging time.
 
 ### Resolution
+
  The ID for a field definition must be a GUID surrounded by braces, as the following example shows:
 
 ```xml
@@ -95,33 +102,41 @@ ms.workload:
  If the source XML for the field is malformed, isn't a valid XML file, or exhibits some other problem, the error "Cannot parse file" occurs.
 
 ## New non-English site definitions do not appear in site creation page after deployment
+
  After you create and deploy a site definition by using a non-English version of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] (that is, a version with a locale [!INCLUDE[TLA2#tla_id](../sharepoint/includes/tla2sharptla-id-md.md)] other than 1033), the **SharePoint Customizations** tab doesn't appear in the **Template Selection** box and the new site template doesn't appear in the **New SharePoint Site** page.
 
 ### Error message
+
  None.
 
 ### Resolution
+
  This problem occurs because of an incorrect value in the **Path** property for the webtemp site definition configuration file, such as *webtemp_SiteDefinitionProject1.xml*. In the **Path** property for the webtemp file, located under the **Deployment Location**, change 1033 to the appropriate locale [!INCLUDE[TLA2#tla_id](../sharepoint/includes/tla2sharptla-id-md.md)]. For example, to use a Japanese locale change the value to 1041. For more information, see [Locale IDs Assigned by Microsoft](/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c).
 
 ## Error appears when a workflow project is deployed on a clean system
+
  This problem occurs if you deploy a workflow project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] on a clean system. A clean system is a computer that has a fresh installation of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and SharePoint but no deployed workflow projects.
 
 ### Error message
+
  Cannot find the SharePoint list: Workflow History.
 
 ### Resolution
+
  This error occurs because of a missing Workflow History list. Because the development environment is a clean system, no workflows are deployed and the Workflow History list does not exist yet. To resolve this issue, reopen the workflow wizard, which causes the Workflow History list to be created.
 
-##### To reenter the workflow wizard
+#### To reenter the workflow wizard
 
 1. In **Solution Explorer**, choose the workflow node.
 
 2. In the **Properties** window, choose the ellipsis (...) button on any property that has an ellipsis button.
 
 ## User must refresh application page in browser while debugging to view updated image
+
  If you are debugging a SharePoint solution that contains an application page with a control that displays an image, such as an [!INCLUDE[TLA2#tla_html](../sharepoint/includes/tla2sharptla-html-md.md)] Image control, you must refresh the page in the browser to display any changes that were made to the image.
 
 ## Error: The site location is not valid
+
  This problem can occur if [!INCLUDE[moss_14_short](../sharepoint/includes/moss-14-short-md.md)] is not installed. It might also occur if you do not have administrator access to the SharePoint Web site that is specified in the **SharePoint Customization Wizard**.
 
 ### Error message
@@ -135,12 +150,15 @@ ms.workload:
 - Ensure that you have administrator access to the SharePoint Web site. For more information, see the [!INCLUDE[TLA2#tla_office](../sharepoint/includes/tla2sharptla-office-md.md)] Online article [Assign or remove administrators of service applications in SharePoint Server](/sharepoint/administration/assign-or-remove-administrators-of-service-applications).
 
 ## Site deletion web event does not occur in event receiver project
+
  When you create an event receiver project and you select certain Web events such as "a site is being deleted," the event never occurs.
 
 ### Error message
+
  None.
 
 ### Resolution
+
  This problem occurs because the feature scope must be "Site" to handle site-level events, but the default feature scope for event receiver projects is "Web". The Web events affected are:
 
 - A site is being deleted (WebDeleting)
@@ -153,13 +171,14 @@ ms.workload:
 
   To fix the problem, change the feature scope of the event receiver, as follows.
 
-##### To change the feature scope of the event receiver
+#### To change the feature scope of the event receiver
 
 1. In **Solution Explorer**, open the event receiver's *.feature* file in the **Feature Designer** by either double-clicking the file or opening its shortcut menu and then choosing **Open**.
 
 2. Choose the arrow next to **Scope**, and then choose **Site** in the list that appears.
 
 ## Deployment error appears after the name of an identifier in a business data connectivity model project is changed
+
  This problem occurs if you change the identifier name of an entity in a Business Data Connectivity (BDC) model and then try to deploy the solution.
 
 ### Error messages
@@ -169,13 +188,32 @@ ms.workload:
 - The IMetadataObject with Name '\<*model name*>' has a value in Field 'name' that is duplicated ...
 
 ### Resolution
+
  To resolve this issue, delete the model manually, and then deploy the solution again.  You can delete the model by using either of the following tools:
 
 - SharePoint 2010 Central Administration. For more information, see [BDC Model Management](/previous-versions/office/sharepoint-server-2010/ee524073(v=office.14)#delete-a-bdc-model) on the Microsoft TechNet Web site.
 
 - Windows PowerShell. You can delete the model by typing this command at the command prompt: **Remove-SPBusinessDataCatalogModel**. For more information, see [General cmdlets (SharePoint Server 2010)](/powershell/module/sharepoint-server) on the Microsoft TechNet Web site.
 
+## Deployment error occurred trying to recycling the IIS Application Pool on the SharePoint Server
+
+ This problem occurs if the IIS 6 WMI Compatibility feature and .NET 3.5 to be installed on the SharePoint Server machine.
+
+### Error messages
+
+- Error occurred in deployment step 'Recycle IIS Application Pool': Invalid namespace
+- Error occurred in deployment step 'Recycle IIS Application Pool': A task was canceled.
+
+### Resolution
+
+ To resolve this issue, on the SharePoint Server machine, check to see if the Windows feature **IIS 6 WMI Compatibility** is installed,
+
+- Windows PowerShell.  You can check if the feature is installed by running this PowerShell command:
+    **get-windowsfeature -name Web-WMI**. If it does not show as being Installed, you can install it by running the following PowerShell command:
+    **install-windowsfeature -name Web-WMI**.  If you still see errors trying to recycle the Application Pool, make sure .NET Framework 3.5 is also installed on the machine by running **get-windowsfeature -name NET-Framework-Core** and **install-windowsfeature -name NET-Framework-Core** if it is not.
+
 ## An error appears when you try to view a visual web part in SharePoint
+
  This problem occurs when the **Path** property of the user control does not begin with the string "CONTROLTEMPLATES\\".
 
 ### Error messages
@@ -186,7 +224,7 @@ ms.workload:
 
 ### Resolution
 
-##### To resolve this issue
+#### To resolve this issue
 
 1. In **Solution Explorer**, choose the user control file, whose file name extension is *.ascx*.
 
@@ -197,37 +235,46 @@ ms.workload:
 4. Ensure that the value of the **Path** property starts with the string "CONTROLTEMPLATES\\".
 
 ## Error appears when an imported reusable workflow that contains a task form field is run
+
  This problem occurs if you import a workflow that contains a task form that has a field, and then run the new workflow on the same system from which you imported it.
 
 ### Error message
+
  Error occurred in deployment step 'Activate Features': The field with Id [*Guid*] defined in feature [*Guid*] was found in the current site collection or in a subsite.
 
 ### Resolution
+
  This error is the result of field ID collisions that occur because the Import Reusable Workflow project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] does not change task form field IDs. If you deploy an imported workflow on the same server that contains the original workflow, field ID collisions occur.
 
  To resolve this issue, use the Find and Replace feature to change the value of the Field ID attribute in all of the imported workflow files.
 
 ## Error appears when a renamed imported list instance is run
+
  This problem occurs if you rename an imported list instance and then run it in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
 ### Error message
+
  Build error: Error occurred in deployment step 'Activate Features': The file Template\Features\\[*import project*<em>feature</em>*name*]\Files\Lists\\[*old*<em>list name</em>]\Schema.xml does not exist.
 
 ### Resolution
+
  When you import a list instance, an attribute named CustomSchema is added to the Elements.xml file of the list instance. Elements.xml includes the path of a custom schema.xml for the list instance. When you rename the list instance in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], the deployment path for the custom schema.xml changes, but the path value of the CustomSchema attribute is not updated. As a result, the list instance cannot find the *schema.xml* file in the old path that is specified by the CustomSchema attribute when the feature is activated.
 
  To resolve this issue, update the path of the deployment location of the *schema.xml* file in the CustomSchema attribute.
 
 ## SharePoint debugging session terminated by IIS
+
  This problem occurs if you set a breakpoint in a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint solution, choose the **F5** key to run it, and then remain at a breakpoint longer than 90 seconds.
 
 ### Error message
+
  The Web server process that was being debugged has been terminated by Internet Information Services (IIS). You can avoid this problem by configuring Application Pool ping settings in IIS. See help for further details.
 
 ### Resolution
+
  By default, the IIS application pool waits 90 seconds for an application to respond before it closes the application. This process is known as "pinging" the application. To resolve this issue, you can either increase the wait time or disable application pinging entirely.
 
-##### To access the IIS app pool settings
+#### To access the IIS app pool settings
 
 1. Open IIS Manager.
 
@@ -240,6 +287,7 @@ ms.workload:
 5. To disable IIS pinging, set **Ping Enabled** to **False**.
 
 ## Auto-retract leaves orphaned list instance in SharePoint
+
  This problem occurs if you take the following steps.
 
 1. Create a list definition that has a list instance in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
@@ -251,29 +299,37 @@ ms.workload:
 4. Reopen the SharePoint site and open the list instance.
 
 ### Error message
+
  Server Error in '/' Application.
 
 ### Resolution
+
  This happens because after you close a debug session of a SharePoint solution, the auto-retract feature retracts the solution. The retraction deletes the list definition from SharePoint but does not delete the instance of the list. The underlying list definition is required by the list instance.
 
  To resolve this issue, deploy the solution by, on the menu bar, choosing **Build** > **Deploy**. (Don't debug the solution by choosing the **F5** key.) Then, delete the list instance in SharePoint.
 
 ## Original SharePoint solution is replaced by an exported version
+
  If you export a SharePoint solution, import the solution into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], and then deploy the solution back to the same site from which it was exported, the original SharePoint solution is replaced. This problem does not occur if you deploy the solution to a server that does not have the original solution activated on it.
 
 ### Error message
+
  None.
 
 ### Resolution
+
  To avoid overwriting a solution on the site from which it was exported, change the GUIDs of the SolutionID and the Feature IDs of all the imported features in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] project.
 
 ## Error appears when debugging starts
+
  When you start to debug a SharePoint solution in Visual Studio, an error indicates that Visual Studio couldn't load the Web.config file because the given key wasn't in the dictionary.
 
 ### Error message
+
  Could not load the Web.config configuration file. Check the file for any malformed XML elements and try again. The following error occurred: The given key was not present in the dictionary.
 
 ### Resolution
+
  To resolve this problem, make sure that the Site URL property value of the SharePoint project in Visual Studio matches the URL that's assigned to the Default Zone for the alternate access mappings of the web application. You can't resolve the error by using another zone, such as Intranet, for the URL. The site URL for the project and the URL in the default zone must match. To access alternate access mappings, open the SharePoint 2010 Central Administration utility, choose the **Application Management** link , and then, under **Web Applications**, choose the **Configure alternate access mappings** link. For more information, see [Create zones for Web applications](/previous-versions/office/sharepoint-2007-products-and-technologies/cc263087(v=office.12)).
 
 ## See also
