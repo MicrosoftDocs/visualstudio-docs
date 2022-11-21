@@ -2,7 +2,7 @@
 title: Work with multiple repositories
 titleSuffix: ""
 description: Learn how to view, manage, and debug across 10 active repos at the same time by using the Git tooling within Visual Studio.
-ms.date: 11/18/2022
+ms.date: 11/21/2022
 ms.topic: conceptual
 author: houghj16
 ms.author: tglee
@@ -35,7 +35,7 @@ Then, as you make changes, the **Git Changes** window tracks your work separated
 
 :::image type="content" source="media/vs-2022/multi-repo-track-changes.png" alt-text="Screenshot of the Git Changes window that tracks changes to your work.":::
 
-You can use the branch pickers in the status bar and the **Git Changes** tool window to switch branches. All you need do is select the branch you’d like to check-out. Also, you can perform inner loop branching operations like merging, rebasing, renaming, deleting, and comparing branches by right-clicking the branch.
+You can use the branch pickers in the status bar and the **Git Changes** tool window to switch branches. All you need to do is select the branch you’d like to check out. Also, you can perform inner loop branching operations like merging, rebasing, renaming, deleting, and comparing branches by right-clicking the branch to open the context menu.
 
 :::image type="content" source="media/vs-2022/multi-repo-branch-picker.png" alt-text="Screenshot of the branch picker functionality in the Git Changes tool window.":::
 
@@ -60,6 +60,19 @@ You can use the **Git Repository Settings** page to specify your options for eac
 Additionally, you can activate multiple repositories from either a folder or a solution.
 
 :::image type="content" source="media/vs-2022/multi-repo-open-folder-solution.png" alt-text="Screenshot showing how you can activate multiple repositories from a folder or a solution in Visual Studio.":::
+
+Here's how to create a solution with multiple repositories:
+
+1. Open one of your existing solutions that already has a repository initialized.
+
+1. Right-click the solution in the Solution Explorer, and then select **Add** > **Existing Project**.
+
+1. Select the .csproj file for another project that has a repository initialized.
+
+   After the project's added, Visual Studio detects and activates the second repo. Then, you can adjust Project References as necessary.
+
+> [!TIP]
+> Here's a scenario where you might want to use the folder view: If the repositories are independed of each other and don't need to be part of the same solution. You can place the local repo directories in the same parent folder and use the **Open a local folder** option from the Visual Studio launch page to open the parent folder. Visual Studio detects and activates each repo, and then tracks changes by repo (as shown previous screenshot).
 
 ## Next steps
 
