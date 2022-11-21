@@ -1,0 +1,58 @@
+---
+title: Access ClickOnce deployment properties for .NET
+description: "Learn how to access ClickOnce deployment properties for .NET Core 3.1, .NET 5 and later."
+ms.date: 11/21/2022
+ms.topic: how-to
+helpviewer_keywords:
+  - "deployment properties, ClickOnce for .NET 5+"
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
+ms.technology: vs-ide-deployment
+monikerRange: '>= vs-2022'
+ms.workload:
+  - "multiple"
+---
+# Access ClickOnce deployment properties for .NET on Windows
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+Starting in .NET 7 and Visual Studio 2022 version 17.4, you can access ClickOnce deployment properties using an environment variable.
+
+The application launcher shares ClickOnce application deployment properties with the application being launched (.NET only). Properties are shared with the application using environment variables.
+
+The variable names closely match the properties in the .NET Framework <xref:System.Deployment.Application.ApplicationDeployment> class. The new variable names include a ClickOnce_ prefix:
+
+ClickOnce_IsNetworkDeployed
+ClickOnce_ActivationUri
+ClickOnce_CurrentVersion
+ClickOnce_DataDirectory
+ClickOnce_IsFirstRun
+ClickOnce_TimeOfLastUpdateCheck
+ClickOnce_UpdatedApplicationFullName
+ClickOnce_UpdatedVersion
+ClickOnce_UpdateLocation
+
+In addition to these, a new property is available that returns the launcher version:
+
+ClickOnce_LauncherVersion
+
+A .NET application can use these properties directly or indirectly.
+
+The following code example shows how to access two properties directly, `ClickOnce_IsNetworkDeployed` and `ClickOnce_ActivationUri`.
+
+```csharp
+NameValueCollection nameValueTable = new NameValueCollection();
+if (Environment.GetEnvironmentVariable("ClickOnce_IsNetworkDeployed")?.ToLower() == "true")
+{
+    string value = Environment.GetEnvironmentVariable("ClickOnce_ActivationUri");
+    Uri activationUri = string.IsNullOrEmpty(value) ? null : new Uri(value);
+    if (activationUri != null)
+    {
+        nameValueTable = HttpUtility.ParseQueryString(activationUri.Query);
+        Console.WriteLine("Query string: " + activationUri.Query);
+        Console.ReadKey();
+    }
+}
+```
+
