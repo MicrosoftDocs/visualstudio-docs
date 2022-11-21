@@ -95,11 +95,12 @@ Go ahead and select the **Launch Node and Browser** option. Now, before pressing
 
 `res.render('index', { title: 'Express' });`
 
-Tip! You can also put your cursor on a line of code and hit F9 to toggle the breakpoint for that line. 
+> [!TIP]
+> You can also put your cursor on a line of code and hit **F9** to toggle the breakpoint for that line. 
 
 Then, press **F5** or select **Debug** > **Start Debugging** to debug your app.
 
-The debugger should then pause at the breakpoint you set, so that you can inspect your app state.
+You should see the debugger pause at the breakpoint you just set. While it is paused, you can inspect your app state. Hovering over variables will let you examine their properties.
 
 When you're finished inspecting the state, hit f5? to continue, and your app should load as expected. 
 
