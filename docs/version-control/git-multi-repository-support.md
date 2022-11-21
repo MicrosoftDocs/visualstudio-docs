@@ -65,17 +65,19 @@ Here's how to create a solution with multiple repositories:
 
 1. Open one of your existing solutions that already has a repository initialized.
 
-1. Right-click the solution in the Solution Explorer, and then select **Add** > **[Existing Project](../ide/use-solution-explorer.md#the-add-context-menu-fly-out)**.
+1. Right-click the solution in **Solution Explorer**, and then select **Add** > **[Existing Project](../ide/use-solution-explorer.md#the-add-context-menu-fly-out)**.
 
 1. Select the .csproj file for another project that has a repository initialized.
 
-   After the project's added, Visual Studio detects and activates the second repo. Then, you can adjust Project References as necessary.
+   After the project's added, Visual Studio detects and activates the second repo. Then, you can adjust the Project References as necessary.
 
 ### Use a folder
 
-If the repositories you want to use are independent of each other and don't need to be part of the same solution, you might want to use a folder to open them. To do so, you can place the local repo directories in the same parent folder and then use the **Open a local folder** option from the Visual Studio launch page to open the parent folder. Visual Studio detects and activates each repo, and then tracks changes by repo (as shown in the following screenshot).
+If the repositories you want to use are independent of each other and don't need to be part of the same solution, you might want to use a folder to open them.
 
-:::image type="content" source="media/vs-2022/multi-repo-open-folder-solution.png" alt-text="Screenshot showing how you can activate multiple repositories from a folder or a solution in Visual Studio.":::
+To do so, you can place the local repo directories in the same parent folder and then use the **Open a local folder** option from the Visual Studio launch page to open the parent folder. Visual Studio detects and activates each repo, and then tracks changes by repo (as shown in the following screenshot).
+
+:::image type="content" source="media/vs-2022/multi-repo-open-folder-solution.png" alt-text="Screenshot showing how you can activate multiple repositories from a folder in Visual Studio.":::
 
 ## Next steps
 
