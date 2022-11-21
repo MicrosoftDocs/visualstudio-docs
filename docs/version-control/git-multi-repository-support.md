@@ -55,24 +55,27 @@ You can use the **Git Repository Settings** page to specify your options for eac
 
 :::image type="content" source="media/vs-2022/multi-repo-git-repository-settings.png" alt-text="Screenshot of the Git Repository Settings option in Visual Studio.":::
 
-## Open folder
+## Activate multiple repos from a solution or a folder
 
-Additionally, you can activate multiple repositories from either a folder or a solution.
+You can activate multiple repositories from either a solution or a folder.
 
-:::image type="content" source="media/vs-2022/multi-repo-open-folder-solution.png" alt-text="Screenshot showing how you can activate multiple repositories from a folder or a solution in Visual Studio.":::
+### Use a solution
 
 Here's how to create a solution with multiple repositories:
 
 1. Open one of your existing solutions that already has a repository initialized.
 
-1. Right-click the solution in the Solution Explorer, and then select **Add** > **Existing Project**.
+1. Right-click the solution in the Solution Explorer, and then select **Add** > **[Existing Project](../ide/use-solution-explorer.md#the-add-context-menu-fly-out)**.
 
 1. Select the .csproj file for another project that has a repository initialized.
 
    After the project's added, Visual Studio detects and activates the second repo. Then, you can adjust Project References as necessary.
 
-> [!TIP]
-> Here's a scenario where you might want to use the folder view: If the repositories are independed of each other and don't need to be part of the same solution. You can place the local repo directories in the same parent folder and use the **Open a local folder** option from the Visual Studio launch page to open the parent folder. Visual Studio detects and activates each repo, and then tracks changes by repo (as shown previous screenshot).
+### Use a folder
+
+If the repositories you want to use are independent of each other and don't need to be part of the same solution, you might want to use a folder to open them. To do so, you can place the local repo directories in the same parent folder and then use the **Open a local folder** option from the Visual Studio launch page to open the parent folder. Visual Studio detects and activates each repo, and then tracks changes by repo (as shown in the following screenshot).
+
+:::image type="content" source="media/vs-2022/multi-repo-open-folder-solution.png" alt-text="Screenshot showing how you can activate multiple repositories from a folder or a solution in Visual Studio.":::
 
 ## Next steps
 
