@@ -197,7 +197,7 @@ ms.workload:
 
 ## Deployment error occurred trying to recycling the IIS Application Pool on the SharePoint Server
 
- This problem occurs if the IIS 6 WMI Compatibility feature and .NET 3.5 to be installed on the SharePoint Server machine.
+ This problem occurs if the IIS 6 WMI Compatibility feature and .NET Framework 3.5 are not installed on the SharePoint Server machine.
 
 ### Error messages
 
