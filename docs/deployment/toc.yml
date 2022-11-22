@@ -59,7 +59,7 @@
     items:
     - name: Overview of ClickOnce security and deployment
       href: clickonce-security-and-deployment.md
-      name: ClickOnce for .NET
+    - name: ClickOnce for .NET
       items:
       - name: ClickOnce for .NET on Windows
         href: clickonce-deployment-dotnet.md
