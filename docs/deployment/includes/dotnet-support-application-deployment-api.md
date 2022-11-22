@@ -9,4 +9,4 @@ ms.topic: include
 ---
 
 > [!NOTE]
-> The <xref:System.Deployment.Application.ApplicationDeployment> class and APIs in the <xref:System.Deployment.Application> namespace are not supported in .NET Core and .NET 5 and later versions. However, .NET 7 supports a new method of accessing application deployment properties. For more information, see [Access ClickOnce deployment properties in .NET](../deployment/access-clickonce-deployment-properties-dotnet.md).
+> The <xref:System.Deployment.Application.ApplicationDeployment> class and APIs in the <xref:System.Deployment.Application> namespace are not supported in .NET Core and .NET 5 and later versions. However, .NET 7 supports a new method of accessing application deployment properties. For more information, see [Access ClickOnce deployment properties in .NET](../../deployment/access-clickonce-deployment-properties-dotnet.md).
