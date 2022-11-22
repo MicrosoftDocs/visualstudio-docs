@@ -1,7 +1,7 @@
 ---
 title: "Write and debug code by using Hot Reload"
 description: "Hot Reload, similar to edit and continue, allows you to make changes to your code while running apps"
-ms.date: 11/05/2021
+ms.date: 11/22/2022
 ms.topic: conceptual
 helpviewer_keywords:
   - "Hot reload"
@@ -196,6 +196,10 @@ If you select the **Always rebuild** option in the dialog box, you won't see the
 
 > [!NOTE]
 > In the first release of Visual Studio (version 17.0) the standard Edit and Continue dialog is still shown when using Hot Reload with the debugger. This was a bug and has been resolved starting with 17.1 Preview 2 release.
+
+## Troubleshooting
+
+For ASP.NET Core, if you're using response compression, see the information on [response compression](/dotnet/core/tools/dotnet-watch#description) in `dotnet watch`.
 
 ## See also
 
