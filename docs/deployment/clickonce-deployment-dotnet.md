@@ -1,7 +1,7 @@
 ---
 title: ClickOnce for .NET 5 and later on Windows
 description: "Learn about differences between ClickOnce for .NET Core 3.1, .NET 5 and later versus ClickOnce for .NET Framework."
-ms.date: 09/14/2022
+ms.date: 11/22/2022
 ms.topic: how-to
 helpviewer_keywords:
   - "deployment, ClickOnce for .NET 5+"
