@@ -23,19 +23,19 @@ The application launcher shares ClickOnce application deployment properties with
 
 The variable names closely match the properties in the .NET Framework <xref:System.Deployment.Application.ApplicationDeployment> class. The new variable names include a ClickOnce_ prefix:
 
-ClickOnce_IsNetworkDeployed
-ClickOnce_ActivationUri
-ClickOnce_CurrentVersion
-ClickOnce_DataDirectory
-ClickOnce_IsFirstRun
-ClickOnce_TimeOfLastUpdateCheck
-ClickOnce_UpdatedApplicationFullName
-ClickOnce_UpdatedVersion
-ClickOnce_UpdateLocation
+- [ClickOnce_IsNetworkDeployed](/dotnet/api/system.deployment.application.applicationdeployment.isnetworkdeployed)
+- [ClickOnce_ActivationUri](/dotnet/api/system.deployment.application.applicationdeployment.activationuri)
+- [ClickOnce_CurrentVersion](/dotnet/api/system.deployment.application.applicationdeployment.currentversion)
+- [ClickOnce_DataDirectory](/dotnet/api/system.deployment.application.applicationdeployment.datadirectory)
+- [ClickOnce_IsFirstRun](/dotnet/api/system.deployment.application.applicationdeployment.isfirstrun)
+- [ClickOnce_TimeOfLastUpdateCheck](/dotnet/api/system.deployment.application.applicationdeployment.timeoflastupdatecheck)
+- [ClickOnce_UpdatedApplicationFullName](/dotnet/api/system.deployment.application.applicationdeployment.updatedapplicationfullname)
+- [ClickOnce_UpdatedVersion](/dotnet/api/system.deployment.application.applicationdeployment.updatedversion)
+- [ClickOnce_UpdateLocation](/dotnet/api/system.deployment.application.applicationdeployment.updatelocation)
 
-In addition to these, a new property is available that returns the launcher version:
+In addition to these, a new property is available that returns the application launcher version:
 
-ClickOnce_LauncherVersion
+- ClickOnce_LauncherVersion
 
 A .NET application can use these properties directly or indirectly.
 
