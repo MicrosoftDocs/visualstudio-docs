@@ -1,7 +1,7 @@
 ---
 title: Introduction to projects and solutions
 description: Learn about the difference between projects and solutions and how to use them in Visual Studio.
-ms.date: 11/12/2021
+ms.date: 11/22/2022
 ms.technology: vs-ide-general
 ms.custom: [vs-acquisition,  get-started, SEO-VS-2020]
 ms.topic: tutorial
@@ -124,7 +124,7 @@ Now add your first project to the solution. Start with an empty project, and add
 
 1. On the **Configure your new project** page, name the project **QuickDate**, and then select **Create**.
 
-   The **QuickDate** project appears under the solution in **Solution Explorer**. Currently the project contains a single file called **App.config**.
+   The **QuickDate** project appears under the solution in **Solution Explorer**. The project contains a References node and a single file named **App.config**.
 
 ::: moniker-end
 
@@ -231,7 +231,7 @@ You'll use the new unit test project to test your method in the **QuickDate** pr
 
 1. In **Solution Explorer**, right-click the **References** node of the **QuickTest** project, and select **Add Reference** from the context menu.
 
-1. In the **Reference Manager** dialog box, under **Projects**, select the checkbox next to **QuickDate**, and then select **OK**.
+1. In the **Reference Manager** dialog box, select **Projects**. In the middle pane, select the checkbox next to **QuickDate**, and then select **OK**.
 
    A reference to the **QuickDate** project appears under the **QuickTest** project in **Solution Explorer**.
 
@@ -302,7 +302,7 @@ To check that your unit test is working, choose **Test** > **Run All Tests** fro
 ::: moniker-end
 
 > [!TIP]
-> If **Test Explorer** doesn't open automatically, open it by choosing **Test** > **Test Explorer** from the menu bar.
+> You can also open **Test Explorer** by choosing **Test** > **Test Explorer** from the menu bar.
 
 ## Project properties
 
