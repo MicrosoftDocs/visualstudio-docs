@@ -42,7 +42,7 @@ In Visual Studio, a solution isn't an "answer". A solution is simply a container
 
 ### Create a solution
 
-Start your exploration by creating an empty solution. After you get to know Visual Studio, you probably won't create empty solutions very often. When you create a new project, Visual Studio automatically creates a solution for the project unless a solution is already open.
+Start your exploration by creating an empty solution. After you get to know Visual Studio, you probably won't create empty solutions often. When you create a new project, Visual Studio automatically creates a solution for the project unless a solution is already open.
 
 ::: moniker range="vs-2019"
 
@@ -263,7 +263,7 @@ You'll use the new unit test project to test your method in the **QuickDate** pr
 
    A red squiggle appears under some of the code. You can fix this error by making the test project a [friend assembly](/dotnet/standard/assembly/friend-assemblies) to the **QuickDate** project.
 
-1. In the *Calendar.cs* file, add the following [using statement](/dotnet/csharp/language-reference/keywords/using-statement) and <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute to the top of the file to resolve the error in the test project.
+1. In the ***Calendar.cs*** file, add the following [using statement](/dotnet/csharp/language-reference/keywords/using-statement) and <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute to the top of the file to resolve the error in the test project.
 
    ```csharp
    using System.Runtime.CompilerServices;
