@@ -78,7 +78,7 @@ if (ApplicationDeployment.IsNetworkDeployed)
 
 ## ActivationUri and URL parameters
 
-In .NET 7, dotnet-mage supports a new switch, `-TrustURLParameters` or `-tu`. This switch allows you to set the required deployment attribute using the dotnet-mage tool. This is an improvement over old Mage tool, which did not support this functionality and instead required you to manually modify the application manifest to add the `trustURLParameters` attribute, as follows: <deployment install="true" trustURLParameters="true">
+In .NET 7, dotnet-mage supports a new switch, `-TrustURLParameters` or `-tu`. This switch allows you to set the required deployment attribute using the dotnet-mage tool. This is an improvement over old Mage tool, which did not support this functionality and instead required you to manually modify the application manifest to add the `trustURLParameters` attribute, as follows: \<deployment install="true" trustURLParameters="true"\>
 
 You need to set trustURLParameters to true to allow the application to access ActivationUri and the URL parameters.
 
