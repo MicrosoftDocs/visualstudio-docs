@@ -31,7 +31,9 @@ For building from the command line using MSBUILD, you need to specify the *.pubx
 
 In .NET Core 3.1, .NET 5, and .NET 6, you don't have programmatic access to the <xref:System.Deployment.Application.ApplicationDeployment> class or to other APIs in the <xref:System.Deployment.Application> namespace.
 
+::: moniker range=">=vs-2022"
 Starting in .NET 7, you can access properties in the `ApplicationDeployment` class using environment variables. For more information, see [Access ClickOnce deployment properties in .NET](../deployment/access-clickonce-deployment-properties-dotnet.md).
+::: moniker-end
 
 ## Mage.exe
 

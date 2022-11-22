@@ -39,6 +39,8 @@ In addition to these, a new property is available that returns the application l
 
 A .NET application can use these properties directly or indirectly.
 
+## Access properties
+
 The following code example shows how to access two properties directly, `ClickOnce_IsNetworkDeployed` and `ClickOnce_ActivationUri`.
 
 ```csharp
@@ -56,3 +58,30 @@ if (Environment.GetEnvironmentVariable("ClickOnce_IsNetworkDeployed")?.ToLower()
 }
 ```
 
+Indirect usage of these properties requires the implementation of a new ApplicationDeployment class, at the application level, that abstracts the reading of environment variables and provides an experience that is very similar to old .NET Framework class.
+
+For a sample implementation of this class, see [ApplicationDeployment.cs](https://github.com/dotnet/deployment-tools/blob/main/Documentation/dotnet-mage/ApplicationDeployment.cs).
+
+With the addition of this class, you can use it as follows:
+
+```csharp
+NameValueCollection nameValueTable = new NameValueCollection();
+if (ApplicationDeployment.IsNetworkDeployed)
+{
+    ApplicationDeployment ad = ApplicationDeployment.CurrentDeployment;
+    if (ad.ActivationUri != null)
+    {
+        nameValueTable = HttpUtility.ParseQueryString(ad.ActivationUri.Query);
+    }
+}
+```
+
+## ActivationUri and URL parameters
+
+In .NET 7, dotnet-mage supports a new switch, `-TrustURLParameters` or `-tu`. This switch allows you to set the required deployment attribute using the dotnet-mage tool. This is an improvement over old Mage tool, which did not support this functionality and instead required you to manually modify the application manifest to add the `trustURLParameters` attribute, as follows: <deployment install="true" trustURLParameters="true">
+
+You need to set trustURLParameters to true to allow the application to access ActivationUri and the URL parameters.
+
+## See also
+
+[ClickOnce for .NET on Windows](../deployment/clickonce-deployment-dotnet.md)
