@@ -27,7 +27,7 @@ open_to_public_contributors: false
 
 [!INCLUDE[workloads-components-header-2019_md](includes/workloads-components-header-2019_md.md)]
 
-[!include[Visual Studio Community 2019](includes/vs-2019/workload-component-id-vs-enterprise.md)]
+[!include[Visual Studio Enterprise 2019](includes/vs-2019/workload-component-id-vs-enterprise.md)]
 
 ::: moniker-end
 
@@ -35,7 +35,7 @@ open_to_public_contributors: false
 
 [!INCLUDE[workloads-components-header-2022_md](includes/workloads-components-header-2022.md)]
 
-[!include[Visual Studio Community 2022](includes/vs-2022/workload-component-id-vs-enterprise.md)]
+[!include[Visual Studio Enterprise 2022](includes/vs-2022/workload-component-id-vs-enterprise.md)]
 
 ::: moniker-end
 
