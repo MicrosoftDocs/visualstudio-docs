@@ -248,7 +248,9 @@ When an update is available, the update notification UI in the IDE provides a wa
 
 ## Remove out-of-support components
 
-Using the [latest Visual Studio 2022 Installer](#install-the-latest-and-greatest-installer) available with the Visual Studio 2022 version 17.4 release, you can now remove components that have transitioned to an out-of-support state all at once manually by using the installer or [programmatically](./use-command-line-parameters-to-install-visual-studio.md). 
+Using the [latest Visual Studio 2022 installer](#install-the-latest-and-greatest-installer), you can now bulk remove [components that have transitioned to an out-of-support state](/visualstudio/install/out-of-support-components). You can manually remove them by using the installer as described below, you can remove them [programmatically](./use-command-line-parameters-to-install-visual-studio.md), or you have them removed via machine wide [policy](/visualstudio/install/set-defaults-for-enterprise-deployments). Learn more about [removing out-of-support components](https://aka.ms/vs/removeoos/blog) and how it can help keep your software environment secure.
+
+To bulk remove out-of-support components manually through the UI you can 
 
 1. Open the Visual Studio Installer, and then select **Modify**.
 1. Select **Remove all out-of-support components**.
@@ -257,11 +259,9 @@ Using the [latest Visual Studio 2022 Installer](#install-the-latest-and-greatest
    
 All components with an out-of-support label will be deselected and get uninstalled.
 
-You can also configure a specific Visual Studio instance to persistently remove all components that transition to an out-of-support state by selecting the option **More**> **Update Settings**> **Remove all out-of-support components during future updates** in the Visual Studio Installer. Once this setting is configured, any component that transitions to an out-of-support state will be removed during the next Visual Studio update for this instance of Visual Studio.
+You can also configure a specific Visual Studio instance to _persistently_ remove all components that transition to an out-of-support state by selecting the option **More**> **Update Settings**> **Remove all out-of-support components during future updates** in the Visual Studio Installer. Once this setting is configured, any component that transitions to an out-of-support state in the future will be removed during the next Visual Studio update for that instance of Visual Studio.
 
    ![Screenshot of the persistent remove out-of-support components during future updates.](media/vs-2022/remove-all-out-support-components-during-future-updates.png)
-
-Refer to this page for a listing of [all the components that are currently considered out-of-support](/visualstudio/install/out-of-support-components). Learn more about [removing out-of-support components](https://aka.ms/vs/removeoos/blog) and how it can help keep your software secure.
 
 ::: moniker-end
 
