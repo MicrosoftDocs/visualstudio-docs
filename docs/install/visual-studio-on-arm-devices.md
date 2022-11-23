@@ -46,7 +46,7 @@ There is a single installer for both x64 and Arm64 Visual Studio. The installer 
 
 ## Supported workloads
 
-The first preview for Arm64 supports the following workloads:
+The  Arm64 GA supports the following workloads:
 
 - .NET desktop development
 - Desktop development with C++
