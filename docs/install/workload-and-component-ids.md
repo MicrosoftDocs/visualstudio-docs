@@ -74,4 +74,5 @@ For more information about how to use these lists, see the [Use command-line par
 * [Visual Studio administrator guide for Visual Studio](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
   * [Command-line parameter examples](command-line-parameter-examples.md)
+* [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 * [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)
