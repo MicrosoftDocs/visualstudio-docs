@@ -253,15 +253,15 @@ Using the [latest Visual Studio 2022 Installer](#install-the-latest-and-greatest
 1. Open the Visual Studio Installer, and then select **Modify**.
 1. Select **Remove all out-of-support components**.
     
-    :::image type="content" source="media/vs-2022/remove-out-of-support-components.png" alt-text="Screenshot of the Remove out-of-support components option.":::
-
+   ![Screenshot of the Remove out-of-support components option.](media/vs-2022/remove-out-of-support-components.png)
+   
 All components with an out-of-support label will be deselected and get uninstalled.
 
-You can also configure a specific Visual Studio instance to persistently remove all components that transition to an out-of-support state by selecting the option **More**> **Update Settings**> **Remove all out-of-state components during future updates** in the Visual Studio Installer. Once this setting is configured, any component that transitions to an out-of-support state will be removed during the next Visual Studio update for this instance of Visual Studio.
+You can also configure a specific Visual Studio instance to persistently remove all components that transition to an out-of-support state by selecting the option **More**> **Update Settings**> **Remove all out-of-support components during future updates** in the Visual Studio Installer. Once this setting is configured, any component that transitions to an out-of-support state will be removed during the next Visual Studio update for this instance of Visual Studio.
 
-:::image type="content" source="media/vs-2022/remove-all-out-support-components-during-future-updates.png" alt-text="Screenshot of Remove all out-of-state components during future updates option in the Update Settings dialog.":::
+   ![Screenshot of the persistent remove out-of-support components during future updates.](media/vs-2022/remove-all-out-support-components-during-future-updates.png)
 
-Learn more about [removing out-of-support components](https://aka.ms/vs/removeoos/blog) and how it can help keep your software secure.
+Refer to this page for a listing of [all the components that are currently considered out-of-support](/visualstudio/install/out-of-support-components). Learn more about [removing out-of-support components](https://aka.ms/vs/removeoos/blog) and how it can help keep your software secure.
 
 ::: moniker-end
 
