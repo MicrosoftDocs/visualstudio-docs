@@ -1269,7 +1269,7 @@
     items:
     - name: Develop secure applications
       href: ide/securing-applications.md
-    - name: Run Visual Studio as normal user or administrator
+    - name: Run Visual Studio as an administrator
       href: ide/user-permissions-and-visual-studio.md
     - name: Windows Information Protection (WIP)
       href: ide/exempt-visual-studio-from-wip.md
