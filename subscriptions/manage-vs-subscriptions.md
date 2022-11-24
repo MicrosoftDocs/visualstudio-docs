@@ -88,7 +88,7 @@ To add an alternate account:
 
 1. Sign in to the [Subscriber Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) with your Microsoft Account (MSA).
 2. Select the **Subscriptions** tab.
-3. Under **Related Links**, choose **Add alternate account**.
+3. Under **Alternate account**, choose **Add alternate account**.
 4. Enter your work/school account email address and select **Add**.
 
 After you've added an alternate account, you can update or remove it at any time by selecting the **Subscriptions** tab and choosing the appropriate option in the **Related Links** section.

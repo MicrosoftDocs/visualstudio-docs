@@ -1,7 +1,7 @@
 ---
 title: Create a branch
 description: Create a branch for source control in Visual Studio with Git.
-ms.date: 10/20/2022
+ms.date: 11/23/2022
 ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
@@ -39,6 +39,9 @@ There you have it; you've created a new branch.
 
 > [!TIP]
 > The equivalent command for this action is `git checkout -b <new-branch> <existing-branch>`.
+
+> [!NOTE]
+> For more information about the latest updates that improve branch switching, see the [Visual Studio 2022 Performance Enhancements: Git Branch Switching](https://devblogs.microsoft.com/visualstudio/vs2022-performance-enhancements-git-branch-switching/) blog post.
 
 ## Next steps
 
