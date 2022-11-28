@@ -2,7 +2,7 @@
 title: Standard and Custom Toolset Configurations | Microsoft Docs
 description: Learn about standard and custom MSBuild Toolsets, which contain references to tasks, targets, and tools you can use to build an application project.
 ms.custom: SEO-VS-2020
-ms.date: 01/31/2018
+ms.date: 11/10/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, custom toolset configurations
@@ -17,60 +17,13 @@ ms.workload:
 ---
 # Standard and custom Toolset configurations
 
-An MSBuild Toolset contains references to tasks, targets, and tools that you can use to build an application project. MSBuild includes a standard Toolset, but you can also create custom Toolsets. For information about how to specify a Toolset, see [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)
+An MSBuild toolset contains references to tasks, targets, and tools that you can use to build an application project. MSBuild includes a standard toolset, but you can also create custom toolsets.
 
-## Standard Toolset configurations
+## Standard toolset configurations
 
-::: moniker range=">=vs-2022"
- MSBuild 17.0 includes the following standard Toolsets:
+MSBuild contains the standard toolset `Current` that references the current version of MSBuild, which is installed to the folder *MSBuild\Current\Bin* under the Visual Studio installation directory.
 
-|ToolsVersion|Toolset path (as specified in the MSBuildToolsPath or MSBuildBinPath build property)|
-|------------------| - |
-|2.0|*\<Windows installation path>\Microsoft.Net\Framework\v2.0.50727\\*|
-|3.5|*\<Windows installation path>\Microsoft.NET\Framework\v3.5\\*|
-|4.0|*\<Windows installation path>\Microsoft.NET\Framework\v4.0.30319\\*|
-|Current|*\<Visual Studio installation path>\MSBuild\Current\Bin*|
-
- The `ToolsVersion` value determines which Toolset is used by a project that Visual Studio generates. In Visual Studio 2022, the default value is "Current" (no matter what the version specified in the project file), but you can override that attribute by using the **/toolsversion** switch at a command prompt. For information about this attribute and other ways to specify the `ToolsVersion`, see [Overriding ToolsVersion settings](../msbuild/overriding-toolsversion-settings.md).
-
- ::: moniker-end
-
-::: moniker range="vs-2019"
- MSBuild 16.0 includes the following standard Toolsets:
-
-|ToolsVersion|Toolset path (as specified in the MSBuildToolsPath or MSBuildBinPath build property)|
-|------------------| - |
-|2.0|*\<Windows installation path>\Microsoft.Net\Framework\v2.0.50727\\*|
-|3.5|*\<Windows installation path>\Microsoft.NET\Framework\v3.5\\*|
-|4.0|*\<Windows installation path>\Microsoft.NET\Framework\v4.0.30319\\*|
-|Current|*\<Visual Studio installation path>\MSBuild\Current\bin*|
-
- The `ToolsVersion` value determines which Toolset is used by a project that Visual Studio generates. In Visual Studio 2019, the default value is "Current" (no matter what the version specified in the project file), but you can override that attribute by using the **/toolsversion** switch at a command prompt. For information about this attribute and other ways to specify the `ToolsVersion`, see [Overriding ToolsVersion settings](../msbuild/overriding-toolsversion-settings.md).
-
- ::: moniker-end
-
-Visual Studio 2017 and later versions do not use a registry key for the path to MSBuild. For versions of MSBuild prior to 15.0 that are installed with Visual Studio 2017, the following registry keys specify the installation path of MSBuild.exe.
-
-|Registry key|Key name|String key value|
-|------------------|--------------|----------------------|
-|**\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ MSBuild\ToolsVersions\2.0\\** |**MSBuildToolsPath**|**.NET Framework 2.0 Install Path**|
-|**\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ MSBuild\ToolsVersions\3.5\\** |**MSBuildToolsPath**|**.NET Framework 3.5 Install Path**|
-|**\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ MSBuild\ToolsVersions\4.0\\** |**MSBuildToolsPath**|**.NET Framework 4 Install Path**|
-
-### Sub-toolsets
-
- If the registry key in the previous table has a subkey, MSBuild uses it to determine the path of a sub-toolset that overrides the path in the parent Toolset. The following subkey is an example:
-
- **\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\ToolsVersions\12.0\12.0**
-
- If any properties are defined in both the base Toolset and the selected sub-toolset, the property definitions in the sub-toolset are used. For example, the MSBuild 4.0 Toolset defines `SDK40ToolsPath` to point to the 7.0A SDK, but the MSBuild 4.0\11.0 Toolset defines the same property to point to the 8.0A SDK. If `VisualStudioVersion` is unset, `SDK40ToolsPath` would point to 7.0A, but if `VisualStudioVersion` is set to 11.0, the property would instead point to 8.0A.
-
- The `VisualStudioVersion` build property indicates whether a sub-toolset becomes active. For example, a `VisualStudioVersion` value of "12.0" specifies the MSBuild 12.0 sub-toolset. For more information, see the Sub-toolsets section of [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md).
-
-> [!NOTE]
-> We recommend that you avoid changing these settings. Nevertheless, you can add your own settings and define computer-wide custom Toolset definitions, as the next section describes.
-
-## Custom Toolset definitions
+## Custom toolset definitions
 
  When a standard Toolset does not fulfill your build requirements, you can create a custom `Toolset`. For example, you may have a build lab scenario in which you must have a separate system for building C++ projects. By using a custom `Toolset`, you can assign custom values to the `ToolsVersion` attribute when run *MSBuild.exe* by using the `/toolsVersion` command-line switch. If you specify the `ToolsVersion` attribute in the project file, it is ignored.
 
