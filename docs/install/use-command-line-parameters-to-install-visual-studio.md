@@ -165,7 +165,7 @@ You can modify the update settings and programmatically configure the source loc
 | `--newChannelUri`                               | **Required**: The URI of the channel manifest. This value specifies where the next [source location of updates](update-visual-studio.md#configure-source-location-of-updates-1) will be. Refer to [syntax examples of --channelURI](/visualstudio/install/command-line-parameter-examples#using---channelURI) for possible values. If updates aren't wanted, `--channelUri` can point to a non-existent file (for example, --channelUri C:\doesntExist.chman). |
 | `--channelUri`                               | The URI of the old channel manifest. Can be used if the --installPath is not known. Must be used in conjunction with productID to identify the right instance to act upon. |
 | `--productId <id>`                           | Must be used if --channelUri is specified and is used to identify the right instance to act upon. The `productID` is something like "Microsoft.VisualStudio.Product.Enterprise". |
-| `--quiet, -q`                                   | **Optional**: This parameter prevents any user interface from being displayed while the command is being executed |
+| `--quiet, -q`                                   | **Optional**: This parameter prevents any user interface from being displayed while the command is being executed. |
 | `--removeOos true`                              | **Optional**: During a modifySettings command, this parameter (which must have the word true or false immediately after it) tells the Visual Studio installer to _persistently_ remove (or not remove) all installed components that have transitioned to an out-of-support state. Useful for helping to keep the machine secure. | 
 
 Syntax examples: 
@@ -192,7 +192,7 @@ You can rollback the update programmatically by using the installer on the clien
 Syntax examples: 
 
   ```shell
-  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" rollback -–installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise"`
+  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" rollback -–installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise"
   ```
  
  
@@ -214,7 +214,31 @@ Note that all Administrator Update parameters are default run in the "update" co
 | `--installerUpdateArgs [optional parameters]` | This parameter functions as a "pass-through array" of specific parameters that are relevant to administrator update scenarios. Optional parameters that are enabled for this purpose are: <br/><br/> `--quiet`: This is the default experience for administrator updates and is listed here for completeness. <br/> `--passive`: This parameter overrides the `--quiet` parameter.  It causes the UI to appear in a non-interactive manner. <br/>`--norestart`: This parameter must be used in conjunction with either `--quiet` or `--passive` and it causes any necessary reboots to be delayed. <br/>`--noWeb`: This parameter prevents Visual Studio from checking on the internet for updates to the product. <br/>`--force`: This parameter forces Visual Studio to close even if Visual Studio is in use. Use this parameter with caution, as it may cause loss of work. This parameter must only be used when the Administrator update is executed in user context; it is ignored if the Administrator update is executed in system context. <br/>`--installWhileDownloading`: This parameter allows Visual Studio to both download and install the product in parallel. It's the default experience for administrator updates and is listed here for completeness. <br/>`--keepWindowsUpdateOn`: This parameter prevents the installer from turning off the Windows Update agent on the client. You should use this parameter if you're importing an Administrator update from the Catalog into SCCM. You may also need to set the SCCM package timeout to be longer than the default 10 minutes. Changing the SCCM deployment type to be Required makes this parameter unnecessary.<br/>`--downloadThenInstall`: This parameter forces Visual Studio to download all files before installing them. It is mutually exclusive from the `--installWhileDownloading` parameter. |
 | `--checkPendingReboot`                        | The update will be aborted if there is a pending reboot on the machine, regardless of which application may have caused it. The default is to not check for pending reboots.    |
 
-Syntax example: `visualstudioupdate-16.9.0to16.9.4.exe --installerUpdateArgs=--force,--noWeb,--keepWindowsUpdateOn --checkPendingReboot`
+Syntax example:
+
+```shell
+visualstudioupdate-16.9.0to16.9.4.exe --installerUpdateArgs=--force,--noWeb,--keepWindowsUpdateOn --checkPendingReboot
+```
+
+## Remove channel command and command-line parameters
+Update channels are cached on the client, and over time they can clutter things up. You can manually remove channels by bringing up the Visual Studio installer, switching to the Available tab, and clicking on the X in the top right corner of the product card. You can programmatically remove channels, like to older layout locations, using the removeChannel command. Note that this command only works using the installer, not the bootstrapper.
+
+
+| **Command** | **Description**                                                                                                         |
+|-------------|-------------------------------------------------------------------------------------------------------------------------|
+| `removeChannel`  | Command to remove a channel from the client machine.   |
+ 
+| **removeChannel parameters**                   | **Description**                                                                      |
+|-------------------------------------------|-------------------------------------------------------------------------------------------|
+| `--channelUri`                     | **Required** The URI of the old channel manifest.            |
+| `--quiet`                     | **Optional** This parameter prevents any user interface from being displayed while the command is being executed.            |
+| `--passive`                     | **Optional** This parameter overrides the `--quiet` parameter.  It causes the UI to appear in a non-interactive manner.    |
+
+Syntax example: 
+
+  ```shell
+  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" removeChannel --channelUri "https://aka.ms/vs/17/pre/channel"
+  ```
 
 ## List of workload IDs and component IDs
 
